@@ -943,7 +943,7 @@ string
 }
 JSString
 *
-jsd_GetValueFunctionName
+jsd_GetValueFunctionId
 (
 JSDContext
 *

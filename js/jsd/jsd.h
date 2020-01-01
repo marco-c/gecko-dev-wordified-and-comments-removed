@@ -1551,7 +1551,7 @@ jsdscript
 extern
 JSString
 *
-jsd_GetScriptFunctionName
+jsd_GetScriptFunctionId
 (
 JSDContext
 *
@@ -2420,7 +2420,7 @@ jsdframe
 extern
 JSString
 *
-jsd_GetNameForStackFrame
+jsd_GetIdForStackFrame
 (
 JSDContext
 *
@@ -3569,7 +3569,7 @@ jsdval
 extern
 JSString
 *
-jsd_GetValueFunctionName
+jsd_GetValueFunctionId
 (
 JSDContext
 *

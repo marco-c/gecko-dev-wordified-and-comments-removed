@@ -765,7 +765,7 @@ JSD_PUBLIC_API
 JSString
 *
 )
-JSD_GetScriptFunctionName
+JSD_GetScriptFunctionId
 (
 JSDContext
 *
@@ -1814,7 +1814,7 @@ JSD_PUBLIC_API
 JSString
 *
 )
-JSD_GetNameForStackFrame
+JSD_GetIdForStackFrame
 (
 JSDContext
 *
@@ -2535,7 +2535,7 @@ JSD_PUBLIC_API
 JSString
 *
 )
-JSD_GetValueFunctionName
+JSD_GetValueFunctionId
 (
 JSDContext
 *

@@ -702,7 +702,7 @@ jsdscript
 ;
 fun
 =
-jsd_GetScriptFunctionName
+jsd_GetScriptFunctionId
 (
 jsdc
 jsdscript
@@ -1961,7 +1961,7 @@ url
 }
 JSString
 *
-jsd_GetScriptFunctionName
+jsd_GetScriptFunctionId
 (
 JSDContext
 *

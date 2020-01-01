@@ -156,7 +156,7 @@ jsdscript
 )
 funName
 =
-JSD_GetScriptFunctionName
+JSD_GetScriptFunctionId
 (
 jsdc
 jsdscript

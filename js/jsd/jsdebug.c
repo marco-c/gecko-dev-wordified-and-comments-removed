@@ -924,7 +924,7 @@ JSD_PUBLIC_API
 JSString
 *
 )
-JSD_GetScriptFunctionName
+JSD_GetScriptFunctionId
 (
 JSDContext
 *
@@ -945,7 +945,7 @@ jsdscript
 )
 ;
 return
-jsd_GetScriptFunctionName
+jsd_GetScriptFunctionId
 (
 jsdc
 jsdscript
@@ -2556,7 +2556,7 @@ JSD_PUBLIC_API
 JSString
 *
 )
-JSD_GetNameForStackFrame
+JSD_GetIdForStackFrame
 (
 JSDContext
 *
@@ -2575,7 +2575,7 @@ jsdc
 )
 ;
 return
-jsd_GetNameForStackFrame
+jsd_GetIdForStackFrame
 (
 jsdc
 jsdthreadstate
@@ -3882,7 +3882,7 @@ JSD_PUBLIC_API
 JSString
 *
 )
-JSD_GetValueFunctionName
+JSD_GetValueFunctionId
 (
 JSDContext
 *
@@ -3903,7 +3903,7 @@ jsdval
 )
 ;
 return
-jsd_GetValueFunctionName
+jsd_GetValueFunctionId
 (
 jsdc
 jsdval

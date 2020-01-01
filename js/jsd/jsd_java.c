@@ -545,15 +545,11 @@ jsdc
 jsdscript
 )
 ;
-char
+JSString
 *
 function
 =
-(
-char
-*
-)
-JSD_GetScriptFunctionName
+JSD_GetScriptFunctionId
 (
 jsdc
 jsdscript
