@@ -300,7 +300,7 @@ EventUtils
 synthesizeKey
 (
 "
-E
+e
 "
 {
 accelKey
