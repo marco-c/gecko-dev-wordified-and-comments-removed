@@ -846,8 +846,6 @@ jstring
 aSender
 jstring
 aBody
-jint
-aMessageClass
 jlong
 aTimestamp
 )
@@ -954,13 +952,6 @@ nsJNIString
 (
 aBody
 jenv
-)
-static_cast
-<
-MessageClass
->
-(
-aMessageClass
 )
 aTimestamp
 false
@@ -1295,7 +1286,6 @@ nsJNIString
 aBody
 jenv
 )
-eMessageClass_Normal
 aTimestamp
 true
 )
@@ -1469,7 +1459,6 @@ nsJNIString
 aBody
 jenv
 )
-eMessageClass_Normal
 aTimestamp
 true
 )
@@ -1903,7 +1892,6 @@ nsJNIString
 aBody
 jenv
 )
-eMessageClass_Normal
 aTimestamp
 true
 )
@@ -2881,7 +2869,6 @@ nsJNIString
 aBody
 jenv
 )
-eMessageClass_Normal
 aTimestamp
 true
 )
@@ -3137,7 +3124,6 @@ nsJNIString
 aBody
 jenv
 )
-eMessageClass_Normal
 aTimestamp
 true
 )

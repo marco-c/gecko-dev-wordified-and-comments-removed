@@ -1407,8 +1407,6 @@ String
 aSender
 String
 aBody
-int
-aMessageClass
 long
 aTimestamp
 )

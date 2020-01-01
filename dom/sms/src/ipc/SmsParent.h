@@ -122,10 +122,6 @@ nsString
 &
 aBody
 const
-nsString
-&
-aMessageClass
-const
 uint64_t
 &
 aDate

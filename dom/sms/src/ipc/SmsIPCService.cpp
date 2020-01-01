@@ -261,10 +261,6 @@ nsAString
 &
 aBody
 const
-nsAString
-&
-aMessageClass
-const
 jsval
 &
 aTimestamp
@@ -292,7 +288,6 @@ aDeliveryStatus
 aSender
 aReceiver
 aBody
-aMessageClass
 aTimestamp
 aRead
 aCx
@@ -314,10 +309,6 @@ const
 nsAString
 &
 aBody
-const
-nsAString
-&
-aMessageClass
 uint64_t
 aDate
 int32_t
@@ -339,10 +330,6 @@ aSender
 nsString
 (
 aBody
-)
-nsString
-(
-aMessageClass
 )
 aDate
 aId
