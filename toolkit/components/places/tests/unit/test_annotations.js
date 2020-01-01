@@ -440,7 +440,12 @@ testItemId
 do_check_eq
 (
 lastModified
-0
+bmsvc
+.
+getItemDateAdded
+(
+testItemId
+)
 )
 ;
 annosvc

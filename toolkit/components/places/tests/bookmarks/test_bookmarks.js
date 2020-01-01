@@ -775,7 +775,7 @@ newId
 do_check_eq
 (
 lastModified
-0
+dateAdded
 )
 ;
 var
@@ -1907,7 +1907,7 @@ kwTestItemId
 do_check_eq
 (
 lastModified
-0
+dateAdded
 )
 ;
 bmsvc
@@ -2732,7 +2732,7 @@ newId10
 do_check_eq
 (
 lastModified
-0
+dateAdded
 )
 ;
 bmsvc
@@ -3632,14 +3632,7 @@ newId14
 do_check_eq
 (
 lastModified
-0
-)
-;
-do_check_true
-(
 dateAdded
->
-lastModified
 )
 ;
 bmsvc
@@ -4105,7 +4098,9 @@ do_check_eq
 node
 .
 lastModified
-0
+node
+.
+dateAdded
 )
 ;
 do_check_eq
