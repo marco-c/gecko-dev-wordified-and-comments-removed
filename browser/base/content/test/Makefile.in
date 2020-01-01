@@ -896,6 +896,10 @@ browser_getshortcutoruri
 .
 js
 \
+browser_hide_removing
+.
+js
+\
 browser_inspector_initialization
 .
 js
