@@ -461,6 +461,10 @@ is
 generator
 .
 js
+script
+weakmap
+.
+js
 skip
 -
 if
