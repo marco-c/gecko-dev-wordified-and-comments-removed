@@ -557,6 +557,14 @@ reftest
 .
 list
 #
+selection
+include
+selection
+/
+reftest
+.
+list
+#
 svg
 /
 include
