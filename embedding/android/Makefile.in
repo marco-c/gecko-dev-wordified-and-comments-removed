@@ -366,11 +366,6 @@ java
 (
 NULL
 )
-GARBAGE_DIRS
-+
-=
-classes
-res
 #
 Bug
 567884
@@ -875,12 +870,6 @@ PROCESSEDJAVAFILES
 R
 .
 java
-(
-NSINSTALL
-)
--
-D
-classes
 (
 JAVAC
 )
