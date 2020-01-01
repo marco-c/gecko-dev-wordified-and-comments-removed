@@ -935,7 +935,9 @@ CGContextCopyPath
 cg
 )
 ;
-return
+bool
+inStroke
+=
 CGPathContainsPoint
 (
 sPath
@@ -943,6 +945,14 @@ nullptr
 point
 false
 )
+;
+CGPathRelease
+(
+sPath
+)
+;
+return
+inStroke
 ;
 }
 Rect
