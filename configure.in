@@ -76132,7 +76132,7 @@ mingw
 )
 PYTHON
 =
-pwd
+MOZ_BUILD_ROOT
 /
 _virtualenv
 /
@@ -76147,7 +76147,7 @@ exe
 )
 PYTHON
 =
-pwd
+MOZ_BUILD_ROOT
 /
 _virtualenv
 /
