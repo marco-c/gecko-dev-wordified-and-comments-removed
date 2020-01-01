@@ -40,7 +40,7 @@ sNumSlots
 =
 2
 ;
-JSFastNative
+JSNative
 sEvalNative
 =
 nsnull
@@ -1309,12 +1309,9 @@ iterObj
 "
 next
 "
-(
-JSNative
-)
 IteratorNext
 0
-JSFUN_FAST_NATIVE
+0
 )
 )
 {
@@ -1772,12 +1769,9 @@ iterObj
 "
 next
 "
-(
-JSNative
-)
 IteratorNext
 0
-JSFUN_FAST_NATIVE
+0
 )
 )
 {

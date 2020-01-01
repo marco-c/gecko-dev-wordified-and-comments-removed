@@ -644,7 +644,7 @@ JSNative
 PropertyOpForwarder
 )
 argc
-JSFUN_FAST_NATIVE
+0
 obj
 name
 )
@@ -1404,7 +1404,7 @@ obj
 return
 JS_FALSE
 ;
-JSFastNative
+JSNative
 forward
 =
 wantGetter
@@ -1843,8 +1843,6 @@ fs
 >
 arity
 flags
-|
-JSFUN_FAST_NATIVE
 )
 )
 return
@@ -1900,8 +1898,6 @@ ts
 >
 arity
 flags
-|
-JSFUN_FAST_NATIVE
 |
 JSFUN_STUB_GSOPS
 |
@@ -2256,7 +2252,7 @@ cx
 funobj
 )
 "
-JSFastNative
+JSNative
 callee
 should
 be

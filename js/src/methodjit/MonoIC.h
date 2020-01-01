@@ -399,7 +399,7 @@ fallthrough
 }
 ;
 void
-CallFastNative
+CallNative
 (
 JSContext
 *
