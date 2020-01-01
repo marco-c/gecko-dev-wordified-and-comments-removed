@@ -689,7 +689,7 @@ data
 {
 SocialToolbar
 .
-updateProfile
+updateProvider
 (
 )
 ;
