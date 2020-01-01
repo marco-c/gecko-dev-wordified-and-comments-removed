@@ -105,6 +105,13 @@ h
 #
 include
 "
+nsIClientAuthDialogs
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -214,6 +221,8 @@ nsISerializable
 public
 nsIClassInfo
 public
+nsIClientAuthUserDecision
+public
 nsNSSShutDownObject
 public
 nsOnPK11LogoutCancelObject
@@ -239,6 +248,7 @@ NS_DECL_NSIIDENTITYINFO
 NS_DECL_NSIASSOCIATEDCONTENTSECURITY
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
+NS_DECL_NSICLIENTAUTHUSERDECISION
 nsresult
 SetSecurityState
 (
@@ -549,6 +559,9 @@ mHandshakeInProgress
 ;
 PRPackedBool
 mAllowTLSIntoleranceTimeout
+;
+PRPackedBool
+mRememberClientAuthCertificate
 ;
 PRIntervalTime
 mHandshakeStartTime
