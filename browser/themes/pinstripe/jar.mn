@@ -167,6 +167,15 @@ browser
 aboutCertError_sectionExpanded
 .
 png
+skin
+/
+classic
+/
+browser
+/
+aboutSocialError
+.
+css
 #
 ifdef
 MOZ_SERVICES_SYNC
