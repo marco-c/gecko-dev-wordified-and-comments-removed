@@ -247,6 +247,10 @@ ThreeDPoint
 .
 h
 \
+WebAudioUtils
+.
+h
+\
 (
 NULL
 )
