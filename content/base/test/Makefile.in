@@ -1277,6 +1277,16 @@ test_bug518104
 .
 html
 \
+test_bug503473
+.
+html
+\
+file_bug503473
+-
+frame
+.
+sjs
+\
 bug457746
 .
 sjs
