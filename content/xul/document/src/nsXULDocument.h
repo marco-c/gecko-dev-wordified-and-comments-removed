@@ -913,15 +913,6 @@ PRLogModuleInfo
 *
 gXULLog
 ;
-bool
-IsCapabilityEnabled
-(
-const
-char
-*
-aCapabilityLabel
-)
-;
 nsresult
 Persist
 (
