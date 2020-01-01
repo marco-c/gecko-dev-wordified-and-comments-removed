@@ -3383,12 +3383,6 @@ DoGetPaintOrder
 (
 )
 ;
-nsROCSSPrimitiveValue
-*
-GetROCSSPrimitiveValue
-(
-)
-;
 nsDOMCSSValueList
 *
 GetROCSSValueList
