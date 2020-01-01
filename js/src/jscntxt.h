@@ -3345,9 +3345,6 @@ AutoValueVector
 class
 AutoIdVector
 ;
-class
-ConservativeGCStackMarker
-;
 struct
 GCMarker
 :
@@ -3388,10 +3385,6 @@ SystemAllocPolicy
 >
 arraysToSlowify
 ;
-ConservativeGCStackMarker
-*
-conservativeMarker
-;
 public
 :
 explicit
@@ -3407,10 +3400,6 @@ color
 0
 )
 unmarkedArenaStackTop
-(
-NULL
-)
-conservativeMarker
 (
 NULL
 )
