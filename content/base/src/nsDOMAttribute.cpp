@@ -3196,7 +3196,7 @@ mChild
 SetText
 (
 value
-PR_TRUE
+PR_FALSE
 )
 ;
 }

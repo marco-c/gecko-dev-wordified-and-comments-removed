@@ -799,6 +799,13 @@ _moz_dirty
 )
 EDITOR_ATOM
 (
+mozEditorBogusNode
+"
+_moz_editor_bogus_node
+"
+)
+EDITOR_ATOM
+(
 cssPxUnit
 "
 px

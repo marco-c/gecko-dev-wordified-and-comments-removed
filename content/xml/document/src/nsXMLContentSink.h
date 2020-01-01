@@ -352,6 +352,16 @@ aContent
 )
 ;
 virtual
+PRBool
+NotifyForDocElement
+(
+)
+{
+return
+PR_TRUE
+;
+}
+virtual
 nsresult
 CreateElement
 (

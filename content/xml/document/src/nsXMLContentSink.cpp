@@ -4003,7 +4003,9 @@ mDocument
 AppendChildTo
 (
 mDocElement
-PR_TRUE
+NotifyForDocElement
+(
+)
 )
 ;
 if
