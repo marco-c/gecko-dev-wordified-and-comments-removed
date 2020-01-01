@@ -999,6 +999,12 @@ kind
 =
 =
 GET
+|
+|
+kind
+=
+=
+CALL
 )
 {
 u
