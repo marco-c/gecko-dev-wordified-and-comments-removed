@@ -1579,7 +1579,7 @@ aEditor
 )
 mIsCSSPrefChecked
 (
-false
+true
 )
 {
 mIsCSSPrefChecked

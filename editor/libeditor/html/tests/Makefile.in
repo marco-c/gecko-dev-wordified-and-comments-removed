@@ -673,6 +673,10 @@ test_root_element_replacement
 .
 html
 \
+test_bug738366
+.
+html
+\
 (
 NULL
 )

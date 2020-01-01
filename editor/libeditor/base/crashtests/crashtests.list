@@ -48,7 +48,7 @@ if
 (
 !
 Android
-1
+2
 )
 load
 633709
@@ -57,6 +57,9 @@ xhtml
 #
 Bug
 695364
+and
+bug
+671153
 asserts
 -
 if
