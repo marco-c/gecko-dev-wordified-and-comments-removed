@@ -267,6 +267,13 @@ py
 PYTHON
 }
 -
+-
+-
+no
+-
+site
+-
+packages
 VENV_DIR
 fi
 .
