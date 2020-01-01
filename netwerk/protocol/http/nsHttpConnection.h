@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsProxyRelease
+.
+h
+"
+#
+include
+"
 prinrval
 .
 h
@@ -671,7 +678,7 @@ mozilla
 Mutex
 mCallbacksLock
 ;
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIInterfaceRequestor
 >
