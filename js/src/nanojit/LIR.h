@@ -3779,6 +3779,11 @@ GC
 gc
 )
 ;
+~
+LInsHashSet
+(
+)
+;
 LInsp
 find32
 (
