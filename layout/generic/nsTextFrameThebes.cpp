@@ -29784,6 +29784,8 @@ newLineOffset
 NewlineProperty
 *
 cachedNewlineOffset
+=
+nsnull
 ;
 if
 (
