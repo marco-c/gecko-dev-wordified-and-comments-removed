@@ -542,9 +542,11 @@ static
 PRBool
 ContentIsDescendantOf
 (
+const
 nsINode
 *
 aPossibleDescendant
+const
 nsINode
 *
 aPossibleAncestor

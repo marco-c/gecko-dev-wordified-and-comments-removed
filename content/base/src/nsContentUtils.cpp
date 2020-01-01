@@ -6620,9 +6620,11 @@ nsContentUtils
 :
 ContentIsDescendantOf
 (
+const
 nsINode
 *
 aPossibleDescendant
+const
 nsINode
 *
 aPossibleAncestor
