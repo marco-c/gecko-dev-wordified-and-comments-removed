@@ -89,10 +89,6 @@ nsresult
 rv
 )
 :
-mRealInterface
-(
-aRealInterface
-)
 mClass
 (
 aClass
@@ -100,6 +96,10 @@ aClass
 mProxyObject
 (
 aParent
+)
+mRealInterface
+(
+aRealInterface
 )
 mNext
 (
@@ -135,6 +135,10 @@ LockedRemove
 (
 this
 )
+;
+mRealInterface
+=
+nsnull
 ;
 }
 NS_IMPL_THREADSAFE_ADDREF
