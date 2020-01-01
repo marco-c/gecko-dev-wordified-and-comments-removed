@@ -260,6 +260,15 @@ nsIDOMNodeList
 aResult
 )
 ;
+nsINodeList
+*
+GetAnonymousNodesFor
+(
+nsIContent
+*
+aContent
+)
+;
 nsresult
 SetAnonymousNodesFor
 (

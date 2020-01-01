@@ -466,6 +466,16 @@ mIgnoreShift
 class
 nsContentUtils
 {
+typedef
+mozilla
+:
+:
+dom
+:
+:
+Element
+Element
+;
 public
 :
 static
@@ -712,7 +722,7 @@ aTag
 )
 ;
 static
-nsIContent
+Element
 *
 MatchElementId
 (
@@ -726,7 +736,7 @@ aId
 )
 ;
 static
-nsIContent
+Element
 *
 MatchElementId
 (
@@ -2702,12 +2712,6 @@ nsIAtom
 *
 IsNamedItem
 (
-mozilla
-:
-:
-dom
-:
-:
 Element
 *
 aElement

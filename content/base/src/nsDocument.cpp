@@ -16170,7 +16170,7 @@ aReturn
 )
 ;
 }
-nsIContent
+Element
 *
 nsDocument
 :
