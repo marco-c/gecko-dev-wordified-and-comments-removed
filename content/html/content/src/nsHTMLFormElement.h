@@ -104,6 +104,19 @@ nsAsyncDOMEvent
 .
 h
 "
+#
+ifdef
+XP_WIN
+#
+ifdef
+GetClassInfo
+#
+undef
+GetClassInfo
+#
+endif
+#
+endif
 class
 nsFormControlList
 ;
@@ -621,6 +634,7 @@ nsXPCClassInfo
 GetClassInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
