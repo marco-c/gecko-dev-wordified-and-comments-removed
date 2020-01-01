@@ -442,7 +442,11 @@ REQUIRES
 =
 xpcom
 \
+string
+\
 gfx
+\
+thebes
 \
 imglib2
 \

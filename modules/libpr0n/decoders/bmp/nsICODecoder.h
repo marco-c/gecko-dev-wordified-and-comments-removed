@@ -299,14 +299,11 @@ mRowBytes
 PRInt32
 mCurLine
 ;
-nsresult
-mStatus
-;
-PRUint8
+PRUint32
 *
-mDecodedBuffer
+mImageData
 ;
-PRUint8
+PRPackedBool
 mHaveAlphaData
 ;
 PRPackedBool
