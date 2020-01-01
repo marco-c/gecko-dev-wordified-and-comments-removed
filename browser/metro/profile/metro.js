@@ -127,7 +127,7 @@ offmainthreadcomposition
 .
 enabled
 "
-false
+true
 )
 ;
 pref
