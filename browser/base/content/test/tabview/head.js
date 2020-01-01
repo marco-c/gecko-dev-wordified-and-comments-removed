@@ -224,6 +224,15 @@ t
 }
 )
 ;
+contentWindow
+.
+UI
+.
+setActive
+(
+groupItem
+)
+;
 return
 groupItem
 ;
