@@ -48,7 +48,7 @@ SVGTransform
 ;
 }
 class
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 {
 friend
 class
@@ -63,7 +63,7 @@ DOMSVGTransformList
 ;
 public
 :
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 (
 )
 :
@@ -216,7 +216,7 @@ public
 :
 SMILAnimatedTransformList
 (
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 aVal
 nsSVGElement
@@ -315,7 +315,7 @@ int32_t
 aNVars
 )
 ;
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 mVal
 ;
