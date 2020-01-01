@@ -3782,6 +3782,11 @@ NS_OSSO
 libosso
 .
 h
+osso
+-
+mem
+.
+h
 #
 endif
 #
