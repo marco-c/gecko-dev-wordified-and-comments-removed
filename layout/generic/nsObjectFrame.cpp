@@ -8475,6 +8475,9 @@ event
 ;
 }
 }
+#
+ifdef
+XP_MACOSX
 static
 void
 DrawPlugin
@@ -8555,6 +8558,8 @@ owner
 )
 ;
 }
+#
+endif
 void
 nsObjectFrame
 :
@@ -12163,6 +12168,18 @@ nsStopPluginRunnable
 nsRunnable
 nsITimerCallback
 )
+#
+if
+defined
+(
+XP_MACOSX
+)
+|
+|
+defined
+(
+XP_WIN
+)
 static
 const
 char
@@ -12212,6 +12229,8 @@ return
 "
 ;
 }
+#
+endif
 static
 PRBool
 DoDelayedStop
