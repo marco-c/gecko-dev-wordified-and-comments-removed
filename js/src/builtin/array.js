@@ -7,7 +7,6 @@ searchElement
 var
 O
 =
-%
 ToObject
 (
 this
@@ -44,7 +43,6 @@ length
 >
 1
 ?
-%
 ToInteger
 (
 arguments
@@ -151,7 +149,6 @@ length
 <
 1
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -180,7 +177,6 @@ arguments
 0
 ;
 return
-%
 _CallFunction
 (
 list
@@ -199,7 +195,6 @@ searchElement
 var
 O
 =
-%
 ToObject
 (
 this
@@ -236,7 +231,6 @@ length
 >
 1
 ?
-%
 ToInteger
 (
 arguments
@@ -337,7 +331,6 @@ length
 <
 1
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -374,7 +367,6 @@ else
 var
 O
 =
-%
 ToObject
 (
 list
@@ -398,7 +390,6 @@ len
 ;
 }
 return
-%
 _CallFunction
 (
 list
@@ -417,7 +408,6 @@ callbackfn
 var
 O
 =
-%
 ToObject
 (
 this
@@ -443,7 +433,6 @@ length
 =
 0
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -465,11 +454,9 @@ IsCallable
 callbackfn
 )
 )
-%
 ThrowError
 (
 JSMSG_NOT_FUNCTION
-%
 _DecompileArg
 (
 0
@@ -520,7 +507,6 @@ O
 if
 (
 !
-%
 _CallFunction
 (
 T
@@ -557,7 +543,6 @@ length
 <
 2
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -577,11 +562,9 @@ IsCallable
 callbackfn
 )
 )
-%
 ThrowError
 (
 JSMSG_NOT_FUNCTION
-%
 _DecompileArg
 (
 1
@@ -607,7 +590,6 @@ void
 0
 ;
 return
-%
 _CallFunction
 (
 list
@@ -626,7 +608,6 @@ callbackfn
 var
 O
 =
-%
 ToObject
 (
 this
@@ -652,7 +633,6 @@ length
 =
 0
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -674,11 +654,9 @@ IsCallable
 callbackfn
 )
 )
-%
 ThrowError
 (
 JSMSG_NOT_FUNCTION
-%
 _DecompileArg
 (
 0
@@ -728,7 +706,6 @@ O
 {
 if
 (
-%
 _CallFunction
 (
 T
@@ -765,7 +742,6 @@ length
 <
 2
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -785,11 +761,9 @@ IsCallable
 callbackfn
 )
 )
-%
 ThrowError
 (
 JSMSG_NOT_FUNCTION
-%
 _DecompileArg
 (
 1
@@ -815,7 +789,6 @@ void
 0
 ;
 return
-%
 _CallFunction
 (
 list
@@ -834,7 +807,6 @@ callbackfn
 var
 O
 =
-%
 ToObject
 (
 this
@@ -860,7 +832,6 @@ length
 =
 0
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -882,11 +853,9 @@ IsCallable
 callbackfn
 )
 )
-%
 ThrowError
 (
 JSMSG_NOT_FUNCTION
-%
 _DecompileArg
 (
 0
@@ -934,7 +903,6 @@ in
 O
 )
 {
-%
 _CallFunction
 (
 T
@@ -969,7 +937,6 @@ length
 <
 2
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -989,11 +956,9 @@ IsCallable
 callbackfn
 )
 )
-%
 ThrowError
 (
 JSMSG_NOT_FUNCTION
-%
 _DecompileArg
 (
 1
@@ -1018,7 +983,6 @@ arguments
 void
 0
 ;
-%
 _CallFunction
 (
 list
@@ -1037,7 +1001,6 @@ callbackfn
 var
 O
 =
-%
 ToObject
 (
 this
@@ -1063,7 +1026,6 @@ length
 =
 0
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1085,11 +1047,9 @@ IsCallable
 callbackfn
 )
 )
-%
 ThrowError
 (
 JSMSG_NOT_FUNCTION
-%
 _DecompileArg
 (
 0
@@ -1132,7 +1092,6 @@ len
 =
 0
 )
-%
 ThrowError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
@@ -1186,7 +1145,6 @@ if
 !
 kPresent
 )
-%
 ThrowError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
@@ -1246,7 +1204,6 @@ length
 <
 2
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1266,11 +1223,9 @@ IsCallable
 callbackfn
 )
 )
-%
 ThrowError
 (
 JSMSG_NOT_FUNCTION
-%
 _DecompileArg
 (
 1
@@ -1287,7 +1242,6 @@ length
 2
 )
 return
-%
 _CallFunction
 (
 list
@@ -1301,7 +1255,6 @@ ArrayReduce
 ;
 else
 return
-%
 _CallFunction
 (
 list
@@ -1319,7 +1272,6 @@ callbackfn
 var
 O
 =
-%
 ToObject
 (
 this
@@ -1345,7 +1297,6 @@ length
 =
 0
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1367,11 +1318,9 @@ IsCallable
 callbackfn
 )
 )
-%
 ThrowError
 (
 JSMSG_NOT_FUNCTION
-%
 _DecompileArg
 (
 0
@@ -1416,7 +1365,6 @@ len
 =
 0
 )
-%
 ThrowError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
@@ -1471,7 +1419,6 @@ if
 !
 kPresent
 )
-%
 ThrowError
 (
 JSMSG_EMPTY_ARRAY_REDUCE
@@ -1532,7 +1479,6 @@ length
 <
 2
 )
-%
 ThrowError
 (
 JSMSG_MISSING_FUN_ARG
@@ -1552,11 +1498,9 @@ IsCallable
 callbackfn
 )
 )
-%
 ThrowError
 (
 JSMSG_NOT_FUNCTION
-%
 _DecompileArg
 (
 1
@@ -1573,7 +1517,6 @@ length
 2
 )
 return
-%
 _CallFunction
 (
 list
@@ -1587,7 +1530,6 @@ ArrayReduceRight
 ;
 else
 return
-%
 _CallFunction
 (
 list

@@ -345,11 +345,6 @@ NAME
 \
 F
 (
-INTRINSICNAME
-)
-\
-F
-(
 NUMBER
 )
 \

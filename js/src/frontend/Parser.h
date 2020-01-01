@@ -1304,12 +1304,6 @@ bool
 afterDoubleDot
 )
 ;
-ParseNode
-*
-intrinsicName
-(
-)
-;
 #
 if
 JS_HAS_XML_SUPPORT
