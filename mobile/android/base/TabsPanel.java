@@ -886,13 +886,6 @@ long
 id
 )
 {
-if
-(
-!
-mVisible
-)
-return
-;
 Panel
 panel
 =
