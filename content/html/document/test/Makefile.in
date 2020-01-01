@@ -738,10 +738,6 @@ test_bug571981
 .
 html
 \
-test_bug677122
-.
-html
-\
 test_bug677495
 .
 html
@@ -752,11 +748,11 @@ test_bug677495
 .
 html
 \
-test_bug741266
+test_bug742261
 .
 html
 \
-test_bug742261
+test_bug741266
 .
 html
 \
