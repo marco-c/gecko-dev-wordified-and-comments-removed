@@ -589,10 +589,6 @@ nsLeafFrame
 {
 public
 :
-NS_DECL_QUERYFRAME_TARGET
-(
-nsHTMLFramesetBlankFrame
-)
 NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
