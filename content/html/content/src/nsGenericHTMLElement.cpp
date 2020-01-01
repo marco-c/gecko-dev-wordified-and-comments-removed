@@ -10749,6 +10749,8 @@ nsGenericHTMLFrameElement
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -10763,6 +10765,7 @@ nsGenericHTMLElement
 :
 IsHTMLFocusable
 (
+aWithMouse
 aIsFocusable
 aTabIndex
 )
@@ -13130,6 +13133,8 @@ nsGenericHTMLElement
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -13271,6 +13276,21 @@ tabIndex
 *
 aIsFocusable
 =
+#
+ifdef
+XP_MACOSX
+(
+!
+aWithMouse
+|
+|
+override
+)
+&
+&
+#
+endif
+(
 tabIndex
 >
 =
@@ -13289,6 +13309,7 @@ nsGkAtoms
 :
 :
 tabindex
+)
 )
 )
 ;

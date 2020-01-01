@@ -391,6 +391,8 @@ PRBool
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -1732,6 +1734,8 @@ nsHTMLImageElement
 IsHTMLFocusable
 (
 PRBool
+aWithMouse
+PRBool
 *
 aIsFocusable
 PRInt32
@@ -1838,6 +1842,16 @@ tabIndex
 *
 aIsFocusable
 =
+#
+ifdef
+XP_MACOSX
+!
+aWithMouse
+&
+&
+#
+endif
+(
 tabIndex
 >
 =
@@ -1851,6 +1865,7 @@ nsGkAtoms
 :
 :
 tabindex
+)
 )
 ;
 return
