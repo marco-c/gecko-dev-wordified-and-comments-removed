@@ -327,6 +327,11 @@ OpenArchive
 nsZipHandle
 *
 aZipHandle
+PRFileDesc
+*
+aFd
+=
+nullptr
 )
 ;
 nsresult
@@ -482,6 +487,11 @@ CreateZipItem
 nsresult
 BuildFileList
 (
+PRFileDesc
+*
+aFd
+=
+nullptr
 )
 ;
 nsresult
@@ -915,6 +925,12 @@ nsZipHandle
 *
 *
 ret
+PRFileDesc
+*
+*
+aFd
+=
+nullptr
 )
 ;
 static
