@@ -348,7 +348,7 @@ url
 =
 tab
 .
-getSelectedUrl
+getUrl
 (
 )
 ;
@@ -396,7 +396,7 @@ title
 =
 tab
 .
-getSelectedTitle
+getTitle
 (
 )
 ;
