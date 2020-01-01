@@ -201,7 +201,7 @@ finish
 )
 ;
 }
-50
+10
 Ci
 .
 nsITimer

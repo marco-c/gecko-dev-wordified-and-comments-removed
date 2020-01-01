@@ -31,6 +31,11 @@ test
 "
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 let
 {
 L10N
@@ -1732,6 +1737,9 @@ index
 1
 "
 {
+fuzzyUrl
+:
+true
 status
 :
 101
@@ -1791,6 +1799,9 @@ index
 2
 "
 {
+fuzzyUrl
+:
+true
 status
 :
 200
@@ -1852,6 +1863,9 @@ index
 3
 "
 {
+fuzzyUrl
+:
+true
 status
 :
 300
@@ -1913,6 +1927,9 @@ index
 4
 "
 {
+fuzzyUrl
+:
+true
 status
 :
 400
@@ -1974,6 +1991,9 @@ index
 5
 "
 {
+fuzzyUrl
+:
+true
 status
 :
 500
