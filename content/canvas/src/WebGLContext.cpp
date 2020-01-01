@@ -263,16 +263,6 @@ namespace
 mozilla
 :
 :
-dom
-:
-:
-ipc
-;
-using
-namespace
-mozilla
-:
-:
 gfx
 ;
 using
@@ -337,6 +327,9 @@ mContext
 mCanLoseContextInForeground
 &
 &
+ProcessPriorityManager
+:
+:
 CurrentProcessIsForeground
 (
 )

@@ -112,6 +112,14 @@ ContentOrNormalChannelIsActive
 (
 )
 ;
+virtual
+bool
+ProcessContentOrNormalChannelIsActive
+(
+uint64_t
+aChildID
+)
+;
 protected
 :
 void
@@ -122,6 +130,8 @@ Notify
 void
 SendAudioChannelChangedNotification
 (
+uint64_t
+aChildID
 )
 ;
 void
