@@ -30,6 +30,14 @@ friend
 class
 TimeStamp
 ;
+friend
+void
+StartupTimelineRecordExternal
+(
+int
+uint64_t
+)
+;
 uint64_t
 mGTC
 ;
