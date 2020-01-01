@@ -812,6 +812,16 @@ volume_scale
 "
 )
 ;
+pref
+(
+"
+media
+.
+wakelock_timeout
+"
+2000
+)
+;
 #
 ifdef
 MOZ_WMF
