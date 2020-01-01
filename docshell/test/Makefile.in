@@ -736,6 +736,10 @@ bug691547_frame
 .
 html
 \
+test_bug694612
+.
+html
+\
 (
 NULL
 )
