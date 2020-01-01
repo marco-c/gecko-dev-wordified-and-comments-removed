@@ -2358,6 +2358,12 @@ GetD2DVRAMUsageSourceSurface
 (
 )
 ;
+static
+void
+D2DCleanup
+(
+)
+;
 private
 :
 static
