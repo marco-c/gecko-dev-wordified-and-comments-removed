@@ -1632,6 +1632,8 @@ id
 updates
 -
 manualUpdatesFound
+-
+btn
 "
 class
 =
@@ -1752,6 +1754,8 @@ id
 updates
 -
 restart
+-
+btn
 "
 class
 =
@@ -4259,6 +4263,8 @@ id
 update
 -
 selected
+-
+btn
 "
 hidden
 =
@@ -4941,6 +4947,15 @@ flex
 >
 <
 button
+id
+=
+"
+detail
+-
+restart
+-
+btn
+"
 class
 =
 "
@@ -4974,6 +4989,8 @@ id
 detail
 -
 undo
+-
+btn
 "
 class
 =
@@ -5344,7 +5361,7 @@ detail
 -
 contrib
 -
-button
+btn
 "
 class
 =
@@ -5659,6 +5676,8 @@ id
 detail
 -
 findUpdates
+-
+btn
 "
 class
 =
@@ -6053,6 +6072,8 @@ id
 detail
 -
 prefs
+-
+btn
 "
 class
 =
@@ -6158,6 +6179,8 @@ id
 detail
 -
 uninstall
+-
+btn
 "
 class
 =
@@ -6204,6 +6227,8 @@ id
 detail
 -
 enable
+-
+btn
 "
 class
 =
@@ -6250,6 +6275,8 @@ id
 detail
 -
 disable
+-
+btn
 "
 class
 =
@@ -6296,6 +6323,8 @@ id
 detail
 -
 install
+-
+btn
 "
 class
 =

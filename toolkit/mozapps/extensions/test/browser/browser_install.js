@@ -596,6 +596,8 @@ status
 install
 -
 remote
+-
+btn
 "
 )
 {
@@ -900,6 +902,8 @@ get_node
 item
 "
 undo
+-
+btn
 "
 )
 {
@@ -1078,6 +1082,8 @@ get_node
 item
 "
 undo
+-
+btn
 "
 )
 {

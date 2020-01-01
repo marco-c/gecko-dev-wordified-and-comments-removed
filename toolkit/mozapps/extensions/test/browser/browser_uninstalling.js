@@ -3539,6 +3539,8 @@ getElementById
 detail
 -
 uninstall
+-
+btn
 "
 )
 ;
@@ -4087,6 +4089,8 @@ getElementById
 detail
 -
 uninstall
+-
+btn
 "
 )
 ;
@@ -4647,6 +4651,8 @@ getElementById
 detail
 -
 uninstall
+-
+btn
 "
 )
 ;

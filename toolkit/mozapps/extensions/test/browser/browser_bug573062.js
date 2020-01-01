@@ -507,6 +507,8 @@ getElementById
 detail
 -
 enable
+-
+btn
 "
 )
 ;
@@ -523,6 +525,8 @@ getElementById
 detail
 -
 disable
+-
+btn
 "
 )
 ;
@@ -539,6 +543,8 @@ getElementById
 detail
 -
 uninstall
+-
+btn
 "
 )
 ;

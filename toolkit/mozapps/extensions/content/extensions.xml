@@ -1508,6 +1508,8 @@ anonid
 =
 "
 pause
+-
+btn
 "
 class
 =
@@ -1573,6 +1575,8 @@ anonid
 =
 "
 cancel
+-
+btn
 "
 class
 =
@@ -1705,6 +1709,8 @@ anonid
 "
 "
 pause
+-
+btn
 "
 )
 ;
@@ -1730,6 +1736,8 @@ anonid
 "
 "
 cancel
+-
+btn
 "
 )
 ;
@@ -2036,9 +2044,9 @@ button
 anonid
 =
 "
-btn
--
 name
+-
+btn
 "
 class
 =
@@ -2091,9 +2099,9 @@ button
 anonid
 =
 "
-btn
--
 date
+-
+btn
 "
 class
 =
@@ -2146,9 +2154,9 @@ button
 anonid
 =
 "
-btn
--
 relevance
+-
+btn
 "
 class
 =
@@ -2305,9 +2313,9 @@ this
 anonid
 "
 "
-btn
--
 name
+-
+btn
 "
 )
 ;
@@ -2332,9 +2340,9 @@ this
 anonid
 "
 "
-btn
--
 date
+-
+btn
 "
 )
 ;
@@ -2359,9 +2367,9 @@ this
 anonid
 "
 "
-btn
--
 relevance
+-
+btn
 "
 )
 ;
@@ -3844,6 +3852,8 @@ anonid
 install
 -
 remote
+-
+btn
 "
 hidden
 =
@@ -3906,6 +3916,8 @@ anonid
 restart
 -
 install
+-
+btn
 "
 hidden
 =
@@ -4132,6 +4144,8 @@ anonid
 install
 -
 remote
+-
+btn
 "
 )
 ;
@@ -4186,6 +4200,8 @@ anonid
 restart
 -
 install
+-
+btn
 "
 )
 ;
@@ -4211,6 +4227,8 @@ anonid
 "
 "
 undo
+-
+btn
 "
 )
 ;
@@ -5738,6 +5756,13 @@ flex
 xul
 :
 button
+anonid
+=
+"
+restart
+-
+btn
+"
 class
 =
 "
@@ -5781,6 +5806,8 @@ anonid
 =
 "
 undo
+-
+btn
 "
 class
 =
@@ -6209,6 +6236,13 @@ end
 xul
 :
 button
+anonid
+=
+"
+details
+-
+btn
+"
 class
 =
 "
@@ -6419,6 +6453,8 @@ anonid
 relnotes
 -
 toggle
+-
+btn
 "
 class
 =
@@ -8148,6 +8184,8 @@ anonid
 relnotes
 -
 toggle
+-
+btn
 "
 )
 ;
