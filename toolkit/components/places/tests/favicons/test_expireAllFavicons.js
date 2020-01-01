@@ -165,7 +165,6 @@ BOOKMARKED_PAGE_URI
 SMALLPNG_DATA_URI
 true
 function
-EAF_onFaviconDataAvailable
 (
 )
 {

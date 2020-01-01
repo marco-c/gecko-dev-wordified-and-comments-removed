@@ -30534,7 +30534,7 @@ aNewURI
 {
 }
 NS_IMETHODIMP
-OnFaviconDataAvailable
+OnComplete
 (
 nsIURI
 *
@@ -30551,6 +30551,16 @@ nsACString
 aMimeType
 )
 {
+if
+(
+!
+aFaviconURI
+)
+{
+return
+NS_OK
+;
+}
 NS_ASSERTION
 (
 aDataLen
