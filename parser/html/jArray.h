@@ -453,6 +453,12 @@ defined
 (
 __clang__
 )
+|
+|
+defined
+(
+__ANDROID__
+)
 typedef
 decltype
 (
