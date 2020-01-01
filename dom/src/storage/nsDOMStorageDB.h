@@ -172,6 +172,17 @@ aOwner
 )
 ;
 nsresult
+RemoveOwners
+(
+const
+nsStringArray
+&
+aOwners
+PRBool
+aMatch
+)
+;
+nsresult
 RemoveAll
 (
 )

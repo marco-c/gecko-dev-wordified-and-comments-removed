@@ -2974,15 +2974,6 @@ storagePolicy
 nsICache
 :
 :
-STORE_ANYWHERE
-|
-|
-storagePolicy
-=
-=
-nsICache
-:
-:
 STORE_OFFLINE
 )
 {
