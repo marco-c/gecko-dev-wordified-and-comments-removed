@@ -740,11 +740,17 @@ ToggleBtTask
 (
 bool
 aEnabled
+bool
+aIsStartup
 )
 :
 mEnabled
 (
 aEnabled
+)
+mIsStartup
+(
+aIsStartup
 )
 {
 MOZ_ASSERT
@@ -770,6 +776,10 @@ NS_IsMainThread
 ;
 if
 (
+!
+mIsStartup
+&
+&
 mEnabled
 =
 =
@@ -960,6 +970,9 @@ private
 :
 bool
 mEnabled
+;
+bool
+mIsStartup
 ;
 }
 ;
@@ -1906,6 +1919,8 @@ StartStopBluetooth
 (
 bool
 aStart
+bool
+aIsStartup
 )
 {
 MOZ_ASSERT
@@ -1998,6 +2013,7 @@ new
 ToggleBtTask
 (
 aStart
+aIsStartup
 )
 ;
 rv
@@ -2269,6 +2285,7 @@ return
 StartStopBluetooth
 (
 aEnable
+true
 )
 ;
 }
@@ -2707,6 +2724,7 @@ value
 toBoolean
 (
 )
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2960,6 +2978,7 @@ NS_FAILED
 (
 StartStopBluetooth
 (
+false
 false
 )
 )

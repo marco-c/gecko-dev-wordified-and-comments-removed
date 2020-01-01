@@ -756,6 +756,8 @@ StartStopBluetooth
 (
 bool
 aStart
+bool
+aIsStartup
 )
 ;
 virtual
