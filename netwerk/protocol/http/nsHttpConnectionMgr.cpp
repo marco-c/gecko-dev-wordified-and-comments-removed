@@ -215,10 +215,6 @@ nsHttpConnectionMgr
 (
 )
 :
-mRef
-(
-0
-)
 mReentrantMonitor
 (
 "

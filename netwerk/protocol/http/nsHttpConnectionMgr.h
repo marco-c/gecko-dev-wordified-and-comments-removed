@@ -957,9 +957,6 @@ friend
 class
 nsHalfOpenSocket
 ;
-int32_t
-mRef
-;
 mozilla
 :
 :
