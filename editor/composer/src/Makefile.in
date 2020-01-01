@@ -465,6 +465,8 @@ docshell
 \
 gfx
 \
+thebes
+\
 widget
 \
 xuldoc

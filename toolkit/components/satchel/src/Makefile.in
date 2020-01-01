@@ -464,6 +464,8 @@ docshell
 \
 gfx
 \
+thebes
+\
 necko
 \
 widget

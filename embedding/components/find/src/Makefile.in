@@ -435,6 +435,8 @@ docshell
 \
 gfx
 \
+thebes
+\
 layout
 \
 editor

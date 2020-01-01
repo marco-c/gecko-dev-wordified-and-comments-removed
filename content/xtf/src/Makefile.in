@@ -443,6 +443,8 @@ widget
 \
 gfx
 \
+thebes
+\
 dom
 \
 js

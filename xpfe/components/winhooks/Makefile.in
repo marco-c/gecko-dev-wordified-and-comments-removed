@@ -464,6 +464,8 @@ imglib2
 \
 gfx
 \
+thebes
+\
 locale
 \
 xulapp
