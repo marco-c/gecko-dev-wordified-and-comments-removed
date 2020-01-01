@@ -1680,6 +1680,15 @@ Tester_observe
 aConsoleMessage
 )
 {
+if
+(
+!
+aConsoleMessage
+.
+message
+)
+return
+;
 try
 {
 var
