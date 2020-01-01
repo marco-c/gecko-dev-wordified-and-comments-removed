@@ -395,6 +395,10 @@ nsSVGViewElement
 .
 cpp
 \
+SVGAngle
+.
+cpp
+\
 SVGAnimatedBoolean
 .
 cpp
@@ -619,6 +623,10 @@ EXPORTS_mozilla
 /
 dom
 =
+\
+SVGAngle
+.
+h
 \
 SVGAnimatedBoolean
 .
