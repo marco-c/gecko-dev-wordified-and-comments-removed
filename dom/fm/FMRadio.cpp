@@ -575,6 +575,10 @@ Disable
 (
 )
 {
+DisableFMRadio
+(
+)
+;
 nsCOMPtr
 <
 nsIAudioManager
@@ -598,10 +602,6 @@ audioManager
 SetFmRadioAudioEnabled
 (
 false
-)
-;
-DisableFMRadio
-(
 )
 ;
 return
