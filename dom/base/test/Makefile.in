@@ -217,6 +217,10 @@ test_messageChannel_pref
 .
 html
 \
+test_url
+.
+html
+\
 (
 NULL
 )
