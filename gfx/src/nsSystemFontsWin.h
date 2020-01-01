@@ -18,6 +18,13 @@ nsIDeviceContext
 .
 h
 "
+#
+include
+<
+windows
+.
+h
+>
 class
 nsSystemFontsWin
 {

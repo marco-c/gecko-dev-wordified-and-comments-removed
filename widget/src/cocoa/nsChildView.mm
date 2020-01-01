@@ -992,13 +992,6 @@ sLastMouseEventView
 =
 nil
 ;
-static
-NS_DEFINE_CID
-(
-kRegionCID
-NS_REGION_CID
-)
-;
 #
 ifdef
 INVALIDATE_DEBUGGING

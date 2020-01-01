@@ -28,14 +28,14 @@ h
 #
 include
 "
-nsIRenderingContext
+gfxTypes
 .
 h
 "
 #
 include
 "
-gfxPoint
+nsStringFwd
 .
 h
 "
@@ -56,6 +56,9 @@ nsIAtom
 ;
 class
 gfxUserFontSet
+;
+class
+nsRenderingContext
 ;
 struct
 nsFont

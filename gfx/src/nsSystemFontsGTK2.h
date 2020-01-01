@@ -11,6 +11,13 @@ gfxFont
 .
 h
 "
+#
+include
+"
+nsIDeviceContext
+.
+h
+"
 typedef
 struct
 _GtkWidget

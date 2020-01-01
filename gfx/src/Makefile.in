@@ -519,7 +519,7 @@ nsTransform2D
 .
 h
 \
-nsIRenderingContext
+nsRenderingContext
 .
 h
 \
@@ -612,7 +612,7 @@ nsThebesGfxFactory
 .
 cpp
 \
-nsThebesRenderingContext
+nsRenderingContext
 .
 cpp
 \

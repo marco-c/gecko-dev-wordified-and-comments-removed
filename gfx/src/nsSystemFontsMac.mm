@@ -437,6 +437,13 @@ BLOCK
 /
 #
 include
+"
+nsSystemFontsMac
+.
+h
+"
+#
+include
 <
 Cocoa
 /
@@ -444,13 +451,6 @@ Cocoa
 .
 h
 >
-#
-include
-"
-nsSystemFontsMac
-.
-h
-"
 nsSystemFontsMac
 :
 :
