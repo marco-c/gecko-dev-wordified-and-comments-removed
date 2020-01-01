@@ -348,6 +348,8 @@ nsIContent
 aRealNode
 PRBool
 aIsUnique
+PRBool
+aIsSelfReference
 nsIXULTemplateResult
 *
 aChild
@@ -858,6 +860,8 @@ nsIContent
 aRealNode
 PRBool
 aIsUnique
+PRBool
+aIsSelfReference
 nsIXULTemplateResult
 *
 aChild
@@ -1330,6 +1334,7 @@ tmplKid
 aResourceNode
 realKid
 PR_TRUE
+aIsSelfReference
 aChild
 aNotify
 aMatch
@@ -1945,6 +1950,11 @@ eContainerContentsBuilt
 ;
 }
 else
+if
+(
+!
+aIsSelfReference
+)
 {
 xulcontent
 -
@@ -1969,6 +1979,7 @@ tmplKid
 aResourceNode
 realKid
 isUnique
+aIsSelfReference
 aChild
 PR_FALSE
 aMatch
@@ -4125,6 +4136,15 @@ action
 aElement
 aElement
 PR_TRUE
+mRefVariable
+=
+=
+matchedrule
+-
+>
+GetMemberVariable
+(
+)
 nextresult
 aNotify
 newmatch
@@ -4345,6 +4365,7 @@ BuildContentFromTemplate
 aTemplateElement
 aElement
 aElement
+PR_FALSE
 PR_FALSE
 match
 -
@@ -6316,6 +6337,15 @@ action
 content
 content
 PR_TRUE
+mRefVariable
+=
+=
+aNewMatchRule
+-
+>
+GetMemberVariable
+(
+)
 aNewMatch
 -
 >
