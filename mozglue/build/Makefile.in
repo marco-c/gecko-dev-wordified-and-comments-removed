@@ -619,8 +619,6 @@ Android
 OS_TARGET
 )
 )
-ifdef
-MOZ_MEMORY
 #
 To
 properly
@@ -647,7 +645,6 @@ CPPSRCS
 BionicGlue
 .
 cpp
-endif
 SHARED_LIBRARY_LIBS
 +
 =
