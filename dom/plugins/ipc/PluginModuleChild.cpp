@@ -7483,7 +7483,13 @@ AddHook
 "
 GetWindowInfo
 "
+reinterpret_cast
+<
+intptr_t
+>
+(
 PMCGetWindowInfoHook
+)
 (
 void
 *

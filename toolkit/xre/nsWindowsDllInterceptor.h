@@ -202,8 +202,7 @@ const
 char
 *
 pname
-void
-*
+intptr_t
 hookDest
 void
 *
@@ -306,8 +305,7 @@ CreateTrampoline
 void
 *
 origFunction
-void
-*
+intptr_t
 dest
 )
 {
@@ -1351,9 +1349,6 @@ origBytes
 )
 )
 =
-(
-intptr_t
-)
 dest
 -
 (
@@ -1398,9 +1393,6 @@ origBytes
 )
 )
 =
-(
-intptr_t
-)
 dest
 ;
 origBytes

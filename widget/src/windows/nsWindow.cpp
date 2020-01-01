@@ -7664,11 +7664,13 @@ AddHook
 "
 GetWindowInfo
 "
+reinterpret_cast
+<
+intptr_t
+>
 (
-void
-*
-)
 GetWindowInfoHook
+)
 (
 void
 *

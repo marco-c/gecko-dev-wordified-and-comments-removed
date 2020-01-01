@@ -2335,8 +2335,7 @@ window
 =
 reinterpret_cast
 <
-unsigned
-long
+uintptr_t
 >
 (
 aWindow
@@ -3569,8 +3568,7 @@ window
 =
 reinterpret_cast
 <
-unsigned
-long
+uintptr_t
 >
 (
 aWindow
