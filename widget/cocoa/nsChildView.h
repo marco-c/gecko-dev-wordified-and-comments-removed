@@ -1347,6 +1347,14 @@ nsIntRect
 aRect
 )
 ;
+NS_IMETHOD
+GetScreenBounds
+(
+nsIntRect
+&
+aRect
+)
+;
 CGFloat
 BackingScaleFactor
 (
