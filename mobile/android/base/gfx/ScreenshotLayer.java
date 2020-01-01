@@ -777,10 +777,6 @@ src
 }
 catch
 (
-java
-.
-lang
-.
 OutOfMemoryError
 e
 )
@@ -873,9 +869,6 @@ null
 return
 ;
 }
-Bitmap
-tmp
-;
 mSize
 =
 new
@@ -911,11 +904,7 @@ getHeight
 )
 )
 {
-tmp
-=
 bitmap
-;
-tmp
 .
 copyPixelsToBuffer
 (
