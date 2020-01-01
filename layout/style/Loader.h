@@ -762,6 +762,14 @@ UnlinkCachedSheets
 (
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 private
 :
 friend

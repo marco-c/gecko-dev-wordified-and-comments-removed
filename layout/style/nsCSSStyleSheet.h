@@ -751,6 +751,17 @@ mOwningNode
 aOwningNode
 ;
 }
+nsIDOMNode
+*
+GetOwningNode
+(
+)
+const
+{
+return
+mOwningNode
+;
+}
 void
 SetOwnerRule
 (
