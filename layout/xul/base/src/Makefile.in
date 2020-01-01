@@ -609,10 +609,6 @@ nsGroupBoxFrame
 .
 cpp
 \
-nsFrameNavigator
-.
-cpp
-\
 nsSplitterFrame
 .
 cpp

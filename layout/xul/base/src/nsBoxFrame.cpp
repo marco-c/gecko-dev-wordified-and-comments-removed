@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsFrameNavigator
-.
-h
-"
-#
-include
-"
 nsCSSRendering
 .
 h
