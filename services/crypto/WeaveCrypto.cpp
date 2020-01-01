@@ -1419,6 +1419,17 @@ nsnull
 PK11RSAGenParams
 rsaParams
 ;
+PK11AttrFlags
+attrFlags
+=
+(
+PK11_ATTR_SESSION
+|
+PK11_ATTR_PUBLIC
+|
+PK11_ATTR_SENSITIVE
+)
+;
 rsaParams
 .
 keySizeInBits
@@ -1461,7 +1472,7 @@ keygen_done
 }
 privKey
 =
-PK11_GenerateKeyPair
+PK11_GenerateKeyPairWithFlags
 (
 slot
 CKM_RSA_PKCS_KEY_PAIR_GEN
@@ -1469,8 +1480,7 @@ CKM_RSA_PKCS_KEY_PAIR_GEN
 rsaParams
 &
 pubKey
-PR_FALSE
-PR_TRUE
+attrFlags
 nsnull
 )
 ;
