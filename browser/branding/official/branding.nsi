@@ -256,6 +256,10 @@ mozilla
 .
 org
 /
+{
+AB_CD
+}
+/
 firefox
 /
 installer
@@ -266,6 +270,12 @@ help
 channel
 =
 release
+&
+installer_lang
+=
+{
+AB_CD
+}
 "
 !
 define

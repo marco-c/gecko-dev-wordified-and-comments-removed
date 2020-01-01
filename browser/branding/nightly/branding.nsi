@@ -211,6 +211,10 @@ mozilla
 .
 org
 /
+{
+AB_CD
+}
+/
 firefox
 /
 installer
@@ -221,6 +225,12 @@ help
 channel
 =
 nightly
+&
+installer_lang
+=
+{
+AB_CD
+}
 "
 !
 define

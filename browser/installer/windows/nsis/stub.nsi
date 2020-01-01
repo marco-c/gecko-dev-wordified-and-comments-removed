@@ -1074,6 +1074,10 @@ mozilla
 .
 org
 /
+{
+AB_CD
+}
+/
 firefox
 /
 installer
@@ -1084,6 +1088,12 @@ help
 channel
 =
 beta
+&
+installer_lang
+=
+{
+AB_CD
+}
 "
 !
 undef
