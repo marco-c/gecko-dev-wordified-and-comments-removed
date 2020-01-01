@@ -1189,11 +1189,10 @@ GetGfxDriverInfo
 {
 if
 (
-!
 mDriverInfo
 -
 >
-Length
+IsEmpty
 (
 )
 )
@@ -1262,7 +1261,7 @@ nsIGfxInfo
 :
 :
 FEATURE_BLOCKED_DEVICE
-DRIVER_LESS_THAN
+DRIVER_COMPARISON_IGNORED
 GfxDriverInfo
 :
 :
