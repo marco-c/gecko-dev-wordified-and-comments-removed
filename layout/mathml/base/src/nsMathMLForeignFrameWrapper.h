@@ -41,7 +41,7 @@ nsStyleContext
 aContext
 )
 ;
-NS_DECL_QUERYFRAME
+NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
 (

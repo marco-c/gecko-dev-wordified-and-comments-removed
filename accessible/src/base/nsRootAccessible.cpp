@@ -3563,10 +3563,12 @@ NS_ERROR_FAILURE
 nsIMenuFrame
 *
 imenuFrame
-=
-do_QueryFrame
+;
+CallQueryInterface
 (
 menuFrame
+&
+imenuFrame
 )
 ;
 if

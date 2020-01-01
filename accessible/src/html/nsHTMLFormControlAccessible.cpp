@@ -1156,9 +1156,13 @@ nsIFormControlFrame
 *
 fcFrame
 =
-do_QueryFrame
+nsnull
+;
+CallQueryInterface
 (
 frame
+&
+fcFrame
 )
 ;
 if

@@ -1094,12 +1094,16 @@ DEBUG
 nsISVGChildFrame
 *
 svgChildFrame
-=
-do_QueryFrame
+;
+CallQueryInterface
 (
 aEffectsFrame
+&
+svgChildFrame
 )
 ;
+#
+endif
 NS_ASSERTION
 (
 !
@@ -1116,8 +1120,6 @@ frame
 "
 )
 ;
-#
-endif
 float
 opacity
 =

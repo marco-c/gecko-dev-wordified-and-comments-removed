@@ -418,9 +418,13 @@ nsTreeBodyFrame
 *
 treeBody
 =
-do_QueryFrame
+nsnull
+;
+CallQueryInterface
 (
 frame
+&
+treeBody
 )
 ;
 NS_ENSURE_TRUE

@@ -122,7 +122,6 @@ nsIDOMEvent
 aKeyEvent
 )
 ;
-NS_DECL_QUERYFRAME
 NS_IMETHOD
 QueryInterface
 (

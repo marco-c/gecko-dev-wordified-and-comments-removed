@@ -41,6 +41,7 @@ nsGridRowLeafFrame
 {
 public
 :
+NS_DECL_ISUPPORTS
 friend
 nsIFrame
 *

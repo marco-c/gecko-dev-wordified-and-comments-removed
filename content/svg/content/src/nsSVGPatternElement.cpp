@@ -828,9 +828,13 @@ nsISVGValue
 *
 value
 =
-do_QueryFrame
+nsnull
+;
+CallQueryInterface
 (
 frame
+&
+value
 )
 ;
 if

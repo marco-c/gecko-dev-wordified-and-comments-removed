@@ -493,7 +493,7 @@ nsIAccessible
 createHTML4ButtonAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -501,7 +501,7 @@ nsIAccessible
 createHyperTextAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -509,7 +509,7 @@ nsIAccessible
 createHTMLBRAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -517,7 +517,7 @@ nsIAccessible
 createHTMLButtonAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -539,10 +539,10 @@ nsIAccessible
 createHTMLLIAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 in
-nsIFrame
+nsISupports
 aBulletFrame
 in
 AString
@@ -553,7 +553,7 @@ nsIAccessible
 createHTMLCheckboxAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -572,7 +572,7 @@ nsIAccessible
 createHTMLGenericAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -580,7 +580,7 @@ nsIAccessible
 createHTMLGroupboxAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -588,7 +588,7 @@ nsIAccessible
 createHTMLHRAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -596,7 +596,7 @@ nsIAccessible
 createHTMLImageAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -604,7 +604,7 @@ nsIAccessible
 createHTMLLabelAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -631,7 +631,7 @@ nsIAccessible
 createHTMLRadioButtonAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -653,7 +653,7 @@ nsIAccessible
 createHTMLTableAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -661,7 +661,7 @@ nsIAccessible
 createHTMLTableCellAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -677,7 +677,7 @@ nsIAccessible
 createHTMLTextAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -685,7 +685,7 @@ nsIAccessible
 createHTMLTextFieldAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;
@@ -693,7 +693,7 @@ nsIAccessible
 createHTMLCaptionAccessible
 (
 in
-nsIFrame
+nsISupports
 aFrame
 )
 ;

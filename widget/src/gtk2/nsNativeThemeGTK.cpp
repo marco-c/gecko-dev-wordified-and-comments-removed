@@ -1384,10 +1384,12 @@ PR_FALSE
 nsIMenuFrame
 *
 menuFrame
-=
-do_QueryFrame
+;
+CallQueryInterface
 (
 aFrame
+&
+menuFrame
 )
 ;
 if

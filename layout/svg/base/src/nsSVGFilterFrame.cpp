@@ -369,11 +369,11 @@ GetCanvasTM
 aTarget
 )
 ;
-mTarget
-=
-do_QueryFrame
+CallQueryInterface
 (
 aTarget
+&
+mTarget
 )
 ;
 if

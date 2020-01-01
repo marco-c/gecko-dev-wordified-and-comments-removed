@@ -219,10 +219,12 @@ NS_ERROR_FAILURE
 nsISVGChildFrame
 *
 svgframe
-=
-do_QueryFrame
+;
+CallQueryInterface
 (
 frame
+&
+svgframe
 )
 ;
 NS_ASSERTION

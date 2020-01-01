@@ -158,7 +158,7 @@ nsITableLayout
 {
 public
 :
-NS_DECL_QUERYFRAME
+NS_DECL_ISUPPORTS_INHERITED
 friend
 nsIFrame
 *
