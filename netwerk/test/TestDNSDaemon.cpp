@@ -82,12 +82,7 @@ getdtablehi
 )
 FD_SETSIZE
 #
-elif
-!
-defined
-(
-__irix
-)
+else
 #
 define
 getdtablehi
