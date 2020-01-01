@@ -445,6 +445,10 @@ nsIUrlClassifierStreamUpdater
 .
 idl
 \
+nsIUrlClassifierPrefixSet
+.
+idl
+\
 nsIUrlClassifierUtils
 .
 idl
@@ -468,6 +472,10 @@ nsUrlClassifierStreamUpdater
 cpp
 \
 nsUrlClassifierUtils
+.
+cpp
+\
+nsUrlClassifierPrefixSet
 .
 cpp
 \
