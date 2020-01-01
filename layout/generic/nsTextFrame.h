@@ -1489,6 +1489,11 @@ PRBool
 aForInsertionPoint
 )
 ;
+void
+ClearFrameOffsetCache
+(
+)
+;
 }
 ;
 #
