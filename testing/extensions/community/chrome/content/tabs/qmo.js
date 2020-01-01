@@ -785,6 +785,14 @@ i
 .
 url
 ;
+a
+.
+target
+=
+"
+blank_
+"
+;
 }
 }
 }
