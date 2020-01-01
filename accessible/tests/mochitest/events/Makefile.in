@@ -539,6 +539,10 @@ test_mutation
 .
 html
 \
+test_mutation
+.
+xhtml
+\
 test_scroll
 .
 xul

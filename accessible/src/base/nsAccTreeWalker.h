@@ -46,6 +46,10 @@ nsIContent
 aNode
 PRBool
 aWalkAnonymousContent
+bool
+aWalkCache
+=
+false
 )
 ;
 virtual
@@ -99,6 +103,9 @@ mWeakShell
 ;
 PRInt32
 mChildFilter
+;
+bool
+mWalkCache
 ;
 WalkState
 *
