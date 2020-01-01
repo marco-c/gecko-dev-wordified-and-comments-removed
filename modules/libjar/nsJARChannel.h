@@ -238,6 +238,12 @@ mContentType
 nsCString
 mContentCharset
 ;
+nsCString
+mContentDispositionHeader
+;
+PRUint32
+mContentDisposition
+;
 PRInt32
 mContentLength
 ;

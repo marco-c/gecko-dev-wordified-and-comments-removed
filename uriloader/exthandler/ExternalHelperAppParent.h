@@ -183,8 +183,14 @@ mStatus
 PRInt64
 mContentLength
 ;
-nsCString
+PRUint32
 mContentDisposition
+;
+nsString
+mContentDispositionFilename
+;
+nsCString
+mContentDispositionHeader
 ;
 nsCString
 mEntityID

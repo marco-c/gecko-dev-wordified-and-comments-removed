@@ -26,10 +26,6 @@ kContentLength
 ;
 const
 nsLiteralString
-kContentDisposition
-;
-const
-nsLiteralString
 kChannelPolicy
 ;
 }
