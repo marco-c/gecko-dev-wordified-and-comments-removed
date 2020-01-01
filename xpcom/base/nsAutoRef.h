@@ -466,6 +466,9 @@ RawRef
 aRefToCopy
 )
 {
+this
+-
+>
 own
 (
 aRefToCopy
@@ -542,6 +545,9 @@ HaveResource
 (
 )
 )
+this
+-
+>
 AddRef
 (
 this
@@ -1130,6 +1136,9 @@ HaveResource
 (
 )
 )
+this
+-
+>
 Release
 (
 this

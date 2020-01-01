@@ -79,6 +79,9 @@ size_type
 capacity
 )
 {
+this
+-
+>
 SetCapacity
 (
 capacity
@@ -93,6 +96,9 @@ self_type
 other
 )
 {
+this
+-
+>
 AppendElements
 (
 other
