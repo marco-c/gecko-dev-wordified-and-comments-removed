@@ -7,15 +7,6 @@ mozilla_dom_HTMLFrameElement_h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLFrameElement
 .
 h
