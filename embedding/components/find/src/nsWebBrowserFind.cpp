@@ -1993,7 +1993,7 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_FALSE
+PR_TRUE
 )
 ;
 }
