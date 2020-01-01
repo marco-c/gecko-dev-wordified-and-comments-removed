@@ -282,6 +282,14 @@ FlushAllCaches
 (
 )
 ;
+virtual
+void
+UpdateSelectedLocale
+(
+)
+=
+0
+;
 static
 void
 LogMessage

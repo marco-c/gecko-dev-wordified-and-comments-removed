@@ -2405,6 +2405,10 @@ ReloadChrome
 (
 )
 {
+UpdateSelectedLocale
+(
+)
+;
 FlushAllCaches
 (
 )
