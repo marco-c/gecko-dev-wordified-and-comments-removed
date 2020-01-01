@@ -126,16 +126,6 @@ manifest
 (
 NULL
 )
-EXTRA_JS_MODULES
-=
-\
-nsFormAutoCompleteResult
-.
-jsm
-\
-(
-NULL
-)
 EXTRA_PP_JS_MODULES
 =
 \

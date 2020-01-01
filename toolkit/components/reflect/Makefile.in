@@ -78,16 +78,6 @@ mk
 MODULE_NAME
 =
 jsreflect
-EXTRA_JS_MODULES
-=
-\
-reflect
-.
-jsm
-\
-(
-NULL
-)
 LIBXUL_LIBRARY
 =
 1

@@ -113,3 +113,13 @@ LIBRARY_NAME
 '
 jsreflect
 '
+EXTRA_JS_MODULES
++
+=
+[
+'
+reflect
+.
+jsm
+'
+]

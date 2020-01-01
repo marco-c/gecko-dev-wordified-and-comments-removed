@@ -79,17 +79,6 @@ config
 autoconf
 .
 mk
-EXTRA_JS_MODULES
-:
-=
-\
-ForgetAboutSite
-.
-jsm
-\
-(
-NULL
-)
 include
 (
 topsrcdir

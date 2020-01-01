@@ -78,16 +78,6 @@ mk
 MODULE_NAME
 =
 jsperf
-EXTRA_JS_MODULES
-=
-\
-PerfMeasurement
-.
-jsm
-\
-(
-NULL
-)
 LIBXUL_LIBRARY
 =
 1

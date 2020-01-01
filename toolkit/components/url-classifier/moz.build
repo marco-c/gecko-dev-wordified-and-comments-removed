@@ -252,3 +252,13 @@ LIBRARY_NAME
 '
 urlclassifier_s
 '
+EXTRA_JS_MODULES
++
+=
+[
+'
+SafeBrowsing
+.
+jsm
+'
+]

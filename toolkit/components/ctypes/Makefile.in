@@ -78,16 +78,6 @@ mk
 MODULE_NAME
 =
 jsctypes
-EXTRA_JS_MODULES
-=
-\
-ctypes
-.
-jsm
-\
-(
-NULL
-)
 LIBXUL_LIBRARY
 =
 1

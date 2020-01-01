@@ -113,3 +113,13 @@ nsPrompter
 manifest
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+CommonDialog
+.
+jsm
+'
+]
