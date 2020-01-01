@@ -612,6 +612,14 @@ DEFFILE
 mozce_shunt
 .
 def
+OS_LIBS
++
+=
+(
+call
+EXPAND_LIBNAME
+libcmt
+)
 CPPSRCS
 =
 \
