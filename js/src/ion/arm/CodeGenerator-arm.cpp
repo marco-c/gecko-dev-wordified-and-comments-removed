@@ -102,6 +102,13 @@ IonCompartment
 .
 h
 "
+#
+include
+"
+jsscopeinlines
+.
+h
+"
 using
 namespace
 js

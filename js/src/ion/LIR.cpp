@@ -882,7 +882,7 @@ policy
 LDefinition
 :
 :
-REDEFINED
+PASSTHROUGH
 )
 {
 fprintf
@@ -890,7 +890,7 @@ fprintf
 fp
 "
 (
-r
+-
 )
 "
 )

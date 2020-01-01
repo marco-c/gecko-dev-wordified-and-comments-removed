@@ -405,7 +405,7 @@ case
 LDefinition
 :
 :
-REDEFINED
+PASSTHROUGH
 :
 return
 true
@@ -1902,7 +1902,7 @@ policy
 LDefinition
 :
 :
-REDEFINED
+PASSTHROUGH
 )
 {
 foundRealDef
@@ -2669,7 +2669,7 @@ policy
 LDefinition
 :
 :
-REDEFINED
+PASSTHROUGH
 )
 {
 LDefinition

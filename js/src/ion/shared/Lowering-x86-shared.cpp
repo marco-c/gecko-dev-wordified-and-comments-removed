@@ -209,7 +209,7 @@ temp
 LDefinition
 :
 :
-INTEGER
+GENERAL
 )
 ;
 }
@@ -226,7 +226,7 @@ temp
 LDefinition
 :
 :
-POINTER
+GENERAL
 )
 tableswitch
 )
