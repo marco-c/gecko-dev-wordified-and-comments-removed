@@ -1,6 +1,9 @@
 let
 handleDialog
 ;
+let
+timer
+;
 function
 test
 (
@@ -725,7 +728,6 @@ dialogDelay
 =
 10
 ;
-let
 timer
 =
 Cc
