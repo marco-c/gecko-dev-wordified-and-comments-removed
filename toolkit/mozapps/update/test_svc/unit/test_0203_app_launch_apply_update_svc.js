@@ -1809,6 +1809,9 @@ for
 update
 to
 be
+"
++
+"
 applied
 current
 state
@@ -1937,6 +1940,9 @@ update
 log
 to
 be
+"
++
+"
 created
 "
 )
@@ -2557,6 +2563,9 @@ waiting
 for
 state
 to
+"
++
+"
 change
 to
 succeeded
@@ -2628,6 +2637,9 @@ for
 file
 to
 be
+"
++
+"
 unlocked
 "
 )
@@ -3095,7 +3107,7 @@ exists
 )
 )
 ;
-removeCallbackCopy
+waitForFilesInUse
 (
 )
 ;
