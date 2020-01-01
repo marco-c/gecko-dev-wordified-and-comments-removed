@@ -674,7 +674,7 @@ getFormatStr
 "
 networkMenu
 .
-size
+sizeKB
 "
 "
 0
@@ -2308,7 +2308,6 @@ match
 9
 ]
 +
-ms
 /
 )
 "
@@ -2366,7 +2365,6 @@ match
 9
 ]
 +
-ms
 /
 )
 "
@@ -2424,7 +2422,6 @@ match
 9
 ]
 +
-ms
 /
 )
 "
@@ -2482,7 +2479,6 @@ match
 9
 ]
 +
-ms
 /
 )
 "
@@ -2540,7 +2536,6 @@ match
 9
 ]
 +
-ms
 /
 )
 "
@@ -2598,7 +2593,6 @@ match
 9
 ]
 +
-ms
 /
 )
 "

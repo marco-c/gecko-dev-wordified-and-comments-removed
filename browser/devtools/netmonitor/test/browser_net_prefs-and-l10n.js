@@ -187,7 +187,7 @@ getFormatStr
 "
 networkMenu
 .
-total
+totalMS
 "
 "
 foo
@@ -200,7 +200,7 @@ formatStringFromName
 "
 networkMenu
 .
-total
+totalMS
 "
 [
 "
