@@ -206,6 +206,15 @@ include
 "
 vm
 /
+RegExpStaticsObject
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 .
 h
@@ -28362,7 +28371,10 @@ mallocSizeOf
 else
 if
 (
-isRegExpStatics
+is
+<
+RegExpStaticsObject
+>
 (
 )
 )
