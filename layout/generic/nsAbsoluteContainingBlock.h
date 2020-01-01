@@ -239,6 +239,11 @@ NotEmpty
 )
 ;
 }
+void
+MarkSizeDependentFramesDirty
+(
+)
+;
 protected
 :
 PRBool
