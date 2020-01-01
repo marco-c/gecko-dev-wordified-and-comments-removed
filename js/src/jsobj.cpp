@@ -18676,6 +18676,15 @@ slot
 ;
 if
 (
+JSSLOT_FREE
+(
+clasp
+)
+<
+=
+slot
+&
+&
 slot
 +
 1
