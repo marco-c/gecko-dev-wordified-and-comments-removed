@@ -2972,12 +2972,6 @@ forget
 "
 )
 ;
-NSCAP_LOG_RELEASE
-(
-this
-mRawPtr
-)
-;
 *
 rhs
 =
