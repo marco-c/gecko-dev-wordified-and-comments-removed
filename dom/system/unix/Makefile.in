@@ -504,6 +504,15 @@ geolocation
 NULL
 )
 endif
+ifdef
+MOZ_PLATFORM_MAEMO
+CPPSRCS
++
+=
+nsHapticFeedback
+.
+cpp
+endif
 include
 (
 topsrcdir
