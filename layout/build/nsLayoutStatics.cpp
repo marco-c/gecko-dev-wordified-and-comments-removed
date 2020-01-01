@@ -448,7 +448,7 @@ h
 endif
 #
 ifdef
-MOZ_OGG
+MOZ_SYDNEYAUDIO
 #
 include
 "
@@ -1078,7 +1078,7 @@ InitMediaTypes
 endif
 #
 ifdef
-MOZ_OGG
+MOZ_SYDNEYAUDIO
 nsAudioStream
 :
 :
@@ -1470,7 +1470,7 @@ ShutdownMediaTypes
 endif
 #
 ifdef
-MOZ_OGG
+MOZ_SYDNEYAUDIO
 nsAudioStream
 :
 :
