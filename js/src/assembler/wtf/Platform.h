@@ -3599,6 +3599,9 @@ WTF_CPU_ARM
 |
 |
 WTF_CPU_MIPS
+|
+|
+WTF_CPU_SPARC32
 )
 \
 &
