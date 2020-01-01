@@ -11897,6 +11897,13 @@ HOST_OPTIMIZE_FLAGS
 O3
 }
 "
+LDFLAGS
+=
+"
+LDFLAGS
+-
+lobjc
+"
 LIBXUL_LIBS
 =
 '
@@ -11910,8 +11917,6 @@ LIBXUL_DIST
 bin
 /
 XUL
--
-lobjc
 '
 ;
 ;

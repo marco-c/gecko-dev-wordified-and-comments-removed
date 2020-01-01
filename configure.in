@@ -37708,6 +37708,8 @@ LDFLAGS
 -
 framework
 Cocoa
+-
+lobjc
 "
 CFLAGS
 =
@@ -37734,8 +37736,6 @@ LIBXUL_DIST
 bin
 /
 XUL
--
-lobjc
 '
 MOZ_FS_LAYOUT
 =
