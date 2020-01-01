@@ -1323,6 +1323,9 @@ nsCSSValue
 mOverflowY
 ;
 nsCSSValue
+mResize
+;
+nsCSSValue
 mPointerEvents
 ;
 nsCSSValue
