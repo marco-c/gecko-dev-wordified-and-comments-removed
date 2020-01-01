@@ -1333,7 +1333,7 @@ slots
 >
 mMutationObservers
 .
-AppendElementUnlessExists
+AppendObserverUnlessExists
 (
 aMutationObserver
 )
@@ -1369,7 +1369,7 @@ slots
 >
 mMutationObservers
 .
-RemoveElement
+RemoveObserver
 (
 aMutationObserver
 )

@@ -71,6 +71,9 @@ class
 nsIDOMEvent
 ;
 class
+nsVoidArray
+;
+class
 nsIAtom
 ;
 struct
@@ -574,13 +577,9 @@ nsEvent
 aEvent
 )
 ;
-nsAutoTObserverArray
-<
-nsAutoPtr
+nsTObserverArray
 <
 nsListenerStruct
->
-2
 >
 mListeners
 ;
