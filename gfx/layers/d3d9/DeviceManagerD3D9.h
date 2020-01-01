@@ -298,6 +298,15 @@ LayerD3D9
 >
 mLayersWithResources
 ;
+PRInt32
+GetMaxTextureSize
+(
+)
+{
+return
+mMaxTextureSize
+;
+}
 private
 :
 friend
@@ -412,6 +421,9 @@ mDeviceMonitor
 ;
 PRUint32
 mDeviceResetCount
+;
+PRUint32
+mMaxTextureSize
 ;
 bool
 mHasDynamicTextures

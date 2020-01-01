@@ -416,6 +416,14 @@ LayerManager
 aManager
 )
 ;
+PRBool
+ShouldForceInactiveLayer
+(
+LayerManager
+*
+aManager
+)
+;
 void
 MarkContextClean
 (
@@ -504,6 +512,8 @@ const
 nsAString
 &
 aContextId
+PRBool
+aForceThebes
 nsICanvasRenderingContextInternal
 *
 *
