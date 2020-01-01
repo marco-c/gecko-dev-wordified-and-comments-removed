@@ -959,6 +959,14 @@ ins
 )
 ;
 bool
+visitExcludeType
+(
+MExcludeType
+*
+ins
+)
+;
+bool
 visitArrayLength
 (
 MArrayLength

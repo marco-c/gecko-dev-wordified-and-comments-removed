@@ -866,6 +866,10 @@ SAFE_OP
 (
 MonitorTypes
 )
+SAFE_OP
+(
+ExcludeType
+)
 UNSAFE_OP
 (
 GetPropertyCache

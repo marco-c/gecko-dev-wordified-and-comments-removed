@@ -434,6 +434,11 @@ MonitorTypes
 \
 _
 (
+ExcludeType
+)
+\
+_
+(
 GetPropertyCache
 )
 \
