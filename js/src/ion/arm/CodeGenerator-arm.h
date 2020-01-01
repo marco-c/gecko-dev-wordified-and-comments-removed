@@ -64,12 +64,10 @@ this
 }
 protected
 :
-HeapLabel
-*
+NonAssertingLabel
 returnLabel_
 ;
-HeapLabel
-*
+NonAssertingLabel
 deoptLabel_
 ;
 inline

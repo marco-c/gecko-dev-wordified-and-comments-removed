@@ -127,25 +127,6 @@ BaselineCompilerSpecific
 cx
 script
 )
-return_
-(
-new
-HeapLabel
-(
-)
-)
-#
-ifdef
-JSGC_GENERATIONAL
-postBarrierSlot_
-(
-new
-HeapLabel
-(
-)
-)
-#
-endif
 {
 }
 bool
@@ -1315,6 +1296,7 @@ masm
 .
 bind
 (
+&
 return_
 )
 ;
@@ -1362,6 +1344,7 @@ masm
 .
 bind
 (
+&
 postBarrierSlot_
 )
 ;
@@ -1670,6 +1653,7 @@ masm
 .
 jump
 (
+&
 return_
 )
 ;
@@ -7857,6 +7841,7 @@ masm
 .
 call
 (
+&
 postBarrierSlot_
 )
 ;
@@ -10666,6 +10651,7 @@ masm
 .
 jump
 (
+&
 return_
 )
 ;
@@ -10835,6 +10821,7 @@ masm
 .
 jump
 (
+&
 return_
 )
 ;

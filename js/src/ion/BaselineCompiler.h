@@ -900,15 +900,13 @@ Label
 >
 labels_
 ;
-HeapLabel
-*
+NonAssertingLabel
 return_
 ;
 #
 ifdef
 JSGC_GENERATIONAL
-HeapLabel
-*
+NonAssertingLabel
 postBarrierSlot_
 ;
 #
