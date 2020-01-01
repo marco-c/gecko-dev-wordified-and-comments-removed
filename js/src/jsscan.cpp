@@ -6214,6 +6214,9 @@ while
 (
 ScanAsSpace
 (
+(
+jschar
+)
 c
 )
 )
@@ -9050,6 +9053,9 @@ n
 &
 ScanAsSpace
 (
+(
+jschar
+)
 c
 )
 )
@@ -9131,6 +9137,9 @@ n
 &
 ScanAsSpace
 (
+(
+jschar
+)
 c
 )
 )
@@ -9266,6 +9275,9 @@ n
 &
 ScanAsSpace
 (
+(
+jschar
+)
 c
 )
 )

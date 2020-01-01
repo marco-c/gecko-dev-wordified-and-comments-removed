@@ -2823,9 +2823,6 @@ script
 JSBool
 ok
 ;
-jsval
-result
-;
 uint32
 oldopts
 ;
@@ -3842,6 +3839,9 @@ JS_FALSE
 JS_SetGCZeal
 (
 cx
+(
+uint8
+)
 zeal
 )
 ;
