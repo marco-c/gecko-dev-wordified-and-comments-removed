@@ -6116,7 +6116,7 @@ sync
 .
 pair
 .
-title
+button
 ;
 "
 oncommand
@@ -6177,7 +6177,7 @@ label
 &
 sync
 .
-syncNow
+syncNow2
 ;
 "
 oncommand
@@ -7033,7 +7033,7 @@ sync
 .
 setup
 .
-pair
+pair2
 ;
 <
 /
@@ -8065,7 +8065,7 @@ sync
 .
 pair
 .
-description
+description2
 ;
 <
 /

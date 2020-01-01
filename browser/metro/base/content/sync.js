@@ -3713,7 +3713,7 @@ sync
 .
 update
 .
-button
+learnmore
 "
 )
 let
