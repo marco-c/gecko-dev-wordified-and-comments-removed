@@ -477,6 +477,10 @@ nsCertOverrideService
 .
 cpp
 \
+nsRecentBadCerts
+.
+cpp
+\
 nsPSMBackgroundThread
 .
 cpp
