@@ -565,7 +565,7 @@ null
 "
 true
 "
-STATE_PENDING
+STATE_PENDING_SVC
 )
 ;
 let

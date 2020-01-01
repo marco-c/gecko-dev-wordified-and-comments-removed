@@ -544,7 +544,7 @@ null
 "
 true
 "
-STATE_PENDING
+STATE_PENDING_SVC
 )
 ;
 let
@@ -2857,8 +2857,10 @@ exists
 )
 )
 ;
-removeCallbackCopy
+do_timeout
 (
+TEST_HELPER_TIMEOUT
+removeCallbackCopy
 )
 ;
 }
