@@ -1112,6 +1112,7 @@ zIndex
 ;
 }
 else
+{
 this
 .
 snap
@@ -1119,18 +1120,7 @@ snap
 immediately
 )
 ;
-if
-(
-container
-)
-this
-.
-setBounds
-(
-rectToBe
-immediately
-)
-;
+}
 if
 (
 !
