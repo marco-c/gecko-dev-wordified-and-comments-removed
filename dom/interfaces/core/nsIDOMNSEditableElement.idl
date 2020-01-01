@@ -133,11 +133,13 @@ to
 update
 the
 HTMLTextAreaElement
+and
+HTMLInputElement
+*
 Web
 IDL
-interface
+interfaces
 to
-*
 mirror
 this
 interface
@@ -145,6 +147,7 @@ when
 changing
 it
 .
+*
 *
 /
 [

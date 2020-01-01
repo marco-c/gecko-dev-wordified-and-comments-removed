@@ -419,6 +419,10 @@ HTMLImageElement
 .
 webidl
 \
+HTMLInputElement
+.
+webidl
+\
 HTMLLabelElement
 .
 webidl
