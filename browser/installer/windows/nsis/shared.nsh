@@ -1116,6 +1116,10 @@ StrCpy
 \
 "
 -
+requestPending
+-
+osint
+-
 url
 \
 "
@@ -1123,8 +1127,6 @@ url
 1
 \
 "
--
-requestPending
 "
 ;
 Associate
@@ -3384,6 +3386,10 @@ StrCpy
 \
 "
 -
+requestPending
+-
+osint
+-
 url
 \
 "
@@ -3391,8 +3397,6 @@ url
 1
 \
 "
--
-requestPending
 "
 ;
 Always
