@@ -4,6 +4,17 @@ mozilla__ipdltest_IPDLUnitTestTypes_h
 #
 define
 mozilla__ipdltest_IPDLUnitTestTypes_h
+#
+include
+"
+mozilla
+/
+ipc
+/
+ProtocolUtils
+.
+h
+"
 namespace
 mozilla
 {
