@@ -318,6 +318,10 @@ hasReturnVoid
 (
 false
 )
+inDeclDestructuring
+(
+false
+)
 {
 prs
 -
