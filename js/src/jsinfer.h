@@ -1803,8 +1803,7 @@ addGetProperty
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1822,8 +1821,7 @@ addSetProperty
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1841,8 +1839,7 @@ addSetElement
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1872,8 +1869,7 @@ addArith
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1894,8 +1890,7 @@ addTransformThis
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 TypeSet
 *
@@ -1908,8 +1903,7 @@ addPropagateThis
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1929,8 +1923,7 @@ addSubsetBarrier
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -2039,8 +2032,7 @@ addGetProperty
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -2058,8 +2050,7 @@ addCallProperty
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -2085,8 +2076,7 @@ addSubsetBarrier
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -3077,8 +3067,7 @@ UseNewType
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -3091,8 +3080,7 @@ UseNewTypeForInitializer
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -3107,8 +3095,7 @@ ArrayPrototypeHasIndexedProperty
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 ;
@@ -3217,8 +3204,7 @@ inline
 unsigned
 NumTypeSets
 (
-JSScript
-*
+RawScript
 script
 )
 ;
@@ -3228,8 +3214,7 @@ HeapTypeSet
 *
 ReturnTypes
 (
-JSScript
-*
+RawScript
 script
 )
 ;
@@ -3239,8 +3224,7 @@ StackTypeSet
 *
 ThisTypes
 (
-JSScript
-*
+RawScript
 script
 )
 ;
@@ -3250,8 +3234,7 @@ StackTypeSet
 *
 ArgTypes
 (
-JSScript
-*
+RawScript
 script
 unsigned
 i
@@ -3263,8 +3246,7 @@ StackTypeSet
 *
 LocalTypes
 (
-JSScript
-*
+RawScript
 script
 unsigned
 i
@@ -3276,8 +3258,7 @@ StackTypeSet
 *
 SlotTypes
 (
-JSScript
-*
+RawScript
 script
 unsigned
 slot
@@ -3293,8 +3274,7 @@ CheckBytecode
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -3319,8 +3299,7 @@ StandardType
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 JSProtoKey
 kind
@@ -3335,8 +3314,7 @@ InitObject
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -3353,8 +3331,7 @@ MonitorOverflow
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -3369,8 +3346,7 @@ MonitorString
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -3385,8 +3361,7 @@ MonitorUnknown
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -3401,9 +3376,7 @@ GetPcScript
 JSContext
 *
 cx
-JSScript
-*
-*
+MutableHandleScript
 script
 jsbytecode
 *
@@ -3449,8 +3422,7 @@ Monitor
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -3503,8 +3475,7 @@ SetThis
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 Type
 type
@@ -3518,8 +3489,7 @@ SetThis
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 const
 js
@@ -3538,8 +3508,7 @@ SetLocal
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 unsigned
 local
@@ -3555,8 +3524,7 @@ SetLocal
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 unsigned
 local
@@ -3577,8 +3545,7 @@ SetArgument
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 unsigned
 arg
@@ -3594,8 +3561,7 @@ SetArgument
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 unsigned
 arg
@@ -3615,8 +3581,7 @@ AddFreezeConstraints
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 ;
@@ -3627,8 +3592,7 @@ Purge
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 ;
@@ -3639,8 +3603,7 @@ Sweep
 FreeOp
 *
 fop
-JSScript
-*
+RawScript
 script
 )
 ;
@@ -4132,8 +4095,7 @@ addPendingRecompile
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -4146,8 +4108,7 @@ monitorBytecode
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 uint32_t
 offset

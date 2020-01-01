@@ -3906,9 +3906,11 @@ beginsIonActivation
 )
 )
 {
-JSScript
-*
+RootedScript
 script
+(
+cx
+)
 ;
 jsbytecode
 *
@@ -4587,9 +4589,11 @@ beginsIonActivation
 )
 )
 {
-JSScript
-*
+RootedScript
 script
+(
+cx
+)
 ;
 jsbytecode
 *

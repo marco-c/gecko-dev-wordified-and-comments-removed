@@ -4540,7 +4540,7 @@ JSAtom
 *
 atom
 =
-script
+script_
 -
 >
 getAtom
@@ -5787,7 +5787,7 @@ PC
 {
 if
 (
-script
+script_
 -
 >
 argsObjAliasesFormals
@@ -5849,7 +5849,7 @@ PC
 ;
 if
 (
-script
+script_
 -
 >
 argsObjAliasesFormals
@@ -5877,7 +5877,7 @@ else
 {
 if
 (
-script
+script_
 -
 >
 argsObjAliasesFormals
@@ -5937,7 +5937,7 @@ false
 ;
 if
 (
-script
+script_
 -
 >
 argsObjAliasesFormals
@@ -7158,7 +7158,7 @@ OOL_STUBCALL
 (
 STRICT_VARIANT
 (
-script
+script_
 stubs
 :
 :
@@ -8875,7 +8875,7 @@ OOL_STUBCALL
 (
 STRICT_VARIANT
 (
-script
+script_
 stubs
 :
 :
@@ -9163,7 +9163,7 @@ PC
 )
 &
 &
-script
+script_
 =
 =
 outerScript
@@ -9174,7 +9174,7 @@ append
 (
 PC
 -
-script
+script_
 -
 >
 code
@@ -9952,7 +9952,7 @@ OOL_STUBCALL
 (
 STRICT_VARIANT
 (
-script
+script_
 ic
 :
 :
@@ -9967,7 +9967,7 @@ OOL_STUBCALL
 (
 STRICT_VARIANT
 (
-script
+script_
 stubs
 :
 :
@@ -16091,7 +16091,7 @@ PropertyName
 *
 name
 =
-script
+script_
 -
 >
 getName
@@ -16147,7 +16147,7 @@ PC
 )
 &
 &
-script
+script_
 =
 =
 outerScript
@@ -16158,7 +16158,7 @@ append
 (
 PC
 -
-script
+script_
 -
 >
 code

@@ -5802,7 +5802,7 @@ JSContext
 cx
 JSScript
 *
-script
+script_
 unsigned
 n
 const
@@ -5835,6 +5835,13 @@ pc
 )
 )
 {
+RootedScript
+script
+(
+cx
+script_
+)
+;
 TypeScript
 :
 :

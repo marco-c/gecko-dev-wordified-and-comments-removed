@@ -4220,6 +4220,13 @@ return
 Compile_InlineAbort
 ;
 }
+RootedScript
+script
+(
+cx
+script_
+)
+;
 types
 :
 :
@@ -4419,6 +4426,13 @@ maxArraySlots
 )
 return
 Compile_InlineAbort
+;
+RootedScript
+script
+(
+cx
+script_
+)
 ;
 types
 :

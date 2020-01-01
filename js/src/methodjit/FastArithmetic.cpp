@@ -978,6 +978,13 @@ DoubleType
 )
 )
 {
+RootedScript
+script
+(
+cx
+script_
+)
+;
 types
 :
 :
@@ -1102,7 +1109,7 @@ PushedValue
 (
 PC
 -
-script
+script_
 -
 >
 code
@@ -5045,6 +5052,13 @@ DoubleType
 )
 )
 {
+RootedScript
+script
+(
+cx
+script_
+)
+;
 types
 :
 :

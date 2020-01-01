@@ -121,6 +121,8 @@ builder
 -
 >
 script
+(
+)
 -
 >
 compartment
@@ -302,6 +304,8 @@ builder
 -
 >
 script
+(
+)
 )
 )
 {
@@ -450,6 +454,8 @@ builder
 -
 >
 script
+(
+)
 )
 )
 {
@@ -1158,6 +1164,8 @@ builder
 -
 >
 script
+(
+)
 ;
 JS_ASSERT
 (
