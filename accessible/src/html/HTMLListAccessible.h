@@ -51,10 +51,10 @@ aContent
 aDoc
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eListAccessible
+eList
 ;
 }
 virtual
@@ -264,9 +264,9 @@ AsHTMLListItem
 )
 {
 return
-mFlags
-&
-eHTMLListItemAccessible
+IsHTMLListItem
+(
+)
 ?
 static_cast
 <

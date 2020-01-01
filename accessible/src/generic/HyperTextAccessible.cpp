@@ -200,10 +200,10 @@ aNode
 aDoc
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eHyperTextAccessible
+eHyperText
 ;
 }
 NS_IMPL_ADDREF_INHERITED

@@ -1533,10 +1533,10 @@ xpcAccessibleTable
 this
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eTableAccessible
+eTable
 ;
 }
 NS_IMPL_ISUPPORTS_INHERITED1

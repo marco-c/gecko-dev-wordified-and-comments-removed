@@ -131,9 +131,9 @@ AsTextLeaf
 )
 {
 return
-mFlags
-&
-eTextLeafAccessible
+IsTextLeaf
+(
+)
 ?
 static_cast
 <

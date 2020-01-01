@@ -349,10 +349,10 @@ if
 (
 autoCompletePopupElm
 )
-mFlags
+mGenericTypes
 |
 =
-eAutoCompletePopupAccessible
+eAutoCompletePopup
 ;
 }
 }

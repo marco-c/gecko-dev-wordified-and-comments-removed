@@ -129,10 +129,9 @@ aContent
 aDoc
 )
 {
-mFlags
-|
+mType
 =
-eImageAccessible
+eImageType
 ;
 }
 NS_IMPL_ISUPPORTS_INHERITED1

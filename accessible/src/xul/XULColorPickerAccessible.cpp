@@ -290,10 +290,10 @@ aContent
 aDoc
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eMenuButtonAccessible
+eMenuButton
 ;
 }
 uint64_t

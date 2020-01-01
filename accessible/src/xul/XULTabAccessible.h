@@ -184,10 +184,9 @@ aContent
 aDoc
 )
 {
-mFlags
-|
+mType
 =
-eXULDeckAccessible
+eXULDeckType
 ;
 }
 virtual

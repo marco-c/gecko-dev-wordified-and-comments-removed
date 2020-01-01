@@ -112,10 +112,10 @@ xpcAccessibleTable
 this
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eTableAccessible
+eTable
 ;
 }
 NS_IMPL_ISUPPORTS_INHERITED1
@@ -1126,10 +1126,10 @@ aTreeView
 aRow
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eTableRowAccessible
+eTableRow
 ;
 mAccessibleCache
 .

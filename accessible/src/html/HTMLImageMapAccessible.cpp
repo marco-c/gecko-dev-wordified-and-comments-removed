@@ -110,10 +110,9 @@ aContent
 aDoc
 )
 {
-mFlags
-|
+mType
 =
-eImageMapAccessible
+eImageMapType
 ;
 }
 NS_IMPL_ISUPPORTS_INHERITED0

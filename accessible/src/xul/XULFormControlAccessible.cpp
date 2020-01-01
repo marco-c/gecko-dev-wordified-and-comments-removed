@@ -193,10 +193,10 @@ ContainsMenu
 (
 )
 )
-mFlags
+mGenericTypes
 |
 =
-eMenuButtonAccessible
+eMenuButton
 ;
 }
 NS_IMPL_ISUPPORTS_INHERITED0

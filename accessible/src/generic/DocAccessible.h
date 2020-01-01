@@ -1294,9 +1294,9 @@ AsDoc
 )
 {
 return
-mFlags
-&
-eDocAccessible
+IsDoc
+(
+)
 ?
 static_cast
 <

@@ -1889,10 +1889,9 @@ IsMenu
 (
 )
 )
-mFlags
-|
+mType
 =
-eMenuPopupAccessible
+eMenuPopupType
 ;
 mSelectControl
 =
@@ -1911,11 +1910,11 @@ if
 !
 mSelectControl
 )
-mFlags
+mGenericTypes
 &
 =
 ~
-eSelectAccessible
+eSelect
 ;
 }
 uint64_t

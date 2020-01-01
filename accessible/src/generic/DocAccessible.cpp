@@ -406,10 +406,10 @@ mPresShell
 aPresShell
 )
 {
-mFlags
+mGenericTypes
 |
 =
-eDocAccessible
+eDocument
 ;
 mStateFlags
 |
@@ -470,11 +470,11 @@ IsXUL
 (
 )
 )
-mFlags
+mGenericTypes
 &
 =
 ~
-eHyperTextAccessible
+eHyperText
 ;
 if
 (
