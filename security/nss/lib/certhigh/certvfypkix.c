@@ -3934,6 +3934,10 @@ error
 NULL
 )
 {
+goto
+cleanup
+;
+}
 PKIX_PL_Object_DecRef
 (
 (
@@ -3944,10 +3948,10 @@ policyOID
 plContext
 )
 ;
-goto
-cleanup
+policyOID
+=
+NULL
 ;
-}
 }
 error
 =
