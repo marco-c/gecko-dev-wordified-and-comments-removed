@@ -1461,6 +1461,16 @@ aNotify
 ;
 virtual
 void
+UnbindFromTree
+(
+PRBool
+aDeep
+PRBool
+aNullParent
+)
+;
+virtual
+void
 SetNativeAnonymous
 (
 PRBool
