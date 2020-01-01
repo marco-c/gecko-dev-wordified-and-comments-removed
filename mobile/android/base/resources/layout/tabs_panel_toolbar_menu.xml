@@ -157,7 +157,7 @@ tab_indicator_divider
 /
 >
 <
-Button
+Spinner
 android
 :
 id
