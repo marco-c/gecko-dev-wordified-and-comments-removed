@@ -1986,15 +1986,7 @@ MediaInputPort
 *
 aPort
 )
-{
-mInputs
-.
-AppendElement
-(
-aPort
-)
 ;
-}
 virtual
 void
 RemoveInput
