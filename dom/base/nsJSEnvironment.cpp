@@ -14447,7 +14447,7 @@ if
 aClearFromProtoChain
 )
 {
-nsWindowSH
+nsCommonWindowSH
 :
 :
 InvalidateGlobalScopePolluter
