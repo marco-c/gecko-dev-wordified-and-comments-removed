@@ -252,6 +252,16 @@ font
 inherit
 ;
 }
+.
+textbox
+-
+contextmenu
+{
+cursor
+:
+default
+;
+}
 textbox
 [
 focused

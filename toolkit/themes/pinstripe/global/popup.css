@@ -119,6 +119,10 @@ message
 -
 box
 ;
+cursor
+:
+default
+;
 }
 tooltip
 [
