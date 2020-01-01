@@ -5666,9 +5666,6 @@ JS_NumberValue
 (
 double
 )
-(
-uint32_t
-)
 rv
 )
 ;
@@ -20012,9 +20009,6 @@ JS_NumberValue
 (
 (
 double
-)
-(
-uint32_t
 )
 res
 )
