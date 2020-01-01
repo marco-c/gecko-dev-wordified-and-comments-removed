@@ -161,12 +161,13 @@ E_OGGPLAY_CANT_SEEK
 }
 trash
 =
-malloc
+calloc
 (
 sizeof
 (
 OggPlaySeekTrash
 )
+1
 )
 ;
 trash
