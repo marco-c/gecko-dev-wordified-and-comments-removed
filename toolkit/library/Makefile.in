@@ -1397,6 +1397,7 @@ cellcore
 uuid
 ole32
 oleaut32
+Ws2
 )
 endif
 ifdef
