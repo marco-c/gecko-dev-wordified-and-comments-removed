@@ -3711,16 +3711,8 @@ firstColon
 =
 i
 ;
-}
-}
 if
 (
-firstColon
->
-=
-0
-&
-&
 firstColon
 <
 (
@@ -3757,6 +3749,8 @@ Length
 -
 mDOMWordOffset
 ;
+}
+}
 }
 if
 (
