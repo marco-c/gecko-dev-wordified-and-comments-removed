@@ -309,6 +309,12 @@ GetDPI
 (
 )
 ;
+virtual
+double
+GetDefaultScale
+(
+)
+;
 NS_IMETHOD
 Show
 (
