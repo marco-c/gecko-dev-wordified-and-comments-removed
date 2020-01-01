@@ -4742,10 +4742,9 @@ NS_ERROR_FAILURE
 accService
 -
 >
-GetAccessibleInWeakShell
+GetAccessibleFor
 (
 gLastFocusedNode
-mWeakShell
 getter_AddRefs
 (
 focusedChild
