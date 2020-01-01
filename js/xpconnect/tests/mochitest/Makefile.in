@@ -367,14 +367,6 @@ test_bug793969
 .
 html
 \
-file_bug795275
-.
-html
-\
-file_bug795275
-.
-xml
-\
 file_bug799348
 .
 html

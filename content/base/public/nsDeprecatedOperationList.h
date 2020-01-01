@@ -72,9 +72,5 @@ MozSlice
 )
 DEPRECATED_OPERATION
 (
-Components
-)
-DEPRECATED_OPERATION
-(
 PrefixedVisibilityAPI
 )
