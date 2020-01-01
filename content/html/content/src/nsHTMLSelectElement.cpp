@@ -4312,12 +4312,11 @@ GetDefaultSize
 (
 )
 )
-NS_IMPL_INT_ATTR_DEFAULT_VALUE
+NS_IMPL_INT_ATTR
 (
 nsHTMLSelectElement
 TabIndex
 tabindex
-0
 )
 NS_IMETHODIMP
 nsHTMLSelectElement

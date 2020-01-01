@@ -368,11 +368,12 @@ nsHTMLSharedListElement
 Compact
 compact
 )
-NS_IMPL_INT_ATTR
+NS_IMPL_INT_ATTR_DEFAULT_VALUE
 (
 nsHTMLSharedListElement
 Start
 start
+1
 )
 NS_IMPL_STRING_ATTR
 (

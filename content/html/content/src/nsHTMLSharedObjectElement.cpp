@@ -1167,11 +1167,13 @@ nsHTMLSharedObjectElement
 Src
 src
 )
-NS_IMPL_INT_ATTR
+NS_IMPL_INT_ATTR_DEFAULT_VALUE
 (
 nsHTMLSharedObjectElement
 TabIndex
 tabindex
+-
+1
 )
 NS_IMPL_STRING_ATTR
 (

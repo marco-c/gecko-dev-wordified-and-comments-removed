@@ -509,12 +509,11 @@ nsHTMLAnchorElement
 Shape
 shape
 )
-NS_IMPL_INT_ATTR_DEFAULT_VALUE
+NS_IMPL_INT_ATTR
 (
 nsHTMLAnchorElement
 TabIndex
 tabindex
-0
 )
 NS_IMPL_STRING_ATTR
 (
