@@ -776,12 +776,9 @@ IsPercentage
 {
 result
 =
-nsPresContext
-:
-:
-CSSPixelsToAppUnits
+nscoord
 (
-300
+0
 )
 ;
 }
