@@ -1722,7 +1722,7 @@ h
 #
 include
 "
-nsIDOMCSS2Properties
+nsIDOMNSCSS2Properties
 .
 h
 "

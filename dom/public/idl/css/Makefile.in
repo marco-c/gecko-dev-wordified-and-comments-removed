@@ -509,6 +509,10 @@ nsIDOMDocumentCSS
 .
 idl
 \
+nsIDOMNSCSS2Properties
+.
+idl
+\
 nsIDOMRGBColor
 .
 idl
