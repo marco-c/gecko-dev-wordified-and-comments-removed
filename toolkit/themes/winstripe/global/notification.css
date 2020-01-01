@@ -121,7 +121,8 @@ end
 1px
 ;
 }
-notification
+.
+messageImage
 [
 type
 =
@@ -129,8 +130,6 @@ type
 info
 "
 ]
-.
-messageImage
 {
 list
 -
@@ -160,7 +159,8 @@ png
 )
 ;
 }
-notification
+.
+messageImage
 [
 type
 =
@@ -168,8 +168,6 @@ type
 warning
 "
 ]
-.
-messageImage
 {
 list
 -
@@ -199,7 +197,8 @@ png
 )
 ;
 }
-notification
+.
+messageImage
 [
 type
 =
@@ -207,8 +206,6 @@ type
 critical
 "
 ]
-.
-messageImage
 {
 list
 -
