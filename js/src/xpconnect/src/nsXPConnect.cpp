@@ -6756,7 +6756,7 @@ XPCJSObjectHolder
 :
 newHolder
 (
-cx
+ccx
 JSVAL_TO_OBJECT
 (
 rval

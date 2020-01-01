@@ -59,6 +59,12 @@ class
 XPCNativeScriptableCreateInfo
 ;
 class
+XPCTraceableVariant
+;
+class
+XPCJSObjectHolder
+;
+class
 JSObject2WrappedJSMap
 ;
 class
