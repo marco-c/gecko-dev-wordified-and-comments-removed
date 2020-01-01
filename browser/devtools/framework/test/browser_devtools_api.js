@@ -186,7 +186,7 @@ is
 (
 gDevTools
 .
-getToolDefinitions
+getToolDefinitionMap
 (
 )
 .
@@ -215,7 +215,7 @@ is
 (
 gDevTools
 .
-getToolDefinitions
+getToolDefinitionMap
 (
 )
 .
@@ -349,7 +349,7 @@ toolDefinitions
 =
 gDevTools
 .
-getToolDefinitions
+getToolDefinitionMap
 (
 )
 ;
@@ -406,7 +406,7 @@ is
 (
 gDevTools
 .
-getToolDefinitions
+getToolDefinitionMap
 (
 )
 .
