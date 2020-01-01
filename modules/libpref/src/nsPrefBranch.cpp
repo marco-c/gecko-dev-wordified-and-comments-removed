@@ -532,7 +532,7 @@ const
 char
 *
 aPrefName
-PRInt32
+PRBool
 aValue
 )
 {

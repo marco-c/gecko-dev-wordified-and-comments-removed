@@ -51,7 +51,7 @@ defaultPref
 PrefValue
 userPref
 ;
-PRUint8
+PRUint16
 flags
 ;
 }
@@ -101,6 +101,9 @@ PREF_INT
 PREF_BOOL
 =
 128
+PREF_HAS_DEFAULT
+=
+256
 PREF_VALUETYPE_MASK
 =
 (
