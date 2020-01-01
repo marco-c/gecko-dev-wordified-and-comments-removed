@@ -131,6 +131,7 @@ Components
 interfaces
 .
 nsIInterfaceRequestor
+;
 const
 nsIDOMWindow
 =
@@ -350,7 +351,6 @@ df7c505370f8
 }
 "
 )
-;
 QueryInterface
 :
 function

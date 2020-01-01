@@ -13,9 +13,6 @@ df7c505370f8
 nsFilePicker
 .
 js
-#
-ifndef
-MOZ_WIDGET_GTK2
 contract
 mozilla
 .
@@ -35,5 +32,3 @@ a209
 -
 df7c505370f8
 }
-#
-endif
