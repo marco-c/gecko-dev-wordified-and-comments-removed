@@ -206,10 +206,6 @@ NotifySVGChanged
 TRANSFORM_CHANGED
 )
 ;
-SchedulePaint
-(
-)
-;
 }
 else
 if

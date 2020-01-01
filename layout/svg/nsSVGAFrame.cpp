@@ -363,10 +363,6 @@ NotifySVGChanged
 TRANSFORM_CHANGED
 )
 ;
-SchedulePaint
-(
-)
-;
 }
 return
 NS_OK

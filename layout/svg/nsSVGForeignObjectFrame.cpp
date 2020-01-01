@@ -471,10 +471,6 @@ nsGkAtoms
 transform
 )
 {
-SchedulePaint
-(
-)
-;
 mCanvasTM
 =
 nullptr
