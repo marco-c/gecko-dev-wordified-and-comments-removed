@@ -7393,14 +7393,14 @@ standard_class_atoms
 =
 {
 {
-js_InitFunctionAndObjectClasses
+js_InitFunctionClass
 EAGER_ATOM_AND_CLASP
 (
 Function
 )
 }
 {
-js_InitFunctionAndObjectClasses
+js_InitObjectClass
 EAGER_ATOM_AND_CLASP
 (
 Object

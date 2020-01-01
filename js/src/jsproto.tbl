@@ -525,13 +525,13 @@ JS_PROTO
 (
 Object
 1
-js_InitFunctionAndObjectClasses
+js_InitObjectClass
 )
 JS_PROTO
 (
 Function
 2
-js_InitFunctionAndObjectClasses
+js_InitFunctionClass
 )
 JS_PROTO
 (
