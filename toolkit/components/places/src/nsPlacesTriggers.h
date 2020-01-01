@@ -327,11 +327,11 @@ moz_openpages_temp
 \
 "
 WHERE
-place_id
+url
 =
 OLD
 .
-id
+url
 ;
 "
 \
@@ -1285,11 +1285,11 @@ moz_openpages_temp
 \
 "
 WHERE
-place_id
+url
 =
 NEW
 .
-place_id
+url
 ;
 "
 \
