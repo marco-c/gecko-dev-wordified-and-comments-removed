@@ -55,11 +55,6 @@ Scripts
 \
 _
 (
-PCProf
-)
-\
-_
-(
 Prof
 )
 \
