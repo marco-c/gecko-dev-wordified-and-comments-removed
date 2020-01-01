@@ -861,6 +861,17 @@ STRING
 BUILTIN3
 (
 extern
+BOOL
+js_HasNamedPropertyInt32
+CONTEXT
+OBJECT
+INT32
+0
+0
+)
+BUILTIN3
+(
+extern
 JSVAL
 js_CallGetter
 CONTEXT
