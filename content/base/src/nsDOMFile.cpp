@@ -169,14 +169,16 @@ h
 #
 include
 "
-CheckedInt
+nsJSUtils
 .
 h
 "
 #
 include
 "
-nsJSUtils
+mozilla
+/
+CheckedInt
 .
 h
 "
@@ -761,7 +763,7 @@ if
 !
 newStartOffset
 .
-valid
+isValid
 (
 )
 |
@@ -769,7 +771,7 @@ valid
 !
 newEndOffset
 .
-valid
+isValid
 (
 )
 |

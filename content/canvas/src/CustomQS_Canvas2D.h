@@ -15,6 +15,8 @@ h
 #
 include
 "
+mozilla
+/
 CheckedInt
 .
 h
@@ -731,7 +733,7 @@ if
 !
 len
 .
-valid
+isValid
 (
 )
 )
