@@ -594,7 +594,7 @@ using
 NSCursor
 .
 param
-aPantherCursor
+aCursor
 selector
 indicating
 the
