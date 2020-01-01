@@ -8360,6 +8360,12 @@ TRANSITION_EMBED
 |
 |
 aIsRedirect
+|
+|
+aTransitionType
+=
+=
+TRANSITION_DOWNLOAD
 )
 ;
 typed
