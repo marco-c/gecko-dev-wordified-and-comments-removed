@@ -198,11 +198,13 @@ aFieldList
 ;
 }
 void
-Traverse
+Trace
 (
-nsCycleCollectionTraversalCallback
-&
-cb
+TraceCallback
+aCallback
+void
+*
+aClosure
 )
 const
 ;

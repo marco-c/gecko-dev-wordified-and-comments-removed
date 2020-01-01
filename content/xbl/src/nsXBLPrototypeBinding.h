@@ -722,6 +722,17 @@ Unlink
 (
 )
 ;
+void
+Trace
+(
+TraceCallback
+aCallback
+void
+*
+aClosure
+)
+const
+;
 static
 PRUint32
 gRefCnt
