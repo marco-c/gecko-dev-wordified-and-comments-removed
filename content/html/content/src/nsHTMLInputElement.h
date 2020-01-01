@@ -812,6 +812,8 @@ nsIDOMFile
 >
 &
 aFiles
+bool
+aSetValueChanged
 )
 ;
 void
@@ -1100,6 +1102,8 @@ aSetValueChanged
 void
 ClearFiles
 (
+bool
+aSetValueChanged
 )
 {
 nsCOMArray
@@ -1111,6 +1115,7 @@ files
 SetFiles
 (
 files
+aSetValueChanged
 )
 ;
 }

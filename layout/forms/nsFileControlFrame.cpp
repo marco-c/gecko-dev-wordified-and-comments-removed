@@ -2131,6 +2131,7 @@ inputElement
 SetFiles
 (
 newFiles
+true
 )
 ;
 mFrame
