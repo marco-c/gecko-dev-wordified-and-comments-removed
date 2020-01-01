@@ -834,6 +834,10 @@ nsXHREventTarget
 )
 protected
 :
+friend
+class
+nsMultipartProxyListener
+;
 nsresult
 DetectCharset
 (
