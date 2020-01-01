@@ -921,8 +921,16 @@ type
 (
 )
 )
-|
-|
+)
+return
+stackSlotAllocator
+.
+allocateValueSlot
+(
+)
+;
+if
+(
 vr
 -
 >
@@ -1549,7 +1557,7 @@ stackSlot
 ;
 stackSlotAllocator
 .
-freeDoubleSlot
+freeValueSlot
 (
 stackSlot
 )
