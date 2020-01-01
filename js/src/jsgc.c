@@ -12095,6 +12095,14 @@ fp
 script
 )
 ;
+if
+(
+fp
+-
+>
+regs
+)
+{
 nslots
 =
 (
@@ -12102,6 +12110,9 @@ uintN
 )
 (
 fp
+-
+>
+regs
 -
 >
 sp
@@ -12139,6 +12150,7 @@ operand
 "
 )
 ;
+}
 }
 JS_ASSERT
 (
