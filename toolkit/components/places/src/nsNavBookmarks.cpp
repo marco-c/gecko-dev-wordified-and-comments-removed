@@ -9127,6 +9127,11 @@ mBookmarkIndex
 =
 index
 ;
+if
+(
+!
+isFolder
+)
 node
 -
 >
