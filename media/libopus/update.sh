@@ -581,3 +581,10 @@ p1
 padding
 .
 patch
+patch
+-
+p3
+<
+mingw
+.
+patch
