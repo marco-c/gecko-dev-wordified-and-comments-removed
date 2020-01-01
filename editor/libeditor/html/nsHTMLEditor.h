@@ -362,8 +362,11 @@ aKeyEvent
 )
 ;
 virtual
-PRBool
-HasFocus
+already_AddRefed
+<
+nsIContent
+>
+GetFocusedContent
 (
 )
 ;
