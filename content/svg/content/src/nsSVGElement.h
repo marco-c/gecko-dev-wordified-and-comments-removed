@@ -695,10 +695,6 @@ nsAString
 aValue
 )
 ;
-friend
-class
-nsSVGTextPositioningElement
-;
 virtual
 PRBool
 IsEventName
