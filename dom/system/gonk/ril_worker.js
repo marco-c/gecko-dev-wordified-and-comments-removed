@@ -10592,6 +10592,15 @@ UNSOLICITED_RIL_CONNECTED
 length
 )
 {
+if
+(
+!
+length
+)
+{
+return
+;
+}
 let
 version
 =
