@@ -4873,9 +4873,6 @@ PRUint8
 mTextAlign
 ;
 PRUint8
-mTextAlignLast
-;
-PRUint8
 mTextTransform
 ;
 PRUint8

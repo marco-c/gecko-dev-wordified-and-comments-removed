@@ -1323,7 +1323,7 @@ nsnull
 )
 ;
 bool
-IsLastLine
+ShouldJustifyLine
 (
 nsBlockReflowState
 &
