@@ -43,13 +43,6 @@ stylesheet
 href
 =
 "
-chrome
-:
-/
-/
-mochikit
-/
-content
 /
 tests
 /
