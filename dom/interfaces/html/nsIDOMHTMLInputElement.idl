@@ -290,7 +290,7 @@ indeterminate
 ;
 attribute
 DOMString
-inputMode
+inputmode
 ;
 readonly
 attribute
