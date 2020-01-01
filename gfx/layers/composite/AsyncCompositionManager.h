@@ -59,6 +59,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -178,6 +187,7 @@ mScale
 ;
 class
 AsyncCompositionManager
+MOZ_FINAL
 :
 public
 RefCounted
