@@ -2142,6 +2142,9 @@ return
 NS_OK
 ;
 }
+PRInt32
+namespaceID
+;
 nsIAtom
 *
 idAtom
@@ -2151,6 +2154,7 @@ content
 >
 GetIDAttributeName
 (
+namespaceID
 )
 ;
 if
@@ -2177,7 +2181,7 @@ mNodeInfo
 Equals
 (
 idAtom
-kNameSpaceID_None
+namespaceID
 )
 ;
 return

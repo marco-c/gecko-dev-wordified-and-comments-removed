@@ -454,6 +454,8 @@ HasAttributeDependentStyle
 nsIContent
 *
 aContent
+PRInt32
+aNameSpaceID
 nsIAtom
 *
 aAttribute
