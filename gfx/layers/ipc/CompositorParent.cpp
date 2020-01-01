@@ -3548,12 +3548,13 @@ ElementAnimations
 :
 GetPositionInIteration
 (
+aPoint
+-
 animation
 .
 startTime
 (
 )
-aPoint
 animation
 .
 duration
