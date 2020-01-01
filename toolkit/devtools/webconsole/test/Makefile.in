@@ -121,6 +121,10 @@ test_file_uri
 .
 html
 \
+test_bug819670_getter_throws
+.
+html
+\
 network_requests_iframe
 .
 html
