@@ -1733,6 +1733,15 @@ AnimationNeedsResample
 }
 #
 endif
+aSVGElement
+-
+>
+DidChangeLength
+(
+mAttrEnum
+aDoSetAttr
+)
+;
 return
 NS_OK
 ;
