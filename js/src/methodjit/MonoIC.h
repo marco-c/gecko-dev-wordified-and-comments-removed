@@ -145,7 +145,7 @@ load
 JSC
 :
 :
-CodeLocationDataLabelPtr
+CodeLocationDataLabel32
 shape
 ;
 JSC
@@ -421,6 +421,17 @@ isNew
 ;
 #
 endif
+void
+PurgeMICs
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 }
 }
 }
