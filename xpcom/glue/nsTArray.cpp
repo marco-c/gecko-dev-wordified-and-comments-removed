@@ -232,9 +232,8 @@ mHdr
 -
 >
 mCapacity
-<
-<
-1
+*
+2u
 )
 ;
 Header
