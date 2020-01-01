@@ -12556,6 +12556,11 @@ JS_FALSE
 if
 (
 tr
+)
+{
+if
+(
+tr
 -
 >
 wasDeepAborted
@@ -12577,6 +12582,7 @@ pushAbortStack
 (
 )
 ;
+}
 }
 #
 endif
