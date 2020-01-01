@@ -7606,6 +7606,9 @@ __ctid
 )
 :
 "
+cc
+"
+"
 lr
 "
 "
@@ -8627,6 +8630,12 @@ i
 __NR_exit
 )
 :
+"
+cc
+"
+"
+r7
+"
 "
 lr
 "
@@ -15627,7 +15636,6 @@ msg
 int
 flags
 )
-;
 LSS_INLINE
 _syscall3
 (
@@ -15643,7 +15651,6 @@ msg
 int
 flags
 )
-;
 LSS_INLINE
 _syscall6
 (
@@ -15668,7 +15675,6 @@ unsigned
 int
 tolen
 )
-;
 LSS_INLINE
 _syscall2
 (
@@ -15679,7 +15685,6 @@ s
 int
 how
 )
-;
 LSS_INLINE
 _syscall3
 (
@@ -15692,7 +15697,6 @@ type
 int
 protocol
 )
-;
 LSS_INLINE
 _syscall4
 (
@@ -15708,7 +15712,6 @@ int
 *
 sv
 )
-;
 #
 endif
 #
