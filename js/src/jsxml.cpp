@@ -1740,7 +1740,7 @@ if
 chars
 )
 return
-JS_FALSE
+NULL
 ;
 *
 chars

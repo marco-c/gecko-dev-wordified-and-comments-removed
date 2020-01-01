@@ -28265,7 +28265,7 @@ if
 chars
 )
 return
-NULL
+false
 ;
 bool
 ok
@@ -28350,7 +28350,7 @@ buffer
 )
 )
 return
-NULL
+false
 ;
 }
 options

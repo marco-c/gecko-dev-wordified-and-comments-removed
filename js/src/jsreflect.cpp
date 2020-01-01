@@ -8241,7 +8241,10 @@ parser
 NodeBuilder
 builder
 ;
+DebugOnly
+<
 uint32_t
+>
 lineno
 ;
 Value
@@ -8867,10 +8870,15 @@ c
 l
 src
 )
+#
+ifdef
+DEBUG
 lineno
 (
 ln
 )
+#
+endif
 {
 }
 bool
