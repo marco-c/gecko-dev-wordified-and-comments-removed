@@ -855,6 +855,13 @@ numBailouts
 js_IonOptions
 .
 frequentBailoutThreshold
+&
+&
+!
+script
+-
+>
+hadFrequentBailouts
 )
 {
 script
