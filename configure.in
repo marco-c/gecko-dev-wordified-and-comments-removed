@@ -23338,7 +23338,13 @@ HAVE_CPP_CHAR16_T
 HAVE_CPP_CHAR16_T
 =
 1
-else
+elif
+test
+"
+GNU_CXX
+"
+;
+then
 CXXFLAGS
 =
 "
