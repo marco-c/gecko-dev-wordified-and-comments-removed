@@ -66,7 +66,7 @@ const
 uint32
 JSSLOT_WN_OBJ
 =
-JSSLOT_PRIVATE
+0
 ;
 static
 JSBool

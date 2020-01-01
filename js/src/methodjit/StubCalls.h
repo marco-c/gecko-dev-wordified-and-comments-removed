@@ -46,6 +46,8 @@ NewInitArray
 VMFrame
 &
 f
+uint32
+count
 )
 ;
 JSObject
@@ -56,6 +58,8 @@ NewInitObject
 VMFrame
 &
 f
+uint32
+count
 )
 ;
 JSObject
