@@ -12935,7 +12935,7 @@ ifdef
 JS_THREADSAFE
 static
 JSBool
-Sleep
+Sleep_fn
 (
 JSContext
 *
@@ -14833,7 +14833,7 @@ JS_FN
 "
 sleep
 "
-Sleep
+Sleep_fn
 1
 0
 )
