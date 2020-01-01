@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsIEnumerator
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h

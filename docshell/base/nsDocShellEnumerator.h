@@ -1,7 +1,7 @@
 #
 include
 "
-nsIEnumerator
+nsISimpleEnumerator
 .
 h
 "

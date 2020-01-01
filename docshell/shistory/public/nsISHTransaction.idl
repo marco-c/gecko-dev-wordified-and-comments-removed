@@ -103,13 +103,6 @@ nsISHEntry
 .
 idl
 "
-#
-include
-"
-nsIEnumerator
-.
-idl
-"
 /
 *
 *

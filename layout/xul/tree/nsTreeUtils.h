@@ -32,9 +32,6 @@ class
 nsIContent
 ;
 class
-nsISupportsArray
-;
-class
 nsTreeUtils
 {
 public

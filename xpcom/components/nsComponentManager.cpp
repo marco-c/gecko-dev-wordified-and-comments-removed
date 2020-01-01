@@ -97,13 +97,6 @@ h
 #
 include
 "
-nsIEnumerator
-.
-h
-"
-#
-include
-"
 xptiprivate
 .
 h

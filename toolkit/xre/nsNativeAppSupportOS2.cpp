@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIWindowWatcher
 .
 h

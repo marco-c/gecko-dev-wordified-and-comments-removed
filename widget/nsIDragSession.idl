@@ -99,13 +99,6 @@ idl
 #
 include
 "
-nsISupportsArray
-.
-idl
-"
-#
-include
-"
 nsITransferable
 .
 idl

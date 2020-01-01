@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIIOService
 .
 h

@@ -77,13 +77,6 @@ h
 "
 #
 include
-"
-nsIEnumerator
-.
-h
-"
-#
-include
 <
 stdio
 .

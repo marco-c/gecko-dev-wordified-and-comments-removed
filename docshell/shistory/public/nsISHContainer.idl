@@ -99,13 +99,6 @@ idl
 #
 include
 "
-nsIEnumerator
-.
-idl
-"
-#
-include
-"
 nsISHEntry
 .
 idl

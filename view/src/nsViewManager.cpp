@@ -48,13 +48,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

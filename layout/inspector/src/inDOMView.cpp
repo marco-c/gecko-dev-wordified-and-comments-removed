@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

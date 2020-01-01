@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsISupportsArray
+.
+h
+"
+#
+include
+"
 nsIPK11TokenDB
 .
 h

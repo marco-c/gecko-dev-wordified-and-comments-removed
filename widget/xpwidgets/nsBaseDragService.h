@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h
