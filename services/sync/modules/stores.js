@@ -270,7 +270,7 @@ _log
 =
 Log4Moz
 .
-Service
+repository
 .
 getLogger
 (
@@ -736,7 +736,7 @@ _log
 =
 Log4Moz
 .
-Service
+repository
 .
 getLogger
 (
