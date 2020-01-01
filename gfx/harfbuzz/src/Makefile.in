@@ -358,6 +358,12 @@ unicode
 .
 cc
 \
+hb
+-
+warning
+.
+cc
+\
 (
 NULL
 )
@@ -509,6 +515,8 @@ DEFINES
 DHAVE_OT
 =
 1
+-
+DHB_NO_MT
 #
 Cancel
 the

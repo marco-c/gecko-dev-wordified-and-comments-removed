@@ -512,6 +512,11 @@ f
 grfont
 )
 ;
+free
+(
+f
+)
+;
 }
 static
 hb_user_data_key_t
@@ -877,7 +882,7 @@ data
 ;
 }
 hb_bool_t
-hb_graphite_shape
+_hb_graphite_shape
 (
 hb_font_t
 *
@@ -892,12 +897,6 @@ features
 unsigned
 int
 num_features
-const
-char
-*
-const
-*
-shaper_options
 )
 {
 buffer

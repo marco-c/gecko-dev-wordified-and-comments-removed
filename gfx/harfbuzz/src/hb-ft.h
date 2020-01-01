@@ -13,15 +13,6 @@ h
 "
 #
 include
-"
-hb
--
-font
-.
-h
-"
-#
-include
 <
 ft2build
 .

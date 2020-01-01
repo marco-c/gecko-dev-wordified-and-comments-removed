@@ -1,9 +1,9 @@
 #
 ifndef
-HB_FALLBACK_SHAPE_PRIVATE_HH
+HB_GRAPHITE2_PRIVATE_HH
 #
 define
-HB_FALLBACK_SHAPE_PRIVATE_HH
+HB_GRAPHITE2_PRIVATE_HH
 #
 include
 "
@@ -18,14 +18,13 @@ include
 "
 hb
 -
-shape
+graphite2
 .
 h
 "
-HB_BEGIN_DECLS
 HB_INTERNAL
 hb_bool_t
-_hb_fallback_shape
+_hb_graphite2_shape
 (
 hb_font_t
 *
@@ -42,6 +41,5 @@ int
 num_features
 )
 ;
-HB_END_DECLS
 #
 endif

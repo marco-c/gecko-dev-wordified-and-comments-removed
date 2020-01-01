@@ -155,8 +155,6 @@ include
 harfbuzz
 /
 hb
--
-unicode
 .
 h
 "

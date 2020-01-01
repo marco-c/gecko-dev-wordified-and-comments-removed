@@ -5,6 +5,9 @@ HB_H
 define
 HB_H
 #
+define
+HB_H_IN
+#
 include
 "
 hb
@@ -69,5 +72,8 @@ h
 "
 HB_BEGIN_DECLS
 HB_END_DECLS
+#
+undef
+HB_H_IN
 #
 endif
