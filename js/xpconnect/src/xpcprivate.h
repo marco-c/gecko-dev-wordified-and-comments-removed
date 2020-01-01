@@ -9687,8 +9687,10 @@ aHelper
 XPCWrappedNativeScope
 *
 xpcScope
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 rval
 )
 ;
@@ -12882,7 +12884,10 @@ cx
 void
 *
 d
-jsval
+JS
+:
+:
+HandleValue
 s
 const
 nsXPTType
@@ -13017,8 +13022,10 @@ void
 *
 *
 dest
-JSObject
-*
+JS
+:
+:
+HandleObject
 src
 const
 nsID
