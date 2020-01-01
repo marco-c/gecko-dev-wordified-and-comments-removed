@@ -8495,17 +8495,6 @@ dirtyRect
 nsDisplayListCollection
 set
 ;
-nsPresContext
-*
-presContext
-=
-mOuter
--
->
-PresContext
-(
-)
-;
 nsRect
 scrollRange
 =

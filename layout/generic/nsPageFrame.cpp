@@ -2570,6 +2570,7 @@ mPD
 -
 >
 mHeadFootFont
+nsnull
 pc
 -
 >
