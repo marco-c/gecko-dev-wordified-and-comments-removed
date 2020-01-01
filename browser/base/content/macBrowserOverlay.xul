@@ -599,6 +599,11 @@ OpenBrowserWindowFromDockMenu
 )
 ;
 "
+id
+=
+"
+macDockMenuNewWindow
+"
 /
 >
 <
