@@ -394,6 +394,9 @@ DEPTH
 /
 .
 .
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -407,11 +410,13 @@ relativesrcdir
 =
 browser
 /
-components
+base
 /
-tabview
+content
 /
 test
+/
+tabview
 include
 (
 DEPTH

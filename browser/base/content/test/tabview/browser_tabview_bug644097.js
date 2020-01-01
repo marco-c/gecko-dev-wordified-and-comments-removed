@@ -85,11 +85,13 @@ browser
 /
 browser
 /
-components
+base
 /
-tabview
+content
 /
 test
+/
+tabview
 /
 test_bug644097
 .
