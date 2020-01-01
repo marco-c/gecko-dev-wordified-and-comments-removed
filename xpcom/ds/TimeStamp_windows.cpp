@@ -1275,9 +1275,14 @@ mValue
 )
 /
 (
+double
+(
 sFrequencyPerSec
+)
 *
-1000ULL
+1000
+.
+0
 )
 ;
 }
