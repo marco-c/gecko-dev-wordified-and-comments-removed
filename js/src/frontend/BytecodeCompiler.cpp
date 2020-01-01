@@ -48,6 +48,17 @@ jsinferinlines
 .
 h
 "
+using
+namespace
+js
+;
+using
+namespace
+js
+:
+:
+frontend
+;
 namespace
 js
 {
@@ -700,7 +711,7 @@ NULL
 if
 (
 !
-js_EmitTree
+EmitTree
 (
 cx
 &
@@ -1006,7 +1017,7 @@ slot
 }
 if
 (
-js_Emit1
+Emit1
 (
 cx
 &
@@ -2062,7 +2073,7 @@ pn_body
 if
 (
 !
-js_EmitFunctionScript
+EmitFunctionScript
 (
 cx
 &

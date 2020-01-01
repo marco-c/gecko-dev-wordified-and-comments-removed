@@ -295,6 +295,13 @@ js
 :
 gc
 ;
+using
+namespace
+js
+:
+:
+frontend
+;
 #
 define
 MUST_MATCH_TOKEN_WITH_FLAGS
@@ -2855,7 +2862,7 @@ inFunction
 StmtInfo
 stmtInfo
 ;
-js_PushStatement
+PushStatement
 (
 tc
 &
@@ -3057,7 +3064,7 @@ SIF_SCOPE
 )
 )
 ;
-js_PopStatement
+PopStatementTC
 (
 tc
 )
@@ -11157,7 +11164,7 @@ atom
 ;
 }
 }
-js_PopStatement
+PopStatementTC
 (
 tc
 )
@@ -11189,7 +11196,7 @@ downScope
 {
 stmt
 =
-js_LexicalLookup
+LexicalLookup
 (
 tc
 atom
@@ -11981,7 +11988,7 @@ StmtInfo
 *
 stmt
 =
-js_LexicalLookup
+LexicalLookup
 (
 tc
 atom
@@ -14582,7 +14589,7 @@ blockbox
 return
 NULL
 ;
-js_PushBlockScope
+PushBlockScope
 (
 tc
 stmt
@@ -14957,7 +14964,7 @@ TreeContext
 tc
 )
 {
-js_PushStatement
+PushStatement
 (
 tc
 stmt
@@ -15307,7 +15314,7 @@ JSMSG_CURLY_BEFORE_SWITCH
 StmtInfo
 stmtInfo
 ;
-js_PushStatement
+PushStatement
 (
 tc
 &
@@ -15813,7 +15820,7 @@ NULL
 StmtInfo
 stmtInfo
 ;
-js_PushStatement
+PushStatement
 (
 tc
 &
@@ -17892,7 +17899,7 @@ pn
 StmtInfo
 stmtInfo
 ;
-js_PushStatement
+PushStatement
 (
 tc
 &
@@ -18712,7 +18719,7 @@ getToken
 StmtInfo
 stmtInfo
 ;
-js_PushStatement
+PushStatement
 (
 tc
 &
@@ -19167,7 +19174,7 @@ NULL
 StmtInfo
 stmtInfo
 ;
-js_PushStatement
+PushStatement
 (
 tc
 &
@@ -19327,7 +19334,7 @@ NULL
 StmtInfo
 stmtInfo
 ;
-js_PushStatement
+PushStatement
 (
 tc
 &
@@ -19431,7 +19438,7 @@ NULL
 StmtInfo
 stmtInfo
 ;
-js_PushStatement
+PushStatement
 (
 tc
 &
@@ -25030,7 +25037,7 @@ StmtInfo
 *
 stmt
 =
-js_LexicalLookup
+LexicalLookup
 (
 tc
 atom
@@ -27415,7 +27422,7 @@ innermostWith
 =
 pn
 ;
-js_PushStatement
+PushStatement
 (
 tc
 &
@@ -33340,7 +33347,7 @@ StmtInfo
 *
 stmt
 =
-js_LexicalLookup
+LexicalLookup
 (
 tc
 pn
