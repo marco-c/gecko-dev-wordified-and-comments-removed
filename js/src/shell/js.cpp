@@ -21255,7 +21255,7 @@ NULL
 gc
 :
 :
-FINALIZE_TYPE_OBJECT
+FINALIZE_SCRIPT
 &
 n
 SumJitDataSizeCallback
