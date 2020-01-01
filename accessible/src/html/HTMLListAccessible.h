@@ -199,6 +199,14 @@ HTMLListBulletAccessible
 {
 }
 virtual
+nsIFrame
+*
+GetFrame
+(
+)
+const
+;
+virtual
 bool
 IsPrimaryForNode
 (
@@ -245,6 +253,12 @@ aLength
 =
 PR_UINT32_MAX
 )
+;
+bool
+IsInside
+(
+)
+const
 ;
 }
 ;
