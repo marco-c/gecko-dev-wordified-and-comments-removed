@@ -15041,6 +15041,13 @@ aEvent
 widget
 )
 ;
+if
+(
+!
+targetView
+)
+return
+;
 targetView
 -
 >
