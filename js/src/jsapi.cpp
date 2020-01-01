@@ -7174,7 +7174,7 @@ Object
 }
 {
 js_InitNumberClass
-LAZY_ATOM
+EAGER_ATOM
 (
 NaN
 )
@@ -7185,7 +7185,7 @@ Number
 }
 {
 js_InitNumberClass
-LAZY_ATOM
+EAGER_ATOM
 (
 Infinity
 )
