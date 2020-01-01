@@ -463,9 +463,9 @@ const
 struct
 NotifyTimeDependentsParams
 {
-nsSMILInterval
+nsSMILTimedElement
 *
-mCurrentInterval
+mTimedElement
 ;
 nsSMILTimeContainer
 *
