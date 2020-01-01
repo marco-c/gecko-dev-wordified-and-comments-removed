@@ -158,11 +158,6 @@ ref
 .
 svg
 random
--
-if
-(
-Android
-)
 =
 =
 sort
