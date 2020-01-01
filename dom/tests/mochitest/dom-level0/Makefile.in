@@ -482,10 +482,6 @@ innerWidthHeight_script
 .
 html
 \
-test_location_setters
-.
-html
-\
 (
 NULL
 )
