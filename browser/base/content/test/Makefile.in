@@ -1015,6 +1015,10 @@ browser_bug655584
 .
 js
 \
+browser_bug664672
+.
+js
+\
 browser_findbarClose
 .
 js
@@ -1194,6 +1198,10 @@ browser_tabs_isActive
 js
 \
 browser_tabs_owner
+.
+js
+\
+browser_urlbarTrimURLs
 .
 js
 \
