@@ -558,6 +558,10 @@ mozilla
 EXPORTS_mozilla
 =
 \
+CharTokenizer
+.
+h
+\
 TimeStamp
 .
 h
