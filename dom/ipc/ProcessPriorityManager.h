@@ -18,6 +18,11 @@ InitProcessPriorityManager
 (
 )
 ;
+bool
+CurrentProcessIsForeground
+(
+)
+;
 }
 }
 }

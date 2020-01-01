@@ -4787,6 +4787,9 @@ mIsMesa
 bool
 mLoseContextOnHeapMinimize
 ;
+bool
+mCanLoseContextInForeground
+;
 template
 <
 typename
