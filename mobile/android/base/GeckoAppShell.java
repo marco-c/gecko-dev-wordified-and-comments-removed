@@ -7388,6 +7388,16 @@ EXTRA_SUBJECT
 title
 )
 ;
+shareIntent
+.
+putExtra
+(
+Intent
+.
+EXTRA_TITLE
+title
+)
+;
 if
 (
 mimeType
