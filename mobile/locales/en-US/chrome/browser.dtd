@@ -900,17 +900,6 @@ Tab
 <
 !
 ENTITY
-contextSaveLink
-.
-label
-"
-Save
-Link
-"
->
-<
-!
-ENTITY
 contextSaveImage
 .
 label

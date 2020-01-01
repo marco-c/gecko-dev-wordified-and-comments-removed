@@ -1865,11 +1865,6 @@ link
 "
 link
 -
-saveable
-"
-"
-link
--
 openable
 "
 ]
@@ -2118,11 +2113,6 @@ checkContextTypes
 [
 "
 link
-"
-"
-link
--
-saveable
 "
 "
 image
