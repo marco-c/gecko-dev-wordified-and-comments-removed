@@ -1180,9 +1180,14 @@ rr
 =
 frame
 .
-tempRegForData
+tempRegInMaskForData
 (
 rhs
+Registers
+:
+:
+maskReg
+(
 JSC
 :
 :
@@ -1190,6 +1195,7 @@ X86Registers
 :
 :
 ecx
+)
 )
 ;
 #
