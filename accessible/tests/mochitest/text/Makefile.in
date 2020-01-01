@@ -88,6 +88,10 @@ doc
 .
 html
 \
+test_atcaretoffset
+.
+html
+\
 test_doc
 .
 html
