@@ -680,9 +680,6 @@ certificate
 .
 *
 /
-[
-noscript
-]
 void
 getPreferences
 (
@@ -1113,9 +1110,6 @@ URI
 .
 *
 /
-[
-noscript
-]
 readonly
 attribute
 nsIURI
@@ -1236,9 +1230,6 @@ be
 the
 same
 .
-[
-noscript
-]
 readonly
 attribute
 string
@@ -1629,9 +1620,6 @@ clearer
 .
 *
 /
-[
-noscript
-]
 boolean
 subsumes
 (
@@ -1810,9 +1798,6 @@ allowed
 .
 *
 /
-[
-noscript
-]
 void
 checkMayLoad
 (
