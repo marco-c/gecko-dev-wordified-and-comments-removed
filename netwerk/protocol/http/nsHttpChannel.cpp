@@ -21206,7 +21206,7 @@ ctxt
 nsIInputStream
 *
 input
-uint32_t
+uint64_t
 offset
 uint32_t
 count
@@ -21245,7 +21245,7 @@ p
 offset
 =
 %
-u
+llu
 count
 =
 %
@@ -21406,20 +21406,6 @@ progress
 progressMax
 )
 ;
-uint32_t
-odaOffset
-=
-mLogicalOffset
->
-PR_UINT32_MAX
-?
-PR_UINT32_MAX
-:
-uint32_t
-(
-mLogicalOffset
-)
-;
 nsresult
 rv
 =
@@ -21431,7 +21417,7 @@ OnDataAvailable
 this
 mListenerContext
 input
-odaOffset
+mLogicalOffset
 count
 )
 ;

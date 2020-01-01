@@ -212,7 +212,7 @@ context
 nsIInputStream
 *
 input
-uint32_t
+uint64_t
 offset
 uint32_t
 count

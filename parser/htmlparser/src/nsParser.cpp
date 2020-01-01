@@ -9583,7 +9583,7 @@ aContext
 nsIInputStream
 *
 pIStream
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 aLength

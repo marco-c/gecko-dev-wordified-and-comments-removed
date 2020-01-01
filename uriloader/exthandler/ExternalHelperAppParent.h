@@ -108,7 +108,7 @@ nsCString
 &
 data
 const
-uint32_t
+uint64_t
 &
 offset
 const

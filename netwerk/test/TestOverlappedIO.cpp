@@ -284,7 +284,7 @@ context
 nsIInputStream
 *
 aIStream
-uint32_t
+uint64_t
 aSourceOffset
 uint32_t
 aLength
@@ -302,7 +302,7 @@ OnDataAvailable
 offset
 =
 %
-u
+llu
 length
 =
 %

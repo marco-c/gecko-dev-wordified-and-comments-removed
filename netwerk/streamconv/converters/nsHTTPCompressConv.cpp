@@ -389,7 +389,7 @@ aContext
 nsIInputStream
 *
 iStr
-uint32_t
+uint64_t
 aSourceOffset
 uint32_t
 aCount
@@ -1347,7 +1347,7 @@ request
 nsISupports
 *
 context
-uint32_t
+uint64_t
 offset
 const
 char

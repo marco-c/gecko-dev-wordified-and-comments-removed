@@ -129,7 +129,7 @@ WRAP_NONE
 WrapMode
 mWrapMode
 ;
-uint32_t
+uint64_t
 mOffset
 ;
 int32_t

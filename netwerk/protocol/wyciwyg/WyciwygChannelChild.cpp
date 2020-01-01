@@ -612,7 +612,7 @@ nsCString
 &
 data
 const
-uint32_t
+uint64_t
 &
 offset
 )
@@ -655,7 +655,7 @@ mChild
 nsCString
 mData
 ;
-uint32_t
+uint64_t
 mOffset
 ;
 }
@@ -671,7 +671,7 @@ nsCString
 &
 data
 const
-uint32_t
+uint64_t
 &
 offset
 )
@@ -723,7 +723,7 @@ nsCString
 &
 data
 const
-uint32_t
+uint64_t
 &
 offset
 )
@@ -864,15 +864,12 @@ OnProgress
 (
 this
 nullptr
-uint64_t
-(
 offset
 +
 data
 .
 Length
 (
-)
 )
 uint64_t
 (
