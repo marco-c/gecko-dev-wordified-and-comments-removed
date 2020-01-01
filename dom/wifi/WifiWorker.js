@@ -94,7 +94,7 @@ gre
 /
 modules
 /
-network_worker
+wifi_worker
 .
 js
 "
