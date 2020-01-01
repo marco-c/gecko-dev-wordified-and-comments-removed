@@ -57,13 +57,6 @@ h
 #
 endif
 #
-include
-"
-prtypes
-.
-h
-"
-#
 ifdef
 DEBUG
 #
