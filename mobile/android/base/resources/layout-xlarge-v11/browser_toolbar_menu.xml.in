@@ -268,13 +268,6 @@ cropped
 "
 true
 "
-gecko
-:
-sidebar
-=
-"
-true
-"
 android
 :
 background
