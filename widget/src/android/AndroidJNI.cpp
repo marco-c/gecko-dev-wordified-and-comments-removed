@@ -260,7 +260,7 @@ JNIEnv
 *
 jenv
 jclass
-jfloat
+jdouble
 jboolean
 )
 ;
@@ -789,7 +789,7 @@ JNIEnv
 *
 jenv
 jclass
-jfloat
+jdouble
 aLevel
 jboolean
 aCharging
@@ -805,7 +805,7 @@ public
 :
 NotifyBatteryChangeRunnable
 (
-float
+double
 aLevel
 bool
 aCharging
@@ -847,7 +847,7 @@ NS_OK
 }
 private
 :
-float
+double
 mLevel
 ;
 bool

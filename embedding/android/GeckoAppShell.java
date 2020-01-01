@@ -477,7 +477,7 @@ native
 void
 notifyBatteryChange
 (
-float
+double
 aLevel
 boolean
 aCharging
@@ -10100,7 +10100,7 @@ disableNotifications
 }
 public
 static
-float
+double
 [
 ]
 getCurrentBatteryInformation
