@@ -4860,6 +4860,14 @@ tab
 owner
 )
 {
+Browser
+.
+selectedTab
+=
+tab
+.
+owner
+;
 this
 .
 closeTab
