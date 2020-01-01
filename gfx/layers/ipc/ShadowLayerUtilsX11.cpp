@@ -336,14 +336,11 @@ else
 Visual
 *
 visual
-=
-NULL
 ;
-unsigned
 int
 depth
 ;
-XVisualIDToInfo
+FindVisualAndDepth
 (
 display
 mFormat

@@ -125,8 +125,8 @@ GetXDisplay
 #
 endif
 }
-bool
-XVisualIDToInfo
+void
+FindVisualAndDepth
 (
 Display
 *
@@ -137,7 +137,6 @@ Visual
 *
 *
 aVisual
-unsigned
 int
 *
 aDepth
