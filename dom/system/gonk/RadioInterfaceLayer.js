@@ -1693,6 +1693,14 @@ return
 }
 voiceInfo
 .
+emergencyCallsOnly
+=
+state
+.
+emergencyCallsOnly
+;
+voiceInfo
+.
 connected
 =
 (
