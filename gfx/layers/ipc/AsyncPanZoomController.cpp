@@ -643,11 +643,15 @@ nullptr
 )
 mX
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 )
 mY
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 )
 mAllowZoom
 (
