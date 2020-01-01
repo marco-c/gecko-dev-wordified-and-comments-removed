@@ -6552,7 +6552,9 @@ next
 +
 argc
 +
-words
+insSz
+-
+1
 ;
 for
 (
