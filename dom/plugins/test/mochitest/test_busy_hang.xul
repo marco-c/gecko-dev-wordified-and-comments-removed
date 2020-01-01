@@ -193,6 +193,8 @@ plugins
 /
 test
 /
+mochitest
+/
 hang_test
 .
 js
