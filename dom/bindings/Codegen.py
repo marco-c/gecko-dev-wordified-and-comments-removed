@@ -61443,6 +61443,12 @@ for
 x
 in
 callbackDescriptors
+if
+                         
+not
+x
+.
+workers
 ]
 )
         
