@@ -45,7 +45,6 @@ u_buf
 v_buf
 rgb_buf
 width
-1
 )
 ;
 }
