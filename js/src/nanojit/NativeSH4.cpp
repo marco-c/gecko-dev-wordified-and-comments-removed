@@ -28270,7 +28270,6 @@ reg
 int
 offset
 bool
-bool
 quad
 )
 {
@@ -30537,17 +30536,6 @@ GpRegs
 |
 FpRegs
 ;
-debug_only
-(
-regs
-.
-managed
-=
-regs
-.
-free
-;
-)
 }
 NIns
 *
