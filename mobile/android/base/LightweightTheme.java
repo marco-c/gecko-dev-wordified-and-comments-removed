@@ -399,7 +399,7 @@ close
 if
 (
 mBitmap
-!
+=
 =
 null
 |
