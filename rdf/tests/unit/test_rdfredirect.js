@@ -458,6 +458,15 @@ gPending
 =
 1
 ;
+this
+.
+ds
+.
+removeXMLSinkObserver
+(
+this
+)
+;
 if
 (
 gPending
