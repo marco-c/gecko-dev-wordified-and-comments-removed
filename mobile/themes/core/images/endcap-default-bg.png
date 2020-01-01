@@ -1,11 +1,6 @@
 PNG
 IHDR
 %
-tEXtSoftware
-Adobe
-ImageReadyq
-e
-<
 "
 iTXtXML
 :
@@ -279,8 +274,12 @@ r
 >
 {
 t
-|
-IDATx
+tEXtSoftware
+Adobe
+ImageReadyq
+e
+<
+yIDATh
 0
 *
 ?
@@ -304,7 +303,6 @@ B
 k
 ~
 D3
-"
-d
+v
 IEND
 B
