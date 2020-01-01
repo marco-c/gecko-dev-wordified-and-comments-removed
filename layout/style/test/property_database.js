@@ -13295,6 +13295,9 @@ center
 "
 justify
 "
+"
+end
+"
 ]
 invalid_values
 :
