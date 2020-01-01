@@ -605,7 +605,7 @@ context
 readonly
 attribute
 nsIIDBFactory
-moz_indexedDB
+mozIndexedDB
 ;
 }
 ;
