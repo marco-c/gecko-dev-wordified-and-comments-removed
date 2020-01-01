@@ -1746,7 +1746,7 @@ aAccessible
 NULL
 ;
 return
-E_NOTIMPL
+S_OK
 ;
 }
 STDMETHODIMP
