@@ -1586,13 +1586,8 @@ x86_64
 TARGET_CPU
 )
 )
-ifeq
-(
-(
-OS_ARCH
-)
-WINNT
-)
+ifdef
+_MSC_VER
 ASFILES
 +
 =

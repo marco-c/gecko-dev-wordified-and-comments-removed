@@ -232,7 +232,7 @@ savedRBX
 ;
 #
 ifdef
-_MSC_VER
+_WIN64
 void
 *
 savedRSI
@@ -269,7 +269,7 @@ savedRIP
 ;
 #
 ifdef
-_MSC_VER
+_WIN64
 inline
 void
 *
