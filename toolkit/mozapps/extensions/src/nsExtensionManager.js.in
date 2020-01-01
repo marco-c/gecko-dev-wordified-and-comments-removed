@@ -16336,12 +16336,6 @@ systemLocation
 )
 ;
 }
-#
-ifdef
-XP_UNIX
-#
-ifndef
-XP_MACOSX
 /
 /
 Register
@@ -16484,10 +16478,6 @@ systemLocation
 )
 ;
 }
-#
-endif
-#
-endif
 #
 ifdef
 XP_WIN
