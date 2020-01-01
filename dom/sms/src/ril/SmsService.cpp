@@ -46,7 +46,7 @@ mozilla
 dom
 :
 :
-telephony
+gonk
 :
 :
 SystemWorkerManager

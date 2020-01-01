@@ -22,7 +22,7 @@ mozilla
 dom
 :
 :
-telephony
+gonk
 ;
 using
 namespace

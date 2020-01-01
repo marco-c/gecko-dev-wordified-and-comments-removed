@@ -114,6 +114,16 @@ h
 "
 USING_TELEPHONY_NAMESPACE
 using
+namespace
+mozilla
+:
+:
+dom
+:
+:
+gonk
+;
+using
 mozilla
 :
 :

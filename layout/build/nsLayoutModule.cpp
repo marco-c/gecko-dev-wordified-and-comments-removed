@@ -598,7 +598,7 @@ mozilla
 dom
 :
 :
-telephony
+gonk
 :
 :
 SystemWorkerManager
@@ -660,7 +660,7 @@ mozilla
 dom
 :
 :
-telephony
+gonk
 :
 :
 AudioManager
