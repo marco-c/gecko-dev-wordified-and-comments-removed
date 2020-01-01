@@ -7561,7 +7561,7 @@ false
 ;
 masm
 .
-cvtsi2sd
+convertInt32ToDouble
 (
 output
 scratch
@@ -7976,7 +7976,7 @@ false
 ;
 masm
 .
-cvtsi2sd
+convertInt32ToDouble
 (
 output
 scratch
