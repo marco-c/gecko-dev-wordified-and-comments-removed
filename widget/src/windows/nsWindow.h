@@ -1993,17 +1993,6 @@ mDisplayPanFeedback
 WindowHook
 mWindowHook
 ;
-#
-ifdef
-WINCE_WINDOWS_MOBILE
-nsCOMPtr
-<
-nsIRegion
->
-mInvalidatedRegion
-;
-#
-endif
 static
 PRUint32
 sInstanceCount
