@@ -407,20 +407,12 @@ name
 ;
 bundle
 =
-srGetStrBundle
+document
+.
+getElementById
 (
 "
-chrome
-:
-/
-/
-pippki
-/
-locale
-/
-pippki
-.
-properties
+pippki_bundle
 "
 )
 ;
@@ -432,7 +424,7 @@ certDetails
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 certDetails
@@ -905,7 +897,7 @@ value
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 notPresent
@@ -1130,7 +1122,7 @@ verifystr
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 certVerified
@@ -1153,7 +1145,7 @@ verifystr
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 certNotVerified_CertRevoked
@@ -1176,7 +1168,7 @@ verifystr
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 certNotVerified_CertExpired
@@ -1199,7 +1191,7 @@ verifystr
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 certNotVerified_CertNotTrusted
@@ -1222,7 +1214,7 @@ verifystr
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 certNotVerified_IssuerNotTrusted
@@ -1245,7 +1237,7 @@ verifystr
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 certNotVerified_IssuerUnknown
@@ -1268,7 +1260,7 @@ verifystr
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 certNotVerified_CAInvalid
@@ -1291,7 +1283,7 @@ verifystr
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 certNotVerified_AlgorithmDisabled
@@ -1305,7 +1297,7 @@ verifystr
 =
 bundle
 .
-GetStringFromName
+getString
 (
 '
 certNotVerified_Unknown

@@ -103,20 +103,12 @@ nsICRLInfo
 var
 bundle
 =
-srGetStrBundle
+document
+.
+getElementById
 (
 "
-chrome
-:
-/
-/
-pippki
-/
-locale
-/
-pippki
-.
-properties
+pippki_bundle
 "
 )
 ;
@@ -125,7 +117,7 @@ yesButton
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 yesButton
@@ -137,7 +129,7 @@ noButton
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 noButton
@@ -221,7 +213,7 @@ nextUpdateStr
 =
 bundle
 .
-GetStringFromName
+getString
 (
 "
 undefinedValStr
@@ -454,7 +446,7 @@ value
 "
 bundle
 .
-GetStringFromName
+getString
 (
 "
 enabledStatement
@@ -471,7 +463,7 @@ value
 "
 bundle
 .
-GetStringFromName
+getString
 (
 "
 crlAutoupdateQuestion2
@@ -491,7 +483,7 @@ value
 "
 bundle
 .
-GetStringFromName
+getString
 (
 "
 disabledStatement
@@ -508,7 +500,7 @@ value
 "
 bundle
 .
-GetStringFromName
+getString
 (
 "
 crlAutoupdateQuestion1
