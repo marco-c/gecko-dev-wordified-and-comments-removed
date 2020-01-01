@@ -699,6 +699,15 @@ aString
 )
 ;
 PRBool
+ParsePositiveIntValue
+(
+const
+nsAString
+&
+aString
+)
+;
+PRBool
 ParseColor
 (
 const
