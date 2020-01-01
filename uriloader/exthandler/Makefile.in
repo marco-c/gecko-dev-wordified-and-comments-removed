@@ -73,16 +73,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-\
-(
-NULL
-)
-TEST_DIRS
-+
-=
-tests
 ifeq
 (
 (

@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -69,14 +68,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-DIRS
-+
-=
-mochitest
-\
-(
-NULL
-)
 include
 (
 DEPTH
