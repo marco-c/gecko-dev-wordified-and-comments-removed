@@ -1595,6 +1595,13 @@ WatchpointMap
 *
 watchpointMap
 ;
+js
+:
+:
+ScriptCountsMap
+*
+scriptCountsMap
+;
 }
 ;
 #

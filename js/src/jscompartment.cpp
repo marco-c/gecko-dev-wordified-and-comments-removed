@@ -289,6 +289,10 @@ watchpointMap
 (
 NULL
 )
+scriptCountsMap
+(
+NULL
+)
 {
 PodArrayZero
 (
@@ -348,6 +352,14 @@ Foreground
 delete_
 (
 watchpointMap
+)
+;
+Foreground
+:
+:
+delete_
+(
+scriptCountsMap
 )
 ;
 #
