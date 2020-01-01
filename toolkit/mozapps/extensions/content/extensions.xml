@@ -5821,7 +5821,7 @@ xbl
 inherits
 =
 "
-searchURL
+recommendedURL
 =
 link
 "
@@ -5844,7 +5844,7 @@ this
 getAttribute
 (
 '
-homepageURL
+recommendedURL
 '
 )
 )
