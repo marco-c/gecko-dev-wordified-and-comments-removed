@@ -491,6 +491,8 @@ cpp
 (
 NULL
 )
+ifndef
+GNU_CXX
 ifeq
 (
 (
@@ -504,6 +506,7 @@ CPPSRCS
 nsDownloadScanner
 .
 cpp
+endif
 endif
 EXTRA_COMPONENTS
 =
