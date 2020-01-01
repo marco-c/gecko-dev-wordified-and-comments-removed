@@ -2971,6 +2971,15 @@ nsTransactionManager
 )
 ;
 }
+mTxnMgr
+-
+>
+SetMaxTransactionCount
+(
+-
+1
+)
+;
 }
 else
 if
