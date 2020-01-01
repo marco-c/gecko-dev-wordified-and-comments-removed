@@ -9713,7 +9713,7 @@ null
 ;
 gRefocusCallback
 =
-doFrameSwitchingTests
+doWindowNoRootTest
 ;
 framesetWindow
 .
