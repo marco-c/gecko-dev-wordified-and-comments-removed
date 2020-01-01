@@ -21802,7 +21802,7 @@ LookupPropertyWithFlags
 cx
 templateObject
 id
-JSRESOLVE_QUALIFIED
+0
 &
 holder
 &

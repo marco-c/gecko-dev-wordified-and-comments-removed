@@ -15726,7 +15726,7 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
+0
 )
 ;
 if
@@ -16978,7 +16978,7 @@ LookupPropertyById
 cx
 obj
 id
-JSRESOLVE_QUALIFIED
+0
 &
 obj2
 &
@@ -17430,7 +17430,7 @@ LookupPropertyById
 cx
 obj
 id
-JSRESOLVE_QUALIFIED
+0
 &
 obj2
 &
@@ -17714,7 +17714,7 @@ LookupPropertyById
 cx
 obj
 id
-JSRESOLVE_QUALIFIED
+0
 &
 obj2
 &
@@ -18291,7 +18291,7 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
+0
 )
 ;
 if
@@ -19843,7 +19843,7 @@ GetPropertyDescriptorById
 cx
 obj
 id
-JSRESOLVE_QUALIFIED
+0
 JS_FALSE
 &
 desc
@@ -20262,7 +20262,7 @@ LookupPropertyById
 cx
 obj
 id
-JSRESOLVE_QUALIFIED
+0
 &
 obj2
 &
@@ -20578,7 +20578,7 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
+0
 )
 ;
 RootedValue
@@ -20777,7 +20777,7 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
+0
 )
 ;
 RootedValue
@@ -20873,7 +20873,7 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
+0
 )
 ;
 RootedValue
@@ -21304,8 +21304,6 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
-|
 JSRESOLVE_ASSIGNING
 )
 ;
@@ -21394,8 +21392,6 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
-|
 JSRESOLVE_ASSIGNING
 )
 ;
@@ -21602,7 +21598,7 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
+0
 )
 ;
 RootedValue
@@ -21732,7 +21728,7 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
+0
 )
 ;
 RootedValue
@@ -21812,7 +21808,7 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
+0
 )
 ;
 JSAtom
@@ -21919,7 +21915,7 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_QUALIFIED
+0
 )
 ;
 JSAtom
