@@ -98,13 +98,6 @@ h
 #
 include
 "
-nsIDOMDocumentTraversal
-.
-h
-"
-#
-include
-"
 nsStubDocumentObserver
 .
 h
@@ -1658,8 +1651,6 @@ nsIDOM3DocumentEvent
 public
 nsIDOMNSDocumentStyle
 public
-nsIDOMDocumentTraversal
-public
 nsIDOMDocumentXBL
 public
 nsSupportsWeakReference
@@ -2845,7 +2836,6 @@ NS_DECL_NSIDOMDOCUMENTEVENT
 NS_DECL_NSIDOM3DOCUMENTEVENT
 NS_DECL_NSIDOMDOCUMENTSTYLE
 NS_DECL_NSIDOMNSDOCUMENTSTYLE
-NS_DECL_NSIDOMDOCUMENTTRAVERSAL
 NS_DECL_NSIDOMDOCUMENTXBL
 NS_DECL_NSIDOMEVENTTARGET
 NS_DECL_NSIDOM3EVENTTARGET
@@ -4283,14 +4273,6 @@ NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
 (
 _class
 nsIDOMDocumentEvent
-nsDocument
-)
-\
-NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
-(
-_class
-nsIDOMDocumentTraversal
-\
 nsDocument
 )
 \

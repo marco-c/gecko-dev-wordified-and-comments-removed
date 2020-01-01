@@ -442,10 +442,6 @@ GRE_MODULE
 XPIDLSRCS
 =
 \
-nsIDOMDocumentTraversal
-.
-idl
-\
 nsIDOMNodeFilter
 .
 idl

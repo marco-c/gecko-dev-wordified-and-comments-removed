@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIDOMDocumentTraversal
-.
-h
-"
-#
-include
-"
 nsISelection
 .
 h

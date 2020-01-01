@@ -831,6 +831,11 @@ nsIDOMDocument
 defaultView
 '
 '
+nsIDOMDocument
+.
+createNodeIterator
+'
+'
 nsIDOMElement
 .
 removeAttributeNS
@@ -2234,11 +2239,6 @@ dom
 interfaces
 /
 traversal
-'
-nsIDOMDocumentTraversal
-.
-createNodeIterator
-'
 '
 nsIDOMNodeIterator
 .
