@@ -2359,7 +2359,7 @@ weight
 =
 NS_STYLE_FONT_WEIGHT_NORMAL
 ;
-uint32_t
+int32_t
 stretch
 =
 NS_STYLE_FONT_STRETCH_NORMAL
