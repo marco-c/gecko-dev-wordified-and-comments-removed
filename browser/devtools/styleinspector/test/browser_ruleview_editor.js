@@ -293,7 +293,7 @@ testBlurCommit
 ;
 span
 .
-focus
+click
 (
 )
 ;
@@ -393,7 +393,7 @@ testAdvanceCharCommit
 ;
 span
 .
-focus
+click
 (
 )
 ;
@@ -477,7 +477,7 @@ testEscapeCancel
 ;
 span
 .
-focus
+click
 (
 )
 ;
@@ -556,7 +556,7 @@ finishTest
 ;
 span
 .
-focus
+click
 (
 )
 ;
