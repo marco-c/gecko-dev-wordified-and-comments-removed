@@ -174,7 +174,7 @@ const
 nsAString
 &
 aScript
-void
+JSObject
 *
 aScopeObject
 nsIPrincipal
