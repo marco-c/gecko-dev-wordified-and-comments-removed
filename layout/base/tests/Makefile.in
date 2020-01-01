@@ -202,10 +202,6 @@ bug450930
 .
 xhtml
 \
-test_bug458898
-.
-html
-\
 test_bug465448
 .
 xul

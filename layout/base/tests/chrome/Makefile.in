@@ -76,6 +76,10 @@ test_bug420499
 .
 xul
 \
+test_bug458898
+.
+html
+\
 test_bug495648
 .
 xul
