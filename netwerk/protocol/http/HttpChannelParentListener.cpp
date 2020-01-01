@@ -442,8 +442,8 @@ if
 (
 !
 mActiveChannel
-&
-&
+|
+|
 !
 mActiveChannel
 -
