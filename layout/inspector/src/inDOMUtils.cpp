@@ -96,7 +96,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -254,7 +254,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 win
 =

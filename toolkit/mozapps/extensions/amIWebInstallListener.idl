@@ -400,7 +400,7 @@ nsISupports
 idl
 "
 interface
-nsIDOMWindowInternal
+nsIDOMWindow
 ;
 interface
 nsIURI
@@ -469,7 +469,7 @@ nsISupports
 {
 readonly
 attribute
-nsIDOMWindowInternal
+nsIDOMWindow
 originatingWindow
 ;
 readonly
@@ -629,7 +629,7 @@ void
 onWebInstallDisabled
 (
 in
-nsIDOMWindowInternal
+nsIDOMWindow
 aWindow
 in
 nsIURI
@@ -732,7 +732,7 @@ boolean
 onWebInstallBlocked
 (
 in
-nsIDOMWindowInternal
+nsIDOMWindow
 aWindow
 in
 nsIURI
@@ -831,7 +831,7 @@ boolean
 onWebInstallRequested
 (
 in
-nsIDOMWindowInternal
+nsIDOMWindow
 aWindow
 in
 nsIURI
@@ -970,7 +970,7 @@ void
 confirm
 (
 in
-nsIDOMWindowInternal
+nsIDOMWindow
 aWindow
 in
 nsIURI

@@ -436,7 +436,7 @@ interface
 nsIURI
 ;
 interface
-nsIDOMWindowInternal
+nsIDOMWindow
 ;
 interface
 nsIAppShell
@@ -792,7 +792,7 @@ window
 /
 readonly
 attribute
-nsIDOMWindowInternal
+nsIDOMWindow
 hiddenDOMWindow
 ;
 /
@@ -809,7 +809,7 @@ hidden
 window
 as
 an
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 and
 the
@@ -846,7 +846,7 @@ QI
 d
 to
 type
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aJSContext
 the
@@ -862,7 +862,7 @@ void
 getHiddenWindowAndJSContext
 (
 out
-nsIDOMWindowInternal
+nsIDOMWindow
 aHiddenDOMWindow
 out
 JSContext

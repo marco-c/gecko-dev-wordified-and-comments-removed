@@ -322,7 +322,7 @@ const
 PRUnichar
 *
 aType
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aWindow
@@ -377,7 +377,7 @@ static
 void
 activateWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 win
 )
@@ -1933,7 +1933,7 @@ STATE_REMOTE_AUTO
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 win
 ;
@@ -3429,7 +3429,7 @@ do
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 navWin
 ;
@@ -4493,7 +4493,7 @@ ActivateLastWindow
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 navWin
 ;
@@ -5514,7 +5514,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 navWin
 ;

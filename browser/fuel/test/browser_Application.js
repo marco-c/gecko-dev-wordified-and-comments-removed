@@ -169,7 +169,7 @@ getInterface
 (
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 this

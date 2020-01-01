@@ -384,7 +384,7 @@ generateQI
 [
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 ]
 )
 }

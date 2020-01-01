@@ -400,7 +400,7 @@ nsISupports
 idl
 "
 interface
-nsIDOMWindowInternal
+nsIDOMWindow
 ;
 interface
 nsIVariant
@@ -673,7 +673,7 @@ in
 AString
 aMimetype
 in
-nsIDOMWindowInternal
+nsIDOMWindow
 aWindow
 in
 nsIURI

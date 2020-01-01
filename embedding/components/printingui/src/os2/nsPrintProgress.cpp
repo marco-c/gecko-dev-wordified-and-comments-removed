@@ -117,7 +117,7 @@ nsPrintProgress
 :
 OpenProgressDialog
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 parent
 const
@@ -1258,7 +1258,7 @@ SetDocShell
 nsIDocShell
 *
 shell
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 window
 )

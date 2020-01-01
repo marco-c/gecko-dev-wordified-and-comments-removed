@@ -176,7 +176,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -777,7 +777,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 win
 ;
@@ -856,7 +856,7 @@ nsXPInstallManager
 :
 InitManager
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aParentWindow
 nsXPITriggerInfo
@@ -1426,15 +1426,11 @@ PR_FALSE
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 parentWindow
-(
-do_QueryInterface
-(
+=
 aParent
-)
-)
 ;
 nsCOMPtr
 <
@@ -1669,7 +1665,7 @@ nsXPInstallManager
 :
 ConfirmChromeInstall
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aParentWindow
 const
@@ -2246,7 +2242,7 @@ NS_WINDOWMEDIATOR_CONTRACTID
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 recentWindow
 ;

@@ -9933,7 +9933,7 @@ win
 instanceof
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 {
 win

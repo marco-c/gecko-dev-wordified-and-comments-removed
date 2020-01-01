@@ -47,7 +47,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -287,7 +287,7 @@ container
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 window
 =

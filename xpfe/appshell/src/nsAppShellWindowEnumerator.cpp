@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIFactory
 .
 h
@@ -105,7 +98,7 @@ nsIXULWindow
 inWindow
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 &
 outDOMWindow
@@ -159,7 +152,7 @@ nsIXULWindow
 aWindow
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 &
 aDOMWindow
@@ -944,7 +937,7 @@ mCurrentPosition
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 domWindow
 ;

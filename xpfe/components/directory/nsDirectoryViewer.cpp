@@ -202,13 +202,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIDOMWindowCollection
 .
 h

@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsPIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIDOMRange
 .
 h
@@ -86,13 +79,6 @@ h
 include
 "
 nsIDOMNSRange
-.
-h
-"
-#
-include
-"
-nsIDOMWindowInternal
 .
 h
 "

@@ -213,7 +213,7 @@ Notify
 nsIDOMHTMLFormElement
 *
 formNode
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 window
 nsIURI

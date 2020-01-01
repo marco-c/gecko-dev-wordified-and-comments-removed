@@ -17353,7 +17353,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 }

@@ -77,7 +77,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -340,7 +340,7 @@ SavePersistentAttributes
 NS_IMETHOD
 GetWindowDOMWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aDOMWindow
@@ -518,7 +518,7 @@ mDocShell
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 mDOMWindow
 ;

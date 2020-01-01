@@ -1304,7 +1304,7 @@ const
 char
 *
 aResourceString
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aResult
@@ -1389,7 +1389,7 @@ docShell
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 result
 =

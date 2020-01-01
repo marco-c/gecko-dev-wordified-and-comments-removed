@@ -190,7 +190,7 @@ class
 nsITransfer
 ;
 class
-nsIDOMWindowInternal
+nsIDOMWindow
 ;
 class
 nsExternalHelperAppService
@@ -493,7 +493,7 @@ mWindowContext
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 mWindowToClose
 ;

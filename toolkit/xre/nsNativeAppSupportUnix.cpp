@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -801,7 +794,7 @@ const
 PRUnichar
 *
 aType
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aWindow
@@ -995,7 +988,7 @@ return
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 window
 ;
@@ -1698,7 +1691,7 @@ method
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 window
 ;

@@ -204,7 +204,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -2343,7 +2343,7 @@ controllers
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 domWindow
 (

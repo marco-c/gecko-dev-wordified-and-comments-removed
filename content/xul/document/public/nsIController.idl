@@ -560,7 +560,7 @@ allow
 for
 updating
 via
-nsIDOMWindowInternal
+nsIDOMWindow
 :
 :
 UpdateCommands

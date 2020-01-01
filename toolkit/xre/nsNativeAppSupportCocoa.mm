@@ -507,7 +507,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -570,7 +570,7 @@ h
 nsresult
 GetNativeWindowPointerFromDOMWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 a_window
 NSWindow
@@ -1200,11 +1200,9 @@ used
 window
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 mru
-=
-nsnull
 ;
 wm
 -

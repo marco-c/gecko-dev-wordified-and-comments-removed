@@ -137,7 +137,7 @@ PR_TRUE
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 parent
 =

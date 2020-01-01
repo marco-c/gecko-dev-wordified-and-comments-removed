@@ -538,14 +538,13 @@ GetWindow
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 win
-(
+=
 do_QueryInterface
 (
 piWindow
-)
 )
 ;
 NS_ENSURE_TRUE

@@ -526,10 +526,6 @@ nsIDOMScreen
 .
 idl
 \
-nsIDOMWindowInternal
-.
-idl
-\
 nsIDOMJSWindow
 .
 idl

@@ -416,13 +416,7 @@ nsISupports
 idl
 "
 interface
-nsIDOMDocument
-;
-interface
 nsIDOMElement
-;
-interface
-nsIDOMWindowInternal
 ;
 [
 scriptable

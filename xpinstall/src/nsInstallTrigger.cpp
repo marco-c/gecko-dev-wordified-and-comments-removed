@@ -629,14 +629,13 @@ forget
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 win
-(
+=
 do_QueryInterface
 (
 globalObject
-)
 )
 ;
 nsCOMPtr

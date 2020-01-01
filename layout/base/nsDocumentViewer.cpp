@@ -9948,9 +9948,8 @@ DocumentViewerImpl
 :
 PrintWithParent
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
-aParentWin
 nsIPrintSettings
 *
 aThePrintSettings
@@ -16063,7 +16062,7 @@ mContainer
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 win
 =

@@ -748,7 +748,7 @@ dialog
 defaults
 (
 see
-nsIDOMWindowInternal
+nsIDOMWindow
 :
 :
 openDialog

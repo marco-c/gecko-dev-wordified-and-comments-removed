@@ -441,7 +441,7 @@ idl
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 idl
 "
@@ -492,7 +492,7 @@ the
 window
 *
 /
-nsIDOMWindowInternal
+nsIDOMWindow
 getWindowForResource
 (
 in

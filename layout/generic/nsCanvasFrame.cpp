@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h

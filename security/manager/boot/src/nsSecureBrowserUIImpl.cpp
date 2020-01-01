@@ -1562,7 +1562,7 @@ Notify
 nsIDOMHTMLFormElement
 *
 aDOMForm
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aWindow
 nsIURI
@@ -6167,9 +6167,9 @@ nsIPrompt
 {
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
-internal
+window
 =
 do_QueryInterface
 (
@@ -6194,7 +6194,7 @@ prompt
 ;
 rv
 =
-internal
+window
 -
 >
 GetPrompter

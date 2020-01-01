@@ -563,9 +563,6 @@ interface
 nsIDOMWindow
 ;
 interface
-nsIDOMWindowInternal
-;
-interface
 nsIDOMWindowCollection
 ;
 interface

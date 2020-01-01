@@ -1,7 +1,7 @@
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -14,7 +14,7 @@ static
 nsresult
 openDialog
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 window
 const

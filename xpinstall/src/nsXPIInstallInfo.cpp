@@ -15,7 +15,7 @@ nsXPIInstallInfo
 :
 nsXPIInstallInfo
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aOriginatingWindow
 nsIURI
@@ -104,7 +104,7 @@ nsXPIInstallInfo
 :
 GetOriginatingWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 *
 aOriginatingWindow

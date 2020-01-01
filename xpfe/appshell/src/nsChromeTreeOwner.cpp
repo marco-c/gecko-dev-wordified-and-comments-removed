@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h

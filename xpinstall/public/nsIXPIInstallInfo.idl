@@ -405,7 +405,7 @@ nsXPITriggerInfo
 )
 ;
 interface
-nsIDOMWindowInternal
+nsIDOMWindow
 ;
 interface
 nsIDocShell
@@ -494,7 +494,7 @@ install
 /
 readonly
 attribute
-nsIDOMWindowInternal
+nsIDOMWindow
 originatingWindow
 ;
 /

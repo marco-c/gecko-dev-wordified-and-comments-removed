@@ -447,7 +447,7 @@ getInterface
 (
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 waitForFocus

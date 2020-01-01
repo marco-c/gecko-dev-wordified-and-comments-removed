@@ -1,6 +1,13 @@
 #
 include
 "
+nsBarProps
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -9,13 +16,6 @@ h
 include
 "
 nscore
-.
-h
-"
-#
-include
-"
-nsBarProps
 .
 h
 "
@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "

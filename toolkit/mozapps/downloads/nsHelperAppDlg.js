@@ -542,7 +542,7 @@ Components
 .
 interfaces
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 var
@@ -1010,7 +1010,7 @@ Components
 .
 interfaces
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 picker

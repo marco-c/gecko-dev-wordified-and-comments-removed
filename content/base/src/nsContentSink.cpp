@@ -173,7 +173,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -2042,10 +2042,10 @@ prompt
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 window
-(
+=
 do_QueryInterface
 (
 mDocument
@@ -2053,7 +2053,6 @@ mDocument
 >
 GetScriptGlobalObject
 (
-)
 )
 )
 ;

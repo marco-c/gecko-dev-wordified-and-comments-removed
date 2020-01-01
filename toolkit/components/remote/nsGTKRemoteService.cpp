@@ -360,7 +360,7 @@ nsnull
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 window
 ;

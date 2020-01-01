@@ -142,13 +142,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -900,7 +893,6 @@ GetPrincipal
 )
 ;
 NS_DECL_NSIDOMWINDOW
-NS_DECL_NSIDOMWINDOWINTERNAL
 NS_DECL_NSIDOMWINDOWPERFORMANCE
 NS_DECL_NSIDOMJSWINDOW
 NS_DECL_NSIDOMEVENTTARGET
@@ -1157,7 +1149,7 @@ void
 )
 SetOpenerWindow
 (
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 aOpener
 PRBool
@@ -1949,7 +1941,7 @@ nsIArray
 aArguments
 )
 ;
-nsIDOMWindowInternal
+nsIDOMWindow
 *
 GetParentInternal
 (

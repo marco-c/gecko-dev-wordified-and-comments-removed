@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -82,7 +82,6 @@ private
 nsresult
 ReleaseListeners
 (
-void
 )
 ;
 PRBool
@@ -102,7 +101,7 @@ m_pendingStateValue
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 m_dialog
 ;

@@ -692,7 +692,7 @@ the
 scriptable
 version
 of
-nsIDOMWindowInternal
+nsIDOMWindow
 :
 :
 open
@@ -715,7 +715,7 @@ to
 avoid
 colliding
 with
-nsIDOMWindowInternal
+nsIDOMWindow
 :
 :
 open
@@ -808,7 +808,7 @@ scriptable
 version
 of
 *
-nsIDOMWindowInternal
+nsIDOMWindow
 :
 :
 openDialog

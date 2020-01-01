@@ -915,7 +915,7 @@ QueryInterface
 (
 Ci
 .
-nsIDOMWindowInternal
+nsIDOMWindow
 )
 ;
 let

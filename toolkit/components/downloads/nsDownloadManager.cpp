@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsIDOMWindowInternal
+nsIDOMWindow
 .
 h
 "
@@ -9854,7 +9854,7 @@ NS_WINDOWMEDIATOR_CONTRACTID
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 dmWindow
 ;
@@ -13941,7 +13941,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindowInternal
+nsIDOMWindow
 >
 dmWindow
 ;
