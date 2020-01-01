@@ -1156,12 +1156,9 @@ view
 void
 prependToViews
 (
-HeapPtr
-<
 ArrayBufferViewObject
->
 *
-views
+viewsHead
 )
 ;
 void
