@@ -75,6 +75,13 @@ nsASocketHandler
 h
 "
 #
+include
+"
+nsIObserver
+.
+h
+"
+#
 if
 defined
 (
@@ -128,6 +135,8 @@ public
 nsIThreadObserver
 public
 nsIRunnable
+public
+nsIObserver
 {
 public
 :
@@ -137,6 +146,7 @@ NS_DECL_NSISOCKETTRANSPORTSERVICE
 NS_DECL_NSIEVENTTARGET
 NS_DECL_NSITHREADOBSERVER
 NS_DECL_NSIRUNNABLE
+NS_DECL_NSIOBSERVER
 nsSocketTransportService
 (
 )
@@ -312,6 +322,14 @@ interval
 ;
 nsEventQueue
 mPendingSocketQ
+;
+nsresult
+UpdatePrefs
+(
+)
+;
+PRInt32
+mSendBufferSize
 ;
 }
 ;
