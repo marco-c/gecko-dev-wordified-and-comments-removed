@@ -849,14 +849,6 @@ GetNextSibling
 )
 )
 {
-NS_WARNING
-(
-"
-invalid
-markup
-"
-)
-;
 return
 ReflowError
 (
