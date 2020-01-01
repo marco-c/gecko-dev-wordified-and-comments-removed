@@ -1092,6 +1092,10 @@ getvalue
 )
 :
             
+result
+=
+1
+            
 for
 line
 in
