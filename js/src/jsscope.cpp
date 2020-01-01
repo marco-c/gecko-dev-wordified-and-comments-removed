@@ -4897,8 +4897,6 @@ cx
 JSScopeProperty
 *
 sprop
-jsval
-toval
 )
 {
 JS_ASSERT
@@ -5063,8 +5061,6 @@ JSContext
 cx
 uint32
 slot
-jsval
-toval
 )
 {
 if
@@ -5128,7 +5124,6 @@ methodShapeChange
 (
 cx
 sprop
-toval
 )
 ;
 }

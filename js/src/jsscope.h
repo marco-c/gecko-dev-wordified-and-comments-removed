@@ -748,8 +748,6 @@ cx
 JSScopeProperty
 *
 sprop
-jsval
-toval
 )
 ;
 bool
@@ -760,8 +758,6 @@ JSContext
 cx
 uint32
 slot
-jsval
-toval
 )
 ;
 void
