@@ -62,7 +62,7 @@ BEGIN_INDEXEDDB_NAMESPACE
 class
 AsyncConnectionHelper
 ;
-class
+struct
 DatabaseInfo
 ;
 class
