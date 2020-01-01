@@ -14,7 +14,9 @@ include
 "
 mozilla
 /
-MemoryReporting
+dom
+/
+HTMLAnchorElementBinding
 .
 h
 "
@@ -23,9 +25,7 @@ include
 "
 mozilla
 /
-dom
-/
-HTMLAnchorElementBinding
+MemoryReporting
 .
 h
 "
@@ -53,7 +53,7 @@ h
 #
 include
 "
-nsIPresShell
+nsHTMLDNSPrefetch
 .
 h
 "
@@ -67,14 +67,14 @@ h
 #
 include
 "
-nsPresContext
+nsIPresShell
 .
 h
 "
 #
 include
 "
-nsHTMLDNSPrefetch
+nsPresContext
 .
 h
 "
