@@ -7,7 +7,7 @@ MOZILLA_GFX_HELPERSD2D_H_
 #
 include
 <
-D2D1
+d2d1
 .
 h
 >
