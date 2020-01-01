@@ -828,10 +828,10 @@ slot
 ;
 code
 =
-CG_BASE
-(
-&
 bce
+.
+base
+(
 )
 ;
 for
@@ -840,10 +840,10 @@ end
 =
 code
 +
-CG_OFFSET
-(
-&
 bce
+.
+offset
+(
 )
 ;
 code
