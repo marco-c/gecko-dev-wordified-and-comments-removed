@@ -614,6 +614,12 @@ complex
 img
 >
 tests
+random
+-
+if
+(
+gtk2Widget
+)
 =
 =
 img
@@ -628,6 +634,9 @@ lime100x100
 ref
 .
 html
+#
+bug
+612214
 =
 =
 img
