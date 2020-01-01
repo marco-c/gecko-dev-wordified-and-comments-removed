@@ -2381,6 +2381,9 @@ modules
 ;
 Safe
 Browsing
+#
+ifdef
+MOZ_SAFE_BROWSING
 BINPATH
 /
 components
@@ -2388,13 +2391,6 @@ components
 nsURLClassifier
 .
 manifest
-BINPATH
-/
-components
-/
-nsUrlClassifierHashCompleter
-.
-js
 BINPATH
 /
 components
@@ -2418,6 +2414,8 @@ url
 classifier
 .
 xpt
+#
+endif
 ;
 GNOME
 hooks
