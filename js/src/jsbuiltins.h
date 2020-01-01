@@ -2061,6 +2061,10 @@ js_Array_1str
 )
 JS_DECLARE_CALLINFO
 (
+js_ArrayCompPush
+)
+JS_DECLARE_CALLINFO
+(
 js_FastNewDate
 )
 JS_DECLARE_CALLINFO
