@@ -16,7 +16,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+Mutex
 .
 h
 "
@@ -55,14 +55,14 @@ mFD
 (
 nullptr
 )
-mReentrantMonitor
+mMutex
 (
 "
 EncodedBufferCache
 .
 Data
 .
-Monitor
+Mutex
 "
 )
 mDataSize
@@ -123,8 +123,9 @@ PRFileDesc
 *
 mFD
 ;
-ReentrantMonitor
-mReentrantMonitor
+Mutex
+mMutex
+;
 ;
 uint64_t
 mDataSize
