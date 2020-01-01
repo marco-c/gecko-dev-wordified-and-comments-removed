@@ -1891,12 +1891,12 @@ TYPE_FLOAT32
 convertDoubleToFloat
 (
 value
-value
+ScratchFloatReg
 )
 ;
 storeFloat
 (
-value
+ScratchFloatReg
 dest
 )
 ;
