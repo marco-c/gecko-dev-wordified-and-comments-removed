@@ -600,6 +600,9 @@ NS_OK
 ;
 if
 (
+mStatusIsDirty
+|
+|
 !
 mCurrentStatusMsg
 .
