@@ -951,12 +951,11 @@ nsIFrame
 *
 childFrame
 =
-shell
+mBoundElement
 -
 >
-GetPrimaryFrameFor
+GetPrimaryFrame
 (
-mBoundElement
 )
 ;
 if
