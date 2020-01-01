@@ -843,3 +843,10 @@ theora
 codec
 .
 h
+patch
+-
+p3
+<
+changeset_r15144
+.
+diff
