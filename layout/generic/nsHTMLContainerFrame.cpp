@@ -3279,3 +3279,7 @@ return
 NS_OK
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsHTMLContainerFrame
+)

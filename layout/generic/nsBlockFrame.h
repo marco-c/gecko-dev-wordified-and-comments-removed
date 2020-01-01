@@ -122,10 +122,11 @@ nsBlockFrameSuper
 {
 public
 :
-NS_DECLARE_FRAME_ACCESSOR
+NS_DECL_QUERYFRAME_TARGET
 (
 nsBlockFrame
 )
+NS_DECL_FRAMEARENA_HELPERS
 typedef
 nsLineList
 :

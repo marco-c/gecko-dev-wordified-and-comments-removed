@@ -168,6 +168,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsGfxButtonControlFrame
+)
 void
 nsGfxButtonControlFrame
 :

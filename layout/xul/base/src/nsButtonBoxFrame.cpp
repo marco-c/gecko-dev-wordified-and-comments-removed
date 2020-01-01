@@ -134,6 +134,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsButtonBoxFrame
+)
 NS_IMETHODIMP
 nsButtonBoxFrame
 :

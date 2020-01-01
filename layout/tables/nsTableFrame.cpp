@@ -15952,6 +15952,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTableFrame
+)
 nsTableFrame
 *
 nsTableFrame

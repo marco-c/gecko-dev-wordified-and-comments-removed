@@ -91,6 +91,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGPathGeometryFrame
+)
 NS_QUERYFRAME_HEAD
 (
 nsSVGPathGeometryFrame

@@ -154,6 +154,7 @@ nsHTMLContainerFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsFieldSetFrame
 (
 nsStyleContext
@@ -430,6 +431,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsFieldSetFrame
+)
 nsFieldSetFrame
 :
 :

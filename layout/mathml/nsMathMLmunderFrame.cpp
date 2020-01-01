@@ -91,6 +91,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmunderFrame
+)
 nsMathMLmunderFrame
 :
 :

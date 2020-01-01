@@ -260,6 +260,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSliderFrame
+)
 nsSliderFrame
 :
 :

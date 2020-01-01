@@ -662,6 +662,10 @@ return
 it
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMenuFrame
+)
 NS_QUERYFRAME_HEAD
 (
 nsMenuFrame

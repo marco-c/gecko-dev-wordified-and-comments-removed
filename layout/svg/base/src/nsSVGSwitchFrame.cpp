@@ -66,6 +66,7 @@ aContext
 }
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG
@@ -211,6 +212,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGSwitchFrame
+)
 #
 ifdef
 DEBUG

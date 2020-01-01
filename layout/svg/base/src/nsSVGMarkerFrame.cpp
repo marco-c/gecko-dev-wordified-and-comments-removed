@@ -84,6 +84,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGMarkerFrame
+)
 NS_IMETHODIMP
 nsSVGMarkerFrame
 :

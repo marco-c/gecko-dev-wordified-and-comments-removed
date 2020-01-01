@@ -56,6 +56,7 @@ aContext
 ;
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 virtual
 PRBool
 SetupPaintServer
@@ -334,6 +335,7 @@ aContext
 }
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG
@@ -463,6 +465,7 @@ aContext
 }
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG

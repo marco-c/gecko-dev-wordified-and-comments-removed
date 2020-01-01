@@ -545,6 +545,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsImageBoxFrame
+)
 NS_IMETHODIMP
 nsImageBoxFrame
 :

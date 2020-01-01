@@ -99,6 +99,10 @@ PR_FALSE
 )
 {
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGGradientFrame
+)
 void
 nsSVGGradientFrame
 :
@@ -2680,6 +2684,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGLinearGradientFrame
+)
 nsIFrame
 *
 NS_NewSVGRadialGradientFrame
@@ -2703,3 +2711,7 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGRadialGradientFrame
+)

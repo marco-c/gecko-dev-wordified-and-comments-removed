@@ -97,6 +97,7 @@ nsHTMLContainerFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsColumnSetFrame
 (
 nsStyleContext
@@ -470,6 +471,10 @@ return
 it
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsColumnSetFrame
+)
 nsColumnSetFrame
 :
 :

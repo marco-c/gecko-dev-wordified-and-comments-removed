@@ -344,6 +344,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsBoxFrame
+)
 nsBoxFrame
 :
 :

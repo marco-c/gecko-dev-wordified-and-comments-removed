@@ -49,6 +49,10 @@ nsLeafFrame
 )
 {
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsLeafFrame
+)
 nscoord
 nsLeafFrame
 :

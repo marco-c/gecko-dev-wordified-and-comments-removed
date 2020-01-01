@@ -126,6 +126,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsPageContentFrame
+)
 nsSize
 nsPageContentFrame
 :

@@ -596,6 +596,10 @@ return
 it
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsListControlFrame
+)
 nsListControlFrame
 :
 :

@@ -70,6 +70,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGGFrame
+)
 #
 ifdef
 DEBUG

@@ -106,6 +106,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsScrollbarButtonFrame
+)
 NS_IMETHODIMP
 nsScrollbarButtonFrame
 :

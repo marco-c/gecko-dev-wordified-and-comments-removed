@@ -193,6 +193,7 @@ nsSVGImageFrame
 ;
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 NS_IMETHOD
 PaintSVG
 (
@@ -338,6 +339,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGImageFrame
+)
 nsSVGImageFrame
 :
 :

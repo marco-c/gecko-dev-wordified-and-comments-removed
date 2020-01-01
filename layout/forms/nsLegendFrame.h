@@ -19,10 +19,12 @@ nsBlockFrame
 {
 public
 :
-NS_DECLARE_FRAME_ACCESSOR
+NS_DECL_QUERYFRAME_TARGET
 (
 nsLegendFrame
 )
+NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 nsLegendFrame
 (
 nsStyleContext
@@ -36,7 +38,6 @@ aContext
 )
 {
 }
-NS_DECL_QUERYFRAME
 NS_IMETHOD
 Reflow
 (

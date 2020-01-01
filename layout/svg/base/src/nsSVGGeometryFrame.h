@@ -36,6 +36,7 @@ nsSVGGeometryFrameBase
 {
 protected
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsSVGGeometryFrame
 (
 nsStyleContext

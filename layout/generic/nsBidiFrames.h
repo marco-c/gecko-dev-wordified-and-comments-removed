@@ -30,6 +30,7 @@ nsDirectionalFrame
 ;
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsDirectionalFrame
 (
 nsStyleContext

@@ -305,6 +305,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTextBoxFrame
+)
 NS_IMETHODIMP
 nsTextBoxFrame
 :

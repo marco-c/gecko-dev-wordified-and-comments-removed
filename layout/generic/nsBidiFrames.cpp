@@ -119,5 +119,9 @@ aChar
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsDirectionalFrame
+)
 #
 endif

@@ -73,6 +73,7 @@ aContext
 }
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG
@@ -177,6 +178,10 @@ aResult
 endif
 }
 ;
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGStopFrame
+)
 #
 ifdef
 DEBUG

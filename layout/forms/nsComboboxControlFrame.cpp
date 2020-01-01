@@ -598,6 +598,10 @@ return
 it
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsComboboxControlFrame
+)
 #
 ifdef
 DO_REFLOW_COUNTER
@@ -4112,6 +4116,7 @@ nsBlockFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsComboboxDisplayFrame
 (
 nsStyleContext
@@ -4209,6 +4214,10 @@ mComboBox
 ;
 }
 ;
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsComboboxDisplayFrame
+)
 nsIAtom
 *
 nsComboboxDisplayFrame

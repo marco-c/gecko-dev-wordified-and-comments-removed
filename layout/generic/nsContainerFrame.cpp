@@ -249,6 +249,10 @@ undef
 NOISY
 #
 endif
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsContainerFrame
+)
 nsContainerFrame
 :
 :

@@ -296,6 +296,10 @@ aIsRoot
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsHTMLScrollFrame
+)
 nsHTMLScrollFrame
 :
 :
@@ -4014,6 +4018,10 @@ aIsRoot
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsXULScrollFrame
+)
 nsXULScrollFrame
 :
 :

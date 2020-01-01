@@ -196,6 +196,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsPageFrame
+)
 nsPageFrame
 :
 :
@@ -3137,6 +3141,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsPageBreakFrame
+)
 nsPageBreakFrame
 :
 :

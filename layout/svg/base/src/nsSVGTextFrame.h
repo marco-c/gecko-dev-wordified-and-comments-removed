@@ -73,6 +73,7 @@ PR_TRUE
 }
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG

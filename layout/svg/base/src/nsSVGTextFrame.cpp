@@ -140,6 +140,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGTextFrame
+)
 #
 ifdef
 DEBUG

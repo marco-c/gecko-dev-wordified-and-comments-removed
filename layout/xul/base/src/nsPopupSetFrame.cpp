@@ -112,6 +112,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsPopupSetFrame
+)
 NS_IMETHODIMP
 nsPopupSetFrame
 :

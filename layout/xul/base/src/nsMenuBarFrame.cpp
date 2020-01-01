@@ -209,6 +209,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMenuBarFrame
+)
 nsMenuBarFrame
 :
 :

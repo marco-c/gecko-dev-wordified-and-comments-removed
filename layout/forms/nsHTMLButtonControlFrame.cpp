@@ -222,6 +222,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsHTMLButtonControlFrame
+)
 nsHTMLButtonControlFrame
 :
 :

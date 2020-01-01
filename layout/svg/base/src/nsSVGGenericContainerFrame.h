@@ -79,6 +79,7 @@ aContext
 }
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 NS_IMETHOD
 AttributeChanged
 (

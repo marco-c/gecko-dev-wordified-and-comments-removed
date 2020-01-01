@@ -160,6 +160,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsInlineFrame
+)
 NS_QUERYFRAME_HEAD
 (
 nsInlineFrame
@@ -3960,6 +3964,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsFirstLineFrame
+)
 #
 ifdef
 DEBUG
@@ -4701,6 +4709,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsPositionedInlineFrame
+)
 void
 nsPositionedInlineFrame
 :

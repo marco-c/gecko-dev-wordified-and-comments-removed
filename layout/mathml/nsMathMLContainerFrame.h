@@ -116,6 +116,7 @@ aContext
 {
 }
 NS_DECL_QUERYFRAME
+NS_DECL_FRAMEARENA_HELPERS
 NS_IMETHOD
 Stretch
 (
@@ -642,6 +643,7 @@ nsBlockFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *
@@ -965,6 +967,7 @@ nsInlineFrame
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 friend
 nsIFrame
 *

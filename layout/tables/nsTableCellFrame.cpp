@@ -235,6 +235,10 @@ nsTableCellFrame
 )
 {
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsTableCellFrame
+)
 nsTableCellFrame
 *
 nsTableCellFrame
@@ -4497,6 +4501,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsBCTableCellFrame
+)
 nsMargin
 *
 nsTableCellFrame

@@ -86,6 +86,10 @@ layout
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsGridRowGroupFrame
+)
 nscoord
 nsGridRowGroupFrame
 :

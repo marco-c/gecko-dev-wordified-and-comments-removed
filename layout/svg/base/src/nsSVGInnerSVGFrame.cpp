@@ -84,6 +84,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGInnerSVGFrame
+)
 NS_QUERYFRAME_HEAD
 (
 nsSVGInnerSVGFrame

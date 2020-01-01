@@ -70,6 +70,14 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGContainerFrame
+)
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSVGDisplayContainerFrame
+)
 NS_IMETHODIMP
 nsSVGContainerFrame
 :

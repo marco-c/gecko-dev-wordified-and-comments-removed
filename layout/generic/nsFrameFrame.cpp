@@ -398,6 +398,7 @@ nsIReflowCallback
 {
 public
 :
+NS_DECL_FRAMEARENA_HELPERS
 nsSubDocumentFrame
 (
 nsStyleContext
@@ -2976,6 +2977,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsSubDocumentFrame
+)
 void
 nsSubDocumentFrame
 :

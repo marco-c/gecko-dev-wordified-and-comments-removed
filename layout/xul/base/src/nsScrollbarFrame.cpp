@@ -57,6 +57,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsScrollbarFrame
+)
 NS_QUERYFRAME_HEAD
 (
 nsScrollbarFrame

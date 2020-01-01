@@ -141,6 +141,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsLeafBoxFrame
+)
 nsLeafBoxFrame
 :
 :

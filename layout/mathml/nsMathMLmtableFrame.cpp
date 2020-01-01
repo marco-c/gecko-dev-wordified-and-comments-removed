@@ -1463,6 +1463,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmtableOuterFrame
+)
 nsMathMLmtableOuterFrame
 :
 :
@@ -2756,6 +2760,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmtableFrame
+)
 nsMathMLmtableFrame
 :
 :
@@ -2869,6 +2877,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmtrFrame
+)
 nsMathMLmtrFrame
 :
 :
@@ -3076,6 +3088,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmtdFrame
+)
 nsMathMLmtdFrame
 :
 :
@@ -3442,6 +3458,10 @@ aContext
 )
 ;
 }
+NS_IMPL_FRAMEARENA_HELPERS
+(
+nsMathMLmtdInnerFrame
+)
 nsMathMLmtdInnerFrame
 :
 :

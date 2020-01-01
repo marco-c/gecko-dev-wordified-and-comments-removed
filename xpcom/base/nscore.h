@@ -166,6 +166,7 @@ __GNUC__
 )
 &
 &
+\
 (
 __GNUC__
 >
@@ -242,6 +243,7 @@ __GNUC__
 )
 &
 &
+\
 (
 __GNUC__
 >
@@ -1274,6 +1276,20 @@ NS_final
 )
 )
 #
+define
+NS_MUST_OVERRIDE
+__attribute__
+(
+(
+user
+(
+"
+NS_must_override
+"
+)
+)
+)
+#
 else
 #
 define
@@ -1287,6 +1303,9 @@ NS_SUPPRESS_STACK_CHECK
 #
 define
 NS_FINAL_CLASS
+#
+define
+NS_MUST_OVERRIDE
 #
 endif
 #
