@@ -454,6 +454,13 @@ pathToCheck
 "
 ;
 }
+else
+{
+return
+[
+]
+;
+}
 }
 var
 [
