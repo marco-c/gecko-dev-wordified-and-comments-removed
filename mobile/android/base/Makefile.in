@@ -1967,7 +1967,7 @@ xml
 (
 NULL
 )
-RES_LAYOUT_XLARGE
+RES_LAYOUT_XLARGE_V11
 =
 \
 res
@@ -1975,6 +1975,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 awesomebar_search
 .
@@ -1985,6 +1987,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 browser_toolbar
 .
@@ -1995,6 +1999,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 browser_toolbar_menu
 .
@@ -2005,6 +2011,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 doorhangerpopup
 .
@@ -2015,6 +2023,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 gecko_app
 .
@@ -2025,6 +2035,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 remote_tabs_child
 .
@@ -2035,6 +2047,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 remote_tabs_group
 .
@@ -2045,6 +2059,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 site_identity_popup
 .
@@ -2055,6 +2071,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 tabs_panel_toolbar
 .
@@ -2065,6 +2083,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 tabs_panel_toolbar_menu
 .
@@ -2075,6 +2095,8 @@ res
 layout
 -
 xlarge
+-
+v11
 /
 tabs_row
 .
@@ -2177,7 +2199,7 @@ xml
 (
 NULL
 )
-RES_VALUES_XLARGE
+RES_VALUES_XLARGE_V11
 =
 \
 res
@@ -2185,6 +2207,8 @@ res
 values
 -
 xlarge
+-
+v11
 /
 dimens
 .
@@ -2195,6 +2219,8 @@ res
 values
 -
 xlarge
+-
+v11
 /
 styles
 .
@@ -6269,7 +6295,7 @@ png
 (
 NULL
 )
-RES_DRAWABLE_XLARGE_MDPI
+RES_DRAWABLE_XLARGE_MDPI_V11
 =
 \
 res
@@ -6279,6 +6305,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 address_bar_bg
 .
@@ -6291,6 +6319,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 address_bar_texture_tablet
 .
@@ -6303,6 +6333,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 address_bar_back_button_bg
 .
@@ -6315,6 +6347,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 address_bar_back_button_pressed_bg
 .
@@ -6327,6 +6361,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 address_bar_url_default
 .
@@ -6341,6 +6377,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 address_bar_url_pressed
 .
@@ -6355,6 +6393,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 awesomebar_tab_center
 .
@@ -6369,6 +6409,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 awesomebar_tab_left
 .
@@ -6383,6 +6425,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 awesomebar_tab_right
 .
@@ -6397,6 +6441,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 menu
 .
@@ -6409,6 +6455,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 ic_awesomebar_go
 .
@@ -6421,6 +6469,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 ic_awesomebar_search
 .
@@ -6433,6 +6483,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 ic_menu_bookmark_add
 .
@@ -6445,6 +6497,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 ic_menu_bookmark_remove
 .
@@ -6457,6 +6511,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 ic_menu_reload
 .
@@ -6469,6 +6525,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 ic_menu_forward
 .
@@ -6481,6 +6539,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 remote_tabs_off
 .
@@ -6493,6 +6553,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 remote_tabs_on
 .
@@ -6505,6 +6567,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 tab_new
 .
@@ -6517,6 +6581,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 tabs_crop_button
 .
@@ -6529,6 +6595,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 tabs_carat_contracted
 .
@@ -6541,6 +6609,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 tabs_carat_expanded
 .
@@ -6553,6 +6623,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 tabs_crop_expanded_normal
 .
@@ -6565,6 +6637,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 tabs_crop_expanded_pressed
 .
@@ -6577,6 +6651,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 tabs_level
 .
@@ -6589,6 +6665,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 tabs_crop_normal
 .
@@ -6601,6 +6679,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 tabs_crop_pressed
 .
@@ -6613,6 +6693,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 urlbar_stop
 .
@@ -6625,6 +6707,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 reader
 .
@@ -6637,6 +6721,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 site_security_identified
 .
@@ -6649,6 +6735,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 /
 site_security_verified
 .
@@ -6657,7 +6745,7 @@ png
 (
 NULL
 )
-RES_DRAWABLE_XLARGE_HDPI
+RES_DRAWABLE_XLARGE_HDPI_V11
 =
 \
 res
@@ -6667,6 +6755,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 address_bar_texture_tablet
 .
@@ -6679,6 +6769,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 address_bar_back_button_bg
 .
@@ -6691,6 +6783,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 address_bar_back_button_pressed_bg
 .
@@ -6703,6 +6797,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 address_bar_url_default
 .
@@ -6717,6 +6813,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 address_bar_url_pressed
 .
@@ -6731,6 +6829,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 awesomebar_tab_center
 .
@@ -6745,6 +6845,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 awesomebar_tab_left
 .
@@ -6759,6 +6861,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 awesomebar_tab_right
 .
@@ -6773,6 +6877,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 menu
 .
@@ -6785,6 +6891,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 ic_awesomebar_go
 .
@@ -6797,6 +6905,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 ic_awesomebar_search
 .
@@ -6809,6 +6919,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 ic_menu_bookmark_add
 .
@@ -6821,6 +6933,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 ic_menu_bookmark_remove
 .
@@ -6833,6 +6947,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 ic_menu_reload
 .
@@ -6845,6 +6961,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 ic_menu_forward
 .
@@ -6857,6 +6975,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 remote_tabs_off
 .
@@ -6869,6 +6989,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 remote_tabs_on
 .
@@ -6881,6 +7003,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 tab_new
 .
@@ -6893,6 +7017,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 tabs_carat_contracted
 .
@@ -6905,6 +7031,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 tabs_carat_expanded
 .
@@ -6917,6 +7045,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 tabs_crop_expanded_normal
 .
@@ -6929,6 +7059,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 tabs_crop_expanded_pressed
 .
@@ -6941,6 +7073,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 tabs_crop_normal
 .
@@ -6953,6 +7087,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 tabs_crop_pressed
 .
@@ -6965,6 +7101,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 urlbar_stop
 .
@@ -6977,6 +7115,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 reader
 .
@@ -6989,6 +7129,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 site_security_identified
 .
@@ -7001,6 +7143,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 /
 site_security_verified
 .
@@ -7009,7 +7153,7 @@ png
 (
 NULL
 )
-RES_DRAWABLE_XLARGE_XHDPI
+RES_DRAWABLE_XLARGE_XHDPI_V11
 =
 \
 res
@@ -7019,6 +7163,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 address_bar_texture_tablet
 .
@@ -7031,6 +7177,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 address_bar_back_button_bg
 .
@@ -7043,6 +7191,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 address_bar_back_button_pressed_bg
 .
@@ -7055,6 +7205,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 address_bar_url_default
 .
@@ -7069,6 +7221,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 address_bar_url_pressed
 .
@@ -7083,6 +7237,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 awesomebar_tab_center
 .
@@ -7097,6 +7253,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 awesomebar_tab_left
 .
@@ -7111,6 +7269,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 awesomebar_tab_right
 .
@@ -7125,6 +7285,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 menu
 .
@@ -7137,6 +7299,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 ic_awesomebar_go
 .
@@ -7149,6 +7313,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 ic_awesomebar_search
 .
@@ -7161,6 +7327,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 ic_menu_bookmark_add
 .
@@ -7173,6 +7341,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 ic_menu_bookmark_remove
 .
@@ -7185,6 +7355,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 ic_menu_reload
 .
@@ -7197,6 +7369,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 ic_menu_forward
 .
@@ -7209,6 +7383,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 remote_tabs_off
 .
@@ -7221,6 +7397,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 tab_new
 .
@@ -7233,6 +7411,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 remote_tabs_on
 .
@@ -7245,6 +7425,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 tabs_carat_contracted
 .
@@ -7257,6 +7439,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 tabs_carat_expanded
 .
@@ -7269,6 +7453,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 tabs_crop_expanded_normal
 .
@@ -7281,6 +7467,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 tabs_crop_expanded_pressed
 .
@@ -7293,6 +7481,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 tabs_crop_normal
 .
@@ -7305,6 +7495,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 tabs_crop_pressed
 .
@@ -7317,6 +7509,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 urlbar_stop
 .
@@ -7329,6 +7523,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 reader
 .
@@ -7341,6 +7537,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 site_security_identified
 .
@@ -7353,6 +7551,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 /
 site_security_verified
 .
@@ -8142,7 +8342,7 @@ RES_LAYOUT
 RES_LAYOUT_LAND_V14
 )
 (
-RES_LAYOUT_XLARGE
+RES_LAYOUT_XLARGE_V11
 )
 (
 RES_VALUES
@@ -8151,13 +8351,10 @@ RES_VALUES
 RES_VALUES_V11
 )
 (
-RES_VALUES_XLARGE
+RES_VALUES_XLARGE_V11
 )
 (
 RES_VALUES_LAND_V14
-)
-(
-RES_VALUES_XLARGE_V14
 )
 (
 RES_XML
@@ -8202,13 +8399,13 @@ RES_DRAWABLE_LAND_HDPI_V14
 RES_DRAWABLE_LAND_XHDPI_V14
 )
 (
-RES_DRAWABLE_XLARGE_MDPI
+RES_DRAWABLE_XLARGE_MDPI_V11
 )
 (
-RES_DRAWABLE_XLARGE_HDPI
+RES_DRAWABLE_XLARGE_HDPI_V11
 )
 (
-RES_DRAWABLE_XLARGE_XHDPI
+RES_DRAWABLE_XLARGE_XHDPI_V11
 )
 (
 RES_COLOR
@@ -8236,6 +8433,8 @@ res
 layout
 -
 xlarge
+-
+v11
 \
 res
 /
@@ -8252,20 +8451,14 @@ res
 values
 -
 xlarge
+-
+v11
 \
 res
 /
 values
 -
 land
--
-v14
-\
-res
-/
-values
--
-xlarge
 -
 v14
 \
@@ -8380,6 +8573,8 @@ drawable
 xlarge
 -
 mdpi
+-
+v11
 \
 res
 /
@@ -8388,6 +8583,8 @@ drawable
 xlarge
 -
 hdpi
+-
+v11
 \
 res
 /
@@ -8396,6 +8593,8 @@ drawable
 xlarge
 -
 xhdpi
+-
+v11
 \
 res
 /

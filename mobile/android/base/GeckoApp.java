@@ -10710,6 +10710,17 @@ screenLayout
 ;
 return
 (
+Build
+.
+VERSION
+.
+SDK_INT
+>
+=
+11
+&
+&
+(
 (
 screenLayout
 &
@@ -10722,6 +10733,7 @@ SCREENLAYOUT_SIZE_MASK
 Configuration
 .
 SCREENLAYOUT_SIZE_XLARGE
+)
 )
 ;
 }
