@@ -163,10 +163,6 @@ browser_chunk_permissions
 .
 js
 \
-browser_prefs_simple
-.
-js
-\
 (
 NULL
 )
