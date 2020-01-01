@@ -10770,6 +10770,10 @@ mPathToDS
 fillRule
 )
 ;
+mPathTransformWillUpdate
+=
+false
+;
 }
 }
 void
