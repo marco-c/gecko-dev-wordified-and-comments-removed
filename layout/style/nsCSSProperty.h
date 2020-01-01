@@ -68,6 +68,7 @@ h
 undef
 CSS_PROP_SHORTHAND
 eCSSProperty_COUNT
+eCSSPropertyExtra_x_none_value
 }
 ;
 enum
