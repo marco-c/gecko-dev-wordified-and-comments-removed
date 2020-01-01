@@ -2628,11 +2628,11 @@ JSOP_NEWINIT
 newinit
 "
 NULL
-1
 2
-1
 0
-JOF_BYTE
+1
+19
+JOF_INT8
 )
 OPDEF
 (
