@@ -35308,3 +35308,15 @@ profile
 "
 )
 ;
+pref
+(
+"
+ui
+.
+touch_activation
+.
+delay_ms
+"
+50
+)
+;

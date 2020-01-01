@@ -2431,6 +2431,9 @@ max_decoded_image_kb
 5120
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 pref
 (
 "
@@ -2467,6 +2470,8 @@ safetyY
 120
 )
 ;
+#
+endif
 #
 ifdef
 MOZ_SAFE_BROWSING
