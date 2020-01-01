@@ -1,5 +1,14 @@
 #
 include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -3855,7 +3864,7 @@ isDouble
 )
 &
 &
-JSDOUBLE_IS_NEGZERO
+MOZ_DOUBLE_IS_NEGATIVE_ZERO
 (
 v
 .
@@ -3884,7 +3893,7 @@ isDouble
 )
 &
 &
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 v
 .

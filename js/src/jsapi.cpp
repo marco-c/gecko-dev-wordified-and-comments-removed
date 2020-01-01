@@ -1,5 +1,14 @@
 #
 include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
 <
 ctype
 .
@@ -2674,7 +2683,7 @@ ip
 )
 {
 return
-JSDOUBLE_IS_INT32
+MOZ_DOUBLE_IS_INT32
 (
 d
 ip

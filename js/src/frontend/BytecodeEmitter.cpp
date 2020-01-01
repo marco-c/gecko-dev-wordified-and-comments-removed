@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
 ifdef
 HAVE_MEMORY_H
 #
@@ -11531,7 +11540,7 @@ pc
 ;
 if
 (
-JSDOUBLE_IS_INT32
+MOZ_DOUBLE_IS_INT32
 (
 dval
 &

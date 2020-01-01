@@ -450,6 +450,10 @@ BloomFilter
 .
 h
 \
+FloatingPoint
+.
+h
+\
 GuardObjects
 .
 h

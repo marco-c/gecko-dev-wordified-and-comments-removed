@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
+"
 builtin
 /
 MapObject
@@ -293,7 +302,7 @@ i
 ;
 if
 (
-JSDOUBLE_IS_INT32
+MOZ_DOUBLE_IS_INT32
 (
 d
 &
@@ -312,7 +321,7 @@ i
 else
 if
 (
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 d
 )

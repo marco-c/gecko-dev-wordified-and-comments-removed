@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
+"
 frontend
 /
 FoldConstants
@@ -677,7 +686,7 @@ XP_WIN
 )
 if
 (
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 d2
 )
@@ -697,7 +706,7 @@ d
 0
 |
 |
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 d
 )
@@ -709,13 +718,13 @@ js_NaN
 else
 if
 (
-JSDOUBLE_IS_NEG
+MOZ_DOUBLE_IS_NEGATIVE
 (
 d
 )
 !
 =
-JSDOUBLE_IS_NEG
+MOZ_DOUBLE_IS_NEGATIVE
 (
 d2
 )
@@ -1792,7 +1801,7 @@ pn_dval
 &
 &
 !
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 pn
 -
@@ -2628,7 +2637,7 @@ pn_dval
 0
 |
 |
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 pn1
 -
@@ -4091,7 +4100,7 @@ d
 0
 |
 |
-JSDOUBLE_IS_NaN
+MOZ_DOUBLE_IS_NaN
 (
 d
 )

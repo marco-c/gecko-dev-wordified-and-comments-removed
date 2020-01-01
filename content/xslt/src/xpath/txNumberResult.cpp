@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+FloatingPoint
+.
+h
+"
+#
+include
+"
 txExprResult
 .
 h
@@ -99,10 +108,7 @@ value
 &
 &
 !
-txDouble
-:
-:
-isNaN
+MOZ_DOUBLE_IS_NaN
 (
 value
 )
