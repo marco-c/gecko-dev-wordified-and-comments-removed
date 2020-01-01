@@ -3064,6 +3064,10 @@ emItems
 :
 this
 .
+_addonEntries
+=
+this
+.
 _processItemNodes
 (
 element
@@ -3086,6 +3090,10 @@ pluginItems
 :
 this
 .
+_pluginEntries
+=
+this
+.
 _processItemNodes
 (
 element
@@ -3096,7 +3104,7 @@ plugin
 "
 this
 .
-_handleEmItemNode
+_handlePluginItemNode
 )
 ;
 break
