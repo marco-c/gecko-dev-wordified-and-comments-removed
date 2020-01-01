@@ -622,6 +622,10 @@ FindFilterInvalidation
 nsIFrame
 *
 aFrame
+const
+nsRect
+&
+aRect
 )
 ;
 static
