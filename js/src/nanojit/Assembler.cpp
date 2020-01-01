@@ -1242,6 +1242,11 @@ page
 nMarkExecute
 (
 page
+PAGE_READ
+|
+PAGE_WRITE
+|
+PAGE_EXEC
 )
 ;
 _stats
