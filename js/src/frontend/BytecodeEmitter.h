@@ -588,6 +588,8 @@ sc
 -
 >
 inFunction
+(
+)
 )
 return
 false
