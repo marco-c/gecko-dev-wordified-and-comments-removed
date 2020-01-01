@@ -433,6 +433,10 @@ xpctest_attributes
 .
 idl
 \
+xpctest_params
+.
+idl
+\
 (
 NULL
 )
