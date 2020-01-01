@@ -602,7 +602,7 @@ def
 run
 (
 self
-config_path
+config_paths
 )
 :
         
@@ -695,7 +695,7 @@ c
 =
 MercurialConfig
 (
-config_path
+config_paths
 )
         
 print
@@ -1591,6 +1591,12 @@ old_lines
 =
 [
 ]
+        
+config_path
+=
+c
+.
+config_path
         
 if
 os
