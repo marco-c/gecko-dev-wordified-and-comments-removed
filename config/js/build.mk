@@ -410,13 +410,8 @@ TIERS
 +
 =
 js
-tier_js_staticdirs
+tier_js_dirs
 =
 js
 /
 src
-tier_js_dirs
-=
-config
-/
-js
