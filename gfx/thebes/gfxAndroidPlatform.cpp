@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -19,8 +16,6 @@ nsXULAppAPI
 .
 h
 "
-#
-endif
 #
 include
 <
@@ -612,9 +607,6 @@ failed
 )
 ;
 }
-#
-ifdef
-MOZ_IPC
 NS_ABORT_IF_FALSE
 (
 XRE_GetProcessType
@@ -635,8 +627,6 @@ procsess
 "
 )
 ;
-#
-endif
 mCache
 =
 mozilla

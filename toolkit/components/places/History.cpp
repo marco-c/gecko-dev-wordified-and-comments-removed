@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -30,8 +27,6 @@ nsXULAppAPI
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -960,9 +955,6 @@ URI
 "
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -1023,8 +1015,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 nsNavHistory
 *
 navHistory
@@ -4847,9 +4837,6 @@ us
 "
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -4900,8 +4887,6 @@ aURI
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -6456,9 +6441,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -6521,8 +6503,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 nsNavHistory
 *
 navHistory
@@ -6958,9 +6938,6 @@ URI
 "
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -6987,25 +6964,6 @@ Link
 )
 ;
 }
-#
-else
-NS_PRECONDITION
-(
-aLink
-"
-Must
-pass
-a
-non
--
-null
-Link
-!
-"
-)
-;
-#
-endif
 if
 (
 !
@@ -7133,9 +7091,6 @@ rv
 ;
 }
 }
-#
-ifdef
-MOZ_IPC
 else
 if
 (
@@ -7172,8 +7127,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 NS_ASSERTION
 (
 !
@@ -7406,9 +7359,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -7473,8 +7423,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 nsNavHistory
 *
 navHistory

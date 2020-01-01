@@ -452,15 +452,6 @@ nsCanvasRenderingContext2D
 .
 cpp
 \
-(
-NULL
-)
-ifdef
-MOZ_IPC
-CPPSRCS
-+
-=
-\
 DocumentRendererParent
 .
 cpp
@@ -472,7 +463,6 @@ cpp
 (
 NULL
 )
-endif
 #
 Canvas
 3D

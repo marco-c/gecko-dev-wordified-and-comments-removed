@@ -562,9 +562,6 @@ nsIPluginInstanceOwner
 objectFrame
 )
 ;
-#
-ifdef
-MOZ_IPC
 void
 PluginCrashed
 (
@@ -581,8 +578,6 @@ nsAString
 browserDumpID
 )
 ;
-#
-endif
 nsNPAPIPluginInstance
 *
 FindInstance

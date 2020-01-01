@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -12,8 +9,6 @@ RegistryMessageUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -812,9 +807,6 @@ NS_OK
 }
 #
 endif
-#
-ifdef
-MOZ_IPC
 static
 PLDHashOperator
 EnumerateSubstitution
@@ -930,8 +922,6 @@ aResources
 )
 ;
 }
-#
-endif
 NS_IMPL_THREADSAFE_ISUPPORTS3
 (
 nsResProtocolHandler

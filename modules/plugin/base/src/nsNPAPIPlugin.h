@@ -242,9 +242,6 @@ aRefNum
 ;
 #
 endif
-#
-ifdef
-MOZ_IPC
 void
 PluginCrashed
 (
@@ -268,8 +265,6 @@ nsPluginTag
 aPluginTag
 )
 ;
-#
-endif
 protected
 :
 #

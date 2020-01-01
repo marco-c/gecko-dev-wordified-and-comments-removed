@@ -6,9 +6,6 @@ nsDesktopNotification
 h
 "
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 nsContentPermissionHelper
@@ -47,8 +44,6 @@ mozilla
 :
 dom
 ;
-#
-endif
 NS_IMPL_ISUPPORTS1
 (
 AlertServiceObserver
@@ -345,9 +340,6 @@ nsDesktopNotificationRequest
 this
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -424,8 +416,6 @@ Sendprompt
 return
 ;
 }
-#
-endif
 NS_DispatchToMainThread
 (
 request

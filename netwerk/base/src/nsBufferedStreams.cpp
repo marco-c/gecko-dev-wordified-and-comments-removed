@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 IPC
@@ -21,8 +18,6 @@ NeckoMessageUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1965,9 +1960,6 @@ void
 aIter
 )
 {
-#
-ifdef
-MOZ_IPC
 using
 IPC
 :
@@ -2038,13 +2030,6 @@ PR_FALSE
 return
 PR_TRUE
 ;
-#
-else
-return
-PR_FALSE
-;
-#
-endif
 }
 void
 nsBufferedInputStream
@@ -2060,9 +2045,6 @@ Message
 aMsg
 )
 {
-#
-ifdef
-MOZ_IPC
 using
 IPC
 :
@@ -2092,8 +2074,6 @@ aMsg
 inputStream
 )
 ;
-#
-endif
 }
 NS_IMPL_ADDREF_INHERITED
 (

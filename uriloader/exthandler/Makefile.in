@@ -530,8 +530,6 @@ I
 (
 srcdir
 )
-ifdef
-MOZ_IPC
 LOCAL_INCLUDES
 +
 =
@@ -602,7 +600,6 @@ netwerk
 protocol
 /
 http
-endif
 ifeq
 (
 (
@@ -822,15 +819,6 @@ cpp
 OSHELPER
 )
 \
-(
-NULL
-)
-ifdef
-MOZ_IPC
-CPPSRCS
-+
-=
-\
 ExternalHelperAppChild
 .
 cpp
@@ -838,7 +826,10 @@ cpp
 ExternalHelperAppParent
 .
 cpp
-endif
+\
+(
+NULL
+)
 ifdef
 MOZ_ENABLE_DBUS
 CPPSRCS

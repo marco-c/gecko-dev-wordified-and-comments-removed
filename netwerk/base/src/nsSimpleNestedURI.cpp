@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 IPCMessageUtils
@@ -19,8 +16,6 @@ NeckoMessageUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -256,9 +251,6 @@ void
 aIter
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 !
@@ -301,11 +293,6 @@ uri
 return
 PR_TRUE
 ;
-#
-endif
-return
-PR_FALSE
-;
 }
 void
 nsSimpleNestedURI
@@ -321,9 +308,6 @@ Message
 aMsg
 )
 {
-#
-ifdef
-MOZ_IPC
 nsSimpleURI
 :
 :
@@ -347,8 +331,6 @@ aMsg
 uri
 )
 ;
-#
-endif
 }
 NS_IMETHODIMP
 nsSimpleNestedURI

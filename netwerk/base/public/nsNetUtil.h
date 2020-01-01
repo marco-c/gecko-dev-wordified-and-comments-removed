@@ -455,17 +455,12 @@ Services
 h
 "
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 nsIRedirectChannelRegistrar
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZILLA_INTERNAL_API
@@ -7274,9 +7269,6 @@ res
 res
 ;
 }
-#
-ifdef
-MOZ_IPC
 inline
 nsresult
 NS_LinkRedirectChannels
@@ -7334,8 +7326,6 @@ _result
 )
 ;
 }
-#
-endif
 #
 define
 NS_FAKE_SCHEME

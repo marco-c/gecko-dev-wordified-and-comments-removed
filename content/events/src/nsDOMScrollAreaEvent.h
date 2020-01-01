@@ -61,9 +61,6 @@ nsDOMScrollAreaEvent
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMSCROLLAREAEVENT
 NS_FORWARD_TO_NSDOMUIEVENT
-#
-ifdef
-MOZ_IPC
 virtual
 void
 Serialize
@@ -95,8 +92,6 @@ void
 aIter
 )
 ;
-#
-endif
 protected
 :
 nsClientRect

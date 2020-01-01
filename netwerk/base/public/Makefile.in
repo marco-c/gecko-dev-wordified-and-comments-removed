@@ -807,15 +807,6 @@ nsISerializationHelper
 .
 idl
 \
-(
-NULL
-)
-ifdef
-MOZ_IPC
-XPIDLSRCS
-+
-=
-\
 nsIChildChannel
 .
 idl
@@ -831,7 +822,10 @@ idl
 nsIRedirectChannelRegistrar
 .
 idl
-endif
+\
+(
+NULL
+)
 ifdef
 MOZ_TOOLKIT_SEARCH
 XPIDLSRCS

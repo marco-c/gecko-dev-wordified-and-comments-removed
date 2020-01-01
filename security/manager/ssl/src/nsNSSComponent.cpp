@@ -489,17 +489,12 @@ sslerr
 h
 "
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 nsXULAppAPI
 .
 h
 "
-#
-endif
 #
 ifdef
 XP_WIN
@@ -1188,9 +1183,6 @@ GetPanic
 return
 PR_FALSE
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 GeckoProcessType_Default
@@ -1236,8 +1228,6 @@ return
 PR_FALSE
 ;
 }
-#
-endif
 static
 PRBool
 loading

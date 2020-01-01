@@ -889,9 +889,6 @@ nsContentCommandEvent
 aEvent
 )
 ;
-#
-ifdef
-MOZ_IPC
 PRBool
 RemoteQueryContentEvent
 (
@@ -920,8 +917,6 @@ nsGUIEvent
 aEvent
 )
 ;
-#
-endif
 PRInt32
 mLockCursor
 ;

@@ -58,17 +58,12 @@ nsDebug
 h
 "
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 nsXULAppAPI
 .
 h
 "
-#
-endif
 #
 if
 defined
@@ -159,9 +154,6 @@ _gdb_sleep_duration
 =
 300
 ;
-#
-ifdef
-MOZ_IPC
 static
 const
 int
@@ -169,8 +161,6 @@ kClientChannelFd
 =
 3
 ;
-#
-endif
 #
 if
 defined
@@ -408,9 +398,6 @@ signum
 )
 ;
 }
-#
-ifdef
-MOZ_IPC
 void
 child_ah_crap_handler
 (
@@ -439,8 +426,6 @@ signum
 )
 ;
 }
-#
-endif
 #
 endif
 #
@@ -1252,9 +1237,6 @@ crap_handler
 int
 )
 =
-#
-ifdef
-MOZ_IPC
 GeckoProcessType_Default
 !
 =
@@ -1264,8 +1246,6 @@ XRE_GetProcessType
 ?
 child_ah_crap_handler
 :
-#
-endif
 ah_crap_handler
 ;
 signal
