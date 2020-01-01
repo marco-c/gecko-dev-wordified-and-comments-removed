@@ -54,6 +54,10 @@ gfxIntSize
 size
 gfxImageFormat
 format
+bool
+aClear
+=
+true
 )
 ;
 gfxImageSurface
