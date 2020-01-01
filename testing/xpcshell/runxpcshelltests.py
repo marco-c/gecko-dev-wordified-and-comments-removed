@@ -6,6 +6,7 @@ os
 .
 path
 logging
+shutil
 import
 tempfile
 from
@@ -22,6 +23,10 @@ import
 Popen
 PIPE
 STDOUT
+from
+tempfile
+import
+mkdtemp
 from
 automationutils
 import
@@ -1359,6 +1364,21 @@ replace
 )
 ]
       
+profd
+=
+mkdtemp
+(
+)
+      
+env
+[
+"
+XPCSHELL_TEST_PROFILE_DIR
+"
+]
+=
+profd
+      
 proc
 =
 Popen
@@ -1390,6 +1410,14 @@ proc
 .
 communicate
 (
+)
+      
+shutil
+.
+rmtree
+(
+profd
+True
 )
       
 if
