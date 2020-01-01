@@ -1275,9 +1275,9 @@ JSD_ScriptDestroyed
 JSDContext
 *
 jsdc
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSScript
 *
 script
@@ -1291,7 +1291,7 @@ jsdc
 jsd_ScriptDestroyed
 (
 jsdc
-cx
+fop
 script
 )
 ;

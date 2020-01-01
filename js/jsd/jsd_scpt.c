@@ -2836,9 +2836,9 @@ hookData
 void
 jsd_DestroyScriptHookProc
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSScript
 *
 script
@@ -3996,9 +3996,9 @@ jsd_ScriptDestroyed
 JSDContext
 *
 jsdc
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSScript
 *
 script
@@ -4006,7 +4006,7 @@ script
 {
 jsd_DestroyScriptHookProc
 (
-cx
+fop
 script
 jsdc
 )

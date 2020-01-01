@@ -1675,9 +1675,9 @@ extern
 void
 jsd_DestroyScriptHookProc
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSScript
 *
 script
@@ -1771,9 +1771,9 @@ jsd_ScriptDestroyed
 JSDContext
 *
 jsdc
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSScript
 *
 script
