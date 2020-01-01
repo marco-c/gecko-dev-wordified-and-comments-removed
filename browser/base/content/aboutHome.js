@@ -803,9 +803,9 @@ org
 firefox
 /
 ?
-browse
+src
 =
-featured
+snippet
 "
 ]
 ;
