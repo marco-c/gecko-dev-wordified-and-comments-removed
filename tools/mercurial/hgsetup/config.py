@@ -162,6 +162,9 @@ utf
 write_empty_values
 =
 True
+list_values
+=
+False
 )
     
 property
