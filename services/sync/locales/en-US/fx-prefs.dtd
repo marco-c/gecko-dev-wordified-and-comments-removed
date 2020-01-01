@@ -962,12 +962,12 @@ Account
 <
 !
 ENTITY
-connectedAs
+currentUser
 .
 label
 "
-Connected
-as
+Current
+User
 :
 "
 >
