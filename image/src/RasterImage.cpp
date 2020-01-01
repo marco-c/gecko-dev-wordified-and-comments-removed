@@ -398,9 +398,6 @@ gDecodingThreadLimit
 -
 1
 ;
-+
-+
-+
 static
 uint32_t
 gHQUpscalingMaxSize
