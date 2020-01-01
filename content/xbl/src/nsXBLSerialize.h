@@ -52,7 +52,7 @@ XBLBindingSerializeDetails
 #
 define
 XBLBinding_Serialize_Version
-0x00000001
+0x00000002
 #
 define
 XBLBinding_Serialize_IsFirstBinding
