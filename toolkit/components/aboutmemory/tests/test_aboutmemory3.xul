@@ -322,6 +322,12 @@ at
 the
 end
 .
+mgr
+.
+blockRegistration
+(
+)
+;
 let
 e
 =
@@ -579,7 +585,7 @@ i
 {
 mgr
 .
-registerReporter
+registerReporterEvenIfBlocked
 (
 fakeReporters
 [
@@ -744,7 +750,7 @@ i
 {
 mgr
 .
-registerReporter
+registerReporterEvenIfBlocked
 (
 realReporters
 [
@@ -773,7 +779,7 @@ i
 {
 mgr
 .
-registerMultiReporter
+registerMultiReporterEvenIfBlocked
 (
 realMultiReporters
 [
@@ -782,6 +788,12 @@ i
 )
 ;
 }
+mgr
+.
+unblockRegistration
+(
+)
+;
 SimpleTest
 .
 finish
