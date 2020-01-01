@@ -355,12 +355,14 @@ static
 char
 outline
 [
+8192
 ]
 ;
 static
 char
 outlineEOL
 [
+512
 ]
 ;
 static
@@ -1138,7 +1140,7 @@ i
 )
 ;
 void
-asm_ret
+asm_pusharg
 (
 LInsp
 p
@@ -1527,6 +1529,8 @@ r
 >
 arIndex
 )
++
+NJ_STACK_OFFSET
 ;
 }
 }
