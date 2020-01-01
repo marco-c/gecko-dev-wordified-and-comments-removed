@@ -76,14 +76,6 @@ html
 .
 json
 \
-test_Element
--
-children
-.
-html
-.
-json
-\
 test_Event
 -
 constructors
