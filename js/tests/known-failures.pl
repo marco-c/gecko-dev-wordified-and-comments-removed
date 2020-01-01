@@ -3900,8 +3900,6 @@ debug
 "
 escape_pattern
 :
-after
-:
 leading
 trailing
 "
