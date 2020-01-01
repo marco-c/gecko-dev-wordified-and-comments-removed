@@ -1538,6 +1538,9 @@ DIST
 )
 /
 (
+PKG_PATH
+)
+(
 PKG_BASENAME
 )
 .
