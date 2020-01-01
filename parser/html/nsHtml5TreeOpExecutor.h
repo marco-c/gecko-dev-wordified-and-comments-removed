@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsCOMArray
-.
-h
-"
-#
-include
-"
 nsAHtml5TreeOpSink
 .
 h
@@ -263,9 +256,12 @@ nsHtml5StreamParser
 *
 mStreamParser
 ;
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIContent
+>
 >
 mOwnedElements
 ;
@@ -1198,7 +1194,7 @@ aContent
 {
 mOwnedElements
 .
-AppendObject
+AppendElement
 (
 aContent
 )
