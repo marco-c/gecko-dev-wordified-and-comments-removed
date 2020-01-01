@@ -949,6 +949,5 @@ mMaxQualityIndex
 }
 ;
 }
-;
 #
 endif

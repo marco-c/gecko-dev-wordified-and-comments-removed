@@ -7466,7 +7466,6 @@ NS_IMPL_THREADSAFE_ISUPPORTS1
 OpenDatabaseHelper
 nsIRunnable
 )
-;
 nsresult
 OpenDatabaseHelper
 :
@@ -10653,7 +10652,6 @@ NS_IMPL_ISUPPORTS_INHERITED0
 SetVersionHelper
 AsyncConnectionHelper
 )
-;
 nsresult
 SetVersionHelper
 :

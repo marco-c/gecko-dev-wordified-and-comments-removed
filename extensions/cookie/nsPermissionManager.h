@@ -325,7 +325,6 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 PermissionKey
 )
-;
 nsCString
 mHost
 ;

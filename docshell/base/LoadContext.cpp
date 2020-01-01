@@ -43,7 +43,6 @@ NS_IMPL_ISUPPORTS1
 LoadContext
 nsILoadContext
 )
-;
 NS_IMETHODIMP
 LoadContext
 :

@@ -611,7 +611,6 @@ ProcessPriorityManager
 nsIObserver
 nsIDOMEventListener
 )
-;
 ProcessPriorityManager
 :
 :

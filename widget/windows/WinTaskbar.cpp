@@ -827,7 +827,6 @@ NS_IMPL_ISUPPORTS1
 DefaultController
 nsITaskbarPreviewController
 )
-;
 }
 namespace
 mozilla
