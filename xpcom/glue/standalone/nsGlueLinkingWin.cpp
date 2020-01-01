@@ -610,6 +610,11 @@ xpcomDir
 lpMsgBuf
 )
 ;
+LocalFree
+(
+lpMsgBuf
+)
+;
 }
 #
 endif
@@ -677,6 +682,11 @@ s
 n
 "
 xpcomFile
+lpMsgBuf
+)
+;
+LocalFree
+(
 lpMsgBuf
 )
 ;
