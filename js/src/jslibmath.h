@@ -1,9 +1,9 @@
 #
 ifndef
-_LIBMATH_H
+jslibmath_h
 #
 define
-_LIBMATH_H
+jslibmath_h
 #
 include
 "

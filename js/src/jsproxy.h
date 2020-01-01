@@ -1,9 +1,9 @@
 #
 ifndef
-jsproxy_h___
+jsproxy_h
 #
 define
-jsproxy_h___
+jsproxy_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jscrashreport_h___
+jscrashreport_h
 #
 define
-jscrashreport_h___
+jscrashreport_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jstypes_h___
+jstypes_h
 #
 define
-jstypes_h___
+jstypes_h
 #
 include
 "

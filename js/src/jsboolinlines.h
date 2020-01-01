@@ -1,9 +1,9 @@
 #
 ifndef
-jsboolinlines_h___
+jsboolinlines_h
 #
 define
-jsboolinlines_h___
+jsboolinlines_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jsclist_h___
+jsclist_h
 #
 define
-jsclist_h___
+jsclist_h
 #
 include
 "

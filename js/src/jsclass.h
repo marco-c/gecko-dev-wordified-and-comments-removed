@@ -1,9 +1,9 @@
 #
 ifndef
-jsclass_h__
+jsclass_h
 #
 define
-jsclass_h__
+jsclass_h
 #
 include
 "

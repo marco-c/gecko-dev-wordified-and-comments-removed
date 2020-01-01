@@ -1,9 +1,9 @@
 #
 ifndef
-_SHARKCTL_H
+devtools_sharkctl_h
 #
 define
-_SHARKCTL_H
+devtools_sharkctl_h
 #
 ifdef
 __APPLE__

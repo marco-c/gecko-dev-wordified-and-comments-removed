@@ -1,4 +1,10 @@
 #
+ifndef
+gdb_gdb_tests_h
+#
+define
+gdb_gdb_tests_h
+#
 include
 "
 jsapi
@@ -194,3 +200,5 @@ _
 #
 #
 subname
+#
+endif

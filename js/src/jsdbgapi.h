@@ -1,9 +1,9 @@
 #
 ifndef
-jsdbgapi_h___
+jsdbgapi_h
 #
 define
-jsdbgapi_h___
+jsdbgapi_h
 #
 include
 "

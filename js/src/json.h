@@ -1,9 +1,9 @@
 #
 ifndef
-json_h___
+json_h
 #
 define
-json_h___
+json_h
 #
 include
 "

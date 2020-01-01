@@ -1,9 +1,9 @@
 #
 ifndef
-jslock_h__
+jslock_h
 #
 define
-jslock_h__
+jslock_h
 #
 include
 "

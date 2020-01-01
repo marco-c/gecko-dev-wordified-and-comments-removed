@@ -1,9 +1,9 @@
 #
 ifndef
-jsclone_h___
+jsclone_h
 #
 define
-jsclone_h___
+jsclone_h
 #
 include
 "

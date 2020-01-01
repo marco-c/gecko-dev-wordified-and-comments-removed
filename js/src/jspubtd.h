@@ -1,9 +1,9 @@
 #
 ifndef
-jspubtd_h___
+jspubtd_h
 #
 define
-jspubtd_h___
+jspubtd_h
 #
 include
 "

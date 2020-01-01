@@ -1,9 +1,9 @@
 #
 ifndef
-jsanalyzeinlines_h___
+jsanalyzeinlines_h
 #
 define
-jsanalyzeinlines_h___
+jsanalyzeinlines_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__VPROF__
+devtools_vprof_vprof_h
 #
 define
-__VPROF__
+devtools_vprof_vprof_h
 #
 define
 THREADED

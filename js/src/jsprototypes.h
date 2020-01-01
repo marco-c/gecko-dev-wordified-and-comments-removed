@@ -1,9 +1,9 @@
 #
 ifndef
-jsprototypes_h___
+jsprototypes_h
 #
 define
-jsprototypes_h___
+jsprototypes_h
 #
 include
 "

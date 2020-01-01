@@ -1,9 +1,9 @@
 #
 ifndef
-jsobjinlines_h___
+jsobjinlines_h
 #
 define
-jsobjinlines_h___
+jsobjinlines_h
 #
 include
 "

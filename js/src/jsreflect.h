@@ -1,9 +1,9 @@
 #
 ifndef
-jsreflect_h___
+jsreflect_h
 #
 define
-jsreflect_h___
+jsreflect_h
 #
 include
 <

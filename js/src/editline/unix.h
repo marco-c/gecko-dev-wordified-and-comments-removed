@@ -1,4 +1,10 @@
 #
+ifndef
+editline_unix_h
+#
+define
+editline_unix_h
+#
 define
 CRLF
 "
@@ -90,5 +96,7 @@ S_IFMT
 =
 S_IFDIR
 )
+#
+endif
 #
 endif

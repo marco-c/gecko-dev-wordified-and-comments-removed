@@ -1,9 +1,9 @@
 #
 ifndef
-jsatom_h___
+jsatom_h
 #
 define
-jsatom_h___
+jsatom_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jsfriendapi_h___
+jsfriendapi_h
 #
 define
-jsfriendapi_h___
+jsfriendapi_h
 #
 include
 "

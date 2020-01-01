@@ -1,9 +1,9 @@
 #
 ifndef
-jsoptparse_h__
+shell_jsoptparse_h
 #
 define
-jsoptparse_h__
+shell_jsoptparse_h
 #
 include
 <

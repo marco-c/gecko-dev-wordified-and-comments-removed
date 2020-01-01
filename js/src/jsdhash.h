@@ -1,9 +1,9 @@
 #
 ifndef
-jsdhash_h___
+jsdhash_h
 #
 define
-jsdhash_h___
+jsdhash_h
 #
 include
 "

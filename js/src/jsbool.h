@@ -1,9 +1,9 @@
 #
 ifndef
-jsbool_h___
+jsbool_h
 #
 define
-jsbool_h___
+jsbool_h
 #
 include
 "

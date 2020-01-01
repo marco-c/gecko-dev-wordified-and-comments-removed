@@ -1,9 +1,9 @@
 #
 ifndef
-jsobj_h___
+jsobj_h
 #
 define
-jsobj_h___
+jsobj_h
 #
 include
 "

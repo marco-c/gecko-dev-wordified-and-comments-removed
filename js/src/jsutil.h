@@ -1,9 +1,9 @@
 #
 ifndef
-jsutil_h___
+jsutil_h
 #
 define
-jsutil_h___
+jsutil_h
 #
 include
 "

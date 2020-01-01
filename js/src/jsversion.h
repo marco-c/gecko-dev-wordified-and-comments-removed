@@ -1,9 +1,9 @@
 #
 ifndef
-jsversion_h___
+jsversion_h
 #
 define
-jsversion_h___
+jsversion_h
 #
 ifdef
 JS_VERSION

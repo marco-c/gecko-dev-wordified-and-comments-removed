@@ -1,9 +1,9 @@
 #
 ifndef
-InlineMap_h__
+ds_InlineMap_h
 #
 define
-InlineMap_h__
+ds_InlineMap_h
 #
 include
 "

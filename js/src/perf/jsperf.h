@@ -1,9 +1,9 @@
 #
 ifndef
-jsperf_h___
+perf_jsperf_h
 #
 define
-jsperf_h___
+perf_jsperf_h
 #
 include
 "

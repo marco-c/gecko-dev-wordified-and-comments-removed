@@ -1,9 +1,9 @@
 #
 ifndef
-jsdate_h___
+jsdate_h
 #
 define
-jsdate_h___
+jsdate_h
 #
 include
 "

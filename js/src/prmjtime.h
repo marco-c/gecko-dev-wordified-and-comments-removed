@@ -1,9 +1,9 @@
 #
 ifndef
-prmjtime_h___
+prmjtime_h
 #
 define
-prmjtime_h___
+prmjtime_h
 #
 include
 <

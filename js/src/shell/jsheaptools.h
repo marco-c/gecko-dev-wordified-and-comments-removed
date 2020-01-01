@@ -1,9 +1,9 @@
 #
 ifndef
-jsheaptools_h___
+shell_jsheaptools_h
 #
 define
-jsheaptools_h___
+shell_jsheaptools_h
 #
 include
 "

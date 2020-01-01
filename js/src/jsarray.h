@@ -1,9 +1,9 @@
 #
 ifndef
-jsarray_h___
+jsarray_h
 #
 define
-jsarray_h___
+jsarray_h
 #
 include
 "

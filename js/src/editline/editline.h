@@ -1,4 +1,10 @@
 #
+ifndef
+editline_editline_h
+#
+define
+editline_editline_h
+#
 include
 <
 stdio
@@ -384,5 +390,7 @@ strncmp
 (
 )
 ;
+#
+endif
 #
 endif

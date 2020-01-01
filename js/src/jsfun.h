@@ -1,9 +1,9 @@
 #
 ifndef
-jsfun_h___
+jsfun_h
 #
 define
-jsfun_h___
+jsfun_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-Sort_h__
+ds_Sort_h
 #
 define
-Sort_h__
+ds_Sort_h
 #
 include
 "

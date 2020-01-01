@@ -1,9 +1,9 @@
 #
 ifndef
-jsdtoa_h___
+jsdtoa_h
 #
 define
-jsdtoa_h___
+jsdtoa_h
 #
 include
 <

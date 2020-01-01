@@ -1,4 +1,10 @@
 #
+ifndef
+jsapi_tests_tests_h
+#
+define
+jsapi_tests_tests_h
+#
 include
 "
 mozilla
@@ -2110,3 +2116,5 @@ NULL
 }
 }
 ;
+#
+endif

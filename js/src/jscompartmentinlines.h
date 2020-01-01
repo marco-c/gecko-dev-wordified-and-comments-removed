@@ -1,9 +1,9 @@
 #
 ifndef
-jscompartment_inlines_h___
+jscompartmentinlines_h
 #
 define
-jscompartment_inlines_h___
+jscompartmentinlines_h
 #
 include
 "

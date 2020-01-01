@@ -1,9 +1,9 @@
 #
 ifndef
-jsopcode_h___
+jsopcode_h
 #
 define
-jsopcode_h___
+jsopcode_h
 #
 include
 <

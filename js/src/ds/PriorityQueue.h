@@ -1,9 +1,9 @@
 #
 ifndef
-jspriorityqueue_h_
+ds_PriorityQueue_h
 #
 define
-jspriorityqueue_h_
+ds_PriorityQueue_h
 #
 include
 "

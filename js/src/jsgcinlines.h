@@ -1,9 +1,9 @@
 #
 ifndef
-jsgcinlines_h___
+jsgcinlines_h
 #
 define
-jsgcinlines_h___
+jsgcinlines_h
 #
 include
 "

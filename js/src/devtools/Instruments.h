@@ -1,9 +1,9 @@
 #
 ifndef
-Instruments_h__
+devtools_Instruments_h
 #
 define
-Instruments_h__
+devtools_Instruments_h
 #
 ifdef
 __APPLE__

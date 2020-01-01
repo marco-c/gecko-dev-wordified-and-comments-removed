@@ -1,9 +1,9 @@
 #
 ifndef
-jsinfer_h___
+jsinfer_h
 #
 define
-jsinfer_h___
+jsinfer_h
 #
 include
 "

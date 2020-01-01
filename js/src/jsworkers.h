@@ -1,9 +1,9 @@
 #
 ifndef
-jsworkers_h___
+jsworkers_h
 #
 define
-jsworkers_h___
+jsworkers_h
 #
 include
 "

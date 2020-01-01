@@ -1,9 +1,9 @@
 #
 ifndef
-jswatchpoint_h___
+jswatchpoint_h
 #
 define
-jswatchpoint_h___
+jswatchpoint_h
 #
 include
 "

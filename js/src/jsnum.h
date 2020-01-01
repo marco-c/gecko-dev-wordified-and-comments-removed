@@ -1,9 +1,9 @@
 #
 ifndef
-jsnum_h___
+jsnum_h
 #
 define
-jsnum_h___
+jsnum_h
 #
 include
 "

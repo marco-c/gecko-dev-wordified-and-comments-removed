@@ -1,9 +1,9 @@
 #
 ifndef
-jsfuninlines_h___
+jsfuninlines_h
 #
 define
-jsfuninlines_h___
+jsfuninlines_h
 #
 include
 "
