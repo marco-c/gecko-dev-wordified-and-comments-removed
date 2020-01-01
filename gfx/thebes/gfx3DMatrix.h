@@ -232,6 +232,12 @@ nsnull
 )
 const
 ;
+gfx3DMatrix
+&
+ProjectTo2D
+(
+)
+;
 bool
 IsIdentity
 (
