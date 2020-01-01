@@ -243,10 +243,6 @@ PRFileDesc
 *
 mThreadEvent
 ;
-PRLock
-*
-mThreadEventLock
-;
 PRBool
 mAutodialEnabled
 ;
