@@ -1293,11 +1293,6 @@ g_object_unref
 conf
 )
 ;
-dlclose
-(
-gconfLib
-)
-;
 }
 #
 endif
@@ -2969,15 +2964,6 @@ UIShutdown
 (
 )
 {
-if
-(
-gnomeLib
-)
-dlclose
-(
-gnomeLib
-)
-;
 if
 (
 gnomeuiLib
