@@ -773,6 +773,11 @@ mMayHaveDirtyFixedChildren
 :
 1
 ;
+PRPackedBool
+mUpdateScrollbarAttributes
+:
+1
+;
 }
 ;
 class
