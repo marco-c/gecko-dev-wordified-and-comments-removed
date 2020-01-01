@@ -8811,11 +8811,10 @@ event
 .
 location
 =
-key
-.
-DomKeyLocation
-(
-)
+nsIDOMKeyEvent
+:
+:
+DOM_KEY_LOCATION_MOBILE
 ;
 event
 .
