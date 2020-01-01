@@ -245,7 +245,12 @@ is
 (
 tab
 .
+hasAttribute
+(
+"
 selected
+"
+)
 true
 "
 The
