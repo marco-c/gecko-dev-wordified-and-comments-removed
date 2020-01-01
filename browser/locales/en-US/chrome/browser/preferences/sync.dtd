@@ -175,12 +175,12 @@ Password
 <
 !
 ENTITY
-mySyncKey
+myRecoveryKey
 .
 label
 "
 My
-Sync
+Recovery
 Key
 "
 >
