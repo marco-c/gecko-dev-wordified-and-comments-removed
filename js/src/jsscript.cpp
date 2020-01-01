@@ -7756,7 +7756,12 @@ JSFRAME_EVAL
 )
 )
 {
-js_PurgePropertyCacheForScript
+JS_PROPERTY_CACHE
+(
+cx
+)
+.
+purgeForScript
 (
 cx
 script
