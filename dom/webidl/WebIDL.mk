@@ -123,6 +123,10 @@ ClientRectList
 .
 webidl
 \
+CSS
+.
+webidl
+\
 CSSPrimitiveValue
 .
 webidl

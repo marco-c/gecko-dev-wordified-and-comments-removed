@@ -495,6 +495,10 @@ test_css_eof_handling
 .
 html
 \
+test_css_supports
+.
+html
+\
 test_default_bidi_css
 .
 html
