@@ -664,10 +664,7 @@ id
 {
 if
 (
-unsigned
-(
 index
-)
 <
 =
 JSVAL_INT_MAX
