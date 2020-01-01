@@ -13,6 +13,7 @@ h
 "
 class
 nsIMEPicker
+MOZ_FINAL
 :
 public
 nsIIMEPicker
@@ -32,8 +33,6 @@ nsIMEPicker
 (
 )
 ;
-protected
-:
 }
 ;
 #

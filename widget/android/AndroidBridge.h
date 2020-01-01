@@ -409,6 +409,7 @@ mRunTime
 ;
 class
 AndroidBridge
+MOZ_FINAL
 :
 public
 mozilla
@@ -3055,6 +3056,7 @@ NS_ANDROIDBRIDGE_CID
 }
 class
 nsAndroidBridge
+MOZ_FINAL
 :
 public
 nsIAndroidBridge

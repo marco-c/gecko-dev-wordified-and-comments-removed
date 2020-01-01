@@ -407,6 +407,7 @@ gContentCreationNotifier
 ;
 class
 ContentCreationNotifier
+MOZ_FINAL
 :
 public
 nsIObserver

@@ -34,6 +34,7 @@ h
 "
 class
 nsScreenAndroid
+MOZ_FINAL
 :
 public
 nsBaseScreen
@@ -117,6 +118,7 @@ MOZ_OVERRIDE
 ;
 class
 nsScreenManagerAndroid
+MOZ_FINAL
 :
 public
 nsIScreenManager
