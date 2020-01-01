@@ -68037,7 +68037,9 @@ setupCall
 CallSetup
 s
 (
-mCallback
+CallbackPreserveColor
+(
+)
 aRv
 aExceptionHandling
 )
@@ -69994,7 +69996,9 @@ Template
 CallSetup
 s
 (
-mCallback
+CallbackPreserveColor
+(
+)
 aRv
 aExceptionHandling
 )
