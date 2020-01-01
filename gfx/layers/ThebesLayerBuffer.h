@@ -128,6 +128,10 @@ ThebesLayer
 aLayer
 ContentType
 aContentType
+float
+aXResolution
+float
+aYResolution
 )
 ;
 virtual
@@ -194,6 +198,10 @@ YSide
 aYSide
 float
 aOpacity
+float
+aXRes
+float
+aYRes
 )
 ;
 void
@@ -204,6 +212,10 @@ gfxContext
 aTarget
 float
 aOpacity
+float
+aXRes
+float
+aYRes
 )
 ;
 const
