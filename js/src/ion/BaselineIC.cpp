@@ -23007,13 +23007,6 @@ true
 }
 if
 (
-constructing
-)
-return
-true
-;
-if
-(
 fun
 -
 >
