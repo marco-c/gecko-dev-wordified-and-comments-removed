@@ -1099,6 +1099,11 @@ void
 anInstance
 )
 ;
+void
+HandleScrollbarStyleSwitching
+(
+)
+;
 nsCOMPtr
 <
 nsIContent
