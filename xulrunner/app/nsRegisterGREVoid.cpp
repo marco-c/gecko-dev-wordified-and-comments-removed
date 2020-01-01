@@ -33,6 +33,10 @@ GREProperty
 aProperties
 PRUint32
 aPropertiesLen
+const
+char
+*
+aGREMilestone
 )
 {
 fprintf
@@ -63,6 +67,10 @@ aUnregisterGlobally
 nsIFile
 *
 aLocation
+const
+char
+*
+aGREMilestone
 )
 {
 fprintf

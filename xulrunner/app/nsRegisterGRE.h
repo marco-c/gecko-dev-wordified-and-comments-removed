@@ -11,6 +11,13 @@ nscore
 .
 h
 "
+#
+include
+"
+nsStringAPI
+.
+h
+"
 class
 nsIFile
 ;
@@ -34,6 +41,10 @@ GREProperty
 aProperties
 PRUint32
 aPropertiesLen
+const
+char
+*
+aGREMilestone
 )
 ;
 NS_HIDDEN_
@@ -47,6 +58,10 @@ aUnregisterGlobally
 nsIFile
 *
 aLocation
+const
+char
+*
+aGREMilestone
 )
 ;
 #
