@@ -105,3 +105,11 @@ arguments
 gc
 .
 js
+script
+builtin
+-
+no
+-
+construct
+.
+js
