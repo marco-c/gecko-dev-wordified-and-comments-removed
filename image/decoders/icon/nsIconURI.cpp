@@ -233,7 +233,7 @@ if
 mIconURL
 )
 {
-nsAutoCString
+nsCAutoString
 fileIconSpec
 ;
 nsresult
@@ -485,7 +485,7 @@ searchString
 attributeName
 )
 {
-uint32_t
+PRUint32
 attributeNameSize
 =
 strlen
@@ -602,7 +602,7 @@ aSpec
 {
 mIconURL
 =
-nullptr
+nsnull
 ;
 mSize
 =
@@ -636,7 +636,7 @@ mIconState
 -
 1
 ;
-nsAutoCString
+nsCAutoString
 iconSpec
 (
 aSpec
@@ -660,7 +660,7 @@ MOZICON_SCHEME
 return
 NS_ERROR_MALFORMED_URI
 ;
-int32_t
+PRInt32
 questionMarkPos
 =
 iconSpec
@@ -683,7 +683,7 @@ questionMarkPos
 &
 static_cast
 <
-int32_t
+PRInt32
 >
 (
 iconSpec
@@ -714,7 +714,7 @@ contentType
 mContentType
 )
 ;
-nsAutoCString
+nsCAutoString
 sizeString
 ;
 extractAttributeValue
@@ -754,7 +754,7 @@ get
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -794,7 +794,7 @@ break
 ;
 }
 }
-int32_t
+PRInt32
 sizeValue
 =
 atoi
@@ -815,7 +815,7 @@ mSize
 sizeValue
 ;
 }
-nsAutoCString
+nsCAutoString
 stateString
 ;
 extractAttributeValue
@@ -855,7 +855,7 @@ get
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -897,7 +897,7 @@ break
 }
 }
 }
-int32_t
+PRInt32
 pathLength
 =
 iconSpec
@@ -931,7 +931,7 @@ pathLength
 return
 NS_ERROR_MALFORMED_URI
 ;
-nsAutoCString
+nsCAutoString
 iconPath
 (
 Substring
@@ -1067,8 +1067,8 @@ ioService
 NewURI
 (
 iconPath
-nullptr
-nullptr
+nsnull
+nsnull
 getter_AddRefs
 (
 uri
@@ -1327,7 +1327,7 @@ nsMozIconURI
 :
 GetPort
 (
-int32_t
+PRInt32
 *
 aPort
 )
@@ -1342,7 +1342,7 @@ nsMozIconURI
 :
 SetPort
 (
-int32_t
+PRInt32
 aPort
 )
 {
@@ -1452,10 +1452,10 @@ pointer
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 spec1
 ;
-nsAutoCString
+nsCAutoString
 spec2
 ;
 other
@@ -1863,7 +1863,7 @@ nsMozIconURI
 :
 GetImageSize
 (
-uint32_t
+PRUint32
 *
 aImageSize
 )
@@ -1883,7 +1883,7 @@ nsMozIconURI
 :
 SetImageSize
 (
-uint32_t
+PRUint32
 aImageSize
 )
 {
@@ -1950,7 +1950,7 @@ if
 mIconURL
 )
 {
-nsAutoCString
+nsCAutoString
 fileExt
 ;
 if

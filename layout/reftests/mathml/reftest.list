@@ -346,15 +346,6 @@ width
 ref
 .
 xhtml
-fails
--
-if
-(
-Android
-&
-&
-layersOpenGL
-)
 =
 =
 quotes

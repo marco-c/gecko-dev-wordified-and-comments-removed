@@ -2319,13 +2319,6 @@ _BINPATH
 &
 &
 \
-rm
--
-rf
-lib
-&
-&
-\
 mkdir
 -
 p
@@ -2341,6 +2334,9 @@ mv
 libmozutils
 .
 so
+(
+MOZ_CHILD_PROCESS_NAME
+)
 lib
 /
 (
@@ -3461,6 +3457,8 @@ greprefs
 js
 \
 jsloader
+\
+hyphenation
 \
 (
 NULL

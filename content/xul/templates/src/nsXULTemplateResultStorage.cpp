@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsXULTemplateResultStorage
 .
 h

@@ -1012,7 +1012,7 @@ val
 &
 InNavQuirksMode
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -1086,7 +1086,7 @@ val
 &
 InNavQuirksMode
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

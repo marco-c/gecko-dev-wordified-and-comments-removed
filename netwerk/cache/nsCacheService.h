@@ -402,6 +402,12 @@ OnEnterExitPrivateBrowsing
 (
 )
 ;
+static
+nsresult
+SetDiskSmartSize
+(
+)
+;
 nsresult
 Init
 (
@@ -678,6 +684,13 @@ LogCacheStatistics
 ;
 #
 endif
+nsresult
+SetDiskSmartSize_Locked
+(
+bool
+checkPref
+)
+;
 static
 nsCacheService
 *

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 Exceptions
 .
 h
@@ -65,6 +74,10 @@ JSPROP_SHARED
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
+using
+namespace
+mozilla
+;
 USING_WORKERS_NAMESPACE
 namespace
 {
@@ -895,7 +908,7 @@ index
 ;
 index
 <
-JS_ARRAY_LENGTH
+ArrayLength
 (
 sStaticProperties
 )
@@ -1539,7 +1552,7 @@ index
 ;
 index
 <
-JS_ARRAY_LENGTH
+ArrayLength
 (
 sStaticProperties
 )

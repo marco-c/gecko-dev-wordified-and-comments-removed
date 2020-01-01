@@ -442,15 +442,10 @@ GetContent
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
-if
-(
-doc
-)
-{
 nsPIDOMWindow
 *
 window
@@ -481,7 +476,6 @@ flags
 ~
 NS_EVENT_STATE_FOCUS
 ;
-}
 #
 endif
 return

@@ -1503,6 +1503,17 @@ JSContext
 cx
 )
 ;
+bool
+knownSubset
+(
+JSContext
+*
+cx
+TypeSet
+*
+other
+)
+;
 int
 getTypedArrayType
 (

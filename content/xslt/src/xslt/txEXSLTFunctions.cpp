@@ -597,7 +597,7 @@ eDOCUMENT_FRAGMENT
 aResultHolder
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 "
@@ -615,7 +615,7 @@ doc
 aResultHolder
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

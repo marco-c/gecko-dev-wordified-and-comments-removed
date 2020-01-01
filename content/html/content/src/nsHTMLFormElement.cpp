@@ -2585,7 +2585,7 @@ nsPIDOMWindow
 *
 window
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -3364,7 +3364,7 @@ nsPIDOMWindow
 >
 window
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -5102,7 +5102,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -5780,7 +5780,7 @@ i
 ]
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 static_cast

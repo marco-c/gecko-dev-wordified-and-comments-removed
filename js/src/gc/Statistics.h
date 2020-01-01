@@ -281,6 +281,12 @@ phaseTimes
 PHASE_LIMIT
 ]
 ;
+uint64
+totals
+[
+PHASE_LIMIT
+]
+;
 unsigned
 int
 counts
@@ -290,6 +296,13 @@ STAT_LIMIT
 ;
 double
 t
+(
+Phase
+phase
+)
+;
+double
+total
 (
 Phase
 phase

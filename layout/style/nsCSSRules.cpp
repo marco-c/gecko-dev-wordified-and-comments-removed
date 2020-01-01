@@ -7474,7 +7474,7 @@ aKeyText
 nsCSSParser
 parser
 ;
-nsTArray
+InfallibleTArray
 <
 float
 >
@@ -8106,7 +8106,7 @@ aKey
 nsCSSParser
 parser
 ;
-nsTArray
+InfallibleTArray
 <
 float
 >

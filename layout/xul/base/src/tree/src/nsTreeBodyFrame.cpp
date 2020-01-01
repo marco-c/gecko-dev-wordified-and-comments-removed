@@ -20464,7 +20464,7 @@ do_QueryInterface
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -20733,7 +20733,7 @@ do_QueryInterface
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

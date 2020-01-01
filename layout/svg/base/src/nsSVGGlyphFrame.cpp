@@ -6965,6 +6965,8 @@ visualText
 bool
 bidiOverride
 =
+!
+!
 (
 mParent
 -
@@ -6975,8 +6977,7 @@ GetStyleTextReset
 -
 >
 mUnicodeBidi
-=
-=
+&
 NS_STYLE_UNICODE_BIDI_OVERRIDE
 )
 ;

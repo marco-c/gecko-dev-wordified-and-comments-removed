@@ -133,7 +133,7 @@ class
 Toplevel
 >
 static
-void
+bool
 CreateCrashReporter
 (
 Toplevel
@@ -464,7 +464,7 @@ template
 class
 Toplevel
 >
-void
+bool
 CrashReporterParent
 :
 :
@@ -535,8 +535,16 @@ actor
 )
 ;
 }
+return
+!
+!
+p
+;
 #
 endif
+return
+false
+;
 }
 #
 endif

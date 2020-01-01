@@ -135,7 +135,7 @@ namespace
 mozilla
 {
 namespace
-image
+imagelib
 {
 class
 Image
@@ -183,7 +183,7 @@ aLoadGroup
 mozilla
 :
 :
-image
+imagelib
 :
 :
 Image
@@ -228,7 +228,7 @@ return
 mListener
 !
 =
-nullptr
+nsnull
 ;
 }
 void
@@ -277,7 +277,7 @@ SetImage
 mozilla
 :
 :
-image
+imagelib
 :
 :
 Image
@@ -384,7 +384,7 @@ aContainer
 void
 OnStartFrame
 (
-uint32_t
+PRUint32
 aFrame
 )
 ;
@@ -402,7 +402,7 @@ aRect
 void
 OnStopFrame
 (
-uint32_t
+PRUint32
 aFrame
 )
 ;
@@ -431,11 +431,6 @@ OnDiscard
 )
 ;
 void
-OnImageIsAnimated
-(
-)
-;
-void
 FrameChanged
 (
 imgIContainer
@@ -457,16 +452,6 @@ OnStopRequest
 (
 bool
 aLastPart
-)
-;
-void
-BlockOnload
-(
-)
-;
-void
-UnblockOnload
-(
 )
 ;
 void
@@ -510,7 +495,7 @@ if
 mOwner
 )
 return
-nullptr
+nsnull
 ;
 return
 mOwner
@@ -550,7 +535,7 @@ nsRefPtr
 mozilla
 :
 :
-image
+imagelib
 :
 :
 Image
@@ -576,10 +561,10 @@ mLoadGroup
 nsLoadFlags
 mLoadFlags
 ;
-uint32_t
+PRUint32
 mLockCount
 ;
-uint32_t
+PRUint32
 mAnimationConsumers
 ;
 bool

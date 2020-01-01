@@ -561,7 +561,7 @@ doc
 aTargetContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -5823,6 +5823,14 @@ aOther
 mRepeating
 |
 |
+mToCorner
+!
+=
+aOther
+.
+mToCorner
+|
+|
 mBgPosX
 !
 =
@@ -5951,6 +5959,10 @@ mSize
 NS_STYLE_GRADIENT_SIZE_FARTHEST_CORNER
 )
 mRepeating
+(
+false
+)
+mToCorner
 (
 false
 )

@@ -1020,15 +1020,10 @@ ownerDoc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
-if
-(
-ownerDoc
-)
-{
 nsXBLBinding
 *
 binding
@@ -1079,7 +1074,6 @@ GetBaseBinding
 (
 )
 ;
-}
 }
 NS_ADDREF
 (

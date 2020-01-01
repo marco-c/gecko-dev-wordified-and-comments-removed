@@ -381,6 +381,9 @@ mSize
 bool
 mRepeating
 ;
+bool
+mToCorner
+;
 nsStyleCoord
 mBgPosX
 ;

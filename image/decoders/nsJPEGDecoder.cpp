@@ -139,7 +139,7 @@ namespace
 mozilla
 {
 namespace
-image
+imagelib
 {
 #
 if
@@ -195,14 +195,14 @@ JOCTET
 *
 profilebuf
 ;
-uint32_t
+PRUint32
 profileLength
 ;
 qcms_profile
 *
 profile
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -293,7 +293,7 @@ MAX_JPEG_MARKER_LENGTH
 (
 (
 (
-uint32_t
+PRUint32
 )
 1
 <
@@ -332,7 +332,7 @@ true
 ;
 mImageData
 =
-nullptr
+nsnull
 ;
 mBytesToSkip
 =
@@ -372,7 +372,7 @@ this
 ;
 mSegment
 =
-nullptr
+nsnull
 ;
 mSegmentLen
 =
@@ -380,7 +380,7 @@ mSegmentLen
 ;
 mBackBuffer
 =
-nullptr
+nsnull
 ;
 mBackBufferLen
 =
@@ -392,11 +392,11 @@ mBackBufferUnreadLen
 ;
 mInProfile
 =
-nullptr
+nsnull
 ;
 mTransform
 =
-nullptr
+nsnull
 ;
 mCMSMode
 =
@@ -436,7 +436,7 @@ mInfo
 .
 src
 =
-nullptr
+nsnull
 ;
 jpeg_destroy_decompress
 (
@@ -623,7 +623,7 @@ term_source
 ;
 for
 (
-uint32_t
+PRUint32
 m
 =
 0
@@ -689,7 +689,7 @@ this
 >
 Write
 (
-nullptr
+nsnull
 0
 )
 ;
@@ -704,7 +704,7 @@ const
 char
 *
 aBuffer
-uint32_t
+PRUint32
 aCount
 )
 {
@@ -747,9 +747,6 @@ if
 (
 error_code
 =
-(
-nsresult
-)
 setjmp
 (
 mErr
@@ -759,7 +756,7 @@ setjmp_buffer
 )
 !
 =
-NS_OK
+0
 )
 {
 if
@@ -962,10 +959,10 @@ mInfo
 )
 !
 =
-nullptr
+nsnull
 )
 {
-uint32_t
+PRUint32
 profileSpace
 =
 qcms_profile_get_color_space
@@ -1383,7 +1380,7 @@ jpeg_calc_output_dimensions
 mInfo
 )
 ;
-uint32_t
+PRUint32
 imagelength
 ;
 if
@@ -2207,7 +2204,7 @@ suspend
 false
 ;
 const
-uint32_t
+PRUint32
 top
 =
 mInfo
@@ -2227,13 +2224,13 @@ output_height
 )
 )
 {
-uint32_t
+PRUint32
 *
 imageRow
 =
 (
 (
-uint32_t
+PRUint32
 *
 )
 mImageData
@@ -2480,7 +2477,7 @@ output_width
 }
 }
 }
-uint32_t
+PRUint32
 idx
 =
 mInfo
@@ -2512,7 +2509,7 @@ imageRow
 +
 +
 =
-gfxPackedPixel
+GFX_PACKED_PIXEL
 (
 0xFF
 sampleRow
@@ -2577,7 +2574,7 @@ imageRow
 +
 +
 =
-gfxPackedPixel
+GFX_PACKED_PIXEL
 (
 0xFF
 sampleRow
@@ -2722,13 +2719,7 @@ err
 -
 >
 setjmp_buffer
-static_cast
-<
-int
->
-(
 error_code
-)
 )
 ;
 }
@@ -2903,7 +2894,7 @@ decoder
 >
 mSegment
 ;
-uint32_t
+PRUint32
 new_buflen
 =
 decoder
@@ -3060,7 +3051,7 @@ mBackBufferLen
 ;
 }
 const
-uint32_t
+PRUint32
 new_backtrack_buflen
 =
 src
@@ -5120,12 +5111,12 @@ input_row
 +
 +
 ;
-uint32_t
+PRUint32
 *
 outptr
 =
 (
-uint32_t
+PRUint32
 *
 )
 *
@@ -5276,7 +5267,7 @@ in
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 width
@@ -5301,7 +5292,7 @@ out
 3
 ;
 const
-uint32_t
+PRUint32
 iC
 =
 in
@@ -5310,7 +5301,7 @@ in
 ]
 ;
 const
-uint32_t
+PRUint32
 iM
 =
 in
@@ -5319,7 +5310,7 @@ in
 ]
 ;
 const
-uint32_t
+PRUint32
 iY
 =
 in
@@ -5328,7 +5319,7 @@ in
 ]
 ;
 const
-uint32_t
+PRUint32
 iK
 =
 in

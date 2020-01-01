@@ -629,6 +629,10 @@ class
 JaegerCompartment
 ;
 }
+extern
+Class
+dummy_class
+;
 namespace
 ion
 {
@@ -637,10 +641,6 @@ IonCompartment
 ;
 }
 }
-extern
-JSClass
-js_dummy_class
-;
 #
 ifndef
 JS_EVAL_CACHE_SHIFT
@@ -1478,8 +1478,8 @@ sweep
 JSContext
 *
 cx
-uint32
-releaseInterval
+bool
+releaseTypes
 )
 ;
 void
@@ -1797,9 +1797,12 @@ script
 jsbytecode
 *
 pc
-JSObject
+js
+:
+:
+GlobalObject
 *
-scriptObject
+scriptGlobal
 )
 ;
 void

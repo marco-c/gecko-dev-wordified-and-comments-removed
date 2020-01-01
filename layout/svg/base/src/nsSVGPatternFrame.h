@@ -348,13 +348,10 @@ gfxRect
 aOverrideBounds
 )
 ;
-NS_IMETHOD
-GetPatternFirstChild
-(
 nsIFrame
 *
-*
-kid
+GetPatternFirstChild
+(
 )
 ;
 gfxRect
@@ -376,6 +373,10 @@ aTarget
 gfxMatrix
 GetPatternMatrix
 (
+const
+gfxMatrix
+&
+patternTransform
 const
 gfxRect
 &

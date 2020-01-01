@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 mozStorageHelper
 .
 h

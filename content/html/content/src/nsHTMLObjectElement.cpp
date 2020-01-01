@@ -1508,7 +1508,7 @@ nsIDocument
 *
 sub_doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -1912,7 +1912,7 @@ if
 aDest
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

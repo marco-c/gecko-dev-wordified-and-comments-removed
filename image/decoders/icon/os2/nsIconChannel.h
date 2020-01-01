@@ -7,15 +7,6 @@ nsIconChannel_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -81,7 +72,6 @@ nsIFile
 ;
 class
 nsIconChannel
-MOZ_FINAL
 :
 public
 nsIChannel
@@ -127,7 +117,7 @@ nsIURI
 >
 mOriginalURI
 ;
-int32_t
+PRInt32
 mContentLength
 ;
 nsCOMPtr
@@ -167,7 +157,7 @@ nsIFile
 *
 *
 aLocalFile
-uint32_t
+PRUint32
 *
 aDesiredImageSize
 nsACString

@@ -538,7 +538,7 @@ if
 aDest
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

@@ -280,7 +280,7 @@ addTab
 "
 about
 :
-mozilla
+robots
 "
 )
 ;

@@ -1193,7 +1193,7 @@ GetDocAccessible
 origTargetNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

@@ -70,6 +70,7 @@ GetBaseValue
 nsAString
 &
 aValue
+const
 nsSVGElement
 *
 aSVGElement

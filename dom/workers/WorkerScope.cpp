@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 WorkerScope
 .
 h
@@ -150,6 +159,10 @@ define
 FUNCTION_FLAGS
 \
 JSPROP_ENUMERATE
+using
+namespace
+mozilla
+;
 USING_WORKERS_NAMESPACE
 namespace
 {
@@ -1193,7 +1206,7 @@ JSVAL_TO_OBJECT
 scope
 )
 listener
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )

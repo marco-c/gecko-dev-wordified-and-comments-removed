@@ -116,7 +116,7 @@ doc
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

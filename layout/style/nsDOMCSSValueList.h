@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsCOMArray
+nsTArray
 .
 h
 "

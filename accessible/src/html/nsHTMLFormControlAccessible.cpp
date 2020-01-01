@@ -661,7 +661,7 @@ doc
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

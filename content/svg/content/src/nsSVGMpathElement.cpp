@@ -670,6 +670,17 @@ genericTarget
 genericTarget
 -
 >
+GetNameSpaceID
+(
+)
+=
+=
+kNameSpaceID_SVG
+&
+&
+genericTarget
+-
+>
 Tag
 (
 )
@@ -737,7 +748,7 @@ getter_AddRefs
 targetURI
 )
 aHrefStr
-GetOwnerDoc
+OwnerDoc
 (
 )
 baseURI

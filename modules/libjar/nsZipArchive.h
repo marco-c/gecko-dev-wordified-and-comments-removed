@@ -387,6 +387,11 @@ nsZipItem
 aItem
 )
 ;
+PRInt64
+SizeOfMapping
+(
+)
+;
 private
 :
 nsZipItem
@@ -844,6 +849,11 @@ nsrefcnt
 Release
 (
 void
+)
+;
+PRInt64
+SizeOfMapping
+(
 )
 ;
 protected

@@ -112,7 +112,7 @@ h
 #
 include
 "
-nsError
+ImageErrors
 .
 h
 "
@@ -141,9 +141,6 @@ class
 imgCacheValidator
 ;
 class
-imgLoader
-;
-class
 imgRequestProxy
 ;
 class
@@ -159,7 +156,7 @@ namespace
 mozilla
 {
 namespace
-image
+imagelib
 {
 class
 Image
@@ -186,9 +183,6 @@ public
 :
 imgRequest
 (
-imgLoader
-*
-aLoader
 )
 ;
 virtual
@@ -222,7 +216,7 @@ aLoadId
 nsIPrincipal
 *
 aLoadingPrincipal
-int32_t
+PRInt32
 aCORSMode
 )
 ;
@@ -253,7 +247,7 @@ const
 char
 *
 buf
-uint32_t
+PRUint32
 len
 )
 ;
@@ -283,7 +277,7 @@ inline
 void
 SetInnerWindowID
 (
-uint64_t
+PRUint64
 aInnerWindowId
 )
 {
@@ -293,7 +287,7 @@ aInnerWindowId
 ;
 }
 inline
-uint64_t
+PRUint64
 InnerWindowID
 (
 )
@@ -315,17 +309,7 @@ nsIRequest
 aRequest
 )
 ;
-bool
-GetMultipart
-(
-)
-const
-{
-return
-mIsMultiPartChannel
-;
-}
-int32_t
+PRInt32
 GetCORSMode
 (
 )
@@ -491,7 +475,7 @@ aProxyToIgnore
 )
 const
 ;
-int32_t
+PRInt32
 Priority
 (
 )
@@ -503,7 +487,7 @@ AdjustPriority
 imgRequestProxy
 *
 aProxy
-int32_t
+PRInt32
 aDelta
 )
 ;
@@ -543,10 +527,6 @@ private
 friend
 class
 imgMemoryReporter
-;
-imgLoader
-*
-mLoader
 ;
 nsCOMPtr
 <
@@ -589,7 +569,7 @@ nsRefPtr
 mozilla
 :
 :
-image
+imagelib
 :
 :
 Image
@@ -668,10 +648,10 @@ nsIChannel
 >
 mNewRedirectChannel
 ;
-uint64_t
+PRUint64
 mInnerWindowId
 ;
-int32_t
+PRInt32
 mCORSMode
 ;
 bool
@@ -691,11 +671,6 @@ mGotData
 ;
 bool
 mIsInCache
-:
-1
-;
-bool
-mBlockingOnload
 :
 1
 ;

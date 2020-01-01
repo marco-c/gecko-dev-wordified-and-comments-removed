@@ -497,6 +497,10 @@ WebGLExtensionStandardDerivatives
 .
 cpp
 \
+WebGLExtensionLoseContext
+.
+cpp
+\
 (
 NULL
 )

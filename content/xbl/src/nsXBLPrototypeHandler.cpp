@@ -1198,17 +1198,9 @@ boundDocument
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
-;
-if
-(
-!
-boundDocument
-)
-return
-NS_OK
 ;
 }
 boundGlobal
@@ -1706,7 +1698,7 @@ doc
 elt
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -4415,7 +4407,7 @@ doc
 aKeyElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

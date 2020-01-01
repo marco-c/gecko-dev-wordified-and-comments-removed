@@ -498,7 +498,7 @@ kids
 aParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

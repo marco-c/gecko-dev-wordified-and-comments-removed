@@ -708,15 +708,10 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
-if
-(
-doc
-)
-{
 nsContentUtils
 :
 :
@@ -736,7 +731,6 @@ GetDocumentURI
 )
 )
 ;
-}
 if
 (
 !

@@ -2835,12 +2835,15 @@ false
 bool
 isVisible
 =
-nsCoreUtils
-:
-:
-CheckVisibilityInParentChain
-(
 frame
+-
+>
+IsVisibleConsideringAncestors
+(
+nsIFrame
+:
+:
+VISIBILITY_CROSS_CHROME_CONTENT_BOUNDARY
 )
 ;
 if
@@ -9259,7 +9262,7 @@ do_QueryInterface
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -12065,7 +12068,7 @@ document
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -12796,7 +12799,7 @@ DOMDoc
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -13302,7 +13305,7 @@ do_QueryInterface
 aStartNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

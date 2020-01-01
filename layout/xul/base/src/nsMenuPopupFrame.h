@@ -1032,7 +1032,7 @@ NS_STYLE_DIRECTION_RTL
 ;
 }
 nsresult
-CreatePopupViewForFrame
+CreatePopupView
 (
 )
 ;

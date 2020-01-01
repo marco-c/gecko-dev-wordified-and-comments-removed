@@ -689,7 +689,6 @@ nsWebShellWindow
 :
 HandleEvent
 nsnull
-nsnull
 &
 widgetInitData
 )

@@ -1469,7 +1469,7 @@ thisEvent
 mNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 !
@@ -1480,7 +1480,7 @@ tailEvent
 mNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

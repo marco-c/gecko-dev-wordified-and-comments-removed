@@ -1241,6 +1241,14 @@ nsIView
 aView
 )
 ;
+NS_IMETHOD_
+(
+bool
+)
+IsVisible
+(
+)
+;
 virtual
 NS_HIDDEN_
 (
@@ -2170,7 +2178,7 @@ gCaptureInfo
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =

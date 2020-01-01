@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsError
+ImageErrors
 .
 h
 "
@@ -51,7 +51,7 @@ namespace
 mozilla
 {
 namespace
-image
+imagelib
 {
 nsIconDecoder
 :
@@ -91,7 +91,7 @@ mPixBytesTotal
 )
 mImageData
 (
-nullptr
+nsnull
 )
 mState
 (
@@ -118,7 +118,7 @@ const
 char
 *
 aBuffer
-uint32_t
+PRUint32
 aCount
 )
 {
@@ -140,7 +140,7 @@ error
 "
 )
 ;
-uint32_t
+PRUint32
 bytesToRead
 =
 0
@@ -175,7 +175,7 @@ iconStateStart
 mWidth
 =
 (
-uint8_t
+PRUint8
 )
 *
 aBuffer
@@ -200,7 +200,7 @@ iconStateHaveHeight
 mHeight
 =
 (
-uint8_t
+PRUint8
 )
 *
 aBuffer

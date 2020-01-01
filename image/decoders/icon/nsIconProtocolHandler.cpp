@@ -113,7 +113,7 @@ nsIconProtocolHandler
 :
 GetDefaultPort
 (
-int32_t
+PRInt32
 *
 result
 )
@@ -133,7 +133,7 @@ nsIconProtocolHandler
 :
 AllowPort
 (
-int32_t
+PRInt32
 port
 const
 char
@@ -159,7 +159,7 @@ nsIconProtocolHandler
 :
 GetProtocolFlags
 (
-uint32_t
+PRUint32
 *
 result
 )

@@ -634,7 +634,7 @@ aTextContent
 mozAutoSubtreeModified
 subtree
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 nsnull

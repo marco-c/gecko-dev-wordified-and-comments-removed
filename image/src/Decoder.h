@@ -22,7 +22,7 @@ namespace
 mozilla
 {
 namespace
-image
+imagelib
 {
 class
 Decoder
@@ -62,7 +62,7 @@ const
 char
 *
 aBuffer
-uint32_t
+PRUint32
 aCount
 )
 ;
@@ -126,7 +126,7 @@ mSizeDecode
 aSizeDecode
 ;
 }
-uint32_t
+PRUint32
 GetFrameCount
 (
 )
@@ -135,7 +135,7 @@ return
 mFrameCount
 ;
 }
-uint32_t
+PRUint32
 GetCompleteFrameCount
 (
 )
@@ -233,7 +233,7 @@ DECODER_NO_COLORSPACE_CONVERSION
 void
 SetDecodeFlags
 (
-uint32_t
+PRUint32
 aFlags
 )
 {
@@ -242,7 +242,7 @@ mDecodeFlags
 aFlags
 ;
 }
-uint32_t
+PRUint32
 GetDecodeFlags
 (
 )
@@ -283,7 +283,7 @@ const
 char
 *
 aBuffer
-uint32_t
+PRUint32
 aCount
 )
 ;
@@ -296,9 +296,9 @@ FinishInternal
 void
 PostSize
 (
-int32_t
+PRInt32
 aWidth
-int32_t
+PRInt32
 aHeight
 )
 ;
@@ -347,7 +347,7 @@ imgIDecoderObserver
 >
 mObserver
 ;
-uint32_t
+PRUint32
 mDecodeFlags
 ;
 bool
@@ -358,7 +358,7 @@ mDataError
 ;
 private
 :
-uint32_t
+PRUint32
 mFrameCount
 ;
 nsIntRect
@@ -375,9 +375,6 @@ mSizeDecode
 ;
 bool
 mInFrame
-;
-bool
-mIsAnimated
 ;
 }
 ;

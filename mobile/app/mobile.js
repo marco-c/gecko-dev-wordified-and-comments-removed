@@ -3151,9 +3151,6 @@ syncAccount
 true
 )
 ;
-#
-ifdef
-MOZ_PLATFORM_MAEMO
 pref
 (
 "
@@ -3168,8 +3165,6 @@ opaque
 "
 )
 ;
-#
-endif
 pref
 (
 "
@@ -6234,7 +6229,7 @@ show
 .
 localepicker
 "
-true
+false
 )
 ;
 pref

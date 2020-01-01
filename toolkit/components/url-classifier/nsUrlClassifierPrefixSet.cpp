@@ -1166,6 +1166,11 @@ lock
 mPrefixSetLock
 )
 ;
+*
+aFound
+=
+false
+;
 if
 (
 aKey

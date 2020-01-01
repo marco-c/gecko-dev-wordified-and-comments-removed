@@ -315,7 +315,7 @@ NS_ASSERTION
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 "

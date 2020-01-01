@@ -537,7 +537,7 @@ ownerDoc
 cont
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
