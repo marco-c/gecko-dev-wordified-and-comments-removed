@@ -1213,6 +1213,7 @@ foo
 =
 "
 bar
+baz
 "
 \
 n
@@ -1280,6 +1281,7 @@ foo
 foo
 =
 bar
+baz
 '
 ]
 )
@@ -1649,7 +1651,10 @@ write
 mk_add_options
 FOO
 =
+"
 BAR
+BAZ
+"
 \
 n
 '
@@ -1739,6 +1744,7 @@ make_extra
 FOO
 =
 BAR
+BAZ
 '
 '
 BIZ

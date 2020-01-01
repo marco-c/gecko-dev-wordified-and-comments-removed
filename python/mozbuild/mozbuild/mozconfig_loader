@@ -110,8 +110,6 @@ local
 opt
 for
 opt
-in
-*
 ;
 do
 echo
@@ -144,7 +142,6 @@ ac_add_app_options
 {
 local
 app
-opt
 app
 =
 1
@@ -184,8 +181,6 @@ local
 opt
 for
 opt
-in
-*
 ;
 do
 echo
