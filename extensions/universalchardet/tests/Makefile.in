@@ -517,6 +517,14 @@ japanese
 .
 html
 \
+bug488426_text
+.
+html
+\
+test_bug488426
+.
+html
+\
 (
 NULL
 )

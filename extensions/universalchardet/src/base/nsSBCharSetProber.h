@@ -333,5 +333,10 @@ const
 SequenceModel
 Win1255Model
 ;
+extern
+const
+SequenceModel
+TIS620ThaiModel
+;
 #
 endif
