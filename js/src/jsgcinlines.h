@@ -1712,12 +1712,6 @@ cx
 ;
 #
 endif
-js
-:
-:
-gc
-:
-:
 MaybeCheckStackRoots
 (
 cx

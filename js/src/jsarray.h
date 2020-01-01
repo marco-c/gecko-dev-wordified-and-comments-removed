@@ -340,8 +340,7 @@ GetElements
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 aobj
 uint32_t
 length

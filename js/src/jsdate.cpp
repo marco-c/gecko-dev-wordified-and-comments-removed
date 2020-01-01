@@ -7783,10 +7783,10 @@ vp
 bool
 ok
 ;
-JSObject
-*
+RootedVarObject
 obj
-=
+(
+cx
 NonGenericMethodGuard
 (
 cx
@@ -7796,6 +7796,7 @@ date_setTime
 DateClass
 &
 ok
+)
 )
 ;
 if
@@ -7904,10 +7905,10 @@ vp
 bool
 ok
 ;
-JSObject
-*
+RootedVarObject
 obj
-=
+(
+cx
 NonGenericMethodGuard
 (
 cx
@@ -7917,6 +7918,7 @@ native
 DateClass
 &
 ok
+)
 )
 ;
 if
@@ -8560,10 +8562,10 @@ vp
 bool
 ok
 ;
-JSObject
-*
+RootedVarObject
 obj
-=
+(
+cx
 NonGenericMethodGuard
 (
 cx
@@ -8573,6 +8575,7 @@ native
 DateClass
 &
 ok
+)
 )
 ;
 if
@@ -9146,10 +9149,10 @@ vp
 bool
 ok
 ;
-JSObject
-*
+RootedVarObject
 obj
-=
+(
+cx
 NonGenericMethodGuard
 (
 cx
@@ -9159,6 +9162,7 @@ date_setYear
 DateClass
 &
 ok
+)
 )
 ;
 if

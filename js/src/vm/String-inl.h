@@ -2284,6 +2284,14 @@ size_t
 length
 )
 {
+SkipRoot
+skip
+(
+cx
+&
+chars
+)
+;
 JS_ASSERT
 (
 JSShortString

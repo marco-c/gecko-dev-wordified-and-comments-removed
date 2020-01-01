@@ -3219,6 +3219,12 @@ array
 (
 vec
 )
+skip
+(
+cx
+array
+len
+)
 {
 JS_GUARD_OBJECT_NOTIFIER_INIT
 ;
@@ -3293,6 +3299,9 @@ trc
 private
 :
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+SkipRoot
+skip
+;
 }
 ;
 class
@@ -7125,6 +7134,11 @@ v
 .
 toNumber
 (
+)
+;
+MaybeCheckStackRoots
+(
+cx
 )
 ;
 return

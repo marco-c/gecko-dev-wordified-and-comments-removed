@@ -494,6 +494,15 @@ Value
 key
 )
 {
+JS_ASSERT
+(
+!
+IsPoisonedValue
+(
+key
+)
+)
+;
 uint64_t
 bits
 =
@@ -2009,8 +2018,7 @@ AutoCompartment
 &
 ac
 ;
-JSObject
-*
+RootedVarObject
 scope
 ;
 public
@@ -2031,6 +2039,9 @@ ac
 )
 scope
 (
+ac
+.
+context
 scope
 )
 {
