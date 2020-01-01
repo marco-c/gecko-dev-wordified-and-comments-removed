@@ -88,6 +88,13 @@ SET_DATA_TYPE_OFFSET
 endif
 enum
 Kind
+#
+ifdef
+_MSC_VER
+:
+uint8_t
+#
+endif
 {
 GET
 SET
