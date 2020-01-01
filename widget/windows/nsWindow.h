@@ -1268,6 +1268,12 @@ PRUint32
 aModifiers
 )
 ;
+virtual
+bool
+UseOffMainThreadCompositing
+(
+)
+;
 protected
 :
 enum
