@@ -147,6 +147,15 @@ nsCSSStyleSheet
 *
 )
 ;
+virtual
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 NS_DECL_NSIDOMCSSRULE
 NS_DECL_NSIDOMCSSIMPORTRULE
 private

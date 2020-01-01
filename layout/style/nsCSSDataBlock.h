@@ -118,6 +118,14 @@ CreateEmptyBlock
 (
 )
 ;
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 private
 :
 void

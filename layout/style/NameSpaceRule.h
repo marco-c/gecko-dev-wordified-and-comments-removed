@@ -167,6 +167,16 @@ aURLSpec
 mURLSpec
 ;
 }
+virtual
+NS_MUST_OVERRIDE
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 NS_DECL_NSIDOMCSSRULE
 private
 :

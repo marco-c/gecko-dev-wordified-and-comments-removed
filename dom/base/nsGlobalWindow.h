@@ -1936,6 +1936,14 @@ SizeOf
 )
 const
 ;
+size_t
+SizeOfStyleSheets
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 void
 UnmarkGrayTimers
 (

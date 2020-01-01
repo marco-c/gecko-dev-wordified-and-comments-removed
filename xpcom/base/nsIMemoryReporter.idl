@@ -2830,6 +2830,7 @@ fn
 name
 )
 \
+static
 size_t
 fn
 (
@@ -2891,6 +2892,7 @@ NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN_UN
 fn
 )
 \
+static
 size_t
 fn
 (

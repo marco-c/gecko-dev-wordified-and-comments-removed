@@ -5885,13 +5885,6 @@ string
 )
 ;
 }
-NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
-(
-JsMallocSizeOf
-"
-js
-"
-)
 }
 namespace
 {
@@ -8649,6 +8642,13 @@ gcHeapChunkTotal
 }
 }
 }
+NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
+(
+JsMallocSizeOf
+"
+js
+"
+)
 class
 XPConnectJSCompartmentsMultiReporter
 :
@@ -8686,9 +8686,6 @@ JS
 RuntimeStats
 rtStats
 (
-xpc
-:
-:
 JsMallocSizeOf
 xpc
 :
@@ -8732,9 +8729,6 @@ xpcrt
 >
 SizeOfIncludingThis
 (
-xpc
-:
-:
 JsMallocSizeOf
 )
 +
@@ -8743,9 +8737,6 @@ XPCWrappedNativeScope
 :
 SizeOfAllScopesIncludingThis
 (
-xpc
-:
-:
 JsMallocSizeOf
 )
 ;
@@ -9726,9 +9717,6 @@ int64_t
 (
 n
 )
-xpc
-:
-:
 JsMallocSizeOf
 )
 )
