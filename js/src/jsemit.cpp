@@ -28507,12 +28507,11 @@ JS_FALSE
 ;
 jmp
 =
-js_Emit3
+EmitJump
 (
 cx
 cg
 JSOP_FILTER
-0
 0
 )
 ;
