@@ -11993,10 +11993,8 @@ NS_OK
 }
 }
 }
-nsCOMPtr
-<
 nsIContent
->
+*
 parent
 =
 aContent
@@ -12052,6 +12050,11 @@ else
 if
 (
 parent
+&
+&
+aVisitor
+.
+mOriginalTargetIsInAnon
 )
 {
 nsCOMPtr

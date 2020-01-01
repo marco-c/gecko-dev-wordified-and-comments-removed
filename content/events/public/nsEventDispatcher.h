@@ -125,8 +125,8 @@ nsIDOMEvent
 aDOMEvent
 nsEventStatus
 aEventStatus
-=
-nsEventStatus_eIgnore
+PRBool
+aIsInAnon
 )
 :
 nsEventChainVisitor
@@ -147,6 +147,10 @@ PR_FALSE
 mRelatedTargetIsInAnon
 (
 PR_FALSE
+)
+mOriginalTargetIsInAnon
+(
+aIsInAnon
 )
 mWantsWillHandleEvent
 (
@@ -204,6 +208,9 @@ mForceContentDispatch
 ;
 PRPackedBool
 mRelatedTargetIsInAnon
+;
+PRPackedBool
+mOriginalTargetIsInAnon
 ;
 PRPackedBool
 mWantsWillHandleEvent
