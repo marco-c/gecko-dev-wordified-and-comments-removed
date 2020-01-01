@@ -11385,7 +11385,7 @@ isConstant
 )
 )
 {
-int32_t
+uint32_t
 index
 =
 ToInt32
@@ -11413,7 +11413,7 @@ isConstant
 )
 )
 {
-int32_t
+uint32_t
 length
 =
 ToInt32
