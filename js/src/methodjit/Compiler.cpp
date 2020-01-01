@@ -5031,6 +5031,8 @@ cx
 JSScript
 *
 script
+CompileRequest
+request
 )
 {
 #
@@ -5046,6 +5048,16 @@ IsEnabled
 (
 cx
 )
+)
+return
+false
+;
+if
+(
+request
+=
+=
+CompileRequest_JIT
 )
 return
 false
@@ -5135,6 +5147,7 @@ IonGetsFirstChance
 (
 cx
 script
+request
 )
 )
 return
