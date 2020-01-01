@@ -2567,17 +2567,6 @@ observes
 "
 )
 ;
-aItem
-.
-firstChild
-.
-removeAttribute
-(
-"
-busy
-"
-)
-;
 }
 }
 function
