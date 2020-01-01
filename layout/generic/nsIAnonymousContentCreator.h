@@ -19,9 +19,6 @@ nsIContent
 h
 "
 class
-nsPresContext
-;
-class
 nsIFrame
 ;
 template
@@ -69,13 +66,6 @@ aContent
 return
 nsnull
 ;
-}
-virtual
-void
-PostCreateFrames
-(
-)
-{
 }
 }
 ;

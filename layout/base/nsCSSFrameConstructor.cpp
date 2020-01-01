@@ -23065,13 +23065,6 @@ aChildItems
 ;
 }
 }
-creator
--
->
-PostCreateFrames
-(
-)
-;
 if
 (
 !
