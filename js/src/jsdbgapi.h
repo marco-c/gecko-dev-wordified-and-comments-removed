@@ -292,6 +292,7 @@ js_FindWatchPoint
 JSRuntime
 *
 rt
+const
 JSScope
 *
 scope
