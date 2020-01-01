@@ -689,10 +689,6 @@ test_mediarecorder_avoid_recursion
 .
 html
 \
-test_mediarecorder_record_timeslice
-.
-html
-\
 test_mediarecorder_record_audiocontext
 .
 html
