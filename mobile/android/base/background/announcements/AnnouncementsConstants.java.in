@@ -117,7 +117,7 @@ static
 boolean
 DISABLED
 =
-true
+false
 ;
 public
 static
