@@ -2297,6 +2297,10 @@ mContent
 GetMaximum
 (
 )
+.
+toDouble
+(
+)
 ;
 return
 NS_OK
@@ -2347,6 +2351,10 @@ mContent
 -
 >
 GetMinimum
+(
+)
+.
+toDouble
 (
 )
 ;
@@ -2401,6 +2409,10 @@ mContent
 GetStep
 (
 )
+.
+toDouble
+(
+)
 ;
 return
 NS_OK
@@ -2450,7 +2462,11 @@ mContent
 )
 -
 >
-GetValueAsDouble
+GetValueAsDecimal
+(
+)
+.
+toDouble
 (
 )
 ;
