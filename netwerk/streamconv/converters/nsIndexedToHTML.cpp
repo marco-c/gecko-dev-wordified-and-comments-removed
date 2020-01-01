@@ -413,6 +413,16 @@ NS_DATETIMEFORMAT_CONTRACTID
 rv
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
+rv
+;
 nsCOMPtr
 <
 nsIStringBundleService
