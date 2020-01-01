@@ -15581,6 +15581,13 @@ shapeGen
 =
 0
 ;
+rt
+-
+>
+protoHazardShape
+=
+0
+;
 JS_TRACER_INIT
 (
 &

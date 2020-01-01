@@ -702,6 +702,7 @@ p
 )
 (
 (
+uint32
 (
 t
 )
@@ -1228,7 +1229,7 @@ JSScopeProperty
 *
 sprop
 JSBool
-addedSprop
+adding
 )
 ;
 #

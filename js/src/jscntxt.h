@@ -360,14 +360,14 @@ FRAGMENT_TABLE_SIZE
 JSDHashTable
 recordAttempts
 ;
+uint32
+maxCodeCacheBytes
+;
 uintN
 prohibitFlush
 ;
 JSPackedBool
 needFlush
-;
-uint32
-maxCodeCacheBytes
 ;
 JSPackedBool
 useReservedObjects
@@ -779,6 +779,9 @@ state
 ;
 JSContextCallback
 cxCallback
+;
+uint32
+protoHazardShape
 ;
 JSGCChunkInfo
 *
