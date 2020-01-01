@@ -6426,6 +6426,8 @@ userFontName
 )
 ;
 }
+else
+{
 list
 -
 >
@@ -6434,6 +6436,7 @@ AppendElement
 fontName
 )
 ;
+}
 }
 return
 PR_TRUE
