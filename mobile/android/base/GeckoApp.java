@@ -17718,4 +17718,14 @@ true
 )
 ;
 }
+public
+boolean
+linkerExtract
+(
+)
+{
+return
+false
+;
+}
 }
