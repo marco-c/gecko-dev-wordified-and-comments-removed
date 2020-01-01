@@ -3478,6 +3478,15 @@ MAX_FRAMES
 *
 1000
 ;
+static
+const
+size_t
+MAX_FRAMES_TRUSTED
+=
+MAX_FRAMES
++
+1000
+;
 size_t
 frameCount_
 ;
