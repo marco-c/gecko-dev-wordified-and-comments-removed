@@ -423,6 +423,10 @@ DownloadSuspended
 void
 DownloadResumed
 (
+bool
+aForceNetworkLoading
+=
+false
 )
 ;
 void

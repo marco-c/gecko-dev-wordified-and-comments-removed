@@ -1921,6 +1921,14 @@ rv
 rv
 )
 ;
+element
+-
+>
+DownloadResumed
+(
+true
+)
+;
 }
 return
 NS_OK
