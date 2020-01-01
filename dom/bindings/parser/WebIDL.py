@@ -3330,6 +3330,21 @@ other
 builtin
     
 def
+__ne__
+(
+self
+other
+)
+:
+        
+return
+not
+self
+=
+=
+other
+    
+def
 __str__
 (
 self
@@ -5665,8 +5680,14 @@ other
 :
         
 return
+isinstance
+(
 other
+IDLWrapperType
+)
 and
+\
+               
 self
 .
 _identifier
