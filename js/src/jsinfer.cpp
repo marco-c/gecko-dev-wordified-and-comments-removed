@@ -6866,6 +6866,12 @@ TYPE_FLAG_LAZYARGS
 return
 JSVAL_TYPE_MAGIC
 ;
+case
+TYPE_FLAG_ANYOBJECT
+:
+return
+JSVAL_TYPE_OBJECT
+;
 default
 :
 return
