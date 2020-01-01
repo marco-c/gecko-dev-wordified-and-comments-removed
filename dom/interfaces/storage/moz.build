@@ -108,11 +108,6 @@ nsIDOMStorageEvent
 idl
 '
 '
-nsIDOMStorageIndexedDB
-.
-idl
-'
-'
 nsIDOMStorageManager
 .
 idl

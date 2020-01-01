@@ -182,13 +182,6 @@ h
 #
 include
 "
-nsIDOMStorageIndexedDB
-.
-h
-"
-#
-include
-"
 nsFrameMessageManager
 .
 h
@@ -832,8 +825,6 @@ public
 nsIScriptGlobalObject
 public
 nsIDOMJSWindow
-public
-nsIDOMStorageIndexedDB
 public
 nsSupportsWeakReference
 public
@@ -1498,7 +1489,6 @@ aHasGamepad
 true
 )
 ;
-NS_DECL_NSIDOMSTORAGEINDEXEDDB
 NS_DECL_NSIINTERFACEREQUESTOR
 uint32_t
 GetLength

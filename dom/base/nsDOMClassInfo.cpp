@@ -4574,9 +4574,6 @@ MOZ_B2G
 #
 define
 DOM_CLASSINFO_WINDOW_MAP_ENTRIES
-(
-_support_indexed_db
-)
 \
 DOM_CLASSINFO_MAP_ENTRY
 (
@@ -4610,13 +4607,6 @@ nsIDOMWindowPerformance
 \
 DOM_CLASSINFO_MAP_CONDITIONAL_ENTRY
 (
-nsIDOMStorageIndexedDB
-\
-_support_indexed_db
-)
-\
-DOM_CLASSINFO_MAP_CONDITIONAL_ENTRY
-(
 nsITouchEventReceiver
 \
 nsDOMTouchEvent
@@ -4631,9 +4621,6 @@ else
 #
 define
 DOM_CLASSINFO_WINDOW_MAP_ENTRIES
-(
-_support_indexed_db
-)
 \
 DOM_CLASSINFO_MAP_ENTRY
 (
@@ -4658,13 +4645,6 @@ nsIInlineEventHandlers
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMWindowPerformance
-)
-\
-DOM_CLASSINFO_MAP_CONDITIONAL_ENTRY
-(
-nsIDOMStorageIndexedDB
-\
-_support_indexed_db
 )
 \
 DOM_CLASSINFO_MAP_CONDITIONAL_ENTRY
@@ -4839,9 +4819,6 @@ Window
 nsIDOMWindow
 )
 DOM_CLASSINFO_WINDOW_MAP_ENTRIES
-(
-true
-)
 #
 ifdef
 MOZ_WEBSPEECH
@@ -5121,9 +5098,6 @@ ChromeWindow
 nsIDOMWindow
 )
 DOM_CLASSINFO_WINDOW_MAP_ENTRIES
-(
-true
-)
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMChromeWindow
@@ -5334,9 +5308,6 @@ ModalContentWindow
 nsIDOMWindow
 )
 DOM_CLASSINFO_WINDOW_MAP_ENTRIES
-(
-true
-)
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMModalContentWindow

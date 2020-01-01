@@ -7219,10 +7219,6 @@ nsPIDOMWindow
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMStorageIndexedDB
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_ENTRY
