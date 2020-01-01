@@ -1568,9 +1568,6 @@ lsysutils
 lcamera_client
 \
 -
-lbinder
-\
--
 lsensorservice
 \
 -
@@ -1584,6 +1581,9 @@ lstagefright_omx
 \
 -
 lbinder
+\
+-
+lgui
 \
 (
 NULL
