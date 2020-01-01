@@ -390,9 +390,12 @@ BLOCK
 *
 *
 *
-MOZ_APP_NAME
+MOZ_APP_BASENAME
 =
-firefox
+Firefox
+MOZ_APP_VENDOR
+=
+Mozilla
 MOZ_UPDATER
 =
 1
