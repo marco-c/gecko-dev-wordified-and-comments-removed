@@ -1202,7 +1202,7 @@ if
 styleDisplay
 -
 >
-IsBlockOutside
+IsBlockInside
 (
 )
 &
@@ -1214,6 +1214,15 @@ mDisplay
 !
 =
 NS_STYLE_DISPLAY_TABLE_CELL
+&
+&
+styleDisplay
+-
+>
+mDisplay
+!
+=
+NS_STYLE_DISPLAY_TABLE_CAPTION
 )
 {
 break
