@@ -145,10 +145,6 @@ yieldNode
 (
 NULL
 )
-functionList
-(
-NULL
-)
 queuedStrictModeError
 (
 NULL

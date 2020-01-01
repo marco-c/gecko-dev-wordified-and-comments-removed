@@ -322,10 +322,6 @@ ParseNode
 *
 yieldNode
 ;
-FunctionBox
-*
-functionList
-;
 CompileError
 *
 queuedStrictModeError
