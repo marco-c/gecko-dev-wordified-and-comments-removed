@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIWifiEvents
+nsIWifiEventInits
 .
 h
 "
