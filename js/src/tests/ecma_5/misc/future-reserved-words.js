@@ -60,6 +60,9 @@ implements
 interface
 "
 "
+let
+"
+"
 package
 "
 "
@@ -73,6 +76,9 @@ public
 "
 "
 static
+"
+"
+yield
 "
 ]
 ;
