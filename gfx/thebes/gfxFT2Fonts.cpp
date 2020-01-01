@@ -1327,7 +1327,7 @@ i
 FT_Face
 face
 ;
-gfxAndroidPlatform
+gfxToolkitPlatform
 *
 platform
 =
