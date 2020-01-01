@@ -8774,6 +8774,8 @@ upgradeDatabaseFrom7to8
 db
 )
 ;
+break
+;
 case
 9
 :
@@ -8782,6 +8784,8 @@ upgradeDatabaseFrom8to9
 db
 )
 ;
+break
+;
 case
 10
 :
@@ -8789,6 +8793,8 @@ upgradeDatabaseFrom9to10
 (
 db
 )
+;
+break
 ;
 }
 }
