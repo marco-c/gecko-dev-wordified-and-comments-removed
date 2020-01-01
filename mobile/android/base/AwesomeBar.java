@@ -14,7 +14,9 @@ gecko
 .
 db
 .
-BrowserDB
+BrowserContract
+.
+Combined
 ;
 import
 org
@@ -25,9 +27,7 @@ gecko
 .
 db
 .
-BrowserContract
-.
-Combined
+BrowserDB
 ;
 import
 org

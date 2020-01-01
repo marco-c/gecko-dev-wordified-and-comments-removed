@@ -47,9 +47,7 @@ sync
 .
 setup
 .
-activities
-.
-SetupSyncActivity
+SyncAccounts
 ;
 import
 org
@@ -62,7 +60,9 @@ sync
 .
 setup
 .
-SyncAccounts
+activities
+.
+SetupSyncActivity
 ;
 import
 org

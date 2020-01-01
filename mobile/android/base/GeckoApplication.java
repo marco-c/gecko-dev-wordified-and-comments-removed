@@ -6,13 +6,6 @@ mozilla
 gecko
 ;
 import
-android
-.
-app
-.
-Application
-;
-import
 org
 .
 mozilla
@@ -66,6 +59,13 @@ gecko
 util
 .
 ThreadUtils
+;
+import
+android
+.
+app
+.
+Application
 ;
 public
 class

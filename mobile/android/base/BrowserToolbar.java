@@ -55,6 +55,13 @@ android
 .
 graphics
 .
+Rect
+;
+import
+android
+.
+graphics
+.
 drawable
 .
 AnimationDrawable
@@ -85,13 +92,6 @@ graphics
 drawable
 .
 StateListDrawable
-;
-import
-android
-.
-graphics
-.
-Rect
 ;
 import
 android

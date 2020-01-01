@@ -18,7 +18,7 @@ db
 .
 BrowserContract
 .
-ExpirePriority
+Bookmarks
 ;
 import
 org
@@ -31,7 +31,7 @@ db
 .
 BrowserContract
 .
-Bookmarks
+ExpirePriority
 ;
 import
 android
