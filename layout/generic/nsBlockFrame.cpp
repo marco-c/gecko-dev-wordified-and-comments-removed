@@ -21629,6 +21629,11 @@ begin_lines
 (
 )
 prevSibLine
+mFrames
+.
+LastChild
+(
+)
 &
 prevSiblingIndex
 )

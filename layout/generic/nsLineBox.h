@@ -1453,6 +1453,9 @@ aBegin
 nsLineList_iterator
 &
 aEnd
+nsIFrame
+*
+aLastFrameBeforeEnd
 PRInt32
 *
 aFrameIndexInLine
