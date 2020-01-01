@@ -503,6 +503,10 @@ browser_inspector_bug_690361
 .
 js
 \
+browser_inspector_bug_672902_keyboard_shortcuts
+.
+js
+\
 (
 NULL
 )
