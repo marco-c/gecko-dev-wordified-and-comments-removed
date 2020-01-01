@@ -680,7 +680,7 @@ common
 .
 SEC_WEBSOCKET_VERSION_HEADER
 '
-8
+7
 '
 )
     
