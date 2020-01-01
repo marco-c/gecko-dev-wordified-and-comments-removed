@@ -1584,12 +1584,6 @@ bottom
 .
 png
 )
-icon
-.
-png
-preview
-.
-png
 #
 ifdef
 XP_WIN
