@@ -2982,6 +2982,16 @@ void
 aCallback
 )
 {
+JS
+:
+:
+RootedString
+cmd
+(
+aCx
+aCommand
+)
+;
 TestShellParent
 *
 tsp
@@ -3006,7 +3016,7 @@ command
 init
 (
 aCx
-aCommand
+cmd
 )
 false
 )
