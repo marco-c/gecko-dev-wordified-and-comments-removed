@@ -367,7 +367,7 @@ void
 )
 UnmarkIfPurpleImpl
 (
-nsISupports
+void
 *
 p
 )
@@ -376,7 +376,14 @@ p
 \
 Downcast
 (
+static_cast
+<
+nsISupports
+*
+>
+(
 p
+)
 )
 -
 >
