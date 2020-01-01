@@ -12746,6 +12746,10 @@ slots
 -
 >
 mSMILOverrideStyleRule
+.
+get
+(
+)
 :
 nsnull
 ;
