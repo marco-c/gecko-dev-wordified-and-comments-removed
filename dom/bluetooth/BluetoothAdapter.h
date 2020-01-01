@@ -25,6 +25,9 @@ nsIDOMBluetoothAdapter
 .
 h
 "
+class
+nsIEventTarget
+;
 BEGIN_BLUETOOTH_NAMESPACE
 class
 BluetoothAdapter
@@ -75,7 +78,7 @@ nsIEventTarget
 >
 mToggleBtThread
 ;
-void
+nsresult
 ToggleBluetoothAsync
 (
 )
