@@ -14402,6 +14402,9 @@ BEGIN_CASE
 (
 JSOP_HEADER
 )
+#
+if
+0
 if
 (
 script
@@ -14573,6 +14576,8 @@ rval
 ;
 }
 }
+#
+endif
 END_CASE
 (
 JSOP_HEADER
