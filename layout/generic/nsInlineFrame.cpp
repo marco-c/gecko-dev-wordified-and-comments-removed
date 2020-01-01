@@ -2343,6 +2343,9 @@ mComputedBorderPadding
 left
 ;
 }
+nsLayoutUtils
+:
+:
 SetFontFromStyle
 (
 aReflowState

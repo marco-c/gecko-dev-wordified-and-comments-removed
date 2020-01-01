@@ -3963,6 +3963,9 @@ GetStyleColor
 mColor
 )
 ;
+nsLayoutUtils
+:
+:
 SetFontFromStyle
 (
 &

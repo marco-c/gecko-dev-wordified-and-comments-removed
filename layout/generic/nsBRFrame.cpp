@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsTextTransformer
+nsLayoutUtils
 .
 h
 "
@@ -430,6 +430,9 @@ GetCompatMode
 eCompatibility_FullStandards
 )
 {
+nsLayoutUtils
+:
+:
 SetFontFromStyle
 (
 aReflowState

@@ -7646,6 +7646,9 @@ mBlockReflowState
 >
 rendContext
 ;
+nsLayoutUtils
+:
+:
 SetFontFromStyle
 (
 mBlockReflowState

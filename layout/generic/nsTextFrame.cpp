@@ -3294,6 +3294,9 @@ mAveCharWidth
 =
 0
 ;
+nsLayoutUtils
+:
+:
 SetFontFromStyle
 (
 &
@@ -8619,6 +8622,9 @@ rv
 rv
 )
 ;
+nsLayoutUtils
+:
+:
 SetFontFromStyle
 (
 acx
@@ -17605,6 +17611,9 @@ return
 rv
 ;
 }
+nsLayoutUtils
+:
+:
 SetFontFromStyle
 (
 rendContext
@@ -26467,6 +26476,9 @@ if
 calcMathMLMetrics
 )
 {
+nsLayoutUtils
+:
+:
 SetFontFromStyle
 (
 aReflowState
@@ -26878,6 +26890,9 @@ ch
 )
 )
 {
+nsLayoutUtils
+:
+:
 SetFontFromStyle
 (
 &
