@@ -649,6 +649,10 @@ nsTextFrameUtils
 .
 cpp
 \
+TextOverflow
+.
+cpp
+\
 nsTextRunTransformations
 .
 cpp

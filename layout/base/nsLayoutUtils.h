@@ -1665,6 +1665,15 @@ aRenderingContext
 )
 ;
 static
+nscolor
+GetTextColor
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 void
 DrawString
 (

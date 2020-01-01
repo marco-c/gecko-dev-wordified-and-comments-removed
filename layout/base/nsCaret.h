@@ -305,6 +305,11 @@ StopBlinking
 (
 )
 ;
+void
+InvalidateTextOverflowBlock
+(
+)
+;
 PRBool
 DrawAtPositionWithHint
 (
