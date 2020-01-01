@@ -242,6 +242,9 @@ eDOMEvents_MozTouchMove
 eDOMEvents_MozTouchUp
 eDOMEvents_MozScrolledAreaChanged
 eDOMEvents_transitionend
+eDOMEvents_animationstart
+eDOMEvents_animationend
+eDOMEvents_animationiteration
 }
 ;
 nsDOMEvent

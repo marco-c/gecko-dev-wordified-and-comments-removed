@@ -572,6 +572,10 @@ nsDOMTransitionEvent
 .
 cpp
 \
+nsDOMAnimationEvent
+.
+cpp
+\
 nsDOMPopStateEvent
 .
 cpp
