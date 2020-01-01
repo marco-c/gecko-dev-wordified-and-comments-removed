@@ -329,16 +329,6 @@ init
 -
 complete
 "
-#
-define
-TOPIC_DATABASE_VACUUM_STARTING
-"
-places
--
-vacuum
--
-starting
-"
 namespace
 mozilla
 {
@@ -422,6 +412,8 @@ public
 nsPIPlacesDatabase
 public
 nsPIPlacesHistoryListenersNotifier
+public
+mozIStorageVacuumParticipant
 {
 friend
 class
@@ -442,6 +434,7 @@ NS_DECL_NSIBROWSERHISTORY
 NS_DECL_NSIOBSERVER
 NS_DECL_NSPIPLACESDATABASE
 NS_DECL_NSPIPLACESHISTORYLISTENERSNOTIFIER
+NS_DECL_MOZISTORAGEVACUUMPARTICIPANT
 static
 nsNavHistory
 *
@@ -1780,11 +1773,6 @@ FinalizeStatements
 ;
 nsresult
 DecayFrecency
-(
-)
-;
-nsresult
-VacuumDatabase
 (
 )
 ;
