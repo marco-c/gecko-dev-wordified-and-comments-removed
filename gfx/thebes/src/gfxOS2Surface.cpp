@@ -40,7 +40,7 @@ aSize
 {
 #
 ifdef
-DEBUG_thebes
+DEBUG_thebes_2
 printf
 (
 "
@@ -78,7 +78,7 @@ height
 ;
 #
 ifdef
-DEBUG_thebes
+DEBUG_thebes_2
 printf
 (
 "
@@ -109,6 +109,10 @@ d
 \
 n
 "
+(
+unsigned
+int
+)
 surf
 cairo_surface_get_type
 (
@@ -147,7 +151,7 @@ aWnd
 {
 #
 ifdef
-DEBUG_thebes
+DEBUG_thebes_2
 printf
 (
 "
@@ -271,7 +275,7 @@ height
 ;
 #
 ifdef
-DEBUG_thebes
+DEBUG_thebes_2
 printf
 (
 "
@@ -302,6 +306,10 @@ d
 \
 n
 "
+(
+unsigned
+int
+)
 surf
 cairo_surface_get_type
 (
@@ -345,7 +353,7 @@ gfxOS2Surface
 {
 #
 ifdef
-DEBUG_thebes
+DEBUG_thebes_2
 printf
 (
 "
