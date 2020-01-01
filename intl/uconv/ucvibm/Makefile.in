@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-ucvibm
 LIBRARY_NAME
 =
 ucvibm_s

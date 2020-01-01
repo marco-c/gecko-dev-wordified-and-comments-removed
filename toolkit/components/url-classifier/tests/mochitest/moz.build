@@ -61,3 +61,10 @@ MPL
 0
 /
 .
+MODULE
+=
+'
+test_url
+-
+classifier
+'

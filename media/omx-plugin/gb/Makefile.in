@@ -146,9 +146,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-omxplugingb
 MODULE_NAME
 =
 omxplugingb

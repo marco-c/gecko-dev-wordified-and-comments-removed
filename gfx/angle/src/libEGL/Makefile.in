@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-libegl
 #
 On
 Windows

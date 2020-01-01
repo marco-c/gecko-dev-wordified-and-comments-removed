@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_chrome
 XPCSHELL_TESTS
 =
 unit

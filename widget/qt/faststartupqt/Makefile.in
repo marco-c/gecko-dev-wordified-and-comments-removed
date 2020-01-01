@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-faststartupqt
 LIBRARY_NAME
 =
 faststartupqt

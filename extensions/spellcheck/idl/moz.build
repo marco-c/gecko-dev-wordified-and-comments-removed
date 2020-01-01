@@ -86,3 +86,8 @@ mozISpellI18NUtil
 idl
 '
 ]
+MODULE
+=
+'
+spellchecker
+'

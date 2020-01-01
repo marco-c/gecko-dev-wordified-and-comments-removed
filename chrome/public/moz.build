@@ -76,3 +76,8 @@ nsIToolkitChromeRegistry
 idl
 '
 ]
+MODULE
+=
+'
+chrome
+'

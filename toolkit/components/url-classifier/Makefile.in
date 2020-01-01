@@ -75,11 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-url
--
-classifier
 LIBRARY_NAME
 =
 urlclassifier_s

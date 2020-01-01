@@ -72,3 +72,8 @@ xptinfo
 xptcall
 '
 ]
+MODULE
+=
+'
+xpcom
+'

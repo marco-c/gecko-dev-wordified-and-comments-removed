@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-js
 LIBRARY_NAME
 =
 jsipc_s

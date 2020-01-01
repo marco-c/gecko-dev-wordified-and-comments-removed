@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-nkcache
 LIBRARY_NAME
 =
 nkcache_s

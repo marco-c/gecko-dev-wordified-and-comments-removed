@@ -86,9 +86,6 @@ for
 xpcshell
 tests
 .
-MODULE
-=
-test_passwordmgr
 XPCSHELL_TESTS
 =
 unit

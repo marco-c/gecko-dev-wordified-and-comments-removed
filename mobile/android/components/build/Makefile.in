@@ -78,9 +78,6 @@ mk
 MODULE_NAME
 =
 nsBrowserCompsModule
-MODULE
-=
-browsercomps
 LIBRARY_NAME
 =
 browsercomps

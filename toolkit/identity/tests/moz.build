@@ -72,3 +72,8 @@ chrome
 mochitest
 '
 ]
+MODULE
+=
+'
+test_identity
+'

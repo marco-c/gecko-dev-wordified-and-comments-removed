@@ -81,9 +81,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-uriloader
 LIBRARY_NAME
 =
 uriloaderbase_s

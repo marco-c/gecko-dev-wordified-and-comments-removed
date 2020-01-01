@@ -71,3 +71,8 @@ extIApplication
 idl
 '
 ]
+MODULE
+=
+'
+exthelper
+'

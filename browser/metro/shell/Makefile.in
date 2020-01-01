@@ -72,9 +72,6 @@ srcdir
 VPATH
 =
 srcdir
-MODULE
-=
-metro
 include
 (
 DEPTH

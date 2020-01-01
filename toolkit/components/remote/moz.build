@@ -76,3 +76,8 @@ XPIDL_MODULE
 '
 toolkitremote
 '
+MODULE
+=
+'
+toolkitcomps
+'

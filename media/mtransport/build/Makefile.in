@@ -121,9 +121,6 @@ srcdir
 objs
 .
 mk
-MODULE
-=
-mtransport
 LIBRARY_NAME
 =
 mtransport

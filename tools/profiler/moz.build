@@ -69,6 +69,11 @@ MOZ_ENABLE_PROFILER_SPS
 '
 ]
 :
+MODULE
+=
+'
+profiler
+'
 XPIDL_SOURCES
 +
 =

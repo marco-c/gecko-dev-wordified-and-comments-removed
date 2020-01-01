@@ -145,10 +145,6 @@ config
 autoconf
 .
 mk
-MODULE
-:
-=
-content
 LIBRARY_NAME
 :
 =

@@ -84,9 +84,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-uconv
 LIBRARY_NAME
 =
 uconv

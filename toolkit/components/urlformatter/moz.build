@@ -79,3 +79,8 @@ nsIURLFormatter
 idl
 '
 ]
+MODULE
+=
+'
+urlformatter
+'

@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-breakpad_sps_common
 LIBRARY_NAME
 =
 breakpad_sps_common_s

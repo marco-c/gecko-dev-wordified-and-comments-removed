@@ -69,3 +69,8 @@ DIRS
 secondplugin
 '
 ]
+MODULE
+=
+'
+nptest
+'

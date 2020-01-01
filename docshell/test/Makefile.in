@@ -69,9 +69,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-MODULE
-=
-test_docshell
 include
 (
 DEPTH

@@ -108,9 +108,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_mtransport
 FAIL_ON_WARNINGS
 =
 1

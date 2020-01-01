@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-contentprefs
 EXTRA_COMPONENTS
 =
 \

@@ -79,12 +79,6 @@ FAIL_ON_WARNINGS
 :
 =
 1
-MODULE
-:
-=
-services
--
-crypto
 LIBRARY_NAME
 :
 =

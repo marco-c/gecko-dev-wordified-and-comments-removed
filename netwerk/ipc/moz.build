@@ -76,3 +76,8 @@ XPIDL_MODULE
 '
 necko_ipc
 '
+MODULE
+=
+'
+necko
+'

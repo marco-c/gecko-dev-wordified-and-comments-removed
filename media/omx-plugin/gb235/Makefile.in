@@ -146,9 +146,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-omxplugingb235
 MODULE_NAME
 =
 omxplugingb235

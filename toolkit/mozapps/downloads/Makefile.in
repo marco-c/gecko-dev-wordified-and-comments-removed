@@ -76,9 +76,6 @@ config
 config
 .
 mk
-MODULE
-=
-helperAppDlg
 EXTRA_COMPONENTS
 =
 nsHelperAppDlg

@@ -79,3 +79,8 @@ nsIStartupCache
 idl
 '
 ]
+MODULE
+=
+'
+startupcache
+'

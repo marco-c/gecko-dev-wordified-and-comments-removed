@@ -72,3 +72,8 @@ mochitest
 chrome
 '
 ]
+MODULE
+=
+'
+test_libjar
+'

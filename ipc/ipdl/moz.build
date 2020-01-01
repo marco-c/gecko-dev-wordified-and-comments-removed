@@ -77,3 +77,8 @@ DIRS
 test
 '
 ]
+MODULE
+=
+'
+ipdlgen
+'

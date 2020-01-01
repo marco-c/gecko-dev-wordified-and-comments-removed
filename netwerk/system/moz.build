@@ -156,3 +156,8 @@ DIRS
 android
 '
 ]
+MODULE
+=
+'
+necko
+'

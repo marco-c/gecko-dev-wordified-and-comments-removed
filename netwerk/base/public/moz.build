@@ -594,3 +594,8 @@ nsIBrowserSearchService
 idl
 '
 ]
+MODULE
+=
+'
+necko
+'

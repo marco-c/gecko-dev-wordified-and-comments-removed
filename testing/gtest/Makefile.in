@@ -135,9 +135,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-gtest
 MODULE_NAME
 =
 gtest

@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-alerts
 LIBRARY_NAME
 =
 alerts_s

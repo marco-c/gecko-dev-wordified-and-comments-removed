@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-html5
 LIBRARY_NAME
 =
 html5p_s

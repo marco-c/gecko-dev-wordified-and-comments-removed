@@ -88,9 +88,6 @@ src
 objs
 .
 mk
-MODULE
-=
-profdirserviceprovider
 LIBRARY_NAME
 =
 profdirserviceprovidersa_s

@@ -166,3 +166,8 @@ mozIStorageValueArray
 idl
 '
 ]
+MODULE
+=
+'
+storage
+'

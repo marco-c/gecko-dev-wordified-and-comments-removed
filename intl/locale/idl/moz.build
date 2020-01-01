@@ -86,3 +86,8 @@ nsIScriptableDateFormat
 idl
 '
 ]
+MODULE
+=
+'
+locale
+'

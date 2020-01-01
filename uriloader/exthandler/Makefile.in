@@ -149,9 +149,6 @@ srcdir
 (
 OSDIR
 )
-MODULE
-=
-exthandler
 LIBRARY_NAME
 =
 exthandler_s

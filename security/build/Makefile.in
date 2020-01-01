@@ -82,9 +82,6 @@ CXX_WRAPPER
 =
 ifdef
 MOZ_FOLD_LIBS
-MODULE
-=
-nss
 #
 TODO
 :

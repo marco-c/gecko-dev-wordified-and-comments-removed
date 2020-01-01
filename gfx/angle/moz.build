@@ -95,3 +95,8 @@ src
 libEGL
 '
 ]
+MODULE
+=
+'
+angle
+'

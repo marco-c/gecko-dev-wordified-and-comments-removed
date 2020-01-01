@@ -79,9 +79,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-editor
 LIBRARY_NAME
 =
 htmleditor_s

@@ -196,3 +196,8 @@ nsIWebPageDescriptor
 idl
 '
 ]
+MODULE
+=
+'
+docshell
+'

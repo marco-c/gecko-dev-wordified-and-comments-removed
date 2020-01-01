@@ -91,9 +91,6 @@ metro
 components
 .
 manifest
-MODULE
-=
-components
 EXTRA_PP_COMPONENTS
 =
 \

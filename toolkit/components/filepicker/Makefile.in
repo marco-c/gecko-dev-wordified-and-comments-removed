@@ -92,9 +92,6 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
-MODULE
-=
-filepicker
 LIBRARY_NAME
 =
 fileview

@@ -77,9 +77,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-redit
 ifeq
 (
 (

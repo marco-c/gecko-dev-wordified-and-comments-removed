@@ -69,3 +69,8 @@ DIRS
 internal
 '
 ]
+MODULE
+=
+'
+unicharutil
+'

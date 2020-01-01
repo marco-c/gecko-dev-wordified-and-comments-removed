@@ -84,3 +84,8 @@ XPIDL_MODULE
 '
 dom_audiochannel
 '
+MODULE
+=
+'
+dom
+'

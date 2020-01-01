@@ -91,9 +91,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-mar
 ifeq
 (
 (

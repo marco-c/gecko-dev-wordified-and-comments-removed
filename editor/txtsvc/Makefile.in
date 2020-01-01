@@ -80,10 +80,6 @@ config
 autoconf
 .
 mk
-MODULE
-:
-=
-txtsvc
 include
 (
 topsrcdir

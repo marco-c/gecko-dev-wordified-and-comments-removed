@@ -75,3 +75,8 @@ rdfpoll
 triplescat
 '
 ]
+MODULE
+=
+'
+test_rdf
+'

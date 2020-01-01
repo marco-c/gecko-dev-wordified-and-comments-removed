@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-imglib2
 GRE_MODULE
 =
 1

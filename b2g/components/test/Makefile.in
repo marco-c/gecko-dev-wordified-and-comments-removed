@@ -93,9 +93,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-B2GComponents
 XPCSHELL_TESTS
 =
 unit

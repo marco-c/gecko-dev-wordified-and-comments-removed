@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-xpcwrappers
 LIBRARY_NAME
 =
 xpcwrappers_s

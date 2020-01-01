@@ -76,11 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-browser
--
-feeds
 include
 (
 topsrcdir

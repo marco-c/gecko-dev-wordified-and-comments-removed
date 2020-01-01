@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-xpcom
 INTERNAL_TOOLS
 =
 1

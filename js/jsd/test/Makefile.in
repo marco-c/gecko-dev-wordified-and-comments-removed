@@ -79,9 +79,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-jsdebug
 MOCHITEST_FILES
 =
 test_bug507448

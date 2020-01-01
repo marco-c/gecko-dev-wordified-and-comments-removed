@@ -96,3 +96,8 @@ nsIXULTemplateRuleFilter
 idl
 '
 ]
+MODULE
+=
+'
+xultmpl
+'

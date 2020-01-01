@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-skia_npapi
 LIBRARY_NAME
 =
 skia_npapi

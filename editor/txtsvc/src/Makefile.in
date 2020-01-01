@@ -79,9 +79,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-txtsvc
 LIBRARY_NAME
 =
 txtsvc_s

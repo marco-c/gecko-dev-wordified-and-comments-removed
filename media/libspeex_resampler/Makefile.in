@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-speex_resampler
 include
 (
 topsrcdir

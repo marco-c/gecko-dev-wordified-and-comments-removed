@@ -124,3 +124,8 @@ nsIFeedTextConstruct
 idl
 '
 ]
+MODULE
+=
+'
+feeds
+'

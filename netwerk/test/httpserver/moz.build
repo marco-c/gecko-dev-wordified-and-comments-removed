@@ -71,3 +71,8 @@ nsIHttpServer
 idl
 '
 ]
+MODULE
+=
+'
+test_necko
+'

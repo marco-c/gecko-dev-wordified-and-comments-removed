@@ -81,3 +81,8 @@ xpctest_params
 idl
 '
 ]
+MODULE
+=
+'
+xpctest
+'

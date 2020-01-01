@@ -102,3 +102,8 @@ nsIWinAppHelper
 idl
 '
 ]
+MODULE
+=
+'
+xulapp
+'

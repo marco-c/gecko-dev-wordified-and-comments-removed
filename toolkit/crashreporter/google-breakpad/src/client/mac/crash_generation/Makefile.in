@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-crash_generation
 LIBRARY_NAME
 =
 crash_generation_s

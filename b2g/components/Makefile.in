@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-B2GComponents
 EXTRA_PP_COMPONENTS
 =
 \

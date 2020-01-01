@@ -71,3 +71,8 @@ nsIProfileUnlocker
 idl
 '
 ]
+MODULE
+=
+'
+profile
+'

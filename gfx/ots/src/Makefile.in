@@ -217,9 +217,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-ots
 LIBRARY_NAME
 =
 mozots

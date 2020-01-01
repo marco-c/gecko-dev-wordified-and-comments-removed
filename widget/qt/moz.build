@@ -69,3 +69,8 @@ DIRS
 faststartupqt
 '
 ]
+MODULE
+=
+'
+widget
+'

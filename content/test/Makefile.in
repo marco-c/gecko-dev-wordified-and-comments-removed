@@ -79,9 +79,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_content
 XPCSHELL_TESTS
 =
 unit

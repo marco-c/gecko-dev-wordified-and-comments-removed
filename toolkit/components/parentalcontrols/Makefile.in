@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-parentalcontrols
 ifndef
 MOZ_DISABLE_PARENTAL_CONTROLS
 ifeq

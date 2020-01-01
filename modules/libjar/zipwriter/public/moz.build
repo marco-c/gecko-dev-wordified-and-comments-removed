@@ -71,3 +71,8 @@ nsIZipWriter
 idl
 '
 ]
+MODULE
+=
+'
+zipwriter
+'

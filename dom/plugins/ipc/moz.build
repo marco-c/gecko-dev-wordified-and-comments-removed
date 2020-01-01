@@ -82,3 +82,8 @@ DIRS
 interpose
 '
 ]
+MODULE
+=
+'
+dom
+'

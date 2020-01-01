@@ -95,3 +95,8 @@ MODULES_LIBJAR_LXPIDLSRCS
 )
 '
 ]
+MODULE
+=
+'
+jar
+'

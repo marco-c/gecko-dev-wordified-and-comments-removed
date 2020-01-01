@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-osfile
 LIBRARY_NAME
 =
 osfile_s

@@ -105,9 +105,6 @@ srcdir
 objs
 .
 mk
-MODULE
-=
-xpcom
 LIBRARY_NAME
 =
 xpcomglue_staticruntime

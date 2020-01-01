@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-toolkitShared
 EXTRA_PP_JS_MODULES
 =
 \

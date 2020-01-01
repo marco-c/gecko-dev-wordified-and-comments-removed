@@ -69,3 +69,8 @@ DIRS
 chrome
 '
 ]
+MODULE
+=
+'
+test_downloads
+'

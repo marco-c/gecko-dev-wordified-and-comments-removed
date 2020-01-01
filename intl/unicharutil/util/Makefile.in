@@ -121,9 +121,6 @@ srcdir
 objs
 .
 mk
-MODULE
-=
-unicharutil
 LIBRARY_NAME
 =
 unicharutil_external_s

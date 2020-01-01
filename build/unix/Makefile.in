@@ -84,9 +84,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-build
 SDK_BINARY
 =
 run

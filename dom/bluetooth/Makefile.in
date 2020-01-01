@@ -216,9 +216,6 @@ ifneq
 MOZ_B2G_BT
 )
 )
-MODULE
-=
-dom
 LIBRARY_NAME
 =
 dombluetooth_s

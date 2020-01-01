@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-libpixman
 LIBRARY_NAME
 =
 mozlibpixman

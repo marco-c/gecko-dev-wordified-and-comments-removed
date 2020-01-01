@@ -71,3 +71,8 @@ IPeerConnection
 idl
 '
 ]
+MODULE
+=
+'
+peerconnection
+'

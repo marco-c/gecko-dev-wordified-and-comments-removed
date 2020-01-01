@@ -106,9 +106,6 @@ stubs
 (
 NULL
 )
-MODULE
-=
-protobuf
 LIBRARY_NAME
 =
 protobuf_s

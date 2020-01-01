@@ -76,3 +76,8 @@ nsIExtendedExpatSink
 idl
 '
 ]
+MODULE
+=
+'
+htmlparser
+'

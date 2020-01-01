@@ -86,3 +86,8 @@ nsIWindowProvider
 idl
 '
 ]
+MODULE
+=
+'
+embed_base
+'

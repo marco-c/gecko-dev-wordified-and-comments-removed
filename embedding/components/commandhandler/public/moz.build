@@ -96,3 +96,8 @@ nsPICommandUpdater
 idl
 '
 ]
+MODULE
+=
+'
+commandhandler
+'

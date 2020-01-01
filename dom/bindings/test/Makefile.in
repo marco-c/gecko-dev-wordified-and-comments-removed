@@ -68,9 +68,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-MODULE
-=
-dom
 LIBRARY_NAME
 =
 dombindings_test_s

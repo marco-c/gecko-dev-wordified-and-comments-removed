@@ -94,3 +94,8 @@ nsIDownloadProgressListener
 idl
 '
 ]
+MODULE
+=
+'
+downloads
+'

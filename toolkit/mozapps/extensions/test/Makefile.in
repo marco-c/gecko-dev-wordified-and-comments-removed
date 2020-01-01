@@ -111,9 +111,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_extensionmanager
 XPCSHELL_TESTS
 =
 \

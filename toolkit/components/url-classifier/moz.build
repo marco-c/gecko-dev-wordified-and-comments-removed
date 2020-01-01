@@ -104,3 +104,10 @@ nsIUrlListManager
 idl
 '
 ]
+MODULE
+=
+'
+url
+-
+classifier
+'

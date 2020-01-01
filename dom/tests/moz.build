@@ -72,3 +72,8 @@ mochitest
 browser
 '
 ]
+MODULE
+=
+'
+test_dom
+'

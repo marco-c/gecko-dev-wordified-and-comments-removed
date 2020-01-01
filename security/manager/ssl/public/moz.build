@@ -339,3 +339,8 @@ nsICertTree
 idl
 '
 ]
+MODULE
+=
+'
+pipnss
+'

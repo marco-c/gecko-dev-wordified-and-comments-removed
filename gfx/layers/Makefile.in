@@ -113,9 +113,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-thebes
 LIBRARY_NAME
 =
 layers

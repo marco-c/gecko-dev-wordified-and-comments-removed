@@ -72,9 +72,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-theora
 LIBRARY_NAME
 =
 theora

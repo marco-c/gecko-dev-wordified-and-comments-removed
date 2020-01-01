@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-dbus
 LIBRARY_NAME
 =
 dbusservice

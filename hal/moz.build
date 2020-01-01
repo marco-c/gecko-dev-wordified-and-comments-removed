@@ -71,3 +71,8 @@ nsIRecoveryService
 idl
 '
 ]
+MODULE
+=
+'
+hal
+'

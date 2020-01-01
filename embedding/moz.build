@@ -83,3 +83,8 @@ TEST_DIRS
 test
 '
 ]
+MODULE
+=
+'
+embed
+'

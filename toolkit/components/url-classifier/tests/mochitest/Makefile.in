@@ -69,11 +69,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-MODULE
-=
-test_url
--
-classifier
 include
 (
 DEPTH

@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-MobileComponents
 EXTRA_PP_COMPONENTS
 =
 \

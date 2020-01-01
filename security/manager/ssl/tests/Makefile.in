@@ -68,9 +68,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-MODULE
-=
-pipnss
 XPCSHELL_TESTS
 =
 unit

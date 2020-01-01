@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-breakpad_solaris_common
 LIBRARY_NAME
 =
 breakpad_solaris_common_s

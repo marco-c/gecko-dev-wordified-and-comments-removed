@@ -79,9 +79,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-ipc
 LIBRARY_NAME
 =
 moznetd_s

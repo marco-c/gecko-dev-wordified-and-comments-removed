@@ -113,9 +113,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-robocop
 ROBOTIUM_PATH
 =
 (

@@ -71,3 +71,8 @@ nsIIconURI
 idl
 '
 ]
+MODULE
+=
+'
+imgicon
+'

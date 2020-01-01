@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-imgicon
 LIBRARY_NAME
 =
 imgiconqt_s

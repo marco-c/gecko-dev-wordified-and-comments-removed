@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-osfile
 MOCHITEST_CHROME_FILES
 :
 =

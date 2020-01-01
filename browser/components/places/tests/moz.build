@@ -72,3 +72,8 @@ browser
 chrome
 '
 ]
+MODULE
+=
+'
+test_browser_places
+'

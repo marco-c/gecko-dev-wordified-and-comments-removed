@@ -68,9 +68,6 @@ srcdir
 LIBRARY_NAME
 =
 IA2Marshal
-MODULE
-=
-accessibility
 GRE_MODULE
 =
 1

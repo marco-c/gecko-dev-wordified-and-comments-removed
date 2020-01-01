@@ -77,3 +77,10 @@ TEST_DIRS
 tests
 '
 ]
+MODULE
+=
+'
+services
+-
+crypto
+'

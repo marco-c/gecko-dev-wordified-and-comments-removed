@@ -81,3 +81,8 @@ XPIDL_MODULE
 '
 necko_websocket
 '
+MODULE
+=
+'
+necko
+'

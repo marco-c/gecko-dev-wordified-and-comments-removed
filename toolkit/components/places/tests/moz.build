@@ -90,3 +90,8 @@ TEST_TOOL_DIRS
 cpp
 '
 ]
+MODULE
+=
+'
+test_places
+'

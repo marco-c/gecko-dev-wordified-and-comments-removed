@@ -100,9 +100,6 @@ would
 be
 more
 logical
-MODULE
-=
-appcomps
 include
 (
 topsrcdir

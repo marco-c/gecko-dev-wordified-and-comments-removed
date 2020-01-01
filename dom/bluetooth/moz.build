@@ -140,6 +140,11 @@ MOZ_B2G_BT
 '
 ]
 :
+MODULE
+=
+'
+dom
+'
 XPIDL_MODULE
 =
 '

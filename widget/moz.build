@@ -476,3 +476,8 @@ nsIWinMetroUtils
 idl
 '
 ]
+MODULE
+=
+'
+widget
+'

@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-expat
 EXPORTS
 =
 expat_config

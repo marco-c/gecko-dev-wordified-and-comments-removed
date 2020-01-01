@@ -86,3 +86,8 @@ nsITransactionManager
 idl
 '
 ]
+MODULE
+=
+'
+txmgr
+'

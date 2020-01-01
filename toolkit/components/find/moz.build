@@ -71,3 +71,8 @@ nsIFindService
 idl
 '
 ]
+MODULE
+=
+'
+mozfind
+'

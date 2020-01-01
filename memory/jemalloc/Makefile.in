@@ -84,9 +84,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-jemalloc
 LIBRARY_NAME
 =
 jemalloc

@@ -172,9 +172,6 @@ DEFINES
 -
 DARCH_ARMV6
 endif
-MODULE
-=
-profiler
 MODULE_NAME
 =
 nsProfilerModule

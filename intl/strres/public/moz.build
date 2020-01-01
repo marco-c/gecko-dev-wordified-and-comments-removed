@@ -76,3 +76,8 @@ nsIStringBundleOverride
 idl
 '
 ]
+MODULE
+=
+'
+intl
+'

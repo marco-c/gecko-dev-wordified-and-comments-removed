@@ -71,3 +71,8 @@ nsIShellService
 idl
 '
 ]
+MODULE
+=
+'
+browsercomps
+'

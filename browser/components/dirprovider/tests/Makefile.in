@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_browserdir
 XPCSHELL_TESTS
 =
 unit

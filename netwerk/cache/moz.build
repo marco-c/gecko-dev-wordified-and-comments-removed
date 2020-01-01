@@ -101,3 +101,8 @@ XPIDL_MODULE
 '
 necko_cache
 '
+MODULE
+=
+'
+nkcache
+'

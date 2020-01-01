@@ -124,9 +124,6 @@ config
 milestone
 .
 txt
-MODULE
-=
-xulapp
 LIBRARY_NAME
 =
 xulapp_s

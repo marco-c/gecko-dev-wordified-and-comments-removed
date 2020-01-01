@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-browserabout
 LIBRARY_NAME
 =
 browserabout_s

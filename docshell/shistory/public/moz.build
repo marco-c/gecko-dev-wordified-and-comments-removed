@@ -106,3 +106,8 @@ nsISHistoryListener
 idl
 '
 ]
+MODULE
+=
+'
+shistory
+'

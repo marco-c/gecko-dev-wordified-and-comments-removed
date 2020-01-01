@@ -77,3 +77,8 @@ XPIDL_MODULE
 '
 dom_devicestorage
 '
+MODULE
+=
+'
+dom
+'

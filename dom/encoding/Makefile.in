@@ -79,9 +79,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-dom
 LIBRARY_NAME
 =
 domencoding_s

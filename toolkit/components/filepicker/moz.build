@@ -96,6 +96,11 @@ windows
 '
 )
 :
+MODULE
+=
+'
+filepicker
+'
 XPIDL_SOURCES
 +
 =

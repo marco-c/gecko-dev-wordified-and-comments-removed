@@ -210,3 +210,8 @@ DIRS
 analysis
 '
 ]
+MODULE
+=
+'
+xpcom
+'

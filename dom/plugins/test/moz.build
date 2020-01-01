@@ -97,3 +97,8 @@ TEST_DIRS
 mochitest
 '
 ]
+MODULE
+=
+'
+test_plugin
+'

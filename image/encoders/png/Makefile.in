@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-imgpnge
 LIBRARY_NAME
 =
 imgpnge_s

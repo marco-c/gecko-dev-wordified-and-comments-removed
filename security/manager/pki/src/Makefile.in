@@ -79,9 +79,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-pippki
 LIBRARY_NAME
 =
 pippki

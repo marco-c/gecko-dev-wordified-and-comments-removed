@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-dom
 LIBRARY_NAME
 =
 dom_indexeddb_s

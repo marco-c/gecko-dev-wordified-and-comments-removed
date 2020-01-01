@@ -139,3 +139,8 @@ XPIDL_MODULE
 '
 xpcom_system
 '
+MODULE
+=
+'
+xpcom
+'

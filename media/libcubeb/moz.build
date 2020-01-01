@@ -72,3 +72,8 @@ include
 src
 '
 ]
+MODULE
+=
+'
+cubeb
+'

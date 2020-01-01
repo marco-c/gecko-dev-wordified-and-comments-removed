@@ -114,9 +114,6 @@ cxx
 .
 pyc
 )
-MODULE
-=
-ipdlgen
 LIBRARY_NAME
 =
 mozipdlgen_s

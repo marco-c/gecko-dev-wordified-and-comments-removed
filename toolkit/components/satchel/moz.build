@@ -94,3 +94,8 @@ nsIInputListAutoComplete
 idl
 '
 ]
+MODULE
+=
+'
+satchel
+'

@@ -86,3 +86,8 @@ DIRS
 dwarf
 '
 ]
+MODULE
+=
+'
+breakpad_common
+'

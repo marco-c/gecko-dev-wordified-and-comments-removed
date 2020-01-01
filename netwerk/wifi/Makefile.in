@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-necko
 LIBRARY_NAME
 =
 neckowifi_s

@@ -117,3 +117,8 @@ XPIDL_MODULE
 '
 dom_media
 '
+MODULE
+=
+'
+dom
+'

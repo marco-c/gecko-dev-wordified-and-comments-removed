@@ -76,3 +76,8 @@ nsILayoutRegressionTester
 idl
 '
 ]
+MODULE
+=
+'
+layout_debug
+'

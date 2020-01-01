@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-storage
 LIBRARY_NAME
 =
 storage_s

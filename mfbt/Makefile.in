@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-mozglue
 LIBRARY_NAME
 =
 mfbt

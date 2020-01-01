@@ -80,16 +80,6 @@ autoconf
 .
 mk
 #
-Module
-name
-for
-xpcshell
-tests
-.
-MODULE
-=
-test_prompter
-#
 Mochitest
 tests
 MOCHITEST_FILES

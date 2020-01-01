@@ -90,9 +90,6 @@ srcdir
 )
 /
 fallback
-MODULE
-=
-dom
 LIBRARY_NAME
 =
 jsdomcontacts_s

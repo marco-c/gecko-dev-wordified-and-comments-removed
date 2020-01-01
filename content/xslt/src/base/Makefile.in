@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-transformiix
 LIBRARY_NAME
 =
 txbase_s

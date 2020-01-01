@@ -146,9 +146,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-libandroidstagefrightfroyo
 MODULE_NAME
 =
 libandroidstagefrightfroyo

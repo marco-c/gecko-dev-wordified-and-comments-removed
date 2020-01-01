@@ -81,9 +81,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-ipcshell
 LIBRARY_NAME
 =
 ipcshell_s

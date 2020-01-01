@@ -94,3 +94,8 @@ nsIXULOverlayProvider
 idl
 '
 ]
+MODULE
+=
+'
+xuldoc
+'

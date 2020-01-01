@@ -86,3 +86,8 @@ nsISecurityWarningDialogs
 idl
 '
 ]
+MODULE
+=
+'
+pipboot
+'

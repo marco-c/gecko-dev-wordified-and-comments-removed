@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-hunspell
 ifdef
 ENABLE_TESTS
 XPCSHELL_TESTS

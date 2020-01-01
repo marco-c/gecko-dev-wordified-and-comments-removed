@@ -81,9 +81,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_places
 CPP_UNIT_TESTS
 =
 \

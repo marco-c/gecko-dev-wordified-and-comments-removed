@@ -84,9 +84,6 @@ DHAVE_CONFIG_H
 vpx_config
 .
 h
-MODULE
-=
-vpx
 LIBRARY_NAME
 =
 vpx

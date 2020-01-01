@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-docshell
 LIBRARY_NAME
 =
 basedocshell_s

@@ -92,9 +92,6 @@ SHELL
 =
 ksh
 endif
-MODULE
-=
-layout
 LIBRARY_NAME
 =
 gklayout

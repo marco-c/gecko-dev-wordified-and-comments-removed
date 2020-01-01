@@ -96,9 +96,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-necko
 LIBRARY_NAME
 =
 nksctp_s

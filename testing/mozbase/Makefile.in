@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-testing_mozbase
 include
 (
 topsrcdir

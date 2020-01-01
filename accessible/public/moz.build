@@ -225,3 +225,8 @@ nsIXBLAccessible
 idl
 '
 ]
+MODULE
+=
+'
+accessibility
+'

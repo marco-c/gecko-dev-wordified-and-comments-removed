@@ -81,3 +81,8 @@ XPIDL_MODULE
 '
 dom_sidebar
 '
+MODULE
+=
+'
+dom
+'

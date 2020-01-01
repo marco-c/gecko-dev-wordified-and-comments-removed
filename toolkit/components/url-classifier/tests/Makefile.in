@@ -79,11 +79,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_url
--
-classifier
 MOZILLA_INTERNAL_API
 =
 1

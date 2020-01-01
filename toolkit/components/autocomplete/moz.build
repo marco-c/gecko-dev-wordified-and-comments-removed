@@ -104,3 +104,8 @@ nsIAutoCompleteSimpleResult
 idl
 '
 ]
+MODULE
+=
+'
+autocomplete
+'

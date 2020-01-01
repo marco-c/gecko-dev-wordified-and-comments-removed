@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-shistory
 GRE_MODULE
 =
 1

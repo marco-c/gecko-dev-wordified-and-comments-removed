@@ -117,3 +117,8 @@ nsIMacShellService
 idl
 '
 ]
+MODULE
+=
+'
+shellservice
+'

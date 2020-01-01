@@ -160,3 +160,8 @@ XPIDL_MODULE
 '
 browsercompsbase
 '
+MODULE
+=
+'
+browsercomps
+'

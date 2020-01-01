@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-jsloader
 LIBRARY_NAME
 =
 jsloader_s

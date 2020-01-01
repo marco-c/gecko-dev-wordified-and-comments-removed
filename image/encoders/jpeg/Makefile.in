@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-imgjpege
 LIBRARY_NAME
 =
 imgjpege_s

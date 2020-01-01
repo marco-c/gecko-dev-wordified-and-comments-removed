@@ -81,9 +81,6 @@ srcdir
 VPATH
 =
 srcdir
-MODULE
-=
-embed_base
 include
 (
 DEPTH

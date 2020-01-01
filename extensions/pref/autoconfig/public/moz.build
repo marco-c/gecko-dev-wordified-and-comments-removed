@@ -76,3 +76,8 @@ nsIReadConfig
 idl
 '
 ]
+MODULE
+=
+'
+autoconfig
+'

@@ -141,3 +141,8 @@ xpcjsid
 idl
 '
 ]
+MODULE
+=
+'
+xpconnect
+'

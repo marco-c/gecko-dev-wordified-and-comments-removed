@@ -68,9 +68,6 @@ srcdir
 LIBRARY_NAME
 =
 dummyvccorlib
-MODULE
-=
-dummyvccorlib
 GRE_MODULE
 =
 1

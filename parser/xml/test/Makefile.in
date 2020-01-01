@@ -173,9 +173,6 @@ test_
 <
 yourmodule
 >
-MODULE
-=
-test_xmlreader
 XPCSHELL_TESTS
 =
 unit

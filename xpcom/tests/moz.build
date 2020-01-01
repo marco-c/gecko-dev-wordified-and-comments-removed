@@ -117,3 +117,8 @@ static
 checker
 '
 ]
+MODULE
+=
+'
+xpcom
+'

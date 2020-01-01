@@ -81,3 +81,8 @@ nsISecurityCheckedComponent
 idl
 '
 ]
+MODULE
+=
+'
+caps
+'

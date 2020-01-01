@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-browserdir
 LIBRARY_NAME
 =
 browserdir_s

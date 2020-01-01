@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-cubeb
 LIBRARY_NAME
 =
 cubeb

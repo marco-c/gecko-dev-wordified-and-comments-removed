@@ -92,9 +92,6 @@ makefiles
 rcs
 .
 mk
-MODULE
-=
-telemetry
 MODULE_NAME
 =
 telemetry

@@ -79,3 +79,8 @@ nsICaptivePortalDetector
 idl
 '
 ]
+MODULE
+=
+'
+captivedetect
+'

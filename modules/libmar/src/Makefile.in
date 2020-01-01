@@ -91,9 +91,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-libmar
 LIBRARY_NAME
 =
 mar

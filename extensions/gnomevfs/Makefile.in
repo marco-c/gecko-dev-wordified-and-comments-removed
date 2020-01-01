@@ -90,9 +90,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-nkgnomevfs
 LIBRARY_NAME
 =
 nkgnomevfs

@@ -65,9 +65,6 @@ srcdir
 VPATH
 =
 srcdir
-MODULE
-=
-dom
 LIBRARY_NAME
 =
 dombindings_s

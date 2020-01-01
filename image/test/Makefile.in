@@ -85,9 +85,6 @@ for
 xpcshell
 tests
 .
-MODULE
-=
-test_libpr0n
 XPCSHELL_TESTS
 =
 unit

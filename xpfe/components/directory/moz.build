@@ -76,3 +76,8 @@ XPIDL_MODULE
 '
 directory
 '
+MODULE
+=
+'
+appcomps
+'

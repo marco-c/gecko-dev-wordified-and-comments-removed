@@ -105,9 +105,6 @@ use
 #
 unicharutil_external_s
 .
-MODULE
-=
-unicharutil
 LIBRARY_NAME
 =
 unicharutil_s

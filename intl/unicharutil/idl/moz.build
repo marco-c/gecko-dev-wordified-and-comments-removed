@@ -81,3 +81,8 @@ nsIUnicodeNormalizer
 idl
 '
 ]
+MODULE
+=
+'
+unicharutil
+'

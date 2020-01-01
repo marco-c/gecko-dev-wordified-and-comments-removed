@@ -114,9 +114,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-xremoteclient
 LIBRARY_NAME
 =
 xremote_client_s

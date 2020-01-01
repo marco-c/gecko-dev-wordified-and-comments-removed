@@ -79,3 +79,8 @@ nsIAlertsService
 idl
 '
 ]
+MODULE
+=
+'
+alerts
+'

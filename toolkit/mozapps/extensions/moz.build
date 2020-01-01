@@ -89,3 +89,8 @@ amIWebInstaller
 idl
 '
 ]
+MODULE
+=
+'
+extensions
+'

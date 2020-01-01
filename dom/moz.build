@@ -430,3 +430,8 @@ plugins
 test
 '
 ]
+MODULE
+=
+'
+dom
+'

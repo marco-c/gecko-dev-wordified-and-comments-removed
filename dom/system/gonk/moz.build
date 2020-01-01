@@ -210,3 +210,8 @@ network
 interfaces
 '
 ]
+MODULE
+=
+'
+dom
+'

@@ -71,3 +71,8 @@ nsGtkQtIconsConverter
 idl
 '
 ]
+MODULE
+=
+'
+gtkqticonsconverter
+'

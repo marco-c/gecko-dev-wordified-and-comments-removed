@@ -69,3 +69,8 @@ PARALLEL_DIRS
 test
 '
 ]
+MODULE
+=
+'
+appshell
+'

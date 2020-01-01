@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-migration
 LIBRARY_NAME
 =
 migration_s

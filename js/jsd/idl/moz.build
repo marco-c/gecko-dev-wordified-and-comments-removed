@@ -76,3 +76,8 @@ XPIDL_MODULE
 '
 jsdservice
 '
+MODULE
+=
+'
+jsdebug
+'

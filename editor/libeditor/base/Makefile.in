@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-editor
 LIBRARY_NAME
 =
 editorbase_s

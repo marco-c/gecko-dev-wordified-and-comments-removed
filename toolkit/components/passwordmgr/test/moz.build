@@ -72,3 +72,8 @@ browser
 auth2
 '
 ]
+MODULE
+=
+'
+test_passwordmgr
+'

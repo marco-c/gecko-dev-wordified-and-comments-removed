@@ -90,11 +90,6 @@ js
 (
 NULL
 )
-MODULE
-=
-services
--
-crypto
 EXTRA_COMPONENTS
 :
 =

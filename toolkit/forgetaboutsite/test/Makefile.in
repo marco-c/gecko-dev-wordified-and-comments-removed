@@ -83,10 +83,6 @@ config
 autoconf
 .
 mk
-MODULE
-:
-=
-forgetaboutsite
 XPCSHELL_TESTS
 :
 =

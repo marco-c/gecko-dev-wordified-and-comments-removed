@@ -76,3 +76,8 @@ nsITextServicesFilter
 idl
 '
 ]
+MODULE
+=
+'
+txtsvc
+'

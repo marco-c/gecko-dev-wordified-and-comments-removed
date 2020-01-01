@@ -85,9 +85,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-necko
 GRE_MODULE
 =
 1

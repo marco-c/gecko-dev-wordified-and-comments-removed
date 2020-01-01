@@ -65,9 +65,6 @@ srcdir
 VPATH
 =
 srcdir
-MODULE
-=
-spellchecker
 include
 (
 DEPTH

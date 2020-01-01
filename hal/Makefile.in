@@ -125,9 +125,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-hal
 LIBRARY_NAME
 =
 hal_s

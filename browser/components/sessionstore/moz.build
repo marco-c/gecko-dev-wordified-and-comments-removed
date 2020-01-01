@@ -92,3 +92,8 @@ nsISessionStore
 idl
 '
 ]
+MODULE
+=
+'
+sessionstore
+'

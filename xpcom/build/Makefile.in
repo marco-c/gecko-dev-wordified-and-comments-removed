@@ -119,9 +119,6 @@ glue
 objs
 .
 mk
-MODULE
-=
-xpcom
 LIBRARY_NAME
 =
 xpcom_core

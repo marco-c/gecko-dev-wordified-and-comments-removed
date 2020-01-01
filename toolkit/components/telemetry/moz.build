@@ -84,3 +84,8 @@ nsITelemetryPing
 idl
 '
 ]
+MODULE
+=
+'
+telemetry
+'

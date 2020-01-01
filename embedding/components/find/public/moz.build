@@ -76,3 +76,8 @@ nsIWebBrowserFind
 idl
 '
 ]
+MODULE
+=
+'
+find
+'

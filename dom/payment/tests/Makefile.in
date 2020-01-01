@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_dom_payment
 XPCSHELL_TESTS
 =
 unit

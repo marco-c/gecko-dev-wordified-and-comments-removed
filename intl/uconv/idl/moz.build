@@ -91,3 +91,8 @@ nsIUTF8ConverterService
 idl
 '
 ]
+MODULE
+=
+'
+uconv
+'

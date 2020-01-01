@@ -75,3 +75,8 @@ src
 tools
 '
 ]
+MODULE
+=
+'
+xpcom
+'

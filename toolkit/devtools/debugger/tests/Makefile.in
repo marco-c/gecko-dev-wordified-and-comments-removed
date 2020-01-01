@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_debugger
 XPCSHELL_TESTS
 =
 unit

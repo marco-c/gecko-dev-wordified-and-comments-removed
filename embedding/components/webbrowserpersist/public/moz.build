@@ -76,3 +76,8 @@ nsIWebBrowserPersist
 idl
 '
 ]
+MODULE
+=
+'
+webbrowserpersist
+'

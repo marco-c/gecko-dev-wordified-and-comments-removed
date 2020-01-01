@@ -20,9 +20,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-ycbcr
 LIBRARY_NAME
 =
 ycbcr

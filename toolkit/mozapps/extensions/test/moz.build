@@ -88,3 +88,8 @@ browser
 mochitest
 '
 ]
+MODULE
+=
+'
+test_extensionmanager
+'

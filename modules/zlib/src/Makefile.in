@@ -84,9 +84,6 @@ srcdir
 objs
 .
 mk
-MODULE
-=
-zlib
 LIBRARY_NAME
 =
 mozz

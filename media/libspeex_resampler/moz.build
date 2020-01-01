@@ -69,3 +69,8 @@ DIRS
 src
 '
 ]
+MODULE
+=
+'
+speex_resampler
+'

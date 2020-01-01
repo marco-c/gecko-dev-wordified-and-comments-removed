@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-satchel
 LIBRARY_NAME
 =
 satchel

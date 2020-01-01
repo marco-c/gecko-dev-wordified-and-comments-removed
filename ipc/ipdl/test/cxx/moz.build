@@ -69,3 +69,8 @@ TOOL_DIRS
 app
 '
 ]
+MODULE
+=
+'
+ipdlunittest
+'

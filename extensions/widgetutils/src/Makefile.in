@@ -90,9 +90,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-widgetutils
 XPI_NAME
 =
 widgetutils

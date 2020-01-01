@@ -71,3 +71,8 @@ nsITypeAheadFind
 idl
 '
 ]
+MODULE
+=
+'
+fastfind
+'

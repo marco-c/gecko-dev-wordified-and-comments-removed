@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_privatebrowsing
 MOCHITEST_BROWSER_FILES
 =
 \

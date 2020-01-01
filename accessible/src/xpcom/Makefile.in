@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-accessibility
 LIBRARY_NAME
 =
 accessibility_xpcom_s

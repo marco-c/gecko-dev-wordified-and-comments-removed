@@ -76,3 +76,8 @@ nsIPKIParamBlock
 idl
 '
 ]
+MODULE
+=
+'
+pippki
+'

@@ -96,3 +96,8 @@ nsIXULWindow
 idl
 '
 ]
+MODULE
+=
+'
+appshell
+'

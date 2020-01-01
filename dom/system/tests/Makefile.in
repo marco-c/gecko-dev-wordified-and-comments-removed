@@ -13,9 +13,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-MODULE
-=
-test_domsystem
 MOCHITEST_CHROME_FILES
 =
 \

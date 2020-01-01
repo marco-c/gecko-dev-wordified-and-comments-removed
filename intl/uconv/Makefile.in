@@ -152,9 +152,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-uconv
 include
 (
 topsrcdir

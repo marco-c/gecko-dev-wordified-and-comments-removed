@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-imgicoe
 LIBRARY_NAME
 =
 imgicoe_s

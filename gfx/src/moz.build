@@ -76,3 +76,8 @@ nsIScriptableRegion
 idl
 '
 ]
+MODULE
+=
+'
+gfx
+'

@@ -76,3 +76,8 @@ nsIPrefetchService
 idl
 '
 ]
+MODULE
+=
+'
+prefetch
+'

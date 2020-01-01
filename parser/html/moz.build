@@ -76,3 +76,8 @@ nsIScriptableUnescapeHTML
 idl
 '
 ]
+MODULE
+=
+'
+html5
+'

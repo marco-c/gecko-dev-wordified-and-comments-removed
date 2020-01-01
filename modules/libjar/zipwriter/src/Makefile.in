@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-zipwriter
 LIBRARY_NAME
 =
 zipwriter

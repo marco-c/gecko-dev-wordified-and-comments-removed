@@ -68,9 +68,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-MODULE
-=
-test_addon_sdk
 XPCSHELL_TESTS
 =
 unit

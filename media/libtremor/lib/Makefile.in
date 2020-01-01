@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-tremor
 LIBRARY_NAME
 =
 tremor

@@ -96,3 +96,8 @@ XPIDL_MODULE
 '
 necko_socket
 '
+MODULE
+=
+'
+necko
+'

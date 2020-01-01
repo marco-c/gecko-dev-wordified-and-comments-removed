@@ -86,3 +86,8 @@ XPIDL_MODULE
 '
 xpautocomplete
 '
+MODULE
+=
+'
+appcomps
+'

@@ -89,3 +89,8 @@ DIRS
 winvccorlib
 '
 ]
+MODULE
+=
+'
+libxul
+'

@@ -162,3 +162,8 @@ DIRS
 tool
 '
 ]
+MODULE
+=
+'
+libmar_test
+'

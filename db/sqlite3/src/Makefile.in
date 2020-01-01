@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-sqlite3
 LIBRARY_NAME
 =
 mozsqlite3

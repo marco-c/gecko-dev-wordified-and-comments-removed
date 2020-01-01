@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-loginmgr
 EXTRA_COMPONENTS
 =
 \

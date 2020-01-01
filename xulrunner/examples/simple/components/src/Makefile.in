@@ -90,9 +90,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-simple
 XPI_NAME
 =
 simple

@@ -69,3 +69,8 @@ DIRS
 mochitest
 '
 ]
+MODULE
+=
+'
+test_accessibility
+'

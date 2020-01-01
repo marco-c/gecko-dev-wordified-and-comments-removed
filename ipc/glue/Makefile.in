@@ -87,9 +87,6 @@ topsrcdir
 toolkit
 /
 crashreporter
-MODULE
-=
-ipc
 LIBRARY_NAME
 =
 mozipc_s

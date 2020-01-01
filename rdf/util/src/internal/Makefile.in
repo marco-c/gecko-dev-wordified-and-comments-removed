@@ -129,9 +129,6 @@ srcdir
 objs
 .
 mk
-MODULE
-=
-rdfutil
 LIBRARY_NAME
 =
 rdfutil_s

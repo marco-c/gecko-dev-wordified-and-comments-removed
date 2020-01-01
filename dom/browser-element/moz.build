@@ -89,3 +89,8 @@ XPIDL_MODULE
 '
 dom_browserelement
 '
+MODULE
+=
+'
+dom
+'

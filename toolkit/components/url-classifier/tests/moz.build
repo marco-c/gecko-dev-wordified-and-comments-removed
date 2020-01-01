@@ -69,3 +69,10 @@ TEST_DIRS
 mochitest
 '
 ]
+MODULE
+=
+'
+test_url
+-
+classifier
+'

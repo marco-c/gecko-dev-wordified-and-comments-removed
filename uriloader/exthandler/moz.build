@@ -114,3 +114,8 @@ nsIHelperAppLauncherDialog
 idl
 '
 ]
+MODULE
+=
+'
+exthandler
+'

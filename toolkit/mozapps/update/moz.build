@@ -216,3 +216,8 @@ nsIUpdateService
 idl
 '
 ]
+MODULE
+=
+'
+update
+'

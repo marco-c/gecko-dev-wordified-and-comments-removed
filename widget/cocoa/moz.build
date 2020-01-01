@@ -76,3 +76,8 @@ XPIDL_MODULE
 '
 widget_cocoa
 '
+MODULE
+=
+'
+widget
+'

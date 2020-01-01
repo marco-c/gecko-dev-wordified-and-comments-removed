@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-xultmpl
 LIBRARY_NAME
 =
 gkconxultmpl_s

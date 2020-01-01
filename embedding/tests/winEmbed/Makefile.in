@@ -290,9 +290,6 @@ RESFILE
 winEmbed
 .
 res
-MODULE
-=
-winEmbed
 CPPSRCS
 =
 \

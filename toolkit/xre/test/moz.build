@@ -82,3 +82,8 @@ DIRS
 win
 '
 ]
+MODULE
+=
+'
+test_xulapp
+'

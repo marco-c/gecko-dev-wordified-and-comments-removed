@@ -93,9 +93,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-test_necko
 CPPSRCS
 =
 \
