@@ -361,11 +361,6 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIObserver
 )
-NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
-(
-nsISupports
-nsIDOMMozMobileConnection
-)
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
 MozMobileConnection
