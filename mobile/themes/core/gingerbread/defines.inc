@@ -427,6 +427,10 @@ urlbar_edit_indent
 85mozmm
 %
 define
+urlbar_max_width
+96mozmm
+%
+define
 scroller_thickness
 0
 .
@@ -743,6 +747,10 @@ urlbar_edit_height
 define
 urlbar_edit_indent
 8px
+%
+define
+urlbar_max_width
+596px
 %
 define
 scroller_thickness
