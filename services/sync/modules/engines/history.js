@@ -917,7 +917,7 @@ options
 .
 maxResults
 =
-100
+1000
 ;
 options
 .
