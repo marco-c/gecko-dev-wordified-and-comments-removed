@@ -12343,11 +12343,8 @@ nsAccessible
 GetIndexInParent
 (
 )
+const
 {
-GetParent
-(
-)
-;
 return
 mIndexInParent
 ;

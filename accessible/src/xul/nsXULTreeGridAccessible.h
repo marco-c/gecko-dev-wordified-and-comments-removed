@@ -379,13 +379,8 @@ PRInt32
 GetIndexInParent
 (
 )
-{
-return
-GetColumnIndex
-(
-)
+const
 ;
-}
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_XULTREEGRIDCELLACCESSIBLE_IMPL_CID

@@ -499,6 +499,7 @@ PRInt32
 GetIndexInParent
 (
 )
+const
 ;
 PRBool
 HasChildren
