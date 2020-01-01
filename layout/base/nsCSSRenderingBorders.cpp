@@ -5888,6 +5888,9 @@ if
 mOneUnitBorder
 &
 &
+mNoBorderRadius
+&
+&
 (
 dashedSides
 &
