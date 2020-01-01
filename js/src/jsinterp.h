@@ -1135,9 +1135,6 @@ extern
 bool
 SameValue
 (
-JSContext
-*
-cx
 const
 Value
 &
@@ -1146,6 +1143,9 @@ const
 Value
 &
 v2
+JSContext
+*
+cx
 )
 ;
 extern
