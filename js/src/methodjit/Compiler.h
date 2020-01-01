@@ -2852,7 +2852,7 @@ interruptCheckHelper
 )
 ;
 void
-recompileCheckHelper
+ionCompileHelper
 (
 )
 ;

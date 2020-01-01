@@ -320,6 +320,9 @@ InterpreterFrames
 class
 DebugScopes
 ;
+class
+WorkerThreadState
+;
 struct
 GSNCache
 {
@@ -2245,6 +2248,13 @@ JS_THREADSAFE
 js
 :
 :
+WorkerThreadState
+*
+workerThreadState
+;
+js
+:
+:
 SourceCompressorThread
 sourceCompressorThread
 ;
@@ -2517,13 +2527,6 @@ ion
 IonActivation
 *
 ionActivation
-;
-JS
-:
-:
-CompilerRootNode
-*
-ionCompilerRootList
 ;
 private
 :

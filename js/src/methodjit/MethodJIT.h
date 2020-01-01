@@ -2746,9 +2746,6 @@ shimPool
 uint32_t
 ionCalls
 ;
-bool
-mustDestroyEntryChunk
-;
 #
 ifdef
 JS_MONOIC
@@ -3244,6 +3241,17 @@ fop
 )
 ;
 }
+void
+ReleaseScriptCodeFromVM
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 void
 ExpandInlineFrames
 (
