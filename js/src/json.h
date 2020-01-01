@@ -77,6 +77,12 @@ StringBuffer
 sb
 )
 ;
+#
+undef
+STRICT
+#
+undef
+LEGACY
 enum
 DecodingMode
 {
