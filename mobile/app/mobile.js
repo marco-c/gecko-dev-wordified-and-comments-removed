@@ -495,7 +495,7 @@ proxy
 ;
 #
 ifdef
-MOZ_PLATFORM_MAEMO
+MOZ_ENABLE_LIBCONIC
 pref
 (
 "
