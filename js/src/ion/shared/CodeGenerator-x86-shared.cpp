@@ -1059,12 +1059,6 @@ emitter
 emit
 (
 resolver
-group
--
->
-freeRegs
-(
-)
 )
 ;
 emitter

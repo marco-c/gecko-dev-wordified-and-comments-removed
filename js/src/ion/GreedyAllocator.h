@@ -654,9 +654,6 @@ restores
 Mover
 phis
 ;
-RegisterSet
-freeOnExit
-;
 }
 ;
 private

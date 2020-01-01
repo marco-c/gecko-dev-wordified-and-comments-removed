@@ -1482,9 +1482,6 @@ LiveInterval
 >
 handled
 ;
-RegisterSet
-freeRegs
-;
 CodePosition
 *
 freeUntilPos
