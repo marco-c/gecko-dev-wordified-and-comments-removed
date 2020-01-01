@@ -347,6 +347,14 @@ test_drawDiscardedImage
 .
 html
 \
+short_header
+.
+gif
+\
+test_short_gif_header
+.
+html
+\
 (
 NULL
 )
