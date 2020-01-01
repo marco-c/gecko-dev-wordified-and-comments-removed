@@ -42,6 +42,11 @@ cstdlib
 >
 #
 include
+<
+cstdio
+>
+#
+include
 "
 Mappable
 .
