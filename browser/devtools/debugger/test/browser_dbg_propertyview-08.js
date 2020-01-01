@@ -540,7 +540,7 @@ function
 (
 )
 {
-dump
+info
 (
 "
 count
@@ -577,6 +577,14 @@ properties
 "
 )
 ;
+window
+.
+clearInterval
+(
+intervalID
+)
+;
+return
 resumeAndFinish
 (
 )
