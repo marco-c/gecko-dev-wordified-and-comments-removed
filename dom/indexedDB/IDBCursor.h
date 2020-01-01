@@ -351,6 +351,10 @@ nsPIDOMWindow
 >
 mOwner
 ;
+JSObject
+*
+mScriptOwner
+;
 Type
 mType
 ;
