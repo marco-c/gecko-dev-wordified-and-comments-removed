@@ -1322,7 +1322,7 @@ refcnt
 "
 )
 ;
-NS_ASSERT_OWNINGTHREAD_AND_NOT_CCTHREAD
+NS_ASSERT_OWNINGTHREAD
 (
 ExpirationTrackerObserver
 )
@@ -1389,7 +1389,7 @@ release
 "
 )
 ;
-NS_ASSERT_OWNINGTHREAD_AND_NOT_CCTHREAD
+NS_ASSERT_OWNINGTHREAD
 (
 ExpirationTrackerObserver
 )

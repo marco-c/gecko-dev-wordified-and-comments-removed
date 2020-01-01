@@ -19,9 +19,6 @@ Generic
 Main
 =
 1
-CycleCollector
-=
-2
 }
 ;
 }

@@ -227,11 +227,6 @@ nsCycleCollectionTraversalCallback
 h
 '
 '
-nsCycleCollectorUtils
-.
-h
-'
-'
 nsDataHashtable
 .
 h
