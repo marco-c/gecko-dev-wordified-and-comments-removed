@@ -2658,7 +2658,7 @@ gRootTags
 kFlowEntity
 kNone
 kNone
-kNonContainer
+0
 kDefaultPropRange
 0
 0
