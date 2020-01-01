@@ -1903,9 +1903,6 @@ break
 case
 eColor__moz_dialog
 :
-case
-eColor__moz_cellhighlight
-:
 /
 /
 XXX
@@ -2451,6 +2448,9 @@ fallbackColor
 ;
 break
 ;
+case
+eColor__moz_cellhighlight
+:
 case
 eColor__moz_mac_secondaryhighlight
 :
