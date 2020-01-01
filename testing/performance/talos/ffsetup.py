@@ -943,14 +943,6 @@ else
 res
 =
 0
-    
-print
-"
-ERROR
-:
-no
-metrics
-"
   
 return
 res
