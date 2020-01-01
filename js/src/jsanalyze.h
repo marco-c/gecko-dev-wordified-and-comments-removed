@@ -145,6 +145,11 @@ monitoredTypes
 :
 1
 ;
+bool
+monitoredTypesReturn
+:
+1
+;
 uint32
 stackDepth
 ;

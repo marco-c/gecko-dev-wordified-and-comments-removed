@@ -29,7 +29,7 @@ nested
 trap
 (
 myparent
-30
+32
 "
 success
 (
@@ -53,7 +53,7 @@ doNothing
 trap
 (
 myparent
-43
+47
 "
 myparent
 (

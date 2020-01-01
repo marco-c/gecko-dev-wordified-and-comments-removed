@@ -35956,7 +35956,6 @@ NULL
 js_NamespaceClass
 Namespace
 2
-JS_TypeHandlerDynamic
 namespace_props
 namespace_methods
 NULL
@@ -35989,7 +35988,6 @@ NULL
 js_QNameClass
 QName
 2
-JS_TypeHandlerDynamic
 qname_props
 qname_methods
 NULL
@@ -36097,7 +36095,6 @@ NULL
 js_XMLClass
 XML
 1
-JS_TypeHandlerDynamic
 NULL
 xml_methods
 xml_static_props

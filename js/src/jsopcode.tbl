@@ -2172,7 +2172,7 @@ JSOP_CALL
 call
 "
 NULL
-3
+5
 -
 1
 1
@@ -2180,6 +2180,8 @@ NULL
 JOF_UINT16
 |
 JOF_INVOKE
+|
+JOF_TYPESET
 )
 OPDEF
 (
@@ -2655,7 +2657,7 @@ JSOP_FUNAPPLY
 funapply
 "
 NULL
-3
+5
 -
 1
 1
@@ -2663,6 +2665,8 @@ NULL
 JOF_UINT16
 |
 JOF_INVOKE
+|
+JOF_TYPESET
 )
 OPDEF
 (
@@ -2753,7 +2757,7 @@ JSOP_NEW
 82
 js_new_str
 NULL
-3
+5
 -
 1
 1
@@ -2761,6 +2765,8 @@ NULL
 JOF_UINT16
 |
 JOF_INVOKE
+|
+JOF_TYPESET
 )
 /
 *
@@ -3728,7 +3734,7 @@ JSOP_EVAL
 eval
 "
 NULL
-3
+5
 -
 1
 1
@@ -3736,6 +3742,8 @@ NULL
 JOF_UINT16
 |
 JOF_INVOKE
+|
+JOF_TYPESET
 )
 /
 *
@@ -6614,7 +6622,7 @@ JSOP_FUNCALL
 funcall
 "
 NULL
-3
+5
 -
 1
 1
@@ -6622,6 +6630,8 @@ NULL
 JOF_UINT16
 |
 JOF_INVOKE
+|
+JOF_TYPESET
 )
 OPDEF
 (

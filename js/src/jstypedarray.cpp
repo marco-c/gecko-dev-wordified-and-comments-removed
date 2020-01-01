@@ -7390,7 +7390,7 @@ jsfuncs
 =
 {
 \
-JS_FN_TYPE
+JS_FN
 (
 "
 subarray
@@ -7401,10 +7401,9 @@ _typedArray
 fun_subarray
 2
 0
-JS_TypeHandlerThis
 )
 \
-JS_FN_TYPE
+JS_FN
 (
 "
 set
@@ -7415,7 +7414,6 @@ _typedArray
 fun_set
 2
 0
-JS_TypeHandlerVoid
 )
 \
 JS_FS_END
@@ -7687,8 +7685,6 @@ _typedArray
 :
 class_constructor
 3
-\
-JS_TypeHandlerNew
 \
 _typedArray
 :
@@ -8061,7 +8057,6 @@ ArrayBuffer
 :
 class_constructor
 1
-JS_TypeHandlerNew
 ArrayBuffer
 :
 :

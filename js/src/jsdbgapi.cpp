@@ -4691,10 +4691,6 @@ getParent
 :
 NULL
 atom
-JS_TypeHandlerDynamic
-"
-SetWrapper
-"
 )
 ;
 if

@@ -2866,6 +2866,12 @@ thisType
 =
 =
 JSVAL_TYPE_OBJECT
+&
+&
+type
+=
+=
+JSVAL_TYPE_INT32
 )
 {
 if

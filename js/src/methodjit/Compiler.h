@@ -1975,8 +1975,6 @@ callSite
 void
 addReturnSite
 (
-bool
-ool
 )
 ;
 void
@@ -2433,6 +2431,10 @@ RegisterID
 dataReg
 bool
 testUndefined
+=
+false
+bool
+testReturn
 =
 false
 )
