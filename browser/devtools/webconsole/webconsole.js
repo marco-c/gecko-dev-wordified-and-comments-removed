@@ -14484,10 +14484,10 @@ aProperty
 value
 aProperty
 .
-gettter
+getter
 aProperty
 .
-settter
+setter
 ]
 ;
 grips
