@@ -1043,8 +1043,6 @@ SitePermissions
 remove
 (
 gPermURI
-.
-host
 aPartId
 )
 ;
