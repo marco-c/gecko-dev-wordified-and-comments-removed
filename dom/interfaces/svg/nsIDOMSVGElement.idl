@@ -99,9 +99,6 @@ nsIDOMElement
 idl
 "
 interface
-nsIDOMSVGAnimatedString
-;
-interface
 nsIDOMCSSStyleDeclaration
 ;
 interface
@@ -149,7 +146,7 @@ viewportElement
 ;
 readonly
 attribute
-nsIDOMSVGAnimatedString
+nsISupports
 className
 ;
 readonly

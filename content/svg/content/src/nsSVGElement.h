@@ -1236,7 +1236,13 @@ GetViewportElement
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+mozilla
+:
+:
+dom
+:
+:
+SVGAnimatedString
 >
 ClassName
 (

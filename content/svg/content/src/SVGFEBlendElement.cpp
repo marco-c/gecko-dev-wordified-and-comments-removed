@@ -197,7 +197,7 @@ SVGFEBlendElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEBlendElement
 :
@@ -220,7 +220,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEBlendElement
 :

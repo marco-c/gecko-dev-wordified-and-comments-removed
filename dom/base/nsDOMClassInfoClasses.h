@@ -228,10 +228,6 @@ SVGAnimatedNumber
 )
 DOMCI_CLASS
 (
-SVGAnimatedString
-)
-DOMCI_CLASS
-(
 SVGLength
 )
 DOMCI_CLASS

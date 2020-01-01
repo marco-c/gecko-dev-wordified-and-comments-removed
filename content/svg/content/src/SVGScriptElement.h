@@ -303,7 +303,7 @@ rv
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 Href
 (

@@ -127,7 +127,7 @@ const
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 In1
 (

@@ -139,9 +139,6 @@ apply
 .
 *
 /
-interface
-SVGAnimatedString
-;
 [
 NoInterfaceObject
 ]

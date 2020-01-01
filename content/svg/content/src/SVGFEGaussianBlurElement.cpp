@@ -140,7 +140,7 @@ SVGFEGaussianBlurElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEGaussianBlurElement
 :

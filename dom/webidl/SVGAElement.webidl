@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGAnimatedString
-;
-interface
 SVGAElement
 :
 SVGGraphicsElement

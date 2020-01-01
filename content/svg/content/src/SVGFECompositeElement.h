@@ -272,7 +272,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 In1
 (
@@ -280,7 +280,7 @@ In1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 In2
 (

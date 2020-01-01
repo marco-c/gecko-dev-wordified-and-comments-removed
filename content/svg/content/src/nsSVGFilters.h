@@ -842,7 +842,13 @@ Height
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+mozilla
+:
+:
+dom
+:
+:
+SVGAnimatedString
 >
 Result
 (

@@ -149,9 +149,6 @@ interface
 SVGAnimatedNumber
 ;
 interface
-SVGAnimatedString
-;
-interface
 SVGFETurbulenceElement
 :
 SVGElement

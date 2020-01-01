@@ -142,7 +142,7 @@ SVGFEOffsetElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEOffsetElement
 :

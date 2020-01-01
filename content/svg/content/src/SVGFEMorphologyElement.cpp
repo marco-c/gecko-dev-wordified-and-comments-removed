@@ -212,7 +212,7 @@ SVGFEMorphologyElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEMorphologyElement
 :

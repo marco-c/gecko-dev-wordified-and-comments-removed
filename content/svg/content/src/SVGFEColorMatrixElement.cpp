@@ -213,7 +213,7 @@ SVGFEColorMatrixElement
 )
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFEColorMatrixElement
 :

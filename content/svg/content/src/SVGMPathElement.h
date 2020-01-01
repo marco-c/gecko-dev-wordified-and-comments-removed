@@ -217,7 +217,7 @@ GetReferencedPath
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 Href
 (

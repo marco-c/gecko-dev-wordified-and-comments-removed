@@ -187,6 +187,11 @@ SVGAnimatedRect
 h
 '
 '
+SVGAnimatedString
+.
+h
+'
+'
 SVGAnimatedTransformList
 .
 h
@@ -658,6 +663,11 @@ cpp
 '
 '
 SVGAnimatedRect
+.
+cpp
+'
+'
+SVGAnimatedString
 .
 cpp
 '

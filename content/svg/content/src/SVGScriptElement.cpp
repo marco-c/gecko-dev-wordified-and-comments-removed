@@ -377,7 +377,7 @@ true
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGScriptElement
 :

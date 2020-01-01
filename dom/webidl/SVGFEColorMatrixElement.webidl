@@ -143,9 +143,6 @@ interface
 SVGAnimatedEnumeration
 ;
 interface
-SVGAnimatedString
-;
-interface
 SVGFEColorMatrixElement
 :
 SVGElement

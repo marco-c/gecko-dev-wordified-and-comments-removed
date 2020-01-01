@@ -146,9 +146,6 @@ interface
 SVGAnimatedNumber
 ;
 interface
-SVGAnimatedString
-;
-interface
 SVGFEDisplacementMapElement
 :
 SVGElement

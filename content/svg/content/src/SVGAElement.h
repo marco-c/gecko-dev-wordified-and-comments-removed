@@ -347,7 +347,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 Href
 (
@@ -355,7 +355,7 @@ Href
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 Target
 (

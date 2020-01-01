@@ -963,6 +963,10 @@ SVGAnimatedRect
 .
 webidl
 \
+SVGAnimatedString
+.
+webidl
+\
 SVGAnimatedTransformList
 .
 webidl

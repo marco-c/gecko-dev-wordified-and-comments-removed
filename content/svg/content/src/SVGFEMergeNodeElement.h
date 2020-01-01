@@ -144,7 +144,7 @@ IN1
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 In1
 (

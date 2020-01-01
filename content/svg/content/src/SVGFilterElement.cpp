@@ -495,7 +495,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedString
+SVGAnimatedString
 >
 SVGFilterElement
 :

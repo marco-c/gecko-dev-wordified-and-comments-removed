@@ -143,9 +143,6 @@ interface
 SVGAnimatedNumber
 ;
 interface
-SVGAnimatedString
-;
-interface
 SVGFEGaussianBlurElement
 :
 SVGElement

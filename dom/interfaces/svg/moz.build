@@ -118,11 +118,6 @@ nsIDOMSVGAnimatedNumber
 idl
 '
 '
-nsIDOMSVGAnimatedString
-.
-idl
-'
-'
 nsIDOMSVGElement
 .
 idl
