@@ -857,6 +857,8 @@ Let
 the
 dialog
 initialize
+SimpleTest
+.
 executeSoon
 (
 function
