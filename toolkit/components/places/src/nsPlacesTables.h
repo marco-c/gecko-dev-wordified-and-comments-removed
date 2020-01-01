@@ -85,6 +85,11 @@ INTEGER
 "
 \
 "
+guid
+TEXT
+"
+\
+"
 )
 "
 \
