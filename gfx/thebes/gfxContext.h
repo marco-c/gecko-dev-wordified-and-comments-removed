@@ -1250,6 +1250,10 @@ gfx
 :
 AA_SUBPIXEL
 )
+patternTransformChanged
+(
+false
+)
 {
 }
 mozilla
@@ -1362,6 +1366,12 @@ gfx
 AntialiasMode
 aaMode
 ;
+bool
+patternTransformChanged
+;
+Matrix
+patternTransform
+;
 }
 ;
 void
@@ -1403,6 +1413,11 @@ aDT
 ;
 CompositionOp
 GetOp
+(
+)
+;
+void
+TransformWillChange
 (
 )
 ;
