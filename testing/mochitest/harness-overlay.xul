@@ -447,10 +447,7 @@ loadTests
 false
 )
 ;
-[
 links
-singleTestPath
-]
 =
 getTestList
 (

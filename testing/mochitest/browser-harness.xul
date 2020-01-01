@@ -1232,10 +1232,8 @@ listTests
 (
 )
 {
-[
+var
 links
-singleTestPath
-]
 =
 getTestList
 (
