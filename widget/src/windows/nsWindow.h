@@ -2702,6 +2702,10 @@ sRedirectedKeyDown
 ;
 static
 PRBool
+sEnablePixelScrolling
+;
+static
+PRBool
 sNeedsToInitMouseWheelSettings
 ;
 static
