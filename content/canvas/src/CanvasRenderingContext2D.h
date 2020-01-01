@@ -2814,16 +2814,6 @@ nsAString
 aStr
 )
 ;
-void
-EnsureUnpremultiplyTable
-(
-)
-;
-void
-EnsurePremultiplyTable
-(
-)
-;
 static
 void
 EnsureErrorTarget
