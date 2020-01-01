@@ -1,6 +1,13 @@
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 mozilla
 /
 GuardObjects
@@ -36,13 +43,6 @@ h
 include
 "
 jscompartment
-.
-h
-"
-#
-include
-"
-jsfriendapi
 .
 h
 "

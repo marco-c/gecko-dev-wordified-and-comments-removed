@@ -4,6 +4,13 @@ jsdtoa_h___
 #
 define
 jsdtoa_h___
+#
+include
+<
+stddef
+.
+h
+>
 struct
 DtoaState
 ;
