@@ -1088,10 +1088,6 @@ jsbool
 .
 h
 \
-jsconfig
-.
-h
-\
 jscntxt
 .
 h
@@ -1205,6 +1201,10 @@ jsscript
 h
 \
 jsstr
+.
+h
+\
+jsversion
 .
 h
 \

@@ -7,7 +7,7 @@ jsparse_h___
 #
 include
 "
-jsconfig
+jsversion
 .
 h
 "

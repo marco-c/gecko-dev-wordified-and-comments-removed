@@ -429,7 +429,7 @@ BLOCK
 #
 include
 "
-jsconfig
+jsversion
 .
 h
 "

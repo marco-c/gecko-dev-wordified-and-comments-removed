@@ -905,10 +905,6 @@ jscompat
 .
 h
 \
-jsconfig
-.
-h
-\
 jsdate
 .
 h
@@ -1034,6 +1030,10 @@ jstypes
 h
 \
 jsutil
+.
+h
+\
+jsversion
 .
 h
 \
@@ -2798,7 +2798,7 @@ host_jskwgen
 OBJ_SUFFIX
 )
 :
-jsconfig
+jsversion
 .
 h
 jskeyword
