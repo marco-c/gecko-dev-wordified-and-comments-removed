@@ -17914,6 +17914,14 @@ rect
 ]
 ;
 }
+[
+[
+self
+mainChildView
+]
+maybeDrawInTitlebar
+]
+;
 }
 -
 (
