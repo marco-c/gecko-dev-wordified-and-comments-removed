@@ -1498,6 +1498,9 @@ SURFACE_CREATED
 SURFACE_DESTROYED
 =
 13
+GECKO_EVENT_SYNC
+=
+14
 dummy_java_enum_list_end
 }
 ;

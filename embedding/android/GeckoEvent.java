@@ -197,6 +197,14 @@ public
 static
 final
 int
+GECKO_EVENT_SYNC
+=
+14
+;
+public
+static
+final
+int
 IME_COMPOSITION_END
 =
 0

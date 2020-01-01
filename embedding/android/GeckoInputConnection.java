@@ -2263,6 +2263,12 @@ count
 )
 ;
 }
+GeckoAppShell
+.
+geckoEventSync
+(
+)
+;
 }
 public
 void
