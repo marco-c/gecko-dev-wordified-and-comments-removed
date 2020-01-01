@@ -947,6 +947,9 @@ components
 necko
 .
 xpt
+#
+ifdef
+MOZ_OJI
 bin
 /
 components
@@ -954,6 +957,8 @@ components
 oji
 .
 xpt
+#
+endif
 bin
 /
 components

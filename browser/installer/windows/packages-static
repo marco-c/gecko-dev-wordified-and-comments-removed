@@ -963,6 +963,9 @@ components
 necko_viewsource
 .
 xpt
+#
+ifdef
+MOZ_OJI
 bin
 \
 components
@@ -970,6 +973,8 @@ components
 oji
 .
 xpt
+#
+endif
 bin
 \
 components
