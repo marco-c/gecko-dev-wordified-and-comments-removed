@@ -11907,12 +11907,6 @@ NS_FORM_LABEL
 type
 !
 =
-NS_FORM_FIELDSET
-&
-&
-type
-!
-=
 NS_FORM_OBJECT
 &
 &
