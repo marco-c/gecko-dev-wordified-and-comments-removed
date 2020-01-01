@@ -847,6 +847,10 @@ test_transitions_dynamic_changes
 .
 html
 \
+test_transitions_bug537151
+.
+html
+\
 test_units_angle
 .
 html
