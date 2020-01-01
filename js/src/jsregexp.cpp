@@ -10968,6 +10968,10 @@ state
 ;
 LIns
 *
+start
+;
+LIns
+*
 cpend
 ;
 bool
@@ -15385,6 +15389,15 @@ LIR_live
 cpend
 )
 ;
+lir
+-
+>
+ins1
+(
+LIR_live
+start
+)
+;
 targetCurrentPoint
 (
 kidFails
@@ -16156,10 +16169,6 @@ guard
 =
 NULL
 ;
-LIns
-*
-pos
-;
 const
 jschar
 *
@@ -16476,7 +16485,7 @@ loopLabel
 ;
 }
 )
-pos
+start
 =
 addName
 (
@@ -16495,7 +16504,7 @@ skipped
 )
 )
 "
-pos
+start
 "
 )
 ;
@@ -16518,7 +16527,7 @@ cs
 -
 >
 result
-pos
+start
 )
 )
 goto
@@ -16536,7 +16545,7 @@ cs
 -
 >
 result
-pos
+start
 )
 )
 goto
