@@ -186,16 +186,6 @@ exceptionStr
 (
 ex
 )
-+
-"
-"
-+
-Utils
-.
-stackTrace
-(
-ex
-)
 )
 ;
 return
