@@ -399,6 +399,10 @@ HTMLOptGroupElement
 .
 webidl
 \
+HTMLOptionElement
+.
+webidl
+\
 HTMLOptionsCollection
 .
 webidl

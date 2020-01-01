@@ -2002,7 +2002,6 @@ nsGenericHTMLElement
 &
 >
 (
-*
 aElement
 .
 GetAsHTMLOptionElement
