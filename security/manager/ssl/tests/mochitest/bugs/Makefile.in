@@ -94,6 +94,10 @@ test_bug484111
 .
 html
 \
+test_bug882865
+.
+html
+\
 test_ev_validation
 .
 html
