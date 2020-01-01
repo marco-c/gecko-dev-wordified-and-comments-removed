@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIDOM3EventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h

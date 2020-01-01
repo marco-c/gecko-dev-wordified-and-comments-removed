@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsGenericElement
-.
-h
-"
-#
-include
-"
 nsGlobalWindow
 .
 h
@@ -1277,13 +1270,6 @@ Shutdown
 )
 ;
 nsDOMAttribute
-:
-:
-Shutdown
-(
-)
-;
-nsDOMEventRTTearoff
 :
 :
 Shutdown

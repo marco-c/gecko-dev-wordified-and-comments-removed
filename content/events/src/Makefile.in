@@ -522,10 +522,6 @@ nsPrivateTextRange
 .
 cpp
 \
-nsDOMEventGroup
-.
-cpp
-\
 nsXMLEventsManager
 .
 cpp

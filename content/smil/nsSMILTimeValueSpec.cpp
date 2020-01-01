@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMEventGroup
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h
@@ -1290,7 +1283,6 @@ NS_EVENT_FLAG_BUBBLE
 NS_PRIV_EVENT_UNTRUSTED_PERMITTED
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }
@@ -1349,7 +1341,6 @@ NS_EVENT_FLAG_BUBBLE
 NS_PRIV_EVENT_UNTRUSTED_PERMITTED
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }

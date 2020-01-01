@@ -407,13 +407,6 @@ h
 #
 include
 "
-nsIDOMEventGroup
-.
-h
-"
-#
-include
-"
 nsIDOMDragEvent
 .
 h
@@ -3213,7 +3206,6 @@ dragover
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3239,7 +3231,6 @@ drop
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }
@@ -3346,7 +3337,6 @@ dragover
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 elmP
@@ -3364,7 +3354,6 @@ drop
 NS_EVENT_FLAG_BUBBLE
 |
 NS_EVENT_FLAG_SYSTEM_EVENT
-nsnull
 )
 ;
 }

@@ -32,9 +32,6 @@ class
 nsIContent
 ;
 class
-nsIDOM3EventTarget
-;
-class
 nsIDOMKeyEvent
 ;
 class

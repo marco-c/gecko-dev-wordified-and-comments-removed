@@ -279,13 +279,6 @@ h
 #
 include
 "
-nsIDOMEventGroup
-.
-h
-"
-#
-include
-"
 nsAttrName
 .
 h
@@ -3850,7 +3843,6 @@ nsDependentAtomString
 eventAtom
 )
 flags
-nsnull
 )
 ;
 }
@@ -3993,7 +3985,6 @@ AddEventListenerByType
 handler
 type
 flags
-nsnull
 )
 ;
 }
@@ -4440,7 +4431,6 @@ nsDependentAtomString
 eventAtom
 )
 flags
-nsnull
 )
 ;
 }
@@ -4569,7 +4559,6 @@ RemoveEventListenerByType
 handler
 type
 flags
-nsnull
 )
 ;
 }

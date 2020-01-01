@@ -603,9 +603,6 @@ interface
 nsIDOMEventListener
 ;
 interface
-nsIDOMEventGroup
-;
-interface
 nsIDOMEvent
 ;
 [

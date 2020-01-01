@@ -93,9 +93,6 @@ class
 nsIDOMEventTarget
 ;
 class
-nsIDOM3EventTarget
-;
-class
 nsXBLPrototypeBinding
 ;
 #

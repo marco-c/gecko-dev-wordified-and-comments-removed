@@ -604,9 +604,6 @@ nsIDOMEventTarget
 interface
 nsIDOMEventListener
 ;
-interface
-nsIDOMEventGroup
-;
 /
 /
 HTML

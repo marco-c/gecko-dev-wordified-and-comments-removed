@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIDOM3EventTarget
-.
-h
-"
-#
-include
-"
 nsHashtable
 .
 h
@@ -250,9 +243,6 @@ nsAString
 type
 PRInt32
 aFlags
-nsIDOMEventGroup
-*
-aEvtGroup
 )
 ;
 void
@@ -267,9 +257,6 @@ nsAString
 type
 PRInt32
 aFlags
-nsIDOMEventGroup
-*
-aEvtGroup
 )
 ;
 nsresult
@@ -540,7 +527,6 @@ nsIAtom
 aEvent
 )
 ;
-NS_DECL_NSIDOM3EVENTTARGET
 static
 void
 Shutdown
@@ -672,9 +658,6 @@ EventTypeData
 aTypeData
 PRInt32
 aFlags
-nsIDOMEventGroup
-*
-aEvtGrp
 )
 ;
 void
@@ -694,9 +677,6 @@ EventTypeData
 aTypeData
 PRInt32
 aFlags
-nsIDOMEventGroup
-*
-aEvtGrp
 )
 ;
 void
@@ -723,15 +703,6 @@ GetTypeDataForEventName
 nsIAtom
 *
 aName
-)
-;
-nsresult
-GetDOM2EventGroup
-(
-nsIDOMEventGroup
-*
-*
-aGroup
 )
 ;
 PRBool

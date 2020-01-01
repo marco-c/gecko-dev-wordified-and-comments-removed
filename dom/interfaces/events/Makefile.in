@@ -436,14 +436,6 @@ nsIDOMEventListener
 .
 idl
 \
-nsIDOM3EventTarget
-.
-idl
-\
-nsIDOMEventGroup
-.
-idl
-\
 nsIDOMMouseEvent
 .
 idl
