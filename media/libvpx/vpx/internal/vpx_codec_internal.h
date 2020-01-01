@@ -400,6 +400,7 @@ vpx_codec_put_slice_cb_fn_t
 put_slice
 ;
 }
+fn
 ;
 void
 *

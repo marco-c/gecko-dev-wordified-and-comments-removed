@@ -22,6 +22,7 @@ h
 "
 #
 if
+(
 defined
 (
 __GNUC__
@@ -29,6 +30,13 @@ __GNUC__
 &
 &
 __GNUC__
+)
+|
+|
+defined
+(
+__SUNPRO_C
+)
 #
 define
 DECLARE_ALIGNED

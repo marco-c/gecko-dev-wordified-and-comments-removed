@@ -776,6 +776,8 @@ dec
 .
 put_frame_cb
 .
+fn
+.
 put_frame
 =
 cb
@@ -881,6 +883,8 @@ priv
 dec
 .
 put_slice_cb
+.
+fn
 .
 put_slice
 =
