@@ -505,10 +505,6 @@ WebAppAllocator
 .
 java
 \
-ZoomConstraints
-.
-java
-\
 gfx
 /
 BitmapUtils
@@ -608,6 +604,12 @@ java
 gfx
 /
 Layer
+.
+java
+\
+gfx
+/
+LayerController
 .
 java
 \
@@ -728,12 +730,6 @@ java
 ui
 /
 PanZoomController
-.
-java
-\
-ui
-/
-PanZoomTarget
 .
 java
 \
