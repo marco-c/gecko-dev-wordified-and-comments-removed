@@ -34628,6 +34628,15 @@ PRBool
 checkForPopup
 =
 !
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
+&
+&
+!
 aDialog
 &
 &

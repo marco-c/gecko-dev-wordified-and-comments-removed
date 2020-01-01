@@ -524,6 +524,10 @@ test_resize_move_windows
 .
 xul
 \
+test_popup_blocker_chrome
+.
+xul
+\
 (
 NULL
 )
