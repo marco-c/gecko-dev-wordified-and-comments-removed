@@ -678,6 +678,13 @@ return
 rv
 ;
 }
+nsGlobalWindow
+:
+:
+Init
+(
+)
+;
 rv
 =
 nsContentUtils
