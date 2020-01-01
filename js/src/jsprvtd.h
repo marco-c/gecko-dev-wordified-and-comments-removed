@@ -193,6 +193,9 @@ struct
 Class
 ;
 class
+RegExpGuard
+;
+class
 RegExpObject
 ;
 class
