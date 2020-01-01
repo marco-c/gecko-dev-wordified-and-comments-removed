@@ -301,6 +301,10 @@ testErrorCopying
 .
 cpp
 \
+testEnclosingFunction
+.
+cpp
+\
 (
 NULL
 )
