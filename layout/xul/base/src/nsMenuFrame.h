@@ -663,6 +663,15 @@ friend
 class
 nsASyncMenuInitialization
 ;
+nsIFrame
+*
+SetPopupFrame
+(
+nsIFrame
+*
+aChildList
+)
+;
 void
 InitMenuParent
 (

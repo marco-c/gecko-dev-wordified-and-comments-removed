@@ -744,9 +744,11 @@ if
 !
 xulDocument
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 xulDocument
 -
 >
@@ -1825,15 +1827,6 @@ pm
 return
 NS_OK
 ;
-pm
--
->
-SetMouseLocation
-(
-aEvent
-popup
-)
-;
 mPopupContent
 =
 popup
@@ -1902,6 +1895,7 @@ EmptyString
 PR_FALSE
 PR_TRUE
 PR_FALSE
+aEvent
 )
 ;
 }
@@ -1969,6 +1963,7 @@ mPopupContent
 xPos
 yPos
 mIsContext
+aEvent
 )
 ;
 }
