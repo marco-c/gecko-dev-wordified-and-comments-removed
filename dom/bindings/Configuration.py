@@ -322,6 +322,22 @@ set
 for
 descriptor
 in
+(
+[
+self
+.
+getDescriptor
+(
+"
+DummyInterface
+"
+workers
+=
+False
+)
+]
++
+                           
 self
 .
 getDescriptors
@@ -332,6 +348,10 @@ False
 isExternal
 =
 False
+skipGen
+=
+False
+)
 )
 :
             
@@ -369,6 +389,22 @@ set
 for
 descriptor
 in
+(
+[
+self
+.
+getDescriptor
+(
+"
+DummyInterfaceWorkers
+"
+workers
+=
+True
+)
+]
++
+                           
 self
 .
 getDescriptors
@@ -379,6 +415,10 @@ True
 isExternal
 =
 False
+skipGen
+=
+False
+)
 )
 :
             
