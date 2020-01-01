@@ -294,8 +294,8 @@ updateBookmark
 (
 ContentResolver
 cr
-String
-oldUri
+int
+id
 String
 uri
 String
@@ -694,8 +694,8 @@ updateBookmark
 (
 ContentResolver
 cr
-String
-oldUri
+int
+id
 String
 uri
 String
@@ -709,7 +709,7 @@ sDb
 updateBookmark
 (
 cr
-oldUri
+id
 uri
 title
 keyword

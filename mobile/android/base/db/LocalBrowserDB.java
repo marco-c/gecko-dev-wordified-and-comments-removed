@@ -2533,8 +2533,8 @@ updateBookmark
 (
 ContentResolver
 cr
-String
-oldUri
+int
+id
 String
 uri
 String
@@ -2591,7 +2591,7 @@ mBookmarksUriWithProfile
 values
 Bookmarks
 .
-URL
+_ID
 +
 "
 =
@@ -2602,7 +2602,12 @@ String
 [
 ]
 {
-oldUri
+String
+.
+valueOf
+(
+id
+)
 }
 )
 ;
