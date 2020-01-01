@@ -1496,6 +1496,11 @@ contentDocument
 '
 nsIDOMHTMLFrameElement
 .
+contentWindow
+'
+'
+nsIDOMHTMLFrameElement
+.
 name
 '
 '
@@ -1517,6 +1522,11 @@ src
 nsIDOMHTMLIFrameElement
 .
 contentDocument
+'
+'
+nsIDOMHTMLIFrameElement
+.
+contentWindow
 '
 '
 nsIDOMHTMLImageElement
@@ -2002,11 +2012,6 @@ offsetWidth
 nsIDOMNSHTMLElement
 .
 scrollIntoView
-'
-'
-nsIDOMNSHTMLFrameElement
-.
-contentWindow
 '
 '
 nsIDOMHTMLOptionsCollection

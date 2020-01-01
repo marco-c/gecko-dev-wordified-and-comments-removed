@@ -718,10 +718,6 @@ nsIDOMNSHTMLElement
 .
 idl
 \
-nsIDOMNSHTMLFrameElement
-.
-idl
-\
 (
 NULL
 )
