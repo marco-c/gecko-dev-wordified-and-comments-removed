@@ -6423,6 +6423,12 @@ tied
 to
 our
 docshell
+or
+related
+to
+the
+loaded
+page
 var
 fieldsToSwap
 =
@@ -6438,6 +6444,9 @@ _contentWindow
 "
 "
 _webNavigation
+"
+"
+mIconURL
 "
 ]
 ;

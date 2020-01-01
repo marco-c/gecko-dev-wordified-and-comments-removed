@@ -12496,6 +12496,13 @@ setTabTitle
 aOurTab
 )
 ;
+this
+.
+updateIcon
+(
+aOurTab
+)
+;
 /
 /
 If
