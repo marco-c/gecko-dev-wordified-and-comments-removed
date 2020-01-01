@@ -9877,7 +9877,7 @@ rv
 selectedRadioButton
 -
 >
-Focus
+DOMFocus
 (
 )
 ;

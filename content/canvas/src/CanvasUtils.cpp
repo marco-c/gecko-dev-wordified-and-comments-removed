@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIHTMLCollection
-.
-h
-"
-#
-include
-"
 nsHTMLCanvasElement
 .
 h
