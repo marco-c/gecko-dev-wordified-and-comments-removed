@@ -2296,6 +2296,7 @@ places
 .
 css
 )
+*
 skin
 /
 classic
@@ -2313,6 +2314,8 @@ css
 places
 /
 organizer
+-
+aero
 .
 css
 )
