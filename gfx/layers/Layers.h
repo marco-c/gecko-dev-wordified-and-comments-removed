@@ -596,6 +596,17 @@ GetBackendType
 =
 0
 ;
+virtual
+void
+GetBackendName
+(
+nsAString
+&
+aName
+)
+=
+0
+;
 void
 SetUserData
 (
