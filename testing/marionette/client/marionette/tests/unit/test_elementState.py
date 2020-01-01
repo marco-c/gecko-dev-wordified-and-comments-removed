@@ -64,7 +64,7 @@ assertTrue
 (
 l
 .
-enabled
+is_enabled
 (
 )
 )
@@ -97,7 +97,7 @@ assertFalse
 (
 l
 .
-enabled
+is_enabled
 (
 )
 )
@@ -340,7 +340,7 @@ assertTrue
 (
 l
 .
-enabled
+is_enabled
 (
 )
 )
@@ -373,7 +373,7 @@ assertFalse
 (
 l
 .
-enabled
+is_enabled
 (
 )
 )

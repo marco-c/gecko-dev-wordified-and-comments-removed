@@ -475,7 +475,7 @@ id
 )
     
 def
-enabled
+is_enabled
 (
 self
 )
