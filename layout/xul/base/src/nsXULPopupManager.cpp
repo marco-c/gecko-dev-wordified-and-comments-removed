@@ -6970,9 +6970,11 @@ PR_TRUE
 }
 else
 if
+(
 NS_DIRECTION_IS_BLOCK
 (
 theDirection
+)
 )
 {
 if
