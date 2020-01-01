@@ -152,6 +152,15 @@ x
 -
 wav
 "
+mpd
+:
+"
+application
+/
+dash
++
+xml
+"
 }
 ;
 /
