@@ -479,16 +479,6 @@ IsDefunct
 return
 !
 mDOMNode
-|
-|
-!
-GetPresShell
-(
-)
-.
-get
-(
-)
 ;
 }
 virtual
