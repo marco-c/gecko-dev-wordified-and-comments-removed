@@ -6,18 +6,6 @@ xpcprivate
 h
 "
 #
-if
-defined
-(
-DEBUG_xpc_hacker
-)
-|
-|
-defined
-(
-DEBUG
-)
-#
 ifdef
 TAB
 #
@@ -2355,5 +2343,3 @@ return
 JS_TRUE
 ;
 }
-#
-endif
