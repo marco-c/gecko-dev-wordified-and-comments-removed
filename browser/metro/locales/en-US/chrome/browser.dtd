@@ -835,13 +835,12 @@ Number
 <
 !
 ENTITY
-contextCopyImageLocation
+contextCopyImage
 .
 label
 "
 Copy
 Image
-Location
 "
 >
 <
