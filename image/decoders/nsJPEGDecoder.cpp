@@ -15,13 +15,6 @@ h
 #
 include
 "
-imgIContainerObserver
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h

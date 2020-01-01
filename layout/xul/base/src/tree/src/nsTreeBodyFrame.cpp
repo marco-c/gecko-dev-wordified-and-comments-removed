@@ -313,13 +313,6 @@ h
 #
 include
 "
-imgIContainerObserver
-.
-h
-"
-#
-include
-"
 imgILoader
 .
 h

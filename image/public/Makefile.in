@@ -102,10 +102,6 @@ imgIContainerDebug
 .
 idl
 \
-imgIContainerObserver
-.
-idl
-\
 imgIDecoderObserver
 .
 idl

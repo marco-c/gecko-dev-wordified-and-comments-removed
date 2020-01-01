@@ -64,13 +64,6 @@ h
 #
 include
 "
-imgIContainerObserver
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h

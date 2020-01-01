@@ -40,13 +40,6 @@ RasterImage
 .
 h
 "
-#
-include
-"
-imgIContainerObserver
-.
-h
-"
 namespace
 mozilla
 {

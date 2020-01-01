@@ -24,7 +24,7 @@ h
 #
 include
 "
-imgIContainerObserver
+imgIDecoderObserver
 .
 h
 "
@@ -2546,7 +2546,7 @@ frameAdvanced
 {
 nsCOMPtr
 <
-imgIContainerObserver
+imgIDecoderObserver
 >
 observer
 (
@@ -6550,7 +6550,7 @@ UpdateImageContainer
 ;
 nsCOMPtr
 <
-imgIContainerObserver
+imgIDecoderObserver
 >
 observer
 (
@@ -11508,7 +11508,7 @@ done
 ;
 nsCOMPtr
 <
-imgIContainerObserver
+imgIDecoderObserver
 >
 observer
 (
