@@ -14,6 +14,16 @@ h
 namespace
 mozilla
 {
+nsresult
+InitOSFileConstants
+(
+)
+;
+nsresult
+CleanupOSFileConstants
+(
+)
+;
 bool
 DefineOSFileConstants
 (
