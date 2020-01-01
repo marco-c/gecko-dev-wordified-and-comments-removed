@@ -660,14 +660,6 @@ ins
 )
 ;
 bool
-visitModD
-(
-LModD
-*
-ins
-)
-;
-bool
 visitBinaryV
 (
 LBinaryV
