@@ -628,7 +628,7 @@ true
 }
 virtual
 const
-nsACString
+nsCString
 &
 GetContentType
 (
