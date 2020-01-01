@@ -496,10 +496,9 @@ INCLUDES
 -
 I
 (
-srcdir
+topsrcdir
 )
 /
-.
-.
+dom
 /
 base

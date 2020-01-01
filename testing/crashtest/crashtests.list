@@ -323,8 +323,6 @@ include
 /
 dom
 /
-src
-/
 base
 /
 crashtests

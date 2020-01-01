@@ -953,8 +953,6 @@ DEPTH
 /
 dom
 /
-src
-/
 base
 /
 (
@@ -2230,8 +2228,6 @@ topsrcdir
 )
 /
 dom
-/
-src
 /
 base
 \

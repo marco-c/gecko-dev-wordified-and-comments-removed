@@ -496,11 +496,10 @@ srcdir
 -
 I
 (
-srcdir
+topsrcdir
 )
 /
-.
-.
+dom
 /
 base
 \

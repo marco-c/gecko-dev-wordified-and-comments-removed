@@ -411,7 +411,6 @@ autoconf
 mk
 DIRS
 =
-base
 jsurl
 events
 storage

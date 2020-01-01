@@ -508,11 +508,10 @@ LOCAL_INCLUDES
 -
 I
 (
-srcdir
+topsrcdir
 )
 /
-.
-.
+dom
 /
 base
 \
