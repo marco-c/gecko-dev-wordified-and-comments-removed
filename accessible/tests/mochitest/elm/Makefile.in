@@ -451,10 +451,6 @@ test_figure
 .
 html
 \
-test_landmarks
-.
-html
-\
 test_listbox
 .
 xul
