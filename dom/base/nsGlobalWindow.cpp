@@ -12219,9 +12219,9 @@ nsGlobalWindow
 :
 CreateBlobURL
 (
-nsIDOMFile
+nsIDOMBlob
 *
-aFile
+aBlob
 nsAString
 &
 aURL
@@ -12231,7 +12231,7 @@ FORWARD_TO_INNER
 (
 CreateBlobURL
 (
-aFile
+aBlob
 aURL
 )
 NS_ERROR_UNEXPECTED
@@ -12244,13 +12244,13 @@ mDoc
 ;
 NS_ENSURE_ARG_POINTER
 (
-aFile
+aBlob
 )
 ;
 nsresult
 rv
 =
-aFile
+aBlob
 -
 >
 GetInternalUrl
