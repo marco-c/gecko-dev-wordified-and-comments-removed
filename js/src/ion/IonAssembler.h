@@ -125,6 +125,9 @@ JS_ASSERT
 (
 code_
 <
+(
+int32
+)
 RegisterCodes
 :
 :
@@ -219,6 +222,9 @@ JS_ASSERT
 (
 code_
 <
+(
+int32
+)
 FloatRegisterCodes
 :
 :
