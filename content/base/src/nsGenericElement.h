@@ -540,7 +540,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 nsStaticContentList
 )
-;
 PRBool
 AppendContent
 (
