@@ -115,6 +115,11 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 =
 0

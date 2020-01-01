@@ -771,6 +771,9 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
 )
 {
 if
@@ -812,6 +815,7 @@ aContext
 eRenderFill
 |
 eRenderStroke
+aTransformRoot
 )
 ;
 PaintMarkers
@@ -855,6 +859,7 @@ Render
 (
 aContext
 eRenderFill
+aTransformRoot
 )
 ;
 break
@@ -866,6 +871,7 @@ Render
 (
 aContext
 eRenderStroke
+aTransformRoot
 )
 ;
 break
@@ -2084,6 +2090,9 @@ GetCanvasTM
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
 )
 {
 if
@@ -2096,6 +2105,10 @@ GetStateBits
 &
 NS_FRAME_IS_NONDISPLAY
 )
+&
+&
+!
+aTransformRoot
 )
 {
 if
@@ -2184,12 +2197,22 @@ content
 >
 PrependLocalTransformsTo
 (
+this
+=
+=
+aTransformRoot
+?
+gfxMatrix
+(
+)
+:
 parent
 -
 >
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 )
 ;
@@ -2445,6 +2468,9 @@ nsRenderingContext
 aContext
 uint32_t
 aRenderComponents
+nsIFrame
+*
+aTransformRoot
 )
 {
 gfxContext
@@ -2527,6 +2553,7 @@ gfx
 GetCanvasTM
 (
 FOR_PAINTING
+aTransformRoot
 )
 )
 ;

@@ -3397,6 +3397,9 @@ nsIFrame
 aFrame
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
 )
 {
 if
@@ -3437,6 +3440,10 @@ GetStateBits
 &
 NS_FRAME_IS_NONDISPLAY
 )
+&
+&
+!
+aTransformRoot
 )
 {
 if
@@ -3520,6 +3527,7 @@ aFrame
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 ;
 }
@@ -3565,6 +3573,7 @@ containerFrame
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 ;
 }
@@ -3582,6 +3591,7 @@ aFrame
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 ;
 }
@@ -3822,6 +3832,9 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
 )
 {
 nsISVGChildFrame
@@ -3871,6 +3884,7 @@ nsISVGChildFrame
 :
 :
 FOR_PAINTING
+aTransformRoot
 )
 ;
 if
@@ -3946,6 +3960,7 @@ PaintSVG
 (
 aContext
 dirtyRect
+aTransformRoot
 )
 ;
 }
@@ -3967,6 +3982,9 @@ aDirtyRect
 nsIFrame
 *
 aFrame
+nsIFrame
+*
+aTransformRoot
 )
 {
 NS_ASSERTION
@@ -4223,6 +4241,7 @@ nsISVGChildFrame
 :
 :
 FOR_PAINTING
+aTransformRoot
 )
 ;
 if
@@ -4417,6 +4436,7 @@ nsISVGChildFrame
 :
 :
 FOR_PAINTING
+aTransformRoot
 )
 ;
 if
@@ -4485,6 +4505,7 @@ nsISVGChildFrame
 :
 :
 FOR_PAINTING
+aTransformRoot
 )
 )
 ;
@@ -4708,6 +4729,7 @@ aFrame
 &
 paintCallback
 dirtyRect
+aTransformRoot
 )
 ;
 }
@@ -4720,6 +4742,7 @@ PaintSVG
 (
 aContext
 aDirtyRect
+aTransformRoot
 )
 ;
 }
@@ -9881,6 +9904,17 @@ aObjectPaint
 nullptr
 )
 ;
+svgFrame
+-
+>
+NotifySVGChanged
+(
+nsISVGChildFrame
+:
+:
+TRANSFORM_CHANGED
+)
+;
 nsresult
 rv
 =
@@ -9892,6 +9926,7 @@ PaintSVG
 &
 context
 nullptr
+frame
 )
 ;
 return

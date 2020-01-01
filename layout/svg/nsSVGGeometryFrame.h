@@ -151,6 +151,11 @@ GetCanvasTM
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 =
 0

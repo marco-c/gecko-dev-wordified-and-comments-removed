@@ -838,6 +838,11 @@ aDirtyRect
 nsIFrame
 *
 aFrame
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 ;
 static
@@ -876,6 +881,11 @@ nsIFrame
 aFrame
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 ;
 static

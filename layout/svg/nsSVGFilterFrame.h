@@ -184,6 +184,9 @@ const
 nsRect
 *
 aDirtyArea
+nsIFrame
+*
+aTransformRoot
 )
 ;
 nsRect

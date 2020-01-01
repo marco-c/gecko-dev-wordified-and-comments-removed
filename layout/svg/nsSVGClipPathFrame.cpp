@@ -1336,6 +1336,9 @@ GetCanvasTM
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
 )
 {
 SVGClipPathElement

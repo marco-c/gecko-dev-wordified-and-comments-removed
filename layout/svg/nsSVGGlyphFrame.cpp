@@ -1113,6 +1113,9 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
 )
 {
 if
@@ -1266,6 +1269,7 @@ SetupGlobalTransform
 (
 gfx
 FOR_PAINTING
+aTransformRoot
 )
 ;
 CharacterIterator
@@ -1364,6 +1368,7 @@ SetupGlobalTransform
 (
 gfx
 FOR_PAINTING
+aTransformRoot
 )
 ;
 CharacterIterator
@@ -2467,6 +2472,9 @@ GetCanvasTM
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
 )
 {
 if
@@ -2489,6 +2497,10 @@ GetStateBits
 &
 NS_FRAME_IS_NONDISPLAY
 )
+&
+&
+!
+aTransformRoot
 )
 {
 if
@@ -2553,6 +2565,7 @@ mParent
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 ;
 }
@@ -7436,6 +7449,9 @@ gfxContext
 aContext
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
 )
 {
 gfxMatrix
@@ -7444,6 +7460,7 @@ matrix
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 ;
 if

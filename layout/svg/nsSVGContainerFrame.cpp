@@ -1047,6 +1047,9 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
 )
 {
 NS_ASSERTION
@@ -1151,6 +1154,7 @@ PaintFrameWithEffects
 aContext
 aDirtyRect
 kid
+aTransformRoot
 )
 ;
 }

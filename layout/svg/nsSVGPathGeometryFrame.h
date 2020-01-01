@@ -262,6 +262,11 @@ GetCanvasTM
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 MOZ_OVERRIDE
 ;
@@ -277,6 +282,11 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 MOZ_OVERRIDE
 ;
@@ -379,6 +389,9 @@ nsRenderingContext
 aContext
 uint32_t
 aRenderComponents
+nsIFrame
+*
+aTransformRoot
 )
 ;
 void

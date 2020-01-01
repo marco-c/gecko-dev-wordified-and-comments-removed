@@ -168,6 +168,9 @@ nsIntRect
 aPreFilterDirtyRect
 uint16_t
 aPrimitiveUnits
+nsIFrame
+*
+aTransformRoot
 )
 :
 mTargetFrame
@@ -226,6 +229,10 @@ aPreFilterDirtyRect
 mPrimitiveUnits
 (
 aPrimitiveUnits
+)
+mTransformRoot
+(
+aTransformRoot
 )
 {
 }
@@ -764,6 +771,10 @@ nsTArray
 PrimitiveInfo
 >
 mPrimitives
+;
+nsIFrame
+*
+mTransformRoot
 ;
 }
 ;

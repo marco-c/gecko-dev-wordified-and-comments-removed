@@ -646,6 +646,11 @@ const
 nsIntRect
 *
 aDirtyRect
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 MOZ_OVERRIDE
 ;
@@ -698,6 +703,11 @@ GetCanvasTM
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
+=
+nullptr
 )
 MOZ_OVERRIDE
 ;

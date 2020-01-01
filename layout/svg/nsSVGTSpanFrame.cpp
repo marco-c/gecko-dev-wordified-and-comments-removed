@@ -340,6 +340,9 @@ GetCanvasTM
 (
 uint32_t
 aFor
+nsIFrame
+*
+aTransformRoot
 )
 {
 if
@@ -352,6 +355,10 @@ GetStateBits
 &
 NS_FRAME_IS_NONDISPLAY
 )
+&
+&
+!
+aTransformRoot
 )
 {
 if
@@ -416,6 +423,7 @@ mParent
 GetCanvasTM
 (
 aFor
+aTransformRoot
 )
 ;
 }
