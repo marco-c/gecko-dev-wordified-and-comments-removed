@@ -366,7 +366,7 @@ nsIMemoryInfoDumper
 ;
 memDumper
 .
-dumpMemoryReportsToFile
+dumpMemoryInfoToTempDir
 (
 aLabel
 false
