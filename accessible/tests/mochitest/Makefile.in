@@ -892,6 +892,10 @@ test_table_struct_ariagrid
 .
 html
 \
+test_table_struct_ariatreegrid
+.
+html
+\
 test_table_struct_listbox
 .
 xul
