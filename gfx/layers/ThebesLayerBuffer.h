@@ -863,6 +863,11 @@ nsIntRect
 aBounds
 ContextSource
 aSource
+nsIntPoint
+*
+aTopLeft
+=
+nullptr
 )
 ;
 static
