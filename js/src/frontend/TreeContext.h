@@ -587,10 +587,6 @@ ParseNode
 *
 yieldNode
 ;
-ParseNode
-*
-argumentsNode
-;
 private
 :
 TreeContext
