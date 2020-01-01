@@ -1604,6 +1604,14 @@ InvokeHelpers
 .
 cpp
 \
+Retcon
+.
+cpp
+\
+TrampolineCompiler
+.
+cpp
+\
 (
 NULL
 )

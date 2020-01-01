@@ -1435,6 +1435,16 @@ m_used
 X86Assembler
 (
 )
+#
+ifdef
+DEBUG
+:
+isOOLPath
+(
+false
+)
+#
+endif
 {
 }
 size_t
