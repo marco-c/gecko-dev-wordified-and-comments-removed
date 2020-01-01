@@ -14484,7 +14484,7 @@ dbgInlineStoreType
 =
 masm
 .
-storeValue
+storeValueForIC
 (
 Valueify
 (
