@@ -541,3 +541,17 @@ TARGET
 }
 /
 README_MOZILLA
+#
+apply
+outstanding
+local
+patches
+patch
+-
+p3
+<
+.
+/
+bug776661
+.
+patch

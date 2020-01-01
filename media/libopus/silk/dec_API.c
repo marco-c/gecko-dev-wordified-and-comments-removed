@@ -2210,6 +2210,7 @@ Silk_TOC
 0
 sizeof
 (
+*
 Silk_TOC
 )
 )
