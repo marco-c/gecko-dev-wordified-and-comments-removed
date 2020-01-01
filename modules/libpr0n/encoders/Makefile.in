@@ -411,8 +411,12 @@ mk
 DIRS
 +
 =
+png
+\
+jpeg
+\
 (
-MOZ_IMG_ENCODERS
+NULL
 )
 include
 (
