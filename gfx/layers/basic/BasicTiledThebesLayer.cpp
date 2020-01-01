@@ -493,7 +493,7 @@ GetBounds
 ;
 useSinglePaintBuffer
 =
-GetTileStart
+RoundDownToTileEdge
 (
 paintBounds
 .
@@ -501,7 +501,7 @@ x
 )
 !
 =
-GetTileStart
+RoundDownToTileEdge
 (
 paintBounds
 .
@@ -513,7 +513,7 @@ XMost
 )
 |
 |
-GetTileStart
+RoundDownToTileEdge
 (
 paintBounds
 .
@@ -521,7 +521,7 @@ y
 )
 !
 =
-GetTileStart
+RoundDownToTileEdge
 (
 paintBounds
 .
