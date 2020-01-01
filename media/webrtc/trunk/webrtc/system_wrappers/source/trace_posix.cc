@@ -64,13 +64,6 @@ pthread
 h
 >
 #
-else
-#
-include
-<
-iostream
->
-#
 endif
 #
 if

@@ -2,14 +2,14 @@
 if
 defined
 (
-WEBRTC_ANDROID
+ANDROID
 )
 &
 &
 !
 defined
 (
-WEBRTC_ANDROID_OPENSLES
+MOZ_WIDGET_GONK
 )
 #
 include
@@ -565,9 +565,6 @@ void
 javaVM
 void
 *
-env
-void
-*
 context
 )
 {
@@ -589,7 +586,6 @@ AudioDeviceAndroidJni
 SetAndroidAudioDeviceObjects
 (
 javaVM
-env
 context
 )
 ;
