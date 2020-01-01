@@ -417,16 +417,6 @@ aValue
 ;
 }
 }
-float
-ComputedValue
-(
-)
-const
-{
-return
-0
-;
-}
 void
 SetValueAtTime
 (
