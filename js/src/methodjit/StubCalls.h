@@ -1010,7 +1010,7 @@ VMFrame
 f
 )
 ;
-JSBool
+void
 JS_FASTCALL
 FastInstanceOf
 (
