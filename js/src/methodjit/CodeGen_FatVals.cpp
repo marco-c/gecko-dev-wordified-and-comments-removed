@@ -56,17 +56,6 @@ frame
 )
 {
 }
-JS_STATIC_ASSERT
-(
-sizeof
-(
-JSValueMaskType
-)
-=
-=
-4
-)
-;
 void
 CodeGenerator
 :

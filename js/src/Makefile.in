@@ -1524,7 +1524,7 @@ Compiler
 .
 cpp
 \
-CodeGenerator
+CodeGen_NaN32
 .
 cpp
 \
