@@ -394,6 +394,11 @@ fi
 requested_forced_updates
 =
 '
+Contents
+/
+MacOS
+/
+firefox
 '
 while
 getopts
