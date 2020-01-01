@@ -163,7 +163,10 @@ GetCommand
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aCommand
 )

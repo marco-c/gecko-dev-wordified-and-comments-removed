@@ -237,7 +237,10 @@ isMutable
 }
 #
 endif
-jsval
+JS
+:
+:
+Value
 wrappedFile
 ;
 nsresult
@@ -392,7 +395,10 @@ isMutable
 }
 #
 endif
-jsval
+JS
+:
+:
+Value
 wrappedBlob
 ;
 nsresult
