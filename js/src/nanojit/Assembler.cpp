@@ -9672,11 +9672,11 @@ LabelState
 *
 st
 =
-new
+NJ_NEW
 (
 gc
-)
 LabelState
+)
 (
 addr
 regs
