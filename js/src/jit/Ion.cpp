@@ -4588,7 +4588,7 @@ i
 +
 +
 )
-getCacheFromIndex
+getCache
 (
 i
 )
@@ -5197,7 +5197,7 @@ i
 +
 +
 )
-getCacheFromIndex
+getCache
 (
 i
 )
@@ -5232,7 +5232,7 @@ i
 +
 +
 )
-getCacheFromIndex
+getCache
 (
 i
 )

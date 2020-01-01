@@ -5836,6 +5836,9 @@ op
 .
 length
 ;
+#
+ifdef
+TRACK_SNAPSHOTS
 current
 -
 >
@@ -5844,6 +5847,8 @@ updateTrackedPc
 pc
 )
 ;
+#
+endif
 }
 return
 maybeAddOsrTypeBarriers
