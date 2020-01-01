@@ -2589,6 +2589,9 @@ mk
 .
 in
 (
+PYTHON
+)
+(
 OBJDIR
 )
 /

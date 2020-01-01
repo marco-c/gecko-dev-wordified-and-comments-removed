@@ -8204,6 +8204,9 @@ Makefile
 .
 in
 (
+PYTHON
+)
+(
 DEPTH
 )
 /
@@ -8251,6 +8254,9 @@ srcdir
 %
 .
 in
+(
+PYTHON
+)
 (
 DEPTH
 )
@@ -8302,6 +8308,9 @@ AUTOCONF
 &
 &
 (
+PYTHON
+)
+(
 DEPTH
 )
 /
@@ -8336,6 +8345,9 @@ autoconf
 mk
 .
 in
+(
+PYTHON
+)
 (
 DEPTH
 )

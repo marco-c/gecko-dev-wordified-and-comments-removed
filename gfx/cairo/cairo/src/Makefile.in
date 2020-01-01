@@ -1395,6 +1395,9 @@ in
 GLOBAL_DEPS
 )
 (
+PYTHON
+)
+(
 DEPTH
 )
 /
