@@ -447,9 +447,7 @@ HasDecoderError
 {
 if
 (
-mImage
-.
-GetNumFrames
+GetCompleteFrameCount
 (
 )
 =
