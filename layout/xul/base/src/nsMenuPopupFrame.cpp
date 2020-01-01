@@ -4505,6 +4505,16 @@ screenRect
 )
 )
 {
+anchorRect
+.
+width
+=
+anchorRect
+.
+height
+=
+0
+;
 if
 (
 anchorRect
