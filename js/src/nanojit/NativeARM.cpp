@@ -466,6 +466,13 @@ a
 \
 n
 "
+"
+.
+object_arch
+armv4t
+\
+n
+"
 #
 elif
 (
@@ -477,6 +484,13 @@ NJ_COMPILER_ARM_ARCH
 .
 arch
 armv5t
+\
+n
+"
+"
+.
+object_arch
+armv4t
 \
 n
 "

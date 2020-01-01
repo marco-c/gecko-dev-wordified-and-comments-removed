@@ -279,7 +279,7 @@ NanoStaticAssert
 NJ_COMPILER_ARM_ARCH
 >
 =
-5
+4
 &
 &
 NJ_COMPILER_ARM_ARCH
