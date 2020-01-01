@@ -611,10 +611,6 @@ test_bug375314
 .
 html
 \
-test_bug378866
-.
-xhtml
-\
 test_bug382113
 .
 html
