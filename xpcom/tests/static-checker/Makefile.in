@@ -482,6 +482,10 @@ StackConditional
 .
 cpp
 \
+StackAggrInit
+.
+cpp
+\
 (
 NULL
 )
@@ -684,6 +688,9 @@ FLOW_PASS_TESTCASES
 (
 NULL
 )
+REQUIRES
+=
+xpcom
 include
 (
 topsrcdir
@@ -962,6 +969,7 @@ have
 \
 n
 "
+;
 \
 exit
 1
@@ -1040,6 +1048,7 @@ issued
 \
 n
 "
+;
 \
 exit
 1
