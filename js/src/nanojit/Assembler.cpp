@@ -312,10 +312,6 @@ LogControl
 logc
 )
 :
-hasLoop
-(
-0
-)
 codeList
 (
 0
@@ -5437,10 +5433,6 @@ addr
 }
 else
 {
-hasLoop
-=
-true
-;
 handleLoopCarriedExprs
 (
 pending_lives
@@ -5568,10 +5560,6 @@ addr
 }
 else
 {
-hasLoop
-=
-true
-;
 handleLoopCarriedExprs
 (
 pending_lives
@@ -5675,10 +5663,6 @@ _allocator
 }
 else
 {
-hasLoop
-=
-true
-;
 NanoAssert
 (
 label

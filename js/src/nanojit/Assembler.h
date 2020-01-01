@@ -548,9 +548,6 @@ registerConsistencyCheck
 Stats
 _stats
 ;
-int
-hasLoop
-;
 CodeList
 *
 codeList
