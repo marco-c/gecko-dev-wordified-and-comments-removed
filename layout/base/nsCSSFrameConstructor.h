@@ -546,6 +546,16 @@ nsStyleChangeList
 aRestyleArray
 )
 ;
+static
+PRUint32
+GetDOMGeneration
+(
+)
+{
+return
+gDOMGeneration
+;
+}
 private
 :
 friend
@@ -4295,6 +4305,10 @@ static
 nsIXBLService
 *
 gXBLService
+;
+static
+PRUint32
+gDOMGeneration
 ;
 }
 ;
