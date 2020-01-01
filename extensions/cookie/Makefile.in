@@ -456,6 +456,8 @@ docshell
 \
 appshell
 \
+storage
+\
 (
 NULL
 )
