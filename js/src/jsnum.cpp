@@ -4895,13 +4895,6 @@ js_num_valueOf
 )
 JS_FN
 (
-js_toJSON_str
-js_num_valueOf
-0
-0
-)
-JS_FN
-(
 "
 toFixed
 "
