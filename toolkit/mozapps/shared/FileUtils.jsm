@@ -310,7 +310,9 @@ modeFlags
 this
 .
 PERMS_FILE
-0
+fos
+.
+DEFER_OPEN
 )
 ;
 return
