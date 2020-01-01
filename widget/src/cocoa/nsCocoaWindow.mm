@@ -7025,7 +7025,6 @@ nsCocoaWindow
 *
 )
 geckoWidget
-;
 {
 return
 mGeckoWindow
