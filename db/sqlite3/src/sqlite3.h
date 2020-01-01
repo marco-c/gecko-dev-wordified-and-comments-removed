@@ -55,6 +55,8 @@ SQLITE_VERSION
 5
 .
 4
+.
+1
 "
 #
 define
