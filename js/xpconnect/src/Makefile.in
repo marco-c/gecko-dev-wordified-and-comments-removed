@@ -1158,8 +1158,6 @@ xpcom
 idl
 -
 parser
-/
-cache
 \
 -
 -

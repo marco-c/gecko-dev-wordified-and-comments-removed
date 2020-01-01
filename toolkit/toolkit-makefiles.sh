@@ -3053,6 +3053,13 @@ xpcom
 system
 /
 Makefile
+xpcom
+/
+idl
+-
+parser
+/
+Makefile
 "
 MAKEFILES_xpcom_tests
 =
