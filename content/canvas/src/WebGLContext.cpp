@@ -2163,6 +2163,9 @@ egl
 false
 )
 ;
+#
+ifdef
+XP_WIN
 bool
 preferOpenGL
 =
@@ -2183,6 +2186,8 @@ gl
 false
 )
 ;
+#
+endif
 bool
 forceEnabled
 =

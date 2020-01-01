@@ -72,6 +72,14 @@ f
 )
 {
 }
+public
+:
+void
+use
+(
+)
+{
+}
 }
 ;
 void
@@ -97,6 +105,12 @@ PureVirtualCall
 {
 B
 b
+;
+b
+.
+use
+(
+)
 ;
 }
 const
