@@ -7508,6 +7508,16 @@ status
 gSourcePath
 )
 ;
+if
+(
+ensure_parent_dir
+(
+filename
+)
+)
+return
+false
+;
 AutoFile
 file
 =
