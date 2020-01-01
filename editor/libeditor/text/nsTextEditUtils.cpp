@@ -26,7 +26,7 @@ nsEditProperty
 .
 h
 "
-PRBool
+bool
 nsTextEditUtils
 :
 :
@@ -53,7 +53,7 @@ body
 )
 ;
 }
-PRBool
+bool
 nsTextEditUtils
 :
 :
@@ -80,7 +80,7 @@ br
 )
 ;
 }
-PRBool
+bool
 nsTextEditUtils
 :
 :
@@ -126,7 +126,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsTextEditUtils
 :
 :

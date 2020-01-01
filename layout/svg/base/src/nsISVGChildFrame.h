@@ -210,13 +210,15 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
+PRUint32
+aFlags
 )
 =
 0
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsDisplayContainer
 (
@@ -226,7 +228,7 @@ IsDisplayContainer
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 HasValidCoveredRect
 (

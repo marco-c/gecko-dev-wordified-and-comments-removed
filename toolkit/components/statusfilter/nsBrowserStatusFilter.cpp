@@ -187,7 +187,7 @@ nsBrowserStatusFilter
 :
 GetIsLoadingDocument
 (
-PRBool
+bool
 *
 aIsLoadingDocument
 )
@@ -357,10 +357,10 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 isLoadingDocument
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -747,9 +747,9 @@ nsIURI
 aUri
 PRInt32
 aDelay
-PRBool
+bool
 aSameUri
-PRBool
+bool
 *
 allowRefresh
 )

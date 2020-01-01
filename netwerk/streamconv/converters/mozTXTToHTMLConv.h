@@ -132,7 +132,7 @@ LT_ALPHA
 LT_DIGIT
 }
 ;
-PRBool
+bool
 ItMatchesDelimited
 (
 const
@@ -183,7 +183,7 @@ ch
 nsString
 &
 aStringToAppendto
-PRBool
+bool
 inAttribute
 )
 ;
@@ -193,7 +193,7 @@ EscapeStr
 nsString
 &
 aInString
-PRBool
+bool
 inAttribute
 )
 ;
@@ -213,7 +213,7 @@ nsString
 aOutString
 )
 ;
-PRBool
+bool
 FindURL
 (
 const
@@ -249,7 +249,7 @@ freetext
 abbreviated
 }
 ;
-PRBool
+bool
 FindURLStart
 (
 const
@@ -269,7 +269,7 @@ PRUint32
 start
 )
 ;
-PRBool
+bool
 FindURLEnd
 (
 const
@@ -330,7 +330,7 @@ PRInt32
 replaceAfter
 )
 ;
-PRBool
+bool
 CheckURLAndCreateHTML
 (
 const
@@ -349,7 +349,7 @@ nsString
 outputHTML
 )
 ;
-PRBool
+bool
 StructPhraseHit
 (
 const
@@ -358,7 +358,7 @@ PRUnichar
 aInString
 PRInt32
 aInStringLength
-PRBool
+bool
 col0
 const
 PRUnichar
@@ -382,7 +382,7 @@ PRUint32
 openTags
 )
 ;
-PRBool
+bool
 SmilyHit
 (
 const
@@ -391,7 +391,7 @@ PRUnichar
 aInString
 PRInt32
 aLength
-PRBool
+bool
 col0
 const
 char
@@ -409,7 +409,7 @@ PRInt32
 glyphTextLen
 )
 ;
-PRBool
+bool
 GlyphHit
 (
 const
@@ -418,7 +418,7 @@ PRUnichar
 aInString
 PRInt32
 aInLength
-PRBool
+bool
 col0
 nsString
 &
@@ -428,7 +428,7 @@ PRInt32
 glyphTextLen
 )
 ;
-PRBool
+bool
 ShouldLinkify
 (
 const

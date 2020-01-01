@@ -499,7 +499,7 @@ DurationFromStart
 )
 ;
 }
-PRBool
+bool
 nsDOMNavigationTiming
 :
 :

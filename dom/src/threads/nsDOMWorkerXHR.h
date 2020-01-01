@@ -302,7 +302,7 @@ nsIXPConnectWrappedNative
 mWrappedNative
 ;
 volatile
-PRBool
+bool
 mCanceled
 ;
 }
@@ -338,9 +338,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
-PRBool
+bool
 aWantsUntrusted
 PRUint8
 optional_argc
@@ -356,7 +356,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
 )
 ;
@@ -366,7 +366,7 @@ DispatchEvent
 nsIDOMEvent
 *
 aEvent
-PRBool
+bool
 *
 _retval
 )

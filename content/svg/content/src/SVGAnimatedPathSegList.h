@@ -142,7 +142,7 @@ void
 mAnimVal
 ;
 }
-PRBool
+bool
 IsAnimating
 (
 )
@@ -233,7 +233,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

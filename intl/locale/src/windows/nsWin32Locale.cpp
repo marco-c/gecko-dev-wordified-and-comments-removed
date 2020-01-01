@@ -2556,10 +2556,10 @@ void
 )
 {
 static
-PRBool
+bool
 sInitialized
 =
-PR_FALSE
+false
 ;
 if
 (

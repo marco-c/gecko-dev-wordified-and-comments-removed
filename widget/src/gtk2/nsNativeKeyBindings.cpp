@@ -73,7 +73,7 @@ void
 gCurrentCallbackData
 ;
 static
-PRBool
+bool
 gHandled
 ;
 static
@@ -105,7 +105,7 @@ copy_clipboard
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
 }
 static
@@ -137,7 +137,7 @@ cut_clipboard
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
 }
 static
@@ -240,9 +240,9 @@ delete_from_cursor
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
-PRBool
+bool
 forward
 =
 count
@@ -625,9 +625,9 @@ move_cursor
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
-PRBool
+bool
 forward
 =
 count
@@ -734,7 +734,7 @@ paste_clipboard
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
 }
 static
@@ -768,7 +768,7 @@ select_all
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -954,7 +954,7 @@ NS_IMPL_ISUPPORTS1
 nsNativeKeyBindings
 nsINativeKeyBindings
 )
-PRBool
+bool
 nsNativeKeyBindings
 :
 :
@@ -972,10 +972,10 @@ aCallbackData
 )
 {
 return
-PR_FALSE
+false
 ;
 }
-PRBool
+bool
 nsNativeKeyBindings
 :
 :
@@ -1034,7 +1034,7 @@ keyCode
 )
 )
 return
-PR_TRUE
+true
 ;
 nsKeyEvent
 *
@@ -1075,7 +1075,7 @@ message
 NS_KEY_PRESS
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -1159,15 +1159,15 @@ keyCode
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
-PRBool
+bool
 nsNativeKeyBindings
 :
 :
@@ -1234,7 +1234,7 @@ aCallbackData
 ;
 gHandled
 =
-PR_FALSE
+false
 ;
 gtk_bindings_activate
 (
@@ -1261,7 +1261,7 @@ return
 gHandled
 ;
 }
-PRBool
+bool
 nsNativeKeyBindings
 :
 :
@@ -1279,6 +1279,6 @@ aCallbackData
 )
 {
 return
-PR_FALSE
+false
 ;
 }

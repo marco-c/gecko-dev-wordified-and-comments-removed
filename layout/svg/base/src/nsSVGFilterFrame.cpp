@@ -578,7 +578,7 @@ filterResX
 filterResY
 )
 ;
-PRBool
+bool
 overflow
 ;
 filterRes
@@ -624,7 +624,7 @@ RoundOut
 (
 )
 ;
-PRBool
+bool
 overflow
 ;
 filterRes

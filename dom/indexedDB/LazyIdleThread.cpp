@@ -826,7 +826,7 @@ ASSERT_OWNING_THREAD
 (
 )
 ;
-PRBool
+bool
 shouldSchedule
 ;
 {
@@ -1555,7 +1555,7 @@ LazyIdleThread
 :
 IsOnCurrentThread
 (
-PRBool
+bool
 *
 aIsOnCurrentThread
 )
@@ -1678,7 +1678,7 @@ LazyIdleThread
 :
 HasPendingEvents
 (
-PRBool
+bool
 *
 aHasPendingEvents
 )
@@ -1706,9 +1706,9 @@ LazyIdleThread
 :
 ProcessNextEvent
 (
-PRBool
+bool
 aMayWait
-PRBool
+bool
 *
 aEventWasProcessed
 )
@@ -1819,7 +1819,7 @@ OnProcessNextEvent
 (
 nsIThreadInternal
 *
-PRBool
+bool
 PRUint32
 )
 {
@@ -1838,7 +1838,7 @@ nsIThreadInternal
 PRUint32
 )
 {
-PRBool
+bool
 shouldNotifyIdle
 ;
 {

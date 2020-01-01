@@ -168,7 +168,7 @@ getReturnType
 =
 0
 ;
-PRBool
+bool
 canReturnType
 (
 ResultType
@@ -223,7 +223,7 @@ ANY_CONTEXT
 }
 ;
 virtual
-PRBool
+bool
 isSensitiveTo
 (
 ContextSensitivity
@@ -263,7 +263,7 @@ evaluateToBool
 txIEvalContext
 *
 aContext
-PRBool
+bool
 &
 aResult
 )
@@ -359,7 +359,7 @@ getReturnType
 )
 ;
 \
-PRBool
+bool
 isSensitiveTo
 (
 ContextSensitivity
@@ -844,7 +844,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 virtual
-PRBool
+bool
 requireParams
 (
 PRInt32
@@ -914,7 +914,7 @@ txNodeSet
 aResult
 )
 ;
-PRBool
+bool
 argsSensitiveTo
 (
 ContextSensitivity
@@ -996,7 +996,7 @@ aType
 }
 TX_DECL_FUNCTION
 static
-PRBool
+bool
 getTypeFromAtom
 (
 nsIAtom
@@ -1042,7 +1042,7 @@ txNodeTest
 ;
 }
 virtual
-PRBool
+bool
 matches
 (
 const
@@ -1083,7 +1083,7 @@ OTHER_TEST
 ;
 }
 virtual
-PRBool
+bool
 isSensitiveTo
 (
 Expr
@@ -1119,7 +1119,7 @@ TX_DECL_NODE_TEST
 \
 TX_DECL_TOSTRING
 \
-PRBool
+bool
 matches
 (
 const
@@ -1138,7 +1138,7 @@ getDefaultPriority
 )
 ;
 \
-PRBool
+bool
 isSensitiveTo
 (
 Expr
@@ -1366,7 +1366,7 @@ RemoveElementAt
 )
 ;
 }
-PRBool
+bool
 isEmpty
 (
 )
@@ -1394,7 +1394,7 @@ dest
 endif
 protected
 :
-PRBool
+bool
 isSensitiveTo
 (
 Expr
@@ -1906,7 +1906,7 @@ aOp
 TX_DECL_EXPR
 private
 :
-PRBool
+bool
 compareResults
 (
 txIEvalContext
@@ -2180,7 +2180,7 @@ public
 void
 setSerialize
 (
-PRBool
+bool
 aSerialize
 )
 {
@@ -2191,7 +2191,7 @@ aSerialize
 }
 private
 :
-PRBool
+bool
 mSerialize
 ;
 #

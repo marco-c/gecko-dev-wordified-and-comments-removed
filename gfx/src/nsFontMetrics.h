@@ -289,7 +289,7 @@ aContext
 void
 SetTextRunRTL
 (
-PRBool
+bool
 aIsRTL
 )
 {
@@ -298,7 +298,7 @@ mTextRunRTL
 aIsRTL
 ;
 }
-PRBool
+bool
 GetTextRunRTL
 (
 )
@@ -376,7 +376,7 @@ mDeviceContext
 PRUint32
 mP2A
 ;
-PRPackedBool
+bool
 mTextRunRTL
 ;
 }

@@ -381,7 +381,7 @@ return
 mKey
 ;
 }
-PRBool
+bool
 KeyEquals
 (
 KeyType
@@ -496,7 +496,7 @@ nsAString
 aURI
 )
 ;
-PRBool
+bool
 HasElementCreator
 (
 PRInt32
@@ -1078,7 +1078,7 @@ aNodeInfo
 )
 ;
 }
-PRBool
+bool
 NameSpaceManagerImpl
 :
 :

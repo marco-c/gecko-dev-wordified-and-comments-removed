@@ -142,7 +142,7 @@ retValue
 )
 ;
 virtual
-PRBool
+bool
 IsFontFormatSupported
 (
 nsIURI
@@ -214,7 +214,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )

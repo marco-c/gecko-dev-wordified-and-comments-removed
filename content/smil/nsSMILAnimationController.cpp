@@ -361,7 +361,7 @@ PRUint32
 aType
 )
 {
-PRBool
+bool
 wasPaused
 =
 (
@@ -1205,7 +1205,7 @@ nsSMILAnimationController
 :
 DoSample
 (
-PRBool
+bool
 aSkipUnchangedContainers
 )
 {
@@ -1411,10 +1411,10 @@ RewindElements
 (
 )
 {
-PRBool
+bool
 rewindNeeded
 =
-PR_FALSE
+false
 ;
 mChildContainerTable
 .
@@ -1478,13 +1478,13 @@ enumeration
 "
 )
 ;
-PRBool
+bool
 *
 rewindNeeded
 =
 static_cast
 <
-PRBool
+bool
 *
 >
 (
@@ -1956,7 +1956,7 @@ PL_DHASH_NEXT
 nsSMILMilestone
 thisMilestone
 ;
-PRBool
+bool
 didGetMilestone
 =
 container
@@ -2524,7 +2524,7 @@ ClearHasChanged
 ;
 }
 }
-PRBool
+bool
 nsSMILAnimationController
 :
 :
@@ -2595,10 +2595,10 @@ GetTargetAttributeType
 (
 )
 ;
-PRBool
+bool
 isCSS
 =
-PR_FALSE
+false
 ;
 if
 (

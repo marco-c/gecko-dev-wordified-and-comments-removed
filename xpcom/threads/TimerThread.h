@@ -198,7 +198,7 @@ TimerThread
 PRInt32
 mInitInProgress
 ;
-PRBool
+bool
 mInitialized
 ;
 PRInt32
@@ -209,7 +209,7 @@ nsTimerImpl
 aTimer
 )
 ;
-PRBool
+bool
 RemoveTimerInternal
 (
 nsTimerImpl
@@ -234,13 +234,13 @@ mThread
 Monitor
 mMonitor
 ;
-PRPackedBool
+bool
 mShutdown
 ;
-PRPackedBool
+bool
 mWaiting
 ;
-PRPackedBool
+bool
 mSleeping
 ;
 nsTArray

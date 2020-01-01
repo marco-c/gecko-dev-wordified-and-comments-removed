@@ -94,10 +94,10 @@ mType
 PRUint32
 mTag
 ;
-PRBool
+bool
 mIsValidContainer
 ;
-PRBool
+bool
 mIsExpanded
 ;
 }

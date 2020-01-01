@@ -36,7 +36,7 @@ aReflowState
 0
 ;
 virtual
-PRBool
+bool
 NeedsToObserve
 (
 const

@@ -246,10 +246,10 @@ Notify
 )
 ;
 }
-PRPackedBool
+bool
 mTrustedEvent
 ;
-PRBool
+bool
 IsActivatedOnHover
 (
 )
@@ -563,7 +563,7 @@ aDestructRoot
 )
 ;
 }
-PRBool
+bool
 nsAutoRepeatBoxFrame
 :
 :

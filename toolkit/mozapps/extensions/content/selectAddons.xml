@@ -596,6 +596,15 @@ anonid
 "
 keep
 "
+xbl
+:
+inherits
+=
+"
+tooltiptext
+=
+name
+"
 oncommand
 =
 "

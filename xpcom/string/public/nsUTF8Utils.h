@@ -33,7 +33,7 @@ UTF8traits
 public
 :
 static
-PRBool
+bool
 isASCII
 (
 char
@@ -52,7 +52,7 @@ c
 ;
 }
 static
-PRBool
+bool
 isInSeq
 (
 char
@@ -71,7 +71,7 @@ c
 ;
 }
 static
-PRBool
+bool
 is2byte
 (
 char
@@ -90,7 +90,7 @@ c
 ;
 }
 static
-PRBool
+bool
 is3byte
 (
 char
@@ -109,7 +109,7 @@ c
 ;
 }
 static
-PRBool
+bool
 is4byte
 (
 char
@@ -128,7 +128,7 @@ c
 ;
 }
 static
-PRBool
+bool
 is5byte
 (
 char
@@ -147,7 +147,7 @@ c
 ;
 }
 static
-PRBool
+bool
 is6byte
 (
 char
@@ -185,7 +185,7 @@ const
 char
 *
 end
-PRBool
+bool
 *
 err
 )
@@ -426,7 +426,7 @@ ucs4
 private
 :
 static
-PRBool
+bool
 CalcState
 (
 char
@@ -627,7 +627,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 AddByte
 (
 char
@@ -700,7 +700,7 @@ const
 PRUnichar
 *
 end
-PRBool
+bool
 *
 err
 =
@@ -1023,7 +1023,7 @@ mBuffer
 mStart
 ;
 }
-PRBool
+bool
 ErrorEncountered
 (
 )
@@ -1083,7 +1083,7 @@ end
 ;
 )
 {
-PRBool
+bool
 err
 ;
 PRUint32
@@ -1193,7 +1193,7 @@ buffer_type
 *
 mBuffer
 ;
-PRBool
+bool
 mErrorEncountered
 ;
 }
@@ -1502,7 +1502,7 @@ private
 size_t
 mLength
 ;
-PRBool
+bool
 mErrorEncountered
 ;
 }

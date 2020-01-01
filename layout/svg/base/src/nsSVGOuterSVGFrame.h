@@ -166,7 +166,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRBool
+bool
 aShrinkWrap
 )
 ;
@@ -312,7 +312,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 UpdateAndInvalidateCoveredRegion
 (
 nsIFrame
@@ -320,7 +320,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsRedrawSuspended
 (
 )
@@ -364,7 +364,7 @@ aFrame
 ;
 protected
 :
-PRBool
+bool
 IsRootOfReplacedElementSubDoc
 (
 nsIFrame
@@ -375,7 +375,7 @@ aEmbeddingFrame
 nsnull
 )
 ;
-PRBool
+bool
 IsRootOfImage
 (
 )
@@ -398,18 +398,18 @@ mCanvasTM
 float
 mFullZoom
 ;
-PRPackedBool
+bool
 mViewportInitialized
 ;
 #
 ifdef
 XP_MACOSX
-PRPackedBool
+bool
 mEnableBitmapFallback
 ;
 #
 endif
-PRPackedBool
+bool
 mIsRootContent
 ;
 }

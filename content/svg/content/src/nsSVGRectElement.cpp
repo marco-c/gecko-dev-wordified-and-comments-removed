@@ -603,7 +603,7 @@ height
 return
 ;
 }
-PRBool
+bool
 hasRx
 =
 mLengthAttributes
@@ -615,7 +615,7 @@ IsExplicitlySet
 (
 )
 ;
-PRBool
+bool
 hasRy
 =
 mLengthAttributes

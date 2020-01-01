@@ -166,7 +166,7 @@ aResult
 )
 const
 ;
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -202,7 +202,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -432,7 +432,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsHTMLOutputElement
 :
 :
@@ -607,7 +607,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {

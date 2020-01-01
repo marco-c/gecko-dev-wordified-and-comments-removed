@@ -5723,7 +5723,7 @@ GetPrincipal
 JSObject
 *
 obj
-PRBool
+bool
 allowShortCircuit
 )
 const
@@ -5735,11 +5735,11 @@ char
 *
 DebugPrintJSStack
 (
-PRBool
+bool
 showArgs
-PRBool
+bool
 showLocals
-PRBool
+bool
 showThisProps
 )
 =

@@ -50,7 +50,7 @@ NS_DECL_QUERYFRAME_TARGET
 nsIMathMLFrame
 )
 virtual
-PRBool
+bool
 IsSpaceLike
 (
 )

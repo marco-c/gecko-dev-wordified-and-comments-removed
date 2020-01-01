@@ -756,7 +756,7 @@ nsPK11Token
 :
 IsLoggedIn
 (
-PRBool
+bool
 *
 _retval
 )
@@ -797,7 +797,7 @@ nsPK11Token
 :
 Login
 (
-PRBool
+bool
 force
 )
 {
@@ -819,7 +819,7 @@ rv
 SECStatus
 srv
 ;
-PRBool
+bool
 test
 ;
 rv
@@ -1069,7 +1069,7 @@ nsPK11Token
 :
 GetNeedsUserInit
 (
-PRBool
+bool
 *
 aNeedsUserInit
 )
@@ -1108,7 +1108,7 @@ const
 PRUnichar
 *
 password
-PRBool
+bool
 *
 _retval
 )
@@ -1519,7 +1519,7 @@ nsPK11Token
 :
 IsHardwareToken
 (
-PRBool
+bool
 *
 _retval
 )
@@ -1559,7 +1559,7 @@ nsPK11Token
 :
 NeedsLogin
 (
-PRBool
+bool
 *
 _retval
 )
@@ -1599,7 +1599,7 @@ nsPK11Token
 :
 IsFriendly
 (
-PRBool
+bool
 *
 _retval
 )

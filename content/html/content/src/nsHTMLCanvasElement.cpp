@@ -428,7 +428,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -724,7 +724,7 @@ return
 retval
 ;
 }
-PRBool
+bool
 nsHTMLCanvasElement
 :
 :
@@ -1316,10 +1316,10 @@ quality
 }
 }
 }
-PRBool
+bool
 usingCustomParseOptions
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1741,7 +1741,7 @@ const
 nsAString
 &
 aContextId
-PRBool
+bool
 aForceThebes
 nsICanvasRenderingContextInternal
 *
@@ -2069,10 +2069,10 @@ aContext
 nsresult
 rv
 ;
-PRBool
+bool
 forceThebes
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -2833,7 +2833,7 @@ GetWidthHeight
 )
 ;
 }
-PRBool
+bool
 nsHTMLCanvasElement
 :
 :
@@ -3175,7 +3175,7 @@ return
 NULL
 ;
 }
-PRBool
+bool
 nsHTMLCanvasElement
 :
 :
@@ -3234,7 +3234,7 @@ aManager
 )
 ;
 }
-PRBool
+bool
 nsHTMLCanvasElement
 :
 :
@@ -3389,7 +3389,7 @@ azure
 .
 enabled
 "
-PR_FALSE
+false
 )
 )
 {

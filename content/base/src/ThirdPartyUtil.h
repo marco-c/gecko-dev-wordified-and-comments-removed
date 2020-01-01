@@ -79,7 +79,7 @@ aFirstDomain
 nsIURI
 *
 aSecondURI
-PRBool
+bool
 *
 aResult
 )

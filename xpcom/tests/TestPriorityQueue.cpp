@@ -283,7 +283,7 @@ MaxCompare
 {
 public
 :
-PRBool
+bool
 LessThan
 (
 const

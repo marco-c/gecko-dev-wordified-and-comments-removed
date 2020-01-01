@@ -50,7 +50,7 @@ NS_DECL_NSIDOMPROGRESSEVENT
 NS_FORWARD_TO_NSDOMEVENT
 private
 :
-PRBool
+bool
 mLengthComputable
 ;
 PRUint64

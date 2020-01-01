@@ -456,7 +456,7 @@ nsDebugImpl
 :
 GetIsDebugBuild
 (
-PRBool
+bool
 *
 aResult
 )
@@ -2267,10 +2267,10 @@ NS_ERROR_FAILURE
 #
 ifdef
 XP_WIN
-PRBool
+bool
 sXPCOMHasLoadedNewDLLs
 =
-PR_FALSE
+false
 ;
 NS_EXPORT
 void

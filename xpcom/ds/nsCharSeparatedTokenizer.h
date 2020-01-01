@@ -20,7 +20,7 @@ h
 "
 template
 <
-PRBool
+bool
 IsWhitespace
 (
 PRUnichar
@@ -114,7 +114,7 @@ mIter
 ;
 }
 }
-PRBool
+bool
 hasMoreTokens
 (
 )
@@ -154,7 +154,7 @@ mIter
 mEnd
 ;
 }
-PRBool
+bool
 firstTokenBeganWithWhitespace
 (
 )
@@ -164,7 +164,7 @@ return
 mFirstTokenBeganWithWhitespace
 ;
 }
-PRBool
+bool
 lastTokenEndedWithSeparator
 (
 )
@@ -174,7 +174,7 @@ return
 mLastTokenEndedWithSeparator
 ;
 }
-PRBool
+bool
 lastTokenEndedWithWhitespace
 (
 )
@@ -435,13 +435,13 @@ const_char_iterator
 mIter
 mEnd
 ;
-PRPackedBool
+bool
 mFirstTokenBeganWithWhitespace
 ;
-PRPackedBool
+bool
 mLastTokenEndedWithWhitespace
 ;
-PRPackedBool
+bool
 mLastTokenEndedWithSeparator
 ;
 PRUnichar
@@ -543,7 +543,7 @@ mIter
 ;
 }
 }
-PRBool
+bool
 hasMoreTokens
 (
 )
@@ -708,7 +708,7 @@ mEnd
 char
 mSeparatorChar
 ;
-PRBool
+bool
 isWhitespace
 (
 unsigned

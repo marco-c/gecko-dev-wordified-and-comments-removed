@@ -516,9 +516,6 @@ interface
 nsIDOMDOMTokenList
 ;
 interface
-nsIDOMNameList
-;
-interface
 nsIDOMClientRect
 ;
 interface

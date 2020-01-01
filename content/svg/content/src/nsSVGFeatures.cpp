@@ -74,7 +74,7 @@ using
 namespace
 mozilla
 ;
-PRBool
+bool
 nsSVGFeatures
 :
 :
@@ -174,7 +174,7 @@ javascript
 .
 enabled
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -219,7 +219,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsSVGFeatures
 :
 :
@@ -272,7 +272,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsSVGFeatures
 :
 :
@@ -347,7 +347,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsSVGFeatures
 :
 :
@@ -396,7 +396,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsSVGFeatures
 :
 :
@@ -578,7 +578,7 @@ nextToken
 (
 )
 ;
-PRBool
+bool
 exactMatch
 =
 (
@@ -588,7 +588,7 @@ languageToken
 attributeToken
 )
 ;
-PRBool
+bool
 prefixOnlyMatch
 =
 !
@@ -671,7 +671,7 @@ return
 lowestRank
 ;
 }
-PRBool
+bool
 nsSVGFeatures
 :
 :
@@ -741,7 +741,7 @@ nsString
 )
 0x01
 ;
-PRBool
+bool
 nsSVGFeatures
 :
 :

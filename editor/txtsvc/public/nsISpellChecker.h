@@ -88,7 +88,7 @@ SetDocument
 nsITextServicesDocument
 *
 aDoc
-PRBool
+bool
 aFromStartofDoc
 )
 =
@@ -117,7 +117,7 @@ const
 nsAString
 &
 aWord
-PRBool
+bool
 *
 aIsMisspelled
 nsTArray
@@ -141,7 +141,7 @@ const
 nsAString
 &
 aNewWord
-PRBool
+bool
 aAllOccurrences
 )
 =

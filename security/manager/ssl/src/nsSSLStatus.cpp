@@ -209,7 +209,7 @@ nsSSLStatus
 :
 GetIsDomainMismatch
 (
-PRBool
+bool
 *
 _result
 )
@@ -244,7 +244,7 @@ nsSSLStatus
 :
 GetIsNotValidAtThisTime
 (
-PRBool
+bool
 *
 _result
 )
@@ -279,7 +279,7 @@ nsSSLStatus
 :
 GetIsUntrusted
 (
-PRBool
+bool
 *
 _result
 )

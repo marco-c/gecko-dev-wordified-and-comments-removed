@@ -233,7 +233,7 @@ char
 *
 name
 ;
-PRBool
+bool
 essential
 ;
 }
@@ -642,7 +642,7 @@ NS_IMPL_ISUPPORTS1
 nsGNOMEShellService
 nsIShellService
 )
-PRBool
+bool
 nsGNOMEShellService
 :
 :
@@ -759,7 +759,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsGNOMEShellService
 :
 :
@@ -848,7 +848,7 @@ commandPath
 return
 PR_FALSE
 ;
-PRBool
+bool
 matches
 =
 mAppPath
@@ -867,7 +867,7 @@ return
 matches
 ;
 }
-PRBool
+bool
 nsGNOMEShellService
 :
 :
@@ -957,9 +957,9 @@ nsGNOMEShellService
 :
 IsDefaultBrowser
 (
-PRBool
+bool
 aStartupCheck
-PRBool
+bool
 *
 aIsDefaultBrowser
 )
@@ -999,7 +999,7 @@ do_GetService
 NS_GIOSERVICE_CONTRACTID
 )
 ;
-PRBool
+bool
 enabled
 ;
 nsCAutoString
@@ -1164,9 +1164,9 @@ nsGNOMEShellService
 :
 SetDefaultBrowser
 (
-PRBool
+bool
 aClaimAllTypes
-PRBool
+bool
 aForAllUsers
 )
 {
@@ -1577,7 +1577,7 @@ nsGNOMEShellService
 :
 GetShouldCheckDefaultBrowser
 (
-PRBool
+bool
 *
 aResult
 )
@@ -1654,7 +1654,7 @@ nsGNOMEShellService
 :
 SetShouldCheckDefaultBrowser
 (
-PRBool
+bool
 aShouldCheck
 )
 {
@@ -2830,7 +2830,7 @@ gconf
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 enabled
 ;
 nsCAutoString
@@ -2855,7 +2855,7 @@ enabled
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 requiresTerminal
 ;
 gconf

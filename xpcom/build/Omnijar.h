@@ -59,7 +59,7 @@ sReader
 ]
 ;
 static
-PRPackedBool
+bool
 sInitialized
 ;
 public
@@ -77,7 +77,7 @@ APP
 ;
 static
 inline
-PRPackedBool
+bool
 IsInitialized
 (
 )
@@ -149,7 +149,7 @@ aType
 }
 static
 inline
-PRBool
+bool
 HasOmnijar
 (
 Type

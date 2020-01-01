@@ -564,7 +564,7 @@ nsAccessible
 aAccessible
 PRUint64
 aState
-PRBool
+bool
 aIsEnabled
 EIsFromUserInput
 aIsFromUserInput
@@ -600,7 +600,7 @@ nsINode
 aNode
 PRUint64
 aState
-PRBool
+bool
 aIsEnabled
 )
 :
@@ -729,7 +729,7 @@ const
 nsAString
 &
 aModifiedText
-PRBool
+bool
 aIsInserted
 EIsFromUserInput
 aIsFromUserInput

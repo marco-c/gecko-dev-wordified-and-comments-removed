@@ -598,7 +598,7 @@ val
 b
 =
 (
-PRBool
+bool
 )
 value
 ;

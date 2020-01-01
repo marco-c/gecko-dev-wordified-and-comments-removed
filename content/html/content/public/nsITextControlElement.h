@@ -64,7 +64,7 @@ NS_ITEXTCONTROLELEMENT_IID
 NS_IMETHOD
 SetValueChanged
 (
-PRBool
+bool
 changed
 )
 =
@@ -72,7 +72,7 @@ changed
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsSingleLineTextControl
 (
@@ -83,7 +83,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsTextArea
 (
@@ -94,7 +94,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsPlainTextControl
 (
@@ -105,7 +105,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsPasswordTextControl
 (
@@ -159,7 +159,7 @@ aValue
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 ValueChanged
 (
@@ -177,7 +177,7 @@ GetTextEditorValue
 nsAString
 &
 aValue
-PRBool
+bool
 aIgnoreWrap
 )
 const
@@ -194,7 +194,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aUserInput
 )
 =
@@ -312,7 +312,7 @@ void
 )
 UpdatePlaceholderText
 (
-PRBool
+bool
 aNotify
 )
 =
@@ -324,9 +324,9 @@ void
 )
 SetPlaceholderClass
 (
-PRBool
+bool
 aVisible
-PRBool
+bool
 aNotify
 )
 =
@@ -338,7 +338,7 @@ void
 )
 OnValueChanged
 (
-PRBool
+bool
 aNotify
 )
 =
@@ -388,7 +388,7 @@ eHTMLTextWrap_Soft
 nsHTMLTextWrap
 ;
 static
-PRBool
+bool
 GetWrapPropertyEnum
 (
 nsIContent
@@ -401,7 +401,7 @@ aWrapProp
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 HasCachedSelection
 (

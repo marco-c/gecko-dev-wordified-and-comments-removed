@@ -1012,6 +1012,15 @@ if
 !
 browserIsRemote
 )
+fails
+-
+if
+(
+Android
+&
+&
+layersOpenGL
+)
 =
 =
 647192

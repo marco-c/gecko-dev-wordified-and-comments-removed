@@ -882,7 +882,7 @@ WSFragment
 *
 *
 outRun
-PRBool
+bool
 after
 )
 ;
@@ -987,7 +987,7 @@ mNode
 PRInt32
 mOffset
 ;
-PRBool
+bool
 mPRE
 ;
 nsCOMPtr

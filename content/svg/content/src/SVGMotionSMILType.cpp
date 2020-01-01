@@ -305,7 +305,7 @@ mPath
 ;
 }
 }
-PRBool
+bool
 operator
 =
 =
@@ -433,7 +433,7 @@ mDistToPoint
 )
 ;
 }
-PRBool
+bool
 operator
 !
 =
@@ -746,7 +746,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 SVGMotionSMILType
 :
 :

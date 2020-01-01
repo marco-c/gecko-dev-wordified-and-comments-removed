@@ -327,13 +327,11 @@ wrappedWin
 wrappedJSObject
 ;
 var
-readystatechange
+filter
 =
 unwrapped
 .
-xhr
-.
-onreadystatechange
+filter
 ;
 is
 (
@@ -341,7 +339,7 @@ utils
 .
 getClassName
 (
-readystatechange
+filter
 )
 '
 Proxy
@@ -355,7 +353,7 @@ wrapped
 is
 (
 typeof
-readystatechange
+filter
 .
 QueryInterface
 '
@@ -373,12 +371,11 @@ unwrapped
 .
 testme
 (
-readystatechange
+filter
 )
-'
+"
 content
 didn
-\
 '
 t
 get
@@ -389,7 +386,7 @@ another
 double
 wrapped
 object
-'
+"
 )
 ;
 SimpleTest

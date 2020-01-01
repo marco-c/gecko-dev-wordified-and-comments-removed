@@ -689,8 +689,8 @@ NS_LITERAL_STRING
 command
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 doc
 -
 >
@@ -698,10 +698,10 @@ GetWindow
 (
 )
 0
-PR_FALSE
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
+false
 nsnull
 )
 )
@@ -712,10 +712,10 @@ pEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
-PRBool
+bool
 dummy
 ;
 target
@@ -1586,7 +1586,7 @@ standardEditMenuItem
 NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
-PRBool
+bool
 nsMenuUtilsX
 :
 :

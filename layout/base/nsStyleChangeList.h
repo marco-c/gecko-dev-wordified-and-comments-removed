@@ -136,7 +136,7 @@ nsStyleChangeList
 aCopy
 )
 ;
-PRBool
+bool
 operator
 =
 =

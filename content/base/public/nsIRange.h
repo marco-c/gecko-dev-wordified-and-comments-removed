@@ -150,7 +150,7 @@ return
 mEndOffset
 ;
 }
-PRBool
+bool
 IsPositioned
 (
 )
@@ -160,7 +160,7 @@ return
 mIsPositioned
 ;
 }
-PRBool
+bool
 IsDetached
 (
 )
@@ -170,7 +170,7 @@ return
 mIsDetached
 ;
 }
-PRBool
+bool
 Collapsed
 (
 )
@@ -195,7 +195,7 @@ mEndOffset
 void
 SetMaySpanAnonymousSubtrees
 (
-PRBool
+bool
 aMaySpanAnonymousSubtrees
 )
 {
@@ -333,13 +333,13 @@ mStartOffset
 PRInt32
 mEndOffset
 ;
-PRPackedBool
+bool
 mIsPositioned
 ;
-PRPackedBool
+bool
 mIsDetached
 ;
-PRPackedBool
+bool
 mMaySpanAnonymousSubtrees
 ;
 }

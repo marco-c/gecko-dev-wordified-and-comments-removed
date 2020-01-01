@@ -158,7 +158,7 @@ Reset
 (
 )
 ;
-PRBool
+bool
 IsIdentity
 (
 )
@@ -220,7 +220,7 @@ Invert
 (
 )
 ;
-PRBool
+bool
 IsSingular
 (
 )
@@ -348,7 +348,7 @@ y0
 )
 ;
 }
-PRBool
+bool
 HasNonIntegerTranslation
 (
 )
@@ -390,7 +390,7 @@ y0
 )
 ;
 }
-PRBool
+bool
 HasNonTranslation
 (
 )
@@ -437,7 +437,7 @@ yx
 )
 ;
 }
-PRBool
+bool
 HasOnlyIntegerTranslation
 (
 )
@@ -450,7 +450,7 @@ HasNonIntegerTranslation
 )
 ;
 }
-PRBool
+bool
 HasNonTranslationOrFlip
 (
 )
@@ -510,7 +510,7 @@ yx
 )
 ;
 }
-PRBool
+bool
 HasNonAxisAlignedTransform
 (
 )
@@ -556,7 +556,7 @@ xy
 gfxSize
 ScaleFactors
 (
-PRBool
+bool
 xMajor
 )
 const
@@ -705,7 +705,7 @@ NudgeToIntegers
 void
 )
 ;
-PRBool
+bool
 PreservesAxisAlignedRectangles
 (
 )
@@ -754,7 +754,7 @@ yx
 )
 ;
 }
-PRBool
+bool
 HasNonIntegerScale
 (
 )
@@ -794,7 +794,7 @@ yy
 private
 :
 static
-PRBool
+bool
 FuzzyEqual
 (
 gfxFloat

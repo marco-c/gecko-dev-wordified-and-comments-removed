@@ -2387,14 +2387,6 @@ start
 onSyncStart
 )
 ;
-do_check_eq
-(
-SyncScheduler
-.
-nextSync
-0
-)
-;
 SyncScheduler
 .
 scheduleNextSync

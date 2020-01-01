@@ -269,10 +269,10 @@ buffer
 0
 }
 ;
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 PRInt32
 length

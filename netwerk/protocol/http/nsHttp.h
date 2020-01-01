@@ -457,7 +457,7 @@ get
 ;
 }
 static
-PRBool
+bool
 IsValidToken
 (
 const
@@ -472,7 +472,7 @@ end
 ;
 static
 inline
-PRBool
+bool
 IsValidToken
 (
 const
@@ -527,7 +527,7 @@ separators
 )
 ;
 static
-PRBool
+bool
 ParseInt64
 (
 const
@@ -546,7 +546,7 @@ result
 ;
 static
 inline
-PRBool
+bool
 ParseInt64
 (
 const

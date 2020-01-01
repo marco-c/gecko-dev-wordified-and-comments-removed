@@ -151,7 +151,7 @@ mSize
 height
 ;
 }
-PRBool
+bool
 CopyFrom
 (
 gfxImageSurface
@@ -250,10 +250,15 @@ gfxIntSize
 gfxImageFormat
 )
 ;
+void
+MakeInvalid
+(
+)
+;
 gfxIntSize
 mSize
 ;
-PRBool
+bool
 mOwnsData
 ;
 unsigned

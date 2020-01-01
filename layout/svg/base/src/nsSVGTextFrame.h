@@ -201,6 +201,8 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
+PRUint32
+aFlags
 )
 ;
 virtual
@@ -293,7 +295,7 @@ private
 void
 UpdateGlyphPositioning
 (
-PRBool
+bool
 aForceGlobalTransform
 )
 ;
@@ -321,7 +323,7 @@ suspended
 UpdateState
 mMetricsState
 ;
-PRPackedBool
+bool
 mPositioningDirty
 ;
 }

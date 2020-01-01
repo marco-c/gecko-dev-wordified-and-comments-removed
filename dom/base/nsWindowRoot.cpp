@@ -269,7 +269,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
 )
 {
@@ -313,7 +313,7 @@ DispatchEvent
 nsIDOMEvent
 *
 aEvt
-PRBool
+bool
 *
 aRetVal
 )
@@ -414,9 +414,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
-PRBool
+bool
 aWantsUntrusted
 PRUint8
 aOptionalArgc
@@ -502,7 +502,7 @@ nsWindowRoot
 :
 GetListenerManager
 (
-PRBool
+bool
 aCreateIfNotFound
 )
 {

@@ -45,7 +45,7 @@ NULL
 )
 mNativeCallbackPending
 (
-PR_FALSE
+false
 )
 {
 }
@@ -108,10 +108,10 @@ ScheduleNativeEventCallback
 )
 ;
 virtual
-PRBool
+bool
 ProcessNextNativeEvent
 (
-PRBool
+bool
 mayWait
 )
 ;
@@ -137,7 +137,7 @@ protected
 HWND
 mEventWnd
 ;
-PRBool
+bool
 mNativeCallbackPending
 ;
 TimeStamp

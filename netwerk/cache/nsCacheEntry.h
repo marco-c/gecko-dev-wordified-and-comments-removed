@@ -99,7 +99,7 @@ nsCacheEntry
 nsCString
 *
 key
-PRBool
+bool
 streamBased
 nsCacheStoragePolicy
 storagePolicy
@@ -118,7 +118,7 @@ const
 char
 *
 key
-PRBool
+bool
 streamBased
 nsCacheStoragePolicy
 storagePolicy
@@ -553,7 +553,7 @@ mFlags
 eBindingMask
 ;
 }
-PRBool
+bool
 IsBinding
 (
 )
@@ -672,7 +672,7 @@ mFlags
 eValidMask
 ;
 }
-PRBool
+bool
 IsDoomed
 (
 )
@@ -688,7 +688,7 @@ eDoomedMask
 0
 ;
 }
-PRBool
+bool
 IsEntryDirty
 (
 )
@@ -704,7 +704,7 @@ eEntryDirtyMask
 0
 ;
 }
-PRBool
+bool
 IsDataDirty
 (
 )
@@ -720,7 +720,7 @@ eDataDirtyMask
 0
 ;
 }
-PRBool
+bool
 IsMetaDataDirty
 (
 )
@@ -736,7 +736,7 @@ eMetaDataDirtyMask
 0
 ;
 }
-PRBool
+bool
 IsStreamData
 (
 )
@@ -752,7 +752,7 @@ eStreamDataMask
 0
 ;
 }
-PRBool
+bool
 IsActive
 (
 )
@@ -768,7 +768,7 @@ eActiveMask
 0
 ;
 }
-PRBool
+bool
 IsInitialized
 (
 )
@@ -784,7 +784,7 @@ eInitializedMask
 0
 ;
 }
-PRBool
+bool
 IsValid
 (
 )
@@ -800,7 +800,7 @@ eValidMask
 0
 ;
 }
-PRBool
+bool
 IsInvalid
 (
 )
@@ -816,7 +816,7 @@ eValidMask
 0
 ;
 }
-PRBool
+bool
 IsInUse
 (
 )
@@ -844,7 +844,7 @@ mDescriptorQ
 )
 ;
 }
-PRBool
+bool
 IsNotInUse
 (
 )
@@ -856,7 +856,7 @@ IsInUse
 )
 ;
 }
-PRBool
+bool
 IsAllowedInMemory
 (
 )
@@ -888,7 +888,7 @@ STORE_IN_MEMORY
 )
 ;
 }
-PRBool
+bool
 IsAllowedOnDisk
 (
 )
@@ -933,7 +933,7 @@ STORE_ON_DISK_AS_FILE
 )
 ;
 }
-PRBool
+bool
 IsAllowedOffline
 (
 )
@@ -1027,7 +1027,7 @@ nsICacheEntryDescriptor
 result
 )
 ;
-PRBool
+bool
 RemoveRequest
 (
 nsCacheRequest
@@ -1035,7 +1035,7 @@ nsCacheRequest
 request
 )
 ;
-PRBool
+bool
 RemoveDescriptor
 (
 nsCacheEntryDescriptor
@@ -1311,7 +1311,7 @@ key
 )
 ;
 static
-PRBool
+bool
 MatchEntry
 (
 PLDHashTable
@@ -1405,7 +1405,7 @@ ops
 PLDHashTable
 table
 ;
-PRBool
+bool
 initialized
 ;
 }

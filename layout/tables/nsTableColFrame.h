@@ -323,7 +323,7 @@ nscoord
 aMinCoord
 nscoord
 aPrefCoord
-PRBool
+bool
 aHasSpecifiedCoord
 )
 {
@@ -447,7 +447,7 @@ return
 mPrefCoord
 ;
 }
-PRBool
+bool
 GetHasSpecifiedCoord
 (
 )
@@ -474,7 +474,7 @@ nscoord
 aSpanMinCoord
 nscoord
 aSpanPrefCoord
-PRBool
+bool
 aSpanHasSpecifiedCoord
 )
 {
@@ -699,7 +699,7 @@ mRightContBorderWidth
 BCPixelSize
 mBottomContBorderWidth
 ;
-PRPackedBool
+bool
 mHasSpecifiedCoord
 ;
 }

@@ -1157,7 +1157,7 @@ indexA
 indexB
 ;
 }
-PRBool
+bool
 txNodeSorter
 :
 :

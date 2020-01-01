@@ -1631,10 +1631,10 @@ rv
 rv
 )
 ;
-PRBool
+bool
 result
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3193,7 +3193,7 @@ case
 BOOLEAN
 :
 {
-PRBool
+bool
 result
 ;
 nsresult
@@ -3275,7 +3275,7 @@ getContextNode
 nsAutoString
 lang
 ;
-PRBool
+bool
 found
 ;
 do
@@ -3355,7 +3355,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 result
 =
 StringBeginsWith
@@ -3422,7 +3422,7 @@ case
 _NOT
 :
 {
-PRBool
+bool
 result
 ;
 rv
@@ -3526,7 +3526,7 @@ mType
 mReturnType
 ;
 }
-PRBool
+bool
 txCoreFunctionCall
 :
 :
@@ -3727,7 +3727,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 txCoreFunctionCall
 :
 :

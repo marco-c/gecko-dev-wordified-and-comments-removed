@@ -61,7 +61,7 @@ nsIAtom
 >
 mTargetVariable
 ;
-PRBool
+bool
 mHasDependency
 ;
 RDFBinding
@@ -193,7 +193,7 @@ nsIRDFResource
 aPredicate
 )
 ;
-PRBool
+bool
 SyncAssignments
 (
 nsIRDFResource

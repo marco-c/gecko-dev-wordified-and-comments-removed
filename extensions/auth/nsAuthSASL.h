@@ -65,7 +65,7 @@ mInnerModule
 nsString
 mUsername
 ;
-PRBool
+bool
 mSASLReady
 ;
 }

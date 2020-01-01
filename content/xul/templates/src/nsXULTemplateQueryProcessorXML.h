@@ -399,7 +399,7 @@ aCompiledExpr
 ;
 private
 :
-PRBool
+bool
 mGenerationStarted
 ;
 nsRefPtrHashtable

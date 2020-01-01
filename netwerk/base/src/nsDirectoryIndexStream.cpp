@@ -278,7 +278,7 @@ aDir
 nsresult
 rv
 ;
-PRBool
+bool
 isDir
 ;
 rv
@@ -401,7 +401,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 more
 ;
 nsCOMPtr
@@ -996,7 +996,7 @@ Length
 aCount
 )
 {
-PRBool
+bool
 more
 =
 mPos
@@ -1086,10 +1086,10 @@ rv
 #
 ifndef
 XP_UNIX
-PRBool
+bool
 hidden
 =
-PR_FALSE
+false
 ;
 current
 -
@@ -1397,10 +1397,10 @@ buf
 )
 ;
 }
-PRBool
+bool
 isFile
 =
-PR_TRUE
+true
 ;
 current
 -
@@ -1428,7 +1428,7 @@ FILE
 }
 else
 {
-PRBool
+bool
 isDir
 ;
 rv
@@ -1469,7 +1469,7 @@ DIRECTORY
 }
 else
 {
-PRBool
+bool
 isLink
 ;
 rv
@@ -1609,7 +1609,7 @@ nsDirectoryIndexStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )

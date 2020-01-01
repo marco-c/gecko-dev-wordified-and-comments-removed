@@ -1022,7 +1022,7 @@ aPrototype
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aIsScriptable
 )
 {
@@ -1207,7 +1207,7 @@ aPrototype
 nsIDocument
 *
 aDocument
-PRBool
+bool
 aIsScriptable
 Element
 *
@@ -2011,7 +2011,10 @@ nsXULElement
 :
 GetEventListenerManagerForAttr
 (
-PRBool
+nsIAtom
+*
+aAttrName
+bool
 *
 aDefer
 )
@@ -2126,12 +2129,13 @@ nsStyledElement
 :
 GetEventListenerManagerForAttr
 (
+aAttrName
 aDefer
 )
 ;
 }
 static
-PRBool
+bool
 IsNonList
 (
 nsINodeInfo
@@ -2179,7 +2183,7 @@ richlistbox
 )
 ;
 }
-PRBool
+bool
 nsXULElement
 :
 :
@@ -2188,14 +2192,14 @@ IsFocusable
 PRInt32
 *
 aTabIndex
-PRBool
+bool
 aWithMouse
 )
 {
-PRBool
+bool
 shouldFocus
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -2231,7 +2235,7 @@ if
 xulControl
 )
 {
-PRBool
+bool
 disabled
 ;
 xulControl
@@ -2396,9 +2400,9 @@ nsXULElement
 :
 PerformAccesskey
 (
-PRBool
+bool
 aKeyCausesActivation
-PRBool
+bool
 aIsTrustedEvent
 )
 {
@@ -2647,7 +2651,7 @@ if
 controlItem
 )
 {
-PRBool
+bool
 disabled
 ;
 controlItem
@@ -3243,7 +3247,7 @@ const
 nsAttrName
 &
 aName
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -3368,7 +3372,7 @@ nsXULElement
 :
 UpdateEditableState
 (
-PRBool
+bool
 aNotify
 )
 {
@@ -3415,7 +3419,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -3477,9 +3481,9 @@ nsXULElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -3556,7 +3560,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-PRBool
+bool
 aNotify
 )
 {
@@ -3598,10 +3602,10 @@ nsIListBoxObject
 >
 listBox
 ;
-PRBool
+bool
 fireSelectionHandler
 =
-PR_FALSE
+false
 ;
 PRInt32
 newCurrentIndex
@@ -4154,7 +4158,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -4382,7 +4386,7 @@ const
 nsAString
 *
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -4414,7 +4418,7 @@ EventNameType_XUL
 aValue
 )
 {
-PRBool
+bool
 defer
 =
 mPrototype
@@ -4758,7 +4762,7 @@ aNotify
 )
 ;
 }
-PRBool
+bool
 nsXULElement
 :
 :
@@ -4901,7 +4905,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsXULElement
 :
 :
@@ -4988,7 +4992,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsXULElement
 :
 :
@@ -5050,7 +5054,7 @@ aName
 )
 ;
 }
-PRBool
+bool
 nsXULElement
 :
 :
@@ -5119,7 +5123,7 @@ aCaseSensitive
 )
 ;
 }
-PRBool
+bool
 nsXULElement
 :
 :
@@ -5323,7 +5327,7 @@ aNameSpaceID
 nsIAtom
 *
 aName
-PRBool
+bool
 aNotify
 )
 {
@@ -5388,10 +5392,10 @@ UPDATE_CONTENT_MODEL
 aNotify
 )
 ;
-PRBool
+bool
 isId
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5494,7 +5498,7 @@ REMOVAL
 )
 ;
 }
-PRBool
+bool
 hasMutationListeners
 =
 aNotify
@@ -7656,7 +7660,7 @@ retval
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsXULElement
 :
@@ -7905,7 +7909,7 @@ Get
 #
 _method
 (
-PRBool
+bool
 *
 aResult
 )
@@ -7941,7 +7945,7 @@ Set
 #
 _method
 (
-PRBool
+bool
 aValue
 )
 \
@@ -8943,7 +8947,7 @@ GetPresContext
 (
 )
 ;
-PRBool
+bool
 isCallerChrome
 =
 nsContentUtils
@@ -9138,7 +9142,7 @@ return
 mBindingParent
 ;
 }
-PRBool
+bool
 nsXULElement
 :
 :
@@ -9275,7 +9279,7 @@ nsIAtom
 aName
 )
 {
-PRBool
+bool
 isContext
 =
 (
@@ -9729,7 +9733,7 @@ swap
 mPrototype
 )
 ;
-PRBool
+bool
 hadAttributes
 =
 mAttrsAndChildren
@@ -9969,7 +9973,7 @@ nsXULElement
 :
 HideWindowChrome
 (
-PRBool
+bool
 aShouldHide
 )
 {
@@ -10201,7 +10205,7 @@ SetTitlebarColor
 (
 nscolor
 aColor
-PRBool
+bool
 aActive
 )
 {
@@ -10242,7 +10246,7 @@ SetDrawInTitleBarEvent
 nsIWidget
 *
 aWidget
-PRBool
+bool
 aState
 )
 :
@@ -10300,7 +10304,7 @@ nsIWidget
 >
 mWidget
 ;
-PRBool
+bool
 mState
 ;
 }
@@ -10311,7 +10315,7 @@ nsXULElement
 :
 SetDrawsInTitlebar
 (
-PRBool
+bool
 aState
 )
 {
@@ -10546,7 +10550,7 @@ mainWidget
 )
 ;
 }
-PRBool
+bool
 nsXULElement
 :
 :
@@ -10618,7 +10622,7 @@ AttrCount
 (
 )
 ;
-PRBool
+bool
 haveLocalAttributes
 =
 (
@@ -12194,7 +12198,7 @@ rv
 aStream
 -
 >
-Read8
+ReadBoolean
 (
 &
 script
@@ -12831,10 +12835,10 @@ rv
 =
 NS_ERROR_NOT_IMPLEMENTED
 ;
-PRBool
+bool
 isChrome
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -12903,7 +12907,7 @@ off
 "
 )
 ;
-PRBool
+bool
 exists
 ;
 cache
@@ -13188,10 +13192,10 @@ if
 cache
 )
 {
-PRBool
+bool
 useXULCache
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -13334,10 +13338,10 @@ useXULCache
 mSrcURI
 )
 {
-PRBool
+bool
 isChrome
 =
-PR_FALSE
+false
 ;
 mSrcURI
 -

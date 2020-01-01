@@ -14,10 +14,10 @@ h
 struct
 nsCaptureParams
 {
-PRPackedBool
+bool
 captureAudio
 ;
-PRPackedBool
+bool
 captureVideo
 ;
 PRUint32
@@ -37,6 +37,9 @@ height
 ;
 PRUint32
 bpp
+;
+PRUint32
+camera
 ;
 }
 ;

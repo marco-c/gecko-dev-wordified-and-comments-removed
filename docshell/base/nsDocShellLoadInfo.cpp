@@ -179,7 +179,7 @@ nsDocShellLoadInfo
 :
 GetInheritOwner
 (
-PRBool
+bool
 *
 aInheritOwner
 )
@@ -204,7 +204,7 @@ nsDocShellLoadInfo
 :
 SetInheritOwner
 (
-PRBool
+bool
 aInheritOwner
 )
 {
@@ -222,7 +222,7 @@ nsDocShellLoadInfo
 :
 GetOwnerIsExplicit
 (
-PRBool
+bool
 *
 aOwnerIsExplicit
 )
@@ -242,7 +242,7 @@ nsDocShellLoadInfo
 :
 SetOwnerIsExplicit
 (
-PRBool
+bool
 aOwnerIsExplicit
 )
 {
@@ -508,7 +508,7 @@ nsDocShellLoadInfo
 :
 GetSendReferrer
 (
-PRBool
+bool
 *
 aSendReferrer
 )
@@ -533,7 +533,7 @@ nsDocShellLoadInfo
 :
 SetSendReferrer
 (
-PRBool
+bool
 aSendReferrer
 )
 {

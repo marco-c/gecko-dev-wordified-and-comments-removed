@@ -367,7 +367,7 @@ nsIconChannel
 :
 IsPending
 (
-PRBool
+bool
 *
 result
 )
@@ -1183,10 +1183,10 @@ infoFlags
 =
 SHGFI_ICON
 ;
-PRBool
+bool
 fileExists
 =
-PR_FALSE
+false
 ;
 nsAutoString
 filePath
@@ -1912,7 +1912,7 @@ nsIInputStream
 *
 *
 _retval
-PRBool
+bool
 nonBlocking
 )
 {

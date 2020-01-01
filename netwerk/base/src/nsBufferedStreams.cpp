@@ -1457,7 +1457,7 @@ nsBufferedInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )
@@ -1948,7 +1948,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsBufferedInputStream
 :
 :
@@ -2820,7 +2820,7 @@ nsBufferedOutputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )

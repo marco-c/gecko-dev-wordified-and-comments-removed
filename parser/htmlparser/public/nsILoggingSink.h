@@ -58,10 +58,10 @@ SetOutputStream
 PRFileDesc
 *
 aStream
-PRBool
+bool
 autoDelete
 =
-PR_FALSE
+false
 )
 =
 0

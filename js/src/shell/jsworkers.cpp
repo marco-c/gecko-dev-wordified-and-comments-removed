@@ -46,6 +46,13 @@ h
 #
 include
 "
+jsdbgapi
+.
+h
+"
+#
+include
+"
 jshashtable
 .
 h

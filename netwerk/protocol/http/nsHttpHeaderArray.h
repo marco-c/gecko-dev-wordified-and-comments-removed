@@ -84,10 +84,10 @@ const
 nsACString
 &
 value
-PRBool
+bool
 merge
 =
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -146,7 +146,7 @@ HTTP_HEADER_VALUE_SEPS
 )
 ;
 }
-PRBool
+bool
 HasHeaderValue
 (
 nsHttpAtom
@@ -201,10 +201,10 @@ Flatten
 (
 nsACString
 &
-PRBool
+bool
 pruneProxyHeaders
 =
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -254,7 +254,7 @@ value
 struct
 MatchHeader
 {
-PRBool
+bool
 Equals
 (
 const
@@ -307,14 +307,14 @@ nsACString
 value
 )
 ;
-PRBool
+bool
 IsSingletonHeader
 (
 nsHttpAtom
 header
 )
 ;
-PRBool
+bool
 IsSuspectDuplicateHeader
 (
 nsHttpAtom
@@ -392,7 +392,7 @@ index
 ;
 }
 inline
-PRBool
+bool
 nsHttpHeaderArray
 :
 :
@@ -617,7 +617,7 @@ value
 ;
 }
 inline
-PRBool
+bool
 nsHttpHeaderArray
 :
 :
@@ -627,7 +627,7 @@ nsHttpAtom
 header
 )
 {
-PRBool
+bool
 retval
 =
 header

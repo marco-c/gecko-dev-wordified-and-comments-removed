@@ -133,10 +133,10 @@ NS_ENSURE_ARG_POINTER
 aReturn
 )
 ;
-PRBool
+bool
 isWyciwyg
 =
-PR_FALSE
+false
 ;
 aURI
 -
@@ -348,7 +348,7 @@ fixup
 .
 hide_user_pass
 "
-PR_TRUE
+true
 )
 )
 {
@@ -757,7 +757,7 @@ start
 #
 endif
 }
-PRBool
+bool
 bAsciiURI
 =
 IsASCII
@@ -765,7 +765,7 @@ IsASCII
 uriString
 )
 ;
-PRBool
+bool
 bUseNonDefaultCharsetForURI
 =
 !
@@ -923,10 +923,10 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 fixupKeywords
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1555,7 +1555,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-PRBool
+bool
 nsDefaultURIFixup
 :
 :
@@ -1598,7 +1598,7 @@ alternate
 .
 enabled
 "
-PR_TRUE
+true
 )
 )
 {
@@ -1606,10 +1606,10 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 isHttp
 =
-PR_FALSE
+false
 ;
 aURI
 -
@@ -1957,7 +1957,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsDefaultURIFixup
 :
 :
@@ -1969,10 +1969,10 @@ nsCString
 aHostSpec
 )
 {
-PRBool
+bool
 likelyFTP
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2179,10 +2179,10 @@ nsCString
 aOut
 )
 {
-PRBool
+bool
 attemptFixup
 =
-PR_FALSE
+false
 ;
 #
 if
@@ -2366,7 +2366,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 nsDefaultURIFixup
 :
 :
@@ -2624,7 +2624,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsDefaultURIFixup
 :
 :

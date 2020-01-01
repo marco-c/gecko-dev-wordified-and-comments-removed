@@ -329,10 +329,10 @@ TimeStampInitialization
 initOnce
 ;
 static
-PRBool
+bool
 gInitialized
 =
-PR_FALSE
+false
 ;
 nsresult
 TimeStamp

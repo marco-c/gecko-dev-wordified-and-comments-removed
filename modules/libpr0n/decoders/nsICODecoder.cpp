@@ -8,7 +8,7 @@ h
 #
 include
 "
-Endian
+EndianMacros
 .
 h
 "
@@ -184,6 +184,18 @@ nsICODecoder
 :
 nsICODecoder
 (
+RasterImage
+*
+aImage
+imgIDecoderObserver
+*
+aObserver
+)
+:
+Decoder
+(
+aImage
+aObserver
 )
 {
 mPos
@@ -284,7 +296,7 @@ GetDecodeDone
 ;
 }
 }
-PRBool
+bool
 nsICODecoder
 :
 :
@@ -1251,6 +1263,8 @@ mContainedDecoder
 new
 nsPNGDecoder
 (
+mImage
+mObserver
 )
 ;
 mContainedDecoder
@@ -1258,8 +1272,6 @@ mContainedDecoder
 >
 InitSharedDecoder
 (
-mImage
-mObserver
 )
 ;
 mContainedDecoder
@@ -1565,6 +1577,8 @@ bmpDecoder
 new
 nsBMPDecoder
 (
+mImage
+mObserver
 )
 ;
 mContainedDecoder
@@ -1594,8 +1608,6 @@ mContainedDecoder
 >
 InitSharedDecoder
 (
-mImage
-mObserver
 )
 ;
 PRInt8

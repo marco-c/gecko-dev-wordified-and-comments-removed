@@ -70,7 +70,7 @@ value
 }
 ;
 static
-PRBool
+bool
 matchKeyEntry
 (
 PLDHashTable
@@ -365,7 +365,7 @@ nsHashtable
 (
 PRUint32
 aInitSize
-PRBool
+bool
 threadSafe
 )
 :
@@ -383,7 +383,7 @@ MOZ_COUNT_CTOR
 nsHashtable
 )
 ;
-PRBool
+bool
 result
 =
 PL_DHashTableInit
@@ -487,7 +487,7 @@ mLock
 )
 ;
 }
-PRBool
+bool
 nsHashtable
 :
 :
@@ -540,7 +540,7 @@ aKey
 PL_DHASH_LOOKUP
 )
 ;
-PRBool
+bool
 exists
 =
 PL_DHASH_ENTRY_IS_BUSY
@@ -950,7 +950,7 @@ ops
 return
 nsnull
 ;
-PRBool
+bool
 threadSafe
 =
 (
@@ -1007,7 +1007,7 @@ ops
 )
 return
 ;
-PRBool
+bool
 wasEnumerating
 =
 mEnumerating
@@ -1230,7 +1230,7 @@ MOZ_COUNT_CTOR
 nsHashtable
 )
 ;
-PRBool
+bool
 threadSafe
 ;
 nsresult
@@ -1304,7 +1304,7 @@ rv
 )
 )
 {
-PRBool
+bool
 status
 =
 PL_DHashTableInit
@@ -1424,7 +1424,7 @@ mRetVal
 }
 ;
 static
-PRBool
+bool
 WriteEntry
 (
 nsHashKey
@@ -1521,7 +1521,7 @@ ops
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRBool
+bool
 threadSafe
 =
 (
@@ -1632,7 +1632,7 @@ mKey
 nsnull
 )
 {
-PRBool
+bool
 nonnull
 ;
 nsresult
@@ -1687,7 +1687,7 @@ aStream
 )
 const
 {
-PRBool
+bool
 nonnull
 =
 (
@@ -2111,7 +2111,7 @@ mStrLen
 )
 ;
 }
-PRBool
+bool
 nsCStringKey
 :
 :
@@ -2786,7 +2786,7 @@ mStrLen
 )
 ;
 }
-PRBool
+bool
 nsStringKey
 :
 :
@@ -3092,7 +3092,7 @@ void
 destroyElementClosure
 PRUint32
 aSize
-PRBool
+bool
 threadSafe
 )
 :
@@ -3242,10 +3242,10 @@ ops
 return
 nsnull
 ;
-PRBool
+bool
 threadSafe
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3302,7 +3302,7 @@ mDestroyElementClosure
 )
 ;
 }
-PRBool
+bool
 nsObjectHashtable
 :
 :
@@ -3346,7 +3346,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsSupportsHashtable
 :
 :
@@ -3400,7 +3400,7 @@ nsnull
 )
 ;
 }
-PRBool
+bool
 nsSupportsHashtable
 :
 :
@@ -3525,7 +3525,7 @@ return
 element
 ;
 }
-PRBool
+bool
 nsSupportsHashtable
 :
 :
@@ -3687,7 +3687,7 @@ ops
 return
 nsnull
 ;
-PRBool
+bool
 threadSafe
 =
 (

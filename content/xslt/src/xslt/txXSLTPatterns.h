@@ -415,7 +415,7 @@ addStep
 txPattern
 *
 aPattern
-PRBool
+bool
 isChild
 )
 ;
@@ -434,7 +434,7 @@ txPattern
 >
 pattern
 ;
-PRBool
+bool
 isChild
 ;
 }
@@ -480,7 +480,7 @@ public
 void
 setSerialize
 (
-PRBool
+bool
 aSerialize
 )
 {
@@ -491,7 +491,7 @@ aSerialize
 }
 private
 :
-PRBool
+bool
 mSerialize
 ;
 #
@@ -608,7 +608,7 @@ txStepPattern
 txNodeTest
 *
 aNodeTest
-PRBool
+bool
 isAttr
 )
 :
@@ -666,7 +666,7 @@ txNodeTest
 >
 mNodeTest
 ;
-PRBool
+bool
 mIsAttr
 ;
 }

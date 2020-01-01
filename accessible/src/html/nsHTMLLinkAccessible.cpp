@@ -471,7 +471,7 @@ GetHrefURI
 nsnull
 ;
 }
-PRBool
+bool
 nsHTMLLinkAccessible
 :
 :

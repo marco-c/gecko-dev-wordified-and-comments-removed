@@ -73,7 +73,7 @@ aVolume
 ;
 virtual
 bool
-RecvMinWriteSample
+RecvMinWriteSize
 (
 )
 ;
@@ -103,10 +103,10 @@ RecvShutdown
 ;
 virtual
 bool
-SendMinWriteSampleDone
+SendMinWriteSizeDone
 (
 PRInt32
-minSamples
+minFrames
 )
 ;
 virtual
@@ -157,7 +157,7 @@ Shutdown
 (
 )
 ;
-PRPackedBool
+bool
 mIPCOpen
 ;
 }

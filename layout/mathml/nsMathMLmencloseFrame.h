@@ -88,7 +88,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-PRBool
+bool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
@@ -199,12 +199,12 @@ PlaceInternal
 nsRenderingContext
 &
 aRenderingContext
-PRBool
+bool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
 aDesiredSize
-PRBool
+bool
 aWidthOnly
 )
 ;
@@ -225,7 +225,7 @@ InitNotations
 PRUint32
 mNotationsToDraw
 ;
-PRBool
+bool
 IsToDraw
 (
 nsMencloseNotation

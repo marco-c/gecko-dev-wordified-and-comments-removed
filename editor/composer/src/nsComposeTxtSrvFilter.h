@@ -42,7 +42,7 @@ NS_DECL_NSITEXTSERVICESFILTER
 void
 Init
 (
-PRBool
+bool
 aIsForMail
 )
 {
@@ -53,7 +53,7 @@ aIsForMail
 }
 protected
 :
-PRBool
+bool
 mIsForMail
 ;
 nsCOMPtr

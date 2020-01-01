@@ -84,7 +84,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )
@@ -114,7 +114,7 @@ ClearAnimValue
 )
 ;
 static
-PRBool
+bool
 IsPropertyAnimatable
 (
 nsCSSProperty

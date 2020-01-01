@@ -111,10 +111,10 @@ InitPangoLib
 )
 {
 static
-PRBool
+bool
 initialized
 =
-PR_FALSE
+false
 ;
 if
 (

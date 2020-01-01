@@ -223,7 +223,7 @@ PRInt32
 >
 mContentToFrameIndex
 ;
-PRPackedBool
+bool
 mIsVisual
 ;
 nsBidiLevel
@@ -923,7 +923,7 @@ kPDF
 }
 }
 static
-PRBool
+bool
 IsFrameInCurrentLine
 (
 nsBlockInFlowLineIterator
@@ -1133,7 +1133,7 @@ child
 #
 ifdef
 DEBUG
-PRBool
+bool
 hasNext
 =
 #
@@ -1202,7 +1202,7 @@ PRUint8
 >
 mLevels
 ;
-PRBool
+bool
 mIsReordered
 ;
 BidiLineData
@@ -1220,15 +1220,15 @@ Clear
 (
 )
 ;
-PRBool
+bool
 isReordered
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 hasRTLFrames
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1435,7 +1435,7 @@ aIndex
 }
 }
 ;
-PRBool
+bool
 IsBidiSplittable
 (
 nsIFrame
@@ -1916,7 +1916,7 @@ nsIFrame
 *
 *
 aNewFrame
-PRBool
+bool
 aIsFluid
 )
 {
@@ -2526,10 +2526,10 @@ contentOffset
 =
 0
 ;
-PRBool
+bool
 isTextFrame
 =
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -3463,7 +3463,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 IsBidiLeaf
 (
 nsIFrame
@@ -3546,7 +3546,7 @@ GetNextSibling
 (
 )
 ;
-PRBool
+bool
 isLastFrame
 =
 !
@@ -4073,10 +4073,10 @@ nsnull
 break
 ;
 }
-PRBool
+bool
 createdContinuation
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4600,10 +4600,10 @@ aFrame
 nsContinuationStates
 *
 aContinuationStates
-PRBool
+bool
 &
 aIsLeftMost
-PRBool
+bool
 &
 aIsRightMost
 )
@@ -4620,7 +4620,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 isLTR
 =
 (
@@ -4985,7 +4985,7 @@ RepositionFrame
 nsIFrame
 *
 aFrame
-PRBool
+bool
 aIsOddLevel
 nscoord
 &
@@ -5002,7 +5002,7 @@ aFrame
 )
 return
 ;
-PRBool
+bool
 isLeftMost
 isRightMost
 ;
@@ -5449,7 +5449,7 @@ GetStyleVisibility
 (
 )
 ;
-PRBool
+bool
 isLTR
 =
 (
@@ -5632,7 +5632,7 @@ continuationStates
 ;
 }
 }
-PRBool
+bool
 nsBidiPresUtils
 :
 :
@@ -6204,7 +6204,7 @@ PRInt32
 aTextLength
 nsCharType
 aCharType
-PRBool
+bool
 aIsOddLevel
 )
 {
@@ -6698,10 +6698,10 @@ PRUint8
 aPrevCharType
 )
 {
-PRBool
+bool
 strongTypeFound
 =
-PR_FALSE
+false
 ;
 PRInt32
 offset
@@ -8085,7 +8085,7 @@ copied
 )
 ;
 }
-PRBool
+bool
 nsBidiPresUtils
 :
 :
@@ -8380,7 +8380,7 @@ nsAString
 aDest
 nsBidiLevel
 aBaseDirection
-PRBool
+bool
 aOverride
 )
 {

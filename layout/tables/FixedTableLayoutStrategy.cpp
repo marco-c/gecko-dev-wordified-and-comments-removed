@@ -295,7 +295,7 @@ width
 "
 )
 ;
-PRBool
+bool
 originates
 ;
 PRInt32
@@ -484,7 +484,7 @@ GetPrefWidth
 nsRenderingContext
 *
 aRenderingContext
-PRBool
+bool
 aComputingSize
 )
 {
@@ -899,7 +899,7 @@ width
 "
 )
 ;
-PRBool
+bool
 originates
 ;
 PRInt32

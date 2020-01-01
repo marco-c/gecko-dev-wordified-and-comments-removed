@@ -221,7 +221,7 @@ LayerManagerD3D9
 (
 )
 ;
-PRBool
+bool
 Initialize
 (
 )
@@ -299,6 +299,10 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
+=
+END_DEFAULT
 )
 ;
 const
@@ -516,7 +520,7 @@ DeviceWasRemoved
 void
 SetClippingEnabled
 (
-PRBool
+bool
 aEnabled
 )
 ;

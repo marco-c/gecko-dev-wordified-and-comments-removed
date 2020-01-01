@@ -154,7 +154,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 ;
@@ -162,14 +162,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
@@ -182,7 +182,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aCloneText
 )
 const
@@ -247,7 +247,7 @@ private
 void
 UpdateText
 (
-PRBool
+bool
 aNotify
 )
 ;
@@ -438,7 +438,7 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 nsGenericDOMDataNode
 )
-PRBool
+bool
 nsTextNode
 :
 :
@@ -475,7 +475,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aCloneText
 )
 const
@@ -666,7 +666,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-PRBool
+bool
 aNotify
 nsIContent
 *
@@ -877,7 +877,7 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
+bool
 aDumpAll
 )
 const
@@ -1109,7 +1109,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -1209,9 +1209,9 @@ nsAttributeTextNode
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -1366,7 +1366,7 @@ nsAttributeTextNode
 :
 UpdateText
 (
-PRBool
+bool
 aNotify
 )
 {

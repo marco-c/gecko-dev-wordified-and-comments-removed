@@ -86,10 +86,10 @@ nsIDOMNode
 aNode
 )
 ;
-PRBool
+bool
 mShowAnonymousContent
 ;
-PRBool
+bool
 mShowSubDocuments
 ;
 nsCOMPtr

@@ -95,7 +95,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -268,7 +268,7 @@ mBaseValUnit
 PRUint8
 mAttrEnum
 ;
-PRPackedBool
+bool
 mIsAnimated
 ;
 void
@@ -886,7 +886,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

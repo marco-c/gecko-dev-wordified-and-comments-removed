@@ -165,7 +165,7 @@ rv
 NS_ERROR_FILE_CORRUPTED
 )
 ;
-PRBool
+bool
 cacheFilesExist
 =
 CacheFilesExist
@@ -552,7 +552,7 @@ nsDiskCacheMap
 :
 Close
 (
-PRBool
+bool
 flush
 )
 {
@@ -842,7 +842,7 @@ nsDiskCacheMap
 :
 FlushRecords
 (
-PRBool
+bool
 unswap
 )
 {
@@ -2942,7 +2942,7 @@ nsDiskCacheMap
 :
 CloseBlockFiles
 (
-PRBool
+bool
 flush
 )
 {
@@ -2996,7 +2996,7 @@ return
 rv2
 ;
 }
-PRBool
+bool
 nsDiskCacheMap
 :
 :
@@ -3029,7 +3029,7 @@ kNumBlockFiles
 i
 )
 {
-PRBool
+bool
 exists
 ;
 rv
@@ -4711,7 +4711,7 @@ DeleteStorage
 nsDiskCacheRecord
 *
 record
-PRBool
+bool
 metaData
 )
 {
@@ -4943,9 +4943,9 @@ GetFileForDiskCacheRecord
 nsDiskCacheRecord
 *
 record
-PRBool
+bool
 meta
-PRBool
+bool
 createPath
 nsIFile
 *
@@ -5065,7 +5065,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 exists
 ;
 if
@@ -5220,9 +5220,9 @@ GetLocalFileForDiskCacheRecord
 nsDiskCacheRecord
 *
 record
-PRBool
+bool
 meta
-PRBool
+bool
 createPath
 nsILocalFile
 *

@@ -34,6 +34,13 @@ jsobj
 .
 h
 "
+#
+include
+"
+jsstr
+.
+h
+"
 inline
 bool
 js_ValueToAtom

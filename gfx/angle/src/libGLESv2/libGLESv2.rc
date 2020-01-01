@@ -113,11 +113,11 @@ resource
 /
 #
 include
-"
-afxres
+<
+windows
 .
 h
-"
+>
 #
 include
 "

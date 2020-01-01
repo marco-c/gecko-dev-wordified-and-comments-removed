@@ -334,10 +334,10 @@ mSocketWidget
 nsresult
 rv
 ;
-PRBool
+bool
 needXEmbed
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -361,7 +361,7 @@ rv
 {
 needXEmbed
 =
-PR_FALSE
+false
 ;
 }
 #

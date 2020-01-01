@@ -219,7 +219,7 @@ RemoveObserver
 private
 :
 static
-PRBool
+bool
 isSnapshot
 (
 PRUint16
@@ -240,7 +240,7 @@ ORDERED_NODE_SNAPSHOT_TYPE
 ;
 }
 static
-PRBool
+bool
 isIterator
 (
 PRUint16
@@ -261,7 +261,7 @@ ORDERED_NODE_ITERATOR_TYPE
 ;
 }
 static
-PRBool
+bool
 isNode
 (
 PRUint16
@@ -281,7 +281,7 @@ aResultType
 ANY_UNORDERED_NODE_TYPE
 ;
 }
-PRBool
+bool
 isSnapshot
 (
 )
@@ -294,7 +294,7 @@ mResultType
 )
 ;
 }
-PRBool
+bool
 isIterator
 (
 )
@@ -307,7 +307,7 @@ mResultType
 )
 ;
 }
-PRBool
+bool
 isNode
 (
 )
@@ -356,10 +356,10 @@ mResultType
 nsWeakPtr
 mContextNode
 ;
-PRPackedBool
+bool
 mInvalidIteratorState
 ;
-PRBool
+bool
 mBooleanResult
 ;
 double

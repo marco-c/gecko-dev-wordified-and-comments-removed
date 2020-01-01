@@ -228,7 +228,7 @@ mSize
 )
 ;
 }
-PRBool
+bool
 IsBackgroundKnown
 (
 )

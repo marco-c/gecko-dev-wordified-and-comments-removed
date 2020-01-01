@@ -2088,7 +2088,7 @@ nsPKCS11ModuleDB
 :
 GetCanToggleFIPS
 (
-PRBool
+bool
 *
 aCanToggleFIPS
 )
@@ -2167,7 +2167,7 @@ nsPKCS11ModuleDB
 :
 GetIsFIPSEnabled
 (
-PRBool
+bool
 *
 aIsFIPSEnabled
 )
@@ -2192,7 +2192,7 @@ nsPKCS11ModuleDB
 :
 GetIsFIPSModeActive
 (
-PRBool
+bool
 *
 aIsFIPSModeActive
 )

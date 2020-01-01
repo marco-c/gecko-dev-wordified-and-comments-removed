@@ -254,10 +254,10 @@ nsIStreamListener
 *
 *
 aDocListener
-PRBool
+bool
 aReset
 =
-PR_TRUE
+true
 nsIContentSink
 *
 aSink
@@ -292,7 +292,7 @@ aMode
 )
 ;
 virtual
-PRBool
+bool
 IsWriting
 (
 )
@@ -308,7 +308,7 @@ PRUint32
 ;
 }
 virtual
-PRBool
+bool
 GetIsFrameset
 (
 )
@@ -321,7 +321,7 @@ virtual
 void
 SetIsFrameset
 (
-PRBool
+bool
 aFrameset
 )
 {
@@ -482,7 +482,7 @@ virtual
 void
 SetIsXHTML
 (
-PRBool
+bool
 aXHTML
 )
 {
@@ -496,7 +496,7 @@ virtual
 void
 SetDocWriteDisabled
 (
-PRBool
+bool
 aDisabled
 )
 {
@@ -710,7 +710,7 @@ aId
 )
 ;
 static
-PRBool
+bool
 MatchLinks
 (
 nsIContent
@@ -727,7 +727,7 @@ aData
 )
 ;
 static
-PRBool
+bool
 MatchAnchors
 (
 nsIContent
@@ -744,7 +744,7 @@ aData
 )
 ;
 static
-PRBool
+bool
 MatchNameAttribute
 (
 nsIContent
@@ -802,7 +802,7 @@ const
 nsAString
 &
 aText
-PRBool
+bool
 aNewlineTerminate
 )
 ;
@@ -818,7 +818,7 @@ RemoveWyciwygChannel
 void
 )
 ;
-PRBool
+bool
 IsEditingOnAfterFlush
 (
 )
@@ -897,7 +897,7 @@ PRUint32
 gWyciwygSessionCnt
 ;
 static
-PRBool
+bool
 TryHintCharset
 (
 nsIMarkupDocumentViewer
@@ -912,7 +912,7 @@ aCharset
 )
 ;
 static
-PRBool
+bool
 TryUserForcedCharset
 (
 nsIMarkupDocumentViewer
@@ -930,7 +930,7 @@ aCharset
 )
 ;
 static
-PRBool
+bool
 TryCacheCharset
 (
 nsICachingChannel
@@ -944,7 +944,7 @@ nsACString
 aCharset
 )
 ;
-PRBool
+bool
 TryParentCharset
 (
 nsIDocumentCharsetInfo
@@ -962,7 +962,7 @@ aCharset
 )
 ;
 static
-PRBool
+bool
 UseWeakDocTypeDefault
 (
 PRInt32
@@ -974,7 +974,7 @@ aCharset
 )
 ;
 static
-PRBool
+bool
 TryDefaultCharset
 (
 nsIMarkupDocumentViewer
@@ -1036,16 +1036,16 @@ mPendingScripts
 PRUint32
 mLoadFlags
 ;
-PRPackedBool
+bool
 mIsFrameset
 ;
-PRPackedBool
+bool
 mTooDeepWriteRecursion
 ;
-PRPackedBool
+bool
 mDisableDocWrite
 ;
-PRPackedBool
+bool
 mWarnedWidthHeight
 ;
 nsCOMPtr
@@ -1093,7 +1093,7 @@ mEditingState
 nsresult
 DoClipboardSecurityCheck
 (
-PRBool
+bool
 aPaste
 )
 ;
@@ -1105,7 +1105,7 @@ static
 jsid
 sPasteInternal_id
 ;
-PRBool
+bool
 mDisableCookieAccess
 ;
 }

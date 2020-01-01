@@ -70,7 +70,7 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-PRBool
+bool
 aExpandEntityReferences
 )
 ;
@@ -95,7 +95,7 @@ mCurrentNode
 nsresult
 FirstChildInternal
 (
-PRBool
+bool
 aReversed
 nsIDOMNode
 *
@@ -106,7 +106,7 @@ _retval
 nsresult
 NextSiblingInternal
 (
-PRBool
+bool
 aReversed
 nsIDOMNode
 *

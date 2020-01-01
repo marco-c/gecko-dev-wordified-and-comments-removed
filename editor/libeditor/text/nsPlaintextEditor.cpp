@@ -881,10 +881,10 @@ nsIDOMElement
 >
 metaElement
 ;
-PRBool
+bool
 newMetaCharset
 =
-PR_TRUE
+true
 ;
 result
 =
@@ -1369,7 +1369,7 @@ nsPlaintextEditor
 :
 GetIsDocumentEditable
 (
-PRBool
+bool
 *
 aIsDocumentEditable
 )
@@ -1408,7 +1408,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsPlaintextEditor
 :
 :
@@ -2292,7 +2292,7 @@ res
 res
 )
 ;
-PRBool
+bool
 bCollapsed
 ;
 res
@@ -2671,7 +2671,7 @@ if
 textNode
 )
 {
-PRBool
+bool
 editable
 =
 IsEditable
@@ -2943,7 +2943,7 @@ aAction
 nsresult
 result
 ;
-PRBool
+bool
 bCollapsed
 ;
 result
@@ -3378,7 +3378,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-PRBool
+bool
 bCollapsed
 ;
 result
@@ -3477,7 +3477,7 @@ collapsedAction
 =
 aAction
 ;
-PRBool
+bool
 cancel
 handled
 ;
@@ -3682,7 +3682,7 @@ maxLength
 =
 mMaxTextLength
 ;
-PRBool
+bool
 cancel
 handled
 ;
@@ -3856,7 +3856,7 @@ maxLength
 =
 mMaxTextLength
 ;
-PRBool
+bool
 cancel
 handled
 ;
@@ -4387,7 +4387,7 @@ nsPlaintextEditor
 :
 GetDocumentIsEmpty
 (
-PRBool
+bool
 *
 aDocumentIsEmpty
 )
@@ -4448,7 +4448,7 @@ aCount
 =
 0
 ;
-PRBool
+bool
 docEmpty
 ;
 nsresult
@@ -5193,7 +5193,7 @@ selection
 )
 )
 ;
-PRBool
+bool
 cancel
 handled
 ;
@@ -5327,7 +5327,7 @@ selection
 )
 )
 ;
-PRBool
+bool
 cancel
 handled
 ;
@@ -5392,7 +5392,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsPlaintextEditor
 :
 :
@@ -5422,7 +5422,7 @@ selection
 return
 PR_FALSE
 ;
-PRBool
+bool
 isCollapsed
 ;
 selection
@@ -5439,7 +5439,7 @@ return
 isCollapsed
 ;
 }
-PRBool
+bool
 nsPlaintextEditor
 :
 :
@@ -5556,7 +5556,7 @@ nsPlaintextEditor
 :
 CanCut
 (
-PRBool
+bool
 *
 aCanCut
 )
@@ -5605,7 +5605,7 @@ nsPlaintextEditor
 :
 CanCopy
 (
-PRBool
+bool
 *
 aCanCopy
 )
@@ -5969,7 +5969,7 @@ outputFormat
 &
 str
 ;
-PRBool
+bool
 cancel
 handled
 ;
@@ -6136,7 +6136,7 @@ plain
 )
 )
 {
-PRBool
+bool
 docEmpty
 ;
 rv
@@ -6611,7 +6611,7 @@ nsTextEditRules
 kInsertElement
 )
 ;
-PRBool
+bool
 cancel
 handled
 ;
@@ -6711,7 +6711,7 @@ const
 nsAString
 &
 aCitation
-PRBool
+bool
 aInsertHTML
 nsIDOMNode
 *
@@ -6735,7 +6735,7 @@ SharedOutputString
 (
 PRUint32
 aFlags
-PRBool
+bool
 *
 aIsCollapsed
 nsAString
@@ -6824,7 +6824,7 @@ nsPlaintextEditor
 :
 Rewrap
 (
-PRBool
+bool
 aRespectNewlines
 )
 {
@@ -6885,7 +6885,7 @@ endif
 nsAutoString
 current
 ;
-PRBool
+bool
 isCollapsed
 ;
 rv
@@ -6985,7 +6985,7 @@ endif
 nsAutoString
 current
 ;
-PRBool
+bool
 isCollapsed
 ;
 nsresult
@@ -7207,7 +7207,7 @@ kungFuDeathGrip
 mRules
 )
 ;
-PRBool
+bool
 bDocIsEmpty
 ;
 if
@@ -7380,15 +7380,18 @@ GetDOMEventTarget
 (
 )
 {
-NS_IF_ADDREF
-(
+nsCOMPtr
+<
+nsIDOMEventTarget
+>
+copy
+=
 mEventTarget
-)
 ;
 return
-mEventTarget
+copy
 .
-get
+forget
 (
 )
 ;
@@ -7410,7 +7413,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aSuppressTransaction
 )
 {
@@ -7439,7 +7442,7 @@ const
 nsAString
 &
 aAttribute
-PRBool
+bool
 aSuppressTransaction
 )
 {

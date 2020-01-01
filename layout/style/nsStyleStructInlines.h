@@ -87,7 +87,7 @@ mBorderImage
 ;
 }
 inline
-PRBool
+bool
 nsStyleBorder
 :
 :

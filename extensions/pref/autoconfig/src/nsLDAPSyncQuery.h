@@ -110,7 +110,7 @@ nsILDAPURL
 >
 mServerURL
 ;
-PRBool
+bool
 mFinished
 ;
 PRUint32

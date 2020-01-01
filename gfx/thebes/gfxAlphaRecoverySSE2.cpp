@@ -201,7 +201,7 @@ alphaMaski
 ;
 #
 endif
-PRBool
+bool
 gfxAlphaRecovery
 :
 :

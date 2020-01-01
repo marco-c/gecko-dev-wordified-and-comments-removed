@@ -422,7 +422,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 nsSVGDataParser
 :
 :
@@ -549,7 +549,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 nsSVGDataParser
 :
 :
@@ -648,7 +648,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsSVGDataParser
 :
 :
@@ -881,7 +881,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsSVGDataParser
 :
 :
@@ -943,7 +943,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsSVGDataParser
 :
 :
@@ -1000,7 +1000,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsSVGDataParser
 :
 :

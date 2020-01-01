@@ -185,7 +185,7 @@ aList
 nsSVGElement
 *
 aElement
-PRBool
+bool
 aIsAnimValList
 )
 {
@@ -501,7 +501,7 @@ nsnull
 ;
 }
 }
-PRBool
+bool
 DOMSVGPointList
 :
 :

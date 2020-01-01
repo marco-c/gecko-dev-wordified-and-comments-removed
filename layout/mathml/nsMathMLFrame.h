@@ -93,7 +93,7 @@ nsIMathMLFrame
 public
 :
 virtual
-PRBool
+bool
 IsSpaceLike
 (
 )
@@ -274,7 +274,7 @@ aParenStyleContext
 nsMathMLChar
 *
 aMathMLChar
-PRBool
+bool
 aIsMutableChar
 )
 ;
@@ -300,10 +300,10 @@ aFrame
 nsPresentationData
 &
 aPresentationData
-PRBool
+bool
 aClimbTree
 =
-PR_TRUE
+true
 )
 ;
 static
@@ -319,7 +319,7 @@ aPresentationData
 )
 ;
 static
-PRBool
+bool
 GetAttribute
 (
 nsIContent
@@ -337,7 +337,7 @@ aValue
 )
 ;
 static
-PRBool
+bool
 ParseNumericValue
 (
 const
@@ -386,7 +386,7 @@ aCSSValue
 )
 ;
 static
-PRBool
+bool
 ParseNamedSpaceValue
 (
 nsIFrame

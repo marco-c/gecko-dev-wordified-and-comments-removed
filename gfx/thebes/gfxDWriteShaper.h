@@ -50,7 +50,7 @@ gfxDWriteShaper
 ;
 }
 virtual
-PRBool
+bool
 InitTextRun
 (
 gfxContext

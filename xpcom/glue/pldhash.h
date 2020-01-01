@@ -375,7 +375,7 @@ key
 )
 ;
 typedef
-PRBool
+bool
 (
 *
 PLDHashMatchEntry
@@ -441,7 +441,7 @@ table
 )
 ;
 typedef
-PRBool
+bool
 (
 *
 PLDHashInitEntry
@@ -552,7 +552,7 @@ key
 )
 ;
 NS_COM_GLUE
-PRBool
+bool
 PL_DHashMatchEntryStub
 (
 PLDHashTable
@@ -569,7 +569,7 @@ key
 )
 ;
 NS_COM_GLUE
-PRBool
+bool
 PL_DHashMatchStringKey
 (
 PLDHashTable
@@ -671,7 +671,7 @@ table
 )
 ;
 NS_COM_GLUE
-PRBool
+bool
 PL_DHashTableInit
 (
 PLDHashTable

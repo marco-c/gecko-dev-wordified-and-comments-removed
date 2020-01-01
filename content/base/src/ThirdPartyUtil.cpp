@@ -191,10 +191,10 @@ IsEmpty
 )
 )
 {
-PRBool
+bool
 isFileURI
 =
-PR_FALSE
+false
 ;
 aHostURI
 -
@@ -232,7 +232,7 @@ aFirstDomain
 nsIURI
 *
 aSecondURI
-PRBool
+bool
 *
 aResult
 )
@@ -366,7 +366,7 @@ aFirstURI
 nsIURI
 *
 aSecondURI
-PRBool
+bool
 *
 aResult
 )
@@ -434,7 +434,7 @@ aWindow
 nsIURI
 *
 aURI
-PRBool
+bool
 *
 aResult
 )
@@ -454,7 +454,7 @@ pointer
 "
 )
 ;
-PRBool
+bool
 result
 ;
 nsCOMPtr
@@ -677,7 +677,7 @@ aChannel
 nsIURI
 *
 aURI
-PRBool
+bool
 *
 aResult
 )
@@ -700,7 +700,7 @@ pointer
 nsresult
 rv
 ;
-PRBool
+bool
 doForce
 =
 false
@@ -806,7 +806,7 @@ if
 aURI
 )
 {
-PRBool
+bool
 result
 ;
 rv

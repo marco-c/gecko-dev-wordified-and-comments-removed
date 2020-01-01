@@ -1697,7 +1697,7 @@ TelemetryImpl
 :
 GetCanRecord
 (
-PRBool
+bool
 *
 ret
 )
@@ -1717,7 +1717,7 @@ TelemetryImpl
 :
 SetCanRecord
 (
-PRBool
+bool
 canRecord
 )
 {

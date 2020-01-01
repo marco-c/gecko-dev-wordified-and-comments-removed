@@ -58,7 +58,7 @@ connection
 0
 ;
 virtual
-PRBool
+bool
 HandleMessage
 (
 DBusMessage
@@ -149,7 +149,7 @@ DBusMessage
 message
 )
 ;
-PRBool
+bool
 HandleMessage
 (
 DBusMessage

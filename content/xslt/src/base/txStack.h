@@ -145,7 +145,7 @@ object
 ;
 }
 inline
-PRBool
+bool
 isEmpty
 (
 )
@@ -200,7 +200,7 @@ mPosition
 {
 }
 inline
-PRBool
+bool
 hasNext
 (
 )

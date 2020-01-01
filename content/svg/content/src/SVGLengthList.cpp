@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsISVGValueUtils
-.
-h
-"
-#
-include
-"
 nsDOMError
 .
 h
@@ -371,7 +364,7 @@ temp
 )
 ;
 }
-PRBool
+bool
 SVGLengthList
 :
 :

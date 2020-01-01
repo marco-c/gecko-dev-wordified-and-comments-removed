@@ -138,7 +138,7 @@ NS_DECL_ISUPPORTS
 virtual
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 KeyDown
 (
@@ -156,7 +156,7 @@ aCallbackData
 virtual
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 KeyPress
 (
@@ -174,7 +174,7 @@ aCallbackData
 virtual
 NS_HIDDEN_
 (
-PRBool
+bool
 )
 KeyUp
 (
@@ -197,7 +197,7 @@ nsNativeKeyBindings
 )
 NS_HIDDEN
 ;
-PRBool
+bool
 KeyPressInternal
 (
 const

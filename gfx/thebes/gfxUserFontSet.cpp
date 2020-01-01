@@ -251,7 +251,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-PRBool
+bool
 aNeedsBold
 )
 {
@@ -341,7 +341,7 @@ ToLowerCase
 key
 )
 ;
-PRBool
+bool
 found
 ;
 if
@@ -548,7 +548,7 @@ ToLowerCase
 key
 )
 ;
-PRBool
+bool
 found
 ;
 gfxMixedFontFamily
@@ -611,13 +611,13 @@ const
 gfxFontStyle
 &
 aFontStyle
-PRBool
+bool
 &
 aFoundFamily
-PRBool
+bool
 &
 aNeedsBold
-PRBool
+bool
 &
 aWaitForUserFont
 )
@@ -1633,7 +1633,7 @@ woff
 metaOrigLen
 ;
 }
-PRBool
+bool
 gfxUserFontSet
 :
 :
@@ -2593,7 +2593,7 @@ aProxyEntry
 currSrc
 )
 ;
-PRBool
+bool
 loadOK
 =
 NS_SUCCEEDED

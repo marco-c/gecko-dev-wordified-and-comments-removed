@@ -1444,9 +1444,8 @@ child
 newcontent
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 newcontent
@@ -1635,7 +1634,7 @@ mClone
 )
 ;
 }
-PRBool
+bool
 nsSVGUseElement
 :
 :
@@ -2090,7 +2089,7 @@ DidChangeLength
 (
 PRUint8
 aAttrEnum
-PRBool
+bool
 aDoSetAttr
 )
 {
@@ -2263,7 +2262,7 @@ sStringInfo
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGUseElement
 :

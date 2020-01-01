@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 SVGLengthList
 .
 h
@@ -751,6 +744,8 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
+PRUint32
+aFlags
 )
 {
 UpdateGlyphPositioning
@@ -765,6 +760,7 @@ nsSVGTextFrameBase
 GetBBoxContribution
 (
 aToBBoxUserspace
+aFlags
 )
 ;
 }
@@ -880,10 +876,10 @@ SetWhitespaceCompression
 (
 )
 ;
-PRBool
+bool
 trimLeadingWhitespace
 =
-PR_TRUE
+true
 ;
 nsSVGGlyphFrame
 *
@@ -954,7 +950,7 @@ nsSVGTextFrame
 :
 UpdateGlyphPositioning
 (
-PRBool
+bool
 aForceGlobalTransform
 )
 {

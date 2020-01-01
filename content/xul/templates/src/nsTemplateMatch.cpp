@@ -56,7 +56,7 @@ nsTemplateMatch
 *
 &
 aMatch
-PRBool
+bool
 aRemoveResult
 )
 {

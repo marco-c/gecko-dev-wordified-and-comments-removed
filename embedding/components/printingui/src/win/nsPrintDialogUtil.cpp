@@ -233,10 +233,10 @@ gFrameSelectedRadioBtn
 0
 ;
 static
-PRPackedBool
+bool
 gDialogWasExtended
 =
-PR_FALSE
+false
 ;
 #
 define
@@ -272,7 +272,7 @@ mWidth
 double
 mHeight
 ;
-PRBool
+bool
 mIsInches
 ;
 }
@@ -704,7 +704,7 @@ kNumPaperSizes
 41
 ;
 static
-PRBool
+bool
 CheckForExtendedDialog
 (
 )
@@ -1541,10 +1541,10 @@ dmFields
 DM_PAPERWIDTH
 )
 {
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1943,12 +1943,12 @@ HWND
 aParent
 UINT
 aId
-PRBool
+bool
 aIsSet
-PRBool
+bool
 isEnabled
 =
-PR_TRUE
+true
 )
 {
 HWND
@@ -2198,7 +2198,7 @@ Show
 (
 HWND
 aWnd
-PRBool
+bool
 bState
 )
 {
@@ -3886,7 +3886,7 @@ printerName
 }
 }
 static
-PRBool
+bool
 ShouldExtendPrintDialog
 (
 )
@@ -3939,7 +3939,7 @@ rv
 PR_TRUE
 )
 ;
-PRBool
+bool
 result
 ;
 rv
@@ -4297,6 +4297,8 @@ PD_ALLPAGES
 PD_RETURNIC
 |
 PD_USEDEVMODECOPIESANDCOLLATE
+|
+PD_COLLATE
 ;
 PRInt16
 howToEnableFrameUI
@@ -4306,7 +4308,7 @@ nsIPrintSettings
 :
 kFrameEnableNone
 ;
-PRBool
+bool
 isOn
 ;
 aPrintSettings
@@ -5049,7 +5051,7 @@ defined
 (
 DEBUG_dcone
 )
-PRBool
+bool
 printSelection
 =
 prntdlg
@@ -5058,7 +5060,7 @@ Flags
 &
 PD_SELECTION
 ;
-PRBool
+bool
 printAllPages
 =
 prntdlg
@@ -5067,7 +5069,7 @@ Flags
 &
 PD_ALLPAGES
 ;
-PRBool
+bool
 printNumPages
 =
 prntdlg
@@ -5938,6 +5940,8 @@ PD_RETURNDC
 PD_USEDEVMODECOPIESANDCOLLATE
 |
 PD_NOCURRENTPAGE
+|
+PD_COLLATE
 ;
 prntdlg
 .
@@ -5961,7 +5965,7 @@ aPrintSettings
 nsnull
 )
 {
-PRBool
+bool
 isOn
 ;
 aPrintSettings
@@ -6734,7 +6738,7 @@ defined
 (
 DEBUG_dcone
 )
-PRBool
+bool
 printSelection
 =
 prntdlg
@@ -6743,7 +6747,7 @@ Flags
 &
 PD_SELECTION
 ;
-PRBool
+bool
 printAllPages
 =
 prntdlg
@@ -6752,7 +6756,7 @@ Flags
 &
 PD_ALLPAGES
 ;
-PRBool
+bool
 printNumPages
 =
 prntdlg
@@ -6919,16 +6923,16 @@ null
 "
 )
 ;
-PRBool
+bool
 isFramesetDocument
 ;
-PRBool
+bool
 isFramesetFrameSelected
 ;
-PRBool
+bool
 isIFrameSelected
 ;
-PRBool
+bool
 isRangeSelection
 ;
 aWebBrowserPrint

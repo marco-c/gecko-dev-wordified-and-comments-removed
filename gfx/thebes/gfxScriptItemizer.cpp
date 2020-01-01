@@ -642,7 +642,7 @@ reset
 )
 ;
 }
-PRBool
+bool
 gfxScriptItemizer
 :
 :

@@ -147,7 +147,7 @@ mLocalName
 nsnull
 ;
 }
-PRBool
+bool
 isNull
 (
 )
@@ -384,7 +384,7 @@ t
 ;
 }
 static
-PRBool
+bool
 isWhitespace
 (
 const
@@ -403,7 +403,7 @@ attValue
 )
 ;
 static
-PRBool
+bool
 isValidQName
 (
 const
@@ -447,7 +447,7 @@ aColon
 ;
 }
 static
-PRBool
+bool
 isLetter
 (
 PRUnichar
@@ -479,7 +479,7 @@ aChar
 ;
 }
 static
-PRBool
+bool
 isNCNameChar
 (
 PRUnichar

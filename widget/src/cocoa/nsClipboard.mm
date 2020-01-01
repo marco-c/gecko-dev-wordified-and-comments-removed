@@ -777,7 +777,7 @@ NS_ERROR_FAILURE
 ;
 mIgnoreEmptyNotification
 =
-PR_TRUE
+true
 ;
 NSDictionary
 *
@@ -968,7 +968,7 @@ changeCount
 ;
 mIgnoreEmptyNotification
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1681,7 +1681,7 @@ source
 NULL
 )
 ;
-PRBool
+bool
 successfullyConverted
 =
 CGImageDestinationFinalize
@@ -2164,7 +2164,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-PRBool
+bool
 *
 outResult
 )
@@ -2174,7 +2174,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 *
 outResult
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2350,7 +2350,7 @@ k
 *
 outResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2445,7 +2445,7 @@ pboardType
 *
 outResult
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2511,7 +2511,7 @@ availableType
 *
 outResult
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3120,7 +3120,7 @@ imageRef
 NULL
 )
 ;
-PRBool
+bool
 successfullyConverted
 =
 CGImageDestinationFinalize
@@ -3613,7 +3613,7 @@ pasteboardOutputDict
 NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
-PRBool
+bool
 nsClipboard
 :
 :
@@ -3668,13 +3668,13 @@ aPasteboardType
 NSHTMLPboardType
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }

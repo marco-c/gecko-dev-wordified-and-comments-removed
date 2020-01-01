@@ -37,10 +37,10 @@ char
 *
 domain
 ;
-PRPackedBool
+bool
 exception
 ;
-PRPackedBool
+bool
 wild
 ;
 }
@@ -112,7 +112,7 @@ mData
 domain
 ;
 }
-PRBool
+bool
 KeyEquals
 (
 KeyTypePointer
@@ -181,7 +181,7 @@ mData
 entry
 ;
 }
-PRPackedBool
+bool
 IsNormal
 (
 )
@@ -200,7 +200,7 @@ mData
 exception
 ;
 }
-PRPackedBool
+bool
 IsException
 (
 )
@@ -212,7 +212,7 @@ mData
 exception
 ;
 }
-PRPackedBool
+bool
 IsWild
 (
 )

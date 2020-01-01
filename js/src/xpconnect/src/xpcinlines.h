@@ -11,7 +11,7 @@ jsfriendapi
 .
 h
 "
-PRBool
+bool
 xpc
 :
 :
@@ -53,7 +53,7 @@ mPrincipal
 return
 PR_TRUE
 ;
-PRBool
+bool
 equals
 ;
 if
@@ -421,11 +421,12 @@ state
 ;
 NS_ABORT_IF_FALSE
 (
-scope
--
->
-compartment
+js
+:
+:
+GetObjectCompartment
 (
+scope
 )
 =
 =
@@ -1233,10 +1234,10 @@ iid
 )
 const
 {
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 mInfo
 -

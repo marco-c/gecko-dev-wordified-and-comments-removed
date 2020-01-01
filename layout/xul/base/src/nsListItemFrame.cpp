@@ -51,7 +51,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRBool
+bool
 aIsRoot
 nsBoxLayout
 *

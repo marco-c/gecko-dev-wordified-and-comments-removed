@@ -699,7 +699,7 @@ struct
 CaptureCallbackData
 CaptureCallbackData
 ;
-PRBool
+bool
 CapturePickerAcceptCallback
 (
 const
@@ -714,7 +714,7 @@ aClosure
 nsresult
 rv
 ;
-PRBool
+bool
 captureEnabled
 ;
 CaptureCallbackData
@@ -1741,14 +1741,14 @@ nsFileControlFrame
 :
 SetFocus
 (
-PRBool
+bool
 aOn
-PRBool
+bool
 aRepaint
 )
 {
 }
-PRBool
+bool
 ShouldProcessMouseClick
 (
 nsIDOMEvent
@@ -1787,10 +1787,10 @@ domNSEvent
 PR_FALSE
 )
 ;
-PRBool
+bool
 defaultPrevented
 =
-PR_FALSE
+false
 ;
 domNSEvent
 -
@@ -1982,7 +1982,7 @@ nsContentUtils
 :
 eFORMS_PROPERTIES
 "
-FileUpload
+MediaUpload
 "
 title
 )
@@ -2167,7 +2167,7 @@ Count
 )
 )
 {
-PRBool
+bool
 oldState
 =
 mFrame
@@ -2332,10 +2332,10 @@ NS_ENSURE_STATE
 domNSEvent
 )
 ;
-PRBool
+bool
 defaultPrevented
 =
-PR_FALSE
+false
 ;
 domNSEvent
 -
@@ -2521,7 +2521,7 @@ fileList
 )
 )
 ;
-PRBool
+bool
 oldState
 =
 mFrame
@@ -2580,7 +2580,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsFileControlFrame
 :
 :
@@ -2640,7 +2640,7 @@ types
 PR_FALSE
 )
 ;
-PRBool
+bool
 typeSupported
 ;
 types
@@ -3229,7 +3229,7 @@ this
 ;
 }
 }
-PRBool
+bool
 nsFileControlFrame
 :
 :

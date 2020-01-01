@@ -577,10 +577,10 @@ nsIXPIProgressDialog
 aListener
 )
 {
-PRBool
+bool
 xpinstallEnabled
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -1095,10 +1095,10 @@ InitManagerInternal
 nsresult
 rv
 ;
-PRBool
+bool
 OKtoInstall
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1414,7 +1414,7 @@ PRUnichar
 aPackageList
 PRUint32
 aCount
-PRBool
+bool
 *
 aRetval
 )
@@ -1659,7 +1659,7 @@ rv
 #
 ifdef
 ENABLE_SKIN_SIMPLE_INSTALLATION_UI
-PRBool
+bool
 nsXPInstallManager
 :
 :
@@ -1856,10 +1856,10 @@ IsEmpty
 return
 PR_FALSE
 ;
-PRBool
+bool
 bInstall
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2591,7 +2591,7 @@ aPrincipal
 return
 NS_OK
 ;
-PRBool
+bool
 hasCert
 ;
 aPrincipal
@@ -2625,7 +2625,9 @@ hZip
 >
 GetCertificatePrincipal
 (
-nsnull
+EmptyCString
+(
+)
 getter_AddRefs
 (
 principal
@@ -2664,7 +2666,9 @@ hZip
 >
 FindEntries
 (
-nsnull
+EmptyCString
+(
+)
 getter_AddRefs
 (
 entries
@@ -2681,7 +2685,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 more
 ;
 nsCAutoString
@@ -2776,10 +2780,6 @@ hZip
 GetCertificatePrincipal
 (
 name
-.
-get
-(
-)
 getter_AddRefs
 (
 principal
@@ -2800,7 +2800,7 @@ principal
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 equal
 ;
 rv
@@ -2951,7 +2951,9 @@ hZip
 >
 Test
 (
-nsnull
+EmptyCString
+(
+)
 )
 ;
 if
@@ -3025,11 +3027,14 @@ hZip
 >
 Test
 (
+nsDependentCString
+(
 "
 install
 .
 rdf
 "
+)
 )
 )
 )
@@ -3903,7 +3908,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsXPInstallManager
 :
 :
@@ -4067,7 +4072,7 @@ i
 )
 ;
 }
-PRBool
+bool
 result
 =
 aItem
@@ -4756,7 +4761,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 equal
 ;
 while
@@ -4964,7 +4969,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 succeeded
 ;
 if
@@ -5219,7 +5224,7 @@ mItem
 mFile
 )
 {
-PRBool
+bool
 flagExists
 ;
 nsresult
@@ -5868,7 +5873,7 @@ const
 nsACString
 &
 targetSite
-PRBool
+bool
 *
 _retval
 )
@@ -5897,7 +5902,7 @@ const
 nsACString
 &
 targetSite
-PRBool
+bool
 *
 _retval
 )

@@ -505,7 +505,7 @@ this
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGPatternElement
 :

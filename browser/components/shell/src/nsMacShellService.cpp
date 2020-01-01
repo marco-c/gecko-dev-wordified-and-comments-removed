@@ -194,9 +194,9 @@ nsMacShellService
 :
 IsDefaultBrowser
 (
-PRBool
+bool
 aStartupCheck
-PRBool
+bool
 *
 aIsDefaultBrowser
 )
@@ -291,9 +291,9 @@ nsMacShellService
 :
 SetDefaultBrowser
 (
-PRBool
+bool
 aClaimAllTypes
-PRBool
+bool
 aForAllUsers
 )
 {
@@ -425,7 +425,7 @@ nsMacShellService
 :
 GetShouldCheckDefaultBrowser
 (
-PRBool
+bool
 *
 aResult
 )
@@ -498,7 +498,7 @@ nsMacShellService
 :
 SetShouldCheckDefaultBrowser
 (
-PRBool
+bool
 aShouldCheck
 )
 {
@@ -1016,10 +1016,10 @@ changed
 nsnull
 )
 ;
-PRBool
+bool
 exists
 =
-PR_FALSE
+false
 ;
 mBackgroundFile
 -
@@ -1529,7 +1529,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 lf
@@ -1591,7 +1591,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 lf

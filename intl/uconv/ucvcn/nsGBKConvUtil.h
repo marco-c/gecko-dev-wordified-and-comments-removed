@@ -48,12 +48,12 @@ char
 aByte2
 )
 ;
-PRBool
+bool
 UnicodeToGBKChar
 (
 PRUnichar
 aChar
-PRBool
+bool
 aToGL
 char
 *

@@ -70,7 +70,7 @@ aResult
 )
 ;
 virtual
-PRBool
+bool
 GetEchoPasswordImpl
 (
 )
@@ -78,7 +78,7 @@ GetEchoPasswordImpl
 protected
 :
 static
-PRBool
+bool
 mInitializedSystemColors
 ;
 static
@@ -89,11 +89,11 @@ AndroidSystemColors
 mSystemColors
 ;
 static
-PRBool
+bool
 mInitializedShowPassword
 ;
 static
-PRBool
+bool
 mShowPassword
 ;
 nsresult

@@ -743,6 +743,10 @@ nsITaskbarPreviewButton
 .
 idl
 \
+nsITaskbarOverlayIconController
+.
+idl
+\
 nsIJumpListBuilder
 .
 idl

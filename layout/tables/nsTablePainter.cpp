@@ -312,7 +312,7 @@ SetData
 ;
 }
 inline
-PRBool
+bool
 TableBackgroundPainter
 :
 :
@@ -1148,7 +1148,7 @@ const
 nsMargin
 &
 aDeflate
-PRBool
+bool
 aPaintTableBackground
 )
 {
@@ -1445,10 +1445,10 @@ rv
 ;
 }
 }
-PRBool
+bool
 cgDataOwnershipTaken
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1752,7 +1752,7 @@ PaintRowGroup
 nsTableRowGroupFrame
 *
 aFrame
-PRBool
+bool
 aPassThrough
 )
 {
@@ -2104,7 +2104,7 @@ PaintRow
 nsTableRowFrame
 *
 aFrame
-PRBool
+bool
 aPassThrough
 )
 {
@@ -2381,7 +2381,7 @@ PaintCell
 nsTableCellFrame
 *
 aCell
-PRBool
+bool
 aPassSelf
 )
 {

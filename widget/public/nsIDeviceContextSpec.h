@@ -61,7 +61,7 @@ aWidget
 nsIPrintSettings
 *
 aPrintSettings
-PRBool
+bool
 aIsPrintPreview
 )
 =

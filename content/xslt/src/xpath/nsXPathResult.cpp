@@ -392,7 +392,7 @@ nsXPathResult
 :
 GetBooleanValue
 (
-PRBool
+bool
 *
 aBooleanValue
 )
@@ -483,7 +483,7 @@ nsXPathResult
 :
 GetInvalidIteratorState
 (
-PRBool
+bool
 *
 aInvalidIteratorState
 )

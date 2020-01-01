@@ -91,7 +91,7 @@ nsStyleContext
 *
 *
 aStyles
-PRBool
+bool
 aOwnsFactory
 )
 {
@@ -185,7 +185,7 @@ PRUint32
 aStart
 PRUint32
 aLength
-PRPackedBool
+bool
 *
 aCapitalization
 gfxContext
@@ -230,7 +230,7 @@ GetLength
 *
 sizeof
 (
-PRPackedBool
+bool
 )
 )
 ;
@@ -249,7 +249,7 @@ aLength
 *
 sizeof
 (
-PRPackedBool
+bool
 )
 )
 ;
@@ -258,7 +258,7 @@ mNeedsRebuild
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsTransformedTextRun
 :
 :
@@ -276,7 +276,7 @@ gfxContext
 aRefContext
 )
 {
-PRBool
+bool
 changed
 =
 gfxTextRun
@@ -333,7 +333,7 @@ nsStyleContext
 *
 *
 aStyles
-PRBool
+bool
 aOwnsFactory
 )
 {
@@ -383,7 +383,7 @@ nsStyleContext
 *
 *
 aStyles
-PRBool
+bool
 aOwnsFactory
 )
 {
@@ -442,7 +442,7 @@ aDest
 gfxTextRun
 *
 aSrc
-PRPackedBool
+bool
 *
 aCharsToMerge
 )
@@ -536,10 +536,10 @@ rv
 )
 return
 ;
-PRBool
+bool
 anyMissing
 =
-PR_FALSE
+false
 ;
 PRUint32
 mergeRunStart
@@ -1150,10 +1150,10 @@ runStart
 =
 0
 ;
-PRBool
+bool
 runIsLowercase
 =
-PR_FALSE
+false
 ;
 nsAutoTArray
 <
@@ -1189,10 +1189,10 @@ length
 i
 )
 {
-PRBool
+bool
 isLowercase
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1569,7 +1569,7 @@ convertedString
 ;
 nsAutoTArray
 <
-PRPackedBool
+bool
 50
 >
 charsToMergeArray
@@ -1670,10 +1670,10 @@ GetStyleText
 >
 mTextTransform
 ;
-PRBool
+bool
 extraChar
 =
-PR_FALSE
+false
 ;
 switch
 (

@@ -106,13 +106,13 @@ mLock
 nsAdoptingCString
 mIPv4OnlyDomains
 ;
-PRBool
+bool
 mDisableIPv6
 ;
-PRBool
+bool
 mDisablePrefetch
 ;
-PRBool
+bool
 mFirstTime
 ;
 }

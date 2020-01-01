@@ -367,7 +367,7 @@ nsAtomList
 :
 Clone
 (
-PRBool
+bool
 aDeep
 )
 const
@@ -711,7 +711,7 @@ nsPseudoClassList
 :
 Clone
 (
-PRBool
+bool
 aDeep
 )
 const
@@ -985,7 +985,7 @@ const
 nsString
 &
 aValue
-PRBool
+bool
 aCaseSensitive
 )
 :
@@ -1069,7 +1069,7 @@ const
 nsString
 &
 aValue
-PRBool
+bool
 aCaseSensitive
 )
 :
@@ -1115,7 +1115,7 @@ nsAttrSelector
 :
 Clone
 (
-PRBool
+bool
 aDeep
 )
 const
@@ -1255,9 +1255,9 @@ nsCSSSelector
 :
 Clone
 (
-PRBool
+bool
 aDeepNext
-PRBool
+bool
 aDeepNegations
 )
 const
@@ -1943,7 +1943,7 @@ const
 nsString
 &
 aValue
-PRBool
+bool
 aCaseSensitive
 )
 {
@@ -2216,7 +2216,7 @@ aString
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aAppend
 )
 const
@@ -2532,7 +2532,7 @@ aString
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aIsNegated
 )
 const
@@ -2540,17 +2540,17 @@ const
 nsAutoString
 temp
 ;
-PRBool
+bool
 isPseudoElement
 =
 IsPseudoElement
 (
 )
 ;
-PRBool
+bool
 wroteNamespace
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3890,13 +3890,13 @@ PRUnichar
 }
 }
 }
-PRBool
+bool
 nsCSSSelector
 :
 :
 CanBeNamespaced
 (
-PRBool
+bool
 aIsNegated
 )
 const
@@ -4135,7 +4135,7 @@ nsCSSSelectorList
 :
 Clone
 (
-PRBool
+bool
 aDeep
 )
 const
@@ -4364,7 +4364,7 @@ Declaration
 *
 GetCSSDeclaration
 (
-PRBool
+bool
 aAllocate
 )
 ;
@@ -4674,7 +4674,7 @@ DOMCSSDeclarationImpl
 :
 GetCSSDeclaration
 (
-PRBool
+bool
 aAllocate
 )
 {
@@ -5809,7 +5809,7 @@ DeclarationChanged
 Declaration
 *
 aDecl
-PRBool
+bool
 aHandleContainer
 )
 {

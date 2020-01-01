@@ -149,7 +149,7 @@ TransmitAutomaticData
 (
 )
 {
-PRBool
+bool
 increment
 =
 !
@@ -625,7 +625,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-PRBool
+bool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
@@ -651,12 +651,12 @@ PlaceInternal
 nsRenderingContext
 &
 aRenderingContext
-PRBool
+bool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
 aDesiredSize
-PRBool
+bool
 aWidthOnly
 )
 {

@@ -540,7 +540,7 @@ NS_OK
 #
 endif
 static
-PRBool
+bool
 GetFile
 (
 nsIFile
@@ -627,7 +627,7 @@ rv
 ;
 }
 static
-PRBool
+bool
 GetStatusFile
 (
 nsIFile
@@ -658,7 +658,7 @@ result
 ;
 }
 static
-PRBool
+bool
 IsPending
 (
 nsILocalFile
@@ -760,7 +760,7 @@ kPending
 ;
 }
 static
-PRBool
+bool
 SetStatusApplying
 (
 nsILocalFile
@@ -833,7 +833,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 GetVersionFile
 (
 nsIFile
@@ -864,7 +864,7 @@ result
 ;
 }
 static
-PRBool
+bool
 GetChannelChangeFile
 (
 nsIFile
@@ -893,7 +893,7 @@ result
 ;
 }
 static
-PRBool
+bool
 IsOlderVersion
 (
 nsILocalFile
@@ -1045,7 +1045,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 CopyFileIntoUpdateDir
 (
 nsIFile
@@ -1195,7 +1195,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 CopyUpdaterIntoUpdateDir
 (
 nsIFile

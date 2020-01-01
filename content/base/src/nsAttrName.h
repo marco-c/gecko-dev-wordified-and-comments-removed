@@ -309,7 +309,7 @@ aAtom
 )
 ;
 }
-PRBool
+bool
 IsAtom
 (
 )
@@ -398,7 +398,7 @@ mBits
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -417,7 +417,7 @@ aOther
 mBits
 ;
 }
-PRBool
+bool
 Equals
 (
 nsIAtom
@@ -439,7 +439,7 @@ aAtom
 mBits
 ;
 }
-PRBool
+bool
 Equals
 (
 nsIAtom
@@ -484,7 +484,7 @@ aNamespaceID
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 nsINodeInfo
@@ -621,7 +621,7 @@ GetPrefixAtom
 )
 ;
 }
-PRBool
+bool
 QualifiedNameEquals
 (
 const
@@ -747,7 +747,7 @@ mBits
 0
 ;
 }
-PRBool
+bool
 IsSmaller
 (
 nsIAtom

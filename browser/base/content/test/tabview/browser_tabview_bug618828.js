@@ -301,7 +301,9 @@ other
 ;
 contentWindow
 .
-performSearch
+Search
+.
+perform
 (
 )
 ;

@@ -1031,7 +1031,7 @@ Init
 this
 )
 ;
-PRBool
+bool
 done
 ;
 PRUint32

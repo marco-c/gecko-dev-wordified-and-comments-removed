@@ -228,7 +228,7 @@ nsDeque
 anOther
 )
 ;
-PRBool
+bool
 GrowCapacity
 (
 )
@@ -278,7 +278,7 @@ nsDequeIterator
 aCopy
 )
 ;
-PRBool
+bool
 operator
 !
 =
@@ -288,7 +288,7 @@ nsDequeIterator
 aIter
 )
 ;
-PRBool
+bool
 operator
 <
 (
@@ -297,7 +297,7 @@ nsDequeIterator
 aIter
 )
 ;
-PRBool
+bool
 operator
 =
 =
@@ -307,7 +307,7 @@ nsDequeIterator
 aIter
 )
 ;
-PRBool
+bool
 operator
 >
 =

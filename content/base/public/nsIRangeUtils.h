@@ -80,10 +80,10 @@ aNode
 nsIDOMRange
 *
 aRange
-PRBool
+bool
 *
 outNodeBefore
-PRBool
+bool
 *
 outNodeAfter
 )

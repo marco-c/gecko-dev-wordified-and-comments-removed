@@ -83,13 +83,13 @@ mBufferSize
 PRUint32
 mCurrent
 ;
-PRBool
+bool
 mFull
 ;
 nsSupportsHashtable
 mListeners
 ;
-PRBool
+bool
 mListening
 ;
 mozilla

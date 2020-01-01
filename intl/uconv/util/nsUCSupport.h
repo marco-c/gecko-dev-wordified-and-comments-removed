@@ -445,7 +445,7 @@ mFastTable
 ONE_BYTE_TABLE_SIZE
 ]
 ;
-PRBool
+bool
 mFastTableCreated
 ;
 mozilla

@@ -103,7 +103,7 @@ port
 ;
 }
 static
-PRBool
+bool
 StrEquivalent
 (
 const
@@ -1248,7 +1248,7 @@ nsnull
 ;
 }
 }
-PRBool
+bool
 nsHttpAuthIdentity
 :
 :

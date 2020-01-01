@@ -95,7 +95,7 @@ mStreamEnd
 PRUint32
 mPos
 ;
-PRBool
+bool
 mClosed
 ;
 }
@@ -431,7 +431,7 @@ nsDiskCacheInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 nonBlocking
 )
@@ -488,7 +488,7 @@ nsDiskCacheStreamIO
 *
 mStreamIO
 ;
-PRBool
+bool
 mClosed
 ;
 }
@@ -720,7 +720,7 @@ nsDiskCacheOutputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 nonBlocking
 )
@@ -1547,10 +1547,10 @@ CacheMap
 nsresult
 rv
 ;
-PRBool
+bool
 written
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1904,10 +1904,10 @@ bytesLeft
 =
 count
 ;
-PRBool
+bool
 flushed
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -3180,10 +3180,10 @@ SetEOF
 nsresult
 rv
 ;
-PRBool
+bool
 needToCloseFD
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (

@@ -856,7 +856,7 @@ nsFormFillController
 :
 GetPopupOpen
 (
-PRBool
+bool
 *
 aPopupOpen
 )
@@ -889,7 +889,7 @@ nsFormFillController
 :
 SetPopupOpen
 (
-PRBool
+bool
 aPopupOpen
 )
 {
@@ -1004,7 +1004,7 @@ nsFormFillController
 :
 GetDisableAutoComplete
 (
-PRBool
+bool
 *
 aDisableAutoComplete
 )
@@ -1024,7 +1024,7 @@ nsFormFillController
 :
 SetDisableAutoComplete
 (
-PRBool
+bool
 aDisableAutoComplete
 )
 {
@@ -1042,7 +1042,7 @@ nsFormFillController
 :
 GetCompleteDefaultIndex
 (
-PRBool
+bool
 *
 aCompleteDefaultIndex
 )
@@ -1062,7 +1062,7 @@ nsFormFillController
 :
 SetCompleteDefaultIndex
 (
-PRBool
+bool
 aCompleteDefaultIndex
 )
 {
@@ -1080,7 +1080,7 @@ nsFormFillController
 :
 GetCompleteSelectedIndex
 (
-PRBool
+bool
 *
 aCompleteSelectedIndex
 )
@@ -1100,7 +1100,7 @@ nsFormFillController
 :
 SetCompleteSelectedIndex
 (
-PRBool
+bool
 aCompleteSelectedIndex
 )
 {
@@ -1118,7 +1118,7 @@ nsFormFillController
 :
 GetForceComplete
 (
-PRBool
+bool
 *
 aForceComplete
 )
@@ -1138,7 +1138,7 @@ nsFormFillController
 :
 SetForceComplete
 (
-PRBool
+bool
 aForceComplete
 )
 {
@@ -1232,7 +1232,7 @@ nsFormFillController
 :
 GetShowImageColumn
 (
-PRBool
+bool
 *
 aShowImageColumn
 )
@@ -1252,7 +1252,7 @@ nsFormFillController
 :
 SetShowImageColumn
 (
-PRBool
+bool
 aShowImageColumn
 )
 {
@@ -1266,7 +1266,7 @@ nsFormFillController
 :
 GetShowCommentColumn
 (
-PRBool
+bool
 *
 aShowCommentColumn
 )
@@ -1286,7 +1286,7 @@ nsFormFillController
 :
 SetShowCommentColumn
 (
-PRBool
+bool
 aShowCommentColumn
 )
 {
@@ -1674,7 +1674,7 @@ nsFormFillController
 :
 OnTextEntered
 (
-PRBool
+bool
 *
 aPrevent
 )
@@ -1786,7 +1786,7 @@ do_QueryInterface
 mFocusedInput
 )
 ;
-PRBool
+bool
 defaultActionEnabled
 ;
 targ
@@ -1815,7 +1815,7 @@ nsFormFillController
 :
 OnTextReverted
 (
-PRBool
+bool
 *
 _retval
 )
@@ -1830,7 +1830,7 @@ nsFormFillController
 :
 GetConsumeRollupEvent
 (
-PRBool
+bool
 *
 aConsumeRollupEvent
 )
@@ -2751,10 +2751,10 @@ input
 return
 NS_OK
 ;
-PRBool
+bool
 isReadOnly
 =
-PR_FALSE
+false
 ;
 input
 -
@@ -2785,10 +2785,10 @@ autocomplete
 PRInt32
 dummy
 ;
-PRBool
+bool
 isPwmgrInput
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2847,7 +2847,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsFormFillController
 :
 :
@@ -2855,10 +2855,10 @@ IsInputAutoCompleteOff
 (
 )
 {
-PRBool
+bool
 autoCompleteOff
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3007,10 +3007,10 @@ keyEvent
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 cancel
 =
-PR_FALSE
+false
 ;
 PRUint32
 k
@@ -3073,10 +3073,10 @@ nsIDOMKeyEvent
 DOM_VK_BACK_SPACE
 :
 {
-PRBool
+bool
 isShift
 =
-PR_FALSE
+false
 ;
 keyEvent
 -
@@ -3126,7 +3126,7 @@ nsIDOMKeyEvent
 DOM_VK_PAGE_DOWN
 :
 {
-PRBool
+bool
 isCtrl
 isAlt
 isMeta
@@ -3368,10 +3368,10 @@ button
 return
 NS_OK
 ;
-PRBool
+bool
 isOpen
 =
-PR_FALSE
+false
 ;
 GetPopupOpen
 (
@@ -3453,10 +3453,10 @@ HandleText
 }
 else
 {
-PRBool
+bool
 cancel
 =
-PR_FALSE
+false
 ;
 mController
 -

@@ -475,6 +475,10 @@ file_bug293347xslt
 .
 xml
 \
+test_bug691215
+.
+html
+\
 (
 NULL
 )

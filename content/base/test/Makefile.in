@@ -1177,6 +1177,10 @@ bin
 headers
 ^
 \
+file_XHR_binary2
+.
+bin
+\
 test_bug428847
 .
 html
@@ -1222,10 +1226,6 @@ test_bug444722
 html
 \
 test_bug451376
-.
-html
-\
-test_text_replaceWholeText
 .
 html
 \

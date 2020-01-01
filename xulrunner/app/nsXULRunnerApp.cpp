@@ -138,7 +138,7 @@ static
 void
 Output
 (
-PRBool
+bool
 isError
 const
 char
@@ -265,7 +265,7 @@ ap
 ;
 }
 static
-PRBool
+bool
 IsArg
 (
 const

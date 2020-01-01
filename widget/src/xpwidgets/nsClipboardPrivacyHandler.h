@@ -62,7 +62,7 @@ aTransferable
 ;
 private
 :
-PRBool
+bool
 InPrivateBrowsing
 (
 )

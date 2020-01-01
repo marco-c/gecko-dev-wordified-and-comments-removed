@@ -198,10 +198,10 @@ errorCallback
 nsIDOMGeoPositionOptions
 *
 options
-PRBool
+bool
 watchPositionRequest
 =
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -214,7 +214,7 @@ Shutdown
 (
 )
 ;
-void
+bool
 Update
 (
 nsIDOMGeoPosition
@@ -235,7 +235,7 @@ MarkCleared
 (
 )
 ;
-PRBool
+bool
 IsActive
 (
 )
@@ -245,7 +245,7 @@ return
 mCleared
 ;
 }
-PRBool
+bool
 Allowed
 (
 )
@@ -292,13 +292,13 @@ PRInt16
 errorCode
 )
 ;
-PRPackedBool
+bool
 mAllowed
 ;
-PRPackedBool
+bool
 mCleared
 ;
-PRPackedBool
+bool
 mIsWatchPositionRequest
 ;
 nsCOMPtr
@@ -498,7 +498,7 @@ nsIDOMGeoPosition
 aPosition
 )
 ;
-PRBool
+bool
 HasActiveCallbacks
 (
 )
@@ -536,7 +536,7 @@ return
 mOwner
 ;
 }
-PRBool
+bool
 WindowOwnerStillExists
 (
 )

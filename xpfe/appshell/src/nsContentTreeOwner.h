@@ -102,7 +102,7 @@ protected
 :
 nsContentTreeOwner
 (
-PRBool
+bool
 fPrimary
 )
 ;
@@ -136,10 +136,10 @@ nsSiteWindow2
 *
 mSiteWindow2
 ;
-PRBool
+bool
 mPrimary
 ;
-PRBool
+bool
 mContentTitleSetting
 ;
 nsString

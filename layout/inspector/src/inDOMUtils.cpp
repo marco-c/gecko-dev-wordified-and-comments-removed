@@ -198,7 +198,7 @@ IsIgnorableWhitespace
 nsIDOMCharacterData
 *
 aDataNode
-PRBool
+bool
 *
 aReturn
 )
@@ -357,7 +357,7 @@ GetParentForNode
 nsIDOMNode
 *
 aNode
-PRBool
+bool
 aShowingAnonymousContent
 nsIDOMNode
 *
@@ -510,7 +510,7 @@ GetChildrenForNode
 nsIDOMNode
 *
 aNode
-PRBool
+bool
 aShowingAnonymousContent
 nsIDOMNodeList
 *
@@ -1323,7 +1323,7 @@ presContext
 NS_ERROR_UNEXPECTED
 )
 ;
-PRBool
+bool
 safe
 =
 presContext

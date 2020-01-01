@@ -148,9 +148,9 @@ a_keyGenMechanism
 void
 *
 a_params
-PRBool
+bool
 a_isPerm
-PRBool
+bool
 a_isSensitive
 void
 *
@@ -456,7 +456,7 @@ nsKeygenThread
 :
 UserCanceled
 (
-PRBool
+bool
 *
 threadAlreadyClosedDialog
 )
@@ -509,10 +509,10 @@ void
 nsNSSShutDownPreventionLock
 locker
 ;
-PRBool
+bool
 canGenerate
 =
-PR_FALSE
+false
 ;
 {
 MutexAutoLock

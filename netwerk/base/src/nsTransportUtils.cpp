@@ -74,7 +74,7 @@ sink
 nsIEventTarget
 *
 target
-PRBool
+bool
 coalesceAll
 )
 :
@@ -139,7 +139,7 @@ nsTransportStatusEvent
 *
 mLastEvent
 ;
-PRBool
+bool
 mCoalesceAll
 ;
 }
@@ -445,7 +445,7 @@ sink
 nsIEventTarget
 *
 target
-PRBool
+bool
 coalesceAll
 )
 {

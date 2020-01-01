@@ -253,7 +253,7 @@ return
 mMemberVariable
 ;
 }
-PRBool
+bool
 IsSimple
 (
 )
@@ -290,7 +290,7 @@ nsXULTemplateQueryProcessorRDF
 *
 mProcessor
 ;
-PRBool
+bool
 mSimple
 ;
 TestNode

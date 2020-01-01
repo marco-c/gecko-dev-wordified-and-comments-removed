@@ -148,7 +148,7 @@ nsAuthSambaNTLM
 nsIAuthModule
 )
 static
-PRBool
+bool
 SpawnIOChild
 (
 char
@@ -393,7 +393,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 WriteString
 (
 PRFileDesc
@@ -483,7 +483,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 ReadLine
 (
 PRFileDesc
@@ -842,7 +842,7 @@ username
 nsnull
 }
 ;
-PRBool
+bool
 isOK
 =
 SpawnIOChild
@@ -1242,7 +1242,7 @@ void
 inToken
 PRUint32
 inTokenLen
-PRBool
+bool
 confidential
 void
 *

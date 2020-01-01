@@ -57,7 +57,7 @@ h
 namespace
 TestUTF
 {
-PRBool
+bool
 test_valid
 (
 )
@@ -226,7 +226,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_invalid16
 (
 )
@@ -342,7 +342,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_invalid8
 (
 )
@@ -461,7 +461,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_malformed8
 (
 )
@@ -571,7 +571,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 test_hashas16
 (
 )
@@ -607,7 +607,7 @@ i
 m8
 )
 ;
-PRBool
+bool
 err
 ;
 if
@@ -683,7 +683,7 @@ i
 m8
 )
 ;
-PRBool
+bool
 err
 ;
 if
@@ -760,7 +760,7 @@ i
 ]
 )
 ;
-PRBool
+bool
 err
 ;
 if
@@ -802,7 +802,7 @@ PR_TRUE
 ;
 }
 typedef
-PRBool
+bool
 (
 *
 TestFunc

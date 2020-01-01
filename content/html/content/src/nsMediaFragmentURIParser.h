@@ -85,7 +85,7 @@ GetEndTime
 ;
 private
 :
-PRBool
+bool
 ParseNPT
 (
 nsDependentSubstring
@@ -99,7 +99,7 @@ double
 aEnd
 )
 ;
-PRBool
+bool
 ParseNPTTime
 (
 nsDependentSubstring
@@ -110,7 +110,7 @@ double
 aTime
 )
 ;
-PRBool
+bool
 ParseNPTSec
 (
 nsDependentSubstring
@@ -121,7 +121,7 @@ double
 aSec
 )
 ;
-PRBool
+bool
 ParseNPTFraction
 (
 nsDependentSubstring
@@ -132,7 +132,7 @@ double
 aFraction
 )
 ;
-PRBool
+bool
 ParseNPTMMSS
 (
 nsDependentSubstring
@@ -143,7 +143,7 @@ double
 aTime
 )
 ;
-PRBool
+bool
 ParseNPTHHMMSS
 (
 nsDependentSubstring
@@ -154,7 +154,7 @@ double
 aTime
 )
 ;
-PRBool
+bool
 ParseNPTHH
 (
 nsDependentSubstring
@@ -165,7 +165,7 @@ PRUint32
 aHour
 )
 ;
-PRBool
+bool
 ParseNPTMM
 (
 nsDependentSubstring
@@ -176,7 +176,7 @@ PRUint32
 aMinute
 )
 ;
-PRBool
+bool
 ParseNPTSS
 (
 nsDependentSubstring

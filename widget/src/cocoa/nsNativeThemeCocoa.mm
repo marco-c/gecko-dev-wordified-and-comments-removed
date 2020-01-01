@@ -5555,13 +5555,13 @@ DrawCheckboxOrRadio
 (
 CGContextRef
 cgContext
-PRBool
+bool
 inCheckbox
 const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inSelected
 nsEventStates
 inState
@@ -6391,7 +6391,7 @@ origin
 y
 )
 ;
-PRBool
+bool
 drawDirect
 ;
 HIRect
@@ -6844,7 +6844,7 @@ const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inIsDefault
 ThemeButtonValue
 inValue
@@ -7222,7 +7222,7 @@ width
 =
 1
 ;
-PRBool
+bool
 isLast
 =
 IsLastTreeHeaderCell
@@ -7768,7 +7768,7 @@ const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inDisabled
 nsEventStates
 inState
@@ -8411,9 +8411,9 @@ const
 HIRect
 &
 inBoxRect
-PRBool
+bool
 inIsIndeterminate
-PRBool
+bool
 inIsHorizontal
 double
 inValue
@@ -8591,9 +8591,9 @@ HIRect
 inBoxRect
 nsEventStates
 inState
-PRBool
+bool
 inIsVertical
-PRBool
+bool
 inIsReverse
 PRInt32
 inCurrentValue
@@ -9699,7 +9699,7 @@ const
 CGSize
 &
 aSize
-PRBool
+bool
 aShouldGetButtonStates
 )
 {
@@ -9757,7 +9757,7 @@ pageincrement
 10
 )
 ;
-PRBool
+bool
 isHorizontal
 =
 aFrame
@@ -9782,7 +9782,7 @@ horizontal
 eCaseMatters
 )
 ;
-PRBool
+bool
 isSmall
 =
 aFrame
@@ -10339,7 +10339,7 @@ aFrame
 aBoxRect
 .
 size
-PR_TRUE
+true
 )
 ;
 /
@@ -10445,7 +10445,7 @@ scrollbarFrame
 ;
 }
 static
-PRBool
+bool
 ToolbarCanBeUnified
 (
 CGContextRef
@@ -10483,7 +10483,7 @@ drawsContentsIntoWindowFrame
 ]
 )
 return
-PR_FALSE
+false
 ;
 float
 unifiedToolbarHeight
@@ -11700,10 +11700,10 @@ kThemeMenuTypePopUp
 )
 }
 ;
-PRBool
+bool
 isLeftOfParent
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11999,7 +11999,7 @@ case
 NS_THEME_RADIO
 :
 {
-PRBool
+bool
 isCheckbox
 =
 (
@@ -12477,7 +12477,7 @@ DrawButton
 cgContext
 kThemeArrowButton
 macRect
-PR_FALSE
+false
 kThemeButtonOn
 kThemeAdornmentArrowDownArrow
 eventState
@@ -12757,7 +12757,7 @@ IsIndeterminateProgress
 aFrame
 eventState
 )
-PR_FALSE
+false
 GetProgressValue
 (
 aFrame
@@ -12798,7 +12798,7 @@ DrawButton
 cgContext
 kThemeDisclosureButton
 macRect
-PR_FALSE
+false
 kThemeDisclosureRight
 kThemeAdornmentNone
 eventState
@@ -12815,7 +12815,7 @@ DrawButton
 cgContext
 kThemeDisclosureButton
 macRect
-PR_FALSE
+false
 kThemeDisclosureDown
 kThemeAdornmentNone
 eventState
@@ -12841,7 +12841,7 @@ DrawButton
 cgContext
 kThemeListHeaderButton
 macRect
-PR_FALSE
+false
 sortDirection
 =
 =
@@ -13015,7 +13015,7 @@ maxpos
 =
 100
 ;
-PRBool
+bool
 reverse
 =
 aFrame
@@ -14245,7 +14245,7 @@ DoubleMax
 ]
 )
 {
-PRBool
+bool
 isHorizontal
 =
 (
@@ -14272,7 +14272,7 @@ scrollbarFrame
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 isSmall
 =
 (
@@ -14396,7 +14396,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 /
 /
 Return
-PR_FALSE
+false
 here
 to
 indicate
@@ -14439,7 +14439,7 @@ use
 this
 to
 return
-PR_TRUE
+true
 /
 /
 if
@@ -14451,7 +14451,7 @@ CSS
 padding
 values
 .
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -14553,14 +14553,14 @@ SizeTo
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -14711,12 +14711,12 @@ m
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -14750,7 +14750,7 @@ aWidgetType
 nsIntSize
 *
 aResult
-PRBool
+bool
 *
 aIsOverridable
 )
@@ -14769,7 +14769,7 @@ SizeTo
 *
 aIsOverridable
 =
-PR_TRUE
+true
 ;
 switch
 (
@@ -14867,7 +14867,7 @@ buttonHeight
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15060,7 +15060,7 @@ twistyHeight
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15160,7 +15160,7 @@ scaleHeight
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15195,7 +15195,7 @@ scaleWidth
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15230,7 +15230,7 @@ scrollbarWidth
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15285,7 +15285,7 @@ scrollbarFrame
 return
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 isSmall
 =
 (
@@ -15303,7 +15303,7 @@ mAppearance
 NS_THEME_SCROLLBAR_SMALL
 )
 ;
-PRBool
+bool
 isHorizontal
 =
 (
@@ -15466,7 +15466,7 @@ scrollbarWidth
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15614,7 +15614,7 @@ scrollbarWidth
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15699,7 +15699,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -15723,7 +15723,7 @@ aWidgetType
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 *
 aShouldRepaint
 )
@@ -15800,7 +15800,7 @@ NS_THEME_PROGRESSBAR_VERTICAL
 *
 aShouldRepaint
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -15873,7 +15873,7 @@ repaint
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -15902,7 +15902,7 @@ etc
 *
 aShouldRepaint
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -15980,7 +15980,7 @@ open
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -16027,7 +16027,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -16102,7 +16102,7 @@ IsThemeSupportEnabled
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -16160,7 +16160,7 @@ comboboxControlFrame
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -16389,7 +16389,7 @@ nsWidgetAtoms
 scrollFrame
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -16473,10 +16473,10 @@ break
 }
 }
 return
-PR_FALSE
+false
 ;
 }
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -16512,16 +16512,16 @@ case
 NS_THEME_PROGRESSBAR
 :
 return
-PR_FALSE
+false
 ;
 break
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -16569,13 +16569,13 @@ aWidgetType
 NS_THEME_CHECKBOX
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
-PRBool
+bool
 nsNativeThemeCocoa
 :
 :
@@ -16584,7 +16584,7 @@ ThemeNeedsComboboxDropmarker
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsITheme

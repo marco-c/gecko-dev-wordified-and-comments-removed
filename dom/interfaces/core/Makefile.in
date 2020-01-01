@@ -498,10 +498,6 @@ nsIDOMDOMStringList
 .
 idl
 \
-nsIDOMNameList
-.
-idl
-\
 nsIDOMXMLDocument
 .
 idl

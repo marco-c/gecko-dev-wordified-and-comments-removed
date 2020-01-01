@@ -828,7 +828,7 @@ getLength
 )
 )
 {
-PRBool
+bool
 hasParent
 ;
 while
@@ -1725,7 +1725,7 @@ return
 value
 ;
 }
-PRBool
+bool
 txXSLTNumber
 :
 :

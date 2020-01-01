@@ -187,7 +187,7 @@ aMatrix
 ;
 }
 }
-PRBool
+bool
 IsAnimVal
 (
 )

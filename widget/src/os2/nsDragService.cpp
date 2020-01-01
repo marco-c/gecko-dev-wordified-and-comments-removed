@@ -233,7 +233,7 @@ PDRAGTRANSFER
 pdxfer
 USHORT
 usResult
-PRBool
+bool
 content
 char
 *
@@ -1651,7 +1651,7 @@ nsDragService
 :
 EndDragSession
 (
-PRBool
+bool
 aDragDone
 )
 {
@@ -1947,7 +1947,7 @@ const
 char
 *
 aDataFlavor
-PRBool
+bool
 *
 _retval
 )
@@ -3602,12 +3602,12 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-PRBool
+bool
 isFQFile
 =
 FALSE
 ;
-PRBool
+bool
 isAtom
 =
 FALSE
@@ -3757,7 +3757,7 @@ if
 trans
 )
 {
-PRBool
+bool
 isUrl
 =
 DrgVerifyType
@@ -3768,7 +3768,7 @@ UniformResourceLocator
 "
 )
 ;
-PRBool
+bool
 isAlt
 =
 (
@@ -4040,10 +4040,10 @@ if
 mDoingDrag
 )
 {
-PRBool
+bool
 canDrop
 =
-PR_FALSE
+false
 ;
 USHORT
 usDrop
@@ -4464,10 +4464,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 rendering
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4563,7 +4563,7 @@ PDRAGINFO
 pdinfo
 HWND
 hwnd
-PRBool
+bool
 *
 rendering
 )
@@ -4598,7 +4598,7 @@ rv
 nsXPIDLCString
 dropText
 ;
-PRBool
+bool
 isUrl
 =
 DrgVerifyType
@@ -4681,7 +4681,7 @@ DRM_OS2FILE
 )
 )
 {
-PRBool
+bool
 isAlt
 =
 (
@@ -5217,10 +5217,10 @@ rv
 )
 )
 {
-PRBool
+bool
 isUrl
 =
-PR_FALSE
+false
 ;
 IsDataFlavorSupported
 (
@@ -5278,7 +5278,7 @@ PCSZ
 pszText
 PCSZ
 pszTitle
-PRBool
+bool
 isUrl
 )
 {
@@ -6057,7 +6057,7 @@ PDRAGTRANSFER
 pdxfer
 USHORT
 usResult
-PRBool
+bool
 content
 char
 *
@@ -7239,10 +7239,10 @@ srcUri
 )
 return
 ;
-PRBool
+bool
 ignore
 =
-PR_FALSE
+false
 ;
 srcUri
 -

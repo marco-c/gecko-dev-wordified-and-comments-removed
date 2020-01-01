@@ -100,7 +100,7 @@ GfxInfo
 :
 GetD2DEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -115,7 +115,7 @@ GfxInfo
 :
 GetDWriteEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -130,7 +130,7 @@ GfxInfo
 :
 GetAzureEnabled
 (
-PRBool
+bool
 *
 aEnabled
 )
@@ -614,7 +614,7 @@ GfxInfo
 :
 GetIsGPU2Active
 (
-PRBool
+bool
 *
 aIsGPU2Active
 )

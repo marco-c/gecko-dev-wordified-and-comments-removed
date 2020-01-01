@@ -132,7 +132,7 @@ PRUint8
 aWidgetType
 )
 ;
-PRBool
+bool
 IsWidgetStyled
 (
 nsPresContext
@@ -155,7 +155,7 @@ nsEventStates
 aEventStates
 )
 ;
-PRBool
+bool
 IsFrameRTL
 (
 nsIFrame
@@ -163,7 +163,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsDefaultButton
 (
 nsIFrame
@@ -182,7 +182,7 @@ _default
 )
 ;
 }
-PRBool
+bool
 IsButtonTypeMenu
 (
 nsIFrame
@@ -190,7 +190,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsChecked
 (
 nsIFrame
@@ -206,7 +206,7 @@ PR_FALSE
 )
 ;
 }
-PRBool
+bool
 IsSelected
 (
 nsIFrame
@@ -222,7 +222,7 @@ PR_TRUE
 )
 ;
 }
-PRBool
+bool
 IsFocused
 (
 nsIFrame
@@ -249,7 +249,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsSelectedTab
 (
 nsIFrame
@@ -268,7 +268,7 @@ selected
 )
 ;
 }
-PRBool
+bool
 IsNextToSelectedTab
 (
 nsIFrame
@@ -278,7 +278,7 @@ PRInt32
 aOffset
 )
 ;
-PRBool
+bool
 IsBeforeSelectedTab
 (
 nsIFrame
@@ -295,7 +295,7 @@ aFrame
 )
 ;
 }
-PRBool
+bool
 IsAfterSelectedTab
 (
 nsIFrame
@@ -311,7 +311,7 @@ aFrame
 )
 ;
 }
-PRBool
+bool
 IsLeftToSelectedTab
 (
 nsIFrame
@@ -336,7 +336,7 @@ aFrame
 )
 ;
 }
-PRBool
+bool
 IsRightToSelectedTab
 (
 nsIFrame
@@ -361,7 +361,7 @@ aFrame
 )
 ;
 }
-PRBool
+bool
 IsCheckedButton
 (
 nsIFrame
@@ -380,7 +380,7 @@ checked
 )
 ;
 }
-PRBool
+bool
 IsSelectedButton
 (
 nsIFrame
@@ -409,7 +409,7 @@ selected
 )
 ;
 }
-PRBool
+bool
 IsOpenButton
 (
 nsIFrame
@@ -428,7 +428,7 @@ open
 )
 ;
 }
-PRBool
+bool
 IsPressedButton
 (
 nsIFrame
@@ -444,7 +444,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsLastTreeHeaderCell
 (
 nsIFrame
@@ -452,7 +452,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsBottomTab
 (
 nsIFrame
@@ -460,7 +460,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsFirstTab
 (
 nsIFrame
@@ -468,7 +468,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsHorizontal
 (
 nsIFrame
@@ -476,7 +476,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsIndeterminateProgress
 (
 nsIFrame
@@ -486,7 +486,7 @@ nsEventStates
 aEventStates
 )
 ;
-PRBool
+bool
 IsVerticalProgress
 (
 nsIFrame
@@ -494,7 +494,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsReadOnly
 (
 nsIFrame
@@ -513,18 +513,18 @@ readonly
 )
 ;
 }
-PRBool
+bool
 IsSubmenu
 (
 nsIFrame
 *
 aFrame
-PRBool
+bool
 *
 aLeftOfParent
 )
 ;
-PRBool
+bool
 IsRegularMenuItem
 (
 nsIFrame
@@ -532,7 +532,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 IsMenuListEditable
 (
 nsIFrame
@@ -562,7 +562,7 @@ PRInt32
 defaultValue
 )
 ;
-PRBool
+bool
 CheckBooleanAttr
 (
 nsIFrame
@@ -573,17 +573,17 @@ nsIAtom
 aAtom
 )
 ;
-PRBool
+bool
 GetCheckedOrSelected
 (
 nsIFrame
 *
 aFrame
-PRBool
+bool
 aCheckSelected
 )
 ;
-PRBool
+bool
 GetIndeterminate
 (
 nsIFrame
@@ -591,7 +591,7 @@ nsIFrame
 aFrame
 )
 ;
-PRBool
+bool
 QueueAnimatedContentForRefresh
 (
 nsIContent
@@ -608,7 +608,7 @@ GetAdjacentSiblingFrameWithSameAppearance
 nsIFrame
 *
 aFrame
-PRBool
+bool
 aNextSibling
 )
 ;

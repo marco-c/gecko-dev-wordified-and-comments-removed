@@ -770,6 +770,7 @@ stage
 -
 package
 :
+install
 PKG_STAGE
 =
 (
@@ -781,8 +782,3 @@ test
 package
 -
 stage
-stage
--
-package
-:
-install

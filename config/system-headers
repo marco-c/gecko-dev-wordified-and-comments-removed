@@ -77,6 +77,11 @@ alsa
 mixer
 .
 h
+android
+/
+log
+.
+h
 ansi_parms
 .
 h
@@ -1167,9 +1172,6 @@ h
 iconv
 .
 h
-IDL
-.
-h
 ieeefp
 .
 h
@@ -1249,6 +1251,9 @@ h
 JavaVM
 /
 jni
+.
+h
+jemalloc
 .
 h
 JManager
@@ -1547,11 +1552,6 @@ vfs
 standard
 -
 callbacks
-.
-h
-libIDL
-/
-IDL
 .
 h
 lib

@@ -6732,10 +6732,10 @@ U
 )
 )
 {
-PRBool
+bool
 is_old_Hellsoft
 =
-PR_FALSE
+false
 ;
 if
 (

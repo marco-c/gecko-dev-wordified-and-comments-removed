@@ -455,12 +455,9 @@ FORCE_STATIC_LIB
 LIBXUL_LIBRARY
 =
 1
-ifdef
-MOZ_ENABLE_GTK2
 DIRS
 =
 gconf
-endif
 CPPSRCS
 =
 \
@@ -491,8 +488,6 @@ config
 rules
 .
 mk
-ifdef
-MOZ_ENABLE_GTK2
 INCLUDES
 +
 =
@@ -508,4 +503,3 @@ gconf
 (
 NULL
 )
-endif

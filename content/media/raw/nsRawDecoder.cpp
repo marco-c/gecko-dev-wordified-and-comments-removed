@@ -38,6 +38,7 @@ nsRawReader
 (
 this
 )
+true
 )
 ;
 }

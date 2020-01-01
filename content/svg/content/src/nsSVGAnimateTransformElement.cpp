@@ -123,7 +123,7 @@ aResult
 )
 const
 ;
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -214,7 +214,7 @@ aNodeInfo
 )
 {
 }
-PRBool
+bool
 nsSVGAnimateTransformElement
 :
 :

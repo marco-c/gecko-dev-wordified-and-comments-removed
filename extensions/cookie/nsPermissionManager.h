@@ -196,7 +196,7 @@ return
 mHost
 ;
 }
-PRBool
+bool
 KeyEquals
 (
 KeyTypePointer
@@ -504,7 +504,7 @@ const
 char
 *
 aTypeString
-PRBool
+bool
 aAdd
 )
 ;
@@ -518,7 +518,7 @@ nsAFlatCString
 aHost
 PRUint32
 aType
-PRBool
+bool
 aExactHostMatch
 )
 ;
@@ -535,14 +535,14 @@ aType
 PRUint32
 *
 aPermission
-PRBool
+bool
 aExactHostMatch
 )
 ;
 nsresult
 InitDB
 (
-PRBool
+bool
 aRemoveFile
 )
 ;

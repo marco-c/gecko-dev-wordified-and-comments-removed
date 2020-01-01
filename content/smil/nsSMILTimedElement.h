@@ -195,7 +195,7 @@ AddInstanceTime
 nsSMILInstanceTime
 *
 aInstanceTime
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -208,7 +208,7 @@ aInstanceTime
 nsSMILTimeValue
 &
 aUpdatedTime
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -218,7 +218,7 @@ RemoveInstanceTime
 nsSMILInstanceTime
 *
 aInstanceTime
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -229,7 +229,7 @@ const
 nsSMILTimeValueSpec
 *
 aSpec
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -265,7 +265,7 @@ Rewind
 (
 )
 ;
-PRBool
+bool
 SetAttr
 (
 nsIAtom
@@ -288,7 +288,7 @@ aParseResult
 nsnull
 )
 ;
-PRBool
+bool
 UnsetAttr
 (
 nsIAtom
@@ -312,7 +312,7 @@ nsSMILTimeValueSpec
 aDependent
 )
 ;
-PRBool
+bool
 IsTimeDependent
 (
 const
@@ -368,7 +368,7 @@ Unlink
 )
 ;
 typedef
-PRBool
+bool
 (
 *
 RemovalTestFunction
@@ -430,7 +430,7 @@ InstanceTimeComparator
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -444,7 +444,7 @@ aElem2
 )
 const
 ;
-PRBool
+bool
 LessThan
 (
 const
@@ -639,7 +639,7 @@ aSpec
 Element
 *
 aContextNode
-PRBool
+bool
 aIsBegin
 RemovalTestFunction
 aRemove
@@ -668,11 +668,11 @@ DoSampleAt
 (
 nsSMILTime
 aContainerTime
-PRBool
+bool
 aEndOnly
 )
 ;
-PRBool
+bool
 ApplyEarlyEnd
 (
 const
@@ -717,7 +717,7 @@ InstanceTimeList
 aList
 )
 ;
-PRBool
+bool
 GetNextInterval
 (
 const
@@ -828,10 +828,10 @@ const
 void
 UpdateCurrentInterval
 (
-PRBool
+bool
 aForceChangeNotice
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -853,7 +853,7 @@ nsSMILTime
 aCurrentTime
 double
 aOffsetSeconds
-PRBool
+bool
 aIsBegin
 )
 ;
@@ -862,7 +862,7 @@ RegisterMilestone
 (
 )
 ;
-PRBool
+bool
 GetNextMilestone
 (
 nsSMILMilestone
@@ -882,9 +882,9 @@ NotifyChangedInterval
 nsSMILInterval
 *
 aInterval
-PRBool
+bool
 aBeginObjectChanged
-PRBool
+bool
 aEndObjectChanged
 )
 ;
@@ -913,7 +913,7 @@ GetPreviousInterval
 )
 const
 ;
-PRBool
+bool
 HasPlayed
 (
 )
@@ -928,13 +928,13 @@ IsEmpty
 )
 ;
 }
-PRBool
+bool
 HaveDefiniteEndTimes
 (
 )
 const
 ;
-PRBool
+bool
 EndHasEventConditions
 (
 )
@@ -1120,10 +1120,10 @@ mSeekState
 class
 AutoIntervalUpdateBatcher
 ;
-PRPackedBool
+bool
 mDeferIntervalUpdates
 ;
-PRPackedBool
+bool
 mDoDeferredUpdate
 ;
 PRUint16

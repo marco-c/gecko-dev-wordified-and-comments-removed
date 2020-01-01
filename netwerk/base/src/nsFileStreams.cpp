@@ -1386,7 +1386,7 @@ ReadLine
 nsACString
 &
 aLine
-PRBool
+bool
 *
 aResult
 )
@@ -1468,7 +1468,7 @@ nsFileInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )
@@ -1563,7 +1563,7 @@ aOffset
 )
 ;
 }
-PRBool
+bool
 nsFileInputStream
 :
 :
@@ -1591,7 +1591,7 @@ ReadParam
 nsCString
 path
 ;
-PRBool
+bool
 followLinks
 ;
 PRInt32
@@ -1734,7 +1734,7 @@ do_QueryInterface
 mFile
 )
 ;
-PRBool
+bool
 followLinks
 ;
 localFile
@@ -2571,7 +2571,7 @@ nsFileOutputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )
@@ -2961,7 +2961,7 @@ mTargetFileExists
 #
 ifdef
 DEBUG
-PRBool
+bool
 equal
 ;
 if

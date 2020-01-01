@@ -50,7 +50,7 @@ aBlue
 nsIDOMCSSPrimitiveValue
 *
 aAlpha
-PRBool
+bool
 aHasAlpha
 )
 ;
@@ -64,7 +64,7 @@ void
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMRGBCOLOR
 NS_DECL_NSIDOMNSRGBACOLOR
-PRBool
+bool
 HasAlpha
 (
 )
@@ -100,7 +100,7 @@ nsIDOMCSSPrimitiveValue
 >
 mAlpha
 ;
-PRBool
+bool
 mHasAlpha
 ;
 }

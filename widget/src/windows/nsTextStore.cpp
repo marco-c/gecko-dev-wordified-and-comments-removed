@@ -199,7 +199,7 @@ nsnull
 )
 ;
 }
-PRBool
+bool
 nsTextStore
 :
 :
@@ -238,7 +238,7 @@ SUCCEEDED
 (
 hr
 )
-PR_FALSE
+false
 )
 ;
 mWindow
@@ -323,7 +323,7 @@ aWindow
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 mContext
@@ -336,10 +336,10 @@ NULL
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
-PRBool
+bool
 nsTextStore
 :
 :
@@ -437,7 +437,7 @@ mWindow
 NULL
 ;
 return
-PR_TRUE
+true
 ;
 }
 STDMETHODIMP
@@ -1160,7 +1160,7 @@ else
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mWindow
 )
@@ -2334,7 +2334,7 @@ mLastDispatchedTextEvent
 new
 nsTextEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 nsnull
 )
@@ -2456,7 +2456,7 @@ S_OK
 ;
 }
 static
-PRBool
+bool
 IsSameTextEvent
 (
 const
@@ -2711,7 +2711,7 @@ OnStartCompositionInternal
 (
 pComposition
 composingRange
-PR_TRUE
+true
 )
 ;
 PR_LOG
@@ -2782,7 +2782,7 @@ S_OK
 ;
 }
 static
-PRBool
+bool
 GetColor
 (
 const
@@ -2836,7 +2836,7 @@ sysColor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -2867,7 +2867,7 @@ cr
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 TF_CT_NONE
@@ -2875,12 +2875,12 @@ TF_CT_NONE
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
 static
-PRBool
+bool
 GetLineStyle
 (
 TF_DA_LINESTYLE
@@ -2906,7 +2906,7 @@ nsTextRangeStyle
 LINESTYLE_NONE
 ;
 return
-PR_TRUE
+true
 ;
 case
 TF_LS_SOLID
@@ -2919,7 +2919,7 @@ nsTextRangeStyle
 LINESTYLE_SOLID
 ;
 return
-PR_TRUE
+true
 ;
 case
 TF_LS_DOT
@@ -2932,7 +2932,7 @@ nsTextRangeStyle
 LINESTYLE_DOTTED
 ;
 return
-PR_TRUE
+true
 ;
 case
 TF_LS_DASH
@@ -2945,7 +2945,7 @@ nsTextRangeStyle
 LINESTYLE_DASHED
 ;
 return
-PR_TRUE
+true
 ;
 case
 TF_LS_SQUIGGLE
@@ -2958,12 +2958,12 @@ nsTextRangeStyle
 LINESTYLE_WAVY
 ;
 return
-PR_TRUE
+true
 ;
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -3032,7 +3032,7 @@ hr
 nsTextEvent
 event
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 mWindow
 )
@@ -3666,7 +3666,7 @@ mLastDispatchedCompositionString
 nsCompositionEvent
 compositionUpdate
 (
-PR_TRUE
+true
 NS_COMPOSITION_UPDATE
 mWindow
 )
@@ -3778,7 +3778,7 @@ const
 TS_SELECTION_ACP
 *
 pSelection
-PRBool
+bool
 aDispatchTextEvent
 )
 {
@@ -3903,7 +3903,7 @@ else
 nsSelectionEvent
 event
 (
-PR_TRUE
+true
 NS_SELECTION_SET
 mWindow
 )
@@ -4037,7 +4037,7 @@ return
 SetSelectionInternal
 (
 pSelection
-PR_TRUE
+true
 )
 ;
 }
@@ -4366,7 +4366,7 @@ compNewEnd
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 mWindow
 )
@@ -4984,7 +4984,7 @@ E_INVALIDARG
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 mWindow
 )
@@ -5185,7 +5185,7 @@ TS_E_INVALIDPOS
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_RECT
 mWindow
 )
@@ -5303,7 +5303,7 @@ refWindow
 >
 GetTopLevelWindow
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -5454,7 +5454,7 @@ E_INVALIDARG
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_EDITOR_RECT
 mWindow
 )
@@ -5516,7 +5516,7 @@ refWindow
 >
 GetTopLevelWindow
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -5931,7 +5931,7 @@ else
 nsCompositionEvent
 compEvent
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 mWindow
 )
@@ -6009,7 +6009,7 @@ Destroyed
 nsTextEvent
 event
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 mWindow
 )
@@ -6270,7 +6270,7 @@ pComposition
 ITfRange
 *
 aRange
-PRBool
+bool
 aPreserveSelection
 )
 {
@@ -6328,7 +6328,7 @@ mCompositionLength
 nsSelectionEvent
 selEvent
 (
-PR_TRUE
+true
 NS_SELECTION_SET
 mWindow
 )
@@ -6363,7 +6363,7 @@ selEvent
 .
 mReversed
 =
-PR_FALSE
+false
 ;
 mWindow
 -
@@ -6385,7 +6385,7 @@ E_FAIL
 nsQueryContentEvent
 queryEvent
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mWindow
 )
@@ -6463,7 +6463,7 @@ FALSE
 nsCompositionEvent
 event
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 mWindow
 )
@@ -6603,7 +6603,7 @@ OnStartCompositionInternal
 (
 pComposition
 range
-PR_FALSE
+false
 )
 ;
 if
@@ -6801,7 +6801,7 @@ mLastDispatchedCompositionString
 nsCompositionEvent
 compositionUpdate
 (
-PR_TRUE
+true
 NS_COMPOSITION_UPDATE
 mWindow
 )
@@ -6873,7 +6873,7 @@ S_OK
 nsTextEvent
 textEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 mWindow
 )
@@ -6995,7 +6995,7 @@ S_OK
 nsCompositionEvent
 event
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 mWindow
 )
@@ -7056,7 +7056,7 @@ nsTextStore
 :
 OnFocusChange
 (
-PRBool
+bool
 aFocus
 nsWindow
 *
@@ -7082,7 +7082,7 @@ if
 aFocus
 )
 {
-PRBool
+bool
 bRet
 =
 sTsfTextStore
@@ -7399,7 +7399,7 @@ nsTextStore
 :
 CommitCompositionInternal
 (
-PRBool
+bool
 aDiscard
 )
 {
@@ -7543,7 +7543,7 @@ mContext
 ;
 }
 static
-PRBool
+bool
 GetCompartment
 (
 IUnknown
@@ -7565,7 +7565,7 @@ if
 pUnk
 )
 return
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -7591,7 +7591,7 @@ if
 compMgr
 )
 return
-PR_FALSE
+false
 ;
 return
 SUCCEEDED
@@ -7622,7 +7622,7 @@ nsTextStore
 :
 SetIMEOpenState
 (
-PRBool
+bool
 aState
 )
 {
@@ -7693,7 +7693,7 @@ variant
 )
 ;
 }
-PRBool
+bool
 nsTextStore
 :
 :
@@ -7722,7 +7722,7 @@ comp
 )
 )
 return
-PR_FALSE
+false
 ;
 VARIANT
 variant
@@ -7774,7 +7774,7 @@ variant
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -7934,7 +7934,7 @@ if
 sTsfThreadMgr
 )
 {
-PRBool
+bool
 enableTsf
 =
 Preferences
@@ -7947,7 +7947,7 @@ intl
 .
 enable_tsf_support
 "
-PR_FALSE
+false
 )
 ;
 if

@@ -842,6 +842,10 @@ nsEventSource
 .
 cpp
 \
+FileIOObject
+.
+cpp
+\
 (
 NULL
 )

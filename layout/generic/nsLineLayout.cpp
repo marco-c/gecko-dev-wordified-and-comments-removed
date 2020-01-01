@@ -449,7 +449,7 @@ mArena
 ;
 }
 inline
-PRBool
+bool
 HasPrevInFlow
 (
 nsIFrame
@@ -489,9 +489,9 @@ nscoord
 aWidth
 nscoord
 aHeight
-PRBool
+bool
 aImpactedByFloats
-PRBool
+bool
 aIsTopOfPage
 )
 {
@@ -2823,7 +2823,7 @@ mSpansFreed
 #
 endif
 }
-PRBool
+bool
 nsLineLayout
 :
 :
@@ -3018,7 +3018,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsLineLayout
 :
 :
@@ -3052,7 +3052,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 HasPercentageUnitSide
 (
 const
@@ -3088,7 +3088,7 @@ PR_FALSE
 ;
 }
 static
-PRBool
+bool
 IsPercentageAware
 (
 const
@@ -3460,7 +3460,7 @@ aReflowStatus
 nsHTMLReflowMetrics
 *
 aMetrics
-PRBool
+bool
 &
 aPushedFrame
 )
@@ -3592,7 +3592,7 @@ y
 =
 mTopEdge
 ;
-PRBool
+bool
 notSafeToBreak
 =
 LineIsEmpty
@@ -3617,7 +3617,7 @@ GetType
 (
 )
 ;
-PRBool
+bool
 isText
 =
 frameType
@@ -4068,12 +4068,12 @@ mJustificationNumLetters
 =
 mTextJustificationNumLetters
 ;
-PRBool
+bool
 placedFloat
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 isEmpty
 ;
 if
@@ -4764,7 +4764,7 @@ PR_TRUE
 ;
 }
 }
-PRBool
+bool
 continuingTextRun
 =
 aFrame
@@ -4795,7 +4795,7 @@ mTrimmableWidth
 0
 ;
 }
-PRBool
+bool
 optionalBreakAfterFits
 ;
 NS_ASSERTION
@@ -5130,7 +5130,7 @@ this
 "
 )
 ;
-PRBool
+bool
 ltr
 =
 (
@@ -5336,7 +5336,7 @@ return
 x
 ;
 }
-PRBool
+bool
 nsLineLayout
 :
 :
@@ -5347,11 +5347,11 @@ PerFrameData
 pfd
 PRUint8
 aFrameDirection
-PRBool
+bool
 aNotSafeToBreak
-PRBool
+bool
 aFrameCanContinueTextRun
-PRBool
+bool
 aCanRollBackBeforeFrame
 nsHTMLReflowMetrics
 &
@@ -5359,7 +5359,7 @@ aMetrics
 nsReflowStatus
 &
 aStatus
-PRBool
+bool
 *
 aOptionalBreakAfterFits
 )
@@ -5402,7 +5402,7 @@ mBounds
 width
 )
 {
-PRBool
+bool
 ltr
 =
 (
@@ -5522,7 +5522,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 ltr
 =
 NS_STYLE_DIRECTION_LTR
@@ -5657,7 +5657,7 @@ mX
 ;
 #
 endif
-PRBool
+bool
 outside
 =
 pfd
@@ -5999,10 +5999,10 @@ psd
 =
 mCurrentSpan
 ;
-PRBool
+bool
 emptyFrame
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6095,7 +6095,7 @@ aMetrics
 .
 ascent
 ;
-PRBool
+bool
 ltr
 =
 (
@@ -7501,7 +7501,7 @@ SetFont
 fm
 )
 ;
-PRBool
+bool
 preMode
 =
 mStyleText
@@ -7511,7 +7511,7 @@ WhiteSpaceIsSignificant
 (
 )
 ;
-PRBool
+bool
 emptyContinuation
 =
 psd
@@ -7764,10 +7764,10 @@ n
 ;
 #
 endif
-PRBool
+bool
 zeroEffectiveSpanBox
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9241,7 +9241,7 @@ PFD_ISTEXTFRAME
 {
 #
 else
-PRBool
+bool
 canUpdate
 =
 !
@@ -9556,7 +9556,7 @@ psd
 mRootSpan
 )
 {
-PRBool
+bool
 applyMinLH
 =
 !
@@ -9571,7 +9571,7 @@ GetFlag
 LL_HASBULLET
 )
 ;
-PRBool
+bool
 isLastLine
 =
 (
@@ -10408,7 +10408,7 @@ r
 )
 ;
 }
-PRBool
+bool
 nsLineLayout
 :
 :
@@ -11019,7 +11019,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsLineLayout
 :
 :
@@ -11535,7 +11535,7 @@ HorizontalAlignFrames
 nsRect
 &
 aLineBounds
-PRBool
+bool
 aAllowJustify
 )
 {

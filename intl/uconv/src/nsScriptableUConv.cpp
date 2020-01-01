@@ -1050,7 +1050,7 @@ nsScriptableUnicodeConverter
 :
 GetIsInternal
 (
-PRBool
+bool
 *
 aIsInternal
 )
@@ -1071,7 +1071,7 @@ nsScriptableUnicodeConverter
 SetIsInternal
 (
 const
-PRBool
+bool
 aIsInternal
 )
 {

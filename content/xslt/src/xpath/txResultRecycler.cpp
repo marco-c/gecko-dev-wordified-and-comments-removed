@@ -1099,7 +1099,7 @@ txResultRecycler
 :
 getBoolResult
 (
-PRBool
+bool
 aValue
 txAExprResult
 *

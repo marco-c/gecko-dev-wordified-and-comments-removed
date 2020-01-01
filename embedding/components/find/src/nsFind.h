@@ -170,10 +170,10 @@ nsIAtom
 *
 sTdAtom
 ;
-PRPackedBool
+bool
 mFindBackward
 ;
-PRPackedBool
+bool
 mCaseSensitive
 ;
 nsCOMPtr
@@ -215,7 +215,7 @@ nsIDOMNode
 aParent
 )
 ;
-PRBool
+bool
 IsTextNode
 (
 nsIDOMNode
@@ -223,7 +223,7 @@ nsIDOMNode
 aNode
 )
 ;
-PRBool
+bool
 IsBlockNode
 (
 nsIContent
@@ -231,7 +231,7 @@ nsIContent
 aNode
 )
 ;
-PRBool
+bool
 SkipNode
 (
 nsIContent
@@ -239,7 +239,7 @@ nsIContent
 aNode
 )
 ;
-PRBool
+bool
 IsVisibleNode
 (
 nsIDOMNode
@@ -259,7 +259,7 @@ aStartPoint
 nsIDOMRange
 *
 aEndPoint
-PRBool
+bool
 aContinueOk
 )
 ;

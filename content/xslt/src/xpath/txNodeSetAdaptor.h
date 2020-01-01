@@ -76,7 +76,7 @@ get
 )
 ;
 }
-PRBool
+bool
 mWritable
 ;
 }

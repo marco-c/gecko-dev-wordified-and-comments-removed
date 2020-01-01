@@ -149,10 +149,10 @@ nsMediaList
 >
 mMediaList
 ;
-PRPackedBool
+bool
 mMatches
 ;
-PRPackedBool
+bool
 mMatchesValid
 ;
 ListenerList

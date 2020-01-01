@@ -506,7 +506,7 @@ PRInt32
 aInitialWidth
 PRInt32
 aInitialHeight
-PRBool
+bool
 aIsHiddenWindow
 nsWidgetInitData
 &
@@ -2979,7 +2979,7 @@ urlChar
 }
 }
 }
-PRBool
+bool
 nsWebShellWindow
 :
 :

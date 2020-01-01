@@ -116,7 +116,7 @@ PRUint32
 aAttrEnum
 )
 ;
-PRBool
+bool
 IsAnimating
 (
 )
@@ -142,7 +142,7 @@ PRUint8
 aAttrEnum
 PRUint8
 aAxis
-PRBool
+bool
 aCanZeroPadList
 )
 ;
@@ -182,7 +182,7 @@ PRUint8
 aAttrEnum
 PRUint8
 aAxis
-PRBool
+bool
 aCanZeroPadList
 )
 :
@@ -222,7 +222,7 @@ mAttrEnum
 PRUint8
 mAxis
 ;
-PRPackedBool
+bool
 mCanZeroPadList
 ;
 virtual
@@ -240,7 +240,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

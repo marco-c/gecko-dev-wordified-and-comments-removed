@@ -201,7 +201,7 @@ mMinSize
 float
 mMaxSize
 ;
-PRBool
+bool
 UseMathMLChar
 (
 )
@@ -217,7 +217,7 @@ ProcessOperatorData
 (
 )
 ;
-PRBool
+bool
 IsFrameInSelection
 (
 nsIFrame

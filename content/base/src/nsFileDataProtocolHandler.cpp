@@ -445,7 +445,7 @@ nsIURI
 aOther
 RefHandlingEnum
 aRefHandlingMode
-PRBool
+bool
 *
 aResult
 )
@@ -819,7 +819,7 @@ nsSimpleURI
 :
 RefHandlingEnum
 aRefHandlingMode
-PRBool
+bool
 *
 aResult
 )
@@ -1555,7 +1555,7 @@ const
 char
 *
 scheme
-PRBool
+bool
 *
 _retval
 )

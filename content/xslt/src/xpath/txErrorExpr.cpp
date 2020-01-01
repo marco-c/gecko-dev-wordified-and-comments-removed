@@ -96,7 +96,7 @@ TX_IMPL_EXPR_STUBS_0
 txErrorExpr
 ANY_RESULT
 )
-PRBool
+bool
 txErrorExpr
 :
 :

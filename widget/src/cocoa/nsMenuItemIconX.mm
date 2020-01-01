@@ -725,11 +725,11 @@ aMenuItem
 )
 mLoadedIcon
 (
-PR_FALSE
+false
 )
 mSetIcon
 (
-PR_FALSE
+false
 )
 mNativeMenuItem
 (
@@ -1332,7 +1332,7 @@ attribute
 nsAutoString
 imageURIString
 ;
-PRBool
+bool
 hasImageAttr
 =
 mContent
@@ -2071,7 +2071,7 @@ nsnull
 }
 mLoadedIcon
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2225,7 +2225,7 @@ looking
 misaligned
 .
 static
-PRBool
+bool
 sInitializedPlaceholder
 ;
 static
@@ -2241,7 +2241,7 @@ sInitializedPlaceholder
 {
 sInitializedPlaceholder
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2496,7 +2496,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aCurrentFrame
 const
 nsIntRect
@@ -2792,7 +2792,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 createSubImage
 =
 !
@@ -3162,11 +3162,11 @@ iconImage
 ;
 mLoadedIcon
 =
-PR_TRUE
+true
 ;
 mSetIcon
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3222,7 +3222,7 @@ OnStopRequest
 imgIRequest
 *
 aRequest
-PRBool
+bool
 aIsLastPart
 )
 {

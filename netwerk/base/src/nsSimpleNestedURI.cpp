@@ -232,7 +232,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsSimpleNestedURI
 :
 :
@@ -392,7 +392,7 @@ nsSimpleURI
 :
 RefHandlingEnum
 refHandlingMode
-PRBool
+bool
 *
 result
 )
@@ -413,7 +413,7 @@ if
 other
 )
 {
-PRBool
+bool
 correctScheme
 ;
 nsresult

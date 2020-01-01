@@ -214,7 +214,7 @@ closure
 )
 {
 }
-PRBool
+bool
 nsXPCOMCycleCollectionParticipant
 :
 :

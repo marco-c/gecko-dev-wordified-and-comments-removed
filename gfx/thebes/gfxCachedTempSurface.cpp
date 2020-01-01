@@ -316,10 +316,10 @@ change
 ;
 }
 }
-PRBool
+bool
 cleared
 =
-PR_FALSE
+false
 ;
 if
 (

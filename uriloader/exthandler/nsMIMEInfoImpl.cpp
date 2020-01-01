@@ -237,7 +237,7 @@ const
 nsACString
 &
 aExtension
-PRBool
+bool
 *
 _retval
 )
@@ -256,10 +256,10 @@ extension
 "
 )
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 PRUint32
 extCount
@@ -407,10 +407,10 @@ Length
 PRUint8
 i
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -614,7 +614,7 @@ Equals
 nsIMIMEInfo
 *
 aMIMEInfo
-PRBool
+bool
 *
 _retval
 )
@@ -922,7 +922,7 @@ nsMIMEInfoBase
 :
 GetAlwaysAskBeforeHandling
 (
-PRBool
+bool
 *
 aAlwaysAsk
 )
@@ -942,7 +942,7 @@ nsMIMEInfoBase
 :
 SetAlwaysAskBeforeHandling
 (
-PRBool
+bool
 aAlwaysAsk
 )
 {
@@ -1531,7 +1531,7 @@ nsMIMEInfoImpl
 :
 GetHasDefaultHandler
 (
-PRBool
+bool
 *
 _retval
 )
@@ -1551,7 +1551,7 @@ if
 mDefaultApplication
 )
 {
-PRBool
+bool
 exists
 ;
 *

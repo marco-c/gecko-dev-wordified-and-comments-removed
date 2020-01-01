@@ -618,7 +618,7 @@ nsHTTPIndex
 :
 OnFTPControlLog
 (
-PRBool
+bool
 server
 const
 char
@@ -1173,7 +1173,7 @@ ar
 cx
 )
 ;
-PRBool
+bool
 ok
 =
 JS_SetProperty
@@ -1704,7 +1704,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 isDirType
 =
 (
@@ -3233,7 +3233,7 @@ uri
 ;
 }
 }
-PRBool
+bool
 nsHTTPIndex
 :
 :
@@ -3266,7 +3266,7 @@ if
 node
 )
 {
-PRBool
+bool
 isContainerFlag
 ;
 if
@@ -3412,7 +3412,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
 nsIRDFResource
 *
@@ -3467,7 +3467,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -3527,7 +3527,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-PRBool
+bool
 aTruthValue
 nsIRDFNode
 *
@@ -3619,7 +3619,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-PRBool
+bool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -3677,10 +3677,10 @@ aSource
 )
 )
 {
-PRBool
+bool
 doNetworkRequest
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3695,7 +3695,7 @@ _retval
 )
 )
 {
-PRBool
+bool
 hasResults
 ;
 if
@@ -4501,10 +4501,10 @@ PR_TRUE
 }
 }
 }
-PRBool
+bool
 refireTimer
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4684,7 +4684,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
 )
 {
@@ -4879,9 +4879,9 @@ aProperty
 nsIRDFNode
 *
 aTarget
-PRBool
+bool
 aTruthValue
-PRBool
+bool
 *
 _retval
 )
@@ -5005,7 +5005,7 @@ aNode
 nsIRDFResource
 *
 aArc
-PRBool
+bool
 *
 result
 )
@@ -5049,7 +5049,7 @@ aSource
 nsIRDFResource
 *
 aArc
-PRBool
+bool
 *
 result
 )
@@ -5239,7 +5239,7 @@ anonArcs
 )
 )
 ;
-PRBool
+bool
 hasResults
 ;
 while
@@ -5362,7 +5362,7 @@ aCommand
 nsISupportsArray
 *
 aArguments
-PRBool
+bool
 *
 _retval
 )
@@ -5583,7 +5583,7 @@ aDocViewerResult
 nsresult
 rv
 ;
-PRBool
+bool
 viewSource
 =
 (

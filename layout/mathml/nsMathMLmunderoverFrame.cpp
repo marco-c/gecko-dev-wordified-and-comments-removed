@@ -759,7 +759,7 @@ NS_MATHML_EMBELLISH_ACCENTOVER
 }
 }
 }
-PRBool
+bool
 subsupDisplay
 =
 NS_MATHML_EMBELLISH_IS_MOVABLELIMITS
@@ -925,7 +925,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-PRBool
+bool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &

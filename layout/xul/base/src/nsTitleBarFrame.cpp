@@ -267,10 +267,10 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 doDefault
 =
-PR_TRUE
+true
 ;
 switch
 (

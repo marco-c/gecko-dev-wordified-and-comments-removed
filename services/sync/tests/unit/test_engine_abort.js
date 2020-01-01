@@ -207,13 +207,7 @@ id
 ;
 collection
 .
-wbos
-[
-id
-]
-=
-new
-ServerWBO
+insert
 (
 id
 payload

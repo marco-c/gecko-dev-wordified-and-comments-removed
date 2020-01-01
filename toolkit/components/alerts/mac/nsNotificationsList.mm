@@ -506,7 +506,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 aEnabled
 )
 {
@@ -568,7 +568,7 @@ const
 nsAString
 &
 aName
-PRBool
+bool
 *
 retVal
 )

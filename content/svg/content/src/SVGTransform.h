@@ -99,7 +99,7 @@ SVG_TRANSFORM_MATRIX
 )
 {
 }
-PRBool
+bool
 operator
 =
 =
@@ -270,7 +270,7 @@ aAngle
 protected
 :
 static
-PRBool
+bool
 MatricesEqual
 (
 const
@@ -555,7 +555,7 @@ ToSVGTransform
 )
 const
 ;
-PRBool
+bool
 operator
 =
 =
@@ -620,7 +620,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 operator
 !
 =

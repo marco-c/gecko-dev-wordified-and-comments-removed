@@ -332,10 +332,10 @@ protected
 void
 Initialize
 (
-PRBool
+bool
 aClearCachedSerializer
 =
-PR_TRUE
+true
 )
 ;
 nsresult
@@ -367,7 +367,7 @@ aNode
 nsAString
 &
 aStr
-PRBool
+bool
 aDontSerializeRoot
 )
 ;
@@ -458,11 +458,11 @@ FlushText
 nsAString
 &
 aString
-PRBool
+bool
 aForce
 )
 ;
-PRBool
+bool
 IsVisibleNode
 (
 nsINode
@@ -539,7 +539,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 isVisible
 =
 frame
@@ -581,7 +581,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 IsTag
 (
 nsIContent
@@ -593,7 +593,7 @@ aAtom
 )
 ;
 virtual
-PRBool
+bool
 IncludeInContext
 (
 nsINode
@@ -723,13 +723,13 @@ PRInt32
 >
 mEndOffsets
 ;
-PRPackedBool
+bool
 mHaltRangeHint
 ;
-PRPackedBool
+bool
 mIsCopying
 ;
-PRPackedBool
+bool
 mNodeIsContainer
 ;
 nsStringBuffer
@@ -847,7 +847,7 @@ nsDocumentEncoder
 :
 Initialize
 (
-PRBool
+bool
 aClearCachedSerializer
 )
 {
@@ -1196,7 +1196,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsDocumentEncoder
 :
 :
@@ -1270,7 +1270,7 @@ if
 mNodeFixup
 )
 {
-PRBool
+bool
 dummy
 ;
 nsCOMPtr
@@ -1603,7 +1603,7 @@ aNode
 nsAString
 &
 aStr
-PRBool
+bool
 aDontSerializeRoot
 )
 {
@@ -1623,10 +1623,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 serializeClonedChildren
 =
-PR_FALSE
+false
 ;
 nsINode
 *
@@ -1741,7 +1741,7 @@ if
 frame
 )
 {
-PRBool
+bool
 isSelectable
 ;
 frame
@@ -1999,7 +1999,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsDocumentEncoder
 :
 :
@@ -2425,7 +2425,7 @@ FlushText
 nsAString
 &
 aString
-PRBool
+bool
 aForce
 )
 {
@@ -2663,7 +2663,7 @@ nsRangeIterationDirection
 aDirection
 )
 {
-PRBool
+bool
 hasChildren
 ;
 aNextNode
@@ -2903,7 +2903,7 @@ NS_OK
 #
 endif
 static
-PRBool
+bool
 IsTextNode
 (
 nsINode
@@ -2988,7 +2988,7 @@ aCount
 }
 else
 {
-PRBool
+bool
 hasChildNodes
 ;
 aNode
@@ -4332,7 +4332,7 @@ rv
 ;
 }
 }
-PRBool
+bool
 rewriteEncodingDeclaration
 =
 !
@@ -4754,10 +4754,10 @@ FromString
 output
 )
 ;
-PRBool
+bool
 setOutput
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5209,7 +5209,7 @@ PRInt32
 aOffset
 )
 ;
-PRBool
+bool
 IsMozBR
 (
 nsIDOMNode
@@ -5234,7 +5234,7 @@ PRInt32
 outOffset
 )
 ;
-PRBool
+bool
 IsRoot
 (
 nsIDOMNode
@@ -5242,7 +5242,7 @@ nsIDOMNode
 aNode
 )
 ;
-PRBool
+bool
 IsFirstNode
 (
 nsIDOMNode
@@ -5250,7 +5250,7 @@ nsIDOMNode
 aNode
 )
 ;
-PRBool
+bool
 IsLastNode
 (
 nsIDOMNode
@@ -5258,7 +5258,7 @@ nsIDOMNode
 aNode
 )
 ;
-PRBool
+bool
 IsEmptyTextContent
 (
 nsIDOMNode
@@ -5267,7 +5267,7 @@ aNode
 )
 ;
 virtual
-PRBool
+bool
 IncludeInContext
 (
 nsINode
@@ -5275,7 +5275,7 @@ nsINode
 aNode
 )
 ;
-PRBool
+bool
 mIsTextWidget
 ;
 }
@@ -6081,7 +6081,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsHTMLCopyEncoder
 :
 :
@@ -6667,10 +6667,10 @@ rv
 =
 NS_OK
 ;
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6696,7 +6696,7 @@ do_QueryInterface
 ioNode
 )
 ;
-PRBool
+bool
 isEditable
 =
 node
@@ -6917,10 +6917,10 @@ offset
 =
 aOffset
 ;
-PRBool
+bool
 bResetPromotion
 =
-PR_FALSE
+false
 ;
 *
 outNode
@@ -7177,10 +7177,10 @@ if
 content
 )
 {
-PRBool
+bool
 isBlock
 =
-PR_FALSE
+false
 ;
 parserService
 -
@@ -7549,10 +7549,10 @@ if
 content
 )
 {
-PRBool
+bool
 isBlock
 =
-PR_FALSE
+false
 ;
 parserService
 -
@@ -7744,7 +7744,7 @@ return
 resultNode
 ;
 }
-PRBool
+bool
 nsHTMLCopyEncoder
 :
 :
@@ -7991,7 +7991,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsHTMLCopyEncoder
 :
 :
@@ -8071,7 +8071,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsHTMLCopyEncoder
 :
 :
@@ -8236,7 +8236,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsHTMLCopyEncoder
 :
 :
@@ -8431,7 +8431,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsHTMLCopyEncoder
 :
 :

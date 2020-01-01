@@ -844,7 +844,7 @@ i
 ]
 ;
 }
-PRBool
+bool
 ConditionallyConnect
 (
 nsCString
@@ -867,7 +867,7 @@ thread
 "
 )
 ;
-PRBool
+bool
 found
 =
 (
@@ -954,7 +954,7 @@ return
 found
 ;
 }
-PRBool
+bool
 Complete
 (
 WebSocketChannel
@@ -1060,7 +1060,7 @@ mAddress
 )
 ;
 }
-PRBool
+bool
 Cancel
 (
 WebSocketChannel
@@ -1182,7 +1182,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 ConnectNext
 (
 nsCString
@@ -1544,7 +1544,7 @@ mZlib
 )
 ;
 }
-PRBool
+bool
 Active
 (
 )
@@ -1843,7 +1843,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 mActive
 ;
 z_stream
@@ -2581,7 +2581,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 WebSocketChannel
 :
 :
@@ -5023,15 +5023,15 @@ progress
 "
 )
 ;
-PRBool
+bool
 isPong
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 isPing
 =
-PR_FALSE
+false
 ;
 mCurrentOut
 =
@@ -5600,6 +5600,7 @@ Length
 (
 )
 <
+=
 0xffff
 )
 {
@@ -8253,10 +8254,10 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 isHttps
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -9181,7 +9182,7 @@ prefService
 PRInt32
 intpref
 ;
-PRBool
+bool
 boolpref
 ;
 rv

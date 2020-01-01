@@ -76,7 +76,7 @@ nsMathMLmspaceFrame
 )
 {
 }
-PRBool
+bool
 nsMathMLmspaceFrame
 :
 :

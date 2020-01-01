@@ -89,7 +89,7 @@ nsIAtom
 *
 *
 aKeyatom
-PRBool
+bool
 aAdvancePos
 )
 ;
@@ -103,7 +103,7 @@ MatchTransform
 (
 )
 ;
-PRBool
+bool
 IsTokenTransformStarter
 (
 )

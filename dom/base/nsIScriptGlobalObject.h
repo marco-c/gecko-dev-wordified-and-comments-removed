@@ -161,7 +161,7 @@ varName
 +
 +
 )
-PRBool
+bool
 NS_HandleScriptError
 (
 nsIScriptGlobalObject
@@ -305,9 +305,9 @@ virtual
 void
 SetScriptsEnabled
 (
-PRBool
+bool
 aEnabled
-PRBool
+bool
 aFireTimeouts
 )
 =

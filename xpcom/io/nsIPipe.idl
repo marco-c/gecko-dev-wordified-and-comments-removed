@@ -1437,11 +1437,11 @@ nsIAsyncOutputStream
 *
 *
 pipeOut
-PRBool
+bool
 nonBlockingInput
 =
 PR_FALSE
-PRBool
+bool
 nonBlockingOutput
 =
 PR_FALSE
@@ -1693,11 +1693,11 @@ PRUint32
 maxSize
 =
 0
-PRBool
+bool
 nonBlockingInput
 =
 PR_FALSE
-PRBool
+bool
 nonBlockingOutput
 =
 PR_FALSE

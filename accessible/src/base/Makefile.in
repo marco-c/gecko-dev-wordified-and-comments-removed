@@ -452,6 +452,10 @@ filters
 .
 cpp
 \
+FocusManager
+.
+cpp
+\
 NotificationController
 .
 cpp
@@ -582,6 +586,10 @@ EXPORTS_mozilla
 /
 a11y
 =
+\
+FocusManager
+.
+h
 \
 States
 .

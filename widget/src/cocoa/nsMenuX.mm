@@ -666,16 +666,16 @@ nsIWidget
 gRollupWidget
 ;
 static
-PRBool
+bool
 gConstructingMenu
 =
-PR_FALSE
+false
 ;
 static
-PRBool
+bool
 gMenuMethodsSwizzled
 =
-PR_FALSE
+false
 ;
 PRInt32
 nsMenuX
@@ -841,27 +841,27 @@ nil
 )
 mIsEnabled
 (
-PR_TRUE
+true
 )
 mDestroyHandlerCalled
 (
-PR_FALSE
+false
 )
 mNeedsRebuild
 (
-PR_TRUE
+true
 )
 mConstructed
 (
-PR_FALSE
+false
 )
 mVisible
 (
-PR_TRUE
+true
 )
 mXBLAttached
 (
-PR_FALSE
+false
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
@@ -895,7 +895,7 @@ nsMenuX_NSMenu_addItem
 toTable
 :
 )
-PR_TRUE
+true
 )
 ;
 nsToolkit
@@ -921,7 +921,7 @@ nsMenuX_NSMenu_removeItem
 fromTable
 :
 )
-PR_TRUE
+true
 )
 ;
 /
@@ -1032,7 +1032,7 @@ nsMenuX_SCTGRLIndex_indexMenuBarDynamically
 ;
 gMenuMethodsSwizzled
 =
-PR_TRUE
+true
 ;
 }
 mMenuDelegate
@@ -1375,7 +1375,7 @@ mContent
 )
 mVisible
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1391,7 +1391,7 @@ GetChildCount
 )
 mVisible
 =
-PR_FALSE
+false
 ;
 NSString
 *
@@ -2253,7 +2253,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 /
@@ -2277,7 +2277,7 @@ the
 menu
 at
 all
-PRBool
+bool
 keepProcessing
 =
 OnOpen
@@ -2330,7 +2330,7 @@ nsEventStatus_eIgnore
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 NS_XUL_POPUP_SHOWN
 nsnull
 nsMouseEvent
@@ -2434,7 +2434,7 @@ nsWidgetAtoms
 :
 :
 open
-PR_TRUE
+true
 )
 ;
 nsEventStatus
@@ -2445,7 +2445,7 @@ nsEventStatus_eIgnore
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 NS_XUL_POPUP_HIDDEN
 nsnull
 nsMouseEvent
@@ -2493,7 +2493,7 @@ status
 ;
 mDestroyHandlerCalled
 =
-PR_TRUE
+true
 ;
 mConstructed
 =
@@ -2515,7 +2515,7 @@ false
 ;
 gConstructingMenu
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -2541,7 +2541,7 @@ away
 .
 mDestroyHandlerCalled
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2601,7 +2601,7 @@ menuPopup
 {
 gConstructingMenu
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -2768,7 +2768,7 @@ wrapper
 ;
 mXBLAttached
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2898,11 +2898,11 @@ menu
 item
 gConstructingMenu
 =
-PR_FALSE
+false
 ;
 mNeedsRebuild
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2936,7 +2936,7 @@ nsMenuX
 :
 SetRebuild
 (
-PRBool
+bool
 aNeedsRebuild
 )
 {
@@ -2956,7 +2956,7 @@ nsMenuX
 :
 SetEnabled
 (
-PRBool
+bool
 aIsEnabled
 )
 {
@@ -3003,7 +3003,7 @@ nsMenuX
 :
 GetEnabled
 (
-PRBool
+bool
 *
 aIsEnabled
 )
@@ -3543,7 +3543,7 @@ of
 the
 menu
 .
-PRBool
+bool
 nsMenuX
 :
 :
@@ -3559,7 +3559,7 @@ nsEventStatus_eIgnore
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 NS_XUL_POPUP_SHOWING
 nsnull
 nsMouseEvent
@@ -3626,7 +3626,7 @@ status
 nsEventStatus_eConsumeNoDefault
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -3706,7 +3706,7 @@ if
 popupContent
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -3731,7 +3731,7 @@ if
 domDoc
 )
 return
-PR_TRUE
+true
 ;
 PRUint32
 count
@@ -3945,7 +3945,7 @@ nsWidgetAtoms
 :
 :
 disabled
-PR_TRUE
+true
 )
 ;
 else
@@ -3960,7 +3960,7 @@ nsWidgetAtoms
 :
 disabled
 commandDisabled
-PR_TRUE
+true
 )
 ;
 }
@@ -4075,7 +4075,7 @@ nsWidgetAtoms
 :
 checked
 commandChecked
-PR_TRUE
+true
 )
 ;
 }
@@ -4140,7 +4140,7 @@ nsWidgetAtoms
 :
 label
 commandValue
-PR_TRUE
+true
 )
 ;
 }
@@ -4149,7 +4149,7 @@ PR_TRUE
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -4178,7 +4178,7 @@ of
 the
 menu
 .
-PRBool
+bool
 nsMenuX
 :
 :
@@ -4191,7 +4191,7 @@ if
 mDestroyHandlerCalled
 )
 return
-PR_TRUE
+true
 ;
 nsEventStatus
 status
@@ -4201,7 +4201,7 @@ nsEventStatus_eIgnore
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 NS_XUL_POPUP_HIDING
 nsnull
 nsMouseEvent
@@ -4256,7 +4256,7 @@ status
 ;
 mDestroyHandlerCalled
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4272,10 +4272,10 @@ status
 nsEventStatus_eConsumeNoDefault
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -4570,7 +4570,7 @@ return
 mNativeMenuItem
 ;
 }
-PRBool
+bool
 nsMenuX
 :
 :
@@ -4581,10 +4581,10 @@ nsIContent
 aMenuContent
 )
 {
-PRBool
+bool
 retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4623,7 +4623,7 @@ helpMenu
 )
 retval
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -4885,7 +4885,7 @@ mParent
 >
 SetRebuild
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4915,7 +4915,7 @@ GetMenuXObject
 >
 SetRebuild
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4943,10 +4943,10 @@ collapsed
 {
 SetRebuild
 (
-PR_TRUE
+true
 )
 ;
-PRBool
+bool
 contentIsHiddenOrCollapsed
 =
 nsMenuUtilsX
@@ -5065,7 +5065,7 @@ mNativeMenuItem
 ;
 mVisible
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5194,7 +5194,7 @@ mNativeMenu
 ;
 mVisible
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5243,7 +5243,7 @@ return
 ;
 SetRebuild
 (
-PR_TRUE
+true
 )
 ;
 mMenuGroupOwner
@@ -5280,7 +5280,7 @@ return
 ;
 SetRebuild
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -5496,7 +5496,7 @@ nsMenuItemX
 target
 )
 ;
-PRBool
+bool
 handlerCalledPreventDefault
 ;
 /

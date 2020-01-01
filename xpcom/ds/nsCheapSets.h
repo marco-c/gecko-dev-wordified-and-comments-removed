@@ -49,7 +49,7 @@ nsAString
 aVal
 )
 ;
-PRBool
+bool
 Contains
 (
 const
@@ -265,7 +265,7 @@ PRInt32
 aVal
 )
 ;
-PRBool
+bool
 Contains
 (
 PRInt32
@@ -344,7 +344,7 @@ nsInt32HashSet
 mValOrHash
 ;
 }
-PRBool
+bool
 IsInt
 (
 )

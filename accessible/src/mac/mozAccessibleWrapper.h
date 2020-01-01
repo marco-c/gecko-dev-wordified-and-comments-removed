@@ -86,7 +86,7 @@ return
 object
 ;
 }
-PRBool
+bool
 isIgnored
 (
 )
@@ -95,7 +95,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
 return
 (
-PRBool
+bool
 )
 [
 object

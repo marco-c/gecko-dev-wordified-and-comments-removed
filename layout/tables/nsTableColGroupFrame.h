@@ -172,7 +172,7 @@ RemoveChild
 nsTableColFrame
 &
 aChild
-PRBool
+bool
 aResetSubsequentColIndices
 )
 ;
@@ -195,13 +195,6 @@ aStatus
 )
 ;
 virtual
-PRBool
-IsContainingBlock
-(
-)
-const
-;
-virtual
 nsIAtom
 *
 GetType
@@ -214,7 +207,7 @@ AddColsToTable
 (
 PRInt32
 aFirstColIndex
-PRBool
+bool
 aResetSubsequentColIndices
 const
 nsFrameList

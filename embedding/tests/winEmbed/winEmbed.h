@@ -31,14 +31,14 @@ EnableChromeWindow
 nsIWebBrowserChrome
 *
 aWindow
-PRBool
+bool
 aEnabled
 )
 ;
 PRUint32
 RunEventLoop
 (
-PRBool
+bool
 &
 aRunCondition
 )

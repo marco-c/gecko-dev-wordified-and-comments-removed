@@ -333,7 +333,7 @@ FORWARDED_EVENT
 undef
 EVENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -354,14 +354,14 @@ virtual
 void
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
 =
-PR_TRUE
-PRBool
+true
+bool
 aNullParent
 =
-PR_TRUE
+true
 )
 ;
 virtual
@@ -381,7 +381,7 @@ aRuleWalker
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -1702,7 +1702,7 @@ nsHTMLBodyElement
 BgColor
 bgcolor
 )
-PRBool
+bool
 nsHTMLBodyElement
 :
 :
@@ -1872,9 +1872,9 @@ nsHTMLBodyElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -2293,7 +2293,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLBodyElement
 :

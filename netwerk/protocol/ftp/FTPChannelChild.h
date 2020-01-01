@@ -167,7 +167,7 @@ aContext
 NS_IMETHOD
 IsPending
 (
-PRBool
+bool
 *
 result
 )
@@ -176,7 +176,7 @@ NS_OVERRIDE
 nsresult
 OpenContentStream
 (
-PRBool
+bool
 async
 nsIInputStream
 *
@@ -376,10 +376,10 @@ mCanceled
 PRUint32
 mSuspendCount
 ;
-PRPackedBool
+bool
 mIsPending
 ;
-PRPackedBool
+bool
 mWasOpened
 ;
 PRTime

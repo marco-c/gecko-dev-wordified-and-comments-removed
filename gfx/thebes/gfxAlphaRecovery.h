@@ -43,10 +43,10 @@ public
 struct
 Analysis
 {
-PRBool
+bool
 uniformColor
 ;
-PRBool
+bool
 uniformAlpha
 ;
 gfxFloat
@@ -70,7 +70,7 @@ return
 ;
 }
 static
-PRBool
+bool
 RecoverAlpha
 (
 gfxImageSurface
@@ -91,7 +91,7 @@ nsnull
 ifdef
 MOZILLA_MAY_SUPPORT_SSE2
 static
-PRBool
+bool
 RecoverAlphaSSE2
 (
 gfxImageSurface

@@ -104,10 +104,10 @@ const
 nsAString
 &
 aType
-PRBool
+bool
 aBubblesAndCancelable
 =
-PR_FALSE
+false
 )
 ;
 already_AddRefed

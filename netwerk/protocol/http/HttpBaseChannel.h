@@ -224,7 +224,7 @@ aName
 NS_IMETHOD
 IsPending
 (
-PRBool
+bool
 *
 aIsPending
 )
@@ -414,7 +414,7 @@ aResult
 NS_IMETHOD
 GetApplyConversion
 (
-PRBool
+bool
 *
 value
 )
@@ -422,7 +422,7 @@ value
 NS_IMETHOD
 SetApplyConversion
 (
-PRBool
+bool
 value
 )
 ;
@@ -492,7 +492,7 @@ const
 nsACString
 &
 aValue
-PRBool
+bool
 aMerge
 )
 ;
@@ -527,7 +527,7 @@ const
 nsACString
 &
 value
-PRBool
+bool
 merge
 )
 ;
@@ -542,7 +542,7 @@ visitor
 NS_IMETHOD
 GetAllowPipelining
 (
-PRBool
+bool
 *
 value
 )
@@ -550,7 +550,7 @@ value
 NS_IMETHOD
 SetAllowPipelining
 (
-PRBool
+bool
 value
 )
 ;
@@ -572,7 +572,7 @@ value
 NS_IMETHOD
 IsNoStoreResponse
 (
-PRBool
+bool
 *
 value
 )
@@ -580,7 +580,7 @@ value
 NS_IMETHOD
 IsNoCacheResponse
 (
-PRBool
+bool
 *
 value
 )
@@ -604,7 +604,7 @@ aValue
 NS_IMETHOD
 GetRequestSucceeded
 (
-PRBool
+bool
 *
 aValue
 )
@@ -660,7 +660,7 @@ aCookieHeader
 NS_IMETHOD
 GetForceAllowThirdPartyCookie
 (
-PRBool
+bool
 *
 aForce
 )
@@ -668,14 +668,14 @@ aForce
 NS_IMETHOD
 SetForceAllowThirdPartyCookie
 (
-PRBool
+bool
 aForce
 )
 ;
 NS_IMETHOD
 GetCanceled
 (
-PRBool
+bool
 *
 aCanceled
 )
@@ -683,7 +683,7 @@ aCanceled
 NS_IMETHOD
 GetChannelIsForDownload
 (
-PRBool
+bool
 *
 aChannelIsForDownload
 )
@@ -691,7 +691,7 @@ aChannelIsForDownload
 NS_IMETHOD
 SetChannelIsForDownload
 (
-PRBool
+bool
 aChannelIsForDownload
 )
 ;
@@ -849,7 +849,7 @@ nsIHttpChannel
 >
 mChannel
 ;
-PRPackedBool
+bool
 mReady
 ;
 }
@@ -933,7 +933,7 @@ nsIURI
 *
 nsIChannel
 *
-PRBool
+bool
 preserveMethod
 )
 ;

@@ -810,10 +810,10 @@ cleanupJSHelpers
 (
 )
 ;
-PRBool
+bool
 onCallingThread
 =
-PR_FALSE
+false
 ;
 (
 void
@@ -1032,10 +1032,10 @@ _stmt
 #
 ifdef
 DEBUG
-PRBool
+bool
 onOpenedThread
 =
-PR_FALSE
+false
 ;
 (
 void

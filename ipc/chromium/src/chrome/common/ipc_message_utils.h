@@ -1244,6 +1244,12 @@ defined
 ARCH_CPU_64_BITS
 )
 )
+|
+|
+defined
+(
+ARCH_CPU_S390
+)
 )
 template
 <

@@ -222,7 +222,7 @@ pushBack
 (
 )
 ;
-PRBool
+bool
 hasMoreTokens
 (
 )
@@ -393,7 +393,7 @@ Token
 aToken
 )
 ;
-PRBool
+bool
 nextIsOperatorToken
 (
 Token
@@ -402,7 +402,7 @@ aToken
 )
 ;
 static
-PRBool
+bool
 isXPathDigit
 (
 PRUnichar

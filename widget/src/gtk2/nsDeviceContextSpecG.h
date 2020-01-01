@@ -122,7 +122,7 @@ aWidget
 nsIPrintSettings
 *
 aPS
-PRBool
+bool
 aIsPrintPreview
 )
 ;
@@ -209,12 +209,12 @@ nsIPrintSettings
 >
 mPrintSettings
 ;
-PRPackedBool
+bool
 mToPrinter
 :
 1
 ;
-PRPackedBool
+bool
 mIsPPreview
 :
 1

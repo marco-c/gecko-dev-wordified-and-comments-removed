@@ -1140,7 +1140,7 @@ return
 iter
 ;
 }
-PRBool
+bool
 nsScannerSubstring
 :
 :
@@ -1255,7 +1255,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsScannerSubstring
 :
 :
@@ -1682,7 +1682,7 @@ buffer
 )
 )
 ;
-PRBool
+bool
 sameBuffer
 =
 buffer
@@ -2160,7 +2160,7 @@ writer
 )
 ;
 }
-PRBool
+bool
 FindCharInReadable
 (
 PRUnichar
@@ -2272,7 +2272,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 FindInReadable
 (
 const
@@ -2291,10 +2291,10 @@ nsStringComparator
 compare
 )
 {
-PRBool
+bool
 found_it
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2464,7 +2464,7 @@ return
 found_it
 ;
 }
-PRBool
+bool
 RFindInReadable
 (
 const
@@ -2483,10 +2483,10 @@ nsStringComparator
 aComparator
 )
 {
-PRBool
+bool
 found_it
 =
-PR_FALSE
+false
 ;
 nsScannerIterator
 savedSearchEnd

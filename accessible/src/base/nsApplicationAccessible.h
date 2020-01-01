@@ -238,7 +238,7 @@ aHeight
 NS_IMETHOD
 SetSelected
 (
-PRBool
+bool
 aIsSelected
 )
 ;
@@ -288,7 +288,7 @@ IsDefunct
 const
 ;
 virtual
-PRBool
+bool
 Init
 (
 )

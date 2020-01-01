@@ -164,7 +164,7 @@ char
 aBuf
 PRUint32
 aLen
-PRBool
+bool
 *
 oDontFeedMe
 )

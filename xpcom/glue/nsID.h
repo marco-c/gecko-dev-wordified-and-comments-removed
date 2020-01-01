@@ -46,7 +46,7 @@ m3
 ]
 ;
 inline
-PRBool
+bool
 Equals
 (
 const
@@ -130,7 +130,7 @@ m0
 ;
 }
 NS_COM_GLUE
-PRBool
+bool
 Parse
 (
 const

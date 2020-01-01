@@ -515,7 +515,7 @@ return
 newObject
 ;
 }
-PRBool
+bool
 nsNSSCertificate
 :
 :
@@ -904,7 +904,7 @@ nsNSSCertificate
 :
 GetIsSelfSigned
 (
-PRBool
+bool
 *
 aIsSelfSigned
 )
@@ -3351,7 +3351,7 @@ const
 nsAString
 &
 aEmailAddress
-PRBool
+bool
 *
 result
 )
@@ -5375,7 +5375,7 @@ issuerCert
 mCert
 )
 {
-PRBool
+bool
 includeRoot
 =
 (
@@ -6214,7 +6214,7 @@ nsNSSCertificate
 :
 GetUsagesArray
 (
-PRBool
+bool
 localOnly
 PRUint32
 *
@@ -6489,7 +6489,7 @@ nsNSSCertificate
 :
 GetUsagesString
 (
-PRBool
+bool
 localOnly
 PRUint32
 *
@@ -6677,7 +6677,7 @@ nsIASN1Object
 >
 currObject
 ;
-PRBool
+bool
 processObjects
 ;
 PRUint32
@@ -6988,7 +6988,7 @@ Equals
 nsIX509Cert
 *
 other
-PRBool
+bool
 *
 result
 )
@@ -7134,7 +7134,7 @@ nsnull
 int
 count
 ;
-PRBool
+bool
 conflict
 ;
 char
@@ -7369,7 +7369,7 @@ nsNSSCertList
 CERTCertList
 *
 certList
-PRBool
+bool
 adopt
 )
 {
@@ -7869,7 +7869,7 @@ nsNSSCertListEnumerator
 :
 HasMoreElements
 (
-PRBool
+bool
 *
 _retval
 )

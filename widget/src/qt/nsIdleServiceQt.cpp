@@ -60,7 +60,7 @@ defined
 MOZ_X11
 )
 typedef
-PRBool
+bool
 (
 *
 _XScreenSaverQueryExtension_fn
@@ -126,10 +126,10 @@ nsnull
 #
 endif
 static
-PRBool
+bool
 sInitialized
 =
-PR_FALSE
+false
 ;
 NS_IMPL_ISUPPORTS2
 (

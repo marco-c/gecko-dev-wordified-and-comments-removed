@@ -330,7 +330,7 @@ nsViewSourceChannel
 :
 IsPending
 (
-PRBool
+bool
 *
 result
 )
@@ -1811,7 +1811,7 @@ const
 nsACString
 &
 aValue
-PRBool
+bool
 aMerge
 )
 {
@@ -1864,7 +1864,7 @@ nsViewSourceChannel
 :
 GetAllowPipelining
 (
-PRBool
+bool
 *
 aAllowPipelining
 )
@@ -1890,7 +1890,7 @@ nsViewSourceChannel
 :
 SetAllowPipelining
 (
-PRBool
+bool
 aAllowPipelining
 )
 {
@@ -2018,7 +2018,7 @@ nsViewSourceChannel
 :
 GetRequestSucceeded
 (
-PRBool
+bool
 *
 aRequestSucceeded
 )
@@ -2188,7 +2188,7 @@ const
 nsACString
 &
 value
-PRBool
+bool
 merge
 )
 {
@@ -2279,7 +2279,7 @@ nsViewSourceChannel
 :
 IsNoStoreResponse
 (
-PRBool
+bool
 *
 _retval
 )
@@ -2305,7 +2305,7 @@ nsViewSourceChannel
 :
 IsNoCacheResponse
 (
-PRBool
+bool
 *
 _retval
 )

@@ -12,7 +12,7 @@ prmem
 .
 h
 "
-PRBool
+bool
 nsCharSetProber
 :
 :
@@ -43,10 +43,10 @@ prevPtr
 *
 curPtr
 ;
-PRBool
+bool
 meetMSB
 =
-PR_FALSE
+false
 ;
 newptr
 =
@@ -231,7 +231,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsCharSetProber
 :
 :
@@ -262,10 +262,10 @@ prevPtr
 *
 curPtr
 ;
-PRBool
+bool
 isInTag
 =
-PR_FALSE
+false
 ;
 newptr
 =

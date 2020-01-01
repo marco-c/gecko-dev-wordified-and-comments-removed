@@ -279,7 +279,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 nsHTMLLegendElement
 :
 :
@@ -407,7 +407,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {
@@ -436,7 +436,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 aNotify
 )
 {
@@ -467,7 +467,7 @@ aParent
 nsIContent
 *
 aBindingParent
-PRBool
+bool
 aCompileEventHandlers
 )
 {
@@ -490,9 +490,9 @@ nsHTMLLegendElement
 :
 UnbindFromTree
 (
-PRBool
+bool
 aDeep
-PRBool
+bool
 aNullParent
 )
 {
@@ -604,9 +604,9 @@ nsHTMLLegendElement
 :
 PerformAccesskey
 (
-PRBool
+bool
 aKeyCausesActivation
-PRBool
+bool
 aIsTrustedEvent
 )
 {

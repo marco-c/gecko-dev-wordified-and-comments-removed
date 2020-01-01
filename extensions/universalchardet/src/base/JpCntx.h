@@ -155,7 +155,7 @@ void
 void
 Reset
 (
-PRBool
+bool
 aIsPreferredLanguage
 )
 ;
@@ -165,7 +165,7 @@ SetOpion
 )
 {
 }
-PRBool
+bool
 GotEnoughData
 (
 )
@@ -223,7 +223,7 @@ mLastCharOrder
 PRUint32
 mNeedToSkipCharNum
 ;
-PRBool
+bool
 mDone
 ;
 }

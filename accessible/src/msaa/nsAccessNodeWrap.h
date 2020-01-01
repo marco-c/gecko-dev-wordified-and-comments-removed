@@ -505,7 +505,7 @@ aExceptionInfo
 )
 ;
 static
-PRBool
+bool
 IsOnlyMsaaCompatibleJawsPresent
 (
 )
@@ -572,7 +572,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 gIsIA2Disabled
 ;
 static

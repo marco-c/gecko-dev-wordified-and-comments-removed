@@ -107,7 +107,7 @@ nsGenericHTMLElement
 )
 NS_DECL_NSIDOMHTMLHRELEMENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -126,7 +126,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -299,7 +299,7 @@ NS_STYLE_TEXT_ALIGN_CENTER
 }
 }
 ;
-PRBool
+bool
 nsHTMLHRElement
 :
 :
@@ -438,10 +438,10 @@ nsRuleData
 aData
 )
 {
-PRBool
+bool
 noshade
 =
-PR_FALSE
+false
 ;
 const
 nsAttrValue
@@ -462,7 +462,7 @@ color
 nscolor
 color
 ;
-PRBool
+bool
 colorIsSet
 =
 colorValue
@@ -986,10 +986,10 @@ noshade
 float
 sizePerSide
 ;
-PRBool
+bool
 allSides
 =
-PR_TRUE
+true
 ;
 const
 nsAttrValue
@@ -1495,7 +1495,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLHRElement
 :

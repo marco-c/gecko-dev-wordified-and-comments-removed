@@ -147,7 +147,7 @@ aCallback
 void
 *
 aClosure
-PRBool
+bool
 &
 aAborted
 )
@@ -217,7 +217,7 @@ aLength
 )
 ;
 virtual
-PRBool
+bool
 IsFontFormatSupported
 (
 nsIURI
@@ -269,7 +269,7 @@ gfxFont
 aFont
 )
 ;
-PRBool
+bool
 GetPrefFontEntries
 (
 const
@@ -346,7 +346,7 @@ GetDPI
 )
 ;
 static
-PRBool
+bool
 UseClientSideRendering
 (
 )
@@ -361,7 +361,7 @@ MOZ_X11
 &
 defined
 (
-MOZ_GFX_OPTIMIZE_MOBILE
+MOZ_PLATFORM_MAEMO
 )
 return
 PR_TRUE

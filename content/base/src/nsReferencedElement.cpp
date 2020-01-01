@@ -80,9 +80,9 @@ aFromContent
 nsIURI
 *
 aURI
-PRBool
+bool
 aWatch
-PRBool
+bool
 aReferenceImage
 )
 {
@@ -237,7 +237,7 @@ if
 binding
 )
 {
-PRBool
+bool
 isEqualExceptRef
 ;
 rv
@@ -351,7 +351,7 @@ return
 }
 }
 }
-PRBool
+bool
 isEqualExceptRef
 ;
 rv
@@ -513,7 +513,7 @@ const
 nsString
 &
 aID
-PRBool
+bool
 aWatch
 )
 {
@@ -587,7 +587,7 @@ HaveNewDocument
 nsIDocument
 *
 aDocument
-PRBool
+bool
 aWatch
 const
 nsString
@@ -776,7 +776,7 @@ mReferencingImage
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsReferencedElement
 :
 :
@@ -874,7 +874,7 @@ watcher
 )
 ;
 }
-PRBool
+bool
 keepTracking
 =
 p

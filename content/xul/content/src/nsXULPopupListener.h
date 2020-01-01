@@ -66,7 +66,7 @@ nsXULPopupListener
 nsIDOMElement
 *
 aElement
-PRBool
+bool
 aIsContext
 )
 ;
@@ -130,7 +130,7 @@ nsIContent
 >
 mPopupContent
 ;
-PRBool
+bool
 mIsContext
 ;
 }

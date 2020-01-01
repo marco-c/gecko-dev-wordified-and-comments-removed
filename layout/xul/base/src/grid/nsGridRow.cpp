@@ -88,7 +88,7 @@ Init
 nsIBox
 *
 aBox
-PRBool
+bool
 aIsBogus
 )
 {
@@ -153,7 +153,7 @@ nsGridRow
 )
 ;
 }
-PRBool
+bool
 nsGridRow
 :
 :

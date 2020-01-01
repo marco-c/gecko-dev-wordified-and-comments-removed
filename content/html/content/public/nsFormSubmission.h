@@ -110,7 +110,7 @@ aBlob
 0
 ;
 virtual
-PRBool
+bool
 SupportsIsindexSubmission
 (
 )

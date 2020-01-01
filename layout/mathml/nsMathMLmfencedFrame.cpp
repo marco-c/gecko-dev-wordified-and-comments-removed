@@ -304,10 +304,10 @@ aPresContext
 nsAutoString
 value
 ;
-PRBool
+bool
 isMutable
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1327,10 +1327,10 @@ dx
 nsBoundingMetrics
 bm
 ;
-PRBool
+bool
 firstTime
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1617,7 +1617,7 @@ rspace
 .
 0f
 ;
-PRBool
+bool
 found
 =
 nsMathMLOperators

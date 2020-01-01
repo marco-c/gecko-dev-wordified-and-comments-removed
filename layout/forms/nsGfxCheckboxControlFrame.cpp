@@ -596,7 +596,7 @@ TYPE_CHECKED_CHECKBOX
 )
 ;
 }
-PRBool
+bool
 nsGfxCheckboxControlFrame
 :
 :
@@ -616,10 +616,10 @@ mContent
 )
 )
 ;
-PRBool
+bool
 retval
 =
-PR_FALSE
+false
 ;
 elem
 -
@@ -634,7 +634,7 @@ return
 retval
 ;
 }
-PRBool
+bool
 nsGfxCheckboxControlFrame
 :
 :
@@ -654,10 +654,10 @@ mContent
 )
 )
 ;
-PRBool
+bool
 retval
 =
-PR_FALSE
+false
 ;
 elem
 -

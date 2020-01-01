@@ -42,7 +42,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-PRBool
+bool
 aNeedsBold
 )
 ;
@@ -88,7 +88,7 @@ mSpaceGlyph
 ;
 }
 virtual
-PRBool
+bool
 SetupCairoFont
 (
 gfxContext
@@ -135,7 +135,7 @@ CreatePlatformShaper
 )
 ;
 virtual
-PRBool
+bool
 InitTextRun
 (
 gfxContext
@@ -154,10 +154,10 @@ PRUint32
 aRunLength
 PRInt32
 aRunScript
-PRBool
+bool
 aPreferPlatformShaping
 =
-PR_FALSE
+false
 )
 ;
 void

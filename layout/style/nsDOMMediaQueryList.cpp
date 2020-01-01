@@ -208,7 +208,7 @@ nsDOMMediaQueryList
 :
 GetMatches
 (
-PRBool
+bool
 *
 aMatches
 )
@@ -416,7 +416,7 @@ Length
 )
 )
 {
-PRPackedBool
+bool
 oldMatches
 =
 mMatches

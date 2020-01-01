@@ -177,7 +177,7 @@ object
 *
 /
 \
-PRBool
+bool
 IsPartOfAggregated
 (
 void

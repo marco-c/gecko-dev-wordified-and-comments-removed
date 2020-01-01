@@ -80,7 +80,7 @@ progress
 0
 ;
 virtual
-PRBool
+bool
 IsDone
 (
 )
@@ -203,7 +203,7 @@ progress
 )
 ;
 \
-PRBool
+bool
 IsDone
 (
 )

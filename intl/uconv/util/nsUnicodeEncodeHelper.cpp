@@ -174,7 +174,7 @@ break
 ;
 }
 }
-PRBool
+bool
 charFound
 ;
 if
@@ -437,7 +437,7 @@ NS_ERROR_UENC_NOMAPPING
 break
 ;
 }
-PRBool
+bool
 charFound
 ;
 if

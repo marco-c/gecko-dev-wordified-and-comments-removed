@@ -172,7 +172,7 @@ PRUint32
 )
 ;
 inline
-PRBool
+bool
 IsUpperCase
 (
 PRUnichar
@@ -190,7 +190,7 @@ c
 ;
 }
 inline
-PRBool
+bool
 IsLowerCase
 (
 PRUnichar
@@ -276,7 +276,7 @@ A
 class
 B
 >
-PRBool
+bool
 Equals
 (
 const
@@ -337,7 +337,7 @@ const
 }
 ;
 inline
-PRBool
+bool
 CaseInsensitiveFindInReadable
 (
 const
@@ -371,7 +371,7 @@ nsCaseInsensitiveStringComparator
 ;
 }
 inline
-PRBool
+bool
 CaseInsensitiveFindInReadable
 (
 const
@@ -447,7 +447,7 @@ PRUint32
 aRightBytes
 )
 ;
-PRBool
+bool
 CaseInsensitiveUTF8CharsEqual
 (
 const
@@ -476,7 +476,7 @@ char
 *
 *
 aRightNext
-PRBool
+bool
 *
 aErr
 )

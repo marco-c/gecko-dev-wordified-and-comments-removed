@@ -210,7 +210,7 @@ aStream
 nsresult
 rv
 ;
-PRBool
+bool
 isMutable
 ;
 rv
@@ -305,7 +305,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 isRefValid
 ;
 rv
@@ -535,7 +535,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsSimpleURI
 :
 :
@@ -788,7 +788,7 @@ nsSimpleURI
 :
 GetHasRef
 (
-PRBool
+bool
 *
 result
 )
@@ -1555,7 +1555,7 @@ Equals
 nsIURI
 *
 other
-PRBool
+bool
 *
 result
 )
@@ -1578,7 +1578,7 @@ EqualsExceptRef
 nsIURI
 *
 other
-PRBool
+bool
 *
 result
 )
@@ -1606,7 +1606,7 @@ nsSimpleURI
 :
 RefHandlingEnum
 refHandlingMode
-PRBool
+bool
 *
 result
 )
@@ -1764,7 +1764,7 @@ const
 char
 *
 i_Scheme
-PRBool
+bool
 *
 o_Equals
 )
@@ -2317,7 +2317,7 @@ nsSimpleURI
 :
 GetMutable
 (
-PRBool
+bool
 *
 value
 )
@@ -2337,7 +2337,7 @@ nsSimpleURI
 :
 SetMutable
 (
-PRBool
+bool
 value
 )
 {

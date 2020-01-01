@@ -312,7 +312,7 @@ aSourceText
 nsIScriptError
 *
 aError
-PRBool
+bool
 *
 _retval
 )
@@ -327,7 +327,7 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
-PRBool
+bool
 aTerminated
 )
 ;
@@ -386,14 +386,14 @@ IgnoreFirstContainer
 NS_IMETHOD
 SetPreventScriptExecution
 (
-PRBool
+bool
 aPreventScriptExecution
 )
 ;
 protected
 :
 virtual
-PRBool
+bool
 SetDocElement
 (
 PRInt32
@@ -426,7 +426,7 @@ nsIContent
 *
 *
 aResult
-PRBool
+bool
 *
 aAppendContent
 mozilla
@@ -452,7 +452,7 @@ virtual
 void
 MaybeStartLayout
 (
-PRBool
+bool
 aIgnorePendingSheets
 )
 ;
@@ -467,7 +467,7 @@ const
 nsSubstring
 &
 aHref
-PRBool
+bool
 aAlternate
 const
 nsSubstring
@@ -508,7 +508,7 @@ nsIContent
 >
 mRoot
 ;
-PRPackedBool
+bool
 mParseError
 ;
 }
@@ -711,7 +711,7 @@ nsXMLFragmentContentSink
 :
 DidBuildModel
 (
-PRBool
+bool
 aTerminated
 )
 {
@@ -772,7 +772,7 @@ return
 mTargetDocument
 ;
 }
-PRBool
+bool
 nsXMLFragmentContentSink
 :
 :
@@ -814,7 +814,7 @@ nsIContent
 *
 *
 aResult
-PRBool
+bool
 *
 aAppendContent
 FromParser
@@ -954,7 +954,7 @@ nsXMLFragmentContentSink
 :
 MaybeStartLayout
 (
-PRBool
+bool
 aIgnorePendingSheets
 )
 {
@@ -1135,7 +1135,7 @@ aSourceText
 nsIScriptError
 *
 aError
-PRBool
+bool
 *
 _retval
 )
@@ -1294,7 +1294,7 @@ const
 nsSubstring
 &
 aHref
-PRBool
+bool
 aAlternate
 const
 nsSubstring
@@ -1578,7 +1578,7 @@ nsXMLFragmentContentSink
 :
 SetPreventScriptExecution
 (
-PRBool
+bool
 aPrevent
 )
 {

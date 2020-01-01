@@ -1300,14 +1300,14 @@ blob
 ;
 }
 inline
-PRBool
+bool
 IsNull
 (
 PRUint32
 idx
 )
 {
-PRBool
+bool
 b
 =
 PR_FALSE

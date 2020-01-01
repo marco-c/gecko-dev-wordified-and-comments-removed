@@ -95,7 +95,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 Grow
 (

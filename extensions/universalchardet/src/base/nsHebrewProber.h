@@ -137,7 +137,7 @@ endif
 protected
 :
 static
-PRBool
+bool
 isFinal
 (
 char
@@ -145,7 +145,7 @@ c
 )
 ;
 static
-PRBool
+bool
 isNonFinal
 (
 char

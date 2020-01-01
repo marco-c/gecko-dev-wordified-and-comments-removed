@@ -316,15 +316,15 @@ ToReferenceFrame
 (
 )
 ;
-PRBool
+bool
 left
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 right
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -395,7 +395,7 @@ mDirection
 NS_STYLE_DIRECTION_RTL
 )
 {
-PRBool
+bool
 tmp
 =
 left
@@ -652,7 +652,7 @@ const
 nsRect
 &
 aRect
-PRBool
+bool
 aRemoveOverflowArea
 )
 {
@@ -812,7 +812,7 @@ nsTreeColFrame
 :
 InvalidateColumns
 (
-PRBool
+bool
 aCanWalkFrameTree
 )
 {

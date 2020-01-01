@@ -149,7 +149,7 @@ Equals
 nsIHandlerApp
 *
 aHandlerApp
-PRBool
+bool
 *
 _retval
 )

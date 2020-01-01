@@ -191,11 +191,11 @@ nsTemplateMatch
 *
 &
 aMatch
-PRBool
+bool
 aRemoveResult
 )
 ;
-PRBool
+bool
 IsActive
 (
 )

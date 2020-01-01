@@ -125,7 +125,7 @@ nsSVGPathElementBase
 )
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -137,7 +137,7 @@ name
 const
 ;
 virtual
-PRBool
+bool
 AttributeDefinesGeometry
 (
 const
@@ -147,7 +147,7 @@ aName
 )
 ;
 virtual
-PRBool
+bool
 IsMarkable
 (
 )

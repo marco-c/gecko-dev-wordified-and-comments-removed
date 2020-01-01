@@ -259,7 +259,7 @@ ap
 ;
 }
 static
-PRBool
+bool
 IsArg
 (
 const

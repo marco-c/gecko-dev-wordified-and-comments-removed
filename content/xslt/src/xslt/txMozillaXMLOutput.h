@@ -108,7 +108,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aWasAlternate
 nsresult
 aStatus
@@ -189,7 +189,7 @@ mScriptElements
 PRUint32
 mPendingStylesheetCount
 ;
-PRPackedBool
+bool
 mInTransform
 ;
 }
@@ -220,7 +220,7 @@ aFormat
 nsIDOMDocumentFragment
 *
 aFragment
-PRBool
+bool
 aNoFixup
 )
 ;
@@ -234,7 +234,7 @@ TX_DECL_TXAOUTPUTXMLEVENTHANDLER
 nsresult
 closePrevious
 (
-PRBool
+bool
 aFlushText
 )
 ;
@@ -265,7 +265,7 @@ startHTMLElement
 nsIContent
 *
 aElement
-PRBool
+bool
 aXHTML
 )
 ;
@@ -400,16 +400,16 @@ mText
 txOutputFormat
 mOutputFormat
 ;
-PRPackedBool
+bool
 mCreatingNewDocument
 ;
-PRPackedBool
+bool
 mOpenedElementIsHTML
 ;
-PRPackedBool
+bool
 mRootContentCreated
 ;
-PRPackedBool
+bool
 mNoFixup
 ;
 enum

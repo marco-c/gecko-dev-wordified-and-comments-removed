@@ -430,7 +430,7 @@ code
 #
 endif
 static
-PRBool
+bool
 IsNSSErrorCode
 (
 PRErrorCode
@@ -1350,7 +1350,7 @@ nsSocketInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 nonblocking
 )
@@ -2246,7 +2246,7 @@ nsSocketOutputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 nonblocking
 )
@@ -3714,10 +3714,10 @@ PRFileDesc
 *
 &
 fd
-PRBool
+bool
 &
 proxyTransparent
-PRBool
+bool
 &
 usingSSL
 )
@@ -4073,7 +4073,7 @@ rv
 )
 break
 ;
-PRBool
+bool
 isSSL
 =
 (
@@ -4410,10 +4410,10 @@ PRFileDesc
 *
 fd
 ;
-PRBool
+bool
 proxyTransparent
 ;
-PRBool
+bool
 usingSSL
 ;
 rv
@@ -4935,7 +4935,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsSocketTransport
 :
 :
@@ -5052,10 +5052,10 @@ NS_ERROR_UNKNOWN_PROXY_HOST
 return
 PR_FALSE
 ;
-PRBool
+bool
 tryAgain
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5141,7 +5141,7 @@ if
 tryAgain
 )
 {
-PRBool
+bool
 autodialEnabled
 ;
 gSocketTransportService
@@ -6723,7 +6723,7 @@ OPEN_BLOCKING
 )
 )
 {
-PRBool
+bool
 openBlocking
 =
 (
@@ -6930,7 +6930,7 @@ OPEN_BLOCKING
 )
 )
 {
-PRBool
+bool
 openBlocking
 =
 (
@@ -7324,7 +7324,7 @@ nsSocketTransport
 :
 IsAlive
 (
-PRBool
+bool
 *
 result
 )

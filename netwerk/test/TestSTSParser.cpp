@@ -150,14 +150,14 @@ PR_FALSE
 }
 \
 PR_END_MACRO
-PRBool
+bool
 TestSuccess
 (
 const
 char
 *
 hdr
-PRBool
+bool
 extraTokens
 nsIStrictTransportSecurityService
 *
@@ -286,7 +286,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 TestFailure
 (
 const
@@ -477,7 +477,7 @@ rv1
 ;
 nsTArray
 <
-PRBool
+bool
 >
 rvs
 (

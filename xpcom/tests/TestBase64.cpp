@@ -756,7 +756,7 @@ FakeInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aIsBlocking
 )

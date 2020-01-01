@@ -573,7 +573,7 @@ nsSupportsPRBoolImpl
 :
 GetData
 (
-PRBool
+bool
 *
 aData
 )
@@ -602,7 +602,7 @@ nsSupportsPRBoolImpl
 :
 SetData
 (
-PRBool
+bool
 aData
 )
 {

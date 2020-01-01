@@ -356,7 +356,7 @@ PRUint8
 aAttrEnum
 PRUint8
 aAxis
-PRBool
+bool
 aCanZeroPadList
 )
 {
@@ -391,7 +391,7 @@ nsISMILAnimationElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

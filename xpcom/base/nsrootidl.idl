@@ -507,7 +507,7 @@ if
 }
 typedef
 boolean
-PRBool
+bool
 ;
 typedef
 octet

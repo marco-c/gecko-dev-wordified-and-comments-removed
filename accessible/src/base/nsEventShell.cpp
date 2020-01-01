@@ -180,13 +180,13 @@ false
 )
 ;
 }
-PRBool
+bool
 nsEventShell
 :
 :
 sEventFromUserInput
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

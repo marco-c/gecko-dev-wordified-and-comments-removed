@@ -204,7 +204,7 @@ PRUint32
 segsize
 PRUint32
 segcount
-PRBool
+bool
 closeWhenDone
 )
 {
@@ -562,7 +562,7 @@ nsInputStreamPump
 :
 IsPending
 (
-PRBool
+bool
 *
 result
 )
@@ -918,7 +918,7 @@ PRUint32
 segsize
 PRUint32
 segcount
-PRBool
+bool
 closeWhenDone
 )
 {
@@ -1006,7 +1006,7 @@ NS_ENSURE_ARG_POINTER
 listener
 )
 ;
-PRBool
+bool
 nonBlocking
 ;
 nsresult

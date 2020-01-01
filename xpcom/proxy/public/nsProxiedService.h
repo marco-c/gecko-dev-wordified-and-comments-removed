@@ -134,7 +134,7 @@ aIID
 nsIEventTarget
 *
 aTarget
-PRBool
+bool
 always
 nsresult
 *
@@ -184,7 +184,7 @@ aIID
 nsIEventTarget
 *
 aTarget
-PRBool
+bool
 always
 nsresult
 *
@@ -247,7 +247,7 @@ aIID
 nsIEventTarget
 *
 aTarget
-PRBool
+bool
 always
 nsresult
 *

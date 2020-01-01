@@ -1659,7 +1659,7 @@ nsSimpleUnicharStreamFactory
 :
 LockFactory
 (
-PRBool
+bool
 aLock
 )
 {

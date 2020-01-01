@@ -140,7 +140,7 @@ kSelectionClipboard
 aClipboardID
 )
 {
-PRBool
+bool
 clipboardSupported
 ;
 rv

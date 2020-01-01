@@ -227,7 +227,7 @@ Clear
 (
 )
 ;
-PRBool
+bool
 Equals
 (
 const
@@ -237,7 +237,7 @@ other
 )
 const
 ;
-PRBool
+bool
 IsEmpty
 (
 )

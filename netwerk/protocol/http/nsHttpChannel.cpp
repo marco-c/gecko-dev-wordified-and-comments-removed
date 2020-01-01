@@ -596,7 +596,7 @@ nsHttpChannel
 :
 Connect
 (
-PRBool
+bool
 firstTime
 )
 {
@@ -624,10 +624,10 @@ this
 )
 )
 ;
-PRBool
+bool
 usingSSL
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -672,10 +672,10 @@ stss
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRBool
+bool
 isStsHost
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -774,7 +774,7 @@ if
 firstTime
 )
 {
-PRBool
+bool
 offline
 =
 gIOService
@@ -1679,7 +1679,7 @@ nsHttpChannel
 ContinueHandleAsyncFallback
 )
 ;
-PRBool
+bool
 waitingForRedirectCallback
 ;
 rv
@@ -3131,10 +3131,10 @@ nsIChannel
 this
 )
 ;
-PRBool
+bool
 typeSniffersCalled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3261,7 +3261,7 @@ if
 mCacheForOfflineUse
 )
 {
-PRBool
+bool
 shouldCacheForOfflineUse
 ;
 rv
@@ -3527,7 +3527,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsHttpChannel
 :
 :
@@ -3612,10 +3612,10 @@ ProcessSTSHeader
 nsresult
 rv
 ;
-PRBool
+bool
 isHttps
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -3709,10 +3709,10 @@ mSecurityInfo
 NS_OK
 )
 ;
-PRBool
+bool
 tlsIsBroken
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -3732,7 +3732,7 @@ rv
 NS_OK
 )
 ;
-PRBool
+bool
 wasAlreadySTSHost
 ;
 rv
@@ -4593,10 +4593,10 @@ NS_ERROR_DOM_BAD_URI
 mRedirectURI
 )
 {
-PRBool
+bool
 isHTTP
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4781,7 +4781,7 @@ this
 )
 )
 ;
-PRBool
+bool
 succeeded
 ;
 rv
@@ -4813,7 +4813,7 @@ nsHttpChannel
 ContinueProcessNormal
 )
 ;
-PRBool
+bool
 waitingForRedirectCallback
 ;
 (
@@ -5241,10 +5241,10 @@ rv
 messageString
 )
 {
-PRBool
+bool
 repost
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6460,7 +6460,7 @@ mProxyRequest
 )
 ;
 }
-PRBool
+bool
 nsHttpChannel
 :
 :
@@ -7289,7 +7289,7 @@ nsHttpChannel
 :
 OnDoneReadingPartialCacheEntry
 (
-PRBool
+bool
 *
 streamDone
 )
@@ -7606,7 +7606,7 @@ nsHttpChannel
 :
 ProcessFallback
 (
-PRBool
+bool
 *
 waitingForRedirectCallback
 )
@@ -8083,7 +8083,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 IsSubRangeRequest
 (
 nsHttpRequestHead
@@ -8653,7 +8653,7 @@ nsCacheAccessMode
 aAccess
 nsresult
 aEntryStatus
-PRBool
+bool
 aIsSync
 )
 {
@@ -8966,7 +8966,7 @@ nsHttpChannel
 :
 OpenNormalCacheEntry
 (
-PRBool
+bool
 aIsSync
 )
 {
@@ -9244,7 +9244,7 @@ nsCacheAccessMode
 aAccess
 nsresult
 aEntryStatus
-PRBool
+bool
 aIsSync
 )
 {
@@ -9383,7 +9383,7 @@ open
 "
 )
 ;
-PRBool
+bool
 offline
 =
 gIOService
@@ -10130,7 +10130,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 fromPreviousSession
 =
 (
@@ -10434,7 +10434,7 @@ size
 )
 )
 ;
-PRBool
+bool
 hasContentEncoding
 =
 mCachedResponseHead
@@ -10517,15 +10517,15 @@ NS_OK
 }
 }
 }
-PRBool
+bool
 doValidation
 =
-PR_FALSE
+false
 ;
-PRBool
+bool
 canAddImsHeader
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -11346,7 +11346,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsHttpChannel
 :
 :
@@ -11468,7 +11468,7 @@ nsHttpChannel
 :
 ShouldUpdateOfflineCacheEntry
 (
-PRBool
+bool
 *
 shouldCacheForOfflineUse
 )
@@ -11771,7 +11771,7 @@ LOAD_ONLY_IF_MODIFIED
 mCachedContentIsPartial
 )
 {
-PRBool
+bool
 shouldUpdateOffline
 ;
 if
@@ -11959,7 +11959,7 @@ nsHttpChannel
 :
 CloseCacheEntry
 (
-PRBool
+bool
 doomOnFailure
 )
 {
@@ -11999,10 +11999,10 @@ mCacheAccess
 )
 )
 ;
-PRBool
+bool
 doom
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -12165,7 +12165,7 @@ Doom
 }
 else
 {
-PRBool
+bool
 succeeded
 ;
 if
@@ -13726,7 +13726,7 @@ newURI
 nsIChannel
 *
 newChannel
-PRBool
+bool
 preserveMethod
 )
 {
@@ -14077,7 +14077,7 @@ nsHttpChannel
 ContinueProcessRedirectionAfterFallback
 )
 ;
-PRBool
+bool
 waitingForRedirectCallback
 ;
 (
@@ -14231,10 +14231,10 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 redirectingBackToSameURI
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -14330,7 +14330,7 @@ ref
 ;
 }
 }
-PRBool
+bool
 preserveMethod
 =
 (
@@ -14751,7 +14751,7 @@ nsHttpChannel
 :
 OnAuthCancelled
 (
-PRBool
+bool
 userCancel
 )
 {
@@ -15843,7 +15843,7 @@ nsHttpChannel
 :
 SetTimingEnabled
 (
-PRBool
+bool
 enabled
 )
 {
@@ -15861,7 +15861,7 @@ nsHttpChannel
 :
 GetTimingEnabled
 (
-PRBool
+bool
 *
 _retval
 )
@@ -16449,7 +16449,7 @@ nsHttpChannel
 :
 GetIsSSL
 (
-PRBool
+bool
 *
 aIsSSL
 )
@@ -16474,7 +16474,7 @@ nsHttpChannel
 :
 GetProxyMethodIsConnect
 (
-PRBool
+bool
 *
 aProxyMethodIsConnect
 )
@@ -17091,7 +17091,7 @@ nsHttpChannel
 ContinueOnStartRequest3
 )
 ;
-PRBool
+bool
 waitingForRedirectCallback
 ;
 ProcessFallback
@@ -17218,7 +17218,7 @@ Now
 )
 ;
 }
-PRBool
+bool
 contentComplete
 =
 NS_SUCCEEDED
@@ -17277,7 +17277,7 @@ request
 mCachePump
 )
 {
-PRBool
+bool
 streamDone
 ;
 status
@@ -17338,7 +17338,7 @@ if
 mTransaction
 )
 {
-PRBool
+bool
 authRetry
 =
 mAuthRetryPending
@@ -18248,7 +18248,7 @@ nsHttpChannel
 :
 IsFromCache
 (
-PRBool
+bool
 *
 value
 )
@@ -18985,7 +18985,7 @@ nsHttpChannel
 :
 GetCacheAsFile
 (
-PRBool
+bool
 *
 value
 )
@@ -19038,7 +19038,7 @@ nsHttpChannel
 :
 SetCacheAsFile
 (
-PRBool
+bool
 value
 )
 {
@@ -19093,7 +19093,7 @@ nsHttpChannel
 :
 GetCacheForOfflineUse
 (
-PRBool
+bool
 *
 value
 )
@@ -19113,7 +19113,7 @@ nsHttpChannel
 :
 SetCacheForOfflineUse
 (
-PRBool
+bool
 value
 )
 {
@@ -19719,7 +19719,7 @@ nsHttpChannel
 :
 GetLoadedFromApplicationCache
 (
-PRBool
+bool
 *
 aLoadedFromApplicationCache
 )
@@ -19739,7 +19739,7 @@ nsHttpChannel
 :
 GetInheritApplicationCache
 (
-PRBool
+bool
 *
 aInherit
 )
@@ -19759,7 +19759,7 @@ nsHttpChannel
 :
 SetInheritApplicationCache
 (
-PRBool
+bool
 aInherit
 )
 {
@@ -19784,7 +19784,7 @@ nsHttpChannel
 :
 GetChooseApplicationCache
 (
-PRBool
+bool
 *
 aChoose
 )
@@ -19804,7 +19804,7 @@ nsHttpChannel
 :
 SetChooseApplicationCache
 (
-PRBool
+bool
 aChoose
 )
 {
@@ -20792,7 +20792,7 @@ nsCacheAccessMode
 _retval
 )
 {
-PRBool
+bool
 offline
 =
 gIOService

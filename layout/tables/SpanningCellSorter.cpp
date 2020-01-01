@@ -146,7 +146,7 @@ key
 )
 ;
 }
-PRBool
+bool
 SpanningCellSorter
 :
 :
@@ -193,7 +193,7 @@ entry
 mColSpan
 ;
 }
-PRBool
+bool
 SpanningCellSorter
 :
 :

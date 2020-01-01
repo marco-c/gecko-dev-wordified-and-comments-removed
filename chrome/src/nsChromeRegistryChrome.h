@@ -82,7 +82,7 @@ const
 nsACString
 &
 package
-PRBool
+bool
 *
 aResult
 )
@@ -246,7 +246,7 @@ key
 )
 ;
 static
-PRBool
+bool
 MatchKey
 (
 PLDHashTable
@@ -275,7 +275,7 @@ entry
 )
 ;
 static
-PRBool
+bool
 InitEntry
 (
 PLDHashTable
@@ -577,7 +577,7 @@ OverlayListHash
 )
 {
 }
-PRBool
+bool
 Init
 (
 )
@@ -642,7 +642,7 @@ mOverlayHash
 OverlayListHash
 mStyleHash
 ;
-PRBool
+bool
 mProfileLoaded
 ;
 nsCString

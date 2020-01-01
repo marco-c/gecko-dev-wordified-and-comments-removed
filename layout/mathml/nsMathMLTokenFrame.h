@@ -136,7 +136,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-PRBool
+bool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
@@ -221,7 +221,7 @@ ProcessTextData
 (
 )
 ;
-PRBool
+bool
 SetTextStyle
 (
 )
@@ -229,7 +229,7 @@ SetTextStyle
 void
 SetQuotes
 (
-PRBool
+bool
 aNotify
 )
 ;

@@ -188,7 +188,7 @@ mInput
 PRUint32
 mStartOffset
 ;
-PRBool
+bool
 mInitialized
 ;
 public
@@ -284,7 +284,7 @@ mOutput
 PRUint32
 mStartOffset
 ;
-PRBool
+bool
 mInitialized
 ;
 public

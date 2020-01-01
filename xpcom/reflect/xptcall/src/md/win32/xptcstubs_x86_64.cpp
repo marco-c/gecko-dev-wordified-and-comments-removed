@@ -694,10 +694,10 @@ dp
 >
 val
 .
-f
+d
 =
 (
-float
+double
 )
 fprData
 [
@@ -797,7 +797,7 @@ val
 b
 =
 (
-PRBool
+bool
 )
 gprData
 [
@@ -817,7 +817,7 @@ b
 *
 (
 (
-PRBool
+bool
 *
 )
 ap

@@ -158,7 +158,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGPolyElement
 :
@@ -206,7 +206,7 @@ name
 )
 ;
 }
-PRBool
+bool
 nsSVGPolyElement
 :
 :

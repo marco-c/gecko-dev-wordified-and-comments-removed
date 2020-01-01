@@ -106,7 +106,7 @@ mPtr
 ref
 ;
 }
-PRBool
+bool
 operator
 =
 =
@@ -205,7 +205,7 @@ aArray
 nsISupports
 *
 aElement
-PRBool
+bool
 aWeak
 )
 ;
@@ -245,7 +245,7 @@ AppendWeakElement
 T
 *
 aElement
-PRBool
+bool
 aOwnsWeak
 )
 {

@@ -1097,7 +1097,7 @@ nsCocoaUtils
 :
 HideOSChromeOnScreen
 (
-PRBool
+bool
 aShouldHide
 NSScreen
 *
@@ -2628,6 +2628,6 @@ aPluginEvent
 .
 retargetToFocusedDocument
 =
-PR_FALSE
+false
 ;
 }

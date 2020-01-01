@@ -52,7 +52,7 @@ char
 *
 *
 aResponse
-PRBool
+bool
 *
 aSucceeded
 )
@@ -89,7 +89,7 @@ char
 *
 *
 aResponse
-PRBool
+bool
 *
 aSucceeded
 )

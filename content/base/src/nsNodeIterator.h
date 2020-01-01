@@ -65,7 +65,7 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-PRBool
+bool
 aExpandEntityReferences
 )
 ;
@@ -103,12 +103,12 @@ NodePointer
 nsINode
 *
 aNode
-PRBool
+bool
 aBeforeNode
 )
 ;
 typedef
-PRBool
+bool
 (
 NodePointer
 :
@@ -121,7 +121,7 @@ nsINode
 *
 )
 ;
-PRBool
+bool
 MoveToNext
 (
 nsINode
@@ -129,7 +129,7 @@ nsINode
 aRoot
 )
 ;
-PRBool
+bool
 MoveToPrevious
 (
 nsINode
@@ -137,7 +137,7 @@ nsINode
 aRoot
 )
 ;
-PRBool
+bool
 MoveForward
 (
 nsINode
@@ -190,7 +190,7 @@ nsINode
 *
 mNode
 ;
-PRBool
+bool
 mBeforeNode
 ;
 }
@@ -210,7 +210,7 @@ nsIDOMNode
 _retval
 )
 ;
-PRBool
+bool
 mDetached
 ;
 NodePointer

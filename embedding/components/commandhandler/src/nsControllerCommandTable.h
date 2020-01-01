@@ -55,7 +55,7 @@ protected
 nsSupportsHashtable
 mCommandsTable
 ;
-PRBool
+bool
 mMutable
 ;
 }

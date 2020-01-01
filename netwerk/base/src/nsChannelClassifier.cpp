@@ -178,7 +178,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasFlags
 ;
 rv
@@ -322,7 +322,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 expectCallback
 ;
 rv
@@ -511,7 +511,7 @@ nsnull
 )
 ;
 }
-PRBool
+bool
 nsChannelClassifier
 :
 :
@@ -543,7 +543,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 fromCache
 ;
 if

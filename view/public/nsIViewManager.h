@@ -153,7 +153,7 @@ aHeight
 NS_IMETHOD
 FlushDelayedResize
 (
-PRBool
+bool
 aDoReflow
 )
 =
@@ -232,7 +232,7 @@ aChild
 nsIView
 *
 aSibling
-PRBool
+bool
 aAfter
 )
 =
@@ -272,10 +272,10 @@ const
 nsRect
 &
 aRect
-PRBool
+bool
 aRepaintExposedAreaOnly
 =
-PR_FALSE
+false
 )
 =
 0
@@ -298,14 +298,14 @@ SetViewZIndex
 nsIView
 *
 aView
-PRBool
+bool
 aAutoZIndex
 PRInt32
 aZindex
-PRBool
+bool
 aTopMost
 =
-PR_FALSE
+false
 )
 =
 0
@@ -316,7 +316,7 @@ SetViewFloating
 nsIView
 *
 aView
-PRBool
+bool
 aFloatingView
 )
 =
@@ -548,7 +548,7 @@ ForceUpdate
 NS_IMETHOD
 IsPainting
 (
-PRBool
+bool
 &
 aIsPainting
 )

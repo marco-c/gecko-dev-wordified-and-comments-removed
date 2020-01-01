@@ -314,10 +314,10 @@ if
 sink
 )
 {
-PRBool
+bool
 enabled
 =
-PR_TRUE
+true
 ;
 sink
 -
@@ -569,7 +569,7 @@ nsHTMLTokenizer
 :
 WillTokenize
 (
-PRBool
+bool
 aIsFinalChunk
 nsTokenAllocator
 *
@@ -773,7 +773,7 @@ nsHTMLTokenizer
 :
 ScanDocStructure
 (
-PRBool
+bool
 aFinalChunk
 )
 {
@@ -946,7 +946,7 @@ theTag
 )
 )
 {
-PRBool
+bool
 theTagIsBlock
 =
 gHTMLElements
@@ -959,7 +959,7 @@ IsMemberOf
 kBlockEntity
 )
 ;
-PRBool
+bool
 theTagIsInline
 =
 theTagIsBlock
@@ -1310,7 +1310,7 @@ nsHTMLTokenizer
 :
 DidTokenize
 (
-PRBool
+bool
 aFinalChunk
 )
 {
@@ -1330,7 +1330,7 @@ ConsumeToken
 nsScanner
 &
 aScanner
-PRBool
+bool
 &
 aFlushTokens
 )
@@ -1519,7 +1519,7 @@ aToken
 nsScanner
 &
 aScanner
-PRBool
+bool
 &
 aFlushTokens
 )
@@ -1580,7 +1580,7 @@ GetChar
 oldChar
 )
 ;
-PRBool
+bool
 isXML
 =
 !
@@ -1738,7 +1738,7 @@ break
 ;
 default
 :
-PRBool
+bool
 isXML
 =
 !
@@ -1851,10 +1851,10 @@ nsScanner
 aScanner
 )
 {
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 nsresult
 result
@@ -2167,7 +2167,7 @@ aToken
 nsScanner
 &
 aScanner
-PRBool
+bool
 &
 aFlushTokens
 )
@@ -2333,7 +2333,7 @@ NS_IPARSER_FLAG_XML
 )
 )
 {
-PRBool
+bool
 isCDATA
 =
 gHTMLElements
@@ -2346,7 +2346,7 @@ CanContainType
 kCDATA
 )
 ;
-PRBool
+bool
 isPCDATA
 =
 eHTMLTag_textarea
@@ -2446,10 +2446,10 @@ isCDATA
 isPCDATA
 )
 {
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 nsDependentString
 endTagName

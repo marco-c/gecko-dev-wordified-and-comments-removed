@@ -120,7 +120,7 @@ return
 mKey
 ;
 }
-PRBool
+bool
 KeyEquals
 (
 const
@@ -130,7 +130,7 @@ aKey
 )
 const
 {
-PRBool
+bool
 eq
 ;
 if

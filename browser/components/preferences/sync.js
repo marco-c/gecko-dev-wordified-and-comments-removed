@@ -696,7 +696,7 @@ openSetup
 :
 function
 (
-resetSync
+wizardType
 )
 {
 var
@@ -754,7 +754,7 @@ resizable
 =
 no
 "
-resetSync
+wizardType
 )
 ;
 }
@@ -906,7 +906,9 @@ this
 .
 openSetup
 (
-true
+"
+reset
+"
 )
 ;
 }

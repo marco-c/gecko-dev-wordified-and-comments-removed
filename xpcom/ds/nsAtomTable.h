@@ -109,12 +109,12 @@ PR_UINT32_MAX
 }
 ;
 virtual
-PRBool
+bool
 IsPermanent
 (
 )
 ;
-PRBool
+bool
 IsPermanentInDestructor
 (
 )
@@ -202,7 +202,7 @@ Release
 )
 ;
 virtual
-PRBool
+bool
 IsPermanent
 (
 )

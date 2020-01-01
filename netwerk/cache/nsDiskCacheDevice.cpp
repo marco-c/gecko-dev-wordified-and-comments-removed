@@ -331,7 +331,7 @@ PR_TRUE
 }
 private
 :
-PRBool
+bool
 mCanceled
 ;
 nsCacheEntry
@@ -1919,7 +1919,7 @@ if
 trashDir
 )
 {
-PRBool
+bool
 exists
 ;
 if
@@ -1958,7 +1958,7 @@ nsDiskCacheDevice
 :
 Shutdown_Private
 (
-PRBool
+bool
 flush
 )
 {
@@ -2052,7 +2052,7 @@ FindEntry
 nsCString
 *
 key
-PRBool
+bool
 *
 collision
 )
@@ -3975,7 +3975,7 @@ ref
 entryInfo
 )
 ;
-PRBool
+bool
 keepGoing
 ;
 (
@@ -4052,7 +4052,7 @@ ref
 deviceInfo
 )
 ;
-PRBool
+bool
 keepGoing
 ;
 nsresult
@@ -4294,7 +4294,7 @@ NETWORK_DISK_CACHE_OPEN
 >
 timer
 ;
-PRBool
+bool
 exists
 ;
 nsresult
@@ -4319,10 +4319,10 @@ rv
 return
 rv
 ;
-PRBool
+bool
 trashing
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4498,7 +4498,7 @@ if
 trashDir
 )
 {
-PRBool
+bool
 exists
 ;
 if
@@ -4688,7 +4688,7 @@ parentDir
 nsresult
 rv
 ;
-PRBool
+bool
 exists
 ;
 if

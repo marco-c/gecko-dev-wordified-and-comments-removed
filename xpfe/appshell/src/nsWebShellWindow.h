@@ -97,7 +97,7 @@ PRInt32
 aInitialWidth
 PRInt32
 aInitialHeight
-PRBool
+bool
 aIsHiddenWindow
 nsWidgetInitData
 &
@@ -140,7 +140,7 @@ LoadContentAreas
 (
 )
 ;
-PRBool
+bool
 ExecuteCloseHandler
 (
 )

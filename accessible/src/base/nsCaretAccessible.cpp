@@ -1356,7 +1356,7 @@ caretSelection
 caretRect
 )
 ;
-PRBool
+bool
 isVisible
 ;
 caret

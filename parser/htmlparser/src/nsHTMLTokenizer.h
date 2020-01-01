@@ -133,7 +133,7 @@ aToken
 nsScanner
 &
 aScanner
-PRBool
+bool
 &
 aFlushTokens
 )
@@ -150,7 +150,7 @@ aToken
 nsScanner
 &
 aScanner
-PRBool
+bool
 &
 aFlushTokens
 )
@@ -281,7 +281,7 @@ aScanner
 nsresult
 ScanDocStructure
 (
-PRBool
+bool
 aIsFinalChunk
 )
 ;
@@ -306,7 +306,7 @@ aTokenAllocator
 nsDeque
 mTokenDeque
 ;
-PRPackedBool
+bool
 mIsFinalChunk
 ;
 nsTokenAllocator

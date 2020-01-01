@@ -297,7 +297,7 @@ pointer
 "
 )
 ;
-PRBool
+bool
 suspendWorker
 ;
 {
@@ -377,10 +377,10 @@ pointer
 "
 )
 ;
-PRBool
+bool
 removeFromThreadService
 =
-PR_FALSE
+false
 ;
 {
 ReentrantMonitorAutoEnter

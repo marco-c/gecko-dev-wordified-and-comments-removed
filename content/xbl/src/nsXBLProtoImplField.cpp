@@ -301,7 +301,7 @@ aPrincipal
 nsIURI
 *
 aBindingDocURI
-PRBool
+bool
 *
 aDidInstall
 )
@@ -401,7 +401,7 @@ pending
 "
 )
 ;
-PRBool
+bool
 undefined
 ;
 nsCOMPtr

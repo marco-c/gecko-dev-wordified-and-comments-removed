@@ -399,7 +399,7 @@ sEnumInfo
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsSVGMaskElement
 :
@@ -427,6 +427,7 @@ sFEFloodMap
 sFiltersMap
 sFontSpecificationMap
 sGradientStopMap
+sGraphicsMap
 sMarkersMap
 sTextContentElementsMap
 sViewportsMap

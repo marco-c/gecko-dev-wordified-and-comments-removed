@@ -68,7 +68,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_IWORDBREAKER_IID
 )
 virtual
-PRBool
+bool
 BreakInBetween
 (
 const

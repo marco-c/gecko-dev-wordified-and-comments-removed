@@ -615,7 +615,7 @@ title
 =
 "
 &
-addDevice
+pairDevice
 .
 title
 .
@@ -793,7 +793,7 @@ label
 =
 "
 &
-addDevice
+pairDevice
 .
 title
 .
@@ -815,7 +815,7 @@ onPageShow
 description
 >
 &
-addDevice
+pairDevice
 .
 dialog
 .
@@ -1041,11 +1041,7 @@ vbox
 id
 =
 "
-add
--
-device
--
-throbber
+pairDeviceThrobber
 "
 align
 =

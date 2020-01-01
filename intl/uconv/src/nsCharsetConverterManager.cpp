@@ -834,7 +834,7 @@ enumerator
 )
 )
 ;
-PRBool
+bool
 hasMore
 ;
 while

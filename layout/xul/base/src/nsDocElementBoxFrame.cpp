@@ -200,7 +200,7 @@ aFilter
 )
 ;
 virtual
-PRBool
+bool
 IsFrameOfType
 (
 PRUint32

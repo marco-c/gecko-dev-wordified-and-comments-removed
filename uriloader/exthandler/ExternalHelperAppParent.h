@@ -139,7 +139,7 @@ nsCString
 &
 aContentDisposition
 const
-PRBool
+bool
 &
 aForceSave
 const
@@ -171,7 +171,7 @@ nsIURI
 >
 mURI
 ;
-PRBool
+bool
 mPending
 ;
 nsLoadFlags

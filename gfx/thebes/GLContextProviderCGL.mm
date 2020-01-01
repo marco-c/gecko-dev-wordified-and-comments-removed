@@ -520,10 +520,10 @@ namespace
 gl
 {
 static
-PRBool
+bool
 gUseDoubleBufferedWindows
 =
-PR_TRUE
+true
 ;
 class
 CGLLibrary
@@ -548,7 +548,7 @@ nsnull
 )
 {
 }
-PRBool
+bool
 EnsureInitialized
 (
 )
@@ -669,6 +669,7 @@ attribs
 =
 {
 NSOpenGLPFAAccelerated
+NSOpenGLPFAAllowOfflineRenderers
 NSOpenGLPFADoubleBuffer
 (
 NSOpenGLPixelFormatAttribute
@@ -684,7 +685,7 @@ gUseDoubleBufferedWindows
 {
 attribs
 [
-1
+2
 ]
 =
 (
@@ -712,7 +713,7 @@ mPixelFormat
 }
 private
 :
-PRBool
+bool
 mInitialized
 ;
 PRLibrary
@@ -752,10 +753,10 @@ aShareContext
 NSOpenGLContext
 *
 aContext
-PRBool
+bool
 aIsOffscreen
 =
-PR_FALSE
+false
 )
 :
 GLContext
@@ -852,7 +853,7 @@ return
 ContextTypeCGL
 ;
 }
-PRBool
+bool
 Init
 (
 )
@@ -897,13 +898,13 @@ nsnull
 ;
 }
 }
-PRBool
+bool
 MakeCurrentImpl
 (
-PRBool
+bool
 aForce
 =
-PR_FALSE
+false
 )
 {
 if
@@ -940,7 +941,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 SetupLookupFunction
 (
 )
@@ -949,7 +950,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 IsDoubleBuffered
 (
 )
@@ -958,7 +959,7 @@ return
 gUseDoubleBufferedWindows
 ;
 }
-PRBool
+bool
 SwapBuffers
 (
 )
@@ -972,7 +973,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 BindTex2DOffscreen
 (
 GLContext
@@ -988,7 +989,7 @@ GLContext
 aOffscreen
 )
 ;
-PRBool
+bool
 ResizeOffscreen
 (
 const
@@ -1035,7 +1036,7 @@ mTempTextureName
 ;
 }
 ;
-PRBool
+bool
 GLContextCGL
 :
 :
@@ -1308,7 +1309,7 @@ mTempTextureName
 ;
 }
 }
-PRBool
+bool
 GLContextCGL
 :
 :
@@ -2112,10 +2113,10 @@ const
 ContextFormat
 &
 aFormat
-PRBool
+bool
 aShare
 =
-PR_FALSE
+false
 )
 {
 if
@@ -2523,10 +2524,10 @@ const
 ContextFormat
 &
 aFormat
-PRBool
+bool
 aShare
 =
-PR_TRUE
+true
 )
 {
 if

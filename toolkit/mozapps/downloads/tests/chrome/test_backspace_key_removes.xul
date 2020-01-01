@@ -1437,6 +1437,12 @@ downloadView
 "
 )
 ;
+richlistbox
+.
+selectedIndex
+=
+0
+;
 is
 (
 stmt

@@ -398,7 +398,7 @@ mUpdateInterval
 =
 value
 ;
-PRBool
+bool
 bvalue
 ;
 rv
@@ -1034,10 +1034,10 @@ nsIDOMEvent
 >
 event
 ;
-PRBool
+bool
 defaultActionEnabled
 =
-PR_TRUE
+true
 ;
 domdoc
 -
@@ -1155,10 +1155,10 @@ nsIDOMEvent
 >
 event
 ;
-PRBool
+bool
 defaultActionEnabled
 =
-PR_TRUE
+true
 ;
 domdoc
 -

@@ -24,10 +24,10 @@ url
 nsISupports
 *
 params
-PRBool
+bool
 modal
 =
-PR_TRUE
+true
 )
 ;
 }

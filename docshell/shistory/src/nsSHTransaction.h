@@ -49,7 +49,7 @@ nsSHTransaction
 ;
 protected
 :
-PRBool
+bool
 mPersist
 ;
 nsISHTransaction

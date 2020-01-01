@@ -629,7 +629,7 @@ RemoveValueAt
 (
 PRInt32
 aRowIndex
-PRBool
+bool
 aRemoveFromDb
 )
 {

@@ -164,7 +164,7 @@ aResult
 0
 ;
 virtual
-PRBool
+bool
 GetWidgetPadding
 (
 nsDeviceContext
@@ -183,7 +183,7 @@ aResult
 0
 ;
 virtual
-PRBool
+bool
 GetWidgetOverflow
 (
 nsDeviceContext
@@ -217,7 +217,7 @@ aWidgetType
 nsIntSize
 *
 aResult
-PRBool
+bool
 *
 aIsOverridable
 )
@@ -260,7 +260,7 @@ aWidgetType
 nsIAtom
 *
 aAttribute
-PRBool
+bool
 *
 aShouldRepaint
 )
@@ -275,7 +275,7 @@ ThemeChanged
 0
 ;
 virtual
-PRBool
+bool
 ThemeSupportsWidget
 (
 nsPresContext
@@ -291,7 +291,7 @@ aWidgetType
 0
 ;
 virtual
-PRBool
+bool
 WidgetIsContainer
 (
 PRUint8
@@ -301,7 +301,7 @@ aWidgetType
 0
 ;
 virtual
-PRBool
+bool
 ThemeDrawsFocusForWidget
 (
 nsPresContext
@@ -317,7 +317,7 @@ aWidgetType
 0
 ;
 virtual
-PRBool
+bool
 ThemeNeedsComboboxDropmarker
 (
 )

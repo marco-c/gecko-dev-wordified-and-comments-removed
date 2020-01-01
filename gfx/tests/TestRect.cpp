@@ -30,7 +30,7 @@ class
 RectType
 >
 static
-PRBool
+bool
 TestConstructors
 (
 )
@@ -204,7 +204,7 @@ class
 RectType
 >
 static
-PRBool
+bool
 TestEqualityOperator
 (
 )
@@ -338,7 +338,7 @@ class
 RectType
 >
 static
-PRBool
+bool
 TestContainment
 (
 )
@@ -739,7 +739,7 @@ class
 RectType
 >
 static
-PRBool
+bool
 TestIntersects
 (
 )
@@ -1304,7 +1304,7 @@ class
 RectType
 >
 static
-PRBool
+bool
 TestIntersection
 (
 )
@@ -2338,7 +2338,7 @@ class
 RectType
 >
 static
-PRBool
+bool
 TestUnion
 (
 )

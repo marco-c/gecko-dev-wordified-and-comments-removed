@@ -511,10 +511,10 @@ Run
 #
 ifdef
 DEBUG
-PRBool
+bool
 rightThread
 =
-PR_FALSE
+false
 ;
 mTarget
 -
@@ -591,7 +591,7 @@ nsresult
 mResult
 ;
 volatile
-PRBool
+bool
 mDone
 ;
 }
@@ -1937,7 +1937,7 @@ nsDOMWorkerXHRProxy
 :
 AddRemoveXHRListeners
 (
-PRBool
+bool
 aAdd
 )
 {
@@ -2335,7 +2335,7 @@ HandleWorkerEvent
 nsDOMWorkerXHREvent
 *
 aEvent
-PRBool
+bool
 aUploadEvent
 )
 {
@@ -2544,7 +2544,7 @@ nsnull
 )
 ;
 }
-PRBool
+bool
 nsDOMWorkerXHRProxy
 :
 :
@@ -2881,7 +2881,7 @@ nsDOMWorkerXHRProxy
 :
 MaybeDispatchPrematureAbortEvents
 (
-PRBool
+bool
 aFromOpen
 )
 {
@@ -3079,7 +3079,7 @@ GetListenerTypeFromString
 typeString
 )
 ;
-PRBool
+bool
 isUpload
 =
 IsUploadEvent
@@ -3142,7 +3142,7 @@ nsDOMWorkerXHRFinishSyncXHRRunnable
 >
 syncFinishedRunnable
 ;
-PRBool
+bool
 requestDone
 ;
 if
@@ -3641,7 +3641,7 @@ const
 nsACString
 &
 aUrl
-PRBool
+bool
 aAsync
 const
 nsAString
@@ -4143,7 +4143,7 @@ nsDOMWorkerXHRProxy
 :
 GetMultipart
 (
-PRBool
+bool
 *
 aMultipart
 )
@@ -4185,7 +4185,7 @@ nsDOMWorkerXHRProxy
 :
 SetMultipart
 (
-PRBool
+bool
 aMultipart
 )
 {
@@ -4207,7 +4207,7 @@ nsDOMWorkerXHRProxy
 :
 GetWithCredentials
 (
-PRBool
+bool
 *
 aWithCredentials
 )
@@ -4230,7 +4230,7 @@ nsDOMWorkerXHRProxy
 :
 SetWithCredentials
 (
-PRBool
+bool
 aWithCredentials
 )
 {

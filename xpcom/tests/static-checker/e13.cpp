@@ -1,6 +1,6 @@
 typedef
 int
-PRBool
+bool
 ;
 typedef
 int

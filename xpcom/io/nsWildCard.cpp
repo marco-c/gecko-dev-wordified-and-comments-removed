@@ -790,7 +790,7 @@ const
 T
 *
 expr
-PRBool
+bool
 case_insensitive
 unsigned
 int
@@ -1003,7 +1003,7 @@ const
 T
 *
 expr
-PRBool
+bool
 case_insensitive
 unsigned
 int
@@ -1341,7 +1341,7 @@ const
 T
 *
 expr
-PRBool
+bool
 case_insensitive
 unsigned
 int
@@ -2124,7 +2124,7 @@ const
 T
 *
 xp
-PRBool
+bool
 case_insensitive
 )
 {
@@ -2393,7 +2393,7 @@ const
 T
 *
 expr
-PRBool
+bool
 case_insensitive
 )
 {
@@ -2442,7 +2442,7 @@ const
 char
 *
 xp
-PRBool
+bool
 case_insensitive
 )
 {
@@ -2466,7 +2466,7 @@ const
 PRUnichar
 *
 xp
-PRBool
+bool
 case_insensitive
 )
 {

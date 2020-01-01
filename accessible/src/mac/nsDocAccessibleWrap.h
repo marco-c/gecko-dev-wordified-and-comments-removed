@@ -39,7 +39,7 @@ nsDocAccessibleWrap
 )
 ;
 virtual
-PRBool
+bool
 Init
 (
 )

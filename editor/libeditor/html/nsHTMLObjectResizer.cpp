@@ -2107,7 +2107,7 @@ true
 )
 )
 ;
-PRBool
+bool
 preserveRatio
 =
 nsHTMLEditUtils
@@ -2131,7 +2131,7 @@ resizing
 .
 preserve_ratio
 "
-PR_TRUE
+true
 )
 ;
 nsAutoString
@@ -2468,10 +2468,10 @@ nsIDOMEvent
 aEvent
 )
 {
-PRBool
+bool
 anonElement
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2696,7 +2696,7 @@ PRInt32
 aW
 PRInt32
 aH
-PRBool
+bool
 aPreserveRatio
 )
 {
@@ -3150,10 +3150,10 @@ res
 res
 )
 ;
-PRBool
+bool
 hasClass
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4092,7 +4092,7 @@ aX
 aY
 )
 ;
-PRBool
+bool
 setWidth
 =
 !
@@ -4106,7 +4106,7 @@ width
 mResizedObjectWidth
 )
 ;
-PRBool
+bool
 setHeight
 =
 !
@@ -4156,7 +4156,7 @@ mResizedObjectMarginTop
 0
 )
 ;
-PRBool
+bool
 useCSS
 ;
 GetIsCSSEnabled
@@ -4187,10 +4187,10 @@ height
 "
 )
 ;
-PRBool
+bool
 hasAttr
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4567,7 +4567,7 @@ nsHTMLEditor
 :
 GetObjectResizingEnabled
 (
-PRBool
+bool
 *
 aIsObjectResizingEnabled
 )
@@ -4587,7 +4587,7 @@ nsHTMLEditor
 :
 SetObjectResizingEnabled
 (
-PRBool
+bool
 aObjectResizingEnabled
 )
 {

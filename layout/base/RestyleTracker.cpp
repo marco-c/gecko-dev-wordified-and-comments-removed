@@ -818,7 +818,7 @@ data
 #
 ifdef
 DEBUG
-PRBool
+bool
 found
 =
 #
@@ -1095,7 +1095,7 @@ VerifyStyleTree
 #
 endif
 }
-PRBool
+bool
 RestyleTracker
 :
 :
@@ -1177,7 +1177,7 @@ PR_FALSE
 #
 ifdef
 DEBUG
-PRBool
+bool
 gotData
 =
 #

@@ -49,7 +49,7 @@ AddRefAtoms
 )
 ;
 static
-PRBool
+bool
 IsPseudoElement
 (
 nsIAtom
@@ -58,7 +58,7 @@ aAtom
 )
 ;
 static
-PRBool
+bool
 IsCSS2PseudoElement
 (
 nsIAtom
@@ -67,7 +67,7 @@ aAtom
 )
 ;
 static
-PRBool
+bool
 PseudoElementContainsElements
 (
 nsIAtom
@@ -177,7 +177,7 @@ aAtom
 )
 ;
 static
-PRBool
+bool
 PseudoElementHasFlags
 (
 nsIAtom

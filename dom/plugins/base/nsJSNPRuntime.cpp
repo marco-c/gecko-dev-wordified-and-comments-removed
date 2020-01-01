@@ -1072,7 +1072,7 @@ scx
 >
 ScriptEvaluated
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2270,7 +2270,7 @@ cx
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2295,7 +2295,7 @@ NP_HasMethod
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsJSObjWrapper
@@ -2338,7 +2338,7 @@ mJSObj
 )
 )
 return
-PR_FALSE
+false
 ;
 AutoJSExceptionReporter
 reporter
@@ -2402,7 +2402,7 @@ NPVariant
 args
 uint32_t
 argCount
-PRBool
+bool
 ctorCall
 NPVariant
 *
@@ -2435,7 +2435,7 @@ cx
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2463,7 +2463,7 @@ doInvoke
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 VOID_TO_NPVARIANT
@@ -2515,7 +2515,7 @@ mJSObj
 )
 )
 return
-PR_FALSE
+false
 ;
 AutoJSExceptionReporter
 reporter
@@ -2560,7 +2560,7 @@ JSTYPE_FUNCTION
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2636,7 +2636,7 @@ cx
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2831,7 +2831,7 @@ NPIdentifier_VOID
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -2841,7 +2841,7 @@ npobj
 method
 args
 argCount
-PR_FALSE
+false
 result
 )
 ;
@@ -2873,7 +2873,7 @@ npobj
 NPIdentifier_VOID
 args
 argCount
-PR_FALSE
+false
 result
 )
 ;
@@ -2917,7 +2917,7 @@ cx
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2942,7 +2942,7 @@ NP_HasProperty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsJSObjWrapper
@@ -2997,7 +2997,7 @@ mJSObj
 )
 )
 return
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -3093,7 +3093,7 @@ cx
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3118,7 +3118,7 @@ NP_GetProperty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsJSObjWrapper
@@ -3167,7 +3167,7 @@ mJSObj
 )
 )
 return
-PR_FALSE
+false
 ;
 jsval
 v
@@ -3240,7 +3240,7 @@ cx
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3265,7 +3265,7 @@ NP_SetProperty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsJSObjWrapper
@@ -3319,7 +3319,7 @@ mJSObj
 )
 )
 return
-PR_FALSE
+false
 ;
 jsval
 v
@@ -3432,7 +3432,7 @@ cx
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3457,7 +3457,7 @@ NP_RemoveProperty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsJSObjWrapper
@@ -3516,7 +3516,7 @@ mJSObj
 )
 )
 return
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -3677,7 +3677,7 @@ cx
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3702,7 +3702,7 @@ NP_Enumerate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsJSObjWrapper
@@ -3751,7 +3751,7 @@ mJSObj
 )
 )
 return
-PR_FALSE
+false
 ;
 JSIdArray
 *
@@ -3775,7 +3775,7 @@ ida
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -3833,7 +3833,7 @@ ida
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -3891,7 +3891,7 @@ idarray
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NPIdentifier
@@ -3939,7 +3939,7 @@ idarray
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 id
@@ -4007,7 +4007,7 @@ ida
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4037,7 +4037,7 @@ npobj
 NPIdentifier_VOID
 args
 argCount
-PR_TRUE
+true
 result
 )
 ;
@@ -4111,7 +4111,7 @@ mNpp
 ;
 }
 static
-PRBool
+bool
 JSObjWrapperHashMatchEntry
 (
 PLDHashTable
@@ -5397,7 +5397,7 @@ pdg
 npp
 )
 ;
-PRBool
+bool
 hasProperty
 hasMethod
 ;
@@ -5694,7 +5694,7 @@ argv
 jsval
 *
 rval
-PRBool
+bool
 ctorCall
 )
 {
@@ -6365,7 +6365,7 @@ cx
 vp
 )
 vp
-PR_FALSE
+false
 )
 ;
 }
@@ -6851,7 +6851,7 @@ JSIdToNPIdentifier
 id
 )
 ;
-PRBool
+bool
 hasProperty
 =
 npobj
@@ -6938,7 +6938,7 @@ return
 JS_TRUE
 ;
 }
-PRBool
+bool
 hasMethod
 =
 npobj
@@ -7154,7 +7154,7 @@ cx
 vp
 )
 vp
-PR_FALSE
+false
 )
 ;
 }
@@ -7191,7 +7191,7 @@ cx
 vp
 )
 vp
-PR_TRUE
+true
 )
 ;
 }

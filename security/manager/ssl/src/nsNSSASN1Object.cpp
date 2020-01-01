@@ -215,7 +215,7 @@ unsigned
 long
 *
 bytesUsed
-PRBool
+bool
 *
 indefinite
 )
@@ -418,7 +418,7 @@ unsigned
 long
 bytesUsed
 ;
-PRBool
+bool
 indefinite
 ;
 PRInt32
@@ -1085,7 +1085,7 @@ nsNSSASN1Sequence
 :
 GetIsValidContainer
 (
-PRBool
+bool
 *
 aIsValidContainer
 )
@@ -1110,7 +1110,7 @@ nsNSSASN1Sequence
 :
 SetIsValidContainer
 (
-PRBool
+bool
 aIsValidContainer
 )
 {
@@ -1133,7 +1133,7 @@ nsNSSASN1Sequence
 :
 GetIsExpanded
 (
-PRBool
+bool
 *
 aIsExpanded
 )
@@ -1158,7 +1158,7 @@ nsNSSASN1Sequence
 :
 SetIsExpanded
 (
-PRBool
+bool
 aIsExpanded
 )
 {

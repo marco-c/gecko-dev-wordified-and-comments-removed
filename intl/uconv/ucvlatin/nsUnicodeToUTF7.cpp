@@ -921,7 +921,7 @@ return
 1
 ;
 }
-PRBool
+bool
 nsBasicUTF7Encoder
 :
 :
@@ -1234,7 +1234,7 @@ nsBasicUTF7Encoder
 )
 {
 }
-PRBool
+bool
 nsUnicodeToUTF7
 :
 :

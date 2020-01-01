@@ -795,7 +795,7 @@ event
 NS_ERROR_FAILURE
 )
 ;
-PRBool
+bool
 dummy
 ;
 database
@@ -863,7 +863,7 @@ event
 NS_ERROR_FAILURE
 )
 ;
-PRBool
+bool
 dummy
 ;
 mRequest
@@ -3296,7 +3296,7 @@ aDirectory
 ifdef
 DEBUG
 {
-PRBool
+bool
 correctThread
 ;
 NS_ASSERTION
@@ -3479,7 +3479,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -3504,7 +3504,7 @@ if
 exists
 )
 {
-PRBool
+bool
 isDirectory
 ;
 rv
@@ -3555,7 +3555,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasMore
 ;
 while
@@ -3940,7 +3940,7 @@ mUsageRunnables
 index
 ]
 ;
-PRBool
+bool
 equals
 ;
 nsresult
@@ -4842,7 +4842,7 @@ rv
 )
 )
 {
-PRBool
+bool
 exists
 ;
 rv
@@ -5143,7 +5143,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -5202,7 +5202,7 @@ if
 entries
 )
 {
-PRBool
+bool
 hasMore
 ;
 while

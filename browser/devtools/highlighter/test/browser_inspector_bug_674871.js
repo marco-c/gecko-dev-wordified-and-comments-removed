@@ -300,6 +300,8 @@ obs
 addObserver
 (
 runTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -325,6 +327,8 @@ obs
 removeObserver
 (
 runTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -343,6 +347,8 @@ obs
 addObserver
 (
 isTheIframeSelected
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -372,6 +378,8 @@ obs
 removeObserver
 (
 isTheIframeSelected
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -429,6 +437,8 @@ obs
 addObserver
 (
 isTheIframeContentSelected
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -458,6 +468,8 @@ obs
 removeObserver
 (
 isTheIframeContentSelected
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -499,6 +511,8 @@ obs
 addObserver
 (
 finishUp
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
@@ -524,6 +538,8 @@ obs
 removeObserver
 (
 finishUp
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED

@@ -71,7 +71,9 @@ ok
 !
 cw
 .
-isSearchEnabled
+Search
+.
+isEnabled
 (
 )
 "

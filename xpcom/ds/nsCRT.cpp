@@ -1039,7 +1039,7 @@ char
 start
 PRUint32
 length
-PRBool
+bool
 *
 err
 )

@@ -273,6 +273,13 @@ nsDOMLists
 .
 h
 "
+#
+include
+"
+xpcpublic
+.
+h
+"
 using
 namespace
 mozilla
@@ -433,7 +440,7 @@ ConsoleError
 (
 )
 ;
-PRBool
+bool
 HasOutgoingMessages
 (
 )
@@ -445,7 +452,7 @@ mOutgoingBufferedAmount
 0
 ;
 }
-PRBool
+bool
 ClosedCleanly
 (
 )
@@ -512,7 +519,7 @@ nsIWebSocketChannel
 >
 mWebSocketChannel
 ;
-PRPackedBool
+bool
 mClosedCleanly
 ;
 enum
@@ -3507,7 +3514,7 @@ nsWSCloseEvent
 nsWebSocket
 *
 aWebSocket
-PRBool
+bool
 aWasClean
 PRUint16
 aCode
@@ -3572,7 +3579,7 @@ nsWebSocket
 >
 mWebSocket
 ;
-PRBool
+bool
 mWasClean
 ;
 PRUint16
@@ -3965,7 +3972,7 @@ nsWebSocket
 :
 CreateAndDispatchCloseEvent
 (
-PRBool
+bool
 aWasClean
 PRUint16
 aCode
@@ -4112,7 +4119,7 @@ nsnull
 )
 ;
 }
-PRBool
+bool
 nsWebSocket
 :
 :
@@ -4133,7 +4140,7 @@ websocket
 .
 enabled
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -4910,10 +4917,10 @@ mCheckMustKeepAlive
 return
 ;
 }
-PRBool
+bool
 shouldKeepAlive
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5196,7 +5203,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
 )
 {
@@ -5257,9 +5264,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-PRBool
+bool
 aUseCapture
-PRBool
+bool
 aWantsUntrusted
 PRUint8
 optional_argc
@@ -5522,7 +5529,7 @@ close
 mOnCloseListener
 )
 static
-PRBool
+bool
 ContainsUnpairedSurrogates
 (
 const
@@ -6177,7 +6184,7 @@ websocket
 .
 allowInsecureFromHTTPS
 "
-PR_FALSE
+false
 )
 )
 {
@@ -6369,7 +6376,7 @@ nsWebSocketEstablishedConnection
 :
 IsPending
 (
-PRBool
+bool
 *
 aValue
 )

@@ -251,7 +251,7 @@ UnionExpr
 NODESET_RESULT
 mExpressions
 )
-PRBool
+bool
 UnionExpr
 :
 :

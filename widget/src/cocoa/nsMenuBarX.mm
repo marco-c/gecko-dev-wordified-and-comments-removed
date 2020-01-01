@@ -3125,7 +3125,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_FALSE
+false
 )
 ;
 if

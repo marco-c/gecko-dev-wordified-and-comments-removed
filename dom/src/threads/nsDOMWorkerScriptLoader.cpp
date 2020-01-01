@@ -274,7 +274,7 @@ nsString
 >
 &
 aURLs
-PRBool
+bool
 aExecute
 )
 {
@@ -347,7 +347,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-PRBool
+bool
 success
 =
 mLoadInfos
@@ -611,10 +611,10 @@ thread
 )
 ;
 volatile
-PRBool
+bool
 done
 =
-PR_FALSE
+false
 ;
 mDoneRunnable
 =
@@ -1055,7 +1055,7 @@ aCx
 JSOPTION_DONT_REPORT_UNCAUGHT
 )
 ;
-PRBool
+bool
 success
 =
 JS_ExecuteScript
@@ -1330,10 +1330,10 @@ return
 rv
 ;
 }
-PRBool
+bool
 needsNotify
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -2468,7 +2468,7 @@ if
 httpChannel
 )
 {
-PRBool
+bool
 requestSucceeded
 ;
 rv
@@ -2806,7 +2806,7 @@ channelPrincipal
 )
 )
 {
-PRBool
+bool
 isResource
 ;
 rv
@@ -3261,7 +3261,7 @@ GetLock
 #
 ifdef
 DEBUG
-PRBool
+bool
 removed
 =
 #
@@ -3610,7 +3610,7 @@ nsDOMWorkerScriptLoader
 *
 aLoader
 volatile
-PRBool
+bool
 *
 aDoneFlag
 )

@@ -114,7 +114,7 @@ nsGenericHTMLElement
 )
 NS_DECL_NSIDOMHTMLFONTELEMENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -133,7 +133,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -440,7 +440,7 @@ kRelFontSizeTable
 }
 }
 ;
-PRBool
+bool
 nsHTMLFontElement
 :
 :
@@ -1279,7 +1279,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLFontElement
 :

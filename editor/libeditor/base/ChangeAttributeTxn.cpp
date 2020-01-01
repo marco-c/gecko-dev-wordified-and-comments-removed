@@ -86,7 +86,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aRemoveAttribute
 )
 {

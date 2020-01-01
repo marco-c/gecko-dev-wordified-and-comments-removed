@@ -248,7 +248,7 @@ nsXBLMouseEventHandler
 )
 {
 }
-PRBool
+bool
 nsXBLMouseEventHandler
 :
 :
@@ -330,7 +330,7 @@ NS_IMPL_ISUPPORTS1
 nsXBLKeyEventHandler
 nsIDOMEventListener
 )
-PRBool
+bool
 nsXBLKeyEventHandler
 :
 :
@@ -341,7 +341,7 @@ nsIDOMKeyEvent
 aKeyEvent
 PRUint32
 aCharCode
-PRBool
+bool
 aIgnoreShiftKey
 )
 {
@@ -356,10 +356,10 @@ do_QueryInterface
 aKeyEvent
 )
 ;
-PRBool
+bool
 trustedEvent
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -391,10 +391,10 @@ target
 )
 )
 ;
-PRBool
+bool
 executed
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -425,7 +425,7 @@ mProtoHandlers
 i
 ]
 ;
-PRBool
+bool
 hasAllowUntrustedAttr
 =
 handler

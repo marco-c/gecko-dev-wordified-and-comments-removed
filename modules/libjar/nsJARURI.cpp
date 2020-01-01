@@ -252,7 +252,7 @@ entrySpec
 nsACString
 &
 result
-PRBool
+bool
 aIncludeScheme
 )
 {
@@ -845,7 +845,7 @@ nsJARURI
 :
 GetHasRef
 (
-PRBool
+bool
 *
 result
 )
@@ -1551,7 +1551,7 @@ Equals
 nsIURI
 *
 other
-PRBool
+bool
 *
 result
 )
@@ -1574,7 +1574,7 @@ EqualsExceptRef
 nsIURI
 *
 other
-PRBool
+bool
 *
 result
 )
@@ -1602,7 +1602,7 @@ nsJARURI
 :
 RefHandlingEnum
 refHandlingMode
-PRBool
+bool
 *
 result
 )
@@ -1649,7 +1649,7 @@ otherJAR
 return
 NS_OK
 ;
-PRBool
+bool
 equal
 ;
 nsresult
@@ -1725,7 +1725,7 @@ const
 char
 *
 i_Scheme
-PRBool
+bool
 *
 o_Equals
 )
@@ -2368,7 +2368,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 equal
 ;
 rv
@@ -2645,7 +2645,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 equal
 ;
 rv

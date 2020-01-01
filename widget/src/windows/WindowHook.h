@@ -54,7 +54,7 @@ WindowHook
 public
 :
 typedef
-PRBool
+bool
 (
 *
 Callback
@@ -169,7 +169,7 @@ ctx
 )
 {
 }
-PRBool
+bool
 Invoke
 (
 HWND
@@ -185,7 +185,7 @@ LRESULT
 aResult
 )
 ;
-PRBool
+bool
 operator
 =
 =
@@ -214,7 +214,7 @@ rhs
 context
 ;
 }
-PRBool
+bool
 operator
 !
 =
@@ -238,7 +238,7 @@ rhs
 ;
 }
 operator
-PRBool
+bool
 (
 )
 const
@@ -272,7 +272,7 @@ monitors
 ;
 }
 ;
-PRBool
+bool
 Notify
 (
 HWND

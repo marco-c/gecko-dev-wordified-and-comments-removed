@@ -201,10 +201,10 @@ mOriginalURI
 nsCString
 mContentType
 ;
-PRBool
+bool
 mIsDocument
 ;
-PRBool
+bool
 mOpened
 ;
 }

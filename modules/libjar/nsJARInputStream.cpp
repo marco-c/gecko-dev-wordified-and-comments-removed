@@ -914,7 +914,7 @@ nsJARInputStream
 :
 IsNonBlocking
 (
-PRBool
+bool
 *
 aNonBlocking
 )

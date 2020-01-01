@@ -140,7 +140,7 @@ NS_OK
 ;
 }
 virtual
-PRBool
+bool
 IsNodeOfType
 (
 PRUint32
@@ -164,7 +164,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+bool
 aCloneText
 )
 const

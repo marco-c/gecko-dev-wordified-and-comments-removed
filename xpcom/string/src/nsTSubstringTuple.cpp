@@ -319,7 +319,7 @@ Length
 #
 endif
 }
-PRBool
+bool
 nsTSubstringTuple_CharT
 :
 :

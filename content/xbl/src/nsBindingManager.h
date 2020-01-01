@@ -267,7 +267,7 @@ nsInsertionPointList
 aList
 )
 ;
-PRBool
+bool
 HasContentListFor
 (
 nsIContent
@@ -354,7 +354,7 @@ aParent
 PRUint32
 *
 aIndex
-PRBool
+bool
 *
 aMultipleInsertionPoints
 )
@@ -379,7 +379,7 @@ GetNestedSingleInsertionPoint
 nsIContent
 *
 aParent
-PRBool
+bool
 *
 aMultipleInsertionPoints
 )
@@ -528,7 +528,7 @@ aFunc
 RuleProcessorData
 *
 aData
-PRBool
+bool
 *
 aCutOffInheritance
 )
@@ -552,7 +552,7 @@ MediumFeaturesChanged
 nsPresContext
 *
 aPresContext
-PRBool
+bool
 *
 aRulesChanged
 )
@@ -631,7 +631,7 @@ GetXBLChildNodesInternal
 nsIContent
 *
 aContent
-PRBool
+bool
 *
 aIsAnonymousContentList
 )
@@ -643,7 +643,7 @@ GetAnonymousNodesInternal
 nsIContent
 *
 aContent
-PRBool
+bool
 *
 aIsAnonymousContentList
 )
@@ -659,7 +659,7 @@ nsIContent
 aChild
 PRUint32
 aIndexInContainer
-PRBool
+bool
 aAppend
 )
 ;
@@ -738,10 +738,10 @@ mLoadingDocTable
 nsBindingList
 mAttachedStack
 ;
-PRPackedBool
+bool
 mProcessingAttachedStack
 ;
-PRPackedBool
+bool
 mDestroyed
 ;
 PRUint32

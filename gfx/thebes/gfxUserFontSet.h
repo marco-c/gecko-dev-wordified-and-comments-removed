@@ -83,10 +83,10 @@ gfxMixedFontFamily
 struct
 gfxFontFaceSrc
 {
-PRPackedBool
+bool
 mIsLocal
 ;
-PRPackedBool
+bool
 mUseOriginPrincipal
 ;
 PRUint32
@@ -390,7 +390,7 @@ return
 }
 }
 }
-PRBool
+bool
 AllLoaded
 (
 )
@@ -585,7 +585,7 @@ gfxFontEntry
 aFontEntry
 )
 ;
-PRBool
+bool
 HasFamily
 (
 const
@@ -617,13 +617,13 @@ const
 gfxFontStyle
 &
 aFontStyle
-PRBool
+bool
 &
 aFoundFamily
-PRBool
+bool
 &
 aNeedsBold
-PRBool
+bool
 &
 aWaitForUserFont
 )
@@ -643,7 +643,7 @@ aFontFaceSrc
 =
 0
 ;
-PRBool
+bool
 OnLoadComplete
 (
 gfxProxyFontEntry
@@ -810,7 +810,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-PRBool
+bool
 aNeedsBold
 )
 ;

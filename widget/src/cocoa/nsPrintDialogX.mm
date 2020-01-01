@@ -2352,7 +2352,7 @@ NSMakeRect
 )
 ]
 ;
-PRBool
+bool
 canPrintSelection
 ;
 mSettings
@@ -2440,7 +2440,7 @@ NSMakeRect
 )
 ]
 ;
-PRBool
+bool
 shrinkToFit
 ;
 mSettings
@@ -2527,7 +2527,7 @@ NSMakeRect
 )
 ]
 ;
-PRBool
+bool
 geckoBool
 ;
 mSettings

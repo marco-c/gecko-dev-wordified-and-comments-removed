@@ -575,13 +575,13 @@ maxage
 PRInt64
 expiryTime
 ;
-PRBool
+bool
 isSession
 ;
-PRBool
+bool
 isSecure
 ;
-PRBool
+bool
 isHttpOnly
 ;
 }
@@ -780,7 +780,7 @@ static
 void
 LogFailure
 (
-PRBool
+bool
 aSetCookie
 nsIURI
 *
@@ -1364,7 +1364,7 @@ static
 void
 LogSuccess
 (
-PRBool
+bool
 aSetCookie
 nsIURI
 *
@@ -1376,7 +1376,7 @@ aCookieString
 nsCookie
 *
 aCookie
-PRBool
+bool
 aReplacing
 )
 {
@@ -1607,7 +1607,7 @@ inline
 void
 LogFailure
 (
-PRBool
+bool
 aSetCookie
 nsIURI
 *
@@ -1640,7 +1640,7 @@ inline
 void
 LogSuccess
 (
-PRBool
+bool
 aSetCookie
 nsIURI
 *
@@ -1652,7 +1652,7 @@ aCookieString
 nsCookie
 *
 aCookie
-PRBool
+bool
 aReplacing
 )
 {
@@ -3027,10 +3027,10 @@ if
 pbs
 )
 {
-PRBool
+bool
 inPrivateBrowsing
 =
-PR_FALSE
+false
 ;
 pbs
 -
@@ -3410,10 +3410,10 @@ EmptyCString
 )
 )
 ;
-PRBool
+bool
 tableExists
 =
-PR_FALSE
+false
 ;
 mDefaultDBState
 -
@@ -3646,7 +3646,7 @@ nsCString
 baseDomain
 host
 ;
-PRBool
+bool
 hasResult
 ;
 while
@@ -3907,7 +3907,7 @@ rv
 RESULT_RETRY
 )
 ;
-PRBool
+bool
 hasResult
 ;
 rv
@@ -6332,7 +6332,7 @@ NS_ENSURE_ARG
 aCookie
 )
 ;
-PRBool
+bool
 isForeign
 =
 true
@@ -6490,7 +6490,7 @@ NS_ENSURE_ARG
 aCookieHeader
 )
 ;
-PRBool
+bool
 isForeign
 =
 true
@@ -6560,7 +6560,7 @@ const
 nsCString
 &
 aServerTime
-PRBool
+bool
 aFromHttp
 )
 {
@@ -6596,7 +6596,7 @@ closed
 return
 ;
 }
-PRBool
+bool
 requireHostMatch
 ;
 nsCAutoString
@@ -6990,7 +6990,7 @@ PR_INT32_MAX
 PR_USEC_PER_SEC
 ;
 }
-PRBool
+bool
 boolval
 ;
 if
@@ -7116,7 +7116,7 @@ PR_TRUE
 }
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 stmt
 ;
@@ -7129,7 +7129,7 @@ mDefaultDBState
 dbConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (
@@ -7409,11 +7409,11 @@ const
 nsACString
 &
 aValue
-PRBool
+bool
 aIsSecure
-PRBool
+bool
 aIsHttpOnly
-PRBool
+bool
 aIsSession
 PRInt64
 aExpiry
@@ -7557,7 +7557,7 @@ const
 nsACString
 &
 aPath
-PRBool
+bool
 aBlocked
 )
 {
@@ -7782,7 +7782,7 @@ Read
 {
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 stmtRead
 ;
@@ -7795,7 +7795,7 @@ mDefaultDBState
 dbConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (
@@ -7856,7 +7856,7 @@ RESULT_RETRY
 ;
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 stmtDeleteNull
 ;
@@ -7868,7 +7868,7 @@ mDefaultDBState
 dbConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (
@@ -8127,7 +8127,7 @@ AsInt64
 6
 )
 ;
-PRBool
+bool
 isSecure
 =
 0
@@ -8141,7 +8141,7 @@ AsInt32
 7
 )
 ;
-PRBool
+bool
 isHttpOnly
 =
 0
@@ -8374,7 +8374,7 @@ nsCookieService
 :
 CancelAsyncRead
 (
-PRBool
+bool
 aPurgeReadSet
 )
 {
@@ -8730,7 +8730,7 @@ NS_ASSERT_SUCCESS
 rv
 )
 ;
-PRBool
+bool
 hasResult
 ;
 nsCString
@@ -9079,7 +9079,7 @@ value
 host
 path
 ;
-PRBool
+bool
 hasResult
 ;
 nsAutoTArray
@@ -9421,10 +9421,10 @@ nsCAutoString
 buffer
 baseDomain
 ;
-PRBool
+bool
 isMore
 =
-PR_TRUE
+true
 ;
 PRInt32
 hostIndex
@@ -9447,11 +9447,11 @@ numInts
 PRInt64
 expires
 ;
-PRBool
+bool
 isDomain
 isHttpOnly
 =
-PR_FALSE
+false
 ;
 PRUint32
 originalCookieCount
@@ -10095,7 +10095,7 @@ NS_OK
 }
 static
 inline
-PRBool
+bool
 ispathdelimiter
 (
 char
@@ -10140,7 +10140,7 @@ CompareCookiesForSending
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -10195,7 +10195,7 @@ Length
 )
 ;
 }
-PRBool
+bool
 LessThan
 (
 const
@@ -10275,7 +10275,7 @@ nsIURI
 aHostURI
 bool
 aIsForeign
-PRBool
+bool
 aHttpBound
 nsCString
 &
@@ -10314,7 +10314,7 @@ closed
 return
 ;
 }
-PRBool
+bool
 requireHostMatch
 ;
 nsCAutoString
@@ -10422,7 +10422,7 @@ default
 break
 ;
 }
-PRBool
+bool
 isSecure
 ;
 if
@@ -10474,10 +10474,10 @@ currentTimeInUsec
 /
 PR_USEC_PER_SEC
 ;
-PRBool
+bool
 stale
 =
-PR_FALSE
+false
 ;
 EnsureReadDomain
 (
@@ -11075,7 +11075,7 @@ nsnull
 )
 ;
 }
-PRBool
+bool
 nsCookieService
 :
 :
@@ -11088,7 +11088,7 @@ const
 nsCString
 &
 aBaseDomain
-PRBool
+bool
 aRequireHostMatch
 CookieStatus
 aStatus
@@ -11097,7 +11097,7 @@ nsDependentCString
 aCookieHeader
 PRInt64
 aServerTime
-PRBool
+bool
 aFromHttp
 )
 {
@@ -11126,7 +11126,7 @@ savedCookieHeader
 aCookieHeader
 )
 ;
-PRBool
+bool
 newCookie
 =
 ParseAttributes
@@ -11361,7 +11361,7 @@ if
 mPermissionService
 )
 {
-PRBool
+bool
 permission
 ;
 mPermissionService
@@ -11490,7 +11490,7 @@ const
 char
 *
 aCookieHeader
-PRBool
+bool
 aFromHttp
 )
 {
@@ -11537,7 +11537,7 @@ return
 nsListIter
 matchIter
 ;
-PRBool
+bool
 foundCookie
 =
 FindCookie
@@ -11994,7 +11994,7 @@ get
 }
 static
 inline
-PRBool
+bool
 iswhitespace
 (
 char
@@ -12020,7 +12020,7 @@ t
 }
 static
 inline
-PRBool
+bool
 isterminator
 (
 char
@@ -12048,7 +12048,7 @@ r
 }
 static
 inline
-PRBool
+bool
 isvalueseparator
 (
 char
@@ -12072,7 +12072,7 @@ c
 }
 static
 inline
-PRBool
+bool
 istokenseparator
 (
 char
@@ -12094,7 +12094,7 @@ c
 '
 ;
 }
-PRBool
+bool
 nsCookieService
 :
 :
@@ -12118,7 +12118,7 @@ aTokenString
 nsDependentCSubstring
 &
 aTokenValue
-PRBool
+bool
 &
 aEqualsFound
 )
@@ -12353,7 +12353,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 nsCookieService
 :
 :
@@ -12489,7 +12489,7 @@ cookieStart
 cookieStart
 )
 ;
-PRBool
+bool
 newCookie
 equalsFound
 ;
@@ -12699,7 +12699,7 @@ aHostURI
 nsCString
 &
 aBaseDomain
-PRBool
+bool
 &
 aRequireHostMatch
 )
@@ -12787,10 +12787,10 @@ IsEmpty
 )
 )
 {
-PRBool
+bool
 isFileURI
 =
-PR_FALSE
+false
 ;
 aHostURI
 -
@@ -12858,7 +12858,7 @@ Last
 return
 NS_ERROR_INVALID_ARG
 ;
-PRBool
+bool
 domain
 =
 !
@@ -12991,7 +12991,7 @@ NS_OK
 }
 static
 inline
-PRBool
+bool
 IsSubdomainOf
 (
 const
@@ -13095,7 +13095,7 @@ const
 nsCString
 &
 aBaseDomain
-PRBool
+bool
 aRequireHostMatch
 const
 char
@@ -13106,7 +13106,7 @@ aCookieHeader
 nsresult
 rv
 ;
-PRBool
+bool
 ftp
 ;
 if
@@ -13302,7 +13302,7 @@ return
 STATUS_ACCEPTED
 ;
 }
-PRBool
+bool
 nsCookieService
 :
 :
@@ -13318,7 +13318,7 @@ const
 nsCString
 &
 aBaseDomain
-PRBool
+bool
 aRequireHostMatch
 )
 {
@@ -13457,7 +13457,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsCookieService
 :
 :
@@ -13645,7 +13645,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsCookieService
 :
 :
@@ -13898,7 +13898,7 @@ CompareCookiesByAge
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -13961,7 +13961,7 @@ CreationTime
 )
 ;
 }
-PRBool
+bool
 LessThan
 (
 const
@@ -14043,7 +14043,7 @@ CompareCookiesByIndex
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -14091,7 +14091,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 LessThan
 (
 const
@@ -14786,7 +14786,7 @@ CookieExists
 nsICookie2
 *
 aCookie
-PRBool
+bool
 *
 aFoundCookie
 )
@@ -15339,7 +15339,7 @@ cookieList
 )
 ;
 }
-PRBool
+bool
 nsCookieService
 :
 :
@@ -16163,7 +16163,7 @@ aDBState
 mozIStorageBindingParamsArray
 *
 aParamsArray
-PRBool
+bool
 aWriteToDB
 )
 {

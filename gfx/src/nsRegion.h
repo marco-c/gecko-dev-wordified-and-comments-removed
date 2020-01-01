@@ -80,7 +80,7 @@ aRect
 {
 }
 inline
-PRBool
+bool
 Contains
 (
 const
@@ -91,7 +91,7 @@ aRect
 const
 ;
 inline
-PRBool
+bool
 Intersects
 (
 const
@@ -102,7 +102,7 @@ aRect
 const
 ;
 inline
-PRBool
+bool
 IntersectRect
 (
 const
@@ -665,7 +665,7 @@ aRect2
 )
 ;
 }
-PRBool
+bool
 Contains
 (
 const
@@ -675,7 +675,7 @@ aRect
 )
 const
 ;
-PRBool
+bool
 Contains
 (
 const
@@ -685,7 +685,7 @@ aRgn
 )
 const
 ;
-PRBool
+bool
 Intersects
 (
 const
@@ -742,7 +742,7 @@ SetRect
 )
 ;
 }
-PRBool
+bool
 IsEmpty
 (
 )
@@ -755,7 +755,7 @@ mRectCount
 0
 ;
 }
-PRBool
+bool
 IsComplex
 (
 )
@@ -767,7 +767,7 @@ mRectCount
 1
 ;
 }
-PRBool
+bool
 IsEqual
 (
 const
@@ -1009,10 +1009,10 @@ InsertInPlace
 RgnRect
 *
 aRect
-PRBool
+bool
 aOptimizeOnFly
 =
-PR_FALSE
+false
 )
 ;
 inline
@@ -1836,7 +1836,7 @@ aRect2
 )
 ;
 }
-PRBool
+bool
 Contains
 (
 const
@@ -1858,7 +1858,7 @@ aRect
 )
 ;
 }
-PRBool
+bool
 Contains
 (
 const
@@ -1879,7 +1879,7 @@ mImpl
 )
 ;
 }
-PRBool
+bool
 Intersects
 (
 const
@@ -1952,7 +1952,7 @@ SetEmpty
 )
 ;
 }
-PRBool
+bool
 IsEmpty
 (
 )
@@ -1966,7 +1966,7 @@ IsEmpty
 )
 ;
 }
-PRBool
+bool
 IsComplex
 (
 )
@@ -1980,7 +1980,7 @@ IsComplex
 )
 ;
 }
-PRBool
+bool
 IsEqual
 (
 const

@@ -267,7 +267,7 @@ nsXBLResourceLoader
 :
 LoadResources
 (
-PRBool
+bool
 *
 aResult
 )
@@ -505,7 +505,7 @@ nsGkAtoms
 stylesheet
 )
 {
-PRBool
+bool
 chrome
 ;
 nsresult
@@ -695,7 +695,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-PRBool
+bool
 aWasAlternate
 nsresult
 aStatus
@@ -927,10 +927,10 @@ ObjectAt
 j
 )
 ;
-PRBool
+bool
 ready
 =
-PR_FALSE
+false
 ;
 xblService
 -

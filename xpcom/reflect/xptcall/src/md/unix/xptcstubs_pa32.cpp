@@ -665,7 +665,7 @@ b
 *
 (
 (
-PRBool
+bool
 *
 )
 args

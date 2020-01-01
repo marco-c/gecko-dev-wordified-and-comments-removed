@@ -31,7 +31,7 @@ AddRefAtoms
 )
 ;
 static
-PRBool
+bool
 IsAnonBox
 (
 nsIAtom
@@ -43,7 +43,7 @@ aAtom
 ifdef
 MOZ_XUL
 static
-PRBool
+bool
 IsTreePseudoElement
 (
 nsIAtom

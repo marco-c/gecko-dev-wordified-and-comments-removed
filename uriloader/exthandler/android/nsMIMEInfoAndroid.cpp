@@ -155,7 +155,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRBool
+bool
 nsMIMEInfoAndroid
 :
 :
@@ -320,7 +320,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+bool
 nsMIMEInfoAndroid
 :
 :
@@ -390,7 +390,7 @@ nsCaseInsensitiveCStringComparator
 return
 false
 ;
-PRBool
+bool
 found
 =
 GetMimeInfoForMimeType
@@ -424,7 +424,7 @@ const
 nsACString
 &
 aURL
-PRBool
+bool
 *
 found
 nsIHandlerInfo
@@ -754,7 +754,7 @@ nsMIMEInfoAndroid
 :
 GetHasDefaultHandler
 (
-PRBool
+bool
 *
 aHasDefault
 )
@@ -904,7 +904,7 @@ nsMIMEInfoAndroid
 :
 GetAlwaysAskBeforeHandling
 (
-PRBool
+bool
 *
 aAlwaysAsk
 )
@@ -924,7 +924,7 @@ nsMIMEInfoAndroid
 :
 SetAlwaysAskBeforeHandling
 (
-PRBool
+bool
 aAlwaysAsk
 )
 {
@@ -1069,7 +1069,7 @@ const
 nsACString
 &
 aExtension
-PRBool
+bool
 *
 aRetVal
 )
@@ -1088,10 +1088,10 @@ extension
 "
 )
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 PRUint32
 extCount
@@ -1262,10 +1262,10 @@ Length
 PRUint8
 i
 ;
-PRBool
+bool
 found
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1369,7 +1369,7 @@ Equals
 nsIMIMEInfo
 *
 aMIMEInfo
-PRBool
+bool
 *
 aRetVal
 )
@@ -1654,7 +1654,7 @@ Equals
 nsIHandlerApp
 *
 aHandlerApp
-PRBool
+bool
 *
 aRetVal
 )

@@ -331,7 +331,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 hasOfflinePermission
 =
 IsOfflineAllowed
@@ -1136,7 +1136,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -2710,7 +2710,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 while
@@ -2870,7 +2870,7 @@ aKey
 nsAString
 &
 aValue
-PRBool
+bool
 *
 aSecure
 )
@@ -2986,7 +2986,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -3087,11 +3087,11 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aSecure
 PRInt32
 aQuota
-PRBool
+bool
 aExcludeOfflineFromUsage
 PRInt32
 *
@@ -3178,7 +3178,7 @@ Length
 nsAutoString
 previousValue
 ;
-PRBool
+bool
 secure
 ;
 rv
@@ -3459,7 +3459,7 @@ nsAString
 &
 aKey
 const
-PRBool
+bool
 aSecure
 )
 {
@@ -3637,7 +3637,7 @@ const
 nsAString
 &
 aKey
-PRBool
+bool
 aExcludeOfflineFromUsage
 PRInt32
 aKeyUsage
@@ -3917,7 +3917,7 @@ const
 nsACString
 &
 aOwner
-PRBool
+bool
 aIncludeSubDomains
 )
 {
@@ -4082,9 +4082,9 @@ nsString
 >
 &
 aOwners
-PRBool
+bool
 aIncludeSubDomains
-PRBool
+bool
 aMatch
 )
 {
@@ -4514,7 +4514,7 @@ GetUsage
 DOMStorageImpl
 *
 aStorage
-PRBool
+bool
 aExcludeOfflineFromUsage
 PRInt32
 *
@@ -4547,7 +4547,7 @@ const
 nsACString
 &
 aDomain
-PRBool
+bool
 aIncludeSubDomains
 PRInt32
 *
@@ -4598,7 +4598,7 @@ const
 nsACString
 &
 aQuotaDomainDBKey
-PRBool
+bool
 aExcludeOfflineFromUsage
 PRInt32
 *
@@ -4719,7 +4719,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -4811,7 +4811,7 @@ mConnection
 return
 NS_ERROR_UNEXPECTED
 ;
-PRBool
+bool
 transactionInProgress
 ;
 nsresult
@@ -4874,7 +4874,7 @@ mConnection
 return
 NS_ERROR_UNEXPECTED
 ;
-PRBool
+bool
 transactionInProgress
 ;
 nsresult

@@ -253,7 +253,7 @@ Stop
 (
 )
 ;
-PRBool
+bool
 IsRunning
 (
 )
@@ -353,7 +353,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsListScrollSmoother
 :
 :
@@ -1477,7 +1477,7 @@ nsListBoxBodyFrame
 :
 VisibilityChanged
 (
-PRBool
+bool
 aVisible
 )
 {
@@ -1612,7 +1612,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsListBoxBodyFrame
 :
 :
@@ -1853,7 +1853,7 @@ NS_OK
 PRInt32
 delta
 ;
-PRBool
+bool
 up
 =
 aRowIndex
@@ -2983,7 +2983,7 @@ newIndex
 -
 mCurrentIndex
 ;
-PRBool
+bool
 up
 =
 newIndex
@@ -3153,7 +3153,7 @@ nsListBoxBodyFrame
 :
 InternalPositionChanged
 (
-PRBool
+bool
 aUp
 PRInt32
 aDelta
@@ -3223,7 +3223,7 @@ nsListBoxBodyFrame
 :
 DoInternalPositionChangedSync
 (
-PRBool
+bool
 aUp
 PRInt32
 aDelta
@@ -3330,7 +3330,7 @@ nsListBoxBodyFrame
 :
 DoInternalPositionChanged
 (
-PRBool
+bool
 aUp
 PRInt32
 aDelta
@@ -3814,7 +3814,7 @@ LastChild
 )
 ;
 }
-PRBool
+bool
 nsListBoxBodyFrame
 :
 :
@@ -3857,7 +3857,7 @@ availableHeight
 0
 )
 {
-PRBool
+bool
 fixed
 =
 (
@@ -3882,10 +3882,10 @@ else
 return
 ;
 }
-PRBool
+bool
 created
 =
-PR_FALSE
+false
 ;
 nsIBox
 *
@@ -4304,7 +4304,7 @@ GetFirstItemBox
 (
 PRInt32
 aOffset
-PRBool
+bool
 *
 aCreated
 )
@@ -4527,7 +4527,7 @@ existingFrame
 nsnull
 ;
 }
-PRBool
+bool
 isAppend
 =
 mRowsToPrepend
@@ -4650,7 +4650,7 @@ nsIBox
 aBox
 PRInt32
 aOffset
-PRBool
+bool
 *
 aCreated
 )
@@ -4800,7 +4800,7 @@ if
 existingFrame
 )
 {
-PRBool
+bool
 isAppend
 =
 result
@@ -4960,7 +4960,7 @@ result
 nsnull
 ;
 }
-PRBool
+bool
 nsListBoxBodyFrame
 :
 :

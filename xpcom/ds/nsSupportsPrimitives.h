@@ -142,7 +142,7 @@ nsSupportsPRBoolImpl
 )
 {
 }
-PRBool
+bool
 mData
 ;
 }

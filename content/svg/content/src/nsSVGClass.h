@@ -50,7 +50,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
+bool
 aDoSetAttr
 )
 ;
@@ -105,7 +105,7 @@ aSVGElement
 )
 const
 ;
-PRBool
+bool
 IsAnimated
 (
 )
@@ -327,7 +327,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )

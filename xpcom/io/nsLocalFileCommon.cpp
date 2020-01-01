@@ -200,7 +200,7 @@ attributes
 nsresult
 rv
 ;
-PRBool
+bool
 longName
 ;
 #

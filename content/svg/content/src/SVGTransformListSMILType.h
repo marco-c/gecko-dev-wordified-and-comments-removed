@@ -82,7 +82,7 @@ aSrc
 const
 ;
 virtual
-PRBool
+bool
 IsEqual
 (
 const
@@ -180,7 +180,7 @@ aValue
 )
 ;
 static
-PRBool
+bool
 AppendTransforms
 (
 const
@@ -193,7 +193,7 @@ aValue
 )
 ;
 static
-PRBool
+bool
 GetTransforms
 (
 const

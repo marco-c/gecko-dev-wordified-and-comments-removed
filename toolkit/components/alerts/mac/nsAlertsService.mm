@@ -1315,7 +1315,7 @@ const
 nsAString
 &
 aAlertText
-PRBool
+bool
 aAlertClickable
 const
 nsAString

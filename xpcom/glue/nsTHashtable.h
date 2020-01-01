@@ -64,7 +64,7 @@ nsTHashtable
 (
 )
 ;
-PRBool
+bool
 Init
 (
 PRUint32
@@ -73,7 +73,7 @@ initSize
 PL_DHASH_MIN_SIZE
 )
 ;
-PRBool
+bool
 IsInitialized
 (
 )
@@ -414,7 +414,7 @@ key
 )
 ;
 static
-PRBool
+bool
 s_MatchEntry
 (
 PLDHashTable
@@ -459,7 +459,7 @@ entry
 )
 ;
 static
-PRBool
+bool
 s_InitEntry
 (
 PLDHashTable
@@ -589,7 +589,7 @@ template
 class
 EntryType
 >
-PRBool
+bool
 nsTHashtable
 <
 EntryType
@@ -747,7 +747,7 @@ template
 class
 EntryType
 >
-PRBool
+bool
 nsTHashtable
 <
 EntryType
@@ -902,7 +902,7 @@ template
 class
 EntryType
 >
-PRBool
+bool
 nsTHashtable
 <
 EntryType

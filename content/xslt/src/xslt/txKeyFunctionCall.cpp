@@ -447,7 +447,7 @@ return
 NODESET_RESULT
 ;
 }
-PRBool
+bool
 txKeyFunctionCall
 :
 :
@@ -520,7 +520,7 @@ txIndexedKeyHashEntry
 txIndexedKeyHashKey
 &
 )
-PRBool
+bool
 txKeyValueHashEntry
 :
 :
@@ -647,7 +647,7 @@ mKeyValue
 )
 ;
 }
-PRBool
+bool
 txIndexedKeyHashEntry
 :
 :
@@ -771,7 +771,7 @@ const
 nsAString
 &
 aKeyValue
-PRBool
+bool
 aIndexIfNotFound
 txExecutionState
 &
@@ -1076,7 +1076,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 txXSLKey
 :
 :

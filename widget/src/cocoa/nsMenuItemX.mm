@@ -571,7 +571,7 @@ nsnull
 ;
 mIsChecked
 =
-PR_FALSE
+false
 ;
 MOZ_COUNT_CTOR
 (
@@ -865,7 +865,7 @@ on
 our
 own
 content
-PRBool
+bool
 isEnabled
 ;
 if
@@ -1038,7 +1038,7 @@ nsMenuItemX
 :
 SetChecked
 (
-PRBool
+bool
 aIsChecked
 )
 {
@@ -1094,7 +1094,7 @@ NS_LITERAL_STRING
 false
 "
 )
-PR_TRUE
+true
 )
 ;
 /
@@ -1273,7 +1273,7 @@ const
 nsString
 &
 eventName
-PRBool
+bool
 *
 preventDefaultCalled
 )
@@ -1436,8 +1436,8 @@ event
 InitEvent
 (
 eventName
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 /
@@ -1464,7 +1464,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 /
@@ -1714,7 +1714,7 @@ NS_LITERAL_STRING
 false
 "
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -2074,7 +2074,7 @@ mMenuParent
 >
 SetRebuild
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2113,7 +2113,7 @@ mMenuParent
 >
 SetRebuild
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2340,7 +2340,7 @@ nsWidgetAtoms
 :
 :
 disabled
-PR_TRUE
+true
 )
 ;
 else
@@ -2355,7 +2355,7 @@ nsWidgetAtoms
 :
 disabled
 commandDisabled
-PR_TRUE
+true
 )
 ;
 }
@@ -2454,7 +2454,7 @@ mMenuParent
 >
 SetRebuild
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2480,7 +2480,7 @@ mMenuParent
 >
 SetRebuild
 (
-PR_TRUE
+true
 )
 ;
 }

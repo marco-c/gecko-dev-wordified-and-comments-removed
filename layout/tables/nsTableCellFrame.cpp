@@ -524,7 +524,7 @@ cellRS
 }
 }
 }
-PRBool
+bool
 nsTableCellFrame
 :
 :
@@ -1836,7 +1836,7 @@ emptyCellStyle
 )
 )
 {
-PRBool
+bool
 isRoot
 =
 aBuilder
@@ -1878,7 +1878,7 @@ this
 ;
 }
 }
-PRBool
+bool
 hasBoxShadow
 =
 !
@@ -2107,7 +2107,7 @@ rv
 )
 ;
 }
-PRBool
+bool
 isSelected
 =
 (
@@ -2698,7 +2698,7 @@ return
 NS_STYLE_VERTICAL_ALIGN_BASELINE
 ;
 }
-PRBool
+bool
 nsTableCellFrame
 :
 :
@@ -3980,7 +3980,7 @@ GetVisualOverflowRect
 (
 )
 ;
-PRBool
+bool
 firstReflow
 =
 (
@@ -4083,7 +4083,7 @@ GetPrevInFlow
 (
 )
 ;
-PRBool
+bool
 isEmpty
 ;
 if
@@ -4428,7 +4428,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRBool
+bool
 aIsBorderCollapse
 )
 {
@@ -4506,19 +4506,6 @@ nsGkAtoms
 :
 :
 tableCellFrame
-;
-}
-PRBool
-nsTableCellFrame
-:
-:
-IsContainingBlock
-(
-)
-const
-{
-return
-PR_TRUE
 ;
 }
 #
@@ -4624,7 +4611,7 @@ return
 result
 ;
 }
-PRBool
+bool
 nsBCTableCellFrame
 :
 :

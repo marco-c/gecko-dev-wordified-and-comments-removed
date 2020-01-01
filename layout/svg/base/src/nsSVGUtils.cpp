@@ -924,7 +924,7 @@ gsRGBToLinearRGBMap
 ifdef
 MOZ_SMIL
 static
-PRBool
+bool
 gSMILEnabled
 ;
 static
@@ -960,7 +960,7 @@ void
 aClosure
 )
 {
-PRBool
+bool
 prefVal
 =
 Preferences
@@ -979,16 +979,16 @@ return
 0
 ;
 }
-PRBool
+bool
 NS_SMILEnabled
 (
 )
 {
 static
-PRBool
+bool
 sInitialized
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2234,7 +2234,7 @@ return
 ;
 }
 }
-PRBool
+bool
 nsSVGUtils
 :
 :
@@ -2427,7 +2427,7 @@ GetCTM
 nsSVGElement
 *
 aElement
-PRBool
+bool
 aScreenCTM
 )
 {
@@ -3618,7 +3618,7 @@ RemoveStateBits
 NS_STATE_SVG_DIRTY
 )
 ;
-PRBool
+bool
 changed
 =
 outerSVGFrame
@@ -5146,10 +5146,10 @@ GetEffectProperties
 aFrame
 )
 ;
-PRBool
+bool
 isOK
 =
-PR_TRUE
+true
 ;
 nsSVGFilterFrame
 *
@@ -5276,10 +5276,10 @@ GetGfxContext
 (
 )
 ;
-PRBool
+bool
 complexEffects
 =
-PR_FALSE
+false
 ;
 nsSVGClipPathFrame
 *
@@ -5305,7 +5305,7 @@ GetMaskFrame
 isOK
 )
 ;
-PRBool
+bool
 isTrivialClip
 =
 clipPathFrame
@@ -5317,7 +5317,7 @@ IsTrivial
 (
 )
 :
-PR_TRUE
+true
 ;
 if
 (
@@ -5654,7 +5654,7 @@ Restore
 )
 ;
 }
-PRBool
+bool
 nsSVGUtils
 :
 :
@@ -5693,10 +5693,10 @@ mClipPath
 return
 PR_TRUE
 ;
-PRBool
+bool
 isOK
 =
-PR_TRUE
+true
 ;
 nsSVGClipPathFrame
 *
@@ -6061,7 +6061,7 @@ const
 gfxSize
 &
 aSize
-PRBool
+bool
 *
 aResultOverflows
 )
@@ -6157,7 +6157,7 @@ return
 surfaceSize
 ;
 }
-PRBool
+bool
 nsSVGUtils
 :
 :
@@ -6827,6 +6827,8 @@ GetBBox
 nsIFrame
 *
 aFrame
+PRUint32
+aFlags
 )
 {
 if
@@ -6936,6 +6938,7 @@ GetBBoxContribution
 gfxMatrix
 (
 )
+aFlags
 )
 ;
 }
@@ -7147,7 +7150,7 @@ height
 )
 ;
 }
-PRBool
+bool
 nsSVGUtils
 :
 :
@@ -8152,7 +8155,7 @@ return
 mRenderingContext
 ;
 }
-PRBool
+bool
 nsSVGUtils
 :
 :

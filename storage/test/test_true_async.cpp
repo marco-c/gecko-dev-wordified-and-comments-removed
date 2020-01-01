@@ -1034,7 +1034,7 @@ REASON_CANCELED
 nsresult
 rv
 ;
-PRBool
+bool
 exists
 ;
 rv

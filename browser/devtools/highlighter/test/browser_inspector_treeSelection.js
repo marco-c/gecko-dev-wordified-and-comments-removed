@@ -262,6 +262,8 @@ obs
 addObserver
 (
 runSelectionTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -287,6 +289,8 @@ obs
 removeObserver
 (
 runSelectionTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -300,6 +304,8 @@ obs
 addObserver
 (
 performTestComparisons
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -336,6 +342,8 @@ obs
 removeObserver
 (
 performTestComparisons
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING

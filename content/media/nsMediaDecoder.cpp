@@ -170,19 +170,19 @@ mFrameBufferLength
 )
 mPinnedForSeek
 (
-PR_FALSE
+false
 )
 mSizeChanged
 (
-PR_FALSE
+false
 )
 mImageContainerSizeChanged
 (
-PR_FALSE
+false
 )
 mShuttingDown
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -221,7 +221,7 @@ this
 )
 ;
 }
-PRBool
+bool
 nsMediaDecoder
 :
 :
@@ -237,7 +237,7 @@ mElement
 aElement
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -330,10 +330,10 @@ GetPrimaryFrame
 (
 )
 ;
-PRBool
+bool
 invalidateFrame
 =
-PR_FALSE
+false
 ;
 {
 MutexAutoLock
@@ -348,7 +348,7 @@ mImageContainerSizeChanged
 ;
 mImageContainerSizeChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -369,7 +369,7 @@ mRGBHeight
 ;
 mSizeChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -505,7 +505,7 @@ decoder
 >
 Progress
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -515,7 +515,7 @@ nsMediaDecoder
 :
 Progress
 (
-PRBool
+bool
 aTimer
 )
 {
@@ -751,7 +751,7 @@ mElement
 >
 FireTimeUpdate
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -810,7 +810,7 @@ height
 ;
 mSizeChanged
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -894,7 +894,7 @@ newFrameSize
 {
 mImageContainerSizeChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -955,7 +955,7 @@ return
 }
 mPinnedForSeek
 =
-PR_TRUE
+true
 ;
 stream
 -
@@ -996,7 +996,7 @@ return
 }
 mPinnedForSeek
 =
-PR_FALSE
+false
 ;
 stream
 -
@@ -1006,7 +1006,7 @@ Unpin
 )
 ;
 }
-PRBool
+bool
 nsMediaDecoder
 :
 :
@@ -1036,7 +1036,7 @@ mPlaybackRateReliable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt64
@@ -1087,7 +1087,7 @@ timeToPlay
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt64

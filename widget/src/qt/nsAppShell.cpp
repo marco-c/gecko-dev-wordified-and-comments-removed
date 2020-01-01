@@ -266,13 +266,13 @@ sPokeEvent
 )
 ;
 }
-PRBool
+bool
 nsAppShell
 :
 :
 ProcessNextNativeEvent
 (
-PRBool
+bool
 mayWait
 )
 {

@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsSVGValue
-.
-h
-"
-#
-include
-"
 gfxRect
 .
 h

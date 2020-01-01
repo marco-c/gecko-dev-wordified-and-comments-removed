@@ -72,7 +72,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 ;
@@ -175,7 +175,7 @@ const
 nsAString
 &
 aValue
-PRBool
+bool
 aNotify
 )
 {

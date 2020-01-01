@@ -416,7 +416,7 @@ NS_IMPL_ISUPPORTS1
 nsContentDLF
 nsIDocumentLoaderFactory
 )
-PRBool
+bool
 MayUseXULXBL
 (
 nsIChannel
@@ -626,10 +626,10 @@ GetOriginalContentType
 type
 )
 ;
-PRBool
+bool
 knownType
 =
-PR_FALSE
+false
 ;
 PRInt32
 typeIndex
@@ -2036,7 +2036,7 @@ return
 rv
 ;
 }
-PRBool
+bool
 nsContentDLF
 :
 :
@@ -2070,10 +2070,10 @@ loader
 )
 )
 ;
-PRBool
+bool
 isDecoderAvailable
 =
-PR_FALSE
+false
 ;
 loader
 -

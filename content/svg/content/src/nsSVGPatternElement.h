@@ -162,7 +162,7 @@ nsSVGElement
 )
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (

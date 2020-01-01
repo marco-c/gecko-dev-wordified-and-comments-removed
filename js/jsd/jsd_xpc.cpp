@@ -1014,7 +1014,7 @@ rec
 )
 ;
 }
-PRBool
+bool
 jsds_SyncFilter
 (
 FilterRecord
@@ -1448,7 +1448,7 @@ return
 nsnull
 ;
 }
-PRBool
+bool
 jsds_FilterHook
 (
 JSDContext
@@ -2289,10 +2289,10 @@ callerdata
 )
 {
 static
-PRBool
+bool
 running
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2394,7 +2394,7 @@ flags
 PRUint32
 errnum
 ;
-PRBool
+bool
 rval
 ;
 if
@@ -3728,7 +3728,7 @@ jsdProperty
 :
 GetIsValid
 (
-PRBool
+bool
 *
 _rval
 )
@@ -5233,7 +5233,7 @@ jsdScript
 :
 GetIsValid
 (
-PRBool
+bool
 *
 _rval
 )
@@ -6399,7 +6399,7 @@ jsdScript
 :
 EnableSingleStepInterrupts
 (
-PRBool
+bool
 enable
 )
 {
@@ -6751,7 +6751,7 @@ PRUint32
 aLine
 PRUint32
 aPcmap
-PRBool
+bool
 *
 _rval
 )
@@ -7208,7 +7208,7 @@ jsdContext
 :
 GetIsValid
 (
-PRBool
+bool
 *
 _rval
 )
@@ -7622,7 +7622,7 @@ jsdContext
 :
 GetScriptsEnabled
 (
-PRBool
+bool
 *
 _rval
 )
@@ -7683,7 +7683,7 @@ jsdContext
 :
 SetScriptsEnabled
 (
-PRBool
+bool
 _rval
 )
 {
@@ -8062,7 +8062,7 @@ jsdStackFrame
 :
 GetIsValid
 (
-PRBool
+bool
 *
 _rval
 )
@@ -8213,7 +8213,7 @@ jsdStackFrame
 :
 GetIsDebugger
 (
-PRBool
+bool
 *
 _rval
 )
@@ -8240,7 +8240,7 @@ jsdStackFrame
 :
 GetIsConstructing
 (
-PRBool
+bool
 *
 _rval
 )
@@ -8578,7 +8578,7 @@ jsdIValue
 *
 *
 result
-PRBool
+bool
 *
 _rval
 )
@@ -9011,7 +9011,7 @@ jsdValue
 :
 GetIsValid
 (
-PRBool
+bool
 *
 _rval
 )
@@ -9128,7 +9128,7 @@ jsdValue
 :
 GetIsNative
 (
-PRBool
+bool
 *
 _rval
 )
@@ -9154,7 +9154,7 @@ jsdValue
 :
 GetIsNumber
 (
-PRBool
+bool
 *
 _rval
 )
@@ -9180,7 +9180,7 @@ jsdValue
 :
 GetIsPrimitive
 (
-PRBool
+bool
 *
 _rval
 )
@@ -9526,7 +9526,7 @@ jsdValue
 :
 GetBooleanValue
 (
-PRBool
+bool
 *
 _rval
 )
@@ -10410,7 +10410,7 @@ jsdService
 :
 GetIsOn
 (
-PRBool
+bool
 *
 _rval
 )
@@ -10557,7 +10557,7 @@ cx
 JSCompartment
 *
 comp
-PRBool
+bool
 mode
 )
 {
@@ -13654,7 +13654,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 on
 ;
 rv

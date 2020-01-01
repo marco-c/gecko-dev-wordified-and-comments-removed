@@ -30,9 +30,9 @@ nsIAsyncOutputStream
 *
 *
 output
-PRBool
+bool
 nonBlockingInput
-PRBool
+bool
 nonBlockingOutput
 PRUint32
 segmentSize
@@ -518,7 +518,7 @@ BackwardsAllocator
 :
 HeapMinimize
 (
-PRBool
+bool
 immediate
 )
 {
@@ -532,7 +532,7 @@ BackwardsAllocator
 :
 IsLowMemory
 (
-PRBool
+bool
 *
 retval
 )

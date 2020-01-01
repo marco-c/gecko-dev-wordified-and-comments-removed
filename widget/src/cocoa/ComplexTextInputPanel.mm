@@ -605,10 +605,10 @@ sDoCancel
 0
 )
 {
-PRBool
+bool
 cancelComposition
 =
-PR_FALSE
+false
 ;
 static
 const

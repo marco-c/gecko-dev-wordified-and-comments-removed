@@ -10,7 +10,7 @@ nsIReflowCallback
 public
 :
 virtual
-PRBool
+bool
 ReflowFinished
 (
 )

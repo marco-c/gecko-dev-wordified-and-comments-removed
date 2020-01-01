@@ -33,7 +33,7 @@ nsBidiKeyboard
 (
 )
 ;
-PRPackedBool
+bool
 mHaveBidiKeyboards
 ;
 nsresult

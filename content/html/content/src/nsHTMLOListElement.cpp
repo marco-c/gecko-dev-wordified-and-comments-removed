@@ -111,7 +111,7 @@ nsGenericHTMLElement
 )
 NS_DECL_NSIDOMHTMLOLISTELEMENT
 virtual
-PRBool
+bool
 ParseAttribute
 (
 PRInt32
@@ -137,7 +137,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsAttributeMapped
 (
@@ -509,7 +509,7 @@ NS_STYLE_LIST_STYLE_LOWER_ROMAN
 }
 }
 ;
-PRBool
+bool
 nsHTMLSharedListElement
 :
 :
@@ -755,7 +755,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 nsHTMLSharedListElement
 :

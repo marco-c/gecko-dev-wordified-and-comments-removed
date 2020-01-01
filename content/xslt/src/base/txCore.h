@@ -92,7 +92,7 @@ dpun
 NEGATIVE_INFINITY
 ;
 static
-PRBool
+bool
 isInfinite
 (
 double
@@ -100,7 +100,7 @@ aDbl
 )
 ;
 static
-PRBool
+bool
 isNaN
 (
 double
@@ -108,7 +108,7 @@ aDbl
 )
 ;
 static
-PRBool
+bool
 isNeg
 (
 double
@@ -147,7 +147,7 @@ txDouble
 Double
 ;
 typedef
-PRBool
+bool
 MBool
 ;
 #

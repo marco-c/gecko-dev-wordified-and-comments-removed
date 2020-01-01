@@ -115,7 +115,7 @@ MoveToOrigin
 (
 )
 ;
-PRBool
+bool
 MoveToAbsolute
 (
 const
@@ -124,7 +124,7 @@ nsAString
 aCoordPairStr
 )
 ;
-PRBool
+bool
 LineToAbsolute
 (
 const
@@ -136,7 +136,7 @@ double
 aSegmentDistance
 )
 ;
-PRBool
+bool
 LineToRelative
 (
 const
@@ -149,7 +149,7 @@ aSegmentDistance
 )
 ;
 inline
-PRBool
+bool
 HaveReceivedCommands
 (
 )
@@ -168,7 +168,7 @@ GetResultingPath
 ;
 protected
 :
-PRBool
+bool
 ParseCoordinatePair
 (
 const
@@ -191,7 +191,7 @@ mSVGElement
 gfxContext
 mGfxContext
 ;
-PRPackedBool
+bool
 mHaveReceivedCommands
 ;
 }

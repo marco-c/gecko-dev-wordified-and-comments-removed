@@ -151,7 +151,7 @@ mAdjacencyList
 ;
 }
 static
-PRBool
+bool
 DeleteAdjacencyEntry
 (
 nsHashKey
@@ -921,7 +921,7 @@ NS_OK
 ;
 }
 static
-PRBool
+bool
 InitBFSTable
 (
 nsHashKey
@@ -1060,7 +1060,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 DeleteBFSEntry
 (
 nsHashKey
@@ -2044,7 +2044,7 @@ const
 char
 *
 aToType
-PRBool
+bool
 *
 _retval
 )

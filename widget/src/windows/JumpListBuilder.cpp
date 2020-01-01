@@ -165,13 +165,13 @@ wchar_t
 *
 gMozillaJumpListIDGeneric
 ;
-PRPackedBool
+bool
 JumpListBuilder
 :
 :
 sBuildingList
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -228,7 +228,7 @@ mMaxItems
 )
 mHasCommit
 (
-PR_FALSE
+false
 )
 {
 :
@@ -317,7 +317,7 @@ aAvailable
 *
 aAvailable
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -326,7 +326,7 @@ mJumpListMgr
 *
 aAvailable
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -338,7 +338,7 @@ JumpListBuilder
 :
 GetIsListCommitted
 (
-PRBool
+bool
 *
 aCommit
 )
@@ -451,7 +451,7 @@ InitListBuild
 nsIMutableArray
 *
 removedItems
-PRBool
+bool
 *
 _retval
 )
@@ -464,7 +464,7 @@ removedItems
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -532,12 +532,12 @@ removedItems
 ;
 sBuildingList
 =
-PR_TRUE
+true
 ;
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -836,10 +836,10 @@ rv
 ;
 do
 {
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -941,7 +941,7 @@ ico
 )
 )
 {
-PRBool
+bool
 exists
 ;
 if
@@ -969,7 +969,7 @@ currFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -998,7 +998,7 @@ const
 nsAString
 &
 catName
-PRBool
+bool
 *
 _retval
 )
@@ -1009,7 +1009,7 @@ rv
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1248,7 +1248,7 @@ hr
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1279,7 +1279,7 @@ KDC_RECENT
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1310,7 +1310,7 @@ KDC_FREQUENT
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1639,7 +1639,7 @@ hr
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1677,7 +1677,7 @@ AbortList
 ;
 sBuildingList
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1689,7 +1689,7 @@ JumpListBuilder
 :
 CommitListBuild
 (
-PRBool
+bool
 *
 _retval
 )
@@ -1697,7 +1697,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1719,7 +1719,7 @@ CommitList
 ;
 sBuildingList
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1732,11 +1732,11 @@ hr
 *
 _retval
 =
-PR_TRUE
+true
 ;
 mHasCommit
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1749,7 +1749,7 @@ JumpListBuilder
 :
 DeleteActiveList
 (
-PRBool
+bool
 *
 _retval
 )
@@ -1757,7 +1757,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1812,13 +1812,13 @@ get
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
 ;
 }
-PRBool
+bool
 JumpListBuilder
 :
 :
@@ -1859,7 +1859,7 @@ type
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1872,10 +1872,10 @@ nsIJumpListItem
 JUMPLIST_ITEM_SEPARATOR
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2116,7 +2116,7 @@ removedItems
 AppendElement
 (
 item
-PR_FALSE
+false
 )
 ;
 }
@@ -2157,7 +2157,7 @@ kPrefTaskbarEnabled
 )
 )
 {
-PRBool
+bool
 enabled
 =
 Preferences
@@ -2841,7 +2841,7 @@ rv
 rv
 )
 ;
-PRBool
+bool
 exists
 ;
 rv
@@ -2878,7 +2878,7 @@ ico
 )
 )
 {
-PRBool
+bool
 exists
 ;
 if
@@ -2907,7 +2907,7 @@ icoFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3015,10 +3015,10 @@ rv
 ;
 do
 {
-PRBool
+bool
 hasMore
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3120,7 +3120,7 @@ ico
 )
 )
 {
-PRBool
+bool
 exists
 ;
 if
@@ -3148,7 +3148,7 @@ currFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }

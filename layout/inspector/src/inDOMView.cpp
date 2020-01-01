@@ -212,16 +212,16 @@ previous
 PRInt32
 level
 ;
-PRBool
+bool
 isOpen
 ;
-PRBool
+bool
 isContainer
 ;
-PRBool
+bool
 hasAnonymous
 ;
-PRBool
+bool
 hasSubDocument
 ;
 }
@@ -722,7 +722,7 @@ inDOMView
 :
 GetShowAnonymousContent
 (
-PRBool
+bool
 *
 aShowAnonymousContent
 )
@@ -742,7 +742,7 @@ inDOMView
 :
 SetShowAnonymousContent
 (
-PRBool
+bool
 aShowAnonymousContent
 )
 {
@@ -760,7 +760,7 @@ inDOMView
 :
 GetShowSubDocuments
 (
-PRBool
+bool
 *
 aShowSubDocuments
 )
@@ -780,7 +780,7 @@ inDOMView
 :
 SetShowSubDocuments
 (
-PRBool
+bool
 aShowSubDocuments
 )
 {
@@ -798,7 +798,7 @@ inDOMView
 :
 GetShowWhitespaceNodes
 (
-PRBool
+bool
 *
 aShowWhitespaceNodes
 )
@@ -818,7 +818,7 @@ inDOMView
 :
 SetShowWhitespaceNodes
 (
-PRBool
+bool
 aShowWhitespaceNodes
 )
 {
@@ -836,7 +836,7 @@ inDOMView
 :
 GetShowAccessibleNodes
 (
-PRBool
+bool
 *
 aShowAccessibleNodes
 )
@@ -856,7 +856,7 @@ inDOMView
 :
 SetShowAccessibleNodes
 (
-PRBool
+bool
 aShowAccessibleNodes
 )
 {
@@ -1698,7 +1698,7 @@ IsContainer
 (
 PRInt32
 index
-PRBool
+bool
 *
 _retval
 )
@@ -1744,7 +1744,7 @@ IsContainerOpen
 (
 PRInt32
 index
-PRBool
+bool
 *
 _retval
 )
@@ -1790,7 +1790,7 @@ IsContainerEmpty
 (
 PRInt32
 index
-PRBool
+bool
 *
 _retval
 )
@@ -1998,7 +1998,7 @@ PRInt32
 rowIndex
 PRInt32
 afterIndex
-PRBool
+bool
 *
 _retval
 )
@@ -2284,7 +2284,7 @@ row
 nsITreeColumn
 *
 col
-PRBool
+bool
 *
 _retval
 )
@@ -2304,7 +2304,7 @@ row
 nsITreeColumn
 *
 col
-PRBool
+bool
 *
 _retval
 )
@@ -2321,7 +2321,7 @@ IsSeparator
 (
 PRInt32
 index
-PRBool
+bool
 *
 _retval
 )
@@ -2336,7 +2336,7 @@ inDOMView
 :
 IsSorted
 (
-PRBool
+bool
 *
 _retval
 )
@@ -2358,7 +2358,7 @@ orientation
 nsIDOMDataTransfer
 *
 aDataTransfer
-PRBool
+bool
 *
 _retval
 )
@@ -3629,7 +3629,7 @@ oldNode
 >
 parent
 ;
-PRBool
+bool
 isOnlyChild
 =
 oldNode
@@ -3858,7 +3858,7 @@ return
 viewNode
 ;
 }
-PRBool
+bool
 inDOMView
 :
 :
@@ -5337,7 +5337,7 @@ nsIDOMCharacterData
 "
 )
 ;
-PRBool
+bool
 ignore
 ;
 mDOMUtils

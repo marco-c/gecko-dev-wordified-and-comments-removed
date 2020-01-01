@@ -598,8 +598,11 @@ defined
 }
 req
 .
-onreadystatechange
-=
+addEventListener
+(
+"
+readystatechange
+"
 function
 (
 aEvt
@@ -722,6 +725,8 @@ null
 }
 }
 }
+false
+)
 ;
 req
 .

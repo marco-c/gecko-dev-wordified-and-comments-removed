@@ -248,7 +248,7 @@ src
 )
 ;
 }
-PRBool
+bool
 SVGNumberListSMILType
 :
 :

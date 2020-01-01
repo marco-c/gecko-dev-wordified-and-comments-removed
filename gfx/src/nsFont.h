@@ -33,7 +33,7 @@ gfxFontConstants
 h
 "
 typedef
-PRBool
+bool
 (
 *
 nsFontFamilyEnumFunc
@@ -43,7 +43,7 @@ const
 nsString
 &
 aFamily
-PRBool
+bool
 aGeneric
 void
 *
@@ -228,7 +228,7 @@ nsFont
 (
 )
 ;
-PRBool
+bool
 operator
 =
 =
@@ -247,7 +247,7 @@ aOther
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -257,7 +257,7 @@ aOther
 )
 const
 ;
-PRBool
+bool
 BaseEquals
 (
 const
@@ -278,7 +278,7 @@ nsFont
 aOther
 )
 ;
-PRBool
+bool
 EnumerateFamilies
 (
 nsFontFamilyEnumFunc

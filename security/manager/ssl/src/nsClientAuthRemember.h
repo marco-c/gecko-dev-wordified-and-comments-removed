@@ -207,7 +207,7 @@ HostWithCertPtr
 )
 ;
 }
-PRBool
+bool
 KeyEquals
 (
 KeyTypePointer
@@ -368,7 +368,7 @@ aServerCert
 nsACString
 &
 aCertDBKey
-PRBool
+bool
 *
 _retval
 )

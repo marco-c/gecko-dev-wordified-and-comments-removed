@@ -162,7 +162,7 @@ mDocument
 ;
 }
 }
-PRBool
+bool
 LoadingFailed
 (
 )
@@ -257,7 +257,7 @@ txExecutionState
 txStylesheet
 *
 aStylesheet
-PRBool
+bool
 aDisableLoads
 )
 ;
@@ -334,11 +334,11 @@ popEvalContext
 nsresult
 pushBool
 (
-PRBool
+bool
 aBool
 )
 ;
-PRBool
+bool
 popBool
 (
 )
@@ -426,7 +426,7 @@ const
 nsAString
 &
 aKeyValue
-PRBool
+bool
 aIndexIfNotFound
 txNodeSet
 *
@@ -570,7 +570,7 @@ mEvalContextStack
 ;
 nsTArray
 <
-PRPackedBool
+bool
 >
 mBoolStack
 ;
@@ -634,7 +634,7 @@ txResultRecycler
 >
 mRecycler
 ;
-PRPackedBool
+bool
 mDisableLoads
 ;
 static

@@ -110,10 +110,10 @@ gStaticAtomTable
 0
 ;
 static
-PRBool
+bool
 gStaticAtomTableSealed
 =
-PR_FALSE
+false
 ;
 struct
 AtomTableEntry
@@ -229,7 +229,7 @@ k
 mUTF8String
 )
 {
-PRBool
+bool
 err
 ;
 PRUint32
@@ -311,7 +311,7 @@ mLength
 ;
 }
 static
-PRBool
+bool
 AtomTableMatchKey
 (
 PLDHashTable
@@ -504,7 +504,7 @@ atom
 }
 }
 static
-PRBool
+bool
 AtomTableInitEntry
 (
 PLDHashTable
@@ -1257,7 +1257,7 @@ return
 1
 ;
 }
-PRBool
+bool
 AtomImpl
 :
 :
@@ -1269,7 +1269,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 PermanentAtomImpl
 :
 :
@@ -1378,7 +1378,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 AtomImpl
 :
@@ -1416,7 +1416,7 @@ const
 nsAString
 &
 aString
-PRBool
+bool
 *
 aResult
 )
@@ -1441,7 +1441,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-PRBool
+bool
 )
 AtomImpl
 :

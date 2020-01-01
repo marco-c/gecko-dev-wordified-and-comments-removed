@@ -264,11 +264,11 @@ aRules
 nsRuleNode
 *
 aRulesIfVisited
-PRBool
+bool
 aRelevantLinkVisited
 )
 ;
-PRBool
+bool
 HasTextDecorationLines
 (
 )
@@ -284,7 +284,7 @@ NS_STYLE_HAS_TEXT_DECORATION_LINES
 )
 ;
 }
-PRBool
+bool
 HasPseudoElementData
 (
 )
@@ -300,7 +300,7 @@ NS_STYLE_HAS_PSEUDO_ELEMENT_DATA
 )
 ;
 }
-PRBool
+bool
 RelevantLinkVisited
 (
 )
@@ -316,7 +316,7 @@ NS_STYLE_RELEVANT_LINK_VISITED
 )
 ;
 }
-PRBool
+bool
 IsLinkContext
 (
 )
@@ -343,7 +343,7 @@ GetParent
 )
 ;
 }
-PRBool
+bool
 IsStyleIfVisited
 (
 )
@@ -845,7 +845,7 @@ CombineVisitedColors
 nscolor
 *
 aColors
-PRBool
+bool
 aLinkIsVisited
 )
 ;
@@ -946,7 +946,7 @@ DoGetStyle
 #
 name_
 (
-PRBool
+bool
 aComputeData
 )
 {
@@ -1044,7 +1044,7 @@ DoGetStyle
 #
 name_
 (
-PRBool
+bool
 aComputeData
 )
 {

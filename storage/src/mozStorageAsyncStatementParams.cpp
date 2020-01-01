@@ -138,7 +138,7 @@ aId
 jsval
 *
 _vp
-PRBool
+bool
 *
 _retval
 )
@@ -321,7 +321,7 @@ JSObject
 *
 *
 _objp
-PRBool
+bool
 *
 _retval
 )
@@ -337,10 +337,10 @@ resolved
 =
 false
 ;
-PRBool
+bool
 ok
 =
-PR_TRUE
+true
 ;
 if
 (

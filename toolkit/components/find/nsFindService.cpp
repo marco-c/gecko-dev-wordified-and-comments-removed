@@ -128,7 +128,7 @@ nsFindService
 :
 GetFindBackwards
 (
-PRBool
+bool
 *
 aFindBackwards
 )
@@ -153,7 +153,7 @@ nsFindService
 :
 SetFindBackwards
 (
-PRBool
+bool
 aFindBackwards
 )
 {
@@ -171,7 +171,7 @@ nsFindService
 :
 GetWrapFind
 (
-PRBool
+bool
 *
 aWrapFind
 )
@@ -196,7 +196,7 @@ nsFindService
 :
 SetWrapFind
 (
-PRBool
+bool
 aWrapFind
 )
 {
@@ -214,7 +214,7 @@ nsFindService
 :
 GetEntireWord
 (
-PRBool
+bool
 *
 aEntireWord
 )
@@ -239,7 +239,7 @@ nsFindService
 :
 SetEntireWord
 (
-PRBool
+bool
 aEntireWord
 )
 {
@@ -257,7 +257,7 @@ nsFindService
 :
 GetMatchCase
 (
-PRBool
+bool
 *
 aMatchCase
 )
@@ -282,7 +282,7 @@ nsFindService
 :
 SetMatchCase
 (
-PRBool
+bool
 aMatchCase
 )
 {

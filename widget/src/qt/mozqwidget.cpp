@@ -1895,10 +1895,10 @@ QEvent
 TouchUpdate
 :
 {
-PRBool
+bool
 handled
 =
-PR_FALSE
+false
 ;
 mReceiver
 -
@@ -1929,10 +1929,10 @@ Gesture
 )
 :
 {
-PRBool
+bool
 handled
 =
-PR_FALSE
+false
 ;
 mReceiver
 -

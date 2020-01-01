@@ -133,9 +133,9 @@ BuildModel
 nsITokenizer
 *
 aTokenizer
-PRBool
+bool
 aCanInterrupt
-PRBool
+bool
 aCountLines
 const
 nsCString
@@ -147,7 +147,7 @@ aCharsetPtr
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 CanContain
 (
@@ -162,7 +162,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsContainer
 (
@@ -245,9 +245,9 @@ BuildModel
 nsITokenizer
 *
 aTokenizer
-PRBool
+bool
 aCanInterrupt
-PRBool
+bool
 aCountLines
 const
 nsCString
@@ -258,7 +258,7 @@ aCharsetPtr
 \
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 CanContain
 (
@@ -272,7 +272,7 @@ const
 \
 NS_IMETHOD_
 (
-PRBool
+bool
 )
 IsContainer
 (

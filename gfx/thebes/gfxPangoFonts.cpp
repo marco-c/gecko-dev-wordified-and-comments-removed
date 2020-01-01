@@ -388,7 +388,7 @@ GetPangoFontMap
 )
 ;
 static
-PRBool
+bool
 gUseFontMapProperty
 ;
 static
@@ -569,7 +569,7 @@ result
 ;
 }
 static
-PRBool
+bool
 HasChar
 (
 FcPattern
@@ -630,7 +630,7 @@ return
 mPatterns
 ;
 }
-PRBool
+bool
 ShouldUseHarfBuzz
 (
 PRInt32
@@ -687,7 +687,7 @@ RealFaceName
 )
 ;
 virtual
-PRBool
+bool
 TestCharacterMap
 (
 PRUint32
@@ -769,10 +769,10 @@ FcPattern
 >
 mPatterns
 ;
-PRPackedBool
+bool
 mSkipHarfBuzz
 ;
-PRPackedBool
+bool
 mSkipGraphiteCheck
 ;
 static
@@ -994,7 +994,7 @@ RealFaceName
 )
 ;
 }
-PRBool
+bool
 gfxFcFontEntry
 :
 :
@@ -1856,7 +1856,7 @@ gfxDownloadedFcFontEntry
 (
 )
 ;
-PRBool
+bool
 SetCairoFace
 (
 cairo_font_face_t
@@ -2402,7 +2402,7 @@ downloadedFontEntry
 )
 ;
 }
-PRBool
+bool
 gfxDownloadedFcFontEntry
 :
 :
@@ -2701,7 +2701,7 @@ mPangoFont
 protected
 :
 virtual
-PRBool
+bool
 InitTextRun
 (
 gfxContext
@@ -2720,11 +2720,11 @@ PRUint32
 aRunLength
 PRInt32
 aRunScript
-PRBool
+bool
 aPreferPlatformShaping
 )
 ;
-PRBool
+bool
 InitGlyphRunWithPango
 (
 gfxTextRun
@@ -4296,7 +4296,7 @@ mHaveFallbackFonts
 PR_FALSE
 )
 {
-PRBool
+bool
 waitForUserFont
 ;
 mFcFontSet
@@ -4391,7 +4391,7 @@ PRUint32
 i
 )
 ;
-PRBool
+bool
 WaitingForUserFont
 (
 )
@@ -4409,7 +4409,7 @@ FcFontSet
 >
 SortPreferredFonts
 (
-PRBool
+bool
 &
 aWaitForUserFont
 )
@@ -4497,7 +4497,7 @@ LangComparator
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
@@ -4561,10 +4561,10 @@ mCharSet
 int
 mFcFontsTrimmed
 ;
-PRPackedBool
+bool
 mHaveFallbackFonts
 ;
-PRPackedBool
+bool
 mWaitingForUserFont
 ;
 }
@@ -4594,10 +4594,10 @@ PRUint16
 aWeight
 PRInt16
 aStretch
-PRBool
+bool
 &
 aFoundFamily
-PRBool
+bool
 &
 aWaitForUserFont
 )
@@ -4608,7 +4608,7 @@ utf16Family
 aFamily
 )
 ;
-PRBool
+bool
 needsBold
 ;
 gfxFontStyle
@@ -4784,7 +4784,7 @@ id
 ;
 }
 static
-PRBool
+bool
 SlantIsAcceptable
 (
 FcPattern
@@ -4858,7 +4858,7 @@ PR_TRUE
 ;
 }
 static
-PRBool
+bool
 SizeIsAcceptable
 (
 FcPattern
@@ -4930,7 +4930,7 @@ gfxFcFontSet
 :
 SortPreferredFonts
 (
-PRBool
+bool
 &
 aWaitForUserFont
 )
@@ -5183,10 +5183,10 @@ familyFonts
 =
 nsnull
 ;
-PRBool
+bool
 isUserFont
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5268,7 +5268,7 @@ GetThebesStretch
 mSortPattern
 )
 ;
-PRBool
+bool
 foundFamily
 waitForUserFont
 ;
@@ -5613,10 +5613,10 @@ r
 mLang
 )
 ;
-PRBool
+bool
 haveLangFont
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -6389,7 +6389,7 @@ double
 aFallbackSize
 double
 aSizeAdjustFactor
-PRBool
+bool
 aIsPrinterFont
 )
 {
@@ -6631,7 +6631,7 @@ h
 ;
 }
 static
-PRBool
+bool
 FamilyCallback
 (
 const
@@ -6642,7 +6642,7 @@ const
 nsACString
 &
 genericName
-PRBool
+bool
 aUseFontSet
 void
 *
@@ -7887,7 +7887,7 @@ this
 ;
 }
 }
-PRBool
+bool
 gfxFcFont
 :
 :
@@ -7909,7 +7909,7 @@ PRUint32
 aRunLength
 PRInt32
 aRunScript
-PRBool
+bool
 aPreferPlatformShaping
 )
 {
@@ -8012,7 +8012,7 @@ PangoScript
 aRunScript
 )
 ;
-PRBool
+bool
 ok
 =
 InitGlyphRunWithPango
@@ -9954,7 +9954,7 @@ gfxTextRun
 CompressedGlyph
 g
 ;
-PRBool
+bool
 atClusterStart
 =
 aTextRun
@@ -10783,10 +10783,10 @@ utf8Index
 -
 clusterUTF8Start
 ;
-PRBool
+bool
 haveMissingGlyph
 =
-PR_FALSE
+false
 ;
 gint
 glyphIndex
@@ -11244,7 +11244,7 @@ local
 }
 PangoAnalysisUnion
 ;
-PRBool
+bool
 gfxFcFont
 :
 :

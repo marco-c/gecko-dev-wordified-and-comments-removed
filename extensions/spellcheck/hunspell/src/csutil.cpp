@@ -28673,10 +28673,10 @@ i
 i
 )
 {
-PRBool
+bool
 success
 =
-PR_FALSE
+false
 ;
 char
 lower

@@ -30,7 +30,7 @@ nsHTMLEditUtils
 public
 :
 static
-PRBool
+bool
 IsBig
 (
 nsIDOMNode
@@ -39,7 +39,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsSmall
 (
 nsIDOMNode
@@ -48,7 +48,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsInlineStyle
 (
 nsIDOMNode
@@ -57,7 +57,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsFormatNode
 (
 nsIDOMNode
@@ -66,7 +66,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsNodeThatCanOutdent
 (
 nsIDOMNode
@@ -75,7 +75,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsHeader
 (
 nsIDOMNode
@@ -84,7 +84,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsParagraph
 (
 nsIDOMNode
@@ -93,7 +93,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsHR
 (
 nsIDOMNode
@@ -102,7 +102,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsListItem
 (
 nsIDOMNode
@@ -111,7 +111,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsTable
 (
 nsIDOMNode
@@ -120,7 +120,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsTableRow
 (
 nsIDOMNode
@@ -129,7 +129,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsTableElement
 (
 nsIDOMNode
@@ -138,7 +138,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsTableElementButNotTable
 (
 nsIDOMNode
@@ -147,7 +147,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsTableCell
 (
 nsIDOMNode
@@ -156,7 +156,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsTableCellOrCaption
 (
 nsIDOMNode
@@ -165,7 +165,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsList
 (
 nsIDOMNode
@@ -174,7 +174,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsOrderedList
 (
 nsIDOMNode
@@ -183,7 +183,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsUnorderedList
 (
 nsIDOMNode
@@ -192,7 +192,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsBlockquote
 (
 nsIDOMNode
@@ -201,7 +201,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsPre
 (
 nsIDOMNode
@@ -210,7 +210,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsAddress
 (
 nsIDOMNode
@@ -219,7 +219,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsAnchor
 (
 nsIDOMNode
@@ -228,7 +228,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsImage
 (
 nsIDOMNode
@@ -237,7 +237,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsLink
 (
 nsIDOMNode
@@ -246,7 +246,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsNamedAnchor
 (
 nsIDOMNode
@@ -255,7 +255,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsDiv
 (
 nsIDOMNode
@@ -264,7 +264,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsMozDiv
 (
 nsIDOMNode
@@ -273,7 +273,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsMailCite
 (
 nsIDOMNode
@@ -282,7 +282,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 IsFormWidget
 (
 nsIDOMNode
@@ -291,7 +291,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 SupportsAlignAttr
 (
 nsIDOMNode
@@ -300,7 +300,7 @@ aNode
 )
 ;
 static
-PRBool
+bool
 CanContain
 (
 PRInt32
@@ -310,7 +310,7 @@ aChild
 )
 ;
 static
-PRBool
+bool
 IsContainer
 (
 PRInt32

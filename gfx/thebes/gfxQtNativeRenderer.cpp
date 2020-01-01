@@ -52,7 +52,7 @@ DisplayOfScreen
 screen
 )
 ;
-PRBool
+bool
 isOpaque
 =
 (
@@ -61,9 +61,9 @@ flags
 DRAW_IS_OPAQUE
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 int
 screenNumber

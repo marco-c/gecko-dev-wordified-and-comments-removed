@@ -189,13 +189,13 @@ mResponseQ
 nsresult
 mStatus
 ;
-PRPackedBool
+bool
 mRequestIsPartial
 ;
-PRPackedBool
+bool
 mResponseIsPartial
 ;
-PRPackedBool
+bool
 mClosed
 ;
 nsAHttpSegmentReader

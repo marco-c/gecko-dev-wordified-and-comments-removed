@@ -2265,7 +2265,7 @@ const
 char
 *
 string
-PRBool
+bool
 default_to_gmt
 PRTime
 *

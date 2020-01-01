@@ -117,7 +117,7 @@ nsScanner
 nsString
 &
 aFilename
-PRBool
+bool
 aCreateStream
 const
 nsACString
@@ -216,7 +216,7 @@ aString
 PRInt32
 &
 aNewlinesSkipped
-PRBool
+bool
 &
 aHaveCR
 )
@@ -243,7 +243,7 @@ nsAString
 aString
 PRUnichar
 aTerminal
-PRBool
+bool
 addTerminal
 )
 ;
@@ -257,7 +257,7 @@ const
 nsReadEndCondition
 &
 aEndCondition
-PRBool
+bool
 addTerminal
 )
 ;
@@ -271,7 +271,7 @@ const
 nsReadEndCondition
 &
 aEndCondition
-PRBool
+bool
 addTerminal
 )
 ;
@@ -288,7 +288,7 @@ const
 nsReadEndCondition
 &
 aEndCondition
-PRBool
+bool
 addTerminal
 )
 ;
@@ -304,7 +304,7 @@ RewindToMark
 void
 )
 ;
-PRBool
+bool
 UngetReadable
 (
 const
@@ -406,14 +406,14 @@ SetPosition
 nsScannerIterator
 &
 aPosition
-PRBool
+bool
 aTruncate
 =
-PR_FALSE
-PRBool
+false
+bool
 aReverse
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -426,7 +426,7 @@ PRUnichar
 aChar
 )
 ;
-PRBool
+bool
 IsIncremental
 (
 void
@@ -439,7 +439,7 @@ mIncremental
 void
 SetIncremental
 (
-PRBool
+bool
 anIncrValue
 )
 {
@@ -466,7 +466,7 @@ aReplacementCharacter
 ;
 protected
 :
-PRBool
+bool
 AppendToBuffer
 (
 nsScannerString
@@ -484,7 +484,7 @@ aErrorPos
 1
 )
 ;
-PRBool
+bool
 AppendToBuffer
 (
 const
@@ -548,10 +548,10 @@ mFilename
 PRUint32
 mCountRemaining
 ;
-PRPackedBool
+bool
 mIncremental
 ;
-PRPackedBool
+bool
 mHasInvalidCharacter
 ;
 PRUnichar

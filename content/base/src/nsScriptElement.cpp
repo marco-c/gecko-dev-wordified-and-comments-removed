@@ -97,7 +97,7 @@ aResult
 nsIScriptElement
 *
 aElement
-PRBool
+bool
 aIsInline
 nsIURI
 *
@@ -242,7 +242,7 @@ aResult
 nsIScriptElement
 *
 aElement
-PRBool
+bool
 aIsInline
 )
 {

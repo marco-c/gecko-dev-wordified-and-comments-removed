@@ -767,7 +767,7 @@ reporter
 "
 )
 ;
-PRBool
+bool
 enabled
 ;
 if
@@ -902,7 +902,7 @@ aKey
 )
 {
 }
-PRBool
+bool
 KeyEquals
 (
 KeyTypePointer

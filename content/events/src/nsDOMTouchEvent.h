@@ -260,7 +260,7 @@ nsDOMUIEvent
 NS_DECL_NSIDOMTOUCHEVENT
 NS_FORWARD_TO_NSDOMUIEVENT
 static
-PRBool
+bool
 PrefEnabled
 (
 )

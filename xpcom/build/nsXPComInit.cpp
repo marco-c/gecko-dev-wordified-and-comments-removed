@@ -959,10 +959,10 @@ gComponentManager
 =
 NULL
 ;
-PRBool
+bool
 gXPCOMShuttingDown
 =
-PR_FALSE
+false
 ;
 static
 NS_DEFINE_CID
@@ -1779,7 +1779,7 @@ rv
 return
 rv
 ;
-PRBool
+bool
 value
 ;
 if
@@ -2643,7 +2643,7 @@ if
 moduleLoaders
 )
 {
-PRBool
+bool
 more
 ;
 nsCOMPtr

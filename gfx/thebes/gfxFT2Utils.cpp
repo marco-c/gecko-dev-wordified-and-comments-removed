@@ -1609,7 +1609,7 @@ aVariantSelector
 )
 ;
 }
-PRBool
+bool
 gfxFT2LockedFace
 :
 :

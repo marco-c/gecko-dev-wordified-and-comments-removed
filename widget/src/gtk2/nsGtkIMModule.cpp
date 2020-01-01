@@ -240,10 +240,10 @@ nsnull
 ifdef
 MOZ_PLATFORM_MAEMO
 static
-PRBool
+bool
 gIsVirtualKeyboardOpened
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -292,15 +292,15 @@ nsnull
 )
 mIsComposing
 (
-PR_FALSE
+false
 )
 mIsIMFocused
 (
-PR_FALSE
+false
 )
 mIgnoreNativeCompositionEvent
 (
-PR_FALSE
+false
 )
 {
 #
@@ -1250,7 +1250,7 @@ Blur
 )
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -1262,7 +1262,7 @@ aCaller
 GdkEventKey
 *
 aEvent
-PRBool
+bool
 aKeyDownEventWasSent
 )
 {
@@ -1296,7 +1296,7 @@ IsDestroyed
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PR_LOG
@@ -1433,7 +1433,7 @@ mLastFocusedWindow
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 GtkIMContext
@@ -1469,7 +1469,7 @@ context
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mKeyDownEventWasSent
@@ -1478,7 +1478,7 @@ aKeyDownEventWasSent
 ;
 mFilterKeyEvent
 =
-PR_TRUE
+true
 ;
 mProcessingKeyEvent
 =
@@ -1497,7 +1497,7 @@ mProcessingKeyEvent
 =
 nsnull
 ;
-PRBool
+bool
 filterThisEvent
 =
 isFiltered
@@ -1537,7 +1537,7 @@ IsEmpty
 {
 filterThisEvent
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1551,7 +1551,7 @@ EmptyString
 ;
 filterThisEvent
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1559,7 +1559,7 @@ else
 {
 filterThisEvent
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1624,7 +1624,7 @@ nsGtkIMModule
 :
 OnFocusChangeInGecko
 (
-PRBool
+bool
 aFocus
 )
 {
@@ -1705,7 +1705,7 @@ aFocus
 {
 mIgnoreNativeCompositionEvent
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1798,7 +1798,7 @@ return
 }
 mIgnoreNativeCompositionEvent
 =
-PR_TRUE
+true
 ;
 gtk_im_context_reset
 (
@@ -2331,7 +2331,7 @@ nsIWidget
 IME_STATUS_PLUGIN
 )
 {
-PRBool
+bool
 useStrictPolicy
 =
 Preferences
@@ -2346,7 +2346,7 @@ ime
 .
 strict_policy
 "
-PR_FALSE
+false
 )
 ;
 if
@@ -2474,7 +2474,7 @@ NULL
 ;
 gIsVirtualKeyboardOpened
 =
-PR_TRUE
+true
 ;
 hildon_gtk_im_context_show
 (
@@ -2486,7 +2486,7 @@ else
 {
 gIsVirtualKeyboardOpened
 =
-PR_FALSE
+false
 ;
 hildon_gtk_im_context_hide
 (
@@ -2712,7 +2712,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -2729,7 +2729,7 @@ gIsVirtualKeyboardOpened
 #
 else
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -2780,7 +2780,7 @@ return
 mDummyContext
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -2827,7 +2827,7 @@ nsIWidget
 IME_STATUS_PLUGIN
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -2991,7 +2991,7 @@ im
 ;
 mIsIMFocused
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3094,7 +3094,7 @@ im
 ;
 mIsIMFocused
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -3306,7 +3306,7 @@ GetContext
 return
 ;
 }
-PRBool
+bool
 shouldIgnoreThisEvent
 =
 ShouldIgnoreNativeCompositionEvent
@@ -3315,7 +3315,7 @@ ShouldIgnoreNativeCompositionEvent
 ;
 mIgnoreNativeCompositionEvent
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3473,7 +3473,7 @@ return
 DispatchTextEvent
 (
 compositionString
-PR_TRUE
+true
 )
 ;
 }
@@ -4092,7 +4092,7 @@ this
 ;
 mFilterKeyEvent
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -4110,7 +4110,7 @@ str
 )
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -4180,12 +4180,12 @@ if
 DispatchTextEvent
 (
 aString
-PR_FALSE
+false
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -4292,7 +4292,7 @@ preedit_string
 )
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -4341,7 +4341,7 @@ composition
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -4370,7 +4370,7 @@ module
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsEventStatus
@@ -4379,7 +4379,7 @@ status
 nsQueryContentEvent
 selection
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mLastFocusedWindow
 )
@@ -4434,7 +4434,7 @@ offset
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mCompositionStart
@@ -4477,7 +4477,7 @@ kungFuDeathGrip
 =
 mLastFocusedWindow
 ;
-PRBool
+bool
 isCancelled
 ;
 mLastFocusedWindow
@@ -4553,7 +4553,7 @@ event
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4583,7 +4583,7 @@ reset
 ;
 mIgnoreNativeCompositionEvent
 =
-PR_FALSE
+false
 ;
 }
 PR_LOG
@@ -4603,12 +4603,12 @@ mCompositionStart
 ;
 mIsComposing
 =
-PR_TRUE
+true
 ;
 nsCompositionEvent
 compEvent
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 mLastFocusedWindow
 )
@@ -4685,14 +4685,14 @@ event
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -4760,7 +4760,7 @@ composition
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4795,13 +4795,13 @@ module
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCompositionEvent
 compEvent
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 mLastFocusedWindow
 )
@@ -4840,7 +4840,7 @@ status
 ;
 mIsComposing
 =
-PR_FALSE
+false
 ;
 mCompositionStart
 =
@@ -4901,14 +4901,14 @@ event
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -4918,7 +4918,7 @@ const
 nsAString
 &
 aCompositionString
-PRBool
+bool
 aCheckAttr
 )
 {
@@ -4979,7 +4979,7 @@ module
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5026,7 +5026,7 @@ DispatchCompositionStart
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -5052,7 +5052,7 @@ mDispatchedCompositionString
 nsCompositionEvent
 compositionUpdate
 (
-PR_TRUE
+true
 NS_COMPOSITION_UPDATE
 mLastFocusedWindow
 )
@@ -5119,14 +5119,14 @@ compositionupdate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
 nsTextEvent
 textEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 mLastFocusedWindow
 )
@@ -5295,7 +5295,7 @@ event
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 SetCursorPosition
@@ -5304,7 +5304,7 @@ targetOffset
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -5974,7 +5974,7 @@ return
 nsQueryContentEvent
 charRect
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_RECT
 mLastFocusedWindow
 )
@@ -6212,7 +6212,7 @@ status
 nsQueryContentEvent
 querySelectedTextEvent
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mLastFocusedWindow
 )
@@ -6320,7 +6320,7 @@ NS_ERROR_FAILURE
 nsQueryContentEvent
 queryTextContentEvent
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 mLastFocusedWindow
 )
@@ -6446,7 +6446,7 @@ RFind
 \
 n
 "
-PR_FALSE
+false
 selOffset
 -
 1
@@ -6467,7 +6467,7 @@ Find
 \
 n
 "
-PR_FALSE
+false
 selOffset
 +
 selLength
@@ -6620,7 +6620,7 @@ status
 nsQueryContentEvent
 querySelectedTextEvent
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mLastFocusedWindow
 )
@@ -6646,7 +6646,7 @@ NS_ERROR_FAILURE
 nsSelectionEvent
 selectionEvent
 (
-PR_TRUE
+true
 NS_SELECTION_SET
 mLastFocusedWindow
 )
@@ -6673,13 +6673,13 @@ selectionEvent
 .
 mReversed
 =
-PR_FALSE
+false
 ;
 selectionEvent
 .
 mExpandToClusterBoundary
 =
-PR_FALSE
+false
 ;
 mLastFocusedWindow
 -
@@ -6702,7 +6702,7 @@ NS_ERROR_FAILURE
 nsContentCommandEvent
 contentCommandEvent
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_DELETE
 mLastFocusedWindow
 )
@@ -6751,7 +6751,7 @@ PR_Now
 1000
 ;
 }
-PRBool
+bool
 nsGtkIMModule
 :
 :
@@ -6802,7 +6802,7 @@ mLastFocusedWindow
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return

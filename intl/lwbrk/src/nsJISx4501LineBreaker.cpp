@@ -520,7 +520,7 @@ u
 }
 static
 inline
-PRBool
+bool
 IS_NONBREAKABLE_SPACE
 (
 PRUnichar
@@ -542,7 +542,7 @@ u
 }
 static
 inline
-PRBool
+bool
 IS_HYPHEN
 (
 PRUnichar
@@ -1181,7 +1181,7 @@ c
 ;
 }
 static
-PRBool
+bool
 GetPair
 (
 PRInt8
@@ -1236,7 +1236,7 @@ c2
 ;
 }
 static
-PRBool
+bool
 GetPairConservative
 (
 PRInt8
@@ -1456,7 +1456,7 @@ mIndex
 define
 CONSERVATIVE_BREAK_RANGE
 6
-PRBool
+bool
 UseConservativeBreaking
 (
 PRUint32
@@ -1479,7 +1479,7 @@ mIndex
 +
 aOffset
 ;
-PRBool
+bool
 result
 =
 (
@@ -1585,7 +1585,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+bool
 HasPreviousEqualsSign
 (
 )
@@ -1605,7 +1605,7 @@ mHasPreviousEqualsSign
 PR_TRUE
 ;
 }
-PRBool
+bool
 HasPreviousSlash
 (
 )
@@ -1625,7 +1625,7 @@ mHasPreviousSlash
 PR_TRUE
 ;
 }
-PRBool
+bool
 HasPreviousBackslash
 (
 )
@@ -1788,19 +1788,19 @@ mLastBreakIndex
 PRUnichar
 mPreviousNonHyphenCharacter
 ;
-PRPackedBool
+bool
 mHasCJKChar
 ;
-PRPackedBool
+bool
 mHasNonbreakableSpace
 ;
-PRPackedBool
+bool
 mHasPreviousEqualsSign
 ;
-PRPackedBool
+bool
 mHasPreviousSlash
 ;
-PRPackedBool
+bool
 mHasPreviousBackslash
 ;
 }
@@ -1838,7 +1838,7 @@ next
 return
 CLASS_CHARACTER
 ;
-PRBool
+bool
 prevIsNum
 =
 IS_ASCII_DIGIT
@@ -1846,7 +1846,7 @@ IS_ASCII_DIGIT
 prev
 )
 ;
-PRBool
+bool
 nextIsNum
 =
 IS_ASCII_DIGIT
@@ -1892,7 +1892,7 @@ prevOfHyphen
 next
 )
 {
-PRBool
+bool
 prevIsChar
 =
 !
@@ -1910,7 +1910,7 @@ prevOfHyphen
 =
 CLASS_CHARACTER
 ;
-PRBool
+bool
 nextIsChar
 =
 !
@@ -1984,7 +1984,7 @@ cur
 return
 CLASS_CHARACTER
 ;
-PRBool
+bool
 shouldReturn
 =
 !
@@ -2252,10 +2252,10 @@ PRInt8
 aDirection
 )
 {
-PRBool
+bool
 textNeedsJISx4051
 =
-PR_FALSE
+false
 ;
 PRInt32
 begin
@@ -2766,7 +2766,7 @@ ch
 )
 ;
 }
-PRBool
+bool
 allowBreak
 ;
 if
@@ -3058,7 +3058,7 @@ ch
 )
 ;
 }
-PRBool
+bool
 allowBreak
 ;
 if

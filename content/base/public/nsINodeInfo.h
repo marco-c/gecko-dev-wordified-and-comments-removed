@@ -317,7 +317,7 @@ return
 mOwnerManager
 ;
 }
-PRBool
+bool
 Equals
 (
 nsINodeInfo
@@ -350,7 +350,7 @@ mNamespaceID
 )
 ;
 }
-PRBool
+bool
 NameAndNamespaceEquals
 (
 nsINodeInfo
@@ -380,7 +380,7 @@ mNamespaceID
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 nsIAtom
@@ -398,7 +398,7 @@ mName
 aNameAtom
 ;
 }
-PRBool
+bool
 Equals
 (
 nsIAtom
@@ -431,7 +431,7 @@ aPrefixAtom
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 nsIAtom
@@ -465,7 +465,7 @@ aNamespaceID
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 nsIAtom
@@ -512,7 +512,7 @@ aNamespaceID
 )
 ;
 }
-PRBool
+bool
 NamespaceEquals
 (
 PRInt32
@@ -529,7 +529,7 @@ mNamespaceID
 aNamespaceID
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -551,7 +551,7 @@ aName
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -600,7 +600,7 @@ IsEmpty
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -632,7 +632,7 @@ aName
 )
 ;
 }
-PRBool
+bool
 Equals
 (
 const
@@ -692,7 +692,7 @@ IsEmpty
 ;
 }
 virtual
-PRBool
+bool
 NamespaceEquals
 (
 const
@@ -704,7 +704,7 @@ const
 =
 0
 ;
-PRBool
+bool
 QualifiedNameEquals
 (
 nsIAtom
@@ -747,7 +747,7 @@ mQualifiedName
 )
 ;
 }
-PRBool
+bool
 QualifiedNameEquals
 (
 const

@@ -91,7 +91,7 @@ const
 nsAString
 &
 aSpec
-PRBool
+bool
 aNonDecreasing
 nsTArray
 <
@@ -123,7 +123,7 @@ nsSMILValue
 >
 &
 aValuesArray
-PRBool
+bool
 &
 aPreventCachingOfSandwich
 )
@@ -196,7 +196,7 @@ PRUint32
 aFlags
 =
 0
-PRBool
+bool
 *
 aIsMedia
 =

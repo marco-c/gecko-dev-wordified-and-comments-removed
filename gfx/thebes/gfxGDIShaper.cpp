@@ -5,7 +5,7 @@ gfxGDIShaper
 .
 h
 "
-PRBool
+bool
 gfxGDIShaper
 :
 :
@@ -283,7 +283,7 @@ detected
 "
 )
 ;
-PRBool
+bool
 atClusterStart
 =
 aTextRun

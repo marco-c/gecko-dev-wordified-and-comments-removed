@@ -472,6 +472,14 @@ test_423060
 .
 xul
 \
+test_bug368464
+.
+html
+\
+test_bug408328
+.
+html
+\
 (
 NULL
 )

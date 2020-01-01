@@ -77,7 +77,7 @@ class
 nsIPrincipal
 ;
 extern
-PRBool
+bool
 IsValidHTTPToken
 (
 const
@@ -98,7 +98,7 @@ aListener
 nsIPrincipal
 *
 aPrincipal
-PRBool
+bool
 aWithCredentials
 nsTArray
 <
@@ -137,7 +137,7 @@ aRequestingPrincipal
 nsIChannel
 *
 aChannel
-PRBool
+bool
 aWithCredentials
 nsresult
 *
@@ -155,7 +155,7 @@ aRequestingPrincipal
 nsIChannel
 *
 aChannel
-PRBool
+bool
 aWithCredentials
 const
 nsCString
@@ -227,16 +227,16 @@ nsIInterfaceRequestor
 >
 mOuterNotificationCallbacks
 ;
-PRBool
+bool
 mWithCredentials
 ;
-PRBool
+bool
 mRequestApproved
 ;
-PRBool
+bool
 mHasBeenCrossSite
 ;
-PRBool
+bool
 mIsPreflight
 ;
 nsCString

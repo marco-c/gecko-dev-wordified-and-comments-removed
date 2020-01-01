@@ -183,7 +183,7 @@ getKeyMap
 (
 )
 ;
-PRBool
+bool
 isStripSpaceAllowed
 (
 const
@@ -309,7 +309,7 @@ nsAutoPtr
 txInstruction
 >
 aFirstInstruction
-PRBool
+bool
 aIsParam
 )
 ;
@@ -325,7 +325,7 @@ txInstruction
 >
 mFirstInstruction
 ;
-PRBool
+bool
 mIsParam
 ;
 }
