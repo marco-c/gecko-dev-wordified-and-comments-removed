@@ -720,7 +720,7 @@ document
 .
 documentURIObject
 .
-asciiHost
+host
 ;
 let
 browser
