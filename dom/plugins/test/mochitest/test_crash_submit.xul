@@ -312,12 +312,6 @@ waitForExplicitFinish
 (
 )
 ;
-SimpleTest
-.
-expectChildProcessCrash
-(
-)
-;
 Components
 .
 utils
