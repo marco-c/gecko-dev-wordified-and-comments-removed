@@ -56,6 +56,10 @@ MPL
 XPCOM_GLUE_SRC_LCPPSRCS
 =
 \
+AppData
+.
+cpp
+\
 nsArrayEnumerator
 .
 cpp

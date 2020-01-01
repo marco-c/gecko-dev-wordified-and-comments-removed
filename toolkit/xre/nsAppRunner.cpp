@@ -113,6 +113,15 @@ h
 #
 include
 "
+mozilla
+/
+AppData
+.
+h
+"
+#
+include
+"
 nsUpdateDriver
 .
 h

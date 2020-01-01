@@ -168,7 +168,7 @@ nsNativeAppSupportBase
 .
 cpp
 \
-nsAppData
+CreateAppData
 .
 cpp
 \
