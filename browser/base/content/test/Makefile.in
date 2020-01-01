@@ -998,6 +998,10 @@ browser_visibleTabs_bookmarkAllPages
 .
 js
 \
+browser_visibleTabs_bookmarkAllTabs
+.
+js
+\
 browser_visibleTabs_tabPreview
 .
 js
