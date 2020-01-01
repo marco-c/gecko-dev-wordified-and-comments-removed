@@ -2480,6 +2480,7 @@ LayerManager
 :
 LAYERS_NONE
 <
+=
 param
 &
 &
@@ -2506,7 +2507,7 @@ return
 NS_RUNTIMEABORT
 (
 "
-surface
+backend
 type
 not
 reached
@@ -2555,6 +2556,7 @@ LayerManager
 :
 LAYERS_NONE
 <
+=
 type
 &
 &
