@@ -524,7 +524,7 @@ ppv
 HRESULT
 hr
 =
-CAccessibleValue
+ia2AccessibleValue
 :
 :
 QueryInterface

@@ -14,14 +14,14 @@ h
 #
 include
 "
-CAccessibleTable
+ia2AccessibleTable
 .
 h
 "
 #
 include
 "
-CAccessibleTableCell
+ia2AccessibleTableCell
 .
 h
 "
@@ -37,7 +37,7 @@ XULTreeGridAccessibleWrap
 public
 XULTreeGridAccessible
 public
-CAccessibleTable
+ia2AccessibleTable
 {
 public
 :
@@ -61,7 +61,7 @@ XULTreeGridCellAccessibleWrap
 public
 XULTreeGridCellAccessible
 public
-CAccessibleTableCell
+ia2AccessibleTableCell
 {
 public
 :

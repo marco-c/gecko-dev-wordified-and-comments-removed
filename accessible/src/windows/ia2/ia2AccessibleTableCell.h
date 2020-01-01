@@ -19,7 +19,7 @@ AccessibleTableCell
 h
 "
 class
-CAccessibleTableCell
+ia2AccessibleTableCell
 :
 public
 IAccessibleTableCell

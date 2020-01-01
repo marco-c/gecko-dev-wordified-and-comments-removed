@@ -14,14 +14,14 @@ h
 #
 include
 "
-CAccessibleTable
+ia2AccessibleTable
 .
 h
 "
 #
 include
 "
-CAccessibleTableCell
+ia2AccessibleTableCell
 .
 h
 "
@@ -37,7 +37,7 @@ ARIAGridAccessibleWrap
 public
 ARIAGridAccessible
 public
-CAccessibleTable
+ia2AccessibleTable
 {
 public
 :
@@ -68,7 +68,7 @@ ARIAGridCellAccessibleWrap
 public
 ARIAGridCellAccessible
 public
-CAccessibleTableCell
+ia2AccessibleTableCell
 {
 public
 :

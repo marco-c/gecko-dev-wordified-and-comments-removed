@@ -42,7 +42,7 @@ h
 #
 include
 "
-CAccessibleValue
+ia2AccessibleValue
 .
 h
 "
@@ -560,7 +560,7 @@ ia2AccessibleComponent
 public
 ia2AccessibleHyperlink
 public
-CAccessibleValue
+ia2AccessibleValue
 public
 IAccessible2
 {

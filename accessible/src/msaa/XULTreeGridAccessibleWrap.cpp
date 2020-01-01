@@ -41,7 +41,7 @@ IMPL_IUNKNOWN_INHERITED1
 (
 XULTreeGridAccessibleWrap
 AccessibleWrap
-CAccessibleTable
+ia2AccessibleTable
 )
 XULTreeGridCellAccessibleWrap
 :
@@ -91,5 +91,5 @@ IMPL_IUNKNOWN_INHERITED1
 (
 XULTreeGridCellAccessibleWrap
 AccessibleWrap
-CAccessibleTableCell
+ia2AccessibleTableCell
 )

@@ -26,7 +26,7 @@ AccessibleTable2
 h
 "
 class
-CAccessibleTable
+ia2AccessibleTable
 :
 public
 IAccessibleTable
