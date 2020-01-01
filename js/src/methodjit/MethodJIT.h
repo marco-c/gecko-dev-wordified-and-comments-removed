@@ -1962,6 +1962,8 @@ cx
 JSScript
 *
 script
+bool
+normal
 )
 ;
 void
