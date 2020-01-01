@@ -9854,8 +9854,6 @@ NodeInfoManager
 )
 nsnull
 nameAtom
-nsnull
-nsnull
 publicId
 systemId
 voidString

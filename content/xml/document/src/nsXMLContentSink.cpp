@@ -5122,8 +5122,6 @@ docType
 mNodeInfoManager
 nsnull
 name
-nsnull
-nsnull
 aPublicId
 aSystemId
 aSubset

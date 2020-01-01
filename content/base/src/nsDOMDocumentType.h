@@ -158,12 +158,6 @@ aPrincipal
 nsIAtom
 *
 aName
-nsIDOMNamedNodeMap
-*
-aEntities
-nsIDOMNamedNodeMap
-*
-aNotations
 const
 nsAString
 &

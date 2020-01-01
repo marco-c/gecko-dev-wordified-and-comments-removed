@@ -105,10 +105,6 @@ aPrincipal
 nsIAtom
 *
 aName
-nsIDOMNamedNodeMap
-*
-nsIDOMNamedNodeMap
-*
 const
 nsAString
 &

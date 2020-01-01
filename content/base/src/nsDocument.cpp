@@ -5886,8 +5886,6 @@ aReturn
 nsnull
 mPrincipal
 name
-nsnull
-nsnull
 aPublicId
 aSystemId
 voidString
@@ -6190,8 +6188,6 @@ nsGkAtoms
 :
 :
 html
-NULL
-NULL
 EmptyString
 (
 )

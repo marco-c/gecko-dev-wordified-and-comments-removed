@@ -3222,8 +3222,6 @@ GetNodeInfoManager
 )
 nsnull
 name
-nsnull
-nsnull
 publicId
 systemId
 voidString
