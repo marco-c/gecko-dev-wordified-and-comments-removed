@@ -3400,6 +3400,9 @@ aNode
 &
 &
 aAttribute
+&
+&
+aAttribute
 -
 >
 LowerCaseEqualsLiteral
