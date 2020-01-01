@@ -544,9 +544,14 @@ stackSize
 =
 0
 ;
+#
+ifdef
+DEBUG
 int
 rc
 =
+#
+endif
 pthread_attr_getstack
 (
 &
