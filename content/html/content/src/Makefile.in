@@ -148,6 +148,10 @@ HTMLFrameSetElement
 .
 h
 \
+HTMLHeadingElement
+.
+h
+\
 HTMLLabelElement
 .
 h
@@ -246,7 +250,7 @@ nsHTMLHRElement
 .
 cpp
 \
-nsHTMLHeadingElement
+HTMLHeadingElement
 .
 cpp
 \
