@@ -3326,6 +3326,17 @@ placelist
 placeitem
 :
 active
+:
+not
+(
+[
+selected
+=
+"
+true
+"
+]
+)
 .
 autocompleteresult
 -

@@ -4737,6 +4737,17 @@ white
 richlistitem
 :
 active
+:
+not
+(
+[
+selected
+=
+"
+true
+"
+]
+)
 {
 background
 -
