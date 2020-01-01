@@ -11319,7 +11319,7 @@ plugins
 .
 timeoutSecs
 "
-25
+45
 )
 ;
 pref
@@ -11347,7 +11347,7 @@ plugins
 .
 processLaunchTimeoutSecs
 "
-25
+45
 )
 ;
 #
