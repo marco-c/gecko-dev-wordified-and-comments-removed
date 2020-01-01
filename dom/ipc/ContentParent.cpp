@@ -1747,10 +1747,6 @@ return
 mRunToCompletionDepth
 ;
 }
-return
-true
-;
-}
 NS_IMETHODIMP
 ContentParent
 :
