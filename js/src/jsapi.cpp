@@ -8684,9 +8684,11 @@ return
 NULL
 ;
 }
-js_UpdateMallocCounter
-(
 cx
+-
+>
+updateMallocCounter
+(
 nbytes
 )
 ;
@@ -8745,9 +8747,11 @@ if
 !
 orig
 )
-js_UpdateMallocCounter
-(
 cx
+-
+>
+updateMallocCounter
+(
 nbytes
 )
 ;

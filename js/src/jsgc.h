@@ -781,17 +781,6 @@ JSGCInvocationKind
 gckind
 )
 ;
-extern
-void
-js_UpdateMallocCounter
-(
-JSContext
-*
-cx
-size_t
-nbytes
-)
-;
 typedef
 struct
 JSGCArenaInfo
