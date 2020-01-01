@@ -331,6 +331,7 @@ dest
 void
 loadDouble
 (
+const
 void
 *
 address
@@ -751,6 +752,16 @@ m_isSSE2Present
 }
 bool
 supportsFloatingPointTruncate
+(
+)
+const
+{
+return
+m_isSSE2Present
+;
+}
+bool
+supportsFloatingPointSqrt
 (
 )
 const
