@@ -717,14 +717,6 @@ base
 /
 src
 \
-(
-NULL
-)
-ifndef
-DISABLE_XFORMS_HOOKS
-LOCAL_INCLUDES
-+
-=
 -
 I
 (
@@ -735,7 +727,10 @@ srcdir
 .
 /
 xforms
-endif
+\
+(
+NULL
+)
 ifeq
 (
 (

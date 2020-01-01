@@ -475,6 +475,8 @@ html
 \
 xpcom
 \
+xforms
+\
 (
 null
 )
@@ -484,13 +486,6 @@ DIRS
 +
 =
 xul
-endif
-ifndef
-DISABLE_XFORMS_HOOKS
-DIRS
-+
-=
-xforms
 endif
 include
 (

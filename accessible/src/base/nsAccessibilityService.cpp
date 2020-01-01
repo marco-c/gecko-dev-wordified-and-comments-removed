@@ -396,9 +396,6 @@ h
 #
 endif
 #
-ifndef
-DISABLE_XFORMS_HOOKS
-#
 include
 "
 nsXFormsFormControlsAccessible
@@ -412,8 +409,6 @@ nsXFormsWidgetsAccessible
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -7310,9 +7305,6 @@ break
 ;
 #
 endif
-#
-ifndef
-DISABLE_XFORMS_HOOKS
 case
 nsIAccessibleProvider
 :
@@ -7636,8 +7628,6 @@ aWeakShell
 ;
 break
 ;
-#
-endif
 default
 :
 return
