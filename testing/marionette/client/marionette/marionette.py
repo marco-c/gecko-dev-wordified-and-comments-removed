@@ -2994,9 +2994,6 @@ True
 special_powers
 =
 False
-script_timeout
-=
-None
 )
 :
         
@@ -3053,10 +3050,6 @@ new_sandbox
 specialPowers
 =
 special_powers
-                                      
-scriptTimeout
-=
-script_timeout
 )
         
 return
@@ -3081,9 +3074,6 @@ True
 special_powers
 =
 False
-script_timeout
-=
-None
 )
 :
         
@@ -3136,10 +3126,6 @@ new_sandbox
 specialPowers
 =
 special_powers
-                                      
-scriptTimeout
-=
-script_timeout
 )
         
 return
@@ -3164,9 +3150,6 @@ True
 special_powers
 =
 False
-script_timeout
-=
-None
 )
 :
         
@@ -3219,10 +3202,6 @@ new_sandbox
 specialPowers
 =
 special_powers
-                                      
-scriptTimeout
-=
-script_timeout
 )
         
 return
