@@ -972,7 +972,7 @@ necko_viewsource
 xpt
 #
 ifdef
-MOZ_OJI
+OJI
 bin
 \
 components

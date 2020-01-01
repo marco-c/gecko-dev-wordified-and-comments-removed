@@ -951,7 +951,7 @@ necko
 xpt
 #
 ifdef
-MOZ_OJI
+OJI
 bin
 /
 components
