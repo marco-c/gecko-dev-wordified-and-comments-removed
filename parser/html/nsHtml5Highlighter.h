@@ -329,9 +329,6 @@ PRInt32
 mLineNumber
 ;
 PRInt32
-mUnicharsInThisPre
-;
-PRInt32
 mInlinesOpen
 ;
 bool
