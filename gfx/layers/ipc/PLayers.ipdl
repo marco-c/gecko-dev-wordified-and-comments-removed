@@ -258,6 +258,14 @@ layer
 }
 ;
 struct
+OpCreateRefLayer
+{
+PLayer
+layer
+;
+}
+;
+struct
 ThebesBuffer
 {
 SurfaceDescriptor
@@ -363,6 +371,14 @@ filter
 }
 ;
 struct
+RefLayerAttributes
+{
+int64_t
+id
+;
+}
+;
+struct
 ImageLayerAttributes
 {
 GraphicsFilterType
@@ -385,6 +401,8 @@ ContainerLayerAttributes
 ColorLayerAttributes
 ;
 CanvasLayerAttributes
+;
+RefLayerAttributes
 ;
 ImageLayerAttributes
 ;
@@ -564,6 +582,8 @@ OpCreateImageLayer
 OpCreateColorLayer
 ;
 OpCreateCanvasLayer
+;
+OpCreateRefLayer
 ;
 OpSetLayerAttributes
 ;
