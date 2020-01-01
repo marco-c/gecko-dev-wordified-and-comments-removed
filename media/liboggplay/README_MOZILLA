@@ -161,6 +161,15 @@ for
 bug
 480058
 .
+bug493224
+.
+patch
+:
+Fix
+for
+bug
+493224
+.
 seek_to_key_frame
 .
 patch

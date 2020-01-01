@@ -843,6 +843,13 @@ aspect_ratio
 patch
 patch
 -
+p1
+<
+bug493224
+.
+patch
+patch
+-
 p3
 <
 seek_to_key_frame
