@@ -1462,6 +1462,14 @@ test_copypaste
 .
 html
 \
+test_copypaste
+.
+xhtml
+\
+copypaste
+.
+js
+\
 test_bug503481
 .
 html
@@ -2923,6 +2931,10 @@ MOCHITEST_CHROME_FILES
 test_bug357450
 .
 js
+\
+test_copypaste
+.
+xul
 \
 (
 NULL
