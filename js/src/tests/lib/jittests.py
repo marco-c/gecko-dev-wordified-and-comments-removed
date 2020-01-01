@@ -46,6 +46,10 @@ progressbar
 import
 ProgressBar
 NullProgressBar
+from
+results
+import
+TestOutput
 TESTS_LIB_DIR
 =
 os
@@ -2068,18 +2072,14 @@ err
 )
     
 return
+TestOutput
 (
-check_output
-(
-out
-err
-code
 test
-)
-            
+cmd
 out
 err
 code
+None
 timed_out
 )
 def
@@ -2314,10 +2314,6 @@ run_test
 test
 shell_args
 options
-)
-+
-(
-test
 )
     
 resultQueue
@@ -2777,16 +2773,14 @@ set
 )
                 
 for
-test
-fout
-ferr
-fcode
-_
+res
 in
 failures
 :
                     
 if
+res
+.
 test
 .
 path
@@ -2805,6 +2799,8 @@ path
 .
 relpath
 (
+res
+.
 test
 .
 path
@@ -2827,14 +2823,18 @@ out
 .
 write
 (
-fout
+res
+.
+out
 )
                             
 out
 .
 write
 (
-ferr
+res
+.
+err
 )
                             
 out
@@ -2849,7 +2849,9 @@ code
 +
 str
 (
-fcode
+res
+.
+rc
 )
 +
 "
@@ -2862,6 +2864,8 @@ written
 .
 add
 (
+res
+.
 test
 .
 path
@@ -2994,22 +2998,22 @@ FAILURES
 )
         
 for
-test
-_
-__
-___
-timed_out
+res
 in
 failures
 :
             
 if
 not
+res
+.
 timed_out
 :
                 
 show_test
 (
+res
+.
 test
 )
         
@@ -3022,21 +3026,21 @@ TIMEOUTS
 )
         
 for
-test
-_
-__
-___
-timed_out
+res
 in
 failures
 :
             
 if
+res
+.
 timed_out
 :
                 
 show_test
 (
+res
+.
 test
 )
         
@@ -3220,20 +3224,31 @@ try
         
 for
 i
-(
-ok
-out
-err
-code
-timed_out
-test
-)
+res
 in
 enumerate
 (
 results
 )
 :
+            
+ok
+=
+check_output
+(
+res
+.
+out
+res
+.
+err
+res
+.
+rc
+res
+.
+test
+)
             
 doing
 =
@@ -3243,6 +3258,8 @@ after
 s
 '
 %
+res
+.
 test
 .
 path
@@ -3256,13 +3273,7 @@ failures
 .
 append
 (
-[
-test
-out
-err
-code
-timed_out
-]
+res
 )
                 
 pb
@@ -3276,12 +3287,16 @@ FAIL
 s
 "
 %
+res
+.
 test
 .
 path
 )
             
 if
+res
+.
 timed_out
 :
                 
@@ -3307,6 +3322,8 @@ TEST
 -
 PASS
 "
+res
+.
 test
 )
 ;
@@ -3384,6 +3401,8 @@ UNEXPECTED
 -
 FAIL
 "
+res
+.
 test
 msg
 )
@@ -3496,20 +3515,12 @@ in
 tests
 :
         
-result
-=
+yield
 run_test
 (
 test
 shell_args
 options
-)
-        
-yield
-result
-+
-(
-test
 )
 def
 run_tests
