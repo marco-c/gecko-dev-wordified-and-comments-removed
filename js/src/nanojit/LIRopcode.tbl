@@ -1709,7 +1709,7 @@ OPDEF
 ldcsb
 52
 Ld
-Void
+I32
 )
 /
 /
@@ -1723,7 +1723,7 @@ integer
 load
 sign
 -
-extednded
+extended
 to
 32
 -
@@ -1733,7 +1733,7 @@ OPDEF
 ldcss
 53
 Ld
-Void
+I32
 )
 /
 /
@@ -1747,7 +1747,7 @@ integer
 load
 sign
 -
-extednded
+extended
 to
 32
 -
