@@ -7786,7 +7786,6 @@ mParserContext
 GetTokenizer
 (
 mDTD
-mSink
 tokenizer
 )
 ;
@@ -7878,7 +7877,6 @@ DidBuildModel
 anErrorCode
 PR_TRUE
 this
-mSink
 )
 ;
 }
@@ -10326,7 +10324,6 @@ mDTD
 >
 WillResumeParse
 (
-mSink
 )
 ;
 PRBool
@@ -10459,7 +10456,6 @@ mDTD
 >
 WillInterruptParse
 (
-mSink
 )
 ;
 }
@@ -10789,7 +10785,6 @@ mDTD
 >
 WillInterruptParse
 (
-mSink
 )
 ;
 }
@@ -10882,7 +10877,6 @@ mParserContext
 GetTokenizer
 (
 mDTD
-mSink
 theTokenizer
 )
 ;
@@ -10914,8 +10908,6 @@ BuildModel
 (
 this
 theTokenizer
-nsnull
-mSink
 )
 ;
 MOZ_TIMER_STOP
@@ -13997,7 +13989,6 @@ mParserContext
 GetTokenizer
 (
 mDTD
-mSink
 theTokenizer
 )
 ;
@@ -14054,7 +14045,6 @@ mParserContext
 GetTokenizer
 (
 mDTD
-mSink
 theTokenizer
 )
 ;
@@ -14320,7 +14310,6 @@ mParserContext
 GetTokenizer
 (
 mDTD
-mSink
 theTokenizer
 )
 ;

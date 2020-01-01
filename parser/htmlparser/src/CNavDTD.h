@@ -345,9 +345,6 @@ aType
 nsIParser
 *
 aParser
-nsIContentSink
-*
-aSink
 )
 ;
 nsresult
