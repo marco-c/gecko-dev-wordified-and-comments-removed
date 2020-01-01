@@ -68,13 +68,6 @@ android
 .
 view
 .
-ViewConfiguration
-;
-import
-android
-.
-view
-.
 View
 .
 OnTouchListener
@@ -132,11 +125,7 @@ final
 int
 EVENT_LISTENER_TIMEOUT
 =
-ViewConfiguration
-.
-getLongPressTimeout
-(
-)
+200
 ;
 private
 final
