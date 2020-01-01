@@ -1550,10 +1550,6 @@ DOMCI_CLASS
 (
 BluetoothAdapter
 )
-DOMCI_CLASS
-(
-BluetoothDevice
-)
 #
 endif
 DOMCI_CLASS
