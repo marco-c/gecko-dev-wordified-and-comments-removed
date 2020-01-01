@@ -494,8 +494,9 @@ app
 0
 )
 {
-dump
+ok
 (
+false
 "
 Previous
 test
@@ -510,8 +511,6 @@ permission
 Expect
 failures
 .
-\
-n
 "
 )
 ;
@@ -723,6 +722,10 @@ this
 _masterWindow
 )
 {
+this
+.
+_masterWindow
+.
 SimpleTest
 .
 executeSoon
@@ -933,7 +936,6 @@ entry
 ;
 try
 {
-var
 entry
 =
 cacheSession
