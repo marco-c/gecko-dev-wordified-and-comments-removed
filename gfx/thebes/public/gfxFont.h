@@ -2245,6 +2245,11 @@ aUsedHyphenation
 PRUint32
 *
 aLastBreak
+PRBool
+aCanWordWrap
+gfxBreakPriority
+*
+aBreakPriority
 )
 ;
 void

@@ -477,6 +477,16 @@ shadow
 :
 none
 ;
+word
+-
+wrap
+:
+break
+-
+word
+!
+important
+;
 }
 textarea
 >

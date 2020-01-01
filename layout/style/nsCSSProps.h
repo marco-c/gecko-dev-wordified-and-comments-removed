@@ -874,6 +874,13 @@ kWidthKTable
 [
 ]
 ;
+static
+const
+PRInt32
+kWordwrapKTable
+[
+]
+;
 }
 ;
 #

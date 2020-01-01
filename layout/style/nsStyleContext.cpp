@@ -3603,6 +3603,8 @@ d
 d
 %
 d
+%
+d
 "
 (
 int
@@ -3625,6 +3627,13 @@ text
 -
 >
 mWhiteSpace
+(
+int
+)
+text
+-
+>
+mWordWrap
 )
 ;
 text

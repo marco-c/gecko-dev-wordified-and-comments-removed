@@ -42,6 +42,16 @@ THEBES_API
 NS_IMPORT
 #
 endif
+enum
+gfxBreakPriority
+{
+eNoBreak
+=
+0
+eWordWrapBreak
+eNormalBreak
+}
+;
 #
 include
 "

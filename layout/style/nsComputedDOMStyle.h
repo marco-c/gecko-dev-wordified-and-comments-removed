@@ -1269,6 +1269,15 @@ aValue
 )
 ;
 nsresult
+GetWordWrap
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
+nsresult
 GetOpacity
 (
 nsIDOMCSSValue
