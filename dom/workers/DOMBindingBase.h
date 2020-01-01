@@ -31,6 +31,13 @@ nsWrapperCache
 .
 h
 "
+#
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
 BEGIN_WORKERS_NAMESPACE
 #
 define
