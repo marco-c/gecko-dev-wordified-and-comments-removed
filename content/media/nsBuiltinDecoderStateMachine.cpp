@@ -70,6 +70,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StdInt
+.
+h
+"
 using
 namespace
 mozilla
@@ -5002,7 +5011,7 @@ if
 (
 t
 >
-PR_INT64_MAX
+INT64_MAX
 )
 {
 return
