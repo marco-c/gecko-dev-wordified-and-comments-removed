@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsDOMException
-.
-h
-"
-#
-include
-"
 nsJSON
 .
 h

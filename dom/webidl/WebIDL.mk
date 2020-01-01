@@ -309,6 +309,10 @@ DOMError
 .
 webidl
 \
+DOMException
+.
+webidl
+\
 DOMImplementation
 .
 webidl

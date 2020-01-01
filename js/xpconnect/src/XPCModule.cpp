@@ -20,13 +20,6 @@ InitStatics
 (
 )
 ;
-nsXPCException
-:
-:
-InitStatics
-(
-)
-;
 XPCWrappedNativeScope
 :
 :
