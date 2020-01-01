@@ -463,6 +463,12 @@ AES_CBC
 =
 2
 ;
+const
+short
+HMAC
+=
+257
+;
 /
 /
 aAlgorithm
