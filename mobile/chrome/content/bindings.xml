@@ -1748,9 +1748,6 @@ tags
 ;
 if
 (
-title
-&
-&
 type
 =
 =
@@ -1758,6 +1755,9 @@ type
 tag
 "
 )
+{
+try
+{
 [
 title
 tags
@@ -1782,6 +1782,14 @@ u2013
 /
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
+}
 item
 .
 setAttribute
