@@ -68,7 +68,7 @@ rval
 )
 ;
 JSBool
-RewrapIfDeepWrapper
+RewrapValue
 (
 JSContext
 *
@@ -1109,7 +1109,7 @@ isNativeWrapper
 XPCNativeWrapper
 :
 :
-RewrapIfDeepWrapper
+RewrapValue
 (
 cx
 obj
