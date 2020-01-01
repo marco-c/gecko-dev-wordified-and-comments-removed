@@ -1209,6 +1209,8 @@ NS_OK
 ;
 PRBool
 serializeClonedChildren
+=
+PR_FALSE
 ;
 nsCOMPtr
 <
