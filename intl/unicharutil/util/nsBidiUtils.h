@@ -315,6 +315,7 @@ aChar
 PRBool
 HasRTLChars
 (
+const
 nsAString
 &
 aString
