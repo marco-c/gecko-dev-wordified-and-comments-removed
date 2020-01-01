@@ -722,7 +722,8 @@ secInfoStr
 )
 ;
 else
-NS_WARNING
+{
+NS_ERROR
 (
 "
 Can
@@ -734,6 +735,10 @@ info
 "
 )
 ;
+return
+NS_ERROR_UNEXPECTED
+;
+}
 }
 if
 (
