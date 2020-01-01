@@ -391,6 +391,12 @@ ASFILES
 ASFILES
 '
             
+CPPSRCS
+=
+'
+CPP_SOURCES
+'
+            
 CSRCS
 =
 '
