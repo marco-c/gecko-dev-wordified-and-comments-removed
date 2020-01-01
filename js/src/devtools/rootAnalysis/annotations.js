@@ -372,7 +372,7 @@ true
 js
 :
 :
-ion
+jit
 :
 :
 MDefinition
@@ -385,7 +385,7 @@ true
 js
 :
 :
-ion
+jit
 :
 :
 MDefinition
@@ -398,7 +398,7 @@ true
 js
 :
 :
-ion
+jit
 :
 :
 LInstruction
@@ -411,7 +411,7 @@ true
 js
 :
 :
-ion
+jit
 :
 :
 IonCache
@@ -610,6 +610,21 @@ if
 /
 ~
 DebugOnly
+/
+.
+test
+(
+name
+)
+)
+return
+true
+;
+if
+(
+/
+~
+ScopedThreadSafeStringInspector
 /
 .
 test
