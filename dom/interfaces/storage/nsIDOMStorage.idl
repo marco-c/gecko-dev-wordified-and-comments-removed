@@ -638,9 +638,7 @@ the
 key
 at
 index
-*
-throws
-INDEX_SIZE_ERR
+null
 if
 there
 is
