@@ -13430,6 +13430,13 @@ regs
 pc
 )
 ;
+TypeMonitorCall
+(
+cx
+args
+construct
+)
+;
 #
 ifdef
 JS_ION
@@ -13641,13 +13648,6 @@ jit_return
 }
 #
 endif
-TypeMonitorCall
-(
-cx
-args
-construct
-)
-;
 funScript
 =
 fun

@@ -884,6 +884,9 @@ endif
 CodeOffsetLabel
 prologueOffset_
 ;
+bool
+modifiesArguments_
+;
 Label
 *
 labelOf
