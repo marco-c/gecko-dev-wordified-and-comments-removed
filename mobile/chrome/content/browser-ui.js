@@ -3954,14 +3954,9 @@ function
 let
 newtabStrings
 =
-document
+Elements
 .
-getElementById
-(
-"
-bundle_browser
-"
-)
+browserBundle
 .
 getString
 (
