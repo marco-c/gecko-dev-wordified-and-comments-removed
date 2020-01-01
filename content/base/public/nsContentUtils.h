@@ -1085,6 +1085,9 @@ aContext
 nsIDocument
 *
 aLoadingDocument
+nsIPrincipal
+*
+aLoadingPrincipal
 PRInt16
 *
 aImageBlockingStatus
@@ -1102,6 +1105,9 @@ aURI
 nsIDocument
 *
 aLoadingDocument
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIURI
 *
 aReferrer

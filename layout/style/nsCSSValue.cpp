@@ -2104,6 +2104,7 @@ CanLoadImage
 mURI
 aDocument
 aDocument
+aOriginPrincipal
 )
 )
 {
@@ -2114,6 +2115,7 @@ LoadImage
 (
 mURI
 aDocument
+aOriginPrincipal
 aReferrer
 nsnull
 nsIRequest

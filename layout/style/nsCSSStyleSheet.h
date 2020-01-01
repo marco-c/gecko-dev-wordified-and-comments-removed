@@ -716,6 +716,12 @@ DidDirty
 (
 )
 ;
+nsresult
+SubjectSubsumesInnerPrincipal
+(
+)
+const
+;
 protected
 :
 nsString

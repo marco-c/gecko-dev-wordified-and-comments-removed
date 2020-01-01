@@ -9602,6 +9602,12 @@ CanLoadImage
 srcURI
 mContent
 doc
+mContent
+-
+>
+NodePrincipal
+(
+)
 )
 )
 {
@@ -9615,6 +9621,12 @@ LoadImage
 (
 srcURI
 doc
+mContent
+-
+>
+NodePrincipal
+(
+)
 doc
 -
 >
