@@ -973,9 +973,6 @@ aData
 bool
 MeasureCharClippedText
 (
-gfxContext
-*
-aCtx
 nscoord
 aLeftEdge
 nscoord
@@ -991,9 +988,6 @@ aSnappedRightEdge
 bool
 MeasureCharClippedText
 (
-gfxContext
-*
-aCtx
 PropertyProvider
 &
 aProvider

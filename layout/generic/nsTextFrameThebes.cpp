@@ -25571,9 +25571,6 @@ nsTextFrame
 :
 MeasureCharClippedText
 (
-gfxContext
-*
-aCtx
 nscoord
 aLeftEdge
 nscoord
@@ -25647,7 +25644,6 @@ provider
 return
 MeasureCharClippedText
 (
-aCtx
 provider
 aLeftEdge
 aRightEdge
@@ -25732,9 +25728,6 @@ nsTextFrame
 :
 MeasureCharClippedText
 (
-gfxContext
-*
-aCtx
 PropertyProvider
 &
 aProvider
@@ -26217,7 +26210,6 @@ if
 !
 MeasureCharClippedText
 (
-ctx
 provider
 aItem
 .
