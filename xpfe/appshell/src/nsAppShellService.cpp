@@ -1958,6 +1958,11 @@ nsIXULWindow
 aWindow
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aWindow
+)
+;
 nsCOMPtr
 <
 nsIDocShell
@@ -1985,6 +1990,12 @@ do_GetInterface
 (
 docShell
 )
+)
+;
+NS_ENSURE_TRUE
+(
+domWindow
+NS_ERROR_FAILURE
 )
 ;
 domWindow
