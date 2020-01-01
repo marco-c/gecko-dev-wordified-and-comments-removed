@@ -130,6 +130,15 @@ Definition
 >
 DeclVector
 ;
+typedef
+Vector
+<
+JSFunction
+*
+4
+>
+FunctionVector
+;
 struct
 GenericParseContext
 {
@@ -404,7 +413,7 @@ FuncStmtSet
 *
 funcStmts
 ;
-AutoFunctionVector
+FunctionVector
 innerFunctions
 ;
 bool
