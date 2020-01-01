@@ -347,7 +347,7 @@ nsAString
 aAttribute
 )
 ;
-nsresult
+void
 GetDefaultBackgroundColor
 (
 nsAString
@@ -355,7 +355,7 @@ nsAString
 aColor
 )
 ;
-nsresult
+void
 GetDefaultLengthUnit
 (
 nsAString
