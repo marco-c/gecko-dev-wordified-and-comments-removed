@@ -988,14 +988,6 @@ obj
 )
 )
 ;
-JS_ASSERT
-(
-SPROP_HAS_STUB_SETTER
-(
-sprop
-)
-)
-;
 JS_LOCK_OBJ
 (
 cx
