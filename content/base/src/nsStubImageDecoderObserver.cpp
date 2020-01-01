@@ -200,6 +200,9 @@ nsStubImageDecoderObserver
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer

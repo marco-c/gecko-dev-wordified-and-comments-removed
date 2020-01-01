@@ -1813,6 +1813,7 @@ mListener
 >
 FrameChanged
 (
+this
 container
 dirtyRect
 )

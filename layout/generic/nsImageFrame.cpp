@@ -2808,6 +2808,9 @@ nsImageFrame
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
@@ -8933,6 +8936,9 @@ IconLoad
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
@@ -9138,6 +9144,9 @@ nsImageListener
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
@@ -9161,6 +9170,7 @@ mFrame
 >
 FrameChanged
 (
+aRequest
 aContainer
 aDirtyRect
 )

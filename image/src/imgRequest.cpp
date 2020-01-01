@@ -1942,6 +1942,9 @@ imgRequest
 :
 FrameChanged
 (
+imgIRequest
+*
+request
 imgIContainer
 *
 container
