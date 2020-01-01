@@ -3946,7 +3946,6 @@ SetProtocolHandlerDefaults
 nsIHandlerInfo
 *
 aHandlerInfo
-const
 PRBool
 aOSHandlerExists
 )
