@@ -323,6 +323,14 @@ rv
 ;
 if
 (
+!
+mDOMNode
+)
+return
+NS_OK
+;
+if
+(
 mIsLink
 )
 {

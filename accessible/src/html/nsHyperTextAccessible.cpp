@@ -691,6 +691,10 @@ rv
 if
 (
 !
+mDOMNode
+|
+|
+!
 aExtraState
 )
 return

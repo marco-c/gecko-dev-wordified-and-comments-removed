@@ -134,6 +134,14 @@ rv
 rv
 )
 ;
+if
+(
+!
+mDOMNode
+)
+return
+NS_OK
+;
 *
 aState
 &

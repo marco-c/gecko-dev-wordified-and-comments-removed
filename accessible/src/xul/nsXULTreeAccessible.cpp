@@ -683,6 +683,14 @@ rv
 rv
 )
 ;
+if
+(
+!
+mDOMNode
+)
+return
+NS_OK
+;
 nsCOMPtr
 <
 nsIDOMElement
