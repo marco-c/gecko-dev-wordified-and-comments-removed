@@ -291,6 +291,13 @@ nsSystemFontsQt
 .
 h
 "
+#
+include
+"
+gfxPDFSurface
+.
+h
+"
 static
 nsSystemFontsQt
 *
@@ -4616,6 +4623,12 @@ XP_WIN
 defined
 (
 XP_OS2
+)
+|
+|
+defined
+(
+MOZ_WIDGET_QT
 )
 case
 gfxASurface

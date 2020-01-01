@@ -417,6 +417,10 @@ gfxQtPlatform
 .
 h
 \
+gfxPDFSurface
+.
+h
+\
 (
 NULL
 )
@@ -1241,6 +1245,12 @@ CPPSRCS
 +
 =
 nsUnicodeRange
+.
+cpp
+CPPSRCS
++
+=
+gfxPDFSurface
 .
 cpp
 EXTRA_DSO_LDOPTS
