@@ -884,6 +884,15 @@ nsAString
 aFamilyName
 )
 ;
+void
+SetFixedPitch
+(
+const
+nsAString
+&
+aFamilyName
+)
+;
 static
 PLDHashOperator
 PR_CALLBACK

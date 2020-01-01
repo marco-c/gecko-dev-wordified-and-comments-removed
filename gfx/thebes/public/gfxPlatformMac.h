@@ -18,6 +18,14 @@ gfxPlatform
 .
 h
 "
+#
+define
+MAC_OS_X_VERSION_10_4_HEX
+0x00001040
+#
+define
+MAC_OS_X_VERSION_10_5_HEX
+0x00001050
 class
 THEBES_API
 gfxPlatformMac
@@ -167,6 +175,11 @@ eFontPrefLang
 aPageLang
 )
 ;
+PRInt32
+OSXVersion
+(
+)
+;
 private
 :
 void
@@ -199,6 +212,9 @@ nsTArray
 PRUint32
 >
 mCJKPrefLangs
+;
+PRInt32
+mOSXVersion
 ;
 }
 ;
