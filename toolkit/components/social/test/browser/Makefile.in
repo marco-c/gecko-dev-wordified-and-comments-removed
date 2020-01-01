@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -127,6 +126,14 @@ worker_relative
 js
 \
 relative_import
+.
+js
+\
+browser_workerAPI
+.
+js
+\
+worker_social
 .
 js
 \
