@@ -4550,7 +4550,7 @@ script
 >
 getAtom
 (
-fullAtomIndex
+GET_UINT32_INDEX
 (
 PC
 +
@@ -15750,7 +15750,7 @@ script
 >
 getAtom
 (
-fullAtomIndex
+GET_UINT32_INDEX
 (
 PC
 )
@@ -15845,7 +15845,7 @@ script
 >
 getAtom
 (
-fullAtomIndex
+GET_UINT32_INDEX
 (
 PC
 )
