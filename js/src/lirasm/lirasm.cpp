@@ -610,6 +610,8 @@ op
 LIns
 *
 base
+int32_t
+disp
 AccSet
 accSet
 )
