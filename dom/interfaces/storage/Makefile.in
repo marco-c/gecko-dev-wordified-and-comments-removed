@@ -484,6 +484,10 @@ nsIIndexedDatabaseRequest
 .
 idl
 \
+nsIIDBRequest
+.
+idl
+\
 (
 NULL
 )
