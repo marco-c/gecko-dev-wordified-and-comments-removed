@@ -184,8 +184,6 @@ clasp
 nsIPrincipal
 *
 principal
-bool
-wantXrays
 )
 ;
 }

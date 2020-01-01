@@ -4731,8 +4731,6 @@ clasp
 nsIPrincipal
 *
 principal
-bool
-wantXrays
 )
 {
 CheckTypeInference
@@ -4805,7 +4803,6 @@ xpc
 :
 CompartmentPrivate
 (
-wantXrays
 )
 )
 ;

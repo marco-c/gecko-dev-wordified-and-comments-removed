@@ -754,7 +754,6 @@ mSafeJSContext
 &
 global_class
 principal
-false
 )
 ;
 if

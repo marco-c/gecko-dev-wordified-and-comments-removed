@@ -1130,7 +1130,6 @@ gSharedGlobalClass
 GetPrincipal
 (
 )
-false
 )
 ;
 if
