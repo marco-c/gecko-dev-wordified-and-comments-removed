@@ -3073,6 +3073,14 @@ self
 ]
 )
         
+self
+.
+interfacesImplementingSelf
+=
+set
+(
+)
+        
 IDLObjectWithScope
 .
 __init__
@@ -3841,6 +3849,15 @@ members
 extend
 (
 additionalMembers
+)
+            
+iface
+.
+interfacesImplementingSelf
+.
+add
+(
+self
 )
         
 for
