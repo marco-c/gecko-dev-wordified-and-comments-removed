@@ -232,7 +232,7 @@ MozTreeColumn
 getNamedColumn
 (
 DOMString
-id
+name
 )
 ;
 getter
