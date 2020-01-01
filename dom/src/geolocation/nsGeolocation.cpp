@@ -615,7 +615,7 @@ cx
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 mAllowed
