@@ -398,6 +398,13 @@ why
 ;
 private
 :
+typedef
+base
+:
+:
+ChildPrivileges
+ChildOSPrivileges
+;
 static
 nsDataHashtable
 <
@@ -473,6 +480,13 @@ nsAString
 aAppManifestURL
 bool
 aIsForBrowser
+ChildOSPrivileges
+aOSPrivileges
+=
+base
+:
+:
+PRIVILEGES_DEFAULT
 )
 ;
 virtual
@@ -1222,6 +1236,9 @@ MOZ_OVERRIDE
 GeckoChildProcessHost
 *
 mSubprocess
+;
+ChildOSPrivileges
+mOSPrivileges
 ;
 int32_t
 mGeolocationWatchID
