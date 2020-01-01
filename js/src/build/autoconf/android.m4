@@ -436,6 +436,9 @@ in
 android_gnu_compiler_version
 4
 .
+7
+4
+.
 6
 4
 .
