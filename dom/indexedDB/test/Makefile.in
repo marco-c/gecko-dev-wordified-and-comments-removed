@@ -487,10 +487,6 @@ test_autoIncrement_indexes
 .
 html
 \
-test_autoIncrement
-.
-html
-\
 test_bfcache
 .
 html
