@@ -1237,7 +1237,7 @@ bool
 aFlushContent
 )
 ;
-nsresult
+void
 DoSetChecked
 (
 bool
@@ -1266,7 +1266,7 @@ bool
 aNotify
 )
 ;
-nsresult
+void
 RadioSetChecked
 (
 bool

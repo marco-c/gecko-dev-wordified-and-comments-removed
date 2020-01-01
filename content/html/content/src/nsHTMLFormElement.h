@@ -222,7 +222,7 @@ GetDefaultSubmitElement
 )
 const
 ;
-NS_IMETHOD
+void
 SetCurrentRadioButton
 (
 const
@@ -234,17 +234,14 @@ nsIDOMHTMLInputElement
 aRadio
 )
 ;
-NS_IMETHOD
+nsIDOMHTMLInputElement
+*
 GetCurrentRadioButton
 (
 const
 nsAString
 &
 aName
-nsIDOMHTMLInputElement
-*
-*
-aRadio
 )
 ;
 NS_IMETHOD
@@ -280,7 +277,7 @@ bool
 aFlushContent
 )
 ;
-NS_IMETHOD
+void
 AddToRadioGroup
 (
 const
@@ -292,7 +289,7 @@ nsIFormControl
 aRadio
 )
 ;
-NS_IMETHOD
+void
 RemoveFromRadioGroup
 (
 const
