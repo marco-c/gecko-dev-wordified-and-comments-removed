@@ -10004,8 +10004,6 @@ posInSet
 aSimilarItemsInGroup
 =
 setSize
--
-1
 ;
 return
 NS_OK

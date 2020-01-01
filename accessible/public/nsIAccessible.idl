@@ -1292,6 +1292,12 @@ setsize
 '
 property
 *
+inclusive
+of
+the
+current
+item
+*
 param
 positionInGroup
 -
