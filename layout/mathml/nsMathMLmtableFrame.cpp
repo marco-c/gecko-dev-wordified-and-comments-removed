@@ -210,7 +210,7 @@ end
 &
 &
 (
-PR_FALSE
+false
 =
 =
 nsCRT
@@ -598,10 +598,10 @@ NS_STYLE_DISPLAY_INLINE_TABLE
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -797,7 +797,7 @@ nsDependentString
 (
 attr
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -859,7 +859,7 @@ nsDependentString
 (
 attr
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -1017,7 +1017,7 @@ nsDependentString
 (
 attr
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -1079,7 +1079,7 @@ nsDependentString
 (
 attr
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -2078,7 +2078,7 @@ UnsetAttr
 (
 kNameSpaceID_None
 MOZrowAtom
-PR_FALSE
+false
 )
 ;
 MapRowAttributesIntoCSS
@@ -2141,7 +2141,7 @@ UnsetAttr
 (
 kNameSpaceID_None
 MOZcolAtom
-PR_FALSE
+false
 )
 ;
 MapColAttributesIntoCSS
@@ -3065,7 +3065,7 @@ nsGkAtoms
 :
 :
 _moz_math_rowalign_
-PR_FALSE
+false
 )
 ;
 MapRowAttributesIntoCSS
@@ -3185,7 +3185,7 @@ nsGkAtoms
 :
 :
 _moz_math_columnalign_
-PR_FALSE
+false
 )
 ;
 MapColAttributesIntoCSS
@@ -3511,7 +3511,7 @@ nsGkAtoms
 :
 :
 _moz_math_columnalign_
-PR_FALSE
+false
 )
 ;
 MapColAttributesIntoCSS

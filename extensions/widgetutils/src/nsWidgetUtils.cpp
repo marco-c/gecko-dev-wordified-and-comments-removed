@@ -568,7 +568,7 @@ this
 "
 domwindowopened
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -588,7 +588,7 @@ this
 "
 domwindowclosed
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -913,7 +913,7 @@ aDOMEvent
 {
 g_is_scrollable
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -930,7 +930,7 @@ NS_OK
 ;
 g_is_scrollable
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -972,7 +972,7 @@ closure
 {
 g_panning
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -1017,7 +1017,7 @@ MIN_INT
 ;
 g_is_scrollable
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1078,7 +1078,7 @@ NS_OK
 }
 g_panning
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1222,7 +1222,7 @@ statusX
 nsMouseScrollEvent
 scrollEventX
 (
-PR_TRUE
+true
 NS_MOUSE_SCROLL
 mWidget
 )
@@ -1275,7 +1275,7 @@ dx
 )
 g_panning
 =
-PR_TRUE
+true
 ;
 g_lastX
 =
@@ -1288,7 +1288,7 @@ statusY
 nsMouseScrollEvent
 scrollEventY
 (
-PR_TRUE
+true
 NS_MOUSE_SCROLL
 mWidget
 )
@@ -1341,7 +1341,7 @@ dy
 )
 g_panning
 =
-PR_TRUE
+true
 ;
 g_lastY
 =
@@ -1749,7 +1749,7 @@ spacer
 *
 aType
 =
-PR_FALSE
+false
 ;
 else
 if
@@ -1989,7 +1989,7 @@ mousedown
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 chromeEventHandler
@@ -2004,7 +2004,7 @@ mouseup
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 chromeEventHandler
@@ -2019,7 +2019,7 @@ mousemove
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -2073,8 +2073,8 @@ mousedown
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 chromeEventHandler
@@ -2089,8 +2089,8 @@ mouseup
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 chromeEventHandler
@@ -2105,8 +2105,8 @@ mousemove
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -2363,8 +2363,8 @@ startup
 WidgetUtils
 "
 WidgetUtils_ContractID
-PR_TRUE
-PR_TRUE
+true
+true
 &
 previous
 )
@@ -2397,8 +2397,8 @@ policy
 WidgetUtils
 "
 WidgetUtils_ContractID
-PR_TRUE
-PR_TRUE
+true
+true
 &
 previous
 )
@@ -2516,7 +2516,7 @@ startup
 "
 WidgetUtils
 "
-PR_TRUE
+true
 )
 ;
 rv
@@ -2534,7 +2534,7 @@ policy
 "
 WidgetUtils
 "
-PR_TRUE
+true
 )
 ;
 return

@@ -145,7 +145,7 @@ return
 GetUserDataDirectory
 (
 aFile
-PR_FALSE
+false
 )
 ;
 }
@@ -163,7 +163,7 @@ return
 GetUserDataDirectory
 (
 aFile
-PR_TRUE
+true
 )
 ;
 }

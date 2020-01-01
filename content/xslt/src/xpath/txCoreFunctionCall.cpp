@@ -1346,7 +1346,7 @@ recycler
 >
 getBoolResult
 (
-PR_TRUE
+true
 aResult
 )
 ;
@@ -1660,7 +1660,7 @@ IsEmpty
 {
 result
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3262,7 +3262,7 @@ recycler
 >
 getBoolResult
 (
-PR_FALSE
+false
 aResult
 )
 ;
@@ -3337,7 +3337,7 @@ recycler
 >
 getBoolResult
 (
-PR_FALSE
+false
 aResult
 )
 ;
@@ -3491,7 +3491,7 @@ recycler
 >
 getBoolResult
 (
-PR_TRUE
+true
 aResult
 )
 ;
@@ -3737,7 +3737,7 @@ here
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -3800,12 +3800,12 @@ i
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 #

@@ -343,15 +343,15 @@ NS_OK
 )
 mIsPending
 (
-PR_FALSE
+false
 )
 mCharsetAndSourceSet
 (
-PR_FALSE
+false
 )
 mNeedToWriteCharset
 (
-PR_FALSE
+false
 )
 mCharsetSource
 (
@@ -1245,7 +1245,7 @@ rv
 }
 mIsPending
 =
-PR_TRUE
+true
 ;
 mListener
 =
@@ -1410,7 +1410,7 @@ mCharset
 ;
 mNeedToWriteCharset
 =
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -1663,7 +1663,7 @@ IsEmpty
 ;
 mCharsetAndSourceSet
 =
-PR_TRUE
+true
 ;
 mCharset
 =
@@ -1723,7 +1723,7 @@ else
 {
 mNeedToWriteCharset
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2286,7 +2286,7 @@ mPump
 ;
 mIsPending
 =
-PR_FALSE
+false
 ;
 mCallbacks
 =
@@ -2379,7 +2379,7 @@ CreateSession
 wyciwyg
 "
 storagePolicy
-PR_TRUE
+true
 getter_AddRefs
 (
 cacheSession
@@ -2413,7 +2413,7 @@ OpenCacheEntry
 (
 aCacheKey
 aAccessMode
-PR_FALSE
+false
 getter_AddRefs
 (
 mCacheEntry
@@ -2669,7 +2669,7 @@ mListenerContext
 }
 mIsPending
 =
-PR_FALSE
+false
 ;
 if
 (

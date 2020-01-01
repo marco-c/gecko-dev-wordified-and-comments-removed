@@ -343,7 +343,7 @@ s
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 class
@@ -515,7 +515,7 @@ NS_ConvertUTF8toUTF16
 (
 exePath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 appini
@@ -533,7 +533,7 @@ nsDependentCString
 (
 exePath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 appini

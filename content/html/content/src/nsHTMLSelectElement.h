@@ -493,7 +493,7 @@ MutationFailed
 {
 mNeedsRebuild
 =
-PR_TRUE
+true
 ;
 }
 private
@@ -1257,7 +1257,7 @@ multiple
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32

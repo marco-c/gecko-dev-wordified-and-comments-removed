@@ -421,7 +421,7 @@ NextTile
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 ;
@@ -1482,7 +1482,7 @@ nsnull
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 mIsOffscreen
 (
@@ -1493,19 +1493,19 @@ ifdef
 USE_GLES2
 mIsGLES2
 (
-PR_TRUE
+true
 )
 #
 else
 mIsGLES2
 (
-PR_FALSE
+false
 )
 #
 endif
 mIsGlobalSharedContext
 (
-PR_FALSE
+false
 )
 mVendor
 (
@@ -1530,7 +1530,7 @@ mOffscreenTexture
 )
 mFlipped
 (
-PR_FALSE
+false
 )
 mBlitProgram
 (
@@ -2011,7 +2011,7 @@ GetContextType
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2024,7 +2024,7 @@ mOffscreenFBO
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2046,7 +2046,7 @@ mSharedContext
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 fBindTexture
@@ -2059,7 +2059,7 @@ mOffscreenTexture
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -2102,7 +2102,7 @@ aNewSize
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 gfxIntSize
@@ -2184,7 +2184,7 @@ TextureImageSupportsGetBackingSurface
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -2330,7 +2330,7 @@ nsIntPoint
 bool
 aPixelBuffer
 =
-PR_FALSE
+false
 )
 ;
 void
@@ -7889,7 +7889,7 @@ name
 )
 originDeleted
 (
-PR_FALSE
+false
 )
 {
 }
@@ -7912,7 +7912,7 @@ aName
 )
 originDeleted
 (
-PR_FALSE
+false
 )
 {
 }
@@ -8072,7 +8072,7 @@ aVendorString
 aWantedVendor
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -8091,7 +8091,7 @@ if
 occurrence
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -8112,7 +8112,7 @@ occurrence
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -8135,10 +8135,10 @@ afterOccurrence
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 }

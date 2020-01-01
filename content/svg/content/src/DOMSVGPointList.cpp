@@ -740,7 +740,7 @@ Element
 >
 DidChangePointList
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -1114,7 +1114,7 @@ Element
 >
 DidChangePointList
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -1311,7 +1311,7 @@ Element
 >
 DidChangePointList
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -1456,7 +1456,7 @@ Element
 >
 DidChangePointList
 (
-PR_TRUE
+true
 )
 ;
 #

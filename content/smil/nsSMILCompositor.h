@@ -84,7 +84,7 @@ aKey
 )
 mForceCompositing
 (
-PR_FALSE
+false
 )
 {
 }
@@ -110,7 +110,7 @@ mAnimationFunctions
 )
 mForceCompositing
 (
-PR_FALSE
+false
 )
 {
 }
@@ -163,7 +163,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_FALSE
+false
 }
 ;
 void
@@ -199,7 +199,7 @@ ToggleForceCompositing
 {
 mForceCompositing
 =
-PR_TRUE
+true
 ;
 }
 void

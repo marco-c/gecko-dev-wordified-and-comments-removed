@@ -112,7 +112,7 @@ PaintState
 :
 mDidSelfCopy
 (
-PR_FALSE
+false
 )
 {
 }

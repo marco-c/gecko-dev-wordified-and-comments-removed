@@ -234,7 +234,7 @@ it
 '
 s
 already
-PR_FALSE
+false
 "
 )
 ;
@@ -256,7 +256,7 @@ animation
 ;
 mHasChanged
 =
-PR_FALSE
+false
 ;
 }
 bool

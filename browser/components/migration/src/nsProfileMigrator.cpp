@@ -757,7 +757,7 @@ lf
 NS_NewLocalFile
 (
 filePath
-PR_TRUE
+true
 getter_AddRefs
 (
 lf
@@ -976,7 +976,7 @@ NS_PROFILESERVICE_CONTRACTID
 NS_ENSURE_TRUE
 (
 profileSvc
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -1004,7 +1004,7 @@ directory_service
 NS_ENSURE_TRUE
 (
 dirService
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -1037,7 +1037,7 @@ regFile
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 regFile
@@ -1090,7 +1090,7 @@ regFile
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 regFile
@@ -1142,7 +1142,7 @@ regFile
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 regFile
@@ -1191,7 +1191,7 @@ regFile
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 nsCAutoString
@@ -1252,7 +1252,7 @@ path
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -1262,7 +1262,7 @@ NR_StartupRegistry
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 migrated
@@ -1514,7 +1514,7 @@ tprofile
 ;
 migrated
 =
-PR_TRUE
+true
 ;
 }
 cleanup

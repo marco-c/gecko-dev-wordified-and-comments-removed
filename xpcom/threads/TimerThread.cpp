@@ -86,7 +86,7 @@ mInitInProgress
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 mMonitor
 (
@@ -98,15 +98,15 @@ mMonitor
 )
 mShutdown
 (
-PR_FALSE
+false
 )
 mWaiting
 (
-PR_FALSE
+false
 )
 mSleeping
 (
-PR_FALSE
+false
 )
 mDelayLineCounter
 (
@@ -320,7 +320,7 @@ this
 "
 sleep_notification
 "
-PR_FALSE
+false
 )
 ;
 observerService
@@ -332,7 +332,7 @@ this
 "
 wake_notification
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -346,7 +346,7 @@ mMonitor
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 mMonitor
 .
@@ -439,7 +439,7 @@ mMonitor
 ;
 mShutdown
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1236,7 +1236,7 @@ endif
 }
 mWaiting
 =
-PR_TRUE
+true
 ;
 mMonitor
 .
@@ -1247,7 +1247,7 @@ waitFor
 ;
 mWaiting
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1520,7 +1520,7 @@ aTimer
 >
 mArmed
 =
-PR_TRUE
+true
 ;
 NS_ADDREF
 (
@@ -1553,7 +1553,7 @@ aTimer
 )
 )
 return
-PR_FALSE
+false
 ;
 ReleaseTimerInternal
 (
@@ -1561,7 +1561,7 @@ aTimer
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1580,7 +1580,7 @@ aTimer
 >
 mArmed
 =
-PR_FALSE
+false
 ;
 NS_RELEASE
 (
@@ -1598,7 +1598,7 @@ DoBeforeSleep
 {
 mSleeping
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1611,7 +1611,7 @@ DoAfterSleep
 {
 mSleeping
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -1676,7 +1676,7 @@ mDelayLineCounter
 ;
 mSleeping
 =
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP

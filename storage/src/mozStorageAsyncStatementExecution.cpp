@@ -1865,7 +1865,7 @@ new
 mozStorageTransaction
 (
 mConnection
-PR_FALSE
+false
 mozIStorageConnection
 :
 :

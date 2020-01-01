@@ -231,7 +231,7 @@ mNumIdleThreads
 ;
 mShutdown
 =
-PR_FALSE
+false
 ;
 mLock
 =
@@ -325,7 +325,7 @@ shutdown
 -
 threads
 "
-PR_FALSE
+false
 )
 ;
 return
@@ -450,7 +450,7 @@ mLock
 ;
 mShutdown
 =
-PR_TRUE
+true
 ;
 PR_NotifyAllCondVar
 (
@@ -621,7 +621,7 @@ IsOnCurrentThread
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

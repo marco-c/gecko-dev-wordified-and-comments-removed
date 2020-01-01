@@ -280,11 +280,11 @@ STATE_UNINITIALIZED
 )
 mIsUpgrade
 (
-PR_FALSE
+false
 )
 mIPCActivated
 (
-PR_FALSE
+false
 )
 mWindow
 (
@@ -992,7 +992,7 @@ aPartial
 *
 aPartial
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1609,7 +1609,7 @@ stickDocument
 ;
 mIPCActivated
 =
-PR_TRUE
+true
 ;
 this
 -

@@ -440,7 +440,7 @@ walker
 (
 mWeakShell
 mContent
-PR_TRUE
+true
 )
 ;
 nsAccessible

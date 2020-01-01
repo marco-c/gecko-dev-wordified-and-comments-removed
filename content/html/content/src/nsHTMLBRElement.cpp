@@ -324,7 +324,7 @@ ParseEnumValue
 (
 aValue
 kClearTable
-PR_FALSE
+false
 )
 ;
 }

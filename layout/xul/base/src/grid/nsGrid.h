@@ -339,7 +339,7 @@ GetRowCount
 PRInt32
 aIsHorizontal
 =
-PR_TRUE
+true
 )
 ;
 PRInt32
@@ -348,7 +348,7 @@ GetColumnCount
 PRInt32
 aIsHorizontal
 =
-PR_TRUE
+true
 )
 ;
 static

@@ -2457,7 +2457,7 @@ mLength
 newTotalLen
 ;
 return
-PR_TRUE
+true
 ;
 }
 return

@@ -1303,7 +1303,7 @@ fe
 >
 mItalic
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1342,7 +1342,7 @@ fe
 >
 mItalic
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2099,7 +2099,7 @@ FLAG_FORMAT_TRUETYPE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2111,11 +2111,11 @@ aFormatFlags
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #

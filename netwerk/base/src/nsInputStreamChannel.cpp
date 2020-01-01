@@ -92,7 +92,7 @@ avail
 }
 EnableSynthesizedProgressEvents
 (
-PR_TRUE
+true
 )
 ;
 NS_ADDREF

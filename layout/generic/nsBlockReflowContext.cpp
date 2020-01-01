@@ -381,12 +381,12 @@ for
 PRIntn
 overflowLines
 =
-PR_FALSE
+false
 ;
 overflowLines
 <
 =
-PR_TRUE
+true
 ;
 +
 +
@@ -434,7 +434,7 @@ lines
 {
 anyLines
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -526,7 +526,7 @@ MarkDirty
 ;
 dirtiedLine
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -587,7 +587,7 @@ MarkDirty
 ;
 dirtiedLine
 =
-PR_TRUE
+true
 ;
 goto
 done
@@ -711,7 +711,7 @@ NS_STYLE_CLEAR_NONE
 *
 aMayNeedRetry
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -736,7 +736,7 @@ MarkDirty
 ;
 dirtiedLine
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -794,12 +794,12 @@ aBlockIsEmpty
 {
 setBlockIsEmpty
 =
-PR_TRUE
+true
 ;
 *
 aBlockIsEmpty
 =
-PR_FALSE
+false
 ;
 }
 goto
@@ -818,7 +818,7 @@ aBlockIsEmpty
 {
 setBlockIsEmpty
 =
-PR_TRUE
+true
 ;
 *
 aBlockIsEmpty
@@ -960,7 +960,7 @@ mFlags
 .
 mIsTopOfPage
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -1438,7 +1438,7 @@ DeleteNextInFlowChild
 (
 mPresContext
 kidNextInFlow
-PR_TRUE
+true
 )
 ;
 }
@@ -1692,7 +1692,7 @@ NS_FRAME_REFLOW_FINISHED
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1782,6 +1782,6 @@ y
 )
 ;
 return
-PR_TRUE
+true
 ;
 }

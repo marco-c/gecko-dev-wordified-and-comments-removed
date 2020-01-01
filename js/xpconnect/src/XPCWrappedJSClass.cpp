@@ -85,11 +85,11 @@ if
 mJSContext
 )
 return
-PR_TRUE
+true
 ;
 mEvaluated
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -108,7 +108,7 @@ errorReporter
 ;
 mErrorReporterSet
 =
-PR_TRUE
+true
 ;
 }
 mContextHasThread
@@ -139,7 +139,7 @@ scope
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -163,7 +163,7 @@ mJSContext
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 AutoScriptEvaluate
@@ -4070,7 +4070,7 @@ fp
 {
 onlyNativeStackFrames
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -4114,7 +4114,7 @@ getInterface
 {
 reportable
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5394,8 +5394,8 @@ nsnull
 helper
 newWrapperIID
 nsnull
-PR_FALSE
-PR_FALSE
+false
+false
 nsnull
 )
 ;
@@ -6450,7 +6450,7 @@ forceReport
 )
 forceReport
 =
-PR_FALSE
+false
 ;
 return
 CheckForException

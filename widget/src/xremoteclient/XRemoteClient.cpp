@@ -325,7 +325,7 @@ mDisplay
 ;
 mInitialized
 =
-PR_FALSE
+false
 ;
 mMozVersionAtom
 =
@@ -591,7 +591,7 @@ i
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -638,7 +638,7 @@ mDisplay
 ;
 mInitialized
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -811,7 +811,7 @@ BadWindow
 {
 sGotBadWindow
 =
-PR_TRUE
+true
 ;
 return
 0
@@ -875,7 +875,7 @@ aWindowFound
 *
 aWindowFound
 =
-PR_FALSE
+false
 ;
 bool
 isCommandLine
@@ -914,11 +914,11 @@ w
 *
 aWindowFound
 =
-PR_TRUE
+true
 ;
 sGotBadWindow
 =
-PR_FALSE
+false
 ;
 XSelectInput
 (
@@ -1318,7 +1318,7 @@ false
 *
 aDestroyed
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -1498,7 +1498,7 @@ sGotBadWindow
 *
 aDestroyed
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -1748,7 +1748,7 @@ aWindow
 *
 aDestroyed
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -2685,7 +2685,7 @@ aDestroyed
 *
 aDestroyed
 =
-PR_FALSE
+false
 ;
 PR_LOG
 (
@@ -2922,7 +2922,7 @@ aDestroyed
 *
 aDestroyed
 =
-PR_FALSE
+false
 ;
 char
 cwdbuf
@@ -3447,10 +3447,10 @@ response
 *
 aDestroyed
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -3601,7 +3601,7 @@ window
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3671,7 +3671,7 @@ response
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3705,7 +3705,7 @@ data
 ;
 done
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3740,11 +3740,11 @@ data
 ;
 accepted
 =
-PR_TRUE
+true
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3790,11 +3790,11 @@ data
 ;
 accepted
 =
-PR_TRUE
+true
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3850,7 +3850,7 @@ data
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3905,7 +3905,7 @@ data
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3954,7 +3954,7 @@ data
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 if

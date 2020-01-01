@@ -1200,7 +1200,7 @@ AddObserver
 (
 instance
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1218,7 +1218,7 @@ AddObserver
 (
 instance
 NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4874,7 +4874,7 @@ directory
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 }

@@ -330,10 +330,10 @@ nsIDOMSVGLength
 SVG_LENGTHTYPE_PC
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -1309,7 +1309,7 @@ aValue
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1343,7 +1343,7 @@ aSVGElement
 DidChangeLength
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 }
@@ -1437,7 +1437,7 @@ valueInSpecifiedUnits
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 mSpecifiedUnitType
 =
@@ -1478,7 +1478,7 @@ aSVGElement
 DidChangeLength
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 return
@@ -1718,7 +1718,7 @@ value
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 mSpecifiedUnitType
 =
@@ -1849,7 +1849,7 @@ aValue
 ;
 mIsAnimated
 =
-PR_TRUE
+true
 ;
 aSVGElement
 -
@@ -2196,7 +2196,7 @@ mVal
 >
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 }
 }

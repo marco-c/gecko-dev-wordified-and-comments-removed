@@ -163,7 +163,7 @@ _method
 Trace
 (
 _method
-PR_TRUE
+true
 )
 #
 define
@@ -174,7 +174,7 @@ _method
 Trace
 (
 _method
-PR_FALSE
+false
 )
 #
 define
@@ -249,7 +249,7 @@ _method
 Trace
 (
 _method
-PR_TRUE
+true
 )
 #
 define
@@ -262,7 +262,7 @@ _status
 Trace
 (
 _method
-PR_FALSE
+false
 _status
 )
 #

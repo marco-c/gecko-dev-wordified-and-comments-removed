@@ -1342,7 +1342,7 @@ mThis
 >
 mIsPending
 =
-PR_FALSE
+false
 ;
 return
 AsyncCall

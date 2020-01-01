@@ -613,7 +613,7 @@ ComputedWidth
 )
 )
 ?
-PR_FALSE
+false
 :
 HaveFixedSize
 (
@@ -676,7 +676,7 @@ mIntrinsicRatio
 )
 mDisplayingIcon
 (
-PR_FALSE
+false
 )
 {
 mIntrinsicSize
@@ -1101,7 +1101,7 @@ if
 aImage
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 :
@@ -1251,7 +1251,7 @@ if
 aImage
 )
 return
-PR_FALSE
+false
 ;
 nsSize
 oldIntrinsicRatio
@@ -1527,11 +1527,11 @@ GetCoordValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1627,7 +1627,7 @@ container
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -1691,7 +1691,7 @@ request
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -2046,7 +2046,7 @@ GetStylePosition
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2067,7 +2067,7 @@ mForceBrokenImageIcon
 {
 useSizedBox
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2084,7 +2084,7 @@ mPrefForceInlineAltText
 {
 useSizedBox
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2109,7 +2109,7 @@ eCompatibility_NavQuirks
 {
 useSizedBox
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2161,7 +2161,7 @@ input
 {
 useSizedBox
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3867,7 +3867,7 @@ aContext
 .
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 nscoord
@@ -3942,7 +3942,7 @@ i
 ;
 trailingSpace
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4020,7 +4020,7 @@ else
 {
 fits
 =
-PR_FALSE
+false
 ;
 }
 len
@@ -4368,7 +4368,7 @@ height
 ;
 firstLine
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -4681,7 +4681,7 @@ this
 ;
 mDisplayingIcon
 =
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -4799,7 +4799,7 @@ FLAG_NONE
 ;
 iconUsed
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -5069,7 +5069,7 @@ aDirtyRect
 IMAGE_OK
 (
 state
-PR_TRUE
+true
 )
 ?
 nsImageFrame
@@ -6055,7 +6055,7 @@ STATUS_SIZE_AVAILABLE
 )
 haveSize
 =
-PR_TRUE
+true
 ;
 NS_ABORT_IF_FALSE
 (
@@ -6157,7 +6157,7 @@ this
 ;
 mDisplayingIcon
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -7415,7 +7415,7 @@ nsEventStatus_eConsumeDoDefault
 ;
 clicked
 =
-PR_TRUE
+true
 ;
 }
 nsContentUtils
@@ -7428,8 +7428,8 @@ aPresContext
 uri
 target
 clicked
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -8782,7 +8782,7 @@ wrong
 pref
 "
 )
-PR_FALSE
+false
 )
 ;
 +
@@ -9383,7 +9383,7 @@ CompatibilityMode
 )
 )
 return
-PR_FALSE
+false
 ;
 nsBlockFrame
 *
@@ -9459,7 +9459,7 @@ eStyleUnit_Auto
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -9551,7 +9551,7 @@ aData
 >
 skipWhitespace
 =
-PR_FALSE
+false
 ;
 aData
 -
@@ -9584,7 +9584,7 @@ aData
 >
 atStartOfLine
 =
-PR_FALSE
+false
 ;
 if
 (

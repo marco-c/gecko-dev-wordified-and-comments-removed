@@ -490,14 +490,14 @@ NS_STATE_SET_TO_DEBUG
 SetDebug
 (
 aState
-PR_TRUE
+true
 )
 ;
 else
 SetDebug
 (
 aState
-PR_FALSE
+false
 )
 ;
 }
@@ -763,7 +763,7 @@ gGotTheme
 {
 gGotTheme
 =
-PR_TRUE
+true
 ;
 CallGetService
 (
@@ -812,7 +812,7 @@ Shutdown
 {
 gGotTheme
 =
-PR_FALSE
+false
 ;
 NS_IF_RELEASE
 (
@@ -2511,11 +2511,11 @@ aHeightSet
 {
 aWidthSet
 =
-PR_FALSE
+false
 ;
 aHeightSet
 =
-PR_FALSE
+false
 ;
 const
 nsStylePosition
@@ -2563,7 +2563,7 @@ GetCoordValue
 ;
 aWidthSet
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2615,7 +2615,7 @@ width
 ;
 aWidthSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2653,7 +2653,7 @@ GetCoordValue
 ;
 aHeightSet
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2705,7 +2705,7 @@ height
 ;
 aHeightSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2791,7 +2791,7 @@ error
 ;
 aWidthSet
 =
-PR_TRUE
+true
 ;
 }
 content
@@ -2846,7 +2846,7 @@ error
 ;
 aHeightSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2884,11 +2884,11 @@ aHeightSet
 {
 aWidthSet
 =
-PR_FALSE
+false
 ;
 aHeightSet
 =
-PR_FALSE
+false
 ;
 bool
 canOverride
@@ -3015,7 +3015,7 @@ width
 ;
 aWidthSet
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -3045,7 +3045,7 @@ height
 ;
 aHeightSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3152,7 +3152,7 @@ min
 ;
 aWidthSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3201,7 +3201,7 @@ width
 ;
 aWidthSet
 =
-PR_TRUE
+true
 ;
 }
 const
@@ -3293,7 +3293,7 @@ min
 ;
 aHeightSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3345,7 +3345,7 @@ height
 ;
 aHeightSet
 =
-PR_TRUE
+true
 ;
 }
 nsIContent
@@ -3443,7 +3443,7 @@ val
 ;
 aWidthSet
 =
-PR_TRUE
+true
 ;
 }
 content
@@ -3511,7 +3511,7 @@ val
 ;
 aHeightSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3546,11 +3546,11 @@ aHeightSet
 {
 aWidthSet
 =
-PR_FALSE
+false
 ;
 aHeightSet
 =
-PR_FALSE
+false
 ;
 const
 nsStylePosition
@@ -3597,7 +3597,7 @@ maxWidth
 ;
 aWidthSet
 =
-PR_TRUE
+true
 ;
 }
 const
@@ -3634,7 +3634,7 @@ maxHeight
 ;
 aHeightSet
 =
-PR_TRUE
+true
 ;
 }
 nsIContent
@@ -3724,7 +3724,7 @@ val
 ;
 aWidthSet
 =
-PR_TRUE
+true
 ;
 }
 content
@@ -3784,7 +3784,7 @@ val
 ;
 aHeightSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3905,7 +3905,7 @@ error
 ;
 flexSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4387,7 +4387,7 @@ aDebug
 {
 aDebug
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

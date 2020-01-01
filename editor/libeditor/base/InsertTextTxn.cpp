@@ -550,7 +550,7 @@ aDidMerge
 *
 aDidMerge
 =
-PR_FALSE
+false
 ;
 nsresult
 result
@@ -623,7 +623,7 @@ otherData
 *
 aDidMerge
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -775,10 +775,10 @@ length
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }

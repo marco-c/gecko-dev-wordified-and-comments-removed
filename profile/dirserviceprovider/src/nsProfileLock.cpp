@@ -148,7 +148,7 @@ nsProfileLock
 :
 mHaveLock
 (
-PR_FALSE
+false
 )
 #
 if
@@ -210,9 +210,9 @@ MOZ_DISABLE_SIG_HANDLER
 "
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 #
 endif
@@ -260,7 +260,7 @@ rhs
 .
 mHaveLock
 =
-PR_FALSE
+false
 ;
 #
 if
@@ -497,7 +497,7 @@ endif
 {
 RemovePidLockFiles
 (
-PR_TRUE
+true
 )
 ;
 struct
@@ -906,7 +906,7 @@ NS_ERROR_FAILURE
 else
 mHaveLock
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1050,7 +1050,7 @@ aHaveFcntlLock
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 char
@@ -1100,7 +1100,7 @@ s_addr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1122,7 +1122,7 @@ ESRCH
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1130,7 +1130,7 @@ PR_FALSE
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1377,7 +1377,7 @@ NS_OK
 ;
 mHaveLock
 =
-PR_TRUE
+true
 ;
 mPidLockFileName
 =
@@ -1839,7 +1839,7 @@ rv
 LockWithSymlink
 (
 filePath
-PR_FALSE
+false
 )
 ;
 }
@@ -2159,7 +2159,7 @@ rv
 LockWithSymlink
 (
 oldFilePath
-PR_TRUE
+true
 )
 ;
 if
@@ -2188,7 +2188,7 @@ rv
 LockWithSymlink
 (
 oldFilePath
-PR_FALSE
+false
 )
 ;
 }
@@ -2430,7 +2430,7 @@ NS_ERROR_FAILURE
 endif
 mHaveLock
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -2570,7 +2570,7 @@ mLockFileDesc
 endif
 mHaveLock
 =
-PR_FALSE
+false
 ;
 }
 return

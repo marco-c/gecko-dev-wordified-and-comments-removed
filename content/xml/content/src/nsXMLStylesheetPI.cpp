@@ -444,7 +444,7 @@ rv
 UpdateStyleSheetInternal
 (
 nsnull
-PR_TRUE
+true
 )
 ;
 }
@@ -511,7 +511,7 @@ aIsInline
 *
 aIsInline
 =
-PR_FALSE
+false
 ;
 nsAutoString
 href
@@ -657,7 +657,7 @@ Truncate
 *
 aIsAlternate
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -738,7 +738,7 @@ return
 *
 aIsAlternate
 =
-PR_TRUE
+true
 ;
 }
 nsParserUtils

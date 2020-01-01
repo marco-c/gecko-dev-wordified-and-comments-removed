@@ -44,15 +44,15 @@ mPauseStart
 )
 mNeedsPauseSample
 (
-PR_FALSE
+false
 )
 mNeedsRewind
 (
-PR_FALSE
+false
 )
 mIsSeeking
 (
-PR_FALSE
+false
 )
 mPauseState
 (
@@ -182,7 +182,7 @@ mPauseState
 {
 mNeedsPauseSample
 =
-PR_TRUE
+true
 ;
 }
 UpdateCurrentTime
@@ -222,11 +222,11 @@ GetParentTime
 ;
 mNeedsPauseSample
 =
-PR_TRUE
+true
 ;
 didStartPause
 =
-PR_TRUE
+true
 ;
 }
 mPauseState
@@ -353,7 +353,7 @@ aSeekTo
 ;
 mIsSeeking
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -364,7 +364,7 @@ IsPaused
 {
 mNeedsPauseSample
 =
-PR_TRUE
+true
 ;
 mPauseStart
 =
@@ -380,7 +380,7 @@ mCurrentTime
 {
 mNeedsRewind
 =
-PR_TRUE
+true
 ;
 ClearMilestones
 (
@@ -488,7 +488,7 @@ DoSample
 ;
 mNeedsPauseSample
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -620,7 +620,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 nsSMILTimeValue
 parentTime
@@ -648,7 +648,7 @@ IsDefinite
 )
 )
 return
-PR_FALSE
+false
 ;
 aNextMilestone
 =
@@ -671,7 +671,7 @@ mIsEnd
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -698,7 +698,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 nsSMILTimeValue
 containerTime
@@ -720,7 +720,7 @@ IsDefinite
 )
 )
 return
-PR_FALSE
+false
 ;
 nsSMILMilestone
 containerMilestone
@@ -809,7 +809,7 @@ mTimebase
 ;
 gotOne
 =
-PR_TRUE
+true
 ;
 }
 return

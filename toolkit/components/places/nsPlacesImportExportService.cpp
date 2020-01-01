@@ -420,7 +420,7 @@ Container_Normal
 )
 mInDescription
 (
-PR_FALSE
+false
 )
 mPreviousId
 (
@@ -1173,7 +1173,7 @@ aReturn
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1797,7 +1797,7 @@ CurFrame
 .
 mInDescription
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1996,7 +1996,7 @@ frame
 .
 mInDescription
 =
-PR_FALSE
+false
 ;
 }
 switch
@@ -4234,7 +4234,7 @@ mAllowRootChanges
 )
 updateFolder
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4267,7 +4267,7 @@ mAllowRootChanges
 )
 updateFolder
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -8926,7 +8926,7 @@ folderNode
 >
 SetContainerOpen
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9270,7 +9270,7 @@ rv
 ImportHTMLFromFileInternal
 (
 aFile
-PR_FALSE
+false
 0
 aIsInitialImport
 )
@@ -9334,7 +9334,7 @@ rv
 ImportHTMLFromURIInternal
 (
 aURI
-PR_FALSE
+false
 0
 aIsInitialImport
 )
@@ -9399,7 +9399,7 @@ rv
 ImportHTMLFromFileInternal
 (
 aFile
-PR_FALSE
+false
 aFolderId
 aIsInitialImport
 )
@@ -10666,7 +10666,7 @@ rootNode
 >
 SetContainerOpen
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10704,7 +10704,7 @@ rootNode
 >
 SetContainerOpen
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10822,7 +10822,7 @@ rootNode
 >
 SetContainerOpen
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10857,7 +10857,7 @@ rootNode
 >
 SetContainerOpen
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS

@@ -284,7 +284,7 @@ nsEditor
 )
 mIgnoreSpuriousDragEvent
 (
-PR_FALSE
+false
 )
 mRules
 (
@@ -292,7 +292,7 @@ nsnull
 )
 mWrapToWindow
 (
-PR_FALSE
+false
 )
 mWrapColumn
 (
@@ -795,12 +795,12 @@ res
 {
 EnableUndo
 (
-PR_FALSE
+false
 )
 ;
 EnableUndo
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1135,7 +1135,7 @@ result
 )
 newMetaCharset
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1402,7 +1402,7 @@ IsModifiable
 (
 )
 :
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2134,7 +2134,7 @@ selPriv
 >
 SetInterlinePosition
 (
-PR_TRUE
+true
 )
 ;
 res
@@ -2165,7 +2165,7 @@ selPriv
 >
 SetInterlinePosition
 (
-PR_TRUE
+true
 )
 ;
 res
@@ -2415,7 +2415,7 @@ selPriv
 >
 SetInterlinePosition
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -3053,7 +3053,7 @@ selCont
 >
 WordExtendForDelete
 (
-PR_TRUE
+true
 )
 ;
 *
@@ -3073,7 +3073,7 @@ selCont
 >
 WordExtendForDelete
 (
-PR_FALSE
+false
 )
 ;
 *
@@ -3230,8 +3230,8 @@ selCont
 >
 IntraLineMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 result
@@ -3241,8 +3241,8 @@ selCont
 >
 IntraLineMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 *
@@ -3262,8 +3262,8 @@ selCont
 >
 IntraLineMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 *
@@ -4094,7 +4094,7 @@ selPriv
 >
 SetInterlinePosition
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4720,7 +4720,7 @@ styleValue
 Find
 (
 stylename
-PR_TRUE
+true
 )
 ;
 if
@@ -4741,7 +4741,7 @@ Find
 "
 ;
 "
-PR_FALSE
+false
 styleStart
 )
 ;
@@ -4895,8 +4895,8 @@ Trim
 \
 t
 "
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 styleValue
@@ -5420,7 +5420,7 @@ selection
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 isCollapsed
@@ -5473,7 +5473,7 @@ GetPresShell
 NS_ENSURE_TRUE
 (
 presShell
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -5496,7 +5496,7 @@ selection
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -5512,7 +5512,7 @@ selection
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 !

@@ -214,7 +214,7 @@ off
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 NS_ADDREF
@@ -310,7 +310,7 @@ off
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 NS_ADDREF

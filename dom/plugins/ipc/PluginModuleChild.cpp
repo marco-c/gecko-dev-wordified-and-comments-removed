@@ -506,7 +506,7 @@ mUserAgent
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -755,7 +755,7 @@ NS_ConvertUTF8toUTF16
 (
 mPluginFilename
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -9469,7 +9469,7 @@ voidString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 ident

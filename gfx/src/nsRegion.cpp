@@ -244,7 +244,7 @@ width
 0
 )
 return
-PR_FALSE
+false
 ;
 const
 nscoord
@@ -290,10 +290,10 @@ height
 0
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline
@@ -2637,7 +2637,7 @@ aRgn2
 InsertInPlace
 (
 TmpRect
-PR_TRUE
+true
 )
 ;
 }
@@ -2675,7 +2675,7 @@ aRgn1
 InsertInPlace
 (
 TmpRect
-PR_TRUE
+true
 )
 ;
 }
@@ -4002,7 +4002,7 @@ RgnRect
 (
 aRectFast
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -4367,7 +4367,7 @@ RgnRect
 (
 aRectFast
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -4735,7 +4735,7 @@ IsEmpty
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -4744,7 +4744,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4825,12 +4825,12 @@ r
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4860,7 +4860,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 RgnRect
@@ -4891,7 +4891,7 @@ aRect
 )
 )
 return
-PR_TRUE
+true
 ;
 r
 =
@@ -4902,7 +4902,7 @@ next
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -6276,9 +6276,9 @@ mRectCount
 0
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -6297,9 +6297,9 @@ mRectCount
 0
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -6349,7 +6349,7 @@ mBoundRect
 )
 )
 return
-PR_FALSE
+false
 ;
 else
 {
@@ -7188,7 +7188,7 @@ aOther
 mSizeContainingRect
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -7199,7 +7199,7 @@ aOther
 mSizeContainingRect
 )
 return
-PR_FALSE
+false
 ;
 return
 mSize

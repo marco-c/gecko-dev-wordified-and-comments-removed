@@ -515,7 +515,7 @@ PR_SUCCESS
 PR_ParseTimeString
 (
 string
-PR_FALSE
+false
 &
 prtime
 )

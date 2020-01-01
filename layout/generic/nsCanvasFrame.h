@@ -64,7 +64,7 @@ aContext
 )
 mDoPaintFocus
 (
-PR_FALSE
+false
 )
 mAddedScrollPositionListener
 (
@@ -296,7 +296,7 @@ StealFrame
 (
 aPresContext
 aChild
-PR_TRUE
+true
 )
 ;
 if
@@ -465,7 +465,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -526,7 +526,7 @@ background
 )
 )
 return
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -566,7 +566,7 @@ aColor
 mExtraBackgroundColor
 ;
 return
-PR_TRUE
+true
 ;
 }
 virtual

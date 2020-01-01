@@ -93,7 +93,7 @@ mCert
 >
 GetUsagesArray
 (
-PR_FALSE
+false
 &
 verified
 &
@@ -361,7 +361,7 @@ void
 {
 while
 (
-PR_TRUE
+true
 )
 {
 nsBaseVerificationJob

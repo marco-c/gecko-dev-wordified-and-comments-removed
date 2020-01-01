@@ -206,8 +206,8 @@ NS_RDF_DATASOURCE_CONTRACTID_PREFIX
 datasource
 "
 aPath
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 return

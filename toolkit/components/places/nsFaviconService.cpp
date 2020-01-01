@@ -1010,7 +1010,7 @@ dataSize
 {
 hasData
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1019,7 +1019,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 if
@@ -2815,7 +2815,7 @@ aDataURL
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return

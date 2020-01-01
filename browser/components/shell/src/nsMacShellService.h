@@ -48,7 +48,7 @@ nsMacShellService
 :
 mCheckedThisSession
 (
-PR_FALSE
+false
 )
 {
 }

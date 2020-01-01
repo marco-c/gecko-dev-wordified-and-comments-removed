@@ -40,11 +40,11 @@ nsCollationMacUC
 :
 mInit
 (
-PR_FALSE
+false
 )
 mHasCollator
 (
-PR_FALSE
+false
 )
 mLocale
 (
@@ -100,7 +100,7 @@ mCollator
 ;
 mHasCollator
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -353,7 +353,7 @@ mCollator
 ;
 mHasCollator
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -417,7 +417,7 @@ NS_ERROR_FAILURE
 ;
 mHasCollator
 =
-PR_TRUE
+true
 ;
 mLastStrength
 =
@@ -522,7 +522,7 @@ rv
 ;
 mInit
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

@@ -179,7 +179,7 @@ RemovePidLockFilesExiting
 {
 RemovePidLockFiles
 (
-PR_FALSE
+false
 )
 ;
 }

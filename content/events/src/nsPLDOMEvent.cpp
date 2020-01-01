@@ -73,7 +73,7 @@ aEventNode
 )
 mDispatchChromeOnly
 (
-PR_FALSE
+false
 )
 {
 bool
@@ -251,7 +251,7 @@ doc
 mEventNode
 mEventType
 mBubbles
-PR_FALSE
+false
 )
 ;
 }
@@ -266,7 +266,7 @@ doc
 mEventNode
 mEventType
 mBubbles
-PR_FALSE
+false
 )
 ;
 }
@@ -326,7 +326,7 @@ mBlockedDoc
 >
 UnblockOnload
 (
-PR_TRUE
+true
 )
 ;
 }

@@ -1123,7 +1123,7 @@ remote
 >
 Refresh
 (
-PR_TRUE
+true
 )
 ;
 NS_ASSERTION

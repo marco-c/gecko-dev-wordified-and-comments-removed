@@ -28,9 +28,9 @@ en
 0
 .
 0
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 NS_LITERAL_STRING
 (
 "
@@ -64,9 +64,9 @@ en
 0
 .
 0
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 NS_LITERAL_STRING
 (
 "

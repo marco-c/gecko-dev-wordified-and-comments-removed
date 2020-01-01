@@ -794,7 +794,7 @@ txMozillaXMLOutput
 &
 format
 mFragment
-PR_FALSE
+false
 )
 ;
 break
@@ -815,7 +815,7 @@ txMozillaXMLOutput
 (
 aFormat
 mFragment
-PR_FALSE
+false
 )
 ;
 break
@@ -1538,7 +1538,7 @@ caseInsensitiveNameTests
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1581,7 +1581,7 @@ aNode
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2019,7 +2019,7 @@ document
 >
 UnblockOnload
 (
-PR_TRUE
+true
 )
 ;
 }

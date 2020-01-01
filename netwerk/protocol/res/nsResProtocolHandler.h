@@ -63,7 +63,7 @@ nsResURL
 :
 nsStandardURL
 (
-PR_TRUE
+true
 )
 {
 }

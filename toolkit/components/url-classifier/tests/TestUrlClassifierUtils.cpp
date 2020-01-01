@@ -632,7 +632,7 @@ utils
 SpecialEncode
 (
 strIn
-PR_TRUE
+true
 out
 )
 ;
@@ -709,7 +709,7 @@ utils
 SpecialEncode
 (
 noenc
-PR_FALSE
+false
 out
 )
 ;
@@ -816,7 +816,7 @@ utils
 SpecialEncode
 (
 yesAsString
-PR_FALSE
+false
 out
 )
 ;

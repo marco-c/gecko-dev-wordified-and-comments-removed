@@ -300,7 +300,7 @@ SetActiveByKeyboard
 {
 mActiveByKeyboard
 =
-PR_TRUE
+true
 ;
 }
 virtual
@@ -353,7 +353,7 @@ eReplaced
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 nsBoxFrame

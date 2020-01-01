@@ -2071,7 +2071,7 @@ mOuterWindow
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -2580,7 +2580,7 @@ freezing
 ;
 mIsFrozen
 =
-PR_TRUE
+true
 ;
 NotifyDOMWindowFrozen
 (
@@ -2595,7 +2595,7 @@ Thaw
 {
 mIsFrozen
 =
-PR_FALSE
+false
 ;
 NotifyDOMWindowThawed
 (
@@ -3266,11 +3266,11 @@ aOuterWindow
 {
 mIsChrome
 =
-PR_TRUE
+true
 ;
 mCleanMessageManager
 =
-PR_TRUE
+true
 ;
 }
 ~
@@ -3319,7 +3319,7 @@ Disconnect
 }
 mCleanMessageManager
 =
-PR_FALSE
+false
 ;
 }
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
@@ -3365,7 +3365,7 @@ aOuterWindow
 {
 mIsModalContentWindow
 =
-PR_TRUE
+true
 ;
 }
 NS_DECL_ISUPPORTS_INHERITED

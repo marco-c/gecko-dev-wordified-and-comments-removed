@@ -599,7 +599,7 @@ CheckSameOriginURI
 (
 curr
 mLoadedURI
-PR_FALSE
+false
 )
 ;
 if
@@ -952,7 +952,7 @@ CheckSameOriginURI
 (
 mLoadedURI
 mUnloadedURI
-PR_FALSE
+false
 )
 ;
 if
@@ -1010,7 +1010,7 @@ CheckSameOriginURI
 (
 mLoadedURI
 mUnloadedURI
-PR_FALSE
+false
 )
 ;
 if

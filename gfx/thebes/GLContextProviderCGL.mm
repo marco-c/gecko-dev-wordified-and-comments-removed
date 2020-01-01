@@ -536,7 +536,7 @@ CGLLibrary
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 mOGLLibrary
 (
@@ -559,7 +559,7 @@ mInitialized
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -608,7 +608,7 @@ Framework
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -642,10 +642,10 @@ db
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
-PR_TRUE
+true
 ;
 }
 NSOpenGLPixelFormat
@@ -799,7 +799,7 @@ aPixelBuffer
 GLContext
 (
 aFormat
-PR_TRUE
+true
 aShareContext
 )
 mContext
@@ -868,7 +868,7 @@ InitWithPrefix
 "
 gl
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -923,7 +923,7 @@ mContext
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -938,7 +938,7 @@ makeCurrentContext
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -947,7 +947,7 @@ SetupLookupFunction
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -970,7 +970,7 @@ flushBuffer
 ]
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1071,7 +1071,7 @@ context
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1096,7 +1096,7 @@ context
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 GLContextCGL
@@ -1192,7 +1192,7 @@ sharing
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 fBindTexture
@@ -1223,11 +1223,11 @@ this
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1371,7 +1371,7 @@ pb
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 [
@@ -1419,7 +1419,7 @@ ClearSafely
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -2635,7 +2635,7 @@ GLContextCGL
 aFormat
 shareContext
 context
-PR_TRUE
+true
 )
 ;
 return
@@ -2893,7 +2893,7 @@ ContextFormat
 :
 BasicRGB24
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -2947,7 +2947,7 @@ gGlobalContext
 >
 SetIsGlobalSharedContext
 (
-PR_TRUE
+true
 )
 ;
 }

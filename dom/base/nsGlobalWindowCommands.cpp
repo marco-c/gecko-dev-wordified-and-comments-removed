@@ -640,7 +640,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -995,7 +995,7 @@ typeChrome
 {
 caretOn
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1066,8 +1066,8 @@ aSelectionController
 >
 CompleteMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -1090,8 +1090,8 @@ aSelectionController
 >
 CompleteMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -1114,8 +1114,8 @@ aSelectionController
 >
 PageMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -1138,8 +1138,8 @@ aSelectionController
 >
 PageMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -1162,7 +1162,7 @@ aSelectionController
 >
 ScrollPage
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -1185,7 +1185,7 @@ aSelectionController
 >
 ScrollPage
 (
-PR_TRUE
+true
 )
 ;
 else
@@ -1208,8 +1208,8 @@ aSelectionController
 >
 LineMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -1232,8 +1232,8 @@ aSelectionController
 >
 LineMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -1256,8 +1256,8 @@ aSelectionController
 >
 WordMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -1280,8 +1280,8 @@ aSelectionController
 >
 WordMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -1304,8 +1304,8 @@ aSelectionController
 >
 CharacterMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -1328,8 +1328,8 @@ aSelectionController
 >
 CharacterMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 else
@@ -1352,8 +1352,8 @@ aSelectionController
 >
 IntraLineMove
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 else
@@ -1376,8 +1376,8 @@ aSelectionController
 >
 IntraLineMove
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -1476,7 +1476,7 @@ aSelectionController
 >
 CompleteScroll
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -1499,7 +1499,7 @@ aSelectionController
 >
 CompleteScroll
 (
-PR_TRUE
+true
 )
 ;
 else
@@ -1522,7 +1522,7 @@ aSelectionController
 >
 ScrollPage
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -1545,7 +1545,7 @@ aSelectionController
 >
 ScrollPage
 (
-PR_TRUE
+true
 )
 ;
 else
@@ -1568,7 +1568,7 @@ aSelectionController
 >
 ScrollPage
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -1591,7 +1591,7 @@ aSelectionController
 >
 ScrollPage
 (
-PR_TRUE
+true
 )
 ;
 else
@@ -1614,7 +1614,7 @@ aSelectionController
 >
 ScrollLine
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -1637,7 +1637,7 @@ aSelectionController
 >
 ScrollLine
 (
-PR_TRUE
+true
 )
 ;
 else
@@ -1660,7 +1660,7 @@ aSelectionController
 >
 ScrollHorizontal
 (
-PR_TRUE
+true
 )
 ;
 else
@@ -1683,7 +1683,7 @@ aSelectionController
 >
 ScrollHorizontal
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -1706,7 +1706,7 @@ aSelectionController
 >
 CompleteScroll
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -1729,7 +1729,7 @@ aSelectionController
 >
 CompleteScroll
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -1805,8 +1805,8 @@ selCont
 >
 CharacterMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 else
@@ -1829,8 +1829,8 @@ selCont
 >
 CharacterMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 else
@@ -1853,8 +1853,8 @@ selCont
 >
 WordMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 else
@@ -1877,8 +1877,8 @@ selCont
 >
 WordMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 else
@@ -1901,8 +1901,8 @@ selCont
 >
 IntraLineMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 else
@@ -1925,8 +1925,8 @@ selCont
 >
 IntraLineMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 else
@@ -1949,8 +1949,8 @@ selCont
 >
 LineMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 else
@@ -1973,8 +1973,8 @@ selCont
 >
 LineMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 else
@@ -1997,8 +1997,8 @@ selCont
 >
 CompleteMove
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 else
@@ -2021,8 +2021,8 @@ selCont
 >
 CompleteMove
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 return
@@ -2081,7 +2081,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2394,7 +2394,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2968,7 +2968,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3363,7 +3363,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -3692,7 +3692,7 @@ outCmdEnabled
 *
 outCmdEnabled
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3964,7 +3964,7 @@ SetBooleanValue
 "
 state_enabled
 "
-PR_TRUE
+true
 )
 ;
 }

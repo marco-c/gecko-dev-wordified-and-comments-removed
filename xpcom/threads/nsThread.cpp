@@ -630,7 +630,7 @@ mMon
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 mon
 .
@@ -656,7 +656,7 @@ mMon
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 }
@@ -711,7 +711,7 @@ mShutdownContext
 >
 shutdownAck
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -843,7 +843,7 @@ self
 >
 GetEvent
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 event
@@ -894,7 +894,7 @@ self
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 {
@@ -926,7 +926,7 @@ self
 >
 mEventsAreDoomed
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1033,11 +1033,11 @@ nsnull
 )
 mShutdownRequired
 (
-PR_FALSE
+false
 )
 mEventsAreDoomed
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1085,11 +1085,11 @@ nsnull
 )
 mShutdownRequired
 (
-PR_FALSE
+false
 )
 mEventsAreDoomed
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1135,7 +1135,7 @@ NS_ADDREF_THIS
 ;
 mShutdownRequired
 =
-PR_TRUE
+true
 ;
 PRThread
 *
@@ -1574,7 +1574,7 @@ NS_ERROR_UNEXPECTED
 ;
 mShutdownRequired
 =
-PR_FALSE
+false
 ;
 }
 nsThreadShutdownContext
@@ -1600,7 +1600,7 @@ context
 .
 shutdownAck
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1713,7 +1713,7 @@ mEvents
 >
 GetEvent
 (
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -2671,7 +2671,7 @@ queue
 >
 GetEvent
 (
-PR_FALSE
+false
 getter_AddRefs
 (
 event

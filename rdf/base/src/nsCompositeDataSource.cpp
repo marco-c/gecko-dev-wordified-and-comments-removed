@@ -488,7 +488,7 @@ mResult
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -818,7 +818,7 @@ mResult
 {
 alreadyReturned
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -841,7 +841,7 @@ continue
 *
 aResult
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -869,7 +869,7 @@ while
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1246,7 +1246,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1794,11 +1794,11 @@ void
 :
 mAllowNegativeAssertions
 (
-PR_TRUE
+true
 )
 mCoalesceDuplicateArcs
 (
-PR_TRUE
+true
 )
 mUpdateBatchNest
 (
@@ -2555,18 +2555,18 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
 result
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -2994,7 +2994,7 @@ HasAssertion
 aSource
 aProperty
 aTarget
-PR_TRUE
+true
 &
 hasAssertion
 )
@@ -3046,7 +3046,7 @@ NS_RDF_ASSERTION_ACCEPTED
 {
 unasserted
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3088,7 +3088,7 @@ Assert
 aSource
 aProperty
 aTarget
-PR_FALSE
+false
 )
 ;
 if
@@ -3545,7 +3545,7 @@ aTruthValue
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 (
@@ -3664,7 +3664,7 @@ hasNegation
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3675,7 +3675,7 @@ NS_OK
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3788,7 +3788,7 @@ rv
 *
 result
 =
-PR_FALSE
+false
 ;
 PRInt32
 count
@@ -3876,7 +3876,7 @@ rv
 *
 result
 =
-PR_FALSE
+false
 ;
 PRInt32
 count
@@ -4439,7 +4439,7 @@ enabled
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 (
@@ -4451,7 +4451,7 @@ NS_OK
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 (
@@ -4894,7 +4894,7 @@ HasAssertion
 aSource
 aProperty
 aTarget
-PR_TRUE
+true
 &
 hasAssertion
 )
@@ -5000,7 +5000,7 @@ HasAssertion
 aSource
 aProperty
 aTarget
-PR_TRUE
+true
 &
 hasAssertion
 )

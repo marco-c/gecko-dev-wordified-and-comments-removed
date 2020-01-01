@@ -508,7 +508,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -527,7 +527,7 @@ if
 content
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -660,7 +660,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -763,7 +763,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -826,7 +826,7 @@ eventState
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 IsOpenButton
@@ -862,7 +862,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -934,7 +934,7 @@ indeterminate
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -959,7 +959,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1182,7 +1182,7 @@ content
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1469,7 +1469,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1492,7 +1492,7 @@ nsGkAtoms
 treecolpicker
 )
 return
-PR_TRUE
+true
 ;
 nsIContent
 *
@@ -1565,7 +1565,7 @@ eCaseMatters
 )
 )
 return
-PR_FALSE
+false
 ;
 while
 (
@@ -1595,11 +1595,11 @@ width
 0
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1619,7 +1619,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 classStr
@@ -1683,7 +1683,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -1757,7 +1757,7 @@ GetNextSibling
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1777,7 +1777,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 return
 !
@@ -1823,7 +1823,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1942,7 +1942,7 @@ selectedTabIndex
 1
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -1983,7 +1983,7 @@ GetContent
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2088,7 +2088,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -2126,7 +2126,7 @@ nsGkAtoms
 menu
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -2209,12 +2209,12 @@ x
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2399,7 +2399,7 @@ NS_TIMER_CONTRACTID
 NS_ENSURE_TRUE
 (
 mAnimatedContentTimer
-PR_FALSE
+false
 )
 ;
 }
@@ -2443,7 +2443,7 @@ Cancel
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 }
@@ -2465,7 +2465,7 @@ TYPE_ONE_SHOT
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 mAnimatedContentTimeout
@@ -2495,11 +2495,11 @@ memory
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP

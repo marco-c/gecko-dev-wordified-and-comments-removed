@@ -607,9 +607,9 @@ containsObject
 name
 ]
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK

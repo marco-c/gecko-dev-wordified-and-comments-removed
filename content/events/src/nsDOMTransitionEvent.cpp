@@ -56,7 +56,7 @@ aEvent
 new
 nsTransitionEvent
 (
-PR_FALSE
+false
 0
 EmptyString
 (
@@ -74,14 +74,14 @@ aEvent
 {
 mEventIsInternal
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 mEvent
 -

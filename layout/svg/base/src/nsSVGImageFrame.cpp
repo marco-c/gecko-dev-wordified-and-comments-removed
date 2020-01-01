@@ -900,7 +900,7 @@ nativeHeight
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 imageTransform
@@ -922,7 +922,7 @@ IsSingular
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nscoord
@@ -963,7 +963,7 @@ pageZoomFactor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -1374,7 +1374,7 @@ svg
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 missing
 or
@@ -1391,7 +1391,7 @@ node
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rootSVGElem

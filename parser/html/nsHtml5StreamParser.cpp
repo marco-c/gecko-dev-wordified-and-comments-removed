@@ -747,7 +747,7 @@ this
 ;
 mFeedChardet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -919,7 +919,7 @@ eSureAnswer
 {
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1354,7 +1354,7 @@ kCharsetFromByteOrderMark
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 mTreeBuilder
 -
@@ -1483,7 +1483,7 @@ i
 2
 ]
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1512,7 +1512,7 @@ i
 2
 ]
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1578,7 +1578,7 @@ j
 2
 ]
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1615,7 +1615,7 @@ j
 2
 ]
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1669,7 +1669,7 @@ mCharsetSource
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -1713,7 +1713,7 @@ kCharsetFromHintPrevDoc
 {
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 return
 SetupDecodingAndWriteSniffingBufferAndCurrentSegment
@@ -1838,7 +1838,7 @@ mReparseForbidden
 {
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2409,7 +2409,7 @@ kCharsetFromMetaPrescan
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 mTreeBuilder
 -
@@ -2488,7 +2488,7 @@ kCharsetFromMetaPrescan
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 mTreeBuilder
 -
@@ -3290,7 +3290,7 @@ NS_OK
 ;
 mReparseForbidden
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -3340,11 +3340,11 @@ GET
 {
 mReparseForbidden
 =
-PR_TRUE
+true
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3358,7 +3358,7 @@ kCharsetFromAutoDetection
 {
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -3937,7 +3937,7 @@ TYPE_ONE_SHOT
 ;
 mFlushTimerArmed
 =
-PR_TRUE
+true
 ;
 }
 class
@@ -4256,7 +4256,7 @@ kCharsetFromMetaTag
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4265,7 +4265,7 @@ mReparseForbidden
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCAutoString
@@ -4384,7 +4384,7 @@ available
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -4424,7 +4424,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4438,10 +4438,10 @@ kCharsetFromMetaTag
 ;
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCAutoString
@@ -4467,7 +4467,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4575,12 +4575,12 @@ defined
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mFeedChardet
 =
-PR_FALSE
+false
 ;
 mTreeBuilder
 -
@@ -4600,7 +4600,7 @@ Interrupt
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -4637,7 +4637,7 @@ Cancel
 ;
 mFlushTimerArmed
 =
-PR_FALSE
+false
 ;
 }
 mTreeBuilder
@@ -4810,7 +4810,7 @@ return
 }
 mAtEOF
 =
-PR_TRUE
+true
 ;
 mTokenizer
 -
@@ -4872,7 +4872,7 @@ mLastWasCR
 ;
 mLastWasCR
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4981,7 +4981,7 @@ speculation
 ;
 mSpeculating
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -5198,7 +5198,7 @@ GetSnapshot
 {
 speculationFailed
 =
-PR_TRUE
+true
 ;
 Interrupt
 (
@@ -5360,7 +5360,7 @@ speculationFailed
 {
 mAtEOF
 =
-PR_FALSE
+false
 ;
 nsHtml5Speculation
 *
@@ -5521,7 +5521,7 @@ StartReadingFromStage
 ;
 mSpeculating
 =
-PR_FALSE
+false
 ;
 mLastWasCR
 =
@@ -5663,7 +5663,7 @@ mTreeBuilder
 >
 Flush
 (
-PR_TRUE
+true
 )
 ;
 mTreeBuilder
@@ -5688,7 +5688,7 @@ StartReadingFromStage
 ;
 mSpeculating
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6020,11 +6020,11 @@ speculating
 ;
 mFlushTimerArmed
 =
-PR_FALSE
+false
 ;
 mFlushTimerEverFired
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -6043,7 +6043,7 @@ mTreeBuilder
 >
 Flush
 (
-PR_TRUE
+true
 )
 )
 {
@@ -6124,7 +6124,7 @@ mTreeBuilder
 >
 Flush
 (
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION

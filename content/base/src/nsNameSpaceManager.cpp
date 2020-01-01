@@ -432,7 +432,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -1124,7 +1124,7 @@ aNameSpaceID
 kNameSpaceID_XMLEvents
 |
 |
-PR_FALSE
+false
 ;
 }
 nsresult

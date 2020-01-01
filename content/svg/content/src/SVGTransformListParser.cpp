@@ -407,7 +407,7 @@ getter_AddRefs
 (
 keyatom
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -574,7 +574,7 @@ getter_AddRefs
 (
 keyatom
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -586,7 +586,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -646,11 +646,11 @@ matrix
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult

@@ -1076,7 +1076,7 @@ selectedItems
 AppendElement
 (
 item
-PR_FALSE
+false
 )
 ;
 }
@@ -4209,13 +4209,13 @@ primaryColumn
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -4425,7 +4425,7 @@ Init
 )
 )
 return
-PR_FALSE
+false
 ;
 GetName
 (
@@ -4433,7 +4433,7 @@ mCachedName
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

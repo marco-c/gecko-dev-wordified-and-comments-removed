@@ -107,7 +107,7 @@ mNextWordIndex
 )
 mSoftTextValid
 (
-PR_FALSE
+false
 )
 {
 }
@@ -370,7 +370,7 @@ InvalidateWords
 {
 mSoftTextValid
 =
-PR_FALSE
+false
 ;
 }
 void

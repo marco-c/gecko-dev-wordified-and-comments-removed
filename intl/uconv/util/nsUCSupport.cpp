@@ -884,7 +884,7 @@ aMappingTable
 )
 mFastTableCreated
 (
-PR_FALSE
+false
 )
 mFastTableMutex
 (
@@ -971,7 +971,7 @@ res
 ;
 mFastTableCreated
 =
-PR_TRUE
+true
 ;
 }
 }

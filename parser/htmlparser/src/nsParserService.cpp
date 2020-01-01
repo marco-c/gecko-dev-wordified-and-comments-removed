@@ -85,7 +85,7 @@ mEntries
 {
 mHaveNotifiedCategoryObservers
 =
-PR_FALSE
+false
 ;
 }
 nsParserService
@@ -464,7 +464,7 @@ else
 {
 aIsBlock
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -865,7 +865,7 @@ aString
 )
 matched
 (
-PR_FALSE
+false
 )
 {
 }
@@ -935,7 +935,7 @@ mHaveNotifiedCategoryObservers
 {
 mHaveNotifiedCategoryObservers
 =
-PR_TRUE
+true
 ;
 NS_CreateServicesFromCategory
 (

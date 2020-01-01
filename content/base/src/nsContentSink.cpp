@@ -957,7 +957,7 @@ notify
 .
 ontimer
 "
-PR_TRUE
+true
 )
 ;
 Preferences
@@ -1162,7 +1162,7 @@ interrupt
 .
 parsing
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -1464,7 +1464,7 @@ mDeferredLayoutStart
 {
 StartLayout
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2264,7 +2264,7 @@ IsEmpty
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsIURI
@@ -2307,7 +2307,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -2338,7 +2338,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2365,7 +2365,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -2821,7 +2821,7 @@ start
 ;
 seenParameters
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -3263,7 +3263,7 @@ Truncate
 ;
 seenParameters
 =
-PR_FALSE
+false
 ;
 }
 start
@@ -4884,7 +4884,7 @@ NodePrincipal
 CheckMayLoad
 (
 manifestURI
-PR_TRUE
+true
 )
 ;
 if
@@ -5144,7 +5144,7 @@ default
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Cache
 selection
@@ -5199,7 +5199,7 @@ return
 }
 mDeferredLayoutStart
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5217,7 +5217,7 @@ return
 }
 mDeferredLayoutStart
 =
-PR_FALSE
+false
 ;
 FlushTags
 (
@@ -5225,7 +5225,7 @@ FlushTags
 ;
 mLayoutStarted
 =
-PR_TRUE
+true
 ;
 mLastNotificationTime
 =
@@ -5238,7 +5238,7 @@ mDocument
 >
 SetMayStartLayout
 (
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -5416,7 +5416,7 @@ mParsing
 {
 mDroppedTimer
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -5522,7 +5522,7 @@ WaitForPendingSheets
 {
 mDeferredFlushTags
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -5570,7 +5570,7 @@ mInMonolithicContainer
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5582,10 +5582,10 @@ WaitForPendingSheets
 {
 mDeferredFlushTags
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRTime
@@ -5629,11 +5629,11 @@ mBackoffCount
 -
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -5681,7 +5681,7 @@ WaitForPendingSheets
 {
 mDeferredFlushTags
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -5787,7 +5787,7 @@ ScrollToRef
 ;
 mDroppedTimer
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5928,7 +5928,7 @@ FlushTags
 endif
 mParsing
 =
-PR_FALSE
+false
 ;
 return
 result
@@ -5964,7 +5964,7 @@ this
 ;
 mParsing
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -6332,7 +6332,7 @@ mDocument
 >
 NotifyPossibleTitleChange
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -6412,7 +6412,7 @@ mDynamicLowerValue
 {
 FavorPerformanceHint
 (
-PR_TRUE
+true
 0
 )
 ;
@@ -6427,7 +6427,7 @@ mDocument
 >
 UnblockOnload
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -6590,7 +6590,7 @@ mDeflectedCount
 ;
 mHasPendingEvent
 =
-PR_FALSE
+false
 ;
 mCurrentParseEndTime
 =

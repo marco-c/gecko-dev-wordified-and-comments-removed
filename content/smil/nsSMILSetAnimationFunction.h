@@ -61,7 +61,7 @@ IsToAnimation
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_OVERRIDE
@@ -73,7 +73,7 @@ IsValueFixedForSimpleDuration
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 NS_OVERRIDE

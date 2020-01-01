@@ -243,7 +243,7 @@ NS_CYCLE_COLLECTION_NAME
 nsJSEventListener
 )
 aScopeObject
-PR_FALSE
+false
 )
 ;
 if
@@ -269,7 +269,7 @@ NS_CYCLE_COLLECTION_NAME
 nsJSEventListener
 )
 aHandler
-PR_TRUE
+true
 )
 ;
 }
@@ -651,7 +651,7 @@ iargv
 AppendElement
 (
 var
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -702,7 +702,7 @@ iargv
 AppendElement
 (
 var
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -753,7 +753,7 @@ iargv
 AppendElement
 (
 var
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -764,7 +764,7 @@ rv
 ;
 handledScriptError
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -810,7 +810,7 @@ iargv
 AppendElement
 (
 aEvent
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS

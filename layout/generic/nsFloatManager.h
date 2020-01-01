@@ -285,7 +285,7 @@ SetPushedLeftFloatPastBreak
 {
 mPushedLeftFloatPastBreak
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -295,7 +295,7 @@ SetPushedRightFloatPastBreak
 {
 mPushedRightFloatPastBreak
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -305,7 +305,7 @@ SetSplitLeftFloatAcrossBreak
 {
 mSplitLeftFloatAcrossBreak
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -315,7 +315,7 @@ SetSplitRightFloatAcrossBreak
 {
 mSplitRightFloatAcrossBreak
 =
-PR_TRUE
+true
 ;
 }
 nsresult

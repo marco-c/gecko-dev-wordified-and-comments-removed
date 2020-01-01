@@ -1213,7 +1213,7 @@ mRDFService
 RegisterDataSource
 (
 this
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -1255,7 +1255,7 @@ before
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 obs
@@ -1271,7 +1271,7 @@ do
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -1709,7 +1709,7 @@ remote
 >
 Refresh
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -1725,7 +1725,7 @@ aFile
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -1752,7 +1752,7 @@ remote
 >
 Refresh
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1866,7 +1866,7 @@ aResult
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2033,7 +2033,7 @@ aFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }

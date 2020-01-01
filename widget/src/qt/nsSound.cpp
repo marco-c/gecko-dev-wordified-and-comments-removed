@@ -234,7 +234,7 @@ nsSound
 :
 mInited
 (
-PR_FALSE
+false
 )
 {
 }
@@ -401,7 +401,7 @@ NS_ERROR_FAILURE
 ;
 mInited
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1633,7 +1633,7 @@ rv
 NS_NewLocalFile
 (
 aSoundAlias
-PR_TRUE
+true
 getter_AddRefs
 (
 soundFile

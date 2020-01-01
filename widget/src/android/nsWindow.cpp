@@ -713,7 +713,7 @@ nsWindow
 :
 mIsVisible
 (
-PR_FALSE
+false
 )
 mParent
 (
@@ -725,7 +725,7 @@ nsnull
 )
 mIMEComposing
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1305,7 +1305,7 @@ i
 mBounds
 .
 height
-PR_FALSE
+false
 )
 ;
 }
@@ -1577,7 +1577,7 @@ width
 gAndroidBounds
 .
 height
-PR_FALSE
+false
 )
 ;
 BringToFront
@@ -1857,7 +1857,7 @@ width
 mBounds
 .
 height
-PR_TRUE
+true
 )
 ;
 }
@@ -2135,7 +2135,7 @@ nsSizeMode_Fullscreen
 :
 MakeFullScreen
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -2196,7 +2196,7 @@ aState
 *
 aState
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2499,7 +2499,7 @@ oldTop
 nsGUIEvent
 event
 (
-PR_TRUE
+true
 NS_DEACTIVATE
 oldTop
 )
@@ -2514,7 +2514,7 @@ event
 nsGUIEvent
 event
 (
-PR_TRUE
+true
 NS_ACTIVATE
 this
 )
@@ -2749,7 +2749,7 @@ NS_COMPOSITION_START
 :
 mIMEComposing
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2758,7 +2758,7 @@ NS_COMPOSITION_END
 :
 mIMEComposing
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3052,7 +3052,7 @@ nsnull
 ;
 sFailedToCreateGLContext
 =
-PR_TRUE
+true
 ;
 mLayerManager
 =
@@ -3335,7 +3335,7 @@ width
 gAndroidBounds
 .
 height
-PR_TRUE
+true
 )
 ;
 }
@@ -3514,7 +3514,7 @@ content
 -
 created
 "
-PR_FALSE
+false
 )
 )
 )
@@ -3534,7 +3534,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 )
 )
@@ -4142,7 +4142,7 @@ if
 mIsVisible
 )
 return
-PR_FALSE
+false
 ;
 nsEventStatus
 status
@@ -4239,7 +4239,7 @@ coveringChildIndex
 nsPaintEvent
 event
 (
-PR_TRUE
+true
 NS_PAINT
 this
 )
@@ -4314,7 +4314,7 @@ status
 nsEventStatus_eIgnore
 )
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -4559,7 +4559,7 @@ offset
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -5525,7 +5525,7 @@ h
 nsSizeEvent
 event
 (
-PR_TRUE
+true
 NS_SIZE
 this
 )
@@ -5844,7 +5844,7 @@ send_again
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 msg
 this
 nsMouseEvent
@@ -5899,13 +5899,13 @@ event
 .
 isControl
 =
-PR_FALSE
+false
 ;
 event
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 event
 .
@@ -6436,7 +6436,7 @@ time
 nsSimpleGestureEvent
 event
 (
-PR_TRUE
+true
 msg
 this
 direction
@@ -6447,25 +6447,25 @@ event
 .
 isShift
 =
-PR_FALSE
+false
 ;
 event
 .
 isControl
 =
-PR_FALSE
+false
 ;
 event
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 event
 .
 isAlt
 =
-PR_FALSE
+false
 ;
 event
 .
@@ -7394,7 +7394,7 @@ event
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 event
 .
@@ -7412,7 +7412,7 @@ gMenu
 )
 gMenuConsumed
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -7512,7 +7512,7 @@ Clear
 ;
 doCommand
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -7532,7 +7532,7 @@ VolumeUp
 ;
 doCommand
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -7551,7 +7551,7 @@ VolumeDown
 ;
 doCommand
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -7563,7 +7563,7 @@ KEYCODE_MENU
 :
 gMenu
 =
-PR_TRUE
+true
 ;
 gMenuConsumed
 =
@@ -7590,7 +7590,7 @@ KEYCODE_BACK
 nsKeyEvent
 pressEvent
 (
-PR_TRUE
+true
 NS_KEY_PRESS
 this
 )
@@ -7619,7 +7619,7 @@ KEYCODE_MENU
 :
 gMenu
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7636,7 +7636,7 @@ Menu
 ;
 doCommand
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -7656,7 +7656,7 @@ Search
 ;
 doCommand
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -7685,7 +7685,7 @@ doCommand
 nsCommandEvent
 event
 (
-PR_TRUE
+true
 nsGkAtoms
 :
 :
@@ -7765,7 +7765,7 @@ ACTION_MULTIPLE
 nsTextEvent
 event
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 this
 )
@@ -7909,7 +7909,7 @@ status
 nsKeyEvent
 event
 (
-PR_TRUE
+true
 msg
 this
 )
@@ -7938,7 +7938,7 @@ return
 nsKeyEvent
 pressEvent
 (
-PR_TRUE
+true
 NS_KEY_PRESS
 this
 )
@@ -8317,7 +8317,7 @@ IME_COMPOSITION_END
 nsCompositionEvent
 event
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 this
 )
@@ -8374,7 +8374,7 @@ Truncate
 nsCompositionEvent
 event
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 this
 )
@@ -8424,7 +8424,7 @@ ae
 nsTextEvent
 event
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 this
 )
@@ -8485,7 +8485,7 @@ mIMELastDispatchedComposingText
 nsCompositionEvent
 compositionUpdate
 (
-PR_TRUE
+true
 NS_COMPOSITION_UPDATE
 this
 )
@@ -8602,7 +8602,7 @@ Count
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 this
 )
@@ -8739,7 +8739,7 @@ IME_DELETE_TEXT
 nsKeyEvent
 event
 (
-PR_TRUE
+true
 NS_KEY_PRESS
 this
 )
@@ -8805,7 +8805,7 @@ Count
 nsSelectionEvent
 selEvent
 (
-PR_TRUE
+true
 NS_SELECTION_SET
 this
 )
@@ -8885,9 +8885,9 @@ Count
 =
 0
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 DispatchEvent
 (
@@ -8917,7 +8917,7 @@ IME_GET_SELECTION
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 this
 )
@@ -9192,7 +9192,7 @@ mIMEComposing
 nsTextEvent
 textEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 this
 )
@@ -9225,7 +9225,7 @@ Truncate
 nsCompositionEvent
 event
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 this
 )
@@ -9428,7 +9428,7 @@ mIMEComposing
 nsTextEvent
 textEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 this
 )
@@ -9455,7 +9455,7 @@ Truncate
 nsCompositionEvent
 compEvent
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 this
 )
@@ -9592,7 +9592,7 @@ aNewEnd
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 this
 )
@@ -9680,7 +9680,7 @@ OnIMESelectionChange
 nsQueryContentEvent
 event
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 this
 )
@@ -9759,8 +9759,8 @@ GetIMEUpdatePreference
 return
 nsIMEUpdatePreference
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }

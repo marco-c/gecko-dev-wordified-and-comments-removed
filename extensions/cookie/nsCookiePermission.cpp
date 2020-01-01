@@ -372,11 +372,11 @@ result
 result
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -440,7 +440,7 @@ AddObserver
 (
 kCookiesLifetimePolicy
 this
-PR_FALSE
+false
 )
 ;
 prefBranch
@@ -450,7 +450,7 @@ AddObserver
 (
 kCookiesLifetimeDays
 this
-PR_FALSE
+false
 )
 ;
 prefBranch
@@ -460,7 +460,7 @@ AddObserver
 (
 kCookiesAlwaysAcceptSession
 this
-PR_FALSE
+false
 )
 ;
 PrefChanged
@@ -591,7 +591,7 @@ prefBranch
 SetBoolPref
 (
 kCookiesPrefsMigrated
-PR_TRUE
+true
 )
 ;
 }
@@ -965,7 +965,7 @@ ACCESS_SESSION
 *
 aIsSession
 =
-PR_TRUE
+true
 ;
 case
 nsIPermissionManager
@@ -976,7 +976,7 @@ ALLOW_ACTION
 *
 aResult
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -989,7 +989,7 @@ DENY_ACTION
 *
 aResult
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1021,7 +1021,7 @@ ACCEPT_NORMALLY
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1071,7 +1071,7 @@ InPrivateBrowsing
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1080,7 +1080,7 @@ NS_OK
 *
 aResult
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 hostPort
@@ -1321,7 +1321,7 @@ delta
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -1388,7 +1388,7 @@ ACCEPT_SESSION_COOKIE
 *
 aIsSession
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1516,7 +1516,7 @@ ACCEPT_SESSION
 *
 aIsSession
 =
-PR_TRUE
+true
 ;
 }
 else

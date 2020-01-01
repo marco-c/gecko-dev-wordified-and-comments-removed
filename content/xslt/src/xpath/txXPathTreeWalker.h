@@ -89,7 +89,7 @@ aIndex
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -607,7 +607,7 @@ isContent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIContent

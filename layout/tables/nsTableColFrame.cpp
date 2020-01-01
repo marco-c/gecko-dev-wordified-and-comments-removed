@@ -487,7 +487,7 @@ tableFrame
 >
 SetNeedToCollapse
 (
-PR_TRUE
+true
 )
 ;
 }

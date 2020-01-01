@@ -448,7 +448,7 @@ skin
 -
 caches
 "
-PR_FALSE
+false
 )
 ;
 obsSvc
@@ -464,7 +464,7 @@ flush
 -
 caches
 "
-PR_FALSE
+false
 )
 ;
 obsSvc
@@ -478,7 +478,7 @@ startupcache
 -
 invalidate
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -2022,7 +2022,7 @@ nsnull
 *
 exists
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2054,7 +2054,7 @@ rv
 *
 exists
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2115,7 +2115,7 @@ sc
 *
 exists
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

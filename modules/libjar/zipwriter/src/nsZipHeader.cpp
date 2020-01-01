@@ -204,13 +204,13 @@ Last
 *
 aIsDirectory
 =
-PR_TRUE
+true
 ;
 else
 *
 aIsDirectory
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -247,7 +247,7 @@ tsField
 GetExtraField
 (
 ZIP_EXTENDED_TIMESTAMP_FIELD
-PR_FALSE
+false
 &
 blocksize
 )
@@ -488,7 +488,7 @@ initalised
 *
 aIsSynthetic
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -732,7 +732,7 @@ FLAGS_IS_UTF8
 ;
 mInited
 =
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -1639,7 +1639,7 @@ NS_LITERAL_CSTRING
 ;
 mInited
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

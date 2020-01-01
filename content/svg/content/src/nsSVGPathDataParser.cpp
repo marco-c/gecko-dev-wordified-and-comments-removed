@@ -189,7 +189,7 @@ case
 *
 f
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -201,7 +201,7 @@ case
 *
 f
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -748,20 +748,20 @@ a
 '
 :
 return
-PR_TRUE
+true
 ;
 break
 ;
 default
 :
 return
-PR_FALSE
+false
 ;
 break
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -787,7 +787,7 @@ M
 :
 absCoords
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -798,7 +798,7 @@ m
 :
 absCoords
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1001,7 +1001,7 @@ L
 :
 absCoords
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1012,7 +1012,7 @@ l
 :
 absCoords
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1187,7 +1187,7 @@ H
 :
 absCoords
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1198,7 +1198,7 @@ h
 :
 absCoords
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1355,7 +1355,7 @@ V
 :
 absCoords
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1366,7 +1366,7 @@ v
 :
 absCoords
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1523,7 +1523,7 @@ C
 :
 absCoords
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1534,7 +1534,7 @@ c
 :
 absCoords
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1812,7 +1812,7 @@ S
 :
 absCoords
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1823,7 +1823,7 @@ s
 :
 absCoords
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2063,7 +2063,7 @@ Q
 :
 absCoords
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2074,7 +2074,7 @@ q
 :
 absCoords
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2314,7 +2314,7 @@ T
 :
 absCoords
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2325,7 +2325,7 @@ t
 :
 absCoords
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2486,7 +2486,7 @@ A
 :
 absCoords
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2497,7 +2497,7 @@ a
 :
 absCoords
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3426,7 +3426,7 @@ mNumSegs
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 double
@@ -3628,7 +3628,7 @@ to
 mSegIndex
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

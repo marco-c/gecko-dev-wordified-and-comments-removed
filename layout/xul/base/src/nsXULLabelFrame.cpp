@@ -228,7 +228,7 @@ rv
 return
 RegUnregAccessKey
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -245,7 +245,7 @@ aDestructRoot
 {
 RegUnregAccessKey
 (
-PR_FALSE
+false
 )
 ;
 nsBlockFrame
@@ -306,7 +306,7 @@ control
 )
 RegUnregAccessKey
 (
-PR_TRUE
+true
 )
 ;
 return

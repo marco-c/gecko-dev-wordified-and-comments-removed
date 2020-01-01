@@ -183,7 +183,7 @@ GetDC
 ;
 needsRelease
 =
-PR_FALSE
+false
 ;
 SaveDC
 (
@@ -232,7 +232,7 @@ GM_ADVANCED
 ;
 needsRelease
 =
-PR_TRUE
+true
 ;
 }
 }

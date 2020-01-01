@@ -112,7 +112,7 @@ XPCOMGlueEnablePreload
 {
 do_preload
 =
-PR_TRUE
+true
 ;
 }
 extern
@@ -1213,7 +1213,7 @@ xpcomFunctions
 stringGetIsVoid
 )
 return
-PR_FALSE
+false
 ;
 return
 xpcomFunctions
@@ -1611,7 +1611,7 @@ xpcomFunctions
 cstringGetIsVoid
 )
 return
-PR_FALSE
+false
 ;
 return
 xpcomFunctions
@@ -2186,7 +2186,7 @@ xpcomFunctions
 cycleSuspectFunc
 )
 return
-PR_FALSE
+false
 ;
 return
 xpcomFunctions
@@ -2216,7 +2216,7 @@ xpcomFunctions
 cycleForgetFunc
 )
 return
-PR_FALSE
+false
 ;
 return
 xpcomFunctions
@@ -2277,7 +2277,7 @@ xpcomFunctions
 cycleForget2Func
 )
 return
-PR_FALSE
+false
 ;
 return
 xpcomFunctions

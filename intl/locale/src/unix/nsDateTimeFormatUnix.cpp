@@ -595,7 +595,7 @@ temp
 ;
 mLocalePreferred24hour
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -628,7 +628,7 @@ i
 {
 mLocalePreferred24hour
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -636,14 +636,14 @@ break
 }
 mLocaleAMPMfirst
 =
-PR_TRUE
+true
 ;
 if
 (
 mLocalePreferred24hour
 =
 =
-PR_FALSE
+false
 )
 {
 if
@@ -667,7 +667,7 @@ str
 {
 mLocaleAMPMfirst
 =
-PR_FALSE
+false
 ;
 }
 }

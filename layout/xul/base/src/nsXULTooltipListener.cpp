@@ -198,18 +198,18 @@ mMouseScreenY
 )
 mTooltipShownOnce
 (
-PR_FALSE
+false
 )
 #
 ifdef
 MOZ_XUL
 mIsSourceTree
 (
-PR_FALSE
+false
 )
 mNeedTitletip
 (
-PR_FALSE
+false
 )
 mLastTreeRow
 (
@@ -331,7 +331,7 @@ aEvent
 {
 mTooltipShownOnce
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -907,7 +907,7 @@ HideTooltip
 ;
 mTooltipShownOnce
 =
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -1136,7 +1136,7 @@ mouseout
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 evtTarget
@@ -1151,7 +1151,7 @@ mousemove
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 evtTarget
@@ -1166,7 +1166,7 @@ dragstart
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 return
@@ -1216,7 +1216,7 @@ mouseout
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 evtTarget
@@ -1231,7 +1231,7 @@ mousemove
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 evtTarget
@@ -1246,7 +1246,7 @@ dragstart
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 return
@@ -1448,7 +1448,7 @@ obj
 ;
 mNeedTitletip
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1686,7 +1686,7 @@ popuphiding
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 nsIDocument
@@ -1724,7 +1724,7 @@ DOMMouseScroll
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 evtTarget
@@ -1739,7 +1739,7 @@ mousedown
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 evtTarget
@@ -1754,7 +1754,7 @@ mouseup
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 evtTarget
@@ -1769,7 +1769,7 @@ keydown
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -1988,7 +1988,7 @@ nsGkAtoms
 :
 label
 label
-PR_TRUE
+true
 )
 ;
 }
@@ -2086,7 +2086,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -2102,7 +2102,7 @@ nsGkAtoms
 :
 :
 titletip
-PR_TRUE
+true
 )
 ;
 }
@@ -2227,9 +2227,9 @@ pm
 HidePopup
 (
 currentTooltip
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 )
 ;
 }
@@ -2517,7 +2517,7 @@ nsGkAtoms
 :
 label
 tooltipText
-PR_TRUE
+true
 )
 ;
 }
@@ -2601,7 +2601,7 @@ ifdef
 MOZ_XUL
 mNeedTitletip
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -2875,7 +2875,7 @@ DOMMouseScroll
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 evtTarget
@@ -2890,7 +2890,7 @@ mousedown
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 evtTarget
@@ -2905,7 +2905,7 @@ mouseup
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 evtTarget
@@ -2920,7 +2920,7 @@ keydown
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -2952,7 +2952,7 @@ popuphiding
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 }

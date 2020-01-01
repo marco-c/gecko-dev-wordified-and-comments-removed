@@ -832,7 +832,7 @@ aSuggestedDriverVersion
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 if

@@ -478,7 +478,7 @@ nsGlobalNameStruct
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMPL_ISUPPORTS2
@@ -496,7 +496,7 @@ nsScriptNameSpaceManager
 :
 mIsInitialized
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -1044,7 +1044,7 @@ rv
 =
 RegisterExternalInterfaces
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -1497,7 +1497,7 @@ aFoundOld
 *
 aFoundOld
 =
-PR_FALSE
+false
 ;
 nsGlobalNameStruct
 *
@@ -1533,7 +1533,7 @@ eTypeNotInitialized
 *
 aFoundOld
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1785,7 +1785,7 @@ AddObserver
 (
 this
 NS_XPCOM_CATEGORY_ENTRY_ADDED_OBSERVER_ID
-PR_TRUE
+true
 )
 ;
 }
@@ -2384,7 +2384,7 @@ aConstructorProtoIID
 *
 aFoundOld
 =
-PR_FALSE
+false
 ;
 nsGlobalNameStruct
 *
@@ -2432,7 +2432,7 @@ eTypeInterface
 *
 aFoundOld
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3241,7 +3241,7 @@ s
 >
 mChromeOnly
 =
-PR_FALSE
+false
 ;
 s
 -

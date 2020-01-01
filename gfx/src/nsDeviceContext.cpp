@@ -439,7 +439,7 @@ memory
 -
 pressure
 "
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -2931,7 +2931,7 @@ SurfaceTypeImage
 :
 inPoints
 =
-PR_FALSE
+false
 ;
 size
 =
@@ -2969,7 +2969,7 @@ SurfaceTypePDF
 :
 inPoints
 =
-PR_TRUE
+true
 ;
 size
 =
@@ -3006,7 +3006,7 @@ SurfaceTypePS
 :
 inPoints
 =
-PR_TRUE
+true
 ;
 size
 =
@@ -3043,7 +3043,7 @@ SurfaceTypeQuartz
 :
 inPoints
 =
-PR_TRUE
+true
 ;
 size
 =
@@ -3087,7 +3087,7 @@ SurfaceTypeWin32Printing
 {
 inPoints
 =
-PR_FALSE
+false
 ;
 HDC
 dc
@@ -3239,7 +3239,7 @@ SurfaceTypeOS2
 {
 inPoints
 =
-PR_FALSE
+false
 ;
 size
 =
@@ -3485,7 +3485,7 @@ value
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRInt32

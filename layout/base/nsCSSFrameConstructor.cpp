@@ -3320,15 +3320,15 @@ HasTransform
 )
 mHavePendingPopupgroup
 (
-PR_FALSE
+false
 )
 mCreatingExtraFrames
 (
-PR_FALSE
+false
 )
 mTreeMatchContext
 (
-PR_TRUE
+true
 nsRuleWalker
 :
 :
@@ -3477,15 +3477,15 @@ HasTransform
 )
 mHavePendingPopupgroup
 (
-PR_FALSE
+false
 )
 mCreatingExtraFrames
 (
-PR_FALSE
+false
 )
 mTreeMatchContext
 (
-PR_TRUE
+true
 nsRuleWalker
 :
 :
@@ -4186,7 +4186,7 @@ frame
 ;
 needPlaceholder
 =
-PR_TRUE
+true
 ;
 frameItems
 =
@@ -4248,7 +4248,7 @@ block
 ;
 needPlaceholder
 =
-PR_TRUE
+true
 ;
 frameItems
 =
@@ -4313,7 +4313,7 @@ block
 ;
 needPlaceholder
 =
-PR_TRUE
+true
 ;
 frameItems
 =
@@ -4376,7 +4376,7 @@ block
 ;
 needPlaceholder
 =
-PR_TRUE
+true
 ;
 frameItems
 =
@@ -4964,7 +4964,7 @@ nsnull
 )
 mSavedFixedPosIsAbsPos
 (
-PR_FALSE
+false
 )
 mChildListID
 (
@@ -5109,7 +5109,7 @@ IsBorderCollapse
 }
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 program
 error
@@ -5117,7 +5117,7 @@ error
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -5328,31 +5328,31 @@ mUpdateCount
 )
 mQuotesDirty
 (
-PR_FALSE
+false
 )
 mCountersDirty
 (
-PR_FALSE
+false
 )
 mIsDestroyingFrameTree
 (
-PR_FALSE
+false
 )
 mRebuildAllStyleData
 (
-PR_FALSE
+false
 )
 mHasRootAbsPosContainingBlock
 (
-PR_FALSE
+false
 )
 mObservingRefreshDriver
 (
-PR_FALSE
+false
 )
 mInStyleRefresh
 (
-PR_FALSE
+false
 )
 mHoverGeneration
 (
@@ -5415,7 +5415,7 @@ gFirstTime
 {
 gFirstTime
 =
-PR_FALSE
+false
 ;
 char
 *
@@ -5516,7 +5516,7 @@ flag
 on
 )
 =
-PR_TRUE
+true
 ;
 printf
 (
@@ -5540,7 +5540,7 @@ name
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -5557,7 +5557,7 @@ found
 )
 error
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5964,7 +5964,7 @@ content
 SetText
 (
 aString
-PR_FALSE
+false
 )
 ;
 if
@@ -6897,7 +6897,7 @@ BindToTree
 mDocument
 aParentContent
 aParentContent
-PR_TRUE
+true
 )
 ;
 if
@@ -6974,7 +6974,7 @@ container
 AppendChildTo
 (
 content
-PR_FALSE
+false
 )
 ;
 }
@@ -6986,7 +6986,7 @@ container
 aParentFrame
 elemName
 kNameSpaceID_None
-PR_TRUE
+true
 pseudoStyleContext
 ITEM_IS_GENERATED_CONTENT
 aItems
@@ -7337,7 +7337,7 @@ GetType
 {
 haveCaption
 =
-PR_TRUE
+true
 ;
 *
 aAdjParentFrame
@@ -7847,9 +7847,9 @@ aState
 content
 styleContext
 innerFrame
-PR_TRUE
+true
 childItems
-PR_FALSE
+false
 aItem
 .
 mPendingBinding
@@ -8075,9 +8075,9 @@ aState
 content
 styleContext
 newFrame
-PR_TRUE
+true
 childItems
-PR_FALSE
+false
 aItem
 .
 mPendingBinding
@@ -8283,7 +8283,7 @@ content
 aParentFrame
 nsnull
 newCol
-PR_FALSE
+false
 )
 ;
 aFrameItems
@@ -8512,7 +8512,7 @@ innerPseudoStyle
 ;
 isBlock
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -8527,7 +8527,7 @@ innerPseudoStyle
 ;
 isBlock
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -8629,7 +8629,7 @@ aState
 content
 styleContext
 cellInnerFrame
-PR_TRUE
+true
 childItems
 isBlock
 aItem
@@ -8789,7 +8789,7 @@ eTEXT
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 aChildContent
@@ -8836,7 +8836,7 @@ mOverflowX
 NS_STYLE_OVERFLOW_VISIBLE
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -8874,7 +8874,7 @@ mOverflowY
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsIContent
@@ -9367,7 +9367,7 @@ mBinding
 -
 >
 mOriginPrincipal
-PR_FALSE
+false
 getter_AddRefs
 (
 binding
@@ -9600,7 +9600,7 @@ contentFrame
 ;
 processChildren
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -9717,7 +9717,7 @@ FirstChild
 ;
 processChildren
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -9786,7 +9786,7 @@ extraRef
 forget
 (
 )
-PR_TRUE
+true
 )
 ;
 nsFrameItems
@@ -10053,9 +10053,9 @@ state
 aDocElement
 styleContext
 contentFrame
-PR_TRUE
+true
 childItems
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -10430,7 +10430,7 @@ viewportPseudoStyle
 ;
 mHasRootAbsPosContainingBlock
 =
-PR_TRUE
+true
 ;
 }
 rootPseudo
@@ -10534,7 +10534,7 @@ GetIsFrameset
 )
 isScrollable
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -10709,7 +10709,7 @@ aDocElement
 styleContext
 viewportFrame
 rootPseudo
-PR_TRUE
+true
 newFrame
 )
 ;
@@ -10785,7 +10785,7 @@ canvasFrame
 ;
 mHasRootAbsPosContainingBlock
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -11714,7 +11714,7 @@ aState
 content
 styleContext
 blockFrame
-PR_TRUE
+true
 childItems
 aStyleDisplay
 -
@@ -11945,7 +11945,7 @@ size
 &
 &
 (
-PR_FALSE
+false
 =
 =
 multipleSelect
@@ -12186,7 +12186,7 @@ scrolledFrame
 content
 comboboxFrame
 listStyle
-PR_TRUE
+true
 aItem
 .
 mPendingBinding
@@ -12342,7 +12342,7 @@ scrolledFrame
 content
 aParentFrame
 styleContext
-PR_FALSE
+false
 aItem
 .
 mPendingBinding
@@ -12472,7 +12472,7 @@ nsContainerFrame
 CreateViewForFrame
 (
 scrollFrame
-PR_TRUE
+true
 )
 ;
 }
@@ -12521,9 +12521,9 @@ aState
 aContent
 aStyleContext
 scrolledFrame
-PR_FALSE
+false
 childItems
-PR_FALSE
+false
 aPendingBinding
 )
 ;
@@ -12728,9 +12728,9 @@ aState
 content
 styleContext
 blockFrame
-PR_TRUE
+true
 childItems
-PR_TRUE
+true
 aItem
 .
 mPendingBinding
@@ -14877,7 +14877,7 @@ nsContainerFrame
 CreateViewForFrame
 (
 newFrame
-PR_FALSE
+false
 )
 ;
 frameToAddToList
@@ -14971,7 +14971,7 @@ aState
 .
 mHavePendingPopupgroup
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -15786,7 +15786,7 @@ BindToTree
 mDocument
 aParent
 aParent
-PR_TRUE
+true
 )
 ;
 if
@@ -16078,7 +16078,7 @@ NS_NewBoxFrame
 (
 aPresShell
 aStyleContext
-PR_FALSE
+false
 layout
 )
 ;
@@ -17122,7 +17122,7 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
-PR_FALSE
+false
 aNewFrame
 )
 ;
@@ -17695,7 +17695,7 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
-PR_FALSE
+false
 *
 aNewFrame
 )
@@ -19607,8 +19607,8 @@ aFrameItems
 content
 styleContext
 aParentFrame
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -19702,7 +19702,7 @@ innerPseudoStyle
 &
 blockFrame
 childItems
-PR_TRUE
+true
 aItem
 .
 mPendingBinding
@@ -19822,7 +19822,7 @@ pseudoStyle
 forget
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -19866,7 +19866,7 @@ AddFrameConstructionItems
 (
 aState
 aContent
-PR_TRUE
+true
 aParentFrame
 items
 )
@@ -20363,7 +20363,7 @@ mBinding
 -
 >
 mOriginPrincipal
-PR_FALSE
+false
 getter_AddRefs
 (
 newPendingBinding
@@ -20930,7 +20930,7 @@ return
 }
 isPopup
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -21160,7 +21160,7 @@ aState
 .
 mHavePendingPopupgroup
 =
-PR_TRUE
+true
 ;
 }
 item
@@ -21208,14 +21208,14 @@ item
 >
 mHasInlineEnds
 =
-PR_TRUE
+true
 ;
 item
 -
 >
 mIsBlock
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -21384,7 +21384,7 @@ item
 >
 mIsLineParticipant
 =
-PR_TRUE
+true
 ;
 aItems
 .
@@ -21518,7 +21518,7 @@ mSuppressWhiteSpaceOptimizations
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -21559,7 +21559,7 @@ GetPreviousSibling
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -21621,7 +21621,7 @@ item
 mContent
 )
 return
-PR_TRUE
+true
 ;
 }
 FCItemIterator
@@ -21673,7 +21673,7 @@ GetNextSibling
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -21724,11 +21724,11 @@ item
 mContent
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -21928,7 +21928,7 @@ item
 .
 mIsGeneratedContent
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -22011,7 +22011,7 @@ return
 RecreateFramesForContent
 (
 rootElement
-PR_FALSE
+false
 )
 ;
 }
@@ -23039,7 +23039,7 @@ GetParent
 )
 ibSiblings
 aParentFrame
-PR_TRUE
+true
 )
 ;
 }
@@ -23261,7 +23261,7 @@ happen
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 styleContext
@@ -23279,7 +23279,7 @@ if
 styleContext
 )
 return
-PR_FALSE
+false
 ;
 const
 nsStyleDisplay
@@ -23348,7 +23348,7 @@ NS_STYLE_DISPLAY_TABLE_CAPTION
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -23382,11 +23382,11 @@ NS_STYLE_DISPLAY_TABLE_COLUMN
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -23479,11 +23479,11 @@ sibType
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsIFrame
@@ -23624,7 +23624,7 @@ sibling
 GetLastSpecialSibling
 (
 sibling
-PR_TRUE
+true
 )
 ;
 }
@@ -23708,7 +23708,7 @@ FindFrameForContentSibling
 aIter
 child
 aTargetContentDisplay
-PR_TRUE
+true
 )
 ;
 if
@@ -23782,7 +23782,7 @@ FindFrameForContentSibling
 aIter
 child
 aTargetContentDisplay
-PR_FALSE
+false
 )
 ;
 if
@@ -23922,7 +23922,7 @@ aEndSkipChild
 *
 aIsAppend
 =
-PR_FALSE
+false
 ;
 NS_PRECONDITION
 (
@@ -24145,7 +24145,7 @@ else
 *
 aIsAppend
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -24160,7 +24160,7 @@ aParentFrame
 GetLastSpecialSibling
 (
 aParentFrame
-PR_FALSE
+false
 )
 ;
 }
@@ -24436,7 +24436,7 @@ listBoxObject
 >
 GetListBoxBody
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -24529,7 +24529,7 @@ AddFrameConstructionItems
 (
 aState
 aPossibleTextContent
-PR_FALSE
+false
 aParentFrame
 aItems
 )
@@ -24602,7 +24602,7 @@ ContentInserted
 aParentContent
 aContent
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -24700,7 +24700,7 @@ IsXUL
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -24737,7 +24737,7 @@ aChild
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -24818,7 +24818,7 @@ child
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -24889,7 +24889,7 @@ noPrimaryFrame
 =
 needsFrameBitSet
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -24909,7 +24909,7 @@ GetPrimaryFrame
 {
 noPrimaryFrame
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -24929,7 +24929,7 @@ NODE_NEEDS_FRAME
 {
 needsFrameBitSet
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -24985,7 +24985,7 @@ noPrimaryFrame
 =
 needsFrameBitSet
 =
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -25168,11 +25168,11 @@ NODE_NEEDS_FRAME
 }
 PostRestyleEventInternal
 (
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -25357,7 +25357,7 @@ inRun
 {
 inRun
 =
-PR_TRUE
+true
 ;
 firstChildInRun
 =
@@ -25374,7 +25374,7 @@ inRun
 {
 inRun
 =
-PR_FALSE
+false
 ;
 ContentRangeInserted
 (
@@ -25382,7 +25382,7 @@ aContent
 firstChildInRun
 child
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -25397,7 +25397,7 @@ ContentAppended
 (
 aContent
 firstChildInRun
-PR_FALSE
+false
 )
 ;
 }
@@ -25734,7 +25734,7 @@ aStartChild
 {
 hasInsertion
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -25877,17 +25877,17 @@ aParentFrame
 GetContent
 (
 )
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -26272,7 +26272,7 @@ parentFrame
 GetContent
 (
 )
-PR_FALSE
+false
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -26344,7 +26344,7 @@ parentFrame
 GetLastSpecialSibling
 (
 parentFrame
-PR_FALSE
+false
 )
 ;
 }
@@ -26577,7 +26577,7 @@ AddFrameConstructionItems
 (
 state
 child
-PR_FALSE
+false
 parentFrame
 items
 )
@@ -26607,7 +26607,7 @@ state
 containingBlock
 parentFrame
 items
-PR_TRUE
+true
 prevSibling
 )
 )
@@ -27042,7 +27042,7 @@ aOldNextSibling
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -27058,12 +27058,12 @@ aChild
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -27882,7 +27882,7 @@ parentFrame
 GetContent
 (
 )
-PR_FALSE
+false
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -27942,7 +27942,7 @@ parentFrame
 GetContent
 (
 )
-PR_FALSE
+false
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -28425,7 +28425,7 @@ AddFrameConstructionItems
 (
 state
 child
-PR_FALSE
+false
 parentFrame
 items
 )
@@ -28760,7 +28760,7 @@ types
 endif
 isAppend
 =
-PR_TRUE
+true
 ;
 nsIFrame
 *
@@ -29264,7 +29264,7 @@ frames
 *
 aDidReconstruct
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -29488,7 +29488,7 @@ aChild
 {
 isRoot
 =
-PR_TRUE
+true
 ;
 childFrame
 =
@@ -29547,7 +29547,7 @@ LAYOUT_PHASE_TEMP_REENTER
 *
 aDidReconstruct
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -29599,7 +29599,7 @@ aChild
 *
 aDidReconstruct
 =
-PR_TRUE
+true
 ;
 LAYOUT_PHASE_TEMP_EXIT
 (
@@ -29616,7 +29616,7 @@ parentFrame
 GetContent
 (
 )
-PR_FALSE
+false
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -29665,7 +29665,7 @@ eMathML
 *
 aDidReconstruct
 =
-PR_TRUE
+true
 ;
 LAYOUT_PHASE_TEMP_EXIT
 (
@@ -29682,7 +29682,7 @@ possibleMathMLAncestor
 GetContent
 (
 )
-PR_FALSE
+false
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -29758,7 +29758,7 @@ GetNextSibling
 *
 aDidReconstruct
 =
-PR_TRUE
+true
 ;
 LAYOUT_PHASE_TEMP_EXIT
 (
@@ -29775,7 +29775,7 @@ grandparentFrame
 GetContent
 (
 )
-PR_TRUE
+true
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -30217,7 +30217,7 @@ nsnull
 ;
 mHasRootAbsPosContainingBlock
 =
-PR_FALSE
+false
 ;
 mFixedContainingBlock
 =
@@ -31014,7 +31014,7 @@ ifdef
 DEBUG
 gInApplyRenderingChangeToTree
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -31036,7 +31036,7 @@ ifdef
 DEBUG
 gInApplyRenderingChangeToTree
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -31503,7 +31503,7 @@ rv
 RecreateFramesForContent
 (
 aContent
-PR_FALSE
+false
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -31946,7 +31946,7 @@ nsChangeHint_ReconstructFrame
 RecreateFramesForContent
 (
 content
-PR_FALSE
+false
 )
 ;
 }
@@ -31995,7 +31995,7 @@ hint
 ;
 didReflow
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -32022,7 +32022,7 @@ hint
 ;
 didInvalidate
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -32037,7 +32037,7 @@ mPresShell
 >
 SynthesizeMouseMove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -32321,7 +32321,7 @@ nsChangeHint_ReconstructFrame
 RecreateFramesForContent
 (
 aElement
-PR_FALSE
+false
 )
 ;
 }
@@ -32682,7 +32682,7 @@ GetPresContext
 aElement
 aAttribute
 aModType
-PR_FALSE
+false
 )
 ;
 PostRestyleEvent
@@ -33065,7 +33065,7 @@ GetPresContext
 aElement
 aAttribute
 aModType
-PR_TRUE
+true
 )
 ;
 PostRestyleEvent
@@ -33200,7 +33200,7 @@ mQuotesDirty
 {
 mQuotesDirty
 =
-PR_FALSE
+false
 ;
 mQuoteList
 .
@@ -33216,7 +33216,7 @@ mCountersDirty
 {
 mCountersDirty
 =
-PR_FALSE
+false
 ;
 mCounterManager
 .
@@ -33276,7 +33276,7 @@ Dump
 endif
 mIsDestroyingFrameTree
 =
-PR_TRUE
+true
 ;
 mQuoteList
 .
@@ -33678,7 +33678,7 @@ rowGroupFrame
 >
 SetRepeatable
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -33716,7 +33716,7 @@ state
 .
 mCreatingExtraFrames
 =
-PR_TRUE
+true
 ;
 headerFooterFrame
 =
@@ -33770,9 +33770,9 @@ GetStyleContext
 (
 )
 headerFooterFrame
-PR_TRUE
+true
 childItems
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -33806,7 +33806,7 @@ headerFooterFrame
 >
 SetRepeatable
 (
-PR_TRUE
+true
 )
 ;
 headerFooterFrame
@@ -35170,7 +35170,7 @@ state
 .
 mCreatingExtraFrames
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -35277,7 +35277,7 @@ content
 GetNameSpaceID
 (
 )
-PR_TRUE
+true
 styleContext
 ITEM_ALLOW_XBL_BASE
 |
@@ -35618,7 +35618,7 @@ fieldset
 *
 aMultiple
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -35820,7 +35820,7 @@ result
 RecreateFramesForContent
 (
 aElement
-PR_FALSE
+false
 )
 ;
 }
@@ -36100,7 +36100,7 @@ aFrame
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -36154,11 +36154,11 @@ GetParent
 GetContent
 (
 )
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsIFrame
@@ -36318,11 +36318,11 @@ parent
 GetContent
 (
 )
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -36430,11 +36430,11 @@ parent
 GetContent
 (
 )
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -36492,7 +36492,7 @@ ReconstructDocElementHierarchy
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -36508,7 +36508,7 @@ parent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -36538,7 +36538,7 @@ GetNextSibling
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIFrame
@@ -36569,7 +36569,7 @@ parentFirstContinuation
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -36626,7 +36626,7 @@ parent
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -36704,7 +36704,7 @@ eMathML
 {
 while
 (
-PR_TRUE
+true
 )
 {
 nsIContent
@@ -36987,7 +36987,7 @@ ContentInserted
 container
 aContent
 mTempFrameTreeState
-PR_FALSE
+false
 )
 ;
 }
@@ -37968,7 +37968,7 @@ wrapperStyle
 forget
 (
 )
-PR_TRUE
+true
 )
 ;
 newItem
@@ -38003,7 +38003,7 @@ mChildItems
 .
 SetLineBoundaryAtStart
 (
-PR_TRUE
+true
 )
 ;
 newItem
@@ -38013,7 +38013,7 @@ mChildItems
 .
 SetLineBoundaryAtEnd
 (
-PR_TRUE
+true
 )
 ;
 newItem
@@ -38404,14 +38404,14 @@ itemsToConstruct
 .
 SetLineBoundaryAtStart
 (
-PR_TRUE
+true
 )
 ;
 itemsToConstruct
 .
 SetLineBoundaryAtEnd
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -38698,7 +38698,7 @@ content
 GetNameSpaceID
 (
 )
-PR_TRUE
+true
 styleContext
 ITEM_ALLOW_XBL_BASE
 |
@@ -39205,7 +39205,7 @@ aContent
 aFrame
 nsnull
 blockFrame
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -40299,7 +40299,7 @@ tl
 {
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -40634,10 +40634,10 @@ aResult
 letterContent
 aStyleContext
 aParentFrame
-PR_FALSE
-PR_TRUE
-PR_FALSE
-PR_TRUE
+false
+true
+false
+true
 link
 .
 PrevFrame
@@ -41306,7 +41306,7 @@ prevFrame
 *
 aStopLooking
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -41371,7 +41371,7 @@ else
 *
 aStopLooking
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -41982,7 +41982,7 @@ textList
 *
 aStopLooking
 =
-PR_TRUE
+true
 ;
 NS_ASSERTION
 (
@@ -42467,7 +42467,7 @@ aChild
 GetNameSpaceID
 (
 )
-PR_TRUE
+true
 styleContext
 ITEM_ALLOW_XBL_BASE
 items
@@ -42844,9 +42844,9 @@ aState
 aContent
 aStyleContext
 blockFrame
-PR_TRUE
+true
 childItems
-PR_TRUE
+true
 aPendingBinding
 )
 ;
@@ -43277,7 +43277,7 @@ content
 parentFrame
 nsnull
 blockFrame
-PR_FALSE
+false
 )
 ;
 nsFrameList
@@ -43341,7 +43341,7 @@ content
 parentFrame
 nsnull
 inlineFrame
-PR_FALSE
+false
 )
 ;
 if
@@ -43727,7 +43727,7 @@ aParentFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aNextSibling
@@ -43758,7 +43758,7 @@ aParentFrame
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -43796,7 +43796,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -43837,11 +43837,11 @@ aFrame
 GetContent
 (
 )
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsIFrame
@@ -44233,7 +44233,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -44255,11 +44255,11 @@ aFrame
 GetContent
 (
 )
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -44283,7 +44283,7 @@ AreAllItemsInline
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -44311,7 +44311,7 @@ nextSibling
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -44327,7 +44327,7 @@ aFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -44340,7 +44340,7 @@ AreAllItemsBlock
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -44483,11 +44483,11 @@ endif
 RecreateFramesForContent
 (
 blockContent
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -44638,7 +44638,7 @@ return
 RecreateFramesForContent
 (
 blockContent
-PR_TRUE
+true
 )
 ;
 }
@@ -44657,7 +44657,7 @@ GetDocument
 GetRootElement
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -44872,14 +44872,14 @@ nsStyleUtil
 IsSignificantChild
 (
 cur
-PR_TRUE
-PR_FALSE
+true
+false
 )
 )
 {
 wasEmpty
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -45159,14 +45159,14 @@ nsStyleUtil
 IsSignificantChild
 (
 child
-PR_TRUE
-PR_FALSE
+true
+false
 )
 )
 {
 wasEmpty
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -45269,7 +45269,7 @@ aChild
 {
 passedChild
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -45308,7 +45308,7 @@ break
 }
 passedChild
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -45345,7 +45345,7 @@ aChild
 {
 passedChild
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -45494,14 +45494,14 @@ nsStyleUtil
 IsSignificantChild
 (
 child
-PR_TRUE
-PR_FALSE
+true
+false
 )
 )
 {
 isEmpty
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -45599,7 +45599,7 @@ aFollowingSibling
 {
 reachedFollowingSibling
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -45709,7 +45709,7 @@ aFollowingSibling
 {
 reachedFollowingSibling
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -45755,7 +45755,7 @@ instead
 ;
 mRebuildAllStyleData
 =
-PR_FALSE
+false
 ;
 NS_UpdateHint
 (
@@ -45874,7 +45874,7 @@ presContext
 >
 SetProcessingRestyles
 (
-PR_TRUE
+true
 )
 ;
 nsStyleChangeList
@@ -45900,7 +45900,7 @@ GetRootFrame
 changeList
 aExtraHint
 mPendingRestyles
-PR_TRUE
+true
 )
 ;
 ProcessRestyledFrames
@@ -45913,7 +45913,7 @@ presContext
 >
 SetProcessingRestyles
 (
-PR_FALSE
+false
 )
 ;
 ProcessPendingRestyles
@@ -46012,7 +46012,7 @@ presContext
 >
 SetProcessingRestyles
 (
-PR_TRUE
+true
 )
 ;
 mPendingRestyles
@@ -46040,7 +46040,7 @@ presContext
 >
 SetProcessingAnimationStyleChange
 (
-PR_TRUE
+true
 )
 ;
 mPendingAnimationRestyles
@@ -46054,7 +46054,7 @@ presContext
 >
 SetProcessingAnimationStyleChange
 (
-PR_FALSE
+false
 )
 ;
 presContext
@@ -46062,7 +46062,7 @@ presContext
 >
 SetProcessingRestyles
 (
-PR_FALSE
+false
 )
 ;
 NS_POSTCONDITION
@@ -46179,7 +46179,7 @@ aMinChangeHint
 ;
 PostRestyleEventInternal
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -46274,7 +46274,7 @@ instead
 ;
 mRebuildAllStyleData
 =
-PR_TRUE
+true
 ;
 NS_UpdateHint
 (
@@ -46284,7 +46284,7 @@ aExtraHint
 ;
 PostRestyleEventInternal
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -46338,9 +46338,9 @@ GetStyleContext
 (
 )
 aFrame
-PR_FALSE
+false
 childItems
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -46501,7 +46501,7 @@ mIsText
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mContent
@@ -46678,12 +46678,12 @@ IsDone
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 inline
@@ -46753,7 +46753,7 @@ IsDone
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -46770,7 +46770,7 @@ aState
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 void

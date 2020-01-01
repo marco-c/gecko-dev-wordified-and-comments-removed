@@ -242,11 +242,11 @@ nsAppShellService
 :
 mXPCOMWillShutDown
 (
-PR_FALSE
+false
 )
 mXPCOMShuttingDown
 (
-PR_FALSE
+false
 )
 mModalWindowCount
 (
@@ -254,7 +254,7 @@ mModalWindowCount
 )
 mApplicationProvidedHiddenWindow
 (
-PR_FALSE
+false
 )
 {
 nsCOMPtr
@@ -297,7 +297,7 @@ will
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 obs
@@ -311,7 +311,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -400,9 +400,9 @@ get
 (
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 #
 else
@@ -463,7 +463,7 @@ url
 chromeMask
 initialWidth
 initialHeight
-PR_TRUE
+true
 getter_AddRefs
 (
 newWindow
@@ -574,7 +574,7 @@ aUrl
 aChromeMask
 aInitialWidth
 aInitialHeight
-PR_FALSE
+false
 &
 newWindow
 )
@@ -789,7 +789,7 @@ if
 wm
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -815,7 +815,7 @@ if
 windowList
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -843,7 +843,7 @@ if
 more
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -924,13 +924,13 @@ nsSizeMode_Fullscreen
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -1026,7 +1026,7 @@ window
 >
 IgnoreXULSizeMode
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -1147,7 +1147,7 @@ widgetInitData
 .
 clipChildren
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -1426,7 +1426,7 @@ window
 >
 SetIntrinsicallySized
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1560,10 +1560,10 @@ Center
 parent
 parent
 ?
-PR_FALSE
+false
 :
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 return
@@ -2331,7 +2331,7 @@ shutdown
 {
 mXPCOMWillShutDown
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2351,7 +2351,7 @@ shutdown
 {
 mXPCOMShuttingDown
 =
-PR_TRUE
+true
 ;
 if
 (

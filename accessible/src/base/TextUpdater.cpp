@@ -226,7 +226,7 @@ mHyperText
 GetChildOffset
 (
 mTextLeaf
-PR_TRUE
+true
 )
 ;
 NS_ASSERTION
@@ -404,7 +404,7 @@ AccTextChangeEvent
 mHyperText
 mTextOffset
 str1
-PR_FALSE
+false
 )
 ;
 mDocument
@@ -435,7 +435,7 @@ AccTextChangeEvent
 mHyperText
 mTextOffset
 str2
-PR_TRUE
+true
 )
 ;
 mDocument

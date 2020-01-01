@@ -998,7 +998,7 @@ aChannel
 mOpenRunning
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 index
@@ -1179,7 +1179,7 @@ mAddress
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1270,11 +1270,11 @@ BeginOpen
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1441,7 +1441,7 @@ aContext
 :
 mActive
 (
-PR_FALSE
+false
 )
 mContext
 (
@@ -1519,7 +1519,7 @@ Z_OK
 {
 mActive
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2243,7 +2243,7 @@ NS_ProxyRelease
 (
 mainThread
 forgettable
-PR_FALSE
+false
 )
 ;
 }
@@ -2264,7 +2264,7 @@ NS_ProxyRelease
 (
 mainThread
 forgettable
-PR_FALSE
+false
 )
 ;
 }
@@ -2289,7 +2289,7 @@ NS_ProxyRelease
 (
 mainThread
 forgettableListener
-PR_FALSE
+false
 )
 ;
 }
@@ -2314,7 +2314,7 @@ NS_ProxyRelease
 (
 mainThread
 forgettableContext
-PR_FALSE
+false
 )
 ;
 }
@@ -2339,7 +2339,7 @@ NS_ProxyRelease
 (
 mainThread
 forgettableGroup
-PR_FALSE
+false
 )
 ;
 }
@@ -3751,7 +3751,7 @@ if
 IsUTF8
 (
 utf8Data
-PR_FALSE
+false
 )
 )
 {
@@ -3964,7 +3964,7 @@ if
 IsUTF8
 (
 mServerCloseReason
-PR_FALSE
+false
 )
 )
 {
@@ -5052,7 +5052,7 @@ mCurrentOut
 {
 isPong
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -5075,7 +5075,7 @@ mCurrentOut
 )
 isPing
 =
-PR_TRUE
+true
 ;
 else
 mCurrentOut
@@ -6404,7 +6404,7 @@ count
 )
 mTCPClosed
 =
-PR_TRUE
+true
 ;
 }
 while
@@ -6623,7 +6623,7 @@ mStopped
 ;
 mTCPClosed
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7310,7 +7310,7 @@ NS_LITERAL_CSTRING
 (
 SEC_WEBSOCKET_VERSION
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -7338,7 +7338,7 @@ Origin
 "
 )
 mOrigin
-PR_FALSE
+false
 )
 ;
 if
@@ -7366,7 +7366,7 @@ Protocol
 "
 )
 mProtocol
-PR_TRUE
+true
 )
 ;
 if
@@ -7396,7 +7396,7 @@ deflate
 stream
 "
 )
-PR_FALSE
+false
 )
 ;
 PRUint8
@@ -7481,7 +7481,7 @@ Key
 "
 )
 secKeyString
-PR_FALSE
+false
 )
 ;
 LOG
@@ -7600,7 +7600,7 @@ hasher
 >
 Finish
 (
-PR_TRUE
+true
 mHashedSecret
 )
 ;
@@ -11637,7 +11637,7 @@ rv
 {
 mTCPClosed
 =
-PR_TRUE
+true
 ;
 AbortSession
 (
@@ -11658,7 +11658,7 @@ count
 {
 mTCPClosed
 =
-PR_TRUE
+true
 ;
 AbortSession
 (

@@ -106,7 +106,7 @@ aEvent
 new
 nsGUIEvent
 (
-PR_FALSE
+false
 NS_SVG_ZOOM
 0
 )
@@ -119,14 +119,14 @@ aEvent
 {
 mEventIsInternal
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 mEvent
 -
@@ -287,7 +287,7 @@ mNewTranslate
 >
 SetReadonly
 (
-PR_TRUE
+true
 )
 ;
 const
@@ -324,7 +324,7 @@ mPreviousTranslate
 >
 SetReadonly
 (
-PR_TRUE
+true
 )
 ;
 }

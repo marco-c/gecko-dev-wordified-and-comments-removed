@@ -50,7 +50,7 @@ mMaxProgress
 )
 mStatusIsDirty
 (
-PR_TRUE
+true
 )
 mCurrentPercentage
 (
@@ -66,15 +66,15 @@ mFinishedRequests
 )
 mUseRealProgressFlag
 (
-PR_FALSE
+false
 )
 mDelayedStatus
 (
-PR_FALSE
+false
 )
 mDelayedProgress
 (
-PR_FALSE
+false
 )
 {
 }
@@ -527,7 +527,7 @@ StartDelayTimer
 }
 mDelayedProgress
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -614,7 +614,7 @@ aMessage
 {
 mStatusIsDirty
 =
-PR_TRUE
+true
 ;
 mStatusMsg
 =
@@ -645,7 +645,7 @@ StartDelayTimer
 }
 mDelayedStatus
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -774,7 +774,7 @@ listener
 *
 allowRefresh
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -812,7 +812,7 @@ mFinishedRequests
 ;
 mUseRealProgressFlag
 =
-PR_FALSE
+false
 ;
 mMaxProgress
 =
@@ -828,7 +828,7 @@ mCurrentPercentage
 ;
 mStatusIsDirty
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -938,7 +938,7 @@ mStatusMsg
 ;
 mStatusIsDirty
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1031,7 +1031,7 @@ mDelayedStatus
 {
 mDelayedStatus
 =
-PR_FALSE
+false
 ;
 MaybeSendStatus
 (
@@ -1045,7 +1045,7 @@ mDelayedProgress
 {
 mDelayedProgress
 =
-PR_FALSE
+false
 ;
 MaybeSendProgress
 (

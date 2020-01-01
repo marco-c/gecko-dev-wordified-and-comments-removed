@@ -337,7 +337,7 @@ IsCycler
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -356,7 +356,7 @@ width
 0
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -408,11 +408,11 @@ width
 0
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2473,7 +2473,7 @@ nsGkAtoms
 :
 ordinal
 ordinal
-PR_TRUE
+true
 )
 ;
 }

@@ -292,7 +292,7 @@ IsEditable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIDocument
@@ -428,7 +428,7 @@ isVisible
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsHTMLContentSerializer
@@ -440,7 +440,7 @@ nsHTMLContentSerializer
 {
 mIsHTMLSerializer
 =
-PR_TRUE
+true
 ;
 }
 nsHTMLContentSerializer
@@ -1204,7 +1204,7 @@ aStr
 ;
 mAddSpace
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1226,7 +1226,7 @@ aStr
 ;
 mAddSpace
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1239,7 +1239,7 @@ aStr
 }
 mAddNewlineForRootNode
 =
-PR_FALSE
+false
 ;
 AppendToString
 (
@@ -1373,7 +1373,7 @@ AppendElement
 olState
 (
 startAttrVal
-PR_TRUE
+true
 )
 )
 ;
@@ -1904,7 +1904,7 @@ aStr
 ;
 mAddSpace
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1926,7 +1926,7 @@ aStr
 ;
 mAddSpace
 =
-PR_FALSE
+false
 ;
 }
 AppendToString

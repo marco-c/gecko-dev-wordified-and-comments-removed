@@ -212,7 +212,7 @@ localFile
 >
 SetFollowLinks
 (
-PR_TRUE
+true
 )
 ;
 const

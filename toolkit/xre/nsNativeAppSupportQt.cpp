@@ -598,7 +598,7 @@ endif
 *
 aRetVal
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -687,7 +687,7 @@ version
 .
 0
 "
-PR_TRUE
+true
 nsnull
 )
 ;
@@ -728,7 +728,7 @@ aResult
 *
 aResult
 =
-PR_TRUE
+true
 ;
 #
 if

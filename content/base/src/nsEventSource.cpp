@@ -248,15 +248,15 @@ PARSE_STATE_OFF
 )
 mFrozen
 (
-PR_FALSE
+false
 )
 mErrorLoadOnRedirect
 (
-PR_FALSE
+false
 )
 mGoingToDispatchAllMessages
 (
-PR_FALSE
+false
 )
 mLastConvertionResult
 (
@@ -701,7 +701,7 @@ nsnull
 ;
 mFrozen
 =
-PR_FALSE
+false
 ;
 mScriptContext
 =
@@ -1014,7 +1014,7 @@ AddObserver
 (
 this
 DOM_WINDOW_DESTROYED_TOPIC
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1032,7 +1032,7 @@ AddObserver
 (
 this
 DOM_WINDOW_FROZEN_TOPIC
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1050,7 +1050,7 @@ AddObserver
 (
 this
 DOM_WINDOW_THAWED_TOPIC
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2366,7 +2366,7 @@ mEventSource
 >
 mErrorLoadOnRedirect
 =
-PR_TRUE
+true
 ;
 mEventSource
 -
@@ -2603,7 +2603,7 @@ nsnull
 ;
 mErrorLoadOnRedirect
 =
-PR_TRUE
+true
 ;
 DispatchFailConnection
 (
@@ -3099,7 +3099,7 @@ NS_LITERAL_CSTRING
 (
 TEXT_EVENT_STREAM
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -3131,7 +3131,7 @@ NS_ConvertUTF16toUTF8
 (
 mLastEventID
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -3538,8 +3538,8 @@ NS_LITERAL_STRING
 open
 "
 )
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -3584,7 +3584,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -3851,8 +3851,8 @@ NS_LITERAL_STRING
 error
 "
 )
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -3897,7 +3897,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -4588,8 +4588,8 @@ NS_LITERAL_STRING
 error
 "
 )
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -4634,7 +4634,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -4697,7 +4697,7 @@ CLOSED
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -4739,7 +4739,7 @@ get
 NS_ENSURE_TRUE
 (
 srcToTest
-PR_FALSE
+false
 )
 ;
 isSameOrigin
@@ -4752,7 +4752,7 @@ mPrincipal
 CheckMayLoad
 (
 srcToTest
-PR_FALSE
+false
 )
 )
 ;
@@ -4817,7 +4817,7 @@ CheckInnerWindowCorrectness
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 PRInt16
@@ -5087,7 +5087,7 @@ closed
 ;
 mFrozen
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -5130,7 +5130,7 @@ event
 ;
 mGoingToDispatchAllMessages
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -5209,7 +5209,7 @@ closed
 ;
 mFrozen
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -5435,7 +5435,7 @@ event
 ;
 mGoingToDispatchAllMessages
 =
-PR_TRUE
+true
 ;
 return
 NS_DispatchToMainThread
@@ -5476,7 +5476,7 @@ return
 }
 mGoingToDispatchAllMessages
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -5691,8 +5691,8 @@ message
 -
 >
 mEventName
-PR_FALSE
-PR_FALSE
+false
+false
 jsData
 NS_ConvertUTF8toUTF16
 (
@@ -5747,7 +5747,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -6080,7 +6080,7 @@ PRUnichar
 {
 assign
 =
-PR_FALSE
+false
 ;
 break
 ;

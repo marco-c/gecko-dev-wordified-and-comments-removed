@@ -1019,9 +1019,9 @@ nsIPresShell
 gCaptureInfo
 =
 {
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 nsnull
 }
 ;
@@ -1127,7 +1127,7 @@ nsDisplayListBuilder
 :
 :
 PAINTING
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -1543,7 +1543,7 @@ aMgr
 )
 mHasBeenOutput
 (
-PR_FALSE
+false
 )
 {
 }
@@ -3325,7 +3325,7 @@ firstTime
 {
 firstTime
 =
-PR_FALSE
+false
 ;
 char
 *
@@ -3430,7 +3430,7 @@ bit
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3447,7 +3447,7 @@ found
 )
 error
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3487,7 +3487,7 @@ gVerifyReflowFlags
 {
 gVerifyReflowEnabled
 =
-PR_TRUE
+true
 ;
 printf
 (
@@ -3954,15 +3954,15 @@ DISPLAY_IMAGES
 ;
 mIsThemeSupportDisabled
 =
-PR_FALSE
+false
 ;
 mIsActive
 =
-PR_TRUE
+true
 ;
 mFrozen
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -3991,7 +3991,7 @@ mYResolution
 ;
 mViewportOverridden
 =
-PR_FALSE
+false
 ;
 static
 bool
@@ -4025,7 +4025,7 @@ reflow
 .
 synthMouseMove
 "
-PR_TRUE
+true
 )
 ;
 registeredReporter
@@ -4428,7 +4428,7 @@ CompatibilityModeChanged
 ;
 SetPreferenceStyleRules
 (
-PR_FALSE
+false
 )
 ;
 NS_ADDREF
@@ -4615,7 +4615,7 @@ sheet
 -
 added
 "
-PR_FALSE
+false
 )
 ;
 os
@@ -4631,7 +4631,7 @@ sheet
 -
 added
 "
-PR_FALSE
+false
 )
 ;
 os
@@ -4647,7 +4647,7 @@ sheet
 -
 removed
 "
-PR_FALSE
+false
 )
 ;
 os
@@ -4663,7 +4663,7 @@ sheet
 -
 removed
 "
-PR_FALSE
+false
 )
 ;
 #
@@ -4684,7 +4684,7 @@ skin
 -
 caches
 "
-PR_FALSE
+false
 )
 ;
 #
@@ -5166,7 +5166,7 @@ ClearPreferenceStyleRules
 ;
 mIsDestroying
 =
-PR_TRUE
+true
 ;
 mCurrentEventFrame
 =
@@ -5338,7 +5338,7 @@ Cancel
 ;
 mAsyncResizeTimerIsActive
 =
-PR_FALSE
+false
 ;
 }
 CancelAllPendingReflows
@@ -5443,7 +5443,7 @@ nsnull
 }
 mHaveShutDown
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -8127,7 +8127,7 @@ wrong
 ;
 mIsDocumentGone
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -8142,7 +8142,7 @@ EndObservingDocument
 {
 mIsDocumentGone
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8226,7 +8226,7 @@ this
 ;
 mDidInitialReflow
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -8461,7 +8461,7 @@ ContentInserted
 nsnull
 root
 nsnull
-PR_FALSE
+false
 )
 ;
 VERIFY_STYLE_TREE
@@ -8659,7 +8659,7 @@ IsPaginated
 {
 mPaintingSuppressed
 =
-PR_TRUE
+true
 ;
 nsIDocument
 :
@@ -8709,7 +8709,7 @@ mPaintSuppressionTimer
 {
 mPaintingSuppressed
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -8836,7 +8836,7 @@ aHeight
 {
 mViewportOverridden
 =
-PR_TRUE
+true
 ;
 return
 ResizeReflowIgnoreOverride
@@ -9106,13 +9106,13 @@ rootFrame
 DoReflow
 (
 rootFrame
-PR_TRUE
+true
 )
 ;
 }
 DidDoReflow
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9206,7 +9206,7 @@ mAsyncResizeEventTimer
 {
 mAsyncResizeTimerIsActive
 =
-PR_TRUE
+true
 ;
 mAsyncResizeEventTimer
 -
@@ -9284,7 +9284,7 @@ return
 nsEvent
 event
 (
-PR_TRUE
+true
 NS_BEFORERESIZE_EVENT
 )
 ;
@@ -9341,7 +9341,7 @@ mAsyncResizeTimerIsActive
 {
 mAsyncResizeTimerIsActive
 =
-PR_FALSE
+false
 ;
 mAsyncResizeEventTimer
 -
@@ -9366,7 +9366,7 @@ return
 nsEvent
 event
 (
-PR_TRUE
+true
 NS_RESIZE_EVENT
 )
 ;
@@ -9402,7 +9402,7 @@ this
 ;
 mInResize
 =
-PR_TRUE
+true
 ;
 nsEventDispatcher
 :
@@ -9420,7 +9420,7 @@ status
 ;
 mInResize
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -9882,7 +9882,7 @@ aOutIsVisible
 *
 aOutIsVisible
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -10538,7 +10538,7 @@ pos
 .
 mContentOffset
 aExtend
-PR_FALSE
+false
 aForward
 )
 ;
@@ -10639,7 +10639,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -10693,7 +10693,7 @@ CheckVisibility
 mPresContext
 startOffset
 EndOffset
-PR_TRUE
+true
 &
 finished
 _retval
@@ -11177,7 +11177,7 @@ aDocument
 {
 mDocumentLoading
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -11209,7 +11209,7 @@ RestoreRootScrollPosition
 ;
 mDocumentLoading
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -12262,7 +12262,7 @@ fm
 GetFocusedElementForWindow
 (
 window
-PR_FALSE
+false
 nsnull
 getter_AddRefs
 (
@@ -12482,7 +12482,7 @@ this
 ;
 mReflowScheduled
 =
-PR_FALSE
+false
 ;
 }
 ASSERT_REFLOW_SCHEDULED_STATE
@@ -12981,7 +12981,7 @@ i
 =
 0
 ;
-PR_TRUE
+true
 ;
 i
 +
@@ -13151,7 +13151,7 @@ i
 =
 0
 ;
-PR_TRUE
+true
 ;
 i
 +
@@ -14012,7 +14012,7 @@ else
 {
 aHaveRect
 =
-PR_TRUE
+true
 ;
 aRect
 =
@@ -15001,7 +15001,7 @@ newPosition
 {
 didScroll
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -15691,7 +15691,7 @@ gCaptureInfo
 .
 mAllowed
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15728,7 +15728,7 @@ gCaptureInfo
 .
 mAllowed
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -15990,7 +15990,7 @@ return
 }
 mPaintingSuppressed
 =
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -16105,7 +16105,7 @@ mHaveShutDown
 )
 SynthesizeMouseMove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -16156,7 +16156,7 @@ Length
 )
 mShouldUnsuppressPainting
 =
-PR_TRUE
+true
 ;
 else
 UnsuppressAndInvalidate
@@ -16541,7 +16541,7 @@ ReflowFinished
 {
 shouldFlush
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -16622,7 +16622,7 @@ isPainting
 {
 isSafeToFlush
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -16910,7 +16910,7 @@ mViewManager
 >
 FlushDelayedResize
 (
-PR_FALSE
+false
 )
 ;
 mPresContext
@@ -17065,7 +17065,7 @@ mViewManager
 >
 FlushDelayedResize
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -17717,7 +17717,7 @@ ContentAppended
 (
 aContainer
 aFirstNewContent
-PR_TRUE
+true
 )
 ;
 VERIFY_STYLE_TREE
@@ -17805,7 +17805,7 @@ ContentInserted
 aContainer
 aChild
 nsnull
-PR_TRUE
+true
 )
 ;
 VERIFY_STYLE_TREE
@@ -18064,7 +18064,7 @@ ReconstructStyleDataInternal
 {
 mStylesHaveChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -18201,7 +18201,7 @@ HasRules
 {
 mStylesHaveChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -18254,7 +18254,7 @@ HasRules
 {
 mStylesHaveChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -18286,7 +18286,7 @@ HasRules
 {
 mStylesHaveChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -18312,7 +18312,7 @@ aNewStyleRule
 {
 mStylesHaveChanged
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -18334,7 +18334,7 @@ aStyleRule
 {
 mStylesHaveChanged
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -18356,7 +18356,7 @@ aStyleRule
 {
 mStylesHaveChanged
 =
-PR_TRUE
+true
 ;
 }
 nsIFrame
@@ -18521,7 +18521,7 @@ aThebesContext
 Rectangle
 (
 r
-PR_TRUE
+true
 )
 ;
 #
@@ -18924,7 +18924,7 @@ RENDER_CARET
 {
 wouldFlushRetainedLayers
 =
-PR_TRUE
+true
 ;
 flags
 |
@@ -18954,7 +18954,7 @@ mRenderFlags
 ChangeFlag
 (
 mRenderFlags
-PR_TRUE
+true
 STATE_IGNORING_VIEWPORT_SCROLLING
 )
 ;
@@ -18968,7 +18968,7 @@ RENDER_DOCUMENT_RELATIVE
 {
 wouldFlushRetainedLayers
 =
-PR_TRUE
+true
 ;
 flags
 |
@@ -20821,7 +20821,7 @@ CreateRangePaintInfo
 (
 range
 area
-PR_FALSE
+false
 )
 ;
 if
@@ -21040,7 +21040,7 @@ CreateRangePaintInfo
 (
 range
 area
-PR_TRUE
+true
 )
 ;
 if
@@ -21213,7 +21213,7 @@ aColor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsDisplayList
@@ -21241,11 +21241,11 @@ aColor
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -21475,7 +21475,7 @@ if
 pwin
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -22764,7 +22764,7 @@ here
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 NS_MOUSE_MOVE
 view
 -
@@ -23959,7 +23959,7 @@ HandleEvent
 (
 parentRootView
 aEvent
-PR_TRUE
+true
 aEventStatus
 )
 ;
@@ -24016,7 +24016,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 rootWindow
-PR_TRUE
+true
 &
 focusedWindow
 )
@@ -24280,7 +24280,7 @@ NS_MOUSE_ENTER
 )
 SynthesizeMouseMove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -24637,7 +24637,7 @@ HandleEvent
 (
 view
 aEvent
-PR_TRUE
+true
 aEventStatus
 )
 ;
@@ -24833,7 +24833,7 @@ NS_KEY_DOWN
 {
 mNoDelayedKeyEvents
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -25456,7 +25456,7 @@ GetFrameForPoint
 (
 frame
 eventPoint
-PR_FALSE
+false
 ignoreRootScrollFrame
 )
 ;
@@ -25601,7 +25601,7 @@ NS_MOUSE_BUTTON_DOWN
 {
 mNoDelayedMouseEvents
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -25944,7 +25944,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 window
-PR_FALSE
+false
 getter_AddRefs
 (
 focusedWindow
@@ -26699,7 +26699,7 @@ eContextMenuKey
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -26771,7 +26771,7 @@ menuPopupFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -26782,7 +26782,7 @@ PR_FALSE
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -26883,7 +26883,7 @@ IsFullScreenKeyInputRestricted
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 int
@@ -26961,11 +26961,11 @@ NS_VK_META
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -27206,7 +27206,7 @@ NS_MOUSE_BUTTON_UP
 :
 isHandlingUserInput
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -27467,7 +27467,7 @@ nsContentUtils
 :
 SetIsHandlingKeyBoardEvent
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -27653,7 +27653,7 @@ nsIPresShell
 :
 AllowMouseCapture
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -27938,7 +27938,7 @@ mCurrentEventFrame
 itemFrame
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -28115,7 +28115,7 @@ refPoint
 caretPoint
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -28198,7 +28198,7 @@ GetCurrentEventFrame
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -28231,7 +28231,7 @@ GetCaret
 NS_ENSURE_TRUE
 (
 caret
-PR_FALSE
+false
 )
 ;
 bool
@@ -28262,7 +28262,7 @@ rv
 caretVisible
 )
 return
-PR_FALSE
+false
 ;
 nsISelection
 *
@@ -28278,7 +28278,7 @@ GetCaretDOMSelection
 NS_ENSURE_TRUE
 (
 domSelection
-PR_FALSE
+false
 )
 ;
 nsIFrame
@@ -28309,13 +28309,13 @@ node
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
 (
 node
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -28369,7 +28369,7 @@ SCROLL_OVERFLOW_HIDDEN
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 frame
@@ -28460,7 +28460,7 @@ SCROLL_SYNCHRONOUS
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 }
@@ -28495,7 +28495,7 @@ if
 caretFrame
 )
 return
-PR_FALSE
+false
 ;
 nsPoint
 viewOffset
@@ -28519,7 +28519,7 @@ if
 view
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -28589,7 +28589,7 @@ y
 1
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -28681,7 +28681,7 @@ multiSelect
 {
 checkLineHeight
 =
-PR_FALSE
+false
 ;
 PRInt32
 currentIndex
@@ -28805,7 +28805,7 @@ rowHeight
 ;
 istree
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -28972,7 +28972,7 @@ select
 {
 checkLineHeight
 =
-PR_FALSE
+false
 ;
 select
 -
@@ -29672,7 +29672,7 @@ Freeze
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -29706,13 +29706,13 @@ mCaret
 >
 SetCaretVisible
 (
-PR_FALSE
+false
 )
 ;
 }
 mPaintingSuppressed
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -29804,7 +29804,7 @@ mPresContext
 }
 mFrozen
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -29829,11 +29829,11 @@ aFireEvents
 {
 mNoDelayedMouseEvents
 =
-PR_FALSE
+false
 ;
 mNoDelayedKeyEvents
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -30020,7 +30020,7 @@ Thaw
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -30101,7 +30101,7 @@ QueryIsActive
 ;
 mFrozen
 =
-PR_FALSE
+false
 ;
 UpdateImageLockingState
 (
@@ -30222,7 +30222,7 @@ this
 {
 mReflowScheduled
 =
-PR_TRUE
+true
 ;
 }
 ASSERT_REFLOW_SCHEDULED_STATE
@@ -30334,7 +30334,7 @@ sSynthMouseMove
 {
 SynthesizeMouseMove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -30573,12 +30573,12 @@ TYPE_ONE_SHOT
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -30651,7 +30651,7 @@ failure
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -30804,7 +30804,7 @@ mFlags
 .
 mVResize
 =
-PR_TRUE
+true
 ;
 }
 mLastRootReflowHadUnconstrainedHeight
@@ -30919,7 +30919,7 @@ aInterruptible
 ;
 mIsReflowing
 =
-PR_TRUE
+true
 ;
 nsReflowStatus
 status
@@ -31228,7 +31228,7 @@ interrupted
 ;
 mIsReflowing
 =
-PR_FALSE
+false
 ;
 bool
 interrupted
@@ -31313,7 +31313,7 @@ Clear
 ;
 mSuppressInterruptibleReflows
 =
-PR_TRUE
+true
 ;
 MaybeScheduleReflow
 (
@@ -31395,7 +31395,7 @@ Flush_Layout
 ;
 mInVerifyReflow
 =
-PR_TRUE
+true
 ;
 bool
 ok
@@ -31406,7 +31406,7 @@ VerifyIncrementalReflow
 ;
 mInVerifyReflow
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -31751,7 +31751,7 @@ Length
 {
 mShouldUnsuppressPainting
 =
-PR_FALSE
+false
 ;
 UnsuppressAndInvalidate
 (
@@ -31845,11 +31845,11 @@ aFrame
 >
 CloseMenu
 (
-PR_TRUE
+true
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -31909,11 +31909,11 @@ NS_STYLE_HINT_FRAMECHANGE
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -32401,7 +32401,7 @@ aObserver
 aFlushType
 )
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -32463,7 +32463,7 @@ aObserver
 aFlushType
 )
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -33053,7 +33053,7 @@ aSecondPresContext
 aSecondFrame
 )
 return
-PR_TRUE
+true
 ;
 bool
 ok
@@ -33153,7 +33153,7 @@ l2
 {
 ok
 =
-PR_FALSE
+false
 ;
 LogVerifyMessage
 (
@@ -33308,7 +33308,7 @@ k2
 {
 ok
 =
-PR_FALSE
+false
 ;
 LogVerifyMessage
 (
@@ -33359,7 +33359,7 @@ GetRect
 {
 ok
 =
-PR_FALSE
+false
 ;
 LogVerifyMessage
 (
@@ -33444,7 +33444,7 @@ v2
 {
 ok
 =
-PR_FALSE
+false
 ;
 LogVerifyMessage
 (
@@ -33579,7 +33579,7 @@ w2
 {
 ok
 =
-PR_FALSE
+false
 ;
 LogVerifyMessage
 (
@@ -33685,7 +33685,7 @@ k2
 {
 ok
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -33797,7 +33797,7 @@ gVerifyReflowFlags
 {
 ok
 =
-PR_FALSE
+false
 ;
 }
 LogVerifyMessage
@@ -34732,7 +34732,7 @@ eContext_Galley
 NS_ENSURE_TRUE
 (
 cx
-PR_FALSE
+false
 )
 ;
 nsDeviceContext
@@ -34760,7 +34760,7 @@ dc
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 nsIView
@@ -34782,7 +34782,7 @@ rootView
 HasWidget
 (
 )
-PR_FALSE
+false
 )
 ;
 nsIWidget
@@ -34810,7 +34810,7 @@ kViewManagerCID
 NS_ENSURE_TRUE
 (
 vm
-PR_FALSE
+false
 )
 ;
 rv
@@ -34826,7 +34826,7 @@ dc
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 nsRect
@@ -34855,7 +34855,7 @@ nsnull
 NS_ENSURE_TRUE
 (
 view
-PR_FALSE
+false
 )
 ;
 rv
@@ -34867,13 +34867,13 @@ CreateWidgetForParent
 (
 parentWidget
 nsnull
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 vm
@@ -34939,7 +34939,7 @@ sh
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 newSet
@@ -34953,7 +34953,7 @@ sh
 >
 SetVerifyReflowEnable
 (
-PR_FALSE
+false
 )
 ;
 vm
@@ -35024,7 +35024,7 @@ sh
 >
 SetVerifyReflowEnable
 (
-PR_TRUE
+true
 )
 ;
 (
@@ -35042,7 +35042,7 @@ get
 >
 mPaintingSuppressed
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -35659,7 +35659,7 @@ IsPaintingFrameCounts
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 ReflowCounter
@@ -36072,19 +36072,19 @@ nsnull
 ;
 mCycledOnce
 =
-PR_FALSE
+false
 ;
 mDumpFrameCounts
 =
-PR_FALSE
+false
 ;
 mDumpFrameByFrameCounts
 =
-PR_FALSE
+false
 ;
 mPaintFrameByFrameCounts
 =
-PR_FALSE
+false
 ;
 }
 ReflowCountMgr
@@ -36634,7 +36634,7 @@ aRenderingContext
 >
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 width
@@ -37264,7 +37264,7 @@ counter
 >
 mHasBeenOutput
 =
-PR_TRUE
+true
 ;
 char
 *
@@ -38633,7 +38633,7 @@ mCycledOnce
 ;
 mCycledOnce
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -39008,7 +39008,7 @@ aClosure
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static

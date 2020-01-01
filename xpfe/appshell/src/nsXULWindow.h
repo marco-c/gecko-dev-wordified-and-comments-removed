@@ -214,7 +214,7 @@ LockUntilChromeLoad
 {
 mLockedUntilChromeLoad
 =
-PR_TRUE
+true
 ;
 }
 bool

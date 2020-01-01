@@ -121,7 +121,7 @@ aSIDs
 )
 mCanStoreInRuleTree
 (
-PR_TRUE
+true
 )
 mPresContext
 (

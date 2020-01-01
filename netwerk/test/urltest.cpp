@@ -3657,7 +3657,7 @@ i
 }
 bMakeAbs
 =
-PR_TRUE
+true
 ;
 }
 else

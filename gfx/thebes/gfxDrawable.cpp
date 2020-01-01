@@ -529,7 +529,7 @@ Fill
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 gfxCallbackDrawable
@@ -640,7 +640,7 @@ mSize
 .
 height
 )
-PR_FALSE
+false
 aFilter
 )
 ;
@@ -744,7 +744,7 @@ aTransform
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 gfxPatternDrawable
@@ -847,7 +847,7 @@ Draw
 (
 aContext
 aFillRect
-PR_FALSE
+false
 aFilter
 aTransform
 )
@@ -941,7 +941,7 @@ if
 mPattern
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -966,7 +966,7 @@ Draw
 (
 aContext
 aFillRect
-PR_TRUE
+true
 aFilter
 aTransform
 )
@@ -1037,6 +1037,6 @@ oldMatrix
 )
 ;
 return
-PR_TRUE
+true
 ;
 }

@@ -2627,7 +2627,7 @@ LCIDToLocaleName
 }
 sInitialized
 =
-PR_TRUE
+true
 ;
 }
 }

@@ -182,7 +182,7 @@ nsnull
 Init
 (
 csurf
-PR_TRUE
+true
 )
 ;
 }

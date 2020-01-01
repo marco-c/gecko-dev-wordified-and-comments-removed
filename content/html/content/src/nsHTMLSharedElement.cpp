@@ -853,7 +853,7 @@ ParseEnumValue
 (
 aValue
 kListTypeTable
-PR_FALSE
+false
 )
 ;
 }

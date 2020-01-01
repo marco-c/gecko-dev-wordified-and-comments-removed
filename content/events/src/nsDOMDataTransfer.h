@@ -225,7 +225,7 @@ SetReadOnly
 {
 mReadOnly
 =
-PR_TRUE
+true
 ;
 }
 void

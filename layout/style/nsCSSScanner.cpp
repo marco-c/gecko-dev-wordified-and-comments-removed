@@ -1274,7 +1274,7 @@ NS_OK
 )
 mSVGMode
 (
-PR_FALSE
+false
 )
 #
 ifdef
@@ -1294,7 +1294,7 @@ mInnerWindowID
 )
 mWindowIDCached
 (
-PR_FALSE
+false
 )
 mSheet
 (
@@ -1480,7 +1480,7 @@ gConsoleService
 gScriptErrorFactory
 )
 return
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -1495,7 +1495,7 @@ gConsoleService
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 rv
@@ -1510,7 +1510,7 @@ gScriptErrorFactory
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -1546,7 +1546,7 @@ nsnull
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1987,7 +1987,7 @@ InnerWindowID
 }
 mWindowIDCached
 =
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2100,7 +2100,7 @@ if
 gStringBundle
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2124,7 +2124,7 @@ if
 sbs
 )
 return
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2164,11 +2164,11 @@ gStringBundle
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -2656,7 +2656,7 @@ mInnerWindowID
 ;
 mWindowIDCached
 =
-PR_FALSE
+false
 ;
 mSheet
 =
@@ -2718,7 +2718,7 @@ mOffset
 mCount
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -2726,7 +2726,7 @@ if
 mInputStream
 )
 return
-PR_FALSE
+false
 ;
 mOffset
 =
@@ -2764,7 +2764,7 @@ rv
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -3162,7 +3162,7 @@ ch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3174,7 +3174,7 @@ aChar
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 Pushback
@@ -3183,7 +3183,7 @@ ch
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3211,7 +3211,7 @@ ch
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3223,7 +3223,7 @@ aChar
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 Pushback
@@ -3232,7 +3232,7 @@ ch
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -3341,7 +3341,7 @@ ch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3658,7 +3658,7 @@ EatWhiteSpace
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3754,7 +3754,7 @@ SkipCComment
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 continue
@@ -3822,7 +3822,7 @@ AssignLiteral
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 Pushback
@@ -3892,7 +3892,7 @@ AssignLiteral
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 Pushback
@@ -4061,7 +4061,7 @@ eCSSToken_Containsmatch
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -4093,7 +4093,7 @@ mSymbol
 ch
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -4127,7 +4127,7 @@ ch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4264,7 +4264,7 @@ eCSSToken_Bad_URL
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 aToken
@@ -4341,13 +4341,13 @@ if
 ParseAndAppendEscape
 (
 ident
-PR_FALSE
+false
 )
 )
 {
 ok
 =
-PR_FALSE
+false
 ;
 Pushback
 (
@@ -4422,7 +4422,7 @@ PRUnichar
 {
 ok
 =
-PR_FALSE
+false
 ;
 Pushback
 (
@@ -4473,7 +4473,7 @@ eCSSToken_URL
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4504,7 +4504,7 @@ ch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4718,7 +4718,7 @@ ch
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -4744,7 +4744,7 @@ ch
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4759,7 +4759,7 @@ ch
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4789,12 +4789,12 @@ if
 ParseAndAppendEscape
 (
 aIdent
-PR_FALSE
+false
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4924,7 +4924,7 @@ if
 ParseAndAppendEscape
 (
 aIdent
-PR_FALSE
+false
 )
 )
 {
@@ -4969,7 +4969,7 @@ break
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5012,7 +5012,7 @@ ch
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -5071,7 +5071,7 @@ mType
 type
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5081,7 +5081,7 @@ ch
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5135,7 +5135,7 @@ mSymbol
 aChar
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCSSTokenType
@@ -5184,7 +5184,7 @@ aToken
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5195,7 +5195,7 @@ mType
 tokenType
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5256,7 +5256,7 @@ PRUnichar
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5629,7 +5629,7 @@ nextChar
 {
 gotE
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5722,7 +5722,7 @@ aToken
 .
 mIntegerValid
 =
-PR_FALSE
+false
 ;
 float
 value
@@ -5815,7 +5815,7 @@ aToken
 .
 mIntegerValid
 =
-PR_TRUE
+true
 ;
 }
 nsString
@@ -5893,7 +5893,7 @@ aToken
 .
 mIntegerValid
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -5918,7 +5918,7 @@ mType
 type
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5971,7 +5971,7 @@ LookAhead
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5982,7 +5982,7 @@ PECommentEOF
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -6260,7 +6260,7 @@ ParseAndAppendEscape
 aToken
 .
 mIdent
-PR_TRUE
+true
 )
 )
 {
@@ -6306,7 +6306,7 @@ ch
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -6542,7 +6542,7 @@ haveQues
 {
 valid
 =
-PR_FALSE
+false
 ;
 }
 low
@@ -6572,7 +6572,7 @@ else
 {
 haveQues
 =
-PR_TRUE
+true
 ;
 low
 =
@@ -6617,7 +6617,7 @@ haveQues
 {
 valid
 =
-PR_FALSE
+false
 ;
 }
 aResult
@@ -6723,6 +6723,6 @@ mType
 eCSSToken_URange
 ;
 return
-PR_TRUE
+true
 ;
 }

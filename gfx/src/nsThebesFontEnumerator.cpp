@@ -131,7 +131,7 @@ generic
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -314,7 +314,7 @@ aResult
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -380,7 +380,7 @@ UpdateFontList
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

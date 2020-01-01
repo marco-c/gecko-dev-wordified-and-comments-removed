@@ -1275,7 +1275,7 @@ ImportHTMLFromFileToFolder
 (
 localFile
 folder
-PR_FALSE
+false
 )
 ;
 }
@@ -1318,8 +1318,8 @@ rv
 ImportBookmarksHTML
 (
 bookmarksFile
-PR_TRUE
-PR_TRUE
+true
+true
 EmptyString
 (
 )

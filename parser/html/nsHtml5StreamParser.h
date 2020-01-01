@@ -352,7 +352,7 @@ mTerminatedMutex
 ;
 mTerminated
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -409,7 +409,7 @@ mTerminatedMutex
 ;
 mInterrupted
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -437,7 +437,7 @@ AssertCurrentThreadOwns
 ;
 mInterrupted
 =
-PR_FALSE
+false
 ;
 }
 void

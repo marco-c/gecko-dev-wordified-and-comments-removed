@@ -505,7 +505,7 @@ rv
 )
 useReferrer
 =
-PR_TRUE
+true
 ;
 }
 aRequest
@@ -955,7 +955,7 @@ prefBranch
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 prefBranch
@@ -975,7 +975,7 @@ xpiEnabled
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1121,7 +1121,7 @@ DENY_ACTION
 {
 xpiEnabled
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1141,7 +1141,7 @@ ALLOW_ACTION
 {
 xpiEnabled
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1311,7 +1311,7 @@ aReturn
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1385,7 +1385,7 @@ aReturn
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 nsXPInstallManager
 *
@@ -1425,7 +1425,7 @@ aReturn
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 return
 rv

@@ -109,11 +109,11 @@ nsStyleLinkElement
 :
 mDontLoadStyle
 (
-PR_FALSE
+false
 )
 mUpdatesEnabled
 (
-PR_TRUE
+true
 )
 mLineNumber
 (
@@ -511,7 +511,7 @@ subString
 ;
 inString
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -529,7 +529,7 @@ current
 ;
 inString
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -586,7 +586,7 @@ nsnull
 aObserver
 aWillNotify
 aIsAlternate
-PR_FALSE
+false
 )
 ;
 }
@@ -645,7 +645,7 @@ aForceUpdate
 *
 aWillNotify
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -954,7 +954,7 @@ nsContentUtils
 GetNodeTextContent
 (
 thisContent
-PR_FALSE
+false
 text
 )
 ;
@@ -1040,11 +1040,11 @@ rv
 {
 doneLoading
 =
-PR_TRUE
+true
 ;
 isAlternate
 =
-PR_FALSE
+false
 ;
 rv
 =

@@ -762,10 +762,10 @@ GB
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -1062,7 +1062,7 @@ PromiseFlatCString
 aCharset
 )
 unescapedSpec
-PR_TRUE
+true
 _retval
 )
 !
@@ -1121,7 +1121,7 @@ PromiseFlatCString
 aCharset
 )
 unescapedSpec
-PR_TRUE
+true
 _retval
 )
 ;

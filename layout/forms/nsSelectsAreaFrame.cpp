@@ -975,7 +975,7 @@ list
 >
 SetSuppressScrollbarUpdate
 (
-PR_TRUE
+true
 )
 ;
 }

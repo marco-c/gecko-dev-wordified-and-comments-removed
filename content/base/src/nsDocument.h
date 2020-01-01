@@ -925,7 +925,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 ChangeCallback
@@ -1251,7 +1251,7 @@ Clear
 ;
 mHaveShutDown
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -3522,11 +3522,11 @@ ReportEmptyGetElementByIdArg
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void

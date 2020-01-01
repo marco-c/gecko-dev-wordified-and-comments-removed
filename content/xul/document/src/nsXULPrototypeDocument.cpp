@@ -456,7 +456,7 @@ nsnull
 )
 mLoaded
 (
-PR_FALSE
+false
 )
 {
 +
@@ -866,7 +866,7 @@ aStream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 mURI
@@ -928,7 +928,7 @@ aStream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 styleOverlayURI
@@ -957,7 +957,7 @@ aStream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 principal
@@ -1592,7 +1592,7 @@ NS_GET_IID
 (
 nsIURI
 )
-PR_TRUE
+true
 )
 ;
 PRUint32
@@ -1651,7 +1651,7 @@ NS_GET_IID
 (
 nsIURI
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -1669,7 +1669,7 @@ mNodeInfoManager
 DocumentPrincipal
 (
 )
-PR_TRUE
+true
 )
 ;
 #
@@ -2350,7 +2350,7 @@ NS_OK
 ;
 mLoaded
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -2383,7 +2383,7 @@ i
 >
 OnPrototypeLoadDone
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -2620,7 +2620,7 @@ aScriptContext
 >
 SetGCOnDestruction
 (
-PR_FALSE
+false
 )
 ;
 aScriptContext

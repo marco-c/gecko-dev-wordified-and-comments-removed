@@ -980,7 +980,7 @@ info
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

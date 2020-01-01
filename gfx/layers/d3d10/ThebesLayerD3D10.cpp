@@ -1684,7 +1684,7 @@ destinationSurface
 >
 SetAllowUseAsSource
 (
-PR_FALSE
+false
 )
 ;
 }

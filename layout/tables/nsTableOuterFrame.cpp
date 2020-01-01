@@ -986,7 +986,7 @@ else
 {
 NS_PRECONDITION
 (
-PR_FALSE
+false
 "
 unexpected
 child
@@ -1589,7 +1589,7 @@ availableHeight
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 InitChildReflowState
@@ -2091,7 +2091,7 @@ TopBottom
 (
 )
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -3819,7 +3819,7 @@ availSize
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 InitChildReflowState
@@ -3903,7 +3903,7 @@ mFlags
 .
 mIsTopOfPage
 =
-PR_FALSE
+false
 ;
 }
 }

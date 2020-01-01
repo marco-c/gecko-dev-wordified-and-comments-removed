@@ -438,7 +438,7 @@ nsExceptionService
 mProviders
 (
 4
-PR_TRUE
+true
 )
 {
 #
@@ -561,7 +561,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 }

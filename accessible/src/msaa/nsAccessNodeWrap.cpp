@@ -2872,7 +2872,7 @@ if
 jhookhandle
 )
 return
-PR_FALSE
+false
 ;
 PRUnichar
 fileName
@@ -3071,7 +3071,7 @@ Preferences
 SetBool
 (
 CTRLTAB_DISALLOW_FOR_SCREEN_READERS_PREF
-PR_TRUE
+true
 )
 ;
 }
@@ -3091,7 +3091,7 @@ IsOnlyMsaaCompatibleJawsPresent
 )
 gIsIA2Disabled
 =
-PR_TRUE
+true
 ;
 TurnOffNewTabSwitchingForJawsAndWE
 (

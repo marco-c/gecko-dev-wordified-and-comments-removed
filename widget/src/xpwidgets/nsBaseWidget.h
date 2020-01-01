@@ -786,8 +786,8 @@ GetIMEUpdatePreference
 return
 nsIMEUpdatePreference
 (
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }

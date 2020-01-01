@@ -2432,7 +2432,7 @@ aEnabled
 *
 aEnabled
 =
-PR_TRUE
+true
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -3135,7 +3135,7 @@ target
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -3258,7 +3258,7 @@ piTarget
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -3431,7 +3431,7 @@ handler
 CanDropLink
 (
 dragEvent
-PR_FALSE
+false
 &
 canDropLink
 )
@@ -3798,7 +3798,7 @@ if
 svgContent
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -3823,7 +3823,7 @@ if
 parent
 )
 return
-PR_FALSE
+false
 ;
 PRUint16
 nodeType
@@ -4143,7 +4143,7 @@ Length
 )
 found
 =
-PR_TRUE
+true
 ;
 else
 {
@@ -4251,7 +4251,7 @@ Length
 )
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4373,7 +4373,7 @@ Length
 )
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4464,7 +4464,7 @@ inChrome
 )
 mTooltipListenerInstalled
 (
-PR_FALSE
+false
 )
 mMouseClientX
 (
@@ -4476,7 +4476,7 @@ mMouseClientY
 )
 mShowingTooltip
 (
-PR_FALSE
+false
 )
 {
 mTooltipTextProvider
@@ -4618,8 +4618,8 @@ keydown
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4642,8 +4642,8 @@ mousedown
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4666,8 +4666,8 @@ mouseout
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4690,8 +4690,8 @@ mousemove
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4702,7 +4702,7 @@ rv
 ;
 mTooltipListenerInstalled
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -4765,7 +4765,7 @@ keydown
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4788,7 +4788,7 @@ mousedown
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4811,7 +4811,7 @@ mouseout
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4834,7 +4834,7 @@ mousemove
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4845,7 +4845,7 @@ rv
 ;
 mTooltipListenerInstalled
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -5223,7 +5223,7 @@ rv
 )
 mShowingTooltip
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -5321,7 +5321,7 @@ rv
 )
 mShowingTooltip
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5704,7 +5704,7 @@ inChrome
 :
 mContextMenuListenerInstalled
 (
-PR_FALSE
+false
 )
 mWebBrowser
 (
@@ -5753,8 +5753,8 @@ contextmenu
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5765,7 +5765,7 @@ rv
 ;
 mContextMenuListenerInstalled
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -5800,7 +5800,7 @@ contextmenu
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5811,7 +5811,7 @@ rv
 ;
 mContextMenuListenerInstalled
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -6307,7 +6307,7 @@ formControl
 >
 IsSingleLineTextControl
 (
-PR_FALSE
+false
 )
 )
 {

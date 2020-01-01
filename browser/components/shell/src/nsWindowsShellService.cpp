@@ -1089,13 +1089,13 @@ Release
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -1117,7 +1117,7 @@ aStartupCheck
 )
 mCheckedThisSession
 =
-PR_TRUE
+true
 ;
 SETTING
 *
@@ -1142,7 +1142,7 @@ SETTING
 *
 aIsDefaultBrowser
 =
-PR_TRUE
+true
 ;
 PRUnichar
 exePath
@@ -1295,7 +1295,7 @@ rv
 *
 aIsDefaultBrowser
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1361,7 +1361,7 @@ CaseInsensitiveCompare
 *
 aIsDefaultBrowser
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1470,7 +1470,7 @@ mCheckedThisSession
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3495,7 +3495,7 @@ mailKey
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -3516,7 +3516,7 @@ mailKey
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -3614,7 +3614,7 @@ process
 >
 Run
 (
-PR_FALSE
+false
 &
 specStr
 1

@@ -735,7 +735,7 @@ IsDefunct
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 mContent
@@ -769,7 +769,7 @@ HasLongDesc
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 aIndex

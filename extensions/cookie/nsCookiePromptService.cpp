@@ -234,7 +234,7 @@ objects
 AppendElement
 (
 aCookie
-PR_FALSE
+false
 )
 ;
 if

@@ -289,7 +289,7 @@ mNeedsRebuild
 {
 mNeedsRebuild
 =
-PR_FALSE
+false
 ;
 mFactory
 -
@@ -389,7 +389,7 @@ aOwnsFactory
 )
 mNeedsRebuild
 (
-PR_TRUE
+true
 )
 {
 PRUint32

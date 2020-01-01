@@ -449,14 +449,14 @@ NSSCleanupAutoPtrClass_WithParam
 PK11Context
 PK11_DestroyContext
 TrueParam
-PR_TRUE
+true
 )
 NSSCleanupAutoPtrClass_WithParam
 (
 SECItem
 SECITEM_FreeItem
 TrueParam
-PR_TRUE
+true
 )
 #
 include
@@ -600,7 +600,7 @@ case
 ecSignNonrepudiation
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -608,7 +608,7 @@ break
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 typedef
@@ -868,7 +868,7 @@ nsCrypto
 :
 mEnableSmartCardEvents
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1536,7 +1536,7 @@ input
 input
 )
 return
-PR_FALSE
+false
 ;
 while
 (
@@ -1606,7 +1606,7 @@ input
 '
 )
 return
-PR_FALSE
+false
 ;
 name_len
 =
@@ -1651,7 +1651,7 @@ next_call
 input
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2251,7 +2251,7 @@ SECItem
 (
 params
 )
-PR_TRUE
+true
 )
 ;
 break
@@ -2383,7 +2383,7 @@ if
 PK11_Authenticate
 (
 slot
-PR_TRUE
+true
 uiCxt
 )
 !
@@ -2448,7 +2448,7 @@ slot
 ;
 isPerm
 =
-PR_FALSE
+false
 ;
 origSlot
 =
@@ -2463,7 +2463,7 @@ else
 {
 isPerm
 =
-PR_TRUE
+true
 ;
 }
 rv
@@ -2710,8 +2710,8 @@ keyPairInfo
 -
 >
 pubKey
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 SECKEYPrivateKeyCleaner
@@ -3611,7 +3611,7 @@ derEncoded
 SECITEM_FreeItem
 (
 derEncoded
-PR_TRUE
+true
 )
 ;
 if
@@ -3728,7 +3728,7 @@ derEncoded
 SECITEM_FreeItem
 (
 derEncoded
-PR_TRUE
+true
 )
 ;
 if
@@ -3973,7 +3973,7 @@ ext
 CRMF_CreateCertExtension
 (
 SEC_OID_X509_KEY_USAGE
-PR_TRUE
+true
 encodedExt
 )
 ;
@@ -4032,7 +4032,7 @@ ext
 SECITEM_FreeItem
 (
 encodedExt
-PR_TRUE
+true
 )
 ;
 return
@@ -4059,7 +4059,7 @@ encodedExt
 SECITEM_FreeItem
 (
 encodedExt
-PR_TRUE
+true
 )
 ;
 }
@@ -5528,7 +5528,7 @@ ecEnc
 :
 isEncryptionOnlyCertRequest
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -5621,7 +5621,7 @@ ecPopPubKey
 {
 gotDHMACParameters
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -5637,7 +5637,7 @@ return
 nsSetKeyEnciphermentPOP
 (
 certReqMsg
-PR_TRUE
+true
 )
 ;
 if
@@ -5656,7 +5656,7 @@ return
 nsSetKeyEnciphermentPOP
 (
 certReqMsg
-PR_FALSE
+false
 )
 ;
 }
@@ -5921,7 +5921,7 @@ SECSuccess
 SECITEM_FreeItem
 (
 dest
-PR_TRUE
+true
 )
 ;
 return
@@ -6153,7 +6153,7 @@ encodedReq
 SECITEM_FreeItem
 (
 encodedReq
-PR_TRUE
+true
 )
 ;
 return
@@ -6870,8 +6870,8 @@ CERT_GetDefaultCertDB
 &
 certDer
 nsnull
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 if
@@ -6961,7 +6961,7 @@ isUIForbidden
 {
 okay
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -6988,7 +6988,7 @@ NS_OK
 ;
 willEscrow
 =
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -8382,7 +8382,7 @@ isperm
 {
 retVal
 =
-PR_TRUE
+true
 ;
 }
 CERT_DestroyCertificate
@@ -8688,7 +8688,7 @@ certArr
 )
 aDoForcedBackup
 =
-PR_FALSE
+false
 ;
 memset
 (

@@ -50,7 +50,7 @@ NULLHANDLE
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 const
@@ -103,7 +103,7 @@ NO_ERROR
 {
 mInitialized
 =
-PR_TRUE
+true
 ;
 }
 }

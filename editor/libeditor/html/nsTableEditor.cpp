@@ -837,7 +837,7 @@ table
 startRowIndex
 newCellIndex
 ePreviousColumn
-PR_FALSE
+false
 )
 ;
 nsAutoTxnsConserveSelection
@@ -1905,7 +1905,7 @@ table
 startRowIndex
 startColIndex
 ePreviousRow
-PR_FALSE
+false
 )
 ;
 nsAutoTxnsConserveSelection
@@ -2066,7 +2066,7 @@ res
 InsertTableCell
 (
 aNumber
-PR_FALSE
+false
 )
 ;
 }
@@ -2190,7 +2190,7 @@ res
 InsertTableCell
 (
 aNumber
-PR_TRUE
+true
 )
 ;
 }
@@ -2389,7 +2389,7 @@ table
 startRowIndex
 startColIndex
 ePreviousColumn
-PR_FALSE
+false
 )
 ;
 nsAutoTxnsConserveSelection
@@ -3166,7 +3166,7 @@ table
 startRowIndex
 startColIndex
 ePreviousColumn
-PR_FALSE
+false
 )
 ;
 nsAutoTxnsConserveSelection
@@ -3207,7 +3207,7 @@ checkToDeleteRow
 {
 checkToDeleteRow
 =
-PR_FALSE
+false
 ;
 deleteRow
 =
@@ -3305,7 +3305,7 @@ nextRow
 ;
 checkToDeleteRow
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3323,7 +3323,7 @@ checkToDeleteColumn
 {
 checkToDeleteColumn
 =
-PR_FALSE
+false
 ;
 deleteCol
 =
@@ -3421,7 +3421,7 @@ nextCol
 ;
 checkToDeleteColumn
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3661,7 +3661,7 @@ table
 startRowIndex
 startColIndex
 ePreviousColumn
-PR_FALSE
+false
 )
 ;
 nsAutoTxnsConserveSelection
@@ -3848,7 +3848,7 @@ table
 startRowIndex
 startColIndex
 ePreviousColumn
-PR_FALSE
+false
 )
 ;
 while
@@ -4212,7 +4212,7 @@ table
 startRowIndex
 startColIndex
 ePreviousRow
-PR_FALSE
+false
 )
 ;
 if
@@ -4910,7 +4910,7 @@ table
 startRowIndex
 startColIndex
 ePreviousRow
-PR_FALSE
+false
 )
 ;
 nsAutoTxnsConserveSelection
@@ -6335,7 +6335,7 @@ break
 ;
 cellSelected
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6602,7 +6602,7 @@ break
 ;
 cellSelected
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6868,7 +6868,7 @@ break
 ;
 cellSelected
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7013,7 +7013,7 @@ table
 startRowIndex
 startColIndex
 ePreviousColumn
-PR_FALSE
+false
 )
 ;
 nsAutoTxnsConserveSelection
@@ -7366,8 +7366,8 @@ InsertCell
 cell
 actualRowSpan
 aColSpanRight
-PR_TRUE
-PR_FALSE
+true
+false
 getter_AddRefs
 (
 newCell
@@ -7679,7 +7679,7 @@ startColIndex
 {
 insertAfter
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -7715,7 +7715,7 @@ break
 }
 while
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -7733,7 +7733,7 @@ lastCellFound
 ;
 insertAfter
 =
-PR_TRUE
+true
 ;
 }
 res
@@ -7764,7 +7764,7 @@ cell2
 aRowSpanBelow
 actualColSpan
 insertAfter
-PR_FALSE
+false
 getter_AddRefs
 (
 newCell
@@ -7950,7 +7950,7 @@ newNode
 newCellType
 nsnull
 nsnull
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8394,7 +8394,7 @@ rowIndex
 ;
 lastRowIsSet
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -8411,7 +8411,7 @@ actualColSpan2
 ;
 cellFoundInRow
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -8449,7 +8449,7 @@ rowIndex
 ;
 lastRowIsSet
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -8726,7 +8726,7 @@ MergeCells
 (
 firstCell
 cell2
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8759,7 +8759,7 @@ MergeCells
 (
 firstCell
 cell2
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10494,8 +10494,8 @@ InsertCell
 previousCellInRow
 1
 1
-PR_TRUE
-PR_FALSE
+true
+false
 getter_AddRefs
 (
 cell
@@ -11197,7 +11197,7 @@ aActualColSpan
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 *
 aCell
@@ -12833,7 +12833,7 @@ aRow
 else
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -12867,7 +12867,7 @@ aCol
 else
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -12881,7 +12881,7 @@ default
 :
 done
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -13742,7 +13742,7 @@ aNumberOfColumns
 NS_ENSURE_TRUE
 (
 aTable
-PR_FALSE
+false
 )
 ;
 PRInt32
@@ -13814,7 +13814,7 @@ isSelected
 NS_ENSURE_SUCCESS
 (
 res
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -13826,15 +13826,15 @@ col
 0
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
 (
 isSelected
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -13855,7 +13855,7 @@ AllCellsInRowSelected
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -13876,7 +13876,7 @@ aNumberOfRows
 NS_ENSURE_TRUE
 (
 aTable
-PR_FALSE
+false
 )
 ;
 PRInt32
@@ -13948,7 +13948,7 @@ isSelected
 NS_ENSURE_SUCCESS
 (
 res
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -13960,20 +13960,20 @@ row
 0
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
 (
 isSelected
-PR_FALSE
+false
 )
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -14010,7 +14010,7 @@ cellChild
 NS_ENSURE_SUCCESS
 (
 res
-PR_FALSE
+false
 )
 ;
 if
@@ -14040,7 +14040,7 @@ nextChild
 NS_ENSURE_SUCCESS
 (
 res
-PR_FALSE
+false
 )
 ;
 if
@@ -14073,14 +14073,14 @@ IsEmptyNode
 cellChild
 &
 isEmpty
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
 (
 res
-PR_FALSE
+false
 )
 ;
 }
@@ -14090,6 +14090,6 @@ isEmpty
 }
 }
 return
-PR_FALSE
+false
 ;
 }

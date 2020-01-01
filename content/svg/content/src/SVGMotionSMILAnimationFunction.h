@@ -84,7 +84,7 @@ mIsPathStale
 =
 mHasChanged
 =
-PR_TRUE
+true
 ;
 }
 protected

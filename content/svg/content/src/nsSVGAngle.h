@@ -82,7 +82,7 @@ aAttrEnum
 ;
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -489,7 +489,7 @@ SetBaseValueString
 (
 aValue
 mSVGElement
-PR_TRUE
+true
 )
 ;
 }

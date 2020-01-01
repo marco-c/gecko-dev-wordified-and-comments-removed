@@ -467,14 +467,14 @@ DEBUG
 *
 aResult
 =
-PR_TRUE
+true
 ;
 #
 else
 *
 aResult
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -1867,7 +1867,7 @@ LPWSTR
 msgCopy
 NULL
 NULL
-PR_FALSE
+false
 DETACHED_PROCESS
 |
 NORMAL_PRIORITY_CLASS
@@ -2280,7 +2280,7 @@ NS_SetHasLoadedNewDLLs
 {
 sXPCOMHasLoadedNewDLLs
 =
-PR_TRUE
+true
 ;
 }
 #

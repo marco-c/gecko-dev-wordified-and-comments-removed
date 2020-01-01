@@ -1628,7 +1628,7 @@ platform
 ;
 gInitialized
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -1725,7 +1725,7 @@ AddObserver
 (
 observer
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 }
@@ -1779,7 +1779,7 @@ return
 ;
 gInitialized
 =
-PR_FALSE
+false
 ;
 nsLayoutStatics
 :

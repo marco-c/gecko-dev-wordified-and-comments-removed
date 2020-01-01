@@ -318,11 +318,11 @@ fp
 {
 mDone
 =
-PR_FALSE
+false
 ;
 mError
 =
-PR_FALSE
+false
 ;
 mFile
 =
@@ -533,7 +533,7 @@ status
 {
 mDone
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -545,7 +545,7 @@ status
 {
 mError
 =
-PR_TRUE
+true
 ;
 }
 return

@@ -97,7 +97,7 @@ ui
 caretBlinkTime
 "
 eIntID_CaretBlinkTime
-PR_FALSE
+false
 0
 }
 {
@@ -107,7 +107,7 @@ ui
 caretWidth
 "
 eIntID_CaretWidth
-PR_FALSE
+false
 0
 }
 {
@@ -117,7 +117,7 @@ ui
 caretVisibleWithSelection
 "
 eIntID_ShowCaretDuringSelection
-PR_FALSE
+false
 0
 }
 {
@@ -127,7 +127,7 @@ ui
 submenuDelay
 "
 eIntID_SubmenuDelay
-PR_FALSE
+false
 0
 }
 {
@@ -137,7 +137,7 @@ ui
 dragThresholdX
 "
 eIntID_DragThresholdX
-PR_FALSE
+false
 0
 }
 {
@@ -147,7 +147,7 @@ ui
 dragThresholdY
 "
 eIntID_DragThresholdY
-PR_FALSE
+false
 0
 }
 {
@@ -157,7 +157,7 @@ ui
 useAccessibilityTheme
 "
 eIntID_UseAccessibilityTheme
-PR_FALSE
+false
 0
 }
 {
@@ -167,7 +167,7 @@ ui
 scrollbarsCanOverlapContent
 "
 eIntID_ScrollbarsCanOverlapContent
-PR_FALSE
+false
 0
 }
 {
@@ -177,7 +177,7 @@ ui
 menusCanOverlapOSBar
 "
 eIntID_MenusCanOverlapOSBar
-PR_FALSE
+false
 0
 }
 {
@@ -187,7 +187,7 @@ ui
 skipNavigatingDisabledMenuItem
 "
 eIntID_SkipNavigatingDisabledMenuItem
-PR_FALSE
+false
 0
 }
 {
@@ -197,7 +197,7 @@ ui
 treeOpenDelay
 "
 eIntID_TreeOpenDelay
-PR_FALSE
+false
 0
 }
 {
@@ -207,7 +207,7 @@ ui
 treeCloseDelay
 "
 eIntID_TreeCloseDelay
-PR_FALSE
+false
 0
 }
 {
@@ -217,7 +217,7 @@ ui
 treeLazyScrollDelay
 "
 eIntID_TreeLazyScrollDelay
-PR_FALSE
+false
 0
 }
 {
@@ -227,7 +227,7 @@ ui
 treeScrollDelay
 "
 eIntID_TreeScrollDelay
-PR_FALSE
+false
 0
 }
 {
@@ -237,7 +237,7 @@ ui
 treeScrollLinesMax
 "
 eIntID_TreeScrollLinesMax
-PR_FALSE
+false
 0
 }
 {
@@ -247,7 +247,7 @@ accessibility
 tabfocus
 "
 eIntID_TabFocusModel
-PR_FALSE
+false
 0
 }
 {
@@ -257,7 +257,7 @@ ui
 alertNotificationOrigin
 "
 eIntID_AlertNotificationOrigin
-PR_FALSE
+false
 0
 }
 {
@@ -267,7 +267,7 @@ ui
 scrollToClick
 "
 eIntID_ScrollToClick
-PR_FALSE
+false
 0
 }
 {
@@ -277,7 +277,7 @@ ui
 IMERawInputUnderlineStyle
 "
 eIntID_IMERawInputUnderlineStyle
-PR_FALSE
+false
 0
 }
 {
@@ -287,7 +287,7 @@ ui
 IMESelectedRawTextUnderlineStyle
 "
 eIntID_IMESelectedRawTextUnderlineStyle
-PR_FALSE
+false
 0
 }
 {
@@ -297,7 +297,7 @@ ui
 IMEConvertedTextUnderlineStyle
 "
 eIntID_IMEConvertedTextUnderlineStyle
-PR_FALSE
+false
 0
 }
 {
@@ -307,7 +307,7 @@ ui
 IMESelectedConvertedTextUnderlineStyle
 "
 eIntID_IMESelectedConvertedTextUnderline
-PR_FALSE
+false
 0
 }
 {
@@ -317,7 +317,7 @@ ui
 SpellCheckerUnderlineStyle
 "
 eIntID_SpellCheckerUnderlineStyle
-PR_FALSE
+false
 0
 }
 }
@@ -338,7 +338,7 @@ ui
 IMEUnderlineRelativeSize
 "
 eFloatID_IMEUnderlineRelativeSize
-PR_FALSE
+false
 0
 }
 {
@@ -348,7 +348,7 @@ ui
 SpellCheckerUnderlineRelativeSize
 "
 eFloatID_SpellCheckerUnderlineRelativeSize
-PR_FALSE
+false
 0
 }
 {
@@ -358,7 +358,7 @@ ui
 caretAspectRatio
 "
 eFloatID_CaretAspectRatio
-PR_FALSE
+false
 0
 }
 }
@@ -1043,7 +1043,7 @@ return
 }
 sShutdown
 =
-PR_TRUE
+true
 ;
 delete
 sInstance
@@ -1127,7 +1127,7 @@ data
 >
 isSet
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -1234,7 +1234,7 @@ data
 >
 isSet
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -1490,7 +1490,7 @@ aPref
 >
 isSet
 =
-PR_TRUE
+true
 ;
 aPref
 -
@@ -1544,7 +1544,7 @@ aPref
 >
 isSet
 =
-PR_TRUE
+true
 ;
 aPref
 -
@@ -1860,7 +1860,7 @@ Init
 {
 sInitialized
 =
-PR_TRUE
+true
 ;
 Preferences
 :
@@ -2109,11 +2109,11 @@ aColor
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult

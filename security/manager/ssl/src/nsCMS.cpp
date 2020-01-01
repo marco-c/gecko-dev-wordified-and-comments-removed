@@ -1075,7 +1075,7 @@ CERT_GetDefaultCertDB
 (
 )
 certUsageEmailRecipient
-PR_TRUE
+true
 )
 !
 =
@@ -1146,7 +1146,7 @@ si
 -
 >
 cert
-PR_TRUE
+true
 certificateUsageEmailSigner
 si
 -
@@ -2040,7 +2040,7 @@ mPoolp
 PORT_FreeArena
 (
 mPoolp
-PR_FALSE
+false
 )
 ;
 }
@@ -2056,7 +2056,7 @@ if
 mPoolp
 )
 return
-PR_FALSE
+false
 ;
 mSize
 =
@@ -2068,7 +2068,7 @@ if
 mSize
 )
 return
-PR_FALSE
+false
 ;
 mPoolp
 =
@@ -2083,7 +2083,7 @@ if
 mPoolp
 )
 return
-PR_FALSE
+false
 ;
 mCerts
 =
@@ -2114,7 +2114,7 @@ if
 mCerts
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -2143,7 +2143,7 @@ nsnull
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2664,7 +2664,7 @@ NSS_CMSContentInfo_SetContent_Data
 m_cmsMsg
 cinfo
 nsnull
-PR_FALSE
+false
 )
 !
 =
@@ -3142,7 +3142,7 @@ NSS_CMSContentInfo_SetContent_Data
 m_cmsMsg
 cinfo
 nsnull
-PR_TRUE
+true
 )
 !
 =

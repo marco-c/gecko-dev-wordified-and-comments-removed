@@ -382,15 +382,15 @@ certdb
 &
 foundDER
 nsnull
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 SECITEM_FreeItem
 (
 &
 foundDER
-PR_FALSE
+false
 )
 ;
 if
@@ -424,7 +424,7 @@ status
 >
 mHaveCertErrorBits
 =
-PR_TRUE
+true
 ;
 status
 -

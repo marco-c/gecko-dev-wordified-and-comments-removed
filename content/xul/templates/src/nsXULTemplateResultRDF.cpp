@@ -112,7 +112,7 @@ aIsContainer
 *
 aIsContainer
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -160,7 +160,7 @@ aIsEmpty
 *
 aIsEmpty
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -208,7 +208,7 @@ aMayProcessChildren
 *
 aMayProcessChildren
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -656,7 +656,7 @@ mBindingValues
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -724,10 +724,10 @@ aMemoryElement
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }

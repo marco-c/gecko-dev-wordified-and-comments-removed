@@ -166,7 +166,7 @@ nsnull
 )
 mBufferDisabled
 (
-PR_FALSE
+false
 )
 mGetBufferCount
 (
@@ -1876,7 +1876,7 @@ mCursor
 ;
 mBufferDisabled
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1904,7 +1904,7 @@ EnableBuffering
 ;
 mBufferDisabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2004,7 +2004,7 @@ inputStream
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2032,10 +2032,10 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3150,7 +3150,7 @@ rv
 ;
 mBufferDisabled
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3178,7 +3178,7 @@ EnableBuffering
 ;
 mBufferDisabled
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

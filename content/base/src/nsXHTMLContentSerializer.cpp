@@ -228,7 +228,7 @@ nsXHTMLContentSerializer
 :
 mIsHTMLSerializer
 (
-PR_FALSE
+false
 )
 {
 }
@@ -332,7 +332,7 @@ aIsCopying
 ;
 mIsFirstChildOfOL
 =
-PR_FALSE
+false
 ;
 mInBody
 =
@@ -353,9 +353,9 @@ nsIDocumentEncoder
 OutputBodyOnly
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 if
 (
@@ -479,7 +479,7 @@ kLongLineLen
 )
 rv
 =
-PR_TRUE
+true
 ;
 start
 =
@@ -529,7 +529,7 @@ aText
 aStartOffset
 aEndOffset
 data
-PR_TRUE
+true
 )
 ;
 if
@@ -603,7 +603,7 @@ lastNewlineOffset
 {
 mDoWrap
 =
-PR_TRUE
+true
 ;
 AppendToStringWrapped
 (
@@ -613,7 +613,7 @@ aStr
 ;
 mDoWrap
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1125,7 +1125,7 @@ olState
 state
 (
 startAttrVal
-PR_TRUE
+true
 )
 ;
 mOLStateStack
@@ -1191,7 +1191,7 @@ EmptyString
 xmlnsStr
 aTagNamespaceURI
 aStr
-PR_TRUE
+true
 )
 ;
 }
@@ -1203,7 +1203,7 @@ xmlnsStr
 aTagPrefix
 aTagNamespaceURI
 aStr
-PR_TRUE
+true
 )
 ;
 }
@@ -1396,7 +1396,7 @@ ConfirmPrefix
 prefixStr
 uriStr
 aOriginalElement
-PR_TRUE
+true
 )
 ;
 }
@@ -1776,7 +1776,7 @@ xmlnsStr
 prefixStr
 uriStr
 aStr
-PR_TRUE
+true
 )
 ;
 PushNameSpaceDecl
@@ -2066,7 +2066,7 @@ type
 {
 hasMeta
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2381,7 +2381,7 @@ aStr
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2402,7 +2402,7 @@ mInBody
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2589,13 +2589,13 @@ isContainer
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2706,7 +2706,7 @@ input
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2770,7 +2770,7 @@ ul
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2798,7 +2798,7 @@ object
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2826,7 +2826,7 @@ script
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2899,7 +2899,7 @@ textarea
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2936,7 +2936,7 @@ input
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2964,7 +2964,7 @@ select
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2992,7 +2992,7 @@ frame
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3020,7 +3020,7 @@ hr
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3057,7 +3057,7 @@ th
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3094,7 +3094,7 @@ textarea
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3122,7 +3122,7 @@ option
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -3171,13 +3171,13 @@ controls
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3280,7 +3280,7 @@ html
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -3350,7 +3350,7 @@ kNameSpaceID_XHTML
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3543,11 +3543,11 @@ style
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3572,7 +3572,7 @@ kNameSpaceID_XHTML
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3677,11 +3677,11 @@ tbody
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3706,7 +3706,7 @@ kNameSpaceID_XHTML
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3899,7 +3899,7 @@ div
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -3944,7 +3944,7 @@ res
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -4166,7 +4166,7 @@ olState
 state
 (
 0
-PR_FALSE
+false
 )
 ;
 if
@@ -4196,7 +4196,7 @@ state
 .
 isFirstListItem
 =
-PR_FALSE
+false
 ;
 mOLStateStack
 [
@@ -4302,7 +4302,7 @@ else
 {
 found
 =
-PR_TRUE
+true
 ;
 PRInt32
 rv
@@ -4371,7 +4371,7 @@ value
 )
 valueStr
 aStr
-PR_FALSE
+false
 )
 ;
 }
@@ -4422,7 +4422,7 @@ value
 )
 valueStr
 aStr
-PR_FALSE
+false
 )
 ;
 }
@@ -4483,7 +4483,7 @@ parentName
 ;
 else
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4528,16 +4528,16 @@ state
 isFirstListItem
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 else
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -4591,7 +4591,7 @@ eTEXT
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4603,10 +4603,10 @@ TextLength
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

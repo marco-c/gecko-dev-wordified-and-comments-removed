@@ -374,7 +374,7 @@ NS_OK
 )
 mDispatched
 (
-PR_FALSE
+false
 )
 {
 NS_ASSERTION
@@ -434,7 +434,7 @@ NS_OK
 )
 mDispatched
 (
-PR_FALSE
+false
 )
 {
 NS_ASSERTION
@@ -1183,7 +1183,7 @@ IsInvalidated
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1212,7 +1212,7 @@ mTimeoutDuration
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1237,7 +1237,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1367,7 +1367,7 @@ OnNewRequest
 }
 mDispatched
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1688,7 +1688,7 @@ NS_LITERAL_STRING
 (
 ERROR_EVT_STR
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -2232,7 +2232,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

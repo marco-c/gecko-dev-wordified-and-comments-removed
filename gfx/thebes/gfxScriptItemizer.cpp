@@ -668,7 +668,7 @@ textLength
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 SYNC_FIXUP
@@ -970,6 +970,6 @@ aRunScript
 scriptCode
 ;
 return
-PR_TRUE
+true
 ;
 }

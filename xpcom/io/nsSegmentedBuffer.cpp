@@ -434,7 +434,7 @@ mLastSegmentIndex
 last
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -449,7 +449,7 @@ mFirstSegmentIndex
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -595,13 +595,13 @@ last
 newSegment
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }

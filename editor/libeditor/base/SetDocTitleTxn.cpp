@@ -59,7 +59,7 @@ EditTxn
 )
 mIsTransient
 (
-PR_FALSE
+false
 )
 {
 }
@@ -247,7 +247,7 @@ res
 ;
 mIsTransient
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -379,7 +379,7 @@ res
 }
 mIsTransient
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -504,7 +504,7 @@ titleElement
 ;
 newTitleNode
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <

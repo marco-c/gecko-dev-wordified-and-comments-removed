@@ -559,7 +559,7 @@ locale_string
 {
 return
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -706,7 +706,7 @@ language
 ;
 return
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -724,7 +724,7 @@ src
 {
 return
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -815,7 +815,7 @@ language
 ;
 return
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -947,7 +947,7 @@ country
 ;
 return
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -966,7 +966,7 @@ src
 {
 return
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1052,7 +1052,7 @@ country
 ;
 return
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1180,7 +1180,7 @@ extra
 ;
 return
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1199,7 +1199,7 @@ src
 {
 return
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1353,7 +1353,7 @@ modifier
 ;
 return
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1372,7 +1372,7 @@ src
 {
 return
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1422,7 +1422,7 @@ extra
 ;
 return
 (
-PR_FALSE
+false
 )
 ;
 }

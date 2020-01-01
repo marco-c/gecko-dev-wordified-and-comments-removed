@@ -172,7 +172,7 @@ mozPersonalDictionary
 :
 mDirty
 (
-PR_FALSE
+false
 )
 {
 }
@@ -264,7 +264,7 @@ do
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -545,7 +545,7 @@ nRead
 )
 done
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -621,7 +621,7 @@ nRead
 )
 done
 =
-PR_TRUE
+true
 ;
 }
 mDictionaryTable
@@ -645,7 +645,7 @@ done
 ;
 mDirty
 =
-PR_FALSE
+false
 ;
 return
 res
@@ -1065,7 +1065,7 @@ aWord
 ;
 mDirty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1096,7 +1096,7 @@ aWord
 ;
 mDirty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

@@ -801,7 +801,7 @@ root
 >
 setSerialize
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -1465,7 +1465,7 @@ getter_AddRefs
 lName
 )
 nspace
-PR_TRUE
+true
 )
 ;
 if

@@ -473,15 +473,15 @@ nsNotifyAddrListener
 :
 mLinkUp
 (
-PR_TRUE
+true
 )
 mStatusKnown
 (
-PR_FALSE
+false
 )
 mCheckAttempted
 (
-PR_FALSE
+false
 )
 mShutdownEvent
 (
@@ -552,7 +552,7 @@ mStatusKnown
 {
 mCheckAttempted
 =
-PR_TRUE
+true
 ;
 CheckLinkStatus
 (
@@ -744,7 +744,7 @@ else
 {
 shuttingDown
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -752,7 +752,7 @@ else
 {
 shuttingDown
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -875,7 +875,7 @@ shutdown
 -
 threads
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1340,7 +1340,7 @@ dwAddr
 )
 linkUp
 =
-PR_TRUE
+true
 ;
 }
 mLinkUp
@@ -1515,7 +1515,7 @@ String
 {
 linkUp
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1572,7 +1572,7 @@ String
 {
 linkUp
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1585,7 +1585,7 @@ linkUp
 ;
 mStatusKnown
 =
-PR_TRUE
+true
 ;
 free
 (
@@ -2307,7 +2307,7 @@ ERROR_SUCCESS
 )
 mLinkUp
 =
-PR_TRUE
+true
 ;
 if
 (

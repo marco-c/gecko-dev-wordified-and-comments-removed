@@ -617,7 +617,7 @@ CERT_VerifyCertificateNow
 (
 defaultcertdb
 mCert
-PR_TRUE
+true
 certificateUsageSSLClient
 |
 certificateUsageSSLServer

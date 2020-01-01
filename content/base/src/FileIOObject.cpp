@@ -182,11 +182,11 @@ FileIOObject
 :
 mProgressEventWasDelayed
 (
-PR_FALSE
+false
 )
 mTimerIsActive
 (
-PR_FALSE
+false
 )
 mReadyState
 (
@@ -251,11 +251,11 @@ mProgressNotifier
 {
 mProgressEventWasDelayed
 =
-PR_FALSE
+false
 ;
 mTimerIsActive
 =
-PR_TRUE
+true
 ;
 mProgressNotifier
 -
@@ -289,11 +289,11 @@ ClearProgressEventTimer
 {
 mProgressEventWasDelayed
 =
-PR_FALSE
+false
 ;
 mTimerIsActive
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -458,7 +458,7 @@ privevent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -494,7 +494,7 @@ kUnknownSize
 {
 known
 =
-PR_TRUE
+true
 ;
 size
 =
@@ -505,7 +505,7 @@ else
 {
 known
 =
-PR_FALSE
+false
 ;
 size
 =
@@ -520,8 +520,8 @@ progress
 InitProgressEvent
 (
 aType
-PR_FALSE
-PR_FALSE
+false
+false
 known
 mTransferred
 size
@@ -559,7 +559,7 @@ rv
 ;
 mTimerIsActive
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -686,7 +686,7 @@ mTimerIsActive
 {
 mProgressEventWasDelayed
 =
-PR_TRUE
+true
 ;
 }
 else

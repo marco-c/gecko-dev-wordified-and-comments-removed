@@ -173,19 +173,19 @@ nsMediaQuery
 :
 mNegated
 (
-PR_FALSE
+false
 )
 mHasOnly
 (
-PR_FALSE
+false
 )
 mTypeOmitted
 (
-PR_FALSE
+false
 )
 mHadUnknownExpression
 (
-PR_FALSE
+false
 )
 {
 }
@@ -246,7 +246,7 @@ SetNegated
 {
 mNegated
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -256,7 +256,7 @@ SetHasOnly
 {
 mHasOnly
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -266,7 +266,7 @@ SetTypeOmitted
 {
 mTypeOmitted
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -276,7 +276,7 @@ SetHadUnknownExpression
 {
 mHadUnknownExpression
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -513,7 +513,7 @@ Clear
 ;
 mIsEmpty
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -523,7 +523,7 @@ SetNonEmpty
 {
 mIsEmpty
 =
-PR_FALSE
+false
 ;
 }
 protected

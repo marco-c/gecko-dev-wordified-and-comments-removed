@@ -419,7 +419,7 @@ AllocNewline
 ;
 gInitialized
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -491,7 +491,7 @@ FreeNewline
 ;
 gInitialized
 =
-PR_FALSE
+false
 ;
 }
 }

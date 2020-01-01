@@ -479,7 +479,7 @@ JoinNodesImpl
 mRightNode
 mLeftNode
 mParent
-PR_FALSE
+false
 )
 ;
 #
@@ -533,7 +533,7 @@ else
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 2
 nodes

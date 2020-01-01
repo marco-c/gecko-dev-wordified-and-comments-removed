@@ -76,7 +76,7 @@ mThickness
 )
 mInvert
 (
-PR_FALSE
+false
 )
 {
 }
@@ -586,7 +586,7 @@ isLastFrame
 ;
 isFirstFrame
 =
-PR_FALSE
+false
 ;
 }
 frame

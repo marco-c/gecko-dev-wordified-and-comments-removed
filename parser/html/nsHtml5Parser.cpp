@@ -720,7 +720,7 @@ BlockParser
 {
 mBlocked
 =
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP_
@@ -736,7 +736,7 @@ UnblockParser
 {
 mBlocked
 =
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -1105,7 +1105,7 @@ close
 ;
 mDocumentClosed
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1208,7 +1208,7 @@ mLastWasCR
 ;
 mLastWasCR
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1617,7 +1617,7 @@ mDocWriteSpeculatorActive
 {
 mDocWriteSpeculatorActive
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1696,7 +1696,7 @@ mAtomTable
 ;
 mDocWriteSpeculativeLastWasCR
 =
-PR_FALSE
+false
 ;
 }
 while
@@ -1847,7 +1847,7 @@ mExecutor
 >
 DidBuildModel
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2161,7 +2161,7 @@ lastWasCR
 ;
 lastWasCR
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2363,7 +2363,7 @@ Reset
 ;
 mLastWasCR
 =
-PR_FALSE
+false
 ;
 UnblockParser
 (
@@ -2371,7 +2371,7 @@ UnblockParser
 ;
 mDocumentClosed
 =
-PR_FALSE
+false
 ;
 mStreamParser
 =
@@ -2432,7 +2432,7 @@ CanInterrupt
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2602,7 +2602,7 @@ cycle
 ;
 mDocWriteSpeculatorActive
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -2760,7 +2760,7 @@ Flush
 ;
 mReturnToStreamParserPermitted
 =
-PR_FALSE
+false
 ;
 mStreamParser
 -
@@ -2847,7 +2847,7 @@ mLastWasCR
 ;
 mLastWasCR
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3054,11 +3054,11 @@ mAtomTable
 ;
 mLastWasCR
 =
-PR_FALSE
+false
 ;
 mReturnToStreamParserPermitted
 =
-PR_TRUE
+true
 ;
 }
 void

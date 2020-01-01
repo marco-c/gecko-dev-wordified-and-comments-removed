@@ -503,27 +503,27 @@ nsIOService
 :
 mOffline
 (
-PR_TRUE
+true
 )
 mOfflineForProfileChange
 (
-PR_FALSE
+false
 )
 mManageOfflineStatus
 (
-PR_TRUE
+true
 )
 mSettingOffline
 (
-PR_FALSE
+false
 )
 mSetOfflineValue
 (
-PR_FALSE
+false
 )
 mShutdown
 (
-PR_FALSE
+false
 )
 mChannelEventSinks
 (
@@ -535,7 +535,7 @@ NS_CONTENT_SNIFFER_CATEGORY
 )
 mAutoDialEnabled
 (
-PR_FALSE
+false
 )
 {
 }
@@ -692,7 +692,7 @@ AddObserver
 (
 PORT_PREF_PREFIX
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -702,7 +702,7 @@ AddObserver
 (
 AUTODIAL_PREF
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -712,7 +712,7 @@ AddObserver
 (
 MANAGE_OFFLINE_STATUS_PREF
 this
-PR_TRUE
+true
 )
 ;
 PrefsChanged
@@ -749,7 +749,7 @@ AddObserver
 (
 this
 kProfileChangeNetTeardownTopic
-PR_TRUE
+true
 )
 ;
 observerService
@@ -759,7 +759,7 @@ AddObserver
 (
 this
 kProfileChangeNetRestoreTopic
-PR_TRUE
+true
 )
 ;
 observerService
@@ -769,7 +769,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_TRUE
+true
 )
 ;
 observerService
@@ -779,7 +779,7 @@ AddObserver
 (
 this
 NS_NETWORK_LINK_TOPIC
-PR_TRUE
+true
 )
 ;
 }
@@ -919,7 +919,7 @@ mNetworkLinkService
 )
 mManageOfflineStatus
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -932,7 +932,7 @@ TrackNetworkLinkStatusForOffline
 else
 SetOffline
 (
-PR_FALSE
+false
 )
 ;
 NS_TIME_FUNCTION_MARK
@@ -1657,7 +1657,7 @@ rv
 {
 externalProtocol
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2687,7 +2687,7 @@ get
 }
 gHasWarnedUploadChannel2
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2773,7 +2773,7 @@ mNetworkLinkService
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2802,7 +2802,7 @@ rv
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -2865,7 +2865,7 @@ NS_OK
 }
 mSettingOffline
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2981,7 +2981,7 @@ NS_IOSERVICE_OFFLINE
 ;
 mOffline
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3138,7 +3138,7 @@ InitializeSocketTransportService
 ;
 mOffline
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3183,7 +3183,7 @@ get
 }
 mSettingOffline
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3223,7 +3223,7 @@ port
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3268,7 +3268,7 @@ i
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3322,7 +3322,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3379,7 +3379,7 @@ PORT_PREF
 banned
 "
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -3415,7 +3415,7 @@ banned
 override
 "
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -3989,12 +3989,12 @@ mOffline
 {
 SetOffline
 (
-PR_TRUE
+true
 )
 ;
 mOfflineForProfileChange
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4016,7 +4016,7 @@ mOfflineForProfileChange
 {
 mOfflineForProfileChange
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4034,7 +4034,7 @@ TrackNetworkLinkStatusForOffline
 {
 SetOffline
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4053,11 +4053,11 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 {
 mShutdown
 =
-PR_TRUE
+true
 ;
 SetOffline
 (
-PR_TRUE
+true
 )
 ;
 mProxyService
@@ -4152,7 +4152,7 @@ uri
 *
 result
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 scheme
@@ -4596,7 +4596,7 @@ IsAutodialEnabled
 return
 SetOffline
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -4604,7 +4604,7 @@ else
 return
 SetOffline
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -4844,7 +4844,7 @@ aCharsetEnd
 *
 aHadCharset
 =
-PR_FALSE
+false
 ;
 }
 return

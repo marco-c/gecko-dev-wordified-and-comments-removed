@@ -798,31 +798,31 @@ mCurrentThingsToPersist
 )
 mFirstAndOnlyUse
 (
-PR_TRUE
+true
 )
 mCancel
 (
-PR_FALSE
+false
 )
 mJustStartedLoading
 (
-PR_TRUE
+true
 )
 mCompleted
 (
-PR_FALSE
+false
 )
 mStartSaving
 (
-PR_FALSE
+false
 )
 mReplaceExisting
 (
-PR_TRUE
+true
 )
 mSerializingOutput
 (
-PR_FALSE
+false
 )
 mPersistFlags
 (
@@ -1081,9 +1081,9 @@ mPersistFlags
 PERSIST_FLAGS_REPLACE_EXISTING_FILES
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 mSerializingOutput
 =
@@ -1093,9 +1093,9 @@ mPersistFlags
 PERSIST_FLAGS_SERIALIZE_OUTPUT
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1277,7 +1277,7 @@ NS_ERROR_FAILURE
 ;
 mFirstAndOnlyUse
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1320,7 +1320,7 @@ aReferrer
 aPostData
 aExtraHeaders
 fileAsURI
-PR_FALSE
+false
 )
 ;
 return
@@ -1356,7 +1356,7 @@ NS_ERROR_FAILURE
 ;
 mFirstAndOnlyUse
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1414,7 +1414,7 @@ SaveChannelInternal
 (
 aChannel
 fileAsURI
-PR_FALSE
+false
 )
 ;
 return
@@ -1461,7 +1461,7 @@ NS_ERROR_FAILURE
 ;
 mFirstAndOnlyUse
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1852,7 +1852,7 @@ aReason
 {
 mCancel
 =
-PR_TRUE
+true
 ;
 EndDownload
 (
@@ -2264,7 +2264,7 @@ mSerializingOutput
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2284,7 +2284,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -2378,7 +2378,7 @@ NS_OK
 }
 mJustStartedLoading
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2713,7 +2713,7 @@ status
 )
 SendErrorStatusChange
 (
-PR_TRUE
+true
 status
 request
 data
@@ -2959,7 +2959,7 @@ mPersistResult
 {
 completed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3196,11 +3196,11 @@ rv
 {
 readError
 =
-PR_FALSE
+false
 ;
 cancel
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3224,7 +3224,7 @@ bytesRemaining
 {
 readError
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -3259,7 +3259,7 @@ rv
 {
 readError
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -3335,7 +3335,7 @@ NS_ERROR_FAILURE
 ;
 cancel
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3343,7 +3343,7 @@ else
 {
 cancel
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3352,7 +3352,7 @@ else
 {
 cancel
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3505,11 +3505,11 @@ rv
 {
 readError
 =
-PR_FALSE
+false
 ;
 cancel
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4705,7 +4705,7 @@ encodedChannel
 >
 SetApplyConversion
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4737,7 +4737,7 @@ httpChannelInternal
 >
 SetForceAllowThirdPartyCookie
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4921,7 +4921,7 @@ aExtraHeaders
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 crlf
@@ -4936,7 +4936,7 @@ r
 \
 n
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -5039,7 +5039,7 @@ SetRequestHeader
 (
 headerName
 headerValue
-PR_TRUE
+true
 )
 ;
 if
@@ -5236,7 +5236,7 @@ PERSIST_FLAGS_FAIL_ON_BROKEN_LINKS
 {
 SendErrorStatusChange
 (
-PR_TRUE
+true
 rv
 aChannel
 aFile
@@ -5863,7 +5863,7 @@ mCurrentThingsToPersist
 ;
 mCurrentDataPathIsRelative
 =
-PR_FALSE
+false
 ;
 mCurrentDataPath
 =
@@ -5947,7 +5947,7 @@ relativePathToData
 ;
 mCurrentDataPathIsRelative
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6050,7 +6050,7 @@ relativePath
 {
 mCurrentDataPathIsRelative
 =
-PR_TRUE
+true
 ;
 mCurrentRelativePathToData
 =
@@ -6151,7 +6151,7 @@ nsIDOMNodeFilter
 :
 SHOW_PROCESSING_INSTRUCTION
 nsnull
-PR_TRUE
+true
 getter_AddRefs
 (
 walker
@@ -6278,12 +6278,12 @@ rv
 )
 haveDir
 =
-PR_TRUE
+true
 ;
 else
 SendErrorStatusChange
 (
-PR_FALSE
+false
 rv
 nsnull
 aFile
@@ -6345,7 +6345,7 @@ cleanupData
 >
 mIsDirectory
 =
-PR_TRUE
+true
 ;
 mCleanupList
 .
@@ -6512,7 +6512,7 @@ NS_OK
 ;
 mStartSaving
 =
-PR_TRUE
+true
 ;
 PRUint32
 i
@@ -7015,7 +7015,7 @@ file
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -7243,7 +7243,7 @@ childIsSymlink
 {
 isEmptyDirectory
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -7300,7 +7300,7 @@ file
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -7562,7 +7562,7 @@ ext
 ;
 nameHasChanged
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7747,7 +7747,7 @@ ext
 ;
 nameHasChanged
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -8792,7 +8792,7 @@ cleanupData
 >
 mIsDirectory
 =
-PR_FALSE
+false
 ;
 mCleanupList
 .
@@ -8925,7 +8925,7 @@ CleanupLocalFiles
 }
 mCompleted
 =
-PR_TRUE
+true
 ;
 Cleanup
 (
@@ -9259,11 +9259,11 @@ nsISupportsKey
 aKey
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -9426,7 +9426,7 @@ mSelfProgressMax
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9498,7 +9498,7 @@ mSelfProgressMax
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9562,7 +9562,7 @@ count
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9608,7 +9608,7 @@ mSaved
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsWebBrowserPersist
@@ -9678,7 +9678,7 @@ get
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -9706,7 +9706,7 @@ fileAsURI
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 rv
@@ -9726,7 +9726,7 @@ mFilename
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 rv
@@ -9742,13 +9742,13 @@ nsnull
 nsnull
 nsnull
 fileAsURI
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -9771,7 +9771,7 @@ data
 >
 mSaved
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -9781,7 +9781,7 @@ data
 >
 mNeedsFixup
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -9792,10 +9792,10 @@ pthis
 mSerializingOutput
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9877,7 +9877,7 @@ delete
 data
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9911,7 +9911,7 @@ delete
 data
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9993,7 +9993,7 @@ delete
 data
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -10222,7 +10222,7 @@ iter
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 break
@@ -10230,7 +10230,7 @@ break
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -11188,7 +11188,7 @@ aNode
 "
 archive
 "
-PR_TRUE
+true
 &
 archiveURIData
 )
@@ -11421,7 +11421,7 @@ aNode
 "
 src
 "
-PR_FALSE
+false
 &
 data
 )
@@ -11436,7 +11436,7 @@ data
 >
 mIsSubFrame
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -11508,7 +11508,7 @@ aNode
 "
 src
 "
-PR_FALSE
+false
 &
 data
 )
@@ -11523,7 +11523,7 @@ data
 >
 mIsSubFrame
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -11624,7 +11624,7 @@ aNodeIn
 >
 CloneNode
 (
-PR_FALSE
+false
 aNodeOut
 )
 ;
@@ -11732,7 +11732,7 @@ nsnull
 *
 aSerializeCloneKids
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -12333,7 +12333,7 @@ imgCon
 >
 SetLoadingEnabled
 (
-PR_FALSE
+false
 )
 ;
 FixupAnchor
@@ -12518,7 +12518,7 @@ imgCon
 >
 SetLoadingEnabled
 (
-PR_FALSE
+false
 )
 ;
 FixupNodeAttributeNS
@@ -13138,7 +13138,7 @@ imgCon
 >
 SetLoadingEnabled
 (
-PR_FALSE
+false
 )
 ;
 FixupNodeAttribute
@@ -13323,7 +13323,7 @@ aNodeOut
 *
 aSerializeCloneKids
 =
-PR_TRUE
+true
 ;
 nsAutoString
 valueStr
@@ -13554,7 +13554,7 @@ rv
 {
 doNotPersistURI
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -14554,12 +14554,12 @@ result
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -15172,7 +15172,7 @@ rv
 {
 SendErrorStatusChange
 (
-PR_FALSE
+false
 rv
 nsnull
 aFile
@@ -15553,7 +15553,7 @@ data
 >
 mNeedsPersisting
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -15611,7 +15611,7 @@ data
 >
 mNeedsFixup
 =
-PR_TRUE
+true
 ;
 data
 -
@@ -15625,14 +15625,14 @@ data
 >
 mSaved
 =
-PR_FALSE
+false
 ;
 data
 -
 >
 mIsSubFrame
 =
-PR_FALSE
+false
 ;
 data
 -
@@ -15803,7 +15803,7 @@ xhtml
 )
 )
 return
-PR_FALSE
+false
 ;
 aNode
 -
@@ -15846,12 +15846,12 @@ i
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -15871,7 +15871,7 @@ aParent
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -15983,7 +15983,7 @@ node
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -16037,7 +16037,7 @@ node
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -16569,7 +16569,7 @@ encChannel
 >
 SetApplyConversion
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr

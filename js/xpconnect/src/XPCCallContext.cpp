@@ -1428,7 +1428,7 @@ ent
 .
 mInUse
 =
-PR_TRUE
+true
 ;
 return
 new
@@ -1512,7 +1512,7 @@ ent
 .
 mInUse
 =
-PR_FALSE
+false
 ;
 ent
 .

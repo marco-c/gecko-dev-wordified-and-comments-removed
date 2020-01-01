@@ -73,7 +73,7 @@ commands
 ;
 mHaveReceivedCommands
 =
-PR_TRUE
+true
 ;
 mGfxContext
 .
@@ -121,7 +121,7 @@ commands
 ;
 mHaveReceivedCommands
 =
-PR_TRUE
+true
 ;
 float
 xVal
@@ -139,7 +139,7 @@ yVal
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mGfxContext
@@ -154,7 +154,7 @@ yVal
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -177,7 +177,7 @@ aSegmentDistance
 {
 mHaveReceivedCommands
 =
-PR_TRUE
+true
 ;
 float
 xVal
@@ -195,7 +195,7 @@ yVal
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 gfxPoint
@@ -235,7 +235,7 @@ yVal
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -258,7 +258,7 @@ aSegmentDistance
 {
 mHaveReceivedCommands
 =
-PR_TRUE
+true
 ;
 float
 xVal
@@ -276,7 +276,7 @@ yVal
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mGfxContext
@@ -305,7 +305,7 @@ yVal
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 already_AddRefed
@@ -394,7 +394,7 @@ nextToken
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -421,7 +421,7 @@ nextToken
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -441,7 +441,7 @@ hasMoreTokens
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 float
@@ -476,7 +476,7 @@ NS_ENSURE_FINITE2
 (
 xRes
 yRes
-PR_FALSE
+false
 )
 ;
 aXVal
@@ -488,7 +488,7 @@ aYVal
 yRes
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

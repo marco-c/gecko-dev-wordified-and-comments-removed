@@ -772,7 +772,7 @@ str
 *
 visitEntries
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1248,7 +1248,7 @@ entryCount
 *
 visitEntries
 =
-PR_TRUE
+true
 ;
 mBuffer
 .
@@ -2040,7 +2040,7 @@ bytesWritten
 *
 visitNext
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

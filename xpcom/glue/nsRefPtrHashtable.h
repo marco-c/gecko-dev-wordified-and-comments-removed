@@ -232,7 +232,7 @@ pRefPtr
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -245,7 +245,7 @@ pRefPtr
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 template
@@ -302,7 +302,7 @@ aFound
 *
 aFound
 =
-PR_TRUE
+true
 ;
 return
 ent
@@ -318,7 +318,7 @@ aFound
 *
 aFound
 =
-PR_FALSE
+false
 ;
 return
 nsnull
@@ -407,7 +407,7 @@ mLock
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -428,7 +428,7 @@ mLock
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #

@@ -89,7 +89,7 @@ if
 mFirstNode
 )
 return
-PR_FALSE
+false
 ;
 nsGenConNode
 *
@@ -113,7 +113,7 @@ aFrame
 {
 destroyed
 =
-PR_TRUE
+true
 ;
 node
 =
@@ -148,7 +148,7 @@ mFirstNode
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -187,7 +187,7 @@ aFrame
 {
 destroyed
 =
-PR_TRUE
+true
 ;
 nsGenConNode
 *

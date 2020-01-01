@@ -268,7 +268,7 @@ nsIFrame
 (
 this
 )
-PR_FALSE
+false
 )
 ;
 DestroyAbsoluteFrames
@@ -921,7 +921,7 @@ nsIFrame
 (
 this
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -1482,7 +1482,7 @@ nsGkAtoms
 :
 value
 aValue
-PR_TRUE
+true
 )
 ;
 }

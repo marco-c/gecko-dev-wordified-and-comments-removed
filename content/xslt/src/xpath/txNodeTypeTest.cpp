@@ -141,7 +141,7 @@ aNode
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 txNodeTest

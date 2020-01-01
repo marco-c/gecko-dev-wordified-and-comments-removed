@@ -650,7 +650,7 @@ continue
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 int
@@ -821,11 +821,11 @@ b
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_GFX_
@@ -856,7 +856,7 @@ transparent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 int
@@ -1072,7 +1072,7 @@ f
 {
 haveNonzero
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1209,7 +1209,7 @@ b
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_GFX_
@@ -1233,7 +1233,7 @@ if
 gColorTable
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 id
@@ -1286,11 +1286,11 @@ id
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #

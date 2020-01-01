@@ -108,11 +108,11 @@ mCurrent
 )
 mFull
 (
-PR_FALSE
+false
 )
 mListening
 (
-PR_FALSE
+false
 )
 mLock
 (
@@ -339,7 +339,7 @@ data
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -415,7 +415,7 @@ mCurrent
 ;
 mFull
 =
-PR_TRUE
+true
 ;
 }
 mListeners
@@ -471,7 +471,7 @@ NS_OK
 ;
 mListening
 =
-PR_TRUE
+true
 ;
 }
 for
@@ -511,7 +511,7 @@ mLock
 ;
 mListening
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -940,7 +940,7 @@ mCurrent
 ;
 mFull
 =
-PR_FALSE
+false
 ;
 for
 (

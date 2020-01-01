@@ -459,7 +459,7 @@ case
 :
 semicolonFound
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1222,7 +1222,7 @@ file
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 if
@@ -4101,7 +4101,7 @@ file
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 if
@@ -4609,7 +4609,7 @@ start_option_iter
 ;
 equalSignFound
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -4651,7 +4651,7 @@ case
 :
 equalSignFound
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4832,7 +4832,7 @@ get
 {
 match
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -4973,7 +4973,7 @@ aProtocolScheme
 *
 aHandlerExists
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -5079,7 +5079,7 @@ rv
 *
 aHandlerExists
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -6117,7 +6117,7 @@ rwsSvc
 )
 sUseRws
 =
-PR_FALSE
+false
 ;
 else
 {
@@ -6669,7 +6669,7 @@ EmptyString
 ;
 gotPromoted
 =
-PR_TRUE
+true
 ;
 }
 nsAutoString
@@ -6714,7 +6714,7 @@ handlerApp
 ;
 gotPromoted
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -6835,7 +6835,7 @@ aFound
 *
 aFound
 =
-PR_TRUE
+true
 ;
 nsMIMEInfoOS2
 *
@@ -6952,7 +6952,7 @@ retval
 *
 aFound
 =
-PR_FALSE
+false
 ;
 retval
 =
@@ -7284,7 +7284,7 @@ get
 (
 )
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 application

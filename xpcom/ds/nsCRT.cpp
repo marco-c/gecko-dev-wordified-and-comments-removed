@@ -1068,7 +1068,7 @@ length
 *
 err
 =
-PR_FALSE
+false
 ;
 while
 (

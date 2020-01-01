@@ -525,23 +525,23 @@ mMouseOverRow
 )
 mFocused
 (
-PR_FALSE
+false
 )
 mHasFixedRowCount
 (
-PR_FALSE
+false
 )
 mVerticalOverflow
 (
-PR_FALSE
+false
 )
 mHorizontalOverflow
 (
-PR_FALSE
+false
 )
 mReflowCallbackPosted
 (
-PR_FALSE
+false
 )
 {
 mColumns
@@ -868,7 +868,7 @@ err
 ;
 mHasFixedRowCount
 =
-PR_TRUE
+true
 ;
 mPageLength
 =
@@ -1208,7 +1208,7 @@ this
 ;
 mReflowCallbackPosted
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -1551,7 +1551,7 @@ mReflowCallbackPosted
 {
 mReflowCallbackPosted
 =
-PR_TRUE
+true
 ;
 PresContext
 (
@@ -1759,7 +1759,7 @@ mReflowCallbackPosted
 {
 mReflowCallbackPosted
 =
-PR_TRUE
+true
 ;
 PresContext
 (
@@ -1823,7 +1823,7 @@ weakFrame
 IsAlive
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -1974,21 +1974,21 @@ if
 !
 FullScrollbarsUpdate
 (
-PR_FALSE
+false
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 mReflowCallbackPosted
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2001,7 +2001,7 @@ ReflowCallbackCanceled
 {
 mReflowCallbackPosted
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2251,7 +2251,7 @@ IsReflowLocked
 {
 FullScrollbarsUpdate
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2264,7 +2264,7 @@ mReflowCallbackPosted
 {
 mReflowCallbackPosted
 =
-PR_TRUE
+true
 ;
 PresContext
 (
@@ -2945,7 +2945,7 @@ if
 OffsetForHorzScroll
 (
 columnRect
-PR_TRUE
+true
 )
 )
 nsIFrame
@@ -3164,7 +3164,7 @@ if
 OffsetForHorzScroll
 (
 cellRect
-PR_TRUE
+true
 )
 )
 nsIFrame
@@ -3943,7 +3943,7 @@ nsGkAtoms
 :
 curpos
 curPos
-PR_TRUE
+true
 )
 ;
 }
@@ -3977,7 +3977,7 @@ nsGkAtoms
 :
 curpos
 curPos
-PR_TRUE
+true
 )
 ;
 }
@@ -4017,11 +4017,11 @@ mPageLength
 {
 mVerticalOverflow
 =
-PR_TRUE
+true
 ;
 verticalOverflowChanged
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4038,11 +4038,11 @@ mPageLength
 {
 mVerticalOverflow
 =
-PR_FALSE
+false
 ;
 verticalOverflowChanged
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -4104,11 +4104,11 @@ mHorzWidth
 {
 mHorizontalOverflow
 =
-PR_TRUE
+true
 ;
 horizontalOverflowChanged
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4127,11 +4127,11 @@ mHorzWidth
 {
 mHorizontalOverflow
 =
-PR_FALSE
+false
 ;
 horizontalOverflowChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4162,7 +4162,7 @@ verticalOverflowChanged
 nsScrollPortEvent
 event
 (
-PR_TRUE
+true
 mVerticalOverflow
 ?
 NS_SCROLLPORT_OVERFLOW
@@ -4200,7 +4200,7 @@ horizontalOverflowChanged
 nsScrollPortEvent
 event
 (
-PR_TRUE
+true
 mHorizontalOverflow
 ?
 NS_SCROLLPORT_OVERFLOW
@@ -4320,7 +4320,7 @@ nsGkAtoms
 :
 maxpos
 maxposStr
-PR_TRUE
+true
 )
 ;
 ENSURE_TRUE
@@ -4362,7 +4362,7 @@ nsGkAtoms
 :
 pageincrement
 pageStr
-PR_TRUE
+true
 )
 ;
 ENSURE_TRUE
@@ -4441,7 +4441,7 @@ nsGkAtoms
 :
 maxpos
 maxposStr
-PR_TRUE
+true
 )
 ;
 ENSURE_TRUE
@@ -4478,7 +4478,7 @@ nsGkAtoms
 :
 pageincrement
 pageStr
-PR_TRUE
+true
 )
 ;
 ENSURE_TRUE
@@ -4522,7 +4522,7 @@ nsGkAtoms
 :
 increment
 pageStr
-PR_TRUE
+true
 )
 ;
 }
@@ -5320,7 +5320,7 @@ GetImageSize
 (
 aRow
 currCol
-PR_FALSE
+false
 imageContext
 )
 ;
@@ -5984,7 +5984,7 @@ aRenderingContext
 .
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 nscoord
@@ -6796,7 +6796,7 @@ isContainerEmpty
 )
 hasTwisty
 =
-PR_TRUE
+true
 ;
 }
 nsStyleContext
@@ -6956,7 +6956,7 @@ GetImageSize
 (
 aRowIndex
 aColumn
-PR_FALSE
+false
 imageContext
 )
 ;
@@ -7328,7 +7328,7 @@ if
 OffsetForHorzScroll
 (
 cellRect
-PR_FALSE
+false
 )
 )
 continue
@@ -7663,7 +7663,7 @@ GetImageSize
 (
 aRow
 aCol
-PR_FALSE
+false
 imageContext
 )
 ;
@@ -8240,7 +8240,7 @@ if
 (
 FullScrollbarsUpdate
 (
-PR_FALSE
+false
 )
 )
 {
@@ -8339,7 +8339,7 @@ mPageLength
 }
 needsInvalidation
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8464,7 +8464,7 @@ mPageLength
 }
 FullScrollbarsUpdate
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -9307,7 +9307,7 @@ GetImageSize
 (
 aRowIndex
 aColumn
-PR_TRUE
+true
 aTwistyContext
 )
 ;
@@ -9416,7 +9416,7 @@ mAppearance
 )
 useTheme
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -9581,14 +9581,14 @@ IsEmpty
 {
 aAllowImageRegions
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 aAllowImageRegions
 =
-PR_TRUE
+true
 ;
 styleRequest
 =
@@ -10234,7 +10234,7 @@ width
 else
 needWidth
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -10301,7 +10301,7 @@ height
 else
 needHeight
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -10462,7 +10462,7 @@ else
 {
 needWidth
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -10498,7 +10498,7 @@ else
 {
 needHeight
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -11833,7 +11833,7 @@ mSlots
 >
 mDropAllowed
 =
-PR_FALSE
+false
 ;
 InvalidateDropFeedback
 (
@@ -11956,7 +11956,7 @@ mSlots
 >
 mDropAllowed
 =
-PR_FALSE
+false
 ;
 InvalidateDropFeedback
 (
@@ -12204,7 +12204,7 @@ mDragSession
 >
 SetCanDrop
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -12395,7 +12395,7 @@ mSlots
 >
 mDropAllowed
 =
-PR_FALSE
+false
 ;
 InvalidateDropFeedback
 (
@@ -12416,7 +12416,7 @@ mSlots
 >
 mDropAllowed
 =
-PR_FALSE
+false
 ;
 mSlots
 -
@@ -12867,7 +12867,7 @@ if
 OffsetForHorzScroll
 (
 colRect
-PR_FALSE
+false
 )
 )
 {
@@ -13391,7 +13391,7 @@ mAppearance
 )
 useTheme
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -13580,7 +13580,7 @@ if
 OffsetForHorzScroll
 (
 cellRect
-PR_FALSE
+false
 )
 )
 {
@@ -13916,7 +13916,7 @@ if
 OffsetForHorzScroll
 (
 cellRect
-PR_FALSE
+false
 )
 )
 {
@@ -14089,7 +14089,7 @@ mAppearance
 )
 useTheme
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -15227,7 +15227,7 @@ isContainerEmpty
 )
 shouldPaint
 =
-PR_TRUE
+true
 ;
 }
 nsStyleContext
@@ -15447,7 +15447,7 @@ GetImage
 (
 aRowIndex
 aColumn
-PR_TRUE
+true
 twistyContext
 useImageRegion
 getter_AddRefs
@@ -15666,7 +15666,7 @@ GetImage
 (
 aRowIndex
 aColumn
-PR_FALSE
+false
 imageContext
 useImageRegion
 getter_AddRefs
@@ -16717,7 +16717,7 @@ GetImageSize
 (
 aRowIndex
 aColumn
-PR_TRUE
+true
 checkboxContext
 )
 ;
@@ -16825,7 +16825,7 @@ GetImage
 (
 aRowIndex
 aColumn
-PR_TRUE
+true
 checkboxContext
 useImageRegion
 getter_AddRefs
@@ -17181,7 +17181,7 @@ GetImage
 (
 aRowIndex
 aColumn
-PR_TRUE
+true
 meterContext
 useImageRegion
 getter_AddRefs
@@ -17320,7 +17320,7 @@ GetImage
 (
 aRowIndex
 aColumn
-PR_TRUE
+true
 meterContext
 useImageRegion
 getter_AddRefs
@@ -19172,7 +19172,7 @@ index
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 curr
@@ -19184,7 +19184,7 @@ mNext
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsIContent
@@ -19399,7 +19399,7 @@ mInnerBox
 x
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -19414,7 +19414,7 @@ XMost
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -19485,7 +19485,7 @@ sync
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -19541,7 +19541,7 @@ mInnerBox
 height
 )
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -19558,10 +19558,10 @@ mRowCount
 1
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -20332,7 +20332,7 @@ Forget
 nsScrollbarEvent
 event
 (
-PR_TRUE
+true
 NS_SCROLL_EVENT
 nsnull
 )
@@ -20529,8 +20529,8 @@ NS_LITERAL_STRING
 TreeRowCountChanged
 "
 )
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 nsCOMPtr
@@ -20655,7 +20655,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 nsRefPtr
@@ -20798,8 +20798,8 @@ NS_LITERAL_STRING
 TreeInvalidated
 "
 )
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -21099,7 +21099,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 nsRefPtr
@@ -21257,7 +21257,7 @@ weakFrame
 IsAlive
 (
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -21283,7 +21283,7 @@ weakFrame
 IsAlive
 (
 )
-PR_FALSE
+false
 )
 ;
 nsContentUtils

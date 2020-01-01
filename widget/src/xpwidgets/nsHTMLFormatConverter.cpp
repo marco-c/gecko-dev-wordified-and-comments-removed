@@ -385,7 +385,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsAutoString
 fromFlavor
@@ -425,7 +425,7 @@ kHTMLMime
 *
 _retval
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -443,7 +443,7 @@ kUnicodeMime
 *
 _retval
 =
-PR_TRUE
+true
 ;
 #
 if
@@ -461,7 +461,7 @@ kAOLMailMime
 *
 _retval
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -950,7 +950,7 @@ text
 html
 "
 )
-PR_TRUE
+true
 eDTDMode_fragment
 )
 ;

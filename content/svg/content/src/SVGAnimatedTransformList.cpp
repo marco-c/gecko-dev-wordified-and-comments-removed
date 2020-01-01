@@ -159,7 +159,7 @@ else
 {
 mIsAttrSet
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -208,7 +208,7 @@ Clear
 ;
 mIsAttrSet
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -531,7 +531,7 @@ aValue
 ;
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 aValue

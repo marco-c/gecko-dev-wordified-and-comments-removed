@@ -1295,7 +1295,7 @@ mMarks
 aIndex
 ]
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1311,7 +1311,7 @@ aIndex
 1
 ]
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1821,7 +1821,7 @@ mEnd
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1841,7 +1841,7 @@ mStartBuffer
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -1924,7 +1924,7 @@ dest
 oldSize
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -1980,7 +1980,7 @@ newArr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 txXPathNode
@@ -2088,7 +2088,7 @@ dest
 oldSize
 ;
 return
-PR_TRUE
+true
 ;
 }
 txXPathNode
@@ -2116,7 +2116,7 @@ const
 {
 aDupe
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2180,7 +2180,7 @@ cmp
 {
 aDupe
 =
-PR_TRUE
+true
 ;
 return
 pos
@@ -2228,7 +2228,7 @@ cmp
 {
 aDupe
 =
-PR_TRUE
+true
 ;
 return
 midpos

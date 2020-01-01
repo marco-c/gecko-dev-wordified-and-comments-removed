@@ -675,7 +675,7 @@ selCells
 AppendElement
 (
 cell
-PR_FALSE
+false
 )
 ;
 }
@@ -1858,7 +1858,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1941,7 +1941,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2144,7 +2144,7 @@ aIsProbablyForLayout
 *
 aIsProbablyForLayout
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4025,7 +4025,7 @@ nsIAccessible
 (
 headerCell
 )
-PR_FALSE
+false
 )
 ;
 NS_ADDREF
@@ -4126,7 +4126,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4227,7 +4227,7 @@ Init
 )
 )
 return
-PR_FALSE
+false
 ;
 PRInt16
 type
@@ -4273,7 +4273,7 @@ mCachedTextEquiv
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5025,7 +5025,7 @@ rv
 isEditable
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -5050,7 +5050,7 @@ if
 columnElm
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -5085,7 +5085,7 @@ eCaseMatters
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 mContent

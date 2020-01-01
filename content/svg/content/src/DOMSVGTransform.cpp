@@ -229,7 +229,7 @@ mListIndex
 )
 mIsAnimValItem
 (
-PR_FALSE
+false
 )
 mTransform
 (
@@ -265,7 +265,7 @@ mListIndex
 )
 mIsAnimValItem
 (
-PR_FALSE
+false
 )
 mTransform
 (
@@ -302,7 +302,7 @@ mListIndex
 )
 mIsAnimValItem
 (
-PR_FALSE
+false
 )
 mTransform
 (
@@ -830,7 +830,7 @@ nsnull
 ;
 mIsAnimValItem
 =
-PR_FALSE
+false
 ;
 }
 SVGTransform
@@ -1072,7 +1072,7 @@ Element
 >
 DidChangeTransformList
 (
-PR_TRUE
+true
 )
 ;
 #

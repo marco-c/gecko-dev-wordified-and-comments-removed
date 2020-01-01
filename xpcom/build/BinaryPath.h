@@ -414,7 +414,7 @@ fileStat
 {
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -586,7 +586,7 @@ nsDependentString
 (
 exePath
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 lf
@@ -603,7 +603,7 @@ nsDependentCString
 (
 exePath
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 lf

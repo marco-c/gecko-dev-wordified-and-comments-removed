@@ -397,7 +397,7 @@ xerror
 {
 gShmAvailable
 =
-PR_FALSE
+false
 ;
 return
 nsnull
@@ -408,7 +408,7 @@ shm
 >
 mXAttached
 =
-PR_TRUE
+true
 ;
 shm
 -
@@ -523,7 +523,7 @@ format
 ;
 gShmAvailable
 =
-PR_FALSE
+false
 ;
 return
 nsnull

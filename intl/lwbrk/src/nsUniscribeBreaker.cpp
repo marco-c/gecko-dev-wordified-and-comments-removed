@@ -85,7 +85,7 @@ items
 memset
 (
 aBreakBefore
-PR_FALSE
+false
 aLength
 )
 ;

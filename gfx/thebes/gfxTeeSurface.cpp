@@ -27,7 +27,7 @@ csurf
 Init
 (
 csurf
-PR_TRUE
+true
 )
 ;
 }
@@ -79,7 +79,7 @@ CairoSurface
 Init
 (
 csurf
-PR_FALSE
+false
 )
 ;
 for

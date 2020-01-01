@@ -54,7 +54,7 @@ aRunLength
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 WORD
@@ -92,7 +92,7 @@ GDI_ERROR
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -122,7 +122,7 @@ k
 0xFFFF
 )
 return
-PR_FALSE
+false
 ;
 }
 SIZE
@@ -147,7 +147,7 @@ aRunLength
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 BOOL
@@ -178,7 +178,7 @@ success
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 gfxTextRun
@@ -388,7 +388,7 @@ g
 SetComplex
 (
 atClusterStart
-PR_TRUE
+true
 1
 )
 &
@@ -398,6 +398,6 @@ details
 }
 }
 return
-PR_TRUE
+true
 ;
 }

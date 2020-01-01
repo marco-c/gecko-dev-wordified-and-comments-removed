@@ -3325,7 +3325,7 @@ offset
 *
 aSymbolEncoding
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3359,7 +3359,7 @@ offset
 *
 aSymbolEncoding
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3391,7 +3391,7 @@ offset
 *
 aSymbolEncoding
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3515,22 +3515,22 @@ symbol
 {
 aUnicodeFont
 =
-PR_FALSE
+false
 ;
 aSymbolFont
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 aUnicodeFont
 =
-PR_TRUE
+true
 ;
 aSymbolFont
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -3556,11 +3556,11 @@ format
 {
 aUnicodeFont
 =
-PR_TRUE
+true
 ;
 aSymbolFont
 =
-PR_FALSE
+false
 ;
 return
 ReadCMAPTableFormat12
@@ -4729,8 +4729,8 @@ fontname
 .
 CompressWhitespace
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 aFontList
@@ -5104,7 +5104,7 @@ KernTableVersion0
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5145,11 +5145,11 @@ KernTableSubtableHeaderVersion0
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -5178,7 +5178,7 @@ KernTableVersion1
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5213,15 +5213,15 @@ KernTableSubtableHeaderVersion1
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -5268,7 +5268,7 @@ PRUint16
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -5334,7 +5334,7 @@ aGlyfLen
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 prev
@@ -5343,7 +5343,7 @@ current
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -5371,7 +5371,7 @@ PRUint32
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -5432,7 +5432,7 @@ aGlyfLen
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 prev
@@ -5441,11 +5441,11 @@ current
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 gfxUserFontType
@@ -5623,7 +5623,7 @@ data
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -5671,7 +5671,7 @@ version
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -5779,7 +5779,7 @@ directory
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -5905,7 +5905,7 @@ entry
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 checksum
@@ -5943,7 +5943,7 @@ d
 :
 foundHead
 =
-PR_TRUE
+true
 ;
 headOffset
 =
@@ -5983,7 +5983,7 @@ length
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -6007,7 +6007,7 @@ n
 :
 foundKern
 =
-PR_TRUE
+true
 ;
 kernOffset
 =
@@ -6044,7 +6044,7 @@ e
 :
 foundName
 =
-PR_TRUE
+true
 ;
 nameOffset
 =
@@ -6081,7 +6081,7 @@ S
 :
 foundOS2
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6104,7 +6104,7 @@ f
 :
 foundGlyphs
 =
-PR_TRUE
+true
 ;
 glyfLen
 =
@@ -6134,7 +6134,7 @@ a
 :
 foundLoca
 =
-PR_TRUE
+true
 ;
 locaOffset
 =
@@ -6171,7 +6171,7 @@ p
 :
 foundMaxp
 =
-PR_TRUE
+true
 ;
 maxpOffset
 =
@@ -6211,7 +6211,7 @@ length
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -6234,7 +6234,7 @@ F
 :
 foundCFF
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6276,7 +6276,7 @@ table
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -6304,7 +6304,7 @@ table
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -6354,7 +6354,7 @@ version
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -6385,7 +6385,7 @@ number
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -6461,7 +6461,7 @@ table
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -6493,7 +6493,7 @@ table
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -6548,7 +6548,7 @@ offsets
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -6610,7 +6610,7 @@ records
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -6716,7 +6716,7 @@ strings
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -6750,12 +6750,12 @@ table
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -7238,7 +7238,7 @@ e
 {
 foundName
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -7672,7 +7672,7 @@ e
 {
 foundName
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -8834,7 +8834,7 @@ warnBuf
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8912,7 +8912,7 @@ strLen
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -8956,7 +8956,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -9004,7 +9004,7 @@ string
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -9055,7 +9055,7 @@ name
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aName
@@ -9116,7 +9116,7 @@ name
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aName
@@ -9127,7 +9127,7 @@ destLength
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -9515,7 +9515,7 @@ k
 {
 foundName
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -10143,7 +10143,7 @@ d
 :
 foundHead
 =
-PR_TRUE
+true
 ;
 headOffset
 =
@@ -10192,7 +10192,7 @@ e
 :
 foundName
 =
-PR_TRUE
+true
 ;
 nameOffset
 =
@@ -10229,7 +10229,7 @@ S
 :
 foundOS2
 =
-PR_TRUE
+true
 ;
 os2Offset
 =
@@ -10266,7 +10266,7 @@ f
 :
 foundGlyphs
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -10288,7 +10288,7 @@ F
 :
 foundGlyphs
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -11455,7 +11455,7 @@ SFNTHeader
 ;
 hasVertical
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -11502,7 +11502,7 @@ a
 {
 hasVertical
 =
-PR_TRUE
+true
 ;
 break
 ;

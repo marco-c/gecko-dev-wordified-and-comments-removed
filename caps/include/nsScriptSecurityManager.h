@@ -335,7 +335,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private
@@ -511,7 +511,7 @@ level
 SCRIPT_SECURITY_UNDEFINED_ACCESS
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -715,7 +715,7 @@ cp
 key
 )
 return
-PR_FALSE
+false
 ;
 cp
 -
@@ -759,11 +759,11 @@ key
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 class

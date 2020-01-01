@@ -434,7 +434,7 @@ if
 mInitialized
 )
 return
-PR_TRUE
+true
 ;
 mozilla
 :
@@ -484,7 +484,7 @@ DLL
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -653,7 +653,7 @@ init
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 gSharedWindow
@@ -667,7 +667,7 @@ gSharedWindowDC
 NS_ENSURE_TRUE
 (
 gSharedWindow
-PR_FALSE
+false
 )
 ;
 gSharedWindowGLContext
@@ -680,7 +680,7 @@ gSharedWindowDC
 NS_ENSURE_TRUE
 (
 gSharedWindowGLContext
-PR_FALSE
+false
 )
 ;
 HGLRC
@@ -722,7 +722,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 LibrarySymbolLoader
@@ -944,7 +944,7 @@ curCtx
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -961,10 +961,10 @@ nsnull
 {
 mInitialized
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 reporter
@@ -974,7 +974,7 @@ SetSuccessful
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 class
@@ -1036,7 +1036,7 @@ mPixelFormat
 )
 mIsDoubleBuffered
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1062,7 +1062,7 @@ aPixelFormat
 GLContext
 (
 aFormat
-PR_TRUE
+true
 aSharedContext
 )
 mDC
@@ -1087,7 +1087,7 @@ aPixelFormat
 )
 mIsDoubleBuffered
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1152,7 +1152,7 @@ mDC
 mContext
 )
 return
-PR_FALSE
+false
 ;
 MakeCurrent
 (
@@ -1168,7 +1168,7 @@ InitWithPrefix
 "
 gl
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -1184,7 +1184,7 @@ false
 BOOL
 succeeded
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1264,7 +1264,7 @@ if
 mIsDoubleBuffered
 )
 return
-PR_FALSE
+false
 ;
 return
 :
@@ -1290,7 +1290,7 @@ sWGLLibrary
 fGetProcAddress
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1414,7 +1414,7 @@ context
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1439,7 +1439,7 @@ context
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 GLContextWGL
@@ -1496,7 +1496,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1545,7 +1545,7 @@ sharing
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 fBindTexture
@@ -1576,11 +1576,11 @@ this
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1707,7 +1707,7 @@ if
 newbuf
 )
 return
-PR_FALSE
+false
 ;
 bool
 isCurrent
@@ -1776,7 +1776,7 @@ ClearSafely
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -2348,7 +2348,7 @@ pbuffer
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsRefPtr
@@ -2509,7 +2509,7 @@ shareContext
 dc
 context
 win
-PR_TRUE
+true
 )
 ;
 return
@@ -2772,7 +2772,7 @@ gGlobalContext
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 gGlobalContext
@@ -2780,7 +2780,7 @@ gGlobalContext
 >
 SetIsGlobalSharedContext
 (
-PR_TRUE
+true
 )
 ;
 }

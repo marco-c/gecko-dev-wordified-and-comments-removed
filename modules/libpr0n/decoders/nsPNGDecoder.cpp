@@ -217,7 +217,7 @@ mChannels
 )
 mFrameIsHidden
 (
-PR_FALSE
+false
 )
 mCMSMode
 (
@@ -225,7 +225,7 @@ mCMSMode
 )
 mDisablePremultipliedAlpha
 (
-PR_FALSE
+false
 )
 {
 }
@@ -461,7 +461,7 @@ get
 ;
 mFrameHasNoAlpha
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -1509,7 +1509,7 @@ icSigRgbData
 )
 mismatch
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1536,7 +1536,7 @@ icSigGrayData
 )
 mismatch
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2527,7 +2527,7 @@ decoder
 >
 mFrameIsHidden
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3180,7 +3180,7 @@ line
 )
 rowHasNoAlpha
 =
-PR_FALSE
+false
 ;
 line
 +
@@ -3244,7 +3244,7 @@ line
 )
 rowHasNoAlpha
 =
-PR_FALSE
+false
 ;
 line
 +
@@ -3281,7 +3281,7 @@ decoder
 >
 mFrameHasNoAlpha
 =
-PR_FALSE
+false
 ;
 PRUint32
 numFrames
@@ -3375,7 +3375,7 @@ decoder
 >
 mFrameIsHidden
 =
-PR_FALSE
+false
 ;
 x_offset
 =

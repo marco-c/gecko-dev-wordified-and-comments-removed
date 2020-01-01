@@ -213,7 +213,7 @@ aNode
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if

@@ -365,11 +365,11 @@ else
 {
 mWaitEOF
 =
-PR_FALSE
+false
 ;
 mReachedEOF
 =
-PR_TRUE
+true
 ;
 LOG
 (
@@ -467,7 +467,7 @@ mChunkRemaining
 )
 mWaitEOF
 =
-PR_TRUE
+true
 ;
 }
 mLineBuf

@@ -294,7 +294,7 @@ nsGkAtoms
 :
 :
 tr
-PR_FALSE
+false
 )
 )
 {
@@ -1840,7 +1840,7 @@ nsGkAtoms
 :
 :
 tbody
-PR_FALSE
+false
 )
 ;
 }
@@ -2180,7 +2180,7 @@ rv
 AppendChildTo
 (
 newFoot
-PR_TRUE
+true
 )
 ;
 CallQueryInterface
@@ -2363,7 +2363,7 @@ rv
 AppendChildTo
 (
 newCaption
-PR_TRUE
+true
 )
 ;
 CallQueryInterface
@@ -2899,7 +2899,7 @@ rv
 AppendChildTo
 (
 newRowGroup
-PR_TRUE
+true
 )
 ;
 rowGroup
@@ -3568,7 +3568,7 @@ GetPercentValue
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3637,7 +3637,7 @@ ParseEnumValue
 (
 aValue
 kFrameTable
-PR_FALSE
+false
 )
 ;
 }
@@ -3659,7 +3659,7 @@ ParseEnumValue
 (
 aValue
 kLayoutTable
-PR_FALSE
+false
 )
 ;
 }
@@ -3681,7 +3681,7 @@ ParseEnumValue
 (
 aValue
 kRulesTable
-PR_FALSE
+false
 )
 ;
 }

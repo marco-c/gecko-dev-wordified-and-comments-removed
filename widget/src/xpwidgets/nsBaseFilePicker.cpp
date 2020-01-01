@@ -160,7 +160,7 @@ nsBaseFilePicker
 :
 mAddToRecentDocs
 (
-PR_TRUE
+true
 )
 {
 }

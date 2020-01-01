@@ -170,7 +170,7 @@ LOG_ENABLED
 (
 )
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -201,7 +201,7 @@ mSetIsReady
 )
 mHasPrefixes
 (
-PR_FALSE
+false
 )
 mRandomKey
 (
@@ -412,7 +412,7 @@ Clear
 ;
 mHasPrefixes
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -733,7 +733,7 @@ mNewDeltas
 ;
 mHasPrefixes
 =
-PR_TRUE
+true
 ;
 mSetIsReady
 .
@@ -853,7 +853,7 @@ aFound
 *
 aFound
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1002,7 +1002,7 @@ diff
 *
 aFound
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1190,7 +1190,7 @@ avoiding
 *
 aReady
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1240,7 +1240,7 @@ mHasPrefixes
 *
 aReady
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1563,7 +1563,7 @@ mNewDeltas
 ;
 mHasPrefixes
 =
-PR_TRUE
+true
 ;
 mSetIsReady
 .

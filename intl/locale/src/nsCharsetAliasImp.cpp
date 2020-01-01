@@ -203,7 +203,7 @@ nsCaseInsensitiveCStringComparator
 *
 oResult
 =
-PR_TRUE
+true
 ;
 return
 res
@@ -228,7 +228,7 @@ IsEmpty
 *
 oResult
 =
-PR_FALSE
+false
 ;
 return
 res
@@ -237,7 +237,7 @@ res
 *
 oResult
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 name1

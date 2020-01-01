@@ -1345,7 +1345,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 mozIStorageStatement
@@ -2382,7 +2382,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 mozIStorageStatement
@@ -2657,7 +2657,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 mozIStorageStatement
@@ -2932,7 +2932,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 mozIStorageStatement
@@ -3229,7 +3229,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 mozIStorageStatement
@@ -7104,7 +7104,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -7634,7 +7634,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -8425,7 +8425,7 @@ hasResult
 *
 _hasAnno
 =
-PR_FALSE
+false
 ;
 }
 else

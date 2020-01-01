@@ -631,7 +631,7 @@ ncc
 >
 SetReturnValueWasSet
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -687,7 +687,7 @@ ncc
 >
 SetReturnValueWasSet
 (
-PR_TRUE
+true
 )
 ;
 uint32

@@ -86,7 +86,7 @@ this
 else
 dirty
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -109,7 +109,7 @@ SetText
 Text
 (
 )
-PR_FALSE
+false
 )
 ;
 }

@@ -61,7 +61,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsInt2StrHashtable

@@ -670,11 +670,11 @@ Layer
 CONTENT_OPAQUE
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1704,7 +1704,7 @@ GetBounds
 ;
 mSupportsComponentAlphaChildren
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1748,7 +1748,7 @@ CONTENT_OPAQUE
 {
 mSupportsComponentAlphaChildren
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1799,7 +1799,7 @@ visibleRect
 {
 mSupportsComponentAlphaChildren
 =
-PR_TRUE
+true
 ;
 }
 }

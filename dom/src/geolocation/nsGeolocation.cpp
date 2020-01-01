@@ -773,11 +773,11 @@ aWatchPositionRequest
 :
 mAllowed
 (
-PR_FALSE
+false
 )
 mCleared
 (
-PR_FALSE
+false
 )
 mIsWatchPositionRequest
 (
@@ -1249,7 +1249,7 @@ cachedPositionTime
 {
 mAllowed
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -1281,7 +1281,7 @@ SetTimeoutTimer
 ;
 mAllowed
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1405,7 +1405,7 @@ nsnull
 }
 mCleared
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1609,7 +1609,7 @@ nsnull
 }
 mCleared
 =
-PR_TRUE
+true
 ;
 mCallback
 =
@@ -3328,10 +3328,10 @@ IsActive
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -3517,7 +3517,7 @@ this
 callback
 errorCallback
 options
-PR_FALSE
+false
 )
 ;
 if
@@ -3672,7 +3672,7 @@ this
 callback
 errorCallback
 options
-PR_TRUE
+true
 )
 ;
 if
@@ -3851,7 +3851,7 @@ mOwner
 nsnull
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -3888,7 +3888,7 @@ if
 closed
 )
 return
-PR_FALSE
+false
 ;
 nsPIDOMWindow
 *
@@ -3918,11 +3918,11 @@ GetCurrentInnerWindow
 window
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool

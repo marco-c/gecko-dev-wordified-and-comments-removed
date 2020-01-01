@@ -673,7 +673,7 @@ mContent
 >
 Fallback
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -888,8 +888,8 @@ GetDocument
 )
 mContent
 type
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 return
@@ -1152,8 +1152,8 @@ NS_LITERAL_STRING
 PluginCrashed
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 privateEvent
@@ -1161,7 +1161,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 privateEvent
@@ -1568,7 +1568,7 @@ NotifyStateChanged
 (
 mOldType
 mOldState
-PR_FALSE
+false
 mNotify
 )
 ;
@@ -1599,8 +1599,8 @@ NotifyStateChanged
 (
 mOldType
 mOldState
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 mOldType
@@ -1716,7 +1716,7 @@ mContent
 >
 Fallback
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1808,7 +1808,7 @@ mContent
 >
 mInstantiating
 =
-PR_FALSE
+false
 ;
 }
 private
@@ -1847,7 +1847,7 @@ loader
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1926,7 +1926,7 @@ pluginHost
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2071,7 +2071,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -2110,7 +2110,7 @@ pluginHost
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -2142,11 +2142,11 @@ mimeType
 typeFromExt
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsObjectLoadingContent
@@ -2170,19 +2170,19 @@ eType_Loading
 )
 mInstantiating
 (
-PR_FALSE
+false
 )
 mUserDisabled
 (
-PR_FALSE
+false
 )
 mSuppressed
 (
-PR_FALSE
+false
 )
 mNetworkCreated
 (
-PR_TRUE
+true
 )
 mFallbackReason
 (
@@ -2246,7 +2246,7 @@ AutoNotifier
 notifier
 (
 this
-PR_TRUE
+true
 )
 ;
 if
@@ -2281,7 +2281,7 @@ this
 ;
 Fallback
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -2650,7 +2650,7 @@ doc
 {
 Fallback
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -2819,7 +2819,7 @@ mFrameLoader
 {
 Fallback
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -2847,7 +2847,7 @@ rv
 {
 Fallback
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -3009,7 +3009,7 @@ eType_Plugin
 :
 mInstantiating
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3049,7 +3049,7 @@ frame
 {
 mInstantiating
 =
-PR_FALSE
+false
 ;
 return
 NS_BINDING_ABORTED
@@ -3087,7 +3087,7 @@ mFinalListener
 ;
 mInstantiating
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3149,7 +3149,7 @@ this
 ;
 Fallback
 (
-PR_FALSE
+false
 )
 ;
 PluginSupportState
@@ -3292,7 +3292,7 @@ NS_BINDING_ABORTED
 endif
 Fallback
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3356,7 +3356,7 @@ this
 ;
 Fallback
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -3673,7 +3673,7 @@ NS_OK
 }
 mInstantiating
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -3723,7 +3723,7 @@ doc
 {
 mInstantiating
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3739,7 +3739,7 @@ Flush_Frames
 ;
 mInstantiating
 =
-PR_FALSE
+false
 ;
 frame
 =
@@ -3875,7 +3875,7 @@ else
 {
 Fallback
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4908,7 +4908,7 @@ reentered
 ;
 mInstantiating
 =
-PR_TRUE
+true
 ;
 AutoSetInstantiatingToFalse
 autoset
@@ -4920,7 +4920,7 @@ mUserDisabled
 =
 mSuppressed
 =
-PR_FALSE
+false
 ;
 mURI
 =
@@ -5069,7 +5069,7 @@ IsStaticDocument
 {
 Fallback
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5133,7 +5133,7 @@ rv
 {
 Fallback
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -5443,7 +5443,7 @@ LoadImage
 (
 aURI
 aForceLoad
-PR_FALSE
+false
 )
 ;
 }
@@ -5580,7 +5580,7 @@ IsEmpty
 {
 hasID
 =
-PR_TRUE
+true
 ;
 isSupportedClassID
 =
@@ -6136,7 +6136,7 @@ NodePrincipal
 )
 chan
 aURI
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -6417,7 +6417,7 @@ status
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -6464,12 +6464,12 @@ success
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -6501,7 +6501,7 @@ scheme
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIIOService
@@ -6521,7 +6521,7 @@ if
 ios
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6552,7 +6552,7 @@ handler
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -6779,7 +6779,7 @@ PLUGIN
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -6792,7 +6792,7 @@ UnloadContent
 {
 CancelImageRequests
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -6820,7 +6820,7 @@ mUserDisabled
 =
 mSuppressed
 =
-PR_FALSE
+false
 ;
 mFallbackReason
 =
@@ -7768,7 +7768,7 @@ REJECT_TYPE
 {
 mUserDisabled
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -7785,7 +7785,7 @@ REJECT_SERVER
 {
 mSuppressed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7967,7 +7967,7 @@ mInstantiating
 ;
 mInstantiating
 =
-PR_TRUE
+true
 ;
 nsCString
 typeToUse
@@ -8446,8 +8446,8 @@ nsStyleUtil
 IsSignificantChild
 (
 child
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -8709,7 +8709,7 @@ content
 AsElement
 (
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -8785,7 +8785,7 @@ AutoNotifier
 notifier
 (
 this
-PR_TRUE
+true
 )
 ;
 UnloadContent

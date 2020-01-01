@@ -255,7 +255,7 @@ bool
 ;
 mNeedsRebuild
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -297,7 +297,7 @@ changed
 {
 mNeedsRebuild
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -624,7 +624,7 @@ run
 >
 mMatchType
 offset
-PR_FALSE
+false
 )
 ;
 if
@@ -767,7 +767,7 @@ IsMissing
 {
 anyMissing
 =
-PR_TRUE
+true
 ;
 glyphs
 .
@@ -925,8 +925,8 @@ g
 .
 SetComplex
 (
-PR_TRUE
-PR_TRUE
+true
+true
 glyphs
 .
 Length
@@ -962,7 +962,7 @@ Clear
 ;
 anyMissing
 =
-PR_FALSE
+false
 ;
 mergeRunStart
 =
@@ -1235,7 +1235,7 @@ nsCaseTransformTextRunFactory
 uppercaseFactory
 (
 nsnull
-PR_TRUE
+true
 )
 ;
 aTextRun
@@ -1441,7 +1441,7 @@ styleArray
 Elements
 (
 )
-PR_FALSE
+false
 )
 ;
 child
@@ -1724,7 +1724,7 @@ charsToMergeArray
 .
 AppendElement
 (
-PR_FALSE
+false
 )
 ;
 styleArray
@@ -1814,7 +1814,7 @@ S
 ;
 extraChar
 =
-PR_TRUE
+true
 ;
 ch
 =
@@ -1880,7 +1880,7 @@ S
 ;
 extraChar
 =
-PR_TRUE
+true
 ;
 ch
 =
@@ -1927,7 +1927,7 @@ charsToMergeArray
 .
 AppendElement
 (
-PR_TRUE
+true
 )
 ;
 styleArray
@@ -1944,7 +1944,7 @@ canBreakBeforeArray
 .
 AppendElement
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2024,7 +2024,7 @@ styleArray
 Elements
 (
 )
-PR_FALSE
+false
 )
 ;
 child

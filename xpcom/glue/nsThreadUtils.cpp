@@ -674,7 +674,7 @@ thread
 >
 ProcessNextEvent
 (
-PR_FALSE
+false
 &
 processedEvent
 )
@@ -788,7 +788,7 @@ NS_GetCurrentThread
 NS_ENSURE_TRUE
 (
 thread
-PR_FALSE
+false
 )
 ;
 #
@@ -829,7 +829,7 @@ NS_GetCurrentThread
 NS_ENSURE_TRUE
 (
 thread
-PR_FALSE
+false
 )
 ;
 }
@@ -858,7 +858,7 @@ current
 NS_ENSURE_TRUE
 (
 current
-PR_FALSE
+false
 )
 ;
 thread

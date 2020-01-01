@@ -109,15 +109,15 @@ mAvgTimeBetweenSamples
 )
 mResampleNeeded
 (
-PR_FALSE
+false
 )
 mDeferredStartSampling
 (
-PR_FALSE
+false
 )
 mRunningSample
 (
-PR_FALSE
+false
 )
 mDocument
 (
@@ -340,7 +340,7 @@ mPauseState
 {
 mDeferredStartSampling
 =
-PR_FALSE
+false
 ;
 StopSampling
 (
@@ -614,7 +614,7 @@ mDeferredStartSampling
 {
 mDeferredStartSampling
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1035,7 +1035,7 @@ else
 {
 mDeferredStartSampling
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1195,7 +1195,7 @@ DoSample
 {
 DoSample
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1235,11 +1235,11 @@ return
 }
 mResampleNeeded
 =
-PR_FALSE
+false
 ;
 mRunningSample
 =
-PR_TRUE
+true
 ;
 mDocument
 -
@@ -1377,7 +1377,7 @@ nsnull
 ;
 mRunningSample
 =
-PR_FALSE
+false
 ;
 mLastCompositorTable
 =
@@ -1515,7 +1515,7 @@ NeedsRewind
 *
 rewindNeeded
 =
-PR_TRUE
+true
 ;
 return
 PL_DHASH_STOP
@@ -1637,7 +1637,7 @@ LL_MININT
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 nsSMILMilestone
@@ -1648,7 +1648,7 @@ GetCurrentTime
 )
 +
 1
-PR_TRUE
+true
 )
 ;
 mChildContainerTable
@@ -2555,7 +2555,7 @@ if
 targetElem
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2583,7 +2583,7 @@ attributeName
 )
 )
 return
-PR_FALSE
+false
 ;
 nsSMILTargetAttrType
 attributeType
@@ -2679,7 +2679,7 @@ mIsCSS
 isCSS
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

@@ -45,7 +45,7 @@ JapaneseContextAnalysis
 {
 Reset
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -82,7 +82,7 @@ MAX_REL_THRESHOLD
 )
 mDone
 =
-PR_TRUE
+true
 ;
 if
 (

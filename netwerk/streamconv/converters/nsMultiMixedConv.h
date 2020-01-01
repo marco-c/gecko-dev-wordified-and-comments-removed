@@ -144,7 +144,7 @@ SetIsLastPart
 {
 mIsLastPart
 =
-PR_TRUE
+true
 ;
 }
 nsresult

@@ -1630,23 +1630,23 @@ nsnull
 )
 mInCData
 (
-PR_FALSE
+false
 )
 mInInternalSubset
 (
-PR_FALSE
+false
 )
 mInExternalDTD
 (
-PR_FALSE
+false
 )
 mMadeFinalCallToExpat
 (
-PR_FALSE
+false
 )
 mIsFinalChunk
 (
-PR_FALSE
+false
 )
 mInternalState
 (
@@ -2320,7 +2320,7 @@ HandleStartCdataSection
 {
 mInCData
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2348,7 +2348,7 @@ found
 ;
 mInCData
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2652,7 +2652,7 @@ aHasInternalSubset
 {
 mInInternalSubset
 =
-PR_TRUE
+true
 ;
 mInternalSubset
 .
@@ -2668,7 +2668,7 @@ mInternalSubset
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2698,7 +2698,7 @@ found
 ;
 mInInternalSubset
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3004,7 +3004,7 @@ get
 ;
 mInExternalDTD
 =
-PR_TRUE
+true
 ;
 PRUint32
 totalRead
@@ -3055,7 +3055,7 @@ nsnull
 ;
 mInExternalDTD
 =
-PR_FALSE
+false
 ;
 XML_ParserFree
 (
@@ -4080,7 +4080,7 @@ rv
 {
 shouldReportError
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5038,7 +5038,7 @@ aScanner
 SetPosition
 (
 currentExpatPosition
-PR_TRUE
+true
 )
 ;
 aScanner
@@ -5064,7 +5064,7 @@ mExpatBuffered
 {
 mMadeFinalCallToExpat
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -5267,7 +5267,7 @@ aScanner
 SetPosition
 (
 currentExpatPosition
-PR_TRUE
+true
 )
 ;
 aScanner
@@ -6033,7 +6033,7 @@ aTag
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP_
@@ -6053,7 +6053,7 @@ aChild
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 void

@@ -522,7 +522,7 @@ if
 CFURLGetFileSystemRepresentation
 (
 parentURL
-PR_TRUE
+true
 (
 UInt8
 *
@@ -764,7 +764,7 @@ n
 ;
 firstWarning
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -913,7 +913,7 @@ nsDirectoryService
 mHashtable
 (
 256
-PR_TRUE
+true
 )
 {
 }
@@ -1262,7 +1262,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsDirectoryService
@@ -1376,7 +1376,7 @@ nsnull
 )
 persistent
 (
-PR_TRUE
+true
 )
 uuid
 (
@@ -1565,7 +1565,7 @@ fileData
 >
 persistent
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -1636,12 +1636,12 @@ fileData
 data
 )
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -2026,7 +2026,7 @@ prop
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2068,7 +2068,7 @@ value
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2395,7 +2395,7 @@ nsnull
 *
 persistent
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -4203,7 +4203,7 @@ localFile
 *
 persistent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4232,7 +4232,7 @@ localFile
 *
 persistent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4270,7 +4270,7 @@ localFile
 *
 persistent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4299,7 +4299,7 @@ localFile
 *
 persistent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4328,7 +4328,7 @@ localFile
 *
 persistent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4357,7 +4357,7 @@ localFile
 *
 persistent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4386,7 +4386,7 @@ localFile
 *
 persistent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4415,7 +4415,7 @@ localFile
 *
 persistent
 =
-PR_FALSE
+false
 ;
 }
 #

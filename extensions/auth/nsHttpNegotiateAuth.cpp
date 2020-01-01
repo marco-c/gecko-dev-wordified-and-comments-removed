@@ -298,7 +298,7 @@ continuationState
 *
 identityInvalid
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1141,7 +1141,7 @@ if
 prefs
 )
 return
-PR_FALSE
+false
 ;
 bool
 val
@@ -1167,7 +1167,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 val
@@ -1205,7 +1205,7 @@ if
 prefs
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 scheme
@@ -1228,7 +1228,7 @@ scheme
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1244,7 +1244,7 @@ host
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1261,7 +1261,7 @@ port
 )
 )
 return
-PR_FALSE
+false
 ;
 char
 *
@@ -1287,7 +1287,7 @@ hostList
 hostList
 )
 return
-PR_FALSE
+false
 ;
 char
 *
@@ -1370,7 +1370,7 @@ end
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -1401,7 +1401,7 @@ hostList
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1467,7 +1467,7 @@ schemeEnd
 )
 )
 return
-PR_FALSE
+false
 ;
 hostStart
 =
@@ -1525,7 +1525,7 @@ PRInt32
 port
 )
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -1541,7 +1541,7 @@ hostStart
 hostEnd
 )
 return
-PR_TRUE
+true
 ;
 PRUint32
 hostLen
@@ -1561,7 +1561,7 @@ Length
 hostLen
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -1629,10 +1629,10 @@ hostLen
 '
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }

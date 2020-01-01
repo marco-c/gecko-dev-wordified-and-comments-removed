@@ -1054,15 +1054,15 @@ nsnull
 )
 mInheritStyle
 (
-PR_TRUE
+true
 )
 mHasBaseProto
 (
-PR_TRUE
+true
 )
 mKeyHandlersRegistered
 (
-PR_FALSE
+false
 )
 mResources
 (
@@ -1712,7 +1712,7 @@ eCaseMatters
 )
 mInheritStyle
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -1762,7 +1762,7 @@ result
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2280,7 +2280,7 @@ nsContentUtils
 GetNodeTextContent
 (
 aChangedElement
-PR_FALSE
+false
 value
 )
 ;
@@ -2332,7 +2332,7 @@ IsEmpty
 )
 attrPresent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2515,7 +2515,7 @@ textContent
 SetText
 (
 value
-PR_TRUE
+true
 )
 ;
 realElement
@@ -2524,7 +2524,7 @@ realElement
 AppendChildTo
 (
 textContent
-PR_TRUE
+true
 )
 ;
 }
@@ -2858,7 +2858,7 @@ insertionPoint
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3082,7 +3082,7 @@ aMultipleInsertionPoints
 *
 aMultipleInsertionPoints
 =
-PR_FALSE
+false
 ;
 *
 aIndex
@@ -3113,7 +3113,7 @@ Count
 *
 aMultipleInsertionPoints
 =
-PR_TRUE
+true
 ;
 return
 nsnull
@@ -3157,7 +3157,7 @@ entry
 *
 aMultipleInsertionPoints
 =
-PR_TRUE
+true
 ;
 *
 aIndex
@@ -3171,7 +3171,7 @@ nsnull
 *
 aMultipleInsertionPoints
 =
-PR_FALSE
+false
 ;
 *
 aIndex
@@ -3333,7 +3333,7 @@ nsnull
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsIContent
@@ -3996,7 +3996,7 @@ changeData
 -
 >
 mBoundElement
-PR_FALSE
+false
 value
 )
 ;
@@ -4048,7 +4048,7 @@ IsEmpty
 )
 attrPresent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4172,7 +4172,7 @@ SetAttr
 dstNs
 dst
 value
-PR_FALSE
+false
 )
 ;
 if
@@ -4271,7 +4271,7 @@ textContent
 SetText
 (
 value
-PR_FALSE
+false
 )
 ;
 realElement
@@ -4280,7 +4280,7 @@ realElement
 AppendChildTo
 (
 textContent
-PR_FALSE
+false
 )
 ;
 }
@@ -4297,7 +4297,7 @@ GetNext
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4388,7 +4388,7 @@ changeData
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -4519,7 +4519,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -4548,7 +4548,7 @@ aData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -4714,7 +4714,7 @@ Find
 "
 =
 "
-PR_TRUE
+true
 )
 ;
 nsresult
@@ -5093,7 +5093,7 @@ Release
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -5402,7 +5402,7 @@ parent
 RemoveChildAt
 (
 index
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -5449,7 +5449,7 @@ GetCurrentDoc
 )
 parent
 nsnull
-PR_FALSE
+false
 )
 ;
 if

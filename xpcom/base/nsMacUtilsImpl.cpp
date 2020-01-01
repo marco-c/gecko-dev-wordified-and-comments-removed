@@ -72,13 +72,13 @@ foundPPC
 false
 foundX86
 =
-PR_FALSE
+false
 foundPPC64
 =
-PR_FALSE
+false
 foundX86_64
 =
-PR_FALSE
+false
 ;
 CFBundleRef
 mainBundle
@@ -201,7 +201,7 @@ kCFBundleExecutableArchitecturePPC
 )
 foundPPC
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -213,7 +213,7 @@ kCFBundleExecutableArchitectureI386
 )
 foundX86
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -225,7 +225,7 @@ kCFBundleExecutableArchitecturePPC64
 )
 foundPPC64
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -237,7 +237,7 @@ kCFBundleExecutableArchitectureX86_64
 )
 foundX86_64
 =
-PR_TRUE
+true
 ;
 }
 :
@@ -428,7 +428,7 @@ aIsUniversalBinary
 *
 aIsUniversalBinary
 =
-PR_FALSE
+false
 ;
 nsAutoString
 archString
@@ -547,7 +547,7 @@ NULL
 ;
 sInitialized
 =
-PR_TRUE
+true
 ;
 }
 *
@@ -561,7 +561,7 @@ else
 *
 aIsTranslated
 =
-PR_FALSE
+false
 ;
 #
 endif

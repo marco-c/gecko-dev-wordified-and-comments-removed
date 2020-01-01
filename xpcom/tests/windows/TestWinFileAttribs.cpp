@@ -230,7 +230,7 @@ nsEmbedString
 (
 filePath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 localFile

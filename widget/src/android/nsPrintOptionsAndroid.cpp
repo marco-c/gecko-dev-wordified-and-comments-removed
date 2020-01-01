@@ -109,7 +109,7 @@ InitPrintSettingsFromPrefs
 (
 *
 _retval
-PR_FALSE
+false
 nsIPrintSettings
 :
 :

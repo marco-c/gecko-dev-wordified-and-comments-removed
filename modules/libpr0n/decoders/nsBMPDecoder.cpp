@@ -185,7 +185,7 @@ mUseAlphaData
 =
 mHaveAlphaData
 =
-PR_FALSE
+false
 ;
 }
 nsBMPDecoder
@@ -534,7 +534,7 @@ pos
 ;
 started
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2400,7 +2400,7 @@ PRUint32
 ;
 mHaveAlphaData
 =
-PR_TRUE
+true
 ;
 }
 SetPixel

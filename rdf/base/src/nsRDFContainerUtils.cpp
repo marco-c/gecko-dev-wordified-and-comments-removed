@@ -349,7 +349,7 @@ kRDFNameSpaceURI
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -386,7 +386,7 @@ _
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -423,7 +423,7 @@ s
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -437,7 +437,7 @@ s
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -852,7 +852,7 @@ kRDF_Alt
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -860,7 +860,7 @@ else
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -898,7 +898,7 @@ rv
 *
 _retval
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -915,7 +915,7 @@ GetTarget
 (
 aResource
 kRDF_nextVal
-PR_TRUE
+true
 getter_AddRefs
 (
 nextValNode
@@ -989,7 +989,7 @@ kOne
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1778,7 +1778,7 @@ Assert
 aResource
 kRDF_instanceOf
 aType
-PR_TRUE
+true
 )
 ;
 if
@@ -1801,7 +1801,7 @@ Assert
 aResource
 kRDF_nextVal
 kOne
-PR_TRUE
+true
 )
 ;
 if
@@ -1907,7 +1907,7 @@ argument
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -1926,7 +1926,7 @@ HasAssertion
 aResource
 kRDF_instanceOf
 aType
-PR_TRUE
+true
 &
 result
 )
@@ -1939,7 +1939,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 result
@@ -2115,7 +2115,7 @@ GetSources
 (
 property
 aElement
-PR_TRUE
+true
 getter_AddRefs
 (
 sources

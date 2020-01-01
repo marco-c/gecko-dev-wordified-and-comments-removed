@@ -964,7 +964,7 @@ theTagIsInline
 =
 theTagIsBlock
 ?
-PR_FALSE
+false
 :
 gHTMLElements
 [
@@ -2080,7 +2080,7 @@ aChar
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2097,12 +2097,12 @@ aToken
 >
 SetInError
 (
-PR_TRUE
+true
 )
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2121,7 +2121,7 @@ aToken
 >
 SetInError
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -2278,7 +2278,7 @@ aToken
 >
 SetInError
 (
-PR_TRUE
+true
 )
 ;
 result
@@ -2417,7 +2417,7 @@ theTag
 {
 isCDATA
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2430,7 +2430,7 @@ theTag
 {
 isCDATA
 =
-PR_FALSE
+false
 ;
 mFlags
 |
@@ -2704,7 +2704,7 @@ endToken
 >
 SetInError
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2767,7 +2767,7 @@ endToken
 >
 SetInError
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2981,7 +2981,7 @@ aToken
 >
 SetInError
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -3253,7 +3253,7 @@ aToken
 >
 SetInError
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3629,7 +3629,7 @@ Find
 "
 DOCTYPE
 "
-PR_FALSE
+false
 0
 0
 )

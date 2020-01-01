@@ -904,7 +904,7 @@ start
 end
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -941,11 +941,11 @@ idx
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -1177,7 +1177,7 @@ next
 r
 )
 return
-PR_FALSE
+false
 ;
 *
 r
@@ -1197,7 +1197,7 @@ input
 start
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1209,6 +1209,6 @@ next
 input
 ;
 return
-PR_TRUE
+true
 ;
 }

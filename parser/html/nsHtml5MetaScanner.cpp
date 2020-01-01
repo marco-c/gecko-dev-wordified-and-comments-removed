@@ -561,7 +561,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -789,7 +789,7 @@ NS_HTML5META_SCANNER_DATA
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -1035,7 +1035,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1674,7 +1674,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1859,7 +1859,7 @@ NS_HTML5META_SCANNER_BEFORE_ATTRIBUTE_NAME
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -1937,7 +1937,7 @@ NS_HTML5META_SCANNER_BEFORE_ATTRIBUTE_NAME
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -1964,7 +1964,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2321,7 +2321,7 @@ NS_HTML5META_SCANNER_SCAN_UNTIL_GT
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -2392,7 +2392,7 @@ NS_HTML5META_SCANNER_SCAN_UNTIL_GT
 ;
 reconsume
 =
-PR_TRUE
+true
 ;
 NS_HTML5_CONTINUE
 (
@@ -2779,7 +2779,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2859,7 +2859,7 @@ reconsume
 {
 reconsume
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3272,7 +3272,7 @@ charset
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3307,7 +3307,7 @@ extract
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3331,7 +3331,7 @@ success
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void

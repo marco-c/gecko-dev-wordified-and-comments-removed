@@ -213,7 +213,7 @@ mListIndex
 )
 mIsAnimValItem
 (
-PR_FALSE
+false
 )
 {
 }
@@ -374,7 +374,7 @@ nsnull
 ;
 mIsAnimValItem
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -945,7 +945,7 @@ HasOwner
 )
 =
 =
-PR_FALSE
+false
 *
 /
 \
@@ -1080,7 +1080,7 @@ Element
 >
 DidChangePathSegList
 (
-PR_TRUE
+true
 )
 ;
 \

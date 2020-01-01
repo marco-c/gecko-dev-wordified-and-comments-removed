@@ -293,7 +293,7 @@ error_exit
 :
 Close
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -606,7 +606,7 @@ bit
 ;
 mBitMapDirty
 =
-PR_TRUE
+true
 ;
 return
 (
@@ -758,7 +758,7 @@ mask
 ;
 mBitMapDirty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1087,7 +1087,7 @@ NS_ERROR_UNEXPECTED
 ;
 mBitMapDirty
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

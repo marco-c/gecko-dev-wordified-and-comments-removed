@@ -560,11 +560,11 @@ eHTML_Quirks
 ;
 mHasOpenRoot
 =
-PR_FALSE
+false
 ;
 mHasOpenBody
 =
-PR_FALSE
+false
 ;
 mTokenCount
 =
@@ -1348,7 +1348,7 @@ result
 {
 mHasOpenRoot
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1501,7 +1501,7 @@ result
 )
 mHasOpenBody
 =
-PR_TRUE
+true
 ;
 }
 IF_FREE
@@ -3528,7 +3528,7 @@ WriteTag
 kText
 newlineValue
 0
-PR_FALSE
+false
 )
 ;
 +
@@ -3578,7 +3578,7 @@ WriteTag
 kText
 wsValue
 0
-PR_FALSE
+false
 )
 ;
 +
@@ -4710,7 +4710,7 @@ ch
 '
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -4723,7 +4723,7 @@ t
 '
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -4736,7 +4736,7 @@ r
 '
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -4749,7 +4749,7 @@ n
 '
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -4762,7 +4762,7 @@ ch
 '
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -4774,10 +4774,10 @@ ch
 '
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -5204,7 +5204,7 @@ end
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5218,7 +5218,7 @@ start
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -5226,7 +5226,7 @@ PR_FALSE
 start
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

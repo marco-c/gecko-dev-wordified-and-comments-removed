@@ -374,7 +374,7 @@ aStartup
 {
 replace
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -582,7 +582,7 @@ nsIBrowserProfileMigrator
 :
 :
 HISTORY
-PR_FALSE
+false
 }
 {
 ToNewUnicode
@@ -593,7 +593,7 @@ nsIBrowserProfileMigrator
 :
 :
 BOOKMARKS
-PR_FALSE
+false
 }
 }
 ;
@@ -629,7 +629,7 @@ nsIBrowserProfileMigrator
 :
 :
 COOKIES
-PR_FALSE
+false
 }
 }
 ;
@@ -687,7 +687,7 @@ nsIBrowserProfileMigrator
 :
 :
 SETTINGS
-PR_FALSE
+false
 }
 }
 ;
@@ -794,7 +794,7 @@ data
 GetMigrateData
 (
 nsnull
-PR_FALSE
+false
 &
 data
 )
@@ -825,7 +825,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1224,11 +1224,11 @@ valueLength
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1318,12 +1318,12 @@ Elements
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1411,11 +1411,11 @@ valueLength
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -1460,7 +1460,7 @@ _SPM
 (
 SetBoolInverted
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1486,7 +1486,7 @@ _SPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1514,7 +1514,7 @@ _SPM
 (
 SetBoolInverted
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1542,7 +1542,7 @@ _SPM
 (
 SetDownloadFolder
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1564,7 +1564,7 @@ _SPM
 (
 SetDownloadHandlers
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1594,7 +1594,7 @@ _SPM
 (
 SetDownloadRetention
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1622,7 +1622,7 @@ _SPM
 (
 SetDefaultEncoding
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1651,7 +1651,7 @@ _SPM
 (
 SetFontName
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1680,7 +1680,7 @@ _SPM
 (
 SetFontSize
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1709,7 +1709,7 @@ _SPM
 (
 SetFontName
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1738,7 +1738,7 @@ _SPM
 (
 SetFontSize
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1767,7 +1767,7 @@ _SPM
 (
 SetFontSize
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1795,7 +1795,7 @@ _SPM
 (
 SetDisplayImages
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1821,7 +1821,7 @@ _SPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1847,7 +1847,7 @@ _SPM
 (
 SetBoolInverted
 )
-PR_FALSE
+false
 {
 -
 1
@@ -2687,7 +2687,7 @@ xform
 >
 stringValue
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 downloadFolder
@@ -3106,7 +3106,7 @@ overridesList
 RemoveElementAt
 (
 i
-PR_FALSE
+false
 getter_AddRefs
 (
 currOverrideNode
@@ -3138,7 +3138,7 @@ GetTarget
 (
 currOverride
 handlerPropArc
-PR_TRUE
+true
 getter_AddRefs
 (
 handlerPropNode
@@ -3175,7 +3175,7 @@ GetTarget
 (
 handlerPropResource
 externalApplicationArc
-PR_TRUE
+true
 getter_AddRefs
 (
 externalApplicationNode
@@ -3341,7 +3341,7 @@ GetTarget
 (
 aResource
 currArc
-PR_TRUE
+true
 getter_AddRefs
 (
 currTarget
@@ -3751,7 +3751,7 @@ transform
 >
 prefHasValue
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -3811,7 +3811,7 @@ transform
 >
 prefHasValue
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3871,7 +3871,7 @@ transform
 >
 prefHasValue
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3916,7 +3916,7 @@ transform
 >
 prefHasValue
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -4368,9 +4368,9 @@ domain
 path
 name
 value
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 expiryTime
 )
 ;
@@ -4456,7 +4456,7 @@ rv
 =
 CopyHistoryBatched
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -4468,7 +4468,7 @@ rv
 =
 CopyHistoryBatched
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -4480,7 +4480,7 @@ rv
 =
 CopyBookmarksBatched
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -4492,7 +4492,7 @@ rv
 =
 CopyBookmarksBatched
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -5454,7 +5454,7 @@ ParseBookmarksFolder
 children
 folder
 bms
-PR_TRUE
+true
 )
 ;
 }
@@ -5678,7 +5678,7 @@ ParseBookmarksFolder
 children
 toolbarFolder
 aBookmarksService
-PR_FALSE
+false
 )
 ;
 }
@@ -5706,7 +5706,7 @@ ParseBookmarksFolder
 children
 aParentFolder
 aBookmarksService
-PR_TRUE
+true
 )
 ;
 }
@@ -5744,7 +5744,7 @@ ParseBookmarksFolder
 children
 folder
 aBookmarksService
-PR_FALSE
+false
 )
 ;
 }
@@ -5915,7 +5915,7 @@ RecentSearchStrings
 )
 hasFormData
 =
-PR_TRUE
+true
 ;
 :
 :
@@ -6189,7 +6189,7 @@ rv
 NS_NewNativeLocalFile
 (
 path
-PR_FALSE
+false
 getter_AddRefs
 (
 file
@@ -6341,7 +6341,7 @@ rv
 NS_NewLocalFile
 (
 path
-PR_FALSE
+false
 getter_AddRefs
 (
 file

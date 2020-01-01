@@ -1086,7 +1086,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 protected
@@ -3568,7 +3568,7 @@ sEmptyBuffer
 {
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4469,7 +4469,7 @@ StringWrapperEntry
 :
 mInUse
 (
-PR_FALSE
+false
 )
 {
 }
@@ -12449,7 +12449,7 @@ aCache
 )
 mIsNode
 (
-PR_FALSE
+false
 )
 {
 if
@@ -15147,11 +15147,11 @@ mState
 )
 mErrorReporterSet
 (
-PR_FALSE
+false
 )
 mEvaluated
 (
-PR_FALSE
+false
 )
 mContextHasThread
 (

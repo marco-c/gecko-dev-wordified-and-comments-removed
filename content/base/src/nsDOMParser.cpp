@@ -181,7 +181,7 @@ nsDOMParser
 :
 mAttemptedInit
 (
-PR_FALSE
+false
 )
 {
 }
@@ -833,7 +833,7 @@ getter_AddRefs
 (
 listener
 )
-PR_FALSE
+false
 )
 ;
 document
@@ -1023,7 +1023,7 @@ mAttemptedInit
 ;
 mAttemptedInit
 =
-PR_TRUE
+true
 ;
 NS_ENSURE_ARG
 (
@@ -1273,7 +1273,7 @@ JSVAL_NULL
 *
 wasNull
 =
-PR_TRUE
+true
 ;
 return
 nsQueryInterface
@@ -1285,7 +1285,7 @@ nsnull
 *
 wasNull
 =
-PR_FALSE
+false
 ;
 if
 (

@@ -325,7 +325,7 @@ f
 get
 (
 )
-PR_TRUE
+true
 )
 ;
 }

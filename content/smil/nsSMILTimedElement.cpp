@@ -426,7 +426,7 @@ Run
 nsUIEvent
 event
 (
-PR_TRUE
+true
 mMsg
 mDetail
 )
@@ -536,7 +536,7 @@ mTimedElement
 .
 mDeferIntervalUpdates
 =
-PR_TRUE
+true
 ;
 }
 ~
@@ -555,7 +555,7 @@ mTimedElement
 .
 mDeferIntervalUpdates
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -568,7 +568,7 @@ mTimedElement
 .
 mDoDeferredUpdate
 =
-PR_FALSE
+false
 ;
 mTimedElement
 .
@@ -790,7 +790,7 @@ nsSMILTimedElement
 sMaxMilestone
 (
 LL_MAXINT
-PR_FALSE
+false
 )
 ;
 const
@@ -869,11 +869,11 @@ SEEK_NOT_SEEKING
 )
 mDeferIntervalUpdates
 (
-PR_FALSE
+false
 )
 mDoDeferredUpdate
 (
-PR_FALSE
+false
 )
 mUpdateIntervalRecursionDepth
 (
@@ -1137,7 +1137,7 @@ AddInstanceTimeFromCurrentTime
 (
 currentTime
 aOffsetSeconds
-PR_TRUE
+true
 )
 ;
 }
@@ -1182,7 +1182,7 @@ AddInstanceTimeFromCurrentTime
 (
 currentTime
 aOffsetSeconds
-PR_FALSE
+false
 )
 ;
 }
@@ -1607,7 +1607,7 @@ GetCreator
 mCreator
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1627,11 +1627,11 @@ Unlink
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 private
@@ -1728,7 +1728,7 @@ sMaxMilestone
 DoSampleAt
 (
 aContainerTime
-PR_FALSE
+false
 )
 ;
 }
@@ -1763,7 +1763,7 @@ STATE_STARTUP
 DoSampleAt
 (
 aContainerTime
-PR_TRUE
+true
 )
 ;
 }
@@ -1908,7 +1908,7 @@ IsSeeking
 {
 finishedSeek
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -1982,7 +1982,7 @@ states
 endif
 stateChanged
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -2012,7 +2012,7 @@ STATE_POSTACTIVE
 ;
 stateChanged
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2132,7 +2132,7 @@ UpdateCurrentInterval
 }
 stateChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2277,8 +2277,8 @@ Length
 -
 1
 ]
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -2301,7 +2301,7 @@ FilterHistory
 ;
 stateChanged
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2493,8 +2493,8 @@ STATE_ACTIVE
 NotifyChangedInterval
 (
 mCurrentInterval
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -2658,7 +2658,7 @@ mClient
 >
 Inactivate
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3024,7 +3024,7 @@ else
 {
 foundMatch
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -3229,7 +3229,7 @@ else
 {
 foundMatch
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -3258,7 +3258,7 @@ SetBeginOrEndSpec
 (
 aBeginSpec
 aContextNode
-PR_TRUE
+true
 aRemove
 )
 ;
@@ -3307,7 +3307,7 @@ SetBeginOrEndSpec
 (
 aEndSpec
 aContextNode
-PR_FALSE
+false
 aRemove
 )
 ;
@@ -3765,7 +3765,7 @@ ParseEnumValue
 (
 aRestartSpec
 sRestartModeTable
-PR_TRUE
+true
 )
 ;
 mRestartMode
@@ -4008,7 +4008,7 @@ ParseEnumValue
 (
 aFillModeSpec
 sFillModeTable
-PR_TRUE
+true
 )
 ;
 mFillMode
@@ -4136,7 +4136,7 @@ mClient
 >
 Inactivate
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4261,7 +4261,7 @@ thisBegin
 otherBegin
 )
 return
-PR_FALSE
+false
 ;
 return
 thisBegin
@@ -5216,7 +5216,7 @@ earlyEnd
 }
 updated
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5683,7 +5683,7 @@ interval
 >
 Unlink
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -6064,7 +6064,7 @@ RESTART_NEVER
 aPrevInterval
 )
 return
-PR_FALSE
+false
 ;
 nsSMILTimeValue
 beginAfter
@@ -6174,7 +6174,7 @@ tempEnd
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -6195,7 +6195,7 @@ beginAfter
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 tempBegin
@@ -6288,7 +6288,7 @@ IsDefinite
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -6469,7 +6469,7 @@ tempEnd
 openEndedIntervalOk
 )
 return
-PR_FALSE
+false
 ;
 nsSMILTimeValue
 intervalEnd
@@ -6593,14 +6593,14 @@ GetMillis
 ;
 prevIntervalWasZeroDur
 =
-PR_FALSE
+false
 ;
 continue
 ;
 }
 prevIntervalWasZeroDur
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -6650,7 +6650,7 @@ tempEnd
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6662,7 +6662,7 @@ RESTART_NEVER
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 beginAfter
@@ -6693,7 +6693,7 @@ here
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsSMILInstanceTime
@@ -7545,7 +7545,7 @@ mDeferIntervalUpdates
 {
 mDoDeferredUpdate
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -7579,7 +7579,7 @@ sMaxUpdateIntervalRecursionDepth
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 Update
 current
@@ -7726,7 +7726,7 @@ Begin
 ;
 beginChanged
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7766,7 +7766,7 @@ End
 ;
 endChanged
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7844,8 +7844,8 @@ Begin
 NotifyChangedInterval
 (
 mCurrentInterval
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -8272,7 +8272,7 @@ aNextMilestone
 .
 mIsEnd
 =
-PR_TRUE
+true
 ;
 aNextMilestone
 .
@@ -8281,7 +8281,7 @@ mTime
 0
 ;
 return
-PR_TRUE
+true
 ;
 case
 STATE_WAITING
@@ -8308,7 +8308,7 @@ aNextMilestone
 .
 mIsEnd
 =
-PR_FALSE
+false
 ;
 aNextMilestone
 .
@@ -8331,7 +8331,7 @@ GetMillis
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 STATE_ACTIVE
@@ -8426,7 +8426,7 @@ aNextMilestone
 .
 mIsEnd
 =
-PR_TRUE
+true
 ;
 aNextMilestone
 .
@@ -8444,7 +8444,7 @@ GetMillis
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -8476,24 +8476,24 @@ GetMillis
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 case
 STATE_POSTACTIVE
 :
 return
-PR_FALSE
+false
 ;
 default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 Invalid
 element
@@ -8502,7 +8502,7 @@ state
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -8848,7 +8848,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 mEndInstances
@@ -8908,11 +8908,11 @@ IsEventBased
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PR_CALLBACK

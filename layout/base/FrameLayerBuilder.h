@@ -117,11 +117,11 @@ nsnull
 )
 mDetectedDOMModification
 (
-PR_FALSE
+false
 )
 mInvalidateAllLayers
 (
-PR_FALSE
+false
 )
 {
 mNewDisplayItemData
@@ -641,7 +641,7 @@ Clip
 :
 mHaveClipRect
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1012,7 +1012,7 @@ nsnull
 )
 mHasExplicitLastPaintOffset
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1074,7 +1074,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 }

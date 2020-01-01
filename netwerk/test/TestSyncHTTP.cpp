@@ -368,7 +368,7 @@ httpChannel
 >
 SetOpenHasEventQueue
 (
-PR_FALSE
+false
 )
 ;
 c

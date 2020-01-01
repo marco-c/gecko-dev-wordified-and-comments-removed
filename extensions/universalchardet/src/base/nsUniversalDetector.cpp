@@ -51,7 +51,7 @@ aLanguageFilter
 {
 mDone
 =
-PR_FALSE
+false
 ;
 mBestGuess
 =
@@ -60,7 +60,7 @@ mBestGuess
 ;
 mInTag
 =
-PR_FALSE
+false
 ;
 mEscCharSetProber
 =
@@ -68,7 +68,7 @@ nsnull
 ;
 mStart
 =
-PR_TRUE
+true
 ;
 mDetectedCharset
 =
@@ -76,7 +76,7 @@ nsnull
 ;
 mGotData
 =
-PR_FALSE
+false
 ;
 mInputState
 =
@@ -161,7 +161,7 @@ Reset
 {
 mDone
 =
-PR_FALSE
+false
 ;
 mBestGuess
 =
@@ -170,11 +170,11 @@ mBestGuess
 ;
 mInTag
 =
-PR_FALSE
+false
 ;
 mStart
 =
-PR_TRUE
+true
 ;
 mDetectedCharset
 =
@@ -182,7 +182,7 @@ nsnull
 ;
 mGotData
 =
-PR_FALSE
+false
 ;
 mInputState
 =
@@ -288,7 +288,7 @@ aLen
 )
 mGotData
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -297,7 +297,7 @@ mStart
 {
 mStart
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -424,7 +424,7 @@ mDetectedCharset
 {
 mDone
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -728,7 +728,7 @@ eFoundIt
 {
 mDone
 =
-PR_TRUE
+true
 ;
 mDetectedCharset
 =
@@ -792,7 +792,7 @@ eFoundIt
 {
 mDone
 =
-PR_TRUE
+true
 ;
 mDetectedCharset
 =
@@ -846,7 +846,7 @@ mDetectedCharset
 {
 mDone
 =
-PR_TRUE
+true
 ;
 Report
 (

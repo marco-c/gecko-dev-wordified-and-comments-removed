@@ -1053,7 +1053,7 @@ AddObserver
 (
 gObserver
 NS_CACHESERVICE_EMPTYCACHE_TOPIC_ID
-PR_FALSE
+false
 )
 ;
 obsSvc
@@ -1067,7 +1067,7 @@ memory
 -
 pressure
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -2596,7 +2596,7 @@ currentTxn
 >
 SetPersist
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2729,7 +2729,7 @@ aCanGoBack
 *
 aCanGoBack
 =
-PR_FALSE
+false
 ;
 PRInt32
 index
@@ -2756,7 +2756,7 @@ index
 *
 aCanGoBack
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2781,7 +2781,7 @@ aCanGoForward
 *
 aCanGoForward
 =
-PR_FALSE
+false
 ;
 PRInt32
 index
@@ -2838,7 +2838,7 @@ count
 *
 aCanGoForward
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3842,7 +3842,7 @@ mIndex
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4343,7 +4343,7 @@ aContainer
 NS_ENSURE_TRUE
 (
 root
-PR_FALSE
+false
 )
 ;
 bool
@@ -4433,7 +4433,7 @@ docshelldID
 {
 didRemove
 =
-PR_TRUE
+true
 ;
 aContainer
 -
@@ -4478,7 +4478,7 @@ childRemoved
 {
 didRemove
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4517,7 +4517,7 @@ aHistory
 GetEntryAtIndex
 (
 aIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 rootHE
@@ -4544,7 +4544,7 @@ root
 aEntryIDs
 )
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -4569,7 +4569,7 @@ aEntry2
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -4593,7 +4593,7 @@ aEntry2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -4627,7 +4627,7 @@ id2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -4741,12 +4741,12 @@ child2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4843,7 +4843,7 @@ rootHE2
 GetEntryAtIndex
 (
 aIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 rootHE1
@@ -4853,7 +4853,7 @@ rootHE1
 GetEntryAtIndex
 (
 compareIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 rootHE2
@@ -4921,13 +4921,13 @@ txToKeep
 NS_ENSURE_TRUE
 (
 txToRemove
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
 (
 txToKeep
-PR_FALSE
+false
 )
 ;
 txToRemove
@@ -5110,11 +5110,11 @@ mRequestedIndex
 mLength
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -5284,7 +5284,7 @@ originalSH
 GetEntryAtIndex
 (
 aOldIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 originalSH
@@ -5324,7 +5324,7 @@ GetDynamicChildren
 (
 originalContainer
 originalDynDocShellIDs
-PR_TRUE
+true
 )
 ;
 if
@@ -5345,7 +5345,7 @@ currentSH
 GetEntryAtIndex
 (
 aNewIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 currentSH
@@ -5378,7 +5378,7 @@ GetDynamicChildren
 (
 newContainer
 newDynDocShellIDs
-PR_FALSE
+false
 )
 ;
 for
@@ -5551,7 +5551,7 @@ rv
 GetEntryAtIndex
 (
 mIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 currentEntry
@@ -5779,7 +5779,7 @@ prevEntry
 GetEntryAtIndex
 (
 mIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 prevEntry
@@ -5795,7 +5795,7 @@ nextEntry
 GetEntryAtIndex
 (
 mRequestedIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 nextEntry
@@ -6311,14 +6311,14 @@ aIsFrameFound
 *
 aIsFrameFound
 =
-PR_TRUE
+true
 ;
 aNextEntry
 -
 >
 SetIsSubFrame
 (
-PR_TRUE
+true
 )
 ;
 InitiateLoad
@@ -6823,7 +6823,7 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_NONE
-PR_FALSE
+false
 )
 ;
 }
@@ -6983,7 +6983,7 @@ cnt
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 mSHistory
 -
@@ -7015,7 +7015,7 @@ cnt
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -7087,7 +7087,7 @@ mSHistory
 GetEntryAtIndex
 (
 mIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 hEntry

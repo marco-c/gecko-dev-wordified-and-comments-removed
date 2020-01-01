@@ -228,7 +228,7 @@ Malloc
 items
 *
 size
-PR_TRUE
+true
 )
 ;
 }

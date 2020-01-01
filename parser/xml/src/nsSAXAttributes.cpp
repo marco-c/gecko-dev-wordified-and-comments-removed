@@ -251,7 +251,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -312,7 +312,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -373,7 +373,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -457,7 +457,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -517,7 +517,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -559,7 +559,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -620,7 +620,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -704,7 +704,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -764,7 +764,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }

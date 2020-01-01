@@ -111,7 +111,7 @@ GetDOMWrapper
 (
 key
 this
-PR_FALSE
+false
 )
 .
 get
@@ -154,7 +154,7 @@ GetDOMWrapper
 (
 key
 this
-PR_TRUE
+true
 )
 .
 get
@@ -238,10 +238,10 @@ nsGkAtoms
 points
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 void

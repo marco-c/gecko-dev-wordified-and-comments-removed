@@ -2421,7 +2421,7 @@ mCharacters
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -3543,7 +3543,7 @@ jstr
 {
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -3588,7 +3588,7 @@ jCharPtr
 {
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -3615,7 +3615,7 @@ len
 {
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }

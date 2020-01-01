@@ -56,7 +56,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -77,7 +77,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 already_AddRefed
@@ -109,7 +109,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -132,7 +132,7 @@ SurfaceDescriptor
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void

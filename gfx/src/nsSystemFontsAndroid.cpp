@@ -96,7 +96,7 @@ aFontStyle
 >
 systemFont
 =
-PR_TRUE
+true
 ;
 *
 aFontName

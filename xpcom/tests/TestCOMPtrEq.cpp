@@ -199,7 +199,7 @@ return
 (
 !
 (
-PR_TRUE
+true
 &
 &
 (
@@ -991,7 +991,7 @@ d2
 &
 #
 endif
-PR_TRUE
+true
 )
 )
 ;

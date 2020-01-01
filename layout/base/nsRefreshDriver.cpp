@@ -143,7 +143,7 @@ frame_rate
 .
 precise
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -895,7 +895,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 bad
 flush
@@ -1247,7 +1247,7 @@ i
 nsEvent
 ev
 (
-PR_TRUE
+true
 NS_BEFOREPAINT
 )
 ;
@@ -1406,7 +1406,7 @@ FrameConstructor
 >
 mObservingRefreshDriver
 =
-PR_FALSE
+false
 ;
 shell
 -
@@ -1530,14 +1530,14 @@ shell
 >
 mReflowScheduled
 =
-PR_FALSE
+false
 ;
 shell
 -
 >
 mSuppressInterruptibleReflows
 =
-PR_FALSE
+false
 ;
 shell
 -

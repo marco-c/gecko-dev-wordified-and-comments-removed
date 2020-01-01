@@ -272,7 +272,7 @@ aDefaultBranch
 ;
 mFreeingObserverList
 =
-PR_FALSE
+false
 ;
 mObservers
 .
@@ -312,7 +312,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_TRUE
+true
 )
 ;
 -
@@ -881,7 +881,7 @@ mIsDefault
 {
 bNeedDefault
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -904,7 +904,7 @@ pref
 {
 bNeedDefault
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1320,7 +1320,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 theFile
@@ -2142,7 +2142,7 @@ return
 PREF_LockPref
 (
 pref
-PR_TRUE
+true
 )
 ;
 }
@@ -2271,7 +2271,7 @@ return
 PREF_LockPref
 (
 pref
-PR_FALSE
+false
 )
 ;
 }
@@ -3060,7 +3060,7 @@ void
 {
 mFreeingObserverList
 =
-PR_TRUE
+true
 ;
 mObservers
 .
@@ -3073,7 +3073,7 @@ nsnull
 ;
 mFreeingObserverList
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -3143,7 +3143,7 @@ getter_Copies
 (
 propertyFileURL
 )
-PR_TRUE
+true
 )
 ;
 if

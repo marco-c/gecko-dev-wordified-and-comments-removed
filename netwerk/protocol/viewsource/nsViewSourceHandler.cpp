@@ -279,7 +279,7 @@ ourURI
 >
 SetMutable
 (
-PR_FALSE
+false
 )
 ;
 uri
@@ -400,7 +400,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

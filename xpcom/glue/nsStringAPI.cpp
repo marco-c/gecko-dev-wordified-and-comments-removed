@@ -1101,7 +1101,7 @@ selflen
 otherlen
 )
 return
-PR_FALSE
+false
 ;
 return
 c
@@ -1169,7 +1169,7 @@ selflen
 otherlen
 )
 return
-PR_FALSE
+false
 ;
 return
 c
@@ -1253,7 +1253,7 @@ aASCIIString
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1338,7 +1338,7 @@ aASCIIString
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1512,7 +1512,7 @@ aStr
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1527,11 +1527,11 @@ aStr
 aSubstring
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1576,7 +1576,7 @@ aStr
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1597,11 +1597,11 @@ aSubstring
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -3263,7 +3263,7 @@ selflen
 otherlen
 )
 return
-PR_FALSE
+false
 ;
 return
 c
@@ -3331,7 +3331,7 @@ selflen
 otherlen
 )
 return
-PR_FALSE
+false
 ;
 return
 c
@@ -5119,7 +5119,7 @@ oldLength
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -5149,6 +5149,6 @@ break
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

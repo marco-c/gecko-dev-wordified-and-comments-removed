@@ -164,8 +164,8 @@ getter_AddRefs
 (
 outputStream
 )
-PR_TRUE
-PR_FALSE
+true
+false
 0
 PR_UINT32_MAX
 )

@@ -180,7 +180,7 @@ text
 html
 "
 )
-PR_TRUE
+true
 )
 ;
 aConBuf

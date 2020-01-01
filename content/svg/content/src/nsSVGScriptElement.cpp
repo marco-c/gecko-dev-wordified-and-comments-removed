@@ -311,7 +311,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_FALSE
+false
 }
 }
 ;
@@ -542,7 +542,7 @@ nsGkAtoms
 :
 type
 aType
-PR_TRUE
+true
 )
 ;
 }
@@ -605,7 +605,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_FALSE
+false
 text
 )
 ;
@@ -693,12 +693,12 @@ baseURI
 ;
 mExternal
 =
-PR_TRUE
+true
 ;
 }
 mFrozen
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -802,7 +802,7 @@ aHaveNotified
 {
 mDoneAddingChildren
 =
-PR_TRUE
+true
 ;
 nsresult
 rv

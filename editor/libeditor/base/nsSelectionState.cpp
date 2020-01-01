@@ -451,7 +451,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -475,7 +475,7 @@ range
 NS_ENSURE_TRUE
 (
 range
-PR_FALSE
+false
 )
 ;
 bool
@@ -510,7 +510,7 @@ aSelState
 NS_ENSURE_TRUE
 (
 aSelState
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -541,7 +541,7 @@ myCount
 itsCount
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -550,7 +550,7 @@ myCount
 1
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -609,7 +609,7 @@ myRange
 &
 &
 itsRange
-PR_FALSE
+false
 )
 ;
 PRInt16
@@ -645,7 +645,7 @@ rv
 compResult
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -674,11 +674,11 @@ rv
 compResult
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -724,7 +724,7 @@ mArray
 )
 mLock
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2366,7 +2366,7 @@ NS_ERROR_UNEXPECTED
 ;
 mLock
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2394,7 +2394,7 @@ NS_ERROR_UNEXPECTED
 ;
 mLock
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -2521,7 +2521,7 @@ NS_ERROR_UNEXPECTED
 ;
 mLock
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2553,7 +2553,7 @@ NS_ERROR_UNEXPECTED
 ;
 mLock
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -2780,7 +2780,7 @@ NS_ERROR_UNEXPECTED
 ;
 mLock
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2802,7 +2802,7 @@ NS_ERROR_UNEXPECTED
 ;
 mLock
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2825,7 +2825,7 @@ NS_ERROR_UNEXPECTED
 ;
 mLock
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2857,7 +2857,7 @@ NS_ERROR_UNEXPECTED
 ;
 mLock
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (

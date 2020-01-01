@@ -1882,11 +1882,11 @@ SizeTo
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -1930,7 +1930,7 @@ height
 *
 aIsOverridable
 =
-PR_TRUE
+true
 ;
 QStyle
 *
@@ -2951,7 +2951,7 @@ break
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2965,7 +2965,7 @@ aWidgetType
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -3005,11 +3005,11 @@ NS_THEME_TREEVIEW_HEADER_CELL
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3021,7 +3021,7 @@ ThemeNeedsComboboxDropmarker
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void

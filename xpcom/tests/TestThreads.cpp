@@ -341,7 +341,7 @@ twice
 ;
 mWasRun
 =
-PR_TRUE
+true
 ;
 PR_Sleep
 (
@@ -389,7 +389,7 @@ num
 )
 mWasRun
 (
-PR_FALSE
+false
 )
 {
 PR_AtomicIncrement

@@ -326,7 +326,7 @@ aValue
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 return

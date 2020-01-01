@@ -184,7 +184,7 @@ aLength
 )
 mFontSelected
 (
-PR_FALSE
+false
 )
 mIVS
 (
@@ -287,7 +287,7 @@ a
 .
 fLogicalOrder
 =
-PR_TRUE
+true
 ;
 SCRIPT_ANALYSIS
 sa
@@ -299,7 +299,7 @@ a
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 rv
@@ -676,7 +676,7 @@ a
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 rv
@@ -944,7 +944,7 @@ g
 SetComplex
 (
 atClusterStart
-PR_FALSE
+false
 0
 )
 ;
@@ -1061,7 +1061,7 @@ j
 {
 missing
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1402,7 +1402,7 @@ g
 SetComplex
 (
 atClusterStart
-PR_TRUE
+true
 glyphCount
 )
 detailedGlyphs
@@ -1498,7 +1498,7 @@ mDC
 ;
 mFontSelected
 =
-PR_TRUE
+true
 ;
 }
 private
@@ -1799,7 +1799,7 @@ mState
 .
 fOverrideDirection
 =
-PR_TRUE
+true
 ;
 }
 public
@@ -2227,7 +2227,7 @@ AllocateBuffers
 {
 result
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2359,7 +2359,7 @@ rv
 {
 result
 =
-PR_FALSE
+false
 ;
 break
 ;

@@ -581,7 +581,7 @@ imageFormat
 ;
 needsClear
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -993,7 +993,7 @@ FLAG_FORMAT_TRUETYPE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1005,11 +1005,11 @@ aFormatFlags
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -1348,7 +1348,7 @@ fe
 >
 mItalic
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1387,7 +1387,7 @@ fe
 >
 mItalic
 =
-PR_TRUE
+true
 ;
 }
 }

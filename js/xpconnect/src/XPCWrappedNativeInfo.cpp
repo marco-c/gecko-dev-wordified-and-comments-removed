@@ -2299,7 +2299,7 @@ XPCNativeInterface
 iidCount
 ]
 iidCount
-PR_TRUE
+true
 )
 ;
 if

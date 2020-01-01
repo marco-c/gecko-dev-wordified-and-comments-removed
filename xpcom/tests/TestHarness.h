@@ -289,9 +289,9 @@ profileName
 return
 ok
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 inline
@@ -331,9 +331,9 @@ JS_StopProfiling
 profileName
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 class
@@ -469,7 +469,7 @@ mProfD
 >
 Remove
 (
-PR_TRUE
+true
 )
 )
 )
@@ -790,7 +790,7 @@ rv
 *
 _persistent
 =
-PR_TRUE
+true
 ;
 clone
 .

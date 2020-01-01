@@ -502,8 +502,8 @@ tmp
 .
 CompressWhitespace
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 PRUnichar
@@ -551,11 +551,11 @@ ParseEnumValue
 (
 aValue
 kRelFontSizeTable
-PR_FALSE
+false
 )
 )
 return
-PR_TRUE
+true
 ;
 PRUint32
 i
@@ -618,7 +618,7 @@ ParseEnumValue
 (
 tmp
 kRelFontSizeTable
-PR_FALSE
+false
 )
 ;
 }

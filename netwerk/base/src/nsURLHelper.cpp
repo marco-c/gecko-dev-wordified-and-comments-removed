@@ -277,7 +277,7 @@ gStdURLParser
 }
 gInitialized
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -307,7 +307,7 @@ gStdURLParser
 ;
 gInitialized
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1831,7 +1831,7 @@ case
 :
 stop
 =
-PR_TRUE
+true
 ;
 case
 '
@@ -1887,7 +1887,7 @@ RFind
 "
 /
 "
-PR_FALSE
+false
 offset
 )
 ;
@@ -1956,7 +1956,7 @@ name
 ;
 needsDelim
 =
-PR_TRUE
+true
 ;
 }
 name
@@ -2279,7 +2279,7 @@ scheme
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -2346,11 +2346,11 @@ scheme
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2440,7 +2440,7 @@ n
 {
 writing
 =
-PR_TRUE
+true
 ;
 str
 =
@@ -2502,7 +2502,7 @@ found_colon
 {
 writing
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2548,7 +2548,7 @@ case
 :
 found_colon
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2569,7 +2569,7 @@ found_colon
 {
 found_colon
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2618,7 +2618,7 @@ first
 ;
 found_colon
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2652,7 +2652,7 @@ p
 {
 writing
 =
-PR_TRUE
+true
 ;
 p
 -
@@ -2779,7 +2779,7 @@ s
 {
 writing
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3349,7 +3349,7 @@ stringEnd
 }
 while
 (
-PR_TRUE
+true
 )
 ;
 NS_NOTREACHED
@@ -3489,7 +3489,7 @@ searchStart
 }
 while
 (
-PR_TRUE
+true
 )
 ;
 NS_NOTREACHED
@@ -3739,7 +3739,7 @@ curParamEnd
 ;
 typeHasCharset
 =
-PR_TRUE
+true
 ;
 charsetParamStart
 =
@@ -3960,7 +3960,7 @@ typeHasCharset
 *
 aHadCharset
 =
-PR_TRUE
+true
 ;
 aContentCharset
 .
@@ -4104,7 +4104,7 @@ aCharsetEnd
 *
 aHadCharset
 =
-PR_FALSE
+false
 ;
 const
 nsCString
@@ -4220,7 +4220,7 @@ _
 end
 )
 return
-PR_TRUE
+true
 ;
 nsCAutoString
 strhost
@@ -4318,7 +4318,7 @@ octet
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 octet
@@ -4357,7 +4357,7 @@ octet
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -4404,14 +4404,14 @@ octet
 255
 )
 return
-PR_FALSE
+false
 ;
 }
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4537,17 +4537,17 @@ if
 haveZeros
 )
 return
-PR_FALSE
+false
 ;
 haveZeros
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 colons
@@ -4632,7 +4632,7 @@ blocks
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4642,7 +4642,7 @@ digits
 4
 )
 return
-PR_FALSE
+false
 ;
 colons
 =
@@ -4683,7 +4683,7 @@ digits
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -4711,7 +4711,7 @@ blocks
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4723,7 +4723,7 @@ colons
 1
 )
 return
-PR_FALSE
+false
 ;
 if
 (

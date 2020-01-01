@@ -837,7 +837,7 @@ AddObserver
 (
 this
 DOM_WINDOW_DESTROYED_TOPIC
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS

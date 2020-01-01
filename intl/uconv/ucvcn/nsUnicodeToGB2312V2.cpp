@@ -124,7 +124,7 @@ UnicodeToGBKChar
 (
 *
 aSrc
-PR_FALSE
+false
 &
 byte1
 &

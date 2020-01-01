@@ -326,7 +326,7 @@ GetNumberOfChars
 {
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -348,7 +348,7 @@ GetComputedTextLength
 {
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -374,7 +374,7 @@ nchars
 {
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -401,7 +401,7 @@ point
 {
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -430,7 +430,7 @@ _retval
 {
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -460,7 +460,7 @@ _retval
 {
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -490,7 +490,7 @@ _retval
 {
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -519,7 +519,7 @@ _retval
 {
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -611,7 +611,7 @@ unsuspended
 ;
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -640,7 +640,7 @@ aDirtyRect
 {
 UpdateGlyphPositioning
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -672,7 +672,7 @@ aPoint
 {
 UpdateGlyphPositioning
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -695,7 +695,7 @@ UpdateCoveredRegion
 {
 UpdateGlyphPositioning
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -727,7 +727,7 @@ InitialUpdate
 ;
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -750,7 +750,7 @@ aFlags
 {
 UpdateGlyphPositioning
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -853,11 +853,11 @@ NotifyGlyphMetricsChange
 {
 mPositioningDirty
 =
-PR_TRUE
+true
 ;
 UpdateGlyphPositioning
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -940,7 +940,7 @@ lastNonWhitespaceFrame
 >
 SetTrimTrailingWhitespace
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -969,7 +969,7 @@ return
 ;
 mPositioningDirty
 =
-PR_FALSE
+false
 ;
 nsISVGGlyphFragmentNode
 *

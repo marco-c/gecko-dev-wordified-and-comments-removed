@@ -839,7 +839,7 @@ PRInt64
 -
 1
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 srcTransport
@@ -880,7 +880,7 @@ PRInt64
 -
 1
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 destTransport
@@ -1082,7 +1082,7 @@ PRInt64
 -
 1
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 destTransport
@@ -1367,7 +1367,7 @@ nsDependentCString
 (
 fileName
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 srcFile

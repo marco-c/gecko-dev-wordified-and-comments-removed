@@ -135,7 +135,7 @@ newbinding
 >
 mHasDependency
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -277,7 +277,7 @@ if
 valuesArray
 )
 return
-PR_FALSE
+false
 ;
 RDFBinding
 *
@@ -343,7 +343,7 @@ aTarget
 ;
 needSync
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -380,7 +380,7 @@ aTarget
 ;
 needSync
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -959,7 +959,7 @@ binding
 -
 >
 mPredicate
-PR_TRUE
+true
 aValue
 )
 ;

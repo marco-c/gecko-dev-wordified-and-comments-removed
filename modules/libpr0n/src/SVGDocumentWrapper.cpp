@@ -216,11 +216,11 @@ SVGDocumentWrapper
 :
 mIgnoreInvalidation
 (
-PR_FALSE
+false
 )
 mRegisteredForXPCOMShutdown
 (
-PR_FALSE
+false
 )
 {
 if
@@ -295,7 +295,7 @@ GetDocument
 >
 OnPageHide
 (
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -417,13 +417,13 @@ domAnimLength
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
 (
 domAnimLength
-PR_FALSE
+false
 )
 ;
 nsRefPtr
@@ -448,13 +448,13 @@ domLength
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
 (
 domLength
-PR_FALSE
+false
 )
 ;
 PRUint16
@@ -474,7 +474,7 @@ unitType
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -489,7 +489,7 @@ SVG_LENGTHTYPE_PERCENTAGE
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 float
@@ -509,7 +509,7 @@ floatLength
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 aResult
@@ -523,7 +523,7 @@ floatLength
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsIFrame
@@ -583,7 +583,7 @@ reentrant
 ;
 mIgnoreInvalidation
 =
-PR_TRUE
+true
 ;
 mViewer
 -
@@ -607,7 +607,7 @@ FlushLayout
 ;
 mIgnoreInvalidation
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -648,7 +648,7 @@ return
 ;
 mIgnoreInvalidation
 =
-PR_TRUE
+true
 ;
 svgElem
 -
@@ -663,7 +663,7 @@ FlushLayout
 ;
 mIgnoreInvalidation
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -715,7 +715,7 @@ HasRegisteredAnimations
 #
 else
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -789,7 +789,7 @@ doc
 >
 SetImagesNeedAnimating
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -863,7 +863,7 @@ doc
 >
 SetImagesNeedAnimating
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1228,7 +1228,7 @@ nsnull
 ;
 mRegisteredForXPCOMShutdown
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1616,7 +1616,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_TRUE
+true
 )
 )
 )
@@ -1640,7 +1640,7 @@ else
 {
 mRegisteredForXPCOMShutdown
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1724,7 +1724,7 @@ else
 {
 mRegisteredForXPCOMShutdown
 =
-PR_FALSE
+false
 ;
 }
 }

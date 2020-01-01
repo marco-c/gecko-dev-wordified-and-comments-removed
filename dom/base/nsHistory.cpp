@@ -371,7 +371,7 @@ sHistory
 GetEntryAtIndex
 (
 curIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 curEntry
@@ -503,7 +503,7 @@ curIndex
 -
 1
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 prevEntry
@@ -622,7 +622,7 @@ curIndex
 +
 1
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 nextEntry
@@ -1116,7 +1116,7 @@ AddState
 aData
 aTitle
 aURL
-PR_FALSE
+false
 aCx
 )
 ;
@@ -1236,7 +1236,7 @@ AddState
 aData
 aTitle
 aURL
-PR_TRUE
+true
 aCx
 )
 ;
@@ -1413,7 +1413,7 @@ session_history
 GetEntryAtIndex
 (
 aIndex
-PR_FALSE
+false
 getter_AddRefs
 (
 sh_entry

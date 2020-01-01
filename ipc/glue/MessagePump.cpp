@@ -368,7 +368,7 @@ did_work
 NS_ProcessNextEvent
 (
 mThread
-PR_FALSE
+false
 )
 ?
 true
@@ -461,7 +461,7 @@ break
 NS_ProcessNextEvent
 (
 mThread
-PR_TRUE
+true
 )
 ;
 }

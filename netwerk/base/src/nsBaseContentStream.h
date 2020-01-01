@@ -120,7 +120,7 @@ DispatchCallbackSync
 {
 DispatchCallback
 (
-PR_FALSE
+false
 )
 ;
 }

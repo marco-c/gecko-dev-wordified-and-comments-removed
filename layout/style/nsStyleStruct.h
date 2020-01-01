@@ -1732,11 +1732,11 @@ aMargin
 mCachedMargin
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 protected
@@ -1867,11 +1867,11 @@ aPadding
 mCachedPadding
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 protected
@@ -1946,7 +1946,7 @@ const
 return
 Clone
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1972,7 +1972,7 @@ c1
 c2
 )
 return
-PR_TRUE
+true
 ;
 while
 (
@@ -1996,7 +1996,7 @@ c2
 mColor
 )
 return
-PR_FALSE
+false
 ;
 c1
 =
@@ -2065,7 +2065,7 @@ nsCSSShadowItem
 :
 mHasColor
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -3044,7 +3044,7 @@ const
 {
 aForeground
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -3091,7 +3091,7 @@ BORDER_COLOR_FOREGROUND
 )
 aForeground
 =
-PR_TRUE
+true
 ;
 else
 NS_NOTREACHED
@@ -3598,11 +3598,11 @@ aWidth
 mCachedOutlineWidth
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRUint8
@@ -3669,11 +3669,11 @@ aColor
 mOutlineColor
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -4624,7 +4624,7 @@ const
 {
 aForeground
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4653,7 +4653,7 @@ BORDER_COLOR_FOREGROUND
 {
 aForeground
 =
-PR_TRUE
+true
 ;
 }
 else

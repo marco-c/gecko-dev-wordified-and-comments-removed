@@ -132,7 +132,7 @@ nsnull
 ;
 attached
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -309,7 +309,7 @@ rv
 NS_NewNativeLocalFile
 (
 appini_path
-PR_FALSE
+false
 getter_AddRefs
 (
 appini
@@ -403,7 +403,7 @@ nsDependentCString
 (
 greHome
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 xreDir

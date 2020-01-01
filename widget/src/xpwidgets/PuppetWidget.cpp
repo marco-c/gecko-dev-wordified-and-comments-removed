@@ -106,7 +106,7 @@ Invalidate
 (
 *
 r
-PR_FALSE
+false
 )
 ;
 }
@@ -324,11 +324,11 @@ aRect
 ;
 mEnabled
 =
-PR_TRUE
+true
 ;
 mVisible
 =
-PR_TRUE
+true
 ;
 mSurface
 =
@@ -361,7 +361,7 @@ ImageFormatARGB32
 ;
 mIMEComposing
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -445,7 +445,7 @@ width
 mBounds
 .
 height
-PR_FALSE
+false
 )
 ;
 }
@@ -657,7 +657,7 @@ width
 mBounds
 .
 height
-PR_FALSE
+false
 )
 ;
 }
@@ -1106,7 +1106,7 @@ NS_COMPOSITION_START
 {
 mIMEComposing
 =
-PR_TRUE
+true
 ;
 }
 switch
@@ -1225,7 +1225,7 @@ NS_COMPOSITION_END
 {
 mIMEComposing
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1390,7 +1390,7 @@ status
 nsTextEvent
 textEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 this
 )
@@ -1449,7 +1449,7 @@ status
 nsCompositionEvent
 compEvent
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 this
 )
@@ -1488,7 +1488,7 @@ ResetInputState
 return
 IMEEndComposition
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1503,7 +1503,7 @@ CancelComposition
 return
 IMEEndComposition
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1674,7 +1674,7 @@ status
 nsQueryContentEvent
 queryEvent
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 this
 )
@@ -1735,13 +1735,13 @@ mIMEPreference
 .
 mWantUpdates
 =
-PR_FALSE
+false
 ;
 mIMEPreference
 .
 mWantHints
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1833,7 +1833,7 @@ status
 nsQueryContentEvent
 queryEvent
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 this
 )
@@ -1932,7 +1932,7 @@ status
 nsQueryContentEvent
 queryEvent
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 this
 )
@@ -2052,7 +2052,7 @@ GetBounds
 nsPaintEvent
 event
 (
-PR_TRUE
+true
 NS_PAINT
 this
 )
@@ -2087,7 +2087,7 @@ event
 .
 willSendDidPaint
 =
-PR_TRUE
+true
 ;
 mDirtyRegion
 .
@@ -2186,7 +2186,7 @@ status
 nsPaintEvent
 didPaintEvent
 (
-PR_TRUE
+true
 NS_DID_PAINT
 this
 )
@@ -2213,7 +2213,7 @@ DispatchResizeEvent
 nsSizeEvent
 event
 (
-PR_TRUE
+true
 NS_SIZE
 this
 )

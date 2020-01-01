@@ -642,11 +642,11 @@ case
 NS_FORM_OUTPUT
 :
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsGenericHTMLElement
@@ -719,27 +719,27 @@ aNodeInfo
 )
 mGeneratingSubmit
 (
-PR_FALSE
+false
 )
 mGeneratingReset
 (
-PR_FALSE
+false
 )
 mIsSubmitting
 (
-PR_FALSE
+false
 )
 mDeferSubmission
 (
-PR_FALSE
+false
 )
 mNotifiedObservers
 (
-PR_FALSE
+false
 )
 mNotifiedObserversResult
 (
-PR_FALSE
+false
 )
 mSubmitPopupState
 (
@@ -747,7 +747,7 @@ openAbused
 )
 mSubmitInitiatedFromUserInput
 (
-PR_FALSE
+false
 )
 mPendingSubmission
 (
@@ -1361,7 +1361,7 @@ Reset
 nsFormEvent
 event
 (
-PR_TRUE
+true
 NS_FORM_RESET
 )
 ;
@@ -1456,7 +1456,7 @@ ParseEnumValue
 (
 aValue
 kFormMethodTable
-PR_FALSE
+false
 )
 ;
 }
@@ -1478,7 +1478,7 @@ ParseEnumValue
 (
 aValue
 kFormEnctypeTable
-PR_FALSE
+false
 )
 ;
 }
@@ -1500,7 +1500,7 @@ ParseEnumValue
 (
 aValue
 kFormAutocompleteTable
-PR_FALSE
+false
 )
 ;
 }
@@ -1746,7 +1746,7 @@ node
 >
 ClearForm
 (
-PR_TRUE
+true
 )
 ;
 node
@@ -1762,7 +1762,7 @@ ifdef
 DEBUG
 removed
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -1967,7 +1967,7 @@ aVisitor
 .
 mWantsWillHandleEvent
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2016,7 +2016,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2024,11 +2024,11 @@ NS_OK
 }
 mGeneratingSubmit
 =
-PR_TRUE
+true
 ;
 mDeferSubmission
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2049,7 +2049,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2057,7 +2057,7 @@ NS_OK
 }
 mGeneratingReset
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2202,7 +2202,7 @@ NS_FORM_SUBMIT
 {
 mDeferSubmission
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -2282,7 +2282,7 @@ NS_FORM_SUBMIT
 {
 mGeneratingSubmit
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2296,7 +2296,7 @@ NS_FORM_RESET
 {
 mGeneratingReset
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2523,7 +2523,7 @@ NS_OK
 }
 mIsSubmitting
 =
-PR_TRUE
+true
 ;
 NS_ASSERTION
 (
@@ -2575,7 +2575,7 @@ rv
 {
 mIsSubmitting
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -2636,7 +2636,7 @@ submission
 ;
 mIsSubmitting
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2847,7 +2847,7 @@ actionURI
 {
 mIsSubmitting
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2903,7 +2903,7 @@ IsEditable
 {
 mIsSubmitting
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2937,7 +2937,7 @@ schemeIsJavaScript
 {
 mIsSubmitting
 =
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -3007,7 +3007,7 @@ NotifySubmitObservers
 actionURI
 &
 cancelSubmit
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUBMIT_SUCCESS
@@ -3023,7 +3023,7 @@ cancelSubmit
 {
 mIsSubmitting
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3031,7 +3031,7 @@ NS_OK
 }
 cancelSubmit
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -3040,7 +3040,7 @@ NotifySubmitObservers
 actionURI
 &
 cancelSubmit
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUBMIT_SUCCESS
@@ -3055,7 +3055,7 @@ cancelSubmit
 {
 mIsSubmitting
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3277,7 +3277,7 @@ gFirstFormSubmitted
 {
 gFirstFormSubmitted
 =
-PR_TRUE
+true
 ;
 NS_CreateServicesFromCategory
 (
@@ -3356,7 +3356,7 @@ inst
 *
 aCancelSubmit
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -3944,7 +3944,7 @@ aChild
 ;
 lastElement
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4061,7 +4061,7 @@ NS_FORM_INPUT_PASSWORD
 {
 gPasswordManagerInitialized
 =
-PR_TRUE
+true
 ;
 NS_CreateServicesFromCategory
 (
@@ -4256,7 +4256,7 @@ IsValid
 {
 UpdateValidity
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4577,7 +4577,7 @@ IsValid
 {
 UpdateValidity
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4741,7 +4741,7 @@ return
 DoResolveName
 (
 aName
-PR_TRUE
+true
 )
 ;
 }
@@ -4797,7 +4797,7 @@ aOriginatingElement
 {
 mDeferSubmission
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -4852,7 +4852,7 @@ NotifySubmitObservers
 actionURI
 &
 cancelSubmit
-PR_TRUE
+true
 )
 ;
 if
@@ -4865,7 +4865,7 @@ rv
 {
 mNotifiedObservers
 =
-PR_TRUE
+true
 ;
 mNotifiedObserversResult
 =
@@ -4884,7 +4884,7 @@ OnSubmitClickEnd
 {
 mDeferSubmission
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -5356,7 +5356,7 @@ mDefaultSubmitElement
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -5379,7 +5379,7 @@ mFirstSubmitNotInElements
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5393,7 +5393,7 @@ mFirstSubmitNotInElements
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsIFormControl
@@ -5480,7 +5480,7 @@ i
 >
 IsSingleLineTextControl
 (
-PR_FALSE
+false
 )
 )
 {
@@ -5579,11 +5579,11 @@ ForgetCurrentSubmission
 {
 mNotifiedObservers
 =
-PR_FALSE
+false
 ;
 mIsSubmitting
 =
-PR_FALSE
+false
 ;
 mSubmittingRequest
 =
@@ -5658,7 +5658,7 @@ sortedControls
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -5762,7 +5762,7 @@ IsValid
 {
 ret
 =
-PR_FALSE
+false
 ;
 bool
 defaultAction
@@ -5800,8 +5800,8 @@ NS_LITERAL_STRING
 invalid
 "
 )
-PR_FALSE
-PR_TRUE
+false
+true
 &
 defaultAction
 )
@@ -5827,7 +5827,7 @@ sortedControls
 [
 i
 ]
-PR_FALSE
+false
 )
 ;
 }
@@ -8083,7 +8083,7 @@ i
 >
 ClearForm
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -8123,7 +8123,7 @@ i
 >
 ClearForm
 (
-PR_FALSE
+false
 )
 ;
 }

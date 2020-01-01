@@ -520,7 +520,7 @@ aHandlerExists
 *
 aHandlerExists
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -589,7 +589,7 @@ pResult
 *
 aHandlerExists
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1050,7 +1050,7 @@ if
 aType
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 fileExtToUse
@@ -1244,7 +1244,7 @@ Find
 .
 exe
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -1264,7 +1264,7 @@ Find
 .
 dll
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -1284,7 +1284,7 @@ Find
 .
 cpl
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -1309,8 +1309,8 @@ Trim
 (
 "
 "
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -1358,7 +1358,7 @@ aCommandString
 Find
 (
 rundllSegment
-PR_TRUE
+true
 )
 ;
 if
@@ -1384,7 +1384,7 @@ aCommandString
 Find
 (
 rundllSegmentShort
-PR_TRUE
+true
 )
 ;
 }
@@ -1456,7 +1456,7 @@ bufLength
 0
 )
 return
-PR_FALSE
+false
 ;
 nsAutoArrayPtr
 <
@@ -1477,7 +1477,7 @@ if
 destination
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1496,7 +1496,7 @@ bufLength
 )
 )
 return
-PR_FALSE
+false
 ;
 handlerCommand
 =
@@ -1530,7 +1530,7 @@ handlerCommand
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1770,7 +1770,7 @@ lf
 NS_NewLocalFile
 (
 handlerCommand
-PR_TRUE
+true
 getter_AddRefs
 (
 lf
@@ -2120,7 +2120,7 @@ hr
 {
 found
 =
-PR_TRUE
+true
 ;
 appInfo
 .
@@ -2139,7 +2139,7 @@ else
 {
 found
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2179,7 +2179,7 @@ Document
 )
 found
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2281,7 +2281,7 @@ aFound
 *
 aFound
 =
-PR_TRUE
+true
 ;
 const
 nsCString
@@ -2666,7 +2666,7 @@ mi
 *
 aFound
 =
-PR_FALSE
+false
 ;
 mi
 =

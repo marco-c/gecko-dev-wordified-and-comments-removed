@@ -7191,7 +7191,7 @@ MAX_REL_THRESHOLD
 {
 mDone
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -7266,7 +7266,7 @@ mLastCharOrder
 ;
 mDone
 =
-PR_FALSE
+false
 ;
 mDataThreshold
 =

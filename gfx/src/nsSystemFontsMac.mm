@@ -591,7 +591,7 @@ aFontStyle
 >
 systemFont
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1151,7 +1151,7 @@ aFontStyle
 >
 systemFont
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

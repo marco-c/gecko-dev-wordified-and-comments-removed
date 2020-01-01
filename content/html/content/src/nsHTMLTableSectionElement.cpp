@@ -349,7 +349,7 @@ nsGkAtoms
 :
 :
 tr
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE

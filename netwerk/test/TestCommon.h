@@ -58,7 +58,7 @@ Run
 {
 gKeepPumpingEvents
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -90,7 +90,7 @@ do_GetCurrentThread
 ;
 gKeepPumpingEvents
 =
-PR_TRUE
+true
 ;
 while
 (

@@ -317,7 +317,7 @@ tmpFile
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 }

@@ -147,7 +147,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -210,7 +210,7 @@ GetRootBox
 (
 GetPresShell
 (
-PR_FALSE
+false
 )
 )
 ;
@@ -263,9 +263,9 @@ pm
 HidePopup
 (
 mContent
-PR_FALSE
-PR_TRUE
-PR_FALSE
+false
+true
+false
 )
 ;
 return
@@ -452,7 +452,7 @@ aXPos
 aYPos
 aIsContextMenu
 aAttributesOverride
-PR_FALSE
+false
 aTriggerEvent
 )
 ;
@@ -544,7 +544,7 @@ MoveTo
 (
 aLeft
 aTop
-PR_TRUE
+true
 )
 ;
 }
@@ -609,7 +609,7 @@ nsGkAtoms
 :
 width
 width
-PR_FALSE
+false
 )
 ;
 content
@@ -623,7 +623,7 @@ nsGkAtoms
 :
 height
 height
-PR_TRUE
+true
 )
 ;
 return
@@ -787,7 +787,7 @@ nsGkAtoms
 :
 :
 ignorekeys
-PR_TRUE
+true
 )
 ;
 else
@@ -807,7 +807,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 return

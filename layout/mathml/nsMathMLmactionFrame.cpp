@@ -209,7 +209,7 @@ click
 "
 )
 mListener
-PR_FALSE
+false
 )
 ;
 mContent
@@ -224,7 +224,7 @@ mouseover
 "
 )
 mListener
-PR_FALSE
+false
 )
 ;
 mContent
@@ -239,7 +239,7 @@ mouseout
 "
 )
 mListener
-PR_FALSE
+false
 )
 ;
 }
@@ -760,8 +760,8 @@ click
 "
 )
 mListener
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 mContent
@@ -776,8 +776,8 @@ mouseover
 "
 )
 mListener
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 mContent
@@ -792,8 +792,8 @@ mouseout
 "
 )
 mListener
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }

@@ -85,7 +85,7 @@ proxyHost
 proxyPort
 _result
 securityInfo
-PR_TRUE
+true
 flags
 &
 ANONYMOUS_CONNECT
@@ -147,7 +147,7 @@ proxyHost
 proxyPort
 aSocket
 securityInfo
-PR_TRUE
+true
 flags
 &
 ANONYMOUS_CONNECT

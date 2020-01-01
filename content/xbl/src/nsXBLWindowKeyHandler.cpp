@@ -319,7 +319,7 @@ nsXBLSpecialDocInfo
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 }
@@ -364,7 +364,7 @@ return
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -436,7 +436,7 @@ nsnull
 nsnull
 bindingURI
 nsnull
-PR_TRUE
+true
 getter_AddRefs
 (
 mHTMLBindings
@@ -499,7 +499,7 @@ nsnull
 nsnull
 bindingURI
 nsnull
-PR_TRUE
+true
 getter_AddRefs
 (
 mUserHTMLBindings
@@ -948,7 +948,7 @@ aIsEditor
 *
 aIsEditor
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1005,7 +1005,7 @@ aIsEditor
 *
 aIsEditor
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1118,7 +1118,7 @@ sNativeEditorBindings
 {
 noBindings
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1445,7 +1445,7 @@ DOMEventToNativeKeyEvent
 aKeyEvent
 &
 nativeEvent
-PR_TRUE
+true
 )
 )
 handled
@@ -1483,7 +1483,7 @@ DOMEventToNativeKeyEvent
 aKeyEvent
 &
 nativeEvent
-PR_FALSE
+false
 )
 )
 handled
@@ -1528,7 +1528,7 @@ DOMEventToNativeKeyEvent
 aKeyEvent
 &
 nativeEvent
-PR_FALSE
+false
 )
 )
 handled
@@ -1698,7 +1698,7 @@ if
 fm
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1723,7 +1723,7 @@ if
 focusedWindow
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1790,7 +1790,7 @@ DISPLAY_ALL
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -1841,7 +1841,7 @@ aKeyEvent
 aEventType
 aHandler
 0
-PR_FALSE
+false
 )
 ;
 return
@@ -2269,12 +2269,12 @@ rv
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 already_AddRefed

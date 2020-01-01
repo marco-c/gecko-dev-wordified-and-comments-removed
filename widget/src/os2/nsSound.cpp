@@ -959,7 +959,7 @@ rv
 NS_NewNativeLocalFile
 (
 aSoundFile
-PR_FALSE
+false
 getter_AddRefs
 (
 soundFile

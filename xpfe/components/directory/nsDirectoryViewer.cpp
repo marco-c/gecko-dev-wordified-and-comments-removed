@@ -968,7 +968,7 @@ mRequestor
 {
 mBindToGlobalObject
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1329,7 +1329,7 @@ Assert
 entry
 kNC_URL
 URLVal
-PR_TRUE
+true
 )
 ;
 mDirectory
@@ -1375,7 +1375,7 @@ Assert
 mDirectory
 kNC_Loading
 kTrueLiteral
-PR_TRUE
+true
 )
 ;
 if
@@ -1487,7 +1487,7 @@ Assert
 mDirectory
 kNC_Comment
 comment
-PR_TRUE
+true
 )
 ;
 if
@@ -1828,7 +1828,7 @@ Assert
 entry
 kNC_URL
 lit
-PR_TRUE
+true
 )
 ;
 if
@@ -1928,7 +1928,7 @@ Assert
 entry
 kNC_Description
 lit
-PR_TRUE
+true
 )
 ;
 if
@@ -2025,7 +2025,7 @@ Assert
 entry
 kNC_ContentLength
 val
-PR_TRUE
+true
 )
 ;
 if
@@ -2109,7 +2109,7 @@ Assert
 entry
 kNC_LastModified
 val
-PR_TRUE
+true
 )
 ;
 }
@@ -2274,7 +2274,7 @@ Assert
 entry
 kNC_FileType
 lit
-PR_TRUE
+true
 )
 ;
 if
@@ -2297,7 +2297,7 @@ Assert
 entry
 kNC_IsContainer
 kTrueLiteral
-PR_TRUE
+true
 )
 ;
 else
@@ -2306,7 +2306,7 @@ Assert
 entry
 kNC_IsContainer
 kFalseLiteral
-PR_TRUE
+true
 )
 ;
 AddElement
@@ -2352,7 +2352,7 @@ nsHTTPIndex
 :
 mBindToGlobalObject
 (
-PR_TRUE
+true
 )
 mRequestor
 (
@@ -2372,7 +2372,7 @@ aRequestor
 :
 mBindToGlobalObject
 (
-PR_TRUE
+true
 )
 mRequestor
 (
@@ -2855,7 +2855,7 @@ mDirRDF
 RegisterDataSource
 (
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -2971,7 +2971,7 @@ Assert
 baseRes
 kNC_IsContainer
 kTrueLiteral
-PR_TRUE
+true
 )
 ;
 return
@@ -3140,7 +3140,7 @@ GetTarget
 (
 r
 kNC_URL
-PR_TRUE
+true
 getter_AddRefs
 (
 node
@@ -3254,7 +3254,7 @@ GetTarget
 (
 r
 kNC_IsContainer
-PR_TRUE
+true
 getter_AddRefs
 (
 node
@@ -3720,7 +3720,7 @@ hasResults
 )
 doNetworkRequest
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -4493,7 +4493,7 @@ Assert
 src
 prop
 target
-PR_TRUE
+true
 )
 ;
 }
@@ -4535,7 +4535,7 @@ numItems
 {
 refireTimer
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4581,7 +4581,7 @@ numItems
 {
 refireTimer
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -5019,7 +5019,7 @@ mInner
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5071,7 +5071,7 @@ aSource
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -5097,7 +5097,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

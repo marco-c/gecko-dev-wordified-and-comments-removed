@@ -418,7 +418,7 @@ isResource
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -626,12 +626,12 @@ aDocument
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -779,7 +779,7 @@ i
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -803,11 +803,11 @@ generic
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 class
@@ -1543,7 +1543,7 @@ getter_AddRefs
 (
 mInner
 )
-PR_TRUE
+true
 sink
 )
 ;
@@ -1577,7 +1577,7 @@ load
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 return
@@ -1722,11 +1722,11 @@ eq
 eq
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2162,7 +2162,7 @@ load
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 return
@@ -2377,7 +2377,7 @@ nsnull
 *
 aResolveStyle
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2542,7 +2542,7 @@ GetBinding
 (
 aContent
 aURL
-PR_FALSE
+false
 aOriginPrincipal
 &
 ready
@@ -2687,7 +2687,7 @@ baseBinding
 >
 SetIsStyleBinding
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3074,7 +3074,7 @@ piTarget
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -3210,7 +3210,7 @@ nsPropertyTable
 :
 :
 SupportsDtorFunc
-PR_TRUE
+true
 )
 ;
 NS_RELEASE
@@ -3294,7 +3294,7 @@ piTarget
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -3528,7 +3528,7 @@ GetBinding
 (
 aBoundElement
 aURI
-PR_TRUE
+true
 nsnull
 aIsReady
 nsnull
@@ -3701,7 +3701,7 @@ aBoundElement
 boundDocument
 aURI
 aOriginPrincipal
-PR_FALSE
+false
 getter_AddRefs
 (
 docInfo
@@ -3996,7 +3996,7 @@ protoBinding
 >
 SetHasBasePrototype
 (
-PR_FALSE
+false
 )
 ;
 else
@@ -4145,7 +4145,7 @@ protoBinding
 >
 SetHasBasePrototype
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4517,7 +4517,7 @@ nsGkAtoms
 :
 :
 extends
-PR_FALSE
+false
 )
 ;
 child
@@ -4530,7 +4530,7 @@ nsGkAtoms
 :
 :
 display
-PR_FALSE
+false
 )
 ;
 }
@@ -4540,7 +4540,7 @@ PR_FALSE
 *
 aIsReady
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4616,7 +4616,7 @@ aURI
 NS_ENSURE_TRUE
 (
 baseURI
-PR_FALSE
+false
 )
 ;
 bool
@@ -4663,7 +4663,7 @@ aPrincipal
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -4686,7 +4686,7 @@ uri
 NS_ENSURE_TRUE
 (
 uri
-PR_FALSE
+false
 )
 ;
 bool
@@ -4861,7 +4861,7 @@ NodePrincipal
 CheckMayLoad
 (
 aBindingURI
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5219,7 +5219,7 @@ chrome
 )
 aForceSyncLoad
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -5438,7 +5438,7 @@ aDocumentURI
 )
 aForceSyncLoad
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -5682,7 +5682,7 @@ getter_AddRefs
 (
 listener
 )
-PR_TRUE
+true
 xblSink
 )
 ;
@@ -5819,7 +5819,7 @@ memory
 -
 pressure
 "
-PR_TRUE
+true
 )
 ;
 return

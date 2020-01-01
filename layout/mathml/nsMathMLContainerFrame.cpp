@@ -862,7 +862,7 @@ metrics
 Place
 (
 aRenderingContext
-PR_FALSE
+false
 metrics
 )
 ;
@@ -1050,7 +1050,7 @@ firstTime
 {
 firstTime
 =
-PR_FALSE
+false
 ;
 bm
 =
@@ -1562,7 +1562,7 @@ rv
 Place
 (
 aRenderingContext
-PR_TRUE
+true
 aDesiredStretchSize
 )
 ;
@@ -1936,7 +1936,7 @@ this
 {
 parentWillFireStretch
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3803,7 +3803,7 @@ return
 Place
 (
 aRenderingContext
-PR_FALSE
+false
 aDesiredSize
 )
 ;
@@ -4729,7 +4729,7 @@ ReflowFinished
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -4833,7 +4833,7 @@ element
 SetIncrementScriptLevel
 (
 aIncrement
-PR_TRUE
+true
 )
 ;
 PresContext
@@ -5451,7 +5451,7 @@ break
 ;
 embellishedOpFound
 =
-PR_TRUE
+true
 ;
 }
 }

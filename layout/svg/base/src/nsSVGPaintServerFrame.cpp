@@ -50,7 +50,7 @@ if
 pattern
 )
 return
-PR_FALSE
+false
 ;
 aContext
 -
@@ -61,6 +61,6 @@ pattern
 )
 ;
 return
-PR_TRUE
+true
 ;
 }

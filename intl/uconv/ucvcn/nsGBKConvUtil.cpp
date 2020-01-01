@@ -131,7 +131,7 @@ aChar
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -179,13 +179,13 @@ item
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -242,7 +242,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -255,7 +255,7 @@ if
 found
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -308,12 +308,12 @@ aOutByte2
 0x00
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 PRUnichar
@@ -517,6 +517,6 @@ i
 }
 gInitToGBKTable
 =
-PR_TRUE
+true
 ;
 }

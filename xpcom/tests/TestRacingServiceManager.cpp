@@ -325,7 +325,7 @@ Factory
 :
 mFirstComponentCreated
 (
-PR_FALSE
+false
 )
 {
 }
@@ -530,7 +530,7 @@ gReentrantMonitor
 ;
 gCreateInstanceCalled
 =
-PR_TRUE
+true
 ;
 mon
 .
@@ -633,7 +633,7 @@ Runnable
 :
 mFirstRunnableDone
 (
-PR_FALSE
+false
 )
 {
 }
@@ -957,7 +957,7 @@ gReentrantMonitor
 ;
 gMainThreadWaiting
 =
-PR_TRUE
+true
 ;
 mon
 .
@@ -1003,7 +1003,7 @@ gMainThreadWaiting
 =
 gCreateInstanceCalled
 =
-PR_FALSE
+false
 ;
 gFactory
 -
@@ -1015,7 +1015,7 @@ runnable
 >
 mFirstRunnableDone
 =
-PR_TRUE
+true
 ;
 component
 =
@@ -1048,7 +1048,7 @@ gReentrantMonitor
 ;
 gMainThreadWaiting
 =
-PR_TRUE
+true
 ;
 mon
 .

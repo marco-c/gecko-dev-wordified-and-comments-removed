@@ -689,7 +689,7 @@ system
 {
 preventDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1017,7 +1017,7 @@ IsFocusable
 (
 &
 tabIndexUnused
-PR_TRUE
+true
 )
 )
 {
@@ -1204,9 +1204,9 @@ pm
 HidePopup
 (
 mPopupContent
-PR_FALSE
-PR_TRUE
-PR_TRUE
+false
+true
+true
 )
 ;
 mPopupContent
@@ -1841,9 +1841,9 @@ EmptyString
 )
 0
 0
-PR_FALSE
-PR_TRUE
-PR_FALSE
+false
+true
+false
 aEvent
 )
 ;

@@ -55,11 +55,11 @@ aAttrEnum
 ;
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 mIsBaseSet
 =
-PR_FALSE
+false
 ;
 }
 nsresult

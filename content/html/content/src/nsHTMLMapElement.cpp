@@ -253,7 +253,7 @@ nsGkAtoms
 :
 :
 area
-PR_FALSE
+false
 )
 ;
 }

@@ -220,7 +220,7 @@ aStringItr
 ;
 lastWasEscape
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -239,7 +239,7 @@ aEscapeChar
 {
 lastWasEscape
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -274,7 +274,7 @@ aStringItr
 ;
 lastWasEscape
 =
-PR_FALSE
+false
 ;
 }
 aPatternItr

@@ -302,7 +302,7 @@ CleanupResources
 ;
 mDestroyed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -612,7 +612,7 @@ if
 aContext
 )
 return
-PR_FALSE
+false
 ;
 mGLContext
 =
@@ -623,7 +623,7 @@ mGLContext
 >
 SetFlipped
 (
-PR_TRUE
+true
 )
 ;
 MakeCurrent
@@ -741,7 +741,7 @@ p
 ;
 \
 return
-PR_FALSE
+false
 ;
 \
 }
@@ -3661,7 +3661,7 @@ height
 {
 MakeCurrent
 (
-PR_TRUE
+true
 )
 ;
 mWidgetSize

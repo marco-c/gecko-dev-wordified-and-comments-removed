@@ -178,7 +178,7 @@ data
 >
 valueIsFile
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -228,7 +228,7 @@ data
 >
 valueIsFile
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

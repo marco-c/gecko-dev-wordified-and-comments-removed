@@ -993,7 +993,7 @@ GetPixelLength
 }
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 const
 nsStyleFont
@@ -1386,8 +1386,8 @@ nsnull
 nsnull
 aStyleContext
 aPresContext
-PR_FALSE
-PR_TRUE
+false
+true
 aCanStoreInRuleTree
 )
 ;
@@ -1467,8 +1467,8 @@ defaultFont
 defaultVisibility
 nsnull
 aPresContext
-PR_TRUE
-PR_FALSE
+true
+false
 canStoreInRuleTree
 )
 ;
@@ -1516,7 +1516,7 @@ aCanStoreInRuleTree
 )
 mHasPercent
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1558,7 +1558,7 @@ eCSSUnit_Percent
 {
 mHasPercent
 =
-PR_TRUE
+true
 ;
 return
 result_type
@@ -1861,7 +1861,7 @@ Calc
 ;
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 calcObj
 -
@@ -2044,7 +2044,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 unit
@@ -2393,7 +2393,7 @@ eCSSUnit_Null
 {
 result
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2725,7 +2725,7 @@ aParentCoord
 ;
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3046,7 +3046,7 @@ else
 {
 result
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -3337,7 +3337,7 @@ GetColorValue
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3378,7 +3378,7 @@ rgba
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3440,7 +3440,7 @@ aResult
 {
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3498,7 +3498,7 @@ NS_COLOR_CURRENTCOLOR
 :
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 aResult
 =
@@ -3563,7 +3563,7 @@ break
 }
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3582,11 +3582,11 @@ aParentColor
 ;
 result
 =
-PR_TRUE
+true
 ;
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3642,11 +3642,11 @@ BodyTextColor
 ;
 result
 =
-PR_TRUE
+true
 ;
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -4771,7 +4771,7 @@ eCSSUnit_Inherit
 :
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 aField
 =
@@ -5105,7 +5105,7 @@ eCSSUnit_Inherit
 :
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 aField
 =
@@ -5490,7 +5490,7 @@ aPresContext
 nsnull
 nsnull
 0xff
-PR_FALSE
+false
 )
 ;
 }
@@ -9969,7 +9969,7 @@ RTLlogical
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 PRUint8
 dir
@@ -10060,7 +10060,7 @@ eCSSUnit_Inherit
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -10350,7 +10350,7 @@ parent
 \
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 \
 if
@@ -11632,7 +11632,7 @@ mLanguageVisibility
 nsnull
 mPresContext
 mAtRoot
-PR_TRUE
+true
 mCanStoreInRuleTree
 )
 ;
@@ -11674,7 +11674,7 @@ GetUnit
 {
 mCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 size
 =
@@ -11693,7 +11693,7 @@ else
 {
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 value
@@ -11818,7 +11818,7 @@ GetIntValue
 ;
 zoom
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -11893,7 +11893,7 @@ value
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 nscoord
 parentSize
@@ -12090,7 +12090,7 @@ aSize
 }
 zoom
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -12116,7 +12116,7 @@ size
 ;
 zoom
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -12135,7 +12135,7 @@ GetUnit
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 *
 aSize
@@ -12144,7 +12144,7 @@ aScriptLevelAdjustedParentSize
 ;
 zoom
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -12168,7 +12168,7 @@ baseSize
 ;
 zoom
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -12212,7 +12212,7 @@ aScriptLevelAdjustedParentSize
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 *
 aSize
@@ -12744,7 +12744,7 @@ mFont
 .
 systemFont
 =
-PR_FALSE
+false
 ;
 aFont
 -
@@ -12786,7 +12786,7 @@ mFont
 .
 systemFont
 =
-PR_TRUE
+true
 ;
 aFont
 -
@@ -12812,7 +12812,7 @@ GetUnit
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 aFont
 -
@@ -13052,7 +13052,7 @@ NS_STYLE_FONT_WEIGHT_BOLDER
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 PRInt32
 inheritedValue
@@ -13122,7 +13122,7 @@ NS_STYLE_FONT_WEIGHT_LIGHTER
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 PRInt32
 inheritedValue
@@ -13296,7 +13296,7 @@ languageVisibility
 nsnull
 aPresContext
 atRoot
-PR_TRUE
+true
 aCanStoreInRuleTree
 )
 ;
@@ -13418,7 +13418,7 @@ GetUnit
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 aFont
 -
@@ -13480,7 +13480,7 @@ GetUnit
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 aFont
 -
@@ -13615,7 +13615,7 @@ GetUnit
 {
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 aFont
 -
@@ -14340,7 +14340,7 @@ ruleData
 &
 parentFont
 aFont
-PR_FALSE
+false
 dummy
 )
 ;
@@ -14407,11 +14407,11 @@ data
 aFamily
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -14506,7 +14506,7 @@ IsChrome
 {
 useDocumentFonts
 =
-PR_TRUE
+true
 ;
 minimumFontSize
 =
@@ -14698,7 +14698,7 @@ else
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 nsRuleNode
 :
@@ -15163,7 +15163,7 @@ item
 >
 mHasColor
 =
-PR_TRUE
+true
 ;
 unitOK
 =
@@ -15248,7 +15248,7 @@ item
 >
 mInset
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -15258,7 +15258,7 @@ item
 >
 mInset
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -15410,7 +15410,7 @@ eCSSUnit_Inherit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 text
 -
@@ -15462,7 +15462,7 @@ GetListValue
 (
 )
 aContext
-PR_FALSE
+false
 canStoreInRuleTree
 )
 ;
@@ -15495,7 +15495,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 text
 -
@@ -15656,7 +15656,7 @@ IsChrome
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 const
 nsStyleFont
@@ -15791,7 +15791,7 @@ GetIntValue
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 PRUint8
 parentAlign
@@ -16331,7 +16331,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 text
 -
@@ -16396,7 +16396,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -16647,7 +16647,7 @@ GetDecorationStyle
 ;
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -16724,7 +16724,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 text
 -
@@ -17287,7 +17287,7 @@ eCSSUnit_Inherit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 ui
 -
@@ -17562,7 +17562,7 @@ item
 >
 mHaveHotspot
 =
-PR_TRUE
+true
 ;
 item
 -
@@ -18197,7 +18197,7 @@ sdCount
 ;
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -20539,7 +20539,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 nsPrintfCString
 (
 64
@@ -21469,7 +21469,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unexpected
 animation
@@ -21760,7 +21760,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 display
 -
@@ -21898,7 +21898,7 @@ display
 >
 mBreakBefore
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -21917,7 +21917,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 display
 -
@@ -22003,7 +22003,7 @@ display
 >
 mBreakAfter
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -22022,7 +22022,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 display
 -
@@ -22167,7 +22167,7 @@ NS_STYLE_OVERFLOW_CLIP
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -22291,7 +22291,7 @@ eCSSUnit_Inherit
 :
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 display
 -
@@ -22685,7 +22685,7 @@ NS_STYLE_DISPLAY_INLINE
 ;
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -22725,7 +22725,7 @@ NS_STYLE_FLOAT_NONE
 ;
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -22750,7 +22750,7 @@ mDisplay
 ;
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -22811,7 +22811,7 @@ mSpecifiedTransform
 ;
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -23682,7 +23682,7 @@ mColor
 ;
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -24118,7 +24118,7 @@ result
 .
 mHasPercent
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -24190,7 +24190,7 @@ result
 .
 mHasPercent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -24349,7 +24349,7 @@ result
 .
 mHasPercent
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -24883,7 +24883,7 @@ result
 .
 mHasPercent
 =
-PR_TRUE
+true
 ;
 size
 .
@@ -24973,7 +24973,7 @@ result
 .
 mHasPercent
 =
-PR_FALSE
+false
 ;
 size
 .
@@ -25288,11 +25288,11 @@ eCSSUnit_Inherit
 :
 aRebuild
 =
-PR_TRUE
+true
 ;
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -25367,7 +25367,7 @@ eCSSUnit_Initial
 :
 aRebuild
 =
-PR_TRUE
+true
 ;
 aItemCount
 =
@@ -25394,7 +25394,7 @@ eCSSUnit_ListDep
 {
 aRebuild
 =
-PR_TRUE
+true
 ;
 aItemCount
 =
@@ -25649,11 +25649,11 @@ eCSSUnit_Inherit
 :
 aRebuild
 =
-PR_TRUE
+true
 ;
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -25728,7 +25728,7 @@ eCSSUnit_Initial
 :
 aRebuild
 =
-PR_TRUE
+true
 ;
 aItemCount
 =
@@ -25755,7 +25755,7 @@ eCSSUnit_PairListDep
 {
 aRebuild
 =
-PR_TRUE
+true
 ;
 aItemCount
 =
@@ -27047,7 +27047,7 @@ mBoxShadow
 ;
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -27071,7 +27071,7 @@ GetListValue
 (
 )
 aContext
-PR_TRUE
+true
 canStoreInRuleTree
 )
 ;
@@ -27458,7 +27458,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 border
 -
@@ -27764,7 +27764,7 @@ unit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 border
 -
@@ -27869,7 +27869,7 @@ eCSSUnit_Inherit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 nsBorderColors
 *
@@ -28208,7 +28208,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -28774,7 +28774,7 @@ border
 >
 mHaveBorderImageWidth
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -28784,7 +28784,7 @@ border
 >
 mHaveBorderImageWidth
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -28920,7 +28920,7 @@ border
 >
 mHaveBorderImageWidth
 =
-PR_FALSE
+false
 ;
 border
 -
@@ -28947,7 +28947,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 NS_FOR_CSS_SIDES
 (
@@ -29505,7 +29505,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -29861,7 +29861,7 @@ unit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 outline
 -
@@ -30044,7 +30044,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 NS_SET_IMAGE_REQUEST
 (
@@ -30114,7 +30114,7 @@ eCSSUnit_Inherit
 :
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 list
 -
@@ -30760,7 +30760,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 pos
 -
@@ -31290,7 +31290,7 @@ eCSSUnit_Inherit
 :
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 count
 =
@@ -31833,7 +31833,7 @@ eCSSUnit_Inherit
 :
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 count
 =
@@ -32111,7 +32111,7 @@ eCSSUnit_Inherit
 :
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 count
 =
@@ -32517,7 +32517,7 @@ eCSSUnit_Inherit
 :
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 quotes
 -
@@ -32928,7 +32928,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 xul
 -
@@ -32960,7 +32960,7 @@ xul
 >
 mStretchStack
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -33233,7 +33233,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 column
 -
@@ -33391,7 +33391,7 @@ GetComputedColumnRuleWidth
 ;
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -33556,7 +33556,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 column
 -
@@ -33596,14 +33596,14 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 column
 -
 >
 mColumnRuleColorIsForeground
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -33671,7 +33671,7 @@ column
 >
 mColumnRuleColorIsForeground
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -33696,7 +33696,7 @@ column
 >
 mColumnRuleColorIsForeground
 =
-PR_FALSE
+false
 ;
 }
 COMPUTE_END_RESET
@@ -33754,7 +33754,7 @@ parentPaint
 ;
 aCanStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -34325,7 +34325,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 svg
 -
@@ -34425,7 +34425,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 svg
 -
@@ -34525,7 +34525,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 svg
 -
@@ -34619,7 +34619,7 @@ eCSSUnit_Inherit
 :
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -35442,7 +35442,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 svgReset
 -
@@ -35616,7 +35616,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 svgReset
 -
@@ -35716,7 +35716,7 @@ GetUnit
 {
 canStoreInRuleTree
 =
-PR_FALSE
+false
 ;
 svgReset
 -
@@ -36605,7 +36605,7 @@ Destroy
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 mDependentBits
@@ -36797,7 +36797,7 @@ here
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -37296,7 +37296,7 @@ do
 {
 haveExplicitUAInherit
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -37453,7 +37453,7 @@ eCSSUnit_Inherit
 {
 haveExplicitUAInherit
 =
-PR_TRUE
+true
 ;
 values
 [
@@ -37570,7 +37570,7 @@ IsNonTransparentColor
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 values
@@ -37693,6 +37693,6 @@ styleContext
 )
 ;
 return
-PR_FALSE
+false
 ;
 }

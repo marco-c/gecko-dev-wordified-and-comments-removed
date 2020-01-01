@@ -330,7 +330,7 @@ aDocument
 )
 mWarnedFileControl
 (
-PR_FALSE
+false
 )
 {
 }
@@ -381,7 +381,7 @@ SupportsIsindexSubmission
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -631,7 +631,7 @@ nsnull
 ;
 mWarnedFileControl
 =
-PR_TRUE
+true
 ;
 }
 nsAutoString
@@ -723,7 +723,7 @@ Length
 {
 hasParams
 =
-PR_TRUE
+true
 ;
 PRInt32
 nameEnd
@@ -825,7 +825,7 @@ subject
 {
 hasSubject
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1237,7 +1237,7 @@ mimeStream
 >
 SetAddContentLength
 (
-PR_TRUE
+true
 )
 ;
 mimeStream
@@ -2315,7 +2315,7 @@ mimeStream
 >
 SetAddContentLength
 (
-PR_TRUE
+true
 )
 ;
 mimeStream
@@ -2832,7 +2832,7 @@ mimeStream
 >
 SetAddContentLength
 (
-PR_TRUE
+true
 )
 ;
 mimeStream

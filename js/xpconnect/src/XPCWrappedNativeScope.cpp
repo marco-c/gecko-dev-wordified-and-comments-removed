@@ -132,7 +132,7 @@ DEBUG_DumpedStats
 {
 DEBUG_DumpedStats
 =
-PR_TRUE
+true
 ;
 printf
 (

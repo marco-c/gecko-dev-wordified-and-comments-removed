@@ -80,7 +80,7 @@ nsnull
 )
 mBarredFromConstraintValidation
 (
-PR_FALSE
+false
 )
 {
 }
@@ -403,7 +403,7 @@ IsValid
 *
 aValidity
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -412,7 +412,7 @@ NS_OK
 *
 aValidity
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -461,8 +461,8 @@ NS_LITERAL_STRING
 invalid
 "
 )
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }

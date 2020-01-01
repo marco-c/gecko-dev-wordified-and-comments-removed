@@ -1781,7 +1781,7 @@ c
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1804,7 +1804,7 @@ break
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1833,7 +1833,7 @@ c
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1850,11 +1850,11 @@ aFile
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2950,7 +2950,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -2975,7 +2975,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3059,7 +3059,7 @@ stdout
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -3175,7 +3175,7 @@ stdout
 ;
 result
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -3310,7 +3310,7 @@ stdout
 ;
 result
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -3457,7 +3457,7 @@ stdout
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -3528,7 +3528,7 @@ stdout
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3601,7 +3601,7 @@ null
 ;
 result
 =
-PR_FALSE
+false
 ;
 }
 else

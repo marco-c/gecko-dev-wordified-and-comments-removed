@@ -413,7 +413,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -800,7 +800,7 @@ aEventTarget
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -950,7 +950,7 @@ aEventTarget
 nsEvent
 event
 (
-PR_TRUE
+true
 NS_EVENT_TYPE_NULL
 )
 ;
@@ -1107,7 +1107,7 @@ aEventTarget
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 *
@@ -1175,7 +1175,7 @@ aTarget
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_STATE
@@ -1257,7 +1257,7 @@ aTarget
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if

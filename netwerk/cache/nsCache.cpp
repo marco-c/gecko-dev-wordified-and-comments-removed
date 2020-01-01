@@ -323,7 +323,7 @@ else
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 FindCharInRead
 failed
@@ -419,7 +419,7 @@ else
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 FindCharInRead
 failed

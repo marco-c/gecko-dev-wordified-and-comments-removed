@@ -64,7 +64,7 @@ nsBoxFrame
 (
 aPresShell
 aContext
-PR_FALSE
+false
 aLayoutManager
 )
 {

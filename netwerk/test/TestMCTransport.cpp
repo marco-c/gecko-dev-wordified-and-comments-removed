@@ -522,7 +522,7 @@ nsICache
 :
 :
 STORE_IN_MEMORY
-PR_TRUE
+true
 &
 session
 )

@@ -904,7 +904,7 @@ commonPresMap
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsMapRuleToAttributesFunc
@@ -965,7 +965,7 @@ if
 stringLength
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 number
@@ -1065,7 +1065,7 @@ c
 '
 )
 return
-PR_FALSE
+false
 ;
 else
 if
@@ -1079,7 +1079,7 @@ c
 )
 gotDot
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -1137,7 +1137,7 @@ errorCode
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1154,7 +1154,7 @@ PARSE_ALLOW_NEGATIVE
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCSSUnit
 cssUnit
@@ -1192,7 +1192,7 @@ floatValue
 0
 )
 return
-PR_FALSE
+false
 ;
 cssUnit
 =
@@ -1225,7 +1225,7 @@ floatValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -1358,7 +1358,7 @@ eCSSUnit_Pica
 ;
 else
 return
-PR_FALSE
+false
 ;
 aCSSValue
 .
@@ -1369,7 +1369,7 @@ cssUnit
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1791,7 +1791,7 @@ value
 {
 parseSizeKeywords
 =
-PR_FALSE
+false
 ;
 value
 =
@@ -2451,7 +2451,7 @@ eTabFocus_linksMask
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2467,7 +2467,7 @@ aTabIndex
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2535,7 +2535,7 @@ aURI
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2566,7 +2566,7 @@ href
 {
 hasHref
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2719,7 +2719,7 @@ ATTR_VALUE_NO_MATCH
 {
 hasHref
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2775,7 +2775,7 @@ aURI
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 void

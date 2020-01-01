@@ -400,7 +400,7 @@ available
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -428,7 +428,7 @@ window
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 win
@@ -746,7 +746,7 @@ available
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -774,7 +774,7 @@ window
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 win
@@ -833,7 +833,7 @@ available
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -861,7 +861,7 @@ window
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 win
@@ -1258,7 +1258,7 @@ SetHasPaintEventListeners
 {
 mMayHavePaintEventListener
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -1277,7 +1277,7 @@ SetHasTouchEventListeners
 {
 mMayHaveTouchEventListener
 =
-PR_TRUE
+true
 ;
 MaybeUpdateTouchState
 (
@@ -1309,7 +1309,7 @@ SetHasAudioAvailableEventListeners
 {
 mMayHaveAudioAvailableEventListener
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -1328,7 +1328,7 @@ SetHasMouseEnterLeaveEventListeners
 {
 mMayHaveMouseEnterLeaveEventListener
 =
-PR_TRUE
+true
 ;
 }
 virtual
@@ -1809,7 +1809,7 @@ aWindow
 PushPopupControlState
 (
 aState
-PR_FALSE
+false
 )
 ;
 }

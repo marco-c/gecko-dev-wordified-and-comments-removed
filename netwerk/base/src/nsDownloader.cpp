@@ -289,7 +289,7 @@ mLocation
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -397,7 +397,7 @@ caching
 >
 SetCacheAsFile
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -510,7 +510,7 @@ rv
 ;
 mLocationIsTemp
 =
-PR_TRUE
+true
 ;
 }
 rv

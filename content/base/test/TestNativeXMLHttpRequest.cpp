@@ -218,7 +218,7 @@ Open
 (
 getString
 testURL
-PR_FALSE
+false
 empty
 empty
 )
@@ -349,7 +349,7 @@ Open
 (
 getString
 testURL
-PR_FALSE
+false
 empty
 empty
 )

@@ -1659,7 +1659,7 @@ key
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2062,7 +2062,7 @@ limit
 ;
 sInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2757,7 +2757,7 @@ sUserDefinedEvents
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -2843,12 +2843,12 @@ sStringEventTable
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2879,7 +2879,7 @@ sStringEventTable
 {
 sEventTableInitialized
 =
-PR_TRUE
+true
 ;
 static
 const
@@ -3143,13 +3143,13 @@ EIGHT_BIT
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -3763,7 +3763,7 @@ aSource
 }
 mLastCharCR
 =
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -3818,7 +3818,7 @@ done_writing
 {
 mLastCharCR
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4194,7 +4194,7 @@ l
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -4337,7 +4337,7 @@ l
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -4421,8 +4421,8 @@ marginStr
 .
 CompressWhitespace
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 if
@@ -4435,7 +4435,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -4477,7 +4477,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4520,7 +4520,7 @@ end
 0
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 ec
@@ -4550,7 +4550,7 @@ ec
 )
 )
 return
-PR_FALSE
+false
 ;
 switch
 (
@@ -4611,7 +4611,7 @@ end
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -4736,7 +4736,7 @@ updateService
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -4800,7 +4800,7 @@ updateService
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -4845,7 +4845,7 @@ Shutdown
 {
 sInitialized
 =
-PR_FALSE
+false
 ;
 NS_IF_RELEASE
 (
@@ -4854,7 +4854,7 @@ sContentPolicyService
 ;
 sTriedToGetContentPolicy
 =
-PR_FALSE
+false
 ;
 PRUint32
 i
@@ -5153,14 +5153,14 @@ hasCap
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
 hasCap
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -5180,7 +5180,7 @@ hasCap
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 hasCap
@@ -5363,7 +5363,7 @@ subsumes
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -5372,7 +5372,7 @@ subsumes
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5462,7 +5462,7 @@ subjectPrincipal
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -5472,7 +5472,7 @@ subjectPrincipal
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -5489,7 +5489,7 @@ aNode
 NS_ENSURE_TRUE
 (
 node
-PR_FALSE
+false
 )
 ;
 return
@@ -5539,7 +5539,7 @@ subjectPrincipal
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -5549,7 +5549,7 @@ subjectPrincipal
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -5580,7 +5580,7 @@ aWindow
 NS_ENSURE_TRUE
 (
 scriptObject
-PR_FALSE
+false
 )
 ;
 return
@@ -5652,7 +5652,7 @@ eDOCUMENT
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIDocument
@@ -6327,7 +6327,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -6513,7 +6513,7 @@ aPossibleDescendant
 aPossibleAncestor
 )
 return
-PR_TRUE
+true
 ;
 aPossibleDescendant
 =
@@ -6531,7 +6531,7 @@ aPossibleDescendant
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -6584,7 +6584,7 @@ aPossibleDescendant
 aPossibleAncestor
 )
 return
-PR_TRUE
+true
 ;
 aPossibleDescendant
 =
@@ -6600,7 +6600,7 @@ aPossibleDescendant
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -7503,7 +7503,7 @@ ch
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 +
@@ -7512,7 +7512,7 @@ aSet
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -8243,7 +8243,7 @@ htmlForms
 IndexOf
 (
 formElement
-PR_FALSE
+false
 )
 ;
 if
@@ -8319,7 +8319,7 @@ aKey
 ;
 generatedUniqueKey
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8367,7 +8367,7 @@ htmlFormControls
 IndexOf
 (
 aContent
-PR_TRUE
+true
 )
 ;
 if
@@ -8386,7 +8386,7 @@ aKey
 ;
 generatedUniqueKey
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8604,7 +8604,7 @@ aContent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIContent
@@ -8632,7 +8632,7 @@ aForm
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -8660,7 +8660,7 @@ IsHTML
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 content
@@ -8686,7 +8686,7 @@ GetChildCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8699,11 +8699,11 @@ aContent
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -8806,7 +8806,7 @@ parserService
 CheckQName
 (
 aQName
-PR_TRUE
+true
 &
 colon
 )
@@ -8990,7 +8990,7 @@ parserService
 CheckQName
 (
 qName
-PR_TRUE
+true
 &
 colon
 )
@@ -9601,7 +9601,7 @@ REJECT_REQUEST
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -9663,7 +9663,7 @@ NS_FAILED
 rv
 )
 ?
-PR_FALSE
+false
 :
 NS_CP_ACCEPTED
 (
@@ -9697,7 +9697,7 @@ if
 sImgCache
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -10173,7 +10173,7 @@ if
 draggable
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -10195,7 +10195,7 @@ eIgnoreCase
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -10254,7 +10254,7 @@ imageContent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -10353,7 +10353,7 @@ permissionmanager
 NS_ENSURE_TRUE
 (
 permMgr
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -10376,7 +10376,7 @@ perm
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 return
@@ -10538,11 +10538,11 @@ nsCxPusher
 :
 mScriptIsRunning
 (
-PR_FALSE
+false
 )
 mPushedSomething
 (
-PR_FALSE
+false
 )
 {
 }
@@ -10592,7 +10592,7 @@ if
 ctx
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -10602,7 +10602,7 @@ ctx
 aContext
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -10631,7 +10631,7 @@ ContextStackIterator
 NS_ENSURE_TRUE
 (
 iterator
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -10648,7 +10648,7 @@ aStack
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 bool
@@ -10723,11 +10723,11 @@ ctx
 aContext
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -10766,13 +10766,13 @@ Push
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_ENSURE_TRUE
 (
 aCurrentTarget
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -10794,7 +10794,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -10826,7 +10826,7 @@ cx
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 JSContext
@@ -10852,7 +10852,7 @@ GetNativeContext
 NS_ENSURE_TRUE
 (
 cx
-PR_FALSE
+false
 )
 ;
 }
@@ -10921,7 +10921,7 @@ Pop
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -10944,7 +10944,7 @@ GetNativeContext
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -10997,7 +10997,7 @@ Push
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -11007,7 +11007,7 @@ cx
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mScx
@@ -11027,7 +11027,7 @@ aRequiresScriptContext
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -11066,7 +11066,7 @@ stack
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -11083,7 +11083,7 @@ cx
 {
 mScriptIsRunning
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -11102,19 +11102,19 @@ cx
 {
 mScriptIsRunning
 =
-PR_FALSE
+false
 ;
 mScx
 =
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 mPushedSomething
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -11126,7 +11126,7 @@ cx
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -11179,7 +11179,7 @@ nsnull
 ;
 mPushedSomething
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -11249,7 +11249,7 @@ mScx
 >
 ScriptEvaluated
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -11259,11 +11259,11 @@ nsnull
 ;
 mScriptIsRunning
 =
-PR_FALSE
+false
 ;
 mPushedSomething
 =
-PR_FALSE
+false
 ;
 }
 static
@@ -11981,7 +11981,7 @@ aDocument
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -12227,7 +12227,7 @@ spec
 ;
 scriptFileNameModified
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -12253,7 +12253,7 @@ aDocument
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -12360,7 +12360,7 @@ sContentPolicyService
 ;
 sTriedToGetContentPolicy
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -12416,7 +12416,7 @@ n
 '
 )
 return
-PR_FALSE
+false
 ;
 EventNameMapping
 mapping
@@ -12835,7 +12835,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -13642,7 +13642,7 @@ bigEndian
 *
 bigEndian
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -13687,14 +13687,14 @@ bigEndian
 *
 bigEndian
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 found
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -13740,7 +13740,7 @@ AddObserver
 (
 aObserver
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 }
@@ -13876,7 +13876,7 @@ doc
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsPIDOMWindow
@@ -13906,7 +13906,7 @@ aType
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -13939,7 +13939,7 @@ IsInNativeAnonymousSubtree
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 doc
@@ -13986,7 +13986,7 @@ piTarget
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -14003,7 +14003,7 @@ HasMutationListeners
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -14022,7 +14022,7 @@ aNode
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -14039,7 +14039,7 @@ HasMutationListeners
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -14110,7 +14110,7 @@ GetNodeParent
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -14291,7 +14291,7 @@ aParent
 nsMutationEvent
 mutation
 (
-PR_TRUE
+true
 NS_MUTATION_NODEREMOVED
 )
 ;
@@ -14657,7 +14657,7 @@ kNameSpaceID_Unknown
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -14695,7 +14695,7 @@ kNameSpaceID_None
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -15254,7 +15254,7 @@ else
 {
 setDefaultNamespace
 =
-PR_TRUE
+true
 ;
 }
 tagName
@@ -15811,7 +15811,7 @@ aDoctype
 aDocumentURI
 aBaseURI
 aPrincipal
-PR_TRUE
+true
 aEventObject
 aSVGDocument
 )
@@ -16004,7 +16004,7 @@ GetCurrentDoc
 (
 )
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 PRUint32
@@ -16095,7 +16095,7 @@ child
 SetText
 (
 aValue
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -16117,7 +16117,7 @@ aContent
 RemoveChildAt
 (
 removeIndex
-PR_TRUE
+true
 )
 ;
 }
@@ -16159,7 +16159,7 @@ aContent
 RemoveChildAt
 (
 0
-PR_TRUE
+true
 )
 ;
 }
@@ -16217,7 +16217,7 @@ textContent
 SetText
 (
 aValue
-PR_TRUE
+true
 )
 ;
 return
@@ -16227,7 +16227,7 @@ aContent
 AppendChildTo
 (
 textContent
-PR_TRUE
+true
 )
 ;
 }
@@ -16484,12 +16484,12 @@ TextLength
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -17260,7 +17260,7 @@ aURI
 NS_ENSURE_TRUE
 (
 baseURI
-PR_FALSE
+false
 )
 ;
 bool
@@ -17468,7 +17468,7 @@ aLoadingPrincipal
 CheckMayLoad
 (
 aURIToLoad
-PR_TRUE
+true
 )
 ;
 }
@@ -17907,7 +17907,7 @@ if
 defaultPrevented
 )
 return
-PR_FALSE
+false
 ;
 bool
 trusted
@@ -17929,7 +17929,7 @@ if
 trusted
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -18030,7 +18030,7 @@ aKeyEvent
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -18094,11 +18094,11 @@ ch
 '
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -18294,7 +18294,7 @@ nativeKeyEvent
 -
 >
 charCode
-PR_FALSE
+false
 )
 ;
 aCandidates
@@ -18375,7 +18375,7 @@ nsShortcutCandidate
 key
 (
 ch
-PR_FALSE
+false
 )
 ;
 aCandidates
@@ -18446,7 +18446,7 @@ nsShortcutCandidate
 key
 (
 ch
-PR_FALSE
+false
 )
 ;
 aCandidates
@@ -18515,7 +18515,7 @@ nsShortcutCandidate
 key
 (
 ch
-PR_FALSE
+false
 )
 ;
 aCandidates
@@ -18562,7 +18562,7 @@ nsShortcutCandidate
 key
 (
 ch
-PR_TRUE
+true
 )
 ;
 aCandidates
@@ -18598,7 +18598,7 @@ nsShortcutCandidate
 key
 (
 charCode
-PR_FALSE
+false
 )
 ;
 aCandidates
@@ -19062,7 +19062,7 @@ aRunnable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -19093,7 +19093,7 @@ prevented
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -19125,7 +19125,7 @@ Run
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -19221,7 +19221,7 @@ Substring
 tail
 tip
 )
-PR_TRUE
+true
 )
 ;
 const
@@ -19247,7 +19247,7 @@ Substring
 tip
 end
 )
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -21075,7 +21075,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -21144,7 +21144,7 @@ c2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -21184,13 +21184,13 @@ Z
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsIInterfaceRequestor
@@ -21329,7 +21329,7 @@ oldPrincipal
 CheckMayLoad
 (
 newURI
-PR_FALSE
+false
 )
 ;
 if
@@ -21354,7 +21354,7 @@ oldPrincipal
 CheckMayLoad
 (
 newOriginalURI
-PR_FALSE
+false
 )
 ;
 }
@@ -22112,7 +22112,7 @@ channelURI
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 return
@@ -22124,7 +22124,7 @@ aPrincipal
 CheckMayLoad
 (
 channelURI
-PR_FALSE
+false
 )
 )
 ;
@@ -22215,7 +22215,7 @@ aParameterName
 EmptyCString
 (
 )
-PR_FALSE
+false
 nsnull
 aResult
 )
@@ -22251,7 +22251,7 @@ cx
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 JSStackFrame
@@ -22275,7 +22275,7 @@ fp
 NS_ENSURE_TRUE
 (
 principal
-PR_FALSE
+false
 )
 ;
 if
@@ -22296,7 +22296,7 @@ fp
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 fp
@@ -22343,7 +22343,7 @@ privileged
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -22409,7 +22409,7 @@ prefix
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -22439,11 +22439,11 @@ privileged
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -22569,8 +22569,8 @@ NS_LITERAL_STRING
 command
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 doc
 -
 >
@@ -23058,7 +23058,7 @@ classAttr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 ClassMatchingInfo
@@ -23093,7 +23093,7 @@ length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -23137,12 +23137,12 @@ mCaseTreatment
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -23391,7 +23391,7 @@ aWrapper
 :
 mFound
 (
-PR_FALSE
+false
 )
 mWrapper
 (
@@ -23667,7 +23667,7 @@ callback
 .
 mFound
 =
-PR_FALSE
+false
 ;
 participant
 -
@@ -24969,7 +24969,7 @@ aDocument
 GetScriptGlobalObject
 (
 )
-PR_TRUE
+true
 )
 ;
 JSContext
@@ -25000,7 +25000,7 @@ GetNativeContext
 NS_ENSURE_TRUE
 (
 ctx
-PR_TRUE
+true
 )
 ;
 JSAutoRequest
@@ -25067,7 +25067,7 @@ Length
 NS_ENSURE_TRUE
 (
 re
-PR_TRUE
+true
 )
 ;
 jsval
@@ -25234,7 +25234,7 @@ aLoadingPrincipal
 CheckMayLoad
 (
 aURI
-PR_FALSE
+false
 )
 )
 &

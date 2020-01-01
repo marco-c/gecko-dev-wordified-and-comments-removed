@@ -440,7 +440,7 @@ notifyOnOpen
 *
 notifyOnOpen
 =
-PR_FALSE
+false
 ;
 nsPrintProgress
 *
@@ -1050,7 +1050,7 @@ mPrintProgress
 >
 CloseProgressDialog
 (
-PR_TRUE
+true
 )
 ;
 }

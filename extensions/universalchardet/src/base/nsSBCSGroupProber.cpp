@@ -198,7 +198,7 @@ nsSingleByteCharSetProber
 (
 &
 Win1255Model
-PR_FALSE
+false
 hebprober
 )
 ;
@@ -212,7 +212,7 @@ nsSingleByteCharSetProber
 (
 &
 Win1255Model
-PR_TRUE
+true
 hebprober
 )
 ;
@@ -423,7 +423,7 @@ mIsActive
 i
 ]
 =
-PR_TRUE
+true
 ;
 +
 +
@@ -436,7 +436,7 @@ mIsActive
 i
 ]
 =
-PR_FALSE
+false
 ;
 }
 mBestGuess
@@ -577,7 +577,7 @@ mIsActive
 i
 ]
 =
-PR_FALSE
+false
 ;
 mActiveNum
 -

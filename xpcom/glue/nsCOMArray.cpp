@@ -430,7 +430,7 @@ result
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -560,7 +560,7 @@ result
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -592,7 +592,7 @@ element
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -657,7 +657,7 @@ aNewCount
 0
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 count

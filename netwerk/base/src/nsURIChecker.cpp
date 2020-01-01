@@ -114,11 +114,11 @@ NS_OK
 )
 mIsPending
 (
-PR_FALSE
+false
 )
 mAllowHead
 (
-PR_TRUE
+true
 )
 {
 }
@@ -138,7 +138,7 @@ aStatus
 ;
 mIsPending
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -298,7 +298,7 @@ httpChannel
 {
 mAllowHead
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -481,7 +481,7 @@ mAllowHead
 {
 mAllowHead
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -553,7 +553,7 @@ HEAD
 ;
 mAllowHead
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -617,7 +617,7 @@ else
 {
 mIsPending
 =
-PR_TRUE
+true
 ;
 mObserver
 =

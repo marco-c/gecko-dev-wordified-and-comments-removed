@@ -75,7 +75,7 @@ return
 UseAsPrimaryRequest
 (
 aImageRequest
-PR_FALSE
+false
 )
 ;
 }

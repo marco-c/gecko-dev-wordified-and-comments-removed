@@ -476,7 +476,7 @@ nsSafeFileOutputStream
 :
 mTargetFileExists
 (
-PR_TRUE
+true
 )
 mWriteResult
 (

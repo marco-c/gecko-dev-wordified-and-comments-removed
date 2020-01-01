@@ -75,7 +75,7 @@ nsLDAPSyncQuery
 :
 mFinished
 (
-PR_FALSE
+false
 )
 mAttrCount
 (
@@ -1290,7 +1290,7 @@ FinishLDAPQuery
 {
 mFinished
 =
-PR_TRUE
+true
 ;
 mConnection
 =

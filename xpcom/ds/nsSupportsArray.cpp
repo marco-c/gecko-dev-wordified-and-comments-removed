@@ -748,7 +748,7 @@ mArray
 oldArray
 ;
 return
-PR_FALSE
+false
 ;
 }
 mArraySize
@@ -890,7 +890,7 @@ oldArray
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1139,7 +1139,7 @@ aStream
 >
 ReadObject
 (
-PR_TRUE
+true
 &
 mArray
 [
@@ -1243,7 +1243,7 @@ mArray
 [
 i
 ]
-PR_TRUE
+true
 )
 ;
 if
@@ -1359,7 +1359,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1405,7 +1405,7 @@ otherElem
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1418,16 +1418,16 @@ index
 otherElem
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -1719,7 +1719,7 @@ GrowArrayBy
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -1829,11 +1829,11 @@ mCount
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -1859,7 +1859,7 @@ aElements
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -1880,7 +1880,7 @@ countElements
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1910,7 +1910,7 @@ countElements
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -1989,7 +1989,7 @@ i
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -2045,11 +2045,11 @@ mCount
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -2096,11 +2096,11 @@ aIndex
 aElement
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -2197,11 +2197,11 @@ nsISupports
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -2244,7 +2244,7 @@ theIndex
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -2284,7 +2284,7 @@ theIndex
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP_
@@ -2314,7 +2314,7 @@ aTo
 aFrom
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -2347,7 +2347,7 @@ mCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 tempElement
@@ -2437,7 +2437,7 @@ tempElement
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -2711,7 +2711,7 @@ aSize
 mCount
 )
 return
-PR_TRUE
+true
 ;
 nsISupports
 *
@@ -2762,7 +2762,7 @@ mArray
 oldArray
 ;
 return
-PR_FALSE
+false
 ;
 }
 mArraySize
@@ -2855,7 +2855,7 @@ delete
 oldArray
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP_
@@ -3292,7 +3292,7 @@ mValueArray
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

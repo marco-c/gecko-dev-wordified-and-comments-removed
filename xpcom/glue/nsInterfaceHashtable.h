@@ -245,7 +245,7 @@ pInterface
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -258,7 +258,7 @@ pInterface
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 template
@@ -383,7 +383,7 @@ aFound
 *
 aFound
 =
-PR_TRUE
+true
 ;
 return
 ent
@@ -399,7 +399,7 @@ aFound
 *
 aFound
 =
-PR_FALSE
+false
 ;
 return
 nsnull
@@ -488,7 +488,7 @@ mLock
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -509,7 +509,7 @@ mLock
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #

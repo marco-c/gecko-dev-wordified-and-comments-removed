@@ -214,7 +214,7 @@ aMimeInfo
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsIHandlerApp
@@ -306,7 +306,7 @@ aMimeInfo
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 info
@@ -317,7 +317,7 @@ aMimeInfo
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -454,7 +454,7 @@ mimeinfo
 *
 found
 =
-PR_TRUE
+true
 ;
 mozilla
 :
@@ -578,7 +578,7 @@ len
 *
 found
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -765,7 +765,7 @@ len
 *
 aHasDefault
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -805,7 +805,7 @@ NS_OK
 *
 aHasDefault
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1152,7 +1152,7 @@ nsCaseInsensitiveCStringComparator
 {
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1307,7 +1307,7 @@ nsCaseInsensitiveCStringComparator
 {
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1488,7 +1488,7 @@ aMIMEType
 )
 mAlwaysAsk
 (
-PR_TRUE
+true
 )
 mPrefAction
 (
@@ -1527,7 +1527,7 @@ mHandlerApps
 AppendElement
 (
 mPrefApp
-PR_FALSE
+false
 )
 ;
 }
@@ -1693,7 +1693,7 @@ aRetVal
 *
 aRetVal
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

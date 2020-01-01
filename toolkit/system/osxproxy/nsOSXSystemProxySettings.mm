@@ -782,7 +782,7 @@ http
 kSCPropNetProxiesHTTPEnable
 kSCPropNetProxiesHTTPProxy
 kSCPropNetProxiesHTTPPort
-PR_FALSE
+false
 }
 {
 "
@@ -791,7 +791,7 @@ https
 kSCPropNetProxiesHTTPSEnable
 kSCPropNetProxiesHTTPSProxy
 kSCPropNetProxiesHTTPSPort
-PR_FALSE
+false
 }
 {
 "
@@ -800,7 +800,7 @@ ftp
 kSCPropNetProxiesFTPEnable
 kSCPropNetProxiesFTPProxy
 kSCPropNetProxiesFTPPort
-PR_FALSE
+false
 }
 {
 "
@@ -809,14 +809,14 @@ socks
 kSCPropNetProxiesSOCKSEnable
 kSCPropNetProxiesSOCKSProxy
 kSCPropNetProxiesSOCKSPort
-PR_TRUE
+true
 }
 {
 NULL
 NULL
 NULL
 NULL
-PR_FALSE
+false
 }
 }
 ;
@@ -1523,7 +1523,7 @@ NSNumber
 class
 ]
 ]
-PR_FALSE
+false
 )
 ;
 return
@@ -1539,7 +1539,7 @@ intValue
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1705,7 +1705,7 @@ token
 .
 star
 =
-PR_TRUE
+true
 ;
 tokenStart
 +
@@ -1834,11 +1834,11 @@ offset
 )
 )
 return
-PR_FALSE
+false
 ;
 star
 =
-PR_FALSE
+false
 ;
 tokenStart
 =
@@ -1900,7 +1900,7 @@ mProxyDict
 !
 =
 NULL
-PR_FALSE
+false
 )
 ;
 NSArray
@@ -1935,7 +1935,7 @@ NSArray
 class
 ]
 ]
-PR_FALSE
+false
 )
 ;
 NSEnumerator
@@ -1976,7 +1976,7 @@ NSString
 class
 ]
 ]
-PR_FALSE
+false
 )
 ;
 nsCAutoString
@@ -1997,12 +1997,12 @@ overrideStr
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 (
-PR_FALSE
+false
 )
 ;
 }

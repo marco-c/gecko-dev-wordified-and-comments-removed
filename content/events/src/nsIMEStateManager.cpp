@@ -584,7 +584,7 @@ EndSecureKeyboardInput
 {
 sInSecureInputMode
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -611,7 +611,7 @@ BeginSecureKeyboardInput
 {
 sInSecureInputMode
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1403,7 +1403,7 @@ GetDefaultSubmitElement
 {
 willSubmit
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1451,7 +1451,7 @@ HasSingleTextControl
 {
 willSubmit
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1757,7 +1757,7 @@ nsTextStateManager
 {
 mDestroying
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2908,7 +2908,7 @@ sTextStateObserver
 >
 mDestroying
 =
-PR_TRUE
+true
 ;
 sTextStateObserver
 -
@@ -2918,7 +2918,7 @@ mWidget
 >
 OnIMEFocusChange
 (
-PR_FALSE
+false
 )
 ;
 sTextStateObserver
@@ -3053,7 +3053,7 @@ widget
 >
 OnIMEFocusChange
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -3131,7 +3131,7 @@ sTextStateObserver
 >
 mDestroying
 =
-PR_TRUE
+true
 ;
 sTextStateObserver
 -
@@ -3150,7 +3150,7 @@ widget
 >
 OnIMEFocusChange
 (
-PR_FALSE
+false
 )
 ;
 return

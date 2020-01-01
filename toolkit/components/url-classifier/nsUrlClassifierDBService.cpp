@@ -343,7 +343,7 @@ LOG_ENABLED
 (
 )
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -398,7 +398,7 @@ enabled
 #
 define
 CHECK_MALWARE_DEFAULT
-PR_FALSE
+false
 #
 define
 CHECK_PHISHING_PREF
@@ -412,7 +412,7 @@ enabled
 #
 define
 CHECK_PHISHING_DEFAULT
-PR_FALSE
+false
 #
 define
 GETHASH_NOISE_PREF
@@ -749,7 +749,7 @@ hash
 >
 Finish
 (
-PR_FALSE
+false
 hashed
 )
 ;
@@ -1043,11 +1043,11 @@ mId
 )
 mHavePartial
 (
-PR_FALSE
+false
 )
 mHaveComplete
 (
-PR_FALSE
+false
 )
 mTableId
 (
@@ -1107,7 +1107,7 @@ partialHash
 ;
 mHavePartial
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1125,7 +1125,7 @@ completeHash
 ;
 mHaveComplete
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -1336,7 +1336,7 @@ mPartialHash
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1373,7 +1373,7 @@ mAddChunkId
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1410,7 +1410,7 @@ subEntry
 mPartialHash
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1428,11 +1428,11 @@ mId
 ;
 mHavePartial
 =
-PR_FALSE
+false
 ;
 mHaveComplete
 =
-PR_FALSE
+false
 ;
 }
 class
@@ -1446,11 +1446,11 @@ nsUrlClassifierLookupResult
 :
 mConfirmed
 (
-PR_FALSE
+false
 )
 mNoise
 (
-PR_FALSE
+false
 )
 {
 mLookupFragment
@@ -2269,7 +2269,7 @@ DOMAIN_LENGTH
 )
 )
 return
-PR_FALSE
+false
 ;
 memcpy
 (
@@ -2310,7 +2310,7 @@ entry
 .
 mHavePartial
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2323,13 +2323,13 @@ size
 PARTIAL_LENGTH
 )
 return
-PR_FALSE
+false
 ;
 entry
 .
 mHavePartial
 =
-PR_TRUE
+true
 ;
 memcpy
 (
@@ -2371,7 +2371,7 @@ entry
 .
 mHaveComplete
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2384,13 +2384,13 @@ size
 COMPLETE_LENGTH
 )
 return
-PR_FALSE
+false
 ;
 entry
 .
 mHaveComplete
 =
-PR_TRUE
+true
 ;
 memcpy
 (
@@ -2454,7 +2454,7 @@ AsInt32
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2694,7 +2694,7 @@ rv
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -3928,7 +3928,7 @@ entry
 )
 )
 return
-PR_FALSE
+false
 ;
 entry
 .
@@ -3943,7 +3943,7 @@ AsInt32
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -4877,11 +4877,11 @@ mUpdateWait
 )
 mResetRequested
 (
-PR_FALSE
+false
 )
 mGrewCache
 (
-PR_FALSE
+false
 )
 mState
 (
@@ -4913,15 +4913,15 @@ NS_OK
 )
 mInStream
 (
-PR_FALSE
+false
 )
 mPrimaryStream
 (
-PR_FALSE
+false
 )
 mHaveCachedLists
 (
-PR_FALSE
+false
 )
 mCachedListsTable
 (
@@ -4929,11 +4929,11 @@ PR_UINT32_MAX
 )
 mHaveCachedAddChunks
 (
-PR_FALSE
+false
 )
 mHaveCachedSubChunks
 (
-PR_FALSE
+false
 )
 mUpdateStartTime
 (
@@ -5255,7 +5255,7 @@ rv
 *
 clean
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -5419,7 +5419,7 @@ ready
 *
 clean
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6474,7 +6474,7 @@ n
 ;
 fresh
 =
-PR_FALSE
+false
 ;
 }
 result
@@ -6952,7 +6952,7 @@ ReadNoiseEntries
 (
 nearID
 numBefore
-PR_TRUE
+true
 noiseEntries
 )
 ;
@@ -6972,7 +6972,7 @@ nearID
 count
 -
 numBefore
-PR_FALSE
+false
 noiseEntries
 )
 ;
@@ -7035,14 +7035,14 @@ result
 >
 mConfirmed
 =
-PR_FALSE
+false
 ;
 result
 -
 >
 mNoise
 =
-PR_TRUE
+true
 ;
 GetTableName
 (
@@ -7246,7 +7246,7 @@ val
 ;
 haveAdds
 =
-PR_TRUE
+true
 ;
 }
 mGetTablesStatement
@@ -8080,7 +8080,7 @@ i4
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -8858,7 +8858,7 @@ else
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Invalid
 fragment
@@ -9257,7 +9257,7 @@ else
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Invalid
 fragment
@@ -9401,7 +9401,7 @@ tmp
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -9419,11 +9419,11 @@ last
 first
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -10036,7 +10036,7 @@ rv
 ;
 mHaveCachedLists
 =
-PR_TRUE
+true
 ;
 mCachedListsTable
 =
@@ -10060,7 +10060,7 @@ mCachedAddChunks
 ;
 mHaveCachedAddChunks
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -10080,7 +10080,7 @@ mCachedSubChunks
 ;
 mHaveCachedSubChunks
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -10173,7 +10173,7 @@ PR_UINT32_MAX
 ;
 mHaveCachedLists
 =
-PR_FALSE
+false
 ;
 mCachedAddChunks
 .
@@ -10183,7 +10183,7 @@ Clear
 ;
 mHaveCachedAddChunks
 =
-PR_FALSE
+false
 ;
 mCachedSubChunks
 .
@@ -10193,7 +10193,7 @@ Clear
 ;
 mHaveCachedSubChunks
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -10254,7 +10254,7 @@ mid
 chunkNum
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -10349,8 +10349,8 @@ rv
 CacheChunkLists
 (
 tableId
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10530,7 +10530,7 @@ j
 ;
 writeEntry
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -10741,8 +10741,8 @@ rv
 CacheChunkLists
 (
 tableId
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10792,8 +10792,8 @@ rv
 CacheChunkLists
 (
 tableId
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 if
@@ -11053,8 +11053,8 @@ rv
 CacheChunkLists
 (
 tableId
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -11111,7 +11111,7 @@ mChunkLen
 *
 done
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -11222,7 +11222,7 @@ STATE_LINE
 *
 done
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -11253,7 +11253,7 @@ rv
 *
 done
 =
-PR_TRUE
+true
 ;
 nsACString
 &
@@ -11551,7 +11551,7 @@ pleasereset
 {
 mResetRequested
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -11959,7 +11959,7 @@ CHUNK_SUB
 *
 done
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -12258,11 +12258,11 @@ mChunkLen
 ;
 mInStream
 =
-PR_FALSE
+false
 ;
 mPrimaryStream
 =
-PR_FALSE
+false
 ;
 mUpdateTable
 .
@@ -12315,7 +12315,7 @@ Truncate
 ;
 mResetRequested
 =
-PR_FALSE
+false
 ;
 mUpdateTables
 .
@@ -12522,7 +12522,7 @@ rv
 }
 mPrimaryStream
 =
-PR_TRUE
+true
 ;
 SplitTables
 (
@@ -12593,7 +12593,7 @@ rv
 }
 mInStream
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -13120,7 +13120,7 @@ mHMAC
 >
 Finish
 (
-PR_TRUE
+true
 clientMAC
 )
 ;
@@ -13444,7 +13444,7 @@ gLookupCacheSize
 {
 mGrewCache
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -13562,7 +13562,7 @@ DB
 ;
 mGrewCache
 =
-PR_FALSE
+false
 ;
 CloseDb
 (
@@ -13911,7 +13911,7 @@ mDBFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 mPSFile
@@ -13919,7 +13919,7 @@ mPSFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -14161,7 +14161,7 @@ mozStorageTransaction
 trans
 (
 mConnection
-PR_TRUE
+true
 )
 ;
 for
@@ -14323,7 +14323,7 @@ mDBFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -14334,7 +14334,7 @@ rv
 ;
 newDB
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -14425,7 +14425,7 @@ mDBFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -14436,7 +14436,7 @@ rv
 ;
 newDB
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -15215,7 +15215,7 @@ DOMAIN_LENGTH
 )
 )
 return
-PR_FALSE
+false
 ;
 domainval
 =
@@ -16574,7 +16574,7 @@ result
 .
 mConfirmed
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -16903,7 +16903,7 @@ result
 .
 mConfirmed
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -17431,7 +17431,7 @@ CHECK_PHISHING_DEFAULT
 )
 mInUpdate
 (
-PR_FALSE
+false
 )
 {
 }
@@ -17582,7 +17582,7 @@ AddObserver
 (
 CHECK_MALWARE_PREF
 this
-PR_FALSE
+false
 )
 ;
 rv
@@ -17615,7 +17615,7 @@ AddObserver
 (
 CHECK_PHISHING_PREF
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -17674,7 +17674,7 @@ AddObserver
 (
 GETHASH_TABLES_PREF
 this
-PR_FALSE
+false
 )
 ;
 PRInt32
@@ -17713,7 +17713,7 @@ AddObserver
 (
 CONFIRM_AGE_PREF
 this
-PR_FALSE
+false
 )
 ;
 rv
@@ -17932,7 +17932,7 @@ before
 -
 change
 "
-PR_FALSE
+false
 )
 ;
 observerService
@@ -17948,7 +17948,7 @@ shutdown
 -
 threads
 "
-PR_FALSE
+false
 )
 ;
 return
@@ -17992,7 +17992,7 @@ mCheckPhishing
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -18027,7 +18027,7 @@ LookupURI
 (
 uri
 callback
-PR_FALSE
+false
 result
 )
 ;
@@ -18042,7 +18042,7 @@ NS_ERROR_MALFORMED_URI
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -18128,7 +18128,7 @@ LookupURI
 (
 uri
 c
-PR_TRUE
+true
 &
 didLookup
 )
@@ -18203,7 +18203,7 @@ forceLookup
 *
 didLookup
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -18487,7 +18487,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 mInUpdate
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -18616,7 +18616,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 mInUpdate
 =
-PR_FALSE
+false
 ;
 return
 mWorkerProxy
@@ -18643,7 +18643,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 mInUpdate
 =
-PR_FALSE
+false
 ;
 return
 mWorkerProxy
@@ -18735,7 +18735,7 @@ completer
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -18750,7 +18750,7 @@ tableName
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -19378,7 +19378,7 @@ thread
 ;
 gShuttingDownThread
 =
-PR_TRUE
+true
 ;
 nsIThread
 *

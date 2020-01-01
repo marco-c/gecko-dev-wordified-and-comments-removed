@@ -99,7 +99,7 @@ if
 mNode
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -108,10 +108,10 @@ mBeforeNode
 {
 mBeforeNode
 =
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsINode
@@ -135,7 +135,7 @@ mNode
 child
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -166,7 +166,7 @@ if
 mNode
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -176,10 +176,10 @@ mBeforeNode
 {
 mBeforeNode
 =
-PR_TRUE
+true
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -190,7 +190,7 @@ mNode
 aRoot
 )
 return
-PR_FALSE
+false
 ;
 MoveBackward
 (
@@ -209,7 +209,7 @@ GetPreviousSibling
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -311,7 +311,7 @@ return
 ;
 mBeforeNode
 =
-PR_FALSE
+false
 ;
 }
 MoveBackward
@@ -373,7 +373,7 @@ mNode
 sibling
 ;
 return
-PR_TRUE
+true
 ;
 }
 aNode
@@ -387,7 +387,7 @@ GetNodeParent
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -468,12 +468,12 @@ aExpandEntityReferences
 )
 mDetached
 (
-PR_FALSE
+false
 )
 mPointer
 (
 mRoot
-PR_TRUE
+true
 )
 {
 aRoot
@@ -939,7 +939,7 @@ Clear
 ;
 mDetached
 =
-PR_TRUE
+true
 ;
 }
 return

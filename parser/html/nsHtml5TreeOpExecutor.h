@@ -557,7 +557,7 @@ aPreventScriptExecution
 {
 mFragmentMode
 =
-PR_TRUE
+true
 ;
 mPreventScriptExecution
 =
@@ -775,7 +775,7 @@ aParent
 {
 newParent
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1031,7 +1031,7 @@ parent
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 for
@@ -1264,7 +1264,7 @@ StartReadingFromStage
 {
 mReadingFromStage
 =
-PR_TRUE
+true
 ;
 }
 void

@@ -453,7 +453,7 @@ sZeroFloat
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -953,7 +953,7 @@ mCSSValue
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -962,11 +962,11 @@ rightWrapper
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1728,7 +1728,7 @@ absValuePos
 {
 isNegative
 =
-PR_TRUE
+true
 ;
 subStringBegin
 =
@@ -1756,14 +1756,14 @@ ComputeValue
 aPropID
 aTargetElement
 subString
-PR_TRUE
+true
 aStyleAnimValue
 aIsContextSensitive
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1832,7 +1832,7 @@ TextZoom
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void

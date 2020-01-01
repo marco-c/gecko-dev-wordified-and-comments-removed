@@ -77,7 +77,7 @@ mData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -90,7 +90,7 @@ retVal
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_IMPL_ISUPPORTS1

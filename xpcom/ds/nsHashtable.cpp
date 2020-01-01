@@ -111,7 +111,7 @@ key
 key
 )
 return
-PR_TRUE
+true
 ;
 const
 nsHashKey
@@ -375,7 +375,7 @@ NULL
 )
 mEnumerating
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -525,7 +525,7 @@ mLock
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PLDHashEntryHdr
@@ -1014,7 +1014,7 @@ mEnumerating
 ;
 mEnumerating
 =
-PR_TRUE
+true
 ;
 _HashEnumerateArgs
 thunk
@@ -1222,7 +1222,7 @@ nsnull
 )
 mEnumerating
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -1494,7 +1494,7 @@ mRetVal
 rv
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1664,7 +1664,7 @@ aStream
 >
 ReadObject
 (
-PR_TRUE
+true
 &
 mKey
 )
@@ -1726,7 +1726,7 @@ aStream
 WriteObject
 (
 mKey
-PR_TRUE
+true
 )
 ;
 return
@@ -2200,7 +2200,7 @@ other
 mStrLen
 )
 return
-PR_FALSE
+false
 ;
 return
 memcmp
@@ -2875,7 +2875,7 @@ other
 mStrLen
 )
 return
-PR_FALSE
+false
 ;
 return
 memcmp
@@ -3253,7 +3253,7 @@ mLock
 )
 threadSafe
 =
-PR_TRUE
+true
 ;
 nsObjectHashtable
 *
@@ -3343,7 +3343,7 @@ mDestroyElementClosure
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3382,7 +3382,7 @@ element
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsSupportsHashtable

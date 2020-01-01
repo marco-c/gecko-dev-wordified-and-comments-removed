@@ -375,11 +375,11 @@ nsIMEUpdatePreference
 :
 mWantUpdates
 (
-PR_FALSE
+false
 )
 mWantHints
 (
-PR_FALSE
+false
 )
 {
 }

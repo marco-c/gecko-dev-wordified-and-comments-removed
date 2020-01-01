@@ -1467,7 +1467,7 @@ attributeLen
 {
 result
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1510,7 +1510,7 @@ PRUnichar
 {
 result
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1814,7 +1814,7 @@ end
 in
 first
 =
-PR_FALSE
+false
 )
 {
 if
@@ -2282,7 +2282,7 @@ ePROCESSING_INSTRUCTION
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return

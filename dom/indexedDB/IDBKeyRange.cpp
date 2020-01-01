@@ -676,8 +676,8 @@ keys
 [
 0
 ]
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ASSERTION
@@ -855,7 +855,7 @@ nsnull
 !
 !
 open
-PR_TRUE
+true
 )
 ;
 NS_ASSERTION
@@ -1030,7 +1030,7 @@ keys
 [
 0
 ]
-PR_TRUE
+true
 !
 !
 open
@@ -1630,9 +1630,9 @@ aLowerOpen
 =
 mLowerOpen
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1666,9 +1666,9 @@ aUpperOpen
 =
 mUpperOpen
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK

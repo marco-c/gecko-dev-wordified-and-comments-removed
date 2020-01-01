@@ -152,11 +152,11 @@ mIAttr
 )
 mInited
 (
-PR_FALSE
+false
 )
 mWriteOnClose
 (
-PR_FALSE
+false
 )
 mExtraField
 (

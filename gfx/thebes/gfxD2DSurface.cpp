@@ -147,7 +147,7 @@ csurf
 Init
 (
 csurf
-PR_TRUE
+true
 )
 ;
 }

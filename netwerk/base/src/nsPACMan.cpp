@@ -497,11 +497,11 @@ nsPACMan
 :
 mLoadPending
 (
-PR_FALSE
+false
 )
 mShutdown
 (
-PR_FALSE
+false
 )
 mScheduledReload
 (
@@ -597,7 +597,7 @@ nsnull
 ;
 mShutdown
 =
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -931,7 +931,7 @@ rv
 ;
 mLoadPending
 =
-PR_TRUE
+true
 ;
 }
 CancelExistingLoad
@@ -978,7 +978,7 @@ StartLoading
 {
 mLoadPending
 =
-PR_FALSE
+false
 ;
 if
 (

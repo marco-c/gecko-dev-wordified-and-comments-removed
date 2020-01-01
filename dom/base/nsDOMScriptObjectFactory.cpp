@@ -116,7 +116,7 @@ nsDOMScriptObjectFactory
 :
 mLoadedAllLanguages
 (
-PR_FALSE
+false
 )
 {
 nsCOMPtr
@@ -147,7 +147,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 }

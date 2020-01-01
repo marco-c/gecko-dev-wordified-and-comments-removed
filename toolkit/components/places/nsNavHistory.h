@@ -982,7 +982,7 @@ PRIVATEBROWSING_NOTINITED
 {
 mInPrivateBrowsing
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

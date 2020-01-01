@@ -338,7 +338,7 @@ SVG_LENGTHTYPE_UNKNOWN
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -386,12 +386,12 @@ mUnit
 tmpUnit
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 inline

@@ -135,11 +135,11 @@ nsViewSourceChannel
 :
 mIsDocument
 (
-PR_FALSE
+false
 )
 mOpened
 (
-PR_FALSE
+false
 )
 {
 }

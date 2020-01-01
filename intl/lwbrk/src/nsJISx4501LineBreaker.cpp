@@ -1470,7 +1470,7 @@ if
 mHasCJKChar
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 index
@@ -1544,7 +1544,7 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 for
@@ -1578,11 +1578,11 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1602,7 +1602,7 @@ NotifySeenEqualsSign
 {
 mHasPreviousEqualsSign
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -1622,7 +1622,7 @@ NotifySeenSlash
 {
 mHasPreviousSlash
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -1642,7 +1642,7 @@ NotifySeenBackslash
 {
 mHasPreviousBackslash
 =
-PR_TRUE
+true
 ;
 }
 PRUnichar
@@ -1696,15 +1696,15 @@ mHasNonbreakableSpace
 ;
 mHasPreviousEqualsSign
 =
-PR_FALSE
+false
 ;
 mHasPreviousSlash
 =
-PR_FALSE
+false
 ;
 mHasPreviousBackslash
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -2310,7 +2310,7 @@ begin
 {
 textNeedsJISx4051
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2366,7 +2366,7 @@ end
 {
 textNeedsJISx4051
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2830,7 +2830,7 @@ else
 {
 allowBreak
 =
-PR_FALSE
+false
 ;
 }
 aBreakBefore
@@ -3098,7 +3098,7 @@ else
 {
 allowBreak
 =
-PR_FALSE
+false
 ;
 }
 aBreakBefore

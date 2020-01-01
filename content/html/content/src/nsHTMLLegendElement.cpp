@@ -323,7 +323,7 @@ ParseEnumValue
 (
 aValue
 kAlignTable
-PR_FALSE
+false
 )
 ;
 }
@@ -542,7 +542,7 @@ IsFocusable
 (
 &
 tabIndex
-PR_FALSE
+false
 )
 )
 return

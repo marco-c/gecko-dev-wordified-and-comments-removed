@@ -5732,7 +5732,7 @@ float
 0
 .
 976601
-PR_FALSE
+false
 "
 KOI8
 -
@@ -5753,7 +5753,7 @@ float
 0
 .
 976601
-PR_FALSE
+false
 "
 windows
 -
@@ -5774,7 +5774,7 @@ float
 0
 .
 976601
-PR_FALSE
+false
 "
 ISO
 -
@@ -5797,7 +5797,7 @@ float
 0
 .
 976601
-PR_FALSE
+false
 "
 x
 -
@@ -5820,7 +5820,7 @@ float
 0
 .
 976601
-PR_FALSE
+false
 "
 IBM866
 "
@@ -5839,7 +5839,7 @@ float
 0
 .
 976601
-PR_FALSE
+false
 "
 IBM855
 "

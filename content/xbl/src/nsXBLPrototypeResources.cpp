@@ -218,7 +218,7 @@ else
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -280,10 +280,10 @@ isChrome
 isChrome
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult

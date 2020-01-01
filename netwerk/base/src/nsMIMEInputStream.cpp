@@ -247,11 +247,11 @@ nsMIMEInputStream
 :
 mAddContentLength
 (
-PR_FALSE
+false
 )
 mStartedReading
 (
-PR_FALSE
+false
 )
 {
 }
@@ -593,7 +593,7 @@ rewinding
 ;
 mStartedReading
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -783,7 +783,7 @@ rv
 )
 mStartedReading
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1232,7 +1232,7 @@ mStartedReading
 )
 )
 return
-PR_FALSE
+false
 ;
 mHeaderStream
 -
@@ -1294,7 +1294,7 @@ inputStream
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1333,7 +1333,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1348,10 +1348,10 @@ mAddContentLength
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

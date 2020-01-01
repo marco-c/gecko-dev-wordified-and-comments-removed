@@ -614,11 +614,11 @@ Layer
 CONTENT_OPAQUE
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -805,7 +805,7 @@ aContainer
 >
 mSupportsComponentAlphaChildren
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -923,7 +923,7 @@ aContainer
 >
 mSupportsComponentAlphaChildren
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1055,7 +1055,7 @@ aContainer
 >
 mSupportsComponentAlphaChildren
 =
-PR_TRUE
+true
 ;
 }
 else

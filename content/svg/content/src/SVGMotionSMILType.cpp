@@ -352,7 +352,7 @@ mRotateAngle
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -832,7 +832,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -875,12 +875,12 @@ i
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 inline

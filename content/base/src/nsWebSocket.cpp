@@ -561,7 +561,7 @@ nsnull
 )
 mClosedCleanly
 (
-PR_FALSE
+false
 )
 mStatus
 (
@@ -2615,15 +2615,15 @@ nsWebSocket
 :
 mKeepingAlive
 (
-PR_FALSE
+false
 )
 mCheckMustKeepAlive
 (
-PR_TRUE
+true
 )
 mTriggeredCloseEvent
 (
-PR_FALSE
+false
 )
 mClientReasonCode
 (
@@ -3671,8 +3671,8 @@ event
 InitEvent
 (
 aName
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3699,7 +3699,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3915,8 +3915,8 @@ NS_LITERAL_STRING
 message
 "
 )
-PR_FALSE
-PR_FALSE
+false
+false
 jsData
 mUTF16Origin
 EmptyString
@@ -3949,7 +3949,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4003,7 +4003,7 @@ rv
 ;
 mTriggeredCloseEvent
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -4071,8 +4071,8 @@ NS_LITERAL_STRING
 close
 "
 )
-PR_FALSE
-PR_FALSE
+false
+false
 aWasClean
 aCode
 aReason
@@ -4102,7 +4102,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4425,7 +4425,7 @@ event
 ;
 mTriggeredCloseEvent
 =
-PR_TRUE
+true
 ;
 UpdateMustKeepAlive
 (
@@ -4702,7 +4702,7 @@ ws
 {
 mSecure
 =
-PR_FALSE
+false
 ;
 mPort
 =
@@ -4734,7 +4734,7 @@ wss
 {
 mSecure
 =
-PR_TRUE
+true
 ;
 mPort
 =
@@ -4987,7 +4987,7 @@ close
 {
 shouldKeepAlive
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5046,7 +5046,7 @@ HasOutgoingMessages
 {
 shouldKeepAlive
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5094,7 +5094,7 @@ shouldKeepAlive
 {
 mKeepingAlive
 =
-PR_FALSE
+false
 ;
 static_cast
 <
@@ -5123,7 +5123,7 @@ shouldKeepAlive
 {
 mKeepingAlive
 =
-PR_TRUE
+true
 ;
 static_cast
 <
@@ -5170,7 +5170,7 @@ mKeepingAlive
 {
 mKeepingAlive
 =
-PR_FALSE
+false
 ;
 static_cast
 <
@@ -5189,7 +5189,7 @@ Release
 }
 mCheckMustKeepAlive
 =
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -5577,7 +5577,7 @@ i
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -5614,7 +5614,7 @@ i
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 continue
@@ -5622,7 +5622,7 @@ continue
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP

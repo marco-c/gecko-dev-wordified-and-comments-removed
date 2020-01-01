@@ -653,7 +653,7 @@ return
 MakeInputStream
 (
 _retval
-PR_FALSE
+false
 )
 ;
 }
@@ -859,7 +859,7 @@ getter_AddRefs
 (
 inStream
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -892,7 +892,7 @@ PRInt64
 )
 0
 0
-PR_FALSE
+false
 )
 ;
 if

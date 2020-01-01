@@ -308,7 +308,7 @@ aImage2
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -322,7 +322,7 @@ aImage2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -997,11 +997,11 @@ aEnumOK
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1151,7 +1151,7 @@ zero
 }
 mHasCachedMargin
 =
-PR_FALSE
+false
 ;
 }
 nsStyleMargin
@@ -1178,7 +1178,7 @@ mMargin
 ;
 mHasCachedMargin
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -1269,7 +1269,7 @@ if
 IsFixedData
 (
 mMargin
-PR_FALSE
+false
 )
 )
 {
@@ -1300,13 +1300,13 @@ nsnull
 }
 mHasCachedMargin
 =
-PR_TRUE
+true
 ;
 }
 else
 mHasCachedMargin
 =
-PR_FALSE
+false
 ;
 }
 nsChangeHint
@@ -1411,7 +1411,7 @@ zero
 }
 mHasCachedPadding
 =
-PR_FALSE
+false
 ;
 }
 nsStylePadding
@@ -1438,7 +1438,7 @@ mPadding
 ;
 mHasCachedPadding
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -1529,7 +1529,7 @@ if
 IsFixedData
 (
 mPadding
-PR_FALSE
+false
 )
 )
 {
@@ -1564,13 +1564,13 @@ nsnull
 }
 mHasCachedPadding
 =
-PR_TRUE
+true
 ;
 }
 else
 mHasCachedPadding
 =
-PR_FALSE
+false
 ;
 }
 nsChangeHint
@@ -1641,7 +1641,7 @@ aPresContext
 :
 mHaveBorderImageWidth
 (
-PR_FALSE
+false
 )
 #
 ifdef
@@ -1824,7 +1824,7 @@ this
 mNext
 result
 (
-PR_FALSE
+false
 )
 )
 ;
@@ -2674,7 +2674,7 @@ NS_RGB
 ;
 mHasCachedOutline
 =
-PR_FALSE
+false
 ;
 mTwipsPerPixel
 =
@@ -2746,7 +2746,7 @@ mCachedOutlineWidth
 ;
 mHasCachedOutline
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2755,7 +2755,7 @@ if
 IsFixedUnit
 (
 mOutlineWidth
-PR_TRUE
+true
 )
 )
 {
@@ -2787,13 +2787,13 @@ mTwipsPerPixel
 ;
 mHasCachedOutline
 =
-PR_TRUE
+true
 ;
 }
 else
 mHasCachedOutline
 =
-PR_FALSE
+false
 ;
 }
 nsChangeHint
@@ -3176,7 +3176,7 @@ mBoxOrdinal
 ;
 mStretchStack
 =
-PR_TRUE
+true
 ;
 }
 nsStyleXUL
@@ -3383,7 +3383,7 @@ NS_RGB
 ;
 mColumnRuleColorIsForeground
 =
-PR_TRUE
+true
 ;
 mTwipsPerPixel
 =
@@ -4840,7 +4840,7 @@ aOther
 mType
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4878,7 +4878,7 @@ mType
 eStyleSVGPaintType_None
 )
 return
-PR_TRUE
+true
 ;
 return
 mPaint
@@ -5847,7 +5847,7 @@ aOther
 mAngle
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -5867,7 +5867,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -5927,11 +5927,11 @@ i
 mColor
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsStyleGradient
@@ -5952,7 +5952,7 @@ NS_STYLE_GRADIENT_SIZE_FARTHEST_CORNER
 )
 mRepeating
 (
-PR_FALSE
+false
 )
 {
 }
@@ -5999,11 +5999,11 @@ mColor
 255
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsStyleImage
@@ -6747,7 +6747,7 @@ mType
 eStyleImageType_Image
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6772,7 +6772,7 @@ if
 imageContainer
 )
 return
-PR_FALSE
+false
 ;
 nsIntSize
 imageSize
@@ -6817,7 +6817,7 @@ height
 0
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 left
@@ -6930,7 +6930,7 @@ imageRect
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -6983,7 +6983,7 @@ IsComplete
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -7008,7 +7008,7 @@ mType
 eStyleImageType_Element
 )
 return
-PR_FALSE
+false
 ;
 NS_ABORT_IF_FALSE
 (
@@ -7082,7 +7082,7 @@ if
 mCropRect
 )
 return
-PR_TRUE
+true
 ;
 nsIntRect
 actualCropRect
@@ -7122,7 +7122,7 @@ IsEmpty
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -7143,7 +7143,7 @@ case
 eStyleImageType_Null
 :
 return
-PR_FALSE
+false
 ;
 case
 eStyleImageType_Gradient
@@ -7152,7 +7152,7 @@ case
 eStyleImageType_Element
 :
 return
-PR_TRUE
+true
 ;
 case
 eStyleImageType_Image
@@ -7212,7 +7212,7 @@ type
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -7279,7 +7279,7 @@ aOther
 mType
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -7293,7 +7293,7 @@ mCropRect
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -7348,7 +7348,7 @@ mElementId
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsStyleBackground
@@ -7951,12 +7951,12 @@ IsEmpty
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -8024,7 +8024,7 @@ mXPosition
 .
 mHasPercent
 =
-PR_TRUE
+true
 ;
 mYPosition
 .
@@ -8044,7 +8044,7 @@ mYPosition
 .
 mHasPercent
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -8603,7 +8603,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -9209,11 +9209,11 @@ NS_STYLE_CLEAR_NONE
 ;
 mBreakBefore
 =
-PR_FALSE
+false
 ;
 mBreakAfter
 =
-PR_FALSE
+false
 ;
 mOverflowX
 =
@@ -10716,7 +10716,7 @@ aOther
 mType
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12785,7 +12785,7 @@ nsCursorImage
 :
 mHaveHotspot
 (
-PR_FALSE
+false
 )
 mHotspotX
 (

@@ -94,7 +94,7 @@ aObserver
 :
 isWeakRef
 (
-PR_FALSE
+false
 )
 ref
 (
@@ -111,7 +111,7 @@ aWeak
 :
 isWeakRef
 (
-PR_TRUE
+true
 )
 ref
 (

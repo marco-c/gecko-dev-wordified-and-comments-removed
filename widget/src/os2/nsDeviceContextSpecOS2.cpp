@@ -290,7 +290,7 @@ nsnull
 )
 mPrintingStarted
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2028,7 +2028,7 @@ filename
 }
 mPrintingStarted
 =
-PR_TRUE
+true
 ;
 mPrintDC
 =
@@ -2624,7 +2624,7 @@ NULL
 ;
 mPrintingStarted
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2723,7 +2723,7 @@ pss
 SavePrintSettingsToPrefs
 (
 mPrintSettings
-PR_TRUE
+true
 nsIPrintSettings
 :
 :
@@ -2818,7 +2818,7 @@ mPrintingStarted
 {
 mPrintingStarted
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3221,7 +3221,7 @@ aPrintSettings
 >
 SetIsInitializedFromPrinter
 (
-PR_TRUE
+true
 )
 ;
 return

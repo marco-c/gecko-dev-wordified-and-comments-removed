@@ -1079,7 +1079,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1133,7 +1133,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 endLine
@@ -1157,7 +1157,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 urlPattern
@@ -1180,7 +1180,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 len
@@ -1376,7 +1376,7 @@ urlPattern
 urlPattern
 ;
 return
-PR_TRUE
+true
 ;
 }
 FilterRecord
@@ -1502,7 +1502,7 @@ threadstate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 JSDStackFrameInfo
@@ -1532,7 +1532,7 @@ threadstate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 JSDScript
@@ -1552,7 +1552,7 @@ if
 script
 )
 return
-PR_TRUE
+true
 ;
 jsuword
 pc
@@ -1594,7 +1594,7 @@ filename
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1603,7 +1603,7 @@ if
 gFilters
 )
 return
-PR_TRUE
+true
 ;
 PRUint32
 currentLine
@@ -1986,7 +1986,7 @@ gFilters
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2328,7 +2328,7 @@ JSD_ERROR_REPORTER_PASS_ALONG
 ;
 running
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2502,7 +2502,7 @@ nsnull
 ;
 running
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3641,7 +3641,7 @@ ASSERT_VALID_EPHEMERAL
 ;
 mValid
 =
-PR_FALSE
+false
 ;
 jsds_RemoveEphemeral
 (
@@ -4023,7 +4023,7 @@ aScript
 :
 mValid
 (
-PR_FALSE
+false
 )
 mTag
 (
@@ -4157,7 +4157,7 @@ mCx
 ;
 mValid
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5081,7 +5081,7 @@ ASSERT_VALID_EPHEMERAL
 ;
 mValid
 =
-PR_FALSE
+false
 ;
 jsdIScript
 *
@@ -6818,7 +6818,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 _rval
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -7120,7 +7120,7 @@ aISCx
 :
 mValid
 (
-PR_TRUE
+true
 )
 mTag
 (
@@ -7234,7 +7234,7 @@ ASSERT_VALID_EPHEMERAL
 ;
 mValid
 =
-PR_FALSE
+false
 ;
 jsds_RemoveEphemeral
 (
@@ -7638,7 +7638,7 @@ mISCx
 *
 _rval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -7731,7 +7731,7 @@ context
 SetScriptsEnabled
 (
 _rval
-PR_TRUE
+true
 )
 ;
 return
@@ -7954,7 +7954,7 @@ ASSERT_VALID_EPHEMERAL
 ;
 mValid
 =
-PR_FALSE
+false
 ;
 jsds_RemoveEphemeral
 (
@@ -8946,7 +8946,7 @@ aValue
 :
 mValid
 (
-PR_TRUE
+true
 )
 mCx
 (
@@ -9037,7 +9037,7 @@ ASSERT_VALID_EPHEMERAL
 ;
 mValid
 =
-PR_FALSE
+false
 ;
 jsds_RemoveEphemeral
 (
@@ -10221,7 +10221,7 @@ cc
 >
 SetReturnValueWasSet
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -10541,7 +10541,7 @@ xpc
 >
 SetDebugModeWhenPossible
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -10690,7 +10690,7 @@ nsnull
 ;
 mOn
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -10915,7 +10915,7 @@ mCx
 ;
 mOn
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -11091,7 +11091,7 @@ xpc
 >
 SetDebugModeWhenPossible
 (
-PR_FALSE
+false
 )
 ;
 return

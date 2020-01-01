@@ -357,7 +357,7 @@ if
 mSocket
 )
 return
-PR_FALSE
+false
 ;
 bool
 isAlive

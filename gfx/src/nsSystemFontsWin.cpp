@@ -515,7 +515,7 @@ aFontStyle
 >
 systemFont
 =
-PR_TRUE
+true
 ;
 return
 CopyLogFontToNSFont

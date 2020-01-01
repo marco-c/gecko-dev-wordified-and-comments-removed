@@ -402,7 +402,7 @@ i
 >
 Disconnect
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -870,7 +870,7 @@ mCxStackRefCnt
 )
 mDelayedCxDestroy
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -1085,7 +1085,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 }

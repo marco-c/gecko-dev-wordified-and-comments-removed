@@ -626,8 +626,8 @@ mAutoBuf
 )
 kAutoBufSize
 0
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }

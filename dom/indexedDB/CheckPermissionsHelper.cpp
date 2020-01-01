@@ -765,7 +765,7 @@ topic
 ;
 mHasPrompted
 =
-PR_TRUE
+true
 ;
 nsresult
 rv

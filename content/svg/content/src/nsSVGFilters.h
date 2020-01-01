@@ -241,7 +241,7 @@ Image
 :
 mConstantColorChannels
 (
-PR_FALSE
+false
 )
 {
 }
@@ -639,7 +639,7 @@ if
 frame
 )
 return
-PR_FALSE
+false
 ;
 nsStyleContext
 *

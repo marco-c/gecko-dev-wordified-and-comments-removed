@@ -103,7 +103,7 @@ rv
 entries
 )
 return
-PR_FALSE
+false
 ;
 bool
 hasMore
@@ -149,7 +149,7 @@ if
 sup
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -168,7 +168,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 name
@@ -187,7 +187,7 @@ name
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 isDir
@@ -240,7 +240,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -267,7 +267,7 @@ lfile
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 int
@@ -352,7 +352,7 @@ nsDependentCString
 (
 pathStr
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 topDir

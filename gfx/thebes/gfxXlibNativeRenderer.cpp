@@ -178,7 +178,7 @@ CAIRO_STATUS_SUCCESS
 {
 retval
 =
-PR_FALSE
+false
 ;
 NATIVE_DRAWING_NOTE
 (
@@ -292,7 +292,7 @@ height
 {
 retval
 =
-PR_FALSE
+false
 ;
 NATIVE_DRAWING_NOTE
 (
@@ -323,7 +323,7 @@ bounds
 *
 need_clip
 =
-PR_FALSE
+false
 ;
 goto
 FINISH
@@ -358,7 +358,7 @@ max_rectangles
 {
 retval
 =
-PR_FALSE
+false
 ;
 NATIVE_DRAWING_NOTE
 (
@@ -387,7 +387,7 @@ rect
 *
 need_clip
 =
-PR_TRUE
+true
 ;
 *
 num_rectangles
@@ -477,7 +477,7 @@ surface
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 cairo_matrix_t
@@ -664,7 +664,7 @@ if
 have_rectangular_clip
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -677,7 +677,7 @@ rect_count
 0
 )
 return
-PR_TRUE
+true
 ;
 bool
 supports_alternate_visual
@@ -731,7 +731,7 @@ screen
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 Visual
@@ -762,7 +762,7 @@ surface
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -818,7 +818,7 @@ Visual
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -892,11 +892,11 @@ target
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -1025,7 +1025,7 @@ format
 depth
 )
 return
-PR_FALSE
+false
 ;
 XRenderPictFormat
 *
@@ -1051,7 +1051,7 @@ type
 PictTypeDirect
 )
 return
-PR_FALSE
+false
 ;
 const
 XRenderDirectFormat
@@ -1451,7 +1451,7 @@ target_format
 {
 doCopyBackground
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1874,14 +1874,14 @@ result
 >
 mUniformAlpha
 =
-PR_FALSE
+false
 ;
 result
 -
 >
 mUniformColor
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -2379,7 +2379,7 @@ result
 >
 mUniformAlpha
 =
-PR_TRUE
+true
 ;
 result
 -
@@ -2550,7 +2550,7 @@ result
 >
 mUniformAlpha
 =
-PR_TRUE
+true
 ;
 result
 -
@@ -2576,7 +2576,7 @@ result
 >
 mUniformColor
 =
-PR_TRUE
+true
 ;
 result
 -

@@ -867,7 +867,7 @@ mPresShell
 >
 SetIgnoreFrameDestruction
 (
-PR_TRUE
+true
 )
 ;
 nsFrameManager
@@ -2177,7 +2177,7 @@ mIsDestroyingFrames
 ;
 mIsDestroyingFrames
 =
-PR_TRUE
+true
 ;
 aOldFrame
 -
@@ -4786,7 +4786,7 @@ IsVisible
 (
 )
 :
-PR_FALSE
+false
 ;
 #
 endif
@@ -7165,7 +7165,7 @@ PropertyTable
 TreeMatchContext
 treeMatchContext
 (
-PR_TRUE
+true
 nsRuleWalker
 :
 :

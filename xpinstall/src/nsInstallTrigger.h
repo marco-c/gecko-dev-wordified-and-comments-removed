@@ -125,11 +125,11 @@ install
 #
 define
 XPI_WHITELIST
-PR_TRUE
+true
 #
 define
 XPI_GLOBAL
-PR_FALSE
+false
 #
 define
 XPINSTALL_ENABLE_PREF

@@ -457,7 +457,7 @@ Destroy
 {
 mDestroyed
 =
-PR_TRUE
+true
 ;
 }
 virtual

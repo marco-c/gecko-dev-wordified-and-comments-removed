@@ -193,7 +193,7 @@ AllowNormalInstantiation
 {
 mWillHandleInstantiation
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -543,7 +543,7 @@ PluginDocument
 :
 mWillHandleInstantiation
 (
-PR_TRUE
+true
 )
 {
 }
@@ -682,7 +682,7 @@ aNewRequest
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -957,7 +957,7 @@ nsGkAtoms
 :
 marginwidth
 zero
-PR_FALSE
+false
 )
 ;
 body
@@ -971,7 +971,7 @@ nsGkAtoms
 :
 marginheight
 zero
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -1043,7 +1043,7 @@ NS_LITERAL_STRING
 plugin
 "
 )
-PR_FALSE
+false
 )
 ;
 NS_NAMED_LITERAL_STRING
@@ -1066,7 +1066,7 @@ nsGkAtoms
 :
 width
 percent100
-PR_FALSE
+false
 )
 ;
 mPluginContent
@@ -1080,7 +1080,7 @@ nsGkAtoms
 :
 height
 percent100
-PR_FALSE
+false
 )
 ;
 nsCAutoString
@@ -1108,7 +1108,7 @@ NS_ConvertUTF8toUTF16
 (
 src
 )
-PR_FALSE
+false
 )
 ;
 mPluginContent
@@ -1125,7 +1125,7 @@ NS_ConvertUTF8toUTF16
 (
 mMimeType
 )
-PR_FALSE
+false
 )
 ;
 body
@@ -1134,7 +1134,7 @@ body
 AppendChildTo
 (
 mPluginContent
-PR_FALSE
+false
 )
 ;
 return
@@ -1250,7 +1250,7 @@ fullPrint
 .
 pluginPrinted
 =
-PR_FALSE
+false
 ;
 npprint
 .
@@ -1260,7 +1260,7 @@ fullPrint
 .
 printOne
 =
-PR_FALSE
+false
 ;
 npprint
 .

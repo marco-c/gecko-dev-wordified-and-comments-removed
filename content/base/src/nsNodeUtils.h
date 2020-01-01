@@ -216,7 +216,7 @@ return
 CloneAndAdopt
 (
 aNode
-PR_TRUE
+true
 aDeep
 aNewNodeInfoManager
 nsnull
@@ -256,8 +256,8 @@ rv
 CloneAndAdopt
 (
 aNode
-PR_FALSE
-PR_TRUE
+false
+true
 aNewNodeInfoManager
 aCx
 aNewScope

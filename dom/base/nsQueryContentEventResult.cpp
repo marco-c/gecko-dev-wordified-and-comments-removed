@@ -61,7 +61,7 @@ mEventID
 )
 mSucceeded
 (
-PR_FALSE
+false
 )
 {
 }

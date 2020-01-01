@@ -696,7 +696,7 @@ CreateKeyHandlers
 ;
 mKeyHandlersRegistered
 =
-PR_TRUE
+true
 ;
 }
 return

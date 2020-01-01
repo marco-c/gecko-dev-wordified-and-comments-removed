@@ -669,7 +669,7 @@ letter
 {
 upperNext
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -693,7 +693,7 @@ letter
 ;
 upperNext
 =
-PR_FALSE
+false
 ;
 }
 +
@@ -1344,7 +1344,7 @@ mArray
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 memset
@@ -1360,7 +1360,7 @@ nsXPTCVariant
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -2422,7 +2422,7 @@ aContext
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 #

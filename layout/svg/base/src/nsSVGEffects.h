@@ -86,7 +86,7 @@ nsSVGRenderingObserver
 :
 mInObserverList
 (
-PR_FALSE
+false
 )
 {
 }
@@ -835,7 +835,7 @@ filter
 *
 aOK
 =
-PR_FALSE
+false
 ;
 }
 return

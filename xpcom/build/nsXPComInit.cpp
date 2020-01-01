@@ -1432,7 +1432,7 @@ NS_OK
 ;
 gXPCOMShuttingDown
 =
-PR_FALSE
+false
 ;
 NS_TIME_FUNCTION_MARK
 (

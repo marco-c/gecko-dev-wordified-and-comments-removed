@@ -681,7 +681,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 }
@@ -768,7 +768,7 @@ mKey
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1032,7 +1032,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_FALSE
+false
 }
 ;
 private

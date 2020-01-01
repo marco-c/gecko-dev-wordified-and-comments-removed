@@ -487,7 +487,7 @@ mFlags
 .
 mIsTopOfPage
 =
-PR_TRUE
+true
 ;
 kidReflowState
 .
@@ -495,7 +495,7 @@ mFlags
 .
 mTableIsSplittable
 =
-PR_TRUE
+true
 ;
 nscoord
 xc
@@ -2809,7 +2809,7 @@ aContext
 )
 mHaveReflowed
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2935,7 +2935,7 @@ CSSPixelsToAppUnits
 ;
 mHaveReflowed
 =
-PR_TRUE
+true
 ;
 aStatus
 =

@@ -300,7 +300,7 @@ mChange
 )
 mUserChanged
 (
-PR_FALSE
+false
 )
 {
 }
@@ -357,7 +357,7 @@ gotPrefs
 {
 gotPrefs
 =
-PR_TRUE
+true
 ;
 gMiddlePref
 =
@@ -887,7 +887,7 @@ CurrentPositionChanged
 PresContext
 (
 )
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -1036,7 +1036,7 @@ minpos
 min
 :
 max
-PR_FALSE
+false
 )
 )
 ;
@@ -1436,14 +1436,14 @@ NS_STATE_SET_TO_DEBUG
 SetDebug
 (
 aState
-PR_TRUE
+true
 )
 ;
 else
 SetDebug
 (
 aState
-PR_FALSE
+false
 )
 ;
 }
@@ -2040,7 +2040,7 @@ height
 )
 isMouseOutsideThumb
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2075,7 +2075,7 @@ width
 )
 isMouseOutsideThumb
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2088,9 +2088,9 @@ SetCurrentThumbPosition
 (
 scrollbar
 mThumbStart
-PR_FALSE
-PR_TRUE
-PR_FALSE
+false
+true
+false
 )
 ;
 return
@@ -2101,9 +2101,9 @@ SetCurrentThumbPosition
 (
 scrollbar
 pos
-PR_FALSE
-PR_TRUE
-PR_TRUE
+false
+true
+true
 )
 ;
 }
@@ -2163,7 +2163,7 @@ AddListener
 ;
 DragThumb
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2393,9 +2393,9 @@ pos
 thumbLength
 /
 2
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -2410,7 +2410,7 @@ NS_OK
 ;
 DragThumb
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -2557,7 +2557,7 @@ scrollToClickMetric
 )
 scrollToClick
 =
-PR_TRUE
+true
 ;
 return
 scrollToClick
@@ -2583,7 +2583,7 @@ eCaseMatters
 )
 ;
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -2763,8 +2763,8 @@ SetCurrentPositionInternal
 (
 scrollbar
 newpos
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -3098,7 +3098,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -3131,7 +3131,7 @@ nsGkAtoms
 :
 :
 smooth
-PR_FALSE
+false
 )
 ;
 }
@@ -3381,7 +3381,7 @@ GetScrollbar
 ;
 mUserChanged
 =
-PR_TRUE
+true
 ;
 nsScrollbarFrame
 *
@@ -3450,7 +3450,7 @@ UpdateAttribute
 (
 scrollbar
 aNewPos
-PR_FALSE
+false
 aIsSmooth
 )
 ;
@@ -3508,7 +3508,7 @@ aImmediateRedraw
 }
 mUserChanged
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -3518,13 +3518,13 @@ UpdateAttribute
 (
 scrollbar
 aNewPos
-PR_TRUE
+true
 aIsSmooth
 )
 ;
 mUserChanged
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -3773,7 +3773,7 @@ button
 {
 scrollToClick
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -3889,7 +3889,7 @@ scrollbarBox
 }
 DragThumb
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -3901,9 +3901,9 @@ SetCurrentThumbPosition
 (
 scrollbar
 newpos
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 )
 ;
 }
@@ -4141,8 +4141,8 @@ mousedown
 "
 )
 mMediator
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -4203,7 +4203,7 @@ mousedown
 "
 )
 mMediator
-PR_FALSE
+false
 )
 ;
 }
@@ -4370,7 +4370,7 @@ change
 ;
 DragThumb
 (
-PR_TRUE
+true
 )
 ;
 mDestinationPoint
@@ -4660,7 +4660,7 @@ x
 )
 stop
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4681,7 +4681,7 @@ x
 )
 stop
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4706,7 +4706,7 @@ y
 )
 stop
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4727,7 +4727,7 @@ y
 )
 stop
 =
-PR_TRUE
+true
 ;
 }
 }

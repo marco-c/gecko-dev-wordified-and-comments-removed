@@ -160,7 +160,7 @@ item
 >
 mSecure
 =
-PR_FALSE
+false
 ;
 target
 -
@@ -295,7 +295,7 @@ rv
 ;
 mPreloading
 =
-PR_TRUE
+true
 ;
 keys
 .
@@ -311,7 +311,7 @@ mTable
 ;
 mPreloading
 =
-PR_FALSE
+false
 ;
 }
 mData
@@ -1351,7 +1351,7 @@ struc
 .
 mMatch
 =
-PR_TRUE
+true
 ;
 mData
 .
@@ -1593,7 +1593,7 @@ CreateQuotaDomainDBKey
 (
 aDomain
 aIncludeSubDomains
-PR_FALSE
+false
 quotadomainDBKey
 )
 ;
@@ -1607,7 +1607,7 @@ return
 GetUsageInternal
 (
 quotadomainDBKey
-PR_FALSE
+false
 aUsage
 )
 ;

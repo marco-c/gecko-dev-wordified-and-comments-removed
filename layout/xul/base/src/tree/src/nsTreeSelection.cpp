@@ -761,7 +761,7 @@ aIndex
 mMax
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -777,7 +777,7 @@ aIndex
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -1159,7 +1159,7 @@ aTree
 )
 mSuppressed
 (
-PR_FALSE
+false
 )
 mCurrentIndex
 (
@@ -1464,7 +1464,7 @@ else
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1497,7 +1497,7 @@ aMsec
 )
 mSuppressed
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -2781,8 +2781,8 @@ DOMMenuItemActive
 :
 DOMMenuItemInactive
 )
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 return
@@ -3251,7 +3251,7 @@ aCount
 ;
 selChanged
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3286,7 +3286,7 @@ aCount
 ;
 selChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3321,7 +3321,7 @@ else
 {
 selChanged
 =
-PR_TRUE
+true
 ;
 PRInt32
 lastIndexOfAdjustment
@@ -3616,8 +3616,8 @@ NS_LITERAL_STRING
 select
 "
 )
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 event

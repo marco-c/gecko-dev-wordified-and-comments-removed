@@ -196,7 +196,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile

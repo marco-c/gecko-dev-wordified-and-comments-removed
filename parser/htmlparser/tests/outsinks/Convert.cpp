@@ -762,7 +762,7 @@ NS_LossyConvertUTF16toASCII
 (
 inType
 )
-PR_TRUE
+true
 )
 ;
 if

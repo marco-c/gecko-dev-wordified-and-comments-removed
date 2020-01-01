@@ -94,7 +94,7 @@ aStyle
 ;
 systemFont
 =
-PR_FALSE
+false
 ;
 variant
 =
@@ -187,7 +187,7 @@ aStyle
 ;
 systemFont
 =
-PR_FALSE
+false
 ;
 variant
 =
@@ -441,11 +441,11 @@ languageOverride
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -490,11 +490,11 @@ decorations
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsFont
@@ -724,7 +724,7 @@ p
 p_end
 )
 return
-PR_TRUE
+true
 ;
 bool
 generic
@@ -761,7 +761,7 @@ p
 p_end
 )
 return
-PR_TRUE
+true
 ;
 const
 PRUnichar
@@ -788,7 +788,7 @@ p
 p_end
 )
 return
-PR_TRUE
+true
 ;
 family
 =
@@ -800,7 +800,7 @@ p
 ;
 generic
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -858,8 +858,8 @@ family
 .
 CompressWhitespace
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 generic
@@ -892,7 +892,7 @@ aData
 )
 )
 return
-PR_FALSE
+false
 ;
 +
 +
@@ -900,7 +900,7 @@ p
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -930,7 +930,7 @@ aData
 aFamily
 ;
 return
-PR_FALSE
+false
 ;
 }
 void

@@ -477,7 +477,7 @@ if
 httpChannel
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 disp
@@ -511,10 +511,10 @@ nsIChannel
 DISPOSITION_ATTACHMENT
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -605,7 +605,7 @@ start
 end
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -627,7 +627,7 @@ start
 '
 )
 return
-PR_FALSE
+false
 ;
 start
 =
@@ -646,7 +646,7 @@ if
 start
 )
 return
-PR_FALSE
+false
 ;
 +
 +
@@ -654,7 +654,7 @@ start
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -689,7 +689,7 @@ offset
 1
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -953,7 +953,7 @@ NS_LITERAL_CSTRING
 1
 "
 )
-PR_FALSE
+false
 )
 ;
 sniffedType

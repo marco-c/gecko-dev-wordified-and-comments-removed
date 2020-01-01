@@ -238,7 +238,7 @@ ReceiveMessage
 (
 owner
 aMessage
-PR_TRUE
+true
 aJSON
 nsnull
 aJSONRetVal
@@ -330,7 +330,7 @@ mTabChild
 >
 mOwner
 mMessage
-PR_FALSE
+false
 mJSON
 nsnull
 nsnull
@@ -439,15 +439,15 @@ aShell
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 mLoadingScript
 (
-PR_FALSE
+false
 )
 mDelayedDisconnect
 (
-PR_FALSE
+false
 )
 mOwner
 (
@@ -537,7 +537,7 @@ mMessageManager
 new
 nsFrameMessageManager
 (
-PR_FALSE
+false
 SendSyncMessageToParent
 SendAsyncMessageToParent
 nsnull
@@ -830,8 +830,8 @@ NS_LITERAL_STRING
 unload
 "
 )
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 nsCOMPtr
@@ -851,7 +851,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 bool
@@ -979,7 +979,7 @@ else
 {
 mDelayedDisconnect
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1014,7 +1014,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_TRUE
+true
 ;
 aVisitor
 .
@@ -1477,7 +1477,7 @@ mInitialized
 {
 mInitialized
 =
-PR_TRUE
+true
 ;
 Init
 (
@@ -1491,7 +1491,7 @@ mLoadingScript
 ;
 mLoadingScript
 =
-PR_TRUE
+true
 ;
 LoadFrameScriptInternal
 (
@@ -1513,7 +1513,7 @@ mDelayedDisconnect
 {
 mDelayedDisconnect
 =
-PR_FALSE
+false
 ;
 Disconnect
 (

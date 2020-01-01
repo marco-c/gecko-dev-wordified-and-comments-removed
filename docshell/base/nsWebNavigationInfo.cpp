@@ -235,7 +235,7 @@ pluginHost
 >
 ReloadPlugins
 (
-PR_FALSE
+false
 )
 ;
 if

@@ -1353,7 +1353,7 @@ bm
 ;
 firstTime
 =
-PR_FALSE
+false
 ;
 }
 childFrame
@@ -1382,7 +1382,7 @@ firstTime
 {
 firstTime
 =
-PR_FALSE
+false
 ;
 aDesiredSize
 .

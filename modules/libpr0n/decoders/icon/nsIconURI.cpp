@@ -449,7 +449,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1491,13 +1491,13 @@ get
 *
 result
 =
-PR_TRUE
+true
 ;
 else
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1566,9 +1566,9 @@ icon
 i_Scheme
 )
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 return
 NS_OK

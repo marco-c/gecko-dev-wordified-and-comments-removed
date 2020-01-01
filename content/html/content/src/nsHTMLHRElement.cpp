@@ -400,7 +400,7 @@ ParseEnumValue
 (
 aValue
 kAlignTable
-PR_FALSE
+false
 )
 ;
 }
@@ -516,7 +516,7 @@ colorIsSet
 {
 noshade
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1072,7 +1072,7 @@ sizePerSide
 ;
 allSides
 =
-PR_FALSE
+false
 ;
 }
 }

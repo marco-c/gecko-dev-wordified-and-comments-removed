@@ -800,7 +800,7 @@ nsnull
 )
 mUpdateDictionaryRunning
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1219,7 +1219,7 @@ mSpellChecker
 SetDocument
 (
 tsDoc
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS

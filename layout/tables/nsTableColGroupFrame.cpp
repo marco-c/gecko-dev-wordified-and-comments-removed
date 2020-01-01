@@ -764,7 +764,7 @@ GetSpan
 (
 )
 eColAnonymousColGroup
-PR_FALSE
+false
 )
 ;
 return
@@ -1285,7 +1285,7 @@ aCols
 AddColsToTable
 (
 aColIndex
-PR_TRUE
+true
 aCols
 )
 ;
@@ -1509,7 +1509,7 @@ eColContent
 {
 contentRemoval
 =
-PR_TRUE
+true
 ;
 nsTableColFrame
 *
@@ -1659,7 +1659,7 @@ RemoveChild
 (
 *
 colFrame
-PR_TRUE
+true
 )
 ;
 nsTableFrame
@@ -1689,8 +1689,8 @@ RemoveCol
 (
 this
 colIndex
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 if
@@ -1723,7 +1723,7 @@ GetSpan
 (
 )
 eColAnonymousColGroup
-PR_TRUE
+true
 )
 ;
 }
@@ -1907,7 +1907,7 @@ tableFrame
 >
 SetNeedToCollapse
 (
-PR_TRUE
+true
 )
 ;
 ;

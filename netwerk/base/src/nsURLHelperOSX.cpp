@@ -86,7 +86,7 @@ gVolumeList
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -603,7 +603,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -720,7 +720,7 @@ noErr
 )
 bHFSPath
 =
-PR_TRUE
+true
 ;
 }
 if

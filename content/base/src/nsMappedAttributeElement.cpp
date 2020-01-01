@@ -170,7 +170,7 @@ sheet
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsMapRuleToAttributesFunc

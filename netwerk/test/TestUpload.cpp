@@ -472,7 +472,7 @@ getter_AddRefs
 (
 uploadStream
 )
-PR_TRUE
+true
 nsDependentCString
 (
 fileName

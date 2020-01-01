@@ -192,7 +192,7 @@ nsIFrame
 (
 this
 )
-PR_FALSE
+false
 )
 ;
 nsBlockFrame
@@ -273,7 +273,7 @@ nsIFrame
 (
 this
 )
-PR_TRUE
+true
 )
 ;
 }

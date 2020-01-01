@@ -1127,7 +1127,7 @@ nsSVGUtils
 :
 :
 X
-PR_FALSE
+false
 }
 {
 &
@@ -1139,7 +1139,7 @@ nsSVGUtils
 :
 :
 Y
-PR_FALSE
+false
 }
 {
 &
@@ -1151,7 +1151,7 @@ nsSVGUtils
 :
 :
 X
-PR_TRUE
+true
 }
 {
 &
@@ -1163,7 +1163,7 @@ nsSVGUtils
 :
 :
 Y
-PR_TRUE
+true
 }
 }
 ;

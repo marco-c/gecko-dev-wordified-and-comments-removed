@@ -3258,13 +3258,13 @@ nsnull
 \
 _flags
 \
-PR_TRUE
+true
 \
 0
 \
-PR_FALSE
+false
 \
-PR_FALSE
+false
 \
 NULL
 \
@@ -3306,13 +3306,13 @@ nsnull
 \
 _flags
 \
-PR_TRUE
+true
 \
 0
 \
-PR_TRUE
+true
 \
-PR_FALSE
+false
 \
 NULL
 \
@@ -7103,7 +7103,7 @@ cx
 scope
 native
 nativeWrapperCache
-PR_FALSE
+false
 &
 debugVal
 )
@@ -7154,7 +7154,7 @@ cx
 scope
 native
 nativeWrapperCache
-PR_FALSE
+false
 &
 v
 )
@@ -7845,7 +7845,7 @@ NS_GET_IID
 (
 nsIException
 )
-PR_FALSE
+false
 &
 jv
 getter_AddRefs
@@ -8517,7 +8517,7 @@ first
 {
 first
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -8821,7 +8821,7 @@ nameSpaceManager
 >
 RegisterExternalInterfaces
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -8912,8 +8912,8 @@ NS_GET_IID
 (
 _interface
 )
-PR_TRUE
-PR_FALSE
+true
+false
 )
 #
 define
@@ -8932,7 +8932,7 @@ NS_GET_IID
 (
 _interface
 )
-PR_TRUE
+true
 _disable
 )
 #
@@ -8951,8 +8951,8 @@ NS_GET_IID
 (
 _interface
 )
-PR_FALSE
-PR_FALSE
+false
+false
 )
 #
 define
@@ -11228,7 +11228,7 @@ nsIDOMWindow
 )
 DOM_CLASSINFO_WINDOW_MAP_ENTRIES
 (
-PR_TRUE
+true
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
@@ -14592,7 +14592,7 @@ sClassInfoData
 ;
 sIsInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -14622,7 +14622,7 @@ aIsNumber
 *
 aIsNumber
 =
-PR_FALSE
+false
 ;
 }
 jsint
@@ -14709,7 +14709,7 @@ aIsNumber
 *
 aIsNumber
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -15961,7 +15961,7 @@ rv
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -17500,7 +17500,7 @@ sSecMan
 ;
 sIsInitialized
 =
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -18071,7 +18071,7 @@ cx
 obj
 result
 cache
-PR_TRUE
+true
 &
 v
 getter_AddRefs
@@ -18705,7 +18705,7 @@ NS_GET_IID
 (
 nsIDOMWindow
 )
-PR_TRUE
+true
 &
 v
 getter_AddRefs
@@ -19610,7 +19610,7 @@ WrapNative
 cx
 obj
 native
-PR_TRUE
+true
 rval
 )
 ;
@@ -20958,7 +20958,7 @@ _retval
 *
 bp
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -21182,7 +21182,7 @@ dot_prototype
 *
 bp
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -22247,7 +22247,7 @@ NS_GET_IID
 (
 nsIDOMDOMConstructor
 )
-PR_FALSE
+false
 &
 v
 getter_AddRefs
@@ -22966,7 +22966,7 @@ NS_ERROR_UNEXPECTED
 *
 did_resolve
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -22997,7 +22997,7 @@ did_resolve
 *
 did_resolve
 =
-PR_FALSE
+false
 ;
 nsScriptNameSpaceManager
 *
@@ -23182,7 +23182,7 @@ NS_GET_IID
 (
 nsIDOMDOMConstructor
 )
-PR_FALSE
+false
 &
 v
 getter_AddRefs
@@ -23261,7 +23261,7 @@ rv
 *
 did_resolve
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -23560,7 +23560,7 @@ ci_data
 name_struct
 nameSpaceManager
 dot_prototype
-PR_TRUE
+true
 did_resolve
 )
 ;
@@ -23603,7 +23603,7 @@ nsnull
 name_struct
 nameSpaceManager
 nsnull
-PR_TRUE
+true
 did_resolve
 )
 ;
@@ -23760,7 +23760,7 @@ ci_data
 name_struct
 nameSpaceManager
 nsnull
-PR_TRUE
+true
 did_resolve
 )
 ;
@@ -23836,7 +23836,7 @@ NS_GET_IID
 (
 nsIDOMDOMConstructor
 )
-PR_FALSE
+false
 &
 val
 getter_AddRefs
@@ -23901,7 +23901,7 @@ JSObject
 *
 did_resolve
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -24160,7 +24160,7 @@ WrapNative
 cx
 scope
 native
-PR_TRUE
+true
 &
 prop_val
 getter_AddRefs
@@ -24210,7 +24210,7 @@ JSPROP_ENUMERATE
 *
 did_resolve
 =
-PR_TRUE
+true
 ;
 return
 ok
@@ -24286,7 +24286,7 @@ context
 *
 did_resolve
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -24503,7 +24503,7 @@ NS_GET_IID
 (
 nsIDOMLocation
 )
-PR_TRUE
+true
 vp
 getter_AddRefs
 (
@@ -25169,7 +25169,7 @@ NS_GET_IID
 (
 nsIDOMLocation
 )
-PR_TRUE
+true
 &
 v
 getter_AddRefs
@@ -25316,8 +25316,8 @@ PRUnichar
 (
 chars
 )
-PR_FALSE
-PR_TRUE
+false
+true
 nsnull
 nsnull
 getter_AddRefs
@@ -25377,7 +25377,7 @@ NS_GET_IID
 (
 nsIDOMWindow
 )
-PR_TRUE
+true
 &
 v
 getter_AddRefs
@@ -25771,7 +25771,7 @@ NS_GET_IID
 (
 nsIDOMNavigator
 )
-PR_TRUE
+true
 &
 v
 getter_AddRefs
@@ -25877,7 +25877,7 @@ NS_GET_IID
 (
 nsIDOMDocument
 )
-PR_FALSE
+false
 &
 v
 getter_AddRefs
@@ -25979,7 +25979,7 @@ isResolvingJavaProperties
 {
 isResolvingJavaProperties
 =
-PR_TRUE
+true
 ;
 win
 -
@@ -26007,7 +26007,7 @@ hasProp
 ;
 isResolvingJavaProperties
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -26570,7 +26570,7 @@ JSACC_WRITE
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_DOM_SECURITY_ERR
@@ -27000,7 +27000,7 @@ WrapNative
 cx
 obj
 native
-PR_TRUE
+true
 &
 prop_val
 getter_AddRefs
@@ -27050,7 +27050,7 @@ JSPROP_ENUMERATE
 *
 _retval
 =
-PR_TRUE
+true
 ;
 *
 objp
@@ -27378,7 +27378,7 @@ NS_GET_IID
 (
 nsIURI
 )
-PR_TRUE
+true
 vp
 )
 ;
@@ -27462,7 +27462,7 @@ NS_GET_IID
 (
 nsIPrincipal
 )
-PR_TRUE
+true
 vp
 )
 ;
@@ -27959,7 +27959,7 @@ WrapNative
 cx
 globalObj
 scope
-PR_FALSE
+false
 &
 v
 getter_AddRefs
@@ -28419,7 +28419,7 @@ aResult
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsPresContext
@@ -28436,7 +28436,7 @@ GetPresContext
 NS_ENSURE_TRUE
 (
 pctx
-PR_FALSE
+false
 )
 ;
 nsRefPtr
@@ -28462,7 +28462,7 @@ nsnull
 NS_ENSURE_TRUE
 (
 sc
-PR_FALSE
+false
 )
 ;
 *
@@ -28479,7 +28479,7 @@ GetStyleDisplay
 mBinding
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -28934,7 +28934,7 @@ LoadBindings
 element
 uri
 principal
-PR_FALSE
+false
 getter_AddRefs
 (
 binding
@@ -29353,7 +29353,7 @@ NS_OK
 }
 sCurrentlyEnumerating
 =
-PR_TRUE
+true
 ;
 jsval
 len_val
@@ -29439,7 +29439,7 @@ JSPROP_SHARED
 }
 sCurrentlyEnumerating
 =
-PR_FALSE
+false
 ;
 return
 ok
@@ -29561,7 +29561,7 @@ cx
 )
 array_item
 cache
-PR_TRUE
+true
 vp
 )
 ;
@@ -30152,7 +30152,7 @@ realObj
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_FAILURE
@@ -30383,7 +30383,7 @@ cx
 )
 item
 cache
-PR_TRUE
+true
 vp
 )
 ;
@@ -31802,7 +31802,7 @@ NS_GET_IID
 (
 nsIURI
 )
-PR_TRUE
+true
 vp
 )
 ;
@@ -31980,7 +31980,7 @@ NS_GET_IID
 (
 nsIDOMLocation
 )
-PR_TRUE
+true
 &
 v
 getter_AddRefs
@@ -32183,7 +32183,7 @@ NS_GET_IID
 (
 nsIDOMWindow
 )
-PR_FALSE
+false
 &
 winVal
 getter_AddRefs
@@ -32700,7 +32700,7 @@ nsINodeList
 list
 )
 list
-PR_FALSE
+false
 &
 collection
 getter_AddRefs
@@ -33106,7 +33106,7 @@ cx
 )
 result
 cache
-PR_TRUE
+true
 vp
 )
 ;
@@ -34168,7 +34168,7 @@ nsINodeList
 tags
 )
 tags
-PR_TRUE
+true
 &
 v
 getter_AddRefs
@@ -34746,7 +34746,7 @@ cx
 obj
 result
 cache
-PR_TRUE
+true
 vp
 )
 ;
@@ -35118,7 +35118,7 @@ cx
 obj
 result
 cache
-PR_TRUE
+true
 vp
 )
 ;
@@ -35202,7 +35202,7 @@ cx
 )
 element
 element
-PR_TRUE
+true
 vp
 )
 ;
@@ -35782,7 +35782,7 @@ NS_GET_IID
 (
 nsIDOMNode
 )
-PR_TRUE
+true
 vp
 )
 ;
@@ -36163,7 +36163,7 @@ proto
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 o
@@ -36172,7 +36172,7 @@ p
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 class
@@ -36810,7 +36810,7 @@ NS_OK
 JSBool
 found
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -36938,7 +36938,7 @@ NS_OK
 JSBool
 found
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -38875,7 +38875,7 @@ realObj
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_FAILURE
@@ -39647,7 +39647,7 @@ realObj
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_FAILURE
@@ -40598,7 +40598,7 @@ _retval
 *
 aHideFirstParamFromJS
 =
-PR_FALSE
+false
 ;
 *
 aIIDOfResult

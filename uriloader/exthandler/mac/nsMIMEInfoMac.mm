@@ -904,7 +904,7 @@ app
 LaunchWithDoc
 (
 localFile
-PR_FALSE
+false
 )
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT

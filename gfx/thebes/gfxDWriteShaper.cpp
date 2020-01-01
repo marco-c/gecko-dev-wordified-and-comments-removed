@@ -135,7 +135,7 @@ hr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -343,7 +343,7 @@ results
 ;
 result
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -562,7 +562,7 @@ glyphs
 ;
 result
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -794,7 +794,7 @@ placements
 ;
 result
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -870,7 +870,7 @@ IsClusterStart
 (
 absC
 )
-PR_FALSE
+false
 0
 )
 ;
@@ -1233,7 +1233,7 @@ IsClusterStart
 (
 absC
 )
-PR_TRUE
+true
 glyphCount
 )
 detailedGlyphs

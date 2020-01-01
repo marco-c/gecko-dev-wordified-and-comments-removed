@@ -116,7 +116,7 @@ SetAttr
 kNameSpaceID_None
 mAttrAtom
 aValue
-PR_TRUE
+true
 )
 ;
 }

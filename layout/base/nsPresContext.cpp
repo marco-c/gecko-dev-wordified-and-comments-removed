@@ -706,13 +706,13 @@ iso
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -905,16 +905,16 @@ NS_FONT_STRETCH_NORMAL
 {
 mDoScaledTwips
 =
-PR_TRUE
+true
 ;
 SetBackgroundImageDraw
 (
-PR_TRUE
+true
 )
 ;
 SetBackgroundColorDraw
 (
-PR_TRUE
+true
 )
 ;
 mBackgroundColor
@@ -928,11 +928,11 @@ NS_RGB
 ;
 mUseDocumentColors
 =
-PR_TRUE
+true
 ;
 mUseDocumentFonts
 =
-PR_TRUE
+true
 ;
 mLinkColor
 =
@@ -963,11 +963,11 @@ NS_RGB
 ;
 mUnderlineLinks
 =
-PR_TRUE
+true
 ;
 mSendAfterPaintToContent
 =
-PR_FALSE
+false
 ;
 mFocusTextColor
 =
@@ -1012,7 +1012,7 @@ print
 ;
 mPaginated
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1032,7 +1032,7 @@ kDontAnimMode
 ;
 mNeverAnimate
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1046,7 +1046,7 @@ kNormalAnimMode
 ;
 mNeverAnimate
 =
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -1064,7 +1064,7 @@ nsnull
 ;
 mUserFontSetDirty
 =
-PR_TRUE
+true
 ;
 PR_INIT_CLIST
 (
@@ -2497,7 +2497,7 @@ docShellType
 {
 usePrefColors
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3241,7 +3241,7 @@ prefInt
 SetBidi
 (
 bidiOptions
-PR_FALSE
+false
 )
 ;
 }
@@ -3319,7 +3319,7 @@ HasCachedStyleData
 {
 MediaFeatureValuesChanged
 (
-PR_TRUE
+true
 )
 ;
 RebuildAllStyleData
@@ -3495,7 +3495,7 @@ font
 {
 mPrefChangePendingNeedsReflow
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -3515,7 +3515,7 @@ bidi
 {
 mPrefChangePendingNeedsReflow
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -3537,7 +3537,7 @@ font_rendering
 {
 mPrefChangePendingNeedsReflow
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -3659,7 +3659,7 @@ mShell
 >
 SetPreferenceStyleRules
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4326,7 +4326,7 @@ ifdef
 DEBUG
 mInitialized
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -4752,7 +4752,7 @@ IBMBIDI_TEXTTYPE_LOGICAL
 :
 SetVisualMode
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -4762,7 +4762,7 @@ IBMBIDI_TEXTTYPE_VISUAL
 :
 SetVisualMode
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -5734,7 +5734,7 @@ impossible
 ;
 mSupressResizeReflow
 =
-PR_TRUE
+true
 ;
 mFullZoom
 =
@@ -5774,7 +5774,7 @@ AppUnitsPerDevPixelChanged
 ;
 mSupressResizeReflow
 =
-PR_FALSE
+false
 ;
 mCurAppUnitsPerDevPixel
 =
@@ -6341,7 +6341,7 @@ aSource
 {
 SetVisualMode
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -6359,7 +6359,7 @@ aSource
 {
 SetVisualMode
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -6465,7 +6465,7 @@ if
 treeItem
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6556,7 +6556,7 @@ mTheme
 )
 sNoTheme
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -6579,11 +6579,11 @@ mPendingThemeChanged
 {
 sLookAndFeelChanged
 =
-PR_TRUE
+true
 ;
 sThemeChanged
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -6614,7 +6614,7 @@ ev
 {
 mPendingThemeChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6629,7 +6629,7 @@ ThemeChangedInternal
 {
 mPendingThemeChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6648,7 +6648,7 @@ ThemeChanged
 ;
 sThemeChanged
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -6665,7 +6665,7 @@ Refresh
 ;
 sLookAndFeelChanged
 =
-PR_FALSE
+false
 ;
 }
 nsCSSRuleProcessor
@@ -6677,7 +6677,7 @@ FreeSystemMetrics
 ;
 MediaFeatureValuesChanged
 (
-PR_TRUE
+true
 )
 ;
 RebuildAllStyleData
@@ -6702,7 +6702,7 @@ mPendingSysColorChanged
 {
 sLookAndFeelChanged
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -6733,7 +6733,7 @@ ev
 {
 mPendingSysColorChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6748,7 +6748,7 @@ SysColorChangedInternal
 {
 mPendingSysColorChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6764,7 +6764,7 @@ Refresh
 ;
 sLookAndFeelChanged
 =
-PR_FALSE
+false
 ;
 }
 GetDocumentColorPreferences
@@ -6871,7 +6871,7 @@ aCallerWillRebuildStyleData
 {
 mPendingMediaFeatureValuesChanged
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7155,7 +7155,7 @@ ev
 {
 mPendingMediaFeatureValuesChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7178,7 +7178,7 @@ mShell
 {
 MediaFeatureValuesChanged
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -7361,13 +7361,13 @@ Show
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -7504,7 +7504,7 @@ isChrome
 ;
 mIsChromeIsCached
 =
-PR_TRUE
+true
 ;
 return
 mIsChrome
@@ -7577,7 +7577,7 @@ mGetUserFontSetCalled
 endif
 mGetUserFontSetCalled
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7758,7 +7758,7 @@ mUserFontSet
 ;
 changed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7808,7 +7808,7 @@ UserFontSetUpdated
 }
 mUserFontSetDirty
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -7831,7 +7831,7 @@ return
 }
 mUserFontSetDirty
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7868,7 +7868,7 @@ ev
 {
 mPostedFlushUserFontSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7932,7 +7932,7 @@ eUniqueInner_AlreadyUnique
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -7947,7 +7947,7 @@ eUniqueInner_CloneFailed
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_ABORT_IF_FALSE
@@ -7974,7 +7974,7 @@ nsChangeHint
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -8042,7 +8042,7 @@ notifyContent
 {
 notifyContent
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -8088,7 +8088,7 @@ INVALIDATE_CROSS_DOC
 {
 notifyContent
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8172,7 +8172,7 @@ pEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 nsEventDispatcher
@@ -8203,7 +8203,7 @@ if
 aInnerWindow
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -8215,7 +8215,7 @@ HasPaintEventListeners
 )
 )
 return
-PR_TRUE
+true
 ;
 nsIDOMEventTarget
 *
@@ -8234,7 +8234,7 @@ if
 parentTarget
 )
 return
-PR_FALSE
+false
 ;
 nsEventListenerManager
 *
@@ -8252,7 +8252,7 @@ parentTarget
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 )
 &
@@ -8266,7 +8266,7 @@ MayHavePaintEventListener
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -8409,7 +8409,7 @@ tabChildGlobal
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 )
 &
@@ -8508,7 +8508,7 @@ pc
 >
 mFireAfterPaintEvents
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -8630,7 +8630,7 @@ NotifyDidPaintForSubtree
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -8650,7 +8650,7 @@ return
 ;
 mFireAfterPaintEvents
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9011,7 +9011,7 @@ sInterruptMaxCounter
 sInterruptCounter
 ;
 return
-PR_FALSE
+false
 ;
 }
 sInterruptCounter
@@ -9019,7 +9019,7 @@ sInterruptCounter
 0
 ;
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -9072,7 +9072,7 @@ HasPendingInputEvent
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -9122,7 +9122,7 @@ IsPaginated
 ;
 mHasPendingInterrupt
 =
-PR_FALSE
+false
 ;
 mInterruptChecksToSkip
 =
@@ -9169,7 +9169,7 @@ aFrame
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -9180,7 +9180,7 @@ sGotInterruptEnv
 {
 sGotInterruptEnv
 =
-PR_TRUE
+true
 ;
 GetInterruptEnv
 (
@@ -9194,7 +9194,7 @@ mInterruptsEnabled
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9209,7 +9209,7 @@ mInterruptChecksToSkip
 mInterruptChecksToSkip
 ;
 return
-PR_FALSE
+false
 ;
 }
 mInterruptChecksToSkip
@@ -9305,7 +9305,7 @@ IsResourceDoc
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9316,7 +9316,7 @@ IsChrome
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIView
@@ -9344,7 +9344,7 @@ view
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 view
@@ -9363,7 +9363,7 @@ view
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 view
@@ -9382,7 +9382,7 @@ view
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsIFrame
@@ -9449,7 +9449,7 @@ mDOMGeneration
 )
 mNeedsToUpdatePluginGeometry
 (
-PR_FALSE
+false
 )
 {
 mRegisteredPlugins
@@ -9960,7 +9960,7 @@ RecoverPluginGeometry
 (
 aBuilder
 sublist
-PR_TRUE
+true
 aClosure
 )
 ;
@@ -10203,7 +10203,7 @@ nsDisplayListBuilder
 :
 :
 PLUGIN_GEOMETRY
-PR_FALSE
+false
 )
 ;
 builder
@@ -10368,7 +10368,7 @@ RecoverPluginGeometry
 builder
 &
 list
-PR_FALSE
+false
 &
 closure
 )
@@ -10487,12 +10487,12 @@ j
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -10687,7 +10687,7 @@ mClipRegion
 {
 foundOverlap
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -10738,7 +10738,7 @@ return
 ;
 mNeedsToUpdatePluginGeometry
 =
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -10761,7 +10761,7 @@ PresContext
 >
 SetContainsUpdatePluginGeometryFrame
 (
-PR_FALSE
+false
 )
 ;
 mUpdatePluginGeometryForFrame
@@ -10941,7 +10941,7 @@ nsIntRect
 1
 1
 )
-PR_TRUE
+true
 )
 ;
 UpdatePluginGeometry
@@ -10981,7 +10981,7 @@ mNeedsToUpdatePluginGeometry
 {
 mNeedsToUpdatePluginGeometry
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -11018,7 +11018,7 @@ PresContext
 >
 SetContainsUpdatePluginGeometryFrame
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -11047,7 +11047,7 @@ PresContext
 >
 SetContainsUpdatePluginGeometryFrame
 (
-PR_FALSE
+false
 )
 ;
 mUpdatePluginGeometryForFrame
@@ -11139,7 +11139,7 @@ PresContext
 >
 SetContainsUpdatePluginGeometryFrame
 (
-PR_FALSE
+false
 )
 ;
 mUpdatePluginGeometryForFrame
@@ -11174,7 +11174,7 @@ aPresContext
 >
 SetContainsUpdatePluginGeometryFrame
 (
-PR_FALSE
+false
 )
 ;
 mUpdatePluginGeometryForFrame

@@ -182,7 +182,7 @@ mContent
 mStyleContext
 &
 mSqrChar
-PR_TRUE
+true
 )
 ;
 return

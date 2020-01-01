@@ -286,7 +286,7 @@ ps
 lb
 )
 return
-PR_FALSE
+false
 ;
 ps
 -
@@ -325,7 +325,7 @@ lb
 valPos
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -422,7 +422,7 @@ value
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 value
@@ -491,7 +491,7 @@ fdefault
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -666,7 +666,7 @@ ps
 >
 fdefault
 =
-PR_FALSE
+false
 ;
 }
 switch
@@ -817,7 +817,7 @@ file
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -846,7 +846,7 @@ ps
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1015,7 +1015,7 @@ file
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -1090,7 +1090,7 @@ file
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -1278,7 +1278,7 @@ ps
 )
 )
 return
-PR_FALSE
+false
 ;
 *
 ps
@@ -1338,7 +1338,7 @@ file
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -1367,7 +1367,7 @@ ps
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1461,7 +1461,7 @@ file
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1509,7 +1509,7 @@ file
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -1740,7 +1740,7 @@ ps
 )
 )
 return
-PR_FALSE
+false
 ;
 *
 ps
@@ -1919,7 +1919,7 @@ ps
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -2141,7 +2141,7 @@ ps
 )
 )
 return
-PR_FALSE
+false
 ;
 ConvertUTF16toUTF8
 converter
@@ -2353,7 +2353,7 @@ file
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -2417,7 +2417,7 @@ file
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -2444,7 +2444,7 @@ ps
 )
 )
 return
-PR_FALSE
+false
 ;
 state
 =
@@ -2494,7 +2494,7 @@ file
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -2555,7 +2555,7 @@ state
 state
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -2671,7 +2671,7 @@ val
 boolVal
 =
 =
-PR_FALSE
+false
 ?
 "
 false

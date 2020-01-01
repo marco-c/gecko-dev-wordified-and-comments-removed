@@ -126,7 +126,7 @@ ifdef
 DEBUG
 mIsCompiled
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -952,7 +952,7 @@ GetLineNumber
 (
 )
 JSVERSION_LATEST
-PR_TRUE
+true
 (
 void
 *
@@ -967,7 +967,7 @@ mGetterText
 ;
 deletedGetter
 =
-PR_TRUE
+true
 ;
 mJSGetterObject
 =
@@ -1118,7 +1118,7 @@ GetLineNumber
 (
 )
 JSVERSION_LATEST
-PR_TRUE
+true
 (
 void
 *
@@ -1133,7 +1133,7 @@ mSetterText
 ;
 deletedSetter
 =
-PR_TRUE
+true
 ;
 mJSSetterObject
 =

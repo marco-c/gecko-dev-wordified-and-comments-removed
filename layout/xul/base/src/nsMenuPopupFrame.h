@@ -496,7 +496,7 @@ SetGeneratedChildren
 {
 mGeneratedChildren
 =
-PR_TRUE
+true
 ;
 }
 nsMenuFrame

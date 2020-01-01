@@ -206,7 +206,7 @@ event
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -327,8 +327,8 @@ event
 InitEvent
 (
 aType
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -344,7 +344,7 @@ event
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS

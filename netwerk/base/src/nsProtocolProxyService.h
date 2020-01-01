@@ -530,7 +530,7 @@ HostInfo
 :
 is_ipaddr
 (
-PR_FALSE
+false
 )
 {
 }

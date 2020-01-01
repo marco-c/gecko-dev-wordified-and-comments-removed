@@ -622,7 +622,7 @@ rv
 ;
 mSentHeading
 =
-PR_TRUE
+true
 ;
 }
 char
@@ -921,7 +921,7 @@ nsnull
 ;
 mSentHeading
 =
-PR_FALSE
+false
 ;
 }
 nsFTPDirListingConv
@@ -1261,7 +1261,7 @@ eol
 ;
 cr
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1276,7 +1276,7 @@ eol
 ;
 cr
 =
-PR_FALSE
+false
 ;
 }
 list_result

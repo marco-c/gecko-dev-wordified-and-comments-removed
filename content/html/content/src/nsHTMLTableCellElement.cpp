@@ -599,7 +599,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -861,7 +861,7 @@ nsGkAtoms
 :
 align
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -1203,7 +1203,7 @@ ParseEnumValue
 (
 aValue
 kCellScopeTable
-PR_FALSE
+false
 )
 ;
 }

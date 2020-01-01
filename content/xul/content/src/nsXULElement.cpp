@@ -1185,7 +1185,7 @@ i
 ]
 .
 mName
-PR_TRUE
+true
 )
 ;
 }
@@ -1663,7 +1663,7 @@ Create
 (
 mPrototype
 aNodeInfo
-PR_TRUE
+true
 )
 ;
 NS_ASSERTION
@@ -1841,7 +1841,7 @@ nsContentUtils
 :
 DestroyMatchString
 attrValue
-PR_TRUE
+true
 attrAtom
 kNameSpaceID_Unknown
 )
@@ -1981,7 +1981,7 @@ nsContentUtils
 :
 DestroyMatchString
 attrValue
-PR_TRUE
+true
 attrAtom
 nameSpaceId
 )
@@ -2111,7 +2111,7 @@ window
 *
 aDefer
 =
-PR_FALSE
+false
 ;
 return
 piTarget
@@ -2119,7 +2119,7 @@ piTarget
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2215,7 +2215,7 @@ mNodeInfo
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -2263,12 +2263,12 @@ aTabIndex
 1
 ;
 return
-PR_FALSE
+false
 ;
 }
 shouldFocus
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -3218,7 +3218,7 @@ elem
 >
 mHoldsScriptObject
 =
-PR_TRUE
+true
 ;
 }
 attr
@@ -3304,7 +3304,7 @@ AddScriptEventListener
 (
 attr
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -3761,7 +3761,7 @@ i
 ;
 fireSelectionHandler
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4026,8 +4026,8 @@ NS_LITERAL_STRING
 select
 "
 )
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -4547,7 +4547,7 @@ document
 >
 NotifyPossibleTitleChange
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4806,7 +4806,7 @@ aValue
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -4977,7 +4977,7 @@ Truncate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 val
@@ -4989,7 +4989,7 @@ aResult
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5420,7 +5420,7 @@ RemoveFromIdTable
 ;
 isId
 =
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -5659,7 +5659,7 @@ hidechrome
 {
 HideWindowChrome
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5837,7 +5837,7 @@ drawintitlebar
 {
 SetDrawsInTitlebar
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5935,7 +5935,7 @@ AttributeChanged
 (
 aName
 aNameSpaceID
-PR_TRUE
+true
 aNotify
 )
 ;
@@ -5973,7 +5973,7 @@ hasMutationListeners
 nsMutationEvent
 mutation
 (
-PR_TRUE
+true
 NS_MUTATION_ATTRMODIFIED
 )
 ;
@@ -6717,7 +6717,7 @@ aVisitor
 .
 mForceContentDispatch
 =
-PR_TRUE
+true
 ;
 nsIAtom
 *
@@ -6826,7 +6826,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_TRUE
+true
 ;
 aVisitor
 .
@@ -6933,7 +6933,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -7675,7 +7675,7 @@ aAttribute
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -7886,7 +7886,7 @@ nsGkAtoms
 _atom
 aValue
 \
-PR_TRUE
+true
 )
 ;
 \
@@ -7970,7 +7970,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 \
@@ -7983,7 +7983,7 @@ nsGkAtoms
 :
 :
 _atom
-PR_TRUE
+true
 )
 ;
 \
@@ -8424,7 +8424,7 @@ nsFrameLoader
 Create
 (
 this
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -9120,7 +9120,7 @@ nsContentUtils
 DispatchXULCommand
 (
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -9219,7 +9219,7 @@ aObject
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -9359,7 +9359,7 @@ manager
 =
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_TRUE
@@ -9376,7 +9376,7 @@ SetProperty
 listenerAtom
 popupListener
 PopupListenerPropertyDtor
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10713,7 +10713,7 @@ AddScriptEventListener
 (
 attr
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -10851,7 +10851,7 @@ AddScriptEventListener
 (
 attr
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -11673,7 +11673,7 @@ NS_GET_IID
 (
 nsIURI
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -12241,7 +12241,7 @@ aStream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 script
@@ -12394,7 +12394,7 @@ IsEmpty
 {
 mHasIdAttribute
 =
-PR_TRUE
+true
 ;
 mAttributes
 [
@@ -12433,7 +12433,7 @@ _class
 {
 mHasClassAttribute
 =
-PR_TRUE
+true
 ;
 mAttributes
 [
@@ -12472,7 +12472,7 @@ style
 {
 mHasStyleAttribute
 =
-PR_TRUE
+true
 ;
 nsRefPtr
 <
@@ -12579,7 +12579,7 @@ nsXULPrototypeNode
 ;
 mHoldsScriptObject
 =
-PR_FALSE
+false
 ;
 }
 mNumAttributes
@@ -12619,11 +12619,11 @@ aLineNo
 )
 mSrcLoading
 (
-PR_FALSE
+false
 )
 mOutOfLine
 (
-PR_TRUE
+true
 )
 mSrcLoadWaiters
 (
@@ -13673,7 +13673,7 @@ NS_CYCLE_COLLECTION_NAME
 nsXULPrototypeNode
 )
 aObject
-PR_FALSE
+false
 )
 ;
 if

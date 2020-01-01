@@ -186,7 +186,7 @@ mTextOffset
 +
 aAddlOffset
 aText
-PR_TRUE
+true
 )
 ;
 aEvents
@@ -232,7 +232,7 @@ mTextOffset
 +
 aAddlOffset
 aText
-PR_FALSE
+false
 )
 ;
 aEvents

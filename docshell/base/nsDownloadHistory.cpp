@@ -151,8 +151,8 @@ history
 AddURI
 (
 aSource
-PR_FALSE
-PR_TRUE
+false
+true
 aReferrer
 )
 ;

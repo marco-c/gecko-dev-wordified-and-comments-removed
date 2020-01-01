@@ -260,7 +260,7 @@ _vp
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -336,7 +336,7 @@ str
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -410,7 +410,7 @@ obj
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -469,7 +469,7 @@ val
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

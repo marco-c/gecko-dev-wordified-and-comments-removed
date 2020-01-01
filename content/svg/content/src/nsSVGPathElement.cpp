@@ -111,7 +111,7 @@ nsGkAtoms
 :
 pathLength
 0
-PR_FALSE
+false
 }
 ;
 NS_IMPL_NS_NEW_SVG_ELEMENT
@@ -1437,7 +1437,7 @@ GetDOMWrapper
 (
 key
 this
-PR_FALSE
+false
 )
 .
 get
@@ -1501,7 +1501,7 @@ GetDOMWrapper
 (
 key
 this
-PR_TRUE
+true
 )
 .
 get
@@ -1651,7 +1651,7 @@ IsMarkable
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void

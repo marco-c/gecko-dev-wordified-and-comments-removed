@@ -497,7 +497,7 @@ nsGkAtoms
 :
 target
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -968,7 +968,7 @@ nsGkAtoms
 :
 ping
 aValue
-PR_TRUE
+true
 )
 ;
 }

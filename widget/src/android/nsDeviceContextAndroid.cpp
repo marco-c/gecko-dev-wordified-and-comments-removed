@@ -313,7 +313,7 @@ NS_ConvertUTF16toUTF8
 (
 targetPath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 destFile

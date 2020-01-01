@@ -366,7 +366,7 @@ StopRepeat
 ;
 mTrustedEvent
 =
-PR_FALSE
+false
 ;
 break
 ;

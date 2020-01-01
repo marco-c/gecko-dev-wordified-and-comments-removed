@@ -663,11 +663,11 @@ endif
 #
 define
 SET_COOKIE
-PR_TRUE
+true
 #
 define
 GET_COOKIE
-PR_FALSE
+false
 #
 ifdef
 PR_LOGGING
@@ -2682,7 +2682,7 @@ BEHAVIOR_ACCEPT
 )
 mThirdPartySession
 (
-PR_FALSE
+false
 )
 mMaxNumberOfCookies
 (
@@ -2764,7 +2764,7 @@ AddObserver
 (
 kPrefCookieBehavior
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -2774,7 +2774,7 @@ AddObserver
 (
 kPrefMaxNumberOfCookies
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -2784,7 +2784,7 @@ AddObserver
 (
 kPrefMaxCookiesPerHost
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -2794,7 +2794,7 @@ AddObserver
 (
 kPrefCookiePurgeAge
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -2804,7 +2804,7 @@ AddObserver
 (
 kPrefThirdPartySession
 this
-PR_TRUE
+true
 )
 ;
 PrefChanged
@@ -2872,7 +2872,7 @@ before
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 mObserverService
@@ -2888,7 +2888,7 @@ do
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 mObserverService
@@ -2898,7 +2898,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_TRUE
+true
 )
 ;
 mPermissionService
@@ -3484,7 +3484,7 @@ mDefaultDBState
 -
 >
 dbConn
-PR_TRUE
+true
 )
 ;
 switch
@@ -4764,7 +4764,7 @@ oldCookieFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 mDBState
@@ -4963,7 +4963,7 @@ pendingRead
 {
 CancelAsyncRead
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -5370,7 +5370,7 @@ pendingRead
 {
 CancelAsyncRead
 (
-PR_TRUE
+true
 )
 ;
 mDefaultDBState
@@ -6697,7 +6697,7 @@ aServerTime
 get
 (
 )
-PR_TRUE
+true
 &
 tempServerTime
 )
@@ -6849,7 +6849,7 @@ removedList
 AppendElement
 (
 aCookie
-PR_FALSE
+false
 )
 ;
 return
@@ -7110,7 +7110,7 @@ pendingRead
 {
 CancelAsyncRead
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -7532,7 +7532,7 @@ cookie
 currentTimeInUsec
 nsnull
 nsnull
-PR_TRUE
+true
 )
 ;
 return
@@ -8168,7 +8168,7 @@ path
 expiry
 lastAccessed
 creationTime
-PR_FALSE
+false
 isSecure
 isHttpOnly
 )
@@ -8280,7 +8280,7 @@ tuple
 cookie
 mDefaultDBState
 NULL
-PR_FALSE
+false
 )
 ;
 }
@@ -8860,7 +8860,7 @@ i
 ]
 mDefaultDBState
 NULL
-PR_FALSE
+false
 )
 ;
 }
@@ -8959,7 +8959,7 @@ return
 ;
 CancelAsyncRead
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -9244,7 +9244,7 @@ tuple
 cookie
 mDefaultDBState
 NULL
-PR_FALSE
+false
 )
 ;
 }
@@ -9548,7 +9548,7 @@ kHttpOnlyPrefix
 {
 isHttpOnly
 =
-PR_TRUE
+true
 ;
 hostIndex
 =
@@ -9589,7 +9589,7 @@ else
 {
 isHttpOnly
 =
-PR_FALSE
+false
 ;
 hostIndex
 =
@@ -9931,7 +9931,7 @@ GenerateUniqueCreationTime
 (
 currentTimeInUsec
 )
-PR_FALSE
+false
 Substring
 (
 buffer
@@ -9990,7 +9990,7 @@ newCookie
 currentTimeInUsec
 NULL
 NULL
-PR_TRUE
+true
 )
 ;
 }
@@ -10445,7 +10445,7 @@ isSecure
 {
 isSecure
 =
-PR_FALSE
+false
 ;
 }
 nsCookie
@@ -10743,7 +10743,7 @@ kCookieStaleThreshold
 )
 stale
 =
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -11167,7 +11167,7 @@ cookieAttributes
 .
 isSession
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -11658,7 +11658,7 @@ oldCookie
 ;
 foundCookie
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -12341,7 +12341,7 @@ aIter
 aIter
 ;
 return
-PR_TRUE
+true
 ;
 }
 +
@@ -12350,7 +12350,7 @@ aIter
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -12467,13 +12467,13 @@ aCookieAttributes
 .
 isSecure
 =
-PR_FALSE
+false
 ;
 aCookieAttributes
 .
 isHttpOnly
 =
-PR_FALSE
+false
 ;
 nsDependentCSubstring
 tokenString
@@ -12656,7 +12656,7 @@ aCookieAttributes
 .
 isSecure
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -12672,7 +12672,7 @@ aCookieAttributes
 .
 isHttpOnly
 =
-PR_TRUE
+true
 ;
 }
 aCookieHeader
@@ -13012,7 +13012,7 @@ a
 b
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -13059,7 +13059,7 @@ b
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -13440,11 +13440,11 @@ NS_LITERAL_CSTRING
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 aCookieAttributes
@@ -13454,7 +13454,7 @@ host
 hostFromURI
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -13604,7 +13604,7 @@ path
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -13639,10 +13639,10 @@ t
 kNotFound
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -13707,7 +13707,7 @@ numInts
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 delta
@@ -13742,7 +13742,7 @@ expires
 get
 (
 )
-PR_TRUE
+true
 &
 expires
 )
@@ -13752,7 +13752,7 @@ PR_SUCCESS
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 delta
@@ -13770,7 +13770,7 @@ aServerTime
 else
 {
 return
-PR_TRUE
+true
 ;
 }
 aCookieAttributes
@@ -13782,7 +13782,7 @@ aCurrentTime
 delta
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -14088,7 +14088,7 @@ equal
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -14244,7 +14244,7 @@ removedList
 AppendElement
 (
 cookie
-PR_FALSE
+false
 )
 ;
 COOKIE_LOGEVICTED
@@ -14621,7 +14621,7 @@ removedList
 AppendElement
 (
 cookie
-PR_FALSE
+false
 )
 ;
 COOKIE_LOGEVICTED
@@ -15391,7 +15391,7 @@ if
 entry
 )
 return
-PR_FALSE
+false
 ;
 const
 nsCookieEntry
@@ -15490,12 +15490,12 @@ i
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void

@@ -2502,7 +2502,7 @@ idx
 mid
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2536,7 +2536,7 @@ idx
 high
 ;
 return
-PR_FALSE
+false
 ;
 }
 template
@@ -3163,7 +3163,7 @@ i
 NoIndex
 )
 return
-PR_FALSE
+false
 ;
 RemoveElementAt
 (
@@ -3171,7 +3171,7 @@ i
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -3373,7 +3373,7 @@ newLen
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3449,7 +3449,7 @@ nsnull
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 elem_type

@@ -1095,7 +1095,7 @@ accText
 >
 GetTextAttributes
 (
-PR_FALSE
+false
 aOffset
 &
 startOffset

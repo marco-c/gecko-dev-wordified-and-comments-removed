@@ -131,7 +131,7 @@ aContext
 {
 SetRepeatable
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1415,7 +1415,7 @@ row
 >
 SetHasUnpaginatedHeight
 (
-PR_TRUE
+true
 )
 ;
 row
@@ -1467,7 +1467,7 @@ aPageBreakBeforeEnd
 *
 aPageBreakBeforeEnd
 =
-PR_FALSE
+false
 ;
 nsTableFrame
 *
@@ -1630,7 +1630,7 @@ continue
 }
 haveRow
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1733,7 +1733,7 @@ kidAvailSize
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 InitChildReflowState
@@ -1760,7 +1760,7 @@ mFlags
 .
 mHResize
 =
-PR_TRUE
+true
 ;
 NS_ASSERTION
 (
@@ -1824,7 +1824,7 @@ mFlags
 .
 mIsTopOfPage
 =
-PR_FALSE
+false
 ;
 }
 rv
@@ -2000,14 +2000,14 @@ height
 )
 needToCalcRowHeights
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 needToCalcRowHeights
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2687,7 +2687,7 @@ rowIndex
 .
 hasPctHeight
 =
-PR_TRUE
+true
 ;
 rowInfo
 [
@@ -2778,7 +2778,7 @@ rowIndex
 .
 isSpecial
 =
-PR_TRUE
+true
 ;
 nsTableCellFrame
 *
@@ -2826,7 +2826,7 @@ rowIndex
 .
 isSpecial
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2865,7 +2865,7 @@ numEffCols
 {
 hasRowSpanningCell
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3726,7 +3726,7 @@ divisor
 {
 styleHeightAllocation
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -4011,7 +4011,7 @@ InvalidateFrame
 rowFrame
 rowBounds
 rowVisualOverflow
-PR_FALSE
+false
 )
 ;
 }
@@ -4122,7 +4122,7 @@ tableFrame
 >
 SetNeedToCollapse
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4304,7 +4304,7 @@ InvalidateFrame
 this
 oldGroupRect
 oldGroupVisualOverflow
-PR_FALSE
+false
 )
 ;
 return
@@ -4418,7 +4418,7 @@ aContRowFrame
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 bad
 call
@@ -5338,7 +5338,7 @@ availSize
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 InitChildReflowState
@@ -5445,7 +5445,7 @@ InvalidateFrame
 rowFrame
 oldRowRect
 oldRowVisualOverflow
-PR_FALSE
+false
 )
 ;
 if
@@ -5551,7 +5551,7 @@ else
 {
 rowIsOnPage
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5639,7 +5639,7 @@ else
 {
 rowIsOnPage
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -5649,7 +5649,7 @@ else
 {
 rowIsOnPage
 =
-PR_FALSE
+false
 ;
 }
 nsTableRowFrame
@@ -6286,7 +6286,7 @@ tableFrame
 >
 SetNeedToCollapse
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -6376,7 +6376,7 @@ mFlags
 .
 mSpecialHeightReflow
 =
-PR_FALSE
+false
 ;
 SplitRowGroup
 (
@@ -6988,19 +6988,19 @@ rowFrame
 >
 SetFirstInserted
 (
-PR_TRUE
+true
 )
 ;
 gotFirstRow
 =
-PR_TRUE
+true
 ;
 tableFrame
 -
 >
 SetRowInserted
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -7085,7 +7085,7 @@ InsertRows
 this
 rows
 rowIndex
-PR_TRUE
+true
 )
 ;
 PresContext
@@ -7189,7 +7189,7 @@ RemoveRows
 *
 rowFrame
 1
-PR_TRUE
+true
 )
 ;
 PresContext
@@ -7567,12 +7567,12 @@ numEffCols
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsIAtom
@@ -7617,7 +7617,7 @@ if
 firstChild
 )
 return
-PR_FALSE
+false
 ;
 return
 firstChild
@@ -7656,7 +7656,7 @@ if
 lastChild
 )
 return
-PR_FALSE
+false
 ;
 return
 lastChild
@@ -8303,7 +8303,7 @@ aLastVisual
 *
 aIsReordered
 =
-PR_FALSE
+false
 ;
 *
 aFirstVisual
@@ -8374,12 +8374,12 @@ nsnull
 *
 aXIsBeforeFirstFrame
 =
-PR_TRUE
+true
 ;
 *
 aXIsAfterLastFrame
 =
-PR_FALSE
+false
 ;
 aLineNumber
 +
@@ -9245,7 +9245,7 @@ IsEmpty
 )
 )
 return
-PR_TRUE
+true
 ;
 nscoord
 overflowAbove

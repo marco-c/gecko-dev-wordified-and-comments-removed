@@ -540,7 +540,7 @@ gDEBUG_LiveProtoCount
 ;
 DEBUG_DumpedStats
 =
-PR_TRUE
+true
 ;
 }
 #

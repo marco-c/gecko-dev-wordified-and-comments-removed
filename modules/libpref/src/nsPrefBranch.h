@@ -418,7 +418,7 @@ aKey
 mCanonical
 )
 return
-PR_FALSE
+false
 ;
 return
 mDomain
@@ -539,7 +539,7 @@ IsWeak
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -562,7 +562,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-PR_TRUE
+true
 }
 ;
 private

@@ -231,7 +231,7 @@ nsChromeRegistry
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 {
 }

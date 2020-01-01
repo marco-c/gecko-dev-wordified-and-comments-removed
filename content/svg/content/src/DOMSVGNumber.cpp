@@ -251,7 +251,7 @@ mAttrEnum
 )
 mIsAnimValItem
 (
-PR_FALSE
+false
 )
 mValue
 (
@@ -360,7 +360,7 @@ Element
 DidChangeNumberList
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 #
@@ -489,7 +489,7 @@ nsnull
 ;
 mIsAnimValItem
 =
-PR_FALSE
+false
 ;
 }
 float

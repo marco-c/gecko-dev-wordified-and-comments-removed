@@ -426,7 +426,7 @@ aData
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsRestyleHint
@@ -483,7 +483,7 @@ aPresContext
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -591,7 +591,7 @@ HasRules
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -604,7 +604,7 @@ IsApplicable
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -628,7 +628,7 @@ IsComplete
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 void

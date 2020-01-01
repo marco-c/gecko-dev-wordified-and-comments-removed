@@ -317,7 +317,7 @@ nsXPTMethodInfo
 ;
 RefCountInInterfacePointers
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -333,7 +333,7 @@ NS_PROXY_ASYNC
 )
 CopyStrings
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -347,7 +347,7 @@ nsProxyObjectCallInfo
 {
 RefCountInInterfacePointers
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -363,7 +363,7 @@ NS_PROXY_ASYNC
 )
 CopyStrings
 (
-PR_FALSE
+false
 )
 ;
 mOwner

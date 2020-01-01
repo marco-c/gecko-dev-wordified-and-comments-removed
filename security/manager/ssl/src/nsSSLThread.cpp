@@ -734,7 +734,7 @@ SSL_OptionSet
 (
 fd
 SSL_SECURITY
-PR_TRUE
+true
 )
 )
 return
@@ -748,7 +748,7 @@ SECSuccess
 SSL_ResetHandshake
 (
 fd
-PR_FALSE
+false
 )
 )
 return
@@ -959,7 +959,7 @@ else
 {
 want_sleep_and_wakeup_on_any_socket_activity
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1239,7 +1239,7 @@ mPendingHTTPRequest
 }
 close_later
 =
-PR_TRUE
+true
 ;
 ssl_thread_singleton
 -
@@ -1371,7 +1371,7 @@ nsSSLIOLayerHelpers
 :
 mPollableEventCurrentlySet
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1726,7 +1726,7 @@ si
 {
 this_socket_is_busy
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1764,7 +1764,7 @@ mBusySocket
 {
 some_other_socket_is_busy
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1796,7 +1796,7 @@ checkHandshake
 (
 -
 1
-PR_TRUE
+true
 si
 -
 >
@@ -2456,7 +2456,7 @@ si
 {
 this_socket_is_busy
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2494,7 +2494,7 @@ mBusySocket
 {
 some_other_socket_is_busy
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2526,7 +2526,7 @@ checkHandshake
 (
 -
 1
-PR_FALSE
+false
 si
 -
 >
@@ -3044,7 +3044,7 @@ nsnull
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -3182,7 +3182,7 @@ ssl_pending_write
 {
 pending_work
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -3365,7 +3365,7 @@ bytesWritten
 checkHandshake
 (
 bytesWritten
-PR_FALSE
+false
 realFileDesc
 mBusySocket
 )
@@ -3411,7 +3411,7 @@ bstd
 .
 mOneBytePendingFromEarlierWrite
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3481,7 +3481,7 @@ bytesWritten
 checkHandshake
 (
 bytesWritten
-PR_FALSE
+false
 realFileDesc
 mBusySocket
 )
@@ -3558,7 +3558,7 @@ bstd
 .
 mOneBytePendingFromEarlierWrite
 =
-PR_TRUE
+true
 ;
 bstd
 .
@@ -3652,7 +3652,7 @@ bytesRead
 checkHandshake
 (
 bytesRead
-PR_TRUE
+true
 realFileDesc
 mBusySocket
 )
@@ -3732,14 +3732,14 @@ mPollableEventCurrentlySet
 {
 needToSetPollableEvent
 =
-PR_TRUE
+true
 ;
 nsSSLIOLayerHelpers
 :
 :
 mPollableEventCurrentlySet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3803,7 +3803,7 @@ nsSSLIOLayerHelpers
 :
 mPollableEventCurrentlySet
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3844,7 +3844,7 @@ if
 ssl_thread_singleton
 )
 return
-PR_FALSE
+false
 ;
 return
 ssl_thread_singleton

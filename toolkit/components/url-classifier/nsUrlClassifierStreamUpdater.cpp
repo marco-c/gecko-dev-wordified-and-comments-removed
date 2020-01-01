@@ -139,19 +139,19 @@ nsUrlClassifierStreamUpdater
 :
 mIsUpdating
 (
-PR_FALSE
+false
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 mDownloadError
 (
-PR_FALSE
+false
 )
 mBeganStream
 (
-PR_FALSE
+false
 )
 mUpdateUrl
 (
@@ -227,7 +227,7 @@ this
 ;
 mIsUpdating
 =
-PR_FALSE
+false
 ;
 mPendingUpdates
 .
@@ -237,7 +237,7 @@ Clear
 ;
 mDownloadError
 =
-PR_FALSE
+false
 ;
 mSuccessCallback
 =
@@ -409,7 +409,7 @@ rv
 ;
 mBeganStream
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -681,7 +681,7 @@ update
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -746,7 +746,7 @@ AddObserver
 (
 this
 gQuitApplicationMessage
-PR_FALSE
+false
 )
 ;
 mDBService
@@ -766,7 +766,7 @@ rv
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 }
 rv
@@ -804,7 +804,7 @@ update
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -837,12 +837,12 @@ aDownloadErrorCallback
 ;
 mIsUpdating
 =
-PR_TRUE
+true
 ;
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 FetchUpdate
@@ -1172,7 +1172,7 @@ EmptyCString
 ;
 mDownloadError
 =
-PR_TRUE
+true
 ;
 mDBService
 -
@@ -1742,7 +1742,7 @@ status
 {
 downloadError
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1821,7 +1821,7 @@ status
 ;
 downloadError
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1841,7 +1841,7 @@ strStatus
 ;
 mDownloadError
 =
-PR_TRUE
+true
 ;
 status
 =
@@ -1859,7 +1859,7 @@ status
 {
 mBeganStream
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -2149,7 +2149,7 @@ rv
 ;
 mIsUpdating
 =
-PR_FALSE
+false
 ;
 mChannel
 =
@@ -2202,7 +2202,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2231,7 +2231,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

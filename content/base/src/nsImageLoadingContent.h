@@ -181,7 +181,7 @@ ClearBrokenState
 {
 mBroken
 =
-PR_FALSE
+false
 ;
 }
 bool

@@ -439,7 +439,7 @@ aEvent
 >
 mSucceeded
 =
-PR_FALSE
+false
 ;
 aEvent
 -
@@ -589,7 +589,7 @@ aEvent
 >
 mSucceeded
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2128,7 +2128,7 @@ rv
 ExpandToClusterBoundary
 (
 content
-PR_FALSE
+false
 &
 xpOffset
 )
@@ -2266,7 +2266,7 @@ rv
 ExpandToClusterBoundary
 (
 content
-PR_TRUE
+true
 &
 xpOffset
 )
@@ -2694,7 +2694,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2785,7 +2785,7 @@ aEvent
 mInput
 .
 mLength
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2818,7 +2818,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3090,7 +3090,7 @@ aEvent
 mInput
 .
 mLength
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3188,7 +3188,7 @@ GetFrameForTextRect
 (
 node
 offset
-PR_TRUE
+true
 &
 firstFrame
 )
@@ -3570,7 +3570,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3740,7 +3740,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3923,7 +3923,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3959,7 +3959,7 @@ mInput
 .
 mOffset
 0
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4101,7 +4101,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4141,7 +4141,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4192,7 +4192,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 aEvent
 -
@@ -4257,7 +4257,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4409,7 +4409,7 @@ NS_ERROR_FAILURE
 nsQueryContentEvent
 eventOnRoot
 (
-PR_TRUE
+true
 NS_QUERY_CHARACTER_AT_POINT
 rootWidget
 )
@@ -4550,7 +4550,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4671,7 +4671,7 @@ rv
 nsQueryContentEvent
 textRect
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_RECT
 aEvent
 -
@@ -4736,7 +4736,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4778,7 +4778,7 @@ mReply
 .
 mWidgetIsHit
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -4914,8 +4914,8 @@ x
 eventLoc
 .
 y
-PR_FALSE
-PR_FALSE
+false
+false
 getter_AddRefs
 (
 elementUnderMouse
@@ -5012,7 +5012,7 @@ mReply
 .
 mWidgetIsHit
 =
-PR_TRUE
+true
 ;
 }
 aEvent
@@ -5020,7 +5020,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -5840,7 +5840,7 @@ aEvent
 >
 mSucceeded
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -6176,7 +6176,7 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_FALSE
+false
 -
 1
 -
@@ -6188,7 +6188,7 @@ aEvent
 >
 mSucceeded
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

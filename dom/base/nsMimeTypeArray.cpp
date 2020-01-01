@@ -88,7 +88,7 @@ mPluginMimeTypeCount
 )
 mInited
 (
-PR_FALSE
+false
 )
 {
 }
@@ -751,7 +751,7 @@ Clear
 {
 mInited
 =
-PR_FALSE
+false
 ;
 mMimeTypeArray
 .
@@ -961,7 +961,7 @@ pluginMimeTypeCount
 ;
 mInited
 =
-PR_TRUE
+true
 ;
 PRUint32
 k

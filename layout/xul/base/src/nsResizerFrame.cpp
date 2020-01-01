@@ -440,7 +440,7 @@ AppUnitsPerDevPixel
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -454,7 +454,7 @@ break
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 Direction
 direction
@@ -518,7 +518,7 @@ height
 }
 mTrackingMouseMove
 =
-PR_TRUE
+true
 ;
 mMouseDownPoint
 =
@@ -591,7 +591,7 @@ eLeftButton
 {
 mTrackingMouseMove
 =
-PR_FALSE
+false
 ;
 nsIPresShell
 :
@@ -604,7 +604,7 @@ nsnull
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1286,7 +1286,7 @@ x
 rect
 .
 y
-PR_TRUE
+true
 )
 ;
 }
@@ -1310,13 +1310,13 @@ width
 rect
 .
 height
-PR_TRUE
+true
 )
 ;
 }
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1964,7 +1964,7 @@ width
 aSizeInfo
 .
 width
-PR_TRUE
+true
 )
 ;
 }
@@ -1988,7 +1988,7 @@ height
 aSizeInfo
 .
 height
-PR_TRUE
+true
 )
 ;
 }
@@ -2687,7 +2687,7 @@ NS_IS_TRUSTED_EVENT
 aEvent
 )
 :
-PR_FALSE
+false
 )
 ;
 }

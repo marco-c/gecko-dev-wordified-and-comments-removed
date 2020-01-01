@@ -146,7 +146,7 @@ mPos
 )
 mClosed
 (
-PR_FALSE
+false
 )
 {
 NS_ADDREF
@@ -221,7 +221,7 @@ nsnull
 }
 mClosed
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -439,7 +439,7 @@ nonBlocking
 *
 nonBlocking
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -515,7 +515,7 @@ parent
 )
 mClosed
 (
-PR_FALSE
+false
 )
 {
 NS_ADDREF
@@ -557,7 +557,7 @@ mClosed
 {
 mClosed
 =
-PR_TRUE
+true
 ;
 mStreamIO
 -
@@ -588,7 +588,7 @@ mClosed
 {
 mClosed
 =
-PR_TRUE
+true
 ;
 mStreamIO
 -
@@ -728,7 +728,7 @@ nonBlocking
 *
 nonBlocking
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -794,7 +794,7 @@ mBufSize
 )
 mBufDirty
 (
-PR_FALSE
+false
 )
 mBuffer
 (
@@ -1583,7 +1583,7 @@ STORE_ON_DISK_AS_FILE
 {
 mBufDirty
 =
-PR_FALSE
+false
 ;
 nsDiskCacheRecord
 *
@@ -1656,7 +1656,7 @@ rv
 }
 written
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1698,7 +1698,7 @@ failed
 ;
 written
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1990,7 +1990,7 @@ break
 ;
 flushed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2026,7 +2026,7 @@ chunkSize
 ;
 mBufDirty
 =
-PR_TRUE
+true
 ;
 mBufPos
 +
@@ -2741,7 +2741,7 @@ NS_ERROR_UNEXPECTED
 }
 mBufDirty
 =
-PR_FALSE
+false
 ;
 mBufPos
 =
@@ -3261,7 +3261,7 @@ rv
 ;
 needToCloseFD
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3304,7 +3304,7 @@ rv
 }
 mBufDirty
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3398,7 +3398,7 @@ mBufEnd
 =
 mStreamEnd
 :
-PR_TRUE
+true
 "
 bad
 stream

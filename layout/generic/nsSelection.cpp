@@ -520,7 +520,7 @@ mLastContentOffset
 )
 mCanCacheFrameOffset
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2070,7 +2070,7 @@ aFrameSel
 aNode
 )
 return
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -2106,7 +2106,7 @@ GetParent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 limiter
@@ -2436,7 +2436,7 @@ nsFrameSelection
 :
 mDelayedMouseEvent
 (
-PR_FALSE
+false
 0
 nsnull
 nsMouseEvent
@@ -2498,11 +2498,11 @@ mBatching
 ;
 mChangesDuringBatching
 =
-PR_FALSE
+false
 ;
 mNotifyFrames
 =
-PR_TRUE
+true
 ;
 mLimiter
 =
@@ -2514,7 +2514,7 @@ nsnull
 ;
 mMouseDoubleDownState
 =
-PR_FALSE
+false
 ;
 mHint
 =
@@ -2531,7 +2531,7 @@ BIDI_LEVEL_UNDEFINED
 endif
 mDragSelectingCells
 =
-PR_FALSE
+false
 ;
 mSelectingTableCellMode
 =
@@ -2614,7 +2614,7 @@ SELECTION_OFF
 ;
 mDelayedMouseEventValid
 =
-PR_FALSE
+false
 ;
 mSelectionChangeReason
 =
@@ -2680,7 +2680,7 @@ tmp
 >
 mDragSelectingCells
 =
-PR_FALSE
+false
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -2963,7 +2963,7 @@ InvalidateDesiredX
 {
 mDesiredXSet
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -2982,7 +2982,7 @@ aX
 ;
 mDesiredXSet
 =
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -3814,11 +3814,11 @@ aShell
 ;
 mMouseDownState
 =
-PR_FALSE
+false
 ;
 mDesiredXSet
 =
-PR_FALSE
+false
 ;
 mLimiter
 =
@@ -3896,7 +3896,7 @@ nsIDOMKeyEvent
 DOM_VK_END
 )
 ?
-PR_FALSE
+false
 :
 mCaretMovementStyle
 =
@@ -4206,8 +4206,8 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 return
@@ -4277,8 +4277,8 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 return
@@ -4339,12 +4339,12 @@ aAmount
 eDirPrevious
 offsetused
 desiredX
-PR_TRUE
+true
 mLimiter
 !
 =
 nsnull
-PR_TRUE
+true
 aVisualMovement
 )
 ;
@@ -4797,7 +4797,7 @@ pos
 mContentOffset
 tHint
 aContinueSelection
-PR_FALSE
+false
 )
 ;
 }
@@ -4890,8 +4890,8 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -5428,9 +5428,9 @@ currentFrame
 GetFrameFromDirection
 (
 direction
-PR_FALSE
+false
 aJumpLines
-PR_TRUE
+true
 &
 newFrame
 &
@@ -5658,9 +5658,9 @@ GetPresContext
 )
 aFrameIn
 eLeaf
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 )
 ;
 if
@@ -5861,7 +5861,7 @@ GetPrevNextBidiLevels
 aNode
 aContentOffset
 aHint
-PR_FALSE
+false
 )
 ;
 if
@@ -5965,7 +5965,7 @@ if
 mMaintainRange
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -5974,7 +5974,7 @@ aContent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt8
@@ -5997,7 +5997,7 @@ index
 ]
 )
 return
-PR_FALSE
+false
 ;
 nsINode
 *
@@ -6147,7 +6147,7 @@ relToEnd
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 mDomSelections
@@ -6169,7 +6169,7 @@ eDirNext
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -6532,13 +6532,13 @@ eSelectCharacter
 eDirNext
 offset
 0
-PR_FALSE
+false
 mLimiter
 !
 =
 nsnull
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -6581,13 +6581,13 @@ amount
 direction
 offset
 0
-PR_FALSE
+false
 mLimiter
 !
 =
 nsnull
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -6642,8 +6642,8 @@ offset
 offsets
 .
 offset
-PR_TRUE
-PR_FALSE
+true
+false
 offsets
 .
 associateWithNext
@@ -6794,7 +6794,7 @@ mSelectingTableCellMode
 ;
 mDragSelectingCells
 =
-PR_FALSE
+false
 ;
 mStartSelectedCell
 =
@@ -7100,7 +7100,7 @@ endif
 nsMouseEvent
 event
 (
-PR_FALSE
+false
 0
 nsnull
 nsMouseEvent
@@ -7149,7 +7149,7 @@ event
 .
 isShift
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7371,7 +7371,7 @@ mMouseDownState
 {
 mDragSelectingCells
 =
-PR_FALSE
+false
 ;
 PostReason
 (
@@ -8184,8 +8184,8 @@ offsets
 .
 offset
 aExtend
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -8244,7 +8244,7 @@ nsIDOMKeyEvent
 :
 :
 DOM_VK_DELETE
-PR_TRUE
+true
 eSelectCluster
 )
 ;
@@ -8264,7 +8264,7 @@ nsIDOMKeyEvent
 :
 :
 DOM_VK_BACK_SPACE
-PR_TRUE
+true
 eSelectCharacter
 )
 ;
@@ -8330,7 +8330,7 @@ nsIDOMKeyEvent
 :
 :
 DOM_VK_DELETE
-PR_TRUE
+true
 eSelectWord
 )
 ;
@@ -8342,7 +8342,7 @@ nsIDOMKeyEvent
 :
 :
 DOM_VK_BACK_SPACE
-PR_TRUE
+true
 eSelectWord
 )
 ;
@@ -8531,8 +8531,8 @@ rootContent
 0
 numChildren
 HINTLEFT
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -8586,7 +8586,7 @@ mChangesDuringBatching
 {
 mChangesDuringBatching
 =
-PR_FALSE
+false
 ;
 NotifySelectionListeners
 (
@@ -9495,7 +9495,7 @@ RemoveAllRanges
 }
 mDragSelectingCells
 =
-PR_TRUE
+true
 ;
 mSelectingTableCellMode
 =
@@ -9591,7 +9591,7 @@ TABLESELECTION_TABLE
 {
 mDragSelectingCells
 =
-PR_FALSE
+false
 ;
 mStartSelectedCell
 =
@@ -9661,7 +9661,7 @@ aTarget
 endif
 mDragSelectingCells
 =
-PR_TRUE
+true
 ;
 mStartSelectedCell
 =
@@ -9772,7 +9772,7 @@ childContent
 {
 mDragSelectingCells
 =
-PR_FALSE
+false
 ;
 return
 SelectBlockOfCells
@@ -9792,7 +9792,7 @@ mStartSelectedCell
 ;
 mDragSelectingCells
 =
-PR_FALSE
+false
 ;
 mStartSelectedCell
 =
@@ -10246,7 +10246,7 @@ startRowIndex
 startColIndex
 endRowIndex
 endColIndex
-PR_TRUE
+true
 )
 ;
 }
@@ -10723,7 +10723,7 @@ aStartRowIndex
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 PRInt32
@@ -10733,7 +10733,7 @@ aStartColumnIndex
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 result
@@ -10914,7 +10914,7 @@ aStartRowIndex
 aStartColumnIndex
 aEndRowIndex
 aEndColumnIndex
-PR_FALSE
+false
 )
 ;
 }
@@ -10945,7 +10945,7 @@ aStartRowIndex
 aStartColumnIndex
 aEndRowIndex
 aEndColumnIndex
-PR_TRUE
+true
 )
 ;
 }
@@ -11714,7 +11714,7 @@ aContent1
 aContent2
 )
 return
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -12092,7 +12092,7 @@ NS_ERROR_NULL_POINTER
 *
 aDidAddRange
 =
-PR_FALSE
+false
 ;
 *
 aOutIndex
@@ -12189,7 +12189,7 @@ tableMode
 *
 aDidAddRange
 =
-PR_TRUE
+true
 ;
 return
 AddItem
@@ -12695,8 +12695,8 @@ mAncestorLimiter
 0
 0
 HINTLEFT
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -13028,7 +13028,7 @@ aMouseEvent
 {
 mDelayedMouseEventValid
 =
-PR_TRUE
+true
 ;
 mDelayedMouseEvent
 =
@@ -13045,7 +13045,7 @@ nsnull
 else
 mDelayedMouseEventValid
 =
-PR_FALSE
+false
 ;
 }
 nsMouseEvent
@@ -14475,7 +14475,7 @@ aItem
 EndOffset
 (
 )
-PR_FALSE
+false
 &
 startIndex
 &
@@ -15231,11 +15231,11 @@ aEndOffset
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -17225,7 +17225,7 @@ aContent
 aContentOffset
 +
 aContentLength
-PR_FALSE
+false
 &
 overlappingRanges
 )
@@ -17603,7 +17603,7 @@ i
 ]
 .
 mRange
-PR_TRUE
+true
 )
 ;
 if
@@ -17655,7 +17655,7 @@ else
 *
 aCanCacheFrameOffset
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -18543,7 +18543,7 @@ SELECTION_NORMAL
 )
 SetInterlinePosition
 (
-PR_TRUE
+true
 )
 ;
 nsRefPtr
@@ -18593,7 +18593,7 @@ selectFrames
 (
 presContext
 aRange
-PR_TRUE
+true
 )
 ;
 if
@@ -18796,7 +18796,7 @@ selectFrames
 (
 presContext
 aRange
-PR_FALSE
+false
 )
 ;
 nsCOMArray
@@ -18813,7 +18813,7 @@ beginNode
 beginOffset
 endNode
 endOffset
-PR_TRUE
+true
 &
 affectedRanges
 )
@@ -18851,7 +18851,7 @@ affectedRanges
 [
 i
 ]
-PR_TRUE
+true
 )
 ;
 }
@@ -18900,8 +18900,8 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -19199,7 +19199,7 @@ selectFrames
 (
 presContext
 range
-PR_TRUE
+true
 )
 ;
 if
@@ -19415,7 +19415,7 @@ cnt
 *
 aIsCollapsed
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -19432,7 +19432,7 @@ cnt
 *
 aIsCollapsed
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -19720,7 +19720,7 @@ selectFrames
 (
 presContext
 mAnchorFocusRange
-PR_FALSE
+false
 )
 ;
 CopyRangeToAnchorFocus
@@ -19732,7 +19732,7 @@ selectFrames
 (
 presContext
 mAnchorFocusRange
-PR_TRUE
+true
 )
 ;
 }
@@ -20144,7 +20144,7 @@ selectFrames
 (
 presContext
 difRange
-PR_TRUE
+true
 )
 ;
 res
@@ -20208,7 +20208,7 @@ selectFrames
 (
 presContext
 range
-PR_TRUE
+true
 )
 ;
 res
@@ -20319,7 +20319,7 @@ selectFrames
 (
 presContext
 difRange
-PR_FALSE
+false
 )
 ;
 difRange
@@ -20345,7 +20345,7 @@ selectFrames
 (
 presContext
 difRange
-PR_TRUE
+true
 )
 ;
 }
@@ -20489,7 +20489,7 @@ selectFrames
 (
 presContext
 difRange
-PR_FALSE
+false
 )
 ;
 }
@@ -20517,7 +20517,7 @@ selectFrames
 (
 presContext
 range
-PR_TRUE
+true
 )
 ;
 }
@@ -20615,7 +20615,7 @@ selectFrames
 (
 presContext
 difRange
-PR_FALSE
+false
 )
 ;
 difRange
@@ -20641,7 +20641,7 @@ selectFrames
 (
 presContext
 difRange
-PR_TRUE
+true
 )
 ;
 }
@@ -20764,7 +20764,7 @@ selectFrames
 (
 presContext
 difRange
-PR_FALSE
+false
 )
 ;
 }
@@ -20792,7 +20792,7 @@ selectFrames
 (
 presContext
 range
-PR_TRUE
+true
 )
 ;
 }
@@ -20883,7 +20883,7 @@ selectFrames
 (
 presContext
 difRange
-PR_TRUE
+true
 )
 ;
 res
@@ -21281,7 +21281,7 @@ NS_ERROR_NULL_POINTER
 *
 aYes
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -21381,7 +21381,7 @@ node
 0
 node
 nodeLength
-PR_FALSE
+false
 &
 overlappingRanges
 )
@@ -21414,7 +21414,7 @@ aAllowPartial
 *
 aYes
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -21428,7 +21428,7 @@ isData
 *
 aYes
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -21493,7 +21493,7 @@ nodeEndsAfterRange
 *
 aYes
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -23544,7 +23544,7 @@ GetPrimaryFrameForFocusNode
 &
 focusFrame
 nsnull
-PR_FALSE
+false
 )
 ;
 if
@@ -23683,7 +23683,7 @@ GetPrevNextBidiLevels
 (
 focusContent
 focusOffset
-PR_FALSE
+false
 )
 ;
 levelBefore

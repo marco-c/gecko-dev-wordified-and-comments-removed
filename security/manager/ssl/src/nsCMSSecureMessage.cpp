@@ -297,7 +297,7 @@ get
 )
 )
 certUsageEmailRecipient
-PR_TRUE
+true
 ctx
 )
 ;
@@ -878,7 +878,7 @@ NSS_CMSContentInfo_SetContent_Data
 cmsMsg
 cinfo
 0
-PR_FALSE
+false
 )
 ;
 if
@@ -1289,7 +1289,7 @@ arena
 PORT_FreeArena
 (
 arena
-PR_FALSE
+false
 )
 ;
 return

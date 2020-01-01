@@ -922,7 +922,7 @@ argc
 *
 aIsInterval
 =
-PR_FALSE
+false
 ;
 }
 switch

@@ -94,7 +94,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_TRUE
+true
 }
 {
 &
@@ -103,7 +103,7 @@ nsGkAtoms
 :
 target
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -545,7 +545,7 @@ eTabFocus_linksMask
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -561,7 +561,7 @@ aTabIndex
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -776,7 +776,7 @@ aURI
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 void

@@ -779,7 +779,7 @@ NS_GET_IID
 (
 nsISupports
 )
-PR_FALSE
+false
 &
 v
 getter_AddRefs

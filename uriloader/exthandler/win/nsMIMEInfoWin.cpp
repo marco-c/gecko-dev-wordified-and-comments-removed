@@ -396,7 +396,7 @@ GetDllLaunchInfo
 executable
 locFile
 args
-PR_FALSE
+false
 )
 )
 return
@@ -1305,7 +1305,7 @@ rv
 NS_NewLocalFile
 (
 aCommandHandler
-PR_TRUE
+true
 getter_AddRefs
 (
 locfile
@@ -1320,7 +1320,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 aApp
 =
@@ -1349,7 +1349,7 @@ if
 aApp
 )
 return
-PR_FALSE
+false
 ;
 aApp
 -
@@ -1360,7 +1360,7 @@ locfile
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1409,7 +1409,7 @@ if
 appKey
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 applicationsPath
@@ -1459,7 +1459,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 value
@@ -1491,7 +1491,7 @@ value
 1
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 dummy
@@ -1516,7 +1516,7 @@ dummy
 )
 )
 return
-PR_FALSE
+false
 ;
 appKey
 -
@@ -1609,7 +1609,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 appFilesystemCommand
@@ -1643,18 +1643,18 @@ appFilesystemCommand
 )
 )
 return
-PR_FALSE
+false
 ;
 applicationPath
 =
 appFilesystemCommand
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1686,7 +1686,7 @@ aDll
 aFile
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1706,7 +1706,7 @@ if
 localDll
 )
 return
-PR_FALSE
+false
 ;
 nsString
 appExeName
@@ -1748,7 +1748,7 @@ if
 appKey
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 applicationsPath
@@ -1798,7 +1798,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 value
@@ -1834,7 +1834,7 @@ value
 1
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 dummy
@@ -1859,7 +1859,7 @@ dummy
 )
 )
 return
-PR_FALSE
+false
 ;
 appKey
 -
@@ -1952,7 +1952,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 appFilesystemCommand
@@ -2000,7 +2000,7 @@ bufLength
 0
 )
 return
-PR_FALSE
+false
 ;
 nsAutoArrayPtr
 <
@@ -2021,7 +2021,7 @@ if
 destination
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2040,7 +2040,7 @@ bufLength
 )
 )
 return
-PR_FALSE
+false
 ;
 appFilesystemCommand
 =
@@ -2130,7 +2130,7 @@ index
 kNotFound
 )
 return
-PR_FALSE
+false
 ;
 nsString
 target
@@ -2157,11 +2157,11 @@ args
 params
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2210,7 +2210,7 @@ if
 appKey
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 appProgId
@@ -2285,7 +2285,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 appFilesystemCommand
@@ -2319,18 +2319,18 @@ appFilesystemCommand
 )
 )
 return
-PR_FALSE
+false
 ;
 applicationPath
 =
 appFilesystemCommand
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2443,7 +2443,7 @@ appList
 AppendElement
 (
 aApp
-PR_FALSE
+false
 )
 ;
 trackList
@@ -2513,11 +2513,11 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -2662,7 +2662,7 @@ IsEmpty
 {
 extKnown
 =
-PR_TRUE
+true
 ;
 nsCAutoString
 mimeType
@@ -2764,7 +2764,7 @@ fileExt
 ;
 extKnown
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2885,7 +2885,7 @@ GetProgIDVerbCommandHandler
 (
 appProgId
 appFilesystemCommand
-PR_FALSE
+false
 )
 &
 &
@@ -3026,7 +3026,7 @@ GetAppsVerbCommandHandler
 (
 appName
 appFilesystemCommand
-PR_FALSE
+false
 )
 |
 |
@@ -3166,7 +3166,7 @@ GetProgIDVerbCommandHandler
 (
 appProgId
 appFilesystemCommand
-PR_FALSE
+false
 )
 |
 |
@@ -3363,7 +3363,7 @@ GetAppsVerbCommandHandler
 (
 appValue
 appFilesystemCommand
-PR_FALSE
+false
 )
 |
 |
@@ -3522,7 +3522,7 @@ GetProgIDVerbCommandHandler
 (
 appProgId
 appFilesystemCommand
-PR_FALSE
+false
 )
 |
 |
@@ -3737,7 +3737,7 @@ GetAppsVerbCommandHandler
 (
 appName
 appFilesystemCommand
-PR_FALSE
+false
 )
 |
 |
@@ -3870,7 +3870,7 @@ GetAppsVerbCommandHandler
 (
 appName
 appFilesystemCommand
-PR_FALSE
+false
 )
 |
 |
@@ -4009,7 +4009,7 @@ GetAppsVerbCommandHandler
 (
 appName
 appFilesystemCommand
-PR_FALSE
+false
 )
 |
 |

@@ -164,9 +164,9 @@ field
 )
 \
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 )
 #
 define

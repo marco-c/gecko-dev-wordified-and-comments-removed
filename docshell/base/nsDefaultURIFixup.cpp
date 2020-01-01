@@ -1182,7 +1182,7 @@ bAsciiURI
 )
 bUseNonDefaultCharsetForURI
 =
-PR_TRUE
+true
 ;
 }
 rv
@@ -1578,7 +1578,7 @@ GetRootBranch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1603,7 +1603,7 @@ true
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1630,7 +1630,7 @@ isHttp
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCAutoString
@@ -1655,7 +1655,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCAutoString
@@ -1922,14 +1922,14 @@ oldHost
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1942,7 +1942,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aURI
@@ -1954,7 +1954,7 @@ newHost
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2064,7 +2064,7 @@ iter
 {
 likelyFTP
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2252,7 +2252,7 @@ Last
 {
 attemptFixup
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -2277,7 +2277,7 @@ First
 {
 attemptFixup
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -2320,7 +2320,7 @@ NS_LossyConvertUTF16toASCII
 (
 in
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 filePath
@@ -2335,7 +2335,7 @@ rv
 NS_NewLocalFile
 (
 in
-PR_FALSE
+false
 getter_AddRefs
 (
 filePath
@@ -2488,7 +2488,7 @@ iterEnd
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2517,7 +2517,7 @@ iter
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -2534,7 +2534,7 @@ iterEnd
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -2595,7 +2595,7 @@ break
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -2617,11 +2617,11 @@ digitCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2686,7 +2686,7 @@ iter
 0x00FF
 )
 return
-PR_TRUE
+true
 ;
 +
 +
@@ -2694,7 +2694,7 @@ iter
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 const

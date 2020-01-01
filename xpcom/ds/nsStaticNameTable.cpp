@@ -57,7 +57,7 @@ aKeyStr
 :
 mIsUnichar
 (
-PR_FALSE
+false
 )
 {
 mKeyStr
@@ -77,7 +77,7 @@ aKeyStr
 :
 mIsUnichar
 (
-PR_TRUE
+true
 )
 {
 mKeyStr
@@ -596,7 +596,7 @@ if
 mNameArray
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -623,7 +623,7 @@ ops
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -810,7 +810,7 @@ index
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 PRInt32

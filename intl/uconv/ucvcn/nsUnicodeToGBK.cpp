@@ -355,11 +355,11 @@ idx
 0x30
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsUnicodeToGBK
@@ -455,7 +455,7 @@ aChar
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -513,11 +513,11 @@ aOutLen
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -551,7 +551,7 @@ aChar
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -641,11 +641,11 @@ aOutLen
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -664,7 +664,7 @@ aOut
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -759,7 +759,7 @@ mUtil
 UnicodeToGBKChar
 (
 unicode
-PR_FALSE
+false
 &
 byte1
 &

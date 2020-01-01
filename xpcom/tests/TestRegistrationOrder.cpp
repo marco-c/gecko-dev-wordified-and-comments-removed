@@ -709,7 +709,7 @@ nsDependentCString
 (
 basename
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 f

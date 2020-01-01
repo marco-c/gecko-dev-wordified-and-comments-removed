@@ -551,7 +551,7 @@ aSelCon
 :
 mWasVisible
 (
-PR_FALSE
+false
 )
 mCaret
 (
@@ -581,7 +581,7 @@ mCaret
 >
 SetCaretVisible
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -603,7 +603,7 @@ mCaret
 >
 SetCaretVisible
 (
-PR_TRUE
+true
 )
 ;
 }

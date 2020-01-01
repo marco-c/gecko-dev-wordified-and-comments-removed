@@ -337,7 +337,7 @@ aProps
 :
 mHaveMultiLine
 (
-PR_FALSE
+false
 )
 mState
 (
@@ -374,8 +374,8 @@ mKey
 Trim
 (
 trimThese
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 PRUnichar
@@ -418,8 +418,8 @@ mValue
 Trim
 (
 trimThese
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 if
@@ -754,7 +754,7 @@ mHaveMultiLine
 )
 mHaveMultiLine
 =
-PR_FALSE
+false
 ;
 else
 mValue
@@ -788,7 +788,7 @@ mMultiLineCanSkipN
 {
 mMultiLineCanSkipN
 =
-PR_FALSE
+false
 ;
 tokenStart
 =
@@ -821,7 +821,7 @@ oldValue
 ;
 mHaveMultiLine
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -852,7 +852,7 @@ t
 {
 mMultiLineCanSkipN
 =
-PR_FALSE
+false
 ;
 tokenStart
 =
@@ -865,7 +865,7 @@ break
 }
 mHaveMultiLine
 =
-PR_FALSE
+false
 ;
 tokenStart
 =
@@ -1030,7 +1030,7 @@ n
 :
 mHaveMultiLine
 =
-PR_TRUE
+true
 ;
 mMultiLineCanSkipN
 =
@@ -1209,7 +1209,7 @@ tokenStart
 cur
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1250,7 +1250,7 @@ break
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_METHOD

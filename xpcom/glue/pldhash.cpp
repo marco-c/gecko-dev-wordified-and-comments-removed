@@ -867,7 +867,7 @@ capacity
 PL_DHASH_SIZE_LIMIT
 )
 return
-PR_FALSE
+false
 ;
 table
 -
@@ -967,7 +967,7 @@ table
 entryStore
 )
 return
-PR_FALSE
+false
 ;
 memset
 (
@@ -1010,7 +1010,7 @@ table
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -2336,7 +2336,7 @@ newCapacity
 PL_DHASH_SIZE_LIMIT
 )
 return
-PR_FALSE
+false
 ;
 entrySize
 =
@@ -2377,7 +2377,7 @@ if
 newEntryStore
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -2561,7 +2561,7 @@ oldEntryStore
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PLDHashEntryHdr
@@ -3283,7 +3283,7 @@ i
 ;
 didRemove
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -3347,7 +3347,7 @@ entry
 ;
 didRemove
 =
-PR_TRUE
+true
 ;
 }
 if

@@ -47,7 +47,7 @@ breakLocator
 memset
 (
 aBreakBefore
-PR_FALSE
+false
 aLength
 *
 sizeof
@@ -132,7 +132,7 @@ aBreakBefore
 offset
 ]
 =
-PR_TRUE
+true
 ;
 position
 =

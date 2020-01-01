@@ -652,7 +652,7 @@ twice
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -719,11 +719,11 @@ entrySize
 0
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -963,7 +963,7 @@ key
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 template

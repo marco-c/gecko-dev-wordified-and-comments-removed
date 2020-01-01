@@ -193,7 +193,7 @@ OSMesaLibrary
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 mOSMesaLibrary
 (
@@ -329,7 +329,7 @@ if
 mInitialized
 )
 return
-PR_TRUE
+true
 ;
 nsAdoptingCString
 osmesalib
@@ -356,7 +356,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mOSMesaLibrary
@@ -406,7 +406,7 @@ library
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 LibrarySymbolLoader
@@ -558,15 +558,15 @@ libary
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
-PR_TRUE
+true
 ;
 }
 class
@@ -588,7 +588,7 @@ aFormat
 GLContext
 (
 aFormat
-PR_TRUE
+true
 nsnull
 )
 mThebesSurface
@@ -727,7 +727,7 @@ ImageFormatRGB24
 ;
 format_accepted
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -754,7 +754,7 @@ ImageFormatARGB32
 ;
 format_accepted
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -778,7 +778,7 @@ OSMesa
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mThebesSurface
@@ -819,7 +819,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mContext
@@ -855,7 +855,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -866,7 +866,7 @@ MakeCurrent
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -876,7 +876,7 @@ SetupLookupFunction
 )
 )
 return
-PR_FALSE
+false
 ;
 sOSMesaLibrary
 .
@@ -892,7 +892,7 @@ InitWithPrefix
 "
 gl
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -967,7 +967,7 @@ sOSMesaLibrary
 fGetProcAddress
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

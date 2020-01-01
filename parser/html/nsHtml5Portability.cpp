@@ -498,7 +498,7 @@ string
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -585,7 +585,7 @@ end
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUnichar
@@ -627,7 +627,7 @@ strChar
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -640,7 +640,7 @@ strPtr
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -665,7 +665,7 @@ string
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -700,7 +700,7 @@ string
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return

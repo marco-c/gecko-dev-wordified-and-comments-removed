@@ -568,7 +568,7 @@ mWatchID
 }
 mReferencingImage
 =
-PR_FALSE
+false
 ;
 HaveNewDocument
 (
@@ -773,7 +773,7 @@ nsnull
 ;
 mReferencingImage
 =
-PR_FALSE
+false
 ;
 }
 bool

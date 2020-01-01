@@ -165,7 +165,7 @@ aChromeFlag
 *
 aVisible
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -208,7 +208,7 @@ aChromeFlag
 *
 aVisible
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -790,7 +790,7 @@ aVisible
 *
 aVisible
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -882,7 +882,7 @@ Scrollbar_Never
 *
 aVisible
 =
-PR_FALSE
+false
 ;
 }
 }

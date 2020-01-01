@@ -4660,7 +4660,7 @@ float
 0
 .
 947368
-PR_TRUE
+true
 "
 ISO
 -
@@ -4683,7 +4683,7 @@ float
 0
 .
 947368
-PR_TRUE
+true
 "
 windows
 -

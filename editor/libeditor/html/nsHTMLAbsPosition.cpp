@@ -622,7 +622,7 @@ nsEditProperty
 :
 cssZIndex
 zIndexStr
-PR_FALSE
+false
 )
 ;
 return
@@ -1021,7 +1021,7 @@ NS_LITERAL_STRING
 mozGrabber
 "
 )
-PR_FALSE
+false
 aReturn
 )
 ;
@@ -1057,7 +1057,7 @@ mousedown
 "
 )
 mEventListener
-PR_FALSE
+false
 )
 ;
 return
@@ -1475,7 +1475,7 @@ mPositionedObjectHeight
 ;
 mIsMoving
 =
-PR_TRUE
+true
 ;
 return
 res
@@ -1624,8 +1624,8 @@ mousemove
 "
 )
 mMouseMotionListenerP
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ASSERTION
@@ -1647,7 +1647,7 @@ listener
 }
 mGrabberClicked
 =
-PR_TRUE
+true
 ;
 return
 res
@@ -1776,7 +1776,7 @@ mousemove
 "
 )
 mMouseMotionListenerP
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -1802,11 +1802,11 @@ nsnull
 ;
 mGrabberClicked
 =
-PR_FALSE
+false
 ;
 mIsMoving
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1935,7 +1935,7 @@ nsEditProperty
 :
 cssTop
 newY
-PR_FALSE
+false
 )
 ;
 mHTMLCSSUtils
@@ -1949,7 +1949,7 @@ nsEditProperty
 :
 cssLeft
 newX
-PR_FALSE
+false
 )
 ;
 mPositionedObjectX
@@ -2108,7 +2108,7 @@ NS_LITERAL_STRING
 absolute
 "
 )
-PR_FALSE
+false
 )
 ;
 AddPositioningOffset
@@ -2249,7 +2249,7 @@ cssPosition
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 mHTMLCSSUtils
@@ -2265,7 +2265,7 @@ cssTop
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 mHTMLCSSUtils
@@ -2281,7 +2281,7 @@ cssLeft
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 mHTMLCSSUtils
@@ -2297,7 +2297,7 @@ cssZIndex
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -2325,7 +2325,7 @@ cssWidth
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 mHTMLCSSUtils
@@ -2341,7 +2341,7 @@ cssHeight
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -2538,7 +2538,7 @@ nsEditProperty
 :
 cssLeft
 aX
-PR_FALSE
+false
 )
 ;
 mHTMLCSSUtils
@@ -2552,7 +2552,7 @@ nsEditProperty
 :
 cssTop
 aY
-PR_FALSE
+false
 )
 ;
 return

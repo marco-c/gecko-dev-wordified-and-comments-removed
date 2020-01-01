@@ -2790,7 +2790,7 @@ if
 entry
 )
 return
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -2849,7 +2849,7 @@ oldLink
 obj
 ;
 return
-PR_TRUE
+true
 ;
 }
 struct

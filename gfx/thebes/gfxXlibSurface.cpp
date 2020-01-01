@@ -100,7 +100,7 @@ visual
 :
 mPixmapTaken
 (
-PR_FALSE
+false
 )
 mDisplay
 (
@@ -178,7 +178,7 @@ size
 :
 mPixmapTaken
 (
-PR_FALSE
+false
 )
 mDisplay
 (
@@ -269,7 +269,7 @@ size
 :
 mPixmapTaken
 (
-PR_FALSE
+false
 )
 mDisplay
 (
@@ -355,7 +355,7 @@ csurf
 :
 mPixmapTaken
 (
-PR_FALSE
+false
 )
 mSize
 (
@@ -423,7 +423,7 @@ csurf
 Init
 (
 csurf
-PR_TRUE
+true
 )
 ;
 }
@@ -584,7 +584,7 @@ Pixmap
 ;
 mPixmapTaken
 =
-PR_TRUE
+true
 ;
 RecordMemoryUsed
 (
@@ -632,7 +632,7 @@ Pixmap
 ;
 mPixmapTaken
 =
-PR_FALSE
+false
 ;
 RecordMemoryFreed
 (
@@ -1267,7 +1267,7 @@ aVisualForColormap
 defaultVisual
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1285,7 +1285,7 @@ c_class
 TrueColor
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1364,7 +1364,7 @@ if
 codes
 )
 return
-PR_FALSE
+false
 ;
 XESetCloseDisplay
 (
@@ -1483,7 +1483,7 @@ entry
 mVisual
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -1551,7 +1551,7 @@ aVisualForColormap
 aVisual
 ;
 return
-PR_TRUE
+true
 ;
 }
 int
@@ -1629,7 +1629,7 @@ if
 mSurfaceValid
 )
 return
-PR_FALSE
+false
 ;
 XRenderPictFormat
 *

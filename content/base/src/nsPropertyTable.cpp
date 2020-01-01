@@ -1199,7 +1199,7 @@ entry
 )
 )
 return
-PR_FALSE
+false
 ;
 void
 *
@@ -1241,7 +1241,7 @@ mDtorData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

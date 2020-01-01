@@ -426,7 +426,7 @@ nsGkAtoms
 :
 sortDirection
 aDirection
-PR_TRUE
+true
 )
 ;
 aColumn
@@ -445,7 +445,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -563,7 +563,7 @@ nsGkAtoms
 :
 :
 sortDirection
-PR_TRUE
+true
 )
 ;
 childContent
@@ -576,7 +576,7 @@ nsGkAtoms
 :
 :
 sortActive
-PR_TRUE
+true
 )
 ;
 }

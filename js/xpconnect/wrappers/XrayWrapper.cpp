@@ -1738,7 +1738,7 @@ NS_GET_IID
 (
 nsIURI
 )
-PR_TRUE
+true
 vp
 nsnull
 )
@@ -2169,7 +2169,7 @@ NS_GET_IID
 (
 nsIPrincipal
 )
-PR_TRUE
+true
 vp
 nsnull
 )

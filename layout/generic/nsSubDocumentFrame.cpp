@@ -441,19 +441,19 @@ aContext
 )
 mIsInline
 (
-PR_FALSE
+false
 )
 mPostedReflowCallback
 (
-PR_FALSE
+false
 )
 mDidCreateDoc
 (
-PR_FALSE
+false
 )
 mCallingShow
 (
-PR_FALSE
+false
 )
 {
 }
@@ -620,9 +620,9 @@ mIsInline
 =
 frameElem
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -664,7 +664,7 @@ nsContainerFrame
 CreateViewForFrame
 (
 this
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -842,7 +842,7 @@ this
 ;
 mCallingShow
 =
-PR_TRUE
+true
 ;
 bool
 didCreateDoc
@@ -890,7 +890,7 @@ return
 }
 mCallingShow
 =
-PR_FALSE
+false
 ;
 mDidCreateDoc
 =
@@ -2548,7 +2548,7 @@ nsPoint
 )
 innerSize
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -2595,7 +2595,7 @@ this
 ;
 mPostedReflowCallback
 =
-PR_TRUE
+true
 ;
 }
 NS_FRAME_TRACE
@@ -2679,7 +2679,7 @@ IsAlive
 {
 mPostedReflowCallback
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2687,11 +2687,11 @@ else
 {
 mPostedReflowCallback
 =
-PR_FALSE
+false
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2704,7 +2704,7 @@ ReflowCallbackCanceled
 {
 mPostedReflowCallback
 =
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -3270,7 +3270,7 @@ this
 ;
 mPostedReflowCallback
 =
-PR_FALSE
+false
 ;
 }
 HideViewer
@@ -3723,7 +3723,7 @@ nsnull
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -3898,7 +3898,7 @@ InsertChild
 aParent
 aSibling
 nsnull
-PR_TRUE
+true
 )
 ;
 aSibling
@@ -4259,7 +4259,7 @@ nsnull
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -4571,7 +4571,7 @@ InsertChild
 outerView
 innerView
 nsnull
-PR_TRUE
+true
 )
 ;
 return

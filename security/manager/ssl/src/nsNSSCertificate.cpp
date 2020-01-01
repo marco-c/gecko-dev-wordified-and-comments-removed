@@ -356,7 +356,7 @@ NSSCleanupAutoPtrClass_WithParam
 PLArenaPool
 PORT_FreeArena
 FalseParam
-PR_FALSE
+false
 )
 NSSCleanupAutoPtrClass
 (
@@ -538,7 +538,7 @@ isAlreadyShutDown
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -550,7 +550,7 @@ certDER
 derLen
 )
 return
-PR_FALSE
+false
 ;
 CERTCertificate
 *
@@ -568,7 +568,7 @@ if
 aCert
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -596,7 +596,7 @@ mCert
 aCert
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsNSSCertificate
@@ -615,7 +615,7 @@ nsnull
 )
 mPermDelete
 (
-PR_FALSE
+false
 )
 mCertType
 (
@@ -696,7 +696,7 @@ nsnull
 )
 mPermDelete
 (
-PR_FALSE
+false
 )
 mCertType
 (
@@ -1011,7 +1011,7 @@ mCert
 -
 >
 slot
-PR_TRUE
+true
 ctx
 )
 )
@@ -1023,7 +1023,7 @@ NS_ERROR_FAILURE
 }
 mPermDelete
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2129,7 +2129,7 @@ x509Proxy
 >
 GetUsagesString
 (
-PR_FALSE
+false
 &
 tempInt
 temp1
@@ -3376,7 +3376,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -3438,7 +3438,7 @@ testAddr
 *
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4154,7 +4154,7 @@ array
 AppendElement
 (
 cert
-PR_FALSE
+false
 )
 ;
 }
@@ -5284,7 +5284,7 @@ NSS_CMSSignedData_CreateCertsOnly
 (
 cmsg
 mCert
-PR_FALSE
+false
 )
 ;
 NSSCMSSignedDataCleaner
@@ -6048,7 +6048,7 @@ CERT_VerifyCertificateNow
 (
 defaultcertdb
 mCert
-PR_TRUE
+true
 nss_usage
 NULL
 NULL

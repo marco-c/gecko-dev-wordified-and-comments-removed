@@ -405,7 +405,7 @@ nsFormControlFrame
 RegUnRegAccessKey
 (
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -703,7 +703,7 @@ nsFormControlFrame
 RegUnRegAccessKey
 (
 this
-PR_TRUE
+true
 )
 ;
 }

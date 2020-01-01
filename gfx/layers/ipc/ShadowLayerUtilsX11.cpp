@@ -155,7 +155,7 @@ SurfaceDescriptor
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 SurfaceDescriptorX11
@@ -373,7 +373,7 @@ UsingXCompositing
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 gfxPlatform
@@ -437,7 +437,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 gfxXlibSurface
@@ -473,7 +473,7 @@ bufferX
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 already_AddRefed
@@ -550,7 +550,7 @@ type
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -638,7 +638,7 @@ type
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return

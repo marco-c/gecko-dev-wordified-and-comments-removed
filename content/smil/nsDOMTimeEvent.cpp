@@ -56,7 +56,7 @@ aEvent
 new
 nsUIEvent
 (
-PR_FALSE
+false
 0
 0
 )
@@ -73,14 +73,14 @@ aEvent
 {
 mEventIsInternal
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 mEvent
 -
@@ -310,8 +310,8 @@ nsDOMEvent
 InitEvent
 (
 aTypeArg
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS

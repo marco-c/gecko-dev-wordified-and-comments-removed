@@ -104,7 +104,7 @@ PRIVATE_KEY
 PK11_DeleteTokenPrivateKey
 (
 mPrivateKey
-PR_TRUE
+true
 )
 ;
 break

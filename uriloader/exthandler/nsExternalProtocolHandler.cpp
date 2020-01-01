@@ -233,7 +233,7 @@ NS_OK
 )
 mWasOpened
 (
-PR_FALSE
+false
 )
 {
 }
@@ -648,7 +648,7 @@ NS_ERROR_ALREADY_OPENED
 ;
 mWasOpened
 =
-PR_TRUE
+true
 ;
 return
 OpenURL
@@ -923,7 +923,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1117,7 +1117,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1416,7 +1416,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

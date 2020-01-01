@@ -1875,7 +1875,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 windowToCheck
-PR_TRUE
+true
 getter_AddRefs
 (
 focusedWindow
@@ -1938,7 +1938,7 @@ IsHTML
 {
 isLink
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2192,7 +2192,7 @@ nsContentUtils
 DispatchXULCommand
 (
 handlerElement
-PR_TRUE
+true
 nsnull
 nsnull
 isControl
@@ -2498,7 +2498,7 @@ mDetail
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -2545,7 +2545,7 @@ cAllModifiers
 0
 )
 return
-PR_TRUE
+true
 ;
 PRUint16
 button
@@ -2576,7 +2576,7 @@ mDetail
 )
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 clickcount
@@ -2606,7 +2606,7 @@ mMisc
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 ModifiersMatchMask
@@ -4550,7 +4550,7 @@ cMeta
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4601,7 +4601,7 @@ cShift
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4648,7 +4648,7 @@ cAlt
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -4695,10 +4695,10 @@ cControl
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

@@ -562,7 +562,7 @@ rv
 ;
 sInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -692,7 +692,7 @@ NS_OK
 ;
 sTimerOn
 =
-PR_TRUE
+true
 ;
 return
 sTimer
@@ -727,7 +727,7 @@ return
 ;
 sTimerOn
 =
-PR_FALSE
+false
 ;
 sTimer
 -

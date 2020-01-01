@@ -175,7 +175,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 double
@@ -221,7 +221,7 @@ Length
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -245,7 +245,7 @@ original
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aString
@@ -277,7 +277,7 @@ original
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -315,11 +315,11 @@ original
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -349,7 +349,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -477,7 +477,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -498,7 +498,7 @@ index
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsDependentSubstring
@@ -535,7 +535,7 @@ ec
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aString
@@ -572,7 +572,7 @@ original
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aSec
@@ -582,7 +582,7 @@ s
 fraction
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -641,7 +641,7 @@ original
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -675,7 +675,7 @@ original
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aString
@@ -705,7 +705,7 @@ original
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -727,7 +727,7 @@ original
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aTime
@@ -741,7 +741,7 @@ ss
 fraction
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -836,7 +836,7 @@ ec
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -854,7 +854,7 @@ aFraction
 fraction
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -900,7 +900,7 @@ hh
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -934,7 +934,7 @@ original
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aString
@@ -964,7 +964,7 @@ original
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aTime
@@ -976,7 +976,7 @@ hh
 seconds
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1006,7 +1006,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -1027,7 +1027,7 @@ index
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsDependentSubstring
@@ -1064,7 +1064,7 @@ ec
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aString
@@ -1080,7 +1080,7 @@ aHour
 u
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1131,7 +1131,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1188,7 +1188,7 @@ ec
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 aString
@@ -1207,18 +1207,18 @@ u
 60
 )
 return
-PR_FALSE
+false
 ;
 aSecond
 =
 u
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void

@@ -406,7 +406,7 @@ attr
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -530,7 +530,7 @@ SetAttr
 kNameSpaceID_None
 mAttrAtom
 resultStr
-PR_TRUE
+true
 )
 ;
 }
@@ -806,7 +806,7 @@ iter
 ;
 lastTokenRemoved
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -867,7 +867,7 @@ PRUnichar
 }
 lastTokenRemoved
 =
-PR_FALSE
+false
 ;
 output
 .
@@ -894,7 +894,7 @@ SetAttr
 kNameSpaceID_None
 mAttrAtom
 output
-PR_TRUE
+true
 )
 ;
 }
@@ -1026,7 +1026,7 @@ aToken
 *
 aResult
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1040,7 +1040,7 @@ aToken
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 return

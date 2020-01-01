@@ -514,7 +514,7 @@ aNodeValue
 Length
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -715,7 +715,7 @@ aData
 Length
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -892,7 +892,7 @@ aData
 Length
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -925,7 +925,7 @@ aData
 Length
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -948,7 +948,7 @@ aOffset
 aCount
 nsnull
 0
-PR_TRUE
+true
 )
 ;
 }
@@ -983,7 +983,7 @@ aData
 Length
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -1406,7 +1406,7 @@ haveMutationListeners
 nsMutationEvent
 mutation
 (
-PR_TRUE
+true
 NS_MUTATION_CHARACTERDATAMODIFIED
 )
 ;
@@ -2262,7 +2262,7 @@ this
 ;
 UpdateEditableState
 (
-PR_FALSE
+false
 )
 ;
 NS_POSTCONDITION
@@ -2550,7 +2550,7 @@ Truncate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2568,7 +2568,7 @@ aAttribute
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -2843,7 +2843,7 @@ aURI
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsINode
@@ -2962,7 +2962,7 @@ newContent
 CloneDataNode
 (
 mNodeInfo
-PR_FALSE
+false
 )
 ;
 if
@@ -2981,7 +2981,7 @@ newContent
 SetText
 (
 cutText
-PR_TRUE
+true
 )
 ;
 CharacterDataChangeInfo
@@ -3009,7 +3009,7 @@ cutStartOffset
 cutLength
 nsnull
 0
-PR_TRUE
+true
 aCloneAfterOriginal
 ?
 &
@@ -3073,7 +3073,7 @@ InsertChildAt
 (
 newContent
 insertionIndex
-PR_TRUE
+true
 )
 ;
 }
@@ -3537,7 +3537,7 @@ Is2b
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -3587,7 +3587,7 @@ ch
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -3596,7 +3596,7 @@ cp
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3846,7 +3846,7 @@ aAttribute
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 nsChangeHint

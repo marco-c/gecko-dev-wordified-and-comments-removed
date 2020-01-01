@@ -628,7 +628,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -782,7 +782,7 @@ i
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -877,10 +877,10 @@ this
 IsCell
 nsnull
 nsnull
-PR_FALSE
+false
 nsnull
 kNameSpaceID_XHTML
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE

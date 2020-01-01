@@ -391,7 +391,7 @@ NS_LITERAL_STRING
 "
 )
 )
-PR_TRUE
+true
 )
 ;
 return
@@ -710,7 +710,7 @@ NS_LITERAL_STRING
 auto
 "
 )
-PR_TRUE
+true
 )
 ;
 return
@@ -889,7 +889,7 @@ auto
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -968,7 +968,7 @@ aValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 mOrientType

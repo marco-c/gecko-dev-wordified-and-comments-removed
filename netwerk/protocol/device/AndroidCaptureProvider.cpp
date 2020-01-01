@@ -561,7 +561,7 @@ aNonBlock
 *
 aNonBlock
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

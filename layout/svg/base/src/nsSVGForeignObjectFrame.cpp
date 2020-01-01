@@ -146,7 +146,7 @@ aContext
 )
 mInReflow
 (
-PR_FALSE
+false
 )
 {
 AddStateBits
@@ -1746,7 +1746,7 @@ IsPercentage
 {
 reflow
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2512,7 +2512,7 @@ height
 ;
 mInReflow
 =
-PR_TRUE
+true
 ;
 nsHTMLReflowState
 reflowState
@@ -2669,7 +2669,7 @@ NS_FRAME_NO_MOVE_FRAME
 ;
 mInReflow
 =
-PR_FALSE
+false
 ;
 FlushDirtyRegion
 (

@@ -231,7 +231,7 @@ x
 valid
 (
 )
-PR_TRUE
+true
 )
 #
 define
@@ -248,7 +248,7 @@ x
 valid
 (
 )
-PR_FALSE
+false
 )
 #
 define

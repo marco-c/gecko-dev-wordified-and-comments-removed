@@ -1264,7 +1264,7 @@ AddObserver
 (
 this
 TOPIC_PLACES_MAINTENANCE
-PR_FALSE
+false
 )
 ;
 (
@@ -1277,7 +1277,7 @@ AddObserver
 (
 this
 TOPIC_PLACES_SHUTDOWN
-PR_FALSE
+false
 )
 ;
 }
@@ -1289,7 +1289,7 @@ mDBConn
 >
 Clone
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 mDBReadOnlyConn
@@ -1376,7 +1376,7 @@ history
 AddObserver
 (
 this
-PR_FALSE
+false
 )
 ;
 return
@@ -3225,7 +3225,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 rv
@@ -3636,7 +3636,7 @@ DECLARE_AND_ASSIGN_SCOPED_LAZY_STMT_RET
 (
 stmt
 mDBIsRealBookmark
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -3764,7 +3764,7 @@ return
 isBookmark
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -4666,7 +4666,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsNavHistory
@@ -4970,7 +4970,7 @@ NS_LITERAL_CSTRING
 tags
 "
 )
-PR_FALSE
+false
 EmptyCString
 (
 )
@@ -5074,7 +5074,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsAnnotationService
@@ -5526,7 +5526,7 @@ NS_LITERAL_CSTRING
 tags
 "
 )
-PR_FALSE
+false
 EmptyCString
 (
 )
@@ -5605,7 +5605,7 @@ aName
 EmptyString
 (
 )
-PR_TRUE
+true
 &
 localIndex
 aNewFolder
@@ -5664,7 +5664,7 @@ CreateContainerWithID
 aParent
 aName
 aContractId
-PR_FALSE
+false
 &
 aIndex
 aNewFolder
@@ -5934,7 +5934,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 if
@@ -6156,7 +6156,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 if
@@ -6217,7 +6217,7 @@ voidString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 nsCAutoString
@@ -7219,7 +7219,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -7691,7 +7691,7 @@ NS_LITERAL_CSTRING
 tags
 "
 )
-PR_FALSE
+false
 EmptyCString
 (
 )
@@ -7785,7 +7785,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 BookmarkData
@@ -8506,7 +8506,7 @@ title
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -8641,7 +8641,7 @@ serviceCID
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9013,7 +9013,7 @@ NS_LITERAL_CSTRING
 dateAdded
 "
 )
-PR_FALSE
+false
 nsPrintfCString
 (
 16
@@ -9181,7 +9181,7 @@ NS_LITERAL_CSTRING
 lastModified
 "
 )
-PR_FALSE
+false
 nsPrintfCString
 (
 16
@@ -9902,7 +9902,7 @@ NS_LITERAL_CSTRING
 title
 "
 )
-PR_FALSE
+false
 aTitle
 bookmark
 .
@@ -10206,7 +10206,7 @@ nsINavHistoryResultNode
 :
 :
 RESULT_TYPE_DYNAMIC_CONTAINER
-PR_TRUE
+true
 bookmark
 .
 serviceCID
@@ -10665,14 +10665,14 @@ TYPE_DYNAMIC_CONTAINER
 {
 readOnly
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 readOnly
 =
-PR_FALSE
+false
 ;
 GetFolderReadonly
 (
@@ -11412,7 +11412,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsNavHistory
@@ -11662,7 +11662,7 @@ NS_LITERAL_CSTRING
 uri
 "
 )
-PR_FALSE
+false
 spec
 bookmark
 .
@@ -12755,7 +12755,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -13095,7 +13095,7 @@ NS_LITERAL_CSTRING
 keyword
 "
 )
-PR_FALSE
+false
 NS_ConvertUTF16toUTF8
 (
 keyword
@@ -13210,7 +13210,7 @@ aKeyword
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -13297,7 +13297,7 @@ aKeyword
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -14363,7 +14363,7 @@ changeData
 .
 isAnnotation
 =
-PR_FALSE
+false
 ;
 changeData
 .
@@ -14642,7 +14642,7 @@ changeData
 .
 isAnnotation
 =
-PR_FALSE
+false
 ;
 changeData
 .
@@ -14791,7 +14791,7 @@ bookmark
 .
 id
 aName
-PR_TRUE
+true
 EmptyCString
 (
 )

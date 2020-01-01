@@ -82,11 +82,11 @@ aPrintSettings
 {
 m_closeProgress
 =
-PR_FALSE
+false
 ;
 m_processCanceled
 =
-PR_FALSE
+false
 ;
 m_pendingStateFlags
 =
@@ -145,7 +145,7 @@ notifyOnOpen
 *
 notifyOnOpen
 =
-PR_TRUE
+true
 ;
 m_observer
 =
@@ -321,7 +321,7 @@ forceClose
 {
 m_closeProgress
 =
-PR_TRUE
+true
 ;
 return
 OnStateChange
@@ -423,7 +423,7 @@ m_PrintSetting
 >
 SetIsCancelled
 (
-PR_TRUE
+true
 )
 ;
 m_processCanceled
@@ -438,7 +438,7 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
-PR_FALSE
+false
 )
 ;
 return

@@ -359,7 +359,7 @@ IsStaticAtom
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -426,6 +426,6 @@ string
 )
 ;
 return
-PR_FALSE
+false
 ;
 }

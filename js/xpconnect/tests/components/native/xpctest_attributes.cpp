@@ -19,7 +19,7 @@ xpcTestObjectReadOnly
 {
 boolProperty
 =
-PR_TRUE
+true
 ;
 shortProperty
 =
@@ -267,7 +267,7 @@ s
 ;
 boolProperty
 =
-PR_TRUE
+true
 ;
 shortProperty
 =
@@ -450,13 +450,13 @@ NS_ENSURE_TRUE
 aBooleanProperty
 =
 =
-PR_TRUE
+true
 |
 |
 aBooleanProperty
 =
 =
-PR_FALSE
+false
 NS_ERROR_INVALID_ARG
 )
 ;

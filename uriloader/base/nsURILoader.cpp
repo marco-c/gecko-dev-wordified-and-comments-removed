@@ -1320,7 +1320,7 @@ DISPOSITION_ATTACHMENT
 )
 forceExternalHandling
 =
-PR_TRUE
+true
 ;
 LOG
 (
@@ -2053,7 +2053,7 @@ DoContent
 mContentType
 request
 m_originalContext
-PR_FALSE
+false
 getter_AddRefs
 (
 m_targetStreamListener
@@ -2456,7 +2456,7 @@ mContentType
 get
 (
 )
-PR_FALSE
+false
 getter_Copies
 (
 typeToUse
@@ -2485,7 +2485,7 @@ interested
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2691,7 +2691,7 @@ m_targetStreamListener
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2733,7 +2733,7 @@ listener
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsURILoader
@@ -2990,7 +2990,7 @@ IS_CONTENT_PREFERRED
 :
 0
 aWindowContext
-PR_FALSE
+false
 getter_AddRefs
 (
 loader
@@ -3554,7 +3554,7 @@ pending
 {
 pending
 =
-PR_FALSE
+false
 ;
 }
 return

@@ -1694,7 +1694,7 @@ NS_ERROR_DOM_WRONG_DOCUMENT_ERR
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -4421,7 +4421,7 @@ aRange
 >
 Collapse
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -4437,7 +4437,7 @@ aRange
 >
 Collapse
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -4527,7 +4527,7 @@ aRange
 >
 Collapse
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5009,7 +5009,7 @@ Prev
 ;
 handled
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -5097,7 +5097,7 @@ charData
 >
 CloneNode
 (
-PR_FALSE
+false
 getter_AddRefs
 (
 clone
@@ -5145,7 +5145,7 @@ rv
 }
 handled
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -5209,7 +5209,7 @@ cutNode
 }
 handled
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5246,7 +5246,7 @@ getter_AddRefs
 (
 cutNode
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5262,7 +5262,7 @@ cutNode
 }
 handled
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5371,7 +5371,7 @@ node
 >
 CloneNode
 (
-PR_FALSE
+false
 getter_AddRefs
 (
 clone
@@ -5391,7 +5391,7 @@ clone
 }
 handled
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6105,7 +6105,7 @@ parent
 >
 CloneNode
 (
-PR_FALSE
+false
 getter_AddRefs
 (
 clone
@@ -8217,7 +8217,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 mIsDetached
 =
-PR_TRUE
+true
 ;
 DoSetRange
 (
@@ -8261,7 +8261,7 @@ CreateContextualFragment
 (
 mStartParent
 aFragment
-PR_FALSE
+false
 aReturn
 )
 ;
@@ -8841,7 +8841,7 @@ textFrame
 GetChildFrameContainingOffset
 (
 aStartOffset
-PR_FALSE
+false
 &
 outOffset
 &
@@ -8890,7 +8890,7 @@ relativeTo
 aStartOffset
 &
 r
-PR_FALSE
+false
 )
 ;
 r
@@ -9492,7 +9492,7 @@ GetFontFacesForText
 frame
 mStartOffset
 offset
-PR_TRUE
+true
 fontFaceList
 )
 ;
@@ -9515,7 +9515,7 @@ GetFontFacesForText
 frame
 0
 mEndOffset
-PR_TRUE
+true
 fontFaceList
 )
 ;

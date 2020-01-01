@@ -1418,7 +1418,7 @@ NODE_HAS_ACCESSKEY
 {
 RegUnRegAccessKey
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1438,7 +1438,7 @@ NODE_HAS_ACCESSKEY
 {
 RegUnRegAccessKey
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1988,7 +1988,7 @@ aState
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -1998,7 +1998,7 @@ AllowDrop
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual

@@ -884,7 +884,7 @@ DISPOSITION_ATTACHMENT
 )
 handleExternally
 =
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -955,7 +955,7 @@ Trim
 "
 .
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -1032,7 +1032,7 @@ Trim
 "
 .
 "
-PR_FALSE
+false
 )
 ;
 nsAutoString
@@ -1289,7 +1289,7 @@ nsDependentCString
 (
 downloadDir
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 ldir
@@ -2136,7 +2136,7 @@ nsExternalHelperAppService
 :
 mInPrivateBrowsing
 (
-PR_FALSE
+false
 )
 {
 gExtProtSvc
@@ -2247,7 +2247,7 @@ before
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2264,7 +2264,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_TRUE
+true
 )
 ;
 }
@@ -2739,7 +2739,7 @@ rv
 )
 isHTTP
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2764,7 +2764,7 @@ rv
 )
 isHTTPS
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3198,7 +3198,7 @@ aApplyDecoding
 *
 aApplyDecoding
 =
-PR_TRUE
+true
 ;
 PRUint32
 i
@@ -3252,7 +3252,7 @@ mMimeType
 *
 aApplyDecoding
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3296,7 +3296,7 @@ rv
 NS_NewLocalFile
 (
 platformAppPath
-PR_TRUE
+true
 &
 localFile
 )
@@ -3513,7 +3513,7 @@ length
 *
 aHandlerExists
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4224,7 +4224,7 @@ localFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4623,7 +4623,7 @@ someData
 )
 mInPrivateBrowsing
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -4641,7 +4641,7 @@ someData
 {
 mInPrivateBrowsing
 =
-PR_FALSE
+false
 ;
 ExpungeTemporaryPrivateFiles
 (
@@ -4738,23 +4738,23 @@ aForceSave
 )
 mCanceled
 (
-PR_FALSE
+false
 )
 mShouldCloseWindow
 (
-PR_FALSE
+false
 )
 mReceivedDispositionInfo
 (
-PR_FALSE
+false
 )
 mStopRequestIssued
 (
-PR_FALSE
+false
 )
 mProgressListenerInitialized
 (
-PR_FALSE
+false
 )
 mReason
 (
@@ -4775,7 +4775,7 @@ nsnull
 )
 mKeepRequestAlive
 (
-PR_FALSE
+false
 )
 mRequest
 (
@@ -5006,7 +5006,7 @@ mReceivedDispositionInfo
 )
 mProgressListenerInitialized
 =
-PR_TRUE
+true
 ;
 mWebProgressListener
 =
@@ -5664,7 +5664,7 @@ dummyFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 tempLeafName
@@ -5753,7 +5753,7 @@ mTempFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -6060,7 +6060,7 @@ IsEmpty
 {
 mShouldCloseWindow
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6271,7 +6271,7 @@ rv
 {
 mCanceled
 =
-PR_TRUE
+true
 ;
 request
 -
@@ -6329,7 +6329,7 @@ httpInternal
 >
 SetChannelIsForDownload
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -6431,7 +6431,7 @@ get
 {
 alwaysAsk
 =
-PR_FALSE
+false
 ;
 mMimeInfo
 -
@@ -6462,7 +6462,7 @@ get
 {
 alwaysAsk
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6519,7 +6519,7 @@ mForceSave
 {
 alwaysAsk
 =
-PR_FALSE
+false
 ;
 action
 =
@@ -6536,11 +6536,11 @@ alwaysAsk
 {
 mReceivedDispositionInfo
 =
-PR_FALSE
+false
 ;
 mKeepRequestAlive
 =
-PR_TRUE
+true
 ;
 mDialog
 =
@@ -6574,7 +6574,7 @@ else
 {
 mReceivedDispositionInfo
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -6722,7 +6722,7 @@ rv
 LaunchWithApplication
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -6733,7 +6733,7 @@ rv
 SaveToDisk
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -7353,7 +7353,7 @@ count
 {
 readError
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -7401,7 +7401,7 @@ count
 ;
 readError
 =
-PR_FALSE
+false
 ;
 const
 char
@@ -7557,7 +7557,7 @@ aStatus
 {
 mStopRequestIssued
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8250,7 +8250,7 @@ fileToUse
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 nsAutoString
@@ -8423,7 +8423,7 @@ saveToDisk
 ;
 mReceivedDispositionInfo
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -8963,7 +8963,7 @@ ProcessAnyRefreshTags
 ;
 mReceivedDispositionInfo
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -9247,7 +9247,7 @@ aReason
 ;
 mCanceled
 =
-PR_TRUE
+true
 ;
 mDialog
 =
@@ -9288,7 +9288,7 @@ mTempFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 mTempFile
@@ -9306,7 +9306,7 @@ mFinalFileDestination
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 mFinalFileDestination
@@ -9407,7 +9407,7 @@ IsEmpty
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 NS_UnescapeURL
@@ -11429,7 +11429,7 @@ index
 mMimeType
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -11452,6 +11452,6 @@ iter
 }
 }
 return
-PR_FALSE
+false
 ;
 }

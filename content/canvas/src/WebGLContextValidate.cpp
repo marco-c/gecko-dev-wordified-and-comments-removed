@@ -235,7 +235,7 @@ true
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -320,7 +320,7 @@ GLName
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -407,7 +407,7 @@ i
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -497,7 +497,7 @@ i
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -573,7 +573,7 @@ i
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -607,7 +607,7 @@ value
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -657,7 +657,7 @@ case
 LOCAL_GL_STENCIL_TEST
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -668,7 +668,7 @@ cap
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -701,7 +701,7 @@ case
 LOCAL_GL_FUNC_REVERSE_SUBTRACT
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -712,7 +712,7 @@ mode
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -778,7 +778,7 @@ case
 LOCAL_GL_ONE_MINUS_CONSTANT_ALPHA
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -789,7 +789,7 @@ factor
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -815,7 +815,7 @@ factor
 LOCAL_GL_SRC_ALPHA_SATURATE
 )
 return
-PR_TRUE
+true
 ;
 else
 return
@@ -941,13 +941,13 @@ info
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 else
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -977,7 +977,7 @@ case
 LOCAL_GL_TEXTURE_CUBE_MAP
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -988,7 +988,7 @@ target
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1036,7 +1036,7 @@ case
 LOCAL_GL_ALWAYS
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -1047,7 +1047,7 @@ target
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1095,7 +1095,7 @@ case
 LOCAL_GL_INVERT
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -1106,7 +1106,7 @@ action
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1139,7 +1139,7 @@ case
 LOCAL_GL_FRONT_AND_BACK
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -1150,7 +1150,7 @@ face
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1183,7 +1183,7 @@ case
 LOCAL_GL_DYNAMIC_DRAW
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -1194,7 +1194,7 @@ target
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1239,7 +1239,7 @@ case
 LOCAL_GL_LINES
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -1250,7 +1250,7 @@ mode
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1653,7 +1653,7 @@ info
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1688,7 +1688,7 @@ texelSize
 texMultiplier
 ;
 return
-PR_TRUE
+true
 ;
 case
 LOCAL_GL_LUMINANCE_ALPHA
@@ -1701,7 +1701,7 @@ texelSize
 texMultiplier
 ;
 return
-PR_TRUE
+true
 ;
 case
 LOCAL_GL_RGB
@@ -1714,7 +1714,7 @@ texelSize
 texMultiplier
 ;
 return
-PR_TRUE
+true
 ;
 case
 LOCAL_GL_RGBA
@@ -1727,7 +1727,7 @@ texelSize
 texMultiplier
 ;
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -1751,7 +1751,7 @@ format
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -1804,7 +1804,7 @@ info
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1821,7 +1821,7 @@ texelSize
 2
 ;
 return
-PR_TRUE
+true
 ;
 }
 ErrorInvalidOperation
@@ -1840,7 +1840,7 @@ info
 )
 ;
 return
-PR_FALSE
+false
 ;
 case
 LOCAL_GL_UNSIGNED_SHORT_5_6_5
@@ -1884,7 +1884,7 @@ info
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1901,7 +1901,7 @@ texelSize
 2
 ;
 return
-PR_TRUE
+true
 ;
 }
 ErrorInvalidOperation
@@ -1920,7 +1920,7 @@ info
 )
 ;
 return
-PR_FALSE
+false
 ;
 default
 :
@@ -1944,7 +1944,7 @@ type
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2061,13 +2061,13 @@ index
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 else
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2127,7 +2127,7 @@ values
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2151,7 +2151,7 @@ masks
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2175,11 +2175,11 @@ masks
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2196,7 +2196,7 @@ if
 gl
 )
 return
-PR_FALSE
+false
 ;
 GLenum
 error
@@ -2238,7 +2238,7 @@ error
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mMinCapability
@@ -2901,7 +2901,7 @@ Preferences
 GetRootBranch
 (
 )
-PR_FALSE
+false
 )
 ;
 mShaderValidation
@@ -2950,7 +2950,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2992,10 +2992,10 @@ error
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

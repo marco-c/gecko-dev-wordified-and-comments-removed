@@ -78,7 +78,7 @@ nsJPEGEncoder
 :
 mFinished
 (
-PR_FALSE
+false
 )
 mImageBuffer
 (
@@ -796,7 +796,7 @@ cinfo
 ;
 mFinished
 =
-PR_TRUE
+true
 ;
 NotifyListener
 (
@@ -1166,7 +1166,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

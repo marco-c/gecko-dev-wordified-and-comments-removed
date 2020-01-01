@@ -154,7 +154,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if

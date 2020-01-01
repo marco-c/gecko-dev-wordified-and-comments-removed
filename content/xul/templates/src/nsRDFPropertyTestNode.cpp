@@ -623,7 +623,7 @@ aCantHandleYet
 *
 aCantHandleYet
 =
-PR_FALSE
+false
 ;
 nsIRDFDataSource
 *
@@ -688,7 +688,7 @@ mSource
 {
 hasSourceBinding
 =
-PR_TRUE
+true
 ;
 sourceRes
 =
@@ -743,7 +743,7 @@ mTarget
 {
 hasTargetBinding
 =
-PR_TRUE
+true
 ;
 targetValue
 =
@@ -896,7 +896,7 @@ HasAssertion
 sourceRes
 mProperty
 targetValue
-PR_TRUE
+true
 &
 hasAssertion
 )
@@ -1034,7 +1034,7 @@ GetTargets
 (
 sourceRes
 mProperty
-PR_TRUE
+true
 getter_AddRefs
 (
 results
@@ -1053,7 +1053,7 @@ GetSources
 (
 mProperty
 targetValue
-PR_TRUE
+true
 getter_AddRefs
 (
 results
@@ -1444,7 +1444,7 @@ NS_ERROR_UNEXPECTED
 *
 aCantHandleYet
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1525,7 +1525,7 @@ aTarget
 {
 result
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1556,7 +1556,7 @@ aTarget
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 #

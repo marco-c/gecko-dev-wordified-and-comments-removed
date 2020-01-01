@@ -809,7 +809,7 @@ nsDependentCString
 (
 fileName
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 file

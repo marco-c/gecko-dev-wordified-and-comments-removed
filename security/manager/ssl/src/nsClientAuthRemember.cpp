@@ -256,7 +256,7 @@ before
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -653,7 +653,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -740,7 +740,7 @@ mDBKey
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

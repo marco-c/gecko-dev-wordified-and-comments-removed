@@ -49,7 +49,7 @@ aEs
 )
 mFlushed
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR_INHERITED
@@ -308,7 +308,7 @@ rv
 =
 createHandlerAndFlush
 (
-PR_FALSE
+false
 EmptyString
 (
 )
@@ -799,7 +799,7 @@ this
 ;
 mFlushed
 =
-PR_TRUE
+true
 ;
 nsAutoPtr
 <

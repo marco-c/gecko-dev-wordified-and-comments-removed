@@ -56,15 +56,15 @@ aFlags
 :
 mFirstTokenBeganWithWhitespace
 (
-PR_FALSE
+false
 )
 mLastTokenEndedWithWhitespace
 (
-PR_FALSE
+false
 )
 mLastTokenEndedWithSeparator
 (
-PR_FALSE
+false
 )
 mSeparatorChar
 (
@@ -106,7 +106,7 @@ mIter
 {
 mFirstTokenBeganWithWhitespace
 =
-PR_TRUE
+true
 ;
 +
 +
@@ -278,7 +278,7 @@ mIter
 ;
 mLastTokenEndedWithWhitespace
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -297,7 +297,7 @@ mIter
 {
 mLastTokenEndedWithWhitespace
 =
-PR_TRUE
+true
 ;
 +
 +

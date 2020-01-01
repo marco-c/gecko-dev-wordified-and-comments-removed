@@ -848,7 +848,7 @@ if
 gShorthandsContainingPool
 )
 return
-PR_FALSE
+false
 ;
 {
 nsCSSProperty
@@ -1423,7 +1423,7 @@ table
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2047,7 +2047,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 bad
 caller
@@ -4948,7 +4948,7 @@ index
 ]
 ;
 return
-PR_TRUE
+true
 ;
 }
 index
@@ -4958,7 +4958,7 @@ index
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsCSSKeyword
@@ -5284,7 +5284,7 @@ ReleaseTable
 ;
 rv
 =
-PR_TRUE
+true
 ;
 }
 return

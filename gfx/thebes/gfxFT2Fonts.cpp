@@ -355,7 +355,7 @@ get
 endif
 }
 return
-PR_TRUE
+true
 ;
 }
 gfxFT2FontGroup
@@ -1095,7 +1095,7 @@ aName
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1643,8 +1643,8 @@ lang
 .
 CompressWhitespace
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 PRInt32
@@ -2568,7 +2568,7 @@ aRunLength
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3114,7 +3114,7 @@ offset
 +
 i
 )
-PR_TRUE
+true
 1
 )
 ;

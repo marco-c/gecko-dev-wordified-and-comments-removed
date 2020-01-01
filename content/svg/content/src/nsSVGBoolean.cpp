@@ -106,7 +106,7 @@ true
 *
 aValue
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -127,7 +127,7 @@ false
 *
 aValue
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -262,13 +262,13 @@ NS_PRECONDITION
 aValue
 =
 =
-PR_TRUE
+true
 |
 |
 aValue
 =
 =
-PR_FALSE
+false
 "
 Boolean
 out
@@ -321,7 +321,7 @@ aSVGElement
 DidChangeBoolean
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 }
@@ -345,7 +345,7 @@ aValue
 ;
 mIsAnimated
 =
-PR_TRUE
+true
 ;
 aSVGElement
 -
@@ -498,7 +498,7 @@ val
 ;
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -577,7 +577,7 @@ mVal
 >
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 }
 }

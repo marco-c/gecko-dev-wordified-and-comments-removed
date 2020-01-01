@@ -1570,7 +1570,7 @@ mResult
 .
 SetIsVoid
 (
-PR_FALSE
+false
 )
 ;
 FreeFileData

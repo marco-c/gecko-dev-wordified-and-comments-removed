@@ -1805,7 +1805,7 @@ t
 )
 isAscii
 =
-PR_FALSE
+false
 ;
 }
 NS_ASSERTION
@@ -2260,7 +2260,7 @@ nsnull
 helper
 iid
 nsnull
-PR_TRUE
+true
 OBJ_IS_NOT_GLOBAL
 pErr
 )
@@ -3804,7 +3804,7 @@ ws
 >
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4326,7 +4326,7 @@ rs
 >
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 *
@@ -4370,7 +4370,7 @@ rs
 >
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4552,7 +4552,7 @@ rs
 >
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 *
@@ -4596,7 +4596,7 @@ rs
 >
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -5470,7 +5470,7 @@ flat
 {
 tryConstructSlimWrapper
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -6409,7 +6409,7 @@ pErr
 NS_ERROR_UNEXPECTED
 ;
 return
-PR_FALSE
+false
 ;
 }
 *

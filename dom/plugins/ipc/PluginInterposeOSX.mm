@@ -1723,7 +1723,7 @@ offset
 ;
 isTransparent
 =
-PR_FALSE
+false
 ;
 }
 else

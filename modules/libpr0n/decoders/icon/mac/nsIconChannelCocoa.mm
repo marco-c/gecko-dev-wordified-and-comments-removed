@@ -1179,7 +1179,7 @@ return
 MakeInputStream
 (
 _retval
-PR_FALSE
+false
 )
 ;
 }
@@ -1418,7 +1418,7 @@ getter_AddRefs
 (
 inStream
 )
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1453,7 +1453,7 @@ PRInt64
 )
 0
 0
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1613,7 +1613,7 @@ localFile
 >
 SetFollowLinks
 (
-PR_FALSE
+false
 )
 ;
 bool

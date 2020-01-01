@@ -170,7 +170,7 @@ value
 ;
 shouldFlush
 =
-PR_TRUE
+true
 ;
 }
 delete
@@ -244,7 +244,7 @@ cb
 }
 mNeedsReflowCallback
 =
-PR_FALSE
+false
 ;
 }
 return

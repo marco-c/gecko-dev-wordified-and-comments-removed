@@ -64,11 +64,11 @@ NS_OK
 )
 mKeepWaiting
 (
-PR_FALSE
+false
 )
 mDone
 (
-PR_FALSE
+false
 )
 {
 }

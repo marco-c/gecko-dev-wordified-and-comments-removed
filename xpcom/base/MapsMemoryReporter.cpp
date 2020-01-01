@@ -2095,7 +2095,7 @@ aCategoriesSeen
 >
 mSeenVsize
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2124,7 +2124,7 @@ aCategoriesSeen
 >
 mSeenResident
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2153,7 +2153,7 @@ aCategoriesSeen
 >
 mSeenPss
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2182,7 +2182,7 @@ aCategoriesSeen
 >
 mSeenSwap
 =
-PR_TRUE
+true
 ;
 }
 else

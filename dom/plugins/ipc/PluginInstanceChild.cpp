@@ -628,7 +628,7 @@ MOZ_PLATFORM_MAEMO
 )
 mMaemoImageRendering
 (
-PR_TRUE
+true
 )
 #
 endif
@@ -6418,10 +6418,10 @@ kOldWndProcProp
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -10049,7 +10049,7 @@ return
 }
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Couldn
 '
@@ -11482,7 +11482,7 @@ mMaemoImageRendering
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 #

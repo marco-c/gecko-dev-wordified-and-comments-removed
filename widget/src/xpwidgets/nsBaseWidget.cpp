@@ -276,15 +276,15 @@ eBorderStyle_none
 )
 mOnDestroyCalled
 (
-PR_FALSE
+false
 )
 mUseAcceleratedRendering
 (
-PR_FALSE
+false
 )
 mTemporarilyUseBasicLayerManager
 (
-PR_FALSE
+false
 )
 mBounds
 (
@@ -1623,7 +1623,7 @@ PlaceBehind
 (
 eZPlacementBelow
 sib
-PR_FALSE
+false
 )
 ;
 break
@@ -1968,7 +1968,7 @@ mClipRectCount
 0
 )
 return
-PR_FALSE
+false
 ;
 mClipRectCount
 =
@@ -2009,7 +2009,7 @@ mClipRectCount
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2244,7 +2244,7 @@ left
 top
 width
 height
-PR_TRUE
+true
 )
 ;
 }
@@ -2275,7 +2275,7 @@ mOriginalBounds
 -
 >
 height
-PR_TRUE
+true
 )
 ;
 }
@@ -2468,7 +2468,7 @@ mWidget
 >
 mTemporarilyUseBasicLayerManager
 =
-PR_TRUE
+true
 ;
 }
 nsBaseWidget
@@ -2487,7 +2487,7 @@ mWidget
 >
 mTemporarilyUseBasicLayerManager
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -2624,7 +2624,7 @@ bugfix
 {
 accelerateByDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2842,14 +2842,14 @@ disableAcceleration
 safeMode
 )
 return
-PR_FALSE
+false
 ;
 if
 (
 forceAcceleration
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -2875,7 +2875,7 @@ system
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2883,7 +2883,7 @@ if
 accelerateByDefault
 )
 return
-PR_TRUE
+true
 ;
 return
 mUseAcceleratedRendering
@@ -3278,7 +3278,7 @@ HasPendingInputEvent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -3324,7 +3324,7 @@ BeginSecureKeyboardInput
 ;
 debug_InSecureKeyboardInputMode
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -3362,7 +3362,7 @@ enabled
 ;
 debug_InSecureKeyboardInputMode
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -3398,7 +3398,7 @@ aResizerRect
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -4499,7 +4499,7 @@ debug
 .
 crossing_event_dumping
 "
-PR_FALSE
+false
 }
 {
 "
@@ -4509,7 +4509,7 @@ debug
 .
 event_dumping
 "
-PR_FALSE
+false
 }
 {
 "
@@ -4519,7 +4519,7 @@ debug
 .
 invalidate_dumping
 "
-PR_FALSE
+false
 }
 {
 "
@@ -4529,7 +4529,7 @@ debug
 .
 motion_event_dumping
 "
-PR_FALSE
+false
 }
 {
 "
@@ -4539,7 +4539,7 @@ debug
 .
 paint_dumping
 "
-PR_FALSE
+false
 }
 {
 "
@@ -4549,7 +4549,7 @@ debug
 .
 paint_flashing
 "
-PR_FALSE
+false
 }
 }
 ;
@@ -4628,7 +4628,7 @@ value
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -4710,7 +4710,7 @@ return
 }
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 cmon
 this
@@ -4818,7 +4818,7 @@ return
 }
 once
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <

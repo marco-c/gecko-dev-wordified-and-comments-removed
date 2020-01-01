@@ -1638,7 +1638,7 @@ mFace
 )
 )
 return
-PR_FALSE
+false
 ;
 FT_ULong
 length
@@ -1666,7 +1666,7 @@ error
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1703,7 +1703,7 @@ length
 )
 )
 return
-PR_FALSE
+false
 ;
 error
 =
@@ -1739,11 +1739,11 @@ Clear
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 PRUint32

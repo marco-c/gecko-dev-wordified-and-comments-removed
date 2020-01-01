@@ -742,7 +742,7 @@ aListID
 {
 generateReflowCommand
 =
-PR_FALSE
+false
 ;
 }
 #
@@ -809,7 +809,7 @@ PresContext
 (
 )
 aOldFrame
-PR_TRUE
+true
 )
 ;
 aOldFrame
@@ -1447,7 +1447,7 @@ IsLeaf
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1482,7 +1482,7 @@ range
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1519,7 +1519,7 @@ range
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -2879,7 +2879,7 @@ ResizeView
 (
 aView
 aVisualOverflowArea
-PR_TRUE
+true
 )
 ;
 }
@@ -3047,7 +3047,7 @@ isPositioned
 {
 autoZIndex
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3109,7 +3109,7 @@ eStyleUnit_Auto
 {
 autoZIndex
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3875,7 +3875,7 @@ DeleteNextInFlowChild
 (
 aPresContext
 kidNextInFlow
-PR_TRUE
+true
 )
 ;
 }
@@ -4387,8 +4387,8 @@ tracker
 (
 aPresContext
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 bool
@@ -5056,7 +5056,7 @@ aChild
 {
 removed
 =
-PR_FALSE
+false
 ;
 nsFrameList
 *
@@ -5806,7 +5806,7 @@ frameList
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5829,7 +5829,7 @@ aProperty
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5857,7 +5857,7 @@ aProperty
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -6201,7 +6201,7 @@ prevOverflowFrames
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6249,7 +6249,7 @@ overflowFrames
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -6857,7 +6857,7 @@ NS_FRAME_IS_OVERFLOW_CONTAINER
 ;
 convertedToOverflowContainer
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7800,7 +7800,7 @@ aIndent
 }
 outputOneList
 =
-PR_TRUE
+true
 ;
 fputs
 (

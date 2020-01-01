@@ -5472,9 +5472,9 @@ mFlags
 TRANSIENT_FLAG
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5504,9 +5504,9 @@ mFlags
 MERGE_FLAG
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK

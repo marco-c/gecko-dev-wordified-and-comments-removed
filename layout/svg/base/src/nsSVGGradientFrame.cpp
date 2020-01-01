@@ -97,11 +97,11 @@ aContext
 )
 mLoopFlag
 (
-PR_FALSE
+false
 )
 mNoHRefURI
 (
-PR_FALSE
+false
 )
 {
 }
@@ -232,7 +232,7 @@ HrefProperty
 ;
 mNoHRefURI
 =
-PR_FALSE
+false
 ;
 nsSVGEffects
 :
@@ -1057,7 +1057,7 @@ IsEmpty
 {
 mNoHRefURI
 =
-PR_TRUE
+true
 ;
 return
 nsnull
@@ -1257,7 +1257,7 @@ grad
 ;
 mLoopFlag
 =
-PR_TRUE
+true
 ;
 NS_WARN_IF_FALSE
 (
@@ -1301,7 +1301,7 @@ aDefault
 ;
 mLoopFlag
 =
-PR_FALSE
+false
 ;
 return
 grad
@@ -1385,7 +1385,7 @@ grad
 ;
 mLoopFlag
 =
-PR_TRUE
+true
 ;
 NS_WARN_IF_FALSE
 (
@@ -1430,7 +1430,7 @@ aDefault
 ;
 mLoopFlag
 =
-PR_FALSE
+false
 ;
 return
 grad
@@ -1561,7 +1561,7 @@ return
 }
 mLoopFlag
 =
-PR_TRUE
+true
 ;
 NS_WARN_IF_FALSE
 (
@@ -1605,7 +1605,7 @@ aStopFrame
 ;
 mLoopFlag
 =
-PR_FALSE
+false
 ;
 return
 stopCount

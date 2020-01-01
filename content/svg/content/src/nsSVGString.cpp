@@ -109,7 +109,7 @@ SetBaseValue
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -375,7 +375,7 @@ val
 ;
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
