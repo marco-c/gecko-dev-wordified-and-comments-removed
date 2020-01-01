@@ -43,7 +43,7 @@ SETTINGSSTORE_NAME
 const
 DEBUG
 =
-true
+false
 ;
 function
 debug
