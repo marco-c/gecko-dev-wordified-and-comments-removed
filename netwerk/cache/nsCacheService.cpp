@@ -8958,7 +8958,7 @@ AutoTimer
 Telemetry
 :
 :
-CACHE_DEVICE_SEARCH
+CACHE_DEVICE_SEARCH_2
 >
 timer
 ;
@@ -11221,7 +11221,7 @@ mozilla
 Telemetry
 :
 :
-CACHE_SERVICE_LOCK_WAIT_MAINTHREAD
+CACHE_SERVICE_LOCK_WAIT_MAINTHREAD_2
 ;
 }
 else
@@ -11244,7 +11244,7 @@ mozilla
 Telemetry
 :
 :
-CACHE_SERVICE_LOCK_WAIT
+CACHE_SERVICE_LOCK_WAIT_2
 ;
 }
 TimeStamp
