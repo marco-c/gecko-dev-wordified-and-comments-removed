@@ -27094,6 +27094,7 @@ aLength
 aProvider
 &
 aAdvanceWidth
+nsnull
 )
 ;
 if
@@ -27190,6 +27191,7 @@ hyphenTextRun
 GetLength
 (
 )
+nsnull
 nsnull
 nsnull
 )

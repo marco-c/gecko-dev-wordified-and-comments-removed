@@ -187,6 +187,13 @@ GetHitTestFlags
 (
 )
 ;
+float
+MaybeOptimizeOpacity
+(
+float
+aFillOrStrokeOpacity
+)
+;
 private
 :
 bool
@@ -201,13 +208,6 @@ dashes
 gfxFloat
 *
 dashOffset
-)
-;
-float
-MaybeOptimizeOpacity
-(
-float
-aFillOrStrokeOpacity
 )
 ;
 }

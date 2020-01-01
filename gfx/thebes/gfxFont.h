@@ -116,6 +116,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+gfxPattern
+.
+h
+"
 typedef
 struct
 _cairo_scaled_font
@@ -3823,6 +3830,9 @@ aBaselineOrigin
 Spacing
 *
 aSpacing
+gfxPattern
+*
+aStrokePattern
 )
 ;
 virtual
@@ -7397,6 +7407,9 @@ aProvider
 gfxFloat
 *
 aAdvanceWidth
+gfxPattern
+*
+aStrokePattern
 )
 ;
 Metrics
@@ -8741,6 +8754,9 @@ aDrawMode
 gfxPoint
 *
 aPt
+gfxPattern
+*
+aStrokePattern
 PRUint32
 aStart
 PRUint32
