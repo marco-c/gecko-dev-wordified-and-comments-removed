@@ -6679,11 +6679,11 @@ assm
 Fragment
 *
 frag
-verbose_only
-(
 Allocator
 &
 alloc
+verbose_only
+(
 LabelMap
 *
 )
