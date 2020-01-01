@@ -450,6 +450,10 @@ test_basic_notification_click
 .
 html
 \
+test_leak_windowClose
+.
+html
+\
 notification_common
 .
 js
