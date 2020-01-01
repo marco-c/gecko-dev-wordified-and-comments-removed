@@ -895,6 +895,16 @@ AndroidGeckoEvent
 ACTIVITY_STOPPING
 :
 {
+break
+;
+}
+case
+AndroidGeckoEvent
+:
+:
+ACTIVITY_SHUTDOWN
+:
+{
 nsCOMPtr
 <
 nsIObserverService
