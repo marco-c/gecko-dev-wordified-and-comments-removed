@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -325,12 +318,6 @@ Init
 ;
 protected
 :
-nsTArray
-<
-nsString
->
-mDictionary
-;
 PRBool
 mDirty
 ;
