@@ -3913,6 +3913,15 @@ lir
 >
 insImmWord
 (
+(
+tree
+-
+>
+maxCallDepth
++
+1
+)
+*
 sizeof
 (
 FrameInfo
