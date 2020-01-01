@@ -1648,6 +1648,9 @@ lmedia
 -
 lhardware_legacy
 \
+-
+lhardware
+\
 (
 NULL
 )
