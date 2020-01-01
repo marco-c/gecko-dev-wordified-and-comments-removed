@@ -2260,10 +2260,6 @@ SHELL_WRAPPER1
 reportJavaCrash
 jstring
 )
-SHELL_WRAPPER0
-(
-executeNextRunnable
-)
 SHELL_WRAPPER1
 (
 cameraCallbackBridge
@@ -4759,11 +4755,6 @@ onChangeNetworkLinkStatus
 GETFUNC
 (
 reportJavaCrash
-)
-;
-GETFUNC
-(
-executeNextRunnable
 )
 ;
 GETFUNC
