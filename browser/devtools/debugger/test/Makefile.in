@@ -237,6 +237,14 @@ js
 \
 browser_dbg_propertyview
 -
+big
+-
+data
+.
+js
+\
+browser_dbg_propertyview
+-
 data
 .
 js
@@ -719,6 +727,12 @@ switching
 02
 .
 js
+\
+browser_dbg_big
+-
+data
+.
+html
 \
 browser_dbg_frame
 -
