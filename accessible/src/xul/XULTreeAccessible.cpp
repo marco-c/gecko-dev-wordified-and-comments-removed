@@ -4604,7 +4604,7 @@ DocAccessible
 aDoc
 )
 :
-nsXULColumAccessible
+XULColumAccessible
 (
 aContent
 aDoc
@@ -4633,7 +4633,7 @@ aOffset
 0
 )
 return
-nsXULColumAccessible
+XULColumAccessible
 :
 :
 GetSiblingAtOffset

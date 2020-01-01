@@ -1,7 +1,7 @@
 #
 include
 "
-nsXULMenuAccessibleWrap
+XULMenuAccessibleWrap
 .
 h
 "
@@ -19,10 +19,10 @@ mozilla
 :
 a11y
 ;
-nsXULMenuitemAccessibleWrap
+XULMenuitemAccessibleWrap
 :
 :
-nsXULMenuitemAccessibleWrap
+XULMenuitemAccessibleWrap
 (
 nsIContent
 *
@@ -32,7 +32,7 @@ DocAccessible
 aDoc
 )
 :
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 (
 aContent
 aDoc
@@ -40,7 +40,7 @@ aDoc
 {
 }
 ENameValueFlag
-nsXULMenuitemAccessibleWrap
+XULMenuitemAccessibleWrap
 :
 :
 Name
@@ -50,7 +50,7 @@ nsString
 aName
 )
 {
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 Name

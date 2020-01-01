@@ -59,13 +59,6 @@ h
 #
 include
 "
-nsXULMenuAccessible
-.
-h
-"
-#
-include
-"
 Relation
 .
 h
@@ -81,6 +74,13 @@ h
 include
 "
 States
+.
+h
+"
+#
+include
+"
+XULMenuAccessible
 .
 h
 "

@@ -1,7 +1,7 @@
 #
 include
 "
-nsXULMenuAccessible
+XULMenuAccessible
 .
 h
 "
@@ -187,10 +187,10 @@ mozilla
 :
 a11y
 ;
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 (
 nsIContent
 *
@@ -208,7 +208,7 @@ aDoc
 {
 }
 PRUint64
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 NativeState
@@ -576,7 +576,7 @@ state
 ;
 }
 PRUint64
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 NativeInteractiveState
@@ -676,7 +676,7 @@ SELECTABLE
 ;
 }
 nsresult
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 GetNameInternal
@@ -704,7 +704,7 @@ NS_OK
 ;
 }
 void
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 Description
@@ -729,7 +729,7 @@ aDescription
 ;
 }
 KeyBinding
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 AccessKey
@@ -899,7 +899,7 @@ modifierKey
 ;
 }
 KeyBinding
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 KeyboardShortcut
@@ -1265,7 +1265,7 @@ modifierMask
 ;
 }
 role
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 NativeRole
@@ -1376,7 +1376,7 @@ MENUITEM
 ;
 }
 PRInt32
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 GetLevelInternal
@@ -1394,7 +1394,7 @@ mContent
 ;
 }
 bool
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 CanHaveAnonChildren
@@ -1406,7 +1406,7 @@ false
 ;
 }
 NS_IMETHODIMP
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 DoAction
@@ -1436,7 +1436,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 GetActionName
@@ -1474,7 +1474,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 PRUint8
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 ActionCount
@@ -1486,7 +1486,7 @@ return
 ;
 }
 bool
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 IsActiveWidget
@@ -1541,7 +1541,7 @@ false
 ;
 }
 bool
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 AreItemsOperable
@@ -1597,7 +1597,7 @@ false
 }
 Accessible
 *
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 ContainerWidget
@@ -1667,10 +1667,10 @@ return
 nsnull
 ;
 }
-nsXULMenuSeparatorAccessible
+XULMenuSeparatorAccessible
 :
 :
-nsXULMenuSeparatorAccessible
+XULMenuSeparatorAccessible
 (
 nsIContent
 *
@@ -1680,7 +1680,7 @@ DocAccessible
 aDoc
 )
 :
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 (
 aContent
 aDoc
@@ -1688,7 +1688,7 @@ aDoc
 {
 }
 PRUint64
-nsXULMenuSeparatorAccessible
+XULMenuSeparatorAccessible
 :
 :
 NativeState
@@ -1696,7 +1696,7 @@ NativeState
 )
 {
 return
-nsXULMenuitemAccessible
+XULMenuitemAccessible
 :
 :
 NativeState
@@ -1717,7 +1717,7 @@ INVISIBLE
 ;
 }
 nsresult
-nsXULMenuSeparatorAccessible
+XULMenuSeparatorAccessible
 :
 :
 GetNameInternal
@@ -1732,7 +1732,7 @@ NS_OK
 ;
 }
 role
-nsXULMenuSeparatorAccessible
+XULMenuSeparatorAccessible
 :
 :
 NativeRole
@@ -1747,7 +1747,7 @@ SEPARATOR
 ;
 }
 NS_IMETHODIMP
-nsXULMenuSeparatorAccessible
+XULMenuSeparatorAccessible
 :
 :
 DoAction
@@ -1761,7 +1761,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsXULMenuSeparatorAccessible
+XULMenuSeparatorAccessible
 :
 :
 GetActionName
@@ -1778,7 +1778,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 PRUint8
-nsXULMenuSeparatorAccessible
+XULMenuSeparatorAccessible
 :
 :
 ActionCount
@@ -1789,10 +1789,10 @@ return
 0
 ;
 }
-nsXULMenupopupAccessible
+XULMenupopupAccessible
 :
 :
-nsXULMenupopupAccessible
+XULMenupopupAccessible
 (
 nsIContent
 *
@@ -1850,7 +1850,7 @@ GetParent
 ;
 }
 PRUint64
-nsXULMenupopupAccessible
+XULMenupopupAccessible
 :
 :
 NativeState
@@ -1992,7 +1992,7 @@ state
 ;
 }
 nsresult
-nsXULMenupopupAccessible
+XULMenupopupAccessible
 :
 :
 GetNameInternal
@@ -2048,7 +2048,7 @@ NS_OK
 ;
 }
 role
-nsXULMenupopupAccessible
+XULMenupopupAccessible
 :
 :
 NativeRole
@@ -2154,7 +2154,7 @@ MENUPOPUP
 ;
 }
 bool
-nsXULMenupopupAccessible
+XULMenupopupAccessible
 :
 :
 IsWidget
@@ -2167,7 +2167,7 @@ true
 ;
 }
 bool
-nsXULMenupopupAccessible
+XULMenupopupAccessible
 :
 :
 IsActiveWidget
@@ -2199,7 +2199,7 @@ IsOpen
 ;
 }
 bool
-nsXULMenupopupAccessible
+XULMenupopupAccessible
 :
 :
 AreItemsOperable
@@ -2232,7 +2232,7 @@ IsOpen
 }
 Accessible
 *
-nsXULMenupopupAccessible
+XULMenupopupAccessible
 :
 :
 ContainerWidget
@@ -2413,10 +2413,10 @@ return
 nsnull
 ;
 }
-nsXULMenubarAccessible
+XULMenubarAccessible
 :
 :
-nsXULMenubarAccessible
+XULMenubarAccessible
 (
 nsIContent
 *
@@ -2434,7 +2434,7 @@ aDoc
 {
 }
 nsresult
-nsXULMenubarAccessible
+XULMenubarAccessible
 :
 :
 GetNameInternal
@@ -2458,7 +2458,7 @@ NS_OK
 ;
 }
 role
-nsXULMenubarAccessible
+XULMenubarAccessible
 :
 :
 NativeRole
@@ -2473,7 +2473,7 @@ MENUBAR
 ;
 }
 bool
-nsXULMenubarAccessible
+XULMenubarAccessible
 :
 :
 IsActiveWidget
@@ -2505,7 +2505,7 @@ IsActive
 ;
 }
 bool
-nsXULMenubarAccessible
+XULMenubarAccessible
 :
 :
 AreItemsOperable
@@ -2519,7 +2519,7 @@ true
 }
 Accessible
 *
-nsXULMenubarAccessible
+XULMenubarAccessible
 :
 :
 CurrentItem
@@ -2585,7 +2585,7 @@ nsnull
 ;
 }
 void
-nsXULMenubarAccessible
+XULMenubarAccessible
 :
 :
 SetCurrentItem
@@ -2598,7 +2598,7 @@ aItem
 NS_ERROR
 (
 "
-nsXULMenubarAccessible
+XULMenubarAccessible
 :
 :
 SetCurrentItem

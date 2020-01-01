@@ -7,7 +7,7 @@ __nsXULComboboxAccessible_h__
 #
 include
 "
-nsXULMenuAccessible
+XULMenuAccessible
 .
 h
 "

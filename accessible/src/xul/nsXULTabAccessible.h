@@ -7,7 +7,7 @@ _nsXULTabAccessible_H_
 #
 include
 "
-nsXULMenuAccessible
+XULMenuAccessible
 .
 h
 "
