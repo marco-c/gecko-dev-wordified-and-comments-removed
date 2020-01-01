@@ -450,6 +450,10 @@ test_groupattrs
 .
 xul
 \
+test_table_indexes
+.
+html
+\
 test_nsIAccessibleTable_1
 .
 html

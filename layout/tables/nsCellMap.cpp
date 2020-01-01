@@ -4672,9 +4672,10 @@ GetRowCount
 ;
 if
 (
-rowCount
-<
 rowIndex
+>
+=
+rowCount
 )
 {
 PRInt32
@@ -4707,6 +4708,8 @@ index
 +
 =
 cellMapIdx
++
+1
 ;
 rowIndex
 -
@@ -4870,6 +4873,8 @@ index
 -
 =
 cellMapIdx
++
+1
 ;
 previousRows
 +
