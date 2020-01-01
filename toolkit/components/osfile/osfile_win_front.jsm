@@ -2437,6 +2437,16 @@ ftLastAccessTime
 )
 ;
 let
+lastWriteDate
+=
+FILETIME_to_Date
+(
+stat
+.
+ftLastWriteTime
+)
+;
+let
 value
 =
 ctypes
@@ -2489,6 +2499,7 @@ isSymLink
 size
 winBirthDate
 lastAccessDate
+lastWriteDate
 )
 ;
 }
