@@ -894,6 +894,19 @@ fails
 -
 if
 (
+!
+(
+Android
+&
+&
+AndroidVersion
+>
+=
+15
+)
+&
+&
+(
 azureSkiaGL
 |
 |
@@ -924,6 +937,7 @@ OSX
 10
 .
 8
+)
 )
 )
 )

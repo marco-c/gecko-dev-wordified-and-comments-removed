@@ -388,6 +388,11 @@ fails
 if
 (
 Android
+&
+&
+AndroidVersion
+<
+15
 )
 fuzzy
 -
@@ -440,6 +445,11 @@ fails
 if
 (
 Android
+&
+&
+AndroidVersion
+<
+15
 )
 fuzzy
 -
