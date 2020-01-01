@@ -1417,9 +1417,9 @@ crop
 )
 GK_ATOM
 (
-crossOrigin
+crossorigin
 "
-crossOrigin
+crossorigin
 "
 )
 GK_ATOM

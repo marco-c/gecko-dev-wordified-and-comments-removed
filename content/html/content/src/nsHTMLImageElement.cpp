@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMWindowInternal
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h
@@ -847,7 +840,7 @@ NS_IMPL_ENUM_ATTR_DEFAULT_VALUE
 (
 nsHTMLImageElement
 CrossOrigin
-crossOrigin
+crossorigin
 kCrossOriginDefault
 -
 >
@@ -1388,7 +1381,7 @@ aAttribute
 nsGkAtoms
 :
 :
-crossOrigin
+crossorigin
 )
 {
 return
@@ -2546,7 +2539,7 @@ GetParsedAttr
 nsGkAtoms
 :
 :
-crossOrigin
+crossorigin
 )
 ;
 if
