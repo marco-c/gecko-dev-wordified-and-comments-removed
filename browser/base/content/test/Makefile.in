@@ -1345,10 +1345,6 @@ test_bug628179
 .
 html
 \
-browser_minimize
-.
-js
-\
 (
 NULL
 )
