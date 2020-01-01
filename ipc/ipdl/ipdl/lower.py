@@ -2848,12 +2848,6 @@ isActor
 )
 :
         
-t
-.
-const
-=
-1
-        
 return
 t
     
@@ -2982,12 +2976,6 @@ t
 ptr
 =
 0
-        
-t
-.
-const
-=
-1
         
 t
 .
