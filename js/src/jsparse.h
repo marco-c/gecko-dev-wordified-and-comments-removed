@@ -3426,6 +3426,11 @@ errorNumber
 ;
 private
 :
+bool
+maybeNoteGenerator
+(
+)
+;
 JSParseNode
 *
 functionStmt
