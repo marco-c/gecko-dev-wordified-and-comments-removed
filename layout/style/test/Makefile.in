@@ -978,6 +978,10 @@ test_rem_unit
 .
 html
 \
+test_rule_serialization
+.
+html
+\
 test_rules_out_of_sheets
 .
 html
