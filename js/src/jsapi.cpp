@@ -4320,7 +4320,7 @@ GC_NORMAL
 if
 (
 !
-js_InitAtomState
+InitAtomState
 (
 this
 )
@@ -4613,7 +4613,7 @@ FinishRuntimeNumberState
 this
 )
 ;
-js_FinishAtomState
+FinishAtomState
 (
 this
 )
@@ -17221,7 +17221,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -17281,7 +17281,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -17481,7 +17481,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -17681,7 +17681,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -17741,7 +17741,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -17988,7 +17988,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -18048,7 +18048,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -18755,7 +18755,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -18962,7 +18962,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -20043,7 +20043,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -20109,7 +20109,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -20180,7 +20180,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -20252,7 +20252,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -20482,7 +20482,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -20552,7 +20552,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -21058,7 +21058,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -21118,7 +21118,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -21179,7 +21179,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -21329,7 +21329,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -21572,7 +21572,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -21632,7 +21632,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -21920,7 +21920,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -22026,7 +22026,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -23692,7 +23692,7 @@ else
 {
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -24457,7 +24457,7 @@ RootedAtom
 atom
 (
 cx
-js_Atomize
+Atomize
 (
 cx
 fs
@@ -24697,7 +24697,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -24811,7 +24811,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 name
@@ -26834,7 +26834,7 @@ name
 {
 funAtom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -26879,7 +26879,7 @@ RootedAtom
 argAtom
 (
 cx
-js_Atomize
+Atomize
 (
 cx
 argnames
@@ -28994,7 +28994,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -29903,7 +29903,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 str
@@ -29984,7 +29984,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 s
@@ -30159,7 +30159,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 s

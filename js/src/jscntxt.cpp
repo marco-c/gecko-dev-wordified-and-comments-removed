@@ -2370,7 +2370,7 @@ PropertyName
 *
 usageAtom
 =
-js_Atomize
+Atomize
 (
 cx
 usageStr

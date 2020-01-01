@@ -4351,7 +4351,7 @@ JSAtom
 *
 atom
 =
-js_Atomize
+Atomize
 (
 cx
 name
@@ -19808,7 +19808,7 @@ JSAtom
 *
 str
 =
-js_Atomize
+Atomize
 (
 cx
 s
@@ -23704,7 +23704,7 @@ JSAtom
 *
 str
 =
-js_Atomize
+Atomize
 (
 cx
 s

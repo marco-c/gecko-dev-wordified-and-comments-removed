@@ -4850,7 +4850,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeString
+AtomizeString
 (
 context
 (

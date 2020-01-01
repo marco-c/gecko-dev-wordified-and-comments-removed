@@ -370,7 +370,7 @@ JSAtom
 *
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 cb

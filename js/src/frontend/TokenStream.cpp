@@ -4956,7 +4956,7 @@ else
 {
 data
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 tokenbuf
@@ -6263,7 +6263,7 @@ cb
 )
 {
 return
-js_AtomizeChars
+AtomizeChars
 (
 cx
 cb
@@ -7393,7 +7393,7 @@ hadUnicodeEscape
 )
 atom
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 identStart

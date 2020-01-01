@@ -164,7 +164,7 @@ str
 )
 ;
 return
-js_AtomizeString
+AtomizeString
 (
 cx
 str
@@ -213,7 +213,7 @@ str
 )
 ;
 return
-js_AtomizeString
+AtomizeString
 (
 cx
 str

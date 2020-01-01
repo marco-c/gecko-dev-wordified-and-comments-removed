@@ -1283,7 +1283,7 @@ false
 ;
 source
 =
-js_AtomizeString
+AtomizeString
 (
 cx
 str
@@ -3038,7 +3038,7 @@ JSAtom
 *
 hackedSource
 =
-js_AtomizeChars
+AtomizeChars
 (
 cx
 source

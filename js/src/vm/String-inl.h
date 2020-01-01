@@ -983,7 +983,10 @@ JSAtom
 *
 atom
 =
-js_AtomizeString
+js
+:
+:
+AtomizeString
 (
 cx
 this
