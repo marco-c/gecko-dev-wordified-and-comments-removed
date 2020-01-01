@@ -39,6 +39,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 Expr
 ;
@@ -71,7 +78,12 @@ nsIDOMDocument
 aDocument
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsXPathExpression
+nsIDOMXPathExpression
+)
 NS_DECL_NSIDOMXPATHEXPRESSION
 NS_DECL_NSIDOMNSXPATHEXPRESSION
 private
