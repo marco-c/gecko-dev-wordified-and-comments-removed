@@ -349,6 +349,8 @@ meta
 (
 this
 .
+item
+.
 isATabItem
 &
 &
