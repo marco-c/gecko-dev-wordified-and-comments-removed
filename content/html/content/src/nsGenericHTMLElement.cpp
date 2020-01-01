@@ -5450,6 +5450,14 @@ GetInnerWindow
 (
 )
 )
+&
+&
+win
+-
+>
+IsInnerWindow
+(
+)
 )
 {
 nsCOMPtr
