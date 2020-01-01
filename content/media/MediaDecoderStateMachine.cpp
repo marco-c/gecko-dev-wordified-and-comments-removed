@@ -10541,6 +10541,12 @@ if
 mState
 =
 =
+DECODER_STATE_DORMANT
+|
+|
+mState
+=
+=
 DECODER_STATE_SHUTDOWN
 )
 return

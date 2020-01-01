@@ -4742,6 +4742,17 @@ PLAY_STATE_PAUSED
 }
 if
 (
+(
+mPlayState
+=
+=
+PLAY_STATE_LOADING
+&
+&
+mIsDormant
+)
+|
+|
 mPlayState
 =
 =
