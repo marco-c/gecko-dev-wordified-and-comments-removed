@@ -4213,9 +4213,6 @@ ExecuteAttachedHandler
 ;
 if
 (
-mBoundElement
-&
-&
 AllowScripts
 (
 )
@@ -5919,11 +5916,15 @@ nsIDocument
 doc
 =
 mBoundElement
+?
+mBoundElement
 -
 >
 GetOwnerDoc
 (
 )
+:
+nsnull
 ;
 if
 (
