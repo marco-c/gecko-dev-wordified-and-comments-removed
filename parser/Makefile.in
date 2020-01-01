@@ -416,10 +416,14 @@ config
 autoconf
 .
 mk
+MODULE
+=
+parser
 DIRS
 =
 expat
 htmlparser
+html
 xml
 include
 (

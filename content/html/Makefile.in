@@ -413,7 +413,6 @@ PARALLEL_DIRS
 =
 content
 document
-parser
 include
 (
 topsrcdir

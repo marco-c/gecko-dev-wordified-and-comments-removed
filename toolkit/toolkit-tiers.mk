@@ -708,16 +708,6 @@ libimg
 caps
 \
 parser
-/
-expat
-\
-parser
-/
-xml
-\
-parser
-/
-htmlparser
 \
 gfx
 \
