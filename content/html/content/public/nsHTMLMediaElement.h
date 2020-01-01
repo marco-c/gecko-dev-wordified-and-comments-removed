@@ -230,6 +230,8 @@ MetadataLoaded
 void
 FirstFrameLoaded
 (
+PRBool
+aResourceFullyLoaded
 )
 ;
 void
