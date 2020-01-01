@@ -75,10 +75,6 @@ NULL
 webidl_files
 =
 \
-AnalyserNode
-.
-webidl
-\
 AnimationEvent
 .
 webidl
