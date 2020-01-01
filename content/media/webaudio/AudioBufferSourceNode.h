@@ -96,7 +96,7 @@ DestroyMediaStream
 ;
 }
 virtual
-uint16_t
+uint32_t
 NumberOfInputs
 (
 )

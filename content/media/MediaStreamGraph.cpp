@@ -10080,10 +10080,6 @@ MediaStream
 aStream
 uint32_t
 aFlags
-uint16_t
-aInputNumber
-uint16_t
-aOutputNumber
 )
 {
 class
@@ -10156,8 +10152,6 @@ MediaInputPort
 aStream
 this
 aFlags
-aInputNumber
-aOutputNumber
 )
 ;
 port

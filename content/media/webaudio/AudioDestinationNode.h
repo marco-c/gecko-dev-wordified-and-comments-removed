@@ -60,7 +60,7 @@ aScope
 MOZ_OVERRIDE
 ;
 virtual
-uint16_t
+uint32_t
 NumberOfOutputs
 (
 )
