@@ -31,13 +31,6 @@ h
 #
 include
 "
-jshash
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h

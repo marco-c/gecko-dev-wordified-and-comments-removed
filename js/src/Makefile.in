@@ -393,10 +393,6 @@ jscrashreport
 .
 cpp
 \
-jshash
-.
-cpp
-\
 jsinfer
 .
 cpp
@@ -722,10 +718,6 @@ jsfriendapi
 h
 \
 jsgc
-.
-h
-\
-jshash
 .
 h
 \
