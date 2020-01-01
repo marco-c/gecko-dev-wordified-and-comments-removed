@@ -18,6 +18,11 @@ policy
 jsm
 "
 "
+profile
+.
+jsm
+"
+"
 providers
 .
 jsm
