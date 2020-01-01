@@ -2785,6 +2785,8 @@ public
 nsIObserver
 public
 nsSupportsWeakReference
+public
+nsIPresShell_MOZILLA_2_0_BRANCH
 {
 public
 :
@@ -4149,6 +4151,16 @@ PRBool
 aIsActive
 )
 ;
+virtual
+PRBool
+GetIsViewportOverridden
+(
+)
+{
+return
+mViewportOverridden
+;
+}
 protected
 :
 virtual
@@ -6743,7 +6755,7 @@ this
 )
 ;
 }
-NS_IMPL_ISUPPORTS8
+NS_IMPL_ISUPPORTS9
 (
 PresShell
 nsIPresShell
@@ -6754,6 +6766,7 @@ nsISelectionDisplay
 nsIObserver
 nsISupportsWeakReference
 nsIMutationObserver
+nsIPresShell_MOZILLA_2_0_BRANCH
 )
 PresShell
 :
