@@ -2894,6 +2894,14 @@ for
 {
 if
 (
+mReflowState
+.
+availableHeight
+!
+=
+NS_UNCONSTRAINEDSIZE
+&
+&
 floatAvailableSpace
 .
 mRect
