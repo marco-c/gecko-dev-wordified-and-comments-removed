@@ -249,6 +249,9 @@ type
 =
 "
 "
+optional
+any
+encoderOptions
 )
 ;
 }
