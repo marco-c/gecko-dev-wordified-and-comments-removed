@@ -295,7 +295,11 @@ Intent
 this
 GeckoApp
 .
-class
+mAppContext
+.
+getClass
+(
+)
 )
 ;
 intent
