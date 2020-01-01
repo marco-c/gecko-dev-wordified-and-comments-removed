@@ -6546,6 +6546,7 @@ const
 gfxRect
 &
 aRect
+const
 nsIFrame
 *
 aAncestor
@@ -6791,6 +6792,7 @@ const
 nsRect
 &
 aRect
+const
 nsIFrame
 *
 aAncestor
