@@ -199,8 +199,6 @@ Resolve
 nsBlockFrame
 *
 aBlockFrame
-PRBool
-aIsVisualFormControl
 )
 ;
 void
