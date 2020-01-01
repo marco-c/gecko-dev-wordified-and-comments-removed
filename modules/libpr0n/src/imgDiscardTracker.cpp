@@ -93,6 +93,9 @@ node
 nsresult
 rv
 ;
+#
+ifdef
+DEBUG
 PRBool
 isSentinel
 =
@@ -178,6 +181,8 @@ image
 "
 )
 ;
+#
+endif
 if
 (
 NS_UNLIKELY
