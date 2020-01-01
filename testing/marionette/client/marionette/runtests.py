@@ -420,7 +420,7 @@ perfdata
 =
 datazilla
 .
-dzResult
+DatazillaResult
 (
 testcase
 .
@@ -2453,7 +2453,7 @@ perfrequest
 =
 datazilla
 .
-dzRequest
+DatazillaRequest
 (
 server
 =
@@ -2774,7 +2774,7 @@ self
 .
 perfrequest
 .
-add_dzresult
+add_datazilla_result
 (
 results
 .
