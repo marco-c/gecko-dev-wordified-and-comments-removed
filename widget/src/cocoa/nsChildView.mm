@@ -16660,7 +16660,7 @@ exitEventLocation
 nsMouseEvent
 :
 :
-eChild
+eTopLevel
 )
 ;
 sLastViewEntered
