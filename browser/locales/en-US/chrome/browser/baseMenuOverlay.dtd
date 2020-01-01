@@ -198,16 +198,6 @@ I
 <
 !
 ENTITY
-openHelp
-.
-commandkey
-"
-VK_F1
-"
->
-<
-!
-ENTITY
 helpMac
 .
 commandkey
