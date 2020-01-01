@@ -181,6 +181,10 @@ mWaitForTouchListeners
 ;
 private
 boolean
+mSendBlockToListeners
+;
+private
+boolean
 mHoldInQueue
 ;
 private
@@ -307,6 +311,10 @@ event
 )
 )
 {
+mSendBlockToListeners
+=
+mWaitForTouchListeners
+;
 mHoldInQueue
 =
 mWaitForTouchListeners
@@ -323,13 +331,6 @@ postDelayed
 mListenerTimeoutProcessor
 EVENT_LISTENER_TIMEOUT
 )
-;
-}
-else
-{
-mProcessingBalance
-+
-+
 ;
 }
 }
@@ -363,6 +364,11 @@ event
 )
 ;
 }
+if
+(
+mSendBlockToListeners
+)
+{
 mOnTouchListener
 .
 onTouch
@@ -371,6 +377,7 @@ mView
 event
 )
 ;
+}
 return
 true
 ;
