@@ -442,6 +442,7 @@ if
 (
 mInternalWidget
 )
+{
 mInternalWidget
 -
 >
@@ -450,6 +451,18 @@ SetClientData
 0
 )
 ;
+mInternalWidget
+-
+>
+Destroy
+(
+)
+;
+mInternalWidget
+=
+nsnull
+;
+}
 SetDocShell
 (
 nsnull

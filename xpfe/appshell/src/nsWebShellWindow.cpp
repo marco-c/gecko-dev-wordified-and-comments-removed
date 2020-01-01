@@ -524,6 +524,7 @@ if
 (
 mWindow
 )
+{
 mWindow
 -
 >
@@ -533,9 +534,17 @@ SetClientData
 )
 ;
 mWindow
+-
+>
+Destroy
+(
+)
+;
+mWindow
 =
 nsnull
 ;
+}
 if
 (
 mSPTimerLock
