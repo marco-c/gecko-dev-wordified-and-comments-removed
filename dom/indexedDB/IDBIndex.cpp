@@ -3542,7 +3542,7 @@ aLimit
 {
 aLimit
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 }
 nsRefPtr
@@ -3693,7 +3693,7 @@ aLimit
 {
 aLimit
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 }
 nsRefPtr
@@ -5727,7 +5727,7 @@ if
 mLimit
 !
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 limitClause
@@ -6563,7 +6563,7 @@ if
 mLimit
 !
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 limitClause

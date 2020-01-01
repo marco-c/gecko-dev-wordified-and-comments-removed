@@ -168,7 +168,7 @@ NS_ASSERTION
 aContentIndex
 <
 =
-PR_INT32_MAX
+INT32_MAX
 "
 out
 of
@@ -246,11 +246,11 @@ aChangeType
 RESET
 ?
 (
-PR_INT32_MIN
+INT32_MIN
 )
 :
 (
-PR_INT32_MIN
+INT32_MIN
 /
 2
 )

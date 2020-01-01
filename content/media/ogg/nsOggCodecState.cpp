@@ -4739,7 +4739,7 @@ static_cast
 double
 >
 (
-PR_INT32_MAX
+INT32_MAX
 )
 )
 )
@@ -5962,7 +5962,7 @@ offset
 gp
 <
 =
-PR_INT64_MAX
+INT64_MAX
 -
 offset
 )

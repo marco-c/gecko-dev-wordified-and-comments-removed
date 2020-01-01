@@ -38,7 +38,7 @@ eCSSProperty_COUNT_no_shorthands
 1
 <
 =
-PR_UINT8_MAX
+UINT8_MAX
 "
 CSS
 longhand

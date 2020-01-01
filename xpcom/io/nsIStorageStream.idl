@@ -249,7 +249,7 @@ this
 value
 .
 Passing
-PR_UINT32_MAX
+UINT32_MAX
 is
 safe
 .

@@ -1360,7 +1360,7 @@ NS_MIN
 (
 int32_t
 (
-PR_UINT16_MAX
+UINT16_MAX
 )
 chunkSize
 )
@@ -1465,11 +1465,11 @@ if
 (
 readCount
 >
-PR_UINT32_MAX
+UINT32_MAX
 )
 readCount
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 rv
 =
@@ -1490,7 +1490,7 @@ sourceOffset
 (
 uint64_t
 )
-PR_UINT32_MAX
+UINT32_MAX
 )
 (
 uint32_t

@@ -7019,7 +7019,7 @@ if
 aPriority
 =
 =
-PR_INT16_MAX
+INT16_MAX
 )
 return
 NS_ERROR_FAILURE

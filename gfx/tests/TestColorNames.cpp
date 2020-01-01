@@ -426,7 +426,7 @@ if
 a
 !
 =
-PR_UINT8_MAX
+UINT8_MAX
 )
 {
 rgb

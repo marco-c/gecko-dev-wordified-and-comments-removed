@@ -4181,7 +4181,7 @@ if
 (
 avail64
 >
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
@@ -4202,7 +4202,7 @@ avail64
 (
 uint64_t
 )
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 if

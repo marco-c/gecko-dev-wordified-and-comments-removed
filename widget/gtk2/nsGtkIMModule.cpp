@@ -291,7 +291,7 @@ nullptr
 )
 mCompositionStart
 (
-PR_UINT32_MAX
+UINT32_MAX
 )
 mProcessingKeyEvent
 (
@@ -4438,7 +4438,7 @@ mReply
 mOffset
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 PR_LOG
@@ -4870,7 +4870,7 @@ eCompositionState_NotComposing
 ;
 mCompositionStart
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 mDispatchedCompositionString
 .
@@ -5981,7 +5981,7 @@ if
 aTargetOffset
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 PR_LOG
@@ -6397,19 +6397,19 @@ if
 (
 selOffset
 >
-PR_INT32_MAX
+INT32_MAX
 |
 |
 selLength
 >
-PR_INT32_MAX
+INT32_MAX
 |
 |
 selOffset
 +
 selLength
 >
-PR_INT32_MAX
+INT32_MAX
 )
 {
 PR_LOG
@@ -6446,7 +6446,7 @@ queryTextContentEvent
 InitForQueryTextContent
 (
 0
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 mLastFocusedWindow
@@ -6930,7 +6930,7 @@ queryTextContentEvent
 InitForQueryTextContent
 (
 0
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 mLastFocusedWindow

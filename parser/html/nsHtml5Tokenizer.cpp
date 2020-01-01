@@ -1651,7 +1651,7 @@ cstart
 }
 cstart
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 void
@@ -2097,7 +2097,7 @@ default
 {
 cstart
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 break
 ;
@@ -17530,7 +17530,7 @@ LF
 ;
 cstart
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 void

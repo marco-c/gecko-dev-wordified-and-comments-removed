@@ -481,7 +481,7 @@ NS_ABORT_IF_FALSE
 (
 mFixedEndpointRefCnt
 <
-PR_UINT16_MAX
+UINT16_MAX
 "
 Fixed
 endpoint

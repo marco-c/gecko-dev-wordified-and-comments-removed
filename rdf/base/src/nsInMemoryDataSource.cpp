@@ -475,7 +475,7 @@ if
 mRefCnt
 =
 =
-PR_UINT16_MAX
+UINT16_MAX
 )
 {
 NS_WARNING
@@ -509,7 +509,7 @@ if
 mRefCnt
 =
 =
-PR_UINT16_MAX
+UINT16_MAX
 )
 {
 NS_WARNING

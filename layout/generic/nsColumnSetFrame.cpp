@@ -1664,7 +1664,7 @@ else
 {
 numColumns
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 #
@@ -2693,7 +2693,7 @@ aConfig
 .
 mBalanceColCount
 <
-PR_INT32_MAX
+INT32_MAX
 ;
 #
 ifdef
@@ -3232,7 +3232,7 @@ aConfig
 .
 mBalanceColCount
 <
-PR_INT32_MAX
+INT32_MAX
 )
 {
 aColData
@@ -3996,7 +3996,7 @@ config
 .
 mBalanceColCount
 <
-PR_INT32_MAX
+INT32_MAX
 ;
 nsIFrame
 *
@@ -4051,7 +4051,7 @@ config
 .
 mBalanceColCount
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 bool

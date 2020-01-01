@@ -1816,11 +1816,11 @@ if
 (
 avail
 >
-PR_UINT32_MAX
+UINT32_MAX
 )
 avail
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 rv
 =

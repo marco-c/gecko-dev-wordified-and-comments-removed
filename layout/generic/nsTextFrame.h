@@ -966,7 +966,7 @@ aSkippedStartOffset
 uint32_t
 aSkippedMaxLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 nsOverflowAreas

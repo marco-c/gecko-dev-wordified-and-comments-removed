@@ -924,7 +924,7 @@ NS_ASSERTION
 aFlag
 <
 =
-PR_UINT8_MAX
+UINT8_MAX
 "
 bad
 flag

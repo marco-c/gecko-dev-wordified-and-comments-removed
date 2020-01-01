@@ -37,7 +37,7 @@ if
 aId
 <
 =
-PR_INT16_MAX
+INT16_MAX
 )
 {
 return
@@ -54,7 +54,7 @@ if
 aId
 <
 =
-PR_INT32_MAX
+INT32_MAX
 )
 {
 return

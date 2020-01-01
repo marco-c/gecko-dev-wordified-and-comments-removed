@@ -861,12 +861,12 @@ NS_ASSERTION
 (
 aType
 >
-PR_INT16_MIN
+INT16_MIN
 &
 &
 aType
 <
-PR_INT16_MAX
+INT16_MAX
 "
 Out
 of

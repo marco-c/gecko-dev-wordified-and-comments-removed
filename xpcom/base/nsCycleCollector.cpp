@@ -7236,7 +7236,7 @@ if
 refCount
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 Fault
 (
@@ -7305,7 +7305,7 @@ refCount
 =
 isMarked
 ?
-PR_UINT32_MAX
+UINT32_MAX
 :
 0
 ;
@@ -11531,7 +11531,7 @@ pi
 >
 mRefCount
 <
-PR_UINT32_MAX
+UINT32_MAX
 &
 &
 pi

@@ -96,7 +96,7 @@ getter_AddRefs
 output
 )
 10
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 if
@@ -163,7 +163,7 @@ NS_FAILED
 NS_ConsumeStream
 (
 input
-PR_UINT32_MAX
+UINT32_MAX
 buf
 )
 )

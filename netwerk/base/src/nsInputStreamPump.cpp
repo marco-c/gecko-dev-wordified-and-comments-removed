@@ -465,7 +465,7 @@ dummy64
 (
 uint64_t
 )
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 PeekData
@@ -1802,9 +1802,9 @@ odaAvail
 =
 avail
 >
-PR_UINT32_MAX
+UINT32_MAX
 ?
-PR_UINT32_MAX
+UINT32_MAX
 :
 uint32_t
 (

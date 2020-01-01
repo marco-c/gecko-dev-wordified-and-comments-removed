@@ -2623,7 +2623,7 @@ Count
 )
 <
 =
-PR_INT32_MAX
+INT32_MAX
 "
 Too
 many
@@ -2691,7 +2691,7 @@ Count
 )
 <
 =
-PR_INT32_MAX
+INT32_MAX
 "
 Too
 many

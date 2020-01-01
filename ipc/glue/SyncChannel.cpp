@@ -91,7 +91,7 @@ SyncChannel
 :
 kNoTimeout
 =
-PR_INT32_MIN
+INT32_MIN
 ;
 SyncChannel
 :

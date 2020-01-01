@@ -477,7 +477,7 @@ aStream
 .
 Passing
 *
-PR_UINT32_MAX
+UINT32_MAX
 indicates
 that
 all

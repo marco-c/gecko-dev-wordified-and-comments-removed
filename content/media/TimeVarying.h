@@ -288,7 +288,7 @@ aTime
 *
 aTime
 =
-PR_INT64_MIN
+INT64_MIN
 ;
 }
 return
@@ -514,7 +514,7 @@ aStart
 *
 aStart
 =
-PR_INT64_MIN
+INT64_MIN
 ;
 }
 if
@@ -531,7 +531,7 @@ IsEmpty
 (
 )
 ?
-PR_INT64_MAX
+INT64_MAX
 :
 mChanges
 [
@@ -577,7 +577,7 @@ aEnd
 *
 aEnd
 =
-PR_INT64_MAX
+INT64_MAX
 ;
 }
 if

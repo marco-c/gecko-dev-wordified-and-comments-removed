@@ -17,7 +17,7 @@ define
 MAX_CAPACITY
 (
 (
-PR_UINT32_MAX
+UINT32_MAX
 /
 sizeof
 (

@@ -1510,7 +1510,7 @@ mTextChange
 .
 acpStart
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 mTextChange
 .
@@ -7662,7 +7662,7 @@ length
 =
 acpEnd
 ?
-PR_UINT32_MAX
+UINT32_MAX
 :
 uint32_t
 (
@@ -9349,7 +9349,7 @@ event
 InitForQueryTextContent
 (
 0
-PR_INT32_MAX
+INT32_MAX
 )
 ;
 mWindow
@@ -15229,7 +15229,7 @@ TS_AS_TEXT_CHANGE
 )
 &
 &
-PR_INT32_MAX
+INT32_MAX
 >
 mTextChange
 .
@@ -15310,7 +15310,7 @@ mTextChange
 .
 acpStart
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 mTextChange
 .

@@ -202,7 +202,7 @@ rv
 NS_NewStorageStream
 (
 256
-PR_UINT32_MAX
+UINT32_MAX
 getter_AddRefs
 (
 storageStream
@@ -406,7 +406,7 @@ NS_ENSURE_TRUE
 avail64
 <
 =
-PR_UINT32_MAX
+UINT32_MAX
 NS_ERROR_FILE_TOO_BIG
 )
 ;

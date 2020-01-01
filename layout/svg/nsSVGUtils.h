@@ -1215,13 +1215,13 @@ NS_MAX
 (
 double
 (
-PR_INT32_MIN
+INT32_MIN
 )
 NS_MIN
 (
 double
 (
-PR_INT32_MAX
+INT32_MAX
 )
 aVal
 )

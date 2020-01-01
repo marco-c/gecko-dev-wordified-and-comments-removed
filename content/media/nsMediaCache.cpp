@@ -2734,7 +2734,7 @@ int64_t
 >
 (
 maxBlocks
-PR_INT32_MAX
+INT32_MAX
 )
 )
 ;
@@ -2771,7 +2771,7 @@ aStream
 mChannelOffset
 /
 BLOCK_SIZE
-PR_INT32_MAX
+INT32_MAX
 )
 ;
 if
@@ -4485,7 +4485,7 @@ int64_t
 >
 (
 millisecondsAhead
-PR_INT32_MAX
+INT32_MAX
 )
 )
 ;
@@ -4626,7 +4626,7 @@ int64_t
 >
 (
 millisecondsAhead
-PR_INT32_MAX
+INT32_MAX
 )
 )
 ;
@@ -9696,7 +9696,7 @@ NS_MIN
 size
 int64_t
 (
-PR_INT32_MAX
+INT32_MAX
 )
 )
 ;
@@ -9922,7 +9922,7 @@ size
 size
 <
 =
-PR_INT32_MAX
+INT32_MAX
 "
 Size
 out
@@ -10169,7 +10169,7 @@ NS_MIN
 size
 int64_t
 (
-PR_INT32_MAX
+INT32_MAX
 )
 )
 ;
@@ -10284,7 +10284,7 @@ size
 size
 <
 =
-PR_INT32_MAX
+INT32_MAX
 "
 Size
 out

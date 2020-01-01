@@ -3529,7 +3529,7 @@ mDecrementedSessionCount
 )
 mMaxMessageSize
 (
-PR_INT32_MAX
+INT32_MAX
 )
 mStopOnClose
 (
@@ -11128,7 +11128,7 @@ clamped
 (
 intpref
 1024
-PR_INT32_MAX
+INT32_MAX
 )
 ;
 }

@@ -1205,7 +1205,7 @@ aClip
 uint32_t
 aRoundedRectClipCount
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 nsDisplayListBuilder

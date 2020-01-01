@@ -4511,7 +4511,7 @@ if
 err
 )
 return
-PR_INT32_MIN
+INT32_MIN
 ;
 uint32_t
 c16_32

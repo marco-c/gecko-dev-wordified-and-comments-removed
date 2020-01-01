@@ -265,7 +265,7 @@ nullptr
 uint32_t
 newSize
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 NS_HIDDEN_
@@ -277,7 +277,7 @@ BeginWriting
 (
 uint32_t
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 NS_HIDDEN_
@@ -409,7 +409,7 @@ aData
 size_type
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_StringSetData
@@ -1897,7 +1897,7 @@ nullptr
 uint32_t
 newSize
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 NS_HIDDEN_
@@ -1910,7 +1910,7 @@ BeginWriting
 uint32_t
 aLen
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 NS_HIDDEN_
@@ -2042,7 +2042,7 @@ aData
 size_type
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_CStringSetData
@@ -3503,7 +3503,7 @@ aData
 size_type
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_StringContainerInit2
@@ -3634,7 +3634,7 @@ aData
 size_type
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_StringContainerFinish
@@ -3761,7 +3761,7 @@ aData
 size_type
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_CStringContainerInit
@@ -3897,7 +3897,7 @@ aData
 size_type
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_CStringContainerFinish
@@ -3969,7 +3969,7 @@ aData
 size_type
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 :
 nsString
@@ -3990,7 +3990,7 @@ aData
 size_type
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_StringContainerFinish
@@ -4052,7 +4052,7 @@ aData
 size_type
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 :
 nsCString
@@ -4073,7 +4073,7 @@ aData
 size_type
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_CStringContainerFinish
@@ -4243,7 +4243,7 @@ aData
 uint32_t
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_CStringToUTF16
@@ -4315,7 +4315,7 @@ aData
 uint32_t
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_CStringToUTF16
@@ -4387,7 +4387,7 @@ aData
 uint32_t
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_UTF16ToCString
@@ -4459,7 +4459,7 @@ aData
 uint32_t
 aLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_UTF16ToCString

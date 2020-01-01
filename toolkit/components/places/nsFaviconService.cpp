@@ -2773,7 +2773,7 @@ available64
 |
 available64
 >
-PR_UINT32_MAX
+UINT32_MAX
 /
 sizeof
 (
@@ -3110,7 +3110,7 @@ available64
 |
 available64
 >
-PR_UINT32_MAX
+UINT32_MAX
 /
 sizeof
 (
@@ -3597,7 +3597,7 @@ rv
 NS_ConsumeStream
 (
 istream
-PR_UINT32_MAX
+UINT32_MAX
 mDefaultFaviconData
 )
 ;
@@ -4907,7 +4907,7 @@ rv
 NS_ConsumeStream
 (
 iconStream
-PR_UINT32_MAX
+UINT32_MAX
 aNewData
 )
 ;

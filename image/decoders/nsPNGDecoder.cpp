@@ -2658,7 +2658,7 @@ if
 (
 height
 <
-PR_INT32_MAX
+INT32_MAX
 /
 (
 width

@@ -5022,7 +5022,7 @@ aFrame
 GetContent
 (
 )
-PR_INT32_MAX
+INT32_MAX
 optionalBreakAfterFits
 eNormalBreak
 )

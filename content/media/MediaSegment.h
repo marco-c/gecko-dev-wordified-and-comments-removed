@@ -28,7 +28,7 @@ const
 int64_t
 MEDIA_TIME_MAX
 =
-PR_INT64_MAX
+INT64_MAX
 ;
 inline
 MediaTime
@@ -125,7 +125,7 @@ const
 int64_t
 TRACK_TICKS_MAX
 =
-PR_INT64_MAX
+INT64_MAX
 >
 >
 MEDIA_TIME_FRAC_BITS

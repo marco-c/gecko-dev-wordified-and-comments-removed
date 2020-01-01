@@ -613,7 +613,7 @@ NS_ABORT_IF_FALSE
 aNodeType
 =
 =
-PR_UINT16_MAX
+UINT16_MAX
 "
 Unknown
 node

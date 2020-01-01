@@ -4300,8 +4300,8 @@ newValue
 clamped
 (
 aPriority
-PR_INT16_MIN
-PR_INT16_MAX
+INT16_MIN
+INT16_MAX
 )
 ;
 if

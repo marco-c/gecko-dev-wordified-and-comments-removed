@@ -4727,7 +4727,7 @@ text
 nullptr
 nullptr
 0
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 if

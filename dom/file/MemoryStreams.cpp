@@ -42,7 +42,7 @@ NS_ENSURE_TRUE
 aSize
 <
 =
-PR_UINT32_MAX
+UINT32_MAX
 nullptr
 )
 ;

@@ -1638,7 +1638,7 @@ if
 (
 avail
 <
-PR_INT64_MAX
+INT64_MAX
 )
 mUploadLength
 =

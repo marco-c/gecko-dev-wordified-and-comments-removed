@@ -332,12 +332,12 @@ if
 (
 aValue
 >
-PR_INT32_MAX
+INT32_MAX
 |
 |
 aValue
 <
-PR_INT32_MIN
+INT32_MIN
 )
 return
 NS_ERROR_CANNOT_CONVERT_DATA

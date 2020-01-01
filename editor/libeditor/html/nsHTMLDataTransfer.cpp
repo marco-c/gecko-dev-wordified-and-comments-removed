@@ -5550,7 +5550,7 @@ rv
 NS_ConsumeStream
 (
 imageStream
-PR_UINT32_MAX
+UINT32_MAX
 imageData
 )
 ;

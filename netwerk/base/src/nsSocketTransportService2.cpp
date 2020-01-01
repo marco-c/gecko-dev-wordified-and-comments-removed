@@ -1649,7 +1649,7 @@ NS_SOCKET_POLL_TIMEOUT
 uint32_t
 minR
 =
-PR_UINT16_MAX
+UINT16_MAX
 ;
 for
 (
@@ -3392,7 +3392,7 @@ mHandler
 mPollTimeout
 !
 =
-PR_UINT16_MAX
+UINT16_MAX
 )
 {
 if
@@ -3402,7 +3402,7 @@ NS_UNLIKELY
 pollInterval
 >
 (
-PR_UINT16_MAX
+UINT16_MAX
 -
 s
 .
@@ -3414,7 +3414,7 @@ s
 .
 mElapsedTime
 =
-PR_UINT16_MAX
+UINT16_MAX
 ;
 else
 s

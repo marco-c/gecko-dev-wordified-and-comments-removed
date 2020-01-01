@@ -2594,7 +2594,7 @@ SA_SUCCESS
 |
 size
 >
-PR_INT32_MAX
+INT32_MAX
 )
 return
 -
@@ -4706,7 +4706,7 @@ uint64_t
 >
 (
 adjustedPosition
-PR_INT64_MAX
+INT64_MAX
 )
 ;
 }

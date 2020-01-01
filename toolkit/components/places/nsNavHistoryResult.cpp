@@ -14424,7 +14424,7 @@ excludeItems
 ReindexRange
 (
 aIndex
-PR_INT32_MAX
+INT32_MAX
 1
 )
 ;
@@ -14445,7 +14445,7 @@ NS_OK
 ReindexRange
 (
 aIndex
-PR_INT32_MAX
+INT32_MAX
 1
 )
 ;
@@ -14830,7 +14830,7 @@ excludeItems
 ReindexRange
 (
 aIndex
-PR_INT32_MAX
+INT32_MAX
 -
 1
 )
@@ -14854,7 +14854,7 @@ ReindexRange
 aIndex
 +
 1
-PR_INT32_MAX
+INT32_MAX
 -
 1
 )
@@ -15766,7 +15766,7 @@ ReindexRange
 aOldIndex
 +
 1
-PR_INT32_MAX
+INT32_MAX
 -
 1
 )
@@ -15774,7 +15774,7 @@ PR_INT32_MAX
 ReindexRange
 (
 aNewIndex
-PR_INT32_MAX
+INT32_MAX
 1
 )
 ;

@@ -1546,7 +1546,7 @@ foundLevel
 i
 ]
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 const

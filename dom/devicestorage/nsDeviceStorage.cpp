@@ -1846,7 +1846,7 @@ uint64_t
 >
 (
 bufSize
-PR_UINT32_MAX
+UINT32_MAX
 )
 )
 &

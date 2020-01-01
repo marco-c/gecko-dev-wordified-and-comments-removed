@@ -1331,7 +1331,7 @@ if
 (
 fs64
 >
-PR_UINT32_MAX
+UINT32_MAX
 )
 return
 NS_ERROR_FILE_TOO_BIG

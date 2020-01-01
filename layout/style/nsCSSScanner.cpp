@@ -5548,7 +5548,7 @@ NS_MIN
 intPart
 double
 (
-PR_INT32_MAX
+INT32_MAX
 )
 )
 )
@@ -5568,7 +5568,7 @@ NS_MAX
 intPart
 double
 (
-PR_INT32_MIN
+INT32_MIN
 )
 )
 )

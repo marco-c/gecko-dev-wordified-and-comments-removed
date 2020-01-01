@@ -10081,11 +10081,11 @@ IDX_VALUE
 )
 mJSContextIndex
 (
-PR_UINT8_MAX
+UINT8_MAX
 )
 mOptArgcIndex
 (
-PR_UINT8_MAX
+UINT8_MAX
 )
 mArgv
 (

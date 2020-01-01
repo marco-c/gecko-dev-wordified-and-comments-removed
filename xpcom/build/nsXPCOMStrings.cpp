@@ -134,7 +134,7 @@ if
 aDataLength
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_ENSURE_ARG
@@ -362,7 +362,7 @@ if
 aDataLength
 !
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 aStr
@@ -499,7 +499,7 @@ if
 aCutOffset
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 if
@@ -523,7 +523,7 @@ if
 aCutLength
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 aCutLength
 =
@@ -545,7 +545,7 @@ if
 aDataLength
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 aStr
 .
@@ -763,7 +763,7 @@ if
 aDataLength
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 NS_ENSURE_ARG
@@ -991,7 +991,7 @@ if
 aDataLength
 !
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 aStr
@@ -1128,7 +1128,7 @@ if
 aCutOffset
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 if
@@ -1152,7 +1152,7 @@ if
 aCutLength
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 aCutLength
 =
@@ -1174,7 +1174,7 @@ if
 aDataLength
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 aStr
 .

@@ -862,7 +862,7 @@ tdi
 .
 value
 =
-PR_INT32_MAX
+INT32_MAX
 *
 (
 mValue
@@ -874,7 +874,7 @@ tdi
 .
 max
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 tdi
 .

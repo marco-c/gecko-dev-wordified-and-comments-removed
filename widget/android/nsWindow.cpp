@@ -11350,7 +11350,7 @@ event
 InitForQueryTextContent
 (
 0
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 DispatchEvent

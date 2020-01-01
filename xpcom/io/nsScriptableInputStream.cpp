@@ -181,7 +181,7 @@ uint64_t
 count64
 aCount
 )
-PR_UINT32_MAX
+UINT32_MAX
 -
 1
 )

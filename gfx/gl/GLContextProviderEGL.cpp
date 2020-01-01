@@ -1422,7 +1422,7 @@ int32_t
 ;
 mMaxTextureImageSize
 =
-PR_INT32_MAX
+INT32_MAX
 ;
 mShareWithEGLImage
 =

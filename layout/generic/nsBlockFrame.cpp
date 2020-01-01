@@ -28537,12 +28537,12 @@ lineCount
 nscoord
 lastY
 =
-PR_INT32_MIN
+INT32_MIN
 ;
 nscoord
 lastYMost
 =
-PR_INT32_MIN
+INT32_MIN
 ;
 for
 (

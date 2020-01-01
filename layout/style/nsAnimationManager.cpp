@@ -2812,7 +2812,7 @@ PLDHashNumber
 (
 key
 *
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 }

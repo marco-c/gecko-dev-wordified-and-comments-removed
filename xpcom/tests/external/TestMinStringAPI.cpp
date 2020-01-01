@@ -158,7 +158,7 @@ NS_CStringSetData
 (
 s
 kAsciiData
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 len
@@ -426,7 +426,7 @@ NS_StringSetData
 (
 s
 kUnicodeData
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 len
@@ -1638,7 +1638,7 @@ NS_CStringContainerInit2
 (
 s
 data
-PR_UINT32_MAX
+UINT32_MAX
 NS_CSTRING_CONTAINER_INIT_ADOPT
 )
 false

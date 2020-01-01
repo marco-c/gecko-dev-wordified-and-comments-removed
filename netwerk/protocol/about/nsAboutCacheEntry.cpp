@@ -515,7 +515,7 @@ mOutputStream
 true
 false
 256
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 if

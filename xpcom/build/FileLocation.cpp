@@ -723,7 +723,7 @@ size
 >
 int64_t
 (
-PR_UINT32_MAX
+UINT32_MAX
 )
 )
 return
@@ -814,7 +814,7 @@ len
 totalRead
 uint32_t
 (
-PR_INT32_MAX
+INT32_MAX
 )
 )
 )

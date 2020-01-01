@@ -201,7 +201,7 @@ const
 size_t
 MaxCompressedCSSProperty
 =
-PR_INT16_MAX
+INT16_MAX
 ;
 private
 :

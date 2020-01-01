@@ -9782,7 +9782,7 @@ ToInt
 ;
 }
 return
-PR_INT32_MIN
+INT32_MIN
 ;
 }
 #

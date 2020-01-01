@@ -4560,11 +4560,11 @@ if
 maxSize
 =
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 segmentCount
 =
-PR_UINT32_MAX
+UINT32_MAX
 ;
 else
 segmentCount

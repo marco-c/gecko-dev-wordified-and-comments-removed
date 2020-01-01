@@ -1153,7 +1153,7 @@ aCoord
 )
 {
 return
-PR_INT32_MIN
+INT32_MIN
 ;
 }
 else
@@ -1167,7 +1167,7 @@ aCoord
 )
 {
 return
-PR_INT32_MAX
+INT32_MAX
 ;
 }
 else

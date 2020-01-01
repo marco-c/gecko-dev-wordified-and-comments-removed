@@ -34957,7 +34957,7 @@ if
 mFrameRequestCallbackCounter
 =
 =
-PR_INT32_MAX
+INT32_MAX
 )
 {
 return
