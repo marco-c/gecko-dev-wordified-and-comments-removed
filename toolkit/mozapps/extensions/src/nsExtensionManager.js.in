@@ -35213,7 +35213,6 @@ getIncompatibleItemList
 function
 EM_getIncompatibleItemList
 (
-id
 appVersion
 platformVersion
 type
@@ -35230,7 +35229,6 @@ datasource
 .
 getIncompatibleItemList
 (
-id
 appVersion
 ?
 appVersion
@@ -47627,19 +47625,6 @@ version
 .
 *
 param
-appID
-*
-The
-ID
-of
-the
-application
--
-XXXben
-unused
-?
-*
-param
 appVersion
 *
 The
@@ -47719,7 +47704,6 @@ getIncompatibleItemList
 function
 EMDS_getIncompatibleItemList
 (
-appID
 appVersion
 platformVersion
 desiredType

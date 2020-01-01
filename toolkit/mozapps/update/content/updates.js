@@ -2308,8 +2308,6 @@ em
 .
 getIncompatibleItemList
 (
-"
-"
 gUpdates
 .
 update
@@ -2348,8 +2346,6 @@ em
 .
 getIncompatibleItemList
 (
-"
-"
 null
 null
 CoI
