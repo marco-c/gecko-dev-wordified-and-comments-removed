@@ -8044,8 +8044,6 @@ return
 ;
 }
 }
-#
-endif
 out
 -
 >
@@ -8076,6 +8074,8 @@ get
 )
 )
 ;
+#
+endif
 }
 bool
 staticallyLink
@@ -37875,6 +37875,11 @@ js_GetErrorMessage
 NULL
 code
 str
+?
+str
+:
+"
+"
 )
 ;
 }
