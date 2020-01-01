@@ -428,10 +428,6 @@ mk
 MODULE
 =
 dom
-DIRS
-+
-=
-testplugin
 EXPORTS_NAMESPACES
 =
 mozilla
