@@ -457,9 +457,6 @@ interface
 mozIStorageConnection
 ;
 interface
-mozIStorageDataSet
-;
-interface
 nsISimpleEnumerator
 ;
 interface
