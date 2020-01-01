@@ -118,7 +118,7 @@ FrameMetrics
 h
 '
 '
-GonkIOSurfaceImage
+GrallocImages
 .
 h
 '
@@ -1012,11 +1012,6 @@ cpp
 '
 '
 GrallocImages
-.
-cpp
-'
-'
-GonkIOSurfaceImage
 .
 cpp
 '

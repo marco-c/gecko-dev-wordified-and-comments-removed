@@ -89,7 +89,7 @@ MOZ_WIDGET_GONK
 #
 include
 "
-GonkIOSurfaceImage
+GrallocImages
 .
 h
 "
@@ -4166,13 +4166,13 @@ if
 format
 =
 =
-GONK_IO_SURFACE
+GRALLOC_PLANAR_YCBCR
 )
 {
 layers
 :
 :
-GonkIOSurfaceImage
+GrallocImage
 *
 nativeImage
 =
@@ -4181,7 +4181,7 @@ static_cast
 layers
 :
 :
-GonkIOSurfaceImage
+GrallocImage
 *
 >
 (
