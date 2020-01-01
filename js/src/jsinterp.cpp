@@ -619,6 +619,13 @@ if
 (
 !
 tmp
+|
+|
+!
+OBJ_IS_NATIVE
+(
+tmp
+)
 )
 {
 PCMETER
