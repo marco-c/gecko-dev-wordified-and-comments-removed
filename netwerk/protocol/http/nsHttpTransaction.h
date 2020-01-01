@@ -110,9 +110,6 @@ TimingStruct
 h
 "
 class
-nsHttpTransaction
-;
-class
 nsHttpRequestHead
 ;
 class

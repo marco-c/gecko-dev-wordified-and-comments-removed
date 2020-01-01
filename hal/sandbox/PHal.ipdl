@@ -356,6 +356,12 @@ bandwidth
 bool
 canBeMetered
 ;
+bool
+isWifi
+;
+uint32_t
+dhcpGateway
+;
 }
 ;
 struct
