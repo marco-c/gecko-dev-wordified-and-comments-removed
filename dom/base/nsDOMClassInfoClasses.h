@@ -1617,6 +1617,10 @@ DOMCI_CLASS
 (
 BluetoothPropertyEvent
 )
+DOMCI_CLASS
+(
+BluetoothPairingEvent
+)
 #
 endif
 DOMCI_CLASS
