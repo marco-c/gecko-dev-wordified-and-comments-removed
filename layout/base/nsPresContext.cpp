@@ -3113,6 +3113,16 @@ char
 aPrefName
 )
 {
+if
+(
+IsPaginated
+(
+)
+)
+{
+return
+;
+}
 nsDependentCString
 prefName
 (
