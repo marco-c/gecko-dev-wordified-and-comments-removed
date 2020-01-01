@@ -1166,7 +1166,7 @@ dest
 {
 m_assembler
 .
-dataTransfer32
+dataTransfer8
 (
 true
 dest
@@ -1176,7 +1176,6 @@ base
 address
 .
 offset
-true
 )
 ;
 }
