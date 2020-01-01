@@ -1719,6 +1719,16 @@ repositories
 /
 domain
 /
+RecordParseException
+.
+java
+\
+sync
+/
+repositories
+/
+domain
+/
 TabsRecord
 .
 java
