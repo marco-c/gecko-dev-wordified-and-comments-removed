@@ -351,7 +351,7 @@ self
 .
 timeout
 =
-600
+3600
             
 time
 .
@@ -433,12 +433,28 @@ def
 wait
 (
 self
+timeout
+=
+None
 )
 :
             
 timer
 =
 0
+            
+if
+timeout
+=
+=
+None
+:
+                
+timeout
+=
+self
+.
+timeout
             
 while
 (
@@ -470,8 +486,6 @@ if
 (
 timer
 >
-self
-.
 timeout
 )
 :
@@ -483,8 +497,6 @@ if
 timer
 >
 =
-self
-.
 timeout
 )
 :
@@ -1149,15 +1161,15 @@ temp
         
 options
 .
-httpPort
-=
-tempPort
-        
-options
-.
 sslPort
 =
 tempSSL
+        
+options
+.
+httpPort
+=
+tempPort
         
 if
 (
