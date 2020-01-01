@@ -179,6 +179,8 @@ eDOMEvents_online
 eDOMEvents_copy
 eDOMEvents_cut
 eDOMEvents_paste
+eDOMEvents_open
+eDOMEvents_message
 #
 ifdef
 MOZ_SVG

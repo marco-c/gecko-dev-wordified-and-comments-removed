@@ -948,6 +948,16 @@ xsl
 "
 #
 define
+TEXT_EVENT_STREAM
+"
+text
+/
+event
+-
+stream
+"
+#
+define
 VIDEO_MPEG
 "
 video

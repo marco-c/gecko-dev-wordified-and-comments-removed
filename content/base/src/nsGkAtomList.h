@@ -4554,6 +4554,13 @@ only
 )
 GK_ATOM
 (
+onmessage
+"
+onmessage
+"
+)
+GK_ATOM
+(
 onmousedown
 "
 onmousedown
@@ -4634,6 +4641,13 @@ GK_ATOM
 onoffline
 "
 onoffline
+"
+)
+GK_ATOM
+(
+onopen
+"
+onopen
 "
 )
 GK_ATOM

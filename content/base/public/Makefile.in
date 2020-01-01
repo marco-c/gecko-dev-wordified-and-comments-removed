@@ -709,6 +709,10 @@ nsIWebSocket
 .
 idl
 \
+nsIEventSource
+.
+idl
+\
 (
 NULL
 )

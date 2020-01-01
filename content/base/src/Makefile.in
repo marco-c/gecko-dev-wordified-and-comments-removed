@@ -830,6 +830,10 @@ ThirdPartyUtil
 .
 cpp
 \
+nsEventSource
+.
+cpp
+\
 (
 NULL
 )
