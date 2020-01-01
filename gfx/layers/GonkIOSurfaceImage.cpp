@@ -320,14 +320,7 @@ android
 :
 :
 ColorConverter
-*
 colorConverter
-=
-new
-android
-:
-:
-ColorConverter
 (
 (
 OMX_COLOR_FORMATTYPE
@@ -340,8 +333,7 @@ if
 (
 !
 colorConverter
--
->
+.
 isValid
 (
 )
@@ -406,8 +398,7 @@ height
 rv
 =
 colorConverter
--
->
+.
 convert
 (
 buffer
