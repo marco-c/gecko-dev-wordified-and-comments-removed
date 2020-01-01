@@ -808,6 +808,10 @@ test_table_indexes_ariagrid
 .
 html
 \
+test_table_sels_ariagrid
+.
+html
+\
 test_textattrs
 .
 html
