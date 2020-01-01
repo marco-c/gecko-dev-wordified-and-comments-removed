@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsStaticComponents
-.
-h
-"
-#
-include
-"
 nsMemory
 .
 h
@@ -845,6 +838,7 @@ NSMODULE_NAME
 (
 _name
 )
+extern
 const
 mozilla
 :

@@ -290,14 +290,6 @@ config
 h
 \
 (
-srcdir
-)
-/
-nsStaticComponents
-.
-h
-\
-(
 NULL
 )
 HEADERS_DEST
