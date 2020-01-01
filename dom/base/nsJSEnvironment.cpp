@@ -6487,7 +6487,7 @@ rv
 =
 aScriptObject
 .
-set
+setScript
 (
 script
 )
@@ -8512,15 +8512,6 @@ nsScriptObjectHolder
 aResult
 )
 {
-JSScript
-*
-result
-=
-nsnull
-;
-nsresult
-rv
-;
 NS_TIME_FUNCTION_MIN
 (
 1
@@ -8531,6 +8522,7 @@ NS_TIME_FUNCTION_MIN
 PRUint32
 size
 ;
+nsresult
 rv
 =
 aStream
@@ -8595,6 +8587,12 @@ JS_XDRNewMem
 cx
 JSXDR_DECODE
 )
+;
+JSScript
+*
+result
+=
+nsnull
 ;
 if
 (
@@ -8732,7 +8730,7 @@ rv
 return
 aResult
 .
-set
+setScript
 (
 result
 )
