@@ -574,6 +574,11 @@ JSOP_ARGUMENTS
 \
 _
 (
+JSOP_TOID
+)
+\
+_
+(
 JSOP_POPV
 )
 \
