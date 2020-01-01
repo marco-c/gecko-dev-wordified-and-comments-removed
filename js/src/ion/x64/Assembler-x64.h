@@ -807,7 +807,8 @@ IntArgReg0
 rcx
 ;
 static
-constMOZ_CONSTEXPRconstexpr
+const
+MOZ_CONSTEXPR
 Register
 IntArgReg1
 =
@@ -830,7 +831,9 @@ IntArgReg3
 r9
 ;
 static
-constMOZ_CONSTEXPRuint32_t
+const
+MOZ_CONSTEXPR
+uint32_t
 NumIntArgRegs
 =
 4
