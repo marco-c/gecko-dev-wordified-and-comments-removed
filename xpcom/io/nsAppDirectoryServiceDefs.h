@@ -233,12 +233,6 @@ LclSt
 "
 #
 define
-NS_APP_HISTORY_50_FILE
-"
-UHist
-"
-#
-define
 NS_APP_USER_PANELS_50_FILE
 "
 UPnls

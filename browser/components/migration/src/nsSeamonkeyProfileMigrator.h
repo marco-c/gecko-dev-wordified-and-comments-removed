@@ -229,13 +229,6 @@ aReplace
 )
 ;
 nsresult
-CopyHistory
-(
-PRBool
-aReplace
-)
-;
-nsresult
 CopyPasswords
 (
 PRBool
