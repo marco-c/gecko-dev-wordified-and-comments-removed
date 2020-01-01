@@ -790,6 +790,18 @@ contain
 the
 word
 freebl
+ifeq
+(
+(
+NSS_BUILD_WITHOUT_SOFTOKEN
+)
+1
+)
+CHECKLIBS
+=
+CHECKLOC
+=
+else
 CHECKLIBS
 =
 (
@@ -872,6 +884,7 @@ ALL_TRASH
 (
 CHECKLOC
 )
+endif
 #
 #
 #

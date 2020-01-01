@@ -57,17 +57,6 @@ MPL
 0
 /
 .
-cvs_id
-=
-'
-(
-#
-)
-RCSfile
-Revision
-Date
-'
-;
 copyright
 =
 '

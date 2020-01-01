@@ -86,12 +86,6 @@ MPL
 .
 #
 #
-ident
-"
-Id
-"
-#
-#
 Simple
 script
 which

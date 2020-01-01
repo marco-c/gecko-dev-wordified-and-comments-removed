@@ -54,16 +54,6 @@ MPL
 0
 /
 .
-MAKEFILE_CVS_ID
-=
-"
-(
-#
-)
-RCSfile
-Revision
-Date
-"
 include
 manifest
 .
@@ -289,6 +279,9 @@ NSS_CERTDATA_TXT
 certdata
 .
 perl
+(
+MAKE_OBJDIR
+)
 (
 PERL
 )

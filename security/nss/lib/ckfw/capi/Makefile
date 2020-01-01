@@ -54,16 +54,6 @@ MPL
 0
 /
 .
-MAKEFILE_CVS_ID
-=
-"
-(
-#
-)
-RCSfile
-Revision
-Date
-"
 include
 manifest
 .
