@@ -241,11 +241,11 @@ xpc
 return
 NS_ERROR_FAILURE
 ;
-nsCOMPtr
-<
-nsIXPCNativeCallContext
->
+nsAXPCNativeCallContext
+*
 cc
+=
+nsnull
 ;
 rv
 =
@@ -254,10 +254,8 @@ xpc
 >
 GetCurrentNativeCallContext
 (
-getter_AddRefs
-(
+&
 cc
-)
 )
 ;
 if

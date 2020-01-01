@@ -5116,11 +5116,11 @@ nsAutoString
 user
 password
 ;
-nsCOMPtr
-<
-nsIXPCNativeCallContext
->
+nsAXPCNativeCallContext
+*
 cc
+=
+nsnull
 ;
 nsIXPConnect
 *
@@ -5145,10 +5145,8 @@ xpc
 >
 GetCurrentNativeCallContext
 (
-getter_AddRefs
-(
+&
 cc
-)
 )
 ;
 }

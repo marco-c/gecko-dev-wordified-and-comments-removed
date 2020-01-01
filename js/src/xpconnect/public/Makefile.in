@@ -426,6 +426,10 @@ xpconnect
 EXPORTS
 =
 \
+nsAXPCNativeCallContext
+.
+h
+\
 xpc_map_end
 .
 h

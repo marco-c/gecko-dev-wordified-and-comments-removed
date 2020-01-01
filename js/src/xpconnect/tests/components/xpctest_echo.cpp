@@ -1377,11 +1377,11 @@ nsresult
 rv
 ;
 \
-nsCOMPtr
-<
-nsIXPCNativeCallContext
->
+nsAXPCNativeCallContext
+*
 cc
+=
+nsnull
 ;
 \
 nsCOMPtr
@@ -1419,10 +1419,8 @@ xpc
 >
 GetCurrentNativeCallContext
 (
-getter_AddRefs
-(
+&
 cc
-)
 )
 /
 *

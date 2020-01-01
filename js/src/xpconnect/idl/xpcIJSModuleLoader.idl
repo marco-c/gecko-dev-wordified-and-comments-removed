@@ -441,8 +441,14 @@ nsISupports
 .
 idl
 "
-interface
-nsIXPCNativeCallContext
+[
+ptr
+]
+native
+nsAXPCNativeCallContextPtr
+(
+nsAXPCNativeCallContext
+)
 ;
 %
 {
@@ -842,7 +848,7 @@ in
 JSObjectPtr
 targetObj
 in
-nsIXPCNativeCallContext
+nsAXPCNativeCallContextPtr
 cc
 )
 ;

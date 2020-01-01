@@ -473,11 +473,11 @@ mContext
 =
 aContext
 ;
-nsCOMPtr
-<
-nsIXPCNativeCallContext
->
+nsAXPCNativeCallContext
+*
 ncc
+=
+nsnull
 ;
 nsresult
 rv
@@ -492,10 +492,8 @@ XPConnect
 >
 GetCurrentNativeCallContext
 (
-getter_AddRefs
-(
+&
 ncc
-)
 )
 ;
 NS_ENSURE_SUCCESS

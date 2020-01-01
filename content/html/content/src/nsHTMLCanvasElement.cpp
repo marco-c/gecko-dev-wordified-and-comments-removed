@@ -1024,11 +1024,11 @@ aDataURL
 nsresult
 rv
 ;
-nsCOMPtr
-<
-nsIXPCNativeCallContext
->
+nsAXPCNativeCallContext
+*
 ncc
+=
+nsnull
 ;
 rv
 =
@@ -1042,10 +1042,8 @@ XPConnect
 >
 GetCurrentNativeCallContext
 (
-getter_AddRefs
-(
+&
 ncc
-)
 )
 ;
 NS_ENSURE_SUCCESS

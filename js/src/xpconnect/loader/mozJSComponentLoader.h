@@ -388,7 +388,7 @@ CloseFastLoad
 nsresult
 ReportOnCaller
 (
-nsIXPCNativeCallContext
+nsAXPCNativeCallContext
 *
 cc
 const
