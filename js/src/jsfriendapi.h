@@ -2864,15 +2864,6 @@ JSRuntime
 rt
 )
 ;
-extern
-JS_FRIEND_API
-(
-size_t
-)
-SizeOfJSContext
-(
-)
-;
 #
 define
 GCREASONS
