@@ -1949,6 +1949,11 @@ STUB_CALL_TYPE
 BoolStubUInt32
 )
 ;
+STUB_CALL_TYPE
+(
+VoidStubFun
+)
+;
 #
 undef
 STUB_CALL_TYPE
