@@ -1048,7 +1048,7 @@ PresShell
 >
 FrameNeedsReflow
 (
-mCaptionFrame
+this
 nsIPresShell
 :
 :
