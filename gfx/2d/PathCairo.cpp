@@ -173,14 +173,6 @@ cairo_copy_path
 mContext
 )
 ;
-cairo_fill_rule_t
-rule
-=
-cairo_get_fill_rule
-(
-mContext
-)
-;
 cairo_surface_t
 *
 surf
