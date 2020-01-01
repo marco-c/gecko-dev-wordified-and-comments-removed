@@ -509,6 +509,9 @@ base
 (
 NULL
 )
+XPCSHELL_TESTS
+=
+tests
 include
 (
 topsrcdir
