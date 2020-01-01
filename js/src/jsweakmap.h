@@ -353,6 +353,8 @@ RuntimeAllocPolicy
 >
 Base
 ;
+public
+:
 typedef
 typename
 Base
@@ -361,8 +363,6 @@ Base
 Enum
 Enum
 ;
-public
-:
 typedef
 typename
 Base
