@@ -5864,7 +5864,7 @@ coalescing
 .
 enabled
 "
-true
+false
 )
 ;
 pref
