@@ -237,16 +237,29 @@ def
 finish
 (
 self
+complete
+=
+True
 )
 :
+        
+final_count
+=
+self
+.
+limit
+if
+complete
+else
+self
+.
+cur
         
 self
 .
 update
 (
-self
-.
-limit
+final_count
 )
         
 sys
