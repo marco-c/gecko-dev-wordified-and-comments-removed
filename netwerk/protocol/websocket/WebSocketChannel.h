@@ -410,6 +410,11 @@ PrimeNewOutgoingMessage
 )
 ;
 void
+DeleteCurrentOutGoingMessage
+(
+)
+;
+void
 GeneratePong
 (
 PRUint8

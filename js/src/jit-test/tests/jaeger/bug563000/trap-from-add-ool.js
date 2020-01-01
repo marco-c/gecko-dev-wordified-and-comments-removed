@@ -1,3 +1,11 @@
+/
+/
+|
+jit
+-
+test
+|
+debug
 setDebug
 (
 true
@@ -14,6 +22,15 @@ main
 (
 )
 {
+/
+*
+The
+JSOP_STOP
+in
+main
+.
+*
+/
 a
 =
 {
@@ -26,7 +43,7 @@ function
 trap
 (
 main
-56
+61
 "
 success
 (

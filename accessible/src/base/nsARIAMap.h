@@ -41,6 +41,7 @@ EActionRule
 eNoAction
 eActivateAction
 eClickAction
+ePressAction
 eCheckUncheckAction
 eExpandAction
 eJumpAction

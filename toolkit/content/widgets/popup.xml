@@ -1633,7 +1633,6 @@ tmp
 WindowDraggingElement
 (
 this
-window
 )
 ;
 draghandle

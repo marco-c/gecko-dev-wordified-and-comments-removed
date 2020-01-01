@@ -2975,6 +2975,8 @@ mCompositorChild
 =
 nsnull
 ;
+return
+;
 }
 lf
 -

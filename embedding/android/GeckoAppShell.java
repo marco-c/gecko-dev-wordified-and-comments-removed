@@ -12469,8 +12469,11 @@ Fennec
 public
 static
 void
-preventPanning
+setPreventPanning
 (
+final
+boolean
+aPreventPanning
 )
 {
 }

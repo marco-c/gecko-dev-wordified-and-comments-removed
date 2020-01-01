@@ -202,6 +202,17 @@ const
 ;
 #
 endif
+virtual
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

@@ -8234,7 +8234,10 @@ JS_CHECK_STACK_SIZE
 cx
 -
 >
-stackLimit
+runtime
+-
+>
+nativeStackLimit
 &
 stackDummy
 )
