@@ -796,6 +796,15 @@ struct
 timeval
 tv
 ;
+#
+ifndef
+__APPLE__
+struct
+timezone
+tz
+;
+#
+else
 struct
 _timezone
 {
@@ -808,6 +817,8 @@ tz_dsttime
 }
 tz
 ;
+#
+endif
 if
 (
 ppUserData
