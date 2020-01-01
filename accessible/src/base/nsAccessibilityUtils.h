@@ -449,6 +449,16 @@ aNode
 )
 ;
 static
+nsIFrame
+*
+GetFrameFor
+(
+nsIDOMElement
+*
+aElm
+)
+;
+static
 PRBool
 GetID
 (
