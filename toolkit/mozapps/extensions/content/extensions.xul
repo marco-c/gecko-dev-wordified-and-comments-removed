@@ -1851,7 +1851,7 @@ label
 &
 updates
 .
-updateAddonsNow
+checkForUpdates
 .
 label
 ;
@@ -1862,7 +1862,7 @@ accesskey
 &
 updates
 .
-updateAddonsNow
+checkForUpdates
 .
 accesskey
 ;
