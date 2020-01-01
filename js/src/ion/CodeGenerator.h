@@ -385,6 +385,14 @@ lir
 )
 ;
 bool
+visitDoubleToString
+(
+LDoubleToString
+*
+lir
+)
+;
+bool
 visitInteger
 (
 LInteger

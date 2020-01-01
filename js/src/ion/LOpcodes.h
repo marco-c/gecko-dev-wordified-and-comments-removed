@@ -558,6 +558,11 @@ IntToString
 \
 _
 (
+DoubleToString
+)
+\
+_
+(
 Start
 )
 \
