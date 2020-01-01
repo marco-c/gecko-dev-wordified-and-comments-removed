@@ -16360,12 +16360,12 @@ defaultEngine
 .
 searchForm
 ;
-loadURI
+openUILinkIn
 (
 searchForm
-null
-null
-false
+"
+current
+"
 )
 ;
 }
