@@ -1,14 +1,7 @@
 #
 include
 "
-nsOggDecoderStateMachine
-.
-h
-"
-#
-include
-"
-nsOggReader
+nsOggPlayStateMachine
 .
 h
 "
@@ -30,7 +23,7 @@ CreateStateMachine
 {
 return
 new
-nsOggDecoderStateMachine
+nsOggPlayStateMachine
 (
 this
 )
