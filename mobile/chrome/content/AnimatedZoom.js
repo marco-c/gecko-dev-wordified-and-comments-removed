@@ -193,6 +193,10 @@ scroll
 =
 browser
 .
+getRootView
+(
+)
+.
 getPosition
 (
 )
@@ -245,6 +249,9 @@ scale
 *
 zoomRatio
 ;
+let
+contentView
+=
 getBrowser
 (
 )
@@ -252,6 +259,8 @@ getBrowser
 _contentViewManager
 .
 rootContentView
+;
+contentView
 .
 setScale
 (
@@ -259,13 +268,7 @@ zoomLevel
 zoomLevel
 )
 ;
-getBrowser
-(
-)
-.
-_contentViewManager
-.
-rootContentView
+contentView
 .
 scrollTo
 (

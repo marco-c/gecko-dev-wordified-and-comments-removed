@@ -8,9 +8,9 @@ toolkit
 .
 browser
 .
-cachePixelX
+cacheRatioWidth
 "
-580
+1100
 )
 ;
 pref
@@ -20,9 +20,9 @@ toolkit
 .
 browser
 .
-cachePixelY
+cacheRatioHeight
 "
-1000
+2000
 )
 ;
 pref
@@ -32,9 +32,9 @@ toolkit
 .
 browser
 .
-recacheRatio
+contentViewExpire
 "
-60
+3000
 )
 ;
 pref
