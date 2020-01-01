@@ -94,6 +94,10 @@ camera
 CameraPreviewMediaStream
 "
 )
+mFrameCallback
+(
+nullptr
+)
 {
 mIsConsumed
 =
