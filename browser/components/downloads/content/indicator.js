@@ -561,10 +561,7 @@ false
 ;
 DownloadsCommon
 .
-getIndicatorData
-(
-window
-)
+indicatorData
 .
 addView
 (
@@ -611,10 +608,7 @@ false
 ;
 DownloadsCommon
 .
-getIndicatorData
-(
-window
-)
+indicatorData
 .
 removeView
 (
@@ -689,10 +683,7 @@ _initialized
 {
 DownloadsCommon
 .
-getIndicatorData
-(
-window
-)
+indicatorData
 .
 refreshView
 (
@@ -1265,10 +1256,7 @@ useToolkitUI
 {
 DownloadsCommon
 .
-getIndicatorData
-(
-window
-)
+indicatorData
 .
 attention
 =
