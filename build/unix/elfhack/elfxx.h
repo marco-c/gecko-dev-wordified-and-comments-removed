@@ -1646,16 +1646,6 @@ getType
 )
 =
 =
-SHT_DYNAMIC
-)
-|
-|
-(
-getType
-(
-)
-=
-=
 SHT_NOTE
 )
 |
