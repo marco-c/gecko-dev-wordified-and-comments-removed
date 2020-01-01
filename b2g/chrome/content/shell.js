@@ -2726,6 +2726,7 @@ listener
 (
 )
 ;
+var
 CustomEventManager
 =
 {
@@ -2868,6 +2869,7 @@ break
 }
 }
 }
+var
 AlertsHelper
 =
 {
@@ -3069,6 +3071,7 @@ text
 ;
 }
 }
+var
 WebappsHelper
 =
 {
