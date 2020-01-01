@@ -102,14 +102,6 @@ GeckoProfilerImpl
 .
 h
 \
-GeckoProfilerFunc
-.
-h
-\
-PseudoStack
-.
-h
-\
 shared
 -
 libraries
