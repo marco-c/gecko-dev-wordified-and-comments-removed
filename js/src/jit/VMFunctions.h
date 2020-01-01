@@ -3110,8 +3110,8 @@ InvokeFunction
 JSContext
 *
 cx
-HandleFunction
-fun0
+HandleObject
+obj0
 uint32_t
 argc
 Value

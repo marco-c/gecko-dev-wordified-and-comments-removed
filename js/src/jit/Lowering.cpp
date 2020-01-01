@@ -2563,13 +2563,6 @@ CallTempReg2
 )
 ;
 return
-(
-assignSnapshot
-(
-lir
-)
-&
-&
 defineReturn
 (
 lir
@@ -2581,7 +2574,6 @@ assignSafepoint
 (
 lir
 call
-)
 )
 ;
 }
