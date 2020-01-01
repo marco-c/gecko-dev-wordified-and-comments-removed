@@ -4574,7 +4574,7 @@ paint
 mType
 !
 =
-eStyleSVGPaintType_ObjectFill
+eStyleSVGPaintType_ContextFill
 &
 &
 paint
@@ -4582,7 +4582,7 @@ paint
 mType
 !
 =
-eStyleSVGPaintType_ObjectStroke
+eStyleSVGPaintType_ContextStroke
 )
 {
 return
@@ -4610,7 +4610,7 @@ paint
 mType
 =
 =
-eStyleSVGPaintType_ObjectFill
+eStyleSVGPaintType_ContextFill
 ?
 aOuterContextPaint
 -
@@ -4950,7 +4950,7 @@ mPatternMatrix
 break
 ;
 case
-eStyleSVGPaintType_ObjectFill
+eStyleSVGPaintType_ContextFill
 :
 pattern
 =
@@ -4973,7 +4973,7 @@ forget
 )
 ;
 case
-eStyleSVGPaintType_ObjectStroke
+eStyleSVGPaintType_ContextStroke
 :
 pattern
 =

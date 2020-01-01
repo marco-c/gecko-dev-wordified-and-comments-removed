@@ -20160,7 +20160,7 @@ paint
 mType
 !
 =
-eStyleSVGPaintType_ObjectFill
+eStyleSVGPaintType_ContextFill
 &
 &
 paint
@@ -20168,7 +20168,7 @@ paint
 mType
 !
 =
-eStyleSVGPaintType_ObjectStroke
+eStyleSVGPaintType_ContextStroke
 )
 {
 return
@@ -20196,7 +20196,7 @@ paint
 mType
 =
 =
-eStyleSVGPaintType_ObjectFill
+eStyleSVGPaintType_ContextFill
 ?
 aOuterContextPaint
 -
