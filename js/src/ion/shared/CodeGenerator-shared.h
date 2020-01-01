@@ -136,7 +136,6 @@ JS_ASSERT
 (
 slot
 >
-=
 0
 &
 &
@@ -161,7 +160,7 @@ masm
 framePushed
 (
 )
-+
+-
 slot
 *
 STACK_SLOT_SIZE
