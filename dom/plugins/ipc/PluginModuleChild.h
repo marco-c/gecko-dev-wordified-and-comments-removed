@@ -1107,7 +1107,7 @@ DeinitGraphics
 if
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 )
 static
 gboolean
@@ -1216,7 +1216,7 @@ mSavedData
 if
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 )
 guint
 mNestedLoopTimerId

@@ -1,6 +1,6 @@
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 #
 include
 <
@@ -4205,7 +4205,7 @@ elif
 !
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 )
 bool
 PluginModuleParent
