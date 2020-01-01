@@ -99,8 +99,11 @@ CreateRWLock
 )
 {
 #
-ifdef
+if
+defined
+(
 _WIN32
+)
 RWLockWrapper
 *
 lock

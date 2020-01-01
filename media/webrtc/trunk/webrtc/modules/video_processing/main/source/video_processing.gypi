@@ -100,7 +100,10 @@ type
 '
 :
 '
-static_library
+<
+(
+library
+)
 '
 '
 dependencies
@@ -392,7 +395,10 @@ type
 '
 :
 '
-static_library
+<
+(
+library
+)
 '
 '
 sources

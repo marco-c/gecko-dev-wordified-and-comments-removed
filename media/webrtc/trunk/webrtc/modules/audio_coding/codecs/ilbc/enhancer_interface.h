@@ -14,10 +14,10 @@ h
 int
 WebRtcIlbcfix_EnhancerInterface
 (
-int16_t
+WebRtc_Word16
 *
 out
-int16_t
+WebRtc_Word16
 *
 in
 iLBC_Dec_Inst_t

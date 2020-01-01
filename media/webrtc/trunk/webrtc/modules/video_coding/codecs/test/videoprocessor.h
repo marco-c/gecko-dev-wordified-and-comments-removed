@@ -521,11 +521,11 @@ DecodedImageCallback
 *
 decode_callback_
 ;
-uint8_t
+WebRtc_UWord8
 *
 source_buffer_
 ;
-uint8_t
+WebRtc_UWord8
 *
 last_successful_frame_buffer_
 ;
@@ -605,7 +605,7 @@ vp
 )
 {
 }
-int32_t
+WebRtc_Word32
 Encoded
 (
 webrtc
@@ -667,7 +667,7 @@ vp
 )
 {
 }
-int32_t
+WebRtc_Word32
 Decoded
 (
 webrtc

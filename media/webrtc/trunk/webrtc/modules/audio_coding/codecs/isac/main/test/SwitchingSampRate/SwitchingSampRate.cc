@@ -94,7 +94,7 @@ codecInstance
 MAX_NUM_CLIENTS
 ]
 ;
-int32_t
+WebRtc_Word32
 resamplerState
 [
 MAX_NUM_CLIENTS
@@ -793,7 +793,7 @@ clientCntr
 0
 sizeof
 (
-int32_t
+WebRtc_Word32
 )
 *
 8
@@ -1475,7 +1475,7 @@ short
 bitStream
 )
 ;
-int16_t
+WebRtc_Word16
 ggg
 ;
 if
@@ -1666,7 +1666,7 @@ codingMode
 0
 )
 {
-int32_t
+WebRtc_Word32
 bn
 ;
 WebRtcIsac_GetUplinkBw

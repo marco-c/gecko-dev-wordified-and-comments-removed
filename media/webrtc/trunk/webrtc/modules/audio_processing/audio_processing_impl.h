@@ -318,11 +318,11 @@ voice_detection
 const
 ;
 virtual
-int32_t
+WebRtc_Word32
 ChangeUniqueId
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 ;

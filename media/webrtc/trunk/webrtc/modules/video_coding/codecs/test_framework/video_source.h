@@ -201,9 +201,9 @@ static
 VideoSize
 GetSize
 (
-uint16_t
+WebRtc_UWord16
 width
-uint16_t
+WebRtc_UWord16
 height
 )
 ;

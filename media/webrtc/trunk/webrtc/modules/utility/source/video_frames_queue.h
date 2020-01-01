@@ -56,7 +56,7 @@ VideoFramesQueue
 (
 )
 ;
-int32_t
+WebRtc_Word32
 AddFrame
 (
 const
@@ -71,16 +71,16 @@ FrameToRecord
 (
 )
 ;
-int32_t
+WebRtc_Word32
 SetRenderDelay
 (
-uint32_t
+WebRtc_UWord32
 renderDelay
 )
 ;
 protected
 :
-int32_t
+WebRtc_Word32
 ReturnFrame
 (
 I420VideoFrame
@@ -103,7 +103,7 @@ _incomingFrames
 ListWrapper
 _emptyFrames
 ;
-uint32_t
+WebRtc_UWord32
 _renderDelayMs
 ;
 }

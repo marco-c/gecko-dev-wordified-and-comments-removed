@@ -71,7 +71,7 @@ kHighProtectionThreshold
 struct
 RtpPacket
 {
-uint16_t
+WebRtc_UWord16
 rtpHeaderLength
 ;
 ForwardErrorCorrection

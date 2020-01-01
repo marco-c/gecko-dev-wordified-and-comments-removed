@@ -87,7 +87,7 @@ NSNumber
 getDeviceNamesFromIndex
 :
 (
-uint32_t
+WebRtc_UWord32
 )
 index
 DefaultName
@@ -100,7 +100,7 @@ deviceName
 WithLength
 :
 (
-uint32_t
+WebRtc_UWord32
 )
 deviceNameLength
 AndUniqueID
@@ -113,7 +113,7 @@ deviceUniqueID
 WithLength
 :
 (
-uint32_t
+WebRtc_UWord32
 )
 deviceUniqueIDLength
 AndProductID
@@ -126,7 +126,7 @@ deviceProductID
 WithLength
 :
 (
-uint32_t
+WebRtc_UWord32
 )
 deviceProductIDLength
 ;
@@ -161,13 +161,13 @@ parentWindow
 AtX
 :
 (
-uint32_t
+WebRtc_UWord32
 )
 positionX
 AndY
 :
 (
-uint32_t
+WebRtc_UWord32
 )
 positionY
 ;

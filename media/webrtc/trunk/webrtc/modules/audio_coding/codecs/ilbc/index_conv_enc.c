@@ -8,7 +8,7 @@ h
 void
 WebRtcIlbcfix_IndexConvEnc
 (
-int16_t
+WebRtc_Word16
 *
 index
 )

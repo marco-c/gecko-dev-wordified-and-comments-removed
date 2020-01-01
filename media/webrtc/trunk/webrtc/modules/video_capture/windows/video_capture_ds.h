@@ -62,16 +62,16 @@ public
 VideoCaptureDS
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 Init
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
 char
@@ -80,7 +80,7 @@ deviceUniqueIdUTF8
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 StartCapture
 (
 const
@@ -90,7 +90,7 @@ capability
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 StopCapture
 (
 )
@@ -102,7 +102,7 @@ CaptureStarted
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 CaptureSettings
 (
 VideoCaptureCapability
@@ -118,7 +118,7 @@ VideoCaptureDS
 (
 )
 ;
-int32_t
+WebRtc_Word32
 SetCameraOutput
 (
 const
@@ -127,7 +127,7 @@ VideoCaptureCapability
 requestedCapability
 )
 ;
-int32_t
+WebRtc_Word32
 DisconnectGraph
 (
 )

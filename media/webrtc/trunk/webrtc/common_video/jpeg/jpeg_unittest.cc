@@ -295,7 +295,7 @@ encoded_buffer
 _buffer
 =
 new
-uint8_t
+WebRtc_UWord8
 [
 length
 ]

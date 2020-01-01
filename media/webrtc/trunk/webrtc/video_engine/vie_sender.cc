@@ -173,7 +173,7 @@ return
 encryption_buffer_
 =
 new
-uint8_t
+WebRtc_UWord8
 [
 kViEMaxMtu
 ]

@@ -33,12 +33,12 @@ testing
 TEST_F
 (
 VoeBaseMiscTest
-MaxNumChannelsIs100
+MaxNumChannelsIs32
 )
 {
 EXPECT_EQ
 (
-100
+32
 voe_base_
 -
 >

@@ -14,11 +14,11 @@ h
 void
 WebRtcIlbcfix_EncodeImpl
 (
-uint16_t
+WebRtc_UWord16
 *
 bytes
 const
-int16_t
+WebRtc_Word16
 *
 block
 iLBC_Enc_Inst_t

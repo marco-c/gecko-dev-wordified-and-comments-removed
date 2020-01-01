@@ -892,12 +892,6 @@ startBitrate
 ;
 codec_inst_
 .
-qpMax
-=
-56
-;
-codec_inst_
-.
 codecSpecific
 .
 VP8
@@ -1079,12 +1073,6 @@ codec_inst_
 maxBitrate
 =
 4000
-;
-codec_inst_
-.
-qpMax
-=
-56
 ;
 codec_inst_
 .

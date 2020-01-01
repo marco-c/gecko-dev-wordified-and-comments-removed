@@ -66,7 +66,7 @@ std
 :
 string
 ip
-uint16_t
+WebRtc_UWord16
 port
 )
 ;

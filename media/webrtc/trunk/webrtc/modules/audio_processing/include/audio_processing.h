@@ -33,9 +33,6 @@ typedefs
 .
 h
 "
-struct
-AecCore
-;
 namespace
 webrtc
 {
@@ -409,7 +406,7 @@ kBadStreamParameterWarning
 }
 ;
 virtual
-int32_t
+WebRtc_Word32
 TimeUntilNextProcess
 (
 )
@@ -420,7 +417,7 @@ return
 ;
 }
 virtual
-int32_t
+WebRtc_Word32
 Process
 (
 )
@@ -495,7 +492,7 @@ const
 0
 ;
 virtual
-void
+int
 set_stream_drift_samples
 (
 int
@@ -638,17 +635,6 @@ int
 *
 std
 )
-=
-0
-;
-virtual
-struct
-AecCore
-*
-aec_core
-(
-)
-const
 =
 0
 ;

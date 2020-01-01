@@ -413,17 +413,6 @@ jint
 JNIEXPORT
 jint
 JNICALL
-Java_org_webrtc_videoengineapp_ViEAndroidJavaAPI_ViE_1DeleteChannel
-(
-JNIEnv
-*
-jobject
-jint
-)
-;
-JNIEXPORT
-jint
-JNICALL
 Java_org_webrtc_videoengineapp_ViEAndroidJavaAPI_VoE_1SetLocalReceiver
 (
 JNIEnv

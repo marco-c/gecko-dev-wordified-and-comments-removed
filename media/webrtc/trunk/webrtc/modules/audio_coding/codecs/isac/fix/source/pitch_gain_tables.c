@@ -6,7 +6,7 @@ pitch_gain_tables
 h
 "
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kPitchGainCdf
 [
 255
@@ -271,7 +271,7 @@ WebRtcIsacfix_kPitchGainCdf
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kLowerlimiGain
 [
 3
@@ -287,7 +287,7 @@ WebRtcIsacfix_kLowerlimiGain
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kUpperlimitGain
 [
 3
@@ -300,7 +300,7 @@ WebRtcIsacfix_kUpperlimitGain
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kMultsGain
 [
 2
@@ -312,7 +312,7 @@ WebRtcIsacfix_kMultsGain
 }
 ;
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kCdfTableSizeGain
 [
 1
@@ -323,7 +323,7 @@ WebRtcIsacfix_kCdfTableSizeGain
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kPitchGain1
 [
 144
@@ -477,7 +477,7 @@ WebRtcIsacfix_kPitchGain1
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kPitchGain2
 [
 144
@@ -631,7 +631,7 @@ WebRtcIsacfix_kPitchGain2
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kPitchGain3
 [
 144
@@ -785,7 +785,7 @@ WebRtcIsacfix_kPitchGain3
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kPitchGain4
 [
 144
@@ -939,7 +939,7 @@ WebRtcIsacfix_kPitchGain4
 }
 ;
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kTransform
 [
 4

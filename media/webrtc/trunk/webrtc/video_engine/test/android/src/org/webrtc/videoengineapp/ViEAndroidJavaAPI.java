@@ -513,15 +513,6 @@ channel
 public
 native
 int
-ViE_DeleteChannel
-(
-int
-channel
-)
-;
-public
-native
-int
 VoE_SetLocalReceiver
 (
 int

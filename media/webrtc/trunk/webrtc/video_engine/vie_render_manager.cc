@@ -122,7 +122,7 @@ ViERenderManagerScoped
 :
 Renderer
 (
-int32_t
+WebRtc_Word32
 render_id
 )
 const
@@ -150,7 +150,7 @@ ViERenderManager
 :
 ViERenderManager
 (
-int32_t
+WebRtc_Word32
 engine_id
 )
 :
@@ -267,7 +267,7 @@ item
 )
 ;
 const
-int32_t
+WebRtc_Word32
 render_id
 =
 item
@@ -288,7 +288,7 @@ render_id
 ;
 }
 }
-int32_t
+WebRtc_Word32
 ViERenderManager
 :
 :
@@ -397,7 +397,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 ViERenderManager
 :
 :
@@ -408,7 +408,7 @@ VideoRender
 render_module
 )
 {
-uint32_t
+WebRtc_UWord32
 n_streams
 =
 render_module
@@ -580,13 +580,13 @@ ViERenderManager
 AddRenderStream
 (
 const
-int32_t
+WebRtc_Word32
 render_id
 void
 *
 window
 const
-uint32_t
+WebRtc_UWord32
 z_order
 const
 float
@@ -803,14 +803,14 @@ return
 vie_renderer
 ;
 }
-int32_t
+WebRtc_Word32
 ViERenderManager
 :
 :
 RemoveRenderStream
 (
 const
-int32_t
+WebRtc_Word32
 render_id
 )
 {
@@ -1121,7 +1121,7 @@ ViERenderManager
 :
 ViERenderPtr
 (
-int32_t
+WebRtc_Word32
 render_id
 )
 const

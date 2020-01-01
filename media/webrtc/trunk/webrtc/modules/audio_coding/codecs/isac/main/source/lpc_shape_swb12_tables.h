@@ -70,7 +70,7 @@ UB_LPC_VEC_PER_FRAME
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kLpcShapeNumRecPointUb12
 [
 UB_LPC_ORDER
@@ -80,7 +80,7 @@ UB_LPC_VEC_PER_FRAME
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcShapeEntropySearchUb12
 [
 UB_LPC_ORDER
@@ -90,7 +90,7 @@ UB_LPC_VEC_PER_FRAME
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcShapeCdfVec0Ub12
 [
 14
@@ -98,7 +98,7 @@ WebRtcIsac_kLpcShapeCdfVec0Ub12
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcShapeCdfVec1Ub12
 [
 16
@@ -106,7 +106,7 @@ WebRtcIsac_kLpcShapeCdfVec1Ub12
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcShapeCdfVec2Ub12
 [
 20
@@ -114,7 +114,7 @@ WebRtcIsac_kLpcShapeCdfVec2Ub12
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcShapeCdfVec3Ub12
 [
 28
@@ -122,7 +122,7 @@ WebRtcIsac_kLpcShapeCdfVec3Ub12
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcShapeCdfVec4Ub12
 [
 20
@@ -130,7 +130,7 @@ WebRtcIsac_kLpcShapeCdfVec4Ub12
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcShapeCdfVec5Ub12
 [
 25
@@ -138,7 +138,7 @@ WebRtcIsac_kLpcShapeCdfVec5Ub12
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcShapeCdfVec6Ub12
 [
 33
@@ -146,7 +146,7 @@ WebRtcIsac_kLpcShapeCdfVec6Ub12
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kLpcShapeCdfVec7Ub12
 [
 49
@@ -154,7 +154,7 @@ WebRtcIsac_kLpcShapeCdfVec7Ub12
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kLpcShapeCdfMatUb12
 [

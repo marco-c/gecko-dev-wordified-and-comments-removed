@@ -9,12 +9,12 @@ void
 WebRtcIlbcfix_SwapBytes
 (
 const
-uint16_t
+WebRtc_UWord16
 *
 input
-int16_t
+WebRtc_Word16
 wordLength
-uint16_t
+WebRtc_UWord16
 *
 output
 )

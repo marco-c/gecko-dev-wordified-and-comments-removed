@@ -307,9 +307,9 @@ void
 PlayNotification
 (
 const
-int32_t
+WebRtc_Word32
 const
-uint32_t
+WebRtc_UWord32
 )
 {
 }
@@ -318,9 +318,9 @@ void
 RecordNotification
 (
 const
-int32_t
+WebRtc_Word32
 const
-uint32_t
+WebRtc_UWord32
 )
 {
 }
@@ -329,7 +329,7 @@ void
 PlayFileEnded
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 ;
@@ -338,7 +338,7 @@ void
 RecordFileEnded
 (
 const
-int32_t
+WebRtc_Word32
 )
 {
 }
@@ -407,7 +407,7 @@ EventWrapper
 *
 decode_event_
 ;
-int16_t
+WebRtc_Word16
 decoded_audio_
 [
 kMaxDecodedAudioLength

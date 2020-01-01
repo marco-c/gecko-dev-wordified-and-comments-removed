@@ -14,13 +14,13 @@ h
 void
 WebRtcIlbcfix_Smooth
 (
-int16_t
+WebRtc_Word16
 *
 odata
-int16_t
+WebRtc_Word16
 *
 current
-int16_t
+WebRtc_Word16
 *
 surround
 )

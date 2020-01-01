@@ -52,7 +52,7 @@ Tick10Msec
 (
 )
 ;
-int16_t
+WebRtc_Word16
 SetUp
 (
 char

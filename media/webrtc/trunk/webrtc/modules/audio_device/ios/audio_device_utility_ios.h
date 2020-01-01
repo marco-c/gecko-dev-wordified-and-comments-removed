@@ -35,7 +35,7 @@ public
 AudioDeviceUtilityIPhone
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 ;
@@ -50,7 +50,7 @@ AudioDeviceUtilityIPhone
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 Init
 (
 )
@@ -61,7 +61,7 @@ CriticalSectionWrapper
 &
 _critSect
 ;
-int32_t
+WebRtc_Word32
 _id
 ;
 AudioDeviceModule

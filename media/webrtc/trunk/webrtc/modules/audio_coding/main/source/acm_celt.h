@@ -86,7 +86,7 @@ codec_params
 ;
 protected
 :
-int16_t
+WebRtc_Word16
 DecodeSafe
 (
 uint8_t
@@ -96,7 +96,7 @@ int16_t
 *
 int16_t
 *
-int8_t
+WebRtc_Word8
 *
 )
 ;

@@ -14,11 +14,11 @@ BitstreamParser
 BitstreamParser
 (
 const
-uint8_t
+WebRtc_UWord8
 *
 data
 const
-uint32_t
+WebRtc_UWord32
 dataLength
 )
 :
@@ -40,7 +40,7 @@ _bitOffset
 )
 {
 }
-uint8_t
+WebRtc_UWord8
 BitstreamParser
 :
 :
@@ -48,7 +48,7 @@ Get1Bit
 (
 )
 {
-uint8_t
+WebRtc_UWord8
 retVal
 =
 0x1
@@ -90,7 +90,7 @@ return
 retVal
 ;
 }
-uint8_t
+WebRtc_UWord8
 BitstreamParser
 :
 :
@@ -98,7 +98,7 @@ Get2Bits
 (
 )
 {
-uint8_t
+WebRtc_UWord8
 retVal
 =
 (
@@ -121,7 +121,7 @@ return
 retVal
 ;
 }
-uint8_t
+WebRtc_UWord8
 BitstreamParser
 :
 :
@@ -129,7 +129,7 @@ Get3Bits
 (
 )
 {
-uint8_t
+WebRtc_UWord8
 retVal
 =
 (
@@ -164,7 +164,7 @@ return
 retVal
 ;
 }
-uint8_t
+WebRtc_UWord8
 BitstreamParser
 :
 :
@@ -172,7 +172,7 @@ Get4Bits
 (
 )
 {
-uint8_t
+WebRtc_UWord8
 retVal
 =
 (
@@ -219,7 +219,7 @@ return
 retVal
 ;
 }
-uint8_t
+WebRtc_UWord8
 BitstreamParser
 :
 :
@@ -227,7 +227,7 @@ Get5Bits
 (
 )
 {
-uint8_t
+WebRtc_UWord8
 retVal
 =
 (
@@ -286,7 +286,7 @@ return
 retVal
 ;
 }
-uint8_t
+WebRtc_UWord8
 BitstreamParser
 :
 :
@@ -294,7 +294,7 @@ Get6Bits
 (
 )
 {
-uint8_t
+WebRtc_UWord8
 retVal
 =
 (
@@ -365,7 +365,7 @@ return
 retVal
 ;
 }
-uint8_t
+WebRtc_UWord8
 BitstreamParser
 :
 :
@@ -373,7 +373,7 @@ Get7Bits
 (
 )
 {
-uint8_t
+WebRtc_UWord8
 retVal
 =
 (
@@ -456,7 +456,7 @@ return
 retVal
 ;
 }
-uint8_t
+WebRtc_UWord8
 BitstreamParser
 :
 :
@@ -464,7 +464,7 @@ Get8Bits
 (
 )
 {
-uint16_t
+WebRtc_UWord16
 retVal
 ;
 if
@@ -524,12 +524,12 @@ _byteOffset
 ;
 return
 (
-uint8_t
+WebRtc_UWord8
 )
 retVal
 ;
 }
-uint16_t
+WebRtc_UWord16
 BitstreamParser
 :
 :
@@ -537,7 +537,7 @@ Get16Bits
 (
 )
 {
-uint32_t
+WebRtc_UWord32
 retVal
 ;
 if
@@ -624,12 +624,12 @@ _byteOffset
 ;
 return
 (
-uint16_t
+WebRtc_UWord16
 )
 retVal
 ;
 }
-uint32_t
+WebRtc_UWord32
 BitstreamParser
 :
 :
@@ -637,7 +637,7 @@ Get24Bits
 (
 )
 {
-uint32_t
+WebRtc_UWord32
 retVal
 ;
 if
@@ -752,7 +752,7 @@ retVal
 0x00ffffff
 ;
 }
-uint32_t
+WebRtc_UWord32
 BitstreamParser
 :
 :
@@ -760,7 +760,7 @@ Get32Bits
 (
 )
 {
-uint32_t
+WebRtc_UWord32
 retVal
 ;
 if
@@ -771,7 +771,7 @@ _bitOffset
 0
 )
 {
-uint64_t
+WebRtc_UWord64
 tempVal
 =
 _data
@@ -855,7 +855,7 @@ _bitOffset
 ;
 retVal
 =
-uint32_t
+WebRtc_UWord32
 (
 tempVal
 )
@@ -918,7 +918,7 @@ return
 retVal
 ;
 }
-uint32_t
+WebRtc_UWord32
 BitstreamParser
 :
 :
@@ -926,12 +926,12 @@ GetUE
 (
 )
 {
-uint32_t
+WebRtc_UWord32
 retVal
 =
 0
 ;
-uint8_t
+WebRtc_UWord8
 numLeadingZeros
 =
 0

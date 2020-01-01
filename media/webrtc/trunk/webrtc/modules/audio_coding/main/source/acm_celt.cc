@@ -191,7 +191,7 @@ int16_t
 *
 int16_t
 *
-int8_t
+WebRtc_Word8
 *
 )
 {
@@ -550,7 +550,7 @@ int16_t
 *
 int16_t
 *
-int8_t
+WebRtc_Word8
 *
 )
 {

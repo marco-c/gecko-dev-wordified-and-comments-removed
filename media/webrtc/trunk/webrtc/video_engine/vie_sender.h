@@ -167,7 +167,7 @@ Encryption
 *
 external_encryption_
 ;
-uint8_t
+WebRtc_UWord8
 *
 encryption_buffer_
 ;

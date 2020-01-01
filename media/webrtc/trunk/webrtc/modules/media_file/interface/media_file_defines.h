@@ -45,10 +45,10 @@ void
 PlayNotification
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
-uint32_t
+WebRtc_UWord32
 durationMs
 )
 =
@@ -59,10 +59,10 @@ void
 RecordNotification
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
-uint32_t
+WebRtc_UWord32
 durationMs
 )
 =
@@ -73,7 +73,7 @@ void
 PlayFileEnded
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 =
@@ -84,7 +84,7 @@ void
 RecordFileEnded
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 =

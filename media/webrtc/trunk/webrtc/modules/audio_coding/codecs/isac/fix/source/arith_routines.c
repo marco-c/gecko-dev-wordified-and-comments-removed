@@ -5,7 +5,7 @@ arith_routins
 .
 h
 "
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_EncTerminate
 (
 Bitstr_enc
@@ -13,11 +13,11 @@ Bitstr_enc
 streamData
 )
 {
-uint16_t
+WebRtc_UWord16
 *
 streamPtr
 ;
-uint16_t
+WebRtc_UWord16
 negCarry
 ;
 streamPtr
@@ -161,7 +161,7 @@ streamPtr
 +
 =
 (
-uint16_t
+WebRtc_UWord16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -186,7 +186,7 @@ else
 streamPtr
 =
 (
-uint16_t
+WebRtc_UWord16
 )
 WEBRTC_SPL_LSHIFT_W32
 (
@@ -327,7 +327,7 @@ streamPtr
 +
 =
 (
-uint16_t
+WebRtc_UWord16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -348,7 +348,7 @@ streamPtr
 |
 =
 (
-uint16_t
+WebRtc_UWord16
 )
 WEBRTC_SPL_RSHIFT_W32
 (
@@ -363,7 +363,7 @@ streamval
 streamPtr
 =
 (
-uint16_t
+WebRtc_UWord16
 )
 WEBRTC_SPL_RSHIFT_W32
 (

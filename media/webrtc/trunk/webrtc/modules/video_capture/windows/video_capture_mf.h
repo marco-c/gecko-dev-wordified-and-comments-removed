@@ -33,15 +33,15 @@ explicit
 VideoCaptureMF
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 ;
-int32_t
+WebRtc_Word32
 Init
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
 char
@@ -50,7 +50,7 @@ device_id
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 StartCapture
 (
 const
@@ -60,7 +60,7 @@ capability
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 StopCapture
 (
 )
@@ -72,7 +72,7 @@ CaptureStarted
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 CaptureSettings
 (
 VideoCaptureCapability

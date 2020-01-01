@@ -84,7 +84,7 @@ h
 #
 endif
 static
-int32_t
+WebRtc_Word32
 g_vie_active_instance_counter
 =
 0
@@ -664,6 +664,9 @@ false
 }
 #
 endif
+#
+ifdef
+WEBRTC_VIDEO_ENGINE_NETWORK_API
 ViENetworkImpl
 *
 vie_network
@@ -707,6 +710,8 @@ return
 false
 ;
 }
+#
+endif
 #
 ifdef
 WEBRTC_VIDEO_ENGINE_RENDER_API
@@ -928,7 +933,7 @@ int
 filter
 )
 {
-uint32_t
+WebRtc_UWord32
 old_filter
 =
 0
@@ -974,7 +979,7 @@ filter
 )
 ;
 }
-int32_t
+WebRtc_Word32
 error
 =
 Trace

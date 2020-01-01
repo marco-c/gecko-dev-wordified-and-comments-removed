@@ -198,14 +198,6 @@ logging_
 Trace
 :
 :
-SetTraceCallback
-(
-NULL
-)
-;
-Trace
-:
-:
 ReturnTrace
 (
 )

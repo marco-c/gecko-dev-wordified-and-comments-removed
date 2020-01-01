@@ -334,12 +334,6 @@ mtransport
 .
 /
 trunk
-'
-'
-.
-.
-/
-trunk
 /
 webrtc
 '

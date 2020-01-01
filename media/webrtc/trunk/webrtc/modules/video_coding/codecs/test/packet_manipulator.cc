@@ -140,7 +140,7 @@ config_
 packet_size_in_bytes
 )
 ;
-uint8_t
+WebRtc_UWord8
 *
 packet
 =

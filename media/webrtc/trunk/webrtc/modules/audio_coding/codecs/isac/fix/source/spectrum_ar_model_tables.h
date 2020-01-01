@@ -20,7 +20,7 @@ h
 "
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kRc1Cdf
 [
 12
@@ -28,7 +28,7 @@ WebRtcIsacfix_kRc1Cdf
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kRc2Cdf
 [
 12
@@ -36,7 +36,7 @@ WebRtcIsacfix_kRc2Cdf
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kRc3Cdf
 [
 12
@@ -44,7 +44,7 @@ WebRtcIsacfix_kRc3Cdf
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kRc4Cdf
 [
 12
@@ -52,7 +52,7 @@ WebRtcIsacfix_kRc4Cdf
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kRc5Cdf
 [
 12
@@ -60,7 +60,7 @@ WebRtcIsacfix_kRc5Cdf
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kRc6Cdf
 [
 12
@@ -68,7 +68,7 @@ WebRtcIsacfix_kRc6Cdf
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kRc1Levels
 [
 11
@@ -76,7 +76,7 @@ WebRtcIsacfix_kRc1Levels
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kRc2Levels
 [
 11
@@ -84,7 +84,7 @@ WebRtcIsacfix_kRc2Levels
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kRc3Levels
 [
 11
@@ -92,7 +92,7 @@ WebRtcIsacfix_kRc3Levels
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kRc4Levels
 [
 11
@@ -100,7 +100,7 @@ WebRtcIsacfix_kRc4Levels
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kRc5Levels
 [
 11
@@ -108,7 +108,7 @@ WebRtcIsacfix_kRc5Levels
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kRc6Levels
 [
 11
@@ -116,7 +116,7 @@ WebRtcIsacfix_kRc6Levels
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kRcBound
 [
 12
@@ -124,7 +124,7 @@ WebRtcIsacfix_kRcBound
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kRcInitInd
 [
 AR_ORDER
@@ -132,7 +132,7 @@ AR_ORDER
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsacfix_kRcCdfPtr
 [
@@ -141,7 +141,7 @@ AR_ORDER
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 *
 WebRtcIsacfix_kRcLevPtr
 [
@@ -150,7 +150,7 @@ AR_ORDER
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kGainCdf
 [
 19
@@ -158,7 +158,7 @@ WebRtcIsacfix_kGainCdf
 ;
 extern
 const
-int32_t
+WebRtc_Word32
 WebRtcIsacfix_kGain2Lev
 [
 18
@@ -166,7 +166,7 @@ WebRtcIsacfix_kGain2Lev
 ;
 extern
 const
-int32_t
+WebRtc_Word32
 WebRtcIsacfix_kGain2Bound
 [
 19
@@ -174,7 +174,7 @@ WebRtcIsacfix_kGain2Bound
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsacfix_kGainPtr
 [
@@ -183,7 +183,7 @@ WebRtcIsacfix_kGainPtr
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsacfix_kGainInitInd
 [
 1
@@ -191,7 +191,7 @@ WebRtcIsacfix_kGainInitInd
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsacfix_kCos
 [
 6

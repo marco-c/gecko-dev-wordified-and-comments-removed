@@ -69,7 +69,7 @@ WebRtcNetEQDecoder
 usedCodec
 int
 noOfCodecs
-uint16_t
+WebRtc_UWord16
 fs
 =
 8000
@@ -92,7 +92,7 @@ assign
 int
 init
 (
-uint16_t
+WebRtc_UWord16
 fs
 =
 8000
@@ -129,10 +129,10 @@ NETEQTEST_RTPpacket
 rtp
 )
 ;
-int16_t
+WebRtc_Word16
 recOut
 (
-int16_t
+WebRtc_Word16
 *
 outData
 void
@@ -148,7 +148,7 @@ outputType
 NULL
 )
 ;
-uint32_t
+WebRtc_UWord32
 getSpeechTimeStamp
 (
 )
@@ -368,11 +368,11 @@ void
 *
 _inst
 ;
-int8_t
+WebRtc_Word8
 *
 _instMem
 ;
-int8_t
+WebRtc_Word8
 *
 _bufferMem
 ;

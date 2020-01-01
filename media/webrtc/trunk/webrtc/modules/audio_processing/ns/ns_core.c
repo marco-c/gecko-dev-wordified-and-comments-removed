@@ -377,7 +377,7 @@ WebRtcNs_InitCore
 NSinst_t
 *
 inst
-uint32_t
+WebRtc_UWord32
 fs
 )
 {

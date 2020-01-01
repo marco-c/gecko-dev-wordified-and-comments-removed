@@ -173,7 +173,7 @@ payload_size_
 payload_data_
 =
 new
-uint8_t
+WebRtc_UWord8
 [
 payload_size_
 ]
@@ -181,7 +181,7 @@ payload_size_
 buffer_
 =
 new
-uint8_t
+WebRtc_UWord8
 [
 buffer_size_
 ]

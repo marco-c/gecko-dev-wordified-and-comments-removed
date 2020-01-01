@@ -14,13 +14,13 @@ h
 void
 WebRtcIlbcfix_InterpolateSamples
 (
-int16_t
+WebRtc_Word16
 *
 interpSamples
-int16_t
+WebRtc_Word16
 *
 CBmem
-int16_t
+WebRtc_Word16
 lMem
 )
 ;

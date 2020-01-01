@@ -32,7 +32,7 @@ webrtc
 namespace
 VideoProcessing
 {
-int32_t
+WebRtc_Word32
 Brighten
 (
 I420VideoFrame

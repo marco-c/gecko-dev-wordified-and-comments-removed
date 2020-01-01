@@ -369,7 +369,7 @@ RecIn
 (
 reinterpret_cast
 <
-uint8_t
+WebRtc_UWord8
 *
 >
 (
@@ -377,7 +377,6 @@ payload
 )
 len_payload_bytes
 rtp_header
-timestamp
 )
 )
 ;

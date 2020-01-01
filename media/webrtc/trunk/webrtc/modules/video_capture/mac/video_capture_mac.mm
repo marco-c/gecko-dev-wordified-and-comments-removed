@@ -708,7 +708,7 @@ remainingBufferInBytes
 remaining
 number
 of
-int8_t
+WebRtc_Word8
 in
 the
 version
@@ -722,7 +722,7 @@ of
 the
 next
 empty
-int8_t
+WebRtc_Word8
 in
 the
 *
@@ -738,7 +738,7 @@ VideoCaptureImpl
 Create
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
 char
@@ -1413,7 +1413,7 @@ VideoCaptureImpl
 CreateDeviceInfo
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 {

@@ -217,7 +217,7 @@ NULL
 ;
 }
 }
-int32_t
+WebRtc_Word32
 JpegEncoder
 :
 :
@@ -264,7 +264,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 JpegEncoder
 :
 :
@@ -592,7 +592,7 @@ height
 ~
 15
 ;
-uint8_t
+WebRtc_UWord8
 *
 imgPtr
 =
@@ -602,7 +602,7 @@ get
 (
 )
 ;
-uint8_t
+WebRtc_UWord8
 *
 origImagePtr
 =
@@ -616,7 +616,7 @@ height16
 height
 )
 {
-uint32_t
+WebRtc_UWord32
 requiredSize
 =
 CalcBufferSize
@@ -629,7 +629,7 @@ height16
 origImagePtr
 =
 new
-uint8_t
+WebRtc_UWord8
 [
 requiredSize
 ]

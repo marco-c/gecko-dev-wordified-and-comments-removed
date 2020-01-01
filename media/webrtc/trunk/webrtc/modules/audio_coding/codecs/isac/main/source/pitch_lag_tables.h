@@ -13,7 +13,7 @@ h
 "
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf1Lo
 [
 127
@@ -21,7 +21,7 @@ WebRtcIsac_kQPitchLagCdf1Lo
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf2Lo
 [
 20
@@ -29,7 +29,7 @@ WebRtcIsac_kQPitchLagCdf2Lo
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf3Lo
 [
 2
@@ -37,7 +37,7 @@ WebRtcIsac_kQPitchLagCdf3Lo
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf4Lo
 [
 10
@@ -45,7 +45,7 @@ WebRtcIsac_kQPitchLagCdf4Lo
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kQPitchLagCdfPtrLo
 [
@@ -54,7 +54,7 @@ WebRtcIsac_kQPitchLagCdfPtrLo
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdfSizeLo
 [
 1
@@ -62,7 +62,7 @@ WebRtcIsac_kQPitchLagCdfSizeLo
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQIndexLowerLimitLagLo
 [
 4
@@ -70,7 +70,7 @@ WebRtcIsac_kQIndexLowerLimitLagLo
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQIndexUpperLimitLagLo
 [
 4
@@ -78,7 +78,7 @@ WebRtcIsac_kQIndexUpperLimitLagLo
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQInitIndexLagLo
 [
 3
@@ -115,7 +115,7 @@ WebRtcIsac_kQPitchLagStepsizeLo
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf1Mid
 [
 255
@@ -123,7 +123,7 @@ WebRtcIsac_kQPitchLagCdf1Mid
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf2Mid
 [
 36
@@ -131,7 +131,7 @@ WebRtcIsac_kQPitchLagCdf2Mid
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf3Mid
 [
 2
@@ -139,7 +139,7 @@ WebRtcIsac_kQPitchLagCdf3Mid
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf4Mid
 [
 20
@@ -147,7 +147,7 @@ WebRtcIsac_kQPitchLagCdf4Mid
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kQPitchLagCdfPtrMid
 [
@@ -156,7 +156,7 @@ WebRtcIsac_kQPitchLagCdfPtrMid
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdfSizeMid
 [
 1
@@ -164,7 +164,7 @@ WebRtcIsac_kQPitchLagCdfSizeMid
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQIndexLowerLimitLagMid
 [
 4
@@ -172,7 +172,7 @@ WebRtcIsac_kQIndexLowerLimitLagMid
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQIndexUpperLimitLagMid
 [
 4
@@ -180,7 +180,7 @@ WebRtcIsac_kQIndexUpperLimitLagMid
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQInitIndexLagMid
 [
 3
@@ -217,7 +217,7 @@ WebRtcIsac_kQPitchLagStepsizeMid
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf1Hi
 [
 511
@@ -225,7 +225,7 @@ WebRtcIsac_kQPitchLagCdf1Hi
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf2Hi
 [
 68
@@ -233,7 +233,7 @@ WebRtcIsac_kQPitchLagCdf2Hi
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf3Hi
 [
 2
@@ -241,7 +241,7 @@ WebRtcIsac_kQPitchLagCdf3Hi
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdf4Hi
 [
 35
@@ -249,7 +249,7 @@ WebRtcIsac_kQPitchLagCdf4Hi
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kQPitchLagCdfPtrHi
 [
@@ -258,7 +258,7 @@ WebRtcIsac_kQPitchLagCdfPtrHi
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQPitchLagCdfSizeHi
 [
 1
@@ -266,7 +266,7 @@ WebRtcIsac_kQPitchLagCdfSizeHi
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQindexLowerLimitLagHi
 [
 4
@@ -274,7 +274,7 @@ WebRtcIsac_kQindexLowerLimitLagHi
 ;
 extern
 const
-int16_t
+WebRtc_Word16
 WebRtcIsac_kQindexUpperLimitLagHi
 [
 4
@@ -282,7 +282,7 @@ WebRtcIsac_kQindexUpperLimitLagHi
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQInitIndexLagHi
 [
 3

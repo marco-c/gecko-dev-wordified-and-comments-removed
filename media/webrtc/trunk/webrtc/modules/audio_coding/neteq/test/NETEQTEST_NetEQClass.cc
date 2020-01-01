@@ -77,7 +77,7 @@ WebRtcNetEQDecoder
 usedCodec
 int
 noOfCodecs
-uint16_t
+WebRtc_UWord16
 fs
 WebRtcNetEQNetworkType
 nwType
@@ -238,7 +238,7 @@ NULL
 _instMem
 =
 new
-int8_t
+WebRtc_Word8
 [
 memSize
 ]
@@ -275,7 +275,7 @@ NETEQTEST_NetEQClass
 :
 init
 (
-uint16_t
+WebRtc_UWord16
 fs
 )
 {
@@ -360,7 +360,6 @@ int
 numPackets
 memSize
 ret
-overhead_bytes
 ;
 if
 (
@@ -429,8 +428,6 @@ nwType
 numPackets
 &
 memSize
-&
-overhead_bytes
 )
 ;
 if
@@ -469,7 +466,7 @@ NULL
 _bufferMem
 =
 new
-int8_t
+WebRtc_Word8
 [
 memSize
 ]
@@ -801,7 +798,7 @@ WebRtcNetEQ_RecIn
 (
 _inst
 (
-int16_t
+WebRtc_Word16
 *
 )
 rtp
@@ -869,13 +866,13 @@ err
 )
 ;
 }
-int16_t
+WebRtc_Word16
 NETEQTEST_NetEQClass
 :
 :
 recOut
 (
-int16_t
+WebRtc_Word16
 *
 outData
 void
@@ -890,7 +887,7 @@ outputType
 int
 err
 ;
-int16_t
+WebRtc_Word16
 outLen
 =
 0
@@ -964,7 +961,7 @@ outLen
 msInfo
 static_cast
 <
-int16_t
+WebRtc_Word16
 >
 (
 _isMaster
@@ -1089,7 +1086,7 @@ outLen
 )
 ;
 }
-uint32_t
+WebRtc_UWord32
 NETEQTEST_NetEQClass
 :
 :
@@ -1097,7 +1094,7 @@ getSpeechTimeStamp
 (
 )
 {
-uint32_t
+WebRtc_UWord32
 ts
 =
 0

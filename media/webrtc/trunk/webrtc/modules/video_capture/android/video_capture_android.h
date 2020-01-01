@@ -55,7 +55,7 @@ VideoCaptureImpl
 public
 :
 static
-int32_t
+WebRtc_Word32
 SetAndroidObjects
 (
 void
@@ -67,7 +67,7 @@ javaContext
 )
 ;
 static
-int32_t
+WebRtc_Word32
 AttachAndUseAndroidDeviceInfoObjects
 (
 JNIEnv
@@ -86,7 +86,7 @@ attached
 )
 ;
 static
-int32_t
+WebRtc_Word32
 ReleaseAndroidDeviceInfoObjects
 (
 bool
@@ -96,16 +96,16 @@ attached
 VideoCaptureAndroid
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 Init
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
 char
@@ -114,7 +114,7 @@ deviceUniqueIdUTF8
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 StartCapture
 (
 const
@@ -124,7 +124,7 @@ capability
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 StopCapture
 (
 )
@@ -136,7 +136,7 @@ CaptureStarted
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 CaptureSettings
 (
 VideoCaptureCapability
@@ -145,7 +145,7 @@ settings
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 SetCaptureRotation
 (
 VideoCaptureRotation

@@ -16,7 +16,7 @@ VideoCoder
 :
 VideoCoder
 (
-uint32_t
+WebRtc_UWord32
 instanceID
 )
 :
@@ -83,7 +83,7 @@ _vcm
 )
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCoder
 :
 :
@@ -132,7 +132,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCoder
 :
 :
@@ -141,9 +141,9 @@ SetEncodeCodec
 VideoCodec
 &
 videoCodecInst
-uint32_t
+WebRtc_UWord32
 numberOfCores
-uint32_t
+WebRtc_UWord32
 maxPayloadSize
 )
 {
@@ -173,7 +173,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCoder
 :
 :
@@ -182,7 +182,7 @@ SetDecodeCodec
 VideoCodec
 &
 videoCodecInst
-int32_t
+WebRtc_Word32
 numberOfCores
 )
 {
@@ -196,7 +196,7 @@ plType
 0
 )
 {
-int8_t
+WebRtc_Word8
 plType
 =
 DefaultPayloadType
@@ -252,7 +252,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCoder
 :
 :
@@ -316,7 +316,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCoder
 :
 :
@@ -365,7 +365,7 @@ return
 0
 ;
 }
-int8_t
+WebRtc_Word8
 VideoCoder
 :
 :
@@ -380,7 +380,7 @@ plName
 VideoCodec
 tmpCodec
 ;
-int32_t
+WebRtc_Word32
 numberOfCodecs
 =
 _vcm
@@ -392,7 +392,7 @@ NumberOfCodecs
 ;
 for
 (
-uint8_t
+WebRtc_UWord8
 i
 =
 0
@@ -443,7 +443,7 @@ return
 1
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCoder
 :
 :
@@ -464,7 +464,7 @@ videoFrame
 )
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCoder
 :
 :
@@ -474,18 +474,18 @@ const
 FrameType
 frameType
 const
-uint8_t
+WebRtc_UWord8
 payloadType
 const
-uint32_t
+WebRtc_UWord32
 timeStamp
 int64_t
 capture_time_ms
 const
-uint8_t
+WebRtc_UWord8
 *
 payloadData
-uint32_t
+WebRtc_UWord32
 payloadSize
 const
 RTPFragmentationHeader
@@ -544,7 +544,7 @@ payloadData
 payloadData
 sizeof
 (
-uint8_t
+WebRtc_UWord8
 )
 *
 payloadSize

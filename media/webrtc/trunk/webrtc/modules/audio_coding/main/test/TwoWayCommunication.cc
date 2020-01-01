@@ -228,16 +228,16 @@ Close
 )
 ;
 }
-uint8_t
+WebRtc_UWord8
 TwoWayCommunication
 :
 :
 ChooseCodec
 (
-uint8_t
+WebRtc_UWord8
 *
 codecID_A
-uint8_t
+WebRtc_UWord8
 *
 codecID_B
 )
@@ -254,7 +254,7 @@ Create
 0
 )
 ;
-uint8_t
+WebRtc_UWord8
 noCodec
 =
 tmpACM
@@ -313,7 +313,7 @@ n
 ;
 for
 (
-uint8_t
+WebRtc_UWord8
 codecCntr
 =
 0
@@ -333,7 +333,6 @@ tmpACM
 Codec
 (
 codecCntr
-&
 codecInst
 )
 ;
@@ -399,7 +398,7 @@ NULL
 codecID_A
 =
 (
-uint8_t
+WebRtc_UWord8
 )
 atoi
 (
@@ -441,7 +440,7 @@ NULL
 codecID_B
 =
 (
-uint8_t
+WebRtc_UWord8
 )
 atoi
 (
@@ -468,7 +467,7 @@ return
 0
 ;
 }
-int16_t
+WebRtc_Word16
 TwoWayCommunication
 :
 :
@@ -516,10 +515,10 @@ Create
 4
 )
 ;
-uint8_t
+WebRtc_UWord8
 codecID_A
 ;
-uint8_t
+WebRtc_UWord8
 codecID_B
 ;
 ChooseCodec
@@ -545,7 +544,6 @@ _acmA
 Codec
 (
 codecID_A
-&
 codecInst_A
 )
 ;
@@ -555,7 +553,6 @@ _acmB
 Codec
 (
 codecID_B
-&
 codecInst_B
 )
 ;
@@ -565,7 +562,6 @@ _acmA
 Codec
 (
 6
-&
 dummyCodec
 )
 ;
@@ -705,7 +701,7 @@ codecInst_A
 )
 )
 ;
-uint16_t
+WebRtc_UWord16
 frequencyHz
 ;
 std
@@ -1171,7 +1167,7 @@ return
 0
 ;
 }
-int16_t
+WebRtc_Word16
 TwoWayCommunication
 :
 :
@@ -1236,7 +1232,6 @@ Codec
 "
 ISAC
 "
-&
 codecInst_A
 16000
 1
@@ -1250,7 +1245,6 @@ Codec
 "
 L16
 "
-&
 codecInst_B
 8000
 1
@@ -1262,7 +1256,6 @@ _acmA
 Codec
 (
 6
-&
 dummyCodec
 )
 ;
@@ -1402,7 +1395,7 @@ codecInst_A
 )
 )
 ;
-uint16_t
+WebRtc_UWord16
 frequencyHz
 ;
 std
@@ -1779,7 +1772,7 @@ secPassed
 =
 0
 ;
-int32_t
+WebRtc_Word32
 outFreqHzA
 =
 _outFileA
@@ -1788,7 +1781,7 @@ SamplingFrequency
 (
 )
 ;
-int32_t
+WebRtc_Word32
 outFreqHzB
 =
 _outFileB
@@ -1811,7 +1804,6 @@ _acmB
 >
 SendCodec
 (
-&
 codecInst_B
 )
 ;
@@ -1969,7 +1961,6 @@ _acmA
 PlayoutData10Ms
 (
 outFreqHzA
-&
 audioFrame
 )
 ;
@@ -1986,7 +1977,6 @@ _acmRefA
 PlayoutData10Ms
 (
 outFreqHzA
-&
 audioFrame
 )
 ;
@@ -2003,7 +1993,6 @@ _acmB
 PlayoutData10Ms
 (
 outFreqHzB
-&
 audioFrame
 )
 ;
@@ -2020,7 +2009,6 @@ _acmRefB
 PlayoutData10Ms
 (
 outFreqHzB
-&
 audioFrame
 )
 ;
@@ -2302,7 +2290,6 @@ _acmB
 >
 SendCodec
 (
-&
 dummy
 )
 )

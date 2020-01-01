@@ -102,9 +102,9 @@ std
 :
 string
 fileName
-uint16_t
+WebRtc_UWord16
 width
-uint16_t
+WebRtc_UWord16
 height
 float
 frameRate
@@ -135,7 +135,7 @@ return
 _fileName
 ;
 }
-uint16_t
+WebRtc_UWord16
 GetWidth
 (
 )
@@ -145,7 +145,7 @@ return
 _width
 ;
 }
-uint16_t
+WebRtc_UWord16
 GetHeight
 (
 )
@@ -194,7 +194,7 @@ GetName
 )
 const
 ;
-int32_t
+WebRtc_Word32
 GetFrameLength
 (
 )
@@ -208,10 +208,10 @@ std
 string
 _fileName
 ;
-uint16_t
+WebRtc_UWord16
 _width
 ;
-uint16_t
+WebRtc_UWord16
 _height
 ;
 webrtc

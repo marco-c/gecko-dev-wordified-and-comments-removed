@@ -280,7 +280,7 @@ delete
 _mixHistory
 ;
 }
-int32_t
+WebRtc_Word32
 MixerParticipant
 :
 :
@@ -324,7 +324,7 @@ MixHistory
 )
 {
 }
-int32_t
+WebRtc_Word32
 MixHistory
 :
 :
@@ -344,7 +344,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 MixHistory
 :
 :
@@ -363,7 +363,7 @@ wasMixed
 )
 ;
 }
-int32_t
+WebRtc_Word32
 MixHistory
 :
 :
@@ -829,14 +829,14 @@ NULL
 )
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
 ChangeUniqueId
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 {
@@ -848,7 +848,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -856,7 +856,7 @@ TimeUntilNextProcess
 (
 )
 {
-int32_t
+WebRtc_Word32
 timeUntilNextProcess
 =
 0
@@ -913,7 +913,7 @@ return
 timeUntilNextProcess
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -921,7 +921,7 @@ Process
 (
 )
 {
-uint32_t
+WebRtc_UWord32
 remainingParticipantsAllowedToMix
 =
 kMaximumAmountOfMixedParticipants
@@ -979,7 +979,7 @@ get
 )
 )
 ;
-int32_t
+WebRtc_Word32
 lowFreq
 =
 GetLowestMixingFrequency
@@ -1257,7 +1257,7 @@ retval
 =
 0
 ;
-int32_t
+WebRtc_Word32
 audioLevel
 =
 0
@@ -1587,7 +1587,7 @@ return
 retval
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -1630,7 +1630,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -1669,7 +1669,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -1855,7 +1855,7 @@ return
 true
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -1865,7 +1865,7 @@ AudioMixerStatusReceiver
 &
 mixerStatusCallback
 const
-uint32_t
+WebRtc_UWord32
 amountOf10MsBetweenCallbacks
 )
 {
@@ -1974,7 +1974,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -2043,7 +2043,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -2070,7 +2070,7 @@ false
 )
 ;
 }
-uint32_t
+WebRtc_UWord32
 numMixedParticipants
 ;
 {
@@ -2251,7 +2251,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -2287,7 +2287,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -2440,7 +2440,7 @@ _additionalParticipantList
 1
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -2476,7 +2476,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -2596,7 +2596,7 @@ return
 ;
 }
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -2660,7 +2660,7 @@ return
 highestFreq
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -2671,7 +2671,7 @@ ListWrapper
 mixList
 )
 {
-int32_t
+WebRtc_Word32
 highestFreq
 =
 8000
@@ -2710,7 +2710,7 @@ GetItem
 )
 ;
 const
-int32_t
+WebRtc_Word32
 neededFrequency
 =
 participant
@@ -2762,7 +2762,7 @@ rampOutList
 MapWrapper
 &
 mixParticipantList
-uint32_t
+WebRtc_UWord32
 &
 maxAudioFrameCounter
 )
@@ -2786,7 +2786,7 @@ maxAudioFrameCounter
 )
 ;
 const
-uint32_t
+WebRtc_UWord32
 mixListStartSize
 =
 mixList
@@ -3075,7 +3075,7 @@ CalculateEnergy
 audioFrame
 )
 ;
-uint32_t
+WebRtc_UWord32
 lowestEnergy
 =
 audioFrame
@@ -4691,7 +4691,7 @@ return
 false
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -4720,7 +4720,7 @@ audioFrameList
 "
 )
 ;
-uint32_t
+WebRtc_UWord32
 position
 =
 0
@@ -4774,12 +4774,9 @@ GetItem
 )
 ;
 mixedAudio
-.
-CopyFrom
-(
+=
 *
 audioFrame
-)
 ;
 SetParticipantStatistics
 (
@@ -4900,7 +4897,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 AudioConferenceMixerImpl
 :
 :
@@ -4976,12 +4973,9 @@ GetItem
 )
 ;
 mixedAudio
-.
-CopyFrom
-(
+=
 *
 audioFrame
-)
 ;
 return
 0

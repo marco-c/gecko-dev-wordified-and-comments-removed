@@ -188,7 +188,7 @@ item
 ;
 }
 }
-int32_t
+WebRtc_Word32
 VideoFramesQueue
 :
 :
@@ -502,7 +502,7 @@ return
 ptrRenderFrame
 ;
 }
-int32_t
+WebRtc_Word32
 VideoFramesQueue
 :
 :
@@ -563,13 +563,13 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoFramesQueue
 :
 :
 SetRenderDelay
 (
-uint32_t
+WebRtc_UWord32
 renderDelay
 )
 {

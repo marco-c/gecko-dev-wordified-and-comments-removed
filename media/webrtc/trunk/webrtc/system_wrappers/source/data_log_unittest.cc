@@ -784,7 +784,7 @@ size
 5
 )
 ;
-uint32_t
+WebRtc_UWord32
 sizes
 [
 5
@@ -861,7 +861,7 @@ timestamp
 "
 static_cast
 <
-int64_t
+WebRtc_Word64
 >
 (
 4354
@@ -1344,7 +1344,7 @@ size
 ;
 for
 (
-int32_t
+WebRtc_Word32
 i
 =
 0
@@ -1378,7 +1378,7 @@ arrival
 "
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 i
@@ -1405,7 +1405,7 @@ timestamp
 "
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 4354
@@ -1434,7 +1434,7 @@ size
 "
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 1200
@@ -1465,7 +1465,7 @@ timestamp
 "
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 4354
@@ -1494,7 +1494,7 @@ arrival
 "
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 i
@@ -1521,7 +1521,7 @@ size
 "
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 1200

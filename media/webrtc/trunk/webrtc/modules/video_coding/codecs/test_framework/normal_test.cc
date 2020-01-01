@@ -152,7 +152,7 @@ std
 :
 string
 description
-uint32_t
+WebRtc_UWord32
 bitRate
 unsigned
 int

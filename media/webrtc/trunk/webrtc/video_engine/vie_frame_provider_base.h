@@ -65,7 +65,7 @@ num_csrcs
 =
 0
 const
-uint32_t
+WebRtc_UWord32
 CSRC
 [
 kRtpCsrcSize
@@ -205,7 +205,7 @@ num_csrcs
 =
 0
 const
-uint32_t
+WebRtc_UWord32
 CSRC
 [
 kRtpCsrcSize

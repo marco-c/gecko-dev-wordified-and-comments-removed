@@ -127,7 +127,7 @@ StopThread
 )
 ;
 }
-int32_t
+WebRtc_Word32
 TraceWindows
 :
 :
@@ -142,7 +142,7 @@ level
 )
 const
 {
-uint32_t
+WebRtc_UWord32
 dw_current_time
 =
 timeGetTime
@@ -166,7 +166,7 @@ level
 kTraceApiCall
 )
 {
-uint32_t
+WebRtc_UWord32
 dw_delta_time
 =
 dw_current_time
@@ -253,7 +253,7 @@ dw_delta_time
 }
 else
 {
-uint32_t
+WebRtc_UWord32
 dw_delta_time
 =
 dw_current_time
@@ -342,7 +342,7 @@ return
 22
 ;
 }
-int32_t
+WebRtc_Word32
 TraceWindows
 :
 :
@@ -370,7 +370,7 @@ BUILDINFO
 return
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 strlen
@@ -382,7 +382,7 @@ trace_message
 )
 ;
 }
-int32_t
+WebRtc_Word32
 TraceWindows
 :
 :
@@ -489,7 +489,7 @@ sz_time_str
 return
 static_cast
 <
-int32_t
+WebRtc_Word32
 >
 (
 strlen

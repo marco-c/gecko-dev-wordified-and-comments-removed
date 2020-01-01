@@ -300,7 +300,7 @@ this
 -
 -
 ;
-int32_t
+WebRtc_Word32
 ref_count
 =
 GetCount
@@ -554,7 +554,7 @@ GetVoiceEngine
 )
 ;
 const
-int32_t
+WebRtc_Word32
 result
 =
 shared_data_
@@ -2431,7 +2431,7 @@ return
 1
 ;
 }
-int32_t
+WebRtc_Word32
 ve_channel_id
 =
 -
@@ -3311,7 +3311,7 @@ return
 1
 ;
 }
-int32_t
+WebRtc_Word32
 ve_channel_id
 =
 -
@@ -3793,7 +3793,7 @@ data
 =
 static_cast
 <
-uint8_t
+WebRtc_UWord8
 *
 >
 (
@@ -3803,7 +3803,7 @@ buffer_length
 *
 sizeof
 (
-uint8_t
+WebRtc_UWord8
 )
 )
 )
@@ -4206,7 +4206,7 @@ data
 =
 static_cast
 <
-uint8_t
+WebRtc_UWord8
 *
 >
 (
@@ -4216,7 +4216,7 @@ buffer_length
 *
 sizeof
 (
-uint8_t
+WebRtc_UWord8
 )
 )
 )
@@ -4945,7 +4945,7 @@ return
 1
 ;
 }
-int32_t
+WebRtc_Word32
 timeout_time
 =
 timeout_ms
@@ -5299,7 +5299,7 @@ return
 1
 ;
 }
-int32_t
+WebRtc_Word32
 timeout_time
 =
 timeout_ms
@@ -5430,13 +5430,13 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 ViEFileImpl
 :
 :
 GetNextCapturedFrame
 (
-int32_t
+WebRtc_Word32
 capture_id
 I420VideoFrame
 *
@@ -5859,7 +5859,7 @@ video_frame
 int
 num_csrcs
 const
-uint32_t
+WebRtc_UWord32
 CSRC
 [
 kRtpCsrcSize

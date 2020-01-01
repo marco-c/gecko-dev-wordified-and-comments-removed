@@ -157,7 +157,7 @@ ParseVP8Test
 BasicHeader
 )
 {
-uint8_t
+WebRtc_UWord8
 payload
 [
 4
@@ -282,7 +282,7 @@ ParseVP8Test
 PictureID
 )
 {
-uint8_t
+WebRtc_UWord8
 payload
 [
 10
@@ -533,7 +533,7 @@ ParseVP8Test
 Tl0PicIdx
 )
 {
-uint8_t
+WebRtc_UWord8
 payload
 [
 13
@@ -677,7 +677,7 @@ ParseVP8Test
 TIDAndLayerSync
 )
 {
-uint8_t
+WebRtc_UWord8
 payload
 [
 10
@@ -832,7 +832,7 @@ ParseVP8Test
 KeyIdx
 )
 {
-uint8_t
+WebRtc_UWord8
 payload
 [
 10
@@ -976,7 +976,7 @@ ParseVP8Test
 MultipleExtensions
 )
 {
-uint8_t
+WebRtc_UWord8
 payload
 [
 10
@@ -1196,7 +1196,7 @@ ParseVP8Test
 TooShortHeader
 )
 {
-uint8_t
+WebRtc_UWord8
 payload
 [
 4
@@ -1271,7 +1271,7 @@ ParseVP8Test
 TestWithPacketizer
 )
 {
-uint8_t
+WebRtc_UWord8
 payload
 [
 10
@@ -1281,7 +1281,7 @@ payload
 0
 }
 ;
-uint8_t
+WebRtc_UWord8
 packet
 [
 20

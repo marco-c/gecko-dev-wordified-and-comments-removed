@@ -153,7 +153,7 @@ cond_var_
 bool
 Pass
 (
-uint32_t
+WebRtc_UWord32
 max_msecs
 )
 {
@@ -199,7 +199,7 @@ result
 bool
 Grab
 (
-uint32_t
+WebRtc_UWord32
 max_msecs
 )
 {

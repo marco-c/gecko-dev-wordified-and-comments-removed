@@ -1039,7 +1039,7 @@ fread
 pli
 sizeof
 (
-int16_t
+WebRtc_Word16
 )
 1
 chfileid
@@ -1097,7 +1097,7 @@ encoded_data
 0
 sizeof
 (
-int16_t
+WebRtc_Word16
 )
 *
 25

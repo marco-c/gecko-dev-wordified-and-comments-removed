@@ -49,7 +49,7 @@ MOCK_METHOD1
 ReadFrame
 bool
 (
-uint8_t
+WebRtc_UWord8
 *
 source_buffer
 )
@@ -66,7 +66,7 @@ void
 MOCK_METHOD0
 (
 FrameLength
-size_t
+int
 (
 )
 )

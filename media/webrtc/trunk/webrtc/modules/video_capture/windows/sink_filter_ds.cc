@@ -109,7 +109,7 @@ CaptureInputPin
 :
 CaptureInputPin
 (
-int32_t
+WebRtc_Word32
 moduleId
 IN
 TCHAR
@@ -375,7 +375,7 @@ SetTemporalCompression
 FALSE
 )
 ;
-int32_t
+WebRtc_Word32
 positionOffset
 =
 1
@@ -1875,7 +1875,7 @@ hr
 )
 {
 const
-int32_t
+WebRtc_Word32
 length
 =
 pIMediaSample
@@ -2009,7 +2009,7 @@ phr
 VideoCaptureExternal
 &
 captureObserver
-int32_t
+WebRtc_Word32
 moduleId
 )
 :
@@ -2354,7 +2354,7 @@ unsigned
 char
 *
 pBuffer
-int32_t
+WebRtc_Word32
 length
 const
 VideoCaptureCapability

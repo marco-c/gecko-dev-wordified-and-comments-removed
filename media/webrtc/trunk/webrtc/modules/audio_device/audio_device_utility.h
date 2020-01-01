@@ -20,7 +20,7 @@ AudioDeviceUtility
 public
 :
 static
-uint32_t
+WebRtc_UWord32
 GetTimeInMS
 (
 )
@@ -44,12 +44,12 @@ char
 *
 str2
 const
-uint32_t
+WebRtc_UWord32
 length
 )
 ;
 virtual
-int32_t
+WebRtc_Word32
 Init
 (
 )

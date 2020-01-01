@@ -92,7 +92,7 @@ SUBFRAMES
 )
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQKltModelCdf
 [
 KLT_NUM_MODELS
@@ -102,7 +102,7 @@ KLT_NUM_MODELS
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kQKltModelCdfPtr
 [
@@ -111,7 +111,7 @@ WebRtcIsac_kQKltModelCdfPtr
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQKltModelInitIndex
 [
 1
@@ -135,7 +135,7 @@ WebRtcIsac_kQKltQuantMinShape
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQKltMaxIndGain
 [
 12
@@ -143,7 +143,7 @@ WebRtcIsac_kQKltMaxIndGain
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQKltMaxIndShape
 [
 108
@@ -151,7 +151,7 @@ WebRtcIsac_kQKltMaxIndShape
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQKltOffsetGain
 [
 12
@@ -159,7 +159,7 @@ WebRtcIsac_kQKltOffsetGain
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQKltOffsetShape
 [
 108
@@ -167,7 +167,7 @@ WebRtcIsac_kQKltOffsetShape
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQKltInitIndexGain
 [
 12
@@ -175,7 +175,7 @@ WebRtcIsac_kQKltInitIndexGain
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQKltInitIndexShape
 [
 108
@@ -199,7 +199,7 @@ WebRtcIsac_kQKltLevelsShape
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQKltCdfGain
 [
 404
@@ -207,7 +207,7 @@ WebRtcIsac_kQKltCdfGain
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 WebRtcIsac_kQKltCdfShape
 [
 686
@@ -215,7 +215,7 @@ WebRtcIsac_kQKltCdfShape
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kQKltCdfPtrGain
 [
@@ -224,7 +224,7 @@ WebRtcIsac_kQKltCdfPtrGain
 ;
 extern
 const
-uint16_t
+WebRtc_UWord16
 *
 WebRtcIsac_kQKltCdfPtrShape
 [

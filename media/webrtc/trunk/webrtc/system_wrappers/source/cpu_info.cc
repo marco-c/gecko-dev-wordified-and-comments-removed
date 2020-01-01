@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 interface
@@ -59,13 +57,6 @@ else
 #
 include
 <
-unistd
-.
-h
->
-#
-include
-<
 sys
 /
 sysinfo
@@ -77,10 +68,6 @@ endif
 #
 include
 "
-system_wrappers
-/
-interface
-/
 trace
 .
 h
@@ -88,7 +75,7 @@ h
 namespace
 webrtc
 {
-uint32_t
+WebRtc_UWord32
 CpuInfo
 :
 :
@@ -96,7 +83,7 @@ number_of_cores_
 =
 0
 ;
-uint32_t
+WebRtc_UWord32
 CpuInfo
 :
 :
@@ -129,7 +116,7 @@ number_of_cores_
 =
 static_cast
 <
-uint32_t
+WebRtc_UWord32
 >
 (
 si
@@ -248,7 +235,7 @@ number_of_cores_
 =
 static_cast
 <
-uint32_t
+WebRtc_UWord32
 >
 (
 ncpu

@@ -13,13 +13,13 @@ videocapturemodule
 struct
 DelayValue
 {
-int32_t
+WebRtc_Word32
 width
 ;
-int32_t
+WebRtc_Word32
 height
 ;
-int32_t
+WebRtc_Word32
 delay
 ;
 }

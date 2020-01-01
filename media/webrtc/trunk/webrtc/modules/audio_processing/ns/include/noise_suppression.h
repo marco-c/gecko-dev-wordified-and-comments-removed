@@ -49,7 +49,7 @@ WebRtcNs_Init
 NsHandle
 *
 NS_inst
-uint32_t
+WebRtc_UWord32
 fs
 )
 ;

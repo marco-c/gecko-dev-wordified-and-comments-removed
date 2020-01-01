@@ -96,10 +96,10 @@ encode
 iLBC_Enc_Inst_t
 *
 iLBCenc_inst
-int16_t
+WebRtc_Word16
 *
 encoded_data
-int16_t
+WebRtc_Word16
 *
 data
 )
@@ -107,7 +107,7 @@ data
 WebRtcIlbcfix_Encode
 (
 (
-uint16_t
+WebRtc_UWord16
 *
 )
 encoded_data
@@ -179,7 +179,7 @@ WebRtcIlbcfix_Decode
 (
 decoded_data
 (
-uint16_t
+WebRtc_UWord16
 *
 )
 encoded_data
@@ -1240,7 +1240,7 @@ ifileid
 =
 =
 (
-uint16_t
+WebRtc_UWord16
 )
 Enc_Inst
 .

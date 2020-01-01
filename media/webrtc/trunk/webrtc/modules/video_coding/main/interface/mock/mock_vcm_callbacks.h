@@ -61,10 +61,10 @@ int32_t
 MOCK_METHOD1
 (
 SliceLossIndicationRequest
-int32_t
+WebRtc_Word32
 (
 const
-uint64_t
+WebRtc_UWord64
 pictureId
 )
 )

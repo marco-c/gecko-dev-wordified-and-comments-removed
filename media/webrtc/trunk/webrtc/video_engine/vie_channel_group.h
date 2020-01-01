@@ -127,6 +127,9 @@ receiver
 ViEChannel
 *
 channel
+ViEEncoder
+*
+encoder
 )
 ;
 BitrateController

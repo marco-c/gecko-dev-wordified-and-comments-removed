@@ -47,12 +47,10 @@ txt
 void
 PerformLogging
 (
-const
 std
 :
 :
 string
-&
 table_name
 )
 {

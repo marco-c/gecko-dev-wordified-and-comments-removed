@@ -184,7 +184,7 @@ VideoCaptureMacQTKit
 VideoCaptureMacQTKit
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 :
@@ -306,14 +306,14 @@ release
 ;
 }
 }
-int32_t
+WebRtc_Word32
 VideoCaptureMacQTKit
 :
 :
 Init
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
 char
@@ -329,11 +329,11 @@ _apiCs
 )
 ;
 const
-int32_t
+WebRtc_Word32
 nameLength
 =
 (
-int32_t
+WebRtc_Word32
 )
 strlen
 (
@@ -941,7 +941,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCaptureMacQTKit
 :
 :
@@ -1067,7 +1067,7 @@ return
 0
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCaptureMacQTKit
 :
 :
@@ -1103,7 +1103,7 @@ return
 _isCapturing
 ;
 }
-int32_t
+WebRtc_Word32
 VideoCaptureMacQTKit
 :
 :

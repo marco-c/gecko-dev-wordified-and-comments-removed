@@ -185,7 +185,10 @@ type
 '
 :
 '
-static_library
+<
+(
+library
+)
 '
 '
 dependencies

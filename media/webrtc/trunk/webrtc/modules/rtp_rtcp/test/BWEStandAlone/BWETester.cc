@@ -510,7 +510,7 @@ isMaster
 =
 false
 ;
-uint16_t
+WebRtc_UWord16
 port
 ;
 std

@@ -15,10 +15,6 @@ cassert
 #
 include
 "
-webrtc
-/
-test
-/
 testsupport
 /
 fileutils
@@ -41,7 +37,7 @@ std
 :
 string
 input_filename
-size_t
+int
 frame_length_in_bytes
 )
 :
@@ -100,7 +96,7 @@ be
 0
 was
 %
-zu
+d
 \
 n
 "
@@ -204,15 +200,9 @@ false
 }
 number_of_frames_
 =
-static_cast
-<
-int
->
-(
 source_file_size
 /
 frame_length_in_bytes_
-)
 ;
 return
 true
@@ -251,7 +241,7 @@ FrameReaderImpl
 :
 ReadFrame
 (
-uint8_t
+WebRtc_UWord8
 *
 source_buffer
 )

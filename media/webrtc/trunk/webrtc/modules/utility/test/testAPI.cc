@@ -102,10 +102,10 @@ void
 PlayNotification
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
-uint32_t
+WebRtc_UWord32
 durationMs
 )
 {
@@ -141,10 +141,10 @@ void
 RecordNotification
 (
 const
-int32_t
+WebRtc_Word32
 id
 const
-uint32_t
+WebRtc_UWord32
 durationMs
 )
 {
@@ -180,7 +180,7 @@ void
 PlayFileEnded
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 {
@@ -213,7 +213,7 @@ void
 RecordFileEnded
 (
 const
-int32_t
+WebRtc_Word32
 id
 )
 {
@@ -684,7 +684,7 @@ Sleep
 ;
 }
 }
-uint32_t
+WebRtc_UWord32
 decodedDataLengthInSamples
 ;
 if
@@ -728,7 +728,7 @@ audioFrame
 samples_per_channel_
 =
 (
-uint16_t
+WebRtc_UWord16
 )
 decodedDataLengthInSamples
 ;
@@ -1049,12 +1049,12 @@ IsRecording
 )
 ;
 const
-uint32_t
+WebRtc_UWord32
 KVideoWriteSize
 =
 static_cast
 <
-uint32_t
+WebRtc_UWord32
 >
 (
 (
@@ -1896,7 +1896,7 @@ videoFrame
 ;
 }
 }
-uint32_t
+WebRtc_UWord32
 decodedDataLengthInSamples
 ;
 if
@@ -1947,7 +1947,7 @@ audioFrame
 samples_per_channel_
 =
 (
-uint16_t
+WebRtc_UWord16
 )
 decodedDataLengthInSamples
 ;
