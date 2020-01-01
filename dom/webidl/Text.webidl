@@ -150,6 +150,9 @@ Text
 :
 CharacterData
 {
+[
+Throws
+]
 Text
 splitText
 (
@@ -158,6 +161,9 @@ long
 offset
 )
 ;
+[
+Throws
+]
 readonly
 attribute
 DOMString

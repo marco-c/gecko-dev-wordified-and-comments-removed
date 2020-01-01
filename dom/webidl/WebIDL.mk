@@ -447,6 +447,10 @@ SVGTransformList
 .
 webidl
 \
+Text
+.
+webidl
+\
 TextDecoder
 .
 webidl

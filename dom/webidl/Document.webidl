@@ -340,9 +340,6 @@ interface
 StyleSheetList
 ;
 interface
-Text
-;
-interface
 Touch
 ;
 interface
