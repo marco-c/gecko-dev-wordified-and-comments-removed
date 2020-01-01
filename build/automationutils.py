@@ -2818,9 +2818,6 @@ total
 leaks
 !
 "
-%
-             
-processString
 )
   
 leaks
