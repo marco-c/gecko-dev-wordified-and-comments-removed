@@ -9,17 +9,6 @@ SVGGraphicsElement
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-SVGGraphicsElementBinding
-.
-h
-"
 namespace
 mozilla
 {

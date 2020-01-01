@@ -393,10 +393,6 @@ SVGLineElement
 .
 cpp
 \
-SVGLocatableElement
-.
-cpp
-\
 SVGMarkerElement
 .
 cpp
@@ -727,10 +723,6 @@ SVGImageElement
 h
 \
 SVGLineElement
-.
-h
-\
-SVGLocatableElement
 .
 h
 \

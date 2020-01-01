@@ -567,10 +567,6 @@ SVGLineElement
 .
 webidl
 \
-SVGLocatableElement
-.
-webidl
-\
 SVGMarkerElement
 .
 webidl
@@ -692,10 +688,6 @@ SVGTitleElement
 webidl
 \
 SVGTransform
-.
-webidl
-\
-SVGTransformableElement
 .
 webidl
 \
