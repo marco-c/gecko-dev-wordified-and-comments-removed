@@ -330,6 +330,11 @@ JSCompartment
 JSCompartment
 ;
 typedef
+struct
+JSCrossCompartmentCall
+JSCrossCompartmentCall
+;
+typedef
 JSBool
 (
 *

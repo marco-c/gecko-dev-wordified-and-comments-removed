@@ -1609,14 +1609,6 @@ JSContext
 cx
 )
 ;
-void
-SweepCompartments
-(
-JSContext
-*
-cx
-)
-;
 }
 #
 endif

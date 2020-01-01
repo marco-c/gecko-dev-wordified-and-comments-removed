@@ -931,6 +931,14 @@ void
 c2
 )
 ;
+JS_NOT_REACHED
+(
+"
+compartment
+mismatch
+"
+)
+;
 }
 void
 check
