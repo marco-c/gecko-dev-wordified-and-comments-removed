@@ -72,8 +72,6 @@ CompileLazyFunction
 JSContext
 *
 cx
-HandleFunction
-fun
 LazyScript
 *
 lazy
