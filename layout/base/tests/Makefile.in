@@ -645,6 +645,10 @@ test_bug518777
 .
 html
 \
+test_flush_on_paint
+.
+html
+\
 test_scrolling
 .
 html
