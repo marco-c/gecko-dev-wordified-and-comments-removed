@@ -51,7 +51,9 @@ h
 endif
 #
 include
-NEW_H
+<
+new
+>
 #
 ifndef
 MOZ_STRING_WITH_OBSOLETE_API

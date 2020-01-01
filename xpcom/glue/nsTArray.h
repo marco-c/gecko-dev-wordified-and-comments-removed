@@ -98,7 +98,9 @@ h
 "
 #
 include
-NEW_H
+<
+new
+>
 namespace
 JS
 {

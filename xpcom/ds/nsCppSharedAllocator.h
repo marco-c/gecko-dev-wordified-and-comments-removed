@@ -13,7 +13,9 @@ h
 "
 #
 include
-NEW_H
+<
+new
+>
 #
 ifdef
 _MSC_VER

@@ -89,7 +89,9 @@ h
 endif
 #
 include
-NEW_H
+<
+new
+>
 #
 define
 ZIP_ARENABLOCKSIZE

@@ -20,7 +20,9 @@ h
 "
 #
 include
-NEW_H
+<
+new
+>
 class
 NS_COM_GLUE
 GenericClassInfo
