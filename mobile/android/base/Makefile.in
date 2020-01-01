@@ -978,6 +978,12 @@ PanZoomController
 .
 java
 \
+ui
+/
+SubdocumentScrollHelper
+.
+java
+\
 (
 NULL
 )
