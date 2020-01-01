@@ -276,6 +276,11 @@ mScrollId
 (
 NULL_SCROLL_ID
 )
+mCSSContentSize
+(
+0
+0
+)
 {
 }
 bool
@@ -409,6 +414,12 @@ mDisplayPort
 ;
 ViewID
 mScrollId
+;
+gfx
+:
+:
+Size
+mCSSContentSize
 ;
 }
 ;
