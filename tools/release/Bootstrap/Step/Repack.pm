@@ -151,7 +151,7 @@ logDir
 )
 ;
 my
-buildPlatform
+l10n_buildPlatform
 =
 config
 -
@@ -162,7 +162,7 @@ sysvar
 =
 >
 '
-buildPlatform
+l10n_buildPlatform
 '
 )
 ;
@@ -205,7 +205,7 @@ lastBuilt
 catfile
 (
 l10n_buildDir
-buildPlatform
+l10n_buildPlatform
 '
 last
 -
