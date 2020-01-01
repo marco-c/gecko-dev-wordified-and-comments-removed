@@ -165,6 +165,9 @@ class
 nsIDOMEvent
 ;
 class
+nsIDOMEventTarget
+;
+class
 nsIDeviceContext
 ;
 class
@@ -1763,6 +1766,9 @@ OnPageShow
 (
 PRBool
 aPersisted
+nsIDOMEventTarget
+*
+aDispatchStartTarget
 )
 =
 0
@@ -1773,6 +1779,9 @@ OnPageHide
 (
 PRBool
 aPersisted
+nsIDOMEventTarget
+*
+aDispatchStartTarget
 )
 =
 0
