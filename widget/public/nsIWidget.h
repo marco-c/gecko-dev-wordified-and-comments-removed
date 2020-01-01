@@ -1910,6 +1910,12 @@ nsnull
 =
 0
 ;
+using
+nsIWidget
+:
+:
+GetLayerManager
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
