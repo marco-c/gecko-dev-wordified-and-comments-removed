@@ -189,8 +189,10 @@ gfxFontStyle
 aStyle
 )
 ;
-FontEntry
-*
+already_AddRefed
+<
+gfxWindowsFont
+>
 FindFontForChar
 (
 PRUint32
