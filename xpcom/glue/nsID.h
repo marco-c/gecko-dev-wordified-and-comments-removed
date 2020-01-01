@@ -57,13 +57,6 @@ other
 const
 {
 return
-this
-=
-=
-&
-other
-|
-|
 (
 (
 (
