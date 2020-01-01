@@ -62,8 +62,8 @@ using
 namespace
 nanojit
 ;
-FASTCALL
 jsdouble
+FASTCALL
 builtin_dmod
 (
 jsdouble
@@ -150,8 +150,8 @@ return
 r
 ;
 }
-FASTCALL
 jsval
+FASTCALL
 builtin_BoxDouble
 (
 JSContext
@@ -210,8 +210,8 @@ return
 v
 ;
 }
-FASTCALL
 jsval
+FASTCALL
 builtin_BoxInt32
 (
 JSContext
@@ -277,8 +277,8 @@ return
 v
 ;
 }
-FASTCALL
 jsdouble
+FASTCALL
 builtin_UnboxDouble
 (
 jsval
@@ -312,8 +312,8 @@ v
 )
 ;
 }
-FASTCALL
 jsint
+FASTCALL
 builtin_UnboxInt32
 (
 jsval
@@ -364,8 +364,8 @@ return
 INT32_ERROR_COOKIE
 ;
 }
-FASTCALL
 int32
+FASTCALL
 builtin_doubleToInt32
 (
 jsdouble
@@ -379,8 +379,8 @@ d
 )
 ;
 }
-FASTCALL
 int32
+FASTCALL
 builtin_doubleToUint32
 (
 jsdouble
