@@ -2530,7 +2530,7 @@ Menu
 menu
 )
 {
-sMenu
+mMenu
 =
 menu
 ;
@@ -2573,7 +2573,7 @@ R
 menu
 .
 gecko_menu
-sMenu
+mMenu
 )
 ;
 return
