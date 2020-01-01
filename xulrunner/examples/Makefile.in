@@ -90,9 +90,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-simple
 include
 (
 topsrcdir

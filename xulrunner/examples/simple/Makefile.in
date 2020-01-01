@@ -96,9 +96,6 @@ simple
 XPI_NAME
 =
 simple
-DIRS
-=
-components
 PREF_JS_EXPORTS
 =
 (

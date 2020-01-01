@@ -90,9 +90,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-profile
 PREF_JS_EXPORTS
 =
 (
