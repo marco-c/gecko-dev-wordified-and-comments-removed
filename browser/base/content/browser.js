@@ -31617,8 +31617,6 @@ plugins
 hide_infobar_for_missing_plugin
 "
 ;
-try
-{
 if
 (
 gPrefService
@@ -31630,13 +31628,6 @@ hideBarPrefName
 )
 return
 ;
-}
-catch
-(
-ex
-)
-{
-}
 var
 browser
 =
