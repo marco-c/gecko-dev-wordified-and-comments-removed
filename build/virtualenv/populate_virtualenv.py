@@ -1476,7 +1476,15 @@ s
 n
 "
 %
+os
+.
 path
+.
+relpath
+(
+path
+python_lib
+)
 )
                 
 return
