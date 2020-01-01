@@ -112,6 +112,10 @@ nsIBufEntropyCollector
 .
 idl
 \
+nsISecurityUITelemetry
+.
+idl
+\
 (
 NULL
 )

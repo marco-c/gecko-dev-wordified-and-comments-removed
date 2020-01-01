@@ -5396,6 +5396,16 @@ database
 )
 #
 endif
+HISTOGRAM_ENUMERATED_VALUES
+(
+SECURITY_UI
+100
+"
+Security
+UI
+Telemetry
+"
+)
 #
 undef
 HISTOGRAM_ENUMERATED_VALUES
