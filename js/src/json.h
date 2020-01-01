@@ -19,7 +19,6 @@ JSON_MAX_DEPTH
 define
 JSON_PARSER_BUFSIZE
 1024
-JS_BEGIN_EXTERN_C
 extern
 js
 :
@@ -147,6 +146,5 @@ jsval
 reviver
 )
 ;
-JS_END_EXTERN_C
 #
 endif

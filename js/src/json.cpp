@@ -6450,15 +6450,12 @@ vp
 *
 vp
 =
-STRING_TO_JSVAL
-(
-ATOM_TO_STRING
+ATOM_TO_JSVAL
 (
 CLASS_ATOM
 (
 cx
 JSON
-)
 )
 )
 ;

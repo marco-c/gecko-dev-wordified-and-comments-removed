@@ -5752,7 +5752,7 @@ JS_GC_ROOT_VALUE_PTR
 ;
 }
 JSBool
-js_AddRootRT
+js_AddGCThingRootRT
 (
 JSRuntime
 *

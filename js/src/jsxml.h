@@ -1003,7 +1003,6 @@ js_GetFunctionNamespace
 JSContext
 *
 cx
-const
 js
 :
 :

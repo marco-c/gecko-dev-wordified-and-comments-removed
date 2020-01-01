@@ -415,7 +415,10 @@ cx
 JSObject
 *
 obj
-jsval
+js
+:
+:
+Value
 *
 vp
 )

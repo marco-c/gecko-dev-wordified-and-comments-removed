@@ -5242,12 +5242,9 @@ JS_DefineProperty
 cx
 proto
 js_name_str
-STRING_TO_JSVAL
-(
-ATOM_TO_STRING
+ATOM_TO_JSVAL
 (
 atom
-)
 )
 NULL
 NULL

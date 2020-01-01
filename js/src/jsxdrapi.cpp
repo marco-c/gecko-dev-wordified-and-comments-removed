@@ -4111,7 +4111,7 @@ return
 }
 JS_PUBLIC_API
 (
-Class
+JSClass
 *
 )
 JS_XDRFindClassById
@@ -4145,8 +4145,6 @@ return
 NULL
 ;
 return
-Valueify
-(
 xdr
 -
 >
@@ -4154,7 +4152,6 @@ registry
 [
 i
 ]
-)
 ;
 }
 #

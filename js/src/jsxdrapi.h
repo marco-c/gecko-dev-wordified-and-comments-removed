@@ -596,10 +596,7 @@ JS_XDRRegisterClass
 JSXDRState
 *
 xdr
-js
-:
-:
-Class
+JSClass
 *
 clasp
 uint32
@@ -626,10 +623,7 @@ name
 extern
 JS_PUBLIC_API
 (
-js
-:
-:
-Class
+JSClass
 *
 )
 JS_XDRFindClassById
