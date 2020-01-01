@@ -276,7 +276,7 @@ kDefaultImageCacheSize
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsHTMLImageAccessible
-nsLinkableAccessible
+nsAccessible
 nsIAccessibleImage
 )
 NS_IMETHODIMP
