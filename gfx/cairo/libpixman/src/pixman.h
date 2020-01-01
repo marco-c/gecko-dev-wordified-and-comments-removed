@@ -2822,6 +2822,14 @@ pixman_bool_t
 component_alpha
 )
 ;
+pixman_bool_t
+pixman_image_get_component_alpha
+(
+pixman_image_t
+*
+image
+)
+;
 void
 pixman_image_set_accessors
 (
