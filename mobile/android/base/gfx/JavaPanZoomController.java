@@ -3799,6 +3799,10 @@ protected
 long
 mCurrentFrameStartTime
 ;
+protected
+long
+mLastFrameTimeDelta
+;
 private
 final
 Runnable
@@ -3862,6 +3866,10 @@ currentFrameStartTime
 mCurrentFrameStartTime
 =
 currentFrameStartTime
+;
+mLastFrameTimeDelta
+=
+timeDelta
 ;
 mTarget
 .
@@ -4194,6 +4202,7 @@ mX
 .
 advanceFling
 (
+mLastFrameTimeDelta
 )
 ;
 boolean
@@ -4203,6 +4212,7 @@ mY
 .
 advanceFling
 (
+mLastFrameTimeDelta
 )
 ;
 boolean
