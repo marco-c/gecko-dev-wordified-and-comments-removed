@@ -458,6 +458,13 @@ nsIAccessibleStates
 EXT_STATE_SUPPORTS_AUTOCOMPLETION
 ;
 const
+EXT_STATE_VERTICAL
+=
+nsIAccessibleStates
+.
+EXT_STATE_VERTICAL
+;
+const
 MAC
 =
 (

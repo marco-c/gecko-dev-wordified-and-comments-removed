@@ -300,6 +300,13 @@ nsIAccessibleRole
 ROLE_ROWHEADER
 ;
 const
+ROLE_SCROLLBAR
+=
+nsIAccessibleRole
+.
+ROLE_SCROLLBAR
+;
+const
 ROLE_SECTION
 =
 nsIAccessibleRole
