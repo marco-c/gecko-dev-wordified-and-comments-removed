@@ -83,6 +83,10 @@ NewTabUtils
 .
 jsm
 \
+Preferences
+.
+jsm
+\
 Sqlite
 .
 jsm

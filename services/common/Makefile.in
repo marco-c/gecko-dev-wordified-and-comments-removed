@@ -83,10 +83,6 @@ log4moz
 .
 js
 \
-preferences
-.
-js
-\
 storageservice
 .
 js

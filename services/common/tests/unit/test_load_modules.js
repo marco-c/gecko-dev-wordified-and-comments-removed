@@ -18,11 +18,6 @@ log4moz
 js
 "
 "
-preferences
-.
-js
-"
-"
 rest
 .
 js
