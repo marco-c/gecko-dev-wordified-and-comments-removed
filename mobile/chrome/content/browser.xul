@@ -2488,6 +2488,11 @@ goToURI
 )
 ;
 "
+clickSelectsAll
+=
+"
+true
+"
 /
 >
 <
