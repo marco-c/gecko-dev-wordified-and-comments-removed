@@ -7959,6 +7959,14 @@ mismatch
 )
 ;
 }
+NS_ENSURE_STATE
+(
+xulWin
+-
+>
+mPrimaryContentShell
+)
+;
 *
 _retval
 =
