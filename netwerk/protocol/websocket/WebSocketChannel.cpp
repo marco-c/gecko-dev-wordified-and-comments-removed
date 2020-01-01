@@ -11521,6 +11521,14 @@ thread
 "
 )
 ;
+if
+(
+!
+mSocketIn
+)
+return
+NS_OK
+;
 nsRefPtr
 <
 nsIStreamListener
