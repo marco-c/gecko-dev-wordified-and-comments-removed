@@ -950,6 +950,13 @@ h
 #
 include
 "
+nsIDOMPermissionSettings
+.
+h
+"
+#
+include
+"
 nsIDOMApplicationRegistry
 .
 h
