@@ -159,10 +159,14 @@ js
 Value
 rval
 ;
+private
+:
 void
 *
 annotation
 ;
+public
+:
 JSStackFrame
 *
 down
@@ -201,6 +205,8 @@ public
 uint32
 flags
 ;
+private
+:
 void
 *
 hookData
@@ -208,6 +214,8 @@ hookData
 JSVersion
 callerVersion
 ;
+public
+:
 jsbytecode
 *
 pc
