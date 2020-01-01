@@ -544,6 +544,10 @@ temporarily
 disabled
 )
 \
+test_nsHyperTextAcc_roles
+.
+html
+\
 test_nsIAccessible_actions
 .
 html
