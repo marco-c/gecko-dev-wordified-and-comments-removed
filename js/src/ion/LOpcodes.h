@@ -353,6 +353,16 @@ StoreElementT
 \
 _
 (
+StoreElementHoleV
+)
+\
+_
+(
+StoreElementHoleT
+)
+\
+_
+(
 LoadFixedSlotV
 )
 \
