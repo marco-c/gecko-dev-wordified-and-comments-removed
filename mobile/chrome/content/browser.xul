@@ -6444,6 +6444,16 @@ flex
 "
 1
 "
+onkeypress
+=
+"
+ConsoleView
+.
+onConsoleBoxKeyPress
+(
+event
+)
+"
 /
 >
 <
