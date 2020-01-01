@@ -809,9 +809,9 @@ style
 =
 "
 &
-prefWin
+prefWinMinSize
 .
-styleWin2
+styleWin
 ;
 "
 >
@@ -824,9 +824,9 @@ style
 =
 "
 &
-prefWin
+prefWinMinSize
 .
-styleMac2
+styleMac
 ;
 "
 >
@@ -836,9 +836,9 @@ style
 =
 "
 &
-prefWin
+prefWinMinSize
 .
-styleGNOME2
+styleGNOME
 ;
 "
 >
