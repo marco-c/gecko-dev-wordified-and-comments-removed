@@ -235,7 +235,10 @@ ContainerLayer
 aLayer
 ViewTransform
 *
-aTransform
+aNewTransform
+gfxPoint
+*
+aScrollOffset
 )
 ;
 void

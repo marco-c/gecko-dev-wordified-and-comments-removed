@@ -5061,6 +5061,9 @@ aLayer
 ViewTransform
 *
 aNewTransform
+gfxPoint
+*
+aScrollOffset
 )
 {
 bool
@@ -5488,6 +5491,13 @@ ViewTransform
 scrollCompensation
 localScale
 )
+;
+*
+aScrollOffset
+=
+scrollOffset
+*
+localScale
 ;
 mLastSampleTime
 =
