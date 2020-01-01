@@ -7,7 +7,9 @@ AccGroupInfo_h_
 #
 include
 "
-nsAccessible
+Accessible
+-
+inl
 .
 h
 "

@@ -574,10 +574,6 @@ nsAccessNode
 .
 h
 \
-nsARIAMap
-.
-h
-\
 (
 NULL
 )
@@ -590,10 +586,6 @@ EXPORTS_mozilla
 /
 a11y
 =
-\
-ARIAStateMap
-.
-h
 \
 FocusManager
 .

@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsARIAMap
+.
+h
+"
+#
+include
+"
 nsDocAccessible
 .
 h

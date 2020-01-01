@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsARIAMap
-.
-h
-"
-#
-include
-"
 nsAccessibilityService
 .
 h
@@ -113,6 +106,9 @@ nsHTMLTableAccessible
 ;
 class
 nsDocAccessible
+;
+struct
+nsRoleMapEntry
 ;
 #
 ifdef
