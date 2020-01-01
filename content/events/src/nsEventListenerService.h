@@ -76,8 +76,10 @@ const
 nsAString
 &
 aType
+already_AddRefed
+<
 nsIDOMEventListener
-*
+>
 aListener
 bool
 aCapturing

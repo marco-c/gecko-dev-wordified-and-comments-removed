@@ -569,6 +569,7 @@ nsIID
 &
 aIID
 )
+const
 {
 if
 (
