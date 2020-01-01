@@ -11315,7 +11315,7 @@ optionalArgc
 ?
 lineNumber
 :
-0
+1
 ;
 if
 (
