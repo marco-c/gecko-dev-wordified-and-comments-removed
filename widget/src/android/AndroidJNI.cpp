@@ -658,6 +658,7 @@ Java_org_mozilla_gecko_GeckoAppShell_reportJavaCrash
 (
 JNIEnv
 *
+jenv
 jclass
 jstring
 stack
@@ -670,6 +671,7 @@ nsJNIString
 javaStack
 (
 stack
+jenv
 )
 ;
 CrashReporter
