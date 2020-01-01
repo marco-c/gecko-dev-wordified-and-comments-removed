@@ -151,6 +151,10 @@ NULL
 CPPSRCS
 =
 \
+NeckoCommon
+.
+cpp
+\
 NeckoChild
 .
 cpp
