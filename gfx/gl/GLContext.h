@@ -1090,16 +1090,6 @@ WantsSmallTiles
 ;
 virtual
 bool
-HasLockSurface
-(
-)
-{
-return
-false
-;
-}
-virtual
-bool
 SwapBuffers
 (
 )
