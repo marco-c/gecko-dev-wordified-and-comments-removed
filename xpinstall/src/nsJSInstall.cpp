@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsBuildID
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -7458,6 +7465,12 @@ DELAYED_CHROME
 CHROME_SELECT
 "
 SELECT_CHROME
+"
+}
+{
+NS_BUILD_ID
+"
+buildID
 "
 }
 {
