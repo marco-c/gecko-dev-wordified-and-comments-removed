@@ -455,6 +455,8 @@ eCaseMatters
 nsIContent
 *
 observer
+=
+nsnull
 ;
 if
 (
