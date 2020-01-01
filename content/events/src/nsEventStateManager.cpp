@@ -19337,6 +19337,14 @@ doc
 useMap
 )
 ;
+if
+(
+!
+imageMap
+)
+return
+nsnull
+;
 nsCOMPtr
 <
 nsIContent
