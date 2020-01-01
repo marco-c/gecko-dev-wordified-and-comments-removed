@@ -9624,9 +9624,6 @@ DSO_LDOPTS
 Wl
 -
 h
-(
-notdir
-)
 -
 o
 '
@@ -9649,9 +9646,6 @@ DSO_LDOPTS
 Wl
 -
 h
-(
-notdir
-)
 -
 o
 '
@@ -10245,9 +10239,6 @@ DSO_LDOPTS
 )
 -
 h
-(
-notdir
-)
 -
 o
 '
@@ -10262,9 +10253,6 @@ DSO_LDOPTS
 )
 -
 h
-(
-notdir
-)
 -
 o
 '
@@ -15307,8 +15295,12 @@ DSO_LDOPTS
 Wl
 -
 soname
+lib
 (
-notdir
+LIBRARY_NAME
+)
+(
+DLL_SUFFIX
 )
 -
 o
@@ -15332,8 +15324,12 @@ DSO_LDOPTS
 Wl
 -
 soname
+lib
 (
-notdir
+LIBRARY_NAME
+)
+(
+DLL_SUFFIX
 )
 -
 o
@@ -16237,9 +16233,6 @@ DSO_LDOPTS
 )
 -
 h
-(
-notdir
-)
 -
 o
 '
@@ -16260,9 +16253,6 @@ DSO_LDOPTS
 )
 -
 h
-(
-notdir
-)
 -
 o
 '
