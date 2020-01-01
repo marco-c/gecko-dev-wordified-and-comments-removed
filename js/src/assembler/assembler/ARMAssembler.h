@@ -7829,8 +7829,6 @@ BRANCH_MASK
 )
 ;
 }
-private
-:
 static
 char
 const
