@@ -509,7 +509,6 @@ base
 (
 NULL
 )
-#
 XPCSHELL_TESTS
 =
 tests
