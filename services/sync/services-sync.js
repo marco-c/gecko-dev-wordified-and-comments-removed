@@ -323,7 +323,7 @@ log
 rootLogger
 "
 "
-Trace
+Debug
 "
 )
 ;
