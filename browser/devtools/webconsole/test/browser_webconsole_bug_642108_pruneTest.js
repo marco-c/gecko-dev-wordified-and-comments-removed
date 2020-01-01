@@ -278,7 +278,7 @@ hudRef
 .
 ui
 .
-_cssNodes
+_repeatNodes
 )
 .
 length
@@ -288,7 +288,7 @@ repeated
 nodes
 pruned
 from
-cssNodes
+repeatNodes
 "
 )
 ;
@@ -336,7 +336,7 @@ repeated
 nodes
 pruned
 from
-cssNodes
+repeatNodes
 (
 confirmed
 )
