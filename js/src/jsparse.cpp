@@ -4209,6 +4209,12 @@ scriptGlobals
 cg
 .
 ngvars
++
+cg
+.
+regexpList
+.
+length
 ;
 if
 (
