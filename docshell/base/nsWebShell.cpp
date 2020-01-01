@@ -3433,8 +3433,13 @@ InternalLoad
 (
 aURI
 referer
-nsnull
-INTERNAL_LOAD_FLAGS_INHERIT_OWNER
+aContent
+-
+>
+NodePrincipal
+(
+)
+INTERNAL_LOAD_FLAGS_NONE
 target
 .
 get
