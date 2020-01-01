@@ -109,9 +109,7 @@ s
 var
 Android
 =
-%
-s
-;
+false
 '
 %
 (
@@ -134,15 +132,6 @@ isdebug
 lower
 (
 )
-            
-self
-.
-os
-=
-=
-"
-Android
-"
 )
     
 classmethod
