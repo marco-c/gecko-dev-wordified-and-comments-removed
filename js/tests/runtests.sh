@@ -594,10 +594,10 @@ S
 R
 -
 X
-exclude
+excludetests
 -
 I
-include
+includetests
 -
 c
 -
@@ -864,7 +864,7 @@ tests
 .
 -
 X
-exclude
+excludetests
 optional
 .
 By
@@ -892,7 +892,7 @@ branch
 .
 tests
 .
-exclude
+excludetests
 is
 a
 list
@@ -916,7 +916,7 @@ list
 .
 -
 I
-include
+includetests
 optional
 .
 By
@@ -933,7 +933,7 @@ for
 the
 branch
 .
-include
+includetests
 is
 a
 list
@@ -1189,14 +1189,14 @@ summary
 ;
 X
 )
-exclude
+excludetests
 =
 OPTARG
 ;
 ;
 I
 )
-include
+includetests
 =
 OPTARG
 ;
