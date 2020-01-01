@@ -2244,6 +2244,16 @@ MaybeReflowFromOuterSVGFrame
 (
 )
 {
+if
+(
+IsDisabled
+(
+)
+)
+{
+return
+;
+}
 nsIFrame
 *
 kid
