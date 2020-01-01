@@ -9659,7 +9659,7 @@ errorconsole
 .
 enabled
 "
-true
+false
 )
 ;
 pref
