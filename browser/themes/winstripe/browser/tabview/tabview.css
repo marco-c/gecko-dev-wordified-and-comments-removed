@@ -1871,6 +1871,13 @@ height
 ;
 background
 :
+-
+moz
+-
+image
+-
+rect
+(
 url
 (
 chrome
@@ -1886,6 +1893,11 @@ tabview
 tabview
 .
 png
+)
+0
+18
+18
+0
 )
 no
 -
