@@ -130,10 +130,6 @@ nsIPluginInstanceOwner
 .
 idl
 \
-nsIPluginStreamInfo
-.
-idl
-\
 nsIPluginTag
 .
 idl
