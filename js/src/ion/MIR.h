@@ -2743,7 +2743,7 @@ MBasicBlock
 *
 getCase
 (
-uint32
+size_t
 i
 )
 const

@@ -7649,7 +7649,7 @@ uint32
 count
 )
 {
-uint
+uint32
 ret
 =
 0
