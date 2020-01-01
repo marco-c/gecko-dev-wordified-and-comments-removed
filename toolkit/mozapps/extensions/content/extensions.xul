@@ -2580,12 +2580,10 @@ searchbutton
 "
 true
 "
-cocoa
--
-size
+class
 =
 "
-small
+compact
 "
 oncommand
 =

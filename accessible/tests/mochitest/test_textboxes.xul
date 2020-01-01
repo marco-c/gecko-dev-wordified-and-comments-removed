@@ -2605,13 +2605,6 @@ type
 "
 search
 "
-cocoa
--
-size
-=
-"
-small
-"
 results
 =
 "
@@ -2648,13 +2641,6 @@ searchbutton
 =
 "
 true
-"
-cocoa
--
-size
-=
-"
-small
 "
 /
 >

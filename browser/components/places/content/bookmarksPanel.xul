@@ -815,12 +815,10 @@ type
 "
 search
 "
-cocoa
--
-size
+class
 =
 "
-small
+compact
 "
 aria
 -
