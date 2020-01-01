@@ -480,7 +480,7 @@ beginTime
 null
 ;
 }
-onBeforePaint
+sample
 :
 function
 (
