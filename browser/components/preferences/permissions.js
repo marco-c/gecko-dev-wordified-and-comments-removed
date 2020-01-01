@@ -1005,19 +1005,6 @@ host
 {
 exists
 =
-true
-;
-this
-.
-_permissions
-[
-i
-]
-.
-capability
-=
-capabilityString
-;
 this
 .
 _permissions
@@ -1026,6 +1013,7 @@ i
 ]
 .
 perm
+=
 =
 aCapability
 ;
