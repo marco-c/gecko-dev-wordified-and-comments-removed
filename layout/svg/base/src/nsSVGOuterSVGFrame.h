@@ -269,6 +269,13 @@ aPrevInFlow
 )
 ;
 virtual
+nsSplittableType
+GetSplittableType
+(
+)
+const
+;
+virtual
 nsIAtom
 *
 GetType
