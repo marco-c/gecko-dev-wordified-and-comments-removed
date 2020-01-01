@@ -883,6 +883,11 @@ OS
 "
 android
 "
+or
+moz_widget_toolkit_gonk
+=
+=
+1
 '
 {
 '
@@ -1175,6 +1180,11 @@ OS
 "
 android
 "
+or
+moz_widget_toolkit_gonk
+=
+=
+1
 '
 {
 '

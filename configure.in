@@ -78137,6 +78137,11 @@ D
 build_with_gonk
 =
 1
+-
+D
+include_internal_audio_device
+=
+0
 "
 fi
 dnl

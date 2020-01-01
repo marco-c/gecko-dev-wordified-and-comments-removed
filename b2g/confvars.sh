@@ -174,6 +174,9 @@ else
 MOZ_XULRUNNER
 =
 fi
+MOZ_MEDIA_NAVIGATOR
+=
+1
 MOZ_APP_ID
 =
 {
