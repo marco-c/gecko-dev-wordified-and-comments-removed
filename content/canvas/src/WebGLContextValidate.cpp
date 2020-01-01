@@ -2319,12 +2319,6 @@ mBoundRenderbuffer
 =
 nsnull
 ;
-mMapTextures
-.
-Clear
-(
-)
-;
 mMapBuffers
 .
 Clear
