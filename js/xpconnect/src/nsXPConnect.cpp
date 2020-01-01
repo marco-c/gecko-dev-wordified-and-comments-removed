@@ -149,6 +149,13 @@ nsWrapperCacheInlines
 .
 h
 "
+#
+include
+"
+jscntxt
+.
+h
+"
 NS_IMPL_THREADSAFE_ISUPPORTS7
 (
 nsXPConnect

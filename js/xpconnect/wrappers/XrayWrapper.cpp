@@ -36,13 +36,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h
@@ -65,6 +58,13 @@ h
 include
 "
 xpcprivate
+.
+h
+"
+#
+include
+"
+jscntxt
 .
 h
 "

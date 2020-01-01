@@ -119,6 +119,13 @@ jsfriendapi
 .
 h
 "
+#
+include
+"
+jscntxt
+.
+h
+"
 using
 namespace
 mozilla

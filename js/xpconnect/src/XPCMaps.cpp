@@ -5,6 +5,13 @@ xpcprivate
 .
 h
 "
+#
+include
+"
+jshash
+.
+h
+"
 static
 JSDHashNumber
 HashIIDPtrKey

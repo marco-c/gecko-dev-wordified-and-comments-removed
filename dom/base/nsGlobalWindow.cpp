@@ -1258,6 +1258,13 @@ h
 #
 endif
 #
+include
+"
+jscntxt
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 static
