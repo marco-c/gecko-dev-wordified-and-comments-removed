@@ -1540,7 +1540,7 @@ aResult
 )
 ;
 nsresult
-SetDocPendingStateObj
+SetDocCurrentStateObj
 (
 nsISHEntry
 *

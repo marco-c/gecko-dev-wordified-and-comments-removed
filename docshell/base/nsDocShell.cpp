@@ -23927,7 +23927,7 @@ mEODForCurrentDocument
 mContentViewer
 )
 {
-SetDocPendingStateObj
+SetDocCurrentStateObj
 (
 mLSHE
 )
@@ -30066,7 +30066,7 @@ nsresult
 nsDocShell
 :
 :
-SetDocPendingStateObj
+SetDocCurrentStateObj
 (
 nsISHEntry
 *
@@ -30124,7 +30124,7 @@ rv
 document
 -
 >
-SetPendingStateObject
+SetCurrentStateObject
 (
 stateData
 )
@@ -32349,7 +32349,7 @@ newURI
 )
 ;
 }
-SetDocPendingStateObj
+SetDocCurrentStateObj
 (
 mOSHE
 )
