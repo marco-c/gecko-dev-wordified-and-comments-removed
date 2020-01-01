@@ -492,6 +492,14 @@ test_nodesFromRect
 .
 html
 \
+test_frameElementWrapping
+.
+html
+\
+file_frameElementWrapping
+.
+html
+\
 (
 NULL
 )
