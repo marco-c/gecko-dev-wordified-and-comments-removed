@@ -499,6 +499,16 @@ PKG_BASENAME
 )
 .
 pkg
+_BINPATH
+=
+/
+XUL
+.
+framework
+/
+Versions
+/
+Current
 PKG_SKIP_STRIP
 =
 1
