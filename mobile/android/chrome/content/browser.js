@@ -29599,6 +29599,8 @@ aAddons
 i
 ]
 ;
+try
+{
 let
 addonJSON
 =
@@ -29635,6 +29637,13 @@ id
 =
 addonJSON
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 }
 sendMessageToJava
