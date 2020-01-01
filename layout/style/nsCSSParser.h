@@ -281,8 +281,6 @@ aBaseURL
 nsIPrincipal
 *
 aSheetPrincipal
-nsCOMArray
-<
 mozilla
 :
 :
@@ -290,8 +288,8 @@ css
 :
 :
 Rule
->
-&
+*
+*
 aResult
 )
 ;
