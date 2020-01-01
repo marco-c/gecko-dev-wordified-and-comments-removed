@@ -209,7 +209,7 @@ final
 long
 MIN_VIEWPORT_CHANGE_DELAY
 =
-350L
+15L
 ;
 private
 long
