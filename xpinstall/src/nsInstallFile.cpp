@@ -1327,13 +1327,13 @@ get
 )
 )
 ;
-Recycle
+NS_Free
 (
 interimCStr
 )
 ;
 }
-Recycle
+NS_Free
 (
 rsrcVal
 )
