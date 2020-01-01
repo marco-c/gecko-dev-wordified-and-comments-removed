@@ -201,6 +201,10 @@ const
 nsAString
 &
 aMessage
+PRInt32
+aRequestId
+PRUint64
+aProcessId
 )
 {
 if
