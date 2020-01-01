@@ -359,13 +359,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences
@@ -2205,10 +2198,7 @@ Destroy
 {
 if
 (
-nsnull
-=
-=
-mWnd
+mOnDestroyCalled
 )
 return
 NS_OK
