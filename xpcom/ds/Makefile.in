@@ -114,10 +114,6 @@ nsCRT
 .
 cpp
 \
-nsFixedSizeAllocator
-.
-cpp
-\
 nsHashPropertyBag
 .
 cpp
@@ -293,10 +289,6 @@ nsCRT
 h
 \
 nsExpirationTracker
-.
-h
-\
-nsFixedSizeAllocator
 .
 h
 \
