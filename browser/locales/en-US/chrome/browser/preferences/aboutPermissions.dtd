@@ -212,9 +212,9 @@ Cookies
 ENTITY
 cookie
 .
-clear
+remove
 "
-Clear
+Remove
 Cookies
 "
 >
@@ -234,9 +234,9 @@ Cookies
 ENTITY
 cookie
 .
-clearAll
+removeAll
 "
-Clear
+Remove
 All
 Cookies
 "

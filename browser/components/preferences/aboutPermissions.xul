@@ -1677,7 +1677,7 @@ label
 &
 cookie
 .
-clearAll
+removeAll
 ;
 "
 oncommand
@@ -1775,7 +1775,7 @@ label
 &
 cookie
 .
-clear
+remove
 ;
 "
 oncommand
