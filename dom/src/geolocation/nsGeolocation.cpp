@@ -3691,6 +3691,10 @@ mProvider
 return
 ;
 }
+mHigherAccuracy
+=
+false
+;
 mProvider
 -
 >
