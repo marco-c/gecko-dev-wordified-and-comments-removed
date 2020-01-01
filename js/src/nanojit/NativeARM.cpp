@@ -1330,6 +1330,10 @@ nBeginAssembly
 (
 )
 {
+max_out_args
+=
+0
+;
 }
 NIns
 *
