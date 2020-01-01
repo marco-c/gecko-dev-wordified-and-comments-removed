@@ -4403,13 +4403,8 @@ self
 :
         
 return
-self
-.
-inner
-.
-isPrimitive
-(
-)
+False
+;
     
 def
 isString
@@ -4419,13 +4414,8 @@ self
 :
         
 return
-self
-.
-inner
-.
-isString
-(
-)
+False
+;
     
 def
 isVoid
