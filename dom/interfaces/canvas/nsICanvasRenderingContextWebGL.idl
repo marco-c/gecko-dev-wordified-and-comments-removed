@@ -461,7 +461,7 @@ long
 GLenum
 ;
 typedef
-octet
+boolean
 GLboolean
 ;
 typedef
