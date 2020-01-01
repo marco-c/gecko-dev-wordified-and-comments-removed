@@ -1870,6 +1870,7 @@ clipboard
 copyString
 (
 password
+document
 )
 ;
 }

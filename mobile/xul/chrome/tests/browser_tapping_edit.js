@@ -1642,6 +1642,9 @@ are
 testing
 Firefox
 "
+content
+.
+document
 )
 ;
 let

@@ -238,6 +238,17 @@ nsIFormatConverter
 >
 mFormatConv
 ;
+bool
+mPrivateData
+;
+#
+if
+DEBUG
+bool
+mInitialized
+;
+#
+endif
 }
 ;
 #

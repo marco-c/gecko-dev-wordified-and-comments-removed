@@ -4606,6 +4606,11 @@ this
 selection
 .
 innerHTML
+this
+.
+selection
+.
+ownerDocument
 )
 ;
 }
@@ -4625,6 +4630,11 @@ this
 selection
 .
 outerHTML
+this
+.
+selection
+.
+ownerDocument
 )
 ;
 }

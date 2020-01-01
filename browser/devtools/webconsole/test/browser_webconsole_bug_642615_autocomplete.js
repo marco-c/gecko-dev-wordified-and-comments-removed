@@ -125,6 +125,7 @@ clipboardHelper
 copyString
 (
 stringToCopy
+document
 )
 ;
 }

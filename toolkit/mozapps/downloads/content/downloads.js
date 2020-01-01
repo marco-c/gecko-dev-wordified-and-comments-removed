@@ -1509,6 +1509,7 @@ join
 n
 "
 )
+document
 )
 ;
 }
@@ -1534,6 +1535,7 @@ clipboard
 copyString
 (
 uri
+document
 )
 ;
 }
@@ -3173,6 +3175,13 @@ createInstance
 Ci
 .
 nsITransferable
+)
+;
+trans
+.
+init
+(
+null
 )
 ;
 let

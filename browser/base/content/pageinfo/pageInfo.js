@@ -7412,6 +7412,7 @@ join
 n
 "
 )
+document
 )
 ;
 }

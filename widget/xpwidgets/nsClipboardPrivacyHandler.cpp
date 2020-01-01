@@ -439,6 +439,14 @@ rv
 rv
 )
 ;
+nullData
+-
+>
+Init
+(
+nsnull
+)
+;
 rv
 =
 clipboard

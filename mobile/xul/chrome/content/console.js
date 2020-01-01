@@ -1617,6 +1617,7 @@ getAttribute
 msg
 "
 )
+document
 )
 ;
 }

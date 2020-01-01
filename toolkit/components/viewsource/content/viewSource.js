@@ -3517,6 +3517,7 @@ indexOf
 +
 1
 )
+document
 )
 ;
 }

@@ -809,6 +809,7 @@ clip
 copyString
 (
 testString
+document
 )
 ;
 }

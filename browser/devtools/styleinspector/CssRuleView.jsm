@@ -4362,6 +4362,9 @@ clipboardHelper
 copyString
 (
 text
+this
+.
+doc
 )
 ;
 if
@@ -4685,6 +4688,9 @@ clipboardHelper
 copyString
 (
 out
+this
+.
+doc
 )
 ;
 }
@@ -4885,6 +4891,9 @@ clipboardHelper
 copyString
 (
 out
+this
+.
+doc
 )
 ;
 }
@@ -4958,6 +4967,9 @@ copyString
 node
 .
 textContent
+this
+.
+doc
 )
 ;
 }
@@ -5032,6 +5044,9 @@ copyString
 node
 .
 textContent
+this
+.
+doc
 )
 ;
 }

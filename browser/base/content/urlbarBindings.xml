@@ -4370,6 +4370,7 @@ nsIClipboardHelper
 copyString
 (
 val
+document
 )
 ;
 }
@@ -5777,6 +5778,7 @@ nsIClipboardHelper
 copyStringToClipboard
 (
 val
+document
 Ci
 .
 nsIClipboard

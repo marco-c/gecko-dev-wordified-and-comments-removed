@@ -256,6 +256,9 @@ nsISupportsArray
 *
 *
 transferables
+nsIDOMNode
+*
+aDragTarget
 )
 ;
 bool

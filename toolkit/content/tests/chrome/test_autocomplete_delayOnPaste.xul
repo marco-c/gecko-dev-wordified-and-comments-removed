@@ -811,6 +811,7 @@ nsIClipboardHelper
 copyStringToClipboard
 (
 SEARCH_STRING
+document
 Components
 .
 interfaces

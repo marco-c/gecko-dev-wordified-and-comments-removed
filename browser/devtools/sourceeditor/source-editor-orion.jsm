@@ -3918,6 +3918,11 @@ clipboardHelper
 copyStringToClipboard
 (
 text
+this
+.
+parentElement
+.
+ownerDocument
 Ci
 .
 nsIClipboard

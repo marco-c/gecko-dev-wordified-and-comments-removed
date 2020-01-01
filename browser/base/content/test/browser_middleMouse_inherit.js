@@ -152,6 +152,7 @@ nsIClipboardHelper
 copyString
 (
 url
+document
 )
 ;
 }

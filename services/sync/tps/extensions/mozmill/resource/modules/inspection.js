@@ -2022,6 +2022,9 @@ gClipboardHelper
 copyString
 (
 str
+_window
+.
+document
 )
 ;
 }
