@@ -5208,12 +5208,6 @@ tabs
 -
 container
 {
-padding
--
-top
-:
-8px
-;
 -
 moz
 -
@@ -5373,7 +5367,7 @@ margin
 -
 bottom
 :
-8px
+5px
 ;
 width
 :
@@ -5387,7 +5381,7 @@ padding
 -
 bottom
 :
-11px
+10px
 ;
 background
 :
@@ -5451,7 +5445,7 @@ bottom
 -
 width
 :
-3px
+2px
 ;
 }
 documenttab
