@@ -598,6 +598,7 @@ void
 SetImmutable
 (
 )
+const
 {
 mImmutable
 =
@@ -748,6 +749,7 @@ nsCSSCompressedDataBlock
 >
 mImportantData
 ;
+mutable
 PRPackedBool
 mImmutable
 ;
