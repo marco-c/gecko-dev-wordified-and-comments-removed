@@ -544,6 +544,16 @@ nsPresContext
 aPresContext
 )
 ;
+nsRect
+ApproximateIntersect
+(
+const
+nsRect
+&
+aRect
+)
+const
+;
 bool
 operator
 =

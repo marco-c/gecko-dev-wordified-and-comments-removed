@@ -922,8 +922,8 @@ aBuilder
 )
 ;
 virtual
-PRBool
-IsOpaque
+nsRegion
+GetOpaqueRegion
 (
 nsDisplayListBuilder
 *
