@@ -470,7 +470,7 @@ overrun
 d
 +
 %
-d
+zd
 >
 =
 %
@@ -567,7 +567,7 @@ overrun
 d
 +
 %
-d
+zd
 >
 %
 d
@@ -663,7 +663,7 @@ overrun
 d
 +
 %
-d
+zd
 >
 %
 d
@@ -833,7 +833,7 @@ overrun
 d
 +
 %
-d
+zd
 >
 %
 d
@@ -933,7 +933,7 @@ overrun
 d
 +
 %
-d
+zd
 >
 %
 d
@@ -1033,7 +1033,7 @@ overrun
 d
 +
 %
-d
+zd
 >
 %
 d
@@ -1269,7 +1269,7 @@ too
 large
 :
 %
-d
+zd
 characters
 "
 attr_info
@@ -4718,7 +4718,7 @@ in
 string
 :
 %
-d
+zd
 /
 %
 d
@@ -5432,7 +5432,6 @@ ADDRESS
 %
 s
 "
-&
 xor_mapped_address
 -
 >

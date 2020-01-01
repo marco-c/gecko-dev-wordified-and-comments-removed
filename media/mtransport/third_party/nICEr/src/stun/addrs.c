@@ -787,6 +787,8 @@ at
 d
 out
 of
+%
+d
 entries
 "
 maxaddrs

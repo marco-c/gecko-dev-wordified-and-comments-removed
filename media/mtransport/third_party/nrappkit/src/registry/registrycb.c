@@ -761,7 +761,7 @@ LOG_DEBUG
 register
 callback
 %
-X
+p
 on
 '
 %
@@ -1089,7 +1089,7 @@ LOG_DEBUG
 unregister
 callback
 %
-X
+p
 on
 '
 %
@@ -1586,7 +1586,7 @@ LOG_DEBUG
 Invoking
 callback
 %
-X
+p
 for
 '
 %
@@ -1633,7 +1633,7 @@ LOG_DEBUG
 Skipping
 callback
 %
-X
+p
 for
 '
 %
