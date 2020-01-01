@@ -484,15 +484,6 @@ HasCacheEntry
 )
 const
 ;
-bool
-HaveProxyWithObserver
-(
-imgRequestProxy
-*
-aProxyToIgnore
-)
-const
-;
 int32_t
 Priority
 (
