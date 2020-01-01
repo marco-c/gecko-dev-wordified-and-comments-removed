@@ -10880,7 +10880,7 @@ hook
 if
 (
 inlineCallCount
-=
+>
 =
 MAX_INLINE_CALL_COUNT
 )
@@ -14714,10 +14714,10 @@ obj
 ;
 JS_ASSERT
 (
-DSLOTS_IS_NOT_NULL
-(
 obj
-)
+-
+>
+dslots
 )
 ;
 index
