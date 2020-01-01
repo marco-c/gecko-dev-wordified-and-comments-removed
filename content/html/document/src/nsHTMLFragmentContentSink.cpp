@@ -259,7 +259,8 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
-void
+PRBool
+aTerminated
 )
 ;
 NS_IMETHOD
@@ -1064,7 +1065,8 @@ nsHTMLFragmentContentSink
 :
 DidBuildModel
 (
-void
+PRBool
+aTerminated
 )
 {
 FlushText
@@ -2538,6 +2540,7 @@ FlushText
 ;
 DidBuildModel
 (
+PR_FALSE
 )
 ;
 mProcessing

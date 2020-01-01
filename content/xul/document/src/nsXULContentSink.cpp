@@ -906,7 +906,8 @@ XULContentSinkImpl
 :
 DidBuildModel
 (
-void
+PRBool
+aTerminated
 )
 {
 nsCOMPtr

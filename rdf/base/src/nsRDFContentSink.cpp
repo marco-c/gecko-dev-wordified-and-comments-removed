@@ -340,7 +340,8 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
-void
+PRBool
+aTerminated
 )
 ;
 NS_IMETHOD
@@ -2302,7 +2303,8 @@ RDFContentSinkImpl
 :
 DidBuildModel
 (
-void
+PRBool
+aTerminated
 )
 {
 if

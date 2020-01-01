@@ -224,7 +224,8 @@ nsLoadSaveContentSink
 :
 DidBuildModel
 (
-void
+PRBool
+aTerminated
 )
 {
 return
@@ -233,6 +234,7 @@ mBaseSink
 >
 DidBuildModel
 (
+aTerminated
 )
 ;
 }

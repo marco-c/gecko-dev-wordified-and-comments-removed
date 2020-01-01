@@ -359,15 +359,6 @@ void
 )
 DidBuildModelImpl
 (
-void
-)
-;
-NS_HIDDEN_
-(
-PRBool
-)
-ReadyToCallDidBuildModelImpl
-(
 PRBool
 aTerminated
 )
@@ -889,11 +880,6 @@ mDeferredLayoutStart
 ;
 PRUint8
 mDeferredFlushTags
-:
-1
-;
-PRUint8
-mDidGetReadyToCallDidBuildModelCall
 :
 1
 ;

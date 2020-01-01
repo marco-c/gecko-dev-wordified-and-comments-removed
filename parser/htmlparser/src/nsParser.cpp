@@ -7911,15 +7911,6 @@ mDTD
 &
 &
 mSink
-&
-&
-mSink
--
->
-ReadyToCallDidBuildModel
-(
-terminated
-)
 )
 {
 nsresult
@@ -7939,6 +7930,7 @@ mSink
 >
 DidBuildModel
 (
+terminated
 )
 ;
 result
@@ -8369,6 +8361,7 @@ mSink
 >
 DidBuildModel
 (
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS

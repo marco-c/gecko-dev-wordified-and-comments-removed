@@ -80,6 +80,8 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
+PRBool
+aTerminated
 )
 ;
 NS_IMETHOD

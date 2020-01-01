@@ -292,6 +292,8 @@ aDTDMode
 NS_IMETHOD
 DidBuildModel
 (
+PRBool
+aTerminated
 )
 ;
 NS_IMETHOD
@@ -700,6 +702,8 @@ nsXMLFragmentContentSink
 :
 DidBuildModel
 (
+PRBool
+aTerminated
 )
 {
 if

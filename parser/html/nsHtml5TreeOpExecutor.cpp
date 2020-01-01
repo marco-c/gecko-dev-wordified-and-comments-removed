@@ -363,6 +363,8 @@ nsHtml5TreeOpExecutor
 :
 DidBuildModel
 (
+PRBool
+aTerminated
 )
 {
 NS_ASSERTION
@@ -414,6 +416,7 @@ end
 ;
 DidBuildModelImpl
 (
+aTerminated
 )
 ;
 mDocument

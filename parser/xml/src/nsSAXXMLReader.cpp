@@ -259,6 +259,8 @@ nsSAXXMLReader
 :
 DidBuildModel
 (
+PRBool
+aTerminated
 )
 {
 if

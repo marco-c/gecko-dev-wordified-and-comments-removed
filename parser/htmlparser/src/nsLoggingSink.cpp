@@ -326,6 +326,8 @@ nsLoggingSink
 :
 DidBuildModel
 (
+PRBool
+aTerminated
 )
 {
 WriteTabs
@@ -366,6 +368,7 @@ mSink
 >
 DidBuildModel
 (
+aTerminated
 )
 ;
 }
