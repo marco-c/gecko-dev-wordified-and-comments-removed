@@ -446,6 +446,10 @@ test_aboutmemory
 .
 xul
 \
+test_asyncClose_leak
+.
+xul
+\
 (
 NULL
 )
