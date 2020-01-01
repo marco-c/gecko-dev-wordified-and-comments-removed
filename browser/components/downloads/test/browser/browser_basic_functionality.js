@@ -47,6 +47,11 @@ DOWNLOAD_CANCELED
 try
 {
 yield
+promiseFocus
+(
+)
+;
+yield
 task_resetState
 (
 )

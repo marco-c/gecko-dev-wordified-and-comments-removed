@@ -1379,3 +1379,17 @@ capturing_disabled
 true
 )
 ;
+user_pref
+(
+"
+browser
+.
+download
+.
+panel
+.
+shown
+"
+true
+)
+;
