@@ -912,12 +912,6 @@ aWillSendDidPaint
 ;
 virtual
 void
-DidPaint
-(
-)
-;
-virtual
-void
 WillPaintWindow
 (
 bool

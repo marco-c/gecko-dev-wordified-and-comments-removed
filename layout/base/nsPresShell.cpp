@@ -30828,15 +30828,6 @@ void
 PresShell
 :
 :
-DidPaint
-(
-)
-{
-}
-void
-PresShell
-:
-:
 WillPaintWindow
 (
 bool
