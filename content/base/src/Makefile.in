@@ -221,6 +221,10 @@ Link
 .
 h
 \
+NodeIterator
+.
+h
+\
 Text
 .
 h
@@ -439,7 +443,7 @@ nsNodeInfoManager
 .
 cpp
 \
-nsNodeIterator
+NodeIterator
 .
 cpp
 \
