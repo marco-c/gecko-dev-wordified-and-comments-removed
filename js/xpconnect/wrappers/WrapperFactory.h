@@ -152,6 +152,15 @@ obj
 ;
 }
 static
+bool
+IsCOW
+(
+JSObject
+*
+wrapper
+)
+;
+static
 JSObject
 *
 GetXrayWaiver
