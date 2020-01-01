@@ -6643,7 +6643,7 @@ if
 display
 -
 >
-IsBlockLevel
+IsBlockOutside
 (
 )
 |
