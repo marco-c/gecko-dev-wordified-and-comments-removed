@@ -2737,15 +2737,6 @@ WebGLObjectRefPtr
 WebGLTexture
 >
 >
-mUniformTextures
-;
-nsTArray
-<
-WebGLObjectRefPtr
-<
-WebGLTexture
->
->
 mBound2DTextures
 ;
 nsTArray
