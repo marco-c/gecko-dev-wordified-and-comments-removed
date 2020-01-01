@@ -855,6 +855,7 @@ this
 .
 name
 )
+;
 if
 (
 !
@@ -3717,6 +3718,7 @@ done
 (
 ret
 )
+;
 }
 _fullUpload
 :
