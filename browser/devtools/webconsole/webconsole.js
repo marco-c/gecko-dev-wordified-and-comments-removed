@@ -17843,6 +17843,13 @@ case
 CSP
 "
 :
+case
+"
+Invalid
+HSTS
+Headers
+"
+:
 return
 CATEGORY_SECURITY
 ;
