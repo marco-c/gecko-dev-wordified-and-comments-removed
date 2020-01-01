@@ -133,15 +133,9 @@ returnAddressPtr
 (
 )
 {
-JS_NOT_REACHED
-(
-"
-NYI
-"
-)
-;
 return
-NULL
+&
+returnAddress_
 ;
 }
 }
