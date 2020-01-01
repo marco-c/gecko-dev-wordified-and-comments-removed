@@ -3900,11 +3900,6 @@ true
 ;
 }
 void
-SynchronousPluginGeometryUpdate
-(
-)
-;
-void
 RequestUpdatePluginGeometry
 (
 nsIFrame
