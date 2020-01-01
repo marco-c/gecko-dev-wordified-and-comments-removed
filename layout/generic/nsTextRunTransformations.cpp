@@ -671,6 +671,17 @@ Clear
 )
 ;
 }
+if
+(
+g
+.
+GetGlyphCount
+(
+)
+>
+0
+)
+{
 glyphs
 .
 AppendElements
@@ -689,6 +700,7 @@ GetGlyphCount
 )
 )
 ;
+}
 }
 if
 (
