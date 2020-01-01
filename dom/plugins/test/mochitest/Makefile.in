@@ -462,6 +462,10 @@ test_npruntime_identifiers
 .
 html
 \
+npruntime_identifiers_subpage
+.
+html
+\
 loremipsum
 .
 txt
