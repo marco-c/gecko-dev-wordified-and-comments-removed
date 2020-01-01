@@ -635,12 +635,6 @@ peer_cert_
 ;
 nsCOMPtr
 <
-nsIEventTarget
->
-target_
-;
-nsCOMPtr
-<
 nsITimer
 >
 timer_
