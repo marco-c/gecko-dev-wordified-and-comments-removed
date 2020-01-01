@@ -474,7 +474,7 @@ aError
 nsGenericDOMDataNode
 :
 :
-SetNodeValue
+SetNodeValueInternal
 (
 aNodeValue
 aError
