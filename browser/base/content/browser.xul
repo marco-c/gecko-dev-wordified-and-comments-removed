@@ -4578,6 +4578,11 @@ tooltip
 "
 bhTooltip
 "
+popupsinherittooltip
+=
+"
+true
+"
 /
 >
 <

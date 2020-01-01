@@ -757,6 +757,11 @@ anonid
 "
 chevronPopup
 "
+popupsinherittooltip
+=
+"
+true
+"
 xbl
 :
 inherits

@@ -4811,6 +4811,13 @@ popupshown
 )
 GK_ATOM
 (
+popupsinherittooltip
+"
+popupsinherittooltip
+"
+)
+GK_ATOM
+(
 position
 "
 position

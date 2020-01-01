@@ -3896,6 +3896,11 @@ tooltip
 "
 bhTooltip
 "
+popupsinherittooltip
+=
+"
+true
+"
 >
 <
 menuitem
@@ -4340,6 +4345,11 @@ tooltip
 =
 "
 bhTooltip
+"
+popupsinherittooltip
+=
+"
+true
 "
 >
 <
