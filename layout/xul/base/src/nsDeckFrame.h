@@ -182,14 +182,14 @@ nsStyleContext
 aContext
 )
 ;
-protected
-:
-nsIBox
+nsIFrame
 *
 GetSelectedBox
 (
 )
 ;
+protected
+:
 void
 IndexChanged
 (
