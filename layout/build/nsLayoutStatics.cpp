@@ -328,6 +328,13 @@ nsIFocusEventSuppressor
 h
 "
 #
+include
+"
+nsDOMThreadService
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -1456,6 +1463,13 @@ Shutdown
 ;
 #
 endif
+nsDOMThreadService
+:
+:
+Shutdown
+(
+)
+;
 NS_ShutdownFocusSuppressor
 (
 )

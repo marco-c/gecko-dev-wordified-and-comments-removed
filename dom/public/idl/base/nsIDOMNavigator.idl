@@ -449,6 +449,9 @@ domstubs
 .
 idl
 "
+interface
+nsIDOMWorkerPool
+;
 [
 scriptable
 uuid
@@ -561,6 +564,11 @@ javaEnabled
 ;
 boolean
 taintEnabled
+(
+)
+;
+nsIDOMWorkerPool
+newWorkerPool
 (
 )
 ;

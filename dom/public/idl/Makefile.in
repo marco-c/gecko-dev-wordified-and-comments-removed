@@ -451,6 +451,8 @@ json
 offline
 \
 geolocation
+\
+threads
 ifdef
 MOZ_SVG
 DIRS
