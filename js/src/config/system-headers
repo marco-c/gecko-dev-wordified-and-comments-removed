@@ -230,6 +230,9 @@ h
 Bitmap
 .
 h
+blapi
+.
+h
 bsd
 /
 libc
@@ -938,6 +941,9 @@ h
 float
 .
 h
+fnmatch
+.
+h
 Folders
 .
 h
@@ -1025,6 +1031,9 @@ fstream
 .
 h
 ft2build
+.
+h
+fts
 .
 h
 gconf
@@ -3001,6 +3010,9 @@ h
 ToolUtils
 .
 h
+tr1
+/
+functional
 trace
 .
 h
