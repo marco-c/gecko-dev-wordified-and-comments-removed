@@ -5823,9 +5823,11 @@ JS_ON_TRACE
 (
 cx
 )
+JS_TRACE_MONITOR
+(
 cx
--
->
+)
+.
 bailExit
 )
 ;
