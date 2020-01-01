@@ -308,6 +308,8 @@ plugins
 /
 test
 /
+mochitest
+/
 plugin_visibility_loader
 .
 html
