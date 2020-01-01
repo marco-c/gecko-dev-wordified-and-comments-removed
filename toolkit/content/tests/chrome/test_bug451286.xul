@@ -474,7 +474,13 @@ test
 .
 SpecialPowers
 .
-gc
+forceGC
+(
+)
+;
+SpecialPowers
+.
+forceCC
 (
 )
 ;
