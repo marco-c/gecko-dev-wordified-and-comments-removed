@@ -2179,7 +2179,7 @@ NS_ASSERTION
 aFrame
 -
 >
-GetPrevInFlow
+GetPrevContinuation
 (
 )
 "
@@ -2190,10 +2190,7 @@ to
 other
 than
 first
--
-in
--
-flow
+continuation
 !
 "
 )
