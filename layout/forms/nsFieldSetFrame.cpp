@@ -732,12 +732,8 @@ PaintBorderBackground
 (
 *
 aCtx
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 mVisibleRect
 aBuilder

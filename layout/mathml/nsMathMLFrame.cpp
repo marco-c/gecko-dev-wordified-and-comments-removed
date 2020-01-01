@@ -2038,12 +2038,8 @@ DrawRect
 (
 mRect
 +
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 )
 ;
@@ -2280,12 +2276,8 @@ FillRect
 (
 mRect
 +
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 )
 ;

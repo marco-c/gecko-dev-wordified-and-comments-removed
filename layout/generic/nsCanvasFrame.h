@@ -638,12 +638,8 @@ CanvasArea
 (
 )
 +
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 ;
 }

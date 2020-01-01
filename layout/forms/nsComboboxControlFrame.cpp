@@ -5279,12 +5279,8 @@ PaintFocus
 (
 *
 aCtx
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 )
 ;

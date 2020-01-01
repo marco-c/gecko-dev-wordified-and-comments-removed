@@ -5005,12 +5005,8 @@ GetOverflowRect
 (
 )
 +
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 ;
 }
@@ -5208,12 +5204,8 @@ PaintTableBorderBackground
 *
 aCtx
 mVisibleRect
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 aBuilder
 -

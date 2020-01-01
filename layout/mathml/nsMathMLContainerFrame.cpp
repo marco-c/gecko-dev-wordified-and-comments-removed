@@ -457,12 +457,8 @@ GetStyleContext
 nsPoint
 pt
 =
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 ;
 aCtx
