@@ -703,6 +703,24 @@ xunitName
 '
 xpcshell
 '
+            
+'
+pluginsPath
+'
+:
+os
+.
+path
+.
+join
+(
+self
+.
+distdir
+'
+plugins
+'
+)
         
 }
         
