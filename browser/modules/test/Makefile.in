@@ -438,10 +438,6 @@ browser_TelemetryTimestamps
 .
 js
 \
-browser_keywordURLReset
-.
-js
-\
 (
 NULL
 )
