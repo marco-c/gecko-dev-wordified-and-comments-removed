@@ -38910,12 +38910,6 @@ this
 _disableUIOnToggle
 )
 {
-setTimeout
-(
-function
-(
-)
-{
 document
 .
 getElementById
@@ -38932,10 +38926,6 @@ removeAttribute
 "
 disabled
 "
-)
-;
-}
-0
 )
 ;
 }
