@@ -757,6 +757,11 @@ mHadLastPart
 :
 1
 ;
+bool
+mHasBeenDecoded
+:
+1
+;
 }
 ;
 #
