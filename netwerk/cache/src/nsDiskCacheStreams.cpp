@@ -3168,6 +3168,10 @@ return
 rv
 ;
 }
+mBufDirty
+=
+PR_TRUE
+;
 }
 }
 if
