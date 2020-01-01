@@ -8782,7 +8782,7 @@ if
 mCurrentTarget
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -9122,7 +9122,7 @@ if
 mCurrentTarget
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -13664,7 +13664,7 @@ if
 shell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

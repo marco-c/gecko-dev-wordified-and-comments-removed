@@ -1165,7 +1165,7 @@ if
 displaySelection
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

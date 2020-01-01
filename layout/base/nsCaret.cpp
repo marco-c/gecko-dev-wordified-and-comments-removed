@@ -1770,7 +1770,7 @@ contentNode
 return
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -1978,7 +1978,7 @@ aNode
 PRUint8
 bidiLevel
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -2817,7 +2817,7 @@ aBidiLevel
 BIDI_LEVEL_UNDEFINED
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -2954,7 +2954,7 @@ GetCurrentDoc
 return
 NS_ERROR_FAILURE
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -4285,7 +4285,7 @@ offset
 )
 return
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

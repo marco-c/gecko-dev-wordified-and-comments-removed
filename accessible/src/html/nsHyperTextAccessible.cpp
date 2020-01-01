@@ -3814,7 +3814,7 @@ domSel
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -7072,7 +7072,7 @@ privateSelection
 1
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

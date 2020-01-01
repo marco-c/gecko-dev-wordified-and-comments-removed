@@ -24752,7 +24752,7 @@ if
 activeShell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

@@ -3312,7 +3312,7 @@ if
 presShell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -9091,7 +9091,7 @@ if
 domDoc
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -9321,7 +9321,7 @@ caretVisible
 return
 NS_OK
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -9380,7 +9380,7 @@ GetFrameSelection
 )
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -9549,12 +9549,10 @@ null
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
-frameSelection
-;
 frameSelection
 =
 aPresShell

@@ -799,7 +799,7 @@ _retval
 ;
 private
 :
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -3939,7 +3939,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

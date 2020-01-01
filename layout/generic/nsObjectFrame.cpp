@@ -24031,7 +24031,7 @@ case
 NS_MOUSE_MOVE
 :
 {
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >

@@ -4610,7 +4610,7 @@ MaybeReleaseCapturingContent
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
@@ -23744,7 +23744,7 @@ TopLeft
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsFrameSelection
 >
