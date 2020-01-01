@@ -983,11 +983,6 @@ flex
 "
 1
 "
-class
-=
-"
-sortDirectionIndicator
-"
 /
 >
 <
@@ -1022,11 +1017,6 @@ flex
 "
 1
 "
-class
-=
-"
-sortDirectionIndicator
-"
 /
 >
 <
@@ -1060,11 +1050,6 @@ flex
 =
 "
 1
-"
-class
-=
-"
-sortDirectionIndicator
 "
 /
 >

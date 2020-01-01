@@ -1417,11 +1417,6 @@ flex
 "
 7
 "
-class
-=
-"
-sortDirectionIndicator
-"
 ignoreincolumnpicker
 =
 "
@@ -1469,11 +1464,6 @@ flex
 "
 1
 "
-class
-=
-"
-sortDirectionIndicator
-"
 persist
 =
 "
@@ -1516,11 +1506,6 @@ flex
 "
 1
 "
-class
-=
-"
-sortDirectionIndicator
-"
 persist
 =
 "
@@ -1562,11 +1547,6 @@ flex
 =
 "
 10
-"
-class
-=
-"
-sortDirectionIndicator
 "
 persist
 =

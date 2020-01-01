@@ -972,11 +972,6 @@ primary
 "
 true
 "
-class
-=
-"
-sortDirectionIndicator
-"
 persist
 =
 "
@@ -1028,11 +1023,6 @@ flex
 =
 "
 1
-"
-class
-=
-"
-sortDirectionIndicator
 "
 persist
 =
