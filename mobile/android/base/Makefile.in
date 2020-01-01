@@ -276,6 +276,10 @@ AppNotificationClient
 .
 java
 \
+AutocompleteHandler
+.
+java
+\
 AwesomeBar
 .
 java
