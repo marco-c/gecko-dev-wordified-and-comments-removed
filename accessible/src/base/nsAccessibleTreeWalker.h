@@ -53,6 +53,13 @@ nsIWeakReference
 .
 h
 "
+#
+include
+"
+nsIFrame
+.
+h
+"
 enum
 {
 eSiblingsUninitialized
@@ -94,8 +101,7 @@ WalkState
 *
 prevState
 ;
-nsIFrame
-*
+nsWeakFrame
 frame
 ;
 PRInt32
