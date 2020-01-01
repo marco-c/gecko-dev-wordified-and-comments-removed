@@ -556,5 +556,5 @@ for
 define
 RandomPercent
 "
-100
+50
 "

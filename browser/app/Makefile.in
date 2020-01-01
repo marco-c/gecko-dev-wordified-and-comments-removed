@@ -1272,6 +1272,14 @@ ico
 \
 "
 ifdef
+MOZILLA_OFFICIAL
+DEFINES
++
+=
+-
+DMOZILLA_OFFICIAL
+endif
+ifdef
 BUILD_STATIC_LIBS
 include
 (
