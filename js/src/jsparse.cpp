@@ -4349,15 +4349,6 @@ globalFreeSlot
 i
 )
 ;
-globalObj
--
->
-dropProperty
-(
-cx
-prop
-)
-;
 }
 }
 #
