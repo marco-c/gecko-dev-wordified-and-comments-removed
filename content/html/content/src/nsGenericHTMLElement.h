@@ -1454,6 +1454,13 @@ hidden
 )
 ;
 }
+virtual
+bool
+IsLabelable
+(
+)
+const
+;
 protected
 :
 void
