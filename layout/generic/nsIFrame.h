@@ -4571,6 +4571,12 @@ GetVisualOverflowRectRelativeToSelf
 )
 const
 ;
+nsRect
+GetPreEffectsVisualOverflowRect
+(
+)
+const
+;
 bool
 FinishAndStoreOverflow
 (
