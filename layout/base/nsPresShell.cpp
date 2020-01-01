@@ -8707,7 +8707,7 @@ StyleImageLoader
 )
 -
 >
-ClearAll
+ClearFrames
 (
 )
 ;

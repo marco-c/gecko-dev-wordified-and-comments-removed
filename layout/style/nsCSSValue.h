@@ -469,7 +469,10 @@ ImageValue
 ;
 nsRefPtrHashtable
 <
-nsISupportsHashKey
+nsPtrHashKey
+<
+nsISupports
+>
 imgRequestProxy
 >
 mRequests
