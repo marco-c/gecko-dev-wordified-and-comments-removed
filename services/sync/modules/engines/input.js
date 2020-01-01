@@ -132,6 +132,11 @@ InputEngine
 prototype
 =
 {
+get
+enabled
+(
+)
+null
 __proto__
 :
 SyncEngine
