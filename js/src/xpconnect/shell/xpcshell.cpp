@@ -579,7 +579,10 @@ NULL
 WAITORTIMERCALLBACK
 )
 TimerCallback
-rt
+cx
+-
+>
+runtime
 DWORD
 (
 1000
