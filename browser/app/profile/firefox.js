@@ -6971,9 +6971,9 @@ browser
 .
 sessionstore
 .
-max_concurrent_tabs
+restore_on_demand
 "
-3
+false
 )
 ;
 pref
