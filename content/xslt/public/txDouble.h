@@ -88,8 +88,17 @@ defined
 __arm__
 )
 #
+if
+!
+defined
+(
+__VFP_FP__
+)
+#
 define
-CPU_IS_ARM
+FPU_IS_ARM_FPA
+#
+endif
 #
 endif
 #
@@ -130,7 +139,7 @@ IS_LITTLE_ENDIAN
 !
 defined
 (
-CPU_IS_ARM
+FPU_IS_ARM_FPA
 )
 PRUint32
 lo
@@ -223,7 +232,7 @@ IS_LITTLE_ENDIAN
 !
 defined
 (
-CPU_IS_ARM
+FPU_IS_ARM_FPA
 )
 #
 define
