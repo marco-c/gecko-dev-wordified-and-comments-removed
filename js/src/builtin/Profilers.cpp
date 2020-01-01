@@ -36,7 +36,7 @@ include
 "
 devtools
 /
-sharkctl
+Instruments
 .
 h
 "
@@ -45,7 +45,7 @@ include
 "
 devtools
 /
-Instruments
+sharkctl
 .
 h
 "
@@ -1848,6 +1848,13 @@ __linux__
 #
 include
 <
+signal
+.
+h
+>
+#
+include
+<
 sys
 /
 wait
@@ -1858,13 +1865,6 @@ h
 include
 <
 unistd
-.
-h
->
-#
-include
-<
-signal
 .
 h
 >
