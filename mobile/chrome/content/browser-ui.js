@@ -4714,6 +4714,7 @@ alertLockScreen
 "
 +
 (
+!
 locked
 ?
 "
