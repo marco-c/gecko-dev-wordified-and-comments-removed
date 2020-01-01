@@ -19,6 +19,13 @@ nsIDOMDocument
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 nsPrintObject
 :
 :
@@ -234,6 +241,9 @@ mPresShell
 EndObservingDocument
 (
 )
+;
+nsAutoScriptBlocker
+scriptBlocker
 ;
 mPresShell
 -
