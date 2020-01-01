@@ -40,14 +40,6 @@ nsStreamUtils
 .
 h
 "
-#
-ifdef
-jmpbuf
-#
-undef
-jmpbuf
-#
-endif
 NS_IMPL_THREADSAFE_ISUPPORTS2
 (
 nsPNGEncoder
