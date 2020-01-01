@@ -574,11 +574,6 @@ BrandFullName
 "
 Mozilla
 Firefox
-3
-.
-1
-Beta
-1
 "
 #
 Add
@@ -631,6 +626,3 @@ its
 installation
 directory
 .
-!
-define
-NO_INSTDIR_FROM_REG
