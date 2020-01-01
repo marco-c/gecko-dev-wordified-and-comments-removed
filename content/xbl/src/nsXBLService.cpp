@@ -129,7 +129,11 @@ h
 #
 include
 "
-nsXMLDocument
+mozilla
+/
+dom
+/
+XMLDocument
 .
 h
 "

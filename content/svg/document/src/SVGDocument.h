@@ -7,7 +7,11 @@ mozilla_dom_SVGDocument_h
 #
 include
 "
-nsXMLDocument
+mozilla
+/
+dom
+/
+XMLDocument
 .
 h
 "
@@ -28,7 +32,7 @@ class
 SVGDocument
 :
 public
-nsXMLDocument
+XMLDocument
 public
 nsIDOMSVGDocument
 {
@@ -59,7 +63,13 @@ SVGDocument
 NS_DECL_NSIDOMSVGDOCUMENT
 NS_FORWARD_NSIDOMDOCUMENT
 (
-nsXMLDocument
+mozilla
+:
+:
+dom
+:
+:
+XMLDocument
 :
 :
 )

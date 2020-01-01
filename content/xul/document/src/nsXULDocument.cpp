@@ -843,7 +843,7 @@ nsXULDocument
 void
 )
 :
-nsXMLDocument
+XMLDocument
 (
 "
 application
@@ -1237,7 +1237,7 @@ PL_DHASH_NEXT
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 nsXULDocument
-nsXMLDocument
+XMLDocument
 )
 NS_ASSERTION
 (
@@ -1411,7 +1411,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 nsXULDocument
-nsXMLDocument
+XMLDocument
 )
 delete
 tmp
@@ -1434,12 +1434,12 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_ADDREF_INHERITED
 (
 nsXULDocument
-nsXMLDocument
+XMLDocument
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsXULDocument
-nsXMLDocument
+XMLDocument
 )
 DOMCI_NODE_DATA
 (
@@ -1482,7 +1482,7 @@ XULDocument
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsXMLDocument
+XMLDocument
 )
 void
 nsXULDocument
@@ -7562,7 +7562,7 @@ Init
 nsresult
 rv
 =
-nsXMLDocument
+XMLDocument
 :
 :
 Init
@@ -13090,7 +13090,7 @@ nsUpdateType
 aUpdateType
 )
 {
-nsXMLDocument
+XMLDocument
 :
 :
 EndUpdate
