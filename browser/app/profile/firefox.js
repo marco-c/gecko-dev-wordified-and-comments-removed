@@ -578,6 +578,10 @@ guid
 %
 IDS
 %
+?
+src
+=
+firefox
 "
 )
 ;
@@ -678,6 +682,10 @@ OS
 %
 VERSION
 %
+?
+src
+=
+firefox
 "
 )
 ;
