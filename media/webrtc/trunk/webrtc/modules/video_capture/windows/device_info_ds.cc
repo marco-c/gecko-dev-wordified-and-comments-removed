@@ -2601,6 +2601,8 @@ S_OK
 LONGLONG
 *
 frameDurationList
+=
+NULL
 ;
 LONGLONG
 maxFPS
@@ -2656,6 +2658,9 @@ S_OK
 listSize
 >
 0
+&
+&
+frameDurationList
 &
 &
 0
