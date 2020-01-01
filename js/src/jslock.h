@@ -57,13 +57,6 @@ prthread
 h
 "
 #
-include
-"
-prinit
-.
-h
-"
-#
 endif
 #
 ifdef
