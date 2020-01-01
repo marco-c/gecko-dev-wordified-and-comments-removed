@@ -3390,7 +3390,6 @@ script
 ensureRanAnalysis
 (
 cx
-NULL
 &
 scopeChain
 )

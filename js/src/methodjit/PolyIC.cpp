@@ -3488,7 +3488,6 @@ script
 ensureHasTypes
 (
 cx
-fun
 )
 )
 return
