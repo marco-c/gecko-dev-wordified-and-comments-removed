@@ -66,3 +66,7 @@ shape
 )
 ;
 }
+testShape
+(
+)
+;

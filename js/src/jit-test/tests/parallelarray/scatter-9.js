@@ -72,7 +72,3 @@ p2
 )
 ;
 }
-testScatter
-(
-)
-;
