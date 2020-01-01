@@ -251,7 +251,7 @@ policy
 rtp
 )
 ;
-crypto_policy_set_aes_cm_128_hmac_sha1_32
+crypto_policy_set_aes_cm_128_hmac_sha1_80
 (
 &
 policy
