@@ -548,10 +548,6 @@ GlobalHistory
 .
 java
 \
-GeckoViewsFactory
-.
-java
-\
 GeckoView
 .
 java
