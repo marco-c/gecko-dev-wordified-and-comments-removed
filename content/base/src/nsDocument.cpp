@@ -5559,9 +5559,6 @@ GetNumberOfStyleSheets
 nsAutoString
 title
 ;
-nsAutoString
-temp
-;
 for
 (
 int32_t
