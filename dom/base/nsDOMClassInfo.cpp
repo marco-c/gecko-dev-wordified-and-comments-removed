@@ -18923,14 +18923,6 @@ return
 JS_FALSE
 ;
 }
-PrintWarningOnConsole
-(
-cx
-"
-GlobalScopeElementReference
-"
-)
-;
 return
 JS_TRUE
 ;
