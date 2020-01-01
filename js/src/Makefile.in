@@ -890,10 +890,6 @@ json
 .
 cpp
 \
-jsonparser
-.
-cpp
-\
 jsopcode
 .
 cpp
@@ -1135,10 +1131,6 @@ jsobjinlines
 h
 \
 json
-.
-h
-\
-jsonparser
 .
 h
 \
