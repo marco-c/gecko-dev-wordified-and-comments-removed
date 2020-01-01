@@ -1381,7 +1381,7 @@ absoluteList
 =
 aListName
 )
-return
+{
 mAbsoluteContainer
 .
 RemoveFrame
@@ -1391,6 +1391,10 @@ aListName
 aOldFrame
 )
 ;
+return
+NS_OK
+;
+}
 NS_ASSERTION
 (
 !

@@ -283,7 +283,7 @@ temp
 )
 ;
 }
-PRBool
+void
 RemoveFrame
 (
 nsIFrame
@@ -294,6 +294,14 @@ nsIFrame
 aPrevSiblingHint
 =
 nsnull
+)
+;
+PRBool
+RemoveFrameIfPresent
+(
+nsIFrame
+*
+aFrame
 )
 ;
 nsFrameList
@@ -309,7 +317,7 @@ RemoveFirstChild
 (
 )
 ;
-PRBool
+void
 DestroyFrame
 (
 nsIFrame
@@ -320,6 +328,14 @@ nsIFrame
 aPrevSiblingHint
 =
 nsnull
+)
+;
+PRBool
+DestroyFrameIfPresent
+(
+nsIFrame
+*
+aFrame
 )
 ;
 void

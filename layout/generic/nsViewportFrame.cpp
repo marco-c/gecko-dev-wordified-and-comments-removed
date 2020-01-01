@@ -472,8 +472,6 @@ fixedList
 aListName
 )
 {
-rv
-=
 mFixedContainer
 .
 RemoveFrame
@@ -482,6 +480,10 @@ this
 aListName
 aOldFrame
 )
+;
+rv
+=
+NS_OK
 ;
 }
 else
