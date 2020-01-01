@@ -588,7 +588,7 @@ aContent
 aDoc
 )
 {
-mFlags
+mStateFlags
 |
 =
 eNotNodeMapEntry

@@ -1815,7 +1815,7 @@ mParent
 =
 aRowAcc
 ;
-mFlags
+mStateFlags
 |
 =
 eSharedNode

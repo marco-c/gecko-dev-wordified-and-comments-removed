@@ -2732,7 +2732,7 @@ mParent
 =
 aParent
 ;
-mFlags
+mStateFlags
 |
 =
 eSharedNode

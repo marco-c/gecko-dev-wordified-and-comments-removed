@@ -59,10 +59,9 @@ aContent
 aDoc
 )
 {
-mFlags
-=
-mFlags
+mStateFlags
 |
+=
 eHasNumericValue
 ;
 }

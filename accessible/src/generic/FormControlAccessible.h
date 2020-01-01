@@ -46,11 +46,14 @@ aContent
 aDoc
 )
 {
-mFlags
+mStateFlags
 |
 =
 eHasNumericValue
+;
+mFlags
 |
+=
 eProgressAccessible
 ;
 }
