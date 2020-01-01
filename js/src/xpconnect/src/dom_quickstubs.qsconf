@@ -1021,6 +1021,11 @@ nsIDOM3Node
 *
 '
 '
+nsIDOMDOMImplementation
+.
+*
+'
+'
 nsIDOMDOMStringList
 .
 *
