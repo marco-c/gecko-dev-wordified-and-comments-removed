@@ -31,8 +31,7 @@ Components
 .
 results
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -658,6 +657,13 @@ networkEventUpdate
 networkEventUpdate
 "
 "
+newGlobal
+"
+:
+"
+newGlobal
+"
+"
 newScript
 "
 :
@@ -728,10 +734,6 @@ ROOT_ACTOR_NAME
 root
 "
 ;
-this
-.
-DebuggerClient
-=
 function
 DebuggerClient
 (
@@ -4350,10 +4352,6 @@ BreakpointClient
 prototype
 )
 ;
-this
-.
-debuggerSocketConnect
-=
 function
 debuggerSocketConnect
 (

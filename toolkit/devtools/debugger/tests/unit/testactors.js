@@ -89,10 +89,10 @@ let
 hooks
 =
 {
-addToBreakpointPool
+addToParentPool
 :
 addBreakpoint
-removeFromBreakpointPool
+removeFromParentPool
 :
 removeBreakpoint
 }
@@ -115,7 +115,7 @@ g
 ;
 actor
 .
-_global
+global
 =
 g
 ;
@@ -143,7 +143,7 @@ global
 :
 actor
 .
-_global
+global
 .
 __name
 }

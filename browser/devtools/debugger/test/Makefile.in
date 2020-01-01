@@ -484,6 +484,12 @@ bug
 .
 js
 \
+browser_dbg_chrome
+-
+debugging
+.
+js
+\
 head
 .
 js
