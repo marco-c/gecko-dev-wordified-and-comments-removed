@@ -1142,12 +1142,6 @@ java
 \
 home
 /
-HomeCursorLoaderCallbacks
-.
-java
-\
-home
-/
 HomeFragment
 .
 java
@@ -1179,12 +1173,6 @@ java
 home
 /
 FadedTextView
-.
-java
-\
-home
-/
-FaviconsLoader
 .
 java
 \
