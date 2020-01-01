@@ -643,6 +643,16 @@ build
 takes
 forever
 .
+if
+automation
+.
+IS_DEBUG_BUILD
+:
+SERVER_STARTUP_TIMEOUT
+=
+180
+else
+:
 SERVER_STARTUP_TIMEOUT
 =
 45
