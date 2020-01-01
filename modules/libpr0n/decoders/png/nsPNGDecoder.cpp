@@ -778,7 +778,6 @@ mImage
 EndFrameDecode
 (
 numFrames
-timeout
 )
 ;
 if

@@ -1279,9 +1279,6 @@ EndFrameDecode
 mGIFStruct
 .
 images_decoded
-mGIFStruct
-.
-delay_time
 )
 ;
 mGIFStruct
