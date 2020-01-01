@@ -303,14 +303,12 @@ sugar
 function
 BookmarksEngine
 (
-pbeId
 )
 {
 this
 .
 _init
 (
-pbeId
 )
 ;
 }
@@ -350,7 +348,7 @@ logName
 (
 )
 "
-BmkEngine
+Bookmarks
 "
 get
 serverPrefix
