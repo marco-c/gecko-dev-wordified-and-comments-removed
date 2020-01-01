@@ -21,15 +21,6 @@ texture
 float
 .
 html
-oes
--
-vertex
--
-array
--
-object
-.
-html
 webgl
 -
 debug
