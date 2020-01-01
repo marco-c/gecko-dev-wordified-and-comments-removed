@@ -5909,7 +5909,7 @@ JSMSG_USE_ASM_TYPE_OK
 0
 JSEXN_ERR
 "
-Successfully
+successfully
 compiled
 asm
 .

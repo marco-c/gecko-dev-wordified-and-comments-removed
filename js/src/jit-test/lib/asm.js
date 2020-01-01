@@ -2,7 +2,7 @@ const
 ASM_OK_STRING
 =
 "
-Successfully
+successfully
 compiled
 asm
 .
