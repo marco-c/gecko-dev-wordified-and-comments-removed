@@ -9968,15 +9968,9 @@ tabs
 t
 ]
 .
-setAttribute
-(
-"
-collapsed
-"
-"
+hidden
+=
 true
-"
-)
 ;
 }
 if
