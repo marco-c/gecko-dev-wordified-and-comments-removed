@@ -32977,13 +32977,3 @@ low_memory_notification_interval_ms
 ;
 #
 endif
-pref
-(
-"
-memory
-.
-ghost_window_timeout_seconds
-"
-60
-)
-;

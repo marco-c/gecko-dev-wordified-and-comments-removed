@@ -8843,7 +8843,7 @@ i
 nsIMemoryReporter
 :
 :
-KIND_SUMMARY
+KIND_OTHER
 nsIMemoryReporter
 :
 :
