@@ -7315,9 +7315,9 @@ parent
 ;
 index
 =
-container
+PlacesUtils
 .
-getChildIndex
+getIndexOfNode
 (
 selectedNode
 )
@@ -7328,7 +7328,9 @@ PlacesUtils
 .
 nodeIsTagQuery
 (
-container
+selectedNode
+.
+parent
 )
 ;
 }
