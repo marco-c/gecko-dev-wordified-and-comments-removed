@@ -6480,10 +6480,13 @@ report
 -
 >
 flags
+NS_LITERAL_CSTRING
+(
 "
 XPConnect
 JavaScript
 "
+)
 nsJSUtils
 :
 :
