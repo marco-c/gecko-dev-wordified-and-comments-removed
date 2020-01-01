@@ -8920,11 +8920,9 @@ label
 /
 richlistitem
 >
-+
 #
 ifdef
 ANDROID
-+
 <
 richlistitem
 class
@@ -8961,7 +8959,6 @@ selectInput
 ;
 "
 >
-+
 <
 label
 value
@@ -8975,12 +8972,10 @@ label
 "
 /
 >
-+
 <
 /
 richlistitem
 >
-+
 #
 endif
 <
