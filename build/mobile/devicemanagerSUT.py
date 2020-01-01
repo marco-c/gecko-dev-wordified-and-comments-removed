@@ -5513,11 +5513,15 @@ id
 uptime
 '
 '
+uptimemillis
+'
+'
 systime
 '
 '
 screen
 '
+                  
 '
 rotation
 '
@@ -5527,7 +5531,6 @@ memory
 '
 process
 '
-                  
 '
 disk
 '
