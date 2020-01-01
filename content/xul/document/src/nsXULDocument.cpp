@@ -7728,6 +7728,8 @@ CloneNode
 (
 bool
 aDeep
+PRUint8
+aOptionalArgc
 nsIDOMNode
 *
 *
