@@ -154,6 +154,10 @@ TestDictionary
 .
 webidl
 \
+TestTypedef
+.
+webidl
+\
 (
 NULL
 )

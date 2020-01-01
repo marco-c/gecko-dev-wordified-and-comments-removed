@@ -304,7 +304,7 @@ LongLong
 UnsignedLongLong
 "
 "
-DOMTimeStamp
+UnsignedLongLong
 "
 ]
     
