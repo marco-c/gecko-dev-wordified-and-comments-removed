@@ -776,6 +776,10 @@ dispatchEvent
 event
 )
 ;
+event
+=
+null
+;
 }
 catch
 (
