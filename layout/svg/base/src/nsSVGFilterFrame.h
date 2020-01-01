@@ -184,7 +184,7 @@ nsIFrame
 *
 aFilteredFrame
 const
-nsIntRect
+gfxRect
 *
 aOverrideBBox
 =
