@@ -160,6 +160,7 @@ CFURLRef
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 E5DE2CC9

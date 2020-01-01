@@ -74,6 +74,7 @@ nsIDOMMozMobileConnectionInfo
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 962298cd

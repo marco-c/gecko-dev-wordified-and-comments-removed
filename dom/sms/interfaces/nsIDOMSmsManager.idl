@@ -74,6 +74,7 @@ nsIDOMMozSmsFilter
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 6363c0ff
