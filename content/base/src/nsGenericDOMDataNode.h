@@ -1065,13 +1065,6 @@ aURI
 const
 ;
 virtual
-PRBool
-MayHaveFrame
-(
-)
-const
-;
-virtual
 nsIAtom
 *
 GetID

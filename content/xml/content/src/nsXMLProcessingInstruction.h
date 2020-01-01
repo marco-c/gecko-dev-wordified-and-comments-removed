@@ -75,13 +75,6 @@ aFlags
 )
 const
 ;
-virtual
-PRBool
-MayHaveFrame
-(
-)
-const
-;
 #
 ifdef
 DEBUG
