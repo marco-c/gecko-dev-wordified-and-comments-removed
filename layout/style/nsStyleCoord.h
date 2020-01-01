@@ -189,7 +189,6 @@ const
 nsStyleUnit
 GetUnit
 (
-void
 )
 const
 {
@@ -213,7 +212,6 @@ mUnit
 PRBool
 IsAngleValue
 (
-void
 )
 const
 {
@@ -233,42 +231,36 @@ eStyleUnit_Radian
 nscoord
 GetCoordValue
 (
-void
 )
 const
 ;
 PRInt32
 GetIntValue
 (
-void
 )
 const
 ;
 float
 GetPercentValue
 (
-void
 )
 const
 ;
 float
 GetFactorValue
 (
-void
 )
 const
 ;
 float
 GetAngleValue
 (
-void
 )
 const
 ;
 double
 GetAngleValueInRadians
 (
-void
 )
 const
 ;
@@ -284,7 +276,6 @@ const
 void
 Reset
 (
-void
 )
 ;
 void
@@ -329,19 +320,16 @@ aUnit
 void
 SetNormalValue
 (
-void
 )
 ;
 void
 SetAutoValue
 (
-void
 )
 ;
 void
 SetNoneValue
 (
-void
 )
 ;
 public
@@ -361,7 +349,6 @@ public
 :
 nsStyleSides
 (
-void
 )
 ;
 PRBool
@@ -407,7 +394,6 @@ inline
 nsStyleUnit
 GetLeftUnit
 (
-void
 )
 const
 ;
@@ -415,7 +401,6 @@ inline
 nsStyleUnit
 GetTopUnit
 (
-void
 )
 const
 ;
@@ -423,7 +408,6 @@ inline
 nsStyleUnit
 GetRightUnit
 (
-void
 )
 const
 ;
@@ -431,7 +415,6 @@ inline
 nsStyleUnit
 GetBottomUnit
 (
-void
 )
 const
 ;
@@ -481,7 +464,6 @@ const
 void
 Reset
 (
-void
 )
 ;
 inline
@@ -565,7 +547,6 @@ public
 :
 nsStyleCorners
 (
-void
 )
 ;
 PRBool
@@ -613,7 +594,6 @@ const
 void
 Reset
 (
-void
 )
 ;
 inline
@@ -814,7 +794,6 @@ nsStyleCoord
 :
 GetCoordValue
 (
-void
 )
 const
 {
@@ -859,7 +838,6 @@ nsStyleCoord
 :
 GetIntValue
 (
-void
 )
 const
 {
@@ -922,7 +900,6 @@ nsStyleCoord
 :
 GetPercentValue
 (
-void
 )
 const
 {
@@ -967,7 +944,6 @@ nsStyleCoord
 :
 GetFactorValue
 (
-void
 )
 const
 {
@@ -1012,7 +988,6 @@ nsStyleCoord
 :
 GetAngleValue
 (
-void
 )
 const
 {
@@ -1152,7 +1127,6 @@ nsStyleSides
 :
 GetLeftUnit
 (
-void
 )
 const
 {
@@ -1170,7 +1144,6 @@ nsStyleSides
 :
 GetTopUnit
 (
-void
 )
 const
 {
@@ -1188,7 +1161,6 @@ nsStyleSides
 :
 GetRightUnit
 (
-void
 )
 const
 {
@@ -1206,7 +1178,6 @@ nsStyleSides
 :
 GetBottomUnit
 (
-void
 )
 const
 {

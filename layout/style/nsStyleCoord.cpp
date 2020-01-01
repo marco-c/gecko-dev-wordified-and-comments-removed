@@ -366,7 +366,6 @@ nsStyleCoord
 :
 Reset
 (
-void
 )
 {
 mUnit
@@ -583,7 +582,6 @@ nsStyleCoord
 :
 SetNormalValue
 (
-void
 )
 {
 mUnit
@@ -603,7 +601,6 @@ nsStyleCoord
 :
 SetAutoValue
 (
-void
 )
 {
 mUnit
@@ -623,7 +620,6 @@ nsStyleCoord
 :
 SetNoneValue
 (
-void
 )
 {
 mUnit
@@ -823,7 +819,6 @@ nsStyleSides
 :
 nsStyleSides
 (
-void
 )
 {
 memset
@@ -873,7 +868,6 @@ nsStyleSides
 :
 Reset
 (
-void
 )
 {
 memset
@@ -941,7 +935,6 @@ nsStyleCorners
 :
 Reset
 (
-void
 )
 {
 memset
