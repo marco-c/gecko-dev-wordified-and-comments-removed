@@ -6,7 +6,8 @@ kExpectedPageSize
 const
 kExpectedCacheSize
 =
-128
+-
+2048
 ;
 function
 check_size
