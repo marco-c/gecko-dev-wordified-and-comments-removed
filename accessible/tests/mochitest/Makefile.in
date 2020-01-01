@@ -621,6 +621,10 @@ temporarily
 disabled
 )
 \
+test_elm_table
+.
+html
+\
 test_elm_txtcntnr
 .
 html
