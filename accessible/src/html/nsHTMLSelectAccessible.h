@@ -831,9 +831,6 @@ aParent
 nsIDOMNode
 *
 aDOMNode
-nsIFrame
-*
-aListFrame
 nsIWeakReference
 *
 aShell
@@ -897,12 +894,6 @@ nsIFrame
 *
 aBoundingFrame
 )
-;
-protected
-:
-nsIFrame
-*
-mListFrame
 ;
 }
 ;
