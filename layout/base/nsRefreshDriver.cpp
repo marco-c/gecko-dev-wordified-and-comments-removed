@@ -122,7 +122,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -3626,9 +3626,9 @@ mViewManagerFlushIsPending
 =
 false
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsViewManager
+nsIViewManager
 >
 vm
 =

@@ -44,7 +44,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -161,9 +161,9 @@ nsIPresShell
 >
 mPresShell
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsViewManager
+nsIViewManager
 >
 mViewManager
 ;

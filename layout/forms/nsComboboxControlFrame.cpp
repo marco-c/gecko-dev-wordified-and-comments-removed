@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -1522,7 +1522,7 @@ GetView
 (
 )
 ;
-nsViewManager
+nsIViewManager
 *
 viewManager
 =
@@ -2171,7 +2171,7 @@ GetView
 (
 )
 ;
-nsViewManager
+nsIViewManager
 *
 viewManager
 =

@@ -188,7 +188,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "

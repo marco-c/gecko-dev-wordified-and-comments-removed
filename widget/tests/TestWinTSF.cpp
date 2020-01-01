@@ -272,7 +272,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -16398,9 +16398,9 @@ return
 false
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
-nsViewManager
+nsIViewManager
 >
 viewManager
 =

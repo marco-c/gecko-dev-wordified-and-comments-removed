@@ -179,7 +179,7 @@ aDocument
 nsPresContext
 *
 aPresContext
-nsViewManager
+nsIViewManager
 *
 aViewManager
 nsStyleSet

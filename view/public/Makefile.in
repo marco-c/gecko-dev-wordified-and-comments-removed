@@ -86,7 +86,11 @@ nsView
 .
 h
 \
-nsViewManager
+nsIViewManager
+.
+h
+\
+nsViewsCID
 .
 h
 \

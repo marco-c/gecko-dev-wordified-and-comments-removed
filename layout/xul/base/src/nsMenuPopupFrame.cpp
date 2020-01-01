@@ -57,7 +57,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -575,7 +575,7 @@ GetView
 (
 )
 ;
-nsViewManager
+nsIViewManager
 *
 viewManager
 =
@@ -2068,7 +2068,7 @@ if
 isOpen
 )
 {
-nsViewManager
+nsIViewManager
 *
 viewManager
 =
@@ -3580,7 +3580,7 @@ GetView
 (
 )
 ;
-nsViewManager
+nsIViewManager
 *
 viewManager
 =
@@ -8525,7 +8525,7 @@ return
 NS_OK
 ;
 }
-nsViewManager
+nsIViewManager
 *
 viewManager
 =

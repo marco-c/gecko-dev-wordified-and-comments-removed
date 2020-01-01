@@ -54,7 +54,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -1489,7 +1489,7 @@ GetView
 (
 )
 ;
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -1628,7 +1628,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsViewManager
+nsIViewManager
 *
 viewMan
 =
@@ -2617,7 +2617,7 @@ if
 mInnerView
 )
 {
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -3951,7 +3951,7 @@ GetView
 (
 )
 ;
-nsViewManager
+nsIViewManager
 *
 vm
 =

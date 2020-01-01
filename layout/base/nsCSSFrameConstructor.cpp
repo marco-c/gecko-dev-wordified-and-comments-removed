@@ -189,7 +189,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -48291,9 +48291,9 @@ GetRootFrame
 )
 return
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsViewManager
+nsIViewManager
 >
 vm
 =

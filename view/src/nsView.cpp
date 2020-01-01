@@ -254,7 +254,7 @@ rootView
 mViewManager
 -
 >
-GetRootView
+GetRootViewImpl
 (
 )
 ;
@@ -876,7 +876,7 @@ if
 mViewManager
 -
 >
-GetRootView
+GetRootViewImpl
 (
 )
 =
@@ -1370,7 +1370,7 @@ if
 mViewManager
 -
 >
-GetRootView
+GetRootViewImpl
 (
 )
 =
@@ -1533,7 +1533,7 @@ vm
 aChild
 -
 >
-GetViewManager
+GetViewManagerInternal
 (
 )
 ;
@@ -1542,7 +1542,7 @@ if
 vm
 -
 >
-GetRootView
+GetRootViewImpl
 (
 )
 =
@@ -1710,7 +1710,7 @@ vm
 child
 -
 >
-GetViewManager
+GetViewManagerInternal
 (
 )
 ;
@@ -1719,7 +1719,7 @@ if
 vm
 -
 >
-GetRootView
+GetRootViewImpl
 (
 )
 =
@@ -1732,7 +1732,7 @@ child
 >
 InvalidateHierarchy
 (
-GetViewManager
+GetViewManagerInternal
 (
 )
 )
@@ -3291,7 +3291,7 @@ return
 GetOffsetTo
 (
 aOther
-GetViewManager
+GetViewManagerInternal
 (
 )
 -
@@ -3386,7 +3386,7 @@ currVM
 v
 -
 >
-GetViewManager
+GetViewManagerInternal
 (
 )
 ;
@@ -3438,7 +3438,7 @@ newVM
 v
 -
 >
-GetViewManager
+GetViewManagerInternal
 (
 )
 ;
@@ -3612,7 +3612,7 @@ widgetAPD
 widgetView
 -
 >
-GetViewManager
+GetViewManagerInternal
 (
 )
 -
@@ -3624,7 +3624,7 @@ AppUnitsPerDevPixel
 int32_t
 ourAPD
 =
-GetViewManager
+GetViewManagerInternal
 (
 )
 -
@@ -3664,7 +3664,7 @@ return
 GetNearestWidget
 (
 aOffset
-GetViewManager
+GetViewManagerInternal
 (
 )
 -
@@ -3719,7 +3719,7 @@ currVM
 v
 -
 >
-GetViewManager
+GetViewManagerInternal
 (
 )
 ;
@@ -3764,7 +3764,7 @@ newVM
 v
 -
 >
-GetViewManager
+GetViewManagerInternal
 (
 )
 ;
@@ -3943,7 +3943,7 @@ return
 mViewManager
 -
 >
-GetRootView
+GetRootViewImpl
 (
 )
 =
@@ -3972,7 +3972,7 @@ nsViewManager
 *
 VM
 =
-GetViewManager
+GetViewManagerInternal
 (
 )
 ;
@@ -3984,7 +3984,7 @@ this
 VM
 -
 >
-GetRootView
+GetRootViewImpl
 (
 )
 |
@@ -4013,7 +4013,7 @@ parentAPD
 parent
 -
 >
-GetViewManager
+GetViewManagerInternal
 (
 )
 -
@@ -4066,7 +4066,7 @@ ConvertAppUnits
 parent
 -
 >
-GetViewManager
+GetViewManagerInternal
 (
 )
 -
@@ -4074,7 +4074,7 @@ GetViewManager
 AppUnitsPerDevPixel
 (
 )
-GetViewManager
+GetViewManagerInternal
 (
 )
 -
@@ -4422,7 +4422,7 @@ bool
 aWillSendDidPaint
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsViewManager
 >
@@ -4482,7 +4482,7 @@ aFlags
 &
 PAINT_IS_ALTERNATE
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsViewManager
 >
@@ -4540,7 +4540,7 @@ DidPaintWindow
 (
 )
 {
-nsRefPtr
+nsCOMPtr
 <
 nsViewManager
 >
@@ -4678,9 +4678,9 @@ if
 view
 )
 {
-nsRefPtr
+nsCOMPtr
 <
-nsViewManager
+nsIViewManager
 >
 vm
 =

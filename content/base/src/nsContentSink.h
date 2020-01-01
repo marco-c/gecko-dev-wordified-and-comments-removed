@@ -113,7 +113,7 @@ class
 nsIContent
 ;
 class
-nsViewManager
+nsIViewManager
 ;
 class
 nsNodeInfoManager

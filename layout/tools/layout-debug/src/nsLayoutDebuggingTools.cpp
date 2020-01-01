@@ -92,7 +92,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -251,7 +251,7 @@ forget
 ;
 }
 static
-nsViewManager
+nsIViewManager
 *
 view_manager
 (
@@ -2052,9 +2052,9 @@ aDocShell
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsViewManager
+nsIViewManager
 >
 vm
 (
@@ -2582,9 +2582,9 @@ ForceRefresh
 (
 )
 {
-nsRefPtr
+nsCOMPtr
 <
-nsViewManager
+nsIViewManager
 >
 vm
 (

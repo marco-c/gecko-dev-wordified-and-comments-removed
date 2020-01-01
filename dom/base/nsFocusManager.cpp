@@ -243,7 +243,7 @@ h
 #
 include
 "
-nsViewManager
+nsIViewManager
 .
 h
 "
@@ -5012,7 +5012,7 @@ if
 presShell
 )
 {
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -7285,7 +7285,7 @@ objectFrame
 sTestMode
 )
 {
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -7944,7 +7944,7 @@ objectFrameWidget
 sTestMode
 )
 {
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -8370,7 +8370,7 @@ nullptr
 sTestMode
 )
 {
-nsViewManager
+nsIViewManager
 *
 vm
 =
@@ -9052,7 +9052,7 @@ presShell
 )
 return
 ;
-nsViewManager
+nsIViewManager
 *
 vm
 =

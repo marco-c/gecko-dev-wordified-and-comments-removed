@@ -171,7 +171,7 @@ aContext
 )
 ;
 class
-nsViewManager
+nsIViewManager
 ;
 class
 nsView
