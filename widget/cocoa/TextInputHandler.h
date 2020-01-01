@@ -1898,7 +1898,7 @@ mTimer
 ;
 enum
 {
-kResetIMEWindowLevel
+kNotifyIMEOfFocusChangeInGecko
 =
 1
 kDiscardIMEComposition
@@ -2010,7 +2010,7 @@ OpenSystemPreferredLanguageIME
 )
 ;
 void
-ResetIMEWindowLevel
+NotifyIMEOfFocusChangeInGecko
 (
 )
 ;
