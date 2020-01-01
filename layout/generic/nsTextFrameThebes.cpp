@@ -27189,13 +27189,10 @@ if
 startOffset
 <
 =
-PRUint32
-(
 trimmed
 .
 GetEnd
 (
-)
 )
 &
 &
@@ -27203,13 +27200,10 @@ GetEnd
 (
 startOffset
 <
-PRUint32
-(
 trimmed
 .
 GetEnd
 (
-)
 )
 &
 &
