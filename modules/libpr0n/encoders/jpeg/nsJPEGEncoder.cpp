@@ -228,7 +228,7 @@ NS_ERROR_ALREADY_INITIALIZED
 int
 quality
 =
-50
+92
 ;
 if
 (
