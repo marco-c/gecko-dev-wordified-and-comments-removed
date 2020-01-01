@@ -88,6 +88,10 @@ TestCheckedInt
 .
 cpp
 \
+TestEnumSet
+.
+cpp
+\
 TestSHA1
 .
 cpp

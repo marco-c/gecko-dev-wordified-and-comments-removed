@@ -117,6 +117,10 @@ Constants
 .
 h
 \
+EnumSet
+.
+h
+\
 FloatingPoint
 .
 h
