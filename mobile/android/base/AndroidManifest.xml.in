@@ -2208,8 +2208,6 @@ style
 /
 Gecko
 .
-Light
-.
 AwesomeBar
 "
 android
@@ -2255,8 +2253,6 @@ theme
 style
 /
 Gecko
-.
-TitleBar
 .
 Preferences
 "
