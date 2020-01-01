@@ -3952,6 +3952,9 @@ void
 )
 #
 endif
+#
+ifdef
+MOZ_IPC
 nsGeolocationRequestProxy
 :
 :
@@ -4382,3 +4385,5 @@ true
 }
 }
 }
+#
+endif
