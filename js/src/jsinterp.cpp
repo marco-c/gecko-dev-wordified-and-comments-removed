@@ -13215,17 +13215,6 @@ MONITOR_BRANCH
 \
 JS_BEGIN_MACRO
 \
-JSTraceMonitor
-*
-tm
-=
-&
-JS_TRACE_MONITOR
-(
-cx
-)
-;
-\
 if
 (
 TRACING_ENABLED
