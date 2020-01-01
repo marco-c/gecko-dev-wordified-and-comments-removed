@@ -279,6 +279,10 @@ HTMLBRElement
 .
 webidl
 \
+HTMLButtonElement
+.
+webidl
+\
 HTMLCollection
 .
 webidl
