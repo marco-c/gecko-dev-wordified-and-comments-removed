@@ -3877,9 +3877,6 @@ break
 ;
 }
 case
-NS_CREATE
-:
-case
 NS_DESTROY
 :
 case

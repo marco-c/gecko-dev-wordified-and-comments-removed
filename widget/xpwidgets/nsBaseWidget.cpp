@@ -4968,14 +4968,6 @@ NS_BLUR_CONTENT
 ;
 _ASSIGN_eventName
 (
-NS_CREATE
-"
-NS_CREATE
-"
-)
-;
-_ASSIGN_eventName
-(
 NS_DESTROY
 "
 NS_DESTROY

@@ -493,12 +493,6 @@ NS_WINDOW_START
 100
 #
 define
-NS_CREATE
-(
-NS_WINDOW_START
-)
-#
-define
 NS_XUL_CLOSE
 (
 NS_WINDOW_START
@@ -608,14 +602,6 @@ NS_MOVE
 NS_WINDOW_START
 +
 34
-)
-#
-define
-NS_TABCHANGE
-(
-NS_WINDOW_START
-+
-35
 )
 #
 define
