@@ -311,6 +311,11 @@ nsIObserver
 aArray
 )
 ;
+void
+UnmarkGrayStrongObservers
+(
+)
+;
 private
 :
 nsTArray

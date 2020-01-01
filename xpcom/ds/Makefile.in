@@ -618,6 +618,10 @@ nsMathUtils
 .
 h
 \
+nsObserverList
+.
+h
+\
 nsObserverService
 .
 h
