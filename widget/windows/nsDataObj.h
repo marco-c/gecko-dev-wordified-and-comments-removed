@@ -482,7 +482,7 @@ pbcReserved
 ;
 public
 :
-nsresult
+HRESULT
 GetDownloadDetails
 (
 nsIURI
