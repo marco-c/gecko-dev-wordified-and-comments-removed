@@ -24,16 +24,6 @@ NS_DECLARE_FRAME_ACCESSOR
 nsIRadioControlFrame
 )
 NS_IMETHOD
-SetRadioButtonFaceStyleContext
-(
-nsStyleContext
-*
-aRadioButtonFaceStyleContext
-)
-=
-0
-;
-NS_IMETHOD
 OnChecked
 (
 nsPresContext

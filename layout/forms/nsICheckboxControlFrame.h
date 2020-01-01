@@ -27,16 +27,6 @@ NS_DECLARE_FRAME_ACCESSOR
 nsICheckboxControlFrame
 )
 NS_IMETHOD
-SetCheckboxFaceStyleContext
-(
-nsStyleContext
-*
-aCheckboxFaceStyleContext
-)
-=
-0
-;
-NS_IMETHOD
 OnChecked
 (
 nsPresContext
