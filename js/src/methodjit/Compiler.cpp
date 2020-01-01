@@ -16222,6 +16222,9 @@ shift
 1
 )
 ;
+#
+ifdef
+DEBUG
 FrameEntry
 *
 funFe
@@ -16234,6 +16237,8 @@ peek
 2
 )
 ;
+#
+endif
 JS_ASSERT
 (
 !

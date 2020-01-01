@@ -2548,7 +2548,7 @@ oplen
 namespace
 js
 {
-bool
+void
 ReportIncompatibleMethod
 (
 JSContext
