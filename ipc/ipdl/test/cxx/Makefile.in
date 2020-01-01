@@ -496,6 +496,8 @@ TestRPCErrorCleanup
 \
 TestCrashCleanup
 \
+TestSyncWakeup
+\
 TestLatency
 \
 TestRPCRaces
