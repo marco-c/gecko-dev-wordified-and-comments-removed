@@ -11,6 +11,12 @@ AccIterator
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 struct
 RelationCopyHelper
 {
@@ -375,5 +381,7 @@ mLastIter
 ;
 }
 ;
+}
+}
 #
 endif

@@ -25,6 +25,12 @@ nsIMutableArray
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 Relation
 ;
@@ -81,5 +87,7 @@ mTargets
 ;
 }
 ;
+}
+}
 #
 endif

@@ -25,6 +25,12 @@ AccessibleRelation
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 ia2AccessibleRelation
 :
@@ -190,5 +196,7 @@ mReferences
 ;
 }
 ;
+}
+}
 #
 endif
