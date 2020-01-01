@@ -391,6 +391,11 @@ DLL_SUFFIX
 endif
 #
 endif
+BINPATH
+/
+DLL_PREFIX
+xpcom
+DLL_SUFFIX
 #
 ifdef
 XP_MACOSX

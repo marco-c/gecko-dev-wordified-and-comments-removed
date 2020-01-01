@@ -467,14 +467,14 @@ t
 "
 .
 globl
-_NS_InvokeByIndex
+_NS_InvokeByIndex_P
 \
 n
 \
 t
 "
 "
-_NS_InvokeByIndex
+_NS_InvokeByIndex_P
 :
 \
 n
@@ -729,7 +729,7 @@ ascii
 -
 export
 :
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 \
 "
 \

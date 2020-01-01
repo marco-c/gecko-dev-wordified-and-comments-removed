@@ -116,7 +116,7 @@ ABI
 /
 .
 global
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 /
 *
 *
@@ -138,7 +138,7 @@ params
 *
 *
 /
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 :
 save
 %

@@ -120,7 +120,7 @@ align
 2
 #
 #
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 (
 nsISupports
 *
@@ -137,8 +137,8 @@ params
 #
 .
 globl
-__NS_InvokeByIndex
-__NS_InvokeByIndex
+__NS_InvokeByIndex_P
+__NS_InvokeByIndex_P
 :
 mflr
 r0

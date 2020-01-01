@@ -113,12 +113,12 @@ equ
 128
 .
 globl
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 .
 type
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 function
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 :
 .
 PROC
@@ -871,7 +871,7 @@ in
 ;
 .
 SIZE
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 .
 -
-NS_InvokeByIndex
+NS_InvokeByIndex_P
