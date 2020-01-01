@@ -701,7 +701,7 @@ nsLocale
 LocaleObject
 locale_object
 =
-NULL
+nullptr
 ;
 int
 result
