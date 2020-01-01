@@ -456,7 +456,7 @@ nsISupports
 idl
 "
 interface
-nsIIDBIndexRequest
+nsIIDBIndex
 ;
 interface
 nsIIDBKeyRange
@@ -512,15 +512,15 @@ information
 scriptable
 uuid
 (
-1168fc42
+9cb63602
 -
-ac08
+a52f
 -
-4720
+4d21
 -
-822c
+b802
 -
-da820f00e15e
+e7165143f83d
 )
 ]
 interface
@@ -785,7 +785,7 @@ IDBTransactionEvent
 result
 =
 =
-IDBIndexRequest
+IDBIndex
 nsIIDBRequest
 createIndex
 (
@@ -813,7 +813,7 @@ unique
 Returns
 object
 immediately
-nsIIDBIndexRequest
+nsIIDBIndex
 index
 (
 in

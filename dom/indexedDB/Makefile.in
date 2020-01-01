@@ -470,7 +470,7 @@ IDBEvents
 .
 cpp
 \
-IDBIndexRequest
+IDBIndex
 .
 cpp
 \
@@ -524,7 +524,7 @@ IDBEvents
 .
 h
 \
-IDBIndexRequest
+IDBIndex
 .
 h
 \
@@ -657,10 +657,6 @@ nsIIDBErrorEvent
 idl
 \
 nsIIDBIndex
-.
-idl
-\
-nsIIDBIndexRequest
 .
 idl
 \

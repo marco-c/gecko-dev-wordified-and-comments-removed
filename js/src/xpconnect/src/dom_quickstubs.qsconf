@@ -2675,11 +2675,6 @@ nsIIDBIndex
 *
 '
 '
-nsIIDBIndexRequest
-.
-*
-'
-'
 nsIIDBKeyRange
 .
 *
@@ -2767,13 +2762,13 @@ update
 '
 '
 -
-nsIIDBIndexRequest
+nsIIDBIndex
 .
 openCursor
 '
 '
 -
-nsIIDBIndexRequest
+nsIIDBIndex
 .
 openObjectCursor
 '
