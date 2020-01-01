@@ -540,7 +540,7 @@ EnsureChildren
 )
 ;
 virtual
-nsIAccessible
+nsAccessible
 *
 GetSiblingAtOffset
 (

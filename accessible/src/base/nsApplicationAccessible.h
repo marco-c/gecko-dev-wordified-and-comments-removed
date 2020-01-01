@@ -148,7 +148,7 @@ CacheChildren
 )
 ;
 virtual
-nsIAccessible
+nsAccessible
 *
 GetSiblingAtOffset
 (

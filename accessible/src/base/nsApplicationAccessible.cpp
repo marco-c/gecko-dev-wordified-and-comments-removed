@@ -434,7 +434,7 @@ CacheChildren
 )
 {
 }
-nsIAccessible
+nsAccessible
 *
 nsApplicationAccessible
 :
