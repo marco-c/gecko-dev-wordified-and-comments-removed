@@ -223,6 +223,8 @@ private
 static
 boolean
 sDisableScreenshot
+=
+true
 ;
 private
 static
