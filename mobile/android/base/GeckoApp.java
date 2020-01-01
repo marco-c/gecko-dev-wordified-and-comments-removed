@@ -7049,6 +7049,11 @@ AboutHomeContent
 UpdateFlags
 .
 TOP_SITES
+AboutHomeContent
+.
+UpdateFlags
+.
+REMOTE_TABS
 )
 )
 ;
@@ -15720,7 +15725,7 @@ ADD
 {
 Log
 .
-i
+d
 (
 LOGTAG
 "

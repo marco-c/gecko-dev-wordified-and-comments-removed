@@ -3321,6 +3321,18 @@ SQLiteQueryBuilder
 (
 )
 ;
+String
+limit
+=
+uri
+.
+getQueryParameter
+(
+BrowserContract
+.
+PARAM_LIMIT
+)
+;
 switch
 (
 match
@@ -3661,7 +3673,7 @@ selectionArgs
 null
 null
 sortOrder
-null
+limit
 )
 ;
 cursor

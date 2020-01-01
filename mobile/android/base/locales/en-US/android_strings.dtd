@@ -280,6 +280,16 @@ Tabs
 <
 !
 ENTITY
+remote_tabs_show_all
+"
+Show
+all
+tabs
+"
+>
+<
+!
+ENTITY
 bookmark
 "
 Bookmark
