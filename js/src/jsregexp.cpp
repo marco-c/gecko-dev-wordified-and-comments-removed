@@ -27791,6 +27791,13 @@ cx
 >
 regExpStatics
 ;
+if
+(
+statics
+-
+>
+input
+)
 tvr
 -
 >
