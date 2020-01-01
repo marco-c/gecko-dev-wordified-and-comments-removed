@@ -101,6 +101,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 nsIDOMElement
 .
 h

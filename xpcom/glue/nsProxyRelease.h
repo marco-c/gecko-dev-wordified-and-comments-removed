@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsThreadUtils
+MainThreadUtils
 .
 h
 "
@@ -247,9 +247,13 @@ nsCOMPtr
 nsIThread
 >
 mainThread
-=
-do_GetMainThread
+;
+NS_GetMainThread
 (
+getter_AddRefs
+(
+mainThread
+)
 )
 ;
 if
