@@ -1697,7 +1697,7 @@ if
 (
 mNumIdleThreads
 )
-PR_NotifyCondVar
+PR_NotifyAllCondVar
 (
 mIdleThreadCV
 )
