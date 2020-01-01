@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-TouchList
-;
-interface
 WindowProxy
 ;
 [

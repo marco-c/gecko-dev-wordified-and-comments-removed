@@ -322,9 +322,6 @@ interface
 StyleSheetList
 ;
 interface
-TouchList
-;
-interface
 WindowProxy
 ;
 interface

@@ -40582,6 +40582,10 @@ retval
 new
 nsDOMTouchList
 (
+ToSupports
+(
+this
+)
 )
 ;
 if
@@ -40847,7 +40851,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMTouchList
+nsDOMTouchList
 >
 nsIDocument
 :
@@ -40865,6 +40869,10 @@ retval
 new
 nsDOMTouchList
 (
+ToSupports
+(
+this
+)
 )
 ;
 return
@@ -40877,7 +40885,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMTouchList
+nsDOMTouchList
 >
 nsIDocument
 :
@@ -40908,6 +40916,10 @@ retval
 new
 nsDOMTouchList
 (
+ToSupports
+(
+this
+)
 )
 ;
 retval
@@ -40965,7 +40977,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMTouchList
+nsDOMTouchList
 >
 nsIDocument
 :
@@ -40993,6 +41005,10 @@ retval
 new
 nsDOMTouchList
 (
+ToSupports
+(
+this
+)
 )
 ;
 for
