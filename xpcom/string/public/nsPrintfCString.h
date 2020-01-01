@@ -70,12 +70,12 @@ ap
 }
 private
 :
-enum
-{
+static
+const
+PRUint32
 kLocalBufferSize
 =
-15
-}
+16
 ;
 char_type
 mLocalBuffer
