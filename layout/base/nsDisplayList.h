@@ -1623,6 +1623,16 @@ return
 mContainsPluginItem
 ;
 }
+DisplayListClipState
+&
+ClipState
+(
+)
+{
+return
+mClipState
+;
+}
 private
 :
 void
@@ -1740,6 +1750,9 @@ mThemeGeometries
 nsDisplayTableItem
 *
 mCurrentTableItem
+;
+DisplayListClipState
+mClipState
 ;
 const
 nsRegion
