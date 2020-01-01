@@ -12606,6 +12606,8 @@ staged
 }
 ;
 }
+try
+{
 app
 .
 staged
@@ -12621,6 +12623,13 @@ Etag
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 app
 .
 staged
@@ -12645,6 +12654,8 @@ manifest
 }
 else
 {
+try
+{
 app
 .
 packageEtag
@@ -12658,6 +12669,13 @@ Etag
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 app
 .
 packageHash
