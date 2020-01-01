@@ -736,6 +736,7 @@ null
 ;
 var
 progress
+progressListener
 ;
 function
 runTest
@@ -804,7 +805,6 @@ interfaces
 nsIWebProgress
 )
 ;
-var
 progressListener
 =
 new
@@ -835,9 +835,11 @@ setAttribute
 src
 "
 "
-about
+data
 :
-blank
+text
+/
+html
 "
 )
 ;
