@@ -523,14 +523,12 @@ potentially
 breaking
 other
 tests
-#
 libs
 :
 :
 (
 _CHROME_FILES
 )
-#
 (
 INSTALL
 )
