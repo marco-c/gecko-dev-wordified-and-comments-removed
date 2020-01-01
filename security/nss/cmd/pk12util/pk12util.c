@@ -517,7 +517,7 @@ filename
 )
 ;
 }
-PR_Free
+PL_strfree
 (
 (
 *
@@ -527,6 +527,16 @@ ppCtx
 >
 filename
 )
+;
+(
+*
+ppCtx
+)
+-
+>
+filename
+=
+NULL
 ;
 }
 PR_Free
@@ -600,7 +610,7 @@ p12cxt
 >
 filename
 =
-strdup
+PL_strdup
 (
 filename
 )
@@ -2667,7 +2677,7 @@ p12cxt
 file
 )
 ;
-PR_Free
+PL_strfree
 (
 p12cxt
 -
@@ -4675,7 +4685,7 @@ p12FilePw
 .
 data
 =
-PL_strdup
+PORT_Strdup
 (
 pk12util
 .
@@ -4710,7 +4720,7 @@ p12FilePw
 .
 data
 =
-PL_strdup
+PORT_Strdup
 (
 pk12util
 .
@@ -4745,7 +4755,7 @@ slotPw
 .
 data
 =
-PL_strdup
+PORT_Strdup
 (
 pk12util
 .
@@ -4780,7 +4790,7 @@ slotPw
 .
 data
 =
-PL_strdup
+PORT_Strdup
 (
 pk12util
 .

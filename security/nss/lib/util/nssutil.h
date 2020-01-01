@@ -5,12 +5,17 @@ __nssutil_h_
 define
 __nssutil_h_
 #
+ifndef
+RC_INVOKED
+#
 include
 "
 seccomon
 .
 h
 "
+#
+endif
 #
 define
 NSSUTIL_VERSION

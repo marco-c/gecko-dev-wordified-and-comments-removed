@@ -1192,8 +1192,6 @@ OS_TARGET
 )
 #
 omits
-WIN16
-and
 WINCE
 ifndef
 USE_64

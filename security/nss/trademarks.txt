@@ -362,8 +362,6 @@ Transformation
 Format
 Unisys
 Verisign
-WIN16
-Windows
 WIN32
 Windows
 WINNT

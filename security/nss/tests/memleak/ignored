@@ -225,14 +225,11 @@ PL_CreateOptState
 *
 *
 #
-486928
+486298
 selfserv
 /
 main
 /
 PORT_Strdup_Util
-/
-PORT_Alloc_Util
-/
 *
 *
