@@ -160,6 +160,13 @@ nsIDOMMouseEvent
 .
 h
 "
+#
+include
+"
+nsIIdleServiceInternal
+.
+h
+"
 class
 nsNativeDragTarget
 ;
@@ -2362,7 +2369,7 @@ mCaptionHeight
 ;
 nsCOMPtr
 <
-nsIdleService
+nsIIdleServiceInternal
 >
 mIdleService
 ;

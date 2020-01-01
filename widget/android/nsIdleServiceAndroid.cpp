@@ -12,10 +12,9 @@ nsIServiceManager
 .
 h
 "
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsIdleServiceAndroid
-nsIIdleService
 nsIdleService
 )
 bool

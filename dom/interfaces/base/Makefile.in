@@ -257,6 +257,10 @@ nsIDOMPerformanceNavigation
 .
 idl
 \
+nsIIdleObserver
+.
+idl
+\
 (
 NULL
 )

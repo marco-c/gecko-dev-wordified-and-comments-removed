@@ -12,10 +12,9 @@ windows
 .
 h
 >
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsIdleServiceWin
-nsIIdleService
 nsIdleService
 )
 bool

@@ -451,6 +451,10 @@ nsIIdleService
 .
 idl
 \
+nsIIdleServiceInternal
+.
+idl
+\
 nsIGfxInfo
 .
 idl

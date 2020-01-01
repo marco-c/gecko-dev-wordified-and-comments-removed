@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsIIdleServiceInternal
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -46,9 +53,6 @@ h
 endif
 class
 gfxASurface
-;
-class
-nsIdleService
 ;
 struct
 ANPEvent
@@ -950,7 +954,7 @@ mSwipeMinDistance
 ;
 nsCOMPtr
 <
-nsIdleService
+nsIIdleServiceInternal
 >
 mIdleService
 ;

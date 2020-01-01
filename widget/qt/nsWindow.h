@@ -62,6 +62,13 @@ nsGkAtoms
 h
 "
 #
+include
+"
+nsIIdleServiceInternal
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -1313,7 +1320,7 @@ mThebesSurface
 ;
 nsCOMPtr
 <
-nsIdleService
+nsIIdleServiceInternal
 >
 mIdleService
 ;
