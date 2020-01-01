@@ -1482,16 +1482,6 @@ int
 length
 )
 ;
-extern
-int32_t
-JS_FASTCALL
-js_TypedArray_uint8_clamp_double
-(
-const
-double
-x
-)
-;
 JS_FRIEND_API
 (
 JSBool
