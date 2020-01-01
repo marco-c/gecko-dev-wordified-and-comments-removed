@@ -295,8 +295,7 @@ enableXPInstall
 label
 "
 Allow
-web
-sites
+websites
 to
 install
 software

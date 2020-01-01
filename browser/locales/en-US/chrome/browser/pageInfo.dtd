@@ -1037,8 +1037,7 @@ identity
 .
 header
 "
-Web
-Site
+Website
 Identity
 "
 >
@@ -1064,8 +1063,7 @@ identity
 .
 domain
 "
-Web
-site
+Website
 :
 "
 >
@@ -1112,8 +1110,7 @@ Have
 I
 visited
 this
-web
-site
+website
 prior
 to
 today
@@ -1131,8 +1128,7 @@ cookies
 "
 Is
 this
-web
-site
+website
 storing
 information
 (
@@ -1187,8 +1183,7 @@ any
 passwords
 for
 this
-web
-site
+website
 ?
 "
 >

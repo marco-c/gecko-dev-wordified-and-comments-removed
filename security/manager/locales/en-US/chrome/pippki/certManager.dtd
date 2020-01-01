@@ -860,8 +860,7 @@ editsslcert
 title
 "
 Edit
-web
-site
+website
 certificate
 trust
 settings
@@ -895,8 +894,7 @@ This
 certificate
 can
 identify
-web
-sites
+websites
 .
 "
 >
