@@ -606,6 +606,10 @@ test_showcaret
 .
 xul
 \
+window_showcaret
+.
+xul
+\
 test_righttoleft
 .
 xul
