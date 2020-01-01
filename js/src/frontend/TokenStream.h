@@ -1602,6 +1602,9 @@ allowsXML
 const
 {
 return
+allowXML
+&
+&
 !
 isStrictMode
 (
@@ -2980,6 +2983,9 @@ maybeStrSpecial
 ;
 JSVersion
 version
+;
+bool
+allowXML
 ;
 bool
 moarXML

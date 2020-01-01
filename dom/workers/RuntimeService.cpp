@@ -893,6 +893,11 @@ newOptions
 JSOPTION_TYPE_INFERENCE
 ;
 }
+newOptions
+|
+=
+JSOPTION_ALLOW_XML
+;
 RuntimeService
 :
 :

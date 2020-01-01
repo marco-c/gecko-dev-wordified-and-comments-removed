@@ -688,6 +688,13 @@ version
 (
 v
 )
+allowXML
+(
+VersionHasAllowXML
+(
+v
+)
+)
 moarXML
 (
 VersionHasMoarXML
