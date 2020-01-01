@@ -215,6 +215,12 @@ BookmarksTab
 .
 java
 \
+awesomebar
+/
+HistoryTab
+.
+java
+\
 BrowserApp
 .
 java

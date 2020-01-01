@@ -398,6 +398,13 @@ TAG
 ;
 mView
 .
+setOnTouchListener
+(
+mListListener
+)
+;
+mView
+.
 setAdapter
 (
 null
