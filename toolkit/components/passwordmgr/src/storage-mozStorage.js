@@ -4722,6 +4722,7 @@ function
 (
 )
 {
+let
 filenamePrefs
 =
 [
