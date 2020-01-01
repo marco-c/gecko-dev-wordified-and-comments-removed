@@ -211,6 +211,14 @@ js
 \
 browser_dbg_propertyview
 -
+edit
+-
+watch
+.
+js
+\
+browser_dbg_propertyview
+-
 data
 .
 js
