@@ -5570,7 +5570,7 @@ mem
 .
 gc_incremental
 "
-false
+true
 )
 ;
 pref
