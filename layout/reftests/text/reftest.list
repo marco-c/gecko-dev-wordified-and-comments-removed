@@ -561,6 +561,7 @@ table
 cells
 bug
 418975
+fails
 !
 =
 soft
@@ -587,6 +588,10 @@ table
 notref
 .
 html
+#
+bug
+418975
+fails
 =
 =
 soft
@@ -613,6 +618,10 @@ table
 ref
 .
 html
+#
+bug
+418975
+fails
 =
 =
 soft
@@ -639,6 +648,9 @@ table
 ref
 .
 html
+#
+bug
+418975
 #
 Cairo
 '
