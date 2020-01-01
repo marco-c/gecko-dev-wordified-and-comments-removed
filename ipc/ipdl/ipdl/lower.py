@@ -12665,6 +12665,10 @@ time
 PRId64
 "
 ]
+[
+%
+d
+]
 '
 )
                    
@@ -12674,6 +12678,19 @@ ExprVar
 (
 '
 PR_Now
+'
+)
+)
+                   
+ExprCall
+(
+ExprVar
+(
+'
+base
+:
+:
+GetCurrentProcId
 '
 )
 )
