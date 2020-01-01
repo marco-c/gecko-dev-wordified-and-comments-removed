@@ -82,7 +82,6 @@ autoconf
 mk
 PARALLEL_DIRS
 =
-public
 src
 builtin
 TEST_DIRS

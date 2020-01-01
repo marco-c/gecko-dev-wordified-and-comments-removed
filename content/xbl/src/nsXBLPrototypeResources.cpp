@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIXBLService
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

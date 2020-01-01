@@ -361,13 +361,6 @@ h
 #
 include
 "
-nsIXBLService
-.
-h
-"
-#
-include
-"
 nsIFileChannel
 .
 h
