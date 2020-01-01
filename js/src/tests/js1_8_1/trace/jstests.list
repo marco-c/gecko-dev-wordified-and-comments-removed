@@ -236,12 +236,6 @@ regress
 .
 js
 script
-trace
--
-test
-.
-js
-script
 testDeepBailFromNonNative
 .
 js
