@@ -10343,6 +10343,16 @@ rv
 rv
 )
 ;
+{
+nsCxPusher
+pusher
+;
+pusher
+.
+PushNull
+(
+)
+;
 rv
 =
 serializer
@@ -10361,6 +10371,7 @@ rv
 rv
 )
 ;
+}
 output
 -
 >
