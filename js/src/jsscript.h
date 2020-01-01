@@ -1284,6 +1284,9 @@ pcCounters
 ;
 public
 :
+#
+ifdef
+JS_ION
 js
 :
 :
@@ -1294,6 +1297,8 @@ IonScript
 *
 ion
 ;
+#
+endif
 #
 ifdef
 JS_METHODJIT
