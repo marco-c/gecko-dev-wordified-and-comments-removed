@@ -219,6 +219,12 @@ nsIObjectLoadingContent
 :
 :
 PLUGIN_VULNERABLE_NO_UPDATE
+eFallbackPlayPreview
+=
+nsIObjectLoadingContent
+:
+:
+PLUGIN_PLAY_PREVIEW
 }
 ;
 nsObjectLoadingContent
@@ -509,6 +515,11 @@ aReason
 )
 ;
 bool
+ShouldPreview
+(
+)
+;
+bool
 CheckLoadPolicy
 (
 int16_t
@@ -650,6 +661,11 @@ mNetworkCreated
 ;
 bool
 mActivated
+:
+1
+;
+bool
+mPlayPreviewCanceled
 :
 1
 ;
