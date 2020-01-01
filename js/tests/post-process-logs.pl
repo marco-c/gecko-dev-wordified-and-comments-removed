@@ -3082,12 +3082,9 @@ throwing
 an
 instance
 of
-'
-std
-:
-:
+.
+*
 bad_alloc
-'
 /
 )
 {
