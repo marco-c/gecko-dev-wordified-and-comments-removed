@@ -2089,6 +2089,17 @@ Build
 FINGERPRINT
 )
 ;
+if
+(
+Build
+.
+VERSION
+.
+SDK_INT
+>
+=
+8
+)
 sendPart
 (
 os
