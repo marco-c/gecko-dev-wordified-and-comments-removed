@@ -143,6 +143,10 @@ test_audioBufferSourceNodeLoopStartEnd
 .
 html
 \
+test_audioBufferSourceNodeLoopStartEndSame
+.
+html
+\
 test_audioBufferSourceNodeNullBuffer
 .
 html
