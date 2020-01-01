@@ -765,6 +765,10 @@ nsIDOMSVGUseElement
 .
 idl
 \
+nsIDOMSVGViewElement
+.
+idl
+\
 nsIDOMSVGViewSpec
 .
 idl

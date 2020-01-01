@@ -2643,6 +2643,11 @@ viewBox
 nsGkAtoms
 :
 :
+viewTarget
+&
+nsGkAtoms
+:
+:
 visibility
 &
 nsGkAtoms

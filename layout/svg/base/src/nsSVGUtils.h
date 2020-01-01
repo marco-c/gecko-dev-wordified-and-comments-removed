@@ -698,6 +698,15 @@ aSVGElement
 )
 ;
 static
+void
+ActivateByHyperlink
+(
+nsIContent
+*
+aContent
+)
+;
+static
 float
 GetFontSize
 (

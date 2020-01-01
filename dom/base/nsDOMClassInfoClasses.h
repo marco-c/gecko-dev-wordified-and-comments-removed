@@ -860,6 +860,10 @@ SVGUseElement
 )
 DOMCI_CLASS
 (
+SVGViewElement
+)
+DOMCI_CLASS
+(
 SVGAngle
 )
 DOMCI_CLASS
