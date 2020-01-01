@@ -13,7 +13,7 @@ jsval
 simple
 )
 {
-js
+JS
 :
 :
 Rooted
@@ -29,7 +29,7 @@ INT_TO_JSVAL
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -46,7 +46,7 @@ INT_TO_JSVAL
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -59,7 +59,7 @@ cx
 JSVAL_VOID
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -72,7 +72,7 @@ cx
 JSVAL_NULL
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -85,7 +85,7 @@ cx
 JSVAL_TRUE
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -98,7 +98,7 @@ cx
 JSVAL_FALSE
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -117,7 +117,7 @@ JS_ELEMENTS_HOLE
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -141,7 +141,7 @@ cx
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -167,7 +167,7 @@ Hello
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -190,7 +190,7 @@ cx
 )
 )
 ;
-js
+JS
 :
 :
 Rooted

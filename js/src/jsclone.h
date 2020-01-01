@@ -931,7 +931,7 @@ void
 *
 closure
 ;
-js
+JS
 :
 :
 RootedValue

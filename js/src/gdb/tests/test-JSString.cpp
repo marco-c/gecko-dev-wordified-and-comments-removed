@@ -29,7 +29,7 @@ JSString
 simple
 )
 {
-js
+JS
 :
 :
 Rooted
@@ -48,7 +48,7 @@ NULL
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -69,7 +69,7 @@ x
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -89,7 +89,7 @@ z
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -214,7 +214,7 @@ cx
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -233,7 +233,7 @@ z
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -306,7 +306,7 @@ JSString
 null
 )
 {
-js
+JS
 :
 :
 Rooted
@@ -349,7 +349,7 @@ JSString
 subclasses
 )
 {
-js
+JS
 :
 :
 Rooted

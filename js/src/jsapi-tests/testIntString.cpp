@@ -19,7 +19,7 @@ BEGIN_TEST
 testIntString_bug515273
 )
 {
-js
+JS
 :
 :
 RootedValue

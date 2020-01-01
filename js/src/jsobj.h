@@ -3126,7 +3126,7 @@ JSPROP_SETTER
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -3136,7 +3136,7 @@ cx
 this
 )
 ;
-js
+JS
 :
 :
 RootedId
@@ -3195,7 +3195,7 @@ JSPROP_SETTER
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -3205,7 +3205,7 @@ cx
 this
 )
 ;
-js
+JS
 :
 :
 RootedId
@@ -3302,7 +3302,7 @@ int
 shortid
 )
 {
-js
+JS
 :
 :
 RootedId
