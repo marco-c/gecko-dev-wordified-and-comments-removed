@@ -3779,6 +3779,9 @@ hbox
 /
 hbox
 >
+#
+ifdef
+MOZ_PLATFORM_MAEMO
 <
 toolbarbutton
 id
@@ -3807,6 +3810,8 @@ cmd_close
 "
 /
 >
+#
+endif
 <
 /
 toolbar

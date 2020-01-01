@@ -101,6 +101,9 @@ start
 8px
 ;
 }
+%
+ifdef
+MOZ_PLATFORM_MAEMO
 #
 tool
 -
@@ -587,6 +590,8 @@ png
 )
 ;
 }
+%
+endif
 toolbarbutton
 .
 urlbar
