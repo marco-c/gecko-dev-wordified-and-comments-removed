@@ -260,7 +260,7 @@ aStrokeOptions
 .
 mDashLength
 >
-1
+0
 )
 {
 CGFloat
