@@ -880,6 +880,10 @@ test_cascade
 .
 html
 \
+test_ch_ex_no_infloops
+.
+html
+\
 test_compute_data_with_start_struct
 .
 html
