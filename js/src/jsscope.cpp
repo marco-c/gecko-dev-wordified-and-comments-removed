@@ -3763,7 +3763,7 @@ if
 parent
 )
 {
-JS_LOCK_RUNTIME
+JS_LOCK_GC
 (
 rt
 )
@@ -3857,7 +3857,7 @@ if
 table
 )
 {
-JS_LOCK_RUNTIME
+JS_LOCK_GC
 (
 rt
 )
@@ -3887,7 +3887,7 @@ if
 sprop
 )
 {
-JS_UNLOCK_RUNTIME
+JS_UNLOCK_GC
 (
 rt
 )
@@ -3977,7 +3977,7 @@ chunk
 n
 )
 ;
-JS_LOCK_RUNTIME
+JS_LOCK_GC
 (
 rt
 )
@@ -4070,7 +4070,7 @@ sprop
 }
 not_found
 :
-JS_LOCK_RUNTIME
+JS_LOCK_GC
 (
 rt
 )
@@ -4183,6 +4183,7 @@ shape
 js_GenerateShape
 (
 cx
+JS_TRUE
 )
 ;
 if
@@ -4218,7 +4219,7 @@ out_of_memory
 }
 out
 :
-JS_UNLOCK_RUNTIME
+JS_UNLOCK_GC
 (
 rt
 )
@@ -4228,7 +4229,7 @@ sprop
 ;
 out_of_memory
 :
-JS_UNLOCK_RUNTIME
+JS_UNLOCK_GC
 (
 rt
 )
