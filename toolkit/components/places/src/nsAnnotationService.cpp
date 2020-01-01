@@ -898,7 +898,6 @@ flags
 expiration
 type
 dateAdded
-lastModified
 )
 "
 "
@@ -920,8 +919,6 @@ VALUES
 8
 ?
 9
-?
-10
 )
 "
 )
@@ -961,7 +958,6 @@ flags
 expiration
 type
 dateAdded
-lastModified
 )
 "
 "
@@ -983,8 +979,6 @@ VALUES
 8
 ?
 9
-?
-10
 )
 "
 )
