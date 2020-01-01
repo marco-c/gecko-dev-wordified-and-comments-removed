@@ -173,9 +173,12 @@ aRep
 {
 mRepresentations
 .
-AppendElement
+InsertElementSorted
 (
 aRep
+CompareRepresentationBitrates
+(
+)
 )
 ;
 }

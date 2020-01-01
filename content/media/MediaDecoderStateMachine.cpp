@@ -3880,6 +3880,13 @@ audioPlaying
 )
 )
 {
+mReader
+-
+>
+PrepareToDecode
+(
+)
+;
 if
 (
 videoPump

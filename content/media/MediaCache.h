@@ -243,6 +243,11 @@ aPrincipal
 )
 ;
 void
+FlushPartialBlock
+(
+)
+;
+void
 NotifyDataEnded
 (
 nsresult
@@ -622,6 +627,13 @@ GetNextCachedDataInternal
 (
 int64_t
 aOffset
+)
+;
+void
+FlushPartialBlockInternal
+(
+bool
+aNotify
 )
 ;
 void

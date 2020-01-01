@@ -173,6 +173,10 @@ DASHReader
 .
 h
 \
+DASHRepReader
+.
+h
+\
 (
 NULL
 )
