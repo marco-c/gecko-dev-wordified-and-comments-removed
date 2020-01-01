@@ -965,11 +965,6 @@ browsingmode
 "
 normal
 "
-toggletoolbar
-=
-"
-true
-"
 persist
 =
 "
