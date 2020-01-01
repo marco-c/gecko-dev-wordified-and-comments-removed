@@ -4194,10 +4194,6 @@ pusher
 Push
 (
 aCx
-nsCxPusher
-:
-:
-ALWAYS_PUSH
 )
 )
 ;

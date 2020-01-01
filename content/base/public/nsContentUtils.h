@@ -4604,14 +4604,6 @@ nsCxPusher
 {
 public
 :
-enum
-PushBehavior
-{
-ALWAYS_PUSH
-REQUIRE_SCRIPT_CONTEXT
-ASSERT_SCRIPT_CONTEXT
-}
-;
 nsCxPusher
 (
 )
@@ -4643,8 +4635,6 @@ Push
 JSContext
 *
 cx
-PushBehavior
-behavior
 )
 ;
 bool

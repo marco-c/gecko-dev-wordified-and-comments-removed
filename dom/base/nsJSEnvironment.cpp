@@ -5558,10 +5558,6 @@ pusher
 Push
 (
 mContext
-nsCxPusher
-:
-:
-ASSERT_SCRIPT_CONTEXT
 )
 )
 return
@@ -6638,10 +6634,6 @@ pusher
 Push
 (
 mContext
-nsCxPusher
-:
-:
-ASSERT_SCRIPT_CONTEXT
 )
 )
 return
