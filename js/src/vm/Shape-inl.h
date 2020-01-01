@@ -149,12 +149,9 @@ inline
 void
 GetterSetterWriteBarrierPost
 (
-JS
-:
-:
-Zone
+JSRuntime
 *
-zone
+rt
 JSObject
 *
 *
@@ -164,7 +161,7 @@ objp
 #
 ifdef
 JSGC_GENERATIONAL
-zone
+rt
 -
 >
 gcStoreBuffer
@@ -193,12 +190,9 @@ inline
 void
 GetterSetterWriteBarrierPostRemove
 (
-JS
-:
-:
-Zone
+JSRuntime
 *
-zone
+rt
 JSObject
 *
 *
@@ -208,7 +202,7 @@ objp
 #
 ifdef
 JSGC_GENERATIONAL
-zone
+rt
 -
 >
 gcStoreBuffer
@@ -387,7 +381,7 @@ HAS_GETTER_OBJECT
 ;
 GetterSetterWriteBarrierPost
 (
-zone
+runtime
 (
 )
 &
@@ -420,7 +414,7 @@ HAS_SETTER_OBJECT
 ;
 GetterSetterWriteBarrierPost
 (
-zone
+runtime
 (
 )
 &
@@ -511,7 +505,7 @@ rawGetter
 )
 GetterSetterWriteBarrierPost
 (
-zone
+runtime
 (
 )
 &
@@ -538,7 +532,7 @@ rawSetter
 )
 GetterSetterWriteBarrierPost
 (
-zone
+runtime
 (
 )
 &
@@ -603,7 +597,7 @@ getterObj
 ;
 GetterSetterWriteBarrierPost
 (
-zone
+runtime
 (
 )
 &
@@ -621,7 +615,7 @@ rawGetter
 ;
 GetterSetterWriteBarrierPostRemove
 (
-zone
+runtime
 (
 )
 &
@@ -644,7 +638,7 @@ setterObj
 ;
 GetterSetterWriteBarrierPost
 (
-zone
+runtime
 (
 )
 &
@@ -662,7 +656,7 @@ rawSetter
 ;
 GetterSetterWriteBarrierPostRemove
 (
-zone
+runtime
 (
 )
 &

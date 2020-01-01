@@ -2680,6 +2680,9 @@ inline
 void
 init
 (
+JSRuntime
+*
+rt
 )
 ;
 unsigned

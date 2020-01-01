@@ -1532,7 +1532,7 @@ JSGC_GENERATIONAL
 obj
 -
 >
-compartment
+runtime
 (
 )
 -

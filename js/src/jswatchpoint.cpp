@@ -255,9 +255,9 @@ static
 void
 WatchpointWriteBarrierPost
 (
-JSCompartment
+JSRuntime
 *
-comp
+rt
 WatchpointMap
 :
 :
@@ -288,7 +288,7 @@ id
 )
 &
 &
-comp
+rt
 -
 >
 gcNursery
@@ -314,7 +314,7 @@ id
 )
 &
 &
-comp
+rt
 -
 >
 gcNursery
@@ -331,7 +331,7 @@ id
 )
 |
 |
-comp
+rt
 -
 >
 gcNursery
@@ -344,7 +344,7 @@ object
 )
 |
 |
-comp
+rt
 -
 >
 gcNursery
@@ -368,7 +368,7 @@ WatchKey
 >
 WatchKeyRef
 ;
-comp
+rt
 -
 >
 gcStoreBuffer
@@ -481,12 +481,10 @@ false
 }
 WatchpointWriteBarrierPost
 (
-obj
+cx
 -
 >
-compartment
-(
-)
+runtime
 &
 map
 WatchKey

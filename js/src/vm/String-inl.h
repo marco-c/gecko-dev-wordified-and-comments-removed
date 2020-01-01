@@ -523,12 +523,9 @@ inline
 void
 StringWriteBarrierPost
 (
-JS
-:
-:
-Zone
+JSRuntime
 *
-zone
+rt
 JSString
 *
 *
@@ -538,7 +535,7 @@ strp
 #
 ifdef
 JSGC_GENERATIONAL
-zone
+rt
 -
 >
 gcStoreBuffer
@@ -567,12 +564,9 @@ inline
 void
 StringWriteBarrierPostRemove
 (
-JS
-:
-:
-Zone
+JSRuntime
 *
-zone
+rt
 JSString
 *
 *
@@ -582,7 +576,7 @@ strp
 #
 ifdef
 JSGC_GENERATIONAL
-zone
+rt
 -
 >
 gcStoreBuffer
@@ -715,7 +709,7 @@ return
 str
 -
 >
-zone
+runtime
 (
 )
 -
@@ -932,7 +926,7 @@ js
 :
 StringWriteBarrierPost
 (
-zone
+runtime
 (
 )
 &
@@ -948,7 +942,7 @@ js
 :
 StringWriteBarrierPost
 (
-zone
+runtime
 (
 )
 &
@@ -1183,7 +1177,7 @@ js
 :
 StringWriteBarrierPost
 (
-zone
+runtime
 (
 )
 reinterpret_cast
