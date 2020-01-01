@@ -418,7 +418,7 @@ struct
 TreeFragment
 ;
 struct
-InterpState
+TracerState
 ;
 template
 <
@@ -558,7 +558,7 @@ const
 }
 ;
 struct
-InterpState
+TracerState
 {
 JSContext
 *
@@ -630,7 +630,7 @@ innermost
 uint64
 startTime
 ;
-InterpState
+TracerState
 *
 prev
 ;
@@ -648,7 +648,7 @@ jsval
 *
 nativeVp
 ;
-InterpState
+TracerState
 (
 JSContext
 *
@@ -669,7 +669,7 @@ innermostNestedGuardp
 )
 ;
 ~
-InterpState
+TracerState
 (
 )
 ;
@@ -3665,9 +3665,9 @@ JS_TRACER
 js
 :
 :
-InterpState
+TracerState
 *
-interpState
+tracerState
 ;
 js
 :

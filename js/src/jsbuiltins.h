@@ -727,10 +727,10 @@ INFALLIBLE
 )
 #
 define
-_JS_CTYPE_INTERPSTATE
+_JS_CTYPE_TRACERSTATE
 _JS_CTYPE
 (
-InterpState
+TracerState
 *
 _JS_PTR
 -
