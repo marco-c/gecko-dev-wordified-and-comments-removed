@@ -794,14 +794,6 @@ test_bug429157
 .
 html
 \
-test_header
-.
-html
-\
-header
-.
-sjs
-\
 test_XHR
 .
 html

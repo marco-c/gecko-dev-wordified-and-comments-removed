@@ -740,8 +740,6 @@ nsIChannel
 *
 bool
 preserveMethod
-bool
-forProxy
 )
 ;
 nsresult

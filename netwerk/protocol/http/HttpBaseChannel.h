@@ -964,8 +964,6 @@ nsIChannel
 *
 bool
 preserveMethod
-bool
-forProxy
 )
 ;
 template
