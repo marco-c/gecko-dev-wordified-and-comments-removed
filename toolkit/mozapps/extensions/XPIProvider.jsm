@@ -17029,7 +17029,7 @@ id
 :
 id
 "
-getVisibleAddoForInternalName
+getVisibleAddonForInternalName
 :
 "
 SELECT
@@ -21704,7 +21704,7 @@ this
 getStatement
 (
 "
-getVisibleAddoForInternalName
+getVisibleAddonForInternalName
 "
 )
 ;
