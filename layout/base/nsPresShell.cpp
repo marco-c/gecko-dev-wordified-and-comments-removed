@@ -22940,7 +22940,7 @@ END_NO_COMPOSITE
 )
 )
 {
-nsIntRect
+nsIntRegion
 invalid
 ;
 if
@@ -22996,6 +22996,15 @@ IsEmpty
 )
 )
 {
+nsIntRect
+bounds
+=
+invalid
+.
+GetBounds
+(
+)
+;
 nsRect
 rect
 (
@@ -23004,7 +23013,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-invalid
+bounds
 .
 x
 )
@@ -23013,7 +23022,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-invalid
+bounds
 .
 y
 )
@@ -23022,7 +23031,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-invalid
+bounds
 .
 width
 )
@@ -23031,7 +23040,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-invalid
+bounds
 .
 height
 )
@@ -23056,7 +23065,7 @@ presContext
 >
 NotifyInvalidation
 (
-invalid
+bounds
 0
 )
 ;

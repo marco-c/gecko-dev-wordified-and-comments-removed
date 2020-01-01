@@ -11144,7 +11144,7 @@ MoveBy
 offset
 )
 ;
-nsIntRect
+nsIntRegion
 invalid
 =
 props
@@ -11178,6 +11178,10 @@ GetUnderlyingFrame
 (
 )
 invalid
+.
+GetBounds
+(
+)
 )
 ;
 }
@@ -11252,11 +11256,10 @@ hasClip
 )
 {
 invalid
-=
-invalid
 .
-Intersect
+And
 (
+invalid
 intClip
 )
 ;

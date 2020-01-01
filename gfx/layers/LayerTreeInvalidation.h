@@ -72,7 +72,7 @@ aRoot
 )
 ;
 virtual
-nsIntRect
+nsIntRegion
 ComputeDifferences
 (
 Layer
