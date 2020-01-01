@@ -198,15 +198,6 @@ SetupIcon
 (
 )
 ;
-static
-uint32_t
-ConvertGeckoToMacKeyCode
-(
-nsAString
-&
-aKeyCodeName
-)
-;
 protected
 :
 void
