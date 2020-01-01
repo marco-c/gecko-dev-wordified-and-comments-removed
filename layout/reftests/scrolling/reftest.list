@@ -38,6 +38,12 @@ opacity
 html
 ?
 ref
+random
+-
+if
+(
+bug685516
+)
 HTTP
 =
 =
@@ -82,6 +88,12 @@ text
 html
 ?
 ref
+random
+-
+if
+(
+bug685516
+)
 HTTP
 =
 =

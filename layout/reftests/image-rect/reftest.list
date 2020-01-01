@@ -371,6 +371,12 @@ zoom
 ref
 .
 html
+random
+-
+if
+(
+bug685516
+)
 =
 =
 dom
@@ -389,6 +395,12 @@ api
 ref
 .
 html
+random
+-
+if
+(
+bug685516
+)
 =
 =
 dom
