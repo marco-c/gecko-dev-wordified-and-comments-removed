@@ -3762,12 +3762,11 @@ aBuilder
 forceTransparentBackground
 )
 ;
-aVisibleRegion
+aBuilder
 -
 >
-Sub
+SubtractFromVisibleRegion
 (
-*
 aVisibleRegion
 opaque
 )
