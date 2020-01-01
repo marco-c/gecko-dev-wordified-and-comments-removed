@@ -220,7 +220,7 @@ mHandScrollStartScrollY
 ;
 NSEvent
 *
-mLastMenuForEventEvent
+mLastMouseDownEvent
 ;
 NSMutableArray
 *
