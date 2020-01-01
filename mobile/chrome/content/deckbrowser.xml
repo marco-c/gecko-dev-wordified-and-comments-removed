@@ -2732,7 +2732,9 @@ state
 .
 _scrollX
 =
-window
+browser
+.
+contentWindow
 .
 scrollX
 ;
@@ -2740,7 +2742,9 @@ state
 .
 _scrollY
 =
-window
+browser
+.
+contentWindow
 .
 scrollY
 ;
