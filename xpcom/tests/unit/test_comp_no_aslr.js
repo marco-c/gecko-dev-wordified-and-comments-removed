@@ -44,7 +44,7 @@ manifest
 do_get_file
 (
 '
-testcompwithaslr
+testcompnoaslr
 .
 manifest
 '
