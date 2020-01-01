@@ -522,10 +522,13 @@ mozilla
 null_t
 ;
 using
-base
+mozilla
 :
 :
-SharedMemoryHandle
+plugins
+:
+:
+WindowsSharedMemoryHandle
 ;
 namespace
 mozilla
@@ -550,7 +553,7 @@ size
 struct
 SurfaceDescriptorWin
 {
-SharedMemoryHandle
+WindowsSharedMemoryHandle
 handle
 ;
 gfxIntSize
