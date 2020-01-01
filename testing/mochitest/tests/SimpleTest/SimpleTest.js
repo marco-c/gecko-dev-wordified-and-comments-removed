@@ -1618,6 +1618,7 @@ setTimeout
 (
 callback
 0
+targetWindow
 )
 ;
 }
