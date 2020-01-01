@@ -15359,6 +15359,7 @@ TOK_NAME
 |
 \
 (
+(
 pnkey
 )
 -
@@ -15378,6 +15379,7 @@ pn_type
 =
 =
 TOK_NAME
+)
 )
 static
 JSDHashNumber
