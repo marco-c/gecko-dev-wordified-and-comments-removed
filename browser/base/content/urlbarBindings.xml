@@ -4370,6 +4370,7 @@ nsIClipboardHelper
 copyString
 (
 val
+document
 )
 ;
 }
@@ -5782,6 +5783,7 @@ Ci
 nsIClipboard
 .
 kSelectionClipboard
+document
 )
 ;
 ]
