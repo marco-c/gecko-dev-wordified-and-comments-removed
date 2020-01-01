@@ -4987,3 +4987,15 @@ infobar
 false
 )
 ;
+pref
+(
+"
+browser
+.
+places
+.
+createdDefaultQueries
+"
+true
+)
+;
