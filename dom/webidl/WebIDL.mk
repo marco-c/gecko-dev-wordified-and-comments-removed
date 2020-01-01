@@ -947,6 +947,10 @@ ScrollAreaEvent
 .
 webidl
 \
+SettingsManager
+.
+webidl
+\
 SimpleGestureEvent
 .
 webidl

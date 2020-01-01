@@ -711,13 +711,6 @@ h
 #
 include
 "
-nsIDOMSettingsManager
-.
-h
-"
-#
-include
-"
 nsIDOMContactManager
 .
 h

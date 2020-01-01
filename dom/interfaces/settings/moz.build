@@ -103,11 +103,6 @@ nsIDOMMozSettingsEvent
 idl
 '
 '
-nsIDOMSettingsManager
-.
-idl
-'
-'
 nsISettingsService
 .
 idl
