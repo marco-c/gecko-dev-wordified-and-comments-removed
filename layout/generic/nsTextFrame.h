@@ -1446,6 +1446,12 @@ nsReflowStatus
 aStatus
 )
 ;
+bool
+IsFloatingFirstLetterChild
+(
+)
+const
+;
 protected
 :
 virtual
@@ -1914,11 +1920,6 @@ aPresContext
 nsRect
 &
 aRect
-)
-;
-bool
-IsFloatingFirstLetterChild
-(
 )
 ;
 ContentOffsets

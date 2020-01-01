@@ -463,7 +463,7 @@ test_general
 .
 xul
 \
-test_inputs
+test_controls
 .
 html
 \

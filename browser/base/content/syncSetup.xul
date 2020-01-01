@@ -1812,7 +1812,7 @@ label
 &
 serverType
 .
-main
+default
 .
 label
 ;
@@ -2901,7 +2901,7 @@ label
 &
 serverType
 .
-main
+default
 .
 label
 ;

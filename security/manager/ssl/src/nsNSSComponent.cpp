@@ -5924,9 +5924,6 @@ nsITimer
 timer
 )
 {
-nsresult
-rv
-;
 {
 MutexAutoLock
 lock
@@ -5939,8 +5936,6 @@ crlDownloadTimerOn
 false
 ;
 }
-rv
-=
 DownloadCrlSilently
 (
 )
@@ -9642,11 +9637,6 @@ if
 mPSMContentListener
 )
 {
-nsresult
-rv
-=
-NS_ERROR_FAILURE
-;
 nsCOMPtr
 <
 nsIURILoader
@@ -9664,8 +9654,6 @@ if
 dispatcher
 )
 {
-rv
-=
 dispatcher
 -
 >

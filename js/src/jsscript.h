@@ -3002,11 +3002,10 @@ LineOption
 NOT_CALLED_FROM_JSOP_EVAL
 )
 ;
-}
 extern
 JSScript
 *
-js_CloneScript
+CloneScript
 (
 JSContext
 *
@@ -3018,7 +3017,7 @@ script
 ;
 extern
 JSBool
-js_XDRScript
+XDRScript
 (
 JSXDRState
 *
@@ -3029,5 +3028,6 @@ JSScript
 scriptp
 )
 ;
+}
 #
 endif

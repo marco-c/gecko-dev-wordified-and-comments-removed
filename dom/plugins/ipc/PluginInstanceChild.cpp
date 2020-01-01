@@ -11169,6 +11169,9 @@ false
 }
 #
 ifdef
+MOZ_X11
+#
+ifdef
 MOZ_PLATFORM_MAEMO
 bool
 supportNonDefaultVisual
@@ -11184,9 +11187,6 @@ false
 ;
 #
 endif
-#
-ifdef
-MOZ_X11
 Screen
 *
 screen

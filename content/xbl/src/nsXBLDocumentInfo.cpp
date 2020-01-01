@@ -713,9 +713,7 @@ JS_EnumerateStub
 nsXBLDocGlobalObject_resolve
 JS_ConvertStub
 nsXBLDocGlobalObject_finalize
-NULL
 nsXBLDocGlobalObject_checkAccess
-NULL
 NULL
 NULL
 NULL

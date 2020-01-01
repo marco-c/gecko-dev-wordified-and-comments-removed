@@ -308,7 +308,7 @@ addTrust
 mTrust
 .
 sslFlags
-CERTDB_VALID_PEER
+CERTDB_TERMINAL_RECORD
 )
 ;
 if
@@ -434,7 +434,7 @@ addTrust
 mTrust
 .
 emailFlags
-CERTDB_VALID_PEER
+CERTDB_TERMINAL_RECORD
 )
 ;
 if
@@ -560,7 +560,7 @@ addTrust
 mTrust
 .
 objectSigningFlags
-CERTDB_VALID_PEER
+CERTDB_TERMINAL_RECORD
 )
 ;
 if
@@ -1076,7 +1076,7 @@ hasTrust
 mTrust
 .
 sslFlags
-CERTDB_VALID_PEER
+CERTDB_TERMINAL_RECORD
 )
 )
 return
@@ -1093,7 +1093,7 @@ hasTrust
 mTrust
 .
 emailFlags
-CERTDB_VALID_PEER
+CERTDB_TERMINAL_RECORD
 )
 )
 return
@@ -1110,7 +1110,7 @@ hasTrust
 mTrust
 .
 objectSigningFlags
-CERTDB_VALID_PEER
+CERTDB_TERMINAL_RECORD
 )
 )
 return

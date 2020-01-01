@@ -936,8 +936,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 {
 namespace_equality
 NULL
@@ -1454,8 +1452,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 JS_FinalizeStub
-NULL
-NULL
 NULL
 NULL
 NULL
@@ -26670,8 +26666,6 @@ xml_finalize
 NULL
 NULL
 NULL
-NULL
-NULL
 xml_hasInstance
 xml_trace
 JS_NULL_CLASS_EXT
@@ -39739,8 +39733,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 xmlfilter_finalize
-NULL
-NULL
 NULL
 NULL
 NULL

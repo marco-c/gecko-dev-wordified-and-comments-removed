@@ -1574,8 +1574,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 WeakMap_mark
 }
 ;

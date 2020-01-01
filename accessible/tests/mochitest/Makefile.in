@@ -426,6 +426,8 @@ actions
 \
 attributes
 \
+bounds
+\
 editabletext
 \
 elm
@@ -433,6 +435,8 @@ elm
 events
 \
 focus
+\
+hittest
 \
 hyperlink
 \
@@ -605,14 +609,6 @@ html
 test_bug420863
 .
 html
-\
-test_childAtPoint
-.
-html
-\
-test_childAtPoint
-.
-xul
 \
 test_descr
 .

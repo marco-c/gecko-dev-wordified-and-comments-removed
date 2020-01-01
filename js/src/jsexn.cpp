@@ -305,8 +305,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 exn_trace
 }
 ;
