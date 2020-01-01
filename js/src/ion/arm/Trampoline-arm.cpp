@@ -250,7 +250,7 @@ token
 ;
 JSObject
 *
-evalScopeChain
+scopeChain
 ;
 Value
 *
@@ -322,13 +322,13 @@ vp
 ;
 const
 Address
-slot_evalScopeChain
+slot_scopeChain
 (
 sp
 offsetof
 (
 EnterJITStack
-evalScopeChain
+scopeChain
 )
 )
 ;
@@ -483,7 +483,7 @@ masm
 .
 loadPtr
 (
-slot_evalScopeChain
+slot_scopeChain
 r11
 )
 ;

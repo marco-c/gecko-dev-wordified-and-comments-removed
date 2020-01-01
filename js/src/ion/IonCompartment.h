@@ -85,7 +85,7 @@ CalleeToken
 calleeToken
 JSObject
 *
-evalScopeChain
+scopeChain
 Value
 *
 vp
