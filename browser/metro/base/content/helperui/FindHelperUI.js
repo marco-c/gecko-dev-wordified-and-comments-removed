@@ -144,9 +144,7 @@ document
 getElementById
 (
 "
-find
--
-helper
+findbar
 -
 textbox
 "
@@ -158,7 +156,7 @@ _container
 =
 Elements
 .
-contentNavigator
+findbar
 ;
 this
 .
