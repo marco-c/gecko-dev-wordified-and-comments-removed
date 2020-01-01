@@ -1861,13 +1861,6 @@ generic
 Makefile
 layout
 /
-html
-/
-tests
-/
-Makefile
-layout
-/
 inspector
 /
 public
