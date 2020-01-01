@@ -95,7 +95,7 @@ interface
 WindowProxy
 ;
 interface
-KeyEvent
+KeyboardEvent
 :
 UIEvent
 {

@@ -25,7 +25,7 @@ mozilla
 /
 dom
 /
-KeyEventBinding
+KeyboardEventBinding
 .
 h
 "
@@ -94,7 +94,7 @@ mozilla
 dom
 :
 :
-KeyEventBinding
+KeyboardEventBinding
 :
 :
 Wrap

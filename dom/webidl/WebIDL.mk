@@ -659,7 +659,7 @@ InspectorUtils
 .
 webidl
 \
-KeyEvent
+KeyboardEvent
 .
 webidl
 \
