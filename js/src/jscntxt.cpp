@@ -1064,7 +1064,7 @@ cx
 GC
 (
 cx
-NULL
+true
 GC_NORMAL
 gcreason
 :
@@ -1094,7 +1094,7 @@ gcRunning
 GC
 (
 cx
-NULL
+true
 GC_NORMAL
 gcreason
 :
@@ -3864,7 +3864,7 @@ cx
 rt
 -
 >
-gcTriggerCompartment
+gcFullIsNeeded
 GC_NORMAL
 rt
 -
