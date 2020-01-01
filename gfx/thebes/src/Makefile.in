@@ -118,6 +118,10 @@ gfxUserFontSet
 .
 cpp
 \
+gfxUtils
+.
+cpp
+\
 GLContext
 .
 cpp

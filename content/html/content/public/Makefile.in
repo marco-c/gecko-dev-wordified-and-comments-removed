@@ -494,6 +494,10 @@ nsHTMLAudioElement
 .
 h
 \
+nsHTMLCanvasElement
+.
+h
+\
 nsHTMLMediaElement
 .
 h

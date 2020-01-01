@@ -86,7 +86,7 @@ class
 nsIImageLoadingContent
 ;
 class
-nsICanvasElement
+nsICanvasElementExternal
 ;
 class
 nsBaseDragService
@@ -169,7 +169,7 @@ aPresContext
 nsIImageLoadingContent
 *
 aImageLoader
-nsICanvasElement
+nsICanvasElementExternal
 *
 aCanvas
 PRInt32

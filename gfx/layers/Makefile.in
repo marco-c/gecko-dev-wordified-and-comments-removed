@@ -506,6 +506,10 @@ ImageLayerOGL
 .
 cpp
 \
+CanvasLayerOGL
+.
+cpp
+\
 (
 NULL
 )

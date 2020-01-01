@@ -38,10 +38,13 @@ GLContext
 GLContextProvider
 :
 :
-CreatePbuffer
+CreatePBuffer
 (
 const
-gfxSize
+gfxIntSize
+&
+const
+ContextFormat
 &
 )
 {
