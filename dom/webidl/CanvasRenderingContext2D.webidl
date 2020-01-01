@@ -166,9 +166,6 @@ interface
 HitRegionOptions
 ;
 interface
-HTMLCanvasElement
-;
-interface
 TextMetrics
 ;
 interface

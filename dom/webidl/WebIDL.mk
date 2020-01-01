@@ -363,6 +363,10 @@ HTMLButtonElement
 .
 webidl
 \
+HTMLCanvasElement
+.
+webidl
+\
 HTMLCollection
 .
 webidl
