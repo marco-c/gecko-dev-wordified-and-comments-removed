@@ -712,16 +712,6 @@ degrees
 %
 360
 ;
-result
-=
-(
-360
--
-result
-)
-%
-360
-;
 }
 else
 {

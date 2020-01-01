@@ -2732,16 +2732,6 @@ __FUNCTION__
 ;
 }
 }
-rotation
-=
-(
-360
--
-rotation
-)
-%
-360
-;
 switch
 (
 rotation
