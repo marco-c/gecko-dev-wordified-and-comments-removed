@@ -136,6 +136,15 @@ WM_MOUSEHWHEEL
 endif
 #
 ifndef
+MOUSEEVENTF_HWHEEL
+#
+define
+MOUSEEVENTF_HWHEEL
+0x01000
+#
+endif
+#
+ifndef
 WM_MOUSELEAVE
 #
 define
