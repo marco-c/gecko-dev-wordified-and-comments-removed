@@ -1401,7 +1401,7 @@ fVersion
 =
 NULL
 )
-PL_strfree
+PR_smprintf_free
 (
 info
 .
