@@ -289,6 +289,8 @@ reply
 Message
 *
 reply
+=
+0
 ;
 mProcessingSyncMessage
 =
