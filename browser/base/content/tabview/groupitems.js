@@ -3057,7 +3057,7 @@ this
 ;
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -4647,7 +4647,7 @@ self
 ;
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -4679,7 +4679,7 @@ self
 ;
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -5798,7 +5798,7 @@ this
 ;
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -6049,7 +6049,7 @@ id
 ;
 GroupItems
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -7399,7 +7399,7 @@ newGroupItem
 ;
 this
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
@@ -7576,7 +7576,7 @@ _activeOrphanTab
 tabItem
 ;
 }
-updateTabBarForActiveGroupItem
+updateTabBar
 :
 function
 (
@@ -8219,7 +8219,7 @@ shouldUpdateTabBar
 )
 this
 .
-updateTabBarForActiveGroupItem
+updateTabBar
 (
 )
 ;
