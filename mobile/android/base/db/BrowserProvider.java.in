@@ -4451,6 +4451,12 @@ return
 deleted
 ;
 }
+SuppressWarnings
+(
+"
+fallthrough
+"
+)
 public
 int
 deleteInTransaction
@@ -5794,6 +5800,12 @@ return
 updated
 ;
 }
+SuppressWarnings
+(
+"
+fallthrough
+"
+)
 public
 int
 updateInTransaction

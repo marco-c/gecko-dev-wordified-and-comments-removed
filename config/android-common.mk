@@ -572,7 +572,7 @@ JAVA_BOOTCLASSPATH
 \
 -
 encoding
-ascii
+UTF8
 \
 -
 g
