@@ -7811,6 +7811,8 @@ mSeekTime
 mBasePosition
 =
 mSeekTime
+-
+mStartTime
 ;
 LOG
 (
@@ -13895,6 +13897,8 @@ DECODER_STATE_SEEKING
 mBasePosition
 =
 mSeekTime
+-
+mStartTime
 ;
 }
 else
@@ -13909,8 +13913,6 @@ GetVideoStreamPosition
 mPlayDuration
 =
 mBasePosition
--
-mStartTime
 ;
 mResetPlayStartTime
 =
