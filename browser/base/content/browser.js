@@ -7786,6 +7786,12 @@ interfaces
 nsIPrefBranch2
 )
 ;
+BrowserOffline
+.
+init
+(
+)
+;
 gSanitizeListener
 =
 new
@@ -7806,6 +7812,12 @@ gSanitizeListener
 gSanitizeListener
 .
 shutdown
+(
+)
+;
+BrowserOffline
+.
+uninit
 (
 )
 ;
