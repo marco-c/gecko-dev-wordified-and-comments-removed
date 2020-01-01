@@ -2091,7 +2091,7 @@ AllowUploadProgress
 )
 ;
 void
-RootResultArrayBuffer
+RootJSResultObjects
 (
 )
 ;
