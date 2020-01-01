@@ -365,6 +365,9 @@ std
 :
 :
 max
+<
+T
+>
 (
 x
 aRect
@@ -380,6 +383,9 @@ std
 :
 :
 max
+<
+T
+>
 (
 y
 aRect
@@ -395,6 +401,9 @@ std
 :
 :
 min
+<
+T
+>
 (
 XMost
 (
@@ -418,6 +427,9 @@ std
 :
 :
 min
+<
+T
+>
 (
 YMost
 (
