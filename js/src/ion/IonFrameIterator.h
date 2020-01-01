@@ -45,6 +45,7 @@ IonFrame_Entry
 IonFrame_Rectifier
 IonFrame_Bailed_Rectifier
 IonFrame_Exit
+IonFrame_Osr
 }
 ;
 class

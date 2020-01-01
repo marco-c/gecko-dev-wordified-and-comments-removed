@@ -244,7 +244,7 @@ size_t
 frameSizeOut
 )
 ;
-JSBool
+uint32
 ThunkToInterpreter
 (
 Value
