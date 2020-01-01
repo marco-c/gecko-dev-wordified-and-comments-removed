@@ -898,10 +898,6 @@ browser_contextSearchTabPosition
 .
 js
 \
-browser_CTP_context_menu
-.
-js
-\
 browser_CTP_drag_drop
 .
 js
