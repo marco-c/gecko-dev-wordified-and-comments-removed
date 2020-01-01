@@ -274,7 +274,7 @@ cocoa
 MOZ_WIDGET_TOOLKIT
 )
 )
-CMMSRCS
+DISABLED_CMMSRCS
 +
 =
 progressui_osx

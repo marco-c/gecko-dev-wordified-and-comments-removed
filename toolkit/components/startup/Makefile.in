@@ -94,7 +94,7 @@ cocoa
 MOZ_WIDGET_TOOLKIT
 )
 )
-CMMSRCS
+DISABLE_CMMSRCS
 +
 =
 nsUserInfoMac

@@ -178,7 +178,7 @@ OS_ARCH
 )
 Darwin
 )
-CMMSRCS
+DISABLED_CMMSRCS
 +
 =
 \

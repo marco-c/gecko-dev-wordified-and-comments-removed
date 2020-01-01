@@ -154,7 +154,7 @@ m
 (
 NULL
 )
-CMMSRCS
+DISABLED_CMMSRCS
 =
 \
 MachIPC

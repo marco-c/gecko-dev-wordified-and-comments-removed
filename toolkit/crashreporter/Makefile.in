@@ -92,7 +92,7 @@ OS_ARCH
 )
 Darwin
 )
-CMMSRCS
+DISABLED_CMMSRCS
 =
 mac_utils
 .
