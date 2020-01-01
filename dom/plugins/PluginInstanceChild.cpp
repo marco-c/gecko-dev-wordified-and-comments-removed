@@ -8621,7 +8621,7 @@ instance
 GetNPP
 (
 )
-mURL
+url
 .
 get
 (

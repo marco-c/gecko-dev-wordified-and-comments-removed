@@ -2807,6 +2807,7 @@ doPost
 postData
 writeCallback
 notifyCallback
+redirectCallback
 allowRedirects
 )
 function
@@ -2892,6 +2893,17 @@ with
 the
 notify
 result
+redirectCallback
+will
+be
+called
+from
+urlredirectnotify
+if
+a
+redirect
+is
+attempted
 allowRedirects
 boolean
 value
