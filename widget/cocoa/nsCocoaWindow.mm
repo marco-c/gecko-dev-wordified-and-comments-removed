@@ -14129,8 +14129,11 @@ mColor
 mBackgroundColor
 =
 [
+[
 NSColor
 whiteColor
+]
+retain
 ]
 ;
 mUnifiedToolbarHeight
