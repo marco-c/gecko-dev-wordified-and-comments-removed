@@ -644,7 +644,7 @@ config
 /
 makefiles
 /
-xpidl
+precompile
 \
 n
 '
@@ -663,15 +663,10 @@ NONRECURSIVE_TARGETS_export_xpidl_TARGETS
 '
                 
 '
-xpt
-/
-%
-s
+xpidl
+\
+n
 '
-%
-self
-.
-xpt_name
 )
         
 return
