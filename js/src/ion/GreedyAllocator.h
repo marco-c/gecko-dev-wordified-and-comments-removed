@@ -657,9 +657,6 @@ out
 Mover
 restores
 ;
-Mover
-phis
-;
 }
 ;
 private
