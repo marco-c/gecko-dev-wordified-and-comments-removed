@@ -455,10 +455,6 @@ browser_inspector_scrolling
 .
 js
 \
-browser_inspector_store
-.
-js
-\
 browser_inspector_tab_switch
 .
 js
