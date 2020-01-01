@@ -96,8 +96,9 @@ public
 :
 nsCacheEntry
 (
-nsCString
-*
+const
+nsACString
+&
 key
 bool
 streamBased
@@ -138,6 +139,7 @@ Key
 )
 {
 return
+&
 mKey
 ;
 }
@@ -244,17 +246,10 @@ Size
 (
 )
 +
-(
 mKey
-?
-mKey
--
->
+.
 Length
 (
-)
-:
-0
 )
 ;
 }
@@ -1189,7 +1184,6 @@ eActiveMask
 ;
 }
 nsCString
-*
 mKey
 ;
 PRUint32

@@ -2530,7 +2530,7 @@ useOffMainThreadCompositing
 mSubprocess
 -
 >
-SyncLaunch
+LaunchAndWaitForProcessHandle
 (
 )
 ;

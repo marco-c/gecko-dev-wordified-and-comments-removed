@@ -393,6 +393,11 @@ NS_SVGDisplayListPaintingEnabled
 (
 )
 ;
+bool
+NS_SVGTextCSSFramesEnabled
+(
+)
+;
 class
 SVGBBox
 {

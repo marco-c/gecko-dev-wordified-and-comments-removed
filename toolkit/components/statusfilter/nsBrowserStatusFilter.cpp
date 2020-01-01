@@ -927,7 +927,7 @@ OnStatusChange
 (
 nullptr
 nullptr
-0
+NS_OK
 mStatusMsg
 .
 get
