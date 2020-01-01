@@ -1790,6 +1790,10 @@ Item
 4
 )
 ;
+#
+ifdef
+DEBUG
+{
 const
 nsCSSValue
 &
@@ -1844,6 +1848,9 @@ failed
 "
 )
 ;
+}
+#
+endif
 if
 (
 color1
