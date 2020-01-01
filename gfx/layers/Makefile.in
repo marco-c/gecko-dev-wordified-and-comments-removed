@@ -584,6 +584,10 @@ ReusableTileStoreOGL
 .
 cpp
 \
+LayerManagerOGLProgram
+.
+cpp
+\
 LayerSorter
 .
 cpp

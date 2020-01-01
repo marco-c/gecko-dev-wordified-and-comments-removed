@@ -927,7 +927,7 @@ aTile
 mTextureHandle
 )
 ;
-ColorTextureLayerProgram
+ShaderProgramOGL
 *
 program
 ;
@@ -946,8 +946,12 @@ program
 mOGLManager
 -
 >
-GetRGBXLayerProgram
+GetProgram
 (
+gl
+:
+:
+RGBXLayerProgramType
 )
 ;
 }
@@ -958,8 +962,12 @@ program
 mOGLManager
 -
 >
-GetBGRALayerProgram
+GetProgram
 (
+gl
+:
+:
+BGRARectLayerProgramType
 )
 ;
 }
