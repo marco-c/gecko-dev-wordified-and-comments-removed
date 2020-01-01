@@ -1007,9 +1007,9 @@ mozilla
 .
 com
 "
-pie
+forceAuthentication
 :
-42
+true
 someThing
 :
 {
