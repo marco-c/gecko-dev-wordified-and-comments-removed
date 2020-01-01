@@ -1839,6 +1839,16 @@ pref
 "
 browser
 .
+history_expire_days
+"
+180
+)
+;
+pref
+(
+"
+browser
+.
 link
 .
 open_external
