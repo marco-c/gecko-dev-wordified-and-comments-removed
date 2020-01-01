@@ -79,10 +79,6 @@ mk
 MODULE
 =
 xpcom
-DIRS
-=
-xpt
-xpidl
 include
 (
 topsrcdir

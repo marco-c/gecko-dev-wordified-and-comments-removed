@@ -79,10 +79,6 @@ mk
 MODULE
 =
 xpcom
-DIRS
-=
-public
-src
 include
 (
 topsrcdir
