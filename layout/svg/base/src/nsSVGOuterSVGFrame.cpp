@@ -316,9 +316,8 @@ kid
 aFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

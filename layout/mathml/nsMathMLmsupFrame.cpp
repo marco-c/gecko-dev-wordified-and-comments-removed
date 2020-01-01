@@ -294,9 +294,8 @@ baseFrame
 aFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if

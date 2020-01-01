@@ -1683,9 +1683,8 @@ mInnerFrame
 mOuterFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 NS_ASSERTION
@@ -13937,9 +13936,8 @@ scrollingChild
 container
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 nsIScrollableFrame

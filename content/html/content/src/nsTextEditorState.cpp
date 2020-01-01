@@ -7176,9 +7176,8 @@ do_QueryFrame
 mBoundFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 )
 ;
@@ -7385,9 +7384,8 @@ do_QueryFrame
 mBoundFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 )
 )

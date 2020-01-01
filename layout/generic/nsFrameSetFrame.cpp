@@ -2064,9 +2064,8 @@ nsHTMLFramesetFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -2074,8 +2073,10 @@ aChildList
 {
 if
 (
-!
-aListName
+aListID
+=
+=
+kPrincipalList
 &
 &
 aChildList
@@ -2095,7 +2096,7 @@ nsHTMLContainerFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;

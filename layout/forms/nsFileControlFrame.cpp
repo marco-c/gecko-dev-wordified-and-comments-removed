@@ -2800,9 +2800,8 @@ childFrame
 aStart
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

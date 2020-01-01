@@ -6000,9 +6000,8 @@ frame
 frame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 frame

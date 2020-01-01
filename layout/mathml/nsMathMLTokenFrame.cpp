@@ -474,9 +474,8 @@ nsMathMLTokenFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -490,7 +489,7 @@ nsMathMLContainerFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;
@@ -582,9 +581,8 @@ nsIFrame
 *
 childFrame
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while
@@ -632,9 +630,8 @@ rv
 {
 DidReflowChildren
 (
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 childFrame
 )
@@ -714,9 +711,8 @@ nsIFrame
 *
 childFrame
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 childFrame
@@ -849,9 +845,8 @@ nsIFrame
 *
 childFrame
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 childFrame
@@ -1380,9 +1375,8 @@ textFrame
 aFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if

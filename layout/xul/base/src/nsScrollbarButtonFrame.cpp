@@ -941,9 +941,8 @@ childFrame
 start
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

@@ -974,9 +974,8 @@ grandKid
 kid
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 grandKid

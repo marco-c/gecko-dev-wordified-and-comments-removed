@@ -3674,9 +3674,8 @@ child
 aCurrFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

@@ -279,9 +279,8 @@ nsFirstLetterFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -1405,10 +1404,7 @@ parent
 >
 InsertFrames
 (
-nsGkAtoms
-:
-:
-nextBidi
+kNoReflowPrincipalList
 placeholderFrame
 temp
 )

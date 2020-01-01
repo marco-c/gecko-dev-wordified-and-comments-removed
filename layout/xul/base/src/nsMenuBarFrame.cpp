@@ -826,9 +826,8 @@ currFrame
 immediateParent
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

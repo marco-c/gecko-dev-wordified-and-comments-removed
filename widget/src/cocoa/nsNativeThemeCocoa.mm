@@ -9188,9 +9188,8 @@ childFrame
 aFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 childFrame

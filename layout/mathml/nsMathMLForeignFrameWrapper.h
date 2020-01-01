@@ -78,9 +78,8 @@ NS_DEBUG
 NS_IMETHOD
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -122,7 +121,7 @@ nsBlockFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;
@@ -150,9 +149,8 @@ aStatus
 NS_IMETHOD
 AppendFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aFrameList
@@ -173,9 +171,8 @@ NS_ERROR_NOT_IMPLEMENTED
 NS_IMETHOD
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -199,9 +196,8 @@ NS_ERROR_NOT_IMPLEMENTED
 NS_IMETHOD
 RemoveFrame
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aOldFrame
@@ -213,7 +209,7 @@ mParent
 >
 RemoveFrame
 (
-aListName
+aListID
 this
 )
 ;

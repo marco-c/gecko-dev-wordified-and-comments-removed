@@ -4056,9 +4056,8 @@ iterNextFrame
 iterFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 }

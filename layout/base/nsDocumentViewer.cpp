@@ -14258,9 +14258,8 @@ pageFrame
 seqFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

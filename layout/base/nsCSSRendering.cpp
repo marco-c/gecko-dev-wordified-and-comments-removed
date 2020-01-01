@@ -2897,9 +2897,8 @@ frameForArea
 frameForArea
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 NS_ASSERTION
@@ -10741,9 +10740,8 @@ geometryFrame
 aForFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if

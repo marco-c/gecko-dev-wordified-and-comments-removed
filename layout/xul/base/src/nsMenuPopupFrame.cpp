@@ -1081,9 +1081,8 @@ mGeneratedChildren
 &
 &
 !
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 "
 Creating
@@ -1650,9 +1649,8 @@ nsMenuPopupFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -1676,7 +1674,7 @@ nsBoxFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;
@@ -6638,9 +6636,8 @@ childFrame
 currFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 nsIScrollableFrame
@@ -7363,9 +7360,8 @@ currFrame
 immediateParent
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 PRInt32

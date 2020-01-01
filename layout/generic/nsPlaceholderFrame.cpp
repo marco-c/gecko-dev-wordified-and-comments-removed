@@ -470,9 +470,8 @@ oof
 )
 )
 {
-nsIAtom
-*
-listName
+ChildListID
+listId
 =
 nsLayoutUtils
 :
@@ -492,7 +491,7 @@ FrameManager
 >
 RemoveFrame
 (
-listName
+listId
 oof
 )
 ;

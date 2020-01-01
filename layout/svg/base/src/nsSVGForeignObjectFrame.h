@@ -137,9 +137,8 @@ GetContentInsertionFrame
 )
 {
 return
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 -
 >

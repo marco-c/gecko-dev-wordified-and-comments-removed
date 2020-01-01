@@ -4702,7 +4702,7 @@ mDisplayFrame
 >
 SetInitialChildList
 (
-nsnull
+kPrincipalList
 textList
 )
 ;
@@ -4923,9 +4923,8 @@ nsComboboxControlFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -4938,13 +4937,10 @@ NS_OK
 ;
 if
 (
-nsGkAtoms
-:
-:
-selectPopupList
+kSelectPopupList
 =
 =
-aListName
+aListID
 )
 {
 mPopupFrames
@@ -5051,7 +5047,7 @@ nsBlockFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;

@@ -2751,9 +2751,8 @@ siblingList
 mParentBox
 -
 >
-GetChildList
+PrincipalChildList
 (
-nsnull
 )
 )
 ;

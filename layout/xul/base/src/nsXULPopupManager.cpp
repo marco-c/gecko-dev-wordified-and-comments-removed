@@ -9224,9 +9224,8 @@ currFrame
 immediateParent
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while
@@ -9292,9 +9291,8 @@ currFrame
 immediateParent
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while
@@ -9437,9 +9435,8 @@ frames
 immediateParent
 -
 >
-GetChildList
+PrincipalChildList
 (
-nsnull
 )
 )
 ;

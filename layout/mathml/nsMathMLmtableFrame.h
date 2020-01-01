@@ -189,9 +189,8 @@ aContext
 NS_IMETHOD
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -200,9 +199,8 @@ aChildList
 NS_IMETHOD
 AppendFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aFrameList
@@ -216,7 +214,7 @@ nsTableFrame
 :
 AppendFrames
 (
-aListName
+aListID
 aFrameList
 )
 ;
@@ -231,9 +229,8 @@ rv
 NS_IMETHOD
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -250,7 +247,7 @@ nsTableFrame
 :
 InsertFrames
 (
-aListName
+aListID
 aPrevFrame
 aFrameList
 )
@@ -266,9 +263,8 @@ rv
 NS_IMETHOD
 RemoveFrame
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aOldFrame
@@ -282,7 +278,7 @@ nsTableFrame
 :
 RemoveFrame
 (
-aListName
+aListID
 aOldFrame
 )
 ;
@@ -386,9 +382,8 @@ aModType
 NS_IMETHOD
 AppendFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aFrameList
@@ -402,7 +397,7 @@ nsTableRowFrame
 :
 AppendFrames
 (
-aListName
+aListID
 aFrameList
 )
 ;
@@ -417,9 +412,8 @@ rv
 NS_IMETHOD
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -436,7 +430,7 @@ nsTableRowFrame
 :
 InsertFrames
 (
-aListName
+aListID
 aPrevFrame
 aFrameList
 )
@@ -452,9 +446,8 @@ rv
 NS_IMETHOD
 RemoveFrame
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aOldFrame
@@ -468,7 +461,7 @@ nsTableRowFrame
 :
 RemoveFrame
 (
-aListName
+aListID
 aOldFrame
 )
 ;

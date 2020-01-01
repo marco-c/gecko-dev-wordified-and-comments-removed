@@ -192,9 +192,8 @@ DescendIntoBlockLevelFrame
 aFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 )
 ;

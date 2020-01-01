@@ -2404,9 +2404,8 @@ conFrame
 mCurrentPageFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if
@@ -3035,9 +3034,8 @@ nsIFrame
 *
 child
 =
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 while

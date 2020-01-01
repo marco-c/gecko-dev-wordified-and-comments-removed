@@ -378,10 +378,10 @@ viewportFrame
 >
 GetChildList
 (
-nsGkAtoms
+nsIFrame
 :
 :
-fixedList
+kFixedList
 )
 .
 IsEmpty

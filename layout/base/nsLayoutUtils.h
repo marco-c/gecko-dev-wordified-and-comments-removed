@@ -207,8 +207,10 @@ aResult
 )
 ;
 static
-nsIAtom
-*
+nsIFrame
+:
+:
+ChildListID
 GetChildListNameFor
 (
 nsIFrame

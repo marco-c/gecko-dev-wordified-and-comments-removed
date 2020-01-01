@@ -4713,9 +4713,8 @@ subDocRoot
 scrolled
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 }

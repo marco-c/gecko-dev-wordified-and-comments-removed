@@ -254,9 +254,8 @@ nsSVGTextContainerFrame
 :
 InsertFrames
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aPrevFrame
@@ -273,7 +272,7 @@ nsSVGDisplayContainerFrame
 :
 InsertFrames
 (
-aListName
+aListID
 aPrevFrame
 aFrameList
 )
@@ -292,9 +291,8 @@ nsSVGTextContainerFrame
 :
 RemoveFrame
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsIFrame
 *
 aOldFrame
@@ -316,7 +314,7 @@ nsSVGDisplayContainerFrame
 :
 RemoveFrame
 (
-aListName
+aListID
 aOldFrame
 )
 ;

@@ -1066,9 +1066,8 @@ childframe
 containerFrame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 if
@@ -1432,9 +1431,8 @@ option
 aContainer
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 ;
 option
@@ -3689,9 +3687,8 @@ nsListControlFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -3729,7 +3726,7 @@ nsHTMLScrollFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;

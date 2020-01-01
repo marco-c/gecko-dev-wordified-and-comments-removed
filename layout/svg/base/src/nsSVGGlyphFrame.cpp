@@ -4288,9 +4288,8 @@ textPath
 textPath
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 =
 =
@@ -5862,9 +5861,8 @@ svgTextPathFrame
 frame
 -
 >
-GetFirstChild
+GetFirstPrincipalChild
 (
-nsnull
 )
 =
 =

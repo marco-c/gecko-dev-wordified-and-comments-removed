@@ -839,9 +839,8 @@ nsMathMLmactionFrame
 :
 SetInitialChildList
 (
-nsIAtom
-*
-aListName
+ChildListID
+aListID
 nsFrameList
 &
 aChildList
@@ -855,7 +854,7 @@ nsMathMLContainerFrame
 :
 SetInitialChildList
 (
-aListName
+aListID
 aChildList
 )
 ;
