@@ -11311,7 +11311,7 @@ int32_t
 obj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 )
