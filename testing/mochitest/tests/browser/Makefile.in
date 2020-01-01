@@ -93,6 +93,10 @@ browser_pass
 .
 js
 \
+browser_add_task
+.
+js
+\
 browser_async
 .
 js
@@ -140,6 +144,11 @@ js
 \
 #
 browser_fail
+.
+js
+\
+#
+browser_fail_add_task
 .
 js
 \
