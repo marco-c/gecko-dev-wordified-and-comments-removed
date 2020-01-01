@@ -1103,7 +1103,7 @@ typeaheadfind
 .
 casesensitive
 "
-false
+0
 )
 ;
 pref
