@@ -2302,6 +2302,15 @@ self
 _automation
 .
 DEFAULT_WEBSOCKET_PORT
+options
+.
+webSocketProxyPort
+=
+self
+.
+_automation
+.
+DEFAULT_WEBSOCKET_PROXY_PORT
 if
 options
 .
@@ -5926,6 +5935,9 @@ sslPort
 options
 .
 webSocketPort
+options
+.
+webSocketProxyPort
 )
 sys
 .
