@@ -59,7 +59,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGTextContainerFrame
+nsSVGTSpanFrameBase
 (
 aContext
 )

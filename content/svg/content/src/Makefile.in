@@ -465,6 +465,10 @@ nsSVGAElement
 .
 cpp
 \
+nsSVGAltGlyphElement
+.
+cpp
+\
 nsSVGAngle
 .
 cpp
@@ -706,6 +710,10 @@ nsSVGTextElement
 cpp
 \
 nsSVGTextPathElement
+.
+cpp
+\
+nsSVGTextPositioningElement
 .
 cpp
 \

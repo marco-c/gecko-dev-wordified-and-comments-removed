@@ -581,6 +581,10 @@ DOMCI_CLASS
 (
 SVGAElement
 )
+DOMCI_CLASS
+(
+SVGAltGlyphElement
+)
 #
 ifdef
 MOZ_SMIL
