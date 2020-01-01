@@ -743,6 +743,16 @@ _initialized
 return
 ;
 }
+if
+(
+DownloadsPanel
+.
+isPanelShowing
+)
+{
+return
+;
+}
 function
 DIV_SEN_callback
 (
