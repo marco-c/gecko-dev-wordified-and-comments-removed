@@ -4054,6 +4054,10 @@ thisFromCtor
 (
 )
 )
+sizeOfNonHeapAsmJSArrays_
+(
+0
+)
 #
 ifdef
 JS_THREADSAFE
