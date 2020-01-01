@@ -303,9 +303,6 @@ rsa_rc2_40_md5
 false
 )
 ;
-#
-ifndef
-WINCE
 pref
 (
 "
@@ -378,8 +375,6 @@ rsa_camellia_128_sha
 true
 )
 ;
-#
-endif
 pref
 (
 "

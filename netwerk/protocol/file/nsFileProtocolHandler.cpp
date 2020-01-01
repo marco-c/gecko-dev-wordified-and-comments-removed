@@ -65,9 +65,6 @@ h
 ifdef
 XP_WIN
 #
-ifndef
-WINCE
-#
 include
 <
 shlobj
@@ -81,8 +78,6 @@ intshcut
 .
 h
 >
-#
-endif
 #
 include
 "
@@ -198,12 +193,6 @@ if
 _MSC_VER
 <
 1200
-|
-|
-defined
-(
-WINCE
-)
 return
 NS_ERROR_NOT_AVAILABLE
 ;

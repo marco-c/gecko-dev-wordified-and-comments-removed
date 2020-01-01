@@ -489,8 +489,6 @@ because
 libpref
 needs
 it
-ifndef
-WINCE
 ifneq
 (
 (
@@ -503,7 +501,6 @@ tier_necko_dirs
 modules
 /
 libreg
-endif
 endif
 tier_necko_dirs
 +
