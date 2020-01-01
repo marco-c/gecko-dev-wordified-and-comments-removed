@@ -433,12 +433,6 @@ InitContext
 )
 ;
 virtual
-nsresult
-InitOuterWindow
-(
-)
-;
-virtual
 bool
 IsContextInitialized
 (
