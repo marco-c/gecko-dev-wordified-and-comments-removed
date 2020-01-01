@@ -9064,6 +9064,16 @@ nsIDownloadManager
 :
 DOWNLOAD_DOWNLOADING
 :
+if
+(
+oldState
+=
+=
+nsIDownloadManager
+:
+:
+DOWNLOAD_QUEUED
+)
 mDownloadManager
 -
 >
