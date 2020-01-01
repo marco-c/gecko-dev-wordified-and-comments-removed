@@ -1839,7 +1839,7 @@ break
 case
 JSTRACE_TYPE_OBJECT
 :
-Mark
+MarkTypeObject
 (
 trc
 reinterpret_cast
@@ -1853,6 +1853,9 @@ TypeObject
 (
 thing
 )
+"
+type_stack
+"
 )
 ;
 break
