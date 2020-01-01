@@ -723,7 +723,7 @@ IndexOf
 (
 aWindow
 )
-!
+=
 =
 NoIndex
 )
