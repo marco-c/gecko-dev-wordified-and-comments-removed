@@ -80,7 +80,7 @@ savedFrame
 =
 dbg
 .
-getYoungestFrame
+getNewestFrame
 (
 )
 ;
