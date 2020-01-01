@@ -659,6 +659,7 @@ AllocPolicy
 class
 Vector
 :
+private
 AllocPolicy
 {
 static

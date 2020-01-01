@@ -33,6 +33,7 @@ AllocPolicy
 class
 HashTable
 :
+private
 AllocPolicy
 {
 typedef
