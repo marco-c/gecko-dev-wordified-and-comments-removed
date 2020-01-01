@@ -1807,7 +1807,7 @@ classDescription
 ]
 =
 "
-XPCComponents_Interfaces
+XPCComponents_InterfacesByID
 "
 ;
 *
@@ -3968,7 +3968,7 @@ classDescription
 ]
 =
 "
-XPCComponents_Interfaces
+XPCComponents_ClassesByID
 "
 ;
 *
@@ -5027,7 +5027,7 @@ classDescription
 ]
 =
 "
-XPCComponents_Interfaces
+XPCComponents_Results
 "
 ;
 *
@@ -5874,7 +5874,7 @@ classDescription
 ]
 =
 "
-XPCComponents_Interfaces
+XPCComponents_ID
 "
 ;
 *
@@ -6703,7 +6703,7 @@ classDescription
 ]
 =
 "
-XPCComponents_Interfaces
+XPCComponents_Exception
 "
 ;
 *
@@ -7863,7 +7863,7 @@ classDescription
 ]
 =
 "
-XPCComponents_Interfaces
+XPCConstructor
 "
 ;
 *
@@ -8883,7 +8883,7 @@ classDescription
 ]
 =
 "
-XPCComponents_Interfaces
+XPCComponents_Constructor
 "
 ;
 *
