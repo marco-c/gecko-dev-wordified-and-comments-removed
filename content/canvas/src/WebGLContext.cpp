@@ -281,6 +281,10 @@ aParentCanvas
 nsnull
 )
 {
+mCanvasElement
+=
+nsnull
+;
 return
 NS_OK
 ;
