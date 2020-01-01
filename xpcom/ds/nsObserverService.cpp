@@ -255,13 +255,7 @@ os
 |
 |
 !
-(
-(
-nsObserverService
-*
-)
 os
-)
 -
 >
 mObserverTopicTable

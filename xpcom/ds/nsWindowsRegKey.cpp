@@ -41,15 +41,6 @@ nsCOMPtr
 h
 "
 #
-ifndef
-REG_QWORD
-#
-define
-REG_QWORD
-11
-#
-endif
-#
 define
 MAX_KEY_NAME_LEN
 255
