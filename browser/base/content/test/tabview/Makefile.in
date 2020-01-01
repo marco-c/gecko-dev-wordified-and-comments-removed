@@ -664,7 +664,7 @@ browser_tabview_bug624265
 .
 js
 \
-browser_tabview_bug624931
+browser_tabview_bug624692
 .
 js
 \
@@ -673,6 +673,10 @@ browser_tabview_bug624727
 js
 \
 browser_tabview_bug624847
+.
+js
+\
+browser_tabview_bug624931
 .
 js
 \
@@ -801,6 +805,10 @@ browser_tabview_bug649307
 js
 \
 browser_tabview_bug651311
+.
+js
+\
+browser_tabview_bug654941
 .
 js
 \
