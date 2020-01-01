@@ -499,6 +499,8 @@ TestRPCRaces
 \
 TestRPCShutdownRace
 \
+TestRaceDeferral
+\
 TestRacyReentry
 \
 TestRacyRPCReplies

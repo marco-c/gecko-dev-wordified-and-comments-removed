@@ -73,6 +73,10 @@ PTestNestedLoops
 .
 ipdl
 \
+PTestRaceDeferral
+.
+ipdl
+\
 PTestRacyReentry
 .
 ipdl
