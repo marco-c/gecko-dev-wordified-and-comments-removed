@@ -971,6 +971,10 @@ jsinterp
 .
 h
 \
+jsinterpinlines
+.
+h
+\
 jsiter
 .
 h
@@ -1024,6 +1028,10 @@ jshash
 h
 \
 jslong
+.
+h
+\
+jstracerinlines
 .
 h
 \
@@ -1300,6 +1308,10 @@ jsscript
 cpp
 \
 jsstr
+.
+cpp
+\
+jstracer
 .
 cpp
 \

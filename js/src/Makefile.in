@@ -759,6 +759,10 @@ jsstr
 .
 cpp
 \
+jstracer
+.
+cpp
+\
 jsutil
 .
 cpp
@@ -879,6 +883,10 @@ jsinterp
 .
 h
 \
+jsinterpinlines
+.
+h
+\
 jsiter
 .
 h
@@ -956,6 +964,10 @@ jsstddef
 h
 \
 jsstr
+.
+h
+\
+jstracerinlines
 .
 h
 \
