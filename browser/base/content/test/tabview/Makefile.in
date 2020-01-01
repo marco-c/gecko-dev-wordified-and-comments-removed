@@ -516,6 +516,10 @@ browser_tabview_snapping
 .
 js
 \
+browser_tabview_startup_transitions
+.
+js
+\
 browser_tabview_undo_group
 .
 js

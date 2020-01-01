@@ -274,12 +274,6 @@ draggable
 (
 )
 ;
-this
-.
-snap
-(
-)
-;
 if
 (
 !
@@ -289,8 +283,11 @@ dontPush
 )
 this
 .
-pushAway
+snap
 (
+options
+.
+immediately
 )
 ;
 this

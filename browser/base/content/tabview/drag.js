@@ -1038,6 +1038,7 @@ stop
 function
 Drag_stop
 (
+immediately
 )
 {
 Trenches
@@ -1160,6 +1161,7 @@ item
 .
 pushAway
 (
+immediately
 )
 ;
 }
