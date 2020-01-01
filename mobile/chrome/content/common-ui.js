@@ -3998,10 +3998,10 @@ self
 .
 _zoom
 (
-this
+self
 .
 _currentElementRect
-this
+self
 .
 _currentCaretRect
 )
