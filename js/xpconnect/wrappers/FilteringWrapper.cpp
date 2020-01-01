@@ -690,11 +690,6 @@ WrapperFactory
 :
 :
 SCRIPT_ACCESS_ONLY_FLAG
-|
-WrapperFactory
-:
-:
-XOW_FLAG
 )
 ;
 template
@@ -710,11 +705,6 @@ WrapperFactory
 :
 :
 SCRIPT_ACCESS_ONLY_FLAG
-|
-WrapperFactory
-:
-:
-XOW_FLAG
 )
 ;
 template
@@ -730,11 +720,6 @@ WrapperFactory
 :
 :
 SCRIPT_ACCESS_ONLY_FLAG
-|
-WrapperFactory
-:
-:
-XOW_FLAG
 )
 ;
 template
@@ -750,11 +735,6 @@ WrapperFactory
 :
 :
 SCRIPT_ACCESS_ONLY_FLAG
-|
-WrapperFactory
-:
-:
-XOW_FLAG
 )
 ;
 template
