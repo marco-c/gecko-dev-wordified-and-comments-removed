@@ -140,6 +140,10 @@ ActivityResultHandlerMap
 .
 java
 \
+GeckoJarReader
+.
+java
+\
 INIParser
 .
 java
@@ -345,10 +349,6 @@ GeckoHalDefines
 java
 \
 GeckoInputConnection
-.
-java
-\
-GeckoJarReader
 .
 java
 \

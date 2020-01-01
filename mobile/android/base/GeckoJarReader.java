@@ -4,6 +4,8 @@ org
 mozilla
 .
 gecko
+.
+util
 ;
 import
 android
@@ -91,6 +93,7 @@ zip
 ZipInputStream
 ;
 public
+final
 class
 GeckoJarReader
 {
@@ -103,6 +106,12 @@ LOGTAG
 GeckoJarReader
 "
 ;
+private
+GeckoJarReader
+(
+)
+{
+}
 public
 static
 BitmapDrawable

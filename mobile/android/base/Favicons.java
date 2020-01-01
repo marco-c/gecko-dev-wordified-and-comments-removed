@@ -19,6 +19,17 @@ BrowserDB
 import
 org
 .
+mozilla
+.
+gecko
+.
+util
+.
+GeckoJarReader
+;
+import
+org
+.
 apache
 .
 http

@@ -173,6 +173,8 @@ mozilla
 .
 gecko
 .
+util
+.
 GeckoJarReader
 "
 )
