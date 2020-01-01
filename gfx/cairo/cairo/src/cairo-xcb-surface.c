@@ -2803,6 +2803,8 @@ abstract_surface
 cairo_surface_t
 *
 src
+cairo_content_t
+content
 int
 src_x
 int
@@ -4327,6 +4329,7 @@ dst
 -
 >
 base
+CAIRO_CONTENT_COLOR_ALPHA
 src_x
 src_y
 mask_x
@@ -5745,6 +5748,7 @@ dst
 -
 >
 base
+CAIRO_CONTENT_COLOR_ALPHA
 src_x
 src_y
 width
@@ -10157,6 +10161,7 @@ dst
 -
 >
 base
+CAIRO_CONTENT_COLOR_ALPHA
 0
 0
 1
@@ -10206,6 +10211,7 @@ dst
 -
 >
 base
+CAIRO_CONTENT_COLOR_ALPHA
 glyph_extents
 .
 x
