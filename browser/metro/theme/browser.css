@@ -1425,10 +1425,15 @@ viewstate
 snapped
 "
 ]
-richgrid
+.
+meta
+-
+section
 [
 expanded
 ]
+>
+richgrid
 {
 visibility
 :
