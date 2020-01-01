@@ -442,6 +442,15 @@ h
 "
 #
 endif
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 nsAccessibilityService
 *
 nsAccessibilityService
@@ -466,6 +475,8 @@ nsAccessibilityService
 (
 )
 {
+NS_TIME_FUNCTION
+;
 nsCOMPtr
 <
 nsIObserverService

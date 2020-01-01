@@ -197,6 +197,15 @@ Services
 h
 "
 #
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
 ifdef
 XP_MAC
 #
@@ -2629,6 +2638,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 NS_ASSERTION
 (
 !

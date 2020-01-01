@@ -160,6 +160,11 @@ internalClose
 (
 )
 ;
+nsCString
+getFilename
+(
+)
+;
 private
 :
 ~

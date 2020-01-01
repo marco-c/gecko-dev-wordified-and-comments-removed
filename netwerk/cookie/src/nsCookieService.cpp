@@ -217,6 +217,15 @@ storage
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 static
 const
 char
@@ -2235,6 +2244,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 if
 (
 !

@@ -440,6 +440,15 @@ nsITransferable
 h
 "
 #
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
 define
 NS_ERROR_EDITOR_NO_SELECTION
 NS_ERROR_GENERATE_FAILURE
@@ -4643,6 +4652,8 @@ SyncRealTimeSpell
 (
 )
 {
+NS_TIME_FUNCTION
+;
 PRBool
 enable
 =

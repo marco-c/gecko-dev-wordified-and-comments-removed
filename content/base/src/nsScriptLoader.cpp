@@ -241,6 +241,15 @@ nsChannelPolicy
 h
 "
 #
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 static
@@ -2808,6 +2817,8 @@ script
 ;
 nsAutoString
 textData
+;
+NS_TIME_FUNCTION
 ;
 if
 (

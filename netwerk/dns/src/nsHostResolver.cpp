@@ -183,6 +183,15 @@ nsURLHelper
 h
 "
 #
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
 define
 MAX_NON_PRIORITY_REQUESTS
 150
@@ -1421,6 +1430,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 mLock
 =
 PR_NewLock

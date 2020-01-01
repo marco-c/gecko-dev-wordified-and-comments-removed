@@ -66,6 +66,15 @@ nsZipArchive
 h
 "
 #
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
 define
 NBUCKETS
 6
@@ -1799,6 +1808,8 @@ BuildFileList
 (
 )
 {
+NS_TIME_FUNCTION
+;
 PRUint8
 *
 buf

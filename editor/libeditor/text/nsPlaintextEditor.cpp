@@ -278,6 +278,15 @@ nsCopySupport
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 nsresult
 NS_NewTextEditRules
 (
@@ -475,6 +484,8 @@ PRUint32
 aFlags
 )
 {
+NS_TIME_FUNCTION
+;
 NS_PRECONDITION
 (
 aDoc

@@ -75,6 +75,15 @@ punycode
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 static
 const
 PRUint32
@@ -177,6 +186,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 nsCOMPtr
 <
 nsIPrefService
