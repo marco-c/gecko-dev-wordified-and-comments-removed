@@ -1110,8 +1110,6 @@ MOZ_IMG_DECODERS
 )
 )
 )
-ifndef
-MOZ_ENABLE_GTK2
 DEFINES
 +
 =
@@ -1121,7 +1119,6 @@ COMPONENT_LIBS
 +
 =
 imgicon
-endif
 endif
 STATIC_LIBS
 +

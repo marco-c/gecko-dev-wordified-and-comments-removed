@@ -430,6 +430,9 @@ imgicon
 LIBRARY_NAME
 =
 imgicongtk_s
+LIBXUL_LIBRARY
+=
+1
 CPPSRCS
 =
 nsIconChannel

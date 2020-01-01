@@ -431,7 +431,7 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
-TOOL_DIRS
+DIRS
 =
 icon
 /
