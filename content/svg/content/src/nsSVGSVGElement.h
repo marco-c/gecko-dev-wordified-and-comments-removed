@@ -1167,6 +1167,12 @@ mPreserveAspectRatio
 ;
 nsAutoPtr
 <
+gfxMatrix
+>
+mFragmentIdentifierTransform
+;
+nsAutoPtr
+<
 nsString
 >
 mCurrentViewID
