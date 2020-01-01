@@ -240,6 +240,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 nsISimpleEnumerator
 .
 h
@@ -272,6 +281,10 @@ prtime
 .
 h
 "
+using
+namespace
+mozilla
+;
 namespace
 TestProtocols
 {
@@ -1419,6 +1432,9 @@ username
 "
 )
 ;
+unused
+<
+<
 fgets
 (
 buf
@@ -4111,6 +4127,9 @@ start
 "
 )
 ;
+unused
+<
+<
 scanf
 (
 "
