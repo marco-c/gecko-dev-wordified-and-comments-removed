@@ -12211,8 +12211,6 @@ inspector
 jsbytecode
 *
 pc
-bool
-overflowed
 )
 ;
 void
