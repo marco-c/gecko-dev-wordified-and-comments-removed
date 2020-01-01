@@ -16238,6 +16238,10 @@ wantComponents
 (
 true
 )
+wantXHRConstructor
+(
+false
+)
 proto
 (
 NULL
@@ -16249,6 +16253,9 @@ wantXrays
 ;
 bool
 wantComponents
+;
+bool
+wantXHRConstructor
 ;
 JSObject
 *
