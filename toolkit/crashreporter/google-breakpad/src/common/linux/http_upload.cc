@@ -41,15 +41,6 @@ easy
 .
 h
 >
-#
-include
-<
-curl
-/
-types
-.
-h
->
 namespace
 {
 static
