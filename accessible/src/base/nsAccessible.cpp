@@ -9366,6 +9366,7 @@ GetDefaultSubmitElement
 return
 Relation
 (
+mDoc
 formContent
 )
 ;
@@ -9615,6 +9616,7 @@ buttonEl
 return
 Relation
 (
+mDoc
 relatedContent
 )
 ;
@@ -9635,6 +9637,7 @@ RELATION_MEMBER_OF
 return
 Relation
 (
+mDoc
 GetAtomicRegion
 (
 )

@@ -2741,6 +2741,7 @@ rel
 .
 AppendTarget
 (
+mDoc
 GetLegend
 (
 )
@@ -3046,6 +3047,7 @@ rel
 .
 AppendTarget
 (
+mDoc
 Caption
 (
 )

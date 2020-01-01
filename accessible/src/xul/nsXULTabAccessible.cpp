@@ -482,6 +482,7 @@ rel
 .
 AppendTarget
 (
+mDoc
 tabpanelContent
 )
 ;
@@ -750,6 +751,7 @@ rel
 .
 AppendTarget
 (
+mDoc
 tabContent
 )
 ;
