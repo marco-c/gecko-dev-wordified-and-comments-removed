@@ -1593,9 +1593,9 @@ atom
 Parser
 *
 parser
-TreeContext
+SharedContext
 *
-tc
+sc
 )
 {
 ParseNode
@@ -1635,7 +1635,7 @@ pn
 >
 initCommon
 (
-tc
+sc
 )
 ;
 }
@@ -1755,6 +1755,9 @@ tc
 JS_CHECK_RECURSION
 (
 tc
+-
+>
+sc
 -
 >
 context
