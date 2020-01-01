@@ -375,6 +375,17 @@ StartClone
 (
 )
 ;
+nsresult
+CloneInternal
+(
+RefHandlingEnum
+aRefHandlingMode
+nsIURI
+*
+*
+aClone
+)
+;
 virtual
 nsresult
 EnsureFile
