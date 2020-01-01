@@ -1928,6 +1928,16 @@ false
 user_pref
 (
 "
+shell
+.
+checkDefaultClient
+"
+false
+)
+;
+user_pref
+(
+"
 browser
 .
 warnOnQuit

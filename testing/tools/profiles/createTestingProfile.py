@@ -190,6 +190,16 @@ true
 '
     
 '
+shell
+.
+checkDefaultClient
+'
+:
+'
+false
+'
+    
+'
 browser
 .
 EULA
