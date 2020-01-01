@@ -436,6 +436,10 @@ Image
 .
 cpp
 \
+DiscardTracker
+.
+cpp
+\
 imgContainer
 .
 cpp
@@ -457,10 +461,6 @@ imgRequestProxy
 cpp
 \
 imgTools
-.
-cpp
-\
-imgDiscardTracker
 .
 cpp
 \
