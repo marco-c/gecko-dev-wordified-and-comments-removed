@@ -12210,6 +12210,11 @@ GtkTextDirection
 direction
 )
 {
+cairo_new_path
+(
+cr
+)
+;
 switch
 (
 widget
