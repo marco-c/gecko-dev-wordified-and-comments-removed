@@ -22,9 +22,6 @@ class
 nsStyleContext
 ;
 struct
-nsRuleList
-;
-struct
 PLDHashTable
 ;
 class
@@ -1009,6 +1006,10 @@ nsIStyleRule
 *
 mRule
 ;
+nsRuleNode
+*
+mNextSibling
+;
 struct
 Key
 {
@@ -1219,7 +1220,7 @@ kTypeMask
 kHashType
 ;
 }
-nsRuleList
+nsRuleNode
 *
 ChildrenList
 (
@@ -1228,7 +1229,7 @@ ChildrenList
 return
 reinterpret_cast
 <
-nsRuleList
+nsRuleNode
 *
 >
 (
@@ -1236,7 +1237,7 @@ mChildrenTaggedPtr
 )
 ;
 }
-nsRuleList
+nsRuleNode
 *
 *
 ChildrenListPtr
@@ -1246,7 +1247,7 @@ ChildrenListPtr
 return
 reinterpret_cast
 <
-nsRuleList
+nsRuleNode
 *
 *
 >
@@ -1284,7 +1285,7 @@ kTypeMask
 void
 SetChildrenList
 (
-nsRuleList
+nsRuleNode
 *
 aList
 )
@@ -1373,10 +1374,6 @@ mDependentBits
 ;
 PRUint32
 mNoneBits
-;
-friend
-struct
-nsRuleList
 ;
 public
 :
