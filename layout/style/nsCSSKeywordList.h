@@ -2892,6 +2892,13 @@ spinner_downbutton
 )
 CSS_KEY
 (
+spinner
+-
+textfield
+spinner_textfield
+)
+CSS_KEY
+(
 scrollbarbutton
 -
 up

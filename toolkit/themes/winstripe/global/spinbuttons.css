@@ -28,6 +28,13 @@ xul
 ;
 spinbuttons
 {
+-
+moz
+-
+appearance
+:
+spinner
+;
 cursor
 :
 default
