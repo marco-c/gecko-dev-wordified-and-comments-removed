@@ -380,7 +380,7 @@ return
 NULL
 ;
 }
-memcpy
+js_memcpy
 (
 buffer
 +
