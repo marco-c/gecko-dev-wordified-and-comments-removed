@@ -415,8 +415,7 @@ xbl
 marquee
 ifdef
 ENABLE_TESTS
-DIRS
-+
+TOOL_DIRS
 =
 test
 endif
