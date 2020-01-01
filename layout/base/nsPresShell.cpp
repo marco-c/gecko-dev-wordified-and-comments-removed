@@ -21874,6 +21874,13 @@ scale
 scale
 )
 ;
+aThebesContext
+-
+>
+NudgeCurrentMatrixToIntegers
+(
+)
+;
 nsCOMPtr
 <
 nsIRenderingContext

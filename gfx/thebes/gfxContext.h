@@ -402,6 +402,11 @@ CurrentMatrix
 )
 const
 ;
+void
+NudgeCurrentMatrixToIntegers
+(
+)
+;
 gfxPoint
 DeviceToUser
 (
