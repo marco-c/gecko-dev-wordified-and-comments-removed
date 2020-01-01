@@ -506,6 +506,10 @@ browser_preferences_basic
 .
 js
 \
+browser_preferences_text
+.
+js
+\
 browser_sessionstore
 .
 js
