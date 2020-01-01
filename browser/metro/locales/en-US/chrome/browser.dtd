@@ -500,6 +500,16 @@ MENU
 <
 !
 ENTITY
+contextTextCut
+.
+label
+"
+Cut
+"
+>
+<
+!
+ENTITY
 contextTextCopy
 .
 label
