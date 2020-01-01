@@ -1102,6 +1102,9 @@ NEXT_FRAME_UNAVAILABLE_BUFFERING
 ;
 if
 (
+mMetadataValid
+&
+&
 mPlaybackPosition
 <
 mStream
@@ -1110,6 +1113,15 @@ mStream
 GetCachedDataEnd
 (
 mPlaybackPosition
+)
+&
+&
+mPlaybackPosition
+<
+mWavePCMOffset
++
+GetDataLength
+(
 )
 )
 return
