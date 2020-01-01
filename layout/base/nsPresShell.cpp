@@ -10430,11 +10430,9 @@ CreateResizeEventTimer
 (
 )
 {
-if
+KillResizeEventTimer
 (
-mResizeEventTimer
 )
-return
 ;
 if
 (
@@ -10558,10 +10556,6 @@ if
 mIsDocumentGone
 )
 return
-;
-mResizeEventTimer
-=
-nsnull
 ;
 nsEvent
 event
