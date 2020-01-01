@@ -402,6 +402,8 @@ LayerManagerD3D10
 :
 Initialize
 (
+bool
+force
 )
 {
 ScopedGfxFeatureReporter
@@ -411,6 +413,7 @@ reporter
 D3D10
 Layers
 "
+force
 )
 ;
 HRESULT

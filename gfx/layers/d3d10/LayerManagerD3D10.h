@@ -170,6 +170,10 @@ LayerManagerD3D10
 bool
 Initialize
 (
+bool
+force
+=
+false
 )
 ;
 virtual

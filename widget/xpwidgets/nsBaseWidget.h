@@ -1297,6 +1297,9 @@ bool
 mUseAcceleratedRendering
 ;
 bool
+mForceLayersAcceleration
+;
+bool
 mTemporarilyUseBasicLayerManager
 ;
 nsIntRect

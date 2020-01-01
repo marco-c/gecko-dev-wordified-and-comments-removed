@@ -26,6 +26,10 @@ const
 char
 *
 aFeature
+bool
+force
+=
+false
 )
 :
 mFeature
@@ -41,6 +45,12 @@ mStatusChar
 {
 WriteAppNote
 (
+force
+?
+'
+!
+'
+:
 '
 ?
 '

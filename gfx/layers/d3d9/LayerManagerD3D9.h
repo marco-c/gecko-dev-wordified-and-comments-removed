@@ -224,6 +224,10 @@ LayerManagerD3D9
 bool
 Initialize
 (
+bool
+force
+=
+false
 )
 ;
 void
