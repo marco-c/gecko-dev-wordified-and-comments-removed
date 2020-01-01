@@ -572,6 +572,10 @@ test_aria_roles
 .
 html
 \
+test_aria_roles
+.
+xul
+\
 test_aria_token_attrs
 .
 html
