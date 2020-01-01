@@ -6920,7 +6920,7 @@ SetState
 nsIDownloadManager
 :
 :
-DOWNLOAD_BLOCKED
+DOWNLOAD_BLOCKED_PARENTAL
 )
 ;
 }
