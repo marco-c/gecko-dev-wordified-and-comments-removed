@@ -181,6 +181,11 @@ CameraCommon
 h
 '
 '
+CameraPreviewMediaStream
+.
+h
+'
+'
 DOMCameraManager
 .
 h
@@ -192,6 +197,11 @@ h
 '
 '
 GonkNativeWindowClient
+.
+h
+'
+'
+GonkCameraControl
 .
 h
 '
