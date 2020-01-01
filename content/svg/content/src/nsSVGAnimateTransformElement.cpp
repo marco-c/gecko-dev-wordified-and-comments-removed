@@ -188,7 +188,7 @@ nsIDOMSVGAnimateTransformElement
 )
 NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
 (
-SVGAnimateElement
+SVGAnimateTransformElement
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
