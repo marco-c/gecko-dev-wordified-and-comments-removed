@@ -21,6 +21,9 @@ h
 class
 nsILocalFile
 ;
+class
+nsIZipReader
+;
 void
 ParseManifest
 (
@@ -36,14 +39,14 @@ bool
 aChromeOnly
 )
 ;
-#
-ifdef
-MOZ_OMNIJAR
 void
 ParseManifest
 (
 NSLocationType
 type
+nsIZipReader
+*
+reader
 const
 char
 *
@@ -55,8 +58,6 @@ bool
 aChromeOnly
 )
 ;
-#
-endif
 void
 LogMessage
 (
