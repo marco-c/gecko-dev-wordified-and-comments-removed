@@ -17839,6 +17839,10 @@ mGdkDisplay
 ;
 #
 endif
+SAMPLER_SHUTDOWN
+(
+)
+;
 rv
 =
 LaunchChild
@@ -17911,6 +17915,10 @@ UnsetExceptionHandler
 #
 endif
 XRE_DeinitCommandLine
+(
+)
+;
+SAMPLER_SHUTDOWN
 (
 )
 ;
@@ -18316,6 +18324,10 @@ are
 exiting
 .
 "
+)
+;
+SAMPLER_SHUTDOWN
+(
 )
 ;
 return
