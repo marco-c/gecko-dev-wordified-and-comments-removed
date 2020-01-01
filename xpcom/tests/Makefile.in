@@ -643,6 +643,10 @@ TestUTF
 .
 cpp
 \
+TestAtoms
+.
+cpp
+\
 (
 NULL
 )
