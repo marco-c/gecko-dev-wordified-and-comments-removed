@@ -7516,7 +7516,11 @@ obj
 >
 setParent
 (
+NonFunObjTag
+(
+*
 scope
+)
 )
 ;
 key
@@ -7562,7 +7566,11 @@ buffer
 >
 setParent
 (
+NonFunObjTag
+(
+*
 scope
+)
 )
 ;
 return

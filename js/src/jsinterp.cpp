@@ -649,7 +649,11 @@ newChild
 >
 setParent
 (
+NonFunObjTag
+(
+*
 clone
+)
 )
 ;
 newChild
@@ -662,10 +666,14 @@ newChild
 >
 setParent
 (
+NonFunObjTag
+(
+*
 fp
 -
 >
 scopeChain
+)
 )
 ;
 JS_ASSERT_IF

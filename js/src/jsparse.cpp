@@ -24426,10 +24426,13 @@ obj
 >
 setParent
 (
+NonFunObjOrNullTag
+(
 tc
 -
 >
 blockChain
+)
 )
 ;
 tc

@@ -953,7 +953,10 @@ obj
 >
 setParent
 (
+ObjectOrNullTag
+(
 pobj
+)
 )
 ;
 }
@@ -15685,7 +15688,10 @@ obj
 >
 setParent
 (
+NonFunObjOrNullTag
+(
 parent
+)
 )
 ;
 }
