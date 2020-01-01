@@ -2810,6 +2810,13 @@ status
 Interpret_OSR
 )
 {
+JS_NOT_REACHED
+(
+"
+invalid
+"
+)
+;
 IonSpew
 (
 IonSpew_Bailouts

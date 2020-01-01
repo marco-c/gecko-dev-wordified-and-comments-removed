@@ -6226,14 +6226,6 @@ while
 !
 ionFrames_
 .
-done
-(
-)
-&
-&
-!
-ionFrames_
-.
 isScripted
 (
 )
