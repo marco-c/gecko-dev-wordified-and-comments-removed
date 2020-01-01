@@ -465,6 +465,10 @@ nsIClipboard
 var
 textarea
 =
+SpecialPowers
+.
+wrap
+(
 document
 .
 getElementById
@@ -472,6 +476,7 @@ getElementById
 '
 input
 '
+)
 )
 ;
 function
@@ -874,15 +879,6 @@ focus
 )
 ;
 textarea
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIDOMNSEditableElement
-)
 .
 editor
 .

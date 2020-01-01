@@ -283,16 +283,6 @@ step
 defaultValue
 "
 ]
-textarea
-:
-[
-"
-name
-"
-"
-placeholder
-"
-]
 }
 ;
 if

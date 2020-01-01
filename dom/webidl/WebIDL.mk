@@ -471,6 +471,10 @@ HTMLTableSectionElement
 .
 webidl
 \
+HTMLTextAreaElement
+.
+webidl
+\
 HTMLTitleElement
 .
 webidl
