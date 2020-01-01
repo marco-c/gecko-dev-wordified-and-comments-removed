@@ -576,6 +576,19 @@ stmts
 .
 append
 (
+ExportDirective
+(
+vnameexp
+concurrent_set
+=
+True
+)
+)
+            
+stmts
+.
+append
+(
 SetVariable
 (
 vnameexp
@@ -4245,7 +4258,7 @@ html
 Variables_002fRecursion
     
 The
-single
+concurrent_set
 field
 defines
 whether
@@ -4254,32 +4267,32 @@ statement
 occurred
 with
 or
-without
     
+without
 a
 variable
 assignment
 .
 If
-True
+False
 no
 variable
 assignment
 was
+    
 present
 .
 If
-    
-False
+True
 the
 SetVariable
 immediately
 following
 this
 statement
+    
 originally
 came
-    
 from
 this
 export
@@ -4290,6 +4303,7 @@ parser
 splits
 it
 into
+    
 multiple
 statements
 )
@@ -4306,7 +4320,7 @@ __slots__
 exp
 '
 '
-single
+concurrent_set
 '
 )
     
@@ -4315,7 +4329,7 @@ __init__
 (
 self
 exp
-single
+concurrent_set
 )
 :
         
@@ -4341,9 +4355,9 @@ exp
         
 self
 .
-single
+concurrent_set
 =
-single
+concurrent_set
     
 def
 execute
@@ -4357,7 +4371,7 @@ context
 if
 self
 .
-single
+concurrent_set
 :
             
 vlist

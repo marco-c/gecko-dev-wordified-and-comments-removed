@@ -25,6 +25,14 @@ OVAR
 "
 oval
 "
+test
+"
+OVAR
+"
+=
+"
+oval
+"
 echo
 TEST
 -
