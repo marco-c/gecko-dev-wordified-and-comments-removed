@@ -18244,11 +18244,11 @@ cstr
 #
 ifdef
 ANDROID
-__android_log_print
+__android_log_write
 (
 ANDROID_LOG_INFO
 "
-Gecko
+GeckoDump
 "
 cstr
 )
