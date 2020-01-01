@@ -438,10 +438,7 @@ WINNT
 )
 LIBRARY_NAME
 =
-xppref
-(
-MOZ_BITS
-)
+xppref32
 endif
 GRE_MODULE
 =

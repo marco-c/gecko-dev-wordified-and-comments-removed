@@ -420,10 +420,7 @@ WINNT
 )
 LIBRARY_NAME
 =
-jpeg
-(
-MOZ_BITS
-)
+jpeg32
 (
 VERSION_NUMBER
 )

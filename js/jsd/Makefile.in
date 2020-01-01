@@ -432,10 +432,7 @@ WINNT
 )
 LIBRARY_NAME
 =
-jsd
-(
-MOZ_BITS
-)
+jsd32
 (
 VERSION_NUMBER
 )

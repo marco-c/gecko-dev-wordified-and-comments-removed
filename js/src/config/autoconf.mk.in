@@ -1219,9 +1219,6 @@ dbg
 AWT_11
 =
 1
-MOZ_BITS
-=
-32
 OS_TARGET
 =
 OS_TARGET

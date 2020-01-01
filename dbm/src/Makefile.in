@@ -423,10 +423,7 @@ WINNT
 )
 LIBRARY_NAME
 =
-dbm
-(
-MOZ_BITS
-)
+dbm32
 endif
 CSRCS
 =
