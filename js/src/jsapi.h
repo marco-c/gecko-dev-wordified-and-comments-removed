@@ -3918,6 +3918,10 @@ IONMASM
 =
 -
 28
+IONALLOC
+=
+-
+29
 }
 ;
 private
