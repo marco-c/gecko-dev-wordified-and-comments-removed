@@ -133,7 +133,7 @@ STALL_MS
 #
 define
 CAN_PLAY_THROUGH_MARGIN
-20
+10
 nsMediaDecoder
 :
 :
@@ -1057,13 +1057,6 @@ Unpin
 )
 ;
 }
-static
-const
-PRInt32
-gDownloadSizeSafetyMargin
-=
-1000000
-;
 PRBool
 nsMediaDecoder
 :
@@ -1122,11 +1115,7 @@ mPlaybackPosition
 double
 timeToDownload
 =
-(
 bytesToDownload
-+
-gDownloadSizeSafetyMargin
-)
 /
 stats
 .
