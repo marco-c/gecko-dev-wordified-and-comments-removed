@@ -302,6 +302,13 @@ get
 )
 )
 ;
+httpChan
+-
+>
+SetRemoteChannel
+(
+)
+;
 if
 (
 originalUri
