@@ -210,6 +210,11 @@ value
 ;
 }
 ;
+struct
+GetThreadListRequest
+{
+}
+;
 union
 IPCSmsRequest
 {
@@ -224,6 +229,8 @@ CreateMessageListRequest
 GetNextMessageInListRequest
 ;
 MarkMessageReadRequest
+;
+GetThreadListRequest
 ;
 }
 ;
