@@ -18036,15 +18036,7 @@ CreateElem
 (
 needsLowercase
 ?
-static_cast
-<
-const
-nsAString
-&
->
-(
 lcTagName
-)
 :
 aTagName
 nsnull
