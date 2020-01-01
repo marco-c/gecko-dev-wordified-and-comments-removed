@@ -15433,11 +15433,7 @@ if
 (
 pickDistance
 >
-jsbytecode
-(
--
-1
-)
+UINT8_MAX
 )
 {
 ReportCompileErrorNumber
