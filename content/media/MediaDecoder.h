@@ -1645,9 +1645,6 @@ mInitialPlaybackRate
 bool
 mInitialPreservesPitch
 ;
-double
-mRequestedSeekTime
-;
 int64_t
 mDuration
 ;
@@ -1757,6 +1754,9 @@ mPlayState
 ;
 PlayState
 mNextState
+;
+double
+mRequestedSeekTime
 ;
 bool
 mCalledResourceLoaded
