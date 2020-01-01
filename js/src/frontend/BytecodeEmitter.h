@@ -21,14 +21,14 @@ h
 #
 include
 "
-jsscript
+jspubtd
 .
 h
 "
 #
 include
 "
-jspubtd
+jsscript
 .
 h
 "
