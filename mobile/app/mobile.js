@@ -1255,7 +1255,7 @@ getAddons
 .
 maxResults
 "
-5
+15
 )
 ;
 pref
@@ -1333,7 +1333,9 @@ featured
 /
 all
 /
-10
+%
+MAX_RESULTS
+%
 /
 %
 OS
@@ -1427,7 +1429,9 @@ TERMS
 /
 all
 /
-10
+%
+MAX_RESULTS
+%
 /
 %
 OS
