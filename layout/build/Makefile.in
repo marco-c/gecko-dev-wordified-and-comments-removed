@@ -1940,10 +1940,12 @@ media
 /
 webspeech
 /
+recognition
+/
 (
 LIB_PREFIX
 )
-gkconwebspeech_s
+gkconwebspeechrecognition_s
 .
 (
 LIB_SUFFIX

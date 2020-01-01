@@ -50,6 +50,11 @@ components
 dom_sms
 .
 xpt
+components
+/
+dom_webspeech
+.
+xpt
 #
 ifdef
 MOZ_FOLD_LIBS
