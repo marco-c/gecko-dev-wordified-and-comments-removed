@@ -3488,7 +3488,7 @@ buttonsAnimator
 new
 PropertyAnimator
 (
-150
+300
 )
 ;
 buttonsAnimator
