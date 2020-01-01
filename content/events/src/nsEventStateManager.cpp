@@ -11380,6 +11380,7 @@ ScrollByPages
 (
 scrollX
 scrollY
+NS_VMREFRESH_DEFERRED
 )
 ;
 else
@@ -11397,6 +11398,7 @@ ScrollByPixels
 (
 scrollX
 scrollY
+NS_VMREFRESH_DEFERRED
 )
 ;
 else
@@ -11407,6 +11409,9 @@ ScrollByLines
 (
 scrollX
 scrollY
+NS_VMREFRESH_SMOOTHSCROLL
+|
+NS_VMREFRESH_DEFERRED
 )
 ;
 ForceViewUpdate
