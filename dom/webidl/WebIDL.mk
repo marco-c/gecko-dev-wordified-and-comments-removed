@@ -339,6 +339,10 @@ HTMLTableCellElement
 .
 webidl
 \
+HTMLTableColElement
+.
+webidl
+\
 HTMLTableElement
 .
 webidl
