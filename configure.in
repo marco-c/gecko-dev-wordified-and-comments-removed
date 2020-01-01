@@ -29059,6 +29059,9 @@ DLL_SUFFIX
 ;
 then
 if
+{
+TOOLCHAIN_PREFIX
+}
 readelf
 -
 d
@@ -62209,6 +62212,9 @@ ac_exeext
 ;
 then
 if
+{
+TOOLCHAIN_PREFIX
+}
 readelf
 -
 l
