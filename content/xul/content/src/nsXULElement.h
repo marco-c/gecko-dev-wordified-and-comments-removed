@@ -1669,17 +1669,6 @@ mBindingParent
 aBindingParent
 ;
 }
-const
-nsAttrValue
-*
-GetAttrValue
-(
-const
-nsAString
-&
-aName
-)
-;
 virtual
 nsAttrInfo
 GetAttrInfo
