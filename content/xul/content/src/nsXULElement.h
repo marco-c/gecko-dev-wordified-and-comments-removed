@@ -1039,6 +1039,15 @@ object
 "
 )
 ;
+if
+(
+!
+aObject
+)
+{
+return
+;
+}
 nsresult
 rv
 =
