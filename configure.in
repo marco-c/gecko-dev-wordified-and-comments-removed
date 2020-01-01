@@ -1650,6 +1650,16 @@ stlport
 /
 stlport
 /
+-
+I
+gonkdir
+/
+external
+/
+stlport
+/
+stlport
+/
 "
 STLPORT_LIBS
 =
