@@ -506,10 +506,6 @@ browser_bug707987_debugger_breakpoints
 .
 js
 \
-browser_bug712982_line_ruler_click
-.
-js
-\
 head
 .
 js
