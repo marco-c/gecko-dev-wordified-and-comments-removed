@@ -457,13 +457,6 @@ cocoa
 MOZ_WIDGET_TOOLKIT
 )
 )
-ifneq
-(
-x86_64
-(
-OS_TEST
-)
-)
 XPIDLSRCS
 +
 =
@@ -475,7 +468,6 @@ idl
 (
 NULL
 )
-endif
 endif
 include
 (
