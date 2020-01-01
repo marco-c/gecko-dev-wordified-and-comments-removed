@@ -450,7 +450,7 @@ STRUCT
 itervalues
 (
 )
-                              
+                               
 if
 not
 t
@@ -1972,6 +1972,7 @@ read
 .
 splitlines
 (
+True
 )
     
 def
@@ -2637,7 +2638,7 @@ host
 =
 3
 and
-                    
+                                                
 xattr
 &
 (
@@ -2912,6 +2913,7 @@ return
 JarFileReader
 (
 header
+                             
 self
 .
 _data
@@ -3737,7 +3739,7 @@ y
 ]
 .
 size
-                               
+                                  
 self
 .
 _contents
@@ -4251,6 +4253,7 @@ handle
 s
 "
 %
+                                     
 type
 (
 data

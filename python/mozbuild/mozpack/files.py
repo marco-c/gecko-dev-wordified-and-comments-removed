@@ -2013,7 +2013,7 @@ self
 .
 _base
 )
-                                
+                               
 for
 e
 in
@@ -2209,7 +2209,7 @@ open
 readlines
 (
 )
-                                
+                               
 if
 not
 l
