@@ -17744,6 +17744,7 @@ libs
 CHECK_FROZEN_VARIABLES
 )
 default
+all
 :
 :
 if
