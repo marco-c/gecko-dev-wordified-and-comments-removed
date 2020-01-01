@@ -442,6 +442,10 @@ mk
 _TEST_FILES
 =
 \
+moz
+.
+png
+\
 test_aria_activedescendant
 .
 html
@@ -491,6 +495,10 @@ test_nsIAccessibleHyperLink
 xul
 \
 test_nsIAccessibleHyperText
+.
+html
+\
+test_nsIAccessibleImage
 .
 html
 \
