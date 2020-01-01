@@ -195,7 +195,7 @@ t
 PR_ExplodeTime
 (
 aTime
-PR_LocalTimeParameters
+PR_GMTParameters
 &
 t
 )
@@ -226,8 +226,6 @@ M
 :
 %
 S
-%
-Z
 %
 Y
 "
