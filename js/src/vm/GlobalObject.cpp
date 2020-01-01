@@ -246,7 +246,7 @@ JSContext
 cx
 )
 {
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -295,7 +295,7 @@ cx
 self
 )
 ;
-RootedVarObject
+RootedObject
 objectProto
 (
 cx
@@ -344,7 +344,7 @@ cx
 return
 NULL
 ;
-RootedVarFunction
+RootedFunction
 functionProto
 (
 cx
@@ -536,7 +536,7 @@ return
 NULL
 ;
 }
-RootedVarFunction
+RootedFunction
 objectCtor
 (
 cx
@@ -599,7 +599,7 @@ objectCtor
 objectProto
 )
 ;
-RootedVarFunction
+RootedFunction
 functionCtor
 (
 cx
@@ -800,7 +800,7 @@ JSProto_LIMIT
 return
 NULL
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -848,7 +848,7 @@ setOriginalEval
 evalobj
 )
 ;
-RootedVarFunction
+RootedFunction
 throwTypeError
 (
 cx
@@ -962,7 +962,7 @@ flags
 JSCLASS_IS_GLOBAL
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -1585,7 +1585,7 @@ AllocKind
 kind
 )
 {
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -1766,7 +1766,7 @@ JSObject
 proto_
 )
 {
-RootedVarObject
+RootedObject
 ctor
 (
 cx
@@ -1850,7 +1850,7 @@ JSFunctionSpec
 fs
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx

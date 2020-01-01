@@ -281,7 +281,7 @@ globalObj
 )
 {
 }
-RootedVarObject
+RootedObject
 globalObj
 ;
 }

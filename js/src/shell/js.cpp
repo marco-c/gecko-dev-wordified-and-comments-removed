@@ -1642,7 +1642,7 @@ file
 uint32_t
 oldopts
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -3245,7 +3245,7 @@ jsval
 vp
 )
 {
-RootedVarObject
+RootedObject
 thisobj
 (
 cx
@@ -3563,7 +3563,7 @@ if
 newcx
 )
 {
-RootedVarValue
+RootedValue
 exc
 (
 oldcx
@@ -3726,7 +3726,7 @@ false
 bool
 newContext
 ;
-RootedVarObject
+RootedObject
 global
 (
 cx
@@ -3786,7 +3786,7 @@ argc
 2
 )
 {
-RootedVarObject
+RootedObject
 options
 (
 cx
@@ -4140,7 +4140,7 @@ false
 }
 }
 }
-RootedVarString
+RootedString
 code
 (
 cx
@@ -8834,7 +8834,7 @@ Sprinter
 sp
 )
 {
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -11041,7 +11041,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 arr
 (
 cx
@@ -11061,7 +11061,7 @@ arr
 return
 false
 ;
-RootedVarString
+RootedString
 evalStr
 (
 cx
@@ -11084,7 +11084,7 @@ evalStr
 return
 false
 ;
-RootedVarString
+RootedString
 globalStr
 (
 cx
@@ -13547,7 +13547,7 @@ bool
 lazy
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -13602,7 +13602,7 @@ obj
 return
 NULL
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -13677,7 +13677,7 @@ JSString
 *
 str
 ;
-RootedVarObject
+RootedObject
 sobj
 (
 cx
@@ -14872,7 +14872,7 @@ CopyProperty
 (
 cx
 obj
-RootedVarObject
+RootedObject
 (
 cx
 JSVAL_TO_OBJECT
@@ -14906,7 +14906,7 @@ obj
 0
 )
 ;
-RootedVarObject
+RootedObject
 referent
 (
 cx
@@ -14967,7 +14967,7 @@ CopyProperty
 cx
 obj
 referent
-RootedVarId
+RootedId
 (
 cx
 ida
@@ -16401,7 +16401,7 @@ OBJECT_TO_JSVAL
 op
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 parent
@@ -17588,7 +17588,7 @@ jsval
 vp
 )
 {
-RootedVar
+Rooted
 <
 jsval
 >
@@ -24375,7 +24375,7 @@ CompartmentKind
 compartment
 )
 {
-RootedVarObject
+RootedObject
 glob
 (
 cx
@@ -24660,7 +24660,7 @@ OptionParser
 op
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -24680,7 +24680,7 @@ scriptArgs
 "
 )
 ;
-RootedVarObject
+RootedObject
 scriptArgs
 (
 cx
@@ -24816,7 +24816,7 @@ OptionParser
 op
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -25274,7 +25274,7 @@ JSOPTION_TYPE_INFERENCE
 )
 ;
 }
-RootedVarObject
+RootedObject
 glob
 (
 cx

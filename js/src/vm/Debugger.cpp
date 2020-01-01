@@ -2044,7 +2044,7 @@ triggered
 cx
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -2284,7 +2284,7 @@ fp
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -2304,7 +2304,7 @@ global
 JSTrapStatus
 status
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -2416,7 +2416,7 @@ p
 +
 )
 {
-RootedVarObject
+RootedObject
 frameobj
 (
 cx
@@ -2458,7 +2458,7 @@ isUndefined
 )
 )
 {
-RootedVarValue
+RootedValue
 handler
 (
 cx
@@ -3056,7 +3056,7 @@ isObject
 )
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -3650,13 +3650,13 @@ get
 )
 )
 ;
-RootedVarId
+RootedId
 key
 (
 cx
 )
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -3738,7 +3738,7 @@ newCompletionValue
 )
 ;
 }
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -4246,7 +4246,7 @@ GetMethod
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 AtomToId
@@ -4298,7 +4298,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 hook
 (
 cx
@@ -4426,7 +4426,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 hook
 (
 cx
@@ -4462,7 +4462,7 @@ fp
 (
 )
 ;
-RootedVarValue
+RootedValue
 exc
 (
 cx
@@ -4624,7 +4624,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 hook
 (
 cx
@@ -4759,7 +4759,7 @@ JSScript
 script
 )
 {
-RootedVarObject
+RootedObject
 hook
 (
 cx
@@ -4914,7 +4914,7 @@ triggered
 cx
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -5302,7 +5302,7 @@ GlobalObject
 compileAndGoGlobal_
 )
 {
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -5313,7 +5313,7 @@ cx
 script_
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -5566,7 +5566,7 @@ fp
 (
 )
 ;
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -5582,7 +5582,7 @@ script
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -5826,7 +5826,7 @@ ok
 CallMethodIfPresent
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 bp
@@ -5962,7 +5962,7 @@ fp
 (
 )
 ;
-RootedVarValue
+RootedValue
 exception
 (
 cx
@@ -8805,7 +8805,7 @@ args
 dbg
 )
 ;
-RootedVarObject
+RootedObject
 referent
 (
 cx
@@ -8830,7 +8830,7 @@ referent
 return
 false
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -9139,7 +9139,7 @@ args
 dbg
 )
 ;
-RootedVarObject
+RootedObject
 arrobj
 (
 cx
@@ -9594,7 +9594,7 @@ v
 return
 false
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -9623,7 +9623,7 @@ Debugger
 jsclass
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -9754,7 +9754,7 @@ i
 +
 )
 {
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -11898,7 +11898,7 @@ scripts
 return
 false
 ;
-RootedVarObject
+RootedObject
 result
 (
 cx
@@ -11966,7 +11966,7 @@ dbg
 wrapScript
 (
 cx
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -12772,7 +12772,7 @@ vp
 )
 ;
 \
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -12795,7 +12795,7 @@ return
 false
 ;
 \
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -13068,7 +13068,7 @@ fromChildJSObject
 obj
 )
 ;
-RootedVarObject
+RootedObject
 result
 (
 cx
@@ -13178,7 +13178,7 @@ dbg
 wrapScript
 (
 cx
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -14272,7 +14272,7 @@ offset
 lineno
 )
 {
-RootedVarObject
+RootedObject
 offsets
 (
 cx
@@ -14329,7 +14329,7 @@ JS_ARRAY_HOLE
 )
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -14545,7 +14545,7 @@ script
 return
 false
 ;
-RootedVarObject
+RootedObject
 result
 (
 cx
@@ -14888,7 +14888,7 @@ code
 +
 offset
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -15099,7 +15099,7 @@ pc
 NULL
 ;
 }
-RootedVarObject
+RootedObject
 arr
 (
 cx
@@ -15799,7 +15799,7 @@ vp
 )
 ;
 \
-RootedVarObject
+RootedObject
 thisobj
 (
 cx
@@ -16006,7 +16006,7 @@ fp
 dbg
 )
 ;
-RootedVar
+Rooted
 <
 Env
 *
@@ -16805,7 +16805,7 @@ return
 true
 ;
 }
-RootedVarObject
+RootedObject
 argsobj
 (
 cx
@@ -16821,7 +16821,7 @@ hasArgs
 )
 )
 {
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -16970,7 +16970,7 @@ i
 +
 )
 {
-RootedVarFunction
+RootedFunction
 getobj
 (
 cx
@@ -17004,7 +17004,7 @@ DefineNativeProperty
 (
 cx
 argsobj
-RootedVarId
+RootedId
 (
 cx
 INT_TO_JSID
@@ -17181,7 +17181,7 @@ debug
 wrapScript
 (
 cx
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -17236,7 +17236,7 @@ debug
 wrapScript
 (
 cx
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -18257,7 +18257,7 @@ return
 false
 ;
 }
-RootedVar
+Rooted
 <
 JSLinearString
 *
@@ -18309,7 +18309,7 @@ mode
 WithBindings
 )
 {
-RootedVarObject
+RootedObject
 bindingsobj
 (
 cx
@@ -18397,7 +18397,7 @@ getGeneric
 (
 cx
 bindingsobj
-RootedVarId
+RootedId
 (
 cx
 keys
@@ -18450,7 +18450,7 @@ enter
 return
 false
 ;
-RootedVar
+Rooted
 <
 Env
 *
@@ -18500,7 +18500,7 @@ env
 return
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -19098,7 +19098,7 @@ vp
 )
 ;
 \
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -19162,7 +19162,7 @@ vp
 )
 ;
 \
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -19617,7 +19617,7 @@ return
 true
 ;
 }
-RootedVarFunction
+RootedFunction
 fun
 (
 cx
@@ -19934,7 +19934,7 @@ dbg
 wrapScript
 (
 cx
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -20041,7 +20041,7 @@ return
 true
 ;
 }
-RootedVar
+Rooted
 <
 Env
 *
@@ -20137,7 +20137,7 @@ dbg
 obj
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -20730,7 +20730,7 @@ defineProperty
 2
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -20872,7 +20872,7 @@ rewrappedDesc
 return
 false
 ;
-RootedVarId
+RootedId
 wrappedId
 (
 cx
@@ -21261,7 +21261,7 @@ DefineProperty
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 rewrappedIds
@@ -22076,7 +22076,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 argsobj
 (
 cx
@@ -22989,7 +22989,7 @@ return
 false
 ;
 \
-RootedVar
+Rooted
 <
 Env
 *
@@ -23296,7 +23296,7 @@ env
 dbg
 )
 ;
-RootedVar
+Rooted
 <
 Env
 *
@@ -23528,7 +23528,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 arr
 (
 cx
@@ -23690,7 +23690,7 @@ env
 dbg
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -23879,7 +23879,7 @@ env
 dbg
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -24044,7 +24044,7 @@ env
 dbg
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -24070,7 +24070,7 @@ address
 return
 false
 ;
-RootedVarValue
+RootedValue
 v
 (
 cx
@@ -24338,14 +24338,14 @@ JSObject
 obj_
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
 obj_
 )
 ;
-RootedVarObject
+RootedObject
 objProto
 (
 cx

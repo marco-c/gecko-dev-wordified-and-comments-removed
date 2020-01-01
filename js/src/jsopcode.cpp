@@ -1595,7 +1595,7 @@ Sprinter
 sp
 )
 {
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -2251,7 +2251,7 @@ empty
 )
 )
 {
-RootedVar
+Rooted
 <
 const
 Shape
@@ -28967,7 +28967,7 @@ sprinter
 .
 context
 ;
-RootedVarFunction
+RootedFunction
 fun
 (
 cx

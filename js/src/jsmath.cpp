@@ -3267,14 +3267,14 @@ JSObject
 obj_
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
 obj_
 )
 ;
-RootedVarObject
+RootedObject
 Math
 (
 cx

@@ -933,13 +933,13 @@ pn1
 *
 pnp
 ;
-RootedVarString
+RootedString
 accum
 (
 cx
 )
 ;
-RootedVarString
+RootedString
 str
 (
 cx
@@ -3603,7 +3603,7 @@ PNK_STRING
 return
 true
 ;
-RootedVarString
+RootedString
 left
 (
 cx
@@ -3613,7 +3613,7 @@ pn1
 pn_atom
 )
 ;
-RootedVarString
+RootedString
 right
 (
 cx
@@ -3623,7 +3623,7 @@ pn2
 pn_atom
 )
 ;
-RootedVarString
+RootedString
 str
 (
 cx

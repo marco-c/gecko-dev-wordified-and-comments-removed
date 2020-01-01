@@ -15756,7 +15756,7 @@ PC
 )
 )
 ;
-RootedVarObject
+RootedObject
 baseobj
 (
 cx
@@ -15838,7 +15838,7 @@ LookupPropertyWithFlags
 (
 cx
 baseobj
-RootedVarId
+RootedId
 (
 cx
 NameToId

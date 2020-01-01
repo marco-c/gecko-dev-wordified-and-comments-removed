@@ -525,7 +525,7 @@ typename
 T
 >
 class
-RootedVar
+Rooted
 ;
 class
 SkipRoot
@@ -614,7 +614,7 @@ cx
 #
 ifdef
 JSGC_ROOT_ANALYSIS
-RootedVar
+Rooted
 <
 void
 *

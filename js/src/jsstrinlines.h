@@ -62,7 +62,7 @@ JSContext
 *
 cx
 ;
-RootedVarString
+RootedString
 res
 ;
 RopeBuilder

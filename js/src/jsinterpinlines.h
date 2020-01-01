@@ -868,7 +868,7 @@ true
 }
 }
 }
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -955,7 +955,7 @@ return
 true
 ;
 }
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1085,7 +1085,7 @@ Value
 rval
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1460,7 +1460,7 @@ currentScript
 >
 strictModeCode
 ;
-RootedVarValue
+RootedValue
 rref
 (
 cx
@@ -1476,7 +1476,7 @@ JSOp
 pc
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1586,7 +1586,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1630,7 +1630,7 @@ JSObject
 *
 obj2
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -1815,7 +1815,7 @@ obj
 getGeneric
 (
 cx
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -2222,7 +2222,7 @@ obj
 js_CreateThisForFunction
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -2931,14 +2931,14 @@ else
 #
 endif
 {
-RootedVarValue
+RootedValue
 lval_
 (
 cx
 lhs
 )
 ;
-RootedVarValue
+RootedValue
 rval_
 (
 cx
@@ -3034,7 +3034,7 @@ isString
 )
 )
 {
-RootedVarString
+RootedString
 lstr
 (
 cx
@@ -4432,7 +4432,7 @@ isObject
 (
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -4718,7 +4718,7 @@ while
 0
 )
 ;
-RootedVarValue
+RootedValue
 tmp
 (
 cx
@@ -4751,7 +4751,7 @@ OP
 \
 JS_BEGIN_MACRO
 \
-RootedVarValue
+RootedValue
 lvalRoot
 (
 cx

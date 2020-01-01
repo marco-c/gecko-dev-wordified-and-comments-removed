@@ -27701,7 +27701,7 @@ PC
 testSingletonPropertyTypes
 (
 top
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -29153,7 +29153,7 @@ unknownObject
 return
 false
 ;
-RootedVarObject
+RootedObject
 singleton
 (
 cx
@@ -29311,7 +29311,7 @@ if
 !
 testSingletonProperty
 (
-RootedVarObject
+RootedObject
 (
 cx
 object
@@ -29366,7 +29366,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -29438,7 +29438,7 @@ JSVAL_TYPE_OBJECT
 return
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -29737,7 +29737,7 @@ if
 !
 testSingletonProperty
 (
-RootedVarObject
+RootedObject
 (
 cx
 object
@@ -35405,7 +35405,7 @@ PC
 testSingletonProperty
 (
 globalObj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -37876,7 +37876,7 @@ count
 =
 0
 ;
-RootedVarObject
+RootedObject
 baseobj
 (
 cx
@@ -38019,7 +38019,7 @@ void
 baseobj
 ;
 }
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -40325,7 +40325,7 @@ JS_ASSERT
 isConstructing
 )
 ;
-RootedVarFunction
+RootedFunction
 fun
 (
 cx

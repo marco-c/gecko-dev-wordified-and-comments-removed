@@ -19603,7 +19603,7 @@ i
 +
 )
 {
-RootedVar
+Rooted
 <
 void
 *

@@ -956,7 +956,7 @@ isFunction
 )
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1234,7 +1234,7 @@ objProto
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -1360,7 +1360,7 @@ id
 return
 true
 ;
-RootedVarFunction
+RootedFunction
 fun
 (
 cx
@@ -1903,7 +1903,7 @@ script
 }
 else
 {
-RootedVarObject
+RootedObject
 parent
 (
 cx
@@ -2209,7 +2209,7 @@ JSFunction
 srcFun
 )
 {
-RootedVarObject
+RootedObject
 parent
 (
 cx
@@ -2380,7 +2380,7 @@ JSBool
 bp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -3311,7 +3311,7 @@ Value
 vp
 )
 {
-RootedVarValue
+RootedValue
 fval
 (
 cx
@@ -3506,7 +3506,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 aobj
 (
 cx
@@ -3707,7 +3707,7 @@ isFunction
 )
 )
 ;
-RootedVarFunction
+RootedFunction
 self
 (
 cx
@@ -4345,7 +4345,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 target
 (
 cx
@@ -4403,7 +4403,7 @@ length
 1
 ;
 }
-RootedVarValue
+RootedValue
 thisArg
 (
 cx
@@ -4549,7 +4549,7 @@ get
 :
 NULL
 ;
-RootedVarObject
+RootedObject
 funobj
 (
 cx
@@ -4749,7 +4749,7 @@ argc
 vp
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -5283,7 +5283,7 @@ tt
 ;
 }
 }
-RootedVar
+Rooted
 <
 PropertyName
 *
@@ -5531,7 +5531,7 @@ length
 0
 ;
 }
-RootedVarFunction
+RootedFunction
 fun
 (
 cx
@@ -5736,7 +5736,7 @@ ExtendedFinalizeKind
 )
 )
 ;
-RootedVarAtom
+RootedAtom
 atom
 (
 cx
@@ -6022,7 +6022,7 @@ cloneobj
 return
 NULL
 ;
-RootedVarFunction
+RootedFunction
 clone
 (
 cx
@@ -6387,7 +6387,7 @@ gop
 StrictPropertyOp
 sop
 ;
-RootedVarFunction
+RootedFunction
 fun
 (
 cx

@@ -720,7 +720,7 @@ JS_FALSE
 js
 :
 :
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -979,7 +979,7 @@ global
 js
 :
 :
-RootedVarObject
+RootedObject
 prototype
 (
 cx
@@ -1013,7 +1013,7 @@ return
 js
 :
 :
-RootedVarObject
+RootedObject
 ctor
 (
 cx

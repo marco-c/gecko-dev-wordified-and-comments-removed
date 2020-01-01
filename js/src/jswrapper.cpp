@@ -946,12 +946,12 @@ wrapper
 getGeneric
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 receiver
 )
-RootedVarId
+RootedId
 (
 cx
 id
@@ -996,7 +996,7 @@ wrapper
 setGeneric
 (
 cx
-RootedVarId
+RootedId
 (
 cx
 id
@@ -1083,7 +1083,7 @@ GET
 GetIterator
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 wrappedObject
@@ -2189,7 +2189,7 @@ copyobj
 js_CopyErrorObject
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -2858,7 +2858,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 wrapper
 (
 cx
@@ -2870,14 +2870,14 @@ cx
 receiver_
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
 id_
 )
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -3166,7 +3166,7 @@ cx
 iterObj
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -3443,7 +3443,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 wrapper
 (
 cx
@@ -3612,7 +3612,7 @@ Value
 rval
 )
 {
-RootedVarObject
+RootedObject
 wrapper
 (
 cx

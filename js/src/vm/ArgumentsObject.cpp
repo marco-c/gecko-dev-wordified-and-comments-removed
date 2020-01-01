@@ -321,7 +321,7 @@ hasRest
 )
 )
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -346,7 +346,7 @@ proto
 return
 NULL
 ;
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -397,7 +397,7 @@ StrictArgumentsObjectClass
 &
 NormalArgumentsObjectClass
 ;
-RootedVarShape
+RootedShape
 emptyArgumentsShape
 (
 cx
@@ -717,7 +717,7 @@ fp
 numActualArgs
 (
 )
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -813,7 +813,7 @@ fp
 numActualArgs
 (
 )
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -1432,7 +1432,7 @@ calleeAtom
 )
 ;
 }
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -1495,7 +1495,7 @@ objp
 =
 NULL
 ;
-RootedVar
+Rooted
 <
 NormalArgumentsObject
 *
@@ -1936,7 +1936,7 @@ proto
 getGeneric
 (
 cx
-RootedVarId
+RootedId
 (
 cx
 id
@@ -1956,7 +1956,7 @@ HandleObject
 obj
 )
 {
-RootedVar
+Rooted
 <
 NormalArgumentsObject
 *
@@ -1973,7 +1973,7 @@ asNormalArguments
 )
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -2257,7 +2257,7 @@ isStrictArguments
 return
 true
 ;
-RootedVar
+Rooted
 <
 StrictArgumentsObject
 *
@@ -2340,7 +2340,7 @@ lengthAtom
 )
 ;
 }
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -2402,7 +2402,7 @@ objp
 =
 NULL
 ;
-RootedVar
+Rooted
 <
 StrictArgumentsObject
 *
@@ -2647,7 +2647,7 @@ HandleObject
 obj
 )
 {
-RootedVar
+Rooted
 <
 StrictArgumentsObject
 *
@@ -2672,7 +2672,7 @@ JSProperty
 *
 prop
 ;
-RootedVarId
+RootedId
 id
 (
 cx

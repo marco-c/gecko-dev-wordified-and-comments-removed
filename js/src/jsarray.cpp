@@ -419,7 +419,7 @@ true
 ;
 }
 }
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -1328,14 +1328,14 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
 obj_
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -2089,7 +2089,7 @@ return
 JS_FALSE
 ;
 }
-RootedVarId
+RootedId
 id
 (
 cx
@@ -2124,7 +2124,7 @@ id
 )
 )
 ;
-RootedVarValue
+RootedValue
 tmp
 (
 cx
@@ -3185,7 +3185,7 @@ array_lookupGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -3334,7 +3334,7 @@ array_lookupGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -3539,7 +3539,7 @@ GetProperty
 cx
 obj
 receiver
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -3800,7 +3800,7 @@ GetProperty
 cx
 obj
 receiver
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -3881,7 +3881,7 @@ array_getSpecial
 cx
 obj
 receiver
-RootedVar
+Rooted
 <
 SpecialId
 >
@@ -3937,7 +3937,7 @@ array_getProperty
 cx
 obj
 receiver
-RootedVarPropertyName
+RootedPropertyName
 (
 cx
 atom
@@ -4274,7 +4274,7 @@ array_setGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -4305,7 +4305,7 @@ JSBool
 strict
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -4522,7 +4522,7 @@ array_setGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -4856,7 +4856,7 @@ array_defineGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -5105,7 +5105,7 @@ array_defineGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -5528,7 +5528,7 @@ if
 js_SuppressDeletedElement
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 obj
@@ -5850,7 +5850,7 @@ JSObject
 obj
 )
 {
-RootedVarId
+RootedId
 lengthId
 (
 cx
@@ -6451,7 +6451,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -7401,7 +7401,7 @@ robj
 return
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -7564,7 +7564,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -7764,7 +7764,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -7794,7 +7794,7 @@ array_toString_sub
 cx
 obj
 JS_TRUE
-RootedVarString
+RootedString
 (
 cx
 )
@@ -8250,13 +8250,13 @@ MAX_ARRAY_INDEX
 1
 )
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -8539,7 +8539,7 @@ argc
 vp
 )
 ;
-RootedVarString
+RootedString
 str
 (
 cx
@@ -8592,7 +8592,7 @@ str
 NULL
 ;
 }
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -8650,7 +8650,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -10057,7 +10057,7 @@ argc
 vp
 )
 ;
-RootedVarValue
+RootedValue
 fvalRoot
 (
 cx
@@ -10124,7 +10124,7 @@ setNull
 )
 ;
 }
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -11134,7 +11134,7 @@ isSlowArray
 )
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -11291,7 +11291,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -11417,7 +11417,7 @@ index
 JSBool
 hole
 ;
-RootedVarValue
+RootedValue
 elt
 (
 cx
@@ -11532,7 +11532,7 @@ index
 JSBool
 hole
 ;
-RootedVarValue
+RootedValue
 elt
 (
 cx
@@ -11642,7 +11642,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -11787,7 +11787,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -12013,7 +12013,7 @@ rval
 return
 JS_FALSE
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -12130,7 +12130,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -12358,7 +12358,7 @@ length
 (
 )
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -12689,7 +12689,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -12862,7 +12862,7 @@ actualStart
 actualDeleteCount
 )
 ;
-RootedVarObject
+RootedObject
 arr
 (
 cx
@@ -13808,7 +13808,7 @@ vp
 -
 1
 ;
-RootedVarObject
+RootedObject
 aobj
 (
 cx
@@ -13831,7 +13831,7 @@ aobj
 return
 false
 ;
-RootedVarObject
+RootedObject
 nobj
 (
 cx
@@ -14019,7 +14019,7 @@ isObject
 )
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -14195,7 +14195,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -14397,7 +14397,7 @@ begin
 =
 end
 ;
-RootedVarObject
+RootedObject
 nobj
 (
 cx
@@ -14504,7 +14504,7 @@ obj
 nobj
 )
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -15212,7 +15212,7 @@ CallArgs
 args
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -15280,7 +15280,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 callable
 (
 cx
@@ -15637,7 +15637,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -15705,7 +15705,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 callable
 (
 cx
@@ -15750,7 +15750,7 @@ UndefinedValue
 (
 )
 ;
-RootedVarObject
+RootedObject
 arr
 (
 cx
@@ -15999,7 +15999,7 @@ argc
 vp
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -16067,7 +16067,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 callable
 (
 cx
@@ -16112,7 +16112,7 @@ UndefinedValue
 (
 )
 ;
-RootedVarObject
+RootedObject
 arr
 (
 cx
@@ -17232,7 +17232,7 @@ argc
 vp
 )
 ;
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -17551,7 +17551,7 @@ isNative
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -17571,7 +17571,7 @@ asGlobal
 (
 )
 ;
-RootedVarObject
+RootedObject
 arrayProto
 (
 cx
@@ -17614,7 +17614,7 @@ cx
 0
 )
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
@@ -17934,7 +17934,7 @@ return
 obj
 ;
 }
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -17965,14 +17965,14 @@ proto_
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
 proto_
 )
 ;
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -17996,7 +17996,7 @@ type
 return
 NULL
 ;
-RootedVarShape
+RootedShape
 shape
 (
 cx
@@ -18372,7 +18372,7 @@ JSContext
 cx
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx

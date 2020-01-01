@@ -110,7 +110,7 @@ JSFunctionSpec
 methods
 )
 {
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -157,7 +157,7 @@ classAtoms
 key
 ]
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
@@ -768,7 +768,7 @@ return
 InitClass
 (
 cx
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -1115,7 +1115,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1932,7 +1932,7 @@ return
 InitClass
 (
 cx
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -2186,7 +2186,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx

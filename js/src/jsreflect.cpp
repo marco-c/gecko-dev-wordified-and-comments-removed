@@ -532,7 +532,7 @@ userobj_
 NULL
 )
 {
-RootedVarObject
+RootedObject
 userobj
 (
 cx
@@ -668,7 +668,7 @@ atom
 return
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -16031,7 +16031,7 @@ return
 JS_FALSE
 ;
 }
-RootedVarObject
+RootedObject
 config
 (
 cx
@@ -16046,7 +16046,7 @@ toObject
 Value
 prop
 ;
-RootedVarId
+RootedId
 locId
 (
 cx
@@ -16098,7 +16098,7 @@ if
 loc
 )
 {
-RootedVarId
+RootedId
 sourceId
 (
 cx
@@ -16221,7 +16221,7 @@ filename
 )
 ;
 }
-RootedVarId
+RootedId
 lineId
 (
 cx
@@ -16274,7 +16274,7 @@ JS_FALSE
 ;
 }
 }
-RootedVarId
+RootedId
 builderId
 (
 cx
@@ -16550,7 +16550,7 @@ JSObject
 obj_
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx

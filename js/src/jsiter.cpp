@@ -877,7 +877,7 @@ AutoIdVector
 props
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1316,7 +1316,7 @@ init
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -2453,7 +2453,7 @@ flags
 JSITER_ENUMERATE
 )
 {
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -2480,7 +2480,7 @@ type
 return
 NULL
 ;
-RootedVarShape
+RootedShape
 emptyEnumeratorShape
 (
 cx
@@ -2953,7 +2953,7 @@ OBJECT_FLAG_ITERATED
 )
 ;
 }
-RootedVarObject
+RootedObject
 iterobj
 (
 cx
@@ -4316,7 +4316,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -4473,7 +4473,7 @@ setMagic
 JS_NO_ITER_VALUE
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -4710,7 +4710,7 @@ JSObject
 obj
 )
 {
-RootedVarValue
+RootedValue
 v
 (
 cx
@@ -4983,7 +4983,7 @@ JSProperty
 *
 prop
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -5292,7 +5292,7 @@ jsid
 id
 )
 {
-RootedVar
+Rooted
 <
 JSFlatString
 *
@@ -5624,7 +5624,7 @@ Value
 vp
 )
 {
-RootedVar
+Rooted
 <
 ElementIteratorObject
 *
@@ -5639,7 +5639,7 @@ uint32_t
 i
 length
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -5913,7 +5913,7 @@ isKeyIter
 )
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -6934,7 +6934,7 @@ formalArgs
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -8324,7 +8324,7 @@ GlobalObject
 global
 )
 {
-RootedVarObject
+RootedObject
 iteratorProto
 (
 cx
@@ -8394,7 +8394,7 @@ setNativeIterator
 ni
 )
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
@@ -8483,7 +8483,7 @@ global
 #
 if
 JS_HAS_GENERATORS
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -8551,7 +8551,7 @@ GlobalObject
 global
 )
 {
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -8632,7 +8632,7 @@ isNative
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *

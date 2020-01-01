@@ -4542,14 +4542,14 @@ isBigEnoughForAShapeTable
 )
 )
 {
-RootedVarShape
+RootedShape
 startRoot
 (
 cx
 start
 )
 ;
-RootedVarId
+RootedId
 idRoot
 (
 cx

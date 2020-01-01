@@ -198,7 +198,7 @@ StmtInfo
 *
 topScopeStmt
 ;
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -207,10 +207,10 @@ blockChain
 ;
 private
 :
-RootedVarFunction
+RootedFunction
 fun_
 ;
-RootedVarObject
+RootedObject
 scopeChain_
 ;
 public
@@ -863,10 +863,10 @@ breaks
 ptrdiff_t
 continues
 ;
-RootedVarAtom
+RootedAtom
 label
 ;
-RootedVar
+Rooted
 <
 StaticBlockObject
 *

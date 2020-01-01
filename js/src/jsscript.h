@@ -542,7 +542,7 @@ return
 add
 (
 cx
-RootedVarAtom
+RootedAtom
 (
 cx
 )

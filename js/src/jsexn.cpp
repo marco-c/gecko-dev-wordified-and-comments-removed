@@ -1298,7 +1298,7 @@ NullValue
 (
 )
 ;
-RootedVarId
+RootedId
 callerid
 (
 cx
@@ -1322,7 +1322,7 @@ if
 checkAccess
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 i
@@ -2756,7 +2756,7 @@ toObject
 (
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -2778,7 +2778,7 @@ obj
 return
 false
 ;
-RootedVarString
+RootedString
 message
 (
 cx
@@ -2837,7 +2837,7 @@ iter
 cx
 )
 ;
-RootedVarString
+RootedString
 filename
 (
 cx
@@ -3149,7 +3149,7 @@ nameVal
 return
 false
 ;
-RootedVarString
+RootedString
 name
 (
 cx
@@ -4010,7 +4010,7 @@ GetExceptionProtoKey
 type
 )
 ;
-RootedVarAtom
+RootedAtom
 name
 (
 cx
@@ -4028,7 +4028,7 @@ key
 ]
 )
 ;
-RootedVarObject
+RootedObject
 errorProto
 (
 cx
@@ -4053,7 +4053,7 @@ errorProto
 return
 NULL
 ;
-RootedVarValue
+RootedValue
 empty
 (
 cx
@@ -4069,7 +4069,7 @@ emptyString
 )
 )
 ;
-RootedVarId
+RootedId
 nameId
 (
 cx
@@ -4087,7 +4087,7 @@ nameAtom
 )
 )
 ;
-RootedVarId
+RootedId
 messageId
 (
 cx
@@ -4105,7 +4105,7 @@ messageAtom
 )
 )
 ;
-RootedVarId
+RootedId
 fileNameId
 (
 cx
@@ -4123,7 +4123,7 @@ fileNameAtom
 )
 )
 ;
-RootedVarId
+RootedId
 lineNumberId
 (
 cx
@@ -4213,7 +4213,7 @@ return
 NULL
 ;
 }
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
@@ -4334,7 +4334,7 @@ isNative
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -4351,7 +4351,7 @@ asGlobal
 )
 )
 ;
-RootedVarObject
+RootedObject
 objectProto
 (
 cx
@@ -4372,7 +4372,7 @@ objectProto
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 errorProto
 (
 cx
@@ -4985,7 +4985,7 @@ OBJECT_TO_JSVAL
 errProto
 )
 ;
-RootedVarObject
+RootedObject
 errObject
 (
 cx
@@ -5017,7 +5017,7 @@ OBJECT_TO_JSVAL
 errObject
 )
 ;
-RootedVarString
+RootedString
 messageStr
 (
 cx
@@ -5046,7 +5046,7 @@ STRING_TO_JSVAL
 messageStr
 )
 ;
-RootedVarString
+RootedString
 filenameStr
 (
 cx
@@ -5257,7 +5257,7 @@ JSErrorReport
 reportp
 report
 ;
-RootedVarString
+RootedString
 str
 (
 cx
@@ -5274,7 +5274,7 @@ cx
 return
 true
 ;
-RootedVarValue
+RootedValue
 exn
 (
 cx
@@ -5312,7 +5312,7 @@ roots
 roots
 )
 ;
-RootedVarObject
+RootedObject
 exnObject
 (
 cx
@@ -5421,7 +5421,7 @@ filename_str
 )
 )
 {
-RootedVarString
+RootedString
 name
 (
 cx
@@ -5462,7 +5462,7 @@ roots
 )
 ;
 }
-RootedVarString
+RootedString
 msg
 (
 cx

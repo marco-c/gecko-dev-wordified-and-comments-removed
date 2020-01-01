@@ -1102,7 +1102,7 @@ HeapReverser
 &
 reverser
 ;
-RootedVarObject
+RootedObject
 result
 ;
 class
@@ -1715,7 +1715,7 @@ Path
 path
 )
 {
-RootedVar
+Rooted
 <
 jsval
 >
@@ -1848,7 +1848,7 @@ v
 )
 ;
 }
-RootedVarObject
+RootedObject
 array
 (
 context
@@ -2067,7 +2067,7 @@ finder
 .
 findReferences
 (
-RootedVarObject
+RootedObject
 (
 cx
 &

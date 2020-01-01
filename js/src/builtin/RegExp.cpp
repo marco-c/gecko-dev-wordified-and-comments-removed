@@ -75,7 +75,7 @@ JSContext
 const
 cx
 ;
-RootedVarObject
+RootedObject
 array
 ;
 bool
@@ -98,7 +98,7 @@ DefineProperty
 (
 cx
 array
-RootedVarId
+RootedId
 (
 cx
 AtomToId
@@ -263,14 +263,14 @@ Value
 rval
 )
 {
-RootedVarString
+RootedString
 input
 (
 cx
 input_
 )
 ;
-RootedVarObject
+RootedObject
 array
 (
 cx
@@ -984,7 +984,7 @@ builder
 .
 build
 (
-RootedVarAtom
+RootedAtom
 (
 cx
 cx
@@ -1143,7 +1143,7 @@ builder
 .
 build
 (
-RootedVarAtom
+RootedAtom
 (
 cx
 &
@@ -1310,7 +1310,7 @@ return
 false
 ;
 }
-RootedVarAtom
+RootedAtom
 escapedSourceStr
 (
 cx
@@ -2354,7 +2354,7 @@ isNative
 )
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -2371,7 +2371,7 @@ asGlobal
 )
 )
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -2422,7 +2422,7 @@ builder
 .
 build
 (
-RootedVarAtom
+RootedAtom
 (
 cx
 cx
@@ -2456,7 +2456,7 @@ regexp_methods
 return
 NULL
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx
@@ -2886,7 +2886,7 @@ obj
 return
 ok
 ;
-RootedVar
+Rooted
 <
 RegExpObject
 *

@@ -1159,7 +1159,7 @@ StringBuffer
 &
 gap
 ;
-RootedVarObject
+RootedObject
 replacer
 ;
 const
@@ -1402,7 +1402,7 @@ JSObject
 &
 objectStack
 ;
-RootedVarObject
+RootedObject
 obj
 ;
 }
@@ -1527,7 +1527,7 @@ isObject
 Value
 toJSON
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -1551,7 +1551,7 @@ if
 GetMethod
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -2151,7 +2151,7 @@ wroteMember
 =
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -2870,7 +2870,7 @@ isObject
 )
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -2954,14 +2954,14 @@ StringBuffer
 sb
 )
 {
-RootedVarObject
+RootedObject
 replacer
 (
 cx
 replacer_
 )
 ;
-RootedVarValue
+RootedValue
 spaceRoot
 (
 cx
@@ -3543,7 +3543,7 @@ empty
 )
 ;
 }
-RootedVarObject
+RootedObject
 wrapper
 (
 cx
@@ -3563,7 +3563,7 @@ wrapper
 return
 false
 ;
-RootedVarId
+RootedId
 emptyId
 (
 cx
@@ -3723,7 +3723,7 @@ isObject
 )
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -3766,7 +3766,7 @@ getArrayLength
 (
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3890,7 +3890,7 @@ keys
 return
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -4131,7 +4131,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -4181,7 +4181,7 @@ Walk
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -4370,14 +4370,14 @@ JSObject
 obj_
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
 obj_
 )
 ;
-RootedVarObject
+RootedObject
 JSON
 (
 cx

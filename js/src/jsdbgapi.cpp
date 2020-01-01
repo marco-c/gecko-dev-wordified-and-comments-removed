@@ -1239,7 +1239,7 @@ cx
 obj_
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1279,7 +1279,7 @@ v
 unsigned
 attrs
 ;
-RootedVarId
+RootedId
 propid
 (
 cx
@@ -3570,7 +3570,7 @@ cx
 chars
 )
 ;
-RootedVar
+Rooted
 <
 Env
 *
@@ -3779,7 +3779,7 @@ propid
 )
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -3833,7 +3833,7 @@ GetProperty
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 shape
@@ -4089,7 +4089,7 @@ JSPropertyDescArray
 pda
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx

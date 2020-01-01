@@ -332,7 +332,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -366,7 +366,7 @@ vp
 js
 :
 :
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -476,7 +476,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -516,7 +516,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -582,7 +582,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -627,7 +627,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 js
@@ -696,7 +696,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -740,7 +740,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -818,7 +818,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -856,7 +856,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 js
@@ -920,7 +920,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -957,7 +957,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -1044,7 +1044,7 @@ vp
 js
 :
 :
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -1150,7 +1150,7 @@ receiver
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 js
@@ -1195,7 +1195,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -1236,7 +1236,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 js
@@ -1357,7 +1357,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -1393,7 +1393,7 @@ strict
 js
 :
 :
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -1600,7 +1600,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -6338,7 +6338,7 @@ propp
 js
 :
 :
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -6422,7 +6422,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 js
@@ -6471,7 +6471,7 @@ attrs
 js
 :
 :
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -6565,7 +6565,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 js
@@ -6613,7 +6613,7 @@ attrs
 js
 :
 :
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -6696,7 +6696,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -6736,7 +6736,7 @@ propp
 js
 :
 :
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -6811,7 +6811,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -6852,7 +6852,7 @@ vp
 js
 :
 :
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -6889,7 +6889,7 @@ vp
 js
 :
 :
-RootedVarId
+RootedId
 id
 (
 cx
@@ -6955,7 +6955,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -6996,7 +6996,7 @@ present
 js
 :
 :
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -7034,7 +7034,7 @@ present
 js
 :
 :
-RootedVarId
+RootedId
 id
 (
 cx
@@ -7165,7 +7165,7 @@ receiver
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -7229,7 +7229,7 @@ cx
 js
 :
 :
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -7267,7 +7267,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 js
@@ -7302,7 +7302,7 @@ attrsp
 js
 :
 :
-RootedVarId
+RootedId
 id
 (
 cx
@@ -7364,7 +7364,7 @@ cx
 js
 :
 :
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID

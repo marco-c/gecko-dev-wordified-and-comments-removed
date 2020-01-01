@@ -1576,7 +1576,7 @@ isQName
 )
 )
 ;
-RootedVarString
+RootedString
 uri
 (
 cx
@@ -1588,7 +1588,7 @@ getNameURI
 )
 )
 ;
-RootedVarString
+RootedString
 str
 (
 cx
@@ -1637,7 +1637,7 @@ emptyString
 }
 else
 {
-RootedVarString
+RootedString
 qualstr
 (
 cx
@@ -1676,7 +1676,7 @@ js_ConcatStrings
 (
 cx
 str
-RootedVarString
+RootedString
 (
 cx
 obj
@@ -19138,7 +19138,7 @@ return
 true
 ;
 }
-RootedVarId
+RootedId
 funid
 (
 cx
@@ -19554,7 +19554,7 @@ JSObject
 *
 ns
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -19565,7 +19565,7 @@ kidobj
 cx
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -19993,7 +19993,7 @@ ok
 GetProperty
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 rxml
@@ -20459,7 +20459,7 @@ if
 parent
 )
 {
-RootedVarObject
+RootedObject
 parentobj
 (
 cx
@@ -21472,7 +21472,7 @@ emptyString
 }
 else
 {
-RootedVarString
+RootedString
 left
 (
 cx
@@ -21492,7 +21492,7 @@ left
 goto
 bad
 ;
-RootedVarString
+RootedString
 space
 (
 cx
@@ -21539,7 +21539,7 @@ left
 goto
 bad
 ;
-RootedVarString
+RootedString
 right
 (
 cx
@@ -22710,7 +22710,7 @@ base
 return
 JS_FALSE
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -22726,7 +22726,7 @@ if
 GetProperty
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 base
@@ -22816,7 +22816,7 @@ if
 PutProperty
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 base
@@ -22839,7 +22839,7 @@ if
 GetProperty
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 base
@@ -23176,7 +23176,7 @@ getClass
 XMLClass
 )
 ;
-RootedVarId
+RootedId
 funid
 (
 cx
@@ -23192,7 +23192,7 @@ baseops
 LookupProperty
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 obj
@@ -23234,7 +23234,7 @@ xml
 )
 )
 {
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -23589,7 +23589,7 @@ JSObject
 *
 qn
 ;
-RootedVarId
+RootedId
 funid
 (
 cx
@@ -23773,7 +23773,7 @@ xml_lookupGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -23874,7 +23874,7 @@ shape
 js_AddNativeProperty
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 obj
@@ -23940,7 +23940,7 @@ xml_lookupGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -24076,7 +24076,7 @@ xml_defineGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -24114,7 +24114,7 @@ unsigned
 attrs
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -24178,7 +24178,7 @@ xml_defineGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -24264,7 +24264,7 @@ xml_getGeneric
 cx
 obj
 receiver
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -24294,7 +24294,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -24352,7 +24352,7 @@ xml_getGeneric
 cx
 obj
 receiver
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -24416,7 +24416,7 @@ xml_setGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -24447,7 +24447,7 @@ JSBool
 strict
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -24504,7 +24504,7 @@ xml_setGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -24588,7 +24588,7 @@ xml_getGenericAttributes
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -24616,7 +24616,7 @@ unsigned
 attrsp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -24670,7 +24670,7 @@ xml_getGenericAttributes
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -24761,7 +24761,7 @@ xml_setGenericAttributes
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -24789,7 +24789,7 @@ unsigned
 attrsp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -24843,7 +24843,7 @@ xml_setGenericAttributes
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -24880,7 +24880,7 @@ JSObject
 *
 nameqn
 ;
-RootedVarId
+RootedId
 funid
 (
 cx
@@ -25075,7 +25075,7 @@ xml_deleteGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -25217,7 +25217,7 @@ xml_deleteGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -25944,7 +25944,7 @@ GetXMLFunction
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 id
@@ -27159,7 +27159,7 @@ JS_FALSE
 define
 NON_LIST_XML_METHOD_PROLOG
 \
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -27373,7 +27373,7 @@ xml
 return
 JS_FALSE
 ;
-RootedVarId
+RootedId
 name
 (
 cx
@@ -27505,7 +27505,7 @@ if
 PutProperty
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 JSVAL_TO_OBJECT
@@ -27600,7 +27600,7 @@ OBJECT_TO_JSVAL
 qn
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -27610,7 +27610,7 @@ qn
 )
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -27691,7 +27691,7 @@ qn
 return
 JS_FALSE
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -27701,7 +27701,7 @@ qn
 )
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -28085,7 +28085,7 @@ return
 JS_TRUE
 ;
 }
-RootedVarId
+RootedId
 id
 (
 cx
@@ -28112,7 +28112,7 @@ return
 GetProperty
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 obj
@@ -28514,7 +28514,7 @@ jsval
 vp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -28537,7 +28537,7 @@ obj
 return
 false
 ;
-RootedVarId
+RootedId
 name
 (
 cx
@@ -31711,7 +31711,7 @@ str
 js_ConcatStrings
 (
 cx
-RootedVarString
+RootedString
 (
 cx
 kid
@@ -31719,7 +31719,7 @@ kid
 >
 xml_value
 )
-RootedVarString
+RootedString
 (
 cx
 kid2
@@ -33475,7 +33475,7 @@ jsval
 vp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -33520,7 +33520,7 @@ PutProperty
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -34901,7 +34901,7 @@ object
 0
 )
 ;
-RootedVarString
+RootedString
 str
 (
 cx
@@ -34971,7 +34971,7 @@ xml_class
 JSXML_CLASS_PROCESSING_INSTRUCTION
 )
 {
-RootedVarString
+RootedString
 kidstr
 (
 cx
@@ -38085,7 +38085,7 @@ obj
 jsval
 v
 ;
-RootedVarObject
+RootedObject
 tmp
 (
 cx
@@ -38919,7 +38919,7 @@ JSObject
 *
 qn
 ;
-RootedVarId
+RootedId
 funid
 (
 cx
@@ -39347,7 +39347,7 @@ isXML
 )
 )
 ;
-RootedVarObject
+RootedObject
 target
 (
 cx

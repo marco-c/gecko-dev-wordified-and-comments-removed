@@ -26964,7 +26964,7 @@ vp
 JS
 :
 :
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -27038,7 +27038,7 @@ _retval
 JS
 :
 :
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -27048,7 +27048,7 @@ obj_
 JS
 :
 :
-RootedVarId
+RootedId
 id
 (
 cx

@@ -6119,7 +6119,7 @@ false
 )
 ;
 }
-RootedVarObject
+RootedObject
 aobj
 (
 cx

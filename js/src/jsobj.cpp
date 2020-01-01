@@ -481,7 +481,7 @@ return
 GetInnerObject
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 obj
@@ -508,7 +508,7 @@ return
 GetOuterObject
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 obj
@@ -596,7 +596,7 @@ vp
 unsigned
 attrs
 ;
-RootedVarId
+RootedId
 nid
 (
 cx
@@ -700,7 +700,7 @@ isObjectOrNull
 return
 true
 ;
-RootedVarObject
+RootedObject
 pobj
 (
 cx
@@ -715,7 +715,7 @@ toObjectOrNull
 unsigned
 attrs
 ;
-RootedVarId
+RootedId
 nid
 (
 cx
@@ -890,7 +890,7 @@ ok
 =
 true
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -969,7 +969,7 @@ bool
 hasGetter
 hasSetter
 ;
-RootedVarValue
+RootedValue
 valueRoot
 (
 cx
@@ -1096,7 +1096,7 @@ ok
 MarkSharpObjects
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -1164,7 +1164,7 @@ isObject
 MarkSharpObjects
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -1923,7 +1923,7 @@ depth
 0
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -2175,7 +2175,7 @@ localroot
 +
 2
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3339,7 +3339,7 @@ obj
 return
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3478,7 +3478,7 @@ JS_ASSERT
 op
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 o
@@ -4019,7 +4019,7 @@ JSScript
 *
 bucket_
 ;
-RootedVar
+Rooted
 <
 JSScript
 *
@@ -4408,7 +4408,7 @@ toString
 unsigned
 staticLevel
 ;
-RootedVarValue
+RootedValue
 thisv
 (
 cx
@@ -4542,7 +4542,7 @@ thisobj
 )
 ;
 }
-RootedVar
+Rooted
 <
 JSLinearString
 *
@@ -5141,7 +5141,7 @@ cx
 args
 INDIRECT_EVAL
 NULL
-RootedVarObject
+RootedObject
 (
 cx
 &
@@ -5592,7 +5592,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 callable
 (
 cx
@@ -5616,7 +5616,7 @@ callable
 return
 false
 ;
-RootedVarId
+RootedId
 propid
 (
 cx
@@ -5642,7 +5642,7 @@ address
 return
 false
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -5891,7 +5891,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -5926,7 +5926,7 @@ address
 return
 JS_FALSE
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -6157,7 +6157,7 @@ outer
 op
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 *
@@ -6291,7 +6291,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -6326,7 +6326,7 @@ address
 return
 false
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -6569,7 +6569,7 @@ return
 false
 ;
 }
-RootedVarId
+RootedId
 id
 (
 cx
@@ -6595,7 +6595,7 @@ address
 return
 false
 ;
-RootedVarObject
+RootedObject
 descObj
 (
 cx
@@ -6707,7 +6707,7 @@ args
 return
 false
 ;
-RootedVarObject
+RootedObject
 thisObj
 (
 cx
@@ -6838,7 +6838,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -6873,7 +6873,7 @@ address
 return
 JS_FALSE
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -6994,7 +6994,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -7029,7 +7029,7 @@ address
 return
 JS_FALSE
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -7247,7 +7247,7 @@ toObject
 unsigned
 attrs
 ;
-RootedVarId
+RootedId
 nid
 (
 cx
@@ -7569,7 +7569,7 @@ isUndefined
 )
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -8214,7 +8214,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -8243,7 +8243,7 @@ address
 return
 JS_FALSE
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -8644,7 +8644,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 desc
 (
 cx
@@ -8675,7 +8675,7 @@ found
 =
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -9351,7 +9351,7 @@ JSProperty
 *
 current
 ;
-RootedVarObject
+RootedObject
 obj2
 (
 cx
@@ -11284,7 +11284,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -11313,7 +11313,7 @@ address
 return
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -11434,7 +11434,7 @@ ids
 return
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -11603,7 +11603,7 @@ DefineProperty
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 ids
@@ -11665,7 +11665,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -11924,7 +11924,7 @@ false
 }
 #
 endif
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -12476,7 +12476,7 @@ it
 FREEZE
 )
 ;
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -12810,7 +12810,7 @@ last
 }
 else
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -12968,7 +12968,7 @@ props
 return
 false
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -13786,14 +13786,14 @@ JSFunction
 ExtendedFinalizeKind
 )
 ;
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
 type_
 )
 ;
-RootedVarShape
+RootedShape
 shape
 (
 cx
@@ -13936,7 +13936,7 @@ AllocKind
 kind
 )
 {
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -14187,7 +14187,7 @@ parent_
 kind
 )
 ;
-RootedVarObject
+RootedObject
 parent
 (
 cx
@@ -14591,7 +14591,7 @@ Shape
 shape
 )
 {
-RootedVarObject
+RootedObject
 res
 (
 cx
@@ -14717,7 +14717,7 @@ previous
 )
 ;
 }
-RootedVarId
+RootedId
 id
 (
 cx
@@ -15018,7 +15018,7 @@ if
 proto
 )
 {
-RootedVarTypeObject
+RootedTypeObject
 type
 (
 cx
@@ -15690,7 +15690,7 @@ JSBool
 strict
 )
 {
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -15780,7 +15780,7 @@ JSBool
 strict
 )
 {
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -15797,7 +15797,7 @@ watched
 )
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -15937,7 +15937,7 @@ return
 deleteSpecial
 (
 cx
-RootedVar
+Rooted
 <
 SpecialId
 >
@@ -15949,7 +15949,7 @@ rval
 strict
 )
 ;
-RootedVarObject
+RootedObject
 self
 (
 cx
@@ -16004,7 +16004,7 @@ self
 deleteProperty
 (
 cx
-RootedVarPropertyName
+RootedPropertyName
 (
 cx
 name
@@ -16298,7 +16298,7 @@ target
 defineGeneric
 (
 cx
-RootedVarId
+RootedId
 (
 cx
 shape
@@ -16536,21 +16536,21 @@ JSObject
 parent_
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
 obj_
 )
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
 proto_
 )
 ;
-RootedVarObject
+RootedObject
 parent
 (
 cx
@@ -18418,7 +18418,7 @@ bool
 named
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -18726,7 +18726,7 @@ AllocKind
 ctorKind
 )
 {
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -18786,7 +18786,7 @@ proto
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 ctor
 (
 cx
@@ -18883,7 +18883,7 @@ proto
 }
 else
 {
-RootedVarFunction
+RootedFunction
 fun
 (
 cx
@@ -19318,14 +19318,14 @@ AllocKind
 ctorKind
 )
 {
-RootedVarObject
+RootedObject
 protoProto
 (
 cx
 protoProto_
 )
 ;
-RootedVarAtom
+RootedAtom
 atom
 (
 cx
@@ -19942,7 +19942,7 @@ obj
 NewReshapedObject
 (
 cx
-RootedVarTypeObject
+RootedTypeObject
 (
 cx
 type
@@ -21013,7 +21013,7 @@ false
 }
 #
 endif
-RootedVarObject
+RootedObject
 oldproto
 (
 cx
@@ -21273,7 +21273,7 @@ JSObject
 objp
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -21475,7 +21475,7 @@ cobj
 *
 pobj
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -21490,7 +21490,7 @@ Shape
 *
 shape
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -22077,14 +22077,14 @@ Shape
 *
 shape
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
 obj_
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -22192,14 +22192,14 @@ jsid
 id_
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
 obj_
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -22299,7 +22299,7 @@ int
 shortid
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -22419,7 +22419,7 @@ DefineNativeProperty
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 INT_TO_JSID
@@ -22448,7 +22448,7 @@ getter
 setter
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -22537,7 +22537,7 @@ clasp
 >
 addProperty
 obj
-RootedVarId
+RootedId
 (
 cx
 shape
@@ -22661,7 +22661,7 @@ getter
 setter
 )
 ;
-RootedVarValue
+RootedValue
 value
 (
 cx
@@ -22671,7 +22671,7 @@ value
 =
 value_
 ;
-RootedVarShape
+RootedShape
 shape
 (
 cx
@@ -23154,7 +23154,7 @@ cx
 0
 )
 ;
-RootedVarObject
+RootedObject
 obj2
 (
 cx
@@ -23327,7 +23327,7 @@ JSProperty
 propp
 )
 {
-RootedVarObject
+RootedObject
 current
 (
 cx
@@ -23612,7 +23612,7 @@ JSProperty
 propp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -23716,7 +23716,7 @@ JSProperty
 propp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -23737,14 +23737,14 @@ JSProperty
 *
 prop
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
 scopeChain
 )
 ;
-RootedVarObject
+RootedObject
 parent
 (
 cx
@@ -24133,7 +24133,7 @@ enclosingScope
 NULL
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -24576,7 +24576,7 @@ accessGetter
 true
 ;
 }
-RootedVar
+Rooted
 <
 const
 Shape
@@ -24588,7 +24588,7 @@ cx
 shape
 )
 ;
-RootedVarObject
+RootedObject
 pobjRoot
 (
 cx
@@ -24604,7 +24604,7 @@ shape
 get
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 receiver
@@ -24810,7 +24810,7 @@ cx
 )
 ;
 }
-RootedVar
+Rooted
 <
 const
 Shape
@@ -24842,7 +24842,7 @@ shape
 set
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 obj
@@ -24937,14 +24937,14 @@ JSProperty
 *
 prop
 ;
-RootedVarId
+RootedId
 id
 (
 cx
 id_
 )
 ;
-RootedVarObject
+RootedObject
 obj2
 (
 cx
@@ -25497,7 +25497,7 @@ JSProperty
 *
 prop
 ;
-RootedVarObject
+RootedObject
 obj2
 (
 cx
@@ -25887,7 +25887,7 @@ return
 GetMethod
 (
 cx
-RootedVarObject
+RootedObject
 (
 cx
 this
@@ -26243,7 +26243,7 @@ JS_FALSE
 ;
 }
 }
-RootedVarShape
+RootedShape
 shape
 (
 cx
@@ -26750,7 +26750,7 @@ JSBool
 strict
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -27353,7 +27353,7 @@ v
 )
 ;
 }
-RootedVarId
+RootedId
 userid
 (
 cx
@@ -27460,7 +27460,7 @@ DeleteGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -27493,7 +27493,7 @@ JSBool
 strict
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -27558,7 +27558,7 @@ DeleteGeneric
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 SPECIALID_TO_JSID
@@ -27672,7 +27672,7 @@ GetMethod
 (
 cx
 obj
-RootedVarId
+RootedId
 (
 cx
 id
@@ -27809,7 +27809,7 @@ cx
 obj
 &
 StringClass
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -27943,7 +27943,7 @@ cx
 obj
 &
 StringClass
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -27978,7 +27978,7 @@ cx
 obj
 &
 NumberClass
-RootedVarId
+RootedId
 (
 cx
 NameToId
@@ -28337,7 +28337,7 @@ Shape
 *
 shape
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -29037,7 +29037,7 @@ StringObject
 create
 (
 cx
-RootedVarString
+RootedString
 (
 cx
 v

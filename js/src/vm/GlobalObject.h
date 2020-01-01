@@ -653,7 +653,7 @@ toObject
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -716,7 +716,7 @@ toObject
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -779,7 +779,7 @@ toObject
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -843,7 +843,7 @@ toObject
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -907,7 +907,7 @@ toObject
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -971,7 +971,7 @@ toObject
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -1035,7 +1035,7 @@ toObject
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -1099,7 +1099,7 @@ toObject
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -1173,7 +1173,7 @@ toObject
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *
@@ -1244,7 +1244,7 @@ toObject
 (
 )
 ;
-RootedVar
+Rooted
 <
 GlobalObject
 *

@@ -1864,7 +1864,7 @@ vp
 JS
 :
 :
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1954,7 +1954,7 @@ JSVAL_VOID
 JS
 :
 :
-RootedVarId
+RootedId
 id
 (
 cx
