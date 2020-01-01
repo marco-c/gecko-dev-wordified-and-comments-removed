@@ -590,6 +590,13 @@ remove
 download
 )
 ;
+download
+.
+finalize
+(
+true
+)
+;
 }
 }
 }
