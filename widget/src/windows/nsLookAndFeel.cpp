@@ -190,8 +190,9 @@ ifndef
 WINCE
 gShell32DLLInst
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 Shell32
 .
@@ -1684,8 +1685,9 @@ gSHAppBarMessage
 HWND
 shellWindow
 =
-FindWindow
+FindWindowW
 (
+L
 "
 Shell_TrayWnd
 "
