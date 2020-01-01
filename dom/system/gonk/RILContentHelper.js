@@ -677,6 +677,12 @@ mcc
 mnc
 :
 0
+spn
+:
+null
+msisdn
+:
+null
 }
 ;
 function
