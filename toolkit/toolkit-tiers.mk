@@ -1085,12 +1085,6 @@ tier_platform_dirs
 =
 testing
 /
-mozmill
-tier_platform_dirs
-+
-=
-testing
-/
 tools
 /
 screenshot
