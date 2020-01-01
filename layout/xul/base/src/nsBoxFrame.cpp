@@ -5483,10 +5483,6 @@ DisplaySelectionOverlay
 (
 aBuilder
 destination
-.
-Content
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
