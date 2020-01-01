@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Rule
@@ -1123,6 +1132,7 @@ StyleRule
 ;
 class
 StyleRule
+MOZ_FINAL
 :
 public
 Rule

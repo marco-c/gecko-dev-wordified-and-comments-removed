@@ -144,6 +144,7 @@ css
 {
 class
 MediaRule
+MOZ_FINAL
 :
 public
 GroupRule
@@ -266,6 +267,7 @@ mMedia
 ;
 class
 DocumentRule
+MOZ_FINAL
 :
 public
 GroupRule
@@ -887,6 +889,7 @@ nsCSSKeyframeRule
 ;
 class
 nsCSSKeyframeStyleDeclaration
+MOZ_FINAL
 :
 public
 nsDOMCSSDeclaration
@@ -1201,6 +1204,7 @@ mDOMDeclaration
 ;
 class
 nsCSSKeyframesRule
+MOZ_FINAL
 :
 public
 mozilla

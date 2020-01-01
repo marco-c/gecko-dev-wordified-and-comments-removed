@@ -7,6 +7,15 @@ nsFrameSelection_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -320,6 +329,7 @@ nsIScrollableFrame
 ;
 class
 nsFrameSelection
+MOZ_FINAL
 :
 public
 nsISupports

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCSSRules
 .
 h
@@ -347,6 +356,7 @@ NS_OK
 }
 class
 GroupRuleRuleList
+MOZ_FINAL
 :
 public
 nsICSSRuleList
