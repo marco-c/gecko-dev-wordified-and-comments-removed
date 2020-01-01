@@ -684,7 +684,12 @@ mTitle
 ;
 }
 return
+StringUtils
+.
+prettyURL
+(
 mUrl
+)
 ;
 }
 public

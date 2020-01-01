@@ -942,7 +942,12 @@ title
 )
 title
 =
+StringUtils
+.
+prettyURL
+(
 url
+)
 ;
 viewHolder
 .
