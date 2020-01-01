@@ -10,13 +10,6 @@ if
 !
 defined
 (
-LINUX
-)
-|
-|
-!
-defined
-(
 __arm__
 )
 #
