@@ -708,6 +708,8 @@ int
 height
 RectF
 pageRect
+Rect
+copyRect
 )
 {
 mCheckerboardLayer
@@ -717,6 +719,7 @@ setBitmap
 data
 width
 height
+copyRect
 )
 ;
 mCheckerboardLayer
