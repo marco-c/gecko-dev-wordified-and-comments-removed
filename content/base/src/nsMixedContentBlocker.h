@@ -37,10 +37,10 @@ NS_MIXEDCONTENTBLOCKER_CID
 }
 }
 enum
-MixedContentBlockedTypes
+MixedContentTypes
 {
-eBlockedMixedScript
-eBlockedMixedDisplay
+eMixedScript
+eMixedDisplay
 }
 ;
 #
