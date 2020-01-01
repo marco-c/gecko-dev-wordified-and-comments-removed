@@ -30675,7 +30675,7 @@ lir
 >
 ins2
 (
-LIR_qiand
+LIR_piand
 len_ins
 INS_CONSTPTR
 (
