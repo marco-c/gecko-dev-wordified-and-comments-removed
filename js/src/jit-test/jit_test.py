@@ -274,10 +274,16 @@ False
         
 self
 .
-error
+expect_error
 =
 '
 '
+        
+self
+.
+expect_status
+=
+0
     
 def
 copy
@@ -332,11 +338,19 @@ valgrind
         
 t
 .
-error
+expect_error
 =
 self
 .
-error
+expect_error
+        
+t
+.
+expect_status
+=
+self
+.
+expect_status
         
 return
 t
@@ -490,9 +504,54 @@ error
                         
 test
 .
-error
+expect_error
 =
 value
+                    
+elif
+name
+=
+=
+'
+exitstatus
+'
+:
+                        
+try
+:
+                            
+test
+.
+expect_status
+=
+int
+(
+value
+0
+)
+;
+                        
+except
+ValueError
+:
+                            
+print
+(
+"
+warning
+:
+couldn
+'
+t
+parse
+exit
+status
+%
+s
+"
+%
+value
+)
                     
 else
 :
@@ -1601,11 +1660,6 @@ out
 err
 code
 test
-.
-allow_oom
-test
-.
-error
 )
             
 out
@@ -1619,17 +1673,20 @@ check_output
 out
 err
 rc
-allow_oom
-expectedError
+test
 )
 :
     
 if
-expectedError
+test
+.
+expect_error
 :
         
 return
-expectedError
+test
+.
+expect_error
 in
 err
     
@@ -1695,10 +1752,14 @@ if
 rc
 !
 =
-0
+test
+.
+expect_status
 :
         
 return
+test
+.
 allow_oom
 and
 '
