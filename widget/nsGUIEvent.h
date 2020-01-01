@@ -4748,6 +4748,14 @@ customizedByUserPrefs
 (
 false
 )
+lineOrPageDeltaX
+(
+0
+)
+lineOrPageDeltaY
+(
+0
+)
 overflowDeltaX
 (
 0
@@ -4776,6 +4784,12 @@ deltaMode
 ;
 bool
 customizedByUserPrefs
+;
+PRInt32
+lineOrPageDeltaX
+;
+PRInt32
+lineOrPageDeltaY
 ;
 double
 overflowDeltaX
