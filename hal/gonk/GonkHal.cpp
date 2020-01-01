@@ -370,7 +370,7 @@ Vibrate
 const
 nsTArray
 <
-uint32
+uint32_t
 >
 &
 pattern
@@ -388,11 +388,11 @@ mMonitor
 ;
 nsTArray
 <
-uint32
+uint32_t
 >
 mPattern
 ;
-uint32
+uint32_t
 mIndex
 ;
 bool
@@ -438,7 +438,7 @@ Length
 )
 )
 {
-uint32
+uint32_t
 duration
 =
 mPattern
@@ -551,7 +551,7 @@ Vibrate
 const
 nsTArray
 <
-uint32
+uint32_t
 >
 &
 pattern
@@ -673,7 +673,7 @@ Vibrate
 const
 nsTArray
 <
-uint32
+uint32_t
 >
 &
 pattern

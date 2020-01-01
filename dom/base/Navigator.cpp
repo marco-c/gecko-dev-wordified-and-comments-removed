@@ -2396,7 +2396,7 @@ aJSVal
 JSContext
 *
 cx
-PRInt32
+int32_t
 *
 aOut
 )
@@ -2419,7 +2419,7 @@ aOut
 &
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 *
@@ -2505,7 +2505,7 @@ NS_OK
 }
 nsAutoTArray
 <
-PRUint32
+uint32_t
 8
 >
 pattern
@@ -2536,7 +2536,7 @@ aPattern
 )
 )
 {
-PRInt32
+int32_t
 p
 ;
 if
@@ -2626,7 +2626,7 @@ i
 jsval
 v
 ;
-PRInt32
+int32_t
 pv
 ;
 if

@@ -83,7 +83,7 @@ WindowIdentifier
 const
 nsTArray
 <
-uint64
+uint64_t
 >
 &
 id
@@ -149,7 +149,7 @@ mIsEmpty
 const
 InfallibleTArray
 <
-uint64
+uint64_t
 >
 &
 WindowIdentifier
@@ -231,7 +231,7 @@ GetID
 )
 ;
 }
-uint64
+uint64_t
 WindowIdentifier
 :
 :
@@ -264,11 +264,7 @@ pidomWindow
 )
 {
 return
-uint64
-(
--
-1
-)
+UINT64_MAX
 ;
 }
 return

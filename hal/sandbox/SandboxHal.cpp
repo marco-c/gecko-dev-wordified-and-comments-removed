@@ -189,7 +189,7 @@ Vibrate
 const
 nsTArray
 <
-uint32
+uint32_t
 >
 &
 pattern
@@ -216,7 +216,7 @@ process
 ;
 AutoInfallibleTArray
 <
-uint32
+uint32_t
 8
 >
 p
@@ -1005,7 +1005,7 @@ pattern
 const
 InfallibleTArray
 <
-uint64
+uint64_t
 >
 &
 id
@@ -1103,7 +1103,7 @@ RecvCancelVibrate
 const
 InfallibleTArray
 <
-uint64
+uint64_t
 >
 &
 id

@@ -83,7 +83,7 @@ Vibrate
 const
 nsTArray
 <
-uint32
+uint32_t
 >
 &
 pattern
@@ -99,7 +99,7 @@ true
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
