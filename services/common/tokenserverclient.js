@@ -748,7 +748,7 @@ in
 id
 "
 "
-secret
+key
 "
 "
 api_endpoint
@@ -838,7 +838,7 @@ key
 :
 result
 .
-secret
+key
 endpoint
 :
 result
