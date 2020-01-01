@@ -259,7 +259,7 @@ srv
 sqlite3_prepare_v2
 (
 db
-nsPromiseFlatCString
+PromiseFlatCString
 (
 aSQLStatement
 )
@@ -272,6 +272,8 @@ aSQLStatement
 Length
 (
 )
++
+1
 &
 mDBStatement
 NULL
