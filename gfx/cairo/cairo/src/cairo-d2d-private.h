@@ -151,6 +151,9 @@ mBlendStates
 MAX_OPERATORS
 ]
 ;
+int
+mVRAMUsage
+;
 }
 ;
 typedef
