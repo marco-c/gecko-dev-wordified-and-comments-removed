@@ -156,6 +156,11 @@ DrawTargetWillChange
 )
 ;
 void
+DrawTargetDestroyed
+(
+)
+;
+void
 MarkIndependent
 (
 )
