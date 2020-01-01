@@ -27,13 +27,11 @@ h
 >
 #
 include
-<
-cutils
-/
-log
+"
+cutils_log
 .
 h
->
+"
 #
 include
 <

@@ -13,13 +13,11 @@ h
 "
 #
 include
-<
-cutils
-/
-log
+"
+cutils_log
 .
 h
->
+"
 namespace
 android
 {

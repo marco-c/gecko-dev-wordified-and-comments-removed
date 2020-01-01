@@ -6,13 +6,11 @@ define
 _UI_KEYCODE_LABELS_H
 #
 include
-<
-android
-/
-keycodes
+"
+android_keycodes
 .
 h
->
+"
 struct
 KeycodeLabel
 {
