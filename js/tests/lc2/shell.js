@@ -1,6 +1,0 @@
-gTestsuite
-=
-'
-lc2
-'
-;

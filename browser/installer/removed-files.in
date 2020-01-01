@@ -5033,3 +5033,6 @@ manifest
 install
 .
 rdf
+DLL_PREFIX
+jsj
+DLL_SUFFIX

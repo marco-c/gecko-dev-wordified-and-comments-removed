@@ -146,9 +146,6 @@ JSStackFrame
 *
 displaySave
 ;
-#
-ifdef
-__cplusplus
 inline
 void
 assertValidStackDepth
@@ -157,8 +154,6 @@ uintN
 depth
 )
 ;
-#
-endif
 }
 ;
 #
@@ -235,9 +230,6 @@ script
 nfixed
 ;
 }
-#
-ifdef
-__cplusplus
 void
 JSStackFrame
 :
@@ -284,8 +276,6 @@ this
 )
 ;
 }
-#
-endif
 static
 JS_INLINE
 uintN

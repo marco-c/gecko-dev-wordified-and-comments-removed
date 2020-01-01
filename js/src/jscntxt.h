@@ -499,7 +499,6 @@ identity
 x
 )
 x
-typedef
 struct
 JSEvalCacheMeter
 {
@@ -510,7 +509,6 @@ identity
 )
 ;
 }
-JSEvalCacheMeter
 ;
 #
 undef

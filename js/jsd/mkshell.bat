@@ -10,9 +10,6 @@ mak
 JSDEBUGGER_JAVA_UI
 =
 1
-LIVECONNECT
-=
-1
 %
 1
 %
