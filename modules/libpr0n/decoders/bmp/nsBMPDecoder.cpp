@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 RasterImage
 .
 h

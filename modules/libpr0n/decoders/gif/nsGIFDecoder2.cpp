@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIInterfaceRequestorUtils
-.
-h
-"
-#
-include
-"
 nsGIFDecoder2
 .
 h
@@ -30,13 +23,6 @@ h
 include
 "
 nsIInputStream
-.
-h
-"
-#
-include
-"
-nsIComponentManager
 .
 h
 "

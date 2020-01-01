@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
@@ -44,13 +37,6 @@ h
 include
 "
 imgIContainerObserver
-.
-h
-"
-#
-include
-"
-nsIInterfaceRequestorUtils
 .
 h
 "
