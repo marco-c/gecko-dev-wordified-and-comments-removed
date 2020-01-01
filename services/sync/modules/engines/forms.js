@@ -389,6 +389,8 @@ guid
 if
 (
 item
+.
+guid
 !
 =
 null
