@@ -103,11 +103,6 @@ nsICellBroadcastProvider
 idl
 '
 '
-nsIDOMMozCellBroadcast
-.
-idl
-'
-'
 nsIDOMMozCellBroadcastEvent
 .
 idl

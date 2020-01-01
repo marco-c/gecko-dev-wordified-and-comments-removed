@@ -1931,6 +1931,10 @@ IccCardLockErrorEvent
 .
 webidl
 \
+MozCellBroadcast
+.
+webidl
+\
 MozCellBroadcastEvent
 .
 webidl

@@ -1824,12 +1824,6 @@ mozMobileConnection
 ;
 }
 ;
-/
-/
-nsIMozNavigatorCellBroadcast
-interface
-MozCellBroadcast
-;
 partial
 interface
 Navigator
