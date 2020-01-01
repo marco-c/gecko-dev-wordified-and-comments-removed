@@ -746,9 +746,6 @@ cpp
 -
 -
 >
-#
-ifdef
-XP_MACOSX
 <
 radio
 id
@@ -776,12 +773,6 @@ accesskey
 "
 /
 >
-#
-elifdef
-XP_WIN
-#
-ifndef
-NO_IE_MIGRATOR
 <
 radio
 id
@@ -809,10 +800,6 @@ accesskey
 "
 /
 >
-#
-endif
-#
-endif
 <
 radio
 id
