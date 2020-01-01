@@ -276,6 +276,9 @@ BluetoothProfileManagerBase
 >
 mProfiles
 ;
+BluetoothProfileControllerCallback
+mCallback
+;
 uint32_t
 mCod
 ;
@@ -288,8 +291,8 @@ BluetoothReplyRunnable
 >
 mRunnable
 ;
-BluetoothProfileControllerCallback
-mCallback
+bool
+mSuccess
 ;
 }
 ;
