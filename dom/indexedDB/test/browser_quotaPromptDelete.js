@@ -53,14 +53,6 @@ requestLongerTimeout
 10
 )
 ;
-setPermission
-(
-testPageURL
-"
-indexedDB
-"
-)
-;
 removePermission
 (
 testPageURL
