@@ -286,9 +286,6 @@ AddThebesDisplayItem
 ThebesLayer
 *
 aLayer
-nsDisplayListBuilder
-*
-aBuilder
 nsDisplayItem
 *
 aItem
@@ -301,6 +298,9 @@ nsIFrame
 aContainerLayerFrame
 LayerState
 aLayerState
+LayerManager
+*
+aTempManager
 )
 ;
 Layer
