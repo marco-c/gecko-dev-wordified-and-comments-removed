@@ -133,7 +133,7 @@ NSAccessibilityGroupRole
 "
 AXRuler
 "
-NSAccessibilityComboBoxRole
+NSAccessibilityUnknownRole
 NSAccessibilityTextFieldRole
 NSAccessibilityTextFieldRole
 NSAccessibilityStaticTextRole
