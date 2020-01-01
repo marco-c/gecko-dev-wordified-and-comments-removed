@@ -5249,6 +5249,16 @@ span
 ;
 this
 .
+_measurement
+.
+className
+=
+"
+autosizer
+"
+;
+this
+.
 elt
 .
 parentNode
