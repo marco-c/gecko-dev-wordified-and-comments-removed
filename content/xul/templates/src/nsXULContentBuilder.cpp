@@ -1456,7 +1456,6 @@ xuldoc
 >
 AddElementForID
 (
-id
 realKid
 )
 ;

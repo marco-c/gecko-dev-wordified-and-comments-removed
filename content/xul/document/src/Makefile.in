@@ -490,10 +490,6 @@ CPPSRCS
 +
 =
 \
-nsElementMap
-.
-cpp
-\
 nsXULCommandDispatcher
 .
 cpp
