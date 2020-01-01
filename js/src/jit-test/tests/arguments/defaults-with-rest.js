@@ -48,7 +48,7 @@ assertEq
 f1
 .
 length
-3
+2
 )
 ;
 f1
