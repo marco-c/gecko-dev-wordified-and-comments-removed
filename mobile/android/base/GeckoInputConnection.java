@@ -2367,7 +2367,7 @@ INPUT_METHOD_SERVICE
 )
 ;
 }
-public
+protected
 void
 notifyTextChange
 (
@@ -2437,6 +2437,13 @@ toString
 )
 )
 ;
+if
+(
+!
+hasCompositionString
+(
+)
+)
 setEditable
 (
 text
