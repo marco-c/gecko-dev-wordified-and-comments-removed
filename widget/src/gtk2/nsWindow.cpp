@@ -22213,6 +22213,7 @@ return
 NS_OK
 ;
 }
+static
 PRBool
 check_for_rollup
 (
@@ -22488,6 +22489,7 @@ sIsDraggingOutOf
 )
 ;
 }
+static
 PRBool
 is_mouse_in_window
 (
@@ -22645,6 +22647,7 @@ return
 PR_FALSE
 ;
 }
+static
 nsWindow
 *
 get_window_for_gtk_widget
@@ -22679,6 +22682,7 @@ user_data
 )
 ;
 }
+static
 nsWindow
 *
 get_window_for_gdk_window
@@ -22713,6 +22717,7 @@ user_data
 )
 ;
 }
+static
 GtkWidget
 *
 get_gtk_widget_for_gdk_window
@@ -22741,6 +22746,7 @@ user_data
 )
 ;
 }
+static
 GdkCursor
 *
 get_gtk_cursor
@@ -23304,6 +23310,7 @@ return
 gdkcursor
 ;
 }
+static
 gboolean
 expose_event_cb
 (
@@ -23350,6 +23357,7 @@ return
 FALSE
 ;
 }
+static
 gboolean
 configure_event_cb
 (
@@ -23391,6 +23399,7 @@ event
 )
 ;
 }
+static
 void
 container_unrealize_cb
 (
@@ -23426,6 +23435,7 @@ widget
 )
 ;
 }
+static
 void
 size_allocate_cb
 (
@@ -23465,6 +23475,7 @@ allocation
 )
 ;
 }
+static
 gboolean
 delete_event_cb
 (
@@ -23508,6 +23519,7 @@ return
 TRUE
 ;
 }
+static
 gboolean
 enter_notify_event_cb
 (
@@ -23554,6 +23566,7 @@ return
 TRUE
 ;
 }
+static
 gboolean
 leave_notify_event_cb
 (
@@ -23671,6 +23684,7 @@ return
 TRUE
 ;
 }
+static
 nsWindow
 *
 GetFirstNSWindowForGDKWindow
@@ -23722,6 +23736,7 @@ return
 window
 ;
 }
+static
 gboolean
 motion_notify_event_cb
 (
@@ -23780,6 +23795,7 @@ return
 TRUE
 ;
 }
+static
 gboolean
 button_press_event_cb
 (
@@ -23828,6 +23844,7 @@ return
 TRUE
 ;
 }
+static
 gboolean
 button_release_event_cb
 (
@@ -23876,6 +23893,7 @@ return
 TRUE
 ;
 }
+static
 gboolean
 focus_in_event_cb
 (
@@ -23919,6 +23937,7 @@ return
 FALSE
 ;
 }
+static
 gboolean
 focus_out_event_cb
 (
@@ -23965,6 +23984,7 @@ FALSE
 #
 ifdef
 MOZ_X11
+static
 GdkFilterReturn
 popup_take_focus_filter
 (
@@ -24156,6 +24176,7 @@ return
 GDK_FILTER_REMOVE
 ;
 }
+static
 GdkFilterReturn
 plugin_window_filter_func
 (
@@ -24405,6 +24426,7 @@ return
 return_val
 ;
 }
+static
 GdkFilterReturn
 plugin_client_message_filter
 (
@@ -24515,6 +24537,7 @@ return_val
 }
 #
 endif
+static
 gboolean
 key_press_event_cb
 (
@@ -24719,6 +24742,7 @@ event
 )
 ;
 }
+static
 gboolean
 key_release_event_cb
 (
@@ -24785,6 +24809,7 @@ event
 )
 ;
 }
+static
 gboolean
 scroll_event_cb
 (
@@ -24829,6 +24854,7 @@ return
 TRUE
 ;
 }
+static
 gboolean
 visibility_notify_event_cb
 (
@@ -25045,6 +25071,7 @@ event
 ;
 }
 }
+static
 gboolean
 window_state_event_cb
 (
@@ -25088,6 +25115,7 @@ return
 FALSE
 ;
 }
+static
 void
 theme_changed_cb
 (
@@ -25319,6 +25347,7 @@ action
 )
 ;
 }
+static
 gboolean
 drag_motion_event_cb
 (
@@ -25372,6 +25401,7 @@ aData
 )
 ;
 }
+static
 void
 drag_leave_event_cb
 (
@@ -25417,6 +25447,7 @@ aData
 )
 ;
 }
+static
 gboolean
 drag_drop_event_cb
 (
@@ -25471,6 +25502,7 @@ aData
 )
 ;
 }
+static
 void
 drag_data_received_event_cb
 (
@@ -25529,6 +25561,7 @@ aData
 )
 ;
 }
+static
 nsresult
 initialize_prefs
 (
@@ -25731,6 +25764,7 @@ FireDragLeaveTimer
 )
 ;
 }
+static
 GdkWindow
 *
 get_inner_gdk_window
@@ -25898,6 +25932,7 @@ return
 aWindow
 ;
 }
+static
 inline
 PRBool
 is_context_menu_key
@@ -25978,6 +26013,7 @@ isAlt
 )
 ;
 }
+static
 void
 key_event_to_context_menu_event
 (
@@ -26039,6 +26075,7 @@ clickCount
 1
 ;
 }
+static
 int
 is_parent_ungrab_enter
 (
@@ -26083,6 +26120,7 @@ detail
 )
 ;
 }
+static
 int
 is_parent_grab_leave
 (
