@@ -398,10 +398,6 @@ browser_keywordSearch
 .
 js
 \
-browser_allTabsPanel
-.
-js
-\
 browser_alltabslistener
 .
 js
