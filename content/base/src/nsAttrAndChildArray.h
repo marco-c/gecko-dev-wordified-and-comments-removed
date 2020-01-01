@@ -253,6 +253,16 @@ PRUint32
 aPos
 )
 ;
+already_AddRefed
+<
+nsIContent
+>
+TakeChildAt
+(
+PRUint32
+aPos
+)
+;
 PRInt32
 IndexOfChild
 (
