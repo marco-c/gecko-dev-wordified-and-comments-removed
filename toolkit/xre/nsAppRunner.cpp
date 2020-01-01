@@ -14774,6 +14774,13 @@ defined
 (
 MOZ_UPDATER
 )
+&
+&
+!
+defined
+(
+ANDROID
+)
 nsCOMPtr
 <
 nsIFile

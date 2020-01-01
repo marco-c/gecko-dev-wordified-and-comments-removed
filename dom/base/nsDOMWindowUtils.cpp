@@ -2776,6 +2776,9 @@ nsDOMWindowUtils
 :
 GarbageCollect
 (
+nsICycleCollectorListener
+*
+aListener
 )
 {
 #
@@ -2800,6 +2803,7 @@ nsJSContext
 :
 CC
 (
+aListener
 )
 ;
 return
