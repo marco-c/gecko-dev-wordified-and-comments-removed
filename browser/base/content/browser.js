@@ -25792,6 +25792,8 @@ dragData
 boxObject
 .
 height
+/
+2
 )
 {
 gBrowser

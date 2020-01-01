@@ -13881,6 +13881,12 @@ stopPropagation
 )
 ;
 }
+this
+.
+_dragLeftWindow
+=
+false
+;
 ]
 ]
 >
