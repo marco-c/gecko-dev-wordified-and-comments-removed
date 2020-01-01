@@ -21515,8 +21515,13 @@ shape
 return
 true
 ;
+#
+ifdef
+JS_TRACER
 error
 :
+#
+endif
 return
 false
 ;
