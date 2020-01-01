@@ -10,13 +10,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 #
 define
 PROCESSMODEL_WINAPI
