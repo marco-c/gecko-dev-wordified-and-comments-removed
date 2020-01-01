@@ -1999,6 +1999,12 @@ args
 int
 )
 or
+isinstance
+(
+args
+float
+)
+or
 args
 is
 None
