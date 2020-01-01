@@ -4855,7 +4855,7 @@ char
 TypedArray
 :
 :
-viewData
+getDataOffset
 (
 obj
 )
@@ -17492,7 +17492,7 @@ uintptr_t
 TypedArray
 :
 :
-viewData
+getDataOffset
 (
 array
 )
@@ -17510,7 +17510,7 @@ js_memcpy
 TypedArray
 :
 :
-viewData
+getDataOffset
 (
 array
 )
@@ -17624,7 +17624,7 @@ if
 TypedArray
 :
 :
-byteLength
+getByteLength
 (
 obj
 )
@@ -17659,7 +17659,7 @@ uintptr_t
 TypedArray
 :
 :
-viewData
+getDataOffset
 (
 obj
 )
@@ -17697,14 +17697,14 @@ uint64_t
 TypedArray
 :
 :
-viewData
+getDataOffset
 (
 obj
 )
 TypedArray
 :
 :
-byteLength
+getByteLength
 (
 obj
 )
