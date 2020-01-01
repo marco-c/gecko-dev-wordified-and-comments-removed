@@ -25149,6 +25149,12 @@ JSObject
 *
 >
 obj
+Handle
+<
+JSObject
+*
+>
+receiver
 const
 Shape
 *
@@ -25291,6 +25297,7 @@ set
 (
 cx
 obj
+receiver
 strict
 vp
 )
@@ -26378,6 +26385,8 @@ JSContext
 cx
 HandleObject
 obj
+HandleObject
+receiver
 HandleId
 id
 unsigned
@@ -26580,7 +26589,7 @@ setter
 CallSetter
 (
 cx
-obj
+receiver
 id
 pd
 .
@@ -26921,6 +26930,7 @@ set
 (
 cx
 obj
+receiver
 strict
 vp
 )
@@ -27186,6 +27196,7 @@ js_NativeSet
 (
 cx
 obj
+receiver
 shape
 added
 strict
@@ -27204,6 +27215,8 @@ JSContext
 cx
 HandleObject
 obj
+HandleObject
+receiver
 uint32_t
 index
 unsigned
@@ -27246,6 +27259,7 @@ SetPropertyHelper
 (
 cx
 obj
+receiver
 id
 defineHow
 vp

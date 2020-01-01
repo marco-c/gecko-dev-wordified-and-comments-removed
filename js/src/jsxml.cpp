@@ -21207,6 +21207,7 @@ SetPropertyHelper
 (
 cx
 obj
+obj
 funid
 0
 vp
@@ -30437,13 +30438,18 @@ jsval
 rval
 )
 {
+Rooted
+<
 JSObject
 *
+>
 arrayobj
-=
+(
+cx
 NewDenseEmptyArray
 (
 cx
+)
 )
 ;
 if
@@ -30528,6 +30534,7 @@ arrayobj
 setElement
 (
 cx
+arrayobj
 i
 tvr
 .

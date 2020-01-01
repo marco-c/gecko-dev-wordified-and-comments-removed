@@ -2590,6 +2590,7 @@ SetPropertyHelper
 (
 cx
 delegate
+delegate
 id
 0
 vp
@@ -2688,6 +2689,7 @@ SetPropertyHelper
 (
 cx
 delegate
+obj
 id
 0
 vp
@@ -2786,6 +2788,7 @@ SetElementHelper
 (
 cx
 delegate
+obj
 index
 0
 vp
