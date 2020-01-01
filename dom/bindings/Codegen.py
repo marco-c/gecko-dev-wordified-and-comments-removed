@@ -3915,6 +3915,7 @@ callbackDescriptors
                  
 declareIncludes
 defineIncludes
+prefix
 child
                  
 config
@@ -3967,6 +3968,24 @@ in
 the
 .
 cpp
+.
+        
+|
+prefix
+|
+contains
+the
+basename
+of
+the
+file
+that
+we
+generate
+include
+        
+statements
+for
 .
         
 "
@@ -4434,6 +4453,44 @@ FloatingPoint
 .
 h
 "
+)
+            
+elif
+unrolled
+.
+isEnum
+(
+)
+:
+                
+filename
+=
+self
+.
+getDeclarationFilename
+(
+unrolled
+.
+inner
+)
+                
+if
+filename
+!
+=
+prefix
++
+"
+.
+h
+"
+:
+                    
+declareIncludes
+.
+add
+(
+filename
 )
         
 callForEachType
@@ -65454,6 +65511,8 @@ else
 ]
 )
                          
+prefix
+                         
 curr
                          
 config
@@ -69820,6 +69879,8 @@ nsContentUtils
 h
 "
 ]
+"
+"
 self
 .
 root
@@ -76548,6 +76609,10 @@ CGHeaders
 [
 ]
 defineIncludes
+'
+RegisterBindings
+'
+                         
 curr
 )
         
@@ -76862,6 +76927,10 @@ CGHeaders
 ]
 includes
 implincludes
+'
+UnionTypes
+'
+                         
 curr
 )
         
@@ -76992,6 +77061,9 @@ CGHeaders
 headers
 [
 ]
+'
+UnionConversions
+'
 curr
 )
         
