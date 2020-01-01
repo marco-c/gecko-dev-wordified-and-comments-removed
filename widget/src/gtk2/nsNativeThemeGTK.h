@@ -222,6 +222,11 @@ PRUint8
 aWidgetType
 )
 ;
+PRBool
+ThemeNeedsComboboxDropmarker
+(
+)
+;
 nsNativeThemeGTK
 (
 )

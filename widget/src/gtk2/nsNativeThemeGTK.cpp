@@ -4509,3 +4509,15 @@ return
 PR_FALSE
 ;
 }
+PRBool
+nsNativeThemeGTK
+:
+:
+ThemeNeedsComboboxDropmarker
+(
+)
+{
+return
+PR_TRUE
+;
+}

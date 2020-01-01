@@ -7853,3 +7853,15 @@ return
 PR_FALSE
 ;
 }
+PRBool
+nsNativeThemeCocoa
+:
+:
+ThemeNeedsComboboxDropmarker
+(
+)
+{
+return
+PR_FALSE
+;
+}

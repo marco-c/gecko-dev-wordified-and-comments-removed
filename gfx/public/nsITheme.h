@@ -274,6 +274,14 @@ aWidgetType
 =
 0
 ;
+virtual
+PRBool
+ThemeNeedsComboboxDropmarker
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
