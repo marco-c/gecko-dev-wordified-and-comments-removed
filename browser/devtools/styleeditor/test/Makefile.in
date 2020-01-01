@@ -131,6 +131,10 @@ browser_styleeditor_pretty
 .
 js
 \
+browser_styleeditor_private
+.
+js
+\
 browser_styleeditor_readonly
 .
 js
@@ -213,6 +217,14 @@ html
 simple
 .
 html
+\
+test_private
+.
+html
+\
+test_private
+.
+css
 \
 (
 NULL
