@@ -535,9 +535,6 @@ mYSize
 aData
 .
 mCbCrSize
-aData
-.
-mStereoMode
 )
 ;
 }
@@ -704,9 +701,6 @@ mYSize
 aData
 .
 mCbCrSize
-aData
-.
-mStereoMode
 )
 ;
 MOZ_ASSERT
@@ -1139,9 +1133,6 @@ mYSize
 aData
 .
 mCbCrSize
-aData
-.
-mStereoMode
 )
 ;
 }
@@ -1302,9 +1293,6 @@ mYSize
 aData
 .
 mCbCrSize
-aData
-.
-mStereoMode
 )
 ;
 if

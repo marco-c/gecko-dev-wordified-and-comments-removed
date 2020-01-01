@@ -284,7 +284,7 @@ SurfaceDescriptor
 )
 ;
 }
-bool
+void
 DeprecatedTextureClientSharedOGL
 :
 :
@@ -305,9 +305,6 @@ aContentType
 mSize
 =
 aSize
-;
-return
-true
 ;
 }
 }

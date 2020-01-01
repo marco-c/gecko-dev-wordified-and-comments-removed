@@ -107,11 +107,6 @@ GetCbCrSize
 (
 )
 ;
-StereoMode
-GetStereoMode
-(
-)
-;
 uint8_t
 *
 GetData
@@ -220,8 +215,6 @@ gfx
 IntSize
 &
 aCbCrSize
-StereoMode
-aStereoMode
 )
 ;
 void
@@ -235,8 +228,6 @@ const
 gfxIntSize
 &
 aCbCrSize
-StereoMode
-aStereoMode
 )
 ;
 bool

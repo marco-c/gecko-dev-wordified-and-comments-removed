@@ -101,12 +101,17 @@ mSize
 nsExpirationState
 mExpirationState
 ;
+#
+ifdef
+DEBUG
 gfxASurface
 :
 :
 gfxSurfaceType
 mType
 ;
+#
+endif
 }
 ;
 #

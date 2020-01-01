@@ -456,8 +456,6 @@ returns
 (
 TextureFactoryIdentifier
 textureFactoryIdentifier
-bool
-success
 )
 ;
 }

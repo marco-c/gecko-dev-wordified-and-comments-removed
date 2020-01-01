@@ -219,18 +219,6 @@ null_t
 }
 ;
 struct
-SurfaceDescriptorD3D9
-{
-/
-/
-IDirect3DTexture9
-*
-uintptr_t
-texture
-;
-}
-;
-struct
 SurfaceDescriptorD3D10
 {
 WindowsHandle
@@ -628,8 +616,6 @@ SurfaceDescriptor
 SurfaceDescriptorShmem
 ;
 SurfaceDescriptorMemory
-;
-SurfaceDescriptorD3D9
 ;
 SurfaceDescriptorD3D10
 ;

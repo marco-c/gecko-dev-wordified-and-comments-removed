@@ -733,17 +733,6 @@ LockFrontBuffer
 )
 {
 }
-bool
-CreateAndAllocateDeprecatedTextureClient
-(
-RefPtr
-<
-DeprecatedTextureClient
->
-&
-aClient
-)
-;
 RefPtr
 <
 DeprecatedTextureClient

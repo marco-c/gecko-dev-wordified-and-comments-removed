@@ -117,9 +117,6 @@ aId
 TextureFactoryIdentifier
 *
 aTextureFactoryIdentifier
-bool
-*
-aSuccess
 )
 MOZ_OVERRIDE
 ;

@@ -168,9 +168,6 @@ return
 TextureFactoryIdentifier
 (
 LAYERS_BASIC
-XRE_GetProcessType
-(
-)
 GetMaxTextureSize
 (
 )

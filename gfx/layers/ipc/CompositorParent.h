@@ -482,9 +482,6 @@ aId
 TextureFactoryIdentifier
 *
 aTextureFactoryIdentifier
-bool
-*
-aSuccess
 )
 ;
 virtual

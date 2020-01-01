@@ -148,8 +148,6 @@ gfx
 :
 IntSize
 aCbCrSize
-StereoMode
-aStereoMode
 )
 =
 0
@@ -639,8 +637,6 @@ gfx
 :
 IntSize
 aCbCrSize
-StereoMode
-aStereoMode
 )
 MOZ_OVERRIDE
 ;
@@ -1038,7 +1034,7 @@ Unlock
 {
 }
 virtual
-bool
+void
 EnsureAllocated
 (
 gfx
@@ -1246,12 +1242,6 @@ aType
 =
 =
 TEXTURE_CONTENT
-|
-|
-aType
-=
-=
-TEXTURE_FALLBACK
 ;
 }
 virtual
@@ -1294,7 +1284,7 @@ Unlock
 MOZ_OVERRIDE
 ;
 virtual
-bool
+void
 EnsureAllocated
 (
 gfx
@@ -1441,7 +1431,7 @@ aType
 TEXTURE_YCBCR
 ;
 }
-bool
+void
 EnsureAllocated
 (
 gfx
@@ -1537,7 +1527,7 @@ DeprecatedTextureClientTile
 )
 ;
 virtual
-bool
+void
 EnsureAllocated
 (
 gfx
