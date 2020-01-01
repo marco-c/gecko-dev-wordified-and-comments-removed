@@ -79,9 +79,6 @@ A
 class
 nsTArray
 ;
-struct
-nsTArrayDefaultAllocator
-;
 class
 nsStyledElementNotElementCSSInlineStyle
 ;
@@ -1394,7 +1391,6 @@ nsTArray
 const
 EnumTable
 *
-nsTArrayDefaultAllocator
 >
 *
 sEnumTableArray
