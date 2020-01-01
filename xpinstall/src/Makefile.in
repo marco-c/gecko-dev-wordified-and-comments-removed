@@ -675,6 +675,10 @@ nsInstallBitwise
 .
 cpp
 \
+nsXPIInstallInfo
+.
+cpp
+\
 (
 NULL
 )

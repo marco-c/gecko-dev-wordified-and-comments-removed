@@ -126,6 +126,13 @@ h
 #
 include
 "
+nsIXPIInstallInfo
+.
+h
+"
+#
+include
+"
 nsISoftwareUpdate
 .
 h
@@ -274,9 +281,9 @@ NS_DECL_NSICHANNELEVENTSINK
 NS_IMETHOD
 InitManager
 (
-nsIScriptGlobalObject
+nsIDOMWindowInternal
 *
-aGlobalObject
+aParentWindow
 nsXPITriggerInfo
 *
 aTrigger
