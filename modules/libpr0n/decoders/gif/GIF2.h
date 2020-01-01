@@ -110,15 +110,7 @@ rows_remaining
 PRUintn
 irow
 ;
-PRUint8
-*
-rowbuf
-;
-PRUint8
-*
-rowend
-;
-PRUint8
+PRUint32
 *
 rowp
 ;
@@ -136,7 +128,7 @@ tpixel
 PRInt32
 disposal_method
 ;
-PRUint8
+PRUint32
 *
 local_colormap
 ;
@@ -155,7 +147,7 @@ screen_width
 PRUintn
 screen_height
 ;
-int
+PRUint32
 global_colormap_size
 ;
 int
@@ -173,9 +165,6 @@ interlaced
 PRPackedBool
 is_transparent
 ;
-PRPackedBool
-is_local_colormap_defined
-;
 PRUint16
 prefix
 [
@@ -188,11 +177,9 @@ hold
 MAX_HOLD_SIZE
 ]
 ;
-PRUint8
+PRUint32
 global_colormap
 [
-3
-*
 MAX_COLORS
 ]
 ;
