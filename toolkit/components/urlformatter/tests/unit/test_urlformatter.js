@@ -3,8 +3,6 @@ run_test
 (
 )
 {
-return
-;
 var
 formatter
 =
