@@ -111,6 +111,10 @@ inFunction
 (
 inFunction
 )
+inForInit
+(
+false
+)
 {
 }
 inline
