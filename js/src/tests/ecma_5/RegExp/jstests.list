@@ -49,3 +49,9 @@ script
 01
 .
 js
+script
+empty
+-
+lookahead
+.
+js
