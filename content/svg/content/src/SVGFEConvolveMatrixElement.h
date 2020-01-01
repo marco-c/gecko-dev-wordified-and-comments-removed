@@ -344,7 +344,7 @@ TargetY
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 EdgeMode
 (

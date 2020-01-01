@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGAnimatedEnumeration
-;
-interface
 SVGFEColorMatrixElement
 :
 SVGElement

@@ -229,7 +229,7 @@ gradientTransform
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 GradientUnits
 (
@@ -245,7 +245,7 @@ GradientTransform
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SpreadMethod
 (

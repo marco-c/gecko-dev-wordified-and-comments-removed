@@ -218,7 +218,7 @@ Height
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 FilterUnits
 (
@@ -226,7 +226,7 @@ FilterUnits
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 PrimitiveUnits
 (

@@ -313,7 +313,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SVGPatternElement
 :
@@ -336,7 +336,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SVGPatternElement
 :

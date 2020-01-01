@@ -156,7 +156,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 MaskUnits
 (
@@ -164,7 +164,7 @@ MaskUnits
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 MaskContentUnits
 (

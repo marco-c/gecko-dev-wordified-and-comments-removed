@@ -145,9 +145,6 @@ apply
 *
 /
 interface
-SVGAnimatedEnumeration
-;
-interface
 SVGPatternElement
 :
 SVGElement

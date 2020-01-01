@@ -951,6 +951,10 @@ SVGAnimatedBoolean
 .
 webidl
 \
+SVGAnimatedEnumeration
+.
+webidl
+\
 SVGAnimatedLength
 .
 webidl

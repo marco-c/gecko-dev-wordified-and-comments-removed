@@ -1998,7 +1998,7 @@ type
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 SVGComponentTransferFunctionElement
 :

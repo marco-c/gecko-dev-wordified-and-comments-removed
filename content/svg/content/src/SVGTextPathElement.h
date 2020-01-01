@@ -230,7 +230,7 @@ StartOffset
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 Method
 (
@@ -238,7 +238,7 @@ Method
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 Spacing
 (

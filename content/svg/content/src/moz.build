@@ -177,6 +177,11 @@ SVGAnimatedBoolean
 h
 '
 '
+SVGAnimatedEnumeration
+.
+h
+'
+'
 SVGAnimatedLength
 .
 h
@@ -628,6 +633,11 @@ cpp
 '
 '
 SVGAnimatedBoolean
+.
+cpp
+'
+'
+SVGAnimatedEnumeration
 .
 cpp
 '

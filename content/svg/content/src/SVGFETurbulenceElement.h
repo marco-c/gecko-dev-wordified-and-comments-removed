@@ -260,7 +260,7 @@ Seed
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 StitchTiles
 (
@@ -268,7 +268,7 @@ StitchTiles
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedEnumeration
+SVGAnimatedEnumeration
 >
 Type
 (
