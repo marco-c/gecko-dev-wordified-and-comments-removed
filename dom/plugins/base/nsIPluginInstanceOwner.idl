@@ -438,13 +438,6 @@ idl
 #
 include
 "
-nsIPlugin
-.
-idl
-"
-#
-include
-"
 nsIInputStream
 .
 idl

@@ -442,10 +442,6 @@ nsIHTTPHeaderListener
 .
 idl
 \
-nsIPlugin
-.
-idl
-\
 nsIPluginDocument
 .
 idl

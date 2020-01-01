@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIPlugin
-.
-h
-"
-#
-include
-"
 nsNPAPIPluginInstance
 .
 h
@@ -5841,9 +5834,9 @@ here
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIPlugin
+nsNPAPIPlugin
 >
 plugin
 ;
@@ -7631,7 +7624,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -7641,7 +7634,7 @@ const
 char
 *
 aMimeType
-nsIPlugin
+nsNPAPIPlugin
 *
 *
 aPlugin

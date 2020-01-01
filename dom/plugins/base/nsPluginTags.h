@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIPlugin
-.
-h
-"
-#
-include
-"
 nsNPAPIPluginInstance
 .
 h
