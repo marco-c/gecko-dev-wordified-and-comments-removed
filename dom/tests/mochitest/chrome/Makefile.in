@@ -552,6 +552,14 @@ html
 .
 html
 \
+test_focus_docnav
+.
+xul
+\
+window_focus_docnav
+.
+xul
+\
 (
 NULL
 )
