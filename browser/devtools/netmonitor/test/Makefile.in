@@ -121,6 +121,12 @@ collapse
 .
 js
 \
+browser_net_pane
+-
+toggle
+.
+js
+\
 browser_net_simple
 -
 request
