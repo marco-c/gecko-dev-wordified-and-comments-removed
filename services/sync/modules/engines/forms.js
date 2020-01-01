@@ -1279,7 +1279,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 Ignoring
