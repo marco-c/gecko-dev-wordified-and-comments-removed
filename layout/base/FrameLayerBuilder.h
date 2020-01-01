@@ -132,7 +132,15 @@ Init
 ;
 }
 void
-BeginUpdatingRetainedLayers
+WillBeginRetainedLayerTransaction
+(
+LayerManager
+*
+aManager
+)
+;
+void
+WillEndTransaction
 (
 LayerManager
 *
