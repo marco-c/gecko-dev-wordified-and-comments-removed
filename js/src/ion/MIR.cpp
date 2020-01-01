@@ -578,7 +578,7 @@ next_
 ;
 }
 void
-MDefinition
+MNode
 :
 :
 replaceOperand
@@ -647,7 +647,7 @@ use
 ;
 }
 void
-MDefinition
+MNode
 :
 :
 replaceOperand
@@ -684,7 +684,7 @@ ins
 ;
 }
 void
-MDefinition
+MNode
 :
 :
 replaceOperand
@@ -742,7 +742,7 @@ index
 uses
 -
 >
-ins
+node
 (
 )
 =
