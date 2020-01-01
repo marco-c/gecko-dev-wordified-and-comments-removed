@@ -214,10 +214,8 @@ nsISupports
 s
 )
 {
-nsCOMPtr
-<
 nsISupports
->
+*
 foo
 ;
 s
@@ -229,8 +227,14 @@ NS_GET_IID
 (
 nsCycleCollectionISupports
 )
-getter_AddRefs
+reinterpret_cast
+<
+void
+*
+*
+>
 (
+&
 foo
 )
 )

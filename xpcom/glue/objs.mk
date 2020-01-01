@@ -505,6 +505,10 @@ nsCycleCollectionParticipant
 .
 cpp
 \
+nsCycleCollectorUtils
+.
+cpp
+\
 nsDeque
 .
 cpp

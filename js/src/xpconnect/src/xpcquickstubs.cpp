@@ -3379,6 +3379,9 @@ inline
 nsresult
 getNativeFromWrapper
 (
+JSContext
+*
+cx
 XPCWrappedNative
 *
 wrapper
@@ -3417,7 +3420,7 @@ GetOffsets
 wrapper
 -
 >
-GetFlatJSObject
+GetFlatJSObjectAndMark
 (
 )
 iid
@@ -3557,6 +3560,7 @@ rv
 =
 getNativeFromWrapper
 (
+cx
 wrapper
 iid
 ppThis

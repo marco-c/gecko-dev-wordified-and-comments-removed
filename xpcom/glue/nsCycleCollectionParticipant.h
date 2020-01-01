@@ -583,8 +583,10 @@ nsCycleCollectionISupports
 )
 )
 )
+{
 \
-foundInterface
+*
+aInstancePtr
 =
 NS_CYCLE_COLLECTION_CLASSNAME
 (
@@ -598,6 +600,11 @@ this
 )
 ;
 \
+return
+NS_OK
+;
+\
+}
 else
 #
 define
