@@ -617,6 +617,14 @@ places
 .
 "
 "
+plugin
+.
+"
+"
+plugins
+.
+"
+"
 print
 .
 "
