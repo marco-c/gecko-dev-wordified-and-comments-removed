@@ -1128,6 +1128,8 @@ Point
 aOffset
 Float
 aSigma
+CompositionOp
+aOperator
 )
 =
 0

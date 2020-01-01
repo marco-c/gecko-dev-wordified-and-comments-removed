@@ -1361,6 +1361,8 @@ Point
 aOffset
 Float
 aSigma
+CompositionOp
+aOperator
 )
 {
 RefPtr
@@ -3324,6 +3326,19 @@ Apply
 mDevice
 -
 >
+OMSetBlendState
+(
+GetBlendStateForOperator
+(
+aOperator
+)
+NULL
+0xffffffff
+)
+;
+mDevice
+-
+>
 Draw
 (
 4
@@ -3480,7 +3495,7 @@ OMSetBlendState
 (
 GetBlendStateForOperator
 (
-OP_OVER
+aOperator
 )
 NULL
 0xffffffff
