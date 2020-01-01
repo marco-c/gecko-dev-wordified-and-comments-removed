@@ -135,7 +135,7 @@ MBSPatchHeader
 header
 )
 {
-int
+size_t
 s
 =
 fread
@@ -392,7 +392,7 @@ rv
 =
 OK
 ;
-int
+size_t
 r
 =
 header
@@ -422,7 +422,7 @@ while
 r
 )
 {
-int
+size_t
 c
 =
 fread
