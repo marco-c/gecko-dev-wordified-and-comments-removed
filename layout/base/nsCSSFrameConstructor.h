@@ -750,7 +750,8 @@ nsChangeHint
 aExtraHint
 )
 ;
-nsresult
+nsIFrame
+*
 CreateContinuingFrame
 (
 nsPresContext
@@ -762,10 +763,6 @@ aFrame
 nsIFrame
 *
 aParentFrame
-nsIFrame
-*
-*
-aContinuingFrame
 bool
 aIsFluid
 =
@@ -3791,7 +3788,8 @@ nsresult
 aResult
 )
 ;
-nsresult
+nsIFrame
+*
 CreateContinuingOuterTableFrame
 (
 nsIPresShell
@@ -3812,10 +3810,6 @@ aContent
 nsStyleContext
 *
 aStyleContext
-nsIFrame
-*
-*
-aContinuingFrame
 )
 ;
 nsIFrame
