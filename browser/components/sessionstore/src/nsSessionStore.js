@@ -2821,6 +2821,16 @@ _closedTabs
 .
 length
 ;
+if
+(
+!
+aWindow
+.
+__SSi
+)
+return
+0
+;
 return
 this
 .
