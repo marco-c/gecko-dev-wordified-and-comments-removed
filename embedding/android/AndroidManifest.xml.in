@@ -1311,13 +1311,6 @@ Translucent
 "
 android
 :
-configChanges
-=
-"
-orientation
-"
-android
-:
 windowSoftInputMode
 =
 "
