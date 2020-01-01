@@ -4698,7 +4698,7 @@ return
 NS_NewAdoptingStringEnumerator
 (
 aPrinterNameList
-array
+printers
 )
 ;
 }
