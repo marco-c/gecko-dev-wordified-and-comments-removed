@@ -4351,12 +4351,12 @@ pushThis
 ;
 if
 (
-!
 function
 (
 )
-|
-|
+&
+&
+(
 function
 (
 )
@@ -4374,6 +4374,7 @@ function
 >
 isSelfHostedBuiltin
 (
+)
 )
 )
 return
