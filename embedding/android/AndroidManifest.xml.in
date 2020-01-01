@@ -64,7 +64,7 @@ android
 versionCode
 =
 "
-BUILD_ID
+1
 "
 android
 :
