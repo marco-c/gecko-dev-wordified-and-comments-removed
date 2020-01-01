@@ -1954,6 +1954,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 if
 (
 mIsRTL
@@ -1984,6 +1990,8 @@ dwAttribute
 )
 ;
 }
+#
+endif
 if
 (
 nsWindow
