@@ -4791,6 +4791,15 @@ compartment
 (
 )
 ;
+AutoDisableProxyCheck
+adpc
+(
+cx
+-
+>
+runtime
+)
+;
 JS_ASSERT_IF
 (
 origTarget
