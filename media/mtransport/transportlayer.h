@@ -16,6 +16,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -227,7 +236,10 @@ nsIThread
 *
 thr
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 NS_GetCurrentThread
