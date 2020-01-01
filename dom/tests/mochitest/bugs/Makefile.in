@@ -704,14 +704,6 @@ test_bug531176
 .
 html
 \
-test_bug534362
-.
-html
-\
-iframe_bug534362
-.
-html
-\
 test_bug531542
 .
 html
