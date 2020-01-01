@@ -115,6 +115,10 @@ hover_helper
 .
 html
 \
+test_additional_sheets
+.
+html
+\
 (
 NULL
 )
@@ -122,6 +126,10 @@ MOCHITEST_FILES
 =
 \
 moz_document_helper
+.
+html
+\
+additional_sheets_helper
 .
 html
 \
