@@ -2129,6 +2129,12 @@ GetInputContext
 (
 )
 {
+mInputContext
+.
+mNativeIMEContext
+=
+nullptr
+;
 return
 mInputContext
 ;
