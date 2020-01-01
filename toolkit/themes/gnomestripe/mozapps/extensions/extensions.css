@@ -591,6 +591,14 @@ color
 :
 Window
 ;
+background
+-
+clip
+:
+padding
+-
+box
+;
 }
 .
 alert

@@ -1357,6 +1357,14 @@ FFF
 ECF1F7
 )
 ;
+background
+-
+clip
+:
+padding
+-
+box
+;
 box
 -
 shadow
