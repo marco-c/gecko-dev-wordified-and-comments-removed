@@ -7785,7 +7785,7 @@ htmlFormControls
 IndexOf
 (
 aContent
-PR_FALSE
+PR_TRUE
 )
 ;
 if
