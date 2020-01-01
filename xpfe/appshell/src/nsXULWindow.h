@@ -409,9 +409,6 @@ CreateNewChromeWindow
 (
 PRInt32
 aChromeFlags
-nsIAppShell
-*
-aAppShell
 nsIXULWindow
 *
 *
@@ -423,9 +420,6 @@ CreateNewContentWindow
 (
 PRInt32
 aChromeFlags
-nsIAppShell
-*
-aAppShell
 nsIXULWindow
 *
 *

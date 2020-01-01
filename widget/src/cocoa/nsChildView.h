@@ -89,13 +89,6 @@ h
 #
 include
 "
-nsIAppShell
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -1096,11 +1089,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
-=
-nsnull
 nsIToolkit
 *
 aToolkit

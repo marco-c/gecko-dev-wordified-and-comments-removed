@@ -1973,7 +1973,6 @@ nsIntRect
 eventHandler
 dx
 nsnull
-nsnull
 &
 initData
 )

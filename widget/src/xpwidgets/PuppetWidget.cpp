@@ -285,9 +285,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -317,7 +314,6 @@ nsnull
 aRect
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 aInitData
 )
@@ -475,9 +471,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -532,7 +525,6 @@ nsnull
 aRect
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 aInitData
 )

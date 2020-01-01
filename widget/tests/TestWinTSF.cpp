@@ -5766,7 +5766,6 @@ nsIWebBrowserChrome
 CHROME_DEFAULT
 800
 600
-mAppShell
 getter_AddRefs
 (
 mWindow

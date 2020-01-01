@@ -11344,9 +11344,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -11410,7 +11407,6 @@ baseParent
 aRect
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 aInitData
 )
@@ -11557,9 +11553,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -11578,7 +11571,6 @@ CreateChild
 aRect
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 aInitData
 PR_TRUE

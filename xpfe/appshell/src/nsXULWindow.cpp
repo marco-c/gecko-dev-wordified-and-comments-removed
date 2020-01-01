@@ -71,7 +71,7 @@ h
 #
 include
 "
-nsIContentViewer
+nsIDocumentViewer
 .
 h
 "
@@ -7524,9 +7524,6 @@ CreateNewWindow
 (
 PRInt32
 aChromeFlags
-nsIAppShell
-*
-aAppShell
 nsIXULWindow
 *
 *
@@ -7551,7 +7548,6 @@ return
 CreateNewChromeWindow
 (
 aChromeFlags
-aAppShell
 _retval
 )
 ;
@@ -7559,7 +7555,6 @@ return
 CreateNewContentWindow
 (
 aChromeFlags
-aAppShell
 _retval
 )
 ;
@@ -7572,9 +7567,6 @@ CreateNewChromeWindow
 (
 PRInt32
 aChromeFlags
-nsIAppShell
-*
-aAppShell
 nsIXULWindow
 *
 *
@@ -7621,7 +7613,6 @@ nsIAppShellService
 :
 :
 SIZE_TO_CONTENT
-aAppShell
 getter_AddRefs
 (
 newWindow
@@ -7657,9 +7648,6 @@ CreateNewContentWindow
 (
 PRInt32
 aChromeFlags
-nsIAppShell
-*
-aAppShell
 nsIXULWindow
 *
 *
@@ -7788,7 +7776,6 @@ uri
 aChromeFlags
 615
 480
-aAppShell
 getter_AddRefs
 (
 newWindow
