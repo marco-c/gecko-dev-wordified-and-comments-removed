@@ -632,6 +632,7 @@ mp1
 mp2
 )
 inst
+NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 return
@@ -1159,6 +1160,7 @@ mp1
 mp2
 )
 inst
+NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 else
@@ -1180,6 +1182,7 @@ mp1
 mp2
 )
 inst
+NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 if
@@ -1418,6 +1421,7 @@ GetLParam
 )
 )
 inst
+NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 Clear

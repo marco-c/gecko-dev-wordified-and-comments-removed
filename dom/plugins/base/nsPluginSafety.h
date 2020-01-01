@@ -11,6 +11,9 @@ prinrval
 .
 h
 >
+enum
+NSPluginCallReentry
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID
@@ -39,12 +42,17 @@ endif
 PRIntervalTime
 NS_NotifyBeginPluginCall
 (
+NSPluginCallReentry
+aReentryState
 )
 ;
 void
 NS_NotifyPluginCall
 (
 PRIntervalTime
+aTime
+NSPluginCallReentry
+aReentryState
 )
 ;
 #
@@ -54,6 +62,7 @@ NS_TRY_SAFE_CALL_RETURN
 ret
 fun
 pluginInst
+pluginCallReentry
 )
 \
 PR_BEGIN_MACRO
@@ -66,6 +75,7 @@ startTime
 =
 NS_NotifyBeginPluginCall
 (
+pluginCallReentry
 )
 ;
 \
@@ -77,6 +87,7 @@ fun
 NS_NotifyPluginCall
 (
 startTime
+pluginCallReentry
 )
 ;
 \
@@ -87,6 +98,7 @@ NS_TRY_SAFE_CALL_VOID
 (
 fun
 pluginInst
+pluginCallReentry
 )
 \
 PR_BEGIN_MACRO
@@ -99,6 +111,7 @@ startTime
 =
 NS_NotifyBeginPluginCall
 (
+pluginCallReentry
 )
 ;
 \
@@ -108,6 +121,7 @@ fun
 NS_NotifyPluginCall
 (
 startTime
+pluginCallReentry
 )
 ;
 \
