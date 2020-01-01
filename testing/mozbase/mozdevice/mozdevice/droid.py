@@ -736,6 +736,28 @@ data
 )
         
 if
+not
+m
+:
+            
+m
+=
+re
+.
+search
+(
+'
+FocusedApplication
+(
+.
++
+)
+/
+'
+data
+)
+        
+if
 m
 :
             
@@ -777,6 +799,23 @@ group
 (
 1
 )
+        
+if
+not
+package
+:
+            
+print
+"
+Warning
+:
+getTopActivity
+unable
+to
+find
+focused
+app
+"
         
 return
 package
