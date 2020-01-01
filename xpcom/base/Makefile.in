@@ -894,6 +894,7 @@ endif
 LOCAL_INCLUDES
 +
 =
+\
 -
 I
 (
@@ -904,3 +905,17 @@ srcdir
 .
 /
 build
+\
+-
+I
+(
+topsrcdir
+)
+/
+xpcom
+/
+ds
+\
+(
+NULL
+)
