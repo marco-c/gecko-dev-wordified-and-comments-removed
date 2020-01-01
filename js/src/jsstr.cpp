@@ -15412,6 +15412,9 @@ JS_FS_END
 }
 ;
 #
+ifdef
+JS_HAS_STATIC_STRINGS
+#
 define
 R2
 (
@@ -16784,6 +16787,8 @@ R3
 #
 undef
 R7
+#
+endif
 JSBool
 js_String
 (

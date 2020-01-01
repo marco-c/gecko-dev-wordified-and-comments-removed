@@ -5814,6 +5814,9 @@ LIns
 out_ins
 )
 ;
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 JS_REQUIRES_STACK
 nanojit
 :
@@ -5866,6 +5869,8 @@ LIns
 out_ins
 )
 ;
+#
+endif
 JS_REQUIRES_STACK
 RecordingStatus
 initOrSetPropertyByName

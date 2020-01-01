@@ -837,7 +837,7 @@ JSXML
 thing
 )
 {
-JS_ASSERT_IF
+JS_OPT_ASSERT_IF
 (
 gcmarker
 -
@@ -904,7 +904,7 @@ JSObject
 thing
 )
 {
-JS_ASSERT_IF
+JS_OPT_ASSERT_IF
 (
 gcmarker
 -
@@ -971,7 +971,7 @@ JSFunction
 thing
 )
 {
-JS_ASSERT_IF
+JS_OPT_ASSERT_IF
 (
 gcmarker
 -
@@ -1108,7 +1108,7 @@ JSShortString
 thing
 )
 {
-JS_ASSERT_IF
+JS_OPT_ASSERT_IF
 (
 gcmarker
 -
@@ -1182,7 +1182,7 @@ Shape
 thing
 )
 {
-JS_ASSERT_IF
+JS_OPT_ASSERT_IF
 (
 gcmarker
 -
@@ -3014,7 +3014,7 @@ JSRope
 rope
 )
 {
-JS_ASSERT_IF
+JS_OPT_ASSERT_IF
 (
 gcmarker
 -
@@ -3213,7 +3213,7 @@ JSString
 str
 )
 {
-JS_ASSERT_IF
+JS_OPT_ASSERT_IF
 (
 gcmarker
 -
