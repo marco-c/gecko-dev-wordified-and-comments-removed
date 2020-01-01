@@ -61,9 +61,9 @@ ensureDenseArrayInitializedLength
 JSContext
 *
 cx
-uint32
+uint32_t
 index
-uint32
+uint32_t
 extra
 )
 {
@@ -79,7 +79,7 @@ getDenseArrayCapacity
 )
 )
 ;
-uint32
+uint32_t
 &
 initlen
 =

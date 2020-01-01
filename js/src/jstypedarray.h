@@ -90,7 +90,7 @@ create
 JSContext
 *
 cx
-int32
+int32_t
 nbytes
 )
 ;
@@ -171,7 +171,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSObject
 *
@@ -264,7 +264,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 const
 Value
@@ -356,7 +356,7 @@ obj
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *
@@ -376,7 +376,7 @@ obj
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *
@@ -455,7 +455,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -528,7 +528,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -597,7 +597,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -670,7 +670,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -932,7 +932,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSObject
 *
@@ -1011,7 +1011,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -1080,7 +1080,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -1105,7 +1105,7 @@ attrsp
 )
 ;
 static
-JSUint32
+uint32_t
 getLength
 (
 JSObject
@@ -1114,7 +1114,7 @@ obj
 )
 ;
 static
-JSUint32
+uint32_t
 getByteOffset
 (
 JSObject
@@ -1123,7 +1123,7 @@ obj
 )
 ;
 static
-JSUint32
+uint32_t
 getByteLength
 (
 JSObject
@@ -1132,7 +1132,7 @@ obj
 )
 ;
 static
-JSUint32
+uint32_t
 getType
 (
 JSObject
@@ -1183,7 +1183,7 @@ NULL
 ;
 static
 inline
-uint32
+uint32_t
 slotWidth
 (
 int
@@ -1397,7 +1397,7 @@ js_CreateArrayBuffer
 JSContext
 *
 cx
-jsuint
+uint32_t
 nbytes
 )
 ;
@@ -1413,7 +1413,7 @@ JSContext
 cx
 jsint
 atype
-jsuint
+uint32_t
 nelements
 )
 ;
@@ -1456,7 +1456,7 @@ length
 )
 ;
 extern
-int32
+int32_t
 JS_FASTCALL
 js_TypedArray_uint8_clamp_double
 (
@@ -1467,7 +1467,7 @@ x
 ;
 JS_FRIEND_API
 (
-JSUint32
+uint32_t
 )
 JS_GetArrayBufferByteLength
 (
@@ -1478,7 +1478,7 @@ obj
 ;
 JS_FRIEND_API
 (
-uint8
+uint8_t
 *
 )
 JS_GetArrayBufferData
@@ -1490,7 +1490,7 @@ obj
 ;
 JS_FRIEND_API
 (
-JSUint32
+uint32_t
 )
 JS_GetTypedArrayLength
 (
@@ -1501,7 +1501,7 @@ obj
 ;
 JS_FRIEND_API
 (
-JSUint32
+uint32_t
 )
 JS_GetTypedArrayByteOffset
 (
@@ -1512,7 +1512,7 @@ obj
 ;
 JS_FRIEND_API
 (
-JSUint32
+uint32_t
 )
 JS_GetTypedArrayByteLength
 (
@@ -1523,7 +1523,7 @@ obj
 ;
 JS_FRIEND_API
 (
-JSUint32
+uint32_t
 )
 JS_GetTypedArrayType
 (

@@ -170,7 +170,7 @@ setSlot
 LENGTH_SLOT
 Int32Value
 (
-int32
+int32_t
 (
 str
 -

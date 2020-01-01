@@ -481,7 +481,7 @@ f
 return
 ;
 }
-uint32
+uint32_t
 slot
 =
 shape
@@ -525,7 +525,7 @@ lastProperty
 )
 )
 ;
-uint32
+uint32_t
 index
 =
 obj
@@ -1057,7 +1057,7 @@ lastProperty
 )
 )
 ;
-uint32
+uint32_t
 index
 =
 obj
@@ -1429,7 +1429,7 @@ true
 ;
 static
 const
-uint32
+uint32_t
 INLINE_PATH_LENGTH
 =
 64
@@ -2652,9 +2652,9 @@ NativeStubLinker
 FinalJump
 *
 result
-int32
+int32_t
 initialFrameDepth
-int32
+int32_t
 vpOffset
 MaybeRegisterID
 typeReg
@@ -3246,7 +3246,7 @@ from
 JSScript
 *
 script
-uint32
+uint32_t
 flags
 )
 {
@@ -3592,7 +3592,7 @@ JSFrameReg
 ncode
 =
 (
-uint8
+uint8_t
 *
 )
 f
@@ -3846,7 +3846,7 @@ LinkBuffer
 code
 (
 (
-uint8
+uint8_t
 *
 )
 cs
@@ -4949,7 +4949,7 @@ pc
 t0
 )
 ;
-int32
+int32_t
 storeFrameDepth
 =
 ic
@@ -5046,11 +5046,11 @@ ArgReg2
 ;
 #
 endif
-uint32
+uint32_t
 vpOffset
 =
 (
-uint32
+uint32_t
 )
 (
 (
@@ -5640,7 +5640,7 @@ JS_ASSERT
 script
 )
 ;
-uint32
+uint32_t
 flags
 =
 callingNew

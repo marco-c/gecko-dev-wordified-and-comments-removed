@@ -328,7 +328,7 @@ STUB_CALLS_FOR_OP_COUNT
 255
 ;
 static
-uint32
+uint32_t
 StubCallsForOp
 [
 STUB_CALLS_FOR_OP_COUNT
@@ -6914,7 +6914,7 @@ pics
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -6937,7 +6937,7 @@ i
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -6960,7 +6960,7 @@ i
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -7098,7 +7098,7 @@ callICs
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -7183,12 +7183,12 @@ callers
 .
 next
 ;
-uint8
+uint8_t
 *
 start
 =
 (
-uint8
+uint8_t
 *
 )
 ic
@@ -7994,7 +7994,7 @@ low
 JS_ASSERT
 (
 (
-uint8
+uint8_t
 *
 )
 ic
@@ -8023,11 +8023,7 @@ call
 inlineIndex
 !
 =
-uint32
-(
--
-1
-)
+UINT32_MAX
 )
 {
 if

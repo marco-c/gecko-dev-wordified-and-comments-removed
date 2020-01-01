@@ -635,7 +635,7 @@ cx
 FunctionBox
 *
 funbox
-uint32
+uint32_t
 functionCount
 )
 {
@@ -980,13 +980,13 @@ true
 ;
 }
 static
-uint32
+uint32_t
 MinBlockId
 (
 ParseNode
 *
 fn
-uint32
+uint32_t
 id
 )
 {
@@ -1062,7 +1062,7 @@ dn
 FunctionBox
 *
 funbox
-uint32
+uint32_t
 tcflags
 )
 {
@@ -1388,7 +1388,7 @@ dn
 FunctionBox
 *
 funbox
-uint32
+uint32_t
 *
 tcflags
 )
@@ -1494,7 +1494,7 @@ SetFunctionKinds
 FunctionBox
 *
 funbox
-uint32
+uint32_t
 *
 tcflags
 bool

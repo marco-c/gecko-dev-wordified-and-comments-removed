@@ -1786,7 +1786,7 @@ sFunctions
 ;
 protected
 :
-uint64
+uint64_t
 *
 mData
 ;
@@ -3570,7 +3570,7 @@ JSBool
 bubbles
 cancelable
 ;
-uint32
+uint32_t
 lineNumber
 ;
 if

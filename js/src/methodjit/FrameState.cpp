@@ -290,7 +290,7 @@ pushActiveFrame
 JSScript
 *
 script
-uint32
+uint32_t
 argc
 )
 {
@@ -357,12 +357,12 @@ StackEntryExtra
 *
 nentries
 ;
-uint8
+uint8_t
 *
 cursor
 =
 (
-uint8
+uint8_t
 *
 )
 cx
@@ -452,7 +452,7 @@ JS_ASSERT
 (
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -1376,7 +1376,7 @@ a
 spBase
 )
 ;
-uint32
+uint32_t
 offset
 =
 pc
@@ -1416,7 +1416,7 @@ FrameState
 :
 bestEvictReg
 (
-uint32
+uint32_t
 mask
 bool
 includePinned
@@ -1458,14 +1458,10 @@ AvailFPRegs
 AnyRegisterID
 fallback
 ;
-uint32
+uint32_t
 fallbackOffset
 =
-uint32
-(
--
-1
-)
+UINT32_MAX
 ;
 JaegerSpew
 (
@@ -1484,7 +1480,7 @@ n
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1728,7 +1724,7 @@ locals
 )
 )
 {
-uint32
+uint32_t
 offset
 =
 a
@@ -2034,7 +2030,7 @@ includePinned
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2268,7 +2264,7 @@ FrameState
 :
 evictSomeReg
 (
-uint32
+uint32_t
 mask
 )
 {
@@ -2366,7 +2362,7 @@ fallback
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2563,7 +2559,7 @@ resetInternalState
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2927,7 +2923,7 @@ ifdef
 DEBUG
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3356,7 +3352,7 @@ a
 parent
 |
 |
-uint32
+uint32_t
 (
 target
 -
@@ -3493,7 +3489,7 @@ phiOffset
 )
 =
 =
-uint32
+uint32_t
 (
 target
 -
@@ -4066,7 +4062,7 @@ PC
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 tracker
@@ -4970,7 +4966,7 @@ RegisterAllocation
 *
 &
 alloc
-uint32
+uint32_t
 stackDepth
 )
 {
@@ -7089,14 +7085,14 @@ Registers
 AvailAnyRegs
 )
 ;
-int32
+int32_t
 copyCount
 =
 0
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -7453,7 +7449,7 @@ freeRegs
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -7538,7 +7534,7 @@ isTracked
 }
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -9533,7 +9529,7 @@ fe
 )
 ;
 }
-uint32
+uint32_t
 mask
 =
 Registers
@@ -11402,7 +11398,7 @@ isCopied
 {
 for
 (
-uint32
+uint32_t
 i
 =
 fe
@@ -11627,7 +11623,7 @@ newValue
 =
 Int32Value
 (
-int32
+int32_t
 (
 fe
 -
@@ -11873,7 +11869,7 @@ parent
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -12081,7 +12077,7 @@ FrameEntry
 original
 )
 {
-uint32
+uint32_t
 firstCopy
 =
 InvalidIndex
@@ -12092,14 +12088,14 @@ bestFe
 =
 NULL
 ;
-uint32
+uint32_t
 ncopies
 =
 0
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 original
@@ -12263,7 +12259,7 @@ ncopies
 {
 for
 (
-uint32
+uint32_t
 i
 =
 firstCopy
@@ -12388,12 +12384,12 @@ bestFe
 =
 NULL
 ;
-uint32
+uint32_t
 ncopies
 =
 0
 ;
-uint32
+uint32_t
 maxvisits
 =
 tracker
@@ -12567,7 +12563,7 @@ trackerIndex
 *
 2
 >
-uint32
+uint32_t
 (
 a
 -
@@ -12931,7 +12927,7 @@ backing
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 backing
@@ -13086,7 +13082,7 @@ FrameState
 :
 storeLocal
 (
-uint32
+uint32_t
 n
 bool
 popGuaranteed
@@ -13184,7 +13180,7 @@ FrameState
 :
 storeArg
 (
-uint32
+uint32_t
 n
 bool
 popGuaranteed
@@ -13617,7 +13613,7 @@ return
 }
 for
 (
-uint32
+uint32_t
 i
 =
 backing
@@ -13950,7 +13946,7 @@ FrameState
 :
 shimmy
 (
-uint32
+uint32_t
 n
 )
 {
@@ -13970,12 +13966,12 @@ a
 spBase
 )
 ;
-int32
+int32_t
 depth
 =
 0
 -
-int32
+int32_t
 (
 n
 )
@@ -14002,7 +13998,7 @@ FrameState
 :
 shift
 (
-int32
+int32_t
 n
 )
 {
@@ -16228,7 +16224,7 @@ inRegister
 (
 )
 ;
-uint32
+uint32_t
 mask
 =
 Registers
@@ -17101,7 +17097,7 @@ reg
 )
 ;
 }
-uint32
+uint32_t
 FrameState
 :
 :
@@ -17119,11 +17115,7 @@ temporaries
 TEMPORARY_LIMIT
 )
 return
-uint32
-(
--
-1
-)
+UINT32_MAX
 ;
 FrameEntry
 *
@@ -17295,7 +17287,7 @@ isCopied
 {
 for
 (
-uint32
+uint32_t
 i
 =
 fe

@@ -2236,7 +2236,7 @@ size
 JSBool
 GetNewOrUsed
 (
-JSUint32
+uint32_t
 flags
 char
 *

@@ -1091,7 +1091,7 @@ isConstant
 )
 )
 {
-int32
+int32_t
 L
 =
 lhs
@@ -1105,7 +1105,7 @@ toInt32
 (
 )
 ;
-int32
+int32_t
 R
 =
 rhs
@@ -1230,7 +1230,7 @@ case
 JSOP_URSH
 :
 {
-uint32
+uint32_t
 unsignedL
 ;
 ToUint32
@@ -1253,7 +1253,7 @@ v
 =
 NumberValue
 (
-uint32
+uint32_t
 (
 unsignedL
 >
@@ -1370,7 +1370,7 @@ isConstant
 )
 )
 {
-int32
+int32_t
 rhsInt
 =
 rhs
@@ -5448,7 +5448,7 @@ jsop_localinc
 (
 JSOp
 op
-uint32
+uint32_t
 slot
 )
 {
@@ -5646,7 +5646,7 @@ jsop_arginc
 (
 JSOp
 op
-uint32
+uint32_t
 slot
 )
 {
@@ -16136,7 +16136,7 @@ REJOIN_FALLTHROUGH
 return
 ;
 }
-int32
+int32_t
 idx
 =
 id

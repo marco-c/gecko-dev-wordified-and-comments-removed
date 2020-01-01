@@ -620,10 +620,10 @@ regexps
 ;
 JS_ASSERT
 (
+uint32_t
 (
-uint32
-)
 index
+)
 <
 arr
 -

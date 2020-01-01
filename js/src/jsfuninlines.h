@@ -648,7 +648,7 @@ JSFunction
 :
 getFlatClosureUpvar
 (
-uint32
+uint32_t
 i
 )
 const
@@ -719,7 +719,7 @@ JSFunction
 :
 setFlatClosureUpvar
 (
-uint32
+uint32_t
 i
 const
 js
@@ -797,7 +797,7 @@ JSFunction
 :
 initFlatClosureUpvar
 (
-uint32
+uint32_t
 i
 const
 js

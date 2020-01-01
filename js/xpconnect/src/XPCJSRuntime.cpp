@@ -240,7 +240,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -386,7 +386,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -493,7 +493,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -544,7 +544,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -699,7 +699,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -836,7 +836,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -879,7 +879,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -1600,7 +1600,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -2119,7 +2119,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -2851,7 +2851,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -4584,7 +4584,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -4657,7 +4657,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -4745,7 +4745,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -11098,7 +11098,7 @@ AccumulateTelemetryCallback
 (
 int
 id
-JSUint32
+uint32_t
 sample
 )
 {
@@ -12237,7 +12237,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -12283,7 +12283,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *
@@ -12329,7 +12329,7 @@ table
 JSDHashEntryHdr
 *
 hdr
-uint32
+uint32_t
 number
 void
 *

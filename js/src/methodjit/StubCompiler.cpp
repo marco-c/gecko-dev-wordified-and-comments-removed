@@ -684,7 +684,7 @@ RejoinState
 rejoin
 Uses
 uses
-int32
+int32_t
 slots
 )
 {
@@ -925,7 +925,7 @@ StubCompiler
 :
 fixCrossJumps
 (
-uint8
+uint8_t
 *
 ncode
 size_t

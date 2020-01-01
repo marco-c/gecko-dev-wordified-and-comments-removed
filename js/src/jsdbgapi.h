@@ -1328,13 +1328,13 @@ id
 jsval
 value
 ;
-uint8
+uint8_t
 flags
 ;
-uint8
+uint8_t
 spare
 ;
-uint16
+uint16_t
 slot
 ;
 jsval
@@ -1446,7 +1446,7 @@ typedef
 struct
 JSPropertyDescArray
 {
-uint32
+uint32_t
 length
 ;
 JSPropertyDesc

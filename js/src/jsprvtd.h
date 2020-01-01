@@ -42,11 +42,11 @@ JS_GCTHING_ZEROBITS
 3
 ;
 typedef
-uint8
+uint8_t
 jsbytecode
 ;
 typedef
-uint8
+uint8_t
 jssrcnote
 ;
 typedef

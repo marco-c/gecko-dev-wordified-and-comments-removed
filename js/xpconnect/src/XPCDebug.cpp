@@ -688,7 +688,7 @@ val
 )
 )
 {
-uint32
+uint32_t
 argCount
 ;
 JSObject
@@ -1607,7 +1607,7 @@ xpc_DumpEvalInJSStackFrame
 JSContext
 *
 cx
-JSUint32
+uint32_t
 frameno
 const
 char
@@ -1625,7 +1625,7 @@ iter
 =
 nsnull
 ;
-JSUint32
+uint32_t
 num
 =
 0

@@ -317,7 +317,7 @@ xdr
 userdata
 )
 ;
-uint32
+uint32_t
 size
 ;
 char
@@ -536,7 +536,7 @@ char
 *
 olddata
 ;
-uint32
+uint32_t
 oldsize
 ;
 olddata

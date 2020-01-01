@@ -1050,7 +1050,7 @@ isConstant
 )
 )
 {
-int32
+int32_t
 a
 =
 arg1
@@ -1064,7 +1064,7 @@ toInt32
 (
 )
 ;
-int32
+int32_t
 b
 =
 arg2
@@ -4145,7 +4145,7 @@ Compiler
 :
 compileArrayWithLength
 (
-uint32
+uint32_t
 argc
 )
 {
@@ -4163,7 +4163,7 @@ argc
 1
 )
 ;
-int32
+int32_t
 length
 =
 0
@@ -4399,7 +4399,7 @@ Compiler
 :
 compileArrayWithArgs
 (
-uint32
+uint32_t
 argc
 )
 {
@@ -4701,7 +4701,7 @@ Compiler
 :
 inlineNativeFunction
 (
-uint32
+uint32_t
 argc
 bool
 callingNew

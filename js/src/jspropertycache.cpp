@@ -681,7 +681,7 @@ cx
 ;
 JS_ASSERT
 (
-uint32
+uint32_t
 (
 pc
 -
@@ -721,7 +721,7 @@ obj
 *
 objp
 ;
-uint32
+uint32_t
 vindex
 =
 entry

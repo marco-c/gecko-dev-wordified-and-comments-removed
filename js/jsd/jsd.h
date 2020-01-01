@@ -377,7 +377,7 @@ void
 *
 data
 ;
-uint32
+uint32_t
 flags
 ;
 JSD_ScriptHookProc
@@ -489,7 +489,7 @@ JSDProfileData
 *
 callingFunctionPData
 ;
-int64
+int64_t
 lastReturnTime
 ;
 #
@@ -555,7 +555,7 @@ char
 *
 url
 ;
-uint32
+uint32_t
 flags
 ;
 void
@@ -588,10 +588,10 @@ JSDProfileData
 *
 caller
 ;
-int64
+int64_t
 lastCallStart
 ;
-int64
+int64_t
 runningTime
 ;
 uintN
@@ -1322,7 +1322,7 @@ script
 )
 ;
 extern
-uint32
+uint32_t
 jsd_GetScriptFlags
 (
 JSDContext
@@ -1343,7 +1343,7 @@ jsdc
 JSDScript
 *
 script
-uint32
+uint32_t
 flags
 )
 ;
@@ -3566,7 +3566,7 @@ jsdval
 )
 ;
 extern
-int32
+int32_t
 jsd_GetValueInt
 (
 JSDContext

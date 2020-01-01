@@ -109,7 +109,7 @@ const
 FrameState
 &
 frame
-uint32
+uint32_t
 nentries
 )
 {
@@ -253,7 +253,7 @@ reg
 (
 )
 ;
-uint32
+uint32_t
 lastResort
 =
 FrameState
@@ -261,7 +261,7 @@ FrameState
 :
 InvalidIndex
 ;
-uint32
+uint32_t
 evictFromFrame
 =
 FrameState
@@ -271,7 +271,7 @@ InvalidIndex
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0

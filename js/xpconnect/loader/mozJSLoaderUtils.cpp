@@ -164,7 +164,7 @@ rv
 NS_ERROR_FAILURE
 ;
 }
-uint32
+uint32_t
 length
 ;
 data
@@ -260,7 +260,7 @@ script
 )
 )
 {
-uint32
+uint32_t
 size
 ;
 const

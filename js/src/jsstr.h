@@ -579,7 +579,7 @@ str1
 JSString
 *
 str2
-int32
+int32_t
 *
 result
 )
@@ -916,10 +916,10 @@ extern
 int
 js_OneUcs4ToUtf8Char
 (
-uint8
+uint8_t
 *
 utf8Buffer
-uint32
+uint32_t
 ucs4Char
 )
 ;
@@ -941,7 +941,7 @@ fp
 JSLinearString
 *
 str
-uint32
+uint32_t
 quote
 )
 ;
@@ -957,7 +957,7 @@ size
 JSLinearString
 *
 str
-uint32
+uint32_t
 quote
 )
 {
@@ -999,7 +999,7 @@ fp
 JSLinearString
 *
 str
-uint32
+uint32_t
 quote
 )
 {

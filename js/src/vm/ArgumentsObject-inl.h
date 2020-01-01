@@ -21,7 +21,7 @@ ArgumentsObject
 :
 initInitialLength
 (
-uint32
+uint32_t
 length
 )
 {
@@ -66,7 +66,7 @@ PACKED_BITS_COUNT
 )
 =
 =
-int32
+int32_t
 (
 length
 )
@@ -82,7 +82,7 @@ hasOverriddenLength
 ;
 }
 inline
-uint32
+uint32_t
 ArgumentsObject
 :
 :
@@ -91,10 +91,10 @@ initialLength
 )
 const
 {
-uint32
+uint32_t
 argc
 =
-uint32
+uint32_t
 (
 getFixedSlot
 (
@@ -133,7 +133,7 @@ markLengthOverridden
 (
 )
 {
-uint32
+uint32_t
 v
 =
 getFixedSlot
@@ -268,7 +268,7 @@ ArgumentsObject
 :
 element
 (
-uint32
+uint32_t
 i
 )
 const
@@ -328,7 +328,7 @@ ArgumentsObject
 :
 setElement
 (
-uint32
+uint32_t
 i
 const
 js

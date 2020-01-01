@@ -1740,7 +1740,7 @@ jsval
 vp
 )
 {
-int32
+int32_t
 depth
 =
 2
@@ -1799,10 +1799,10 @@ xpc
 >
 DebugDump
 (
+int16_t
 (
-int16
-)
 depth
+)
 )
 ;
 JS_SET_RVAL
@@ -1893,7 +1893,7 @@ cx
 vp
 )
 ;
-uint32
+uint32_t
 zeal
 ;
 if
@@ -2208,7 +2208,7 @@ vp
 JSVAL_VOID
 )
 {
-uint32
+uint32_t
 depth
 ;
 if

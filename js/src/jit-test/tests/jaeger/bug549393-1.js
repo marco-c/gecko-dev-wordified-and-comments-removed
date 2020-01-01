@@ -82,7 +82,7 @@ mti
 ;
 this
 .
-genrand_int32
+genrand_int32_t
 =
 function
 (

@@ -1809,10 +1809,10 @@ typedef
 struct
 JSBasicStats
 {
-uint32
+uint32_t
 num
 ;
-uint32
+uint32_t
 max
 ;
 double
@@ -1821,10 +1821,10 @@ sum
 double
 sqsum
 ;
-uint32
+uint32_t
 logscale
 ;
-uint32
+uint32_t
 hist
 [
 11
@@ -1923,7 +1923,7 @@ JS_BasicStatsAccum
 JSBasicStats
 *
 bs
-uint32
+uint32_t
 val
 )
 ;
@@ -1931,7 +1931,7 @@ extern
 double
 JS_MeanAndStdDev
 (
-uint32
+uint32_t
 num
 double
 sum

@@ -85,7 +85,7 @@ const
 struct
 TestPair
 {
-uint32
+uint32_t
 num
 ;
 const
@@ -284,7 +284,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 u
 =
 tests
@@ -409,7 +409,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 u
 =
 tests
@@ -437,7 +437,7 @@ CHECK
 str
 )
 ;
-uint32
+uint32_t
 n
 ;
 CHECK
@@ -474,7 +474,7 @@ BEGIN_TEST
 testStringToPropertyName
 )
 {
-uint32
+uint32_t
 index
 ;
 static

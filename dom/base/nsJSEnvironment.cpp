@@ -8436,7 +8436,7 @@ NS_ERROR_FAILURE
 }
 else
 {
-uint32
+uint32_t
 size
 ;
 const
@@ -8676,7 +8676,7 @@ rv
 NS_ERROR_FAILURE
 ;
 }
-uint32
+uint32_t
 junk
 ;
 data
@@ -11416,10 +11416,6 @@ jsval
 vp
 )
 {
-int32
-fd
-oldfd
-;
 if
 (
 !
@@ -11430,6 +11426,10 @@ cx
 )
 return
 JS_FALSE
+;
+int32_t
+fd
+oldfd
 ;
 if
 (
@@ -11522,9 +11522,6 @@ jsval
 vp
 )
 {
-int32
-fd
-;
 if
 (
 !
@@ -11535,6 +11532,9 @@ cx
 )
 return
 JS_FALSE
+;
+int32_t
+fd
 ;
 JS_SET_RVAL
 (
@@ -14686,9 +14686,9 @@ cx
 JSStructuredCloneReader
 *
 reader
-uint32
+uint32_t
 tag
-uint32
+uint32_t
 data
 void
 *
@@ -14744,7 +14744,7 @@ NS_DOMStructuredCloneError
 JSContext
 *
 cx
-uint32
+uint32_t
 errorid
 )
 {

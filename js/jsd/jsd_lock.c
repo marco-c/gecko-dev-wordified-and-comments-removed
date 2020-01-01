@@ -54,7 +54,7 @@ count
 #
 ifdef
 DEBUG
-uint16
+uint16_t
 sig
 ;
 #
@@ -193,7 +193,7 @@ sig
 =
 =
 (
-uint16
+uint16_t
 )
 JSD_LOCK_SIG
 )
@@ -284,7 +284,7 @@ lock
 sig
 =
 (
-uint16
+uint16_t
 )
 JSD_LOCK_SIG
 ;

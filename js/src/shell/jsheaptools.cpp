@@ -720,7 +720,7 @@ n
 kind
 )
 ;
-uint32
+uint32_t
 generation
 =
 map

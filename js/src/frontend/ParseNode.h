@@ -192,7 +192,7 @@ ParseNode
 {
 private
 :
-uint32
+uint32_t
 pn_type
 :
 16
@@ -725,7 +725,7 @@ enabled
 TokenPos
 pn_pos
 ;
-int32
+int32_t
 pn_offset
 ;
 ParseNode
@@ -749,10 +749,10 @@ ParseNode
 *
 tail
 ;
-uint32
+uint32_t
 count
 ;
-uint32
+uint32_t
 xflags
 :
 12
@@ -848,7 +848,7 @@ lexdef
 UpvarCookie
 cookie
 ;
-uint32
+uint32_t
 dflags
 :
 12
@@ -3859,7 +3859,7 @@ methods
 Bindings
 bindings
 ;
-uint32
+uint32_t
 queued
 :
 1
@@ -3870,7 +3870,7 @@ level
 :
 JSFB_LEVEL_BITS
 ;
-uint32
+uint32_t
 tcflags
 ;
 JSFunction
@@ -3970,7 +3970,7 @@ lengthMask
 bool
 init
 (
-uint32
+uint32_t
 count
 )
 {

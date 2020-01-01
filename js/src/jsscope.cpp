@@ -161,7 +161,7 @@ Shape
 lastProp
 )
 {
-uint32
+uint32_t
 sizeLog2
 =
 JS_CEILING_LOG2W
@@ -683,7 +683,7 @@ spp
 *
 firstRemoved
 ;
-uint32
+uint32_t
 sizeMask
 ;
 JS_ASSERT
@@ -1015,7 +1015,7 @@ oldlog2
 +
 log2Delta
 ;
-uint32
+uint32_t
 oldsize
 =
 JS_BIT
@@ -1023,7 +1023,7 @@ JS_BIT
 oldlog2
 )
 ;
-uint32
+uint32_t
 newsize
 =
 JS_BIT
@@ -1180,7 +1180,7 @@ needsToGrow
 )
 )
 ;
-uint32
+uint32_t
 size
 =
 capacity
@@ -1316,7 +1316,7 @@ lastBinding
 =
 shape
 ;
-uint32
+uint32_t
 slots
 =
 child
@@ -1341,7 +1341,7 @@ GetGCObjectKind
 slots
 )
 ;
-uint32
+uint32_t
 nfixed
 =
 gc
@@ -1657,7 +1657,7 @@ hasMissingSlot
 )
 )
 {
-uint32
+uint32_t
 slot
 ;
 if
@@ -2069,7 +2069,7 @@ cx
 compartment
 )
 ;
-uint32
+uint32_t
 span
 =
 slotSpan
@@ -2410,7 +2410,7 @@ table
 ;
 for
 (
-uint32
+uint32_t
 fslot
 =
 table
@@ -2822,7 +2822,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uint32
+uint32_t
 slot
 uintN
 attrs
@@ -2924,7 +2924,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uint32
+uint32_t
 slot
 uintN
 attrs
@@ -3454,7 +3454,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uint32
+uint32_t
 slot
 uintN
 attrs
@@ -3579,7 +3579,7 @@ hasSlot
 (
 )
 ;
-uint32
+uint32_t
 oldSlot
 =
 shape
@@ -3863,7 +3863,7 @@ shape
 >
 attrs
 =
-uint8
+uint8_t
 (
 attrs
 )
@@ -3885,7 +3885,7 @@ shape
 >
 shortid_
 =
-int16
+int16_t
 (
 shortid
 )
@@ -4656,7 +4656,7 @@ spare
 )
 )
 ;
-uint32
+uint32_t
 size
 =
 table
@@ -4850,7 +4850,7 @@ rollbackProperties
 JSContext
 *
 cx
-uint32
+uint32_t
 slotSpan
 )
 {
@@ -5592,7 +5592,7 @@ setFlag
 JSContext
 *
 cx
-uint32
+uint32_t
 flag_
 GenerateShape
 generateShape
@@ -6570,7 +6570,7 @@ JSObject
 parent
 AllocKind
 kind
-uint32
+uint32_t
 objectFlags
 )
 {

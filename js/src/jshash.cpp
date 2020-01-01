@@ -242,7 +242,7 @@ JSHashTable
 )
 JS_NewHashTable
 (
-uint32
+uint32_t
 n
 JSHashFunction
 keyHash
@@ -289,10 +289,10 @@ n
 ;
 if
 (
+int32_t
 (
-int32
-)
 n
+)
 <
 0
 )
@@ -472,7 +472,7 @@ JSHashTable
 ht
 )
 {
-uint32
+uint32_t
 i
 n
 ;
@@ -828,7 +828,7 @@ Resize
 JSHashTable
 *
 ht
-uint32
+uint32_t
 newshift
 )
 {
@@ -1144,7 +1144,7 @@ void
 value
 )
 {
-uint32
+uint32_t
 n
 ;
 JSHashEntry
@@ -1424,7 +1424,7 @@ JSHashEntry
 he
 )
 {
-uint32
+uint32_t
 n
 ;
 *
@@ -1663,7 +1663,7 @@ hep
 *
 bucket
 ;
-uint32
+uint32_t
 nlimit
 n
 nbuckets
@@ -1930,11 +1930,11 @@ sqsum
 mean
 sigma
 ;
-uint32
+uint32_t
 nchains
 nbuckets
 ;
-uint32
+uint32_t
 i
 n
 maxChain

@@ -1,13 +1,6 @@
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jsutil
 .
 h
@@ -26,7 +19,7 @@ int
 =
 sizeof
 (
-JSUint32
+uint32_t
 )
 )
 ;

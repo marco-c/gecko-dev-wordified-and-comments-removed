@@ -791,7 +791,7 @@ HashMap
 <
 JSObject
 *
-uint32
+uint32_t
 >
 CloneMemory
 ;

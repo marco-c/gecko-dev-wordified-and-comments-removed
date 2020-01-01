@@ -12,7 +12,7 @@ not
 assert
 :
 (
-uint32
+uint32_t
 )
 (
 (

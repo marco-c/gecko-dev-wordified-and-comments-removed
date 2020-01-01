@@ -7410,7 +7410,7 @@ union
 float
 f
 ;
-uint32
+uint32_t
 u32
 ;
 }
@@ -7452,7 +7452,7 @@ union
 float
 f
 ;
-uint32
+uint32_t
 u32
 ;
 }

@@ -489,7 +489,7 @@ d
 )
 ;
 }
-int32
+int32_t
 i32
 =
 0
@@ -655,7 +655,7 @@ const
 ValueRemat
 &
 vr
-uint32
+uint32_t
 saveMask
 )
 {
@@ -822,7 +822,7 @@ vp
 )
 ;
 typedef
-int32
+int32_t
 (
 JS_FASTCALL
 *
@@ -1006,7 +1006,7 @@ ValueRemat
 vr
 FPRegisterID
 destReg
-uint32
+uint32_t
 saveMask
 )
 {
@@ -1499,7 +1499,7 @@ const
 ValueRemat
 &
 vrIn
-uint32
+uint32_t
 saveMask
 )
 {
@@ -1508,7 +1508,7 @@ vr
 =
 vrIn
 ;
-uint32
+uint32_t
 type
 =
 TypedArray
@@ -1781,7 +1781,7 @@ rhsIsMutable
 needsSingleByteReg
 )
 {
-uint32
+uint32_t
 allowMask
 =
 Registers
@@ -1801,7 +1801,7 @@ Registers
 :
 SingleByteRegs
 ;
-uint32
+uint32_t
 pinned
 =
 Assembler
@@ -1921,7 +1921,7 @@ newReg
 }
 else
 {
-uint32
+uint32_t
 vrRegs
 =
 Registers
@@ -1941,7 +1941,7 @@ typeReg
 )
 )
 ;
-uint32
+uint32_t
 lhsMask
 =
 vrRegs
@@ -1954,7 +1954,7 @@ maskAddress
 address
 )
 ;
-uint32
+uint32_t
 rhsMask
 =
 vrRegs

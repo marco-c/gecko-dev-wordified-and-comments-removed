@@ -620,7 +620,7 @@ proxy
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *
@@ -5096,7 +5096,7 @@ proxy
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *
@@ -5873,7 +5873,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSObject
 *
@@ -6095,7 +6095,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 const
 Value
@@ -6268,7 +6268,7 @@ obj
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *
@@ -6316,7 +6316,7 @@ obj
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *
@@ -6460,7 +6460,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -6631,7 +6631,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -6813,7 +6813,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -6989,7 +6989,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -8688,14 +8688,14 @@ JS_FS_END
 ;
 static
 const
-uint32
+uint32_t
 JSSLOT_CALLABLE_CALL
 =
 0
 ;
 static
 const
-uint32
+uint32_t
 JSSLOT_CALLABLE_CONSTRUCT
 =
 1

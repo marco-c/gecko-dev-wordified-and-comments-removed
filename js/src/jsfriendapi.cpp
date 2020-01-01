@@ -741,7 +741,7 @@ getGlobal
 }
 JS_FRIEND_API
 (
-uint32
+uint32_t
 )
 js
 :

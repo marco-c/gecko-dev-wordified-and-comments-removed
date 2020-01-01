@@ -2155,12 +2155,12 @@ newCommit
 request
 )
 ;
-int32
+int32_t
 size
 =
 static_cast
 <
-int32
+int32_t
 >
 (
 newCommit
@@ -3163,7 +3163,7 @@ script
 (
 )
 ;
-uint32
+uint32_t
 flags
 =
 ToFrameFlags

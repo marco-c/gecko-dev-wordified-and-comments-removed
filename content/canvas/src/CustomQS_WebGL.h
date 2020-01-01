@@ -13,7 +13,7 @@ var
 index
 )
 \
-int32
+int32_t
 var
 ;
 \
@@ -54,7 +54,7 @@ var
 index
 )
 \
-uint32
+uint32_t
 var
 ;
 \
@@ -95,7 +95,7 @@ var
 index
 )
 \
-uint32
+uint32_t
 var
 =
 0
@@ -316,7 +316,7 @@ cx
 vp
 )
 ;
-int32
+int32_t
 target
 ;
 JSObject
@@ -331,10 +331,10 @@ wb
 =
 0
 ;
-int32
+int32_t
 size
 ;
-int32
+int32_t
 usage
 ;
 if
@@ -674,10 +674,10 @@ cx
 vp
 )
 ;
-int32
+int32_t
 target
 ;
-int32
+int32_t
 offset
 ;
 JSObject
@@ -1518,7 +1518,7 @@ return
 JS_FALSE
 ;
 }
-int32
+int32_t
 int_width
 int_height
 ;
@@ -2118,7 +2118,7 @@ return
 JS_FALSE
 ;
 }
-int32
+int32_t
 int_width
 int_height
 ;
@@ -3326,7 +3326,7 @@ return
 JS_FALSE
 ;
 }
-int32
+int32_t
 transpose
 ;
 if
@@ -3700,7 +3700,7 @@ cx
 vp
 )
 ;
-uint32
+uint32_t
 location
 ;
 if

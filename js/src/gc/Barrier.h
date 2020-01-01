@@ -966,7 +966,7 @@ toDouble
 )
 ;
 }
-int32
+int32_t
 toInt32
 (
 )
@@ -1043,12 +1043,12 @@ boxNonDoubleFrom
 (
 JSValueType
 type
-uint64
+uint64_t
 *
 out
 )
 ;
-uint64
+uint64_t
 asRawBits
 (
 )
@@ -1277,7 +1277,7 @@ HeapValueArray
 operator
 +
 (
-uint32
+uint32_t
 offset
 )
 const

@@ -1541,7 +1541,7 @@ JSFlatString
 :
 isIndex
 (
-uint32
+uint32_t
 *
 indexp
 )
@@ -1619,7 +1619,7 @@ n
 1
 )
 ;
-uint32
+uint32_t
 index
 =
 JS7_UNDEC
@@ -1630,12 +1630,12 @@ cp
 +
 )
 ;
-uint32
+uint32_t
 oldIndex
 =
 0
 ;
-uint32
+uint32_t
 c
 =
 0
@@ -2100,7 +2100,7 @@ atomsCompartment
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2158,7 +2158,7 @@ morphAtomizedStringIntoAtom
 }
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2230,7 +2230,7 @@ morphAtomizedStringIntoAtom
 }
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2425,7 +2425,7 @@ return
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2456,7 +2456,7 @@ string
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2489,7 +2489,7 @@ string
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0

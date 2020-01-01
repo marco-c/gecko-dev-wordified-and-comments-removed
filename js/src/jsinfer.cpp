@@ -2242,7 +2242,7 @@ lazyargs
 "
 )
 ;
-uint32
+uint32_t
 objectCount
 =
 baseObjectCount
@@ -3696,7 +3696,7 @@ pruneTypeBarriers
 JSContext
 *
 cx
-uint32
+uint32_t
 offset
 )
 {
@@ -3844,7 +3844,7 @@ next
 }
 static
 const
-uint32
+uint32_t
 BARRIER_OBJECT_LIMIT
 =
 10
@@ -3858,7 +3858,7 @@ breakTypeBarriers
 JSContext
 *
 cx
-uint32
+uint32_t
 offset
 bool
 all
@@ -4130,7 +4130,7 @@ PUSHED
 )
 return
 ;
-uint32
+uint32_t
 offset
 =
 v
@@ -4589,7 +4589,7 @@ jsbytecode
 pc
 )
 {
-uint32
+uint32_t
 format
 =
 js_CodeSpec
@@ -10444,7 +10444,7 @@ cx
 JSScript
 *
 script
-uint32
+uint32_t
 offset
 bool
 returnOnly
@@ -12071,7 +12071,7 @@ Lookup
 ;
 static
 inline
-uint32
+uint32_t
 hash
 (
 const
@@ -12082,7 +12082,7 @@ v
 {
 return
 (
-uint32
+uint32_t
 )
 (
 v
@@ -12095,7 +12095,7 @@ raw
 ^
 (
 (
-uint32
+uint32_t
 )
 (
 size_t
@@ -12489,10 +12489,10 @@ jsid
 *
 ids
 ;
-uint32
+uint32_t
 nslots
 ;
-uint32
+uint32_t
 nfixed
 ;
 JSObject
@@ -12506,7 +12506,7 @@ Lookup
 ;
 static
 inline
-uint32
+uint32_t
 hash
 (
 JSObject
@@ -12516,7 +12516,7 @@ obj
 {
 return
 (
-uint32
+uint32_t
 )
 (
 JSID_BITS
@@ -12550,7 +12550,7 @@ numFixedSlots
 ^
 (
 (
-uint32
+uint32_t
 )
 (
 size_t
@@ -15242,7 +15242,7 @@ finished
 =
 false
 ;
-uint32
+uint32_t
 numProperties
 =
 0
@@ -15272,10 +15272,10 @@ init
 +
 )
 {
-uint32
+uint32_t
 offset
 =
-uint32
+uint32_t
 (
 pc
 -
@@ -18210,7 +18210,7 @@ case
 JSOP_CALLLOCAL
 :
 {
-uint32
+uint32_t
 slot
 =
 GetBytecodeSlot
@@ -18364,7 +18364,7 @@ case
 JSOP_SETLOCALPOP
 :
 {
-uint32
+uint32_t
 slot
 =
 GetBytecodeSlot
@@ -18462,7 +18462,7 @@ case
 JSOP_LOCALDEC
 :
 {
-uint32
+uint32_t
 slot
 =
 GetBytecodeSlot
@@ -19356,7 +19356,7 @@ op
 JSOP_DEFLOCALFUN_FC
 )
 {
-uint32
+uint32_t
 slot
 =
 GetBytecodeSlot
@@ -21385,11 +21385,7 @@ result
 offset
 !
 =
-uint32
-(
--
-1
-)
+UINT32_MAX
 )
 {
 pushedTypes
@@ -21803,7 +21799,7 @@ use
 >
 offset
 ;
-uint32
+uint32_t
 which
 =
 use
@@ -21872,7 +21868,7 @@ op
 JSOP_SETLOCAL
 )
 {
-uint32
+uint32_t
 slot
 =
 GetBytecodeSlot
@@ -21979,7 +21975,7 @@ pc
 {
 JS_ASSERT
 (
-uint32
+uint32_t
 (
 pc
 -
@@ -22049,7 +22045,7 @@ JSVAL_TYPE_INT32
 return
 false
 ;
-uint32
+uint32_t
 slot
 =
 GetBytecodeSlot
@@ -22488,7 +22484,7 @@ analysis
 (
 )
 ;
-uint32
+uint32_t
 lastThisPopped
 =
 0
@@ -24932,11 +24928,7 @@ result
 offset
 =
 =
-uint32
-(
--
-1
-)
+UINT32_MAX
 )
 {
 JS_ASSERT
@@ -24991,11 +24983,7 @@ new_
 TypeResult
 >
 (
-uint32
-(
--
-1
-)
+UINT32_MAX
 Type
 :
 :
@@ -25588,7 +25576,7 @@ case
 JSOP_ARGDEC
 :
 {
-uint32
+uint32_t
 slot
 =
 GetBytecodeSlot
@@ -31186,7 +31174,7 @@ dynamicSize
 (
 )
 {
-uint32
+uint32_t
 count
 =
 baseObjectCount
@@ -31230,7 +31218,7 @@ bytes
 =
 0
 ;
-uint32
+uint32_t
 count
 =
 basePropertyCount

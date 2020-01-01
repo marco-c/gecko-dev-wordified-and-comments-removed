@@ -1939,7 +1939,7 @@ return
 false
 ;
 }
-uint32
+uint32_t
 id
 ;
 if
@@ -2143,7 +2143,7 @@ return
 false
 ;
 }
-uint32
+uint32_t
 id
 ;
 if

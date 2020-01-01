@@ -406,14 +406,14 @@ JSD_SetContextFlags
 JSDContext
 *
 jsdc
-uint32
+uint32_t
 flags
 )
 ;
 extern
 JSD_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JSD_GetContextFlags
 (
@@ -669,7 +669,7 @@ JSD_SCRIPT_DEBUG_BIT
 extern
 JSD_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JSD_GetScriptFlags
 (
@@ -694,7 +694,7 @@ jsdc
 JSDScript
 *
 jsdscript
-uint32
+uint32_t
 flags
 )
 ;
@@ -2516,7 +2516,7 @@ jsdval
 extern
 JSD_PUBLIC_API
 (
-int32
+int32_t
 )
 JSD_GetValueInt
 (

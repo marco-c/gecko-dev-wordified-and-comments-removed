@@ -150,7 +150,7 @@ script
 )
 )
 ;
-uint32
+uint32_t
 nbytes
 ;
 void
@@ -352,7 +352,7 @@ script
 )
 )
 ;
-uint32
+uint32_t
 nbytes
 ;
 void

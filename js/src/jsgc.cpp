@@ -411,7 +411,7 @@ SLOTS_TO_THING_KIND_LIMIT
 )
 ;
 const
-uint32
+uint32_t
 Arena
 :
 :
@@ -516,7 +516,7 @@ OFFSET
 (
 type
 )
-uint32
+uint32_t
 (
 sizeof
 (
@@ -538,7 +538,7 @@ type
 )
 )
 const
-uint32
+uint32_t
 Arena
 :
 :
@@ -2397,7 +2397,7 @@ emptyCount
 }
 JS_FRIEND_API
 (
-int64
+int64_t
 )
 ChunkPool
 :
@@ -2421,7 +2421,7 @@ rt
 gcChunkPool
 )
 ;
-int64
+int64_t
 numDecommitted
 =
 0
@@ -2439,7 +2439,7 @@ chunk
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3454,7 +3454,7 @@ rt
 >
 gcBytes
 -
-int32
+int32_t
 (
 ArenaSize
 )
@@ -3468,7 +3468,7 @@ comp
 >
 gcBytes
 -
-int32
+int32_t
 (
 ArenaSize
 )
@@ -3926,7 +3926,7 @@ color
 }
 static
 const
-int64
+int64_t
 JIT_SCRIPT_RELEASE_TYPES_INTERVAL
 =
 60
@@ -3941,7 +3941,7 @@ js_InitGC
 JSRuntime
 *
 rt
-uint32
+uint32_t
 maxbytes
 )
 {
@@ -5756,7 +5756,7 @@ JSRuntime
 rt
 )
 {
-uint32
+uint32_t
 leakedroots
 =
 0
@@ -6082,7 +6082,7 @@ data
 }
 #
 endif
-uint32
+uint32_t
 js_MapGCRoots
 (
 JSRuntime
@@ -6254,7 +6254,7 @@ JSRuntime
 :
 reduceGCTriggerBytes
 (
-uint32
+uint32_t
 amount
 )
 {
@@ -6359,7 +6359,7 @@ JSCompartment
 :
 reduceGCTriggerBytes
 (
-uint32
+uint32_t
 amount
 )
 {
@@ -10481,7 +10481,7 @@ MAYBEGC
 return
 ;
 }
-int64
+int64_t
 now
 =
 PRMJ_Now
@@ -11395,7 +11395,7 @@ releaseTypes
 =
 false
 ;
-int64
+int64_t
 now
 =
 PRMJ_Now
@@ -15112,7 +15112,7 @@ thing
 JSGCTraceKind
 kind
 ;
-uint32
+uint32_t
 count
 ;
 EdgeValue
@@ -15138,10 +15138,10 @@ VerifyTracer
 :
 JSTracer
 {
-uint32
+uint32_t
 number
 ;
-uint32
+uint32_t
 count
 ;
 VerifyNode
@@ -15256,7 +15256,7 @@ trc
 >
 curnode
 ;
-uint32
+uint32_t
 i
 =
 node
@@ -15915,7 +15915,7 @@ edgeptr
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -16157,7 +16157,7 @@ curnode
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -16498,7 +16498,7 @@ kind
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -16608,7 +16608,7 @@ ZealVerifierThreshold
 )
 return
 ;
-uint32
+uint32_t
 freq
 =
 cx

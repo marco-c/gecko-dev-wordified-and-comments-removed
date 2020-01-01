@@ -63,19 +63,15 @@ ifdef
 DEBUG
 JS_PUBLIC_DATA
 (
-JSUint32
+uint32_t
 )
 OOM_maxAllocations
 =
-(
-JSUint32
-)
--
-1
+UINT32_MAX
 ;
 JS_PUBLIC_DATA
 (
-JSUint32
+uint32_t
 )
 OOM_counter
 =
@@ -242,7 +238,7 @@ jscompat
 h
 "
 static
-uint32
+uint32_t
 BinToVal
 (
 uintN
@@ -301,9 +297,8 @@ logscale
 )
 ;
 return
+uint32_t
 (
-uint32
-)
 pow
 (
 10
@@ -314,6 +309,7 @@ double
 )
 bin
 )
+)
 ;
 }
 static
@@ -322,7 +318,7 @@ ValToBin
 (
 uintN
 logscale
-uint32
+uint32_t
 val
 )
 {
@@ -393,7 +389,7 @@ JS_BasicStatsAccum
 JSBasicStats
 *
 bs
-uint32
+uint32_t
 val
 )
 {
@@ -519,7 +515,7 @@ newscale
 oldscale
 )
 {
-uint32
+uint32_t
 newhist
 [
 11
@@ -623,7 +619,7 @@ bin
 double
 JS_MeanAndStdDev
 (
-uint32
+uint32_t
 num
 double
 sum
@@ -807,7 +803,7 @@ fp
 uintN
 bin
 ;
-uint32
+uint32_t
 cnt
 max
 ;
@@ -1023,9 +1019,8 @@ mean
 )
 cnt
 =
+uint32_t
 (
-uint32
-)
 ceil
 (
 log10
@@ -1034,6 +1029,7 @@ log10
 double
 )
 cnt
+)
 )
 )
 ;

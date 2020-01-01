@@ -88,7 +88,7 @@ const
 Value
 &
 v
-uint64
+uint64_t
 *
 *
 bufp

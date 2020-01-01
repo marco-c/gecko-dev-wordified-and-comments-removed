@@ -3163,7 +3163,7 @@ paramIndex
 nsXPTCMiniVariant
 *
 nativeParams
-JSUint32
+uint32_t
 *
 result
 )
@@ -3260,7 +3260,7 @@ result
 =
 *
 (
-JSUint32
+uint32_t
 *
 )
 nativeParams
@@ -3547,7 +3547,7 @@ const
 nsXPTType
 &
 datum_type
-JSUint32
+uint32_t
 array_count
 void
 *
@@ -3578,7 +3578,7 @@ arrayp
 ;
 for
 (
-JSUint32
+uint32_t
 k
 =
 0
@@ -3624,7 +3624,7 @@ arrayp
 ;
 for
 (
-JSUint32
+uint32_t
 k
 =
 0
@@ -5494,7 +5494,7 @@ GetType
 nsXPTType
 datum_type
 ;
-JSUint32
+uint32_t
 array_count
 ;
 bool
@@ -6045,7 +6045,7 @@ p
 )
 )
 {
-JSUint32
+uint32_t
 array_count
 ;
 nsXPTType
@@ -6777,7 +6777,7 @@ pv
 nsXPTType
 datum_type
 ;
-JSUint32
+uint32_t
 array_count
 ;
 bool
@@ -7189,7 +7189,7 @@ p
 )
 )
 {
-JSUint32
+uint32_t
 array_count
 ;
 nsXPTType

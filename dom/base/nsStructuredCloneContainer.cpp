@@ -201,7 +201,7 @@ Push
 aCx
 )
 ;
-PRUint64
+uint64_t
 *
 jsBytes
 =

@@ -208,7 +208,7 @@ RESERVED_SLOTS
 }
 static
 const
-int32
+int32_t
 FLAGS_CLEARED
 =
 0x1
@@ -217,7 +217,7 @@ inline
 void
 setFlags
 (
-int32
+int32_t
 flags
 )
 ;
@@ -225,7 +225,7 @@ inline
 void
 initFlags
 (
-int32
+int32_t
 flags
 )
 ;

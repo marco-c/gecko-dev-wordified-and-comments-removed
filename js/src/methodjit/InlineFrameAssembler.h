@@ -63,7 +63,7 @@ AdjustedFrame
 {
 AdjustedFrame
 (
-uint32
+uint32_t
 baseOffset
 )
 :
@@ -73,7 +73,7 @@ baseOffset
 )
 {
 }
-uint32
+uint32_t
 baseOffset
 ;
 JSC
@@ -85,7 +85,7 @@ MacroAssembler
 Address
 addrOf
 (
-uint32
+uint32_t
 offset
 )
 {
@@ -170,7 +170,7 @@ frameSize
 RegisterID
 funObjReg
 ;
-uint32
+uint32_t
 flags
 ;
 public
@@ -189,7 +189,7 @@ ic
 CallICInfo
 &
 ic
-uint32
+uint32_t
 flags
 )
 :
@@ -240,7 +240,7 @@ Compiler
 CallGenInfo
 &
 gen
-uint32
+uint32_t
 flags
 )
 :
@@ -321,7 +321,7 @@ CONSTRUCTING
 )
 )
 ;
-uint32
+uint32_t
 flags
 =
 this
@@ -363,7 +363,7 @@ isStatic
 )
 )
 {
-uint32
+uint32_t
 frameDepth
 =
 frameSize

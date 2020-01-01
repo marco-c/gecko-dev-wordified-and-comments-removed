@@ -757,7 +757,7 @@ char
 instructionPtr
 )
 {
-uint16
+uint16_t
 bracketMess
 =
 get2ByteValue
@@ -2570,7 +2570,7 @@ ASSERT
 )
 :
 {
-uint16
+uint16_t
 bracketMess
 =
 get2ByteValue

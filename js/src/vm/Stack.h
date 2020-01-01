@@ -800,7 +800,7 @@ LOWERED_CALL_APPLY
 private
 :
 mutable
-uint32
+uint32_t
 flags_
 ;
 union
@@ -940,7 +940,7 @@ callee
 JSScript
 *
 script
-uint32
+uint32_t
 nactual
 StackFrame
 :
@@ -979,7 +979,7 @@ initJitFrameEarlyPrologue
 JSFunction
 *
 fun
-uint32
+uint32_t
 nactual
 )
 ;
@@ -2836,7 +2836,7 @@ int
 LOWERED_CALL_APPLY
 )
 ;
-uint32
+uint32_t
 mask
 =
 CONSTRUCTING

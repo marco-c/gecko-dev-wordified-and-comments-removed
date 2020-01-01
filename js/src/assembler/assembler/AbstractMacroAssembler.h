@@ -525,13 +525,13 @@ WTF_CPU_BIG_ENDIAN
 |
 |
 WTF_CPU_MIDDLE_ENDIAN
-uint32
+uint32_t
 msb
 lsb
 ;
 #
 else
-uint32
+uint32_t
 lsb
 msb
 ;

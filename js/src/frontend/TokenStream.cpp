@@ -1198,7 +1198,7 @@ flags
 TSF_EOL
 ;
 }
-int32
+int32_t
 TokenStream
 :
 :
@@ -1206,7 +1206,7 @@ getChar
 (
 )
 {
-int32
+int32_t
 c
 ;
 if
@@ -1330,7 +1330,7 @@ n
 '
 ;
 }
-int32
+int32_t
 TokenStream
 :
 :
@@ -1371,7 +1371,7 @@ TokenStream
 :
 ungetChar
 (
-int32
+int32_t
 c
 )
 {
@@ -1414,7 +1414,7 @@ n
 #
 ifdef
 DEBUG
-int32
+int32_t
 c2
 =
 userbuf
@@ -1495,7 +1495,7 @@ TokenStream
 :
 ungetCharIgnoreEOL
 (
-int32
+int32_t
 c
 )
 {
@@ -1542,7 +1542,7 @@ intN
 i
 j
 ;
-int32
+int32_t
 c
 ;
 for
@@ -4965,7 +4965,7 @@ TokenStream
 :
 matchUnicodeEscapeIdStart
 (
-int32
+int32_t
 *
 cp
 )
@@ -5004,7 +5004,7 @@ TokenStream
 :
 matchUnicodeEscapeIdent
 (
-int32
+int32_t
 *
 cp
 )
@@ -5919,7 +5919,7 @@ jschar
 identStart
 )
 {
-int32
+int32_t
 c
 qc
 ;
@@ -6252,7 +6252,7 @@ _______
 Other
 static
 const
-uint8
+uint8_t
 firstCharKinds
 [
 ]
@@ -7278,7 +7278,7 @@ c
 '
 )
 {
-int32
+int32_t
 val
 =
 JS7_UNDEC
@@ -7383,7 +7383,7 @@ c
 '
 )
 {
-int32
+int32_t
 save
 =
 val
@@ -9856,7 +9856,7 @@ case
 '
 :
 {
-uint32
+uint32_t
 n
 ;
 c
@@ -9886,7 +9886,7 @@ badchar
 n
 =
 (
-uint32
+uint32_t
 )
 JS7_UNDEC
 (
@@ -9953,7 +9953,7 @@ tp
 >
 setSharpNumber
 (
-uint16
+uint16_t
 (
 n
 )

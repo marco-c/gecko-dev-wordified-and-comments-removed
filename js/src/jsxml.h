@@ -106,10 +106,10 @@ T
 struct
 JSXMLArray
 {
-uint32
+uint32_t
 length
 ;
-uint32
+uint32_t
 capacity
 ;
 js
@@ -163,7 +163,7 @@ setCapacity
 JSContext
 *
 cx
-uint32
+uint32_t
 capacity
 )
 ;
@@ -199,7 +199,7 @@ T
 *
 array
 ;
-uint32
+uint32_t
 index
 ;
 JSXMLArrayCursor
@@ -710,7 +710,7 @@ DEBUG_notme
 JSCList
 links
 ;
-uint32
+uint32_t
 serial
 ;
 #
@@ -737,10 +737,10 @@ js
 HeapPtrObject
 name
 ;
-uint32
+uint32_t
 xml_class
 ;
-uint32
+uint32_t
 xml_flags
 ;
 JSXMLListVar

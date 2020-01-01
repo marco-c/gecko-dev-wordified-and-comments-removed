@@ -145,7 +145,7 @@ v_
 if
 defined
 JS_NUNBOX32
-uint32
+uint32_t
 getPayload
 (
 )
@@ -172,7 +172,7 @@ u32
 elif
 defined
 JS_PUNBOX64
-uint64
+uint64_t
 getPayload
 (
 )
@@ -216,7 +216,7 @@ isConstant
 )
 )
 ;
-int32
+int32_t
 value
 ;
 ToInt32
@@ -556,7 +556,7 @@ type_
 void
 track
 (
-uint32
+uint32_t
 index
 )
 {
@@ -619,7 +619,7 @@ NULL
 ;
 }
 }
-uint32
+uint32_t
 trackerIndex
 (
 )
@@ -925,7 +925,7 @@ type
 RematInfo
 data
 ;
-uint32
+uint32_t
 index_
 ;
 FrameEntry
@@ -938,10 +938,10 @@ tracked
 bool
 temporary
 ;
-uint32
+uint32_t
 copied
 ;
-uint32
+uint32_t
 lastLoop
 ;
 }

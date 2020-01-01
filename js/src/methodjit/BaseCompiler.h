@@ -942,9 +942,9 @@ NativeStubLinker
 FinalJump
 *
 result
-int32
+int32_t
 initialFrameDepth
-int32
+int32_t
 vpOffset
 MaybeRegisterID
 typeReg

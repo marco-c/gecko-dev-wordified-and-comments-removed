@@ -237,7 +237,7 @@ obj
 )
 ;
 typedef
-uint32
+uint32_t
 JSIntervalTime
 ;
 extern

@@ -170,7 +170,7 @@ static
 size_t
 getIndex
 (
-uint32
+uint32_t
 key
 )
 {
@@ -223,7 +223,7 @@ JSObject
 *
 get
 (
-uint32
+uint32_t
 key
 )
 const
@@ -241,7 +241,7 @@ key
 void
 set
 (
-uint32
+uint32_t
 key
 JSObject
 *
@@ -527,10 +527,10 @@ createBarrierTracer
 )
 ;
 }
-uint32
+uint32_t
 gcBytes
 ;
-uint32
+uint32_t
 gcTriggerBytes
 ;
 size_t
@@ -1038,7 +1038,7 @@ gckind
 void
 reduceGCTriggerBytes
 (
-uint32
+uint32_t
 amount
 )
 ;

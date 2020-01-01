@@ -464,7 +464,7 @@ JSErrorReport
 *
 copy
 ;
-uint8
+uint8_t
 *
 cursor
 ;
@@ -661,7 +661,7 @@ filenameSize
 cursor
 =
 (
-uint8
+uint8_t
 *
 )
 cx
@@ -814,7 +814,7 @@ cursor
 =
 =
 (
-uint8
+uint8_t
 *
 )
 copy
@@ -1038,7 +1038,7 @@ filenameSize
 =
 =
 (
-uint8
+uint8_t
 *
 )
 copy
@@ -5153,7 +5153,7 @@ setExtendedSlot
 0
 Int32Value
 (
-int32
+int32_t
 (
 type
 )
@@ -6396,7 +6396,7 @@ GetExnPrivate
 errobj
 )
 ;
-uint32
+uint32_t
 stackDepth
 =
 priv
@@ -6411,7 +6411,7 @@ valueCount
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0

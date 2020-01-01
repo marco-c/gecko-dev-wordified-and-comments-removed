@@ -50,7 +50,7 @@ x
 (
 (
 (
-uint32
+uint32_t
 )
 (
 x
@@ -64,7 +64,7 @@ x
 (
 (
 (
-uint32
+uint32_t
 )
 (
 x
@@ -81,7 +81,7 @@ x
 (
 (
 (
-uint32
+uint32_t
 )
 (
 x
@@ -97,7 +97,7 @@ x
 \
 (
 (
-uint32
+uint32_t
 )
 (
 x
@@ -116,7 +116,7 @@ x
 (
 (
 (
-uint16
+uint16_t
 )
 (
 x
@@ -128,7 +128,7 @@ x
 |
 (
 (
-uint16
+uint16_t
 )
 (
 x
@@ -184,7 +184,7 @@ get32
 (
 JSXDRState
 *
-uint32
+uint32_t
 *
 )
 ;
@@ -196,7 +196,7 @@ set32
 (
 JSXDRState
 *
-uint32
+uint32_t
 *
 )
 ;
@@ -210,7 +210,7 @@ JSXDRState
 *
 char
 *
-uint32
+uint32_t
 )
 ;
 JSBool
@@ -223,7 +223,7 @@ JSXDRState
 *
 char
 *
-uint32
+uint32_t
 )
 ;
 void
@@ -235,7 +235,7 @@ raw
 (
 JSXDRState
 *
-uint32
+uint32_t
 )
 ;
 JSBool
@@ -246,11 +246,11 @@ seek
 (
 JSXDRState
 *
-int32
+int32_t
 JSXDRWhence
 )
 ;
-uint32
+uint32_t
 (
 *
 tell
@@ -400,7 +400,7 @@ JS_XDRMemGetData
 JSXDRState
 *
 xdr
-uint32
+uint32_t
 *
 lp
 )
@@ -418,14 +418,14 @@ xdr
 void
 *
 data
-uint32
+uint32_t
 len
 )
 ;
 extern
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_XDRMemDataLeft
 (
@@ -468,7 +468,7 @@ JS_XDRUint8
 JSXDRState
 *
 xdr
-uint8
+uint8_t
 *
 b
 )
@@ -483,7 +483,7 @@ JS_XDRUint16
 JSXDRState
 *
 xdr
-uint16
+uint16_t
 *
 s
 )
@@ -498,7 +498,7 @@ JS_XDRUint32
 JSXDRState
 *
 xdr
-uint32
+uint32_t
 *
 lp
 )
@@ -516,7 +516,7 @@ xdr
 char
 *
 bytes
-uint32
+uint32_t
 len
 )
 ;
@@ -659,7 +659,7 @@ xdr
 JSClass
 *
 clasp
-uint32
+uint32_t
 *
 lp
 )
@@ -667,7 +667,7 @@ lp
 extern
 JS_PUBLIC_API
 (
-uint32
+uint32_t
 )
 JS_XDRFindClassIdByName
 (
@@ -691,7 +691,7 @@ JS_XDRFindClassById
 JSXDRState
 *
 xdr
-uint32
+uint32_t
 id
 )
 ;

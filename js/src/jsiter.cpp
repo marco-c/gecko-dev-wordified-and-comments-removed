@@ -1161,7 +1161,7 @@ bstr
 return
 false
 ;
-int32
+int32_t
 result
 ;
 if
@@ -2445,7 +2445,7 @@ allocateIterator
 JSContext
 *
 cx
-uint32
+uint32_t
 slength
 const
 AutoIdVector
@@ -2589,9 +2589,9 @@ JSObject
 obj
 uintN
 flags
-uint32
+uint32_t
 slength
-uint32
+uint32_t
 key
 )
 {
@@ -2725,9 +2725,9 @@ flags
 AutoIdVector
 &
 keys
-uint32
+uint32_t
 slength
-uint32
+uint32_t
 key
 Value
 *
@@ -3202,7 +3202,7 @@ shapes
 cx
 )
 ;
-uint32
+uint32_t
 key
 =
 0
@@ -4958,7 +4958,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 )
 {
@@ -5005,7 +5005,7 @@ id
 class
 IndexRangePredicate
 {
-uint32
+uint32_t
 begin
 end
 ;
@@ -5013,9 +5013,9 @@ public
 :
 IndexRangePredicate
 (
-uint32
+uint32_t
 begin
-uint32
+uint32_t
 end
 )
 :
@@ -5063,13 +5063,13 @@ i
 begin
 <
 =
-uint32
+uint32_t
 (
 i
 )
 &
 &
-uint32
+uint32_t
 (
 i
 )
@@ -5097,7 +5097,7 @@ JSID_TO_ATOM
 id
 )
 ;
-uint32
+uint32_t
 index
 ;
 return
@@ -5146,9 +5146,9 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 begin
-uint32
+uint32_t
 end
 )
 {

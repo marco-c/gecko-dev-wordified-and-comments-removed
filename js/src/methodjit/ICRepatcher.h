@@ -233,7 +233,7 @@ patchAddressOffsetForValueLoad
 (
 CodeLocationLabel
 label
-uint32
+uint32_t
 offset
 )
 {
@@ -314,7 +314,7 @@ patchAddressOffsetForValueStore
 (
 CodeLocationLabel
 label
-uint32
+uint32_t
 offset
 bool
 typeConst

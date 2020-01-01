@@ -490,7 +490,7 @@ pdata
 lastCallStart
 )
 {
-int64
+int64_t
 now
 ;
 JSDProfileData
@@ -515,7 +515,7 @@ if
 callerpdata
 )
 {
-int64
+int64_t
 ll_delta
 ;
 pdata
@@ -632,7 +632,7 @@ pdata
 lastCallStart
 )
 {
-int64
+int64_t
 now
 ll_delta
 ;

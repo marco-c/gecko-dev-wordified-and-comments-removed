@@ -221,10 +221,10 @@ JSFunction
 public
 JSObject
 {
-uint16
+uint16_t
 nargs
 ;
-uint16
+uint16_t
 flags
 ;
 union
@@ -401,7 +401,7 @@ isFunctionPrototype
 )
 ;
 }
-uint16
+uint16_t
 kind
 (
 )
@@ -416,7 +416,7 @@ JSFUN_KINDMASK
 void
 setKind
 (
-uint16
+uint16_t
 k
 )
 {
@@ -453,7 +453,7 @@ const
 void
 setArgCount
 (
-uint16
+uint16_t
 nargs
 )
 {
@@ -1125,7 +1125,7 @@ const
 ;
 static
 const
-uint32
+uint32_t
 FLAT_CLOSURE_UPVARS_SLOT
 =
 0
@@ -1144,7 +1144,7 @@ js
 Value
 getFlatClosureUpvar
 (
-uint32
+uint32_t
 i
 )
 const
@@ -1153,7 +1153,7 @@ inline
 void
 setFlatClosureUpvar
 (
-uint32
+uint32_t
 i
 const
 js
@@ -1168,7 +1168,7 @@ inline
 void
 initFlatClosureUpvar
 (
-uint32
+uint32_t
 i
 const
 js
@@ -1209,14 +1209,14 @@ finalizeUpvars
 ;
 static
 const
-uint32
+uint32_t
 METHOD_PROPERTY_SLOT
 =
 0
 ;
 static
 const
-uint32
+uint32_t
 METHOD_OBJECT_SLOT
 =
 1
