@@ -40980,8 +40980,7 @@ aType
 {
 doomedElement
 =
--
-1
+i
 ;
 break
 ;
