@@ -3020,6 +3020,10 @@ EnsureWritablePath
 void
 EnsureUserSpacePath
 (
+bool
+aCommitTransform
+=
+true
 )
 ;
 void
