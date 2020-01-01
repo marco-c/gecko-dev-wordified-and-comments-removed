@@ -121,6 +121,10 @@ nsIDOMSmsCursor
 .
 idl
 \
+nsIDOMSmsSegmentInfo
+.
+idl
+\
 nsISmsDatabaseService
 .
 idl
