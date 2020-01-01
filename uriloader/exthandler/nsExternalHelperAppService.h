@@ -297,16 +297,6 @@ aExists
 =
 0
 ;
-bool
-InPrivateBrowsing
-(
-)
-const
-{
-return
-mInPrivateBrowsing
-;
-}
 protected
 :
 NS_HIDDEN_
