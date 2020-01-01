@@ -369,8 +369,3 @@ mozappdir
 )
 /
 res
-DEFINES
-+
-=
--
-D_IMPL_NS_LAYOUT

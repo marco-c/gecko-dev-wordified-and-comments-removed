@@ -117,11 +117,6 @@ src
 (
 NULL
 )
-DEFINES
-+
-=
--
-D_IMPL_NS_LAYOUT
 MOCHITEST_FILES
 =
 test_ipc

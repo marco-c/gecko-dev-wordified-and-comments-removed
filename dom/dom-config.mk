@@ -311,8 +311,3 @@ topsrcdir
 /
 %
 )
-DEFINES
-+
-=
--
-D_IMPL_NS_LAYOUT

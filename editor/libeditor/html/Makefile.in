@@ -105,11 +105,6 @@ DEFINES
 -
 DENABLE_EDITOR_API_LOG
 endif
-DEFINES
-+
-=
--
-D_IMPL_NS_LAYOUT
 include
 (
 topsrcdir

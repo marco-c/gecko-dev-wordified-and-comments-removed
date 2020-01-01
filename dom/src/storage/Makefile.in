@@ -114,11 +114,6 @@ content
 events
 /
 src
-DEFINES
-+
-=
--
-D_IMPL_NS_LAYOUT
 ifdef
 ENABLE_TESTS
 DEFINES

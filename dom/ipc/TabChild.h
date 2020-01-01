@@ -5,9 +5,6 @@ mozilla_dom_TabChild_h
 define
 mozilla_dom_TabChild_h
 #
-ifndef
-_IMPL_NS_LAYOUT
-#
 include
 "
 mozilla
@@ -18,8 +15,6 @@ PBrowserChild
 .
 h
 "
-#
-endif
 #
 ifdef
 DEBUG

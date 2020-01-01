@@ -181,8 +181,3 @@ chromium
 config
 .
 mk
-DEFINES
-+
-=
--
-D_IMPL_NS_LAYOUT

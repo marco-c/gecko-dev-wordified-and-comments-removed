@@ -1971,7 +1971,7 @@ NS_PIDOMWINDOW_IID
 )
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 PopupControlState
 PushPopupControlState
 (
@@ -2007,7 +2007,7 @@ public
 :
 #
 ifdef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 NS_AUTO_POPUP_STATE_PUSHER
 (
 PopupControlState
@@ -2105,7 +2105,7 @@ protected
 :
 #
 ifndef
-_IMPL_NS_LAYOUT
+MOZILLA_INTERNAL_API
 nsCOMPtr
 <
 nsPIDOMWindow

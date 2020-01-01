@@ -352,11 +352,6 @@ wifi
 NULL
 )
 endif
-DEFINES
-+
-=
--
-D_IMPL_NS_LAYOUT
 ifdef
 MOZ_JSDEBUGGER
 DEFINES

@@ -119,11 +119,6 @@ content
 events
 /
 src
-DEFINES
-+
-=
--
-D_IMPL_NS_LAYOUT
 include
 (
 topsrcdir

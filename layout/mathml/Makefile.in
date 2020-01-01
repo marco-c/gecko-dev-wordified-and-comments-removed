@@ -394,8 +394,3 @@ fonts
 (
 math_properties
 )
-DEFINES
-+
-=
--
-D_IMPL_NS_LAYOUT
