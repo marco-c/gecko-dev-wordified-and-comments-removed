@@ -131,6 +131,10 @@ TelemetryStopwatch
 .
 jsm
 \
+ThirdPartyCookieProbe
+.
+jsm
+\
 (
 NULL
 )
