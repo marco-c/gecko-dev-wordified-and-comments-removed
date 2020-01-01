@@ -253,6 +253,7 @@ unagi
 /
 "
 ]
+[
 "
 {
 workdir
@@ -262,6 +263,17 @@ boot
 .
 img
 "
+"
+out
+/
+target
+/
+product
+/
+unagi
+/
+"
+]
 "
 {
 workdir

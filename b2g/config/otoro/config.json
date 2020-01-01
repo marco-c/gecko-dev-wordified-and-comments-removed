@@ -238,6 +238,7 @@ otoro
 /
 "
 ]
+[
 "
 {
 workdir
@@ -247,6 +248,17 @@ boot
 .
 img
 "
+"
+out
+/
+target
+/
+product
+/
+otoro
+/
+"
+]
 "
 {
 workdir
