@@ -988,11 +988,15 @@ list
 hints
 :
 '
+-
+>
+pref
+set
 '
 markup
 :
 '
-EEEEVEEEE
+IIIIVIIII
 '
 status
 :
