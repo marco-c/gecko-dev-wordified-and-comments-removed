@@ -11491,7 +11491,7 @@ newlength
 length
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -11833,7 +11833,7 @@ newlength
 length
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )

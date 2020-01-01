@@ -1349,7 +1349,7 @@ if
 overflow
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )

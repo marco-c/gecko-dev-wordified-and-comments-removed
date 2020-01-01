@@ -800,11 +800,14 @@ type
 )
 MSG_DEF
 (
-JSMSG_UNUSED6
+JSMSG_ALLOC_OVERFLOW
 6
 0
-JSEXN_NONE
+JSEXN_INTERNALERR
 "
+allocation
+size
+overflow
 "
 )
 MSG_DEF

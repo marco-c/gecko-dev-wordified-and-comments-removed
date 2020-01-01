@@ -1582,7 +1582,7 @@ newlength
 length
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -1609,7 +1609,7 @@ jschar
 )
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -10376,7 +10376,7 @@ jschar
 )
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -12494,7 +12494,7 @@ length
 JSSTRING_LENGTH_MASK
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
