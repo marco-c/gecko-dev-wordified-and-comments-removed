@@ -432,6 +432,10 @@ nsEventListenerManager
 .
 h
 \
+nsDOMEventTargetHelper
+.
+h
+\
 (
 NULL
 )

@@ -511,6 +511,11 @@ Deactivate
 (
 )
 ;
+bool
+Active
+(
+)
+;
 void
 SendMouseEvent
 (
@@ -909,6 +914,9 @@ mIMESeqno
 ;
 float
 mDPI
+;
+bool
+mActive
 ;
 private
 :

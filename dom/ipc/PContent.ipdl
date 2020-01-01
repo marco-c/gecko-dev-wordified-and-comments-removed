@@ -849,6 +849,12 @@ nsCString
 buildID
 )
 ;
+SetID
+(
+PRUint64
+id
+)
+;
 parent
 :
 PAudio

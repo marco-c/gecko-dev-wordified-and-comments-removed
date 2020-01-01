@@ -484,6 +484,10 @@ mozAutoDocUpdate
 .
 h
 \
+nsFrameMessageManager
+.
+h
+\
 (
 NULL
 )
