@@ -1,3 +1,15 @@
+if
+(
+typeof
+(
+gcPreserveCode
+)
+=
+=
+"
+function
+"
+)
 gcPreserveCode
 (
 )
