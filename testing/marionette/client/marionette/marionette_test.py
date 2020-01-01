@@ -414,7 +414,8 @@ self
 .
 loglines
 =
-None
+[
+]
         
 self
 .
@@ -1531,13 +1532,16 @@ try
 self
 .
 loglines
-=
+.
+extend
+(
 self
 .
 marionette
 .
 get_logs
 (
+)
 )
                 
 except
