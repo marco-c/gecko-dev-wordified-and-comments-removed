@@ -844,12 +844,9 @@ ratings
 ENTITY
 rating
 .
-yourRating
-.
 label
 "
-Your
-rating
+Rating
 :
 "
 >

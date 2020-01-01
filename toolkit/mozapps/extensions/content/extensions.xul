@@ -2697,8 +2697,6 @@ value
 &
 rating
 .
-yourRating
-.
 label
 ;
 "
@@ -2724,7 +2722,7 @@ userrating
 showrating
 =
 "
-user
+average
 "
 /
 >
