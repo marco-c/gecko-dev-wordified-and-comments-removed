@@ -194,12 +194,6 @@ createHTMLDocument
 .
 html
 \
-test_DOMImplementation
--
-hasFeature
-.
-html
-\
 test_Element
 -
 childElementCount
