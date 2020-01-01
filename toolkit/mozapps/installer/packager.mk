@@ -1870,6 +1870,16 @@ icons
 \
 *
 \
+defaults
+/
+pref
+/
+channel
+-
+prefs
+.
+js
+\
 res
 /
 cursors

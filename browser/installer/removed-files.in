@@ -4136,15 +4136,6 @@ defaults
 /
 pref
 /
-channel
--
-prefs
-.
-js
-defaults
-/
-pref
-/
 firefox
 -
 branding
