@@ -255,13 +255,6 @@ showPrompt
 false
 \
 "
-showSurvey
-=
-\
-"
-false
-\
-"
 type
 =
 "
