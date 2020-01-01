@@ -1344,6 +1344,17 @@ aDir
 )
 ;
 }
+bool
+HandleKeyboardEventWithKeyCode
+(
+nsIDOMKeyEvent
+*
+aKeyEvent
+nsMenuChainItem
+*
+aTopVisibleMenuItem
+)
+;
 nsresult
 KeyUp
 (
