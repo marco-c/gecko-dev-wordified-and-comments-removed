@@ -514,6 +514,10 @@ AddonUpdateChecker
 .
 jsm
 \
+AddonLogging
+.
+jsm
+\
 (
 NULL
 )
