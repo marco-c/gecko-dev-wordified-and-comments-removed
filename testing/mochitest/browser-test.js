@@ -820,9 +820,6 @@ navigator
 constructor
 "
 "
-top
-"
-"
 Application
 "
 "
