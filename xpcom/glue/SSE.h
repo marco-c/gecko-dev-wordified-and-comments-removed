@@ -132,16 +132,8 @@ _M_AMD64
 )
 )
 #
-if
-_MSC_VER
->
-=
-1400
-#
 define
 MOZILLA_SSE_HAVE_CPUID_DETECTION
-#
-endif
 #
 if
 defined
