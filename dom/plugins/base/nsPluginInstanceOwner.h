@@ -1245,6 +1245,9 @@ nsIDOMEvent
 aFocusEvent
 )
 ;
+int
+mLastMouseDownButtonType
+;
 nsresult
 EnsureCachedAttrParamArrays
 (
