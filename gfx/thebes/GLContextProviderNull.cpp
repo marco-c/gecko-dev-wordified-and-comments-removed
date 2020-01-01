@@ -79,5 +79,14 @@ return
 nsnull
 ;
 }
+void
+GLContextProviderNull
+:
+:
+Shutdown
+(
+)
+{
+}
 }
 }

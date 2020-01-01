@@ -1160,5 +1160,14 @@ return
 nsnull
 ;
 }
+void
+GLContextProviderOSMesa
+:
+:
+Shutdown
+(
+)
+{
+}
 }
 }

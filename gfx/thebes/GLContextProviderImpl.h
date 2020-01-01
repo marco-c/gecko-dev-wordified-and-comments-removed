@@ -85,5 +85,11 @@ GetGlobalContext
 (
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 }
 ;

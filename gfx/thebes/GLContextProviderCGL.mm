@@ -2520,6 +2520,15 @@ return
 gGlobalContext
 ;
 }
+void
+GLContextProviderCGL
+:
+:
+Shutdown
+(
+)
+{
+}
 }
 /
 *

@@ -2852,5 +2852,14 @@ gGlobalContext
 )
 ;
 }
+void
+GLContextProviderWGL
+:
+:
+Shutdown
+(
+)
+{
+}
 }
 }
