@@ -752,7 +752,7 @@ center
 ;
 }
 .
-header
+headerControls
 {
 color
 :
@@ -771,10 +771,10 @@ moz
 dialog
 ;
 padding
+-
+top
 :
 5px
-0
-0
 ;
 }
 .
