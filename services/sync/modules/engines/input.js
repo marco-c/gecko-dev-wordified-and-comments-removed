@@ -154,7 +154,7 @@ input
 ;
 }
 get
-displayName
+_displayName
 (
 )
 {

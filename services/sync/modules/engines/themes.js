@@ -58,7 +58,7 @@ __proto__
 SyncEngine
 .
 prototype
-displayName
+_displayName
 :
 "
 Themes
