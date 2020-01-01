@@ -218,6 +218,9 @@ Makefile
 probes
 /
 Makefile
+python
+/
+Makefile
 extensions
 /
 Makefile

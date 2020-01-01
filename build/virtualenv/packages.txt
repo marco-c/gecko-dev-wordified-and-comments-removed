@@ -126,6 +126,13 @@ pth
 python
 /
 blessings
+mach
+.
+pth
+:
+python
+/
+mach
 mozbuild
 .
 pth

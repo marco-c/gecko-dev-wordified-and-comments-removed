@@ -13,6 +13,10 @@ mozfile
 import
 NamedTemporaryFile
 from
+mozunit
+import
+main
+from
 mach
 .
 logging
@@ -228,4 +232,16 @@ len
 result
 )
 0
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+main
+(
 )
