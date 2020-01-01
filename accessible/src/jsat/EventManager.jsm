@@ -853,11 +853,13 @@ EVENT_VIRTUALCURSOR_CHANGED
 aEvent
 .
 accessibleDocument
-!
-=
-Utils
 .
-CurrentContentDoc
+docType
+=
+=
+'
+window
+'
 )
 {
 return
