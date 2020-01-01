@@ -3282,13 +3282,6 @@ mTexture
 =
 NULL
 ;
-(
-void
-)
-GetOrCreateTexture
-(
-)
-;
 }
 IDirect3DTexture9
 *
