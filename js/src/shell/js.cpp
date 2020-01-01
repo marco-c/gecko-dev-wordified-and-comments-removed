@@ -13261,8 +13261,11 @@ address
 lineno
 )
 ;
-jsval
+RootedValue
 rval
+(
+cx
+)
 ;
 {
 Maybe
@@ -13373,8 +13376,11 @@ script
 >
 filename
 lineno
-&
 rval
+.
+address
+(
+)
 )
 )
 {

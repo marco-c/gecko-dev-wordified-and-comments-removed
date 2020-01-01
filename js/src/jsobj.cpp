@@ -8919,11 +8919,8 @@ compartment
 wrap
 (
 cx
+&
 v
-.
-address
-(
-)
 )
 )
 return
@@ -9098,6 +9095,12 @@ getClass
 )
 )
 ;
+RootedValue
+v
+(
+cx
+)
+;
 for
 (
 ;
@@ -9110,7 +9113,6 @@ span
 n
 )
 {
-Value
 v
 =
 from
