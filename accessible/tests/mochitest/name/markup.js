@@ -15,7 +15,7 @@ null
 var
 gDumpToConsole
 =
-false
+true
 ;
 function
 testNames
