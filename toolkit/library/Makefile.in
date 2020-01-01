@@ -1963,13 +1963,6 @@ EXTRA_DSO_LDOPTS
 -
 DELAYLOAD
 :
-gkmedias
-.
-dll
-\
--
-DELAYLOAD
-:
 psapi
 .
 dll
