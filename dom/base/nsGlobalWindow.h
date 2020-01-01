@@ -2808,11 +2808,6 @@ CanMoveResizeWindows
 (
 )
 ;
-bool
-GetBlurSuppression
-(
-)
-;
 nsresult
 GetScrollXY
 (
