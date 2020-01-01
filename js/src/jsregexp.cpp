@@ -9523,10 +9523,6 @@ ContextAllocPolicy
 LInsList
 ;
 static
-GC
-gc
-;
-static
 avmplus
 :
 :
@@ -16262,10 +16258,6 @@ lir
 lirBufWriter
 =
 new
-(
-&
-gc
-)
 LirBufWriter
 (
 lirbuf
@@ -16290,10 +16282,6 @@ lir
 verbose_filter
 =
 new
-(
-&
-gc
-)
 VerboseWriter
 (
 alloc
@@ -16318,10 +16306,6 @@ lir
 sanity_filter
 =
 new
-(
-&
-gc
-)
 SanityFilter
 (
 lir

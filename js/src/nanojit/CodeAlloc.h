@@ -7,10 +7,6 @@ __nanojit_CodeAlloc__
 namespace
 nanojit
 {
-using
-namespace
-MMgc
-;
 inline
 bool
 containsPtr
