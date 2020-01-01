@@ -163,7 +163,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGImageElement
 nsSVGImageElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGImageElement
 nsSVGImageElement
@@ -196,8 +196,10 @@ nsSVGImageElement
 :
 nsSVGImageElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

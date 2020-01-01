@@ -114,7 +114,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGPathElement
 nsSVGPathElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGPathElement
 nsSVGPathElement
@@ -145,8 +145,10 @@ nsSVGPathElement
 :
 nsSVGPathElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

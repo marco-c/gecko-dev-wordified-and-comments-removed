@@ -4454,9 +4454,9 @@ xpc_qsXPCOMObjectToJsval
 XPCLazyCallContext
 &
 lccx
-nsISupports
+qsObjectHelper
 *
-p
+aHelper
 nsWrapperCache
 *
 cache
@@ -4509,7 +4509,12 @@ NativeInterface2JSObject
 lccx
 rval
 nsnull
-p
+aHelper
+-
+>
+Object
+(
+)
 iid
 iface
 cache
@@ -4522,6 +4527,7 @@ PR_TRUE
 OBJ_IS_NOT_GLOBAL
 &
 rv
+aHelper
 )
 )
 {

@@ -214,7 +214,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGFilterElement
 nsSVGFilterElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGFilterElement
 nsSVGFilterElement
@@ -245,8 +245,10 @@ nsSVGFilterElement
 :
 nsSVGFilterElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

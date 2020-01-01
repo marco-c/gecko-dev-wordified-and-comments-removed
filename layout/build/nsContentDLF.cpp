@@ -1362,6 +1362,10 @@ htmlElement
 NS_NewHTMLHtmlElement
 (
 htmlNodeInfo
+.
+forget
+(
+)
 )
 ;
 htmlNodeInfo
@@ -1388,6 +1392,10 @@ headElement
 NS_NewHTMLHeadElement
 (
 htmlNodeInfo
+.
+forget
+(
+)
 )
 ;
 htmlNodeInfo
@@ -1414,6 +1422,10 @@ bodyElement
 NS_NewHTMLBodyElement
 (
 htmlNodeInfo
+.
+forget
+(
+)
 )
 ;
 if

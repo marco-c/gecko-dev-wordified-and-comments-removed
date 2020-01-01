@@ -91,8 +91,10 @@ nsHTMLLegendElement
 :
 nsHTMLLegendElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -121,7 +123,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLLegendElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLLegendElement
 nsHTMLLegendElement

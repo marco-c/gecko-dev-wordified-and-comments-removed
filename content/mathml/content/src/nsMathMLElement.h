@@ -37,8 +37,10 @@ public
 :
 nsMathMLElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -203,6 +205,13 @@ return
 mIncrementScriptLevel
 ;
 }
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 private
 :
 PRPackedBool

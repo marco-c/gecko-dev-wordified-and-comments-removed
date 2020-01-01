@@ -228,7 +228,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGTextPathElement
 nsSVGTextPathElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGTextPathElement
 nsSVGTextPathElement
@@ -260,8 +260,10 @@ nsSVGTextPathElement
 :
 nsSVGTextPathElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

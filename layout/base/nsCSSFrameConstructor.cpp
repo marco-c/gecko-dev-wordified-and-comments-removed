@@ -6227,6 +6227,10 @@ getter_AddRefs
 content
 )
 nodeInfo
+.
+forget
+(
+)
 data
 .
 mContent
@@ -6968,6 +6972,10 @@ getter_AddRefs
 container
 )
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 if

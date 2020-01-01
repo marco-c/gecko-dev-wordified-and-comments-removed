@@ -3937,6 +3937,10 @@ getter_AddRefs
 mButtonContent
 )
 nodeInfo
+.
+forget
+(
+)
 PR_FALSE
 )
 ;

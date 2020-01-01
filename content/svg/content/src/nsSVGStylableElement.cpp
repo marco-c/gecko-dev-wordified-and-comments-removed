@@ -95,8 +95,10 @@ nsSVGStylableElement
 :
 nsSVGStylableElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

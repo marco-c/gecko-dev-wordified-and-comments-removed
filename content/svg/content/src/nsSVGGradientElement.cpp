@@ -216,8 +216,10 @@ nsSVGGradientElement
 :
 nsSVGGradientElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -721,7 +723,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGLinearGradientElement
 nsSVGLinearGradientElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGLinearGradientElement
 nsSVGLinearGradientElement
@@ -752,8 +754,10 @@ nsSVGLinearGradientElement
 :
 nsSVGLinearGradientElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -999,7 +1003,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGRadialGradientElement
 nsSVGRadialGradientElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGRadialGradientElement
 nsSVGRadialGradientElement
@@ -1030,8 +1034,10 @@ nsSVGRadialGradientElement
 :
 nsSVGRadialGradientElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

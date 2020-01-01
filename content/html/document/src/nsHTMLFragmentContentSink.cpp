@@ -1438,6 +1438,10 @@ CreateHTMLElement
 (
 nodeType
 nodeInfo
+.
+forget
+(
+)
 PR_FALSE
 )
 .
@@ -1824,6 +1828,10 @@ CreateHTMLElement
 (
 nodeType
 nodeInfo
+.
+forget
+(
+)
 PR_FALSE
 )
 ;

@@ -383,6 +383,13 @@ nsIHTMLDocument
 .
 h
 "
+#
+include
+"
+nsGenericElement
+.
+h
+"
 nsresult
 NS_NewDOMDocument
 (
@@ -1110,7 +1117,7 @@ mLoopingForSyncLoad
 PR_FALSE
 ;
 }
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 XMLDocument
 nsXMLDocument

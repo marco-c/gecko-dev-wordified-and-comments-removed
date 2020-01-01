@@ -4552,6 +4552,10 @@ result
 )
 aNameSpaceID
 nodeInfo
+.
+forget
+(
+)
 PR_FALSE
 )
 ;

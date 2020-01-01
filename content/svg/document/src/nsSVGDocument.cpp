@@ -44,6 +44,13 @@ Element
 .
 h
 "
+#
+include
+"
+nsGenericElement
+.
+h
+"
 using
 namespace
 mozilla
@@ -68,7 +75,7 @@ nsSVGDocument
 )
 {
 }
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGDocument
 nsSVGDocument

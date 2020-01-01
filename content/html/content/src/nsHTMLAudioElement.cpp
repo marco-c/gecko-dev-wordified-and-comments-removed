@@ -198,8 +198,10 @@ nsGenericHTMLElement
 *
 NS_NewHTMLAudioElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -274,6 +276,10 @@ new
 nsHTMLAudioElement
 (
 nodeInfo
+.
+forget
+(
+)
 aFromParser
 )
 ;
@@ -288,7 +294,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLAudioElement
 nsHTMLMediaElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLAudioElement
 nsHTMLAudioElement
@@ -322,8 +328,10 @@ nsHTMLAudioElement
 :
 nsHTMLAudioElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser

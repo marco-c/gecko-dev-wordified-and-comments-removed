@@ -2040,6 +2040,14 @@ NS_OK
 ;
 nsCOMPtr
 <
+nsINodeInfo
+>
+ni
+=
+aNodeInfo
+;
+nsCOMPtr
+<
 nsIContent
 >
 content
@@ -2058,7 +2066,11 @@ aNodeInfo
 NamespaceID
 (
 )
-aNodeInfo
+ni
+.
+forget
+(
+)
 aFromParser
 )
 ;

@@ -10,8 +10,10 @@ nsSVGPathGeometryElement
 :
 nsSVGPathGeometryElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

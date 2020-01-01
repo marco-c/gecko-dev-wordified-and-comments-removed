@@ -59,8 +59,10 @@ public
 :
 nsHTMLFieldSetElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -133,6 +135,13 @@ aResult
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 }
 ;
 NS_IMPL_NS_NEW_HTML_ELEMENT
@@ -144,8 +153,10 @@ nsHTMLFieldSetElement
 :
 nsHTMLFieldSetElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -174,7 +185,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLFieldSetElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLFieldSetElement
 nsHTMLFieldSetElement

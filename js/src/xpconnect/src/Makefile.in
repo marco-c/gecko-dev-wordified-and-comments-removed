@@ -803,6 +803,16 @@ layout
 /
 style
 \
+-
+I
+(
+topsrcdir
+)
+/
+layout
+/
+base
+\
 (
 NULL
 )
@@ -1379,3 +1389,8 @@ idl
 parser
 /
 cache
+DEFINES
++
+=
+-
+D_IMPL_NS_LAYOUT

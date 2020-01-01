@@ -563,8 +563,10 @@ nsGenericHTMLElement
 *
 NS_NewHTMLFormElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -624,8 +626,10 @@ nsHTMLFormElement
 :
 nsHTMLFormElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -854,7 +858,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLFormElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLFormElement
 nsHTMLFormElement

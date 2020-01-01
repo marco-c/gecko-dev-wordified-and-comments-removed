@@ -30,8 +30,10 @@ public
 :
 nsHTMLLegendElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -297,6 +299,13 @@ GetFormElement
 nsnull
 ;
 }
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 nsIContent

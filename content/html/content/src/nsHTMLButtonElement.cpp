@@ -268,8 +268,10 @@ public
 :
 nsHTMLButtonElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -483,6 +485,13 @@ DoneCreatingElement
 (
 )
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 virtual
@@ -538,8 +547,10 @@ nsHTMLButtonElement
 :
 nsHTMLButtonElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -587,7 +598,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLButtonElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLButtonElement
 nsHTMLButtonElement

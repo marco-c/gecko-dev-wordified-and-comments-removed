@@ -99,7 +99,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGAElement
 nsSVGAElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGAElement
 nsSVGAElement
@@ -131,8 +131,10 @@ nsSVGAElement
 :
 nsSVGAElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

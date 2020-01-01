@@ -269,8 +269,10 @@ public
 :
 nsHTMLFormElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -674,6 +676,13 @@ OnSubmitClickBegin
 ;
 void
 OnSubmitClickEnd
+(
+)
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
 (
 )
 ;

@@ -452,8 +452,10 @@ nsHTMLSelectElement
 :
 nsHTMLSelectElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -556,7 +558,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLSelectElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLSelectElement
 nsHTMLSelectElement
@@ -2550,6 +2552,10 @@ element
 NS_NewHTMLOptionElement
 (
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 if

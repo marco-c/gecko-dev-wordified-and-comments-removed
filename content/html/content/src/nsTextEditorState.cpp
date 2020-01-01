@@ -5379,6 +5379,10 @@ getter_AddRefs
 mRootNode
 )
 nodeInfo
+.
+forget
+(
+)
 PR_FALSE
 )
 ;
@@ -5665,6 +5669,10 @@ getter_AddRefs
 mPlaceholderDiv
 )
 nodeInfo
+.
+forget
+(
+)
 PR_FALSE
 )
 ;

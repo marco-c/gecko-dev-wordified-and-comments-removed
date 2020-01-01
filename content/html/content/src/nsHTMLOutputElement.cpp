@@ -47,8 +47,10 @@ public
 :
 nsHTMLOutputElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -151,6 +153,13 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 nsHTMLOutputElement
 nsGenericHTMLFormElement
 )
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 enum
@@ -183,8 +192,10 @@ nsHTMLOutputElement
 :
 nsHTMLOutputElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -235,7 +246,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLOutputElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLOutputElement
 nsHTMLOutputElement

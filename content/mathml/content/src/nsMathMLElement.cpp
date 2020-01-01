@@ -96,7 +96,7 @@ mozAutoDocUpdate
 .
 h
 "
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 MathMLElement
 nsMathMLElement

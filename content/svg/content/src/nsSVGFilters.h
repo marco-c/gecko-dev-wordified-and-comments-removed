@@ -248,8 +248,10 @@ protected
 :
 nsSVGFE
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

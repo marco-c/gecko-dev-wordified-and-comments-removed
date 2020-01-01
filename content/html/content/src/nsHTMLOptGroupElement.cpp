@@ -101,8 +101,10 @@ public
 :
 nsHTMLOptGroupElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -189,6 +191,13 @@ aResult
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 nsIContent
@@ -208,8 +217,10 @@ nsHTMLOptGroupElement
 :
 nsHTMLOptGroupElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -238,7 +249,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLOptGroupElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLOptGroupElement
 nsHTMLOptGroupElement

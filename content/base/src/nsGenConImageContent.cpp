@@ -45,8 +45,10 @@ public
 :
 nsGenConImageContent
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -107,8 +109,10 @@ nsIContent
 *
 *
 aResult
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 imgIRequest
 *

@@ -44,8 +44,10 @@ public
 :
 nsXMLProcessingInstruction
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 const
 nsAString
@@ -106,6 +108,13 @@ const
 ;
 #
 endif
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 PRBool

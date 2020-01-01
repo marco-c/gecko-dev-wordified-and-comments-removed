@@ -80,8 +80,10 @@ public
 :
 nsHTMLSourceElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -160,6 +162,13 @@ PRBool
 aCompileEventHandlers
 )
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 }
 ;
 NS_IMPL_NS_NEW_HTML_ELEMENT
@@ -171,8 +180,10 @@ nsHTMLSourceElement
 :
 nsHTMLSourceElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -201,7 +212,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLSourceElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLSourceElement
 nsHTMLSourceElement

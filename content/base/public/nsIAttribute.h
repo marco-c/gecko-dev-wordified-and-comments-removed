@@ -111,8 +111,10 @@ nsIAttribute
 nsDOMAttributeMap
 *
 aAttrMap
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

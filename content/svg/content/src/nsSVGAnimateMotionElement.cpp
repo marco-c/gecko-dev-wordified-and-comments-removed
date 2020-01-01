@@ -19,7 +19,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGAnimateMotionElement
 nsSVGAnimateMotionElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGAnimateMotionElement
 nsSVGAnimateMotionElement
@@ -50,8 +50,10 @@ nsSVGAnimateMotionElement
 :
 nsSVGAnimateMotionElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

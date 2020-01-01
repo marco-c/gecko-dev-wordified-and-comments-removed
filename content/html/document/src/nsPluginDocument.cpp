@@ -994,6 +994,10 @@ getter_AddRefs
 mPluginContent
 )
 nodeInfo
+.
+forget
+(
+)
 PR_FALSE
 )
 ;

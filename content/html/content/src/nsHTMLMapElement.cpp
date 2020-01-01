@@ -73,8 +73,10 @@ public
 :
 nsHTMLMapElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -148,6 +150,13 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 nsHTMLMapElement
 nsGenericHTMLElement
 )
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 protected
 :
 nsRefPtr
@@ -167,8 +176,10 @@ nsHTMLMapElement
 :
 nsHTMLMapElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -203,7 +214,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLMapElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLMapElement
 nsHTMLMapElement

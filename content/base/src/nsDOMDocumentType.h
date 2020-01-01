@@ -51,8 +51,10 @@ public
 :
 nsDOMDocumentType
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 nsIAtom
 *
@@ -118,6 +120,13 @@ nsIContent
 aBindingParent
 PRBool
 aCompileEventHandlers
+)
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
 )
 ;
 protected

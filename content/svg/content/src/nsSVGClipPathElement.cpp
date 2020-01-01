@@ -53,7 +53,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGClipPathElement
 nsSVGClipPathElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGClipPathElement
 nsSVGClipPathElement
@@ -84,8 +84,10 @@ nsSVGClipPathElement
 :
 nsSVGClipPathElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

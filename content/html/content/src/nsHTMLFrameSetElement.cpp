@@ -68,8 +68,10 @@ public
 :
 nsHTMLFrameSetElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -217,6 +219,13 @@ aResult
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 private
 :
 nsresult
@@ -267,8 +276,10 @@ nsHTMLFrameSetElement
 :
 nsHTMLFrameSetElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -309,7 +320,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLFrameSetElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLFrameSetElement
 nsHTMLFrameSetElement

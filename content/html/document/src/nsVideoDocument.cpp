@@ -332,6 +332,10 @@ nsHTMLMediaElement
 NS_NewHTMLVideoElement
 (
 nodeInfo
+.
+forget
+(
+)
 PR_FALSE
 )
 )

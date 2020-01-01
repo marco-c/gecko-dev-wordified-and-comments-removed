@@ -97,8 +97,10 @@ ifdef
 MOZILLA_INTERNAL_API
 Element
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

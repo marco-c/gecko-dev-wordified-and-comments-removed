@@ -147,8 +147,10 @@ public
 :
 nsHTMLCanvasElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -370,6 +372,13 @@ aManager
 ;
 void
 MarkContextClean
+(
+)
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
 (
 )
 ;

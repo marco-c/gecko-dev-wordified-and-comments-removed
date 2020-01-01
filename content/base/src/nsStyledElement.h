@@ -36,8 +36,10 @@ protected
 inline
 nsStyledElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

@@ -115,8 +115,10 @@ public
 :
 nsDocumentFragment
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -715,6 +717,13 @@ aFlags
 const
 ;
 virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
+virtual
 nsIAtom
 *
 DoGetID
@@ -799,6 +808,10 @@ new
 nsDocumentFragment
 (
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 if
@@ -828,8 +841,10 @@ nsDocumentFragment
 :
 nsDocumentFragment
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -906,7 +921,7 @@ return
 nsnull
 ;
 }
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 DocumentFragment
 nsDocumentFragment

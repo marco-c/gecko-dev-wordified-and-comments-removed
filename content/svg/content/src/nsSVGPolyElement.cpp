@@ -39,8 +39,10 @@ nsSVGPolyElement
 :
 nsSVGPolyElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

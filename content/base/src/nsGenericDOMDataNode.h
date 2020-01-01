@@ -162,8 +162,10 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 nsGenericDOMDataNode
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -1486,8 +1488,10 @@ public
 :
 nsGenericTextNode
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

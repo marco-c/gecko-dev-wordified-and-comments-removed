@@ -199,8 +199,10 @@ nsXTFElementWrapper
 :
 nsXTFElementWrapper
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 nsIXTFElement
 *
@@ -4336,8 +4338,10 @@ NS_NewXTFElementWrapper
 nsIXTFElement
 *
 aXTFElement
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 nsIContent
 *

@@ -225,8 +225,10 @@ public
 :
 nsHTMLInputElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -780,6 +782,13 @@ nsGenericHTMLFormElement
 )
 void
 MaybeLoadImage
+(
+)
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
 (
 )
 ;

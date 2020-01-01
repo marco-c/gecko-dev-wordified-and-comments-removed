@@ -34,8 +34,10 @@ public
 :
 nsHTMLVideoElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 PRUint32
 aFromParser
@@ -132,6 +134,13 @@ GetVideoSize
 (
 nsIntSize
 defaultSize
+)
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
 )
 ;
 }

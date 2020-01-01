@@ -93,8 +93,10 @@ nsIContent
 *
 *
 aResult
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -198,8 +200,10 @@ nsIContent
 *
 *
 aResult
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 {
@@ -217,6 +221,10 @@ mFactoryHash
 Get
 (
 aNodeInfo
+.
+get
+(
+)
 -
 >
 NamespaceID
@@ -239,6 +247,10 @@ nsAutoString
 uri
 ;
 aNodeInfo
+.
+get
+(
+)
 -
 >
 GetNamespaceURI
@@ -326,6 +338,10 @@ mFactoryHash
 Put
 (
 aNodeInfo
+.
+get
+(
+)
 -
 >
 NamespaceID
@@ -354,6 +370,10 @@ nsAutoString
 tagName
 ;
 aNodeInfo
+.
+get
+(
+)
 -
 >
 GetName

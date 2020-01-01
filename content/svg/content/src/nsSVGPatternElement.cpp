@@ -202,7 +202,7 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGPatternElement
 nsSVGPatternElementBase
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 SVGPatternElement
 nsSVGPatternElement
@@ -235,8 +235,10 @@ nsSVGPatternElement
 :
 nsSVGPatternElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :

@@ -80,8 +80,10 @@ public
 :
 nsTextNode
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -124,6 +126,13 @@ aAttr
 ;
 nsresult
 UnbindFromAttribute
+(
+)
+;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
 (
 )
 ;

@@ -437,6 +437,10 @@ getter_AddRefs
 mPopupgroupContent
 )
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -488,6 +492,10 @@ getter_AddRefs
 mTooltipContent
 )
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

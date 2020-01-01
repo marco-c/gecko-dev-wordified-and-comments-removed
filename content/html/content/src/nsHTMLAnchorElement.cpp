@@ -144,8 +144,10 @@ public
 :
 nsHTMLAnchorElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 ;
@@ -402,6 +404,13 @@ IntrinsicState
 )
 const
 ;
+virtual
+nsXPCClassInfo
+*
+GetClassInfo
+(
+)
+;
 }
 ;
 NS_IMPL_NS_NEW_HTML_ELEMENT
@@ -413,8 +422,10 @@ nsHTMLAnchorElement
 :
 nsHTMLAnchorElement
 (
+already_AddRefed
+<
 nsINodeInfo
-*
+>
 aNodeInfo
 )
 :
@@ -443,7 +454,7 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLAnchorElement
 nsGenericElement
 )
-DOMCI_DATA
+DOMCI_NODE_DATA
 (
 HTMLAnchorElement
 nsHTMLAnchorElement
