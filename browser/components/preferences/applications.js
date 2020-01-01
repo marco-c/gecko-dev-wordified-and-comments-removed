@@ -6748,6 +6748,18 @@ handlerInfo
 )
 )
 ;
+if
+(
+!
+this
+.
+_setIconClassForPreferredAction
+(
+handlerInfo
+typeItem
+)
+)
+{
 typeItem
 .
 setAttribute
@@ -6763,6 +6775,7 @@ handlerInfo
 )
 )
 ;
+}
 }
 chooseApp
 :
