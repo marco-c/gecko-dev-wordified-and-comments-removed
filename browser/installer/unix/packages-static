@@ -470,6 +470,13 @@ bin
 /
 components
 /
+contentprefs
+.
+xpt
+bin
+/
+components
+/
 cookie
 .
 xpt
