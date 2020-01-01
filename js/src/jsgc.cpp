@@ -13496,10 +13496,10 @@ NULL
 }
 fp
 =
+js_GetTopStackFrame
+(
 acx
--
->
-fp
+)
 ;
 nextChain
 =

@@ -1170,16 +1170,9 @@ JSVAL_ZERO
 if
 (
 !
+JS_IsConstructing
 (
 cx
--
->
-fp
--
->
-flags
-&
-JSFRAME_CONSTRUCTING
 )
 )
 {

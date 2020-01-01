@@ -476,16 +476,9 @@ JSVAL_FALSE
 if
 (
 !
+JS_IsConstructing
 (
 cx
--
->
-fp
--
->
-flags
-&
-JSFRAME_CONSTRUCTING
 )
 )
 {

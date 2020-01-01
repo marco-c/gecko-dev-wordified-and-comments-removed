@@ -25358,16 +25358,9 @@ rval
 if
 (
 !
+JS_IsConstructing
 (
 cx
--
->
-fp
--
->
-flags
-&
-JSFRAME_CONSTRUCTING
 )
 )
 {

@@ -1133,10 +1133,10 @@ else
 if
 (
 !
+JS_IsRunning
+(
 mJSContext
--
->
-fp
+)
 )
 JS_ClearNewbornRoots
 (

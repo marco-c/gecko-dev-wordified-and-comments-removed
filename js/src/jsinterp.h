@@ -1159,6 +1159,7 @@ sprop
 PCVAL_SPROP
 )
 extern
+JS_REQUIRES_STACK
 void
 js_FillPropertyCache
 (
@@ -1495,6 +1496,7 @@ while
 0
 )
 extern
+JS_REQUIRES_STACK
 JSAtom
 *
 js_FullTestPropertyCache
@@ -1855,6 +1857,7 @@ vp
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSBool
 js_Interpret
 (
@@ -1993,6 +1996,7 @@ argv
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSBool
 js_EnterWith
 (
@@ -2004,6 +2008,7 @@ stackIndex
 )
 ;
 extern
+JS_REQUIRES_STACK
 void
 js_LeaveWith
 (
@@ -2013,6 +2018,7 @@ cx
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSClass
 *
 js_IsActiveWithOrBlock
@@ -2040,6 +2046,7 @@ fp
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSBool
 js_UnwindScope
 (
@@ -2104,6 +2111,7 @@ vp2
 )
 ;
 extern
+JS_REQUIRES_STACK
 void
 js_TraceOpcode
 (
