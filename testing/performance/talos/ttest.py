@@ -409,6 +409,7 @@ profile_path
 }
 :
       
+temp_dir
 profile_dir
 =
 ffsetup
@@ -909,14 +910,14 @@ ffsetup
 .
 MakeDirectoryContentsWritable
 (
-profile_dir
+temp_dir
 )
   
 shutil
 .
 rmtree
 (
-profile_dir
+temp_dir
 )
   
 utils
