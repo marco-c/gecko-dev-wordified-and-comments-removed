@@ -2376,6 +2376,11 @@ true
 )
 Replace
 (
+gDialog
+.
+ReplaceWordInput
+.
+value
 )
 ;
 else
