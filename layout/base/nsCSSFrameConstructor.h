@@ -4464,6 +4464,9 @@ nsCounterManager
 mCounterManager
 ;
 uint16_t
+mCurrentDepth
+;
+uint16_t
 mUpdateCount
 ;
 bool
