@@ -144,6 +144,14 @@ text
 )
 #
 endif
+#
+ifdef
+XP_MACOSX
+#
+define
+ENABLE_SPS_LEAF_DATA
+#
+endif
 typedef
 uint8_t
 *
