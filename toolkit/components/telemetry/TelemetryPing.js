@@ -273,6 +273,15 @@ physical
 "
 LOW_MEMORY_EVENTS_PHYSICAL
 "
+"
+ghost
+-
+windows
+"
+:
+"
+GHOST_WINDOWS
+"
 }
 ;
 const
