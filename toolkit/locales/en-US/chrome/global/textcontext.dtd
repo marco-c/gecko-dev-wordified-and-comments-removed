@@ -228,7 +228,7 @@ n
 <
 !
 ENTITY
-spellCheckEnable
+spellCheckToggle
 .
 label
 "
@@ -239,11 +239,11 @@ Spelling
 <
 !
 ENTITY
-spellCheckEnable
+spellCheckToggle
 .
 accesskey
 "
-S
+g
 "
 >
 <
