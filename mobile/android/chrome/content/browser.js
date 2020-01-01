@@ -1902,7 +1902,7 @@ isAppUpdated
 )
 this
 .
-onUpdate
+onAppUpdated
 (
 )
 ;
