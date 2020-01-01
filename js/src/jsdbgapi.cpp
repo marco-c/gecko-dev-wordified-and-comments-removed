@@ -6794,7 +6794,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -6834,7 +6834,7 @@ enter
 )
 )
 return
-NULL
+false
 ;
 JSScript
 *
