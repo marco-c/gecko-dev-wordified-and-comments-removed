@@ -2612,6 +2612,12 @@ NULL
 JSMSG_CLEARED_SCOPE
 )
 ;
+PutActivationObjects
+(
+cx
+fp
+)
+;
 return
 false
 ;
