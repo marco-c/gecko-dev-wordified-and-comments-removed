@@ -795,7 +795,7 @@ aContainer
 )
 ;
 }
-IMPL_STRONGREF_MUTATION_NOTIFICATION
+IMPL_MUTATION_NOTIFICATION
 (
 ContentInserted
 aContainer

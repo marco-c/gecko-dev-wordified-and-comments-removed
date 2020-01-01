@@ -4425,6 +4425,15 @@ doc
 "
 )
 ;
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 AddSubtreeToDocument
 (
 aChild
