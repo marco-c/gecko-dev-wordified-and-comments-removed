@@ -925,6 +925,9 @@ BlockingConnectionCloseCallback
 :
 Complete
 (
+nsresult
+nsISupports
+*
 )
 {
 mDone

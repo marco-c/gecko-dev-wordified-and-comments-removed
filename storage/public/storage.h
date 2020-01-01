@@ -126,6 +126,13 @@ h
 #
 include
 "
+mozIStorageAsyncConnection
+.
+h
+"
+#
+include
+"
 mozStorageHelper
 .
 h
