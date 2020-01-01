@@ -694,6 +694,13 @@ bin
 \
 components
 \
+exthelper
+.
+xpt
+bin
+\
+components
+\
 fastfind
 .
 xpt
@@ -1277,6 +1284,13 @@ bin
 components
 \
 fuelApplication
+.
+js
+bin
+\
+components
+\
+extApplication
 .
 js
 bin

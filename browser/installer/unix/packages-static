@@ -660,6 +660,13 @@ bin
 /
 components
 /
+exthelper
+.
+xpt
+bin
+/
+components
+/
 fastfind
 .
 xpt
@@ -1281,6 +1288,13 @@ bin
 components
 /
 FeedWriter
+.
+js
+bin
+/
+components
+/
+extApplication
 .
 js
 bin
