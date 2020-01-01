@@ -699,6 +699,16 @@ MInstruction
 ins
 )
 ;
+void
+initParameters
+(
+)
+;
+void
+rewriteParameters
+(
+)
+;
 bool
 pushConstant
 (

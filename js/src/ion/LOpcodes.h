@@ -160,6 +160,11 @@ _
 (
 TruncateDToInt32
 )
+\
+_
+(
+Start
+)
 #
 if
 defined

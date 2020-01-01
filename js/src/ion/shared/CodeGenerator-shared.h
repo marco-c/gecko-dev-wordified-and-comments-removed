@@ -490,15 +490,6 @@ LIRGraph
 graph
 )
 ;
-virtual
-bool
-visitParameter
-(
-LParameter
-*
-param
-)
-;
 }
 ;
 struct

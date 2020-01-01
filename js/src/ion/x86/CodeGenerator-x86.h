@@ -125,15 +125,6 @@ size_t
 pos
 )
 ;
-Register
-splitTagForTest
-(
-const
-ValueOperand
-&
-value
-)
-;
 Assembler
 :
 :

@@ -1382,6 +1382,9 @@ FrameSizeClass
 None
 (
 )
+&
+&
+deoptTable_
 frameClass_
 .
 frameSize

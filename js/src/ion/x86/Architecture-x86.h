@@ -367,6 +367,16 @@ NonAllocatableMask
 static
 const
 uint32
+TempMask
+=
+VolatileMask
+&
+~
+NonAllocatableMask
+;
+static
+const
+uint32
 JSCallClobberMask
 =
 AllocatableMask
