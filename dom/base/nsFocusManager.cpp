@@ -406,14 +406,6 @@ widget
 ;
 #
 define
-DEBUG_FOCUS
-1
-#
-define
-DEBUG_FOCUS_NAVIGATION
-1
-#
-define
 PRINTTAGF
 (
 format
