@@ -580,6 +580,12 @@ cx
 obj_
 )
 ;
+assertSameCompartment
+(
+cx
+obj
+)
+;
 return
 GetOuterObject
 (
