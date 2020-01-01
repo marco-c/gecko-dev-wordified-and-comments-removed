@@ -961,6 +961,8 @@ chromium_s
 \
 mozreg_s
 \
+snappy_s
+\
 (
 NULL
 )
