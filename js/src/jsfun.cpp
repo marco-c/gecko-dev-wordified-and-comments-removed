@@ -8408,15 +8408,6 @@ isBoundFunction
 )
 )
 ;
-if
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
-return
-true
-;
 JSObject
 *
 parent

@@ -3850,6 +3850,9 @@ fp
 isConstructing
 (
 )
+&
+&
+ok
 )
 {
 if
