@@ -568,6 +568,10 @@ TestCOMPtrEq
 .
 cpp
 \
+TestDeque
+.
+cpp
+\
 TestFile
 .
 cpp
@@ -642,11 +646,6 @@ cpp
 \
 #
 TestCRT
-.
-cpp
-\
-#
-TestDeque
 .
 cpp
 \
