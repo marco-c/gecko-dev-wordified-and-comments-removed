@@ -2533,13 +2533,13 @@ text
 }
 ;
 unsigned
-long
+int
 *
 buf
 =
 (
 unsigned
-long
+int
 *
 )
 malloc
