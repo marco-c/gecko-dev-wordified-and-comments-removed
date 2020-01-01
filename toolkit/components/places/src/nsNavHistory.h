@@ -303,6 +303,9 @@ h
 "
 #
 define
+IN_MEMORY_SQLITE_TEMP_STORE
+#
+define
 LAZY_ADD
 #
 define
