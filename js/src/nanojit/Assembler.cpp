@@ -5408,6 +5408,12 @@ LIR_ldq
 case
 LIR_ldqc
 :
+case
+LIR_ldf
+:
+case
+LIR_ldfc
+:
 {
 countlir_ldq
 (
@@ -5682,6 +5688,9 @@ LIR_st32f
 case
 LIR_stqi
 :
+case
+LIR_stfi
+:
 {
 countlir_stq
 (
@@ -5731,9 +5740,9 @@ LIR_qjoin
 &
 &
 op
-!
 =
-LIR_st32f
+=
+LIR_stfi
 )
 {
 asm_store32
