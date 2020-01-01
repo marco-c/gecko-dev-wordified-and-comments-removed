@@ -1716,9 +1716,6 @@ regexpCode
 size_t
 *
 stackCommitted
-size_t
-*
-gcMarker
 )
 ;
 void

@@ -1010,11 +1010,6 @@ rtStats
 -
 >
 runtimeStackCommitted
-&
-rtStats
--
->
-runtimeGCMarker
 )
 ;
 rtStats
@@ -1604,7 +1599,6 @@ NULL
 regexpCode
 &
 stackCommitted
-NULL
 )
 ;
 *
