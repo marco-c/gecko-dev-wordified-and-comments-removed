@@ -1015,7 +1015,7 @@ file
 *
 Get
 the
-nsIURL
+nsIURI
 for
 the
 file
