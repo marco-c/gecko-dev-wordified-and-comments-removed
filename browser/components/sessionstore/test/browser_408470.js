@@ -98,7 +98,9 @@ aSS
 .
 title
 ;
-stylesheetSwitchAll
+gPageStyleMenu
+.
+switchStyleSheet
 (
 tab
 .

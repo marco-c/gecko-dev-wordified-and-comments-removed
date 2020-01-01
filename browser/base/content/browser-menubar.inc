@@ -2326,7 +2326,9 @@ menupopup
 onpopupshowing
 =
 "
-stylesheetFillPopup
+gPageStyleMenu
+.
+fillPopup
 (
 this
 )
@@ -2335,7 +2337,9 @@ this
 oncommand
 =
 "
-stylesheetSwitchAll
+gPageStyleMenu
+.
+switchStyleSheet
 (
 window
 .
@@ -2352,6 +2356,8 @@ data
 )
 )
 ;
+gPageStyleMenu
+.
 setStyleDisabled
 (
 false
@@ -2387,6 +2393,8 @@ accesskey
 oncommand
 =
 "
+gPageStyleMenu
+.
 setStyleDisabled
 (
 true

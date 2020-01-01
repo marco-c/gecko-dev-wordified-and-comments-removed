@@ -106,7 +106,9 @@ menupopup
 0
 ]
 ;
-stylesheetFillPopup
+gPageStyleMenu
+.
+fillPopup
 (
 menupopup
 )
