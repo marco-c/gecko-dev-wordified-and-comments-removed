@@ -185,6 +185,10 @@ LayerSorter
 .
 h
 \
+LayerTreeInvalidation
+.
+h
+\
 (
 NULL
 )
@@ -256,6 +260,10 @@ LayerManagerOGLProgram
 cpp
 \
 LayerSorter
+.
+cpp
+\
+LayerTreeInvalidation
 .
 cpp
 \

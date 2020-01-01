@@ -3877,6 +3877,15 @@ mValidRegion
 aRegion
 )
 ;
+AddInvalidRect
+(
+aRegion
+.
+GetBounds
+(
+)
+)
+;
 }
 void
 ThebesLayerOGL

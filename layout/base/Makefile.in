@@ -155,6 +155,10 @@ nsDisplayList
 .
 h
 \
+nsDisplayListInvalidation
+.
+h
+\
 nsFrameManager
 .
 h
