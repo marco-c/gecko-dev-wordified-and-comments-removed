@@ -105,15 +105,6 @@ reftest
 .
 list
 #
-backgrounds
-/
-include
-backgrounds
-/
-reftest
-.
-list
-#
 bidi
 /
 include

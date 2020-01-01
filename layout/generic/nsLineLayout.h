@@ -1053,6 +1053,9 @@ nsIFrame
 *
 mFrame
 ;
+nsCSSFrameType
+mFrameType
+;
 nscoord
 mAscent
 ;

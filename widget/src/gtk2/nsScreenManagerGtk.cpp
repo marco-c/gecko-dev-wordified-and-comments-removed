@@ -565,14 +565,14 @@ GDK_DISPLAY
 numScreens
 )
 ;
+}
+}
 mXineramaIsActive
 =
 numScreens
 >
 0
 ;
-}
-}
 if
 (
 !
