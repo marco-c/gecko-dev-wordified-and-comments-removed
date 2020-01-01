@@ -39037,6 +39037,7 @@ MOZ_QT
 QtGui
 QtNetwork
 QtCore
+QtOpenGL
 )
 AC_CHECK_PROGS
 (
@@ -39065,6 +39066,8 @@ lQtCore
 lQtDBus
 -
 lQtXml
+-
+lQtOpenGL
 "
 MOZ_QT_CFLAGS
 =
