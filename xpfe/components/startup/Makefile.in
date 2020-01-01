@@ -417,7 +417,6 @@ mk
 DIRS
 =
 public
-src
 include
 (
 topsrcdir
