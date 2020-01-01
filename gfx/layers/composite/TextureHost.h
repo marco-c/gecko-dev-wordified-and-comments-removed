@@ -402,7 +402,9 @@ Lock
 )
 {
 return
-true
+IsValid
+(
+)
 ;
 }
 virtual
