@@ -587,15 +587,10 @@ main
 -
 window
 "
-width
+sizemode
 =
 "
-720
-"
-height
-=
-"
-420
+maximized
 "
 onload
 =
