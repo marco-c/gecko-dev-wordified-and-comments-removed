@@ -241,9 +241,6 @@ masm
 FrameState
 frame
 ;
-CodeGenerator
-cg
-;
 js
 :
 :
@@ -406,6 +403,13 @@ emitReturn
 (
 )
 ;
+void
+jsop_bitop
+(
+JSOp
+op
+)
+;
 #
 define
 STUB_CALL_TYPE
@@ -448,6 +452,11 @@ JSObjStub
 STUB_CALL_TYPE
 (
 VoidStubUInt32
+)
+;
+STUB_CALL_TYPE
+(
+VoidStub
 )
 ;
 #
