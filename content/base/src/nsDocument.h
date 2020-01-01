@@ -2150,7 +2150,7 @@ NS_HIDDEN_
 (
 void
 )
-SaveState
+RemovedFromDocShell
 (
 )
 ;
@@ -2617,7 +2617,7 @@ mIsGoingAway
 1
 ;
 PRPackedBool
-mSavedState
+mRemovedFromDocShell
 :
 1
 ;
