@@ -116,6 +116,13 @@ key_frame_seek
 .
 patch
 fixes
-buf
+bug
 463358
+.
+offset_next
+.
+patch
+fixes
+bug
+495366
 .

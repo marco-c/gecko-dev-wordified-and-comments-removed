@@ -1726,3 +1726,10 @@ p3
 key_frame_seek
 .
 patch
+patch
+-
+p3
+<
+offset_next
+.
+patch
