@@ -117,6 +117,9 @@ IDBDatabaseRequest
 ;
 private
 :
+nsCString
+mASCIIOrigin
+;
 nsString
 mName
 ;

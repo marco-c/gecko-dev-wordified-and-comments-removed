@@ -85,6 +85,10 @@ protected
 :
 AsyncConnectionHelper
 (
+const
+nsACString
+&
+aASCIIOrigin
 nsCOMPtr
 <
 mozIStorageConnection
@@ -139,6 +143,11 @@ nsIWritableVariant
 aVariant
 )
 ;
+nsresult
+EnsureConnection
+(
+)
+;
 protected
 :
 nsCOMPtr
@@ -150,6 +159,9 @@ mConnection
 ;
 private
 :
+nsCString
+mASCIIOrigin
+;
 nsCOMPtr
 <
 nsIDOMEventTarget
