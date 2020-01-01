@@ -242,7 +242,7 @@ aStatus
 )
 ;
 static
-void
+PRBool
 ParsePIData
 (
 const
