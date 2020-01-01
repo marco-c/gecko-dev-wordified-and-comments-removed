@@ -193,16 +193,6 @@ IsAltPressed
 (
 )
 ;
-std
-:
-:
-wstring
-GetClassName
-(
-HWND
-window
-)
-;
 bool
 UserAccountControlIsEnabled
 (
