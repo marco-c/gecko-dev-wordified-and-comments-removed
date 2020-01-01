@@ -60143,16 +60143,6 @@ pthread_atfork
 wrap
 =
 raise
--
--
-wrap
-=
-PR_GetEnv
--
--
-wrap
-=
-PR_SetEnv
 "
 fi
 dnl
