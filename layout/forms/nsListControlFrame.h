@@ -859,14 +859,6 @@ nsListControlFrame
 )
 ;
 nsresult
-GetSizeAttribute
-(
-uint32_t
-*
-aSize
-)
-;
-nsresult
 GetIndexFromDOMEvent
 (
 nsIDOMEvent
