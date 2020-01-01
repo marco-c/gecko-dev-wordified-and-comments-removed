@@ -5120,6 +5120,7 @@ nanojit
 :
 LIns
 *
+&
 v_ins
 nanojit
 :
