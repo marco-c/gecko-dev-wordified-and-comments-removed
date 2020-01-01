@@ -4008,7 +4008,9 @@ return
 JS_FALSE
 ;
 }
-static
+namespace
+js
+{
 JSBool
 array_defineProperty
 (
@@ -4225,6 +4227,7 @@ attrs
 )
 ;
 }
+}
 static
 JSBool
 array_getAttributes
@@ -4296,7 +4299,9 @@ return
 JS_FALSE
 ;
 }
-static
+namespace
+js
+{
 JSBool
 array_deleteProperty
 (
@@ -4422,6 +4427,7 @@ true
 return
 JS_TRUE
 ;
+}
 }
 static
 void
