@@ -542,6 +542,10 @@ js
 \
 test_actions
 .
+html
+\
+test_actions
+.
 xul
 \
 test_actions_anchors

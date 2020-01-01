@@ -324,6 +324,7 @@ aShell
 )
 {
 }
+NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
 GetRoleInternal
@@ -351,7 +352,7 @@ class
 nsHTMLLIAccessible
 :
 public
-nsLinkableAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :
@@ -369,6 +370,7 @@ nsAString
 aBulletText
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetBounds
 (

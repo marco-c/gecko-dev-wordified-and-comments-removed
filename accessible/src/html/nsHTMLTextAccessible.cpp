@@ -604,7 +604,7 @@ nsAString
 aBulletText
 )
 :
-nsLinkableAccessible
+nsHyperTextAccessibleWrap
 (
 aDOMNode
 aShell
@@ -643,6 +643,11 @@ Init
 ;
 }
 }
+NS_IMPL_ISUPPORTS_INHERITED0
+(
+nsHTMLLIAccessible
+nsHyperTextAccessible
+)
 nsresult
 nsHTMLLIAccessible
 :
@@ -667,7 +672,7 @@ Shutdown
 nsresult
 rv
 =
-nsLinkableAccessible
+nsHyperTextAccessibleWrap
 :
 :
 Shutdown
@@ -722,7 +727,7 @@ aExtraState
 nsresult
 rv
 =
-nsAccessibleWrap
+nsHyperTextAccessibleWrap
 :
 :
 GetStateInternal
@@ -1169,6 +1174,11 @@ return
 NS_OK
 ;
 }
+NS_IMPL_ISUPPORTS_INHERITED0
+(
+nsHTMLListAccessible
+nsHyperTextAccessible
+)
 nsresult
 nsHTMLListAccessible
 :
