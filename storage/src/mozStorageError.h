@@ -18,8 +18,14 @@ nsString
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+storage
+{
 class
-mozStorageError
+Error
 :
 public
 mozIStorageError
@@ -28,7 +34,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_MOZISTORAGEERROR
-mozStorageError
+Error
 (
 int
 aResult
@@ -48,5 +54,7 @@ mMessage
 ;
 }
 ;
+}
+}
 #
 endif
