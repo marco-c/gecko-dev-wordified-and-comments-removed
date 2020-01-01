@@ -7432,17 +7432,6 @@ GetBinding
 aBindingParent
 )
 ;
-NS_ASSERTION
-(
-binding
-"
-huh
-no
-binding
-?
-"
-)
-;
 if
 (
 binding
