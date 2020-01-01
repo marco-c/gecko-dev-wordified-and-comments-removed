@@ -79996,7 +79996,10 @@ lir
 ins2i
 (
 LIR_rsh
+p2i
+(
 slot_ins
+)
 2
 )
 )
