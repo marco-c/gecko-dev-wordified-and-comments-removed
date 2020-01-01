@@ -455,6 +455,13 @@ h
 #
 include
 "
+nsWrapperCache
+.
+h
+"
+#
+include
+"
 nsIXPCScriptNotify
 .
 h
@@ -10694,6 +10701,9 @@ iid
 XPCNativeInterface
 *
 Interface
+nsWrapperCache
+*
+cache
 JSObject
 *
 scope
