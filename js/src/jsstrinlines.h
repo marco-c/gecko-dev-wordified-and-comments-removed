@@ -7,6 +7,13 @@ jsstrinlines_h___
 #
 include
 "
+jsatom
+.
+h
+"
+#
+include
+"
 jsstr
 .
 h
@@ -466,6 +473,12 @@ const
 JSFixedString
 *
 finishString
+(
+)
+;
+JSAtom
+*
+finishAtom
 (
 )
 ;

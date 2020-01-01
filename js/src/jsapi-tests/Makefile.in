@@ -529,6 +529,10 @@ testSetProperty
 .
 cpp
 \
+testStringBuffer
+.
+cpp
+\
 testThreadGC
 .
 cpp
