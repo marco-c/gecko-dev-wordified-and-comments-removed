@@ -624,10 +624,6 @@ nsGenConList
 .
 cpp
 \
-nsImageLoader
-.
-cpp
-\
 nsLayoutDebugger
 .
 cpp
