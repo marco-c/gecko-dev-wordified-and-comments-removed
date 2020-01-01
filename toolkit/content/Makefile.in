@@ -446,10 +446,6 @@ PopupNotifications
 .
 jsm
 \
-PrivateBrowsingUtils
-.
-jsm
-\
 PropertyListUtils
 .
 jsm
@@ -469,6 +465,10 @@ EXTRA_PP_JS_MODULES
 =
 \
 LightweightThemeConsumer
+.
+jsm
+\
+PrivateBrowsingUtils
 .
 jsm
 \
