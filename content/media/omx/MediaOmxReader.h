@@ -89,6 +89,9 @@ VideoData
 *
 mLastVideoFrame
 ;
+int32_t
+mSkipCount
+;
 public
 :
 MediaOmxReader

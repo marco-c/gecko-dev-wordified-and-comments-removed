@@ -61,6 +61,9 @@ mEndTimeUs
 bool
 mKeyFrame
 ;
+bool
+mShouldSkip
+;
 void
 *
 mData
