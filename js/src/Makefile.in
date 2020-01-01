@@ -545,6 +545,10 @@ FoldConstants
 .
 cpp
 \
+NameFunctions
+.
+cpp
+\
 ParallelArray
 .
 cpp
