@@ -691,6 +691,12 @@ IsValueFixedForSimpleDuration
 (
 )
 ;
+if
+(
+!
+mErrorFlags
+)
+{
 mHasChanged
 |
 =
@@ -706,6 +712,7 @@ GetAccumulate
 (
 )
 ;
+}
 mSampleTime
 =
 aSampleTime
