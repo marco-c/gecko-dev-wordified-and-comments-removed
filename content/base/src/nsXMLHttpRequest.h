@@ -2469,6 +2469,12 @@ JS
 Value
 mResultJSON
 ;
+js
+:
+:
+ArrayBufferBuilder
+mArrayBufferBuilder
+;
 JSObject
 *
 mResultArrayBuffer
