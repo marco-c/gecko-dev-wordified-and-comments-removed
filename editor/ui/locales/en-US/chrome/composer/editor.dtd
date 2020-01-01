@@ -440,17 +440,6 @@ titlemodifiermenuseparator
 >
 <
 !
-ENTITY
-textEditorWindow
-.
-titlemodifier
-"
-Text
-Editor
-"
->
-<
-!
 -
 -
 Menu
