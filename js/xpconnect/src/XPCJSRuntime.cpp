@@ -8061,7 +8061,9 @@ NS_LITERAL_CSTRING
 "
 lazy
 -
-scripts
+script
+-
+data
 "
 )
 zStats
@@ -12676,6 +12678,7 @@ nsPrintfCString
 "
 zone
 (
+0x
 %
 p
 )
