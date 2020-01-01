@@ -451,6 +451,10 @@ ContentPermissionPrompt
 .
 js
 \
+MozKeyboard
+.
+js
+\
 (
 NULL
 )
