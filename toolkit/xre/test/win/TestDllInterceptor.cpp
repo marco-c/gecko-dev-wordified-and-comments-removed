@@ -12,6 +12,10 @@ nsWindowsDllInterceptor
 .
 h
 "
+using
+namespace
+mozilla
+;
 struct
 payload
 {
