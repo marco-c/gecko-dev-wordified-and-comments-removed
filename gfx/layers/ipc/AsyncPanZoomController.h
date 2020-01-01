@@ -100,6 +100,9 @@ class
 ContainerLayer
 ;
 class
+ViewTransform
+;
+class
 AsyncPanZoomController
 MOZ_FINAL
 {
@@ -216,9 +219,9 @@ aSampleTime
 ContainerLayer
 *
 aLayer
-gfx3DMatrix
+ViewTransform
 *
-aNewTransform
+aTransform
 )
 ;
 void
