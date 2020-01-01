@@ -2452,9 +2452,7 @@ splitter
 /
 grip
 -
-hrz
--
-after
+bottom
 .
 gif
 (
@@ -2462,9 +2460,7 @@ splitter
 /
 grip
 -
-hrz
--
-after
+bottom
 .
 gif
 )
@@ -2478,9 +2474,7 @@ splitter
 /
 grip
 -
-hrz
--
-before
+top
 .
 gif
 (
@@ -2488,9 +2482,7 @@ splitter
 /
 grip
 -
-hrz
--
-before
+top
 .
 gif
 )
@@ -2504,9 +2496,7 @@ splitter
 /
 grip
 -
-vrt
--
-after
+left
 .
 gif
 (
@@ -2514,9 +2504,7 @@ splitter
 /
 grip
 -
-vrt
--
-after
+left
 .
 gif
 )
@@ -2530,9 +2518,7 @@ splitter
 /
 grip
 -
-vrt
--
-before
+right
 .
 gif
 (
@@ -2540,9 +2526,7 @@ splitter
 /
 grip
 -
-vrt
--
-before
+right
 .
 gif
 )
