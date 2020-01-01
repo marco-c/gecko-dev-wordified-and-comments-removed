@@ -605,6 +605,10 @@ nsCSSProps
 LookupProperty
 (
 aPropertyName
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 if
@@ -723,6 +727,10 @@ nsCSSProps
 LookupProperty
 (
 aPropertyName
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 if
@@ -821,6 +829,10 @@ nsCSSProps
 LookupProperty
 (
 aPropertyName
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 if
