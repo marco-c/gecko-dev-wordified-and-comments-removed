@@ -436,6 +436,16 @@ js
 (
 NULL
 )
+EXTRA_JS_MODULES
+=
+\
+LightweightThemeManager
+.
+jsm
+\
+(
+NULL
+)
 GARBAGE
 +
 =
