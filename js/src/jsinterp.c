@@ -22469,6 +22469,14 @@ JSVAL_HOLE
 goto
 end_getelem
 ;
+rval
+=
+FETCH_OPND
+(
+-
+1
+)
+;
 }
 }
 id
