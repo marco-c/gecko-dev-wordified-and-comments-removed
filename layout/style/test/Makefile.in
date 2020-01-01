@@ -1045,6 +1045,10 @@ test_transitions_bug537151
 .
 html
 \
+test_unclosed_parentheses
+.
+html
+\
 test_units_angle
 .
 html
