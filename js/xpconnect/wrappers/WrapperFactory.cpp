@@ -1383,7 +1383,7 @@ CompartmentPrivate
 *
 targetdata
 =
-GetCompartmentPrivate
+EnsureCompartmentPrivate
 (
 target
 )
@@ -1585,9 +1585,6 @@ wn
 ;
 if
 (
-targetdata
-&
-&
 (
 wn
 =
@@ -1872,10 +1869,6 @@ singleton
 else
 if
 (
-!
-targetdata
-|
-|
 !
 targetdata
 -
