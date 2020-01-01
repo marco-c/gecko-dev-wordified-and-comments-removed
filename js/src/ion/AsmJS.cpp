@@ -42,6 +42,13 @@ h
 #
 include
 "
+jsobjinlines
+.
+h
+"
+#
+include
+"
 frontend
 /
 ParseNode

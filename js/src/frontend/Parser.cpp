@@ -11382,7 +11382,10 @@ Module
 *
 module
 =
-js_NewModule
+Module
+:
+:
+create
 (
 context
 atom
