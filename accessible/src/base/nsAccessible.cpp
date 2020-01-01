@@ -3774,15 +3774,12 @@ nsAccessible
 *
 accessible
 =
-GetAccService
-(
-)
+accDocument
 -
 >
 GetAccessibleOrContainer
 (
 content
-accDocument
 )
 ;
 if
