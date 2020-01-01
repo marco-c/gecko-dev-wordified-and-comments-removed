@@ -10190,6 +10190,7 @@ AutoLocalJNIFrame
 jniFrame
 (
 env
+1
 )
 ;
 jstring
@@ -10215,6 +10216,15 @@ Length
 )
 )
 ;
+if
+(
+!
+jniFrame
+.
+CheckForException
+(
+)
+)
 env
 -
 >
