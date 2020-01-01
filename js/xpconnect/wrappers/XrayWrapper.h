@@ -24,10 +24,9 @@ holder_get
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 holder
-jsid
+JSHandleId
 id
 jsval
 *
@@ -40,10 +39,9 @@ holder_set
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 holder
-jsid
+JSHandleId
 id
 JSBool
 strict

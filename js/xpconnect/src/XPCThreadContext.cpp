@@ -560,10 +560,9 @@ SafeGlobalResolve
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 obj
-jsid
+JSHandleId
 id
 )
 {
