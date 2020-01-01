@@ -230,7 +230,12 @@ FILTER
 ALL
 :
 "
-all
+user
+"
+USER
+:
+"
+user
 "
 UA
 :
