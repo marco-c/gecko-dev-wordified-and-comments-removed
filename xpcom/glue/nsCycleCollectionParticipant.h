@@ -1530,6 +1530,12 @@ Clear
 define
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 \
+(
+void
+)
+tmp
+;
+\
 return
 NS_OK
 ;
