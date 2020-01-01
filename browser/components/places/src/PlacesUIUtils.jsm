@@ -2565,6 +2565,8 @@ window
 whereToOpenLink
 (
 aEvent
+false
+true
 )
 window
 )
