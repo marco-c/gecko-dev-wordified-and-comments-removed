@@ -521,14 +521,6 @@ IsScriptCreated
 (
 )
 ;
-void
-HandleParserContinueEvent
-(
-class
-nsHtml5ParserContinueEvent
-*
-)
-;
 public
 :
 virtual
@@ -566,11 +558,6 @@ InitializeDocWriteParserState
 nsAHtml5TreeBuilderState
 *
 aState
-)
-;
-void
-MaybePostContinueEvent
-(
 )
 ;
 void
@@ -636,10 +623,6 @@ mDocumentClosed
 void
 *
 mRootContextKey
-;
-nsIRunnable
-*
-mContinueEvent
 ;
 nsRefPtr
 <
