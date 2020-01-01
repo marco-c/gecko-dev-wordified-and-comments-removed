@@ -5222,7 +5222,7 @@ if
 !
 options
 .
-dontArrage
+dontArrange
 )
 this
 .
