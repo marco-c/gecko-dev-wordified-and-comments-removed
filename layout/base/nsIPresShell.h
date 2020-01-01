@@ -789,6 +789,14 @@ nsIContent
 aContent
 )
 ;
+void
+RestyleForAnimation
+(
+nsIContent
+*
+aContent
+)
+;
 NS_IMETHOD
 IsSafeToFlush
 (
