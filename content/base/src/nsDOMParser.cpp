@@ -2198,11 +2198,9 @@ now
 )
 ;
 return
-nsContentUtils
-:
-:
-CreateDocument
+NS_NewDOMDocument
 (
+aResult
 EmptyString
 (
 )
@@ -2213,9 +2211,9 @@ nullptr
 mDocumentURI
 mBaseURI
 mOriginalPrincipal
+true
 scriptHandlingObject
 aFlavor
-aResult
 )
 ;
 }
