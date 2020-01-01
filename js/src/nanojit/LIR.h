@@ -1330,13 +1330,6 @@ i
 )
 ;
 void
-setimm24
-(
-int32_t
-i
-)
-;
-void
 setresv
 (
 uint32_t
