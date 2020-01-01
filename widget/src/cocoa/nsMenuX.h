@@ -78,6 +78,9 @@ class
 nsIMenuListener
 ;
 class
+nsIDocShell
+;
+class
 nsMenuX
 ;
 class
@@ -553,9 +556,6 @@ mParent
 nsIChangeManager
 *
 mManager
-;
-nsWeakPtr
-mDocShellWeakRef
 ;
 nsCOMPtr
 <
