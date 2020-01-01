@@ -448,6 +448,12 @@ Legacy
 .
 js
 \
+storage
+-
+mozStorage
+.
+js
+\
 (
 NULL
 )
