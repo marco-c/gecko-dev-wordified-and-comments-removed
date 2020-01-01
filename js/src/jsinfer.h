@@ -1482,12 +1482,12 @@ flags
 ;
 static
 void
-WatchObjectReallocation
+WatchObjectStateChange
 (
 JSContext
 *
 cx
-JSObject
+TypeObject
 *
 object
 )
@@ -2158,7 +2158,7 @@ id
 )
 ;
 void
-markSlotReallocation
+markStateChange
 (
 JSContext
 *
