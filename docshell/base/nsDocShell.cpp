@@ -1030,13 +1030,6 @@ h
 static
 NS_DEFINE_CID
 (
-kDOMScriptObjectFactoryCID
-NS_DOM_SCRIPT_OBJECT_FACTORY_CID
-)
-;
-static
-NS_DEFINE_CID
-(
 kAppShellCID
 NS_APPSHELL_CID
 )
