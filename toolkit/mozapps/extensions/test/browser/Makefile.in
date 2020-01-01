@@ -633,6 +633,10 @@ browser_inlinesettings
 .
 js
 \
+browser_tabsettings
+.
+js
+\
 (
 NULL
 )
