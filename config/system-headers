@@ -4071,11 +4071,6 @@ vpx
 vp8dx
 .
 h
-sydneyaudio
-/
-sydney_audio
-.
-h
 vorbis
 /
 codec

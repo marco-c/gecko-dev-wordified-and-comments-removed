@@ -240,15 +240,8 @@ LIB_SUFFIX
 (
 NULL
 )
-ifneq
-(
-(
+ifdef
 MOZ_CUBEB
-)
-(
-MOZ_SYDNEYAUDIO
-)
-)
 ifdef
 MOZ_ALSA
 LIBS
