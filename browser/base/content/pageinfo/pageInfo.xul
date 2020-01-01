@@ -2095,6 +2095,11 @@ flex
 "
 1
 "
+hidecolumnpicker
+=
+"
+true
+"
 contextmenu
 =
 "
@@ -2119,11 +2124,6 @@ label
 &
 generalMetaName
 ;
-"
-ignoreincolumnpicker
-=
-"
-true
 "
 persist
 =
@@ -2163,11 +2163,6 @@ label
 &
 generalMetaContent
 ;
-"
-ignoreincolumnpicker
-=
-"
-true
 "
 persist
 =
