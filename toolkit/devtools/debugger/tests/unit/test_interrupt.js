@@ -30,6 +30,14 @@ DebuggerServer
 .
 init
 (
+function
+(
+)
+{
+return
+true
+;
+}
 )
 ;
 gDebuggee

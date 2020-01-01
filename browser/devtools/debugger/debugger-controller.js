@@ -585,6 +585,12 @@ if
 (
 !
 result
+&
+&
+!
+DebuggerController
+.
+activeThread
 )
 {
 this
