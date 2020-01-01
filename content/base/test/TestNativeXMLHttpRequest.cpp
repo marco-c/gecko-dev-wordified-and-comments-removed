@@ -323,6 +323,7 @@ Init
 systemPrincipal
 nsnull
 nsnull
+nsnull
 )
 ;
 TEST_ENSURE_SUCCESS

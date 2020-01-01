@@ -85,12 +85,6 @@ Release
 (
 )
 ;
-nsIScriptContext
-*
-ScriptContext
-(
-)
-;
 nsIScriptGlobalObject
 *
 ScriptGlobalObject

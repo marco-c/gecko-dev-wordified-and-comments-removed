@@ -613,6 +613,7 @@ Init
 docPrincipal
 context
 owner
+nsnull
 )
 ;
 rv

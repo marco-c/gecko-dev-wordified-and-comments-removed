@@ -158,6 +158,10 @@ nsDOMWorkerXHR
 ;
 friend
 class
+nsDOMWorkerXHRProxy
+;
+friend
+class
 nsReportErrorRunnable
 ;
 friend
