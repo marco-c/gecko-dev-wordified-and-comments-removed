@@ -1762,12 +1762,6 @@ nsCSSValue
 mLayout
 ;
 nsCSSValue
-mFrame
-;
-nsCSSValue
-mRules
-;
-nsCSSValue
 mSpan
 ;
 nsCSSValue

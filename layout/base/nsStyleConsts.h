@@ -906,10 +906,6 @@ style
 only
 #
 define
-NS_STYLE_BORDER_STYLE_RULES_MARKER
-0x10
-#
-define
 NS_STYLE_BORDER_IMAGE_STRETCH
 0
 #

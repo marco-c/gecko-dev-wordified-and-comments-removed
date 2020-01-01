@@ -5240,14 +5240,6 @@ i
 )
 ;
 }
-if
-(
-style
-&
-NS_STYLE_BORDER_STYLE_RULES_MARKER
-)
-return
-;
 }
 SF
 (
