@@ -468,6 +468,10 @@ test_evalInSandbox
 .
 xul
 \
+file_evalInSandbox
+.
+html
+\
 test_sandboxImport
 .
 xul
