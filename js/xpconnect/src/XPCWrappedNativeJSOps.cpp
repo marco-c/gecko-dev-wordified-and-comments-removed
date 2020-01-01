@@ -3525,12 +3525,10 @@ return
 obj
 ;
 }
-js
-:
-:
-Class
+XPCWrappedNativeJSClass
 XPC_WN_NoHelper_JSClass
 =
+{
 {
 "
 XPCWrappedNative_NoHelper
@@ -3596,6 +3594,8 @@ nsnull
 XPC_WN_JSOp_ThisObject
 XPC_WN_JSOp_Clear
 }
+}
+0
 }
 ;
 static
@@ -5016,6 +5016,8 @@ clazz
 =
 &
 XPC_WN_NoHelper_JSClass
+.
+base
 )
 {
 return
