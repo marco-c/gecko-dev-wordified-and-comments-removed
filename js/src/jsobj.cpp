@@ -1057,7 +1057,7 @@ slot
 JSSLOT_PROTO
 )
 {
-JS_UNLOCK_OBJ
+JS_LOCK_OBJ
 (
 cx
 obj
