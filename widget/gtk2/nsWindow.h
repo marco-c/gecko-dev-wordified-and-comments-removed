@@ -693,6 +693,12 @@ bool
 aShouldHide
 )
 ;
+static
+guint32
+GetCurrentEventTime
+(
+)
+;
 gint
 ConvertBorderStyles
 (
@@ -1049,7 +1055,8 @@ void
 void
 GrabPointer
 (
-void
+guint32
+aTime
 )
 ;
 void
