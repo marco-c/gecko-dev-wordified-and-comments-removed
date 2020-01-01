@@ -114,7 +114,7 @@ uint8_t
 aAttrEnum
 uint32_t
 aListIndex
-uint8_t
+bool
 aIsAnimValItem
 )
 ;
@@ -207,7 +207,7 @@ uint8_t
 aAttrEnum
 uint32_t
 aListIndex
-uint8_t
+bool
 aIsAnimValItem
 )
 ;

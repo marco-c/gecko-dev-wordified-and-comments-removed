@@ -98,13 +98,13 @@ MOZILLA_DOMSVGTRANSFORM_IID
 #
 define
 MOZ_SVG_LIST_INDEX_BIT_COUNT
-22
+31
 /
 /
 supports
 >
-4
-million
+2
+billion
 list
 items
 namespace
@@ -476,7 +476,7 @@ mListIndex
 :
 MOZ_SVG_LIST_INDEX_BIT_COUNT
 ;
-bool
+uint32_t
 mIsAnimValItem
 :
 1
