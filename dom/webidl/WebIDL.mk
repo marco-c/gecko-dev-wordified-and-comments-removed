@@ -75,6 +75,10 @@ NULL
 webidl_files
 =
 \
+AudioBuffer
+.
+webidl
+\
 AudioBufferSourceNode
 .
 webidl

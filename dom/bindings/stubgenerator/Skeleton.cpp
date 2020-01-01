@@ -16,6 +16,13 @@ SkeletonBinding
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {

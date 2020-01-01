@@ -99,6 +99,10 @@ CPPSRCS
 :
 =
 \
+AudioBuffer
+.
+cpp
+\
 AudioBufferSourceNode
 .
 cpp
@@ -137,6 +141,10 @@ EXPORTS_mozilla
 dom
 :
 =
+\
+AudioBuffer
+.
+h
 \
 AudioBufferSourceNode
 .
