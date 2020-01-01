@@ -565,6 +565,8 @@ ClearCurrentRequest
 (
 nsresult
 aReason
+uint32_t
+aFlags
 )
 ;
 void
@@ -572,6 +574,8 @@ ClearPendingRequest
 (
 nsresult
 aReason
+uint32_t
+aFlags
 )
 ;
 bool
