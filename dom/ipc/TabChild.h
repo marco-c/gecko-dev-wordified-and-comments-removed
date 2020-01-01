@@ -1377,6 +1377,17 @@ float
 aDPI
 )
 ;
+gfxSize
+GetZoom
+(
+)
+{
+return
+mLastMetrics
+.
+mZoom
+;
+}
 void
 SetBackgroundColor
 (
