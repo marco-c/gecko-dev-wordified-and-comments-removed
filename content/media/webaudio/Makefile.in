@@ -101,6 +101,10 @@ CPPSRCS
 :
 =
 \
+AnalyserNode
+.
+cpp
+\
 AudioBuffer
 .
 cpp
@@ -183,6 +187,10 @@ EXPORTS_mozilla
 dom
 :
 =
+\
+AnalyserNode
+.
+h
 \
 AudioBuffer
 .

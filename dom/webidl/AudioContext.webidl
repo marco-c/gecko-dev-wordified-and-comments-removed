@@ -254,6 +254,14 @@ createBufferSource
 [
 Creator
 ]
+AnalyserNode
+createAnalyser
+(
+)
+;
+[
+Creator
+]
 GainNode
 createGain
 (
