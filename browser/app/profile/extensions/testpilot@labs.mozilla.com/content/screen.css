@@ -675,6 +675,9 @@ rgba
 8
 )
 ;
+-
+moz
+-
 border
 -
 radius
@@ -694,6 +697,9 @@ radius
 .
 5em
 ;
+-
+moz
+-
 box
 -
 shadow
@@ -783,9 +789,7 @@ rgba
 )
 0px
 1px
-8
-.
-5px
+12px
 ;
 background
 -
@@ -839,6 +843,9 @@ rgba
 8
 )
 ;
+-
+moz
+-
 border
 -
 radius
@@ -858,6 +865,9 @@ radius
 .
 5em
 ;
+-
+moz
+-
 box
 -
 shadow
@@ -947,9 +957,7 @@ rgba
 )
 0px
 1px
-8
-.
-5px
+12px
 ;
 background
 -
@@ -1004,6 +1012,9 @@ rgba
 8
 )
 ;
+-
+moz
+-
 border
 -
 radius
@@ -1056,6 +1067,9 @@ repeat
 top
 center
 ;
+-
+moz
+-
 box
 -
 shadow
@@ -1073,9 +1087,7 @@ rgba
 0
 -
 10px
-8
-.
-5px
+12px
 inset
 rgba
 (
@@ -1099,9 +1111,7 @@ rgba
 )
 0
 10px
-8
-.
-5px
+12px
 ;
 /
 /
@@ -1159,6 +1169,9 @@ rgba
 8
 )
 ;
+-
+moz
+-
 border
 -
 radius
@@ -1211,6 +1224,9 @@ repeat
 top
 center
 ;
+-
+moz
+-
 box
 -
 shadow
@@ -1228,9 +1244,7 @@ rgba
 0
 -
 10px
-8
-.
-5px
+12px
 inset
 rgba
 (
@@ -1254,9 +1268,7 @@ rgba
 )
 0
 10px
-8
-.
-5px
+12px
 ;
 /
 /
@@ -1420,6 +1432,9 @@ rgba
 3
 )
 ;
+-
+moz
+-
 box
 -
 shadow
@@ -1437,9 +1452,7 @@ rgba
 0
 -
 10px
-8
-.
-5px
+12px
 ;
 padding
 :
