@@ -3619,16 +3619,12 @@ nsCOMPtr
 nsIURI
 >
 uri
-;
+=
 mSheet
 -
 >
 GetSheetURI
 (
-getter_AddRefs
-(
-uri
-)
 )
 ;
 PRBool
