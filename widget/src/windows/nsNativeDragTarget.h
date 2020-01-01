@@ -213,6 +213,9 @@ mHWnd
 PRBool
 mCanMove
 ;
+PRBool
+mMovePreferred
+;
 nsIWidget
 *
 mWindow
