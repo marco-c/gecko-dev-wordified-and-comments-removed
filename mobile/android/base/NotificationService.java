@@ -148,8 +148,6 @@ String
 aAlertText
 PendingIntent
 contentIntent
-PendingIntent
-clearIntent
 )
 {
 remove
@@ -305,12 +303,6 @@ aAlertTitle
 aAlertText
 contentIntent
 )
-;
-notification
-.
-deleteIntent
-=
-clearIntent
 ;
 notification
 .

@@ -1115,10 +1115,6 @@ LauncherShortcuts
 .
 java
 \
-NotificationHandler
-.
-java
-\
 Restarter
 .
 java
