@@ -742,10 +742,6 @@ test_drawImage_edge_cases
 .
 html
 \
-test_shadow_operators
-.
-html
-\
 (
 NULL
 )
