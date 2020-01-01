@@ -541,7 +541,7 @@ nsSVGGraphicElement
 :
 GetTransform
 (
-nsIDOMSVGAnimatedTransformList
+nsISupports
 *
 *
 aTransform

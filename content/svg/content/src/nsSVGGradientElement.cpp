@@ -306,7 +306,7 @@ nsSVGGradientElement
 :
 GetGradientTransform
 (
-nsIDOMSVGAnimatedTransformList
+nsISupports
 *
 *
 aGradientTransform

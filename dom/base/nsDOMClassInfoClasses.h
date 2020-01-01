@@ -879,10 +879,6 @@ SVGAnimatedString
 )
 DOMCI_CLASS
 (
-SVGAnimatedTransformList
-)
-DOMCI_CLASS
-(
 SVGEvent
 )
 DOMCI_CLASS
@@ -920,10 +916,6 @@ SVGStringList
 DOMCI_CLASS
 (
 SVGTransform
-)
-DOMCI_CLASS
-(
-SVGTransformList
 )
 DOMCI_CLASS
 (

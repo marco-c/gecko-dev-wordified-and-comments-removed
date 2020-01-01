@@ -98,9 +98,6 @@ nsIDOMSVGLocatable
 .
 idl
 "
-interface
-nsIDOMSVGAnimatedTransformList
-;
 [
 scriptable
 uuid
@@ -121,9 +118,12 @@ nsIDOMSVGTransformable
 :
 nsIDOMSVGLocatable
 {
+/
+/
+SVGAnimatedTransformList
 readonly
 attribute
-nsIDOMSVGAnimatedTransformList
+nsISupports
 transform
 ;
 }

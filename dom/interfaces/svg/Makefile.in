@@ -156,10 +156,6 @@ nsIDOMSVGAnimationElement
 .
 idl
 \
-nsIDOMSVGAnimTransformList
-.
-idl
-\
 nsIDOMSVGCircleElement
 .
 idl
@@ -353,10 +349,6 @@ nsIDOMSVGTitleElement
 idl
 \
 nsIDOMSVGTransform
-.
-idl
-\
-nsIDOMSVGTransformList
 .
 idl
 \

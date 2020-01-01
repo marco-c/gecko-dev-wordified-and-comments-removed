@@ -99,9 +99,6 @@ nsIDOMSVGZoomAndPan
 idl
 "
 interface
-nsIDOMSVGTransformList
-;
-interface
 nsIDOMSVGElement
 ;
 [
@@ -183,9 +180,12 @@ nsIDOMSVGFitToViewBox
 *
 /
 {
+/
+/
+SVGTransformList
 readonly
 attribute
-nsIDOMSVGTransformList
+nsISupports
 transform
 ;
 readonly

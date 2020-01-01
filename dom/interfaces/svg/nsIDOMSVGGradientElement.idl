@@ -149,9 +149,6 @@ html
 interface
 nsIDOMSVGAnimatedEnumeration
 ;
-interface
-nsIDOMSVGAnimatedTransformList
-;
 [
 scriptable
 uuid
@@ -265,9 +262,12 @@ attribute
 nsIDOMSVGAnimatedEnumeration
 gradientUnits
 ;
+/
+/
+SVGAnimatedTransformList
 readonly
 attribute
-nsIDOMSVGAnimatedTransformList
+nsISupports
 gradientTransform
 ;
 readonly

@@ -150,9 +150,6 @@ interface
 nsIDOMSVGAnimatedEnumeration
 ;
 interface
-nsIDOMSVGAnimatedTransformList
-;
-interface
 nsIDOMSVGAnimatedLength
 ;
 [
@@ -253,9 +250,12 @@ attribute
 nsIDOMSVGAnimatedEnumeration
 patternContentUnits
 ;
+/
+/
+SVGAnimatedTransformList
 readonly
 attribute
-nsIDOMSVGAnimatedTransformList
+nsISupports
 patternTransform
 ;
 readonly

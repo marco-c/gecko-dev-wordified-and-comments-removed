@@ -353,7 +353,7 @@ nsSVGPatternElement
 :
 GetPatternTransform
 (
-nsIDOMSVGAnimatedTransformList
+nsISupports
 *
 *
 aPatternTransform
