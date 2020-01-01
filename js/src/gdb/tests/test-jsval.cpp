@@ -184,7 +184,7 @@ global
 setObject
 (
 *
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 cx
 )

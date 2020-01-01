@@ -93,7 +93,7 @@ object_id
 cx
 OBJECT_TO_JSID
 (
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 cx
 )
