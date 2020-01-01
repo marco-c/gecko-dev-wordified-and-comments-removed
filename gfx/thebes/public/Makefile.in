@@ -122,6 +122,17 @@ NULL
 EXPORTS
 +
 =
+\
+gfxSharedImageSurface
+.
+h
+\
+(
+NULL
+)
+EXPORTS
++
+=
 gfxFontTest
 .
 h

@@ -1396,6 +1396,9 @@ EXTRA_DSO_LDOPTS
 (
 MOZ_QT_LDFLAGS
 )
+(
+XEXT_LIBS
+)
 endif
 include
 (
