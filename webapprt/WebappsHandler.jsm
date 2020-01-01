@@ -185,6 +185,12 @@ parse
 data
 )
 ;
+data
+.
+mm
+=
+subject
+;
 switch
 (
 topic

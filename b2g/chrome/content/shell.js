@@ -3634,6 +3634,12 @@ parse
 data
 )
 ;
+json
+.
+mm
+=
+subject
+;
 switch
 (
 topic
