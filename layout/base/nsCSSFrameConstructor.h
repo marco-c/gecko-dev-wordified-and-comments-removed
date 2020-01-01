@@ -1827,6 +1827,9 @@ nsIAtom
 aTag
 PRInt32
 aNameSpaceID
+nsIFrame
+*
+aParentFrame
 nsStyleContext
 *
 aStyleContext
