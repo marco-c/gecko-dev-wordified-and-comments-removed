@@ -28,13 +28,13 @@ true
 )
 ;
 let
-manager
+sms
 =
 window
 .
 navigator
 .
-mozMobileMessage
+mozSms
 ;
 let
 numberMsgs
@@ -74,9 +74,9 @@ state
 ;
 ok
 (
-manager
+sms
 "
-mozMobileMessage
+mozSms
 "
 )
 ;
@@ -109,7 +109,7 @@ MozSmsFilter
 let
 cursor
 =
-manager
+sms
 .
 getMessages
 (
@@ -260,7 +260,7 @@ obj
 log
 (
 "
-manager
+sms
 .
 getMessages
 error
@@ -332,7 +332,7 @@ smsId
 let
 request
 =
-manager
+sms
 .
 delete
 (
@@ -435,7 +435,7 @@ ok
 (
 false
 "
-manager
+sms
 .
 delete
 request
@@ -490,7 +490,7 @@ ok
 (
 false
 "
-manager
+sms
 .
 delete
 request
@@ -627,7 +627,7 @@ true
 )
 ;
 }
-manager
+sms
 .
 onreceived
 =
@@ -827,7 +827,7 @@ defaultRemoteNumber
 let
 cursor
 =
-manager
+sms
 .
 getMessages
 (
@@ -996,7 +996,7 @@ of
 messages
 returned
 by
-manager
+sms
 .
 getMessages
 "
@@ -1048,7 +1048,7 @@ obj
 log
 (
 "
-manager
+sms
 .
 getMessages
 error
@@ -1157,7 +1157,7 @@ cleanUp
 (
 )
 {
-manager
+sms
 .
 onreceived
 =

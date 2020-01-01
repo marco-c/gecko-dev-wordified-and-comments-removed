@@ -305,6 +305,11 @@ SmsFilter
 h
 '
 '
+SmsManager
+.
+h
+'
+'
 SmsMessage
 .
 h
@@ -366,6 +371,11 @@ cpp
 '
 '
 SmsIPCService
+.
+cpp
+'
+'
+SmsManager
 .
 cpp
 '

@@ -42,13 +42,13 @@ RECEIVER
 "
 ;
 let
-manager
+sms
 =
 window
 .
 navigator
 .
-mozMobileMessage
+mozSms
 ;
 let
 body
@@ -118,7 +118,7 @@ true
 }
 )
 ;
-manager
+sms
 .
 onreceived
 =
