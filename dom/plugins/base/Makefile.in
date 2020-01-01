@@ -771,6 +771,16 @@ I
 topsrcdir
 )
 /
+widget
+/
+android
+\
+-
+I
+(
+topsrcdir
+)
+/
 xpcom
 /
 base

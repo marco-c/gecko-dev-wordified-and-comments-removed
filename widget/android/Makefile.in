@@ -491,6 +491,10 @@ AndroidJNI
 .
 cpp
 \
+AndroidMediaLayer
+.
+cpp
+\
 nsWindow
 .
 cpp
