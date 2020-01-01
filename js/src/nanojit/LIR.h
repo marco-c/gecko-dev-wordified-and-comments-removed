@@ -875,7 +875,11 @@ MiniAccSet
 ret
 =
 {
+uint8_t
+(
 i
+)
+;
 }
 ;
 return
