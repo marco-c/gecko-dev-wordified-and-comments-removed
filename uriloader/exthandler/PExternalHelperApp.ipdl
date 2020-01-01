@@ -416,6 +416,8 @@ parent
 :
 OnStartRequest
 (
+nsCString
+entityID
 )
 ;
 OnDataAvailable
