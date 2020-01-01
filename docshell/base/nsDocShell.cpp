@@ -35726,9 +35726,17 @@ SetDocCurrentStateObj
 mOSHE
 )
 ;
+nsRefPtr
+<
+nsGlobalWindow
+>
+win
+=
+mScriptGlobal
+;
 if
 (
-mScriptGlobal
+win
 )
 {
 bool
@@ -35753,7 +35761,7 @@ historyNavBetweenSameDoc
 doHashchange
 )
 {
-mScriptGlobal
+win
 -
 >
 DispatchSyncPopState
@@ -35766,7 +35774,7 @@ if
 doHashchange
 )
 {
-mScriptGlobal
+win
 -
 >
 DispatchAsyncHashchange

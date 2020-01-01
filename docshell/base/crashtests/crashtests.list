@@ -92,3 +92,14 @@ load
 1
 .
 html
+pref
+(
+dom
+.
+disable_open_during_load
+false
+)
+load
+914521
+.
+html
