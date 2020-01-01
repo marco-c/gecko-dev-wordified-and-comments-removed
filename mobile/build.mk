@@ -446,8 +446,6 @@ tier_app_dirs
 +
 =
 services
-/
-sync
 endif
 tier_app_dirs
 +
