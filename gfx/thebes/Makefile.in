@@ -55,6 +55,10 @@ gfxBlur
 .
 h
 \
+gfxCachedTempSurface
+.
+h
+\
 gfxColor
 .
 h
@@ -528,6 +532,10 @@ gfxAlphaRecovery
 cpp
 \
 gfxBlur
+.
+cpp
+\
+gfxCachedTempSurface
 .
 cpp
 \
