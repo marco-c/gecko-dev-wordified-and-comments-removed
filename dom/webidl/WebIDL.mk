@@ -135,7 +135,7 @@ DOMImplementation
 .
 webidl
 \
-DOMTokenList
+DOMParser
 .
 webidl
 \
@@ -144,6 +144,10 @@ DOMSettableTokenList
 webidl
 \
 DOMStringMap
+.
+webidl
+\
+DOMTokenList
 .
 webidl
 \
@@ -280,6 +284,10 @@ XMLHttpRequestEventTarget
 webidl
 \
 XMLHttpRequestUpload
+.
+webidl
+\
+XMLSerializer
 .
 webidl
 \

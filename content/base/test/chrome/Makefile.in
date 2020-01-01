@@ -233,6 +233,10 @@ test_csp_bug773891
 .
 html
 \
+test_domparsing
+.
+xul
+\
 (
 NULL
 )

@@ -1105,6 +1105,10 @@ test_DOMException
 .
 html
 \
+test_domparsing
+.
+html
+\
 test_meta_viewport0
 .
 html
