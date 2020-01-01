@@ -428,6 +428,9 @@ XLDFLAGS
 (
 XLIBS
 )
+(
+XEXT_LIBS
+)
 endif
 ifdef
 MOZ_DFB
@@ -517,6 +520,9 @@ XLIBS
 )
 (
 CAIRO_FT_LIBS
+)
+(
+XEXT_LIBS
 )
 endif
 ifeq
