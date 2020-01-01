@@ -1418,7 +1418,7 @@ DrawText
 (
 aRenderingContext
 textRect
-0
+nsnull
 )
 ;
 }
@@ -1437,7 +1437,7 @@ nsRect
 aTextRect
 const
 nscolor
-&
+*
 aOverrideColor
 )
 {
@@ -1517,6 +1517,7 @@ color
 =
 aOverrideColor
 ?
+*
 aOverrideColor
 :
 context
@@ -1946,6 +1947,7 @@ SetColor
 (
 aOverrideColor
 ?
+*
 aOverrideColor
 :
 GetStyleColor
@@ -2451,6 +2453,7 @@ DrawText
 *
 renderingContext
 shadowRect
+&
 shadowColor
 )
 ;

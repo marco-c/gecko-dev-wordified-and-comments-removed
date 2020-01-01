@@ -18490,7 +18490,7 @@ PropertyProvider
 aProvider
 const
 nscolor
-&
+*
 aOverrideColor
 )
 {
@@ -18627,6 +18627,7 @@ lineColor
 =
 aOverrideColor
 ?
+*
 aOverrideColor
 :
 decorations
@@ -18672,6 +18673,7 @@ lineColor
 =
 aOverrideColor
 ?
+*
 aOverrideColor
 :
 decorations
@@ -18729,6 +18731,7 @@ lineColor
 =
 aOverrideColor
 ?
+*
 aOverrideColor
 :
 decorations
@@ -20004,6 +20007,7 @@ shadowOffset
 textPaintStyle
 *
 aProvider
+&
 shadowColor
 )
 ;

@@ -330,7 +330,7 @@ nsRect
 aTextRect
 const
 nscolor
-&
+*
 aOverrideColor
 )
 ;
