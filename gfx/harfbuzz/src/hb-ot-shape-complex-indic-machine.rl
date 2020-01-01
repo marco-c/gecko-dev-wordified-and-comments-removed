@@ -382,8 +382,8 @@ next_syllable
 set_cluster
 (
 buffer
-p
 last
+p
 )
 ;
 last
