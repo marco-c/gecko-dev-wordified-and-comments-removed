@@ -8,13 +8,15 @@ TelemetryTimestamps
 ]
 ;
 let
+timeStamps
+=
+{
+}
+;
+let
 TelemetryTimestamps
 =
 {
-timeStamps
-:
-{
-}
 add
 :
 function
@@ -61,8 +63,6 @@ timestamp
 ;
 if
 (
-this
-.
 timeStamps
 .
 hasOwnProperty
@@ -72,8 +72,6 @@ name
 )
 return
 ;
-this
-.
 timeStamps
 [
 name
@@ -98,8 +96,6 @@ JSON
 .
 stringify
 (
-this
-.
 timeStamps
 )
 )
