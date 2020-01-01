@@ -951,7 +951,7 @@ ctx
 cairo_t
 *
 )
-mOriginalDT
+mDT
 -
 >
 GetNativeSurface
