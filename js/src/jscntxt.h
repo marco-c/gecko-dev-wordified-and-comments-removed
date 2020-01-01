@@ -3422,14 +3422,6 @@ void
 endif
 #
 ifdef
-JS_DUMP_LOOP_STATS
-JSBasicStats
-loopStats
-;
-#
-endif
-#
-ifdef
 DEBUG
 jsrefcount
 inlineCalls
