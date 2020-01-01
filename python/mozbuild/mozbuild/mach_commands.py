@@ -2324,7 +2324,7 @@ finder_percent
 if
 monitor
 .
-elasped
+elapsed
 >
 300
 :
