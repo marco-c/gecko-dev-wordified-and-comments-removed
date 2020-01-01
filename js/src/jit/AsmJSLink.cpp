@@ -1179,6 +1179,12 @@ constructor
 "
 )
 ;
+module
+.
+setIsLinked
+(
+)
+;
 RootedValue
 globalVal
 (
@@ -1438,7 +1444,7 @@ use
 ;
 module
 .
-patchHeapAccesses
+initHeap
 (
 heap
 cx
@@ -1686,13 +1692,6 @@ as
 JSFunction
 >
 (
-)
-;
-module
-.
-setIsLinked
-(
-heap
 )
 ;
 return
