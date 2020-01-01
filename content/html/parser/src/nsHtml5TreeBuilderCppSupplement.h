@@ -1508,7 +1508,6 @@ aElement
 {
 NS_ASSERTION
 (
-(
 aNamespace
 =
 =
@@ -1525,7 +1524,6 @@ aNamespace
 =
 =
 kNameSpaceID_MathML
-)
 "
 Element
 isn
@@ -1719,7 +1717,6 @@ aElement
 {
 NS_ASSERTION
 (
-(
 aNamespace
 =
 =
@@ -1736,7 +1733,6 @@ aNamespace
 =
 =
 kNameSpaceID_MathML
-)
 "
 Element
 isn
