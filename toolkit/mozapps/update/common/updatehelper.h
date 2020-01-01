@@ -33,14 +33,11 @@ path
 )
 ;
 BOOL
-WinLaunchServiceCommand
+LaunchServiceSoftwareUpdateCommand
 (
-LPCWSTR
-exePath
-int
+DWORD
 argc
-WCHAR
-*
+LPCWSTR
 *
 argv
 )
