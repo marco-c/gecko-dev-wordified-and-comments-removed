@@ -140,10 +140,13 @@ DESTROYED
 false
 )
 ;
-InspectorUI
+Tilt
 .
-closeInspectorUI
+destroy
 (
+Tilt
+.
+currentWindowId
 )
 ;
 }

@@ -116,17 +116,5 @@ chrome
 %
 aboutHomeDTD
 ;
-<
-!
-ENTITY
-%
-debuggerDTD
-SYSTEM
-"
-chrome
-:
-%
-debuggerDTD
-;
 ]
 >
