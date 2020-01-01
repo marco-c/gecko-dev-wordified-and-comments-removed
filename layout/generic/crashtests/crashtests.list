@@ -1891,6 +1891,8 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 "
 10
+-
+40
 )
 load
 499885
