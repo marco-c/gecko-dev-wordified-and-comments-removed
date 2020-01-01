@@ -2021,7 +2021,7 @@ pSTM
 )
 ;
 case
-CF_DIB
+CF_DIBV5
 :
 return
 GetDib
