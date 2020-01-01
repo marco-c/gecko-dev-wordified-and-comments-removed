@@ -251,6 +251,14 @@ CSS_KEY
 -
 moz
 -
+eventreerow
+_moz_eventreerow
+)
+CSS_KEY
+(
+-
+moz
+-
 ethiopic
 -
 halehame
@@ -795,8 +803,8 @@ CSS_KEY
 -
 moz
 -
-oddrowbackground
-_moz_oddrowbackground
+oddtreerow
+_moz_oddtreerow
 )
 CSS_KEY
 (

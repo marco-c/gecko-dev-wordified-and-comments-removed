@@ -520,6 +520,12 @@ SYSCLR_WINDOWTEXT
 break
 ;
 case
+eColor__moz_eventreerow
+:
+case
+eColor__moz_oddtreerow
+:
+case
 eColor__moz_field
 :
 idx

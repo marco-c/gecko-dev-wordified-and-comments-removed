@@ -859,6 +859,9 @@ GTK_STATE_NORMAL
 break
 ;
 case
+eColor__moz_eventreerow
+:
+case
 eColor__moz_field
 :
 aColor
@@ -1060,7 +1063,7 @@ sMenuHoverText
 break
 ;
 case
-eColor__moz_oddrowbackground
+eColor__moz_oddtreerow
 :
 aColor
 =
