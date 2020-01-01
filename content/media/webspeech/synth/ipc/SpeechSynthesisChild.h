@@ -339,6 +339,17 @@ aCx
 )
 MOZ_OVERRIDE
 ;
+NS_IMETHOD
+SendAudioNative
+(
+int16_t
+*
+aData
+uint32_t
+aDataLen
+)
+MOZ_OVERRIDE
+;
 virtual
 void
 Pause
