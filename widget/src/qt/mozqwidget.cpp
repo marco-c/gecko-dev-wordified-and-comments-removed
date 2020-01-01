@@ -503,7 +503,15 @@ aEvent
 mReceiver
 -
 >
-mouseDoubleClickEvent
+OnButtonPressEvent
+(
+aEvent
+)
+;
+mReceiver
+-
+>
+OnMouseDoubleClickEvent
 (
 aEvent
 )
