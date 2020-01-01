@@ -134,6 +134,8 @@ nsString
 >
 &
 aURLs
+PRBool
+aForWorker
 )
 ;
 nsresult
@@ -146,6 +148,8 @@ const
 nsString
 &
 aURL
+PRBool
+aForWorker
 )
 ;
 virtual
@@ -453,6 +457,9 @@ mPendingRunnables
 ;
 PRPackedBool
 mCanceled
+;
+PRPackedBool
+mForWorker
 ;
 }
 ;
