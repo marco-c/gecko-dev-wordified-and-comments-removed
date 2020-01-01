@@ -277,6 +277,10 @@ test_gainNodeInLoop
 .
 html
 \
+test_maxChannelCount
+.
+html
+\
 test_mediaDecoding
 .
 html
