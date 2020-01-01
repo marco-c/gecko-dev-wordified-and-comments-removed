@@ -13905,6 +13905,16 @@ complete
 "
 )
 ;
+if
+(
+!
+mCurrentScriptProto
+)
+{
+return
+NS_OK
+;
+}
 nsXULPrototypeScript
 *
 scriptProto
