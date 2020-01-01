@@ -24244,6 +24244,14 @@ disp
 {
 nsRect
 r
+(
+nsPoint
+(
+0
+0
+)
+aNewSize
+)
 ;
 nsPresContext
 *

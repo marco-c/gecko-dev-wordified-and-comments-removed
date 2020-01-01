@@ -179,7 +179,7 @@ PRUint8
 aWidgetType
 nsRect
 *
-aResult
+aOverflowRect
 )
 {
 return
