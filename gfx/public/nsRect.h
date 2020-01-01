@@ -2114,7 +2114,7 @@ rect
 .
 x
 =
-NSToIntRound
+NSToIntRoundUp
 (
 NSAppUnitsToFloatPixels
 (
@@ -2130,7 +2130,7 @@ rect
 .
 y
 =
-NSToIntRound
+NSToIntRoundUp
 (
 NSAppUnitsToFloatPixels
 (
@@ -2146,7 +2146,7 @@ rect
 .
 width
 =
-NSToIntRound
+NSToIntRoundUp
 (
 NSAppUnitsToFloatPixels
 (
@@ -2168,7 +2168,7 @@ rect
 .
 height
 =
-NSToIntRound
+NSToIntRoundUp
 (
 NSAppUnitsToFloatPixels
 (
