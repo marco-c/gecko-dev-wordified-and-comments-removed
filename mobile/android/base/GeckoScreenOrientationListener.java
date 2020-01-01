@@ -630,7 +630,7 @@ setRequestedOrientation
 (
 ActivityInfo
 .
-SCREEN_ORIENTATION_SENSOR
+SCREEN_ORIENTATION_UNSPECIFIED
 )
 ;
 updateScreenOrientation
