@@ -499,6 +499,16 @@ options
 isLoaded
 )
 {
+var
+stringifiedOptions
+=
+JSON
+.
+stringify
+(
+options
+)
+;
 content
 .
 wrappedJSObject
@@ -554,7 +564,7 @@ closeIdentityDialog
 )
 ;
 }
-options
+stringifiedOptions
 )
 ;
 }
