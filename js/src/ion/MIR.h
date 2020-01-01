@@ -874,9 +874,16 @@ resultType_
 uint32
 flags_
 ;
+union
+{
 MDefinition
 *
 dependency_
+;
+uint32
+virtualRegister_
+;
+}
 ;
 private
 :
@@ -1517,7 +1524,7 @@ uint32
 vreg
 )
 {
-id_
+virtualRegister_
 =
 vreg
 ;
@@ -1545,7 +1552,7 @@ isLowered
 )
 ;
 return
-id_
+virtualRegister_
 ;
 }
 public

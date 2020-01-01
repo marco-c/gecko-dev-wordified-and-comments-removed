@@ -628,7 +628,7 @@ template
 typename
 T
 >
-bool
+void
 annotate
 (
 T
