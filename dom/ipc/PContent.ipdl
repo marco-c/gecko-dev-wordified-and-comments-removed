@@ -1874,12 +1874,6 @@ RemoveGeolocationListener
 (
 )
 ;
-SetGeolocationHigherAccuracy
-(
-bool
-enable
-)
-;
 ConsoleMessage
 (
 nsString
