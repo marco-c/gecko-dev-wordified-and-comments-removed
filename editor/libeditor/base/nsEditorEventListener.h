@@ -283,6 +283,11 @@ nsIDOMDragEvent
 aDragEvent
 )
 ;
+void
+CleanupDragDropCaret
+(
+)
+;
 already_AddRefed
 <
 nsIPresShell
@@ -302,9 +307,6 @@ nsRefPtr
 nsCaret
 >
 mCaret
-;
-PRPackedBool
-mCaretDrawn
 ;
 PRPackedBool
 mCommitText
