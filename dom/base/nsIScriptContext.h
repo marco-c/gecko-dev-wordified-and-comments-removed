@@ -515,9 +515,9 @@ CreateOuterObject
 nsIScriptGlobalObject
 *
 aGlobalObject
-nsIPrincipal
+nsIScriptGlobalObject
 *
-aPrincipal
+aCurrentInner
 )
 =
 0
