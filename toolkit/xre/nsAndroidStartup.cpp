@@ -150,7 +150,7 @@ nsnull
 ;
 attached
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -318,7 +318,7 @@ nsDependentCString
 (
 greHome
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 xreDir

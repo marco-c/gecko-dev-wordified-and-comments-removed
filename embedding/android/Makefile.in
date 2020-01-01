@@ -465,10 +465,6 @@ AlertNotification
 .
 java
 \
-SurfaceLockInfo
-.
-java
-\
 AwesomeBar
 .
 java
@@ -490,6 +486,10 @@ ShowTabs
 java
 \
 PromptService
+.
+java
+\
+SurfaceInfo
 .
 java
 \

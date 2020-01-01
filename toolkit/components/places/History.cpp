@@ -258,14 +258,14 @@ guid
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 title
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -355,14 +355,14 @@ guid
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 title
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -682,7 +682,7 @@ _string
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -734,7 +734,7 @@ _string
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -2087,7 +2087,7 @@ NS_ProxyRelease
 (
 mainThread
 mCallback
-PR_TRUE
+true
 )
 ;
 }
@@ -2234,7 +2234,7 @@ NS_ProxyRelease
 (
 mainThread
 aCallback
-PR_TRUE
+true
 )
 ;
 }
@@ -2389,7 +2389,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 mozIStorageConnection
 :
 :
@@ -2958,7 +2958,7 @@ NS_ProxyRelease
 (
 mainThread
 mCallback
-PR_TRUE
+true
 )
 ;
 }
@@ -4812,7 +4812,7 @@ NS_ProxyRelease
 (
 mainThread
 aCallback
-PR_TRUE
+true
 )
 ;
 }
@@ -5010,7 +5010,7 @@ AddObserver
 (
 this
 TOPIC_PLACES_SHUTDOWN
-PR_FALSE
+false
 )
 ;
 }
@@ -5318,7 +5318,7 @@ dbConn
 >
 Clone
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 mReadOnlyDBConn
@@ -8087,7 +8087,7 @@ guid
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
