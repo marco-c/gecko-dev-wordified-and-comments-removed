@@ -578,7 +578,7 @@ Ci
 .
 nsIDownloadManager
 ;
-var
+let
 gDownloadManager
 =
 Cc
@@ -601,28 +601,28 @@ getService
 nsIDM
 )
 ;
-var
+let
 gDownloadListener
 =
 null
 ;
-var
+let
 gDownloadsView
 =
 null
 ;
-var
+let
 gSearchBox
 =
 null
 ;
-var
+let
 gSearchTerms
 =
 "
 "
 ;
-var
+let
 gBuilder
 =
 0
@@ -642,7 +642,7 @@ gUserInteracted
 =
 false
 ;
-var
+let
 gStr
 =
 {
@@ -818,7 +818,7 @@ getUTF8String
 }
 )
 ;
-var
+let
 gStmt
 =
 gDownloadManager
@@ -2019,7 +2019,7 @@ gLastActiveDownloads
 =
 numActiveDownloads
 ;
-var
+let
 strings
 =
 document
@@ -2202,7 +2202,7 @@ focus
 (
 )
 ;
-var
+let
 obs
 =
 Cc
@@ -2257,7 +2257,7 @@ removeListener
 gDownloadListener
 )
 ;
-var
+let
 obs
 =
 Cc
@@ -2327,7 +2327,7 @@ getDisplayHost
 )
 ;
 }
-var
+let
 gDownloadObserver
 =
 {
@@ -2370,7 +2370,7 @@ buildDownloadList
 break
 ;
 }
-var
+let
 id
 =
 aSubject
@@ -2382,7 +2382,7 @@ Ci
 nsISupportsPRUint32
 )
 ;
-var
+let
 dl
 =
 getDownload
@@ -2972,7 +2972,7 @@ case
 cmd_open
 "
 :
-var
+let
 file
 =
 getLocalFileFromNativePathOrUrl
@@ -3456,7 +3456,7 @@ createDownloadItem
 aAttrs
 )
 {
-var
+let
 dl
 =
 document
@@ -3681,19 +3681,19 @@ aItem
 aDownload
 )
 {
-var
+let
 status
 =
 "
 "
 ;
-var
+let
 statusTip
 =
 "
 "
 ;
-var
+let
 state
 =
 Number
@@ -3723,7 +3723,7 @@ nsIDM
 .
 DOWNLOAD_DOWNLOADING
 :
-var
+let
 currBytes
 =
 Number
@@ -3738,7 +3738,7 @@ currBytes
 )
 )
 ;
-var
+let
 maxBytes
 =
 Number
@@ -3881,7 +3881,7 @@ transfer
 )
 ;
 }
-var
+let
 speed
 =
 aDownload
@@ -3945,7 +3945,7 @@ maxBytes
 )
 )
 {
-var
+let
 seconds
 =
 Math
@@ -3961,7 +3961,7 @@ currBytes
 speed
 )
 ;
-var
+let
 lastSec
 =
 Number
@@ -4270,7 +4270,7 @@ state
 )
 ;
 }
-var
+let
 [
 displayHost
 fullHost
@@ -4343,7 +4343,7 @@ inProgress
 )
 return
 ;
-var
+let
 dts
 =
 Cc
@@ -4368,7 +4368,7 @@ Ci
 nsIScriptableDateFormat
 )
 ;
-var
+let
 now
 =
 new
@@ -4376,7 +4376,7 @@ Date
 (
 )
 ;
-var
+let
 today
 =
 new
@@ -4399,7 +4399,7 @@ getDate
 )
 )
 ;
-var
+let
 end
 =
 new
@@ -4418,7 +4418,7 @@ endTime
 )
 )
 ;
-var
+let
 dateTime
 ;
 if
@@ -4514,7 +4514,7 @@ A
 }
 else
 {
-var
+let
 month
 =
 end
@@ -4527,7 +4527,7 @@ B
 "
 )
 ;
-var
+let
 date
 =
 Number
@@ -4574,7 +4574,7 @@ dateTime
 dateTime
 )
 ;
-var
+let
 dateTimeTip
 =
 dts
@@ -4636,7 +4636,7 @@ convertByteUnits
 aBytes
 )
 {
-var
+let
 unitIndex
 =
 0
@@ -4718,7 +4718,7 @@ getHost
 aURIString
 )
 {
-var
+let
 ioService
 =
 Cc
@@ -4745,7 +4745,7 @@ Ci
 nsIIOService
 )
 ;
-var
+let
 eTLDService
 =
 Cc
@@ -4774,7 +4774,7 @@ Ci
 nsIEffectiveTLDService
 )
 ;
-var
+let
 idnService
 =
 Cc
@@ -4801,7 +4801,7 @@ Ci
 nsIIDNService
 )
 ;
-var
+let
 uri
 =
 ioService
@@ -4827,7 +4827,7 @@ uri
 .
 innermostURI
 ;
-var
+let
 fullHost
 ;
 try
@@ -4850,7 +4850,7 @@ fullHost
 "
 ;
 }
-var
+let
 displayHost
 ;
 try
@@ -5007,7 +5007,7 @@ doDefaultForSelected
 (
 )
 {
-var
+let
 item
 =
 gDownloadsView
@@ -5021,7 +5021,7 @@ item
 )
 return
 ;
-var
+let
 state
 =
 Number
@@ -5036,7 +5036,7 @@ state
 )
 )
 ;
-var
+let
 menuitem
 =
 document
@@ -5081,7 +5081,7 @@ aDownload
 )
 return
 ;
-var
+let
 index
 =
 gDownloadsView
@@ -5239,7 +5239,7 @@ s
 "
 )
 ;
-var
+let
 like
 =
 "
@@ -5612,7 +5612,7 @@ prependList
 aDownload
 )
 {
-var
+let
 attrs
 =
 {
@@ -5681,7 +5681,7 @@ aDownload
 size
 }
 ;
-var
+let
 item
 =
 createDownloadItem
@@ -5722,14 +5722,14 @@ stripeifyList
 aItem
 )
 {
-var
+let
 alt
 =
 "
 alternate
 "
 ;
-var
+let
 flipFrom
 =
 function
@@ -5886,7 +5886,7 @@ file
 "
 )
 {
-var
+let
 ioSvc
 =
 Cc
