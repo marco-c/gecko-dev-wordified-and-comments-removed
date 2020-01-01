@@ -376,13 +376,6 @@ JSD_DISABLE_OBJECT_TRACE
 )
 )
 {
-if
-(
-jsd_InitObjectManager
-(
-jsdc
-)
-)
 JS_SetObjectHook
 (
 jsdc
@@ -396,7 +389,7 @@ jsdc
 }
 else
 {
-jsd_DestroyObjectManager
+jsd_DestroyObjects
 (
 jsdc
 )

@@ -3844,6 +3844,15 @@ jsdc
 ;
 extern
 void
+jsd_DestroyObjects
+(
+JSDContext
+*
+jsdc
+)
+;
+extern
+void
 jsd_ObjectHook
 (
 JSContext
