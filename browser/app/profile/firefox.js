@@ -9428,7 +9428,7 @@ remote
 -
 timeout
 "
-3000
+20000
 )
 ;
 pref
