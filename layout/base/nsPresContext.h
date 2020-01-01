@@ -3600,6 +3600,9 @@ mCurrentInflationContainer
 nscoord
 mCurrentInflationContainerWidth
 ;
+bool
+mInflationDisabledForShrinkWrap
+;
 protected
 :
 nsRefPtrHashtable

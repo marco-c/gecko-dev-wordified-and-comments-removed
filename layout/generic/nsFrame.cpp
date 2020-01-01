@@ -18151,7 +18151,7 @@ nscoord
 aWidthInCB
 )
 {
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 this
@@ -34288,7 +34288,7 @@ bp
 )
 ;
 {
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 this

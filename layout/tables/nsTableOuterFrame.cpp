@@ -282,7 +282,7 @@ aPadding
 aShrinkWrap
 )
 ;
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 this
@@ -1980,7 +1980,7 @@ aMarginResult
 nsnull
 )
 {
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 aChildFrame

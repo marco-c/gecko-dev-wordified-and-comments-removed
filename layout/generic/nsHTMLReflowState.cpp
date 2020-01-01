@@ -5215,7 +5215,7 @@ eShrinkWrap
 ;
 }
 {
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 frame
@@ -7643,7 +7643,7 @@ aFrameType
 }
 else
 {
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 frame
