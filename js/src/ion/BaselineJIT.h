@@ -1024,7 +1024,7 @@ script
 struct
 BaselineBailoutInfo
 {
-void
+uint8_t
 *
 incomingStack
 ;
