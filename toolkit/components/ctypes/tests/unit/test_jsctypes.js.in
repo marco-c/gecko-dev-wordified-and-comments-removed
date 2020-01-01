@@ -468,11 +468,6 @@ BLOCK
 *
 *
 /
-var
-ctypesGlobal
-=
-this
-;
 try
 {
 /
@@ -523,48 +518,6 @@ ctypes
 .
 jsm
 "
-)
-;
-/
-/
-Hack
-:
-Determine
-the
-global
-object
-with
-which
-errors
-thrown
-by
-ctypes
-/
-/
-methods
-will
-be
-associated
-for
-more
-precise
-testing
-purposes
-.
-ctypesGlobal
-=
-ctypes
-.
-CType
-.
-constructor
-(
-"
-return
-this
-"
-)
-(
 )
 ;
 }
@@ -1919,8 +1872,6 @@ test_void_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -1946,8 +1897,6 @@ void_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2000,8 +1949,6 @@ obj
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2026,8 +1973,6 @@ close
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2115,8 +2060,6 @@ close
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2273,8 +2216,6 @@ CType
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2291,8 +2232,6 @@ CType
 (
 )
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2408,8 +2347,6 @@ prototype
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2428,8 +2365,6 @@ prototype
 (
 )
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2665,8 +2600,6 @@ prototype
 name
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2685,8 +2618,6 @@ prototype
 size
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2705,8 +2636,6 @@ prototype
 ptr
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2727,8 +2656,6 @@ array
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2749,8 +2676,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2771,8 +2696,6 @@ toSource
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2803,8 +2726,6 @@ CData
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -2821,8 +2742,6 @@ CData
 (
 )
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3112,8 +3031,6 @@ prototype
 value
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3134,8 +3051,6 @@ value
 null
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3156,8 +3071,6 @@ address
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3178,8 +3091,6 @@ readString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3200,8 +3111,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3222,8 +3131,6 @@ toSource
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3246,8 +3153,6 @@ Int64
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3543,8 +3448,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3565,8 +3468,6 @@ toSource
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3676,8 +3577,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3695,8 +3594,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3714,8 +3611,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3734,8 +3629,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -3783,8 +3676,6 @@ toSource
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -4911,8 +4802,6 @@ i
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -5104,8 +4993,6 @@ UInt64
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -5126,8 +5013,6 @@ compare
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -5239,8 +5124,6 @@ UInt64
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -5265,8 +5148,6 @@ UInt64
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -5286,8 +5167,6 @@ lo
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -5307,8 +5186,6 @@ hi
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -5447,8 +5324,6 @@ join
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -5469,8 +5344,6 @@ join
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -5492,8 +5365,6 @@ join
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -5514,8 +5385,6 @@ join
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -5538,8 +5407,6 @@ UInt64
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -5846,8 +5713,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -5868,8 +5733,6 @@ toSource
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -5979,8 +5842,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -5998,8 +5859,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -6017,8 +5876,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -6037,8 +5894,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -6086,8 +5941,6 @@ toSource
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -6953,8 +6806,6 @@ i
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -7067,8 +6918,6 @@ Int64
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -7089,8 +6938,6 @@ compare
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -7199,8 +7046,6 @@ Int64
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -7225,8 +7070,6 @@ Int64
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -7246,8 +7089,6 @@ lo
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -7267,8 +7108,6 @@ hi
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -7403,8 +7242,6 @@ join
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -7425,8 +7262,6 @@ join
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -7448,8 +7283,6 @@ join
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -7470,8 +7303,6 @@ join
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -8729,8 +8560,6 @@ prototype
 value
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -8749,8 +8578,6 @@ value
 null
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -8769,8 +8596,6 @@ address
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -8789,8 +8614,6 @@ readString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -8809,8 +8632,6 @@ toString
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -8829,8 +8650,6 @@ toSource
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -9236,8 +9055,6 @@ i
 ]
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -9923,8 +9740,6 @@ i
 ]
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -10370,8 +10185,6 @@ Int64
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -10394,8 +10207,6 @@ Int64
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -10417,8 +10228,6 @@ UInt64
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -10555,8 +10364,6 @@ Int64
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -10730,8 +10537,6 @@ i
 ]
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -11635,8 +11440,6 @@ i
 ]
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -12097,8 +11900,6 @@ value
 10
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -12310,8 +12111,6 @@ value
 "
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -12421,8 +12220,6 @@ i
 ]
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -12589,8 +12386,6 @@ literal
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -12608,8 +12403,6 @@ literal
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -12983,8 +12776,6 @@ value
 10
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -13050,8 +12841,6 @@ Int64
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -13342,8 +13131,6 @@ i
 ]
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -13516,8 +13303,6 @@ literal
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -13535,8 +13320,6 @@ literal
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -13950,8 +13733,6 @@ p
 ]
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -13979,8 +13760,6 @@ f
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14322,8 +14101,6 @@ p
 ]
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14341,8 +14118,6 @@ p
 ]
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14373,8 +14148,6 @@ f
 (
 )
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14393,8 +14166,6 @@ f
 (
 )
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14472,8 +14243,6 @@ p
 ]
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14667,8 +14436,6 @@ StructType
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14691,8 +14458,6 @@ a
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14712,8 +14477,6 @@ null
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14734,8 +14497,6 @@ null
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14785,8 +14546,6 @@ int8_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14809,8 +14568,6 @@ a
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14834,8 +14591,6 @@ a
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14864,8 +14619,6 @@ int32_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14896,8 +14649,6 @@ int32_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14926,8 +14677,6 @@ x
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -14960,8 +14709,6 @@ int32_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -15071,8 +14818,6 @@ opaque_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -15200,8 +14945,6 @@ ptr
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -15227,8 +14970,6 @@ define
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -15248,8 +14989,6 @@ define
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -15270,8 +15009,6 @@ define
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -15295,8 +15032,6 @@ a
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -15327,8 +15062,6 @@ int64_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -15359,8 +15092,6 @@ b
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -15416,8 +15147,6 @@ opaque_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -15562,8 +15291,6 @@ array
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -15996,8 +15723,6 @@ z
 0
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16017,8 +15742,6 @@ fields
 0
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16040,8 +15763,6 @@ a
 0
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16063,8 +15784,6 @@ e
 0
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16187,8 +15906,6 @@ int8_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16292,8 +16009,6 @@ int8_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16385,8 +16100,6 @@ int8_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16434,8 +16147,6 @@ small_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16513,8 +16224,6 @@ int8_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16587,8 +16296,6 @@ small_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16701,8 +16408,6 @@ small_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16767,8 +16472,6 @@ g_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -16786,8 +16489,6 @@ g_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17001,8 +16702,6 @@ addressOfField
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17022,8 +16721,6 @@ d
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17044,8 +16741,6 @@ a
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17162,8 +16857,6 @@ s
 value
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17236,8 +16929,6 @@ value
 5
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17258,8 +16949,6 @@ int32_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17277,8 +16966,6 @@ value
 }
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17301,8 +16988,6 @@ a
 }
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17335,8 +17020,6 @@ c
 }
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17380,8 +17063,6 @@ c
 }
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17430,8 +17111,6 @@ d
 }
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17480,8 +17159,6 @@ c
 }
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17627,8 +17304,6 @@ w_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17860,8 +17535,6 @@ array
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -17895,8 +17568,6 @@ array
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18050,8 +17721,6 @@ PointerType
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18072,8 +17741,6 @@ int32_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18091,8 +17758,6 @@ null
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18114,8 +17779,6 @@ int32_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18135,8 +17798,6 @@ void
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18380,8 +18041,6 @@ p
 value
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18405,8 +18064,6 @@ p
 contents
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18423,8 +18080,6 @@ contents
 g
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18498,8 +18153,6 @@ value
 5
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18574,8 +18227,6 @@ f
 contents
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18592,8 +18243,6 @@ contents
 0
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18618,8 +18267,6 @@ contents
 0
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18659,8 +18306,6 @@ p
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18677,8 +18322,6 @@ value
 p
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18695,8 +18338,6 @@ value
 f
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -18912,8 +18553,6 @@ z_t
 .
 contents
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19040,8 +18679,6 @@ FunctionType
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19069,8 +18706,6 @@ void_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19099,8 +18734,6 @@ void_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19126,8 +18759,6 @@ void_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19151,8 +18782,6 @@ null
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19177,8 +18806,6 @@ int32_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19201,8 +18828,6 @@ void_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19449,8 +19074,6 @@ f_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19477,8 +19100,6 @@ f
 value
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19561,8 +19182,6 @@ value
 5
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19650,8 +19269,6 @@ value
 f2
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -19668,8 +19285,6 @@ value
 f
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -20065,8 +19680,6 @@ z
 0
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -20086,8 +19699,6 @@ argTypes
 0
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -20451,8 +20062,6 @@ ArrayType
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -20470,8 +20079,6 @@ null
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -20493,8 +20100,6 @@ int32_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -20516,8 +20121,6 @@ int32_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -20750,8 +20353,6 @@ array
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -20827,8 +20428,6 @@ a
 ]
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -20855,8 +20454,6 @@ a
 ]
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21068,8 +20665,6 @@ a2_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21092,8 +20687,6 @@ g_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21117,8 +20710,6 @@ g_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21220,8 +20811,6 @@ int8_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21242,8 +20831,6 @@ int16_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21273,8 +20860,6 @@ array
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21305,8 +20890,6 @@ UInt64
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21334,8 +20917,6 @@ UInt64
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21365,8 +20946,6 @@ array
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21621,8 +21200,6 @@ c
 value
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21645,8 +21222,6 @@ value
 ]
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21671,8 +21246,6 @@ value
 ]
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21698,8 +21271,6 @@ value
 ]
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21717,8 +21288,6 @@ value
 ]
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21861,8 +21430,6 @@ void_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21887,8 +21454,6 @@ array
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -21909,8 +21474,6 @@ int64_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -22310,8 +21873,6 @@ void_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -22385,8 +21946,6 @@ void_t
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -22519,8 +22078,6 @@ i
 )
 ;
 }
-ctypesGlobal
-.
 TypeError
 )
 ;
@@ -23686,8 +23243,6 @@ value
 null
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -23777,8 +23332,6 @@ value
 null
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -23884,8 +23437,6 @@ fn_t
 closure_fn
 )
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -24298,8 +23849,6 @@ bool
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -24329,8 +23878,6 @@ bool
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -24369,8 +23916,6 @@ bool
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -24403,8 +23948,6 @@ bool
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -24436,8 +23979,6 @@ function
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
@@ -24799,8 +24340,6 @@ sum_notva_type
 )
 ;
 }
-ctypesGlobal
-.
 Error
 )
 ;
