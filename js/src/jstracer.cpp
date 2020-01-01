@@ -3293,7 +3293,6 @@ FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
 callDepth
-currentFrame
 code
 )
 \
@@ -3304,6 +3303,16 @@ DEF_VPNAME
 \
 unsigned
 n
+;
+\
+JSStackFrame
+*
+currentFrame
+=
+cx
+-
+>
+fp
 ;
 \
 JSStackFrame
@@ -3486,7 +3495,6 @@ cx
 ngslots
 gslots
 callDepth
-currentFrame
 code
 )
 \
@@ -3505,7 +3513,6 @@ FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
 callDepth
-currentFrame
 code
 )
 ;
@@ -3667,10 +3674,6 @@ FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
 origCallDepth
-cx
--
->
-fp
 m
 +
 +
@@ -3890,10 +3893,6 @@ FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
 callDepth
-cx
--
->
-fp
 uint8
 type
 =
@@ -4759,10 +4758,6 @@ FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
 callDepth
-cx
--
->
-fp
 if
 (
 vp
@@ -6229,10 +6224,6 @@ FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
 callDepth
-cx
--
->
-fp
 debug_only
 (
 printf
@@ -6425,9 +6416,6 @@ JSContext
 cx
 unsigned
 callDepth
-JSStackFrame
-*
-currentFrame
 uint8
 *
 mp
@@ -6452,7 +6440,6 @@ FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
 callDepth
-currentFrame
 if
 (
 (
@@ -6553,7 +6540,6 @@ FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
 callDepth
-currentFrame
 debug_only
 (
 printf
@@ -7177,10 +7163,6 @@ FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
 callDepth
-cx
--
->
-fp
 import
 (
 sp
@@ -8065,10 +8047,6 @@ data
 (
 )
 callDepth
-cx
--
->
-fp
 LIns
 *
 i
@@ -8602,10 +8580,6 @@ FORALL_SLOTS_IN_PENDING_FRAMES
 (
 cx
 callDepth
-cx
--
->
-fp
 bool
 demote
 =
@@ -12282,10 +12256,6 @@ FlushNativeStackFrame
 (
 cx
 calldepth
-cx
--
->
-fp
 lr
 -
 >
@@ -12747,10 +12717,6 @@ e
 -
 >
 calldepth
-cx
--
->
-fp
 e
 -
 >
