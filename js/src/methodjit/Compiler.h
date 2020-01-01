@@ -2296,6 +2296,15 @@ ensureDoubleArguments
 )
 ;
 void
+markUndefinedLocal
+(
+uint32_t
+offset
+uint32_t
+i
+)
+;
+void
 markUndefinedLocals
 (
 )
