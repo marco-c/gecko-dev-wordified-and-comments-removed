@@ -159,6 +159,12 @@ nsITableLayout
 {
 public
 :
+using
+nsBox
+:
+:
+GetMargin
+;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 friend

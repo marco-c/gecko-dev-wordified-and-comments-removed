@@ -142,6 +142,12 @@ Link
 {
 public
 :
+using
+nsGenericElement
+:
+:
+GetText
+;
 nsHTMLAnchorElement
 (
 nsINodeInfo

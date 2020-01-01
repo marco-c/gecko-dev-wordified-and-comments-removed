@@ -19,6 +19,12 @@ nsHTMLLinkAccessible
 {
 public
 :
+using
+nsAccessible
+:
+:
+GetChildAtPoint
+;
 nsHTMLAreaAccessible
 (
 nsIDOMNode
