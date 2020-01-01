@@ -10091,10 +10091,15 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 FireMenuItemActiveEvent
 (
 )
 ;
+#
+endif
 }
 break
 ;
