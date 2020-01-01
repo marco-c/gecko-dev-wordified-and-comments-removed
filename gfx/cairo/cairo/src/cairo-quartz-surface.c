@@ -2385,10 +2385,10 @@ void
 *
 info
 const
-float
+CGFloat
 *
 in
-float
+CGFloat
 *
 out
 )
@@ -2814,7 +2814,7 @@ bp
 }
 static
 const
-float
+CGFloat
 gradient_output_value_ranges
 [
 8
@@ -2863,7 +2863,7 @@ cairo_pattern_destroy
 ;
 static
 const
-float
+CGFloat
 nonrepeating_gradient_input_value_range
 [
 2
@@ -3049,7 +3049,7 @@ cairo_pattern_t
 *
 pat
 ;
-float
+CGFloat
 input_value_range
 [
 2
@@ -3491,7 +3491,7 @@ cairo_pattern_t
 *
 pat
 ;
-float
+CGFloat
 input_value_range
 [
 2
@@ -6470,7 +6470,7 @@ type
 CAIRO_PATTERN_TYPE_SURFACE
 )
 {
-float
+CGFloat
 patternAlpha
 =
 1
@@ -9263,13 +9263,13 @@ num_dashes
 define
 STATIC_DASH
 32
-float
+CGFloat
 sdash
 [
 STATIC_DASH
 ]
 ;
-float
+CGFloat
 *
 fdash
 =
@@ -9315,7 +9315,7 @@ _cairo_malloc_ab
 max_dashes
 sizeof
 (
-float
+CGFloat
 )
 )
 ;
@@ -9352,7 +9352,7 @@ k
 ]
 =
 (
-float
+CGFloat
 )
 style
 -
