@@ -1421,6 +1421,9 @@ SIZE_CHANGED
 ACTIVITY_STOPPING
 =
 8
+ACTIVITY_PAUSING
+=
+9
 dummy_java_enum_list_end
 }
 ;
