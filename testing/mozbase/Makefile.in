@@ -123,6 +123,8 @@ MOZBASE_PACKAGES
 \
 manifestdestiny
 \
+mozcrash
+\
 mozfile
 \
 mozhttpd

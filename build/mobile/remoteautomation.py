@@ -5,8 +5,6 @@ re
 import
 os
 import
-automationutils
-import
 tempfile
 import
 shutil
@@ -719,16 +717,13 @@ dumpDir
             
 crashed
 =
-automationutils
+Automation
 .
 checkForCrashes
 (
+self
 dumpDir
 symbolsPath
-                                            
-self
-.
-lastTestSeen
 )
         
 finally
