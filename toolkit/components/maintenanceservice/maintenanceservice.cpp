@@ -28,6 +28,13 @@ h
 >
 #
 include
+<
+shlobj
+.
+h
+>
+#
+include
 "
 serviceinstall
 .
@@ -51,13 +58,6 @@ h
 include
 "
 workmonitor
-.
-h
-"
-#
-include
-"
-shlobj
 .
 h
 "
