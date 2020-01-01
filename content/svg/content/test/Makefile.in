@@ -549,6 +549,10 @@ helper
 .
 svg
 \
+test_SVGLengthList
+.
+xhtml
+\
 test_SVGPathSegList
 .
 xhtml
