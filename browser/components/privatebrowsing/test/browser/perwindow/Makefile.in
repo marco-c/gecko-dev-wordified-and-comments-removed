@@ -165,6 +165,10 @@ browser_privatebrowsing_theming
 .
 js
 \
+browser_privatebrowsing_urlbarfocus
+.
+js
+\
 browser_privatebrowsing_zoomrestore
 .
 js
