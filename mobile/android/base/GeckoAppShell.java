@@ -7079,8 +7079,11 @@ run
 public
 static
 void
-preventPanning
+setPreventPanning
 (
+final
+boolean
+aPreventPanning
 )
 {
 getMainHandler
@@ -7115,7 +7118,7 @@ layerController
 .
 preventPanning
 (
-true
+aPreventPanning
 )
 ;
 }
