@@ -5696,6 +5696,7 @@ NS_OK
 ;
 }
 class
+NS_FINAL_CLASS
 CSSStyleRuleImpl
 :
 public

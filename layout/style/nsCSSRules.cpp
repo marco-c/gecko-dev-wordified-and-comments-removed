@@ -705,6 +705,7 @@ NS_OK
 ;
 }
 class
+NS_FINAL_CLASS
 CSSCharsetRuleImpl
 :
 public
@@ -1266,6 +1267,7 @@ NS_OK
 ;
 }
 class
+NS_FINAL_CLASS
 CSSImportRuleImpl
 :
 public
@@ -4840,6 +4842,7 @@ next
 ;
 }
 class
+NS_FINAL_CLASS
 CSSNameSpaceRuleImpl
 :
 public
