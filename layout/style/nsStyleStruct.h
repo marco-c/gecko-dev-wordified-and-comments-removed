@@ -437,6 +437,11 @@ aOther
 ;
 }
 ;
+PRBool
+IsOpaque
+(
+)
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 nsStyleGradient
