@@ -3663,10 +3663,8 @@ screenRect
 y
 )
 ;
-nsCOMPtr
-<
 nsIPresShell
->
+*
 presShell
 =
 presContext
