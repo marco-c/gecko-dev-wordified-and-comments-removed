@@ -13,6 +13,9 @@ PGeolocationRequestChild
 h
 "
 #
+undef
+CreateEvent
+#
 endif
 #
 include
