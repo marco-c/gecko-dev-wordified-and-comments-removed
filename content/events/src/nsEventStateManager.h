@@ -407,6 +407,16 @@ IsHandlingUserInput
 )
 ;
 }
+nsPresContext
+*
+GetPresContext
+(
+)
+{
+return
+mPresContext
+;
+}
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsEventStateManager
