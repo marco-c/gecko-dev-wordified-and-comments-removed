@@ -515,6 +515,10 @@ ApplicationID
 .
 dll
 \
+CityHash
+.
+dll
+\
 InvokeShellVerb
 .
 dll
