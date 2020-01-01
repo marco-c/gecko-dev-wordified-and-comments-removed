@@ -43,6 +43,15 @@ endif
 #
 include
 "
+DocAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 FocusManager
 .
 h
