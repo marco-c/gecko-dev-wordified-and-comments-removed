@@ -1099,15 +1099,11 @@ appearance
 :
 none
 ;
-width
-:
-47px
-;
 min
 -
 width
 :
-47px
+32px
 ;
 min
 -
@@ -1119,7 +1115,7 @@ max
 -
 width
 :
-137px
+110px
 ;
 color
 :
@@ -1262,7 +1258,7 @@ margin
 -
 end
 :
-6px
+0
 ;
 -
 moz
@@ -1271,7 +1267,7 @@ margin
 -
 start
 :
-16px
+8px
 ;
 opacity
 :
