@@ -3839,7 +3839,6 @@ hasInstance
 \
 JSTraceOp
 trace
-;
 struct
 ClassSizeMeasurement
 {
