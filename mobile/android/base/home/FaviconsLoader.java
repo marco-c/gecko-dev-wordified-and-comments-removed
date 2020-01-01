@@ -225,6 +225,12 @@ URL
 ;
 if
 (
+url
+=
+=
+null
+|
+|
 favicons
 .
 getFaviconFromMemCache
