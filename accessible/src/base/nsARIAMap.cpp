@@ -332,7 +332,7 @@ states
 :
 FOCUSABLE
 eARIAMultiSelectable
-eARIAReadonly
+eARIAReadonlyOrEditable
 }
 {
 &
@@ -351,7 +351,7 @@ eNoLiveAttr
 eTableCell
 kNoReqStates
 eARIASelectable
-eARIAReadonly
+eARIAReadonlyOrEditableIfDefined
 }
 {
 &
