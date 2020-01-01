@@ -216,15 +216,6 @@ ClearOnShutdown
 h
 "
 #
-include
-"
-mozilla
-/
-StaticPtr
-.
-h
-"
-#
 ifdef
 DEBUG
 #
@@ -354,7 +345,6 @@ surfaceTexture
 =
 nullptr
 ;
-static
 StaticAutoPtr
 <
 nsTArray
@@ -365,7 +355,10 @@ nsISmsRequest
 >
 >
 >
-sSmsRequest
+AndroidBridge
+:
+:
+sSmsRequests
 ;
 void
 AndroidBridge
@@ -426,7 +419,7 @@ sBridge
 =
 bridge
 ;
-sSmsRequest
+sSmsRequests
 =
 new
 nsTArray
@@ -442,7 +435,7 @@ nsISmsRequest
 ClearOnShutdown
 (
 &
-sSmsRequest
+sSmsRequests
 )
 ;
 }
@@ -11253,7 +11246,7 @@ thread
 if
 (
 !
-sSmsRequest
+sSmsRequests
 )
 {
 return
@@ -11264,7 +11257,7 @@ return
 uint32_t
 length
 =
-sSmsRequest
+sSmsRequests
 -
 >
 Length
@@ -11292,7 +11285,7 @@ if
 !
 (
 *
-sSmsRequest
+sSmsRequests
 )
 [
 i
@@ -11301,7 +11294,7 @@ i
 {
 (
 *
-sSmsRequest
+sSmsRequests
 )
 [
 i
@@ -11314,7 +11307,7 @@ i
 ;
 }
 }
-sSmsRequest
+sSmsRequests
 -
 >
 AppendElement
@@ -11354,14 +11347,14 @@ thread
 if
 (
 !
-sSmsRequest
+sSmsRequests
 |
 |
 (
 aRequestId
 >
 =
-sSmsRequest
+sSmsRequests
 -
 >
 Length
@@ -11377,7 +11370,7 @@ nullptr
 return
 (
 *
-sSmsRequest
+sSmsRequests
 )
 [
 aRequestId
