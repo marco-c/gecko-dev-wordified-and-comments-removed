@@ -36,17 +36,6 @@ mozilla
 .
 gecko
 .
-gfx
-.
-LayerClient
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 ui
 .
 PanZoomController
@@ -253,7 +242,7 @@ OnTouchListener
 mOnTouchListener
 ;
 private
-LayerClient
+GeckoLayerClient
 mLayerClient
 ;
 private
@@ -386,7 +375,7 @@ public
 void
 setLayerClient
 (
-LayerClient
+GeckoLayerClient
 layerClient
 )
 {
