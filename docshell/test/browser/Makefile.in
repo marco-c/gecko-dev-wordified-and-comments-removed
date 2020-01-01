@@ -508,6 +508,10 @@ favicon_bug655270
 .
 ico
 \
+browser_bug673467
+.
+js
+\
 (
 NULL
 )
