@@ -10605,7 +10605,7 @@ PresShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

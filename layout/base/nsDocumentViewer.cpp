@@ -1350,7 +1350,7 @@ nsIWidget
 >
 mWindow
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

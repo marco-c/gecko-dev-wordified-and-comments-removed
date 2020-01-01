@@ -8172,7 +8172,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -16346,7 +16346,7 @@ manager
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -36971,7 +36971,7 @@ GetWidget
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
