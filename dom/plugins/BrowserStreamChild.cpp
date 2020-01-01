@@ -1101,6 +1101,11 @@ mPendingData
 .
 curpos
 <
+static_cast
+<
+int32_t
+>
+(
 mPendingData
 [
 0
@@ -1110,6 +1115,7 @@ data
 .
 Length
 (
+)
 )
 )
 {
