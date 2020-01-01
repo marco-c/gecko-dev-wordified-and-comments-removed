@@ -18081,6 +18081,15 @@ pc
 =
 =
 JSOP_ENTERBLOCK
+|
+|
+*
+regs
+.
+pc
+=
+=
+JSOP_EXCEPTION
 )
 ;
 if
