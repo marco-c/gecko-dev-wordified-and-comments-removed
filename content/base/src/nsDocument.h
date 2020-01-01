@@ -3557,6 +3557,10 @@ uri
 ;
 protected
 :
+friend
+class
+nsNodeUtils
+;
 void
 RegisterNamedItems
 (
