@@ -9735,7 +9735,7 @@ fp
 fp
 -
 >
-pc
+regs
 ;
 fp
 =
@@ -9775,6 +9775,9 @@ JSOp
 fp
 -
 >
+regs
+-
+>
 pc
 ;
 if
@@ -9811,6 +9814,9 @@ fp
 >
 script
 fp
+-
+>
+regs
 -
 >
 pc
@@ -11491,7 +11497,7 @@ newlength
 length
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -11833,7 +11839,7 @@ newlength
 length
 )
 {
-JS_ReportOutOfMemory
+js_ReportAllocationOverflow
 (
 cx
 )
@@ -40596,6 +40602,9 @@ cx
 -
 >
 fp
+-
+>
+regs
 -
 >
 sp
