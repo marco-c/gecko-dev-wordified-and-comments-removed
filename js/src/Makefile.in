@@ -452,13 +452,6 @@ DIRS
 =
 shell
 endif
-ifdef
-ENABLE_LIRASM
-DIRS
-+
-=
-lirasm
-endif
 MODULE
 =
 js
@@ -855,10 +848,6 @@ jsstr
 .
 cpp
 \
-jstask
-.
-cpp
-\
 jsutil
 .
 cpp
@@ -1070,10 +1059,6 @@ jsstaticcheck
 h
 \
 jsstr
-.
-h
-\
-jstask
 .
 h
 \
