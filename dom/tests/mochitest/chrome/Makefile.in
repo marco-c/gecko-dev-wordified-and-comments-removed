@@ -556,6 +556,14 @@ test_moving_nodeList
 .
 xul
 \
+test_callback_wrapping
+.
+xul
+\
+window_callback_wrapping
+.
+xul
+\
 (
 NULL
 )
