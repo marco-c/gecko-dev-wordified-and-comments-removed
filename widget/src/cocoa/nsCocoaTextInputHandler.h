@@ -762,6 +762,12 @@ PRLogModuleInfo
 aLogModuleInfo
 )
 ;
+static
+TSMDocumentID
+GetCurrentTSMDocumentID
+(
+)
+;
 protected
 :
 nsChildView
