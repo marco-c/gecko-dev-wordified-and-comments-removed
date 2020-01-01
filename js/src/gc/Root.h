@@ -1069,6 +1069,13 @@ S
 root
 )
 {
+testAssign
+<
+S
+>
+(
+)
+;
 ptr
 =
 reinterpret_cast
