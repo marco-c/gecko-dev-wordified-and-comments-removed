@@ -3,6 +3,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 waitForExplicitFinish
 (
 )
@@ -432,6 +437,13 @@ win
 ;
 }
 }
+)
+;
+addonList
+.
+ensureElementIsVisible
+(
+addonItem
 )
 ;
 EventUtils
