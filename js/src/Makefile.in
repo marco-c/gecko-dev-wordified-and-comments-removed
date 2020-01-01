@@ -6100,16 +6100,6 @@ IntlData
 js
 \
 (
-srcdir
-)
-/
-builtin
-/
-ParallelArray
-.
-js
-\
-(
 NULL
 )
 selfhosted_out_h_deps

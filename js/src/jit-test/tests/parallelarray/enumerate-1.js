@@ -42,3 +42,7 @@ true
 )
 ;
 }
+testEnumerate
+(
+)
+;

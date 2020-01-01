@@ -234,3 +234,7 @@ RangeError
 )
 ;
 }
+testScatterThrows
+(
+)
+;
