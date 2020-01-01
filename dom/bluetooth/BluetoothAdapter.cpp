@@ -1145,8 +1145,9 @@ rv
 ;
 if
 (
-!
-SetJsObject
+NS_FAILED
+(
+nsTArrayToJSArray
 (
 sc
 -
@@ -1154,8 +1155,10 @@ sc
 GetNativeContext
 (
 )
-value
+mUuids
+&
 mJsUuids
+)
 )
 )
 {
@@ -1220,8 +1223,9 @@ rv
 ;
 if
 (
-!
-SetJsObject
+NS_FAILED
+(
+nsTArrayToJSArray
 (
 sc
 -
@@ -1229,8 +1233,10 @@ sc
 GetNativeContext
 (
 )
-value
+mDeviceAddresses
+&
 mJsDeviceAddresses
+)
 )
 )
 {
