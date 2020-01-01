@@ -2897,8 +2897,9 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolvePseudoStyleFor
 (
+colGroupContent
 nsCSSAnonBoxes
 :
 :
@@ -3198,8 +3199,9 @@ StyleSet
 )
 -
 >
-ResolveAnonymousBoxStyle
+ResolvePseudoStyleFor
 (
+iContent
 nsCSSAnonBoxes
 :
 :

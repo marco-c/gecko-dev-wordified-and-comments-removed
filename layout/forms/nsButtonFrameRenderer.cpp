@@ -1471,7 +1471,7 @@ mInnerFocusStyle
 styleSet
 -
 >
-ProbePseudoElementStyle
+ProbePseudoStyleFor
 (
 mFrame
 -
@@ -1482,7 +1482,7 @@ GetContent
 nsCSSPseudoElements
 :
 :
-ePseudo_mozFocusInner
+mozFocusInner
 context
 )
 ;
@@ -1491,7 +1491,7 @@ mOuterFocusStyle
 styleSet
 -
 >
-ProbePseudoElementStyle
+ProbePseudoStyleFor
 (
 mFrame
 -
@@ -1502,7 +1502,7 @@ GetContent
 nsCSSPseudoElements
 :
 :
-ePseudo_mozFocusOuter
+mozFocusOuter
 context
 )
 ;

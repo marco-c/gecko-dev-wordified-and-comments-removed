@@ -8093,10 +8093,6 @@ ResolveStyleForRules
 (
 nsnull
 nsnull
-nsCSSPseudoElements
-:
-:
-ePseudo_NotPseudoElement
 nsnull
 parentRules
 )
@@ -8123,10 +8119,6 @@ ResolveStyleForRules
 (
 parentContext
 nsnull
-nsCSSPseudoElements
-:
-:
-ePseudo_NotPseudoElement
 nsnull
 rules
 )

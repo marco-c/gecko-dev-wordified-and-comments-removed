@@ -315,7 +315,7 @@ StyleSet
 )
 -
 >
-ResolveXULTreePseudoStyle
+ResolvePseudoStyleFor
 (
 aContent
 aPseudoElement

@@ -856,13 +856,13 @@ StyleSet
 )
 -
 >
-ProbePseudoElementStyle
+ProbePseudoStyleFor
 (
 mContent
 nsCSSPseudoElements
 :
 :
-ePseudo_firstLetter
+firstLetter
 mStyleContext
 )
 ;

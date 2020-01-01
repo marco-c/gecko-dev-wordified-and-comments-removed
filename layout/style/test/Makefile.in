@@ -1000,10 +1000,6 @@ bug517224
 .
 sjs
 \
-test_bug525952
-.
-html
-\
 (
 NULL
 )
