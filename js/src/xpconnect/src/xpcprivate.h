@@ -478,13 +478,6 @@ h
 #
 endif
 #
-include
-"
-nsIThreadInternal
-.
-h
-"
-#
 ifdef
 XPC_IDISPATCH_SUPPORT
 #
@@ -1452,8 +1445,6 @@ nsXPConnect
 public
 nsIXPConnect
 public
-nsIThreadObserver
-public
 nsSupportsWeakReference
 public
 nsCycleCollectionLanguageRuntime
@@ -1464,7 +1455,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIXPCONNECT
-NS_DECL_NSITHREADOBSERVER
 public
 :
 static

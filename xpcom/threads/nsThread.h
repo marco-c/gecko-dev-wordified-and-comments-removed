@@ -101,11 +101,6 @@ return
 mShutdownRequired
 ;
 }
-static
-nsIThreadObserver
-*
-sGlobalObserver
-;
 private
 :
 friend
