@@ -1487,17 +1487,6 @@ js
 :
 :
 Class
-*
-)
-FunctionClassPtr
-;
-extern
-JS_FRIEND_DATA
-(
-js
-:
-:
-Class
 )
 FunctionProxyClass
 ;
