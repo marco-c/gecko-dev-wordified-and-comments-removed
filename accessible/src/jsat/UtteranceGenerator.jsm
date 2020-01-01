@@ -270,6 +270,7 @@ aActionName
 )
 {
 return
+[
 gStringBundle
 .
 GetStringFromName
@@ -281,6 +282,7 @@ gActionMap
 aActionName
 ]
 )
+]
 ;
 }
 verbosityRoleMap

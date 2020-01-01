@@ -1137,7 +1137,6 @@ eventType
 ANDROID_TYPE_VIEW_CLICKED
 text
 :
-[
 UtteranceGenerator
 .
 genForAction
@@ -1145,7 +1144,6 @@ genForAction
 aObject
 aActionName
 )
-]
 }
 }
 )
