@@ -2902,6 +2902,7 @@ attributes
 {
 PRUint32
 state
+extraState
 ;
 aAccessible
 -
@@ -2910,6 +2911,8 @@ GetFinalState
 (
 &
 state
+&
+extraState
 )
 ;
 if
