@@ -336,6 +336,7 @@ pref
 hints
 :
 '
+reset
 '
 markup
 :

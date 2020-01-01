@@ -1286,6 +1286,7 @@ remove
 hints
 :
 '
+attribute
 '
 markup
 :

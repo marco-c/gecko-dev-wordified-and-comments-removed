@@ -99,13 +99,9 @@ Canon
 ;
 var
 startCount
-=
-undefined
 ;
 var
 events
-=
-undefined
 ;
 var
 canonChange

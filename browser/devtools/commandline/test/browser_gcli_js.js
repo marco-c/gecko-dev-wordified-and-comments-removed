@@ -106,8 +106,6 @@ canon
 ;
 var
 tempWindow
-=
-undefined
 ;
 exports
 .

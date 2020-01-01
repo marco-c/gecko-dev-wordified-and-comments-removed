@@ -132,8 +132,6 @@ Status
 ;
 var
 tempDocument
-=
-undefined
 ;
 exports
 .

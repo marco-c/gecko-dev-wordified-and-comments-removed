@@ -80,8 +80,6 @@ strict
 ;
 var
 origScratchpad
-=
-undefined
 ;
 exports
 .

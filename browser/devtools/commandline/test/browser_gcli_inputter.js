@@ -94,13 +94,9 @@ KeyEvent
 ;
 var
 latestEvent
-=
-undefined
 ;
 var
 latestData
-=
-undefined
 ;
 var
 outputted
