@@ -5506,9 +5506,7 @@ android
 paddingLeft
 "
 >
-dimen
-/
-toast_button_padding
+8dp
 <
 /
 item
