@@ -140,6 +140,13 @@ h
 #
 include
 "
+mozIStorageStatement
+.
+h
+"
+#
+include
+"
 nsISupportsArray
 .
 h
@@ -574,6 +581,12 @@ nsCOMPtr
 nsIObserverService
 >
 mObserverService
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
+mUpdateDownloadStatement
 ;
 friend
 class
