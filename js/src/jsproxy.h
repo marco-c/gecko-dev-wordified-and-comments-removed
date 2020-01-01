@@ -1903,6 +1903,13 @@ rv
 &
 &
 mayThrow
+&
+&
+!
+JS_IsExceptionPending
+(
+cx
+)
 )
 reportError
 (
