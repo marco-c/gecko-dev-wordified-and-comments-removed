@@ -8996,7 +8996,11 @@ NS_CombineHint
 NS_CombineHint
 (
 nsChangeHint_UpdateEffects
-nsChangeHint_AllReflowHints
+NS_CombineHint
+(
+nsChangeHint_NeedReflow
+nsChangeHint_NeedDirtyReflow
+)
 )
 nsChangeHint_RepaintFrame
 )
