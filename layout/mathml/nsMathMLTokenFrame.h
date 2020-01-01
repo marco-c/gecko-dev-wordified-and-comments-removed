@@ -73,6 +73,14 @@ return
 NS_OK
 ;
 }
+NS_IMETHOD
+InheritAutomaticData
+(
+nsIFrame
+*
+aParent
+)
+;
 virtual
 eMathMLFrameType
 GetMathMLFrameType
