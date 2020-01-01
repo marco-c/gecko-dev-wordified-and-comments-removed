@@ -395,9 +395,6 @@ var
 safebrowsing
 =
 {
-appContext
-:
-null
 startup
 :
 function
