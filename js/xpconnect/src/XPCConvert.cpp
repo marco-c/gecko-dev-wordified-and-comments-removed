@@ -7355,9 +7355,6 @@ static
 JSBool
 CheckTargetAndPopulate
 (
-JSContext
-*
-cx
 const
 nsXPTType
 &
@@ -7461,7 +7458,6 @@ output
 JS_GetArrayBufferViewData
 (
 tArr
-cx
 )
 byteSize
 )
@@ -7476,9 +7472,6 @@ XPCConvert
 :
 JSTypedArray2Native
 (
-JSContext
-*
-cx
 void
 *
 *
@@ -7520,7 +7513,6 @@ NS_ABORT_IF_FALSE
 JS_IsTypedArrayObject
 (
 jsArray
-cx
 )
 "
 not
@@ -7536,7 +7528,6 @@ len
 JS_GetTypedArrayLength
 (
 jsArray
-cx
 )
 ;
 if
@@ -7570,7 +7561,6 @@ switch
 JS_GetTypedArrayType
 (
 jsArray
-cx
 )
 )
 {
@@ -7588,7 +7578,6 @@ if
 !
 CheckTargetAndPopulate
 (
-cx
 nsXPTType
 :
 :
@@ -7635,7 +7624,6 @@ if
 !
 CheckTargetAndPopulate
 (
-cx
 nsXPTType
 :
 :
@@ -7673,7 +7661,6 @@ if
 !
 CheckTargetAndPopulate
 (
-cx
 nsXPTType
 :
 :
@@ -7711,7 +7698,6 @@ if
 !
 CheckTargetAndPopulate
 (
-cx
 nsXPTType
 :
 :
@@ -7749,7 +7735,6 @@ if
 !
 CheckTargetAndPopulate
 (
-cx
 nsXPTType
 :
 :
@@ -7787,7 +7772,6 @@ if
 !
 CheckTargetAndPopulate
 (
-cx
 nsXPTType
 :
 :
@@ -7825,7 +7809,6 @@ if
 !
 CheckTargetAndPopulate
 (
-cx
 nsXPTType
 :
 :
@@ -7863,7 +7846,6 @@ if
 !
 CheckTargetAndPopulate
 (
-cx
 nsXPTType
 :
 :
@@ -8040,14 +8022,12 @@ if
 JS_IsTypedArrayObject
 (
 jsarray
-cx
 )
 )
 {
 return
 JSTypedArray2Native
 (
-cx
 d
 jsarray
 count

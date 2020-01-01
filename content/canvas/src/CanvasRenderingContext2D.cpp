@@ -19639,7 +19639,6 @@ data
 JS_GetUint8ClampedArrayData
 (
 darray
-aCx
 )
 ;
 IntRect
@@ -20217,7 +20216,6 @@ dom
 Uint8ClampedArray
 arr
 (
-cx
 imageData
 .
 GetDataObject
@@ -20324,7 +20322,6 @@ dom
 Uint8ClampedArray
 arr
 (
-cx
 imageData
 .
 GetDataObject

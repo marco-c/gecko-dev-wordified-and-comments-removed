@@ -1848,7 +1848,6 @@ wrappedObject
 JS_IsTypedArrayObject
 (
 wrappedObject
-cx
 )
 )
 &
