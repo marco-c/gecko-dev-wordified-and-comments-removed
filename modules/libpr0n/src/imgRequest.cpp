@@ -4212,7 +4212,7 @@ doDecodeOnDraw
 PR_FALSE
 ;
 PRUint32
-containerFlags
+imageFlags
 =
 Image
 :
@@ -4223,7 +4223,7 @@ if
 (
 isDiscardable
 )
-containerFlags
+imageFlags
 |
 =
 Image
@@ -4235,7 +4235,7 @@ if
 (
 doDecodeOnDraw
 )
-containerFlags
+imageFlags
 |
 =
 Image
@@ -4247,7 +4247,7 @@ if
 (
 mIsMultiPartChannel
 )
-containerFlags
+imageFlags
 |
 =
 Image
@@ -4268,7 +4268,7 @@ mContentType
 get
 (
 )
-containerFlags
+imageFlags
 )
 ;
 if
@@ -4426,7 +4426,7 @@ ReadSegments
 RasterImage
 :
 :
-WriteToContainer
+WriteToRasterImage
 static_cast
 <
 void
@@ -4470,7 +4470,7 @@ OnDataAvailable
 "
 copy
 to
-container
+RasterImage
 failed
 \
 n
@@ -4498,7 +4498,7 @@ bytesRead
 =
 count
 "
-WriteToContainer
+WriteToRasterImage
 should
 consume
 everything
