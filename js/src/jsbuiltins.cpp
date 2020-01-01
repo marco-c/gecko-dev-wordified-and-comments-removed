@@ -1332,7 +1332,7 @@ sepstr
 jsval
 vp
 [
-3
+4
 ]
 =
 {
@@ -1345,6 +1345,7 @@ STRING_TO_JSVAL
 (
 sepstr
 )
+JSVAL_VOID
 }
 ;
 if
