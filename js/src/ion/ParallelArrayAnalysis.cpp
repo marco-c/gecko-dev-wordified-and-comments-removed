@@ -660,6 +660,10 @@ GetDynamicName
 )
 UNSAFE_OP
 (
+FilterArguments
+)
+UNSAFE_OP
+(
 CallDirectEval
 )
 SAFE_OP

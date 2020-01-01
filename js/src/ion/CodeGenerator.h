@@ -547,6 +547,14 @@ lir
 )
 ;
 bool
+visitFilterArguments
+(
+LFilterArguments
+*
+lir
+)
+;
+bool
 visitCallDirectEval
 (
 LCallDirectEval

@@ -519,6 +519,14 @@ ins
 )
 ;
 bool
+visitFilterArguments
+(
+MFilterArguments
+*
+ins
+)
+;
+bool
 visitCallDirectEval
 (
 MCallDirectEval
