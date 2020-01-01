@@ -9631,6 +9631,11 @@ Browser
 AddBookmarkAs
 '
 '
+Browser
+:
+BookmarkAllTabs
+'
+'
 View
 :
 PageInfo
