@@ -619,6 +619,10 @@ temporarily
 disabled
 )
 \
+test_elm_nsApplicationAcc
+.
+html
+\
 test_elm_plugin
 .
 html
@@ -644,10 +648,6 @@ test_name_link
 html
 \
 test_name_markup
-.
-html
-\
-test_name_nsApplicationAcc
 .
 html
 \

@@ -720,10 +720,8 @@ if
 targetNode
 )
 {
-nsRefPtr
-<
-nsApplicationAccessibleWrap
->
+nsApplicationAccessible
+*
 applicationAcc
 =
 nsAccessNode
@@ -745,10 +743,6 @@ nsIAccessible
 >
 (
 applicationAcc
-.
-get
-(
-)
 )
 )
 NS_ASSERTION

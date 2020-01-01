@@ -107,7 +107,7 @@ class
 nsRootAccessible
 ;
 class
-nsApplicationAccessibleWrap
+nsApplicationAccessible
 ;
 class
 nsIDocShellTreeItem
@@ -344,10 +344,8 @@ ShutdownXPAccessibility
 )
 ;
 static
-already_AddRefed
-<
-nsApplicationAccessibleWrap
->
+nsApplicationAccessible
+*
 GetApplicationAccessible
 (
 )
@@ -563,7 +561,7 @@ gGlobalDocAccessibleCache
 private
 :
 static
-nsApplicationAccessibleWrap
+nsApplicationAccessible
 *
 gApplicationAccessible
 ;
