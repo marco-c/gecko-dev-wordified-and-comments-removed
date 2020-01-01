@@ -2739,14 +2739,6 @@ this
 .
 _edit
 .
-focus
-(
-)
-;
-this
-.
-_edit
-.
 showHistoryPopup
 (
 )
