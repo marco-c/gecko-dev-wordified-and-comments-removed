@@ -170,7 +170,7 @@ m
 addEventListener
 (
 "
-progress
+suspend
 "
 function
 (
@@ -204,7 +204,7 @@ m
 removeEventListener
 (
 "
-progress
+suspend
 "
 arguments
 .
