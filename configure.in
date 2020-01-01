@@ -48835,7 +48835,9 @@ bookmarks
 -
 enable
 -
-places_bookmarks
+places
+-
+bookmarks
 Enable
 '
 places
