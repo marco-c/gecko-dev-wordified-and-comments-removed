@@ -229,6 +229,16 @@ enabled
 false
 )
 ;
+user_pref
+(
+"
+urlclassifier
+.
+updateinterval
+"
+172800
+)
+;
 branch
 .
 setBoolPref
