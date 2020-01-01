@@ -469,6 +469,10 @@ testNewObject
 .
 cpp
 \
+testOps
+.
+cpp
+\
 testPropCache
 .
 cpp
