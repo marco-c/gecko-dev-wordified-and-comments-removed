@@ -1083,6 +1083,12 @@ CacheChildrenInSubtree
 Accessible
 *
 aRoot
+Accessible
+*
+*
+aFocusedAcc
+=
+nullptr
 )
 ;
 void
