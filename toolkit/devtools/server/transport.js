@@ -801,6 +801,13 @@ function
 (
 )
 {
+if
+(
+self
+.
+hooks
+)
+{
 self
 .
 hooks
@@ -810,6 +817,7 @@ onPacket
 parsed
 )
 ;
+}
 }
 "
 DebuggerTransport
