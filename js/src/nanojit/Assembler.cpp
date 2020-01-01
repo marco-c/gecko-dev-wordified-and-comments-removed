@@ -8462,8 +8462,14 @@ for
 Register
 r
 =
-FirstReg
+LastReg
 ;
+r
+>
+=
+FirstReg
+&
+&
 r
 <
 =
@@ -8471,7 +8477,7 @@ LastReg
 ;
 r
 =
-nextreg
+prevreg
 (
 r
 )
