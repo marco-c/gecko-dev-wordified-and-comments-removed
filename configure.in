@@ -32781,8 +32781,6 @@ f
 "
 LIBXUL_SDK
 /
-sdk
-/
 include
 /
 xpcom
@@ -32797,8 +32795,6 @@ AC_MSG_ERROR
 (
 [
 LIBXUL_SDK
-/
-sdk
 /
 include
 /
