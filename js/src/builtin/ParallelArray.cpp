@@ -4230,7 +4230,6 @@ deleteElement
 deleteSpecial
 NULL
 NULL
-NULL
 }
 }
 ;

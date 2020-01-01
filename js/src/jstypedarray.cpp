@@ -16692,7 +16692,6 @@ ArrayBufferObject
 :
 obj_enumerate
 NULL
-NULL
 }
 }
 ;
@@ -17725,13 +17724,6 @@ _typedArray
 :
 :
 obj_enumerate
-\
-NULL
-/
-*
-typeOf
-*
-/
 \
 NULL
 /
