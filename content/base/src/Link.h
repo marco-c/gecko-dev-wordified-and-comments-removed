@@ -247,6 +247,17 @@ bool
 aNotify
 )
 ;
+Element
+*
+GetElement
+(
+)
+const
+{
+return
+mElement
+;
+}
 protected
 :
 virtual
