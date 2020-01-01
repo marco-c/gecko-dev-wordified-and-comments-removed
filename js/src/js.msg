@@ -4655,3 +4655,15 @@ not
 callable
 "
 )
+MSG_DEF
+(
+JSMSG_BAD_PARSE_NODE
+254
+0
+JSEXN_INTERNALERR
+"
+bad
+parse
+node
+"
+)
