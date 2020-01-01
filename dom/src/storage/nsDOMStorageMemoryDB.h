@@ -60,6 +60,9 @@ mSecure
 nsString
 mValue
 ;
+PRInt64
+mInsertTime
+;
 }
 ;
 typedef
@@ -244,6 +247,13 @@ PRBool
 aIncludeSubDomains
 PRBool
 aMatch
+)
+;
+nsresult
+RemoveTimeRange
+(
+PRInt64
+aSince
 )
 ;
 nsresult

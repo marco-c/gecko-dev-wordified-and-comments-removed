@@ -451,6 +451,8 @@ geolocation
 \
 localstorage
 \
+globalstorage
+\
 sessionstorage
 \
 storageevent
