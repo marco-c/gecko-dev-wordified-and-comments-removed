@@ -971,6 +971,8 @@ JSContext
 bool
 init
 (
+JSVersion
+version
 const
 jschar
 *
@@ -1658,6 +1660,18 @@ return
 JS_FALSE
 ;
 }
+void
+setVersion
+(
+JSVersion
+newVersion
+)
+{
+version
+=
+newVersion
+;
+}
 private
 :
 typedef
@@ -1944,6 +1958,9 @@ maybeStrSpecial
 [
 256
 ]
+;
+JSVersion
+version
 ;
 }
 ;

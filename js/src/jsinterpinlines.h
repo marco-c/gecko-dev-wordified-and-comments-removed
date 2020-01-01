@@ -306,13 +306,6 @@ blockChain_
 =
 NULL
 ;
-callerVersion_
-=
-prev_
--
->
-callerVersion_
-;
 SetValueRangeToUndefined
 (
 slots
