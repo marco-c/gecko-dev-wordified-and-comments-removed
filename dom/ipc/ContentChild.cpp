@@ -608,6 +608,15 @@ NULL
 ;
 #
 endif
+#
+ifdef
+MOZ_X11
+XRE_InstallX11ErrorHandler
+(
+)
+;
+#
+endif
 NS_ASSERTION
 (
 !
