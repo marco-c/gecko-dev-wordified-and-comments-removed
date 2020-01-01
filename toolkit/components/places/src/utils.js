@@ -7744,7 +7744,11 @@ localizedFilenamePrefix
 +
 \
 .
+(
 json
+|
+html
+)
 "
 )
 ;
