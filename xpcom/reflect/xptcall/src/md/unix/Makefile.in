@@ -411,6 +411,9 @@ srcdir
 VPATH
 =
 srcdir
+NO_PROFILE_GUIDED_OPTIMIZE
+=
+1
 include
 (
 DEPTH
