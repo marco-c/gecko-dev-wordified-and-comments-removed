@@ -4179,7 +4179,7 @@ class
 LGetDynamicName
 :
 public
-LInstructionHelper
+LCallInstructionHelper
 <
 BOX_PIECES
 2
@@ -4339,7 +4339,7 @@ class
 LFilterArguments
 :
 public
-LInstructionHelper
+LCallInstructionHelper
 <
 0
 1

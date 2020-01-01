@@ -2635,13 +2635,6 @@ lir
 )
 &
 &
-assignSafepoint
-(
-lir
-ins
-)
-&
-&
 defineReturn
 (
 lir
