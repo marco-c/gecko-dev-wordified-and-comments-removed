@@ -2187,7 +2187,7 @@ GetPlatform
 )
 -
 >
-SupportsAzure
+SupportsAzureCanvas
 (
 backend
 )

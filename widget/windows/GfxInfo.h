@@ -199,12 +199,6 @@ GfxInfoBase
 :
 GetWebGLParameter
 ;
-using
-GfxInfoBase
-:
-:
-GetAzureEnabled
-;
 virtual
 nsresult
 Init

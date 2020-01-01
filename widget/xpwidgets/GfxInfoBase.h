@@ -137,14 +137,6 @@ _retval
 )
 ;
 NS_IMETHOD
-GetAzureEnabled
-(
-bool
-*
-aAzureEnabled
-)
-;
-NS_IMETHOD
 GetFailures
 (
 PRUint32
