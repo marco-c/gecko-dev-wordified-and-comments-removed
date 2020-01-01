@@ -1380,13 +1380,9 @@ if
 obj
 -
 >
-getClass
+isWith
 (
 )
-=
-=
-&
-js_WithClass
 )
 obj
 =
@@ -1498,13 +1494,9 @@ if
 obj
 -
 >
-getClass
+isWith
 (
 )
-=
-=
-&
-js_WithClass
 )
 obj
 =
@@ -1880,10 +1872,7 @@ ensure
 (
 cx
 &
-NormalArgumentsObject
-:
-:
-jsClass
+NormalArgumentsObjectClass
 &
 cx
 -
@@ -1913,7 +1902,7 @@ ensure
 (
 cx
 &
-js_BlockClass
+BlockClass
 &
 cx
 -
@@ -1943,7 +1932,7 @@ ensure
 (
 cx
 &
-js_CallClass
+CallClass
 &
 cx
 -
@@ -1973,7 +1962,7 @@ ensure
 (
 cx
 &
-js_DeclEnvClass
+DeclEnvClass
 &
 cx
 -
@@ -2003,7 +1992,7 @@ ensure
 (
 cx
 &
-js_IteratorClass
+IteratorClass
 &
 cx
 -
@@ -2033,7 +2022,7 @@ ensure
 (
 cx
 &
-js_WithClass
+WithClass
 &
 cx
 -

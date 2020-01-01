@@ -9012,7 +9012,7 @@ ic
 .
 objReg
 &
-js_ArrayClass
+ArrayClass
 )
 ;
 stubcc
@@ -12267,7 +12267,7 @@ ic
 .
 objReg
 &
-js_ArrayClass
+ArrayClass
 )
 ;
 stubcc

@@ -2352,10 +2352,11 @@ nj
 :
 LIR_ldp
 obj
-offsetof
-(
 JSObject
-clasp
+:
+:
+offsetOfClassPointer
+(
 )
 ACCSET_OBJ_CLASP
 loadQual

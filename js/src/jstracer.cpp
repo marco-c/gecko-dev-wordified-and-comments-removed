@@ -53312,7 +53312,7 @@ guardClass
 (
 payload_ins
 &
-js_FunctionClass
+FunctionClass
 exit
 LOAD_NORMAL
 )
@@ -53322,7 +53322,7 @@ guardNotClass
 (
 payload_ins
 &
-js_FunctionClass
+FunctionClass
 exit
 LOAD_NORMAL
 )
@@ -54287,7 +54287,7 @@ guardClass
 (
 v_ins
 &
-js_FunctionClass
+FunctionClass
 exit
 LOAD_NORMAL
 )
@@ -54297,7 +54297,7 @@ guardNotClass
 (
 v_ins
 &
-js_FunctionClass
+FunctionClass
 exit
 LOAD_NORMAL
 )
@@ -55467,7 +55467,7 @@ guardClass
 (
 obj_ins
 &
-js_ArrayClass
+ArrayClass
 snapshot
 (
 exitType
@@ -55495,7 +55495,7 @@ guardClass
 (
 obj_ins
 &
-js_ArrayClass
+ArrayClass
 exit
 LOAD_NORMAL
 )
@@ -60164,7 +60164,7 @@ clasp
 !
 =
 &
-js_ArrayClass
+ArrayClass
 proto
 -
 >
@@ -63701,7 +63701,7 @@ clasp
 !
 =
 &
-js_SlowArrayClass
+SlowArrayClass
 )
 ;
 if
@@ -63712,7 +63712,7 @@ clasp
 clasp
 =
 &
-js_ObjectClass
+ObjectClass
 ;
 JS_ASSERT
 (
@@ -63735,7 +63735,7 @@ clasp
 =
 =
 &
-js_FunctionClass
+FunctionClass
 )
 RETURN_STOP
 (
@@ -68449,7 +68449,7 @@ getClass
 =
 =
 &
-js_ObjectClass
+ObjectClass
 )
 ;
 Value
@@ -69800,7 +69800,7 @@ getClass
 !
 =
 &
-js_WithClass
+WithClass
 )
 ;
 vp
@@ -80997,7 +80997,7 @@ iterobj
 hasClass
 (
 &
-js_IteratorClass
+IteratorClass
 )
 )
 {
@@ -81005,7 +81005,7 @@ guardClass
 (
 iterobj_ins
 &
-js_IteratorClass
+IteratorClass
 snapshot
 (
 BRANCH_EXIT
@@ -81098,7 +81098,7 @@ guardNotClass
 (
 iterobj_ins
 &
-js_IteratorClass
+IteratorClass
 snapshot
 (
 BRANCH_EXIT
@@ -81482,7 +81482,7 @@ iterobj
 hasClass
 (
 &
-js_IteratorClass
+IteratorClass
 )
 )
 {
@@ -81490,7 +81490,7 @@ guardClass
 (
 iterobj_ins
 &
-js_IteratorClass
+IteratorClass
 snapshot
 (
 BRANCH_EXIT
@@ -81754,7 +81754,7 @@ guardNotClass
 (
 iterobj_ins
 &
-js_IteratorClass
+IteratorClass
 snapshot
 (
 BRANCH_EXIT
@@ -87512,7 +87512,7 @@ guardClass
 (
 obj_ins
 &
-js_SlowArrayClass
+SlowArrayClass
 snapshot
 (
 BRANCH_EXIT

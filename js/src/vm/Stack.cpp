@@ -609,13 +609,9 @@ JS_ASSERT
 env
 -
 >
-getClass
+isDeclEnv
 (
 )
-=
-=
-&
-js_DeclEnvClass
 )
 ;
 env

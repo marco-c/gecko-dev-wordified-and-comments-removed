@@ -1027,7 +1027,7 @@ clasp
 !
 =
 &
-js_StringClass
+StringClass
 )
 return
 JS_NEITHER
@@ -1394,7 +1394,7 @@ initSharingEmptyShape
 (
 cx
 &
-js_FunctionClass
+FunctionClass
 type
 parent
 fun

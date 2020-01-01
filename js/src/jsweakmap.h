@@ -1026,10 +1026,6 @@ JSObject
 >
 CrossCompartmentMarkPolicy
 ;
-extern
-Class
-WeakMapClass
-;
 }
 extern
 JSObject
