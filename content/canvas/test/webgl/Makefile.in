@@ -130,6 +130,10 @@ failing_tests_android
 .
 txt
 \
+failing_tests_android_nvidia
+.
+txt
+\
 skipped_tests_android
 .
 txt
