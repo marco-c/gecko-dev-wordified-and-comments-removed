@@ -288,7 +288,7 @@ else
 mContext
 -
 >
-GenerateWarning
+ErrorInvalidOperation
 (
 "
 program
