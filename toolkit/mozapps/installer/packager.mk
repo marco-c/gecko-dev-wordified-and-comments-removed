@@ -627,6 +627,8 @@ SDK_SUFFIX
 JavaScript
 Shell
 packaging
+ifndef
+LIBXUL_SDK
 JSSHELL_BINS
 =
 \
@@ -642,6 +644,14 @@ BIN_SUFFIX
 )
 \
 (
+NULL
+)
+ifndef
+MOZ_NATIVE_NSPR
+JSSHELL_BINS
++
+=
+(
 DIST
 )
 /
@@ -653,10 +663,6 @@ LIB_PREFIX
 nspr4
 (
 DLL_SUFFIX
-)
-\
-(
-NULL
 )
 ifeq
 (
@@ -715,6 +721,9 @@ DLL_SUFFIX
 NULL
 )
 endif
+endif
+#
+MOZ_NATIVE_NSPR
 MAKE_JSSHELL
 =
 (
@@ -728,6 +737,9 @@ PKG_JSSHELL
 (
 JSSHELL_BINS
 )
+endif
+#
+LIBXUL_SDK
 MAKE_PACKAGE
 =
 (
@@ -6090,6 +6102,8 @@ _BINPATH
 endif
 #
 MOZ_PKG_REMOVALS
+ifndef
+LIBXUL_SDK
 #
 Package
 JavaScript
@@ -6112,6 +6126,9 @@ PKG_JSSHELL
 (
 MAKE_JSSHELL
 )
+endif
+#
+LIBXUL_SDK
 make
 -
 package
