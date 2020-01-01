@@ -7993,11 +7993,6 @@ DecodeError
 {
 if
 (
-mIsLoadingFromSourceChildren
-)
-{
-if
-(
 mDecoder
 )
 {
@@ -8013,6 +8008,11 @@ mDecoder
 nsnull
 ;
 }
+if
+(
+mIsLoadingFromSourceChildren
+)
+{
 mError
 =
 nsnull
