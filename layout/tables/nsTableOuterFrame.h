@@ -727,7 +727,7 @@ aCaptionMargin
 )
 ;
 void
-GetMargin
+GetChildMargin
 (
 nsPresContext
 *
