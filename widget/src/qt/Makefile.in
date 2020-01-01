@@ -551,6 +551,16 @@ cpp
 (
 NULL
 )
+EXPORTS
+=
+\
+nsQtKeyUtils
+.
+h
+\
+(
+NULL
+)
 ifdef
 MOZ_ENABLE_QTMOBILITY
 MOCSRCS
