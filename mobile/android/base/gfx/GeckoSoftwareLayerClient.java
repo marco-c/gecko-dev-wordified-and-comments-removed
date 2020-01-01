@@ -423,6 +423,7 @@ mGeckoViewport
 =
 null
 )
+{
 layerController
 .
 setViewportMetrics
@@ -430,6 +431,14 @@ setViewportMetrics
 mGeckoViewport
 )
 ;
+layerController
+.
+notifyPanZoomControllerOfGeometryChange
+(
+false
+)
+;
+}
 geometryChanged
 (
 )
@@ -620,6 +629,13 @@ controller
 setViewportMetrics
 (
 mGeckoViewport
+)
+;
+controller
+.
+notifyPanZoomControllerOfGeometryChange
+(
+true
 )
 ;
 }

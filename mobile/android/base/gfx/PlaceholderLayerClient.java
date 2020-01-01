@@ -646,6 +646,13 @@ setViewportMetrics
 mViewport
 )
 ;
+layerController
+.
+notifyPanZoomControllerOfGeometryChange
+(
+false
+)
+;
 BufferedCairoImage
 image
 =
