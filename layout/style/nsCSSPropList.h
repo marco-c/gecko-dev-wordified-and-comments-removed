@@ -7225,7 +7225,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-kContextPatternKTable
+kObjectPatternKTable
 offsetof
 (
 nsStyleSVG
@@ -7245,8 +7245,8 @@ CSS_PROPERTY_PARSE_VALUE
 "
 VARIANT_HN
 |
-VARIANT_OPENTYPE_SVG_KEYWORD
-kContextOpacityKTable
+VARIANT_KEYWORD
+kObjectOpacityKTable
 offsetof
 (
 nsStyleSVG
@@ -7521,7 +7521,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-kContextPatternKTable
+kObjectPatternKTable
 offsetof
 (
 nsStyleSVG
@@ -7542,7 +7542,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 0
-kStrokeContextValueKTable
+kStrokeObjectValueKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
 )
@@ -7558,8 +7558,8 @@ CSS_PROPERTY_PARSE_VALUE
 "
 VARIANT_HLPN
 |
-VARIANT_OPENTYPE_SVG_KEYWORD
-kStrokeContextValueKTable
+VARIANT_KEYWORD
+kStrokeObjectValueKTable
 offsetof
 (
 nsStyleSVG
@@ -7638,8 +7638,8 @@ CSS_PROPERTY_PARSE_VALUE
 "
 VARIANT_HN
 |
-VARIANT_OPENTYPE_SVG_KEYWORD
-kContextOpacityKTable
+VARIANT_KEYWORD
+kObjectOpacityKTable
 offsetof
 (
 nsStyleSVG
@@ -7661,8 +7661,8 @@ CSS_PROPERTY_VALUE_NONNEGATIVE
 "
 VARIANT_HLPN
 |
-VARIANT_OPENTYPE_SVG_KEYWORD
-kStrokeContextValueKTable
+VARIANT_KEYWORD
+kStrokeObjectValueKTable
 offsetof
 (
 nsStyleSVG
