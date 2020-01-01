@@ -2014,6 +2014,8 @@ html
 <
 script
 >
+try
+{
 alert
 (
 '
@@ -2022,6 +2024,13 @@ yo
 '
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 <
 /
 script
