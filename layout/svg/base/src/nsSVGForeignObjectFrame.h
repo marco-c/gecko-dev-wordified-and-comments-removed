@@ -374,7 +374,7 @@ HasValidCoveredRect
 )
 {
 return
-PR_FALSE
+PR_TRUE
 ;
 }
 nsPoint
@@ -488,7 +488,7 @@ nsRegion
 mSameDocDirtyRegion
 ;
 nsRegion
-mCrossDocDirtyRegion
+mSubDocDirtyRegion
 ;
 PRPackedBool
 mInReflow

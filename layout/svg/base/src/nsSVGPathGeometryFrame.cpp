@@ -193,14 +193,6 @@ aOldStyleContext
 nsSVGUtils
 :
 :
-InvalidateCoveredRegion
-(
-this
-)
-;
-nsSVGUtils
-:
-:
 UpdateGraphic
 (
 this
