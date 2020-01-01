@@ -2341,6 +2341,9 @@ jsbytecode
 pc
 )
 ;
+#
+ifdef
+__cplusplus
 static
 JS_INLINE
 uintN
@@ -2460,6 +2463,8 @@ pc
 )
 ;
 }
+#
+endif
 #
 ifdef
 DEBUG
