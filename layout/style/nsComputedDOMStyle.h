@@ -3569,7 +3569,13 @@ nsStyleCoord
 aCoord
 )
 ;
-nsROCSSPrimitiveValue
+mozilla
+:
+:
+dom
+:
+:
+CSSValue
 *
 CreatePrimitiveValueForStyleFilter
 (
