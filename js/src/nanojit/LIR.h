@@ -8832,6 +8832,14 @@ Allocator
 &
 alloc
 ;
+HashMap
+<
+LIns
+*
+bool
+>
+knownCmpValues
+;
 bool
 suspended
 ;
