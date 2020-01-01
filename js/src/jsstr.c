@@ -6278,7 +6278,7 @@ fp
 fp
 -
 >
-regs
+pc
 ;
 fp
 =
@@ -6311,9 +6311,6 @@ JS_ASSERT
 fp
 -
 >
-regs
--
->
 pc
 =
 =
@@ -6322,9 +6319,6 @@ JSOP_CALL
 |
 *
 fp
--
->
-regs
 -
 >
 pc
@@ -6341,9 +6335,6 @@ js_CodeSpec
 fp
 -
 >
-regs
--
->
 pc
 ]
 .
@@ -6356,9 +6347,6 @@ length
 switch
 (
 fp
--
->
-regs
 -
 >
 pc
