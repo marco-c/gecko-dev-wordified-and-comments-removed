@@ -1068,6 +1068,15 @@ true
 ;
 }
 bool
+IsRepeatTransaction
+(
+)
+{
+return
+mIsRepeatTransaction
+;
+}
+bool
 ProgressiveUpdateCallback
 (
 bool
@@ -1104,6 +1113,9 @@ mTargetRotation
 ;
 bool
 mRepeatTransaction
+;
+bool
+mIsRepeatTransaction
 ;
 }
 ;
