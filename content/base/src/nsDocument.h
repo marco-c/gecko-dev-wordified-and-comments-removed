@@ -4362,6 +4362,11 @@ mIsApprovedForFullscreen
 :
 1
 ;
+bool
+mHasFullscreenApprovedObserver
+:
+1
+;
 uint8_t
 mXMLDeclarationBits
 ;
