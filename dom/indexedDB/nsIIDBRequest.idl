@@ -558,9 +558,6 @@ attribute
 nsIIDBTransaction
 transaction
 ;
-[
-implicit_jscontext
-]
 readonly
 attribute
 jsval

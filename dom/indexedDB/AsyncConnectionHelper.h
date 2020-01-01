@@ -247,7 +247,6 @@ ReleaseMainThreadObjects
 (
 )
 ;
-static
 nsresult
 WrapNative
 (
