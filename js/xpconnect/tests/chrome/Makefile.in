@@ -237,6 +237,10 @@ subscript
 .
 js
 \
+utf8_subscript
+.
+js
+\
 test_cows
 .
 xul

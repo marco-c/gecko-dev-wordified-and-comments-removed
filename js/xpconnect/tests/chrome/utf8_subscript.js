@@ -1,0 +1,15 @@
+var
+str
+=
+"
+"
+;
+function
+f
+(
+)
+{
+return
+42
+;
+}
