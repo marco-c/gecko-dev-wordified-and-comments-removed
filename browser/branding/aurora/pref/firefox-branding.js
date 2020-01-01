@@ -111,9 +111,7 @@ org
 /
 projects
 /
-%
-APP
-%
+firefox
 /
 "
 )
@@ -138,9 +136,7 @@ org
 /
 projects
 /
-%
-APP
-%
+firefox
 /
 %
 VERSION
@@ -171,9 +167,7 @@ org
 /
 projects
 /
-%
-APP
-%
+firefox
 /
 "
 )
