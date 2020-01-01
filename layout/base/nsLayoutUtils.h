@@ -1343,9 +1343,6 @@ nsIFrame
 *
 GetParentOrPlaceholderFor
 (
-nsFrameManager
-*
-aFrameManager
 nsIFrame
 *
 aFrame

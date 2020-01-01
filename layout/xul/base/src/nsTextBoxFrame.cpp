@@ -1850,12 +1850,6 @@ nsLayoutUtils
 :
 GetParentOrPlaceholderFor
 (
-presContext
--
->
-FrameManager
-(
-)
 f
 )
 )
