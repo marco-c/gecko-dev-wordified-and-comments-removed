@@ -120,6 +120,10 @@ test_SpecialPowersPushPermissions
 .
 html
 \
+test_SpecialPowersPushPrefEnv
+.
+html
+\
 file_SpecialPowersFrame1
 .
 html
