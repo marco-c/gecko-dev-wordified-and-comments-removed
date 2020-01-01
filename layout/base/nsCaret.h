@@ -76,7 +76,6 @@ EViewCoordinates
 eTopLevelWindowCoordinates
 eRenderingViewCoordinates
 eClosestViewCoordinates
-eIMECoordinates
 }
 ;
 public
