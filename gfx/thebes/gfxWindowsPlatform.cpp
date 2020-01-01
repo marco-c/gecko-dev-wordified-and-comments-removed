@@ -1596,6 +1596,9 @@ return
 scaledFont
 ;
 }
+return
+NULL
+;
 }
 already_AddRefed
 <
