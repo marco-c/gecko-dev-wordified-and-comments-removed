@@ -6064,6 +6064,12 @@ false
 if
 (
 mMenuPopup
+!
+=
+null
+&
+&
+mMenuPopup
 .
 isShowing
 (
