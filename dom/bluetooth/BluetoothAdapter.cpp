@@ -243,7 +243,10 @@ virtual
 bool
 ParseSuccessfulReply
 (
-jsval
+JS
+:
+:
+Value
 *
 aValue
 )
@@ -1956,7 +1959,10 @@ GetDevices
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aDevices
 )
@@ -2008,7 +2014,10 @@ GetUuids
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aValue
 )

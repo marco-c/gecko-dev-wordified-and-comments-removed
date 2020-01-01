@@ -219,7 +219,10 @@ virtual
 bool
 ParseSuccessfulReply
 (
-jsval
+JS
+:
+:
+Value
 *
 aValue
 )

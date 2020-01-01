@@ -96,7 +96,10 @@ BluetoothReplyRunnable
 FireReply
 (
 const
-jsval
+JS
+:
+:
+Value
 &
 aVal
 )
@@ -264,7 +267,10 @@ JSVAL_VOID
 }
 else
 {
-jsval
+JS
+:
+:
+Value
 v
 ;
 if

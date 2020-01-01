@@ -88,7 +88,10 @@ virtual
 bool
 ParseSuccessfulReply
 (
-jsval
+JS
+:
+:
+Value
 *
 aValue
 )
@@ -107,7 +110,10 @@ nsresult
 FireReply
 (
 const
-jsval
+JS
+:
+:
+Value
 &
 aVal
 )
@@ -154,7 +160,10 @@ virtual
 bool
 ParseSuccessfulReply
 (
-jsval
+JS
+:
+:
+Value
 *
 aValue
 )
