@@ -16366,6 +16366,7 @@ jump
 ;
 updatePCCounters
 (
+cx
 masm
 )
 ;
