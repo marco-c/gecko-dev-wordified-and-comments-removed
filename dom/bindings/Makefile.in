@@ -337,6 +337,10 @@ DOMJSClass
 .
 h
 \
+Errors
+.
+msg
+\
 PrototypeList
 .
 h
