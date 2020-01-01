@@ -2233,6 +2233,14 @@ rv
 rv
 )
 ;
+if
+(
+!
+uri
+)
+return
+NS_ERROR_NOT_AVAILABLE
+;
 nsCOMPtr
 <
 nsIURI
