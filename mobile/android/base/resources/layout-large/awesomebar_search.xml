@@ -310,6 +310,10 @@ imeOptions
 =
 "
 actionSearch
+|
+flagNoExtractUi
+|
+flagNoFullscreen
 "
 android
 :
