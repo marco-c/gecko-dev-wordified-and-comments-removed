@@ -614,8 +614,7 @@ chunk
 void
 unregisterScript
 (
-JSScript
-*
+UnrootedScript
 script
 mjit
 :

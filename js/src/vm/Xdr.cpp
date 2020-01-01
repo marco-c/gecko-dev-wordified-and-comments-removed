@@ -706,13 +706,15 @@ script
 compileAndGo
 )
 ;
-js_CallNewScriptHook
+CallNewScriptHook
 (
 cx
 (
 )
 script
-NULL
+NullPtr
+(
+)
 )
 ;
 Debugger

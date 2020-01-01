@@ -17088,8 +17088,7 @@ scopeChain
 PropertyName
 *
 name
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -17136,8 +17135,7 @@ scopeChain
 PropertyName
 *
 name
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -17190,8 +17188,7 @@ return
 name_
 ;
 }
-JSScript
-*
+UnrootedScript
 script
 (
 )
@@ -21333,8 +21330,7 @@ inlineLevel_
 ;
 MFunctionBoundary
 (
-JSScript
-*
+UnrootedScript
 script
 Type
 type
@@ -21395,8 +21391,7 @@ MFunctionBoundary
 *
 New
 (
-JSScript
-*
+UnrootedScript
 script
 Type
 type
@@ -21416,8 +21411,7 @@ inlineLevel
 )
 ;
 }
-JSScript
-*
+UnrootedScript
 script
 (
 )

@@ -312,8 +312,7 @@ MIRGraph
 *
 graph
 ;
-JSScript
-*
+HandleScript
 function
 ;
 C1Spewer
@@ -337,7 +336,9 @@ NULL
 )
 function
 (
-NULL
+NullPtr
+(
+)
 )
 inited_
 (
@@ -361,8 +362,7 @@ beginFunction
 MIRGraph
 *
 graph
-JSScript
-*
+HandleScript
 )
 ;
 void
@@ -399,8 +399,7 @@ IonSpewNewFunction
 MIRGraph
 *
 graph
-JSScript
-*
+HandleScript
 function
 )
 ;
@@ -571,8 +570,7 @@ IonSpewNewFunction
 MIRGraph
 *
 graph
-JSScript
-*
+HandleScript
 function
 )
 {

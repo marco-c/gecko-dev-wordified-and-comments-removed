@@ -12936,8 +12936,7 @@ Detecting
 JSContext
 *
 cx
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -13150,8 +13149,7 @@ jsbytecode
 *
 pc
 ;
-JSScript
-*
+UnrootedScript
 script
 =
 cx
@@ -21151,6 +21149,10 @@ MutableHandleShape
 propp
 )
 {
+AssertCanGC
+(
+)
+;
 RootedObject
 current
 (
@@ -21839,12 +21841,12 @@ hasDefaultGetter
 return
 true
 ;
+{
 jsbytecode
 *
 pc
 ;
-JSScript
-*
+UnrootedScript
 script
 =
 cx
@@ -21902,6 +21904,7 @@ accessGetter
 =
 true
 ;
+}
 }
 if
 (
@@ -22456,10 +22459,10 @@ JSOP_GETELEM
 return
 true
 ;
-JSScript
-*
+RootedScript
 script
-=
+(
+cx
 cx
 -
 >
@@ -22467,6 +22470,7 @@ stack
 .
 currentScript
 (
+)
 )
 ;
 if
@@ -23008,8 +23012,8 @@ JSString
 propname
 )
 {
-JSScript
-*
+{
+UnrootedScript
 script
 =
 cx
@@ -23054,6 +23058,7 @@ hasStrictOption
 return
 true
 ;
+}
 JSAutoByteString
 bytes
 (

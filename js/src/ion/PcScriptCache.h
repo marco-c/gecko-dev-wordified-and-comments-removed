@@ -24,8 +24,7 @@ jsbytecode
 *
 pc
 ;
-JSScript
-*
+RawScript
 script
 ;
 }
@@ -118,8 +117,7 @@ addr
 jsbytecode
 *
 pc
-JSScript
-*
+UnrootedScript
 script
 )
 {

@@ -381,8 +381,7 @@ mjit
 JITChunk
 *
 chunk
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -620,8 +619,7 @@ char
 ScriptFilename
 (
 const
-JSScript
-*
+UnrootedScript
 script
 )
 {
@@ -742,8 +740,7 @@ cx
 JSFunction
 *
 fun
-JSScript
-*
+UnrootedScript
 script
 )
 {
@@ -782,8 +779,7 @@ cx
 JSFunction
 *
 fun
-JSScript
-*
+UnrootedScript
 script
 )
 {
@@ -832,8 +828,7 @@ const
 filename
 )
 {
-JSScript
-*
+UnrootedScript
 script
 =
 cx
@@ -985,8 +980,7 @@ cx
 JSFunction
 *
 fun
-JSScript
-*
+UnrootedScript
 script
 int
 counter
@@ -1051,8 +1045,7 @@ cx
 JSFunction
 *
 fun
-JSScript
-*
+UnrootedScript
 script
 int
 counter
@@ -1847,8 +1840,7 @@ Probes
 :
 ETWStartExecution
 (
-JSScript
-*
+UnrootedScript
 script
 )
 {
@@ -1885,8 +1877,7 @@ Probes
 :
 ETWStopExecution
 (
-JSScript
-*
+UnrootedScript
 script
 )
 {

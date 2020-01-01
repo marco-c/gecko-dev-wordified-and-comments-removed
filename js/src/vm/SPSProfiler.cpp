@@ -2077,8 +2077,7 @@ SPSProfiler
 :
 unregisterScript
 (
-JSScript
-*
+UnrootedScript
 script
 mjit
 :

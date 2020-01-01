@@ -693,8 +693,7 @@ linkAbsoluteLabels
 (
 )
 {
-JSScript
-*
+UnrootedScript
 script
 =
 gen

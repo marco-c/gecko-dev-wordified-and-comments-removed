@@ -252,8 +252,7 @@ canIonCompile
 )
 )
 {
-JSScript
-*
+UnrootedScript
 script
 =
 GetTopIonJSScript

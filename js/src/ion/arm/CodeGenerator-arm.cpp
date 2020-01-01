@@ -6301,8 +6301,7 @@ NYI
 "
 )
 ;
-JSScript
-*
+UnrootedScript
 script
 =
 gen

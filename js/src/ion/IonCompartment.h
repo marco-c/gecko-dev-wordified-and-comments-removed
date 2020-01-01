@@ -776,8 +776,7 @@ FinishInvalidation
 FreeOp
 *
 fop
-JSScript
-*
+UnrootedScript
 script
 )
 ;

@@ -67,8 +67,7 @@ init
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 {
@@ -90,12 +89,13 @@ script
 )
 ;
 return
-script
--
->
+JSScript
+:
+:
 ensureRanInference
 (
 cx
+script
 )
 ;
 }
@@ -222,8 +222,7 @@ TypeInferenceOracle
 :
 unaryTypes
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -295,8 +294,7 @@ TypeInferenceOracle
 :
 binaryTypes
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -455,8 +453,7 @@ TypeInferenceOracle
 :
 unaryOp
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -534,8 +531,7 @@ TypeInferenceOracle
 :
 binaryOp
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -707,8 +703,7 @@ TypeInferenceOracle
 :
 thisTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 )
 {
@@ -1237,8 +1232,7 @@ TypeInferenceOracle
 :
 parameterTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 size_t
 index
@@ -1275,8 +1269,7 @@ TypeInferenceOracle
 :
 propertyRead
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1306,8 +1299,7 @@ TypeInferenceOracle
 :
 propertyReadBarrier
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1354,8 +1346,7 @@ TypeInferenceOracle
 :
 propertyReadIdempotent
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1387,10 +1378,6 @@ false
 if
 (
 id
-.
-get
-(
-)
 !
 =
 MakeTypeId
@@ -1542,8 +1529,7 @@ TypeInferenceOracle
 :
 propertyReadAccessGetter
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1683,8 +1669,7 @@ TypeInferenceOracle
 :
 inArrayIsPacked
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1730,8 +1715,7 @@ TypeInferenceOracle
 :
 elementReadIsDenseArray
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1841,8 +1825,7 @@ TypeInferenceOracle
 :
 elementReadIsTypedArray
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -2086,8 +2069,7 @@ TypeInferenceOracle
 :
 elementReadIsString
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -2214,8 +2196,7 @@ TypeInferenceOracle
 :
 elementReadIsPacked
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -2261,8 +2242,7 @@ TypeInferenceOracle
 :
 elementReadGeneric
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -2531,8 +2511,7 @@ TypeInferenceOracle
 :
 elementWriteIsTypedArray
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -2675,8 +2654,7 @@ TypeInferenceOracle
 :
 elementWriteIsPacked
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -2722,8 +2700,7 @@ TypeInferenceOracle
 :
 setElementHasWrittenHoles
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -2753,8 +2730,7 @@ TypeInferenceOracle
 :
 elementWrite
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -2995,8 +2971,7 @@ TypeInferenceOracle
 :
 propertyWriteNeedsBarrier
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -3040,8 +3015,7 @@ TypeInferenceOracle
 :
 elementWriteNeedsBarrier
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -3084,8 +3058,7 @@ TypeInferenceOracle
 :
 getCallTarget
 (
-JSScript
-*
+UnrootedScript
 caller
 uint32_t
 argc
@@ -3163,8 +3136,7 @@ TypeInferenceOracle
 :
 getCallArg
 (
-JSScript
-*
+UnrootedScript
 script
 uint32_t
 argc
@@ -3208,8 +3180,7 @@ TypeInferenceOracle
 :
 getCallReturn
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -3238,8 +3209,7 @@ TypeInferenceOracle
 :
 canInlineCall
 (
-JSScript
-*
+HandleScript
 caller
 jsbytecode
 *
@@ -3442,8 +3412,7 @@ TypeInferenceOracle
 :
 globalPropertyWrite
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -3499,8 +3468,7 @@ TypeInferenceOracle
 :
 returnTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -3576,8 +3544,7 @@ TypeInferenceOracle
 :
 aliasedVarBarrier
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -3630,8 +3597,7 @@ TypeInferenceOracle
 :
 globalPropertyTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -3729,8 +3695,7 @@ TypeInferenceOracle
 :
 propertyReadMagicArguments
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -3768,8 +3733,7 @@ TypeInferenceOracle
 :
 elementReadMagicArguments
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -3807,8 +3771,7 @@ TypeInferenceOracle
 :
 elementWriteMagicArguments
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *

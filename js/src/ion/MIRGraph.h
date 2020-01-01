@@ -1728,8 +1728,7 @@ osrStart_
 ;
 Vector
 <
-JSScript
-*
+RawScript
 4
 IonAllocPolicy
 >
@@ -2234,8 +2233,7 @@ osrStart_
 bool
 addScript
 (
-JSScript
-*
+UnrootedScript
 script
 )
 {

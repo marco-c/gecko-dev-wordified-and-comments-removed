@@ -348,8 +348,7 @@ numActualArgs
 )
 const
 ;
-JSScript
-*
+UnrootedScript
 script
 (
 )
@@ -947,8 +946,7 @@ count
 )
 const
 ;
-JSScript
-*
+UnrootedScript
 script
 (
 )
@@ -956,6 +954,10 @@ const
 {
 return
 script_
+.
+get
+(
+)
 ;
 }
 jsbytecode

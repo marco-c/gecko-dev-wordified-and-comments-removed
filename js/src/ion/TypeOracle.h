@@ -115,8 +115,7 @@ virtual
 UnaryTypes
 unaryTypes
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -129,8 +128,7 @@ virtual
 BinaryTypes
 binaryTypes
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -143,8 +141,7 @@ virtual
 Unary
 unaryOp
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -157,8 +154,7 @@ virtual
 Binary
 binaryOp
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -175,8 +171,7 @@ StackTypeSet
 *
 thisTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 )
 {
@@ -211,8 +206,7 @@ StackTypeSet
 *
 parameterTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 size_t
 index
@@ -230,8 +224,7 @@ HeapTypeSet
 *
 globalPropertyTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -252,8 +245,7 @@ StackTypeSet
 *
 propertyRead
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -272,8 +264,7 @@ StackTypeSet
 *
 propertyReadBarrier
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -288,8 +279,7 @@ virtual
 bool
 propertyReadIdempotent
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -306,8 +296,7 @@ virtual
 bool
 propertyReadAccessGetter
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -326,8 +315,7 @@ HeapTypeSet
 *
 globalPropertyWrite
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -356,8 +344,7 @@ StackTypeSet
 *
 returnTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -399,8 +386,7 @@ virtual
 bool
 inArrayIsPacked
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -415,8 +401,7 @@ virtual
 bool
 elementReadIsDenseArray
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -431,8 +416,7 @@ virtual
 bool
 elementReadIsTypedArray
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -450,8 +434,7 @@ virtual
 bool
 elementReadIsString
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -466,8 +449,7 @@ virtual
 bool
 elementReadIsPacked
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -482,8 +464,7 @@ virtual
 void
 elementReadGeneric
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -511,8 +492,7 @@ virtual
 bool
 setElementHasWrittenHoles
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -542,8 +522,7 @@ virtual
 bool
 elementWriteIsTypedArray
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -561,8 +540,7 @@ virtual
 bool
 elementWriteIsPacked
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -592,8 +570,7 @@ virtual
 bool
 propertyWriteNeedsBarrier
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -610,8 +587,7 @@ virtual
 bool
 elementWriteNeedsBarrier
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -626,8 +602,7 @@ virtual
 MIRType
 elementWrite
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -666,8 +641,7 @@ StackTypeSet
 *
 getCallTarget
 (
-JSScript
-*
+UnrootedScript
 caller
 uint32_t
 argc
@@ -711,8 +685,7 @@ StackTypeSet
 *
 getCallArg
 (
-JSScript
-*
+UnrootedScript
 script
 uint32_t
 argc
@@ -735,8 +708,7 @@ StackTypeSet
 *
 getCallReturn
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -751,8 +723,7 @@ virtual
 bool
 canInlineCall
 (
-JSScript
-*
+HandleScript
 caller
 jsbytecode
 *
@@ -796,8 +767,7 @@ virtual
 LazyArgumentsType
 propertyReadMagicArguments
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -812,8 +782,7 @@ virtual
 LazyArgumentsType
 elementReadMagicArguments
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -828,8 +797,7 @@ virtual
 LazyArgumentsType
 elementWriteMagicArguments
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -848,8 +816,7 @@ StackTypeSet
 *
 aliasedVarBarrier
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -880,8 +847,7 @@ public
 UnaryTypes
 unaryTypes
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -910,8 +876,7 @@ u
 BinaryTypes
 binaryTypes
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -946,8 +911,7 @@ b
 Unary
 unaryOp
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -976,8 +940,7 @@ u
 Binary
 binaryOp
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1068,8 +1031,7 @@ init
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 ;
@@ -1089,8 +1051,7 @@ get
 UnaryTypes
 unaryTypes
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1100,8 +1061,7 @@ pc
 BinaryTypes
 binaryTypes
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1111,8 +1071,7 @@ pc
 Unary
 unaryOp
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1122,8 +1081,7 @@ pc
 Binary
 binaryOp
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1137,8 +1095,7 @@ StackTypeSet
 *
 thisTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 )
 ;
@@ -1163,8 +1120,7 @@ StackTypeSet
 *
 parameterTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 size_t
 index
@@ -1177,8 +1133,7 @@ HeapTypeSet
 *
 globalPropertyTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1194,8 +1149,7 @@ StackTypeSet
 *
 propertyRead
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1209,8 +1163,7 @@ StackTypeSet
 *
 propertyReadBarrier
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1220,8 +1173,7 @@ pc
 bool
 propertyReadIdempotent
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -1233,8 +1185,7 @@ id
 bool
 propertyReadAccessGetter
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1248,8 +1199,7 @@ HeapTypeSet
 *
 globalPropertyWrite
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1268,8 +1218,7 @@ StackTypeSet
 *
 returnTypeSet
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1290,8 +1239,7 @@ StackTypeSet
 *
 getCallTarget
 (
-JSScript
-*
+UnrootedScript
 caller
 uint32_t
 argc
@@ -1307,8 +1255,7 @@ StackTypeSet
 *
 getCallArg
 (
-JSScript
-*
+UnrootedScript
 caller
 uint32_t
 argc
@@ -1326,8 +1273,7 @@ StackTypeSet
 *
 getCallReturn
 (
-JSScript
-*
+UnrootedScript
 caller
 jsbytecode
 *
@@ -1347,8 +1293,7 @@ pc
 bool
 inArrayIsPacked
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1358,8 +1303,7 @@ pc
 bool
 elementReadIsDenseArray
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1369,8 +1313,7 @@ pc
 bool
 elementReadIsTypedArray
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1383,8 +1326,7 @@ atype
 bool
 elementReadIsString
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1394,8 +1336,7 @@ pc
 bool
 elementReadIsPacked
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1405,8 +1346,7 @@ pc
 void
 elementReadGeneric
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1432,8 +1372,7 @@ pc
 bool
 elementWriteIsTypedArray
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1446,8 +1385,7 @@ arrayType
 bool
 elementWriteIsPacked
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1457,8 +1395,7 @@ pc
 bool
 setElementHasWrittenHoles
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1478,8 +1415,7 @@ pc
 bool
 propertyWriteNeedsBarrier
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1491,8 +1427,7 @@ id
 bool
 elementWriteNeedsBarrier
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1502,8 +1437,7 @@ pc
 MIRType
 elementWrite
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1523,8 +1457,7 @@ canInlineCalls
 bool
 canInlineCall
 (
-JSScript
-*
+HandleScript
 caller
 jsbytecode
 *
@@ -1546,8 +1479,7 @@ StackTypeSet
 *
 aliasedVarBarrier
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1575,8 +1507,7 @@ obj
 LazyArgumentsType
 propertyReadMagicArguments
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1586,8 +1517,7 @@ pc
 LazyArgumentsType
 elementReadMagicArguments
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
@@ -1597,8 +1527,7 @@ pc
 LazyArgumentsType
 elementWriteMagicArguments
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *

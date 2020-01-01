@@ -3357,8 +3357,7 @@ const
 char
 *
 str
-JSScript
-*
+UnrootedScript
 s
 Register
 temp

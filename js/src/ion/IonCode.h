@@ -1228,8 +1228,7 @@ return
 safepointsSize_
 ;
 }
-JSScript
-*
+UnrootedScript
 getScript
 (
 size_t

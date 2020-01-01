@@ -1514,6 +1514,10 @@ jsid
 idArg
 )
 {
+AssertCanGC
+(
+)
+;
 MOZ_ASSERT
 (
 isNative

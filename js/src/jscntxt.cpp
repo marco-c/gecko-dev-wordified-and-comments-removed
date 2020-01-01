@@ -2244,8 +2244,7 @@ flags
 )
 )
 {
-JSScript
-*
+UnrootedScript
 script
 =
 cx
