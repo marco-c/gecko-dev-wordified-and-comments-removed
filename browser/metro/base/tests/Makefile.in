@@ -164,7 +164,7 @@ BROWSER_TEST_RESOURCES
 =
 \
 res
-\
+/
 image01
 .
 png
