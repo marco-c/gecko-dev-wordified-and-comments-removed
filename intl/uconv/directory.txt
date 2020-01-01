@@ -124,7 +124,8 @@ ISO
 2022
 -
 CN
-CP936
+GBK
+GB18030
 ucvibm
 -
 IBM

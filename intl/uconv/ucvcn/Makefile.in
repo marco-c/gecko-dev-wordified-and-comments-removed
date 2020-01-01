@@ -459,14 +459,6 @@ nsUnicodeToHZ
 .
 cpp
 \
-nsCP936ToUnicode
-.
-cpp
-\
-nsUnicodeToCP936
-.
-cpp
-\
 nsGBKConvUtil
 .
 cpp
