@@ -1102,7 +1102,7 @@ None
 tag
 =
 '
-HEAD
+master
 '
     
 else
@@ -1605,17 +1605,64 @@ dest
 develop
 '
                       
+action
+=
+'
+store_true
+'
+default
+=
+False
+                      
 help
 =
 "
 use
 development
 (
-HEAD
+master
 )
 version
 of
 packages
+"
+)
+    
+parser
+.
+add_option
+(
+'
+-
+-
+no
+-
+check
+'
+dest
+=
+'
+check
+'
+                      
+action
+=
+'
+store_false
+'
+default
+=
+True
+                      
+help
+=
+"
+Do
+not
+check
+current
+repository
+state
 "
 )
     
@@ -1941,6 +1988,10 @@ stdout
 strip
 (
 )
+and
+options
+.
+check
 :
         
 error
@@ -1967,6 +2018,10 @@ hg_root
     
 if
 untracked
+and
+options
+.
+check
 :
         
 error
@@ -2422,7 +2477,7 @@ checkout
 (
 src
 '
-HEAD
+master
 '
 )
         
@@ -2485,8 +2540,8 @@ generate_packages_txt
 (
 )
         
-call
-(
+command
+=
 [
 '
 hg
@@ -2495,6 +2550,10 @@ hg
 addremove
 '
 ]
+        
+call
+(
+command
 cwd
 =
 hg_root
