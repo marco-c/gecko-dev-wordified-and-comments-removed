@@ -2769,7 +2769,11 @@ parent
 ;
 lastInsertNode
 =
-parent
+GetChildAt
+(
+parentNode
+offsetOfNewNode
+)
 ;
 }
 }
