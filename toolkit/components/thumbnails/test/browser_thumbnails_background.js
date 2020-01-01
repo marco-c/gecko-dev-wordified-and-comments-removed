@@ -436,7 +436,6 @@ url
 indexOf
 (
 "
-?
 wait
 "
 )
