@@ -1050,6 +1050,13 @@ aResultOverflows
 )
 ;
 static
+gfxASurface
+*
+GetThebesComputationalSurface
+(
+)
+;
+static
 gfxMatrix
 ConvertSVGMatrixToThebes
 (
@@ -1295,6 +1302,12 @@ PRBool
 aAllowPercentages
 =
 PR_FALSE
+)
+;
+static
+void
+Shutdown
+(
 )
 ;
 private

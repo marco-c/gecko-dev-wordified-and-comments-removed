@@ -1406,15 +1406,10 @@ return
 new
 gfxContext
 (
-gfxPlatform
+nsSVGUtils
 :
 :
-GetPlatform
-(
-)
--
->
-ScreenReferenceSurface
+GetThebesComputationalSurface
 (
 )
 )
