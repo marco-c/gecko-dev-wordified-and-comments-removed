@@ -3794,13 +3794,16 @@ aScript
 aGlobal
 )
 {
+if
+(
 this
 .
 _addScript
 (
 aScript
 )
-;
+)
+{
 this
 .
 conn
@@ -3837,6 +3840,7 @@ lineCount
 )
 ;
 }
+}
 _addScript
 :
 function
@@ -3866,6 +3870,7 @@ chrome
 )
 {
 return
+false
 ;
 }
 if
@@ -3887,6 +3892,7 @@ about
 )
 {
 return
+false
 ;
 }
 if
@@ -4019,6 +4025,9 @@ bp
 }
 }
 }
+return
+true
+;
 }
 }
 ;
