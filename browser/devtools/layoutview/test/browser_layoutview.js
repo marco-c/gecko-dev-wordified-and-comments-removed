@@ -110,7 +110,9 @@ span
 "
 value
 :
-30
+"
+auto
+"
 }
 {
 selector
@@ -140,7 +142,9 @@ span
 "
 value
 :
-30
+"
+auto
+"
 }
 {
 selector
@@ -280,7 +284,7 @@ size
 value
 :
 "
-160x210
+190x210
 "
 }
 {
@@ -326,7 +330,9 @@ span
 "
 value
 :
-30
+"
+auto
+"
 }
 {
 selector
@@ -356,7 +362,9 @@ span
 "
 value
 :
-50
+"
+auto
+"
 }
 {
 selector
@@ -416,7 +424,7 @@ span
 "
 value
 :
-20
+50
 }
 {
 selector
@@ -572,6 +580,7 @@ padding
 margin
 :
 30px
+auto
 ;
 }
 "
@@ -913,7 +922,7 @@ selection
 .
 style
 .
-marginRight
+paddingRight
 =
 "
 50px
