@@ -13,6 +13,13 @@ endif
 #
 include
 "
+CSFLogStream
+.
+h
+"
+#
+include
+"
 CC_CallTypes
 .
 h
@@ -161,13 +168,6 @@ h
 include
 "
 csf_common
-.
-h
-"
-#
-include
-"
-CSFLogStream
 .
 h
 "

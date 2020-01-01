@@ -1,6 +1,13 @@
 #
 include
 "
+CSFLog
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes

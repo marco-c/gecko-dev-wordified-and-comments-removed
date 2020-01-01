@@ -1,6 +1,13 @@
 #
 include
 "
+CSFLog
+.
+h
+"
+#
+include
+"
 CC_Common
 .
 h
@@ -47,13 +54,6 @@ using
 namespace
 CSF
 ;
-#
-include
-"
-CSFLog
-.
-h
-"
 CSF_IMPLEMENT_WRAP
 (
 CC_SIPCCFeatureInfo

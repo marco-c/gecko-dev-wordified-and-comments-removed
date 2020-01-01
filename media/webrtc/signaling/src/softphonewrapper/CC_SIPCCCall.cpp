@@ -1,6 +1,13 @@
 #
 include
 "
+CSFLogStream
+.
+h
+"
+#
+include
+"
 CC_Common
 .
 h
@@ -82,13 +89,6 @@ using
 namespace
 CSF
 ;
-#
-include
-"
-CSFLogStream
-.
-h
-"
 static
 const
 char

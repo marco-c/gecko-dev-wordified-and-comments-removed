@@ -1,6 +1,13 @@
 #
 include
 "
+CSFLog
+.
+h
+"
+#
+include
+"
 CC_Common
 .
 h
@@ -78,13 +85,6 @@ endif
 include
 "
 cpr_string
-.
-h
-"
-#
-include
-"
-CSFLog
 .
 h
 "

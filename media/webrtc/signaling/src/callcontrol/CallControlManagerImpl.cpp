@@ -13,6 +13,13 @@ string
 #
 include
 "
+CSFLogStream
+.
+h
+"
+#
+include
+"
 CC_SIPCCDevice
 .
 h
@@ -56,13 +63,6 @@ h
 include
 "
 CallControlManagerImpl
-.
-h
-"
-#
-include
-"
-CSFLogStream
 .
 h
 "
