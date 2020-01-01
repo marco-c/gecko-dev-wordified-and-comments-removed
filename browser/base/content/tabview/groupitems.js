@@ -9675,9 +9675,11 @@ xulTab
 else
 iconUrl
 =
-Utils
+gFavIconService
 .
-defaultFaviconURL
+defaultFavicon
+.
+spec
 ;
 return
 iconUrl
