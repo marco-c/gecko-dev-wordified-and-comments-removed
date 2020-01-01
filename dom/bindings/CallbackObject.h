@@ -94,13 +94,6 @@ xpcpublic
 .
 h
 "
-#
-include
-"
-nsLayoutStatics
-.
-h
-"
 namespace
 mozilla
 {

@@ -682,13 +682,6 @@ h
 #
 include
 "
-nsLayoutStatics
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Telemetry
