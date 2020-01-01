@@ -2609,6 +2609,14 @@ imgIRequest
 :
 STATUS_DECODE_COMPLETE
 ;
+else
+mImageStatus
+=
+imgIRequest
+:
+:
+STATUS_ERROR
+;
 return
 NS_OK
 ;
