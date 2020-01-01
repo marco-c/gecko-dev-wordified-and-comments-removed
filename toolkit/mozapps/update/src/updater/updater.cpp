@@ -324,7 +324,7 @@ PATH_MAX
 elif
 defined
 (
-_MAX_PATH
+MAX_PATH
 )
 #
 define
