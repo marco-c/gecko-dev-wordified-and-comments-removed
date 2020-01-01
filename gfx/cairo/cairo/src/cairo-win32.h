@@ -233,6 +233,16 @@ void
 dwrite_font_face
 )
 ;
+void
+cairo_dwrite_scaled_font_allow_manual_show_glyphs
+(
+void
+*
+dwrite_scaled_font
+cairo_bool_t
+allowed
+)
+;
 #
 endif
 #
