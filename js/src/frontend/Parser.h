@@ -216,10 +216,6 @@ JSTracer
 trc
 )
 ;
-friend
-struct
-TreeContext
-;
 bool
 init
 (
