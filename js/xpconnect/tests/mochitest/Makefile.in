@@ -317,6 +317,10 @@ file_bug758563
 .
 html
 \
+test_bug764389
+.
+html
+\
 file_nodelists
 .
 html
@@ -334,6 +338,10 @@ file_expandosharing
 html
 \
 file_bug760131
+.
+html
+\
+file_empty
 .
 html
 \
