@@ -200,14 +200,10 @@ png
 var
 binDir
 =
-gDirSvc
+gRealGreD
 .
-get
+clone
 (
-NS_GRE_DIR
-AUS_Ci
-.
-nsIFile
 )
 ;
 var
