@@ -16956,6 +16956,11 @@ back
 menuitem
 -
 iconic
+menuitem
+-
+with
+-
+favicon
 "
 ;
 item
@@ -17040,6 +17045,11 @@ forward
 menuitem
 -
 iconic
+menuitem
+-
+with
+-
+favicon
 "
 ;
 item
