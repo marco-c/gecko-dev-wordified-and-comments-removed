@@ -194,12 +194,12 @@ ObserverServiceReporter
 MOZ_FINAL
 :
 public
-nsIMemoryReporter
+nsIMemoryMultiReporter
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIMEMORYREPORTER
+NS_DECL_NSIMEMORYMULTIREPORTER
 protected
 :
 static
@@ -226,7 +226,7 @@ aClosure
 NS_IMPL_ISUPPORTS1
 (
 ObserverServiceReporter
-nsIMemoryReporter
+nsIMemoryMultiReporter
 )
 NS_IMETHODIMP
 ObserverServiceReporter
@@ -537,7 +537,7 @@ ObserverServiceReporter
 :
 CollectReports
 (
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 cb
 nsISupports
@@ -970,7 +970,7 @@ ObserverServiceReporter
 (
 )
 ;
-NS_RegisterMemoryReporter
+NS_RegisterMemoryMultiReporter
 (
 mReporter
 )
@@ -989,7 +989,7 @@ if
 mReporter
 )
 {
-NS_UnregisterMemoryReporter
+NS_UnregisterMemoryMultiReporter
 (
 mReporter
 )

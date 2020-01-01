@@ -284,7 +284,7 @@ StartupCacheMappingReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -292,7 +292,7 @@ StartupCacheMappingReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 explicit
@@ -390,7 +390,7 @@ StartupCacheDataReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -398,7 +398,7 @@ StartupCacheDataReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 explicit

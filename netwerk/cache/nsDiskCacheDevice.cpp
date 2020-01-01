@@ -1816,7 +1816,7 @@ NetworkDiskCacheReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -1827,7 +1827,7 @@ nsDiskCacheDevice
 aDevice
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 explicit

@@ -1732,7 +1732,7 @@ DOMEventListenerManagersHashReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -1740,7 +1740,7 @@ DOMEventListenerManagersHashReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 explicit

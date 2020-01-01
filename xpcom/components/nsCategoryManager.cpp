@@ -1446,7 +1446,7 @@ XPCOMCategoryManagerReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -1454,7 +1454,7 @@ XPCOMCategoryManagerReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 explicit

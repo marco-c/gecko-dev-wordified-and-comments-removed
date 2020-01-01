@@ -203,7 +203,7 @@ public
 mozilla
 :
 :
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -211,7 +211,7 @@ SpellCheckReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 explicit

@@ -202,7 +202,7 @@ PrefixSetReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -217,7 +217,7 @@ nsACString
 aName
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 nsPrintfCString
 (

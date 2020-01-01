@@ -820,7 +820,7 @@ GrallocReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 friend
 class
@@ -832,7 +832,7 @@ GrallocReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 gralloc
