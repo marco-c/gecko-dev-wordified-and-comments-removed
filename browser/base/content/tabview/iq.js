@@ -2376,9 +2376,9 @@ let
 easings
 =
 {
-tabcandyBounce
+tabviewBounce
 :
-'
+"
 cubic
 -
 bezier
@@ -2395,7 +2395,7 @@ bezier
 .
 29
 )
-'
+"
 easeInQuad
 :
 '
