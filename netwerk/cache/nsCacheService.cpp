@@ -6813,7 +6813,10 @@ rv
 nsCacheService
 :
 :
-SetDiskSmartSize
+gService
+-
+>
+SetDiskSmartSize_Locked
 (
 )
 ;
