@@ -469,11 +469,6 @@ aErrorCode
 )
 ;
 void
-Unread
-(
-)
-;
-void
 Pushback
 (
 PRUnichar
