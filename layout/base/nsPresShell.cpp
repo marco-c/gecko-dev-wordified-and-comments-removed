@@ -26160,9 +26160,6 @@ target
 FindFrameTargetedByInputEvent
 (
 aEvent
--
->
-eventStructType
 frame
 eventPoint
 flags
@@ -26539,9 +26536,6 @@ target
 FindFrameTargetedByInputEvent
 (
 aEvent
--
->
-eventStructType
 frame
 eventPoint
 flags
