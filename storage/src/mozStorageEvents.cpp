@@ -103,6 +103,13 @@ mozStorageEvents
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+storage
+;
 #
 define
 MAX_MILLISECONDS_BETWEEN_RESULTS
@@ -1597,7 +1604,7 @@ sqlite3_stmt
 >
 &
 aStatements
-mozStorageConnection
+Connection
 *
 aConnection
 mozIStorageStatementCallback
