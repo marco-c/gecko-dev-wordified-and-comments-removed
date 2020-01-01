@@ -58,8 +58,11 @@ if
 interfaces
 )
 return
+(
+new
 ctor
 (
+)
 )
 .
 QueryInterface
@@ -128,8 +131,11 @@ results
 NS_ERROR_NO_INTERFACE
 ;
 return
+(
+new
 ctor
 (
+)
 )
 ;
 }
