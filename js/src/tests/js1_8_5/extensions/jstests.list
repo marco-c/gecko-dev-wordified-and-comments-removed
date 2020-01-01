@@ -173,3 +173,9 @@ enumerateOwn
 duplicates
 .
 js
+script
+destructure
+-
+accessor
+.
+js
