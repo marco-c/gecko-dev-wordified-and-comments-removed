@@ -5166,11 +5166,13 @@ MSG_DEF
 (
 JSMSG_DEBUG_NOT_IDLE
 279
-0
+1
 JSEXN_ERR
 "
 cannot
-start
+{
+0
+}
 debugging
 :
 a

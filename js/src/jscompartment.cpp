@@ -3003,6 +3003,15 @@ JSContext
 cx
 )
 {
+JS_ASSERT
+(
+!
+haveScriptsOnStack
+(
+cx
+)
+)
+;
 #
 ifdef
 JS_METHODJIT
