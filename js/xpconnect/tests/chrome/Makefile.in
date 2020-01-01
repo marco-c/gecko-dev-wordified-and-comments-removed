@@ -253,6 +253,10 @@ test_bug760076
 .
 xul
 \
+test_documentdomain
+.
+xul
+\
 (
 NULL
 )
