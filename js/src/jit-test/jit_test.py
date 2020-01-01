@@ -866,7 +866,13 @@ return
 JS
 ]
 +
+list
+(
+set
+(
 jitflags
+)
+)
 +
 [
 '
