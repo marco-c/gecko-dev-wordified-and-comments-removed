@@ -2602,6 +2602,17 @@ offset
 endOffset
 )
 {
+ErrorResult
+rv
+;
+Stop
+(
+0
+.
+0
+rv
+)
+;
 return
 ;
 }
