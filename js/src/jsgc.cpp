@@ -927,7 +927,7 @@ T
 ;
 newFreeSpanStart
 =
-NULL
+0
 ;
 }
 }
