@@ -357,6 +357,13 @@ lir
 mir
 def
 )
+&
+&
+add
+(
+new
+LNop
+)
 ;
 }
 template
@@ -921,6 +928,13 @@ return
 add
 (
 lir
+)
+&
+&
+add
+(
+new
+LNop
 )
 ;
 }

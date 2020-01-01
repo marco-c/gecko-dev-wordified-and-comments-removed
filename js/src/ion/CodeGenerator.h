@@ -125,6 +125,14 @@ lir
 )
 ;
 bool
+visitNop
+(
+LNop
+*
+lir
+)
+;
+bool
 visitCaptureAllocations
 (
 LCaptureAllocations
