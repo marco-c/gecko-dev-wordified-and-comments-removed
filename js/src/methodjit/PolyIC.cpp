@@ -6779,16 +6779,6 @@ getterOp
 (
 )
 ;
-if
-(
-cx
--
->
-typeInferenceEnabled
-(
-)
-)
-{
 masm
 .
 storePtr
@@ -6811,7 +6801,6 @@ stubRejoin
 )
 )
 ;
-}
 Registers
 tempRegs
 =
