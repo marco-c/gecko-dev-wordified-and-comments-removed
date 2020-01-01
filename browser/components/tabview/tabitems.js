@@ -4575,7 +4575,7 @@ tab
 .
 _tabViewTabItem
 ;
-UI
+FavIcons
 .
 getFavIconUrlForTab
 (
