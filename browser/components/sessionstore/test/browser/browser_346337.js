@@ -694,15 +694,11 @@ removeTab
 tab
 )
 ;
+tab
+=
 undoCloseTab
 (
 )
-;
-tab
-=
-tabbrowser
-.
-selectedTab
 ;
 tab
 .

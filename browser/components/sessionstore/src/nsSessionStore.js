@@ -3526,6 +3526,11 @@ aIndex
 )
 {
 var
+tab
+=
+null
+;
+var
 closedTabs
 =
 this
@@ -3584,6 +3589,8 @@ closedTab
 .
 state
 ;
+tab
+=
 closedTabState
 .
 _tab
@@ -3598,9 +3605,7 @@ browser
 .
 moveTabTo
 (
-closedTabState
-.
-_tab
+tab
 closedTab
 .
 pos
@@ -3626,9 +3631,7 @@ browser
 .
 getBrowserForTab
 (
-closedTabState
-.
-_tab
+tab
 )
 .
 contentWindow
@@ -3663,6 +3666,9 @@ Cr
 NS_ERROR_INVALID_ARG
 ;
 }
+return
+tab
+;
 }
 getWindowValue
 :

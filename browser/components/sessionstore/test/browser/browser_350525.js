@@ -479,8 +479,8 @@ incremented
 "
 )
 ;
-ok
-(
+tab
+=
 test
 (
 function
@@ -494,6 +494,10 @@ window
 0
 )
 )
+;
+ok
+(
+tab
 "
 undoCloseTab
 doesn
@@ -502,12 +506,6 @@ t
 throw
 "
 )
-tab
-=
-tabbrowser
-.
-selectedTab
-;
 tab
 .
 linkedBrowser
