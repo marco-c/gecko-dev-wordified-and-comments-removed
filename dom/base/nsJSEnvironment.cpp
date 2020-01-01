@@ -13935,9 +13935,8 @@ aRef
 {
 NS_PRECONDITION
 (
-JS_IsRunning
+GetExecutingScript
 (
-mContext
 )
 "
 should
