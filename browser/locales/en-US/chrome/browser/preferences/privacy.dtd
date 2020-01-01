@@ -951,7 +951,7 @@ days
 <
 !
 ENTITY
-rememberDownloads
+rememberDownload
 .
 label
 "
@@ -963,7 +963,7 @@ history
 <
 !
 ENTITY
-rememberDownloads
+rememberDownload
 .
 accesskey
 "
