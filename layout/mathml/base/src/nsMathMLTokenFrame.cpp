@@ -320,7 +320,6 @@ SetQuotes
 ;
 ProcessTextData
 (
-PR_FALSE
 )
 ;
 return
@@ -749,7 +748,6 @@ MarkIntrinsicWidthsDirty
 {
 ProcessTextData
 (
-PR_TRUE
 )
 ;
 nsMathMLContainerFrame
@@ -818,8 +816,6 @@ nsMathMLTokenFrame
 :
 ProcessTextData
 (
-PRBool
-aComputeStyleChange
 )
 {
 if
@@ -828,13 +824,6 @@ if
 SetTextStyle
 (
 )
-)
-return
-;
-if
-(
-!
-aComputeStyleChange
 )
 return
 ;

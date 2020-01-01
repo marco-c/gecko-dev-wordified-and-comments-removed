@@ -474,8 +474,6 @@ nsMathMLmoFrame
 :
 ProcessTextData
 (
-PRBool
-aComputeStyleChange
 )
 {
 mFlags
@@ -3927,7 +3925,6 @@ MarkIntrinsicWidthsDirty
 {
 ProcessTextData
 (
-PR_FALSE
 )
 ;
 nsIFrame

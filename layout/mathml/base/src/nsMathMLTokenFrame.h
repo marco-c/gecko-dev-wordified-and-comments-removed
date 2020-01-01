@@ -129,7 +129,6 @@ aModType
 {
 ProcessTextData
 (
-PR_TRUE
 )
 ;
 return
@@ -178,8 +177,6 @@ virtual
 void
 ProcessTextData
 (
-PRBool
-aComputeStyleChange
 )
 ;
 PRBool
