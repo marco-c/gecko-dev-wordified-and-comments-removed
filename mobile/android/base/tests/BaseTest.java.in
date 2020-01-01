@@ -449,6 +449,12 @@ blockForEvent
 )
 ;
 }
+geckoReadyExpector
+.
+unregisterListener
+(
+)
+;
 }
 catch
 (
@@ -1590,6 +1596,12 @@ load
 contentEventExpecter
 .
 blockForEvent
+(
+)
+;
+contentEventExpecter
+.
+unregisterListener
 (
 )
 ;

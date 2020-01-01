@@ -764,5 +764,11 @@ removePrefObserver
 )
 ;
 }
+mExpecter
+.
+unregisterListener
+(
+)
+;
 }
 }

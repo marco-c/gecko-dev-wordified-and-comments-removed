@@ -825,6 +825,12 @@ blockUntilClear
 PAINT_CLEAR_DELAY
 )
 ;
+paintExpecter
+.
+unregisterListener
+(
+)
+;
 /
 /
 Clean

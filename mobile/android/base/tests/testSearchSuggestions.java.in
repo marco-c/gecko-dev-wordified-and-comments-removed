@@ -303,6 +303,12 @@ blockForEvent
 (
 )
 ;
+enginesEventExpecter
+.
+unregisterListener
+(
+)
+;
 connectSuggestClient
 (
 awesomeBarActivity

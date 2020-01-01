@@ -404,6 +404,12 @@ waitForPaint
 paintExpecter
 )
 ;
+paintExpecter
+.
+unregisterListener
+(
+)
+;
 try
 {
 /
@@ -637,6 +643,12 @@ painted
 waitForPaint
 (
 paintExpecter
+)
+;
+paintExpecter
+.
+unregisterListener
+(
 )
 ;
 try

@@ -171,6 +171,12 @@ waitForPaint
 paintExpecter
 )
 ;
+paintExpecter
+.
+unregisterListener
+(
+)
+;
 mAsserter
 .
 ispixel
@@ -240,6 +246,12 @@ painted
 waitForPaint
 (
 paintExpecter
+)
+;
+paintExpecter
+.
+unregisterListener
+(
 )
 ;
 mAsserter

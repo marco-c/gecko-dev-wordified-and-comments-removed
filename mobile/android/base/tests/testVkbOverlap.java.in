@@ -333,6 +333,12 @@ waitForPaint
 paintExpecter
 )
 ;
+paintExpecter
+.
+unregisterListener
+(
+)
+;
 try
 {
 greenPixelCount
@@ -560,6 +566,12 @@ paintExpecter
 blockUntilClear
 (
 LESS_THAN_CURSOR_BLINK_PERIOD
+)
+;
+paintExpecter
+.
+unregisterListener
+(
 )
 ;
 painted

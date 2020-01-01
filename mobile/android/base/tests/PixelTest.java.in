@@ -60,6 +60,12 @@ blockUntilClear
 PAINT_CLEAR_DELAY
 )
 ;
+paintExpecter
+.
+unregisterListener
+(
+)
+;
 PaintedSurface
 p
 =
@@ -178,6 +184,12 @@ paintExpecter
 blockUntilClear
 (
 PAINT_CLEAR_DELAY
+)
+;
+paintExpecter
+.
+unregisterListener
+(
 )
 ;
 PaintedSurface

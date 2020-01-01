@@ -237,6 +237,12 @@ waitWithNoPaint
 paintExpecter
 )
 ;
+paintExpecter
+.
+unregisterListener
+(
+)
+;
 try
 {
 checkScrollWithBoxes
@@ -298,6 +304,12 @@ painted
 waitWithNoPaint
 (
 paintExpecter
+)
+;
+paintExpecter
+.
+unregisterListener
+(
 )
 ;
 try

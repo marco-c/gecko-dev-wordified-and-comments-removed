@@ -1193,6 +1193,12 @@ blockForEvent
 (
 )
 ;
+contentEventExpecter
+.
+unregisterListener
+(
+)
+;
 verifyUrl
 (
 url
