@@ -1149,6 +1149,7 @@ start
 (
 )
 ;
+yield
 list
 .
 add
@@ -1156,6 +1157,7 @@ add
 download1
 )
 ;
+yield
 list
 .
 add
@@ -1163,6 +1165,7 @@ add
 download2
 )
 ;
+yield
 list
 .
 add
@@ -1194,6 +1197,7 @@ promiseAttempt1
 yield
 promiseAttempt2
 ;
+yield
 list
 .
 remove
@@ -1201,6 +1205,7 @@ remove
 download1
 )
 ;
+yield
 list
 .
 remove
@@ -1208,6 +1213,7 @@ remove
 download2
 )
 ;
+yield
 list
 .
 remove
@@ -1294,6 +1300,7 @@ start
 (
 )
 ;
+yield
 list
 .
 add
@@ -1301,6 +1308,7 @@ add
 download1
 )
 ;
+yield
 list
 .
 add
@@ -1329,6 +1337,7 @@ isPrivate
 0
 )
 ;
+yield
 list
 .
 remove
@@ -1336,6 +1345,7 @@ remove
 download1
 )
 ;
+yield
 list
 .
 remove
@@ -1433,6 +1443,7 @@ start
 (
 )
 ;
+yield
 publicList
 .
 add
@@ -1440,6 +1451,7 @@ add
 download1
 )
 ;
+yield
 privateList
 .
 add
@@ -1464,6 +1476,7 @@ promiseAttempt1
 yield
 promiseAttempt2
 ;
+yield
 publicList
 .
 remove
@@ -1471,6 +1484,7 @@ remove
 download1
 )
 ;
+yield
 privateList
 .
 remove
@@ -1555,6 +1569,7 @@ start
 (
 )
 ;
+yield
 privateList
 .
 add
@@ -1562,6 +1577,7 @@ add
 download1
 )
 ;
+yield
 privateList
 .
 add

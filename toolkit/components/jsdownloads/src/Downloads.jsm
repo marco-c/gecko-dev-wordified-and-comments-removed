@@ -323,10 +323,9 @@ ex
 ;
 }
 }
-simpleDownload
+startDirect
 :
 function
-D_simpleDownload
 (
 aSource
 aTarget
@@ -526,6 +525,7 @@ Downloads
 ALL
 )
 ;
+yield
 publicSummary
 .
 bindToList
@@ -533,6 +533,7 @@ bindToList
 publicList
 )
 ;
+yield
 privateSummary
 .
 bindToList
@@ -540,6 +541,7 @@ bindToList
 privateList
 )
 ;
+yield
 combinedSummary
 .
 bindToList
