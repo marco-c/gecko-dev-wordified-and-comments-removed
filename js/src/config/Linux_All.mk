@@ -639,7 +639,6 @@ endif
 #
 !
 x86_64
-#
 ifeq
 (
 (
@@ -647,7 +646,6 @@ CPU_ARCH
 )
 x86_64
 )
-#
 OS_CFLAGS
 +
 =
@@ -657,11 +655,9 @@ DAVMPLUS_AMD64
 DAVMPLUS_64BIT
 -
 DAVMPLUS_LINUX
-#
 NANOJIT_ARCH
 =
 i386
-#
 endif
 ifeq
 (
