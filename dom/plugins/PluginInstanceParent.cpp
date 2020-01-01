@@ -1816,7 +1816,7 @@ if
 CallPBrowserStreamConstructor
 (
 bs
-nsCString
+NullableString
 (
 stream
 -
@@ -1842,14 +1842,14 @@ stream
 >
 notifyData
 )
-nsCString
+NullableString
 (
 stream
 -
 >
 headers
 )
-nsCString
+NullableString
 (
 type
 )
