@@ -516,6 +516,10 @@ Types
 .
 h
 \
+SmsMessage
+.
+h
+\
 (
 NULL
 )
