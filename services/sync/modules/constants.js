@@ -510,6 +510,17 @@ sync
 .
 prolonged_failure
 "
+SERVER_MAINTENANCE
+:
+"
+error
+.
+sync
+.
+reason
+.
+server_maintenance
+"
 RESPONSE_OVER_QUOTA
 :
 "
