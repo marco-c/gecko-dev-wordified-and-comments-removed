@@ -350,17 +350,6 @@ aSID
 ;
 NS_HIDDEN_
 (
-void
-)
-ClearStyleData
-(
-nsPresContext
-*
-aPresContext
-)
-;
-NS_HIDDEN_
-(
 nsChangeHint
 )
 CalcStyleDifference
