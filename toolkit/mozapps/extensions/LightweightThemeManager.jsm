@@ -2499,15 +2499,6 @@ AddonManager
 SCOPE_PROFILE
 ;
 }
-get
-foreignInstall
-(
-)
-{
-return
-false
-;
-}
 isCompatibleWith
 :
 function
