@@ -1691,8 +1691,7 @@ HandleObject
 obj
 HandleId
 id
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -1719,6 +1718,10 @@ cx
 &
 desc
 vp
+.
+address
+(
+)
 )
 ;
 }
