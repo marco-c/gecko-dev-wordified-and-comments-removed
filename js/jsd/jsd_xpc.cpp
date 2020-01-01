@@ -10547,6 +10547,13 @@ cx
 glob
 )
 ;
+JSD_SetScriptHook
+(
+mCx
+jsds_ScriptHookProc
+NULL
+)
+;
 if
 (
 mErrorHook
