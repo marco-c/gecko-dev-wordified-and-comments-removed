@@ -289,7 +289,7 @@ GetRotate
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsIFrame
@@ -375,7 +375,7 @@ IsEmpty
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsCOMPtr
@@ -439,7 +439,7 @@ if
 property
 )
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -452,7 +452,7 @@ nsGkAtoms
 :
 :
 svgPathGeometryFrame
-nullptr
+nsnull
 )
 ;
 }
@@ -517,7 +517,7 @@ gfxMatrix
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 gfxFloat
@@ -676,12 +676,12 @@ nsSVGTextPathFrame
 :
 AttributeChanged
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 {
@@ -705,7 +705,7 @@ startOffset
 nsSVGUtils
 :
 :
-InvalidateAndScheduleReflowSVG
+InvalidateAndScheduleBoundsUpdate
 (
 this
 )
@@ -736,7 +736,7 @@ href
 nsSVGUtils
 :
 :
-InvalidateAndScheduleReflowSVG
+InvalidateAndScheduleBoundsUpdate
 (
 this
 )
