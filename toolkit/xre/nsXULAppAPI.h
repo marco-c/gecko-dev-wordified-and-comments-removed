@@ -96,6 +96,11 @@ char
 *
 maxVersion
 ;
+const
+char
+*
+crashReporterURL
+;
 }
 ;
 #
@@ -115,6 +120,15 @@ NS_XRE_ENABLE_EXTENSION_MANAGER
 <
 <
 2
+)
+#
+define
+NS_XRE_ENABLE_CRASH_REPORTER
+(
+1
+<
+<
+3
 )
 #
 define
