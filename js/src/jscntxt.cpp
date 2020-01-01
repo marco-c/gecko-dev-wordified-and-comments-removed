@@ -4728,6 +4728,9 @@ rt
 gcTriggerReason
 )
 ;
+#
+ifdef
+JS_ION
 ion
 :
 :
@@ -4736,6 +4739,8 @@ AttachFinishedCompilations
 cx
 )
 ;
+#
+endif
 JSOperationCallback
 cb
 =
