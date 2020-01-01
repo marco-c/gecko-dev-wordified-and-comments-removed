@@ -620,6 +620,9 @@ OnIMEStartComposition
 nsWindow
 *
 aWindow
+MSGResult
+&
+aResult
 )
 ;
 bool
@@ -632,6 +635,9 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
 bool
@@ -644,6 +650,9 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
 bool
@@ -656,6 +665,9 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
 bool
@@ -664,6 +676,9 @@ OnIMEEndComposition
 nsWindow
 *
 aWindow
+MSGResult
+&
+aResult
 )
 ;
 bool
@@ -676,6 +691,9 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
 bool
@@ -688,8 +706,8 @@ WPARAM
 wParam
 LPARAM
 lParam
-LRESULT
-*
+MSGResult
+&
 aResult
 )
 ;
@@ -703,6 +721,9 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
 bool
@@ -752,6 +773,9 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
 static
@@ -765,8 +789,8 @@ WPARAM
 wParam
 LPARAM
 lParam
-LRESULT
-*
+MSGResult
+&
 aResult
 )
 ;
@@ -781,8 +805,8 @@ WPARAM
 wParam
 LPARAM
 lParam
-LRESULT
-*
+MSGResult
+&
 aResult
 )
 ;
@@ -793,6 +817,9 @@ OnIMECompositionFull
 nsWindow
 *
 aWindow
+MSGResult
+&
+aResult
 )
 ;
 static
@@ -806,6 +833,9 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
 static
@@ -819,6 +849,9 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
 void
