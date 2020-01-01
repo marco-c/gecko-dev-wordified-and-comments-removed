@@ -509,7 +509,7 @@ Components
 .
 interfaces
 .
-nsIProcess2
+nsIProcess
 )
 ;
 process
@@ -617,7 +617,7 @@ Components
 .
 interfaces
 .
-nsIProcess2
+nsIProcess
 )
 ;
 process
@@ -728,7 +728,7 @@ Components
 .
 interfaces
 .
-nsIProcess2
+nsIProcess
 )
 ;
 process

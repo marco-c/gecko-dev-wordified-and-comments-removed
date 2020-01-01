@@ -131,7 +131,7 @@ class
 nsProcess
 :
 public
-nsIProcess2
+nsIProcess
 public
 nsIObserver
 {
@@ -139,7 +139,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPROCESS
-NS_DECL_NSIPROCESS2
 NS_DECL_NSIOBSERVER
 nsProcess
 (
