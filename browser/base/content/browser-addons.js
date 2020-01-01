@@ -625,6 +625,9 @@ install
 started
 "
 :
+var
+needsDownload
+=
 function
 needsDownload
 (

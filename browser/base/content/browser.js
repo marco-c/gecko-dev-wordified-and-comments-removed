@@ -728,6 +728,9 @@ reportError
 ex
 )
 ;
+return
+null
+;
 }
 }
 )
@@ -17079,6 +17082,9 @@ webSearch
 }
 else
 {
+var
+observer
+=
 function
 observer
 (
@@ -21411,6 +21417,9 @@ disablechrome
 )
 ;
 }
+var
+shouldDisableFind
+=
 function
 shouldDisableFind
 (
@@ -21443,6 +21452,9 @@ true
 "
 ;
 }
+var
+disableFindCommands
+=
 function
 disableFindCommands
 (
@@ -21515,6 +21527,9 @@ disabled
 ;
 }
 }
+var
+onContentRSChange
+=
 function
 onContentRSChange
 (
@@ -26787,6 +26802,9 @@ commandDispatcher
 .
 focusedElement
 ;
+var
+isOnTextInput
+=
 function
 isOnTextInput
 (
@@ -32272,6 +32290,9 @@ emWindow
 let
 browserWindow
 ;
+var
+receivePong
+=
 function
 receivePong
 (
@@ -38482,6 +38503,9 @@ reportError
 (
 ex
 )
+;
+return
+null
 ;
 }
 }

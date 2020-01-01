@@ -670,6 +670,7 @@ nsIObjectLoadingContent
 )
 )
 return
+null
 ;
 switch
 (
@@ -777,6 +778,7 @@ PluginPlayPreview
 default
 :
 return
+null
 ;
 }
 }
