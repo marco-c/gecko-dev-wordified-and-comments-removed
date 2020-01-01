@@ -2908,7 +2908,7 @@ NULL
 #
 ifdef
 JS_C_STRINGS_ARE_UTF8
-char
+uint8
 utf8buf
 [
 6
@@ -4194,6 +4194,10 @@ stuff
 )
 (
 ss
+(
+char
+*
+)
 utf8buf
 utf8len
 )
