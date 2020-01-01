@@ -8326,11 +8326,9 @@ if
 target
 &
 &
-isS8
+isTargetWithinS8
 (
 target
--
-_nIns
 )
 )
 {
@@ -11262,11 +11260,6 @@ LIR64
 LIR_uge
 )
 ;
-underrunProtect
-(
-8
-)
-;
 if
 (
 target
@@ -12151,6 +12144,11 @@ _nIns
 }
 else
 {
+underrunProtect
+(
+16
+)
+;
 NIns
 *
 skip
@@ -12159,7 +12157,7 @@ _nIns
 ;
 JE
 (
-16
+0
 target
 )
 ;
