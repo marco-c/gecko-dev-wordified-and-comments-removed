@@ -111,7 +111,7 @@ aKeyInt
 bool
 aAutoIncrement
 bool
-aNoOverwrite
+aOverwrite
 )
 :
 AsyncConnectionHelper
@@ -135,9 +135,9 @@ mAutoIncrement
 (
 aAutoIncrement
 )
-mNoOverwrite
+mOverwrite
 (
-aNoOverwrite
+aOverwrite
 )
 {
 if
@@ -209,7 +209,7 @@ mAutoIncrement
 ;
 const
 bool
-mNoOverwrite
+mOverwrite
 ;
 }
 ;
@@ -1053,9 +1053,7 @@ nsIVariant
 *
 aKey
 PRBool
-aNoOverwrite
-PRUint8
-aOptionalArgCount
+aOverwrite
 nsIIDBRequest
 *
 *
@@ -1074,18 +1072,6 @@ thread
 "
 )
 ;
-if
-(
-aOptionalArgCount
-<
-2
-)
-{
-aNoOverwrite
-=
-PR_TRUE
-;
-}
 nsString
 keyString
 ;
@@ -1364,7 +1350,7 @@ keyInt
 mAutoIncrement
 !
 !
-aNoOverwrite
+aOverwrite
 )
 ;
 rv
@@ -1729,7 +1715,7 @@ mDatabase
 PutStatement
 (
 !
-mNoOverwrite
+mOverwrite
 mAutoIncrement
 )
 ;
@@ -1751,8 +1737,7 @@ mAutoIncrement
 mAutoIncrement
 &
 &
-!
-mNoOverwrite
+mOverwrite
 )
 {
 NS_NAMED_LITERAL_CSTRING
