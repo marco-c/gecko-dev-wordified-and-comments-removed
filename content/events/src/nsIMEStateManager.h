@@ -313,16 +313,6 @@ aContent
 )
 ;
 static
-nsIWidget
-*
-GetWidget
-(
-nsPresContext
-*
-aPresContext
-)
-;
-static
 void
 EnsureTextCompositionArray
 (
