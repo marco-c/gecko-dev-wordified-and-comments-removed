@@ -700,6 +700,14 @@ out
 .
 html
 \
+test_2d
+.
+drawImage
+.
+zerocanvas
+.
+html
+\
 test_toDataURL_lowercase_ascii
 .
 html
