@@ -308,6 +308,13 @@ h
 #
 include
 "
+nsRect
+.
+h
+"
+#
+include
+"
 mozFlushType
 .
 h
@@ -1976,6 +1983,11 @@ PRInt32
 aLengthCSSPixels
 PRBool
 aIsWidth
+)
+;
+nsRect
+GetInnerScreenRect
+(
 )
 ;
 PRBool
