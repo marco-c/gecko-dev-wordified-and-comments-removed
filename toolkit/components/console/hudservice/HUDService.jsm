@@ -6175,6 +6175,14 @@ displayRegistry
 id
 ]
 ;
+delete
+this
+.
+uriRegistry
+[
+uri
+]
+;
 }
 shutdown
 :
