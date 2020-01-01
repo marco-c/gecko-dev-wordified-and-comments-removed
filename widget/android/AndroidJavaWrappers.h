@@ -1509,15 +1509,6 @@ return
 mZ
 ;
 }
-double
-Distance
-(
-)
-{
-return
-mDistance
-;
-}
 const
 nsIntRect
 &
@@ -1760,9 +1751,6 @@ mX
 mY
 mZ
 ;
-double
-mDistance
-;
 int
 mPointerIndex
 ;
@@ -1928,10 +1916,6 @@ jZField
 ;
 static
 jfieldID
-jDistanceField
-;
-static
-jfieldID
 jRectField
 ;
 static
@@ -2076,9 +2060,6 @@ VISITED
 NETWORK_CHANGED
 =
 22
-PROXIMITY_EVENT
-=
-23
 dummy_java_enum_list_end
 }
 ;
