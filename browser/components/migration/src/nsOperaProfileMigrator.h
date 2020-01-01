@@ -60,6 +60,13 @@ nsINavHistoryService
 .
 h
 "
+#
+include
+"
+nsIStringBundle
+.
+h
+"
 class
 nsICookieManager2
 ;
