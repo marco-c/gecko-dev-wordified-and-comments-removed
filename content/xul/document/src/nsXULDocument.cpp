@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIScrollableView
-.
-h
-"
-#
-include
-"
 nsIView
 .
 h

@@ -230,13 +230,6 @@ h
 #
 include
 "
-nsIScrollableView
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
