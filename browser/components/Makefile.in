@@ -450,6 +450,11 @@ js
 (
 NULL
 )
+EXTRA_JS_MODULES
+=
+distribution
+.
+js
 DIRS
 =
 \
