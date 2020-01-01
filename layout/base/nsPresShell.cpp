@@ -18738,6 +18738,13 @@ FlushPendingMediaFeatureValuesChanged
 (
 )
 ;
+mPresContext
+-
+>
+FlushUserFontSet
+(
+)
+;
 mFrameConstructor
 -
 >
@@ -18791,13 +18798,6 @@ Flush_Layout
 mIsDestroying
 )
 {
-mPresContext
--
->
-FlushUserFontSet
-(
-)
-;
 mFrameConstructor
 -
 >

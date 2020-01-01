@@ -2467,6 +2467,11 @@ RebuildUserFontSet
 )
 ;
 void
+UserFontSetUpdated
+(
+)
+;
+void
 NotifyInvalidation
 (
 const
