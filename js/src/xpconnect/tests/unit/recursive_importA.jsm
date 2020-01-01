@@ -1,3 +1,4 @@
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -8,6 +9,7 @@ foo
 bar
 "
 ]
+;
 function
 foo
 (
