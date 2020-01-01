@@ -4246,6 +4246,12 @@ aNode
 }
 if
 (
+!
+aChildrenOnly
+&
+&
+(
+(
 aProperty
 =
 =
@@ -4253,6 +4259,7 @@ nsEditProperty
 :
 :
 font
+)
 &
 &
 (
@@ -4275,6 +4282,7 @@ aNode
 )
 &
 &
+(
 aAttribute
 &
 &
@@ -4286,6 +4294,8 @@ LowerCaseEqualsLiteral
 "
 size
 "
+)
+)
 )
 )
 {
