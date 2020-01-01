@@ -190,9 +190,6 @@ nsAppShell
 (
 )
 ;
-int
-mNumDraws
-;
 PRLock
 *
 mQueueLock
@@ -204,6 +201,9 @@ mCondLock
 PRCondVar
 *
 mQueueCond
+;
+int
+mNumDraws
 ;
 nsTArray
 <
