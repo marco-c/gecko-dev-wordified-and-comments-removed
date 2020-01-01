@@ -5422,6 +5422,13 @@ mEventDepth
 -
 -
 ;
+mRuntime
+-
+>
+OnAfterProcessNextEvent
+(
+)
+;
 MOZ_ASSERT
 (
 NS_IsMainThread

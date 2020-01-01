@@ -257,6 +257,14 @@ JSObject
 obj
 )
 ;
+bool
+OperationCallback
+(
+JSContext
+*
+cx
+)
+;
 }
 #
 define
