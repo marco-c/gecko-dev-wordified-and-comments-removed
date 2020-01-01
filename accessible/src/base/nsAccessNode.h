@@ -247,7 +247,12 @@ PRBool
 IsDefunct
 (
 )
+{
+return
+!
+mContent
 ;
+}
 virtual
 PRBool
 Init
