@@ -1451,7 +1451,9 @@ D
 (
 DESTDIR
 )
+(
 mozappdir
+)
 /
 searchplugins
 for
@@ -1491,7 +1493,9 @@ SEARCH_PLUGIN
 (
 DESTDIR
 )
+(
 mozappdir
+)
 /
 searchplugins
 /
