@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsHtml5Macros
+.
+h
+"
+#
+include
+"
 nsHtml5Tokenizer
 .
 h

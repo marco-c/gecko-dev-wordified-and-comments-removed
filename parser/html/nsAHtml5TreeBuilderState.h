@@ -96,8 +96,8 @@ isFramesetOk
 0
 ;
 virtual
-PRInt32
-getForeignFlag
+PRBool
+isInForeign
 (
 )
 =

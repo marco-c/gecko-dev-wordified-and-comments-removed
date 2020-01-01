@@ -4117,7 +4117,7 @@ IsEmpty
 )
 )
 {
-NS_WARNING
+NS_NOTREACHED
 (
 "
 ContinueAfterScripts
