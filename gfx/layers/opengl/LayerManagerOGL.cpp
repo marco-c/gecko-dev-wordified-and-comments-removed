@@ -1899,7 +1899,7 @@ rect
 mWidget
 -
 >
-GetBounds
+GetClientBounds
 (
 rect
 )
