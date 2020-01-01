@@ -580,6 +580,10 @@ TiledThebesLayerOGL
 .
 cpp
 \
+ReusableTileStoreOGL
+.
+cpp
+\
 LayerSorter
 .
 cpp
