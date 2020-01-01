@@ -2216,17 +2216,6 @@ buildDownloadList
 (
 )
 ;
-gDownloadsView
-.
-addEventListener
-(
-"
-dblclick
-"
-onDownloadDblClick
-false
-)
-;
 gDownloadListener
 =
 new
