@@ -5007,6 +5007,12 @@ allowZoom
 )
 return
 ;
+AnimatedZoom
+.
+start
+(
+)
+;
 this
 .
 _pinchZoom
