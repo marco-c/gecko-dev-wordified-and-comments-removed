@@ -15005,6 +15005,8 @@ char
 filename
 PRInt32
 lineNo
+JSVersion
+jsVersion
 PRBool
 returnStringOnly
 jsval
