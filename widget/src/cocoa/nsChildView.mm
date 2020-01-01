@@ -18844,7 +18844,7 @@ mGeckoChild
 ;
 [
 self
-convertGenericCocoaEvent
+convertCocoaMouseEvent
 :
 anEvent
 toGeckoEvent
@@ -19108,7 +19108,7 @@ deltaZ
 ;
 [
 self
-convertGenericCocoaEvent
+convertCocoaMouseEvent
 :
 anEvent
 toGeckoEvent
@@ -19255,7 +19255,7 @@ mGeckoChild
 ;
 [
 self
-convertGenericCocoaEvent
+convertCocoaMouseEvent
 :
 anEvent
 toGeckoEvent
@@ -19432,7 +19432,7 @@ mCumulativeMagnification
 ;
 [
 self
-convertGenericCocoaEvent
+convertCocoaMouseEvent
 :
 anEvent
 toGeckoEvent
@@ -19485,7 +19485,7 @@ mGeckoChild
 ;
 [
 self
-convertGenericCocoaEvent
+convertCocoaMouseEvent
 :
 anEvent
 toGeckoEvent

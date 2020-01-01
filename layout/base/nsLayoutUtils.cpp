@@ -2835,6 +2835,15 @@ eventStructType
 !
 =
 NS_DRAG_EVENT
+&
+&
+aEvent
+-
+>
+eventStructType
+!
+=
+NS_SIMPLE_GESTURE_EVENT
 )
 )
 return
