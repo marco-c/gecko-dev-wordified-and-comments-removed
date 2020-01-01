@@ -1643,6 +1643,16 @@ aImage
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+RemoveImageFromVisibleList
+(
+nsIImageLoadingContent
+*
+aImage
+)
+MOZ_OVERRIDE
+;
 protected
 :
 virtual
