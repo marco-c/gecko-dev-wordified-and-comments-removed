@@ -571,8 +571,13 @@ patch
 -
 p3
 <
-.
-/
 bug776661
+.
+patch
+patch
+-
+p1
+<
+padding
 .
 patch
