@@ -2659,10 +2659,17 @@ str
 ;
 '
 )
+{
 +
 +
 str
 ;
+}
+else
+{
+break
+;
+}
 while
 (
 nsCRT
