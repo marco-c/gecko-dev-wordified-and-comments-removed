@@ -21414,7 +21414,7 @@ egrep
 (
 hidden
 |
-extern_private
+private_extern
 )
 .
 *
@@ -21439,7 +21439,7 @@ egrep
 (
 hidden
 |
-extern_private
+private_extern
 )
 .
 *
@@ -21611,12 +21611,16 @@ yes
 else
 if
 test
-grep
+egrep
 -
 c
-"
+'
 PLT
-"
+|
+\
+\
+stub
+'
 conftest
 .
 S
