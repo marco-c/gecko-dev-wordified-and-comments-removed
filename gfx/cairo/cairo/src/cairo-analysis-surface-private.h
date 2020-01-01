@@ -26,7 +26,7 @@ height
 )
 ;
 cairo_private
-cairo_region_t
+pixman_region16_t
 *
 _cairo_analysis_surface_get_supported
 (
@@ -36,7 +36,7 @@ surface
 )
 ;
 cairo_private
-cairo_region_t
+pixman_region16_t
 *
 _cairo_analysis_surface_get_unsupported
 (

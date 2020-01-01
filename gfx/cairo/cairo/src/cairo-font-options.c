@@ -8,7 +8,7 @@ h
 static
 const
 cairo_font_options_t
-_cairo_font_options_nil
+cairo_font_options_nil
 =
 {
 CAIRO_ANTIALIAS_DEFAULT
@@ -35,7 +35,7 @@ cairo_font_options_t
 *
 )
 &
-_cairo_font_options_nil
+cairo_font_options_nil
 )
 return
 ;
@@ -151,7 +151,7 @@ cairo_font_options_t
 *
 )
 &
-_cairo_font_options_nil
+cairo_font_options_nil
 ;
 _cairo_font_options_init_default
 (
@@ -180,24 +180,6 @@ original
 cairo_font_options_t
 *
 options
-;
-if
-(
-original
-=
-=
-&
-_cairo_font_options_nil
-)
-return
-(
-cairo_font_options_t
-*
-)
-&
-_cairo_font_options_nil
-;
-options
 =
 malloc
 (
@@ -218,7 +200,7 @@ cairo_font_options_t
 *
 )
 &
-_cairo_font_options_nil
+cairo_font_options_nil
 ;
 _cairo_font_options_init_copy
 (
@@ -248,7 +230,7 @@ cairo_font_options_t
 *
 )
 &
-_cairo_font_options_nil
+cairo_font_options_nil
 )
 return
 ;
@@ -281,7 +263,7 @@ cairo_font_options_t
 *
 )
 &
-_cairo_font_options_nil
+cairo_font_options_nil
 )
 return
 CAIRO_STATUS_NO_MEMORY
@@ -291,11 +273,6 @@ return
 CAIRO_STATUS_SUCCESS
 ;
 }
-slim_hidden_def
-(
-cairo_font_options_status
-)
-;
 void
 cairo_font_options_merge
 (
@@ -318,7 +295,7 @@ cairo_font_options_t
 *
 )
 &
-_cairo_font_options_nil
+cairo_font_options_nil
 )
 return
 ;
@@ -553,7 +530,7 @@ cairo_font_options_t
 *
 )
 &
-_cairo_font_options_nil
+cairo_font_options_nil
 )
 return
 ;
@@ -606,7 +583,7 @@ cairo_font_options_t
 *
 )
 &
-_cairo_font_options_nil
+cairo_font_options_nil
 )
 return
 ;
@@ -659,7 +636,7 @@ cairo_font_options_t
 *
 )
 &
-_cairo_font_options_nil
+cairo_font_options_nil
 )
 return
 ;
@@ -712,7 +689,7 @@ cairo_font_options_t
 *
 )
 &
-_cairo_font_options_nil
+cairo_font_options_nil
 )
 return
 ;

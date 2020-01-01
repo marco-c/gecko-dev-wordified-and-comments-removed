@@ -153,9 +153,10 @@ tmp
 ;
 hull
 =
-_cairo_malloc_ab
+malloc
 (
 num_vertices
+*
 sizeof
 (
 cairo_hull_t

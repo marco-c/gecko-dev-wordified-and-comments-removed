@@ -152,12 +152,13 @@ style
 >
 dash
 =
-_cairo_malloc_ab
+malloc
 (
 style
 -
 >
 num_dashes
+*
 sizeof
 (
 double
