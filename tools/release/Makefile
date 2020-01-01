@@ -683,6 +683,8 @@ d
 builds
 /
 cvsmirror
+.
+clean
 /
 mofo
 import
@@ -720,6 +722,8 @@ d
 builds
 /
 cvsmirror
+.
+clean
 /
 mofo
 import
