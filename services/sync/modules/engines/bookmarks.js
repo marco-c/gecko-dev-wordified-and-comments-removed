@@ -7840,7 +7840,6 @@ parentGuid
 onItemRemoved
 :
 function
-BMT_onItemRemoved
 (
 itemId
 parentId
@@ -7862,8 +7861,10 @@ parentId
 guid
 )
 )
+{
 return
 ;
+}
 this
 .
 _log
@@ -7871,7 +7872,7 @@ _log
 trace
 (
 "
-onBeforeItemRemoved
+onItemRemoved
 :
 "
 +
@@ -8388,6 +8389,13 @@ function
 )
 {
 }
+onItemVisited
+:
+function
+(
+)
+{
+}
 onBeforeItemRemoved
 :
 function
@@ -8395,7 +8403,7 @@ function
 )
 {
 }
-onItemVisited
+batching
 :
 function
 (
