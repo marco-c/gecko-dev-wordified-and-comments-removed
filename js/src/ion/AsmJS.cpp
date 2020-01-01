@@ -22558,7 +22558,7 @@ type
 Type
 :
 :
-Signed
+Intish
 ;
 return
 true
