@@ -333,6 +333,14 @@ resourcePath
 ;
 GeckoAppShell
 .
+loadNSSLibs
+(
+app
+resourcePath
+)
+;
+GeckoAppShell
+.
 loadGeckoLibs
 (
 resourcePath
