@@ -7028,13 +7028,6 @@ aRect
 nullptr
 )
 ;
-mInstanceOwner
--
->
-GetImageContainer
-(
-)
-;
 }
 #
 endif
