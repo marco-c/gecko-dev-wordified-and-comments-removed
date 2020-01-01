@@ -936,10 +936,7 @@ ZW_WriteData
 (
 aStream
 mExtraField
-sizeof
-(
-mExtraField
-)
+mFieldLength
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1125,8 +1122,7 @@ buf
 pos
 )
 ;
-PRUint16
-fieldlength
+mFieldLength
 =
 READ16
 (
@@ -1246,7 +1242,7 @@ NS_LITERAL_CSTRING
 ;
 if
 (
-fieldlength
+mFieldLength
 >
 0
 )
@@ -1256,7 +1252,7 @@ mExtraField
 new
 char
 [
-fieldlength
+mFieldLength
 ]
 ;
 NS_ENSURE_TRUE
@@ -1275,7 +1271,7 @@ mExtraField
 get
 (
 )
-fieldlength
+mFieldLength
 )
 ;
 NS_ENSURE_SUCCESS
