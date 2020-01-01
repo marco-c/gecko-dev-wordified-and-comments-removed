@@ -490,6 +490,10 @@ browser_viewport
 .
 js
 \
+browser_navigation
+.
+js
+\
 browser_blank_01
 .
 html
