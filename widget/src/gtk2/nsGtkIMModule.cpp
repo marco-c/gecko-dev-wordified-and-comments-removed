@@ -1916,6 +1916,16 @@ return
 NS_OK
 ;
 }
+if
+(
+!
+mIsComposing
+)
+{
+return
+NS_OK
+;
+}
 GtkIMContext
 *
 im
