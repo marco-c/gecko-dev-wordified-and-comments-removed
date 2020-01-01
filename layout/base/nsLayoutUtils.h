@@ -336,6 +336,17 @@ aPrimaryFrame
 )
 ;
 static
+nsIFrame
+*
+GetStyleFrame
+(
+const
+nsIContent
+*
+aContent
+)
+;
+static
 bool
 IsGeneratedContentFor
 (
