@@ -911,6 +911,12 @@ nsIView
 aView
 )
 ;
+nsIDOMNode
+*
+GetAtomicRegion
+(
+)
+;
 nsresult
 GetAttrValue
 (
