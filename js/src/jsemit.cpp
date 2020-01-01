@@ -7090,7 +7090,7 @@ jsint
 *
 slotp
 uintN
-decltype
+declType
 )
 {
 JSStmtInfo
@@ -7144,7 +7144,7 @@ STMT_WITH
 {
 if
 (
-decltype
+declType
 =
 =
 LET_DECL
@@ -8207,7 +8207,7 @@ JSParseNode
 *
 pn
 uintN
-decltype
+declType
 )
 {
 JSTreeContext
@@ -8308,7 +8308,7 @@ pn_atom
 ;
 if
 (
-decltype
+declType
 !
 =
 VAR_DECL
@@ -8323,7 +8323,7 @@ tc
 atom
 &
 slot
-decltype
+declType
 )
 )
 )
@@ -14683,7 +14683,7 @@ pn
 )
 {
 JSOp
-decltype
+declType
 ;
 JS_ASSERT
 (
@@ -14696,7 +14696,7 @@ pn_type
 TOK_NAME
 )
 ;
-decltype
+declType
 =
 (
 JSOp
@@ -14722,7 +14722,7 @@ BindNameToSlot
 cx
 cg
 pn
-decltype
+declType
 )
 )
 return
