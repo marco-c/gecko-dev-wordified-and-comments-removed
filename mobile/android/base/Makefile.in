@@ -1039,12 +1039,6 @@ java
 \
 gfx
 /
-LayerClient
-.
-java
-\
-gfx
-/
 LayerController
 .
 java
