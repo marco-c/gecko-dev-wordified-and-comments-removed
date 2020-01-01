@@ -1328,7 +1328,6 @@ filter
 out
 cocoa
 android
-windows
 (
 MOZ_WIDGET_TOOLKIT
 )

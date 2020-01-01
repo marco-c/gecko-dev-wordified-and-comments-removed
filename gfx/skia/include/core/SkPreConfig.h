@@ -238,9 +238,6 @@ sk_stdint
 h
 "
 #
-define
-SK_IGNORE_STDINT_DOT_H
-#
 endif
 #
 if
