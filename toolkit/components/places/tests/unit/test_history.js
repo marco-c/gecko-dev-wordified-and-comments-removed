@@ -231,6 +231,16 @@ run_test
 (
 )
 {
+do_check_eq
+(
+histsvc
+.
+databaseStatus
+histsvc
+.
+DATABASE_STATUS_CREATE
+)
+;
 var
 testURI
 =
