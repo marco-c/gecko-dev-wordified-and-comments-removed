@@ -198,6 +198,18 @@ False
         
 self
 .
+test_script
+=
+None
+        
+self
+.
+test_script_args
+=
+None
+        
+self
+.
 _product
 =
 "
@@ -1469,13 +1481,9 @@ testURL
 )
         
 elif
-hasattr
-(
 self
-'
-testScript
-'
-)
+.
+test_script
 :
             
 if
@@ -1487,7 +1495,7 @@ isfile
 (
 self
 .
-testScript
+test_script
 )
 :
                 
@@ -1497,7 +1505,7 @@ open
 (
 self
 .
-testScript
+test_script
 '
 r
 '
@@ -1514,6 +1522,11 @@ script
 read
 (
 )
+script_args
+=
+self
+.
+test_script_args
 )
                 
 script
@@ -1533,7 +1546,12 @@ execute_script
 (
 self
 .
-testScript
+test_script
+script_args
+=
+self
+.
+test_script_args
 )
         
 else

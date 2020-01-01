@@ -3702,7 +3702,7 @@ b2g
     
 auto
 .
-testScript
+test_script
 =
 os
 .
@@ -3717,6 +3717,19 @@ b2g_start_script
 js
 '
 )
+    
+auto
+.
+test_script_args
+=
+[
+options
+.
+remoteWebServer
+options
+.
+httpPort
+]
     
 auto
 .
