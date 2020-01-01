@@ -514,6 +514,11 @@ StringLength
 \
 _
 (
+ArgumentsLength
+)
+\
+_
+(
 Floor
 )
 \

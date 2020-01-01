@@ -1015,6 +1015,14 @@ ins
 )
 ;
 bool
+visitArgumentsLength
+(
+MArgumentsLength
+*
+ins
+)
+;
+bool
 visitThrow
 (
 MThrow

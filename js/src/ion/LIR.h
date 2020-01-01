@@ -2348,6 +2348,15 @@ LDefinition
 :
 GENERAL
 ;
+case
+MIRType_ArgObj
+:
+return
+LDefinition
+:
+:
+GENERAL
+;
 default
 :
 JS_NOT_REACHED

@@ -1492,10 +1492,6 @@ value_
 (
 vp
 )
-constantPoolIndex_
-(
-0
-)
 {
 setResultType
 (
@@ -1776,13 +1772,14 @@ toString
 break
 ;
 case
-MIRType_Magic
+MIRType_ArgObj
 :
 fprintf
 (
 fp
 "
-magic
+lazy
+arguments
 "
 )
 ;
