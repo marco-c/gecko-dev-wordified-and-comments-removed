@@ -260,9 +260,12 @@ nsnull
 private
 :
 void
-AddCrashReportAnnotations
+AddOpenGLCrashReportAnnotations
 (
 )
+;
+bool
+mSetCrashReportAnnotations
 ;
 nsString
 mRendererIDsString
