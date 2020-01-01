@@ -291,7 +291,7 @@ Theme
 ENTITY
 cmd
 .
-installUpdatesAll
+installUpdatesAll2
 .
 label
 "
@@ -304,7 +304,7 @@ Updates
 ENTITY
 cmd
 .
-installUpdatesAll
+installUpdatesAll2
 .
 accesskey
 "
@@ -316,11 +316,11 @@ I
 ENTITY
 cmd
 .
-installUpdatesAll
+installUpdatesAll2
 .
 tooltip
 "
-Installs
+Install
 the
 selected
 updates

@@ -3524,7 +3524,7 @@ label
 &
 cmd
 .
-installUpdatesAll
+installUpdatesAll2
 .
 label
 ;
@@ -3535,7 +3535,7 @@ accesskey
 &
 cmd
 .
-installUpdatesAll
+installUpdatesAll2
 .
 accesskey
 ;
@@ -3546,7 +3546,7 @@ tooltiptext
 &
 cmd
 .
-installUpdatesAll
+installUpdatesAll2
 .
 tooltip
 ;
@@ -3692,7 +3692,7 @@ label
 &
 cmd
 .
-installUpdatesAll
+installUpdatesAll2
 .
 label
 ;
@@ -3703,7 +3703,7 @@ accesskey
 &
 cmd
 .
-installUpdatesAll
+installUpdatesAll2
 .
 accesskey
 ;
@@ -3714,7 +3714,7 @@ tooltiptext
 &
 cmd
 .
-installUpdatesAll
+installUpdatesAll2
 .
 tooltip
 ;
