@@ -4183,8 +4183,10 @@ mPusher
 State
 mState
 ;
+nsRefPtr
+<
 nsXPConnect
-*
+>
 mXPC
 ;
 XPCContext
