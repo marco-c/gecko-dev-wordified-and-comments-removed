@@ -307,7 +307,7 @@ yield
 if
 (
 !
-record
+rec
 .
 cleartext
 )
@@ -315,7 +315,7 @@ this
 .
 remove
 (
-record
+rec
 )
 ;
 else
@@ -326,7 +326,7 @@ this
 .
 itemExists
 (
-record
+rec
 .
 id
 )
@@ -335,7 +335,7 @@ this
 .
 create
 (
-record
+rec
 )
 ;
 else
@@ -343,7 +343,7 @@ this
 .
 update
 (
-record
+rec
 )
 ;
 }
