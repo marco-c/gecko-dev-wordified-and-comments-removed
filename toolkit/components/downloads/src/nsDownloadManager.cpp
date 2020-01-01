@@ -522,7 +522,8 @@ defined
 (
 XP_WIN
 )
-and
+&
+&
 !
 defined
 (
@@ -4068,7 +4069,8 @@ defined
 (
 XP_WIN
 )
-and
+&
+&
 !
 defined
 (
@@ -8744,7 +8746,8 @@ defined
 (
 XP_WIN
 )
-and
+&
+&
 !
 defined
 (
@@ -10043,7 +10046,8 @@ defined
 (
 XP_WIN
 )
-and
+&
+&
 !
 defined
 (
