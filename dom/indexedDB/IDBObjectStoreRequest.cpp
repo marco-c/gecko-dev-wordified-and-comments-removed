@@ -523,6 +523,12 @@ case
 nsIDataType
 :
 :
+VTYPE_VOID
+:
+case
+nsIDataType
+:
+:
 VTYPE_EMPTY
 :
 if
