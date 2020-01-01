@@ -3981,7 +3981,7 @@ IsDefunct
 )
 )
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 PRBool
 isContainer
