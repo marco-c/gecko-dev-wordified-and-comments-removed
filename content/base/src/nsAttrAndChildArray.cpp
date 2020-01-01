@@ -2792,9 +2792,6 @@ mImpl
 -
 >
 mMappedAttrs
-&
-&
-aRuleWalker
 )
 {
 aRuleWalker
