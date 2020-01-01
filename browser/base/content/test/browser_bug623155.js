@@ -90,6 +90,9 @@ aURI
 )
 ;
 }
+var
+gNewTab
+;
 function
 test
 (

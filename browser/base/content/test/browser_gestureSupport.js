@@ -2324,6 +2324,7 @@ oldLatchedValue
 ;
 for
 (
+let
 dir
 in
 cmd

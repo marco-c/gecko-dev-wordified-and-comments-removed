@@ -33,6 +33,9 @@ aTab
 let
 didLoad
 =
+false
+;
+let
 didZoom
 =
 false

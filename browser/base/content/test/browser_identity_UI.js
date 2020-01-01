@@ -412,6 +412,7 @@ gCurrentTestIndex
 =
 -
 1
+gTestDesc
 ;
 let
 gForward

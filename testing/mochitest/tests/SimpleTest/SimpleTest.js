@@ -3471,6 +3471,7 @@ failureFn
 return
 ;
 }
+var
 data
 =
 SpecialPowers
