@@ -132,7 +132,7 @@ time
 mozilla
 :
 :
-DeprecatedAbs
+Abs
 (
 time
 )

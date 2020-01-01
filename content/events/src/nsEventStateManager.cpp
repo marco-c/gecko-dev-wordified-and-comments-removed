@@ -24486,7 +24486,7 @@ bool
 deltaXPreferred
 =
 (
-DeprecatedAbs
+Abs
 (
 aEvent
 -
@@ -24494,7 +24494,7 @@ aEvent
 deltaX
 )
 >
-DeprecatedAbs
+Abs
 (
 aEvent
 -
@@ -24503,7 +24503,7 @@ deltaY
 )
 &
 &
-DeprecatedAbs
+Abs
 (
 aEvent
 -
@@ -24511,7 +24511,7 @@ aEvent
 deltaX
 )
 >
-DeprecatedAbs
+Abs
 (
 aEvent
 -
@@ -24705,7 +24705,7 @@ index
 )
 ;
 return
-DeprecatedAbs
+Abs
 (
 mMultiplierX
 [
@@ -24748,7 +24748,7 @@ index
 )
 ;
 return
-DeprecatedAbs
+Abs
 (
 mMultiplierY
 [

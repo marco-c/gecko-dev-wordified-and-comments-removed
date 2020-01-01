@@ -14416,7 +14416,7 @@ aMetrics
 .
 xHeight
 =
-DeprecatedAbs
+Abs
 (
 aMetrics
 .

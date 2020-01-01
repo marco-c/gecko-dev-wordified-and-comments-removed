@@ -1166,7 +1166,7 @@ if
 mozilla
 :
 :
-DeprecatedAbs
+Abs
 (
 diff
 )

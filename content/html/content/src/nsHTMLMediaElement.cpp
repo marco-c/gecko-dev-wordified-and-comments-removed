@@ -15066,7 +15066,7 @@ aPlaybackRate
 }
 if
 (
-DeprecatedAbs
+Abs
 (
 aPlaybackRate
 )
@@ -15087,7 +15087,7 @@ MIN_PLAYBACKRATE
 }
 if
 (
-DeprecatedAbs
+Abs
 (
 aPlaybackRate
 )
