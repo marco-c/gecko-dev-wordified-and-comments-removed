@@ -1753,6 +1753,7 @@ nsRange
 GetCommonAncestor
 (
 )
+const
 {
 return
 mIsPositioned
@@ -6461,6 +6462,7 @@ nsRange
 *
 aReturn
 )
+const
 {
 if
 (
@@ -6581,6 +6583,7 @@ nsIRange
 *
 aReturn
 )
+const
 {
 nsRange
 *

@@ -61,6 +61,13 @@ nsGUIEvent
 h
 "
 #
+include
+"
+nsIRange
+.
+h
+"
+#
 define
 NS_FRAME_SELECTION_IID
 \
@@ -1257,7 +1264,7 @@ mSelectedCellIndex
 ;
 nsCOMPtr
 <
-nsIDOMRange
+nsIRange
 >
 mMaintainRange
 ;
