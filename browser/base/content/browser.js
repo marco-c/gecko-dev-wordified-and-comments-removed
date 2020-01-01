@@ -31885,9 +31885,7 @@ skin
 /
 plugins
 /
-pluginBlocked
--
-16
+notifyPluginBlocked
 .
 png
 "
@@ -32003,9 +32001,7 @@ skin
 /
 plugins
 /
-pluginOutdated
--
-16
+notifyPluginOutdated
 .
 png
 "
@@ -32085,9 +32081,7 @@ skin
 /
 plugins
 /
-pluginGeneric
--
-16
+notifyPluginGeneric
 .
 png
 "
@@ -33007,9 +33001,7 @@ skin
 /
 plugins
 /
-pluginGeneric
--
-16
+notifyPluginCrashed
 .
 png
 "
