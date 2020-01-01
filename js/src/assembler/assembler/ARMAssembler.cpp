@@ -1988,6 +1988,9 @@ addr
 InvalidBranchTarget
 )
 {
+#
+if
+0
 if
 (
 !
@@ -2057,6 +2060,8 @@ continue
 ;
 }
 }
+#
+endif
 *
 addr
 =
