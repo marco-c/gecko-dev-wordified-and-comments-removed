@@ -683,6 +683,14 @@ taskbar_progress
 .
 xul
 \
+test_chrome_context_menus_win
+.
+xul
+\
+chrome_context_menus_win
+.
+xul
+\
 (
 NULL
 )
