@@ -4939,7 +4939,7 @@ notification
 .
 persistence
 =
-3
+6
 ;
 let
 XULNS
