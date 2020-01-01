@@ -1057,17 +1057,6 @@ Engine
 <
 !
 ENTITY
-selectHelper
-.
-emptytext
-"
-Filter
-List
-"
->
-<
-!
-ENTITY
 appMenu
 .
 siteOptions
