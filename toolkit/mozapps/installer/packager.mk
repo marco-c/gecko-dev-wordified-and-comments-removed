@@ -589,11 +589,6 @@ PKG_BASENAME
 (
 PKG_SUFFIX
 )
-MOZ_PKG_DIR
-=
-(
-MOZ_APP_NAME
-)
 #
 By
 default
