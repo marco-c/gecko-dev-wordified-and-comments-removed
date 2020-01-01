@@ -346,6 +346,9 @@ nsIModule
 aSelf
 )
 {
+#
+ifdef
+MOZ_WIDGET_GTK2
 nsIconChannel
 :
 :
@@ -353,6 +356,8 @@ Shutdown
 (
 )
 ;
+#
+endif
 }
 NS_IMPL_NSGETMODULE_WITH_CTOR_DTOR
 (
