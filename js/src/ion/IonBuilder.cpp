@@ -22123,12 +22123,6 @@ script
 )
 )
 ;
-if
-(
-!
-thisTypes
-)
-{
 JSValueType
 type
 =
@@ -22176,7 +22170,6 @@ this
 "
 )
 ;
-}
 CallInfo
 callInfo
 (
