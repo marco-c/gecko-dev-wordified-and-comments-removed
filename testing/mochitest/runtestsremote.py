@@ -2653,7 +2653,7 @@ xpcshell_path
 )
 :
             
-self
+log
 .
 error
 (
@@ -2670,7 +2670,7 @@ binary
 please
 use
 '
-                       
+                      
 '
 the
 -
@@ -2684,7 +2684,7 @@ specify
 the
 path
 '
-                       
+                      
 '
 to
 a
@@ -2693,7 +2693,14 @@ version
 .
 '
 %
-xpcshell
+xpcshell_path
+)
+            
+sys
+.
+exit
+(
+1
 )
         
 options
@@ -2816,6 +2823,16 @@ options
 )
 :
         
+if
+hasattr
+(
+self
+'
+server
+'
+)
+:
+            
 self
 .
 server
