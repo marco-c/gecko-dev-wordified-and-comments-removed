@@ -3203,9 +3203,6 @@ components
 dom_svg
 .
 xpt
-#
-ifdef
-MOZ_SMIL
 BINPATH
 /
 components
@@ -3213,8 +3210,6 @@ components
 dom_smil
 .
 xpt
-#
-endif
 ;
 [
 Personal
