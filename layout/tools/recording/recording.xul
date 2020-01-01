@@ -170,14 +170,6 @@ OnRecordingLoad
 )
 ;
 "
-onunload
-=
-"
-OnRecordingUnload
-(
-)
-;
-"
 style
 =
 "
