@@ -110,7 +110,7 @@ ui
 .
 sharebookmarks
 "
-false
+true
 )
 ;
 pref
