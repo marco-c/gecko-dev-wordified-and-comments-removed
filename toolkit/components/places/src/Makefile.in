@@ -496,6 +496,10 @@ nsPlacesImportExportService
 .
 cpp
 \
+AsyncFaviconHelpers
+.
+cpp
+\
 (
 NULL
 )

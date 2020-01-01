@@ -148,6 +148,13 @@ h
 #
 include
 "
+AsyncFaviconHelpers
+.
+h
+"
+#
+include
+"
 imgITools
 .
 h
