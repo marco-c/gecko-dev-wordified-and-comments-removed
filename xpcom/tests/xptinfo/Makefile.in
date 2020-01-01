@@ -432,6 +432,7 @@ XPIDLSRCS
 xptiITestInterface
 .
 idl
+#
 XPCSHELL_TESTS
 =
 xptunit

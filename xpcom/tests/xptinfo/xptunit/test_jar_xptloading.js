@@ -42,7 +42,7 @@ id2
 =
 Components
 .
-interfacesById
+interfacesByID
 [
 xptiITestInterface_IID
 ]
