@@ -7391,7 +7391,11 @@ SetIsReusedAfter
 950
 )
 ;
-NS_ADDREF
+nsRefPtr
+<
+nsHttpConnection
+>
+copy
 (
 conn
 )
@@ -7408,6 +7412,14 @@ OnMsgReclaimConnection
 (
 NS_OK
 conn
+.
+forget
+(
+)
+.
+get
+(
+)
 )
 ;
 }

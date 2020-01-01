@@ -505,7 +505,10 @@ file
 ;
 NS_IF_ADDREF
 (
-file
+sPath
+[
+aType
+]
 )
 ;
 }
