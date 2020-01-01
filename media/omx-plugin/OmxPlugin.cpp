@@ -5389,6 +5389,7 @@ true
 Manifest
 MOZ_EXPORT
 MPAPI_MANIFEST
+=
 {
 OmxPlugin
 :
