@@ -401,6 +401,14 @@ endif
 #
 ifdef
 XP_WIN32
+BINPATH
+/
+plugin
+-
+hang
+-
+ui
+BIN_SUFFIX
 #
 ifndef
 MOZ_DEBUG
