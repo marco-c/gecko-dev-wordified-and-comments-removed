@@ -15824,8 +15824,10 @@ maybeInvalidateShadow
 {
 if
 (
-!
-mIsTransparent
+[
+mWindow
+isOpaque
+]
 |
 |
 !

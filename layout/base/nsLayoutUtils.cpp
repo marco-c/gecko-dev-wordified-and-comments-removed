@@ -14350,6 +14350,9 @@ mBorderRadius
 return
 eTransparencyTransparent
 ;
+nsTransparencyMode
+transparency
+;
 if
 (
 aFrame
@@ -14357,10 +14360,12 @@ aFrame
 >
 IsThemed
 (
+&
+transparency
 )
 )
 return
-eTransparencyOpaque
+transparency
 ;
 if
 (
