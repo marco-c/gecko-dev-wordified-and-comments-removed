@@ -1026,6 +1026,7 @@ mNodeSorter
 >
 mNKeys
 ;
+unsigned
 int
 i
 ;
