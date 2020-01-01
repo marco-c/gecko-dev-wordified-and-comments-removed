@@ -1840,7 +1840,7 @@ returning
 protected
 final
 void
-loadUrlInTab
+loadUrl
 (
 final
 String
@@ -1891,14 +1891,14 @@ getInstance
 )
 ;
 Method
-loadUrlInTab
+loadUrl
 =
 tabsClass
 .
 getMethod
 (
 "
-loadUrlInTab
+loadUrl
 "
 String
 .
@@ -1915,7 +1915,7 @@ invoke
 null
 )
 ;
-loadUrlInTab
+loadUrl
 .
 invoke
 (
@@ -1943,7 +1943,7 @@ dumpLog
 "
 Exception
 in
-loadUrlInTab
+loadUrl
 "
 e
 )

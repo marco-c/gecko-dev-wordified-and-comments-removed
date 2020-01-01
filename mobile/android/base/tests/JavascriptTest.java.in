@@ -669,7 +669,7 @@ from
 url
 )
 ;
-loadUrlInTab
+loadUrl
 (
 url
 )
