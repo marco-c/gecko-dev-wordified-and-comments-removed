@@ -37181,6 +37181,7 @@ return
 static
 JSObject
 *
+FASTCALL
 ComputeThis_tn
 (
 JSContext
