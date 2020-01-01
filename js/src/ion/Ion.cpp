@@ -1483,6 +1483,13 @@ onBackgroundThread
 )
 )
 ;
+JS_POISON
+(
+code_
+JS_FREE_PATTERN
+bufferSize_
+)
+;
 if
 (
 pool_
