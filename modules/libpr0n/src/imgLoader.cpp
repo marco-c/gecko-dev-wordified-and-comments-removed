@@ -1050,6 +1050,10 @@ include
 <
 algorithm
 >
+using
+namespace
+std
+;
 void
 imgCacheQueue
 :
