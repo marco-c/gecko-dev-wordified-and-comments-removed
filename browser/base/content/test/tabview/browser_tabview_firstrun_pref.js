@@ -153,7 +153,7 @@ view
 .
 contentWindow
 ;
-is
+todo_is
 (
 win
 .
@@ -232,7 +232,7 @@ getOrphanedTabs
 .
 length
 ;
-is
+todo_is
 (
 orphanTabCount
 1
