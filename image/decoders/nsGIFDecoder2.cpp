@@ -419,14 +419,6 @@ mGIFStruct
 screen_height
 )
 ;
-if
-(
-IsSizeDecode
-(
-)
-)
-return
-;
 }
 void
 nsGIFDecoder2
