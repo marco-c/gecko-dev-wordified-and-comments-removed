@@ -660,7 +660,7 @@ void
 *
 Allocate
 (
-PRUnit32
+PRUint32
 size_t
 aSize
 )
