@@ -818,6 +818,9 @@ position
 if
 (
 position
+&
+&
+position
 .
 role
 =
