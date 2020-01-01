@@ -9490,6 +9490,15 @@ aFrame
 IsPositioned
 (
 )
+&
+&
+!
+aFrame
+-
+>
+IsFlexItem
+(
+)
 )
 return
 0
