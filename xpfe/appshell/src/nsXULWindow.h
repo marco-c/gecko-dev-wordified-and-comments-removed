@@ -346,14 +346,12 @@ nsIDOMWindow
 aDOMWindow
 )
 ;
-NS_IMETHOD
-GetWindowDOMElement
-(
 nsIDOMElement
 *
-*
-aDOMElement
+GetWindowDOMElement
+(
 )
+const
 ;
 NS_HIDDEN_
 (
