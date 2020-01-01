@@ -1160,7 +1160,15 @@ requirement
 EXPORTS_js
 =
 \
+Anchor
+.
+h
+\
 CharacterEncoding
+.
+h
+\
+GCAPI
 .
 h
 \
@@ -1169,10 +1177,6 @@ HashTable
 h
 \
 HeapAPI
-.
-h
-\
-GCAPI
 .
 h
 \
