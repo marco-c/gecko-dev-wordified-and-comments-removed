@@ -8329,7 +8329,6 @@ asm_inc_m32
 (
 uint32_t
 *
-pCtr
 )
 {
 }

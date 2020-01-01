@@ -1507,6 +1507,9 @@ map
 )
 bucket
 (
+(
+int
+)
 map
 .
 nbuckets
