@@ -15320,6 +15320,13 @@ GetLineNumber
 &
 &
 (
+NS_BLOCK_HAS_FIRST_LETTER_CHILD
+&
+mState
+)
+&
+&
+(
 NS_BLOCK_HAS_FIRST_LETTER_STYLE
 &
 mState
