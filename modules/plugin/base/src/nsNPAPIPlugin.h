@@ -42,7 +42,7 @@ h
 #
 include
 "
-npupp
+npfunctions
 .
 h
 "
@@ -188,9 +188,9 @@ nCallbacks
 NPPluginFuncs
 *
 pCallbacks
-NPP_ShutdownUPP
+NPP_ShutdownProcPtr
 *
-unloadUpp
+unloadProcPtr
 )
 ;
 #
