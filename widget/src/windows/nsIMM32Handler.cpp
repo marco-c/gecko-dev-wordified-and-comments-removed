@@ -72,6 +72,9 @@ sIsStatusChanged
 =
 PR_FALSE
 ;
+#
+ifndef
+WINCE
 UINT
 nsIMM32Handler
 :
@@ -88,6 +91,8 @@ sIMEProperty
 =
 0
 ;
+#
+endif
 void
 nsIMM32Handler
 :
