@@ -630,15 +630,12 @@ file_bug650273
 .
 html
 \
+file_bug658560
+.
+html
+\
 (
 NULL
-)
-ifneq
-(
-(
-OS_TARGET
-)
-Android
 )
 ifndef
 MOZ_PLATFORM_MAEMO
@@ -652,7 +649,6 @@ html
 bug657267
 .
 jar
-endif
 endif
 #
 test_bug484107
