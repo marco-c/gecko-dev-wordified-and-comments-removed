@@ -64,10 +64,10 @@ resource
 .
 RLIMIT_AS
 (
-2
+1
 *
 GB
-2
+1
 *
 GB
 )

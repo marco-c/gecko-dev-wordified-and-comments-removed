@@ -1719,14 +1719,6 @@ JSContext
 aJSContext
 )
 {
-JS_AbortIfWrongThread
-(
-JS_GetRuntime
-(
-mJSContext
-)
-)
-;
 *
 aJSContext
 =
