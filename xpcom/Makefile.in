@@ -549,6 +549,13 @@ xpcom
 config
 .
 h
+ifdef
+DEHYDRA_PATH
+DIRS
++
+=
+analysis
+endif
 include
 (
 topsrcdir
