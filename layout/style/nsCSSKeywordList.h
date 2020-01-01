@@ -2945,6 +2945,13 @@ textfield
 )
 CSS_KEY
 (
+textfield
+-
+multiline
+textfield_multiline
+)
+CSS_KEY
+(
 caret
 caret
 )

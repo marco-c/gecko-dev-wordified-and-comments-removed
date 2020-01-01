@@ -809,6 +809,8 @@ eCSSKeyword_scrollbargripper_vertical
 NS_THEME_SCROLLBAR_GRIPPER_VERTICAL
 eCSSKeyword_textfield
 NS_THEME_TEXTFIELD
+eCSSKeyword_textfield_multiline
+NS_THEME_TEXTFIELD_MULTILINE
 eCSSKeyword_caret
 NS_THEME_TEXTFIELD_CARET
 eCSSKeyword_menulist

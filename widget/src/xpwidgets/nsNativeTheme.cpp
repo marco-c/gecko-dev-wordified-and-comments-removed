@@ -886,6 +886,12 @@ NS_THEME_TEXTFIELD
 aWidgetType
 =
 =
+NS_THEME_TEXTFIELD_MULTILINE
+|
+|
+aWidgetType
+=
+=
 NS_THEME_LISTBOX
 |
 |
@@ -1046,6 +1052,9 @@ break
 ;
 case
 NS_THEME_TEXTFIELD
+:
+case
+NS_THEME_TEXTFIELD_MULTILINE
 :
 defaultBorderStyle
 =
