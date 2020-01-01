@@ -581,10 +581,6 @@ BlockingResourceBase
 .
 cpp
 \
-DeadlockDetector
-.
-cpp
-\
 nsAutoLock
 .
 cpp

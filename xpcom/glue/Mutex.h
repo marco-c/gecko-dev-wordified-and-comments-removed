@@ -38,12 +38,6 @@ char
 *
 name
 )
-:
-BlockingResourceBase
-(
-name
-eMutex
-)
 {
 mLock
 =
@@ -68,6 +62,13 @@ mozilla
 :
 Mutex
 "
+)
+;
+Init
+(
+mLock
+name
+eMutex
 )
 ;
 }
