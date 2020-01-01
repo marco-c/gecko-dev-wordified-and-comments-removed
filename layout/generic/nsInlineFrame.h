@@ -351,6 +351,10 @@ nsIFrame
 *
 mLineContainer
 ;
+nsLineLayout
+*
+mLineLayout
+;
 PRPackedBool
 mSetParentPointer
 ;
@@ -367,6 +371,10 @@ mNextInFlow
 nsnull
 ;
 mLineContainer
+=
+nsnull
+;
+mLineLayout
 =
 nsnull
 ;
@@ -481,6 +489,9 @@ aFromChild
 nsIFrame
 *
 aPrevSibling
+InlineReflowState
+&
+aState
 )
 ;
 }
