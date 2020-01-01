@@ -480,12 +480,14 @@ compartment
 {
 if
 (
+!
 compartment
 -
 >
 active
 )
-{
+return
+;
 if
 (
 enterJIT_
@@ -564,7 +566,6 @@ bailoutTable
 "
 )
 ;
-}
 }
 }
 void

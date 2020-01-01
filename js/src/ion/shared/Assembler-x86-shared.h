@@ -334,7 +334,7 @@ enoughMemory_
 |
 relocations_
 .
-outOfMemory
+oom
 (
 )
 ;

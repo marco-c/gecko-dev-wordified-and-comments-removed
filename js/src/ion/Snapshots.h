@@ -830,7 +830,7 @@ endSnapshot
 )
 ;
 bool
-outOfMemory
+oom
 (
 )
 const
@@ -838,7 +838,7 @@ const
 return
 writer_
 .
-outOfMemory
+oom
 (
 )
 |
