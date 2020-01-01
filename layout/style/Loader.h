@@ -95,6 +95,9 @@ nsCSSParser
 class
 nsMediaList
 ;
+class
+nsIStyleSheetLinkingElement
+;
 namespace
 mozilla
 {
@@ -832,6 +835,9 @@ nsICSSLoaderObserver
 aObserver
 PRBool
 aWasAlternate
+nsIStyleSheetLinkingElement
+*
+aElement
 )
 ;
 void
