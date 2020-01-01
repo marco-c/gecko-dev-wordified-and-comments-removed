@@ -179,6 +179,16 @@ css
 RestyleTracker
 RestyleTracker
 ;
+typedef
+mozilla
+:
+:
+css
+:
+:
+OverflowChangedTracker
+OverflowChangedTracker
+;
 nsCSSFrameConstructor
 (
 nsIDocument
@@ -540,6 +550,9 @@ ProcessRestyledFrames
 nsStyleChangeList
 &
 aRestyleArray
+OverflowChangedTracker
+&
+aTracker
 )
 ;
 private
@@ -885,6 +898,9 @@ RestyleTracker
 aRestyleTracker
 bool
 aRestyleDescendants
+OverflowChangedTracker
+&
+aTracker
 )
 ;
 nsresult
