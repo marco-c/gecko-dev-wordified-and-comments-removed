@@ -370,7 +370,9 @@ PeekHeader
 nsHttpAtom
 header
 )
+const
 {
+const
 nsEntry
 *
 entry
@@ -411,7 +413,9 @@ nsACString
 &
 result
 )
+const
 {
+const
 nsEntry
 *
 entry
@@ -870,6 +874,7 @@ nsHttpAtom
 &
 header
 )
+const
 {
 const
 nsEntry
