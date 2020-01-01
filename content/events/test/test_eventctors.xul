@@ -454,12 +454,6 @@ event
 "
 )
 ;
-SimpleTest
-.
-finish
-(
-)
-;
 ]
 ]
 >
