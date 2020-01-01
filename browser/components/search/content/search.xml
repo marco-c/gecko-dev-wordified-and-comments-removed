@@ -5568,7 +5568,9 @@ xml
 s
 /
 /
-urlbar
+browser
+-
+autocomplete
 -
 result
 -
@@ -5578,13 +5580,13 @@ to
 unhide
 the
 popup
+/
+/
 but
 since
 we
 '
 re
-/
-/
 overriding
 openPopup
 we
@@ -5593,6 +5595,8 @@ to
 unhide
 the
 panel
+/
+/
 ourselves
 .
 popup
