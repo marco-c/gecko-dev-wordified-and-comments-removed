@@ -1008,6 +1008,14 @@ res
 /
 layout
 /
+doorhanger
+.
+xml
+\
+res
+/
+layout
+/
 gecko_app
 .
 xml
