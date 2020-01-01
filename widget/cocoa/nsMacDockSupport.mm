@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsMacDockSupport
 .
 h
