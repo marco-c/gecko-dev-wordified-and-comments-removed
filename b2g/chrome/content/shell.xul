@@ -215,6 +215,9 @@ js
 "
 /
 >
+#
+ifndef
+MOZ_TOUCH
 <
 script
 type
@@ -241,6 +244,8 @@ js
 "
 /
 >
+#
+endif
 <
 commandset
 id
