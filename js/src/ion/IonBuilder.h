@@ -1069,11 +1069,6 @@ maybeInsertResume
 (
 )
 ;
-void
-insertRecompileCheck
-(
-)
-;
 bool
 initParameters
 (

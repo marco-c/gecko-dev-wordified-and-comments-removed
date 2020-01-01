@@ -43,7 +43,6 @@ Bailout_Normal
 Bailout_ArgumentCheck
 Bailout_TypeBarrier
 Bailout_Monitor
-Bailout_RecompileCheck
 Bailout_BoundsCheck
 Bailout_ShapeGuard
 Bailout_CachedShapeGuard

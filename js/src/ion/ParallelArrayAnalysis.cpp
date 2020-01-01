@@ -614,10 +614,6 @@ CUSTOM_OP
 (
 CheckOverRecursed
 )
-DROP_OP
-(
-RecompileCheck
-)
 UNSAFE_OP
 (
 DefVar
