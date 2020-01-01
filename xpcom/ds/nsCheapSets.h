@@ -106,8 +106,7 @@ aVal
 private
 :
 typedef
-unsigned
-long
+PRUword
 PtrBits
 ;
 nsStringHashSet
@@ -321,8 +320,7 @@ PR_FALSE
 private
 :
 typedef
-unsigned
-long
+PRUword
 PtrBits
 ;
 nsInt32HashSet
