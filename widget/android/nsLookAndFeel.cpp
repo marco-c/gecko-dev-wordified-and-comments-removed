@@ -408,9 +408,12 @@ eColorID_WindowBackground
 :
 aColor
 =
-mSystemColors
-.
-colorBackground
+NS_RGB
+(
+0xFF
+0xFF
+0xFF
+)
 ;
 break
 ;
