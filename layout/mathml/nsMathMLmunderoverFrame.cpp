@@ -759,8 +759,9 @@ NS_MATHML_EMBELLISH_ACCENTOVER
 }
 }
 }
-if
-(
+PRBool
+subsupDisplay
+=
 NS_MATHML_EMBELLISH_IS_MOVABLELIMITS
 (
 mEmbellishData
@@ -776,7 +777,12 @@ mPresentationData
 .
 flags
 )
+;
+if
+(
+subsupDisplay
 )
+{
 mPresentationData
 .
 flags
@@ -785,6 +791,7 @@ flags
 ~
 NS_MATHML_STRETCH_ALL_CHILDREN_HORIZONTALLY
 ;
+}
 if
 (
 tag
@@ -839,6 +846,9 @@ mEmbellishData
 .
 flags
 )
+|
+|
+subsupDisplay
 )
 ;
 PropagatePresentationDataFor
@@ -884,6 +894,9 @@ mEmbellishData
 .
 flags
 )
+|
+|
+subsupDisplay
 )
 ;
 PropagatePresentationDataFor
