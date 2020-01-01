@@ -72387,6 +72387,7 @@ WINNT
 "
 -
 o
+\
 "
 {
 OS_ARCH
@@ -72398,6 +72399,7 @@ Darwin
 "
 -
 o
+\
 "
 {
 MOZ_WIDGET_TOOLKIT
@@ -72409,6 +72411,19 @@ android
 "
 -
 o
+\
+"
+{
+MOZ_WIDGET_TOOLKIT
+}
+"
+=
+"
+gonk
+"
+-
+o
+\
 "
 {
 MOZ_WIDGET_TOOLKIT
