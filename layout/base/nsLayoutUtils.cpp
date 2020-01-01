@@ -2333,6 +2333,8 @@ FindOrCreateIDFor
 nsIContent
 *
 aContent
+bool
+aRoot
 )
 {
 ViewID
@@ -2351,6 +2353,13 @@ scrollId
 {
 scrollId
 =
+aRoot
+?
+FrameMetrics
+:
+:
+ROOT_SCROLL_ID
+:
 sScrollIdCounter
 +
 +
@@ -2407,15 +2416,6 @@ FrameMetrics
 :
 :
 NULL_SCROLL_ID
-&
-&
-aId
-!
-=
-FrameMetrics
-:
-:
-ROOT_SCROLL_ID
 "
 Cannot
 find
@@ -2426,8 +2426,6 @@ in
 map
 for
 null
-or
-root
 IDs
 .
 "

@@ -219,6 +219,10 @@ layers
 :
 :
 FrameMetrics
+FrameMetrics
+;
+typedef
+FrameMetrics
 :
 :
 ViewID
@@ -243,6 +247,10 @@ FindOrCreateIDFor
 nsIContent
 *
 aContent
+bool
+aRoot
+=
+false
 )
 ;
 static
