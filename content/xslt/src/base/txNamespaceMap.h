@@ -95,7 +95,7 @@ nsAString
 aNamespaceURI
 )
 ;
-int32_t
+PRInt32
 lookupNamespace
 (
 nsIAtom
@@ -103,7 +103,7 @@ nsIAtom
 aPrefix
 )
 ;
-int32_t
+PRInt32
 lookupNamespaceWithDefault
 (
 const
@@ -125,7 +125,7 @@ mPrefixes
 ;
 nsTArray
 <
-int32_t
+PRInt32
 >
 mNamespaces
 ;
