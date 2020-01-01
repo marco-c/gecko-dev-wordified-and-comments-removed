@@ -295,14 +295,6 @@ omx
 mediaresourcemanager
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_WEBSPEECH
-'
-]
-:
 PARALLEL_DIRS
 +
 =
