@@ -229,6 +229,10 @@ test_bug800386
 .
 xul
 \
+test_csp_bug773891
+.
+html
+\
 (
 NULL
 )

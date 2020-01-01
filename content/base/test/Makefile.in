@@ -1620,6 +1620,14 @@ file_csp_bug768029
 .
 sjs
 \
+file_csp_bug773891
+.
+html
+\
+file_csp_bug773891
+.
+sjs
+\
 test_bug540854
 .
 html
