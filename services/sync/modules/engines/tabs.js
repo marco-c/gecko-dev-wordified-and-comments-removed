@@ -1144,7 +1144,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 And
@@ -1291,7 +1291,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 And

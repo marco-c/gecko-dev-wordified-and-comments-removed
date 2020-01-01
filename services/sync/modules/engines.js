@@ -2994,7 +2994,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Finishing

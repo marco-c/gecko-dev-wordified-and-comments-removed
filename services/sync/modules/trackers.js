@@ -488,7 +488,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Adding
@@ -586,7 +586,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Removing
@@ -627,7 +627,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Clearing
