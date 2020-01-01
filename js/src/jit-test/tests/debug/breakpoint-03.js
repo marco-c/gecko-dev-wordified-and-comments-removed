@@ -94,14 +94,6 @@ debugger
 "
 )
 ;
-assertEq
-(
-s
-.
-live
-true
-)
-;
 s
 .
 setBreakpoint

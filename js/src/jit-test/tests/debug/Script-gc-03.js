@@ -114,8 +114,8 @@ arr
 i
 ]
 .
-live
-true
+lineCount
+1
 )
 ;
 gc

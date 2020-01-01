@@ -3623,6 +3623,15 @@ mode
 JSXDR_DECODE
 )
 {
+JS_ASSERT
+(
+!
+script
+-
+>
+compileAndGo
+)
+;
 if
 (
 !
@@ -3664,10 +3673,7 @@ script
 u
 .
 object
-Debugger
-:
-:
-NewHeldScript
+NULL
 )
 ;
 *

@@ -113,7 +113,7 @@ arr
 i
 ]
 .
-live
-true
+lineCount
+1
 )
 ;
