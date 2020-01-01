@@ -431,6 +431,13 @@ DownloadStalled
 )
 ;
 void
+NotifySuspendedByCache
+(
+bool
+aIsSuspended
+)
+;
+void
 NotifyAudioAvailableListener
 (
 )
@@ -1457,7 +1464,7 @@ bool
 mShuttingDown
 ;
 bool
-mLoadIsSuspended
+mSuspendedForPreloadNone
 ;
 bool
 mMediaSecurityVerified
@@ -1470,6 +1477,9 @@ mCORSMode
 ;
 bool
 mHasAudio
+;
+bool
+mDownloadSuspendedByCache
 ;
 }
 ;
