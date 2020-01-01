@@ -1,6 +1,6 @@
 for
 (
-let
+var
 inf
 of
 [

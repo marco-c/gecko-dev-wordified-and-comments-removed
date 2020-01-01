@@ -94,7 +94,7 @@ SQRT2
 ;
 for
 (
-let
+var
 [
 x
 y

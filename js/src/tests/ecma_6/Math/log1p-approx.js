@@ -151,7 +151,7 @@ log1p_data
 ;
 for
 (
-let
+var
 [
 x
 y

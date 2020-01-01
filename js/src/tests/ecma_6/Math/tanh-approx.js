@@ -2502,7 +2502,7 @@ tanh_data
 ;
 for
 (
-let
+var
 [
 x
 y
