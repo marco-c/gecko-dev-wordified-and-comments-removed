@@ -128,9 +128,6 @@ class
 nsDOMFileList
 ;
 class
-nsIFilePicker
-;
-class
 nsIRadioGroupContainer
 ;
 class
