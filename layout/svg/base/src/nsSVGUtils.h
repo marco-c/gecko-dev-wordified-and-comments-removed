@@ -876,6 +876,15 @@ nsIFrame
 aFrame
 )
 ;
+static
+float
+MaxExpansion
+(
+nsIDOMSVGMatrix
+*
+aMatrix
+)
+;
 #
 ifdef
 DEBUG
