@@ -337,10 +337,6 @@ nsSVGSVGElement
 .
 cpp
 \
-nsSVGStopElement
-.
-cpp
-\
 nsSVGStyleElement
 .
 cpp
@@ -557,6 +553,10 @@ SVGPointListSMILType
 .
 cpp
 \
+SVGStopElement
+.
+cpp
+\
 SVGTransformListSMILType
 .
 cpp
@@ -643,6 +643,10 @@ SVGAnimatedBoolean
 h
 \
 SVGDescElement
+.
+h
+\
+SVGStopElement
 .
 h
 \
