@@ -1930,7 +1930,7 @@ endif
 endif
 ifeq
 (
-WINNT_
+WINNT
 (
 OS_ARCH
 )
