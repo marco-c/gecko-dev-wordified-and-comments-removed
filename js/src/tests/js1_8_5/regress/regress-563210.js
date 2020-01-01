@@ -59,6 +59,17 @@ ex
 {
 }
 }
+if
+(
+typeof
+gczeal
+!
+=
+=
+'
+undefined
+'
+)
 gczeal
 (
 0
