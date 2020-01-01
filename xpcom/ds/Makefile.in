@@ -655,10 +655,6 @@ nsCharSeparatedTokenizer
 .
 h
 \
-CharTokenizer
-.
-h
-\
 (
 NULL
 )
