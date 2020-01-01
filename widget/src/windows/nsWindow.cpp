@@ -2266,6 +2266,10 @@ mLayerManager
 =
 nsnull
 ;
+mD2DWindowSurface
+=
+nsnull
+;
 VERIFY
 (
 :
