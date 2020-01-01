@@ -78,6 +78,14 @@ nsIDOMMozSmsRequest
 aRequest
 )
 ;
+PRInt32
+AddRequest
+(
+nsIDOMMozSmsRequest
+*
+aRequest
+)
+;
 void
 NotifySmsSent
 (

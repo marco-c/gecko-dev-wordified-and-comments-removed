@@ -66,6 +66,8 @@ aFilter
 ;
 SmsCursor
 (
+PRInt32
+aListId
 nsIDOMMozSmsFilter
 *
 aFilter
@@ -84,6 +86,9 @@ aMessage
 ;
 private
 :
+PRInt32
+mListId
+;
 nsCOMPtr
 <
 nsIDOMMozSmsFilter
