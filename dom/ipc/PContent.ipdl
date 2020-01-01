@@ -1205,6 +1205,10 @@ int32_t
 fsState
 int32_t
 mountGeneration
+bool
+isMediaPresent
+bool
+isSharing
 )
 ;
 NotifyProcessPriorityChanged

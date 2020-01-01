@@ -926,6 +926,14 @@ const
 int32_t
 &
 aMountGeneration
+const
+bool
+&
+aIsMediaPresent
+const
+bool
+&
+aIsSharing
 )
 ;
 virtual
