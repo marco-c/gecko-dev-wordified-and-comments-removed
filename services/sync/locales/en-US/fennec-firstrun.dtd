@@ -96,7 +96,13 @@ Firefox
 and
 created
 a
-Weave
+&
+syncBrand
+.
+shortName
+.
+label
+;
 account
 .
 "
