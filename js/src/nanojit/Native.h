@@ -65,6 +65,9 @@ architecture
 "
 #
 endif
+namespace
+nanojit
+{
 const
 uint32_t
 NJ_PAGE_SIZE
@@ -74,6 +77,7 @@ NJ_PAGE_SIZE
 <
 NJ_LOG2_PAGE_SIZE
 ;
+}
 #
 ifdef
 NJ_STACK_GROWTH_UP
