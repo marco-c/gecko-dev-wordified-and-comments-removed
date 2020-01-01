@@ -2590,6 +2590,16 @@ equals
 file
 "
 )
+|
+|
+scheme
+.
+equals
+(
+"
+resource
+"
+)
 )
 )
 ;
