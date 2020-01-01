@@ -6151,6 +6151,9 @@ nsHTMLDocument
 :
 OpenCommon
 (
+JSContext
+*
+cx
 const
 nsACString
 &
@@ -6769,6 +6772,7 @@ nsContentUtils
 :
 ReparentContentWrappersInScope
 (
+cx
 oldScope
 newScope
 )
@@ -7031,6 +7035,9 @@ nsACString
 aContentType
 PRBool
 aReplace
+JSContext
+*
+cx
 nsIDOMDocument
 *
 *
@@ -7042,6 +7049,7 @@ rv
 =
 OpenCommon
 (
+cx
 aContentType
 aReplace
 )
@@ -7233,6 +7241,9 @@ nsHTMLDocument
 :
 WriteCommon
 (
+JSContext
+*
+cx
 const
 nsAString
 &
@@ -7458,6 +7469,7 @@ html
 "
 )
 PR_FALSE
+cx
 getter_AddRefs
 (
 ignored
@@ -7629,11 +7641,15 @@ const
 nsAString
 &
 aText
+JSContext
+*
+cx
 )
 {
 return
 WriteCommon
 (
+cx
 aText
 PR_FALSE
 )
@@ -7649,11 +7665,15 @@ const
 nsAString
 &
 aText
+JSContext
+*
+cx
 )
 {
 return
 WriteCommon
 (
+cx
 aText
 PR_TRUE
 )
