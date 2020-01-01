@@ -696,6 +696,10 @@ browser_typeAheadFind
 .
 js
 \
+browser_keywordSearch
+.
+js
+\
 browser_NetworkPrioritizer
 .
 js
