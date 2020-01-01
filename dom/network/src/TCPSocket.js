@@ -320,7 +320,7 @@ error
 let
 debug
 =
-true
+false
 ;
 function
 LOG
@@ -1600,11 +1600,6 @@ true
 false
 "
 )
-+
-"
-\
-n
-"
 )
 ;
 if
@@ -1714,8 +1709,6 @@ LOG
 "
 startup
 called
-\
-n
 "
 )
 ;
@@ -1734,11 +1727,6 @@ host
 "
 +
 port
-+
-"
-\
-n
-"
 )
 ;
 that
@@ -1817,11 +1805,6 @@ SSL
 that
 .
 ssl
-+
-"
-\
-n
-"
 )
 ;
 if
@@ -2103,8 +2086,6 @@ LOG
 "
 close
 called
-\
-n
 "
 )
 ;
