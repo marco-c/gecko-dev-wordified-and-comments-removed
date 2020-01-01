@@ -55,6 +55,12 @@ nsIDOMWindow
 *
 mWindow
 ;
+nsCOMPtr
+<
+nsIDOMWindow
+>
+mCallerWindow
+;
 PRBool
 mDefaultEnabled
 ;

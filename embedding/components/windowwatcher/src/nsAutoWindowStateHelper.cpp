@@ -95,6 +95,8 @@ if
 window
 )
 {
+mCallerWindow
+=
 window
 -
 >
@@ -134,7 +136,7 @@ window
 >
 LeaveModalState
 (
-nsnull
+mCallerWindow
 )
 ;
 }
