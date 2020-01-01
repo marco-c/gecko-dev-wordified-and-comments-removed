@@ -1892,7 +1892,7 @@ PostDataError
 return
 ;
 }
-int32_t
+uint32_t
 bmpDataOffset
 =
 mDirEntry
@@ -1901,7 +1901,7 @@ mImageOffset
 +
 BITMAPINFOSIZE
 ;
-int32_t
+uint32_t
 bmpDataEnd
 =
 mDirEntry
