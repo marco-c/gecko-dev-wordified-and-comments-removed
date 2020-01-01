@@ -2344,6 +2344,12 @@ this
 true
 )
 ;
+TabsPopup
+.
+init
+(
+)
+;
 messageManager
 .
 addMessageListener
