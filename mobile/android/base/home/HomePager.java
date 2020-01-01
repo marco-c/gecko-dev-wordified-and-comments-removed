@@ -834,11 +834,7 @@ MotionEvent
 ACTION_DOWN
 )
 {
-requestFocusFromTouch
-(
-)
-;
-clearFocus
+requestFocus
 (
 )
 ;
