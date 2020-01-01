@@ -725,6 +725,14 @@ lir
 )
 ;
 bool
+visitInitElem
+(
+LInitElem
+*
+lir
+)
+;
+bool
 visitInitProp
 (
 LInitProp
