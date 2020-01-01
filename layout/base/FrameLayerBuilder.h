@@ -117,10 +117,6 @@ mDetectedDOMModification
 (
 PR_FALSE
 )
-mInvalidateAllThebesContent
-(
-PR_FALSE
-)
 mInvalidateAllLayers
 (
 PR_FALSE
@@ -230,15 +226,6 @@ InvalidateThebesLayersInSubtree
 nsIFrame
 *
 aFrame
-)
-;
-static
-void
-InvalidateAllThebesLayerContents
-(
-LayerManager
-*
-aManager
 )
 ;
 static
@@ -1013,9 +1000,6 @@ mInitialDOMGeneration
 ;
 PRPackedBool
 mDetectedDOMModification
-;
-PRPackedBool
-mInvalidateAllThebesContent
 ;
 PRPackedBool
 mInvalidateAllLayers
