@@ -712,6 +712,14 @@ len
 i
 )
 {
+if
+(
+vec
+[
+i
+]
+)
+{
 JS_SET_TRACING_INDEX
 (
 trc
@@ -729,6 +737,7 @@ i
 ]
 )
 ;
+}
 }
 }
 template

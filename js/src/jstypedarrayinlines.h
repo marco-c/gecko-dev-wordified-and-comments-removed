@@ -796,10 +796,10 @@ jsbytecode
 *
 pc
 ;
-JSScript
-*
+RootedScript
 script
-=
+(
+cx
 cx
 -
 >
@@ -809,6 +809,7 @@ currentScript
 (
 &
 pc
+)
 )
 ;
 if

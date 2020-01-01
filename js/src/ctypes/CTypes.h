@@ -1377,8 +1377,7 @@ InitTypeClasses
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 parent
 )
 ;
@@ -1435,8 +1434,7 @@ JSContext
 cx
 jsval
 val
-JSObject
-*
+JSHandleObject
 targetType
 void
 *
@@ -1781,8 +1779,7 @@ GetName
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 obj
 )
 ;

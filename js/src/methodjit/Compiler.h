@@ -1405,8 +1405,7 @@ vt
 }
 }
 ;
-JSScript
-*
+RootedScript
 outerScript
 ;
 unsigned
@@ -2429,8 +2428,7 @@ testObject
 CompileStatus
 addInlineFrame
 (
-JSScript
-*
+HandleScript
 script
 uint32_t
 depth
@@ -2453,8 +2451,7 @@ depth
 CompileStatus
 checkAnalysis
 (
-JSScript
-*
+HandleScript
 script
 )
 ;

@@ -18295,6 +18295,11 @@ nbytes
 *
 lengthp
 ;
+MaybeCheckStackRoots
+(
+cx
+)
+;
 if
 (
 js_CStringsAreUTF8

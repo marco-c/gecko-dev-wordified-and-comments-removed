@@ -3411,9 +3411,7 @@ newAllocationSiteTypeObject
 JSContext
 *
 cx
-const
 AllocationSiteKey
-&
 key
 )
 ;
