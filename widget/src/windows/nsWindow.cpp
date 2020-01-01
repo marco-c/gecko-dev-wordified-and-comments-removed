@@ -19111,7 +19111,7 @@ WM_KEYUP
 |
 aMsg
 .
-message
+wParam
 !
 =
 VK_MENU
