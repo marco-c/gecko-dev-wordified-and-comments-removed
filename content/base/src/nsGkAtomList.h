@@ -4008,6 +4008,13 @@ onabort
 )
 GK_ATOM
 (
+onafterscriptexecute
+"
+onafterscriptexecute
+"
+)
+GK_ATOM
+(
 onbeforecopy
 "
 onbeforecopy
@@ -4025,6 +4032,13 @@ GK_ATOM
 onbeforepaste
 "
 onbeforepaste
+"
+)
+GK_ATOM
+(
+onbeforescriptexecute
+"
+onbeforescriptexecute
 "
 )
 GK_ATOM

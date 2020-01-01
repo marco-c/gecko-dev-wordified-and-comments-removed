@@ -1356,6 +1356,10 @@ test_bug457746
 .
 html
 \
+test_bug587931
+.
+html
+\
 test_bug518104
 .
 html

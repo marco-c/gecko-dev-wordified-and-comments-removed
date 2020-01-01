@@ -120,6 +120,8 @@ eDOMEvents_focus
 eDOMEvents_blur
 eDOMEvents_load
 eDOMEvents_popstate
+eDOMEvents_beforescriptexecute
+eDOMEvents_afterscriptexecute
 eDOMEvents_beforeunload
 eDOMEvents_unload
 eDOMEvents_hashchange

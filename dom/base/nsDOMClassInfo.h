@@ -1298,6 +1298,14 @@ jsid
 sOnmessage_id
 ;
 static
+jsid
+sOnbeforescriptexecute_id
+;
+static
+jsid
+sOnafterscriptexecute_id
+;
+static
 JSPropertyOp
 sXPCNativeWrapperGetPropertyOp
 ;
