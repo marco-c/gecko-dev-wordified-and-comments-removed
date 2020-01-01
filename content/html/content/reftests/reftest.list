@@ -184,3 +184,13 @@ restyles
 ref
 .
 html
+=
+=
+figure
+.
+html
+figure
+-
+ref
+.
+html

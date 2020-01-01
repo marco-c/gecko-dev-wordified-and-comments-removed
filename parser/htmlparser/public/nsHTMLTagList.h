@@ -191,6 +191,14 @@ FieldSet
 )
 HTML_TAG
 (
+figcaption
+)
+HTML_TAG
+(
+figure
+)
+HTML_TAG
+(
 font
 Font
 )
