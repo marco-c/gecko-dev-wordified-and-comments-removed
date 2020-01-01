@@ -2654,7 +2654,7 @@ gCurrentTest
 =
 null
 ;
-executeSoon
+waitForAsyncUpdates
 (
 runNextTest
 )

@@ -812,14 +812,6 @@ containerOpen
 =
 false
 ;
-PlacesUtils
-.
-bhistory
-.
-removeAllPages
-(
-)
-;
 }
 function
 compareQueryToTestData

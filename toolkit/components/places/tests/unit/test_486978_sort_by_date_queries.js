@@ -772,17 +772,4 @@ shift
 (
 )
 ;
-hs
-.
-QueryInterface
-(
-Ci
-.
-nsIBrowserHistory
-)
-.
-removeAllPages
-(
-)
-;
 }
