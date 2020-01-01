@@ -68,7 +68,7 @@ NOTE
 (
 tabs
 .
-otherComputers
+otherDevices
 .
 label
 )
@@ -78,7 +78,7 @@ this
 in
 sync
 with
-syncTabsMenu
+syncTabsMenu2
 .
 label
 from
@@ -93,14 +93,14 @@ dtd
 ENTITY
 tabs
 .
-otherComputers
+otherDevices
 .
 label
 "
 Tabs
 From
 Other
-Computers
+Devices
 "
 >
 <

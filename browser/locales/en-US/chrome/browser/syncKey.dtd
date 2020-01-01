@@ -86,7 +86,7 @@ syncKey
 .
 page
 .
-description
+description2
 "
 This
 key
@@ -128,8 +128,6 @@ label
 on
 a
 new
-computer
-or
 device
 .
 "
@@ -309,7 +307,7 @@ it
 ENTITY
 syncKey
 .
-keepItSafe4
+keepItSafe4a
 .
 description
 "
@@ -333,8 +331,6 @@ you
 connect
 a
 new
-computer
-or
 device
 to
 &

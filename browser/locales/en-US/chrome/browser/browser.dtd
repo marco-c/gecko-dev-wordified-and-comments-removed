@@ -6088,7 +6088,7 @@ tabs
 LOCALIZATION
 NOTE
 (
-syncTabsMenu
+syncTabsMenu2
 .
 label
 )
@@ -6105,14 +6105,14 @@ menu
 <
 !
 ENTITY
-syncTabsMenu
+syncTabsMenu2
 .
 label
 "
 Tabs
 From
 Other
-Computers
+Devices
 "
 >
 <

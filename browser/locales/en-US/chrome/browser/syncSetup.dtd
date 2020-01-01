@@ -212,7 +212,7 @@ setup
 .
 choicePage
 .
-existing
+existing2
 .
 label
 "
@@ -230,7 +230,7 @@ label
 ;
 on
 another
-computer
+device
 "
 >
 <
@@ -1228,11 +1228,11 @@ Options
 <
 !
 ENTITY
-syncComputerName
+syncDeviceName
 .
 label
 "
-Computer
+Device
 Name
 :
 "
@@ -1240,7 +1240,7 @@ Name
 <
 !
 ENTITY
-syncComputerName
+syncDeviceName
 .
 accesskey
 "
@@ -1407,7 +1407,7 @@ A
 <
 !
 ENTITY
-choice2
+choice2a
 .
 merge
 .
@@ -1417,7 +1417,7 @@ label
 "
 Merge
 this
-computer
+device
 '
 s
 data
@@ -1451,7 +1451,7 @@ Recommended
 <
 !
 ENTITY
-choice2
+choice2a
 .
 client
 .
@@ -1464,7 +1464,7 @@ all
 data
 on
 this
-computer
+device
 with
 my
 &
@@ -1480,7 +1480,7 @@ data
 <
 !
 ENTITY
-choice2
+choice2a
 .
 server
 .
@@ -1494,7 +1494,7 @@ other
 devices
 with
 this
-computer
+device
 '
 s
 data
@@ -1527,7 +1527,7 @@ Confirm
 ENTITY
 confirm
 .
-merge
+merge2
 .
 label
 "
@@ -1543,7 +1543,7 @@ now
 merge
 all
 this
-computer
+device
 '
 s
 browser
@@ -1560,7 +1560,7 @@ account
 ENTITY
 confirm
 .
-client2
+client3
 .
 label
 "
@@ -1574,7 +1574,7 @@ brandShortName
 data
 on
 this
-computer
+device
 will
 be
 deleted
@@ -1586,7 +1586,7 @@ deleted
 ENTITY
 confirm
 .
-client
+client2
 .
 moreinfo
 .
@@ -1609,7 +1609,7 @@ label
 data
 to
 this
-computer
+device
 .
 "
 >

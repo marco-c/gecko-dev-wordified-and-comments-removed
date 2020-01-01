@@ -3001,7 +3001,7 @@ value
 =
 "
 &
-syncComputerName
+syncDeviceName
 .
 label
 ;
@@ -3010,7 +3010,7 @@ accesskey
 =
 "
 &
-syncComputerName
+syncDeviceName
 .
 accesskey
 ;
@@ -3432,7 +3432,7 @@ html
 strong
 >
 &
-choice2
+choice2a
 .
 merge
 .
@@ -3491,7 +3491,7 @@ wipeClient
 "
 >
 &
-choice2
+choice2a
 .
 client
 .
@@ -3550,7 +3550,7 @@ wipeRemote
 "
 >
 &
-choice2
+choice2a
 .
 server
 .
@@ -3646,7 +3646,7 @@ normal
 &
 confirm
 .
-merge
+merge2
 .
 label
 ;
@@ -3682,7 +3682,7 @@ normal
 &
 confirm
 .
-client2
+client3
 .
 label
 ;
@@ -3802,7 +3802,7 @@ normal
 &
 confirm
 .
-client
+client2
 .
 moreinfo
 .

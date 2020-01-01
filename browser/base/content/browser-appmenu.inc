@@ -2277,7 +2277,7 @@ label
 =
 "
 &
-syncTabsMenu
+syncTabsMenu2
 .
 label
 ;
