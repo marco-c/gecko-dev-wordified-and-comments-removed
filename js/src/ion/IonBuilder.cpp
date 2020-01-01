@@ -8164,6 +8164,14 @@ discardAllInstructions
 header
 -
 >
+discardAllResumePoints
+(
+false
+)
+;
+header
+-
+>
 setStackDepth
 (
 header
