@@ -456,7 +456,7 @@ signs
 .
 MPL
 *
-writeMakefile
+writeBuildFiles
 .
 py
 Helper
@@ -464,7 +464,10 @@ functions
 to
 write
 out
-Makefiles
+automatically
+generated
+build
+files
 .
 MPL
 *
