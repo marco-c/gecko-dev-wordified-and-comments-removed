@@ -142,6 +142,9 @@ sampler
 h
 "
 #
+ifdef
+MOZ_WIDGET_ANDROID
+#
 include
 <
 android
@@ -150,6 +153,8 @@ log
 .
 h
 >
+#
+endif
 namespace
 mozilla
 {
@@ -2312,6 +2317,9 @@ LOCAL_GL_VIEWPORT
 viewport
 )
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
 __android_log_print
 (
 ANDROID_LOG_ERROR
@@ -2351,6 +2359,8 @@ viewport
 ]
 )
 ;
+#
+endif
 static
 GLuint
 texture
