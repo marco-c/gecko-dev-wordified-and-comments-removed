@@ -757,6 +757,18 @@ mOutputPort
 =
 aOutput
 ;
+if
+(
+SupportsMediaStreams
+(
+)
+&
+&
+aDestination
+.
+mStream
+)
+{
 MOZ_ASSERT
 (
 aDestination
@@ -805,6 +817,7 @@ MediaInputPort
 FLAG_BLOCK_OUTPUT
 )
 ;
+}
 }
 void
 AudioNode
