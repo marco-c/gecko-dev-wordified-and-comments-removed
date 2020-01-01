@@ -113,6 +113,9 @@ NODE_TYPE_SPECIFIC_BITS_OFFSET
 32
 )
 ;
+#
+undef
+DATA_NODE_FLAG_BIT
 class
 nsGenericDOMDataNode
 :
