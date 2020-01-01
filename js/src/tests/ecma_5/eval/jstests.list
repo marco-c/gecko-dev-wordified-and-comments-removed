@@ -523,6 +523,16 @@ strictcode
 .
 js
 script
+line
+-
+terminator
+-
+paragraph
+-
+terminator
+.
+js
+script
 strict
 -
 eval
