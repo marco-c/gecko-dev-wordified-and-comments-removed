@@ -552,6 +552,13 @@ ico
 \
 "
 endif
+PROGRAMS_DEST
+=
+(
+DIST
+)
+/
+bin
 include
 (
 topsrcdir
