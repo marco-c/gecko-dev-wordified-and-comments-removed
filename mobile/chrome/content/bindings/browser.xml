@@ -4782,6 +4782,14 @@ this
 .
 _browser
 .
+userTypedValue
+=
+aURI
+;
+this
+.
+_browser
+.
 _contentTitle
 =
 "

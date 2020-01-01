@@ -12993,6 +12993,15 @@ lastLocation
 =
 location
 ;
+this
+.
+browser
+.
+userTypedValue
+=
+"
+"
+;
 Browser
 .
 getNotificationBox
