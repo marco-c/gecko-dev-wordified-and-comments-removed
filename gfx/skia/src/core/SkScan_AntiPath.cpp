@@ -61,6 +61,9 @@ SCALE
 -
 1
 )
+#
+define
+SK_SUPPORT_NEW_AA
 class
 BaseSuperBlitter
 :
