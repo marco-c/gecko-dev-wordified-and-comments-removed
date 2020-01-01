@@ -302,6 +302,12 @@ bool
 aAllow
 )
 ;
+virtual
+int
+IsEnabledInternal
+(
+)
+;
 private
 :
 nsresult

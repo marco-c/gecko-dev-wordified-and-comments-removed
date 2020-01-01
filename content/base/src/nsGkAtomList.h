@@ -4261,6 +4261,13 @@ onabort
 )
 GK_ATOM
 (
+onadapteradded
+"
+onadapteradded
+"
+)
+GK_ATOM
+(
 onafterprint
 "
 onafterprint

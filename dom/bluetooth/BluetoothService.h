@@ -404,6 +404,14 @@ aAllow
 =
 0
 ;
+virtual
+int
+IsEnabledInternal
+(
+)
+=
+0
+;
 nsCOMPtr
 <
 nsIThread
