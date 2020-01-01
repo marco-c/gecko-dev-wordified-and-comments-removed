@@ -231,6 +231,12 @@ VMPI_getDate
 (
 )
 extern
+size_t
+VMPI_getVMPageSize
+(
+)
+;
+extern
 void
 VMPI_setPageProtection
 (

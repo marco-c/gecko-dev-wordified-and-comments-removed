@@ -25,6 +25,15 @@ using
 namespace
 avmplus
 ;
+size_t
+VMPI_getVMPageSize
+(
+)
+{
+return
+4096
+;
+}
 #
 ifdef
 WIN32
