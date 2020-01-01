@@ -19714,6 +19714,16 @@ _createAutoScrollPopup
 ;
 this
 .
+_autoScrollPopup
+.
+id
+=
+"
+autoscroller
+"
+;
+this
+.
 appendChild
 (
 this

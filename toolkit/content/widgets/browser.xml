@@ -5201,7 +5201,7 @@ popup
 ;
 popup
 .
-id
+className
 =
 "
 autoscroller
