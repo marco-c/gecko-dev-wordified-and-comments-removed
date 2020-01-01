@@ -78,15 +78,6 @@ names
 html
 conformance
 /
-object
--
-deletion
--
-behaviour
-.
-html
-conformance
-/
 premultiplyalpha
 -
 test
