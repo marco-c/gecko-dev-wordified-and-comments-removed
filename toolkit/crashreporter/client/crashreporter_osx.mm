@@ -1734,7 +1734,7 @@ updateEmail
 (
 void
 )
-textDidEndEditing
+textDidChange
 :
 (
 NSNotification

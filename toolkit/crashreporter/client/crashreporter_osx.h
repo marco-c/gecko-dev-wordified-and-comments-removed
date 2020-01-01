@@ -295,7 +295,7 @@ note
 (
 void
 )
-textDidEndEditing
+textDidChange
 :
 (
 NSNotification
