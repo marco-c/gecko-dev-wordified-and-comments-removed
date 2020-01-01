@@ -7467,14 +7467,6 @@ NS_ERROR_OUT_OF_MEMORY
 mCSSLoader
 -
 >
-SetCaseSensitive
-(
-PR_TRUE
-)
-;
-mCSSLoader
--
->
 SetCompatibilityMode
 (
 eCompatibility_FullStandards

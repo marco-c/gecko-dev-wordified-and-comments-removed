@@ -129,15 +129,6 @@ void
 0
 ;
 NS_IMETHOD
-SetCaseSensitive
-(
-PRBool
-aCaseSensitive
-)
-=
-0
-;
-NS_IMETHOD
 SetCompatibilityMode
 (
 nsCompatibility

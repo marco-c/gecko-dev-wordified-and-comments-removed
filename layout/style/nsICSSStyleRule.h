@@ -390,7 +390,10 @@ PRInt32
 aNameSpace
 nsIAtom
 *
-aAttr
+aLowercaseAttr
+nsIAtom
+*
+aCasedAttr
 PRUint8
 aFunction
 const
@@ -432,7 +435,13 @@ nsCOMPtr
 <
 nsIAtom
 >
-mAttr
+mLowercaseAttr
+;
+nsCOMPtr
+<
+nsIAtom
+>
+mCasedAttr
 ;
 PRInt32
 mNameSpace
@@ -526,8 +535,6 @@ const
 nsString
 &
 aTag
-PRBool
-aCaseSensitive
 )
 ;
 void

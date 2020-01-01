@@ -830,14 +830,6 @@ sCSSParser
 sCSSParser
 -
 >
-SetCaseSensitive
-(
-PR_TRUE
-)
-;
-sCSSParser
--
->
 SetQuirkMode
 (
 PR_FALSE

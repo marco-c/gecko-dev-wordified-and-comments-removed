@@ -649,13 +649,6 @@ void
 )
 ;
 NS_IMETHOD
-SetCaseSensitive
-(
-PRBool
-aCaseSensitive
-)
-;
-NS_IMETHOD
 SetCompatibilityMode
 (
 nsCompatibility
@@ -1135,9 +1128,6 @@ mSyncCallback
 ;
 #
 endif
-PRPackedBool
-mCaseSensitive
-;
 PRPackedBool
 mEnabled
 ;
