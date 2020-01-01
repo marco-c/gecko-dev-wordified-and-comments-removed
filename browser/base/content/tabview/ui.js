@@ -4108,6 +4108,14 @@ redo
 "
 #
 endif
+#
+ifdef
+XP_MACOSX
+"
+fullScreen
+"
+#
+endif
 "
 closeWindow
 "
