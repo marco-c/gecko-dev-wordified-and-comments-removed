@@ -404,6 +404,7 @@ js_ignoreCase_str
 js_index_str
 js_input_str
 js_iterator_str
+js_join_str
 js_lastIndex_str
 js_length_str
 js_lineNumber_str
@@ -727,6 +728,16 @@ js_iterator_str
 =
 "
 __iterator__
+"
+;
+const
+char
+js_join_str
+[
+]
+=
+"
+join
 "
 ;
 const

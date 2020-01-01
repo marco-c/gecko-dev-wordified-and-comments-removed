@@ -1,4 +1,10 @@
 include
+Array
+/
+jstests
+.
+list
+include
 Date
 /
 jstests
