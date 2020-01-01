@@ -57,6 +57,13 @@ util
 HashMap
 ;
 import
+java
+.
+util
+.
+Locale
+;
+import
 org
 .
 mozilla
@@ -897,6 +904,9 @@ utf8
 .
 toLowerCase
 (
+Locale
+.
+US
 )
 ;
 }
