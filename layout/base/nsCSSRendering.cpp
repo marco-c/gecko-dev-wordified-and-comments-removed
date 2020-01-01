@@ -22282,7 +22282,7 @@ NewPath
 aGfxContext
 -
 >
-LineTo
+MoveTo
 (
 rect
 .
@@ -22294,7 +22294,7 @@ TopLeft
 aGfxContext
 -
 >
-MoveTo
+LineTo
 (
 rect
 .
