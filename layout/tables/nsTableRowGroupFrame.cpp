@@ -1779,10 +1779,7 @@ kidAvailSize
 1
 -
 1
-nsHTMLReflowState
-:
-:
-CALLER_WILL_INIT
+false
 )
 ;
 InitChildReflowState
@@ -4779,10 +4776,7 @@ rowAvailSize
 1
 -
 1
-nsHTMLReflowState
-:
-:
-CALLER_WILL_INIT
+false
 )
 ;
 InitChildReflowState
@@ -5450,10 +5444,7 @@ availSize
 1
 -
 1
-nsHTMLReflowState
-:
-:
-CALLER_WILL_INIT
+false
 )
 ;
 InitChildReflowState
