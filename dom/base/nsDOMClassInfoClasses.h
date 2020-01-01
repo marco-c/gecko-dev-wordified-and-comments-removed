@@ -360,10 +360,6 @@ SVGFEDisplacementMapElement
 )
 DOMCI_CLASS
 (
-SVGFEDistantLightElement
-)
-DOMCI_CLASS
-(
 SVGFEGaussianBlurElement
 )
 DOMCI_CLASS

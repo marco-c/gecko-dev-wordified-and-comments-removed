@@ -711,6 +711,10 @@ SVGFEBlendElement
 .
 webidl
 \
+SVGFEDistantLightElement
+.
+webidl
+\
 SVGFEFloodElement
 .
 webidl
