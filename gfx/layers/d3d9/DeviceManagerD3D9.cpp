@@ -2262,11 +2262,8 @@ Reset
 ;
 }
 mVB
--
->
-Release
-(
-)
+=
+nsnull
 ;
 D3DPRESENT_PARAMETERS
 pp
