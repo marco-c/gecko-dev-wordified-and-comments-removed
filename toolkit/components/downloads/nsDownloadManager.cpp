@@ -257,7 +257,7 @@ h
 endif
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 <
@@ -529,7 +529,7 @@ gDownloadManagerService
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 g_type_init
 (
@@ -12892,7 +12892,7 @@ MOZ_WIDGET_ANDROID
 |
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 nsCOMPtr
 <
@@ -12959,7 +12959,7 @@ XP_WIN
 |
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 {
 bool
@@ -13009,7 +13009,7 @@ get
 elif
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 GtkRecentManager
 *
