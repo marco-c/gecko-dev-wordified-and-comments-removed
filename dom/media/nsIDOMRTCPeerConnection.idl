@@ -454,6 +454,10 @@ onaddstream
 ;
 attribute
 RTCPeerConnectionCallback
+onopen
+;
+attribute
+RTCPeerConnectionCallback
 onremovestream
 ;
 attribute
