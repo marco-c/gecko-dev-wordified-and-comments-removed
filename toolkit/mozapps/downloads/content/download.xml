@@ -1181,6 +1181,9 @@ class
 =
 "
 cancel
+mini
+-
+button
 "
 tooltiptext
 =
@@ -1425,6 +1428,9 @@ class
 =
 "
 pause
+mini
+-
+button
 "
 tooltiptext
 =
@@ -1452,6 +1458,9 @@ class
 =
 "
 cancel
+mini
+-
+button
 "
 tooltiptext
 =
@@ -1741,6 +1750,9 @@ class
 =
 "
 resume
+mini
+-
+button
 "
 tooltiptext
 =
@@ -1768,6 +1780,9 @@ class
 =
 "
 cancel
+mini
+-
+button
 "
 tooltiptext
 =
@@ -2050,6 +2065,9 @@ class
 =
 "
 open
+mini
+-
+button
 "
 tooltiptext
 =
@@ -2077,6 +2095,9 @@ class
 =
 "
 info
+mini
+-
+button
 "
 tooltiptext
 =
@@ -2320,6 +2341,9 @@ class
 =
 "
 retry
+mini
+-
+button
 "
 tooltiptext
 =
@@ -2347,6 +2371,9 @@ class
 =
 "
 info
+mini
+-
+button
 "
 tooltiptext
 =
@@ -2585,6 +2612,9 @@ class
 =
 "
 retry
+mini
+-
+button
 "
 tooltiptext
 =
@@ -2612,6 +2642,9 @@ class
 =
 "
 info
+mini
+-
+button
 "
 tooltiptext
 =

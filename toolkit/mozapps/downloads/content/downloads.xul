@@ -1755,6 +1755,13 @@ information
 -
 uri
 "
+class
+=
+"
+mini
+-
+button
+"
 flex
 =
 "
@@ -1780,6 +1787,13 @@ id
 information
 -
 location
+"
+class
+=
+"
+mini
+-
+button
 "
 flex
 =
