@@ -7992,6 +7992,15 @@ GetRequestMethod
 method
 )
 ;
+if
+(
+!
+IsSystemPrincipal
+(
+mPrincipal
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -8017,6 +8026,7 @@ SetReferrer
 codebase
 )
 ;
+}
 }
 if
 (
