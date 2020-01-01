@@ -286,16 +286,6 @@ updated
 "
 #
 define
-TOPIC_FRECENCY_UPDATED
-"
-places
--
-frecency
--
-updated
-"
-#
-define
 TOPIC_PLACES_SHUTDOWN
 "
 places
