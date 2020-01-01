@@ -2682,7 +2682,7 @@ rt
 >
 reduceGCTriggerBytes
 (
-3
+GC_HEAP_GROWTH_FACTOR
 *
 sizeof
 (
@@ -2698,7 +2698,7 @@ comp
 >
 reduceGCTriggerBytes
 (
-3
+GC_HEAP_GROWTH_FACTOR
 *
 sizeof
 (

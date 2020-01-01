@@ -2858,11 +2858,6 @@ destroyChunkCount
 =
 0
 ;
-uint32
-arenaCount
-=
-0
-;
 GCTimer
 :
 :
@@ -3146,7 +3141,6 @@ n
 "
 newChunkCount
 destroyChunkCount
-arenaCount
 )
 ;
 fflush
