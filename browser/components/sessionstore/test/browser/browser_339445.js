@@ -38,6 +38,7 @@ browser_339445_sample
 .
 html
 "
+;
 let
 tab
 =
