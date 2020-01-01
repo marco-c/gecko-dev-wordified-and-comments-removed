@@ -735,6 +735,10 @@ test_chromeWorker
 .
 xul
 \
+test_chromeWorkerComponent
+.
+xul
+\
 chromeWorker_worker
 .
 js
