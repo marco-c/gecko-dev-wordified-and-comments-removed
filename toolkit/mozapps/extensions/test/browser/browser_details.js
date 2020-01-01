@@ -258,6 +258,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 Services
 .
 prefs
