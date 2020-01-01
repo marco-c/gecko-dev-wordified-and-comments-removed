@@ -2699,13 +2699,6 @@ frameworks
 base
 /
 include
--
-I
-gonkdir
-/
-external
-/
-dbus
 CPPFLAGS
 -
 I

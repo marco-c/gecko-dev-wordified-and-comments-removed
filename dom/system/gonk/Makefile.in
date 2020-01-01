@@ -199,16 +199,6 @@ I
 topsrcdir
 )
 /
-dom
-/
-bluetooth
-\
--
-I
-(
-topsrcdir
-)
-/
 content
 /
 events
