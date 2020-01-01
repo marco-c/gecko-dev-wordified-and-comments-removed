@@ -2875,7 +2875,7 @@ label
 &
 cmd
 .
-restartApp
+restartApp2
 .
 label
 ;
@@ -2886,7 +2886,7 @@ accesskey
 &
 cmd
 .
-restartApp
+restartApp2
 .
 accesskey
 ;
@@ -2897,7 +2897,7 @@ tooltiptext
 &
 cmd
 .
-restartApp
+restartApp2
 .
 tooltip
 ;
