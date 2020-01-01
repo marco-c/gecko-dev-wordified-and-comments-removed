@@ -3576,7 +3576,7 @@ GetCompatibilityMode
 =
 =
 eCompatibility_NavQuirks
-PR_TRUE
+true
 )
 ;
 parent
@@ -3709,7 +3709,7 @@ CreateContextualFragment
 (
 context
 aOuterHTML
-PR_TRUE
+true
 getter_AddRefs
 (
 df
