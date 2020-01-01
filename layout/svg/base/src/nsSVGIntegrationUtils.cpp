@@ -902,6 +902,9 @@ aBuilder
 nsDisplayList
 *
 aInnerList
+nsIFrame
+*
+aFrame
 const
 nsPoint
 &
@@ -915,6 +918,10 @@ aBuilder
 mInnerList
 (
 aInnerList
+)
+mFrame
+(
+aFrame
 )
 mOffset
 (
@@ -970,10 +977,11 @@ y
 mInnerList
 -
 >
-Paint
+PaintForFrame
 (
 mBuilder
 ctx
+mFrame
 nsDisplayList
 :
 :
@@ -990,6 +998,10 @@ mBuilder
 nsDisplayList
 *
 mInnerList
+;
+nsIFrame
+*
+mFrame
 ;
 nsPoint
 mOffset
@@ -1344,6 +1356,7 @@ paint
 (
 aBuilder
 aInnerList
+aEffectsFrame
 userSpaceRect
 .
 TopLeft
@@ -1397,10 +1410,11 @@ savedCTM
 aInnerList
 -
 >
-Paint
+PaintForFrame
 (
 aBuilder
 aCtx
+aEffectsFrame
 nsDisplayList
 :
 :
