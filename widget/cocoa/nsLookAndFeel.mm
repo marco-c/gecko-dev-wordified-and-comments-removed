@@ -2198,6 +2198,8 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
+float
+aDevPixPerCSSPixel
 )
 {
 /
@@ -2242,6 +2244,8 @@ aFontStyle
 size
 =
 14
+*
+aDevPixPerCSSPixel
 ;
 aFontStyle
 .
@@ -2793,6 +2797,16 @@ NS_FONT_STRETCH_CONDENSED
 :
 NS_FONT_STRETCH_NORMAL
 ;
+/
+/
+convert
+size
+from
+css
+pixels
+to
+device
+pixels
 aFontStyle
 .
 size
@@ -2801,6 +2815,8 @@ size
 font
 pointSize
 ]
+*
+aDevPixPerCSSPixel
 ;
 aFontStyle
 .

@@ -2981,6 +2981,8 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
+float
+aDevPixPerCSSPixel
 )
 {
 nsString

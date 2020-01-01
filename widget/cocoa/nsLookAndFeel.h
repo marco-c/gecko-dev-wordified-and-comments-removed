@@ -74,6 +74,8 @@ aFontName
 gfxFontStyle
 &
 aFontStyle
+float
+aDevPixPerCSSPixel
 )
 ;
 virtual
