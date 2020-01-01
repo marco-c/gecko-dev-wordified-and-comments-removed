@@ -501,9 +501,6 @@ using
 nsHttpResponseHead
 ;
 using
-nsHttpAtom
-;
-using
 IPC
 :
 :
@@ -664,7 +661,7 @@ PRUint32
 loadFlags
 RequestHeaderTuples
 requestHeaders
-nsHttpAtom
+nsCString
 requestMethod
 InputStream
 uploadStream

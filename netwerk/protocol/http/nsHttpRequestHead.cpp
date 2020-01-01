@@ -22,10 +22,9 @@ buf
 .
 Append
 (
-mMethod
-.
-get
+nsAtomCString
 (
+mMethod
 )
 )
 ;
