@@ -3139,6 +3139,8 @@ sendChromeEvent
 type
 :
 "
+bluetooth
+-
 volumeset
 "
 value
