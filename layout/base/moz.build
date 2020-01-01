@@ -187,6 +187,11 @@ FramePropertyTable
 h
 '
 '
+ScrollbarStyles
+.
+h
+'
+'
 StackArena
 .
 h

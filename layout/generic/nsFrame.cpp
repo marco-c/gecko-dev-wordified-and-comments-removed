@@ -34840,9 +34840,6 @@ GetScrollbarStyles
 )
 !
 =
-nsIScrollableFrame
-:
-:
 ScrollbarStyles
 (
 NS_STYLE_OVERFLOW_HIDDEN

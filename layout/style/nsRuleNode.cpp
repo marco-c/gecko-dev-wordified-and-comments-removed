@@ -920,9 +920,6 @@ if
 scrollFrame
 )
 {
-nsPresContext
-:
-:
 ScrollbarStyles
 styles
 (

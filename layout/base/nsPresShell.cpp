@@ -13519,9 +13519,6 @@ GetLineScrollAmount
 )
 ;
 }
-nsPresContext
-:
-:
 ScrollbarStyles
 ss
 =

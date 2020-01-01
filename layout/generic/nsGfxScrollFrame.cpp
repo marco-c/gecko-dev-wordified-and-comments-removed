@@ -723,9 +723,6 @@ mReflowState
 nsBoxLayoutState
 mBoxState
 ;
-nsGfxScrollFrameInner
-:
-:
 ScrollbarStyles
 mStyles
 ;
@@ -2818,9 +2815,6 @@ nsRenderingContext
 aRenderingContext
 )
 {
-nsGfxScrollFrameInner
-:
-:
 ScrollbarStyles
 ss
 =
@@ -3811,9 +3805,6 @@ GetScrollbarStyles
 )
 =
 =
-nsIScrollableFrame
-:
-:
 ScrollbarStyles
 (
 NS_STYLE_OVERFLOW_HIDDEN
@@ -4717,9 +4708,6 @@ GetPrefSize
 aState
 )
 ;
-nsGfxScrollFrameInner
-:
-:
 ScrollbarStyles
 styles
 =
@@ -4883,9 +4871,6 @@ GetMinSizeForScrollArea
 aState
 )
 ;
-nsGfxScrollFrameInner
-:
-:
 ScrollbarStyles
 styles
 =
@@ -10338,9 +10323,6 @@ break
 ;
 }
 }
-nsGfxScrollFrameInner
-:
-:
 ScrollbarStyles
 nsGfxScrollFrameInner
 :

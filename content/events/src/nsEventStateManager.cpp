@@ -11307,9 +11307,6 @@ return
 frameToScroll
 ;
 }
-nsPresContext
-:
-:
 ScrollbarStyles
 ss
 =
@@ -11857,9 +11854,6 @@ aEvent
 scrollAmountInDevPixels
 )
 ;
-nsPresContext
-:
-:
 ScrollbarStyles
 overflowStyle
 =

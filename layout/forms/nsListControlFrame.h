@@ -355,7 +355,7 @@ false
 MOZ_OVERRIDE
 ;
 virtual
-nsGfxScrollFrameInner
+mozilla
 :
 :
 ScrollbarStyles
