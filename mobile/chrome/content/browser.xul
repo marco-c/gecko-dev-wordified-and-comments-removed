@@ -3592,10 +3592,6 @@ this
 controller
 .
 searchString
-!
-=
-'
-'
 )
 ;
 "
@@ -3613,6 +3609,11 @@ flex
 "
 1
 "
+readonly
+=
+"
+true
+"
 ontextentered
 =
 "
@@ -3622,11 +3623,6 @@ goToURI
 (
 )
 ;
-"
-readonly
-=
-"
-true
 "
 clickSelectsAll
 =
@@ -7607,6 +7603,9 @@ true
 "
 /
 >
+#
+ifdef
+MOZ_SERVICES_SYNC
 <
 remotetabslist
 id
@@ -7638,6 +7637,8 @@ true
 "
 /
 >
+#
+endif
 <
 /
 vbox

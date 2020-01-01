@@ -1592,6 +1592,17 @@ edit
 not
 (
 [
+readonly
+=
+"
+true
+"
+]
+)
+:
+not
+(
+[
 open
 ]
 )
