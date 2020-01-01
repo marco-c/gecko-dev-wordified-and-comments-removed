@@ -105,16 +105,6 @@ MOZ_JS_LIBS
 (
 NULL
 )
-EXTRA_JS_MODULES
-=
-\
-jsdebugger
-.
-jsm
-\
-(
-NULL
-)
 include
 (
 topsrcdir

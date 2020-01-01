@@ -153,6 +153,15 @@ libraries
 h
 '
 ]
+EXTRA_JS_MODULES
+=
+[
+'
+Profiler
+.
+jsm
+'
+]
 CPP_SOURCES
 +
 =

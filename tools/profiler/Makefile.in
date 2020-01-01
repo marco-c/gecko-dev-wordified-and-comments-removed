@@ -184,16 +184,6 @@ MOZ_OPTIMIZE_FLAGS
 O0
 -
 g
-EXTRA_JS_MODULES
-=
-\
-Profiler
-.
-jsm
-\
-(
-NULL
-)
 ifeq
 (
 (

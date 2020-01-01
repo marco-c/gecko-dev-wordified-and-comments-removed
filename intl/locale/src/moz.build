@@ -205,3 +205,13 @@ LIBRARY_NAME
 '
 nslocale_s
 '
+EXTRA_JS_MODULES
++
+=
+[
+'
+PluralForm
+.
+jsm
+'
+]

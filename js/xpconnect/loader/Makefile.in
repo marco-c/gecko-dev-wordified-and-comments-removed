@@ -130,14 +130,6 @@ src
 (
 NULL
 )
-EXTRA_JS_MODULES
-=
-XPCOMUtils
-.
-jsm
-ISO8601DateUtils
-.
-jsm
 include
 (
 topsrcdir

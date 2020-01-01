@@ -818,3 +818,13 @@ contentSecurityPolicy
 js
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+CSPUtils
+.
+jsm
+'
+]

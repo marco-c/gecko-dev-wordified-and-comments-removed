@@ -164,16 +164,6 @@ manifest
 (
 NULL
 )
-EXTRA_JS_MODULES
-=
-\
-CSPUtils
-.
-jsm
-\
-(
-NULL
-)
 include
 (
 topsrcdir

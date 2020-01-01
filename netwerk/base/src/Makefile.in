@@ -168,16 +168,6 @@ MOZ_QT_CFLAGS
 )
 endif
 endif
-EXTRA_JS_MODULES
-=
-\
-NetUtil
-.
-jsm
-\
-(
-NULL
-)
 #
 we
 don

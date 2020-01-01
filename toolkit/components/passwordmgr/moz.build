@@ -197,3 +197,13 @@ mozStorage
 js
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+LoginManagerContent
+.
+jsm
+'
+]

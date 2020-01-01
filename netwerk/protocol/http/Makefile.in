@@ -149,16 +149,6 @@ src
 (
 NULL
 )
-EXTRA_JS_MODULES
-=
-\
-UserAgentOverrides
-.
-jsm
-\
-(
-NULL
-)
 include
 (
 topsrcdir

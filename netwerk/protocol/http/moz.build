@@ -410,3 +410,13 @@ nsHttpTransaction
 cpp
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+UserAgentOverrides
+.
+jsm
+'
+]

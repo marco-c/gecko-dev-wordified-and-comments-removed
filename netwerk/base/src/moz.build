@@ -547,3 +547,13 @@ nsAutodialQt
 cpp
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+NetUtil
+.
+jsm
+'
+]
