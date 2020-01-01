@@ -116,9 +116,6 @@ PPluginScriptableObjectParent
 *
 PPluginScriptableObjectConstructor
 (
-NPError
-*
-_retval
 )
 ;
 virtual
@@ -128,9 +125,6 @@ PPluginScriptableObjectDestructor
 PPluginScriptableObjectParent
 *
 aObject
-NPError
-*
-_retval
 )
 ;
 virtual
