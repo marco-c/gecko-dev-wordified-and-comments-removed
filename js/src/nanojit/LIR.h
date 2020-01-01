@@ -3052,6 +3052,14 @@ int32_t
 size
 )
 {
+NanoAssert
+(
+size
+!
+=
+0
+)
+;
 return
 out
 -
