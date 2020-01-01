@@ -2672,6 +2672,11 @@ nsIAccessibleStates
 :
 :
 STATE_INVISIBLE
+|
+nsIAccessibleStates
+:
+:
+STATE_COLLAPSED
 )
 ;
 return
