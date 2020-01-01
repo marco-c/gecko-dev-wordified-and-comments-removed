@@ -1368,6 +1368,16 @@ SetDefaultValueAsValue
 (
 )
 ;
+virtual
+void
+SetDirectionIfAuto
+(
+bool
+aAuto
+bool
+aNotify
+)
+;
 bool
 ShouldShowValidityUI
 (

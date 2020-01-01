@@ -1816,6 +1816,13 @@ dir
 )
 GK_ATOM
 (
+dirAutoSetBy
+"
+dirAutoSetBy
+"
+)
+GK_ATOM
+(
 directionality
 "
 directionality
@@ -7243,6 +7250,13 @@ GK_ATOM
 textnode
 "
 textnode
+"
+)
+GK_ATOM
+(
+textNodeDirectionalityMap
+"
+textNodeDirectionalityMap
 "
 )
 GK_ATOM
