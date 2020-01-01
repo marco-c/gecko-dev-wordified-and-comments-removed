@@ -929,6 +929,11 @@ setChromeContext
 )
 ;
 "
+disabled
+=
+"
+true
+"
 /
 >
 <
@@ -951,6 +956,11 @@ openErrorConsole
 (
 )
 ;
+"
+disabled
+=
+"
+true
 "
 /
 >
@@ -2465,6 +2475,11 @@ context
 -
 menu
 "
+hidden
+=
+"
+true
+"
 label
 =
 "
@@ -2651,6 +2666,11 @@ ws
 menu
 -
 errorConsole
+"
+hidden
+=
+"
+true
 "
 label
 =
