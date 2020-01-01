@@ -13247,16 +13247,6 @@ preprocess_file_template
 1
 )
 (
-call
-mkdir_deps
-(
-dir
-(
-2
-)
-)
-)
-(
 GLOBAL_DEPS
 )
 (
@@ -13291,7 +13281,8 @@ XULPPFLAGS
 "
 <
 "
->
+-
+o
 "
 "
 (
