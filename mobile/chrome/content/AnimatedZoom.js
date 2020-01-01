@@ -272,6 +272,8 @@ zoomLevel
 ;
 contentView
 .
+_contentView
+.
 scrollTo
 (
 nextRect
