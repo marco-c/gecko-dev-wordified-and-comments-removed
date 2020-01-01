@@ -435,9 +435,6 @@ idl
 interface
 nsIDOMOfflineResourceList
 ;
-interface
-nsIDOMLoadStatusList
-;
 [
 scriptable
 uuid

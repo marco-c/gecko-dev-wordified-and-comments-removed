@@ -1669,9 +1669,7 @@ NS_IF_ADDREF
 *
 aFile
 =
-mFiles
-.
-SafeObjectAt
+GetItemAt
 (
 aIndex
 )

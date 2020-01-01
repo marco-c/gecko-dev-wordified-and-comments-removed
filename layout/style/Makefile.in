@@ -585,6 +585,10 @@ nsICSSRule
 .
 h
 \
+nsICSSRuleList
+.
+h
+\
 nsICSSStyleRule
 .
 h

@@ -429,10 +429,6 @@ nsIDOMOfflineResourceList
 .
 idl
 \
-nsIDOMLoadStatusList
-.
-idl
-\
 nsIDOMLoadStatus
 .
 idl

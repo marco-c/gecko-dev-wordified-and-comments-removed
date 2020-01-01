@@ -682,10 +682,6 @@ nsGenericDOMDataNode
 .
 cpp
 \
-nsGenericDOMNodeList
-.
-cpp
-\
 nsGenericElement
 .
 cpp

@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsGenericDOMNodeList
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

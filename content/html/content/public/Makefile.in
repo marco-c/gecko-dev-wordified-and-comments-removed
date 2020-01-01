@@ -502,6 +502,10 @@ nsHTMLVideoElement
 .
 h
 \
+nsIHTMLCollection
+.
+h
+\
 (
 NULL
 )
