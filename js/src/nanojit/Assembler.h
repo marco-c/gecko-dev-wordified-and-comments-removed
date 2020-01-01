@@ -394,7 +394,7 @@ bool
 outputAddr
 vpad
 [
-3
+2
 ]
 ;
 void
@@ -882,6 +882,10 @@ _nIns
 NIns
 *
 _nExitIns
+;
+NIns
+*
+_startingIns
 ;
 NIns
 *
