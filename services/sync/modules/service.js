@@ -3176,7 +3176,7 @@ prefs
 getBoolPref
 (
 "
-syncOnQuit
+waitOnQuit
 .
 enabled
 "
