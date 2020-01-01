@@ -343,6 +343,9 @@ mCompositionStart
 nsString
 mDispatchedCompositionString
 ;
+nsString
+mSelectedString
+;
 GdkEventKey
 *
 mProcessingKeyEvent
