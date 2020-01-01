@@ -1998,6 +1998,17 @@ rv
 return
 STATE_TRANSFER
 ;
+if
+(
+rv
+!
+=
+NS_BASE_STREAM_CLOSED
+)
+mStatus
+=
+rv
+;
 }
 }
 return
