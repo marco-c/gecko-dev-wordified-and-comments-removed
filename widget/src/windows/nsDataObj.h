@@ -183,6 +183,7 @@ CFSTR_INETURLA
 #
 define
 CFSTR_INETURLA
+L
 "
 UniformResourceLocator
 "
@@ -194,6 +195,7 @@ CFSTR_INETURLW
 #
 define
 CFSTR_INETURLW
+L
 "
 UniformResourceLocatorW
 "
@@ -205,6 +207,7 @@ CFSTR_FILEDESCRIPTORA
 #
 define
 CFSTR_FILEDESCRIPTORA
+L
 "
 FileGroupDescriptor
 "
@@ -216,6 +219,7 @@ CFSTR_FILEDESCRIPTORW
 #
 define
 CFSTR_FILEDESCRIPTORW
+L
 "
 FileGroupDescriptorW
 "
