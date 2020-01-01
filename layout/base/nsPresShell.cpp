@@ -10209,6 +10209,19 @@ rootFrame
 return
 NS_OK
 ;
+if
+(
+!
+GetPresContext
+(
+)
+-
+>
+SupressingResizeReflow
+(
+)
+)
+{
 NS_ASSERTION
 (
 mViewManager
@@ -10313,6 +10326,7 @@ EndUpdateViewBatch
 NS_VMREFRESH_NO_SYNC
 )
 ;
+}
 if
 (
 !
