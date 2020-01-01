@@ -184,8 +184,7 @@ cx
 {
 SetBuiltinError
 (
-&
-JS_TRACE_MONITOR
+JS_TRACE_MONITOR_FROM_CONTEXT
 (
 cx
 )

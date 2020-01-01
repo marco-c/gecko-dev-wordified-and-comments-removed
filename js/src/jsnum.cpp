@@ -1691,8 +1691,7 @@ TraceMonitor
 *
 tm
 =
-&
-JS_TRACE_MONITOR
+JS_TRACE_MONITOR_ON_TRACE
 (
 cx
 )
@@ -2482,8 +2481,7 @@ TraceMonitor
 *
 tm
 =
-&
-JS_TRACE_MONITOR
+JS_TRACE_MONITOR_ON_TRACE
 (
 cx
 )
