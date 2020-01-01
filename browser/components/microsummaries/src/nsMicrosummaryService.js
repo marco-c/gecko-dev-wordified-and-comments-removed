@@ -9952,6 +9952,16 @@ allowImages
 =
 false
 ;
+this
+.
+_iframe
+.
+docShell
+.
+allowDNSPrefetch
+=
+false
+;
 var
 parseHandler
 =
