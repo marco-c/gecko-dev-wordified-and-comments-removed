@@ -20190,11 +20190,6 @@ GetDocumentCharacterSet
 aCharacterSet
 )
 ;
-ToLowerCase
-(
-aCharacterSet
-)
-;
 return
 NS_OK
 ;
