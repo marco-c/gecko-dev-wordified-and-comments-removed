@@ -561,6 +561,10 @@ mSocketCreated
 (
 false
 )
+mOCSPStaplingEnabled
+(
+false
+)
 {
 mIOLayerHelpers
 .
