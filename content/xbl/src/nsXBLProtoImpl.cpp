@@ -463,6 +463,12 @@ cx
 globalObject
 )
 ;
+NS_ENSURE_TRUE
+(
+scopeObject
+NS_ERROR_OUT_OF_MEMORY
+)
+;
 if
 (
 scopeObject

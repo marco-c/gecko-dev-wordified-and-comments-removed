@@ -1188,6 +1188,12 @@ EnsureXBLScope
 cx
 )
 ;
+NS_ENSURE_TRUE
+(
+scope
+nullptr
+)
+;
 scope
 =
 js
