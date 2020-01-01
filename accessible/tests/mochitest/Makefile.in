@@ -518,9 +518,14 @@ test_actions_aria
 .
 html
 \
+(
+warning
 test_actions_inputs
 .
 html
+temporarily
+disabled
+)
 \
 test_actions
 .
