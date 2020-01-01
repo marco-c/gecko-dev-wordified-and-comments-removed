@@ -849,7 +849,7 @@ entered
 (
 obj
 .
-entered
+mEntered
 )
 #
 endif
