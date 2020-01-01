@@ -5892,6 +5892,16 @@ this
 )
 )
 ;
+mDefaultJSOptions
+|
+=
+:
+:
+JS_GetOptions
+(
+mContext
+)
+;
 :
 :
 JS_SetOptions
