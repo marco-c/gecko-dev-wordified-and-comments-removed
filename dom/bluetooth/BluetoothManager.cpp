@@ -460,7 +460,10 @@ bs
 >
 RegisterBluetoothSignalHandler
 (
-mPath
+NS_LITERAL_STRING
+(
+KEY_MANAGER
+)
 this
 )
 ;
@@ -494,7 +497,10 @@ bs
 >
 UnregisterBluetoothSignalHandler
 (
-mPath
+NS_LITERAL_STRING
+(
+KEY_MANAGER
+)
 this
 )
 ;

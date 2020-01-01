@@ -245,10 +245,6 @@ virtual
 nsresult
 StopDiscoveryInternal
 (
-const
-nsAString
-&
-aAdapterPath
 BluetoothReplyRunnable
 *
 aRunnable
@@ -260,10 +256,6 @@ virtual
 nsresult
 StartDiscoveryInternal
 (
-const
-nsAString
-&
-aAdapterPath
 BluetoothReplyRunnable
 *
 aRunnable
@@ -289,10 +281,6 @@ SetProperty
 (
 BluetoothObjectType
 aType
-const
-nsAString
-&
-aPath
 const
 BluetoothNamedValue
 &
@@ -330,10 +318,6 @@ CreatePairedDeviceInternal
 const
 nsAString
 &
-aAdapterPath
-const
-nsAString
-&
 aAddress
 int
 aTimeout
@@ -348,10 +332,6 @@ virtual
 nsresult
 RemoveDeviceInternal
 (
-const
-nsAString
-&
-aAdapterPath
 const
 nsAString
 &
@@ -496,10 +476,6 @@ virtual
 nsresult
 PrepareAdapterInternal
 (
-const
-nsAString
-&
-aPath
 )
 =
 0
@@ -512,10 +488,6 @@ const
 nsAString
 &
 aDeviceAddress
-const
-nsAString
-&
-aAdapterPath
 uint16_t
 aProfileId
 BluetoothReplyRunnable
