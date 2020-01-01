@@ -9519,7 +9519,7 @@ mRetainingManager
 >
 Dump
 (
-stderr
+stdout
 )
 ;
 }

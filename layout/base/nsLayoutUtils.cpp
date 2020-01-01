@@ -6152,7 +6152,7 @@ gDumpEventList
 {
 fprintf
 (
-stderr
+stdout
 "
 Event
 handling
@@ -7674,7 +7674,7 @@ gDumpPaintList
 {
 fprintf
 (
-stderr
+stdout
 "
 Painting
 -
@@ -7946,7 +7946,7 @@ gDumpPaintList
 {
 fprintf
 (
-stderr
+stdout
 "
 Painting
 -
@@ -7972,7 +7972,7 @@ list
 ;
 fprintf
 (
-stderr
+stdout
 "
 Painting
 -
