@@ -522,11 +522,6 @@ dom
 /
 indexedDB
 '
-nsIIDBKeyRange
-.
-*
-'
-'
 nsIIndexedDatabaseManager
 .
 *

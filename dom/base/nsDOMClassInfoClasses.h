@@ -278,10 +278,6 @@ ChromeMessageSender
 )
 DOMCI_CLASS
 (
-IDBKeyRange
-)
-DOMCI_CLASS
-(
 MozCSSKeyframeRule
 )
 DOMCI_CLASS
