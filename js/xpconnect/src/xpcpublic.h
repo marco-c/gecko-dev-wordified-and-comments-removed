@@ -290,17 +290,6 @@ JSRuntime
 rt
 )
 ;
-nsresult
-xpc_MorphSlimWrapper
-(
-JSContext
-*
-cx
-nsISupports
-*
-tomorph
-)
-;
 static
 inline
 bool
