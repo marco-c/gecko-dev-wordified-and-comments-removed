@@ -4024,13 +4024,6 @@ NS_BINDING_ABORTED
 ;
 }
 }
-mImage
--
->
-RequestDecode
-(
-)
-;
 PRUint32
 bytesRead
 ;
