@@ -466,6 +466,10 @@ mk
 CMMSRCS
 =
 \
+smslib
+.
+mm
+\
 nsDeviceMotionSystem
 .
 mm
