@@ -11923,6 +11923,15 @@ return
 rc
 ;
 }
+NS_IMETHOD
+InvalidateOwner
+(
+)
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
 UpPluginInstancePeer2
 (
 void
