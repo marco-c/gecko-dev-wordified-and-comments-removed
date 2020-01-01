@@ -63,6 +63,12 @@ exc
 {
 assertEq
 (
+this
+dbg
+)
+;
+assertEq
+(
 exc
 instanceof
 TypeError
