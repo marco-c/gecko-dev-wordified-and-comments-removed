@@ -86,7 +86,14 @@ dialogDelay
 ;
 timer
 =
-Cc
+SpecialPowers
+.
+wrap
+(
+Components
+)
+.
+classes
 [
 "
 mozilla
