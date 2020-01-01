@@ -657,7 +657,9 @@ callback
 .
 nsISupportsArray
 *
-draggedTransferables
+gDraggedTransferables
+=
+nsnull
 ;
 NSString
 *
@@ -1931,7 +1933,7 @@ callback
 is
 invoked
 .
-draggedTransferables
+gDraggedTransferables
 =
 aTransferableArray
 ;
