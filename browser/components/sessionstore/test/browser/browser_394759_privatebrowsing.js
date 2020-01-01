@@ -421,15 +421,10 @@ count
 let
 now
 =
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
 )
 ;
 const

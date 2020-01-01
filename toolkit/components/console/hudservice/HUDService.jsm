@@ -18652,15 +18652,10 @@ ConsoleUtils_timestamp
 )
 {
 return
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
 )
 ;
 }
