@@ -830,7 +830,7 @@ protected
 :
 friend
 class
-GeneralPattern
+CanvasGeneralPattern
 ;
 Point
 mBegin
@@ -841,7 +841,7 @@ mEnd
 }
 ;
 class
-GeneralPattern
+CanvasGeneralPattern
 {
 public
 :
@@ -859,7 +859,7 @@ nsCanvasRenderingContext2DAzure
 ContextState
 ContextState
 ;
-GeneralPattern
+CanvasGeneralPattern
 (
 )
 :
@@ -870,7 +870,7 @@ nsnull
 {
 }
 ~
-GeneralPattern
+CanvasGeneralPattern
 (
 )
 {
@@ -917,7 +917,7 @@ be
 called
 once
 on
-GeneralPattern
+CanvasGeneralPattern
 !
 "
 )
@@ -8924,7 +8924,7 @@ y
 w
 h
 )
-GeneralPattern
+CanvasGeneralPattern
 (
 )
 .
@@ -9171,7 +9171,7 @@ x
 w
 y
 )
-GeneralPattern
+CanvasGeneralPattern
 (
 )
 .
@@ -9281,7 +9281,7 @@ y
 +
 h
 )
-GeneralPattern
+CanvasGeneralPattern
 (
 )
 .
@@ -9363,7 +9363,7 @@ y
 w
 h
 )
-GeneralPattern
+CanvasGeneralPattern
 (
 )
 .
@@ -9587,7 +9587,7 @@ bounds
 Fill
 (
 mPath
-GeneralPattern
+CanvasGeneralPattern
 (
 )
 .
@@ -9744,7 +9744,7 @@ bounds
 Stroke
 (
 mPath
-GeneralPattern
+CanvasGeneralPattern
 (
 )
 .
@@ -13806,7 +13806,7 @@ FillGlyphs
 (
 scaledFont
 buffer
-GeneralPattern
+CanvasGeneralPattern
 (
 )
 .
@@ -13885,7 +13885,7 @@ mCtx
 Stroke
 (
 path
-GeneralPattern
+CanvasGeneralPattern
 (
 )
 .
