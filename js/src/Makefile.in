@@ -621,10 +621,6 @@ NameFunctions
 .
 cpp
 \
-ParallelDo
-.
-cpp
-\
 ParallelArray
 .
 cpp

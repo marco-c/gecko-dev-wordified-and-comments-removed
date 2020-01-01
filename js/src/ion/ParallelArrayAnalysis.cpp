@@ -63,15 +63,6 @@ Stack
 .
 h
 "
-#
-include
-"
-vm
-/
-ParallelDo
-.
-h
-"
 namespace
 js
 {
