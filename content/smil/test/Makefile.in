@@ -548,6 +548,10 @@ test_smilKeySplines
 .
 xhtml
 \
+test_smilKeyTimesPacedMode
+.
+xhtml
+\
 test_smilSetCurrentTime
 .
 xhtml
