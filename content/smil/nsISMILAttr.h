@@ -55,6 +55,14 @@ const
 0
 ;
 virtual
+void
+ClearAnimValue
+(
+)
+=
+0
+;
+virtual
 nsresult
 SetAnimValue
 (

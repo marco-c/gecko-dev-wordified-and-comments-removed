@@ -105,6 +105,12 @@ GetBaseValue
 const
 ;
 virtual
+void
+ClearAnimValue
+(
+)
+;
+virtual
 nsresult
 SetAnimValue
 (
