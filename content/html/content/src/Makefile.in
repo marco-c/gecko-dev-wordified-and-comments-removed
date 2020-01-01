@@ -142,6 +142,10 @@ HTMLBodyElement
 .
 h
 \
+HTMLBRElement
+.
+h
+\
 HTMLDataListElement
 .
 h
@@ -284,7 +288,7 @@ nsHTMLAreaElement
 .
 cpp
 \
-nsHTMLBRElement
+HTMLBRElement
 .
 cpp
 \
