@@ -7284,15 +7284,7 @@ if
 fp_
 -
 >
-runningInIon
-(
-)
-|
-|
-fp_
--
->
-callingIntoIon
+beginsIonActivation
 (
 )
 )

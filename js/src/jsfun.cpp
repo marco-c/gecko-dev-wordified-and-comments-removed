@@ -4717,7 +4717,7 @@ if
 fp
 -
 >
-runningInIon
+beginsIonActivation
 (
 )
 )
