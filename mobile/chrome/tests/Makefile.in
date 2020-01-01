@@ -526,6 +526,10 @@ browser_rect
 .
 js
 \
+browser_rememberPassword
+.
+js
+\
 browser_select
 .
 html
