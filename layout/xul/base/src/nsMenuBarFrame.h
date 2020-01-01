@@ -7,6 +7,15 @@ nsMenuBarFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 prtypes
 .
 h
@@ -100,6 +109,7 @@ nsMenuFrame
 GetCurrentMenuItem
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetCurrentMenuItem
@@ -108,12 +118,14 @@ nsMenuFrame
 *
 aMenuItem
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 CurrentMenuIsBeingDestroyed
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ChangeMenuItem
@@ -124,6 +136,7 @@ aMenuItem
 bool
 aSelectFirstItem
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetActive
@@ -131,12 +144,14 @@ SetActive
 bool
 aActiveFlag
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsMenuBar
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -157,6 +172,7 @@ bool
 IsActive
 (
 )
+MOZ_OVERRIDE
 {
 return
 mIsActive
@@ -177,6 +193,7 @@ bool
 IsOpen
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -222,6 +239,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -231,6 +249,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -239,6 +258,7 @@ LockMenuUntilClosed
 bool
 aLock
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -246,6 +266,7 @@ bool
 IsMenuLocked
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -293,6 +314,7 @@ bool
 MenuClosed
 (
 )
+MOZ_OVERRIDE
 ;
 nsMenuFrame
 *
@@ -320,6 +342,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 if
 (
@@ -361,6 +384,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName

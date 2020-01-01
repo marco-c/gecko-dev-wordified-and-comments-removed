@@ -7,6 +7,15 @@ nsBulletFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsFrame
 .
 h
@@ -218,6 +227,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -227,6 +237,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -239,6 +250,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -259,6 +271,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -268,6 +281,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -277,6 +291,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 int32_t
 SetListItemOrdinal
@@ -396,12 +411,14 @@ bool
 IsEmpty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsSelfEmpty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord

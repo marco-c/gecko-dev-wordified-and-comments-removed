@@ -7,6 +7,15 @@ nsSliderFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsRepeatService
 .
 h
@@ -170,6 +179,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -194,6 +204,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -203,6 +214,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -212,6 +224,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoLayout
@@ -220,6 +233,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -230,6 +244,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -243,6 +258,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -253,6 +269,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -262,6 +279,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayListForChildren
@@ -278,6 +296,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -294,6 +313,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -306,6 +326,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -320,6 +341,7 @@ nsIFrame
 *
 asPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEvent
@@ -334,6 +356,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -344,6 +367,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -352,6 +376,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 StartDrag
@@ -438,6 +463,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleMultiplePress
@@ -454,6 +480,7 @@ aEventStatus
 bool
 aControlHeld
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -472,6 +499,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -490,6 +518,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 private
 :

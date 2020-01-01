@@ -7,6 +7,15 @@ nsPresContext_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -3908,6 +3917,7 @@ bool
 IsRoot
 (
 )
+MOZ_OVERRIDE
 {
 return
 true

@@ -104,6 +104,7 @@ GetBaseURI
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -114,6 +115,7 @@ nsString
 aTitle
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -124,6 +126,7 @@ nsString
 aType
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -131,6 +134,7 @@ HasRules
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -138,6 +142,7 @@ IsApplicable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -146,6 +151,7 @@ SetEnabled
 bool
 aEnabled
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -153,12 +159,14 @@ IsComplete
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
 SetComplete
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIStyleSheet
@@ -167,6 +175,7 @@ GetParentSheet
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDocument
@@ -175,6 +184,7 @@ GetOwningDocument
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -184,6 +194,7 @@ nsIDocument
 *
 aDocumemt
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -203,6 +214,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -214,6 +226,7 @@ ElementRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -223,6 +236,7 @@ PseudoElementRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -232,6 +246,7 @@ AnonBoxRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -244,6 +259,7 @@ XULTreeRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -255,6 +271,7 @@ StateRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -264,6 +281,7 @@ StateRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRestyleHint
@@ -273,6 +291,7 @@ AttributeRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -282,6 +301,7 @@ nsPresContext
 *
 aPresContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_MUST_OVERRIDE
@@ -438,6 +458,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -516,6 +537,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

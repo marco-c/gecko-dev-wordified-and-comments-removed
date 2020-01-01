@@ -84,6 +84,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -92,6 +93,7 @@ ChildListChanged
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -108,6 +110,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -122,6 +125,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -140,6 +144,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -152,6 +157,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 private
 :

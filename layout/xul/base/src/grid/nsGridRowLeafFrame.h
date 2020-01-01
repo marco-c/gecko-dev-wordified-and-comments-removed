@@ -7,6 +7,15 @@ nsGridRowLeafFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -44,6 +53,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName

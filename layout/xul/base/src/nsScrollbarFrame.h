@@ -7,6 +7,15 @@ nsScrollbarFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -97,6 +106,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
@@ -113,6 +123,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleMultiplePress
@@ -129,6 +140,7 @@ aEventStatus
 bool
 aControlHeld
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleDrag
@@ -143,6 +155,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleRelease
@@ -157,6 +170,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -171,6 +185,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -189,6 +204,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -197,6 +213,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 void
 SetScrollbarMediatorContent
@@ -217,6 +234,7 @@ bool
 DoesClipChildren
 (
 )
+MOZ_OVERRIDE
 {
 return
 true

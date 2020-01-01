@@ -7,6 +7,15 @@ nsGridRowLeafLayout_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGridRowLayout
 .
 h
@@ -93,6 +102,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -108,6 +118,7 @@ int32_t
 &
 aComputedColumnCount
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -120,6 +131,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -132,12 +144,14 @@ nsGridRow
 *
 aRows
 )
+MOZ_OVERRIDE
 ;
 virtual
 Type
 GetType
 (
 )
+MOZ_OVERRIDE
 {
 return
 eRowLeaf
@@ -169,6 +183,7 @@ int32_t
 &
 aFlexes
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -191,6 +206,7 @@ nsComputedBoxSize
 &
 aComputedBoxSizes
 )
+MOZ_OVERRIDE
 ;
 nsGridRowLeafLayout
 (

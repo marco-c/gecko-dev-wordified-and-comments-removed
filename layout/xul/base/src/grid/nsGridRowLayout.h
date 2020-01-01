@@ -7,6 +7,15 @@ nsGridRowLayout_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsSprocketLayout
 .
 h
@@ -58,6 +67,7 @@ nsGridLayout2
 CastToGridLayout
 (
 )
+MOZ_OVERRIDE
 {
 return
 nullptr
@@ -80,6 +90,7 @@ aRequestor
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIGridPart
@@ -94,6 +105,7 @@ nsIFrame
 *
 aParentBox
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -176,6 +188,7 @@ aBox
 bool
 aIsHorizontal
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIGridPart

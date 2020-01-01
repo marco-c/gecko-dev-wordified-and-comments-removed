@@ -7,6 +7,15 @@ nsSplittableFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsFrame
 .
 h
@@ -33,6 +42,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSplittableType
@@ -57,6 +67,7 @@ GetPrevContinuation
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -65,6 +76,7 @@ GetNextContinuation
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetPrevContinuation
@@ -72,6 +84,7 @@ SetPrevContinuation
 nsIFrame
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetNextContinuation
@@ -79,6 +92,7 @@ SetNextContinuation
 nsIFrame
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -146,6 +160,7 @@ GetPrevInFlowVirtual
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 GetPrevInFlow
@@ -160,6 +175,7 @@ GetNextInFlowVirtual
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 GetNextInFlow
@@ -173,6 +189,7 @@ SetPrevInFlow
 nsIFrame
 *
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetNextInFlow
@@ -180,6 +197,7 @@ SetNextInFlow
 nsIFrame
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -237,6 +255,7 @@ out
 int32_t
 aIndent
 )
+MOZ_OVERRIDE
 ;
 #
 endif

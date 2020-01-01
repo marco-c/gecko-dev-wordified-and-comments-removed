@@ -140,6 +140,7 @@ StateRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRestyleHint
@@ -149,6 +150,7 @@ AttributeRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -158,6 +160,7 @@ nsPresContext
 *
 aPresContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_MUST_OVERRIDE
@@ -273,6 +276,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

@@ -7,6 +7,15 @@ nsTableColFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -108,6 +117,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 int32_t
 GetColIndex
@@ -146,6 +156,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -174,6 +185,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -186,6 +198,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -195,6 +208,7 @@ GetSplittableType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 int32_t
 GetSpan

@@ -367,6 +367,7 @@ GetBaseURI
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -377,6 +378,7 @@ nsString
 aTitle
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -387,6 +389,7 @@ nsString
 aType
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -394,6 +397,7 @@ HasRules
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -401,6 +405,7 @@ IsApplicable
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -409,6 +414,7 @@ SetEnabled
 bool
 aEnabled
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -416,12 +422,14 @@ IsComplete
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
 SetComplete
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIStyleSheet
@@ -430,6 +438,7 @@ GetParentSheet
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDocument
@@ -438,6 +447,7 @@ GetOwningDocument
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -447,6 +457,7 @@ nsIDocument
 *
 aDocument
 )
+MOZ_OVERRIDE
 ;
 uint64_t
 FindOwningWindowInnerID
@@ -472,6 +483,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -964,6 +976,7 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 mozilla
 :

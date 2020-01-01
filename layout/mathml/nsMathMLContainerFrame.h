@@ -7,6 +7,15 @@ nsMathMLContainerFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -244,6 +253,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -254,6 +264,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -375,6 +386,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -819,6 +831,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -883,6 +896,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -945,6 +959,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsBlockFrame
@@ -1076,6 +1091,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -1142,6 +1158,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -1206,6 +1223,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (

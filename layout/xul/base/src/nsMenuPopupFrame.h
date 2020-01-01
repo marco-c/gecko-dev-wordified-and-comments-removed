@@ -7,6 +7,15 @@ nsMenuPopupFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 prtypes
 .
 h
@@ -212,12 +221,14 @@ nsMenuFrame
 *
 aMenuItem
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 CurrentMenuIsBeingDestroyed
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ChangeMenuItem
@@ -228,6 +239,7 @@ aMenuItem
 bool
 aSelectFirstItem
 )
+MOZ_OVERRIDE
 ;
 nsPopupState
 PopupState
@@ -266,6 +278,7 @@ bool
 IsActive
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -276,6 +289,7 @@ bool
 IsMenuBar
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -291,6 +305,7 @@ bool
 IsContextMenu
 (
 )
+MOZ_OVERRIDE
 {
 return
 mIsContextMenu
@@ -301,6 +316,7 @@ bool
 MenuClosed
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -313,12 +329,14 @@ LockMenuUntilClosed
 bool
 aLock
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsMenuLocked
 (
 )
+MOZ_OVERRIDE
 {
 return
 mIsMenuLocked
@@ -348,6 +366,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -360,6 +379,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -369,6 +389,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -437,6 +458,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -531,6 +553,7 @@ bool
 IsOpen
 (
 )
+MOZ_OVERRIDE
 {
 return
 mPopupState
@@ -685,6 +708,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsGkAtoms
@@ -704,6 +728,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -853,6 +878,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 nsIntPoint
 GetLastClientOffset

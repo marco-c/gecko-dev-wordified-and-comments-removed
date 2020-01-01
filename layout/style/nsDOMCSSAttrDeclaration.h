@@ -7,6 +7,15 @@ nsDOMCSSAttributeDeclaration_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsDOMCSSDeclaration
 .
 h
@@ -105,6 +114,7 @@ CSSParsingEnvironment
 &
 aCSSParseEnv
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetParentRule
@@ -114,6 +124,7 @@ nsIDOMCSSRule
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsINode
@@ -121,6 +132,7 @@ nsINode
 GetParentObject
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -138,6 +150,7 @@ Declaration
 *
 aDecl
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIDocument
@@ -145,6 +158,7 @@ nsIDocument
 DocToUpdate
 (
 )
+MOZ_OVERRIDE
 ;
 nsRefPtr
 <

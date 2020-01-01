@@ -7,6 +7,15 @@ nsTitleBarFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -58,6 +67,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEvent
@@ -72,6 +82,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -89,6 +100,7 @@ void
 UpdateMouseThrough
 (
 )
+MOZ_OVERRIDE
 {
 AddStateBits
 (

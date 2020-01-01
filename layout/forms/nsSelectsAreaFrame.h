@@ -7,6 +7,15 @@ nsSelectsAreaFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBlockFrame
 .
 h
@@ -50,6 +59,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 nsresult
 BuildDisplayListInternal
@@ -84,6 +94,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 nscoord
 HeightOfARow

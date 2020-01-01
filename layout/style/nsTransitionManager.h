@@ -7,6 +7,15 @@ nsTransitionManager_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 AnimationCommon
 .
 h
@@ -355,6 +364,7 @@ ElementRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -364,6 +374,7 @@ PseudoElementRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -373,6 +384,7 @@ AnonBoxRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -385,6 +397,7 @@ XULTreeRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -420,6 +433,7 @@ mozilla
 TimeStamp
 aTime
 )
+MOZ_OVERRIDE
 ;
 private
 :

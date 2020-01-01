@@ -7,6 +7,15 @@ nsObjectFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsPluginInstanceOwner
 .
 h
@@ -363,6 +372,7 @@ SetIsDocumentActive
 bool
 aIsActive
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCursor
@@ -465,12 +475,14 @@ bool
 ReflowFinished
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ReflowCallbackCanceled
 (
 )
+MOZ_OVERRIDE
 ;
 void
 UpdateImageLayer
@@ -557,6 +569,7 @@ nsIWidget
 GetWidget
 (
 )
+MOZ_OVERRIDE
 {
 return
 mInnerView
@@ -895,6 +908,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRegion
@@ -907,6 +921,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -919,6 +934,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -935,6 +951,7 @@ nsRect
 &
 aAllowVisibleRegionExpansion
 )
+MOZ_OVERRIDE
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -978,6 +995,7 @@ ContainerParameters
 &
 aContainerParameters
 )
+MOZ_OVERRIDE
 {
 return
 static_cast
@@ -1013,6 +1031,7 @@ ContainerParameters
 &
 aParameters
 )
+MOZ_OVERRIDE
 {
 return
 static_cast

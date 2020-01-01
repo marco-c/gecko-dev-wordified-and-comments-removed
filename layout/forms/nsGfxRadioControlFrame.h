@@ -7,6 +7,15 @@ nsGfxRadioControlFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsFormControlFrame
 .
 h
@@ -69,6 +78,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 }
 ;

@@ -17,6 +17,15 @@ endif
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGfxScrollFrame
 .
 h
@@ -140,6 +149,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -149,6 +159,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -158,6 +169,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -176,6 +188,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -213,6 +226,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -244,6 +258,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -295,6 +310,7 @@ aForChild
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -307,6 +323,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -322,6 +339,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -335,6 +353,7 @@ nsAString
 aValue
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -359,6 +378,7 @@ GetScrollbarStyles
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -366,6 +386,7 @@ ShouldPropagateComputedHeightToScrolledContent
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -378,6 +399,7 @@ Accessible
 CreateAccessible
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -387,6 +409,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -402,6 +425,7 @@ int32_t
 GetSelectedIndex
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -411,6 +435,7 @@ nsIContent
 GetCurrentOption
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -422,6 +447,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -430,36 +456,42 @@ CaptureMouseEvents
 bool
 aGrabMouseEvents
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
 GetHeightOfARow
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
 GetNumberOfOptions
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 AboutToDropDown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 AboutToRollup
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 FireOnChange
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -468,12 +500,14 @@ ComboboxFinish
 int32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 OnContentReset
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddOption
@@ -488,6 +522,7 @@ RemoveOption
 int32_t
 index
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoneAddingChildren
@@ -495,6 +530,7 @@ DoneAddingChildren
 bool
 aIsDone
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnOptionSelected
@@ -504,6 +540,7 @@ aIndex
 bool
 aSelected
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnSetSelectedIndex
@@ -513,6 +550,7 @@ aOldIndex
 int32_t
 aNewIndex
 )
+MOZ_OVERRIDE
 ;
 nsresult
 MouseDown

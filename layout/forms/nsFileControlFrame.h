@@ -7,6 +7,15 @@ nsFileControlFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBlockFrame
 .
 h
@@ -128,6 +137,7 @@ nsAString
 aValue
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -147,6 +157,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -156,6 +167,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -168,6 +180,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -182,6 +195,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -209,6 +223,7 @@ ContentInfo
 &
 aElements
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -220,6 +235,7 @@ aElements
 uint32_t
 aFilter
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -232,6 +248,7 @@ Accessible
 CreateAccessible
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -471,6 +488,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsBlockFrame
@@ -501,6 +519,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsCOMPtr
 <

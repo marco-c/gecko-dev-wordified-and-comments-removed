@@ -7,6 +7,15 @@ nsButtonBoxFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -67,6 +76,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEvent
@@ -81,6 +91,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -112,6 +123,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -142,6 +154,7 @@ void
 UpdateMouseThrough
 (
 )
+MOZ_OVERRIDE
 {
 AddStateBits
 (

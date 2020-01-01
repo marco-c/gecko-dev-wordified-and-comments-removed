@@ -7,6 +7,15 @@ nsQuoteList_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGenConList
 .
 h
@@ -104,6 +113,7 @@ nsIFrame
 *
 aTextFrame
 )
+MOZ_OVERRIDE
 ;
 bool
 IsOpenQuote

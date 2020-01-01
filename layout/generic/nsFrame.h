@@ -7,6 +7,15 @@ nsFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBox
 .
 h
@@ -1310,6 +1319,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -1328,12 +1338,14 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 ComputesOwnOverflowArea
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -2127,6 +2139,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -2139,6 +2152,7 @@ nsAutoString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 #
 endif

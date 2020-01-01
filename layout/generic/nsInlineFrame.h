@@ -7,6 +7,15 @@ nsInlineFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -95,6 +104,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -107,6 +117,7 @@ Accessible
 CreateAccessible
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -121,6 +132,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -169,12 +181,14 @@ bool
 IsEmpty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsSelfEmpty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -184,6 +198,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -199,6 +214,7 @@ aRespectClusters
 =
 true
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -211,6 +227,7 @@ InlineMinWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -223,6 +240,7 @@ InlinePrefWidthData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -273,6 +291,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -280,6 +299,7 @@ CanContinueTextRun
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -568,6 +588,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -586,12 +607,14 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 PullOverflowsFromPrevInFlow
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -623,6 +646,7 @@ bool
 *
 aIsComplete
 )
+MOZ_OVERRIDE
 ;
 }
 ;

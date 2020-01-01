@@ -7,6 +7,15 @@ nsScrollbarButtonFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsButtonBoxFrame
 .
 h
@@ -66,6 +75,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 friend
 nsIFrame
@@ -93,6 +103,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 static
 nsresult
@@ -158,6 +169,7 @@ aEventStatus
 bool
 aControlHeld
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -176,6 +188,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -194,6 +207,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -208,6 +222,7 @@ nsGUIEvent
 *
 aEvent
 )
+MOZ_OVERRIDE
 ;
 void
 DoButtonAction

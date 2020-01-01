@@ -7,6 +7,15 @@ NS_SVGTEXTCONTAINERFRAME_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsFrame
 .
 h
@@ -145,6 +154,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -155,6 +165,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetStartPositionOfChar

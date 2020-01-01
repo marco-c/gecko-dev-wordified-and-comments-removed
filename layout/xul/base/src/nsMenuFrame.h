@@ -206,6 +206,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -215,6 +216,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -224,6 +226,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -238,6 +241,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -251,6 +255,7 @@ aState
 bool
 aDebug
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -264,6 +269,7 @@ ChildListID
 aList
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -277,6 +283,7 @@ ChildList
 aLists
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -312,6 +319,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEvent
@@ -326,6 +334,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -336,6 +345,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -349,6 +359,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -359,6 +370,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -367,6 +379,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsGkAtoms
@@ -618,6 +631,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -729,6 +743,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 ~

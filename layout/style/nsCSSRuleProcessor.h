@@ -7,6 +7,15 @@ nsCSSRuleProcessor_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIStyleRuleProcessor
 .
 h
@@ -229,6 +238,7 @@ ElementRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -238,6 +248,7 @@ PseudoElementRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -247,6 +258,7 @@ AnonBoxRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -259,6 +271,7 @@ XULTreeRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -270,6 +283,7 @@ StateRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -279,6 +293,7 @@ StateRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRestyleHint
@@ -288,6 +303,7 @@ AttributeRuleProcessorData
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -297,6 +313,7 @@ nsPresContext
 *
 aPresContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 NS_MUST_OVERRIDE

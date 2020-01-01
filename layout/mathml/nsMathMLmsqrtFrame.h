@@ -7,6 +7,15 @@ nsMathMLmsqrtFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsMathMLmencloseFrame
 .
 h
@@ -54,6 +63,7 @@ nsIFrame
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -66,6 +76,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 protected
 :

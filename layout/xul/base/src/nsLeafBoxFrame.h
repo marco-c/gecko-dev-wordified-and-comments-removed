@@ -7,6 +7,15 @@ nsLeafBoxFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsLeafFrame
 .
 h
@@ -69,6 +78,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -78,6 +88,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -87,6 +98,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -95,6 +107,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -104,6 +117,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsLeafFrame
@@ -144,6 +158,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -152,6 +167,7 @@ void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -161,6 +177,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -170,6 +187,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -191,6 +209,7 @@ aPadding
 bool
 aShrinkWrap
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -209,6 +228,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CharacterDataChanged
@@ -217,6 +237,7 @@ CharacterDataChangeInfo
 *
 aInfo
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -231,6 +252,7 @@ nsIFrame
 *
 asPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -247,6 +269,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -259,12 +282,14 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 ComputesOwnOverflowArea
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -279,6 +304,7 @@ nsBoxLayoutState
 &
 aState
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -291,6 +317,7 @@ nsAutoString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -299,6 +326,7 @@ nscoord
 GetIntrinsicWidth
 (
 )
+MOZ_OVERRIDE
 ;
 nsLeafBoxFrame
 (

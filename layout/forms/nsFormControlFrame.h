@@ -7,6 +7,15 @@ nsFormControlFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIFormControlFrame
 .
 h
@@ -89,6 +98,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -114,6 +124,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -150,6 +161,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -163,6 +175,7 @@ nsAString
 aValue
 )
 const
+MOZ_OVERRIDE
 ;
 static
 nsresult
@@ -197,12 +210,14 @@ nscoord
 GetIntrinsicWidth
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
 GetIntrinsicHeight
 (
 )
+MOZ_OVERRIDE
 ;
 void
 GetCurrentCheckState

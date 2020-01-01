@@ -7,6 +7,15 @@ nsSplitterFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -53,6 +62,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -65,6 +75,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -92,6 +103,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Init
@@ -106,6 +118,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCursor
@@ -121,6 +134,7 @@ Cursor
 &
 aCursor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoLayout
@@ -129,6 +143,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandlePress
@@ -143,6 +158,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleMultiplePress
@@ -159,6 +175,7 @@ aEventStatus
 bool
 aControlHeld
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleDrag
@@ -173,6 +190,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleRelease
@@ -187,6 +205,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEvent
@@ -201,6 +220,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -217,6 +237,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -226,6 +247,7 @@ bool
 &
 aIsHorizontal
 )
+MOZ_OVERRIDE
 ;
 private
 :

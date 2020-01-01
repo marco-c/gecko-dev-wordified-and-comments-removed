@@ -22,6 +22,15 @@ NS_SKIP_NOTIFY_INDEX
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsBlockFrame
 .
 h
@@ -190,6 +199,7 @@ aElements
 uint32_t
 aFilter
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -200,6 +210,7 @@ nsIContent
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -212,6 +223,7 @@ Accessible
 CreateAccessible
 (
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -223,6 +235,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -232,6 +245,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -250,6 +264,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEvent
@@ -280,6 +295,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 void
 PaintFocus
@@ -298,6 +314,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -307,6 +324,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsBlockFrame
@@ -356,6 +374,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -367,6 +386,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -377,6 +397,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -388,6 +409,7 @@ ChildListID
 aListID
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -401,6 +423,7 @@ ChildList
 aLists
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -421,6 +444,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -434,6 +458,7 @@ nsAString
 aValue
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -462,6 +487,7 @@ ShowDropDown
 bool
 aDoDropDown
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -469,6 +495,7 @@ nsIFrame
 GetDropDown
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -478,12 +505,14 @@ nsIFrame
 *
 aDropDownFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 RollupFromList
 (
 )
+MOZ_OVERRIDE
 ;
 void
 GetAvailableDropdownSpace
@@ -504,11 +533,13 @@ int32_t
 GetIndexOfDisplayArea
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RedisplaySelectedText
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -517,12 +548,14 @@ UpdateRecentIndex
 int32_t
 aIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 OnContentReset
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddOption
@@ -537,6 +570,7 @@ RemoveOption
 int32_t
 index
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoneAddingChildren
@@ -544,6 +578,7 @@ DoneAddingChildren
 bool
 aIsDone
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnOptionSelected
@@ -553,6 +588,7 @@ aIndex
 bool
 aSelected
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OnSetSelectedIndex
@@ -562,6 +598,7 @@ aOldIndex
 int32_t
 aNewIndex
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -629,6 +666,7 @@ nsPresState
 *
 aState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RestoreState
@@ -637,6 +675,7 @@ nsPresState
 *
 aState
 )
+MOZ_OVERRIDE
 ;
 static
 bool

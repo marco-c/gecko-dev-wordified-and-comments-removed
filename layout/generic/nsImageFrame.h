@@ -1275,6 +1275,7 @@ nsRenderingContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
@@ -1304,6 +1305,7 @@ ContainerParameters
 &
 aParameters
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1323,6 +1325,7 @@ ContainerParameters
 &
 aContainerParameters
 )
+MOZ_OVERRIDE
 ;
 void
 ConfigureLayer

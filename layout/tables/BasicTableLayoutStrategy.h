@@ -7,6 +7,15 @@ BasicTableLayoutStrategy_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsITableLayoutStrategy
 .
 h
@@ -43,6 +52,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -54,12 +64,14 @@ aRenderingContext
 bool
 aComputingSize
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -70,6 +82,7 @@ nsHTMLReflowState
 &
 aReflowState
 )
+MOZ_OVERRIDE
 ;
 private
 :

@@ -7,6 +7,15 @@ nsTableCellFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsITableCellLayout
 .
 h
@@ -179,6 +188,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -192,6 +202,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -202,6 +213,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -247,6 +259,7 @@ nsHTMLReflowState
 &
 aReflowState
 )
+MOZ_OVERRIDE
 ;
 friend
 nsIFrame
@@ -276,6 +289,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 void
 PaintCellBackground
@@ -433,6 +447,7 @@ int32_t
 aRowIndex
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -449,6 +464,7 @@ int32_t
 aColIndex
 )
 const
+MOZ_OVERRIDE
 ;
 void
 SetColIndex
@@ -796,6 +812,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -826,6 +843,7 @@ nsMargin
 aBorder
 )
 const
+MOZ_OVERRIDE
 ;
 BCPixelSize
 GetBorderWidth
@@ -861,6 +879,7 @@ nsMargin
 GetBorderOverflow
 (
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -873,6 +892,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -892,6 +912,7 @@ aPt
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 private
 :

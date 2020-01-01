@@ -7,6 +7,15 @@ nsTableColGroupFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -80,6 +89,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList
@@ -132,6 +142,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -142,6 +153,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -155,6 +167,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -165,6 +178,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 void
 RemoveChild
@@ -193,6 +207,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -201,6 +216,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 AddColsToTable
@@ -229,6 +245,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 void
 Dump

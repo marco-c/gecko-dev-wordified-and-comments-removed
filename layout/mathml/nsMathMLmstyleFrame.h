@@ -7,6 +7,15 @@ nsMathMLmstyleFrame_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -64,6 +73,7 @@ NS_IMETHOD
 TransmitAutomaticData
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UpdatePresentationData
@@ -73,6 +83,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
@@ -86,6 +97,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
+MOZ_OVERRIDE
 ;
 protected
 :

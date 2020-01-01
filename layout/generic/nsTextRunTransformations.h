@@ -7,6 +7,15 @@ NSTEXTRUNTRANSFORMATIONS_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxFont
 .
 h
@@ -128,6 +137,7 @@ gfxContext
 *
 aRefContext
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -171,6 +181,7 @@ gfxContext
 *
 aRefContext
 )
+MOZ_OVERRIDE
 ;
 protected
 :
