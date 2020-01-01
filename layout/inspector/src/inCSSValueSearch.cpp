@@ -99,6 +99,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

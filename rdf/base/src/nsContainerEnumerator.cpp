@@ -546,7 +546,7 @@ GetValueConst
 nextValStr
 )
 ;
-PRInt32
+nsresult
 err
 ;
 PRInt32

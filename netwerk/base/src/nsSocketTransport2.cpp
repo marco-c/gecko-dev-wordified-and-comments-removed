@@ -500,6 +500,9 @@ code
 )
 {
 return
+(
+nsresult
+)
 NS_ERROR_GENERATE_FAILURE
 (
 NS_ERROR_MODULE_SECURITY

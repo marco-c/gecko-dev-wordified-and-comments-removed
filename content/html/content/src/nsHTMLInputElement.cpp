@@ -4388,7 +4388,7 @@ doubleValue
 nsAutoString
 stringValue
 ;
-PRInt32
+nsresult
 ec
 ;
 GetValueInternal
@@ -4766,7 +4766,7 @@ min
 minStr
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 double
@@ -4842,7 +4842,7 @@ max
 maxStr
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 double
@@ -10702,7 +10702,7 @@ case
 NS_FORM_INPUT_NUMBER
 :
 {
-PRInt32
+nsresult
 ec
 ;
 PromiseFlatString
@@ -13588,8 +13588,8 @@ if
 mDisabledChanged
 )
 {
-rv
-|
+nsresult
+tmp
 =
 GetPrimaryPresState
 (
@@ -13598,6 +13598,19 @@ this
 state
 )
 ;
+if
+(
+NS_FAILED
+(
+tmp
+)
+)
+{
+rv
+=
+tmp
+;
+}
 if
 (
 state
@@ -15314,7 +15327,7 @@ return
 kStepAny
 ;
 }
-PRInt32
+nsresult
 ec
 ;
 step

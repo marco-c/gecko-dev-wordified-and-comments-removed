@@ -1282,9 +1282,6 @@ idval
 PropertyName
 *
 name
-Value
-*
-res
 )
 ;
 bool
@@ -1300,9 +1297,6 @@ const
 Value
 &
 idval
-Value
-*
-res
 )
 ;
 }
@@ -1604,8 +1598,7 @@ size_t
 cacheIndex
 HandleObject
 obj
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -1640,9 +1633,8 @@ const
 Value
 &
 idval
-Value
-*
-res
+MutableHandleValue
+vp
 )
 ;
 JSObject
@@ -1668,8 +1660,7 @@ size_t
 cacheIndex
 HandleObject
 scopeChain
-Value
-*
+MutableHandleValue
 vp
 )
 ;

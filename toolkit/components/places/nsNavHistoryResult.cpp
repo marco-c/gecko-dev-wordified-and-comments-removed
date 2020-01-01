@@ -18717,7 +18717,7 @@ GetHistoryService
 NS_ENSURE_TRUE
 (
 history
-0
+NS_OK
 )
 ;
 nsCAutoString

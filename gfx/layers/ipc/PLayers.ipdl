@@ -337,6 +337,12 @@ CommonLayerAttributes
 nsIntRegion
 visibleRegion
 ;
+float
+xScale
+;
+float
+yScale
+;
 gfx3DMatrix
 transform
 ;

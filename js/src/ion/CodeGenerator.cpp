@@ -14995,8 +14995,7 @@ JSContext
 *
 JSObject
 *
-Value
-*
+MutableHandleValue
 )
 ;
 static
@@ -16831,8 +16830,7 @@ Value
 &
 PropertyName
 *
-Value
-*
+MutableHandleValue
 )
 ;
 static
@@ -16912,8 +16910,7 @@ Value
 const
 Value
 &
-Value
-*
+MutableHandleValue
 )
 ;
 static
@@ -18061,8 +18058,7 @@ JSContext
 *
 size_t
 HandleObject
-Value
-*
+MutableHandleValue
 )
 ;
 static
@@ -18502,8 +18498,7 @@ JSContext
 *
 size_t
 HandleObject
-Value
-*
+MutableHandleValue
 )
 ;
 static
@@ -18757,8 +18752,7 @@ JSObject
 const
 Value
 &
-Value
-*
+MutableHandleValue
 )
 ;
 static
@@ -20597,8 +20591,7 @@ Value
 const
 Value
 &
-Value
-*
+MutableHandleValue
 )
 ;
 static
@@ -21628,8 +21621,7 @@ Value
 const
 Value
 &
-Value
-*
+MutableHandleValue
 )
 ;
 static

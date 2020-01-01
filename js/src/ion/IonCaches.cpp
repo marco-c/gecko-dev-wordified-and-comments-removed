@@ -1573,8 +1573,7 @@ size_t
 cacheIndex
 HandleObject
 obj
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -1648,6 +1647,10 @@ adi
 (
 cx
 vp
+.
+address
+(
+)
 ion
 )
 ;
@@ -1827,8 +1830,7 @@ JSOP_CALLPROP
 JS_UNLIKELY
 (
 vp
--
->
+.
 isPrimitive
 (
 )
@@ -1866,7 +1868,6 @@ Monitor
 cx
 script
 pc
-*
 vp
 )
 ;
@@ -3399,9 +3400,6 @@ idval
 PropertyName
 *
 name
-Value
-*
-res
 )
 {
 RootedObject
@@ -3732,9 +3730,6 @@ const
 Value
 &
 idval
-Value
-*
-res
 )
 {
 JS_ASSERT
@@ -4168,8 +4163,7 @@ const
 Value
 &
 idval
-Value
-*
+MutableHandleValue
 res
 )
 {
@@ -4208,6 +4202,10 @@ adi
 (
 cx
 res
+.
+address
+(
+)
 ion
 )
 ;
@@ -4321,7 +4319,6 @@ id
 asPropertyName
 (
 )
-res
 )
 )
 return
@@ -4371,7 +4368,6 @@ attachDenseArray
 cx
 obj
 idval
-res
 )
 )
 return
@@ -4431,7 +4427,6 @@ Monitor
 cx
 script
 pc
-*
 res
 )
 ;
@@ -6061,8 +6056,7 @@ size_t
 cacheIndex
 HandleObject
 scopeChain
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -6268,7 +6262,6 @@ Monitor
 cx
 script
 pc
-*
 vp
 )
 ;

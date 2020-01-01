@@ -330,7 +330,7 @@ nsAString
 aProperty
 )
 {
-NS_ENSURE_ARG_POINTER
+MOZ_ASSERT
 (
 aDecl
 )

@@ -3445,7 +3445,7 @@ nsCString
 :
 ToDouble
 (
-PRInt32
+nsresult
 *
 aErrorCode
 )
@@ -3497,18 +3497,12 @@ mLength
 *
 aErrorCode
 =
-(
-PRInt32
-)
 NS_OK
 ;
 else
 *
 aErrorCode
 =
-(
-PRInt32
-)
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
@@ -3517,9 +3511,6 @@ else
 *
 aErrorCode
 =
-(
-PRInt32
-)
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
@@ -3533,7 +3524,7 @@ nsString
 :
 ToDouble
 (
-PRInt32
+nsresult
 *
 aErrorCode
 )

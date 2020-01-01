@@ -229,7 +229,7 @@ errorFlag
 nsresult
 aStatus
 =
-0
+NS_OK
 )
 ;
 nsresult

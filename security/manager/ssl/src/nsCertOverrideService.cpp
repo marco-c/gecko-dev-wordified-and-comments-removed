@@ -1170,7 +1170,7 @@ kNotFound
 )
 continue
 ;
-PRInt32
+nsresult
 portParseError
 ;
 nsCAutoString

@@ -3771,7 +3771,6 @@ StripWhitespace
 )
 ;
 PRInt32
-aErrorCode
 portBegin
 portEnd
 ;
@@ -3880,6 +3879,9 @@ curPort
 }
 else
 {
+nsresult
+aErrorCode
+;
 PRInt32
 port
 =

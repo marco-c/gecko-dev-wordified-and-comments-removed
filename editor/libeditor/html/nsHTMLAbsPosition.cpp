@@ -1135,7 +1135,7 @@ auto
 )
 )
 {
-PRInt32
+nsresult
 errorCode
 ;
 *

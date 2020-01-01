@@ -125,7 +125,7 @@ nsIChannel
 aChannel
 )
 {
-PRUint32
+nsresult
 status
 ;
 aChannel

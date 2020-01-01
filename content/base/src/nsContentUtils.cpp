@@ -6369,8 +6369,10 @@ end
 return
 false
 ;
-PRInt32
+nsresult
 ec
+;
+PRInt32
 val
 =
 nsString
@@ -22315,9 +22317,6 @@ return
 ret
 ;
 }
-PRInt32
-errorCode
-;
 nsAutoString
 minScaleStr
 ;
@@ -22332,6 +22331,9 @@ nsGkAtoms
 minimum_scale
 minScaleStr
 )
+;
+nsresult
+errorCode
 ;
 float
 scaleMinFloat
@@ -22385,7 +22387,7 @@ maximum_scale
 maxScaleStr
 )
 ;
-PRInt32
+nsresult
 scaleMaxErrorCode
 ;
 float
@@ -22440,7 +22442,7 @@ viewport_initial_scale
 scaleStr
 )
 ;
-PRInt32
+nsresult
 scaleErrorCode
 ;
 float

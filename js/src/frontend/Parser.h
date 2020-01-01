@@ -135,6 +135,10 @@ TreeContext
 *
 tc
 ;
+SourceCompressionToken
+*
+sct
+;
 AutoKeepAtoms
 keepAtoms
 ;

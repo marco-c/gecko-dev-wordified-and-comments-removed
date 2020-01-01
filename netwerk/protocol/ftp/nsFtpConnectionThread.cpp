@@ -4314,7 +4314,7 @@ mResponseMsg
 nsCAutoString
 timeString
 ;
-PRInt32
+nsresult
 error
 ;
 PRExplodedTime
@@ -4724,6 +4724,9 @@ rv
 )
 )
 return
+(
+nsresult
+)
 FTP_ERROR
 ;
 rv
@@ -5527,6 +5530,9 @@ if
 controlSocket
 )
 return
+(
+nsresult
+)
 FTP_ERROR
 ;
 nsCOMPtr
@@ -9522,7 +9528,7 @@ get
 )
 )
 ;
-PRInt32
+nsresult
 err
 ;
 mServerType

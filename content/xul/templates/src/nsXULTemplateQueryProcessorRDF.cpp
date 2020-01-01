@@ -5362,7 +5362,7 @@ nsIRDFInt
 >
 intLiteral
 ;
-PRInt32
+nsresult
 errorCode
 ;
 PRInt32

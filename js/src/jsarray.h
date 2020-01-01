@@ -281,9 +281,7 @@ HandleObject
 obj
 uint32_t
 index
-const
-Value
-*
+HandleValue
 value
 PropertyOp
 getter
@@ -304,8 +302,7 @@ HandleObject
 obj
 uint32_t
 index
-Value
-*
+MutableHandleValue
 rval
 JSBool
 strict

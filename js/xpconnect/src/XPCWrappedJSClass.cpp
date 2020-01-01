@@ -296,10 +296,12 @@ NS_BASE_STREAM_WOULD_BLOCK
 return
 false
 ;
-}
+default
+:
 return
 true
 ;
+}
 }
 nsresult
 nsXPCWrappedJSClass

@@ -4652,7 +4652,7 @@ numFront
 )
 )
 ;
-PRInt32
+nsresult
 errorCode
 ;
 foundNumber
@@ -10346,7 +10346,6 @@ IsEmpty
 )
 {
 PRInt32
-err
 sep
 num
 ;
@@ -10392,6 +10391,9 @@ sep
 1
 )
 )
+;
+nsresult
+err
 ;
 num
 =

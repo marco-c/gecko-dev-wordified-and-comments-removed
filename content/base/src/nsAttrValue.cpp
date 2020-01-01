@@ -6027,7 +6027,7 @@ ResetIfSet
 (
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 double

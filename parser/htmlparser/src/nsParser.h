@@ -683,7 +683,7 @@ mCommand
 nsresult
 mInternalState
 ;
-PRInt32
+nsresult
 mStreamStatus
 ;
 PRInt32

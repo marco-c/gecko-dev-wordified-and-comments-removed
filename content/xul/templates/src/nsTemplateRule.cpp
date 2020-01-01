@@ -664,7 +664,7 @@ case
 eGreater
 :
 {
-PRInt32
+nsresult
 err
 ;
 PRInt32

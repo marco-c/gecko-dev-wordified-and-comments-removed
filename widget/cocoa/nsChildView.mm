@@ -14607,9 +14607,6 @@ setupLayerManager
 (
 mGeckoChild
 targetContext
-BasicLayerManager
-:
-:
 BUFFER_NONE
 )
 ;

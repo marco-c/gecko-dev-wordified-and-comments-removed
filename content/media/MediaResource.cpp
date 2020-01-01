@@ -702,10 +702,10 @@ mOffset
 nsCAutoString
 durationText
 ;
-PRInt32
+nsresult
 ec
 =
-0
+NS_OK
 ;
 rv
 =

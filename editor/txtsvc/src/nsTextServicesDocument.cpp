@@ -5832,7 +5832,7 @@ type
 NS_ENSURE_SUCCESS
 (
 result
-false
+NS_OK
 )
 ;
 if
@@ -5864,7 +5864,7 @@ type
 NS_ENSURE_SUCCESS
 (
 result
-false
+NS_OK
 )
 ;
 if

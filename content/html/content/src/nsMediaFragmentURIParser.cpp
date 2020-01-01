@@ -509,7 +509,7 @@ aString
 index
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 PRInt32
@@ -811,7 +811,7 @@ aString
 index
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 fraction
@@ -1038,7 +1038,7 @@ aString
 index
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 PRInt32
@@ -1162,7 +1162,7 @@ aString
 2
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 PRInt32

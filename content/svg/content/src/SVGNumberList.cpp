@@ -304,6 +304,7 @@ get
 ;
 if
 (
+*
 token
 =
 =

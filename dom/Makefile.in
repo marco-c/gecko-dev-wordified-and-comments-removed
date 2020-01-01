@@ -257,6 +257,8 @@ identity
 \
 workers
 \
+camera
+\
 (
 NULL
 )

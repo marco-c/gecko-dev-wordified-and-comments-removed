@@ -13436,7 +13436,7 @@ aParentNode
 )
 {
 return
-NS_OK
+nullptr
 ;
 }
 return

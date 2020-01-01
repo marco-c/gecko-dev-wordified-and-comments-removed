@@ -6723,10 +6723,10 @@ IsEmpty
 )
 )
 {
-PRInt32
+nsresult
 strErr
 =
-0
+NS_OK
 ;
 staticCount
 =

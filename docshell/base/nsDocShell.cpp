@@ -16889,6 +16889,10 @@ corruptedContentError
 ;
 break
 ;
+default
+:
+break
+;
 }
 }
 if
@@ -17491,8 +17495,13 @@ GetSpec
 url
 )
 ;
+NS_ENSURE_SUCCESS
+(
 rv
-|
+rv
+)
+;
+rv
 =
 aURI
 -

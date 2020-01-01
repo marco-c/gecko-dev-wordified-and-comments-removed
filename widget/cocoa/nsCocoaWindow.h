@@ -824,6 +824,16 @@ PRInt32
 aY
 )
 ;
+virtual
+void
+SetSizeConstraints
+(
+const
+SizeConstraints
+&
+aConstraints
+)
+;
 NS_IMETHOD
 Move
 (

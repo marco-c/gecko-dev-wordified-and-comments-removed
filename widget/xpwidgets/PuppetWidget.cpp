@@ -2185,9 +2185,6 @@ setupLayerManager
 (
 this
 ctx
-BasicLayerManager
-:
-:
 BUFFER_NONE
 )
 ;

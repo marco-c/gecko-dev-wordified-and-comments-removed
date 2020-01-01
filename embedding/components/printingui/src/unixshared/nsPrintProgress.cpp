@@ -95,7 +95,7 @@ m_pendingStateFlags
 ;
 m_pendingStateValue
 =
-0
+NS_OK
 ;
 m_PrintSetting
 =
@@ -332,6 +332,9 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
+(
+nsresult
+)
 forceClose
 )
 ;
@@ -438,7 +441,7 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
-false
+NS_OK
 )
 ;
 return
@@ -521,7 +524,7 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
-0
+NS_OK
 )
 ;
 else

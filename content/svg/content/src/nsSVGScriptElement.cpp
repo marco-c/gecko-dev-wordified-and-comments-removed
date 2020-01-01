@@ -471,7 +471,7 @@ kungFuDeathGrip
 it
 ;
 nsresult
-rv
+rv1
 =
 it
 -
@@ -480,8 +480,8 @@ Init
 (
 )
 ;
-rv
-|
+nsresult
+rv2
 =
 const_cast
 <
@@ -500,8 +500,14 @@ it
 ;
 NS_ENSURE_SUCCESS
 (
-rv
-rv
+rv1
+rv1
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv2
+rv2
 )
 ;
 it

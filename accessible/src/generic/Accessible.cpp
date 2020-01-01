@@ -13577,7 +13577,7 @@ IsEmpty
 return
 NS_OK
 ;
-PRInt32
+nsresult
 error
 =
 NS_OK

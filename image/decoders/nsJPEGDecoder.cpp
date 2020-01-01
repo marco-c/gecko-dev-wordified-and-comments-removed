@@ -747,6 +747,9 @@ if
 (
 error_code
 =
+(
+nsresult
+)
 setjmp
 (
 mErr

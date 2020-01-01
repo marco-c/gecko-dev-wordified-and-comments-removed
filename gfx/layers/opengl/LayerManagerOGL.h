@@ -7,13 +7,6 @@ GFX_LAYERMANAGEROGL_H
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 LayerManagerOGLProgram
 .
 h

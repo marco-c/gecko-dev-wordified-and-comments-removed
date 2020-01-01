@@ -1247,7 +1247,8 @@ goto
 loser
 ;
 }
-rv
+SECStatus
+stat
 =
 CERT_PKIXVerifyCert
 (
@@ -1274,7 +1275,7 @@ pwfn_arg
 ;
 if
 (
-rv
+stat
 !
 =
 SECSuccess

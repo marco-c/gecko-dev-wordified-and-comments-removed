@@ -597,7 +597,7 @@ return
 false
 ;
 }
-PRInt32
+nsresult
 errorCode
 ;
 float

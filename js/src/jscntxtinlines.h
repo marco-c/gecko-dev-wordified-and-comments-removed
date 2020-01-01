@@ -2402,8 +2402,7 @@ HandleObject
 receiver
 HandleId
 id
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -2412,7 +2411,6 @@ assertSameCompartment
 cx
 receiver
 id
-*
 vp
 )
 ;
@@ -2434,7 +2432,6 @@ ok
 assertSameCompartment
 (
 cx
-*
 vp
 )
 ;
@@ -2457,8 +2454,7 @@ HandleId
 id
 JSBool
 strict
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -2467,7 +2463,6 @@ assertSameCompartment
 cx
 obj
 id
-*
 vp
 )
 ;
@@ -2501,8 +2496,7 @@ unsigned
 shortid
 JSBool
 strict
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -2523,7 +2517,15 @@ op
 )
 1
 vp
+.
+address
+(
+)
 vp
+.
+address
+(
+)
 )
 ;
 if

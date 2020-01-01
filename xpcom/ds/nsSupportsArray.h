@@ -188,6 +188,9 @@ aElement
 )
 {
 return
+(
+nsresult
+)
 InsertElementAt
 (
 aElement
@@ -204,6 +207,9 @@ aElement
 )
 {
 return
+(
+nsresult
+)
 RemoveElement
 (
 aElement

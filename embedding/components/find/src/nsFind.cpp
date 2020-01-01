@@ -1359,7 +1359,8 @@ innerRange
 )
 ;
 nsresult
-res
+res1
+res2
 ;
 nsCOMPtr
 <
@@ -1379,7 +1380,7 @@ if
 mFindBackward
 )
 {
-res
+res1
 =
 outerRange
 -
@@ -1390,8 +1391,7 @@ mEndNode
 mEndOffset
 )
 ;
-res
-|
+res2
 =
 outerRange
 -
@@ -1404,7 +1404,7 @@ outerNode
 }
 else
 {
-res
+res1
 =
 outerRange
 -
@@ -1415,8 +1415,7 @@ mStartNode
 mStartOffset
 )
 ;
-res
-|
+res2
 =
 outerRange
 -
@@ -1431,7 +1430,13 @@ if
 (
 NS_FAILED
 (
-res
+res1
+)
+|
+|
+NS_FAILED
+(
+res2
 )
 )
 {

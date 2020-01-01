@@ -94,6 +94,13 @@ ReadMetadata
 nsVideoInfo
 *
 aInfo
+nsHTMLMediaElement
+:
+:
+MetadataTags
+*
+*
+aTags
 )
 ;
 virtual

@@ -1542,8 +1542,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -1683,8 +1682,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -1810,6 +1808,10 @@ jsval_from_JSVariant
 cx
 out_v
 vp
+.
+address
+(
+)
 )
 )
 ;
@@ -1829,8 +1831,7 @@ JSHandleId
 id
 JSBool
 strict
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -1915,7 +1916,6 @@ self
 jsval_to_JSVariant
 (
 cx
-*
 vp
 &
 in_v
@@ -1974,6 +1974,10 @@ jsval_from_JSVariant
 cx
 out_v
 vp
+.
+address
+(
+)
 )
 )
 ;
@@ -1991,8 +1995,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -2115,6 +2118,10 @@ jsval_from_JSVariant
 cx
 out_v
 vp
+.
+address
+(
+)
 )
 )
 ;
@@ -2698,8 +2705,7 @@ JSHandleObject
 obj
 JSType
 type
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -2753,12 +2759,14 @@ CPOW_Convert
 "
 )
 ;
-*
 vp
-=
+.
+set
+(
 OBJECT_TO_JSVAL
 (
 obj
+)
 )
 ;
 return

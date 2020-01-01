@@ -2539,9 +2539,7 @@ sanNameList
 =
 nullptr
 ;
-nsresult
-rv
-;
+SECStatus
 rv
 =
 CERT_FindCertExtension

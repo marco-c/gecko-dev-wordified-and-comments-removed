@@ -212,6 +212,10 @@ tree
 /
 src
 \
+dom
+/
+camera
+\
 (
 NULL
 )

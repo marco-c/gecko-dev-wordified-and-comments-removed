@@ -95,8 +95,7 @@ JSObject
 obj
 jsid
 id
-jsval
-*
+JSMutableHandleValue
 vp
 CanvasStyleSetterType
 setfunc
@@ -156,7 +155,6 @@ if
 (
 JSVAL_IS_STRING
 (
-*
 vp
 )
 )
@@ -165,9 +163,12 @@ xpc_qsDOMString
 arg0
 (
 cx
-*
 vp
 vp
+.
+address
+(
+)
 xpc_qsDOMString
 :
 :
@@ -222,7 +223,6 @@ nsISupports
 >
 (
 cx
-*
 vp
 &
 arg0
@@ -231,6 +231,10 @@ arg0ref
 .
 ptr
 vp
+.
+address
+(
+)
 )
 ;
 if
@@ -318,8 +322,7 @@ JSObject
 obj
 jsid
 id
-jsval
-*
+JSMutableHandleValue
 vp
 CanvasStyleGetterType
 getfunc
@@ -359,6 +362,10 @@ selfref
 .
 ptr
 vp
+.
+address
+(
+)
 &
 lccx
 )
@@ -414,7 +421,6 @@ cx
 rv
 JSVAL_TO_OBJECT
 (
-*
 vp
 )
 id
@@ -440,6 +446,10 @@ StringToJsval
 cx
 resultString
 vp
+.
+address
+(
+)
 )
 ;
 case
@@ -475,6 +485,10 @@ interfaces
 k_nsIDOMCanvasPattern
 ]
 vp
+.
+address
+(
+)
 )
 ;
 }
@@ -511,6 +525,10 @@ interfaces
 k_nsIDOMCanvasGradient
 ]
 vp
+.
+address
+(
+)
 )
 ;
 }
@@ -523,7 +541,6 @@ cx
 NS_ERROR_FAILURE
 JSVAL_TO_OBJECT
 (
-*
 vp
 )
 id
@@ -544,8 +561,7 @@ JSHandleId
 id
 JSBool
 strict
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -575,8 +591,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -608,8 +623,7 @@ JSHandleId
 id
 JSBool
 strict
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -639,8 +653,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {

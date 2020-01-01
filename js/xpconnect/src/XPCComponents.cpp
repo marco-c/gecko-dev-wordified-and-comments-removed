@@ -201,7 +201,7 @@ static
 nsresult
 ThrowAndFail
 (
-unsigned
+nsresult
 errNum
 JSContext
 *
@@ -12064,8 +12064,7 @@ JSHandleObject
 obj
 JSType
 type
-jsval
-*
+JSMutableHandleValue
 vp
 )
 {
@@ -12077,12 +12076,14 @@ type
 JSTYPE_OBJECT
 )
 {
-*
 vp
-=
+.
+set
+(
 OBJECT_TO_JSVAL
 (
 obj
+)
 )
 ;
 return
@@ -12701,8 +12702,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -12719,8 +12719,7 @@ JSHandleId
 id
 JSBool
 strict
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;

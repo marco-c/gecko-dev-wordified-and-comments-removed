@@ -1252,6 +1252,9 @@ aElement
 )
 ;
 return
+(
+nsresult
+)
 esm
 -
 >
