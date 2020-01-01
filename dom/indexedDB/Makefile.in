@@ -678,6 +678,10 @@ nsIIDBCursor
 .
 idl
 \
+nsIIDBCursorWithValue
+.
+idl
+\
 nsIIDBDatabase
 .
 idl

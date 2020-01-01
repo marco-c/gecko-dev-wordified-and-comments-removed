@@ -2637,6 +2637,11 @@ nsIIDBCursor
 *
 '
 '
+nsIIDBCursorWithValue
+.
+*
+'
+'
 nsIIDBDatabase
 .
 *

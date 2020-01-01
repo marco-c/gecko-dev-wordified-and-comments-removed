@@ -33,7 +33,7 @@ h
 #
 include
 "
-nsIIDBCursor
+nsIIDBCursorWithValue
 .
 h
 "
@@ -79,7 +79,7 @@ class
 IDBCursor
 :
 public
-nsIIDBCursor
+nsIIDBCursorWithValue
 {
 friend
 class
@@ -101,6 +101,7 @@ public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIIDBCURSOR
+NS_DECL_NSIIDBCURSORWITHVALUE
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 IDBCursor
@@ -332,12 +333,6 @@ nsIVariant
 >
 mCachedKey
 ;
-nsCOMPtr
-<
-nsIVariant
->
-mCachedObjectKey
-;
 Type
 mType
 ;
@@ -349,6 +344,9 @@ mContinueQuery
 ;
 nsCString
 mContinueToQuery
+;
+jsval
+mCachedPrimaryKey
 ;
 jsval
 mCachedValue
@@ -369,10 +367,13 @@ Key
 mContinueToKey
 ;
 bool
+mHaveCachedPrimaryKey
+;
+bool
 mHaveCachedValue
 ;
 bool
-mValueRooted
+mRooted
 ;
 bool
 mContinueCalled
