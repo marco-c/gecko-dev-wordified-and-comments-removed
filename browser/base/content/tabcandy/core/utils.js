@@ -574,11 +574,14 @@ this
 .
 log
 (
-text
-+
 '
 trace
 :
+'
++
+text
++
+'
 \
 n
 '
