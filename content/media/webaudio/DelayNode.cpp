@@ -170,6 +170,17 @@ INT32_MIN
 )
 {
 }
+virtual
+DelayNodeEngine
+*
+AsDelayNodeEngine
+(
+)
+{
+return
+this
+;
+}
 void
 SetSourceStream
 (
