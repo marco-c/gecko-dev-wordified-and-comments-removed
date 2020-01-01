@@ -222,6 +222,11 @@ aPossibleAncestorNode
 nsINode
 *
 aPossibleDescendantNode
+nsINode
+*
+aRootNode
+=
+nsnull
 )
 ;
 static

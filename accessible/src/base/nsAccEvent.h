@@ -481,6 +481,9 @@ PRInt32
 aStart
 PRUint32
 aLength
+nsAString
+&
+aModifiedText
 PRBool
 aIsInserted
 PRBool
