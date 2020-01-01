@@ -480,6 +480,15 @@ cpp
 (
 NULL
 )
+ifdef
+MOZ_OMNIJAR
+CPPSRCS
++
+=
+nsManifestZIPLoader
+.
+cpp
+endif
 SDK_XPIDLSRCS
 =
 \

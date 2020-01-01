@@ -39,7 +39,7 @@ nsJAR
 nsresult
 rv
 =
-reader
+mZipReader
 -
 >
 Open
@@ -64,6 +64,15 @@ mZipReader
 NULL
 ;
 }
+nsManifestZIPLoader
+:
+:
+~
+nsManifestZIPLoader
+(
+)
+{
+}
 already_AddRefed
 <
 nsIInputStream
@@ -85,7 +94,7 @@ if
 mZipReader
 )
 return
-NS_ERROR_NOT_INITIALIZED
+NULL
 ;
 nsCOMPtr
 <
@@ -96,7 +105,7 @@ is
 nsresult
 rv
 =
-zip
+mZipReader
 -
 >
 GetInputStream

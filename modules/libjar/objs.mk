@@ -416,15 +416,6 @@ cpp
 (
 NULL
 )
-ifdef
-MOZ_OMNIJAR
-MODULES_LIBJAR_LCPPSRCS
-+
-=
-nsManifestZIPLoader
-.
-cpp
-endif
 MODULES_LIBJAR_LEXPORTS
 =
 \
