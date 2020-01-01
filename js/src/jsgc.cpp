@@ -21133,6 +21133,15 @@ BeginMarkPhase
 rt
 )
 ;
+if
+(
+rt
+-
+>
+hasContexts
+(
+)
+)
 PushZealSelectedObjects
 (
 rt
