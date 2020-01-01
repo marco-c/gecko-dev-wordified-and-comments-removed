@@ -4886,7 +4886,7 @@ DrainOverflowLines
 state
 )
 ;
-nsRect
+nsOverflowAreas
 ocBounds
 ;
 nsReflowStatus
@@ -5332,13 +5332,10 @@ bottomEdgeOfChildren
 ;
 aMetrics
 .
-mOverflowArea
+mOverflowAreas
 .
-UnionRect
+UnionWith
 (
-aMetrics
-.
-mOverflowArea
 ocBounds
 )
 ;

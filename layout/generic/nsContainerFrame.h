@@ -426,9 +426,9 @@ const
 nsHTMLReflowState
 &
 aReflowState
-nsRect
+nsOverflowAreas
 &
-aOverflowRect
+aOverflowRects
 PRUint32
 aFlags
 nsReflowStatus
