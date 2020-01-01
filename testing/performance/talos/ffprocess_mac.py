@@ -109,6 +109,8 @@ cmd
 '
 %
 s
+-
+foreground
 %
 s
 %
