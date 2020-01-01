@@ -66095,7 +66095,7 @@ getOps
 )
 -
 >
-lookupProperty
+lookupGeneric
 )
 return
 false
@@ -69789,7 +69789,7 @@ JS_ASSERT
 obj
 -
 >
-lookupProperty
+lookupGeneric
 (
 cx
 shape
@@ -82580,7 +82580,7 @@ ok
 obj
 -
 >
-lookupProperty
+lookupGeneric
 (
 cx
 id
@@ -82601,7 +82601,7 @@ RETURN_ERROR_A
 obj
 -
 >
-lookupProperty
+lookupGeneric
 failed
 in
 JSOP_IN

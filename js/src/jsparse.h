@@ -4125,7 +4125,7 @@ JSParseNode
 *
 functionDef
 (
-JSAtom
+PropertyName
 *
 name
 FunctionType
