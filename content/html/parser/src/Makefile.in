@@ -538,6 +538,10 @@ nsHtml5TreeOperation
 .
 cpp
 \
+nsHtml5PendingNotification
+.
+cpp
+\
 (
 NULL
 )
