@@ -2715,14 +2715,8 @@ ALLOC_TRIGGER
 \
 D
 (
-UNUSED1
+DEBUG_GC
 )
-/
-*
-was
-CHUNK
-*
-/
 \
 D
 (

@@ -968,6 +968,9 @@ gcNextScheduled
 bool
 gcDebugCompartmentGC
 ;
+bool
+gcDeterministicOnly
+;
 int
 gcZeal
 (

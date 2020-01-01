@@ -7275,6 +7275,16 @@ JSContext
 cx
 )
 ;
+void
+SetDeterministicGC
+(
+JSContext
+*
+cx
+bool
+enabled
+)
+;
 #
 if
 defined
