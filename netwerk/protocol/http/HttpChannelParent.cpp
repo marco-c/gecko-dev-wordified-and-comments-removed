@@ -1374,6 +1374,9 @@ disable
 #
 endif
 #
+ifdef
+ANDROID
+#
 pragma
 GCC
 optimize
@@ -1382,6 +1385,8 @@ optimize
 O0
 "
 )
+#
+endif
 bool
 HttpChannelParent
 :
