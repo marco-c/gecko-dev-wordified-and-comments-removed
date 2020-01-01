@@ -1449,6 +1449,13 @@ pid
 0
 )
 {
+unsetenv
+(
+"
+LD_LIBRARY_PATH
+"
+)
+;
 (
 void
 )
