@@ -581,6 +581,10 @@ browser_manualupdates
 .
 js
 \
+browser_globalwarnings
+.
+js
+\
 redirect
 .
 sjs
