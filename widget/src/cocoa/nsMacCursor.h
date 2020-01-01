@@ -94,6 +94,12 @@ aPoint
 ;
 -
 (
+BOOL
+)
+isSet
+;
+-
+(
 void
 )
 set
