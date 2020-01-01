@@ -1200,6 +1200,8 @@ aEvent
 nsEventStatus
 *
 aEventStatus
+PRBool
+aControlHeld
 )
 ;
 NS_IMETHOD
@@ -1244,6 +1246,8 @@ nsPresContext
 aPresContext
 PRBool
 aJumpLines
+PRBool
+aMultipleSelection
 )
 ;
 virtual
