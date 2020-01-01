@@ -101,6 +101,15 @@ qgecko
 "
 )
 ;
+qecko
+-
+>
+resize
+(
+500
+700
+)
+;
 box
 -
 >
