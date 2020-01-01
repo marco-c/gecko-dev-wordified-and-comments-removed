@@ -76,6 +76,13 @@ script
 )
 HTML5_ATOM
 (
+svg
+"
+svg
+"
+)
+HTML5_ATOM
+(
 table
 "
 table
@@ -5522,13 +5529,6 @@ HTML5_ATOM
 sec
 "
 sec
-"
-)
-HTML5_ATOM
-(
-svg
-"
-svg
 "
 )
 HTML5_ATOM

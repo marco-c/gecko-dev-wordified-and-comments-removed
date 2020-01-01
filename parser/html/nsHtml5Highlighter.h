@@ -444,6 +444,12 @@ sEntity
 [
 ]
 ;
+static
+PRUnichar
+sPi
+[
+]
+;
 }
 ;
 #
