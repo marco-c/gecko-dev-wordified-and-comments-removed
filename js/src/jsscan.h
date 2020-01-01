@@ -2368,17 +2368,6 @@ version
 bool
 xml
 ;
-JS_STATIC_ASSERT
-(
-sizeof
-(
-maybeEOL
-)
-=
-=
-256
-)
-;
 }
 ;
 }
