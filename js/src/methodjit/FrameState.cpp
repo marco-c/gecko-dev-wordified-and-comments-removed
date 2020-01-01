@@ -83,6 +83,10 @@ cx
 *
 this
 )
+inTryBlock
+(
+false
+)
 {
 }
 FrameState
