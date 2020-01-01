@@ -857,6 +857,11 @@ NULL
 NULL
 )
 ;
+if
+(
+mImage
+)
+{
 nsresult
 result
 =
@@ -949,6 +954,7 @@ get
 )
 )
 ;
+}
 return
 NS_OK
 ;
