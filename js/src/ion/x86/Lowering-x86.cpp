@@ -334,13 +334,14 @@ defineBox
 new
 LBoxDouble
 (
-use
+useRegisterAtStart
 (
 inner
-LUse
-:
-:
-COPY
+)
+tempCopy
+(
+inner
+0
 )
 )
 box
@@ -607,7 +608,7 @@ lir
 setOperand
 (
 0
-usePayloadInRegister
+usePayloadInRegisterAtStart
 (
 inner
 )
@@ -659,6 +660,7 @@ defineReuseInput
 (
 lir
 unbox
+0
 )
 ;
 }
@@ -775,7 +777,7 @@ ins
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 lhs
 )
@@ -821,6 +823,7 @@ defineReuseInput
 (
 ins
 mir
+0
 )
 ;
 }
@@ -852,7 +855,7 @@ ins
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 input
 )
@@ -863,6 +866,7 @@ defineReuseInput
 (
 ins
 mir
+0
 )
 ;
 }
@@ -897,7 +901,7 @@ ins
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 lhs
 )
@@ -920,6 +924,7 @@ defineReuseInput
 (
 ins
 mir
+0
 )
 ;
 }
@@ -954,7 +959,7 @@ ins
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 lhs
 )
@@ -977,6 +982,7 @@ defineReuseInput
 (
 ins
 mir
+0
 )
 ;
 }
@@ -1237,7 +1243,7 @@ lir
 new
 LDivI
 (
-useFixed
+useFixedAtStart
 (
 div
 -
@@ -1267,6 +1273,7 @@ defineReuseInput
 (
 lir
 div
+0
 )
 &
 &

@@ -563,7 +563,7 @@ ins
 new
 LCallGeneric
 (
-useRegister
+useRegisterAtStart
 (
 call
 -
@@ -583,6 +583,16 @@ LDefinition
 :
 :
 GENERAL
+)
+tempCopy
+(
+call
+-
+>
+getFunction
+(
+)
+0
 )
 )
 ;
@@ -4395,7 +4405,7 @@ lir
 setOperand
 (
 0
-useRegister
+useRegisterAtStart
 (
 ins
 -
