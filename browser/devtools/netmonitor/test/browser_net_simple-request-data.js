@@ -639,7 +639,7 @@ available
 "
 )
 ;
-is
+ok
 (
 requestItem
 .
@@ -650,7 +650,9 @@ requestHeaders
 headers
 .
 length
-7
+>
+=
+6
 "
 The
 requestHeaders
