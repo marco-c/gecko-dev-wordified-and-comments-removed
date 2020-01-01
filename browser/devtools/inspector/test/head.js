@@ -53,11 +53,6 @@ tempScope
 .
 LayoutHelpers
 ;
-let
-{
-devtools
-}
-=
 Cu
 .
 import
@@ -72,7 +67,7 @@ modules
 /
 devtools
 /
-gDevTools
+Target
 .
 jsm
 "
@@ -82,7 +77,7 @@ tempScope
 let
 TargetFactory
 =
-devtools
+tempScope
 .
 TargetFactory
 ;

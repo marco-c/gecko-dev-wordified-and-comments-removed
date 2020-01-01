@@ -105,7 +105,7 @@ jsm
 console
 ;
 let
-devtools
+TargetFactory
 =
 (
 Cu
@@ -122,7 +122,7 @@ modules
 /
 devtools
 /
-gDevTools
+Target
 .
 jsm
 "
@@ -130,13 +130,6 @@ jsm
 }
 )
 )
-.
-devtools
-;
-let
-TargetFactory
-=
-devtools
 .
 TargetFactory
 ;

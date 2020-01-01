@@ -103,13 +103,9 @@ modules
 /
 devtools
 /
-shared
-/
-event
--
-emitter
+EventEmitter
 .
-js
+jsm
 "
 )
 ;
