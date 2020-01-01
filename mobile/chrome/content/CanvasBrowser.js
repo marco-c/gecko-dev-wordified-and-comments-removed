@@ -2126,7 +2126,9 @@ panTo
 (
 0
 -
-60
+BrowserUI
+.
+toolbarH
 )
 ;
 }

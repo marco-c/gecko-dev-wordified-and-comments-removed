@@ -1821,8 +1821,9 @@ panTo
 (
 0
 -
-60
-true
+BrowserUI
+.
+toolbarH
 )
 ;
 if
