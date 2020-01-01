@@ -20,6 +20,7 @@ translatex
 ref
 .
 html
+random
 =
 =
 translatex
@@ -114,6 +115,7 @@ translatey
 ref
 .
 html
+random
 =
 =
 translatey
@@ -232,6 +234,7 @@ translate
 ref
 .
 html
+random
 =
 =
 translate
