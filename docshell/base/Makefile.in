@@ -614,6 +614,10 @@ nsIURIClassifier
 .
 idl
 \
+nsIChannelClassifier
+.
+idl
+\
 nsIDownloadHistory
 .
 idl
