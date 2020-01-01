@@ -333,9 +333,6 @@ NS_CP_GetDocShellFromContext
 requestingContext
 )
 ;
-bool
-allowed
-;
 if
 (
 shell
