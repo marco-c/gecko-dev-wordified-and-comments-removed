@@ -33,6 +33,9 @@ nsIFrame
 h
 "
 class
+nsTreeBodyFrame
+;
+class
 nsTreeColumns
 ;
 class
