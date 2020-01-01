@@ -266,6 +266,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 SeekableStreamAtBeginning
@@ -321,6 +324,8 @@ return
 true
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsMultiplexInputStream
 :
