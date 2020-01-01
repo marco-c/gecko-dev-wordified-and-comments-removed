@@ -1155,6 +1155,9 @@ EXTRA_DSO_LDOPTS
 (
 MOZ_DBUS_LIBS
 )
+(
+MOZ_DBUS_GLIB_LIBS
+)
 endif
 ifeq
 (
