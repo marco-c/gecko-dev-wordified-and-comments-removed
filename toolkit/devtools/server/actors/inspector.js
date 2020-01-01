@@ -2094,7 +2094,7 @@ node
 "
 domnode
 "
-newNodes
+newParents
 :
 "
 array
@@ -2119,7 +2119,7 @@ array
 :
 domnode
 "
-newNodes
+newParents
 :
 "
 array
@@ -2285,7 +2285,7 @@ index
 )
 ;
 let
-newNodes
+newParents
 =
 [
 node
@@ -2309,9 +2309,9 @@ return
 node
 :
 node
-newNodes
+newParents
 :
-newNodes
+newParents
 }
 }
 {
@@ -2387,7 +2387,7 @@ end
 ]
 ;
 let
-newNodes
+newParents
 =
 new
 Set
@@ -2409,7 +2409,7 @@ walker
 ensurePathToRoot
 (
 item
-newNodes
+newParents
 )
 ;
 }
@@ -2418,7 +2418,7 @@ return
 nodes
 :
 items
-newNodes
+newParents
 :
 [
 node
@@ -2426,7 +2426,7 @@ for
 (
 node
 of
-newNodes
+newParents
 )
 ]
 }
@@ -2466,16 +2466,12 @@ true
 }
 response
 :
-{
-nodes
-:
 RetVal
 (
 "
 disconnectedNodeArray
 "
 )
-}
 }
 )
 release
@@ -4889,7 +4885,7 @@ return
 node
 :
 node
-newNodes
+newParents
 :
 [
 parent
