@@ -6402,6 +6402,14 @@ mFDconnected
 PR_FALSE
 ;
 }
+mCallbacks
+=
+nsnull
+;
+mEventSink
+=
+nsnull
+;
 }
 }
 NS_IMETHODIMP
