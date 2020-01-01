@@ -5490,6 +5490,11 @@ aStatus
 NS_BINDING_ABORTED
 )
 {
+if
+(
+mElement
+)
+{
 mElement
 -
 >
@@ -5497,6 +5502,7 @@ LoadAborted
 (
 )
 ;
+}
 }
 else
 if
