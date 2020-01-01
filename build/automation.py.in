@@ -4879,6 +4879,9 @@ env
 environment
 (
 env
+xrePath
+=
+xrePath
 )
 stdout
 =
