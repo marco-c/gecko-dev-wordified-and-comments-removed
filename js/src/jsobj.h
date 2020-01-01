@@ -3600,7 +3600,7 @@ uint32
 slotp
 )
 ;
-void
+bool
 freeSlot
 (
 JSContext

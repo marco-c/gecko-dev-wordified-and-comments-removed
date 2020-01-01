@@ -20903,7 +20903,7 @@ return
 true
 ;
 }
-void
+bool
 JSObject
 :
 :
@@ -21024,6 +21024,7 @@ last
 slot
 ;
 return
+true
 ;
 }
 }
@@ -21032,6 +21033,9 @@ vref
 setUndefined
 (
 )
+;
+return
+false
 ;
 }
 #
