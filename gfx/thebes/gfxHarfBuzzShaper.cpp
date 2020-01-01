@@ -4883,13 +4883,6 @@ allGlyphsAreWithinCluster
 =
 true
 ;
-PRInt32
-prevGlyphCharIndex
-=
-charStart
--
-1
-;
 for
 (
 PRInt32
@@ -4936,10 +4929,6 @@ false
 break
 ;
 }
-prevGlyphCharIndex
-=
-glyphCharIndex
-;
 }
 if
 (
