@@ -509,6 +509,9 @@ multiple
 void
 mozGetFileNameArray
 (
+[
+optional
+]
 out
 unsigned
 long

@@ -493,8 +493,6 @@ node
 .
 mozGetFileNameArray
 (
-{
-}
 )
 ;
 return

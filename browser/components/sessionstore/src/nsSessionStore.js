@@ -8006,8 +8006,6 @@ node
 .
 mozGetFileNameArray
 (
-{
-}
 )
 }
 ;
