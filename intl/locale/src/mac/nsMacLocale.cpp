@@ -73,6 +73,7 @@ h
 struct
 iso_lang_map
 {
+const
 char
 *
 iso_code
@@ -807,6 +808,7 @@ nsnull
 struct
 iso_country_map
 {
+const
 char
 *
 iso_code
