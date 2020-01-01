@@ -619,7 +619,7 @@ DEPENDENT_LIBS_LIST
 (
 LIB_PREFIX
 )
-sqlite3
+mozsqlite3
 (
 DLL_SUFFIX
 )

@@ -441,7 +441,7 @@ MODULE
 sqlite3
 LIBRARY_NAME
 =
-sqlite3
+mozsqlite3
 FORCE_SHARED_LIB
 =
 1
