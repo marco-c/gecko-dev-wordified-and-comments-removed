@@ -1142,7 +1142,8 @@ compartmentOp
 )
 ;
 typedef
-JSBool
+JSObject
+*
 (
 *
 ReadStructuredCloneOp
@@ -1158,9 +1159,6 @@ uint32
 tag
 uint32
 data
-jsval
-*
-vp
 )
 ;
 typedef
@@ -1176,8 +1174,9 @@ cx
 JSStructuredCloneWriter
 *
 w
-jsval
-v
+JSObject
+*
+obj
 )
 ;
 typedef
