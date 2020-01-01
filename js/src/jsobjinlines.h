@@ -6031,6 +6031,16 @@ unsigned
 attrs
 )
 {
+JS_ASSERT
+(
+!
+(
+attrs
+&
+JSPROP_NATIVE_ACCESSORS
+)
+)
+;
 js
 :
 :
