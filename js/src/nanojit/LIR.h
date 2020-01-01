@@ -1144,8 +1144,11 @@ CallInfo
 ;
 class
 LirWriter
+:
+public
+GCObject
 {
-protected
+public
 :
 LirWriter
 *
