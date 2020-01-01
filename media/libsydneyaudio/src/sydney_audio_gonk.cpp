@@ -566,15 +566,9 @@ channels
 =
 1
 ?
-AudioSystem
+AUDIO_CHANNEL_OUT_MONO
 :
-:
-CHANNEL_OUT_MONO
-:
-AudioSystem
-:
-:
-CHANNEL_OUT_STEREO
+AUDIO_CHANNEL_OUT_STEREO
 ;
 int
 frameCount
