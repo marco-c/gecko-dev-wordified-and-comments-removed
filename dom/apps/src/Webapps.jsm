@@ -2925,13 +2925,6 @@ name
 :
 activity
 "
-title
-"
-:
-manifest
-.
-name
-"
 icon
 "
 :

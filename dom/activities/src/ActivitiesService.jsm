@@ -492,15 +492,6 @@ name
 aObject
 .
 name
-title
-:
-aObject
-.
-title
-|
-|
-"
-"
 icon
 :
 aObject
@@ -821,11 +812,6 @@ manifest
 result
 .
 manifest
-title
-:
-result
-.
-title
 icon
 :
 result

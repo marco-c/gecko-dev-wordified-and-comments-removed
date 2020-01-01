@@ -140,11 +140,11 @@ choices
 push
 (
 {
-title
+manifest
 :
 item
 .
-title
+manifest
 icon
 :
 item
