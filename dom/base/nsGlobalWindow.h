@@ -2322,6 +2322,15 @@ nsGlobalWindow
 aWindow
 )
 ;
+void
+NotifyWindowIDDestroyed
+(
+const
+char
+*
+aTopic
+)
+;
 PRPackedBool
 mIsFrozen
 :
@@ -2414,6 +2423,11 @@ mFocusByKeyOccurred
 ;
 PRPackedBool
 mHasAcceleration
+:
+1
+;
+PRPackedBool
+mNotifiedIDDestroyed
 :
 1
 ;
