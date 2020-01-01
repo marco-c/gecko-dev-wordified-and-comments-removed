@@ -1713,13 +1713,6 @@ tokenStream
 reportStrictWarningErrorNumberVA
 (
 pn
-pc
--
->
-sc
--
->
-strict
 errorNumber
 args
 )

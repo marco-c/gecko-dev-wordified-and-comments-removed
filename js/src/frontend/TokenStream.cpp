@@ -2730,8 +2730,6 @@ reportStrictWarningErrorNumberVA
 ParseNode
 *
 pn
-bool
-strictMode
 unsigned
 errorNumber
 va_list
@@ -2740,10 +2738,6 @@ args
 {
 if
 (
-!
-strictMode
-&
-&
 !
 cx
 -

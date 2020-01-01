@@ -8306,10 +8306,6 @@ tokenStream
 reportStrictWarningErrorNumberVA
 (
 pn
-sc
--
->
-strict
 errorNumber
 args
 )
