@@ -410,7 +410,16 @@ run_tests
 (
 tests
 )
-7
+Object
+.
+keys
+(
+tests
+)
+.
+length
+-
+1
 )
 ;
 }
