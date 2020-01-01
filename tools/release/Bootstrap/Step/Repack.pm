@@ -303,7 +303,7 @@ dir
 '
 catfile
 (
-buildDir
+l10n_buildDir
 '
 tinderbox
 -
@@ -314,7 +314,7 @@ configs
 dir
 =
 >
-buildDir
+l10n_buildDir
 logFile
 =
 >
