@@ -162,6 +162,15 @@ uri
 )
 ;
 }
+get
+cleartext
+(
+)
+this
+.
+serialize
+(
+)
 encrypt
 :
 function
