@@ -8861,7 +8861,7 @@ StartDecoding
 return
 RequestDecodeCore
 (
-SYNCHRONOUS_NOTIFY_AND_SOME_DECODE
+SYNCHRONOUS_NOTIFY
 )
 ;
 }
