@@ -304,7 +304,10 @@ mZipFile
 nsCString
 mOuterZipEntry
 ;
+nsAutoPtr
+<
 nsZipArchive
+>
 mZip
 ;
 nsObjectHashtable

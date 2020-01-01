@@ -171,7 +171,8 @@ aJar
 -
 >
 mZip
-.
+-
+>
 GetFD
 (
 )
@@ -188,7 +189,8 @@ aJar
 -
 >
 mZip
-.
+-
+>
 GetData
 (
 item
@@ -454,7 +456,8 @@ mJar
 -
 >
 mZip
-.
+-
+>
 FindInit
 (
 pattern
@@ -1235,7 +1238,8 @@ mJar
 -
 >
 mZip
-.
+-
+>
 GetItem
 (
 entryName
