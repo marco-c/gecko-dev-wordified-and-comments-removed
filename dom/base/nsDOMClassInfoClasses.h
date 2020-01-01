@@ -220,10 +220,6 @@ CSSSupportsRule
 )
 DOMCI_CLASS
 (
-TimeEvent
-)
-DOMCI_CLASS
-(
 SVGAnimatedEnumeration
 )
 DOMCI_CLASS

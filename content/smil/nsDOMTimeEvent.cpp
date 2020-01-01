@@ -26,13 +26,6 @@ nsIInterfaceRequestorUtils
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 nsDOMTimeEvent
 :
 :
@@ -76,6 +69,10 @@ mDetail
 0
 )
 {
+SetIsDOMBinding
+(
+)
+;
 if
 (
 aEvent
@@ -230,11 +227,6 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMTimeEvent
 nsDOMEvent
 )
-DOMCI_DATA
-(
-TimeEvent
-nsDOMTimeEvent
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 nsDOMTimeEvent
@@ -242,10 +234,6 @@ nsDOMTimeEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMTimeEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-TimeEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

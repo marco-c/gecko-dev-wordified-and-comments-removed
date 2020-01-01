@@ -111,6 +111,11 @@ EXPORTS
 =
 [
 '
+nsDOMTimeEvent
+.
+h
+'
+'
 nsISMILAttr
 .
 h

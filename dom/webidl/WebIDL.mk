@@ -1319,6 +1319,10 @@ TextTrackList
 .
 webidl
 \
+TimeEvent
+.
+webidl
+\
 TimeRanges
 .
 webidl
