@@ -399,14 +399,6 @@ len
 4
 )
 ;
-JS_ASSERT
-(
-INT_FITS_IN_JSVAL
-(
-N
-)
-)
-;
 for
 (
 size_t

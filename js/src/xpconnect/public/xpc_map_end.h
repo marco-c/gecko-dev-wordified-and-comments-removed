@@ -431,7 +431,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -473,7 +473,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -515,7 +515,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -557,7 +557,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -681,7 +681,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 PRUint32
 flags
@@ -802,7 +802,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 PRUint32
 mode
@@ -936,7 +936,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+&
 val
 PRBool
 *
@@ -1012,7 +1014,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+&
 val
 PRBool
 *

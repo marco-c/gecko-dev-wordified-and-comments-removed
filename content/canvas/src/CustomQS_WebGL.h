@@ -282,7 +282,7 @@ selfref
 ptr
 tvr
 .
-addr
+jsval_addr
 (
 )
 nsnull
@@ -614,7 +614,7 @@ selfref
 ptr
 tvr
 .
-addr
+jsval_addr
 (
 )
 nsnull
@@ -948,7 +948,7 @@ selfref
 ptr
 tvr
 .
-addr
+jsval_addr
 (
 )
 nsnull
@@ -1178,6 +1178,15 @@ argc
 7
 &
 &
+JSVAL_IS_OBJECT
+(
+argv
+[
+6
+]
+)
+&
+&
 !
 JSVAL_IS_PRIMITIVE
 (
@@ -1392,7 +1401,7 @@ selfref
 ptr
 tvr
 .
-addr
+jsval_addr
 (
 )
 nsnull
@@ -1529,8 +1538,7 @@ argc
 5
 &
 &
-!
-JSVAL_IS_PRIMITIVE
+JSVAL_IS_OBJECT
 (
 argv
 [
@@ -1737,14 +1745,8 @@ js_height
 &
 int_height
 )
-)
-{
-return
-JS_FALSE
-;
-}
-if
-(
+|
+|
 !
 js_IsTypedArray
 (
@@ -2082,7 +2084,7 @@ selfref
 ptr
 tvr
 .
-addr
+jsval_addr
 (
 )
 nsnull
@@ -2151,8 +2153,7 @@ argc
 6
 &
 &
-!
-JSVAL_IS_PRIMITIVE
+JSVAL_IS_OBJECT
 (
 argv
 [
@@ -2354,14 +2355,8 @@ js_height
 &
 int_height
 )
-)
-{
-return
-JS_FALSE
-;
-}
-if
-(
+|
+|
 !
 js_IsTypedArray
 (
@@ -2418,8 +2413,7 @@ argc
 8
 &
 &
-!
-JSVAL_IS_PRIMITIVE
+JSVAL_IS_OBJECT
 (
 argv
 [
@@ -2663,7 +2657,7 @@ selfref
 ptr
 tvr
 .
-addr
+jsval_addr
 (
 )
 nsnull
@@ -2860,7 +2854,7 @@ JS_FALSE
 *
 obj_tvr
 .
-addr
+jsval_addr
 (
 )
 =
@@ -3079,7 +3073,7 @@ selfref
 ptr
 tvr
 .
-addr
+jsval_addr
 (
 )
 nsnull
@@ -3276,7 +3270,7 @@ JS_FALSE
 *
 obj_tvr
 .
-addr
+jsval_addr
 (
 )
 =
@@ -3495,7 +3489,7 @@ selfref
 ptr
 tvr
 .
-addr
+jsval_addr
 (
 )
 nsnull
@@ -3712,7 +3706,7 @@ JS_FALSE
 *
 obj_tvr
 .
-addr
+jsval_addr
 (
 )
 =
@@ -3925,7 +3919,7 @@ selfref
 ptr
 tvr
 .
-addr
+jsval_addr
 (
 )
 nsnull
@@ -4093,7 +4087,7 @@ JS_FALSE
 *
 obj_tvr
 .
-addr
+jsval_addr
 (
 )
 =
@@ -4602,7 +4596,7 @@ ifdef
 JS_TRACER
 static
 inline
-jsval
+void
 FASTCALL
 helper_nsICanvasRenderingContextWebGL_Uniform_x_iv_tn
 (
@@ -4674,7 +4668,6 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 js
@@ -4731,7 +4724,6 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 js
@@ -4804,13 +4796,12 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 *
 obj_tvr
 .
-addr
+jsval_addr
 (
 )
 =
@@ -4853,7 +4844,6 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 nsresult
@@ -4968,13 +4958,10 @@ cx
 )
 ;
 }
-return
-JSVAL_VOID
-;
 }
 static
 inline
-jsval
+void
 FASTCALL
 helper_nsICanvasRenderingContextWebGL_Uniform_x_fv_tn
 (
@@ -5046,7 +5033,6 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 js
@@ -5103,7 +5089,6 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 js
@@ -5176,13 +5161,12 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 *
 obj_tvr
 .
-addr
+jsval_addr
 (
 )
 =
@@ -5225,7 +5209,6 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 nsresult
@@ -5341,12 +5324,11 @@ cx
 ;
 }
 return
-JSVAL_VOID
 ;
 }
 static
 inline
-jsval
+void
 FASTCALL
 helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv_tn
 (
@@ -5420,7 +5402,6 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 js
@@ -5477,7 +5458,6 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 js
@@ -5550,13 +5530,12 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 *
 obj_tvr
 .
-addr
+jsval_addr
 (
 )
 =
@@ -5599,7 +5578,6 @@ cx
 )
 ;
 return
-JSVAL_VOID
 ;
 }
 nsresult
@@ -5696,12 +5674,9 @@ cx
 )
 ;
 }
-return
-JSVAL_VOID
-;
 }
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_Uniform1iv_tn
 (
@@ -5719,7 +5694,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_Uniform_x_iv_tn
 (
 cx
@@ -5728,6 +5702,9 @@ location
 arg
 1
 )
+;
+return
+0
 ;
 }
 JS_DEFINE_TRCINFO_1
@@ -5737,7 +5714,7 @@ nsICanvasRenderingContextWebGL_Uniform1iv
 4
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_Uniform1iv_tn
 CONTEXT
 THIS
@@ -5752,7 +5729,7 @@ ACC_STORE_ANY
 )
 )
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_Uniform2iv_tn
 (
@@ -5770,7 +5747,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_Uniform_x_iv_tn
 (
 cx
@@ -5779,6 +5755,9 @@ location
 arg
 2
 )
+;
+return
+0
 ;
 }
 JS_DEFINE_TRCINFO_1
@@ -5788,7 +5767,7 @@ nsICanvasRenderingContextWebGL_Uniform2iv
 4
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_Uniform2iv_tn
 CONTEXT
 THIS
@@ -5803,7 +5782,7 @@ ACC_STORE_ANY
 )
 )
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_Uniform3iv_tn
 (
@@ -5821,7 +5800,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_Uniform_x_iv_tn
 (
 cx
@@ -5830,6 +5808,9 @@ location
 arg
 3
 )
+;
+return
+0
 ;
 }
 JS_DEFINE_TRCINFO_1
@@ -5839,7 +5820,7 @@ nsICanvasRenderingContextWebGL_Uniform3iv
 4
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_Uniform3iv_tn
 CONTEXT
 THIS
@@ -5854,7 +5835,7 @@ ACC_STORE_ANY
 )
 )
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_Uniform4iv_tn
 (
@@ -5872,7 +5853,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_Uniform_x_iv_tn
 (
 cx
@@ -5882,6 +5862,9 @@ arg
 4
 )
 ;
+return
+0
+;
 }
 JS_DEFINE_TRCINFO_1
 (
@@ -5890,7 +5873,7 @@ nsICanvasRenderingContextWebGL_Uniform4iv
 4
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_Uniform4iv_tn
 CONTEXT
 THIS
@@ -5905,7 +5888,7 @@ ACC_STORE_ANY
 )
 )
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_Uniform1fv_tn
 (
@@ -5923,7 +5906,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_Uniform_x_fv_tn
 (
 cx
@@ -5933,6 +5915,9 @@ arg
 1
 )
 ;
+return
+0
+;
 }
 JS_DEFINE_TRCINFO_1
 (
@@ -5941,7 +5926,7 @@ nsICanvasRenderingContextWebGL_Uniform1fv
 4
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_Uniform1fv_tn
 CONTEXT
 THIS
@@ -5956,7 +5941,7 @@ ACC_STORE_ANY
 )
 )
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_Uniform2fv_tn
 (
@@ -5974,7 +5959,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_Uniform_x_fv_tn
 (
 cx
@@ -5983,6 +5967,9 @@ location
 arg
 2
 )
+;
+return
+0
 ;
 }
 JS_DEFINE_TRCINFO_1
@@ -5992,7 +5979,7 @@ nsICanvasRenderingContextWebGL_Uniform2fv
 4
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_Uniform2fv_tn
 CONTEXT
 THIS
@@ -6007,7 +5994,7 @@ ACC_STORE_ANY
 )
 )
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_Uniform3fv_tn
 (
@@ -6025,7 +6012,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_Uniform_x_fv_tn
 (
 cx
@@ -6035,6 +6021,9 @@ arg
 3
 )
 ;
+return
+0
+;
 }
 JS_DEFINE_TRCINFO_1
 (
@@ -6043,7 +6032,7 @@ nsICanvasRenderingContextWebGL_Uniform3fv
 4
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_Uniform3fv_tn
 CONTEXT
 THIS
@@ -6058,7 +6047,7 @@ ACC_STORE_ANY
 )
 )
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_Uniform4fv_tn
 (
@@ -6076,7 +6065,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_Uniform_x_fv_tn
 (
 cx
@@ -6086,6 +6074,9 @@ arg
 4
 )
 ;
+return
+0
+;
 }
 JS_DEFINE_TRCINFO_1
 (
@@ -6094,7 +6085,7 @@ nsICanvasRenderingContextWebGL_Uniform4fv
 4
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_Uniform4fv_tn
 CONTEXT
 THIS
@@ -6109,7 +6100,7 @@ ACC_STORE_ANY
 )
 )
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_UniformMatrix2fv_tn
 (
@@ -6129,7 +6120,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv_tn
 (
 cx
@@ -6140,6 +6130,9 @@ arg
 2
 )
 ;
+return
+0
+;
 }
 JS_DEFINE_TRCINFO_1
 (
@@ -6148,7 +6141,7 @@ nsICanvasRenderingContextWebGL_UniformMatrix2fv
 5
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_UniformMatrix2fv_tn
 CONTEXT
 THIS
@@ -6164,7 +6157,7 @@ ACC_STORE_ANY
 )
 )
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_UniformMatrix3fv_tn
 (
@@ -6184,7 +6177,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv_tn
 (
 cx
@@ -6195,6 +6187,9 @@ arg
 3
 )
 ;
+return
+0
+;
 }
 JS_DEFINE_TRCINFO_1
 (
@@ -6203,7 +6198,7 @@ nsICanvasRenderingContextWebGL_UniformMatrix3fv
 5
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_UniformMatrix3fv_tn
 CONTEXT
 THIS
@@ -6219,7 +6214,7 @@ ACC_STORE_ANY
 )
 )
 static
-jsval
+uint32
 FASTCALL
 nsICanvasRenderingContextWebGL_UniformMatrix4fv_tn
 (
@@ -6239,7 +6234,6 @@ JSObject
 arg
 )
 {
-return
 helper_nsICanvasRenderingContextWebGL_UniformMatrix_x_fv_tn
 (
 cx
@@ -6250,6 +6244,9 @@ arg
 4
 )
 ;
+return
+0
+;
 }
 JS_DEFINE_TRCINFO_1
 (
@@ -6258,7 +6255,7 @@ nsICanvasRenderingContextWebGL_UniformMatrix4fv
 5
 (
 static
-JSVAL_FAIL
+UINT32_FAIL
 nsICanvasRenderingContextWebGL_UniformMatrix4fv_tn
 CONTEXT
 THIS

@@ -765,7 +765,7 @@ in
 nsIClassInfo
 aClassInfo
 in
-jsval
+jsid
 aName
 inout
 voidPtr

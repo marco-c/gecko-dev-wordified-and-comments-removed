@@ -1839,8 +1839,9 @@ cx
 JSObject
 *
 obj
-jsval
-idval
+JSString
+*
+name
 )
 ;
 JSObject

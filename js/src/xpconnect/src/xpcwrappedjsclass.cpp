@@ -1221,7 +1221,6 @@ rv
 nsresult
 )
 (
-*
 JSVAL_TO_DOUBLE
 (
 jsexception
@@ -5443,10 +5442,13 @@ sp
 =
 stackbase
 =
+Jsvalify
+(
 args
 .
 getvp
 (
+)
 )
 ;
 if
@@ -6381,7 +6383,10 @@ fval
 {
 success
 =
-js_Invoke
+js
+:
+:
+InvokeFriendAPI
 (
 cx
 args

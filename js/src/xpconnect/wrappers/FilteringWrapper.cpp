@@ -138,7 +138,7 @@ cx
 JSObject
 *
 wrapper
-AutoValueVector
+AutoIdVector
 &
 props
 )
@@ -325,7 +325,7 @@ cx
 JSObject
 *
 wrapper
-AutoValueVector
+AutoIdVector
 &
 props
 )
@@ -376,7 +376,7 @@ cx
 JSObject
 *
 wrapper
-AutoValueVector
+AutoIdVector
 &
 props
 )
@@ -427,7 +427,7 @@ cx
 JSObject
 *
 wrapper
-AutoValueVector
+AutoIdVector
 &
 props
 )
@@ -480,7 +480,7 @@ JSObject
 wrapper
 uintN
 flags
-jsval
+Value
 *
 vp
 )
@@ -538,7 +538,7 @@ Policy
 (
 cx
 wrapper
-JSVAL_VOID
+JSID_VOID
 set
 perm
 )

@@ -24,7 +24,7 @@ obj
 JSObject
 *
 funobj
-jsval
+jsid
 name
 uintN
 argc
@@ -185,7 +185,7 @@ callBeginRequest
 obj
 nsnull
 JS_FALSE
-0
+JSID_VOID
 NO_ARGS
 nsnull
 nsnull
@@ -213,7 +213,7 @@ JSObject
 funobj
 JSBool
 getWrappedNative
-jsval
+jsid
 name
 uintN
 argc
@@ -632,7 +632,11 @@ mCurrentJSObject
 }
 if
 (
+!
+JSID_IS_VOID
+(
 name
+)
 )
 SetName
 (
@@ -665,7 +669,7 @@ XPCCallContext
 :
 SetName
 (
-jsval
+jsid
 name
 )
 {

@@ -207,7 +207,7 @@ aObj
 nsIClassInfo
 *
 aClassInfo
-jsval
+jsid
 aName
 void
 *

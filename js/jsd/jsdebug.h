@@ -27,7 +27,6 @@ __cplusplus
 }
 #
 endif
-JS_BEGIN_EXTERN_C
 #
 include
 "
@@ -54,7 +53,6 @@ h
 "
 #
 endif
-JS_END_EXTERN_C
 JS_BEGIN_EXTERN_C
 #
 ifdef
@@ -2485,7 +2483,6 @@ extern
 JSD_PUBLIC_API
 (
 jsdouble
-*
 )
 JSD_GetValueDouble
 (

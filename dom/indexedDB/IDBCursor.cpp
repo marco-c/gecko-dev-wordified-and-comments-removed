@@ -1515,7 +1515,9 @@ IDBCursor
 :
 Continue
 (
+const
 jsval
+&
 aKey
 JSContext
 *
@@ -1689,7 +1691,9 @@ IDBCursor
 :
 Update
 (
+const
 jsval
+&
 aValue
 JSContext
 *
@@ -1825,7 +1829,7 @@ aCx
 aValue
 clone
 .
-addr
+jsval_addr
 (
 )
 )
@@ -1917,7 +1921,7 @@ JSVAL_TO_OBJECT
 (
 clone
 .
-value
+jsval_value
 (
 )
 )
@@ -1925,7 +1929,7 @@ keyPathChars
 keyPathLen
 prop
 .
-addr
+jsval_addr
 (
 )
 )
@@ -1942,7 +1946,7 @@ JSVAL_IS_VOID
 (
 prop
 .
-value
+jsval_value
 (
 )
 )
@@ -1959,7 +1963,7 @@ key
 aCx
 prop
 .
-addr
+jsval_addr
 (
 )
 )
@@ -1979,7 +1983,7 @@ JSVAL_TO_OBJECT
 (
 clone
 .
-value
+jsval_value
 (
 )
 )
@@ -1987,7 +1991,7 @@ keyPathChars
 keyPathLen
 prop
 .
-value
+jsval_value
 (
 )
 nsnull
@@ -2016,7 +2020,7 @@ GetKeyFromJSVal
 (
 prop
 .
-value
+jsval_value
 (
 )
 newKey
@@ -2078,7 +2082,7 @@ GetObjectStoreInfo
 aCx
 clone
 .
-value
+jsval_value
 (
 )
 indexUpdateInfo
@@ -2114,7 +2118,7 @@ EncodeFromJSVal
 (
 clone
 .
-addr
+jsval_addr
 (
 )
 aCx

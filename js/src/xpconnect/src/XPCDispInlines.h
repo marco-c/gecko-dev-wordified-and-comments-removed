@@ -713,7 +713,7 @@ IsParameterizedGetter
 ;
 }
 inline
-jsval
+jsid
 XPCDispInterface
 :
 :
@@ -739,7 +739,7 @@ Member
 :
 SetName
 (
-jsval
+jsid
 name
 )
 {
@@ -1096,7 +1096,7 @@ XPCDispInterface
 :
 FindMember
 (
-jsval
+jsid
 name
 )
 const
@@ -2354,8 +2354,9 @@ xpc_JSString2PRUnichar
 XPCCallContext
 &
 ccx
-jsval
-val
+JSString
+*
+str
 size_t
 *
 length
@@ -2363,16 +2364,6 @@ length
 nsnull
 )
 {
-JSString
-*
-str
-=
-JS_ValueToString
-(
-ccx
-val
-)
-;
 if
 (
 !

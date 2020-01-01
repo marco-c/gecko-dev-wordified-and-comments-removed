@@ -1154,10 +1154,10 @@ line
 256
 ]
 ;
-fputs
+fprintf
 (
-prompt
 stdout
+prompt
 )
 ;
 fflush
@@ -3233,7 +3233,7 @@ aObj
 nsIClassInfo
 *
 aClassInfo
-jsval
+jsid
 aName
 void
 *
@@ -3261,7 +3261,7 @@ const
 char
 *
 aClassName
-jsval
+jsid
 aProperty
 PRUint32
 aAction

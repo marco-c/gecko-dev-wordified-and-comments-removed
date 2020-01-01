@@ -112,7 +112,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 PRUint32
 flags

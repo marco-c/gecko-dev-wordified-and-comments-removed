@@ -1599,7 +1599,7 @@ IsFunction
 )
 const
 ;
-jsval
+jsid
 GetName
 (
 )
@@ -1651,7 +1651,7 @@ const
 void
 SetName
 (
-jsval
+jsid
 name
 )
 ;
@@ -1740,7 +1740,7 @@ mType
 jsval
 mVal
 ;
-jsval
+jsid
 mName
 ;
 CComPtr
@@ -1796,7 +1796,7 @@ Member
 *
 FindMember
 (
-jsval
+jsid
 name
 )
 const
@@ -1809,7 +1809,7 @@ FindMemberCI
 XPCCallContext
 &
 ccx
-jsval
+jsid
 name
 )
 const
@@ -2174,8 +2174,8 @@ ccx
 JSObject
 *
 obj
-jsval
-idval
+jsid
+id
 XPCWrappedNative
 *
 wrapperToReflectInterfaceNames

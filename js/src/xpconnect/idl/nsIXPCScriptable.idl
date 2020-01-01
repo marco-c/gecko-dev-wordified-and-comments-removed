@@ -1128,7 +1128,7 @@ in
 JSObjectPtr
 obj
 in
-jsval
+jsid
 id
 in
 JSValPtr
@@ -1148,7 +1148,7 @@ in
 JSObjectPtr
 obj
 in
-jsval
+jsid
 id
 in
 JSValPtr
@@ -1185,7 +1185,7 @@ in
 JSObjectPtr
 obj
 in
-jsval
+jsid
 id
 in
 JSValPtr
@@ -1222,7 +1222,7 @@ in
 JSObjectPtr
 obj
 in
-jsval
+jsid
 id
 in
 JSValPtr
@@ -1262,7 +1262,7 @@ in
 JSValPtr
 statep
 out
-JSID
+jsid
 idp
 )
 ;
@@ -1279,7 +1279,7 @@ in
 JSObjectPtr
 obj
 in
-jsval
+jsid
 id
 in
 PRUint32
@@ -1336,7 +1336,7 @@ in
 JSObjectPtr
 obj
 in
-jsval
+jsid
 id
 in
 PRUint32

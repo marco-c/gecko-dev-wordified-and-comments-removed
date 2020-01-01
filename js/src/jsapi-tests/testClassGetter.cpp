@@ -21,8 +21,8 @@ cx
 JSObject
 *
 obj
-jsval
-idval
+jsid
+id
 jsval
 *
 vp

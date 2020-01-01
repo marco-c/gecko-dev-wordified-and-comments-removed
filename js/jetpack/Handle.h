@@ -515,7 +515,7 @@ obj
 obj
 -
 >
-getClass
+getJSClass
 (
 )
 !
@@ -597,7 +597,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 jsval
 *
 vp
@@ -681,7 +681,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 jsval
 *
 vp

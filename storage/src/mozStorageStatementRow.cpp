@@ -113,7 +113,7 @@ aCtx
 JSObject
 *
 aScopeObj
-jsval
+jsid
 aId
 jsval
 *
@@ -131,7 +131,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 if
 (
-JSVAL_IS_STRING
+JSID_IS_STRING
 (
 aId
 )
@@ -144,7 +144,7 @@ jsid
 :
 JS_GetStringBytes
 (
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 aId
 )
@@ -525,7 +525,7 @@ aCtx
 JSObject
 *
 aScopeObj
-jsval
+jsid
 aId
 PRUint32
 aFlags
@@ -546,7 +546,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 if
 (
-JSVAL_IS_STRING
+JSID_IS_STRING
 (
 aId
 )
@@ -556,7 +556,7 @@ JSString
 *
 str
 =
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 aId
 )

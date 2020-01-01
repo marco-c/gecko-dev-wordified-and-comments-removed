@@ -2384,8 +2384,10 @@ name
 ;
 if
 (
-!
+JSVAL_IS_NULL
+(
 jsstr
+)
 )
 return
 NS_ERROR_OUT_OF_MEMORY

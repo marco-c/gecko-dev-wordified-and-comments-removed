@@ -14,14 +14,14 @@ h
 #
 include
 "
-jsprvtd
+jsapi
 .
 h
 "
 #
 include
 "
-jspubtd
+jsprvtd
 .
 h
 "

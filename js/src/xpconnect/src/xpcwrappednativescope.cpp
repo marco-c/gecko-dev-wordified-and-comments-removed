@@ -667,7 +667,7 @@ jsClass
 aGlobal
 -
 >
-getClass
+getJSClass
 (
 )
 ;
@@ -2688,7 +2688,7 @@ clazz
 obj
 -
 >
-getClass
+getJSClass
 (
 )
 ;

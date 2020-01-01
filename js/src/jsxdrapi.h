@@ -552,7 +552,6 @@ JSXDRState
 xdr
 jsdouble
 *
-*
 dp
 )
 ;

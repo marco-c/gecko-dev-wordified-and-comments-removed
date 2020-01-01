@@ -6992,7 +6992,6 @@ retval
 ;
 if
 (
-*
 retval
 )
 *
