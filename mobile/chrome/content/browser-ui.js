@@ -3294,6 +3294,12 @@ selectTab
 aTab
 )
 {
+BrowserUI
+.
+activePanel
+=
+null
+;
 Browser
 .
 selectedTab
