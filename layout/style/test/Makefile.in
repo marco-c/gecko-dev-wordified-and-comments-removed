@@ -681,6 +681,10 @@ test_property_syntax_errors
 .
 html
 \
+test_selectors
+.
+html
+\
 test_style_struct_copy_constructors
 .
 html
