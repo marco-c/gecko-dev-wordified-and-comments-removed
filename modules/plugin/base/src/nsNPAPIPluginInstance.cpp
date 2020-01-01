@@ -1228,7 +1228,6 @@ if
 (
 request
 )
-{
 request
 -
 >
@@ -1236,7 +1235,6 @@ Resume
 (
 )
 ;
-}
 mIsSuspended
 =
 PR_FALSE
@@ -3290,11 +3288,9 @@ if
 !
 pp
 )
-{
 return
 nsnull
 ;
-}
 nsCOMPtr
 <
 nsIPluginInstanceOwner
@@ -3317,11 +3313,9 @@ if
 !
 owner
 )
-{
 return
 nsnull
 ;
-}
 nsCOMPtr
 <
 nsIDocument
@@ -3344,11 +3338,9 @@ if
 !
 doc
 )
-{
 return
 nsnull
 ;
-}
 nsPIDOMWindow
 *
 window
@@ -3521,9 +3513,7 @@ pvalues
 {
 NS_ASSERTION
 (
-nsnull
-=
-=
+!
 values
 [
 count
@@ -3537,9 +3527,7 @@ not
 setup
 correctly
 for
-4
-.
-x
+NPAPI
 plugins
 "
 )
@@ -5197,9 +5185,6 @@ aNPP
 if
 (
 aNPP
-!
-=
-nsnull
 )
 *
 aNPP
@@ -5231,9 +5216,6 @@ aCallbacks
 if
 (
 aCallbacks
-!
-=
-nsnull
 )
 *
 aCallbacks
