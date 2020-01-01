@@ -128,14 +128,7 @@ minHeight
 "
 dimen
 /
-awesomebar_row_height
-"
-android
-:
-duplicateParentState
-=
-"
-true
+page_row_height
 "
 android
 :
