@@ -3242,7 +3242,7 @@ this
 getLocaleString
 (
 "
-rememberPassword
+saveButton
 "
 "
 passwdmgr
