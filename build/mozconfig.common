@@ -126,3 +126,7 @@ of
 this
 file
 .
+mk_add_options
+AUTOCLOBBER
+=
+1

@@ -950,9 +950,9 @@ s
 )
 )
 ifdef
-NO_AUTOCLOBBER
+AUTOCLOBBER
 export
-NO_AUTOCLOBBER
+AUTOCLOBBER
 =
 1
 endif
