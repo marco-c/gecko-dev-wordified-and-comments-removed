@@ -165,7 +165,6 @@ NS_OK
 ;
 }
 static
-const
 nsresult
 GetKeyValue
 (
@@ -486,7 +485,6 @@ retval
 ;
 }
 static
-const
 void
 normalizeDriverId
 (
@@ -2005,7 +2003,6 @@ allDevices
 }
 ;
 static
-const
 bool
 ParseDriverVersion
 (
