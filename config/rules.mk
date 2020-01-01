@@ -7412,6 +7412,12 @@ EXTRA_DEPS
 (
 DTRACE_PROBE_OBJ
 )
+OBJS
++
+=
+(
+DTRACE_PROBE_OBJ
+)
 endif
 (
 filter
@@ -7643,9 +7649,6 @@ DTRACE_LIB_DEPENDENT
 DTRACE_PROBE_OBJ
 )
 :
-(
-OBJS
-)
 dtrace
 -
 G
@@ -7660,9 +7663,6 @@ MOZILLA_DTRACE_SRC
 o
 (
 DTRACE_PROBE_OBJ
-)
-(
-OBJS
 )
 endif
 endif
@@ -7861,9 +7861,6 @@ SHLIB_LDSTARTFILE
 )
 (
 OBJS
-)
-(
-DTRACE_PROBE_OBJ
 )
 (
 LOBJS
