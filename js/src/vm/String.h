@@ -112,11 +112,6 @@ JSExtensibleString
 class
 JSExternalString
 ;
-ForwardDeclareJS
-(
-LinearString
-)
-;
 class
 JSStableString
 ;
