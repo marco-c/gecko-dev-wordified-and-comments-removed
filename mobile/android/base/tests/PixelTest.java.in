@@ -11,6 +11,7 @@ ANDROID_PACKAGE_NAME
 .
 *
 ;
+abstract
 class
 PixelTest
 extends
