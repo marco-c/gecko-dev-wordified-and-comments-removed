@@ -109,7 +109,7 @@ temp
 .
 LightweightThemeManager
 .
-currentTheme
+currentThemeForDisplay
 )
 ;
 }
