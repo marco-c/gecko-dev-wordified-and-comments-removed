@@ -41,7 +41,7 @@ nsMemoryReporter
 (
 nsCString
 &
-prefix
+process
 nsCString
 &
 path
@@ -61,6 +61,9 @@ nsMemoryReporter
 ;
 protected
 :
+nsCString
+mProcess
+;
 nsCString
 mPath
 ;

@@ -443,7 +443,7 @@ struct
 MemoryReport
 {
 nsCString
-prefix
+process
 ;
 nsCString
 path
