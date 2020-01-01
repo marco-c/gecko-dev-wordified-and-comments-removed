@@ -4369,7 +4369,7 @@ false
 }
 }
 }
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 res
