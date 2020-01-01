@@ -1922,17 +1922,6 @@ tab
 .
 chromeTab
 ;
-ws
-.
-panTo
-(
-0
--
-BrowserUI
-.
-toolbarH
-)
-;
 if
 (
 !
