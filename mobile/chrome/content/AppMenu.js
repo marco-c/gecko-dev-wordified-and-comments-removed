@@ -71,7 +71,7 @@ this
 .
 panel
 .
-hidden
+collapsed
 =
 false
 ;
@@ -117,7 +117,7 @@ this
 .
 panel
 .
-hidden
+collapsed
 =
 true
 ;
@@ -155,7 +155,7 @@ this
 .
 panel
 .
-hidden
+collapsed
 ?
 this
 .
