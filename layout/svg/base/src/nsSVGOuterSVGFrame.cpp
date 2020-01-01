@@ -2848,11 +2848,6 @@ SuspendRedraw
 (
 )
 {
-#
-ifdef
-DEBUG
-#
-endif
 if
 (
 +
@@ -2924,11 +2919,6 @@ UnsuspendRedraw
 (
 )
 {
-#
-ifdef
-DEBUG
-#
-endif
 NS_ASSERTION
 (
 mRedrawSuspendCount
