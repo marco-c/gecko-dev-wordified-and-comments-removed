@@ -113,6 +113,14 @@ ConsoleAPI
 .
 manifest
 \
+NavigatorPropertyHelper
+.
+js
+\
+NavigatorPropertyHelper
+.
+manifest
+\
 (
 NULL
 )
