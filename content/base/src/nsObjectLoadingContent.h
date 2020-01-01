@@ -692,6 +692,11 @@ UpdateObjectParameters
 )
 ;
 void
+QueueCheckPluginStopEvent
+(
+)
+;
+void
 NotifyContentObjectWrapper
 (
 )
