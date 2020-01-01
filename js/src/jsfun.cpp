@@ -11273,12 +11273,10 @@ BAD_FORMAL
 &
 &
 !
-(
 ts
 .
-flags
-&
-TSF_ERROR
+isError
+(
 )
 )
 {
