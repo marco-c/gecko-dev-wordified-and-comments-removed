@@ -29,6 +29,15 @@ PRBool
 forRestart
 )
 ;
+PRBool
+AddURLToCurrentCommandLine
+(
+const
+char
+*
+aURL
+)
+;
 }
 #
 endif

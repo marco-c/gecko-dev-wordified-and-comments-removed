@@ -16,5 +16,11 @@ SetupMacApplicationDelegate
 void
 )
 ;
+void
+ProcessPendingGetURLAppleEvents
+(
+void
+)
+;
 #
 endif

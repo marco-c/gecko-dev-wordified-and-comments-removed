@@ -16449,6 +16449,10 @@ endif
 #
 ifdef
 XP_MACOSX
+SetupMacApplicationDelegate
+(
+)
+;
 cmdLine
 =
 do_CreateInstance
@@ -16504,10 +16508,6 @@ NS_ENSURE_SUCCESS
 (
 rv
 1
-)
-;
-SetupMacApplicationDelegate
-(
 )
 ;
 #
