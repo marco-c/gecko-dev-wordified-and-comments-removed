@@ -27127,13 +27127,16 @@ JSXML_CLASS_ATTRIBUTE
 *
 vp
 =
+DOUBLE_TO_JSVAL
+(
 cx
 -
 >
 runtime
 -
 >
-NaNValue
+jsNaN
+)
 ;
 return
 JS_TRUE

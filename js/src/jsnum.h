@@ -519,14 +519,6 @@ jsdouble
 js_NaN
 ;
 extern
-jsdouble
-js_PositiveInfinity
-;
-extern
-jsdouble
-js_NegativeInfinity
-;
-extern
 JSBool
 js_InitRuntimeNumberState
 (
