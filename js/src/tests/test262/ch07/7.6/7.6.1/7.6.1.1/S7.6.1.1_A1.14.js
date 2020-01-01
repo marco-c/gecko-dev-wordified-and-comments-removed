@@ -1,0 +1,4 @@
+instanceof
+=
+1
+;

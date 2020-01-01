@@ -1,0 +1,5 @@
+var
+synchronized
+=
+1
+;

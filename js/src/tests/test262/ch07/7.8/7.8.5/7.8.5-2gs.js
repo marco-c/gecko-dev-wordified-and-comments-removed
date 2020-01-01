@@ -1,0 +1,10 @@
+var
+re
+=
+new
+RegExp
+(
+"
+"
+)
+;

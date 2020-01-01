@@ -1,0 +1,5 @@
+var
+abstract
+=
+1
+;

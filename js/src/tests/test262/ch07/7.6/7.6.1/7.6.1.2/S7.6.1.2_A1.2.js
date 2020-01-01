@@ -1,0 +1,5 @@
+var
+boolean
+=
+1
+;

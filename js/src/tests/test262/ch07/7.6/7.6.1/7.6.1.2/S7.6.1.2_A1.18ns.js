@@ -1,0 +1,5 @@
+var
+interface
+=
+1
+;

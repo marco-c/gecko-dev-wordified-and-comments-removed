@@ -1,0 +1,5 @@
+var
+volatile
+=
+1
+;

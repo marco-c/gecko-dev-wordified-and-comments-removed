@@ -1,0 +1,10 @@
+"
+use
+strict
+"
+;
+var
+implements
+=
+1
+;

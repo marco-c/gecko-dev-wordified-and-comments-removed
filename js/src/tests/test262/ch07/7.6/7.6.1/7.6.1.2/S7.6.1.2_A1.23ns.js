@@ -1,0 +1,5 @@
+var
+protected
+=
+1
+;
