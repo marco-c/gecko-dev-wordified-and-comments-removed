@@ -228,6 +228,8 @@ NotifyStateEvent
 (
 PRUint32
 stateEvent
+PRUint64
+byteProgress
 )
 ;
 AssociateDocuments
