@@ -19781,6 +19781,11 @@ COMPUTED_STYLE_MAP_ENTRY
 perspective
 MozPerspective
 )
+COMPUTED_STYLE_MAP_ENTRY_LAYOUT
+(
+perspective_origin
+MozPerspectiveOrigin
+)
 COMPUTED_STYLE_MAP_ENTRY
 (
 stack_sizing
