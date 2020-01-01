@@ -1750,7 +1750,7 @@ fails
 -
 if
 (
-winWidget
+d2d
 )
 =
 =
@@ -1795,7 +1795,7 @@ fails
 -
 if
 (
-winWidget
+d2d
 )
 fails
 -
