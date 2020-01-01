@@ -162,13 +162,6 @@ nsJSContext
 nsIScriptContext
 )
 virtual
-nsIScriptObjectPrincipal
-*
-GetObjectPrincipal
-(
-)
-;
-virtual
 nsresult
 EvaluateString
 (

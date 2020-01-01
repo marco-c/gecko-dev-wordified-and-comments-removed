@@ -733,10 +733,6 @@ nsIInProcessContentFrameMessageManager
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIScriptContextPrincipal
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIScriptObjectPrincipal
 )
 NS_INTERFACE_MAP_ENTRY

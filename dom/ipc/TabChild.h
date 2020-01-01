@@ -348,8 +348,6 @@ public
 nsIContentFrameMessageManager
 public
 nsIScriptObjectPrincipal
-public
-nsIScriptContextPrincipal
 {
 public
 :
@@ -558,17 +556,6 @@ aUseCapture
 aWantsUntrusted
 optional_argc
 )
-;
-}
-virtual
-nsIScriptObjectPrincipal
-*
-GetObjectPrincipal
-(
-)
-{
-return
-this
 ;
 }
 virtual
