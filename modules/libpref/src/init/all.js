@@ -4970,6 +4970,16 @@ default_quota
 5120
 )
 ;
+pref
+(
+"
+dom
+.
+min_timeout_value
+"
+10
+)
+;
 #
 ifndef
 XP_WIN
