@@ -2857,6 +2857,11 @@ arrays
 }
 Format4Cmap
 ;
+#
+pragma
+pack
+(
+)
 PRUint32
 gfxFontUtils
 :
@@ -3980,6 +3985,11 @@ tupleIndex
 ;
 }
 ;
+#
+pragma
+pack
+(
+)
 static
 PRBool
 IsValidSFNTVersion
