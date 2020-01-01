@@ -164,9 +164,8 @@ nsRect
 aRect
 )
 ;
-nsIDocShell
-*
-mDocShell
+bool
+mIsChrome
 ;
 mozilla
 :
@@ -204,6 +203,11 @@ sAllowScreenBrightnessProperty
 static
 void
 Initialize
+(
+)
+;
+bool
+IsWhiteListed
 (
 )
 ;
