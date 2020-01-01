@@ -352,12 +352,6 @@ mRememberClientAuthCertificate
 PRIntervalTime
 mHandshakeStartTime
 ;
-nsRefPtr
-<
-nsSSLStatus
->
-mSSLStatus
-;
 nsresult
 ActivateSSL
 (
