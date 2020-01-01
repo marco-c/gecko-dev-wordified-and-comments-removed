@@ -271,6 +271,9 @@ fp
 regs
 )
 ?
+(
+int
+)
 js_PCToLineNumber
 (
 cx
@@ -323,6 +326,10 @@ case
 JSTYPE_VOID
 :
 return
+(
+void
+*
+)
 JS_TYPE_STR
 (
 type
@@ -534,6 +541,10 @@ pc
 )
 )
 ;
+break
+;
+default
+:
 break
 ;
 }
