@@ -337,6 +337,13 @@ nsIAccessibleStates
 STATE_MULTISELECTABLE
 ;
 const
+STATE_OFFSCREEN
+=
+nsIAccessibleStates
+.
+STATE_OFFSCREEN
+;
+const
 STATE_PRESSED
 =
 nsIAccessibleStates
