@@ -464,6 +464,15 @@ read
 ;
 rv
 =
+sc
+-
+>
+ResetStartupWriteTimer
+(
+)
+;
+rv
+=
 WaitForStartupTimer
 (
 )

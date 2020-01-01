@@ -727,7 +727,7 @@ StartupCache
 :
 WriteTimeout
 this
-10000
+600000
 nsITimer
 :
 :
@@ -2656,6 +2656,16 @@ sc
 mStartupWriteInitiated
 =
 PR_FALSE
+;
+sc
+-
+>
+mTimer
+-
+>
+Cancel
+(
+)
 ;
 sc
 -
