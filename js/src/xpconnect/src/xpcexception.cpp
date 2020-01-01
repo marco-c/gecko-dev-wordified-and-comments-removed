@@ -5,6 +5,13 @@ xpcprivate
 .
 h
 "
+#
+include
+"
+nsNetError
+.
+h
+"
 static
 struct
 ResultMap
