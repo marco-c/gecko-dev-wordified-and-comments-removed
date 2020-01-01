@@ -527,6 +527,10 @@ browser_inspector_changes
 .
 js
 \
+browser_inspector_ruleviewstore
+.
+js
+\
 (
 NULL
 )
