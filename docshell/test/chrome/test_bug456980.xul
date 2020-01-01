@@ -88,7 +88,7 @@ cgi
 ?
 id
 =
-113934
+456980
 -
 -
 >
@@ -99,7 +99,7 @@ title
 "
 Mozilla
 Bug
-113934
+456980
 "
 xmlns
 =
@@ -281,7 +281,7 @@ cgi
 ?
 id
 =
-113934
+456980
 "
 target
 =
@@ -347,10 +347,10 @@ bug113934_window
 .
 xul
 ?
-content
+chrome
 "
 "
-bug113934
+bug456980
 "
 "
 chrome

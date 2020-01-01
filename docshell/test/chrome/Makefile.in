@@ -476,6 +476,10 @@ subframe
 .
 xul
 \
+test_bug456980
+.
+xul
+\
 (
 NULL
 )
