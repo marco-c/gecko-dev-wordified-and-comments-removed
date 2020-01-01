@@ -527,8 +527,15 @@ STATE_INDETERMINATE
 int
 perSecond
 =
-30
+8
 ;
+/
+/
+Empirically
+determined
+see
+bug
+848792
 mProgressTimer
 -
 >
