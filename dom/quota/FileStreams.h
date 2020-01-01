@@ -21,7 +21,7 @@ h
 #
 include
 "
-QuotaManager
+QuotaObject
 .
 h
 "

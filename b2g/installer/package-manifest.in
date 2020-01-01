@@ -1062,6 +1062,13 @@ BINPATH
 /
 components
 /
+dom_quota
+.
+xpt
+BINPATH
+/
+components
+/
 dom_range
 .
 xpt

@@ -166,7 +166,7 @@ Components
 )
 ;
 let
-idbManager
+quotaManager
 =
 comp
 .
@@ -179,7 +179,7 @@ org
 /
 dom
 /
-indexeddb
+quota
 /
 manager
 ;
@@ -193,7 +193,7 @@ comp
 .
 interfaces
 .
-nsIIndexedDatabaseManager
+nsIQuotaManager
 )
 ;
 let
@@ -206,14 +206,14 @@ getDocumentURIObject
 document
 )
 ;
-idbManager
+quotaManager
 .
-clearDatabasesForURI
+clearStoragesForURI
 (
 uri
 )
 ;
-idbManager
+quotaManager
 .
 getUsageForURI
 (
@@ -246,7 +246,7 @@ all
 "
 +
 "
-databases
+storages
 !
 "
 )

@@ -117,8 +117,8 @@ LockedFile
 aLockedFile
 )
 ;
-bool
-WaitForAllStoragesToComplete
+void
+WaitForStoragesToComplete
 (
 nsTArray
 <

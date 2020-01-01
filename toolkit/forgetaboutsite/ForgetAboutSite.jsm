@@ -1272,7 +1272,7 @@ null
 }
 let
 (
-idbm
+qm
 =
 Cc
 [
@@ -1283,7 +1283,7 @@ org
 /
 dom
 /
-indexeddb
+quota
 /
 manager
 ;
@@ -1295,7 +1295,7 @@ getService
 (
 Ci
 .
-nsIIndexedDatabaseManager
+nsIQuotaManager
 )
 )
 {
@@ -1386,16 +1386,16 @@ https
 aDomain
 )
 ;
-idbm
+qm
 .
-clearDatabasesForURI
+clearStoragesForURI
 (
 httpURI
 )
 ;
-idbm
+qm
 .
-clearDatabasesForURI
+clearStoragesForURI
 (
 httpsURI
 )
