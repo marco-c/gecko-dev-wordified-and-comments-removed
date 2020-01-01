@@ -6705,6 +6705,10 @@ settleOnNewState
 AutoAssertNoGC
 nogc
 ;
+poppedCallDuringSettle_
+=
+false
+;
 while
 (
 true
@@ -7120,6 +7124,10 @@ popCall
 (
 )
 ;
+poppedCallDuringSettle_
+=
+true
+;
 }
 }
 StackIter
@@ -7157,6 +7165,10 @@ script_
 (
 cx
 NULL
+)
+poppedCallDuringSettle_
+(
+false
 )
 #
 ifdef
@@ -7302,6 +7314,10 @@ script_
 (
 rt
 NULL
+)
+poppedCallDuringSettle_
+(
+false
 )
 #
 ifdef
@@ -7461,6 +7477,12 @@ args_
 other
 .
 args_
+)
+poppedCallDuringSettle_
+(
+other
+.
+poppedCallDuringSettle_
 )
 #
 ifdef
