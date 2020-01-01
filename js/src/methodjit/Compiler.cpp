@@ -12270,12 +12270,13 @@ Uses
 ;
 stubcc
 .
-linkExitDirect
+linkExit
 (
 jmpShapeGuard
-pic
-.
-slowPathStart
+Uses
+(
+2
+)
 )
 ;
 stubcc
