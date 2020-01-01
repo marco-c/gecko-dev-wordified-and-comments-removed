@@ -868,6 +868,14 @@ nsIHttpChannel
 aChannel
 )
 ;
+void
+RunInStableState
+(
+nsIRunnable
+*
+aRunnable
+)
+;
 virtual
 void
 FireTimeUpdate
