@@ -450,7 +450,7 @@ aAtom
 )
 ;
 static
-void
+PRBool
 GetLiveAttrValue
 (
 PRUint32

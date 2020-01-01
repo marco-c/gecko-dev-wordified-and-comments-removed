@@ -3231,7 +3231,7 @@ return
 0
 ;
 }
-void
+PRBool
 nsAccUtils
 :
 :
@@ -3261,7 +3261,8 @@ off
 "
 )
 ;
-break
+return
+PR_TRUE
 ;
 case
 ePoliteLiveAttr
@@ -3275,9 +3276,13 @@ polite
 "
 )
 ;
-break
+return
+PR_TRUE
 ;
 }
+return
+PR_FALSE
+;
 }
 already_AddRefed
 <

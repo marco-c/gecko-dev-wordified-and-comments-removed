@@ -7526,6 +7526,8 @@ IsEmpty
 )
 )
 {
+if
+(
 nsAccUtils
 :
 :
@@ -7537,7 +7539,7 @@ mRoleMapEntry
 liveAttRule
 live
 )
-;
+)
 nsAccUtils
 :
 :
