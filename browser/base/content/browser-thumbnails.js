@@ -457,6 +457,14 @@ currentDocumentChannel
 ;
 if
 (
+!
+channel
+)
+return
+false
+;
+if
+(
 channel
 .
 originalURI
