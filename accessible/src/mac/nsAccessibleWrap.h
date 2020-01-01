@@ -110,6 +110,14 @@ InvalidateChildren
 (
 )
 ;
+NS_IMETHOD
+FireAccessibleEvent
+(
+nsIAccessibleEvent
+*
+aEvent
+)
+;
 PRBool
 IsFlat
 (
