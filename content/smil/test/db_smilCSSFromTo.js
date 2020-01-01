@@ -756,7 +756,7 @@ AnimTestcaseFromTo
 fromComp
 :
 "
-0px
+0
 "
 midComp
 :
@@ -793,7 +793,7 @@ midComp
 toComp
 :
 "
-0px
+0
 "
 }
 )
@@ -832,7 +832,7 @@ new
 AnimTestcaseFromTo
 (
 "
-0
+0px
 "
 "
 12px
@@ -857,7 +857,7 @@ AnimTestcaseFromTo
 16px
 "
 "
-0
+0px
 "
 {
 midComp

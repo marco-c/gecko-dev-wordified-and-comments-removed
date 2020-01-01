@@ -164,7 +164,7 @@ AnimTestcaseFromBy
 fromComp
 :
 "
-0px
+0
 "
 midComp
 :
@@ -213,7 +213,7 @@ new
 AnimTestcaseFromBy
 (
 "
-0
+0px
 "
 "
 8px
