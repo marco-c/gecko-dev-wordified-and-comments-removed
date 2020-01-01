@@ -805,6 +805,10 @@ const
 nsIntSize
 &
 size
+const
+ScreenOrientation
+&
+orientation
 )
 ;
 virtual
@@ -1380,6 +1384,15 @@ mLastMetrics
 mZoom
 ;
 }
+ScreenOrientation
+GetOrientation
+(
+)
+{
+return
+mOrientation
+;
+}
 void
 SetBackgroundColor
 (
@@ -1729,6 +1742,9 @@ mTriedBrowserInit
 ;
 nsString
 mAppType
+;
+ScreenOrientation
+mOrientation
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
