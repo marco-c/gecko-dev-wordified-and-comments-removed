@@ -24,3 +24,11 @@ g
 4
 .
 2
+ac_add_options
+-
+-
+enable
+-
+stdcxx
+-
+compat
