@@ -16399,6 +16399,8 @@ application
 "
 )
 ;
+break
+;
 case
 "
 xpcom

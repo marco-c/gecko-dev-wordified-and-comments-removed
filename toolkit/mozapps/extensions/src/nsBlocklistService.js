@@ -962,6 +962,8 @@ application
 "
 )
 ;
+break
+;
 case
 "
 xpcom
