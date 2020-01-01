@@ -502,6 +502,10 @@ test_css_eof_handling
 .
 html
 \
+test_css_function_mismatched_parenthesis
+.
+html
+\
 test_css_supports
 .
 html
