@@ -50,6 +50,15 @@ OS_POSIX
 #
 include
 <
+sys
+/
+types
+.
+h
+>
+#
+include
+<
 fts
 .
 h
