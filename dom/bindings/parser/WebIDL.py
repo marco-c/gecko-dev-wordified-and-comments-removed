@@ -2942,9 +2942,10 @@ IDLScope
 resolveIdentifierConflict
 (
 self
+scope
 identifier
-originalObject
                                                
+originalObject
 newObject
 )
             
