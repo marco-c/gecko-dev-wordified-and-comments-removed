@@ -722,8 +722,11 @@ if
 aTexCoordAttribIndex
 !
 =
+GLuint
+(
 -
 1
+)
 )
 {
 if
@@ -781,8 +784,11 @@ if
 aTexCoordAttribIndex
 !
 =
+GLuint
+(
 -
 1
+)
 )
 {
 mGLContext

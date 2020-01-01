@@ -226,12 +226,6 @@ aCallbackData
 ;
 nsRefPtr
 <
-Layer
->
-mRoot
-;
-nsRefPtr
-<
 gfxContext
 >
 mDefaultTarget
