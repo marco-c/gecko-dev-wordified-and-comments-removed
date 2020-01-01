@@ -7955,6 +7955,17 @@ JS_HAS_EXPR_CLOSURES
 }
 else
 {
+if
+(
+tokenStream
+.
+hadError
+(
+)
+)
+return
+NULL
+;
 funbox
 -
 >
