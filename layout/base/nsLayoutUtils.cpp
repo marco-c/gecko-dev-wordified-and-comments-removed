@@ -6440,9 +6440,11 @@ AppUnitsPerDevPixel
 )
 )
 ;
-list
-.
-DeleteAll
+item
+-
+>
+~
+nsDisplayTransform
 (
 )
 ;
