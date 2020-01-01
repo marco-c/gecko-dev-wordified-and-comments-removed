@@ -15,6 +15,8 @@ TOutputESSL
 TInfoSinkBase
 &
 objSink
+ShArrayIndexClampingStrategy
+clampingStrategy
 ShHashFunction64
 hashFunction
 NameMap
@@ -28,6 +30,7 @@ symbolTable
 TOutputGLSLBase
 (
 objSink
+clampingStrategy
 hashFunction
 nameMap
 symbolTable

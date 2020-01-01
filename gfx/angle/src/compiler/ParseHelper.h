@@ -235,6 +235,9 @@ functionReturnsValue
 bool
 checksPrecisionErrors
 ;
+bool
+fragmentPrecisionHigh
+;
 TString
 HashErrMsg
 ;
@@ -943,7 +946,7 @@ fieldType
 int
 PaParseStrings
 (
-int
+size_t
 count
 const
 char

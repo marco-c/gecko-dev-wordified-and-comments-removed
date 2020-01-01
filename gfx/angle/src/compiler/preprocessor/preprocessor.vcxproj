@@ -1759,7 +1759,7 @@ ClCompile
 Include
 =
 "
-Diagnostics
+DiagnosticsBase
 .
 cpp
 "
@@ -1770,7 +1770,7 @@ ClCompile
 Include
 =
 "
-DirectiveHandler
+DirectiveHandlerBase
 .
 cpp
 "

@@ -24,6 +24,10 @@ iConst
 =
 0
 ;
+type
+=
+EbtVoid
+;
 }
 POOL_ALLOCATOR_NEW_DELETE
 (

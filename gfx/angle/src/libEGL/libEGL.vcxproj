@@ -1548,10 +1548,6 @@ dxguid
 .
 lib
 ;
-dwmapi
-.
-lib
-;
 %
 (
 AdditionalDependencies
@@ -1573,10 +1569,6 @@ ModuleDefinitionFile
 <
 DelayLoadDLLs
 >
-dwmapi
-.
-dll
-;
 %
 (
 DelayLoadDLLs
@@ -1909,10 +1901,6 @@ dxguid
 .
 lib
 ;
-dwmapi
-.
-lib
-;
 %
 (
 AdditionalDependencies
@@ -1934,10 +1922,6 @@ ModuleDefinitionFile
 <
 DelayLoadDLLs
 >
-dwmapi
-.
-dll
-;
 %
 (
 DelayLoadDLLs
@@ -2303,10 +2287,6 @@ dxguid
 .
 lib
 ;
-dwmapi
-.
-lib
-;
 %
 (
 AdditionalDependencies
@@ -2328,10 +2308,6 @@ ModuleDefinitionFile
 <
 DelayLoadDLLs
 >
-dwmapi
-.
-dll
-;
 %
 (
 DelayLoadDLLs
@@ -2677,10 +2653,6 @@ dxguid
 .
 lib
 ;
-dwmapi
-.
-lib
-;
 %
 (
 AdditionalDependencies
@@ -2702,10 +2674,6 @@ ModuleDefinitionFile
 <
 DelayLoadDLLs
 >
-dwmapi
-.
-dll
-;
 %
 (
 DelayLoadDLLs

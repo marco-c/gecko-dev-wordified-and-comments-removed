@@ -9340,7 +9340,7 @@ if
 version
 !
 =
-BUILD_REVISION
+VERSION_DWORD
 )
 {
 infoLog
@@ -9582,8 +9582,7 @@ read
 mUsesPointSize
 )
 ;
-unsigned
-int
+size_t
 size
 ;
 stream
@@ -10237,7 +10236,7 @@ stream
 .
 write
 (
-BUILD_REVISION
+VERSION_DWORD
 )
 ;
 for

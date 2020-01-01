@@ -87,6 +87,9 @@ TOutputESSL
 outputESSL
 (
 sink
+getArrayIndexClampingStrategy
+(
+)
 getHashFunction
 (
 )

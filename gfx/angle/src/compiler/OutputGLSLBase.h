@@ -49,6 +49,8 @@ TOutputGLSLBase
 TInfoSinkBase
 &
 objSink
+ShArrayIndexClampingStrategy
+clampingStrategy
 ShHashFunction64
 hashFunction
 NameMap
@@ -285,6 +287,9 @@ mDeclaredStructs
 ;
 ForLoopUnroll
 mLoopUnroll
+;
+ShArrayIndexClampingStrategy
+mClampingStrategy
 ;
 ShHashFunction64
 mHashFunction
