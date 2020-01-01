@@ -3979,6 +3979,12 @@ mOuter
 GetParent
 (
 )
+-
+>
+GetFirstChild
+(
+nsnull
+)
 )
 .
 GetPrevSiblingFor
@@ -4002,14 +4008,6 @@ GetNextSibling
 if
 (
 splitterSibling
-&
-&
-splitterSibling
--
->
-IsBoxFrame
-(
-)
 )
 {
 nsCOMPtr
