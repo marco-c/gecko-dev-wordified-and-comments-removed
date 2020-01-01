@@ -416,7 +416,9 @@ finish
 ;
 }
 (
+'
 ifr
+'
 )
 .
 onload
@@ -424,8 +426,12 @@ onload
 iframe_loaded
 ;
 (
+'
 ifr
+'
 )
+.
+contentWindow
 .
 location
 =
