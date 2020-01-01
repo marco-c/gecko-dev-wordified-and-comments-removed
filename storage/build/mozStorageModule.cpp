@@ -47,10 +47,13 @@ mozStorageCID
 .
 h
 "
-NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
+NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
 mozStorageService
-Init
+mozStorageService
+:
+:
+GetSingleton
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
