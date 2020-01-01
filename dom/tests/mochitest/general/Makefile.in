@@ -444,6 +444,10 @@ html
 .
 html
 \
+historyframes
+.
+html
+\
 test_497898
 .
 html
@@ -501,6 +505,14 @@ test_frameElementWrapping
 html
 \
 file_frameElementWrapping
+.
+html
+\
+test_framedhistoryframes
+.
+html
+\
+test_windowedhistoryframes
 .
 html
 \

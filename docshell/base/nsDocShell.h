@@ -1112,6 +1112,8 @@ aCloneID
 nsISHEntry
 *
 aReplaceEntry
+PRBool
+aCloneChildren
 nsISHEntry
 *
 *
