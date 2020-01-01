@@ -587,7 +587,15 @@ js
 \
 browser_install
 .
+rdf
+\
+browser_install
+.
 xml
+\
+browser_install1_3
+.
+xpi
 \
 browser_installssl
 .

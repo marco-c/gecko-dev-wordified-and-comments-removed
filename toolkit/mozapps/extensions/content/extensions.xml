@@ -5064,6 +5064,16 @@ refreshState
 (
 )
 ;
+if
+(
+"
+onInstallCompleted
+"
+in
+this
+.
+mControl
+)
 this
 .
 mControl
