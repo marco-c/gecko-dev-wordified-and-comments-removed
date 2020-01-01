@@ -88,7 +88,9 @@ autoconf
 mk
 PROGRAM
 =
-js
+(
+JS_SHELL_NAME
+)
 (
 BIN_SUFFIX
 )

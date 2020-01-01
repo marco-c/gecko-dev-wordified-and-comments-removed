@@ -97,6 +97,12 @@ MOZ_JS_LIBS
 '
 MOZ_JS_LIBS
 '
+FILENAME
+=
+basename
+"
+0
+"
 usage
 (
 )
@@ -107,9 +113,7 @@ cat
 EOF
 Usage
 :
-js
--
-config
+FILENAME
 [
 OPTIONS
 ]
