@@ -413,10 +413,11 @@ log
 "
 AboutHealthReport
 :
-page
-requested
+sending
 pref
 state
+to
+page
 .
 "
 )
@@ -774,8 +775,12 @@ false
 ;
 healthReportWrapper
 .
-updatePrefState
+injectData
 (
+"
+begin
+"
+null
 )
 ;
 }
