@@ -1490,6 +1490,13 @@ components
 nsLivemarkService
 .
 js
+bin
+\
+components
+\
+nsDefaultCLH
+.
+js
 ;
 Safe
 Browsing

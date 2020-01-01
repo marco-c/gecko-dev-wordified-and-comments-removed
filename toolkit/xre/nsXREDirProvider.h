@@ -181,6 +181,15 @@ mGREDir
 ;
 }
 nsresult
+GetUpdateRootDir
+(
+nsIFile
+*
+*
+aResult
+)
+;
+nsresult
 GetProfileStartupDir
 (
 nsIFile
