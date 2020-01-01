@@ -949,6 +949,14 @@ nsSVGRect
 .
 h
 \
+SVGLength
+.
+h
+\
+SVGLengthList
+.
+h
+\
 (
 NULL
 )
