@@ -2740,6 +2740,7 @@ cx
 ;
 #
 endif
+{
 AutoLockGC
 lock
 (
@@ -2800,6 +2801,7 @@ compartment
 +
 +
 ;
+}
 }
 js_FinishRuntimeNumberState
 (
