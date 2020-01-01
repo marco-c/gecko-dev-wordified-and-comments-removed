@@ -499,6 +499,12 @@ aResult
 )
 ;
 virtual
+PRBool
+GetExecutingScript
+(
+)
+;
+virtual
 void
 SetGCOnDestruction
 (
@@ -911,6 +917,9 @@ mGCOnDestruction
 ;
 PRPackedBool
 mProcessingScriptTag
+;
+PRUint32
+mExecuteDepth
 ;
 PRUint32
 mDefaultJSOptions

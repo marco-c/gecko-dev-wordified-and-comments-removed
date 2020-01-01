@@ -447,6 +447,9 @@ class
 PostMessageEvent
 ;
 class
+nsRunnable
+;
+class
 nsDOMOfflineResourceList
 ;
 class
@@ -635,6 +638,14 @@ GetPrivateParent
 void
 ReallyCloseWindow
 (
+)
+;
+void
+ReallyClearScope
+(
+nsRunnable
+*
+aRunnable
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
