@@ -262,13 +262,9 @@ media
 (
 max
 -
-aspect
--
-ratio
+width
 :
-5
-/
-3
+550px
 )
 {
 li

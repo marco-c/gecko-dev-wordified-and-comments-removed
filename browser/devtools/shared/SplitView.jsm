@@ -19,13 +19,9 @@ LANDSCAPE_MEDIA_QUERY
 (
 min
 -
-aspect
--
-ratio
+width
 :
-5
-/
-3
+551px
 )
 "
 ;
