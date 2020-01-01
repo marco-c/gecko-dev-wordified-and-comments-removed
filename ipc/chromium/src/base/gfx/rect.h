@@ -7,7 +7,7 @@ BASE_GFX_RECT_H__
 #
 include
 <
-ostream
+iostream
 >
 #
 include
