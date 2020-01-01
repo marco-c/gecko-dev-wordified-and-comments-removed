@@ -200,8 +200,7 @@ be
 "
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 enlarge
 (
@@ -342,8 +341,7 @@ selected
 "
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 reduce
 (
@@ -648,8 +646,7 @@ selectTabAndWaitForLocationChange
 gTab1
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 reset
 (
@@ -670,8 +667,7 @@ selectTabAndWaitForLocationChange
 gTab2
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 reset
 (

@@ -86,8 +86,7 @@ tab2
 testPage
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 enlarge
 (
@@ -152,8 +151,7 @@ updateBackgroundTabs
 false
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 reset
 (

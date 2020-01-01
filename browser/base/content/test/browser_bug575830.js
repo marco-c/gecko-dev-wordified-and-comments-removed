@@ -126,8 +126,7 @@ be
 "
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 enlarge
 (

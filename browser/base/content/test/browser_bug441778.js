@@ -93,8 +93,7 @@ tab
 TEST_PAGE_URL
 )
 ;
-yield
-FullZoomHelper
+FullZoom
 .
 enlarge
 (
