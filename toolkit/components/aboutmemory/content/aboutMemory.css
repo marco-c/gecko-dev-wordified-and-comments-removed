@@ -19,7 +19,7 @@ non
 verbose
 pre
 .
-tree
+entries
 {
 overflow
 -
@@ -34,8 +34,7 @@ overflow
 ellipsis
 ;
 }
-.
-sectionHeader
+h2
 {
 background
 :

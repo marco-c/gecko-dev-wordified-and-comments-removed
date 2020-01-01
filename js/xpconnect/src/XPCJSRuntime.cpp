@@ -10824,6 +10824,12 @@ new
 JSMemoryMultiReporter
 )
 ;
+NS_RegisterMemoryMultiReporter
+(
+new
+JSCompartmentsMultiReporter
+)
+;
 }
 if
 (

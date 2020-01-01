@@ -437,6 +437,10 @@ mk
 _CHROME_FILES
 =
 \
+test_aboutcompartments
+.
+xul
+\
 test_aboutmemory
 .
 xul
