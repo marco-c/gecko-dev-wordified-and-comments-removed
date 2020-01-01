@@ -1659,16 +1659,6 @@ nsIDOMEventTarget
 addEventListener
 '
 '
-nsIDOMCustomEvent
-.
-setCurrentTarget
-'
-'
-nsIDOMCustomEvent
-.
-setEventPhase
-'
-'
 nsIDOMDocumentEvent
 .
 createEvent
