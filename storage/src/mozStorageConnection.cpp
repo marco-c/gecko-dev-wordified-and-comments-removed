@@ -3321,8 +3321,10 @@ bool
 Connection
 :
 :
-isAsyncClosing
+isClosing
 (
+bool
+aResultOnClosed
 )
 {
 MutexAutoLock
@@ -3335,8 +3337,13 @@ return
 mAsyncExecutionThreadShuttingDown
 &
 &
+(
+aResultOnClosed
+|
+|
 ConnectionReady
 (
+)
 )
 ;
 }
@@ -3547,6 +3554,10 @@ should
 have
 been
 finalized
+before
+closing
+the
+connection
 "
 :
 :

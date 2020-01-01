@@ -296,8 +296,12 @@ nullptr
 ;
 }
 bool
-isAsyncClosing
+isClosing
 (
+bool
+aResultOnceClosed
+=
+false
 )
 ;
 nsresult
