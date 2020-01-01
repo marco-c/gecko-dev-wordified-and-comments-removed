@@ -111,9 +111,6 @@ jsstr
 h
 "
 #
-ifdef
-JS_METHODJIT
-#
 include
 "
 methodjit
@@ -122,8 +119,6 @@ Compiler
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -462,6 +457,9 @@ return
 want
 ;
 }
+#
+ifdef
+JS_METHODJIT
 typedef
 mjit
 :
@@ -1087,9 +1085,6 @@ return
 true
 ;
 }
-#
-ifdef
-JS_METHODJIT
 void
 Probes
 :
