@@ -292,6 +292,8 @@ this
 .
 _frame
 .
+contentWindow
+.
 addEventListener
 (
 "
@@ -2141,6 +2143,8 @@ _boundUpdatePreview
 this
 .
 _frame
+.
+contentWindow
 .
 removeEventListener
 (
