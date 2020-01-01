@@ -200,6 +200,14 @@ browser_selection_frame_content
 .
 html
 \
+browser_selection_inputs
+.
+js
+\
+browser_selection_inputs
+.
+html
+\
 (
 NULL
 )

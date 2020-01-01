@@ -2217,6 +2217,9 @@ _numSteps
 _debug
 :
 false
+_win
+:
+null
 callback
 :
 function
@@ -2224,6 +2227,17 @@ callback
 (
 )
 {
+if
+(
+this
+.
+_win
+=
+=
+null
+)
+return
+;
 if
 (
 +
