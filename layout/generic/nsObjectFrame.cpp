@@ -833,7 +833,7 @@ NORMAL_PLUGIN_DELAY
 #
 define
 HIDDEN_PLUGIN_DELAY
-250
+125
 class
 nsPluginDOMContextMenuListener
 :
