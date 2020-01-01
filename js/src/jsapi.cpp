@@ -1211,7 +1211,7 @@ rt
 heapState
 =
 =
-JSRuntime
+js
 :
 :
 Idle
@@ -1253,7 +1253,7 @@ rt
 heapState
 !
 =
-JSRuntime
+js
 :
 :
 Collecting

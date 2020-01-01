@@ -2276,14 +2276,9 @@ gcObjectsMarkedInDeadCompartments
 bool
 gcPoke
 ;
-enum
-HeapState
-{
-Idle
-Tracing
-Collecting
-}
-;
+js
+:
+:
 HeapState
 heapState
 ;
@@ -2296,6 +2291,9 @@ return
 heapState
 !
 =
+js
+:
+:
 Idle
 ;
 }
@@ -2308,6 +2306,9 @@ return
 heapState
 =
 =
+js
+:
+:
 Collecting
 ;
 }

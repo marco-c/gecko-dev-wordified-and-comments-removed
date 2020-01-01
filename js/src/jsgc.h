@@ -138,6 +138,14 @@ Shape
 struct
 SliceBudget
 ;
+enum
+HeapState
+{
+Idle
+Tracing
+Collecting
+}
+;
 namespace
 ion
 {
