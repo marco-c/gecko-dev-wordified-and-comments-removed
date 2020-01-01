@@ -695,6 +695,10 @@ ConfirmPreference
 .
 java
 \
+SyncPreference
+.
+java
+\
 db
 /
 AndroidBrowserDB
