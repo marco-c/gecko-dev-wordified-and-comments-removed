@@ -319,7 +319,7 @@ android
 windowActionBar
 "
 >
-false
+true
 <
 /
 item
@@ -334,7 +334,7 @@ android
 windowNoTitle
 "
 >
-true
+false
 <
 /
 item
