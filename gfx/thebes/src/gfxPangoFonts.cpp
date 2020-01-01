@@ -7160,6 +7160,10 @@ Clear
 (
 )
 ;
+mUnderlineOffset
+=
+UNDERLINE_OFFSET_NOT_SET
+;
 mCurrGeneration
 =
 newGeneration
