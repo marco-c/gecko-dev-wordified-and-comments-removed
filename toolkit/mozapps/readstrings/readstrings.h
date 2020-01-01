@@ -7,7 +7,7 @@ READSTRINGS_H__
 #
 define
 MAX_TEXT_LEN
-200
+400
 #
 ifdef
 XP_WIN
