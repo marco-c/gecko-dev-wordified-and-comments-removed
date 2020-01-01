@@ -5579,7 +5579,7 @@ autocompletepopup
 "
 PopupAutoComplete
 "
-ondragdrop
+ondrop
 =
 "
 nsDragAndDrop
@@ -5697,7 +5697,7 @@ status
 -
 bar
 "
-ondragdrop
+ondrop
 =
 "
 nsDragAndDrop
