@@ -880,6 +880,12 @@ DateTimePicker
 .
 java
 \
+widget
+/
+ThumbnailView
+.
+java
+\
 GeckoNetworkManager
 .
 java
