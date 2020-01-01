@@ -293,6 +293,13 @@ CSSCalc
 h
 "
 #
+include
+"
+nsMediaFeatures
+.
+h
+"
+#
 define
 VARIANT_KEYWORD
 0x000001
