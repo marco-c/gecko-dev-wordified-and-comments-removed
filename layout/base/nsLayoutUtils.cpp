@@ -311,9 +311,6 @@ h
 "
 #
 endif
-#
-ifdef
-DEBUG
 PRBool
 nsLayoutUtils
 :
@@ -322,8 +319,6 @@ sDisableGetUsedXAssertions
 =
 PR_FALSE
 ;
-#
-endif
 nsIFrame
 *
 nsLayoutUtils
@@ -9519,9 +9514,6 @@ supported
 "
 )
 ;
-nscoord
-result
-;
 if
 (
 eStyleUnit_Coord
@@ -9974,9 +9966,6 @@ nsStyleCoord
 aCoord
 )
 {
-nscoord
-result
-;
 if
 (
 eStyleUnit_Coord

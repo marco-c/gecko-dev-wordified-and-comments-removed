@@ -3605,6 +3605,9 @@ range
 "
 )
 ;
+#
+ifdef
+DEBUG
 void
 *
 prop
@@ -3614,6 +3617,8 @@ PropertyAt
 iProp
 )
 ;
+#
+endif
 PRUint32
 increment
 =

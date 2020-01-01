@@ -3658,14 +3658,6 @@ NS_LITERAL_STRING
 )
 ;
 }
-PRInt32
-cssPxWidth
-=
-0
-cssPxHeight
-=
-0
-;
 nsRect
 bounds
 =

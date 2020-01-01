@@ -3041,9 +3041,8 @@ GetUnit
 eStyleUnit_Percent
 )
 {
-float
-min
-=
+NS_ASSERTION
+(
 position
 -
 >
@@ -3052,10 +3051,6 @@ mMinWidth
 GetPercentValue
 (
 )
-;
-NS_ASSERTION
-(
-min
 =
 =
 0
@@ -3162,9 +3157,8 @@ GetUnit
 eStyleUnit_Percent
 )
 {
-float
-min
-=
+NS_ASSERTION
+(
 position
 -
 >
@@ -3173,10 +3167,6 @@ mMinHeight
 GetPercentValue
 (
 )
-;
-NS_ASSERTION
-(
-min
 =
 =
 0

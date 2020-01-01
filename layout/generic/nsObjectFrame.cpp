@@ -4783,9 +4783,6 @@ pi
 )
 return
 ;
-nsresult
-rv
-;
 nsPluginWindow
 window
 ;
@@ -5017,6 +5014,7 @@ window
 =
 window
 ;
+nsresult
 rv
 =
 pi
@@ -5155,8 +5153,6 @@ window
 =
 window
 ;
-rv
-=
 pi
 -
 >
@@ -5351,8 +5347,6 @@ window
 =
 window
 ;
-rv
-=
 pi
 -
 >
@@ -5535,8 +5529,6 @@ window
 =
 window
 ;
-rv
-=
 pi
 -
 >
