@@ -45,7 +45,7 @@ aFrame
 )
 ;
 static
-bool
+void
 UpdateFontInflationDataWidthFor
 (
 const
