@@ -1668,7 +1668,7 @@ xulrunnerBinary
 getDirectoryKey
 (
 "
-XCurProcD
+GreD
 "
 )
 ;
@@ -1722,7 +1722,7 @@ xulrunnerBinary
 getDirectoryKey
 (
 "
-XCurProcD
+GreD
 "
 )
 ;
