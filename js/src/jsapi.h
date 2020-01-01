@@ -3238,17 +3238,6 @@ JS
 :
 MutableHandle
 <
-JSScript
-*
->
-JSMutableHandleScript
-;
-typedef
-JS
-:
-:
-MutableHandle
-<
 JSString
 *
 >
