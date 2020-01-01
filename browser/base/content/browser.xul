@@ -1148,11 +1148,6 @@ id
 "
 editBookmarkPanel
 "
-position
-=
-"
-after_end
-"
 >
 <
 vbox
