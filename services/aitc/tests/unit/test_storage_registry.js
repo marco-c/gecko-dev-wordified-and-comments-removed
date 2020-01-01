@@ -605,7 +605,7 @@ test_storage_uninstall
 {
 fakeApp1
 .
-hidden
+deleted
 =
 true
 ;

@@ -1363,7 +1363,7 @@ if
 !
 app
 .
-hidden
+deleted
 )
 {
 delete
@@ -1377,7 +1377,7 @@ if
 (
 app
 .
-hidden
+deleted
 &
 &
 !
@@ -1491,7 +1491,7 @@ origin
 ]
 .
 id
-hidden
+deleted
 :
 true
 }

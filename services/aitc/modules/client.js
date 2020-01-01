@@ -492,7 +492,7 @@ app
 ;
 record
 .
-hidden
+deleted
 =
 true
 ;
@@ -1199,7 +1199,7 @@ receipts
 if
 (
 "
-hidden
+deleted
 "
 in
 app
@@ -1207,11 +1207,11 @@ app
 {
 record
 .
-hidden
+deleted
 =
 app
 .
-hidden
+deleted
 ;
 }
 return

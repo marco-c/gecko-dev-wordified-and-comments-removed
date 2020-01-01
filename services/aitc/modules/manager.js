@@ -1869,7 +1869,7 @@ record
 .
 app
 .
-hidden
+deleted
 =
 true
 ;

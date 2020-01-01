@@ -121,7 +121,7 @@ true
 name
 :
 true
-hidden
+deleted
 :
 true
 }
