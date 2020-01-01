@@ -2789,6 +2789,12 @@ getVisibility
 View
 .
 VISIBLE
+&
+&
+mAwesomeBarParams
+!
+=
+null
 )
 (
 (
