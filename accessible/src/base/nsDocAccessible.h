@@ -306,10 +306,6 @@ EDupeEventRule
 aAllowDupes
 =
 eRemoveDupes
-PRBool
-aIsAsynch
-=
-PR_FALSE
 )
 ;
 void

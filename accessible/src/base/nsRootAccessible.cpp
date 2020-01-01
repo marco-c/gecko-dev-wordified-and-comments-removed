@@ -2079,7 +2079,6 @@ FireDelayedAccessibleEvent
 (
 menuEndEvent
 eAllowDupes
-PR_FALSE
 )
 ;
 }
