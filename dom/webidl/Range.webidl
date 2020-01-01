@@ -318,8 +318,11 @@ refNode
 void
 collapse
 (
+optional
 boolean
 toStart
+=
+false
 )
 ;
 [
