@@ -737,13 +737,11 @@ ABS_topsrcdir
 :
 =
 (
-shell
-cd
+call
+core_abspath
 (
 topsrcdir
 )
-;
-pwd
 )
 ifneq
 (

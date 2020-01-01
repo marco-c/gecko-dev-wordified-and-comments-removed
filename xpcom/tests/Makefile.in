@@ -1090,14 +1090,11 @@ endif
 abs_srcdir
 =
 (
-shell
-cd
+call
+core_abspath
 (
 srcdir
 )
-&
-&
-pwd
 )
 DIST_PATH
 =

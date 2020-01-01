@@ -540,14 +540,11 @@ export
 PERSONAL_MAILCAP
 =
 (
-shell
-cd
+call
+core_abspath
 (
 srcdir
 )
-&
-&
-pwd
 )
 /
 mailcap
