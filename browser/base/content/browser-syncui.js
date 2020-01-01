@@ -893,6 +893,8 @@ SUI_onSetupComplete
 (
 )
 {
+this
+.
 onLoginFinish
 (
 )
