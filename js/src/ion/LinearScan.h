@@ -2399,7 +2399,7 @@ SlotList
 finishedDoubleSlots_
 ;
 RegisterSet
-allRegisters
+allRegisters_
 ;
 UnhandledQueue
 unhandled
@@ -2859,7 +2859,7 @@ graph
 (
 graph
 )
-allRegisters
+allRegisters_
 (
 RegisterSet
 :
@@ -2889,7 +2889,7 @@ instrumentedProfiling
 (
 )
 )
-allRegisters
+allRegisters_
 .
 take
 (

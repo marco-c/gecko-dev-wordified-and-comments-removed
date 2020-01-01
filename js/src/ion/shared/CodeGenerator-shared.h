@@ -255,7 +255,7 @@ SystemAllocPolicy
 pushedArgumentSlots_
 ;
 IonInstrumentation
-sps
+sps_
 ;
 protected
 :

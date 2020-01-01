@@ -2860,7 +2860,7 @@ protected
 :
 jsbytecode
 *
-lastPC
+lastPC_
 ;
 LInstruction
 *
@@ -2896,7 +2896,7 @@ mirRaw
 )
 )
 {
-lastPC
+lastPC_
 =
 ins
 -
@@ -2912,7 +2912,7 @@ trackedPc
 ;
 JS_ASSERT
 (
-lastPC
+lastPC_
 !
 =
 NULL
@@ -2928,7 +2928,7 @@ ins_
 (
 NULL
 )
-lastPC
+lastPC_
 (
 NULL
 )
