@@ -1199,6 +1199,13 @@ Vector
 (
 )
 ;
+enum
+{
+InlineLength
+=
+N
+}
+;
 size_t
 length
 (
