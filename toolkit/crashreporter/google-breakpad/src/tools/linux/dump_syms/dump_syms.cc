@@ -93,7 +93,10 @@ dumper
 WriteSymbolFile
 (
 binary
+fileno
+(
 stdout
+)
 )
 )
 {

@@ -103,9 +103,6 @@ const
 wstring
 &
 file_part_name
-int
-*
-timeout
 wstring
 *
 response_body

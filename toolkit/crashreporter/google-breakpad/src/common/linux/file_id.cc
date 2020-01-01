@@ -473,10 +473,8 @@ fd
 ;
 if
 (
+!
 base
-=
-=
-MAP_FAILED
 )
 {
 close

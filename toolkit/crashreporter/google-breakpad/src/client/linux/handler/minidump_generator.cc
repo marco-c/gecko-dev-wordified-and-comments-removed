@@ -70,11 +70,6 @@ cstdlib
 #
 include
 <
-cstdio
->
-#
-include
-<
 ctime
 >
 #

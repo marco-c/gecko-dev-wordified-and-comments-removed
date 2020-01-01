@@ -231,12 +231,12 @@ UsePrecompiledHeader
 WarningLevel
 =
 "
-4
+3
 "
 Detect64BitPortabilityProblems
 =
 "
-false
+true
 "
 DebugInformationFormat
 =

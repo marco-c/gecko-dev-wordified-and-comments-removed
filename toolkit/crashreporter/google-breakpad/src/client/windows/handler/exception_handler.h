@@ -601,10 +601,6 @@ previous_pch_
 HANDLE
 handler_thread_
 ;
-volatile
-bool
-is_shutdown_
-;
 CRITICAL_SECTION
 handler_critical_section_
 ;
@@ -648,10 +644,9 @@ static
 CRITICAL_SECTION
 handler_stack_critical_section_
 ;
-volatile
 static
-LONG
-instance_count_
+bool
+handler_stack_critical_section_initialized_
 ;
 explicit
 ExceptionHandler
