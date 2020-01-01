@@ -58,6 +58,19 @@ h
 elif
 defined
 (
+NANOJIT_SPARC
+)
+#
+include
+"
+NativeSparc
+.
+h
+"
+#
+elif
+defined
+(
 NANOJIT_AMD64
 )
 #
@@ -425,7 +438,6 @@ else
 define
 asm_output
 (
-f
 .
 .
 .
