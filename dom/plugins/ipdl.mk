@@ -13,6 +13,10 @@ NPObject
 .
 ipdl
 \
+NPBrowserStream
+.
+ipdl
+\
 (
 NULL
 )
