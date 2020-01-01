@@ -52392,9 +52392,6 @@ n
 "
                  
 "
-mozilla
-:
-:
 Maybe
 <
 JSAutoRequest
@@ -52406,9 +52403,6 @@ n
 "
                  
 "
-mozilla
-:
-:
 Maybe
 <
 JSAutoCompartment
@@ -52420,10 +52414,20 @@ n
 "
                  
 "
-jsval
+Maybe
+<
+JS
+:
+:
+Rooted
+<
+JS
+:
+:
+Value
+>
+>
 json
-=
-JSVAL_VOID
 ;
 \
 n
@@ -52464,6 +52468,10 @@ Init
 cx
 nullptr
 json
+.
+ref
+(
+)
 )
 ;
 \
