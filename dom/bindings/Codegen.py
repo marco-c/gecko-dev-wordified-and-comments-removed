@@ -22404,6 +22404,30 @@ name
 )
         
 if
+descriptor
+.
+nativeType
+=
+=
+'
+JSObject
+'
+:
+            
+assert
+descriptor
+.
+workers
+            
+return
+handleJSObjectType
+(
+type
+isMember
+failureCode
+)
+        
+if
 (
 descriptor
 .
@@ -24649,35 +24673,18 @@ issues
 "
 )
             
-if
-type
-.
-nullable
-(
-)
-:
-                
 declType
 =
 CGGeneric
 (
 "
-JSObject
-*
-"
-)
-            
-else
+JS
 :
-                
-declType
-=
-CGGeneric
-(
-"
-NonNull
+:
+Rooted
 <
 JSObject
+*
 >
 "
 )
@@ -24691,7 +24698,7 @@ declName
 =
 &
 {
-val
+valHandle
 }
 .
 toObject
@@ -24700,6 +24707,12 @@ toObject
 ;
 \
 n
+"
+            
+declArgs
+=
+"
+cx
 "
         
 else
@@ -24788,6 +24801,10 @@ n
 %
 name
 )
+            
+declArgs
+=
+None
         
 if
 allowTreatNonCallableAsNull
@@ -24998,6 +25015,10 @@ declType
 dealWithOptional
 =
 isOptional
+                                        
+declArgs
+=
+declArgs
 )
     
 if
@@ -25433,35 +25454,27 @@ descriptorProvider
 )
 :
             
-holderType
+declType
 =
 CGTemplatedType
 (
 "
-DictionaryRooter
+RootedDictionary
 "
 declType
 )
 ;
             
-holderArgs
+declArgs
 =
 "
 cx
-&
-{
-declName
-}
 "
         
 else
 :
             
-holderType
-=
-None
-            
-holderArgs
+declArgs
 =
 None
         
@@ -25473,13 +25486,9 @@ declType
 =
 declType
                                         
-holderType
+declArgs
 =
-holderType
-                                        
-holderArgs
-=
-holderArgs
+declArgs
 )
     
 if
@@ -31198,7 +31207,7 @@ Returns
 a
 tuple
 containing
-three
+four
 things
 :
     
@@ -31266,6 +31275,28 @@ is
 needed
 .
     
+4
+)
+An
+argument
+string
+to
+pass
+to
+the
+retval
+declaration
+       
+constructor
+or
+None
+if
+there
+are
+no
+arguments
+.
+    
 "
 "
 "
@@ -31285,6 +31316,7 @@ isVoid
 return
 None
 False
+None
 None
     
 if
@@ -31339,6 +31371,7 @@ return
 result
 False
 None
+None
     
 if
 returnType
@@ -31361,6 +31394,7 @@ nsString
 )
 True
 None
+None
         
 return
 CGGeneric
@@ -31370,6 +31404,7 @@ DOMString
 "
 )
 True
+None
 None
     
 if
@@ -31418,6 +31453,7 @@ result
 return
 result
 False
+None
 None
     
 if
@@ -31523,6 +31559,7 @@ return
 result
 False
 None
+None
     
 if
 returnType
@@ -31560,6 +31597,7 @@ JSObject
 )
 False
 None
+None
         
 return
 CGGeneric
@@ -31575,6 +31613,7 @@ s
 name
 )
 False
+None
 None
     
 if
@@ -31596,6 +31635,7 @@ Value
 "
 )
 False
+None
 None
     
 if
@@ -31621,6 +31661,7 @@ JSObject
 "
 )
 False
+None
 None
     
 if
@@ -31653,6 +31694,7 @@ inner
 result
 _
 _
+_
 )
 =
 getRetvalDeclarationForType
@@ -31660,11 +31702,11 @@ getRetvalDeclarationForType
 returnType
 .
 inner
-                                                     
+                                                        
 descriptorProvider
-                                                     
+                                                        
 resultAlreadyAddRefed
-                                                     
+                                                        
 isMember
 =
 "
@@ -31745,6 +31787,7 @@ return
 result
 True
 rooter
+None
     
 if
 returnType
@@ -31806,39 +31849,40 @@ descriptorProvider
 )
 :
             
-rooter
+if
+nullable
+:
+                
+result
 =
-CGGeneric
+CGTemplatedType
 (
 "
-DictionaryRooter
-<
-%
-s
->
-resultRooter
-(
-cx
-&
+NullableRootedDictionary
+"
 result
 )
-;
-\
-n
-"
-%
-                               
-dictName
-)
-        
+            
 else
 :
-            
-rooter
+                
+result
 =
-None
+CGTemplatedType
+(
+"
+RootedDictionary
+"
+result
+)
+            
+resultArgs
+=
+"
+cx
+"
         
-if
+elif
 nullable
 :
             
@@ -31851,11 +31895,16 @@ Nullable
 "
 result
 )
+            
+resultArgs
+=
+None
         
 return
 result
 True
-rooter
+None
+resultArgs
     
 if
 returnType
@@ -31920,6 +31969,7 @@ result
 return
 result
 False
+None
 None
     
 raise
@@ -32145,7 +32195,9 @@ extendedAttributes
 (
 result
 resultOutParam
+         
 resultRooter
+resultArgs
 )
 =
 getRetvalDeclarationForType
@@ -32442,6 +32494,32 @@ prepend
 resultRooter
 )
             
+if
+resultArgs
+is
+not
+None
+:
+                
+resultArgs
+=
+"
+(
+%
+s
+)
+"
+%
+resultArgs
+            
+else
+:
+                
+resultArgs
+=
+"
+"
+            
 result
 =
 CGWrapper
@@ -32449,10 +32527,16 @@ CGWrapper
 result
 post
 =
+(
 "
 result
+%
+s
 ;
 "
+%
+resultArgs
+)
 )
             
 self
@@ -38995,6 +39079,7 @@ name
 _
 resultOutParam
 _
+_
 )
 =
 getRetvalDeclarationForType
@@ -39002,9 +39087,9 @@ getRetvalDeclarationForType
 attr
 .
 type
-                                                             
+                                                                
 descriptor
-                                                             
+                                                                
 False
 )
         
@@ -62018,6 +62103,8 @@ descriptors
 mainCallbacks
 workerCallbacks
                  
+mainDictionaries
+workerDictionaries
 callbackInterfaces
 )
 :
@@ -62323,6 +62410,56 @@ d
 forwardDeclareForType
 (
 t
+)
+        
+for
+d
+in
+mainDictionaries
+:
+            
+for
+t
+in
+getTypesFromDictionary
+(
+d
+)
+:
+                
+forwardDeclareForType
+(
+t
+workerness
+=
+'
+mainthreadonly
+'
+)
+        
+for
+d
+in
+workerDictionaries
+:
+            
+for
+t
+in
+getTypesFromDictionary
+(
+d
+)
+:
+                
+forwardDeclareForType
+(
+t
+workerness
+=
+'
+workeronly
+'
 )
         
 CGWrapper
@@ -63095,6 +63232,9 @@ descriptors
                                              
 mainCallbacks
 workerCallbacks
+                                             
+mainDictionaries
+workerDictionaries
                                              
 callbackDescriptors
 +

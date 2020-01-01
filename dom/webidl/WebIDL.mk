@@ -191,6 +191,10 @@ ClipboardEvent
 .
 webidl
 \
+CameraManager
+.
+webidl
+\
 CommandEvent
 .
 webidl
@@ -244,6 +248,10 @@ DesktopNotification
 webidl
 \
 DeviceMotionEvent
+.
+webidl
+\
+DeviceStorage
 .
 webidl
 \
@@ -643,6 +651,10 @@ HTMLVideoElement
 .
 webidl
 \
+IDBDatabase
+.
+webidl
+\
 IDBFactory
 .
 webidl
@@ -699,6 +711,10 @@ MessageEvent
 .
 webidl
 \
+MobileMessageManager
+.
+webidl
+\
 MouseEvent
 .
 webidl
@@ -708,6 +724,10 @@ MouseScrollEvent
 webidl
 \
 MozActivity
+.
+webidl
+\
+MozMmsMessage
 .
 webidl
 \

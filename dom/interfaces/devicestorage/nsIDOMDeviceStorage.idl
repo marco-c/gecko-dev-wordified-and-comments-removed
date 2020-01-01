@@ -88,14 +88,6 @@ nsIDOMEventListener
 interface
 nsIFile
 ;
-dictionary
-DeviceStorageEnumerationParameters
-{
-jsval
-since
-;
-}
-;
 [
 scriptable
 uuid

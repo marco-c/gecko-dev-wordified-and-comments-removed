@@ -151,7 +151,10 @@ true
 ;
 FireSuccess
 (
-JSVAL_VOID
+JS
+:
+:
+UndefinedHandleValue
 )
 ;
 }
