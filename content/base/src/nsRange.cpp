@@ -3229,6 +3229,15 @@ true
 }
 if
 (
+!
+mEnableGravitationOnElementRemoval
+)
+{
+return
+;
+}
+if
+(
 gravitateStart
 |
 |
