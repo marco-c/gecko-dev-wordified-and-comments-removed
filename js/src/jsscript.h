@@ -1421,6 +1421,11 @@ bindingsAccessedDynamically
 1
 ;
 bool
+funHasExtensibleScope
+:
+1
+;
+bool
 warnedAboutTwoArgumentEval
 :
 1

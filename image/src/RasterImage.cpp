@@ -5620,11 +5620,6 @@ mBytesDecoded
 0
 )
 {
-bool
-wasAnimating
-=
-mAnimating
-;
 if
 (
 mAnimating

@@ -61,7 +61,7 @@ NativeRole
 )
 ;
 virtual
-uint64_t
+PRUint64
 NativeState
 (
 )

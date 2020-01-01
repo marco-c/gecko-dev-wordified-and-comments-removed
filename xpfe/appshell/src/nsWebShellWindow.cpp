@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h

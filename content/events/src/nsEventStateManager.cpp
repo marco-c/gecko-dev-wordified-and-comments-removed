@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -14177,11 +14170,6 @@ GetEventTarget
 )
 ;
 }
-if
-(
-mCurrentTarget
-)
-{
 ret
 =
 CheckForAndDispatchClick
@@ -14195,7 +14183,6 @@ aEvent
 aStatus
 )
 ;
-}
 }
 nsIPresShell
 *

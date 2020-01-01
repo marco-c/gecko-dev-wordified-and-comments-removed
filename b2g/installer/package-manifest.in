@@ -3882,3 +3882,10 @@ components
 DirectoryProvider
 .
 js
+BINPATH
+/
+components
+/
+ProcessGlobal
+.
+js

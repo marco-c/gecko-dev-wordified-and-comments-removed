@@ -66,7 +66,7 @@ roles
 ALERT
 ;
 }
-uint64_t
+PRUint64
 XULAlertAccessible
 :
 :
@@ -148,6 +148,6 @@ return
 mParent
 ;
 return
-nullptr
+nsnull
 ;
 }

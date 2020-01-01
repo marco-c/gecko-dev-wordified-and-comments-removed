@@ -169,13 +169,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsISelectControlFrame
 .
 h

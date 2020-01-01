@@ -46,7 +46,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetActionName
 (
-uint8_t
+PRUint8
 aIndex
 nsAString
 &
@@ -56,7 +56,7 @@ aName
 NS_IMETHOD
 DoAction
 (
-uint8_t
+PRUint8
 aIndex
 )
 ;
@@ -80,7 +80,7 @@ NativeRole
 )
 ;
 virtual
-uint64_t
+PRUint64
 NativeInteractiveState
 (
 )
@@ -100,7 +100,7 @@ CanHaveAnonChildren
 )
 ;
 virtual
-uint8_t
+PRUint8
 ActionCount
 (
 )

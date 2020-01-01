@@ -2855,9 +2855,6 @@ copyFrameAndValues
 JSContext
 *
 cx
-StackFrame
-*
-fp
 T
 *
 vp

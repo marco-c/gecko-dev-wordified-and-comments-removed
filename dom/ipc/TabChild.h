@@ -165,7 +165,7 @@ h
 #
 include
 "
-nsIEmbeddingSiteWindow2
+nsIEmbeddingSiteWindow
 .
 h
 "
@@ -674,7 +674,7 @@ nsFrameScriptExecutor
 public
 nsIWebBrowserChrome2
 public
-nsIEmbeddingSiteWindow2
+nsIEmbeddingSiteWindow
 public
 nsIWebBrowserChromeFocus
 public
@@ -721,7 +721,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIWEBBROWSERCHROME
 NS_DECL_NSIWEBBROWSERCHROME2
 NS_DECL_NSIEMBEDDINGSITEWINDOW
-NS_DECL_NSIEMBEDDINGSITEWINDOW2
 NS_DECL_NSIWEBBROWSERCHROMEFOCUS
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWINDOWPROVIDER

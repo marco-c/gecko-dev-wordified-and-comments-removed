@@ -81,7 +81,7 @@ roles
 SLIDER
 ;
 }
-uint64_t
+PRUint64
 XULSliderAccessible
 :
 :
@@ -198,7 +198,7 @@ aValue
 )
 ;
 }
-uint8_t
+PRUint8
 XULSliderAccessible
 :
 :
@@ -216,7 +216,7 @@ XULSliderAccessible
 :
 GetActionName
 (
-uint8_t
+PRUint8
 aIndex
 nsAString
 &
@@ -256,7 +256,7 @@ XULSliderAccessible
 :
 DoAction
 (
-uint8_t
+PRUint8
 aIndex
 )
 {
@@ -720,7 +720,7 @@ IsEmpty
 return
 NS_OK
 ;
-nsresult
+PRInt32
 error
 =
 NS_OK
