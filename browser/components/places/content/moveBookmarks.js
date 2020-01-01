@@ -70,7 +70,14 @@ arguments
 1
 ]
 ;
-this
+setTimeout
+(
+function
+(
+aSelf
+)
+{
+aSelf
 .
 foldersTree
 .
@@ -83,7 +90,7 @@ bookmarksRootId
 ]
 )
 ;
-this
+aSelf
 .
 foldersTree
 .
@@ -92,6 +99,11 @@ selectedNode
 containerOpen
 =
 true
+;
+}
+0
+this
+)
 ;
 }
 onOK
