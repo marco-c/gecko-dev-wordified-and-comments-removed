@@ -3922,6 +3922,15 @@ format
 =
 CUBEB_SAMPLE_S16NE
 ;
+mBytesPerFrame
+=
+sizeof
+(
+int16_t
+)
+*
+aNumChannels
+;
 #
 else
 params
@@ -3930,8 +3939,6 @@ format
 =
 CUBEB_SAMPLE_FLOAT32NE
 ;
-#
-endif
 mBytesPerFrame
 =
 sizeof
@@ -3941,6 +3948,8 @@ float
 *
 aNumChannels
 ;
+#
+endif
 {
 cubeb_stream
 *
