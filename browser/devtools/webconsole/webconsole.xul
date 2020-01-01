@@ -508,6 +508,11 @@ cmd_close
 )
 ;
 "
+disabled
+=
+"
+true
+"
 /
 >
 <
