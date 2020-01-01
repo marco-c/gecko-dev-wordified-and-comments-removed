@@ -10,6 +10,7 @@ long
 ref
 .
 html
+random
 =
 =
 soft
@@ -28,6 +29,10 @@ hyphens
 ref
 .
 html
+#
+bug
+406299
+random
 =
 =
 soft
@@ -46,6 +51,10 @@ hyphens
 ref
 .
 html
+#
+bug
+406299
+random
 =
 =
 soft
@@ -64,6 +73,9 @@ hyphens
 ref
 .
 html
+#
+bug
+406299
 =
 =
 white
