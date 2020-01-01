@@ -556,14 +556,6 @@ EXPAND_LIBNAME
 usp10
 oleaut32
 )
-OS_LIBS
-+
-=
-(
-call
-EXPAND_LIBNAME
-opengl32
-)
 endif
 endif
 ifneq
