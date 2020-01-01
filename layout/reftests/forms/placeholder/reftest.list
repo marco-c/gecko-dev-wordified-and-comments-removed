@@ -386,7 +386,7 @@ placeholder
 html
 placeholder
 -
-focus
+blank
 -
 ref
 .
@@ -403,7 +403,7 @@ placeholder
 html
 placeholder
 -
-focus
+blank
 -
 ref
 .
