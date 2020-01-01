@@ -935,7 +935,7 @@ command
 line
 -
 handler
-m
+x
 -
 browser
 mozilla
