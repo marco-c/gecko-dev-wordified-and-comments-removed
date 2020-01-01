@@ -4567,16 +4567,6 @@ content
 {
 do_check_eq
 (
-error
-"
-Error
-:
-NS_ERROR_MALFORMED_URI
-"
-)
-;
-do_check_eq
-(
 content
 null
 )
