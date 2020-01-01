@@ -466,6 +466,7 @@ payloadReg
 (
 )
 scratchReg
+SetCond
 )
 ;
 masm
@@ -512,6 +513,7 @@ payloadReg
 (
 )
 scratchReg
+SetCond
 )
 ;
 masm
