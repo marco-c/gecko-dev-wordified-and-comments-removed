@@ -162,7 +162,7 @@ ia2AccessibleComponent
 .
 cpp
 \
-CAccessibleImage
+ia2AccessibleImage
 .
 cpp
 \

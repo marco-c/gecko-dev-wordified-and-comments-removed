@@ -14,7 +14,7 @@ h
 #
 include
 "
-CAccessibleImage
+ia2AccessibleImage
 .
 h
 "
@@ -24,7 +24,7 @@ nsHTMLImageAccessibleWrap
 public
 nsHTMLImageAccessible
 public
-CAccessibleImage
+ia2AccessibleImage
 {
 public
 :

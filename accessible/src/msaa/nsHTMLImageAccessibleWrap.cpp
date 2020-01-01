@@ -14,6 +14,6 @@ IMPL_IUNKNOWN_INHERITED1
 (
 nsHTMLImageAccessibleWrap
 nsAccessibleWrap
-CAccessibleImage
+ia2AccessibleImage
 )
 ;
