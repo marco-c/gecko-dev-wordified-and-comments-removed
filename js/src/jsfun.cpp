@@ -3042,10 +3042,14 @@ obj
 ;
 n
 =
+fun
+?
 JS_GET_LOCAL_NAME_COUNT
 (
 fun
 )
+:
+0
 ;
 if
 (
