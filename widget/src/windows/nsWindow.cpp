@@ -2133,7 +2133,14 @@ config
 .
 trim_on_minimize
 "
-PR_FALSE
+(
+GetWindowsVersion
+(
+)
+>
+=
+VISTA_VERSION
+)
 )
 ?
 1
