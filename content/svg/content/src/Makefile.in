@@ -181,10 +181,6 @@ nsSVGClass
 .
 cpp
 \
-nsSVGClipPathElement
-.
-cpp
-\
 nsSVGDataParser
 .
 cpp
@@ -330,6 +326,10 @@ SVGAnimationElement
 cpp
 \
 SVGAttrValueWrapper
+.
+cpp
+\
+SVGClipPathElement
 .
 cpp
 \
@@ -675,6 +675,10 @@ SVGAnimateMotionElement
 h
 \
 SVGAnimationElement
+.
+h
+\
+SVGClipPathElement
 .
 h
 \
