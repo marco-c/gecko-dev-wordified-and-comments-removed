@@ -9186,7 +9186,10 @@ aChange
 {
 NS_ASSERTION
 (
+PRInt32
+(
 mContentEditableCount
+)
 +
 aChange
 >
