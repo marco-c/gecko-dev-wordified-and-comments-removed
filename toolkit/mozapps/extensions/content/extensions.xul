@@ -1824,11 +1824,6 @@ flex
 >
 <
 vbox
-flex
-=
-"
-1
-"
 >
 <
 hbox
