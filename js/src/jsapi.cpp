@@ -3915,6 +3915,17 @@ maxbytes
 {
 #
 ifdef
+MUST_DETECT_SSE2
+js_use_SSE2
+=
+js_DetectSSE2
+(
+)
+;
+#
+endif
+#
+ifdef
 DEBUG
 if
 (
