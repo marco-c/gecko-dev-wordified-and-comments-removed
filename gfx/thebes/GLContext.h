@@ -54,6 +54,13 @@ h
 #
 include
 "
+gfxImageSurface
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -618,6 +625,12 @@ mTextureInited
 GLContext
 *
 mGLContext
+;
+nsRefPtr
+<
+gfxImageSurface
+>
+mBackingSurface
 ;
 nsRefPtr
 <
