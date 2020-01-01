@@ -36,3 +36,17 @@ bug448564
 4b
 .
 html
+=
+=
+bug502168
+-
+1_malformed
+.
+html
+bug502168
+-
+1_well
+-
+formed
+.
+html
