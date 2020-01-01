@@ -6562,12 +6562,11 @@ if
 (
 aFlags
 &
+(
 PAINT_WIDGET_LAYERS
 |
-|
-aFlags
-&
 PAINT_TO_WINDOW
+)
 )
 {
 builder
