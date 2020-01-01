@@ -78,6 +78,15 @@ FRAME_ID
 (
 nsFirstLineFrame
 )
+#
+ifdef
+MOZ_FLEXBOX
+FRAME_ID
+(
+nsFlexContainerFrame
+)
+#
+endif
 FRAME_ID
 (
 nsFormControlFrame
