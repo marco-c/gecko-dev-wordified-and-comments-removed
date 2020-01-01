@@ -68,6 +68,9 @@ class
 nsIPageSequenceFrame
 ;
 class
+nsIWeakReference
+;
+class
 nsPrintEngine
 :
 public
@@ -223,7 +226,7 @@ Initialize
 nsIDocumentViewerPrint
 *
 aDocViewerPrint
-nsISupports
+nsIWeakReference
 *
 aContainer
 nsIDocument
@@ -930,8 +933,7 @@ nsIDocumentViewerPrint
 >
 mDocViewerPrint
 ;
-nsISupports
-*
+nsWeakPtr
 mContainer
 ;
 float
