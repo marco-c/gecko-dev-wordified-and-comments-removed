@@ -4535,6 +4535,17 @@ trc
 ;
 #
 endif
+if
+(
+!
+rt
+-
+>
+isHeapMinorCollecting
+(
+)
+)
+{
 for
 (
 CompartmentsIter
@@ -4564,6 +4575,7 @@ mark
 trc
 )
 ;
+}
 if
 (
 JSTraceDataOp

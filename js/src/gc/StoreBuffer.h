@@ -707,13 +707,14 @@ return
 ;
 if
 (
+unsigned
+(
 top
 -
 pos
-<
-(
-unsigned
 )
+<
+unsigned
 (
 sizeof
 (
