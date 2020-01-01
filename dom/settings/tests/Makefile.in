@@ -97,6 +97,10 @@ test_settings_blobs
 .
 html
 \
+test_settings_prefdisabled
+.
+html
+\
 (
 NULL
 )
