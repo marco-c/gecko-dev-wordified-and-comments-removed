@@ -658,6 +658,14 @@ browserElement_ReloadPostRequest
 .
 js
 \
+browserElement_PurgeHistory
+.
+js
+\
+test_browserElement_inproc_PurgeHistory
+.
+html
+\
 (
 NULL
 )
@@ -968,6 +976,10 @@ test_browserElement_oop_FrameWrongURI
 html
 \
 test_browserElement_oop_ReloadPostRequest
+.
+html
+\
+test_browserElement_oop_PurgeHistory
 .
 html
 \
