@@ -1062,8 +1062,8 @@ update
 struct
 OpPaintTiledLayerBuffer
 {
-PLayer
-layer
+PCompositable
+compositable
 ;
 /
 /
@@ -1164,6 +1164,8 @@ OpPaintTexture
 ;
 OpPaintTextureRegion
 ;
+OpPaintTiledLayerBuffer
+;
 }
 ;
 /
@@ -1213,8 +1215,6 @@ OpRaiseToTopChild
 OpAttachCompositable
 ;
 OpAttachAsyncCompositable
-;
-OpPaintTiledLayerBuffer
 ;
 CompositableOperation
 ;

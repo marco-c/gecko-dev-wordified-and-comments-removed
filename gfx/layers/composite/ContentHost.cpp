@@ -46,15 +46,11 @@ const
 TextureInfo
 &
 aTextureInfo
-Compositor
-*
-aCompositor
 )
 :
 ContentHost
 (
 aTextureInfo
-aCompositor
 )
 mPaintWillResample
 (

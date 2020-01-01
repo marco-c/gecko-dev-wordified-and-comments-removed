@@ -216,9 +216,6 @@ const
 TextureInfo
 &
 aTextureInfo
-Compositor
-*
-aCompositor
 )
 {
 RefPtr
@@ -243,7 +240,6 @@ new
 ImageHostBuffered
 (
 aTextureInfo
-aCompositor
 )
 ;
 return
@@ -258,7 +254,6 @@ new
 ImageHostSingle
 (
 aTextureInfo
-aCompositor
 )
 ;
 return
@@ -273,7 +268,6 @@ new
 TiledContentHost
 (
 aTextureInfo
-aCompositor
 )
 ;
 return
@@ -288,7 +282,6 @@ new
 ContentHostSingleBuffered
 (
 aTextureInfo
-aCompositor
 )
 ;
 return
@@ -303,7 +296,6 @@ new
 ContentHostDoubleBuffered
 (
 aTextureInfo
-aCompositor
 )
 ;
 return

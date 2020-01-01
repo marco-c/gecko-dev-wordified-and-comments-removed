@@ -1400,9 +1400,9 @@ ShadowLayerForwarder
 :
 PaintedTiledLayerBuffer
 (
-ShadowableLayer
+CompositableClient
 *
-aLayer
+aCompositable
 BasicTiledLayerBuffer
 *
 aTiledLayerBuffer
@@ -1442,9 +1442,11 @@ AddNoSwapPaint
 OpPaintTiledLayerBuffer
 (
 NULL
-Shadow
+aCompositable
+-
+>
+GetIPDLActor
 (
-aLayer
 )
 uintptr_t
 (

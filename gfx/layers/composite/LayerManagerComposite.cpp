@@ -1683,7 +1683,7 @@ composer
 shadow
 -
 >
-AsTiledLayerComposer
+GetTiledLayerComposer
 (
 )
 ;
