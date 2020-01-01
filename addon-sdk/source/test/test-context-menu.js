@@ -18608,9 +18608,6 @@ test
 .
 waitUntilDone
 (
-30
-*
-1000
 )
 ;
 this
