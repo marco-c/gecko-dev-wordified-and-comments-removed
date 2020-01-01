@@ -145,6 +145,7 @@ height
 #
 searchContainer
 :
+:
 before
 {
 content
@@ -910,7 +911,7 @@ center
 ;
 }
 #
-defaultSnippets
+snippets
 {
 display
 :
@@ -1077,7 +1078,7 @@ width
 )
 {
 #
-defaultSnippets
+snippets
 {
 width
 :
@@ -1105,7 +1106,7 @@ width
 )
 {
 #
-defaultSnippets
+snippets
 {
 width
 :
@@ -1114,7 +1115,7 @@ width
 }
 }
 #
-defaultSnippets
+snippets
 :
 hover
 {
@@ -1207,7 +1208,7 @@ rgba
 ;
 }
 #
-defaultSnippets
+snippets
 :
 hover
 :
