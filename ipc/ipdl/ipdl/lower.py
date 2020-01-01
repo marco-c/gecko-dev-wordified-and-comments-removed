@@ -20041,6 +20041,9 @@ name
 ret
 =
 managertype
+const
+=
+1
 )
 )
                 

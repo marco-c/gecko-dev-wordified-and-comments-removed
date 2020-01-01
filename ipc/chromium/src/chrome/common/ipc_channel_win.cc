@@ -582,6 +582,15 @@ Message
 message
 )
 {
+if
+(
+thread_check_
+.
+get
+(
+)
+)
+{
 DCHECK
 (
 thread_check_
@@ -592,6 +601,7 @@ CalledOnValidThread
 )
 )
 ;
+}
 chrome
 :
 :

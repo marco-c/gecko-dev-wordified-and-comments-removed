@@ -382,6 +382,17 @@ return
 mActorChild
 ;
 }
+IndexedDBCursorParent
+*
+GetActorParent
+(
+)
+const
+{
+return
+mActorParent
+;
+}
 nsresult
 ContinueInternal
 (

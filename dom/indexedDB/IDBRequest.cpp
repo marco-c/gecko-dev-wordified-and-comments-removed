@@ -997,7 +997,9 @@ thread
 ;
 if
 (
-mHaveResultOrErrorCode
+IsPending
+(
+)
 )
 {
 aReadyState
@@ -1005,7 +1007,7 @@ aReadyState
 AssignLiteral
 (
 "
-done
+pending
 "
 )
 ;
@@ -1017,7 +1019,7 @@ aReadyState
 AssignLiteral
 (
 "
-pending
+done
 "
 )
 ;
