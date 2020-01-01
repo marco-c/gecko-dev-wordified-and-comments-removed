@@ -2400,10 +2400,14 @@ gInHead
 0
 0
 0
+kAllTags
+-
 kHeadContent
 kNone
 kNone
 kNonContainer
+|
+kPreferHead
 kDefaultPropRange
 &
 gInHead
@@ -3150,6 +3154,8 @@ kHeadContent
 kCDATA
 kNone
 kNoStyleLeaksIn
+|
+kPreferHead
 kNoPropRange
 0
 0

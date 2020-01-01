@@ -1100,5 +1100,12 @@ kVerifyHierarchy
 =
 0x1000
 ;
+static
+const
+int
+kPreferHead
+=
+0x2000
+;
 #
 endif

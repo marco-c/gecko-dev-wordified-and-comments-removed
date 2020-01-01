@@ -471,7 +471,7 @@ test_bug358797
 .
 html
 \
-bug379025
+regressions
 .
 txt
 \
