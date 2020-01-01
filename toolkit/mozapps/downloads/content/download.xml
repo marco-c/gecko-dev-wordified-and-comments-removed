@@ -1550,6 +1550,11 @@ center
 xul
 :
 progressmeter
+anonid
+=
+"
+progressmeter
+"
 mode
 =
 "
@@ -2694,6 +2699,11 @@ center
 xul
 :
 progressmeter
+anonid
+=
+"
+progressmeter
+"
 mode
 =
 "
