@@ -1244,7 +1244,7 @@ equals
 (
 Bookmarks
 .
-MOBILE_FOLDER_GUID
+FAKE_DESKTOP_FOLDER_GUID
 )
 )
 return
@@ -1256,7 +1256,7 @@ R
 .
 string
 .
-bookmarks_folder_mobile
+bookmarks_folder_desktop
 )
 ;
 else
