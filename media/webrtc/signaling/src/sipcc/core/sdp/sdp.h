@@ -2820,16 +2820,6 @@ fs
 )
 ;
 extern
-sdp_t
-*
-sdp_copy
-(
-sdp_t
-*
-sdp_ptr
-)
-;
-extern
 sdp_result_e
 sdp_free_description
 (

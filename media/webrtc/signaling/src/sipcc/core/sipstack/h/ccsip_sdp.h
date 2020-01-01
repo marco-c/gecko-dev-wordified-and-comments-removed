@@ -50,13 +50,6 @@ define
 CCSIP_DEST_SDP_BIT
 0x2
 PMH_EXTERN
-boolean
-sip_sdp_init
-(
-void
-)
-;
-PMH_EXTERN
 sdp_t
 *
 sipsdp_create
