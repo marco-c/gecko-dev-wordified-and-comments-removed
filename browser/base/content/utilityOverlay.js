@@ -1846,7 +1846,6 @@ xul
 About
 "
 "
-modal
 centerscreen
 chrome
 resizable
