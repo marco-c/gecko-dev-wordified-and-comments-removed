@@ -53,7 +53,7 @@ dialog
 no
 resizable
 =
-no
+yes
 "
 )
 ;
