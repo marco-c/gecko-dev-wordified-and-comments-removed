@@ -1255,7 +1255,7 @@ regress
 n
 .
 js
-fails
+random
 -
 if
 (
