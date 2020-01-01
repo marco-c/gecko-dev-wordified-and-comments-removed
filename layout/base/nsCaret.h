@@ -234,12 +234,13 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
+nsIFrame
+*
+aForFrame
 const
 nsPoint
 &
 aOffset
-nscolor
-aColor
 )
 ;
 void
@@ -372,6 +373,8 @@ nsIFrame
 aFrame
 PRInt32
 aOffset
+nscoord
+aCaretHeight
 )
 ;
 PRBool
@@ -502,6 +505,9 @@ mBlinkRate
 ;
 nscoord
 mCaretWidthCSSPx
+;
+float
+mCaretAspectRatio
 ;
 PRPackedBool
 mVisible

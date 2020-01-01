@@ -260,6 +260,7 @@ eMetricFloat_ListHorizontalInsidePadding
 eMetricFloat_ButtonVerticalInsidePadding
 eMetricFloat_ButtonHorizontalInsidePadding
 eMetricFloat_IMEUnderlineRelativeSize
+eMetricFloat_CaretAspectRatio
 }
 nsMetricFloatID
 ;
