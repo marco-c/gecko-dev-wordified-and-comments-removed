@@ -472,13 +472,6 @@ MOZ_UPDATE_CHANNEL
 EXTENSIONS
 =
 \
-feedback
-mobile
-.
-mozilla
-.
-org
-\
 (
 NULL
 )
