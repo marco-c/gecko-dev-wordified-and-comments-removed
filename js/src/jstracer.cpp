@@ -75410,17 +75410,6 @@ JSVAL_TO_OBJECT
 iterobj_val
 )
 ;
-JSClass
-*
-clasp
-=
-iterobj
--
->
-getClass
-(
-)
-;
 LIns
 *
 iterobj_ins
