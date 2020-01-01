@@ -760,13 +760,6 @@ NativeIterator
 struct
 JSFunction
 ;
-namespace
-nanojit
-{
-class
-ValidateWriter
-;
-}
 struct
 JSObject
 :
@@ -784,13 +777,6 @@ js
 :
 :
 TraceRecorder
-;
-friend
-class
-nanojit
-:
-:
-ValidateWriter
 ;
 union
 {
