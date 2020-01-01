@@ -546,6 +546,15 @@ resources
 content
 >
 <
+children
+includes
+=
+"
+listheader
+"
+/
+>
+<
 xul
 :
 scrollbox
