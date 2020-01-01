@@ -787,6 +787,8 @@ get
 notificationBox
 (
 )
+{
+return
 document
 .
 getElementById
@@ -797,10 +799,14 @@ scratchpad
 notificationbox
 "
 )
+;
+}
 get
 selectedText
 (
 )
+{
+return
 this
 .
 editor
@@ -808,6 +814,8 @@ editor
 getSelectedText
 (
 )
+;
+}
 getText
 :
 function
@@ -1033,6 +1041,8 @@ get
 browserWindow
 (
 )
+{
+return
 Services
 .
 wm
@@ -1045,6 +1055,8 @@ navigator
 browser
 "
 )
+;
+}
 get
 gBrowser
 (
