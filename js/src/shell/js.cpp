@@ -26072,6 +26072,12 @@ return
 true
 ;
 }
+#
+if
+defined
+(
+JS_ION
+)
 static
 int
 OptionFailure
@@ -26109,6 +26115,8 @@ return
 EXIT_FAILURE
 ;
 }
+#
+endif
 static
 int
 ProcessArgs
