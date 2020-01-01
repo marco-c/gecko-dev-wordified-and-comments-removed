@@ -330,7 +330,7 @@ R
 .
 dimen
 .
-doorhanger_padding_spinners
+doorhanger_padding
 )
 ;
 }
