@@ -13680,7 +13680,9 @@ ContextState
 &
 state
 =
-state
+CurrentState
+(
+)
 ;
 PRBool
 doDrawShadow
