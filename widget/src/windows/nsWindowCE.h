@@ -176,6 +176,8 @@ static
 void
 ToggleSoftKB
 (
+HWND
+wnd
 PRBool
 show
 )
@@ -192,6 +194,8 @@ static
 void
 NotifySoftKbObservers
 (
+HWND
+wnd
 LPRECT
 =
 NULL
