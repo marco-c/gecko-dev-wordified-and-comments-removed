@@ -406,7 +406,6 @@ mPerm
 (
 0
 )
-:
 mLineBuffer
 (
 nullptr
