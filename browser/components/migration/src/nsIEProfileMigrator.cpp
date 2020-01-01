@@ -5693,7 +5693,10 @@ bms
 CreateFolder
 (
 root
+NS_ConvertUTF16toUTF8
+(
 importedIEFavsTitle
+)
 -
 1
 &
@@ -6198,7 +6201,10 @@ bms
 CreateFolder
 (
 aParentFolder
+NS_ConvertUTF16toUTF8
+(
 importedIESearchUrlsTitle
+)
 -
 1
 &
@@ -6318,7 +6324,10 @@ nsINavBookmarksService
 :
 :
 DEFAULT_INDEX
+NS_ConvertUTF16toUTF8
+(
 keyName
+)
 &
 id
 )
@@ -6862,7 +6871,10 @@ nsINavBookmarksService
 :
 :
 DEFAULT_INDEX
+NS_ConvertUTF16toUTF8
+(
 bookmarkName
+)
 &
 id
 )
@@ -6922,7 +6934,10 @@ aBookmarksService
 CreateFolder
 (
 aParentFolder
+NS_ConvertUTF16toUTF8
+(
 bookmarkName
+)
 nsINavBookmarksService
 :
 :
@@ -7087,7 +7102,10 @@ nsINavBookmarksService
 :
 :
 DEFAULT_INDEX
+NS_ConvertUTF16toUTF8
+(
 name
+)
 &
 id
 )

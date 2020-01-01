@@ -1250,15 +1250,15 @@ folders
 scriptable
 uuid
 (
-fb8dc678
+617fe3a9
 -
-681b
+5c5b
 -
-453b
+4854
 -
-a5fe
+aae6
 -
-ab3cc19b3698
+23a66ddf1c25
 )
 ]
 interface
@@ -1544,7 +1544,7 @@ in
 long
 aIndex
 in
-AString
+AUTF8String
 aTitle
 )
 ;
@@ -1657,7 +1657,7 @@ long
 long
 aParentFolder
 in
-AString
+AUTF8String
 name
 in
 long
@@ -1753,7 +1753,7 @@ long
 long
 aParentFolder
 in
-AString
+AUTF8String
 aName
 in
 AString
@@ -2518,7 +2518,7 @@ long
 long
 aItemId
 in
-AString
+AUTF8String
 aTitle
 )
 ;
@@ -2578,7 +2578,7 @@ item
 .
 *
 /
-AString
+AUTF8String
 getItemTitle
 (
 in

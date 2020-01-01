@@ -1233,7 +1233,10 @@ bms
 CreateFolder
 (
 root
+NS_ConvertUTF16toUTF8
+(
 importedBookmarksTitle
+)
 -
 1
 &
