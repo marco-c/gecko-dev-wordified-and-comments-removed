@@ -8628,7 +8628,7 @@ nsnull
 }
 #
 ifdef
-MOZ_WIDGET_ANDROID
+MOZ_JAVA_COMPOSITOR
 printf_stderr
 (
 "
