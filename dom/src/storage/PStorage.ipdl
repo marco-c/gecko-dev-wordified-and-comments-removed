@@ -244,7 +244,7 @@ domain
 nsCString
 scopeDBKey
 nsCString
-quotaETLDplus1DomainDBKey
+quotaDBKey
 uint32_t
 storageType
 )

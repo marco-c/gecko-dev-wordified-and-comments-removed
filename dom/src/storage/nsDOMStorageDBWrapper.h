@@ -231,7 +231,7 @@ aStorage
 ;
 static
 nsresult
-CreateOriginScopeDBKey
+CreateScopeDBKey
 (
 nsIURI
 *
@@ -243,7 +243,7 @@ aKey
 ;
 static
 nsresult
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 nsIURI
 *
@@ -255,7 +255,7 @@ aKey
 ;
 static
 nsresult
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 const
 nsACString
@@ -268,7 +268,7 @@ aKey
 ;
 static
 nsresult
-CreateQuotaDomainDBKey
+CreateQuotaDBKey
 (
 const
 nsACString

@@ -665,7 +665,7 @@ if
 aStorage
 -
 >
-GetQuotaDomainDBKey
+GetQuotaDBKey
 (
 )
 .
@@ -1283,7 +1283,7 @@ subdomainsDBKey
 nsDOMStorageDBWrapper
 :
 :
-CreateDomainScopeDBKey
+CreateReversedDomain
 (
 aOwner
 subdomainsDBKey
@@ -1364,7 +1364,7 @@ GetUsageInternal
 aStorage
 -
 >
-GetQuotaDomainDBKey
+GetQuotaDBKey
 (
 )
 aUsage
@@ -1390,17 +1390,17 @@ nsresult
 rv
 ;
 nsAutoCString
-quotadomainDBKey
+quotaDBKey
 ;
 rv
 =
 nsDOMStorageDBWrapper
 :
 :
-CreateQuotaDomainDBKey
+CreateQuotaDBKey
 (
 aDomain
-quotadomainDBKey
+quotaDBKey
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1412,7 +1412,7 @@ rv
 return
 GetUsageInternal
 (
-quotadomainDBKey
+quotaDBKey
 aUsage
 )
 ;
@@ -1494,7 +1494,7 @@ GetUsageInternal
 const
 nsACString
 &
-aQuotaDomainDBKey
+aQuotaDBKey
 int32_t
 *
 aUsage
@@ -1513,7 +1513,7 @@ struc
 .
 mSubdomain
 =
-aQuotaDomainDBKey
+aQuotaDBKey
 ;
 if
 (
@@ -1530,7 +1530,7 @@ mPreloadDB
 >
 GetUsageInternal
 (
-aQuotaDomainDBKey
+aQuotaDBKey
 &
 struc
 .

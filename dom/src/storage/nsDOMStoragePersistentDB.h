@@ -351,7 +351,7 @@ GetUsageInternal
 const
 nsACString
 &
-aQuotaDomainDBKey
+aQuotaDBKey
 int32_t
 *
 aUsage
