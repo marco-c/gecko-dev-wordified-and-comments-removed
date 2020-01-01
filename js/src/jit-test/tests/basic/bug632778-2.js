@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-asserts
-.
-js
-"
-)
-;
 obj
 =
 wrap
@@ -20,12 +9,6 @@ bind
 )
 )
 ;
-assertThrowsInstanceOf
-(
-function
-(
-)
-{
 Object
 .
 defineProperty
@@ -43,9 +26,5 @@ function
 {
 }
 }
-)
-;
-}
-TypeError
 )
 ;
