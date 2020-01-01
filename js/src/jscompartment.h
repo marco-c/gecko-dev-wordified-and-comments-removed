@@ -1084,6 +1084,14 @@ EmptyShapeSet
 EmptyShapeSet
 emptyShapes
 ;
+const
+js
+:
+:
+Shape
+*
+initialRegExpShape
+;
 bool
 debugMode
 ;

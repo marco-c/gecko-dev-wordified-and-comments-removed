@@ -509,6 +509,10 @@ testPropCache
 .
 cpp
 \
+testRegExpInstanceProperties
+.
+cpp
+\
 testResolveRecursion
 .
 cpp
