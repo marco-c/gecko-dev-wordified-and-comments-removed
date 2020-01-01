@@ -591,6 +591,10 @@ mozalloc_oom
 .
 h
 \
+mozalloc_undef_macro_wrappers
+.
+h
+\
 (
 NULL
 )
