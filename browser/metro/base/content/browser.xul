@@ -5585,6 +5585,11 @@ contextualactions
 -
 tray
 "
+labelled
+=
+"
+true
+"
 flex
 =
 "
