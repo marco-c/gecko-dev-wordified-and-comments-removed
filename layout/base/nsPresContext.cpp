@@ -920,16 +920,6 @@ screen
 }
 else
 {
-SetBackgroundImageDraw
-(
-PR_FALSE
-)
-;
-SetBackgroundColorDraw
-(
-PR_FALSE
-)
-;
 mMedium
 =
 nsGkAtoms
