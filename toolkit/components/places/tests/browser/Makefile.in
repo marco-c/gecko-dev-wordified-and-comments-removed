@@ -169,6 +169,10 @@ browser_bug248970
 .
 js
 \
+browser_favicon_setAndFetchFaviconForPage
+.
+js
+\
 (
 NULL
 )
