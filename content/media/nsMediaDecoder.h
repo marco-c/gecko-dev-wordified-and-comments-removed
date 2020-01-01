@@ -129,6 +129,15 @@ nsMediaDecoder
 (
 )
 ;
+virtual
+nsMediaDecoder
+*
+Clone
+(
+)
+=
+0
+;
 static
 nsresult
 InitLogger

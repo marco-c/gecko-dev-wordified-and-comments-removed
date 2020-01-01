@@ -507,6 +507,14 @@ aMIMEType
 )
 ;
 nsresult
+InitializeDecoderAsClone
+(
+nsMediaDecoder
+*
+aOriginal
+)
+;
+nsresult
 InitializeDecoderForChannel
 (
 nsIChannel
@@ -516,6 +524,11 @@ nsIStreamListener
 *
 *
 aListener
+)
+;
+nsresult
+FinishDecoderSetup
+(
 )
 ;
 void
