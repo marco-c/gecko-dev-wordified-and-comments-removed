@@ -216,6 +216,15 @@ function
 statements
 .
 js
+skip
+-
+if
+(
+!
+xulRuntime
+.
+shell
+)
 script
 function
 -
@@ -224,3 +233,8 @@ definition
 with
 .
 js
+#
+needs
+evaluate
+(
+)
