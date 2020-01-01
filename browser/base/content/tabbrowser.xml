@@ -15518,7 +15518,7 @@ CDATA
 [
 event
 .
-preventBubble
+stopPropagation
 (
 )
 ;
