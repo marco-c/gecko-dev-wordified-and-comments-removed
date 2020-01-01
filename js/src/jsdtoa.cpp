@@ -103,6 +103,14 @@ endif
 define
 NO_GLOBAL_STATE
 #
+define
+MALLOC
+js_malloc
+#
+define
+FREE
+js_free
+#
 include
 "
 dtoa
