@@ -348,6 +348,11 @@ nsIDOMHTMLPreElement
 idl
 '
 '
+nsIDOMHTMLProgressElement
+.
+idl
+'
+'
 nsIDOMHTMLQuoteElement
 .
 idl
