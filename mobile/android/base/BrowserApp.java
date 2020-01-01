@@ -3617,6 +3617,8 @@ Integer
 toString
 (
 id
+-
+ADDON_MENU_OFFSET
 )
 )
 )
