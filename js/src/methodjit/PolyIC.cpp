@@ -2804,7 +2804,14 @@ cx
 getProperty
 (
 cx
+types
+:
+:
+MakeTypeId
+(
+cx
 id
+)
 true
 )
 ;
