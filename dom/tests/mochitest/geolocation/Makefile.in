@@ -470,6 +470,10 @@ test_clearWatch
 .
 html
 \
+test_clearWatch_invalid
+.
+html
+\
 test_geoPrompt
 .
 html
