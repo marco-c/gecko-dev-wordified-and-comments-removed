@@ -4044,7 +4044,9 @@ NULL
 )
 sharpObjectMap
 (
-this
+thisDuringConstruction
+(
+)
 )
 argumentFormatMap
 (
