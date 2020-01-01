@@ -518,6 +518,10 @@ CAccessibleEditableText
 .
 cpp
 \
+CAccessibleHypertext
+.
+cpp
+\
 CAccessibleTable
 .
 cpp
@@ -585,6 +589,10 @@ CAccessibleText
 h
 \
 CAccessibleEditableText
+.
+h
+\
+CAccessibleHypertext
 .
 h
 \
