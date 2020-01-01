@@ -84,7 +84,7 @@ TextTrackCue
 mGlobal
 mTrack
 mTrackElement
-mCueDiv
+mDisplayState
 )
 NS_IMPL_ADDREF_INHERITED
 (
@@ -178,6 +178,10 @@ mHead
 (
 nullptr
 )
+mReset
+(
+false
+)
 {
 SetDefaultCueSettings
 (
@@ -240,6 +244,10 @@ aTrackElement
 mHead
 (
 head
+)
+mReset
+(
+false
 )
 {
 webvtt_ref_node
@@ -346,7 +354,7 @@ nullptr
 kNameSpaceID_XHTML
 getter_AddRefs
 (
-mCueDiv
+mDisplayState
 )
 )
 ;
@@ -360,7 +368,7 @@ nsGenericHTMLElement
 *
 >
 (
-mCueDiv
+mDisplayState
 .
 get
 (
@@ -417,7 +425,7 @@ return
 if
 (
 !
-mCueDiv
+mDisplayState
 )
 {
 CreateCueOverlay
@@ -521,14 +529,14 @@ nsContentUtils
 :
 SetNodeTextContent
 (
-mCueDiv
+mDisplayState
 EmptyString
 (
 )
 true
 )
 ;
-mCueDiv
+mDisplayState
 -
 >
 AppendChild
@@ -544,7 +552,7 @@ overlay
 AppendChild
 (
 *
-mCueDiv
+mDisplayState
 rv
 )
 ;
