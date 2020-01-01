@@ -2504,7 +2504,7 @@ g
 ;
 dest
 [
-OUTPUT_A_INDEX
+OUTPUT_B_INDEX
 ]
 =
 transform
