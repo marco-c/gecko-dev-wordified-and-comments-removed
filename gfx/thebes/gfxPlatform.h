@@ -988,6 +988,12 @@ aAddLang
 )
 ;
 static
+bool
+UseAzureContentDrawing
+(
+)
+;
+static
 eCMSMode
 GetCMSMode
 (
