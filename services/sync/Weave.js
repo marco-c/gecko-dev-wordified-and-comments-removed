@@ -174,11 +174,11 @@ break
 ;
 case
 "
-profile
+sessionstore
 -
-after
+windows
 -
-change
+restored
 "
 :
 Components
