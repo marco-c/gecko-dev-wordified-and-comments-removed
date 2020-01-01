@@ -4932,6 +4932,12 @@ ELSE
 END
 )
 "
+"
+WHERE
+frecency
+>
+0
+"
 )
 ;
 if
@@ -4949,7 +4955,7 @@ invalideFrecenciesSQLFragment
 AppendLiteral
 (
 "
-WHERE
+AND
 id
 IN
 (
