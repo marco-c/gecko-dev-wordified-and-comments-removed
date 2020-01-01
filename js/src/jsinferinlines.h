@@ -2676,6 +2676,10 @@ type
 if
 (
 analyze
+&
+&
+!
+types
 )
 js
 :
