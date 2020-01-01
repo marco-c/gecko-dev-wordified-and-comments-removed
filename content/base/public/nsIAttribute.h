@@ -103,6 +103,9 @@ aDocument
 ;
 protected
 :
+#
+ifdef
+MOZILLA_INTERNAL_API
 nsIAttribute
 (
 nsDOMAttributeMap
@@ -123,6 +126,8 @@ aAttrMap
 )
 {
 }
+#
+endif
 nsDOMAttributeMap
 *
 mAttrMap
