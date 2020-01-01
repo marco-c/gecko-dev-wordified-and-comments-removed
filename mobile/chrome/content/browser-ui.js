@@ -4326,7 +4326,7 @@ BrowserUI
 .
 show
 (
-PANELMODE_NONE
+UIMODE_NONE
 )
 ;
 }
