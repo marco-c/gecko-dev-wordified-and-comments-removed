@@ -15,7 +15,7 @@ int
 zero
 float
 zeroPtFive
-int8_t
+PRInt8
 dummy
 )
 ;
@@ -31,7 +31,7 @@ int
 one
 float
 zeroPtTwoFive
-uint8_t
+PRUint8
 dummy
 )
 ;

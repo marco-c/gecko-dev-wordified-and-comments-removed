@@ -83,7 +83,7 @@ float
 &
 zeroPtTwoFive
 const
-uint8_t
+PRUint8
 &
 dummy
 )
@@ -161,7 +161,7 @@ float
 &
 zeroPtFive
 const
-int8_t
+PRInt8
 &
 dummy
 )
