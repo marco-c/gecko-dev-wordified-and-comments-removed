@@ -3750,6 +3750,15 @@ if
 (
 localFile
 )
+{
+localFile
+-
+>
+SetPermissions
+(
+0600
+)
+;
 localFile
 -
 >
@@ -3758,6 +3767,7 @@ Remove
 PR_FALSE
 )
 ;
+}
 }
 mTemporaryFilesList
 .
