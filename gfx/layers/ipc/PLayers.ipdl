@@ -443,8 +443,6 @@ BLOCK
 *
 *
 /
-/
-/
 include
 protocol
 PCompositor
@@ -1169,16 +1167,8 @@ PLayers
 {
 manager
 PRenderFrame
-/
-*
 or
 PCompositor
-or
-PMedia
-or
-PPlugin
-*
-/
 ;
 manages
 PLayer

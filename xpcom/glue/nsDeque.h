@@ -121,6 +121,14 @@ aIndex
 )
 const
 ;
+void
+*
+RemoveObjectAt
+(
+int
+aIndex
+)
+;
 nsDeque
 &
 Empty
