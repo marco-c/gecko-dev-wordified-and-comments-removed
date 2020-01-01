@@ -294,7 +294,7 @@ mStartBinding
 PRPackedBool
 mHaveFiredOnStartRequest
 ;
-PRUint64
+PRUint32
 mLength
 ;
 PRInt32

@@ -1250,7 +1250,7 @@ nsnull
 )
 mBytesRemaining
 (
-LL_MAXUINT
+PR_UINT32_MAX
 )
 mStatus
 (
@@ -1342,7 +1342,7 @@ GnomeVFSHandle
 *
 mHandle
 ;
-PRUint64
+PRUint32
 mBytesRemaining
 ;
 nsresult
@@ -1602,6 +1602,9 @@ mime_type
 ;
 mBytesRemaining
 =
+(
+PRUint32
+)
 info
 .
 size
@@ -1611,11 +1614,7 @@ if
 mBytesRemaining
 !
 =
-PRUint64
-(
--
-1
-)
+PR_UINT32_MAX
 )
 mChannel
 -

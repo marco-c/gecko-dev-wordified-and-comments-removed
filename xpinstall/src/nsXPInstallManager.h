@@ -412,7 +412,7 @@ mNextItem
 PRUint32
 mChromeType
 ;
-PRInt64
+PRInt32
 mContentLength
 ;
 PRInt32

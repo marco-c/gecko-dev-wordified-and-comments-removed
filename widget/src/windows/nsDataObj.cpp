@@ -1143,7 +1143,7 @@ statstg
 >
 mtime
 ;
-PRInt64
+PRInt32
 nLength
 =
 0
@@ -1176,8 +1176,11 @@ statstg
 >
 cbSize
 .
-QuadPart
+LowPart
 =
+(
+DWORD
+)
 nLength
 ;
 statstg
