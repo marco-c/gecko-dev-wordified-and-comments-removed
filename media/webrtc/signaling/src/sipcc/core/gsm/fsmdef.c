@@ -3541,6 +3541,14 @@ LSM_NO_LINE
 NULL
 )
 ;
+if
+(
+fcb
+!
+=
+NULL
+)
+{
 fsm_init_fcb
 (
 fcb
@@ -3549,6 +3557,7 @@ FSMDEF_NO_DCB
 FSM_TYPE_NONE
 )
 ;
+}
 }
 else
 {
