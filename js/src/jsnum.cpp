@@ -4339,7 +4339,7 @@ sizeBefore
 =
 cb
 .
-size
+length
 (
 )
 ;
