@@ -2304,11 +2304,10 @@ BindingManager
 )
 -
 >
-ChangeDocumentFor
+RemovedFromDocument
 (
 this
 document
-nsnull
 )
 ;
 }
