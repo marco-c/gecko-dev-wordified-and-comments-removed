@@ -3236,6 +3236,17 @@ catch
 ex
 )
 {
+do_throw
+(
+"
+getChildCount
+failed
+:
+"
++
+ex
+)
+;
 }
 return
 cc
