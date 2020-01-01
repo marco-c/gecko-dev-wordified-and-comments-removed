@@ -111,6 +111,13 @@ AudioParent
 (
 )
 ;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+)
+;
 nsRefPtr
 <
 nsAudioStream
@@ -122,6 +129,11 @@ nsCOMPtr
 nsITimer
 >
 mTimer
+;
+private
+:
+PRPackedBool
+mIPCOpen
 ;
 }
 ;
