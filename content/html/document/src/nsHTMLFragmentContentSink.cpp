@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDTD
-.
-h
-"
-#
-include
-"
 nsIHTMLContentSink
 .
 h
@@ -99,7 +92,7 @@ h
 #
 include
 "
-nsTArray
+nsVoidArray
 .
 h
 "
@@ -252,8 +245,7 @@ NS_OK
 NS_IMETHOD
 WillBuildModel
 (
-nsDTDMode
-aDTDMode
+void
 )
 ;
 NS_IMETHOD
@@ -600,11 +592,7 @@ nsIParser
 >
 mParser
 ;
-nsTArray
-<
-nsIContent
-*
->
+nsVoidArray
 *
 mContentStack
 ;
@@ -801,7 +789,7 @@ indx
 mContentStack
 -
 >
-Length
+Count
 (
 )
 ;
@@ -818,6 +806,10 @@ nsIContent
 *
 content
 =
+(
+nsIContent
+*
+)
 mContentStack
 -
 >
@@ -997,7 +989,7 @@ nsHTMLFragmentContentSink
 :
 WillBuildModel
 (
-nsDTDMode
+void
 )
 {
 if
@@ -1579,7 +1571,7 @@ GetNodeInfo
 (
 name
 nsnull
-kNameSpaceID_XHTML
+kNameSpaceID_None
 )
 ;
 NS_ENSURE_TRUE
@@ -1660,7 +1652,7 @@ GetNodeInfo
 (
 name
 nsnull
-kNameSpaceID_XHTML
+kNameSpaceID_None
 )
 ;
 NS_ENSURE_TRUE
@@ -2031,7 +2023,7 @@ GetNodeInfo
 (
 name
 nsnull
-kNameSpaceID_XHTML
+kNameSpaceID_None
 )
 ;
 NS_ENSURE_TRUE
@@ -2093,7 +2085,7 @@ GetNodeInfo
 (
 name
 nsnull
-kNameSpaceID_XHTML
+kNameSpaceID_None
 )
 ;
 NS_ENSURE_TRUE
@@ -2588,7 +2580,7 @@ indx
 mContentStack
 -
 >
-Length
+Count
 (
 )
 -
@@ -2602,6 +2594,10 @@ indx
 0
 )
 return
+(
+nsIContent
+*
+)
 mContentStack
 -
 >
@@ -2637,11 +2633,7 @@ mContentStack
 mContentStack
 =
 new
-nsTArray
-<
-nsIContent
-*
->
+nsVoidArray
 (
 )
 ;
@@ -2651,6 +2643,10 @@ mContentStack
 >
 AppendElement
 (
+(
+void
+*
+)
 aContent
 )
 ;
@@ -2658,7 +2654,7 @@ return
 mContentStack
 -
 >
-Length
+Count
 (
 )
 ;
@@ -2692,7 +2688,7 @@ indx
 mContentStack
 -
 >
-Length
+Count
 (
 )
 -
@@ -2708,6 +2704,10 @@ indx
 {
 content
 =
+(
+nsIContent
+*
+)
 mContentStack
 -
 >
@@ -3907,7 +3907,7 @@ GetText
 (
 )
 nsnull
-kNameSpaceID_XHTML
+kNameSpaceID_None
 getter_AddRefs
 (
 nodeInfo

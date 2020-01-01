@@ -373,10 +373,8 @@ GetPluginContent
 (
 )
 ;
-nsCOMPtr
-<
 nsIPresShell
->
+*
 shell
 =
 mDocument

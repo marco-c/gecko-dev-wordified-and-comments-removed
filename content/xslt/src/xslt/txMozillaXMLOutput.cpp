@@ -1830,6 +1830,7 @@ startElementInternal
 (
 nsnull
 aLowercaseLocalName
+kNameSpaceID_None
 kNameSpaceID_XHTML
 )
 ;
@@ -1839,6 +1840,7 @@ startElementInternal
 (
 aPrefix
 aLocalName
+aNsID
 aNsID
 )
 ;
@@ -1862,7 +1864,7 @@ aNsID
 )
 {
 PRInt32
-nsId
+elemType
 =
 aNsID
 ;
@@ -1888,7 +1890,7 @@ aNsID
 kNameSpaceID_None
 )
 {
-nsId
+elemType
 =
 kNameSpaceID_XHTML
 ;
@@ -1935,7 +1937,7 @@ IsValidNodeName
 (
 lname
 aPrefix
-nsId
+aNsID
 )
 )
 {
@@ -1953,7 +1955,7 @@ IsValidNodeName
 (
 lname
 aPrefix
-nsId
+aNsID
 )
 )
 {
@@ -1967,7 +1969,8 @@ startElementInternal
 (
 aPrefix
 lname
-nsId
+aNsID
+elemType
 )
 ;
 }
@@ -1985,6 +1988,8 @@ nsIAtom
 aLocalName
 PRInt32
 aNsID
+PRInt32
+aElemType
 )
 {
 TX_ENSURE_CURRENTNODE
@@ -2149,7 +2154,7 @@ getter_AddRefs
 (
 mOpenedElement
 )
-aNsID
+aElemType
 ni
 PR_FALSE
 )
@@ -2162,7 +2167,7 @@ mNoFixup
 {
 if
 (
-aNsID
+aElemType
 =
 =
 kNameSpaceID_XHTML
@@ -2170,14 +2175,10 @@ kNameSpaceID_XHTML
 {
 mOpenedElementIsHTML
 =
-(
-mOutputFormat
-.
-mMethod
+aNsID
+!
 =
-=
-eHTMLOutput
-)
+kNameSpaceID_XHTML
 ;
 rv
 =
