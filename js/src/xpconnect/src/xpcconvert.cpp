@@ -3491,6 +3491,7 @@ XPCStringConvert
 :
 JSStringToReadable
 (
+ccx
 str
 )
 ;
