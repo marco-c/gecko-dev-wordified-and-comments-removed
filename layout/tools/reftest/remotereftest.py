@@ -57,6 +57,7 @@ from
 remoteautomation
 import
 RemoteAutomation
+fennecLogcatFilters
 class
 RemoteOptions
 (
@@ -3716,6 +3717,9 @@ dm
 .
 getLogcat
 (
+filterOutRegexps
+=
+fennecLogcatFilters
 )
         
 print
@@ -3725,13 +3729,6 @@ print
 join
 (
 logcat
-[
--
-500
-:
--
-1
-]
 )
         
 print
