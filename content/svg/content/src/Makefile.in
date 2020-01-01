@@ -345,6 +345,10 @@ SVGFEBlendElement
 .
 cpp
 \
+SVGFEFloodElement
+.
+cpp
+\
 SVGFEMergeElement
 .
 cpp
@@ -719,6 +723,10 @@ SVGEllipseElement
 h
 \
 SVGFEBlendElement
+.
+h
+\
+SVGFEFloodElement
 .
 h
 \

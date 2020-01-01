@@ -683,6 +683,10 @@ SVGFEBlendElement
 .
 webidl
 \
+SVGFEFloodElement
+.
+webidl
+\
 SVGFEFuncAElement
 .
 webidl
