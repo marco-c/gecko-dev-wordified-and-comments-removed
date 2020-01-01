@@ -93,6 +93,10 @@ in
 unsigned
 long
 aPrefix
+in
+unsigned
+long
+aKey
 inout
 boolean
 aReady
@@ -100,6 +104,11 @@ aReady
 ;
 PRUint32
 estimateSize
+(
+)
+;
+PRUint32
+getKey
 (
 )
 ;
