@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsHashPropertyBag
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -121,8 +114,6 @@ public
 nsIDownloadObserver
 public
 nsIStreamListener
-public
-nsHashPropertyBag
 {
 public
 :

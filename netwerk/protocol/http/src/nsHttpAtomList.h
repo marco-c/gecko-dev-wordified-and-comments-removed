@@ -96,15 +96,6 @@ Base
 )
 HTTP_ATOM
 (
-Content_Disposition
-"
-Content
--
-Disposition
-"
-)
-HTTP_ATOM
-(
 Content_Encoding
 "
 Content
