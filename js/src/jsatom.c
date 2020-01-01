@@ -2530,10 +2530,11 @@ cx
 ;
 key
 =
-js_NewWeaklyRootedDouble
+js_NewDouble
 (
 cx
 d
+0
 )
 ;
 if
