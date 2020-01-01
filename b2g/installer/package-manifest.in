@@ -561,6 +561,13 @@ BINPATH
 blocklist
 .
 xml
+BINPATH
+/
+ua
+-
+update
+.
+json
 #
 ifdef
 XP_UNIX
