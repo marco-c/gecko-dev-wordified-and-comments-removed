@@ -71,6 +71,10 @@ mozilla
 :
 void_t
 ;
+include
+protocol
+PBlob
+;
 namespace
 mozilla
 {
@@ -132,6 +136,14 @@ startedReadingCurrent
 ;
 }
 ;
+struct
+RemoteInputStreamParams
+{
+PBlob
+remoteBlob
+;
+}
+;
 union
 InputStreamParams
 {
@@ -146,6 +158,8 @@ BufferedInputStreamParams
 MIMEInputStreamParams
 ;
 MultiplexInputStreamParams
+;
+RemoteInputStreamParams
 ;
 }
 ;
