@@ -2367,9 +2367,6 @@ aId
 )
 {
 return
-!
-!
-(
 this
 .
 _extmgr
@@ -2378,9 +2375,9 @@ getItemForID
 (
 aId
 )
-.
-type
-)
+!
+=
+null
 ;
 }
 get

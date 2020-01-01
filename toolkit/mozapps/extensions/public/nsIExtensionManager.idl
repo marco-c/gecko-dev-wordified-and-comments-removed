@@ -2106,6 +2106,15 @@ nsIUpdateItem
 representing
 the
 item
+or
+null
+if
+the
+item
+does
+*
+not
+exist
 .
 *
 /
