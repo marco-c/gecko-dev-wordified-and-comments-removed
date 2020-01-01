@@ -3110,6 +3110,12 @@ _loggedIn
 =
 true
 ;
+this
+.
+_checkSync
+(
+)
+;
 self
 .
 done
