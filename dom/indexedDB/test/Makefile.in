@@ -459,6 +459,14 @@ test_remove_objectStore
 .
 html
 \
+test_put_get_values
+.
+html
+\
+test_put_get_values_autoIncrement
+.
+html
+\
 (
 NULL
 )
