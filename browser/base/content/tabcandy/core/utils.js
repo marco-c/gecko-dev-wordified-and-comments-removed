@@ -169,7 +169,7 @@ defineLazyGetter
 (
 this
 "
-gTabDeck
+gTabViewDeck
 "
 function
 (
@@ -200,7 +200,7 @@ defineLazyGetter
 (
 this
 "
-gTabFrame
+gTabViewFrame
 "
 function
 (

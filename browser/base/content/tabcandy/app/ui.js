@@ -229,7 +229,7 @@ function
 )
 {
 return
-gTabDeck
+gTabViewDeck
 .
 selectedIndex
 =
@@ -243,13 +243,13 @@ function
 (
 )
 {
-gTabDeck
+gTabViewDeck
 .
 selectedIndex
 =
 1
 ;
-gTabFrame
+gTabViewFrame
 .
 contentWindow
 .
@@ -282,7 +282,7 @@ function
 (
 )
 {
-gTabDeck
+gTabViewDeck
 .
 selectedIndex
 =
@@ -509,7 +509,7 @@ this
 ;
 iQ
 (
-gTabFrame
+gTabViewFrame
 .
 contentDocument
 )
