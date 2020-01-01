@@ -756,9 +756,9 @@ box
 )
 ;
 bool
-visitBoxDouble
+visitBoxFloatingPoint
 (
-LBoxDouble
+LBoxFloatingPoint
 *
 box
 )
