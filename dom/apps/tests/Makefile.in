@@ -126,6 +126,14 @@ test_apps_service
 .
 xul
 \
+test_operator_app_install
+.
+xul
+\
+test_operator_app_install
+.
+js
+\
 (
 NULL
 )
