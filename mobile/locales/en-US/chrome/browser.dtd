@@ -1032,6 +1032,16 @@ Password
 ENTITY
 pageactions
 .
+quit
+"
+Quit
+"
+>
+<
+!
+ENTITY
+pageactions
+.
 reset
 "
 Clear
