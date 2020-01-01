@@ -902,6 +902,11 @@ flex
 "
 1
 "
+id
+=
+"
+mainPrefPane
+"
 >
 #
 include
