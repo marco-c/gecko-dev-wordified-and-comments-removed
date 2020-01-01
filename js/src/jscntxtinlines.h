@@ -2686,9 +2686,6 @@ JSCompartment
 c2
 )
 {
-#
-ifdef
-DEBUG_jorendorff
 printf
 (
 "
@@ -2718,8 +2715,14 @@ void
 c2
 )
 ;
-#
-endif
+JS_NOT_REACHED
+(
+"
+compartment
+mismatched
+"
+)
+;
 }
 void
 check
