@@ -320,6 +320,17 @@ aImportantBlock
 )
 ;
 void
+AddLonghandProperty
+(
+nsCSSProperty
+aProperty
+const
+nsCSSValue
+&
+aValue
+)
+;
+void
 Clear
 (
 )
