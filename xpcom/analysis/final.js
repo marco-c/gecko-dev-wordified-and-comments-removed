@@ -49,6 +49,8 @@ if
 isFinal
 (
 base
+.
+type
 )
 )
 error

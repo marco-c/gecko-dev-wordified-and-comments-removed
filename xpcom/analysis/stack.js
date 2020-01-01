@@ -98,6 +98,8 @@ if
 isStack
 (
 base
+.
+type
 )
 )
 return
