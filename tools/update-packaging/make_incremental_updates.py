@@ -2962,7 +2962,7 @@ files
 in
 from_dir_path
 to
-thoes
+those
 of
 to_dir_path
 "
