@@ -20,11 +20,13 @@ h
 >
 #
 include
-<
-stdint
+"
+mozilla
+/
+StandardInteger
 .
 h
->
+"
 uint16_t
 ucs2CharacterSet0
 [

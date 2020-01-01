@@ -29,11 +29,13 @@ limits
 >
 #
 include
-<
-stdint
+"
+mozilla
+/
+StandardInteger
 .
 h
->
+"
 #
 ifdef
 _MSC_VER
