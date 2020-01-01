@@ -881,6 +881,10 @@ GeckoEventResponder
 .
 java
 \
+GeckoHalDefines
+.
+java
+\
 GeckoInputConnection
 .
 java

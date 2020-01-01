@@ -186,6 +186,8 @@ class
 nsIDOMEventTarget
 *
 target
+PRUint32
+type
 double
 x
 double
