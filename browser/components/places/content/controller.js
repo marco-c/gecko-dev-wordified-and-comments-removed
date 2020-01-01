@@ -4365,17 +4365,9 @@ URIs
 slice
 (
 i
-Math
-.
-max
-(
 i
 +
 REMOVE_PAGES_CHUNKLEN
-URIs
-.
-length
-)
 )
 ;
 bhist
