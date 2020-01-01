@@ -177,9 +177,10 @@ dstData
 )
 ;
 return
+!
 result
 .
-readyToDraw
+isNull
 (
 )
 ;
