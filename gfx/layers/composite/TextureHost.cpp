@@ -724,6 +724,12 @@ mBuffer
 =
 aImage
 ;
+SetBuffer
+(
+mBuffer
+mDeAllocator
+)
+;
 }
 #
 ifdef

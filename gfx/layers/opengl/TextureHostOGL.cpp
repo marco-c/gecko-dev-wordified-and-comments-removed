@@ -4943,12 +4943,6 @@ DeleteTextures
 (
 )
 ;
-RegisterDeprecatedTextureHostAtGrallocBufferActor
-(
-this
-aImage
-)
-;
 }
 gl
 :
