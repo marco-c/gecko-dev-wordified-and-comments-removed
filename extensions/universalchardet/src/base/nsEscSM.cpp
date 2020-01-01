@@ -1503,6 +1503,8 @@ ISO2022JPCharLenTable
 0
 0
 0
+0
+0
 }
 ;
 const
