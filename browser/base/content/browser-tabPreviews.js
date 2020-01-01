@@ -365,6 +365,11 @@ rgb
 if
 (
 aStore
+&
+&
+aTab
+.
+linkedBrowser
 )
 {
 aTab
