@@ -1843,6 +1843,11 @@ CreateTruncatedCocoaLabel
 label
 )
 ;
+[
+mNativeMenuItem
+release
+]
+;
 mNativeMenuItem
 =
 [
