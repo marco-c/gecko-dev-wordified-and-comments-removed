@@ -130,6 +130,8 @@ const
 char
 *
 aValue
+bool
+aReplace
 char
 *
 *
