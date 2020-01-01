@@ -308,14 +308,7 @@ aResult
 {
 NS_ENSURE_ARG_POINTER
 (
-*
 aResult
-)
-;
-NS_ENSURE_ARG_POINTER
-(
-*
-aLangGroup
 )
 ;
 *
