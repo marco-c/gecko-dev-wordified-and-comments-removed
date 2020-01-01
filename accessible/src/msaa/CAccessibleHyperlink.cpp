@@ -797,7 +797,7 @@ aValid
 thisObj
 -
 >
-IsValid
+IsLinkValid
 (
 )
 ;

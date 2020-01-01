@@ -867,7 +867,7 @@ gboolean
 hyperlink
 -
 >
-IsValid
+IsLinkValid
 (
 )
 )
