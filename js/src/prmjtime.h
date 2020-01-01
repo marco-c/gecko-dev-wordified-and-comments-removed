@@ -12,13 +12,6 @@ time
 h
 >
 #
-include
-"
-jslong
-.
-h
-"
-#
 ifdef
 MOZILLA_CLIENT
 #

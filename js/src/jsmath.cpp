@@ -22,13 +22,6 @@ h
 #
 include
 "
-jslong
-.
-h
-"
-#
-include
-"
 prmjtime
 .
 h

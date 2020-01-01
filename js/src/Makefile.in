@@ -1158,10 +1158,6 @@ jslock
 .
 h
 \
-jslong
-.
-h
-\
 jsobj
 .
 h
