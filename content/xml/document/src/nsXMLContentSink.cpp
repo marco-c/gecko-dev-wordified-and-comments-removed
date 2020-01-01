@@ -4470,6 +4470,9 @@ nsGkAtoms
 :
 :
 menuitem
+#
+ifdef
+MOZ_MEDIA
 |
 |
 nodeInfo
@@ -4498,6 +4501,8 @@ nsGkAtoms
 :
 :
 video
+#
+endif
 )
 {
 content
