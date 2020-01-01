@@ -281,15 +281,6 @@ GetCurrentAsyncTransform
 (
 )
 ;
-private
-:
-ViewTransform
-GetCurrentAsyncTransformInternal
-(
-)
-;
-public
-:
 void
 SetDPI
 (
