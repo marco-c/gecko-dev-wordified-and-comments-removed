@@ -395,6 +395,18 @@ with_env
 env
 f
 )
+isDarwin
+=
+platform
+.
+system
+(
+)
+=
+=
+"
+Darwin
+"
 def
 build_one_stage_aux
 (
@@ -482,6 +494,9 @@ gcc
     
 if
 is_stage_one
+and
+not
+isDarwin
 :
         
 configure_opts
@@ -508,18 +523,6 @@ llvm_source_dir
 build_dir
 configure_opts
 )
-isDarwin
-=
-platform
-.
-system
-(
-)
-=
-=
-"
-Darwin
-"
 if
 isDarwin
 :
