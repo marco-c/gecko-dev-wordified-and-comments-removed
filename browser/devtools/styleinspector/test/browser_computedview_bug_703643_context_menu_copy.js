@@ -846,7 +846,7 @@ props
 [
 3
 ]
-3
+4
 )
 ;
 contentWindow
@@ -867,7 +867,7 @@ Checking
 that
 cssHtmlTree
 .
-siBoundCopyPropertyValue
+siBoundCopy
 (
 )
 "
