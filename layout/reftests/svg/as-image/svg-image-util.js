@@ -110,6 +110,16 @@ org
 2Fsvg
 %
 22
+%
+20shape
+-
+rendering
+%
+3D
+%
+22crispEdges
+%
+22
 "
 ;
 datauri
