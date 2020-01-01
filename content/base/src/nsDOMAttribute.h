@@ -460,6 +460,11 @@ EnsureChildState
 (
 )
 ;
+void
+doRemoveChild
+(
+)
+;
 nsString
 mValue
 ;
