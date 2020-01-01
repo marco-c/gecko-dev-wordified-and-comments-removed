@@ -571,6 +571,10 @@ test_weakref
 .
 xul
 \
+test_bug726949
+.
+xul
+\
 (
 NULL
 )
