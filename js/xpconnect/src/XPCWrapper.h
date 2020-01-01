@@ -111,6 +111,10 @@ cx
 JSObject
 *
 wrapper
+bool
+stopAtOuter
+=
+true
 )
 ;
 JSObject
