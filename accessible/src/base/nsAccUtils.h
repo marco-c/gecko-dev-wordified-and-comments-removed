@@ -421,16 +421,6 @@ aState
 )
 ;
 static
-nsAccessible
-*
-GetMultiSelectableContainer
-(
-nsINode
-*
-aNode
-)
-;
-static
 bool
 IsARIASelected
 (
