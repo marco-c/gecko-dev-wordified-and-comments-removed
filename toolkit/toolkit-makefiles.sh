@@ -2914,13 +2914,6 @@ src
 xpwidgets
 /
 Makefile
-widget
-/
-src
-/
-support
-/
-Makefile
 "
 MAKEFILES_xpcom
 =

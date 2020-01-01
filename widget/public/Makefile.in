@@ -420,14 +420,6 @@ GRE_MODULE
 EXPORTS
 =
 \
-widgetCore
-.
-h
-\
-nsStringUtil
-.
-h
-\
 nsIWidget
 .
 h
