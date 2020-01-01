@@ -9404,10 +9404,11 @@ nextToGC
 =
 NULL
 ;
-js_DestroyScript
+js_DestroyScriptFromGC
 (
 cx
 script
+data
 )
 ;
 }

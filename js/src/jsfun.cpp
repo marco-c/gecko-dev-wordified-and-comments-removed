@@ -10382,7 +10382,7 @@ i
 .
 script
 )
-js_DestroyScript
+js_DestroyScriptFromGC
 (
 cx
 fun
@@ -10393,6 +10393,7 @@ u
 i
 .
 script
+NULL
 )
 ;
 }
