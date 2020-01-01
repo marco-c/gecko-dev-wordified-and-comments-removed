@@ -108,11 +108,6 @@ ImageOps
 h
 '
 '
-Orientation
-.
-h
-'
-'
 imgLoader
 .
 h
@@ -189,11 +184,6 @@ cpp
 '
 '
 ImageWrapper
-.
-cpp
-'
-'
-OrientedImage
 .
 cpp
 '

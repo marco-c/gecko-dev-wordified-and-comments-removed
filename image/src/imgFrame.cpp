@@ -2045,7 +2045,7 @@ sourceRect
 =
 userSpaceToImageSpace
 .
-TransformBounds
+Transform
 (
 aFill
 )

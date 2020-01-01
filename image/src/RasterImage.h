@@ -84,13 +84,6 @@ h
 #
 include
 "
-Orientation
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -425,8 +418,6 @@ int32_t
 aWidth
 int32_t
 aHeight
-Orientation
-aOrientation
 )
 ;
 nsresult
@@ -1335,9 +1326,6 @@ private
 :
 nsIntSize
 mSize
-;
-Orientation
-mOrientation
 ;
 uint32_t
 mFrameDecodeFlags
