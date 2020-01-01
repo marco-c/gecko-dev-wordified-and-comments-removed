@@ -2839,12 +2839,10 @@ if
 OCSP_Global
 .
 maxCacheEntries
-<
-=
+>
 0
 )
-return
-;
+{
 while
 (
 cache
@@ -2852,6 +2850,9 @@ cache
 >
 numberOfEntries
 >
+(
+PRUint32
+)
 OCSP_Global
 .
 maxCacheEntries
@@ -2866,6 +2867,7 @@ cache
 LRUitem
 )
 ;
+}
 }
 PR_ExitMonitor
 (

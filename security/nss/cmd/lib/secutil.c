@@ -22143,6 +22143,7 @@ sd
 0
 sizeof
 (
+*
 sd
 )
 )
@@ -22190,19 +22191,6 @@ len
 <
 3
 ;
-if
-(
-!
-sd
--
->
-signatureAlgorithm
-.
-parameters
-.
-data
-)
-{
 rv
 =
 SECOID_SetAlgorithmID
@@ -22224,7 +22212,6 @@ rv
 goto
 loser
 ;
-}
 return
 rv
 ;
