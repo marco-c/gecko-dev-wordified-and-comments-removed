@@ -30,7 +30,11 @@ h
 #
 include
 "
-nsIDOMElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -60,7 +64,10 @@ IPC
 SerializedLoadContext
 &
 aToCopy
-nsIDOMElement
+dom
+:
+:
+Element
 *
 aTopFrameElement
 uint32_t

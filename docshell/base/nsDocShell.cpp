@@ -33790,7 +33790,7 @@ false
 }
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 requestingElement
 ;

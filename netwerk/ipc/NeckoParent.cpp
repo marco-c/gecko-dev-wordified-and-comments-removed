@@ -662,7 +662,10 @@ inBrowser
 =
 false
 ;
-nsIDOMElement
+dom
+:
+:
+Element
 *
 topFrameElement
 =
