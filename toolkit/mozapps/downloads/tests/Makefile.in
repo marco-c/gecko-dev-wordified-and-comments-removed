@@ -452,6 +452,10 @@ DIRS
 +
 =
 browser
+DIRS
++
+=
+chrome
 include
 (
 topsrcdir
