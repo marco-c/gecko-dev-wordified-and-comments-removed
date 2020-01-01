@@ -294,7 +294,11 @@ h
 #
 include
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -1830,7 +1834,7 @@ case
 eStyleUnit_Percent
 :
 {
-nsSVGSVGElement
+SVGSVGElement
 *
 ctx
 =
@@ -2434,7 +2438,7 @@ height
 ;
 static_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (
@@ -3235,7 +3239,7 @@ GetAnimValue
 (
 static_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (

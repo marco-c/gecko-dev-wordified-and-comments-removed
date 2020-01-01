@@ -76,7 +76,7 @@ animation
 related
 methods
 in
-nsSVGSVGElement
+SVGSVGElement
 .
 cpp
 /

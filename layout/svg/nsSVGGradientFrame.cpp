@@ -2088,7 +2088,7 @@ GetAnimValue
 (
 static_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (
@@ -2637,7 +2637,7 @@ GetAnimValue
 (
 static_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (

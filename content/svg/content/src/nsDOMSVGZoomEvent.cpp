@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -200,13 +204,13 @@ svg
 )
 )
 {
-nsSVGSVGElement
-*
 SVGSVGElement
+*
+SVGSVGElem
 =
 static_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (
@@ -215,7 +219,7 @@ rootElement
 ;
 mNewScale
 =
-SVGSVGElement
+SVGSVGElem
 -
 >
 GetCurrentScale
@@ -224,7 +228,7 @@ GetCurrentScale
 ;
 mPreviousScale
 =
-SVGSVGElement
+SVGSVGElem
 -
 >
 GetPreviousScale
@@ -236,7 +240,7 @@ nsSVGTranslatePoint
 &
 translate
 =
-SVGSVGElement
+SVGSVGElem
 -
 >
 GetCurrentTranslate
@@ -273,7 +277,7 @@ nsSVGTranslatePoint
 &
 prevTranslate
 =
-SVGSVGElement
+SVGSVGElem
 -
 >
 GetPreviousTranslate

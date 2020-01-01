@@ -222,7 +222,11 @@ SVGDocumentWrapper
 cpp
 includes
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "

@@ -66,7 +66,11 @@ h
 #
 include
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -88,7 +92,7 @@ mozilla
 :
 dom
 ;
-nsSVGSVGElement
+SVGSVGElement
 *
 SVGContentUtils
 :
@@ -180,7 +184,7 @@ svg
 return
 static_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (

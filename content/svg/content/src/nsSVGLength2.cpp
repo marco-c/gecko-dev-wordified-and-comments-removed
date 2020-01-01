@@ -31,7 +31,11 @@ h
 #
 include
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -87,6 +91,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION
 (
@@ -718,7 +729,7 @@ nsSVGLength2
 :
 GetAxisLength
 (
-nsSVGSVGElement
+SVGSVGElement
 *
 aCtx
 )
@@ -934,7 +945,7 @@ nsSVGLength2
 :
 GetUnitScaleFactor
 (
-nsSVGSVGElement
+SVGSVGElement
 *
 aCtx
 uint8_t

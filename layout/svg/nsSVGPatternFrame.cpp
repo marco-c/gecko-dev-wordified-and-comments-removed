@@ -114,6 +114,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 class
 nsSVGPatternFrame
 :
@@ -2542,7 +2549,7 @@ aTarget
 gfxMatrix
 tCTM
 ;
-nsSVGSVGElement
+SVGSVGElement
 *
 ctx
 =

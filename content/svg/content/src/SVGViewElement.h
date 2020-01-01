@@ -65,9 +65,6 @@ nsSVGElement
 SVGViewElementBase
 ;
 class
-nsSVGSVGElement
-;
-class
 nsSVGOuterSVGFrame
 ;
 nsresult
@@ -94,6 +91,9 @@ namespace
 dom
 {
 class
+SVGSVGElement
+;
+class
 SVGViewElement
 :
 public
@@ -116,9 +116,7 @@ SVGFragmentIdentifier
 ;
 friend
 class
-:
-:
-nsSVGSVGElement
+SVGSVGElement
 ;
 friend
 class

@@ -161,7 +161,11 @@ h
 #
 include
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -239,17 +243,27 @@ SVGAngle
 .
 h
 "
-using
-namespace
-mozilla
-;
-using
-namespace
+DOMCI_NODE_DATA
+(
+SVGSVGElement
 mozilla
 :
 :
 dom
-;
+:
+:
+SVGSVGElement
+)
+NS_IMPL_NS_NEW_NAMESPACED_SVG_ELEMENT_CHECK_PARSER
+(
+SVG
+)
+namespace
+mozilla
+{
+namespace
+dom
+{
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION_WRAPPERCACHED
 (
 nsSVGTranslatePoint
@@ -282,6 +296,9 @@ DOMVal
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY
 (
+mozilla
+:
+:
 nsISVGPoint
 )
 NS_INTERFACE_MAP_ENTRY
@@ -295,7 +312,7 @@ nsSVGTranslatePoint
 :
 ToDOMVal
 (
-nsSVGSVGElement
+SVGSVGElement
 *
 aElement
 nsISupports
@@ -534,7 +551,7 @@ nsSVGElement
 :
 :
 LengthInfo
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 sLengthInfo
@@ -610,7 +627,7 @@ Y
 }
 ;
 nsSVGEnumMapping
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 sZoomAndPanMap
@@ -650,7 +667,7 @@ nsSVGElement
 :
 :
 EnumInfo
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 sEnumInfo
@@ -673,18 +690,14 @@ SVG_ZOOMANDPAN_MAGNIFY
 }
 }
 ;
-NS_IMPL_NS_NEW_SVG_ELEMENT_CHECK_PARSER
-(
-SVG
-)
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsSVGSVGElement
+SVGSVGElement
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsSVGSVGElement
-nsSVGSVGElementBase
+SVGSVGElement
+SVGSVGElementBase
 )
 if
 (
@@ -708,8 +721,8 @@ Unlink
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsSVGSVGElement
-nsSVGSVGElementBase
+SVGSVGElement
+SVGSVGElementBase
 )
 if
 (
@@ -735,26 +748,21 @@ cb
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
-nsSVGSVGElement
-nsSVGSVGElementBase
+SVGSVGElement
+SVGSVGElementBase
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsSVGSVGElement
-nsSVGSVGElementBase
-)
-DOMCI_NODE_DATA
-(
 SVGSVGElement
-nsSVGSVGElement
+SVGSVGElementBase
 )
 NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
-nsSVGSVGElement
+SVGSVGElement
 )
 NS_NODE_INTERFACE_TABLE6
 (
-nsSVGSVGElement
+SVGSVGElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
@@ -768,12 +776,12 @@ SVGSVGElement
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsSVGSVGElementBase
+SVGSVGElementBase
 )
-nsSVGSVGElement
+SVGSVGElement
 :
 :
-nsSVGSVGElement
+SVGSVGElement
 (
 already_AddRefed
 <
@@ -784,7 +792,7 @@ FromParser
 aFromParser
 )
 :
-nsSVGSVGElementBase
+SVGSVGElementBase
 (
 aNodeInfo
 )
@@ -864,7 +872,7 @@ false
 {
 }
 nsresult
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 Clone
@@ -892,12 +900,12 @@ ni
 =
 aNodeInfo
 ;
-nsSVGSVGElement
+SVGSVGElement
 *
 it
 =
 new
-nsSVGSVGElement
+SVGSVGElement
 (
 ni
 .
@@ -930,7 +938,7 @@ rv2
 =
 const_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (
@@ -978,7 +986,7 @@ rv2
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetX
@@ -1003,7 +1011,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetY
@@ -1028,7 +1036,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetWidth
@@ -1053,7 +1061,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetHeight
@@ -1078,7 +1086,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetViewport
@@ -1094,7 +1102,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetPixelUnitToMillimeterX
@@ -1116,7 +1124,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetPixelUnitToMillimeterY
@@ -1134,7 +1142,7 @@ aPixelUnitToMillimeterY
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetScreenPixelToMillimeterX
@@ -1156,7 +1164,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetScreenPixelToMillimeterY
@@ -1174,7 +1182,7 @@ aScreenPixelToMillimeterY
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetUseCurrentView
@@ -1194,7 +1202,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetCurrentView
@@ -1208,7 +1216,7 @@ aCurrentView
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetCurrentView
@@ -1220,7 +1228,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetCurrentScale
@@ -1252,7 +1260,7 @@ CURRENT_SCALE_MIN
 .
 0625f
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetCurrentScale
@@ -1279,7 +1287,7 @@ GetY
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetCurrentTranslate
@@ -1301,7 +1309,7 @@ aCurrentTranslate
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SuspendRedraw
@@ -1323,7 +1331,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 UnsuspendRedraw
@@ -1337,7 +1345,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 UnsuspendRedrawAll
@@ -1349,7 +1357,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 ForceRedraw
@@ -1385,7 +1393,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 PauseAnimations
@@ -1423,7 +1431,7 @@ NS_OK
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 PauseAnimations
@@ -1435,7 +1443,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 UnpauseAnimations
@@ -1473,7 +1481,7 @@ NS_OK
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 UnpauseAnimations
@@ -1485,7 +1493,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 AnimationsPaused
@@ -1534,7 +1542,7 @@ NS_OK
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 AnimationsPaused
@@ -1546,7 +1554,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetCurrentTime
@@ -1619,7 +1627,7 @@ NS_OK
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetCurrentTime
@@ -1631,7 +1639,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetCurrentTime
@@ -1707,7 +1715,7 @@ NS_OK
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetCurrentTime
@@ -1719,7 +1727,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetIntersectionList
@@ -1739,7 +1747,7 @@ _retval
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetIntersectionList
@@ -1751,7 +1759,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetEnclosureList
@@ -1771,7 +1779,7 @@ _retval
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetEnclosureList
@@ -1783,7 +1791,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CheckIntersection
@@ -1802,7 +1810,7 @@ _retval
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CheckIntersection
@@ -1814,7 +1822,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CheckEnclosure
@@ -1833,7 +1841,7 @@ _retval
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CheckEnclosure
@@ -1845,7 +1853,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 DeSelectAll
@@ -1855,7 +1863,7 @@ DeSelectAll
 NS_NOTYETIMPLEMENTED
 (
 "
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 DeSelectAll
@@ -1867,7 +1875,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CreateSVGNumber
@@ -1894,7 +1902,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CreateSVGLength
@@ -1921,7 +1929,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CreateSVGAngle
@@ -1970,7 +1978,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CreateSVGPoint
@@ -1999,7 +2007,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CreateSVGMatrix
@@ -2026,7 +2034,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CreateSVGRect
@@ -2045,7 +2053,7 @@ _retval
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CreateSVGTransform
@@ -2072,7 +2080,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 CreateSVGTransformFromMatrix
@@ -2129,7 +2137,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetElementById
@@ -2220,7 +2228,7 @@ ErrorCode
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetViewBox
@@ -2242,7 +2250,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetPreserveAspectRatio
@@ -2282,7 +2290,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetZoomAndPan
@@ -2360,7 +2368,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetZoomAndPan
@@ -2409,7 +2417,7 @@ NS_ERROR_RANGE_ERR
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetCurrentScaleTranslate
@@ -2599,7 +2607,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetCurrentTranslate
@@ -2621,7 +2629,7 @@ y
 }
 nsSMILTimeContainer
 *
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetTimedDocumentRoot
@@ -2637,7 +2645,7 @@ return
 mTimedDocumentRoot
 ;
 }
-nsSVGSVGElement
+SVGSVGElement
 *
 outerSVGElement
 =
@@ -2671,7 +2679,7 @@ NS_IMETHODIMP_
 (
 bool
 )
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 IsAttributeMapped
@@ -2746,7 +2754,7 @@ map
 )
 |
 |
-nsSVGSVGElementBase
+SVGSVGElementBase
 :
 :
 IsAttributeMapped
@@ -2756,7 +2764,7 @@ name
 ;
 }
 nsresult
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 PreHandleEvent
@@ -2798,7 +2806,7 @@ AnimationNeedsResample
 }
 }
 return
-nsSVGSVGElementBase
+SVGSVGElementBase
 :
 :
 PreHandleEvent
@@ -2808,7 +2816,7 @@ aVisitor
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 IsEventAttributeName
@@ -2844,7 +2852,7 @@ aLength
 float
 aViewportLength
 const
-nsSVGSVGElement
+SVGSVGElement
 *
 aSelf
 )
@@ -2879,7 +2887,7 @@ GetAnimValue
 (
 const_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (
@@ -2889,7 +2897,7 @@ aSelf
 ;
 }
 gfxMatrix
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetViewBoxTransform
@@ -2908,7 +2916,7 @@ IsInner
 )
 )
 {
-nsSVGSVGElement
+SVGSVGElement
 *
 ctx
 =
@@ -3077,7 +3085,7 @@ GetPreserveAspectRatioWithOverride
 ;
 }
 void
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 UpdateHasChildrenOnlyTransform
@@ -3128,7 +3136,7 @@ hasChildrenOnlyTransform
 ;
 }
 void
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 ChildrenOnlyTransformChanged
@@ -3239,7 +3247,7 @@ changeHint
 }
 }
 nsresult
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 BindToTree
@@ -3328,7 +3336,7 @@ true
 nsresult
 rv
 =
-nsSVGSVGElementBase
+SVGSVGElementBase
 :
 :
 BindToTree
@@ -3386,7 +3394,7 @@ rv
 ;
 }
 void
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 UnbindFromTree
@@ -3411,7 +3419,7 @@ nullptr
 )
 ;
 }
-nsSVGSVGElementBase
+SVGSVGElementBase
 :
 :
 UnbindFromTree
@@ -3422,7 +3430,7 @@ aNullParent
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 WillBeOutermostSVG
@@ -3515,7 +3523,7 @@ true
 ;
 }
 void
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 InvalidateTransformNotifyFrame
@@ -3564,7 +3572,7 @@ TRANSFORM_CHANGED
 }
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 HasPreserveAspectRatio
@@ -3591,7 +3599,7 @@ IsAnimated
 }
 SVGViewElement
 *
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetCurrentViewElement
@@ -3665,7 +3673,7 @@ nullptr
 ;
 }
 nsSVGViewBoxRect
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetViewBoxWithSynthesis
@@ -3772,7 +3780,7 @@ aViewportHeight
 ;
 }
 SVGPreserveAspectRatio
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetPreserveAspectRatioWithOverride
@@ -3904,7 +3912,7 @@ GetAnimValue
 ;
 }
 float
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetLength
@@ -4008,7 +4016,7 @@ IsInner
 )
 )
 {
-nsSVGSVGElement
+SVGSVGElement
 *
 ctx
 =
@@ -4153,7 +4161,7 @@ return
 ;
 }
 gfxMatrix
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 PrependLocalTransformsTo
@@ -4203,7 +4211,7 @@ y
 ;
 const_cast
 <
-nsSVGSVGElement
+SVGSVGElement
 *
 >
 (
@@ -4372,7 +4380,7 @@ aMatrix
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 HasValidDimensions
@@ -4443,7 +4451,7 @@ nsSVGElement
 :
 :
 LengthAttributesInfo
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetLengthInfo
@@ -4466,7 +4474,7 @@ nsSVGElement
 :
 :
 EnumAttributesInfo
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetEnumInfo
@@ -4487,7 +4495,7 @@ sEnumInfo
 }
 nsSVGViewBox
 *
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetViewBox
@@ -4501,7 +4509,7 @@ mViewBox
 }
 SVGAnimatedPreserveAspectRatio
 *
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetPreserveAspectRatio
@@ -4514,7 +4522,7 @@ mPreserveAspectRatio
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 HasViewBox
@@ -4558,7 +4566,7 @@ IsExplicitlySet
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 ShouldSynthesizeViewBox
@@ -4651,7 +4659,7 @@ valPtr
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetPreserveAspectRatioProperty
@@ -4734,7 +4742,7 @@ true
 const
 SVGPreserveAspectRatio
 *
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetPreserveAspectRatioProperty
@@ -4775,7 +4783,7 @@ nullptr
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 ClearPreserveAspectRatioProperty
@@ -4809,7 +4817,7 @@ valPtr
 ;
 }
 void
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetImageOverridePreserveAspectRatio
@@ -4913,7 +4921,7 @@ true
 }
 }
 void
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 ClearImageOverridePreserveAspectRatio
@@ -4982,7 +4990,7 @@ true
 }
 }
 void
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 FlushImageTransformInvalidation
@@ -5078,7 +5086,7 @@ valPtr
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetViewBoxProperty
@@ -5161,7 +5169,7 @@ true
 const
 nsSVGViewBoxRect
 *
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetViewBoxProperty
@@ -5202,7 +5210,7 @@ nullptr
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 ClearViewBoxProperty
@@ -5236,7 +5244,7 @@ valPtr
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 SetZoomAndPanProperty
@@ -5297,7 +5305,7 @@ rv
 ;
 }
 uint16_t
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 GetZoomAndPanProperty
@@ -5340,7 +5348,7 @@ SVG_ZOOMANDPAN_UNKNOWN
 ;
 }
 bool
-nsSVGSVGElement
+SVGSVGElement
 :
 :
 ClearZoomAndPanProperty
@@ -5356,4 +5364,6 @@ nsGkAtoms
 zoomAndPan
 )
 ;
+}
+}
 }

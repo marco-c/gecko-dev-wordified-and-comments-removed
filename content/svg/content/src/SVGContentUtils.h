@@ -46,9 +46,6 @@ nsSVGElement
 class
 nsSVGLength2
 ;
-class
-nsSVGSVGElement
-;
 namespace
 mozilla
 {
@@ -63,6 +60,9 @@ dom
 {
 class
 Element
+;
+class
+SVGSVGElement
 ;
 }
 }
@@ -188,7 +188,13 @@ SVGPreserveAspectRatio
 SVGPreserveAspectRatio
 ;
 static
-nsSVGSVGElement
+mozilla
+:
+:
+dom
+:
+:
+SVGSVGElement
 *
 GetOuterSVGElement
 (

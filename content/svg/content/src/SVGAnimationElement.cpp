@@ -12,7 +12,11 @@ h
 #
 include
 "
-nsSVGSVGElement
+mozilla
+/
+dom
+/
+SVGSVGElement
 .
 h
 "
@@ -1652,7 +1656,7 @@ GetTimeContainer
 (
 )
 {
-nsSVGSVGElement
+SVGSVGElement
 *
 element
 =
