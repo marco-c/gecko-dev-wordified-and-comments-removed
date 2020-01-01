@@ -10061,7 +10061,7 @@ try
 let
 browser
 =
-this
+BrowserApp
 .
 selectedBrowser
 ;
