@@ -21977,10 +21977,6 @@ fval
 argc
 argv
 vp
-.
-address
-(
-)
 )
 ;
 }
@@ -23951,10 +23947,6 @@ vp
 0
 NULL
 vp
-.
-address
-(
-)
 )
 ;
 }

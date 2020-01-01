@@ -204,8 +204,7 @@ argc
 Value
 *
 argv
-Value
-*
+MutableHandleValue
 rval
 )
 ;
@@ -228,8 +227,7 @@ argc
 Value
 *
 argv
-Value
-*
+MutableHandleValue
 rval
 )
 ;

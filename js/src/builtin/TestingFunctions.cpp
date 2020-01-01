@@ -4798,11 +4798,8 @@ objectMetadataFunction
 )
 0
 NULL
+&
 rval
-.
-address
-(
-)
 )
 )
 return
