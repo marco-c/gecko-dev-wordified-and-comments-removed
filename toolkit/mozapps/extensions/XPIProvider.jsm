@@ -6427,7 +6427,7 @@ hash
 name
 iconURL
 version
-loadgroup
+loadGroup
 callback
 )
 {
@@ -6453,7 +6453,7 @@ hash
 name
 iconURL
 version
-loadgroup
+loadGroup
 )
 ;
 }
@@ -13636,7 +13636,7 @@ iconURL
 version
 infoURL
 existingAddon
-loadgroup
+loadGroup
 )
 {
 this
@@ -13663,9 +13663,9 @@ url
 ;
 this
 .
-loadgroup
+loadGroup
 =
-loadgroup
+loadGroup
 ;
 this
 .
@@ -14131,7 +14131,7 @@ null
 hash
 :
 null
-loadgroup
+loadGroup
 :
 null
 listeners
@@ -15271,7 +15271,7 @@ loadGroup
 =
 this
 .
-loadgroup
+loadGroup
 ;
 if
 (
@@ -17018,7 +17018,7 @@ hash
 name
 iconURL
 version
-loadgroup
+loadGroup
 )
 {
 let
@@ -17054,7 +17054,7 @@ iconURL
 version
 null
 null
-loadgroup
+loadGroup
 )
 ;
 }
