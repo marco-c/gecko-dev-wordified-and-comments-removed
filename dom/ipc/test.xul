@@ -2187,15 +2187,6 @@ aFrameElement
 )
 ;
 }
-get
-contentWindow
-(
-)
-{
-return
-null
-;
-}
 }
 function
 defaultDialogs
