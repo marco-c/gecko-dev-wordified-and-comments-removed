@@ -107,6 +107,17 @@ ScreenshotLayer
 import
 org
 .
+mozilla
+.
+gecko
+.
+util
+.
+FloatUtils
+;
+import
+org
+.
 json
 .
 JSONObject

@@ -14,7 +14,7 @@ mozilla
 .
 gecko
 .
-FloatUtils
+GeckoAppShell
 ;
 import
 org
@@ -23,7 +23,9 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+util
+.
+FloatUtils
 ;
 import
 org

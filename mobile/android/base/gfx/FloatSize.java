@@ -14,6 +14,8 @@ mozilla
 .
 gecko
 .
+util
+.
 FloatUtils
 ;
 import
