@@ -2031,9 +2031,6 @@ nsIFrame
 aParentFrame
 nsIFrame
 *
-aContentParentFrame
-nsIFrame
-*
 &
 aNewFrame
 nsStyleContext
@@ -2060,9 +2057,6 @@ aContentStyle
 nsIFrame
 *
 aParentFrame
-nsIFrame
-*
-aContentParentFrame
 nsIAtom
 *
 aScrolledPseudo

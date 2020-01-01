@@ -3022,9 +3022,6 @@ CreateViewForFrame
 nsIFrame
 *
 aFrame
-nsIFrame
-*
-aContentParentFrame
 PRBool
 aForce
 )

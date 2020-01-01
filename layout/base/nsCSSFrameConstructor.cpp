@@ -15938,7 +15938,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 aNewOuterFrame
-aContentParent
 PR_FALSE
 )
 ;
@@ -16233,7 +16232,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 aNewFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -16469,7 +16467,6 @@ aContent
 aStyleContext
 aNewFrame
 parentFrame
-nsnull
 scrollFrame
 aStyleContext
 )
@@ -16505,7 +16502,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 aNewFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -17011,7 +17007,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 aNewFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -17575,7 +17570,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 aNewCellOuterFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -18858,7 +18852,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 contentFrame
-aParentFrame
 PR_FALSE
 )
 ;
@@ -19596,7 +19589,6 @@ state
 aDocElement
 styleContext
 viewportFrame
-nsnull
 rootPseudo
 PR_TRUE
 newFrame
@@ -20533,7 +20525,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 buttonFrame
-aParentFrame
 PR_FALSE
 )
 ;
@@ -21068,7 +21059,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 comboboxFrame
-aParentFrame
 PR_FALSE
 )
 ;
@@ -21556,7 +21546,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 scrollFrame
-aParentFrame
 aBuildCombobox
 )
 ;
@@ -21693,7 +21682,6 @@ aContent
 aStyleContext
 scrolledFrame
 geometricParent
-aParentFrame
 scrollFrame
 scrolledPseudoStyle
 )
@@ -21856,7 +21844,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-aParentFrame
 PR_FALSE
 )
 ;
@@ -23501,44 +23488,6 @@ triedFrame
 =
 PR_TRUE
 ;
-if
-(
-newFrame
-)
-{
-nsCOMPtr
-<
-nsIAtom
->
-contentParentAtom
-=
-do_GetAtom
-(
-"
-contentParent
-"
-)
-;
-aState
-.
-mPresContext
--
->
-PropertyTable
-(
-)
--
->
-SetProperty
-(
-newFrame
-contentParentAtom
-aParentFrame
-nsnull
-nsnull
-)
-;
-}
 }
 else
 if
@@ -23922,7 +23871,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-aParentFrame
 PR_FALSE
 )
 ;
@@ -25650,7 +25598,6 @@ aContent
 aStyleContext
 newFrame
 aParentFrame
-nsnull
 topFrame
 aStyleContext
 )
@@ -26010,7 +25957,6 @@ aContent
 aStyleContext
 newFrame
 aParentFrame
-nsnull
 topFrame
 aStyleContext
 )
@@ -26165,7 +26111,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-aParentFrame
 PR_FALSE
 )
 ;
@@ -26480,9 +26425,6 @@ aContentStyle
 nsIFrame
 *
 aParentFrame
-nsIFrame
-*
-aContentParentFrame
 nsIAtom
 *
 aScrolledPseudo
@@ -26573,7 +26515,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 gfxScrollFrame
-aContentParentFrame
 PR_FALSE
 )
 ;
@@ -26673,7 +26614,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 aScrolledFrame
-nsnull
 PR_TRUE
 )
 ;
@@ -26719,9 +26659,6 @@ nsIFrame
 aParentFrame
 nsIFrame
 *
-aContentParentFrame
-nsIFrame
-*
 &
 aNewFrame
 nsStyleContext
@@ -26742,7 +26679,6 @@ aState
 aContent
 aContentStyle
 aParentFrame
-aContentParentFrame
 nsCSSAnonBoxes
 :
 :
@@ -27006,7 +26942,6 @@ GetGeometricParent
 aDisplay
 aParentFrame
 )
-aParentFrame
 nsCSSAnonBoxes
 :
 :
@@ -29289,7 +29224,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-aParentFrame
 PR_FALSE
 )
 ;
@@ -30629,7 +30563,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-aParentFrame
 forceView
 )
 ;
@@ -30751,7 +30684,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 blockFrame
-nsnull
 PR_TRUE
 )
 ;
@@ -42561,7 +42493,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -42747,7 +42678,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43159,7 +43089,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43206,7 +43135,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43253,7 +43181,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43304,7 +43231,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43354,7 +43280,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43401,7 +43326,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43531,7 +43455,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43578,7 +43501,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43741,7 +43663,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43848,7 +43769,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -43895,7 +43815,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -44111,7 +44030,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 newFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -51235,12 +51153,6 @@ parent
 =
 aParentFrame
 ;
-nsIFrame
-*
-contentParent
-=
-aContentParentFrame
-;
 nsRefPtr
 <
 nsStyleContext
@@ -51325,7 +51237,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 columnSetFrame
-aContentParentFrame
 PR_FALSE
 )
 ;
@@ -51348,10 +51259,6 @@ nsCSSAnonBoxes
 columnContent
 aStyleContext
 )
-;
-contentParent
-=
-columnSetFrame
 ;
 parent
 =
@@ -51426,7 +51333,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 blockFrame
-contentParent
 PR_FALSE
 )
 ;
@@ -51584,7 +51490,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 aNewFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -51867,7 +51772,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 blockFrame
-nsnull
 PR_FALSE
 )
 ;
@@ -52264,7 +52168,6 @@ nsHTMLContainerFrame
 CreateViewForFrame
 (
 inlineFrame
-nsnull
 PR_FALSE
 )
 ;
