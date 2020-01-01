@@ -2640,6 +2640,15 @@ nsAppShell
 (
 )
 {
+if
+(
+mReaderThread
+.
+get
+(
+)
+)
+{
 mReaderThread
 -
 >
@@ -2683,6 +2692,7 @@ d
 result
 )
 ;
+}
 gAppShell
 =
 NULL
