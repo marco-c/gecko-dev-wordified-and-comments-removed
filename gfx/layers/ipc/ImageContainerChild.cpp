@@ -182,6 +182,12 @@ ClearSharedImagePool
 (
 )
 ;
+mImageQueue
+.
+Clear
+(
+)
+;
 }
 void
 ImageContainerChild
@@ -1907,6 +1913,12 @@ sequence
 )
 ;
 ClearSharedImagePool
+(
+)
+;
+mImageQueue
+.
+Clear
 (
 )
 ;
