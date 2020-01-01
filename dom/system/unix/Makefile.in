@@ -477,6 +477,8 @@ chromium
 config
 .
 mk
+ifndef
+MOZ_ENABLE_QTMOBILITY
 CPPSRCS
 =
 \
@@ -487,6 +489,7 @@ cpp
 (
 NULL
 )
+endif
 ifdef
 MOZ_MAEMO_LIBLOCATION
 CPPSRCS
@@ -544,6 +547,9 @@ MOCSRCS
 moc_QTMLocationProvider
 .
 cpp
+moc_nsQTMDeviceMotionSystem
+.
+cpp
 CPPSRCS
 +
 =
@@ -552,6 +558,10 @@ MOCSRCS
 )
 \
 QTMLocationProvider
+.
+cpp
+\
+nsQTMDeviceMotionSystem
 .
 cpp
 \
