@@ -4809,7 +4809,6 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-const
 int32_t
 nsCSSProps
 :
@@ -4827,6 +4826,8 @@ eCSSKeyword_absolute
 NS_STYLE_POSITION_ABSOLUTE
 eCSSKeyword_fixed
 NS_STYLE_POSITION_FIXED
+eCSSKeyword_sticky
+NS_STYLE_POSITION_STICKY
 eCSSKeyword_UNKNOWN
 -
 1

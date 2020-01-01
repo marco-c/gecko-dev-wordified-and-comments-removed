@@ -2337,7 +2337,6 @@ kPointerEventsKTable
 ]
 ;
 static
-const
 int32_t
 kPositionKTable
 [
