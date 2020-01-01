@@ -800,8 +800,10 @@ old
 value
 if
 (
-!
 val
+=
+=
+null
 )
 return
 this
@@ -860,6 +862,13 @@ arr
 ]
 ;
 else
+{
+this
+.
+selectedItem
+=
+null
+;
 this
 .
 setAttribute
@@ -870,6 +879,7 @@ value
 val
 )
 ;
+}
 return
 val
 ;
