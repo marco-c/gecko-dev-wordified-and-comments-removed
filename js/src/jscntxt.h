@@ -463,6 +463,14 @@ JSObject
 >
 ObjectSet
 ;
+typedef
+HashSet
+<
+Shape
+*
+>
+ShapeSet
+;
 class
 AutoCycleDetector
 {
