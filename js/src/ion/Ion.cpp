@@ -6120,7 +6120,7 @@ const
 uint32_t
 MAX_SCRIPT_SIZE
 =
-1500
+2000
 ;
 static
 const
