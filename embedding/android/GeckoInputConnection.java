@@ -1977,6 +1977,12 @@ mUpdateExtract
 text
 =
 text
+.
+substring
+(
+0
+newEnd
+)
 ;
 mUpdateExtract
 .
