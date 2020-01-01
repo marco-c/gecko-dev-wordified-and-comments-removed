@@ -7,6 +7,10 @@ binascii
 struct
 import
 zlib
+from
+utils
+import
+lockFile
 class
 ZipFile
 (
@@ -72,6 +76,10 @@ compression
 zipfile
 .
 ZIP_STORED
+               
+lock
+=
+False
 )
 :
     
@@ -111,6 +119,40 @@ self
 debug
 =
 0
+    
+if
+lock
+:
+      
+assert
+isinstance
+(
+file
+basestring
+)
+      
+self
+.
+lockfile
+=
+lockFile
+(
+file
++
+'
+.
+lck
+'
+)
+    
+else
+:
+      
+self
+.
+lockfile
+=
+None
   
 def
 writestr
@@ -537,7 +579,8 @@ self
 _remove
 :
       
-return
+r
+=
 zipfile
 .
 ZipFile
@@ -546,6 +589,15 @@ close
 (
 self
 )
+      
+self
+.
+lockfile
+=
+None
+      
+return
+r
     
 if
 self
@@ -820,3 +872,9 @@ close
 (
 self
 )
+    
+self
+.
+lockfile
+=
+None
