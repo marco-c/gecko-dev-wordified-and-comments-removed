@@ -413,7 +413,7 @@ do_check_eq
 (
 engine
 .
-displayName
+Name
 "
 Steam
 "
