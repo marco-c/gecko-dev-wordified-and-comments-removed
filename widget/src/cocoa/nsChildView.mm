@@ -7683,7 +7683,7 @@ Invokes
 callback
 and
 ProcessEvent
-method
+methods
 on
 Event
 Listener
@@ -7879,6 +7879,8 @@ aStatus
 =
 nsEventStatus_eConsumeNoDefault
 )
+aStatus
+=
 mEventListener
 -
 >
