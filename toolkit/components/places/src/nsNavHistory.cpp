@@ -8720,7 +8720,7 @@ bookmarks
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >
@@ -16456,7 +16456,7 @@ hasMore
 hasMore
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >

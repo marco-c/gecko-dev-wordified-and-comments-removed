@@ -9198,7 +9198,7 @@ nsNavHistory
 kGetInfoIndex_ItemId
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsNavHistoryResultNode
 >
