@@ -7,6 +7,15 @@ nsEventStates_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -20,6 +29,7 @@ typedef
 uint64_t
 InternalType
 ;
+MOZ_CONSTEXPR
 nsEventStates
 (
 )
@@ -31,6 +41,7 @@ mStates
 {
 }
 explicit
+MOZ_CONSTEXPR
 nsEventStates
 (
 InternalType
@@ -43,6 +54,7 @@ aStates
 )
 {
 }
+MOZ_CONSTEXPR
 nsEventStates
 (
 const
@@ -50,13 +62,14 @@ nsEventStates
 &
 aEventStates
 )
-{
+:
 mStates
-=
+(
 aEventStates
 .
 mStates
-;
+)
+{
 }
 nsEventStates
 &
@@ -81,6 +94,7 @@ this
 ;
 }
 nsEventStates
+MOZ_CONSTEXPR
 operator
 |
 (
@@ -127,6 +141,7 @@ this
 ;
 }
 nsEventStates
+MOZ_CONSTEXPR
 operator
 &
 (
