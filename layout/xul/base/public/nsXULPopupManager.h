@@ -882,13 +882,6 @@ nsIWidget
 aWidgetChain
 )
 ;
-virtual
-void
-NotifyGeometryChange
-(
-)
-{
-}
 static
 nsXULPopupManager
 *
