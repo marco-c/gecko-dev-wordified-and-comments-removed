@@ -328,6 +328,8 @@ EnsureStableStateEventPosted
 void
 PrepareUpdatesToMainThreadState
 (
+bool
+aFinalUpdate
 )
 ;
 void
