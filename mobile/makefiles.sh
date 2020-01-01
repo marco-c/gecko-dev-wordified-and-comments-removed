@@ -491,11 +491,6 @@ mobile
 /
 themes
 /
-Makefile
-mobile
-/
-themes
-/
 core
 /
 Makefile
