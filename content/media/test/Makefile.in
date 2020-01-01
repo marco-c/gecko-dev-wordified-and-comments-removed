@@ -693,6 +693,10 @@ test_video_to_canvas
 .
 html
 \
+use_large_cache
+.
+js
+\
 test_audiowrite
 .
 html
