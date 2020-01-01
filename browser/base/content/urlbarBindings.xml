@@ -7686,6 +7686,11 @@ notification
 >
 <
 content
+align
+=
+"
+start
+"
 >
 <
 xul
@@ -7713,6 +7718,11 @@ popupid
 xul
 :
 vbox
+flex
+=
+"
+1
+"
 >
 <
 xul
