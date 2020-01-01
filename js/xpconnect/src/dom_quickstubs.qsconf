@@ -5859,11 +5859,6 @@ nsIDOMCanvasRenderingContext2D_CreateImageData
 :
 CUSTOM_QS
 '
-nsIDOMCanvasRenderingContext2D_GetImageData
-'
-:
-CUSTOM_QS
-'
 nsIDOMCanvasRenderingContext2D_PutImageData
 '
 :
