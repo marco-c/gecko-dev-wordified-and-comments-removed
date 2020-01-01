@@ -1181,6 +1181,10 @@ _setEditorSource
 function
 (
 aSource
+aFlags
+=
+{
+}
 )
 {
 if
@@ -1195,6 +1199,12 @@ url
 aSource
 .
 url
+&
+&
+!
+aFlags
+.
+force
 )
 {
 return
@@ -1547,6 +1557,7 @@ this
 _setEditorSource
 (
 sourceForm
+aFlags
 )
 .
 then
