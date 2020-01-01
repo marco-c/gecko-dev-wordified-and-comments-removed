@@ -6192,6 +6192,11 @@ str
 mStyle
 )
 ;
+if
+(
+fe
+)
+{
 list
 -
 >
@@ -6200,6 +6205,7 @@ AppendElement
 fe
 )
 ;
+}
 }
 }
 gfxWindowsFontGroup
