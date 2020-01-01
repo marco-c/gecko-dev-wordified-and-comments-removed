@@ -987,7 +987,6 @@ ISurfaceDeAllocator
 )
 {
 }
-;
 }
 ;
 class
@@ -1040,7 +1039,6 @@ DestroyFrontBuffer
 )
 {
 }
-;
 void
 SetShadowVisibleRegion
 (

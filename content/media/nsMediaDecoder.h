@@ -813,7 +813,6 @@ return
 mFrameBufferLength
 ;
 }
-;
 virtual
 nsresult
 RequestFrameBufferLength
