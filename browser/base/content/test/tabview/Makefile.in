@@ -452,14 +452,6 @@ browser_tabview_group
 .
 js
 \
-browser_tabview_exit_button
-.
-js
-\
-browser_tabview_bug591706
-.
-js
-\
 (
 NULL
 )
