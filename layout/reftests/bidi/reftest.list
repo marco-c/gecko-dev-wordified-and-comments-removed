@@ -42,10 +42,6 @@ bidi
 ref
 .
 html
-asserts
-(
-3
-)
 =
 =
 bidi
@@ -62,9 +58,6 @@ bidi
 ref
 .
 html
-#
-bug
-563536
 =
 =
 bidi
