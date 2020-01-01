@@ -699,9 +699,16 @@ not_topobjdir
         
 topobjdir
 =
+os
+.
+path
+.
+abspath
+(
 '
 .
 '
+)
     
 env
 =
