@@ -218,12 +218,6 @@ nsOfflineCacheDevice
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIAPPLICATIONCACHESERVICE
-virtual
-~
-nsOfflineCacheDevice
-(
-)
-;
 static
 nsOfflineCacheDevice
 *

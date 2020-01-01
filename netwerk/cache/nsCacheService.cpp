@@ -4734,6 +4734,17 @@ mDiskDevice
 =
 nsnull
 ;
+if
+(
+mOfflineDevice
+)
+mOfflineDevice
+-
+>
+Shutdown
+(
+)
+;
 NS_IF_RELEASE
 (
 mOfflineDevice
