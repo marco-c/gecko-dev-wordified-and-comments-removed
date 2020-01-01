@@ -23,6 +23,7 @@ attributes
 ;
 for
 (
+var
 i
 in
 node
@@ -65,7 +66,7 @@ value
 }
 catch
 (
-err
+e
 )
 {
 }

@@ -28,6 +28,7 @@ value
 {
 for
 (
+var
 i
 in
 array
@@ -67,6 +68,7 @@ narray
 ;
 for
 (
+var
 i
 in
 array
@@ -111,6 +113,7 @@ offset
 {
 for
 (
+var
 i
 in
 array
@@ -179,6 +182,7 @@ length
 ;
 for
 (
+var
 i
 in
 array
@@ -201,6 +205,7 @@ Number
 (
 i
 )
+;
 }
 if
 (
@@ -259,6 +264,7 @@ false
 }
 for
 (
+var
 i
 in
 array
