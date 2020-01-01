@@ -3237,6 +3237,9 @@ nsIDOMWindow
 >
 window
 ;
+nsresult
+rv
+=
 GetDOMWindow
 (
 getter_AddRefs
@@ -3245,11 +3248,12 @@ window
 )
 )
 ;
-if
+NS_ENSURE_SUCCESS
 (
-window
+rv
+rv
 )
-{
+;
 nsCOMPtr
 <
 nsPIDOMWindow
@@ -3299,7 +3303,6 @@ piwindow
 =
 topWindow
 ;
-}
 return
 NS_OK
 ;
