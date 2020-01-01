@@ -3780,7 +3780,6 @@ MOZ_ASSERT
 gAppContentParents
 |
 |
-!
 gAppContentParents
 -
 >
@@ -3788,6 +3787,9 @@ Get
 (
 mAppManifestURL
 )
+!
+=
+this
 )
 ;
 }
