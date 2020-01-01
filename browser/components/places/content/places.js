@@ -5335,6 +5335,13 @@ nsINavHistoryQueryOptions
 .
 SORT_BY_NONE
 ;
+OptionsFilter
+.
+update
+(
+result
+)
+;
 return
 ;
 }
@@ -5628,6 +5635,13 @@ result
 sortingMode
 =
 sortingMode
+;
+OptionsFilter
+.
+update
+(
+result
+)
 ;
 }
 }
