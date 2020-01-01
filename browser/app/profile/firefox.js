@@ -2125,7 +2125,7 @@ urlbar
 .
 autoFill
 "
-true
+false
 )
 ;
 pref
