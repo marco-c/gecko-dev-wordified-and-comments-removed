@@ -87,9 +87,6 @@ app
 defs
 .
 mk
-DIRS
-=
-locales
 DIST_FILES
 =
 package

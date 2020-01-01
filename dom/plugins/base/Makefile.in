@@ -267,10 +267,6 @@ MOZ_WIDGET_TOOLKIT
 )
 android
 )
-DIRS
-+
-=
-android
 LOCAL_INCLUDES
 +
 =
