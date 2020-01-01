@@ -104,6 +104,11 @@ FAIL_ON_WARNINGS
 CPPSRCS
 =
 \
++
+ArrayBufferInputStream
+.
+cpp
+\
 BackgroundFileSaver
 .
 cpp

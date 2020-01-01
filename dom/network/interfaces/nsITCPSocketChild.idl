@@ -172,6 +172,14 @@ send
 in
 jsval
 data
+in
+unsigned
+long
+byteOffset
+in
+unsigned
+long
+byteLength
 )
 ;
 void
