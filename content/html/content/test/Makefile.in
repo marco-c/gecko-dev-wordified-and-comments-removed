@@ -1516,6 +1516,10 @@ test_bug659743
 .
 xml
 \
+test_bug660663
+.
+html
+\
 test_restore_from_parser_fragment
 .
 html
