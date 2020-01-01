@@ -250,6 +250,9 @@ mCurrentCallIndex
 int
 mCurrentCallState
 ;
+bool
+mReceiveVgsFlag
+;
 nsAutoPtr
 <
 BluetoothRilListener
