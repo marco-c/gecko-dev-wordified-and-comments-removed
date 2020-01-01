@@ -2761,7 +2761,7 @@ IsNodeOfType
 nsINode
 :
 :
-eTEXT
+eDATA_NODE
 )
 )
 ;
@@ -2941,7 +2941,7 @@ IsNodeOfType
 nsINode
 :
 :
-eTEXT
+eDATA_NODE
 )
 )
 ;

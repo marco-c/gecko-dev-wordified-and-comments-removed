@@ -2645,6 +2645,10 @@ test_xhr_send_readystate
 .
 html
 \
+test_bug813919
+.
+html
+\
 (
 NULL
 )
