@@ -417,3 +417,15 @@ checkUpdateSecurity
 false
 )
 ;
+user_pref
+(
+"
+browser
+.
+EULA
+.
+override
+"
+true
+)
+;
