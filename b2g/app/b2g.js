@@ -5240,7 +5240,7 @@ pref
 "
 dom
 .
-promise
+future
 .
 enabled
 "

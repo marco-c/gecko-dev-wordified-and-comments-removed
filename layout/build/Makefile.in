@@ -957,12 +957,12 @@ DEPTH
 /
 dom
 /
-promise
+future
 /
 (
 LIB_PREFIX
 )
-dompromise_s
+domfuture_s
 .
 (
 LIB_SUFFIX
