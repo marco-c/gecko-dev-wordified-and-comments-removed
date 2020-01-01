@@ -13,13 +13,6 @@ StandardInteger
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsCocoaFeatures
 {

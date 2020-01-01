@@ -7,13 +7,6 @@ nsContentSupportMap_h__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 pldhash
 .
 h

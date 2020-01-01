@@ -27,13 +27,6 @@ nsDebug
 .
 h
 "
-#
-include
-"
-prlong
-.
-h
-"
 namespace
 IPC
 {

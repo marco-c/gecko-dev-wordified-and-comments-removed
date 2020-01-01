@@ -19,13 +19,6 @@ nsStubMutationObserver
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsScriptElement
 :

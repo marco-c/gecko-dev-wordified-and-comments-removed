@@ -488,13 +488,6 @@ NS_IPARSER_IID
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

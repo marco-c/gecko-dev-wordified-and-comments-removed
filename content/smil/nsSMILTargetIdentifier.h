@@ -22,13 +22,6 @@ nsAutoPtr
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 struct
 nsSMILTargetIdentifier
 {

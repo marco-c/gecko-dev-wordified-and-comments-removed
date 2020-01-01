@@ -11,13 +11,6 @@ nsISupports
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 CToken
 ;
