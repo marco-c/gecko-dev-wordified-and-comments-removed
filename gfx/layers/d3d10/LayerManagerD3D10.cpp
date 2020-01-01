@@ -766,6 +766,12 @@ BufferCount
 ;
 swapDesc
 .
+Flags
+=
+DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE
+;
+swapDesc
+.
 OutputWindow
 =
 (
@@ -1901,7 +1907,7 @@ rect
 .
 height
 DXGI_FORMAT_B8G8R8A8_UNORM
-0
+DXGI_SWAP_CHAIN_FLAG_GDI_COMPATIBLE
 )
 ;
 }
