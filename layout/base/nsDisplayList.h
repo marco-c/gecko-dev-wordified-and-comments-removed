@@ -2483,10 +2483,6 @@ _super
 )
 #
 endif
-MOZ_DECL_CTOR_COUNTER
-(
-nsDisplayCaret
-)
 class
 nsDisplayCaret
 :

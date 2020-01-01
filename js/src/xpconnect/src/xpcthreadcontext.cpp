@@ -1464,10 +1464,6 @@ return
 stackLimit
 ;
 }
-MOZ_DECL_CTOR_COUNTER
-(
-xpcPerThreadData
-)
 XPCPerThreadData
 :
 :

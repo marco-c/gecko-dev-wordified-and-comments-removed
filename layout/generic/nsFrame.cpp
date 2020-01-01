@@ -30206,10 +30206,6 @@ mValue
 )
 ;
 }
-MOZ_DECL_CTOR_COUNTER
-(
-DR_layout_cookie
-)
 DR_layout_cookie
 :
 :
@@ -30264,10 +30260,6 @@ mValue
 )
 ;
 }
-MOZ_DECL_CTOR_COUNTER
-(
-DR_intrinsic_width_cookie
-)
 DR_intrinsic_width_cookie
 :
 :
@@ -30340,10 +30332,6 @@ mValue
 )
 ;
 }
-MOZ_DECL_CTOR_COUNTER
-(
-DR_intrinsic_size_cookie
-)
 DR_intrinsic_size_cookie
 :
 :

@@ -99,12 +99,6 @@ _type
 )
 #
 define
-MOZ_DECL_CTOR_COUNTER
-(
-_type
-)
-#
-define
 MOZ_COUNT_CTOR
 (
 _type
@@ -228,12 +222,6 @@ NS_LOG_RELEASE
 (
 _p
 _rc
-_type
-)
-#
-define
-MOZ_DECL_CTOR_COUNTER
-(
 _type
 )
 #
