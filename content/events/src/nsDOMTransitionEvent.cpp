@@ -12,6 +12,13 @@ nsGUIEvent
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 nsDOMTransitionEvent
 :
 :

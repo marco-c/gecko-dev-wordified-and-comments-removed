@@ -5,6 +5,13 @@ nsDOMMouseScrollEvent
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 nsDOMMouseScrollEvent
 :
 :

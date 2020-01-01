@@ -159,6 +159,13 @@ nsNetCID
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 static
 NS_DEFINE_CID
 (

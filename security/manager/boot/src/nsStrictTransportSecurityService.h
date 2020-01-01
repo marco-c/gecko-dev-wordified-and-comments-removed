@@ -61,6 +61,13 @@ nsTHashtable
 h
 "
 #
+include
+"
+prtime
+.
+h
+"
+#
 define
 NS_STRICT_TRANSPORT_SECURITY_CID
 \
