@@ -496,7 +496,9 @@ false
 ;
 Utils
 .
-activeWindow
+getCurrentWindow
+(
+)
 .
 gBrowser
 .
@@ -661,7 +663,9 @@ false
 ;
 Utils
 .
-activeWindow
+getCurrentWindow
+(
+)
 .
 document
 .
@@ -714,7 +718,9 @@ true
 ;
 Utils
 .
-activeWindow
+getCurrentWindow
+(
+)
 .
 document
 .
