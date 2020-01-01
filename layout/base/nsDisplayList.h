@@ -1481,7 +1481,7 @@ PR_FALSE
 }
 virtual
 PRBool
-IsFixedAndCoveringViewport
+ShouldFixToViewport
 (
 nsDisplayListBuilder
 *
@@ -3967,7 +3967,7 @@ aColor
 ;
 virtual
 PRBool
-IsFixedAndCoveringViewport
+ShouldFixToViewport
 (
 nsDisplayListBuilder
 *
