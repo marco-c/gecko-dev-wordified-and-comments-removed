@@ -335,9 +335,6 @@ case
 DESCRIPTORS
 :
 {
-#
-if
-0
 PropertyDescriptorArray
 &
 descriptors
@@ -437,15 +434,6 @@ id
 )
 ;
 }
-#
-else
-JS_ASSERT
-(
-0
-)
-;
-#
-endif
 return
 ;
 }
