@@ -4326,6 +4326,10 @@ currentAnimationFrameIndex
 return
 NS_OK
 ;
+mAnimationFinished
+=
+PR_FALSE
+;
 if
 (
 mAnimating
@@ -4389,10 +4393,16 @@ ShouldAnimate
 (
 )
 )
+{
 StartAnimation
 (
 )
 ;
+mAnimating
+=
+PR_TRUE
+;
+}
 return
 NS_OK
 ;
