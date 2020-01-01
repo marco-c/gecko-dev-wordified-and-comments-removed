@@ -1,4 +1,10 @@
 #
+ifndef
+nptypes_h_
+#
+define
+nptypes_h_
+#
 if
 defined
 (
@@ -223,6 +229,8 @@ true
 define
 false
 0
+#
+endif
 #
 endif
 #
