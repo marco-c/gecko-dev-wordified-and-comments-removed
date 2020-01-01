@@ -439,11 +439,13 @@ XPIDLSRCS
 (
 NULL
 )
-#
-EXTRA_PP_COMPONENTS
+EXTRA_COMPONENTS
 =
 \
-#
+aboutFirstrun
+.
+js
+\
 (
 NULL
 )
