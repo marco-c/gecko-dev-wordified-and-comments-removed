@@ -268,7 +268,7 @@ taskbar
 #
 define
 CLEAR_PREFETCH_TIMEOUT_MS
-60000
+180000
 NS_IMPL_ISUPPORTS2
 (
 nsWindowsShellService
