@@ -738,6 +738,10 @@ xhr_implicit_cancel_worker
 .
 js
 \
+test_xhr_timeout
+.
+html
+\
 (
 NULL
 )
