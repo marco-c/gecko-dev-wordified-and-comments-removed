@@ -31243,6 +31243,86 @@ False
 )
 :
     
+"
+"
+"
+    
+Returns
+a
+tuple
+containing
+three
+things
+:
+    
+1
+)
+A
+CGThing
+for
+the
+type
+of
+the
+return
+value
+or
+None
+if
+there
+is
+no
+need
+       
+for
+a
+return
+value
+.
+    
+2
+)
+A
+boolean
+indicating
+whether
+the
+return
+value
+is
+passed
+as
+an
+out
+       
+parameter
+.
+    
+3
+)
+A
+CGThing
+for
+a
+tracer
+for
+the
+return
+value
+or
+None
+if
+no
+tracing
+is
+       
+needed
+.
+    
+"
+"
+"
+    
 if
 returnType
 is
@@ -31258,6 +31338,7 @@ isVoid
 return
 None
 False
+None
     
 if
 returnType
@@ -31310,6 +31391,7 @@ result
 return
 result
 False
+None
     
 if
 returnType
@@ -31331,6 +31413,7 @@ nsString
 "
 )
 True
+None
         
 return
 CGGeneric
@@ -31340,6 +31423,7 @@ DOMString
 "
 )
 True
+None
     
 if
 returnType
@@ -31387,6 +31471,7 @@ result
 return
 result
 False
+None
     
 if
 returnType
@@ -31490,6 +31575,7 @@ post
 return
 result
 False
+None
     
 if
 returnType
@@ -31526,6 +31612,7 @@ JSObject
 "
 )
 False
+None
         
 return
 CGGeneric
@@ -31541,6 +31628,7 @@ s
 name
 )
 False
+None
     
 if
 returnType
@@ -31561,6 +31649,7 @@ Value
 "
 )
 False
+None
     
 if
 returnType
@@ -31585,6 +31674,7 @@ JSObject
 "
 )
 False
+None
     
 if
 returnType
@@ -31615,6 +31705,7 @@ inner
 (
 result
 _
+_
 )
 =
 getRetvalDeclarationForType
@@ -31622,17 +31713,73 @@ getRetvalDeclarationForType
 returnType
 .
 inner
-                                                  
+                                                     
 descriptorProvider
-                                                  
+                                                     
 resultAlreadyAddRefed
-                                                  
+                                                     
 isMember
 =
 "
 Sequence
 "
 )
+        
+if
+not
+isMember
+and
+typeNeedsCx
+(
+returnType
+descriptorProvider
+)
+:
+            
+rooter
+=
+CGGeneric
+(
+"
+SequenceRooter
+<
+%
+s
+>
+resultRooter
+(
+cx
+)
+;
+\
+n
+"
+                               
+"
+resultRooter
+.
+SetSequence
+(
+&
+result
+)
+;
+"
+%
+                               
+result
+.
+define
+(
+)
+)
+        
+else
+:
+            
+rooter
+=
+None
         
 result
 =
@@ -31661,6 +31808,7 @@ result
 return
 result
 True
+rooter
     
 if
 returnType
@@ -31723,6 +31871,7 @@ result
 return
 result
 True
+None
     
 if
 returnType
@@ -31787,6 +31936,7 @@ result
 return
 result
 False
+None
     
 raise
 TypeError
@@ -32011,14 +32161,14 @@ extendedAttributes
 (
 result
 resultOutParam
+resultRooter
 )
 =
 getRetvalDeclarationForType
 (
+            
 returnType
-                                                               
 descriptorProvider
-                                                               
 resultAlreadyAddRefed
 )
         
@@ -32291,6 +32441,22 @@ is
 not
 None
 :
+            
+if
+resultRooter
+is
+not
+None
+:
+                
+self
+.
+cgRoot
+.
+prepend
+(
+resultRooter
+)
             
 result
 =
@@ -38838,6 +39004,7 @@ name
 (
 _
 resultOutParam
+_
 )
 =
 getRetvalDeclarationForType
@@ -38845,8 +39012,9 @@ getRetvalDeclarationForType
 attr
 .
 type
+                                                             
 descriptor
-                                                          
+                                                             
 False
 )
         
