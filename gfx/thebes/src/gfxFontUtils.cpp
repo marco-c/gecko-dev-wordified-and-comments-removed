@@ -2236,6 +2236,7 @@ p
 PLATFORM_ID_UNICODE
 |
 |
+\
 (
 p
 )
@@ -2249,7 +2250,6 @@ acceptableFormat4
 (
 p
 e
-k
 )
 (
 (
@@ -2261,20 +2261,13 @@ p
 PLATFORM_ID_MICROSOFT
 &
 &
+\
 (
 e
 )
 =
 =
 EncodingIDMicrosoft
-&
-&
-(
-k
-)
-!
-=
-4
 )
 |
 |
@@ -2304,6 +2297,7 @@ p
 PLATFORM_ID_MICROSOFT
 &
 &
+\
 (
 e
 )
@@ -2333,7 +2327,6 @@ acceptableFormat4
 (
 p
 e
-k
 )
 (
 (
@@ -2376,6 +2369,7 @@ platformID
 PLATFORM_ID_MICROSOFT
 &
 &
+\
 encodingID
 =
 =
@@ -2399,6 +2393,7 @@ encodingID
 EncodingIDDefaultForUnicodePlatform
 |
 |
+\
 encodingID
 >
 =
@@ -2637,7 +2632,6 @@ acceptableFormat4
 (
 platformID
 encodingID
-keepFormat
 )
 )
 {
