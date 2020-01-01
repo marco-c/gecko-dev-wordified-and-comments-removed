@@ -1224,11 +1224,14 @@ OwnerDoc
 }
 boundGlobal
 =
+do_QueryInterface
+(
 boundDocument
 -
 >
 GetScopeObject
 (
+)
 )
 ;
 }
