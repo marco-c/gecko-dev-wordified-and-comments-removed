@@ -297,6 +297,13 @@ mInFlushPendingEvents
 PR_FALSE
 )
 {
+mAccessNodeCache
+.
+Init
+(
+kDefaultCacheSize
+)
+;
 if
 (
 !
@@ -381,13 +388,6 @@ NS_NATIVE_WINDOW
 }
 }
 }
-mAccessNodeCache
-.
-Init
-(
-kDefaultCacheSize
-)
-;
 nsCOMPtr
 <
 nsIDocShellTreeItem
