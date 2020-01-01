@@ -19,6 +19,13 @@ CCProvider
 .
 h
 "
+#
+include
+"
+platform_api
+.
+h
+"
 extern
 cprMsgQueue_t
 ccapp_msgq
@@ -384,7 +391,7 @@ msg
 cprBuffer_t
 *
 )
-cprGetBuffer
+cpr_malloc
 (
 len
 )
@@ -445,7 +452,7 @@ appId
 CPR_FAILURE
 )
 {
-cprReleaseBuffer
+cpr_free
 (
 msg
 )
@@ -740,7 +747,7 @@ cprReleaseSysHeader
 syshdr
 )
 ;
-cprReleaseBuffer
+cpr_free
 (
 msg
 )

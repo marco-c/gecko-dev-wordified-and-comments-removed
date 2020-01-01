@@ -615,7 +615,7 @@ return
 )
 ;
 }
-strncpy
+sstrncpy
 (
 (
 char

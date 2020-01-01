@@ -289,7 +289,7 @@ struct
 sa_family_t
 sun_family
 ;
-int8_t
+char
 sun_path
 [
 108
@@ -330,6 +330,8 @@ const
 char
 *
 name
+pid_t
+pid
 )
 ;
 typedef

@@ -71,6 +71,8 @@ const
 char
 *
 name
+pid_t
+pid
 )
 ;
 #
@@ -94,10 +96,6 @@ typedef
 unsigned
 int
 u_int
-;
-typedef
-u_int
-SOCKET
 ;
 #
 define

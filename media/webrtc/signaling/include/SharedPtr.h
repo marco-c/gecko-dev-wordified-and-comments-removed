@@ -55,7 +55,6 @@ DECLARE_PTR
 (
 className
 )
-;
 \
 typedef
 std
@@ -89,6 +88,7 @@ Vtr
 #
 #
 Ptr
+;
 #
 endif
 #

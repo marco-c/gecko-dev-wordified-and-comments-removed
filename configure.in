@@ -42557,11 +42557,9 @@ enable
 once
 Signaling
 lands
-dnl
 MOZ_WEBRTC_SIGNALING
 =
 1
-dnl
 AC_DEFINE
 (
 MOZ_WEBRTC_SIGNALING

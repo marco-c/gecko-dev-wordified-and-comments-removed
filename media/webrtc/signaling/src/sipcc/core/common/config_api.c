@@ -1103,7 +1103,7 @@ CFGID_LINE_PASSWORD
 MAX_CONFIG_LINES
 )
 {
-strncpy
+sstrncpy
 (
 buf
 "
@@ -1153,12 +1153,13 @@ buf
 0
 )
 {
-strcpy
+sstrncpy
 (
 buf
 "
 EMPTY
 "
+len
 )
 ;
 }
@@ -1278,7 +1279,7 @@ Password
 0
 )
 {
-strncpy
+sstrncpy
 (
 buf
 "
@@ -1293,7 +1294,10 @@ buf
 *
 *
 "
-MAX_CONFIG_VAL_PRINT_LEN
+sizeof
+(
+buf
+)
 )
 ;
 }

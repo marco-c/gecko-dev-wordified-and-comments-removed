@@ -199,7 +199,7 @@ s
 char
 *
 buf
-uint16_t
+uint32_t
 len
 )
 ;

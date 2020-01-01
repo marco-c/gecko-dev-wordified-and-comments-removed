@@ -1190,6 +1190,8 @@ const
 char
 *
 name
+pid_t
+pid
 )
 {
 memset
@@ -1209,7 +1211,7 @@ sun_family
 =
 AF_LOCAL
 ;
-sstrncpy
+snprintf
 (
 (
 char
@@ -1219,7 +1221,6 @@ addr
 -
 >
 sun_path
-name
 sizeof
 (
 addr
@@ -1227,6 +1228,14 @@ addr
 >
 sun_path
 )
+"
+%
+s_
+%
+d
+"
+name
+pid
 )
 ;
 }

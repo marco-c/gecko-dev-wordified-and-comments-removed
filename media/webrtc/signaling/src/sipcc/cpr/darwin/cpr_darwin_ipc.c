@@ -50,6 +50,13 @@ plat_api
 h
 >
 #
+include
+"
+cpr_string
+.
+h
+"
+#
 define
 STATIC
 static
@@ -470,7 +477,7 @@ msg
 NULL
 )
 {
-cprReleaseBuffer
+cpr_free
 (
 msg
 )
@@ -770,7 +777,8 @@ fname
 cprGetMessage
 "
 ;
-uint32_t
+void
+*
 buffer
 =
 0
@@ -1029,9 +1037,6 @@ pUserData
 }
 buffer
 =
-(
-long
-)
 node
 -
 >
@@ -1048,13 +1053,6 @@ mutex
 )
 ;
 return
-(
-void
-*
-)
-(
-long
-)
 buffer
 ;
 }
@@ -1590,7 +1588,7 @@ cpr_msg_queue_t
 )
 msgQueue
 ;
-strncpy
+sstrncpy
 (
 stats
 -
@@ -1616,8 +1614,6 @@ stats
 >
 name
 )
--
-1
 )
 ;
 stats

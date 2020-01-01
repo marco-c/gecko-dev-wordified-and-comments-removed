@@ -2541,12 +2541,10 @@ blf_state
 ;
 if
 (
-(
 blf_state
 =
 =
 CC_SIP_BLF_ALERTING
-)
 )
 {
 cc_feature
@@ -3151,12 +3149,10 @@ blf_state
 ;
 if
 (
-(
 blf_state
 =
 =
 CC_SIP_BLF_ALERTING
-)
 )
 {
 cc_feature
@@ -5142,7 +5138,7 @@ rc
 CPR_FAILURE
 )
 {
-cprReleaseBuffer
+cpr_free
 (
 pmsg
 )

@@ -456,7 +456,7 @@ fim_free_event
 msg_ptr
 )
 ;
-cprReleaseBuffer
+cpr_free
 (
 msg_ptr
 )
@@ -2437,7 +2437,7 @@ fim_free_event
 msg_ptr
 )
 ;
-cprReleaseBuffer
+cpr_free
 (
 msg_ptr
 )

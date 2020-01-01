@@ -48,6 +48,13 @@ cpr_stdlib
 h
 "
 #
+include
+"
+platform_api
+.
+h
+"
+#
 ifndef
 WIN32_LEAN_AND_MEAN
 #
@@ -216,10 +223,6 @@ void
 *
 timerMsg
 )
-;
-extern
-cprRegion_t
-timerRegion
 ;
 static
 uint32_t
@@ -1692,7 +1695,7 @@ timerMsg
 cprCallBackTimerMsg_t
 *
 )
-cprGetBuffer
+cpr_malloc
 (
 sizeof
 (
@@ -1788,7 +1791,7 @@ cprReleaseSysHeader
 syshdr
 )
 ;
-cprReleaseBuffer
+cpr_free
 (
 timerMsg
 )
@@ -1831,7 +1834,7 @@ name
 }
 else
 {
-cprReleaseBuffer
+cpr_free
 (
 timerMsg
 )
@@ -1879,7 +1882,7 @@ CPR_ERROR
 "
 Call
 to
-cprGetBuffer
+cpr_malloc
 failed
 .
 \

@@ -262,9 +262,7 @@ DECLARE_PTR
 (
 DeviceInfo
 )
-;
 }
-;
 namespace
 CSF
 {
@@ -350,7 +348,6 @@ value
 )
 ;
 }
-;
 namespace
 ConnectionStatusEnum
 {
@@ -380,7 +377,6 @@ value
 )
 ;
 }
-;
 namespace
 ServiceStateType
 {
@@ -405,7 +401,6 @@ value
 )
 ;
 }
-;
 namespace
 AvailablePhoneEventType
 {
@@ -430,7 +425,6 @@ value
 )
 ;
 }
-;
 namespace
 ConfigPropertyKeysEnum
 {
@@ -481,4 +475,3 @@ int
 VideoFormat
 ;
 }
-;

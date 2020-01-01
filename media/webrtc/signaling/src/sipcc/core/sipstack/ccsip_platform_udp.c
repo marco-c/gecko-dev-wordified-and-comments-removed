@@ -1330,7 +1330,7 @@ bytes_read
 case
 SOCKET_ERROR
 :
-cprReleaseBuffer
+cpr_free
 (
 buf
 )
@@ -1407,7 +1407,7 @@ fname
 s
 )
 ;
-cprReleaseBuffer
+cpr_free
 (
 buf
 )

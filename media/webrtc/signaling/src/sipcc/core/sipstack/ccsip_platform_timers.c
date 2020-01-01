@@ -2927,7 +2927,7 @@ NULL
 CPR_FAILURE
 )
 {
-cprReleaseBuffer
+cpr_free
 (
 timer_msg
 )

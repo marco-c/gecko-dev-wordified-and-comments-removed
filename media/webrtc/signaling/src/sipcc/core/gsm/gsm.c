@@ -166,6 +166,13 @@ subapi
 .
 h
 "
+#
+include
+"
+platform_api
+.
+h
+"
 static
 void
 sub_process_feature_msg
@@ -309,7 +316,7 @@ size
 )
 {
 return
-cprGetBuffer
+cpr_malloc
 (
 size
 )
@@ -971,7 +978,7 @@ GSM_GSM
 timeout_msg
 )
 ;
-cprReleaseBuffer
+cpr_free
 (
 timeout_msg
 )
@@ -1385,7 +1392,7 @@ release_msg
 TRUE
 )
 {
-cprReleaseBuffer
+cpr_free
 (
 msg
 )

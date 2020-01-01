@@ -327,6 +327,17 @@ video_mute
 cc_call_conference_Info_t
 call_conference
 ;
+cc_string_t
+sdp
+;
+unsigned
+int
+media_stream_track_id
+;
+unsigned
+int
+media_stream_id
+;
 }
 session_data_t
 ;

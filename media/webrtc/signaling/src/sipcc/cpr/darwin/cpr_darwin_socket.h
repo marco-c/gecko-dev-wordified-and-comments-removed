@@ -307,6 +307,8 @@ const
 char
 *
 name
+pid_t
+pid
 )
 ;
 typedef

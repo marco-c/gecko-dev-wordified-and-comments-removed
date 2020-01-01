@@ -359,7 +359,7 @@ cac_data
 msg_ptr
 )
 ;
-cprReleaseBuffer
+cpr_free
 (
 cac_data
 -

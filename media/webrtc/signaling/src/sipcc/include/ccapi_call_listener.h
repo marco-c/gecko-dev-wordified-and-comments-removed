@@ -20,9 +20,6 @@ cc_call_handle_t
 handle
 cc_callinfo_ref_t
 info
-char
-*
-sdp
 )
 ;
 #
