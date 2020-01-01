@@ -11921,12 +11921,6 @@ OnQuit
 (
 )
 {
-mObservers
-.
-Clear
-(
-)
-;
 return
 NS_OK
 ;
