@@ -614,6 +614,9 @@ mParserInsertedScriptsBeingEvaluated
 bool
 mDocumentClosed
 ;
+bool
+mInDocumentWrite
+;
 void
 *
 mRootContextKey
