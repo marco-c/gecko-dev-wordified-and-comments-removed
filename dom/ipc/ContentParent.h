@@ -183,6 +183,8 @@ CreateTab
 (
 PRUint32
 aChromeFlags
+bool
+aIsBrowserFrame
 )
 ;
 TestShellParent
@@ -324,6 +326,10 @@ const
 PRUint32
 &
 aChromeFlags
+const
+bool
+&
+aIsBrowserFrame
 )
 ;
 virtual

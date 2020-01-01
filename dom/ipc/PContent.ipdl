@@ -455,6 +455,8 @@ PBrowser
 (
 PRUint32
 chromeFlags
+bool
+isBrowserFrame
 )
 ;
 child
