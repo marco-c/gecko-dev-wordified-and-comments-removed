@@ -67,6 +67,16 @@ aClass
 )
 {
 }
+static
+PRBool
+HandlerExists
+(
+const
+char
+*
+aProtocolScheme
+)
+;
 protected
 :
 NS_IMETHOD
