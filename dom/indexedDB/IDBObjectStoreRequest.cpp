@@ -2411,7 +2411,7 @@ mozIStorageStatement
 >
 stmt
 =
-mDatabase
+mTransaction
 -
 >
 AddStatement
@@ -2760,7 +2760,7 @@ UNKNOWN_ERR
 ;
 stmt
 =
-mDatabase
+mTransaction
 -
 >
 AddStatement
@@ -3296,7 +3296,7 @@ mozIStorageStatement
 >
 stmt
 =
-mDatabase
+mTransaction
 -
 >
 GetStatement
@@ -3574,7 +3574,7 @@ mozIStorageStatement
 >
 stmt
 =
-mDatabase
+mTransaction
 -
 >
 RemoveStatement
