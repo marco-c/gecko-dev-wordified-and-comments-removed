@@ -4191,6 +4191,15 @@ mRuntime
 nsnull
 ;
 }
+static
+JSBool
+IsDyingScope
+(
+XPCWrappedNativeScope
+*
+scope
+)
+;
 void
 SetComponents
 (
