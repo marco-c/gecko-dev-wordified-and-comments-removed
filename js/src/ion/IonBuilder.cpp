@@ -3649,6 +3649,10 @@ op
 case
 JSOP_LOOPENTRY
 :
+insertRecompileCheck
+(
+)
+;
 return
 true
 ;
@@ -11100,10 +11104,6 @@ pc
 assertValidLoopHeadOp
 (
 pc
-)
-;
-insertRecompileCheck
-(
 )
 ;
 current
@@ -20487,6 +20487,15 @@ canInlineCalls
 )
 return
 ;
+uint32_t
+minUses
+=
+UsesBeforeIonRecompile
+(
+script
+pc
+)
+;
 MRecompileCheck
 *
 check
@@ -20496,6 +20505,7 @@ MRecompileCheck
 :
 New
 (
+minUses
 )
 ;
 current
