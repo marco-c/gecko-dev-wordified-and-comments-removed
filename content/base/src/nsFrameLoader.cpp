@@ -6518,7 +6518,7 @@ frame
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+NS_OK
 ;
 }
 nsRect
