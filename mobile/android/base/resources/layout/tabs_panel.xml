@@ -295,7 +295,7 @@ background
 "
 drawable
 /
-tabs_tray_default_selector
+action_bar_button
 "
 android
 :
@@ -389,7 +389,7 @@ background
 "
 drawable
 /
-tabs_tray_default_selector
+action_bar_button
 "
 /
 >

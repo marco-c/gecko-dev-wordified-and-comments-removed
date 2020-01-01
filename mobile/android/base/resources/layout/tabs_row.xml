@@ -450,7 +450,7 @@ background
 "
 drawable
 /
-tabs_tray_close_button
+action_bar_button
 "
 android
 :
