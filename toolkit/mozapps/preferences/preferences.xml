@@ -156,6 +156,13 @@ flex
 "
 1
 "
+xbl
+:
+inherits
+=
+"
+disabled
+"
 >
 <
 xul
@@ -174,6 +181,7 @@ inherits
 src
 =
 image
+disabled
 "
 /
 >
