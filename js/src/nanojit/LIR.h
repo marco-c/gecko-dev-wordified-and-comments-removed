@@ -248,6 +248,13 @@ PTR_SIZE
 LIR_uge
 LIR_quge
 )
+LIR_alloc
+=
+PTR_SIZE
+(
+LIR_ialloc
+LIR_qalloc
+)
 }
 ;
 #
@@ -2599,7 +2606,7 @@ NanoAssert
 (
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 ;

@@ -1630,7 +1630,7 @@ i
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 {
@@ -1906,7 +1906,7 @@ base
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 {
@@ -2132,7 +2132,7 @@ base
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 {
@@ -2345,7 +2345,7 @@ base
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 {
@@ -2394,7 +2394,7 @@ base
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 )
 {
@@ -3664,7 +3664,7 @@ lhs
 >
 isop
 (
-LIR_ialloc
+LIR_alloc
 )
 &
 &

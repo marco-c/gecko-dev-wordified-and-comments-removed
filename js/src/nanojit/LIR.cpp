@@ -1117,7 +1117,7 @@ ins
 >
 initLInsI
 (
-LIR_ialloc
+LIR_alloc
 size
 )
 ;
@@ -9734,7 +9734,7 @@ break
 ;
 }
 case
-LIR_ialloc
+LIR_alloc
 :
 {
 VMPI_sprintf
