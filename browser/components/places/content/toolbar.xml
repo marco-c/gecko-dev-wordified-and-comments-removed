@@ -762,6 +762,15 @@ collapsed
 "
 true
 "
+tooltiptext
+=
+"
+&
+bookmarksToolbarChevron
+.
+tooltip
+;
+"
 onpopupshowing
 =
 "
