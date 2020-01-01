@@ -498,9 +498,6 @@ aReflowState
 .
 CalcLineHeight
 (
-aReflowState
-.
-rendContext
 this
 )
 ;

@@ -427,9 +427,6 @@ CalcLineHeight
 (
 aReflowState
 .
-rendContext
-aReflowState
-.
 frame
 )
 ;

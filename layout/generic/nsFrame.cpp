@@ -13720,8 +13720,6 @@ nsLayoutUtils
 :
 ComputeHeightDependentValue
 (
-aRenderingContext
-this
 aCBSize
 .
 height
@@ -13769,8 +13767,6 @@ nsLayoutUtils
 :
 ComputeHeightDependentValue
 (
-aRenderingContext
-this
 aCBSize
 .
 height
@@ -13822,8 +13818,6 @@ nsLayoutUtils
 :
 ComputeHeightDependentValue
 (
-aRenderingContext
-this
 aCBSize
 .
 height
