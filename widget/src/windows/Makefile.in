@@ -518,6 +518,10 @@ nsNativeThemeWin
 .
 cpp
 \
+nsUXThemeData
+.
+cpp
+\
 nsFilePicker
 .
 cpp
