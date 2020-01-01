@@ -5034,6 +5034,19 @@ message
 "
 )
 ;
+final
+String
+value
+=
+geckoObject
+.
+getString
+(
+"
+value
+"
+)
+;
 Log
 .
 i
@@ -5093,6 +5106,7 @@ mDoorHanger
 .
 getPopup
 (
+value
 )
 ;
 dhp

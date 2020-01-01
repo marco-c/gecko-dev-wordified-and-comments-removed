@@ -763,6 +763,13 @@ doorhanger
 show
 (
 message
+entityName
++
+request
+.
+uri
+.
+host
 buttons
 tabID
 )

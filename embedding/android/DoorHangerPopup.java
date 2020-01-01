@@ -119,6 +119,10 @@ int
 mTabId
 ;
 private
+String
+mValue
+;
+private
 final
 int
 POPUP_VERTICAL_SIZE
@@ -130,6 +134,8 @@ DoorHangerPopup
 (
 Context
 aContext
+String
+aValue
 )
 {
 super
@@ -140,6 +146,10 @@ aContext
 mContext
 =
 aContext
+;
+mValue
+=
+aValue
 ;
 LayoutInflater
 inflater
@@ -316,6 +326,16 @@ addView
 mButton
 mLayoutParams
 )
+;
+}
+public
+String
+getValue
+(
+)
+{
+return
+mValue
 ;
 }
 public
