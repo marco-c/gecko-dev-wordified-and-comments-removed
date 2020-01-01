@@ -348,13 +348,13 @@ nsIntRect
 aBoundsRect
 =
 nsnull
-nsIAccessible
+nsAccessible
 *
 *
 aStartAcc
 =
 nsnull
-nsIAccessible
+nsAccessible
 *
 *
 aEndAcc
