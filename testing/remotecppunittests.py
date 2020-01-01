@@ -575,6 +575,28 @@ self
 .
 remote_home_dir
         
+env
+[
+"
+MOZILLA_FIVE_HOME
+"
+]
+=
+self
+.
+remote_home_dir
+        
+env
+[
+"
+MOZ_XRE_DIR
+"
+]
+=
+self
+.
+remote_bin_dir
+        
 return
 env
     
