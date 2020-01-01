@@ -1004,6 +1004,15 @@ false
 treeLoaded
 :
 false
+prefEnabledName
+:
+"
+devtools
+.
+inspector
+.
+enabled
+"
 toggleInspectorUI
 :
 function

@@ -1640,6 +1640,11 @@ toggleInspectorUI
 )
 ;
 "
+disabled
+=
+"
+true
+"
 /
 >
 <

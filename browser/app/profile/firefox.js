@@ -9554,3 +9554,15 @@ true
 ;
 #
 endif
+pref
+(
+"
+devtools
+.
+inspector
+.
+enabled
+"
+false
+)
+;

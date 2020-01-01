@@ -5101,6 +5101,11 @@ id
 "
 appmenu_pageInspect
 "
+hidden
+=
+"
+true
+"
 label
 =
 "
