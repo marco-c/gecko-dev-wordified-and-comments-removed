@@ -8173,7 +8173,10 @@ loadGroup
 requestFlags
 &
 =
-0xFFFF
+nsIRequest
+:
+:
+LOAD_REQUESTMASK
 ;
 nsresult
 rv

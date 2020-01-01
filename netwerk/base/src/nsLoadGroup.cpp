@@ -1762,7 +1762,10 @@ mLoadFlags
 mLoadFlags
 &
 =
-0xFFFF
+nsIRequest
+:
+:
+LOAD_REQUESTMASK
 ;
 }
 return
