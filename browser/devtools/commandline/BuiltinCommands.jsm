@@ -7435,7 +7435,7 @@ gcli
 lookup
 (
 '
-jsbBraceStyleDesc
+jsbBraceStyleDesc2
 '
 )
 manual
@@ -7445,7 +7445,7 @@ gcli
 lookup
 (
 '
-jsbBraceStyleManual
+jsbBraceStyleManual2
 '
 )
 defaultValue
