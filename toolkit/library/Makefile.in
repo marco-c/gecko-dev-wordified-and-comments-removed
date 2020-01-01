@@ -1270,6 +1270,7 @@ comdlg32
 imm32
 winmm
 wsock32
+msimg32
 )
 ifneq
 (

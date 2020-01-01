@@ -6,11 +6,11 @@ define
 CAIRO_QUARTZ_PRIVATE_H
 #
 include
-<
+"
 cairoint
 .
 h
->
+"
 #
 ifdef
 CAIRO_HAS_QUARTZ_SURFACE

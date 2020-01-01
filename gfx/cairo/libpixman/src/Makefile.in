@@ -492,8 +492,6 @@ CSRCS
 pixman
 -
 compose
--
-accessors
 .
 c
 \
@@ -501,7 +499,7 @@ pixman
 -
 compose
 -
-noaccessors
+accessors
 .
 c
 \
@@ -516,8 +514,6 @@ c
 pixman
 -
 edge
--
-accessors
 .
 c
 \
@@ -525,7 +521,7 @@ pixman
 -
 edge
 -
-noaccessors
+accessors
 .
 c
 \

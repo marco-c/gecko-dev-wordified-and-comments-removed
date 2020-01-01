@@ -1,9 +1,5 @@
 #
 define
-_cairo_image_surface_nil_invalid_format
-__moz__cairo_image_surface_nil_invalid_format
-#
-define
 cairo_append_path
 _moz_cairo_append_path
 #
@@ -888,6 +884,10 @@ cairo_stroke_to_path
 _moz_cairo_stroke_to_path
 #
 define
+cairo_surface_copy_page
+_moz_cairo_surface_copy_page
+#
+define
 cairo_surface_create_similar
 _moz_cairo_surface_create_similar
 #
@@ -950,6 +950,10 @@ _moz_cairo_surface_set_fallback_resolution
 define
 cairo_surface_set_user_data
 _moz_cairo_surface_set_user_data
+#
+define
+cairo_surface_show_page
+_moz_cairo_surface_show_page
 #
 define
 cairo_surface_status

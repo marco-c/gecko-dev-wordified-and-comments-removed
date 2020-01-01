@@ -47,6 +47,15 @@ unsupported
 ;
 cairo_private
 cairo_bool_t
+_cairo_analysis_surface_has_supported
+(
+cairo_surface_t
+*
+unsupported
+)
+;
+cairo_private
+cairo_bool_t
 _cairo_analysis_surface_has_unsupported
 (
 cairo_surface_t

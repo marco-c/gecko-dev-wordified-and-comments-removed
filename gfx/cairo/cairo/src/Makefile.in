@@ -866,6 +866,16 @@ win32
 surface
 .
 c
+\
+cairo
+-
+win32
+-
+printing
+-
+surface
+.
+c
 EXPORTS
 +
 =

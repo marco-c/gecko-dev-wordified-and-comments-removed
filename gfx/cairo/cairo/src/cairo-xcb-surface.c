@@ -8391,7 +8391,6 @@ glyph_info
 .
 x
 =
--
 _cairo_lround
 (
 glyph_surface
@@ -8408,7 +8407,6 @@ glyph_info
 .
 y
 =
--
 _cairo_lround
 (
 glyph_surface

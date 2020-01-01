@@ -4,7 +4,6 @@ CAIRO_PATH_FIXED_PRIVATE_H
 #
 define
 CAIRO_PATH_FIXED_PRIVATE_H
-typedef
 enum
 cairo_path_op
 {
@@ -21,12 +20,9 @@ CAIRO_PATH_OP_CLOSE_PATH
 =
 3
 }
-__attribute__
-(
-(
-packed
-)
-)
+;
+typedef
+char
 cairo_path_op_t
 ;
 #
