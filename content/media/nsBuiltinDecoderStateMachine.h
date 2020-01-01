@@ -724,9 +724,6 @@ PRPackedBool
 mAudioCompleted
 ;
 PRPackedBool
-mBufferExhausted
-;
-PRPackedBool
 mGotDurationFromMetaData
 ;
 PRPackedBool
