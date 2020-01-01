@@ -447,6 +447,10 @@ mk
 _TEST_FILES
 =
 \
+test_select
+.
+html
+\
 test_zoom
 .
 html
