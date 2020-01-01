@@ -248,7 +248,7 @@ back
 )
 )
 ;
-u_int64_t
+uint64_t
 stack_pointer
 =
 last_frame
@@ -281,7 +281,7 @@ return
 NULL
 ;
 }
-u_int32_t
+uint32_t
 instruction
 ;
 if
@@ -310,7 +310,7 @@ return
 NULL
 ;
 }
-u_int32_t
+uint32_t
 stack_base
 ;
 if

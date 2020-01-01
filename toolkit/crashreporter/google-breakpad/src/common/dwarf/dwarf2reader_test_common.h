@@ -217,7 +217,7 @@ private
 size_t
 format_size_
 ;
-u_int64_t
+uint64_t
 post_length_offset_
 ;
 Label

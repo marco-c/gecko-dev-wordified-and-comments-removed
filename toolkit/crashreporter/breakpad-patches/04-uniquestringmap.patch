@@ -1027,7 +1027,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 &
 expected
@@ -1038,7 +1038,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 &
 actual
@@ -1050,7 +1050,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -1067,7 +1067,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 &
 expected
@@ -1078,7 +1078,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 &
 actual_regmap
@@ -1093,7 +1093,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 actual
 ;
@@ -1116,7 +1116,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 :
 :
@@ -1198,7 +1198,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -1214,7 +1214,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 :
 :
@@ -1278,7 +1278,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 current_registers
 ;
@@ -1287,7 +1287,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 caller_registers
 ;
@@ -1297,7 +1297,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 expected_caller_registers
 ;
@@ -1310,7 +1310,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 expected_caller_registers
 ;
@@ -2836,7 +2836,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -2959,7 +2959,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -3182,7 +3182,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -3381,7 +3381,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -3470,7 +3470,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -3607,7 +3607,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -3696,7 +3696,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -3892,7 +3892,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -4082,7 +4082,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -4354,7 +4354,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -4609,7 +4609,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 &
 expected
@@ -4620,7 +4620,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 &
 actual
@@ -4632,7 +4632,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -4649,7 +4649,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 &
 expected
@@ -4660,7 +4660,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 &
 actual_regmap
@@ -4675,7 +4675,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 actual
 ;
@@ -4698,7 +4698,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 :
 :
@@ -4780,7 +4780,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -4796,7 +4796,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 :
 :
@@ -4860,7 +4860,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 current_registers
 ;
@@ -4869,7 +4869,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 caller_registers
 ;
@@ -4879,7 +4879,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 expected_caller_registers
 ;
@@ -4892,7 +4892,7 @@ map
 const
 UniqueString
 *
-u_int32_t
+uint32_t
 >
 expected_caller_registers
 ;
@@ -7388,7 +7388,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 callee_registers
 ;
@@ -7483,7 +7483,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 caller_registers
 ;
@@ -7542,7 +7542,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -7580,7 +7580,7 @@ found
 false
 ;
 +
-u_int32_t
+uint32_t
 v
 =
 caller_registers
@@ -7760,7 +7760,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -7797,7 +7797,7 @@ found
 false
 ;
 +
-u_int32_t
+uint32_t
 v
 =
 caller_registers
@@ -8013,7 +8013,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -8050,7 +8050,7 @@ found
 false
 ;
 +
-u_int32_t
+uint32_t
 v
 =
 caller_registers
@@ -8170,7 +8170,7 @@ here
 .
 PostfixEvaluator
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -8379,7 +8379,7 @@ last_frame_info
 local_size
 )
 ;
-u_int32_t
+uint32_t
 raSearchStart
 =
 last_frame
@@ -8528,7 +8528,7 @@ Evaluate
 8
 PostfixEvaluator
 <
-u_int32_t
+uint32_t
 >
 (
 &
@@ -8538,7 +8538,7 @@ memory_
 ;
 PostfixEvaluator
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -8928,7 +8928,7 @@ memory
 pages
 .
 -
-u_int32_t
+uint32_t
 eip
 =
 dictionary
@@ -8939,7 +8939,7 @@ ustr__ZSeip
 ]
 ;
 +
-u_int32_t
+uint32_t
 eip
 =
 dictionary
@@ -8991,7 +8991,7 @@ that
 location
 .
 -
-u_int32_t
+uint32_t
 location_start
 =
 dictionary
@@ -9004,7 +9004,7 @@ ustr__ZDraSearchStart
 4
 ;
 +
-u_int32_t
+uint32_t
 location_start
 =
 dictionary
@@ -9018,7 +9018,7 @@ ustr__ZDraSearchStart
 +
 4
 ;
-u_int32_t
+uint32_t
 location
 ;
 if
@@ -9175,7 +9175,7 @@ ebp
 early
 .
 -
-u_int32_t
+uint32_t
 ebp
 =
 dictionary
@@ -9186,7 +9186,7 @@ ustr__ZSebp
 ]
 ;
 +
-u_int32_t
+uint32_t
 ebp
 =
 dictionary

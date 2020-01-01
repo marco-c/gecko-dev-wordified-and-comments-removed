@@ -52,7 +52,7 @@ char
 in
 vector
 <
-u_int16_t
+uint16_t
 >
 *
 out
@@ -67,7 +67,7 @@ char
 in
 int
 in_length
-u_int16_t
+uint16_t
 out
 [
 2
@@ -83,7 +83,7 @@ wchar_t
 in
 vector
 <
-u_int16_t
+uint16_t
 >
 *
 out
@@ -94,7 +94,7 @@ UTF32ToUTF16Char
 (
 wchar_t
 in
-u_int16_t
+uint16_t
 out
 [
 2
@@ -107,7 +107,7 @@ UTF16ToUTF8
 const
 vector
 <
-u_int16_t
+uint16_t
 >
 &
 in

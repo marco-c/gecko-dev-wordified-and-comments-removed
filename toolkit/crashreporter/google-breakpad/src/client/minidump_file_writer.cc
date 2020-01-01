@@ -349,7 +349,7 @@ wchar_t
 =
 sizeof
 (
-u_int16_t
+uint16_t
 )
 )
 {
@@ -375,7 +375,7 @@ length
 }
 else
 {
-u_int16_t
+uint16_t
 out
 [
 2
@@ -437,7 +437,7 @@ out_size
 =
 sizeof
 (
-u_int16_t
+uint16_t
 )
 *
 out_count
@@ -491,7 +491,7 @@ result
 =
 true
 ;
-u_int16_t
+uint16_t
 out
 [
 2
@@ -555,7 +555,7 @@ out_size
 =
 sizeof
 (
-u_int16_t
+uint16_t
 )
 *
 out_count
@@ -669,7 +669,7 @@ mdstring_length
 1
 sizeof
 (
-u_int16_t
+uint16_t
 )
 )
 )
@@ -687,14 +687,14 @@ length
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 mdstring_length
 *
 sizeof
 (
-u_int16_t
+uint16_t
 )
 )
 ;
@@ -714,7 +714,7 @@ if
 result
 )
 {
-u_int16_t
+uint16_t
 ch
 =
 0
@@ -877,7 +877,7 @@ start_of_memory_range
 =
 reinterpret_cast
 <
-u_int64_t
+uint64_t
 >
 (
 src

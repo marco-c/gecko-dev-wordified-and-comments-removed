@@ -620,7 +620,7 @@ size
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -636,7 +636,7 @@ size
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -652,7 +652,7 @@ size
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -668,7 +668,7 @@ size
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -684,7 +684,7 @@ size
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -700,7 +700,7 @@ size
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -804,7 +804,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -820,7 +820,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -836,7 +836,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -852,7 +852,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -868,7 +868,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -884,7 +884,7 @@ dest
 =
 SimpleSerializer
 <
-u_int32_t
+uint32_t
 >
 :
 :

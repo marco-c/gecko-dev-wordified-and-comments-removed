@@ -59,7 +59,7 @@ char
 in
 vector
 <
-u_int16_t
+uint16_t
 >
 *
 out
@@ -119,7 +119,7 @@ source_length
 0
 )
 ;
-u_int16_t
+uint16_t
 *
 target_ptr
 =
@@ -132,7 +132,7 @@ out
 0
 ]
 ;
-u_int16_t
+uint16_t
 *
 target_end_ptr
 =
@@ -147,7 +147,7 @@ capacity
 *
 sizeof
 (
-u_int16_t
+uint16_t
 )
 ;
 ConversionResult
@@ -200,7 +200,7 @@ char
 in
 int
 in_length
-u_int16_t
+uint16_t
 out
 [
 2
@@ -234,13 +234,13 @@ sizeof
 char
 )
 ;
-u_int16_t
+uint16_t
 *
 target_ptr
 =
 out
 ;
-u_int16_t
+uint16_t
 *
 target_end_ptr
 =
@@ -250,7 +250,7 @@ target_ptr
 *
 sizeof
 (
-u_int16_t
+uint16_t
 )
 ;
 out
@@ -358,7 +358,7 @@ wchar_t
 in
 vector
 <
-u_int16_t
+uint16_t
 >
 *
 out
@@ -418,7 +418,7 @@ source_length
 0
 )
 ;
-u_int16_t
+uint16_t
 *
 target_ptr
 =
@@ -431,7 +431,7 @@ out
 0
 ]
 ;
-u_int16_t
+uint16_t
 *
 target_end_ptr
 =
@@ -446,7 +446,7 @@ capacity
 *
 sizeof
 (
-u_int16_t
+uint16_t
 )
 ;
 ConversionResult
@@ -495,7 +495,7 @@ UTF32ToUTF16Char
 (
 wchar_t
 in
-u_int16_t
+uint16_t
 out
 [
 2
@@ -527,13 +527,13 @@ source_ptr
 +
 1
 ;
-u_int16_t
+uint16_t
 *
 target_ptr
 =
 out
 ;
-u_int16_t
+uint16_t
 *
 target_end_ptr
 =
@@ -543,7 +543,7 @@ target_ptr
 *
 sizeof
 (
-u_int16_t
+uint16_t
 )
 ;
 out
@@ -596,10 +596,10 @@ out
 }
 static
 inline
-u_int16_t
+uint16_t
 Swap
 (
-u_int16_t
+uint16_t
 value
 )
 {
@@ -613,7 +613,7 @@ value
 |
 static_cast
 <
-u_int16_t
+uint16_t
 >
 (
 value
@@ -629,7 +629,7 @@ UTF16ToUTF8
 const
 vector
 <
-u_int16_t
+uint16_t
 >
 &
 in
@@ -650,7 +650,7 @@ in
 ;
 scoped_ptr
 <
-u_int16_t
+uint16_t
 >
 source_buffer
 ;
@@ -669,7 +669,7 @@ source_buffer
 reset
 (
 new
-u_int16_t
+uint16_t
 [
 in
 .
@@ -693,7 +693,7 @@ for
 (
 vector
 <
-u_int16_t
+uint16_t
 >
 :
 :

@@ -646,7 +646,7 @@ fds
 )
 ;
 const
-u_int32_t
+uint32_t
 memory_size
 =
 sysconf
@@ -666,7 +666,7 @@ module
 "
 ;
 const
-u_int8_t
+uint8_t
 kModuleGUID
 [
 sizeof
@@ -1101,7 +1101,7 @@ debug_identifier
 )
 )
 ;
-u_int32_t
+uint32_t
 len
 ;
 EXPECT_TRUE
@@ -1288,7 +1288,7 @@ module
 "
 ;
 const
-u_int8_t
+uint8_t
 kModuleGUID
 [
 sizeof
@@ -2439,7 +2439,7 @@ fds
 )
 ;
 const
-u_int32_t
+uint32_t
 kMemorySize
 =
 sysconf
@@ -2447,12 +2447,12 @@ sysconf
 _SC_PAGESIZE
 )
 ;
-u_int8_t
+uint8_t
 *
 memory
 =
 new
-u_int8_t
+uint8_t
 [
 kMemorySize
 ]
@@ -2476,7 +2476,7 @@ memory
 ;
 for
 (
-u_int32_t
+uint32_t
 i
 =
 0

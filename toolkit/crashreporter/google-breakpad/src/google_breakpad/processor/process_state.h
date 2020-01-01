@@ -113,7 +113,7 @@ Clear
 (
 )
 ;
-u_int32_t
+uint32_t
 time_date_stamp
 (
 )
@@ -143,7 +143,7 @@ return
 crash_reason_
 ;
 }
-u_int64_t
+uint64_t
 crash_address
 (
 )
@@ -248,7 +248,7 @@ friend
 class
 MinidumpProcessor
 ;
-u_int32_t
+uint32_t
 time_date_stamp_
 ;
 bool
@@ -257,7 +257,7 @@ crashed_
 string
 crash_reason_
 ;
-u_int64_t
+uint64_t
 crash_address_
 ;
 string

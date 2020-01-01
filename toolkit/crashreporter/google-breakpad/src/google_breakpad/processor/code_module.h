@@ -45,7 +45,7 @@ CodeModule
 {
 }
 virtual
-u_int64_t
+uint64_t
 base_address
 (
 )
@@ -54,7 +54,7 @@ const
 0
 ;
 virtual
-u_int64_t
+uint64_t
 size
 (
 )

@@ -3283,7 +3283,7 @@ stderr
 for
 (
 const
-u_int8_t
+uint8_t
 *
 ptr
 =
@@ -3310,12 +3310,12 @@ length
 )
 {
 const
-u_int8_t
+uint8_t
 *
 eol
 =
 (
-u_int8_t
+uint8_t
 *
 )
 memchr

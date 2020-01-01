@@ -20,6 +20,17 @@ include
 "
 google_breakpad
 /
+common
+/
+breakpad_types
+.
+h
+"
+#
+include
+"
+google_breakpad
+/
 processor
 /
 source_line_resolver_base

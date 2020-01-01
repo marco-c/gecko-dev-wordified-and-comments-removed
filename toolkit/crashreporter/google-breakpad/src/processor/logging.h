@@ -180,14 +180,14 @@ ostream
 string
 HexString
 (
-u_int32_t
+uint32_t
 number
 )
 ;
 string
 HexString
 (
-u_int64_t
+uint64_t
 number
 )
 ;

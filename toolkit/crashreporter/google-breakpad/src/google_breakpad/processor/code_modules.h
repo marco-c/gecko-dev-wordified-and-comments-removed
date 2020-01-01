@@ -49,7 +49,7 @@ CodeModule
 *
 GetModuleForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 const

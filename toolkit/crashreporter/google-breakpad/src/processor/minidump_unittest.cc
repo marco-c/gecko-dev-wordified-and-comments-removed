@@ -403,7 +403,7 @@ header
 -
 >
 signature
-u_int32_t
+uint32_t
 (
 MD_HEADER_SIGNATURE
 )
@@ -613,7 +613,7 @@ header
 -
 >
 signature
-u_int32_t
+uint32_t
 (
 MD_HEADER_SIGNATURE
 )
@@ -867,7 +867,7 @@ dir
 stream_type
 )
 ;
-u_int32_t
+uint32_t
 stream_length
 ;
 ASSERT_TRUE
@@ -1112,7 +1112,7 @@ NULL
 EXPECT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_MEMORY_LIST_STREAM
 dir
@@ -1185,7 +1185,7 @@ GetSize
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 region1_bytes
 =
@@ -1248,7 +1248,7 @@ MDRawContextX86
 raw_context
 ;
 const
-u_int32_t
+uint32_t
 kExpectedEIP
 =
 0x6913f540
@@ -1492,7 +1492,7 @@ GetSize
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 region_bytes
 =
@@ -1569,7 +1569,7 @@ md_thread
 NULL
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE
@@ -1632,7 +1632,7 @@ GetSize
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 md_stack_bytes
 =
@@ -1682,7 +1682,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_CONTEXT_X86
 md_context
@@ -1693,7 +1693,7 @@ GetContextCPU
 )
 )
 ;
-u_int64_t
+uint64_t
 eip
 ;
 ASSERT_TRUE
@@ -1737,7 +1737,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 (
 MD_CONTEXT_X86_INTEGER
@@ -2041,7 +2041,7 @@ md_thread
 NULL
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE
@@ -2285,7 +2285,7 @@ md_thread
 NULL
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE
@@ -2503,7 +2503,7 @@ NULL
 EXPECT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_MODULE_LIST_STREAM
 dir
@@ -2782,7 +2782,7 @@ NULL
 EXPECT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_SYSTEM_INFO_STREAM
 dir
@@ -3517,7 +3517,7 @@ thread_count
 )
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE
@@ -3977,7 +3977,7 @@ MD_MEMORY_INFO_LIST_STREAM
 )
 ;
 const
-u_int64_t
+uint64_t
 kNumberOfEntries
 =
 1
@@ -4006,13 +4006,13 @@ kNumberOfEntries
 )
 ;
 const
-u_int64_t
+uint64_t
 kBaseAddress
 =
 0x1000
 ;
 const
-u_int64_t
+uint64_t
 kRegionSize
 =
 0x2000
@@ -4146,7 +4146,7 @@ NULL
 EXPECT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_MEMORY_INFO_LIST_STREAM
 dir
@@ -4478,7 +4478,7 @@ md_exception
 NULL
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE
@@ -4574,7 +4574,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_CONTEXT_X86
 md_context
@@ -4608,7 +4608,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 (
 MD_CONTEXT_X86_INTEGER
@@ -4927,7 +4927,7 @@ md_exception
 NULL
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE
@@ -5023,7 +5023,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_CONTEXT_X86
 md_context
@@ -5057,7 +5057,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 (
 MD_CONTEXT_X86_INTEGER
@@ -5410,7 +5410,7 @@ md_exception
 NULL
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE
@@ -5506,7 +5506,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_CONTEXT_X86
 md_context
@@ -5540,7 +5540,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 (
 MD_CONTEXT_X86
@@ -5845,7 +5845,7 @@ md_exception
 NULL
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE
@@ -6212,7 +6212,7 @@ md_exception
 NULL
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE
@@ -6308,7 +6308,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_CONTEXT_ARM
 md_context
@@ -6342,7 +6342,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_CONTEXT_ARM_INTEGER
 (
@@ -6817,7 +6817,7 @@ md_exception
 NULL
 )
 ;
-u_int32_t
+uint32_t
 thread_id
 ;
 ASSERT_TRUE
@@ -6913,7 +6913,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_CONTEXT_ARM
 md_context
@@ -6947,7 +6947,7 @@ NULL
 ASSERT_EQ
 (
 (
-u_int32_t
+uint32_t
 )
 MD_CONTEXT_ARM_INTEGER
 (

@@ -57,11 +57,11 @@ GUIDGenerator
 public
 :
 static
-u_int32_t
+uint32_t
 BytesToUInt32
 (
 const
-u_int8_t
+uint8_t
 bytes
 [
 ]
@@ -70,7 +70,7 @@ bytes
 return
 (
 (
-u_int32_t
+uint32_t
 )
 bytes
 [
@@ -79,7 +79,7 @@ bytes
 |
 (
 (
-u_int32_t
+uint32_t
 )
 bytes
 [
@@ -92,7 +92,7 @@ bytes
 |
 (
 (
-u_int32_t
+uint32_t
 )
 bytes
 [
@@ -105,7 +105,7 @@ bytes
 |
 (
 (
-u_int32_t
+uint32_t
 )
 bytes
 [
@@ -122,11 +122,11 @@ static
 void
 UInt32ToBytes
 (
-u_int8_t
+uint8_t
 bytes
 [
 ]
-u_int32_t
+uint32_t
 n
 )
 {
@@ -210,7 +210,7 @@ guid
 data2
 =
 (
-u_int16_t
+uint16_t
 )
 (
 random
@@ -224,7 +224,7 @@ guid
 data3
 =
 (
-u_int16_t
+uint16_t
 )
 (
 random

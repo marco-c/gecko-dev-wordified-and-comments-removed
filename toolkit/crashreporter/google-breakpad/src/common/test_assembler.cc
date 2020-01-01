@@ -59,7 +59,7 @@ Label
 :
 Label
 (
-u_int64_t
+uint64_t
 value
 )
 :
@@ -127,7 +127,7 @@ Label
 operator
 =
 (
-u_int64_t
+uint64_t
 value
 )
 {
@@ -182,7 +182,7 @@ Label
 operator
 +
 (
-u_int64_t
+uint64_t
 addend
 )
 const
@@ -215,7 +215,7 @@ Label
 operator
 -
 (
-u_int64_t
+uint64_t
 subtrahend
 )
 const
@@ -266,7 +266,7 @@ x
 )
 #
 endif
-u_int64_t
+uint64_t
 Label
 :
 :
@@ -280,7 +280,7 @@ label
 )
 const
 {
-u_int64_t
+uint64_t
 offset
 ;
 ALWAYS_EVALUATE_AND_ASSERT
@@ -297,7 +297,7 @@ return
 offset
 ;
 }
-u_int64_t
+uint64_t
 Label
 :
 :
@@ -306,7 +306,7 @@ Value
 )
 const
 {
-u_int64_t
+uint64_t
 v
 =
 0
@@ -331,7 +331,7 @@ Label
 :
 IsKnownConstant
 (
-u_int64_t
+uint64_t
 *
 value_p
 )
@@ -341,7 +341,7 @@ Binding
 *
 base
 ;
-u_int64_t
+uint64_t
 addend
 ;
 value_
@@ -388,7 +388,7 @@ const
 Label
 &
 label
-u_int64_t
+uint64_t
 *
 offset_p
 )
@@ -400,7 +400,7 @@ label_base
 *
 this_base
 ;
-u_int64_t
+uint64_t
 label_addend
 this_addend
 ;
@@ -484,7 +484,7 @@ Binding
 :
 Binding
 (
-u_int64_t
+uint64_t
 addend
 )
 :
@@ -555,7 +555,7 @@ Set
 Binding
 *
 binding
-u_int64_t
+uint64_t
 addend
 )
 {
@@ -604,7 +604,7 @@ if
 binding
 )
 {
-u_int64_t
+uint64_t
 binding_addend
 ;
 binding
@@ -698,7 +698,7 @@ Binding
 *
 *
 base
-u_int64_t
+uint64_t
 *
 addend
 )
@@ -718,7 +718,7 @@ Binding
 *
 final_base
 ;
-u_int64_t
+uint64_t
 final_addend
 ;
 base_
@@ -793,7 +793,7 @@ Endianness
 endianness
 size_t
 size
-u_int64_t
+uint64_t
 number
 Inserter
 dest
@@ -915,7 +915,7 @@ Endianness
 endianness
 size_t
 size
-u_int64_t
+uint64_t
 number
 )
 {
@@ -955,7 +955,7 @@ Label
 label
 )
 {
-u_int64_t
+uint64_t
 value
 ;
 if
@@ -1050,7 +1050,7 @@ e
 #
 bits
 (
-u_int
+uint
 #
 #
 bits
@@ -1212,7 +1212,7 @@ D
 #
 bits
 (
-u_int
+uint
 #
 #
 bits
@@ -1512,7 +1512,7 @@ Section
 :
 ULEB128
 (
-u_int64_t
+uint64_t
 value
 )
 {
@@ -1563,7 +1563,7 @@ Align
 (
 size_t
 alignment
-u_int8_t
+uint8_t
 pad_byte
 )
 {
@@ -1705,7 +1705,7 @@ references_
 i
 ]
 ;
-u_int64_t
+uint64_t
 value
 ;
 if

@@ -177,7 +177,7 @@ kRASearchWords
 =
 30
 ;
-u_int32_t
+uint32_t
 Stackwalker
 :
 :
@@ -468,7 +468,7 @@ cpu_stackwalker
 =
 NULL
 ;
-u_int32_t
+uint32_t
 cpu
 =
 context
@@ -660,7 +660,7 @@ Stackwalker
 :
 InstructionAddressSeemsValid
 (
-u_int64_t
+uint64_t
 address
 )
 {

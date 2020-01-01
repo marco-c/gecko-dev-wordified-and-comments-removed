@@ -133,7 +133,7 @@ static
 void
 set_max_frames
 (
-u_int32_t
+uint32_t
 max_frames
 )
 {
@@ -143,7 +143,7 @@ max_frames
 ;
 }
 static
-u_int32_t
+uint32_t
 max_frames
 (
 )
@@ -175,7 +175,7 @@ frame_symbolizer
 bool
 InstructionAddressSeemsValid
 (
-u_int64_t
+uint64_t
 address
 )
 ;
@@ -362,7 +362,7 @@ stack
 0
 ;
 static
-u_int32_t
+uint32_t
 max_frames_
 ;
 }

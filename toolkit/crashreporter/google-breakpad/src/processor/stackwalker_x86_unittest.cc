@@ -520,7 +520,7 @@ MDRawContextX86
 raw_context
 )
 {
-u_int8_t
+uint8_t
 x
 =
 173
@@ -546,7 +546,7 @@ i
 )
 reinterpret_cast
 <
-u_int8_t
+uint8_t
 *
 >
 (

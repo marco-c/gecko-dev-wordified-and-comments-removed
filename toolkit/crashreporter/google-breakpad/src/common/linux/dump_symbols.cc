@@ -231,6 +231,9 @@ scoped_ptr
 h
 "
 #
+ifndef
+NO_STABS_SUPPORT
+#
 include
 "
 common
@@ -248,6 +251,8 @@ stabs_to_module
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -319,12 +324,17 @@ google_breakpad
 :
 Module
 ;
+#
+ifndef
+NO_STABS_SUPPORT
 using
 google_breakpad
 :
 :
 StabsToModule
 ;
+#
+endif
 using
 google_breakpad
 :
@@ -600,6 +610,9 @@ return
 0
 ;
 }
+#
+ifndef
+NO_STABS_SUPPORT
 template
 <
 typename
@@ -727,6 +740,8 @@ return
 true
 ;
 }
+#
+endif
 class
 DumperLineToModule
 :
@@ -2622,6 +2637,9 @@ symbol_data
 ONLY_CFI
 )
 {
+#
+ifndef
+NO_STABS_SUPPORT
 const
 Shdr
 *
@@ -2740,6 +2758,8 @@ c_str
 }
 }
 }
+#
+endif
 const
 Shdr
 *
@@ -3244,6 +3264,7 @@ c_str
 }
 }
 else
+{
 if
 (
 symbol_data
@@ -3385,6 +3406,7 @@ found_usable_info
 |
 result
 ;
+}
 }
 return
 found_usable_info

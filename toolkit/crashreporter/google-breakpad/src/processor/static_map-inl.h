@@ -76,7 +76,7 @@ num_nodes_
 reinterpret_cast
 <
 const
-u_int32_t
+uint32_t
 *
 >
 (
@@ -89,7 +89,7 @@ offsets_
 reinterpret_cast
 <
 const
-u_int32_t
+uint32_t
 *
 >
 (
@@ -120,7 +120,7 @@ num_nodes_
 *
 sizeof
 (
-u_int32_t
+uint32_t
 )
 )
 ;
@@ -574,7 +574,7 @@ if
 num_nodes_
 )
 {
-u_int64_t
+uint64_t
 first_offset
 =
 sizeof
@@ -632,7 +632,7 @@ node_index
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 first_offset

@@ -148,7 +148,7 @@ l
 0x060b9f974eaf301eULL
 )
 ;
-u_int64_t
+uint64_t
 v
 ;
 EXPECT_TRUE
@@ -194,7 +194,7 @@ m
 l
 )
 ;
-u_int64_t
+uint64_t
 v
 ;
 EXPECT_TRUE
@@ -248,7 +248,7 @@ m
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -316,7 +316,7 @@ m
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -383,7 +383,7 @@ m
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -461,7 +461,7 @@ n
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -534,7 +534,7 @@ o
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -1092,7 +1092,7 @@ l
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -1149,7 +1149,7 @@ l
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -1210,7 +1210,7 @@ l
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -1283,7 +1283,7 @@ l
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -1352,7 +1352,7 @@ l
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -1414,7 +1414,7 @@ l
 )
 )
 ;
-u_int64_t
+uint64_t
 d
 ;
 EXPECT_TRUE
@@ -2296,7 +2296,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x111U
 a
@@ -2308,7 +2308,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x110U
 b
@@ -2320,7 +2320,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x100U
 c
@@ -2332,7 +2332,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0U
 d
@@ -2382,7 +2382,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x111U
 a
@@ -2394,7 +2394,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x110U
 b
@@ -2406,7 +2406,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x100U
 c
@@ -2418,7 +2418,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0U
 d
@@ -2468,7 +2468,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x111U
 a
@@ -2480,7 +2480,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x110U
 b
@@ -2492,7 +2492,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x100U
 c
@@ -2504,7 +2504,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x000U
 d
@@ -2554,7 +2554,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x111U
 a
@@ -2566,7 +2566,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x110U
 b
@@ -2578,7 +2578,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x100U
 c
@@ -2590,7 +2590,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x000U
 d
@@ -3291,7 +3291,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x111U
 a
@@ -3303,7 +3303,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x110U
 b
@@ -3315,7 +3315,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x100U
 c
@@ -3327,7 +3327,7 @@ EXPECT_EQ
 (
 -
 (
-u_int64_t
+uint64_t
 )
 0x000U
 d
@@ -3735,7 +3735,7 @@ contents
 ;
 static
 const
-u_int8_t
+uint8_t
 data
 [
 ]
@@ -3748,7 +3748,7 @@ data_size
 }
 ;
 const
-u_int8_t
+uint8_t
 SectionFixture
 :
 :
@@ -3939,7 +3939,7 @@ do
 \
 static
 const
-u_int8_t
+uint8_t
 expected_bytes
 [
 ]
@@ -7820,7 +7820,7 @@ contents
 ;
 static
 const
-u_int8_t
+uint8_t
 expected
 [
 ]

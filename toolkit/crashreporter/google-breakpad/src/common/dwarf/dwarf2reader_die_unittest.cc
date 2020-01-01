@@ -1469,7 +1469,7 @@ dwarf2reader
 DW_FORM_addr
 )
 ;
-u_int64_t
+uint64_t
 value
 ;
 if
@@ -1898,7 +1898,7 @@ dwarf2reader
 DW_FORM_sec_offset
 )
 ;
-u_int64_t
+uint64_t
 value
 ;
 if

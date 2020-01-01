@@ -182,7 +182,7 @@ unknown
 }
 ;
 virtual
-u_int64_t
+uint64_t
 ReturnAddress
 (
 )
@@ -192,7 +192,7 @@ return
 instruction
 ;
 }
-u_int64_t
+uint64_t
 instruction
 ;
 const
@@ -203,7 +203,7 @@ module
 string
 function_name
 ;
-u_int64_t
+uint64_t
 function_base
 ;
 string
@@ -212,7 +212,7 @@ source_file_name
 int
 source_line
 ;
-u_int64_t
+uint64_t
 source_line_base
 ;
 FrameTrust

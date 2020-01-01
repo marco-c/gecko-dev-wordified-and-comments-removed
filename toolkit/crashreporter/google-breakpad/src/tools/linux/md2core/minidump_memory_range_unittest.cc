@@ -33,7 +33,7 @@ Message
 namespace
 {
 const
-u_int32_t
+uint32_t
 kBuffer
 [
 10
@@ -53,14 +53,14 @@ kBuffer
 )
 ;
 const
-u_int8_t
+uint8_t
 *
 kBufferPointer
 =
 reinterpret_cast
 <
 const
-u_int8_t
+uint8_t
 *
 >
 (
@@ -1295,7 +1295,7 @@ MinidumpMemoryRangeTest
 GetAsciiMDString
 )
 {
-u_int8_t
+uint8_t
 buffer
 [
 100
@@ -1405,7 +1405,7 @@ length
 *
 sizeof
 (
-u_int16_t
+uint16_t
 )
 ;
 md_str

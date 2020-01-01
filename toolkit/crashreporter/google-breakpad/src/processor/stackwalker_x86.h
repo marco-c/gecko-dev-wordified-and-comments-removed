@@ -103,7 +103,7 @@ private
 typedef
 SimpleCFIWalker
 <
-u_int32_t
+uint32_t
 MDRawContextX86
 >
 CFIWalker

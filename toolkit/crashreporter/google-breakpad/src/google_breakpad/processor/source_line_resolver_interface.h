@@ -58,7 +58,7 @@ SourceLineResolverInterface
 public
 :
 typedef
-u_int64_t
+uint64_t
 MemAddr
 ;
 virtual

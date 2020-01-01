@@ -484,7 +484,7 @@ cfi_frame_info
 NULL
 ;
 }
-u_int64_t
+uint64_t
 StackFrameX86
 :
 :
@@ -669,7 +669,7 @@ VALID_ALL
 return
 NULL
 ;
-u_int32_t
+uint32_t
 last_frame_callee_parameter_size
 =
 0
@@ -748,7 +748,7 @@ parameter_size
 }
 PostfixEvaluator
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -821,7 +821,7 @@ last_frame_info
 local_size
 )
 ;
-u_int32_t
+uint32_t
 raSearchStart
 =
 last_frame
@@ -843,12 +843,12 @@ last_frame_info
 >
 saved_register_size
 ;
-u_int32_t
+uint32_t
 raSearchStartOld
 =
 raSearchStart
 ;
-u_int32_t
+uint32_t
 found
 =
 0
@@ -1070,13 +1070,13 @@ false
 }
 PostfixEvaluator
 <
-u_int32_t
+uint32_t
 >
 evaluator
 =
 PostfixEvaluator
 <
-u_int32_t
+uint32_t
 >
 (
 &
@@ -1086,7 +1086,7 @@ memory_
 ;
 PostfixEvaluator
 <
-u_int32_t
+uint32_t
 >
 :
 :
@@ -1128,7 +1128,7 @@ ustr__ZSesp
 )
 )
 {
-u_int32_t
+uint32_t
 location_start
 =
 last_frame
@@ -1138,7 +1138,7 @@ context
 .
 esp
 ;
-u_int32_t
+uint32_t
 location
 eip
 ;
@@ -1222,7 +1222,7 @@ offset
 =
 0
 ;
-u_int32_t
+uint32_t
 eip
 =
 dictionary
@@ -1249,7 +1249,7 @@ eip
 )
 )
 {
-u_int32_t
+uint32_t
 location_start
 =
 dictionary
@@ -1263,7 +1263,7 @@ ustr__ZDraSearchStart
 +
 4
 ;
-u_int32_t
+uint32_t
 location
 ;
 if
@@ -1320,7 +1320,7 @@ if
 recover_ebp
 )
 {
-u_int32_t
+uint32_t
 ebp
 =
 dictionary
@@ -1353,7 +1353,7 @@ raSearchStart
 offset
 )
 ;
-u_int32_t
+uint32_t
 value
 ;
 if
@@ -1383,7 +1383,7 @@ saved_register_size
 +
 offset
 ;
-u_int32_t
+uint32_t
 location_end
 =
 last_frame
@@ -1397,7 +1397,7 @@ last_frame_callee_parameter_size
 ;
 for
 (
-u_int32_t
+uint32_t
 location
 =
 location_end
@@ -1865,7 +1865,7 @@ back
 )
 )
 ;
-u_int32_t
+uint32_t
 last_esp
 =
 last_frame
@@ -1875,7 +1875,7 @@ context
 .
 esp
 ;
-u_int32_t
+uint32_t
 last_ebp
 =
 last_frame
@@ -1885,7 +1885,7 @@ context
 .
 ebp
 ;
-u_int32_t
+uint32_t
 caller_eip
 caller_esp
 caller_ebp

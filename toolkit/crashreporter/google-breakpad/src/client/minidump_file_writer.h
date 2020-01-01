@@ -300,7 +300,7 @@ location
 {
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 size_

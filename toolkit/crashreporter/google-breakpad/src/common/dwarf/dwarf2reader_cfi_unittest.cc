@@ -14057,10 +14057,10 @@ unsigned
 int
 type
 ;
-u_int64_t
+uint64_t
 flags
 ;
-u_int64_t
+uint64_t
 address
 ;
 Label
@@ -14077,10 +14077,10 @@ unsigned
 int
 info
 ;
-u_int64_t
+uint64_t
 alignment
 ;
-u_int64_t
+uint64_t
 entry_size
 ;
 }

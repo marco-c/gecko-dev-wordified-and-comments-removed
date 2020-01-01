@@ -280,7 +280,7 @@ int32_t
 num_nodes_
 ;
 const
-u_int32_t
+uint32_t
 *
 offsets_
 ;

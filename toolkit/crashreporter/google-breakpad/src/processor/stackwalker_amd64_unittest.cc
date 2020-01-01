@@ -436,7 +436,7 @@ MDRawContextAMD64
 raw_context
 )
 {
-u_int8_t
+uint8_t
 x
 =
 173
@@ -462,7 +462,7 @@ i
 )
 reinterpret_cast
 <
-u_int8_t
+uint8_t
 *
 >
 (
@@ -895,12 +895,12 @@ start
 =
 0x8000000080000000ULL
 ;
-u_int64_t
+uint64_t
 return_address1
 =
 0x50000000b0000100ULL
 ;
-u_int64_t
+uint64_t
 return_address2
 =
 0x50000000b0000900ULL
@@ -1324,7 +1324,7 @@ start
 =
 0x8000000080000000ULL
 ;
-u_int64_t
+uint64_t
 return_address
 =
 0x50000000b0000110ULL
@@ -1696,7 +1696,7 @@ start
 =
 0x8000000080000000ULL
 ;
-u_int64_t
+uint64_t
 return_address
 =
 0x50000000b0000110ULL

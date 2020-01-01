@@ -477,14 +477,14 @@ raw
 )
 ;
 const
-u_int32_t
+uint32_t
 *
 para_uint32
 =
 reinterpret_cast
 <
 const
-u_int32_t
+uint32_t
 *
 >
 (
@@ -498,7 +498,7 @@ int32_t
 )
 )
 ;
-u_int32_t
+uint32_t
 prolog_size
 =
 para_uint32
@@ -507,7 +507,7 @@ para_uint32
 ]
 ;
 ;
-u_int32_t
+uint32_t
 epilog_size
 =
 para_uint32
@@ -515,7 +515,7 @@ para_uint32
 1
 ]
 ;
-u_int32_t
+uint32_t
 parameter_size
 =
 para_uint32
@@ -523,7 +523,7 @@ para_uint32
 2
 ]
 ;
-u_int32_t
+uint32_t
 saved_register_size
 =
 para_uint32
@@ -531,7 +531,7 @@ para_uint32
 3
 ]
 ;
-u_int32_t
+uint32_t
 local_size
 =
 para_uint32
@@ -539,7 +539,7 @@ para_uint32
 4
 ]
 ;
-u_int32_t
+uint32_t
 max_stack_size
 =
 para_uint32
@@ -620,14 +620,14 @@ return
 false
 ;
 const
-u_int32_t
+uint32_t
 *
 map_sizes
 =
 reinterpret_cast
 <
 const
-u_int32_t
+uint32_t
 *
 >
 (

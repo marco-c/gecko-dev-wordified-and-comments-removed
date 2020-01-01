@@ -110,7 +110,7 @@ DumpRawStream
 Minidump
 *
 minidump
-u_int32_t
+uint32_t
 stream_type
 const
 char
@@ -121,7 +121,7 @@ int
 errors
 )
 {
-u_int32_t
+uint32_t
 length
 =
 0
@@ -244,7 +244,7 @@ length
 -
 current_offset
 ;
-u_int32_t
+uint32_t
 int_remaining
 =
 remaining

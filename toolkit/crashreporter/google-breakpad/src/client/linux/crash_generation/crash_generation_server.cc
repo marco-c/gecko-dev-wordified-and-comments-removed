@@ -324,7 +324,7 @@ char
 endptr
 ;
 const
-u_int64_t
+uint64_t
 inode_ul
 =
 strtoull

@@ -165,7 +165,7 @@ GetCrashReason
 Minidump
 *
 dump
-u_int64_t
+uint64_t
 *
 address
 )

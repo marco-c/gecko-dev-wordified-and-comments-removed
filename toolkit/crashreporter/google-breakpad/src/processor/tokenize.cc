@@ -27,6 +27,15 @@ h
 namespace
 google_breakpad
 {
+#
+ifdef
+_WIN32
+#
+define
+strtok_r
+strtok_s
+#
+endif
 using
 std
 :

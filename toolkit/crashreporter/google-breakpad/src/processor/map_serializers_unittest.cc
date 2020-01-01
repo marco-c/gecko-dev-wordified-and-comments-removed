@@ -149,7 +149,7 @@ EntryType
 >
 serializer_
 ;
-u_int32_t
+uint32_t
 serialized_size_
 ;
 char
@@ -174,7 +174,7 @@ correct_data
 0
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -233,7 +233,7 @@ correct_data
 6
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -329,7 +329,7 @@ correct_data
 15
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -455,7 +455,7 @@ EntryType
 >
 serializer_
 ;
-u_int32_t
+uint32_t
 serialized_size_
 ;
 char
@@ -480,7 +480,7 @@ correct_data
 0
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -539,7 +539,7 @@ correct_data
 6
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -622,7 +622,7 @@ correct_data
 8
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -751,7 +751,7 @@ EntryType
 >
 serializer_
 ;
-u_int32_t
+uint32_t
 serialized_size_
 ;
 char
@@ -776,7 +776,7 @@ correct_data
 0
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -833,7 +833,7 @@ correct_data
 6
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -907,7 +907,7 @@ correct_data
 3
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -1038,7 +1038,7 @@ EntryType
 >
 serializer_
 ;
-u_int32_t
+uint32_t
 serialized_size_
 ;
 char
@@ -1066,7 +1066,7 @@ correct_data
 0
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -1130,7 +1130,7 @@ correct_data
 0
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof
@@ -1232,7 +1232,7 @@ correct_data
 0
 }
 ;
-u_int32_t
+uint32_t
 correct_size
 =
 sizeof

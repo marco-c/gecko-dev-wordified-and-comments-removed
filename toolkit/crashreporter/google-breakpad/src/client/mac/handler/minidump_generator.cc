@@ -1663,7 +1663,7 @@ false
 ;
 }
 }
-u_int64_t
+uint64_t
 MinidumpGenerator
 :
 :
@@ -1804,7 +1804,7 @@ stack_location
 )
 ;
 }
-u_int64_t
+uint64_t
 MinidumpGenerator
 :
 :
@@ -2150,7 +2150,7 @@ stack_location
 )
 ;
 }
-u_int64_t
+uint64_t
 MinidumpGenerator
 :
 :
@@ -2181,7 +2181,7 @@ srr0
 )
 ;
 }
-u_int64_t
+uint64_t
 MinidumpGenerator
 :
 :
@@ -2932,7 +2932,7 @@ stack_location
 )
 ;
 }
-u_int64_t
+uint64_t
 MinidumpGenerator
 :
 :
@@ -2963,7 +2963,7 @@ eip
 )
 ;
 }
-u_int64_t
+uint64_t
 MinidumpGenerator
 :
 :
@@ -3353,7 +3353,7 @@ eflags
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 REGISTER_FROM_THREADSTATE
@@ -3927,7 +3927,7 @@ stateCount
 )
 )
 {
-u_int64_t
+uint64_t
 ip
 =
 CurrentPCForStack
@@ -5247,7 +5247,7 @@ size_of_image
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 image
@@ -5632,7 +5632,7 @@ size_of_image
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 seg
@@ -5882,7 +5882,7 @@ module_name_length
 1
 sizeof
 (
-u_int8_t
+uint8_t
 )
 )
 )
@@ -6531,7 +6531,7 @@ size_of_info
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 sizeof
@@ -6585,7 +6585,7 @@ process_user_time
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 usage
@@ -6602,7 +6602,7 @@ process_kernel_time
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 usage
@@ -6635,12 +6635,12 @@ process_id
 )
 }
 ;
-u_int
+uint
 mibsize
 =
 static_cast
 <
-u_int
+uint
 >
 (
 sizeof
@@ -6694,7 +6694,7 @@ process_create_time
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 proc
@@ -6747,7 +6747,7 @@ processor_max_mhz
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 speed
@@ -6762,7 +6762,7 @@ processor_mhz_limit
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 speed
@@ -6799,7 +6799,7 @@ processor_current_mhz
 =
 static_cast
 <
-u_int32_t
+uint32_t
 >
 (
 speed

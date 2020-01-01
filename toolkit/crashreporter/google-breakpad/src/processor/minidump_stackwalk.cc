@@ -290,7 +290,7 @@ const
 char
 *
 name
-u_int32_t
+uint32_t
 value
 int
 start_col
@@ -375,7 +375,7 @@ const
 char
 *
 name
-u_int64_t
+uint64_t
 value
 int
 start_col
@@ -640,7 +640,7 @@ printf
 frame_index
 )
 ;
-u_int64_t
+uint64_t
 instruction_address
 =
 frame
@@ -2173,7 +2173,7 @@ frame_index
 kOutputSeparator
 )
 ;
-u_int64_t
+uint64_t
 instruction_address
 =
 frame
@@ -2462,7 +2462,7 @@ n
 "
 )
 ;
-u_int64_t
+uint64_t
 main_address
 =
 0
@@ -2535,7 +2535,7 @@ GetModuleAtSequence
 module_sequence
 )
 ;
-u_int64_t
+uint64_t
 base_address
 =
 module
@@ -2664,7 +2664,7 @@ modules
 )
 return
 ;
-u_int64_t
+uint64_t
 main_address
 =
 0
@@ -2737,7 +2737,7 @@ GetModuleAtSequence
 module_sequence
 )
 ;
-u_int64_t
+uint64_t
 base_address
 =
 module

@@ -2260,7 +2260,7 @@ fpsr
 (
 static_cast
 <
-u_int64_t
+uint64_t
 >
 (
 info
@@ -3526,7 +3526,7 @@ defined
 (
 __x86_64
 )
-u_int64_t
+uint64_t
 bp
 =
 cpu
@@ -3534,7 +3534,7 @@ cpu
 >
 rbp
 ;
-u_int64_t
+uint64_t
 top
 =
 thread
@@ -3602,7 +3602,7 @@ top
 =
 bp
 ;
-u_int8_t
+uint8_t
 *
 bp_addr
 =
@@ -3922,7 +3922,7 @@ defined
 (
 __i386
 )
-u_int32_t
+uint32_t
 bp
 =
 cpu
@@ -3930,7 +3930,7 @@ cpu
 >
 ebp
 ;
-u_int32_t
+uint32_t
 top
 =
 thread
@@ -3998,7 +3998,7 @@ top
 =
 bp
 ;
-u_int8_t
+uint8_t
 *
 bp_addr
 =
@@ -4654,7 +4654,7 @@ kIPMemorySize
 =
 256
 ;
-u_int64_t
+uint64_t
 ip
 =
 GetInstructionPointer
@@ -5818,7 +5818,7 @@ MDRawModule
 &
 mod
 const
-u_int8_t
+uint8_t
 *
 identifier
 )

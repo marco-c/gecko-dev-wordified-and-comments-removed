@@ -30,12 +30,12 @@ DisassemblerX86
 DisassemblerX86
 (
 const
-u_int8_t
+uint8_t
 *
 bytecode
-u_int32_t
+uint32_t
 size
-u_int32_t
+uint32_t
 virtual_address
 )
 :
@@ -123,7 +123,7 @@ x86_cleanup
 )
 ;
 }
-u_int32_t
+uint32_t
 DisassemblerX86
 :
 :
@@ -160,7 +160,7 @@ return
 0
 ;
 }
-u_int32_t
+uint32_t
 instr_size
 =
 0

@@ -436,7 +436,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 callee_registers
 ;
@@ -495,7 +495,7 @@ CFIFrameInfo
 :
 RegisterValueMap
 <
-u_int32_t
+uint32_t
 >
 caller_registers
 ;
@@ -551,7 +551,7 @@ found
 =
 false
 ;
-u_int32_t
+uint32_t
 v
 =
 caller_registers
@@ -686,7 +686,7 @@ found
 =
 false
 ;
-u_int32_t
+uint32_t
 v
 =
 caller_registers
@@ -818,7 +818,7 @@ found
 =
 false
 ;
-u_int32_t
+uint32_t
 v
 =
 caller_registers
@@ -948,7 +948,7 @@ back
 )
 )
 ;
-u_int32_t
+uint32_t
 last_sp
 =
 last_frame
@@ -961,7 +961,7 @@ iregs
 MD_CONTEXT_ARM_REG_SP
 ]
 ;
-u_int32_t
+uint32_t
 caller_sp
 caller_pc
 ;
@@ -1142,7 +1142,7 @@ return
 NULL
 ;
 }
-u_int32_t
+uint32_t
 last_fp
 =
 last_frame
@@ -1155,7 +1155,7 @@ iregs
 fp_register_
 ]
 ;
-u_int32_t
+uint32_t
 caller_fp
 =
 0
@@ -1207,7 +1207,7 @@ return
 NULL
 ;
 }
-u_int32_t
+uint32_t
 caller_lr
 =
 0
@@ -1267,7 +1267,7 @@ return
 NULL
 ;
 }
-u_int32_t
+uint32_t
 caller_sp
 =
 last_fp

@@ -320,7 +320,7 @@ back
 )
 )
 ;
-u_int32_t
+uint32_t
 stack_pointer
 ;
 if
@@ -363,7 +363,7 @@ return
 NULL
 ;
 }
-u_int32_t
+uint32_t
 instruction
 ;
 if

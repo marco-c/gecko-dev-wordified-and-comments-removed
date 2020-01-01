@@ -345,7 +345,7 @@ MOCK_CONST_METHOD1
 GetThreadID
 bool
 (
-u_int32_t
+uint32_t
 *
 )
 )
@@ -380,7 +380,7 @@ public
 :
 MockMinidumpMemoryRegion
 (
-u_int64_t
+uint64_t
 base
 const
 string
@@ -402,7 +402,7 @@ contents
 )
 ;
 }
-u_int64_t
+uint64_t
 GetBase
 (
 )
@@ -416,7 +416,7 @@ GetBase
 )
 ;
 }
-u_int32_t
+uint32_t
 GetSize
 (
 )
@@ -433,9 +433,9 @@ GetSize
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int8_t
+uint8_t
 *
 value
 )
@@ -454,9 +454,9 @@ value
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int16_t
+uint16_t
 *
 value
 )
@@ -475,9 +475,9 @@ value
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int32_t
+uint32_t
 *
 value
 )
@@ -496,9 +496,9 @@ value
 bool
 GetMemoryAtAddress
 (
-u_int64_t
+uint64_t
 address
-u_int64_t
+uint64_t
 *
 value
 )
@@ -3230,7 +3230,7 @@ context_flags
 MD_CONTEXT_X86_FULL
 ;
 const
-u_int32_t
+uint32_t
 kExpectedEIP
 =
 0xabcd1234

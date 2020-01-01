@@ -82,7 +82,7 @@ guid
 data2
 =
 (
-u_int16_t
+uint16_t
 )
 (
 random
@@ -96,7 +96,7 @@ guid
 data3
 =
 (
-u_int16_t
+uint16_t
 )
 (
 random
@@ -107,7 +107,7 @@ random
 *
 reinterpret_cast
 <
-u_int32_t
+uint32_t
 *
 >
 (
@@ -128,7 +128,7 @@ random
 *
 reinterpret_cast
 <
-u_int32_t
+uint32_t
 *
 >
 (
@@ -219,7 +219,7 @@ data3
 reinterpret_cast
 <
 const
-u_int32_t
+uint32_t
 *
 >
 (
@@ -238,7 +238,7 @@ data4
 reinterpret_cast
 <
 const
-u_int32_t
+uint32_t
 *
 >
 (

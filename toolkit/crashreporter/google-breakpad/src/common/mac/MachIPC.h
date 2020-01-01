@@ -222,7 +222,7 @@ MachMessage
 {
 public
 :
-u_int8_t
+uint8_t
 *
 GetData
 (
@@ -245,7 +245,7 @@ data
 NULL
 ;
 }
-u_int32_t
+uint32_t
 GetDataLength
 (
 )
@@ -394,7 +394,7 @@ id
 int32_t
 data_length
 ;
-u_int8_t
+uint8_t
 data
 [
 1
@@ -437,7 +437,7 @@ head
 mach_msg_body_t
 body
 ;
-u_int8_t
+uint8_t
 padding
 [
 1024

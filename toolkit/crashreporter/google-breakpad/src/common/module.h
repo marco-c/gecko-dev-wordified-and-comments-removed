@@ -94,7 +94,7 @@ Module
 public
 :
 typedef
-u_int64_t
+uint64_t
 Address
 ;
 struct

@@ -370,7 +370,7 @@ demangleLen
 =
 20000
 ;
-u_int64_t
+uint64_t
 stringOffset
 =
 0

@@ -1395,7 +1395,7 @@ MD_CPU_ARCHITECTURE_AMD64
 endif
 ;
 const
-u_int32_t
+uint32_t
 kExpectedContext
 =
 #

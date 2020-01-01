@@ -34561,7 +34561,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -34634,7 +34634,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -34733,7 +34733,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -35001,7 +35001,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -35121,7 +35121,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -35217,7 +35217,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -35304,7 +35304,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -35407,7 +35407,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -35503,7 +35503,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -35599,7 +35599,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -35687,7 +35687,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -35817,7 +35817,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -35945,7 +35945,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -36114,7 +36114,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -36214,7 +36214,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers
@@ -36288,7 +36288,7 @@ cfi
 .
 FindCallerRegs
 <
-u_int64_t
+uint64_t
 >
 (
 registers

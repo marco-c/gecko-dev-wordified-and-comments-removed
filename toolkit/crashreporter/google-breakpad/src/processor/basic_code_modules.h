@@ -73,7 +73,7 @@ CodeModule
 *
 GetModuleForAddress
 (
-u_int64_t
+uint64_t
 address
 )
 const
@@ -122,12 +122,12 @@ const
 ;
 private
 :
-u_int64_t
+uint64_t
 main_address_
 ;
 RangeMap
 <
-u_int64_t
+uint64_t
 linked_ptr
 <
 const

@@ -134,7 +134,7 @@ StackFrameX86
 )
 ;
 virtual
-u_int64_t
+uint64_t
 ReturnAddress
 (
 )
@@ -341,7 +341,7 @@ CONTEXT_VALID_NONE
 {
 }
 virtual
-u_int64_t
+uint64_t
 ReturnAddress
 (
 )
