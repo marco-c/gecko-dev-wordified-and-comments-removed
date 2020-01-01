@@ -532,7 +532,7 @@ setNull
 (
 )
 ;
-StackIter
+NonBuiltinScriptFrameIter
 iter
 (
 cx
