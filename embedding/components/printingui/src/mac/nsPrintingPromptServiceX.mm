@@ -2438,6 +2438,13 @@ pageFormat
 accepted
 )
 ;
+printSettingsX
+-
+>
+CleanUpAfterCarbonDialog
+(
+)
+;
 if
 (
 status
@@ -3147,6 +3154,13 @@ printSession
 pageFormat
 &
 accepted
+)
+;
+printSettingsX
+-
+>
+CleanUpAfterCarbonDialog
+(
 )
 ;
 OSStatus
