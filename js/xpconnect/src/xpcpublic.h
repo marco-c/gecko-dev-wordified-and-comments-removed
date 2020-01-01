@@ -171,7 +171,8 @@ JSObject
 targetwrapper
 )
 ;
-nsresult
+JSObject
+*
 CreateGlobalObject
 (
 JSContext
@@ -185,14 +186,6 @@ nsIPrincipal
 principal
 bool
 wantXrays
-JSObject
-*
-*
-global
-JSCompartment
-*
-*
-compartment
 )
 ;
 }
