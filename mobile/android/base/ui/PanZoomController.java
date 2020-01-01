@@ -404,7 +404,6 @@ PANNING_HOLD
 PANNING_HOLD_LOCKED
 PINCHING
 ANIMATED_ZOOM
-BOUNCING
 }
 private
 PanZoomState
@@ -1101,12 +1100,12 @@ void
 geometryChanged
 (
 boolean
-aAbortFling
+abortAnimation
 )
 {
 if
 (
-aAbortFling
+abortAnimation
 )
 {
 switch
@@ -1135,6 +1134,9 @@ PanZoomState
 .
 NOTHING
 ;
+case
+ANIMATED_ZOOM
+:
 case
 NOTHING
 :
