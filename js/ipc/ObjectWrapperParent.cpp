@@ -1801,7 +1801,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -1942,7 +1942,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -2092,7 +2092,7 @@ JSHandleId
 id
 JSBool
 strict
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -2974,7 +2974,7 @@ JSHandleObject
 obj
 JSType
 type
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -3565,7 +3565,7 @@ JSContext
 cx
 JSHandleObject
 obj
-JSMutableHandleValue
+MutableHandleValue
 v
 JSBool
 *

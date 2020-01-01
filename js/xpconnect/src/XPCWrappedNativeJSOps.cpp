@@ -1934,7 +1934,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -2001,7 +2001,7 @@ JSHandleId
 id
 JSBool
 strict
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -2026,7 +2026,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -2075,7 +2075,7 @@ JSHandleId
 id
 JSBool
 strict
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -2100,7 +2100,7 @@ JSHandleObject
 obj
 JSType
 type
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -3218,7 +3218,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -3281,7 +3281,7 @@ JSHandleId
 id
 JSBool
 strict
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -3501,7 +3501,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -3562,7 +3562,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -3596,7 +3596,7 @@ JSHandleId
 id
 JSBool
 strict
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -3629,7 +3629,7 @@ JSHandleObject
 obj
 JSType
 type
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -3664,7 +3664,7 @@ JSHandleId
 id
 JSAccessMode
 mode
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -3922,7 +3922,7 @@ JSContext
 cx
 JSHandleObject
 obj
-JSMutableHandleValue
+MutableHandleValue
 valp
 JSBool
 *
@@ -4400,7 +4400,7 @@ JSHandleObject
 obj
 JSIterateOp
 enum_op
-JSMutableHandleValue
+MutableHandleValue
 statep
 MutableHandleId
 idp
@@ -6659,7 +6659,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
@@ -6770,7 +6770,7 @@ JSHandleId
 id
 JSBool
 strict
-JSMutableHandleValue
+MutableHandleValue
 vp
 )
 {
