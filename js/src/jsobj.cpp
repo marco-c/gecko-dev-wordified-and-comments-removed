@@ -14862,6 +14862,11 @@ obj
 )
 return
 ;
+js_LeaveTrace
+(
+cx
+)
+;
 PurgeProtoChain
 (
 cx
