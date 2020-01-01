@@ -438,13 +438,6 @@ buttons
 >
 <
 button
-class
-=
-"
-prompt
--
-button
-"
 label
 =
 "
@@ -463,13 +456,6 @@ cmd_ok
 >
 <
 button
-class
-=
-"
-prompt
--
-button
-"
 label
 =
 "

@@ -406,9 +406,6 @@ button
 class
 =
 "
-prompt
--
-button
 button
 -
 default
@@ -431,13 +428,6 @@ cmd_ok
 >
 <
 button
-class
-=
-"
-prompt
--
-button
-"
 label
 =
 "
