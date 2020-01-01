@@ -797,6 +797,9 @@ failed
 =
 true
 ;
+HRESULT
+hr
+;
 if
 (
 !
@@ -830,7 +833,6 @@ goto
 CleanUpIfFailed
 ;
 }
-HRESULT
 hr
 =
 d3d
