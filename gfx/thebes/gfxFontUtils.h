@@ -3040,7 +3040,7 @@ PRUint8
 aBuf
 PRUint32
 aBufLength
-PRUnichar
+PRUint32
 aCh
 )
 ;
