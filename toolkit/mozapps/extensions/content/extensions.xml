@@ -8088,6 +8088,14 @@ includeUpdate
 accesskey
 ;
 "
+oncommand
+=
+"
+toggleInstallUpdates
+(
+)
+;
+"
 /
 >
 <
