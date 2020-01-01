@@ -552,6 +552,16 @@ PasswordEngine
 )
 )
 ;
+Engines
+.
+register
+(
+new
+FormEngine
+(
+)
+)
+;
 Utils
 .
 prefs
