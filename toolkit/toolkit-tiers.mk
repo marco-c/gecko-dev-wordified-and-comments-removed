@@ -1080,6 +1080,15 @@ tools
 codesighs
 endif
 ifdef
+ENABLE_MARIONETTE
+tier_platform_dirs
++
+=
+testing
+/
+marionette
+endif
+ifdef
 ENABLE_TESTS
 tier_platform_dirs
 +
