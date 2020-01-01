@@ -2720,7 +2720,7 @@ support
 baseURL
 "
 "
-http
+https
 :
 /
 /
