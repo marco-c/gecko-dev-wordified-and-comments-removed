@@ -250,6 +250,10 @@ test_min_attribute
 .
 html
 \
+test_step_attribute
+.
+html
+\
 (
 NULL
 )
