@@ -7309,7 +7309,12 @@ otherHandler
 "
 )
 .
+getAttribute
+(
+"
 path
+"
+)
 ]
 )
 ;
