@@ -66,9 +66,6 @@ srcdir
 VPATH
 =
 srcdir
-FAIL_ON_WARNINGS
-=
-1
 include
 (
 DEPTH
@@ -88,6 +85,15 @@ nptest
 MODULE_NAME
 =
 TestPlugin
+ifndef
+_MSC_VER
+FAIL_ON_WARNINGS
+=
+1
+endif
+#
+!
+_MSC_VER
 DIRS
 =
 secondplugin
