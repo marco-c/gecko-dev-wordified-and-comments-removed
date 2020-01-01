@@ -819,9 +819,6 @@ JSTreeContext
 uint32
 flags
 ;
-uint16
-ngvars
-;
 uint32
 bodyid
 ;
@@ -910,10 +907,6 @@ prs
 )
 :
 flags
-(
-0
-)
-ngvars
 (
 0
 )
@@ -2068,8 +2061,8 @@ js
 :
 :
 UpvarCookie
-&
-cooke
+*
+cookie
 )
 ;
 bool

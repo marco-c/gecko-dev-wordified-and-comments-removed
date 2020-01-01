@@ -10030,6 +10030,7 @@ addGlobalUse
 (
 atom
 slot
+&
 cookie
 )
 )
@@ -11259,7 +11260,7 @@ atom
 uint32
 slot
 UpvarCookie
-&
+*
 cookie
 )
 {
@@ -11280,7 +11281,8 @@ ale
 )
 {
 cookie
-.
+-
+>
 set
 (
 0
@@ -11310,7 +11312,8 @@ UINT16_LIMIT
 )
 {
 cookie
-.
+-
+>
 makeFree
 (
 )
@@ -11338,7 +11341,8 @@ return
 false
 ;
 cookie
-.
+-
+>
 set
 (
 0
@@ -11398,7 +11402,8 @@ ALE_SET_INDEX
 (
 ale
 cookie
-.
+-
+>
 asInteger
 (
 )

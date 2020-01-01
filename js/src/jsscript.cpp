@@ -5396,11 +5396,6 @@ nvars
 cg
 -
 >
-ngvars
-+
-cg
--
->
 sharpSlots
 (
 )

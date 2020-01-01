@@ -4897,6 +4897,8 @@ JS_ASSERT_IF
 thread
 -
 >
+data
+.
 requestDepth
 thread
 -
@@ -4931,6 +4933,8 @@ JS_ASSERT
 thread
 -
 >
+data
+.
 requestDepth
 <
 =
@@ -5058,6 +5062,8 @@ cx
 thread
 -
 >
+data
+.
 requestDepth
 >
 =
@@ -5075,6 +5081,8 @@ cx
 thread
 -
 >
+data
+.
 requestDepth
 =
 =
@@ -10008,6 +10016,8 @@ acx
 thread
 -
 >
+data
+.
 requestDepth
 acx
 -
@@ -13655,6 +13665,8 @@ cx
 thread
 -
 >
+data
+.
 requestDepth
 ?
 1
@@ -13996,6 +14008,7 @@ data
 .
 triggerOperationCallback
 (
+rt
 )
 ;
 }
@@ -14008,6 +14021,8 @@ cx
 thread
 -
 >
+data
+.
 requestDepth
 ?
 1
@@ -14603,6 +14618,8 @@ cx
 thread
 -
 >
+data
+.
 requestDepth
 )
 ;

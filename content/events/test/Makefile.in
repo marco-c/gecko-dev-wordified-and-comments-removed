@@ -643,6 +643,10 @@ test_clickevent_on_input
 .
 html
 \
+test_bug593959
+.
+html
+\
 (
 NULL
 )
