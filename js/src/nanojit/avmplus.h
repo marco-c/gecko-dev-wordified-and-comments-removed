@@ -121,8 +121,6 @@ typedef
 JSWord
 intptr_t
 ;
-#
-endif
 typedef
 JSUint8
 uint8_t
@@ -139,6 +137,17 @@ typedef
 JSUint64
 uint64_t
 ;
+#
+else
+#
+include
+<
+stdint
+.
+h
+>
+#
+endif
 #
 if
 defined
