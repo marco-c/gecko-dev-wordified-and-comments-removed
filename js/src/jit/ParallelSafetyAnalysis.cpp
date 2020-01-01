@@ -3180,7 +3180,7 @@ pc
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 calleeTypes
 CallTargetVector
@@ -3376,7 +3376,7 @@ continue
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 calleeTypes
 =
@@ -3459,7 +3459,7 @@ pc
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 calleeTypes
 CallTargetVector

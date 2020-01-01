@@ -923,7 +923,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 Register
@@ -951,7 +951,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 Register
@@ -1167,7 +1167,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 Register

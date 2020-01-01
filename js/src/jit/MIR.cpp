@@ -1212,7 +1212,7 @@ false
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -1287,7 +1287,7 @@ false
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -2248,7 +2248,7 @@ v
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 jit
 :
@@ -2276,13 +2276,7 @@ lifoAlloc
 (
 )
 ;
-types
-:
-:
-StackTypeSet
-*
-types
-=
+return
 alloc
 -
 >
@@ -2291,25 +2285,9 @@ new_
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 >
 (
-)
-;
-if
-(
-!
-types
-)
-return
-NULL
-;
-types
-:
-:
-Type
-objectType
-=
 types
 :
 :
@@ -2320,22 +2298,7 @@ ObjectType
 (
 obj
 )
-;
-types
--
->
-addObject
-(
-objectType
-.
-objectKey
-(
 )
-alloc
-)
-;
-return
-types
 ;
 }
 MConstant
@@ -3110,7 +3073,7 @@ index
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 )
@@ -4307,7 +4270,7 @@ inline
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 MakeMIRTypeSet
 (
@@ -4377,7 +4340,7 @@ new_
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 >
 (
 ntype
@@ -4396,7 +4359,7 @@ ptype
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 *
 ptypeSet
@@ -4405,7 +4368,7 @@ newType
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 newTypeSet
 )
@@ -4709,7 +4672,7 @@ type
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 resultTypeSet
 =
@@ -4792,7 +4755,7 @@ type
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 typeSet
 )
@@ -4821,7 +4784,7 @@ type
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 resultTypeSet
 =
@@ -4913,7 +4876,7 @@ if
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -5227,7 +5190,7 @@ type
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 resultTypeSet
 =
@@ -8192,7 +8155,7 @@ lifoAlloc
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -8204,7 +8167,7 @@ new_
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 >
 (
 )
@@ -12892,7 +12855,7 @@ false
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 InlinePropertyTable
 :
@@ -12924,7 +12887,7 @@ lifoAlloc
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -12936,7 +12899,7 @@ new_
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 >
 (
 )
@@ -13780,7 +13743,7 @@ false
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -13885,7 +13848,7 @@ false
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -13948,7 +13911,7 @@ obj
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -13994,7 +13957,7 @@ obj
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -14067,7 +14030,7 @@ MIRType_None
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -15000,7 +14963,7 @@ noConstraints
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -15303,7 +15266,7 @@ current
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 objTypes
 jsid
@@ -15619,7 +15582,7 @@ false
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -15772,7 +15735,7 @@ false
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =

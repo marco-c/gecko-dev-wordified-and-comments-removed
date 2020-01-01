@@ -11398,7 +11398,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =
@@ -11760,7 +11760,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 types
 =

@@ -8343,7 +8343,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 barrierTypes
 =
@@ -8358,7 +8358,7 @@ const
 types
 :
 :
-StackTypeSet
+TemporaryTypeSet
 *
 inputTypes
 =
@@ -10859,10 +10859,13 @@ cx
 LifoAlloc
 alloc
 (
-JSCompartment
+types
 :
 :
-ANALYSIS_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
+TypeZone
+:
+:
+TYPE_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
 )
 ;
 TempAllocator
