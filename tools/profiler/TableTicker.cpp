@@ -1244,7 +1244,6 @@ aCx
 ;
 private
 :
-static
 void
 doBacktrace
 (
