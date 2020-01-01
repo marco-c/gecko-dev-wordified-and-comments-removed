@@ -1,7 +1,7 @@
 #
 include
 "
-jstypes
+jsapi
 .
 h
 "
@@ -9,6 +9,13 @@ h
 include
 "
 jspubtd
+.
+h
+"
+#
+include
+"
+jstypes
 .
 h
 "
