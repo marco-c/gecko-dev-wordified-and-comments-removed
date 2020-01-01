@@ -280,6 +280,7 @@ function
 CSPWarning
 (
 aMsg
+aWindowID
 aSource
 aScriptSample
 aLineNum
@@ -330,7 +331,7 @@ nsIScriptError
 ;
 consoleMsg
 .
-init
+initWithWindowID
 (
 textMessage
 aSource
@@ -349,6 +350,7 @@ Content
 Security
 Policy
 "
+aWindowID
 )
 ;
 Components
@@ -385,6 +387,7 @@ function
 CSPError
 (
 aMsg
+aWindowID
 )
 {
 var
@@ -432,7 +435,7 @@ nsIScriptError
 ;
 consoleMsg
 .
-init
+initWithWindowID
 (
 textMessage
 null
@@ -451,6 +454,7 @@ Content
 Security
 Policy
 "
+aWindowID
 )
 ;
 Components
