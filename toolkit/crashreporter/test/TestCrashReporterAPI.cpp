@@ -195,6 +195,7 @@ CrashReporter
 SetExceptionHandler
 (
 nsnull
+nsnull
 )
 )
 ;
