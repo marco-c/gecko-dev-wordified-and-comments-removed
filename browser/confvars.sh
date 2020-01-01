@@ -444,3 +444,6 @@ branding
 configure
 .
 sh
+MOZ_ENABLE_LIBXUL
+=
+1
