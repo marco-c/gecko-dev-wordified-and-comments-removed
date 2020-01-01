@@ -28972,6 +28972,10 @@ target
 while
 (
 node
+&
+&
+!
+href
 )
 {
 if
