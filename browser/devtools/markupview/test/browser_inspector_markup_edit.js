@@ -28,6 +28,11 @@ editor
 "
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 waitForExplicitFinish
 (
 )
