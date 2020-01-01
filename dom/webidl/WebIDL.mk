@@ -247,6 +247,10 @@ TextEncoder
 .
 webidl
 \
+URL
+.
+webidl
+\
 WebSocket
 .
 webidl

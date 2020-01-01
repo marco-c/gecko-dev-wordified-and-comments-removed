@@ -494,9 +494,6 @@ class
 nsDOMOfflineResourceList
 ;
 class
-nsDOMMozURLProperty
-;
-class
 nsDOMWindowUtils
 ;
 class
@@ -521,6 +518,9 @@ dom
 {
 class
 Navigator
+;
+class
+URL
 ;
 }
 }
@@ -853,10 +853,6 @@ endif
 {
 public
 :
-friend
-class
-nsDOMMozURLProperty
-;
 typedef
 mozilla
 :
@@ -3647,12 +3643,6 @@ mStopAbuseDialogs
 ;
 bool
 mDialogsPermanentlyDisabled
-;
-nsRefPtr
-<
-nsDOMMozURLProperty
->
-mURLProperty
 ;
 nsTHashtable
 <

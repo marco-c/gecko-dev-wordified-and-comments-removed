@@ -326,6 +326,10 @@ ScreenOrientation
 .
 h
 \
+URL
+.
+h
+\
 (
 NULL
 )
@@ -441,6 +445,10 @@ DOMRequest
 cpp
 \
 Navigator
+.
+cpp
+\
+URL
 .
 cpp
 \
