@@ -816,6 +816,10 @@ browser_webconsole_bug_585956_console_trace
 .
 js
 \
+browser_webconsole_bug_595223_file_uri
+.
+js
+\
 head
 .
 js
