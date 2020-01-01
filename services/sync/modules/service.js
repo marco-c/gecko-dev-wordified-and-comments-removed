@@ -4020,9 +4020,6 @@ called
 if
 (
 username
-!
-=
-null
 )
 this
 .
@@ -4033,9 +4030,6 @@ username
 if
 (
 password
-!
-=
-null
 )
 this
 .
@@ -4046,9 +4040,6 @@ password
 if
 (
 passphrase
-!
-=
-null
 )
 this
 .

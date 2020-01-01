@@ -63,6 +63,10 @@ displayName
 "
 Themes
 "
+description
+:
+"
+"
 logName
 :
 "

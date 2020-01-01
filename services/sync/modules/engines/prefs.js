@@ -203,6 +203,18 @@ displayName
 "
 Preferences
 "
+description
+:
+"
+Synchronize
+your
+home
+page
+selected
+persona
+and
+more
+"
 logName
 :
 "
@@ -992,7 +1004,7 @@ this
 .
 _log
 .
-trace
+debug
 (
 "
 Received
@@ -1294,7 +1306,7 @@ this
 .
 _log
 .
-trace
+debug
 (
 "
 Preference

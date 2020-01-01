@@ -63,6 +63,10 @@ displayName
 "
 MicroFormats
 "
+description
+:
+"
+"
 logName
 :
 "

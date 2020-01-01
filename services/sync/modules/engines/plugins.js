@@ -63,6 +63,10 @@ displayName
 "
 Plugins
 "
+description
+:
+"
+"
 logName
 :
 "

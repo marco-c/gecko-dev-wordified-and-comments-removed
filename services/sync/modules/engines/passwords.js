@@ -183,6 +183,20 @@ displayName
 "
 Passwords
 "
+description
+:
+"
+Forget
+all
+your
+passwords
+Weave
+will
+remember
+them
+for
+you
+"
 logName
 :
 "
@@ -488,7 +502,7 @@ this
 .
 _log
 .
-trace
+debug
 (
 logins
 .
@@ -628,7 +642,7 @@ this
 .
 _log
 .
-trace
+debug
 (
 "
 Changing
@@ -1064,7 +1078,7 @@ item
 +
 record
 .
-hostname
+id
 )
 ;
 return
@@ -1082,7 +1096,7 @@ Updating
 +
 record
 .
-hostname
+id
 )
 ;
 let
@@ -1271,7 +1285,7 @@ this
 .
 _log
 .
-trace
+debug
 (
 aData
 +
@@ -1304,7 +1318,7 @@ this
 .
 _log
 .
-trace
+debug
 (
 aData
 )

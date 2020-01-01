@@ -63,6 +63,10 @@ displayName
 "
 Extensions
 "
+description
+:
+"
+"
 logName
 :
 "
