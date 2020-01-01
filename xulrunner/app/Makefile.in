@@ -1740,12 +1740,15 @@ endif
 README_FILE
 =
 (
-topsrcdir
+srcdir
 )
+/
+.
+.
 /
 README
 .
-txt
+xulrunner
 libs
 :
 :
