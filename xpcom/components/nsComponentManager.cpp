@@ -2808,7 +2808,7 @@ Could
 not
 write
 out
-perisistant
+persistent
 registry
 .
 "
@@ -2825,7 +2825,7 @@ Could
 not
 write
 out
-perisistant
+persistent
 registry
 !
 \
