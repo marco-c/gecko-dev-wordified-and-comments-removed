@@ -103,6 +103,11 @@ mozIStorageAggregateFunction
 idl
 '
 '
+mozIStorageAsyncConnection
+.
+idl
+'
+'
 mozIStorageAsyncStatement
 .
 idl
