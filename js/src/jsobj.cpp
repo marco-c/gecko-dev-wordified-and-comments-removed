@@ -22915,6 +22915,9 @@ JSContext
 cx
 JSObject
 *
+receiver
+JSObject
+*
 obj
 JSObject
 *
@@ -23090,6 +23093,7 @@ shape
 get
 (
 cx
+receiver
 obj
 pobj
 vp
@@ -23197,6 +23201,7 @@ return
 js_NativeGetInline
 (
 cx
+obj
 obj
 pobj
 shape
@@ -23943,6 +23948,7 @@ js_NativeGetInline
 (
 cx
 receiver
+obj
 obj2
 shape
 getHow

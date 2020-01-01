@@ -465,6 +465,12 @@ PropDescArray
 struct
 JSObjectMap
 {
+uint32
+shape
+;
+uint32
+slotSpan
+;
 static
 JS_FRIEND_DATA
 (
@@ -472,12 +478,6 @@ const
 JSObjectMap
 )
 sharedNonNative
-;
-uint32
-shape
-;
-uint32
-slotSpan
 ;
 explicit
 JSObjectMap
