@@ -1698,6 +1698,8 @@ const
 nsAString
 &
 aNumber
+bool
+aIsActive
 )
 {
 NS_ASSERTION
@@ -1891,13 +1893,7 @@ aCallState
 ;
 if
 (
-aCallState
-=
-=
-nsIRadioInterfaceLayer
-:
-:
-CALL_STATE_CONNECTED
+aIsActive
 )
 {
 mActiveCall

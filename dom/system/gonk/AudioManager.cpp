@@ -542,6 +542,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+mPhoneState
+=
+aState
+;
 return
 NS_OK
 ;
