@@ -9102,7 +9102,6 @@ PopupAutoComplete
 onclick
 =
 "
-return
 contentAreaClick
 (
 event

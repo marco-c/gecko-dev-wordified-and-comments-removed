@@ -1113,7 +1113,6 @@ aHTMLTooltip
 onclick
 =
 "
-return
 window
 .
 parent
