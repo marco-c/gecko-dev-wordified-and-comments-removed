@@ -661,11 +661,6 @@ nsIIndexedDatabaseManager
 .
 *
 '
-'
-nsIDOMDOMError
-.
-*
-'
 #
 dom
 /

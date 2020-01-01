@@ -271,6 +271,10 @@ DOMCursor
 .
 webidl
 \
+DOMError
+.
+webidl
+\
 DOMImplementation
 .
 webidl

@@ -169,6 +169,10 @@ test_setting_opener
 .
 html
 \
+test_error
+.
+html
+\
 (
 NULL
 )

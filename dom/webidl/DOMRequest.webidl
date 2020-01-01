@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-DOMError
-;
-interface
 Window
 ;
 enum

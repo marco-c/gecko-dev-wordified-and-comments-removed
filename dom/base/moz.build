@@ -111,11 +111,6 @@ nsIDOMDOMCursor
 idl
 '
 '
-nsIDOMDOMError
-.
-idl
-'
-'
 nsIDOMDOMRequest
 .
 idl

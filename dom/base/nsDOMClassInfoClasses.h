@@ -592,10 +592,6 @@ CameraCapabilities
 )
 DOMCI_CLASS
 (
-DOMError
-)
-DOMCI_CLASS
-(
 OpenWindowEventDetail
 )
 DOMCI_CLASS
