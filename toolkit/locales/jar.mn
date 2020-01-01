@@ -2178,6 +2178,9 @@ autoconfig
 .
 properties
 )
+#
+ifdef
+MOZ_HELP_VIEWER
 %
 locale
 help
@@ -2277,6 +2280,8 @@ welcome
 .
 xhtml
 )
+#
+endif
 %
 locale
 places

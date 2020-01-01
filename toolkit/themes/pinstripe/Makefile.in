@@ -424,7 +424,13 @@ DIRS
 =
 global
 mozapps
+ifdef
+MOZ_HELP_VIEWER
+DIRS
++
+=
 help
+endif
 ifdef
 MOZ_MOCHITEST
 DIRS
