@@ -254,6 +254,14 @@ aChars
 0x200D
 ;
 }
+enum
+CompressionMode
+{
+COMPRESS_NONE
+COMPRESS_WHITESPACE
+COMPRESS_WHITESPACE_NEWLINE
+}
+;
 static
 PRUnichar
 *
@@ -268,8 +276,8 @@ aLength
 PRUnichar
 *
 aOutput
-PRBool
-aCompressWhitespace
+CompressionMode
+aCompression
 PRPackedBool
 *
 aIncomingWhitespace
@@ -295,8 +303,8 @@ aLength
 PRUint8
 *
 aOutput
-PRBool
-aCompressWhitespace
+CompressionMode
+aCompression
 PRPackedBool
 *
 aIncomingWhitespace

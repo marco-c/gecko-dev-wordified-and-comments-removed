@@ -20949,7 +20949,7 @@ GetStyleText
 )
 -
 >
-WhiteSpaceIsSignificant
+NewlineIsSignificant
 (
 )
 )
