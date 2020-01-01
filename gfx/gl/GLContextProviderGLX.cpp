@@ -3643,7 +3643,6 @@ return
 mTexture
 ;
 }
-;
 private
 :
 TextureImageGLX
