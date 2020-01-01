@@ -751,4 +751,17 @@ nil
 ]
 ;
 }
+-
+(
+BOOL
+)
+inComposition
+{
+return
+[
+mInputTextView
+hasMarkedText
+]
+;
+}
 end

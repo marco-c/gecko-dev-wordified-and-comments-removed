@@ -297,10 +297,16 @@ NP_NO_CARBON
 TSMDocumentID
 mPluginTSMDoc
 ;
+BOOL
+mPluginTSMInComposition
+;
 #
 endif
 BOOL
 mPluginComplexTextInputRequested
+;
+BOOL
+mIgnoreNextKeyUpEvent
 ;
 NSOpenGLContext
 *
