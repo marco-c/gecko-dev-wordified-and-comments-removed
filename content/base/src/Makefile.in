@@ -558,6 +558,10 @@ nsDOMFile
 .
 cpp
 \
+nsDOMFileRequest
+.
+cpp
+\
 nsDOMLists
 .
 cpp
