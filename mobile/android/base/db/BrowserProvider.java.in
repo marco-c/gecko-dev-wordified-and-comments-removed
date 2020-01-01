@@ -5185,12 +5185,15 @@ isFolder
 =
 values
 .
-getAsBoolean
+getAsInteger
 (
 Bookmarks
 .
 IS_FOLDER
 )
+=
+=
+1
 ;
 if
 (
