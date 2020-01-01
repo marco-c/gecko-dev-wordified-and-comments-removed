@@ -8052,7 +8052,7 @@ aVal
 *
 aVal
 =
-JSVAL_TRUE
+JSVAL_VOID
 ;
 return
 NS_OK
