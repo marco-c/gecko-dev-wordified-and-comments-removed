@@ -141,6 +141,17 @@ FinishInternal
 ;
 private
 :
+bool
+WriteToContainedDecoder
+(
+const
+char
+*
+aBuffer
+PRUint32
+aCount
+)
+;
 void
 ProcessDirEntry
 (
