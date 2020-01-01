@@ -1079,8 +1079,7 @@ this
 _onFail
 (
 "
-Unexpected
-coordiates
+Coordiates
 didn
 '
 t
@@ -1122,7 +1121,6 @@ this
 _onFail
 (
 "
-Unexpected
 No
 selection
 or
@@ -1335,7 +1333,7 @@ _clearSelection
 }
 this
 .
-_closeSelection
+closeSelection
 (
 )
 ;
@@ -1431,7 +1429,7 @@ _clearSelection
 ;
 this
 .
-_closeSelection
+closeSelection
 (
 )
 ;
@@ -1677,10 +1675,10 @@ removeAllRanges
 ;
 }
 }
-_closeSelection
+closeSelection
 :
 function
-_closeSelection
+closeSelection
 (
 )
 {

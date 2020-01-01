@@ -1579,6 +1579,15 @@ offsetY
 )
 ;
 }
+else
+{
+SelectionHandler
+.
+closeSelection
+(
+)
+;
+}
 }
 _onClickBubble
 :
