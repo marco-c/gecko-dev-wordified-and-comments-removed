@@ -4422,7 +4422,7 @@ bool
 aWillSendDidPaint
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -4482,7 +4482,7 @@ aFlags
 &
 PAINT_IS_ALTERNATE
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -4540,7 +4540,7 @@ DidPaintWindow
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
@@ -4678,7 +4678,7 @@ if
 view
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

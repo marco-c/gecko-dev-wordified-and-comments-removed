@@ -3626,7 +3626,7 @@ mViewManagerFlushIsPending
 =
 false
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

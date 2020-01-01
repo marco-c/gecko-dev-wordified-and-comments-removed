@@ -48282,7 +48282,7 @@ GetRootFrame
 )
 return
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >

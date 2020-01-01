@@ -475,7 +475,7 @@ AutoDisableRefresh
 aOther
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsViewManager
 >
