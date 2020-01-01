@@ -10845,6 +10845,15 @@ if
 fun
 -
 >
+hasScript
+(
+)
+|
+|
+!
+fun
+-
+>
 nonLazyScript
 (
 )
