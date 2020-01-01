@@ -107,6 +107,17 @@ srcdir
 .
 /
 src
+\
+-
+I
+(
+srcdir
+)
+/
+.
+.
+/
+wrappers
 CPPSRCS
 =
 mozJSComponentLoader
