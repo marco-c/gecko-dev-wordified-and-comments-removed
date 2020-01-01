@@ -137,6 +137,9 @@ mDepth
 nsCSSValue
 mLeftSpace
 ;
+nsCSSValue
+mVerticalOffset
+;
 PRInt32
 mWidthSign
 ;
@@ -150,6 +153,9 @@ PRInt32
 mLeftSpaceSign
 ;
 PRInt32
+mVerticalOffsetSign
+;
+PRInt32
 mWidthPseudoUnit
 ;
 PRInt32
@@ -160,6 +166,9 @@ mDepthPseudoUnit
 ;
 PRInt32
 mLeftSpacePseudoUnit
+;
+PRInt32
+mVerticalOffsetPseudoUnit
 ;
 void
 ProcessAttributes
