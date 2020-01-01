@@ -2170,8 +2170,6 @@ aMultipleSelection
 {
 resourceId
 =
-android
-.
 R
 .
 layout
