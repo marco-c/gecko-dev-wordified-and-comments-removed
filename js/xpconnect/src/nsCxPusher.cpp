@@ -504,6 +504,7 @@ cx
 #
 endif
 }
+NS_EXPORT
 AutoCxPusher
 :
 :

@@ -61,6 +61,7 @@ aAllowNull
 false
 )
 ;
+NS_EXPORT
 ~
 AutoCxPusher
 (
