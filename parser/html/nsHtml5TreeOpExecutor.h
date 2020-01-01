@@ -1310,6 +1310,8 @@ const
 nsAString
 &
 aCrossOrigin
+bool
+aScriptFromHead
 )
 ;
 void

@@ -339,6 +339,8 @@ const
 nsAString
 &
 aCrossOrigin
+bool
+aScriptFromHead
 )
 ;
 private
@@ -388,6 +390,8 @@ const
 nsAString
 &
 aType
+bool
+aScriptFromHead
 )
 ;
 virtual
