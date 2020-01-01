@@ -506,6 +506,10 @@ automation
 .
 py
 \
+runtestsremote
+.
+py
+\
 (
 topsrcdir
 )
