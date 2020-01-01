@@ -65430,7 +65430,11 @@ fi
 elif
 test
 "
-VACPP
+OS_ARCH
+"
+=
+"
+OS2
 "
 ;
 then
