@@ -4588,6 +4588,13 @@ ondelivered
 )
 GK_ATOM
 (
+ondevicecreated
+"
+ondevicecreated
+"
+)
+GK_ATOM
+(
 ondevicedisappeared
 "
 ondevicedisappeared
