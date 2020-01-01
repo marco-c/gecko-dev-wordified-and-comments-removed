@@ -2767,14 +2767,11 @@ Register
 reg
 )
 {
-ma_rsb
+ma_neg
 (
 reg
-Imm32
-(
-0
-)
 reg
+SetCond
 )
 ;
 }
