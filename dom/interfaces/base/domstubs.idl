@@ -294,6 +294,9 @@ nsIDOMCSSStyleRuleCollection
 interface
 nsIDOMHTMLTableCaptionElement
 ;
+interface
+nsIDOMHTMLTableSectionElement
+;
 /
 /
 Range
