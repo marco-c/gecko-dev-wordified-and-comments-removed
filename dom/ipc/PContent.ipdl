@@ -522,6 +522,8 @@ child
 :
 PBrowser
 (
+PRUint32
+chromeFlags
 )
 ;
 PTestShell

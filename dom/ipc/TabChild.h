@@ -484,6 +484,8 @@ public
 :
 TabChild
 (
+PRUint32
+aChromeFlags
 )
 ;
 virtual
@@ -1116,6 +1118,9 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+PRUint32
+mChromeFlags
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

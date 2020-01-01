@@ -152,6 +152,8 @@ TabParent
 *
 CreateTab
 (
+PRUint32
+aChromeFlags
 )
 ;
 TestShellParent
@@ -227,6 +229,10 @@ PBrowserParent
 *
 AllocPBrowser
 (
+const
+PRUint32
+&
+aChromeFlags
 )
 ;
 virtual
