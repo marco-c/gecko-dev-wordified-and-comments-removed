@@ -529,6 +529,11 @@ of
 selectableDevices
 )
 {
+let
+actual_device
+=
+device
+;
 selectableDeviceNumber
 +
 +
@@ -589,7 +594,7 @@ obs
 .
 notifyObservers
 (
-device
+actual_device
 "
 getUserMedia
 :
