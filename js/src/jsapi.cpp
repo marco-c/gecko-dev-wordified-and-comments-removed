@@ -4538,6 +4538,11 @@ ifdef
 JS_THREADSAFE
 if
 (
+useHelperThreads
+(
+)
+&
+&
 !
 sourceCompressorThread
 .
