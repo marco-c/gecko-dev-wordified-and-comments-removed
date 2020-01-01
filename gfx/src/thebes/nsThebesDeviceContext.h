@@ -438,6 +438,9 @@ gfxASurface
 >
 mPrintingSurface
 ;
+float
+mPrintingScale
+;
 nsCOMPtr
 <
 nsIDeviceContextSpec
