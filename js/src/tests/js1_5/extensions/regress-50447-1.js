@@ -173,7 +173,7 @@ js
 ;
 reportCompare
 (
-94
+60
 e
 .
 lineNumber
@@ -317,7 +317,7 @@ test2
 var
 expectedLine
 =
-148
+114
 ;
 var
 expectedFileName
@@ -694,7 +694,7 @@ test4
 var
 expectedLine
 =
-207
+173
 ;
 var
 e
