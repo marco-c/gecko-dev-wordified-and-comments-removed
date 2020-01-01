@@ -83,12 +83,8 @@ expr
 )
 MOZ_ASSERT_IF
 (
-(
 cond
-)
-(
 expr
-)
 )
 #
 define
