@@ -1792,11 +1792,30 @@ self
 xpcsCmd
         
 if
+not
 self
 .
 pluginsPath
 :
             
+self
+.
+pluginsPath
+=
+os
+.
+path
+.
+join
+(
+self
+.
+appPath
+'
+plugins
+'
+)
+        
 self
 .
 pluginsDir
@@ -1806,6 +1825,12 @@ self
 setupPluginsDir
 (
 )
+        
+if
+self
+.
+pluginsDir
+:
             
 self
 .
@@ -1823,15 +1848,6 @@ self
 pluginsDir
 ]
 )
-        
-else
-:
-            
-self
-.
-pluginsDir
-=
-None
     
 def
 buildTestPath
@@ -2241,6 +2257,23 @@ setupPluginsDir
 self
 )
 :
+        
+if
+not
+os
+.
+path
+.
+isdir
+(
+self
+.
+pluginsPath
+)
+:
+            
+return
+None
         
 pluginsDir
 =

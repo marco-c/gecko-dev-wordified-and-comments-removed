@@ -2186,6 +2186,23 @@ self
 )
 :
         
+if
+not
+os
+.
+path
+.
+isdir
+(
+self
+.
+pluginsPath
+)
+:
+            
+return
+None
+        
 self
 .
 setupTempDir
