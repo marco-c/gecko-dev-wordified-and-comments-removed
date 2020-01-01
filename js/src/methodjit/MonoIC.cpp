@@ -4079,9 +4079,6 @@ ic
 :
 SweepCallICs
 (
-JSContext
-*
-cx
 JSScript
 *
 script

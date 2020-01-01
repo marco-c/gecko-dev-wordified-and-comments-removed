@@ -10048,14 +10048,6 @@ runtime
 regExpPool
 )
 ;
-compartment
--
->
-purge
-(
-this
-)
-;
 }
 void
 JSContext
