@@ -488,9 +488,12 @@ nsRootAccessibleWrap
 :
 nsRootAccessibleWrap
 (
-nsIDOMNode
+nsIDocument
 *
-aDOMNode
+aDocument
+nsIContent
+*
+aRootContent
 nsIWeakReference
 *
 aShell
@@ -498,7 +501,8 @@ aShell
 :
 nsRootAccessible
 (
-aDOMNode
+aDocument
+aRootContent
 aShell
 )
 {

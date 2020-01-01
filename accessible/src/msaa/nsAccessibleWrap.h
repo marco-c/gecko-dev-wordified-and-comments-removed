@@ -281,8 +281,9 @@ public
 :
 nsAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
+aContent
 nsIWeakReference
 *
 aShell

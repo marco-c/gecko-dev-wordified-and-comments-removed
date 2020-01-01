@@ -30,9 +30,9 @@ public
 :
 nsXFormsDropmarkerWidgetAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -96,9 +96,9 @@ public
 :
 nsXFormsCalendarWidgetAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -125,9 +125,9 @@ public
 :
 nsXFormsComboboxPopupWidgetAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

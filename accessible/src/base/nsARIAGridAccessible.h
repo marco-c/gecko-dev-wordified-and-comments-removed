@@ -30,9 +30,9 @@ public
 :
 nsARIAGridAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -126,9 +126,9 @@ public
 :
 nsARIAGridCellAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell

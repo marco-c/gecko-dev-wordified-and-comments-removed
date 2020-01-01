@@ -37,9 +37,9 @@ public
 :
 nsXULTreeGridAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -61,9 +61,9 @@ public
 :
 nsXULTreeGridCellAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell

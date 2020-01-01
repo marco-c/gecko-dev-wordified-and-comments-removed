@@ -128,9 +128,12 @@ public
 :
 nsRootAccessible
 (
-nsIDOMNode
+nsIDocument
 *
-aDOMNode
+aDocument
+nsIContent
+*
+aRootContent
 nsIWeakReference
 *
 aShell
@@ -216,10 +219,10 @@ NS_ROOTACCESSIBLE_IMPL_CID
 PRBool
 FireAccessibleFocusEvent
 (
-nsIAccessible
+nsAccessible
 *
 aFocusAccessible
-nsIDOMNode
+nsINode
 *
 aFocusNode
 nsIDOMEvent
@@ -273,7 +276,7 @@ HandleEventWithTarget
 nsIDOMEvent
 *
 aEvent
-nsIDOMNode
+nsINode
 *
 aTargetNode
 )
@@ -294,7 +297,7 @@ aTargetNode
 nsresult
 HandlePopupShownEvent
 (
-nsIAccessible
+nsAccessible
 *
 aAccessible
 )
@@ -302,10 +305,10 @@ aAccessible
 nsresult
 HandlePopupHidingEvent
 (
-nsIDOMNode
+nsINode
 *
 aNode
-nsIAccessible
+nsAccessible
 *
 aAccessible
 )
@@ -361,7 +364,7 @@ mCaretAccessible
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mCurrentARIAMenubar
 ;

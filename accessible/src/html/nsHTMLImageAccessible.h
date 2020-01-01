@@ -30,9 +30,9 @@ public
 :
 nsHTMLImageAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDomNode
+aContent
 nsIWeakReference
 *
 aShell

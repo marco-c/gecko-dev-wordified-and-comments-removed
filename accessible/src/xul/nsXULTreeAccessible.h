@@ -91,9 +91,9 @@ public
 :
 nsXULTreeAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -329,9 +329,9 @@ public
 :
 nsXULTreeItemAccessibleBase
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -591,9 +591,9 @@ public
 :
 nsXULTreeItemAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -684,9 +684,9 @@ public
 :
 nsXULTreeColumnsAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell

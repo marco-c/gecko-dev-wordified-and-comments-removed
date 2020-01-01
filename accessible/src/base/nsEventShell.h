@@ -65,7 +65,7 @@ static
 void
 GetEventAttributes
 (
-nsIDOMNode
+nsINode
 *
 aNode
 nsIPersistentProperties
@@ -78,7 +78,7 @@ private
 static
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 sEventTargetNode
 ;

@@ -143,9 +143,9 @@ public
 :
 nsHyperTextAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -227,7 +227,7 @@ nsAccessible
 *
 DOMPointToHypertextOffset
 (
-nsIDOMNode
+nsINode
 *
 aNode
 PRInt32

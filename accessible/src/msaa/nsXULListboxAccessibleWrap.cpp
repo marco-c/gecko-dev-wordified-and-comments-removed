@@ -10,9 +10,9 @@ nsXULListboxAccessibleWrap
 :
 nsXULListboxAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -20,7 +20,7 @@ aShell
 :
 nsXULListboxAccessible
 (
-aDOMNode
+aContent
 aShell
 )
 {
@@ -52,9 +52,9 @@ nsXULListCellAccessibleWrap
 :
 nsXULListCellAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -62,7 +62,7 @@ aShell
 :
 nsXULListCellAccessible
 (
-aDOMNode
+aContent
 aShell
 )
 {

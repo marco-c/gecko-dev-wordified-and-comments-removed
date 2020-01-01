@@ -21,9 +21,9 @@ public
 :
 nsXULAlertAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

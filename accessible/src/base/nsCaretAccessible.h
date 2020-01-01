@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsIContent
 .
 h
 "
@@ -89,7 +89,7 @@ NS_DECL_NSISELECTIONLISTENER
 nsresult
 SetControlSelectionListener
 (
-nsIDOMNode
+nsIContent
 *
 aCurrentNode
 )
@@ -154,7 +154,7 @@ nsISelectionController
 >
 GetSelectionControllerForNode
 (
-nsIDOMNode
+nsIContent
 *
 aNode
 )
@@ -163,7 +163,7 @@ private
 :
 nsCOMPtr
 <
-nsIDOMNode
+nsIContent
 >
 mCurrentControl
 ;

@@ -755,9 +755,9 @@ nsAccessibleWrap
 :
 nsAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -765,7 +765,7 @@ aShell
 :
 nsAccessible
 (
-aNode
+aContent
 aShell
 )
 mAtkObject
@@ -1960,11 +1960,9 @@ IsValidObject
 )
 {
 return
-(
-mDOMNode
 !
-=
-nsnull
+IsDefunct
+(
 )
 ;
 }

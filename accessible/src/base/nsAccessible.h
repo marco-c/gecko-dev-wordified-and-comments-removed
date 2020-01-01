@@ -181,9 +181,9 @@ public
 :
 nsAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -560,7 +560,7 @@ nsAccessible
 *
 GetFirstAvailableAccessible
 (
-nsIDOMNode
+nsINode
 *
 aStartNode
 )

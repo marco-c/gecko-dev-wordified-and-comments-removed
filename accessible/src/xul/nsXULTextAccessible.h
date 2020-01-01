@@ -28,9 +28,9 @@ public
 :
 nsXULTextAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDomNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -89,9 +89,9 @@ public
 :
 nsXULTooltipAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDomNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -130,9 +130,9 @@ public
 :
 nsXULLinkAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDomNode
+aContent
 nsIWeakReference
 *
 aShell

@@ -181,8 +181,9 @@ public
 :
 nsAccessNodeWrap
 (
-nsIDOMNode
+nsIContent
 *
+aContent
 nsIWeakReference
 *
 aShell
@@ -537,9 +538,9 @@ ISimpleDOMNode
 *
 MakeAccessNode
 (
-nsIDOMNode
+nsINode
 *
-node
+aNode
 )
 ;
 static

@@ -54,6 +54,9 @@ nsIDOMNode
 h
 "
 class
+nsAccessible
+;
+class
 nsDocAccessible
 ;
 enum
@@ -155,9 +158,9 @@ nsAccEvent
 (
 PRUint32
 aEventType
-nsIDOMNode
+nsINode
 *
-aDOMNode
+aNode
 PRBool
 aIsAsynch
 =
@@ -250,13 +253,12 @@ GetDocAccessible
 ;
 protected
 :
-already_AddRefed
-<
-nsIAccessible
->
-GetAccessibleByNode
+nsAccessible
+*
+GetAccessibleForNode
 (
 )
+const
 ;
 void
 CaptureIsFromUserInput
@@ -354,7 +356,7 @@ PRBool
 aIsAsynch
 PRBool
 aIsUnconditional
-nsIDOMNode
+nsINode
 *
 aReasonNode
 )
@@ -381,7 +383,7 @@ mUnconditionalEvent
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 mReasonNode
 ;
@@ -425,7 +427,7 @@ eAutoDetect
 ;
 nsAccStateChangeEvent
 (
-nsIDOMNode
+nsINode
 *
 aNode
 PRUint32
@@ -438,7 +440,7 @@ aIsEnabled
 ;
 nsAccStateChangeEvent
 (
-nsIDOMNode
+nsINode
 *
 aNode
 PRUint32
@@ -535,7 +537,7 @@ aCaretOffset
 ;
 nsAccCaretMoveEvent
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )

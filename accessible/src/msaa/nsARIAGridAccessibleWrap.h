@@ -37,9 +37,9 @@ public
 :
 nsARIAGridAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -47,7 +47,7 @@ aShell
 :
 nsARIAGridAccessible
 (
-aNode
+aContent
 aShell
 )
 {
@@ -68,9 +68,9 @@ public
 :
 nsARIAGridCellAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -78,7 +78,7 @@ aShell
 :
 nsARIAGridCellAccessible
 (
-aNode
+aContent
 aShell
 )
 {

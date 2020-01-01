@@ -36,9 +36,9 @@ public
 :
 nsHTMLTableCellAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDomNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -126,9 +126,9 @@ public
 :
 nsHTMLTableHeaderCellAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDomNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -194,9 +194,9 @@ public
 :
 nsHTMLTableAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDomNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -351,9 +351,9 @@ public
 :
 nsHTMLCaptionAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDomNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -361,7 +361,7 @@ aShell
 :
 nsHyperTextAccessibleWrap
 (
-aDomNode
+aContent
 aShell
 )
 {

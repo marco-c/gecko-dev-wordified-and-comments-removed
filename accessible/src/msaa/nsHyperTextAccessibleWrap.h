@@ -46,9 +46,9 @@ public
 :
 nsHyperTextAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -56,7 +56,7 @@ aShell
 :
 nsHyperTextAccessible
 (
-aNode
+aContent
 aShell
 )
 {

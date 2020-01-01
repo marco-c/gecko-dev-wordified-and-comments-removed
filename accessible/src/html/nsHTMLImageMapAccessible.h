@@ -35,9 +35,9 @@ public
 :
 nsHTMLImageMapAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -114,9 +114,9 @@ public
 :
 nsHTMLAreaAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

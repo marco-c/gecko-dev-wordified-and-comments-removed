@@ -28,9 +28,9 @@ public
 :
 nsXULSliderAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -172,9 +172,9 @@ public
 :
 nsXULThumbAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

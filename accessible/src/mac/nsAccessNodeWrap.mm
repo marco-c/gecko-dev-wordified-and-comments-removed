@@ -599,9 +599,9 @@ nsAccessNodeWrap
 :
 nsAccessNodeWrap
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -609,7 +609,7 @@ aShell
 :
 nsAccessNode
 (
-aNode
+aContent
 aShell
 )
 {

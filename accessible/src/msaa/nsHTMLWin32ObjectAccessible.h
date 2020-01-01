@@ -31,9 +31,9 @@ public
 :
 nsHTMLWin32ObjectOwnerAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

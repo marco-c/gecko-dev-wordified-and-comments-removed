@@ -25,9 +25,9 @@ public
 :
 nsRadioButtonAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aNode
+aContent
 nsIWeakReference
 *
 aShell

@@ -299,18 +299,6 @@ isHidden
 =
 PR_FALSE
 ;
-nsCOMPtr
-<
-nsIDOMNode
->
-childDOMNode
-(
-do_QueryInterface
-(
-childNode
-)
-)
-;
 nsRefPtr
 <
 nsAccessible
@@ -324,7 +312,7 @@ GetAccService
 >
 GetAccessible
 (
-childDOMNode
+childNode
 presShell
 mWeakShell
 &

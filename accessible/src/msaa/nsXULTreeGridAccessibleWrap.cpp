@@ -10,9 +10,9 @@ nsXULTreeGridAccessibleWrap
 :
 nsXULTreeGridAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -20,7 +20,7 @@ aShell
 :
 nsXULTreeGridAccessible
 (
-aDOMNode
+aContent
 aShell
 )
 {
@@ -41,9 +41,9 @@ nsXULTreeGridCellAccessibleWrap
 :
 nsXULTreeGridCellAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -65,7 +65,7 @@ aColumn
 :
 nsXULTreeGridCellAccessible
 (
-aDOMNode
+aContent
 aShell
 aRowAcc
 aTree

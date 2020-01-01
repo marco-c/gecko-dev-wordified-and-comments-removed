@@ -21,9 +21,9 @@ public
 :
 nsXULMenuitemAccessibleWrap
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell

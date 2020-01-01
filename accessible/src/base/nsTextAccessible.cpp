@@ -10,9 +10,9 @@ nsTextAccessible
 :
 nsTextAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDOMNode
+aContent
 nsIWeakReference
 *
 aShell
@@ -20,7 +20,7 @@ aShell
 :
 nsLinkableAccessible
 (
-aDOMNode
+aContent
 aShell
 )
 {

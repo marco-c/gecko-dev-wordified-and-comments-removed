@@ -21,9 +21,9 @@ public
 :
 nsHTMLLinkAccessible
 (
-nsIDOMNode
+nsIContent
 *
-aDomNode
+aContent
 nsIWeakReference
 *
 aShell

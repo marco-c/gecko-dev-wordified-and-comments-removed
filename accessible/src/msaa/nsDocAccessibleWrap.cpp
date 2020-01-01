@@ -87,9 +87,12 @@ nsDocAccessibleWrap
 :
 nsDocAccessibleWrap
 (
-nsIDOMNode
+nsIDocument
 *
-aDOMNode
+aDocument
+nsIContent
+*
+aRootContent
 nsIWeakReference
 *
 aShell
@@ -97,7 +100,8 @@ aShell
 :
 nsDocAccessible
 (
-aDOMNode
+aDocument
+aRootContent
 aShell
 )
 {
