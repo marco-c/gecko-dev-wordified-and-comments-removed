@@ -53532,9 +53532,7 @@ dnl
 =
 MOZ_ARG_ENABLE_BOOL
 (
-sign
--
-mar
+signmar
 [
 -
 -
