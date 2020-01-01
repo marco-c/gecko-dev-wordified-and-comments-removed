@@ -159,17 +159,6 @@ return
 mStr
 ;
 }
-KeyTypePointer
-GetKeyPointer
-(
-)
-const
-{
-return
-&
-mStr
-;
-}
 PRBool
 KeyEquals
 (
