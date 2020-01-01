@@ -3529,6 +3529,7 @@ return
 var
 selectedApp
 ;
+var
 menuItem
 =
 this
