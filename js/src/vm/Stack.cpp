@@ -1026,7 +1026,7 @@ vp
 call
 -
 >
-argv
+array
 (
 )
 ;
@@ -1046,7 +1046,7 @@ vp
 calls_
 -
 >
-argv
+array
 (
 )
 ;
@@ -3213,7 +3213,7 @@ fun
 script
 args
 .
-argc
+length
 (
 )
 flags
@@ -4937,7 +4937,7 @@ fp_
 calls_
 -
 >
-argv
+array
 (
 )
 )

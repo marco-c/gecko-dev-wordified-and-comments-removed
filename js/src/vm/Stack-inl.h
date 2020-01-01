@@ -2256,7 +2256,7 @@ if
 (
 args
 .
-argc
+length
 (
 )
 =
@@ -2297,7 +2297,7 @@ if
 (
 args
 .
-argc
+length
 (
 )
 <
@@ -2328,7 +2328,7 @@ nformal
 -
 args
 .
-argc
+length
 (
 )
 ;
@@ -2572,7 +2572,7 @@ fun
 script
 args
 .
-argc
+length
 (
 )
 flags
@@ -2782,7 +2782,7 @@ initJitFrameEarlyPrologue
 fun
 args
 .
-argc
+length
 (
 )
 )

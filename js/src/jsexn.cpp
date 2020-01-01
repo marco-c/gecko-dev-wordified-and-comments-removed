@@ -3498,7 +3498,7 @@ if
 (
 args
 .
-argc
+length
 (
 )
 !
@@ -3594,7 +3594,7 @@ if
 (
 args
 .
-argc
+length
 (
 )
 >
@@ -3693,7 +3693,7 @@ if
 (
 args
 .
-argc
+length
 (
 )
 >

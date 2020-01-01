@@ -9514,7 +9514,7 @@ cx
 const
 CallArgs
 &
-call
+args
 )
 ;
 extern
@@ -9548,7 +9548,7 @@ JSPrincipals
 PrincipalsForCompiledCode
 (
 const
-CallArgs
+CallReceiver
 &
 call
 JSContext

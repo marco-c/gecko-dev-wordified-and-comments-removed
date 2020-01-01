@@ -351,9 +351,8 @@ GetPrimitiveThis
 JSContext
 *
 cx
-Value
-*
-vp
+CallReceiver
+call
 T
 *
 v
@@ -374,10 +373,11 @@ Value
 &
 thisv
 =
-vp
-[
-1
-]
+call
+.
+thisv
+(
+)
 ;
 if
 (
@@ -459,7 +459,7 @@ true
 ReportIncompatibleMethod
 (
 cx
-vp
+call
 Behavior
 :
 :

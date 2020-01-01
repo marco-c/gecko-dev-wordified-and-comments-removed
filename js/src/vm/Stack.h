@@ -434,7 +434,7 @@ i
 }
 Value
 *
-argv
+array
 (
 )
 const
@@ -444,7 +444,7 @@ argv_
 ;
 }
 uintN
-argc
+length
 (
 )
 const
@@ -4255,7 +4255,7 @@ return
 calls_
 -
 >
-argv
+array
 (
 )
 ;
@@ -4273,7 +4273,7 @@ calls_
 calls_
 -
 >
-argv
+array
 (
 )
 :
