@@ -534,12 +534,15 @@ OS_TARGET
 )
 OS2
 )
+ifndef
+MOZ_OS2_HIGH_MEMORY
 CPPSRCS
 +
 =
 nsOS2VACLegacy
 .
 cpp
+endif
 endif
 endif
 #
