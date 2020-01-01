@@ -139,11 +139,6 @@ Trace
 "
 )
 ;
-new
-SyncTestingInfrastructure
-(
-)
-;
 Service
 .
 identity
