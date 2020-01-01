@@ -47,6 +47,10 @@ compiler
 endif
 #
 define
+WEBRTC_DATACHANNEL_STREAMS_DEFAULT
+16
+#
+define
 DATA_CHANNEL_PPID_CONTROL
 50
 #

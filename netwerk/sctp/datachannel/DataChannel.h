@@ -455,8 +455,6 @@ DataChannelConnection
 DataConnectionListener
 *
 listener
-bool
-aIsEven
 )
 ;
 virtual
@@ -515,6 +513,8 @@ uint16_t
 localport
 uint16_t
 remoteport
+bool
+even
 )
 ;
 #
@@ -892,6 +892,11 @@ StartDefer
 ;
 bool
 SendDeferredMessages
+(
+)
+;
+void
+ProcessQueuedOpens
 (
 )
 ;
