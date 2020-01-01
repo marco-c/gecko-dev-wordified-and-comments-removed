@@ -699,7 +699,15 @@ it
 is
 on
 screen
-ok
+window
+.
+opener
+.
+wrappedJSObject
+.
+SimpleTest
+.
+todo
 (
 Math
 .
