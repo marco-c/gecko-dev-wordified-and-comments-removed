@@ -2654,6 +2654,10 @@ virtual
 void
 ScheduleViewManagerFlush
 (
+PRUint32
+aFlags
+=
+0
 )
 =
 0
