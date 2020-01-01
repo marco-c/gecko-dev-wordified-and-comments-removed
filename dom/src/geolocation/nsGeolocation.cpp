@@ -761,6 +761,8 @@ aErrorCallback
 nsIDOMGeoPositionOptions
 *
 aOptions
+PRBool
+aWatchPositionRequest
 )
 :
 mAllowed
@@ -774,6 +776,10 @@ PR_FALSE
 mIsFirstUpdate
 (
 PR_TRUE
+)
+mIsWatchPositionRequest
+(
+aWatchPositionRequest
 )
 mCallback
 (
@@ -1515,6 +1521,10 @@ Pop
 cx
 )
 ;
+if
+(
+mIsWatchPositionRequest
+)
 SetTimeoutTimer
 (
 )
@@ -3903,6 +3913,7 @@ this
 callback
 errorCallback
 options
+PR_FALSE
 )
 ;
 if
@@ -4051,6 +4062,7 @@ this
 callback
 errorCallback
 options
+PR_TRUE
 )
 ;
 if
