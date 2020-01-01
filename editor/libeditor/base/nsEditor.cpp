@@ -524,6 +524,10 @@ mModCount
 (
 0
 )
+mFlags
+(
+0
+)
 mPresShellWeak
 (
 nsnull
