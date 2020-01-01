@@ -164,10 +164,6 @@ nsIDOMSVGNumber
 .
 idl
 \
-nsIDOMSVGPolylineElement
-.
-idl
-\
 nsIDOMSVGRect
 .
 idl
