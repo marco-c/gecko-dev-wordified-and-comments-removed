@@ -2259,12 +2259,6 @@ mPkcs11
 ;
 nsCOMPtr
 <
-nsIDOMStorageList
->
-gGlobalStorageList
-;
-nsCOMPtr
-<
 nsISupports
 >
 mInnerWindowHolders
@@ -2380,6 +2374,11 @@ static
 nsIFactory
 *
 sComputedDOMStyleFactory
+;
+static
+nsIDOMStorageList
+*
+sGlobalStorageList
 ;
 }
 ;
