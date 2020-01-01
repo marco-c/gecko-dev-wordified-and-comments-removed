@@ -82,7 +82,7 @@ nsCycleCollector_startup
 )
 ;
 NS_COM
-PRBool
+void
 nsCycleCollector_collect
 (
 )
