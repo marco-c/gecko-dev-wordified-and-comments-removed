@@ -2428,9 +2428,8 @@ nearestViewWithWidget
 nearestViewWithWidget
 -
 >
-GetNearestWidget
+GetWidget
 (
-nsnull
 )
 r
 nsnull
@@ -2909,9 +2908,8 @@ displayRoot
 displayRoot
 -
 >
-GetNearestWidget
+GetWidget
 (
-nsnull
 )
 nsRegion
 (
@@ -2949,9 +2947,8 @@ displayRoot
 displayRoot
 -
 >
-GetNearestWidget
+GetWidget
 (
-nsnull
 )
 update
 nsnull
@@ -3646,9 +3643,8 @@ displayRoot
 displayRoot
 -
 >
-GetNearestWidget
+GetWidget
 (
-nsnull
 )
 nsRegion
 (
