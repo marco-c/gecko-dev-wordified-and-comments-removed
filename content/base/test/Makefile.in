@@ -2637,6 +2637,10 @@ test_textnode_split_in_selection
 .
 html
 \
+test_textnode_normalize_in_selection
+.
+html
+\
 (
 NULL
 )
