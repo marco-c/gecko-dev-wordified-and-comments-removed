@@ -13969,6 +13969,10 @@ pop
 ;
 if
 (
+!
+last
+|
+|
 OPEN_CLOSE_BODY
 [
 last
