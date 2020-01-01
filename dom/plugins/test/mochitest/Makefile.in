@@ -732,6 +732,10 @@ referer
 .
 sjs
 \
+test_src_url_change
+.
+html
+\
 (
 NULL
 )
