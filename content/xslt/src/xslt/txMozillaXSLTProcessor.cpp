@@ -497,6 +497,9 @@ rv
 ;
 }
 }
+return
+NS_OK
+;
 }
 nsresult
 txToDocHandlerFactory
@@ -666,6 +669,9 @@ rv
 ;
 }
 }
+return
+NS_OK
+;
 }
 nsresult
 txToFragmentHandlerFactory
