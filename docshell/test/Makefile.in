@@ -425,14 +425,6 @@ test_bug694612
 .
 html
 \
-test_bug703855
-.
-html
-\
-file_bug703855
-.
-html
-\
 test_bug713825
 .
 html
