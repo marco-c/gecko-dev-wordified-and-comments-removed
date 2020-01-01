@@ -711,7 +711,7 @@ jar
 DEFAULT_BRANDPATH
 =
 (
-topsrcdir
+DEPTH
 )
 /
 (
