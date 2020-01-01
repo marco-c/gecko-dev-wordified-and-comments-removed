@@ -180,10 +180,6 @@ suspend
 ;
 public
 :
-uint8_t
-*
-mImageData
-;
 struct
 jpeg_decompress_struct
 mInfo

@@ -135,14 +135,6 @@ mLastFlushedRow
 -
 1
 )
-mImageData
-(
-nullptr
-)
-mColormap
-(
-nullptr
-)
 mOldColor
 (
 0

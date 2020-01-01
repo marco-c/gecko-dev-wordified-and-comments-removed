@@ -161,17 +161,6 @@ mCurrentRow
 int32_t
 mLastFlushedRow
 ;
-uint8_t
-*
-mImageData
-;
-uint32_t
-*
-mColormap
-;
-uint32_t
-mColormapSize
-;
 uint32_t
 mOldColor
 ;

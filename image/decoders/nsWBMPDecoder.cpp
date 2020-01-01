@@ -190,10 +190,6 @@ mHeight
 (
 0
 )
-mImageData
-(
-nullptr
-)
 mRow
 (
 nullptr
@@ -527,9 +523,6 @@ WbmpStateFinished
 return
 ;
 }
-uint32_t
-imageLength
-;
 nsresult
 rv
 =
@@ -554,7 +547,7 @@ uint8_t
 &
 mImageData
 &
-imageLength
+mImageDataLength
 )
 ;
 if
@@ -775,7 +768,14 @@ uint32_t
 *
 d
 =
+reinterpret_cast
+<
+uint32_t
+*
+>
+(
 mImageData
+)
 +
 (
 mWidth

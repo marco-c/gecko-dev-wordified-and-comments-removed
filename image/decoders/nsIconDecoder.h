@@ -70,13 +70,6 @@ uint32_t
 mPixBytesRead
 ;
 uint32_t
-mPixBytesTotal
-;
-uint8_t
-*
-mImageData
-;
-uint32_t
 mState
 ;
 }

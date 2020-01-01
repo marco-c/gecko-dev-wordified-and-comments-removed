@@ -157,10 +157,6 @@ mColors
 bitFields
 mBitFields
 ;
-uint32_t
-*
-mImageData
-;
 uint8_t
 *
 mRow

@@ -999,7 +999,7 @@ public
 :
 static
 void
-DidSomeDecoding
+NotifyFinishedSomeDecoding
 (
 RasterImage
 *
@@ -1042,13 +1042,9 @@ mRequest
 ;
 }
 ;
-static
 void
 FinishedSomeDecoding
 (
-RasterImage
-*
-image
 eShutdownIntent
 intent
 =

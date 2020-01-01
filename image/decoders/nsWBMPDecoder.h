@@ -104,10 +104,6 @@ mWidth
 uint32_t
 mHeight
 ;
-uint32_t
-*
-mImageData
-;
 uint8_t
 *
 mRow
