@@ -629,6 +629,7 @@ ZeroMemory
 exploded
 sizeof
 (
+*
 exploded
 )
 )
