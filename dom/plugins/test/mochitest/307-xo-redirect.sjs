@@ -43,8 +43,6 @@ plugins
 /
 test
 /
-mochitest
-/
 loremipsum
 .
 txt

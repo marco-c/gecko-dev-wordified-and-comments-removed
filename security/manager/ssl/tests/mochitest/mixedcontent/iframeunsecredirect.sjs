@@ -39,13 +39,7 @@ tests
 /
 security
 /
-manager
-/
 ssl
-/
-tests
-/
-mochitest
 /
 mixedcontent
 /

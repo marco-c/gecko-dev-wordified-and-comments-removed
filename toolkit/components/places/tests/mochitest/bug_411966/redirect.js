@@ -276,8 +276,6 @@ places
 /
 tests
 /
-mochitest
-/
 bug_411966
 /
 TypedPage
@@ -309,8 +307,6 @@ components
 places
 /
 tests
-/
-mochitest
 /
 bug_411966
 /
@@ -344,8 +340,6 @@ places
 /
 tests
 /
-mochitest
-/
 bug_411966
 /
 TempRedirectPage
@@ -377,8 +371,6 @@ components
 places
 /
 tests
-/
-mochitest
 /
 bug_411966
 /
