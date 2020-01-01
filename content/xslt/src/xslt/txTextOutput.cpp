@@ -28,15 +28,6 @@ aOut
 )
 {
 }
-txTextOutput
-:
-:
-~
-txTextOutput
-(
-)
-{
-}
 nsresult
 txTextOutput
 :

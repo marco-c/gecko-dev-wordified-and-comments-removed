@@ -30,7 +30,6 @@ txList
 (
 )
 ;
-virtual
 ~
 txList
 (
@@ -189,11 +188,6 @@ txListIterator
 txList
 *
 list
-)
-;
-~
-txListIterator
-(
 )
 ;
 nsresult

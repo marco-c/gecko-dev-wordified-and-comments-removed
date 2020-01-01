@@ -55,16 +55,6 @@ nsIDOMXPathNamespace
 {
 public
 :
-nsXPathNamespace
-(
-)
-;
-virtual
-~
-nsXPathNamespace
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMNODE
 NS_DECL_NSIDOMXPATHNAMESPACE

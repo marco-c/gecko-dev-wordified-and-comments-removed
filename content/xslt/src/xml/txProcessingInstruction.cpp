@@ -41,15 +41,6 @@ owner
 )
 {
 }
-ProcessingInstruction
-:
-:
-~
-ProcessingInstruction
-(
-)
-{
-}
 MBool
 ProcessingInstruction
 :

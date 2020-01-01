@@ -57,13 +57,6 @@ aContext
 )
 {
 }
-virtual
-~
-txNodeSetContext
-(
-)
-{
-}
 MBool
 hasNext
 (

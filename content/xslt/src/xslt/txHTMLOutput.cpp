@@ -784,15 +784,6 @@ mUseEmptyElementShorthand
 PR_FALSE
 ;
 }
-txHTMLOutput
-:
-:
-~
-txHTMLOutput
-(
-)
-{
-}
 nsresult
 txHTMLOutput
 :

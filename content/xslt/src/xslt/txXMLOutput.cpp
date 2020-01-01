@@ -102,15 +102,6 @@ setFromDefaults
 )
 ;
 }
-txXMLOutput
-:
-:
-~
-txXMLOutput
-(
-)
-{
-}
 nsresult
 txXMLOutput
 :

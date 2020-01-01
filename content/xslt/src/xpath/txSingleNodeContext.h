@@ -51,12 +51,6 @@ given
 )
 ;
 }
-~
-txSingleNodeContext
-(
-)
-{
-}
 nsresult
 getVariable
 (

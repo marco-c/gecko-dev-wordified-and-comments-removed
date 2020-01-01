@@ -332,12 +332,6 @@ aKey
 )
 {
 }
-~
-txOptionEntry
-(
-)
-{
-}
 nsCStringArray
 mValues
 ;

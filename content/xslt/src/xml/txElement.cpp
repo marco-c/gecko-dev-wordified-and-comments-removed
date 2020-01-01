@@ -59,15 +59,6 @@ aNamespaceID
 )
 {
 }
-Element
-:
-:
-~
-Element
-(
-)
-{
-}
 Node
 *
 Element

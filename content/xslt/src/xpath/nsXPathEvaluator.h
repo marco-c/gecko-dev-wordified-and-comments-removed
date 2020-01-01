@@ -77,13 +77,6 @@ nsISupports
 aOuter
 )
 ;
-virtual
-~
-nsXPathEvaluator
-(
-)
-{
-}
 nsresult
 Init
 (

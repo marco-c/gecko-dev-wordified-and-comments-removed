@@ -223,7 +223,6 @@ txToplevelItem
 {
 public
 :
-virtual
 ~
 txStripSpaceItem
 (

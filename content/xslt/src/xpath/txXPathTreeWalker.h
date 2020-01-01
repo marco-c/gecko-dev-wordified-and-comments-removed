@@ -128,11 +128,6 @@ txXPathNode
 aNode
 )
 ;
-~
-txXPathTreeWalker
-(
-)
-;
 PRBool
 getAttr
 (

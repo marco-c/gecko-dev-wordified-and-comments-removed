@@ -227,13 +227,6 @@ txIMatchContext
 public
 :
 virtual
-~
-txIEvalContext
-(
-)
-{
-}
-virtual
 const
 txXPathNode
 &

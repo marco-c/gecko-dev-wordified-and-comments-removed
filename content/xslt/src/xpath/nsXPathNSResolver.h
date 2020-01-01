@@ -47,12 +47,6 @@ nsIDOMNode
 aNode
 )
 ;
-virtual
-~
-nsXPathNSResolver
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMXPATHNSRESOLVER
 private

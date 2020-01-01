@@ -660,15 +660,6 @@ atEndOfList
 MB_FALSE
 ;
 }
-txListIterator
-:
-:
-~
-txListIterator
-(
-)
-{
-}
 nsresult
 txListIterator
 :

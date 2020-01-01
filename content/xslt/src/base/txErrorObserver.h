@@ -90,14 +90,6 @@ ostream
 errStream
 )
 ;
-virtual
-~
-SimpleErrorObserver
-(
-)
-{
-}
-;
 void
 receiveError
 (

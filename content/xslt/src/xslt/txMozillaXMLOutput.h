@@ -100,12 +100,6 @@ txTransformNotifier
 (
 )
 ;
-virtual
-~
-txTransformNotifier
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISCRIPTLOADEROBSERVER
 NS_IMETHOD
@@ -240,12 +234,6 @@ nsIDOMDocumentFragment
 aFragment
 PRBool
 aNoFixup
-)
-;
-virtual
-~
-txMozillaXMLOutput
-(
 )
 ;
 TX_DECL_TXAXMLEVENTHANDLER

@@ -188,15 +188,6 @@ GetOwnerDoc
 )
 ;
 }
-txMozillaTextOutput
-:
-:
-~
-txMozillaTextOutput
-(
-)
-{
-}
 nsresult
 txMozillaTextOutput
 :

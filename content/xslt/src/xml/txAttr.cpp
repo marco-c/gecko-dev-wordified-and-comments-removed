@@ -70,15 +70,6 @@ aOwnerElement
 )
 {
 }
-Attr
-:
-:
-~
-Attr
-(
-)
-{
-}
 Node
 *
 Attr

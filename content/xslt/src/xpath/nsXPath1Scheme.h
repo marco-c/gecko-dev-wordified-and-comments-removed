@@ -19,16 +19,6 @@ nsIXPointerSchemeProcessor
 {
 public
 :
-nsXPath1SchemeProcessor
-(
-)
-;
-virtual
-~
-nsXPath1SchemeProcessor
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIXPOINTERSCHEMEPROCESSOR
 }

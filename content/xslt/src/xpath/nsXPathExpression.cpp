@@ -145,15 +145,6 @@ aDocument
 )
 {
 }
-nsXPathExpression
-:
-:
-~
-nsXPathExpression
-(
-)
-{
-}
 NS_IMETHODIMP
 nsXPathExpression
 :

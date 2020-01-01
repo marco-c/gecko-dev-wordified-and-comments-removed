@@ -32,12 +32,6 @@ MBool
 aOnlyText
 )
 ;
-virtual
-~
-txTextHandler
-(
-)
-;
 TX_DECL_TXAXMLEVENTHANDLER
 nsString
 mValue

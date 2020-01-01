@@ -84,15 +84,6 @@ namespaces
 )
 ;
 }
-nsXPathNSResolver
-:
-:
-~
-nsXPathNSResolver
-(
-)
-{
-}
 NS_IMETHODIMP
 nsXPathNSResolver
 :

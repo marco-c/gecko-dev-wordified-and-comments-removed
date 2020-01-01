@@ -166,7 +166,6 @@ txMozillaXSLTProcessor
 (
 )
 ;
-virtual
 ~
 txMozillaXSLTProcessor
 (

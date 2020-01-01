@@ -317,12 +317,6 @@ ostream
 aOut
 )
 ;
-virtual
-~
-txXMLOutput
-(
-)
-;
 static
 const
 int

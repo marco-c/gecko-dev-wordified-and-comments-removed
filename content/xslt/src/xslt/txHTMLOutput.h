@@ -29,11 +29,6 @@ ostream
 aOut
 )
 ;
-~
-txHTMLOutput
-(
-)
-;
 static
 nsresult
 init

@@ -71,12 +71,6 @@ nsIDOMDocument
 aDocument
 )
 ;
-virtual
-~
-nsXPathExpression
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMXPATHEXPRESSION
 NS_DECL_NSIDOMNSXPATHEXPRESSION
@@ -142,12 +136,6 @@ NS_OK
 mRecycler
 (
 aRecycler
-)
-{
-}
-~
-EvalContextImpl
-(
 )
 {
 }
