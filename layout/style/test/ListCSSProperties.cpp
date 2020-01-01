@@ -53,6 +53,7 @@ datastruct_
 member_
 type_
 kwtable_
+stylestruct_
 )
 \
 {
@@ -96,6 +97,7 @@ datastruct_
 member_
 type_
 kwtable_
+stylestruct_
 )
 \
 #

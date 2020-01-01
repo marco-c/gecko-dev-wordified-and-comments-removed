@@ -44,6 +44,7 @@ datastruct_
 member_
 type_
 kwtable_
+Font
 )
 #
 define
@@ -68,6 +69,7 @@ datastruct_
 member_
 type_
 kwtable_
+Color
 )
 #
 define
@@ -92,6 +94,7 @@ datastruct_
 member_
 type_
 kwtable_
+Background
 )
 #
 define
@@ -116,6 +119,7 @@ datastruct_
 member_
 type_
 kwtable_
+List
 )
 #
 define
@@ -140,6 +144,7 @@ datastruct_
 member_
 type_
 kwtable_
+Position
 )
 #
 define
@@ -164,6 +169,7 @@ datastruct_
 member_
 type_
 kwtable_
+Text
 )
 #
 define
@@ -188,6 +194,7 @@ datastruct_
 member_
 type_
 kwtable_
+TextReset
 )
 #
 define
@@ -212,6 +219,7 @@ datastruct_
 member_
 type_
 kwtable_
+Display
 )
 #
 define
@@ -236,6 +244,7 @@ datastruct_
 member_
 type_
 kwtable_
+Visibility
 )
 #
 define
@@ -260,6 +269,7 @@ datastruct_
 member_
 type_
 kwtable_
+Content
 )
 #
 define
@@ -284,6 +294,7 @@ datastruct_
 member_
 type_
 kwtable_
+Quotes
 )
 #
 define
@@ -308,6 +319,7 @@ datastruct_
 member_
 type_
 kwtable_
+UserInterface
 )
 #
 define
@@ -332,6 +344,7 @@ datastruct_
 member_
 type_
 kwtable_
+UIReset
 )
 #
 define
@@ -356,6 +369,7 @@ datastruct_
 member_
 type_
 kwtable_
+Table
 )
 #
 define
@@ -380,6 +394,7 @@ datastruct_
 member_
 type_
 kwtable_
+TableBorder
 )
 #
 define
@@ -404,6 +419,7 @@ datastruct_
 member_
 type_
 kwtable_
+Margin
 )
 #
 define
@@ -428,6 +444,7 @@ datastruct_
 member_
 type_
 kwtable_
+Padding
 )
 #
 define
@@ -452,6 +469,7 @@ datastruct_
 member_
 type_
 kwtable_
+Border
 )
 #
 define
@@ -476,6 +494,7 @@ datastruct_
 member_
 type_
 kwtable_
+Outline
 )
 #
 define
@@ -500,6 +519,7 @@ datastruct_
 member_
 type_
 kwtable_
+XUL
 )
 #
 define
@@ -524,6 +544,7 @@ datastruct_
 member_
 type_
 kwtable_
+Column
 )
 #
 define
@@ -548,6 +569,7 @@ datastruct_
 member_
 type_
 kwtable_
+SVG
 )
 #
 define
@@ -572,6 +594,7 @@ datastruct_
 member_
 type_
 kwtable_
+SVGReset
 )
 #
 ifndef
@@ -599,6 +622,7 @@ datastruct_
 member_
 type_
 kwtable_
+BackendOnly
 )
 #
 define

@@ -1253,6 +1253,7 @@ datastruct_
 member_
 type_
 kwtable_
+stylestruct_
 )
 \
 NS_IMETHODIMP
@@ -1345,6 +1346,7 @@ X
 X
 X
 X
+X
 )
 #
 include
@@ -1363,6 +1365,7 @@ X
 X
 X
 X
+X
 )
 CSS_PROP
 (
@@ -1370,6 +1373,7 @@ X
 outline
 MozOutline
 0
+X
 X
 X
 X
@@ -1385,6 +1389,7 @@ X
 X
 X
 X
+X
 )
 CSS_PROP
 (
@@ -1392,6 +1397,7 @@ X
 outline_style
 MozOutlineStyle
 0
+X
 X
 X
 X
@@ -1407,6 +1413,7 @@ X
 X
 X
 X
+X
 )
 CSS_PROP
 (
@@ -1414,6 +1421,7 @@ X
 outline_offset
 MozOutlineOffset
 0
+X
 X
 X
 X

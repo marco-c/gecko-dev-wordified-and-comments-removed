@@ -23,6 +23,7 @@ datastruct_
 member_
 type_
 kwtable_
+stylestruct_
 )
 eCSSProperty_
 #
