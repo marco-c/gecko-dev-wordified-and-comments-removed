@@ -798,6 +798,17 @@ options
 symbolsPath
 )
   
+options
+.
+utilityPath
+=
+getFullPath
+(
+options
+.
+utilityPath
+)
+  
 profileDir
 =
 None
