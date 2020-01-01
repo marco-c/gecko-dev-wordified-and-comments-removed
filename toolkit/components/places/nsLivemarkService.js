@@ -1361,6 +1361,14 @@ d0722baba251
 }
 "
 )
+_xpcom_factory
+:
+XPCOMUtils
+.
+generateSingletonFactory
+(
+LivemarkService
+)
 QueryInterface
 :
 XPCOMUtils

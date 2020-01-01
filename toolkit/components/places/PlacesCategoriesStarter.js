@@ -479,6 +479,14 @@ bf46
 ad4b26e41114
 "
 )
+_xpcom_factory
+:
+XPCOMUtils
+.
+generateSingletonFactory
+(
+PlacesCategoriesStarter
+)
 QueryInterface
 :
 XPCOMUtils
