@@ -2876,6 +2876,10 @@ nsILookAndFeel
 :
 :
 eColor__moz_fieldtext
+eCSSKeyword__moz_default_background_color
+NS_COLOR_MOZ_DEFAULT_BACKGROUND_COLOR
+eCSSKeyword__moz_default_color
+NS_COLOR_MOZ_DEFAULT_COLOR
 eCSSKeyword__moz_dialog
 nsILookAndFeel
 :
