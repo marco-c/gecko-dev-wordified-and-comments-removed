@@ -288,6 +288,16 @@ TestOAndBranch
 \
 _
 (
+FunctionDispatch
+)
+\
+_
+(
+TypeObjectDispatch
+)
+\
+_
+(
 PolyInlineDispatch
 )
 \
