@@ -595,7 +595,6 @@ WINNT
 DIRS
 +
 =
-urlwidget
 winhooks
 endif
 endif
