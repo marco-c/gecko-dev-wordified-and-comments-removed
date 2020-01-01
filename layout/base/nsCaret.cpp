@@ -3872,6 +3872,14 @@ do_QueryInterface
 node
 )
 ;
+if
+(
+!
+caretContent
+)
+return
+PR_TRUE
+;
 for
 (
 PRUint32
