@@ -1997,15 +1997,3 @@ MOZ_EMBEDDING_LEVEL_BASIC
 MOZ_EMBEDDING_LEVEL_MINIMAL
 =
 MOZ_EMBEDDING_LEVEL_MINIMAL
-relativesrcdir
-=
-(
-subst
-(
-topsrcdir
-)
-/
-(
-srcdir
-)
-)
