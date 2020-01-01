@@ -4604,6 +4604,9 @@ if
 (
 !
 mSHEntry
+&
+&
+mDocument
 )
 mDocument
 -
