@@ -177,6 +177,8 @@ IsInitialized
 const
 {
 return
+!
+!
 this
 -
 >

@@ -1932,6 +1932,8 @@ part
 PRBool
 forced
 =
+!
+!
 (
 flags
 &
@@ -1941,6 +1943,8 @@ esc_Forced
 PRBool
 ignoreNonAscii
 =
+!
+!
 (
 flags
 &
@@ -1950,6 +1954,8 @@ esc_OnlyASCII
 PRBool
 ignoreAscii
 =
+!
+!
 (
 flags
 &
@@ -1959,6 +1965,8 @@ esc_OnlyNonASCII
 PRBool
 writing
 =
+!
+!
 (
 flags
 &
@@ -1968,6 +1976,8 @@ esc_AlwaysCopy
 PRBool
 colon
 =
+!
+!
 (
 flags
 &
@@ -2328,6 +2338,8 @@ str
 PRBool
 ignoreNonAscii
 =
+!
+!
 (
 flags
 &
@@ -2337,6 +2349,8 @@ esc_OnlyASCII
 PRBool
 ignoreAscii
 =
+!
+!
 (
 flags
 &
@@ -2346,6 +2360,8 @@ esc_OnlyNonASCII
 PRBool
 writing
 =
+!
+!
 (
 flags
 &
@@ -2355,6 +2371,8 @@ esc_AlwaysCopy
 PRBool
 skipControl
 =
+!
+!
 (
 flags
 &

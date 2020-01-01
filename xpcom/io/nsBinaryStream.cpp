@@ -1800,6 +1800,8 @@ byteResult
 *
 aBoolean
 =
+!
+!
 byteResult
 ;
 return
