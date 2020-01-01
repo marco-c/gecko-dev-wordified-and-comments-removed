@@ -817,6 +817,10 @@ gfx3DMatrix
 &
 aTransform
 const
+nsIntRect
+&
+aCompositionBounds
+const
 gfx
 :
 :
@@ -851,6 +855,10 @@ const
 gfx3DMatrix
 &
 aTransform
+const
+nsIntRect
+&
+aCompositionBounds
 const
 gfx
 :
