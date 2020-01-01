@@ -3671,6 +3671,17 @@ info
 >
 <
 hbox
+id
+=
+"
+identity
+-
+popup
+-
+button
+-
+container
+"
 pack
 =
 "
