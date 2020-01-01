@@ -5168,6 +5168,12 @@ set
 {
 this
 .
+eval
+=
+null
+;
+this
+.
 addProperty
 (
 "
