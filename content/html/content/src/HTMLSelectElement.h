@@ -1393,7 +1393,7 @@ SelectState
 aNewSelected
 )
 ;
-nsresult
+void
 InsertOptionsIntoList
 (
 nsIContent
@@ -1421,7 +1421,7 @@ bool
 aNotify
 )
 ;
-nsresult
+void
 InsertOptionsIntoListRecurse
 (
 nsIContent
