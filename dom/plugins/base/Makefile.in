@@ -737,6 +737,10 @@ base
 /
 \
 (
+MOZ_CAIRO_CFLAGS
+)
+\
+(
 NULL
 )
 ifneq
@@ -866,12 +870,6 @@ CXXFLAGS
 =
 (
 TK_CFLAGS
-)
-CXXFLAGS
-+
-=
-(
-MOZ_CAIRO_CFLAGS
 )
 EXTRA_DSO_LDOPTS
 +
