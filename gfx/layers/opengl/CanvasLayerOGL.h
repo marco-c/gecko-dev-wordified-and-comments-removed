@@ -211,11 +211,6 @@ DrawTarget
 >
 mDrawTarget
 ;
-void
-MakeTexture
-(
-)
-;
 GLuint
 mTexture
 ;
@@ -465,6 +460,12 @@ mTexImage
 ;
 bool
 mNeedsYFlip
+;
+SurfaceDescriptor
+mFrontBufferDescriptor
+;
+GLuint
+mTexture
 ;
 }
 ;
