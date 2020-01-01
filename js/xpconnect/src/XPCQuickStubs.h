@@ -1200,9 +1200,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-callee
 XPCWrappedNative
 *
 *
@@ -1267,9 +1264,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-callee
 T
 *
 *
@@ -1305,7 +1299,6 @@ getWrapper
 (
 cx
 obj
-callee
 &
 wrapper
 &
@@ -1391,9 +1384,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-callee
 PRUint32
 interfaceBit
 nsISupports
@@ -1426,10 +1416,6 @@ cur
 ;
 if
 (
-!
-callee
-&
-&
 IS_WRAPPER_CLASS
 (
 js
@@ -1478,7 +1464,6 @@ getWrapper
 (
 cx
 obj
-callee
 &
 wrapper
 &
@@ -1876,7 +1861,6 @@ castNativeFromWrapper
 (
 cx
 src
-nsnull
 bit
 pArgRef
 vp

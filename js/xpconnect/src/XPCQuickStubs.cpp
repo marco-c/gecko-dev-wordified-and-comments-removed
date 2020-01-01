@@ -3474,9 +3474,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-callee
 XPCWrappedNative
 *
 *
@@ -4221,7 +4218,6 @@ getWrapper
 (
 cx
 src
-nsnull
 &
 wrapper
 &
