@@ -3567,7 +3567,9 @@ swipe
 up
 "
 "
-cmd_scrollTop
+Browser
+:
+HideTabView
 "
 )
 ;
@@ -3583,7 +3585,9 @@ swipe
 down
 "
 "
-cmd_scrollBottom
+Browser
+:
+ShowTabView
 "
 )
 ;
