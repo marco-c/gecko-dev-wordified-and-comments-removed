@@ -7143,7 +7143,7 @@ aFrame
 GetContent
 (
 )
-60
+30
 )
 )
 {
