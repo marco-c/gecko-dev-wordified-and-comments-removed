@@ -23727,6 +23727,12 @@ GetStyleDisplay
 ;
 if
 (
+!
+IsBoxWrapped
+(
+)
+&
+&
 IsThemed
 (
 disp
