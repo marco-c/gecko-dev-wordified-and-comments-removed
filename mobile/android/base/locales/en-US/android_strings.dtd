@@ -927,10 +927,9 @@ size
 <
 !
 ENTITY
-pref_reflow_on_zoom3
+pref_reflow_on_zoom2
 "
-Double
-tap
+Pinch
 to
 reflow
 text
