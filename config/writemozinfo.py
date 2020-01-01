@@ -54,6 +54,9 @@ TARGET_CPU
 "
 OS_TARGET
 "
+"
+MOZ_WIDGET_TOOLKIT
+"
 ]
     
 missing
@@ -84,6 +87,8 @@ required
 environment
 variables
 :
+%
+s
 "
 %
                         
@@ -174,6 +179,20 @@ o
 lower
 (
 )
+    
+d
+[
+"
+toolkit
+"
+]
+=
+env
+[
+"
+MOZ_WIDGET_TOOLKIT
+"
+]
     
 p
 =
@@ -298,6 +317,31 @@ env
 [
 '
 MOZ_DEBUG
+'
+]
+=
+=
+'
+1
+'
+    
+d
+[
+"
+crashreporter
+"
+]
+=
+'
+MOZ_CRASHREPORTER
+'
+in
+env
+and
+env
+[
+'
+MOZ_CRASHREPORTER
 '
 ]
 =
