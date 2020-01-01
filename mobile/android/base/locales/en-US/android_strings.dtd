@@ -271,6 +271,15 @@ Address
 <
 !
 ENTITY
+remote_tabs
+"
+Synced
+Tabs
+"
+>
+<
+!
+ENTITY
 bookmark
 "
 Bookmark
