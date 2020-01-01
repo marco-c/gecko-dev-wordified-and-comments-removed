@@ -302,6 +302,12 @@ if
 Keys
 .
 meta
+&
+&
+!
+Trenches
+.
+disabled
 )
 {
 let

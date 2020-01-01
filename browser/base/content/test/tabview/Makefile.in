@@ -444,6 +444,10 @@ browser_tabview_apptabs
 .
 js
 \
+browser_tabview_bug580412
+.
+js
+\
 browser_tabview_bug587040
 .
 js
