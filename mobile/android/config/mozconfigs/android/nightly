@@ -75,13 +75,13 @@ android
 -
 sdk
 -
-r13
+r15
 /
 platforms
 /
 android
 -
-13
+14
 "
 ac_add_options
 -
@@ -100,7 +100,7 @@ android
 -
 sdk
 -
-r13
+r15
 /
 tools
 "
