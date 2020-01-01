@@ -1328,16 +1328,6 @@ gecko_menu
 .
 xml
 \
-res
-/
-menu
--
-v11
-/
-gecko_menu
-.
-xml
-\
 (
 NULL
 )
