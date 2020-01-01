@@ -4369,14 +4369,6 @@ nsIWebGLShader
 shader
 )
 ;
-DOMString
-getString
-(
-in
-WebGLenum
-name
-)
-;
 void
 getTexParameter
 (
