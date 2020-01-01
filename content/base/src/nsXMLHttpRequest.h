@@ -182,7 +182,7 @@ h
 #
 include
 "
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 .
 h
 "
@@ -220,7 +220,7 @@ class
 nsXHREventTarget
 :
 public
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 public
 nsIXMLHttpRequestEventTarget
 {
@@ -237,7 +237,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 nsXHREventTarget
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 NS_DECL_NSIXMLHTTPREQUESTEVENTTARGET
 NS_FORWARD_NSIDOMEVENTTARGET

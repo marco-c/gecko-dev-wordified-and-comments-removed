@@ -290,6 +290,13 @@ h
 #
 include
 "
+nsDOMEventTargetHelper
+.
+h
+"
+#
+include
+"
 jstypedarray
 .
 h
@@ -395,7 +402,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 nsDOMFileReader
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 )
 if
 (
@@ -583,7 +590,7 @@ Init
 (
 )
 {
-nsDOMEventTargetWrapperCache
+nsDOMEventTargetHelper
 :
 :
 Init

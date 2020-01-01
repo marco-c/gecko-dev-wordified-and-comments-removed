@@ -1250,6 +1250,15 @@ mBlurSuppressLevel
 =
 0
 ;
+mLastPaintEndTime
+=
+TimeStamp
+:
+:
+Now
+(
+)
+;
 #
 ifdef
 MOZ_XUL
@@ -19828,10 +19837,6 @@ WM_KILLFOCUS
 if
 (
 sJustGotDeactivate
-|
-|
-!
-wParam
 )
 {
 result

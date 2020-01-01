@@ -153,6 +153,12 @@ Init
 )
 ;
 static
+nsresult
+ResetAndReadUserPrefs
+(
+)
+;
+static
 Preferences
 *
 GetInstanceForService

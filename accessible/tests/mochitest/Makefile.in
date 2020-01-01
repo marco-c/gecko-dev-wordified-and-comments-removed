@@ -452,6 +452,8 @@ table
 \
 text
 \
+textcaret
+\
 textselection
 \
 tree
@@ -633,10 +635,6 @@ test_nsOuterDocAccessible
 html
 \
 test_role_nsHyperTextAcc
-.
-html
-\
-test_text_caret
 .
 html
 \

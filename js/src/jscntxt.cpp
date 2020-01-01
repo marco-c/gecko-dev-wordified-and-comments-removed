@@ -4193,12 +4193,6 @@ endif
 PodZero
 (
 &
-sharpObjectMap
-)
-;
-PodZero
-(
-&
 link
 )
 ;

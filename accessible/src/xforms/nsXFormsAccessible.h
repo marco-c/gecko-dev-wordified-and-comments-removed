@@ -115,7 +115,7 @@ NativeState
 ;
 virtual
 bool
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 ;
@@ -177,7 +177,7 @@ NativeRole
 ;
 virtual
 bool
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 ;

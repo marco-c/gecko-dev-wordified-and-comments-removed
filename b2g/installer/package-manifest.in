@@ -3516,3 +3516,10 @@ components
 B2GComponents
 .
 xpt
+BINPATH
+/
+components
+/
+CameraContent
+.
+js

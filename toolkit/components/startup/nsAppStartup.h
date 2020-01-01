@@ -161,6 +161,12 @@ mRestart
 bool
 mInterrupted
 ;
+bool
+mIsSafeModeNecessary
+;
+bool
+mStartupCrashTrackingEnded
+;
 #
 if
 defined

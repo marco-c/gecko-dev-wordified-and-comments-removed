@@ -1477,19 +1477,6 @@ cur
 >
 mNext
 ;
-js
-:
-:
-AutoSwitchCompartment
-sc
-(
-cx
-cur
--
->
-mGlobalJSObject
-)
-;
 if
 (
 cur
@@ -1500,7 +1487,6 @@ mGlobalJSObject
 &
 JS_IsAboutToBeFinalized
 (
-cx
 cur
 -
 >
@@ -1593,7 +1579,6 @@ mPrototypeJSObject
 &
 JS_IsAboutToBeFinalized
 (
-cx
 cur
 -
 >
@@ -1622,7 +1607,6 @@ mPrototypeNoHelper
 &
 JS_IsAboutToBeFinalized
 (
-cx
 cur
 -
 >

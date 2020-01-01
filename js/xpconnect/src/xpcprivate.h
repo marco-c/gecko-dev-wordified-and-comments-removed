@@ -13171,12 +13171,6 @@ jsval
 jsExceptionPtr
 )
 ;
-static
-void
-RemoveXPCOMUCStringFinalizer
-(
-)
-;
 private
 :
 XPCConvert
@@ -13205,12 +13199,6 @@ nsStringBuffer
 *
 *
 sharedBuffer
-)
-;
-static
-void
-ShutdownDOMStringFinalizer
-(
 )
 ;
 private

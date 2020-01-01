@@ -116,7 +116,7 @@ m_cRef
 ;
 nsCOMPtr
 <
-nsIDOMNSDataTransfer
+nsIDOMDataTransfer
 >
 mDataTransfer
 ;

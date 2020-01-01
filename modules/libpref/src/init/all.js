@@ -1654,6 +1654,18 @@ true
 pref
 (
 "
+nglayout
+.
+debug
+.
+paint_flashing
+"
+false
+)
+;
+pref
+(
+"
 slider
 .
 snapMultiplier
@@ -6145,7 +6157,7 @@ spdy
 .
 enabled
 "
-false
+true
 )
 ;
 pref

@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsIDragSession
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h
@@ -1762,6 +1755,9 @@ protected
 bool
 mDropAllowed
 ;
+bool
+mIsDragging
+;
 PRInt32
 mDropRow
 ;
@@ -1773,12 +1769,6 @@ mScrollLines
 ;
 PRUint32
 mDragAction
-;
-nsCOMPtr
-<
-nsIDragSession
->
-mDragSession
 ;
 nsCOMPtr
 <
