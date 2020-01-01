@@ -18131,7 +18131,7 @@ UnaryNode
 :
 create
 (
-PNK_DEFAULT
+PNK_DEFXMLNS
 tc
 )
 ;
