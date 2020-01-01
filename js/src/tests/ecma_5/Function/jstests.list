@@ -76,6 +76,12 @@ bind
 .
 js
 script
+function
+-
+call
+.
+js
+script
 redefine
 -
 arguments
