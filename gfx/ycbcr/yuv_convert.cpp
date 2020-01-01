@@ -156,11 +156,13 @@ yv12_to_rgb565_neon
 uint16
 *
 )
+(
 rgb_buf
 +
-pic_width
+rgb_pitch
 *
 i
+)
 y_buf
 +
 y_pitch

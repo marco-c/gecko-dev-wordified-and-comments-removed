@@ -339,6 +339,16 @@ limit
 0
 )
 ;
+static
+PRInt32
+FormatStrideForWidth
+(
+gfxImageFormat
+format
+PRInt32
+width
+)
+;
 virtual
 PRInt32
 GetDefaultContextFlags
