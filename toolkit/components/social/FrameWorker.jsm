@@ -42,7 +42,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-FrameWorker
+getFrameWorkerHandle
 "
 ]
 ;
@@ -58,7 +58,7 @@ _nextPortId
 1
 ;
 function
-FrameWorker
+getFrameWorkerHandle
 (
 url
 clientWindow
@@ -100,7 +100,7 @@ let
 worker
 =
 new
-FrameWorkerObject
+FrameWorker
 (
 url
 clientWindow
@@ -203,7 +203,7 @@ existingWorker
 }
 ;
 function
-FrameWorkerObject
+FrameWorker
 (
 url
 name
@@ -373,7 +373,7 @@ url
 )
 ;
 }
-FrameWorkerObject
+FrameWorker
 .
 prototype
 =
