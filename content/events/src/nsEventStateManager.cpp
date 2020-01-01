@@ -712,13 +712,13 @@ sSynthCenteringPoint
 =
 kInvalidRefPoint
 ;
-nsIntPoint
+CSSIntPoint
 nsEventStateManager
 :
 :
 sLastClientPoint
 =
-nsIntPoint
+CSSIntPoint
 (
 0
 0

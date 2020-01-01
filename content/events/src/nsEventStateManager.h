@@ -120,6 +120,13 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 nsIPresShell
 ;
@@ -565,7 +572,10 @@ nsIntPoint
 sLastScreenPoint
 ;
 static
-nsIntPoint
+mozilla
+:
+:
+CSSIntPoint
 sLastClientPoint
 ;
 static
