@@ -381,9 +381,9 @@ ins
 )
 ;
 bool
-visitAddV
+visitBinaryV
 (
-LAddV
+LBinaryV
 *
 lir
 )

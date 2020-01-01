@@ -899,17 +899,6 @@ right
 )
 ;
 bool
-jsop_add_specialized
-(
-MDefinition
-*
-left
-MDefinition
-*
-right
-)
-;
-bool
 jsop_bitnot
 (
 )
