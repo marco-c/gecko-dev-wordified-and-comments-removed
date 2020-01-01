@@ -18,9 +18,6 @@ jstypes
 .
 h
 "
-#
-ifdef
-__cplusplus
 namespace
 JS
 {
@@ -35,9 +32,10 @@ T
 class
 Rooted
 ;
+struct
+Zone
+;
 }
-#
-endif
 #
 ifdef
 __cplusplus
@@ -668,6 +666,13 @@ JSCompartment
 *
 compartment
 ;
+JS
+:
+:
+Zone
+*
+zone_
+;
 explicit
 ContextFriendFields
 (
@@ -681,6 +686,10 @@ runtime
 rt
 )
 compartment
+(
+NULL
+)
+zone_
 (
 NULL
 )

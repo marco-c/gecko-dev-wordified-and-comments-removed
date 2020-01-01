@@ -431,17 +431,6 @@ ar
 cx
 )
 ;
-JSAutoCompartment
-ac
-(
-cx
-aResult
-.
-toString
-(
-)
-)
-;
 return
 TimeZoneSettingObserver
 :

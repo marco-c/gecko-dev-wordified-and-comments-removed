@@ -1076,6 +1076,11 @@ MOZ_ASSERT
 IsObjectValueInCompartment
 (
 value
+asObjectPtr
+(
+)
+-
+>
 compartment
 (
 )

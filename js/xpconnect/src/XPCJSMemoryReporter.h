@@ -33,6 +33,9 @@ CollectReports
 WindowPaths
 *
 windowPaths
+WindowPaths
+*
+topWindowPaths
 nsIMemoryMultiReporterCallback
 *
 cb

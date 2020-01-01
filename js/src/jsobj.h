@@ -1981,6 +1981,14 @@ global
 )
 const
 ;
+inline
+JSCompartment
+*
+compartment
+(
+)
+const
+;
 static
 inline
 bool

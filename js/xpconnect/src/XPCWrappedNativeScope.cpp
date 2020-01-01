@@ -905,6 +905,12 @@ proto
 =
 global
 ;
+options
+.
+sameZoneAs
+=
+global
+;
 nsIPrincipal
 *
 principal
