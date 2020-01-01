@@ -81,6 +81,12 @@ com
 '
 )
 ;
+e
+.
+preventDefault
+(
+)
+;
 SimpleTest
 .
 finish

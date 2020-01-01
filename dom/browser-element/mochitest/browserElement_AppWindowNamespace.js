@@ -211,6 +211,12 @@ apps
 document
 )
 ;
+e
+.
+preventDefault
+(
+)
+;
 SimpleTest
 .
 finish
