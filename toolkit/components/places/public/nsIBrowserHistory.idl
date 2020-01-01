@@ -533,7 +533,7 @@ window
 /
 readonly
 attribute
-string
+AUTF8String
 lastPageVisited
 ;
 /
