@@ -70,9 +70,6 @@ mozStorageStatement
 ;
 protected
 :
-nsCString
-mStatementString
-;
 nsCOMPtr
 <
 mozIStorageConnection
