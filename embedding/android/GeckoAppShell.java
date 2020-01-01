@@ -286,6 +286,14 @@ public
 static
 native
 void
+onLowMemory
+(
+)
+;
+public
+static
+native
+void
 callObserver
 (
 String
