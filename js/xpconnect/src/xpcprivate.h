@@ -16079,6 +16079,10 @@ universalXPConnectEnabled
 (
 false
 )
+scope
+(
+nullptr
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -16099,6 +16103,10 @@ wantXrays
 ;
 bool
 universalXPConnectEnabled
+;
+XPCWrappedNativeScope
+*
+scope
 ;
 nsAutoPtr
 <
