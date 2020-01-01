@@ -1986,6 +1986,14 @@ true
 ;
 if
 (
+!
+mTable
+.
+IsInitialized
+(
+)
+|
+|
 mTable
 .
 Count
