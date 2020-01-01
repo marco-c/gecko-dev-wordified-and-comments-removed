@@ -5408,13 +5408,9 @@ this
 .
 _paneDeck
 .
-setAttribute
-(
-"
 selectedIndex
-"
+=
 i
-)
 ;
 if
 (
