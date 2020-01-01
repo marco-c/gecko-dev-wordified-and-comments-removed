@@ -18,6 +18,9 @@ isPointInPath
 transform
 .
 2
+-
+bug
+405300
 <
 /
 title
@@ -64,13 +67,6 @@ rel
 =
 "
 stylesheet
-"
-type
-=
-"
-text
-/
-css
 "
 href
 =
@@ -130,11 +126,6 @@ canvas
 <
 script
 >
-var
-_deferred
-=
-false
-;
 SimpleTest
 .
 waitForExplicitFinish
@@ -179,7 +170,7 @@ ctx
 .
 rect
 (
-0
+50
 0
 20
 20
@@ -193,7 +184,7 @@ translate
 0
 )
 ;
-todo
+ok
 (
 ctx
 .
@@ -223,7 +214,7 @@ false
 "
 )
 ;
-ok
+todo
 (
 ctx
 .
@@ -363,11 +354,6 @@ false
 "
 )
 ;
-if
-(
-!
-_deferred
-)
 SimpleTest
 .
 finish
