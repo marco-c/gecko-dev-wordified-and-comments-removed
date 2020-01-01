@@ -541,6 +541,13 @@ AlertsService
 .
 js
 endif
+ifneq
+(
+Android
+(
+OS_TARGET
+)
+)
 DIRS
 =
 phone
@@ -548,6 +555,7 @@ phone
 (
 NULL
 )
+endif
 include
 (
 topsrcdir
