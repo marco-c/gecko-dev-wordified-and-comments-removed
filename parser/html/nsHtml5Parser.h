@@ -599,8 +599,10 @@ nsIRunnable
 *
 mContinueEvent
 ;
+nsRefPtr
+<
 nsHtml5UTF16Buffer
-*
+>
 mFirstBuffer
 ;
 nsHtml5UTF16Buffer
@@ -632,6 +634,9 @@ nsRefPtr
 nsHtml5StreamParser
 >
 mStreamParser
+;
+PRBool
+mReturnToStreamParserPermitted
 ;
 nsHtml5AtomTable
 mAtomTable
