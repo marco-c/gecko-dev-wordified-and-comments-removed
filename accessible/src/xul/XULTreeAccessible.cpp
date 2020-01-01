@@ -160,6 +160,8 @@ aDoc
 mFlags
 |
 =
+eSelectAccessible
+|
 eXULTreeAccessible
 ;
 mTree
@@ -847,18 +849,6 @@ cell
 }
 return
 child
-;
-}
-bool
-XULTreeAccessible
-:
-:
-IsSelect
-(
-)
-{
-return
-true
 ;
 }
 Accessible

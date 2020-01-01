@@ -62,12 +62,6 @@ NativeState
 ;
 virtual
 bool
-IsSelect
-(
-)
-;
-virtual
-bool
 SelectAll
 (
 )

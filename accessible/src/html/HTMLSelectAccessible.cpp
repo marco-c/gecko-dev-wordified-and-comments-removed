@@ -134,6 +134,8 @@ aDoc
 mFlags
 |
 =
+eSelectAccessible
+|
 eListControlAccessible
 ;
 }
@@ -199,18 +201,6 @@ roles
 :
 :
 LISTBOX
-;
-}
-bool
-HTMLSelectListAccessible
-:
-:
-IsSelect
-(
-)
-{
-return
-true
 ;
 }
 bool

@@ -194,6 +194,9 @@ actionRule
 ELiveAttrRule
 liveAttRule
 ;
+uint32_t
+accTypes
+;
 uint64_t
 state
 ;

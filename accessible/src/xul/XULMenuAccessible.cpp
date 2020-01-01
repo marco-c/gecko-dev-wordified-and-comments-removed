@@ -1906,6 +1906,17 @@ GetParent
 )
 )
 ;
+if
+(
+!
+mSelectControl
+)
+mFlags
+&
+=
+~
+eSelectAccessible
+;
 }
 uint64_t
 XULMenupopupAccessible
