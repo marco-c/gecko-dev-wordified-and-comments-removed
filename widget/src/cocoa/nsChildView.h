@@ -304,6 +304,12 @@ float
 mCumulativeRotation
 ;
 }
++
+(
+void
+)
+initialize
+;
 -
 (
 void
