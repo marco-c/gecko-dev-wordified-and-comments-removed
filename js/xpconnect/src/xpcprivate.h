@@ -3210,7 +3210,15 @@ XPCRootSetElem
 *
 mObjectHolderRoots
 ;
-JSDHashTable
+nsDataHashtable
+<
+nsPtrHashKey
+<
+void
+>
+nsScriptObjectTracer
+*
+>
 mJSHolders
 ;
 PRLock
