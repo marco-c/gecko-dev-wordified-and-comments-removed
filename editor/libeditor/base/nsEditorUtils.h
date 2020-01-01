@@ -70,7 +70,7 @@ class
 nsCOMArray
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoPlaceHolderBatch
 {
 private
@@ -134,6 +134,7 @@ EndPlaceHolderTransaction
 }
 ;
 class
+MOZ_STACK_CLASS
 nsAutoEditBatch
 :
 public
@@ -164,7 +165,7 @@ nsAutoEditBatch
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoSelectionReset
 {
 private
@@ -210,7 +211,7 @@ Abort
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoRules
 {
 public
@@ -301,7 +302,7 @@ mDoNothing
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoTxnsConserveSelection
 {
 public
@@ -378,7 +379,7 @@ mOldState
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoUpdateViewBatch
 {
 public
@@ -464,7 +465,7 @@ aNode
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsDOMIterator
 {
 public
@@ -521,6 +522,7 @@ mIter
 }
 ;
 class
+MOZ_STACK_CLASS
 nsDOMSubtreeIterator
 :
 public
@@ -574,7 +576,7 @@ true
 }
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 DOMPoint
 {
 nsCOMPtr

@@ -499,7 +499,7 @@ aRight
 ;
 }
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsWSRunObject
 {
 public
@@ -831,7 +831,7 @@ mRight
 }
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 WSPoint
 {
 nsCOMPtr
