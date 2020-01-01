@@ -564,12 +564,12 @@ implicitlyCloseP
 )
 ;
 bool
-clearLastStackSlot
+debugOnlyClearLastStackSlot
 (
 )
 ;
 bool
-clearLastListSlot
+debugOnlyClearLastListSlot
 (
 )
 ;

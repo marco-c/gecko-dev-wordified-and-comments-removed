@@ -12784,11 +12784,9 @@ pos
 )
 ;
 assert
-(
 index
 >
 0
-)
 ;
 if
 (
