@@ -444,6 +444,9 @@ homedir
 self
 .
 homedir
+emulator
+=
+True
 )
         
 self
@@ -2043,6 +2046,9 @@ check_adb
 self
 .
 homedir
+emulator
+=
+True
 )
         
 self

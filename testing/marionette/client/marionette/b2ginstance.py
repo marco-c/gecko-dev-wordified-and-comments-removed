@@ -464,6 +464,9 @@ None
 devicemanager
 =
 None
+emulator
+=
+False
 )
 :
         
@@ -535,6 +538,10 @@ self
 .
 fastboot_path
 =
+None
+if
+emulator
+else
 self
 .
 check_fastboot
