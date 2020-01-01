@@ -149,13 +149,6 @@ h
 #
 include
 "
-nsIXPCScriptable
-.
-h
-"
-#
-include
-"
 nsMathUtils
 .
 h

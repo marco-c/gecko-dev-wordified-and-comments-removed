@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIXPConnect
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
