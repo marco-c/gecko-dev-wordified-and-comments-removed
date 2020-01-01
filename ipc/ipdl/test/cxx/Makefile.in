@@ -508,6 +508,8 @@ TestManyChildAllocs
 \
 TestDesc
 \
+TestMultiMgrs
+\
 TestShmem
 \
 TestShutdown
