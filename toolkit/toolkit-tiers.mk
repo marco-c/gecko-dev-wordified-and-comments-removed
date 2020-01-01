@@ -679,11 +679,11 @@ liboggplay
 \
 media
 /
-liboggplay_audio
+liboggz
 \
 media
 /
-liboggz
+libsydneyaudio
 \
 media
 /

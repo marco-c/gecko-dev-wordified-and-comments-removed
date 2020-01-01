@@ -48,7 +48,7 @@ C
 #
 include
 "
-oggplay_audio
+sydneyaudio
 /
 sydney_audio
 .

@@ -1274,12 +1274,14 @@ DEPTH
 /
 media
 /
-liboggplay_audio
+libsydneyaudio
+/
+src
 /
 (
 LIB_PREFIX
 )
-oggplay_audio
+sydneyaudio
 .
 (
 LIB_SUFFIX
