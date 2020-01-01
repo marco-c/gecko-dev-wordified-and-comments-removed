@@ -43,6 +43,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -2088,6 +2097,7 @@ nsnull
 }
 class
 SameOriginCheckedComponent
+MOZ_FINAL
 :
 public
 nsISecurityCheckedComponent

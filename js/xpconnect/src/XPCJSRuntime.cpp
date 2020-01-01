@@ -138,6 +138,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsJSPrincipals
 .
 h
@@ -8684,6 +8693,7 @@ js
 )
 class
 JSCompartmentsMultiReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
@@ -9010,6 +9020,7 @@ get
 ;
 class
 JSMemoryMultiReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
