@@ -908,7 +908,6 @@ _part
 \
 {
 \
-return
 Link
 :
 :
@@ -922,6 +921,10 @@ a
 #
 _part
 )
+;
+\
+return
+NS_OK
 ;
 \
 }
@@ -947,7 +950,6 @@ _part
 \
 {
 \
-return
 Link
 :
 :
@@ -961,6 +963,10 @@ a
 #
 _part
 )
+;
+\
+return
+NS_OK
 ;
 \
 }

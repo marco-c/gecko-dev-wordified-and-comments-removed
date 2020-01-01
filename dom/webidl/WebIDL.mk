@@ -235,6 +235,10 @@ GainNode
 .
 webidl
 \
+HTMLAnchorElement
+.
+webidl
+\
 HTMLBodyElement
 .
 webidl
