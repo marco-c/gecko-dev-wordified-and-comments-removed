@@ -507,9 +507,6 @@ scopeChain
 JSAtomList
 lexdeps
 ;
-JSAtomList
-upvars
-;
 JSTreeContext
 *
 parent
