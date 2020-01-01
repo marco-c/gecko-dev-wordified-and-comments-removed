@@ -1573,6 +1573,15 @@ script
 if
 (
 argTypes
+&
+&
+argc
+=
+=
+newfun
+-
+>
+nargs
 )
 {
 if
@@ -1610,10 +1619,7 @@ i
 ;
 i
 <
-newfun
--
->
-nargs
+argc
 ;
 i
 +
