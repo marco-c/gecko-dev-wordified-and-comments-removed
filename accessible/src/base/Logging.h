@@ -407,6 +407,14 @@ aNode
 )
 ;
 void
+Document
+(
+DocAccessible
+*
+aDocument
+)
+;
+void
 AccessibleNNode
 (
 const
