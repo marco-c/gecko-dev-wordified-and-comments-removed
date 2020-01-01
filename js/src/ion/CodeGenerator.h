@@ -317,6 +317,14 @@ lir
 )
 ;
 bool
+visitCallNative
+(
+LCallNative
+*
+lir
+)
+;
+bool
 visitCallGeneric
 (
 LCallGeneric

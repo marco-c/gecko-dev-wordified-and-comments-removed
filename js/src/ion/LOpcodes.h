@@ -93,6 +93,11 @@ CallGeneric
 \
 _
 (
+CallNative
+)
+\
+_
+(
 StackArg
 )
 \
