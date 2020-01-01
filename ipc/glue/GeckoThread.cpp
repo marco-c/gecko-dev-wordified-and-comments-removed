@@ -224,6 +224,10 @@ mNotificationService
 NULL
 )
 {
+Init
+(
+)
+;
 AutoLock
 lock
 (
@@ -271,6 +275,10 @@ BrowserProcessSubThread
 )
 {
 Stop
+(
+)
+;
+CleanUp
 (
 )
 ;
