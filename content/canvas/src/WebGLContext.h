@@ -4204,7 +4204,7 @@ LOCAL_GL_TEXTURE_2D
 mContext
 -
 >
-LogMessage
+LogMessageIfVerbose
 (
 "
 We
@@ -4249,7 +4249,7 @@ else
 mContext
 -
 >
-LogMessage
+LogMessageIfVerbose
 (
 "
 We

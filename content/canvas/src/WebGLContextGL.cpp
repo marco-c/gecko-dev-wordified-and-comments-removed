@@ -1558,7 +1558,7 @@ PRInt32
 dummy
 )
 {
-LogMessage
+LogMessageIfVerbose
 (
 "
 BufferData
