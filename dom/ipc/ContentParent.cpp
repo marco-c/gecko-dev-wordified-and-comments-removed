@@ -3280,7 +3280,7 @@ AnnotateCrashReport
 NS_LITERAL_CSTRING
 (
 "
-AppManifestURL
+URL
 "
 )
 NS_ConvertUTF16toUTF8
