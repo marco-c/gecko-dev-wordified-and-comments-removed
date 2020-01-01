@@ -24143,15 +24143,6 @@ JS_FALSE
 }
 if
 (
-dstlen
-<
-2
-)
-goto
-bufferTooSmall
-;
-if
-(
 dst
 )
 {
