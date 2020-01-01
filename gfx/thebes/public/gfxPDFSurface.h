@@ -14,6 +14,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
