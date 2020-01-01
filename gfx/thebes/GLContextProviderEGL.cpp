@@ -6736,6 +6736,10 @@ Shutdown
 (
 )
 {
+gGlobalContext
+=
+nsnull
+;
 }
 }
 }

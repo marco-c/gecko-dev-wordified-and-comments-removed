@@ -3063,6 +3063,10 @@ Shutdown
 (
 )
 {
+gGlobalContext
+=
+nsnull
+;
 }
 }
 }
