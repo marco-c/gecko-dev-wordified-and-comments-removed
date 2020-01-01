@@ -9600,7 +9600,7 @@ keyEvent
 =
 do_QueryInterface
 (
-aKeyEvent
+aEvent
 )
 ;
 NS_ENSURE_TRUE
@@ -9870,7 +9870,7 @@ nsIDOMKeyEvent
 :
 DOM_VK_CONTROL
 )
-keyEvent
+aKeyEvent
 -
 >
 GetCtrlKey
@@ -9894,7 +9894,7 @@ nsIDOMKeyEvent
 :
 DOM_VK_ALT
 )
-keyEvent
+aKeyEvent
 -
 >
 GetAltKey
@@ -9918,7 +9918,7 @@ nsIDOMKeyEvent
 :
 DOM_VK_SHIFT
 )
-keyEvent
+aKeyEvent
 -
 >
 GetShiftKey
@@ -9942,7 +9942,7 @@ nsIDOMKeyEvent
 :
 DOM_VK_META
 )
-keyEvent
+aKeyEvent
 -
 >
 GetMetaKey
