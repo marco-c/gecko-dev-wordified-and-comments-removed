@@ -5907,6 +5907,13 @@ showcaret
 )
 GK_ATOM
 (
+showresizer
+"
+showresizer
+"
+)
+GK_ATOM
+(
 simple
 "
 simple
