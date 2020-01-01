@@ -1,10 +1,4 @@
 #
-ifndef
-mozilla_dom_MediaManager_h
-#
-define
-mozilla_dom_MediaManager_h
-#
 include
 "
 MediaEngine
@@ -1899,5 +1893,3 @@ endif
 }
 ;
 }
-#
-endif
