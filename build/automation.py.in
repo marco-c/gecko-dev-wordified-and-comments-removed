@@ -2147,6 +2147,16 @@ user_pref
 "
 dom
 .
+send_after_paint_to_content
+"
+true
+)
+;
+user_pref
+(
+"
+dom
+.
 successive_dialog_time_limit
 "
 0
