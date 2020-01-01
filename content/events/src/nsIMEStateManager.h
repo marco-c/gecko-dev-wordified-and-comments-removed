@@ -45,6 +45,16 @@ mozilla
 widget
 :
 :
+IMEState
+IMEState
+;
+typedef
+mozilla
+:
+:
+widget
+:
+:
 InputContext
 InputContext
 ;
