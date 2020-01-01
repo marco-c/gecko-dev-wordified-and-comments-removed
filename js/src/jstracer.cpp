@@ -59081,7 +59081,7 @@ OOM_EXIT
 break
 ;
 case
-FAIL_VOID
+FAIL_NEITHER
 :
 guard
 (
