@@ -693,7 +693,7 @@ initializeChrome
 (
 String
 uri
-Boolean
+boolean
 isExternalURL
 )
 {

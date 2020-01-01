@@ -1119,7 +1119,7 @@ static
 int
 mOrientation
 ;
-private
+protected
 boolean
 mIsRestoringActivity
 ;
@@ -8754,7 +8754,7 @@ initializeChrome
 (
 String
 uri
-Boolean
+boolean
 isExternalURL
 )
 {
@@ -9398,6 +9398,10 @@ mRestoreMode
 !
 =
 RESTORE_NONE
+&
+&
+!
+mIsRestoringActivity
 )
 {
 try
@@ -10586,13 +10590,14 @@ getInstance
 (
 )
 .
-selectTab
+notifyListeners
 (
 selectedTab
+Tabs
 .
-getId
-(
-)
+TabEvents
+.
+SELECTED
 )
 ;
 connectGeckoLayerClient
