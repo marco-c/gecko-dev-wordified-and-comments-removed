@@ -5722,6 +5722,8 @@ StackFrame
 entryFrame
 InterpMode
 interpMode
+bool
+useNewType
 )
 {
 JSAutoResolveFlags
