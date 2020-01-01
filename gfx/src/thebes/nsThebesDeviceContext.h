@@ -162,7 +162,8 @@ NS_DECL_NSIOBSERVER
 NS_IMETHOD
 Init
 (
-nsNativeWidget
+nsIWidget
+*
 aWidget
 )
 ;
@@ -479,15 +480,6 @@ IsPrinterSurface
 void
 )
 ;
-nsNativeWidget
-GetWidget
-(
-)
-{
-return
-mWidget
-;
-}
 #
 if
 defined
@@ -597,7 +589,8 @@ nsHashtable
 *
 mFontAliasTable
 ;
-nsNativeWidget
+nsIWidget
+*
 mWidget
 ;
 #
