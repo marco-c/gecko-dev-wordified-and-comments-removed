@@ -87,7 +87,7 @@ a
 ifdef
 ANDROID
 #
-ifdef
+if
 defined
 (
 __arm__
@@ -268,6 +268,12 @@ CreateMutex
 (
 )
 ;
+static
+void
+RegisterStartStopHandlers
+(
+)
+;
 private
 :
 static
@@ -406,6 +412,10 @@ function
 (
 NULL
 )
+context
+(
+NULL
+)
 frames_count
 (
 0
@@ -423,6 +433,10 @@ fp
 ;
 Address
 function
+;
+void
+*
+context
 ;
 static
 const
