@@ -108,6 +108,15 @@ important
 }
 toolbarseparator
 {
+-
+moz
+-
+appearance
+:
+separator
+!
+important
+;
 margin
 :
 2px

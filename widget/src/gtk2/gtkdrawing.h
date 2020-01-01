@@ -162,6 +162,7 @@ MOZ_GTK_RADIOBUTTON_CONTAINER
 MOZ_GTK_CHECKBUTTON_LABEL
 MOZ_GTK_RADIOBUTTON_LABEL
 MOZ_GTK_TOOLBAR
+MOZ_GTK_TOOLBAR_SEPARATOR
 MOZ_GTK_TOOLTIP
 MOZ_GTK_FRAME
 MOZ_GTK_RESIZER
@@ -311,6 +312,14 @@ width
 gint
 *
 height
+)
+;
+gint
+moz_gtk_get_toolbar_separator_width
+(
+gint
+*
+size
 )
 ;
 gint
