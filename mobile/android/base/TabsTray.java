@@ -264,6 +264,11 @@ View
 (
 )
 ;
+setItemsCanFocus
+(
+true
+)
+;
 TypedArray
 a
 =
