@@ -222,8 +222,6 @@ width
 width
 :
 3px
-!
-important
 ;
 background
 -
@@ -244,12 +242,6 @@ start
 position
 :
 relative
-;
-z
--
-index
-:
-10
 ;
 }
 #
