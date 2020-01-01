@@ -81,6 +81,15 @@ nsIBrowserProfileMigrator
 bpm
 )
 ;
+PRBool
+ImportRegistryProfiles
+(
+const
+nsACString
+&
+aAppName
+)
+;
 }
 ;
 #
