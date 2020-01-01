@@ -178,7 +178,9 @@ initDBHelper
 (
 ALARMDB_NAME
 ALARMDB_VERSION
+[
 ALARMSTORE_NAME
+]
 aGlobal
 )
 ;
@@ -363,6 +365,7 @@ newTxn
 "
 readwrite
 "
+ALARMSTORE_NAME
 function
 txnCb
 (
@@ -463,6 +466,7 @@ newTxn
 "
 readwrite
 "
+ALARMSTORE_NAME
 function
 txnCb
 (
@@ -604,6 +608,7 @@ newTxn
 "
 readonly
 "
+ALARMSTORE_NAME
 function
 txnCb
 (

@@ -165,7 +165,9 @@ initDBHelper
 (
 DB_NAME
 DB_VERSION
+[
 STORE_NAME
+]
 aGlobal
 )
 ;
@@ -222,6 +224,7 @@ this
 newTxn
 (
 txn_type
+STORE_NAME
 callback
 successCb
 errorCb

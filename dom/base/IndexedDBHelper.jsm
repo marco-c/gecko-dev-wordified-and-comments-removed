@@ -511,6 +511,7 @@ function
 newTxn
 (
 txn_type
+store_name
 callback
 successCb
 failureCb
@@ -550,7 +551,7 @@ transaction
 (
 this
 .
-dbName
+dbStoreNames
 txn_type
 )
 ;
@@ -577,9 +578,7 @@ txn
 .
 objectStore
 (
-this
-.
-dbStoreName
+store_name
 )
 ;
 txn
@@ -692,7 +691,7 @@ initDBHelper
 (
 aDBName
 aDBVersion
-aDBStoreName
+aDBStoreNames
 aGlobal
 )
 {
@@ -710,9 +709,9 @@ aDBVersion
 ;
 this
 .
-dbStoreName
+dbStoreNames
 =
-aDBStoreName
+aDBStoreNames
 ;
 this
 .
