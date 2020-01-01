@@ -2434,6 +2434,13 @@ false
 ;
 if
 (
+constant
+>
+0
+)
+{
+if
+(
 !
 mul
 -
@@ -2660,6 +2667,7 @@ handled
 =
 true
 ;
+}
 }
 }
 if
