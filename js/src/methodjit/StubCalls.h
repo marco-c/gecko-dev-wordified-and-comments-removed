@@ -1219,6 +1219,15 @@ f
 ;
 void
 JS_FASTCALL
+UnbrandThis
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 TypeBarrierHelper
 (
 VMFrame
