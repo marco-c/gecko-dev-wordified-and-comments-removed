@@ -5960,6 +5960,9 @@ None
 didTimeout
 =
 False
+hitMaxTime
+=
+False
 if
 proc
 .
@@ -6243,9 +6246,6 @@ readWithTimeout
 logsource
 timeout
 )
-hitMaxTime
-=
-False
 while
 line
 !
