@@ -79,3 +79,9 @@ setter
 decompilation
 .
 js
+script
+regress
+-
+bug607284
+.
+js

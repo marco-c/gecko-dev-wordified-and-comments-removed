@@ -7907,10 +7907,7 @@ isProxy
 (
 )
 )
-{
-if
-(
-!
+return
 JSProxy
 :
 :
@@ -7922,11 +7919,7 @@ id
 false
 vp
 )
-)
-return
-false
 ;
-}
 JSObject
 *
 pobj
