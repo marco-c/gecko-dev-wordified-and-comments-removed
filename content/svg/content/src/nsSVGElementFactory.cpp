@@ -1982,13 +1982,6 @@ aNodeInfo
 ;
 if
 (
-NS_SMILEnabled
-(
-)
-)
-{
-if
-(
 name
 =
 =
@@ -2072,7 +2065,6 @@ aResult
 aNodeInfo
 )
 ;
-}
 return
 NS_NewSVGUnknownElement
 (

@@ -289,11 +289,6 @@ define
 SVG_HIT_TEST_CHECK_MRECT
 0x04
 bool
-NS_SMILEnabled
-(
-)
-;
-bool
 NS_SVGDisplayListHitTestingEnabled
 (
 )

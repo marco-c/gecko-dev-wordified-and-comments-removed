@@ -25578,12 +25578,6 @@ mAnimationController
 ;
 if
 (
-!
-NS_SMILEnabled
-(
-)
-|
-|
 mLoadedAsData
 |
 |
