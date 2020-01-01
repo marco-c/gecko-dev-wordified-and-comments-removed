@@ -991,7 +991,7 @@ keyword
 editBookmarkPanelShown
 :
 function
-PCH__doShowEditBookmarkPanel
+PCH_editBookmarkPanelShown
 (
 )
 {
