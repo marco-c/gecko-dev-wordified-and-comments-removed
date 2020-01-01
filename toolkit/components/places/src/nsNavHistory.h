@@ -1228,11 +1228,6 @@ aForceInit
 )
 ;
 nsresult
-BackupDBFile
-(
-)
-;
-nsresult
 InitDB
 (
 PRInt16
