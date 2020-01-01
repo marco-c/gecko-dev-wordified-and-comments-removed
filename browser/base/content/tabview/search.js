@@ -954,6 +954,12 @@ self
 =
 this
 ;
+if
+(
+this
+.
+currentHandler
+)
 iQ
 (
 document
@@ -1009,6 +1015,12 @@ self
 =
 this
 ;
+if
+(
+this
+.
+currentHandler
+)
 iQ
 (
 document
