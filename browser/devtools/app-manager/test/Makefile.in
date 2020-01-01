@@ -72,6 +72,10 @@ test_projects_store
 .
 html
 \
+test_remain_connected
+.
+html
+\
 hosted_app
 .
 manifest
