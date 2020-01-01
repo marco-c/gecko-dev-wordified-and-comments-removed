@@ -705,8 +705,9 @@ nsDeviceContextSpecQt
 :
 BeginDocument
 (
-PRUnichar
-*
+const
+nsAString
+&
 aTitle
 PRUnichar
 *

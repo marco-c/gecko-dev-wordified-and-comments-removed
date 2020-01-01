@@ -1947,8 +1947,9 @@ nsDeviceContext
 :
 BeginDocument
 (
-PRUnichar
-*
+const
+nsAString
+&
 aTitle
 PRUnichar
 *
@@ -1983,14 +1984,7 @@ mPrintingSurface
 >
 BeginPrinting
 (
-nsDependentString
-(
 aTitle
-?
-aTitle
-:
-kEmpty
-)
 nsDependentString
 (
 aPrintToFileName

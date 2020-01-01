@@ -264,8 +264,9 @@ aRect
 nsresult
 BeginDocument
 (
-PRUnichar
-*
+const
+nsAString
+&
 aTitle
 PRUnichar
 *

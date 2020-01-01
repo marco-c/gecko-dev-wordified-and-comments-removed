@@ -84,14 +84,6 @@ eIsPrintPreview
 }
 ePrintDataType
 ;
-enum
-eDocTitleDefault
-{
-eDocTitleDefNone
-eDocTitleDefBlank
-eDocTitleDefURLDoc
-}
-;
 nsPrintData
 (
 ePrintDataType

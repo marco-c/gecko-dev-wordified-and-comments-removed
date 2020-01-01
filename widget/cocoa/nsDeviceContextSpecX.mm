@@ -299,8 +299,9 @@ nsDeviceContextSpecX
 :
 BeginDocument
 (
-PRUnichar
-*
+const
+nsAString
+&
 aTitle
 PRUnichar
 *
@@ -315,7 +316,12 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
 if
 (
+!
 aTitle
+.
+IsEmpty
+(
+)
 )
 {
 CFStringRef
@@ -327,9 +333,10 @@ CFStringCreateWithCharacters
 (
 NULL
 aTitle
-NS_strlen
-(
 aTitle
+.
+Length
+(
 )
 )
 ;

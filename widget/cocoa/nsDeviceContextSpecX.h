@@ -58,8 +58,9 @@ surface
 NS_IMETHOD
 BeginDocument
 (
-PRUnichar
-*
+const
+nsAString
+&
 aTitle
 PRUnichar
 *
