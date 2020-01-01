@@ -12647,7 +12647,7 @@ rt
 >
 stackSpace
 .
-mark
+markAndClobber
 (
 trc
 )
@@ -17234,6 +17234,16 @@ gcstats
 :
 :
 PHASE_SWEEP_COMPARTMENTS
+)
+;
+rt
+-
+>
+stackSpace
+.
+markAndClobber
+(
+NULL
 )
 ;
 bool
