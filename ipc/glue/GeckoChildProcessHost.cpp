@@ -1247,11 +1247,16 @@ defined
 (
 XP_MACOSX
 )
+childArgv
+.
+push_back
+(
 CrashReporter
 :
 :
-CreateNotificationPipeForChild
+GetChildNotificationPipe
 (
+)
 )
 ;
 #

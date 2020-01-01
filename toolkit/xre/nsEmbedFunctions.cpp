@@ -996,13 +996,6 @@ aDump
 )
 ;
 }
-#
-if
-!
-defined
-(
-XP_MACOSX
-)
 PRBool
 XRE_SetRemoteExceptionHandler
 (
@@ -1017,6 +1010,12 @@ if
 defined
 (
 XP_WIN
+)
+|
+|
+defined
+(
+XP_MACOSX
 )
 return
 CrashReporter
@@ -1060,8 +1059,6 @@ platform
 #
 endif
 }
-#
-endif
 #
 endif
 #
