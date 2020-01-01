@@ -367,6 +367,10 @@ this
 frame
 script
 )
+#
+if
+defined
+JS_TRACER
 addTraceHints
 (
 cx
@@ -374,6 +378,8 @@ cx
 >
 jitEnabled
 )
+#
+endif
 {
 #
 ifdef
