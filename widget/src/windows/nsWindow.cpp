@@ -9661,6 +9661,15 @@ mTransparencyMode
 case
 eTransparencyBorderlessGlass
 :
+if
+(
+margins
+.
+cxLeftWidth
+>
+=
+0
+)
 {
 const
 PRInt32
