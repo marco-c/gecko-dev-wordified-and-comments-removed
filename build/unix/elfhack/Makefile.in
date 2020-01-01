@@ -711,12 +711,12 @@ DLL_SUFFIX
 (
 CC
 )
-(
-LDFLAGS
-)
 -
 o
 ^
+(
+LDFLAGS
+)
 libs
 :
 :
