@@ -183,6 +183,16 @@ lg
 )
 ;
 }
+PRBool
+printerFont
+=
+mDeviceContext
+-
+>
+IsPrinterSurface
+(
+)
+;
 mFontStyle
 =
 new
@@ -205,6 +215,7 @@ systemFont
 aFont
 .
 familyNameQuirks
+printerFont
 )
 ;
 mFontGroup
