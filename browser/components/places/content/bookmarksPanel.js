@@ -475,6 +475,14 @@ applyFilter
 (
 aSearchString
 true
+[
+PlacesUtils
+.
+bookmarksRootId
+PlacesUtils
+.
+unfiledRootId
+]
 )
 ;
 }
