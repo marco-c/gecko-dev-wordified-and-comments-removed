@@ -351,6 +351,12 @@ eDOMClassInfo_MathMLElement_id
 #
 endif
 eDOMClassInfo_Worker_id
+#
+ifdef
+MOZ_ENABLE_CANVAS3D
+eDOMClassInfo_CanvasRenderingContextGLWeb20_id
+#
+endif
 eDOMClassInfoIDCount
 }
 ;
