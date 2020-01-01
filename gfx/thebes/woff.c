@@ -39,6 +39,15 @@ h
 ifdef
 WOFF_MOZILLA_CLIENT
 #
+include
+"
+mozilla
+/
+mozalloc
+.
+h
+"
+#
 define
 malloc
 moz_malloc
