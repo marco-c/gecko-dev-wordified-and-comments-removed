@@ -880,7 +880,6 @@ testWchar
 z
 "
 "
-q
 "
 )
 ;
