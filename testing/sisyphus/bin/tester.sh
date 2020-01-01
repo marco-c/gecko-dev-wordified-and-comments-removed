@@ -989,7 +989,7 @@ nt
 linux
 )
 if
-which
+findprogram
 fix
 -
 linux
@@ -997,11 +997,6 @@ linux
 stack
 .
 pl
->
-/
-dev
-/
-null
 ;
 then
 fix
@@ -1047,7 +1042,7 @@ fi
 darwin
 )
 if
-which
+findprogram
 fix
 -
 macosx
@@ -1055,11 +1050,6 @@ macosx
 stack
 .
 pl
->
-/
-dev
-/
-null
 ;
 then
 fix
