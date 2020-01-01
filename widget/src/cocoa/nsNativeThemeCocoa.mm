@@ -12459,7 +12459,7 @@ nsNativeThemeCocoa
 :
 GetWidgetBorder
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -12982,7 +12982,7 @@ nsNativeThemeCocoa
 :
 GetWidgetPadding
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -13091,7 +13091,7 @@ nsNativeThemeCocoa
 :
 GetWidgetOverflow
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame

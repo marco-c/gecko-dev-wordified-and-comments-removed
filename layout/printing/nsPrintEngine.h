@@ -53,7 +53,7 @@ class
 nsIDocShellTreeNode
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 class
 nsIDocumentViewerPrint

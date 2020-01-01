@@ -2253,7 +2253,7 @@ kPrintOddPages
 printOddPages
 )
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 dc
 =

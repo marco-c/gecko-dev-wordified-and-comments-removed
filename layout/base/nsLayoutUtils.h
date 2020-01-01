@@ -2093,7 +2093,7 @@ aVStrip
 )
 ;
 static
-nsIDeviceContext
+nsDeviceContext
 *
 GetDeviceContextForScreenInfo
 (

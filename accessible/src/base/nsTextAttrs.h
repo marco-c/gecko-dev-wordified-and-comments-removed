@@ -733,7 +733,7 @@ nsIFrame
 aFrame
 )
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 mDC
 ;

@@ -4750,7 +4750,7 @@ save
 shadowContext
 )
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 devCtx
 =

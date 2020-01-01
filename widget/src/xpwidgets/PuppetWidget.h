@@ -81,7 +81,7 @@ nsIntRect
 aRect
 EVENT_CALLBACK
 aHandleEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIAppShell
@@ -114,7 +114,7 @@ nsIntRect
 aRect
 EVENT_CALLBACK
 aHandleEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIAppShell

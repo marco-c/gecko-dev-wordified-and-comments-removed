@@ -379,7 +379,7 @@ aFullScreen
 )
 ;
 virtual
-nsIDeviceContext
+nsDeviceContext
 *
 GetDeviceContext
 (
@@ -828,7 +828,7 @@ nsIntRect
 aRect
 EVENT_CALLBACK
 aHandleEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIAppShell
@@ -857,7 +857,7 @@ AttachViewToTopLevel
 (
 EVENT_CALLBACK
 aViewEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 )
@@ -1082,7 +1082,7 @@ nsIntRect
 aRect
 EVENT_CALLBACK
 aHandleEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIAppShell
@@ -1216,7 +1216,7 @@ mEventCallback
 EVENT_CALLBACK
 mViewCallback
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 mContext
 ;

@@ -35,7 +35,7 @@ class
 nsRegion
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 class
 nsIViewObserver
@@ -75,7 +75,7 @@ NS_IVIEWMANAGER_IID
 NS_IMETHOD
 Init
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 )
@@ -346,7 +346,7 @@ aObserver
 NS_IMETHOD
 GetDeviceContext
 (
-nsIDeviceContext
+nsDeviceContext
 *
 &
 aContext

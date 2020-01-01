@@ -239,7 +239,7 @@ class
 nsIDOMEventTarget
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 class
 nsIParser

@@ -637,7 +637,7 @@ nsViewManager
 :
 Init
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 )
@@ -6812,7 +6812,7 @@ nsViewManager
 :
 GetDeviceContext
 (
-nsIDeviceContext
+nsDeviceContext
 *
 &
 aContext

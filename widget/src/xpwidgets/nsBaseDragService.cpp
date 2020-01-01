@@ -2169,7 +2169,7 @@ height
 return
 NS_ERROR_FAILURE
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 deviceContext
 =

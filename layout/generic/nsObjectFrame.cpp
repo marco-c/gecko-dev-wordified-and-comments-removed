@@ -3189,9 +3189,9 @@ view
 nsViewVisibility_kHide
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDeviceContext
+nsDeviceContext
 >
 dx
 ;

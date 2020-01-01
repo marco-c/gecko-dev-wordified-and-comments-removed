@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIDeviceContext
+nsDeviceContext
 .
 h
 "
@@ -120,9 +120,9 @@ aFlag
 ePrintDataType
 mType
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDeviceContext
+nsDeviceContext
 >
 mPrintDC
 ;

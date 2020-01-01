@@ -2905,9 +2905,9 @@ aWidgetInitData
 mWindowType
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDeviceContext
+nsDeviceContext
 >
 dx
 ;
@@ -3085,9 +3085,9 @@ aWidgetInitData
 mWindowType
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDeviceContext
+nsDeviceContext
 >
 dx
 ;
@@ -3208,9 +3208,9 @@ aWidgetInitData
 mWindowType
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDeviceContext
+nsDeviceContext
 >
 dx
 ;
@@ -3459,9 +3459,9 @@ DetachFromTopLevelWidget
 )
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIDeviceContext
+nsDeviceContext
 >
 dx
 ;

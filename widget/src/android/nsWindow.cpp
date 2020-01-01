@@ -803,7 +803,7 @@ nsIntRect
 aRect
 EVENT_CALLBACK
 aHandleEventFunction
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIAppShell

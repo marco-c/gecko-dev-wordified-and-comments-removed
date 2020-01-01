@@ -98,7 +98,7 @@ class
 nsRenderingContext
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 class
 nsDisplayTableItem

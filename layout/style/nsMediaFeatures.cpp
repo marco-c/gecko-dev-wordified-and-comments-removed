@@ -354,7 +354,7 @@ NS_OK
 }
 inline
 static
-nsIDeviceContext
+nsDeviceContext
 *
 GetDeviceContextFor
 (
@@ -785,7 +785,7 @@ nsCSSValue
 aResult
 )
 {
-nsIDeviceContext
+nsDeviceContext
 *
 dx
 =
@@ -894,7 +894,7 @@ nsCSSValue
 aResult
 )
 {
-nsIDeviceContext
+nsDeviceContext
 *
 dx
 =

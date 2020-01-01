@@ -1734,7 +1734,7 @@ nsNativeThemeQt
 :
 GetWidgetBorder
 (
-nsIDeviceContext
+nsDeviceContext
 *
 nsIFrame
 *
@@ -1853,7 +1853,7 @@ nsNativeThemeQt
 :
 GetWidgetPadding
 (
-nsIDeviceContext
+nsDeviceContext
 *
 nsIFrame
 *

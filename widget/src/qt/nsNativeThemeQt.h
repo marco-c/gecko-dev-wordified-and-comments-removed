@@ -55,7 +55,7 @@ class
 nsIFrame
 ;
 class
-nsIDeviceContext
+nsDeviceContext
 ;
 class
 nsNativeThemeQt
@@ -92,7 +92,7 @@ aClipRect
 NS_IMETHOD
 GetWidgetBorder
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame
@@ -172,7 +172,7 @@ PRBool
 )
 GetWidgetPadding
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 nsIFrame

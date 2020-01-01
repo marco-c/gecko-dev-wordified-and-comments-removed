@@ -4104,7 +4104,7 @@ pc
 )
 )
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 dc
 =

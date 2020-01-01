@@ -15449,7 +15449,7 @@ NS_TIME_FUNCTION_MIN
 0
 )
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 devCtx
 =
@@ -21741,7 +21741,7 @@ y
 )
 )
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 devCtx
 =
@@ -23057,7 +23057,7 @@ height
 return
 nsnull
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 deviceContext
 =
@@ -36446,7 +36446,7 @@ cx
 PR_FALSE
 )
 ;
-nsIDeviceContext
+nsDeviceContext
 *
 dc
 =
