@@ -3367,9 +3367,6 @@ sysGroup
 elmP
 )
 {
-nsresult
-rv
-=
 elmP
 -
 >
@@ -3386,14 +3383,6 @@ NS_EVENT_FLAG_BUBBLE
 sysGroup
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
-rv
-=
 elmP
 -
 >
