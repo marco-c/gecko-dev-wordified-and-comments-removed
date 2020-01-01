@@ -13,25 +13,25 @@ import
     
 AbsoluteSymlinkFile
     
+DeflatedFile
+    
 Dest
+    
+ExistingFile
+    
+FileFinder
     
 File
     
 GeneratedFile
     
-DeflatedFile
+JarFinder
     
 ManifestFile
     
-XPTFile
-    
 MinifiedProperties
     
-FileFinder
-    
-JarFinder
-    
-RequiredExistingFile
+XPTFile
 )
 from
 mozpack
@@ -2041,14 +2041,14 @@ link
 source
 )
 class
-TestRequiredExistingFile
+TestExistingFile
 (
 TestWithTmpDir
 )
 :
     
 def
-test_missing_dest
+test_required_missing_dest
 (
 self
 )
@@ -2070,8 +2070,11 @@ file
             
 f
 =
-RequiredExistingFile
+ExistingFile
 (
+required
+=
+True
 )
             
 f
@@ -2089,7 +2092,7 @@ dest
 )
     
 def
-test_existing_dest
+test_required_existing_dest
 (
 self
 )
@@ -2120,8 +2123,87 @@ pass
         
 f
 =
-RequiredExistingFile
+ExistingFile
 (
+required
+=
+True
+)
+        
+f
+.
+copy
+(
+p
+)
+    
+def
+test_optional_missing_dest
+(
+self
+)
+:
+        
+f
+=
+ExistingFile
+(
+required
+=
+False
+)
+        
+f
+.
+copy
+(
+self
+.
+tmppath
+(
+'
+dest
+'
+)
+)
+    
+def
+test_optional_existing_dest
+(
+self
+)
+:
+        
+p
+=
+self
+.
+tmppath
+(
+'
+dest
+'
+)
+        
+with
+open
+(
+p
+'
+a
+'
+)
+:
+            
+pass
+        
+f
+=
+ExistingFile
+(
+required
+=
+False
 )
         
 f
