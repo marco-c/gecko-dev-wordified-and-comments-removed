@@ -1376,9 +1376,6 @@ test_wrongpw2
 test_prompt2
 test_ntlm
 test_auth
-test_digest_noauth
-test_digest
-test_digest_bogus_user
 ]
 ;
 var
