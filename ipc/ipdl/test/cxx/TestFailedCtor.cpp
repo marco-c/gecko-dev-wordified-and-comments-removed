@@ -447,6 +447,15 @@ Result
 what
 )
 {
+if
+(
+OtherProcess
+(
+)
+!
+=
+0
+)
 _exit
 (
 0
