@@ -689,7 +689,7 @@ DocAccessible
 aDoc
 )
 :
-HyperTextAccessibleWrap
+XULLabelAccessible
 (
 aContent
 aDoc
@@ -699,7 +699,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 XULLinkAccessible
-HyperTextAccessibleWrap
+XULLabelAccessible
 nsIAccessibleHyperLink
 )
 void
