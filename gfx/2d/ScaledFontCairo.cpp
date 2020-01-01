@@ -113,9 +113,10 @@ ScaledFontBase
 aSize
 )
 {
-mScaledFont
-=
+SetCairoScaledFont
+(
 aScaledFont
+)
 ;
 }
 #
