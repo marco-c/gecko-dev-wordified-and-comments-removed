@@ -156,7 +156,7 @@ support
 .
 mozilla
 .
-com
+org
 /
 mobile
 #

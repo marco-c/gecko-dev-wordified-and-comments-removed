@@ -3884,7 +3884,7 @@ support
 .
 mozilla
 .
-com
+org
 /
 kb
 /
@@ -3920,7 +3920,7 @@ support
 .
 mozilla
 .
-com
+org
 /
 mobile
 "
