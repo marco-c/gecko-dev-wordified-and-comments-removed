@@ -1,5 +1,6 @@
 XPCOM
 TypeLib
+J
 "
 Y
 F
@@ -11,10 +12,10 @@ K
 #
 nsISupports
 IBookmarksSyncService
-d
-p
-v
-}
+username
+username
+password
+password
 currentUser
 login
 logout
