@@ -59,6 +59,9 @@ class
 nsPresContext
 ;
 class
+nsEventChainVisitor
+;
+class
 nsEventChainPreVisitor
 ;
 class

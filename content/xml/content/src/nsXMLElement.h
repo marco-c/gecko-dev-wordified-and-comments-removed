@@ -53,6 +53,15 @@ nsGenericElement
 )
 virtual
 nsresult
+PreHandleEvent
+(
+nsEventChainPreVisitor
+&
+aVisitor
+)
+;
+virtual
+nsresult
 PostHandleEvent
 (
 nsEventChainPostVisitor
