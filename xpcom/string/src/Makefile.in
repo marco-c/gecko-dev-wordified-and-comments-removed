@@ -465,10 +465,6 @@ nsDependentSubstring
 .
 cpp
 \
-nsPrintfCString
-.
-cpp
-\
 nsPromiseFlatString
 .
 cpp
