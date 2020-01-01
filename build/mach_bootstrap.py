@@ -227,8 +227,21 @@ def
 bootstrap
 (
 topsrcdir
+mozilla_dir
+=
+None
 )
 :
+    
+if
+mozilla_dir
+is
+None
+:
+        
+mozilla_dir
+=
+topsrcdir
     
 if
 sys
@@ -325,7 +338,7 @@ path
 .
 join
 (
-topsrcdir
+mozilla_dir
 path
 )
 for
@@ -366,7 +379,7 @@ path
 .
 join
 (
-topsrcdir
+mozilla_dir
 path
 )
 )
