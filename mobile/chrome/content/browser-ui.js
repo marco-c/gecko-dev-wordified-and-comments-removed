@@ -4323,7 +4323,7 @@ cmd_forceReload
 {
 browser
 .
-lastSpec
+lastLocation
 =
 null
 ;
