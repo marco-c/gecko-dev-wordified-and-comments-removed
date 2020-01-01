@@ -26,6 +26,9 @@ defined
 MOZ_WIDGET_QT
 )
 #
+undef
+CursorShape
+#
 include
 <
 QX11Info
