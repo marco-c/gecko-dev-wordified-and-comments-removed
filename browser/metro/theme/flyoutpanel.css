@@ -291,8 +291,16 @@ precise
 ]
 {
 overflow
+-
+y
 :
 scroll
+;
+overflow
+-
+x
+:
+hidden
 ;
 }
 .
