@@ -1698,4 +1698,13 @@ mCanBeMetered
 canBeMetered
 ;
 }
+public
+void
+doCallback
+(
+String
+json
+)
+{
+}
 }
