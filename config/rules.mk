@@ -1608,6 +1608,9 @@ XPCOM_GLUE_LDOPTS
 (
 NSPR_LIBS
 )
+(
+MOZ_JS_LIBS
+)
 #
 .
 .
