@@ -38440,6 +38440,9 @@ TK_LIBS
 '
 -
 framework
+QuartzCore
+-
+framework
 Carbon
 -
 framework

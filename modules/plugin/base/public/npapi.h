@@ -445,6 +445,9 @@ endif
 NPDrawingModelCoreGraphics
 =
 1
+NPDrawingModelCoreAnimation
+=
+3
 }
 NPDrawingModel
 ;
@@ -584,6 +587,9 @@ NPPVpluginDrawingModel
 NPPVpluginEventModel
 =
 1001
+NPPVpluginCoreAnimationLayer
+=
+1003
 #
 endif
 #
@@ -673,6 +679,9 @@ endif
 NPNVsupportsCoreGraphicsBool
 =
 2001
+NPNVsupportsCoreAnimationBool
+=
+2003
 #
 ifndef
 NP_NO_CARBON
