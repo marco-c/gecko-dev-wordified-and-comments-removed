@@ -711,6 +711,14 @@ ins
 )
 ;
 bool
+visitRegExpTest
+(
+MRegExpTest
+*
+ins
+)
+;
+bool
 visitLambda
 (
 MLambda

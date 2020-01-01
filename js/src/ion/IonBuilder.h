@@ -1818,6 +1818,15 @@ constructing
 )
 ;
 InliningStatus
+inlineRegExpTest
+(
+uint32
+argc
+bool
+constructing
+)
+;
+InliningStatus
 inlineNativeCall
 (
 JSNative
