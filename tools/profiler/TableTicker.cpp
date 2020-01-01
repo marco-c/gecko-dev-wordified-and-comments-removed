@@ -2365,10 +2365,6 @@ cx
 &
 c
 NULL
-JS
-:
-:
-SystemZone
 )
 ;
 std

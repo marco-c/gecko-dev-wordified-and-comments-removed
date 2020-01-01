@@ -11272,7 +11272,7 @@ IsSystemCompartment
 js
 :
 :
-GetObjectCompartment
+GetGCThingCompartment
 (
 parent
 )

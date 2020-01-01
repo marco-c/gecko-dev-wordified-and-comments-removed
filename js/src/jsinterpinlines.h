@@ -6261,6 +6261,10 @@ JS_ION
 ictx_
 (
 cx
+cx
+-
+>
+compartment
 NULL
 )
 useIon_

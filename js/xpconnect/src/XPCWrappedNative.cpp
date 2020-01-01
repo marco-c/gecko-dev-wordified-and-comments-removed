@@ -1270,11 +1270,6 @@ nsIPrincipal
 principal
 bool
 initStandardClasses
-JS
-:
-:
-ZoneSpecifier
-zoneSpec
 XPCWrappedNative
 *
 *
@@ -1408,7 +1403,6 @@ CreateGlobalObject
 ccx
 clasp
 principal
-zoneSpec
 )
 ;
 if

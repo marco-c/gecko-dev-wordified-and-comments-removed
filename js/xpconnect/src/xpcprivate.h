@@ -10701,11 +10701,6 @@ nsIPrincipal
 principal
 bool
 initStandardClasses
-JS
-:
-:
-ZoneSpecifier
-zoneSpec
 XPCWrappedNative
 *
 *
@@ -15841,10 +15836,6 @@ proto
 (
 NULL
 )
-sameZoneAs
-(
-NULL
-)
 {
 }
 bool
@@ -15863,10 +15854,6 @@ proto
 nsCString
 sandboxName
 ;
-JSObject
-*
-sameZoneAs
-;
 }
 ;
 JSObject
@@ -15882,11 +15869,6 @@ clasp
 nsIPrincipal
 *
 principal
-JS
-:
-:
-ZoneSpecifier
-zoneSpec
 )
 ;
 }

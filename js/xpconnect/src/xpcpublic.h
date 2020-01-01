@@ -857,7 +857,7 @@ sCachedBuffer
 js
 :
 :
-GetGCThingZone
+GetGCThingCompartment
 (
 sCachedString
 )
@@ -866,7 +866,7 @@ sCachedString
 js
 :
 :
-GetContextZone
+GetContextCompartment
 (
 cx
 )
@@ -1421,7 +1421,7 @@ rv
 }
 nsCycleCollectionParticipant
 *
-xpc_JSZoneParticipant
+xpc_JSCompartmentParticipant
 (
 )
 ;

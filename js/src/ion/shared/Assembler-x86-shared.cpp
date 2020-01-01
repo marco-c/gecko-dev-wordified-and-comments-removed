@@ -673,13 +673,13 @@ AutoFlushCache
 if
 (
 !
-runtime_
+myCompartment_
 )
 return
 ;
 if
 (
-runtime_
+myCompartment_
 -
 >
 flusher
@@ -689,7 +689,7 @@ flusher
 =
 this
 )
-runtime_
+myCompartment_
 -
 >
 setFlusher

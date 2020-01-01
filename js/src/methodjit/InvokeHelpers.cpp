@@ -1740,9 +1740,7 @@ ExpandInlineFrames
 cx
 -
 >
-zone
-(
-)
+compartment
 )
 ;
 JS_ASSERT
@@ -1891,9 +1889,7 @@ ExpandInlineFrames
 cx
 -
 >
-zone
-(
-)
+compartment
 )
 ;
 JS_ASSERT
@@ -2877,9 +2873,7 @@ ExpandInlineFrames
 cx
 -
 >
-zone
-(
-)
+compartment
 )
 ;
 RemoveOrphanedNative
@@ -3984,9 +3978,7 @@ f
 cx
 -
 >
-zone
-(
-)
+compartment
 )
 ;
 RootedScript

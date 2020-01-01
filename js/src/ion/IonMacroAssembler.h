@@ -339,6 +339,10 @@ ionContext_
 construct
 (
 cx
+cx
+-
+>
+compartment
 (
 js
 :
@@ -831,7 +835,10 @@ GetIonContext
 )
 -
 >
-runtime
+compartment
+-
+>
+rt
 )
 dest
 )
@@ -871,7 +878,10 @@ GetIonContext
 )
 -
 >
-runtime
+compartment
+-
+>
+rt
 )
 dest
 )

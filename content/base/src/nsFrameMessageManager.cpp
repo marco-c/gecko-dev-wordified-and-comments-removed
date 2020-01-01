@@ -5419,10 +5419,6 @@ cx
 aScope
 mPrincipal
 flags
-JS
-:
-:
-SystemZone
 getter_AddRefs
 (
 mGlobal
