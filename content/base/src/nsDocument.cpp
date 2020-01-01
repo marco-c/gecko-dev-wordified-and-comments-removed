@@ -8550,7 +8550,7 @@ nsSlots
 *
 slots
 =
-GetSlots
+Slots
 (
 )
 ;

@@ -6219,15 +6219,9 @@ nsXULSlots
 *
 >
 (
-GetSlots
+Slots
 (
 )
-)
-;
-NS_ENSURE_TRUE
-(
-slots
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 if

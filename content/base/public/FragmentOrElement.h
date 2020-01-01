@@ -1189,7 +1189,7 @@ nsDOMSlots
 *
 >
 (
-GetSlots
+Slots
 (
 )
 )
