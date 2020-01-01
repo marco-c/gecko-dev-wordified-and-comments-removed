@@ -703,10 +703,6 @@ SVGFilterElement
 )
 DOMCI_CLASS
 (
-SVGGElement
-)
-DOMCI_CLASS
-(
 SVGImageElement
 )
 DOMCI_CLASS

@@ -24,13 +24,6 @@ SVGGraphicsElement
 .
 h
 "
-#
-include
-"
-nsIDOMSVGGElement
-.
-h
-"
 nsresult
 NS_NewSVGGElement
 (
@@ -58,7 +51,7 @@ MOZ_FINAL
 public
 SVGGraphicsElement
 public
-nsIDOMSVGGElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -110,7 +103,6 @@ aNodeInfo
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGGELEMENT
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
@@ -145,13 +137,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode
