@@ -556,6 +556,17 @@ cpp
 (
 NULL
 )
+DEFINES
++
+=
+-
+DSKIA_IMPLEMENTATION
+=
+1
+-
+DGR_IMPLEMENTATION
+=
+1
 endif
 endif
 include
