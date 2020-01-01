@@ -222,3 +222,15 @@ cp
 /
 COPYING
 .
+#
+apply
+outstanding
+local
+patches
+patch
+-
+p1
+<
+truncation
+.
+patch
