@@ -617,6 +617,9 @@ next
 }
 }
 ;
+PRBool
+mFilterLocalHosts
+;
 nsTArray
 <
 nsAutoPtr
