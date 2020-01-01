@@ -354,6 +354,10 @@ SVGFEDiffuseLightingElement
 .
 cpp
 \
+SVGFEDisplacementMapElement
+.
+cpp
+\
 SVGFEDistantLightElement
 .
 cpp
@@ -792,6 +796,10 @@ SVGFECompositeElement
 h
 \
 SVGFEDiffuseLightingElement
+.
+h
+\
+SVGFEDisplacementMapElement
 .
 h
 \
