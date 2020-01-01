@@ -307,7 +307,12 @@ the
 python
 parameter
 shift
-cd
+TEST_PWD
+=
+{
+TEST_PWD
+:
+-
 GECKO_OBJDIR
 /
 _tests
@@ -315,6 +320,12 @@ _tests
 testing
 /
 mochitest
+}
+cd
+TEST_PWD
+set
+-
+x
 python
 runtestsb2g
 .
