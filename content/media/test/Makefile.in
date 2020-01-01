@@ -1001,6 +1001,17 @@ bug520500
 .
 ogg
 \
+bug520908
+.
+ogv
+\
+bug520908
+.
+ogv
+^
+headers
+^
+\
 chain
 .
 ogv
