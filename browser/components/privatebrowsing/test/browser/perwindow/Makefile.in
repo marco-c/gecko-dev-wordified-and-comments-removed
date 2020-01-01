@@ -189,6 +189,10 @@ browser_privatebrowsing_theming
 .
 js
 \
+browser_privatebrowsing_ui
+.
+js
+\
 browser_privatebrowsing_urlbarfocus
 .
 js
