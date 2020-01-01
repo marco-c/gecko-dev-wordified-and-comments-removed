@@ -549,12 +549,6 @@ java
 \
 gfx
 /
-FloatPoint
-.
-java
-\
-gfx
-/
 FloatRect
 .
 java
@@ -622,6 +616,12 @@ java
 gfx
 /
 PlaceholderLayerClient
+.
+java
+\
+gfx
+/
+PointUtils
 .
 java
 \
