@@ -4489,6 +4489,12 @@ self
 yield
 ;
 let
+useThresh
+=
+!
+fullSync
+;
+let
 reason
 =
 this
@@ -4908,10 +4914,9 @@ onComplete
 fullSync
 )
 {
-let
-useThresh
+fullSync
 =
-false
+true
 ;
 this
 .
@@ -4941,7 +4946,7 @@ async
 (
 this
 onComplete
-useThresh
+fullSync
 )
 ;
 }
