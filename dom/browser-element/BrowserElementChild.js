@@ -3874,6 +3874,14 @@ status
 Cr
 .
 NS_OK
+|
+|
+status
+=
+=
+Cr
+.
+NS_BINDING_ABORTED
 )
 {
 return
