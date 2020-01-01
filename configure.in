@@ -47224,6 +47224,17 @@ MOZ_CUBEB
 ;
 ;
 *
+-
+openbsd
+*
+)
+AC_DEFINE
+(
+MOZ_CUBEB
+)
+;
+;
+*
 )
 dnl
 Other
