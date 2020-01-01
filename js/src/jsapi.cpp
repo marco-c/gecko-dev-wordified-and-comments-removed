@@ -22869,14 +22869,13 @@ fp
 stdin
 )
 {
-JS_ASSERT
+if
 (
 len
 =
 =
 0
 )
-;
 len
 =
 8
@@ -23026,6 +23025,11 @@ c
 ;
 while
 (
+i
+<
+len
+&
+&
 (
 c
 =
