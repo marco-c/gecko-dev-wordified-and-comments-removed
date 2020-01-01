@@ -2506,6 +2506,13 @@ of
 toBlackBox
 )
 {
+let
+{
+url
+}
+=
+source
+;
 activeThread
 .
 source
@@ -2544,8 +2551,6 @@ ErrorDesc
 "
 "
 +
-source
-.
 url
 )
 ;
@@ -2556,8 +2561,6 @@ blackBoxed
 .
 push
 (
-source
-.
 url
 )
 ;
