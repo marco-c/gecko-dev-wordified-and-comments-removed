@@ -166,5 +166,13 @@ AString
 aAddOns
 )
 ;
+void
+testPing
+(
+in
+AString
+aServer
+)
+;
 }
 ;
