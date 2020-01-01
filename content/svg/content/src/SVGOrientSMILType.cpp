@@ -56,7 +56,7 @@ SVGOrientSMILType
 :
 sSingleton
 ;
-nsresult
+void
 SVGOrientSMILType
 :
 :
@@ -125,9 +125,6 @@ aValue
 mType
 =
 this
-;
-return
-NS_OK
 ;
 }
 void

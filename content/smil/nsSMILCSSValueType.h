@@ -50,7 +50,7 @@ protected
 :
 NS_OVERRIDE
 virtual
-nsresult
+void
 Init
 (
 nsSMILValue

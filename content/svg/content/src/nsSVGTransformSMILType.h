@@ -43,7 +43,7 @@ sSingleton
 protected
 :
 virtual
-nsresult
+void
 Init
 (
 nsSMILValue

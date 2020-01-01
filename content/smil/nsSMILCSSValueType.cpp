@@ -452,7 +452,7 @@ mPtr
 )
 ;
 }
-nsresult
+void
 nsSMILCSSValueType
 :
 :
@@ -492,9 +492,6 @@ aValue
 mType
 =
 this
-;
-return
-NS_OK
 ;
 }
 void

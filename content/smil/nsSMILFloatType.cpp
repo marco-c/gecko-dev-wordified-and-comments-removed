@@ -32,7 +32,7 @@ nsSMILFloatType
 :
 sSingleton
 ;
-nsresult
+void
 nsSMILFloatType
 :
 :
@@ -46,14 +46,6 @@ const
 {
 NS_PRECONDITION
 (
-aValue
-.
-mType
-=
-=
-this
-|
-|
 aValue
 .
 IsNull
@@ -81,9 +73,6 @@ aValue
 mType
 =
 this
-;
-return
-NS_OK
 ;
 }
 void

@@ -39,7 +39,7 @@ nsSVGSMILTransform
 >
 TransformArray
 ;
-nsresult
+void
 nsSVGTransformSMILType
 :
 :
@@ -75,12 +75,6 @@ TransformArray
 1
 )
 ;
-NS_ENSURE_TRUE
-(
-transforms
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 aValue
 .
 mU
@@ -94,9 +88,6 @@ aValue
 mType
 =
 this
-;
-return
-NS_OK
 ;
 }
 void
