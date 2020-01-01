@@ -224,11 +224,6 @@ MessageLoop
 worker
 )
 ;
-void
-IPDLUnitTestChildCleanUp
-(
-)
-;
 }
 }
 #

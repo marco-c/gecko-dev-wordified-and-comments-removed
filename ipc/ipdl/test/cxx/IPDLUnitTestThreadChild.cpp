@@ -95,10 +95,6 @@ CleanUp
 (
 )
 ;
-IPDLUnitTestChildCleanUp
-(
-)
-;
 }
 }
 }

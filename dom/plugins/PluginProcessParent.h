@@ -134,6 +134,11 @@ Launch
 (
 )
 ;
+void
+Delete
+(
+)
+;
 virtual
 bool
 CanShutdown

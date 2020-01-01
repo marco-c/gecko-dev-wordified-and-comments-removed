@@ -116,6 +116,11 @@ aDelegate
 nsnull
 )
 ;
+~
+GeckoChildProcessHost
+(
+)
+;
 bool
 SyncLaunch
 (
