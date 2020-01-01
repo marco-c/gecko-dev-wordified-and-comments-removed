@@ -136,6 +136,7 @@ nsStyleAnimation
 Value
 mStartValue
 mEndValue
+mCurrentValue
 ;
 TimeStamp
 mStartTime
@@ -672,12 +673,6 @@ GetSplineValue
 timePortion
 )
 ;
-nsStyleAnimation
-:
-:
-Value
-value
-;
 #
 ifdef
 DEBUG
@@ -698,7 +693,9 @@ pt
 .
 mEndValue
 valuePortion
-value
+pt
+.
+mCurrentValue
 )
 ;
 NS_ABORT_IF_FALSE
@@ -746,7 +743,9 @@ aRuleData
 -
 >
 mPresContext
-value
+pt
+.
+mCurrentValue
 prop
 )
 ;

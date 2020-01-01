@@ -112,6 +112,7 @@ eStyleAnimType_nscoord
 eStyleAnimType_float
 eStyleAnimType_Color
 eStyleAnimType_PaintServer
+eStyleAnimType_Shadow
 eStyleAnimType_None
 }
 ;
