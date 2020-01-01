@@ -1229,6 +1229,17 @@ children
 "
 OR
 name
+=
+'
+placesInternal
+/
+GUID
+'
+"
++
+"
+OR
+name
 BETWEEN
 '
 weave

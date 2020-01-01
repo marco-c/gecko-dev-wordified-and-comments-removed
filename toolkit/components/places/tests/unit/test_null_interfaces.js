@@ -112,9 +112,6 @@ nsINavBookmarksService
 "
 createFolder
 "
-"
-getItemIdForGUID
-"
 ]
 ]
 [
