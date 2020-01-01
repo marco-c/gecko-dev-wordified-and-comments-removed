@@ -720,6 +720,10 @@ test_bug382113
 .
 html
 \
+test_bug383430
+.
+html
+\
 test_bug390219
 .
 html

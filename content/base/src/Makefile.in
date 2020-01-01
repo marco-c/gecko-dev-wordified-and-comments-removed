@@ -843,6 +843,15 @@ lib
 FORCE_STATIC_LIB
 =
 1
+EXTRA_COMPONENTS
+=
+(
+srcdir
+)
+/
+nsBadCertHandler
+.
+js
 include
 (
 topsrcdir
