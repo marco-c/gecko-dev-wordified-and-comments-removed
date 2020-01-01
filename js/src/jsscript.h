@@ -725,13 +725,6 @@ NULL
 NONE
 ;
 }
-JSAtom
-*
-findDuplicateArgument
-(
-)
-const
-;
 jsuword
 *
 getLocalNameArray
