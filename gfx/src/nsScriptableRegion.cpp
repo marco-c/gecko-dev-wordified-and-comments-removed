@@ -628,6 +628,9 @@ Next
 )
 )
 {
+if
+(
+!
 JS_DefineElement
 (
 aCx
@@ -644,7 +647,9 @@ NULL
 NULL
 JSPROP_ENUMERATE
 )
-;
+|
+|
+!
 JS_DefineElement
 (
 aCx
@@ -663,7 +668,9 @@ NULL
 NULL
 JSPROP_ENUMERATE
 )
-;
+|
+|
+!
 JS_DefineElement
 (
 aCx
@@ -682,7 +689,9 @@ NULL
 NULL
 JSPROP_ENUMERATE
 )
-;
+|
+|
+!
 JS_DefineElement
 (
 aCx
@@ -701,7 +710,12 @@ NULL
 NULL
 JSPROP_ENUMERATE
 )
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 n
 +
 =
