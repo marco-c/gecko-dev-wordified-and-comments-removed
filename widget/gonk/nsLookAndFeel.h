@@ -43,6 +43,17 @@ gfxFontStyle
 aStyle
 )
 ;
+virtual
+nsresult
+GetIntImpl
+(
+IntID
+aID
+PRInt32
+&
+aResult
+)
+;
 protected
 :
 virtual
