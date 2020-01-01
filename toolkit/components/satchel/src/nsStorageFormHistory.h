@@ -213,6 +213,15 @@ nsFormHistory
 (
 )
 ;
+bool
+IsValidCCNumber
+(
+const
+nsAString
+&
+aString
+)
+;
 protected
 :
 nsresult
