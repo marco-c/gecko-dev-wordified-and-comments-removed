@@ -337,6 +337,15 @@ mIdleSynTimeout
 ;
 }
 PRBool
+FastFallbackToIPv4
+(
+)
+{
+return
+mFastFallbackToIPv4
+;
+}
+PRBool
 IsPersistentHttpsCachingEnabled
 (
 )
@@ -768,6 +777,9 @@ mProxyCapabilities
 ;
 PRUint8
 mReferrerLevel
+;
+PRPackedBool
+mFastFallbackToIPv4
 ;
 PRUint16
 mIdleTimeout

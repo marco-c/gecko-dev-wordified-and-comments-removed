@@ -6224,6 +6224,14 @@ ANONYMOUS_CONNECT
 if
 (
 isBackup
+&
+&
+gHttpHandler
+-
+>
+FastFallbackToIPv4
+(
+)
 )
 tmpFlags
 |
