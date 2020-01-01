@@ -5507,8 +5507,6 @@ JSProto_StopIteration
 )
 |
 JSCLASS_FREEZE_PROTO
-|
-JSCLASS_FREEZE_CTOR
 PropertyStub
 PropertyStub
 PropertyStub
