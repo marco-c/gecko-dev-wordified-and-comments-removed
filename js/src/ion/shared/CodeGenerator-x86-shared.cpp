@@ -1239,6 +1239,11 @@ JSOpToDoubleCondition
 comp
 -
 >
+mir
+(
+)
+-
+>
 jsop
 (
 )
@@ -1444,6 +1449,11 @@ cond
 JSOpToDoubleCondition
 (
 comp
+-
+>
+mir
+(
+)
 -
 >
 jsop
