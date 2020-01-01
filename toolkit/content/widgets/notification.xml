@@ -944,9 +944,13 @@ button
 }
 newitem
 .
+setAttribute
+(
+"
 priority
-=
+"
 aPriority
+)
 ;
 if
 (
