@@ -153,10 +153,17 @@ mIMEState
 .
 mEnabled
 =
+value
+?
 IMEState
 :
 :
 PLUGIN
+:
+IMEState
+:
+:
+DISABLED
 ;
 context
 .
