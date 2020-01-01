@@ -46,17 +46,6 @@ FindSCCs
 .
 h
 "
-#
-include
-"
-gc
-/
-FindSCCs
--
-inl
-.
-h
-"
 static
 const
 unsigned
