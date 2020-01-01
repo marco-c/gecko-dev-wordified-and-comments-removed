@@ -444,6 +444,16 @@ mk
 _TEST_FILES
 =
 \
+test_bbox
+.
+xhtml
+\
+bbox
+-
+helper
+.
+svg
+\
 test_dataTypes
 .
 html
