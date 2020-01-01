@@ -3431,6 +3431,15 @@ nsIContent
 aContent
 )
 ;
+static
+void
+FlushLayoutForTree
+(
+nsIDOMWindow
+*
+aWindow
+)
+;
 private
 :
 static
