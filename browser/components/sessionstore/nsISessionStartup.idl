@@ -566,12 +566,5 @@ unsigned
 long
 sessionType
 ;
-readonly
-attribute
-unsigned
-long
-long
-restoredTimestamp
-;
 }
 ;
