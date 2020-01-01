@@ -263,6 +263,10 @@ PerformanceTiming
 .
 webidl
 \
+RGBColor
+.
+webidl
+\
 Screen
 .
 webidl

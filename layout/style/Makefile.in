@@ -190,6 +190,10 @@ nsDOMCSSDeclaration
 .
 h
 \
+nsDOMCSSRGBColor
+.
+h
+\
 nsDOMMediaQueryList
 .
 h
