@@ -645,7 +645,7 @@ obj
 extern
 JSBool
 JS_FASTCALL
-js_EnsureDenseArrayCapacity
+js_Array_dense_setelem_uninitialized
 (
 JSContext
 *

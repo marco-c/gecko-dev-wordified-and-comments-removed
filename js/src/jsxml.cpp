@@ -36293,6 +36293,7 @@ cx
 getTypeObject
 (
 js_XMLList_str
+false
 true
 )
 )

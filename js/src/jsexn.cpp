@@ -5216,6 +5216,7 @@ Error
 prototype
 "
 false
+false
 )
 ;
 TypeObject
@@ -5402,6 +5403,7 @@ cx
 getTypeObject
 (
 fullName
+false
 true
 )
 )

@@ -5347,7 +5347,7 @@ isDenseArray
 ar
 -
 >
-getDenseArrayCapacity
+getDenseArrayInitializedLength
 (
 )
 >
@@ -8851,6 +8851,7 @@ obj
 >
 setProto
 (
+cx
 proto
 )
 ;
@@ -8893,6 +8894,7 @@ buffer
 >
 setProto
 (
+cx
 proto
 )
 ;

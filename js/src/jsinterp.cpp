@@ -24667,7 +24667,7 @@ idx
 obj
 -
 >
-getDenseArrayCapacity
+getDenseArrayInitializedLength
 (
 )
 )
@@ -25191,7 +25191,7 @@ length
 obj
 -
 >
-getDenseArrayCapacity
+getDenseArrayInitializedLength
 (
 )
 ;
