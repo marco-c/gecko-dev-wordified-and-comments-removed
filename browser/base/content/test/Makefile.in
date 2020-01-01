@@ -853,6 +853,10 @@ browser_drag
 .
 js
 \
+browser_relatedTabs
+.
+js
+\
 (
 NULL
 )
