@@ -10351,13 +10351,13 @@ pointerLock
 .
 autoLock
 .
-title
+title2
 "
 :
 "
 pointerLock
 .
-title
+title2
 "
 [
 originString
@@ -10386,7 +10386,7 @@ stringId
 "
 pointerLock
 .
-allow
+allow2
 "
 action
 :

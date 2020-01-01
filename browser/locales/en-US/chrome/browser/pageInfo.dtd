@@ -611,12 +611,12 @@ Fullscreen
 <
 !
 ENTITY
-permPointerLock
+permPointerLock2
 "
 Hide
 the
 Mouse
-Cursor
+Pointer
 "
 >
 <
