@@ -209,6 +209,7 @@ length
 ;
 getter
 Element
+?
 item
 (
 unsigned
@@ -220,6 +221,7 @@ index
 Throws
 ]
 object
+?
 namedItem
 (
 DOMString
