@@ -1836,7 +1836,7 @@ Value
 aLastModifiedDate
 )
 {
-PRTime
+PRInt64
 msecs
 ;
 mFile
