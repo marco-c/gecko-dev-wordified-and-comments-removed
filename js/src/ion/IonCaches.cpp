@@ -3004,12 +3004,7 @@ masm
 .
 setFramePushed
 (
-script
--
->
-ionScript
-(
-)
+ion
 -
 >
 frameSize
