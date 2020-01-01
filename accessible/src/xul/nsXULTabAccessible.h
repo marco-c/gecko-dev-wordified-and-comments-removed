@@ -119,12 +119,13 @@ nsDocAccessible
 aDoc
 )
 ;
-NS_IMETHOD
-GetValue
+virtual
+void
+Value
 (
-nsAString
+nsString
 &
-_retval
+aValue
 )
 ;
 virtual
