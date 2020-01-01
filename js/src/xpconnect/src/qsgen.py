@@ -3095,6 +3095,20 @@ if
 name
 }
 )
+{
+\
+n
+"
+                
+"
+xpc_qsThrowBadArgWithCcx
+(
+ccx
+NS_ERROR_XPC_BAD_CONVERT_JS
+%
+d
+)
+;
 \
 n
 "
@@ -3106,7 +3120,13 @@ JS_FALSE
 \
 n
 "
+                
+"
+}
+"
 )
+%
+i
             
 f
 .
