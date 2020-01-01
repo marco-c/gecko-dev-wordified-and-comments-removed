@@ -2279,9 +2279,10 @@ vp
 )
 -
 >
-getPrimitiveThis
-(
-)
+fslots
+[
+JSSLOT_PRIMITIVE_THIS
+]
 ;
 }
 if
@@ -2702,9 +2703,10 @@ addr
 obj
 -
 >
-getPrimitiveThis
-(
-)
+fslots
+[
+JSSLOT_PRIMITIVE_THIS
+]
 ;
 }
 if
