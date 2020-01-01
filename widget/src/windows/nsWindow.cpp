@@ -22608,7 +22608,12 @@ hIcon
 :
 LoadIconW
 (
+:
+:
+GetModuleHandleW
+(
 NULL
+)
 (
 LPWSTR
 )
@@ -22940,7 +22945,12 @@ hIcon
 :
 LoadIconW
 (
+:
+:
+GetModuleHandleW
+(
 NULL
+)
 (
 LPWSTR
 )
