@@ -2734,6 +2734,11 @@ truncPos
 =
 0
 ;
+PRInt32
+truncNewlineCount
+=
+0
+;
 aScanner
 .
 CurrentPosition
@@ -3026,6 +3031,10 @@ Truncate
 truncPos
 )
 ;
+mNewlineCount
+=
+truncNewlineCount
+;
 aScanner
 .
 SetPosition
@@ -3102,6 +3111,10 @@ str
 Length
 (
 )
+;
+truncNewlineCount
+=
+mNewlineCount
 ;
 }
 if
