@@ -923,14 +923,6 @@ test_garbage_at_end_of_declarations
 .
 html
 \
-test_hover
-.
-html
-\
-hover_helper
-.
-html
-\
 test_ident_escaping
 .
 html

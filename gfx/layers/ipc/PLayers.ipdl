@@ -739,8 +739,8 @@ visibleRegion
 gfx3DMatrix
 transform
 ;
-bool
-isOpaqueContent
+PRUint32
+contentFlags
 ;
 float
 opacity
