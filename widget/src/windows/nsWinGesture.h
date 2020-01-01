@@ -1026,13 +1026,6 @@ kGestureLibraryName
 [
 ]
 ;
-static
-const
-PRUnichar
-kThemeLibraryName
-[
-]
-;
 nsPointWin
 mPanIntermediate
 ;
