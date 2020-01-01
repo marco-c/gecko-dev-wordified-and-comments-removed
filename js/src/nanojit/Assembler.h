@@ -530,14 +530,6 @@ LIns
 }
 ;
 typedef
-SeqBuilder
-<
-char
-*
->
-StringList
-;
-typedef
 HashMap
 <
 SideExit
