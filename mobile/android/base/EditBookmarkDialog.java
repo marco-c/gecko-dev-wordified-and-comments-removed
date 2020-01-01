@@ -143,12 +143,12 @@ public
 EditBookmarkDialog
 (
 Context
-activity
+context
 )
 {
 mContext
 =
-activity
+context
 ;
 }
 private
