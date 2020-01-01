@@ -118,7 +118,7 @@ drawable
 "
 drawable
 /
-tab_new_pressed
+highlight
 "
 /
 >
@@ -131,7 +131,7 @@ drawable
 "
 drawable
 /
-tab_new_normal
+tabs_tray_bg_repeat
 "
 /
 >

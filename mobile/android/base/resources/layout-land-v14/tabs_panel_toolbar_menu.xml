@@ -274,7 +274,7 @@ android
 layout_marginRight
 =
 "
-8dip
+15dip
 "
 >
 <
@@ -423,7 +423,13 @@ gone
 /
 >
 <
-ImageButton
+org
+.
+mozilla
+.
+gecko
+.
+TabsPanelButton
 android
 :
 id
@@ -439,7 +445,7 @@ android
 layout_width
 =
 "
-70dip
+63dip
 "
 android
 :
@@ -469,7 +475,7 @@ android
 paddingRight
 =
 "
-40dip
+33dip
 "
 android
 :
