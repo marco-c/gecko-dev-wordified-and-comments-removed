@@ -12757,13 +12757,6 @@ notdir
 )
 (
 call
-mkdir_deps
-(
-2
-)
-)
-(
-call
 install_cmd
 (
 4
