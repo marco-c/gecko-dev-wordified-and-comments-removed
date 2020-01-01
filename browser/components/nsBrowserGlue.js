@@ -3823,8 +3823,6 @@ bookmarksBackupFile
 {
 PlacesUtils
 .
-backups
-.
 restoreBookmarksFromJSONFile
 (
 bookmarksBackupFile

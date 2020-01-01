@@ -2471,8 +2471,6 @@ try
 {
 PlacesUtils
 .
-backups
-.
 restoreBookmarksFromJSONFile
 (
 aFile

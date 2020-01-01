@@ -187,8 +187,6 @@ try
 {
 PlacesUtils
 .
-backups
-.
 restoreBookmarksFromJSONFile
 (
 this
@@ -264,8 +262,6 @@ json
 try
 {
 PlacesUtils
-.
-backups
 .
 restoreBookmarksFromJSONFile
 (
@@ -363,8 +359,6 @@ it
 try
 {
 PlacesUtils
-.
-backups
 .
 restoreBookmarksFromJSONFile
 (
