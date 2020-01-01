@@ -245,7 +245,7 @@ rsaparams
 .
 keySizeInBits
 =
-2048
+1024
 ;
 rsaparams
 .
