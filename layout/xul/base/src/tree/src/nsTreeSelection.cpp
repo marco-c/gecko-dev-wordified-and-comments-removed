@@ -1073,6 +1073,17 @@ nsTreeSelection
 delete
 mFirstRange
 ;
+if
+(
+mSelectTimer
+)
+mSelectTimer
+-
+>
+Cancel
+(
+)
+;
 }
 NS_INTERFACE_MAP_BEGIN
 (
