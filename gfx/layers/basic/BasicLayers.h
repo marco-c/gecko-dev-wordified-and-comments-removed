@@ -232,6 +232,12 @@ return
 HasShadowManager
 (
 )
+|
+|
+!
+IsWidgetLayerManager
+(
+)
 ;
 }
 void
