@@ -178,9 +178,6 @@ TableRec
 >
 mTables
 ;
-bool
-mUseFontGlyphWidths
-;
 static
 uint32_t
 GetGraphiteTagForLang
