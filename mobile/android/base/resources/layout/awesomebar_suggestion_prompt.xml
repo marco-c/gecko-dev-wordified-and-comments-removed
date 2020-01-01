@@ -147,6 +147,8 @@ padding
 "
 >
 <
+Gecko
+.
 TextView
 android
 :
@@ -177,12 +179,9 @@ android
 textColor
 =
 "
-?
-android
-:
-attr
+color
 /
-textColorPrimary
+awesome_bar_title
 "
 android
 :
