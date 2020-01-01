@@ -882,6 +882,15 @@ params
 )
 :
         
+self
+.
+_ensure_state_subdir_exists
+(
+'
+.
+'
+)
+        
 xpcshell
 =
 self
