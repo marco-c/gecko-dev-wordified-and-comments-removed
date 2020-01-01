@@ -5136,6 +5136,8 @@ data
 =
 this
 .
+_self
+.
 _controller
 .
 getTransferData
