@@ -439,6 +439,10 @@ MozillaLogger
 .
 js
 \
+LogController
+.
+js
+\
 quit
 .
 js
