@@ -3735,8 +3735,14 @@ SetOuterObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aOuterObject
 )
 ;
