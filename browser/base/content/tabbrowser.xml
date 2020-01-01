@@ -646,9 +646,9 @@ chrome
 /
 browser
 /
-skin
+content
 /
-browser
+tabbrowser
 .
 css
 "
