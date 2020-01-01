@@ -490,6 +490,13 @@ sVibrationEndTime
 =
 0
 ;
+private
+static
+int
+sDefaultSensorHint
+=
+100
+;
 public
 static
 native
@@ -3031,9 +3038,7 @@ GeckoApp
 .
 mAppContext
 gAccelerometerSensor
-SensorManager
-.
-SENSOR_DELAY_GAME
+sDefaultSensorHint
 )
 ;
 if
@@ -3051,9 +3056,7 @@ GeckoApp
 .
 mAppContext
 gOrientationSensor
-SensorManager
-.
-SENSOR_DELAY_GAME
+sDefaultSensorHint
 )
 ;
 }
@@ -3350,9 +3353,7 @@ GeckoApp
 .
 mAppContext
 gProximitySensor
-SensorManager
-.
-SENSOR_DELAY_GAME
+sDefaultSensorHint
 )
 ;
 break

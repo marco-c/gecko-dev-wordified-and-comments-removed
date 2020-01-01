@@ -449,6 +449,10 @@ MEAN_GRAVITY
 9
 .
 80665
+#
+define
+DEFAULT_SENSOR_POLL
+100
 nsDeviceMotionSystem
 :
 :
@@ -590,7 +594,7 @@ InitWithFuncCallback
 (
 UpdateHandler
 this
-mUpdateInterval
+DEFAULT_SENSOR_POLL
 nsITimer
 :
 :
