@@ -98,10 +98,10 @@ gfxFontEntry
 aFontsForWeights
 [
 ]
-const
-gfxFontStyle
-&
-aFontStyle
+PRBool
+anItalic
+PRInt16
+aStretch
 )
 ;
 public
