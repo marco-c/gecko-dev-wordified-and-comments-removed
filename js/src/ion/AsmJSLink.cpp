@@ -3070,7 +3070,7 @@ char
 *
 method_name
 =
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 func
@@ -3256,7 +3256,7 @@ char
 *
 method_name
 =
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 func
