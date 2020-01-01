@@ -237,11 +237,6 @@ GonkCameraSource
 cpp
 '
 '
-AudioParameter
-.
-cpp
-'
-'
 GonkRecorderProfiles
 .
 cpp

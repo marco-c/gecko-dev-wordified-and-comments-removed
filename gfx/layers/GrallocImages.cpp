@@ -130,6 +130,10 @@ HAL_PIXEL_FORMAT_YCrCb_420_SP
 HAL_PIXEL_FORMAT_YCrCb_420_SP_ADRENO
 -
 1
+HAL_PIXEL_FORMAT_YCbCr_420_SP_TILED
+HAL_PIXEL_FORMAT_YCbCr_420_SP_TILED
+HAL_PIXEL_FORMAT_YCbCr_420_SP_VENUS
+HAL_PIXEL_FORMAT_YCbCr_420_SP_VENUS
 HAL_PIXEL_FORMAT_YV12
 OMX_COLOR_FormatYUV420Planar
 0
@@ -226,10 +230,6 @@ mGraphicBuffer
 get
 (
 )
-&
-&
-!
-mTextureClient
 )
 {
 mGraphicBuffer
@@ -1624,14 +1624,6 @@ ToIntSize
 mSize
 )
 flags
-)
-;
-mTextureClient
--
->
-SetGraphicBufferLocked
-(
-mGraphicBuffer
 )
 ;
 }

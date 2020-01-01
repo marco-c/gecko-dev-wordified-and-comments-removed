@@ -58,7 +58,7 @@ include
 <
 utils
 /
-threads
+String16
 .
 h
 >
@@ -74,9 +74,6 @@ android
 {
 class
 IMemory
-;
-class
-GonkCameraSourceListener
 ;
 class
 GonkCameraSource
@@ -132,7 +129,13 @@ status_t
 stop
 (
 )
+{
+return
+reset
+(
+)
 ;
+}
 virtual
 status_t
 read
@@ -204,6 +207,9 @@ mCameraFlags
 ;
 Size
 mVideoSize
+;
+int32_t
+mNumInputBuffers
 ;
 int32_t
 mVideoFrameRate
@@ -467,6 +473,11 @@ frameRate
 ;
 void
 releaseCamera
+(
+)
+;
+status_t
+reset
 (
 )
 ;

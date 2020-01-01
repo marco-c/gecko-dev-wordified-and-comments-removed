@@ -77,6 +77,14 @@ chromium
 config
 .
 mk
+ifdef
+MOZ_OMX_DECODER
+DEFINES
++
+=
+-
+DMOZ_OMX_DECODER
+endif
 LOCAL_INCLUDES
 +
 =
