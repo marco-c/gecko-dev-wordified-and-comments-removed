@@ -727,6 +727,10 @@ Notification
 .
 webidl
 \
+NotifyAudioAvailableEvent
+.
+webidl
+\
 NotifyPaintEvent
 .
 webidl
