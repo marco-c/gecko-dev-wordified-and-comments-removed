@@ -49,6 +49,10 @@ prsystem
 .
 h
 "
+using
+namespace
+mozilla
+;
 const
 char
 *
@@ -1303,7 +1307,7 @@ IsShuttingDown
 )
 )
 {
-PRLock
+Mutex
 *
 threadLock
 =
@@ -1319,9 +1323,10 @@ if
 threadLock
 )
 {
-nsAutoLock
+MutexAutoLock
 lock
 (
+*
 threadLock
 )
 ;
@@ -3339,7 +3344,7 @@ IsShuttingDown
 )
 )
 {
-PRLock
+Mutex
 *
 threadLock
 =
@@ -3355,9 +3360,10 @@ if
 threadLock
 )
 {
-nsAutoLock
+MutexAutoLock
 lock
 (
+*
 threadLock
 )
 ;
@@ -3762,7 +3768,7 @@ IsShuttingDown
 )
 )
 {
-PRLock
+Mutex
 *
 threadLock
 =
@@ -3779,9 +3785,10 @@ threadLock
 )
 {
 {
-nsAutoLock
+MutexAutoLock
 lock
 (
+*
 threadLock
 )
 ;
