@@ -1009,6 +1009,16 @@ Permission
 permissions
 )
 ;
+sync
+GetIndexedDBDirectory
+(
+)
+returns
+(
+nsString
+directory
+)
+;
 /
 /
 These

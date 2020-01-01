@@ -510,6 +510,12 @@ mScreenSize
 }
 #
 endif
+nsString
+&
+GetIndexedDBPath
+(
+)
+;
 private
 :
 NS_OVERRIDE

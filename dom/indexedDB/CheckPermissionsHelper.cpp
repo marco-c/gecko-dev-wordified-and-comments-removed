@@ -379,6 +379,14 @@ nsIPermissionManager
 :
 :
 UNKNOWN_ACTION
+&
+&
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Default
 )
 {
 nsCOMPtr

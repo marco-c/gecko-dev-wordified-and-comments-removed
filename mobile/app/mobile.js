@@ -5252,7 +5252,7 @@ feature
 .
 enabled
 "
-false
+true
 )
 ;
 pref
