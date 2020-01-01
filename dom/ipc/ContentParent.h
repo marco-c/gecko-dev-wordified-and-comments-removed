@@ -109,6 +109,9 @@ nsCOMArray
 .
 h
 "
+class
+nsFrameMessageManager
+;
 namespace
 mozilla
 {
@@ -903,6 +906,12 @@ mProcessStartTime
 ;
 bool
 mSendPermissionUpdates
+;
+nsRefPtr
+<
+nsFrameMessageManager
+>
+mMessageManager
 ;
 }
 ;
