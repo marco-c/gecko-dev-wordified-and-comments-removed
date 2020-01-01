@@ -2387,6 +2387,14 @@ links
 next
 )
 {
+if
+(
+script
+-
+>
+jit
+)
+{
 #
 if
 defined
@@ -2423,6 +2431,7 @@ script
 ;
 #
 endif
+}
 }
 #
 endif

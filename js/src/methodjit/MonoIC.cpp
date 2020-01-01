@@ -1152,6 +1152,9 @@ uint8
 script
 -
 >
+jit
+-
+>
 execPool
 -
 >
@@ -1941,9 +1944,10 @@ nmics
 script
 -
 >
-numMICs
-(
-)
+jit
+-
+>
+nMICs
 ;
 for
 (
