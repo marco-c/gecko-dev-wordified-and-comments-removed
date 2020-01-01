@@ -392,10 +392,6 @@ HTMLUnknownElement
 )
 DOMCI_CLASS
 (
-HTMLWBRElement
-)
-DOMCI_CLASS
-(
 CSSStyleRule
 )
 DOMCI_CLASS
