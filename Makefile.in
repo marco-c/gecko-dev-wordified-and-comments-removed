@@ -1271,9 +1271,15 @@ endif
 ifeq
 (
 (
+filter
+-
+out
+Linux
+SunOS
+(
 OS_ARCH
 )
-Linux
+)
 )
 MAKE_SYM_STORE_ARGS
 :
