@@ -739,8 +739,7 @@ creator
 function
 (
 )
-"
-"
+null
 )
 ;
 this
