@@ -14686,6 +14686,14 @@ internalformat
 mBoundRenderbuffer
 -
 >
+SetInternalFormatForGL
+(
+internalformatForGL
+)
+;
+mBoundRenderbuffer
+-
+>
 setDimensions
 (
 width
