@@ -937,10 +937,11 @@ next
 }
 else
 {
+executeSoon
+(
 TestRunner
 .
 next
-(
 )
 ;
 }

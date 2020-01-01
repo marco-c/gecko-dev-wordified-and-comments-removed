@@ -88,6 +88,14 @@ tabfocus
 "
 )
 ;
+NewTabUtils
+.
+allPages
+.
+enabled
+=
+true
+;
 }
 function
 countFocus

@@ -48,6 +48,15 @@ this
 cells
 )
 ]
+get
+ready
+(
+)
+!
+!
+this
+.
+_node
 init
 :
 function
