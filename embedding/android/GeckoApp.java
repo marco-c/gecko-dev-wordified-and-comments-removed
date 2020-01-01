@@ -7425,7 +7425,7 @@ pause
 ;
 rememberLastScreen
 (
-true
+false
 )
 ;
 GeckoAppShell
