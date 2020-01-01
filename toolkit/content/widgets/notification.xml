@@ -2812,6 +2812,14 @@ popup
 {
 document
 .
+popupNode
+=
+aEvent
+.
+target
+;
+document
+.
 getElementById
 (
 button
