@@ -306,6 +306,7 @@ eUnit_CSSValuePair
 eUnit_CSSRect
 eUnit_Dasharray
 eUnit_Shadow
+eUnit_Transform
 eUnit_CSSValuePairList
 eUnit_UnparsedString
 }
@@ -1090,6 +1091,12 @@ aUnit
 =
 =
 eUnit_Shadow
+|
+|
+aUnit
+=
+=
+eUnit_Transform
 ;
 }
 static

@@ -4887,8 +4887,12 @@ Display
 mTransform
 eCSSType_ValueList
 kDisplayKTable
-CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+offsetof
+(
+nsStyleDisplay
+mSpecifiedTransform
+)
+eStyleAnimType_Custom
 )
 CSS_PROP_DISPLAY
 (
