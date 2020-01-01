@@ -2327,14 +2327,6 @@ aType
 )
 ;
 virtual
-void
-FlushExternalResources
-(
-mozFlushType
-aType
-)
-;
-virtual
 nsIScriptEventManager
 *
 GetScriptEventManager
