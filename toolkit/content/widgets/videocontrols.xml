@@ -8254,8 +8254,6 @@ isVideoInFullScreen
 )
 )
 {
-this
-.
 Utils
 .
 _hideControlsTimeout
