@@ -343,6 +343,14 @@ aData
 class
 PropertyList
 ;
+size_t
+SizeOfExcludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 private
 :
 NS_HIDDEN_
