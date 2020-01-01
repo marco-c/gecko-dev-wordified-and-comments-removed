@@ -1383,6 +1383,9 @@ SystemAllocPolicy
 >
 gcGrayRoots
 ;
+bool
+gcTypesMarked
+;
 private
 :
 ptrdiff_t
