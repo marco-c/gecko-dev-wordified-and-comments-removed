@@ -727,6 +727,7 @@ while
 (
 0
 )
+;
 MIR_FLAG_LIST
 (
 OUTPUT_ATTRIBUTE
