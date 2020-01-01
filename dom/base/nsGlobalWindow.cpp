@@ -2801,7 +2801,7 @@ cx
 "
 [
 object
-WindowProxy
+Window
 ]
 "
 )
