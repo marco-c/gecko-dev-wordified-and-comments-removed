@@ -221,7 +221,7 @@ _open_osfhandle
 (
 reinterpret_cast
 <
-long
+intptr_t
 >
 (
 sCon
