@@ -2440,6 +2440,13 @@ SDK_INT
 >
 =
 16
+&
+&
+includeURLCheckbox
+.
+isChecked
+(
+)
 )
 {
 sendPart
