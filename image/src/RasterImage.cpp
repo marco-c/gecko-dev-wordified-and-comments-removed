@@ -401,7 +401,10 @@ once
 \
 if
 (
+NS_FAILED
+(
 _status
+)
 )
 {
 \
