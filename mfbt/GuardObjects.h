@@ -35,10 +35,8 @@ namespace
 detail
 {
 class
-MOZ_EXPORT_API
-(
+MOZ_EXPORT
 GuardObjectNotifier
-)
 {
 private
 :
@@ -85,10 +83,8 @@ statementIsDone
 }
 ;
 class
-MOZ_EXPORT_API
-(
+MOZ_EXPORT
 GuardObjectNotificationReceiver
-)
 {
 private
 :

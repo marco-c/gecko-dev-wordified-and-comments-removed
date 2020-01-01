@@ -134,9 +134,7 @@ defined
 MOZ_JEMALLOC
 )
 MOZ_IMPORT_API
-(
 int
-)
 wrap
 (
 nallocm
