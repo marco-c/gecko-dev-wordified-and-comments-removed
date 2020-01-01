@@ -5428,12 +5428,6 @@ button
 }
 )
 ;
-executeSoon
-(
-function
-(
-)
-{
 notification
 =
 aPanel
@@ -5729,9 +5723,6 @@ the
 progress
 notification
 "
-)
-;
-}
 )
 ;
 }
