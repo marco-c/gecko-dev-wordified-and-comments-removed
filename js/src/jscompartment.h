@@ -557,15 +557,6 @@ AutoDebugModeGC
 }
 struct
 JSCompartment
-:
-private
-JS
-:
-:
-shadow
-:
-:
-Compartment
 {
 JSRuntime
 *
@@ -693,6 +684,9 @@ gcStoreBuffer
 endif
 private
 :
+bool
+needsBarrier_
+;
 bool
 ionUsingBarriers_
 ;
