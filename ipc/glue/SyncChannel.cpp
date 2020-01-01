@@ -12,6 +12,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -392,7 +401,10 @@ type
 +
 1
 ;
+DebugOnly
+<
 int32_t
+>
 msgSeqno
 =
 msg
