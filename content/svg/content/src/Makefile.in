@@ -737,10 +737,6 @@ nsSVGTitleElement
 .
 cpp
 \
-nsSVGTransformListParser
-.
-cpp
-\
 nsSVGUseElement
 .
 cpp
@@ -806,6 +802,10 @@ SVGTransform
 cpp
 \
 SVGTransformList
+.
+cpp
+\
+SVGTransformListParser
 .
 cpp
 \

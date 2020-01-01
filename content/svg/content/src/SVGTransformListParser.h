@@ -1,9 +1,9 @@
 #
 ifndef
-__NS_SVGTRANSFORMLISTPARSER_H__
+MOZILLA_SVGTRANSFORMLISTPARSER_H__
 #
 define
-__NS_SVGTRANSFORMLISTPARSER_H__
+MOZILLA_SVGTRANSFORMLISTPARSER_H__
 #
 include
 "
@@ -27,9 +27,8 @@ mozilla
 class
 SVGTransform
 ;
-}
 class
-nsSVGTransformListParser
+SVGTransformListParser
 :
 public
 nsSVGDataParser
@@ -39,9 +38,6 @@ public
 const
 nsTArray
 <
-mozilla
-:
-:
 SVGTransform
 >
 &
@@ -58,9 +54,6 @@ private
 :
 nsTArray
 <
-mozilla
-:
-:
 SVGTransform
 >
 mTransforms
@@ -147,5 +140,6 @@ MatchMatrix
 ;
 }
 ;
+}
 #
 endif

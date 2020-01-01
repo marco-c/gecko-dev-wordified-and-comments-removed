@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsSVGTransformListParser
+SVGTransformListParser
 .
 h
 "
@@ -265,7 +265,7 @@ nsAString
 aValue
 )
 {
-nsSVGTransformListParser
+SVGTransformListParser
 parser
 ;
 nsresult
