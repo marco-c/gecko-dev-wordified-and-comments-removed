@@ -2052,10 +2052,7 @@ void
 (
 this
 )
-PR_MillisecondsToInterval
-(
 1000
-)
 nsITimer
 :
 :
