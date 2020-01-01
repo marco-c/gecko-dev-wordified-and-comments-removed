@@ -220,7 +220,7 @@ mTextures
 [
 0
 ]
-NULL
+nullptr
 byRef
 (
 mRTView
