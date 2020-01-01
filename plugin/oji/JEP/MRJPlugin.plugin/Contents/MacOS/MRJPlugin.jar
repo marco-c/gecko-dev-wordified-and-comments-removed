@@ -1,12 +1,10 @@
 PK
-d
 6
 META
 -
 INF
 /
 PK
-d
 6
 ;
 F
@@ -40,19 +38,16 @@ Inc
 .
 )
 PK
-d
 6
 netscape
 /
 PK
-d
 6
 netscape
 /
 javascript
 /
 PK
-d
 6y
 %
 netscape
@@ -320,7 +315,6 @@ z
 -
 7
 8PK
-d
 6
 \
 uD
@@ -734,7 +728,6 @@ e
 >
 ?
 APK
-d
 6M
 #
 A
@@ -920,7 +913,6 @@ lang
 /
 Object
 PK
-d
 6e
 ;
 netscape
@@ -1180,7 +1172,6 @@ E
 !
 "
 PK
-d
 6
 1
 1
@@ -1331,14 +1322,12 @@ M
 7
 9
 PK
-d
 6
 netscape
 /
 oji
 /
 PK
-d
 6
 netscape
 /
@@ -1397,7 +1386,6 @@ F
 A
 B
 PK
-d
 6
 }
 r
@@ -1538,7 +1526,6 @@ Y
 )
 )
 PK
-d
 6f
 )
 /
@@ -1736,7 +1723,6 @@ D
 "
 -
 PK
-d
 6
 1v
 v
@@ -2635,7 +2621,6 @@ s
 (
 )
 PK
-d
 6
 &
 #
@@ -2708,7 +2693,6 @@ Runnable
 0
 1
 PK
-d
 6
 V
 netscape
@@ -3627,7 +3611,6 @@ N
 7
 8
 PK
-d
 6
 =
 t
@@ -4102,7 +4085,6 @@ X
 :
 *
 PK
-d
 6
 3
 *
@@ -4787,14 +4769,12 @@ v
 '
 )
 PK
-d
 6
 META
 -
 INF
 /
 PK
-d
 6
 ;
 F
@@ -4807,19 +4787,16 @@ INF
 MANIFEST
 .
 MFPK
-d
 6
 netscape
 /
 PK
-d
 6
 netscape
 /
 javascript
 /
 PK
-d
 6y
 %
 netscape
@@ -4829,7 +4806,6 @@ javascript
 JSException
 .
 classPK
-d
 6
 \
 uD
@@ -4842,7 +4818,6 @@ javascript
 JSObject
 .
 classPK
-d
 6M
 #
 A
@@ -4854,7 +4829,6 @@ javascript
 JSProxy
 .
 classPK
-d
 6e
 ;
 netscape
@@ -4864,7 +4838,6 @@ javascript
 JSRunnable
 .
 classPK
-d
 6
 1
 1
@@ -4875,7 +4848,6 @@ javascript
 JSUtil
 .
 classPK
-d
 6
 t
 netscape
@@ -4883,7 +4855,6 @@ netscape
 oji
 /
 PK
-d
 6
 netscape
 /
@@ -4892,7 +4863,6 @@ oji
 JNIRunnable
 .
 classPK
-d
 6
 }
 r
@@ -4904,7 +4874,6 @@ oji
 JNIThread
 .
 classPK
-d
 6f
 )
 /
@@ -4918,7 +4887,6 @@ JNIUtils
 StubSecurityManager
 .
 classPK
-d
 6
 1v
 v
@@ -4930,7 +4898,6 @@ oji
 JNIUtils
 .
 classPK
-d
 6
 &
 #
@@ -4942,7 +4909,6 @@ oji
 LiveConnectProxy
 .
 classPK
-d
 6
 V
 <
@@ -4954,7 +4920,6 @@ oji
 MRJSession
 .
 classPK
-d
 6
 =
 t
@@ -4969,7 +4934,6 @@ ProxyClassLoaderFactory
 ProxyClassLoader
 .
 classPK
-d
 6
 3
 *
