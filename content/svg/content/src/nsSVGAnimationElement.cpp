@@ -1514,6 +1514,10 @@ offset
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
+FlushAnimations
+(
+)
+;
 nsresult
 rv
 =
@@ -1535,6 +1539,10 @@ return
 rv
 ;
 AnimationNeedsResample
+(
+)
+;
+FlushAnimations
 (
 )
 ;
@@ -1576,6 +1584,10 @@ offset
 NS_ERROR_ILLEGAL_VALUE
 )
 ;
+FlushAnimations
+(
+)
+;
 nsresult
 rv
 =
@@ -1597,6 +1609,10 @@ return
 rv
 ;
 AnimationNeedsResample
+(
+)
+;
+FlushAnimations
 (
 )
 ;
