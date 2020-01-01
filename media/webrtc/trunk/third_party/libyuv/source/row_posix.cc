@@ -77,7 +77,7 @@ kARGBToU
 }
 ;
 CONST
-uvec8
+vec8
 kARGBToV
 =
 {
