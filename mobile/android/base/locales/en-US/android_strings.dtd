@@ -1559,6 +1559,16 @@ Edit
 <
 !
 ENTITY
+contextmenu_subscribe
+"
+Subscribe
+to
+Page
+"
+>
+<
+!
+ENTITY
 history_removed
 "
 Page
