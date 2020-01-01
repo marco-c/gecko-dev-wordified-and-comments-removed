@@ -167,6 +167,10 @@ long
 .
 js
 \
+browser_net_timeline_ticks
+.
+js
+\
 head
 .
 js
