@@ -35026,6 +35026,14 @@ PN_NULLARY
 tc
 )
 ;
+pn
+-
+>
+pn_xflags
+|
+=
+PNX_HOLEY
+;
 }
 else
 {
