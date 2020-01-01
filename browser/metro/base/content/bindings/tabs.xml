@@ -192,11 +192,6 @@ documenttab
 >
 <
 content
-observes
-=
-"
-bcast_urlbarState
-"
 >
 <
 xul
@@ -245,11 +240,6 @@ class
 documenttab
 -
 favicon
-"
-observes
-=
-"
-bcast_urlbarState
 "
 width
 =
@@ -352,11 +342,6 @@ class
 documenttab
 -
 close
-"
-observes
-=
-"
-bcast_urlbarState
 "
 end
 =
