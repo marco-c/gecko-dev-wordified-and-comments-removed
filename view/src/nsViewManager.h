@@ -181,13 +181,13 @@ aVisibilityFlag
 nsViewVisibility_kShow
 )
 ;
-NS_IMETHOD
-GetRootView
+NS_IMETHOD_
 (
 nsIView
 *
-&
-aView
+)
+GetRootView
+(
 )
 ;
 NS_IMETHOD
@@ -844,7 +844,7 @@ public
 :
 nsView
 *
-GetRootView
+GetRootViewImpl
 (
 )
 const
