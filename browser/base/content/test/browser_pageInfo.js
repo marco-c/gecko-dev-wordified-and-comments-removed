@@ -130,6 +130,16 @@ loaded
 )
 return
 ;
+Services
+.
+obs
+.
+removeObserver
+(
+observer
+topic
+)
+;
 handlePageInfo
 (
 )
