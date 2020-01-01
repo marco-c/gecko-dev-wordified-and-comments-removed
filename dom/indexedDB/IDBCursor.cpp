@@ -3886,7 +3886,7 @@ IsUnset
 *
 aVal
 =
-JSVAL_VOID
+JSVAL_NULL
 ;
 }
 else
