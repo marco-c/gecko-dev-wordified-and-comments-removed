@@ -184,12 +184,12 @@ is
 (
 applicationCache
 .
-length
+mozLength
 0
 "
 applicationCache
 .
-length
+mozLength
 should
 be
 0
@@ -223,7 +223,7 @@ function
 {
 applicationCache
 .
-add
+mozAdd
 (
 "
 http
@@ -246,7 +246,7 @@ js
 "
 applicationCache
 .
-add
+mozAdd
 should
 throw
 INVALID_STATE_ERR
@@ -261,7 +261,7 @@ function
 {
 applicationCache
 .
-remove
+mozRemove
 (
 "
 http
@@ -284,7 +284,7 @@ js
 "
 applicationCache
 .
-remove
+mozRemove
 should
 throw
 INVALID_STATE_ERR
