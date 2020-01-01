@@ -43,9 +43,6 @@ osversion
 >
 =
 6
-#
-ifndef
-MINIMO
 skin
 /
 classic
@@ -567,6 +564,8 @@ png
 extensions
 /
 themeGeneric
+-
+aero
 .
 png
 )
@@ -607,6 +606,8 @@ png
 extensions
 /
 viewButtons
+-
+aero
 .
 png
 )
@@ -647,6 +648,8 @@ png
 extensions
 /
 ratings
+-
+aero
 .
 png
 )
@@ -687,6 +690,8 @@ png
 extensions
 /
 extensionIcons
+-
+aero
 .
 png
 )
@@ -807,6 +812,8 @@ png
 passwordmgr
 /
 key
+-
+aero
 .
 png
 )
@@ -887,6 +894,8 @@ png
 plugins
 /
 pluginGeneric
+-
+aero
 .
 png
 )
@@ -1447,6 +1456,8 @@ png
 xpinstall
 /
 xpinstallItemGeneric
+-
+aero
 .
 png
 )
@@ -1575,5 +1586,3 @@ handling
 .
 css
 )
-#
-endif

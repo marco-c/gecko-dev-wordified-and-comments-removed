@@ -2433,6 +2433,8 @@ png
 icons
 /
 blacklist_favicon
+-
+aero
 .
 png
 )
@@ -2473,6 +2475,8 @@ png
 icons
 /
 blacklist_large
+-
+aero
 .
 png
 )
@@ -3968,9 +3972,6 @@ small
 .
 png
 )
-#
-ifndef
-MINIMO
 skin
 /
 classic
@@ -4467,5 +4468,3 @@ dash
 .
 gif
 )
-#
-endif
