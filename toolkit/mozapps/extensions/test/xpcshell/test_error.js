@@ -458,8 +458,9 @@ AddonManager
 ERROR_CORRUPT_FILE
 )
 ;
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }

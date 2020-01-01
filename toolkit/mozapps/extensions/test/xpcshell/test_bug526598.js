@@ -86,6 +86,8 @@ mozilla
 org
 "
 ]
+callback_soon
+(
 function
 (
 [
@@ -304,14 +306,16 @@ newa2
 null
 )
 ;
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }
 )
 ;
 }
+)
 )
 ;
 }

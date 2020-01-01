@@ -8341,6 +8341,7 @@ shutdown
 function
 shutdownCallback
 (
+saveError
 )
 {
 LOG
@@ -8367,7 +8368,7 @@ provider
 -
 shutdown
 "
-null
+saveError
 )
 ;
 }
@@ -11540,12 +11541,8 @@ visibleAddons
 ;
 XPIDatabase
 .
-setAddonDescriptor
+saveChanges
 (
-aOldAddon
-aAddonState
-.
-descriptor
 )
 ;
 if
