@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMNSEvent
 .
 h
@@ -1536,7 +1529,7 @@ GetParent
 }
 nsCOMPtr
 <
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 >
 element
 =

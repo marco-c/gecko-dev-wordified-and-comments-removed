@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMEventTarget
 .
 h
@@ -1835,9 +1828,9 @@ false
 ;
 nsCOMPtr
 <
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 >
-nsElement
+htmlElement
 =
 do_QueryInterface
 (
@@ -1847,7 +1840,7 @@ aElement
 if
 (
 !
-nsElement
+htmlElement
 )
 {
 return
@@ -1863,7 +1856,7 @@ aY
 ;
 res
 =
-nsElement
+htmlElement
 -
 >
 GetOffsetWidth
@@ -1880,7 +1873,7 @@ res
 ;
 res
 =
-nsElement
+htmlElement
 -
 >
 GetOffsetHeight

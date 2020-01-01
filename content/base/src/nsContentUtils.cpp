@@ -336,7 +336,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 .
 h
 "
@@ -10140,7 +10140,7 @@ aContent
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 >
 htmlElement
 =
