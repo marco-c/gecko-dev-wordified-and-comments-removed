@@ -502,7 +502,10 @@ lengthp
 namespace
 js
 {
+JS_FRIEND_API
+(
 bool
+)
 StringIsArrayIndex
 (
 JSLinearString
