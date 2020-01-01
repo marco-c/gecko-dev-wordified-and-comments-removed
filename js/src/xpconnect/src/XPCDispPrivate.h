@@ -693,7 +693,10 @@ private
 JSBool
 mMarked
 ;
-nsVoidArray
+nsTArray
+<
+jsid
+>
 mIDArray
 ;
 }
@@ -757,7 +760,10 @@ const
 ;
 private
 :
-nsVoidArray
+nsTArray
+<
+FUNCDESC
+>
 mArray
 ;
 PRBool
