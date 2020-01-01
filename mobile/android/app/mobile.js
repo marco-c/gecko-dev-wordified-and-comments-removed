@@ -6811,3 +6811,17 @@ Mobile
 "
 )
 ;
+pref
+(
+"
+browser
+.
+ui
+.
+linkify
+.
+phone
+"
+false
+)
+;
