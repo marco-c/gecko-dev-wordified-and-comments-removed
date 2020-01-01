@@ -4154,6 +4154,9 @@ NS_OK
 if
 (
 mDecoderStateMachine
+&
+&
+mDecoderStateMachine
 -
 >
 IsSeekableInBufferedRanges
