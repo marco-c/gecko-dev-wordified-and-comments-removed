@@ -1991,6 +1991,8 @@ GetReferentId
 )
 )
 {
+if
+(
 Layer
 *
 referent
@@ -1999,7 +2001,8 @@ state
 -
 >
 mRoot
-;
+)
+{
 if
 (
 !
@@ -2134,6 +2137,7 @@ RemoveUserData
 sPanZoomUserDataKey
 )
 ;
+}
 }
 }
 }
