@@ -1709,8 +1709,6 @@ public
 nsIApplicationCacheContainer
 public
 nsStubMutationObserver
-public
-nsIDOMNSDocument_MOZILLA_2_0_BRANCH
 {
 public
 :
@@ -2877,7 +2875,6 @@ NS_DECL_NSIDOMDOCUMENT
 NS_DECL_NSIDOM3DOCUMENT
 NS_DECL_NSIDOMXMLDOCUMENT
 NS_DECL_NSIDOMNSDOCUMENT
-NS_DECL_NSIDOMNSDOCUMENT_MOZILLA_2_0_BRANCH
 NS_DECL_NSIDOMDOCUMENTEVENT
 NS_DECL_NSIDOM3DOCUMENTEVENT
 NS_DECL_NSIDOMDOCUMENTSTYLE
@@ -3591,6 +3588,16 @@ SetImageLockingState
 (
 PRBool
 aLocked
+)
+;
+virtual
+nsresult
+GetMozCurrentStateObject
+(
+nsIVariant
+*
+*
+aResult
 )
 ;
 protected

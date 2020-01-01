@@ -1292,7 +1292,7 @@ NS_ERROR_DOM_SECURITY_ERR
 ;
 nsCOMPtr
 <
-nsIDOMNSDocument_MOZILLA_2_0_BRANCH
+nsIDocument
 >
 doc
 =
