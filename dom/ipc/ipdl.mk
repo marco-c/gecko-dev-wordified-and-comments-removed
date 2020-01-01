@@ -407,6 +407,10 @@ PDocumentRendererShmem
 .
 ipdl
 \
+PContentPermissionRequest
+.
+ipdl
+\
 (
 NULL
 )

@@ -463,7 +463,7 @@ PDocumentRendererNativeID
 ;
 include
 protocol
-PGeolocationRequest
+PContentPermissionRequest
 ;
 include
 protocol
@@ -565,7 +565,7 @@ manages
 PDocumentRendererNativeID
 ;
 manages
-PGeolocationRequest
+PContentPermissionRequest
 ;
 manages
 PExternalHelperApp
@@ -712,8 +712,10 @@ nsQueryContentEvent
 event
 )
 ;
-PGeolocationRequest
+PContentPermissionRequest
 (
+nsCString
+aType
 URI
 uri
 )

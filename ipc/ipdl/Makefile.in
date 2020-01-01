@@ -577,12 +577,6 @@ exthandler
 \
 dom
 /
-src
-/
-geolocation
-\
-dom
-/
 plugins
 \
 dom
