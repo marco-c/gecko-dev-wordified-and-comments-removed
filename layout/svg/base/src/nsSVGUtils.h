@@ -612,6 +612,15 @@ aRect
 ;
 static
 void
+InvalidateCoveredRegion
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
+void
 UpdateGraphic
 (
 nsISVGChildFrame
