@@ -1937,6 +1937,12 @@ nsEventChainPreVisitor
 aVisitor
 )
 ;
+PRBool
+CanBeDisabled
+(
+)
+const
+;
 protected
 :
 virtual
@@ -1984,12 +1990,6 @@ return
 PR_FALSE
 ;
 }
-PRBool
-CanBeDisabled
-(
-)
-const
-;
 void
 UpdateEditableFormControlState
 (

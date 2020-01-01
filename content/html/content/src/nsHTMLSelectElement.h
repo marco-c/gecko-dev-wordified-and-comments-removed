@@ -91,6 +91,13 @@ h
 #
 include
 "
+nsConstraintValidation
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h
@@ -553,6 +560,8 @@ public
 nsIDOMHTMLSelectElement
 public
 nsISelectElement
+public
+nsConstraintValidation
 {
 public
 :

@@ -2727,6 +2727,15 @@ NS_EVENT
 nsGkAtoms
 :
 :
+oninvalid
+NS_FORM_INVALID
+EventNameType_HTMLXUL
+NS_EVENT
+}
+{
+nsGkAtoms
+:
+:
 onload
 NS_LOAD
 EventNameType_All

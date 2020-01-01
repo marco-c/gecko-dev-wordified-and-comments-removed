@@ -667,6 +667,14 @@ nsHTMLTitleElement
 .
 cpp
 \
+nsDOMValidityState
+.
+cpp
+\
+nsConstraintValidation
+.
+cpp
+\
 (
 NULL
 )

@@ -396,6 +396,10 @@ HTMLUnknownElement
 )
 DOMCI_CLASS
 (
+ValidityState
+)
+DOMCI_CLASS
+(
 CSSStyleRule
 )
 DOMCI_CLASS
