@@ -526,6 +526,10 @@ HalWakeLock
 .
 cpp
 \
+ScreenOrientationFallback
+.
+cpp
+\
 (
 NULL
 )
