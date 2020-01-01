@@ -1443,7 +1443,10 @@ self
 .
 serializeNodeAsJSONToOutputStream
 (
+convertNode
+(
 aNode
+)
 writer
 true
 )
