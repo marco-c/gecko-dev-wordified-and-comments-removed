@@ -5437,7 +5437,7 @@ setTitle
 (
 tab
 .
-getTitle
+getDisplayTitle
 (
 )
 )
@@ -5782,6 +5782,7 @@ String
 title
 )
 {
+final
 Tab
 tab
 =
@@ -5886,7 +5887,11 @@ mBrowserToolbar
 .
 setTitle
 (
-title
+tab
+.
+getDisplayTitle
+(
+)
 )
 ;
 }
@@ -5905,6 +5910,7 @@ String
 title
 )
 {
+final
 Tab
 tab
 =
@@ -5974,7 +5980,11 @@ mBrowserToolbar
 .
 setTitle
 (
-title
+tab
+.
+getDisplayTitle
+(
+)
 )
 ;
 }
@@ -6803,7 +6813,7 @@ setTitle
 (
 tab
 .
-getTitle
+getDisplayTitle
 (
 )
 )
@@ -10733,7 +10743,7 @@ setText
 (
 tab
 .
-getTitle
+getDisplayTitle
 (
 )
 )
