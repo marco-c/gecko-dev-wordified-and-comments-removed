@@ -1087,6 +1087,10 @@ ImageData
 )
 DOMCI_CLASS
 (
+MozCanvasPrintState
+)
+DOMCI_CLASS
+(
 SmartCardEvent
 )
 DOMCI_CLASS
