@@ -58,14 +58,6 @@ ac_add_options
 -
 with
 -
-endian
-=
-little
-ac_add_options
--
--
-with
--
 android
 -
 ndk
