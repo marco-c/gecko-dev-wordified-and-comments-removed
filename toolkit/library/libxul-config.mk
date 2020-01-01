@@ -616,9 +616,6 @@ gkgfx
 (
 NULL
 )
-#
-ifndef
-MOZ_EMBEDDING_LEVEL_DEFAULT
 ifndef
 WINCE
 ifdef
@@ -633,8 +630,6 @@ mozreg_s
 NULL
 )
 endif
-endif
-#
 endif
 #
 component
@@ -1252,13 +1247,6 @@ COMPONENT_LIBS
 +
 =
 gkdebug
-endif
-ifdef
-GC_LEAK_DETECTOR
-EXTRA_DSO_LIBS
-+
-=
-boehm
 endif
 ifdef
 MOZ_ENABLE_CANVAS3D
