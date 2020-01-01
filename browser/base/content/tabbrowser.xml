@@ -11140,6 +11140,9 @@ window
 closeWindow
 (
 true
+window
+.
+warnAboutClosingWindow
 )
 )
 )
@@ -12380,6 +12383,9 @@ _windowIsClosing
 closeWindow
 (
 true
+window
+.
+warnAboutClosingWindow
 )
 ;
 ]
