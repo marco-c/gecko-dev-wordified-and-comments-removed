@@ -103,6 +103,12 @@ credential
 =
 null
 ;
+DOMString
+?
+username
+=
+null
+;
 }
 ;
 dictionary
