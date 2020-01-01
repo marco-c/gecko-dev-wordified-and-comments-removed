@@ -678,8 +678,10 @@ mPendingAsyncCalls
 ;
 nsTArray
 <
+nsAutoPtr
+<
 ChildTimer
-*
+>
 >
 mTimers
 ;

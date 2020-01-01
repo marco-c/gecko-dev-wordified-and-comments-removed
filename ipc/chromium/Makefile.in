@@ -1253,6 +1253,10 @@ idle_timer_none
 .
 cc
 \
+message_pump_glib
+.
+cc
+\
 process_util_linux
 .
 cc

@@ -16,6 +16,15 @@ h
 #
 include
 "
+base
+/
+message_loop
+.
+h
+"
+#
+include
+"
 npapi
 .
 h
@@ -553,7 +562,10 @@ AssertPluginThread
 {
 NS_ASSERTION
 (
-NS_IsMainThread
+MessageLoopForUI
+:
+:
+current
 (
 )
 "

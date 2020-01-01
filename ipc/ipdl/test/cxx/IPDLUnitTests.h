@@ -37,17 +37,6 @@ h
 #
 include
 "
-mozilla
-/
-ipc
-/
-GeckoThread
-.
-h
-"
-#
-include
-"
 nsIAppShell
 .
 h

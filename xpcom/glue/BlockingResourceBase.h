@@ -73,6 +73,13 @@ DeadlockDetector
 h
 "
 #
+include
+"
+nsXPCOM
+.
+h
+"
+#
 endif
 namespace
 mozilla
@@ -426,11 +433,9 @@ sDeadlockDetector
 ifdef
 MOZILLA_INTERNAL_API
 friend
-nsresult
-ShutdownXPCOM
+void
+LogTerm
 (
-nsIServiceManager
-*
 )
 ;
 #

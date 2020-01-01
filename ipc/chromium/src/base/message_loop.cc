@@ -106,13 +106,6 @@ defined
 (
 OS_LINUX
 )
-&
-&
-!
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 #
 include
 "
@@ -355,7 +348,7 @@ if
 type_
 =
 =
-TYPE_UI
+TYPE_MOZILLA_UI
 )
 {
 pump_
@@ -503,13 +496,6 @@ elif
 defined
 (
 OS_LINUX
-)
-&
-&
-!
-defined
-(
-CHROMIUM_MOZILLA_BUILD
 )
 pump_
 =

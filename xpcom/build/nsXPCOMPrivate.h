@@ -1036,6 +1036,11 @@ nsIServiceManager
 servMgr
 )
 ;
+void
+LogTerm
+(
+)
+;
 }
 #
 define
