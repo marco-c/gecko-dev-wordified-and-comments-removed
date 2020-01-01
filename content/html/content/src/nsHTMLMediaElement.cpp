@@ -1726,6 +1726,10 @@ mAllowSuspendAfterFirstFrame
 =
 PR_TRUE
 ;
+mSourcePointer
+=
+nsnull
+;
 if
 (
 mNetworkState

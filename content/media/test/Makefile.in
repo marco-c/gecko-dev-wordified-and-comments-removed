@@ -881,6 +881,10 @@ test_load_candidates
 .
 html
 \
+test_load_source
+.
+html
+\
 test_media_selection
 .
 html
