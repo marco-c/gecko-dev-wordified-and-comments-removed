@@ -3310,7 +3310,7 @@ requestDepth
 #
 endif
 volatile
-jsword
+int32
 interruptFlags
 ;
 js
@@ -4073,7 +4073,7 @@ functionNamespaceObject
 ifdef
 JS_THREADSAFE
 volatile
-jsword
+int32
 interruptCounter
 ;
 #
