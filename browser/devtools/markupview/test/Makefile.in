@@ -115,14 +115,6 @@ browser_inspector_markup_edit
 .
 js
 \
-browser_inspector_markup_subset
-.
-html
-\
-browser_inspector_markup_subset
-.
-js
-\
 head
 .
 js
