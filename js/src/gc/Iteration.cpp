@@ -91,14 +91,6 @@ trc
 runtime
 )
 ;
-RecordNativeStackTopForGC
-(
-trc
--
->
-runtime
-)
-;
 MarkRuntime
 (
 trc
