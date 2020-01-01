@@ -1787,6 +1787,14 @@ if
 (
 !
 result
+|
+|
+result
+-
+>
+CairoStatus
+(
+)
 )
 {
 NS_WARNING
