@@ -85,6 +85,9 @@ gkconevents_s
 LIBXUL_LIBRARY
 =
 1
+FAIL_ON_WARNINGS
+=
+1
 EXPORTS
 =
 \
@@ -267,10 +270,6 @@ nsDOMTouchEvent
 cpp
 \
 nsDOMCompositionEvent
-.
-cpp
-\
-DOMWheelEvent
 .
 cpp
 \

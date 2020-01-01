@@ -151,10 +151,6 @@ mDocument
 (
 nullptr
 )
-mUpdateDepth
-(
-0
-)
 mUnhookPending
 (
 false
