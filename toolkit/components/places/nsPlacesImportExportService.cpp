@@ -864,6 +864,7 @@ ptr
 string
 ;
 }
+}
 *
 ptr
 =
@@ -872,7 +873,6 @@ ptr
 0
 '
 ;
-}
 }
 return
 escaped
@@ -2514,12 +2514,6 @@ BookmarkImportFrame
 :
 Container_Normal
 ;
-if
-(
-!
-mFolderSpecified
-)
-{
 for
 (
 PRInt32
@@ -2531,9 +2525,15 @@ i
 <
 attrCount
 ;
++
++
 i
-+
-+
+)
+{
+if
+(
+!
+mFolderSpecified
 )
 {
 if
@@ -2663,7 +2663,7 @@ Container_Places
 break
 ;
 }
-else
+}
 if
 (
 node
@@ -2730,7 +2730,6 @@ i
 )
 )
 ;
-}
 }
 }
 CurFrame
