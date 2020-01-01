@@ -163,6 +163,10 @@ ClientRectList
 .
 webidl
 \
+ClipboardEvent
+.
+webidl
+\
 CommandEvent
 .
 webidl
