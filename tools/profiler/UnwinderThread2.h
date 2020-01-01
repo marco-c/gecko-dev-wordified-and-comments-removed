@@ -14,7 +14,7 @@ h
 #
 include
 "
-ProfileEntry2
+ProfileEntry
 .
 h
 "
@@ -29,7 +29,7 @@ utb__addEntry
 UnwinderThreadBuffer
 *
 utb
-ProfileEntry2
+ProfileEntry
 ent
 )
 ;
@@ -60,7 +60,7 @@ uwt__acquire_empty_buffer
 void
 uwt__release_full_buffer
 (
-ThreadProfile2
+ThreadProfile
 *
 aProfile
 UnwinderThreadBuffer

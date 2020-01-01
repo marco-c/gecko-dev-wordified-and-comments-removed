@@ -207,6 +207,10 @@ _MSC_VER
 CPPSRCS
 =
 \
+platform
+.
+cpp
+\
 nsProfilerFactory
 .
 cpp
@@ -219,7 +223,7 @@ TableTicker
 .
 cpp
 \
-TableTicker2
+BreakpadSampler
 .
 cpp
 \
@@ -227,7 +231,7 @@ UnwinderThread2
 .
 cpp
 \
-ProfileEntry2
+ProfileEntry
 .
 cpp
 \
