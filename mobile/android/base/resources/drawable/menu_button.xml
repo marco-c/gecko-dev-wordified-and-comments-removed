@@ -133,7 +133,7 @@ drawable
 "
 drawable
 /
-menu_pressed
+highlight
 "
 /
 >
@@ -144,9 +144,11 @@ android
 drawable
 =
 "
-drawable
+android
+:
+color
 /
-menu_normal
+black
 "
 /
 >

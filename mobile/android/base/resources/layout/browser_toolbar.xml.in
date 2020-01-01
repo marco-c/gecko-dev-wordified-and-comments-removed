@@ -321,7 +321,13 @@ address_bar_bg
 /
 >
 <
-ImageButton
+org
+.
+mozilla
+.
+gecko
+.
+MenuButton
 android
 :
 id
