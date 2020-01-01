@@ -6943,6 +6943,7 @@ onclick
 =
 function
 (
+aEvent
 )
 {
 BrowserSearch
@@ -6957,6 +6958,12 @@ PageActions
 hideItem
 (
 aNode
+)
+;
+aEvent
+.
+stopPropagation
+(
 )
 ;
 }

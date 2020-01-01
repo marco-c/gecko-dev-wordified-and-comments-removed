@@ -494,6 +494,10 @@ browser_contacts
 .
 js
 \
+browser_find
+.
+js
+\
 browser_forms
 .
 html
