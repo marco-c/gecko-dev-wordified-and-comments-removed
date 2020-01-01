@@ -4953,6 +4953,8 @@ so
 apkName
 )
 ;
+sqlite_handle
+=
 __wrap_dlopen
 (
 file
