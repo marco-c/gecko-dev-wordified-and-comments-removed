@@ -912,6 +912,13 @@ descriptor
 descriptor
 -
 >
+CloseOutput
+(
+)
+;
+descriptor
+-
+>
 ClearCacheEntry
 (
 )
