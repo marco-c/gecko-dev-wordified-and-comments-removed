@@ -14019,17 +14019,6 @@ nsIFrame
 aNewInnerFrame
 )
 {
-*
-(
-(
-int
-*
-)
-0
-)
-=
-1
-;
 nsresult
 rv
 =
