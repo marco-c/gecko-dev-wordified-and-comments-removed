@@ -108,3 +108,8 @@ nsPNGEncoder
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+imgpnge_s
+'

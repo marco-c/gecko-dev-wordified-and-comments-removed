@@ -173,3 +173,8 @@ tokenize
 cc
 '
 ]
+LIBRARY_NAME
+=
+'
+breakpad_sps_common_s
+'

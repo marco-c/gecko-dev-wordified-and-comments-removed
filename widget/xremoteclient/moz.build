@@ -128,3 +128,8 @@ LIBCPPSRCS
 )
 '
 ]
+LIBRARY_NAME
+=
+'
+xremote_client_s
+'

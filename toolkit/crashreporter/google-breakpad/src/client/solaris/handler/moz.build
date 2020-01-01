@@ -118,3 +118,8 @@ solaris_lwp
 cc
 '
 ]
+LIBRARY_NAME
+=
+'
+exception_handler_s
+'

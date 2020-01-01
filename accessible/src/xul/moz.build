@@ -163,3 +163,8 @@ XULTreeGridAccessible
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+accessibility_xul_s
+'

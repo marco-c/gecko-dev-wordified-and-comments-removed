@@ -89,9 +89,6 @@ D_HAS_EXCEPTIONS
 =
 0
 endif
-LIBRARY_NAME
-=
-mozalloc
 DIST_INSTALL
 =
 1

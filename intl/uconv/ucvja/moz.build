@@ -143,3 +143,8 @@ nsUnicodeToSJIS
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+ucvja_s
+'

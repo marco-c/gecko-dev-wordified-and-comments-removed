@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-ucvibm_s
 FORCE_STATIC_LIB
 =
 1

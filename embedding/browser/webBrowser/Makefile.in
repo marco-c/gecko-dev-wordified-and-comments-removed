@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-nsWebBrowser_s
 LIBXUL_LIBRARY
 =
 1

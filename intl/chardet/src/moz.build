@@ -113,3 +113,8 @@ nsCyrillicDetector
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+chardet
+'

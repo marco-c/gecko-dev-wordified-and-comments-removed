@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-profile_s
 FORCE_STATIC_LIB
 =
 1

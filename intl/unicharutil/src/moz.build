@@ -128,3 +128,8 @@ nsUnicodeNormalizer
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+ucharucomp_s
+'

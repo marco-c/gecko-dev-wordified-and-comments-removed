@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-jsdomoffline_s
 LIBXUL_LIBRARY
 =
 1

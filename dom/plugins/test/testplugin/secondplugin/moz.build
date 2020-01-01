@@ -98,3 +98,8 @@ MODULE
 '
 npsecondtest
 '
+LIBRARY_NAME
+=
+'
+npsecondtest
+'

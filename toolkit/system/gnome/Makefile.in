@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-mozgnome
 FORCE_SHARED_LIB
 =
 1

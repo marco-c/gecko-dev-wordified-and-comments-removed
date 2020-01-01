@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-npsecondtest
 MODULE_NAME
 =
 SecondTestPlugin

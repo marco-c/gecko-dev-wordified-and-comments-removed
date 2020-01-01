@@ -93,9 +93,6 @@ mk
 XPI_NAME
 =
 simple
-LIBRARY_NAME
-=
-simpletest
 SHORT_LIBNAME
 =
 simpltst

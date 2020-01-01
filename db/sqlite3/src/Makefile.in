@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-mozsqlite3
 SHORT_LIBNAME
 =
 mozsqlt3

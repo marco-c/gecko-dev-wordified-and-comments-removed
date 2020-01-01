@@ -106,3 +106,8 @@ MODULE
 '
 mozglue
 '
+LIBRARY_NAME
+=
+'
+mfbt
+'

@@ -163,3 +163,8 @@ HOST_LIBRARY_NAME
 '
 hostbz2
 '
+LIBRARY_NAME
+=
+'
+bz2
+'

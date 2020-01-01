@@ -108,3 +108,8 @@ nsEmbeddingModule
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+embedcomponents
+'

@@ -142,3 +142,10 @@ test
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+jsctypes
+-
+test
+'

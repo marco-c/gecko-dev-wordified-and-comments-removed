@@ -88,9 +88,6 @@ jsm
 (
 NULL
 )
-LIBRARY_NAME
-=
-jsreflect
 LIBXUL_LIBRARY
 =
 1

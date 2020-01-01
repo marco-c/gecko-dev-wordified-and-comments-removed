@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-i18n
 EXPORT_LIBRARY
 =
 1

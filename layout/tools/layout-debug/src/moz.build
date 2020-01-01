@@ -148,3 +148,8 @@ nsRegressionTester
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkdebug
+'

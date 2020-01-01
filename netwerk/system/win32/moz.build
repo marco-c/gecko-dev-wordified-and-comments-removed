@@ -121,3 +121,8 @@ nsNotifyAddrListener
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+neckosystem_s
+'

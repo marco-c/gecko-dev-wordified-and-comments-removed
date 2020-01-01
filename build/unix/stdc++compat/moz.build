@@ -119,3 +119,11 @@ host_stdc
 +
 compat
 '
+LIBRARY_NAME
+=
+'
+stdc
++
++
+compat
+'

@@ -178,3 +178,8 @@ nsURILoader
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+uriloaderbase_s
+'

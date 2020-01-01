@@ -144,3 +144,8 @@ nsAppleFileDecoder
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+nkconv_s
+'

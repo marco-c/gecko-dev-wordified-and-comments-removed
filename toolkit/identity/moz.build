@@ -126,3 +126,8 @@ IdentityCryptoService
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+identity
+'

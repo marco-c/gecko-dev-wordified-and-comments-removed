@@ -143,3 +143,8 @@ XrayWrapper
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+xpcwrappers_s
+'

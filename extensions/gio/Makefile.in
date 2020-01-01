@@ -90,9 +90,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-nkgio
 IS_COMPONENT
 =
 1

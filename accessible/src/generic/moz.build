@@ -187,3 +187,8 @@ TextLeafAccessible
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+accessibility_generic_s
+'

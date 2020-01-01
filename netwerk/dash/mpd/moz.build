@@ -148,3 +148,8 @@ nsDASHWebMODParser
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+nkdashmpd_s
+'

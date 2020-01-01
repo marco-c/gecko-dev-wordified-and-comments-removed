@@ -153,3 +153,8 @@ nsUNIXCharset
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+platlocale_s
+'

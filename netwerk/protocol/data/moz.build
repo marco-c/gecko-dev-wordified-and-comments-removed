@@ -113,3 +113,8 @@ nsDataHandler
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+nkdata_s
+'

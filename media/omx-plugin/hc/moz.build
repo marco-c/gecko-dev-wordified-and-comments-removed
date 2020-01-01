@@ -108,3 +108,8 @@ OmxPluginHoneycomb
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+omxpluginhc
+'

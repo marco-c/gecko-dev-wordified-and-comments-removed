@@ -93,9 +93,6 @@ we
 need
 it
 .
-LIBRARY_NAME
-=
-libEGL
 FORCE_SHARED_LIB
 =
 1

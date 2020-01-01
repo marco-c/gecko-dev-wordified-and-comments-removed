@@ -263,3 +263,8 @@ zone
 c
 '
 ]
+LIBRARY_NAME
+=
+'
+jemalloc
+'

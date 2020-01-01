@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-osxproxy
 EXPORT_LIBRARY
 =
 1

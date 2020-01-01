@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-commandlines
 EXPORT_LIBRARY
 =
 1

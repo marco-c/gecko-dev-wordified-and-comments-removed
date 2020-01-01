@@ -194,3 +194,8 @@ nsRuleBreaker
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+lwbrk_s
+'

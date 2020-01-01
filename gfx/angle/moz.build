@@ -573,3 +573,8 @@ VersionGLSL
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+angle
+'

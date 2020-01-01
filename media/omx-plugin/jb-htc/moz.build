@@ -112,3 +112,10 @@ HTC
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+omxpluginjb
+-
+htc
+'

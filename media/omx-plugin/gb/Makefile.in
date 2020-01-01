@@ -149,9 +149,6 @@ mk
 MODULE_NAME
 =
 omxplugingb
-LIBRARY_NAME
-=
-omxplugingb
 FORCE_SHARED_LIB
 =
 1

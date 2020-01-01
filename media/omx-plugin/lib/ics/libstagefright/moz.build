@@ -121,3 +121,8 @@ libstagefright
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+stagefright
+'

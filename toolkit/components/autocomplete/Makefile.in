@@ -78,9 +78,6 @@ mk
 MODULE_NAME
 =
 tkAutoCompleteModule
-LIBRARY_NAME
-=
-tkautocomplete
 IS_COMPONENT
 =
 1

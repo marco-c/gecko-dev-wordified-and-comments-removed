@@ -72,9 +72,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-theora
 MSVC_ENABLE_PGO
 :
 =

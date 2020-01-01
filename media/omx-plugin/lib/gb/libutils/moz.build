@@ -121,3 +121,8 @@ libutils
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+utils
+'

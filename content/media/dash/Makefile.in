@@ -145,10 +145,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-:
-=
-gkcondash_s
 LIBXUL_LIBRARY
 :
 =

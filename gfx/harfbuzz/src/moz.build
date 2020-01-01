@@ -437,3 +437,8 @@ warning
 cc
 '
 ]
+LIBRARY_NAME
+=
+'
+mozharfbuzz
+'

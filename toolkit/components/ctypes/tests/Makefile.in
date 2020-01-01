@@ -78,11 +78,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-jsctypes
--
-test
 SHORT_LIBNAME
 =
 jscttest

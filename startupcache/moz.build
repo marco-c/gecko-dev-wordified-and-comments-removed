@@ -164,3 +164,8 @@ StartupCacheUtils
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+startupcache
+'

@@ -81,9 +81,6 @@ mk
 MODULE_NAME
 =
 jsdebugger
-LIBRARY_NAME
-=
-jsdebugger
 LIBXUL_LIBRARY
 =
 1

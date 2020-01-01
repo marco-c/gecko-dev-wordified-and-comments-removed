@@ -79,9 +79,6 @@ mk
 MODULE_NAME
 =
 nsGfxModule
-LIBRARY_NAME
-=
-gkgfx
 MSVC_ENABLE_PGO
 :
 =

@@ -108,3 +108,8 @@ nsAutoComplete
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+xpautocomplete
+'

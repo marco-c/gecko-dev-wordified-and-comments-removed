@@ -65,9 +65,6 @@ srcdir
 VPATH
 =
 srcdir
-LIBRARY_NAME
-=
-IA2Marshal
 DEFFILE
 =
 (

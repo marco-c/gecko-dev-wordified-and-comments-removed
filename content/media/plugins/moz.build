@@ -143,3 +143,8 @@ MediaPluginReader
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkconmediaplugins_s
+'

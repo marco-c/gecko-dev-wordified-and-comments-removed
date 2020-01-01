@@ -93,9 +93,6 @@ mk
 XPI_NAME
 =
 widgetutils
-LIBRARY_NAME
-=
-widgetutils
 SHORT_LIBNAME
 =
 widgetutils

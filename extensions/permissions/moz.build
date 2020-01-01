@@ -113,3 +113,8 @@ nsModuleFactory
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+permissions
+'

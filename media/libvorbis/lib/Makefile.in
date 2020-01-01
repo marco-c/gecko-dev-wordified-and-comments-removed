@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-vorbis
 MSVC_ENABLE_PGO
 :
 =

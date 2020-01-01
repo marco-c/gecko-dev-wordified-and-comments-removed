@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-mozglue
 DIST_INSTALL
 =
 1

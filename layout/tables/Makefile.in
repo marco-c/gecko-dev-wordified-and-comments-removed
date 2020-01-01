@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-gktable_s
 MSVC_ENABLE_PGO
 :
 =

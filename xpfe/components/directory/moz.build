@@ -123,3 +123,8 @@ nsDirectoryViewer
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+directory_s
+'

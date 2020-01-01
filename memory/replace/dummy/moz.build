@@ -108,3 +108,8 @@ dummy_replace_malloc
 c
 '
 ]
+LIBRARY_NAME
+=
+'
+replace_malloc
+'

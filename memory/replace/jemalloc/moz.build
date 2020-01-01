@@ -170,3 +170,8 @@ pthread_atfork
 c
 '
 ]
+LIBRARY_NAME
+=
+'
+replace_jemalloc
+'

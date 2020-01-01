@@ -179,3 +179,8 @@ OmxPlugin
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+omxplugin
+'

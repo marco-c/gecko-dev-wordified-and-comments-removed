@@ -156,3 +156,8 @@ nsAutoCompleteSimpleResult
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+tkautocomplete
+'

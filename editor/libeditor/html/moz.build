@@ -214,3 +214,8 @@ nsEditorTxnLog
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+htmleditor_s
+'

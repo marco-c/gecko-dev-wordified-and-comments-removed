@@ -221,3 +221,8 @@ nsUnicodeToCP1131
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+ucvibm_s
+'

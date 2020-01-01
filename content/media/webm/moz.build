@@ -133,3 +133,8 @@ WebMReader
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkconwebm_s
+'

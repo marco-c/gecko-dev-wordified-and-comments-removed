@@ -151,11 +151,6 @@ MODULE_NAME
 omxpluginjb
 -
 htc
-LIBRARY_NAME
-=
-omxpluginjb
--
-htc
 FORCE_SHARED_LIB
 =
 1

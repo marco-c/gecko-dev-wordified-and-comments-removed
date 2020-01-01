@@ -123,3 +123,8 @@ nsWindowDataSource
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+windowds
+'

@@ -188,3 +188,8 @@ nsUTF8UtilsSSE2
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+string_s
+'

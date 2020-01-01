@@ -94,9 +94,6 @@ we
 need
 it
 .
-LIBRARY_NAME
-=
-libGLESv2
 FORCE_SHARED_LIB
 =
 1

@@ -65,9 +65,6 @@ srcdir
 VPATH
 =
 srcdir
-LIBRARY_NAME
-=
-AccessibleMarshal
 DEFFILE
 =
 (

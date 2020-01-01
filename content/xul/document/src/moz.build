@@ -146,3 +146,8 @@ nsXULPrototypeDocument
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkconxuldoc_s
+'

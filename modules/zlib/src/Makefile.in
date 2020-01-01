@@ -84,9 +84,6 @@ srcdir
 objs
 .
 mk
-LIBRARY_NAME
-=
-mozz
 CSRCS
 =
 (

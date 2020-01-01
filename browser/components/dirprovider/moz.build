@@ -130,3 +130,8 @@ DirectoryProvider
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+browserdir_s
+'

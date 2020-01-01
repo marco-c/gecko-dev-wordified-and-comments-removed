@@ -108,3 +108,8 @@ nsJPEGEncoder
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+imgjpege_s
+'

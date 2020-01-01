@@ -103,9 +103,6 @@ util
 objs
 .
 mk
-LIBRARY_NAME
-=
-xul
 MSVC_ENABLE_PGO
 :
 =

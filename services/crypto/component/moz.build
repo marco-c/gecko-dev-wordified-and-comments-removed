@@ -137,3 +137,10 @@ nsSyncJPAKE
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+services
+-
+crypto
+'

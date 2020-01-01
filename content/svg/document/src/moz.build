@@ -122,3 +122,8 @@ SVGDocument
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkconsvgdoc_s
+'

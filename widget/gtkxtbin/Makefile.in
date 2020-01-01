@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-gtkxtbin
 EXPORT_LIBRARY
 =
 1

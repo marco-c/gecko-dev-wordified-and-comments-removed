@@ -75,13 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-dbusservice
-#
-EXPORT_LIBRARY
-=
-1
 IS_COMPONENT
 =
 1

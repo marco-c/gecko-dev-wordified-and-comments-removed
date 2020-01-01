@@ -78,9 +78,6 @@ mk
 MODULE_NAME
 =
 jsinspector
-LIBRARY_NAME
-=
-jsinspector
 LIBXUL_LIBRARY
 =
 1

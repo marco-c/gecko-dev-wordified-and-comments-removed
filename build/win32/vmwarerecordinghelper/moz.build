@@ -103,3 +103,8 @@ vmwarerecordinghelper
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+vmwarerecordinghelper
+'

@@ -113,3 +113,8 @@ nsViewManager
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkview_s
+'

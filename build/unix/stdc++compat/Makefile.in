@@ -75,12 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-stdc
-+
-+
-compat
 FORCE_STATIC_LIB
 =
 1

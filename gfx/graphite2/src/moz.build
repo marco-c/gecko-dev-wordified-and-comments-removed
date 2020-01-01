@@ -367,3 +367,8 @@ UtfCodec
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+mozgraphite2
+'

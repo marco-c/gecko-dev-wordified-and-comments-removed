@@ -79,9 +79,6 @@ mk
 MODULE_NAME
 =
 xpAutoComplete
-LIBRARY_NAME
-=
-xpautocomplete
 EXPORT_LIBRARY
 =
 1

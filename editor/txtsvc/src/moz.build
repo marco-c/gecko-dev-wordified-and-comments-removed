@@ -113,3 +113,8 @@ nsTextServicesDocument
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+txtsvc_s
+'

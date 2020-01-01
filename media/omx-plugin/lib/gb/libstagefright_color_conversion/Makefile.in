@@ -149,9 +149,6 @@ mk
 MODULE_NAME
 =
 libstagefright_color_conversion
-LIBRARY_NAME
-=
-stagefright_color_conversion
 FORCE_SHARED_LIB
 =
 1

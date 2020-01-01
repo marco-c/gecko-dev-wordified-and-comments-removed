@@ -235,3 +235,8 @@ MTRANSPORT_LCPPSRCS
 )
 '
 ]
+LIBRARY_NAME
+=
+'
+mtransport
+'

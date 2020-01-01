@@ -267,3 +267,8 @@ zlib
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+xul
+'

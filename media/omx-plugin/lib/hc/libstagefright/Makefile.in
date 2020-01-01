@@ -149,9 +149,6 @@ mk
 MODULE_NAME
 =
 libandroidstagefrighthc
-LIBRARY_NAME
-=
-stagefright
 FORCE_SHARED_LIB
 =
 1

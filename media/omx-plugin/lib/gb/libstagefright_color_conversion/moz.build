@@ -121,3 +121,8 @@ libstagefright_color_conversion
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+stagefright_color_conversion
+'

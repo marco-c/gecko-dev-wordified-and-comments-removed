@@ -213,3 +213,8 @@ pngwutil
 c
 '
 ]
+LIBRARY_NAME
+=
+'
+mozpng
+'

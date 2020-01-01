@@ -100,9 +100,6 @@ library
 MODULE_NAME
 =
 gfxtest
-LIBRARY_NAME
-=
-gfxtest
 LIBXUL_LIBRARY
 =
 1

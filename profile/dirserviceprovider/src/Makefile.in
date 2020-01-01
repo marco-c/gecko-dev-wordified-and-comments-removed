@@ -83,9 +83,6 @@ srcdir
 objs
 .
 mk
-LIBRARY_NAME
-=
-profdirserviceprovider_s
 MOZILLA_INTERNAL_API
 =
 1

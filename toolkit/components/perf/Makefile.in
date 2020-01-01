@@ -88,9 +88,6 @@ jsm
 (
 NULL
 )
-LIBRARY_NAME
-=
-jsperf
 LIBXUL_LIBRARY
 =
 1

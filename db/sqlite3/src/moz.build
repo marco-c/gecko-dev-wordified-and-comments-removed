@@ -108,3 +108,8 @@ sqlite3
 h
 '
 ]
+LIBRARY_NAME
+=
+'
+mozsqlite3
+'

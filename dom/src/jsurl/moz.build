@@ -126,3 +126,8 @@ nsJSProtocolHandler
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+jsurl_s
+'

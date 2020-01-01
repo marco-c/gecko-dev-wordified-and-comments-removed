@@ -129,9 +129,6 @@ srcdir
 objs
 .
 mk
-LIBRARY_NAME
-=
-rdfutil_s
 MOZILLA_INTERNAL_API
 =
 1

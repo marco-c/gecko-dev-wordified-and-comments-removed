@@ -158,3 +158,8 @@ MachIPC
 mm
 '
 ]
+LIBRARY_NAME
+=
+'
+breakpad_mac_common_s
+'

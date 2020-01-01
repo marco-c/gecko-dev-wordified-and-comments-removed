@@ -81,9 +81,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-uriloaderbase_s
 MSVC_ENABLE_PGO
 :
 =

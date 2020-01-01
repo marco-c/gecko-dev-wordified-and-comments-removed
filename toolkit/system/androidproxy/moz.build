@@ -108,3 +108,8 @@ nsAndroidSystemProxySettings
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+androidproxy
+'

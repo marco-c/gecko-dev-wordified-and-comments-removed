@@ -108,3 +108,8 @@ nsGnomeVFSProtocolHandler
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+nkgnomevfs
+'

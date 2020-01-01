@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-verifymar
 FORCE_STATIC_LIB
 =
 1

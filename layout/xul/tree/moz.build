@@ -198,3 +198,8 @@ nsTreeUtils
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkxultree_s
+'

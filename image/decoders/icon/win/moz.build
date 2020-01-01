@@ -108,3 +108,8 @@ nsIconChannel
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+imgiconwin_s
+'

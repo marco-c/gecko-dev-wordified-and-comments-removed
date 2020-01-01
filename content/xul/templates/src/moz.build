@@ -233,3 +233,8 @@ nsXULTreeBuilder
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkconxultmpl_s
+'

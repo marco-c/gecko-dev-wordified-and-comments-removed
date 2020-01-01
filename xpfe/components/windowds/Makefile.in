@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-windowds
 MODULE_NAME
 =
 nsWindowDataSourceModule

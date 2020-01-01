@@ -226,3 +226,8 @@ nsTextControlFrame
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkforms_s
+'

@@ -149,9 +149,6 @@ mk
 MODULE_NAME
 =
 omxpluginsony
-LIBRARY_NAME
-=
-omxpluginsony
 FORCE_SHARED_LIB
 =
 1

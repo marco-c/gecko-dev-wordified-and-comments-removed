@@ -82,9 +82,6 @@ FAIL_ON_WARNINGS
 MODULE_NAME
 =
 identity
-LIBRARY_NAME
-=
-identity
 FORCE_STATIC_LIB
 =
 1

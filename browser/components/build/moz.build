@@ -118,3 +118,8 @@ nsModule
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+browsercomps
+'

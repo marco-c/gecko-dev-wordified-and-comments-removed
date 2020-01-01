@@ -151,3 +151,8 @@ nsXULWindow
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+nsappshell
+'

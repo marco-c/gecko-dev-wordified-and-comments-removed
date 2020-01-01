@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-feed_s
 MOZILLA_INTERNAL_API
 =
 1

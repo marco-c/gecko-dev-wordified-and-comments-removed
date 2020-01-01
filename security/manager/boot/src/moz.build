@@ -128,3 +128,8 @@ nsStrictTransportSecurityService
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+pipboot
+'

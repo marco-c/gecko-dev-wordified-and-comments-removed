@@ -130,3 +130,8 @@ JSDebugger
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+jsdebugger
+'

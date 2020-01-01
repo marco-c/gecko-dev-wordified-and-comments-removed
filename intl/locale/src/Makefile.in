@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-nslocale_s
 MSVC_ENABLE_PGO
 :
 =

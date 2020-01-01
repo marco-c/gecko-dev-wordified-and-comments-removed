@@ -118,3 +118,8 @@ libmalloc
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+jprof
+'

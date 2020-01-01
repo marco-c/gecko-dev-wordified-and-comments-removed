@@ -128,3 +128,8 @@ txURIUtils
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+txbase_s
+'

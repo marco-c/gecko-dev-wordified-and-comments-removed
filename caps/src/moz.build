@@ -138,3 +138,8 @@ nsSystemPrincipal
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+caps_s
+'

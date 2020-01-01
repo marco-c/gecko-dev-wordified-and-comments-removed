@@ -118,3 +118,8 @@ nsPrintingPromptService
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+printingui_s
+'

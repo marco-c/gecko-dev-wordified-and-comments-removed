@@ -84,9 +84,6 @@ DHAVE_CONFIG_H
 vpx_config
 .
 h
-LIBRARY_NAME
-=
-vpx
 MSVC_ENABLE_PGO
 :
 =

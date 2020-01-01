@@ -78,9 +78,6 @@ mk
 MODULE_NAME
 =
 StartupCacheModule
-LIBRARY_NAME
-=
-startupcache
 EXPORT_LIBRARY
 =
 1

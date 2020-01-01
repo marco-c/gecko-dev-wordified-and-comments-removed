@@ -157,3 +157,8 @@ nsHTMLDocument
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkconhtmldoc_s
+'

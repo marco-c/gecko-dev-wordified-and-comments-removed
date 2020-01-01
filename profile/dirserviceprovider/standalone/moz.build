@@ -108,3 +108,8 @@ MODULES_PROFILEDIRSERVICE_SRC_LCSRCS
 )
 '
 ]
+LIBRARY_NAME
+=
+'
+profdirserviceprovidersa_s
+'

@@ -295,3 +295,8 @@ EXPORTS
 +
 =
 interfaces_c
+LIBRARY_NAME
+=
+'
+IA2Marshal
+'

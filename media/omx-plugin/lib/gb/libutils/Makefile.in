@@ -149,9 +149,6 @@ mk
 MODULE_NAME
 =
 libandroidutilsgb
-LIBRARY_NAME
-=
-utils
 FORCE_SHARED_LIB
 =
 1

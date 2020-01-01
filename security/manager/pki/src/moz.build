@@ -133,3 +133,8 @@ nsPKIParamBlock
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+pippki
+'

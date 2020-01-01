@@ -128,3 +128,8 @@ nsUnixSystemProxySettings
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+unixproxy
+'

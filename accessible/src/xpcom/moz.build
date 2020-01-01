@@ -133,3 +133,8 @@ xpcAccessibleTableCell
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+accessibility_xpcom_s
+'

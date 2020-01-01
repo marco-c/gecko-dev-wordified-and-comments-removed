@@ -103,3 +103,8 @@ crashinjectdll
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+crashinjectdll
+'

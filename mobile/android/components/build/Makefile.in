@@ -78,9 +78,6 @@ mk
 MODULE_NAME
 =
 nsBrowserCompsModule
-LIBRARY_NAME
-=
-browsercomps
 LIBXUL_LIBRARY
 =
 1

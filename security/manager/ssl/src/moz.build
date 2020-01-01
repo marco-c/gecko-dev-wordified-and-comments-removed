@@ -447,3 +447,8 @@ nsCertTree
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+pipnss
+'

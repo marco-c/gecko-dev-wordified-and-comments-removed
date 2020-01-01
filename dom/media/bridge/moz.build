@@ -118,3 +118,8 @@ MediaModule
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+peerconnection
+'

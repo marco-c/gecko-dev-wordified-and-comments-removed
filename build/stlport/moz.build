@@ -129,3 +129,8 @@ cpp
 )
 '
 ]
+LIBRARY_NAME
+=
+'
+stlport_static
+'

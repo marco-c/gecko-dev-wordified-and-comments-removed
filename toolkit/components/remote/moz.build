@@ -164,3 +164,8 @@ nsQtRemoteService
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+remoteservice
+'

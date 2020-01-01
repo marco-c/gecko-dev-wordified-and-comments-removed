@@ -153,3 +153,8 @@ GStreamerLoader
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkcongstreamer_s
+'

@@ -91,9 +91,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-mar
 FORCE_STATIC_LIB
 =
 1

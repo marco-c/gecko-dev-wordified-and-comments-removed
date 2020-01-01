@@ -106,3 +106,8 @@ MODULE
 '
 nptest
 '
+LIBRARY_NAME
+=
+'
+nptest
+'

@@ -108,3 +108,8 @@ nsImageModule
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+imglib2
+'

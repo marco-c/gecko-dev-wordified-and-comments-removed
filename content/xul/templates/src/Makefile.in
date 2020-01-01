@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-gkconxultmpl_s
 MSVC_ENABLE_PGO
 :
 =

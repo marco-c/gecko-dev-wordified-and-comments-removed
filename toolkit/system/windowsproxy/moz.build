@@ -108,3 +108,8 @@ nsWindowsSystemProxySettings
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+windowsproxy
+'

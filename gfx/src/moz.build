@@ -313,3 +313,8 @@ nsTransform2D
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkgfx
+'

@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-imgjpege_s
 FORCE_STATIC_LIB
 =
 1

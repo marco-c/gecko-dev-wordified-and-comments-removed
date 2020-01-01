@@ -114,9 +114,6 @@ srcdir
 objs
 .
 mk
-LIBRARY_NAME
-=
-xpcomglue_s_nomozalloc
 DIST_INSTALL
 =
 1

@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-appstartup_s
 FORCE_STATIC_LIB
 =
 1

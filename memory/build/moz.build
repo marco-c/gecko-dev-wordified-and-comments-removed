@@ -187,3 +187,8 @@ replace_malloc
 c
 '
 ]
+LIBRARY_NAME
+=
+'
+memory
+'

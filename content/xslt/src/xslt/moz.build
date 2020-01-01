@@ -253,3 +253,8 @@ txXSLTProcessor
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+txxslt_s
+'

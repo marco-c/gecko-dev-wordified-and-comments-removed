@@ -387,3 +387,8 @@ dump_syms
 mm
 '
 ]
+LIBRARY_NAME
+=
+'
+breakpad_common_s
+'

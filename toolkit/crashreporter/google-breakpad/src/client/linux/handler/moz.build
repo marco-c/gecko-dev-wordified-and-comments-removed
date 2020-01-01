@@ -118,3 +118,8 @@ minidump_descriptor
 cc
 '
 ]
+LIBRARY_NAME
+=
+'
+exception_handler_s
+'

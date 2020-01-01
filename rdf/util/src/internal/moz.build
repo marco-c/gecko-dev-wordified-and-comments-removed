@@ -108,3 +108,8 @@ RDF_UTIL_SRC_LCPPSRCS
 )
 '
 ]
+LIBRARY_NAME
+=
+'
+rdfutil_s
+'

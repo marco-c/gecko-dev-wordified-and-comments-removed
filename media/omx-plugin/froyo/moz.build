@@ -108,3 +108,8 @@ OmxPluginFroyo
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+omxpluginfroyo
+'

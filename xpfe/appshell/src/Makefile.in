@@ -82,9 +82,6 @@ IS_COMPONENT
 MODULE_NAME
 =
 appshell
-LIBRARY_NAME
-=
-nsappshell
 MSVC_ENABLE_PGO
 :
 =

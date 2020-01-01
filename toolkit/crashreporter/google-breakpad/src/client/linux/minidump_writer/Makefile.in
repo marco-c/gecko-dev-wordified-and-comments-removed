@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-minidump_writer_s
 XPI_NAME
 =
 crashreporter

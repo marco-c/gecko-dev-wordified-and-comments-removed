@@ -256,3 +256,8 @@ nsWebBrowserContentPolicy
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+nsWebBrowser_s
+'

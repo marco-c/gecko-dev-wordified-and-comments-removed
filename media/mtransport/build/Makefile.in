@@ -121,9 +121,6 @@ srcdir
 objs
 .
 mk
-LIBRARY_NAME
-=
-mtransport
 FORCE_STATIC_LIB
 =
 1

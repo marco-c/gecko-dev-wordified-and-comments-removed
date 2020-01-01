@@ -247,3 +247,8 @@ nsUrlClassifierListManager
 js
 '
 ]
+LIBRARY_NAME
+=
+'
+urlclassifier_s
+'

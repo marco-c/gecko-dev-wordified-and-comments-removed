@@ -319,3 +319,8 @@ nsWBMPDecoder
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+imgdecoders_s
+'

@@ -90,9 +90,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-auth
 IS_COMPONENT
 =
 1

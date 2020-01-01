@@ -113,3 +113,8 @@ nsUniversalCharDetModule
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+universalchardet
+'

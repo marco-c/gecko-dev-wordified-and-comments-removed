@@ -2997,3 +2997,8 @@ SkXfermode
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+skia
+'

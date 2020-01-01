@@ -133,3 +133,8 @@ nsZipWriter
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+zipwriter
+'

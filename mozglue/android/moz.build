@@ -133,3 +133,8 @@ nsGeckoUtils
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+android
+'

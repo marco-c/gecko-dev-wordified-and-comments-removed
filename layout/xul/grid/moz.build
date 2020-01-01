@@ -198,3 +198,8 @@ nsGridRowLeafLayout
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkxulgrid_s
+'

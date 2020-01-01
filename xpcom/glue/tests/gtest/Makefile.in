@@ -93,9 +93,6 @@ mk
 MODULE_NAME
 =
 xpcom_glue_gtest
-LIBRARY_NAME
-=
-xpcom_glue_gtest
 EXPORT_LIBRARY
 =
 1

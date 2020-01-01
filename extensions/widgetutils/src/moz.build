@@ -108,3 +108,8 @@ nsWidgetUtils
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+widgetutils
+'

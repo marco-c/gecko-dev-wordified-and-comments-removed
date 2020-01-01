@@ -118,3 +118,8 @@ nsRDFModule
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+rdf
+'

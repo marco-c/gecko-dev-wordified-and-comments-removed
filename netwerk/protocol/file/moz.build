@@ -151,3 +151,8 @@ nsFileProtocolHandler
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+nkfile_s
+'

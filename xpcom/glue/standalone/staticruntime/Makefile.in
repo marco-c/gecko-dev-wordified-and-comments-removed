@@ -105,9 +105,6 @@ srcdir
 objs
 .
 mk
-LIBRARY_NAME
-=
-xpcomglue_staticruntime
 DIST_INSTALL
 =
 1

@@ -858,3 +858,8 @@ jsimd_none
 c
 '
 ]
+LIBRARY_NAME
+=
+'
+mozjpeg
+'

@@ -181,3 +181,8 @@ nsTableRowGroupFrame
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gktable_s
+'

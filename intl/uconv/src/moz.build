@@ -196,3 +196,8 @@ nsUTF8ToUnicodeSSE2
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+uconv
+'

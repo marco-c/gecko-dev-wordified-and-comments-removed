@@ -108,3 +108,8 @@ reflect
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+jsreflect
+'

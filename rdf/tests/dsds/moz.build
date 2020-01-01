@@ -113,3 +113,8 @@ nsRDFDataSourceFactory
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+rdfdsds
+'

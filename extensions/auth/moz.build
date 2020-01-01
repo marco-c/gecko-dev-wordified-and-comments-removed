@@ -158,3 +158,8 @@ nsAuthSambaNTLM
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+auth
+'

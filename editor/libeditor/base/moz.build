@@ -221,3 +221,8 @@ nsStyleSheetTxns
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+editorbase_s
+'

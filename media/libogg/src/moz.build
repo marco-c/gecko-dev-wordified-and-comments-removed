@@ -113,3 +113,8 @@ ogg_framing
 c
 '
 ]
+LIBRARY_NAME
+=
+'
+ogg
+'

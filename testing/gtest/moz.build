@@ -671,3 +671,8 @@ all
 cc
 '
 ]
+LIBRARY_NAME
+=
+'
+gtest
+'

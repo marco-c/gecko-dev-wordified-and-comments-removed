@@ -118,3 +118,8 @@ nsDocShellModule
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+docshell
+'

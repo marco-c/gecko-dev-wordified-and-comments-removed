@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-imglib2
 EXPORT_LIBRARY
 =
 1

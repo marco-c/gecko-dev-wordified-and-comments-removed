@@ -243,3 +243,8 @@ nsMemoryCacheDevice
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+nkcache_s
+'

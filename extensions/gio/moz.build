@@ -108,3 +108,8 @@ nsGIOProtocolHandler
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+nkgio
+'

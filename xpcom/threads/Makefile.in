@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-xpcomthreads_s
 MSVC_ENABLE_PGO
 :
 =

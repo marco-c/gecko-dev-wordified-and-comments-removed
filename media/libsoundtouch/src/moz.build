@@ -203,3 +203,8 @@ mmx_optimized
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+soundtouch
+'

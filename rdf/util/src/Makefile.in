@@ -132,9 +132,6 @@ srcdir
 objs
 .
 mk
-LIBRARY_NAME
-=
-rdfutil_external_s
 DIST_INSTALL
 =
 1

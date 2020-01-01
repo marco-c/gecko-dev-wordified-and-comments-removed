@@ -123,3 +123,8 @@ nsUnicodeToEUCTW
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+ucvtw2_s
+'

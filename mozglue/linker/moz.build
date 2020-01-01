@@ -128,3 +128,8 @@ Zip
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+linker
+'

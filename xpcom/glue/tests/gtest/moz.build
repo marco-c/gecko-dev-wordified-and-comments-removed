@@ -108,3 +108,8 @@ TestFileUtils
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+xpcom_glue_gtest
+'

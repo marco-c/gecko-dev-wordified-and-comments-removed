@@ -105,9 +105,6 @@ use
 #
 unicharutil_external_s
 .
-LIBRARY_NAME
-=
-unicharutil_s
 DIST_INSTALL
 =
 1

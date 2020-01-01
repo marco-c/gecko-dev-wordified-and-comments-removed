@@ -108,3 +108,8 @@ nsOSXSystemProxySettings
 mm
 '
 ]
+LIBRARY_NAME
+=
+'
+osxproxy
+'

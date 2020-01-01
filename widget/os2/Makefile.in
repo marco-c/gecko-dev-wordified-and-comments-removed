@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-wdgtos2
 EXPORT_LIBRARY
 =
 1

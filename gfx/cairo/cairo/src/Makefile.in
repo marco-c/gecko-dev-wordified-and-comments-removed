@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-mozcairo
 MSVC_ENABLE_PGO
 :
 =

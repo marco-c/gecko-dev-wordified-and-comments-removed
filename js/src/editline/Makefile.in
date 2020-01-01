@@ -86,9 +86,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-editline
 FORCE_STATIC_LIB
 =
 1

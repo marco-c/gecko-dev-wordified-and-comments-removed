@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-skia_npapi
 LIBXUL_LIBRARY
 =
 1

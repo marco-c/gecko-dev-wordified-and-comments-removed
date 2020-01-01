@@ -118,3 +118,8 @@ mozJSSubScriptLoader
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+jsloader_s
+'

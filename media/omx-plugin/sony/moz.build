@@ -108,3 +108,8 @@ OmxPluginSony
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+omxpluginsony
+'

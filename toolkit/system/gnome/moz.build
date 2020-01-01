@@ -167,3 +167,8 @@ nsGSettingsService
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+mozgnome
+'

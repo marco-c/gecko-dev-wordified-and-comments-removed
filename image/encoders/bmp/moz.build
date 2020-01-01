@@ -108,3 +108,8 @@ nsBMPEncoder
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+imgbmpe_s
+'

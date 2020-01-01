@@ -118,3 +118,8 @@ mozStorageModule
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+storagecomps
+'

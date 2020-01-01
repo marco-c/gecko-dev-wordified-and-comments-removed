@@ -133,3 +133,8 @@ nsQAppInstance
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+faststartupqt
+'

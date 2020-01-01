@@ -123,3 +123,8 @@ nsStringAPI
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+xpcomglue_s_nomozalloc
+'

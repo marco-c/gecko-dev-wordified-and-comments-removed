@@ -259,3 +259,8 @@ cubeb_audiotrack
 c
 '
 ]
+LIBRARY_NAME
+=
+'
+cubeb
+'

@@ -166,3 +166,8 @@ nsXPCOMGlue
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+xpcomglue
+'

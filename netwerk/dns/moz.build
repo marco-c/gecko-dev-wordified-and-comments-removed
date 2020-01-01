@@ -202,3 +202,8 @@ nsIDNService
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+neckodns_s
+'

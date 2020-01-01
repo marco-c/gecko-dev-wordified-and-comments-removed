@@ -152,3 +152,8 @@ pathname_stripper
 cc
 '
 ]
+LIBRARY_NAME
+=
+'
+testcrasher
+'

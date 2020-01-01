@@ -113,3 +113,8 @@ objs_handler
 )
 '
 ]
+LIBRARY_NAME
+=
+'
+google_breakpad_standalone_s
+'

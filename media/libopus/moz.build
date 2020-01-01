@@ -133,3 +133,8 @@ opus_types
 h
 '
 ]
+LIBRARY_NAME
+=
+'
+opus
+'

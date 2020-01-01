@@ -518,3 +518,8 @@ ossource_posix
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+libGLESv2
+'

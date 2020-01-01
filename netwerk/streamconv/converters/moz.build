@@ -200,3 +200,8 @@ nsBinHexDecoder
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+nkcnvts_s
+'

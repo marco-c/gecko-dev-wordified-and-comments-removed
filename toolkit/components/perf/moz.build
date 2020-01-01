@@ -108,3 +108,8 @@ PerfMeasurement
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+jsperf
+'

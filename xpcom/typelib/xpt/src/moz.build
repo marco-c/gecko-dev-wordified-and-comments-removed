@@ -98,3 +98,8 @@ MODULE
 '
 xpcom
 '
+LIBRARY_NAME
+=
+'
+xpt
+'

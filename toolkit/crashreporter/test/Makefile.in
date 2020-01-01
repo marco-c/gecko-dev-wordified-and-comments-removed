@@ -79,9 +79,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-testcrasher
 NO_DIST_INSTALL
 =
 1

@@ -191,3 +191,8 @@ updatelogging
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+updatecommon
+'
