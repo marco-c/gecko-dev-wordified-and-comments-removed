@@ -1534,6 +1534,10 @@ test_bug839371
 .
 html
 \
+test_formData
+.
+html
+\
 (
 NULL
 )
