@@ -1024,7 +1024,10 @@ MOZ_ASSERT
 aProcessID
 !
 =
-CONTENT_PROCESS_ID_UNKNOWN
+ContentChild
+:
+:
+kUnknownID
 )
 ;
 Hal
@@ -2664,7 +2667,10 @@ MOZ_ASSERT
 aProcessID
 !
 =
-CONTENT_PROCESS_ID_UNKNOWN
+ContentChild
+:
+:
+kUnknownID
 )
 ;
 hal
