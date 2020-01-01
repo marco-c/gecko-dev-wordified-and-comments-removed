@@ -1420,6 +1420,12 @@ mFilter
 )
 )
 ;
+cairo_pattern_set_extend
+(
+pat
+CAIRO_EXTEND_PAD
+)
+;
 cairo_save
 (
 mContext
@@ -1755,6 +1761,12 @@ pat
 cairo_pattern_create_for_surface
 (
 surf
+)
+;
+cairo_pattern_set_extend
+(
+pat
+CAIRO_EXTEND_PAD
 )
 ;
 cairo_t
