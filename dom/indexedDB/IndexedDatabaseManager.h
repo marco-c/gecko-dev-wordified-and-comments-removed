@@ -1098,10 +1098,8 @@ mDelayedRunnables
 ;
 nsTArray
 <
-nsRefPtr
-<
 IDBDatabase
->
+*
 >
 mDatabases
 ;

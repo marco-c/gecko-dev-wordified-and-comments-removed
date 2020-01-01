@@ -129,10 +129,8 @@ WaitForAllDatabasesToComplete
 (
 nsTArray
 <
-nsRefPtr
-<
 IDBDatabase
->
+*
 >
 &
 aDatabases
@@ -319,10 +317,8 @@ DatabasesCompleteCallback
 {
 nsTArray
 <
-nsRefPtr
-<
 IDBDatabase
->
+*
 >
 mDatabases
 ;

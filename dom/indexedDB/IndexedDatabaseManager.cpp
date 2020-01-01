@@ -5722,10 +5722,8 @@ Get
 ;
 nsTArray
 <
-nsRefPtr
-<
 IDBDatabase
->
+*
 >
 databases
 ;
