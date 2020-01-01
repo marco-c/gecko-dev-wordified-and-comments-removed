@@ -1165,10 +1165,6 @@ browser_social_toolbar
 .
 js
 \
-browser_social_sidebar
-.
-js
-\
 (
 NULL
 )
