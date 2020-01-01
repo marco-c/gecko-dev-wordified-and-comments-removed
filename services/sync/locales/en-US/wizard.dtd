@@ -16,6 +16,9 @@ intro
 .
 title
 "
+Welcome
+to
+Weave
 "
 >
 <
@@ -300,7 +303,8 @@ title
 .
 label
 "
-Setup
+Set
+up
 Another
 Computer
 "
@@ -876,6 +880,9 @@ label
 "
 Saved
 Passwords
+[
+experimental
+]
 "
 >
 <
@@ -898,6 +905,9 @@ label
 Saved
 Form
 Data
+[
+experimental
+]
 "
 >
 <
