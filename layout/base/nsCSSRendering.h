@@ -417,9 +417,6 @@ aDecoration
 const
 PRUint8
 aStyle
-const
-PRBool
-aIsRTL
 )
 ;
 static
