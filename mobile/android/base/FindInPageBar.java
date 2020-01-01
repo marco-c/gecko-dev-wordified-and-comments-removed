@@ -210,6 +210,13 @@ setOnClickListener
 this
 )
 ;
+content
+.
+setOnClickListener
+(
+this
+)
+;
 mFindText
 =
 (
