@@ -6095,7 +6095,7 @@ Properties
 (
 )
 .
-RemoveProperty
+Remove
 (
 ContentScrollPos
 (
