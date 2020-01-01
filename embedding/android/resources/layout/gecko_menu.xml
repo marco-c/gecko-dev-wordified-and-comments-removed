@@ -74,7 +74,7 @@ id
 +
 id
 /
-bookmarks
+bookmark
 "
 android
 :
@@ -83,7 +83,16 @@ title
 "
 string
 /
-bookmarks
+bookmark_add
+"
+android
+:
+icon
+=
+"
+drawable
+/
+bookmark_add
 "
 android
 :
