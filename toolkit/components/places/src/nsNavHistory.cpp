@@ -10514,7 +10514,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsNavHistory
 :
 :
@@ -10528,6 +10528,11 @@ PRBool
 canAdd
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aURI
+)
+;
 nsCAutoString
 scheme
 ;
@@ -10719,6 +10724,11 @@ PRInt64
 aVisitID
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aURI
+)
+;
 PRBool
 canAdd
 =
