@@ -1476,6 +1476,12 @@ hal
 :
 SENSOR_GYROSCOPE
 :
+case
+hal
+:
+:
+SENSOR_PROXIMITY
+:
 values
 .
 AppendElement
@@ -1519,12 +1525,6 @@ hal
 :
 :
 SENSOR_LIGHT
-:
-case
-hal
-:
-:
-SENSOR_PROXIMITY
 :
 values
 .
