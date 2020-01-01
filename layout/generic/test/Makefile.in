@@ -474,6 +474,10 @@ test_bug394239
 .
 html
 \
+test_character_movement
+.
+html
+\
 test_word_movement
 .
 html

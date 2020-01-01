@@ -626,6 +626,12 @@ HasTerminalNewline
 )
 const
 ;
+PRBool
+IsAtEndOfLine
+(
+)
+const
+;
 #
 ifdef
 ACCESSIBILITY
