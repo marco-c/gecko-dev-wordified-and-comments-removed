@@ -159,7 +159,7 @@ ABSOLUTE_TOPSRCDIR
 call
 core_abspath
 (
-topsrcdir
+MOZILLA_DIR
 )
 )
 _CERTS_SRC_DIR
@@ -362,7 +362,7 @@ py
 INSTALL
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build
@@ -376,7 +376,7 @@ automation
 py
 :
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build
@@ -387,7 +387,7 @@ py
 .
 in
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build
@@ -408,7 +408,7 @@ py
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
