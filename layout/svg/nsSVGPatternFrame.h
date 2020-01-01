@@ -124,15 +124,6 @@ uint32_t
 aFor
 )
 ;
-virtual
-void
-DidSetStyleContext
-(
-nsStyleContext
-*
-aOldStyleContext
-)
-;
 NS_IMETHOD
 AttributeChanged
 (
