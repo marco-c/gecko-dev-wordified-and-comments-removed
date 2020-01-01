@@ -14277,6 +14277,8 @@ serif
 ja
 "
 "
+Hiragino
+Mincho
 Pro
 "
 )
@@ -14295,6 +14297,9 @@ serif
 ja
 "
 "
+Hiragino
+Kaku
+Gothic
 Pro
 "
 )
@@ -14312,6 +14317,8 @@ ja
 "
 "
 Osaka
+-
+Mono
 "
 )
 ;
@@ -14329,6 +14336,8 @@ serif
 ja
 "
 "
+Hiragino
+Mincho
 Pro
 "
 )
@@ -14349,6 +14358,9 @@ serif
 ja
 "
 "
+Hiragino
+Kaku
+Gothic
 Pro
 "
 )
@@ -14368,6 +14380,8 @@ ja
 "
 "
 Osaka
+-
+Mono
 "
 )
 ;
@@ -16871,6 +16885,7 @@ zh
 CN
 "
 "
+STSong
 "
 )
 ;
@@ -16928,6 +16943,7 @@ zh
 CN
 "
 "
+STSong
 "
 )
 ;
@@ -17111,6 +17127,7 @@ zh
 HK
 "
 "
+LiSong
 Pro
 "
 )
@@ -17131,6 +17148,7 @@ zh
 HK
 "
 "
+LiHei
 Pro
 "
 )
@@ -17149,6 +17167,7 @@ zh
 HK
 "
 "
+LiHei
 Pro
 "
 )
@@ -17169,6 +17188,7 @@ zh
 HK
 "
 "
+LiSong
 Pro
 "
 )
@@ -17191,6 +17211,7 @@ zh
 HK
 "
 "
+LiHei
 Pro
 "
 )
@@ -17211,6 +17232,7 @@ zh
 HK
 "
 "
+LiHei
 Pro
 "
 )
