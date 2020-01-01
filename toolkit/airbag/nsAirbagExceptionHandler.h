@@ -84,6 +84,10 @@ SetupExtraData
 nsILocalFile
 *
 aAppDataDirectory
+const
+nsACString
+&
+aBuildID
 )
 ;
 }

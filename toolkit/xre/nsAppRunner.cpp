@@ -11199,6 +11199,12 @@ CrashReporter
 SetupExtraData
 (
 userAppDataDir
+nsDependentCString
+(
+appData
+.
+buildID
+)
 )
 ;
 }
