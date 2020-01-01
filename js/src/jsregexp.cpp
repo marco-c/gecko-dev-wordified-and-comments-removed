@@ -24148,8 +24148,9 @@ jsxdrapi
 .
 h
 "
+static
 JSBool
-js_XDRRegExpObject
+regexp_xdrObject
 (
 JSXDRState
 *
@@ -24374,7 +24375,7 @@ JS_TRUE
 else
 #
 define
-js_XDRRegExpObject
+regexp_xdrObject
 NULL
 #
 endif
@@ -24462,7 +24463,7 @@ NULL
 NULL
 regexp_call
 NULL
-js_XDRRegExpObject
+regexp_xdrObject
 NULL
 JS_CLASS_TRACE
 (

@@ -6228,6 +6228,13 @@ obj
 )
 &
 &
+js_InitBlockClass
+(
+cx
+obj
+)
+&
+&
 js_InitBooleanClass
 (
 cx
@@ -6581,6 +6588,13 @@ js_InitArrayClass
 EAGER_ATOM_AND_CLASP
 (
 Array
+)
+}
+{
+js_InitBlockClass
+EAGER_ATOM_AND_CLASP
+(
+Block
 )
 }
 {
