@@ -5397,6 +5397,7 @@ goto
 out_bad
 ;
 }
+{
 uint32
 length
 =
@@ -5428,6 +5429,7 @@ length
 :
 JSVAL_VOID
 ;
+}
 obj
 -
 >
