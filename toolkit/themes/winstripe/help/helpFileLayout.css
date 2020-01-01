@@ -275,10 +275,8 @@ margin
 :
 1em
 0
-0
 .
 2em
-0
 ;
 border
 -
@@ -361,7 +359,7 @@ text
 -
 indent
 :
-0px
+0
 ;
 }
 .
@@ -376,9 +374,6 @@ ul
 {
 margin
 :
-0
-0
-0
 0
 ;
 list
@@ -516,8 +511,6 @@ transparent
 ;
 border
 :
-0px
-solid
-transparent
+none
 ;
 }
