@@ -556,7 +556,7 @@ nsFontMetrics
 .
 h
 \
-nsIDeviceContext
+nsDeviceContext
 .
 h
 \
@@ -623,7 +623,7 @@ gfxCrashReporterUtils
 .
 cpp
 \
-nsThebesDeviceContext
+nsDeviceContext
 .
 cpp
 \

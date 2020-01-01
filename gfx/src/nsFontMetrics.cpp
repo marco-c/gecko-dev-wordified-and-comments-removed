@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsThebesDeviceContext
+nsDeviceContext
 .
 h
 "
@@ -362,7 +362,7 @@ aFont
 nsIAtom
 *
 aLanguage
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 gfxUserFontSet
@@ -393,10 +393,6 @@ aLanguage
 ;
 mDeviceContext
 =
-(
-nsThebesDeviceContext
-*
-)
 aContext
 ;
 mP2A

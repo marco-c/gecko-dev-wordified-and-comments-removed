@@ -14,14 +14,7 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsIDeviceContext
+nsDeviceContext
 .
 h
 "
@@ -100,7 +93,7 @@ nsRenderingContext
 void
 Init
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 gfxASurface
@@ -111,7 +104,7 @@ aThebesSurface
 void
 Init
 (
-nsIDeviceContext
+nsDeviceContext
 *
 aContext
 gfxContext
@@ -129,7 +122,7 @@ return
 mThebes
 ;
 }
-nsIDeviceContext
+nsDeviceContext
 *
 DeviceContext
 (
@@ -592,9 +585,9 @@ gfxContext
 >
 mThebes
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDeviceContext
+nsDeviceContext
 >
 mDeviceContext
 ;

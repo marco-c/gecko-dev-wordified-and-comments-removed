@@ -538,13 +538,6 @@ gBufferMaxSize
 )
 ;
 static
-NS_DEFINE_IID
-(
-kDeviceContextCID
-NS_DEVICE_CONTEXT_CID
-)
-;
-static
 nsresult
 initialize_prefs
 (

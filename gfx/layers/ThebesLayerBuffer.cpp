@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsIDeviceContext
+nsDeviceContext
 .
 h
 "
@@ -748,7 +748,7 @@ kPrecision
 /
 gfxFloat
 (
-nsIDeviceContext
+nsDeviceContext
 :
 :
 AppUnitsPerCSSPixel
