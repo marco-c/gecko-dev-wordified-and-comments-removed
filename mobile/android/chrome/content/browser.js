@@ -23875,8 +23875,8 @@ width
 !
 =
 0
-|
-|
+&
+&
 rect
 .
 height
