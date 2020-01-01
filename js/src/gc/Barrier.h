@@ -729,7 +729,6 @@ post
 )
 ;
 }
-explicit
 RelocatablePtr
 (
 const
