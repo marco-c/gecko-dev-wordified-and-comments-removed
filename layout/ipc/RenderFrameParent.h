@@ -508,7 +508,7 @@ return
 mozilla
 :
 :
-LAYER_ACTIVE
+LAYER_ACTIVE_FORCE
 ;
 }
 NS_OVERRIDE

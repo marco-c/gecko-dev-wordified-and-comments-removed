@@ -712,6 +712,16 @@ mSnapEffectiveTransforms
 ;
 }
 virtual
+bool
+AreComponentAlphaLayersEnabled
+(
+)
+{
+return
+true
+;
+}
+virtual
 void
 SetRoot
 (

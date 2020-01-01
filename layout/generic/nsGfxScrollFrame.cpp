@@ -7841,6 +7841,16 @@ nsIFrame
 :
 eSVG
 )
+|
+|
+f
+-
+>
+GetStateBits
+(
+)
+&
+NS_FRAME_NO_COMPONENT_ALPHA
 )
 {
 return
