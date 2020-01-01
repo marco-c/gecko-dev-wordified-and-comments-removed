@@ -71,6 +71,11 @@ ShutdownChecksMode
 gShutdownChecks
 ;
 void
+InitWritePoisoning
+(
+)
+;
+void
 PoisonWrite
 (
 )

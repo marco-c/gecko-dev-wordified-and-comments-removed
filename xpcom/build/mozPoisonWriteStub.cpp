@@ -26,6 +26,12 @@ EnableWritePoisoning
 )
 {
 }
+void
+InitWritePoisoning
+(
+)
+{
+}
 }
 extern
 "
