@@ -993,14 +993,12 @@ cx
 ;
 JSAutoStructuredCloneBuffer
 buffer
-(
-cx
-)
 ;
 buffer
 .
 adopt
 (
+cx
 mData
 mDataLen
 )
