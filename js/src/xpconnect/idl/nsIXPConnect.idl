@@ -4962,7 +4962,7 @@ aCOMObj
 )
 ;
 void
-reparentScopeAwareWrappers
+moveWrappers
 (
 in
 JSContextPtr

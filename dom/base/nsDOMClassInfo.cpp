@@ -41115,11 +41115,13 @@ target
 _retval
 =
 target
-;
-NS_IF_ADDREF
+.
+forget
 (
-*
-_retval
+)
+.
+get
+(
 )
 ;
 return
