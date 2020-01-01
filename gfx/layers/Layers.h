@@ -682,6 +682,12 @@ END_NO_IMMEDIATE_REDRAW
 <
 <
 0
+END_NO_COMPOSITE
+=
+1
+<
+<
+1
 }
 ;
 virtual
