@@ -1449,17 +1449,6 @@ c
 reference
 .
 html
-fails
--
-if
-(
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-cocoa
-"
-)
 =
 =
 text
