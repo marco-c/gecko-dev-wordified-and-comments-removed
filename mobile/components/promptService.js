@@ -1123,6 +1123,13 @@ aNode
 aLabel
 )
 {
+if
+(
+!
+aLabel
+)
+return
+;
 var
 accessKey
 =
