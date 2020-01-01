@@ -1794,6 +1794,14 @@ res
 /
 layout
 /
+shared_ui_components
+.
+xml
+\
+res
+/
+layout
+/
 site_identity_popup
 .
 xml
