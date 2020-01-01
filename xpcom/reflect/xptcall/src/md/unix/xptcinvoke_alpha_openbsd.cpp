@@ -448,7 +448,7 @@ __asm__
 #
 #
 #
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 #
 #
 #
@@ -476,7 +476,7 @@ t
 "
 .
 globl
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 \
 n
 \
@@ -485,12 +485,12 @@ t
 "
 .
 ent
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 \
 n
 "
 "
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 :
 \
 n
@@ -531,7 +531,7 @@ ldgp
 n
 "
 "
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 .
 .
 ng
@@ -1011,7 +1011,7 @@ t
 "
 .
 end
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 "
 )
 ;

@@ -1391,17 +1391,6 @@ toolkit
 library
 '
 )
-add_tier_dir
-(
-'
-platform
-'
-'
-xpcom
-/
-stub
-'
-)
 if
 CONFIG
 [

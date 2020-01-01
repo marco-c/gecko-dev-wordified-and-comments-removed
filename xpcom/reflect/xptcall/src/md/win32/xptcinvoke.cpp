@@ -469,7 +469,7 @@ C
 NS_EXPORT
 nsresult
 NS_FROZENCALL
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 (
 nsISupports
 *

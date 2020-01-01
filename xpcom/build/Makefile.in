@@ -194,6 +194,10 @@ FileLocation
 .
 cpp
 \
+FrozenFunctions
+.
+cpp
+\
 (
 NULL
 )
