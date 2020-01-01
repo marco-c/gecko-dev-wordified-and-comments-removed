@@ -17,7 +17,7 @@ include
 "
 GLSLANG
 /
-Shaderlang
+ShaderLang
 .
 h
 "

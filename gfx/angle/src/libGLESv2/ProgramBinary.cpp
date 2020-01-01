@@ -12003,6 +12003,18 @@ arrayIndex
 +
 )
 {
+D3DXHANDLE
+elementHandle
+=
+mConstantTablePS
+-
+>
+GetConstantElement
+(
+constantHandle
+arrayIndex
+)
+;
 for
 (
 unsigned
@@ -12030,7 +12042,7 @@ mConstantTablePS
 >
 GetConstant
 (
-constantHandle
+elementHandle
 field
 )
 ;

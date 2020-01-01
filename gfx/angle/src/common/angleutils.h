@@ -40,4 +40,16 @@ _snprintf
 #
 endif
 #
+define
+VENDOR_ID_AMD
+0x1002
+#
+define
+VENDOR_ID_INTEL
+0x8086
+#
+define
+VENDOR_ID_NVIDIA
+0x10DE
+#
 endif

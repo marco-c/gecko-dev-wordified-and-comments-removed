@@ -10,7 +10,7 @@ GL_APICALL
 #
 include
 <
-gles2
+GLES2
 /
 gl2
 .
@@ -19,7 +19,7 @@ h
 #
 include
 <
-gles2
+GLES2
 /
 gl2ext
 .
