@@ -1144,7 +1144,7 @@ float
 aDisplayResolution
 bool
 aLayersUpdated
-nsIntPoint
+ScreenPoint
 &
 aScrollOffset
 float

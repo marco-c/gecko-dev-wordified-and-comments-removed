@@ -5596,7 +5596,7 @@ float
 aDisplayResolution
 bool
 aLayersUpdated
-nsIntPoint
+ScreenPoint
 &
 aScrollOffset
 float
@@ -5717,7 +5717,7 @@ viewTransformJObj
 ;
 aScrollOffset
 =
-nsIntPoint
+ScreenPoint
 (
 viewTransform
 .
