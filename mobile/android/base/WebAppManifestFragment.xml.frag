@@ -15,8 +15,9 @@ android
 label
 =
 "
-WebApp
-APPNUM
+string
+/
+webapp_generic_name
 "
 android
 :
