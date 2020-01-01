@@ -3031,6 +3031,8 @@ const
 nsIID
 *
 objIID
+=
+nsnull
 ;
 rv
 =
@@ -3051,6 +3053,9 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+wrapper
 )
 rv
 =
@@ -3072,6 +3077,9 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+interfaceInfo
 )
 rv
 =
@@ -3090,6 +3098,9 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+objIID
 )
 {
 switch
