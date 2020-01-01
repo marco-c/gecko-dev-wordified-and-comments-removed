@@ -78,6 +78,14 @@ DLL_SUFFIX
 DLL_PREFIX
 zlib
 DLL_SUFFIX
+#
+ifdef
+MOZ_STATIC_JS
+DLL_PREFIX
+mozjs
+DLL_SUFFIX
+#
+endif
 LICENSE
 browserconfig
 .
