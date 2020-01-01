@@ -1609,9 +1609,6 @@ vregs
 StackAssignment
 stackAssignment
 ;
-RegisterSet
-allowedRegs
-;
 UnhandledQueue
 unhandled
 ;
@@ -1699,7 +1696,7 @@ LiveInterval
 interval
 )
 ;
-Register
+AnyRegister
 :
 :
 Code
@@ -1710,7 +1707,7 @@ CodePosition
 freeUntil
 )
 ;
-Register
+AnyRegister
 :
 :
 Code

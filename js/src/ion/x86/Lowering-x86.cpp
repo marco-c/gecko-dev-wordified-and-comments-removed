@@ -350,6 +350,13 @@ use
 (
 inner
 )
+temp
+(
+LDefinition
+:
+:
+DOUBLE
+)
 )
 box
 )
