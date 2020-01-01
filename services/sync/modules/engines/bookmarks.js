@@ -1421,6 +1421,12 @@ getItemTitle
 folderId
 )
 ;
+let
+serverPath
+=
+"
+"
+;
 if
 (
 this
@@ -1434,7 +1440,6 @@ SERVER_PATH_ANNO
 )
 )
 {
-let
 serverPath
 =
 this
@@ -1471,12 +1476,6 @@ annotation
 .
 "
 )
-;
-let
-serverPath
-=
-"
-"
 ;
 }
 this
