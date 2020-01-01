@@ -747,10 +747,9 @@ StepForward
 (
 )
 ;
-aReflowStatus
-=
-NS_FRAME_MERGE_INCOMPLETE
+NS_MergeReflowStatusInto
 (
+&
 aReflowStatus
 NS_FRAME_OVERFLOW_INCOMPLETE
 )
