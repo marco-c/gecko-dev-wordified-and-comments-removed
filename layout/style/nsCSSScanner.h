@@ -293,6 +293,16 @@ NS_HIDDEN_
 (
 void
 )
+ReportUnexpectedEOF
+(
+PRUnichar
+aLookingFor
+)
+;
+NS_HIDDEN_
+(
+void
+)
 ReportUnexpectedToken
 (
 nsCSSToken
