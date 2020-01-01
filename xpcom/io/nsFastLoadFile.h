@@ -568,6 +568,10 @@ nsFastLoadFileReader
 (
 )
 {
+Close
+(
+)
+;
 MOZ_COUNT_DTOR
 (
 nsFastLoadFileReader
