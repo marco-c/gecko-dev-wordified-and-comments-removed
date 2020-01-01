@@ -5614,9 +5614,6 @@ codebase
 ;
 if
 (
-getAddress
-&
-&
 js
 :
 :
@@ -5686,6 +5683,11 @@ location
 )
 ;
 }
+if
+(
+getAddress
+)
+{
 static
 const
 int
@@ -5716,6 +5718,7 @@ Append
 address
 )
 ;
+}
 }
 name
 -
