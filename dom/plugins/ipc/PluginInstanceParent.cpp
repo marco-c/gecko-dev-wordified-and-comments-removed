@@ -8431,7 +8431,7 @@ aRemoteWindow
 .
 window
 =
-nsnull
+0
 ;
 aRemoteWindow
 .
