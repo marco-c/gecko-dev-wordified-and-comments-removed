@@ -2123,6 +2123,11 @@ popActiveFrame
 (
 )
 ;
+void
+generateInlinePrologue
+(
+)
+;
 CompileStatus
 prepareInferenceTypes
 (

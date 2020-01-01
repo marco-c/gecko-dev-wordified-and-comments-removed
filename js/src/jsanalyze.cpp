@@ -1102,6 +1102,15 @@ script
 nClosedVars
 |
 |
+script
+-
+>
+nfixed
+>
+=
+LOCAL_LIMIT
+|
+|
 (
 script
 -
