@@ -5430,9 +5430,12 @@ fun
 )
 {
 return
+Jsvalify
+(
 FUN_FAST_NATIVE
 (
 fun
+)
 )
 ;
 }

@@ -371,7 +371,10 @@ JSFUN_FAST_NATIVE
 \
 ?
 (
-JSFastNative
+js
+:
+:
+FastNative
 )
 (
 fun
