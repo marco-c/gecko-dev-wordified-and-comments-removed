@@ -428,10 +428,6 @@ nsIDOMAttr
 .
 idl
 \
-nsIDOMCaretPosition
-.
-idl
-\
 nsIDOMCDATASection
 .
 idl
