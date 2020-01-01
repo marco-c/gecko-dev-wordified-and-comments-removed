@@ -9043,7 +9043,7 @@ k
 +
 )
 {
-strcpy
+VMPI_strcpy
 (
 s
 names
@@ -9064,7 +9064,7 @@ k
 s
 +
 =
-strlen
+VMPI_strlen
 (
 s
 )
@@ -9113,7 +9113,7 @@ i
 ;
 if
 (
-strlen
+VMPI_strlen
 (
 insn_text
 )
@@ -9342,7 +9342,7 @@ isdigit
 (
 s
 [
-strlen
+VMPI_strlen
 (
 s
 )
@@ -9416,7 +9416,7 @@ c
 -
 10000
 )
-sprintf
+VMPI_sprintf
 (
 buf
 "
@@ -9438,7 +9438,7 @@ c
 )
 ;
 else
-sprintf
+VMPI_sprintf
 (
 buf
 "
@@ -9526,7 +9526,7 @@ isconstq
 if
 defined
 NANOJIT_64BIT
-sprintf
+VMPI_sprintf
 (
 buf
 "
@@ -9562,7 +9562,7 @@ buf
 buf
 +
 =
-strlen
+VMPI_strlen
 (
 buf
 )
@@ -9819,7 +9819,7 @@ case
 LIR_int
 :
 {
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -9839,7 +9839,7 @@ case
 LIR_ialloc
 :
 {
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -9874,7 +9874,7 @@ case
 LIR_quad
 :
 {
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -9920,7 +9920,7 @@ LIR_loop
 case
 LIR_start
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -9982,7 +9982,7 @@ isIndirect
 (
 )
 )
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10020,7 +10020,7 @@ argc
 )
 ;
 else
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10070,12 +10070,12 @@ j
 s
 +
 =
-strlen
+VMPI_strlen
 (
 s
 )
 ;
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10098,12 +10098,12 @@ j
 s
 +
 =
-strlen
+VMPI_strlen
 (
 s
 )
 ;
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10163,7 +10163,7 @@ argRegs
 )
 )
 {
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10201,7 +10201,7 @@ arg
 }
 else
 {
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10228,7 +10228,7 @@ arg
 }
 else
 {
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10270,7 +10270,7 @@ break
 case
 LIR_label
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10292,7 +10292,7 @@ LIR_jt
 case
 LIR_jf
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10345,7 +10345,7 @@ break
 case
 LIR_j
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10393,7 +10393,7 @@ LIR_ret
 case
 LIR_fret
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10449,7 +10449,7 @@ LIR_not
 case
 LIR_mod
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10604,7 +10604,7 @@ LIR_qilsh
 case
 LIR_qior
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10651,7 +10651,7 @@ break
 case
 LIR_qjoin
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10696,7 +10696,7 @@ LIR_qcmov
 case
 LIR_cmov
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10771,7 +10771,7 @@ LIR_ldcb
 case
 LIR_ldcs
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10820,7 +10820,7 @@ LIR_sti
 case
 LIR_stqi
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
@@ -10870,7 +10870,7 @@ break
 ;
 default
 :
-sprintf
+VMPI_sprintf
 (
 s
 "
