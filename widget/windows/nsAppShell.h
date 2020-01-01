@@ -30,16 +30,7 @@ h
 #
 define
 NATIVE_EVENT_STARVATION_LIMIT
-mozilla
-:
-:
-TimeDuration
-:
-:
-FromSeconds
-(
 1
-)
 class
 nsAppShell
 :
