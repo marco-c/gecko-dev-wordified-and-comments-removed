@@ -77,7 +77,7 @@ AllocPHttpChannel
 (
 PBrowserParent
 *
-iframeEmbedding
+browser
 )
 {
 HttpChannelParent
@@ -87,7 +87,7 @@ p
 new
 HttpChannelParent
 (
-iframeEmbedding
+browser
 )
 ;
 p

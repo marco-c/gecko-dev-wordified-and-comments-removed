@@ -653,6 +653,10 @@ HttpChannelChild
 .
 cpp
 \
+HttpChannelParentListener
+.
+cpp
+\
 (
 NULL
 )
