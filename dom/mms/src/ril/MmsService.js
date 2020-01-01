@@ -5134,6 +5134,8 @@ run
 (
 )
 ;
+return
+;
 }
 this
 .
@@ -5234,6 +5236,8 @@ transaction
 run
 (
 )
+;
+return
 ;
 }
 savableMessage
@@ -5345,8 +5349,6 @@ bind
 this
 )
 )
-;
-return
 ;
 }
 )
