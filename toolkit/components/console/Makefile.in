@@ -423,6 +423,13 @@ jsconsole
 clhandler
 .
 manifest
+ifeq
+(
+browser
+(
+MOZ_BUILD_APP
+)
+)
 PARALLEL_DIRS
 =
 hudservice
@@ -430,6 +437,7 @@ hudservice
 (
 NULL
 )
+endif
 include
 (
 topsrcdir
