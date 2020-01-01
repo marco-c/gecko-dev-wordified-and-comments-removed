@@ -156,6 +156,11 @@ rgbTriple
 (
 )
 ;
+Function
+getFunction
+(
+)
+;
 }
 ;
 interface
