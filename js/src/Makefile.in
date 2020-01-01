@@ -1208,6 +1208,10 @@ jstracer
 .
 h
 \
+jshotloop
+.
+h
+\
 jstypedarray
 .
 h
