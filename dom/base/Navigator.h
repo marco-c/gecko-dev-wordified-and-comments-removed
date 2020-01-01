@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIDOMNavigatorDeviceStorage
-.
-h
-"
-#
-include
-"
 nsIDOMNavigatorDesktopNotification
 .
 h
@@ -167,8 +160,6 @@ nsIDOMNavigator
 public
 nsIDOMClientInformation
 public
-nsIDOMNavigatorDeviceStorage
-public
 nsIDOMNavigatorGeolocation
 public
 nsIDOMNavigatorDesktopNotification
@@ -211,7 +202,6 @@ Navigator
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMNAVIGATOR
 NS_DECL_NSIDOMCLIENTINFORMATION
-NS_DECL_NSIDOMNAVIGATORDEVICESTORAGE
 NS_DECL_NSIDOMNAVIGATORGEOLOCATION
 NS_DECL_NSIDOMNAVIGATORDESKTOPNOTIFICATION
 NS_DECL_NSIDOMMOZNAVIGATORBATTERY

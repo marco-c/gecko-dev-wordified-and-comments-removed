@@ -97,10 +97,6 @@ core
 \
 interfaces
 /
-devicestorage
-\
-interfaces
-/
 html
 \
 interfaces
@@ -208,8 +204,6 @@ bindings
 battery
 \
 contacts
-\
-devicestorage
 \
 power
 \

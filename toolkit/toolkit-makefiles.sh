@@ -146,13 +146,6 @@ dom
 /
 interfaces
 /
-devicestorage
-/
-Makefile
-dom
-/
-interfaces
-/
 events
 /
 Makefile
