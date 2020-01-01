@@ -2307,7 +2307,7 @@ LOCAL_GL_UNSIGNED_BYTE
 (
 IsExtensionEnabled
 (
-WebGL_OES_texture_float
+OES_texture_float
 )
 &
 &
