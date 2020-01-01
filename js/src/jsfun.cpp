@@ -11327,10 +11327,6 @@ size_t
 oplen
 )
 {
-VOUCH_DOES_NOT_REQUIRE_STACK
-(
-)
-;
 JSObject
 *
 scopeChain

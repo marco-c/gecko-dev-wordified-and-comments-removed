@@ -172,10 +172,6 @@ JSContext
 cx
 )
 {
-VOUCH_DOES_NOT_REQUIRE_STACK
-(
-)
-;
 if
 (
 cx
@@ -518,10 +514,6 @@ cx
 -
 >
 globalObject
-)
-;
-VOUCH_DOES_NOT_REQUIRE_STACK
-(
 )
 ;
 }

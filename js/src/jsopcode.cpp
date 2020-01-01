@@ -22710,10 +22710,6 @@ if
 tmp
 )
 {
-VOUCH_DOES_NOT_REQUIRE_STACK
-(
-)
-;
 MergeSort
 (
 table
