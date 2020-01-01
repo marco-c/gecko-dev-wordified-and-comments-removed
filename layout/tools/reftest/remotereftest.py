@@ -3033,11 +3033,6 @@ deviceIP
 options
 .
 devicePort
-packageName
-=
-options
-.
-app
 )
         
 else
@@ -3045,16 +3040,7 @@ else
             
 dm
 =
-dm_none
-            
-dm
-.
-verifyPackage
-(
-options
-.
-app
-)
+dm_auto
     
 else
 :

@@ -1090,17 +1090,6 @@ return
 this
 ;
 }
-AllocPolicy
-&
-allocPolicy
-(
-)
-{
-return
-*
-this
-;
-}
 enum
 {
 InlineLength

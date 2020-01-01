@@ -2239,10 +2239,7 @@ js
 OwnedAtomIndexMapPtr
 upvarIndices
 ;
-js
-:
-:
-UpvarCookies
+JSUpvarArray
 upvarMap
 ;
 typedef
@@ -3348,9 +3345,6 @@ SRC_CONT2LABEL
 =
 17
 SRC_SWITCH
-=
-18
-SRC_SWITCHBREAK
 =
 18
 SRC_FUNCDEF
