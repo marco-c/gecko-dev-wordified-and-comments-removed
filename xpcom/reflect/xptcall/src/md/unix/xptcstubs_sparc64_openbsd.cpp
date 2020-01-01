@@ -618,7 +618,7 @@ extern
 "
 C
 "
-int
+nsresult
 SharedStub
 (
 int
