@@ -1308,7 +1308,7 @@ GetColorValue
 u
 =
 =
-eCSSUnit_String
+eCSSUnit_Ident
 &
 &
 !
