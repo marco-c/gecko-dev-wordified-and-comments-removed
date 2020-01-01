@@ -1131,7 +1131,7 @@ pn
 >
 isKind
 (
-PNK_LC
+PNK_STATEMENTLIST
 )
 |
 |
@@ -1352,7 +1352,7 @@ getKind
 )
 {
 case
-PNK_LC
+PNK_STATEMENTLIST
 :
 if
 (
@@ -1651,7 +1651,7 @@ pn3
 >
 isKind
 (
-PNK_LC
+PNK_STATEMENTLIST
 )
 )
 ;
@@ -7931,7 +7931,7 @@ ListNode
 :
 create
 (
-PNK_LC
+PNK_STATEMENTLIST
 tc
 )
 ;
@@ -13020,7 +13020,7 @@ ListNode
 :
 create
 (
-PNK_LC
+PNK_STATEMENTLIST
 tc
 )
 ;
@@ -13257,7 +13257,7 @@ ListNode
 :
 create
 (
-PNK_LC
+PNK_STATEMENTLIST
 tc
 )
 ;
@@ -16485,7 +16485,7 @@ pn
 >
 setKind
 (
-PNK_LC
+PNK_STATEMENTLIST
 )
 ;
 pn
@@ -27277,7 +27277,7 @@ UnaryNode
 :
 create
 (
-PNK_LC
+PNK_XMLCURLYEXPR
 tc
 )
 ;
@@ -27708,7 +27708,7 @@ pn
 >
 isKind
 (
-PNK_LC
+PNK_XMLCURLYEXPR
 )
 )
 ParseNode
@@ -28719,7 +28719,7 @@ pn2
 >
 isKind
 (
-PNK_LC
+PNK_XMLCURLYEXPR
 )
 )
 ;
@@ -29055,7 +29055,7 @@ pn2
 >
 isKind
 (
-PNK_LC
+PNK_XMLCURLYEXPR
 )
 )
 ;

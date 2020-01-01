@@ -2739,7 +2739,7 @@ pn
 >
 setKind
 (
-PNK_LC
+PNK_STATEMENTLIST
 )
 ;
 pn
