@@ -126,6 +126,17 @@ channel
 messaging
 *
 /
+[
+Pref
+=
+"
+dom
+.
+messageChannel
+.
+enabled
+"
+]
 interface
 MessagePort
 :

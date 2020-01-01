@@ -128,6 +128,15 @@ messaging
 /
 [
 Constructor
+Pref
+=
+"
+dom
+.
+messageChannel
+.
+enabled
+"
 ]
 interface
 MessageChannel

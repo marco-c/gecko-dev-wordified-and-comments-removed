@@ -213,6 +213,10 @@ test_messageChannel_unshipped
 .
 html
 \
+test_messageChannel_pref
+.
+html
+\
 (
 NULL
 )
