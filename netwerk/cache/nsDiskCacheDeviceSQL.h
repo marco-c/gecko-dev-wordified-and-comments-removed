@@ -1022,12 +1022,6 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
-mStatement_UpdateEntryFlags
-;
-nsCOMPtr
-<
-mozIStorageStatement
->
 mStatement_DeleteEntry
 ;
 nsCOMPtr
