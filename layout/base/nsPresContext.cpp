@@ -7116,6 +7116,10 @@ mShell
 return
 ;
 }
+mUsesRootEMUnits
+=
+false
+;
 mUsesViewportUnits
 =
 false
