@@ -7310,6 +7310,9 @@ SSL_RENEGOTIATE_UNRESTRICTED
 SSL_RENEGOTIATE_REQUIRES_XTN
 )
 ;
+#
+ifdef
+SSL_ENABLE_FALSE_START
 mPrefBranch
 -
 >
@@ -7332,6 +7335,8 @@ SSL_ENABLE_FALSE_START
 enabled
 )
 ;
+#
+endif
 for
 (
 PRUint16
@@ -9803,6 +9808,9 @@ setWarnLevelMissingRFC5746
 warnLevel
 )
 ;
+#
+ifdef
+SSL_ENABLE_FALSE_START
 }
 else
 if
@@ -9843,6 +9851,8 @@ SSL_ENABLE_FALSE_START
 enabled
 )
 ;
+#
+endif
 }
 else
 if
