@@ -149,6 +149,9 @@ PRBool
 mPrintInColor
 ;
 PRInt32
+mPaperSize
+;
+PRInt32
 mOrientation
 ;
 nsString
