@@ -207,6 +207,11 @@ nsComponentManagerUtils
 h
 '
 '
+nsCycleCollectionHoldDrop
+.
+h
+'
+'
 nsCycleCollectionNoteChild
 .
 h

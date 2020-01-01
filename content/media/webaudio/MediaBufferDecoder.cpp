@@ -3221,16 +3221,12 @@ either
 "
 )
 ;
-nsContentUtils
+mozilla
 :
 :
 HoldJSObjects
 (
 this
-NS_CYCLE_COLLECTION_PARTICIPANT
-(
-WebAudioDecodeJob
-)
 )
 ;
 }
@@ -3258,7 +3254,7 @@ mArrayBuffer
 =
 nullptr
 ;
-nsContentUtils
+mozilla
 :
 :
 DropJSObjects

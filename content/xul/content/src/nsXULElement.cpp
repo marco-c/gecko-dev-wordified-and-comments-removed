@@ -11972,7 +11972,7 @@ mScriptObject
 =
 nullptr
 ;
-nsContentUtils
+mozilla
 :
 :
 DropJSObjects
@@ -12022,16 +12022,12 @@ mScriptObject
 =
 aObject
 ;
-nsContentUtils
+mozilla
 :
 :
 HoldJSObjects
 (
 this
-NS_CYCLE_COLLECTION_PARTICIPANT
-(
-nsXULPrototypeNode
-)
 )
 ;
 }

@@ -281,10 +281,12 @@ mResult
 =
 JSVAL_VOID
 ;
-NS_DROP_JS_OBJECTS
+mozilla
+:
+:
+DropJSObjects
 (
 this
-DOMRequest
 )
 ;
 }
