@@ -766,6 +766,13 @@ AP_clearItems
 (
 )
 {
+this
+.
+selectedIndex
+=
+-
+1
+;
 while
 (
 this

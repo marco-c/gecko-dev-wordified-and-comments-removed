@@ -270,7 +270,7 @@ complete
 (
 jsterm
 .
-COMPLETE_HINT_ONLY
+COMPLETE_FORWARD
 )
 ;
 is
