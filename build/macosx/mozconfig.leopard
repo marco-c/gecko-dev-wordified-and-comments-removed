@@ -113,6 +113,9 @@ x
 -
 S
 "
+MOZ_CAN_RUN_PROGRAMS
+=
+1
 #
 We
 do
