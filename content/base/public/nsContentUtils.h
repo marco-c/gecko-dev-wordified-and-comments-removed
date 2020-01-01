@@ -2116,6 +2116,8 @@ aPrincipal
 nsIScriptGlobalObject
 *
 aScriptObject
+bool
+aSVGDocument
 nsIDOMDocument
 *
 *

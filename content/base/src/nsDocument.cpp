@@ -5956,6 +5956,7 @@ NodePrincipal
 (
 )
 scriptHandlingObject
+false
 aReturn
 )
 ;
@@ -6085,6 +6086,7 @@ NodePrincipal
 (
 )
 scriptHandlingObject
+false
 getter_AddRefs
 (
 document
