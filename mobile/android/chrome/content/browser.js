@@ -35766,6 +35766,15 @@ mode
 this
 .
 IDENTITY_MODE_UNKNOWN
+|
+|
+aState
+&
+Ci
+.
+nsIWebProgressListener
+.
+STATE_IS_BROKEN
 )
 return
 result
