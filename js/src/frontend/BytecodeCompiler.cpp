@@ -291,6 +291,12 @@ script
 -
 >
 isGeneratorExp
+&
+&
+script
+-
+>
+isLegacyGenerator
 )
 {
 parser

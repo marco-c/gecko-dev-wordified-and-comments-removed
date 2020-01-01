@@ -1706,6 +1706,11 @@ isGeneratorExp
 1
 ;
 bool
+isLegacyGenerator
+:
+1
+;
+bool
 hasScriptCounts
 :
 1

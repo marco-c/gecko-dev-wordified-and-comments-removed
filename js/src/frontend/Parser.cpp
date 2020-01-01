@@ -5366,7 +5366,7 @@ asFunctionBox
 )
 -
 >
-isGenerator
+isLegacyGenerator
 (
 )
 )
@@ -20527,7 +20527,7 @@ asFunctionBox
 )
 -
 >
-setIsGenerator
+setIsLegacyGenerator
 (
 )
 ;
@@ -20794,7 +20794,7 @@ asFunctionBox
 )
 -
 >
-isGenerator
+isLegacyGenerator
 (
 )
 )
@@ -24916,7 +24916,7 @@ JSMSG_BAD_GENEXP_BODY
 )
 ;
 bool
-maybeNoteGenerator
+maybeNoteLegacyGenerator
 (
 Node
 pn
@@ -25061,7 +25061,7 @@ ParseHandler
 >
 :
 :
-maybeNoteGenerator
+maybeNoteLegacyGenerator
 (
 Node
 pn
@@ -25135,7 +25135,7 @@ asFunctionBox
 )
 -
 >
-setIsGenerator
+setIsLegacyGenerator
 (
 )
 ;
@@ -26869,7 +26869,7 @@ if
 !
 guard
 .
-maybeNoteGenerator
+maybeNoteLegacyGenerator
 (
 pn2
 )
@@ -27712,7 +27712,7 @@ funCxFlags
 genFunbox
 -
 >
-setIsGenerator
+setIsLegacyGenerator
 (
 )
 ;
@@ -28193,7 +28193,7 @@ arg0
 !
 guard
 .
-maybeNoteGenerator
+maybeNoteLegacyGenerator
 (
 argNode
 )
@@ -31491,7 +31491,7 @@ if
 !
 guard
 .
-maybeNoteGenerator
+maybeNoteLegacyGenerator
 (
 pn
 )
