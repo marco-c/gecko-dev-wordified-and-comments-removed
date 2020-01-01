@@ -1118,8 +1118,6 @@ aDocument
 nsISupports
 *
 aState
-PRBool
-aClearScopeHint
 )
 ;
 virtual
@@ -1583,18 +1581,11 @@ CallerInnerWindow
 )
 ;
 nsresult
-SetNewDocument
+InnerWindowSetNewDocument
 (
 nsIDocument
 *
 aDocument
-nsISupports
-*
-aState
-PRBool
-aClearScopeHint
-PRBool
-aIsInternalCall
 )
 ;
 nsresult
@@ -2721,8 +2712,6 @@ aDocument
 nsISupports
 *
 aState
-PRBool
-aClearScopeHint
 )
 ;
 protected

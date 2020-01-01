@@ -3195,7 +3195,6 @@ SetNewDocument
 (
 mDocument
 aState
-PR_TRUE
 )
 ;
 nsJSContext
@@ -6052,7 +6051,6 @@ SetNewDocument
 (
 newDoc
 nsnull
-PR_TRUE
 )
 ;
 }
