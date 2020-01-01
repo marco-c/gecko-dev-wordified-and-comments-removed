@@ -234,6 +234,10 @@ RELATION_NODE_CHILD_OF
 nsIAccessibleRelation
 :
 :
+RELATION_NODE_PARENT_OF
+nsIAccessibleRelation
+:
+:
 RELATION_CONTROLLED_BY
 nsIAccessibleRelation
 :
