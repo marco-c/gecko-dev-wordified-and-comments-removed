@@ -2383,6 +2383,9 @@ SetIsGLES2
 PR_TRUE
 )
 ;
+#
+ifdef
+DEBUG
 printf_stderr
 (
 "
@@ -2407,6 +2410,8 @@ EGL_DISPLAY
 )
 )
 ;
+#
+endif
 }
 ~
 GLContextEGL
@@ -2423,6 +2428,9 @@ mGLWidget
 )
 return
 ;
+#
+ifdef
+DEBUG
 printf_stderr
 (
 "
@@ -2447,6 +2455,8 @@ EGL_DISPLAY
 )
 )
 ;
+#
+endif
 sEGLLibrary
 .
 fDestroyContext
