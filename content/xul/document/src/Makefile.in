@@ -488,6 +488,11 @@ CPPSRCS
 nsXULControllers
 .
 cpp
+GQI_SRCS
+=
+xuldocument
+.
+gqi
 ifdef
 MOZ_XUL
 CPPSRCS

@@ -503,6 +503,11 @@ cpp
 (
 NULL
 )
+GQI_SRCS
+=
+xmldocument
+.
+gqi
 #
 we
 don

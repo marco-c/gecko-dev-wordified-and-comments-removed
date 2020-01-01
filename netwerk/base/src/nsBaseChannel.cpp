@@ -788,17 +788,6 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED6
-(
-nsBaseChannel
-nsHashPropertyBag
-nsIRequest
-nsIChannel
-nsIInterfaceRequestor
-nsITransportEventSink
-nsIRequestObserver
-nsIStreamListener
-)
 NS_IMETHODIMP
 nsBaseChannel
 :
