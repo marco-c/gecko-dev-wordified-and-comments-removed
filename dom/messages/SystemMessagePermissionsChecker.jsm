@@ -976,14 +976,6 @@ permName
 ]
 .
 access
-newManifest
-.
-permissions
-[
-permName
-]
-.
-channels
 )
 ;
 let
