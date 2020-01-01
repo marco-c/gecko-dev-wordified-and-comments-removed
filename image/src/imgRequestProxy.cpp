@@ -244,6 +244,11 @@ mOwner
 =
 aOwner
 ;
+if
+(
+mOwner
+)
+{
 mOwnerHasImage
 =
 !
@@ -259,6 +264,14 @@ GetImage
 (
 )
 ;
+}
+else
+{
+mOwnerHasImage
+=
+false
+;
+}
 }
 private
 :
