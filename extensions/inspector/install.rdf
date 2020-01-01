@@ -306,7 +306,7 @@ minVersion
 >
 0
 .
-8pre
+6a1
 <
 /
 em
@@ -320,9 +320,7 @@ maxVersion
 >
 0
 .
-8
-.
-*
+6a1
 <
 /
 em
