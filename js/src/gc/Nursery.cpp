@@ -18,6 +18,13 @@ h
 #
 include
 "
+jstypedarray
+.
+h
+"
+#
+include
+"
 jsutil
 .
 h

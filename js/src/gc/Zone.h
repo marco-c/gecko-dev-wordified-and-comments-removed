@@ -166,7 +166,6 @@ size_t
 thingSize
 )
 ;
-inline
 void
 *
 onOutOfMemory
@@ -186,7 +185,6 @@ size_t
 nbytes
 )
 ;
-inline
 void
 reportAllocationOverflow
 (

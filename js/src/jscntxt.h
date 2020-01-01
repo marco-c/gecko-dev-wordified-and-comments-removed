@@ -1168,7 +1168,6 @@ this
 )
 ;
 }
-inline
 void
 clearNurseryObjects
 (
