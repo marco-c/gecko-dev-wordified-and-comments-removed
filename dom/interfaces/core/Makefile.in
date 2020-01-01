@@ -108,6 +108,10 @@ nsIDOMDOMException
 .
 idl
 \
+nsIDOMDOMImplementation
+.
+idl
+\
 nsIDOMDocument
 .
 idl

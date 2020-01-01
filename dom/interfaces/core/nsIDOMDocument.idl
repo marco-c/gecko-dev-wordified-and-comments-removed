@@ -258,12 +258,9 @@ attribute
 nsIDOMDocumentType
 doctype
 ;
-/
-/
-DOMImplementation
 readonly
 attribute
-nsISupports
+nsIDOMDOMImplementation
 implementation
 ;
 readonly
