@@ -67,14 +67,6 @@ Element
 ;
 }
 }
-#
-define
-SPECIFIED_STYLE_TYPE
-1
-#
-define
-COMPUTED_STYLE_TYPE
-2
 class
 nsHTMLEditor
 ;
@@ -152,6 +144,13 @@ eCSSEditableProperty_text_decoration
 eCSSEditableProperty_vertical_align
 eCSSEditableProperty_whitespace
 eCSSEditableProperty_width
+}
+;
+enum
+StyleType
+{
+eSpecified
+eComputed
 }
 ;
 struct
@@ -394,7 +393,7 @@ aAttribute
 nsAString
 &
 aValueString
-PRUint8
+StyleType
 aStyleType
 )
 ;
@@ -415,7 +414,7 @@ const
 nsAString
 &
 aValue
-PRUint8
+StyleType
 aStyleType
 )
 ;
@@ -438,7 +437,7 @@ aIsSet
 nsAString
 &
 aValueString
-PRUint8
+StyleType
 aStyleType
 )
 ;
@@ -758,7 +757,7 @@ aValue
 nsIDOMWindow
 *
 aWindow
-PRUint8
+StyleType
 aStyleType
 )
 ;
@@ -777,7 +776,7 @@ aValue
 nsIDOMWindow
 *
 aWindow
-PRUint8
+StyleType
 aStyleType
 )
 ;
