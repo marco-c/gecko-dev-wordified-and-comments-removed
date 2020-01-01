@@ -14153,6 +14153,8 @@ OptionallyBreak
 nsIRenderingContext
 *
 aRenderingContext
+nscoord
+aHyphenWidth
 )
 {
 trailingTextFrame
@@ -14162,6 +14164,8 @@ nsnull
 if
 (
 currentLine
++
+aHyphenWidth
 <
 0
 |
@@ -14169,6 +14173,11 @@ currentLine
 atStartOfLine
 )
 return
+;
+currentLine
++
+=
+aHyphenWidth
 ;
 ForceBreak
 (
