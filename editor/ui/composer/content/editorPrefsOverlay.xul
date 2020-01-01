@@ -198,10 +198,11 @@ wsm_persist
 "
 true
 "
-position
+insertafter
 =
 "
-3
+generalStartupMail
+generalStartupBrowser
 "
 label
 =
@@ -283,10 +284,11 @@ id
 "
 editor
 "
-position
+insertafter
 =
 "
-3
+mailnews
+navigator
 "
 >
 <
