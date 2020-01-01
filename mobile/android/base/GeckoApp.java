@@ -6893,7 +6893,6 @@ AboutHomeContent
 GeckoApp
 .
 mAppContext
-null
 )
 ;
 mAboutHomeContent
