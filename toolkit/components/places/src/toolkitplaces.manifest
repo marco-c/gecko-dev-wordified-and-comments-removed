@@ -1,3 +1,7 @@
+#
+nsLivemarkService
+.
+js
 component
 {
 dca61eb5
@@ -36,6 +40,10 @@ b0fb
 -
 d0722baba251
 }
+#
+nsTaggingService
+.
+js
 component
 {
 bbc23860
@@ -116,6 +124,10 @@ d4cb
 9ad6
 -
 479d56d89593
+#
+nsPlacesDBFlush
+.
+js
 component
 {
 c1751cfc
@@ -180,6 +192,10 @@ places
 sync
 ;
 1
+#
+nsPlacesExpiration
+.
+js
 component
 {
 705a423f
@@ -230,6 +246,10 @@ places
 expiration
 ;
 1
+#
+nsMicrosummaryService
+.
+js
 component
 {
 460a9792

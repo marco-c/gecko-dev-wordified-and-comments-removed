@@ -589,6 +589,9 @@ EXTRA_COMPONENTS
 nsPlacesAutoComplete
 .
 js
+nsPlacesAutoComplete
+.
+manifest
 endif
 EXTRA_JS_MODULES
 =
