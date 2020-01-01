@@ -1936,6 +1936,12 @@ onStop
 (
 )
 ;
+GeckoAppShell
+.
+putChildInBackground
+(
+)
+;
 }
 Override
 public
@@ -1954,6 +1960,12 @@ GeckoApp
 "
 restart
 "
+)
+;
+GeckoAppShell
+.
+putChildInForeground
+(
 )
 ;
 super
