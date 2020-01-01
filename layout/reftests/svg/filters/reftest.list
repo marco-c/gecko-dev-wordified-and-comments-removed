@@ -318,9 +318,13 @@ feGaussianBlur
 6
 .
 svg
-about
-:
-blank
+feGaussianBlur
+-
+6
+-
+ref
+.
+svg
 =
 =
 feImage
