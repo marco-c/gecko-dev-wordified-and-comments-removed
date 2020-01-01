@@ -18987,6 +18987,15 @@ null
 return
 true
 ;
+if
+(
+autoHideTabs
+(
+)
+)
+return
+true
+;
 GeckoAppShell
 .
 sendEventToGecko
