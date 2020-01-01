@@ -1283,7 +1283,7 @@ array
 >
 Item
 (
-3
+5
 )
 .
 GetFloatValue
@@ -1299,7 +1299,7 @@ array
 >
 Item
 (
-4
+3
 )
 .
 GetFloatValue
@@ -1315,7 +1315,7 @@ array
 >
 Item
 (
-5
+4
 )
 .
 GetFloatValue
