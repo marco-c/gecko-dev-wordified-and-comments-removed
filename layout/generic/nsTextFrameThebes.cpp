@@ -29682,7 +29682,7 @@ TEXT_HYPHEN_BREAK
 )
 {
 return
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

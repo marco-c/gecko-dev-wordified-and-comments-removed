@@ -15501,7 +15501,7 @@ aContext
 const
 {
 return
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
@@ -15558,7 +15558,7 @@ mAppearance
 )
 {
 return
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;

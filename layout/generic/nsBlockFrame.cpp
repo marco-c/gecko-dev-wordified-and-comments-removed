@@ -4119,7 +4119,7 @@ HasTextDecorations
 )
 )
 return
-GetOverflowRect
+GetVisualOverflowRect
 (
 )
 ;
