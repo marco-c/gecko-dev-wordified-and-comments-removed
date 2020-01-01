@@ -636,6 +636,10 @@ browser_httphash5
 .
 js
 \
+browser_httphash6
+.
+js
+\
 browser_badargs
 .
 js
@@ -743,6 +747,10 @@ sjs
 bug540558
 .
 html
+\
+redirect
+.
+sjs
 \
 (
 NULL
