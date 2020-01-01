@@ -866,7 +866,7 @@ JSTreeContext
 *
 parent
 ;
-uintN
+uint16
 staticLevel
 ;
 JSFunctionBox

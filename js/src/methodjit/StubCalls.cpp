@@ -7816,7 +7816,7 @@ sp
 0
 ]
 =
-js_GetUpvar
+GetUpvar
 (
 f
 .

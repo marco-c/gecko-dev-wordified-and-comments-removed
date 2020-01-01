@@ -202,10 +202,6 @@ blockChain
 uint32
 flags
 ;
-JSStackFrame
-*
-displaySave
-;
 void
 *
 hookData
@@ -1254,7 +1250,6 @@ jsid
 idp
 )
 ;
-}
 extern
 const
 js
@@ -1262,13 +1257,13 @@ js
 :
 Value
 &
-js_GetUpvar
+GetUpvar
 (
 JSContext
 *
 cx
-uintN
-level
+uint16
+closureLevel
 js
 :
 :
@@ -1276,6 +1271,7 @@ UpvarCookie
 cookie
 )
 ;
+}
 #
 ifndef
 JS_LONE_INTERPRET

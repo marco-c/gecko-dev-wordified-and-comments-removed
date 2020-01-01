@@ -3136,7 +3136,7 @@ SetStaticLevel
 JSTreeContext
 *
 tc
-uintN
+uint16
 staticLevel
 )
 {
@@ -3220,7 +3220,7 @@ lineno
 JSString
 *
 source
-unsigned
+uint16
 staticLevel
 )
 {
