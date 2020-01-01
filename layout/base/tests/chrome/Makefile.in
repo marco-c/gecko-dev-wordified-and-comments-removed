@@ -181,6 +181,10 @@ printpreview_helper
 .
 xul
 \
+animated
+.
+gif
+\
 test_printpreview_bug396024
 .
 xul
