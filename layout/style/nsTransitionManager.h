@@ -105,7 +105,8 @@ aNewStyleContext
 )
 ;
 NS_DECL_ISUPPORTS
-NS_IMETHOD
+virtual
+void
 RulesMatching
 (
 ElementRuleProcessorData
@@ -113,7 +114,8 @@ ElementRuleProcessorData
 aData
 )
 ;
-NS_IMETHOD
+virtual
+void
 RulesMatching
 (
 PseudoElementRuleProcessorData
@@ -121,7 +123,8 @@ PseudoElementRuleProcessorData
 aData
 )
 ;
-NS_IMETHOD
+virtual
+void
 RulesMatching
 (
 AnonBoxRuleProcessorData
@@ -132,7 +135,8 @@ aData
 #
 ifdef
 MOZ_XUL
-NS_IMETHOD
+virtual
+void
 RulesMatching
 (
 XULTreeRuleProcessorData
@@ -169,15 +173,13 @@ AttributeRuleProcessorData
 aData
 )
 ;
-NS_IMETHOD
+virtual
+PRBool
 MediumFeaturesChanged
 (
 nsPresContext
 *
 aPresContext
-PRBool
-*
-aRulesChanged
 )
 ;
 virtual
@@ -268,7 +270,7 @@ TransitionsRemoved
 (
 )
 ;
-nsresult
+void
 WalkTransitionRule
 (
 RuleProcessorData

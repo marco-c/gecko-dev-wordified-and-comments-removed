@@ -5499,8 +5499,6 @@ aClosure
 PRBool
 thisChanged
 =
-PR_FALSE
-;
 ruleProcessor
 -
 >
@@ -5510,8 +5508,6 @@ data
 -
 >
 mPresContext
-&
-thisChanged
 )
 ;
 *

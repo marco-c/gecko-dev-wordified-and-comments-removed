@@ -5917,16 +5917,12 @@ continue
 PRBool
 thisChanged
 =
-PR_FALSE
-;
 processor
 -
 >
 MediumFeaturesChanged
 (
 aPresContext
-&
-thisChanged
 )
 ;
 stylesChanged
