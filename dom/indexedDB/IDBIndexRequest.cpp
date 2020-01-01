@@ -716,6 +716,16 @@ aIndexInfo
 >
 unique
 ;
+index
+-
+>
+mAutoIncrement
+=
+aIndexInfo
+-
+>
+autoIncrement
+;
 return
 index
 .

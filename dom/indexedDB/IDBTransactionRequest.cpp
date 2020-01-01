@@ -1425,7 +1425,7 @@ ai_object_data_id
 "
 "
 FROM
-unique_ai_index_data
+ai_unique_index_data
 "
 "
 WHERE
@@ -1572,15 +1572,15 @@ ai_object_data
 "
 INNER
 JOIN
-unique_ai_index_data
+ai_unique_index_data
 "
 "
 ON
-object_data
+ai_object_data
 .
 id
 =
-unique_ai_index_data
+ai_unique_index_data
 .
 ai_object_data_id
 "
@@ -1619,7 +1619,7 @@ ai_index_data
 "
 "
 ON
-object_data
+ai_object_data
 .
 id
 =

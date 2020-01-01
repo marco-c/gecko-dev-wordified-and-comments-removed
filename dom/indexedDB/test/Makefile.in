@@ -463,6 +463,10 @@ test_cursors
 .
 html
 \
+test_cursor_update_updates_indexes
+.
+html
+\
 test_event_source
 .
 html
