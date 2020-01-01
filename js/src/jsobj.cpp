@@ -9052,6 +9052,11 @@ cx
 ops
 clasp
 obj
+js_GenerateShape
+(
+cx
+false
+)
 )
 ;
 if
