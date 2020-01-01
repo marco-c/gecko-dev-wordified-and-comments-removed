@@ -285,7 +285,7 @@ window
 addEventListener
 (
 '
-MozAppbarDismiss
+MozAppbarDismissing
 '
 this
 )
@@ -330,7 +330,7 @@ window
 removeEventListener
 (
 '
-MozAppbarDismiss
+MozAppbarDismissing
 '
 this
 )
@@ -641,7 +641,7 @@ MozContextUIShow
 :
 case
 '
-MozAppbarDismiss
+MozAppbarDismissing
 '
 :
 case

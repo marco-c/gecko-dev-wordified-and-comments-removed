@@ -1052,7 +1052,7 @@ window
 addEventListener
 (
 "
-MozContextUIExpand
+MozContextUITabsShow
 "
 this
 true
@@ -1078,7 +1078,7 @@ window
 removeEventListener
 (
 "
-MozContextUIExpand
+MozContextUITabsShow
 "
 this
 true
@@ -1125,7 +1125,7 @@ type
 {
 case
 "
-MozContextUIExpand
+MozContextUITabsShow
 "
 :
 this
