@@ -8245,7 +8245,7 @@ visible
 &
 htmlElement
 .
-offsetHeight
+clientHeight
 <
 htmlElement
 .
@@ -8272,7 +8272,7 @@ visible
 &
 htmlElement
 .
-offsetWidth
+clientWidth
 <
 htmlElement
 .
