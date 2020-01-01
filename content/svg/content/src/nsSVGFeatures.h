@@ -26,6 +26,9 @@ static
 PRBool
 HaveFeature
 (
+nsISupports
+*
+aObject
 const
 nsAString
 &
@@ -74,6 +77,9 @@ static
 PRBool
 HaveFeatures
 (
+nsISupports
+*
+aObject
 const
 nsSubstring
 &
