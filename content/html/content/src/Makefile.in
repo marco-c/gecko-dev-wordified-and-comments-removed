@@ -218,6 +218,10 @@ HTMLOptGroupElement
 .
 h
 \
+HTMLOutputElement
+.
+h
+\
 HTMLParagraphElement
 .
 h
@@ -456,7 +460,7 @@ HTMLOptGroupElement
 .
 cpp
 \
-nsHTMLOutputElement
+HTMLOutputElement
 .
 cpp
 \
