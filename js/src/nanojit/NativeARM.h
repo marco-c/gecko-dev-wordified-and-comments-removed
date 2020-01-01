@@ -1,9 +1,9 @@
 #
 ifndef
-__nanojit_NativeArm__
+__nanojit_NativeARM__
 #
 define
-__nanojit_NativeArm__
+__nanojit_NativeARM__
 #
 ifdef
 PERFM
