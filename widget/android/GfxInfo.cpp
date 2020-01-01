@@ -1588,6 +1588,16 @@ Equals
 ventana
 "
 )
+|
+|
+cHardware
+.
+Equals
+(
+"
+rk30board
+"
+)
 )
 {
 *
