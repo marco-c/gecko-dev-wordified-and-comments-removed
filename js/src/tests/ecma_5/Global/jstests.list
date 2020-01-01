@@ -17,6 +17,15 @@ ecma_5
 /
 Global
 /
+fails
+-
+if
+(
+!
+xulRuntime
+.
+shell
+)
 script
 adding
 -

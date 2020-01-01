@@ -99,7 +99,7 @@ catch
 e
 )
 {
-assertEq
+reportCompare
 (
 e
 instanceof
