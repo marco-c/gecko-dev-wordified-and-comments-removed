@@ -798,9 +798,9 @@ HSZ
 hsz2
 HDDEDATA
 hdata
-ULONG
+ULONG_PTR
 dwData1
-ULONG
+ULONG_PTR
 dwData2
 )
 ;
@@ -1763,7 +1763,7 @@ NS_OK
 ;
 }
 static
-long
+LRESULT
 CALLBACK
 WindowProc
 (
@@ -3029,9 +3029,9 @@ HSZ
 hsz2
 HDDEDATA
 hdata
-ULONG
+ULONG_PTR
 dwData1
-ULONG
+ULONG_PTR
 dwData2
 )
 {
