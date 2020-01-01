@@ -267,6 +267,10 @@ HTMLBodyElement
 .
 webidl
 \
+HTMLBRElement
+.
+webidl
+\
 HTMLCollection
 .
 webidl
