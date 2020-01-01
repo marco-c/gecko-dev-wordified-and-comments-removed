@@ -15,13 +15,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 nsDOMClassInfo
 .
 h
