@@ -6185,6 +6185,12 @@ defined
 (
 __OpenBSD__
 )
+|
+|
+defined
+(
+__FreeBSD__
+)
 "
 /
 usr
