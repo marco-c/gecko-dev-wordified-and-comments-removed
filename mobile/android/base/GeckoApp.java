@@ -8461,6 +8461,7 @@ GeckoAppShell
 .
 loadMozGlue
 (
+this
 )
 ;
 if
