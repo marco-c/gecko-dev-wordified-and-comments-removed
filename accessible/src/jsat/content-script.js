@@ -1253,6 +1253,12 @@ scroll
 content
 .
 innerHeight
+*
+page
++
+content
+.
+scrollY
 )
 ;
 return
@@ -1309,7 +1315,12 @@ scroll
 content
 .
 innerWidth
-0
+*
+page
++
+content
+.
+scrollX
 )
 ;
 return
