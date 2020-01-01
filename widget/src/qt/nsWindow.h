@@ -1305,6 +1305,9 @@ mask
 PRInt32
 mQCursor
 ;
+QRegion
+mDirtyScrollArea
+;
 }
 ;
 class
