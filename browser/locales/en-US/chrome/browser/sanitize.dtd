@@ -359,7 +359,9 @@ itemHistoryAndDownloads
 label
 "
 Browsing
-and
+&
+amp
+;
 Download
 History
 "
