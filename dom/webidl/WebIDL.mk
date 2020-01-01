@@ -409,6 +409,10 @@ Geolocation
 .
 webidl
 \
+History
+.
+webidl
+\
 HTMLAnchorElement
 .
 webidl
