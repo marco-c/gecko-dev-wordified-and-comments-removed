@@ -12898,8 +12898,6 @@ style
 aCanStoreInRuleTree
 SETDSC_ENUMERATED
 |
-SETDSC_NORMAL
-|
 SETDSC_SYSTEM_FONT
 aParentFont
 -
@@ -12913,7 +12911,7 @@ defaultVariableFont
 style
 0
 0
-NS_STYLE_FONT_STYLE_NORMAL
+0
 systemFont
 .
 style
@@ -12933,8 +12931,6 @@ variant
 aCanStoreInRuleTree
 SETDSC_ENUMERATED
 |
-SETDSC_NORMAL
-|
 SETDSC_SYSTEM_FONT
 aParentFont
 -
@@ -12948,7 +12944,7 @@ defaultVariableFont
 variant
 0
 0
-NS_STYLE_FONT_VARIANT_NORMAL
+0
 systemFont
 .
 variant
@@ -18566,14 +18562,12 @@ display
 mOverflowX
 canStoreInRuleTree
 SETDSC_ENUMERATED
-|
-SETDSC_AUTO
 parentDisplay
 -
 >
 mOverflowX
 NS_STYLE_OVERFLOW_VISIBLE
-NS_STYLE_OVERFLOW_AUTO
+0
 0
 0
 0
@@ -18590,14 +18584,12 @@ display
 mOverflowY
 canStoreInRuleTree
 SETDSC_ENUMERATED
-|
-SETDSC_AUTO
 parentDisplay
 -
 >
 mOverflowY
 NS_STYLE_OVERFLOW_VISIBLE
-NS_STYLE_OVERFLOW_AUTO
+0
 0
 0
 0

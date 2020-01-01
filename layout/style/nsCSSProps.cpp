@@ -3049,6 +3049,8 @@ kFontStyleKTable
 ]
 =
 {
+eCSSKeyword_normal
+NS_STYLE_FONT_STYLE_NORMAL
 eCSSKeyword_italic
 NS_STYLE_FONT_STYLE_ITALIC
 eCSSKeyword_oblique
@@ -3068,6 +3070,8 @@ kFontVariantKTable
 ]
 =
 {
+eCSSKeyword_normal
+NS_STYLE_FONT_VARIANT_NORMAL
 eCSSKeyword_small_caps
 NS_STYLE_FONT_VARIANT_SMALL_CAPS
 eCSSKeyword_UNKNOWN
@@ -3337,6 +3341,8 @@ kOverflowKTable
 ]
 =
 {
+eCSSKeyword_auto
+NS_STYLE_OVERFLOW_AUTO
 eCSSKeyword_visible
 NS_STYLE_OVERFLOW_VISIBLE
 eCSSKeyword_hidden
@@ -3366,6 +3372,8 @@ kOverflowSubKTable
 ]
 =
 {
+eCSSKeyword_auto
+NS_STYLE_OVERFLOW_AUTO
 eCSSKeyword_visible
 NS_STYLE_OVERFLOW_VISIBLE
 eCSSKeyword_hidden
