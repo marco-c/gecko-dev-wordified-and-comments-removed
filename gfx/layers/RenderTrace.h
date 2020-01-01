@@ -1,8 +1,8 @@
 #
-ifndef
-GFX_RENDERTRACE_H
-#
 define
+MOZ_RENDERTRACE
+#
+ifndef
 GFX_RENDERTRACE_H
 #
 include
@@ -37,6 +37,7 @@ const
 char
 *
 aColor
+const
 gfx3DMatrix
 aRootTransform
 =
@@ -59,6 +60,7 @@ const
 char
 *
 aColor
+const
 nsIntRect
 aRect
 )
@@ -89,6 +91,7 @@ const
 char
 *
 aColor
+const
 gfx3DMatrix
 aRootTransform
 bool
@@ -107,6 +110,7 @@ const
 char
 *
 aColor
+const
 nsIntRect
 aRect
 )

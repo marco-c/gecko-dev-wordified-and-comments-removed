@@ -2984,7 +2984,7 @@ RenderTraceInvalidateStart
 (
 this
 "
-FF00
+FFFF00
 "
 toDraw
 .
@@ -3193,7 +3193,7 @@ RenderTraceInvalidateEnd
 (
 this
 "
-FF00
+FFFF00
 "
 )
 ;
@@ -3309,7 +3309,7 @@ RenderTraceInvalidateStart
 (
 this
 "
-FF00
+FFFF00
 "
 state
 .
@@ -3347,7 +3347,7 @@ RenderTraceInvalidateEnd
 (
 this
 "
-FF00
+FFFF00
 "
 )
 ;
