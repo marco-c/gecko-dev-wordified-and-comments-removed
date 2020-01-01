@@ -5765,7 +5765,7 @@ rv
 )
 )
 {
-int64_t
+PRTime
 fileLastMod
 ;
 rv

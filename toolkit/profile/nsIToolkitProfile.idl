@@ -274,7 +274,7 @@ time
 /
 readonly
 attribute
-int64_t
+PRTime
 replacedLockTime
 ;
 /

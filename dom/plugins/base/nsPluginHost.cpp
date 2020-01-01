@@ -9009,7 +9009,7 @@ nsIFile
 localfile
 )
 {
-int64_t
+PRTime
 fileModTime
 =
 LL_ZERO

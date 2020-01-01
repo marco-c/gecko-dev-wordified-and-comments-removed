@@ -3237,7 +3237,7 @@ nsXULAppInfo
 :
 GetReplacedLockTime
 (
-int64_t
+PRTime
 *
 aReplacedLockTime
 )

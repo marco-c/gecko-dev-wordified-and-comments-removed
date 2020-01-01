@@ -1341,11 +1341,11 @@ GMT
 *
 /
 attribute
-int64_t
+PRTime
 lastModifiedTime
 ;
 attribute
-int64_t
+PRTime
 lastModifiedTimeOfLink
 ;
 /
