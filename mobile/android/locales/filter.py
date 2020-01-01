@@ -28,7 +28,7 @@ copy
 in
 mobile
 /
-android
+locales
 .
 "
 "

@@ -29,6 +29,8 @@ in
 mobile
 /
 android
+/
+locales
 .
 "
 "
