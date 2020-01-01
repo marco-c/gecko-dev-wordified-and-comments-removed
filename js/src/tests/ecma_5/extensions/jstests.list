@@ -172,6 +172,12 @@ evaluate
 (
 )
 script
+function
+-
+properties
+.
+js
+script
 iterator
 -
 in
