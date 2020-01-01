@@ -1830,7 +1830,12 @@ METHOD_BARRIER
 )
 ;
 }
-bool
+const
+js
+:
+:
+Shape
+*
 methodReadBarrier
 (
 JSContext
