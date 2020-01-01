@@ -2491,6 +2491,13 @@ JS_BIT
 (
 10
 )
+#
+define
+JSOPTION_JIT
+JS_BIT
+(
+11
+)
 extern
 JS_PUBLIC_API
 (

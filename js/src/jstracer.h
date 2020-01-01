@@ -505,7 +505,11 @@ recorder
 #
 define
 ENABLE_TRACER
-true
+JS_HAS_OPTION
+(
+cx
+JSOPTION_JIT
+)
 #
 define
 TRACE_TRIGGER_MASK
