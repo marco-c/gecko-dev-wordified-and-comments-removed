@@ -360,7 +360,10 @@ N
 RangedPtr
 (
 T
+(
+&
 arr
+)
 [
 N
 ]
