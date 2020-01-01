@@ -3300,6 +3300,13 @@ NS_OK
 ;
 }
 }
+mDataConnection
+-
+>
+Destroy
+(
+)
+;
 }
 mDataConnection
 =
