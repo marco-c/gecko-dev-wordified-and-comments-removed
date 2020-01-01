@@ -1,13 +1,6 @@
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jsbit
 .
 h
@@ -330,7 +323,7 @@ JSInlineFrame
 #
 define
 MAX_BRANCHES
-16
+32
 #
 ifdef
 JS_JIT_SPEW
