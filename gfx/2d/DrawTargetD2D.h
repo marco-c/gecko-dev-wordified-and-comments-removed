@@ -1025,6 +1025,12 @@ mRT
 ;
 RefPtr
 <
+IDWriteRenderingParams
+>
+mTextRenderingParams
+;
+RefPtr
+<
 ID3D10Texture2D
 >
 mTempTexture
