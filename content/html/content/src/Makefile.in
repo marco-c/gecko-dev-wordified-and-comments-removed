@@ -115,6 +115,10 @@ NULL
 CPPSRCS
 =
 \
+HTMLPropertiesCollection
+.
+cpp
+\
 nsClientRect
 .
 cpp

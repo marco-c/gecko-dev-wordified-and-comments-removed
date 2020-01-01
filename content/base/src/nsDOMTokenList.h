@@ -78,13 +78,6 @@ return
 mElement
 ;
 }
-protected
-:
-~
-nsDOMTokenList
-(
-)
-;
 const
 nsAttrValue
 *
@@ -115,6 +108,13 @@ mAttrAtom
 mValue
 ;
 }
+protected
+:
+~
+nsDOMTokenList
+(
+)
+;
 nsresult
 CheckToken
 (

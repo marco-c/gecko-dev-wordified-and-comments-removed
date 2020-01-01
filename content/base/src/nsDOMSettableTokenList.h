@@ -69,8 +69,6 @@ bool
 triedToWrap
 )
 ;
-protected
-:
 virtual
 ~
 nsDOMSettableTokenList
