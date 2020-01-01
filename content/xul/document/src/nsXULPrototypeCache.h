@@ -344,6 +344,13 @@ sInstance
 )
 ;
 }
+void
+MarkInCCGeneration
+(
+PRUint32
+aGeneration
+)
+;
 protected
 :
 friend
