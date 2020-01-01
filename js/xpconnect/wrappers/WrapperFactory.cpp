@@ -1274,7 +1274,7 @@ else
 typedef
 XrayWrapper
 <
-CrossCompartmentSecurityWrapper
+CrossCompartmentWrapper
 >
 Xray
 ;
