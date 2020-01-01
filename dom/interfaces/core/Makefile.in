@@ -538,10 +538,6 @@ nsIDOMUserDataHandler
 .
 idl
 \
-nsIDOMDOMConfiguration
-.
-idl
-\
 nsIDOMNSEditableElement
 .
 idl
