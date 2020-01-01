@@ -1,3 +1,7 @@
+enableOsiPointRegisterChecks
+(
+)
+;
 gczeal
 (
 4

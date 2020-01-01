@@ -1,3 +1,7 @@
+enableOsiPointRegisterChecks
+(
+)
+;
 function
 DiagModule
 (
