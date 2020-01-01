@@ -716,7 +716,7 @@ cdir_entry
 )
 (
 (
-void
+char
 *
 )
 entry
@@ -1160,6 +1160,11 @@ written
 write
 (
 fd
+(
+const
+char
+*
+)
 buf
 +
 out_offset
@@ -2237,6 +2242,10 @@ local_file_header
 *
 )
 (
+(
+char
+*
+)
 zip
 +
 letoh32
@@ -2254,7 +2263,7 @@ data
 =
 (
 (
-void
+char
 *
 )
 &
@@ -3210,6 +3219,10 @@ local_file_header
 *
 )
 (
+(
+char
+*
+)
 zip
 +
 letoh32
@@ -3227,7 +3240,7 @@ data
 =
 (
 (
-void
+char
 *
 )
 &
@@ -3569,6 +3582,10 @@ cdir_end
 *
 )
 (
+(
+char
+*
+)
 zip
 +
 zip_size
@@ -3611,7 +3628,7 @@ cdir_end
 )
 (
 (
-void
+char
 *
 )
 dirend
@@ -3688,6 +3705,10 @@ cdir_entry
 *
 )
 (
+(
+char
+*
+)
 zip
 +
 cdir_offset
