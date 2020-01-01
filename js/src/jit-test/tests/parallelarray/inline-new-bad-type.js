@@ -71,7 +71,7 @@ else
 {
 throw
 new
-RangeError
+TypeError
 (
 )
 ;

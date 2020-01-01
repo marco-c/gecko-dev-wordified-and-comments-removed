@@ -6170,6 +6170,16 @@ selfhosting_srcs
 srcdir
 )
 /
+builtin
+/
+ParallelArrayCommonOps
+.
+js
+\
+(
+srcdir
+)
+/
 js
 .
 msg
