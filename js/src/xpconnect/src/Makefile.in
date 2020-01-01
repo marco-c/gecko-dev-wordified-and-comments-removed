@@ -817,7 +817,7 @@ ifdef
 WINCE
 MOZ_OPTIMIZE_FLAGS
 =
-/
+-
 Od
 endif
 ifeq
