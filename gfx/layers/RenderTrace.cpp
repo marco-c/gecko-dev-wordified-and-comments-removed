@@ -191,7 +191,7 @@ Name
 (
 )
 "
-ContainerLayerComposite
+ShadowContainerLayer
 "
 )
 !

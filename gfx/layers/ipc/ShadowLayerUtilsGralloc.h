@@ -147,7 +147,7 @@ ShadowLayerForwarder
 ;
 friend
 class
-LayerManagerComposite
+ShadowLayerManager
 ;
 friend
 class
