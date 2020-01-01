@@ -5644,6 +5644,15 @@ mInvalidationList
 idx
 ]
 ;
+if
+(
+!
+HasAccessible
+(
+content
+)
+)
+{
 nsAccessible
 *
 container
@@ -5660,6 +5669,7 @@ UpdateChildren
 (
 )
 ;
+}
 }
 mInvalidationList
 .
