@@ -1312,6 +1312,12 @@ nsIScriptContext
 NS_ENSURE_ARG
 (
 aEventType
+|
+|
+!
+NS_IsMainThread
+(
+)
 )
 ;
 nsJSEventListener
