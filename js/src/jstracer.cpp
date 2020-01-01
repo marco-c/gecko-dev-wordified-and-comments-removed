@@ -25466,6 +25466,14 @@ regs
 >
 pc
 ;
+fp
+-
+>
+flags
+|
+=
+JSFRAME_IMACRO_START
+;
 regs
 -
 >
@@ -26826,6 +26834,7 @@ negate
 ;
 }
 else
+{
 if
 (
 !
@@ -26841,7 +26850,6 @@ JSVAL_IS_STRING
 r
 )
 )
-{
 ABORT_TRACE
 (
 "
@@ -26854,9 +26862,6 @@ string
 "
 )
 ;
-}
-else
-{
 LIns
 *
 args
