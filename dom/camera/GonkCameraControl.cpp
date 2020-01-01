@@ -1955,6 +1955,7 @@ preview
 new
 GonkCameraPreview
 (
+mCameraThread
 mHwHandle
 aGetPreviewStream
 -
