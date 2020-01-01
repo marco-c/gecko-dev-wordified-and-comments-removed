@@ -246,13 +246,6 @@ h
 #
 include
 "
-nsDocShellCID
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
@@ -1792,7 +1785,7 @@ printf
 Attaching
 to
 Content
-WebShell
+DocShell
 [
 %
 s

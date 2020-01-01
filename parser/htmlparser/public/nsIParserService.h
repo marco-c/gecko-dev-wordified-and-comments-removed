@@ -115,7 +115,7 @@ nsIParser
 aParser
 nsISupports
 *
-aWebShell
+aDocShell
 const
 PRUint32
 aFlags

@@ -528,10 +528,6 @@ NULL
 XPIDLSRCS
 =
 \
-nsCDocShell
-.
-idl
-\
 nsCDefaultURIFixup
 .
 idl
@@ -640,10 +636,6 @@ CPPSRCS
 =
 \
 nsDocShell
-.
-cpp
-\
-nsWebShell
 .
 cpp
 \

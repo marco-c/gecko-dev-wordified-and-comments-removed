@@ -427,7 +427,7 @@ Notify
 (
 nsISupports
 *
-aWebShell
+aDocShell
 nsISupports
 *
 aChannel
@@ -499,7 +499,7 @@ result
 =
 Notify
 (
-aWebShell
+aDocShell
 aChannel
 keys
 values
@@ -559,7 +559,7 @@ Notify
 (
 nsISupports
 *
-aWebShell
+aDocShell
 nsISupports
 *
 aChannel
@@ -1647,9 +1647,9 @@ UTF
 {
 res
 =
-NotifyWebShell
+NotifyDocShell
 (
-aWebShell
+aDocShell
 aChannel
 preferred
 .
@@ -1703,9 +1703,9 @@ IsEmpty
 {
 res
 =
-NotifyWebShell
+NotifyDocShell
 (
-aWebShell
+aDocShell
 aChannel
 NS_ConvertUTF16toUTF8
 (
