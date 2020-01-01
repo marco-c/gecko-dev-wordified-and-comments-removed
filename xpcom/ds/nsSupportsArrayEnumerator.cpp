@@ -321,6 +321,9 @@ PRInt32
 cnt
 )
 ?
+(
+nsresult
+)
 NS_ENUMERATOR_FALSE
 :
 NS_OK

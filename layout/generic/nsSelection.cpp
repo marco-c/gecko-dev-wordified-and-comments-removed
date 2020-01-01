@@ -1641,6 +1641,9 @@ cnt
 )
 {
 return
+(
+nsresult
+)
 NS_ENUMERATOR_FALSE
 ;
 }
