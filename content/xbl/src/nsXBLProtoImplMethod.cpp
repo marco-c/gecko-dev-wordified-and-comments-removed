@@ -1380,8 +1380,9 @@ rv
 nsCxPusher
 pusher
 ;
-NS_ENSURE_STATE
+if
 (
+!
 pusher
 .
 Push
@@ -1389,6 +1390,8 @@ Push
 aBoundElement
 )
 )
+return
+NS_ERROR_UNEXPECTED
 ;
 MOZ_ASSERT
 (
