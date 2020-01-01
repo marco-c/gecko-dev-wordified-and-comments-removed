@@ -26,6 +26,13 @@ nsHyperTextAccessible
 .
 h
 "
+#
+include
+"
+nsIPersistentProperties2
+.
+h
+"
 STDMETHODIMP
 CAccessibleText
 :

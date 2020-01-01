@@ -237,7 +237,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
@@ -390,9 +390,9 @@ reportErrorNumber
 ParseNode
 *
 pn
-uintN
+unsigned
 flags
-uintN
+unsigned
 errorNumber
 .
 .
@@ -864,7 +864,7 @@ comprehensionTail
 ParseNode
 *
 kid
-uintN
+unsigned
 blockid
 bool
 isGenexp
@@ -1079,9 +1079,9 @@ reportErrorNumber
 ParseNode
 *
 pn
-uintN
+unsigned
 flags
-uintN
+unsigned
 errorNumber
 .
 .
@@ -1139,7 +1139,7 @@ pn
 JSAtom
 *
 atom
-uintN
+unsigned
 i
 TreeContext
 *

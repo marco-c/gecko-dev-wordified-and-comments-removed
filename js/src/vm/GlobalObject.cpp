@@ -204,7 +204,7 @@ ThrowTypeError
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1394,7 +1394,6 @@ CellIter
 i
 (
 cx
-cx
 -
 >
 compartment
@@ -1578,7 +1577,7 @@ clasp
 JSAtom
 *
 name
-uintN
+unsigned
 length
 gc
 :

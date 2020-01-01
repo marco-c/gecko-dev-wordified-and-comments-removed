@@ -668,7 +668,7 @@ flags
 void
 *
 ncode
-uintN
+unsigned
 nactual
 )
 {
@@ -774,7 +774,7 @@ StackFrame
 :
 canonicalActualArg
 (
-uintN
+unsigned
 i
 )
 const
@@ -825,13 +825,13 @@ forEachCanonicalActualArg
 (
 Op
 op
-uintN
+unsigned
 start
-uintN
+unsigned
 count
 )
 {
-uintN
+unsigned
 nformal
 =
 fun
@@ -859,7 +859,7 @@ formalArgsEnd
 -
 nformal
 ;
-uintN
+unsigned
 nactual
 =
 numActualArgs
@@ -871,7 +871,7 @@ if
 count
 =
 =
-uintN
+unsigned
 (
 -
 1
@@ -883,7 +883,7 @@ nactual
 -
 start
 ;
-uintN
+unsigned
 end
 =
 start
@@ -1087,7 +1087,7 @@ formalArgsEnd
 (
 )
 ;
-uintN
+unsigned
 i
 =
 0
@@ -1155,7 +1155,7 @@ operator
 (
 )
 (
-uintN
+unsigned
 Value
 *
 src
@@ -1176,7 +1176,7 @@ true
 }
 ;
 inline
-uintN
+unsigned
 StackFrame
 :
 :
@@ -2047,7 +2047,7 @@ regs
 (
 )
 ;
-uintN
+unsigned
 nvals
 =
 regs
@@ -2124,7 +2124,7 @@ script
 script
 )
 ;
-uintN
+unsigned
 nformal
 =
 fun
@@ -2156,7 +2156,7 @@ firstUnused
 )
 )
 ;
-uintN
+unsigned
 nvals
 =
 VALUES_PER_STACK_FRAME
@@ -2240,7 +2240,7 @@ StackFrame
 UNDERFLOW_ARGS
 )
 ;
-uintN
+unsigned
 nmissing
 =
 nformal
@@ -2307,7 +2307,7 @@ StackFrame
 OVERFLOW_ARGS
 )
 ;
-uintN
+unsigned
 ncopy
 =
 2

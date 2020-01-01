@@ -2576,7 +2576,7 @@ fused
 bool
 iter
 (
-uintN
+unsigned
 flags
 )
 ;

@@ -1940,7 +1940,7 @@ wrapper
 )
 )
 ;
-uintN
+unsigned
 flags
 ;
 JSObject

@@ -429,7 +429,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -473,7 +473,7 @@ NPObjWrapper_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -487,7 +487,7 @@ NPObjWrapper_Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -607,7 +607,7 @@ NPObjectMember_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -638,6 +638,8 @@ Member
 class
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -5643,7 +5645,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -6277,7 +6279,7 @@ CallNPMethod
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6714,7 +6716,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -7200,7 +7202,7 @@ NPObjWrapper_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -7237,7 +7239,7 @@ NPObjWrapper_Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -9078,7 +9080,7 @@ NPObjectMember_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

@@ -381,7 +381,7 @@ pc
 )
 ;
 }
-uintN
+unsigned
 index
 ;
 BindingKind
@@ -534,7 +534,7 @@ tla
 .
 newArray
 <
-JSPackedBool
+bool
 >
 (
 numSlots

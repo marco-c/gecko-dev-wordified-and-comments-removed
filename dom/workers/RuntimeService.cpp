@@ -1463,7 +1463,7 @@ JSObject
 aObj
 jsid
 aId
-uintN
+unsigned
 aFlags
 JSObject
 *

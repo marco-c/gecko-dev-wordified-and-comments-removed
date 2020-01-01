@@ -43,13 +43,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsgcmark
 .
 h
@@ -583,7 +576,7 @@ WeakMap_has
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -748,7 +741,7 @@ WeakMap_get
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -927,7 +920,7 @@ WeakMap_delete
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1100,7 +1093,7 @@ WeakMap_set
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1653,7 +1646,7 @@ WeakMap_construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

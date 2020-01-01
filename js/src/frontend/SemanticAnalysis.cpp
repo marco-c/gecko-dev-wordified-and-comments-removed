@@ -226,7 +226,7 @@ siblings
 }
 }
 static
-uintN
+unsigned
 FindFunArgs
 (
 FunctionBox
@@ -239,7 +239,7 @@ FunctionBoxQueue
 queue
 )
 {
-uintN
+unsigned
 allskipmin
 =
 UpvarCookie
@@ -326,7 +326,7 @@ setFunArg
 )
 ;
 }
-uintN
+unsigned
 skipmin
 =
 UpvarCookie
@@ -438,7 +438,7 @@ isFreeVar
 )
 )
 {
-uintN
+unsigned
 upvarLevel
 =
 lexdep
@@ -465,7 +465,7 @@ setFunArg
 (
 )
 ;
-uintN
+unsigned
 skip
 =
 (
@@ -529,7 +529,7 @@ funbox
 kids
 )
 {
-uintN
+unsigned
 kidskipmin
 =
 FindFunArgs
@@ -867,7 +867,7 @@ afunbox
 =
 funbox
 ;
-uintN
+unsigned
 calleeLevel
 =
 lexdep
@@ -879,7 +879,7 @@ level
 (
 )
 ;
-uintN
+unsigned
 staticLevel
 =
 afunbox
@@ -1072,7 +1072,7 @@ afunbox
 =
 funbox
 ;
-uintN
+unsigned
 dnLevel
 =
 dn
@@ -1393,7 +1393,7 @@ uint32_t
 tcflags
 )
 {
-uintN
+unsigned
 dnLevel
 =
 dn

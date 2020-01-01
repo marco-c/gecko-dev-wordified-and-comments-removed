@@ -1691,7 +1691,7 @@ ReadLine
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1878,14 +1878,14 @@ Print
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
 vp
 )
 {
-uintN
+unsigned
 i
 n
 ;
@@ -2018,7 +2018,7 @@ Dump
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2126,7 +2126,7 @@ Load
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2163,7 +2163,7 @@ vp
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -2341,7 +2341,7 @@ Version
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2419,7 +2419,7 @@ BuildDate
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2462,7 +2462,7 @@ Quit
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2505,7 +2505,7 @@ DumpXPC
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2595,7 +2595,7 @@ GC
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2642,7 +2642,7 @@ GCZeal
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2711,7 +2711,7 @@ DumpHeap
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3191,7 +3191,7 @@ Clear
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3273,7 +3273,7 @@ SendCommand
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3449,7 +3449,7 @@ GetChildGlobalObject
 JSContext
 *
 cx
-uintN
+unsigned
 jsval
 *
 vp
@@ -3735,7 +3735,7 @@ Options
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3773,7 +3773,7 @@ vp
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -4013,7 +4013,7 @@ Parent
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -4703,7 +4703,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -4945,7 +4945,7 @@ char
 *
 locale
 const
-uintN
+unsigned
 errorNumber
 )
 {
@@ -7448,7 +7448,7 @@ ContextCallback
 JSContext
 *
 cx
-uintN
+unsigned
 contextOp
 )
 {

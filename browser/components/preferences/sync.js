@@ -740,7 +740,9 @@ browser
 /
 content
 /
-syncSetup
+sync
+/
+setup
 .
 xul
 "
@@ -805,7 +807,9 @@ browser
 /
 content
 /
-syncQuota
+sync
+/
+quota
 .
 xul
 "
@@ -879,7 +883,9 @@ browser
 /
 content
 /
-syncAddDevice
+sync
+/
+addDevice
 .
 xul
 "

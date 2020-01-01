@@ -442,6 +442,11 @@ thread
 "
 )
 ;
+CoInitialize
+(
+NULL
+)
+;
 switch
 (
 mOperation
@@ -470,6 +475,10 @@ Launch
 break
 ;
 }
+CoUninitialize
+(
+)
+;
 nsCOMPtr
 <
 nsIRunnable

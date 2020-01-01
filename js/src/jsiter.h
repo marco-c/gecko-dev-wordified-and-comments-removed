@@ -228,7 +228,7 @@ init
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 uint32_t
 slength
@@ -337,7 +337,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 js
 :
@@ -357,7 +357,7 @@ cx
 JSObject
 *
 obj
-uint32_t
+unsigned
 flags
 )
 ;
@@ -370,7 +370,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 js
 :
@@ -395,7 +395,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 js
 :
@@ -420,7 +420,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 js
 :
@@ -443,7 +443,7 @@ ValueToIterator
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 js
 :

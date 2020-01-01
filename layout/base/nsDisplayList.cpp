@@ -10308,6 +10308,13 @@ other
 mList
 )
 ;
+mFrame
+=
+other
+-
+>
+mFrame
+;
 return
 true
 ;

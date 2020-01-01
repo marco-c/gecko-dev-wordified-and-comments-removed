@@ -2492,7 +2492,7 @@ IDX_TOTAL_COUNT
 jsid
 GetStringID
 (
-uintN
+unsigned
 index
 )
 const
@@ -2520,7 +2520,7 @@ index
 jsval
 GetStringJSVal
 (
-uintN
+unsigned
 index
 )
 const
@@ -2550,7 +2550,7 @@ char
 *
 GetStringName
 (
-uintN
+unsigned
 index
 )
 const
@@ -2610,9 +2610,6 @@ trc
 void
 AddXPConnectRoots
 (
-JSContext
-*
-cx
 nsCycleCollectionTraversalCallback
 &
 cb
@@ -2684,9 +2681,6 @@ static
 void
 SuspectWrappedNative
 (
-JSContext
-*
-cx
 XPCWrappedNative
 *
 wrapper
@@ -3743,7 +3737,7 @@ enum
 NO_ARGS
 =
 (
-uintN
+unsigned
 )
 -
 1
@@ -3775,7 +3769,7 @@ jsid
 id
 =
 JSID_VOID
-uintN
+unsigned
 argc
 =
 NO_ARGS
@@ -4011,7 +4005,7 @@ GetStaticMemberIsLocal
 const
 ;
 inline
-uintN
+unsigned
 GetArgc
 (
 )
@@ -4114,7 +4108,7 @@ name
 void
 SetArgsAndResultPtr
 (
-uintN
+unsigned
 argc
 jsval
 *
@@ -4258,7 +4252,7 @@ WrapperInitOptions
 wrapperInitOptions
 jsid
 name
-uintN
+unsigned
 argc
 jsval
 *
@@ -4406,7 +4400,7 @@ mName
 JSBool
 mStaticMemberIsLocal
 ;
-uintN
+unsigned
 mArgc
 ;
 jsval
@@ -5024,7 +5018,7 @@ XPC_WN_CallMethod
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5038,7 +5032,7 @@ XPC_WN_GetterSetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5855,9 +5849,6 @@ SuspectAllWrappers
 XPCJSRuntime
 *
 rt
-JSContext
-*
-cx
 nsCycleCollectionTraversalCallback
 &
 cb
@@ -6045,9 +6036,6 @@ XPCWrappedNativeScope
 *
 GetNativeScope
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -13099,7 +13087,7 @@ const
 nsXPTType
 &
 type
-uintN
+unsigned
 *
 pErr
 )
@@ -13273,7 +13261,7 @@ ThrowBadParam
 (
 nsresult
 rv
-uintN
+unsigned
 paramNum
 XPCCallContext
 &
@@ -16774,7 +16762,7 @@ GetRTIdByIndex
 JSContext
 *
 cx
-uintN
+unsigned
 index
 )
 ;

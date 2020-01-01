@@ -1036,7 +1036,7 @@ pc
 )
 (
 (
-uintN
+unsigned
 )
 (
 (
@@ -1095,7 +1095,7 @@ define
 UINT16_LIMIT
 (
 (
-uintN
+unsigned
 )
 1
 <
@@ -1814,7 +1814,7 @@ js_CodeSpec
 ]
 ;
 extern
-uintN
+unsigned
 js_NumCodeSpecs
 ;
 extern
@@ -1881,7 +1881,7 @@ name
 JSFunction
 *
 fun
-uintN
+unsigned
 indent
 JSBool
 pretty
@@ -2055,7 +2055,7 @@ namespace
 js
 {
 extern
-uintN
+unsigned
 StackUses
 (
 JSScript
@@ -2067,7 +2067,7 @@ pc
 )
 ;
 extern
-uintN
+unsigned
 StackDefs
 (
 JSScript
@@ -2135,7 +2135,7 @@ name
 JSFunction
 *
 fun
-uintN
+unsigned
 indent
 JSBool
 pretty
@@ -2155,7 +2155,7 @@ js_DecompileValueGenerator
 JSContext
 *
 cx
-intN
+int
 spindex
 jsval
 v
@@ -2165,7 +2165,7 @@ fallback
 )
 ;
 extern
-uintN
+unsigned
 js_ReconstructStackDepth
 (
 JSContext
@@ -2220,7 +2220,7 @@ DecompileValueGenerator
 JSContext
 *
 cx
-intN
+int
 spindex
 const
 Value
@@ -2511,7 +2511,7 @@ pc
 ;
 static
 inline
-uintN
+unsigned
 GetDecomposeLength
 (
 jsbytecode
@@ -2540,7 +2540,7 @@ len
 ;
 return
 (
-uintN
+unsigned
 )
 pc
 [
@@ -2552,7 +2552,7 @@ len
 }
 static
 inline
-uintN
+unsigned
 GetBytecodeLength
 (
 jsbytecode
@@ -3087,7 +3087,7 @@ sp
 extern
 JS_FRIEND_API
 (
-uintN
+unsigned
 )
 js_Disassemble1
 (
@@ -3100,7 +3100,7 @@ script
 jsbytecode
 *
 pc
-uintN
+unsigned
 loc
 JSBool
 lines

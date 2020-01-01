@@ -779,9 +779,6 @@ mallocSizeOf
 void
 sizeOfTypeInferenceData
 (
-JSContext
-*
-cx
 JS
 :
 :
@@ -940,7 +937,7 @@ DebugFromJS
 2
 }
 ;
-uintN
+unsigned
 debugModeBits
 ;
 volatile
@@ -1161,9 +1158,6 @@ releaseTypes
 void
 purge
 (
-JSContext
-*
-cx
 )
 ;
 void
@@ -1333,9 +1327,6 @@ debugModeBits
 bool
 hasScriptsOnStack
 (
-JSContext
-*
-cx
 )
 ;
 private

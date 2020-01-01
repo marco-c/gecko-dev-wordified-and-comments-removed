@@ -812,7 +812,7 @@ Dump
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -936,7 +936,7 @@ Debug
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -969,7 +969,7 @@ Atob
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1015,7 +1015,7 @@ Btoa
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1061,7 +1061,7 @@ File
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

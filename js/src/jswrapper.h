@@ -42,12 +42,12 @@ Wrapper
 public
 ProxyHandler
 {
-uintN
+unsigned
 mFlags
 ;
 public
 :
-uintN
+unsigned
 flags
 (
 )
@@ -60,7 +60,7 @@ mFlags
 explicit
 Wrapper
 (
-uintN
+unsigned
 flags
 )
 ;
@@ -309,7 +309,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 flags
 Value
 *
@@ -327,7 +327,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 Value
 *
@@ -345,7 +345,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 Value
 *
@@ -449,7 +449,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 indent
 )
 MOZ_OVERRIDE
@@ -639,7 +639,7 @@ public
 :
 CrossCompartmentWrapper
 (
-uintN
+unsigned
 flags
 )
 ;
@@ -863,7 +863,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 flags
 Value
 *
@@ -881,7 +881,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 Value
 *
@@ -899,7 +899,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 Value
 *
@@ -975,7 +975,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 indent
 )
 MOZ_OVERRIDE
@@ -1050,7 +1050,7 @@ public
 :
 SecurityWrapper
 (
-uintN
+unsigned
 flags
 )
 ;
@@ -1186,7 +1186,7 @@ wrappedProto
 JSObject
 *
 parent
-uintN
+unsigned
 flags
 )
 ;
@@ -1243,7 +1243,7 @@ bool
 stopAtOuter
 =
 true
-uintN
+unsigned
 *
 flagsp
 =

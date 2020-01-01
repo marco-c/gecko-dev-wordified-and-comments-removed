@@ -224,7 +224,6 @@ CompartmentPrivate
 )
 JS_GetCompartmentPrivate
 (
-cx
 js
 :
 :
@@ -441,7 +440,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 )
 {
@@ -500,7 +499,7 @@ scope
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 )
 {
@@ -1022,7 +1021,7 @@ wrappedProto
 JSObject
 *
 parent
-uintN
+unsigned
 flags
 )
 {
@@ -1134,7 +1133,6 @@ CompartmentPrivate
 (
 JS_GetCompartmentPrivate
 (
-cx
 target
 )
 )

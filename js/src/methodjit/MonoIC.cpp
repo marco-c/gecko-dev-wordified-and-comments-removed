@@ -4225,7 +4225,7 @@ generateNativeStub
 (
 )
 {
-uintN
+unsigned
 initialFrameDepth
 =
 f
@@ -5794,7 +5794,7 @@ BumpStack
 VMFrame
 &
 f
-uintN
+unsigned
 inc
 )
 {
@@ -5954,7 +5954,7 @@ fp
 (
 )
 ;
-uintN
+unsigned
 n
 ;
 if
@@ -6038,7 +6038,7 @@ argsObj
 (
 )
 ;
-uintN
+unsigned
 length
 ;
 if
@@ -6311,7 +6311,7 @@ false
 )
 ;
 }
-intN
+int
 delta
 =
 length

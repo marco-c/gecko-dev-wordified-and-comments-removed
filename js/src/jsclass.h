@@ -652,7 +652,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -680,7 +680,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -707,7 +707,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -734,7 +734,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -961,7 +961,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -982,7 +982,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -1002,7 +1002,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -1022,7 +1022,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )

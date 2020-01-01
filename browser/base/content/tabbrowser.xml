@@ -9788,6 +9788,12 @@ this
 tabs
 .
 length
+-
+this
+.
+_removingTabs
+.
+length
 :
 this
 .
@@ -10444,6 +10450,11 @@ isLastTab
 aTab
 .
 pinned
+|
+|
+aTab
+.
+hidden
 |
 |
 this

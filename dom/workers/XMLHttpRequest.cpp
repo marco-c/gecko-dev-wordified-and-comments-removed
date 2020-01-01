@@ -435,7 +435,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1269,7 +1269,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2214,7 +2214,7 @@ Abort
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2284,7 +2284,7 @@ GetAllResponseHeaders
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2380,7 +2380,7 @@ GetResponseHeader
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2548,7 +2548,7 @@ Open
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2686,7 +2686,7 @@ Send
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2776,7 +2776,7 @@ SendAsBinary
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -2918,7 +2918,7 @@ SetRequestHeader
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -3022,7 +3022,7 @@ OverrideMimeType
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *

@@ -198,7 +198,7 @@ mFieldTextLength
 PRUint32
 mLineNumber
 ;
-uintN
+unsigned
 mJSAttributes
 ;
 }

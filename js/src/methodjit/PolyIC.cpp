@@ -3280,7 +3280,7 @@ numDynamicSlots
 (
 )
 ;
-uintN
+unsigned
 flags
 =
 0

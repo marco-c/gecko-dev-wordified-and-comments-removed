@@ -47,7 +47,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
@@ -84,7 +84,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
@@ -93,7 +93,7 @@ JSString
 source
 =
 NULL
-uintN
+unsigned
 staticLevel
 =
 0

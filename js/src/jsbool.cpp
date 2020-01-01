@@ -183,7 +183,7 @@ bool_toSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -307,7 +307,7 @@ bool_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -384,7 +384,7 @@ bool_valueOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -479,7 +479,7 @@ Boolean
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

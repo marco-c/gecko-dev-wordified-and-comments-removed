@@ -136,13 +136,6 @@ h
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 vm
 /
 GlobalObject
@@ -524,7 +517,7 @@ fun_slice
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -719,7 +712,7 @@ class_constructor
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -1743,7 +1736,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -1820,7 +1813,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -1862,7 +1855,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -1919,7 +1912,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -2614,7 +2607,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -2690,7 +2683,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -2722,7 +2715,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -2769,7 +2762,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -2801,7 +2794,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -2878,7 +2871,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -2910,7 +2903,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -2957,7 +2950,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -3931,7 +3924,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -3982,7 +3975,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -4012,7 +4005,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -4042,7 +4035,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -4074,7 +4067,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -4106,7 +4099,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -4137,7 +4130,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -4168,7 +4161,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -6287,7 +6280,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -6349,7 +6342,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -6389,7 +6382,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -6431,7 +6424,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -7209,7 +7202,7 @@ class_constructor
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -7260,7 +7253,7 @@ create
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -7564,7 +7557,7 @@ fun_subarray
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -7759,7 +7752,7 @@ fun_set
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8933,7 +8926,7 @@ getDenseArrayElements
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -8968,7 +8961,7 @@ v
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9147,7 +9140,7 @@ return
 true
 ;
 }
-uintN
+unsigned
 srclen
 =
 getLength
@@ -9188,7 +9181,7 @@ tarray
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9248,7 +9241,7 @@ tarray
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9302,7 +9295,7 @@ tarray
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9356,7 +9349,7 @@ tarray
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9410,7 +9403,7 @@ tarray
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9464,7 +9457,7 @@ tarray
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9518,7 +9511,7 @@ tarray
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9572,7 +9565,7 @@ tarray
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9763,7 +9756,7 @@ srcbuf
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9820,7 +9813,7 @@ srcbuf
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9871,7 +9864,7 @@ srcbuf
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9922,7 +9915,7 @@ srcbuf
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -9973,7 +9966,7 @@ srcbuf
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -10024,7 +10017,7 @@ srcbuf
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -10075,7 +10068,7 @@ srcbuf
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -10126,7 +10119,7 @@ srcbuf
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -12494,7 +12487,7 @@ JSContext
 cx
 jsint
 atype
-uintN
+unsigned
 argc
 Value
 *

@@ -514,7 +514,7 @@ PropertyOpForwarder
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -729,7 +729,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 argc
 Op
 pop
@@ -874,7 +874,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 orig_attrs
 JSPropertyOp
 getter
@@ -915,7 +915,7 @@ roots
 roots
 )
 ;
-uintN
+unsigned
 attrs
 =
 JSPROP_SHARED
@@ -1072,7 +1072,7 @@ JSContext
 cx
 JSBool
 wantGetter
-uintN
+unsigned
 argc
 jsval
 *
@@ -1409,7 +1409,7 @@ SharedLookupGetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1433,7 +1433,7 @@ SharedLookupSetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1457,7 +1457,7 @@ DefineGetterOrSetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 JSBool
 wantGetter
@@ -1466,7 +1466,7 @@ jsval
 vp
 )
 {
-uintN
+unsigned
 attrs
 ;
 JSBool
@@ -1693,7 +1693,7 @@ SharedDefineGetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1717,7 +1717,7 @@ SharedDefineSetter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1743,7 +1743,7 @@ cx
 JSObject
 *
 proto
-uintN
+unsigned
 flags
 PRUint32
 ifacec
@@ -2702,7 +2702,7 @@ const
 char
 *
 memberName
-uintN
+unsigned
 paramnum
 )
 {
@@ -2837,7 +2837,7 @@ rv
 jsval
 *
 vp
-uintN
+unsigned
 paramnum
 )
 {
@@ -2878,7 +2878,7 @@ XPCCallContext
 ccx
 nsresult
 rv
-uintN
+unsigned
 paramnum
 )
 {
@@ -2901,7 +2901,7 @@ JSContext
 cx
 nsresult
 rv
-uintN
+unsigned
 paramnum
 const
 char

@@ -131,7 +131,7 @@ static
 nsresult
 ThrowAndFail
 (
-uintN
+unsigned
 errNum
 JSContext
 *
@@ -11026,7 +11026,7 @@ SandboxDump
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11204,7 +11204,7 @@ SandboxDebug
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11237,7 +11237,7 @@ SandboxImport
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -12272,7 +12272,6 @@ CompartmentPrivate
 (
 JS_GetCompartmentPrivate
 (
-cx
 compartment
 )
 )
@@ -13093,7 +13092,6 @@ privateValue
 =
 JS_GetCompartmentPrivate
 (
-cx
 GetObjectCompartment
 (
 unwrapped
@@ -14551,7 +14549,6 @@ CompartmentPrivate
 (
 JS_GetCompartmentPrivate
 (
-cx
 js
 :
 :
@@ -15406,7 +15403,7 @@ FunctionWrapper
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -16970,7 +16967,7 @@ rt
 return
 NS_ERROR_FAILURE
 ;
-uintN
+unsigned
 attrs
 =
 0

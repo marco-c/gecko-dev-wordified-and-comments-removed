@@ -2995,7 +2995,7 @@ arg0
 ;
 for
 (
-uintN
+unsigned
 i
 =
 1

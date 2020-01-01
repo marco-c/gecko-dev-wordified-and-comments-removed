@@ -225,7 +225,7 @@ js_Date
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :

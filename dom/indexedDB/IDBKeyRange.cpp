@@ -440,7 +440,7 @@ MakeOnlyKeyRange
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -535,7 +535,7 @@ MakeLowerBoundKeyRange
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -639,7 +639,7 @@ MakeUpperBoundKeyRange
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -743,7 +743,7 @@ MakeBoundKeyRange
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *

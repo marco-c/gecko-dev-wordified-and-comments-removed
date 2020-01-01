@@ -79,13 +79,6 @@ h
 #
 include
 "
-jsiter
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -4442,9 +4435,8 @@ OpcodeNames
 [
 op
 ]
-js_PCToLineNumber
+PCToLineNumber
 (
-cx
 script
 pc
 )

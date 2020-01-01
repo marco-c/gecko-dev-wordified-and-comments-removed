@@ -1768,7 +1768,7 @@ setStepMode
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

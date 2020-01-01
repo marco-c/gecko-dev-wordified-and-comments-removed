@@ -53,7 +53,7 @@ CheckVersionHasXML
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -66,7 +66,7 @@ DisableXMLOption
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -79,7 +79,7 @@ CallSetVersion17
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -92,7 +92,7 @@ CheckNewScriptNoXML
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -105,7 +105,7 @@ OverrideVersion15
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -118,7 +118,7 @@ CaptureVersion
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -131,7 +131,7 @@ CheckOverride
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -144,7 +144,7 @@ EvalScriptVersion16
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -323,7 +323,7 @@ test
 bool
 hasXML
 (
-uintN
+unsigned
 version
 )
 {
@@ -640,7 +640,7 @@ CallSetVersion17
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -663,7 +663,7 @@ CheckVersionHasXML
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -685,7 +685,7 @@ DisableXMLOption
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -707,7 +707,7 @@ CheckNewScriptNoXML
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -729,7 +729,7 @@ OverrideVersion15
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -765,7 +765,7 @@ EvalScriptVersion16
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -859,7 +859,7 @@ CaptureVersion
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -886,7 +886,7 @@ CheckOverride
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
