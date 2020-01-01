@@ -3434,6 +3434,8 @@ const
 PRUnichar
 *
 chars
+=
+nsnull
 ;
 JSString
 *
@@ -3448,6 +3450,8 @@ JS_FALSE
 ;
 PRUint32
 length
+=
+0
 ;
 if
 (
