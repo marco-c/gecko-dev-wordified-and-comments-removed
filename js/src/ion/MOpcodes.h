@@ -54,7 +54,7 @@ BitOr
 \
 _
 (
-BitXOr
+BitXor
 )
 \
 _

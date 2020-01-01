@@ -459,17 +459,6 @@ phi
 )
 ;
 }
-void
-rewriteDefsInSnapshots
-(
-MInstruction
-*
-ins
-MDefinition
-*
-old
-)
-;
 bool
 assignSnapshot
 (
