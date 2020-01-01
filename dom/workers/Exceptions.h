@@ -120,6 +120,10 @@ DATA_CLONE_ERR
 25
 #
 define
+UNKNOWN_ERR
+0
+#
+define
 FILE_NOT_FOUND_ERR
 1
 #
