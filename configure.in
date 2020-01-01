@@ -1831,6 +1831,13 @@ libnativehelper
 include
 /
 nativehelper
+-
+I
+gonkdir
+/
+external
+/
+valgrind
 "
 MOZ_B2G_BT
 =
