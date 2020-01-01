@@ -464,6 +464,13 @@ if
 mConnection
 )
 {
+dbus_connection_remove_filter
+(
+mConnection
+dbus_filter
+this
+)
+;
 if
 (
 mSingleClient
