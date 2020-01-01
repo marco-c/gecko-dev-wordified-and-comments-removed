@@ -3692,13 +3692,13 @@ noGCOrAllocationCheck
 )
 #
 endif
-jitHardening
-(
-false
-)
 inOOMReport
 (
 0
+)
+jitHardening
+(
+false
 )
 ionTop
 (
