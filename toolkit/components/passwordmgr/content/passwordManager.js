@@ -2890,7 +2890,7 @@ endUpdateBatch
 )
 ;
 var
-removeButton
+removeBtn
 =
 document
 .
@@ -2900,7 +2900,7 @@ removeButton
 )
 ;
 var
-removeAllButton
+removeAllBtn
 =
 document
 .
@@ -2916,7 +2916,7 @@ table
 length
 )
 {
-removeButton
+removeBtn
 .
 removeAttribute
 (
@@ -2925,7 +2925,7 @@ disabled
 "
 )
 ;
-removeAllButton
+removeAllBtn
 .
 removeAttribute
 (
@@ -2956,7 +2956,7 @@ length
 }
 else
 {
-removeButton
+removeBtn
 .
 setAttribute
 (
@@ -2968,7 +2968,7 @@ true
 "
 )
 ;
-removeAllButton
+removeAllBtn
 .
 setAttribute
 (
