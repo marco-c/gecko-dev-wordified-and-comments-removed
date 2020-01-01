@@ -67,6 +67,17 @@ nsACString
 data
 )
 ;
+nsresult
+SetRestartArgs
+(
+int
+argc
+char
+*
+*
+argv
+)
+;
 }
 #
 endif
