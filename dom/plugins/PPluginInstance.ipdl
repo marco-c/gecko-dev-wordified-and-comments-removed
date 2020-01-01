@@ -1084,8 +1084,10 @@ result
 parent
 :
 rpc
-PluginGotFocus
+PluginFocusChange
 (
+bool
+gotFocus
 )
 ;
 child
