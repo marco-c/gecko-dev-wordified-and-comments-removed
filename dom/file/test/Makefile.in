@@ -152,6 +152,10 @@ test_write_read_data
 .
 html
 \
+test_archivereader
+.
+html
+\
 (
 NULL
 )
