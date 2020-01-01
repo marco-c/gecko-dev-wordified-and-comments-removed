@@ -31,6 +31,13 @@ command
 pymake
 .
 process
+import
+gc
+gc
+.
+disable
+(
+)
 pymake
 .
 command

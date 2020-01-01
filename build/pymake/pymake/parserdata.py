@@ -3623,6 +3623,20 @@ self
 exp
 )
 class
+_EvalContext
+(
+object
+)
+:
+    
+__slots__
+=
+(
+'
+currule
+'
+)
+class
 StatementList
 (
 list
@@ -3632,6 +3646,9 @@ list
 __slots__
 =
 (
+'
+mtime
+'
 )
     
 def
@@ -3676,13 +3693,8 @@ None
             
 context
 =
-util
-.
-makeobject
+_EvalContext
 (
-'
-currule
-'
 )
         
 for
