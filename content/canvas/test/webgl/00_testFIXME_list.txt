@@ -22,11 +22,11 @@ html
 files
 conformance
 /
-00_test_list
+00_testFIXME_list
 .
 txt
 more
 /
-00_test_list
+00_testFIXME_list
 .
 txt
