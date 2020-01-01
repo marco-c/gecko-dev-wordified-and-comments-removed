@@ -573,7 +573,7 @@ url
 "
 about
 :
-robots
+rights
 "
 groupID
 :
@@ -599,7 +599,7 @@ url
 "
 about
 :
-robots
+rights
 "
 }
 ]

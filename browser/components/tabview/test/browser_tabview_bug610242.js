@@ -238,7 +238,7 @@ bg
 )
 ;
 let
-robots
+synclog
 =
 win
 .
@@ -249,7 +249,9 @@ loadOneTab
 "
 about
 :
-robots
+sync
+-
+log
 "
 bg
 )
@@ -701,11 +703,13 @@ false
 ;
 check
 (
-robots
+synclog
 "
 about
 :
-robots
+sync
+-
+log
 "
 true
 )
