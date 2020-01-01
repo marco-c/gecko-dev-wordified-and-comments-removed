@@ -14096,6 +14096,8 @@ screenH
 screenW
 )
 ;
+}
+}
 viewportH
 =
 Math
@@ -14114,8 +14116,6 @@ screenW
 )
 )
 ;
-}
-}
 if
 (
 browser
