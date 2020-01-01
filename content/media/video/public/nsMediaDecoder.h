@@ -464,8 +464,6 @@ PRInt32
 aHeight
 float
 aFramerate
-float
-aAspectRatio
 unsigned
 char
 *
@@ -509,9 +507,6 @@ mVideoUpdateLock
 ;
 float
 mFramerate
-;
-float
-mAspectRatio
 ;
 PRPackedBool
 mSizeChanged
