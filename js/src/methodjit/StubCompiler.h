@@ -359,6 +359,8 @@ MacroAssembler
 Label
 syncExit
 (
+Uses
+uses
 )
 ;
 JSC
@@ -370,6 +372,8 @@ MacroAssembler
 Label
 syncExitAndJump
 (
+Uses
+uses
 )
 ;
 void
@@ -377,6 +381,8 @@ linkExit
 (
 Jump
 j
+Uses
+uses
 )
 ;
 void
@@ -403,8 +409,8 @@ depth
 void
 rejoin
 (
-uint32
-invalidationDepth
+Changes
+changes
 )
 ;
 void
