@@ -41,6 +41,15 @@ h
 "
 #
 endif
+#
+include
+<
+android
+/
+log
+.
+h
+>
 namespace
 mozilla
 {
