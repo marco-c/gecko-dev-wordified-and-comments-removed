@@ -400,6 +400,16 @@ getSharedPreferences
 (
 )
 ;
+final
+ObsoleteDocumentTracker
+tracker
+=
+new
+ObsoleteDocumentTracker
+(
+sharedPrefs
+)
+;
 SubmissionClient
 client
 =
@@ -419,6 +429,7 @@ SubmissionPolicy
 (
 sharedPrefs
 client
+tracker
 uploadEnabled
 )
 ;

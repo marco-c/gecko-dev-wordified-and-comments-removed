@@ -680,7 +680,7 @@ pair
 :
 collections
 .
-entryIterable
+entrySet
 (
 )
 )

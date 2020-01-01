@@ -952,7 +952,7 @@ unchecked
 "
 )
 public
-Iterable
+Set
 <
 Entry
 <
@@ -960,7 +960,7 @@ String
 Object
 >
 >
-entryIterable
+entrySet
 (
 )
 {
