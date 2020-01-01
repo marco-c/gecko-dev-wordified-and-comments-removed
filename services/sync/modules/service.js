@@ -4152,14 +4152,10 @@ record
 let
 meta
 =
-yield
 Records
 .
 import
 (
-self
-.
-cb
 this
 .
 clusterURL
