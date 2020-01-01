@@ -1472,6 +1472,7 @@ system
 extern
 JS_PUBLIC_API
 (
+const
 JSDebugHooks
 *
 )
@@ -1493,6 +1494,7 @@ JS_SetContextDebugHooks
 JSContext
 *
 cx
+const
 JSDebugHooks
 *
 hooks

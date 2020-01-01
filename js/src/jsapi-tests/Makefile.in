@@ -441,6 +441,10 @@ testContexts
 .
 cpp
 \
+testDebugger
+.
+cpp
+\
 testDefineGetterSetterNonEnumerable
 .
 cpp
