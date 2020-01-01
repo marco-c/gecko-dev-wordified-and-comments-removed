@@ -1591,11 +1591,13 @@ idn
 mIDN
 ;
 }
-NS_ENSURE_TRUE
+if
 (
+!
 res
-NS_ERROR_OFFLINE
 )
+return
+NS_ERROR_OFFLINE
 ;
 const
 nsACString
