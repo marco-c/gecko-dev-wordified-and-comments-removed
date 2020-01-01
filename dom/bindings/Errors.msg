@@ -477,3 +477,16 @@ version
 .
 "
 )
+MSG_DEF
+(
+MSG_NOT_DATE
+0
+"
+Value
+is
+not
+a
+date
+.
+"
+)
