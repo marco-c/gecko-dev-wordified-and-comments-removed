@@ -92,6 +92,8 @@ mobile
 /
 chrome
 /
+tests
+/
 "
 ;
 const
