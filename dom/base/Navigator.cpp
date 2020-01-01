@@ -4273,6 +4273,7 @@ bluetooth
 :
 BluetoothAdapter
 (
+window
 )
 ;
 bluetooth
