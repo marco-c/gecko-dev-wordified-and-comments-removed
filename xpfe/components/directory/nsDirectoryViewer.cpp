@@ -5196,11 +5196,6 @@ nsISimpleEnumerator
 _retval
 )
 {
-nsresult
-rv
-=
-NS_ERROR_UNEXPECTED
-;
 *
 _retval
 =
@@ -5236,8 +5231,6 @@ if
 mInner
 )
 {
-rv
-=
 mInner
 -
 >
