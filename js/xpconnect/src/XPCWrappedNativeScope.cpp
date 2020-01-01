@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsCycleCollectionNoteRootCallback
+.
+h
+"
+#
+include
+"
 nsPrincipal
 .
 h
@@ -1754,13 +1761,13 @@ HasExternalReference
 )
 )
 {
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 *
 cb
 =
 static_cast
 <
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 *
 >
 (
@@ -1789,7 +1796,7 @@ SuspectDOMExpandos
 JSObject
 *
 obj
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cb
 )
@@ -1853,7 +1860,7 @@ SuspectAllWrappers
 XPCJSRuntime
 *
 rt
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cb
 )

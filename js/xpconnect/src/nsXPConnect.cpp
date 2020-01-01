@@ -205,6 +205,13 @@ h
 #
 include
 "
+nsCycleCollectionNoteRootCallback
+.
+h
+"
+#
+include
+"
 nsCycleCollector
 .
 h
@@ -1265,7 +1272,7 @@ JSTracer
 {
 NoteWeakMapChildrenTracer
 (
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cb
 )
@@ -1276,7 +1283,7 @@ cb
 )
 {
 }
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 mCb
 ;
@@ -1441,7 +1448,7 @@ js
 :
 WeakMapTraceCallback
 cb
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cccb
 )
@@ -1472,7 +1479,7 @@ TraceWeakMappingChild
 )
 ;
 }
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 mCb
 ;
@@ -2074,7 +2081,7 @@ nsXPConnect
 :
 BeginCycleCollection
 (
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 cb
 )

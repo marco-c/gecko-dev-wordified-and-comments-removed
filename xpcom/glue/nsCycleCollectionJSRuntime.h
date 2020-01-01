@@ -8,7 +8,7 @@ class
 nsCycleCollectionParticipant
 ;
 class
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 ;
 struct
 nsCycleCollectionJSRuntime
@@ -17,7 +17,7 @@ virtual
 nsresult
 BeginCycleCollection
 (
-nsCycleCollectionTraversalCallback
+nsCycleCollectionNoteRootCallback
 &
 aCb
 )

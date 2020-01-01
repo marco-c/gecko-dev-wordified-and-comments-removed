@@ -167,6 +167,11 @@ nsCycleCollectionNoteChild
 h
 '
 '
+nsCycleCollectionNoteRootCallback
+.
+h
+'
+'
 nsCycleCollectionTraversalCallback
 .
 h
