@@ -3145,8 +3145,9 @@ mInfo
 .
 output_width
 ;
-while
+for
 (
+;
 (
 NS_PTR_TO_UINT32
 (
@@ -3158,8 +3159,10 @@ sampleRow
 &
 &
 idx
+;
 -
 -
+idx
 )
 {
 *

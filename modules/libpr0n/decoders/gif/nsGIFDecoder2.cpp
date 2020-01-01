@@ -2519,8 +2519,9 @@ c
 =
 aColors
 ;
-while
+for
 (
+;
 (
 NS_PTR_TO_UINT32
 (
@@ -2532,8 +2533,10 @@ from
 &
 &
 c
+;
 -
 -
+c
 )
 {
 from

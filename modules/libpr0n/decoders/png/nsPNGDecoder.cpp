@@ -3372,8 +3372,9 @@ idx
 =
 iwidth
 ;
-while
+for
 (
+;
 (
 NS_PTR_TO_UINT32
 (
@@ -3385,8 +3386,10 @@ line
 &
 &
 idx
+;
 -
 -
+idx
 )
 {
 *
