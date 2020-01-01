@@ -427,6 +427,10 @@ js
 (
 NULL
 )
+ifdef
+_MSC_VER
+ifdef
+WINCE
 CPPSRCS
 =
 \
@@ -450,10 +454,6 @@ BIN_SUFFIX
 )
 )
 \
-ifdef
-_MSC_VER
-ifdef
-WINCE
 WIN32_EXE_LDFLAGS
 +
 =
