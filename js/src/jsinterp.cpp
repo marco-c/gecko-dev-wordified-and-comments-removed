@@ -12834,6 +12834,16 @@ goto
 jit_return
 ;
 \
+regs
+.
+fp
+-
+>
+setFinishedInInterpreter
+(
+)
+;
+\
 goto
 leave_on_safe_point
 ;
