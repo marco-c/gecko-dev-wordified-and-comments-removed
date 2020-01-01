@@ -1104,6 +1104,11 @@ BatteryInformation
 aBatteryInfo
 )
 ;
+bool
+IsTablet
+(
+)
+;
 protected
 :
 static
@@ -1291,6 +1296,9 @@ jInitCamera
 ;
 jmethodID
 jCloseCamera
+;
+jmethodID
+jIsTablet
 ;
 jmethodID
 jEnableBatteryNotifications
