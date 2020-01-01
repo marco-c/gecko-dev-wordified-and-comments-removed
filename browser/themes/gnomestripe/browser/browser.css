@@ -8344,6 +8344,16 @@ size
 ;
 }
 #
+editBMPanel_folderTree
+{
+min
+-
+width
+:
+300px
+;
+}
+#
 sidebar
 {
 background
