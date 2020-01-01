@@ -973,10 +973,9 @@ WEAVE_PREFS_GUID
 createRecord
 :
 function
-FormStore_createRecord
+createRecord
 (
 guid
-cryptoMetaURL
 )
 {
 let
@@ -987,12 +986,6 @@ PrefRec
 (
 )
 ;
-record
-.
-id
-=
-guid
-;
 if
 (
 guid
@@ -1001,12 +994,6 @@ guid
 WEAVE_PREFS_GUID
 )
 {
-record
-.
-encryption
-=
-cryptoMetaURL
-;
 record
 .
 value

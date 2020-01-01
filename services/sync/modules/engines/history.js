@@ -1307,10 +1307,9 @@ false
 createRecord
 :
 function
-HistStore_createRecord
+createRecord
 (
 guid
-cryptoMetaURL
 )
 {
 let
@@ -1330,12 +1329,6 @@ new
 HistoryRec
 (
 )
-;
-record
-.
-id
-=
-guid
 ;
 if
 (
@@ -1378,12 +1371,6 @@ record
 .
 histUri
 )
-;
-record
-.
-encryption
-=
-cryptoMetaURL
 ;
 }
 else
