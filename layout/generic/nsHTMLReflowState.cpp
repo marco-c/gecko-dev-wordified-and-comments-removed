@@ -1729,6 +1729,15 @@ mHeightDependsOnAncestorCell
 )
 &
 &
+!
+mCBReflowState
+-
+>
+mFlags
+.
+mSpecialHeightReflow
+&
+&
 dependsOnCBHeight
 )
 {
