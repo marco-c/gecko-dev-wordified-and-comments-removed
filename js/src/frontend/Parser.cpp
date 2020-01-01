@@ -8271,6 +8271,12 @@ NULL
 bool
 hasRest
 ;
+tokenStream
+.
+incBanXML
+(
+)
+;
 if
 (
 !
@@ -8284,6 +8290,12 @@ hasRest
 )
 return
 false
+;
+tokenStream
+.
+decBanXML
+(
+)
 ;
 fun
 -

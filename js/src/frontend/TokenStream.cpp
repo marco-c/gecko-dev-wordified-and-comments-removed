@@ -663,7 +663,7 @@ options
 .
 version
 )
-allowXML
+banXML
 (
 VersionHasAllowXML
 (
@@ -671,6 +671,10 @@ options
 .
 version
 )
+?
+0
+:
+1
 )
 moarXML
 (
