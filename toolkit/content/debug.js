@@ -806,6 +806,8 @@ window
 )
 source
 =
+this
+.
 window
 ;
 var
