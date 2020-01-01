@@ -3451,6 +3451,11 @@ aFontEntry
 >
 mUserFontData
 ;
+if
+(
+data
+)
+{
 sUserFonts
 -
 >
@@ -3470,6 +3475,7 @@ aFontEntry
 )
 )
 ;
+}
 }
 gfxFontEntry
 *
