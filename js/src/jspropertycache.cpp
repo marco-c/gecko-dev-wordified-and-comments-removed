@@ -284,10 +284,9 @@ pc
 ;
 op
 =
-js_GetOpcode
+JSOp
 (
-cx
-script
+*
 pc
 )
 ;
@@ -697,10 +696,9 @@ length
 JSOp
 op
 =
-js_GetOpcode
+JSOp
 (
-cx
-script
+*
 pc
 )
 ;

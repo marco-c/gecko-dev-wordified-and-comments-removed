@@ -733,6 +733,10 @@ nsSVGTitleElement
 .
 cpp
 \
+nsSVGUnknownElement
+.
+cpp
+\
 nsSVGUseElement
 .
 cpp

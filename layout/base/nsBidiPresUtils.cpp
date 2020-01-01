@@ -226,6 +226,9 @@ mContentToFrameIndex
 bool
 mIsVisual
 ;
+bool
+mReset
+;
 nsBidiLevel
 mParaLevel
 ;
@@ -496,6 +499,10 @@ NSBIDI_RTL
 NSBIDI_LTR
 ;
 }
+mReset
+=
+false
+;
 }
 void
 Reset
@@ -508,6 +515,10 @@ BidiParagraphData
 aBpd
 )
 {
+mReset
+=
+true
+;
 mLogicalFrames
 .
 Clear
@@ -4816,6 +4827,13 @@ frame
 GetPrevContinuation
 (
 )
+|
+|
+!
+subParagraph
+-
+>
+mReset
 )
 {
 subParagraph

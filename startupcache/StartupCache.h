@@ -323,7 +323,7 @@ CacheEntry
 >
 mTable
 ;
-nsAutoPtr
+nsRefPtr
 <
 nsZipArchive
 >

@@ -4776,8 +4776,8 @@ IsEmpty
 )
 )
 {
-JSAutoRequest
-ar
+AutoSafeJSContext
+cx
 (
 aCx
 )
@@ -4874,8 +4874,8 @@ IsEmpty
 )
 )
 {
-JSAutoRequest
-ar
+AutoSafeJSContext
+cx
 (
 aCx
 )

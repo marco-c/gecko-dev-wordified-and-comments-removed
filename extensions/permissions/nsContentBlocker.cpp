@@ -154,6 +154,9 @@ font
 "
 media
 "
+"
+websocket
+"
 }
 ;
 #

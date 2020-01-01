@@ -274,13 +274,6 @@ False
         
 self
 .
-tmflags
-=
-'
-'
-        
-self
-.
 error
 =
 '
@@ -336,14 +329,6 @@ valgrind
 self
 .
 valgrind
-        
-t
-.
-tmflags
-=
-self
-.
-tmflags
         
 t
 .
@@ -495,21 +480,6 @@ strip
 )
                     
 if
-name
-=
-=
-'
-TMFLAGS
-'
-:
-                        
-test
-.
-tmflags
-=
-value
-                    
-elif
 name
 =
 =
@@ -1372,33 +1342,6 @@ shell_args
 )
 :
     
-env
-=
-os
-.
-environ
-.
-copy
-(
-)
-    
-if
-test
-.
-tmflags
-:
-        
-env
-[
-'
-TMFLAGS
-'
-]
-=
-test
-.
-tmflags
-    
 cmd
 =
 get_test_cmd
@@ -1584,7 +1527,9 @@ timed_out
 run
 (
 cmd
-env
+os
+.
+environ
 OPTIONS
 .
 timeout

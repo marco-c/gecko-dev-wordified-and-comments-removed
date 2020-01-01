@@ -2809,6 +2809,17 @@ getDenseArrayCapacity
 )
 )
 ;
+prepareElementRangeForOverwrite
+(
+length
+getElementsHeader
+(
+)
+-
+>
+initializedLength
+)
+;
 getElementsHeader
 (
 )

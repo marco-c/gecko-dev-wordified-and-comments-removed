@@ -665,9 +665,9 @@ IsSVG
 const
 {
 return
-IsNodeOfType
+IsInNamespace
 (
-eSVG
+kNameSpaceID_SVG
 )
 ;
 }

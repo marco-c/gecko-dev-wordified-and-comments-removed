@@ -478,7 +478,7 @@ uint32_t
 )
 ;
 return
-ValueToECMAUint32
+ToUint32
 (
 cx
 tvr
@@ -2547,7 +2547,7 @@ newlen
 if
 (
 !
-ValueToECMAUint32
+ToUint32
 (
 cx
 *
@@ -8515,7 +8515,7 @@ else
 {
 str
 =
-js_ValueToString
+ToString
 (
 cx
 args
@@ -9913,7 +9913,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 v

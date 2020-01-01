@@ -1526,7 +1526,7 @@ W
 :
 str
 =
-js_ValueToString
+ToString
 (
 cx
 *
@@ -2156,7 +2156,7 @@ JSTYPE_STRING
 :
 str
 =
-js_ValueToString
+ToString
 (
 cx
 v
@@ -2407,7 +2407,7 @@ v
 )
 ;
 return
-js_ValueToString
+ToString
 (
 cx
 v
@@ -2588,7 +2588,7 @@ v
 )
 ;
 return
-ValueToECMAInt32
+ToInt32
 (
 cx
 tvr
@@ -2639,7 +2639,7 @@ v
 )
 ;
 return
-ValueToECMAUint32
+ToUint32
 (
 cx
 tvr
@@ -2690,7 +2690,7 @@ v
 )
 ;
 return
-ValueToInt32
+NonstandardToInt32
 (
 cx
 tvr
@@ -3039,15 +3039,6 @@ atomsCompartment
 (
 NULL
 )
-#
-ifdef
-JS_THREADSAFE
-atomsCompartmentIsLocked
-(
-false
-)
-#
-endif
 state
 (
 )
@@ -20586,6 +20577,10 @@ shape
 -
 >
 previous
+(
+)
+.
+get
 (
 )
 )

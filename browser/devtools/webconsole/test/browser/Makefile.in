@@ -887,6 +887,10 @@ browser_webconsole_bug_622303_persistent_filters
 .
 js
 \
+browser_webconsole_window_zombie
+.
+js
+\
 head
 .
 js

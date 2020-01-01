@@ -163,7 +163,7 @@ ok
 )
 ;
 extern
-void
+JSTrapStatus
 ScriptDebugPrologue
 (
 JSContext

@@ -7879,7 +7879,7 @@ argc
 &
 &
 !
-ValueToECMAUint32
+ToUint32
 (
 cx
 vp
@@ -9584,7 +9584,7 @@ JSString
 *
 arg
 =
-js_ValueToString
+ToString
 (
 cx
 args
@@ -10064,7 +10064,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 args

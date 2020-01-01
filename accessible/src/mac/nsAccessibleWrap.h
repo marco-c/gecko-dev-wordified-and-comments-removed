@@ -136,13 +136,6 @@ IsIgnored
 (
 )
 ;
-PRInt32
-GetUnignoredChildCount
-(
-bool
-aDeepCount
-)
-;
 bool
 HasPopup
 (

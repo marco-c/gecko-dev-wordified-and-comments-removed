@@ -1228,6 +1228,16 @@ nsIWidget
 aNewParent
 )
 ;
+void
+PickerOpen
+(
+)
+;
+void
+PickerClosed
+(
+)
+;
 protected
 :
 enum
@@ -2448,6 +2458,9 @@ mFullscreenMode
 bool
 mMousePresent
 ;
+bool
+mDestroyCalled
+;
 PRUint32
 mBlurSuppressLevel
 ;
@@ -2478,6 +2491,9 @@ mWindowHook
 ;
 DWORD
 mAssumeWheelIsZoomUntil
+;
+PRUint32
+mPickerDisplayCount
 ;
 static
 bool

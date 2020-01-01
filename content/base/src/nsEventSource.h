@@ -449,6 +449,9 @@ mErrorLoadOnRedirect
 bool
 mGoingToDispatchAllMessages
 ;
+bool
+mWithCredentials
+;
 nsCOMPtr
 <
 nsIUnicodeDecoder
@@ -524,7 +527,7 @@ nsIPrincipal
 >
 mPrincipal
 ;
-nsCString
+nsString
 mOrigin
 ;
 PRUint32
