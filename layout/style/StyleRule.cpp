@@ -6191,6 +6191,12 @@ GetDOMRule
 if
 (
 !
+mDOMRule
+)
+{
+if
+(
+!
 GetStyleSheet
 (
 )
@@ -6200,12 +6206,6 @@ return
 nullptr
 ;
 }
-if
-(
-!
-mDOMRule
-)
-{
 mDOMRule
 =
 new

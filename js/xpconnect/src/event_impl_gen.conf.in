@@ -155,6 +155,9 @@ MozApplicationEvent
 SmartCardEvent
 '
 '
+StyleRuleChangeEvent
+'
+'
 StyleSheetChangeEvent
 '
 '
