@@ -3517,6 +3517,14 @@ if
 (
 url
 )
+{
+PlacesUtils
+.
+markPageAsTyped
+(
+url
+)
+;
 openUILink
 (
 url
@@ -3525,6 +3533,7 @@ false
 true
 )
 ;
+}
 "
 onclick
 =

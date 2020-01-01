@@ -7712,7 +7712,7 @@ ExpireNonrecentEvents
 mRecentBookmark
 )
 ;
-mRecentTyped
+mRecentBookmark
 .
 Put
 (
