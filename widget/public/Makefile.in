@@ -697,6 +697,10 @@ nsIJumpListItem
 .
 idl
 \
+nsIGfxInfo
+.
+idl
+\
 (
 NULL
 )

@@ -515,6 +515,10 @@ JumpListItem
 .
 cpp
 \
+GfxInfo
+.
+cpp
+\
 (
 NULL
 )
