@@ -1,4 +1,5 @@
 /
+/
 -
 *
 -
@@ -34,6 +35,8 @@ offset
 -
 /
 /
+/
+/
 *
 *
 *
@@ -47,6 +50,7 @@ BLOCK
 *
 *
 *
+/
 /
 Version
 :
@@ -66,6 +70,8 @@ LGPL
 1
 /
 /
+/
+/
 The
 contents
 of
@@ -79,6 +85,7 @@ Mozilla
 Public
 License
 Version
+/
 /
 1
 .
@@ -101,6 +108,7 @@ in
 compliance
 with
 /
+/
 the
 License
 .
@@ -114,6 +122,7 @@ the
 License
 at
 /
+/
 http
 :
 /
@@ -125,6 +134,8 @@ mozilla
 org
 /
 MPL
+/
+/
 /
 /
 /
@@ -143,6 +154,7 @@ IS
 "
 basis
 /
+/
 WITHOUT
 WARRANTY
 OF
@@ -157,6 +169,7 @@ See
 the
 License
 /
+/
 for
 the
 specific
@@ -168,8 +181,11 @@ limitations
 under
 the
 /
+/
 License
 .
+/
+/
 /
 /
 The
@@ -186,6 +202,8 @@ NSPR
 .
 /
 /
+/
+/
 The
 Initial
 Developer
@@ -195,10 +213,12 @@ Original
 Code
 is
 /
+/
 Netscape
 Communications
 Corporation
 .
+/
 /
 Portions
 created
@@ -213,6 +233,7 @@ C
 )
 2004
 /
+/
 the
 Initial
 Developer
@@ -223,11 +244,15 @@ Reserved
 .
 /
 /
+/
+/
 Contributor
 (
 s
 )
 :
+/
+/
 /
 /
 Alternatively
@@ -243,6 +268,7 @@ under
 the
 terms
 of
+/
 /
 either
 the
@@ -261,6 +287,7 @@ GPL
 "
 )
 or
+/
 /
 the
 GNU
@@ -281,6 +308,7 @@ LGPL
 "
 )
 /
+/
 in
 which
 case
@@ -295,6 +323,7 @@ LGPL
 are
 applicable
 instead
+/
 /
 of
 those
@@ -314,6 +343,7 @@ this
 file
 only
 /
+/
 under
 the
 terms
@@ -331,6 +361,7 @@ allow
 others
 to
 /
+/
 use
 your
 version
@@ -346,6 +377,7 @@ MPL
 indicate
 your
 /
+/
 decision
 by
 deleting
@@ -358,6 +390,7 @@ them
 with
 the
 notice
+/
 /
 and
 other
@@ -376,6 +409,7 @@ do
 not
 delete
 /
+/
 the
 provisions
 above
@@ -389,6 +423,7 @@ of
 this
 file
 under
+/
 /
 the
 terms
@@ -406,6 +441,8 @@ LGPL
 .
 /
 /
+/
+/
 *
 *
 *
@@ -420,6 +457,7 @@ BLOCK
 *
 *
 /
+/
 PRInt32
 _PR_x86_64_AtomicIncrement
 (
@@ -427,6 +465,8 @@ PRInt32
 *
 val
 )
+/
+/
 /
 /
 Atomically
@@ -442,12 +482,14 @@ val
 and
 return
 /
+/
 the
 result
 of
 the
 increment
 .
+/
 /
 .
 text
@@ -486,6 +528,7 @@ _PR_x86_64_AtomicIncrement
 -
 _PR_x86_64_AtomicIncrement
 /
+/
 PRInt32
 _PR_x86_64_AtomicDecrement
 (
@@ -493,6 +536,8 @@ PRInt32
 *
 val
 )
+/
+/
 /
 /
 Atomically
@@ -508,12 +553,14 @@ val
 and
 return
 /
+/
 the
 result
 of
 the
 decrement
 .
+/
 /
 .
 text
@@ -553,6 +600,7 @@ _PR_x86_64_AtomicDecrement
 -
 _PR_x86_64_AtomicDecrement
 /
+/
 PRInt32
 _PR_x86_64_AtomicSet
 (
@@ -562,6 +610,8 @@ val
 PRInt32
 newval
 )
+/
+/
 /
 /
 Atomically
@@ -578,6 +628,7 @@ to
 the
 new
 /
+/
 value
 '
 newval
@@ -588,6 +639,7 @@ the
 old
 value
 .
+/
 /
 .
 text
@@ -623,6 +675,7 @@ _PR_x86_64_AtomicSet
 -
 _PR_x86_64_AtomicSet
 /
+/
 PRInt32
 _PR_x86_64_AtomicAdd
 (
@@ -632,6 +685,8 @@ ptr
 PRInt32
 val
 )
+/
+/
 /
 /
 Atomically
@@ -649,6 +704,7 @@ by
 ptr
 '
 /
+/
 and
 return
 the
@@ -657,6 +713,7 @@ of
 the
 addition
 .
+/
 /
 .
 text
@@ -697,6 +754,7 @@ _PR_x86_64_AtomicAdd
 .
 -
 _PR_x86_64_AtomicAdd
+/
 /
 Magic
 indicating

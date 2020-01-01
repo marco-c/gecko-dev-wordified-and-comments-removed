@@ -268,6 +268,13 @@ compatible_version
 .
 6
 "
+"
+4
+.
+8
+.
+7
+"
 PR_VERSION
 }
 ;
