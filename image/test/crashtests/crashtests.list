@@ -25,6 +25,12 @@ load
 1
 .
 gif
+load
+colormap
+-
+range
+.
+gif
 #
 the
 following
