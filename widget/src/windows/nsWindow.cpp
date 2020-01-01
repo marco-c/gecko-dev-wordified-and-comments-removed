@@ -2467,6 +2467,16 @@ wc
 ;
 }
 }
+static
+LPWSTR
+const
+gStockApplicationIcon
+=
+MAKEINTRESOURCEW
+(
+32512
+)
+;
 void
 nsWindow
 :
@@ -2497,7 +2507,7 @@ RegisterWindowClass
 (
 aWindowClass
 0
-IDI_APPLICATION
+gStockApplicationIcon
 )
 ;
 break
@@ -2532,7 +2542,7 @@ RegisterWindowClass
 (
 aWindowClass
 0
-IDI_APPLICATION
+gStockApplicationIcon
 )
 ;
 break
@@ -2561,7 +2571,7 @@ RegisterWindowClass
 (
 aWindowClass
 CS_XP_DROPSHADOW
-IDI_APPLICATION
+gStockApplicationIcon
 )
 ;
 }
