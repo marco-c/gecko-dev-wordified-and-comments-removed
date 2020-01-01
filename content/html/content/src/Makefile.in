@@ -230,6 +230,10 @@ UndoManager
 .
 h
 \
+ValidityState
+.
+h
+\
 (
 NULL
 )
@@ -472,7 +476,7 @@ HTMLUnknownElement
 .
 cpp
 \
-nsDOMValidityState
+ValidityState
 .
 cpp
 \
