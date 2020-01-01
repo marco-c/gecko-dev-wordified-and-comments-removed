@@ -17123,7 +17123,7 @@ aNode
 )
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )
