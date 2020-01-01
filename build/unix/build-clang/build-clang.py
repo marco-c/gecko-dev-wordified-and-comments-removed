@@ -25,7 +25,7 @@ platform
 import
 sys
 import
-simplejson
+json
 def
 check_run
 (
@@ -547,7 +547,7 @@ bz2
     
 data
 =
-simplejson
+json
 .
 load
 (
@@ -587,7 +587,7 @@ w
 '
 )
     
-simplejson
+json
 .
 dump
 (
