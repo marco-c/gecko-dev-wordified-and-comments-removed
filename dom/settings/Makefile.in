@@ -131,10 +131,6 @@ jsm
 (
 NULL
 )
-TEST_DIRS
-+
-=
-tests
 #
 Add
 VPATH

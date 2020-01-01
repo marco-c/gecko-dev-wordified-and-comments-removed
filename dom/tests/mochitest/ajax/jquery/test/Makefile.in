@@ -79,16 +79,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-\
-data
-\
-unit
-\
-(
-NULL
-)
 MOCHITEST_FILES
 =
 \

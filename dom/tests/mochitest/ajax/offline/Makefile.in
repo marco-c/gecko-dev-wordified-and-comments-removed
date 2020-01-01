@@ -79,10 +79,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-namespace1
-namespace2
 MOCHITEST_FILES
 =
 \

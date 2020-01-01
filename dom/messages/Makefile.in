@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-=
-interfaces
 EXTRA_COMPONENTS
 =
 \

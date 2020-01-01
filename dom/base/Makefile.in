@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -98,14 +97,6 @@ endif
 #
 !
 _MSC_VER
-DIRS
-=
-\
-test
-\
-(
-NULL
-)
 EXTRA_COMPONENTS
 =
 \

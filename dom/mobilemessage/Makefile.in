@@ -78,10 +78,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-interfaces
-src
 include
 (
 topsrcdir

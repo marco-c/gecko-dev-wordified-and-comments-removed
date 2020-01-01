@@ -230,13 +230,6 @@ idl
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-TOOL_DIRS
-+
-=
-tests
-endif
 include
 (
 topsrcdir

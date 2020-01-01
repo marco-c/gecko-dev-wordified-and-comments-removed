@@ -283,10 +283,6 @@ idl
 (
 NULL
 )
-TEST_DIRS
-+
-=
-test
 include
 (
 topsrcdir

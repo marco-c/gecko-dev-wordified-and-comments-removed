@@ -112,13 +112,6 @@ EXTRA_JS_MODULES
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-DIRS
-+
-=
-tests
-endif
 include
 (
 topsrcdir

@@ -215,11 +215,6 @@ src
 (
 NULL
 )
-TEST_DIRS
-+
-=
-test
-ipc
 include
 (
 topsrcdir

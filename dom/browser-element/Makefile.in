@@ -106,10 +106,6 @@ dom
 config
 .
 mk
-TEST_DIRS
-+
-=
-mochitest
 XPIDLSRCS
 =
 \

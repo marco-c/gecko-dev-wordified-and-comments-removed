@@ -78,14 +78,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-\
-apps
-\
-(
-NULL
-)
 MOCHITEST_CHROME_FILES
 =
 \

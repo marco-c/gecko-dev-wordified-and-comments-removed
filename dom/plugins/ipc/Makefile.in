@@ -424,15 +424,6 @@ cocoa
 MOZ_WIDGET_TOOLKIT
 )
 )
-DIRS
-+
-=
-\
-interpose
-\
-(
-NULL
-)
 CMMSRCS
 +
 =

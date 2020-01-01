@@ -449,14 +449,6 @@ idl
 (
 NULL
 )
-DIRS
-+
-=
-ipc
-TEST_DIRS
-+
-=
-test
 include
 (
 topsrcdir

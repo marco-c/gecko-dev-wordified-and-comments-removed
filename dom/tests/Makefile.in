@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -82,16 +81,6 @@ mk
 MODULE
 =
 test_dom
-DIRS
-+
-=
-mochitest
-\
-browser
-\
-(
-NULL
-)
 XPCSHELL_TESTS
 =
 unit

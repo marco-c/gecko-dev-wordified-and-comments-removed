@@ -78,10 +78,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-=
-interfaces
-src
 ifdef
 MOZ_B2G_RIL
 ifdef

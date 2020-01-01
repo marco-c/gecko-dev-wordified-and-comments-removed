@@ -94,9 +94,6 @@ endif
 #
 !
 _MSC_VER
-DIRS
-=
-secondplugin
 RELATIVE_PATH
 =
 .

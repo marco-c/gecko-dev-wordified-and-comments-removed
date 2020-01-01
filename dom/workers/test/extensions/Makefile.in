@@ -75,16 +75,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-\
-bootstrap
-\
-traditional
-\
-(
-NULL
-)
 include
 (
 topsrcdir
