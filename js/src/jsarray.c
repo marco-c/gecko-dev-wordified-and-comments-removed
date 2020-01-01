@@ -9383,6 +9383,10 @@ newborn
 GCX_OBJECT
 ]
 =
+(
+JSGCThing
+*
+)
 obj
 ;
 return
