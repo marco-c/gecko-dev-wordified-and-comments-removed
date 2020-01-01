@@ -189,6 +189,13 @@ PARALLEL_DIRS
 help
 endif
 ifdef
+MOZ_JSDOWNLOADS
+PARALLEL_DIRS
++
+=
+jsdownloads
+endif
+ifdef
 NS_PRINTING
 PARALLEL_DIRS
 +
