@@ -336,6 +336,10 @@ SpdyStream3
 .
 cpp
 \
+ConnectionDiagnostics
+.
+cpp
+\
 (
 NULL
 )
