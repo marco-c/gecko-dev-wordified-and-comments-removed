@@ -3461,7 +3461,6 @@ eDOM_PROPERTIES
 KillScriptLocation
 "
 formatParams
-1
 scriptLocation
 )
 ;

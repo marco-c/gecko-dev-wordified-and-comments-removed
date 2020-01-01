@@ -133,10 +133,6 @@ RegisterAtoms
 NS_RegisterStaticAtoms
 (
 atoms
-ArrayLength
-(
-atoms
-)
 )
 ;
 }

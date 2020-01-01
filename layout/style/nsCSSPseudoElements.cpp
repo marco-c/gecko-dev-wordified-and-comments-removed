@@ -186,10 +186,6 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 CSSPseudoElements_info
-ArrayLength
-(
-CSSPseudoElements_info
-)
 )
 ;
 }

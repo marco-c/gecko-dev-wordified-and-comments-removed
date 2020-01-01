@@ -3857,10 +3857,6 @@ gTableRefCount
 NS_RegisterStaticAtoms
 (
 sTagAtoms_info
-ArrayLength
-(
-sTagAtoms_info
-)
 )
 ;
 NS_ASSERTION

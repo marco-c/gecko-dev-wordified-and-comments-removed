@@ -18811,10 +18811,6 @@ eCOMMON_DIALOG_PROPERTIES
 ScriptDlgHeading
 "
 formatStrings
-ArrayLength
-(
-formatStrings
-)
 tempString
 )
 ;
