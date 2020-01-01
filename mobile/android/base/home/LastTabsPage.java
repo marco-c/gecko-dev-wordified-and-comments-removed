@@ -219,7 +219,7 @@ private
 static
 final
 int
-LAST_TABS_LOADER_ID
+LOADER_ID_LAST_TABS
 =
 0
 ;
@@ -637,7 +637,7 @@ getLoaderManager
 .
 initLoader
 (
-LAST_TABS_LOADER_ID
+LOADER_ID_LAST_TABS
 null
 mCursorLoaderCallbacks
 )
