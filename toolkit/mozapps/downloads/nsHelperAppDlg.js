@@ -4139,12 +4139,6 @@ dialog
 =
 null
 ;
-this
-.
-mDialog
-=
-null
-;
 return
 true
 ;
@@ -4192,12 +4186,6 @@ this
 mDialog
 .
 dialog
-=
-null
-;
-this
-.
-mDialog
 =
 null
 ;
