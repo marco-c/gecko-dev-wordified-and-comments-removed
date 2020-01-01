@@ -806,6 +806,13 @@ components
 dom_base
 .
 xpt
+BINPATH
+/
+components
+/
+dom_system
+.
+xpt
 #
 ifdef
 MOZ_B2G_RIL
