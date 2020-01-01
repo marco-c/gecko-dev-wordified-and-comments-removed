@@ -84,6 +84,26 @@ js
 if
 !
 ENABLE_INTL_API
+#
+ifdef
+__GNUC__
+#
+define
+SUPPRESS_UNUSED_WARNING
+__attribute__
+(
+(
+unused
+)
+)
+#
+else
+#
+define
+SUPPRESS_UNUSED_WARNING
+#
+endif
+SUPPRESS_UNUSED_WARNING
 static
 int32_t
 u_strlen
@@ -112,6 +132,7 @@ return
 struct
 UEnumeration
 ;
+SUPPRESS_UNUSED_WARNING
 static
 int32_t
 uenum_count
@@ -144,6 +165,7 @@ return
 0
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -181,6 +203,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 void
 uenum_close
@@ -264,6 +287,7 @@ UCOL_LESS
 1
 }
 ;
+SUPPRESS_UNUSED_WARNING
 static
 int32_t
 ucol_countAvailable
@@ -286,6 +310,7 @@ return
 0
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -311,6 +336,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 UCollator
 *
@@ -345,6 +371,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 void
 ucol_setAttribute
@@ -378,6 +405,7 @@ status
 U_UNSUPPORTED_ERROR
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 UCollationResult
 ucol_strcoll
@@ -418,6 +446,7 @@ UCollationResult
 0
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 void
 ucol_close
@@ -439,6 +468,7 @@ disabled
 )
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 UEnumeration
 *
@@ -520,6 +550,7 @@ UNumberFormatTextAttribute
 UNUM_CURRENCY_CODE
 }
 ;
+SUPPRESS_UNUSED_WARNING
 static
 int32_t
 unum_countAvailable
@@ -542,6 +573,7 @@ return
 0
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -567,6 +599,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 UNumberFormat
 *
@@ -612,6 +645,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 void
 unum_setAttribute
@@ -637,6 +671,7 @@ disabled
 )
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 int32_t
 unum_formatDouble
@@ -680,6 +715,7 @@ return
 0
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 void
 unum_close
@@ -701,6 +737,7 @@ disabled
 )
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 void
 unum_setTextAttribute
@@ -918,6 +955,7 @@ UCAL_TRADITIONAL
 UCAL_GREGORIAN
 }
 ;
+SUPPRESS_UNUSED_WARNING
 static
 UCalendar
 *
@@ -960,6 +998,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -995,6 +1034,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 UEnumeration
 *
@@ -1035,6 +1075,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 void
 ucal_close
@@ -1061,6 +1102,7 @@ void
 *
 UDateTimePatternGenerator
 ;
+SUPPRESS_UNUSED_WARNING
 static
 UDateTimePatternGenerator
 *
@@ -1095,6 +1137,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 int32_t
 udatpg_getBestPattern
@@ -1138,6 +1181,7 @@ return
 0
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 void
 udatpg_close
@@ -1181,6 +1225,7 @@ UDAT_IGNORE
 UDAT_PATTERN
 }
 ;
+SUPPRESS_UNUSED_WARNING
 static
 int32_t
 udat_countAvailable
@@ -1203,6 +1248,7 @@ return
 0
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -1228,6 +1274,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 UDateFormat
 *
@@ -1278,6 +1325,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 const
 UCalendar
@@ -1305,6 +1353,7 @@ return
 NULL
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 void
 ucal_setGregorianChange
@@ -1336,6 +1385,7 @@ pErrorCode
 U_UNSUPPORTED_ERROR
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 int32_t
 udat_format
@@ -1379,6 +1429,7 @@ return
 0
 ;
 }
+SUPPRESS_UNUSED_WARNING
 static
 void
 udat_close
