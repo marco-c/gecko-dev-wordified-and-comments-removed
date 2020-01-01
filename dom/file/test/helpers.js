@@ -788,6 +788,10 @@ buffer
 )
 {
 return
+SpecialPowers
+.
+unwrap
+(
 utils
 .
 getBlob
@@ -800,6 +804,7 @@ type
 :
 type
 }
+)
 )
 ;
 }
@@ -831,11 +836,16 @@ blob
 )
 {
 return
+SpecialPowers
+.
+unwrap
+(
 utils
 .
 getFileId
 (
 blob
+)
 )
 ;
 }

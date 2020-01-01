@@ -242,6 +242,10 @@ view
 )
 {
 return
+SpecialPowers
+.
+unwrap
+(
 utils
 .
 getBlob
@@ -255,6 +259,7 @@ type
 type
 }
 )
+)
 ;
 }
 function
@@ -266,6 +271,10 @@ view
 )
 {
 return
+SpecialPowers
+.
+unwrap
+(
 utils
 .
 getFile
@@ -279,6 +288,7 @@ type
 :
 type
 }
+)
 )
 ;
 }

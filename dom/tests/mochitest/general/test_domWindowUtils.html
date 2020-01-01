@@ -688,6 +688,10 @@ px
 let
 found
 =
+SpecialPowers
+.
+unwrap
+(
 domWindowUtils
 .
 elementFromPoint
@@ -696,6 +700,7 @@ x
 y
 ignoreScroll
 flushLayout
+)
 )
 ;
 is
