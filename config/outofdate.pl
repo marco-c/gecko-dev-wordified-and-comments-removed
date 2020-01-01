@@ -451,9 +451,7 @@ class
 #
 files
 (
-non
--
-existent
+nonexistent
 class
 files
 are

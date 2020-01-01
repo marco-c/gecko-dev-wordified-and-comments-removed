@@ -35,9 +35,7 @@ storage
 has
 '
 for
-non
--
-existing
+nonexistent
 item
 "
 )
@@ -129,9 +127,7 @@ storage
 get
 '
 for
-non
--
-existing
+nonexistent
 item
 "
 )

@@ -164,9 +164,7 @@ stylesheet
 PIs
 pointing
 to
-non
--
-existing
+nonexistent
 resources
 gracefully
 .

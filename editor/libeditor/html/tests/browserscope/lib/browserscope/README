@@ -178,9 +178,7 @@ the
 tests
 from
 a
-non
--
-existent
+nonexistent
 datastore
 and
 write

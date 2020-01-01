@@ -85,9 +85,7 @@ prefs
 getValue
 '
 for
-non
--
-existing
+nonexistent
 item
 "
 )
@@ -115,9 +113,7 @@ prefs
 get
 '
 for
-non
--
-existing
+nonexistent
 item
 "
 )

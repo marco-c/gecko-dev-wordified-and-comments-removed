@@ -750,7 +750,7 @@ ltm
 forgetUsedTheme
 (
 "
-nonexisting
+nonexistent
 "
 )
 ;

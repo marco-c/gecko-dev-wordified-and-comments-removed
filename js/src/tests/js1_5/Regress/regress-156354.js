@@ -28,9 +28,7 @@ propertyIsEnumerable
 (
 )
 on
-non
--
-existent
+nonexistent
 property
 '
 ;

@@ -346,9 +346,7 @@ OpenCacheEntry
 NS_LITERAL_CSTRING
 (
 "
-non
--
-existent
+nonexistent
 entry
 "
 )
@@ -385,9 +383,7 @@ returned
 %
 x
 for
-non
--
-existent
+nonexistent
 entry
 \
 n

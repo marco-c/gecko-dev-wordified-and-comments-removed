@@ -362,9 +362,7 @@ testdesc
 Initialize
 with
 a
-non
--
-existent
+nonexistent
 data
 file
 "

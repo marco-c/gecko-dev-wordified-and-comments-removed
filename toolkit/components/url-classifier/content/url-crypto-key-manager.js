@@ -1997,9 +1997,7 @@ hasKey
 "
 KM
 loaded
-non
--
-existent
+nonexistent
 key
 ?
 "

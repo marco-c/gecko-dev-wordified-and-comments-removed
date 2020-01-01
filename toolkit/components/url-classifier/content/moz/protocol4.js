@@ -997,9 +997,7 @@ t
 =
 undefined
 "
-Non
--
-existent
+Nonexistent
 in
 multiline
 "

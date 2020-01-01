@@ -674,9 +674,7 @@ test
 ;
 looking
 up
-non
--
-existent
+nonexistent
 getter
 /
 setter
