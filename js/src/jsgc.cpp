@@ -9682,6 +9682,15 @@ return
 endif
 if
 (
+rt
+-
+>
+gcMode
+!
+=
+JSGC_MODE_COMPARTMENT
+|
+|
 comp
 =
 =
