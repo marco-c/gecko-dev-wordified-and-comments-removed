@@ -5104,11 +5104,6 @@ mContext
 DOMOperationCallback
 )
 ;
-xpc_LocalizeContext
-(
-mContext
-)
-;
 }
 mIsInitialized
 =

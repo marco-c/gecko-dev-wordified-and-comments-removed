@@ -3046,8 +3046,6 @@ trace
 NULL
 NULL
 NULL
-NULL
-NULL
 false
 }
 }
@@ -3104,8 +3102,6 @@ ArgumentsObject
 :
 trace
 {
-NULL
-NULL
 NULL
 NULL
 NULL
