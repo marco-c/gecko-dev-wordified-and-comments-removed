@@ -1828,9 +1828,9 @@ inLoop
 level
 :
 JSFB_LEVEL_BITS
+;
+uint32
 tcflags
-:
-16
 ;
 }
 ;
@@ -2275,7 +2275,7 @@ analyzeFunctions
 JSFunctionBox
 *
 funbox
-uint16
+uint32
 &
 tcflags
 )
@@ -2296,7 +2296,7 @@ setFunctionKinds
 JSFunctionBox
 *
 funbox
-uint16
+uint32
 &
 tcflags
 )

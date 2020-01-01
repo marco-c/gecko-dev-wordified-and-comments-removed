@@ -19967,10 +19967,6 @@ cg2
 >
 flags
 =
-(
-uint16
-)
-(
 pn
 -
 >
@@ -19980,7 +19976,6 @@ pn_funbox
 tcflags
 |
 TCF_IN_FUNCTION
-)
 ;
 #
 if

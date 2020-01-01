@@ -457,7 +457,7 @@ endif
 struct
 JSTreeContext
 {
-uint16
+uint32
 flags
 ;
 uint16
