@@ -499,6 +499,13 @@ h
 #
 import
 <
+CFError
+.
+h
+>
+#
+import
+<
 SystemConfiguration
 .
 h
