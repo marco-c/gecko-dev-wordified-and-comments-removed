@@ -833,7 +833,10 @@ if
 (
 maxItemId
 <
+parseInt
+(
 iid
+)
 )
 maxItemId
 =
