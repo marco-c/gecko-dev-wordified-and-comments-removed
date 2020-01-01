@@ -461,6 +461,10 @@ test_bug635636
 .
 html
 \
+test_bug780908
+.
+xul
+\
 green
 .
 png
