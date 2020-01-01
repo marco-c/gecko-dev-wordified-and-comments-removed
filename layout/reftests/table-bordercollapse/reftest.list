@@ -1117,17 +1117,3 @@ html
 double_borders_ref
 .
 html
-=
-=
-minimum_cell_width_calculation
--
-Border
--
-Box
-.
-html
-minimum_cell_width_calculation
--
-ref
-.
-html
