@@ -54,13 +54,6 @@ XPCWrapper
 .
 h
 "
-#
-include
-"
-XPCNativeWrapper
-.
-h
-"
 static
 inline
 QITableEntry

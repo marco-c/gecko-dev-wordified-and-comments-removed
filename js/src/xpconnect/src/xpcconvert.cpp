@@ -15,13 +15,6 @@ h
 #
 include
 "
-XPCNativeWrapper
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h
