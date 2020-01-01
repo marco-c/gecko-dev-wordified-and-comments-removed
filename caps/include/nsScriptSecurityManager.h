@@ -1233,6 +1233,11 @@ nsScriptSecurityManager
 (
 )
 ;
+bool
+SubjectIsPrivileged
+(
+)
+;
 static
 JSBool
 CheckObjectAccess
@@ -1498,15 +1503,6 @@ frameResult
 nsresult
 *
 rv
-)
-;
-static
-void
-FormatCapabilityString
-(
-nsAString
-&
-aCapability
 )
 ;
 nsresult
