@@ -2726,6 +2726,8 @@ GetExtraSizeForWidget
 (
 PRUint8
 aWidgetType
+PRBool
+aWidgetIsDefault
 nsIntMargin
 *
 aExtra
@@ -2858,13 +2860,18 @@ case
 NS_THEME_BUTTON
 :
 {
+if
+(
+aWidgetIsDefault
+)
+{
 gint
 top
 left
 bottom
 right
 ;
-moz_gtk_button_get_default_border
+moz_gtk_button_get_default_overflow
 (
 &
 top
@@ -2907,6 +2914,7 @@ left
 return
 PR_TRUE
 ;
+}
 }
 default
 :
@@ -3142,6 +3150,9 @@ if
 GetExtraSizeForWidget
 (
 aWidgetType
+state
+.
+isDefault
 &
 extraSize
 )
@@ -3850,6 +3861,10 @@ if
 GetExtraSizeForWidget
 (
 aWidgetType
+IsDefaultButton
+(
+aFrame
+)
 &
 extraSize
 )
