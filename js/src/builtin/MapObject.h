@@ -95,11 +95,9 @@ l
 {
 return
 k
-.
-equals
-(
+=
+=
 l
-)
 ;
 }
 static
@@ -176,7 +174,9 @@ hash
 const
 ;
 bool
-equals
+operator
+=
+=
 (
 const
 HashableValue
