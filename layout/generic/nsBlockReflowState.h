@@ -206,12 +206,8 @@ aReflowStatus
 PRBool
 CanPlaceFloat
 (
-const
-nsSize
-&
-aFloatSize
-PRUint8
-aFloats
+nscoord
+aFloatWidth
 const
 nsFlowAreaRect
 &
