@@ -142,13 +142,9 @@ object
 uint32
 freeslot
 ;
-protected
-:
 uint8
 flags
 ;
-public
-:
 int8
 hashShift
 ;
