@@ -5171,15 +5171,9 @@ ZealFrameVerifierPostValue
 ;
 const
 int
-ZealPurgeAnalysisValue
-=
-13
-;
-const
-int
 ZealLimit
 =
-13
+12
 ;
 enum
 VerifierType

@@ -227,14 +227,6 @@ interval
 )
 ;
 void
-enqueueAtHead
-(
-LiveInterval
-*
-interval
-)
-;
-void
 assertSorted
 (
 )

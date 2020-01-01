@@ -2711,11 +2711,6 @@ analysis
 (
 )
 ;
-bool
-isShortRunning
-(
-)
-;
 inline
 void
 clearPropertyReadTypes

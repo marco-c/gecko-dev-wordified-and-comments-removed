@@ -903,14 +903,6 @@ gcFinalizeCallback
 (
 NULL
 )
-analysisPurgeCallback
-(
-NULL
-)
-analysisPurgeTriggerBytes
-(
-0
-)
 gcMallocBytes
 (
 0
