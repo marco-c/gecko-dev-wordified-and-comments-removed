@@ -1117,9 +1117,6 @@ GCMarker
 *
 gcMarkingTracer
 ;
-uint32
-gcTriggerFactor
-;
 int64
 gcJitReleaseTime
 ;
@@ -1716,6 +1713,9 @@ mjitDataSize
 ;
 #
 endif
+size_t
+stringMemoryUsed
+;
 JSRuntime
 (
 )
@@ -1730,13 +1730,6 @@ init
 (
 uint32
 maxbytes
-)
-;
-void
-setGCTriggerFactor
-(
-uint32
-factor
 )
 ;
 void
