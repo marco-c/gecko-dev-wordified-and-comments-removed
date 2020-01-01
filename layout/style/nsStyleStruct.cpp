@@ -3581,6 +3581,15 @@ return
 NS_STYLE_HINT_REFLOW
 ;
 }
+const
+uint32_t
+nsStyleColumn
+:
+:
+kMaxColumnCount
+=
+1000
+;
 nsStyleColumn
 :
 :

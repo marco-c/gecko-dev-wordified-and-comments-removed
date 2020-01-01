@@ -36514,7 +36514,10 @@ column
 -
 >
 mColumnCount
-1000U
+nsStyleColumn
+:
+:
+kMaxColumnCount
 )
 ;
 }
