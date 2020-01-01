@@ -3826,6 +3826,10 @@ mSucceeded
 (
 PR_FALSE
 )
+mWasAsync
+(
+PR_FALSE
+)
 {
 }
 void
@@ -3930,6 +3934,9 @@ aLength
 }
 PRBool
 mSucceeded
+;
+PRPackedBool
+mWasAsync
 ;
 struct
 {
