@@ -11859,6 +11859,14 @@ bool
 newType
 )
 {
+fp
+-
+>
+setNativeReturnAddress
+(
+NULL
+)
+;
 if
 (
 fp
