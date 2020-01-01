@@ -2057,7 +2057,10 @@ nsIScriptContext
 >
 mContext
 ;
-nsWeakPtr
+nsCOMPtr
+<
+nsIDOMWindowInternal
+>
 mOpener
 ;
 nsCOMPtr
