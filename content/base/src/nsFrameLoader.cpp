@@ -8059,6 +8059,9 @@ if
 mMessageManager
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 ShouldUseRemoteProcess
@@ -8079,6 +8082,8 @@ nsnull
 )
 ;
 }
+#
+endif
 return
 NS_OK
 ;
