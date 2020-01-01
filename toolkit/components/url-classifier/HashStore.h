@@ -578,16 +578,8 @@ ReadHeader
 )
 ;
 nsresult
-ReadEntireStore
-(
-)
-;
-nsresult
 SanityCheck
 (
-nsIFile
-*
-aStoreFile
 )
 ;
 nsresult
