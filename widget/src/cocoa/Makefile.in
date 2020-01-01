@@ -588,6 +588,10 @@ GfxInfo
 .
 mm
 \
+WidgetTraceEvent
+.
+mm
+\
 (
 NULL
 )
