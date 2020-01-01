@@ -370,6 +370,7 @@ sendKey
 "
 ESCAPE
 "
+window
 )
 ;
 waitFor
@@ -609,6 +610,7 @@ sendKey
 "
 ESCAPE
 "
+window
 )
 ;
 Browser

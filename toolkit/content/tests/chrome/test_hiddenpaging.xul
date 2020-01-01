@@ -1005,12 +1005,6 @@ id
 ;
 listbox
 .
-focus
-(
-)
-;
-listbox
-.
 selectedIndex
 =
 0
@@ -1020,6 +1014,7 @@ sendKey
 "
 PAGE_DOWN
 "
+id
 )
 ;
 is
@@ -1081,6 +1076,7 @@ sendKey
 "
 PAGE_DOWN
 "
+id
 )
 ;
 is
@@ -1143,6 +1139,7 @@ sendKey
 "
 PAGE_DOWN
 "
+id
 )
 ;
 is
@@ -1203,6 +1200,7 @@ sendKey
 "
 PAGE_UP
 "
+id
 )
 ;
 is
@@ -1263,6 +1261,7 @@ sendKey
 "
 PAGE_UP
 "
+id
 )
 ;
 is
@@ -1325,6 +1324,7 @@ sendKey
 "
 PAGE_UP
 "
+id
 )
 ;
 is
@@ -1488,12 +1488,6 @@ height
 ;
 listbox
 .
-focus
-(
-)
-;
-listbox
-.
 selectedIndex
 =
 0
@@ -1503,6 +1497,7 @@ sendKey
 "
 PAGE_DOWN
 "
+id
 )
 ;
 is
@@ -1564,6 +1559,7 @@ sendKey
 "
 PAGE_DOWN
 "
+id
 )
 ;
 is
@@ -1626,6 +1622,7 @@ sendKey
 "
 PAGE_DOWN
 "
+id
 )
 ;
 is
@@ -1686,6 +1683,7 @@ sendKey
 "
 PAGE_UP
 "
+id
 )
 ;
 is
@@ -1760,6 +1758,7 @@ sendKey
 "
 PAGE_UP
 "
+id
 )
 ;
 is
@@ -1822,6 +1821,7 @@ sendKey
 "
 PAGE_UP
 "
+id
 )
 ;
 is

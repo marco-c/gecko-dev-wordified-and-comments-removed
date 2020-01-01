@@ -350,6 +350,7 @@ sendKey
 "
 ESCAPE
 "
+window
 )
 ;
 is
