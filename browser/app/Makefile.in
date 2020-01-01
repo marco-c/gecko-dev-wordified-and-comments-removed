@@ -721,6 +721,9 @@ dev
 null
 |
 sed
+-
+e
+"
 s
 /
 ^
@@ -730,6 +733,7 @@ ssh
 http
 :
 /
+"
 )
 ifdef
 SOURCE_REPO
