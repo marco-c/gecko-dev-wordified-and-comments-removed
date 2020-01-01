@@ -3467,12 +3467,8 @@ node
 ;
 default
 :
-this
-.
-_log
-.
-debug
-(
+fail
+=
 "
 Unexpected
 response
@@ -3483,7 +3479,6 @@ code
 node
 .
 status
-)
 ;
 break
 ;
