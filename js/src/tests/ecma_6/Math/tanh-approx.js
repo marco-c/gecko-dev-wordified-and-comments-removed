@@ -1,3 +1,8 @@
+var
+sloppy_tolerance
+=
+4
+;
 for
 (
 var
@@ -14,6 +19,7 @@ i
 +
 +
 )
+{
 assertNear
 (
 Math
@@ -55,8 +61,10 @@ exp
 i
 )
 )
+sloppy_tolerance
 )
 ;
+}
 assertEq
 (
 Math
@@ -2519,6 +2527,7 @@ tanh
 y
 )
 x
+sloppy_tolerance
 )
 ;
 reportCompare

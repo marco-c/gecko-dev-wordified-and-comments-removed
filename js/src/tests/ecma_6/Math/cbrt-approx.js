@@ -22,6 +22,11 @@ cbrt
 1
 )
 ;
+var
+sloppy_tolerance
+=
+200
+;
 assertNear
 (
 Math
@@ -35,6 +40,7 @@ cbrt
 1e
 -
 100
+sloppy_tolerance
 )
 ;
 assertNear
@@ -52,6 +58,7 @@ cbrt
 1e
 -
 100
+sloppy_tolerance
 )
 ;
 var
@@ -111,6 +118,7 @@ cbrt
 x
 )
 y
+sloppy_tolerance
 )
 ;
 reportCompare
