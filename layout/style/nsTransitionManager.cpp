@@ -688,6 +688,9 @@ Interpolate
 (
 pt
 .
+mProperty
+pt
+.
 mStartValue
 pt
 .
@@ -1821,6 +1824,7 @@ nsStyleAnimation
 :
 Interpolate
 (
+aProperty
 pt
 .
 mStartValue
@@ -2076,6 +2080,7 @@ nsStyleAnimation
 :
 ComputeDistance
 (
+aProperty
 pt
 .
 mStartValue
@@ -2119,6 +2124,7 @@ nsStyleAnimation
 :
 ComputeDistance
 (
+aProperty
 endVal
 pt
 .

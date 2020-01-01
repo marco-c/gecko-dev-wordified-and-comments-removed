@@ -986,6 +986,10 @@ Add
 destWrapper
 -
 >
+mPropID
+destWrapper
+-
+>
 mCSSValue
 *
 realValueToAdd
@@ -1211,6 +1215,10 @@ nsStyleAnimation
 :
 ComputeDistance
 (
+toWrapper
+-
+>
+mPropID
 *
 fromCSSValue
 toWrapper
@@ -1496,6 +1504,10 @@ nsStyleAnimation
 :
 Interpolate
 (
+endWrapper
+-
+>
+mPropID
 *
 startCSSValue
 endWrapper

@@ -69,6 +69,8 @@ static
 PRBool
 Add
 (
+nsCSSProperty
+aProperty
 Value
 &
 aDest
@@ -83,6 +85,7 @@ aCount
 return
 AddWeighted
 (
+aProperty
 1
 .
 0
@@ -97,6 +100,8 @@ static
 PRBool
 ComputeDistance
 (
+nsCSSProperty
+aProperty
 const
 Value
 &
@@ -114,6 +119,8 @@ static
 PRBool
 Interpolate
 (
+nsCSSProperty
+aProperty
 const
 Value
 &
@@ -155,6 +162,7 @@ range
 return
 AddWeighted
 (
+aProperty
 1
 .
 0
@@ -171,6 +179,8 @@ static
 PRBool
 AddWeighted
 (
+nsCSSProperty
+aProperty
 double
 aCoeff1
 const

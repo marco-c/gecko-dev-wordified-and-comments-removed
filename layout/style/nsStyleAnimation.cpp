@@ -234,6 +234,8 @@ nsStyleAnimation
 :
 ComputeDistance
 (
+nsCSSProperty
+aProperty
 const
 Value
 &
@@ -916,6 +918,7 @@ if
 !
 AddWeighted
 (
+aProperty
 1
 .
 0
@@ -931,6 +934,7 @@ normValue1
 !
 AddWeighted
 (
+aProperty
 0
 .
 0
@@ -1173,6 +1177,7 @@ if
 !
 AddWeighted
 (
+aProperty
 1
 .
 0
@@ -1188,6 +1193,7 @@ normValue1
 !
 AddWeighted
 (
+aProperty
 0
 .
 0
@@ -1533,6 +1539,7 @@ nsStyleAnimation
 :
 ComputeDistance
 (
+eCSSProperty_color
 color1Value
 color2Value
 colorDistance
@@ -2047,6 +2054,7 @@ nsStyleAnimation
 :
 AddWeighted
 (
+eCSSProperty_color
 aCoeff1
 color1Value
 aCoeff2
@@ -2155,6 +2163,8 @@ nsStyleAnimation
 :
 AddWeighted
 (
+nsCSSProperty
+aProperty
 double
 aCoeff1
 const
