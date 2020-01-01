@@ -38,6 +38,7 @@ debuggerHandler
 :
 function
 (
+frame
 )
 {
 log
