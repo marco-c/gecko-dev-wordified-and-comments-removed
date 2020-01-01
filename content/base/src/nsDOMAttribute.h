@@ -373,6 +373,15 @@ GetBaseURI
 )
 const
 ;
+virtual
+PRBool
+IsEqualNode
+(
+nsINode
+*
+aOtherNode
+)
+;
 static
 void
 Initialize
