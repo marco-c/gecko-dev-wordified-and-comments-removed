@@ -17,9 +17,7 @@ JS_32BIT
 #
 include
 "
-nunbox
-/
-Assembler
+NunboxAssembler
 .
 h
 "
@@ -30,9 +28,7 @@ JS_64BIT
 #
 include
 "
-nunbox
-/
-Assembler64
+PunboxAssembler
 .
 h
 "
