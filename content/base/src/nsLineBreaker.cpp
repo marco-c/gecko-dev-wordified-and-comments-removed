@@ -967,6 +967,11 @@ Elements
 )
 false
 aLength
+*
+sizeof
+(
+bool
+)
 )
 ;
 }
