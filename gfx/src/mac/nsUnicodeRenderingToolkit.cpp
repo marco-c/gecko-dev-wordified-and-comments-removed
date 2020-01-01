@@ -6206,7 +6206,7 @@ aLen
 *
 sizeof
 (
-Fixed
+Rect
 )
 )
 ;
