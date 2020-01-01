@@ -586,7 +586,7 @@ R
 .
 id
 .
-share
+home_share
 :
 {
 if
@@ -648,7 +648,7 @@ R
 .
 id
 .
-add_to_launcher
+home_add_to_launcher
 :
 {
 if

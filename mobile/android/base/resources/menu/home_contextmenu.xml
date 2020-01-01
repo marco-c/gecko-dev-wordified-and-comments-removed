@@ -181,7 +181,7 @@ id
 +
 id
 /
-share
+home_share
 "
 android
 :
@@ -273,7 +273,7 @@ id
 +
 id
 /
-add_to_launcher
+home_add_to_launcher
 "
 android
 :
