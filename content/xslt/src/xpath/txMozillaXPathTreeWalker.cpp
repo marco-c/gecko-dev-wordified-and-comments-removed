@@ -1904,7 +1904,10 @@ IsHTML
 )
 )
 {
-ToUpperCase
+nsContentUtils
+:
+:
+ASCIIToUpper
 (
 aLocalName
 )

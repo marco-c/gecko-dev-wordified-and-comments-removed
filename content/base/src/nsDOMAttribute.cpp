@@ -767,7 +767,7 @@ IsHTML
 )
 )
 {
-nsAutoString
+nsString
 name
 ;
 mNodeInfo
@@ -778,12 +778,16 @@ GetName
 name
 )
 ;
+nsAutoString
+lowercaseName
+;
 nsContentUtils
 :
 :
 ASCIIToLower
 (
 name
+lowercaseName
 )
 ;
 nsCOMPtr
@@ -794,7 +798,7 @@ nameAtom
 =
 do_GetAtom
 (
-name
+lowercaseName
 )
 ;
 nameAtom
