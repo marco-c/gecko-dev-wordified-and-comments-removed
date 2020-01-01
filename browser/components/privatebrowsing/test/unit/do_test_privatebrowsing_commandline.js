@@ -465,4 +465,12 @@ pb
 autoStarted
 )
 ;
+do_check_eq
+(
+pb
+.
+lastChangedByCommandLine
+true
+)
+;
 }
