@@ -761,6 +761,7 @@ vp
 ;
 }
 static
+inline
 jsdouble
 JS_FASTCALL
 math_atan2_kernel
@@ -984,6 +985,7 @@ vp
 static
 inline
 jsdouble
+JS_FASTCALL
 math_ceil_kernel
 (
 jsdouble
