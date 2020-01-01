@@ -3883,7 +3883,6 @@ JS_FALSE
 ifdef
 JS_TRACER
 static
-inline
 JSBool
 FASTCALL
 dense_grow
