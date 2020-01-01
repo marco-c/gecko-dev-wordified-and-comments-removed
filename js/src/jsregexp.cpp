@@ -4158,8 +4158,7 @@ RegExp
 "
 prototype
 "
-false
-false
+JSProto_Object
 proto
 -
 >

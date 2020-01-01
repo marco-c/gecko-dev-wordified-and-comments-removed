@@ -4205,8 +4205,7 @@ NULL
 js_Math_str
 "
 "
-false
-false
+JSProto_Object
 Math
 -
 >

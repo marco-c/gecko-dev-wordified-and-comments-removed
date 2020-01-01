@@ -17012,8 +17012,7 @@ js_ReflectClass
 name
 "
 "
-false
-false
+JSProto_Object
 Reflect
 -
 >

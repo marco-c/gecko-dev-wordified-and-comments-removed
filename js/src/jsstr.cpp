@@ -14337,7 +14337,7 @@ type
 GetTypeCallerInitObject
 (
 cx
-true
+JSProto_Array
 )
 ;
 if
@@ -18827,8 +18827,7 @@ String
 "
 prototype
 "
-false
-false
+JSProto_Object
 proto
 -
 >

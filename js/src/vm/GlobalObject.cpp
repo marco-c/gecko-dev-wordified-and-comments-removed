@@ -429,8 +429,7 @@ Global
 "
 "
 "
-false
-false
+JSProto_Object
 NULL
 )
 ;
