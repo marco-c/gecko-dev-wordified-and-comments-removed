@@ -795,6 +795,14 @@ CSS_KEY
 -
 moz
 -
+oddrowbackground
+_moz_oddrowbackground
+)
+CSS_KEY
+(
+-
+moz
+-
 oriya
 _moz_oriya
 )

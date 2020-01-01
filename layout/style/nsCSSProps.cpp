@@ -1553,6 +1553,11 @@ nsILookAndFeel
 :
 :
 eColor__moz_menubarhovertext
+eCSSKeyword__moz_oddrowbackground
+nsILookAndFeel
+:
+:
+eColor__moz_oddrowbackground
 eCSSKeyword__moz_visitedhyperlinktext
 NS_COLOR_MOZ_VISITEDHYPERLINKTEXT
 eCSSKeyword_currentcolor
