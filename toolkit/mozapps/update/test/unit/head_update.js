@@ -573,6 +573,9 @@ nsIXMLHttpRequest
 AUS_Ci
 .
 nsIJSXMLHttpRequest
+AUS_Ci
+.
+nsIXMLHttpRequestEventTarget
 ]
 ;
 count
@@ -680,6 +683,16 @@ equals
 AUS_Ci
 .
 nsIJSXMLHttpRequest
+)
+|
+|
+aIID
+.
+equals
+(
+AUS_Ci
+.
+nsIXMLHttpRequestEventTarget
 )
 |
 |
