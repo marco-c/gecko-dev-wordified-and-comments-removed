@@ -1327,6 +1327,10 @@ CustomElf
 (
 )
 {
+AddRef
+(
+)
+;
 debug
 (
 "

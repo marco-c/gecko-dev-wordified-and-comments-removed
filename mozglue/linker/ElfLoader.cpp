@@ -3917,8 +3917,13 @@ si_code
 SEGV_ACCERR
 )
 {
+mozilla
+:
+:
+RefPtr
+<
 LibHandle
-*
+>
 handle
 =
 ElfLoader
@@ -3932,10 +3937,6 @@ info
 -
 >
 si_addr
-)
-.
-drop
-(
 )
 ;
 if
