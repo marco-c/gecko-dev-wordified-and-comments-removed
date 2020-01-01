@@ -609,9 +609,6 @@ setTimeout
 XMLHttpRequest
 '
 '
-MozBlobBuilder
-'
-'
 FileReader
 '
 '
