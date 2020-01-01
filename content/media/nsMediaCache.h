@@ -68,6 +68,10 @@ mClient
 (
 aClient
 )
+mResourceID
+(
+0
+)
 mChannelOffset
 (
 0
@@ -219,6 +223,15 @@ GetLength
 (
 )
 ;
+PRInt64
+GetResourceID
+(
+)
+{
+return
+mResourceID
+;
+}
 PRInt64
 GetCachedDataEnd
 (
@@ -575,6 +588,9 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+PRInt64
+mResourceID
 ;
 PRInt64
 mChannelOffset

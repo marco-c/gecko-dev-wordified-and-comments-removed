@@ -4971,6 +4971,11 @@ UpdateReadyStateForData
 (
 )
 ;
+Progress
+(
+PR_FALSE
+)
+;
 }
 void
 nsWaveDecoder
