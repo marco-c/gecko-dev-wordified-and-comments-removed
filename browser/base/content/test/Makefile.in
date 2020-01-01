@@ -1283,6 +1283,10 @@ browser_URLBarSetURI
 .
 js
 \
+browser_bookmark_titles
+.
+js
+\
 (
 NULL
 )
