@@ -97,6 +97,10 @@ EXPORTS_mozilla
 +
 =
 \
+ASan
+.
+h
+\
 Assertions
 .
 h
