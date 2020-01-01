@@ -601,7 +601,6 @@ i
 }
 Log
 (
-L
 "
 Sending
 inputs
@@ -639,7 +638,6 @@ INPUT_KEYBOARD
 {
 Log
 (
-L
 "
 Key
 press
@@ -669,12 +667,10 @@ dwFlags
 &
 KEYEVENTF_KEYUP
 ?
-L
 "
 UP
 "
 :
-L
 "
 DOWN
 "
@@ -697,7 +693,6 @@ INPUT_MOUSE
 {
 Log
 (
-L
 "
 Mouse
 input
@@ -732,7 +727,6 @@ else
 {
 Log
 (
-L
 "
 Unknown
 input
@@ -762,7 +756,6 @@ inputs
 ;
 Log
 (
-L
 "
 Inputs
 sent
@@ -827,7 +820,6 @@ msg
 ;
 Log
 (
-L
 "
 Dispatched
 0x
@@ -854,7 +846,6 @@ lParam
 }
 Log
 (
-L
 "
 No
 more
@@ -1037,7 +1028,6 @@ eWindowType_dialog
 :
 Log
 (
-L
 "
 eWindowType_dialog
 window
@@ -1055,7 +1045,6 @@ eWindowType_child
 :
 Log
 (
-L
 "
 eWindowType_child
 window
@@ -1073,7 +1062,6 @@ eWindowType_popup
 :
 Log
 (
-L
 "
 eWindowType_popup
 window
@@ -1091,7 +1079,6 @@ eWindowType_plugin
 :
 Log
 (
-L
 "
 eWindowType_plugin
 window
@@ -1109,7 +1096,6 @@ eWindowType_invisible
 :
 Log
 (
-L
 "
 eWindowType_invisible
 window
@@ -1252,7 +1238,6 @@ NS_OK
 ;
 Log
 (
-L
 "
 [
 %
@@ -1270,7 +1255,7 @@ type
 d
 "
 this
-__WFUNCTION__
+__FUNCTION__
 mWnd
 mWindowType
 )
@@ -2140,7 +2125,6 @@ aUnmodifiedCharacters
 {
 Log
 (
-L
 "
 ENTERED
 SynthesizeNativeKeyEvent
@@ -2205,7 +2189,6 @@ GetKeyboardLayout
 ;
 Log
 (
-L
 "
 Current
 keyboard
@@ -2219,7 +2202,6 @@ oldKeyboardLayout
 ;
 Log
 (
-L
 "
 Loading
 keyboard
@@ -2259,7 +2241,6 @@ KLF_REPLACELANG
 ;
 Log
 (
-L
 "
 :
 :
@@ -2331,7 +2312,6 @@ newKeyboardLayout
 {
 Log
 (
-L
 "
 %
 08x
@@ -2369,7 +2349,6 @@ newKeyboardLayout
 {
 Log
 (
-L
 "
 %
 08x
@@ -2388,7 +2367,6 @@ true
 ;
 Log
 (
-L
 "
 Activating
 keyboard
@@ -2413,7 +2391,6 @@ KLF_SETFORPROCESS
 ;
 Log
 (
-L
 "
 :
 :
@@ -2512,7 +2489,6 @@ haveReplaced
 {
 Log
 (
-L
 "
 Loading
 all
@@ -2567,7 +2543,6 @@ KLF_REPLACELANG
 ;
 Log
 (
-L
 "
 :
 :
@@ -2583,7 +2558,6 @@ ret
 }
 Log
 (
-L
 "
 Activating
 previous
@@ -2607,7 +2581,6 @@ KLF_SETFORPROCESS
 ;
 Log
 (
-L
 "
 :
 :
@@ -2630,7 +2603,6 @@ haveReplaced
 {
 Log
 (
-L
 "
 Unloading
 keyboard
@@ -2657,7 +2629,6 @@ keyboardLayoutList
 ;
 Log
 (
-L
 "
 EXITING
 SynthesizeNativeKeyEvent
@@ -2684,7 +2655,6 @@ aModifierFlags
 {
 Log
 (
-L
 "
 ENTERED
 SynthesizeNativeMouseEvent
@@ -2806,7 +2776,6 @@ inputs
 ;
 Log
 (
-L
 "
 Exiting
 SynthesizeNativeMouseEvent
@@ -2841,7 +2810,6 @@ aAdditionalFlags
 {
 Log
 (
-L
 "
 ENTERED
 SynthesizeNativeMouseScrollEvent
@@ -2873,7 +2841,6 @@ aDeltaY
 ;
 Log
 (
-L
 "
 Vertical
 scroll
@@ -2906,7 +2873,6 @@ aDeltaX
 ;
 Log
 (
-L
 "
 Horizontal
 scroll
@@ -2922,7 +2888,6 @@ else
 {
 Log
 (
-L
 "
 ERROR
 Unrecognized
@@ -3061,7 +3026,6 @@ inputs
 ;
 Log
 (
-L
 "
 EXITING
 SynthesizeNativeMouseScrollEvent
@@ -3080,7 +3044,6 @@ CloseGesture
 {
 Log
 (
-L
 "
 shuting
 down

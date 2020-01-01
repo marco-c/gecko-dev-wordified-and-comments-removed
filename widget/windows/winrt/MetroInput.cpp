@@ -1216,7 +1216,6 @@ LogFunction
 ;
 Log
 (
-L
 "
 Accelerator
 key
