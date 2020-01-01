@@ -3041,7 +3041,7 @@ state
 mGeckoAccessible
 -
 >
-GetFinalState
+GetState
 (
 &
 state
@@ -3076,7 +3076,7 @@ state
 mGeckoAccessible
 -
 >
-GetFinalState
+GetState
 (
 &
 state
@@ -3134,7 +3134,7 @@ state
 mGeckoAccessible
 -
 >
-GetFinalState
+GetState
 (
 &
 state

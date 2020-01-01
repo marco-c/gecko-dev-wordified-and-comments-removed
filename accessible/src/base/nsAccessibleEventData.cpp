@@ -1739,7 +1739,7 @@ extraState
 accessible
 -
 >
-GetFinalState
+GetState
 (
 &
 state

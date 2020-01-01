@@ -787,11 +787,11 @@ chromeFlags
 }
 #
 endif
-NS_IMETHODIMP
+nsresult
 nsRootAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -807,7 +807,7 @@ rv
 nsDocAccessibleWrap
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState

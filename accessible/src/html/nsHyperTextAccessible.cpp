@@ -720,11 +720,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHyperTextAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -740,7 +740,7 @@ rv
 nsAccessibleWrap
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState

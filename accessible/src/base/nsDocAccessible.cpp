@@ -1033,11 +1033,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDocAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -1050,7 +1050,7 @@ aExtraState
 nsAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState
@@ -1440,7 +1440,7 @@ NS_ERROR_FAILURE
 PRUint32
 state
 ;
-GetState
+GetStateInternal
 (
 &
 state

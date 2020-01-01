@@ -336,7 +336,7 @@ extraState
 ;
 acc
 .
-getFinalState
+getState
 (
 state
 extraState

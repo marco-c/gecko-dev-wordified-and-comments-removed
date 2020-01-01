@@ -3122,7 +3122,7 @@ state
 aAccessible
 -
 >
-GetFinalState
+GetState
 (
 &
 state
@@ -4002,7 +4002,7 @@ rv
 accWrap
 -
 >
-GetFinalState
+GetState
 (
 &
 accState

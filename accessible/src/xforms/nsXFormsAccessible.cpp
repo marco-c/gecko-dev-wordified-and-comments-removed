@@ -610,11 +610,11 @@ aValue
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXFormsAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -771,7 +771,7 @@ rv
 nsHyperTextAccessibleWrap
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState
@@ -1119,11 +1119,11 @@ aShell
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsXFormsEditableAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -1144,7 +1144,7 @@ rv
 nsXFormsAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState

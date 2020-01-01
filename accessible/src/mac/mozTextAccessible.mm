@@ -598,7 +598,7 @@ state
 mGeckoAccessible
 -
 >
-GetFinalState
+GetState
 (
 &
 state

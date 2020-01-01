@@ -434,7 +434,7 @@ extraState
 ;
 aAcc
 .
-getFinalState
+getState
 (
 state
 extraState
@@ -989,7 +989,7 @@ extraStateNormal
 ;
 normalLabelAcc
 .
-getFinalState
+getState
 (
 stateNormal
 extraStateNormal

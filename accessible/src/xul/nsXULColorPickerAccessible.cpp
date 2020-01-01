@@ -55,11 +55,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULColorPickerTileAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -75,7 +75,7 @@ rv
 nsFormControlAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState
@@ -295,11 +295,11 @@ aShell
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsXULColorPickerAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -315,7 +315,7 @@ rv
 nsFormControlAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState

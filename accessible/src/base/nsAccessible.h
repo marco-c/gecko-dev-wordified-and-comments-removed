@@ -308,8 +308,9 @@ nsAString
 aName
 )
 ;
-NS_IMETHOD
-GetState
+virtual
+nsresult
+GetStateInternal
 (
 PRUint32
 *

@@ -286,11 +286,11 @@ nsHTMLImageAccessible
 nsAccessible
 nsIAccessibleImage
 )
-NS_IMETHODIMP
+nsresult
 nsHTMLImageAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -306,7 +306,7 @@ rv
 nsLinkableAccessible
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState

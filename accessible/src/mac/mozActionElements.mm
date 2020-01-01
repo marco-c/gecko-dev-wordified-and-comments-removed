@@ -868,7 +868,7 @@ state
 mGeckoAccessible
 -
 >
-GetState
+GetStateInternal
 (
 &
 state

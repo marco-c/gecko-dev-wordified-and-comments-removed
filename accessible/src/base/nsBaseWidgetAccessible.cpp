@@ -293,11 +293,11 @@ TakeFocus
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsLinkableAccessible
 :
 :
-GetState
+GetStateInternal
 (
 PRUint32
 *
@@ -313,7 +313,7 @@ rv
 nsHyperTextAccessibleWrap
 :
 :
-GetState
+GetStateInternal
 (
 aState
 aExtraState
