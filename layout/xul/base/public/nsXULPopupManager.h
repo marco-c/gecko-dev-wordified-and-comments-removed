@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsPoint
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -940,6 +947,9 @@ SetMouseLocation
 nsIDOMEvent
 *
 aEvent
+nsIContent
+*
+aPopup
 )
 ;
 void
@@ -1337,6 +1347,9 @@ mRangeParent
 ;
 PRInt32
 mRangeOffset
+;
+nsPoint
+mCachedMousePoint
 ;
 nsMenuBarFrame
 *
