@@ -5569,6 +5569,11 @@ style
 ;
 GtkStateType
 state_type
+=
+ConvertGtkState
+(
+state
+)
 ;
 ensure_expander_widget
 (
