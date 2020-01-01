@@ -1032,6 +1032,9 @@ bool
 aGoForward
 bool
 bNoBlockCrossing
+nsIContent
+*
+aActiveEditorRoot
 )
 ;
 nsresult
@@ -1245,6 +1248,11 @@ bool
 bNoBlockCrossing
 =
 false
+nsIContent
+*
+aActiveEditorRoot
+=
+nsnull
 )
 ;
 nsresult
@@ -1267,6 +1275,11 @@ bool
 bNoBlockCrossing
 =
 false
+nsIContent
+*
+aActiveEditorRoot
+=
+nsnull
 )
 ;
 nsresult
@@ -1287,6 +1300,11 @@ bool
 bNoBlockCrossing
 =
 false
+nsIContent
+*
+aActiveEditorRoot
+=
+nsnull
 )
 ;
 nsresult
@@ -1309,6 +1327,11 @@ bool
 bNoBlockCrossing
 =
 false
+nsIContent
+*
+aActiveEditorRoot
+=
+nsnull
 )
 ;
 nsIContent
@@ -1324,6 +1347,9 @@ bool
 aEditableNode
 bool
 bNoBlockCrossing
+nsIContent
+*
+aActiveEditorRoot
 )
 ;
 already_AddRefed
