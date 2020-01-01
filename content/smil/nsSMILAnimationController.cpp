@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimationElement
-.
-h
-"
-#
-include
-"
 nsSMILTimedElement
 .
 h

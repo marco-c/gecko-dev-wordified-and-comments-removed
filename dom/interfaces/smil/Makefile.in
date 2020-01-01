@@ -88,10 +88,6 @@ dom_smil
 XPIDLSRCS
 =
 \
-nsIDOMElementTimeControl
-.
-idl
-\
 nsIDOMTimeEvent
 .
 idl

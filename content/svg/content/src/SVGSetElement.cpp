@@ -61,14 +61,13 @@ aTriedToWrap
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED4
+NS_IMPL_ISUPPORTS_INHERITED3
 (
 SVGSetElement
 SVGAnimationElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
-nsIDOMSVGAnimationElement
 )
 SVGSetElement
 :
