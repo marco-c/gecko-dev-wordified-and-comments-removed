@@ -476,6 +476,14 @@ mozIStorageValueArray
 .
 idl
 \
+mozIStorageResultSet
+.
+idl
+\
+mozIStorageRow
+.
+idl
+\
 (
 NULL
 )
