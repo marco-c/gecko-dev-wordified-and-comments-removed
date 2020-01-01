@@ -3011,6 +3011,12 @@ dependence
 ref
 .
 html
+fails
+-
+if
+(
+cocoaWidget
+)
 =
 =
 height
@@ -3029,6 +3035,9 @@ dependence
 ref
 .
 html
+#
+bug
+535007
 =
 =
 height
