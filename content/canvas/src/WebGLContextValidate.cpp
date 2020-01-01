@@ -1468,6 +1468,7 @@ if
 (
 index
 >
+=
 mAttribBuffers
 .
 Length
@@ -1504,7 +1505,7 @@ probably
 comes
 from
 a
-getAttribLication
+getAttribLocation
 (
 )
 call
