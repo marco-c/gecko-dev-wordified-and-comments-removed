@@ -62,33 +62,6 @@ nsIBrowserHistory
 )
 ;
 const
-iosvc
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-network
-/
-io
--
-service
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIIOService
-)
-;
-const
 formhist
 =
 Cc
@@ -382,7 +355,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -412,7 +385,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -444,7 +417,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -477,7 +450,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -509,7 +482,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -542,7 +515,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -574,7 +547,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -613,7 +586,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -645,7 +618,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1059,7 +1032,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1089,7 +1062,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1122,7 +1095,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1154,7 +1127,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1187,7 +1160,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1219,7 +1192,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1258,7 +1231,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1290,7 +1263,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1676,7 +1649,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1709,7 +1682,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1741,7 +1714,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1774,7 +1747,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1806,7 +1779,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1845,7 +1818,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -1877,7 +1850,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2217,7 +2190,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2250,7 +2223,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2283,7 +2256,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2315,7 +2288,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2354,7 +2327,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2386,7 +2359,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2715,7 +2688,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2748,7 +2721,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2780,7 +2753,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2819,7 +2792,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -2851,7 +2824,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3113,7 +3086,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3146,7 +3119,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3185,7 +3158,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3217,7 +3190,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3448,7 +3421,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3488,7 +3461,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3520,7 +3493,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3703,7 +3676,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3736,7 +3709,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3868,7 +3841,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -3948,7 +3921,7 @@ bhist
 .
 addPageWithDetails
 (
-uri
+makeURI
 (
 "
 http
@@ -3979,7 +3952,7 @@ bhist
 .
 addPageWithDetails
 (
-uri
+makeURI
 (
 "
 http
@@ -4012,7 +3985,7 @@ bhist
 .
 addPageWithDetails
 (
-uri
+makeURI
 (
 "
 http
@@ -4045,7 +4018,7 @@ bhist
 .
 addPageWithDetails
 (
-uri
+makeURI
 (
 "
 http
@@ -4078,7 +4051,7 @@ bhist
 .
 addPageWithDetails
 (
-uri
+makeURI
 (
 "
 http
@@ -4111,7 +4084,7 @@ bhist
 .
 addPageWithDetails
 (
-uri
+makeURI
 (
 "
 http
@@ -4144,7 +4117,7 @@ bhist
 .
 addPageWithDetails
 (
-uri
+makeURI
 (
 "
 http
@@ -4205,7 +4178,7 @@ bhist
 .
 addPageWithDetails
 (
-uri
+makeURI
 (
 "
 http
@@ -4255,7 +4228,7 @@ bhist
 .
 addPageWithDetails
 (
-uri
+makeURI
 (
 "
 http
@@ -4289,7 +4262,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -4321,7 +4294,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -4352,7 +4325,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -4384,7 +4357,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -4415,7 +4388,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -4447,7 +4420,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -4478,7 +4451,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -4510,7 +4483,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -4541,7 +4514,7 @@ bhist
 .
 isVisited
 (
-uri
+makeURI
 (
 "
 http
@@ -6752,22 +6725,5 @@ finalize
 ;
 return
 rows
-;
-}
-function
-uri
-(
-spec
-)
-{
-return
-iosvc
-.
-newURI
-(
-spec
-null
-null
-)
 ;
 }
