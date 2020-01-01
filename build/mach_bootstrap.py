@@ -829,6 +829,10 @@ exit
 (
 1
 )
+        
+state_dir
+=
+state_env_dir
     
 else
 :
@@ -954,6 +958,10 @@ exit
 (
 1
 )
+        
+state_dir
+=
+state_user_dir
     
 try
 :
@@ -997,6 +1005,19 @@ mach
 .
 main
     
+def
+populate_context
+(
+context
+)
+:
+        
+context
+.
+state_dir
+=
+state_dir
+    
 mach
 =
 mach
@@ -1007,6 +1028,12 @@ Mach
 (
 topsrcdir
 )
+    
+mach
+.
+populate_context_handler
+=
+populate_context
     
 for
 category
