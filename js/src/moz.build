@@ -910,11 +910,6 @@ jsiter
 cpp
 '
 '
-jslog2
-.
-cpp
-'
-'
 jsmath
 .
 cpp
