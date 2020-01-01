@@ -57,7 +57,7 @@ healthreport
 infoURL
 "
 "
-http
+https
 :
 /
 /
