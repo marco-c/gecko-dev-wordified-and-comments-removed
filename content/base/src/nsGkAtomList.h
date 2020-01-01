@@ -13095,6 +13095,13 @@ SVGMarkerFrame
 )
 GK_ATOM
 (
+svgMarkerAnonChildFrame
+"
+SVGMarkerAnonChildFrame
+"
+)
+GK_ATOM
+(
 svgMaskFrame
 "
 SVGMaskFrame

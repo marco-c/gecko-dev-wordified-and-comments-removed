@@ -560,6 +560,10 @@ nsSVGMarkerFrame
 )
 FRAME_ID
 (
+nsSVGMarkerAnonChildFrame
+)
+FRAME_ID
+(
 nsSVGMaskFrame
 )
 FRAME_ID
