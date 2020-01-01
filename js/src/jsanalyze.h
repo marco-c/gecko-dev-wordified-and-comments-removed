@@ -295,6 +295,12 @@ bool
 isArray
 )
 ;
+inline
+JSValueType
+getKnownTypeTag
+(
+)
+;
 void
 print
 (

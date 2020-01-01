@@ -696,6 +696,12 @@ TypeSet
 object
 )
 ;
+inline
+JSValueType
+getKnownTypeTag
+(
+)
+;
 static
 inline
 TypeSet

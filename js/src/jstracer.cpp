@@ -1335,12 +1335,14 @@ return
 *
 '
 ;
-}
+default
+:
 return
 '
 ?
 '
 ;
+}
 }
 static
 char
