@@ -1867,6 +1867,7 @@ aIndex
 UpdateListIndicesFromIndex
 (
 aIndex
+0
 -
 (
 argCount
@@ -2198,6 +2199,7 @@ animVal
 UpdateListIndicesFromIndex
 (
 aIndex
+0
 -
 (
 1
