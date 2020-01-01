@@ -511,6 +511,14 @@ TaskbarPreviewButton
 .
 cpp
 \
+JumpListBuilder
+.
+cpp
+\
+JumpListItem
+.
+cpp
+\
 (
 NULL
 )

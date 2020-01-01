@@ -510,6 +510,7 @@ comctl32
 comdlg32
 shell32
 imm32
+shlwapi
 )
 endif
 SHARED_LIBRARY_LIBS

@@ -413,6 +413,12 @@ config
 autoconf
 .
 mk
+MODULE
+=
+test_widget
+XPCSHELL_TESTS
+=
+unit
 ifeq
 (
 (
