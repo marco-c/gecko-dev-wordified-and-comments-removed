@@ -1620,6 +1620,13 @@ GetPreferredCompositorBackend
 (
 )
 ;
+virtual
+void
+WindowUsesOMTC
+(
+)
+{
+}
 protected
 :
 void

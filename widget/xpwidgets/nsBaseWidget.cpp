@@ -3630,6 +3630,10 @@ IdentifyCompositorTextureHost
 textureFactoryIdentifier
 )
 ;
+WindowUsesOMTC
+(
+)
+;
 mLayerManager
 =
 lm
