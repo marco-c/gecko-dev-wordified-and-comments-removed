@@ -296,7 +296,7 @@ FILE
 *
 aFile
 =
-NULL
+nullptr
 const
 char
 *

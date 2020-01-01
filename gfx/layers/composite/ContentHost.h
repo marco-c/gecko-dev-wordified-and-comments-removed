@@ -304,7 +304,7 @@ FILE
 *
 aFile
 =
-NULL
+nullptr
 const
 char
 *
@@ -511,7 +511,7 @@ FILE
 *
 aFile
 =
-NULL
+nullptr
 const
 char
 *
