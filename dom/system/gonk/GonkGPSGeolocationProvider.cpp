@@ -1693,7 +1693,6 @@ ToInteger
 (
 &
 result
-10
 )
 ;
 if
@@ -1740,7 +1739,6 @@ ToInteger
 (
 &
 result
-10
 )
 ;
 if

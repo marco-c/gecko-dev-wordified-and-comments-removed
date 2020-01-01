@@ -1434,7 +1434,6 @@ ToInteger
 (
 &
 rv
-10
 )
 ;
 if

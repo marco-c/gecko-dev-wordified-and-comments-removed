@@ -5954,7 +5954,6 @@ ToInteger
 (
 &
 errorCode
-10
 )
 ;
 if
