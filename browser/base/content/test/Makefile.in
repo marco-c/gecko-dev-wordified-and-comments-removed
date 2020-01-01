@@ -500,6 +500,14 @@ browser_getshortcutoruri
 .
 js
 \
+browser_sanitize
+-
+download
+-
+history
+.
+js
+\
 (
 NULL
 )
