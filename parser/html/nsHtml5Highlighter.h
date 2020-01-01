@@ -344,12 +344,6 @@ mBuffer
 bool
 mSyntaxHighlight
 ;
-bool
-mWrapLongLines
-;
-PRInt32
-mTabSize
-;
 nsTArray
 <
 nsHtml5TreeOperation
