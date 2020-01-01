@@ -406,7 +406,8 @@ descRole
 .
 label
 "
-Role
+R
+le
 :
 "
 >
@@ -417,7 +418,7 @@ descName
 .
 label
 "
-Name
+Nom
 :
 "
 >
@@ -439,7 +440,7 @@ descValue
 .
 label
 "
-Value
+Valeur
 :
 "
 >
@@ -450,7 +451,7 @@ descState
 .
 label
 "
-State
+tat
 :
 "
 >
@@ -461,8 +462,11 @@ descActionName
 .
 label
 "
-Action
-Name
+Nom
+de
+l
+'
+action
 :
 "
 >
