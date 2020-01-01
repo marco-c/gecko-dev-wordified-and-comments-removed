@@ -1575,6 +1575,14 @@ test_htmlcopyencoder
 .
 html
 \
+test_bug313646
+.
+html
+\
+bug313646
+.
+txt
+\
 test_htmlcopyencoder
 .
 xhtml
