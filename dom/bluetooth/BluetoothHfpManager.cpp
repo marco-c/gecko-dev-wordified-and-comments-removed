@@ -2959,6 +2959,10 @@ mData
 get
 (
 )
+aMessage
+-
+>
+mSize
 )
 ;
 msg
