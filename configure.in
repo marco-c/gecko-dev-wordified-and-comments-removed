@@ -59883,9 +59883,16 @@ i
 *
 86
 )
-_WIN32_CRT_CPU
+MOZ_CRT_CPU_ARCH
 =
 intel
+;
+;
+x86_64
+)
+MOZ_CRT_CPU_ARCH
+=
+amd64
 ;
 ;
 *
@@ -59909,6 +59916,10 @@ target
 ;
 ;
 esac
+AC_SUBST
+(
+MOZ_CRT_CPU_ARCH
+)
 if
 test
 !
@@ -59963,7 +59974,7 @@ crtsrc
 /
 build
 /
-_WIN32_CRT_CPU
+MOZ_CRT_CPU_ARCH
 "
 MOZ_MEMORY_LDFLAGS
 =
