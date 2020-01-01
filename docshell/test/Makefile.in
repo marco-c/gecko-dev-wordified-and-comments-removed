@@ -716,6 +716,10 @@ test_bug675587
 .
 html
 \
+test_bfcache_plus_hash
+.
+html
+\
 test_bug680257
 .
 html
