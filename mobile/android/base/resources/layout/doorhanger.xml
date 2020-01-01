@@ -261,6 +261,13 @@ orientation
 "
 horizontal
 "
+android
+:
+visibility
+=
+"
+gone
+"
 /
 >
 <

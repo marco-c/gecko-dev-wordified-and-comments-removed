@@ -97,6 +97,7 @@ configure
 sh
 MOZ_SAFE_BROWSING
 =
+1
 MOZ_DISABLE_DOMCRYPTO
 =
 1

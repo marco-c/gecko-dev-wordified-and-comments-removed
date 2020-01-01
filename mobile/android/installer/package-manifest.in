@@ -2267,6 +2267,9 @@ BINPATH
 modules
 /
 *
+#
+ifdef
+MOZ_SAFE_BROWSING
 ;
 Safe
 Browsing
@@ -2307,6 +2310,8 @@ url
 classifier
 .
 xpt
+#
+endif
 ;
 GNOME
 hooks
@@ -3317,7 +3322,7 @@ components
 /
 SafeBrowsing
 .
-js
+jsm
 #
 endif
 BINPATH
