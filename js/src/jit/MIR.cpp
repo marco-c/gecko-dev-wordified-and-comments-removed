@@ -12727,13 +12727,10 @@ InlinePropertyTable
 :
 trimTo
 (
-AutoObjectVector
+ObjectVector
 &
 targets
-Vector
-<
-bool
->
+BoolVector
 &
 choiceSet
 )
@@ -12837,7 +12834,7 @@ InlinePropertyTable
 :
 trimToTargets
 (
-AutoObjectVector
+ObjectVector
 &
 targets
 )

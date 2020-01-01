@@ -345,11 +345,7 @@ maybeShapesForPropertyOp
 jsbytecode
 *
 pc
-Vector
-<
-Shape
-*
->
+ShapeVector
 &
 shapes
 )
