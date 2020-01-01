@@ -9466,7 +9466,7 @@ AddAttributes
 (
 aNode
 mHead
-PR_FALSE
+PR_TRUE
 mHaveSeenHead
 )
 ;
