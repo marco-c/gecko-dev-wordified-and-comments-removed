@@ -3926,9 +3926,11 @@ if
 target
 .
 _empty
+=
+=
+false
 )
-return
-;
+{
 this
 .
 _selectedIndex
@@ -3948,6 +3950,7 @@ handleEnter
 true
 )
 ;
+}
 ]
 ]
 >
