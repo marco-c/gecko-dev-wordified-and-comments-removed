@@ -5132,7 +5132,7 @@ ParseReportKind
 {
 ParseError
 ParseWarning
-ParseStrictWarning
+ParseExtraWarning
 ParseStrictError
 }
 ;
