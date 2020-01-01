@@ -262,6 +262,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FunctionTimer
 .
 h
@@ -402,6 +411,7 @@ PR_LOG_DEBUG
 )
 class
 nsDocumentOpenInfo
+MOZ_FINAL
 :
 public
 nsIStreamListener
