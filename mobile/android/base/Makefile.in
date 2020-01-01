@@ -715,6 +715,12 @@ java
 \
 gfx
 /
+SurfaceTextureLayer
+.
+java
+\
+gfx
+/
 TextLayer
 .
 java
