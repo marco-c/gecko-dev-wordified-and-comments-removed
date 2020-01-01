@@ -659,12 +659,12 @@ GRE_BUILDID
 )
 ifdef
 MOZ_MEMORY
-ifeq
+ifneq
 (
 (
 OS_ARCH
 )
-Darwin
+WINNT
 )
 LIBS
 +
