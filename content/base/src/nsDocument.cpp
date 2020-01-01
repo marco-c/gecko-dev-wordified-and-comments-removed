@@ -3175,10 +3175,8 @@ data
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ExternalResourceEnumerator
 (
 nsIURI
@@ -3275,10 +3273,8 @@ args
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ExternalResourceTraverser
 (
 nsIURI

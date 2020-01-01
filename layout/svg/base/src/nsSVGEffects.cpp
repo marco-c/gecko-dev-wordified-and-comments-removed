@@ -1730,7 +1730,6 @@ filter
 }
 static
 PLDHashOperator
-PR_CALLBACK
 GatherEnumerator
 (
 nsVoidPtrHashKey

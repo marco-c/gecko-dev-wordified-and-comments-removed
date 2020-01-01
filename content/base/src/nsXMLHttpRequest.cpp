@@ -4034,7 +4034,6 @@ Clear
 )
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 nsAccessControlLRUCache
 :

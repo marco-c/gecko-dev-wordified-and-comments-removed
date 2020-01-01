@@ -10053,10 +10053,8 @@ mZoom
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 SetExtResourceTextZoom
 (
 nsIDocument
@@ -10131,10 +10129,8 @@ return
 PR_TRUE
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 SetExtResourceFullZoom
 (
 nsIDocument

@@ -2734,7 +2734,6 @@ return
 }
 static
 PLDHashOperator
-PR_CALLBACK
 FindFullName
 (
 nsStringHashKey
