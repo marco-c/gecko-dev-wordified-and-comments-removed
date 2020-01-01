@@ -233,9 +233,6 @@ struct
 SideExit
 ;
 struct
-SwitchInfo
-;
-struct
 GuardRecord
 {
 void
@@ -285,10 +282,6 @@ from
 Fragment
 *
 target
-;
-SwitchInfo
-*
-switchInfo
 ;
 void
 addGuard

@@ -6254,9 +6254,6 @@ case
 LIR_line
 :
 case
-LIR_xtbl
-:
-case
 LIR_jtbl
 :
 nyi
