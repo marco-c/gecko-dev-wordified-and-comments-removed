@@ -5159,7 +5159,7 @@ mem
 .
 gc_frequency
 "
-1600
+300
 )
 ;
 pref

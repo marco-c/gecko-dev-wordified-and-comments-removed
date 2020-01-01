@@ -16083,7 +16083,7 @@ nsContentUtils
 GetIntPref
 (
 aPrefName
-1600
+300
 )
 ;
 JS_SetGCParameter
