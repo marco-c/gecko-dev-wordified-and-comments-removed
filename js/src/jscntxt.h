@@ -362,11 +362,11 @@ globalTypeMap
 ;
 jsval
 *
-recoveryDoublePool
+reservedDoublePool
 ;
 jsval
 *
-recoveryDoublePoolPtr
+reservedDoublePoolPtr
 ;
 JSObject
 *
