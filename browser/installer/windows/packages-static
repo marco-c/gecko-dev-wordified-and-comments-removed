@@ -1483,6 +1483,13 @@ components
 txEXSLTRegExFunctions
 .
 js
+bin
+\
+components
+\
+nsLivemarkService
+.
+js
 ;
 Safe
 Browsing
