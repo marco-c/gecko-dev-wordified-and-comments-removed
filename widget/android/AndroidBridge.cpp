@@ -7626,13 +7626,6 @@ env
 glController
 )
 ;
-sController
-.
-SetGLVersion
-(
-2
-)
-;
 }
 }
 EGLSurface

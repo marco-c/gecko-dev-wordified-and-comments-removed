@@ -64,13 +64,6 @@ aJObj
 )
 ;
 void
-SetGLVersion
-(
-int
-aVersion
-)
-;
-void
 Reacquire
 (
 JNIEnv
@@ -92,10 +85,6 @@ WaitForValidSurface
 ;
 private
 :
-static
-jmethodID
-jSetGLVersionMethod
-;
 static
 jmethodID
 jWaitForValidSurfaceMethod
