@@ -375,4 +375,9 @@ PMemoryReportRequest
 .
 ipdl
 '
+'
+PTabContext
+.
+ipdlh
+'
 ]
