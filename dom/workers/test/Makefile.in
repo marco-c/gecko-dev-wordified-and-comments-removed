@@ -454,6 +454,14 @@ errorwarning_worker
 .
 js
 \
+test_contentWorker
+.
+html
+\
+content_worker
+.
+js
+\
 (
 NULL
 )
