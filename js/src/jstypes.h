@@ -1069,10 +1069,6 @@ int
 JSUintn
 ;
 typedef
-double
-JSFloat64
-;
-typedef
 size_t
 JSSize
 ;

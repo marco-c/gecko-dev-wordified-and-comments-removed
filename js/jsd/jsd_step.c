@@ -656,9 +656,6 @@ lastCallStart
 ;
 delta
 =
-(
-JSFloat64
-)
 ll_delta
 ;
 delta
@@ -748,9 +745,6 @@ ll_delta
 ;
 delta
 =
-(
-JSFloat64
-)
 pdata
 -
 >

@@ -125,9 +125,5 @@ int8
 ;
 #
 endif
-typedef
-JSFloat64
-float64
-;
 #
 endif
