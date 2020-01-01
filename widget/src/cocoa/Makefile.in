@@ -467,7 +467,7 @@ exthandler
 \
 appshell
 \
-lcms
+qcms
 \
 thebes
 \
@@ -673,7 +673,7 @@ MOZ_COMPONENT_LIBS
 lthebes
 \
 (
-LCMS_LIBS
+QCMS_LIBS
 )
 \
 (

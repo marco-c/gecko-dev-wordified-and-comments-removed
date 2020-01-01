@@ -460,9 +460,7 @@ PNG_REQUIRES
 ZLIB_REQUIRES
 )
 \
-(
-LCMS_REQUIRES
-)
+qcms
 \
 (
 NULL
@@ -665,7 +663,7 @@ ZLIB_LIBS
 )
 \
 (
-LCMS_LIBS
+QCMS_LIBS
 )
 \
 (

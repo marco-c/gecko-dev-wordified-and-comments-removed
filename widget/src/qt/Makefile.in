@@ -604,10 +604,6 @@ lgkgfx
 lthebes
 \
 (
-LCMS_LIBS
-)
-\
-(
 MOZ_JS_LIBS
 )
 \
@@ -617,6 +613,10 @@ MOZ_QT_LIBS
 \
 (
 GLIB_LIBS
+)
+\
+(
+QCMS_LIBS
 )
 \
 (

@@ -441,9 +441,7 @@ thebes
 \
 imglib2
 \
-(
-LCMS_REQUIRES
-)
+qcms
 \
 (
 NULL

@@ -460,6 +460,8 @@ docshell
 \
 thebes
 \
+qcms
+\
 (
 NULL
 )

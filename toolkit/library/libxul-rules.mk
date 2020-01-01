@@ -402,7 +402,7 @@ PNG_LIBS
 )
 \
 (
-LCMS_LIBS
+QCMS_LIBS
 )
 \
 (

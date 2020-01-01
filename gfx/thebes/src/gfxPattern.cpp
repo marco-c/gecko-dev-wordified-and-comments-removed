@@ -33,13 +33,6 @@ cairo
 .
 h
 "
-#
-include
-"
-lcms
-.
-h
-"
 gfxPattern
 :
 :

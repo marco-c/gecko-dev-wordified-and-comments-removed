@@ -538,7 +538,8 @@ userArg
 )
 ;
 virtual
-cmsHPROFILE
+qcms_profile
+*
 GetPlatformCMSOutputProfile
 (
 )
