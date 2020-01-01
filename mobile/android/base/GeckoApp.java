@@ -6981,7 +6981,9 @@ rel
 indexOf
 (
 "
+[
 icon
+]
 "
 )
 !
