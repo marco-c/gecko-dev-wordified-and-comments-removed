@@ -3926,9 +3926,6 @@ Init
 (
 )
 {
-nsresult
-rv
-;
 ReadAcceptHeaderPref
 (
 )
