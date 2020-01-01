@@ -1483,7 +1483,7 @@ self
 loc
 trigger
 msg
-toState
+toStates
 )
 :
         
@@ -1509,9 +1509,9 @@ msg
         
 self
 .
-toState
+toStates
 =
-toState
+toStates
     
 staticmethod
     
@@ -1738,7 +1738,7 @@ self
 o
 )
 :
-        
+         
 return
 (
 isinstance
@@ -1746,7 +1746,7 @@ isinstance
 o
 State
 )
-                
+                 
 and
 o
 .
@@ -1756,7 +1756,7 @@ name
 self
 .
 name
-                
+                 
 and
 o
 .
@@ -1816,7 +1816,7 @@ r
 start
 =
 %
-s
+r
 >
 '
 %
