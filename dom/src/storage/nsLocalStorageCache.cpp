@@ -746,10 +746,7 @@ mScopeNames
 .
 AppendElement
 (
-nsCString
-(
 aScopeName
-)
 )
 ;
 flushData
@@ -1126,10 +1123,7 @@ mEvicted
 .
 AppendElement
 (
-nsCString
-(
 aScopeName
-)
 )
 ;
 data
