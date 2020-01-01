@@ -90,6 +90,10 @@ PropertyPanel
 .
 jsm
 \
+PropertyPanelAsync
+.
+jsm
+\
 NetworkHelper
 .
 jsm

@@ -1388,7 +1388,6 @@ accesskey
 oncommand
 :
 function
-_SP_PP_Update_onCommand
 (
 )
 {
@@ -1417,11 +1416,7 @@ treeView
 .
 data
 =
-{
-object
-:
 result
-}
 ;
 }
 }
@@ -1453,9 +1448,10 @@ mainPopupSet
 let
 title
 =
-String
-(
 aOutputObject
+.
+toString
+(
 )
 ;
 propPanel
@@ -1464,12 +1460,9 @@ new
 PropertyPanel
 (
 parent
+doc
 title
-{
-object
-:
 aOutputObject
-}
 buttons
 )
 ;
