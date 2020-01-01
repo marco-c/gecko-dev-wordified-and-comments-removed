@@ -2216,12 +2216,13 @@ mode
 =
 NP_EMBED
 )
+{
 rv
 =
 pluginHost
 -
 >
-InstantiateEmbeddedPlugin
+DoInstantiateEmbeddedPlugin
 (
 aContentType
 .
@@ -2230,9 +2231,12 @@ get
 )
 aURL
 mOwner
+PR_FALSE
 )
 ;
+}
 else
+{
 rv
 =
 pluginHost
@@ -2249,6 +2253,7 @@ aURL
 mOwner
 )
 ;
+}
 if
 (
 NS_OK
