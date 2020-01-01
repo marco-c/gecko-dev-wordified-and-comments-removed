@@ -177,7 +177,6 @@ script
 >
 if
 (
-!
 navigator
 .
 platform
@@ -189,6 +188,17 @@ Win
 "
 )
 )
+{
+SimpleTest
+.
+expectAssertions
+(
+0
+2
+)
+;
+}
+else
 {
 SimpleTest
 .
