@@ -716,9 +716,9 @@ SetBackgroundColor
 (
 NS_RGB
 (
-192
-192
-192
+255
+255
+255
 )
 )
 ;
