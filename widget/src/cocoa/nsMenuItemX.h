@@ -235,6 +235,15 @@ SetupIcon
 (
 )
 ;
+NS_IMETHOD
+GetMenuItemContent
+(
+nsIContent
+*
+*
+aMenuItemContent
+)
+;
 nsEventStatus
 MenuItemSelected
 (
