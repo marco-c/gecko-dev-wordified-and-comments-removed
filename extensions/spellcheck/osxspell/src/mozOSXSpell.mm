@@ -493,13 +493,6 @@ nsCRT
 h
 "
 #
-include
-"
-nsObjCExceptions
-.
-h
-"
-#
 import
 <
 Cocoa
@@ -633,8 +626,6 @@ PRUnichar
 aDictionary
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
-;
 NS_ENSURE_ARG_POINTER
 (
 aDictionary
@@ -651,8 +642,6 @@ createNewUnicodeBuffer
 ;
 return
 NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -749,8 +738,6 @@ PRUnichar
 aLanguage
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
-;
 NS_ENSURE_ARG_POINTER
 (
 aLanguage
@@ -811,8 +798,6 @@ aLanguage
 NS_OK
 :
 NS_ERROR_OUT_OF_MEMORY
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -1248,8 +1233,6 @@ PRBool
 aResult
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
-;
 NS_ENSURE_ARG_POINTER
 (
 aWord
@@ -1326,8 +1309,6 @@ PR_TRUE
 ;
 return
 NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -1421,8 +1402,6 @@ PRUint32
 aSuggestionCount
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
-;
 NS_ENSURE_ARG_POINTER
 (
 aSuggestions
@@ -1574,8 +1553,6 @@ i
 return
 NS_OK
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
-;
 }
 #
 pragma
@@ -1604,8 +1581,6 @@ PRUnichar
 )
 createNewUnicodeBuffer
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSNULL
-;
 PRUint32
 length
 =
@@ -1659,8 +1634,6 @@ PRUnichar
 return
 retStr
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSNULL
-;
 }
 +
 (
@@ -1675,8 +1648,6 @@ PRUnichar
 )
 inString
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
-;
 if
 (
 inString
@@ -1704,8 +1675,6 @@ return
 self
 string
 ]
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 end
