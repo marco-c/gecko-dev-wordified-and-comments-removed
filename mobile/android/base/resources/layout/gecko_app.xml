@@ -232,6 +232,13 @@ isScrollContainer
 "
 true
 "
+android
+:
+visibility
+=
+"
+gone
+"
 >
 <
 include
