@@ -268,6 +268,11 @@ Close
 NS_ERROR_ABORT
 )
 ;
+NS_IF_RELEASE
+(
+mConnection
+)
+;
 if
 (
 mPushBackBuf
@@ -330,6 +335,10 @@ trans
 if
 (
 mConnection
+&
+&
+!
+mClosed
 )
 {
 trans
@@ -2591,11 +2600,6 @@ Clear
 )
 ;
 }
-NS_IF_RELEASE
-(
-mConnection
-)
-;
 }
 nsresult
 nsHttpPipeline
