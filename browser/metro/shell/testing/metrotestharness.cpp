@@ -950,6 +950,18 @@ s
 appModelID
 )
 ;
+if
+(
+GetForegroundWindow
+(
+)
+=
+=
+GetConsoleWindow
+(
+)
+)
+{
 hr
 =
 CoAllowSetForegroundWindow
@@ -981,6 +993,7 @@ hr
 return
 false
 ;
+}
 }
 Log
 (
