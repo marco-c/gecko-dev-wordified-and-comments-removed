@@ -2992,9 +2992,13 @@ COMPLETE_MAR
 endif
 ifeq
 (
+(
+filter
 WINNT
+WINCE
 (
 OS_ARCH
+)
 )
 )
 (
