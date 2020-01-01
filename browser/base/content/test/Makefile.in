@@ -567,6 +567,14 @@ browser_gestureSupport
 .
 js
 \
+browser_feed_tab
+.
+js
+\
+feed_tab
+.
+html
+\
 (
 NULL
 )
