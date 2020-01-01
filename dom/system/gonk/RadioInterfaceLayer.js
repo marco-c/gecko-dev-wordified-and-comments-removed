@@ -536,7 +536,7 @@ IccCloseChannel
 "
 RIL
 :
-IccUpdateContact
+UpdateIccContact
 "
 "
 RIL
@@ -2992,7 +2992,7 @@ case
 "
 RIL
 :
-IccUpdateContact
+UpdateIccContact
 "
 :
 this
@@ -3004,7 +3004,7 @@ msg
 ;
 this
 .
-updateICCContact
+updateIccContact
 (
 msg
 .
@@ -3738,7 +3738,7 @@ iccinfochange
 :
 this
 .
-handleICCInfoChange
+handleIccInfoChange
 (
 message
 )
@@ -3779,7 +3779,7 @@ iccUnlockCardLock
 :
 this
 .
-handleICCCardLockResult
+handleIccCardLockResult
 (
 message
 )
@@ -3854,7 +3854,7 @@ icccontactupdate
 :
 this
 .
-handleIccUpdateContact
+handleUpdateIccContact
 (
 message
 )
@@ -3868,7 +3868,7 @@ iccmbdn
 :
 this
 .
-handleICCMbdn
+handleIccMbdn
 (
 message
 )
@@ -7570,10 +7570,10 @@ options
 )
 ;
 }
-handleIccUpdateContact
+handleUpdateIccContact
 :
 function
-handleIccUpdateContact
+handleUpdateIccContact
 (
 message
 )
@@ -7581,7 +7581,7 @@ message
 debug
 (
 "
-handleIccUpdateContact
+handleUpdateIccContact
 :
 "
 +
@@ -7600,7 +7600,7 @@ _sendRequestResults
 "
 RIL
 :
-IccUpdateContact
+UpdateIccContact
 "
 message
 )
@@ -9262,10 +9262,10 @@ message
 ;
 }
 }
-handleICCMbdn
+handleIccMbdn
 :
 function
-handleICCMbdn
+handleIccMbdn
 (
 message
 )
@@ -9306,10 +9306,10 @@ voicemailInfo
 )
 ;
 }
-handleICCInfoChange
+handleIccInfoChange
 :
 function
-handleICCInfoChange
+handleIccInfoChange
 (
 message
 )
@@ -9544,10 +9544,10 @@ data
 }
 }
 }
-handleICCCardLockResult
+handleIccCardLockResult
 :
 function
-handleICCCardLockResult
+handleIccCardLockResult
 (
 message
 )
@@ -14427,10 +14427,10 @@ requestId
 )
 ;
 }
-updateICCContact
+updateIccContact
 :
 function
-updateICCContact
+updateIccContact
 (
 message
 )
