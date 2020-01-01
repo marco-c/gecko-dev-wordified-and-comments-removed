@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsUConvDll
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

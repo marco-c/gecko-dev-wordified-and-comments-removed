@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsUConvDll
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h

@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsUConvDll
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
