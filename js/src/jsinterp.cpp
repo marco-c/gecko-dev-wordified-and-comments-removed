@@ -23291,7 +23291,7 @@ NULL
 OBJ_GET_PARENT
 (
 cx
-obj2
+obj
 )
 0
 )
