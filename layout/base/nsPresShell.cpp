@@ -26410,12 +26410,8 @@ targetElement
 targetElement
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {

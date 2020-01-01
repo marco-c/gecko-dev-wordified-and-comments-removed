@@ -268,12 +268,8 @@ aContent
 aContent
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 "
 Shouldn
