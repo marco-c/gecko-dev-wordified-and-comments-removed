@@ -504,8 +504,6 @@ const
 nsAString
 &
 aContextId
-bool
-aForceThebes
 nsICanvasRenderingContextInternal
 *
 *
