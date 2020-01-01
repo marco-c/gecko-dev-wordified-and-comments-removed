@@ -465,6 +465,10 @@ nullptr
 if
 (
 shareHandle
+&
+&
+!
+mForceReadback
 )
 {
 HRESULT
