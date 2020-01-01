@@ -498,9 +498,9 @@ private
 :
 nsDOMEventRTTearoff
 (
-nsIContent
+nsINode
 *
-aContent
+aNode
 )
 ;
 static
@@ -542,9 +542,9 @@ nsDOMEventRTTearoff
 *
 Create
 (
-nsIContent
+nsINode
 *
-aContent
+aNode
 )
 ;
 static
@@ -566,9 +566,9 @@ private
 :
 nsCOMPtr
 <
-nsIContent
+nsINode
 >
-mContent
+mNode
 ;
 }
 ;
@@ -1197,8 +1197,7 @@ GetScriptTypeID
 )
 const
 ;
-virtual
-nsresult
+NS_IMETHOD
 SetScriptTypeID
 (
 PRUint32
