@@ -437,10 +437,6 @@ selfTest
 .
 cpp
 \
-testConservativeGC
-.
-cpp
-\
 testContexts
 .
 cpp
