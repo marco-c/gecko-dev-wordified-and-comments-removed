@@ -2866,6 +2866,8 @@ cff
 charset
 .
 max_cid
++
+1
 ;
 else
 cffface

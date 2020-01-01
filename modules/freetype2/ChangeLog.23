@@ -992,7 +992,7 @@ sfnt
 /
 sfobjs
 .
-h
+c
 (
 sfnt_load_face
 )
@@ -34181,7 +34181,6 @@ FT_OUTLINE_EXCLUDE_STUBS
 :
 New
 flags
-for
 for
 FT_Outline
 .

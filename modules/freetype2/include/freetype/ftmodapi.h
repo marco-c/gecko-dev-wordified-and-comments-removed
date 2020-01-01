@@ -303,6 +303,16 @@ FT_EXPORT
 (
 FT_Error
 )
+FT_Reference_Library
+(
+FT_Library
+library
+)
+;
+FT_EXPORT
+(
+FT_Error
+)
 FT_New_Library
 (
 FT_Memory

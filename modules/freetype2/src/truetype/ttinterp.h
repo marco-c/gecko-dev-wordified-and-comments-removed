@@ -249,7 +249,7 @@ length
 FT_Bool
 step_ins
 ;
-FT_Long
+FT_ULong
 cvtSize
 ;
 FT_Long

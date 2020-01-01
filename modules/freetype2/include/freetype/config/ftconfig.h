@@ -811,7 +811,7 @@ endif
 if
 defined
 (
-i386
+__i386__
 )
 #
 define

@@ -2004,9 +2004,8 @@ maxProfile
 -
 >
 maxFunctionDefs
-=
-=
-0
+<
+64
 )
 maxProfile
 -

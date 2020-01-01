@@ -959,6 +959,9 @@ endif
 FT_Bool
 ignore_unpatented_hinter
 ;
+FT_UInt
+refcount
+;
 }
 FT_Face_InternalRec
 ;
@@ -1825,6 +1828,9 @@ pic_container
 ;
 #
 endif
+FT_UInt
+refcount
+;
 }
 FT_LibraryRec
 ;

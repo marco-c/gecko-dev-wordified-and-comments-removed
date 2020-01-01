@@ -1350,6 +1350,16 @@ FT_EXPORT
 (
 FT_Error
 )
+FT_Reference_Face
+(
+FT_Face
+face
+)
+;
+FT_EXPORT
+(
+FT_Error
+)
 FT_Done_Face
 (
 FT_Face
@@ -2138,7 +2148,7 @@ FREETYPE_MINOR
 #
 define
 FREETYPE_PATCH
-1
+3
 FT_EXPORT
 (
 void

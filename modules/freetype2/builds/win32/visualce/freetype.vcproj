@@ -515,7 +515,7 @@ OutputFile
 \
 objs
 \
-freetype241
+freetype243
 .
 lib
 "
@@ -915,7 +915,7 @@ OutputFile
 \
 objs
 \
-freetype241MT
+freetype243MT
 .
 lib
 "
@@ -1315,7 +1315,7 @@ OutputFile
 \
 objs
 \
-freetype241ST
+freetype243ST
 .
 lib
 "
@@ -1703,7 +1703,7 @@ OutputFile
 \
 objs
 \
-freetype241_D
+freetype243_D
 .
 lib
 "
@@ -2097,7 +2097,7 @@ OutputFile
 \
 objs
 \
-freetype241ST_D
+freetype243ST_D
 .
 lib
 "
@@ -2498,7 +2498,7 @@ OutputFile
 \
 objs
 \
-freetype241MT_D
+freetype243MT_D
 .
 lib
 "
@@ -2933,7 +2933,7 @@ OutputFile
 \
 objs
 \
-freetype241
+freetype243
 .
 lib
 "
@@ -3391,7 +3391,7 @@ OutputFile
 \
 objs
 \
-freetype241MT
+freetype243MT
 .
 lib
 "
@@ -3853,7 +3853,7 @@ OutputFile
 \
 objs
 \
-freetype241ST
+freetype243ST
 .
 lib
 "
@@ -4294,7 +4294,7 @@ OutputFile
 \
 objs
 \
-freetype241_D
+freetype243_D
 .
 lib
 "
@@ -4743,7 +4743,7 @@ OutputFile
 \
 objs
 \
-freetype241ST_D
+freetype243ST_D
 .
 lib
 "
@@ -5199,7 +5199,7 @@ OutputFile
 \
 objs
 \
-freetype241MT_D
+freetype243MT_D
 .
 lib
 "
@@ -5658,7 +5658,7 @@ OutputFile
 \
 objs
 \
-freetype241
+freetype243
 .
 lib
 "
@@ -6113,7 +6113,7 @@ OutputFile
 \
 objs
 \
-freetype241MT
+freetype243MT
 .
 lib
 "
@@ -6572,7 +6572,7 @@ OutputFile
 \
 objs
 \
-freetype241ST
+freetype243ST
 .
 lib
 "
@@ -7010,7 +7010,7 @@ OutputFile
 \
 objs
 \
-freetype241_D
+freetype243_D
 .
 lib
 "
@@ -7456,7 +7456,7 @@ OutputFile
 \
 objs
 \
-freetype241ST_D
+freetype243ST_D
 .
 lib
 "
@@ -7909,7 +7909,7 @@ OutputFile
 \
 objs
 \
-freetype241MT_D
+freetype243MT_D
 .
 lib
 "
@@ -8386,7 +8386,7 @@ OutputFile
 \
 objs
 \
-freetype241
+freetype243
 .
 lib
 "
@@ -8859,7 +8859,7 @@ OutputFile
 \
 objs
 \
-freetype241MT
+freetype243MT
 .
 lib
 "
@@ -9336,7 +9336,7 @@ OutputFile
 \
 objs
 \
-freetype241ST
+freetype243ST
 .
 lib
 "
@@ -9792,7 +9792,7 @@ OutputFile
 \
 objs
 \
-freetype241_D
+freetype243_D
 .
 lib
 "
@@ -10256,7 +10256,7 @@ OutputFile
 \
 objs
 \
-freetype241ST_D
+freetype243ST_D
 .
 lib
 "
@@ -10727,7 +10727,7 @@ OutputFile
 \
 objs
 \
-freetype241MT_D
+freetype243MT_D
 .
 lib
 "
@@ -11201,7 +11201,7 @@ OutputFile
 \
 objs
 \
-freetype241
+freetype243
 .
 lib
 "
@@ -11671,7 +11671,7 @@ OutputFile
 \
 objs
 \
-freetype241MT
+freetype243MT
 .
 lib
 "
@@ -12145,7 +12145,7 @@ OutputFile
 \
 objs
 \
-freetype241ST
+freetype243ST
 .
 lib
 "
@@ -12598,7 +12598,7 @@ OutputFile
 \
 objs
 \
-freetype241_D
+freetype243_D
 .
 lib
 "
@@ -13059,7 +13059,7 @@ OutputFile
 \
 objs
 \
-freetype241ST_D
+freetype243ST_D
 .
 lib
 "
@@ -13527,7 +13527,7 @@ OutputFile
 \
 objs
 \
-freetype241MT_D
+freetype243MT_D
 .
 lib
 "
@@ -13995,7 +13995,7 @@ OutputFile
 \
 objs
 \
-freetype241
+freetype243
 .
 lib
 "
@@ -14459,7 +14459,7 @@ OutputFile
 \
 objs
 \
-freetype241MT
+freetype243MT
 .
 lib
 "
@@ -14927,7 +14927,7 @@ OutputFile
 \
 objs
 \
-freetype241ST
+freetype243ST
 .
 lib
 "
@@ -15374,7 +15374,7 @@ OutputFile
 \
 objs
 \
-freetype241_D
+freetype243_D
 .
 lib
 "
@@ -15829,7 +15829,7 @@ OutputFile
 \
 objs
 \
-freetype241ST_D
+freetype243ST_D
 .
 lib
 "
@@ -16291,7 +16291,7 @@ OutputFile
 \
 objs
 \
-freetype241MT_D
+freetype243MT_D
 .
 lib
 "
@@ -16759,7 +16759,7 @@ OutputFile
 \
 objs
 \
-freetype241
+freetype243
 .
 lib
 "
@@ -17223,7 +17223,7 @@ OutputFile
 \
 objs
 \
-freetype241MT
+freetype243MT
 .
 lib
 "
@@ -17691,7 +17691,7 @@ OutputFile
 \
 objs
 \
-freetype241ST
+freetype243ST
 .
 lib
 "
@@ -18138,7 +18138,7 @@ OutputFile
 \
 objs
 \
-freetype241_D
+freetype243_D
 .
 lib
 "
@@ -18593,7 +18593,7 @@ OutputFile
 \
 objs
 \
-freetype241ST_D
+freetype243ST_D
 .
 lib
 "
@@ -19055,7 +19055,7 @@ OutputFile
 \
 objs
 \
-freetype241MT_D
+freetype243MT_D
 .
 lib
 "

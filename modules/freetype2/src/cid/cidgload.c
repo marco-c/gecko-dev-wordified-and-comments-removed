@@ -973,14 +973,6 @@ CID_GlyphSlot
 )
 cidglyph
 ;
-CID_Size
-size
-=
-(
-CID_Size
-)
-cidsize
-;
 FT_Error
 error
 ;
@@ -1423,9 +1415,6 @@ FT_GLYPH_FORMAT_OUTLINE
 ;
 if
 (
-size
-&
-&
 cidsize
 -
 >

@@ -5943,16 +5943,6 @@ width_count
 FT_Pos
 delta
 ;
-if
-(
-axis
--
->
-width_count
->
-0
-)
-{
 delta
 =
 dist
@@ -6010,7 +6000,6 @@ dist
 goto
 Done_Width
 ;
-}
 }
 if
 (
