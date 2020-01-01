@@ -57107,7 +57107,7 @@ forEachCanonicalActualArg
 BoxArg
 (
 this
-ArgsSlotsAddress
+ArgsSlotOffsetAddress
 (
 argsData_ins
 slotsOffset
@@ -69270,7 +69270,7 @@ name
 (
 is_boxed_magic
 (
-ArgsSlotsAddress
+ArgsSlotOffsetAddress
 (
 vp_ins
 )
