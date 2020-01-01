@@ -290,14 +290,7 @@ virtual
 MediaPipeline
 (
 )
-{
-MOZ_ASSERT
-(
-!
-stream_
-)
 ;
-}
 void
 ShutdownTransport_s
 (
