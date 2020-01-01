@@ -1801,7 +1801,7 @@ stopPropagation
 ;
 gSyncUtils
 .
-openPP
+openPrivacyPolicy
 (
 )
 ;
