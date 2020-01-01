@@ -880,6 +880,15 @@ int32
 n
 )
 ;
+inline
+void
+giveOwnRegs
+(
+FrameEntry
+*
+fe
+)
+;
 uint32
 stackDepth
 (
