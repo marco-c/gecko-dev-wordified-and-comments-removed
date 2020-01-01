@@ -34,6 +34,12 @@ expect
 '
 '
 ;
+if
+(
+this
+.
+window
+)
 window
 .
 SpecialPowers
