@@ -801,6 +801,15 @@ searchplugins
 /
 wikipedia
 -
+en
+-
+CN
+.
+xml
+searchplugins
+/
+wikipedia
+-
 zh
 .
 xml
