@@ -216,7 +216,7 @@ DebugFDs
 ;
 }
 void
-InitWritePoisoning
+PoisonWriteBase
 (
 )
 {

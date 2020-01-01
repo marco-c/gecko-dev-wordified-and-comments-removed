@@ -2506,10 +2506,6 @@ KillClearOnShutdown
 (
 )
 ;
-InitWritePoisoning
-(
-)
-;
 mozilla
 :
 :
