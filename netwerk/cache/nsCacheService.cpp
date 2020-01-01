@@ -192,6 +192,15 @@ include
 "
 mozilla
 /
+Util
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h
@@ -7434,7 +7443,10 @@ predictedDataSize
 )
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 nsCacheService
@@ -7558,7 +7570,10 @@ predictedDataSize
 )
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 nsCacheService
