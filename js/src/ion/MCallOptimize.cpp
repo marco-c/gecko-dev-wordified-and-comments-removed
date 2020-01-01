@@ -1639,7 +1639,10 @@ getKnownClass
 !
 =
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 )
 return
 InliningStatus_NotInlined
@@ -1984,7 +1987,10 @@ getKnownClass
 !
 =
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 )
 return
 InliningStatus_NotInlined
@@ -2356,7 +2362,10 @@ getKnownClass
 !
 =
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 )
 return
 InliningStatus_NotInlined
@@ -2396,7 +2405,10 @@ getKnownClass
 !
 =
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 )
 return
 InliningStatus_NotInlined

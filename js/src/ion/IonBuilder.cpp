@@ -35369,7 +35369,10 @@ getKnownClass
 =
 =
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 &
 &
 !

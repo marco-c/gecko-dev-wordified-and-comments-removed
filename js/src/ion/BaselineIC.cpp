@@ -28492,7 +28492,10 @@ if
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 &
@@ -30652,7 +30655,10 @@ NotEqual
 obj
 scratch
 &
-ArrayClass
+ArrayObject
+:
+:
+class_
 &
 failure
 )

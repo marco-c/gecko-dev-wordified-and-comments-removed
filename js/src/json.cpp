@@ -2668,7 +2668,10 @@ if
 replacer
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 &
@@ -3422,7 +3425,10 @@ if
 obj
 -
 >
-isArray
+is
+<
+ArrayObject
+>
 (
 )
 )
