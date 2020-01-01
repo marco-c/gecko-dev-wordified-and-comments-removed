@@ -96,7 +96,6 @@ gif_control_extension
 gif_consume_block
 gif_skip_block
 gif_done
-gif_oom
 gif_error
 gif_comment_extension
 gif_application_extension
