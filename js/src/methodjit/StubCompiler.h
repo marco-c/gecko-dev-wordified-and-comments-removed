@@ -186,7 +186,10 @@ Vector
 <
 CrossPatch
 64
-SystemAllocPolicy
+mjit
+:
+:
+CompilerAllocPolicy
 >
 exits
 ;
@@ -194,7 +197,10 @@ Vector
 <
 CrossPatch
 64
-SystemAllocPolicy
+mjit
+:
+:
+CompilerAllocPolicy
 >
 joins
 ;
@@ -202,7 +208,10 @@ Vector
 <
 CrossJumpInScript
 64
-SystemAllocPolicy
+mjit
+:
+:
+CompilerAllocPolicy
 >
 scriptJoins
 ;

@@ -868,6 +868,7 @@ Vector
 <
 BranchPatch
 64
+CompilerAllocPolicy
 >
 branchPatches
 ;
@@ -882,6 +883,7 @@ Vector
 <
 MICGenInfo
 64
+CompilerAllocPolicy
 >
 mics
 ;
@@ -892,6 +894,7 @@ Vector
 <
 CallGenInfo
 64
+CompilerAllocPolicy
 >
 callICs
 ;
@@ -902,6 +905,7 @@ Vector
 <
 EqualityGenInfo
 64
+CompilerAllocPolicy
 >
 equalityICs
 ;
@@ -912,6 +916,7 @@ Vector
 <
 TraceGenInfo
 64
+CompilerAllocPolicy
 >
 traceICs
 ;
@@ -928,6 +933,7 @@ Vector
 <
 PICGenInfo
 16
+CompilerAllocPolicy
 >
 pics
 ;
@@ -937,6 +943,8 @@ js
 Vector
 <
 GetElementICInfo
+16
+CompilerAllocPolicy
 >
 getElemICs
 ;
@@ -946,6 +954,8 @@ js
 Vector
 <
 SetElementICInfo
+16
+CompilerAllocPolicy
 >
 setElemICs
 ;
@@ -958,6 +968,7 @@ Vector
 <
 CallPatchInfo
 64
+CompilerAllocPolicy
 >
 callPatches
 ;
@@ -968,6 +979,7 @@ Vector
 <
 InternalCallSite
 64
+CompilerAllocPolicy
 >
 callSites
 ;
@@ -978,6 +990,7 @@ Vector
 <
 DoublePatch
 16
+CompilerAllocPolicy
 >
 doubleList
 ;
@@ -996,6 +1009,9 @@ debugMode
 bool
 addTraceHints
 ;
+bool
+oomInVector
+;
 Compiler
 *
 thisFromCtor
@@ -1006,6 +1022,10 @@ return
 this
 ;
 }
+friend
+class
+CompilerAllocPolicy
+;
 public
 :
 enum
