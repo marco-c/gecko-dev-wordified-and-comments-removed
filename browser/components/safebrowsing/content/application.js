@@ -88,10 +88,6 @@ TEST_G_Observer
 (
 )
 ;
-TEST_G_File
-(
-)
-;
 TEST_PROT_WireFormat
 (
 )
@@ -101,14 +97,6 @@ TEST_PROT_UrlCrypto
 )
 ;
 TEST_PROT_UrlCryptoKeyManager
-(
-)
-;
-TEST_G_MozVersionNumber
-(
-)
-;
-TEST_G_ThisFirefoxVersion
 (
 )
 ;
