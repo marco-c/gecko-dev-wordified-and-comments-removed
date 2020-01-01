@@ -1280,13 +1280,6 @@ globalDebugObject
 ;
 try
 {
-if
-(
-this
-.
-dbg
-)
-{
 globalDebugObject
 =
 this
@@ -1298,7 +1291,6 @@ addDebuggee
 aGlobal
 )
 ;
-}
 }
 catch
 (
