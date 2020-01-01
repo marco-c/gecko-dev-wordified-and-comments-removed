@@ -59,7 +59,7 @@ assistant
 =
 Content
 .
-_formAssistant
+formAssistant
 ;
 AsyncTests
 .
