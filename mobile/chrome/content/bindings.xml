@@ -5055,15 +5055,6 @@ startEditing
 "
 >
 <
-parameter
-name
-=
-"
-autoSelect
-"
-/
->
-<
 body
 >
 <
@@ -5165,10 +5156,6 @@ focus
 (
 )
 ;
-if
-(
-autoSelect
-)
 this
 .
 _nameField
