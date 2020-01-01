@@ -5990,8 +5990,9 @@ logfd
 )
 ;
 }
-RegisterTraceMallocShutdown
+atexit
 (
+NS_TraceMallocShutdown
 )
 ;
 tmlock

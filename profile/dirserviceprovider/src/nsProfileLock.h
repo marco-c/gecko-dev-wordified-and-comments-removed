@@ -164,15 +164,8 @@ defined
 (
 XP_UNIX
 )
-struct
-RemovePidLockFilesExiting
-{
-RemovePidLockFilesExiting
-(
-)
-{
-}
-~
+static
+void
 RemovePidLockFilesExiting
 (
 )
@@ -183,8 +176,6 @@ PR_FALSE
 )
 ;
 }
-}
-;
 static
 void
 RemovePidLockFiles

@@ -1406,9 +1406,10 @@ setupPidLockCleanup
 +
 )
 {
-static
+atexit
+(
 RemovePidLockFilesExiting
-r
+)
 ;
 if
 (
