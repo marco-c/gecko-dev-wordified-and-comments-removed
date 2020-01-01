@@ -158,5 +158,13 @@ testing
 .
 *
 /
+void
+setAddOns
+(
+in
+AString
+aAddOns
+)
+;
 }
 ;
