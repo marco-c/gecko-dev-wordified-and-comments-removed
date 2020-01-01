@@ -913,7 +913,7 @@ run_next_test
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_initial_submission_notification
@@ -1046,6 +1046,7 @@ notifyUserCount
 1
 )
 ;
+yield
 listener
 .
 lastNotifyRequest
@@ -1102,10 +1103,6 @@ notifyState
 policy
 .
 STATE_NOTIFY_WAIT
-)
-;
-run_next_test
-(
 )
 ;
 }
@@ -1194,7 +1191,7 @@ run_next_test
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_notification_implicit_acceptance
@@ -1257,6 +1254,7 @@ notifyUserCount
 1
 )
 ;
+yield
 listener
 .
 lastNotifyRequest
@@ -1430,14 +1428,10 @@ elapsed
 "
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_notification_rejected
@@ -1500,6 +1494,7 @@ notifyUserCount
 1
 )
 ;
+yield
 listener
 .
 lastNotifyRequest
@@ -1546,14 +1541,10 @@ policy
 STATE_NOTIFY_UNNOTIFIED
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_notification_accepted
@@ -1608,6 +1599,7 @@ checkStateAndTrigger
 (
 )
 ;
+yield
 listener
 .
 lastNotifyRequest
@@ -1701,14 +1693,10 @@ getTime
 )
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_notification_rejected
@@ -1763,6 +1751,7 @@ checkStateAndTrigger
 (
 )
 ;
+yield
 listener
 .
 lastNotifyRequest
@@ -1857,10 +1846,6 @@ listener
 .
 requestDataUploadCount
 0
-)
-;
-run_next_test
-(
 )
 ;
 }
@@ -2278,7 +2263,7 @@ run_next_test
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_data_submission_submit_failure_hard
@@ -2372,6 +2357,7 @@ requestDataUploadCount
 1
 )
 ;
+yield
 listener
 .
 lastDataRequest
@@ -2461,14 +2447,10 @@ requestDataUploadCount
 1
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_data_submission_submit_try_again
@@ -2530,6 +2512,7 @@ checkStateAndTrigger
 (
 )
 ;
+yield
 listener
 .
 lastDataRequest
@@ -2560,14 +2543,10 @@ getTime
 1000
 )
 ;
-run_next_test
-(
-)
-;
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_submission_daily_scheduling
@@ -2706,6 +2685,7 @@ getTime
 )
 )
 ;
+yield
 listener
 .
 lastDataRequest
@@ -2818,6 +2798,7 @@ requestDataUploadCount
 2
 )
 ;
+yield
 listener
 .
 lastDataRequest
@@ -2869,10 +2850,6 @@ getTime
 getTime
 (
 )
-)
-;
-run_next_test
-(
 )
 ;
 }
@@ -3066,7 +3043,7 @@ run_next_test
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_submission_backoff
@@ -3189,6 +3166,7 @@ policy
 now
 )
 ;
+yield
 listener
 .
 lastDataRequest
@@ -3342,6 +3320,7 @@ policy
 now
 )
 ;
+yield
 listener
 .
 lastDataRequest
@@ -3443,6 +3422,7 @@ policy
 now
 )
 ;
+yield
 listener
 .
 lastDataRequest
@@ -3489,10 +3469,6 @@ getTime
 getTime
 (
 )
-)
-;
-run_next_test
-(
 )
 ;
 }
@@ -3663,7 +3639,7 @@ run_next_test
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_delete_remote_data
@@ -3786,6 +3762,7 @@ _futureDate
 )
 )
 ;
+yield
 listener
 .
 lastRemoteDeleteRequest
@@ -3804,10 +3781,6 @@ do_check_false
 policy
 .
 pendingDeleteRemoteData
-)
-;
-run_next_test
-(
 )
 ;
 }
@@ -4148,7 +4121,7 @@ run_next_test
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_delete_remote_data_in_progress_upload
@@ -4278,6 +4251,7 @@ _futureDate
 )
 )
 ;
+yield
 listener
 .
 lastDataRequest
@@ -4323,10 +4297,6 @@ listener
 .
 requestRemoteDeleteCount
 1
-)
-;
-run_next_test
-(
 )
 ;
 }
@@ -4853,7 +4823,7 @@ startPolling
 }
 )
 ;
-add_test
+add_task
 (
 function
 test_record_health_report_upload_enabled
@@ -4932,6 +4902,7 @@ requestRemoteDeleteCount
 1
 )
 ;
+yield
 listener
 .
 lastRemoteDeleteRequest
@@ -4972,10 +4943,6 @@ do_check_true
 policy
 .
 healthReportUploadEnabled
-)
-;
-run_next_test
-(
 )
 ;
 }
