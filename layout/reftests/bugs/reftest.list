@@ -631,7 +631,6 @@ html
 ref
 .
 html
-fails
 =
 =
 25888
@@ -646,10 +645,6 @@ html
 ref
 .
 html
-#
-bug
-25888
-fails
 !
 =
 25888
@@ -664,10 +659,6 @@ html
 notref
 .
 html
-#
-bug
-25888
-fails
 =
 =
 25888
@@ -682,10 +673,6 @@ html
 ref
 .
 html
-#
-bug
-25888
-fails
 !
 =
 25888
@@ -700,10 +687,6 @@ html
 notref
 .
 html
-#
-bug
-25888
-fails
 =
 =
 25888
@@ -718,10 +701,6 @@ html
 ref
 .
 html
-#
-bug
-25888
-fails
 =
 =
 25888
@@ -736,10 +715,6 @@ html
 ref
 .
 html
-#
-bug
-25888
-fails
 =
 =
 25888
@@ -754,10 +729,6 @@ html
 ref
 .
 html
-#
-bug
-25888
-fails
 =
 =
 25888
@@ -772,9 +743,6 @@ html
 ref
 .
 html
-#
-bug
-25888
 =
 =
 28811
