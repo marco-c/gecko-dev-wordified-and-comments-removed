@@ -302,11 +302,6 @@ endif
 BINPATH
 /
 DLL_PREFIX
-xpcom
-DLL_SUFFIX
-BINPATH
-/
-DLL_PREFIX
 mozalloc
 DLL_SUFFIX
 #

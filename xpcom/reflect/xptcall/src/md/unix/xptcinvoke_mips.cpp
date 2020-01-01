@@ -572,7 +572,7 @@ extern
 C
 "
 nsresult
-_NS_InvokeByIndex_P
+_NS_InvokeByIndex
 (
 nsISupports
 *
@@ -590,7 +590,7 @@ EXPORT_XPCOM_API
 (
 nsresult
 )
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 (
 nsISupports
 *
@@ -605,7 +605,7 @@ params
 )
 {
 return
-_NS_InvokeByIndex_P
+_NS_InvokeByIndex
 (
 that
 methodIndex

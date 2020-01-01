@@ -210,7 +210,7 @@ SZREG
 )
 #
 #
-_NS_InvokeByIndex_P
+_NS_InvokeByIndex
 (
 that
 methodIndex
@@ -224,7 +224,7 @@ a2
 a3
 NESTED
 (
-_NS_InvokeByIndex_P
+_NS_InvokeByIndex
 FRAMESZ
 ra
 )
@@ -234,7 +234,7 @@ FRAMESZ
 SETUP_GP64
 (
 GPOFF
-_NS_InvokeByIndex_P
+_NS_InvokeByIndex
 )
 REG_S
 ra
@@ -719,4 +719,4 @@ j
 ra
 .
 end
-_NS_InvokeByIndex_P
+_NS_InvokeByIndex

@@ -153,15 +153,15 @@ com
 /
 .
 global
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 .
 type
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 #
 function
 /
 *
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 (
 nsISupports
 *
@@ -177,7 +177,7 @@ params
 ;
 *
 /
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 :
 save
 %
@@ -701,7 +701,7 @@ ret
 restore
 .
 size
-NS_InvokeByIndex_P
+NS_InvokeByIndex
 .
 -
-NS_InvokeByIndex_P
+NS_InvokeByIndex
