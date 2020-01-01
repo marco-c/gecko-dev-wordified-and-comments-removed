@@ -1751,7 +1751,7 @@ getWidth
 (
 )
 /
-2
+4
 )
 )
 {
@@ -1794,8 +1794,12 @@ mList
 getWidth
 (
 )
+*
+(
+3
 /
-2
+4
+)
 )
 {
 finalPos
