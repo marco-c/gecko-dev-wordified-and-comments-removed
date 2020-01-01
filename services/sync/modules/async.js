@@ -833,7 +833,7 @@ name
 n
 "
 +
-trace
+traceAsyncFrame
 (
 this
 .
@@ -1709,7 +1709,7 @@ trace
 n
 "
 +
-trace
+traceAsyncFrame
 (
 Components
 .
@@ -1819,7 +1819,7 @@ tmp
 ;
 }
 function
-trace
+traceAsyncFrame
 (
 frame
 str
@@ -1873,7 +1873,7 @@ caller
 )
 str
 =
-trace
+traceAsyncFrame
 (
 frame
 .
