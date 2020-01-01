@@ -5659,6 +5659,17 @@ result
 =
 nsnull
 ;
+if
+(
+!
+gService
+-
+>
+mInitialized
+)
+return
+NS_ERROR_NOT_INITIALIZED
+;
 nsCacheRequest
 *
 request
