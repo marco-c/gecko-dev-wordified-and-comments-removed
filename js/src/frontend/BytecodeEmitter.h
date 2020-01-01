@@ -933,12 +933,6 @@ innermostWith
 Bindings
 bindings
 ;
-Bindings
-:
-:
-StackRoot
-bindingsRoot
-;
 void
 trace
 (

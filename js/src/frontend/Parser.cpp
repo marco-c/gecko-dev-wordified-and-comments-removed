@@ -4697,12 +4697,8 @@ tc
 >
 parent
 ;
-RootedVarObject
-parent
-(
-context
-)
-;
+JSObject
+*
 parent
 =
 tc
