@@ -46,6 +46,7 @@ function
 checkCert
 (
 aChannel
+aAllowNonBuiltInCerts
 aCerts
 )
 {
@@ -326,6 +327,16 @@ NS_ERROR_ILLEGAL_VALUE
 ;
 }
 }
+if
+(
+aAllowNonBuiltInCerts
+=
+=
+=
+true
+)
+return
+;
 var
 issuerCert
 =
