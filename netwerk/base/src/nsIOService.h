@@ -152,9 +152,9 @@ x
 )
 #
 define
-NS_E10S_IOSERVICE_SET_OFFLINE_TOPIC
+NS_IPC_IOSERVICE_SET_OFFLINE_TOPIC
 "
-e10s
+ipc
 :
 network
 :
