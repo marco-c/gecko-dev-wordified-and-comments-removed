@@ -451,6 +451,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -791,6 +798,8 @@ nsCocoaWindow
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 notify
@@ -954,6 +963,8 @@ modality
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 static
 nsIWidget
@@ -1400,6 +1411,8 @@ nsNativeWidget
 aNativeWindow
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -2806,6 +2819,8 @@ aNativeWindow
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -2957,6 +2972,8 @@ PRUint32
 aDataType
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSNULL
+;
 void
 *
 retVal
@@ -3061,6 +3078,8 @@ break
 return
 retVal
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSNULL
+;
 }
 NS_IMETHODIMP
 nsCocoaWindow
@@ -3073,6 +3092,8 @@ PRBool
 aState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 aState
 =
 (
@@ -3087,6 +3108,8 @@ mSheetNeedsShow
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP
@@ -3162,6 +3185,8 @@ PRBool
 bState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 PRBool
 isVisible
 ;
@@ -4818,6 +4843,8 @@ bState
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 void
 nsCocoaWindow
@@ -4829,6 +4856,8 @@ PRBool
 aTransparent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 BOOL
 currentTransparency
 =
@@ -4918,6 +4947,8 @@ aTransparent
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 NS_IMETHODIMP
 nsCocoaWindow
@@ -4930,6 +4961,8 @@ PRBool
 aTransparent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 aTransparent
 =
 !
@@ -4940,6 +4973,8 @@ isOpaque
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -4978,6 +5013,8 @@ PRBool
 aTransparent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 BOOL
 currentTransparency
 =
@@ -5055,6 +5092,8 @@ aTransparent
 }
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_METHOD
@@ -5340,6 +5379,8 @@ PRInt32
 aMode
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 PRInt32
 previousMode
 ;
@@ -5465,6 +5506,8 @@ nil
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsCocoaWindow
@@ -5484,6 +5527,8 @@ PRBool
 aRepaint
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -5834,6 +5879,8 @@ ReportSizeEvent
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsCocoaWindow
@@ -5849,6 +5896,8 @@ PRBool
 aRepaint
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -5890,6 +5939,8 @@ aHeight
 aRepaint
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsCocoaWindow
@@ -5902,6 +5953,8 @@ nsRect
 aRect
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsRect
 windowFrame
 =
@@ -5985,6 +6038,8 @@ height
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 PRBool
 nsCocoaWindow
@@ -6022,6 +6077,8 @@ nsAString
 aTitle
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 const
 nsString
 &
@@ -6063,6 +6120,8 @@ title
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP
@@ -6646,6 +6705,8 @@ NSRect
 r
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSRect
 windowFrame
 ;
@@ -6754,6 +6815,8 @@ DispatchEvent
 sizeEvent
 status
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 NS_IMETHODIMP
@@ -6901,6 +6964,8 @@ nsRect
 aNewRect
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsRect
 r
 =
@@ -6962,6 +7027,8 @@ height
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP
@@ -6979,6 +7046,8 @@ nsRect
 aNewRect
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsRect
 r
 =
@@ -7040,6 +7109,8 @@ height
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 nsIMenuBar
@@ -7070,6 +7141,8 @@ PRBool
 aConsumeRollupEvent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_IF_RELEASE
 (
 gRollupListener
@@ -7369,6 +7442,8 @@ NSModalPanelWindowLevel
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsCocoaWindow
@@ -7380,6 +7455,8 @@ PRInt32
 aCycleCount
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 [
 NSApp
 requestUserAttention
@@ -7389,6 +7466,8 @@ NSInformationalRequest
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP
@@ -7401,6 +7480,8 @@ nscolor
 aColor
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 If
@@ -7580,6 +7661,8 @@ aColor
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 gfxASurface
 *
@@ -7614,6 +7697,8 @@ BeginSecureKeyboardInput
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 =
@@ -7640,6 +7725,8 @@ EnableSecureEventInput
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsCocoaWindow
@@ -7649,6 +7736,8 @@ EndSecureKeyboardInput
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 =
@@ -7674,6 +7763,8 @@ DisableSecureEventInput
 ;
 return
 rv
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 implementation
@@ -7735,6 +7826,8 @@ NSWindow
 )
 aWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 make
@@ -7981,6 +8074,8 @@ release
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -7994,6 +8089,8 @@ nsCocoaWindow
 )
 geckoWind
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 [
 super
 init
@@ -8005,6 +8102,8 @@ geckoWind
 ;
 return
 self
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 -
@@ -8080,6 +8179,8 @@ NSNotification
 )
 aNotification
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 RollUpPopups
 (
 )
@@ -8103,6 +8204,8 @@ paintMenubarForWindow
 :
 window
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -8178,6 +8281,8 @@ NSNotification
 )
 aNotification
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSWindow
 *
 window
@@ -8201,6 +8306,8 @@ paintMenubarForWindow
 window
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -8214,6 +8321,8 @@ NSNotification
 )
 aNotification
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 If
@@ -8263,6 +8372,8 @@ NSApp
 mainWindow
 ]
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -8540,6 +8651,8 @@ void
 )
 contextInfo
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 Note
@@ -8640,6 +8753,8 @@ sendFocusEvent
 NS_ACTIVATE
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -8690,11 +8805,15 @@ NSColor
 )
 windowBackgroundColor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 self
 backgroundColor
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 end
@@ -8909,6 +9028,8 @@ BOOL
 )
 aFlag
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 aStyle
 =
 aStyle
@@ -9030,6 +9151,8 @@ NO
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -9037,6 +9160,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mColor
 release
@@ -9046,6 +9171,8 @@ release
 super
 dealloc
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -9098,12 +9225,16 @@ NSColor
 )
 aColor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mColor
 setBackgroundColor
 :
 aColor
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -9140,11 +9271,15 @@ NSColor
 )
 windowBackgroundColor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 mColor
 backgroundColor
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 /
@@ -9170,12 +9305,16 @@ NSColor
 )
 aColor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mColor
 setTitlebarColor
 :
 aColor
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -9185,11 +9324,15 @@ NSColor
 )
 titlebarColor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 mColor
 titlebarColor
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 /
@@ -9234,6 +9377,8 @@ id
 )
 sender
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 nsCocoaWindow
 *
 geckoWindow
@@ -9276,6 +9421,8 @@ DispatchEvent
 guiEvent
 status
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -9353,6 +9500,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 NSWindow
 *
 nativeWindow
@@ -9379,6 +9528,11 @@ release
 ;
 return
 retval
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
 ;
 }
 end
@@ -9431,6 +9585,8 @@ NSWindow
 )
 aWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -9538,6 +9694,8 @@ height
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -9545,6 +9703,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mTitlebarColor
 release
@@ -9559,6 +9719,8 @@ release
 super
 dealloc
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -9871,6 +10033,8 @@ CGContextRef
 aContext
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 TitlebarAndBackgroundColor
 *
 color
@@ -10301,6 +10465,8 @@ NSGraphicsContext
 restoreGraphicsState
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -10308,6 +10474,8 @@ void
 )
 setFill
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 CGContextRef
 context
 =
@@ -10469,6 +10637,8 @@ CGPatternRelease
 pattern
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -10493,6 +10663,8 @@ NSColor
 )
 aColor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mTitlebarColor
 autorelease
@@ -10504,6 +10676,8 @@ mTitlebarColor
 aColor
 retain
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -10529,6 +10703,8 @@ NSColor
 )
 aColor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mBackgroundColor
 autorelease
@@ -10540,6 +10716,8 @@ mBackgroundColor
 aColor
 retain
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -10581,10 +10759,14 @@ void
 )
 set
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 self
 setFill
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -10797,6 +10979,8 @@ BOOL
 )
 bottom
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 [
@@ -10826,6 +11010,8 @@ topCornerRounded
 :
 top
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 end
@@ -11001,6 +11187,8 @@ NSEvent
 )
 anEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSResponder
 *
 oldFirstResponder
@@ -11117,6 +11305,8 @@ release
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 end
 implementation
@@ -11215,6 +11405,8 @@ NSEvent
 )
 anEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSView
 *
 target
@@ -11927,6 +12119,8 @@ anEvent
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -11958,6 +12152,8 @@ BOOL
 )
 deferCreation
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 mIsContextMenu
 =
 false
@@ -11978,6 +12174,8 @@ defer
 :
 deferCreation
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 -
@@ -12195,6 +12393,8 @@ BOOL
 )
 canBecomeMainWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 !
@@ -12208,6 +12408,11 @@ NO
 ;
 return
 YES
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
 ;
 }
 /
@@ -12285,6 +12490,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 NSWindow
 *
 nativeWindow
@@ -12311,6 +12518,11 @@ release
 ;
 return
 retval
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
 ;
 }
 end

@@ -433,7 +433,21 @@ BLOCK
 #
 include
 "
+nsMenuX
+.
+h
+"
+#
+include
+"
 nsCOMPtr
+.
+h
+"
+#
+include
+"
+nsObjCExceptions
 .
 h
 "
@@ -483,13 +497,6 @@ h
 include
 "
 nsIRollupListener
-.
-h
-"
-#
-include
-"
-nsMenuX
 .
 h
 "
@@ -735,6 +742,8 @@ mXBLAttached
 PR_FALSE
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 mMenuDelegate
 =
 [
@@ -768,6 +777,8 @@ alloc
 init
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 nsMenuX
 :
@@ -777,6 +788,8 @@ nsMenuX
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 RemoveAll
 (
 )
@@ -821,6 +834,8 @@ UnregisterForContentChanges
 mMenuContent
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 NS_IMETHODIMP
 nsMenuX
@@ -847,6 +862,8 @@ nsIContent
 aNode
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 mMenuContent
 =
 aNode
@@ -1196,6 +1213,8 @@ mNativeMenuItem
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsMenuX
@@ -1459,6 +1478,8 @@ nsIMenuItem
 aMenuItem
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -1612,6 +1633,8 @@ aMenuItem
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 nsresult
 nsMenuX
@@ -1624,6 +1647,8 @@ nsIMenu
 aMenu
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Add
@@ -1765,6 +1790,8 @@ childMenu
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -2294,6 +2321,8 @@ RemoveAll
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 mMacMenu
@@ -2406,6 +2435,8 @@ mVisibleItemsCount
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsMenuX
@@ -2439,6 +2470,8 @@ void
 aData
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 [
 mMacMenu
 release
@@ -2458,6 +2491,8 @@ retain
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 nsEventStatus
 nsMenuX
@@ -2471,6 +2506,8 @@ nsMenuEvent
 aMenuEvent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 /
 /
 printf
@@ -2763,6 +2800,11 @@ status
 }
 return
 nsEventStatus_eIgnore
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+nsEventStatus_eIgnore
+)
 ;
 }
 void
@@ -3467,6 +3509,8 @@ nsString
 menuTitle
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 NSString
 *
 title
@@ -3615,6 +3659,8 @@ class
 .
 return
 myMenu
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 void
@@ -5711,6 +5757,8 @@ nsIAtom
 aAttribute
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 ignore
@@ -6202,6 +6250,8 @@ SetupIcon
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsMenuX
@@ -6346,6 +6396,8 @@ void
 userData
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 UInt32
 kind
 =
@@ -6728,6 +6780,11 @@ noErr
 return
 eventNotHandledErr
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+noErr
+)
+;
 }
 static
 OSStatus
@@ -6743,6 +6800,8 @@ EventHandlerRef
 outHandler
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 static
 EventTypeSpec
 eventList
@@ -6816,6 +6875,11 @@ failed
 return
 status
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+noErr
+)
+;
 }
 /
 /
@@ -6848,6 +6912,8 @@ nsMenuX
 )
 geckoMenu
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -6872,6 +6938,8 @@ FALSE
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -6879,6 +6947,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 RemoveEventHandler
 (
 mEventHandler
@@ -6888,6 +6958,8 @@ mEventHandler
 super
 dealloc
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -6997,6 +7069,8 @@ NSMenu
 )
 aMenu
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -7030,5 +7104,7 @@ TRUE
 ;
 }
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 end

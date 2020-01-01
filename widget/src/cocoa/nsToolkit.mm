@@ -542,6 +542,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsWidgetAtoms
 .
 h
@@ -844,6 +851,8 @@ void
 messageArgument
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 switch
 (
 messageType
@@ -986,6 +995,8 @@ wake_notification
 break
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 nsresult
 nsToolkit
@@ -995,6 +1006,8 @@ RegisterForSleepWakeNotifcations
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 IONotificationPortRef
 notifyPortRef
 ;
@@ -1072,6 +1085,8 @@ kCFRunLoopDefaultMode
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 void
 nsToolkit
@@ -1081,6 +1096,8 @@ RemoveSleepWakeNotifcations
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mSleepWakeNotificationRLS
@@ -1112,6 +1129,8 @@ mSleepWakeNotificationRLS
 nsnull
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -1292,6 +1311,8 @@ void
 refcon
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 (
@@ -1504,6 +1525,11 @@ nsnull
 return
 event
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NULL
+)
+;
 }
 /
 /
@@ -1609,6 +1635,8 @@ RegisterForAllProcessMouseEvents
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 Don
@@ -2108,6 +2136,8 @@ kCFRunLoopDefaultMode
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsToolkit
@@ -2117,6 +2147,8 @@ UnregisterAllProcessMouseEventHandlers
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mEventMonitorHandler
@@ -2171,6 +2203,8 @@ mEventTapPort
 nsnull
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -2199,7 +2233,7 @@ created
 .
 .
 .
-NS_METHOD
+NS_IMETHODIMP
 NS_GetCurrentToolkit
 (
 nsIToolkit
@@ -2208,6 +2242,8 @@ nsIToolkit
 aResult
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 aResult
@@ -2374,6 +2410,8 @@ toolkit
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 long
 nsToolkit
@@ -2383,6 +2421,8 @@ OSXVersion
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 static
 long
 gOSXVersion
@@ -2454,6 +2494,11 @@ MAC_OS_X_VERSION_10_4_HEX
 }
 return
 gOSXVersion
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+)
 ;
 }
 PRBool
@@ -2782,6 +2827,8 @@ SEL
 posedMethod
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 Method
 original
 =
@@ -2839,5 +2886,7 @@ aMethodImp
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }

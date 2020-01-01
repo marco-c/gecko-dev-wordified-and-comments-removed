@@ -449,6 +449,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsChildView
 .
 h
@@ -534,6 +541,8 @@ WindowDataMap
 )
 sharedWindowDataMap
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 static
 WindowDataMap
 *
@@ -559,6 +568,8 @@ init
 return
 sWindowMap
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -566,6 +577,8 @@ id
 )
 init
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -594,6 +607,8 @@ initWithCapacity
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -601,6 +616,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mWindowMap
 release
@@ -610,6 +627,8 @@ release
 super
 dealloc
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -624,6 +643,8 @@ NSWindow
 )
 inWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 mWindowMap
@@ -636,6 +657,8 @@ keyForWindow
 inWindow
 ]
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 -
@@ -656,6 +679,8 @@ NSWindow
 )
 inWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mWindowMap
 setObject
@@ -671,6 +696,8 @@ inWindow
 ]
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -684,6 +711,8 @@ NSWindow
 )
 inWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mWindowMap
 removeObjectForKey
@@ -695,6 +724,8 @@ keyForWindow
 inWindow
 ]
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -710,6 +741,8 @@ NSWindow
 )
 inWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 NSString
@@ -721,6 +754,8 @@ p
 "
 inWindow
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 end
@@ -773,6 +808,8 @@ NSWindow
 )
 inWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -858,6 +895,8 @@ inWindow
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -865,6 +904,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 [
 NSNotificationCenter
@@ -879,6 +920,8 @@ self
 super
 dealloc
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -1229,6 +1272,8 @@ NSNotification
 )
 inNotification
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSWindow
 *
 window
@@ -1375,6 +1420,8 @@ viewsWindowDidBecomeKey
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -1621,6 +1668,8 @@ NSNotification
 )
 inNotification
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSWindow
 *
 window
@@ -1699,6 +1748,8 @@ firstResponder
 viewsWindowDidResignKey
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -1712,6 +1763,8 @@ NSNotification
 )
 inNotification
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 postpone
@@ -1750,6 +1803,8 @@ inNotification
 object
 ]
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 end

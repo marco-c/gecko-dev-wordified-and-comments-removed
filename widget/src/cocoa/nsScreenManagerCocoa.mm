@@ -432,14 +432,21 @@ BLOCK
 #
 include
 "
-nsCOMPtr
+nsScreenManagerCocoa
 .
 h
 "
 #
 include
 "
-nsScreenManagerCocoa
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
+nsCOMPtr
 .
 h
 "
@@ -604,6 +611,8 @@ nsIScreen
 outScreen
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NSEnumerator
 *
 screenEnum
@@ -743,6 +752,8 @@ outScreen
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsScreenManagerCocoa
@@ -756,6 +767,8 @@ nsIScreen
 outScreen
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 the
@@ -806,6 +819,8 @@ outScreen
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsScreenManagerCocoa
@@ -818,6 +833,8 @@ PRUint32
 aNumberOfScreens
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NSArray
 *
 ss
@@ -838,6 +855,8 @@ count
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsScreenManagerCocoa
@@ -854,6 +873,8 @@ nsIScreen
 outScreen
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NSView
 *
 view
@@ -912,5 +933,7 @@ nsnull
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }

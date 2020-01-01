@@ -447,6 +447,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsMenuBarX
 .
 h
@@ -607,6 +614,8 @@ nsMenuItemX
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mNativeMenuItem
 autorelease
@@ -636,6 +645,8 @@ UnregisterForContentChanges
 mCommandContent
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 NS_METHOD
 nsMenuItemX
@@ -660,6 +671,8 @@ nsIContent
 aNode
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 mContent
 =
 aNode
@@ -1155,6 +1168,8 @@ mNativeMenuItem
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_METHOD
 nsMenuItemX
@@ -1205,6 +1220,8 @@ PRBool
 aIsChecked
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 mIsChecked
 =
 aIsChecked
@@ -1285,6 +1302,8 @@ NSOffState
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_METHOD
@@ -2015,6 +2034,8 @@ nsString
 aText
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 mMenuBar
 -
 >
@@ -2127,6 +2148,8 @@ keyEquivalent
 ]
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -2152,6 +2175,8 @@ nsIAtom
 aAttribute
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -2578,6 +2603,8 @@ YES
 ;
 }
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsMenuItemX

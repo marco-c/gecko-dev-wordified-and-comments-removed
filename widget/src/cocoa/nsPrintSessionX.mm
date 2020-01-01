@@ -438,6 +438,13 @@ nsPrintSessionX
 .
 h
 "
+#
+include
+"
+nsObjCExceptions
+.
+h
+"
 /
 /
 *
@@ -782,6 +789,8 @@ nsPrintSessionX
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mSession
@@ -799,6 +808,8 @@ mSession
 nsnull
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -887,6 +898,8 @@ Init
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 =
@@ -930,6 +943,8 @@ NS_ERROR_FAILURE
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /

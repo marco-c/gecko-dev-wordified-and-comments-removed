@@ -476,6 +476,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 prmem
 .
 h
@@ -811,6 +818,8 @@ SetupIcon
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 ;
@@ -1003,6 +1012,8 @@ LoadIcon
 (
 iconURI
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 nsresult
@@ -1554,6 +1565,8 @@ nsIURI
 aIconURI
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 mIconRequest
@@ -1989,6 +2002,8 @@ NS_ERROR_UNEXPECTED
 }
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 PRBool
@@ -2602,6 +2617,8 @@ gfxIImageFrame
 aFrame
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 aRequest
@@ -3334,6 +3351,8 @@ PR_TRUE
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP

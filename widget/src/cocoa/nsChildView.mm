@@ -495,6 +495,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -1253,25 +1260,30 @@ NSView
 *
 aView
 )
-:
+{
 mView
+=
+NS_OBJC_TRY_EXPR_ABORT
 (
 [
 aView
 retain
 ]
 )
-{
+;
 }
 ~
 nsAutoRetainView
 (
 )
 {
+NS_OBJC_TRY_ABORT
+(
 [
 mView
 release
 ]
+)
 ;
 }
 private
@@ -1903,6 +1915,8 @@ NSAttributedString
 aString
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 /
 /
 Iterate
@@ -1999,6 +2013,11 @@ count
 return
 count
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+)
+;
 }
 static
 void
@@ -2018,6 +2037,8 @@ nsTextRange
 aRanges
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 Convert
@@ -2244,6 +2265,8 @@ mRangeType
 =
 NS_TEXTRANGE_CARETPOSITION
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 static
 void
@@ -2261,6 +2284,8 @@ NSRange
 selRange
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 Count
@@ -2373,6 +2398,8 @@ rangeArray
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 #
 pragma
@@ -2604,6 +2631,8 @@ nsNativeWidget
 aNativeParent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 See
@@ -3168,6 +3197,8 @@ ensureWindowData
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -3208,6 +3239,8 @@ NSRect
 inFrame
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 [
@@ -3225,6 +3258,8 @@ this
 autorelease
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 void
 nsChildView
@@ -3234,6 +3269,8 @@ TearDownView
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -3540,6 +3577,8 @@ mView
 =
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -3672,6 +3711,8 @@ Destroy
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 mOnDestroyCalled
@@ -3716,6 +3757,8 @@ TearDownView
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 #
@@ -3789,6 +3832,8 @@ PRUint32
 aDataType
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSNULL
+;
 void
 *
 retVal
@@ -4164,6 +4209,8 @@ break
 return
 retVal
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSNULL
+;
 }
 #
 pragma
@@ -4180,6 +4227,8 @@ PRBool
 aTransparent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 aTransparent
 =
 !
@@ -4190,6 +4239,8 @@ isOpaque
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -4233,6 +4284,8 @@ PRBool
 aTransparent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 BOOL
 currentTransparency
 =
@@ -4357,6 +4410,8 @@ aTransparent
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsChildView
@@ -4369,6 +4424,8 @@ PRBool
 outState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -4451,6 +4508,8 @@ PR_FALSE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -4469,6 +4528,8 @@ PRBool
 aState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 aState
@@ -4492,6 +4553,8 @@ aState
 }
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 nsIWidget
@@ -4632,6 +4695,8 @@ PRBool
 aRaise
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Don
@@ -5170,6 +5235,8 @@ PR_FALSE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -5261,6 +5328,8 @@ nsCursor
 aCursor
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsBaseWidget
 :
 :
@@ -5281,6 +5350,8 @@ aCursor
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -5350,7 +5421,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsChildView
 :
 :
@@ -5362,6 +5433,8 @@ nsRect
 aRect
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 =
@@ -5400,6 +5473,8 @@ r
 }
 return
 rv
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP
@@ -5449,6 +5524,8 @@ PRInt32
 aY
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -5521,6 +5598,8 @@ ReportMoveEvent
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsChildView
@@ -5536,6 +5615,8 @@ PRBool
 aRepaint
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -5611,6 +5692,8 @@ ReportSizeEvent
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsChildView
@@ -5630,6 +5713,8 @@ PRBool
 aRepaint
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 BOOL
 isMoving
 =
@@ -5782,6 +5867,8 @@ ReportSizeEvent
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_METHOD
 nsChildView
@@ -5878,6 +5965,8 @@ PRBool
 outWidgetVisible
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ASSERTION
 (
 mIsPluginView
@@ -6157,6 +6246,8 @@ y
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsChildView
@@ -6166,6 +6257,8 @@ StartDrawPlugin
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ASSERTION
 (
 mIsPluginView
@@ -6575,6 +6668,8 @@ PR_TRUE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsChildView
@@ -6915,6 +7010,8 @@ PRBool
 aIsSynchronous
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -6996,6 +7093,8 @@ YES
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -7020,6 +7119,8 @@ PRBool
 aIsSynchronous
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -7114,6 +7215,8 @@ r
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -7128,6 +7231,8 @@ Validate
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 [
 mView
 setNeedsDisplay
@@ -7137,6 +7242,8 @@ NO
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -7162,6 +7269,8 @@ PRBool
 aIsSynchronous
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -7270,6 +7379,8 @@ r
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 inline
 PRUint16
@@ -7365,6 +7476,8 @@ Update
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Update
@@ -7402,6 +7515,8 @@ displayIfNeeded
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 #
@@ -7452,6 +7567,8 @@ nsRect
 aClipRect
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 BOOL
 viewWasDirty
 =
@@ -8456,6 +8573,8 @@ display
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -8996,6 +9115,8 @@ PRInt32
 aY
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 aX
 =
 aY
@@ -9060,6 +9181,8 @@ y
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -9220,6 +9343,8 @@ nsRect
 aGlobalRect
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NSRect
 temp
 ;
@@ -9533,6 +9658,8 @@ aGlobalRect
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -9583,6 +9710,8 @@ nsRect
 aLocalRect
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NSRect
 temp
 ;
@@ -9647,6 +9776,8 @@ aLocalRect
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -9774,6 +9905,8 @@ PRInt32
 aCycleCount
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 [
 NSApp
 requestUserAttention
@@ -9783,6 +9916,8 @@ NSInformationalRequest
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 #
@@ -10234,6 +10369,8 @@ PRBool
 aLEDState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 #
 ifdef
 DEBUG_IME
@@ -10321,6 +10458,8 @@ key
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 #
 pragma
@@ -10370,6 +10509,8 @@ BeginSecureKeyboardInput
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 =
@@ -10396,6 +10537,8 @@ EnableSecureEventInput
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsChildView
@@ -10405,6 +10548,8 @@ EndSecureKeyboardInput
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 =
@@ -10430,6 +10575,8 @@ DisableSecureEventInput
 ;
 return
 rv
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 #
@@ -10737,6 +10884,8 @@ nsChildView
 )
 inChild
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -10854,6 +11003,8 @@ nil
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -10861,6 +11012,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mPendingDirtyRects
 release
@@ -10919,6 +11072,8 @@ SetPort
 (
 NULL
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -11012,6 +11167,8 @@ NSWindow
 )
 nativeWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 NSWindow
 *
 currWin
@@ -11031,6 +11188,8 @@ currWin
 else
 return
 mWindow
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 /
@@ -11081,6 +11240,8 @@ void
 )
 setNeedsPendingDisplay
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 mPendingFullDisplay
 =
 YES
@@ -11101,6 +11262,8 @@ afterDelay
 0
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -11113,6 +11276,8 @@ NSRect
 )
 invalidRect
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -11158,6 +11323,8 @@ afterDelay
 0
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -11174,6 +11341,8 @@ void
 )
 processPendingRedraws
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mPendingFullDisplay
@@ -11245,6 +11414,8 @@ mPendingDirtyRects
 =
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -11253,6 +11424,8 @@ NSString
 )
 description
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 NSString
@@ -11279,6 +11452,8 @@ frame
 ]
 )
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 /
@@ -11308,6 +11483,8 @@ nsIScrollableView
 )
 getScrollableView
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSNULL
+;
 nsIScrollableView
 *
 scrollableView
@@ -11510,6 +11687,8 @@ nil
 return
 scrollableView
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSNULL
+;
 }
 /
 /
@@ -11536,6 +11715,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -11602,6 +11783,8 @@ mInHandScroll
 TRUE
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -11627,6 +11810,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -11752,6 +11937,8 @@ newY
 NS_VMREFRESH_IMMEDIATE
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -11857,6 +12044,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -12014,6 +12203,8 @@ eCursor_standard
 ;
 }
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -12035,6 +12226,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 mInHandScroll
 =
 FALSE
@@ -12045,6 +12238,8 @@ setHandScrollCursor
 :
 theEvent
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -12131,11 +12326,20 @@ id
 )
 scroller
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 return
 [
 scroller
 floatValue
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+.
+0
+)
 ;
 }
 /
@@ -12173,6 +12377,8 @@ NSRect
 )
 frameRect
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 super
 setFrame
@@ -12224,6 +12430,8 @@ window
 acceptsMouseMovedEvents
 ]
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -12323,6 +12531,8 @@ BOOL
 )
 childViewHasPlugin
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 NSArray
 *
 subviews
@@ -12386,6 +12596,11 @@ YES
 }
 return
 NO
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
 ;
 }
 -
@@ -12493,6 +12708,8 @@ NSWindow
 )
 newWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mMouseEnterExitTag
@@ -12511,6 +12728,8 @@ viewWillMoveToWindow
 newWindow
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -12518,6 +12737,8 @@ void
 )
 viewDidMoveToWindow
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 [
@@ -12557,6 +12778,8 @@ super
 viewDidMoveToWindow
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -12564,6 +12787,8 @@ void
 )
 viewWillStartLiveResize
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mGeckoChild
@@ -12583,6 +12808,8 @@ super
 viewWillStartLiveResize
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -12590,6 +12817,8 @@ void
 )
 viewDidEndLiveResize
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mGeckoChild
@@ -12609,6 +12838,8 @@ super
 viewDidEndLiveResize
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -12627,6 +12858,8 @@ NSSize
 )
 offset
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 Update
@@ -12725,6 +12958,8 @@ by
 offset
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -12742,6 +12977,8 @@ void
 )
 lockFocus
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 Set
@@ -12819,6 +13056,8 @@ super
 lockFocus
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -12855,6 +13094,8 @@ NSRect
 )
 aRect
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 PRBool
 isVisible
 ;
@@ -13603,6 +13844,8 @@ height
 ;
 #
 endif
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -13781,6 +14024,8 @@ id
 theEvent
 ;
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 theEvent
@@ -13889,6 +14134,8 @@ clickHoldEvent
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 #
 endif
@@ -14060,6 +14307,8 @@ NSEvent
 )
 anEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 /
 /
 If
@@ -14632,6 +14881,11 @@ else
 return
 NO
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
+;
 }
 /
 /
@@ -14720,6 +14974,8 @@ void
 )
 maybeInitContextMenuTracking
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -14802,6 +15058,8 @@ setIsContextMenu
 YES
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -14815,6 +15073,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 mLastMenuForEventEvent
@@ -15168,6 +15428,11 @@ PR_TRUE
 return
 retVal
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
+;
 }
 -
 (
@@ -15181,6 +15446,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -15493,6 +15760,8 @@ client
 :
 here
 ?
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -15506,6 +15775,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mInHandScroll
@@ -15637,6 +15908,8 @@ DispatchMouseEvent
 geckoEvent
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -15670,6 +15943,8 @@ NSPoint
 localEventLocation
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 !
@@ -15764,6 +16039,8 @@ macEvent
 .
 modifiers
 =
+:
+:
 GetCurrentKeyModifiers
 (
 )
@@ -15791,6 +16068,11 @@ status
 return
 status
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+nsEventStatus_eIgnore
+)
+;
 }
 -
 (
@@ -15804,6 +16086,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 Work
@@ -16741,6 +17025,8 @@ DispatchMouseEvent
 geckoEvent
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -16754,6 +17040,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -16880,6 +17168,8 @@ modifiers
 =
 btnState
 |
+:
+:
 GetCurrentKeyModifiers
 (
 )
@@ -16955,6 +17245,8 @@ client
 :
 here
 ?
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -16968,6 +17260,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -17160,6 +17454,8 @@ do
 context
 menu
 stuff
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -17173,6 +17469,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -17333,6 +17631,8 @@ rightMouseUp
 theEvent
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -17434,6 +17734,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -17518,6 +17820,8 @@ DispatchMouseEvent
 (
 geckoEvent
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -17690,6 +17994,8 @@ nsMouseScrollFlags
 )
 inAxis
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -18059,6 +18365,8 @@ theEvent
 ;
 }
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -18072,6 +18380,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 nsAutoRetainView
 kungFuDeathGrip
 (
@@ -18187,6 +18497,8 @@ nsMouseScrollEvent
 kIsHorizontal
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -18201,6 +18513,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 !
@@ -18317,6 +18631,8 @@ self
 contextMenu
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -18325,6 +18641,8 @@ NSMenu
 )
 contextMenu
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 NSView
 *
 superView
@@ -18362,6 +18680,8 @@ contextMenu
 return
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -18370,6 +18690,8 @@ TopLevelWindowData
 )
 ensureWindowData
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 WindowDataMap
 *
 windowMap
@@ -18434,6 +18756,8 @@ release
 return
 windowData
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 static
 PRBool
@@ -18447,6 +18771,8 @@ char
 outChar
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 UnicodeToTextInfo
 converterInfo
 ;
@@ -18554,6 +18880,11 @@ converterInfo
 return
 PR_TRUE
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+PR_FALSE
+)
+;
 }
 static
 void
@@ -18571,6 +18902,8 @@ keyType
 0
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 UInt32
 charCode
 =
@@ -18792,6 +19125,8 @@ modifiers
 GetCurrentKeyModifiers
 (
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -19428,6 +19763,8 @@ NSString
 characters
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 PRUint32
 geckoKeyCode
 =
@@ -20102,6 +20439,11 @@ charCode
 return
 geckoKeyCode
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+)
+;
 }
 static
 PRBool
@@ -20343,6 +20685,8 @@ nsInputEvent
 )
 outGeckoEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NS_ASSERTION
 (
 outGeckoEvent
@@ -20471,6 +20815,8 @@ NSCommandKeyMask
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -20491,6 +20837,8 @@ nsInputEvent
 )
 outGeckoEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NS_ASSERTION
 (
 aMouseEvent
@@ -20589,6 +20937,8 @@ localPoint
 y
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -20609,6 +20959,8 @@ nsKeyEvent
 )
 outGeckoEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NS_ASSERTION
 (
 aKeyEvent
@@ -20989,6 +21341,8 @@ setHiddenUntilMouseMoves
 YES
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -21261,6 +21615,8 @@ id
 )
 insertString
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 #
 if
 DEBUG_IME
@@ -21930,6 +22286,8 @@ arp
 release
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -21968,6 +22326,8 @@ SEL
 )
 aSelector
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 #
 if
 DEBUG_IME
@@ -22032,6 +22392,8 @@ doCommandBySelector
 aSelector
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -22050,6 +22412,8 @@ NSRange
 )
 selRange
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 #
 if
 DEBUG_IME
@@ -22551,6 +22915,8 @@ arp
 release
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -22781,6 +23147,8 @@ NSRange
 )
 theRange
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 #
 if
 DEBUG_IME
@@ -22955,6 +23323,8 @@ autorelease
 return
 result
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -22962,6 +23332,8 @@ NSRange
 )
 markedRange
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 #
 if
 DEBUG_IME
@@ -23017,6 +23389,15 @@ NSNotFound
 return
 mMarkedRange
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NSMakeRange
+(
+0
+0
+)
+)
+;
 }
 -
 (
@@ -23024,6 +23405,8 @@ NSRange
 )
 selectedRange
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 #
 if
 DEBUG_IME
@@ -23153,6 +23536,15 @@ Length
 )
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NSMakeRange
+(
+0
+0
+)
+)
+;
 }
 -
 (
@@ -23165,6 +23557,8 @@ NSRange
 )
 theRange
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 #
 if
 DEBUG_IME
@@ -23538,6 +23932,25 @@ endif
 return
 rect
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NSMakeRect
+(
+0
+.
+0
+0
+.
+0
+0
+.
+0
+0
+.
+0
+)
+)
+;
 }
 -
 (
@@ -23616,6 +24029,8 @@ NSArray
 )
 validAttributesForMarkedText
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 #
 if
 DEBUG_IME
@@ -23684,6 +24099,8 @@ any
 attributes
 right
 now
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 #
 pragma
@@ -23708,6 +24125,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 NSEvent
 *
 newEvent
@@ -23776,6 +24195,8 @@ keyCode
 return
 newEvent
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 /
 /
@@ -23813,6 +24234,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -24262,6 +24685,8 @@ mKeyDownHandled
 =
 PR_FALSE
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 static
 BOOL
@@ -24281,6 +24706,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 if
@@ -24742,6 +25169,8 @@ DispatchWindowEvent
 geckoEvent
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -24755,6 +25184,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 /
 /
 First
@@ -25239,6 +25670,11 @@ geckoEvent
 return
 YES
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
+;
 }
 -
 (
@@ -25252,6 +25688,8 @@ NSEvent
 )
 theEvent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -25535,6 +25973,8 @@ setHandScrollCursor
 theEvent
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -25587,11 +26027,18 @@ BOOL
 )
 resignFirstResponder
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 return
 [
 super
 resignFirstResponder
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
 ;
 }
 -
@@ -25600,6 +26047,8 @@ void
 )
 viewsWindowDidBecomeKey
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -25724,6 +26173,8 @@ setSuppressMakeKeyFront
 :
 NO
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -25906,6 +26357,8 @@ void
 )
 delayedTearDown
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 self
 removeFromSuperview
@@ -25915,6 +26368,8 @@ removeFromSuperview
 self
 release
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 #
@@ -26010,6 +26465,8 @@ id
 )
 aSender
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 !
@@ -26520,6 +26977,11 @@ PR_FALSE
 return
 YES
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
+;
 }
 -
 (
@@ -26535,6 +26997,8 @@ NSDraggingInfo
 )
 sender
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 PR_LOG
 (
 sCocoaLog
@@ -26661,6 +27125,11 @@ handled
 NSDragOperationGeneric
 :
 NSDragOperationNone
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NSDragOperationNone
+)
 ;
 }
 -
@@ -26835,6 +27304,8 @@ NSDragOperation
 )
 operation
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 gDraggedTransferables
 =
 nsnull
@@ -26898,6 +27369,8 @@ release
 globalDragPboard
 =
 nil
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -27013,6 +27486,8 @@ NSDraggingInfo
 )
 dropDestination
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsresult
 rv
 ;
@@ -27350,6 +27825,8 @@ release
 ;
 return
 rslt
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 #
@@ -27792,6 +28269,8 @@ NSString
 )
 attribute
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 id
 <
 mozAccessible
@@ -27889,6 +28368,8 @@ accessibilityAttributeValue
 attribute
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 #
 endif
@@ -27976,6 +28457,8 @@ NSString
 aComposingString
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 sComposingString
 =
 aComposingString
@@ -27984,6 +28467,8 @@ aComposingString
 sComposingString
 retain
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -27994,6 +28479,8 @@ EndComposing
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 sComposingView
 =
 nsnull
@@ -28016,6 +28503,8 @@ nsnull
 sDocumentID
 =
 nsnull
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -28131,6 +28620,8 @@ KillComposing
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 Force
@@ -28188,6 +28679,8 @@ FixTSMDocument
 sDocumentID
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsTSMManager
@@ -28197,6 +28690,8 @@ CommitIME
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -28275,6 +28770,8 @@ str
 release
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsTSMManager
@@ -28284,6 +28781,8 @@ CancelIME
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
@@ -28396,5 +28895,7 @@ str
 str
 release
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
