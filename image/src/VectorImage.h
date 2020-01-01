@@ -197,7 +197,7 @@ OnNewSourceData
 MOZ_OVERRIDE
 ;
 void
-InvalidateObserver
+InvalidateObserversOnNextRefreshDriverTick
 (
 )
 ;
@@ -292,6 +292,9 @@ mIsDrawing
 ;
 bool
 mHaveAnimations
+;
+bool
+mHasPendingInvalidation
 ;
 friend
 class
