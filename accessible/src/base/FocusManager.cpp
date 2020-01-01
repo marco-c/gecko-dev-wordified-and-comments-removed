@@ -40,13 +40,6 @@ h
 #
 include
 "
-nsEventShell
-.
-h
-"
-#
-include
-"
 Role
 .
 h
