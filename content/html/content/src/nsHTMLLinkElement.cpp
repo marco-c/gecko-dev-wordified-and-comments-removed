@@ -1607,7 +1607,10 @@ media
 aMedia
 )
 ;
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 aMedia
 )
