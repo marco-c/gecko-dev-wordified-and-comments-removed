@@ -252,6 +252,10 @@ MAC_OS_X_VERSION_10_6_HEX
 define
 MAC_OS_X_VERSION_10_7_HEX
 0x00001070
+#
+define
+MAC_OS_X_VERSION_10_8_HEX
+0x00001080
 using
 namespace
 mozilla
@@ -314,6 +318,12 @@ MAC_OS_X_VERSION_10_7_HEX
 :
 return
 DRIVER_OS_OS_X_10_7
+;
+case
+MAC_OS_X_VERSION_10_8_HEX
+:
+return
+DRIVER_OS_OS_X_10_8
 ;
 }
 return
