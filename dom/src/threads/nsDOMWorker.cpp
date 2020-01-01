@@ -2408,7 +2408,7 @@ ToJSValPtr
 (
 )
 NULL
-&
+JSVAL_NULL
 WriteCallback
 &
 writer

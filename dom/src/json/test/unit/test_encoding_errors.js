@@ -67,9 +67,7 @@ run_test
 {
 do_check_eq
 (
-"
 undefined
-"
 JSON
 .
 stringify
@@ -80,9 +78,7 @@ undefined
 ;
 do_check_eq
 (
-"
 undefined
-"
 JSON
 .
 stringify
@@ -97,9 +93,7 @@ function
 ;
 do_check_eq
 (
-"
 undefined
-"
 JSON
 .
 stringify

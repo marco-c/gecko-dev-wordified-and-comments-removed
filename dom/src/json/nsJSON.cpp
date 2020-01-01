@@ -1066,7 +1066,7 @@ JS_Stringify
 cx
 vp
 NULL
-&
+JSVAL_NULL
 WriteCallback
 writer
 )
