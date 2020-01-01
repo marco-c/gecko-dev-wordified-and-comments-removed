@@ -566,6 +566,10 @@ test_bug589028
 .
 html
 \
+test_bug628410
+.
+html
+\
 bug589028_helper
 .
 html
