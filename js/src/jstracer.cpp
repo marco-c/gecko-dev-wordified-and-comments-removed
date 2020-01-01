@@ -15070,10 +15070,10 @@ ownercx
 cx
 )
 {
-debug_only_v
+js_AbortRecording
 (
-printf
-(
+cx
+oldpc
 "
 Global
 object
@@ -15082,12 +15082,7 @@ owned
 by
 this
 context
-.
-\
-n
 "
-)
-;
 )
 ;
 return
