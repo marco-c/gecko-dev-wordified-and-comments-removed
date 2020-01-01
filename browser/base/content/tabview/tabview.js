@@ -509,6 +509,11 @@ storage
 js
 #
 include
+storagePolicy
+.
+js
+#
+include
 items
 .
 js
