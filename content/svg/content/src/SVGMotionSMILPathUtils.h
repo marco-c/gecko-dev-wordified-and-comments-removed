@@ -80,6 +80,7 @@ public
 :
 PathGenerator
 (
+const
 nsSVGElement
 *
 aSVGElement
@@ -182,6 +183,7 @@ float
 aYVal
 )
 ;
+const
 nsSVGElement
 *
 mSVGElement
