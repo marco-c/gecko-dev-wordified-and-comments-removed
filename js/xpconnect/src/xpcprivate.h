@@ -241,13 +241,6 @@ h
 #
 include
 "
-nsIInterfaceInfoManager
-.
-h
-"
-#
-include
-"
 nsIXPCScriptable
 .
 h
@@ -1899,12 +1892,6 @@ gOnceAliveNowDead
 XPCJSRuntime
 *
 mRuntime
-;
-nsCOMPtr
-<
-nsIInterfaceInfoManager
->
-mInterfaceInfoManager
 ;
 nsIXPCSecurityManager
 *
