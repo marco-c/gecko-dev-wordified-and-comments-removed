@@ -597,10 +597,6 @@ TestArray
 .
 cpp
 \
-TestAutoLock
-.
-cpp
-\
 TestCRT
 .
 cpp
