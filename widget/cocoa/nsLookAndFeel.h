@@ -88,6 +88,12 @@ return
 0x2022
 ;
 }
+static
+bool
+UseOverlayScrollbars
+(
+)
+;
 protected
 :
 static
@@ -106,7 +112,7 @@ kThemeScrollBarArrowsUpperLeft
 ;
 static
 bool
-UseOverlayScrollbars
+SystemWantsOverlayScrollbars
 (
 )
 ;
