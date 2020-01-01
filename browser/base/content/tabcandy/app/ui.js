@@ -349,6 +349,8 @@ tabbrowser
 moveTabTo
 (
 tab
+tabBarTabs
+.
 length
 -
 1
