@@ -794,5 +794,15 @@ dmg
 UNIVERSAL_BINARY
 =
 1
+export
+CC
+CXX
+HOST_CC
+HOST_CXX
+RANLIB
+AR
+AS
+LD
+STRIP
 fi
 fi
