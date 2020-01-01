@@ -1350,9 +1350,6 @@ aType
 nsresult
 rv
 ;
-PRUint32
-lineNumber
-;
 void
 *
 scriptObject
@@ -1378,8 +1375,6 @@ XBL_DeserializeFunction
 aContext
 aStream
 this
-&
-lineNumber
 &
 scriptObject
 )
@@ -1427,8 +1422,6 @@ XBL_DeserializeFunction
 aContext
 aStream
 this
-&
-lineNumber
 &
 scriptObject
 )
@@ -1570,7 +1563,6 @@ XBL_SerializeFunction
 aContext
 aStream
 mJSGetterObject
-0
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1594,7 +1586,6 @@ XBL_SerializeFunction
 aContext
 aStream
 mJSSetterObject
-0
 )
 ;
 NS_ENSURE_SUCCESS

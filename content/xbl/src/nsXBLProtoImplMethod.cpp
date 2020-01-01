@@ -1014,9 +1014,6 @@ void
 *
 methodCode
 ;
-PRUint32
-lineNumber
-;
 nsresult
 rv
 =
@@ -1025,8 +1022,6 @@ XBL_DeserializeFunction
 aContext
 aStream
 this
-&
-lineNumber
 &
 methodCode
 )
@@ -1122,7 +1117,6 @@ XBL_SerializeFunction
 aContext
 aStream
 mJSMethodObject
-0
 )
 ;
 }
@@ -1472,7 +1466,6 @@ XBL_SerializeFunction
 aContext
 aStream
 mJSMethodObject
-0
 )
 ;
 NS_ENSURE_SUCCESS

@@ -169,8 +169,6 @@ aStream
 JSObject
 *
 aFunctionObject
-PRUint32
-aLineNumber
 )
 ;
 nsresult
@@ -185,9 +183,6 @@ aStream
 void
 *
 aHolder
-PRUint32
-*
-aLineNumber
 void
 *
 *
