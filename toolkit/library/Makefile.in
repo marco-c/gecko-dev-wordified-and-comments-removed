@@ -1658,9 +1658,6 @@ lutils
 lcutils
 \
 -
-lcamera
-\
--
 lcamera_client
 \
 -
