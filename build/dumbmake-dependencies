@@ -42,9 +42,6 @@ security
 /
 nss
 accessible
-/
-build
-accessible
 dom
 content
 layout
