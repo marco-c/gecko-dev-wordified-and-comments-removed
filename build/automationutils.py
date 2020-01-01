@@ -991,6 +991,8 @@ removeSymbolsPath
 False
   
 if
+symbolsPath
+and
 isURL
 (
 symbolsPath
