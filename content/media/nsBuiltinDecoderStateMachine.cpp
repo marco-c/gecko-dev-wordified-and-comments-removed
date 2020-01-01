@@ -6497,6 +6497,17 @@ currentFrame
 )
 ;
 }
+mDecoder
+-
+>
+GetFrameStatistics
+(
+)
+.
+NotifyPresentedFrame
+(
+)
+;
 PRInt64
 now
 =
