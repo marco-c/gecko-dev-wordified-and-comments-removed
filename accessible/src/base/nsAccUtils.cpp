@@ -3317,6 +3317,11 @@ do_QueryInterface
 cell
 )
 ;
+NS_ENSURE_STATE
+(
+tableCellAcc
+)
+;
 PRInt32
 origIdx
 =
