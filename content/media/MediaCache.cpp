@@ -4245,7 +4245,10 @@ TimeDuration
 :
 FromMilliseconds
 (
-NS_MIN
+std
+:
+:
+min
 <
 int64_t
 >
