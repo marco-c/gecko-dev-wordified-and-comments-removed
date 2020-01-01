@@ -60,6 +60,7 @@ eCSSToken_Dashmatch
 eCSSToken_Beginsmatch
 eCSSToken_Endsmatch
 eCSSToken_Containsmatch
+eCSSToken_URange
 eCSSToken_Error
 }
 ;
@@ -75,6 +76,9 @@ mNumber
 ;
 PRInt32
 mInteger
+;
+PRInt32
+mInteger2
 ;
 nsCSSTokenType
 mType
@@ -508,6 +512,16 @@ aResult
 ;
 PRBool
 ParseString
+(
+PRInt32
+aChar
+nsCSSToken
+&
+aResult
+)
+;
+PRBool
+ParseURange
 (
 PRInt32
 aChar
