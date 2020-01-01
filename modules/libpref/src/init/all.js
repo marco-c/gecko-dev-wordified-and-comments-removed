@@ -13957,7 +13957,7 @@ frames
 .
 enabled
 "
-false
+true
 )
 ;
 pref
