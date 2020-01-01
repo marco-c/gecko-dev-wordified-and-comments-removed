@@ -277,15 +277,6 @@ CSS_PROPERTY_APPLIES_TO_PLACEHOLDER
 <
 18
 )
-#
-define
-CSS_PROPERTY_APPLIES_TO_PAGE_RULE
-(
-1
-<
-<
-19
-)
 enum
 nsStyleAnimType
 {
