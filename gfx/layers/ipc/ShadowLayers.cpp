@@ -181,6 +181,10 @@ Transaction
 (
 )
 :
+mTargetRotation
+(
+ROTATION_0
+)
 mSwapRequired
 (
 false
