@@ -510,6 +510,7 @@ NS_StackWalk
 (
 ChromeStackWalker
 0
+0
 reinterpret_cast
 <
 void

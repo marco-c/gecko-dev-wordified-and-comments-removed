@@ -484,6 +484,7 @@ NS_StackWalk
 (
 RecordStackWalker
 0
+0
 reinterpret_cast
 <
 void

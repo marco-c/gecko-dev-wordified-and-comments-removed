@@ -4761,6 +4761,7 @@ NS_StackWalk
 (
 PrintStackFrame
 2
+0
 aStream
 0
 nullptr

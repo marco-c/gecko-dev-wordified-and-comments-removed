@@ -4248,7 +4248,7 @@ tm_thread
 *
 t
 int
-skip
+skipFrames
 int
 *
 immediate_abort
@@ -4310,7 +4310,8 @@ rv
 NS_StackWalk
 (
 stack_callback
-skip
+skipFrames
+0
 info
 0
 NULL
@@ -4445,7 +4446,8 @@ rv
 NS_StackWalk
 (
 stack_callback
-skip
+skipFrames
+0
 info
 0
 NULL
@@ -4558,7 +4560,8 @@ entries
 NS_StackWalk
 (
 stack_callback
-skip
+skipFrames
+0
 info
 0
 NULL
