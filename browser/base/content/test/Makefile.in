@@ -1204,10 +1204,6 @@ _BROWSER_FILES
 +
 =
 \
-browser_addon_bar
-.
-js
-\
 browser_bug462289
 .
 js
