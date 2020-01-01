@@ -77,6 +77,9 @@ eStyleUnit_Integer
 eStyleUnit_Enumerated
 =
 32
+eStyleUnit_Calc
+=
+39
 eStyleUnit_Calc_Plus
 =
 40
@@ -270,7 +273,7 @@ IsCalcUnit
 const
 {
 return
-eStyleUnit_Calc_Plus
+eStyleUnit_Calc
 <
 =
 mUnit
