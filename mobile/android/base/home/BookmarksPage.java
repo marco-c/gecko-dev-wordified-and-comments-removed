@@ -628,6 +628,15 @@ bookmarks_list
 ;
 mList
 .
+setTag
+(
+HomePager
+.
+LIST_TAG_BOOKMARKS
+)
+;
+mList
+.
 setOnUrlOpenListener
 (
 listener

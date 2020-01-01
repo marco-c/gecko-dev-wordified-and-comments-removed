@@ -464,6 +464,15 @@ list
 ;
 mList
 .
+setTag
+(
+HomePager
+.
+LIST_TAG_LAST_TABS
+)
+;
+mList
+.
 setOnItemClickListener
 (
 new

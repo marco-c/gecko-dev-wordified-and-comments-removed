@@ -422,6 +422,15 @@ list
 ;
 mList
 .
+setTag
+(
+HomePager
+.
+LIST_TAG_READING_LIST
+)
+;
+mList
+.
 setOnItemClickListener
 (
 new

@@ -434,6 +434,15 @@ list
 ;
 mList
 .
+setTag
+(
+HomePager
+.
+LIST_TAG_MOST_RECENT
+)
+;
+mList
+.
 setOnItemClickListener
 (
 new
