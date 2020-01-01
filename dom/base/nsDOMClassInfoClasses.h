@@ -599,10 +599,6 @@ TimeEvent
 )
 DOMCI_CLASS
 (
-SVGCircleElement
-)
-DOMCI_CLASS
-(
 SVGClipPathElement
 )
 DOMCI_CLASS

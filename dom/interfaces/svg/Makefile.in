@@ -120,10 +120,6 @@ nsIDOMSVGAnimatedString
 .
 idl
 \
-nsIDOMSVGCircleElement
-.
-idl
-\
 nsIDOMSVGClipPathElement
 .
 idl
