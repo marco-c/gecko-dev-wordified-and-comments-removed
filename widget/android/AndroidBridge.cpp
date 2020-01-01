@@ -10820,6 +10820,10 @@ float
 aPageWidth
 float
 aPageHeight
+float
+aCssPageWidth
+float
+aCssPageHeight
 )
 {
 AndroidGeckoLayerClient
@@ -10845,6 +10849,8 @@ aOffsetY
 aZoom
 aPageWidth
 aPageHeight
+aCssPageWidth
+aCssPageHeight
 )
 ;
 }
@@ -10860,6 +10866,10 @@ float
 aPageWidth
 float
 aPageHeight
+float
+aCssPageWidth
+float
+aCssPageHeight
 )
 {
 AndroidGeckoLayerClient
@@ -10883,6 +10893,8 @@ SetPageSize
 aZoom
 aPageWidth
 aPageHeight
+aCssPageWidth
+aCssPageHeight
 )
 ;
 }
