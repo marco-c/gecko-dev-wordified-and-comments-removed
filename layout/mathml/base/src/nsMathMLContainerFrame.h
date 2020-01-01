@@ -949,7 +949,7 @@ aContext
 {
 AddStateBits
 (
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 )
 ;
 }

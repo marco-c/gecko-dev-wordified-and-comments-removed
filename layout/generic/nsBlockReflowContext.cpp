@@ -1121,7 +1121,7 @@ GetStateBits
 (
 )
 &
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 )
 =
 =
@@ -1206,7 +1206,7 @@ nscoord
 endif
 mOuterReflowState
 .
-mSpaceManager
+mFloatManager
 -
 >
 Translate
@@ -1230,7 +1230,7 @@ aFrameReflowStatus
 ;
 mOuterReflowState
 .
-mSpaceManager
+mFloatManager
 -
 >
 Translate

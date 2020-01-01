@@ -50,7 +50,7 @@ class
 nsBlockFrame
 ;
 class
-nsSpaceManager
+nsFloatManager
 ;
 class
 nsPlaceholderFrame
@@ -68,9 +68,9 @@ nsLineLayout
 nsPresContext
 *
 aPresContext
-nsSpaceManager
+nsFloatManager
 *
-aSpaceManager
+aFloatManager
 const
 nsHTMLReflowState
 *
@@ -905,9 +905,9 @@ GetCurrentFrameXDistanceFromBlock
 ;
 protected
 :
-nsSpaceManager
+nsFloatManager
 *
-mSpaceManager
+mFloatManager
 ;
 const
 nsStyleText

@@ -32,7 +32,7 @@ class
 nsIRenderingContext
 ;
 class
-nsSpaceManager
+nsFloatManager
 ;
 class
 nsLineLayout
@@ -471,9 +471,9 @@ availableHeight
 nsCSSFrameType
 mFrameType
 ;
-nsSpaceManager
+nsFloatManager
 *
-mSpaceManager
+mFloatManager
 ;
 nscoord
 mBlockDelta

@@ -19,7 +19,7 @@ nsILineIterator
 h
 "
 class
-nsSpaceManager
+nsFloatManager
 ;
 class
 nsLineBox

@@ -1356,7 +1356,7 @@ ReleaseGlobals
 (
 )
 ;
-nsSpaceManager
+nsFloatManager
 :
 :
 Shutdown

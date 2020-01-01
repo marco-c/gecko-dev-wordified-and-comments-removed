@@ -234,9 +234,9 @@ nsLineLayout
 nsPresContext
 *
 aPresContext
-nsSpaceManager
+nsFloatManager
 *
-aSpaceManager
+aFloatManager
 const
 nsHTMLReflowState
 *
@@ -254,9 +254,9 @@ mPresContext
 (
 aPresContext
 )
-mSpaceManager
+mFloatManager
 (
-aSpaceManager
+aFloatManager
 )
 mBlockReflowState
 (
@@ -299,7 +299,7 @@ mTextIndent
 {
 NS_ASSERTION
 (
-aSpaceManager
+aFloatManager
 |
 |
 aOuterReflowState
@@ -318,7 +318,7 @@ nsGkAtoms
 :
 letterFrame
 "
-space
+float
 manager
 should
 be
@@ -3943,7 +3943,7 @@ mComputedBorderPadding
 .
 top
 ;
-mSpaceManager
+mFloatManager
 -
 >
 Translate
@@ -4487,7 +4487,7 @@ IsEmpty
 }
 }
 }
-mSpaceManager
+mFloatManager
 -
 >
 Translate

@@ -267,7 +267,7 @@ mSpaceManager
 bad
 state
 no
-space
+float
 manager
 "
 )

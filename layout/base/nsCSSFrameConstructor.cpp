@@ -9553,7 +9553,7 @@ aFrame
 >
 AddStateBits
 (
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 )
 ;
 return
@@ -19097,7 +19097,7 @@ NS_NewBlockFrame
 (
 mPresShell
 styleContext
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 )
@@ -20798,7 +20798,7 @@ NS_NewBlockFrame
 (
 mPresShell
 styleContext
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 )
 ;
 if
@@ -21188,7 +21188,7 @@ multipleSelect
 PRUint32
 flags
 =
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 ;
 nsIFrame
 *
@@ -21592,7 +21592,7 @@ NS_NewSelectsAreaFrame
 (
 mPresShell
 aStyleContext
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 )
 ;
 InitializeSelectFrame
@@ -22089,7 +22089,7 @@ NS_NewBlockFrame
 (
 mPresShell
 styleContext
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 )
@@ -25358,7 +25358,7 @@ NS_NewXULLabelFrame
 (
 mPresShell
 aStyleContext
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 )
@@ -25372,7 +25372,7 @@ NS_NewBlockFrame
 (
 mPresShell
 aStyleContext
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 )
@@ -27369,7 +27369,7 @@ NS_NewBlockFrame
 (
 mPresShell
 aStyleContext
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 )
@@ -27765,7 +27765,7 @@ mDisplay
 =
 NS_STYLE_DISPLAY_INLINE_BLOCK
 ?
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 :
@@ -27922,7 +27922,7 @@ mDisplay
 {
 flags
 =
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 ;
@@ -28890,7 +28890,7 @@ NS_NewMathMLmathBlockFrame
 (
 mPresShell
 blockContext
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 )
@@ -31088,7 +31088,7 @@ NS_NewBlockFrame
 (
 mPresShell
 innerPseudoStyle
-NS_BLOCK_SPACE_MGR
+NS_BLOCK_FLOAT_MGR
 |
 NS_BLOCK_MARGIN_ROOT
 )

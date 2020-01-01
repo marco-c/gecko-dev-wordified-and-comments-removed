@@ -76,7 +76,7 @@ BRS_HAVELINEADJACENTTOTOP
 0x00000020
 #
 define
-BRS_SPACE_MGR
+BRS_FLOAT_MGR
 0x00000040
 #
 define
@@ -116,7 +116,7 @@ aTopMarginRoot
 PRBool
 aBottomMarginRoot
 PRBool
-aBlockNeedsSpaceManager
+aBlockNeedsFloatManager
 )
 ;
 ~
@@ -471,13 +471,13 @@ nsHTMLReflowState
 &
 mReflowState
 ;
-nsSpaceManager
+nsFloatManager
 *
-mSpaceManager
+mFloatManager
 ;
 nscoord
-mSpaceManagerX
-mSpaceManagerY
+mFloatManagerX
+mFloatManagerY
 ;
 nsReflowStatus
 mReflowStatus

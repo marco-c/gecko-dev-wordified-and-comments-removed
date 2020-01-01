@@ -768,7 +768,7 @@ aBlock
 ;
 static
 PRBool
-BlockNeedsSpaceManager
+BlockNeedsFloatManager
 (
 nsIFrame
 *
@@ -1822,7 +1822,7 @@ gReallyNoisyReflow
 ;
 static
 PRBool
-gNoisySpaceManager
+gNoisyFloatManager
 ;
 static
 PRBool
