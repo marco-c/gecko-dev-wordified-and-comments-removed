@@ -37,11 +37,6 @@ nsStyleContext
 aContext
 )
 ;
-NS_IMETHOD
-InitSVG
-(
-)
-;
 nsSVGClipPathFrame
 (
 nsStyleContext
@@ -52,6 +47,14 @@ aContext
 nsSVGClipPathFrameBase
 (
 aContext
+)
+mClipParentMatrix
+(
+nsnull
+)
+mInUse
+(
+PR_FALSE
 )
 {
 }

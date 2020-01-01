@@ -44,13 +44,6 @@ nsStyleContext
 aContext
 )
 ;
-protected
-:
-NS_IMETHOD
-InitSVG
-(
-)
-;
 public
 :
 nsSVGFilterFrame

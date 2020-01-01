@@ -47,11 +47,6 @@ nsStyleContext
 aContext
 )
 ;
-NS_IMETHOD
-InitSVG
-(
-)
-;
 nsSVGMaskFrame
 (
 nsStyleContext
@@ -62,6 +57,14 @@ aContext
 nsSVGMaskFrameBase
 (
 aContext
+)
+mMaskParentMatrix
+(
+nsnull
+)
+mInUse
+(
+PR_FALSE
 )
 {
 }
