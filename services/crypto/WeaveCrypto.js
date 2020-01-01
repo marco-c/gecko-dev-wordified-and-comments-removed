@@ -2856,11 +2856,17 @@ CKA_DECRYPT
 )
 ;
 return
+"
+"
++
 outputBuffer
 .
 readString
 (
 )
++
+"
+"
 ;
 }
 _commonCrypt
