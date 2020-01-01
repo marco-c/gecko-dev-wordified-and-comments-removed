@@ -4142,8 +4142,9 @@ nsTArray
 nsCString
 >
 browserDecoderList
-=
+(
 mDecoderList
+)
 ;
 res
 =
@@ -4488,8 +4489,9 @@ nsTArray
 nsCString
 >
 mailviewDecoderList
-=
+(
 mDecoderList
+)
 ;
 res
 =
@@ -4655,8 +4657,9 @@ nsTArray
 nsCString
 >
 composerDecoderList
-=
+(
 mDecoderList
+)
 ;
 res
 =
@@ -4794,8 +4797,9 @@ nsTArray
 nsCString
 >
 othersDecoderList
-=
+(
 mDecoderList
+)
 ;
 res
 =
@@ -4824,8 +4828,9 @@ nsTArray
 nsCString
 >
 othersEncoderList
-=
+(
 mDecoderList
+)
 ;
 res
 =
@@ -4885,8 +4890,9 @@ nsTArray
 nsCString
 >
 secondaryTiersDecoderList
-=
+(
 mDecoderList
+)
 ;
 res
 =
