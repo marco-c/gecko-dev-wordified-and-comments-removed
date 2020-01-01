@@ -14828,6 +14828,10 @@ None
 lenientFloatCode
 =
 None
+                                    
+allowTreatNonCallableAsNull
+=
+False
 )
 :
     
@@ -15207,6 +15211,26 @@ that
 s
 not
 unrestricted
+.
+    
+If
+allowTreatNonCallableAsNull
+is
+true
+then
+[
+TreatNonCallableAsNull
+]
+    
+extended
+attributes
+on
+nullable
+callback
+functions
+will
+be
+honored
 .
     
 The
@@ -20955,6 +20979,8 @@ define
 )
         
 if
+allowTreatNonCallableAsNull
+and
 type
 .
 treatNonCallableAsNull
@@ -23322,6 +23348,10 @@ True
 lenientFloatCode
 =
 None
+                 
+allowTreatNonCallableAsNull
+=
+False
 )
 :
         
@@ -23560,6 +23590,12 @@ self
 lenientFloatCode
 =
 lenientFloatCode
+        
+self
+.
+allowTreatNonCallableAsNull
+=
+allowTreatNonCallableAsNull
     
 def
 define
@@ -23661,6 +23697,12 @@ self
 argument
 .
 variadic
+            
+allowTreatNonCallableAsNull
+=
+self
+.
+allowTreatNonCallableAsNull
 )
         
 if
@@ -28272,6 +28314,10 @@ descriptor
 invalidEnumValueFatal
 =
 not
+setter
+                                             
+allowTreatNonCallableAsNull
+=
 setter
                                              
 lenientFloatCode

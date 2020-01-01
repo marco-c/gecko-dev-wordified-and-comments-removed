@@ -2408,6 +2408,15 @@ arg
 null
 )
 ;
+attribute
+TestTreatAsNullCallback
+treatAsNullCallback
+;
+attribute
+TestTreatAsNullCallback
+?
+nullableTreatAsNullCallback
+;
 /
 /
 Any
