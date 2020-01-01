@@ -4189,8 +4189,7 @@ NullValue
 )
 NULL
 parent
-NULL
-NULL
+ProxyNotCallable
 )
 ;
 }

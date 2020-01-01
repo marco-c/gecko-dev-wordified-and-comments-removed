@@ -7804,8 +7804,7 @@ scope
 global
 (
 )
-NULL
-NULL
+ProxyNotCallable
 )
 ;
 if
