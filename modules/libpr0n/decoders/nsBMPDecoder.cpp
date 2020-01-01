@@ -819,6 +819,16 @@ real_height
 ;
 if
 (
+HasError
+(
+)
+)
+{
+return
+;
+}
+if
+(
 IsSizeDecode
 (
 )

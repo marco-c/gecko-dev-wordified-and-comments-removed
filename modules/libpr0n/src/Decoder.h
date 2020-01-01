@@ -190,6 +190,16 @@ mFailCode
 ;
 }
 ;
+void
+PostResizeError
+(
+)
+{
+PostDataError
+(
+)
+;
+}
 enum
 {
 DECODER_NO_PREMULTIPLY_ALPHA
