@@ -91,14 +91,6 @@ internal
 /
 subdirectory
 .
-include
-(
-srcdir
-)
-/
-objs
-.
-mk
 DIST_INSTALL
 =
 1

@@ -100,6 +100,16 @@ srcdir
 /
 common
 \
+-
+I
+(
+topsrcdir
+)
+/
+xpcom
+/
+glue
+\
 (
 NULL
 )

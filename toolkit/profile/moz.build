@@ -135,7 +135,16 @@ CPP_SOURCES
 +
 =
 [
+TOPSRCDIR
++
 '
+/
+profile
+/
+dirserviceprovider
+/
+src
+/
 nsProfileLock
 .
 cpp
