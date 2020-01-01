@@ -259,6 +259,9 @@ LibHandle
 namespace
 mozilla
 {
+namespace
+detail
+{
 template
 <
 >
@@ -267,6 +270,7 @@ void
 RefCounted
 <
 LibHandle
+NonAtomicRefCount
 >
 :
 :
@@ -281,6 +285,7 @@ inline
 RefCounted
 <
 LibHandle
+NonAtomicRefCount
 >
 :
 :
@@ -297,6 +302,7 @@ refCnt
 0x7fffdead
 )
 ;
+}
 }
 }
 class
@@ -576,6 +582,9 @@ mappable
 namespace
 mozilla
 {
+namespace
+detail
+{
 template
 <
 >
@@ -584,6 +593,7 @@ void
 RefCounted
 <
 LibHandle
+NonAtomicRefCount
 >
 :
 :
@@ -658,6 +668,7 @@ LibHandle
 this
 )
 ;
+}
 }
 }
 }
