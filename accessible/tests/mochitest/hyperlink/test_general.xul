@@ -469,7 +469,7 @@ testStates
 (
 linkedLabelAcc
 STATE_LINKED
-EXT_STATE_HORIZONTAL
+0
 )
 ;
 var
