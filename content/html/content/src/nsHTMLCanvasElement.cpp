@@ -2533,7 +2533,6 @@ nsIInputStream
 >
 stream
 ;
-nsresult
 rv
 =
 ExtractData
