@@ -7297,11 +7297,6 @@ frame
 regsInUse
 (
 )
-&
-Registers
-:
-:
-TempRegs
 ;
 if
 (
