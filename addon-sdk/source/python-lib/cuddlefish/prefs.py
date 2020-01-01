@@ -281,16 +281,6 @@ enabled
 True
     
 '
-extensions
-.
-testpilot
-.
-runStudies
-'
-:
-False
-    
-'
 urlclassifier
 .
 updateinterval

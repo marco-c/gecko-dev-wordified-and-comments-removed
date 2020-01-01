@@ -112,13 +112,6 @@ MOZ_UPDATE_CHANNEL
 EXTENSIONS
 =
 \
-testpilot
-labs
-.
-mozilla
-.
-com
-\
 (
 NULL
 )
