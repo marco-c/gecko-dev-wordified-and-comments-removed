@@ -1894,9 +1894,6 @@ code
 )
 {
 case
-LIR_ld
-:
-case
 LIR_loop
 :
 case
@@ -1907,9 +1904,6 @@ LIR_jt
 :
 case
 LIR_jf
-:
-case
-LIR_ldcs
 :
 case
 LIR_feq
@@ -1966,9 +1960,6 @@ case
 LIR_xf
 :
 case
-LIR_ldcb
-:
-case
 LIR_eq
 :
 case
@@ -2003,9 +1994,6 @@ LIR_xbarrier
 :
 case
 LIR_xtbl
-:
-case
-LIR_ldq
 :
 case
 LIR_qiand
