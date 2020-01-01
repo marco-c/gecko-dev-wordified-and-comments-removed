@@ -231,7 +231,7 @@ options
 .
 objdir
 :
-            
+          
 self
 .
 xpcDir
@@ -274,7 +274,7 @@ tests
 )
 )
 :
-            
+          
 self
 .
 xpcDir
@@ -293,7 +293,7 @@ tests
         
 else
 :
-            
+          
 print
 >
 >
@@ -310,7 +310,7 @@ xpcshell
 test
 directory
 "
-            
+          
 sys
 .
 exit
@@ -323,19 +323,19 @@ options
 .
 setup
 :
-            
+          
 self
 .
 setupUtilities
 (
 )
-            
+          
 self
 .
 setupModules
 (
 )
-            
+          
 self
 .
 setupTestDir
@@ -347,7 +347,7 @@ options
 .
 localAPK
 :
-            
+          
 self
 .
 remoteAPK
@@ -370,7 +370,7 @@ options
 localAPK
 )
 )
-            
+          
 self
 .
 setAppRoot
@@ -401,10 +401,10 @@ options
 .
 localAPK
 :
-            
+          
 try
 :
-                
+            
 packageName
 =
 subprocess
@@ -433,11 +433,11 @@ txt
 "
 ]
 )
-                
+            
 if
 packageName
 :
-                    
+              
 self
 .
 appRoot
@@ -454,13 +454,13 @@ strip
 (
 )
 )
-            
+          
 except
 Exception
 as
 detail
 :
-                
+            
 print
 "
 unable
@@ -472,7 +472,7 @@ root
 "
 +
 detail
-                
+            
 pass
         
 return
@@ -532,7 +532,7 @@ self
 .
 pathMapping
 :
-            
+          
 if
 (
 os
@@ -557,7 +557,7 @@ local
 )
 )
 :
-                
+            
 return
 mapping
 .
@@ -588,7 +588,7 @@ remoteBinDir
 )
 )
 :
-            
+          
 self
 .
 device
@@ -636,7 +636,7 @@ remoteTmpDir
 )
 )
 :
-            
+          
 self
 .
 device
@@ -672,7 +672,7 @@ remotePrefDir
 )
 )
 :
-            
+          
 self
 .
 device
@@ -705,7 +705,7 @@ remoteScriptsDir
 )
 )
 :
-            
+          
 self
 .
 device
@@ -732,7 +732,7 @@ remoteComponentsDir
 )
 )
 :
-            
+          
 self
 .
 device
@@ -985,7 +985,7 @@ options
 .
 localAPK
 :
-            
+          
 remoteFile
 =
 self
@@ -1008,7 +1008,7 @@ options
 localAPK
 )
 )
-            
+          
 self
 .
 device
@@ -1048,7 +1048,7 @@ self
 localLib
 )
 :
-            
+          
 if
 (
 file
@@ -1062,7 +1062,7 @@ so
 )
 )
 :
-                
+            
 print
 >
 >
@@ -1078,7 +1078,7 @@ s
 "
 %
 file
-                
+            
 if
 '
 libxul
@@ -1086,7 +1086,7 @@ libxul
 in
 file
 :
-                    
+              
 print
 >
 >
@@ -1106,7 +1106,7 @@ a
 while
 .
 "
-                
+            
 remoteFile
 =
 self
@@ -1118,7 +1118,7 @@ self
 remoteBinDir
 file
 )
-                
+            
 self
 .
 device
@@ -1165,7 +1165,7 @@ exists
 localArmLib
 )
 :
-            
+          
 for
 root
 dirs
@@ -1178,13 +1178,13 @@ walk
 localArmLib
 )
 :
-                
+            
 for
 file
 in
 files
 :
-                    
+              
 if
 (
 file
@@ -1198,7 +1198,7 @@ so
 )
 )
 :
-                        
+                
 remoteFile
 =
 self
@@ -1210,7 +1210,7 @@ self
 remoteBinDir
 file
 )
-                        
+                
 self
 .
 device
@@ -1322,7 +1322,7 @@ self
 .
 alltests
 :
-            
+          
 uniqueTestPaths
 .
 add
@@ -1340,7 +1340,7 @@ testdir
 in
 uniqueTestPaths
 :
-            
+          
 abbrevTestDir
 =
 os
@@ -1354,7 +1354,7 @@ self
 .
 xpcDir
 )
-            
+          
 remoteScriptDir
 =
 self
@@ -1366,7 +1366,7 @@ self
 remoteScriptsDir
 abbrevTestDir
 )
-            
+          
 self
 .
 pathMapping
@@ -1503,7 +1503,7 @@ options
 .
 localAPK
 :
-            
+          
 self
 .
 xpcsCmd
@@ -1517,7 +1517,7 @@ insert
 greomni
 '
 )
-            
+          
 self
 .
 xpcsCmd
@@ -1535,21 +1535,21 @@ self
 .
 remoteDebugger
 :
-            
+          
 self
 .
 xpcsCmd
 =
 [
-              
+            
 self
 .
 remoteDebugger
-              
+            
 self
 .
 remoteDebuggerArgs
-              
+            
 self
 .
 xpcsCmd
@@ -1755,7 +1755,7 @@ self
 .
 remoteHere
 :
-            
+          
 remoteName
 =
 os
@@ -1769,7 +1769,7 @@ name
         
 else
 :
-            
+          
 remoteName
 =
 self
@@ -1851,7 +1851,7 @@ self
 .
 singleFile
 :
-            
+          
 self
 .
 log
@@ -2289,7 +2289,7 @@ self
 .
 appRoot
 :
-            
+          
 self
 .
 env
@@ -2349,7 +2349,7 @@ options
 .
 setup
 :
-            
+          
 self
 .
 pushWrapper
@@ -2507,7 +2507,7 @@ xpcshell
 is
 None
 :
-            
+          
 return
 self
 .
@@ -2556,7 +2556,7 @@ is
 not
 None
 :
-            
+          
 return
 self
 .
@@ -2564,7 +2564,7 @@ shellReturnCode
         
 else
 :
-            
+          
 return
 -
 1
@@ -2656,7 +2656,7 @@ leakLog
 in
 leakLogs
 :
-                
+              
 if
 os
 .
@@ -2667,7 +2667,7 @@ exists
 leakLog
 )
 :
-                    
+                
 leaks
 =
 open
@@ -2677,7 +2677,7 @@ leakLog
 r
 "
 )
-                    
+                
 f
 .
 write
@@ -2688,7 +2688,7 @@ read
 (
 )
 )
-                    
+                
 leaks
 .
 close
@@ -3643,7 +3643,7 @@ options
 .
 localAPK
 :
-        
+      
 for
 file
 in
@@ -3666,7 +3666,7 @@ dist
 )
 )
 :
-            
+        
 if
 (
 file
@@ -3689,7 +3689,7 @@ fennec
 )
 )
 :
-                
+          
 options
 .
 localAPK
@@ -3707,7 +3707,7 @@ objdir
 dist
 "
 )
-                
+          
 options
 .
 localAPK
@@ -3723,7 +3723,7 @@ options
 localAPK
 file
 )
-                
+          
 print
 >
 >
@@ -3739,12 +3739,12 @@ APK
 options
 .
 localAPK
-                
+          
 break
-        
+      
 else
 :
-            
+        
 print
 >
 >
@@ -3759,7 +3759,7 @@ specify
 an
 APK
 "
-            
+        
 sys
 .
 exit
@@ -3790,7 +3790,7 @@ manifest
 is
 None
 :
-        
+      
 print
 >
 >
@@ -3808,7 +3808,7 @@ s
 test
 dirs
 >
-             
+           
 or
 :
 %
@@ -3838,7 +3838,7 @@ argv
 0
 ]
 )
-        
+      
 sys
 .
 exit
@@ -3858,7 +3858,7 @@ adb
 "
 )
 :
-        
+      
 if
 (
 options
@@ -3866,7 +3866,7 @@ options
 deviceIP
 )
 :
-            
+        
 dm
 =
 devicemanagerADB
@@ -3888,10 +3888,10 @@ options
 .
 remoteTestRoot
 )
-        
+      
 else
 :
-            
+        
 dm
 =
 devicemanagerADB
@@ -3910,7 +3910,7 @@ remoteTestRoot
     
 else
 :
-        
+      
 dm
 =
 devicemanagerSUT
@@ -3929,7 +3929,7 @@ options
 .
 remoteTestRoot
 )
-        
+      
 if
 (
 options
@@ -3940,7 +3940,7 @@ deviceIP
 None
 )
 :
-            
+        
 print
 "
 Error
@@ -3961,7 +3961,7 @@ the
 device
 option
 "
-            
+        
 sys
 .
 exit
@@ -3979,7 +3979,7 @@ options
 .
 testPath
 :
-        
+      
 print
 >
 >
@@ -4000,7 +4000,7 @@ interactive
 mode
 !
 "
-        
+      
 sys
 .
 exit
@@ -4014,7 +4014,7 @@ options
 .
 objdir
 :
-        
+      
 print
 >
 >
@@ -4030,7 +4030,7 @@ specify
 an
 objdir
 "
-        
+      
 sys
 .
 exit
@@ -4074,7 +4074,7 @@ options
 __dict__
 )
 :
-        
+      
 sys
 .
 exit
@@ -4089,7 +4089,7 @@ __name__
 __main__
 '
 :
-    
+  
 main
 (
 )
