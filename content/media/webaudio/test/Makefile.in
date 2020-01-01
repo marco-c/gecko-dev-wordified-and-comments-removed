@@ -255,6 +255,10 @@ test_delayNode
 .
 html
 \
+test_delayNodeSmallMaxDelay
+.
+html
+\
 test_delayNodeWithGain
 .
 html
