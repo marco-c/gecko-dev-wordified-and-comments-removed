@@ -101,12 +101,12 @@ define
 color_background_highlight_overlay
 rgba
 (
-254
-188
-43
+171
+171
+171
 0
 .
-8
+5
 )
 %
 define
