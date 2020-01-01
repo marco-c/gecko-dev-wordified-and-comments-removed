@@ -180,11 +180,6 @@ if
 pbs
 .
 autoStarted
-|
-|
-pbs
-.
-lastChangedByCommandLine
 )
 return
 ;
@@ -981,8 +976,6 @@ arguments
 =
 null
 ;
-try
-{
 Services
 .
 obs
@@ -995,13 +988,6 @@ domwindowopened
 "
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 }
 get
 state
