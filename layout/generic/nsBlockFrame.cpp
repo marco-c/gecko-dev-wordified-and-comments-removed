@@ -15367,8 +15367,6 @@ spins
 endif
 LineReflowStatus
 lineReflowStatus
-=
-LINE_REFLOW_REDO_NEXT_BAND
 ;
 do
 {
