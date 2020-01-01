@@ -1613,6 +1613,17 @@ setupData
 .
 serverURL
 ;
+this
+.
+observe
+(
+null
+"
+"
+"
+"
+)
+;
 Weave
 .
 Service
