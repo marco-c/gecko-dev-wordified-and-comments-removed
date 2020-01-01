@@ -774,10 +774,10 @@ endif
 endif
 }
 void
-BreakpadSampler
+TableTicker
 :
 :
-Tick
+UnwinderTick
 (
 TickSample
 *
