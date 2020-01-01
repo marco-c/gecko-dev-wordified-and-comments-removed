@@ -431,10 +431,6 @@ nsAccessibleWrap
 .
 cpp
 \
-nsRootAccessibleWrap
-.
-cpp
-\
 (
 NULL
 )
@@ -458,10 +454,6 @@ nsAccessibleWrap
 h
 \
 nsDocAccessibleWrap
-.
-h
-\
-nsRootAccessibleWrap
 .
 h
 \

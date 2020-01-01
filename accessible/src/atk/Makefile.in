@@ -439,10 +439,6 @@ nsDocAccessibleWrap
 .
 cpp
 \
-nsRootAccessibleWrap
-.
-cpp
-\
 ApplicationAccessibleWrap
 .
 cpp
@@ -495,6 +491,10 @@ nsMaiInterfaceImage
 .
 cpp
 \
+RootAccessibleWrap
+.
+cpp
+\
 (
 NULL
 )
@@ -518,10 +518,6 @@ nsAccessibleWrap
 h
 \
 nsDocAccessibleWrap
-.
-h
-\
-nsRootAccessibleWrap
 .
 h
 \

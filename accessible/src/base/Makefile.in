@@ -512,10 +512,6 @@ nsEventShell
 .
 cpp
 \
-nsRootAccessible
-.
-cpp
-\
 nsCaretAccessible
 .
 cpp

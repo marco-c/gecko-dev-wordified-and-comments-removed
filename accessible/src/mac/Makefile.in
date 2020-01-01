@@ -437,10 +437,6 @@ nsDocAccessibleWrap
 .
 mm
 \
-nsRootAccessibleWrap
-.
-mm
-\
 nsAccessibleWrap
 .
 mm
@@ -469,6 +465,10 @@ MacUtils
 .
 mm
 \
+RootAccessibleWrap
+.
+mm
+\
 (
 NULL
 )
@@ -492,10 +492,6 @@ nsAccessibleWrap
 h
 \
 nsDocAccessibleWrap
-.
-h
-\
-nsRootAccessibleWrap
 .
 h
 \

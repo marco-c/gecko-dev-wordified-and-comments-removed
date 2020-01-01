@@ -31,14 +31,14 @@ h
 #
 include
 "
-nsRootAccessible
+Role
 .
 h
 "
 #
 include
 "
-Role
+RootAccessible
 .
 h
 "
@@ -502,7 +502,7 @@ IsElement
 )
 )
 {
-nsRootAccessible
+RootAccessible
 *
 root
 =

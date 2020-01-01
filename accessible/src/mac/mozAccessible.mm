@@ -490,13 +490,6 @@ h
 #
 include
 "
-nsRootAccessible
-.
-h
-"
-#
-include
-"
 Relation
 .
 h
@@ -505,6 +498,13 @@ h
 include
 "
 Role
+.
+h
+"
+#
+include
+"
+RootAccessible
 .
 h
 "
@@ -2018,7 +2018,7 @@ parent
 unignored
 accessible
 .
-nsRootAccessible
+RootAccessible
 *
 root
 =

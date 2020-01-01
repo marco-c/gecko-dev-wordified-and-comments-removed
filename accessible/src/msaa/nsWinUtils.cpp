@@ -15,14 +15,14 @@ h
 #
 include
 "
-nsIWinAccessNode
+nsDocAccessible
 .
 h
 "
 #
 include
 "
-nsRootAccessible
+nsCoreUtils
 .
 h
 "

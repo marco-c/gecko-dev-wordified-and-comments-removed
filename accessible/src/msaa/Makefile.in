@@ -451,10 +451,6 @@ nsHTMLWin32ObjectAccessible
 .
 cpp
 \
-nsRootAccessibleWrap
-.
-cpp
-\
 nsXULMenuAccessibleWrap
 .
 cpp
@@ -531,6 +527,10 @@ Compatibility
 .
 cpp
 \
+RootAccessibleWrap
+.
+cpp
+\
 (
 NULL
 )
@@ -554,10 +554,6 @@ nsTextAccessibleWrap
 h
 \
 nsDocAccessibleWrap
-.
-h
-\
-nsRootAccessibleWrap
 .
 h
 \
