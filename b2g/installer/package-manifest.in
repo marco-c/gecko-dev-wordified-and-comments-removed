@@ -2457,6 +2457,13 @@ BINPATH
 /
 components
 /
+RILContentHelper
+.
+js
+BINPATH
+/
+components
+/
 SmsDatabaseService
 .
 manifest

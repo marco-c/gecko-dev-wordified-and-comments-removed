@@ -261,6 +261,10 @@ RadioInterfaceLayer
 .
 js
 \
+RILContentHelper
+.
+js
+\
 (
 NULL
 )
