@@ -65,13 +65,6 @@ addPermission
 (
 )
 ;
-browserElementTestHelpers
-.
-setOOPDisabledPref
-(
-true
-)
-;
 var
 iframe
 =
@@ -222,12 +215,6 @@ nbEvents
 0
 )
 {
-browserElementTestHelpers
-.
-restoreOriginalPrefs
-(
-)
-;
 SimpleTest
 .
 finish
