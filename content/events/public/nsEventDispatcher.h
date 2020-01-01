@@ -370,7 +370,13 @@ aCallback
 nullptr
 nsCOMArray
 <
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 >
 *
 aTargets

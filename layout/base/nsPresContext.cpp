@@ -7573,7 +7573,7 @@ GetInnerWindow
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 et
 =

@@ -1472,7 +1472,7 @@ EventListenerManager
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 ;

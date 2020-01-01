@@ -19374,7 +19374,7 @@ GetDocumentURI
 }
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target_frame
 ;
@@ -19385,15 +19385,12 @@ mParentDocument
 {
 target_frame
 =
-do_QueryInterface
-(
 mParentDocument
 -
 >
 FindContentForSubDocument
 (
 this
-)
 )
 ;
 }
@@ -30522,7 +30519,7 @@ nsEventListenerManager
 (
 static_cast
 <
-nsIDOMEventTarget
+EventTarget
 *
 >
 (
@@ -40386,7 +40383,7 @@ aForce
 {
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =

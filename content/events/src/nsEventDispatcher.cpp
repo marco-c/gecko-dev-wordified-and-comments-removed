@@ -1095,7 +1095,7 @@ sCreatedCount
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 firstTarget
 =
@@ -1220,7 +1220,7 @@ while
 nextTarget
 )
 {
-nsIDOMEventTarget
+EventTarget
 *
 newTarget
 =
@@ -1375,7 +1375,7 @@ while
 item
 )
 {
-nsIDOMEventTarget
+EventTarget
 *
 newTarget
 =
@@ -1807,7 +1807,7 @@ nsDispatchingCallback
 aCallback
 nsCOMArray
 <
-nsIDOMEventTarget
+EventTarget
 >
 *
 aTargets

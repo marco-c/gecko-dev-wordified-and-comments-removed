@@ -1013,7 +1013,7 @@ NS_EVENT_TYPE_NULL
 ;
 nsCOMArray
 <
-nsIDOMEventTarget
+EventTarget
 >
 targets
 ;

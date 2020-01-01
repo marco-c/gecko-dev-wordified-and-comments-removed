@@ -211,6 +211,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 static
 nsINativeKeyBindings
 *
@@ -2261,7 +2268,7 @@ continue
 }
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 piTarget
 ;
@@ -2292,7 +2299,10 @@ else
 {
 piTarget
 =
+do_QueryInterface
+(
 mTarget
+)
 ;
 }
 rv
