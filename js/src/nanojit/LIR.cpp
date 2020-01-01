@@ -14296,6 +14296,20 @@ return
 float64
 "
 ;
+default
+:
+NanoAssert
+(
+0
+)
+;
+return
+"
+?
+?
+?
+"
+;
 }
 }
 #
@@ -16247,6 +16261,8 @@ MAXARGS
 ;
 LOpcode
 op
+=
+LIR_pcall
 ;
 ArgSize
 retSize
@@ -16316,6 +16332,8 @@ NanoAssert
 (
 0
 )
+;
+break
 ;
 }
 for
@@ -16589,6 +16607,8 @@ to
 {
 int
 nArgs
+=
+0
 ;
 LTy
 formals
