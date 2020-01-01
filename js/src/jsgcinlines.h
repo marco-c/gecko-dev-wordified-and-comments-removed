@@ -1657,6 +1657,9 @@ JSShortString
 thing
 )
 {
+(
+void
+)
 thing
 -
 >
