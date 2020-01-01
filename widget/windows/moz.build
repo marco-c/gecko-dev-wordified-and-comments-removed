@@ -256,6 +256,11 @@ nsClipboard
 cpp
 '
 '
+nsColorPicker
+.
+cpp
+'
+'
 nsDataObj
 .
 cpp
