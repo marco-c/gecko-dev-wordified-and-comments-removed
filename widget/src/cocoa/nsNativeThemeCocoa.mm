@@ -5762,6 +5762,8 @@ PRBool
 inIsHorizontal
 PRInt32
 inValue
+PRInt32
+inMaxValue
 nsIFrame
 *
 aFrame
@@ -5820,7 +5822,7 @@ tdi
 .
 max
 =
-100
+inMaxValue
 ;
 tdi
 .
@@ -9317,6 +9319,10 @@ GetProgressValue
 (
 aFrame
 )
+GetProgressMaxValue
+(
+aFrame
+)
 aFrame
 )
 ;
@@ -9335,6 +9341,10 @@ aFrame
 )
 PR_FALSE
 GetProgressValue
+(
+aFrame
+)
+GetProgressMaxValue
 (
 aFrame
 )

@@ -298,6 +298,8 @@ PRBool
 inIsHorizontal
 PRInt32
 inValue
+PRInt32
+inMaxValue
 nsIFrame
 *
 aFrame

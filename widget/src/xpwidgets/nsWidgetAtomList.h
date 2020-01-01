@@ -221,6 +221,13 @@ tab
 )
 WIDGET_ATOM
 (
+max
+"
+max
+"
+)
+WIDGET_ATOM
+(
 maxpos
 "
 maxpos
