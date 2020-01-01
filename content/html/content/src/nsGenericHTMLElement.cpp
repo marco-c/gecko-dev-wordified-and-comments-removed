@@ -9725,16 +9725,6 @@ baseURI
 if
 (
 isURIAttr
-&
-&
-GetOwnerDoc
-(
-)
-=
-=
-GetCurrentDoc
-(
-)
 )
 {
 const_cast
