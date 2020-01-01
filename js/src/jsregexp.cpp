@@ -1318,7 +1318,7 @@ if
 ren
 )
 {
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )
@@ -9982,7 +9982,7 @@ gData
 backTrackStack
 )
 {
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 gData
 -
@@ -12174,6 +12174,14 @@ gData
 stateStack
 )
 {
+js_ReportOutOfScriptQuota
+(
+gData
+-
+>
+cx
+)
+;
 gData
 -
 >
@@ -17587,7 +17595,7 @@ result
 ;
 bad
 :
-JS_ReportOutOfMemory
+js_ReportOutOfScriptQuota
 (
 cx
 )
@@ -20347,14 +20355,9 @@ empty_regexp_ucstr
 ;
 length
 =
-sizeof
+JS_ARRAY_LENGTH
 (
 empty_regexp_ucstr
-)
-/
-sizeof
-(
-jschar
 )
 -
 1

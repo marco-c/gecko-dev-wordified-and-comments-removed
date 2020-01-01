@@ -5707,14 +5707,10 @@ tv
 JS_PUSH_TEMP_ROOT
 (
 cx
-sizeof
+JS_ARRAY_LENGTH
+(
 tv
-/
-sizeof
-tv
-[
-0
-]
+)
 tv
 &
 tvr
