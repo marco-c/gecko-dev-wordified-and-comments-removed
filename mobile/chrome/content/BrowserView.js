@@ -669,7 +669,7 @@ device
 {
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 case
 "
 Nokia

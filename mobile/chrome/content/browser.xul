@@ -631,7 +631,7 @@ fullscreen
 "
 #
 elifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 sizemode
 =
 "
@@ -2203,7 +2203,7 @@ shift
 >
 #
 ifndef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 <
 key
 id
@@ -2853,7 +2853,7 @@ width
 >
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 <
 toolbarbutton
 id
