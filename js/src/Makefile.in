@@ -3888,6 +3888,8 @@ trace
 .
 h
 endif
+ifdef
+GNU_CC
 imacro_asm
 .
 js
@@ -4028,4 +4030,5 @@ imacro_asm
 js
 <
 >
+endif
 endif
