@@ -551,10 +551,6 @@ gfxCrashReporterUtils
 .
 h
 \
-nsIThebesFontMetrics
-.
-h
-\
 nsBoundingMetrics
 .
 h
