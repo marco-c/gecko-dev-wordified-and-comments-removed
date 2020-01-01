@@ -1653,8 +1653,16 @@ MOZ_WIDGET_TOOLKIT
 OS_LIBS
 +
 =
+\
 -
 lui
+\
+-
+lmedia
+\
+(
+NULL
+)
 endif
 EXTRA_DEPS
 +
