@@ -1484,6 +1484,12 @@ DrawLayerBorders
 (
 )
 ;
+static
+bool
+DrawFrameCounter
+(
+)
+;
 protected
 :
 gfxPlatform
