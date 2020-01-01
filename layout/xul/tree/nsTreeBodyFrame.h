@@ -1830,10 +1830,7 @@ nsTreeImageCacheEntry
 >
 mImageCache
 ;
-nsCOMPtr
-<
-nsISupportsArray
->
+AtomArray
 mScratchArray
 ;
 int32_t
