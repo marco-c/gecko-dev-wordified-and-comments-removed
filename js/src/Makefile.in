@@ -545,10 +545,6 @@ FoldConstants
 .
 cpp
 \
-ParallelArray
-.
-cpp
-\
 ParseMaps
 .
 cpp

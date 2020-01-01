@@ -962,13 +962,6 @@ byteOffset
 byteOffset
 "
 )
-DEFINE_ATOM
-(
-shape
-"
-shape
-"
-)
 DEFINE_KEYWORD_ATOM
 (
 return
