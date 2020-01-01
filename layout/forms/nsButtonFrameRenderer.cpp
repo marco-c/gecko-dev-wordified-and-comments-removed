@@ -722,7 +722,6 @@ rect
 *
 border
 mOuterFocusStyle
-0
 )
 ;
 }
@@ -762,7 +761,6 @@ rect
 *
 border
 mInnerFocusStyle
-0
 )
 ;
 }
@@ -863,7 +861,6 @@ buttonRect
 *
 border
 context
-0
 )
 ;
 }

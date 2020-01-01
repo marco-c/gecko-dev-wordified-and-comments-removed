@@ -177,12 +177,6 @@ PRIntn
 aSkipSides
 nscolor
 aBackgroundColor
-const
-gfxRect
-*
-aGapRect
-=
-nsnull
 )
 ;
 PRInt32
@@ -227,11 +221,6 @@ mSkipSides
 ;
 nscolor
 mBackgroundColor
-;
-const
-gfxRect
-*
-mGapRect
 ;
 PRPackedBool
 mOneUnitBorder

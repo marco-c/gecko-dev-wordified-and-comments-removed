@@ -1062,7 +1062,6 @@ rect
 *
 myBorder
 mCheckButtonFaceStyle
-0
 )
 ;
 }

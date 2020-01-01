@@ -17241,7 +17241,6 @@ aRect
 *
 myBorder
 mStyleContext
-0
 )
 ;
 nsCSSRendering
@@ -17259,7 +17258,6 @@ myBorder
 *
 myOutline
 aStyleContext
-0
 )
 ;
 }
