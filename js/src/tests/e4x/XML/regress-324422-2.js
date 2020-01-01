@@ -51,13 +51,6 @@ Expect
 out
 of
 memory
-or
-script
-stack
-space
-quota
-is
-exhausted
 error
 "
 )
@@ -69,7 +62,7 @@ expectExitCode
 ;
 expectExitCode
 (
-3
+5
 )
 ;
 try

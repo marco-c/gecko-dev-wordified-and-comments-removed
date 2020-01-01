@@ -571,6 +571,7 @@ regress
 383255
 .
 js
+silentfail
 script
 regress
 -
@@ -595,6 +596,7 @@ regress
 453915
 .
 js
+silentfail
 script
 regress
 -
@@ -603,6 +605,7 @@ regress
 01
 .
 js
+silentfail
 script
 regress
 -

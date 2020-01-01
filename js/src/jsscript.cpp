@@ -689,7 +689,7 @@ if
 names
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )
@@ -1782,7 +1782,7 @@ if
 bitmap
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )

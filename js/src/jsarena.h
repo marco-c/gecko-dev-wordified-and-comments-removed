@@ -129,10 +129,6 @@ arenasize
 jsuword
 mask
 ;
-size_t
-*
-quotap
-;
 #
 ifdef
 JS_ARENAMETER
@@ -1042,9 +1038,6 @@ size_t
 size
 size_t
 align
-size_t
-*
-quotap
 )
 ;
 extern

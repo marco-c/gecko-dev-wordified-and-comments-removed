@@ -1,3 +1,13 @@
+expectExitCode
+(
+0
+)
+;
+expectExitCode
+(
+5
+)
+;
 var
 foo
 =

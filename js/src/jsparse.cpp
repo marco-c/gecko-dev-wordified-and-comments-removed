@@ -973,7 +973,7 @@ if
 objbox
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 context
 )
@@ -1072,7 +1072,7 @@ if
 funbox
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 context
 )
@@ -2431,7 +2431,7 @@ if
 !
 pn
 )
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )
@@ -3628,11 +3628,6 @@ sizeof
 (
 jsbytecode
 )
-&
-cx
--
->
-scriptStackQuota
 )
 ;
 JS_InitArenaPool
@@ -3647,11 +3642,6 @@ sizeof
 (
 jssrcnote
 )
-&
-cx
--
->
-scriptStackQuota
 )
 ;
 Parser
@@ -8344,11 +8334,6 @@ sizeof
 (
 jsbytecode
 )
-&
-cx
--
->
-scriptStackQuota
 )
 ;
 JS_InitArenaPool
@@ -8363,11 +8348,6 @@ sizeof
 (
 jssrcnote
 )
-&
-cx
--
->
-scriptStackQuota
 )
 ;
 Parser

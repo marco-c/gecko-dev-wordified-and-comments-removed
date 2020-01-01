@@ -207,6 +207,7 @@ regress
 02
 .
 js
+silentfail
 script
 regress
 -

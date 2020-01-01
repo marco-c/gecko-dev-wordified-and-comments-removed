@@ -37,15 +37,6 @@ InternalError
 allocation
 size
 overflow
-|
-InternalError
-:
-script
-stack
-space
-quota
-is
-exhausted
 /
 ;
 printBugNumber

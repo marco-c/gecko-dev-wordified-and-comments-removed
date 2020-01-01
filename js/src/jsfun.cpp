@@ -12246,7 +12246,7 @@ if
 cp
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )

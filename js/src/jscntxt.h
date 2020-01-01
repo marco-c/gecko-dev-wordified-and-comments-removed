@@ -3022,9 +3022,6 @@ generatingError
 jsuword
 stackLimit
 ;
-size_t
-scriptStackQuota
-;
 JSRuntime
 *
 const
@@ -7890,14 +7887,6 @@ js_ReportOutOfMemory
 JSContext
 *
 cx
-)
-;
-void
-js_ReportOutOfScriptQuota
-(
-JSContext
-*
-maybecx
 )
 ;
 JS_FRIEND_API

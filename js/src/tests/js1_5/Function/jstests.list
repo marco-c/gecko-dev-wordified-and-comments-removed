@@ -79,12 +79,14 @@ regress
 292215
 .
 js
+silentfail
 script
 regress
 -
 338001
 .
 js
+silentfail
 script
 regress
 -
@@ -93,6 +95,7 @@ regress
 01
 .
 js
+silentfail
 script
 regress
 -
@@ -101,6 +104,7 @@ regress
 02
 .
 js
+silentfail
 script
 regress
 -

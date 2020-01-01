@@ -73,6 +73,7 @@ regress
 576828
 .
 js
+silentfail
 skip
 -
 if
