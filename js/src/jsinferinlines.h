@@ -6402,6 +6402,10 @@ isPackedArray
 (
 false
 )
+hasSpecialEquality
+(
+false
+)
 {
 #
 ifdef
