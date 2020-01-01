@@ -364,7 +364,7 @@ gridcell
 nsIAccessibleRole
 :
 :
-ROLE_CELL
+ROLE_GRID_CELL
 eNoValue
 eNoAction
 kNoReqStates

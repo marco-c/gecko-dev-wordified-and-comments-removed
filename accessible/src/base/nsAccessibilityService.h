@@ -667,6 +667,9 @@ listbox
 flat
 equation
 "
+"
+gridcell
+"
 }
 ;
 static

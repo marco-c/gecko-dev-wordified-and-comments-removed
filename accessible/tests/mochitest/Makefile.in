@@ -486,6 +486,10 @@ nsIAccessibleEditableText
 .
 js
 \
+role
+.
+js
+\
 test_aria_activedescendant
 .
 html
@@ -543,10 +547,6 @@ html
 temporarily
 disabled
 )
-\
-test_nsHyperTextAcc_roles
-.
-html
 \
 test_nsIAccessible_actions
 .
@@ -669,6 +669,14 @@ test_nsIAccessNode_utils
 html
 \
 test_nsOuterDocAccessible
+.
+html
+\
+test_role_nsHyperTextAcc
+.
+html
+\
+test_role_table_cells
 .
 html
 \
