@@ -165,6 +165,9 @@ LaunchWithURI
 nsIURI
 *
 aURI
+nsIInterfaceRequestor
+*
+aWindowContext
 )
 ;
 protected

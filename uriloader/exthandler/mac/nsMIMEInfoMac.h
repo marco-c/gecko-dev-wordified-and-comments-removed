@@ -73,6 +73,9 @@ LaunchWithURI
 nsIURI
 *
 aURI
+nsIInterfaceRequestor
+*
+aWindowContext
 )
 ;
 NS_IMETHOD

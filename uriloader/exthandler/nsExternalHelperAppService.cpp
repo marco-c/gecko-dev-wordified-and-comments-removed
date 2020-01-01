@@ -472,13 +472,6 @@ h
 #
 include
 "
-nsMIMEInfoImpl
-.
-h
-"
-#
-include
-"
 nsLocalHandlerApp
 .
 h
@@ -5868,6 +5861,7 @@ handler
 LaunchWithURI
 (
 uri
+aWindowContext
 )
 ;
 nsCOMPtr

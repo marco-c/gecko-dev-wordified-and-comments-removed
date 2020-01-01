@@ -305,6 +305,9 @@ LaunchWithURI
 nsIURI
 *
 aURI
+nsIInterfaceRequestor
+*
+aWindowContext
 )
 {
 nsCOMPtr
@@ -366,6 +369,7 @@ LaunchWithWebHandler
 (
 webHandlerApp
 aURI
+aWindowContext
 )
 ;
 }

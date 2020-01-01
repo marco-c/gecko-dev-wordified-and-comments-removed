@@ -259,6 +259,9 @@ LaunchWithURI
 nsIURI
 *
 aURI
+nsIInterfaceRequestor
+*
+aWindowContext
 )
 ;
 NS_IMETHOD
@@ -448,6 +451,9 @@ aApp
 nsIURI
 *
 aURI
+nsIInterfaceRequestor
+*
+aWindowContext
 )
 ;
 static

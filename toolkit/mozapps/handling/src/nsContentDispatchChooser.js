@@ -399,6 +399,14 @@ aURI
 false
 )
 ;
+params
+.
+appendElement
+(
+aWindowContext
+false
+)
+;
 var
 ww
 =
