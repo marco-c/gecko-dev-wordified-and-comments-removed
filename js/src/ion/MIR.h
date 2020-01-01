@@ -2970,6 +2970,10 @@ setResultType
 type
 )
 ;
+setIdempotent
+(
+)
+;
 }
 public
 :
