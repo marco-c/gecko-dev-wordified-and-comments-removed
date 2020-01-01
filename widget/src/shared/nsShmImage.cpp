@@ -341,6 +341,12 @@ shm
 mInfo
 )
 ;
+XSync
+(
+dpy
+False
+)
+;
 xerror
 =
 gdk_error_trap_pop
