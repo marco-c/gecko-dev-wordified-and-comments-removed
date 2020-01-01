@@ -70,6 +70,12 @@ ac_add_options
 enable
 -
 profiling
+ac_add_options
+-
+-
+enable
+-
+metro
 #
 Nightlies
 only

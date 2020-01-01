@@ -30,6 +30,12 @@ ac_add_options
 enable
 -
 signmar
+ac_add_options
+-
+-
+enable
+-
+metro
 ENABLE_MARIONETTE
 =
 1
