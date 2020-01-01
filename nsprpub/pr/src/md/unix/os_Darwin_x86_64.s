@@ -455,6 +455,9 @@ text
 globl
 __PR_Darwin_x86_64_AtomicIncrement
 .
+private_extern
+__PR_Darwin_x86_64_AtomicIncrement
+.
 align
 4
 __PR_Darwin_x86_64_AtomicIncrement
@@ -509,6 +512,9 @@ decrement
 text
 .
 globl
+__PR_Darwin_x86_64_AtomicDecrement
+.
+private_extern
 __PR_Darwin_x86_64_AtomicDecrement
 .
 align
@@ -575,6 +581,9 @@ text
 globl
 __PR_Darwin_x86_64_AtomicSet
 .
+private_extern
+__PR_Darwin_x86_64_AtomicSet
+.
 align
 4
 __PR_Darwin_x86_64_AtomicSet
@@ -632,6 +641,9 @@ addition
 text
 .
 globl
+__PR_Darwin_x86_64_AtomicAdd
+.
+private_extern
 __PR_Darwin_x86_64_AtomicAdd
 .
 align
