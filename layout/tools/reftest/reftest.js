@@ -3928,18 +3928,6 @@ DoneTests
 (
 )
 {
-gTestResults
-.
-AssertionUnexpected
-=
-0
-;
-gTestResults
-.
-AssertionUnexpectedFixed
-=
-0
-;
 dump
 (
 "
@@ -6731,7 +6719,7 @@ dump
 REFTEST
 TEST
 -
-DETCEPXENU
+UNEXPECTED
 -
 PASS
 |
@@ -6787,7 +6775,7 @@ dump
 REFTEST
 TEST
 -
-DETCEPXENU
+UNEXPECTED
 -
 FAIL
 |
