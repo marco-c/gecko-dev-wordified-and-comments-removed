@@ -225,6 +225,10 @@ nsIAudioChannelManager
 .
 idl
 \
+nsINavigatorAudioChannelManager
+.
+idl
+\
 (
 NULL
 )
@@ -322,6 +326,10 @@ AutoMounterSetting
 cpp
 \
 GonkGPSGeolocationProvider
+.
+cpp
+\
+AudioChannelManager
 .
 cpp
 \

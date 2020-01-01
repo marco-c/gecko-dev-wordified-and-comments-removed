@@ -4875,6 +4875,13 @@ onhashchange
 )
 GK_ATOM
 (
+onheadphoneschange
+"
+onheadphoneschange
+"
+)
+GK_ATOM
+(
 onheld
 "
 onheld
