@@ -7757,6 +7757,14 @@ e
 }
 if
 (
+!
+this
+.
+node
+.
+selectedItem
+|
+|
 this
 .
 node
