@@ -515,10 +515,6 @@ mozinfo
 .
 py
 \
-poster
-.
-zip
-\
 (
 NULL
 )
