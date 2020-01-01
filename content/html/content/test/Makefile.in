@@ -1702,6 +1702,14 @@ test_bug885024
 .
 html
 \
+test_track
+.
+html
+\
+test_track_disabled
+.
+html
+\
 (
 NULL
 )
