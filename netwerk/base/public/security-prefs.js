@@ -730,7 +730,7 @@ security
 .
 warn_entering_secure
 "
-true
+false
 )
 ;
 pref
@@ -750,7 +750,7 @@ security
 .
 warn_leaving_secure
 "
-true
+false
 )
 ;
 pref
@@ -770,7 +770,7 @@ security
 .
 warn_submit_insecure
 "
-true
+false
 )
 ;
 pref
