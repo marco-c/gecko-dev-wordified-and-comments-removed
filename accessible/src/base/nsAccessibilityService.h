@@ -514,9 +514,9 @@ aPresShell
 nsIWeakReference
 *
 aWeakShell
-PRBool
+bool
 *
-aIsHidden
+aIsSubtreeHidden
 =
 nsnull
 )
