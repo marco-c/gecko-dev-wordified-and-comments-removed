@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsUConvDll
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
