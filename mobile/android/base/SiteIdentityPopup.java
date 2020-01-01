@@ -310,6 +310,11 @@ setOutsideTouchable
 true
 )
 ;
+setFocusable
+(
+true
+)
+;
 setWindowLayoutMode
 (
 HardwareUtils
