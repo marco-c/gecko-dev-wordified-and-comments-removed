@@ -947,7 +947,7 @@ Ci
 .
 nsIFile
 .
-DIRECTORY_FILE
+DIRECTORY_TYPE
 0600
 )
 ;
