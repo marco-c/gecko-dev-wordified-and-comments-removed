@@ -754,6 +754,12 @@ PRUint32
 aTime
 )
 ;
+virtual
+PRBool
+HasPendingInputEvent
+(
+)
+;
 nsWindow
 *
 GetTopLevelWindow

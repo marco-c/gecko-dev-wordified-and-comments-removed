@@ -12854,7 +12854,7 @@ if
 aType
 >
 =
-Flush_Layout
+Flush_InterruptibleLayout
 )
 {
 StartLayout

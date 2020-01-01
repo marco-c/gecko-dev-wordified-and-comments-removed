@@ -19,12 +19,15 @@ Flush_Style
 Flush_Frames
 =
 Flush_Style
-Flush_Layout
+Flush_InterruptibleLayout
 =
 4
-Flush_Display
+Flush_Layout
 =
 5
+Flush_Display
+=
+6
 }
 ;
 #
