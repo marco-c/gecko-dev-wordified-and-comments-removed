@@ -17,7 +17,7 @@ h
 if
 defined
 (
-OS_WIN
+COMPILER_MSVC
 )
 #
 ifndef

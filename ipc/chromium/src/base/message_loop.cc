@@ -801,14 +801,14 @@ GetTopSEHFilter
 (
 )
 ;
-__try
+MOZ_SEH_TRY
 {
 RunInternal
 (
 )
 ;
 }
-__except
+MOZ_SEH_EXCEPT
 (
 SEHFilter
 (

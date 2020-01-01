@@ -346,12 +346,6 @@ OS_WIN
 &
 defined
 (
-COMPILER_MSVC
-)
-&
-&
-defined
-(
 ARCH_CPU_X86_FAMILY
 )
 #

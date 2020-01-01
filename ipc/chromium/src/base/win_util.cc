@@ -1429,6 +1429,10 @@ SetProp
 (
 window
 kHandlerKey
+(
+void
+*
+)
 original_handler
 )
 ;

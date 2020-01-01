@@ -192,7 +192,7 @@ dwFlags
 =
 0
 ;
-__try
+MOZ_SEH_TRY
 {
 RaiseException
 (
@@ -219,7 +219,7 @@ info
 )
 ;
 }
-__except
+MOZ_SEH_EXCEPT
 (
 EXCEPTION_CONTINUE_EXECUTION
 )
