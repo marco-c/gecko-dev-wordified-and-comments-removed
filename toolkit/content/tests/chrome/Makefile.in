@@ -93,6 +93,14 @@ test_findbar
 .
 xul
 \
+findbar_events_window
+.
+xul
+\
+test_findbar_events
+.
+xul
+\
 test_bug253481
 .
 xul
