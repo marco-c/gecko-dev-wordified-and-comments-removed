@@ -1069,10 +1069,10 @@ true
 ;
 checkNetworkField
 .
-set
+setBoolean
 (
-false
 client
+false
 )
 ;
 /
