@@ -160,7 +160,7 @@ Div
 HTML_TAG
 (
 dl
-SharedList
+DList
 )
 HTML_HTMLELEMENT_TAG
 (
@@ -394,7 +394,7 @@ Object
 HTML_TAG
 (
 ol
-SharedList
+OList
 )
 HTML_TAG
 (
@@ -561,7 +561,7 @@ u
 HTML_TAG
 (
 ul
-SharedList
+UList
 )
 HTML_HTMLELEMENT_TAG
 (
