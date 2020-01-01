@@ -94,17 +94,6 @@ MPL
 interface
 LockedFile
 ;
-enum
-FileMode
-{
-"
-readonly
-"
-"
-readwrite
-"
-}
-;
 interface
 FileHandle
 :

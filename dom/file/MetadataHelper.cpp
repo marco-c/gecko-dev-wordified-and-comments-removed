@@ -33,10 +33,10 @@ mLockedFile
 mMode
 =
 =
-LockedFile
+FileMode
 :
 :
-READ_WRITE
+Readwrite
 ;
 nsRefPtr
 <

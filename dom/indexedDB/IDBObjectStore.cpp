@@ -70,6 +70,17 @@ mozilla
 /
 dom
 /
+FileHandleBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StructuredCloneTags
 .
 h

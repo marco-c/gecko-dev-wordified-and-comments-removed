@@ -617,10 +617,10 @@ aLockedFile
 mMode
 =
 =
-LockedFile
+FileMode
 :
 :
-READ_WRITE
+Readwrite
 ;
 FileStorageInfo
 *
@@ -2031,10 +2031,10 @@ lockedFile
 mMode
 =
 =
-LockedFile
+FileMode
 :
 :
-READ_WRITE
+Readwrite
 )
 {
 if

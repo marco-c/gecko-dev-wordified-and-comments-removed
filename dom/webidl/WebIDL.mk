@@ -359,6 +359,10 @@ FileList
 .
 webidl
 \
+FileMode
+.
+webidl
+\
 FileReader
 .
 webidl
