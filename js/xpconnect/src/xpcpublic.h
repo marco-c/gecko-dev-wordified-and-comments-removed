@@ -1505,6 +1505,12 @@ JSObject
 global
 )
 ;
+JSObject
+*
+GetJunkScope
+(
+)
+;
 }
 nsCycleCollectionParticipant
 *
