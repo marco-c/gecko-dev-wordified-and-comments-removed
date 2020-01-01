@@ -764,12 +764,6 @@ AnyName
 38
 js_InitNullClass
 )
-JS_PROTO
-(
-WeakMap
-39
-js_InitWeakMapClass
-)
 #
 undef
 XML_INIT

@@ -1645,10 +1645,6 @@ JSAtom
 *
 iterateAtom
 ;
-JSAtom
-*
-WeakMapAtom
-;
 struct
 {
 JSAtom

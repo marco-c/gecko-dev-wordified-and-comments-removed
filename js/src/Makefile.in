@@ -948,10 +948,6 @@ jsutil
 .
 cpp
 \
-jsweakmap
-.
-cpp
-\
 jswrapper
 .
 cpp
@@ -1265,10 +1261,6 @@ jshashtable
 h
 \
 jsversion
-.
-h
-\
-jsweakmap
 .
 h
 \
