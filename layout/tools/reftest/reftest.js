@@ -1456,6 +1456,7 @@ n
 var
 sandbox
 =
+new
 Components
 .
 utils
