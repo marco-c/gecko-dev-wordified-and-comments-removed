@@ -2632,6 +2632,9 @@ aContent
 nsIDocument
 *
 aOldDocument
+nsIContent
+*
+aContentBindingParent
 )
 {
 NS_PRECONDITION
@@ -2683,12 +2686,7 @@ parentBinding
 =
 GetBinding
 (
-aContent
--
->
-GetBindingParent
-(
-)
+aContentBindingParent
 )
 ;
 if

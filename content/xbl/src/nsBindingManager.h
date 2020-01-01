@@ -208,6 +208,12 @@ RemovedFromDocumentInternal
 (
 aContent
 aOldDocument
+aContent
+-
+>
+GetBindingParent
+(
+)
 )
 ;
 }
@@ -221,6 +227,9 @@ aContent
 nsIDocument
 *
 aOldDocument
+nsIContent
+*
+aContentBindingParent
 )
 ;
 nsIAtom
