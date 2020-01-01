@@ -162,6 +162,14 @@ commonDialogOnLoad
 )
 ;
 "
+onunload
+=
+"
+commonDialogOnUnload
+(
+)
+;
+"
 ondialogaccept
 =
 "
