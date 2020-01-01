@@ -75,6 +75,11 @@ js
 "
 )
 ;
+const
+CLIENTS_TTL
+=
+1814400
+;
 function
 ClientsRec
 (
@@ -109,6 +114,9 @@ Record
 .
 Clients
 "
+ttl
+:
+CLIENTS_TTL
 }
 ;
 Utils

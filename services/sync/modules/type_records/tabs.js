@@ -75,6 +75,11 @@ js
 "
 )
 ;
+const
+TABS_TTL
+=
+604800
+;
 function
 TabSetRecord
 (
@@ -109,6 +114,9 @@ Record
 .
 Tabs
 "
+ttl
+:
+TABS_TTL
 }
 ;
 Utils

@@ -75,6 +75,11 @@ js
 "
 )
 ;
+const
+HISTORY_TTL
+=
+5184000
+;
 function
 HistoryRec
 (
@@ -109,6 +114,9 @@ Record
 .
 History
 "
+ttl
+:
+HISTORY_TTL
 }
 ;
 Utils
