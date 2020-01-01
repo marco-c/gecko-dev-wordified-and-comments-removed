@@ -1979,7 +1979,6 @@ None
 .
 #
 All
-4
 methods
 of
 nsIJSON
@@ -2262,13 +2261,6 @@ width
 nsIBoxObject
 .
 height
-'
-#
-FileReader
-'
-nsIDOMFileReader
-.
-*
 '
 #
 XHR
@@ -2687,13 +2679,6 @@ nsIDOMCanvasPattern
 :
 '
 nsIDOMCanvasRenderingContext2D
-'
-'
-nsIDOMBlob
-'
-:
-'
-nsIDOMFile
 '
 '
 nsIWebGLTexture
