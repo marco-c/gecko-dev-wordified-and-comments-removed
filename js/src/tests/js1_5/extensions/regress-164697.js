@@ -277,6 +277,18 @@ expr
 var
 actual
 ;
+if
+(
+typeof
+parent
+=
+=
+=
+"
+function
+"
+)
+{
 try
 {
 expr
@@ -342,6 +354,7 @@ actual
 expr
 )
 ;
+}
 try
 {
 expr
