@@ -425,6 +425,14 @@ HealthReportUtils
 .
 java
 \
+background
+/
+healthreport
+/
+ProfileInformationCache
+.
+java
+\
 sync
 /
 AlreadySyncingException
