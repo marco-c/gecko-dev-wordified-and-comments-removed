@@ -181,12 +181,17 @@ JS_INIT_CLIST
 scripts
 )
 ;
+#
+ifdef
+JS_TRACER
 PodZero
 (
 &
 traceMonitor
 )
 ;
+#
+endif
 PodArrayZero
 (
 scriptsToGC
