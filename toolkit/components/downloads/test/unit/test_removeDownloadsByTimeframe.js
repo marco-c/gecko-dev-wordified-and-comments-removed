@@ -184,6 +184,12 @@ execute
 (
 )
 ;
+stmt
+.
+finalize
+(
+)
+;
 return
 id
 +
@@ -284,6 +290,12 @@ reset
 )
 ;
 }
+stmt
+.
+finalize
+(
+)
+;
 }
 function
 test_download_start_in_range
