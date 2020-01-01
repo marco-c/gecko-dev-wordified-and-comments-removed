@@ -57,6 +57,12 @@ NSString
 )
 string
 ;
+-
+(
+void
+)
+cancelComposition
+;
 end
 #
 endif
