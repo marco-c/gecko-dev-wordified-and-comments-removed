@@ -920,6 +920,10 @@ browser_inspector_stylePanel
 .
 js
 \
+browser_inspector_domPanel
+.
+js
+\
 browser_inspector_iframeTest
 .
 js

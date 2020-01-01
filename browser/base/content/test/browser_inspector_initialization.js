@@ -52,6 +52,8 @@ id
 "
 inspector
 -
+dom
+-
 panel
 "
 )
@@ -120,7 +122,7 @@ open
 "
 )
 ;
-todo
+ok
 (
 InspectorUI
 .
@@ -159,7 +161,7 @@ id
 "
 inspector
 -
-style
+dom
 -
 panel
 "
