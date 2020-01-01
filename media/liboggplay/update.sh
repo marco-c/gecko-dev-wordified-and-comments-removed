@@ -925,3 +925,10 @@ p3
 bug496529
 .
 patch
+patch
+-
+p3
+<
+bug499519
+.
+patch
