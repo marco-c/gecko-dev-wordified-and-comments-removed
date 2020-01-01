@@ -881,9 +881,6 @@ gFunction
 TestDeleteOnClose
 "
 ;
-#
-ifndef
-WINCE
 nsCOMPtr
 <
 nsILocalFile
@@ -1132,8 +1129,6 @@ return
 PR_FALSE
 ;
 }
-#
-endif
 return
 PR_TRUE
 ;

@@ -1902,14 +1902,6 @@ PRBool
 recurse
 )
 {
-#
-ifdef
-WINCE
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-else
 NS_ENSURE_TRUE
 (
 mKey
@@ -1996,8 +1988,6 @@ recurse
 return
 NS_OK
 ;
-#
-endif
 }
 NS_IMETHODIMP
 nsWindowsRegKey

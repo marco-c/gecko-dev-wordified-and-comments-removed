@@ -5,13 +5,6 @@ defined
 (
 __MINGW32__
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 #
 ifdef
 WIN32

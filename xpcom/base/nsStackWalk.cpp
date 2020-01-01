@@ -31,13 +31,6 @@ defined
 _M_IA64
 )
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 #
 include
 "

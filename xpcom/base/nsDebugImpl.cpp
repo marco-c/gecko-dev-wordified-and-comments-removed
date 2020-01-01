@@ -1471,17 +1471,12 @@ defined
 (
 _WIN32
 )
-#
-ifndef
-WINCE
 :
 :
 DebugBreak
 (
 )
 ;
-#
-endif
 #
 elif
 defined
@@ -1629,9 +1624,6 @@ defined
 (
 _WIN32
 )
-#
-ifndef
-WINCE
 static
 int
 ignoreDebugger
@@ -1936,8 +1928,6 @@ RealBreak
 (
 )
 ;
-#
-endif
 #
 elif
 defined

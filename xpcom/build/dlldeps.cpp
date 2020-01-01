@@ -1465,13 +1465,6 @@ defined
 (
 DEBUG
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 PurePrintf
 (
 0

@@ -1362,13 +1362,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 void
 printf_stderr
 (
