@@ -389,13 +389,17 @@ http
 :
 /
 /
+talos
+-
+bundles
+.
+pvt
+.
 build
 .
 mozilla
 .
 org
-/
-talos
 /
 "
             
@@ -471,6 +475,12 @@ downloadable
 files
     
 in
+talos
+-
+bundles
+.
+pvt
+.
 build
 .
 mozilla
@@ -551,13 +561,17 @@ http
 :
 /
 /
+talos
+-
+bundles
+.
+pvt
+.
 build
 .
 mozilla
 .
 org
-/
-talos
 /
 '
 )
