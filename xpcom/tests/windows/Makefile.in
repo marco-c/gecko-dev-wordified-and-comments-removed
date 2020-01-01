@@ -442,10 +442,6 @@ TestCOM
 .
 cpp
 \
-TestWinFileAttribs
-.
-cpp
-\
 (
 NULL
 )
