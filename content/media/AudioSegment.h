@@ -98,7 +98,7 @@ int32_t
 aDuration
 float
 aVolume
-int32_t
+uint32_t
 aOutputChannels
 AudioDataValue
 *
