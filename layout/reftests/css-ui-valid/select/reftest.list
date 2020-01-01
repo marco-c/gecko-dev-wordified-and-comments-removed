@@ -292,3 +292,17 @@ legend
 ref
 .
 html
+=
+=
+select
+-
+novalidate
+.
+html
+select
+-
+required
+-
+ref
+.
+html
