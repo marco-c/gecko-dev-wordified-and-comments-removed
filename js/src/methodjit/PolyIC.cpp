@@ -7051,7 +7051,7 @@ holder
 if
 (
 !
-IsCacheableNonGlobalScope
+js_IsCacheableNonGlobalScope
 (
 tobj
 )
@@ -9337,7 +9337,7 @@ obj
 if
 (
 !
-IsCacheableNonGlobalScope
+js_IsCacheableNonGlobalScope
 (
 tobj
 )
