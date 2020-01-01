@@ -4654,7 +4654,7 @@ rt
 gcBytes
 #
 ifdef
-XP_UNIX
+HAVE_SBRK
 (
 unsigned
 long
