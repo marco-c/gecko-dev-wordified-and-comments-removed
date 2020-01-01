@@ -187,9 +187,6 @@ nsConsoleService
 class
 nsIDOMBlob
 ;
-class
-nsDOMFileBase
-;
 namespace
 mozilla
 {
@@ -496,17 +493,6 @@ return
 mSendPermissionUpdates
 ;
 }
-bool
-GetParamsForBlob
-(
-nsDOMFileBase
-*
-aBlob
-BlobConstructorParams
-*
-aOutParams
-)
-;
 BlobParent
 *
 GetOrCreateActorForBlob
