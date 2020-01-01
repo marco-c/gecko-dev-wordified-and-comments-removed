@@ -4129,6 +4129,15 @@ PopupType
 =
 =
 ePopupTypeMenu
+&
+&
+!
+popupFrame
+-
+>
+IsContextMenu
+(
+)
 )
 {
 return
