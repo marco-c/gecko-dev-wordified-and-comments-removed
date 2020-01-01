@@ -1728,9 +1728,9 @@ this
 .
 _grabSidebar
 )
-Browser
+TabletSidebar
 .
-ungrabSidebar
+ungrab
 (
 )
 ;
@@ -1822,9 +1822,9 @@ this
 .
 _grabSidebar
 )
-Browser
+TabletSidebar
 .
-grabSidebar
+grab
 (
 )
 ;
@@ -1835,9 +1835,9 @@ this
 .
 _grabSidebar
 )
-Browser
+TabletSidebar
 .
-slideSidebarBy
+slideBy
 (
 dx
 )
