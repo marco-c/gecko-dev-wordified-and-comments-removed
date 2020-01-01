@@ -11521,7 +11521,7 @@ inst
 inst
 -
 >
-SetDrawingModel
+SetANPDrawingModel
 (
 NS_PTR_TO_INT32
 (

@@ -267,7 +267,7 @@ mSurface
 (
 nsnull
 )
-mDrawingModel
+mANPDrawingModel
 (
 0
 )
@@ -3221,13 +3221,13 @@ void
 nsNPAPIPluginInstance
 :
 :
-SetDrawingModel
+SetANPDrawingModel
 (
 PRUint32
 aModel
 )
 {
-mDrawingModel
+mANPDrawingModel
 =
 aModel
 ;
@@ -3356,7 +3356,7 @@ GetJavaSurface
 {
 if
 (
-mDrawingModel
+mANPDrawingModel
 !
 =
 kSurface_ANPDrawingModel
@@ -3453,12 +3453,6 @@ if
 defined
 (
 XP_MACOSX
-)
-|
-|
-defined
-(
-MOZ_WIDGET_ANDROID
 )
 *
 aModel
