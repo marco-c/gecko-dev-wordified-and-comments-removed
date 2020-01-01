@@ -4105,6 +4105,12 @@ popn
 2
 )
 ;
+frame
+.
+pushSynced
+(
+)
+;
 return
 ;
 }
