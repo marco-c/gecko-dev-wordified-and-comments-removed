@@ -1,3 +1,11 @@
+gTestfile
+=
+'
+simple_form
+.
+js
+'
+;
 var
 SECTION
 =
@@ -77,6 +85,8 @@ SECTION
 3
 }
 /
+.
+exec
 (
 '
 23
@@ -108,6 +118,8 @@ String
 3
 }
 /
+.
+exec
 (
 '
 23
@@ -134,6 +146,8 @@ SECTION
 }
 8
 /
+.
+exec
 (
 '
 23
@@ -164,6 +178,8 @@ String
 }
 8
 /
+.
+exec
 (
 '
 23
@@ -191,6 +207,8 @@ SECTION
 }
 8
 /
+.
+exec
 (
 '
 23
@@ -214,6 +232,8 @@ length
 }
 8
 /
+.
+exec
 (
 '
 23
@@ -350,6 +370,8 @@ SECTION
 }
 8
 /
+.
+exec
 (
 '
 23
@@ -380,6 +402,8 @@ String
 }
 8
 /
+.
+exec
 (
 '
 23
@@ -456,6 +480,8 @@ SECTION
 }
 8
 /
+.
+exec
 (
 '
 23
@@ -479,6 +505,8 @@ length
 }
 8
 /
+.
+exec
 (
 '
 23

@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+regress
+-
+6359
+.
+js
+'
+;
 var
 SECTION
 =
@@ -64,6 +74,8 @@ b
 1
 +
 /
+.
+exec
 (
 "
 baaac
@@ -83,6 +95,8 @@ b
 1
 +
 /
+.
+exec
 (
 "
 baaac
@@ -105,6 +119,8 @@ b
 1
 +
 /
+.
+exec
 (
 "
 baaac
@@ -127,6 +143,8 @@ b
 1
 +
 /
+.
+exec
 (
 "
 baaac
@@ -150,6 +168,8 @@ b
 1
 +
 /
+.
+exec
 (
 "
 baaac
@@ -171,6 +191,8 @@ b
 1
 +
 /
+.
+exec
 (
 "
 baaac

@@ -1,3 +1,13 @@
+gTestfile
+=
+'
+regress
+-
+001
+.
+js
+'
+;
 var
 SECTION
 =
@@ -50,6 +60,8 @@ a
 |
 b
 /
+.
+exec
 (
 '
 '
@@ -62,6 +74,8 @@ a
 |
 b
 /
+.
+exec
 (
 '
 '
