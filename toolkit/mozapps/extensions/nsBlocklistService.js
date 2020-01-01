@@ -4505,6 +4505,9 @@ locale
 "
 dictionary
 "
+"
+service
+"
 ]
 AddonManager
 .
