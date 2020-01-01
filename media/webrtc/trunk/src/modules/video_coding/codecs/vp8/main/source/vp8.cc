@@ -3358,7 +3358,7 @@ propagation_cnt_
 +
 ;
 }
-vpx_dec_iter_t
+vpx_codec_iter_t
 iter
 =
 NULL
