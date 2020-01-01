@@ -3809,6 +3809,11 @@ name
 "
 :
 activity
+"
+description
+"
+:
+description
 }
 )
 ;
