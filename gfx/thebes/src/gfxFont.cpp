@@ -1817,6 +1817,15 @@ FontSearch
 aMatchData
 )
 {
+if
+(
+!
+mHasStyles
+)
+FindStyleVariations
+(
+)
+;
 PRUint32
 numFonts
 =
@@ -2502,6 +2511,10 @@ return
 mOtherFamilyNamesInitialized
 =
 PR_TRUE
+;
+FindStyleVariations
+(
+)
 ;
 PRUint32
 numFonts
