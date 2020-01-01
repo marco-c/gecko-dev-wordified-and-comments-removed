@@ -455,10 +455,6 @@ nsHashPropertyBag
 .
 cpp
 \
-nsHashSets
-.
-cpp
-\
 nsHashtable
 .
 cpp
@@ -607,10 +603,6 @@ nsExpirationTracker
 h
 \
 nsFixedSizeAllocator
-.
-h
-\
-nsHashSets
 .
 h
 \
