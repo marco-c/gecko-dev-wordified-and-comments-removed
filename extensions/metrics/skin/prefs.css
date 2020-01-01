@@ -7,10 +7,10 @@ white
 ;
 margin
 :
-10px
-10px
+5px
+5px
 0px
-10px
+5px
 ;
 border
 :
@@ -22,6 +22,12 @@ ThreeDFace
 .
 msg
 {
+margin
+-
+left
+:
+4px
+;
 margin
 -
 bottom

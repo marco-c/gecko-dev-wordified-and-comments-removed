@@ -162,7 +162,9 @@ em
 :
 maxVersion
 >
-FIREFOX_VERSION
+3
+.
+*
 <
 /
 em

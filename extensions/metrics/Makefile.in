@@ -430,7 +430,7 @@ autoconf
 mk
 METRICS_VERSION
 =
-2a1
+2a3
 XPI_NAME
 =
 metrics
