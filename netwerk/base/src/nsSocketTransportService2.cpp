@@ -2418,6 +2418,12 @@ bool
 offline
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 !
