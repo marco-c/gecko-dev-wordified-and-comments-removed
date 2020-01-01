@@ -123,6 +123,9 @@ kContentEditableStyleSheet
 resource
 :
 /
+/
+gre
+/
 res
 /
 contenteditable

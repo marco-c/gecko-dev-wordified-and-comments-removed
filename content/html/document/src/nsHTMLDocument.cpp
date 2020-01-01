@@ -15317,6 +15317,9 @@ NS_LITERAL_STRING
 resource
 :
 /
+/
+gre
+/
 res
 /
 contenteditable
@@ -15343,6 +15346,9 @@ NS_LITERAL_STRING
 "
 resource
 :
+/
+/
+gre
 /
 res
 /
@@ -15656,6 +15662,9 @@ NS_LITERAL_STRING
 resource
 :
 /
+/
+gre
+/
 res
 /
 contenteditable
@@ -15688,6 +15697,9 @@ NS_LITERAL_STRING
 "
 resource
 :
+/
+/
+gre
 /
 res
 /
@@ -15806,6 +15818,9 @@ NS_LITERAL_STRING
 "
 resource
 :
+/
+/
+gre
 /
 res
 /
