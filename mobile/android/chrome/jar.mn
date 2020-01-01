@@ -66,6 +66,9 @@ browser
 %
 content
 /
+contentaccessible
+=
+yes
 *
 content
 /
