@@ -3386,7 +3386,6 @@ nsXULTreeitemAccessible
 nsLeafAccessible
 nsPIAccessibleTreeItem
 )
-;
 NS_IMETHODIMP
 nsXULTreeitemAccessible
 :
