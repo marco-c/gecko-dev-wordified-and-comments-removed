@@ -134,6 +134,16 @@ aMessage
 0
 ;
 virtual
+void
+OnProcessingError
+(
+Result
+aError
+)
+=
+0
+;
+virtual
 bool
 OnReplyTimeout
 (

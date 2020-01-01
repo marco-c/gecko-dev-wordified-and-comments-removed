@@ -65,6 +65,7 @@ enum
 Result
 {
 MsgProcessed
+MsgDropped
 MsgNotKnown
 MsgNotAllowed
 MsgPayloadError
@@ -171,6 +172,16 @@ const
 Message
 &
 aMessage
+)
+=
+0
+;
+virtual
+void
+OnProcessingError
+(
+Result
+aError
 )
 =
 0
