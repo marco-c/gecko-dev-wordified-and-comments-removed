@@ -609,6 +609,14 @@ split
 "
 )
 ;
+if
+(
+name
+|
+|
+value
+)
+{
 results
 .
 push
@@ -642,6 +650,7 @@ trim
 }
 )
 ;
+}
 }
 )
 ;
