@@ -906,7 +906,7 @@ aAlwaysAsk
 *
 aAlwaysAsk
 =
-PR_FALSE
+mAlwaysAsk
 ;
 return
 NS_OK
