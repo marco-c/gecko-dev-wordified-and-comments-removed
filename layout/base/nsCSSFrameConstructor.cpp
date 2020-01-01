@@ -14891,9 +14891,6 @@ nsGkAtoms
 menubutton
 |
 |
-#
-ifndef
-XP_MACOSX
 aTag
 =
 =
@@ -14903,8 +14900,6 @@ nsGkAtoms
 menubar
 |
 |
-#
-endif
 aTag
 =
 =
