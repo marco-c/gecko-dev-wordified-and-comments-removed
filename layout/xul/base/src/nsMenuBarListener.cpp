@@ -120,6 +120,13 @@ h
 #
 include
 "
+nsISupportsArray
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

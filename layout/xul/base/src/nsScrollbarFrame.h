@@ -19,6 +19,9 @@ nsIScrollbarFrame
 h
 "
 class
+nsISupportsArray
+;
+class
 nsIScrollbarMediator
 ;
 nsIFrame

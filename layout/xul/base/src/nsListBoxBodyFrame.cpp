@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsISupportsArray
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
