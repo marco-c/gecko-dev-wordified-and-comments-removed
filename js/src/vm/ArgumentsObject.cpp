@@ -87,6 +87,12 @@ inl
 h
 "
 #
+if
+defined
+(
+JS_ION
+)
+#
 include
 "
 ion
@@ -95,6 +101,8 @@ IonFrames
 .
 h
 "
+#
+endif
 using
 namespace
 js
