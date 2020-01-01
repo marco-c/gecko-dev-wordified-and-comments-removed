@@ -498,6 +498,10 @@ browser_bug703692_focus_blur
 .
 js
 \
+browser_bug725388_mouse_events
+.
+js
+\
 head
 .
 js
