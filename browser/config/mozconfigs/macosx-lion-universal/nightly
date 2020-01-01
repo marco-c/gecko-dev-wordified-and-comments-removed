@@ -64,6 +64,12 @@ disable
 install
 -
 strip
+ac_add_options
+-
+-
+enable
+-
+signmar
 #
 Nightlies
 only

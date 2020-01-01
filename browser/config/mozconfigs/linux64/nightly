@@ -24,6 +24,12 @@ ac_add_options
 enable
 -
 codesighs
+ac_add_options
+-
+-
+enable
+-
+signmar
 #
 Nightlies
 only
