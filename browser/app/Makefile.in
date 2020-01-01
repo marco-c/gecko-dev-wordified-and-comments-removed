@@ -3011,9 +3011,7 @@ Resources
 document
 .
 icns
-echo
--
-n
+printf
 APPLMOZB
 >
 (
