@@ -2010,7 +2010,7 @@ Browser
 .
 canvasBrowser
 .
-prepareForPanning
+startPanning
 (
 )
 ;
@@ -2090,6 +2090,14 @@ sY
 )
 ;
 }
+Browser
+.
+canvasBrowser
+.
+endPanning
+(
+)
+;
 }
 _dragMove
 :
