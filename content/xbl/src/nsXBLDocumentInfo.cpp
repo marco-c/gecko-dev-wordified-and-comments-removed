@@ -1101,6 +1101,11 @@ JS
 :
 SystemZone
 )
+.
+setInvisibleToDebugger
+(
+true
+)
 ;
 mJSObject
 =
