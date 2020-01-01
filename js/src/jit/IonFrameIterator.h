@@ -895,6 +895,10 @@ skip
 (
 )
 ;
+skip
+(
+)
+;
 if
 (
 script
@@ -1464,7 +1468,7 @@ slots
 =
 nactual
 +
-2
+3
 +
 argsObjAdj
 )
@@ -1480,7 +1484,7 @@ slots
 -
 nactual
 -
-2
+3
 -
 argsObjAdj
 ;
@@ -1692,6 +1696,12 @@ SnapshotIterator
 s
 (
 si_
+)
+;
+s
+.
+skip
+(
 )
 ;
 s
