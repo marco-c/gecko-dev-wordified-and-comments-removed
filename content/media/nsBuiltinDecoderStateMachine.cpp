@@ -10289,8 +10289,6 @@ GetUndecodedData
 mBufferingWait
 *
 USECS_PER_S
-/
-1000
 )
 )
 &
@@ -12137,7 +12135,7 @@ mDecodeStartTime
 TimeDuration
 :
 :
-FromSeconds
+FromMicroseconds
 (
 QUICK_BUFFER_THRESHOLD_USECS
 )
