@@ -4602,8 +4602,8 @@ label
 replace
 (
 "
-#
-1
+%
+S
 "
 daysOfHistory
 )
@@ -4731,8 +4731,8 @@ label
 replace
 (
 "
-#
-1
+%
+S
 "
 bookmarks
 )
@@ -4787,8 +4787,8 @@ label
 replace
 (
 "
-#
-1
+%
+S
 "
 logins
 .
@@ -4957,8 +4957,8 @@ label
 replace
 (
 "
-#
-1
+%
+S
 "
 count
 -
