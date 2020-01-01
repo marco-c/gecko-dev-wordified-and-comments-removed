@@ -121,7 +121,7 @@ EndGIF
 (
 )
 ;
-void
+nsresult
 BeginImageFrame
 (
 gfx_depth

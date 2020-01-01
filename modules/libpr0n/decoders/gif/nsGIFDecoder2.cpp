@@ -852,7 +852,7 @@ mGIFOpen
 PR_FALSE
 ;
 }
-void
+nsresult
 nsGIFDecoder2
 :
 :
@@ -1044,6 +1044,7 @@ rv
 )
 )
 return
+rv
 ;
 mImageContainer
 -
@@ -1078,6 +1079,9 @@ mCurrentFrame
 mGIFStruct
 .
 images_decoded
+;
+return
+NS_OK
 ;
 }
 void
@@ -3964,6 +3968,9 @@ realDepth
 +
 ;
 }
+nsresult
+rv
+=
 BeginImageFrame
 (
 realDepth
@@ -3971,6 +3978,12 @@ realDepth
 ;
 if
 (
+NS_FAILED
+(
+rv
+)
+|
+|
 !
 mImageData
 )
