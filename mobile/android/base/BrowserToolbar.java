@@ -4161,7 +4161,7 @@ isLoading
 )
 ;
 boolean
-exitableReaderMode
+inReaderMode
 =
 false
 ;
@@ -4185,7 +4185,7 @@ tab
 =
 null
 )
-exitableReaderMode
+inReaderMode
 =
 ReaderModeUtils
 .
@@ -4197,19 +4197,12 @@ getURL
 (
 )
 )
-&
-&
-tab
-.
-canDoBack
-(
-)
 ;
 mReader
 .
 setImageResource
 (
-exitableReaderMode
+inReaderMode
 ?
 R
 .
@@ -4236,7 +4229,7 @@ isLoading
 mShowReader
 |
 |
-exitableReaderMode
+inReaderMode
 )
 ?
 View
@@ -4264,7 +4257,7 @@ isLoading
 mShowReader
 |
 |
-exitableReaderMode
+inReaderMode
 )
 ?
 mTitlePadding
