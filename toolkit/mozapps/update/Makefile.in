@@ -447,6 +447,13 @@ nsUpdateTimerManager
 manifest
 ifdef
 MOZ_UPDATER
+ifneq
+(
+(
+OS_TARGET
+)
+Android
+)
 DIRS
 =
 .
@@ -459,6 +466,7 @@ updater
 (
 NULL
 )
+endif
 XPIDLSRCS
 +
 =

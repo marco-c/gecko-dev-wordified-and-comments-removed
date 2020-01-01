@@ -544,6 +544,13 @@ cpp
 endif
 ifdef
 MOZ_UPDATER
+ifneq
+(
+(
+OS_TARGET
+)
+Android
+)
 CPPSRCS
 +
 =
@@ -555,6 +562,7 @@ DEFINES
 =
 -
 DMOZ_UPDATER
+endif
 endif
 ifeq
 (
