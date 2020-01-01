@@ -11109,6 +11109,19 @@ b
 "
 "
 JOIN
+moz_bookmarks
+bp
+ON
+bp
+.
+id
+=
+b
+.
+parent
+"
+"
+JOIN
 moz_items_annos
 a
 ON
@@ -11116,7 +11129,7 @@ a
 .
 item_id
 =
-b
+bp
 .
 id
 "
@@ -11144,6 +11157,8 @@ name
 "
 "
 AND
+b
+.
 fk
 IN
 (
