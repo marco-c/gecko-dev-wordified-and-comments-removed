@@ -2231,6 +2231,13 @@ BINPATH
 /
 components
 /
+SyncComponents
+.
+manifest
+BINPATH
+/
+components
+/
 FormNotifier
 .
 js
@@ -2241,6 +2248,13 @@ components
 Weave
 .
 js
+BINPATH
+/
+components
+/
+WeaveCrypto
+.
+manifest
 BINPATH
 /
 components
