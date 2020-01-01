@@ -9,6 +9,17 @@ loading
 <
 !
 ENTITY
+splash_screen_installing
+"
+installing
+libraries
+\
+u2026
+"
+>
+<
+!
+ENTITY
 incompatable_cpu_error
 "
 This
