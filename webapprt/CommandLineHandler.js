@@ -215,6 +215,8 @@ url
 WebappRT
 .
 launchURI
+.
+spec
 )
 ;
 Services
