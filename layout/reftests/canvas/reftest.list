@@ -960,7 +960,6 @@ html
 body
 >
 Pass
-fails
 =
 =
 ctm
@@ -979,9 +978,6 @@ html
 body
 >
 Pass
-#
-Bug
-612033
 =
 =
 ctm
