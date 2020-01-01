@@ -2448,6 +2448,14 @@ canHaveRotation
 )
 )
 {
+destBufferRect
+=
+neededRegion
+.
+GetBounds
+(
+)
+;
 destBuffer
 =
 CreateClampOrRepeatTextureImage
