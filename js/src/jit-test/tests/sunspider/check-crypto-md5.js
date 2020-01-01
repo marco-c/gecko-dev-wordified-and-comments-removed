@@ -2653,14 +2653,6 @@ plainText
 plainText
 ;
 }
-if
-(
-relaxRootChecks
-)
-relaxRootChecks
-(
-)
-;
 var
 md5Output
 =

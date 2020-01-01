@@ -1629,9 +1629,6 @@ SystemAllocPolicy
 >
 gcSavedRoots
 ;
-bool
-gcRelaxRootChecks
-;
 #
 endif
 uint8_t

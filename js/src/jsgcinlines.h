@@ -2008,7 +2008,6 @@ allowGC
 MaybeCheckStackRoots
 (
 cx
-false
 )
 ;
 JS
