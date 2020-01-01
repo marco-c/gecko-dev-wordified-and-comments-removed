@@ -293,13 +293,6 @@ typedef
 nsNPAPIPluginInstance
 :
 :
-TextureInfo
-TextureInfo
-;
-typedef
-nsNPAPIPluginInstance
-:
-:
 VideoInfo
 VideoInfo
 ;
@@ -467,6 +460,9 @@ SharedPluginTexture
 )
 {
 }
+nsNPAPIPluginInstance
+:
+:
 TextureInfo
 Lock
 (
@@ -532,6 +528,9 @@ mTextureInfo
 void
 Release
 (
+nsNPAPIPluginInstance
+:
+:
 TextureInfo
 &
 aTextureInfo
@@ -637,6 +636,9 @@ handle
 ;
 }
 private
+:
+nsNPAPIPluginInstance
+:
 :
 TextureInfo
 mTextureInfo
@@ -4337,6 +4339,9 @@ return
 sPluginContext
 ;
 }
+nsNPAPIPluginInstance
+:
+:
 TextureInfo
 nsNPAPIPluginInstance
 :
@@ -4364,6 +4369,9 @@ nsNPAPIPluginInstance
 :
 ReleaseContentTexture
 (
+nsNPAPIPluginInstance
+:
+:
 TextureInfo
 &
 aTextureInfo
