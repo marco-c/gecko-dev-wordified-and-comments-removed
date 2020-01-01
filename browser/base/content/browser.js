@@ -10640,6 +10640,15 @@ aPageDescriptor
 aDocument
 )
 {
+var
+utils
+=
+window
+.
+top
+.
+gViewSourceUtils
+;
 if
 (
 getBoolPref
@@ -10655,7 +10664,7 @@ false
 )
 )
 {
-gViewSourceUtils
+utils
 .
 openInExternalEditor
 (
@@ -10667,7 +10676,7 @@ aDocument
 }
 else
 {
-gViewSourceUtils
+utils
 .
 openInInternalViewer
 (
