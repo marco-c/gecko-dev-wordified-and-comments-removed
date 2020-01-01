@@ -7240,8 +7240,6 @@ Time
 mVorbisInfo
 granulepos
 )
--
-aStartTime
 ;
 NS_ASSERTION
 (
@@ -7281,8 +7279,6 @@ Time
 mTheoraInfo
 granulepos
 )
--
-aStartTime
 ;
 NS_ASSERTION
 (
@@ -7362,7 +7358,11 @@ aBuffered
 >
 Add
 (
+(
 startTime
+-
+aStartTime
+)
 /
 static_cast
 <
