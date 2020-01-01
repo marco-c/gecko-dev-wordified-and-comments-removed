@@ -456,7 +456,6 @@ mozilla
 namespace
 dom
 {
-sync
 protocol
 PAudio
 {
@@ -483,7 +482,6 @@ float
 aVolume
 )
 ;
-sync
 Drain
 (
 )
@@ -504,6 +502,10 @@ PRInt64
 offset
 PRInt64
 time
+)
+;
+DrainDone
+(
 )
 ;
 }
