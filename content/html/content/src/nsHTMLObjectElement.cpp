@@ -1153,11 +1153,12 @@ nsHTMLObjectElement
 Standby
 standby
 )
-NS_IMPL_INT_ATTR
+NS_IMPL_INT_ATTR_DEFAULT_VALUE
 (
 nsHTMLObjectElement
 TabIndex
 tabindex
+0
 )
 NS_IMPL_STRING_ATTR
 (
