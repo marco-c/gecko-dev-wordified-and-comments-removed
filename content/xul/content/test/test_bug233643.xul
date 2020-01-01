@@ -1214,7 +1214,7 @@ do_test
 setTimeout
 (
 test_233643
-1000
+0
 )
 ;
 }
