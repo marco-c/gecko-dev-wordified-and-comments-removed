@@ -360,7 +360,7 @@ js
 /
 >
 <
-hbox
+box
 id
 =
 "
@@ -370,6 +370,15 @@ flex
 =
 "
 1
+"
+class
+=
+"
+devtools
+-
+responsive
+-
+container
 "
 >
 <
@@ -2831,7 +2840,7 @@ tabbox
 >
 <
 /
-hbox
+box
 >
 <
 /
