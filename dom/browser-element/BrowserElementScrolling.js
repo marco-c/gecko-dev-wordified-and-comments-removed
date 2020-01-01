@@ -32,7 +32,7 @@ addEventListener
 (
 type
 ContentPanning
-true
+false
 )
 ;
 }
@@ -177,7 +177,7 @@ removeEventListener
 click
 '
 this
-true
+false
 true
 )
 ;
@@ -453,7 +453,7 @@ addEventListener
 click
 '
 this
-true
+false
 true
 )
 ;
@@ -587,6 +587,18 @@ _resetActive
 )
 ;
 }
+evt
+.
+stopPropagation
+(
+)
+;
+evt
+.
+preventDefault
+(
+)
+;
 }
 onKineticBegin
 :
