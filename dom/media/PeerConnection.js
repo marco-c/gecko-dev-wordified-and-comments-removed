@@ -2105,7 +2105,7 @@ Ci
 .
 IPeerConnection
 .
-DATACHANNEL_PARTIAL_RELIABLE_TIMED
+kDataChannelPartialReliableTimed
 ;
 }
 else
@@ -2125,7 +2125,7 @@ Ci
 .
 IPeerConnection
 .
-DATACHANNEL_PARTIAL_RELIABLE_REXMIT
+kDataChannelPartialReliableRexmit
 ;
 }
 else
@@ -2136,7 +2136,7 @@ Ci
 .
 IPeerConnection
 .
-DATACHANNEL_RELIABLE
+kDataChannelReliable
 ;
 }
 let
