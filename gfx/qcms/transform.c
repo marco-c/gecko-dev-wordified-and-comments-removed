@@ -3129,7 +3129,7 @@ r
 )
 ;
 }
-void
+qcms_bool
 set_rgb_colorants
 (
 qcms_profile
@@ -3161,6 +3161,15 @@ colorants
 white_point
 )
 ;
+if
+(
+colorants
+.
+invalid
+)
+return
+false
+;
 profile
 -
 >
@@ -3340,6 +3349,9 @@ m
 2
 ]
 )
+;
+return
+true
 ;
 }
 static
