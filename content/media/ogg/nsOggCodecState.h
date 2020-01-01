@@ -865,7 +865,7 @@ PRInt64
 Time
 (
 PRInt64
-granulepos
+aGranulepos
 )
 ;
 bool
@@ -892,6 +892,16 @@ PageIn
 ogg_page
 *
 aPage
+)
+;
+static
+PRInt64
+Time
+(
+int
+aPreSkip
+PRInt64
+aGranulepos
 )
 ;
 int
