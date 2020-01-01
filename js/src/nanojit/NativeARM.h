@@ -123,7 +123,7 @@ NJ_VFP_MAX_REGISTERS
 #
 define
 NJ_MAX_STACK_ENTRY
-1024
+4096
 #
 define
 NJ_MAX_PARAMETERS
@@ -911,6 +911,18 @@ int32_t
 off
 bool
 chk
+)
+;
+\
+int32_t
+asm_str
+(
+Register
+rt
+Register
+rr
+int32_t
+off
 )
 ;
 \
