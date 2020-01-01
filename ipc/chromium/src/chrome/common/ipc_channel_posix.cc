@@ -1584,6 +1584,15 @@ pipe_fds
 1
 ]
 ;
+if
+(
+pipe_name_
+.
+length
+(
+)
+)
+{
 Singleton
 <
 PipeMap
@@ -1598,6 +1607,7 @@ pipe_name_
 client_pipe_
 )
 ;
+}
 }
 else
 {
