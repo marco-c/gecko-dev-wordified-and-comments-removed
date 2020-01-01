@@ -1555,9 +1555,7 @@ logoElt
 .
 alt
 =
-searchEngineInfo
-.
-name
+searchEngineName
 ;
 }
 let
