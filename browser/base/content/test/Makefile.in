@@ -635,6 +635,10 @@ bug
 _BROWSER_FILES
 =
 \
+browser_typeAheadFind
+.
+js
+\
 browser_NetworkPrioritizer
 .
 js
