@@ -138,6 +138,10 @@ nsIDOMNavigatorUserMedia
 .
 idl
 \
+nsIMediaManager
+.
+idl
+\
 (
 NULL
 )
