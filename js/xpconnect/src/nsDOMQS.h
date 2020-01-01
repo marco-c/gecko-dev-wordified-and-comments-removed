@@ -21,7 +21,11 @@ h
 #
 include
 "
-nsHTMLCanvasElement
+mozilla
+/
+dom
+/
+HTMLCanvasElement
 .
 h
 "
@@ -974,7 +978,13 @@ rv
 DEFINE_UNWRAP_CAST_HTML
 (
 canvas
-nsHTMLCanvasElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLCanvasElement
 )
 DEFINE_UNWRAP_CAST_HTML
 (

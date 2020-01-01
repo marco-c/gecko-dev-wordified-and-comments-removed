@@ -129,7 +129,11 @@ h
 #
 include
 "
-nsHTMLCanvasElement
+mozilla
+/
+dom
+/
+HTMLCanvasElement
 .
 h
 "
@@ -176,6 +180,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 static
 const
@@ -2109,7 +2120,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsHTMLCanvasElement
+HTMLCanvasElement
 >
 >
 *
@@ -2208,11 +2219,11 @@ if
 canvasFrame
 )
 {
-nsHTMLCanvasElement
+HTMLCanvasElement
 *
 canvas
 =
-nsHTMLCanvasElement
+HTMLCanvasElement
 :
 :
 FromContentOrNull
@@ -2788,7 +2799,7 @@ i
 -
 )
 {
-nsHTMLCanvasElement
+HTMLCanvasElement
 *
 canvas
 =
@@ -2914,7 +2925,7 @@ i
 -
 )
 {
-nsHTMLCanvasElement
+HTMLCanvasElement
 *
 canvas
 =
@@ -2986,7 +2997,7 @@ i
 -
 )
 {
-nsHTMLCanvasElement
+HTMLCanvasElement
 *
 canvas
 =

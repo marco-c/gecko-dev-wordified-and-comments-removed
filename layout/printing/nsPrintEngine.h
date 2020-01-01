@@ -60,7 +60,7 @@ h
 #
 include
 "
-nsHTMLCanvasElement
+nsIDOMHTMLCanvasElement
 .
 h
 "
