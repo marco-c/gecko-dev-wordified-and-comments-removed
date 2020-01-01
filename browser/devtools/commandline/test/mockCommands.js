@@ -490,9 +490,16 @@ p3
 '
 type
 :
+{
+name
+:
 '
 string
 '
+allowBlank
+:
+true
+}
 }
 ]
 exec

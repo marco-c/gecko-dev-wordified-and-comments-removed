@@ -5466,7 +5466,6 @@ cookies
 exec
 :
 function
-Command_cookieList
 (
 args
 context
@@ -5682,7 +5681,6 @@ cookieRemoveKeyDesc
 exec
 :
 function
-Command_cookieRemove
 (
 args
 context
@@ -5886,9 +5884,16 @@ path
 "
 type
 :
+{
+name
+:
 "
 string
 "
+allowBlank
+:
+true
+}
 defaultValue
 :
 "
@@ -6031,7 +6036,6 @@ cookieSetExpiresDesc
 exec
 :
 function
-Command_cookieSet
 (
 args
 context
