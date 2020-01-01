@@ -3402,15 +3402,7 @@ SizeOf
 (
 )
 const
-{
-return
-sizeof
-(
-*
-this
-)
 ;
-}
 private
 :
 PRUint32
