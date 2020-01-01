@@ -39691,13 +39691,13 @@ nsCOMPtr
 <
 nsIDocShellTreeItem
 >
-parentAsItem
+rootAsItem
 ;
-GetSameTypeParent
+GetSameTypeRootTreeItem
 (
 getter_AddRefs
 (
-parentAsItem
+rootAsItem
 )
 )
 ;
@@ -39709,7 +39709,7 @@ rootShell
 =
 do_QueryInterface
 (
-parentAsItem
+rootAsItem
 )
 ;
 if
