@@ -26,6 +26,9 @@ xpcpublic
 h
 "
 class
+nsINode
+;
+class
 nsINodeList
 ;
 class

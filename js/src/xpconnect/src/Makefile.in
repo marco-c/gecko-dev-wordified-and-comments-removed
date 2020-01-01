@@ -573,6 +573,10 @@ dom_quickstubs
 .
 cpp
 \
+dombindings
+.
+cpp
+\
 (
 NULL
 )
