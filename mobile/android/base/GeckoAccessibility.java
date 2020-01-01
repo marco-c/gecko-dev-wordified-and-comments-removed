@@ -2009,7 +2009,11 @@ info
 .
 setVisibleToUser
 (
-true
+host
+.
+isFocused
+(
+)
 )
 ;
 info
