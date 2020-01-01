@@ -6487,12 +6487,10 @@ i
 ;
 if
 (
+!
 tab
 .
 collapsed
-=
-=
-false
 )
 groupTabs
 .
