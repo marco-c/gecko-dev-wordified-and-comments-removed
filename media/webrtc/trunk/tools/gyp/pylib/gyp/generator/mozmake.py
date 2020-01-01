@@ -3131,31 +3131,10 @@ relative_srcdir
   
 scriptname
 =
-"
+topsrcdir_path
 (
-topsrcdir
+__file__
 )
-/
-media
-/
-webrtc
-/
-trunk
-/
-tools
-/
-gyp
-/
-pylib
-/
-gyp
-/
-generator
-/
-mozmake
-.
-py
-"
   
 commandline
 =
