@@ -519,6 +519,10 @@ test_nsIAccessible_name
 .
 xul
 \
+test_nsIAccessible_focus
+.
+html
+\
 test_nsIAccessibleDocument
 .
 html
