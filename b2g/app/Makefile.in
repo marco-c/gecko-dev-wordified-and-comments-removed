@@ -84,6 +84,16 @@ srcdir
 b2g
 .
 js
+ifdef
+ENABLE_MARIONETTE
+DEFINES
++
+=
+-
+DENABLE_MARIONETTE
+=
+1
+endif
 ifndef
 LIBXUL_SDK
 PROGRAM

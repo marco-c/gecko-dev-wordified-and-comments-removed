@@ -3400,6 +3400,9 @@ steps
 10
 )
 ;
+#
+ifdef
+ENABLE_MARIONETTE
 pref
 (
 "
@@ -3424,6 +3427,8 @@ port
 2828
 )
 ;
+#
+endif
 #
 ifdef
 MOZ_UPDATER
