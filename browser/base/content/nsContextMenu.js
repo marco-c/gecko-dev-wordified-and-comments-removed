@@ -1093,6 +1093,12 @@ if
 this
 .
 isTextSelected
+&
+&
+!
+this
+.
+onLink
 )
 {
 let
