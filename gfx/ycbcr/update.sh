@@ -145,3 +145,10 @@ p3
 row_c_fix
 .
 patch
+patch
+-
+p3
+<
+bug572034_mac_64bit
+.
+patch
