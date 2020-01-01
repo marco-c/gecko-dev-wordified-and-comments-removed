@@ -453,11 +453,6 @@ AddStateBits
 NS_FRAME_IS_OVERFLOW_CONTAINER
 )
 ;
-NS_FRAME_SET_INCOMPLETE
-(
-aStatus
-)
-;
 }
 }
 nsMargin
@@ -587,6 +582,7 @@ Reflow
 this
 aPresContext
 aReflowState
+aStatus
 aReflowState
 .
 availableWidth

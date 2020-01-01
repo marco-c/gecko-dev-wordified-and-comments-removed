@@ -5197,6 +5197,7 @@ aFrame
 {
 if
 (
+(
 aFrame
 -
 >
@@ -5206,6 +5207,21 @@ GetStateBits
 &
 NS_FRAME_OUT_OF_FLOW
 )
+&
+&
+!
+(
+aFrame
+-
+>
+GetStateBits
+(
+)
+&
+NS_FRAME_IS_OVERFLOW_CONTAINER
+)
+)
+{
 return
 aFrameManager
 -
@@ -5215,6 +5231,7 @@ GetPlaceholderFrameFor
 aFrame
 )
 ;
+}
 return
 aFrame
 -

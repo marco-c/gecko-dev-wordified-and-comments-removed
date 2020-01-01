@@ -991,6 +991,9 @@ aFrameRS
 nsReflowStatus
 &
 aFrameReflowStatus
+nsBlockReflowState
+&
+aState
 )
 {
 nsresult
@@ -1645,6 +1648,15 @@ nsnull
 kidNextInFlow
 )
 {
+aState
+.
+mOverflowTracker
+.
+Finish
+(
+mFrame
+)
+;
 static_cast
 <
 nsHTMLContainerFrame

@@ -131,6 +131,7 @@ mOverflowTracker
 (
 aPresContext
 aFrame
+PR_FALSE
 )
 {
 SetFlag
@@ -150,17 +151,9 @@ nsnull
 SetFlag
 (
 BRS_ISOVERFLOWCONTAINER
-!
-!
+IS_TRUE_OVERFLOW_CONTAINER
 (
 aFrame
--
->
-GetStateBits
-(
-)
-&
-NS_FRAME_IS_OVERFLOW_CONTAINER
 )
 )
 ;

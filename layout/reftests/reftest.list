@@ -55,6 +55,12 @@ printing
 reftest
 .
 list
+include
+pagination
+/
+reftest
+.
+list
 #
 bugs
 /

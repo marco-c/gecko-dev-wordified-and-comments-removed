@@ -25,6 +25,13 @@ nsGkAtoms
 .
 h
 "
+#
+include
+"
+nsContainerFrame
+.
+h
+"
 class
 nsIAtom
 ;
@@ -197,7 +204,7 @@ aOldFrame
 nsresult
 Reflow
 (
-nsIFrame
+nsContainerFrame
 *
 aDelegatingFrame
 nsPresContext
@@ -207,6 +214,9 @@ const
 nsHTMLReflowState
 &
 aReflowState
+nsReflowStatus
+&
+aReflowStatus
 nscoord
 aContainingBlockWidth
 nscoord
