@@ -10775,6 +10775,12 @@ updatePageSaveAs
 (
 )
 ;
+PageActions
+.
+updateShare
+(
+)
+;
 }
 show
 :
