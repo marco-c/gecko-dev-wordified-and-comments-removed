@@ -480,7 +480,9 @@ nsIFrame
 *
 sibling
 =
-mNextSibling
+GetNextSibling
+(
+)
 ;
 while
 (
@@ -520,7 +522,9 @@ GetNextSibling
 }
 NS_ASSERTION
 (
-mParent
+GetParent
+(
+)
 "
 null
 parent
@@ -533,7 +537,9 @@ node
 =
 do_QueryFrame
 (
-mParent
+GetParent
+(
+)
 )
 ;
 return

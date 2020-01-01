@@ -19138,10 +19138,9 @@ aIndent
 {
 if
 (
-nsnull
-!
-=
-mNextSibling
+GetNextSibling
+(
+)
 )
 {
 IndentBy
@@ -19173,7 +19172,9 @@ n
 "
 PRUptrdiff
 (
-mNextSibling
+GetNextSibling
+(
+)
 )
 )
 ;

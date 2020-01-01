@@ -4463,10 +4463,14 @@ nsIFrame
 *
 mParent
 ;
+private
+:
 nsIFrame
 *
 mNextSibling
 ;
+protected
+:
 nsFrameState
 mState
 ;

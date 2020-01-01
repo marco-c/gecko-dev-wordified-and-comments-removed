@@ -32837,10 +32837,9 @@ F
 ;
 if
 (
-nsnull
-!
-=
-mNextSibling
+GetNextSibling
+(
+)
 )
 {
 fprintf
@@ -32858,7 +32857,9 @@ void
 *
 >
 (
-mNextSibling
+GetNextSibling
+(
+)
 )
 )
 ;
