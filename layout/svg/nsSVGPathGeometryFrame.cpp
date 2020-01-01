@@ -135,6 +135,10 @@ NS_QUERYFRAME_ENTRY
 (
 nsISVGChildFrame
 )
+NS_QUERYFRAME_ENTRY
+(
+nsSVGPathGeometryFrame
+)
 NS_QUERYFRAME_TAIL_INHERITING
 (
 nsSVGPathGeometryFrameBase

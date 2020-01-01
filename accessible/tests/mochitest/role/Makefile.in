@@ -95,6 +95,10 @@ test_general
 .
 html
 \
+test_svg
+.
+html
+\
 (
 NULL
 )
