@@ -628,6 +628,13 @@ startup
 )
 ;
 "
+windowtype
+=
+"
+navigator
+:
+browser
+"
 xmlns
 =
 "
