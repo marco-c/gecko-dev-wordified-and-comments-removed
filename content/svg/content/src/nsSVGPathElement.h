@@ -257,9 +257,8 @@ gfxFlattenedPath
 >
 GetFlattenedPath
 (
-const
-gfxMatrix
-&
+nsIDOMSVGMatrix
+*
 aMatrix
 )
 ;

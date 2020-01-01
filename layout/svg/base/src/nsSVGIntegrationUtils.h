@@ -25,13 +25,6 @@ gfxRect
 .
 h
 "
-#
-include
-"
-gfxMatrix
-.
-h
-"
 class
 nsIFrame
 ;
@@ -43,6 +36,9 @@ nsDisplayList
 ;
 class
 nsIRenderingContext
+;
+class
+nsIDOMSVGMatrix
 ;
 class
 nsSVGIntegrationUtils
@@ -134,7 +130,10 @@ aInnerList
 )
 ;
 static
-gfxMatrix
+already_AddRefed
+<
+nsIDOMSVGMatrix
+>
 GetInitialMatrix
 (
 nsIFrame

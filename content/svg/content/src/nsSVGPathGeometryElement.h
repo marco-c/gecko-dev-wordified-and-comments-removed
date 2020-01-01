@@ -25,13 +25,6 @@ gfxPath
 .
 h
 "
-#
-include
-"
-gfxMatrix
-.
-h
-"
 struct
 nsSVGMark
 {
@@ -65,6 +58,9 @@ aAngle
 {
 }
 }
+;
+class
+nsIDOMSVGMatrix
 ;
 class
 gfxContext
@@ -134,9 +130,8 @@ gfxFlattenedPath
 >
 GetFlattenedPath
 (
-const
-gfxMatrix
-&
+nsIDOMSVGMatrix
+*
 aMatrix
 )
 ;

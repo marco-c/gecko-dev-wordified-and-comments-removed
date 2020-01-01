@@ -46,6 +46,9 @@ class
 nsPresContext
 ;
 class
+nsIDOMSVGMatrix
+;
+class
 nsSVGRenderState
 ;
 class
