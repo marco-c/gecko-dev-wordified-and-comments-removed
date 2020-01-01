@@ -305,15 +305,6 @@ aMode
 eDTDMode_autodetect
 )
 ;
-NS_IMETHOD_
-(
-void
-*
-)
-GetRootContextKey
-(
-)
-;
 NS_IMETHOD
 ParseFragment
 (
