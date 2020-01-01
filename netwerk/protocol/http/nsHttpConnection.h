@@ -519,6 +519,15 @@ ReadTimeoutTick
 (
 )
 ;
+PRInt64
+BytesWritten
+(
+)
+{
+return
+mTotalBytesWritten
+;
+}
 private
 :
 nsresult
@@ -682,6 +691,9 @@ mMaxBytesRead
 ;
 PRInt64
 mTotalBytesRead
+;
+PRInt64
+mTotalBytesWritten
 ;
 nsRefPtr
 <
