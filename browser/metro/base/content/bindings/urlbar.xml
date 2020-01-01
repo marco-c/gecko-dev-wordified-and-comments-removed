@@ -3415,11 +3415,6 @@ deferlayout
 "
 true
 "
-suppressonselect
-=
-"
-true
-"
 /
 >
 <
@@ -3497,11 +3492,6 @@ seltype
 single
 "
 deferlayout
-=
-"
-true
-"
-suppressonselect
 =
 "
 true
