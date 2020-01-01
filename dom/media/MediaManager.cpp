@@ -1539,7 +1539,12 @@ NS_OK
 }
 ProcessGetUserMedia
 (
+(
 mAudio
+&
+&
+mAudioDevice
+)
 ?
 mAudioDevice
 -
@@ -1549,7 +1554,12 @@ GetSource
 )
 :
 nullptr
+(
 mVideo
+&
+&
+mVideoDevice
+)
 ?
 mVideoDevice
 -
