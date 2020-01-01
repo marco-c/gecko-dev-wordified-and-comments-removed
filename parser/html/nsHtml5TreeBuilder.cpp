@@ -16108,7 +16108,7 @@ listLen
 snapshot
 -
 >
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 ;
@@ -16414,7 +16414,7 @@ listLen
 snapshot
 -
 >
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 ;
@@ -17071,7 +17071,7 @@ PRInt32
 nsHtml5TreeBuilder
 :
 :
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 {

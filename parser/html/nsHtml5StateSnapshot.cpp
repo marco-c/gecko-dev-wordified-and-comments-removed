@@ -416,7 +416,7 @@ PRInt32
 nsHtml5StateSnapshot
 :
 :
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 {

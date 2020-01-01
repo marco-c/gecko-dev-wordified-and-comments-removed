@@ -286,7 +286,7 @@ quirks
 }
 public
 int
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 {

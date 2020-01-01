@@ -45,7 +45,7 @@ getStackLength
 ;
 virtual
 PRInt32
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 =

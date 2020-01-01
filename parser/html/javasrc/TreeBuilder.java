@@ -26640,7 +26640,7 @@ listLen
 =
 snapshot
 .
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 ;
@@ -26945,7 +26945,7 @@ listLen
 =
 snapshot
 .
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 ;
@@ -27577,7 +27577,7 @@ quirks
 }
 public
 int
-getListLength
+getListOfActiveFormattingElementsLength
 (
 )
 {
