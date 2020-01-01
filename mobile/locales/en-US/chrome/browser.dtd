@@ -884,6 +884,17 @@ Image
 <
 !
 ENTITY
+contextCopyLink
+.
+label
+"
+Copy
+Link
+"
+>
+<
+!
+ENTITY
 contextShareLink
 .
 label
