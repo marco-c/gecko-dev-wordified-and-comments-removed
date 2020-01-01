@@ -13,9 +13,9 @@ emulator
 import
 Emulator
 from
-b2ginstance
+geckoinstance
 import
-B2GInstance
+GeckoInstance
 class
 HTMLElement
 (
@@ -478,9 +478,12 @@ localhost
 port
 =
 2828
-b2gbin
+bin
 =
-False
+None
+profile
+=
+None
                  
 emulator
 =
@@ -525,9 +528,15 @@ port
         
 self
 .
-b2gbin
+bin
 =
-b2gbin
+bin
+        
+self
+.
+profile
+=
+profile
         
 self
 .
@@ -579,14 +588,14 @@ logcat_dir
 logcat_dir
         
 if
-b2gbin
+bin
 :
             
 self
 .
-b2ginstance
+instance
 =
-B2GInstance
+GeckoInstance
 (
 host
 =
@@ -598,16 +607,22 @@ port
 self
 .
 port
-b2gbin
+                                          
+bin
 =
 self
 .
-b2gbin
+bin
+profile
+=
+self
+.
+profile
 )
             
 self
 .
-b2ginstance
+instance
 .
 start
 (
@@ -617,7 +632,7 @@ assert
 (
 self
 .
-b2ginstance
+instance
 .
 wait_for_port
 (
@@ -785,12 +800,12 @@ close
 if
 self
 .
-b2gbin
+bin
 :
             
 self
 .
-b2ginstance
+instance
 .
 close
 (
