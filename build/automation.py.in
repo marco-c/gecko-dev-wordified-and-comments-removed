@@ -5119,7 +5119,7 @@ is
 not
 None
 :
-status
+fixerStatus
 =
 stackFixerProcess
 .
@@ -5127,7 +5127,7 @@ wait
 (
 )
 if
-status
+fixerStatus
 !
 =
 0
@@ -5162,7 +5162,7 @@ during
 test
 run
 "
-status
+fixerStatus
 )
 log
 .
