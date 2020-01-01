@@ -93,10 +93,9 @@ IsTransparent
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 wrapper
-jsid
+JSHandleId
 id
 )
 ;
@@ -118,10 +117,9 @@ IsXrayResolving
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 wrapper
-jsid
+JSHandleId
 id
 )
 ;
