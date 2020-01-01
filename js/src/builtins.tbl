@@ -454,6 +454,16 @@ jsint
 )
 BUILTIN1
 (
+UnboxDouble
+LO
+F
+jsdouble
+jsval
+1
+1
+)
+BUILTIN1
+(
 UnboxInt32
 LO
 LO
