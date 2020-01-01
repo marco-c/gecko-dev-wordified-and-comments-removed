@@ -543,6 +543,9 @@ h
 SSE
 .
 h
+arm
+.
+h
 #
 we
 don
@@ -732,6 +735,17 @@ xpcom
 glue
 /
 SSE
+.
+h
+(
+topsrcdir
+)
+/
+xpcom
+/
+glue
+/
+arm
 .
 h
 (
