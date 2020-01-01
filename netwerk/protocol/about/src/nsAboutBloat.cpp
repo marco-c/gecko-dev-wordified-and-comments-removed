@@ -1,6 +1,16 @@
 #
 include
 "
+nsTraceRefcntImpl
+.
+h
+"
+#
+ifdef
+NS_BUILD_REFCNT_LOGGING
+#
+include
+"
 nsAboutBloat
 .
 h
@@ -79,13 +89,6 @@ h
 include
 "
 nsILocalFile
-.
-h
-"
-#
-include
-"
-nsTraceRefcntImpl
 .
 h
 "
@@ -828,3 +831,5 @@ return
 rv
 ;
 }
+#
+endif
