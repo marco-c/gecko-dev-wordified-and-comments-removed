@@ -118,6 +118,10 @@ FrameLayerBuilder
 ContainerParameters
 ContainerParameters
 ;
+NS_DECL_QUERYFRAME_TARGET
+(
+nsHTMLCanvasFrame
+)
 NS_DECL_FRAMEARENA_HELPERS
 nsHTMLCanvasFrame
 (
