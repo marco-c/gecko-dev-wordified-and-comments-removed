@@ -50,7 +50,7 @@ class
 AsyncConnectionHelper
 ;
 class
-IndexedDatabaseRequest
+IDBFactory
 ;
 class
 IDBDatabaseRequest

@@ -490,7 +490,7 @@ IDBTransactionRequest
 .
 cpp
 \
-IndexedDatabaseRequest
+IDBFactory
 .
 cpp
 \
@@ -548,7 +548,7 @@ IndexedDatabase
 .
 h
 \
-IndexedDatabaseRequest
+IDBFactory
 .
 h
 \
@@ -700,7 +700,7 @@ nsIIDBTransactionRequest
 .
 idl
 \
-nsIIndexedDatabaseRequest
+nsIIDBFactory
 .
 idl
 \

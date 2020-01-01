@@ -33,7 +33,7 @@ h
 "
 BEGIN_INDEXEDDB_NAMESPACE
 class
-IndexedDatabaseRequest
+IDBFactory
 ;
 class
 IDBKeyRange
@@ -43,7 +43,7 @@ nsIIDBKeyRange
 {
 friend
 class
-IndexedDatabaseRequest
+IDBFactory
 ;
 public
 :
