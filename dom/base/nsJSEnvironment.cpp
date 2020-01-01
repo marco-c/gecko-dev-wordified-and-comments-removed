@@ -12241,11 +12241,6 @@ JSOPTION_RELIMIT
 JSBool
 optval
 ;
-if
-(
-!
-:
-:
 JS_ValueToBoolean
 (
 cx
@@ -12254,9 +12249,6 @@ vp
 &
 optval
 )
-)
-return
-JS_FALSE
 ;
 uint32
 optset
