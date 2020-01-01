@@ -2365,7 +2365,7 @@ script
 )
 enabler
 .
-enableInterrupts
+enable
 (
 )
 ;
