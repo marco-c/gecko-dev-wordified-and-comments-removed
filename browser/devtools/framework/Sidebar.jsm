@@ -310,7 +310,7 @@ iframe
 removeEventListener
 (
 "
-DOMContentLoaded
+load
 "
 onIFrameLoaded
 true
@@ -364,7 +364,7 @@ iframe
 addEventListener
 (
 "
-DOMContentLoaded
+load
 "
 onIFrameLoaded
 true
@@ -516,7 +516,7 @@ bind
 (
 this
 )
-0
+10
 )
 ;
 }

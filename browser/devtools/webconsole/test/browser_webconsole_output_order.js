@@ -214,8 +214,12 @@ let
 outputSecond
 =
 /
+"
 foo
+"
+"
 bar
+"
 /
 .
 test

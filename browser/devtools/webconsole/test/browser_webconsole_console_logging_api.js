@@ -567,8 +567,12 @@ node
 &
 &
 /
+"
 foo
+"
+"
 bar
+"
 /
 .
 test

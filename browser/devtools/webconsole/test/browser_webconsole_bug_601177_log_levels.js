@@ -243,8 +243,9 @@ error
 "
 )
 ;
-finishTest
+executeSoon
 (
+finishTest
 )
 ;
 }

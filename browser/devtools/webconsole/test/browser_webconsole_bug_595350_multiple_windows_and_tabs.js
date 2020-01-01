@@ -43,6 +43,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 addTabs
 (
 win1
@@ -288,7 +293,7 @@ waitForSuccess
 {
 timeout
 :
-10000
+15000
 name
 :
 "
