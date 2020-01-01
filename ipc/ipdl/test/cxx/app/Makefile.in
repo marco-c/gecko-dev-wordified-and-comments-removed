@@ -75,14 +75,6 @@ config
 autoconf
 .
 mk
-PROGRAM
-=
-(
-MODULE
-)
-(
-BIN_SUFFIX
-)
 NSDISTMODE
 =
 copy

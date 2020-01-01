@@ -146,15 +146,6 @@ mar
 (
 HOST_BIN_SUFFIX
 )
-ifdef
-MOZ_ENABLE_SIGNMAR
-PROGRAM
-=
-signmar
-(
-BIN_SUFFIX
-)
-endif
 #
 Don
 '

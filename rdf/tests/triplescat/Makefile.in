@@ -76,12 +76,6 @@ config
 autoconf
 .
 mk
-PROGRAM
-=
-triplescat
-(
-BIN_SUFFIX
-)
 CPPSRCS
 =
 triplescat

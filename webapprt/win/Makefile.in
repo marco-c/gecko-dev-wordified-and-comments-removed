@@ -82,14 +82,6 @@ binary
 bootstrapping
 with
 XRE_main
-PROGRAM
-=
-webapprt
--
-stub
-(
-BIN_SUFFIX
-)
 CPPSRCS
 =
 webapprt

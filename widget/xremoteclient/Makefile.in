@@ -160,16 +160,6 @@ MOZ_COMPONENT_LIBS
 (
 NULL
 )
-PROGRAM
-=
-mozilla
--
-xremote
--
-client
-(
-BIN_SUFFIX
-)
 PROGCPPSRCS
 =
 \

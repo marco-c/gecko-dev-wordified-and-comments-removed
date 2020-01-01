@@ -93,16 +93,6 @@ cpp
 (
 NULL
 )
-PROGRAM
-=
-plugin
--
-hang
--
-ui
-(
-BIN_SUFFIX
-)
 OS_LIBS
 =
 (

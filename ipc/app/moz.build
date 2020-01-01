@@ -98,3 +98,11 @@ MODULE
 '
 ipc
 '
+PROGRAM
+=
+CONFIG
+[
+'
+MOZ_CHILD_PROCESS_NAME
+'
+]

@@ -18,6 +18,8 @@ VariablePassthru
     
 Exports
     
+Program
+    
 ReaderSummary
     
 XpcshellManifests
@@ -507,6 +509,39 @@ Exports
 (
 sandbox
 exports
+)
+        
+program
+=
+sandbox
+.
+get
+(
+'
+PROGRAM
+'
+)
+        
+if
+program
+:
+            
+yield
+Program
+(
+sandbox
+program
+sandbox
+[
+'
+CONFIG
+'
+]
+[
+'
+BIN_SUFFIX
+'
+]
 )
         
 for
