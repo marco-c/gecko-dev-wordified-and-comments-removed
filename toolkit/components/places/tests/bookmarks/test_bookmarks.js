@@ -2220,13 +2220,6 @@ rootNode
 .
 childCount
 ;
-do_check_true
-(
-cc
->
-0
-)
-;
 for
 (
 var
@@ -3406,13 +3399,6 @@ cc
 rootNode
 .
 childCount
-;
-do_check_true
-(
-cc
->
-0
-)
 ;
 for
 (
