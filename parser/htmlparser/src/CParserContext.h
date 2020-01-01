@@ -73,13 +73,6 @@ CParserContext
 public
 :
 enum
-{
-eTransferBufferSize
-=
-4096
-}
-;
-enum
 eContextType
 {
 eCTNone
@@ -168,12 +161,6 @@ nsIRequestObserver
 >
 mListener
 ;
-nsAutoArrayPtr
-<
-char
->
-mTransferBuffer
-;
 void
 *
 mKey
@@ -222,7 +209,7 @@ PRPackedBool
 mCopyUnused
 ;
 PRUint32
-mTransferBufferSize
+mNumConsumed
 ;
 }
 ;
