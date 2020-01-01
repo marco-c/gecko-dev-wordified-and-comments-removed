@@ -272,14 +272,11 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
-(
 nsContentUtils
 :
 :
 GetDocumentFromCaller
 (
-)
 )
 ;
 NS_ENSURE_TRUE

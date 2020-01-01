@@ -3809,14 +3809,11 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
-(
 window
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
-)
 )
 ;
 if

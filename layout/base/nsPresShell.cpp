@@ -26283,14 +26283,11 @@ NS_OK
 }
 retargetEventDoc
 =
-do_QueryInterface
-(
 window
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
-)
 )
 ;
 if
