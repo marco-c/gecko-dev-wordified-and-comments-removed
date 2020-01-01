@@ -1936,6 +1936,11 @@ fixedSlots
 isDenseArray
 (
 )
+|
+|
+isArrayBuffer
+(
+)
 )
 ;
 return

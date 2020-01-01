@@ -6173,6 +6173,9 @@ addPtr
 Imm32
 (
 -
+(
+int
+)
 sizeof
 (
 JSObject

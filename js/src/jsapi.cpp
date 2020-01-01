@@ -7875,13 +7875,7 @@ EAGER_CLASS_ATOM
 ArrayBuffer
 )
 &
-js
-:
-:
-ArrayBuffer
-:
-:
-fastClass
+js_ArrayBufferClass
 }
 {
 js_InitTypedArrayClasses
