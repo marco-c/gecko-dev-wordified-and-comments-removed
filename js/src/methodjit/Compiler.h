@@ -499,6 +499,17 @@ index
 )
 ;
 void
+jsop_propinc
+(
+JSOp
+op
+VoidStubAtom
+stub
+uint32
+index
+)
+;
+void
 jsop_bitop
 (
 JSOp
