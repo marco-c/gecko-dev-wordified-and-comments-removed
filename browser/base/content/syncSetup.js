@@ -1112,13 +1112,10 @@ existingPassphrase
 )
 .
 value
-.
-length
->
+!
 =
-Weave
-.
-MIN_PP_LENGTH
+"
+"
 ;
 if
 (

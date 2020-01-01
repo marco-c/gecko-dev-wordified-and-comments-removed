@@ -1592,13 +1592,10 @@ this
 _passphraseBox
 .
 value
-.
-length
->
+!
 =
-Weave
-.
-MIN_PP_LENGTH
+"
+"
 ;
 }
 if
