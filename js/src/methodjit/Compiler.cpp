@@ -28044,6 +28044,8 @@ leave
 (
 )
 ;
+stubcc
+.
 masm
 .
 move
