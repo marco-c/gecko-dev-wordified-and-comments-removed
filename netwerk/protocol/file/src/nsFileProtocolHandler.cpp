@@ -1222,6 +1222,11 @@ nsIURI
 result
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+file
+)
+;
 nsresult
 rv
 ;
