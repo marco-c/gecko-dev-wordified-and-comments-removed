@@ -288,7 +288,9 @@ java
 .
 util
 .
-ArrayList
+concurrent
+.
+CopyOnWriteArrayList
 ;
 public
 class
@@ -402,14 +404,14 @@ int
 mBackgroundColor
 ;
 private
-ArrayList
+CopyOnWriteArrayList
 <
 Layer
 >
 mExtraLayers
 =
 new
-ArrayList
+CopyOnWriteArrayList
 <
 Layer
 >
@@ -1313,7 +1315,7 @@ getController
 ;
 synchronized
 (
-controller
+mExtraLayers
 )
 {
 if
@@ -1362,7 +1364,7 @@ getController
 ;
 synchronized
 (
-controller
+mExtraLayers
 )
 {
 mExtraLayers
