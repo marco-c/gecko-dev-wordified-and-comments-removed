@@ -1646,7 +1646,7 @@ defined
 JS_CPU_ARM
 )
 int
-extraPop
+framePop
 =
 (
 sizeof
@@ -1670,7 +1670,7 @@ void
 #
 else
 int
-extraPop
+framePop
 =
 0
 ;
@@ -1682,7 +1682,9 @@ implicitPop
 (
 fun
 .
-explicitArgs
+explicitStackSlots
+(
+)
 +
 argumentPadding
 /
@@ -1692,7 +1694,7 @@ void
 *
 )
 +
-extraPop
+framePop
 )
 ;
 return
