@@ -525,7 +525,7 @@ PRBool
 _retval
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 never
@@ -567,7 +567,7 @@ PRBool
 _retval
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 never
