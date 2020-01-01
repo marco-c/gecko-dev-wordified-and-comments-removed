@@ -112,10 +112,6 @@ test_launch_paths
 .
 xul
 \
-test_uninstall_errors
-.
-xul
-\
 (
 NULL
 )

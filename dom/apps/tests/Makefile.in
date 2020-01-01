@@ -116,6 +116,10 @@ test_packaged_app_common
 .
 js
 \
+test_uninstall_errors
+.
+html
+\
 (
 NULL
 )
