@@ -36,7 +36,7 @@ class
 nsDequeIterator
 ;
 class
-NS_COM
+NS_COM_GLUE
 nsDeque
 {
 friend
@@ -236,7 +236,7 @@ GrowCapacity
 }
 ;
 class
-NS_COM
+NS_COM_GLUE
 nsDequeIterator
 {
 public
