@@ -9180,6 +9180,14 @@ domSelection
 caret
 -
 >
+SetCaretVisible
+(
+PR_FALSE
+)
+;
+caret
+-
+>
 SetCaretDOMSelection
 (
 domSelection
