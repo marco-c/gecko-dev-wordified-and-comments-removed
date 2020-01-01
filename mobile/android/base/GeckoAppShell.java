@@ -1454,8 +1454,6 @@ long
 aTimestamp
 int
 aRequestId
-long
-aProcessId
 )
 ;
 public
@@ -1486,8 +1484,6 @@ int
 aError
 int
 aRequestId
-long
-aProcessId
 )
 ;
 public
@@ -1510,8 +1506,6 @@ long
 aTimestamp
 int
 aRequestId
-long
-aProcessId
 )
 ;
 public
@@ -1524,8 +1518,6 @@ int
 aError
 int
 aRequestId
-long
-aProcessId
 )
 ;
 public
@@ -1538,8 +1530,6 @@ boolean
 aDeleted
 int
 aRequestId
-long
-aProcessId
 )
 ;
 public
@@ -1552,8 +1542,6 @@ int
 aError
 int
 aRequestId
-long
-aProcessId
 )
 ;
 public
@@ -1564,8 +1552,6 @@ notifyNoMessageInList
 (
 int
 aRequestId
-long
-aProcessId
 )
 ;
 public
@@ -1590,8 +1576,6 @@ long
 aTimestamp
 int
 aRequestId
-long
-aProcessId
 )
 ;
 public
@@ -1614,8 +1598,6 @@ long
 aTimestamp
 int
 aRequestId
-long
-aProcessId
 )
 ;
 public
@@ -1628,8 +1610,6 @@ int
 aError
 int
 aRequestId
-long
-aProcessId
 )
 ;
 public
@@ -11496,8 +11476,6 @@ String
 aMessage
 int
 aRequestId
-long
-aProcessId
 )
 {
 if
@@ -11526,7 +11504,6 @@ send
 aNumber
 aMessage
 aRequestId
-aProcessId
 )
 ;
 }
@@ -11584,8 +11561,6 @@ int
 aMessageId
 int
 aRequestId
-long
-aProcessId
 )
 {
 if
@@ -11613,7 +11588,6 @@ getMessage
 (
 aMessageId
 aRequestId
-aProcessId
 )
 ;
 }
@@ -11626,8 +11600,6 @@ int
 aMessageId
 int
 aRequestId
-long
-aProcessId
 )
 {
 if
@@ -11655,7 +11627,6 @@ deleteMessage
 (
 aMessageId
 aRequestId
-aProcessId
 )
 ;
 }
@@ -11680,8 +11651,6 @@ boolean
 aReverse
 int
 aRequestId
-long
-aProcessId
 )
 {
 if
@@ -11714,7 +11683,6 @@ aNumbersCount
 aDeliveryState
 aReverse
 aRequestId
-aProcessId
 )
 ;
 }
@@ -11727,8 +11695,6 @@ int
 aListId
 int
 aRequestId
-long
-aProcessId
 )
 {
 if
@@ -11756,7 +11722,6 @@ getNextMessageInList
 (
 aListId
 aRequestId
-aProcessId
 )
 ;
 }
