@@ -90,6 +90,10 @@ deoptTable_
 (
 NULL
 )
+pushedArgs_
+(
+0
+)
 osrEntryOffset_
 (
 0

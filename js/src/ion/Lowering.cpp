@@ -325,8 +325,8 @@ if
 !
 defineVMReturn
 (
-ins
 lir
+ins
 )
 )
 return
@@ -337,8 +337,8 @@ if
 !
 assignSafepoint
 (
-ins
 lir
+ins
 )
 )
 return

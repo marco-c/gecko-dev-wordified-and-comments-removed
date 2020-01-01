@@ -1171,12 +1171,12 @@ LIRGeneratorARM
 :
 assignSafepoint
 (
-MInstruction
-*
-mir
 LInstruction
 *
 ins
+MInstruction
+*
+mir
 )
 {
 ins
