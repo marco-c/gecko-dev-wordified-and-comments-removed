@@ -1242,6 +1242,14 @@ bookmarks_list
 "
 )
 ;
+if
+(
+bookmarkList
+!
+=
+null
+)
+{
 ArrayList
 <
 ListView
@@ -1280,6 +1288,7 @@ getId
 return
 list
 ;
+}
 }
 /
 /
