@@ -77,6 +77,11 @@ nsSVGStylableElementBase
 aNodeInfo
 )
 {
+SetFlags
+(
+NODE_MAY_HAVE_CLASS
+)
+;
 }
 nsresult
 nsSVGStylableElement
@@ -150,7 +155,7 @@ nsAttrValue
 nsSVGStylableElement
 :
 :
-GetClasses
+DoGetClasses
 (
 )
 const

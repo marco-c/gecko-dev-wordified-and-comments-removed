@@ -224,6 +224,11 @@ nsGkAtoms
 _asterix
 )
 {
+SetFlags
+(
+NODE_MAY_HAVE_CLASS
+)
+;
 }
 nsXTFElementWrapper
 :
@@ -4052,7 +4057,7 @@ nsAttrValue
 nsXTFElementWrapper
 :
 :
-GetClasses
+DoGetClasses
 (
 )
 const
