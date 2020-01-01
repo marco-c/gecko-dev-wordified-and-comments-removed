@@ -1465,8 +1465,10 @@ textRun
 ;
 textRun
 =
-new
 gfxTextRun
+:
+:
+Create
 (
 aParams
 aText
@@ -1583,8 +1585,10 @@ textRun
 ;
 textRun
 =
-new
 gfxTextRun
+:
+:
+Create
 (
 aParams
 aText
@@ -2078,8 +2082,10 @@ textRun
 ;
 textRun
 =
-new
 gfxTextRun
+:
+:
+Create
 (
 aParams
 aText
