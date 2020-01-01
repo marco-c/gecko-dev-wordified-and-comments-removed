@@ -1321,10 +1321,6 @@ list
 #
 3d
 transforms
--
-disabled
-currently
-#
 include
 transform
 -
