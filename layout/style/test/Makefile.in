@@ -872,6 +872,10 @@ css
 .
 sjs
 \
+test_bug795520
+.
+html
+\
 (
 NULL
 )
