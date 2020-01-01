@@ -1203,6 +1203,9 @@ mFireChangeEventState
 PRPackedBool
 mInSecureKeyboardInputMode
 ;
+PRPackedBool
+mUsePlaceholder
+;
 #
 ifdef
 DEBUG
