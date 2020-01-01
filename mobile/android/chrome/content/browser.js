@@ -4345,7 +4345,7 @@ return
 }
 ViewportHandler
 .
-updateMetadata
+resetMetadata
 (
 tab
 )
