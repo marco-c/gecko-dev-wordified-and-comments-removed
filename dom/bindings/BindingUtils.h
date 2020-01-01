@@ -3693,6 +3693,10 @@ const
 char
 *
 type
+const
+char
+*
+sourceDescription
 )
 {
 return
@@ -3722,6 +3726,10 @@ const
 char
 *
 type
+const
+char
+*
+sourceDescription
 )
 {
 return
@@ -3751,6 +3759,10 @@ const
 char
 *
 type
+const
+char
+*
+sourceDescription
 )
 {
 NS_LossyConvertUTF16toASCII
@@ -3773,6 +3785,7 @@ ThrowErrorMessage
 (
 cx
 MSG_INVALID_ENUM_VALUE
+sourceDescription
 deflated
 .
 get
@@ -3807,6 +3820,10 @@ const
 char
 *
 type
+const
+char
+*
+sourceDescription
 bool
 *
 ok
@@ -4009,6 +4026,7 @@ cx
 chars
 length
 type
+sourceDescription
 )
 ;
 return
