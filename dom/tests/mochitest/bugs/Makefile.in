@@ -448,6 +448,10 @@ test_bug308856
 .
 html
 \
+test_bug317448
+.
+html
+\
 test_bug333983
 .
 html
