@@ -16,6 +16,10 @@ aPresContext
 nsRenderingContext
 *
 aRenderingContext
+const
+nsHTMLReflowState
+*
+aOuterReflowState
 PRUint16
 aReflowDepth
 )
@@ -27,6 +31,10 @@ aPresContext
 mRenderingContext
 (
 aRenderingContext
+)
+mOuterReflowState
+(
+aOuterReflowState
 )
 mLayoutFlags
 (
@@ -77,6 +85,12 @@ mRenderingContext
 aState
 .
 mRenderingContext
+)
+mOuterReflowState
+(
+aState
+.
+mOuterReflowState
 )
 mLayoutFlags
 (
