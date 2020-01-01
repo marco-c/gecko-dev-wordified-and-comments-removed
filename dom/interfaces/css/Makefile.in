@@ -178,15 +178,7 @@ nsIDOMCounter
 .
 idl
 \
-nsIDOMRGBColor
-.
-idl
-\
 nsIDOMRect
-.
-idl
-\
-nsIDOMNSRGBAColor
 .
 idl
 \
