@@ -355,9 +355,13 @@ and
 -
 >
 <
-Gecko
+org
 .
-TextSwitcher
+mozilla
+.
+gecko
+.
+TabCounter
 android
 :
 id
@@ -366,7 +370,7 @@ id
 +
 id
 /
-tabs_count
+tabs_counter
 "
 style
 =
@@ -376,6 +380,8 @@ style
 AddressBar
 .
 ImageButton
+.
+TabCount
 "
 android
 :
@@ -420,13 +426,6 @@ layout_alignLeft
 id
 /
 tabs
-"
-android
-:
-gravity
-=
-"
-center_horizontal
 "
 /
 >

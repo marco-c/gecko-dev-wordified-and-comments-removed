@@ -2847,7 +2847,7 @@ findElement
 (
 activity
 "
-tabs_count
+tabs_counter
 "
 )
 ;
