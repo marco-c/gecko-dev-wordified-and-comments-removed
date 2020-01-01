@@ -78,10 +78,6 @@ h
 namespace
 js
 {
-extern
-Class
-dummy_class
-;
 class
 DtoaCache
 {
@@ -2113,11 +2109,6 @@ JSCompartment
 *
 const
 origin
-;
-JSObject
-*
-const
-target
 ;
 JSCompartment
 *
