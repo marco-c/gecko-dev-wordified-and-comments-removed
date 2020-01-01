@@ -702,6 +702,10 @@ test_bug497242
 .
 xhtml
 \
+test_bug512367
+.
+html
+\
 (
 NULL
 )

@@ -1700,6 +1700,15 @@ aDocument
 ;
 static
 PRBool
+IsChildOfSameType
+(
+nsIDocument
+*
+aDoc
+)
+;
+static
+PRBool
 GetWrapperSafeScriptFilename
 (
 nsIDocument
