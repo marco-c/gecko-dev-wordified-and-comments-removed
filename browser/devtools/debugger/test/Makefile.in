@@ -211,6 +211,12 @@ js
 \
 browser_dbg_propertyview
 -
+data
+.
+js
+\
+browser_dbg_propertyview
+-
 filter
 -
 01
