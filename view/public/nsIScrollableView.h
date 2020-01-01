@@ -57,17 +57,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_ISCROLLABLEVIEW_IID
 )
 NS_IMETHOD
-CreateScrollControls
-(
-nsNativeWidget
-aNative
-=
-nsnull
-)
-=
-0
-;
-NS_IMETHOD
 GetContainerSize
 (
 nscoord
