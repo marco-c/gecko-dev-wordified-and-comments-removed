@@ -156,10 +156,6 @@ test_blob_simple
 .
 html
 \
-test_bug847147
-.
-html
-\
 test_clear
 .
 html
@@ -499,6 +495,13 @@ html
 (
 NULL
 )
+#
+test_bug847147
+.
+html
+disabled
+for
+timeouts
 #
 test_writer_starvation
 .
