@@ -11233,6 +11233,15 @@ mOldState
 }
 }
 ;
+uint32_t
+GetBitsPerTexel
+(
+GLenum
+format
+GLenum
+type
+)
+;
 }
 }
 #
