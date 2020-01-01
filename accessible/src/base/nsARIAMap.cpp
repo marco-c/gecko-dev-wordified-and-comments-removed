@@ -1245,12 +1245,12 @@ gWAIUnivStateMap
 ]
 =
 {
-eARIARequired
-eARIAInvalid
-eARIAHasPopup
 eARIABusy
 eARIADisabled
 eARIAExpanded
+eARIAHasPopup
+eARIAInvalid
+eARIARequired
 eARIANone
 }
 ;

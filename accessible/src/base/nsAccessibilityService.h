@@ -299,9 +299,6 @@ HasUniversalAriaProperty
 nsIContent
 *
 aContent
-nsIWeakReference
-*
-aWeakShell
 )
 ;
 void
