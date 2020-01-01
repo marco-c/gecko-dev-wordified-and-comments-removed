@@ -82,6 +82,10 @@ quantifiers
 .
 #
 define
+RegexStackSpaceForBackTrackInfoParenthesesTerminal
+1
+#
+define
 RegexStackSpaceForBackTrackInfoParentheses
 4
 struct
@@ -381,6 +385,9 @@ lastSubpatternId
 bool
 isCopy
 ;
+bool
+isTerminal
+;
 }
 parentheses
 ;
@@ -496,6 +503,12 @@ subpatternId
 parentheses
 .
 isCopy
+=
+false
+;
+parentheses
+.
+isTerminal
 =
 false
 ;
