@@ -10887,6 +10887,11 @@ if
 ToNumber
 (
 cx
+MutableHandleValue
+:
+:
+fromMarkedLocation
+(
 &
 regs
 .
@@ -10895,6 +10900,7 @@ sp
 -
 1
 ]
+)
 )
 )
 goto
