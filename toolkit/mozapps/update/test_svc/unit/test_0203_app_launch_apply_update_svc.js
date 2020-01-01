@@ -540,6 +540,10 @@ PREF_APP_UPDATE_SILENT
 true
 )
 ;
+gEnvSKipUpdateDirHashing
+=
+true
+;
 let
 channel
 =
