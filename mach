@@ -275,11 +275,6 @@ main
 except
 ImportError
 :
-SEARCH_PATHS
-.
-reverse
-(
-)
 sys
 .
 path

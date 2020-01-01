@@ -41,6 +41,9 @@ packages
 =
 [
 '
+mach
+'
+'
 mozbuild
 '
 ]
