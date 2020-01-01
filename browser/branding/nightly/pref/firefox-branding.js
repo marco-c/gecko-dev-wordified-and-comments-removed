@@ -73,7 +73,7 @@ update
 .
 interval
 "
-7200
+28800
 )
 ;
 pref

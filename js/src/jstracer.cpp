@@ -92280,6 +92280,15 @@ sp
 ]
 )
 ;
+StackValue
+v
+=
+stackAt
+(
+-
+1
+)
+;
 if
 (
 b

@@ -144,10 +144,6 @@ window
 ;
 break
 ;
-default
-:
-break
-;
 }
 zerr
 =
