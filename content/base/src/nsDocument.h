@@ -2070,14 +2070,6 @@ aResult
 )
 ;
 NS_IMETHOD
-HandleEvent
-(
-nsIDOMEvent
-*
-aEvent
-)
-;
-NS_IMETHOD
 GetSystemEventGroup
 (
 nsIDOMEventGroup
