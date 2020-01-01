@@ -20327,7 +20327,6 @@ CreateElem
 aTag
 nsnull
 kNameSpaceID_XHTML
-false
 aContent
 )
 ;

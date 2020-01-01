@@ -692,7 +692,6 @@ nsGkAtoms
 :
 transformiix
 namespaceID
-false
 getter_AddRefs
 (
 mTextParent

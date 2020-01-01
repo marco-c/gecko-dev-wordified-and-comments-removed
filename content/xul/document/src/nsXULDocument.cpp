@@ -15215,7 +15215,6 @@ treechildren
 )
 nsnull
 kNameSpaceID_XUL
-false
 getter_AddRefs
 (
 bodyContent

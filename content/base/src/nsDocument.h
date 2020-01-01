@@ -2725,8 +2725,6 @@ nsIAtom
 aPrefix
 PRInt32
 aNamespaceID
-bool
-aDocumentDefaultType
 nsIContent
 *
 *

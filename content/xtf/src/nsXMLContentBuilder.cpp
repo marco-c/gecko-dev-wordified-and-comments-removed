@@ -410,7 +410,6 @@ CreateElem
 tagname
 nsnull
 mNamespaceId
-false
 getter_AddRefs
 (
 node

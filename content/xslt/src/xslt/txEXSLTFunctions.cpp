@@ -639,7 +639,6 @@ aName
 )
 nsnull
 kNameSpaceID_None
-false
 getter_AddRefs
 (
 elem
