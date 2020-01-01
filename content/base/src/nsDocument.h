@@ -2658,6 +2658,15 @@ nsINode
 aOther
 )
 ;
+virtual
+void
+GetTextContent
+(
+nsAString
+&
+aTextContent
+)
+;
 NS_IMETHOD
 WalkRadioGroup
 (
