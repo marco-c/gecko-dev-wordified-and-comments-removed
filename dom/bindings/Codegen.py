@@ -56451,13 +56451,11 @@ CallbackFunction
                              
 constructors
 =
-[
 self
 .
-getConstructor
+getConstructors
 (
 )
-]
                              
 methods
 =
@@ -56549,13 +56547,14 @@ self
 )
     
 def
-getConstructor
+getConstructors
 (
 self
 )
 :
         
 return
+[
 ClassConstructor
 (
             
@@ -56636,6 +56635,52 @@ body
 "
 "
 )
+            
+ClassConstructor
+(
+            
+[
+Argument
+(
+"
+CallbackFunction
+*
+"
+"
+aOther
+"
+)
+]
+            
+bodyInHeader
+=
+True
+            
+visibility
+=
+"
+public
+"
+            
+baseConstructors
+=
+[
+                
+"
+CallbackFunction
+(
+aOther
+)
+"
+                
+]
+            
+body
+=
+"
+"
+)
+]
     
 def
 getCallImpls
