@@ -8387,6 +8387,15 @@ ContinueInterruptedParsing
 (
 )
 {
+if
+(
+mScriptsExecuting
+)
+{
+return
+NS_OK
+;
+}
 nsresult
 result
 =
