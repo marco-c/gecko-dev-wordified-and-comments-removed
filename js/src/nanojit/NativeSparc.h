@@ -375,7 +375,7 @@ FirstReg
 LastReg
 =
 29
-UnknownReg
+deprecated_UnknownReg
 =
 30
 }

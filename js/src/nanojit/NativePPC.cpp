@@ -637,7 +637,7 @@ d
 FP
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -679,7 +679,7 @@ disp
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -1108,7 +1108,7 @@ rr
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
@@ -1130,7 +1130,7 @@ FpRegs
 )
 )
 {
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -1141,7 +1141,7 @@ else
 {
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -1153,7 +1153,7 @@ else
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -1752,10 +1752,11 @@ Register
 rs
 =
 (
+!
 value
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -1774,7 +1775,7 @@ ra
 value
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -1920,7 +1921,7 @@ CR7
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -3483,7 +3484,7 @@ LIR_alloc
 {
 d
 =
-disp
+deprecated_disp
 (
 i
 )
@@ -3513,7 +3514,7 @@ if
 i
 -
 >
-getArIndex
+deprecated_getArIndex
 (
 )
 )
@@ -3521,7 +3522,7 @@ getArIndex
 i
 -
 >
-markAsClear
+deprecated_markAsClear
 (
 )
 ;
@@ -3660,7 +3661,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -3692,7 +3693,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -3765,7 +3766,7 @@ a
 8
 )
 {
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -3789,7 +3790,7 @@ asm_param_stk
 }
 else
 {
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -3834,7 +3835,7 @@ retRegs
 ]
 )
 ;
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -4181,7 +4182,7 @@ NanoAssert
 r
 !
 =
-UnknownReg
+deprecated_UnknownReg
 )
 ;
 if
@@ -4268,7 +4269,7 @@ if
 p
 -
 >
-hasKnownReg
+deprecated_hasKnownReg
 (
 )
 )
@@ -4354,7 +4355,7 @@ r
 p
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -4397,7 +4398,7 @@ rp
 p
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
@@ -4608,7 +4609,7 @@ GpRegs
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 allow
@@ -5156,7 +5157,7 @@ FpRegs
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 allow
@@ -5267,7 +5268,7 @@ ins
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -5411,7 +5412,7 @@ ins
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -5583,7 +5584,7 @@ opcode
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -5675,7 +5676,7 @@ r
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
@@ -5697,7 +5698,7 @@ FpRegs
 )
 )
 {
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -5708,7 +5709,7 @@ else
 {
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -5720,7 +5721,7 @@ else
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -6384,7 +6385,7 @@ isI64
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -6584,7 +6585,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -6646,7 +6647,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -6689,7 +6690,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs

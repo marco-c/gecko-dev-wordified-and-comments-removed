@@ -379,7 +379,7 @@ Rlr
 Rctr
 =
 9
-UnknownReg
+deprecated_UnknownReg
 =
 127
 FirstReg

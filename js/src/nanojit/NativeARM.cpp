@@ -1821,7 +1821,7 @@ LIR_qjoin
 Register
 fp_reg
 =
-UnknownReg
+deprecated_UnknownReg
 ;
 if
 (
@@ -2193,7 +2193,7 @@ if
 p
 -
 >
-hasKnownReg
+deprecated_hasKnownReg
 (
 )
 )
@@ -2245,7 +2245,7 @@ r
 p
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -2336,7 +2336,7 @@ rr
 arg
 -
 >
-getReg
+deprecated_getReg
 (
 )
 isKnownReg
@@ -2547,7 +2547,7 @@ LIR_fcall
 }
 else
 {
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -2659,7 +2659,7 @@ rr
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
@@ -2688,7 +2688,7 @@ rr
 int
 d
 =
-disp
+deprecated_disp
 (
 ins
 )
@@ -2701,7 +2701,7 @@ d
 0
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -2736,7 +2736,7 @@ rr
 )
 )
 ;
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -4098,7 +4098,7 @@ FP
 d
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -4257,7 +4257,7 @@ asm_add_imm
 (
 r
 FP
-disp
+deprecated_disp
 (
 i
 )
@@ -4281,7 +4281,7 @@ if
 i
 -
 >
-getArIndex
+deprecated_getArIndex
 (
 )
 )
@@ -4289,7 +4289,7 @@ getArIndex
 i
 -
 >
-markAsClear
+deprecated_markAsClear
 (
 )
 ;
@@ -4705,14 +4705,14 @@ rr
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
 int
 d
 =
-disp
+deprecated_disp
 (
 ins
 )
@@ -4734,7 +4734,7 @@ rb
 )
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -5205,7 +5205,7 @@ ins
 int
 d
 =
-disp
+deprecated_disp
 (
 ins
 )
@@ -5216,11 +5216,11 @@ rr
 ins
 -
 >
-getReg
+deprecated_getReg
 (
 )
 ;
-freeRsrcOf
+deprecated_freeRsrcOf
 (
 ins
 false
@@ -5372,7 +5372,7 @@ LInsp
 )
 {
 return
-UnknownReg
+deprecated_UnknownReg
 ;
 }
 void
@@ -7391,7 +7391,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -7445,7 +7445,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -7499,7 +7499,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -7555,7 +7555,7 @@ oprnd1
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -7565,10 +7565,11 @@ Register
 sr
 =
 (
+!
 lhs
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -7581,7 +7582,7 @@ FpRegs
 lhs
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -7650,7 +7651,7 @@ LIR_fdiv
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 FpRegs
@@ -8505,7 +8506,7 @@ ins
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 AllowableFlagRegs
@@ -8600,7 +8601,7 @@ ins
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 AllowableFlagRegs
@@ -8811,7 +8812,7 @@ GpRegs
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 allow
@@ -8821,10 +8822,11 @@ Register
 ra
 =
 (
+!
 lhs
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -8837,7 +8839,7 @@ rr
 lhs
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -8920,7 +8922,7 @@ LIR_ialloc
 Register
 rs
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 allow
@@ -9471,7 +9473,7 @@ opcode
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -9492,10 +9494,11 @@ Register
 ra
 =
 (
+!
 lhs
 -
 >
-isUnusedOrHasUnknownReg
+isInReg
 (
 )
 ?
@@ -9508,7 +9511,7 @@ rr
 lhs
 -
 >
-getReg
+deprecated_getReg
 (
 )
 )
@@ -9586,7 +9589,7 @@ disp
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -9890,7 +9893,7 @@ const
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -10097,7 +10100,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -10145,7 +10148,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -10260,7 +10263,7 @@ a
 abi_regcount
 )
 {
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -10278,7 +10281,7 @@ else
 Register
 r
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs
@@ -10311,7 +10314,7 @@ d
 }
 else
 {
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 rmask
@@ -10338,7 +10341,7 @@ ins
 Register
 rr
 =
-prepResultReg
+deprecated_prepResultReg
 (
 ins
 GpRegs

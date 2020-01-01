@@ -693,7 +693,10 @@ FirstReg
 LastReg
 =
 16
-UnknownReg
+deprecated_UnknownReg
+=
+17
+UnspecifiedReg
 =
 17
 }
@@ -1512,7 +1515,7 @@ b
 )
 =
 =
-UnknownReg
+UnspecifiedReg
 |
 |
 unsigned
@@ -1532,7 +1535,7 @@ b
 )
 =
 =
-UnknownReg
+UnspecifiedReg
 )
 {
 \
@@ -6243,7 +6246,7 @@ disp
 base
 =
 =
-UnknownReg
+UnspecifiedReg
 ?
 "
 0
@@ -6306,7 +6309,7 @@ disp
 base
 =
 =
-UnknownReg
+UnspecifiedReg
 ?
 "
 0
@@ -6369,7 +6372,7 @@ disp
 base
 =
 =
-UnknownReg
+UnspecifiedReg
 ?
 "
 0
