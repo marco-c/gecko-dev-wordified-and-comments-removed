@@ -2672,7 +2672,7 @@ ptr
 ;
 SCOPED_TEMPLATE
 (
-ScopedFreePtr
+ScopedJSFreePtr
 ScopedFreePtrTraits
 )
 template
@@ -2708,7 +2708,7 @@ ptr
 ;
 SCOPED_TEMPLATE
 (
-ScopedDeletePtr
+ScopedJSDeletePtr
 ScopedDeletePtrTraits
 )
 }

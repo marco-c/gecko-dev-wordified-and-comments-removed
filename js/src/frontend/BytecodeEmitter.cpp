@@ -11190,10 +11190,7 @@ tableLength
 =
 0
 ;
-js
-:
-:
-ScopedFreePtr
+ScopedJSFreePtr
 <
 ParseNode
 *

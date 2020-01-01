@@ -3697,7 +3697,7 @@ return
 true
 ;
 }
-ScopedDeletePtr
+ScopedJSDeletePtr
 <
 RegExpShared
 >

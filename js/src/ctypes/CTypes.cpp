@@ -141,15 +141,6 @@ StandardInteger
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Scoped
-.
-h
-"
 using
 namespace
 std
@@ -34055,7 +34046,7 @@ valData
 )
 ;
 }
-ScopedFreePtr
+ScopedJSFreePtr
 <
 void
 >
@@ -34136,7 +34127,7 @@ return
 JS_FALSE
 ;
 }
-ScopedFreePtr
+ScopedJSFreePtr
 <
 void
 >
@@ -34416,7 +34407,7 @@ return
 JS_FALSE
 ;
 }
-ScopedFreePtr
+ScopedJSFreePtr
 <
 CDataFinalizer
 :

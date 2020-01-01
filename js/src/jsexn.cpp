@@ -6000,10 +6000,7 @@ sizeof
 JSStackTraceElem
 )
 ;
-js
-:
-:
-ScopedFreePtr
+ScopedJSFreePtr
 <
 JSExnPrivate
 >
@@ -6077,10 +6074,7 @@ errorReport
 NULL
 ;
 }
-js
-:
-:
-ScopedFreePtr
+ScopedJSFreePtr
 <
 JSErrorReport
 >

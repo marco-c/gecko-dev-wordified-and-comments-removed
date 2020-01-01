@@ -18475,10 +18475,7 @@ src
 return
 JS_FALSE
 ;
-js
-:
-:
-ScopedFreePtr
+ScopedJSFreePtr
 <
 char
 >
