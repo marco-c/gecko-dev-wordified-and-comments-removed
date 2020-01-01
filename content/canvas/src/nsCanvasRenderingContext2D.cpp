@@ -12186,6 +12186,15 @@ anchorX
 *
 totalWidth
 ;
+processor
+.
+mFontgrp
+-
+>
+UpdateFontList
+(
+)
+;
 NS_ASSERTION
 (
 processor
