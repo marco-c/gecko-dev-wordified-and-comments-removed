@@ -374,10 +374,6 @@ BrowserToolbarBackground
 .
 java
 \
-BrowserToolbarLayout
-.
-java
-\
 CameraImageResultHandler
 .
 java
