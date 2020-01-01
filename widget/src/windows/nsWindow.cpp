@@ -12401,6 +12401,12 @@ if
 prefs
 .
 mPreferD3D9
+&
+&
+!
+prefs
+.
+mPreferOpenGL
 )
 {
 nsRefPtr
