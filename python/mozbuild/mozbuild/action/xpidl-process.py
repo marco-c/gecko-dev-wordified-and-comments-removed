@@ -305,15 +305,6 @@ xpt
 module
 )
     
-with
-FileAvoidWrite
-(
-xpt_path
-)
-as
-fh
-:
-        
 xpt_link
 (
 xpts
@@ -323,9 +314,9 @@ values
 )
 )
 .
-writefd
+write
 (
-fh
+xpt_path
 )
     
 deps_path
