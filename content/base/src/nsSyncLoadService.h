@@ -37,9 +37,9 @@ LoadDocument
 nsIURI
 *
 aURI
-nsIPrincipal
+nsIURI
 *
-aLoaderPrincipal
+aLoaderURI
 nsILoadGroup
 *
 aLoadGroup

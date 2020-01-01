@@ -405,14 +405,6 @@ sRuntime
 =
 0
 ;
-PRInt32
-nsScriptSecurityManager
-:
-:
-sFileURIOriginPolicy
-=
-FILEURI_SOP_SELF
-;
 static
 const
 JSClass
@@ -1495,7 +1487,7 @@ aTargetURI
 {
 if
 (
-sFileURIOriginPolicy
+mFileURIOriginPolicy
 =
 =
 FILEURI_SOP_TRADITIONAL
@@ -1531,7 +1523,7 @@ if
 filesAreEqual
 |
 |
-sFileURIOriginPolicy
+mFileURIOriginPolicy
 =
 =
 FILEURI_SOP_SELF
@@ -1605,7 +1597,7 @@ PR_FALSE
 }
 if
 (
-sFileURIOriginPolicy
+mFileURIOriginPolicy
 =
 =
 FILEURI_SOP_ANYFILE
@@ -1683,7 +1675,7 @@ PR_FALSE
 }
 if
 (
-sFileURIOriginPolicy
+mFileURIOriginPolicy
 =
 =
 FILEURI_SOP_SAMEDIR
@@ -1739,7 +1731,7 @@ sameParent
 }
 if
 (
-sFileURIOriginPolicy
+mFileURIOriginPolicy
 =
 =
 FILEURI_SOP_SUBDIR
@@ -13020,6 +13012,10 @@ PR_FALSE
 )
 #
 endif
+mFileURIOriginPolicy
+(
+FILEURI_SOP_SELF
+)
 {
 NS_ASSERTION
 (
@@ -15905,7 +15901,7 @@ sFileOriginPolicyPrefName
 policy
 )
 ;
-sFileURIOriginPolicy
+mFileURIOriginPolicy
 =
 NS_SUCCEEDED
 (
