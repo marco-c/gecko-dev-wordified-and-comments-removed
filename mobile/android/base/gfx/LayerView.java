@@ -864,6 +864,15 @@ mListener
 listener
 ;
 }
+Listener
+getListener
+(
+)
+{
+return
+mListener
+;
+}
 public
 GLController
 getGLController
