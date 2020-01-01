@@ -2218,7 +2218,7 @@ do_check_eq
 (
 test_ui64_ui64
 (
-0xfffffffffffff00
+0xffffffffffff000
 )
 0xfffffffffffff000
 )
