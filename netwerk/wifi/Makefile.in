@@ -487,7 +487,6 @@ ifneq
 (
 (
 filter
-WINCE
 WINNT
 (
 OS_ARCH
