@@ -6238,6 +6238,16 @@ updateHomePage
 >
 <
 menupopup
+onpopupshowing
+=
+"
+PreferencesView
+.
+updateHomePageList
+(
+)
+;
+"
 >
 <
 menuitem
