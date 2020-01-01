@@ -112,7 +112,7 @@ LOGTAG
 GeckoDistribution
 "
 ;
-private
+public
 static
 final
 int
@@ -120,7 +120,7 @@ STATE_UNKNOWN
 =
 0
 ;
-private
+public
 static
 final
 int
@@ -128,7 +128,7 @@ STATE_NONE
 =
 1
 ;
-private
+public
 static
 final
 int
