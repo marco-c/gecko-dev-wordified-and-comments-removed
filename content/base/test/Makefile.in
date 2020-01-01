@@ -1376,6 +1376,10 @@ test_bug518104
 .
 html
 \
+test_bug682463
+.
+html
+\
 bug457746
 .
 sjs
