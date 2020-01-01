@@ -230,3 +230,10 @@ std
 =
 gnu99
 endif
+DEFINES
++
+=
+-
+Dabort
+=
+moz_abort
