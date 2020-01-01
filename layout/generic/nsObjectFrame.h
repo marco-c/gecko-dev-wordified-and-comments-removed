@@ -921,6 +921,11 @@ IsOpaque
 nsDisplayListBuilder
 *
 aBuilder
+PRBool
+*
+aForceTransparentSurface
+=
+nsnull
 )
 ;
 virtual
