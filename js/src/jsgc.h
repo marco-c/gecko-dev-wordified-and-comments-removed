@@ -3330,6 +3330,9 @@ public
 explicit
 GCMarker
 (
+JSRuntime
+*
+rt
 )
 ;
 bool
@@ -3367,9 +3370,6 @@ sizeLimit
 void
 start
 (
-JSRuntime
-*
-rt
 )
 ;
 void

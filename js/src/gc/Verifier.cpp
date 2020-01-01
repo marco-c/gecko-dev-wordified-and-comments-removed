@@ -2280,7 +2280,6 @@ gcMarker
 .
 start
 (
-rt
 )
 ;
 for
