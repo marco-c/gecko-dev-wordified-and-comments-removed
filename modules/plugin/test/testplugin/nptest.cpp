@@ -10197,6 +10197,12 @@ npp
 r
 )
 ;
+VOID_TO_NPVARIANT
+(
+*
+result
+)
+;
 return
 true
 ;
