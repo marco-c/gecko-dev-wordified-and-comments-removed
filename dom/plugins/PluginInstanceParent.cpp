@@ -229,7 +229,6 @@ const
 uint32_t
 &
 lastmodified
-const
 PStreamNotifyParent
 *
 notifyData

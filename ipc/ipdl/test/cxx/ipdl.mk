@@ -1,6 +1,14 @@
 IPDLSRCS
 =
 \
+PTestArrays
+.
+ipdl
+\
+PTestArraysSub
+.
+ipdl
+\
 PTestLatency
 .
 ipdl

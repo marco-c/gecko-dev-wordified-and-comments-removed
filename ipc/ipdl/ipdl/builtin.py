@@ -117,6 +117,12 @@ h
 '
     
 '
+nsTArray
+.
+h
+'
+    
+'
 mozilla
 /
 ipc

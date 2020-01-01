@@ -697,7 +697,7 @@ name
 [
 ns
 .
-namespace
+name
 for
 ns
 in
@@ -1287,7 +1287,7 @@ loc
         
 self
 .
-namespace
+name
 =
 namespace
 class
@@ -2095,6 +2095,9 @@ spec
 state
 =
 None
+array
+=
+0
 )
 :
         
@@ -2117,6 +2120,12 @@ self
 state
 =
 state
+        
+self
+.
+array
+=
+array
     
 def
 basename
