@@ -1600,6 +1600,11 @@ id
 "
 placesToolbar
 "
+align
+=
+"
+center
+"
 >
 <
 toolbarbutton
