@@ -774,6 +774,11 @@ XULENABLED_MODULES
 \
 MODULE
 (
+AddonsModule
+)
+\
+MODULE
+(
 nsToolkitCompsModule
 )
 \
