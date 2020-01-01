@@ -3,7 +3,7 @@
 ENTITY
 brandShortName
 "
-Firefox
+Fennec
 "
 >
 <
@@ -11,6 +11,6 @@ Firefox
 ENTITY
 brandFullName
 "
-Firefox
+Fennec
 "
 >

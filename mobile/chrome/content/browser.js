@@ -73,7 +73,7 @@ document
 title
 =
 "
-Firefox
+Fennec
 -
 "
 +
