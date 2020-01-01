@@ -154,6 +154,8 @@ aImage
 nsIntRegion
 *
 aRegion
+nsIntPoint
+*
 )
 MOZ_OVERRIDE
 {
