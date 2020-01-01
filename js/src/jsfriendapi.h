@@ -958,13 +958,12 @@ JS_FRIEND_API
 (
 bool
 )
-CheckUndeclaredVarAssignment
+ReportIfUndeclaredVarAssignment
 (
 JSContext
 *
 cx
-JSString
-*
+HandleString
 propname
 )
 ;
