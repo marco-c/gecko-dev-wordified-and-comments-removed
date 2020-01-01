@@ -3612,11 +3612,10 @@ ambientNotificationIcons
 )
 ;
 for
-each
 (
 let
 name
-in
+of
 iconNames
 )
 {
