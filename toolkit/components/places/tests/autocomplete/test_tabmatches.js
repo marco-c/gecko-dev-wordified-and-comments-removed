@@ -82,7 +82,7 @@ net
 "
 about
 :
-robots
+mozilla
 "
 "
 moz
@@ -92,7 +92,7 @@ action
 switchtab
 about
 :
-robots
+mozilla
 "
 "
 data
@@ -140,7 +140,7 @@ ABC
 "
 about
 :
-robots
+mozilla
 "
 "
 data
@@ -407,7 +407,7 @@ addable
 pages
 "
 "
-robots
+mozilla
 "
 [
 5
@@ -431,7 +431,7 @@ character
 gTabRestrictChar
 +
 "
-robots
+mozilla
 "
 [
 5
