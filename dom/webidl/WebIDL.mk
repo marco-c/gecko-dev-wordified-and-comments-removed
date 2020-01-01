@@ -575,6 +575,10 @@ MessageEvent
 .
 webidl
 \
+MouseEvent
+.
+webidl
+\
 MozActivity
 .
 webidl
