@@ -3316,11 +3316,13 @@ ok
 goto
 out
 ;
-JS_ASSERT
+if
 (
 prop
-&
-&
+)
+{
+JS_ASSERT
+(
 pobj
 =
 =
@@ -3334,6 +3336,7 @@ pobj
 prop
 )
 ;
+}
 }
 ok
 =
