@@ -1686,11 +1686,13 @@ aRenderingContext
 ;
 static
 nscolor
-GetTextColor
+GetColor
 (
 nsIFrame
 *
 aFrame
+nsCSSProperty
+aProperty
 )
 ;
 static
