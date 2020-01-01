@@ -74,6 +74,7 @@ LIns
 *
 i
 )
+const
 {
 NanoAssert
 (

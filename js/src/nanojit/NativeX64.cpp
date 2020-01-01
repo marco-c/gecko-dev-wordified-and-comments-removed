@@ -15377,7 +15377,9 @@ max_stk_used
 +
 _activation
 .
-tos
+stackSlotsNeeded
+(
+)
 *
 4
 ;

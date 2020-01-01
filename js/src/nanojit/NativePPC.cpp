@@ -398,7 +398,9 @@ linkage_size
 +
 _activation
 .
-tos
+stackSlotsNeeded
+(
+)
 *
 4
 ;
