@@ -1679,10 +1679,6 @@ version
 ;
 }
 }
-if
-(
-ok
-)
 {
 JSAutoEnterCompartment
 rac
