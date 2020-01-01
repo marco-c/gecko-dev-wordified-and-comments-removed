@@ -1665,6 +1665,10 @@ gfxContext
 const
 aCtx
 const
+gfxRect
+&
+aDirtyRect
+const
 gfxPoint
 &
 aFramePt
@@ -1713,6 +1717,10 @@ gfxContext
 *
 const
 aCtx
+const
+gfxRect
+&
+aDirtyRect
 const
 gfxPoint
 &

@@ -1547,6 +1547,7 @@ return
 DrawText
 (
 aRenderingContext
+aDirtyRect
 mTextDrawRect
 +
 aPt
@@ -1563,6 +1564,10 @@ DrawText
 nsRenderingContext
 &
 aRenderingContext
+const
+nsRect
+&
+aDirtyRect
 const
 nsRect
 &
@@ -1953,6 +1958,18 @@ AppUnitsToGfxUnits
 ascent
 )
 ;
+gfxRect
+dirtyRect
+(
+presContext
+-
+>
+AppUnitsToGfxUnits
+(
+aDirtyRect
+)
+)
+;
 if
 (
 decorations
@@ -2016,6 +2033,7 @@ nsCSSRendering
 PaintDecorationLine
 (
 ctx
+dirtyRect
 underColor
 pt
 gfxSize
@@ -2051,6 +2069,7 @@ nsCSSRendering
 PaintDecorationLine
 (
 ctx
+dirtyRect
 overColor
 pt
 gfxSize
@@ -2476,6 +2495,7 @@ nsCSSRendering
 PaintDecorationLine
 (
 ctx
+dirtyRect
 strikeColor
 pt
 gfxSize

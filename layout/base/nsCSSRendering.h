@@ -535,6 +535,10 @@ gfxContext
 *
 aGfxContext
 const
+gfxRect
+&
+aDirtyRect
+const
 nscolor
 aColor
 const
