@@ -9382,6 +9382,12 @@ NULL
 ;
 JS_ASSERT
 (
+size
+=
+=
+0
+|
+|
 size_t
 (
 data
