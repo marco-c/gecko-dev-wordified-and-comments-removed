@@ -353,3 +353,11 @@ load
 1
 .
 svg
+load
+zero
+-
+size
+-
+image
+.
+svg

@@ -1535,13 +1535,6 @@ nsIContent
 aRootSVGElem
 )
 ;
-private
-:
-static
-gfxASurface
-*
-gThebesComputationalSurface
-;
 }
 ;
 #
