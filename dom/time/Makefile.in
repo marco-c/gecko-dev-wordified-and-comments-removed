@@ -132,6 +132,10 @@ TimeChangeObserver
 .
 cpp
 \
+DateCacheCleaner
+.
+cpp
+\
 (
 NULL
 )
@@ -147,6 +151,10 @@ TimeService
 h
 \
 TimeChangeObserver
+.
+h
+\
+DateCacheCleaner
 .
 h
 \

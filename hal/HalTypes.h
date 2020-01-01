@@ -273,6 +273,13 @@ FMRadioOperationInformation
 >
 FMRadioObserver
 ;
+typedef
+Observer
+<
+SystemTimeChange
+>
+SystemTimeChangeObserver
+;
 }
 }
 namespace
