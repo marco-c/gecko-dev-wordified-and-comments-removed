@@ -5232,7 +5232,7 @@ enum
 {
 TIMEOUT_MS
 =
-25
+1000
 }
 ;
 ScrollFrameActivityTracker
