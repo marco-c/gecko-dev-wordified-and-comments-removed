@@ -128,7 +128,7 @@ nsCString
 aString
 )
 ;
-nsCAutoString
+nsCString
 mBuffer
 ;
 PRBool

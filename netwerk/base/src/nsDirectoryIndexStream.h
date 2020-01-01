@@ -54,7 +54,7 @@ nsIInputStream
 {
 private
 :
-nsCAutoString
+nsCString
 mBuf
 ;
 PRInt32

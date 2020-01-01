@@ -1288,6 +1288,7 @@ mFixedBuf
 }
 ;
 class
+NS_STACK_CLASS
 nsTAutoString_CharT
 :
 public
@@ -1858,6 +1859,7 @@ endif
 }
 ;
 class
+NS_STACK_CLASS
 nsTGetterCopies_CharT
 {
 public

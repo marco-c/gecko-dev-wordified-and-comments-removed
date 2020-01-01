@@ -40,7 +40,7 @@ nsScriptableUnicodeConverter
 ;
 protected
 :
-nsCAutoString
+nsCString
 mCharset
 ;
 nsCOMPtr

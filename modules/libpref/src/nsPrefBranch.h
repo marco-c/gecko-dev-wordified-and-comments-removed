@@ -308,7 +308,7 @@ nsILocalFile
 >
 mFile
 ;
-nsCAutoString
+nsCString
 mRelativeToKey
 ;
 }
