@@ -145,7 +145,18 @@ package
 =
 basename
 package
+#
+this
+cannot
+be
+named
 locale
+because
+unpack_build
+will
+overwrite
+it
+l
 =
 echo
 package
@@ -243,7 +254,7 @@ diffs
 /
 platform
 .
-locale
+l
 .
 diff
 done
