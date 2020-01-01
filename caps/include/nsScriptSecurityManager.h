@@ -1409,10 +1409,6 @@ DomainPolicy
 aDomainPolicy
 )
 ;
-static
-jsid
-sEnabledID
-;
 inline
 void
 ScriptSecurityPrefChanged
