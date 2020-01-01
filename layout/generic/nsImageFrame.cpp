@@ -9405,6 +9405,14 @@ here
 "
 )
 ;
+nsIFrame
+*
+parent
+=
+GetParent
+(
+)
+;
 bool
 canBreak
 =
@@ -9414,9 +9422,7 @@ CanContinueTextRun
 )
 &
 &
-GetParent
-(
-)
+parent
 -
 >
 StyleText
@@ -9426,6 +9432,7 @@ StyleText
 >
 WhiteSpaceCanWrap
 (
+parent
 )
 &
 &

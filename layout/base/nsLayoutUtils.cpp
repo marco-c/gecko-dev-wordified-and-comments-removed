@@ -25974,6 +25974,7 @@ styleText
 >
 WhiteSpaceCanWrap
 (
+aFrame
 )
 ;
 }
