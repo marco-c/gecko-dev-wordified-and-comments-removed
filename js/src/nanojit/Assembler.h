@@ -1368,11 +1368,7 @@ r
 return
 stack_direction
 (
-(
-int32_t
-)
-STACK_GRANULARITY
-)
+4
 *
 int32_t
 (
@@ -1381,8 +1377,7 @@ r
 >
 arIndex
 )
-+
-NJ_STACK_OFFSET
+)
 ;
 }
 }

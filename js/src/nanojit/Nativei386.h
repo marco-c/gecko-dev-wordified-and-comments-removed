@@ -579,12 +579,6 @@ NJ_MAX_REGISTERS
 =
 24
 ;
-const
-int
-NJ_STACK_OFFSET
-=
-0
-;
 #
 define
 NJ_MAX_STACK_ENTRY

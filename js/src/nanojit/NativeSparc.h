@@ -139,12 +139,6 @@ NJ_MAX_REGISTERS
 ;
 const
 int
-NJ_STACK_OFFSET
-=
-0
-;
-const
-int
 LARGEST_UNDERRUN_PROT
 =
 32

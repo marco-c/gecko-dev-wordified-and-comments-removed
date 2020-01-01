@@ -119,12 +119,6 @@ NJ_MAX_PARAMETERS
 define
 NJ_ALIGN_STACK
 8
-const
-int
-NJ_STACK_OFFSET
-=
-0
-;
 #
 define
 NJ_CONSTANT_POOLS
