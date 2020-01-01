@@ -8396,12 +8396,6 @@ cmmfResponse
 =
 nsnull
 ;
-char
-*
-retString
-=
-nsnull
-;
 CMMFCertRepContent
 *
 certRepContent
@@ -8922,11 +8916,6 @@ currResponse
 )
 ;
 }
-retString
-=
-"
-"
-;
 caPubs
 =
 CMMF_CertRepContentGetCAPubs
@@ -9178,9 +9167,8 @@ aReturn
 .
 Assign
 (
-NS_ConvertASCIItoUTF16
+EmptyString
 (
-retString
 )
 )
 ;

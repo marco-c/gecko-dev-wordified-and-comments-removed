@@ -609,6 +609,7 @@ typedef
 struct
 curveNameTagPairStr
 {
+const
 char
 *
 curveName
@@ -1082,6 +1083,7 @@ SECKEYECParams
 *
 decode_ec_params
 (
+const
 char
 *
 curve

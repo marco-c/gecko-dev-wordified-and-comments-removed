@@ -51,6 +51,7 @@ SECKEYECParams
 *
 decode_ec_params
 (
+const
 char
 *
 curve
