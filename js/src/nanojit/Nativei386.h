@@ -1050,7 +1050,8 @@ canClobberCCs
 void
 asm_stkarg
 (
-LInsp
+LIns
+*
 p
 int32_t
 &
@@ -1061,7 +1062,8 @@ stkd
 void
 asm_farg
 (
-LInsp
+LIns
+*
 int32_t
 &
 stkd
@@ -1073,7 +1075,8 @@ asm_arg
 (
 ArgType
 ty
-LInsp
+LIns
+*
 p
 Register
 r
@@ -1086,7 +1089,8 @@ stkd
 void
 asm_pusharg
 (
-LInsp
+LIns
+*
 )
 ;
 \

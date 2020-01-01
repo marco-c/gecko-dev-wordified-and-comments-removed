@@ -612,7 +612,8 @@ Assembler
 :
 nFragExit
 (
-LInsp
+LIns
+*
 guard
 )
 {
@@ -760,7 +761,8 @@ Assembler
 :
 asm_call
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -1372,7 +1374,8 @@ Assembler
 :
 asm_restore
 (
-LInsp
+LIns
+*
 i
 Register
 r
@@ -1776,7 +1779,8 @@ Assembler
 :
 asm_load64
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -1981,11 +1985,13 @@ asm_store64
 (
 LOpcode
 op
-LInsp
+LIns
+*
 value
 int
 dr
-LInsp
+LIns
+*
 base
 )
 {
@@ -2321,7 +2327,8 @@ asm_branch
 (
 bool
 branchOnFalse
-LInsp
+LIns
+*
 cond
 NIns
 *
@@ -2818,7 +2825,8 @@ underrunProtect
 12
 )
 ;
-LInsp
+LIns
+*
 lhs
 =
 cond
@@ -2828,7 +2836,8 @@ oprnd1
 (
 )
 ;
-LInsp
+LIns
+*
 rhs
 =
 cond
@@ -2958,7 +2967,8 @@ Assembler
 :
 asm_condd
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -3090,7 +3100,8 @@ Assembler
 :
 asm_cond
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -3282,7 +3293,8 @@ Assembler
 :
 asm_arith
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -3301,7 +3313,8 @@ opcode
 (
 )
 ;
-LInsp
+LIns
+*
 lhs
 =
 ins
@@ -3311,7 +3324,8 @@ oprnd1
 (
 )
 ;
-LInsp
+LIns
+*
 rhs
 =
 ins
@@ -3866,7 +3880,8 @@ Assembler
 :
 asm_neg_not
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -3974,7 +3989,8 @@ Assembler
 :
 asm_load32
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -4122,7 +4138,8 @@ Assembler
 :
 asm_cmov
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -4410,7 +4427,8 @@ Assembler
 :
 asm_param
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -4453,7 +4471,8 @@ Assembler
 :
 asm_immi
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -4509,7 +4528,8 @@ Assembler
 :
 asm_immd
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -4650,7 +4670,8 @@ Assembler
 :
 asm_fneg
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -4717,7 +4738,8 @@ Assembler
 :
 asm_fop
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -4845,7 +4867,8 @@ Assembler
 :
 asm_i2d
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -4896,7 +4919,8 @@ Assembler
 :
 asm_ui2d
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -5015,7 +5039,8 @@ Assembler
 :
 asm_d2i
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -5458,7 +5483,8 @@ Assembler
 :
 asm_binop_rhs_reg
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -5563,7 +5589,8 @@ Assembler
 :
 asm_ret
 (
-LInsp
+LIns
+*
 ins
 )
 {

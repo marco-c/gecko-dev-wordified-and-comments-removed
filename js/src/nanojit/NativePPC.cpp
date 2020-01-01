@@ -3768,7 +3768,8 @@ argTypes
 j
 ]
 ;
-LInsp
+LIns
+*
 arg
 =
 ins
@@ -3922,7 +3923,8 @@ asm_regarg
 (
 ArgType
 ty
-LInsp
+LIns
+*
 p
 Register
 r
@@ -4317,7 +4319,8 @@ opcode
 (
 )
 ;
-LInsp
+LIns
+*
 lhs
 =
 ins
@@ -4327,7 +4330,8 @@ oprnd1
 (
 )
 ;
-LInsp
+LIns
+*
 rhs
 =
 ins
@@ -4839,7 +4843,8 @@ opcode
 (
 )
 ;
-LInsp
+LIns
+*
 lhs
 =
 ins
@@ -4849,7 +4854,8 @@ oprnd1
 (
 )
 ;
-LInsp
+LIns
+*
 rhs
 =
 ins
@@ -5252,7 +5258,8 @@ Assembler
 :
 asm_d2i
 (
-LInsp
+LIns
+*
 )
 {
 NanoAssertMsg
@@ -6229,7 +6236,8 @@ Assembler
 :
 asm_cmov
 (
-LInsp
+LIns
+*
 ins
 )
 {

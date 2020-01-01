@@ -1772,7 +1772,8 @@ Assembler
 :
 getBaseReg
 (
-LInsp
+LIns
+*
 base
 int
 &
@@ -2588,7 +2589,8 @@ Assembler
 :
 asm_maybe_spill
 (
-LInsp
+LIns
+*
 ins
 bool
 pop
@@ -3211,7 +3213,8 @@ Assembler
 :
 asm_exit
 (
-LInsp
+LIns
+*
 guard
 )
 {
@@ -3310,7 +3313,8 @@ Assembler
 :
 asm_leave_trace
 (
-LInsp
+LIns
+*
 guard
 )
 {
@@ -5870,7 +5874,8 @@ Assembler
 :
 asm_jmp
 (
-LInsp
+LIns
+*
 ins
 InsList
 &
@@ -5953,7 +5958,8 @@ countlir_jmp
 (
 )
 ;
-LInsp
+LIns
+*
 to
 =
 ins
@@ -6061,7 +6067,8 @@ Assembler
 :
 asm_jcc
 (
-LInsp
+LIns
+*
 ins
 InsList
 &
@@ -6151,7 +6158,8 @@ countlir_jcc
 (
 )
 ;
-LInsp
+LIns
+*
 to
 =
 ins
@@ -6267,7 +6275,8 @@ Assembler
 :
 asm_jov
 (
-LInsp
+LIns
+*
 ins
 InsList
 &
@@ -6284,7 +6293,8 @@ opcode
 (
 )
 ;
-LInsp
+LIns
+*
 to
 =
 ins
@@ -6398,7 +6408,8 @@ Assembler
 :
 asm_x
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -6437,7 +6448,8 @@ Assembler
 :
 asm_xcc
 (
-LInsp
+LIns
+*
 ins
 )
 {
@@ -6679,7 +6691,8 @@ read
 )
 )
 {
-LInsp
+LIns
+*
 ins
 =
 currIns
@@ -6824,7 +6837,8 @@ countlir_live
 (
 )
 ;
-LInsp
+LIns
+*
 op1
 =
 ins
@@ -7066,7 +7080,8 @@ case
 LIR_hcalli
 :
 {
-LInsp
+LIns
+*
 op1
 =
 ins
@@ -9613,7 +9628,8 @@ assignParamRegs
 (
 )
 {
-LInsp
+LIns
+*
 state
 =
 _thisfrag
@@ -9642,7 +9658,8 @@ paramArg
 ]
 )
 ;
-LInsp
+LIns
+*
 param1
 =
 _thisfrag

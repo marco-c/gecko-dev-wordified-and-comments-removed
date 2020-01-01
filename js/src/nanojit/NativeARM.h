@@ -876,7 +876,8 @@ void
 asm_regarg
 (
 ArgType
-LInsp
+LIns
+*
 Register
 )
 ;
@@ -884,7 +885,8 @@ Register
 void
 asm_stkarg
 (
-LInsp
+LIns
+*
 p
 int
 stkd
@@ -963,7 +965,8 @@ asm_arg
 (
 ArgType
 ty
-LInsp
+LIns
+*
 arg
 Register
 &
@@ -977,7 +980,8 @@ stkd
 void
 asm_arg_64
 (
-LInsp
+LIns
+*
 arg
 Register
 &
