@@ -45,6 +45,7 @@ dom
 {
 class
 HTMLTitleElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

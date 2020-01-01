@@ -63,6 +63,7 @@ dom
 {
 class
 HTMLSharedObjectElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

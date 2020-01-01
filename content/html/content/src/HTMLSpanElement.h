@@ -63,6 +63,7 @@ dom
 {
 class
 HTMLSpanElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

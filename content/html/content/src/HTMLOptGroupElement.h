@@ -35,6 +35,7 @@ dom
 {
 class
 HTMLOptGroupElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

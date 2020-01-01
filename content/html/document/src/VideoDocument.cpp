@@ -70,6 +70,7 @@ dom
 {
 class
 VideoDocument
+MOZ_FINAL
 :
 public
 MediaDocument

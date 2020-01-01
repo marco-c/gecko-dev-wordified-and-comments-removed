@@ -50,6 +50,7 @@ nsMathMLElementBase
 ;
 class
 nsMathMLElement
+MOZ_FINAL
 :
 public
 nsMathMLElementBase

@@ -35,6 +35,7 @@ dom
 {
 class
 SVGDocument
+MOZ_FINAL
 :
 public
 XMLDocument

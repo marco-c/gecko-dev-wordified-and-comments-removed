@@ -60,6 +60,7 @@ HTMLTemplateElement
 ;
 class
 DocumentFragment
+MOZ_FINAL
 :
 public
 FragmentOrElement

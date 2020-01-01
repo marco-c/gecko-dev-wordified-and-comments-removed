@@ -52,6 +52,7 @@ dom
 {
 class
 HTMLMapElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

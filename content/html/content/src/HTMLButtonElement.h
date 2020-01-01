@@ -42,6 +42,7 @@ dom
 {
 class
 HTMLButtonElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLFormElement

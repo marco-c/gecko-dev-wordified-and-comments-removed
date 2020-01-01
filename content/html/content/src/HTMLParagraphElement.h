@@ -44,6 +44,7 @@ dom
 {
 class
 HTMLParagraphElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

@@ -42,6 +42,7 @@ dom
 {
 class
 HTMLMenuElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

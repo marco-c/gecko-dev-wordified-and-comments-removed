@@ -35,6 +35,7 @@ dom
 {
 class
 HTMLTableCaptionElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

@@ -44,6 +44,7 @@ dom
 {
 class
 HTMLLIElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

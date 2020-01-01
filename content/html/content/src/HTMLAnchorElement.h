@@ -53,6 +53,7 @@ dom
 {
 class
 HTMLAnchorElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

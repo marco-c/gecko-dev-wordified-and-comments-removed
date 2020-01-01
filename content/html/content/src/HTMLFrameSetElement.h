@@ -63,6 +63,7 @@ BeforeUnloadEventHandlerNonNull
 ;
 class
 HTMLFrameSetElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

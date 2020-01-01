@@ -42,6 +42,7 @@ dom
 {
 class
 HTMLTableSectionElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

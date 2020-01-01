@@ -44,6 +44,7 @@ dom
 {
 class
 HTMLPreElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

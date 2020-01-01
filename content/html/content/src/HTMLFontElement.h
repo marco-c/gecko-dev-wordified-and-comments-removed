@@ -35,6 +35,7 @@ dom
 {
 class
 HTMLFontElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

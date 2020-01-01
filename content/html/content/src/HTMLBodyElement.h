@@ -108,6 +108,7 @@ mPart
 ;
 class
 HTMLBodyElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

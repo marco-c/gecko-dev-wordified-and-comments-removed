@@ -39,6 +39,7 @@ dom
 {
 class
 XMLStylesheetProcessingInstruction
+MOZ_FINAL
 :
 public
 ProcessingInstruction

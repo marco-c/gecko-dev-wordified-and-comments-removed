@@ -56,6 +56,7 @@ HTMLSelectElement
 ;
 class
 HTMLOptionElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

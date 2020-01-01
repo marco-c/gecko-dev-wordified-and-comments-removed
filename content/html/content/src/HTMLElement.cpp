@@ -31,6 +31,7 @@ dom
 {
 class
 HTMLElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

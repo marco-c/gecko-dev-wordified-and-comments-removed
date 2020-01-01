@@ -344,6 +344,7 @@ mGuard
 ;
 class
 HTMLSelectElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLFormElement

@@ -49,6 +49,7 @@ dom
 {
 class
 ImageDocument
+MOZ_FINAL
 :
 public
 MediaDocument

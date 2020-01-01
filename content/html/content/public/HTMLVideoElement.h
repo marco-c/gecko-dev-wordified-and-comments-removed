@@ -57,6 +57,7 @@ dom
 {
 class
 HTMLVideoElement
+MOZ_FINAL
 :
 public
 HTMLMediaElement

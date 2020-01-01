@@ -42,6 +42,7 @@ dom
 {
 class
 HTMLModElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

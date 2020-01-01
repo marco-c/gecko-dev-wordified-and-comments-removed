@@ -38,6 +38,7 @@ Visitor
 ;
 class
 HTMLMenuItemElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

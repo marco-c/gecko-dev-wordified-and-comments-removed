@@ -132,6 +132,7 @@ nsFormControlList
 ;
 class
 HTMLFormElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

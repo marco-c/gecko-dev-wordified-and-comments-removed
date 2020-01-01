@@ -47,6 +47,7 @@ dom
 {
 class
 HTMLHRElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

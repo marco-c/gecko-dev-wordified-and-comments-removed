@@ -35,6 +35,7 @@ dom
 {
 class
 HTMLMetaElement
+MOZ_FINAL
 :
 public
 nsGenericHTMLElement

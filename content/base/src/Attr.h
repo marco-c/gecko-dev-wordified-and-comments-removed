@@ -84,6 +84,7 @@ dom
 {
 class
 Attr
+MOZ_FINAL
 :
 public
 nsIAttribute

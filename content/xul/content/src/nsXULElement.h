@@ -1256,6 +1256,7 @@ nsScriptEventHandlerOwnerTearoff
 ;
 class
 nsXULElement
+MOZ_FINAL
 :
 public
 nsStyledElement
