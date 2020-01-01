@@ -36,7 +36,7 @@ aType
 )
 {
 }
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 nsMediaPluginDecoder
 :

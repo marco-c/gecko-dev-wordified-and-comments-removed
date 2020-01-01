@@ -141,7 +141,7 @@ return
 nullptr
 ;
 }
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 CreateStateMachine
 (

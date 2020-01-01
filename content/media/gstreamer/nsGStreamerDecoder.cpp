@@ -19,7 +19,7 @@ nsGStreamerDecoder
 .
 h
 "
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 nsGStreamerDecoder
 :
