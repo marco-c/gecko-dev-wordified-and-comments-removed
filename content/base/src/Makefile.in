@@ -615,6 +615,10 @@ nsFrameLoader
 .
 cpp
 \
+nsFormData
+.
+cpp
+\
 nsGenConImageContent
 .
 cpp

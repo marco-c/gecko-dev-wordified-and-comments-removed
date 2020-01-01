@@ -4656,7 +4656,7 @@ self
 UNIXISH
 :
 #
-SEGV
+ABRT
 will
 get
 picked
@@ -4676,7 +4676,7 @@ proc
 pid
 signal
 .
-SIGSEGV
+SIGABRT
 )
 return
 elif

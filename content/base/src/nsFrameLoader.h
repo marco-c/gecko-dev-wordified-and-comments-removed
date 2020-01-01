@@ -397,6 +397,16 @@ nsIURI
 aURI
 )
 ;
+void
+FireErrorEvent
+(
+)
+;
+nsresult
+ReallyStartLoadingInternal
+(
+)
+;
 #
 ifdef
 MOZ_IPC

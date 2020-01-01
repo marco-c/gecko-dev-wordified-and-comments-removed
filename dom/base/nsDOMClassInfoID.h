@@ -362,6 +362,7 @@ eDOMClassInfo_PopStateEvent_id
 eDOMClassInfo_EventListenerInfo_id
 eDOMClassInfo_TransitionEvent_id
 eDOMClassInfo_ContentFrameMessageManager_id
+eDOMClassInfo_FormData_id
 eDOMClassInfoIDCount
 }
 ;
