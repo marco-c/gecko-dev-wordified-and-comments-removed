@@ -1856,7 +1856,10 @@ automation
 .
 Process
 (
+[
 xpcshell
+]
++
 args
 env
 =
