@@ -520,6 +520,10 @@ mozqwidget
 .
 cpp
 \
+mozSwipeGesture
+.
+cpp
+\
 nsSound
 .
 cpp
