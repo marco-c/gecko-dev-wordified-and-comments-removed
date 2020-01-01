@@ -496,6 +496,10 @@ ImageData
 .
 cpp
 \
+WebGLExtensionCompressedTextureS3TC
+.
+cpp
+\
 (
 NULL
 )
