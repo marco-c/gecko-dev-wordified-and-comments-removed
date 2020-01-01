@@ -2257,7 +2257,9 @@ Browser
 .
 selectedBrowser
 .
-currentURI
+contentDocument
+.
+documentURIObject
 ;
 switch
 (
