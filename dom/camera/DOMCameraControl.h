@@ -98,8 +98,6 @@ onSuccess
 nsICameraErrorCallback
 *
 onError
-uint64_t
-aWindowId
 )
 ;
 nsresult
@@ -113,13 +111,6 @@ onSuccess
 nsICameraErrorCallback
 *
 onError
-uint64_t
-aWindowId
-)
-;
-void
-Shutdown
-(
 )
 ;
 protected
