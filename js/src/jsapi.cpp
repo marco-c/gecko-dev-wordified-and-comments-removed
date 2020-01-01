@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ThreadLocal
 .
 h
@@ -15829,7 +15838,7 @@ AutoHoldCompartment
 JSCompartment
 *
 compartment
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 holdp
@@ -15841,7 +15850,7 @@ compartment
 hold
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 *
 holdp
@@ -15866,7 +15875,7 @@ bool
 *
 holdp
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 JS_PUBLIC_API
@@ -25322,7 +25331,7 @@ AutoLastFrameCheck
 JSContext
 *
 cx
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 cx
@@ -25335,7 +25344,7 @@ JS_ASSERT
 cx
 )
 ;
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 ~
@@ -25383,7 +25392,7 @@ JSContext
 *
 cx
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 #

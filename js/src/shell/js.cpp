@@ -61,6 +61,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -16707,7 +16716,7 @@ char
 *
 ptr
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 FreeOnReturn
 (
 JSContext
@@ -16719,7 +16728,7 @@ char
 ptr
 =
 NULL
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 cx
@@ -16731,7 +16740,7 @@ ptr
 ptr
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 void

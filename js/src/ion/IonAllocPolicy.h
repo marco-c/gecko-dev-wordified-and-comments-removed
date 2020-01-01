@@ -7,6 +7,15 @@ jsion_ion_alloc_policy_h__
 #
 include
 "
+mozilla
+/
+GuardObjects
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -217,7 +226,7 @@ cx
 TempAllocator
 *
 temp
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 AutoGCRooter
@@ -230,7 +239,7 @@ temp
 temp
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 friend
@@ -259,7 +268,7 @@ TempAllocator
 *
 temp
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
