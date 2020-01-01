@@ -366,16 +366,6 @@ data
 gsnCache
 )
 ;
-if
-(
-cx
--
->
-runtime
--
->
-gcRegenShapes
-)
 js_PurgePropertyCache
 (
 cx

@@ -7653,7 +7653,7 @@ cx
 runtime
 -
 >
-gcRegenShapes
+gcRunning
 )
 {
 JSStackFrame
@@ -7689,18 +7689,6 @@ cx
 script
 )
 ;
-if
-(
-!
-cx
--
->
-runtime
--
->
-gcRunning
-)
-{
 #
 ifdef
 CHECK_SCRIPT_OWNER
@@ -7731,7 +7719,6 @@ script
 ;
 #
 endif
-}
 }
 }
 JS_free
