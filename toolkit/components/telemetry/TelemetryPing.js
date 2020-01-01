@@ -367,9 +367,7 @@ MEMORY_HEAP_ALLOCATED
 "
 heap
 -
-committed
--
-unused
+overhead
 "
 :
 "
@@ -378,9 +376,7 @@ MEMORY_HEAP_COMMITTED_UNUSED
 "
 heap
 -
-committed
--
-unused
+overhead
 -
 ratio
 "
