@@ -12131,7 +12131,7 @@ len
 *
 value
 ?
-PL_strlen
+strlen
 (
 *
 value
@@ -12236,7 +12236,7 @@ NPERR_GENERIC_ERROR
 *
 len
 =
-PL_strlen
+strlen
 (
 *
 value

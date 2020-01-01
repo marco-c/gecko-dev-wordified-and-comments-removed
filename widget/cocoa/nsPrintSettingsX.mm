@@ -491,7 +491,7 @@ dataWithBytes
 decodedData
 length
 :
-PL_strlen
+strlen
 (
 decodedData
 )

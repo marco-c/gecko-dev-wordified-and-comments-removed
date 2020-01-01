@@ -861,7 +861,7 @@ mDecoder
 int32_t
 srcLength
 =
-PL_strlen
+strlen
 (
 src
 )

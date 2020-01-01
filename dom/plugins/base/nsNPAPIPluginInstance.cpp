@@ -1106,7 +1106,7 @@ char
 )
 PR_Malloc
 (
-PL_strlen
+strlen
 (
 aMIMEType
 )
@@ -7928,7 +7928,7 @@ true
 ;
 if
 (
-PL_strlen
+strlen
 (
 paramValues
 [

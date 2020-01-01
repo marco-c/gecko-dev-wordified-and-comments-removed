@@ -560,7 +560,7 @@ aSubstring
 size_t
 substrLen
 =
-PL_strlen
+strlen
 (
 aSubstring
 )

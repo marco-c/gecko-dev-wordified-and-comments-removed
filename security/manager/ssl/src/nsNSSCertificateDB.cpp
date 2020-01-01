@@ -605,7 +605,7 @@ aDBkey
 (
 uint32_t
 )
-PL_strlen
+strlen
 (
 aDBkey
 )
@@ -5999,7 +5999,7 @@ _retval
 uint32_t
 len
 =
-PL_strlen
+strlen
 (
 base64
 )

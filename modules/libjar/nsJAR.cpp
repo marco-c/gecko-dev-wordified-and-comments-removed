@@ -1916,7 +1916,7 @@ nullptr
 {
 length
 =
-PL_strlen
+strlen
 (
 *
 src

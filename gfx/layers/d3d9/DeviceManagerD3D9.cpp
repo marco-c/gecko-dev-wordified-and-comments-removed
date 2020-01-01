@@ -1032,7 +1032,7 @@ nvumdshim
 .
 dll
 "
-PL_strlen
+strlen
 (
 ident
 .

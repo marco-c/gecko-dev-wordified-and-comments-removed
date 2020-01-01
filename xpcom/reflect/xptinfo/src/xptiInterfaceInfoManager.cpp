@@ -1489,7 +1489,7 @@ args
 {
 array
 prefix
-PL_strlen
+strlen
 (
 prefix
 )

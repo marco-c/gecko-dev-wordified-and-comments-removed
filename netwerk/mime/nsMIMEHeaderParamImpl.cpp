@@ -3279,7 +3279,7 @@ aHeaderVal
 Is7bitNonAsciiString
 (
 aHeaderVal
-PL_strlen
+strlen
 (
 aHeaderVal
 )

@@ -358,7 +358,7 @@ return
 int
 n
 =
-PL_strlen
+strlen
 (
 name
 )
@@ -1024,12 +1024,12 @@ n
 PLUGIN_MAX_LEN_OF_TMP_ARR
 -
 (
-PL_strlen
+strlen
 (
 sonameListToSave
 )
 +
-PL_strlen
+strlen
 (
 p
 )
@@ -1079,7 +1079,7 @@ arrayOfLibs
 i
 ]
 [
-PL_strlen
+strlen
 (
 arrayOfLibs
 [
@@ -1108,7 +1108,7 @@ p
 &
 sonameListToSave
 [
-PL_strlen
+strlen
 (
 sonameListToSave
 )

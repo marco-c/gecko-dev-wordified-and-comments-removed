@@ -1257,7 +1257,7 @@ length
 ;
 length
 =
-PL_strlen
+strlen
 (
 key
 )
