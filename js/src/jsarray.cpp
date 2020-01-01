@@ -12466,7 +12466,7 @@ InitArrayTypes
 cx
 ntype
 vector
-length
+initlen
 )
 )
 return
