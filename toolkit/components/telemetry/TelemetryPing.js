@@ -2593,11 +2593,6 @@ e
 )
 {
 }
-if
-(
-recordSuccess
-)
-{
 let
 hping
 =
@@ -2641,7 +2636,6 @@ Date
 startTime
 )
 ;
-}
 if
 (
 success

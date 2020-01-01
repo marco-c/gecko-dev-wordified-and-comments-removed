@@ -1415,7 +1415,7 @@ test
 -
 ping
 "
-1
+2
 )
 ;
 Services
@@ -1643,7 +1643,7 @@ saved
 -
 session
 "
-2
+3
 )
 ;
 }
@@ -1669,7 +1669,7 @@ test
 -
 ping
 "
-2
+4
 )
 ;
 gFinished
