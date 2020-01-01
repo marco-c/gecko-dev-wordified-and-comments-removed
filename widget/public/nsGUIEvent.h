@@ -426,6 +426,14 @@ NS_WINDOW_START
 )
 #
 define
+NS_WILL_PAINT
+(
+NS_WINDOW_START
++
+29
+)
+#
+define
 NS_PAINT
 (
 NS_WINDOW_START
