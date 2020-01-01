@@ -479,7 +479,6 @@ qualifiedName
 ;
 [
 Creator
-Throws
 ]
 DocumentFragment
 createDocumentFragment
