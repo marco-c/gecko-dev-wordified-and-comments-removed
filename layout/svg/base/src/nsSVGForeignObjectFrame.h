@@ -435,6 +435,8 @@ aFlags
 void
 FlushDirtyRegion
 (
+PRUint32
+aFlags
 )
 ;
 PRBool

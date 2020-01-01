@@ -628,6 +628,7 @@ aY
 ;
 FlushDirtyRegion
 (
+aFlags
 )
 ;
 }
@@ -1789,6 +1790,7 @@ else
 {
 FlushDirtyRegion
 (
+0
 )
 ;
 }
@@ -2663,6 +2665,7 @@ PR_FALSE
 ;
 FlushDirtyRegion
 (
+0
 )
 ;
 }
@@ -2785,6 +2788,8 @@ nsSVGForeignObjectFrame
 :
 FlushDirtyRegion
 (
+PRUint32
+aFlags
 )
 {
 if
@@ -2857,7 +2862,7 @@ mSameDocDirtyRegion
 GetBounds
 (
 )
-0
+aFlags
 )
 ;
 InvalidateDirtyRect
@@ -2868,6 +2873,8 @@ mSubDocDirtyRegion
 GetBounds
 (
 )
+aFlags
+|
 INVALIDATE_CROSS_DOC
 )
 ;
