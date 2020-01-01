@@ -502,14 +502,6 @@ _TEST_FILES
 +
 =
 \
-test_access_control
-.
-html
-\
-file_access_controls
-.
-html
-\
 test_bug448534
 .
 html

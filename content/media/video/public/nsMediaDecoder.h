@@ -377,12 +377,6 @@ Resume
 =
 0
 ;
-nsHTMLMediaElement
-*
-GetMediaElement
-(
-)
-;
 protected
 :
 nsresult

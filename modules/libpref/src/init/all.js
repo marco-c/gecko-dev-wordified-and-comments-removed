@@ -625,16 +625,6 @@ triple_click_selects_paragraph
 true
 )
 ;
-pref
-(
-"
-media
-.
-enforce_same_site_origin
-"
-false
-)
-;
 #
 ifdef
 MOZ_OGG
