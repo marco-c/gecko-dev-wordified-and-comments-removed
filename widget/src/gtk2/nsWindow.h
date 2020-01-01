@@ -1106,7 +1106,13 @@ void
 )
 ;
 PRBool
-IMEIsEnabled
+IMEIsEnabledState
+(
+void
+)
+;
+PRBool
+IMEIsEditableState
 (
 void
 )
@@ -1141,6 +1147,10 @@ mContext
 ;
 GtkIMContext
 *
+mSimpleContext
+;
+GtkIMContext
+*
 mDummyContext
 ;
 nsWindow
@@ -1165,6 +1175,10 @@ aOwner
 )
 {
 mContext
+=
+nsnull
+;
+mSimpleContext
 =
 nsnull
 ;
