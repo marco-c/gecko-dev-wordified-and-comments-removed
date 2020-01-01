@@ -1486,6 +1486,16 @@ openConnectScreen
 gBrowser
 )
 "
+disabled
+=
+"
+true
+"
+hidden
+=
+"
+true
+"
 /
 >
 <
