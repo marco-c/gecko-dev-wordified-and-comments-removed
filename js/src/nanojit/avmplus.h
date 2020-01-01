@@ -258,10 +258,6 @@ define
 NJ_VERBOSE
 1
 #
-define
-NJ_PROFILE
-1
-#
 include
 <
 stdarg
