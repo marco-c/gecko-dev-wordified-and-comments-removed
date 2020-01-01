@@ -894,11 +894,15 @@ nsExec
 :
 Exec
 "
+\
+"
 INSTDIR
 \
 maintenanceservice_installer
 .
 exe
+\
+"
 "
 {
 EndIf
