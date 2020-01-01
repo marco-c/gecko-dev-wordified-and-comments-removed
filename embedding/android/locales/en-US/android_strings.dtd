@@ -1,14 +1,6 @@
 <
 !
 ENTITY
-splash_screen_loading
-"
-Loading
-"
->
-<
-!
-ENTITY
 splash_firstrun
 "
 Setting
