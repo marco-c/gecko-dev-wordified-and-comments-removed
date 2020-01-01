@@ -121,7 +121,6 @@ __ARM_ARCH_5TE__
 define
 NJ_COMPILER_ARM_ARCH
 5
-;
 #
 elif
 defined
