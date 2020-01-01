@@ -3822,15 +3822,7 @@ mDXVA2Manager
 CopyToImage
 (
 aSample
-nsIntSize
-(
 mPictureRegion
-.
-width
-mPictureRegion
-.
-height
-)
 mDecoder
 -
 >

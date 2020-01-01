@@ -93,9 +93,9 @@ IMFSample
 *
 aVideoSample
 const
-nsIntSize
+nsIntRect
 &
-aSize
+aRegion
 ImageContainer
 *
 aContainer
@@ -550,9 +550,9 @@ IMFSample
 *
 aSample
 const
-nsIntSize
+nsIntRect
 &
-aSize
+aRegion
 ImageContainer
 *
 aImageContainer
@@ -698,7 +698,7 @@ D3D9SurfaceImage
 Data
 (
 surface
-aSize
+aRegion
 )
 )
 ;
