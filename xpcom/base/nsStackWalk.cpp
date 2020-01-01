@@ -3113,6 +3113,9 @@ enumRes
 _EnumerateLoadedModules
 (
 aProcess
+(
+PENUMLOADED_MODULES_CALLBACK
+)
 callbackEspecial
 (
 PVOID
@@ -3317,6 +3320,9 @@ enumRes
 _EnumerateLoadedModules64
 (
 aProcess
+(
+PENUMLOADED_MODULES_CALLBACK64
+)
 callbackEspecial64
 (
 PVOID
