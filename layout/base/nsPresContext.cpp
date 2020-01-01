@@ -5081,6 +5081,12 @@ mFullZoom
 =
 =
 aZoom
+|
+|
+!
+IsDynamic
+(
+)
 )
 {
 return

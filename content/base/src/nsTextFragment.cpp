@@ -372,6 +372,11 @@ ReleaseText
 (
 )
 ;
+MOZ_COUNT_DTOR
+(
+nsTextFragment
+)
+;
 }
 void
 nsTextFragment
