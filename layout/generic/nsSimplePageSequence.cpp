@@ -925,7 +925,7 @@ inchInTwips
 =
 NS_INCHES_TO_TWIPS
 (
-1
+3
 .
 0
 )
