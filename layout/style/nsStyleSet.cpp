@@ -6669,7 +6669,7 @@ CurrentNode
 uint32_t
 flags
 =
-eSkipFlexItemStyleFixup
+eNoFlags
 ;
 if
 (
@@ -6695,6 +6695,14 @@ flags
 |
 =
 eDoAnimation
+;
+}
+else
+{
+flags
+|
+=
+eSkipFlexItemStyleFixup
 ;
 }
 return
@@ -6973,7 +6981,7 @@ CurrentNode
 uint32_t
 flags
 =
-eSkipFlexItemStyleFixup
+eNoFlags
 ;
 if
 (
@@ -6999,6 +7007,14 @@ flags
 |
 =
 eDoAnimation
+;
+}
+else
+{
+flags
+|
+=
+eSkipFlexItemStyleFixup
 ;
 }
 nsRefPtr
