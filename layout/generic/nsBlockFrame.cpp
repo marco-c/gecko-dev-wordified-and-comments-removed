@@ -5292,6 +5292,7 @@ baseline
 ;
 if
 (
+!
 nsLayoutUtils
 :
 :
@@ -5303,6 +5304,11 @@ baseline
 )
 )
 {
+baseline
+=
+0
+;
+}
 nsRect
 bbox
 =
@@ -5331,7 +5337,6 @@ SetRect
 bbox
 )
 ;
-}
 }
 ComputeFinalSize
 (
