@@ -108,7 +108,6 @@ const
 nsRect
 &
 aBounds
-const
 nsView
 *
 aParent

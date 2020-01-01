@@ -446,7 +446,6 @@ const
 nsRect
 &
 aBounds
-const
 nsView
 *
 aParent
@@ -470,14 +469,7 @@ v
 >
 SetParent
 (
-const_cast
-<
-nsView
-*
->
-(
 aParent
-)
 )
 ;
 v
