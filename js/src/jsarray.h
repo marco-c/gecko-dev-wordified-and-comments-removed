@@ -168,13 +168,14 @@ JSContext
 cx
 jsuint
 length
+const
 jsval
 *
 vector
-JSBool
+bool
 holey
 =
-JS_FALSE
+false
 )
 ;
 extern
