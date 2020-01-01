@@ -2870,7 +2870,7 @@ browser
 .
 download
 .
-defaultFolder
+dir
 "
 NS_GET_IID
 (
