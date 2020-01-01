@@ -315,9 +315,6 @@ print
 JSContext
 *
 cx
-FILE
-*
-out
 )
 ;
 #

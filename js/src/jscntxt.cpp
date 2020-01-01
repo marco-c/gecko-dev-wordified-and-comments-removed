@@ -5210,7 +5210,7 @@ compartment
 >
 types
 .
-print
+finish
 (
 cx
 *
