@@ -4439,6 +4439,11 @@ nsINSSComponent
 nssComponent
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+current
+)
+;
 nsAutoString
 key
 ;
@@ -4449,14 +4454,6 @@ nsresult
 rv
 =
 NS_OK
-;
-if
-(
-!
-current
-)
-return
-NS_ERROR_NULL_POINTER
 ;
 switch
 (
