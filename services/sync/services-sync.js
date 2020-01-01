@@ -47,7 +47,9 @@ com
 pref
 (
 "
-extensions
+browser
+.
+places
 .
 sync
 .
@@ -59,7 +61,9 @@ false
 pref
 (
 "
-extensions
+browser
+.
+places
 .
 sync
 .
