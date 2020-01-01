@@ -171,7 +171,7 @@ ImageContainer
 ;
 }
 namespace
-imagelib
+image
 {
 class
 imgDecodeWorker

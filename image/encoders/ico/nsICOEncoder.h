@@ -233,7 +233,7 @@ mContainedEncoder
 mozilla
 :
 :
-imagelib
+image
 :
 :
 IconFileHeader
@@ -242,7 +242,7 @@ mICOFileHeader
 mozilla
 :
 :
-imagelib
+image
 :
 :
 IconDirEntry

@@ -8,7 +8,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 struct
 BMPFILEHEADER

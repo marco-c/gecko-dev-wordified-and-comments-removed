@@ -30,7 +30,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 Decoder
 :

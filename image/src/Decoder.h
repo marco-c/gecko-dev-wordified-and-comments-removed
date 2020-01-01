@@ -22,7 +22,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 Decoder

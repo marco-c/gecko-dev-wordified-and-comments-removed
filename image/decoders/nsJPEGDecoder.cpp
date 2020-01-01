@@ -139,7 +139,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 #
 if

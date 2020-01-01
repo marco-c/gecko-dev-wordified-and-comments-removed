@@ -9,7 +9,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 Image
 :

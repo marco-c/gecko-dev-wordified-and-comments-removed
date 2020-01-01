@@ -135,7 +135,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 Image
@@ -183,7 +183,7 @@ aLoadGroup
 mozilla
 :
 :
-imagelib
+image
 :
 :
 Image
@@ -277,7 +277,7 @@ SetImage
 mozilla
 :
 :
-imagelib
+image
 :
 :
 Image
@@ -540,7 +540,7 @@ nsRefPtr
 mozilla
 :
 :
-imagelib
+image
 :
 :
 Image

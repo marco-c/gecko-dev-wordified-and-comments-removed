@@ -84,7 +84,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -97,7 +97,7 @@ namespace
 mozilla
 :
 :
-imagelib
+image
 ;
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
@@ -839,7 +839,7 @@ Shutdown
 mozilla
 :
 :
-imagelib
+image
 :
 :
 DiscardTracker

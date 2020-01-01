@@ -51,7 +51,7 @@ ImageContainer
 ;
 }
 namespace
-imagelib
+image
 {
 class
 SVGDocumentWrapper
