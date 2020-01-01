@@ -371,7 +371,7 @@ NoGuidForIdException
 NullCursorException
 ParentNotFoundException
 ;
-protected
+public
 boolean
 shouldIgnore
 (
