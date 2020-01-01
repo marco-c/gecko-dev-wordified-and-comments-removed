@@ -4506,7 +4506,10 @@ aDesiredSize
 aReflowState
 aStatus
 config
-PR_FALSE
+availableContentHeight
+=
+=
+NS_UNCONSTRAINEDSIZE
 &
 carriedOutBottomMargin
 colData
