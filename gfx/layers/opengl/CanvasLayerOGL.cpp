@@ -1115,7 +1115,9 @@ program
 >
 SetLayerTransform
 (
-mTransform
+GetEffectiveTransform
+(
+)
 )
 ;
 program

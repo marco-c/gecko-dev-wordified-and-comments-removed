@@ -47,7 +47,9 @@ MakeCurrent
 nsIntRect
 visibleRect
 =
-mVisibleRegion
+GetEffectiveVisibleRegion
+(
+)
 .
 GetBounds
 (
@@ -125,7 +127,9 @@ program
 >
 SetLayerTransform
 (
-mTransform
+GetEffectiveTransform
+(
+)
 )
 ;
 program
