@@ -5686,13 +5686,10 @@ ret
 +
 =
 "
+js_SetTraceableNativeFailed
+(
 cx
--
->
-builtinStatus
-|
-=
-JSBUILTIN_ERROR
+)
 ;
 \
 n
