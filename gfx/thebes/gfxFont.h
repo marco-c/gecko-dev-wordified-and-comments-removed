@@ -1858,6 +1858,14 @@ GlobalFontMatch
 aMatchData
 )
 ;
+void
+SearchAllFontsForChar
+(
+GlobalFontMatch
+*
+aMatchData
+)
+;
 virtual
 void
 ReadOtherFamilyNames
@@ -1906,7 +1914,7 @@ aPostscriptName
 )
 ;
 void
-ReadCMAP
+ReadAllCMAPs
 (
 )
 {
@@ -1995,7 +2003,7 @@ if
 mCharacterMapInitialized
 )
 {
-ReadCMAP
+ReadAllCMAPs
 (
 )
 ;

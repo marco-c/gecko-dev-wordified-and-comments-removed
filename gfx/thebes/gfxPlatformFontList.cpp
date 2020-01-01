@@ -2847,7 +2847,7 @@ continue
 familyEntry
 -
 >
-ReadCMAP
+ReadAllCMAPs
 (
 )
 ;
