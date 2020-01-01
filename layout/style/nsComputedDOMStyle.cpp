@@ -2529,7 +2529,7 @@ CSSValue
 nsComputedDOMStyle
 :
 :
-DoGetCssFloat
+DoGetFloat
 (
 )
 {
@@ -21888,7 +21888,7 @@ endif
 COMPUTED_STYLE_MAP_ENTRY
 (
 float
-CssFloat
+Float
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
