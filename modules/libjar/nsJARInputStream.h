@@ -42,10 +42,6 @@ mCurPos
 (
 0
 )
-mClosed
-(
-PR_FALSE
-)
 mInflate
 (
 nsnull
@@ -53,6 +49,10 @@ nsnull
 mDirectory
 (
 0
+)
+mClosed
+(
+PR_FALSE
 )
 {
 }

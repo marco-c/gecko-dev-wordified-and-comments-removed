@@ -270,13 +270,13 @@ mFontStyle
 (
 fontStyle
 )
-mFontEntry
-(
-aFontEntry
-)
 mATSUStyle
 (
 nsnull
+)
+mFontEntry
+(
+aFontEntry
 )
 mHasMirroring
 (

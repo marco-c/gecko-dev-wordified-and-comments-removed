@@ -697,10 +697,6 @@ mIsInlineTableEditingEnabled
 (
 PR_TRUE
 )
-mGridSize
-(
-0
-)
 mInfoXIncrement
 (
 20
@@ -708,6 +704,10 @@ mInfoXIncrement
 mInfoYIncrement
 (
 20
+)
+mGridSize
+(
+0
 )
 {
 }

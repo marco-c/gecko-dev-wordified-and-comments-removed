@@ -112,6 +112,12 @@ mReflowState
 (
 aReflowState
 )
+mOverflowTracker
+(
+aPresContext
+aFrame
+PR_FALSE
+)
 mPrevBottomMargin
 (
 )
@@ -126,12 +132,6 @@ mFlags
 mFloatBreakType
 (
 NS_STYLE_CLEAR_NONE
-)
-mOverflowTracker
-(
-aPresContext
-aFrame
-PR_FALSE
 )
 {
 SetFlag
