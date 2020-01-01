@@ -1,5 +1,12 @@
 #
 include
+"
+nsBuiltinDecoderStateMachine
+.
+h
+"
+#
+include
 <
 limits
 >
@@ -28,13 +35,6 @@ h
 include
 "
 nsBuiltinDecoderReader
-.
-h
-"
-#
-include
-"
-nsBuiltinDecoderStateMachine
 .
 h
 "
