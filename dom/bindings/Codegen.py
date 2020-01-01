@@ -676,6 +676,20 @@ self
 descriptor
 =
 descriptor
+        
+assert
+"
+Window
+"
+not
+in
+descriptor
+.
+interface
+.
+identifier
+.
+name
     
 def
 declare
@@ -734,7 +748,7 @@ JSCLASS_IS_DOMJSCLASS
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
-1
+2
 )
     
 %
