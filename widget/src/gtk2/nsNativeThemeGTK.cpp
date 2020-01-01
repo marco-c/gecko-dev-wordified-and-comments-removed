@@ -1000,7 +1000,10 @@ aState
 >
 isDefault
 =
-FALSE
+IsDefaultButton
+(
+aFrame
+)
 ;
 aState
 -
@@ -3899,6 +3902,15 @@ nsWidgetAtoms
 :
 :
 readonly
+|
+|
+aAttribute
+=
+=
+nsWidgetAtoms
+:
+:
+_default
 |
 |
 aAttribute
