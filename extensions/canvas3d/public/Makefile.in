@@ -429,6 +429,10 @@ nsICanvasRenderingContextGL
 .
 idl
 \
+nsICanvasRenderingContextGLBuffer
+.
+idl
+\
 nsICanvasRenderingContextGLWeb20
 .
 idl

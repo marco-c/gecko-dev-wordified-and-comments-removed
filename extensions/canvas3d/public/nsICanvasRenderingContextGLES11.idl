@@ -433,6 +433,13 @@ nsICanvasRenderingContextGL
 .
 idl
 "
+#
+include
+"
+nsICanvasRenderingContextGLBuffer
+.
+idl
+"
 interface
 nsIDOMHTMLElement
 ;
