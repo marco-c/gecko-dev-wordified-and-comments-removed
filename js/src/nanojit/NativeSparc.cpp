@@ -1680,11 +1680,11 @@ void
 )
 quad
 ;
-if
+NanoAssert
 (
 d
 )
-{
+;
 if
 (
 rmask
@@ -1712,7 +1712,6 @@ d
 FP
 )
 ;
-}
 }
 }
 void
@@ -1882,7 +1881,6 @@ db
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 if
@@ -4547,7 +4545,6 @@ ins
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 if

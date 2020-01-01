@@ -2704,7 +2704,6 @@ d
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 STR
@@ -4103,7 +4102,6 @@ d
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 }
@@ -4529,11 +4527,11 @@ void
 )
 quad
 ;
-if
+NanoAssert
 (
 d
 )
-{
+;
 if
 (
 _config
@@ -4650,7 +4648,6 @@ STMDB
 }
 }
 }
-}
 void
 Assembler
 :
@@ -4730,7 +4727,6 @@ rb
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 switch
@@ -5595,7 +5591,6 @@ deprecated_getReg
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 if
@@ -5611,6 +5606,10 @@ rr
 )
 )
 {
+if
+(
+d
+)
 asm_spill
 (
 rr

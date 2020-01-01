@@ -1019,7 +1019,6 @@ FpRegs
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 }
@@ -4173,11 +4172,11 @@ void
 )
 quad
 ;
-if
+NanoAssert
 (
 d
 )
-{
+;
 if
 (
 IsFpReg
@@ -4233,7 +4232,6 @@ d
 FP
 )
 ;
-}
 }
 }
 void
@@ -5618,7 +5616,6 @@ FpRegs
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 }

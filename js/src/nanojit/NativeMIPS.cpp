@@ -2922,7 +2922,6 @@ FP
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 TAG
@@ -3269,7 +3268,6 @@ deprecated_getReg
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 if
@@ -3283,6 +3281,10 @@ rr
 )
 )
 {
+if
+(
+d
+)
 asm_spill
 (
 rr
@@ -3497,7 +3499,6 @@ rbase
 deprecated_freeRsrcOf
 (
 ins
-false
 )
 ;
 if
@@ -7354,11 +7355,11 @@ USE
 quad
 )
 ;
-if
+NanoAssert
 (
 d
 )
-{
+;
 if
 (
 IsFpReg
@@ -7397,7 +7398,6 @@ d
 FP
 )
 ;
-}
 }
 TAG
 (
