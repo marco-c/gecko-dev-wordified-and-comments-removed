@@ -615,6 +615,16 @@ xul
 (
 NULL
 )
+_TEST_FILES
++
+=
+test_bug565392
+.
+html
+\
+(
+NULL
+)
 endif
 endif
 ifeq
