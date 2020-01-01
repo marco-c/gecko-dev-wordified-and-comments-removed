@@ -1856,8 +1856,6 @@ do_timeout
 (
 0
 run_test7
-(
-)
 )
 ;
 }
