@@ -442,11 +442,14 @@ MODULE
 test_places
 XPCSHELL_TESTS
 =
+\
+autocomplete
+\
+bookmarks
+\
 queries
 \
 unit
-\
-bookmarks
 \
 (
 NULL
