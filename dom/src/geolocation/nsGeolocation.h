@@ -196,11 +196,6 @@ return
 mAllowed
 ;
 }
-void
-SetTimeoutTimer
-(
-)
-;
 ~
 nsGeolocationRequest
 (
@@ -220,6 +215,9 @@ mAllowed
 ;
 PRPackedBool
 mCleared
+;
+PRPackedBool
+mHasSentData
 ;
 nsCOMPtr
 <
