@@ -2419,7 +2419,7 @@ offmainthreadcomposition
 .
 enabled
 "
-true
+false
 )
 ;
 pref
