@@ -21403,7 +21403,9 @@ inDictionaryMode
 lastProp
 -
 >
-table
+hasTable
+(
+)
 )
 {
 uint32
@@ -21413,7 +21415,9 @@ last
 lastProp
 -
 >
-table
+getTable
+(
+)
 -
 >
 freelist
@@ -21583,7 +21587,9 @@ inDictionaryMode
 lastProp
 -
 >
-table
+hasTable
+(
+)
 )
 {
 uint32
@@ -21593,7 +21599,9 @@ last
 lastProp
 -
 >
-table
+getTable
+(
+)
 -
 >
 freelist
@@ -21790,7 +21798,9 @@ lastProperty
 )
 -
 >
-table
+getTable
+(
+)
 -
 >
 freelist
