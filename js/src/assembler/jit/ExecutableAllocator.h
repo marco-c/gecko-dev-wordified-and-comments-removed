@@ -318,6 +318,7 @@ JS_ASSERT_IF
 willDestroy
 m_refCount
 =
+=
 1
 )
 ;
@@ -544,15 +545,6 @@ i
 release
 (
 true
-)
-;
-JS_ASSERT
-(
-m_pools
-.
-empty
-(
-)
 )
 ;
 }
