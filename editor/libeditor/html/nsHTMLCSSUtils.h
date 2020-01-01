@@ -199,6 +199,12 @@ const
 nsAString
 *
 aAttribute
+const
+nsAString
+*
+aValue
+=
+nsnull
 )
 ;
 bool
@@ -214,6 +220,12 @@ const
 nsAString
 *
 aAttribute
+const
+nsAString
+*
+aValue
+=
+nsnull
 )
 ;
 nsresult
