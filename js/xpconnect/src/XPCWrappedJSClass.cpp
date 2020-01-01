@@ -2020,7 +2020,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 obj
 )

@@ -9708,7 +9708,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 obj
 )
@@ -13295,12 +13295,6 @@ sandbox
 return
 NS_ERROR_FAILURE
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 xpc
 :
 :
@@ -13587,7 +13581,7 @@ nsXPCComponents
 AttachComponentsObject
 (
 ccx
-ObjectScope
+GetObjectScope
 (
 sandbox
 )
@@ -18136,7 +18130,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 scopeObj
 )

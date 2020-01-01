@@ -16375,7 +16375,7 @@ AllCompartments
 inline
 XPCWrappedNativeScope
 *
-ObjectScope
+GetObjectScope
 (
 JSObject
 *

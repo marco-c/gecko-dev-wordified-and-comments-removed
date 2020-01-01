@@ -2244,7 +2244,7 @@ XPCWrappedNativeScope
 *
 betterScope
 =
-ObjectScope
+GetObjectScope
 (
 parent
 )
@@ -7737,11 +7737,11 @@ return
 ReparentWrapperIfFound
 (
 ccx
-ObjectScope
+GetObjectScope
 (
 parentGhost
 )
-ObjectScope
+GetObjectScope
 (
 realParent
 )
@@ -17372,7 +17372,7 @@ XPCWrappedNativeScope
 *
 newXpcScope
 =
-ObjectScope
+GetObjectScope
 (
 parent
 )

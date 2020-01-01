@@ -31070,7 +31070,7 @@ obj
 xpc
 :
 :
-ObjectScope
+GetObjectScope
 (
 obj
 )

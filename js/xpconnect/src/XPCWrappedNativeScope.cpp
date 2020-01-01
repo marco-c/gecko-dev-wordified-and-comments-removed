@@ -317,7 +317,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-ObjectScope
+GetObjectScope
 (
 aGlobal
 )
