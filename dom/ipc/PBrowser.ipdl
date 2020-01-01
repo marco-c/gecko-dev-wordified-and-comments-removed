@@ -547,6 +547,9 @@ mozilla
 :
 WindowsHandle
 ;
+using
+nscolor
+;
 namespace
 mozilla
 {
@@ -1281,6 +1284,12 @@ SetCursor
 (
 PRUint32
 value
+)
+;
+SetBackgroundColor
+(
+nscolor
+color
 )
 ;
 PContentPermissionRequest
