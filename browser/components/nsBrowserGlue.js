@@ -3772,10 +3772,12 @@ recentTagsTitle
 ;
 try
 {
-callback
+bmsvc
 .
-runBatched
+runInBatchMode
 (
+callback
+null
 )
 ;
 }

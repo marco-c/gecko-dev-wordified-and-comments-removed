@@ -391,10 +391,6 @@ mToolbarFolder
 PRInt32
 mBatchLevel
 ;
-PRLock
-*
-mLock
-;
 PRBool
 mBatchHasTransaction
 ;

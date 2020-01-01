@@ -927,10 +927,6 @@ EndUpdateBatch
 PRInt32
 mBatchLevel
 ;
-PRLock
-*
-mLock
-;
 PRBool
 mBatchHasTransaction
 ;
