@@ -324,14 +324,6 @@ program
 0
 )
 ;
-assert
-(
-_status
-=
-=
-finished
-)
-;
 const
 instr
 *

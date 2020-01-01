@@ -20,6 +20,9 @@ class
 SegCacheStore
 ;
 class
+SegCache
+;
+class
 CachedFace
 :
 public

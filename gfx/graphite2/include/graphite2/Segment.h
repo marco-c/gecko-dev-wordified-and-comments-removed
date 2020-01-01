@@ -118,11 +118,12 @@ gr_slatJShrink
 gr_slatJStep
 gr_slatJWeight
 gr_slatJWidth
-gr_slatUserDefn
+gr_slatSegSplit
 =
 gr_slatJStretch
 +
-30
+29
+gr_slatUserDefn
 gr_slatMax
 gr_slatNoEffect
 =

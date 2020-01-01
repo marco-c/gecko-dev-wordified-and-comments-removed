@@ -89,6 +89,9 @@ logFile
 ;
 return
 dbgout
+!
+=
+0
 ;
 #
 else
@@ -192,6 +195,18 @@ break
 ci
 .
 breakWeight
+(
+)
+<
+<
+"
+flags
+"
+<
+<
+ci
+.
+flags
 (
 )
 <
@@ -413,6 +428,8 @@ shift
 <
 Position
 (
+float
+(
 s
 .
 getAttr
@@ -421,6 +438,9 @@ getAttr
 gr_slatShiftX
 0
 )
+)
+float
+(
 s
 .
 getAttr
@@ -428,6 +448,7 @@ getAttr
 0
 gr_slatShiftY
 0
+)
 )
 )
 <

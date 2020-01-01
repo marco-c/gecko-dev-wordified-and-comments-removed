@@ -354,6 +354,16 @@ graphite2
 Types
 .
 h
+.
+.
+/
+include
+/
+graphite2
+/
+Log
+.
+h
 )
 file
 (

@@ -124,8 +124,9 @@ bool
 readGraphite
 (
 const
-void
+byte
 *
+const
 pSilf
 size_t
 lSilf

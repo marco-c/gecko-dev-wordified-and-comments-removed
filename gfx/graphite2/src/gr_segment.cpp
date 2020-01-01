@@ -768,7 +768,10 @@ justify
 (
 pSlot
 pFont
+float
+(
 width
+)
 justFlags
 (
 flags

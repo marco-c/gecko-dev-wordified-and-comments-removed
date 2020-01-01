@@ -3306,6 +3306,8 @@ size
 )
 <
 =
+size_t
+(
 _max_ref
 +
 m
@@ -3316,6 +3318,7 @@ slotMap
 .
 context
 (
+)
 )
 )
 {

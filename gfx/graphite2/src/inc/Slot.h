@@ -48,6 +48,9 @@ class
 Segment
 ;
 class
+SegCacheEntry
+;
+class
 Slot
 {
 enum
@@ -872,6 +875,14 @@ m_bidiLevel
 int16
 *
 m_userAttr
+;
+friend
+class
+SegCacheEntry
+;
+friend
+class
+Segment
 ;
 }
 ;

@@ -1394,6 +1394,10 @@ a
 )
 {
 return
+0
+!
+=
+(
 (
 1
 <
@@ -1416,6 +1420,7 @@ lcmask
 |
 lsmask
 )
+)
 ;
 }
 inline
@@ -1427,6 +1432,10 @@ a
 )
 {
 return
+0
+!
+=
+(
 (
 1
 <
@@ -1446,6 +1455,7 @@ CSmask
 ETmask
 |
 ENmask
+)
 )
 ;
 }
