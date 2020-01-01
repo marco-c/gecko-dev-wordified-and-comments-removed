@@ -666,11 +666,6 @@ getLayerController
 (
 )
 ;
-synchronized
-(
-controller
-)
-{
 PointF
 displayportOrigin
 =
@@ -769,7 +764,6 @@ abortPanZoomAnimation
 ;
 }
 }
-}
 catch
 (
 JSONException
@@ -814,6 +808,13 @@ int
 height
 String
 metadata
+)
+{
+synchronized
+(
+getLayerController
+(
+)
 )
 {
 try
@@ -871,6 +872,7 @@ endTransaction
 mTileLayer
 )
 ;
+}
 }
 }
 public
