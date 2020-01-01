@@ -1939,11 +1939,11 @@ export
 PATH
 =
 MOZ_PATH
-endif
-endif
 DLLFLAGS
 =
 DLLFLAGS
+endif
+endif
 #
 python
 options
