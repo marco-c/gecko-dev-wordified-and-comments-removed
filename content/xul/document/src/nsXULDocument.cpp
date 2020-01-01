@@ -6739,6 +6739,11 @@ RemoveElementFromRefMap
 aElement
 )
 ;
+RemoveFromIdTable
+(
+aElement
+)
+;
 if
 (
 aElement
