@@ -73,7 +73,7 @@ langGroup
 =
 ccManager
 .
-getCharsetLangGroup
+getCharsetLangGroupRaw
 (
 decoder
 )
