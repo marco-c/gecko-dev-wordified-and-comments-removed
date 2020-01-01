@@ -3264,7 +3264,7 @@ requestDepth
 #
 endif
 volatile
-jsword
+int32
 interruptFlags
 ;
 JSGCFreeLists
@@ -4426,7 +4426,7 @@ functionNamespaceObject
 ifdef
 JS_THREADSAFE
 volatile
-jsword
+int32
 interruptCounter
 ;
 #
@@ -10423,10 +10423,7 @@ cx
 namespace
 js
 {
-JS_FRIEND_API
-(
 void
-)
 TriggerOperationCallback
 (
 JSContext
