@@ -2900,9 +2900,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-WINCE
 pref
 (
 "
@@ -2917,8 +2914,6 @@ devPixelsPerPx
 "
 )
 ;
-#
-endif
 pref
 (
 "
