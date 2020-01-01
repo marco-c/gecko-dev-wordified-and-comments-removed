@@ -7,14 +7,14 @@ jspubtd_h___
 #
 include
 "
-jscompat
+jstypes
 .
 h
 "
 #
 include
 "
-jsutil
+jscompat
 .
 h
 "
