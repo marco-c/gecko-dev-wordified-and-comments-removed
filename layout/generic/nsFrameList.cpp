@@ -242,6 +242,9 @@ ptr
 "
 )
 ;
+#
+ifdef
+DEBUG_FRAME_LIST
 NS_PRECONDITION
 (
 ContainsFrame
@@ -254,6 +257,8 @@ list
 "
 )
 ;
+#
+endif
 nsIFrame
 *
 nextFrame
@@ -454,6 +459,9 @@ list
 "
 )
 ;
+#
+ifdef
+DEBUG_FRAME_LIST
 NS_PRECONDITION
 (
 ContainsFrame
@@ -466,6 +474,8 @@ list
 "
 )
 ;
+#
+endif
 nsIFrame
 *
 tail
@@ -726,6 +736,9 @@ parent
 "
 )
 ;
+#
+ifdef
+DEBUG_FRAME_LIST
 NS_ASSERTION
 (
 !
@@ -747,6 +760,8 @@ list
 "
 )
 ;
+#
+endif
 nsIFrame
 *
 firstNewFrame
@@ -824,15 +839,10 @@ mLastChild
 lastNewFrame
 ;
 }
-#
-ifdef
-DEBUG
 VerifyList
 (
 )
 ;
-#
-endif
 aFrameList
 .
 Clear
@@ -2845,7 +2855,7 @@ frame
 endif
 #
 ifdef
-DEBUG
+DEBUG_FRAME_LIST
 void
 nsFrameList
 :
