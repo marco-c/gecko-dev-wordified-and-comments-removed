@@ -2818,12 +2818,14 @@ height
 =
 outsideBoxSizing
 ;
+computedSize
+.
+height
+=
 aReflowState
 .
-ApplyMinMaxConstraints
+ApplyMinMaxHeight
 (
-nsnull
-&
 computedSize
 .
 height
