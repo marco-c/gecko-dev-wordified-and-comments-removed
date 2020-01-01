@@ -5216,7 +5216,7 @@ nsSVGElement
 :
 GetOwnerSVGElement
 (
-nsIDOMSVGSVGElement
+nsIDOMSVGElement
 *
 *
 aOwnerSVGElement

@@ -99,7 +99,7 @@ nsIDOMDocument
 idl
 "
 interface
-nsIDOMSVGSVGElement
+nsIDOMSVGElement
 ;
 [
 scriptable
@@ -128,7 +128,7 @@ domain
 ;
 readonly
 attribute
-nsIDOMSVGSVGElement
+nsIDOMSVGElement
 rootElement
 ;
 }

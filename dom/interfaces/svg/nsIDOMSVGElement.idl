@@ -99,9 +99,6 @@ nsIDOMElement
 idl
 "
 interface
-nsIDOMSVGSVGElement
-;
-interface
 nsIDOMSVGAnimatedString
 ;
 interface
@@ -142,7 +139,7 @@ on
 setting
 readonly
 attribute
-nsIDOMSVGSVGElement
+nsIDOMSVGElement
 ownerSVGElement
 ;
 readonly

@@ -168,10 +168,6 @@ nsIDOMSVGRect
 .
 idl
 \
-nsIDOMSVGSVGElement
-.
-idl
-\
 nsIDOMSVGStringList
 .
 idl
