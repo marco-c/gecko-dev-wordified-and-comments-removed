@@ -1662,7 +1662,7 @@ InitJavaProperties
 virtual
 NS_HIDDEN_
 (
-void
+JSObject
 *
 )
 GetCachedXBLPrototypeHandler
