@@ -61,13 +61,6 @@ CSSCalc
 .
 h
 "
-#
-include
-"
-nsCSSStruct
-.
-h
-"
 namespace
 css
 =

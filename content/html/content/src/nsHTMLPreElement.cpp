@@ -47,13 +47,6 @@ nsRuleData
 .
 h
 "
-#
-include
-"
-nsCSSStruct
-.
-h
-"
 class
 nsHTMLPreElement
 :

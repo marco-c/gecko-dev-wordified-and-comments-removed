@@ -7,13 +7,6 @@ nsCSSDataBlock_h__
 #
 include
 "
-nsCSSStruct
-.
-h
-"
-#
-include
-"
 nsCSSProps
 .
 h

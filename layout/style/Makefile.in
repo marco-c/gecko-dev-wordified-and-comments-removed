@@ -492,10 +492,6 @@ nsCSSStyleSheet
 .
 h
 \
-nsCSSStruct
-.
-h
-\
 nsCSSValue
 .
 h
@@ -683,10 +679,6 @@ nsCSSRules
 cpp
 \
 nsCSSScanner
-.
-cpp
-\
-nsCSSStruct
 .
 cpp
 \

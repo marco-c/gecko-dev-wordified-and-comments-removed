@@ -47,13 +47,6 @@ h
 #
 include
 "
-nsCSSStruct
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

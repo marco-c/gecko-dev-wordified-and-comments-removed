@@ -34,9 +34,6 @@ class
 nsIStyleRule
 ;
 struct
-nsCSSStruct
-;
-struct
 nsCSSValueList
 ;
 class
