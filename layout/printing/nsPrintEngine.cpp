@@ -1494,10 +1494,10 @@ win
 {
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
-(
+=
 do_QueryInterface
 (
 win
@@ -1505,7 +1505,6 @@ win
 >
 GetFrameElementInternal
 (
-)
 )
 )
 ;

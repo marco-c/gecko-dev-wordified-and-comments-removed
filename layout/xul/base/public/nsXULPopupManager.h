@@ -1565,7 +1565,13 @@ aExpected
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 >
 mKeyListener
 ;
