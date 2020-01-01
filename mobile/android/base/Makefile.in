@@ -191,6 +191,12 @@ AwesomeBarTab
 .
 java
 \
+awesomebar
+/
+AllPagesTab
+.
+java
+\
 AwesomeBarTabs
 .
 java
