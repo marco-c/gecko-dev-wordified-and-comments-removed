@@ -14,6 +14,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 jsprvtd
 .
 h
@@ -1369,6 +1376,9 @@ const
 JSStructuredCloneCallbacks
 *
 structuredCloneCallbacks
+;
+JSAccumulateTelemetryDataCallback
+telemetryCallback
 ;
 int32
 propertyRemovals

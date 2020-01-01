@@ -3287,6 +3287,10 @@ structuredCloneCallbacks
 (
 NULL
 )
+telemetryCallback
+(
+NULL
+)
 propertyRemovals
 (
 0
