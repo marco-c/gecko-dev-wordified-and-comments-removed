@@ -108,6 +108,14 @@ test_packaged_app_install
 .
 html
 \
+test_packaged_app_update
+.
+html
+\
+test_packaged_app_common
+.
+js
+\
 (
 NULL
 )
