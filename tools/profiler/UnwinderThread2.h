@@ -56,6 +56,11 @@ void
 stackTop
 )
 ;
+void
+uwt__unregister_thread_for_profiling
+(
+)
+;
 UnwinderThreadBuffer
 *
 uwt__acquire_empty_buffer

@@ -114,6 +114,9 @@ inline
 void
 profiler_init
 (
+void
+*
+stackTop
 )
 {
 }
@@ -275,6 +278,9 @@ const
 char
 *
 name
+void
+*
+stackTop
 )
 {
 }
@@ -323,10 +329,14 @@ public
 :
 GeckoProfilerInitRAII
 (
+void
+*
+stackTop
 )
 {
 profiler_init
 (
+stackTop
 )
 ;
 }

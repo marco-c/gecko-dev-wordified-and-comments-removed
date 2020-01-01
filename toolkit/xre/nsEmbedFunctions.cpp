@@ -1246,8 +1246,13 @@ aArgv
 ]
 )
 ;
+char
+aLocal
+;
 profiler_init
 (
+&
+aLocal
 )
 ;
 PROFILER_LABEL

@@ -948,6 +948,9 @@ PseudoStack
 aPseudoStack
 bool
 aIsMainThread
+void
+*
+stackTop
 )
 ;
 static

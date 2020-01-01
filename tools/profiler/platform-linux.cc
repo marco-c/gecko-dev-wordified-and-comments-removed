@@ -221,6 +221,13 @@ h
 "
 #
 include
+"
+UnwinderThread2
+.
+h
+"
+#
+include
 <
 string
 .
@@ -1585,6 +1592,9 @@ PseudoStack
 aPseudoStack
 bool
 aIsMainThread
+void
+*
+stackTop
 )
 {
 if
@@ -1728,6 +1738,11 @@ push_back
 info
 )
 ;
+uwt__register_thread_for_profiling
+(
+stackTop
+)
+;
 return
 true
 ;
@@ -1838,6 +1853,10 @@ break
 ;
 }
 }
+uwt__unregister_thread_for_profiling
+(
+)
+;
 }
 #
 ifdef

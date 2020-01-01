@@ -1530,8 +1530,13 @@ mozPoisonValueInit
 (
 )
 ;
+char
+aLocal
+;
 profiler_init
 (
+&
+aLocal
 )
 ;
 nsresult

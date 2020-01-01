@@ -1593,6 +1593,9 @@ PseudoStack
 aPseudoStack
 bool
 aIsMainThread
+void
+*
+stackTop
 )
 {
 if
@@ -1734,6 +1737,11 @@ sRegisteredThreads
 push_back
 (
 info
+)
+;
+uwt__register_thread_for_profiling
+(
+stackTop
 )
 ;
 return

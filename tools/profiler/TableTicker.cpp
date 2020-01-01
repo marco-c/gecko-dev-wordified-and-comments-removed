@@ -3035,6 +3035,7 @@ stack_key_initialized
 )
 profiler_init
 (
+NULL
 )
 ;
 PseudoStack

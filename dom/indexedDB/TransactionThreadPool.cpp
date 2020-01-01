@@ -3055,12 +3055,17 @@ NS_IsMainThread
 )
 )
 ;
+char
+aLocal
+;
 profiler_register_thread
 (
 "
 IndexedDB
 Transaction
 "
+&
+aLocal
 )
 ;
 return

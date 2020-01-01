@@ -173,6 +173,9 @@ mozilla_sampler_get_features
 void
 mozilla_sampler_init
 (
+void
+*
+stackTop
 )
 ;
 void
@@ -207,6 +210,9 @@ const
 char
 *
 name
+void
+*
+stackTop
 )
 ;
 void
