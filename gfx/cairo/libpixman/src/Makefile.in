@@ -422,6 +422,12 @@ c
 \
 pixman
 -
+combine16
+.
+c
+\
+pixman
+-
 combine32
 .
 c
