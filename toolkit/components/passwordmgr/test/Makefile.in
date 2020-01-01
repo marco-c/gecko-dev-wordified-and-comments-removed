@@ -580,6 +580,10 @@ subtst_notifications_5
 .
 html
 \
+subtst_notifications_6
+.
+html
+\
 (
 NULL
 )
