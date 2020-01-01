@@ -152,9 +152,6 @@ false
 )
 ;
 }
-let
-gTests
-=
 [
 function
 test_checkPreferences
@@ -1233,6 +1230,11 @@ TOPICDATA_FORCE_PLACES_INIT
 ;
 }
 ]
+.
+forEach
+(
+add_test
+)
 ;
 do_register_cleanup
 (
