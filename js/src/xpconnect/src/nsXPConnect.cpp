@@ -1718,7 +1718,7 @@ GCX_OBJECT
 ty
 !
 =
-GCX_FUNCTION
+GCX_PRIVATE
 &
 &
 ty
