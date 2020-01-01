@@ -2739,6 +2739,17 @@ goToURI
 )
 ;
 "
+onsearchcomplete
+=
+"
+BrowserUI
+.
+updateAutoComplete
+(
+false
+)
+;
+"
 clickSelectsAll
 =
 "
