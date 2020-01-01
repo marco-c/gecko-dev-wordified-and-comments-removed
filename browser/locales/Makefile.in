@@ -1763,10 +1763,11 @@ MOZ_APP_DISPLAYNAME
 >
 \
 (
-DIST
+FINAL_TARGET
 )
 /
-bin
+.
+.
 /
 updater
 .
@@ -1823,10 +1824,11 @@ MOZ_APP_DISPLAYNAME
 >
 \
 (
-DIST
+FINAL_TARGET
 )
 /
-bin
+.
+.
 /
 updater
 .
