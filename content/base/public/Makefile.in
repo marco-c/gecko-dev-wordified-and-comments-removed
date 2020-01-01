@@ -535,6 +535,10 @@ nsXMLNameSpaceMap
 .
 h
 \
+nsPresShellIterator
+.
+h
+\
 (
 NULL
 )

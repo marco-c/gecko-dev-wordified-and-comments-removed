@@ -9141,12 +9141,9 @@ mWriteLevel
 ;
 if
 (
-GetNumberOfShells
+GetPrimaryShell
 (
 )
-!
-=
-0
 )
 {
 FlushPendingNotifications
