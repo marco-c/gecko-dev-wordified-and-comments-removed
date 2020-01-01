@@ -267,6 +267,14 @@ test_input_textarea_set_value_no_scroll
 .
 html
 \
+test_submit_invalid_file
+.
+html
+\
+submit_invalid_file
+.
+sjs
+\
 (
 NULL
 )
