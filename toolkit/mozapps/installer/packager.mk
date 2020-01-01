@@ -2821,6 +2821,13 @@ ASSET_SO_LIBRARIES
 rm
 -
 rf
+assets
+&
+&
+\
+rm
+-
+rf
 lib
 /
 (
@@ -3729,6 +3736,9 @@ certutil
 *
 \
 pk12util
+*
+\
+OCSPStaplingServer
 *
 \
 winEmbed
