@@ -474,10 +474,6 @@ nsFormSubmission
 .
 h
 \
-nsIFrameSetElement
-.
-h
-\
 nsHTMLAudioElement
 .
 h

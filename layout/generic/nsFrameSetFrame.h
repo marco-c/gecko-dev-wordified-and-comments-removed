@@ -39,13 +39,6 @@ nsWeakPtr
 .
 h
 "
-#
-include
-"
-nsIFrameSetElement
-.
-h
-"
 class
 nsIContent
 ;
@@ -83,6 +76,9 @@ nsHTMLFramesetFrame
 define
 NO_COLOR
 0xFFFFFFFA
+struct
+nsFramesetSpec
+;
 struct
 nsBorderColor
 {
