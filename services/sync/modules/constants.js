@@ -33,11 +33,9 @@ WEAVE_ID
 "
 weave_id
 "
-COMPATIBLE_VERSION
+STORAGE_VERSION
 :
-"
-compatible_version
-"
+storage_version
 DEFAULT_SERVER
 :
 "
@@ -56,10 +54,6 @@ PWDMGR_HOST
 "
 chrome
 :
-/
-/
-weave
-"
 SINGLE_USER_SYNC
 :
 24
