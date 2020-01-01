@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsDOMEvent
 .
 h
