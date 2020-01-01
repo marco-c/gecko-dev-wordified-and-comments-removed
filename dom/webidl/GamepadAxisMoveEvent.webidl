@@ -111,13 +111,6 @@ optional
 GamepadAxisMoveEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 GamepadAxisMoveEvent

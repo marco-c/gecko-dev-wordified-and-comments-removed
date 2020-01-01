@@ -109,13 +109,6 @@ optional
 GamepadEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 GamepadEvent
