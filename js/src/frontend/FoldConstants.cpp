@@ -1918,9 +1918,7 @@ pn2
 pn_funbox
 -
 >
-tcflags
-&
-TCF_GENEXP_LAMBDA
+inGenexpLambda
 )
 )
 return
@@ -2032,9 +2030,7 @@ pn
 pn_funbox
 -
 >
-tcflags
-&
-TCF_GENEXP_LAMBDA
+inGenexpLambda
 )
 )
 return

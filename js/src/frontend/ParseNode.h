@@ -5082,6 +5082,11 @@ inWith
 :
 1
 ;
+bool
+inGenexpLambda
+:
+1
+;
 JSFunction
 *
 function
