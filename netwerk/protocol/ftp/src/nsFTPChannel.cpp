@@ -333,6 +333,10 @@ nsIInputStream
 *
 *
 result
+nsIChannel
+*
+*
+channel
 )
 {
 if

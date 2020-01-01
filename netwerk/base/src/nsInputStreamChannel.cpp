@@ -17,6 +17,10 @@ nsIInputStream
 *
 *
 result
+nsIChannel
+*
+*
+channel
 )
 {
 NS_ENSURE_TRUE
