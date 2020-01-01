@@ -1271,6 +1271,13 @@ currentURL
 }
 break
 ;
+case
+"
+custom
+"
+:
+return
+;
 }
 this
 .
