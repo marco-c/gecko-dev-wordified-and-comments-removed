@@ -9270,6 +9270,7 @@ f
 ;
 }
 void
+JS_FASTCALL
 ic
 :
 :
