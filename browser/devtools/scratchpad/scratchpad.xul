@@ -454,6 +454,8 @@ browser
 /
 locale
 /
+devtools
+/
 scratchpad
 .
 dtd

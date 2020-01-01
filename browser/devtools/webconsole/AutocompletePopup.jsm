@@ -59,11 +59,13 @@ chrome
 :
 /
 /
-global
+browser
 /
 locale
 /
-headsUpDisplay
+devtools
+/
+webconsole
 .
 properties
 "
