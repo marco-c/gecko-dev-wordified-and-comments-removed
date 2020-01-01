@@ -368,7 +368,7 @@ modules
 /
 PlacesUtils
 .
-js
+jsm
 "
 )
 ;
