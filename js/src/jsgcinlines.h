@@ -1781,7 +1781,7 @@ current
 rt
 -
 >
-gcCurrentCompartmentGroup
+gcCurrentZoneGroup
 ;
 }
 bool
