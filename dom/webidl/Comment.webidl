@@ -139,6 +139,17 @@ apply
 .
 *
 /
+[
+Constructor
+(
+optional
+DOMString
+data
+=
+"
+"
+)
+]
 interface
 Comment
 :
