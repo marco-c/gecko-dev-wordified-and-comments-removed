@@ -279,7 +279,7 @@ nsIURI
 aURI
 )
 :
-MediaResource
+BaseMediaResource
 (
 aDecoder
 aChannel
@@ -4770,7 +4770,7 @@ class
 FileMediaResource
 :
 public
-MediaResource
+BaseMediaResource
 {
 public
 :
@@ -4787,7 +4787,7 @@ nsIURI
 aURI
 )
 :
-MediaResource
+BaseMediaResource
 (
 aDecoder
 aChannel
@@ -6334,7 +6334,7 @@ uri
 ;
 }
 void
-MediaResource
+BaseMediaResource
 :
 :
 MoveLoadsToBackground
@@ -6513,7 +6513,7 @@ loadFlags
 }
 }
 void
-MediaResource
+BaseMediaResource
 :
 :
 ModifyLoadFlags
