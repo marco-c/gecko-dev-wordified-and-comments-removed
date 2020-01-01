@@ -2188,6 +2188,10 @@ nm2tsv
 nsinstall
 *
 \
+nspr
+-
+config
+\
 rebasedlls
 *
 \
