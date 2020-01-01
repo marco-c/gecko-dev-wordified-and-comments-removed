@@ -93,9 +93,6 @@ class
 mozIStorageStatementCallback
 ;
 class
-FaviconLoadListener
-;
-class
 nsFaviconService
 :
 public
@@ -350,10 +347,6 @@ bool
 *
 aHasData
 )
-;
-friend
-class
-FaviconLoadListener
 ;
 nsresult
 GetDefaultFaviconData
