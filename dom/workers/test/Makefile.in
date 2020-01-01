@@ -666,6 +666,14 @@ xhr_worker
 .
 js
 \
+test_xhr2
+.
+html
+\
+xhr2_worker
+.
+js
+\
 test_xhrAbort
 .
 html

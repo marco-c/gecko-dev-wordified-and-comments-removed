@@ -51,6 +51,9 @@ mStatusText
 jsval
 mReadyState
 ;
+jsval
+mResponse
+;
 bool
 mResponseTextException
 ;
@@ -62,6 +65,9 @@ mStatusTextException
 ;
 bool
 mReadyStateException
+;
+bool
+mResponseException
 ;
 }
 ;
