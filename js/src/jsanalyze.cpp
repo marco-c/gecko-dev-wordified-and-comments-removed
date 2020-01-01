@@ -1382,6 +1382,10 @@ extendsScope_
 =
 true
 ;
+usesScopeChain_
+=
+true
+;
 isInlineable
 =
 canTrackVars

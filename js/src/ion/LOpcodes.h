@@ -88,6 +88,11 @@ RecompileCheck
 \
 _
 (
+DefVar
+)
+\
+_
+(
 CallGeneric
 )
 \

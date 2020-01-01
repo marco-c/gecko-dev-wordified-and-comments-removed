@@ -79,6 +79,11 @@ RecompileCheck
 \
 _
 (
+DefVar
+)
+\
+_
+(
 PrepareCall
 )
 \
