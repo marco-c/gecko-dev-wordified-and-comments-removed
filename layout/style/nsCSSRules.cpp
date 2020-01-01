@@ -2649,7 +2649,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 GroupRule
 :
 :
@@ -2763,9 +2763,6 @@ AppendLiteral
 }
 "
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
@@ -3388,7 +3385,6 @@ AppendConditionText
 aCssText
 )
 ;
-return
 GroupRule
 :
 :
@@ -3396,6 +3392,9 @@ AppendRulesToCssText
 (
 aCssText
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -4206,7 +4205,6 @@ AppendConditionText
 aCssText
 )
 ;
-return
 GroupRule
 :
 :
@@ -4214,6 +4212,9 @@ AppendRulesToCssText
 (
 aCssText
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -11789,7 +11790,6 @@ Append
 mCondition
 )
 ;
-return
 css
 :
 :
@@ -11800,6 +11800,9 @@ AppendRulesToCssText
 (
 aCssText
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

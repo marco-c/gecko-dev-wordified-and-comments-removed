@@ -257,7 +257,7 @@ const
 ;
 protected
 :
-nsresult
+void
 AppendRulesToCssText
 (
 nsAString
