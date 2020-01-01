@@ -180,7 +180,7 @@ rv
 hyperAcc
 -
 >
-GetLinks
+GetLinkCount
 (
 &
 count
@@ -238,7 +238,7 @@ CAccessibleHypertext
 get_hyperlink
 (
 long
-aIndex
+aLinkIndex
 IAccessibleHyperlink
 *
 *
@@ -286,7 +286,7 @@ hyperAcc
 >
 GetLink
 (
-aIndex
+aLinkIndex
 getter_AddRefs
 (
 hyperLink
