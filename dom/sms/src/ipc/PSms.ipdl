@@ -644,6 +644,16 @@ PRUint64
 aProcessId
 )
 ;
+NotifyRequestReadListFailed
+(
+PRInt32
+aError
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 parent
 :
 sync

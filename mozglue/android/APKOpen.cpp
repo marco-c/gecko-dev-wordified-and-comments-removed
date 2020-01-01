@@ -2196,6 +2196,14 @@ jint
 jlong
 )
 ;
+SHELL_WRAPPER3
+(
+notifyReadingMessageListFailed
+jint
+jint
+jlong
+)
+;
 static
 void
 *
@@ -4545,6 +4553,11 @@ notifyListCreated
 GETFUNC
 (
 notifyGotNextMessage
+)
+;
+GETFUNC
+(
+notifyReadingMessageListFailed
 )
 ;
 #
