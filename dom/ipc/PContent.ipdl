@@ -148,6 +148,10 @@ PHal
 ;
 include
 protocol
+PImageBridge
+;
+include
+protocol
 PIndexedDB
 ;
 include
@@ -533,6 +537,10 @@ PContent
 parent
 opens
 PCompositor
+;
+parent
+opens
+PImageBridge
 ;
 manages
 PAudio
