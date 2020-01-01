@@ -637,6 +637,16 @@ PRUint64
 aProcessId
 )
 ;
+DeleteMessage
+(
+PRInt32
+aMessageId
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 __delete__
 (
 )
