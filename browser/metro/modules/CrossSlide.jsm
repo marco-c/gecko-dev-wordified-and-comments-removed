@@ -669,12 +669,6 @@ target
 )
 return
 ;
-aEvent
-.
-stopPropagation
-(
-)
-;
 let
 scrollAxis
 =
@@ -974,12 +968,6 @@ this
 drag
 )
 return
-;
-aEvent
-.
-stopPropagation
-(
-)
 ;
 if
 (
