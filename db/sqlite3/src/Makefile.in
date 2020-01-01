@@ -104,8 +104,6 @@ OS_ARCH
 )
 WINNT
 )
-ifndef
-GNU_CC
 DEFFILE
 =
 (
@@ -246,7 +244,6 @@ sqlite
 version
 .
 h
-endif
 endif
 ifeq
 (
