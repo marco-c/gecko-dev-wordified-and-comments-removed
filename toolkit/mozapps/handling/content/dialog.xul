@@ -718,6 +718,16 @@ flex
 "
 1
 "
+ondblclick
+=
+"
+dialog
+.
+onDblClick
+(
+)
+;
+"
 onselect
 =
 "
