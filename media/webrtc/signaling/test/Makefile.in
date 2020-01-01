@@ -776,6 +776,13 @@ OS_TARGET
 )
 WINNT
 )
+ifneq
+(
+gonk
+(
+MOZ_WIDGET_TOOLKIT
+)
+)
 ifdef
 JS_SHARED_LIBRARY
 LIBS
@@ -803,6 +810,7 @@ cpp
 (
 NULL
 )
+endif
 endif
 include
 (
