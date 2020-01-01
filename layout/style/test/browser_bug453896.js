@@ -103,6 +103,17 @@ doTest
 (
 )
 {
+theBrowser
+.
+removeEventListener
+(
+"
+load
+"
+listener
+true
+)
+;
 var
 fake_window
 =
