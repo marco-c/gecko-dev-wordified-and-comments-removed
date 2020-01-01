@@ -236,6 +236,7 @@ ScrollAxis
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 2e44b10f
