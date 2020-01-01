@@ -73,7 +73,7 @@ expect
 {
 get
 x
-print
+decodeURI
 (
 )
 {
@@ -94,7 +94,7 @@ uneval
 x
 getter
 :
-print
+decodeURI
 }
 )
 ;
