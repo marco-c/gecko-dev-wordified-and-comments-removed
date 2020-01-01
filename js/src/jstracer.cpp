@@ -5313,6 +5313,9 @@ atom
 )
 )
 ;
+#
+if
+0
 }
 else
 if
@@ -5363,6 +5366,8 @@ atom
 )
 )
 ;
+#
+endif
 }
 else
 {
@@ -7494,6 +7499,17 @@ gslots
 )
 return
 false
+;
+JS_ASSERT
+(
+fi
+-
+>
+ngslots
+=
+=
+internableGlobals
+)
 ;
 fi
 -
