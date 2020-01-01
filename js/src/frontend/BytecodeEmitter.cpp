@@ -14521,7 +14521,7 @@ rhs
 >
 pn_xflags
 &
-PNX_HOLEY
+PNX_SPECIALARRAYINIT
 )
 &
 &
@@ -14683,7 +14683,7 @@ rhs
 >
 pn_xflags
 &
-PNX_HOLEY
+PNX_SPECIALARRAYINIT
 )
 &
 &
@@ -14694,7 +14694,7 @@ lhs
 >
 pn_xflags
 &
-PNX_HOLEY
+PNX_SPECIALARRAYINIT
 )
 &
 &
