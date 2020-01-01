@@ -2647,6 +2647,14 @@ res
 /
 layout
 /
+home_visited_page
+.
+xml
+\
+res
+/
+layout
+/
 web_app
 .
 xml

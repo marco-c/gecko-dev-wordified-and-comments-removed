@@ -126,6 +126,16 @@ HomePager
 extends
 ViewPager
 {
+public
+static
+final
+String
+SUBPAGE_TAG
+=
+"
+home_pager_subpage
+"
+;
 private
 final
 Context
