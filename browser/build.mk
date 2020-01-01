@@ -455,12 +455,6 @@ tier_app_dirs
 =
 services
 /
-crypto
-tier_app_dirs
-+
-=
-services
-/
 sync
 endif
 tier_app_dirs

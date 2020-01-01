@@ -951,6 +951,15 @@ extensions
 /
 pref
 endif
+ifdef
+MOZ_SERVICES_SYNC
+tier_platform_dirs
++
+=
+services
+/
+crypto
+endif
 #
 JavaXPCOM
 JNI
