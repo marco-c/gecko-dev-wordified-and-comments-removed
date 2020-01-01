@@ -46,6 +46,7 @@ cx
 )
 script
 (
+cx
 script
 )
 pc
