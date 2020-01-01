@@ -1080,7 +1080,7 @@ POOL
 sIniFile
 )
 ;
-logToFile
+log
 (
 dc
 "
@@ -2233,7 +2233,7 @@ isFinishing
 )
 )
 {
-logToFile
+log
 (
 dc
 "
@@ -2309,7 +2309,7 @@ exit
 }
 else
 {
-logToFile
+log
 (
 dc
 "
@@ -2354,7 +2354,7 @@ dc
 null
 )
 {
-logToFile
+log
 (
 dc
 "
@@ -2362,7 +2362,7 @@ onLowMemory
 "
 )
 ;
-logToFile
+log
 (
 dc
 dc
@@ -2424,7 +2424,7 @@ mozilla
 )
 )
 {
-logToFile
+log
 (
 dc
 line
@@ -2464,7 +2464,7 @@ length
 )
 )
 {
-logToFile
+log
 (
 dc
 dc
@@ -4426,7 +4426,7 @@ null
 public
 static
 void
-logToFile
+log
 (
 DoCommand
 dc
@@ -4434,6 +4434,16 @@ String
 message
 )
 {
+Log
+.
+i
+(
+"
+SUTAgentAndroid
+"
+message
+)
+;
 if
 (
 SUTAgentAndroid
@@ -4466,7 +4476,7 @@ SUTAgentAndroid
 bad
 arguments
 in
-logToFile
+log
 (
 )
 !
@@ -4476,16 +4486,6 @@ logToFile
 return
 ;
 }
-Log
-.
-i
-(
-"
-SUTAgentAndroid
-"
-message
-)
-;
 String
 fileDateStr
 =
@@ -4540,7 +4540,7 @@ testRoot
 or
 datestamp
 in
-logToFile
+log
 !
 "
 )

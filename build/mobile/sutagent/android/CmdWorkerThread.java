@@ -460,7 +460,7 @@ svc
 ;
 SUTAgentAndroid
 .
-logToFile
+log
 (
 dc
 "
@@ -639,7 +639,7 @@ inputLine
 ;
 SUTAgentAndroid
 .
-logToFile
+log
 (
 dc
 message
@@ -780,7 +780,7 @@ close
 ;
 SUTAgentAndroid
 .
-logToFile
+log
 (
 dc
 "
