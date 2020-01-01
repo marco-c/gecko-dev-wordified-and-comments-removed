@@ -1196,6 +1196,13 @@ BINPATH
 /
 components
 /
+identity
+.
+xpt
+BINPATH
+/
+components
+/
 imglib2
 .
 xpt

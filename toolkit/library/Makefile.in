@@ -639,6 +639,8 @@ pref
 \
 htmlpars
 \
+identity
+\
 imglib2
 \
 gkgfx
