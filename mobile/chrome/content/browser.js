@@ -1249,7 +1249,7 @@ rightWidth
 }
 ;
 }
-false
+true
 )
 ;
 function
