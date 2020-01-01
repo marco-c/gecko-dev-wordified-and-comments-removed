@@ -1000,6 +1000,10 @@ browser_ctrlTab
 .
 js
 \
+browser_customize_popupNotification
+.
+js
+\
 browser_disablechrome
 .
 js
