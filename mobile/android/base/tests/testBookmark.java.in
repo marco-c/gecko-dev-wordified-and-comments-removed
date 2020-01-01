@@ -79,11 +79,6 @@ hitEnterAndWait
 (
 )
 ;
-verifyUrl
-(
-URL
-)
-;
 /
 /
 Click
@@ -95,11 +90,7 @@ the
 history
 list
 .
-getInstrumentation
-(
-)
-.
-waitForIdleSync
+clickOnAwesomeBar
 (
 )
 ;
