@@ -906,6 +906,8 @@ LOG
 PR_LOG_DEBUG
 (
 "
+%
+p
 Skipping
 video
 decode
@@ -914,6 +916,7 @@ the
 next
 keyframe
 "
+mDecoder
 )
 )
 ;
@@ -1234,6 +1237,8 @@ LOG
 PR_LOG_DEBUG
 (
 "
+%
+p
 Shutting
 down
 DecodeLoop
@@ -1242,6 +1247,7 @@ this
 %
 p
 "
+mDecoder
 this
 )
 )
@@ -1303,12 +1309,15 @@ LOG
 PR_LOG_DEBUG
 (
 "
+%
+p
 Begun
 audio
 thread
 /
 loop
 "
+mDecoder
 )
 )
 ;
@@ -2126,6 +2135,8 @@ LOG
 PR_LOG_DEBUG
 (
 "
+%
+p
 Audio
 stream
 finished
@@ -2134,6 +2145,7 @@ audio
 thread
 exit
 "
+mDecoder
 )
 )
 ;
@@ -5451,6 +5463,8 @@ LOG
 PR_LOG_DEBUG
 (
 "
+%
+p
 Seek
 completed
 mCurrentFrameTime
@@ -5460,6 +5474,7 @@ lld
 \
 n
 "
+mDecoder
 mCurrentFrameTime
 )
 )
@@ -6013,6 +6028,8 @@ LOG
 PR_LOG_DEBUG
 (
 "
+%
+p
 Shutting
 down
 the
@@ -6020,6 +6037,7 @@ state
 machine
 thread
 "
+mDecoder
 )
 )
 ;
@@ -7641,10 +7659,13 @@ LOG
 PR_LOG_DEBUG
 (
 "
+%
+p
 Loading
 Media
 Headers
 "
+mDecoder
 )
 )
 ;
@@ -7861,6 +7882,8 @@ LOG
 PR_LOG_DEBUG
 (
 "
+%
+p
 Changed
 state
 from
@@ -7873,6 +7896,7 @@ for
 .
 3lfs
 "
+mDecoder
 decodeDuration
 .
 ToSeconds
@@ -7899,6 +7923,8 @@ LOG
 PR_LOG_DEBUG
 (
 "
+%
+p
 Playback
 rate
 :
@@ -7920,6 +7946,7 @@ s
 %
 s
 "
+mDecoder
 stats
 .
 mPlaybackRate
