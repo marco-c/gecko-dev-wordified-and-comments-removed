@@ -33125,9 +33125,16 @@ if
 !
 code
 )
+{
+js_free
+(
+ionScript
+)
+;
 return
 false
 ;
+}
 JSScript
 *
 script
