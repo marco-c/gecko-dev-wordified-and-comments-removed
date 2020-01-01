@@ -13,6 +13,13 @@ sync
 dirs
 .
 py
+static
+-
+checking
+-
+config
+.
+mk
 #
 This
 is
