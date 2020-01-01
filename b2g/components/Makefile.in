@@ -160,10 +160,6 @@ TelURIParser
 .
 jsm
 \
-SignInToWebsite
-.
-jsm
-\
 (
 NULL
 )
