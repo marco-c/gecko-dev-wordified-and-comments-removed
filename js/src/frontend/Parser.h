@@ -116,6 +116,9 @@ JSContext
 const
 context
 ;
+StrictModeGetter
+strictModeGetter
+;
 TokenStream
 tokenStream
 ;
