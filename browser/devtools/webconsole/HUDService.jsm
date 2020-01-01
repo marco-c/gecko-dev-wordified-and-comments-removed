@@ -17433,7 +17433,7 @@ hudId
 ;
 stylePanel
 .
-selectNode
+showTool
 (
 aNode
 )
