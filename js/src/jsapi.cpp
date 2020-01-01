@@ -18650,6 +18650,11 @@ JSVAL_VOID
 )
 ;
 }
+js_InitRandom
+(
+cx
+)
+;
 }
 JS_PUBLIC_API
 (
