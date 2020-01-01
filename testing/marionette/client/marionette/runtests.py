@@ -4306,8 +4306,16 @@ errors
                 
 _extract_xml
 (
-*
 tup
+[
+0
+]
+text
+=
+tup
+[
+1
+]
 result
 =
 '
@@ -4325,8 +4333,16 @@ failures
                 
 _extract_xml
 (
-*
 tup
+[
+0
+]
+text
+=
+tup
+[
+1
+]
 result
 =
 '
@@ -4391,8 +4407,16 @@ skipped
                     
 _extract_xml
 (
-*
 tup
+[
+0
+]
+text
+=
+tup
+[
+1
+]
 result
 =
 '
@@ -4420,8 +4444,16 @@ expectedFailures
                     
 _extract_xml
 (
-*
 tup
+[
+0
+]
+text
+=
+tup
+[
+1
+]
 result
 =
 '
