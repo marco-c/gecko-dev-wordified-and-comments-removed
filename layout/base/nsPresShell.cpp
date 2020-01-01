@@ -1,6 +1,13 @@
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsIPresShell
 .
 h
@@ -2452,7 +2459,10 @@ Push
 ;
 aSize
 =
-PR_ROUNDUP
+NS_ROUNDUP
+<
+size_t
+>
 (
 aSize
 8

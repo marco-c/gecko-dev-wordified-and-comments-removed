@@ -715,7 +715,10 @@ count
 PRUint32
 amount
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 count
 sizeof

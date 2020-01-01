@@ -13840,7 +13840,7 @@ mTabWidths
 >
 mLimit
 :
-PR_MAX
+NS_MAX
 (
 mTabWidthsAnalyzedLimit
 startOffset
@@ -14108,7 +14108,7 @@ TabWidthProperty
 ;
 mTabWidthsAnalyzedLimit
 =
-PR_MAX
+NS_MAX
 (
 mTabWidthsAnalyzedLimit
 aStart
@@ -24230,7 +24230,7 @@ app
 gfxFloat
 width
 =
-PR_ABS
+NS_ABS
 (
 advance
 )
@@ -30242,7 +30242,10 @@ iter
 ;
 len
 =
-PR_MIN
+NS_MIN
+<
+PRInt32
+>
 (
 GetContentOffset
 (

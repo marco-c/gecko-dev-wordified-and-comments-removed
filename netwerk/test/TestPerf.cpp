@@ -368,7 +368,10 @@ count
 {
 n
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 count
 sizeof

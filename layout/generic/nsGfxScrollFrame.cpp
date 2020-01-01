@@ -9542,7 +9542,7 @@ nsIntPoint
 (
 NSAppUnitsToIntPixels
 (
-PR_ABS
+NS_ABS
 (
 clampAmount
 .
@@ -9552,7 +9552,7 @@ appUnitsPerDevPixel
 )
 NSAppUnitsToIntPixels
 (
-PR_ABS
+NS_ABS
 (
 clampAmount
 .

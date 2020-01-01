@@ -7,6 +7,13 @@ NSCOORD_H
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -447,7 +454,10 @@ aScale
 return
 NSToCoordRoundWithClamp
 (
-PR_MIN
+NS_MIN
+<
+float
+>
 (
 nscoord_MAX
 product
@@ -457,7 +467,10 @@ product
 return
 NSToCoordRoundWithClamp
 (
-PR_MAX
+NS_MAX
+<
+float
+>
 (
 nscoord_MIN
 product
@@ -748,7 +761,7 @@ nscoord_MAX
 )
 ;
 return
-PR_MIN
+NS_MIN
 (
 nscoord_MAX
 a
@@ -944,7 +957,7 @@ nscoord_MAX
 )
 ;
 return
-PR_MIN
+NS_MIN
 (
 nscoord_MAX
 a

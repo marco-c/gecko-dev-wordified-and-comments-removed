@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nss
 .
 h
@@ -785,7 +792,7 @@ buffertail
 ;
 }
 size_t
-free
+areafree
 (
 )
 {
@@ -801,7 +808,7 @@ margin
 )
 {
 return
-free
+areafree
 (
 )
 +
@@ -3417,7 +3424,7 @@ buffers
 s
 ]
 .
-free
+areafree
 (
 )
 )
@@ -3462,7 +3469,7 @@ buffers
 s
 ]
 .
-free
+areafree
 (
 )
 )
@@ -3499,7 +3506,7 @@ buffers
 s
 ]
 .
-free
+areafree
 (
 )
 0
@@ -3996,7 +4003,7 @@ buffers
 s
 ]
 .
-free
+areafree
 (
 )
 )
@@ -7063,7 +7070,10 @@ threads
 =
 PR_CreateThreadPool
 (
-PR_MAX
+NS_MAX
+<
+PRInt32
+>
 (
 INITIAL_THREADS
 servers
@@ -7074,7 +7084,10 @@ size
 *
 2
 )
-PR_MAX
+NS_MAX
+<
+PRInt32
+>
 (
 MAX_THREADS
 servers

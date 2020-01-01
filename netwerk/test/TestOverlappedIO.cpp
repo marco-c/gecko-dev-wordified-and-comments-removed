@@ -686,7 +686,7 @@ amount
 ;
 amount
 =
-PR_MIN
+NS_MIN
 (
 count
 mDataLen

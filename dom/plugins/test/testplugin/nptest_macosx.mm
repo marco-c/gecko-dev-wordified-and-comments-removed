@@ -324,6 +324,13 @@ h
 "
 #
 include
+"
+nsAlgorithm
+.
+h
+"
+#
+include
 <
 CoreServices
 /
@@ -1240,7 +1247,7 @@ CGRectMake
 10
 .
 0
-PR_MAX
+NS_MAX
 (
 0
 .
@@ -1251,7 +1258,7 @@ windowWidth
 .
 0
 )
-PR_MAX
+NS_MAX
 (
 0
 .

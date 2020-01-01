@@ -584,7 +584,7 @@ rendererCount
 (
 GLint
 )
-PR_MIN
+NS_MIN
 (
 rendererCount
 (

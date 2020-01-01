@@ -2187,7 +2187,7 @@ Count
 PRInt32
 start
 =
-PR_MIN
+NS_MIN
 (
 mChildren
 .

@@ -299,7 +299,10 @@ PRUint32
 n
 amt
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 count
 sizeof

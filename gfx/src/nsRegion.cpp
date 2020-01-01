@@ -204,7 +204,7 @@ const
 nscoord
 xmost
 =
-PR_MIN
+NS_MIN
 (
 aRect1
 .
@@ -220,7 +220,7 @@ XMost
 ;
 x
 =
-PR_MAX
+NS_MAX
 (
 aRect1
 .
@@ -250,7 +250,7 @@ const
 nscoord
 ymost
 =
-PR_MIN
+NS_MIN
 (
 aRect1
 .
@@ -266,7 +266,7 @@ YMost
 ;
 y
 =
-PR_MAX
+NS_MAX
 (
 aRect1
 .
@@ -320,7 +320,7 @@ const
 nscoord
 xmost
 =
-PR_MAX
+NS_MAX
 (
 aRect1
 .
@@ -338,7 +338,7 @@ const
 nscoord
 ymost
 =
-PR_MAX
+NS_MAX
 (
 aRect1
 .

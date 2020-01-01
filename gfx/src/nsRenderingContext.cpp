@@ -210,7 +210,7 @@ aMaxChunkLength
 )
 {
 return
-PR_MIN
+NS_MIN
 (
 aLength
 aMaxChunkLength
@@ -1933,7 +1933,7 @@ return
 1
 ;
 return
-PR_MIN
+NS_MIN
 (
 mFontMetrics
 -

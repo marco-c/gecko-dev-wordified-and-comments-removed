@@ -145,7 +145,7 @@ descent
 ;
 leftBearing
 =
-PR_MIN
+NS_MIN
 (
 leftBearing
 width
@@ -157,7 +157,7 @@ leftBearing
 ;
 rightBearing
 =
-PR_MAX
+NS_MAX
 (
 rightBearing
 width

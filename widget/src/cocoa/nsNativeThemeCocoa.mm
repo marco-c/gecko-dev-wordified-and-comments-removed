@@ -4955,7 +4955,7 @@ square
 float
 length
 =
-PR_MIN
+NS_MIN
 (
 inBoxRect
 .
@@ -16105,7 +16105,7 @@ return
 (
 double
 )
-PR_MAX
+NS_MAX
 (
 CheckIntAttr
 (

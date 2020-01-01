@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h
@@ -404,7 +411,7 @@ sizeAdjust
 gfxFloat
 adjustedSize
 =
-PR_MAX
+NS_MAX
 (
 NS_round
 (
@@ -422,7 +429,7 @@ aspect
 )
 ;
 return
-PR_MIN
+NS_MIN
 (
 adjustedSize
 FONT_MAX_SIZE

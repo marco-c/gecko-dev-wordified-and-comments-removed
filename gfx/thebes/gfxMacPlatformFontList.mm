@@ -4502,7 +4502,10 @@ qdname
 0
 ]
 =
-PR_MAX
+NS_MAX
+<
+size_t
+>
 (
 255
 strlen

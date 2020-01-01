@@ -212,7 +212,10 @@ aLength
 {
 size
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 aLength
 sizeof

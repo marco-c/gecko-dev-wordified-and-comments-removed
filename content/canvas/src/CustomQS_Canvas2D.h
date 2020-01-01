@@ -1283,7 +1283,7 @@ height
 uint32
 w
 =
-PR_ABS
+NS_ABS
 (
 wi
 )
@@ -1291,7 +1291,7 @@ wi
 uint32
 h
 =
-PR_ABS
+NS_ABS
 (
 hi
 )

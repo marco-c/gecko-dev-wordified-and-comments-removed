@@ -932,7 +932,10 @@ consumed
 ;
 consumed
 =
-PR_MAX
+NS_MAX
+<
+PRUint32
+>
 (
 consumed
 0
