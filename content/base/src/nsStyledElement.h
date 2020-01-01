@@ -108,13 +108,11 @@ PRBool
 aCompileEventHandlers
 )
 ;
-static
+protected
+:
 void
 ParseStyleAttribute
 (
-nsIContent
-*
-aContent
 const
 nsAString
 &
@@ -126,8 +124,6 @@ PRBool
 aForceInDataDoc
 )
 ;
-protected
-:
 virtual
 PRBool
 ParseAttribute
