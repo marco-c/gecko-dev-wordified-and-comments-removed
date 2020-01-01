@@ -5857,6 +5857,14 @@ flags
 if
 (
 inheritOwner
+&
+&
+!
+(
+aLoadFlags
+&
+LOAD_FLAGS_DISALLOW_INHERIT_OWNER
+)
 )
 flags
 |

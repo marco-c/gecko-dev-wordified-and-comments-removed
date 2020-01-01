@@ -468,6 +468,10 @@ browser_bug503832
 .
 js
 \
+browser_loadDisallowInherit
+.
+js
+\
 file_bug503832
 .
 html
