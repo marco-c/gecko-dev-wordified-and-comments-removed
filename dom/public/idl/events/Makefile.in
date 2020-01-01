@@ -455,10 +455,6 @@ nsIDOMEventGroup
 .
 idl
 \
-nsIDOMCustomEvent
-.
-idl
-\
 nsIDOMMouseEvent
 .
 idl

@@ -211,7 +211,6 @@ nsIDOMCSSStyleSheet
 nsIDOMCSSUnknownRule
 nsIDOMCSSValue
 nsIDOMCSSValueList
-nsIDOMCustomEvent
 nsIDOMDocument
 nsIDOMDocumentCSS
 nsIDOMDocumentEvent
