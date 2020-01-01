@@ -405,9 +405,6 @@ MOZ_ENABLE_LIBXUL
 MOZ_PLACES
 =
 1
-MOZ_PLACES_BOOKMARKS
-=
-1
 #
 always
 enabled
