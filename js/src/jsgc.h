@@ -82,7 +82,7 @@ only
 /
 #
 define
-GCX_FUNCTION
+GCX_PRIVATE
 4
 #
 define
