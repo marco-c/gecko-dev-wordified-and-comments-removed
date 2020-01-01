@@ -649,6 +649,13 @@ CPPSRCS
 nsURLHelperWin
 .
 cpp
+ifneq
+(
+(
+OS_ARCH
+)
+WINCE
+)
 CPPSRCS
 +
 =
@@ -661,6 +668,7 @@ CPPSRCS
 nsAutodialWin
 .
 cpp
+endif
 else
 ifneq
 (
