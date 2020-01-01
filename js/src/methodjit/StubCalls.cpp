@@ -576,6 +576,9 @@ VMFrame
 f
 )
 {
+Value
+rval
+;
 if
 (
 !
@@ -590,6 +593,13 @@ pc
 (
 )
 &
+rval
+)
+)
+THROW
+(
+)
+;
 f
 .
 regs
@@ -598,11 +608,8 @@ sp
 [
 0
 ]
-)
-)
-THROW
-(
-)
+=
+rval
 ;
 }
 void
