@@ -953,6 +953,10 @@ va
 fmt
 )
 ;
+if
+(
+fmt
+)
 LogMessage
 (
 fmt
@@ -995,6 +999,10 @@ va
 fmt
 )
 ;
+if
+(
+fmt
+)
 LogMessage
 (
 fmt
@@ -1037,6 +1045,10 @@ va
 fmt
 )
 ;
+if
+(
+fmt
+)
 LogMessage
 (
 fmt
@@ -1079,6 +1091,10 @@ va
 fmt
 )
 ;
+if
+(
+fmt
+)
 LogMessage
 (
 fmt
