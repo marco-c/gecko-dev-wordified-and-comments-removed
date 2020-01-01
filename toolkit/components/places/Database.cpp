@@ -1530,10 +1530,6 @@ mDBPageSize
 (
 0
 )
-mCurrentJournalMode
-(
-JOURNAL_DELETE
-)
 mDatabaseStatus
 (
 nsINavHistoryService
