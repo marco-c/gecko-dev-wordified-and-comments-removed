@@ -8252,9 +8252,14 @@ result
 .
 Append
 (
-'
+NS_LITERAL_STRING
+(
 "
-'
+\
+"
+)
+"
+)
 )
 ;
 break
