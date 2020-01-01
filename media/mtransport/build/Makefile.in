@@ -121,9 +121,6 @@ srcdir
 objs
 .
 mk
-FORCE_STATIC_LIB
-=
-1
 ifeq
 (
 WINNT

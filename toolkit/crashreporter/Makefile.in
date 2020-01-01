@@ -229,9 +229,6 @@ DEFINES
 DUNICODE
 -
 D_UNICODE
-FORCE_STATIC_LIB
-=
-1
 include
 (
 topsrcdir
