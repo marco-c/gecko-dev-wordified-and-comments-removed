@@ -129,11 +129,6 @@ static
 GeckoApp
 mAppContext
 ;
-public
-static
-boolean
-useSoftwareDrawing
-;
 void
 launch
 (
@@ -496,10 +491,6 @@ LayoutParams
 FILL_PARENT
 )
 )
-;
-useSoftwareDrawing
-=
-true
 ;
 if
 (
