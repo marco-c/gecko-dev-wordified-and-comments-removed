@@ -344,6 +344,10 @@ DOMString
 "
              
 "
+ByteString
+"
+             
+"
 object
 "
              
