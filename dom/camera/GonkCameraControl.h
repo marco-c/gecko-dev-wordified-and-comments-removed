@@ -163,6 +163,9 @@ uint32_t
 aKey
 nsTArray
 <
+dom
+:
+:
 CameraSize
 >
 &
@@ -233,6 +236,9 @@ GetVideoSizes
 (
 nsTArray
 <
+dom
+:
+:
 CameraSize
 >
 &
