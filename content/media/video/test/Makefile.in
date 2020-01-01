@@ -506,12 +506,6 @@ test_access_control
 .
 html
 \
-test_access_control
--
-2
-.
-html
-\
 file_access_controls
 .
 html
