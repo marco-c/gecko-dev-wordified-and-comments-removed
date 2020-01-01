@@ -1603,10 +1603,6 @@ test_classList
 .
 html
 \
-test_bug489925
-.
-xhtml
-\
 test_bug514487
 .
 html
