@@ -2104,6 +2104,16 @@ None
 array
 =
 0
+nullable
+=
+0
+                 
+myChmod
+=
+None
+otherChmod
+=
+None
 )
 :
         
@@ -2132,6 +2142,24 @@ self
 array
 =
 array
+        
+self
+.
+nullable
+=
+nullable
+        
+self
+.
+myChmod
+=
+myChmod
+        
+self
+.
+otherChmod
+=
+otherChmod
     
 def
 basename

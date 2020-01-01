@@ -607,6 +607,7 @@ NPP_GetValue_NPPVpluginScriptableNPObject
 )
 returns
 (
+nullable
 PPluginScriptableObject
 value
 NPError
@@ -657,6 +658,7 @@ NPN_GetValue_NPNVWindowNPObject
 )
 returns
 (
+nullable
 PPluginScriptableObject
 value
 NPError
@@ -669,6 +671,7 @@ NPN_GetValue_NPNVPluginElementNPObject
 )
 returns
 (
+nullable
 PPluginScriptableObject
 value
 NPError
@@ -879,6 +882,7 @@ uint32_t
 length
 uint32_t
 lastmodified
+nullable
 PStreamNotify
 notifyData
 nsCString

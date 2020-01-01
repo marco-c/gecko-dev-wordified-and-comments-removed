@@ -477,87 +477,219 @@ mManager
 '
 )
 def
-_safeLookupActor
+_getActorId
 (
-idexpr
+actorexpr
+outid
 actortype
+errcode
 )
 :
     
-return
-ExprCast
+ifnull
+=
+StmtIf
 (
+ExprNot
+(
+actorexpr
+)
+)
+    
+if
+not
+actortype
+.
+nullable
+:
         
-ExprConditional
+ifnull
+.
+addifstmt
 (
-            
-ExprBinary
+StmtReturn
 (
-idexpr
-'
-=
-=
-'
+errcode
+)
+)
+    
+else
+:
+        
+ifnull
+.
+addifstmt
+(
+StmtExpr
+(
+ExprAssn
+(
+outid
 ExprLiteral
 .
 ZERO
 )
-            
+)
+)
+    
+ifnull
+.
+addelsestmt
+(
+StmtExpr
+(
+ExprAssn
+(
+outid
+_actorId
+(
+actorexpr
+)
+)
+)
+)
+    
+return
+ifnull
+def
+_lookupActor
+(
+idexpr
+outactor
+actortype
+cxxactortype
+errcode
+)
+:
+    
+ifzero
+=
+StmtIf
+(
+ExprBinary
+(
+ExprLiteral
+.
+ZERO
+'
+=
+=
+'
+idexpr
+)
+)
+    
+if
+not
+actortype
+.
+nullable
+:
+        
+ifzero
+.
+addifstmt
+(
+StmtReturn
+(
+errcode
+)
+)
+    
+else
+:
+        
+ifzero
+.
+addifstmt
+(
+StmtExpr
+(
+ExprAssn
+(
+outactor
 ExprLiteral
 .
 NULL
+)
+)
+)
+    
+ifnotactor
+=
+StmtIf
+(
+ExprNot
+(
+outactor
+)
+)
+    
+ifnotactor
+.
+addifstmts
+(
+[
+        
+_printErrorMessage
+(
+'
+invalid
+actor
+ID
+!
+'
+)
+        
+StmtReturn
+(
+errcode
+)
+]
+)
+    
+ifzero
+.
+addelsestmts
+(
+[
+        
+StmtExpr
+(
+ExprAssn
+(
             
+outactor
+            
+ExprCast
+(
 _lookupListener
 (
 idexpr
 )
-)
-        
-actortype
-        
-reinterpret
+cxxactortype
+static
 =
 1
 )
-def
-_safeLookupActorHandle
-(
-handle
-actortype
 )
-:
+)
+        
+ifnotactor
+    
+]
+)
     
 return
-_safeLookupActor
-(
-_actorHId
-(
-handle
-)
-actortype
-)
-def
-_lookupActor
-(
-idexpr
-actortype
-)
-:
-    
-return
-ExprCast
-(
-idexpr
-actortype
-reinterpret
-=
-1
-)
+ifzero
 def
 _lookupActorHandle
 (
 handle
+outactor
 actortype
+cxxactortype
+errcode
 )
 :
     
@@ -568,7 +700,11 @@ _actorHId
 (
 handle
 )
+outactor
 actortype
+cxxactortype
+                        
+errcode
 )
 def
 _lookupListener
@@ -1614,6 +1750,37 @@ stmts
     
 return
 iflogging
+def
+_printErrorMessage
+(
+msg
+)
+:
+    
+return
+StmtExpr
+(
+        
+ExprCall
+(
+ExprVar
+(
+'
+NS_ERROR
+'
+)
+args
+=
+[
+ExprLiteral
+.
+String
+(
+msg
+)
+]
+)
+)
 class
 _ConvertToCxxType
 (
@@ -2654,6 +2821,7 @@ serialize
 self
 expr
 side
+errcode
 )
 :
         
@@ -2687,6 +2855,7 @@ self
 ipdltype
 expr
 side
+errcode
 )
         
 return
@@ -2700,6 +2869,7 @@ self
 etype
 expr
 side
+errcode
 )
 :
         
@@ -2757,6 +2927,7 @@ _serializeActor
 (
 etype
 expr
+errcode
 )
         
 elif
@@ -2775,6 +2946,7 @@ _serializeArray
 etype
 expr
 side
+errcode
 )
         
 elif
@@ -2793,6 +2965,7 @@ _serializeUnion
 etype
 expr
 side
+errcode
 )
         
 elif
@@ -2817,6 +2990,7 @@ _serializeShmem
 etype
 expr
 side
+errcode
 )
         
 else
@@ -2857,6 +3031,7 @@ _serializeActor
 self
 actortype
 expr
+errcode
 )
 :
         
@@ -2914,32 +3089,15 @@ name
 )
 )
             
-StmtExpr
+_getActorId
 (
-ExprAssn
-(
-                
+expr
 _actorHId
 (
 actorhandlevar
 )
-                
-ExprConditional
-(
-ExprNot
-(
-expr
-)
-                                
-ExprLiteral
-.
-NULL
-_actorId
-(
-expr
-)
-)
-)
+actortype
+errcode
 )
             
 Whitespace
@@ -2960,6 +3118,7 @@ self
 arraytype
 expr
 side
+errcode
 )
 :
         
@@ -3081,6 +3240,7 @@ arraytype
 basetype
 ithOldElt
 side
+errcode
 )
         
 forloop
@@ -3191,6 +3351,7 @@ self
 uniontype
 expr
 side
+errcode
 )
 :
         
@@ -3199,19 +3360,56 @@ insaneActorCast
 (
 actor
 actortype
+cxxactortype
 )
 :
             
-return
-ExprCast
+idvar
+=
+ExprVar
 (
+self
+.
+_nextuid
+(
+'
+actorid
+'
+)
+)
+            
+return
+(
+                
+[
+StmtDecl
+(
+Decl
+(
+_actorIdType
+(
+)
+idvar
+.
+name
+)
+)
+                  
+_getActorId
+(
+actor
+idvar
+actortype
+errcode
+)
+                
+]
                 
 ExprCast
 (
-_safeActorId
+ExprCast
 (
-actor
-)
+idvar
 Type
 .
 INTPTR
@@ -3219,12 +3417,14 @@ static
 =
 1
 )
-                
-actortype
-                
+                         
+cxxactortype
+                         
 reinterpret
 =
 1
+)
+                
 )
         
 pipetype
@@ -3363,28 +3563,39 @@ side
 else
 :
                     
-case
-.
-addstmt
-(
-StmtExpr
-(
-ExprAssn
-(
-                        
-serunionvar
-                        
+getidstmts
+castexpr
+=
 insaneActorCast
 (
+                        
 getvalue
+ct
 c
 .
 bareType
 (
 )
 )
+                    
+case
+.
+addstmts
+(
+                        
+getidstmts
+                        
++
+[
+StmtExpr
+(
+ExprAssn
+(
+serunionvar
+castexpr
 )
 )
+]
 )
             
 elif
@@ -3429,7 +3640,7 @@ side
 else
 :
                     
-actortype
+cxxactortype
 =
 ct
 .
@@ -3437,6 +3648,7 @@ basetype
 .
 accept
 (
+                        
 _ConvertToCxxType
 (
 c
@@ -3549,24 +3761,37 @@ ivar
 )
 )
                     
+getidstmts
+castexpr
+=
+insaneActorCast
+(
+                        
+ithOldElt
+ct
+.
+basetype
+cxxactortype
+)
+                    
 loop
 .
-addstmt
+addstmts
 (
+                        
+getidstmts
+                        
++
+[
 StmtExpr
 (
 ExprAssn
 (
-                        
 ithNewElt
-                        
-insaneActorCast
-(
-ithOldElt
-actortype
+castexpr
 )
 )
-)
+]
 )
                     
 case
@@ -3651,6 +3876,8 @@ _serialize
 ct
 getvalue
 side
+                                                     
+errcode
 )
                 
 case
@@ -3779,6 +4006,7 @@ self
 shmemtype
 expr
 side
+errcode
 )
 :
         
@@ -4007,6 +4235,7 @@ self
 expr
 side
 sems
+errcode
 )
 :
         
@@ -4092,12 +4321,14 @@ self
 .
 _deserialize
 (
+            
 expr
 self
 .
 ipdltype
 toexpr
 side
+errcode
 )
         
 return
@@ -4111,6 +4342,7 @@ pipeExpr
 targetType
 targetExpr
 side
+errcode
 )
 :
         
@@ -4147,6 +4379,7 @@ pipeExpr
 targetType
 targetExpr
 side
+errcode
 )
         
 elif
@@ -4167,6 +4400,7 @@ pipeExpr
 targetType
 targetExpr
 side
+errcode
 )
         
 elif
@@ -4187,6 +4421,7 @@ pipeExpr
 targetType
 targetExpr
 side
+errcode
 )
         
 elif
@@ -4207,6 +4442,7 @@ pipeExpr
 targetType
 targetExpr
 side
+errcode
 )
         
 else
@@ -4222,6 +4458,8 @@ actorhandle
 actortype
 outactor
 side
+                          
+errcode
 )
 :
         
@@ -4243,7 +4481,6 @@ return
 cxxtype
             
 [
-                
 Whitespace
 (
 '
@@ -4259,20 +4496,15 @@ indent
 =
 1
 )
-                
-StmtExpr
-(
-ExprAssn
-(
-                    
-outactor
-                    
-_safeLookupActorHandle
+              
+_lookupActorHandle
 (
 actorhandle
+outactor
+actortype
 cxxtype
-)
-)
+                                 
+errcode
 )
             
 ]
@@ -4286,6 +4518,8 @@ pipearray
 arraytype
 outarray
 side
+                          
+errcode
 )
 :
         
@@ -4472,6 +4706,7 @@ arraytype
 basetype
 ithNewElt
 side
+errcode
 )
         
 forloop
@@ -4500,6 +4735,8 @@ pipeunion
 uniontype
 outunion
 side
+                          
+errcode
 )
 :
         
@@ -4668,6 +4905,28 @@ id
 )
 )
                     
+outactorvar
+=
+ExprVar
+(
+self
+.
+_nextuid
+(
+'
+actor
+'
+)
+)
+                    
+actorcxxtype
+=
+c
+.
+bareType
+(
+)
+                    
 case
 .
 addstmts
@@ -4692,22 +4951,33 @@ getvalue
 )
 )
                         
+StmtDecl
+(
+Decl
+(
+actorcxxtype
+outactorvar
+.
+name
+)
+)
+                        
+_lookupActor
+(
+idvar
+outactorvar
+ct
+actorcxxtype
+                                     
+errcode
+)
+                        
 StmtExpr
 (
 ExprAssn
 (
-                            
 outunion
-                            
-_safeLookupActor
-(
-idvar
-c
-.
-bareType
-(
-)
-)
+outactorvar
 )
 )
                     
@@ -4806,6 +5076,26 @@ arrvar
 ivar
 )
                     
+actortype
+=
+ct
+.
+basetype
+                    
+actorcxxtype
+=
+ct
+.
+basetype
+.
+accept
+(
+_ConvertToCxxType
+(
+side
+)
+)
+                    
 loop
 =
 StmtFor
@@ -4881,31 +5171,14 @@ ithElt
 )
 )
                         
-StmtExpr
+_lookupActor
 (
-ExprAssn
-(
-                            
-ithElt
-                            
-_safeLookupActor
-(
-                                
 idvar
-                                
-ct
-.
-basetype
-.
-accept
-(
-_ConvertToCxxType
-(
-side
-)
-)
-)
-)
+ithElt
+actortype
+actorcxxtype
+                                     
+errcode
 )
                     
 ]
@@ -4972,6 +5245,7 @@ getvalue
 ct
 tempvar
 side
+errcode
 )
                 
 case
@@ -5104,6 +5378,8 @@ pipeshmem
 shmemtype
 outshmem
 side
+                          
+errcode
 )
 :
         
@@ -21469,6 +21745,10 @@ var
 self
 .
 side
+                                          
+ExprLiteral
+.
+FALSE
 )
             
 msgCtorArgs
@@ -21596,6 +21876,10 @@ var
 self
 .
 side
+                                        
+_Result
+.
+ValuError
 )
             
 replyCtorArgs
@@ -22072,6 +22356,12 @@ sems
 '
 in
 '
+                                              
+errcode
+=
+_Result
+.
+ValuError
 )
 )
         
@@ -22309,6 +22599,12 @@ sems
 '
 out
 '
+                
+errcode
+=
+ExprLiteral
+.
+FALSE
 )
 )
         
