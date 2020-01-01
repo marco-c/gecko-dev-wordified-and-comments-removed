@@ -128,6 +128,12 @@ init
 ;
 #
 endif
+gPrivacyPane
+.
+init
+(
+)
+;
 var
 initFinished
 =

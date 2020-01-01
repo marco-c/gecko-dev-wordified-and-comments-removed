@@ -923,6 +923,11 @@ include
 tabs
 .
 xul
+#
+include
+privacy
+.
+xul
 <
 /
 prefpane
