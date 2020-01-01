@@ -18129,6 +18129,9 @@ state
 globalShape
 =
 =
+(
+uint32
+)
 -
 1
 )
