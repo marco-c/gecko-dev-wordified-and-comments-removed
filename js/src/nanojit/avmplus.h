@@ -99,6 +99,16 @@ h
 #
 endif
 #
+ifdef
+_DEBUG
+void
+NanoAssertFail
+(
+)
+;
+#
+endif
+#
 define
 AvmAssert
 (
