@@ -815,10 +815,6 @@ disconnect_all
 NS_DISPATCH_NORMAL
 )
 ;
-mTransportFlow
-=
-nullptr
-;
 }
 }
 NS_IMPL_THREADSAFE_ISUPPORTS1
