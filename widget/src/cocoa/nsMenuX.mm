@@ -796,6 +796,13 @@ RemoveAll
 ;
 [
 mMacMenu
+setDelegate
+:
+nil
+]
+;
+[
+mMacMenu
 release
 ]
 ;
