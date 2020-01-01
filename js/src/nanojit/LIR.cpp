@@ -12759,6 +12759,13 @@ fragEntry
 root
 -
 >
+loopEntry
+=
+0
+;
+root
+-
+>
 releaseCode
 (
 frago
@@ -13063,6 +13070,13 @@ root
 -
 >
 fragEntry
+=
+0
+;
+root
+-
+>
+loopEntry
 =
 0
 ;

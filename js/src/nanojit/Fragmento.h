@@ -340,6 +340,16 @@ void
 ip
 )
 ;
+void
+disconnectLoops
+(
+)
+;
+void
+reconnectLoops
+(
+)
+;
 verbose_only
 (
 uint32_t
@@ -920,6 +930,10 @@ blacklistLevel
 NIns
 *
 fragEntry
+;
+NIns
+*
+loopEntry
 ;
 int32_t
 calldepth
