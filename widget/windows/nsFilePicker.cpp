@@ -4649,6 +4649,16 @@ FILE_ILLEGAL_CHARACTERS
 '
 )
 ;
+mDefaultFilename
+.
+ReplaceChar
+(
+FILE_ILLEGAL_CHARACTERS
+'
+-
+'
+)
+;
 return
 NS_OK
 ;
