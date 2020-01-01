@@ -1073,6 +1073,7 @@ wstring
 :
         
 "
+const
 PRUnichar
 *
 {
