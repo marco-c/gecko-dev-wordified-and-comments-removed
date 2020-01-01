@@ -4624,6 +4624,15 @@ unload
 (
 )
 ;
+SyncScheduler
+.
+scheduleNextSync
+(
+SyncScheduler
+.
+activeInterval
+)
+;
 }
 onAbort
 :
