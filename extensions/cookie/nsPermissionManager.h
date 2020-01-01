@@ -653,7 +653,7 @@ aDBOperation
 ;
 static
 void
-AppUninstallObserverInit
+AppClearDataObserverInit
 (
 )
 ;
