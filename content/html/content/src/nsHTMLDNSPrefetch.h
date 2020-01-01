@@ -200,8 +200,7 @@ private
 nsDeferrals
 (
 )
-{
-}
+;
 void
 SubmitQueue
 (
