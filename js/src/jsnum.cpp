@@ -6172,6 +6172,9 @@ out
 #
 ifdef
 DEBUG
+#
+ifndef
+_MSC_VER
 {
 SkipRoot
 skip
@@ -6187,6 +6190,8 @@ cx
 )
 ;
 }
+#
+endif
 #
 endif
 JS_ASSERT
