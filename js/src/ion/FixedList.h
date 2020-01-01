@@ -179,7 +179,9 @@ if
 !
 list
 )
-{
+return
+false
+;
 for
 (
 size_t
@@ -216,10 +218,6 @@ list
 ;
 return
 true
-;
-}
-return
-false
 ;
 }
 T

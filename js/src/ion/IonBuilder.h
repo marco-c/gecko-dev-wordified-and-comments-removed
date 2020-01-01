@@ -518,7 +518,7 @@ StackTypeSet
 calleeTypes
 )
 ;
-unsigned
+bool
 getPolyCallTargets
 (
 types
