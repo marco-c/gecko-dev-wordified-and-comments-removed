@@ -137,6 +137,13 @@ h
 #
 include
 "
+sps_sampler
+.
+h
+"
+#
+include
+"
 platform
 .
 h

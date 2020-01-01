@@ -7,7 +7,7 @@ MOZ_UNWINDER_THREAD_2_H
 #
 include
 "
-GeckoProfilerImpl
+sps_sampler
 .
 h
 "

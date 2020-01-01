@@ -12533,7 +12533,7 @@ endif
 #
 include
 "
-GeckoProfiler
+sampler
 .
 h
 "

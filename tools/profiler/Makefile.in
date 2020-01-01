@@ -89,7 +89,7 @@ autoconf
 mk
 EXPORTS
 =
-GeckoProfiler
+sampler
 .
 h
 ifdef
@@ -98,7 +98,7 @@ EXPORTS
 +
 =
 \
-GeckoProfilerImpl
+sps_sampler
 .
 h
 \
