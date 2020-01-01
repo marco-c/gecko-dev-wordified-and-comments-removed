@@ -11,6 +11,11 @@ nsChannelPolicy
 nsChannelPolicy
 (
 )
+:
+mLoadType
+(
+0
+)
 {
 }
 nsChannelPolicy
