@@ -170,9 +170,6 @@ PRTQUEUE
 p
 )
 ;
-#
-ifdef
-MOZ_CAIRO_GFX
 NS_IMETHOD
 GetSurfaceForPrinter
 (
@@ -212,8 +209,6 @@ EndPage
 (
 )
 ;
-#
-endif
 virtual
 ~
 nsDeviceContextSpecOS2

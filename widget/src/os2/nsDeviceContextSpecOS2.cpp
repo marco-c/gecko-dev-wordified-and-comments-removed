@@ -1514,9 +1514,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_CAIRO_GFX
 NS_IMETHODIMP
 nsDeviceContextSpecOS2
 :
@@ -1591,8 +1588,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-#
-endif
 nsPrinterEnumeratorOS2
 :
 :

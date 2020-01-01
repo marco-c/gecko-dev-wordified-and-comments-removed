@@ -24,14 +24,9 @@ nsIWidget
 class
 nsIPrintSettings
 ;
-#
-ifdef
-MOZ_CAIRO_GFX
 class
 gfxASurface
 ;
-#
-endif
 #
 define
 NS_IDEVICE_CONTEXT_SPEC_IID
@@ -79,9 +74,6 @@ aIsPrintPreview
 =
 0
 ;
-#
-ifdef
-MOZ_CAIRO_GFX
 NS_IMETHOD
 GetSurfaceForPrinter
 (
@@ -131,8 +123,6 @@ EndPage
 =
 0
 ;
-#
-endif
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
