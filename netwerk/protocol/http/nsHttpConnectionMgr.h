@@ -540,6 +540,11 @@ nsHalfOpenSocket
 >
 mHalfOpens
 ;
+PRUint32
+UnconnectedHalfOpens
+(
+)
+;
 const
 static
 PRUint32
