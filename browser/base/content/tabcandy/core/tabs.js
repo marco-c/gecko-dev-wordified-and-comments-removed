@@ -1063,6 +1063,7 @@ window
 .
 TabsManager
 =
+iQ
 .
 extend
 (
