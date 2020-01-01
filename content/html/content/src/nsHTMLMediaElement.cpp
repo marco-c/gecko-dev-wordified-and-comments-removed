@@ -7938,6 +7938,17 @@ AddRemoveSelfReference
 (
 )
 ;
+if
+(
+mReadyState
+>
+=
+nsIDOMHTMLMediaElement
+:
+:
+HAVE_METADATA
+)
+{
 ChangeReadyState
 (
 nsIDOMHTMLMediaElement
@@ -7946,6 +7957,7 @@ nsIDOMHTMLMediaElement
 HAVE_ENOUGH_DATA
 )
 ;
+}
 DispatchAsyncEvent
 (
 NS_LITERAL_STRING
