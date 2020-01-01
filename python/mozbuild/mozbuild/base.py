@@ -1249,6 +1249,9 @@ True
 pass_thru
 =
 False
+num_jobs
+=
+0
 )
 :
         
@@ -1418,6 +1421,29 @@ if
 allow_parallel
 :
             
+if
+num_jobs
+>
+0
+:
+                
+args
+.
+append
+(
+'
+-
+j
+%
+d
+'
+%
+num_jobs
+)
+            
+else
+:
+                
 args
 .
 append
