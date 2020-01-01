@@ -1455,6 +1455,7 @@ nsIDOMNode
 aNode
 )
 ;
+virtual
 PRBool
 IsEditable
 (
