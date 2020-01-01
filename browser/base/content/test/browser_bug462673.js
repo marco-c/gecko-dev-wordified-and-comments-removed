@@ -188,6 +188,8 @@ selectedPanel
 newBrowser
 .
 parentNode
+.
+parentNode
 "
 Panel
 for
