@@ -1494,6 +1494,10 @@ this
 return
 true
 ;
+updateEditUIVisibility
+(
+)
+;
 gContextMenu
 =
 new
@@ -1529,6 +1533,10 @@ this
 gContextMenu
 =
 null
+;
+updateEditUIVisibility
+(
+)
 ;
 }
 "
