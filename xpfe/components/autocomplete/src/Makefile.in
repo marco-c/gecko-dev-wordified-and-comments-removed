@@ -76,10 +76,16 @@ config
 autoconf
 .
 mk
+MODULE_NAME
+=
+xpAutoComplete
 EXPORT_LIBRARY
 =
 1
 LIBXUL_LIBRARY
+=
+1
+IS_COMPONENT
 =
 1
 include

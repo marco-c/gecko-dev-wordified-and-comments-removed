@@ -76,6 +76,12 @@ config
 autoconf
 .
 mk
+IS_COMPONENT
+=
+1
+MODULE_NAME
+=
+appshell
 MSVC_ENABLE_PGO
 :
 =

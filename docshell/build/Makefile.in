@@ -66,6 +66,12 @@ srcdir
 VPATH
 =
 srcdir
+IS_COMPONENT
+=
+1
+MODULE_NAME
+=
+docshell_provider
 include
 (
 DEPTH

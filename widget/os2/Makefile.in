@@ -79,11 +79,17 @@ mk
 EXPORT_LIBRARY
 =
 1
+IS_COMPONENT
+=
+1
 RESFILE
 =
 widget
 .
 res
+MODULE_NAME
+=
+nsWidgetOS2Module
 LIBXUL_LIBRARY
 =
 1

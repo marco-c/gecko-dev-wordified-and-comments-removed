@@ -82,6 +82,12 @@ appcomps
 EXPORT_LIBRARY
 =
 1
+IS_COMPONENT
+=
+1
+MODULE_NAME
+=
+application
 LIBXUL_LIBRARY
 =
 1

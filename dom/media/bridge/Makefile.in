@@ -82,6 +82,12 @@ config
 autoconf
 .
 mk
+MODULE_NAME
+=
+peerconnection
+IS_COMPONENT
+=
+1
 EXPORT_LIBRARY
 =
 1

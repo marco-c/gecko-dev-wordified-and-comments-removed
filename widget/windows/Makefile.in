@@ -86,11 +86,17 @@ MSVC_ENABLE_PGO
 EXPORT_LIBRARY
 =
 1
+IS_COMPONENT
+=
+1
 RESFILE
 =
 widget
 .
 res
+MODULE_NAME
+=
+nsWidgetWinModule
 LIBXUL_LIBRARY
 =
 1

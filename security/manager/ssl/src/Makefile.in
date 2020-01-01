@@ -79,6 +79,12 @@ config
 autoconf
 .
 mk
+IS_COMPONENT
+=
+1
+MODULE_NAME
+=
+NSS
 EXPORT_LIBRARY
 =
 1

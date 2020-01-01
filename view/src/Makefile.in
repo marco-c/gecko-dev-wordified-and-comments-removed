@@ -80,6 +80,9 @@ MSVC_ENABLE_PGO
 :
 =
 1
+MODULE_NAME
+=
+nsViewModule
 LIBXUL_LIBRARY
 =
 1

@@ -88,6 +88,12 @@ widget_winrt
 EXPORT_LIBRARY
 =
 1
+IS_COMPONENT
+=
+1
+MODULE_NAME
+=
+WidgetWinRTModule
 LIBXUL_LIBRARY
 =
 1

@@ -76,6 +76,12 @@ config
 autoconf
 .
 mk
+IS_COMPONENT
+=
+1
+MODULE_NAME
+=
+nsIconDecoderModule
 LIBXUL_LIBRARY
 =
 1

@@ -79,6 +79,9 @@ mk
 LIBRARY_NAME
 =
 imglib2_s
+MODULE_NAME
+=
+nsImageLib2Module
 LIBXUL_LIBRARY
 =
 1
