@@ -127,7 +127,7 @@ BUTTON_DOWN_MASK
 0x80
 ;
 const
-PRUint32
+uint32_t
 kDevicesChangedStableDelay
 =
 200

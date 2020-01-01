@@ -1277,7 +1277,7 @@ mEnablePersistentHttpsCaching
 bool
 mDoNotTrackEnabled
 ;
-PRUint8
+uint8_t
 mDoNotTrackValue
 ;
 bool

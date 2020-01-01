@@ -424,9 +424,9 @@ SetProgressState
 (
 nsTaskbarProgressState
 aState
-PRUint64
+uint64_t
 aCurrentValue
-PRUint64
+uint64_t
 aMaxValue
 )
 {

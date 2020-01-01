@@ -2200,7 +2200,7 @@ MOZ_GAMEPAD
 void
 AddGamepad
 (
-PRUint32
+uint32_t
 aIndex
 nsDOMGamepad
 *
@@ -2210,7 +2210,7 @@ aGamepad
 void
 RemoveGamepad
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -2220,7 +2220,7 @@ nsDOMGamepad
 >
 GetGamepad
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -2246,7 +2246,7 @@ PLDHashOperator
 EnumGamepadsForSync
 (
 const
-PRUint32
+uint32_t
 &
 aKey
 nsDOMGamepad

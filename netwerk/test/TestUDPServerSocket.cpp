@@ -299,7 +299,7 @@ get
 (
 )
 ;
-PRUint32
+uint32_t
 len
 =
 data

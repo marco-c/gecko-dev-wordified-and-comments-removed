@@ -955,7 +955,7 @@ PR_MicrosecondsToInterval
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 microseconds

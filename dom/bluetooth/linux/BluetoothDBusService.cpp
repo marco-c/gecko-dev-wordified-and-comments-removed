@@ -717,7 +717,7 @@ DBusMessage
 sAuthorizeReqTable
 ;
 static
-PRInt32
+int32_t
 sIsPairing
 =
 0

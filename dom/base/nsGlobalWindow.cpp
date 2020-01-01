@@ -46243,7 +46243,7 @@ nsGlobalWindow
 :
 AddGamepad
 (
-PRUint32
+uint32_t
 aIndex
 nsDOMGamepad
 *
@@ -46274,7 +46274,7 @@ nsGlobalWindow
 :
 RemoveGamepad
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -46303,7 +46303,7 @@ nsGlobalWindow
 :
 GetGamepad
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -46398,7 +46398,7 @@ nsGlobalWindow
 EnumGamepadsForSync
 (
 const
-PRUint32
+uint32_t
 &
 aKey
 nsDOMGamepad
