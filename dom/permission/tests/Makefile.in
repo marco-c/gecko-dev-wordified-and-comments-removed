@@ -101,10 +101,6 @@ test_power
 .
 html
 \
-test_settings
-.
-html
-\
 test_systemXHR
 .
 html
