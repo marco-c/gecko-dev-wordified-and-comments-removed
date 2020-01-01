@@ -79208,6 +79208,12 @@ TOPSRCDIR
 _topsrcdir
 }
 \
+MOZ_ASAN
+=
+{
+MOZ_ASAN
+}
+\
 PYTHON
 {
 _topsrcdir
