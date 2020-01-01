@@ -302,17 +302,6 @@ true
 "
 android
 :
-background
-=
-"
-android
-:
-color
-/
-transparent
-"
-android
-:
 gravity
 =
 "
