@@ -522,10 +522,9 @@ id
 if
 (
 !
-JSVAL_TO_JSID
+JS_ValueToId
 (
 cx
-&
 argval
 &
 id
