@@ -364,11 +364,6 @@ NewStringObject
 \
 _
 (
-InitElem
-)
-\
-_
-(
 InitProp
 )
 \
@@ -634,6 +629,11 @@ CallSetProperty
 \
 _
 (
+CallInitElementArray
+)
+\
+_
+(
 DeleteProperty
 )
 \
@@ -720,11 +720,6 @@ GetDOMProperty
 _
 (
 SetDOMProperty
-)
-\
-_
-(
-IsCallable
 )
 \
 _

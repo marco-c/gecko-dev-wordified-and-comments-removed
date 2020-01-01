@@ -133,11 +133,6 @@ ParBailout
 \
 _
 (
-InitElem
-)
-\
-_
-(
 InitProp
 )
 \
@@ -863,6 +858,11 @@ CallSetElement
 \
 _
 (
+CallInitElementArray
+)
+\
+_
+(
 CallSetProperty
 )
 \
@@ -1004,11 +1004,6 @@ SetDOMProperty
 _
 (
 CallDOMNative
-)
-\
-_
-(
-IsCallable
 )
 \
 _

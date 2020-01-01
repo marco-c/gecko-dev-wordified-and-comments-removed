@@ -4966,7 +4966,7 @@ if
 obj
 -
 >
-isArray
+isNative
 (
 )
 &

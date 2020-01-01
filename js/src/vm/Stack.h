@@ -403,7 +403,7 @@ AbstractFramePtr
 uintptr_t
 ptr_
 ;
-protected
+public
 :
 AbstractFramePtr
 (
@@ -415,8 +415,6 @@ ptr_
 )
 {
 }
-public
-:
 AbstractFramePtr
 (
 StackFrame

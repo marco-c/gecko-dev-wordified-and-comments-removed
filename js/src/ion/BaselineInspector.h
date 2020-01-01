@@ -407,6 +407,14 @@ SetElem_Fallback
 )
 ;
 }
+MIRType
+expectedResultType
+(
+jsbytecode
+*
+pc
+)
+;
 }
 ;
 }
