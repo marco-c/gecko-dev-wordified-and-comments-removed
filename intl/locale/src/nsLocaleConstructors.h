@@ -111,13 +111,6 @@ XP_WIN
 #
 include
 "
-nsIwin32LocaleImpl
-.
-h
-"
-#
-include
-"
 nsCollationWin
 .
 h
@@ -326,10 +319,6 @@ Init
 #
 ifdef
 XP_WIN
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsIWin32LocaleImpl
-)
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsCollationWin

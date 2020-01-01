@@ -438,7 +438,7 @@ nsDateTimeFormatWin
 .
 cpp
 \
-nsIWin32LocaleImpl
+nsWin32Locale
 .
 cpp
 \

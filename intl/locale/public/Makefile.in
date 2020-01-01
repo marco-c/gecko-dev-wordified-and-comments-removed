@@ -446,7 +446,7 @@ nsIOS2Locale
 .
 h
 \
-nsIWin32Locale
+nsWin32Locale
 .
 h
 \
