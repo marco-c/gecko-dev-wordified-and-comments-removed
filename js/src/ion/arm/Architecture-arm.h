@@ -6,15 +6,6 @@ define
 ion_arm_Architecture_arm_h
 #
 include
-"
-mozilla
-/
-StandardInteger
-.
-h
-"
-#
-include
 <
 limits
 .
