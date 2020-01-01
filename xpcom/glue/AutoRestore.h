@@ -13,6 +13,13 @@ GuardObjects
 .
 h
 "
+#
+include
+"
+nscore
+.
+h
+"
 namespace
 mozilla
 {
