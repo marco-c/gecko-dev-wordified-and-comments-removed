@@ -418,8 +418,6 @@ DIRS
 \
 tabview
 \
-inspector
-\
 (
 NULL
 )

@@ -439,6 +439,8 @@ mk
 DIRS
 =
 \
+highlighter
+\
 webconsole
 \
 scratchpad
