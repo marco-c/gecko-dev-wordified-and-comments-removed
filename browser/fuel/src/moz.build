@@ -108,3 +108,13 @@ fuelApplication
 manifest
 '
 ]
+EXTRA_PP_COMPONENTS
++
+=
+[
+'
+fuelApplication
+.
+js
+'
+]

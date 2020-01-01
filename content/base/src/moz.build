@@ -803,3 +803,13 @@ nsXMLNameSpaceMap
 cpp
 '
 ]
+EXTRA_PP_COMPONENTS
++
+=
+[
+'
+contentSecurityPolicy
+.
+js
+'
+]

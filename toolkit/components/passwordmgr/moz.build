@@ -185,3 +185,15 @@ Legacy
 js
 '
 ]
+EXTRA_PP_COMPONENTS
++
+=
+[
+'
+storage
+-
+mozStorage
+.
+js
+'
+]

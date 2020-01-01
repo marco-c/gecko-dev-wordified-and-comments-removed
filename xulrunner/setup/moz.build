@@ -113,3 +113,13 @@ MODULE
 '
 xulrunner
 '
+EXTRA_PP_COMPONENTS
++
+=
+[
+'
+nsXULAppInstall
+.
+js
+'
+]

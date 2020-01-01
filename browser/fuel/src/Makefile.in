@@ -80,7 +80,7 @@ DISABLED_EXTRA_COMPONENTS
 fuelApplication
 .
 manifest
-EXTRA_PP_COMPONENTS
+DISABLED_EXTRA_PP_COMPONENTS
 =
 fuelApplication
 .

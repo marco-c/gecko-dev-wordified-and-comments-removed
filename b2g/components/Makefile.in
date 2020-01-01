@@ -75,7 +75,7 @@ config
 autoconf
 .
 mk
-EXTRA_PP_COMPONENTS
+DISABLED_EXTRA_PP_COMPONENTS
 =
 \
 ActivitiesGlue
@@ -169,7 +169,7 @@ NULL
 )
 ifdef
 MOZ_UPDATER
-EXTRA_PP_COMPONENTS
+DISABLED_EXTRA_PP_COMPONENTS
 +
 =
 UpdatePrompt

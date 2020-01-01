@@ -116,3 +116,13 @@ nsIconChannel
 cpp
 '
 ]
+EXTRA_PP_COMPONENTS
++
+=
+[
+'
+gtkqticonsconverter
+.
+js
+'
+]

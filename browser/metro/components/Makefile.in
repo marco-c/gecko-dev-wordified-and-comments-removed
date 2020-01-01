@@ -91,7 +91,7 @@ metro
 components
 .
 manifest
-EXTRA_PP_COMPONENTS
+DISABLED_EXTRA_PP_COMPONENTS
 =
 \
 components

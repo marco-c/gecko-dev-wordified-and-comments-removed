@@ -140,7 +140,7 @@ pre
 -
 processor
 .
-EXTRA_PP_COMPONENTS
+DISABLED_EXTRA_PP_COMPONENTS
 =
 \
 nsUrlClassifierLib

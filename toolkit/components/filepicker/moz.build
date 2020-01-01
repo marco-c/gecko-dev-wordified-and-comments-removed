@@ -163,3 +163,13 @@ nsFilePicker
 js
 '
 ]
+EXTRA_PP_COMPONENTS
++
+=
+[
+'
+nsFilePicker
+.
+manifest
+'
+]

@@ -163,3 +163,13 @@ TelemetryPing
 manifest
 '
 ]
+EXTRA_PP_COMPONENTS
++
+=
+[
+'
+TelemetryPing
+.
+js
+'
+]
