@@ -103,13 +103,6 @@ nsIAtom
 h
 "
 #
-include
-"
-nsISupportsImpl
-.
-h
-"
-#
 ifdef
 DEBUG
 #
@@ -480,7 +473,7 @@ gfxFontEntry
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
+THEBES_INLINE_DECL_REFCOUNTING
 (
 gfxFontEntry
 )
@@ -1092,7 +1085,7 @@ gfxFontFamily
 {
 public
 :
-NS_INLINE_DECL_REFCOUNTING
+THEBES_INLINE_DECL_REFCOUNTING
 (
 gfxFontFamily
 )
@@ -3096,7 +3089,7 @@ class
 THEBES_API
 gfxTextRunFactory
 {
-NS_INLINE_DECL_REFCOUNTING
+THEBES_INLINE_DECL_REFCOUNTING
 (
 gfxTextRunFactory
 )
