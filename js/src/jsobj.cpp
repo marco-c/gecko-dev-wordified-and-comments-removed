@@ -5159,6 +5159,9 @@ caller
 pcQuadratic
 (
 cx
+-
+>
+stack
 )
 ;
 JS_ASSERT_IF

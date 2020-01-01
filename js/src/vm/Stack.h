@@ -1136,9 +1136,10 @@ jsbytecode
 *
 pcQuadratic
 (
-JSContext
-*
-cx
+const
+ContextStack
+&
+stack
 StackFrame
 *
 next

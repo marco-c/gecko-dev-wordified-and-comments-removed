@@ -1617,6 +1617,9 @@ prev
 pcQuadratic
 (
 cx
+-
+>
+stack
 NULL
 &
 prevInline_
@@ -5207,10 +5210,14 @@ ppc
 *
 ppc
 =
-regs_
+fp
 -
 >
-pc
+pcQuadratic
+(
+*
+this
+)
 ;
 return
 fp

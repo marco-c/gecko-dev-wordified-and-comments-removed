@@ -8176,6 +8176,9 @@ prev
 pcQuadratic
 (
 cx
+-
+>
+stack
 fp
 &
 inlined

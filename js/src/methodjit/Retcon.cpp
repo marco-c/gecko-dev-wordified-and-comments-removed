@@ -1714,6 +1714,9 @@ fp
 pcQuadratic
 (
 cx
+-
+>
+stack
 next
 &
 inlined
@@ -2187,6 +2190,9 @@ fp
 pcQuadratic
 (
 cx
+-
+>
+stack
 NULL
 )
 NULL
