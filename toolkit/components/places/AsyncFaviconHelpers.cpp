@@ -3911,8 +3911,9 @@ Truncate
 (
 )
 ;
-MOZ_NOT_REACHED
+MOZ_ASSERT
 (
+false
 "
 Fetching
 favicon

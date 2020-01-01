@@ -5618,6 +5618,7 @@ default
 :
 MOZ_ASSERT
 (
+false
 "
 Unsupported
 annotation
