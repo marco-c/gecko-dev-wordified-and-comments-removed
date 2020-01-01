@@ -1264,8 +1264,6 @@ gre
 -
 resources
 /
-res
-/
 mathml
 .
 css
