@@ -3,13 +3,6 @@ define
 _GNU_SOURCE
 #
 include
-<
-stdlib
-.
-h
->
-#
-include
 "
 cairoint
 .
@@ -1350,7 +1343,7 @@ b
 c
 ;
 }
-cairo_status_t
+void
 _cairo_matrix_compute_scale_factors
 (
 const
@@ -1496,9 +1489,6 @@ major
 ;
 }
 }
-return
-CAIRO_STATUS_SUCCESS
-;
 }
 cairo_bool_t
 _cairo_matrix_is_identity

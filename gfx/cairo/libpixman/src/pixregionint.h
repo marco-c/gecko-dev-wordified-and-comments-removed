@@ -11,7 +11,6 @@ pixman
 .
 h
 "
-typedef
 struct
 pixman_region16_data
 {
@@ -20,19 +19,6 @@ size
 ;
 long
 numRects
-;
-}
-pixman_region16_data_t
-;
-struct
-pixman_region16
-{
-pixman_box16_t
-extents
-;
-pixman_region16_data_t
-*
-data
 ;
 }
 ;
