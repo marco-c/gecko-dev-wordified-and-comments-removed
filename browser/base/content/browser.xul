@@ -5110,13 +5110,13 @@ menu
 id
 =
 "
-appmenu_developer
+appmenu_webDeveloper
 "
 label
 =
 "
 &
-developerMenu
+appMenuWebDeveloper
 .
 label
 ;
@@ -5127,7 +5127,7 @@ menupopup
 id
 =
 "
-appmenu_developer_popup
+appmenu_webDeveloper_popup
 "
 >
 <
