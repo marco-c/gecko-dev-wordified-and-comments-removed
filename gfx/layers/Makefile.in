@@ -153,6 +153,10 @@ BasicImplData
 .
 h
 \
+GonkIOSurfaceImage
+.
+h
+\
 FrameMetrics
 .
 h

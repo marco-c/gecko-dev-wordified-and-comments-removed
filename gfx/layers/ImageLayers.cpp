@@ -85,6 +85,13 @@ ImageContainerChild
 h
 "
 #
+include
+"
+GonkIOSurfaceImage
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #
