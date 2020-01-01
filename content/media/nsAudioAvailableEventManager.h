@@ -93,13 +93,6 @@ PRUint64
 aTime
 )
 ;
-void
-SetSignalBufferLength
-(
-PRUint32
-aLength
-)
-;
 private
 :
 nsBuiltinDecoder
@@ -117,9 +110,6 @@ mSignalBuffer
 ;
 PRUint32
 mSignalBufferLength
-;
-PRUint32
-mNewSignalBufferLength
 ;
 PRUint32
 mSignalBufferPosition
