@@ -1224,6 +1224,7 @@ promise
 function
 promiseStartExternalHelperAppServiceDownload
 (
+aSourceUrl
 )
 {
 let
@@ -1233,6 +1234,9 @@ NetUtil
 .
 newURI
 (
+aSourceUrl
+|
+|
 httpUrl
 (
 "
