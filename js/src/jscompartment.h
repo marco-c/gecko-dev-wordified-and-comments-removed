@@ -752,6 +752,12 @@ void
 *
 data
 ;
+js
+:
+:
+ObjectMetadataCallback
+objectMetadataCallback
+;
 private
 :
 js

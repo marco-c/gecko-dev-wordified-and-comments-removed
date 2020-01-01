@@ -2577,6 +2577,12 @@ obj
 getParent
 (
 )
+obj
+-
+>
+getMetadata
+(
+)
 gc
 :
 :
@@ -8774,6 +8780,12 @@ obj
 -
 >
 getParent
+(
+)
+obj
+-
+>
+getMetadata
 (
 )
 gc

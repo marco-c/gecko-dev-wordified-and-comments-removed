@@ -188,6 +188,10 @@ data
 (
 NULL
 )
+objectMetadataCallback
+(
+NULL
+)
 lastAnimationTime
 (
 0
