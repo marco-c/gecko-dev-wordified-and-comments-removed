@@ -567,16 +567,6 @@ JSGCStatus
 aStatus
 )
 ;
-bool
-OnContext
-(
-JSContext
-*
-aCx
-unsigned
-aOperation
-)
-;
 public
 :
 void
