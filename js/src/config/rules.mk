@@ -1533,9 +1533,6 @@ LIBS
 +
 =
 (
-XPCOM_LIBS
-)
-(
 XPCOM_GLUE_LDOPTS
 )
 (
