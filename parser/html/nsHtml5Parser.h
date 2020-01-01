@@ -219,7 +219,6 @@ nsIContentSink
 )
 GetContentSink
 (
-void
 )
 ;
 NS_IMETHOD_
@@ -427,7 +426,6 @@ GetRootContextKey
 NS_IMETHOD
 Terminate
 (
-void
 )
 ;
 NS_IMETHOD
@@ -480,7 +478,6 @@ aQuirks
 NS_IMETHOD
 BuildModel
 (
-void
 )
 ;
 NS_IMETHODIMP

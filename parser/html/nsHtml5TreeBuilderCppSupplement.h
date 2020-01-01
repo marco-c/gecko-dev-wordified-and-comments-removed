@@ -3370,6 +3370,10 @@ Flush
 (
 )
 {
+flushCharacters
+(
+)
+;
 FlushLoads
 (
 )

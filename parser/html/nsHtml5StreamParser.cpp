@@ -4899,13 +4899,6 @@ IsDiscretionaryFlushSafe
 )
 )
 {
-mTreeBuilder
--
->
-flushCharacters
-(
-)
-;
 if
 (
 mTreeBuilder
