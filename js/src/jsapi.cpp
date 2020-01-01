@@ -8202,10 +8202,10 @@ ArrayBuffer
 js
 :
 :
-ArrayBuffer
+ArrayBufferObject
 :
 :
-slowClass
+protoClass
 }
 {
 js_InitWeakMapClass

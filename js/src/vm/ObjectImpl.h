@@ -2582,6 +2582,9 @@ this
 ;
 }
 class
+ArrayBufferObject
+;
+class
 ObjectElements
 {
 friend
@@ -2593,6 +2596,13 @@ JSObject
 friend
 class
 ObjectImpl
+;
+friend
+struct
+js
+:
+:
+ArrayBufferObject
 ;
 uint32_t
 capacity

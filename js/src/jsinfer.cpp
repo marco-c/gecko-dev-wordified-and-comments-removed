@@ -8418,7 +8418,7 @@ getClass
 TypedArray
 :
 :
-slowClasses
+protoClasses
 ;
 JS_ASSERT
 (
