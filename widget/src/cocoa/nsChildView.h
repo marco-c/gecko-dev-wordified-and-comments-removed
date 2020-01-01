@@ -282,9 +282,6 @@ nsIDragService
 *
 mDragService
 ;
-PRUint32
-mLastModifierState
-;
 TSMDocumentID
 mPluginTSMDoc
 ;
