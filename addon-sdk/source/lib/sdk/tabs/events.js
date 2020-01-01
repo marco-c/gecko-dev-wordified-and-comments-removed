@@ -40,6 +40,16 @@ ready
 "
 DOMContentLoaded
 "
+load
+:
+"
+load
+"
+pageshow
+:
+"
+pageshow
+"
 open
 :
 "

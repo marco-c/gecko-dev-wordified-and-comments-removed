@@ -521,8 +521,6 @@ org
 contentScriptFile
 :
 [
-self
-.
 data
 .
 url
@@ -539,8 +537,6 @@ min
 js
 "
 )
-self
-.
 data
 .
 url
