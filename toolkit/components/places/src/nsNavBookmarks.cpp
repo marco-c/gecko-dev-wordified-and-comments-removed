@@ -10630,6 +10630,9 @@ OnQuit
 (
 )
 {
+#
+ifdef
+MOZ_PLACES_BOOKMARKS
 nsCOMPtr
 <
 nsIFile
@@ -10826,6 +10829,8 @@ rv
 )
 ;
 }
+#
+endif
 return
 NS_OK
 ;
