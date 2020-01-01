@@ -417,6 +417,16 @@ html5p_s
 LIBXUL_LIBRARY
 =
 1
+XPIDLSRCS
+=
+\
+nsIParserUtils
+.
+idl
+\
+(
+NULL
+)
 EXPORTS
 =
 \

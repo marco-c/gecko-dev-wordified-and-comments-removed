@@ -316,6 +316,8 @@ aSourceBuffer
 nsIDocument
 *
 aTargetDoc
+bool
+aScriptingEnabledForNoscriptParsing
 )
 {
 MOZ_ASSERT
@@ -364,7 +366,7 @@ Tokenize
 (
 aSourceBuffer
 aTargetDoc
-false
+aScriptingEnabledForNoscriptParsing
 )
 ;
 return

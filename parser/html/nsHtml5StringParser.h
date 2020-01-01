@@ -83,6 +83,8 @@ aSourceBuffer
 nsIDocument
 *
 aTargetDoc
+bool
+aScriptingEnabledForNoscriptParsing
 )
 ;
 private
