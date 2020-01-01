@@ -90,6 +90,16 @@ PR_USEC_PER_MSEC
 1000
 ;
 const
+PR_USEC_PER_SEC
+=
+1000000
+;
+const
+PR_MSEC_PER_SEC
+=
+1000
+;
+const
 DATA_DIR
 =
 "
