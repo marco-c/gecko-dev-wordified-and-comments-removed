@@ -359,6 +359,14 @@ IndexInParent
 const
 ;
 virtual
+Relation
+RelationByType
+(
+PRUint32
+aType
+)
+;
+virtual
 PRUint32
 NativeRole
 (
