@@ -843,10 +843,6 @@ jsgcstats
 .
 cpp
 \
-GlobalObject
-.
-cpp
-\
 jshash
 .
 cpp
@@ -979,6 +975,10 @@ sharkctl
 .
 cpp
 \
+GlobalObject
+.
+cpp
+\
 Stack
 .
 cpp
@@ -1108,10 +1108,6 @@ jsgcstats
 h
 \
 jscompartment
-.
-h
-\
-GlobalObject
 .
 h
 \
@@ -1396,6 +1392,10 @@ EXPORTS_NAMESPACES
 vm
 EXPORTS_vm
 =
+\
+GlobalObject
+.
+h
 \
 Stack
 .
