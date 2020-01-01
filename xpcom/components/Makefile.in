@@ -443,10 +443,6 @@ NULL
 EXPORTS_mozilla
 =
 \
-GenericFactory
-.
-h
-\
 Module
 .
 h
@@ -478,10 +474,6 @@ ManifestParser
 cpp
 \
 nsNativeComponentLoader
-.
-cpp
-\
-GenericFactory
 .
 cpp
 \

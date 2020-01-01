@@ -141,3 +141,8 @@ nsSampleModule
 &
 kSampleModule
 ;
+NS_IMPL_MOZILLA192_NSGETMODULE
+(
+&
+kSampleModule
+)

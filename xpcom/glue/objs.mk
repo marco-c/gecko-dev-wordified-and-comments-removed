@@ -567,6 +567,10 @@ nsTextFormatter
 .
 cpp
 \
+GenericFactory
+.
+cpp
+\
 (
 NULL
 )

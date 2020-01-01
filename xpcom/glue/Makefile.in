@@ -494,6 +494,10 @@ nsStringAPI
 .
 cpp
 \
+GenericModule
+.
+cpp
+\
 (
 NULL
 )
@@ -716,6 +720,10 @@ CondVar
 h
 \
 DeadlockDetector
+.
+h
+\
+GenericFactory
 .
 h
 \
