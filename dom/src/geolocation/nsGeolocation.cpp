@@ -364,6 +364,10 @@ location
 if
 (
 mCleared
+|
+|
+!
+mAllowed
 )
 return
 ;
