@@ -1374,6 +1374,16 @@ GetScreenDepth
 )
 const
 ;
+bool
+WidgetUpdateFlashing
+(
+)
+const
+{
+return
+mWidgetUpdateFlashing
+;
+}
 protected
 :
 gfxPlatform
@@ -1653,6 +1663,9 @@ gfx
 DrawEventRecorder
 >
 mRecorder
+;
+bool
+mWidgetUpdateFlashing
 ;
 }
 ;
