@@ -247,12 +247,6 @@ loadChangedIDs
 (
 )
 ;
-this
-.
-enable
-(
-)
-;
 }
 get
 score
