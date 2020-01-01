@@ -699,6 +699,7 @@ if
 inst
 )
 {
+const
 char
 *
 mimetype
