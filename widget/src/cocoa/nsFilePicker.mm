@@ -3160,9 +3160,6 @@ continue
 if
 (
 filterWide
-&
-&
-filterWide
 .
 Length
 (
@@ -3764,7 +3761,7 @@ aFilter
 ;
 mTitles
 .
-AppendElemet
+AppendElement
 (
 aTitle
 )
