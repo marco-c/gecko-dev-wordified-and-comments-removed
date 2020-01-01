@@ -3404,6 +3404,17 @@ frag
 fragEntry
 )
 ;
+NanoAssert
+(
+frag
+-
+>
+fragEntry
+!
+=
+was
+)
+;
 verbose_only
 (
 verbose_outputf
