@@ -448,6 +448,14 @@ browser_responsiveui
 .
 js
 \
+browser_responsiveruleview
+.
+js
+\
+browser_responsivecomputedview
+.
+js
+\
 (
 NULL
 )
