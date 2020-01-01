@@ -331,7 +331,7 @@ false
 ;
 file
 =
-firSvc
+dirSvc
 .
 get
 (
