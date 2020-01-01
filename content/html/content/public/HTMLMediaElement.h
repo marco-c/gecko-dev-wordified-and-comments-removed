@@ -220,6 +220,9 @@ MediaDecoder
 class
 nsITimer
 ;
+class
+nsRange
+;
 namespace
 mozilla
 {
@@ -2078,9 +2081,9 @@ mError
 uint32_t
 mCurrentLoadID
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMRange
+nsRange
 >
 mSourcePointer
 ;
