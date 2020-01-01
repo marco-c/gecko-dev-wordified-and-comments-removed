@@ -1739,10 +1739,7 @@ ind
 sqlite3_bind_parameter_index
 (
 mDBStatement
-PromiseFlatCString
-(
 name
-)
 .
 get
 (
