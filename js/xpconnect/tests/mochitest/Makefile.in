@@ -399,6 +399,10 @@ test_bug809547
 .
 html
 \
+test_bug809674
+.
+html
+\
 file_crosscompartment_weakmap
 .
 html
