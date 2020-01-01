@@ -121,7 +121,7 @@ Clone
 )
 const
 ;
-NS_IMETHOD
+void
 SetURLSpec
 (
 const
@@ -129,8 +129,13 @@ nsString
 &
 aURLSpec
 )
+{
+mURLSpec
+=
+aURLSpec
 ;
-NS_IMETHOD
+}
+void
 GetURLSpec
 (
 nsString
@@ -138,8 +143,13 @@ nsString
 aURLSpec
 )
 const
+{
+aURLSpec
+=
+mURLSpec
 ;
-NS_IMETHOD
+}
+nsresult
 SetMedia
 (
 const
@@ -148,7 +158,7 @@ nsString
 aMedia
 )
 ;
-NS_IMETHOD
+void
 GetMedia
 (
 nsString
@@ -157,7 +167,7 @@ aMedia
 )
 const
 ;
-NS_IMETHOD
+void
 SetSheet
 (
 nsCSSStyleSheet
