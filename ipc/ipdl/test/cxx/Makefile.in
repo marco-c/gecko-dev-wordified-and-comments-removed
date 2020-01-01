@@ -475,6 +475,8 @@ IPDLTESTS
 \
 TestBlockChild
 \
+TestBridgeMain
+\
 TestCrashCleanup
 \
 TestDataStructures
@@ -540,6 +542,12 @@ TestSysVShmem
 endif
 EXTRA_PROTOCOLS
 =
+\
+TestBridgeSub
+\
+(
+NULL
+)
 IPDLTESTSRCS
 =
 (
