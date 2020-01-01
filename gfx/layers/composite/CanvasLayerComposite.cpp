@@ -403,14 +403,6 @@ filter
 clipRect
 )
 ;
-LayerManagerComposite
-:
-:
-RemoveMaskEffect
-(
-mMaskLayer
-)
-;
 }
 CompositableHost
 *

@@ -2053,7 +2053,7 @@ DeallocateDeviceData
 ;
 MOZ_COUNT_DTOR
 (
-MemoryTextureHost
+ShmemTextureHost
 )
 ;
 }

@@ -226,16 +226,6 @@ y
 )
 )
 ;
-LayerManagerComposite
-:
-:
-RemoveMaskEffect
-(
-GetMaskLayer
-(
-)
-)
-;
 }
 }
 }
