@@ -178,6 +178,12 @@ properties
 .
 js
 script
+getOwnPropertyNames
+-
+__proto__
+.
+js
+script
 iterator
 -
 in
