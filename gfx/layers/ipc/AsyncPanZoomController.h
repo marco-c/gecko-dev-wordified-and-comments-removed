@@ -300,16 +300,6 @@ aEstimatedPaintDuration
 )
 ;
 static
-CSSToScreenScale
-CalculateResolution
-(
-const
-FrameMetrics
-&
-aMetrics
-)
-;
-static
 CSSRect
 CalculateCompositedRectInCssPixels
 (
