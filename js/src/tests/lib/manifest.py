@@ -8,7 +8,8 @@ sys
 from
 subprocess
 import
-*
+Popen
+PIPE
 from
 tests
 import
