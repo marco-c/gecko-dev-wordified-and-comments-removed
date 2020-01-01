@@ -688,6 +688,10 @@ test_animation
 .
 html
 \
+test_animation2
+.
+html
+\
 animated
 -
 gif
