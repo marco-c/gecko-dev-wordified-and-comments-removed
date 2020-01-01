@@ -1120,6 +1120,16 @@ AdjustWindowShadow
 (
 )
 ;
+void
+SetUpWindowFilter
+(
+)
+;
+void
+CleanUpWindowFilter
+(
+)
+;
 nsIWidget
 *
 mParent
@@ -1148,6 +1158,9 @@ mPopupContentView
 ;
 PRInt32
 mShadowStyle
+;
+NSUInteger
+mWindowFilter
 ;
 PRPackedBool
 mIsResizing
