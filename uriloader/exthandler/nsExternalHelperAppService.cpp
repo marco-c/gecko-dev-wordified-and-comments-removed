@@ -1922,6 +1922,16 @@ Image
 "
 }
 {
+IMAGE_WBMP
+"
+wbmp
+"
+"
+WBMP
+Image
+"
+}
+{
 "
 image
 /
