@@ -1525,7 +1525,8 @@ masm
 )
 const
 ;
-void
+FrameEntry
+*
 uncopy
 (
 FrameEntry
