@@ -70,7 +70,8 @@ nsIObserver
 NS_DECL_NSIOBSERVER
 nsPluginArray
 (
-nsWeakPtr
+nsPIDOMWindow
+*
 aWindow
 )
 ;
@@ -209,7 +210,10 @@ EnsurePlugins
 (
 )
 ;
-nsWeakPtr
+nsCOMPtr
+<
+nsPIDOMWindow
+>
 mWindow
 ;
 nsTArray
@@ -241,7 +245,8 @@ nsPluginElement
 )
 nsPluginElement
 (
-nsWeakPtr
+nsPIDOMWindow
+*
 aWindow
 nsPluginTag
 *
@@ -399,7 +404,10 @@ EnsureMimeTypes
 (
 )
 ;
-nsWeakPtr
+nsCOMPtr
+<
+nsPIDOMWindow
+>
 mWindow
 ;
 nsRefPtr
