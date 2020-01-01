@@ -635,7 +635,15 @@ test_bug392511
 .
 html
 \
+test_bug393968
+.
+html
+\
 test_bug395915
+.
+html
+\
+test_bug397234
 .
 html
 \
