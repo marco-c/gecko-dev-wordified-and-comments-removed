@@ -403,6 +403,9 @@ TERM
 DEFINITION
 =
 128
+KEY
+=
+129
 }
 ;
 }
