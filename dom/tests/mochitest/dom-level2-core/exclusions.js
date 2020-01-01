@@ -23,9 +23,6 @@ documentimportnode21
 documentimportnode22
 "
 "
-documenttypeinternalSubset01
-"
-"
 elementgetattributenodens03
 "
 "
