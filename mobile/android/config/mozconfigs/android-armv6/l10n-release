@@ -152,6 +152,10 @@ export
 MOZILLA_OFFICIAL
 =
 1
+export
+MOZ_PKG_SPECIAL
+=
+armv6
 ac_add_options
 -
 -
