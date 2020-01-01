@@ -1837,6 +1837,16 @@ pc_array
 0
 }
 ;
+StackWalkCallback
+(
+aSample
+-
+>
+pc
+&
+array
+)
+;
 #
 ifdef
 XP_MACOSX
