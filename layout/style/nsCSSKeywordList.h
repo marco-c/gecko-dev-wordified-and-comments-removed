@@ -1214,6 +1214,13 @@ CSS_KEY
 (
 break
 -
+all
+break_all
+)
+CSS_KEY
+(
+break
+-
 word
 break_word
 )
@@ -1781,6 +1788,13 @@ katakana
 -
 iroha
 katakana_iroha
+)
+CSS_KEY
+(
+keep
+-
+all
+keep_all
 )
 CSS_KEY
 (

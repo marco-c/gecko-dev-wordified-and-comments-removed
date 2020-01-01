@@ -1625,7 +1625,14 @@ kWindowShadowKTable
 static
 const
 PRInt32
-kWordwrapKTable
+kWordBreakKTable
+[
+]
+;
+static
+const
+PRInt32
+kWordWrapKTable
 [
 ]
 ;
