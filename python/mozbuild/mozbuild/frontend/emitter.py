@@ -811,6 +811,19 @@ Exports
 (
 sandbox
 exports
+                
+dist_install
+=
+not
+sandbox
+.
+get
+(
+'
+NO_DIST_INSTALL
+'
+False
+)
 )
         
 program
