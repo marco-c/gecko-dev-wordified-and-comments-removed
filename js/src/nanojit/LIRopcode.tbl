@@ -896,7 +896,7 @@ OPDEF
 (
 ld
 10
-1
+2
 Ld
 0
 )
@@ -1436,7 +1436,7 @@ OPDEF
 (
 ldcb
 32
-1
+2
 Ld
 0
 )
@@ -1453,7 +1453,7 @@ OPDEF
 (
 ldcs
 33
-1
+2
 Ld
 0
 )
@@ -1470,7 +1470,7 @@ OPDEF
 (
 ldc
 34
-1
+2
 Ld
 0
 )
@@ -2269,7 +2269,7 @@ OPDEF64
 (
 ldq
 LIR_ld
-1
+2
 Ld
 0
 )
@@ -2568,7 +2568,7 @@ OPDEF64
 (
 ldqc
 LIR_ldc
-1
+2
 Ld
 0
 )
