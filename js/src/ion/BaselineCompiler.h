@@ -309,6 +309,16 @@ JSOP_ADD
 \
 _
 (
+JSOP_SUB
+)
+\
+_
+(
+JSOP_MUL
+)
+\
+_
+(
 JSOP_LT
 )
 \
