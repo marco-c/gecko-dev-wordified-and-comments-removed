@@ -159,13 +159,6 @@ h
 #
 include
 "
-nsIDOM3Node
-.
-h
-"
-#
-include
-"
 nsIIOService
 .
 h
@@ -9200,6 +9193,8 @@ aQualifiedName
 nsNodeInfoManager
 *
 aNodeInfoManager
+PRUint16
+aNodeType
 nsINodeInfo
 *
 *
@@ -9319,6 +9314,7 @@ end
 )
 prefix
 nsID
+aNodeType
 aNodeInfo
 )
 ;
@@ -9335,6 +9331,7 @@ GetNodeInfo
 aQualifiedName
 nsnull
 nsID
+aNodeType
 aNodeInfo
 )
 ;

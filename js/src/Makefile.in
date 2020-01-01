@@ -1485,6 +1485,10 @@ RangedPtr
 .
 h
 \
+RefPtr
+.
+h
+\
 Types
 .
 h
