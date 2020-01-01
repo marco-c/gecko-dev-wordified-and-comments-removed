@@ -8436,6 +8436,14 @@ AndroidKeyEvent
 :
 KEYCODE_DPAD_CENTER
 :
+event
+.
+keyCode
+=
+NS_VK_ENTER
+;
+break
+;
 case
 AndroidKeyEvent
 :
