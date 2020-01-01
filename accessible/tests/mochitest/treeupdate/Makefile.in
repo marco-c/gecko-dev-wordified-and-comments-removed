@@ -455,6 +455,14 @@ test_list
 .
 html
 \
+test_recreation
+.
+html
+\
+test_tableinsubtree
+.
+html
+\
 (
 NULL
 )

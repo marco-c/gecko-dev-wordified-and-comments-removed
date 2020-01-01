@@ -1101,7 +1101,6 @@ nsIAccessibleEvent
 :
 EVENT_TEXT_ATTRIBUTE_CHANGED
 textAcc
-nsnull
 )
 ;
 nsEventShell

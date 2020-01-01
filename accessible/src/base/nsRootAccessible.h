@@ -216,10 +216,6 @@ PRBool
 aForceEvent
 =
 PR_FALSE
-PRBool
-aIsAsynch
-=
-PR_FALSE
 EIsFromUserInput
 aIsFromUserInput
 =

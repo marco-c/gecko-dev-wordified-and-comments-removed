@@ -508,8 +508,6 @@ nsChangeHint
 aMinChange
 nsRestyleHint
 aRestyleHint
-PRBool
-aFireAccessibilityEvents
 RestyleTracker
 &
 aRestyleTracker
