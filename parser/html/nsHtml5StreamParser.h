@@ -539,6 +539,17 @@ PRUint32
 aWriteCount
 )
 ;
+void
+SniffBOMlessUTF16BasicLatin
+(
+const
+PRUint8
+*
+aFromSegment
+PRUint32
+aCountToSniffingLimit
+)
+;
 nsresult
 FinalizeSniffing
 (
