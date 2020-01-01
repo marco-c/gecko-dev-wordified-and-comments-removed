@@ -7,6 +7,9 @@ define
 HAVE_FISHSOUND
 #
 define
+HAVE_GLUT
+#
+define
 HAVE_INTTYPES_H
 1
 #
@@ -91,3 +94,6 @@ VERSION
 .
 svn
 "
+#
+undef
+HAVE_GLUT

@@ -435,9 +435,6 @@ content_type
 !
 =
 OGGZ_CONTENT_CMML
-#
-ifdef
-HAVE_KATE
 &
 &
 me
@@ -453,8 +450,6 @@ content_type
 !
 =
 OGGZ_CONTENT_KATE
-#
-endif
 )
 {
 me
@@ -608,9 +603,6 @@ content_type
 !
 =
 OGGZ_CONTENT_CMML
-#
-ifdef
-HAVE_KATE
 &
 &
 me
@@ -626,8 +618,6 @@ content_type
 !
 =
 OGGZ_CONTENT_KATE
-#
-endif
 )
 {
 me

@@ -1325,9 +1325,6 @@ char
 category
 )
 {
-#
-ifdef
-HAVE_KATE
 OggPlayKateDecode
 *
 decode
@@ -1401,6 +1398,9 @@ track
 ]
 )
 ;
+#
+ifdef
+HAVE_KATE
 (
 *
 category
@@ -1795,9 +1795,6 @@ OGGZ_CONTENT_CMML
 )
 continue
 ;
-#
-ifdef
-HAVE_KATE
 if
 (
 me
@@ -1816,8 +1813,6 @@ OGGZ_CONTENT_KATE
 )
 continue
 ;
-#
-endif
 if
 (
 me
