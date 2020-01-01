@@ -1262,7 +1262,7 @@ js
 Value
 positiveInfinityValue
 ;
-JSFlatString
+JSAtom
 *
 emptyString
 ;

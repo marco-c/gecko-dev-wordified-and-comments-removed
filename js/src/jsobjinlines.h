@@ -3191,7 +3191,7 @@ decl
 ;
 }
 inline
-JSLinearString
+JSAtom
 *
 JSObject
 :
@@ -3237,7 +3237,7 @@ toString
 )
 -
 >
-asLinear
+asAtom
 (
 )
 :
@@ -3281,7 +3281,7 @@ JSObject
 :
 setQNameLocalName
 (
-JSLinearString
+JSAtom
 *
 name
 )
