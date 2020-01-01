@@ -956,14 +956,6 @@ aScale
 ;
 nsRect
 &
-ScaleRoundOutInverse
-(
-float
-aScale
-)
-;
-nsRect
-&
 ScaleRoundIn
 (
 float
