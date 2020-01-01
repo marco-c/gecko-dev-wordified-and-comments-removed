@@ -7347,6 +7347,7 @@ DeveloperToolbar
 .
 show
 (
+false
 )
 ;
 }

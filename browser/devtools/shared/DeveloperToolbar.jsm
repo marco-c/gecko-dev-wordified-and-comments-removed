@@ -432,6 +432,7 @@ this
 .
 show
 (
+true
 )
 ;
 }
@@ -452,6 +453,7 @@ show
 function
 DT_show
 (
+aFocus
 aCallback
 )
 {
@@ -544,6 +546,7 @@ this
 .
 _onload
 (
+aFocus
 )
 ;
 }
@@ -617,6 +620,7 @@ _onload
 function
 DT_onload
 (
+aFocus
 )
 {
 this
@@ -935,6 +939,11 @@ hidden
 =
 false
 ;
+if
+(
+aFocus
+)
+{
 this
 .
 _input
@@ -943,6 +952,7 @@ focus
 (
 )
 ;
+}
 this
 .
 _notify

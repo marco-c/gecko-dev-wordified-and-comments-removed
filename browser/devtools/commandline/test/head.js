@@ -247,6 +247,7 @@ DeveloperToolbar
 .
 show
 (
+true
 aCallback
 )
 ;
