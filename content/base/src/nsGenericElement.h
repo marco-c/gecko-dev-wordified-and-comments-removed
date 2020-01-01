@@ -1035,7 +1035,7 @@ nsnull
 ;
 }
 virtual
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 *
 GetSMILOverrideStyle
 (
@@ -1070,6 +1070,13 @@ aStyleRule
 bool
 aNotify
 )
+;
+virtual
+bool
+IsLabelable
+(
+)
+const
 ;
 #
 ifdef

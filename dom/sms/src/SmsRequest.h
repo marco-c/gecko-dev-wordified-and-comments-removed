@@ -51,6 +51,7 @@ class
 SmsRequestManager
 ;
 NS_DECL_ISUPPORTS
+NS_DECL_NSIDOMDOMREQUEST
 NS_DECL_NSIDOMMOZSMSREQUEST
 NS_FORWARD_NSIDOMEVENTTARGET
 (
@@ -147,11 +148,14 @@ mResult
 bool
 mResultRooted
 ;
-PRInt32
-mError
-;
 bool
 mDone
+;
+nsCOMPtr
+<
+nsIDOMDOMError
+>
+mError
 ;
 nsCOMPtr
 <

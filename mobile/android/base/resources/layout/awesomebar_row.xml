@@ -196,7 +196,7 @@ id
 +
 id
 /
-bookmark_star
+bookmark_icon
 "
 android
 :
@@ -246,15 +246,6 @@ minHeight
 =
 "
 32dip
-"
-android
-:
-src
-=
-"
-drawable
-/
-ic_awesomebar_star
 "
 android
 :
@@ -331,7 +322,7 @@ layout_toLeftOf
 "
 id
 /
-bookmark_star
+bookmark_icon
 "
 android
 :
@@ -431,7 +422,7 @@ layout_toLeftOf
 "
 id
 /
-bookmark_star
+bookmark_icon
 "
 android
 :

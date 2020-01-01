@@ -128,6 +128,10 @@ failing_tests_mac
 .
 txt
 \
+failing_tests_android
+.
+txt
+\
 (
 NULL
 )

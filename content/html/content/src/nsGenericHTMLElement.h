@@ -1454,6 +1454,13 @@ hidden
 )
 ;
 }
+virtual
+bool
+IsLabelable
+(
+)
+const
+;
 protected
 :
 void
@@ -2210,6 +2217,13 @@ PRInt32
 *
 aTabIndex
 )
+;
+virtual
+bool
+IsLabelable
+(
+)
+const
 ;
 protected
 :

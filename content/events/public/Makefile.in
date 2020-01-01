@@ -96,10 +96,6 @@ nsMutationEvent
 .
 h
 \
-nsIPrivateDOMEvent
-.
-h
-\
 nsIPrivateTextEvent
 .
 h

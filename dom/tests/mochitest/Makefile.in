@@ -133,10 +133,6 @@ storageevent
 \
 pointerlock
 \
-browser
--
-frame
-\
 webapps
 \
 (

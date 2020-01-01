@@ -131,7 +131,10 @@ aDirection
 NS_IMETHOD
 WillDoAction
 (
-nsTypedSelection
+mozilla
+:
+:
+Selection
 *
 aSelection
 nsRulesInfo

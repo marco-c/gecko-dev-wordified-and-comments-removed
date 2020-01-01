@@ -18179,10 +18179,7 @@ findVersion
 (
 )
 NULL
-UpvarCookie
-:
-:
-UPVAR_LEVEL_LIMIT
+1
 )
 ;
 if

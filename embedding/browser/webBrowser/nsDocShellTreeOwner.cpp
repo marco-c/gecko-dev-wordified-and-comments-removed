@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

@@ -686,6 +686,7 @@ FRAGMENT_SHADER_DERIVATIVE_HINT_OES
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 b0afc2eb
@@ -718,6 +719,7 @@ restoreContext
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 73bfb64d

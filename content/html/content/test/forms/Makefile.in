@@ -232,6 +232,16 @@ test_option_disabled
 .
 html
 \
+test_meter_element
+.
+html
+\
+test_meter_pseudo
+-
+classes
+.
+html
+\
 (
 NULL
 )

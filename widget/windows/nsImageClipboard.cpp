@@ -740,7 +740,7 @@ if
 strcmp
 (
 aMIMEFormat
-kJPEGImageMime
+kJPGImageMime
 )
 =
 =

@@ -233,7 +233,10 @@ aDirection
 NS_IMETHOD
 WillDoAction
 (
-nsTypedSelection
+mozilla
+:
+:
+Selection
 *
 aSelection
 nsRulesInfo
@@ -584,7 +587,10 @@ nsEditor
 :
 OperationID
 aAction
-nsISelection
+mozilla
+:
+:
+Selection
 *
 aSelection
 bool
@@ -618,7 +624,10 @@ aCancel
 nsresult
 WillInsertBreak
 (
-nsISelection
+mozilla
+:
+:
+Selection
 *
 aSelection
 bool
@@ -668,7 +677,10 @@ aHandled
 nsresult
 WillDeleteSelection
 (
-nsISelection
+mozilla
+:
+:
+Selection
 *
 aSelection
 nsIEditor

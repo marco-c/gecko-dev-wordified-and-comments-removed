@@ -97,6 +97,15 @@ WrapperFactory
 WAIVE_XRAY_WRAPPER_FLAG
 )
 ;
+NoWaiverWrapper
+NoWaiverWrapper
+:
+:
+singleton
+(
+0
+)
+;
 CrossOriginWrapper
 CrossOriginWrapper
 :
@@ -1452,7 +1461,7 @@ else
 wrapper
 =
 &
-CrossCompartmentWrapper
+NoWaiverWrapper
 :
 :
 singleton

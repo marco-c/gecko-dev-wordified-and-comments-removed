@@ -5696,6 +5696,13 @@ aCx
 JSObject
 *
 aGlobal
+const
+Optional
+<
+jsval
+>
+&
+aParams
 ErrorResult
 &
 aRv

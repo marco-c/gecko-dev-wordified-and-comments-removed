@@ -25,6 +25,10 @@ PTestDataStructures
 .
 ipdl
 \
+PTestDataStructuresCommon
+.
+ipdlh
+\
 PTestDataStructuresSub
 .
 ipdl
