@@ -139,6 +139,11 @@ nsSVGClipPathFrame
 *
 aFrame
 )
+:
+mFrame
+(
+aFrame
+)
 {
 NS_ASSERTION
 (
