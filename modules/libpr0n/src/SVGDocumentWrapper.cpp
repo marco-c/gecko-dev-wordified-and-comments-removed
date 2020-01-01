@@ -1099,6 +1099,10 @@ mLoadGroup
 =
 nsnull
 ;
+mRegisteredForXPCOMShutdown
+=
+PR_FALSE
+;
 }
 else
 {
