@@ -1793,6 +1793,9 @@ arrayLen
 if
 (
 !
+this
+-
+>
 EnsureCapacity
 (
 Length
@@ -1817,6 +1820,9 @@ start
 count
 )
 ;
+this
+-
+>
 ShiftData
 (
 start
@@ -2019,6 +2025,9 @@ index
 if
 (
 !
+this
+-
+>
 EnsureCapacity
 (
 Length
@@ -2035,6 +2044,9 @@ elem_type
 return
 nsnull
 ;
+this
+-
+>
 ShiftData
 (
 index
@@ -2365,6 +2377,9 @@ arrayLen
 if
 (
 !
+this
+-
+>
 EnsureCapacity
 (
 Length
@@ -2395,6 +2410,9 @@ arrayLen
 array
 )
 ;
+this
+-
+>
 IncrementLength
 (
 arrayLen
@@ -2480,6 +2498,9 @@ count
 if
 (
 !
+this
+-
+>
 EnsureCapacity
 (
 Length
@@ -2537,6 +2558,9 @@ i
 )
 ;
 }
+this
+-
+>
 IncrementLength
 (
 count
@@ -2614,6 +2638,9 @@ Length
 if
 (
 !
+this
+-
+>
 EnsureCapacity
 (
 len
@@ -2648,6 +2675,9 @@ elem_type
 )
 )
 ;
+this
+-
+>
 IncrementLength
 (
 otherLen
@@ -2725,6 +2755,9 @@ start
 count
 )
 ;
+this
+-
+>
 ShiftData
 (
 start
@@ -2935,6 +2968,9 @@ other
 )
 {
 return
+this
+-
+>
 SwapArrayElements
 (
 other
@@ -2953,6 +2989,9 @@ capacity
 )
 {
 return
+this
+-
+>
 EnsureCapacity
 (
 capacity
