@@ -1393,17 +1393,6 @@ aDefault
 )
 ;
 static
-nsIPrefBranch2
-*
-GetPrefBranch
-(
-)
-{
-return
-sPrefBranch
-;
-}
-static
 PRBool
 IsSitePermAllow
 (
