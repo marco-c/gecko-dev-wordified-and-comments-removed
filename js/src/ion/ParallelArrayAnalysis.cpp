@@ -397,10 +397,6 @@ JSContext
 *
 cx_
 ;
-ParallelCompileContext
-&
-compileContext_
-;
 MIRGraph
 &
 graph_
@@ -486,9 +482,6 @@ ParallelArrayVisitor
 JSContext
 *
 cx
-ParallelCompileContext
-&
-compileContext
 MIRGraph
 &
 graph
@@ -497,10 +490,6 @@ graph
 cx_
 (
 cx
-)
-compileContext_
-(
-compileContext
 )
 graph_
 (
@@ -1488,8 +1477,6 @@ ParallelArrayVisitor
 visitor
 (
 cx_
-*
-this
 graph
 )
 ;
