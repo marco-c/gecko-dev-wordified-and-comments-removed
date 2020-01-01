@@ -5,13 +5,6 @@ MOZILLA_IMAGELIB_ENDIAN_H_
 define
 MOZILLA_IMAGELIB_ENDIAN_H_
 #
-include
-"
-prtypes
-.
-h
-"
-#
 if
 defined
 WORDS_BIGENDIAN

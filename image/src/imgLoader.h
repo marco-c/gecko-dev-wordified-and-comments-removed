@@ -65,13 +65,6 @@ h
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 imgRequest
 .
 h
