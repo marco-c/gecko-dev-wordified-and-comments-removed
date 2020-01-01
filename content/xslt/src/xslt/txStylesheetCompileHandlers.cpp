@@ -11572,6 +11572,11 @@ Root
 ;
 SHUTDOWN_HANDLER
 (
+Embed
+)
+;
+SHUTDOWN_HANDLER
+(
 Top
 )
 ;
