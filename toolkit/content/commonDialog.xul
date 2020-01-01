@@ -564,6 +564,12 @@ context
 "
 contentAreaContextMenu
 "
+tabindex
+=
+"
+-
+1
+"
 /
 >
 <
