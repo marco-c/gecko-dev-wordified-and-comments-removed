@@ -739,6 +739,14 @@ crashID
 return
 ;
 }
+this
+.
+CrashSubmit
+.
+pruneSavedDumps
+(
+)
+;
 try
 {
 if
