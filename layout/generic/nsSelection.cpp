@@ -10568,7 +10568,7 @@ ScrollIntoView
 (
 aRegion
 aIsSynchronous
-PR_TRUE
+PR_FALSE
 )
 ;
 }
