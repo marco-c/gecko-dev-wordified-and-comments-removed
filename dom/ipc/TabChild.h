@@ -1417,17 +1417,6 @@ double
 aScale
 )
 ;
-CSSToScreenScale
-GetZoom
-(
-)
-{
-return
-mLastMetrics
-.
-mZoom
-;
-}
 ScreenOrientation
 GetOrientation
 (
