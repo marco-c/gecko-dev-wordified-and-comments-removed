@@ -11019,6 +11019,9 @@ nsIAtom
 aId
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 nsIdentifierMapEntry
 *
 entry
@@ -11106,6 +11109,9 @@ if
 entry
 )
 return
+;
+nsAutoScriptBlocker
+scriptBlocker
 ;
 entry
 -
@@ -17083,6 +17089,9 @@ IsEmpty
 return
 NS_OK
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 nsCOMPtr
 <
 nsIContent
@@ -17173,6 +17182,9 @@ IsEmpty
 )
 return
 nsnull
+;
+nsAutoScriptBlocker
+scriptBlocker
 ;
 nsIdentifierMapEntry
 *
