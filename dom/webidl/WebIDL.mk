@@ -887,6 +887,10 @@ TextEncoder
 .
 webidl
 \
+TimeRanges
+.
+webidl
+\
 TreeWalker
 .
 webidl
