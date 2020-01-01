@@ -1087,6 +1087,11 @@ callback
 "
 )
 ;
+PR_ASSERT_CURRENT_THREAD_OWNS_LOCK
+(
+mLock
+)
+;
 nsAutoUnlock
 cancelationScope
 (
