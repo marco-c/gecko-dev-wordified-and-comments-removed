@@ -145,6 +145,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsBrowserStatusFilter
+.
+h
+"
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsAppStartup
@@ -304,6 +311,10 @@ nsScriptableUnescapeHTML
 )
 #
 endif
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsBrowserStatusFilter
+)
 static
 const
 nsModuleComponentInfo
@@ -475,6 +486,12 @@ nsScriptableUnescapeHTMLConstructor
 }
 #
 endif
+{
+NS_BROWSERSTATUSFILTER_CLASSNAME
+NS_BROWSERSTATUSFILTER_CID
+NS_BROWSERSTATUSFILTER_CONTRACTID
+nsBrowserStatusFilterConstructor
+}
 }
 ;
 NS_IMPL_NSGETMODULE

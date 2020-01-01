@@ -475,6 +475,8 @@ places
 \
 startup
 \
+statusfilter
+\
 typeaheadfind
 \
 urlformatter

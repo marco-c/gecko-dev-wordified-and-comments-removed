@@ -505,13 +505,6 @@ DIRS
 =
 build
 endif
-ifdef
-MOZ_THUNDERBIRD
-DIRS
-+
-=
-build
-endif
 include
 (
 topsrcdir
