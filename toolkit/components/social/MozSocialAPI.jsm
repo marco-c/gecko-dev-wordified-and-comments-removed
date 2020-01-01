@@ -108,6 +108,9 @@ MozSocialAPI
 "
 openChatWindow
 "
+"
+findChromeWindowForChats
+"
 ]
 ;
 this

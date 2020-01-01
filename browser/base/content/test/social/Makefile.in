@@ -105,6 +105,10 @@ browser_addons
 .
 js
 \
+browser_chat_tearoff
+.
+js
+\
 browser_social_activation
 .
 js
