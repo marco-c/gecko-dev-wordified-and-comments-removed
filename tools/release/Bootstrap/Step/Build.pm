@@ -330,7 +330,7 @@ config
 >
 Get
 (
-var
+sysvar
 =
 >
 '
