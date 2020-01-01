@@ -3492,6 +3492,17 @@ sp
 ;
 if
 (
+monitor
+.
+recompiled
+(
+)
+)
+return
+Lookup_Uncacheable
+;
+if
+(
 obj
 -
 >
