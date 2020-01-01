@@ -426,7 +426,7 @@ sendMouseEvent
 type
 :
 "
-click
+mousedown
 "
 }
 aVar

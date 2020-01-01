@@ -661,7 +661,7 @@ thisNode
 =
 gVars
 .
-getVariableOrPropertyForNode
+getItemForNode
 (
 localNodes
 [
@@ -674,7 +674,7 @@ argumentsNode
 =
 gVars
 .
-getVariableOrPropertyForNode
+getItemForNode
 (
 localNodes
 [
@@ -687,7 +687,7 @@ cNode
 =
 gVars
 .
-getVariableOrPropertyForNode
+getItemForNode
 (
 localNodes
 [
@@ -1742,7 +1742,7 @@ is
 (
 gVars
 .
-getVariableOrPropertyForNode
+getItemForNode
 (
 cNode
 .
@@ -1776,7 +1776,7 @@ property
 0
 ]
 "
-getVariableOrPropertyForNode
+getItemForNode
 (
 [
 0
@@ -1797,7 +1797,7 @@ is
 (
 gVars
 .
-getVariableOrPropertyForNode
+getItemForNode
 (
 cNode
 .
@@ -1831,7 +1831,7 @@ property
 1
 ]
 "
-getVariableOrPropertyForNode
+getItemForNode
 (
 [
 1
@@ -1852,7 +1852,7 @@ is
 (
 gVars
 .
-getVariableOrPropertyForNode
+getItemForNode
 (
 cNode
 .
@@ -1886,7 +1886,7 @@ property
 2
 ]
 "
-getVariableOrPropertyForNode
+getItemForNode
 (
 [
 2
