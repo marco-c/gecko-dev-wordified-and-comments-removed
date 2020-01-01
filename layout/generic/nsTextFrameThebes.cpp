@@ -22368,6 +22368,8 @@ PRBool
 aSelected
 nsSpread
 aSpread
+SelectionType
+aType
 )
 {
 DEBUG_VERIFY_NOT_DIRTY
@@ -22401,6 +22403,17 @@ ParentDisablesSelection
 return
 NS_OK
 ;
+if
+(
+aType
+=
+=
+nsISelectionController
+:
+:
+SELECTION_NORMAL
+)
+{
 PRBool
 selectable
 ;
@@ -22419,6 +22432,7 @@ selectable
 return
 NS_OK
 ;
+}
 PRBool
 found
 =
@@ -22733,6 +22747,7 @@ aPresContext
 aRange
 aSelected
 eSpreadNone
+aType
 )
 ;
 frame
@@ -22765,6 +22780,7 @@ aPresContext
 aRange
 aSelected
 eSpreadNone
+aType
 )
 ;
 frame

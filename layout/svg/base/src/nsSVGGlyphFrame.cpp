@@ -524,6 +524,8 @@ PRBool
 aSelected
 nsSpread
 aSpread
+SelectionType
+aType
 )
 {
 #
@@ -559,6 +561,17 @@ this
 ;
 #
 endif
+if
+(
+aType
+=
+=
+nsISelectionController
+:
+:
+SELECTION_NORMAL
+)
+{
 PRBool
 selectable
 ;
@@ -577,6 +590,7 @@ selectable
 return
 NS_OK
 ;
+}
 if
 (
 aSelected

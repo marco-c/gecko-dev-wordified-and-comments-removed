@@ -2148,6 +2148,8 @@ PRBool
 aSelected
 nsSpread
 aSpread
+SelectionType
+aType
 )
 {
 #
@@ -2212,6 +2214,7 @@ aPresContext
 aRange
 aSelected
 aSpread
+aType
 )
 ;
 nsCOMPtr

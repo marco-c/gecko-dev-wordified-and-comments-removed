@@ -235,6 +235,8 @@ PRBool
 aSelected
 nsSpread
 aSpread
+SelectionType
+aType
 )
 ;
 NS_IMETHOD
