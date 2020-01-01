@@ -544,6 +544,17 @@ topsrcdir
 "
 "
   
+topsrcdir
+=
+os
+.
+path
+.
+abspath
+(
+topsrcdir
+)
+  
 dirs
 =
 set
