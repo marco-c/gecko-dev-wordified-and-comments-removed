@@ -355,6 +355,13 @@ arg
 )
 ;
 void
+setSlot
+(
+uint32
+slot
+)
+;
+void
 rewriteSlot
 (
 uint32
@@ -384,6 +391,13 @@ pushLocal
 (
 uint32
 local
+)
+;
+void
+pushSlot
+(
+uint32
+slot
 )
 ;
 MDefinition

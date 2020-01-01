@@ -815,6 +815,15 @@ op
 )
 ;
 bool
+jsop_incslot
+(
+JSOp
+op
+uint32
+slot
+)
+;
+bool
 jsop_localinc
 (
 JSOp
