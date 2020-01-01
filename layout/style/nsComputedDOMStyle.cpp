@@ -4537,7 +4537,7 @@ matrix
 )
 ;
 }
-CSSValue
+nsROCSSPrimitiveValue
 *
 nsComputedDOMStyle
 :

@@ -2490,6 +2490,12 @@ GetLocalTransform
 (
 )
 ;
+const
+float
+GetLocalOpacity
+(
+)
+;
 void
 ApplyPendingUpdatesToSubtree
 (
@@ -3102,12 +3108,6 @@ const
 char
 *
 aPrefix
-)
-;
-const
-float
-GetLocalOpacity
-(
 )
 ;
 gfx3DMatrix
