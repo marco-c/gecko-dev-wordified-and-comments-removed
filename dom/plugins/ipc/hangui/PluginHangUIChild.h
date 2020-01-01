@@ -96,6 +96,11 @@ SetMainThread
 (
 )
 ;
+void
+ResizeButtons
+(
+)
+;
 INT_PTR
 HangUIDlgProc
 (
