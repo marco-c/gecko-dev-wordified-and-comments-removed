@@ -620,6 +620,10 @@ buttons
 accept
 cancel
 "
+defaultButton
+=
+"
+"
 ondialogaccept
 =
 "
