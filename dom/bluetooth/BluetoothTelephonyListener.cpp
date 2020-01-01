@@ -201,6 +201,13 @@ Get
 (
 )
 ;
+if
+(
+aCallIndex
+>
+0
+)
+{
 hfp
 -
 >
@@ -234,6 +241,7 @@ abnormally
 "
 )
 ;
+}
 NS_WARNING
 (
 NS_ConvertUTF16toUTF8
