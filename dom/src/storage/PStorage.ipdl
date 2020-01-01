@@ -240,8 +240,6 @@ sessionOnly
 bool
 isPrivate
 nsCString
-domain
-nsCString
 scopeDBKey
 nsCString
 quotaDBKey

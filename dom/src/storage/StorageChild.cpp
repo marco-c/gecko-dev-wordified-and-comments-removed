@@ -354,7 +354,6 @@ SendInit
 mUseDB
 mSessionOnly
 mInPrivateBrowsing
-mDomain
 mScopeDBKey
 mQuotaDBKey
 mStorageType
@@ -367,9 +366,9 @@ StorageChild
 :
 InitAsSessionStorage
 (
-nsIURI
+nsIPrincipal
 *
-aDomainURI
+aPrincipal
 bool
 aPrivate
 )
@@ -379,7 +378,7 @@ DOMStorageBase
 :
 InitAsSessionStorage
 (
-aDomainURI
+aPrincipal
 aPrivate
 )
 ;
@@ -394,9 +393,9 @@ StorageChild
 :
 InitAsLocalStorage
 (
-nsIURI
+nsIPrincipal
 *
-aDomainURI
+aPrincipal
 bool
 aPrivate
 )
@@ -406,7 +405,7 @@ DOMStorageBase
 :
 InitAsLocalStorage
 (
-aDomainURI
+aPrincipal
 aPrivate
 )
 ;
@@ -1023,7 +1022,6 @@ SendInit
 mUseDB
 mSessionOnly
 mInPrivateBrowsing
-mDomain
 mScopeDBKey
 mQuotaDBKey
 mStorageType

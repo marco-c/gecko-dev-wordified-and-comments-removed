@@ -165,10 +165,6 @@ aPrivate
 const
 nsCString
 &
-aDomain
-const
-nsCString
-&
 aScopeDBKey
 const
 nsCString
@@ -188,7 +184,6 @@ InitFromChild
 aUseDB
 aSessionOnly
 aPrivate
-aDomain
 aScopeDBKey
 aQuotaDBKey
 aStorageType

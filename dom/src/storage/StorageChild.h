@@ -75,9 +75,9 @@ virtual
 void
 InitAsSessionStorage
 (
-nsIURI
+nsIPrincipal
 *
-aDomainURI
+aPrincipal
 bool
 aPrivate
 )
@@ -86,9 +86,9 @@ virtual
 void
 InitAsLocalStorage
 (
-nsIURI
+nsIPrincipal
 *
-aDomainURI
+aPrincipal
 bool
 aPrivate
 )
