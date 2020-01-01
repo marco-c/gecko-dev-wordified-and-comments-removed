@@ -1057,7 +1057,6 @@ nsresult
 SubjectSubsumesInnerPrincipal
 (
 )
-const
 ;
 nsresult
 RegisterNamespaceRule
