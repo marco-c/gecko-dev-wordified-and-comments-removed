@@ -18611,6 +18611,12 @@ null
 }
 else
 {
+if
+(
+um
+.
+activeUpdate
+)
 um
 .
 activeUpdate
