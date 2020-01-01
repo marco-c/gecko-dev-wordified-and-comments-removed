@@ -13115,6 +13115,8 @@ popup
 this
 .
 _popup
+.
+lastChild
 ;
 let
 preferredHeight
@@ -13144,7 +13146,7 @@ preferredHeight
 =
 popup
 .
-children
+childNodes
 [
 i
 ]
@@ -13190,7 +13192,7 @@ preferredHeight
 *
 window
 .
-innerWidth
+innerHeight
 )
 ;
 let
@@ -13725,7 +13727,7 @@ preferredHeight
 *
 window
 .
-innerWidth
+innerHeight
 )
 ;
 let
