@@ -155,9 +155,15 @@ NULL
 )
 ifeq
 (
+(
+filter
+-
+out
 Linux
+WINNT
 (
 OS_ARCH
+)
 )
 )
 MOCHITEST_BROWSER_FILES
@@ -212,8 +218,6 @@ permissions
 tests
 on
 Mac
-and
-Windows
 bug
 795334
 #
