@@ -6438,6 +6438,12 @@ CSSSize
 scrollableSize
 ;
 {
+ReentrantMonitorAutoEnter
+lock
+(
+mMonitor
+)
+;
 scrollId
 =
 mFrameMetrics
