@@ -2110,6 +2110,15 @@ GeckoSmsManager
 ACTION_SMS_SENT
 )
 ;
+smsFilter
+.
+addAction
+(
+GeckoSmsManager
+.
+ACTION_SMS_DELIVERED
+)
+;
 mSmsReceiver
 =
 new
