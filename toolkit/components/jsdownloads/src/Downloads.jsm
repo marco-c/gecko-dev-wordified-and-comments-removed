@@ -323,7 +323,7 @@ ex
 ;
 }
 }
-fetch
+startDirect
 :
 function
 (
