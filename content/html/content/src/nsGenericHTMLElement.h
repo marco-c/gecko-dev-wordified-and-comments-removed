@@ -60,6 +60,13 @@ nsContentCreatorFunctions
 .
 h
 "
+#
+include
+"
+nsDOMMemoryReporter
+.
+h
+"
 class
 nsIDOMAttr
 ;
@@ -158,6 +165,11 @@ namespace
 )
 ;
 }
+NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
+(
+nsGenericHTMLElement
+nsGenericHTMLElementBase
+)
 static
 nsGenericHTMLElement
 *
@@ -1819,6 +1831,11 @@ nsGenericHTMLFormElement
 (
 )
 ;
+NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
+(
+nsGenericHTMLFormElement
+nsGenericHTMLElement
+)
 NS_IMETHOD
 QueryInterface
 (
@@ -2268,6 +2285,7 @@ nsGenericHTMLFrameElement
 (
 )
 ;
+NS_DECL_DOM_MEMORY_REPORTER_SIZEOF
 NS_IMETHOD
 QueryInterface
 (
@@ -4782,6 +4800,10 @@ Image
 NS_DECLARE_NS_NEW_HTML_ELEMENT
 (
 Input
+)
+NS_DECLARE_NS_NEW_HTML_ELEMENT
+(
+IsIndex
 )
 NS_DECLARE_NS_NEW_HTML_ELEMENT
 (
