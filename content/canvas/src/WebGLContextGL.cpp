@@ -19792,12 +19792,6 @@ useShaderSourceTranslation
 =
 true
 ;
-#
-if
-defined
-(
-USE_ANGLE
-)
 if
 (
 shader
@@ -20652,8 +20646,6 @@ ok
 )
 ;
 }
-#
-endif
 }
 void
 WebGLContext

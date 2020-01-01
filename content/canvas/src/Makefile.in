@@ -252,14 +252,6 @@ cpp
 (
 NULL
 )
-DEFINES
-+
-=
--
-DUSE_ANGLE
-USE_ANGLE
-=
-1
 LOCAL_INCLUDES
 +
 =
