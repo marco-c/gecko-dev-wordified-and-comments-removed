@@ -730,6 +730,13 @@ csp
 {
 bool
 allowsInline
+=
+true
+;
+bool
+reportViolations
+=
+false
 ;
 rv
 =
@@ -738,6 +745,8 @@ csp
 >
 GetAllowsInlineScript
 (
+&
+reportViolations
 &
 allowsInline
 )
@@ -750,8 +759,7 @@ rv
 ;
 if
 (
-!
-allowsInline
+reportViolations
 )
 {
 nsCOMPtr
@@ -802,6 +810,13 @@ mURL
 0
 )
 ;
+}
+if
+(
+!
+allowsInline
+)
+{
 return
 NS_ERROR_DOM_RETVAL_UNDEFINED
 ;

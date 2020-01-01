@@ -3119,6 +3119,13 @@ csp
 {
 bool
 inlineOK
+=
+true
+;
+bool
+reportViolations
+=
+false
 ;
 rv
 =
@@ -3127,6 +3134,8 @@ csp
 >
 GetAllowsInlineScript
 (
+&
+reportViolations
 &
 inlineOK
 )
@@ -3139,8 +3148,7 @@ rv
 ;
 if
 (
-!
-inlineOK
+reportViolations
 )
 {
 nsIURI
@@ -3264,6 +3272,13 @@ scriptSample
 0
 )
 ;
+}
+if
+(
+!
+inlineOK
+)
+{
 return
 NS_OK
 ;

@@ -891,6 +891,9 @@ mMainThreadObjectsForgotten
 bool
 mEvalAllowed
 ;
+bool
+mReportCSPViolations
+;
 protected
 :
 WorkerPrivateParent
@@ -955,6 +958,8 @@ nsIContentSecurityPolicy
 aCSP
 bool
 aEvalAllowed
+bool
+aReportCSPViolations
 )
 ;
 ~
@@ -1619,6 +1624,16 @@ aEvalAllowed
 mEvalAllowed
 =
 aEvalAllowed
+;
+}
+bool
+GetReportCSPViolations
+(
+)
+const
+{
+return
+mReportCSPViolations
 ;
 }
 LocationInfo
@@ -2557,6 +2572,8 @@ nsIContentSecurityPolicy
 aCSP
 bool
 aEvalAllowed
+bool
+aReportCSPViolations
 bool
 aXHRParamsAllowed
 )

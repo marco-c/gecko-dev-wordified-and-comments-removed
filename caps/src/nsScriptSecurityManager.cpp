@@ -1963,6 +1963,11 @@ evalOK
 =
 true
 ;
+bool
+reportViolation
+=
+false
+;
 rv
 =
 csp
@@ -1970,6 +1975,8 @@ csp
 >
 GetAllowsEval
 (
+&
+reportViolation
 &
 evalOK
 )
@@ -2000,8 +2007,7 @@ JS_TRUE
 }
 if
 (
-!
-evalOK
+reportViolation
 )
 {
 nsAutoString
