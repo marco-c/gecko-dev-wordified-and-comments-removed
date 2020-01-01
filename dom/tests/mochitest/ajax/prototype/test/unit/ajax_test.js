@@ -24,6 +24,7 @@ onException
 :
 function
 (
+request
 e
 )
 {
@@ -145,6 +146,8 @@ hello
 .
 js
 "
+extendDefault
+(
 {
 asynchronous
 :
@@ -160,6 +163,7 @@ evalJS
 force
 '
 }
+)
 )
 ;
 this
@@ -234,6 +238,8 @@ hello
 .
 js
 "
+extendDefault
+(
 {
 asynchronous
 :
@@ -249,6 +255,7 @@ evalJS
 force
 '
 }
+)
 )
 ;
 this
