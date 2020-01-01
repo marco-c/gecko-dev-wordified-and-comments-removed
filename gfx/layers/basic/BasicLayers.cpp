@@ -12600,11 +12600,10 @@ gfxASurface
 CreateBuffer
 (
 ContentType
-aType
 const
 nsIntSize
 &
-aSize
+PRUint32
 )
 {
 NS_RUNTIMEABORT
