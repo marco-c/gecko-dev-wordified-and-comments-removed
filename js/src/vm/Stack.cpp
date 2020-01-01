@@ -8393,6 +8393,10 @@ function
 )
 ;
 #
+else
+break
+;
+#
 endif
 }
 JS_NOT_REACHED
@@ -8486,6 +8490,10 @@ isForEval
 ;
 return
 false
+;
+#
+else
+break
 ;
 #
 endif
@@ -9370,6 +9378,10 @@ checkAliasing
 )
 ;
 #
+else
+break
+;
+#
 endif
 }
 JS_NOT_REACHED
@@ -9599,6 +9611,10 @@ baselineFrame
 hasArgsObj
 (
 )
+;
+#
+else
+break
 ;
 #
 endif
