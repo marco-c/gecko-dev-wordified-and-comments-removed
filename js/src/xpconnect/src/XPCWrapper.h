@@ -210,16 +210,6 @@ strcmp
 (
 name
 "
-HTMLDocument
-"
-)
-|
-|
-!
-strcmp
-(
-name
-"
 HTMLIFrameElement
 "
 )
