@@ -9437,9 +9437,6 @@ dst
 JS_ASSERT
 (
 pn
-)
-;
-pn
 -
 >
 pn_pos
@@ -9448,7 +9445,9 @@ begin
 .
 lineno
 =
+=
 lineno
+)
 ;
 NodeVector
 stmts
