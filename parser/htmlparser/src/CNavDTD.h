@@ -399,6 +399,16 @@ aClosedByStartTag
 )
 ;
 nsresult
+CloseResidualStyleTags
+(
+const
+eHTMLTags
+aTag
+PRBool
+aClosedByStartTag
+)
+;
+nsresult
 AddLeaf
 (
 const
