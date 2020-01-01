@@ -13001,7 +13001,7 @@ id
 =
 INT_TO_JSID
 (
-JS_PTR_TO_INT32
+intptr_t
 (
 name
 )

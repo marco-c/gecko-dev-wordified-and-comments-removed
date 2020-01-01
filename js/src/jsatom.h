@@ -315,10 +315,9 @@ ALE_INDEX
 ale
 )
 (
-(
 jsatomid
-)
-JS_PTR_TO_UINT32
+(
+uintptr_t
 (
 (
 ale
@@ -328,6 +327,7 @@ ale
 entry
 .
 value
+)
 )
 )
 #
@@ -432,7 +432,10 @@ entry
 .
 value
 =
-JS_UINT32_TO_PTR
+(
+void
+*
+)
 (
 index
 )
