@@ -2898,7 +2898,7 @@ aResult
 virtual
 NS_HIDDEN_
 (
-nsresult
+void
 )
 Sanitize
 (
