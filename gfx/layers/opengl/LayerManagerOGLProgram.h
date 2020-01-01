@@ -67,6 +67,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+CompositorTypes
+.
+h
+"
+#
+include
+"
 gfxColor
 .
 h
