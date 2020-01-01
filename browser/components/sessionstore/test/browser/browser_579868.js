@@ -27,7 +27,7 @@ addTab
 "
 about
 :
-credits
+mozilla
 "
 )
 ;
