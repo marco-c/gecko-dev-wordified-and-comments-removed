@@ -92,6 +92,17 @@ nsIHTMLDocument
 class
 nsNPAPIPluginInstance
 ;
+class
+nsIDOMCrypto
+;
+#
+ifndef
+MOZ_DISABLE_CRYPTOLEGACY
+class
+nsIDOMCRMFObject
+;
+#
+endif
 struct
 nsDOMClassInfoData
 ;
