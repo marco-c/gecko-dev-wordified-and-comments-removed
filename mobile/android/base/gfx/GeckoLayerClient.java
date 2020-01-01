@@ -1626,7 +1626,6 @@ return
 mDisplayPort
 ;
 }
-public
 DisplayPortMetrics
 getDisplayPort
 (
