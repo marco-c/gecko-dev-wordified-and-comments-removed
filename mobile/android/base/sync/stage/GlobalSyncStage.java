@@ -36,6 +36,7 @@ fetchInfoCollections
 fetchMetaGlobal
 ensureKeysStage
 syncClientsEngine
+syncTabs
 syncBookmarks
 syncHistory
 completed
