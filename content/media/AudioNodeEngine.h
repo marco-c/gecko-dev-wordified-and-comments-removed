@@ -336,6 +336,17 @@ uint32_t
 aSize
 )
 ;
+float
+AudioBufferPeakValue
+(
+const
+float
+*
+aInput
+uint32_t
+aSize
+)
+;
 void
 AudioBufferInPlaceScale
 (
