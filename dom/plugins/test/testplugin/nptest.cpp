@@ -8206,6 +8206,9 @@ if
 file
 )
 {
+ssize_t
+unused
+=
 fseek
 (
 file
@@ -8251,6 +8254,8 @@ instanceData
 fileBuf
 )
 ;
+unused
+=
 fseek
 (
 file
@@ -8258,6 +8263,8 @@ file
 SEEK_SET
 )
 ;
+unused
+=
 fread
 (
 instanceData
