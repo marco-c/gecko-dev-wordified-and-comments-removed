@@ -2469,6 +2469,7 @@ isInvalid
 ;
 public
 :
+MOZ_CONSTEXPR
 Imm8VFPImmData
 (
 )
@@ -2479,6 +2480,10 @@ imm4L
 1U
 &
 0xf
+)
+pad
+(
+0
 )
 imm4H
 (
@@ -2494,9 +2499,10 @@ isInvalid
 )
 {
 }
+MOZ_CONSTEXPR
 Imm8VFPImmData
 (
-uint32_t
+uint8_t
 imm
 )
 :
@@ -2505,6 +2511,10 @@ imm4L
 imm
 &
 0xf
+)
+pad
+(
+0
 )
 imm4H
 (
@@ -2518,14 +2528,6 @@ isInvalid
 0
 )
 {
-JS_ASSERT
-(
-imm
-<
-=
-0xff
-)
-;
 }
 uint32_t
 encode
@@ -10055,6 +10057,7 @@ dblTop
 )
 {
 }
+MOZ_CONSTEXPR
 DoubleEntry
 (
 uint32_t
