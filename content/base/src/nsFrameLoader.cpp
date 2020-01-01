@@ -5789,6 +5789,15 @@ doc
 GetDisplayDocument
 (
 )
+|
+|
+!
+doc
+-
+>
+IsActive
+(
+)
 )
 {
 return
