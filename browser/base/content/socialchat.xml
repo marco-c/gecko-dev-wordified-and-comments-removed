@@ -2596,9 +2596,15 @@ minimized
 )
 cb
 .
+setAttribute
+(
+"
 minimized
-=
+"
+"
 true
+"
+)
 ;
 this
 .
