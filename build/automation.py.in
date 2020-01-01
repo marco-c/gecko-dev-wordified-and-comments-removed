@@ -8417,16 +8417,6 @@ self
 .
 IS_DEBUG_BUILD
 and
-(
-self
-.
-IS_MAC
-or
-self
-.
-IS_LINUX
-)
-and
 symbolsPath
 and
 os
