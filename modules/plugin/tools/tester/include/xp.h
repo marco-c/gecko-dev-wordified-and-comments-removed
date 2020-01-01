@@ -38,7 +38,7 @@ h
 #
 include
 "
-npupp
+npfunctions
 .
 h
 "
@@ -120,7 +120,7 @@ h
 #
 include
 "
-npupp
+npfunctions
 .
 h
 "
@@ -197,7 +197,7 @@ h
 #
 include
 "
-npupp
+npfunctions
 .
 h
 "
@@ -306,7 +306,7 @@ endif
 #
 include
 "
-npupp
+npfunctions
 .
 h
 "

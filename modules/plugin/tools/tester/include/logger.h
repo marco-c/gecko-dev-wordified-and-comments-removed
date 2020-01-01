@@ -28,7 +28,7 @@ h
 #
 include
 "
-logFile
+logfile
 .
 h
 "
