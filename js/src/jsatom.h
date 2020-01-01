@@ -1199,7 +1199,10 @@ uintptr_t
 futureAtom
 )
 |
+uintptr_t
+(
 intern
+)
 )
 {
 }
