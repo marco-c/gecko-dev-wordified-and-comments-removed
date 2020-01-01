@@ -206,9 +206,13 @@ JSContext
 *
 cx
 )
-{
+:
+cx
+(
+cx
+)
 mStr
-=
+(
 cx
 -
 >
@@ -216,7 +220,8 @@ runtime
 -
 >
 emptyString
-;
+)
+{
 }
 #
 endif

@@ -47,6 +47,12 @@ jstests
 .
 list
 include
+String
+/
+jstests
+.
+list
+include
 Types
 /
 jstests
