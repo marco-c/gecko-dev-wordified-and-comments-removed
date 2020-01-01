@@ -150,10 +150,6 @@ nsINavBookmarksService
 .
 idl
 \
-nsIPlacesImportExportService
-.
-idl
-\
 nsITaggingService
 .
 idl
@@ -241,10 +237,6 @@ History
 .
 cpp
 \
-nsPlacesExportService
-.
-cpp
-\
 AsyncFaviconHelpers
 .
 cpp
@@ -326,10 +318,6 @@ PlacesDBUtils
 .
 jsm
 \
-BookmarkHTMLUtils
-.
-jsm
-\
 ColorAnalyzer_worker
 .
 js
@@ -347,6 +335,10 @@ NULL
 )
 EXTRA_PP_JS_MODULES
 =
+\
+BookmarkHTMLUtils
+.
+jsm
 \
 PlacesUtils
 .
