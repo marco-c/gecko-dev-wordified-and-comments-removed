@@ -202,6 +202,11 @@ aFlags
 END_DEFAULT
 )
 ;
+void
+AbortTransaction
+(
+)
+;
 virtual
 void
 SetRoot
