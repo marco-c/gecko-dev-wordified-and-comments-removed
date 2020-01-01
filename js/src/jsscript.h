@@ -3523,6 +3523,11 @@ trynotesOffset
 )
 ;
 }
+bool
+hasLoops
+(
+)
+;
 js
 :
 :

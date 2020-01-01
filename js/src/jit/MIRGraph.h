@@ -47,6 +47,9 @@ namespace
 jit
 {
 class
+BytecodeAnalysis
+;
+class
 MBasicBlock
 ;
 class
@@ -145,6 +148,9 @@ from
 bool
 inherit
 (
+BytecodeAnalysis
+*
+analysis
 MBasicBlock
 *
 pred
@@ -196,6 +202,9 @@ New
 MIRGraph
 &
 graph
+BytecodeAnalysis
+*
+analysis
 CompileInfo
 &
 info

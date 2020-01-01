@@ -641,6 +641,9 @@ New
 MIRGraph
 &
 graph
+BytecodeAnalysis
+*
+analysis
 CompileInfo
 &
 info
@@ -696,6 +699,7 @@ block
 >
 inherit
 (
+analysis
 pred
 0
 )
@@ -766,6 +770,7 @@ block
 >
 inherit
 (
+NULL
 pred
 popped
 )
@@ -887,6 +892,7 @@ MBasicBlock
 New
 (
 graph
+NULL
 info
 pred
 entryPc
@@ -926,6 +932,7 @@ MBasicBlock
 New
 (
 graph
+NULL
 info
 pred
 pred
@@ -1455,6 +1462,9 @@ MBasicBlock
 :
 inherit
 (
+BytecodeAnalysis
+*
+analysis
 MBasicBlock
 *
 pred
@@ -1505,21 +1515,10 @@ else
 uint32_t
 stackDepth
 =
-info
-(
-)
-.
-script
-(
-)
--
->
 analysis
-(
-)
 -
 >
-getCode
+info
 (
 pc
 (
