@@ -50655,7 +50655,11 @@ browser
 "
 -
 a
+-
+n
+"
 MOZ_HELP_VIEWER
+"
 ;
 then
 AC_MSG_ERROR
