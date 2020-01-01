@@ -966,6 +966,8 @@ aSurface
 Matrix
 &
 aMatrix
+ExtendMode
+aExtendMode
 )
 ;
 void
