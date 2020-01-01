@@ -2970,6 +2970,16 @@ observes
 "
 bcast_urlbarState
 "
+ondoubletap
+=
+"
+BrowserUI
+.
+newTab
+(
+)
+;
+"
 onselect
 =
 "
