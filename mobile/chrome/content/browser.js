@@ -1056,6 +1056,12 @@ function
 (
 )
 {
+BrowserUI
+.
+uninit
+(
+)
+;
 var
 os
 =
