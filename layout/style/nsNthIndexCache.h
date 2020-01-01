@@ -94,7 +94,7 @@ aIsOfType
 ;
 inline
 bool
-IndexDetermined
+IndexDeterminedFromPreviousSibling
 (
 nsIContent
 *
@@ -106,8 +106,6 @@ bool
 aIsOfType
 bool
 aIsFromEnd
-bool
-aCheckEdgeOnly
 PRInt32
 &
 aResult
