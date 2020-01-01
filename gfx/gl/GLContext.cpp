@@ -3944,7 +3944,7 @@ false
 ;
 if
 (
-mIsGLES2
+false
 )
 {
 if
