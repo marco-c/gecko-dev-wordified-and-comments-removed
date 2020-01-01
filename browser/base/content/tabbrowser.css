@@ -354,6 +354,15 @@ display
 none
 ;
 }
+tabpanels
+{
+background
+-
+color
+:
+white
+;
+}
 %
 ifdef
 MOZ_WIDGET_GTK2
