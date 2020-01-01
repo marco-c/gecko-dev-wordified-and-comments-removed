@@ -5398,7 +5398,7 @@ liveFrame
 fp
 )
 ;
-MarkValueRange
+MarkStackRangeConservatively
 (
 trc
 gen
@@ -5411,10 +5411,6 @@ fp
 formalArgsEnd
 (
 )
-"
-generator
-slots
-"
 )
 ;
 js_TraceStackFrame
@@ -5423,7 +5419,7 @@ trc
 fp
 )
 ;
-MarkValueRange
+MarkStackRangeConservatively
 (
 trc
 fp
@@ -5438,10 +5434,6 @@ gen
 regs
 .
 sp
-"
-generator
-slots
-"
 )
 ;
 }
