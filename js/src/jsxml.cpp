@@ -8259,6 +8259,14 @@ uri
 JS_FALSE
 )
 ;
+if
+(
+!
+uri
+)
+return
+NULL
+;
 urilen
 =
 uri
