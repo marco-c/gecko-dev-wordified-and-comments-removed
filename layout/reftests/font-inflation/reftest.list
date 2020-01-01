@@ -292,6 +292,7 @@ height
 ref
 .
 html
+#
 test
 -
 pref
@@ -313,7 +314,7 @@ text
 -
 2
 -
-height
+noheight
 .
 html
 input
@@ -322,7 +323,7 @@ text
 -
 2
 -
-height
+noheight
 -
 ref
 .
@@ -348,7 +349,7 @@ text
 -
 3
 -
-noheight
+height
 .
 html
 input
@@ -357,7 +358,7 @@ text
 -
 3
 -
-noheight
+height
 -
 ref
 .
