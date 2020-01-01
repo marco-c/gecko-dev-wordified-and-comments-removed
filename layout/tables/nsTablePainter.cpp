@@ -355,6 +355,13 @@ i
 ]
 .
 mImage
+.
+GetType
+(
+)
+!
+=
+eBackgroundImage_Null
 )
 return
 PR_TRUE

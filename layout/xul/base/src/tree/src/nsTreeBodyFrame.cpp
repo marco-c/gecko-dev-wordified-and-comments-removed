@@ -18947,6 +18947,13 @@ BottomLayer
 )
 .
 mImage
+.
+GetType
+(
+)
+!
+=
+eBackgroundImage_Null
 |
 |
 background
@@ -19273,6 +19280,13 @@ BottomLayer
 )
 .
 mImage
+.
+GetType
+(
+)
+!
+=
+eBackgroundImage_Null
 |
 |
 background
