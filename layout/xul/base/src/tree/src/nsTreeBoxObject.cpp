@@ -346,6 +346,8 @@ nsTreeBoxObject
 :
 GetTreeBody
 (
+bool
+aFlushLayout
 )
 {
 if
@@ -363,7 +365,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+aFlushLayout
 )
 ;
 if
@@ -1242,6 +1244,7 @@ body
 =
 GetTreeBody
 (
+true
 )
 ;
 if

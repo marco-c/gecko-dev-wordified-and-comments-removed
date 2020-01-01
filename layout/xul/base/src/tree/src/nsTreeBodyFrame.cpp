@@ -501,6 +501,10 @@ mTopRowIndex
 (
 0
 )
+mPageLength
+(
+0
+)
 mHorzPosition
 (
 0

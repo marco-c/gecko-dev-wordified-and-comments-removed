@@ -1037,14 +1037,6 @@ nextDataSource
 (
 )
 {
-document
-.
-documentElement
-.
-getBoundingClientRect
-(
-)
-;
 var
 tree
 =

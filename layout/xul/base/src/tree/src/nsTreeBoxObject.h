@@ -58,6 +58,10 @@ nsTreeBodyFrame
 *
 GetTreeBody
 (
+bool
+aFlushLayout
+=
+false
 )
 ;
 nsTreeBodyFrame
