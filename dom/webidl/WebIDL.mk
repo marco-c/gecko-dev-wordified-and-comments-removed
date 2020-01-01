@@ -443,6 +443,10 @@ SVGMetadataElement
 .
 webidl
 \
+SVGMPathElement
+.
+webidl
+\
 SVGNumberList
 .
 webidl
@@ -484,6 +488,10 @@ SVGTransform
 webidl
 \
 SVGTransformList
+.
+webidl
+\
+SVGURIReference
 .
 webidl
 \
