@@ -194,6 +194,11 @@ BINPATH
 dictionaries
 /
 *
+BINPATH
+/
+hyphenation
+/
+*
 #
 ifdef
 XP_WIN32
