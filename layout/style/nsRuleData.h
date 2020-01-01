@@ -219,9 +219,9 @@ nsRuleData
 )
 {
 }
-void
+nsCSSValue
 *
-StorageFor
+ValueFor
 (
 nsCSSProperty
 aProperty

@@ -340,14 +340,6 @@ aTable
 ;
 static
 const
-nsCSSType
-kTypeTable
-[
-eCSSProperty_COUNT_no_shorthands
-]
-;
-static
-const
 nsStyleStructID
 kSIDTable
 [

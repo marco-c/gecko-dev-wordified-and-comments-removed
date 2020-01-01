@@ -787,14 +787,14 @@ mProperty
 )
 )
 {
-void
+nsCSSValue
 *
 prop
 =
 aRuleData
 -
 >
-StorageFor
+ValueFor
 (
 cv
 .
@@ -824,6 +824,7 @@ mPresContext
 cv
 .
 mValue
+*
 prop
 )
 ;

@@ -62,6 +62,9 @@ nsPresContext
 class
 nsStyleContext
 ;
+class
+nsCSSValue
+;
 struct
 nsCSSValueList
 ;
@@ -225,8 +228,8 @@ const
 Value
 &
 aComputedValue
-void
-*
+nsCSSValue
+&
 aSpecifiedValue
 )
 ;

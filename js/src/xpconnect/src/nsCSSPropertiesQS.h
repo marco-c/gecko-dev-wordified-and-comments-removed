@@ -21,7 +21,6 @@ method_
 flags_
 datastruct_
 member_
-type_
 \
 kwtable_
 stylestruct_
@@ -67,7 +66,6 @@ X
 X
 X
 X
-X
 )
 #
 include
@@ -81,7 +79,6 @@ CSS_PROP
 X
 opacity
 MozOpacity
-0
 X
 X
 X
@@ -95,7 +92,6 @@ CSS_PROP
 X
 outline
 MozOutline
-0
 X
 X
 X
@@ -109,7 +105,6 @@ CSS_PROP
 X
 outline_color
 MozOutlineColor
-0
 X
 X
 X
@@ -123,7 +118,6 @@ CSS_PROP
 X
 outline_style
 MozOutlineStyle
-0
 X
 X
 X
@@ -137,7 +131,6 @@ CSS_PROP
 X
 outline_width
 MozOutlineWidth
-0
 X
 X
 X
@@ -151,7 +144,6 @@ CSS_PROP
 X
 outline_offset
 MozOutlineOffset
-0
 X
 X
 X

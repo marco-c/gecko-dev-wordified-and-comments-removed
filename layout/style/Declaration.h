@@ -399,7 +399,7 @@ aRuleData
 )
 ;
 }
-void
+nsCSSValue
 *
 SlotForValue
 (
@@ -458,7 +458,7 @@ return
 nsnull
 ;
 }
-void
+nsCSSValue
 *
 slot
 =
@@ -498,7 +498,7 @@ other
 other
 -
 >
-StorageFor
+ValueFor
 (
 aProperty
 )
@@ -550,7 +550,7 @@ return
 mData
 -
 >
-StorageFor
+ValueFor
 (
 aProperty
 )

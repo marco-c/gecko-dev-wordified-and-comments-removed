@@ -21,7 +21,6 @@ method_
 flags_
 datastruct_
 member_
-type_
 \
 kwtable_
 stylestruct_
@@ -76,12 +75,6 @@ eCSSProperty_COUNT
 eCSSPropertyExtra_no_properties
 eCSSPropertyExtra_all_properties
 eCSSPropertyExtra_x_none_value
-}
-;
-enum
-nsCSSType
-{
-eCSSType_Value
 }
 ;
 enum
