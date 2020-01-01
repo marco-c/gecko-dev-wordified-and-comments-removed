@@ -9025,6 +9025,8 @@ Function
 "
 event
 "
+this
+.
 parentNode
 .
 getAttribute
