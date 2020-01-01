@@ -1737,6 +1737,17 @@ domEventTarget
 ;
 if
 (
+!
+realFocusedNode
+)
+{
+realFocusedNode
+=
+aNode
+;
+}
+if
+(
 realFocusedNode
 )
 {
