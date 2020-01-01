@@ -1732,6 +1732,14 @@ child
 )
 ;
 }
+child
+-
+>
+SetPrimaryFrame
+(
+frame
+)
+;
 if
 (
 NS_FAILED
