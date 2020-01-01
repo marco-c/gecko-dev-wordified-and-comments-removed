@@ -257,7 +257,7 @@ al
 static
 JS_INLINE
 int
-js_CompareAndSwapHelper
+js_CompareAndSwap
 (
 jsword
 *
