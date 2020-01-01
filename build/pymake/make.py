@@ -33,11 +33,21 @@ pymake
 process
 import
 gc
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+  
 gc
 .
 disable
 (
 )
+  
 pymake
 .
 command
@@ -65,6 +75,7 @@ sys
 .
 exit
 )
+  
 pymake
 .
 process
@@ -74,6 +85,7 @@ ParallelContext
 spin
 (
 )
+  
 assert
 False
 "
