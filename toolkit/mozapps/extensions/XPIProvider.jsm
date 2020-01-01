@@ -17904,6 +17904,13 @@ addon
 }
 else
 {
+XPIProvider
+.
+removeActiveInstall
+(
+this
+)
+;
 let
 reason
 =
