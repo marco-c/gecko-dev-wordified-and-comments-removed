@@ -1059,7 +1059,10 @@ mDBMutex
 int
 rc
 =
-stepStmt
+mConnection
+-
+>
+stepStatement
 (
 aStatement
 )
