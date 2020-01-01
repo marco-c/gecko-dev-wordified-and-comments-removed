@@ -12124,6 +12124,17 @@ function
 (
 )
 {
+if
+(
+!
+this
+.
+Utils
+.
+dynamicControls
+)
+return
+;
 this
 .
 Utils
