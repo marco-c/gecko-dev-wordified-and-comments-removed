@@ -462,6 +462,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsIScriptGlobalObject
 .
 h
