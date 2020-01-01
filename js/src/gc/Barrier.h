@@ -516,13 +516,6 @@ TypeObject
 typedef
 HeapPtr
 <
-JSAtom
->
-HeapPtrAtom
-;
-typedef
-HeapPtr
-<
 JSObject
 >
 HeapPtrObject
