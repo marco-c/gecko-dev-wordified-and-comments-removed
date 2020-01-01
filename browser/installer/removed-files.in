@@ -416,6 +416,12 @@ components
 nsMicrosummaryService
 .
 js
+D3DCompiler_42
+.
+dll
+d3dx9_42
+.
+dll
 defaults
 /
 pref
