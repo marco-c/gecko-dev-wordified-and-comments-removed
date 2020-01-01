@@ -454,7 +454,7 @@ GetBackingSurface
 )
 {
 return
-NULL
+nullptr
 ;
 }
 const

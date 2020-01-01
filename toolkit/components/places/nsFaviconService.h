@@ -208,8 +208,10 @@ nsFaviconService
 )
 ;
 static
+already_AddRefed
+<
 nsFaviconService
-*
+>
 GetSingleton
 (
 )

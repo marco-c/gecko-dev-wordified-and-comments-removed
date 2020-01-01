@@ -597,8 +597,10 @@ Database
 )
 ;
 static
+already_AddRefed
+<
 Database
-*
+>
 GetSingleton
 (
 )

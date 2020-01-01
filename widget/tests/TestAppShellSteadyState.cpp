@@ -1427,7 +1427,7 @@ forget
 }
 }
 return
-NULL
+nullptr
 ;
 }
 void

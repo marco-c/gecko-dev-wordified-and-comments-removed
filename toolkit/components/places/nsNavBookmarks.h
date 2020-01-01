@@ -303,8 +303,10 @@ nsNavBookmarks
 )
 ;
 static
+already_AddRefed
+<
 nsNavBookmarks
-*
+>
 GetSingleton
 (
 )

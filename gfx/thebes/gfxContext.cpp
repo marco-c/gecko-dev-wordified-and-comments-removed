@@ -776,7 +776,7 @@ dy
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1133,7 +1133,7 @@ forget
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -8833,7 +8833,7 @@ forget
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }

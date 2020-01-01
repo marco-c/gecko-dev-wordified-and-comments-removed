@@ -724,7 +724,7 @@ rv
 )
 )
 return
-NULL
+nullptr
 ;
 f
 -

@@ -227,7 +227,7 @@ aWindow
 NS_ENSURE_TRUE
 (
 pWindow
-NULL
+nullptr
 )
 ;
 nsCOMPtr
@@ -284,7 +284,7 @@ aWindow
 NS_ENSURE_TRUE
 (
 scriptObjPrincipal
-NULL
+nullptr
 )
 ;
 if

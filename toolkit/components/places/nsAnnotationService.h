@@ -164,8 +164,10 @@ nsAnnotationService
 )
 ;
 static
+already_AddRefed
+<
 nsAnnotationService
-*
+>
 GetSingleton
 (
 )

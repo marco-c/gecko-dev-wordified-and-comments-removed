@@ -527,8 +527,10 @@ properties
 "
 )
 ;
+nsCOMPtr
+<
 nsIStringBundle
-*
+>
 bundle
 ;
 rv
@@ -543,8 +545,10 @@ url
 get
 (
 )
-&
+getter_AddRefs
+(
 bundle
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -555,6 +559,10 @@ nullptr
 ;
 return
 bundle
+.
+forget
+(
+)
 ;
 }
 const
