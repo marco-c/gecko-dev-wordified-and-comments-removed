@@ -600,6 +600,11 @@ nsIDOMDocument
 onmouseleave
 '
 '
+nsIDOMDocument
+.
+URL
+'
+'
 nsIDOMElement
 .
 removeAttributeNS
@@ -1144,11 +1149,6 @@ anchors
 nsIDOMHTMLDocument
 .
 links
-'
-'
-nsIDOMHTMLDocument
-.
-URL
 '
 '
 nsIDOMHTMLDocument
