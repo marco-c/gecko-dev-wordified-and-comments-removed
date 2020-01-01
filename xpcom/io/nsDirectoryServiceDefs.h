@@ -449,6 +449,12 @@ CmDeskP
 "
 #
 define
+NS_WIN_COMMON_APPDATA_DIR
+"
+CmAppData
+"
+#
+define
 NS_WIN_APPDATA_DIR
 "
 AppData
