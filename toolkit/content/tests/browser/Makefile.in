@@ -136,6 +136,10 @@ browser_Troubleshoot
 .
 js
 \
+browser_Deprecated
+.
+js
+\
 (
 NULL
 )
