@@ -627,6 +627,12 @@ mObserver
 ;
 nsCOMPtr
 <
+nsISupports
+>
+mCacheEntryClosePreventer
+;
+nsCOMPtr
+<
 nsIUnicodeDecoder
 >
 mUnicodeDecoder
