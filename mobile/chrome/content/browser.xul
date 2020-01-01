@@ -3103,16 +3103,6 @@ position
 relative
 ;
 "
-elasticheight
-=
-"
-100
-"
-elasticwidth
-=
-"
-100
-"
 flex
 =
 "
