@@ -51,11 +51,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-HTMLCanvasElement
+nsHTMLCanvasElement
 .
 h
 "
@@ -487,13 +483,7 @@ nsTArray
 <
 nsRefPtr
 <
-mozilla
-:
-:
-dom
-:
-:
-HTMLCanvasElement
+nsHTMLCanvasElement
 >
 >
 mCurrentCanvasList

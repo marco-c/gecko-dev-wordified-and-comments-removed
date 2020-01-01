@@ -313,11 +313,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-HTMLCanvasElement
+nsHTMLCanvasElement
 .
 h
 "
@@ -22392,7 +22388,7 @@ nsLayoutUtils
 :
 SurfaceFromElement
 (
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 aElement
 uint32_t
@@ -22614,7 +22610,7 @@ flags
 =
 premultAlpha
 ?
-HTMLCanvasElement
+nsHTMLCanvasElement
 :
 :
 RenderFlagPremultAlpha
@@ -22999,11 +22995,11 @@ aSurfaceFlags
 {
 if
 (
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 canvas
 =
-HTMLCanvasElement
+nsHTMLCanvasElement
 :
 :
 FromContentOrNull

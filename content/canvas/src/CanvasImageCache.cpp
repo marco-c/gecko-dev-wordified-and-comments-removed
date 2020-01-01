@@ -61,11 +61,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-HTMLCanvasElement
+nsHTMLCanvasElement
 .
 h
 "
@@ -91,7 +87,7 @@ ImageCacheKey
 Element
 *
 aImage
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 aCanvas
 )
@@ -110,7 +106,7 @@ Element
 *
 mImage
 ;
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 mCanvas
 ;
@@ -214,7 +210,7 @@ mILC
 ;
 nsRefPtr
 <
-HTMLCanvasElement
+nsHTMLCanvasElement
 >
 mCanvas
 ;
@@ -505,7 +501,7 @@ NotifyDrawImage
 Element
 *
 aImage
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 aCanvas
 imgIRequest
@@ -682,7 +678,7 @@ Lookup
 Element
 *
 aImage
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 aCanvas
 gfxIntSize

@@ -140,11 +140,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-HTMLCanvasElement
+nsHTMLCanvasElement
 .
 h
 "
@@ -1289,10 +1285,7 @@ false
 ;
 }
 }
-dom
-:
-:
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 GetCanvas
 (

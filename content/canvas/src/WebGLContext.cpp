@@ -3675,7 +3675,7 @@ public
 :
 WebGLContextUserData
 (
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 aContent
 )
@@ -3708,7 +3708,7 @@ WebGLContextUserData
 aData
 )
 ;
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 canvas
 =
@@ -3765,7 +3765,7 @@ private
 :
 nsRefPtr
 <
-HTMLCanvasElement
+nsHTMLCanvasElement
 >
 mContent
 ;

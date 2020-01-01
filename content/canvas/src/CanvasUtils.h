@@ -21,6 +21,9 @@ CheckedInt
 h
 "
 class
+nsHTMLCanvasElement
+;
+class
 nsIPrincipal
 ;
 namespace
@@ -31,13 +34,6 @@ gfx
 {
 class
 Matrix
-;
-}
-namespace
-dom
-{
-class
-HTMLCanvasElement
 ;
 }
 namespace
@@ -143,10 +139,7 @@ realHeight
 void
 DoDrawImageSecurityCheck
 (
-dom
-:
-:
-HTMLCanvasElement
+nsHTMLCanvasElement
 *
 aCanvasElement
 nsIPrincipal
