@@ -1444,7 +1444,11 @@ CPP_THROW_NEW
 void
 FlattenTo
 (
-nsVoidArray
+nsTArray
+<
+nsDisplayItem
+*
+>
 *
 aElements
 )
