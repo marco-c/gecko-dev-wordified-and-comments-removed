@@ -1320,6 +1320,10 @@ getBoundingClientRect
 ;
 left
 =
+Math
+.
+round
+(
 frombase
 ?
 rect
@@ -1331,9 +1335,14 @@ left
 rect
 .
 left
+)
 ;
 top
 =
+Math
+.
+round
+(
 frombase
 ?
 rect
@@ -1345,6 +1354,7 @@ top
 rect
 .
 bottom
+)
 ;
 is
 (
