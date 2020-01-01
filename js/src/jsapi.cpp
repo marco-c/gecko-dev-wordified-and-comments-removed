@@ -25186,6 +25186,10 @@ allowIntrinsicsCalls
 (
 false
 )
+sourcePolicy
+(
+SAVE_SOURCE
+)
 {
 }
 JSScript
