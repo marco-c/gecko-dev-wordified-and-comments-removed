@@ -23304,6 +23304,8 @@ cx
 ;
 bool
 gotLambda
+=
+false
 ;
 types
 :
