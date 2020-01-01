@@ -308,8 +308,6 @@ newName
 PropertyName
 *
 name
-InBlockBool
-inBlock
 uint32_t
 blockid
 const
@@ -327,7 +325,6 @@ NameNode
 PNK_NAME
 JSOP_NAME
 name
-inBlock
 blockid
 pos
 )
@@ -340,8 +337,6 @@ newPlaceholder
 JSAtom
 *
 atom
-InBlockBool
-inBlock
 uint32_t
 blockid
 const
@@ -366,7 +361,6 @@ NameNode
 PNK_NAME
 JSOP_NOP
 atom
-inBlock
 blockid
 pos
 )
