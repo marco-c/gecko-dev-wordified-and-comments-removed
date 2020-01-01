@@ -270,6 +270,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 sqlite3
 .
@@ -16725,6 +16734,7 @@ rv
 }
 class
 nsUrlClassifierLookupCallback
+MOZ_FINAL
 :
 public
 nsIUrlClassifierLookupCallback
@@ -17612,6 +17622,7 @@ tables
 }
 class
 nsUrlClassifierClassifyCallback
+MOZ_FINAL
 :
 public
 nsIUrlClassifierCallback

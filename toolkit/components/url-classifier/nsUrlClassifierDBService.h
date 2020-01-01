@@ -82,6 +82,15 @@ nsICryptoHMAC
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 DOMAIN_LENGTH
 4
@@ -101,6 +110,7 @@ nsIThread
 ;
 class
 nsUrlClassifierDBService
+MOZ_FINAL
 :
 public
 nsIUrlClassifierDBService
