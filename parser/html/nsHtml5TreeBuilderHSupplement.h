@@ -113,11 +113,6 @@ nsHtml5TreeBuilder
 )
 ;
 PRBool
-IsDiscretionaryFlushSafe
-(
-)
-;
-PRBool
 HasScript
 (
 )
@@ -150,6 +145,10 @@ Clear
 PRBool
 Flush
 (
+PRBool
+aDiscretionary
+=
+PR_FALSE
 )
 ;
 void
