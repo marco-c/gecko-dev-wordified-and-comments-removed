@@ -1156,6 +1156,15 @@ crash_reporter
 "
 android
 :
+theme
+=
+"
+style
+/
+GreyTheme
+"
+android
+:
 excludeFromRecents
 =
 "
