@@ -326,9 +326,7 @@ gUpdateManager
 activeUpdate
 .
 state
-"
-pending
-"
+STATE_PENDING
 "
 The
 active
@@ -338,8 +336,9 @@ have
 a
 state
 of
-pending
 "
++
+STATE_PENDING
 )
 ;
 ok

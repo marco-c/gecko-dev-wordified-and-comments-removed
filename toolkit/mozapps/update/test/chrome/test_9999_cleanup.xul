@@ -334,6 +334,10 @@ resetPrefs
 (
 )
 ;
+resetFiles
+(
+)
+;
 removeUpdateDirsAndFiles
 (
 )
