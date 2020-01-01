@@ -147,13 +147,6 @@ nsIdleServiceDaily
 ;
 private
 :
-void
-StageIdleDaily
-(
-bool
-aHasBeenLongWait
-)
-;
 nsIIdleService
 *
 mIdleService
@@ -186,10 +179,7 @@ bool
 mShutdownInProgress
 ;
 PRTime
-mExpectedTriggerTime
-;
-int32_t
-mIdleDailyTriggerWait
+mDailyTimerStart
 ;
 }
 ;
