@@ -198,7 +198,7 @@ nsPlatformCharset
 :
 ConvertLocaleToCharsetUsingDeprecatedConfig
 (
-nsAString
+nsACString
 &
 locale
 nsACString
@@ -249,7 +249,7 @@ AppendLiteral
 ;
 platformLocaleKey
 .
-AppendWithConversion
+Append
 (
 locale
 )
@@ -300,7 +300,7 @@ all
 ;
 localeKey
 .
-AppendWithConversion
+Append
 (
 locale
 )
@@ -524,7 +524,7 @@ NS_SUCCESS_USING_FALLBACK_LOCALE
 ;
 #
 else
-nsAutoString
+NS_LossyConvertUTF16toASCII
 localeStr
 (
 localeName
@@ -690,12 +690,12 @@ LC_CTYPE
 nsnull
 )
 ;
-nsAutoString
+nsCAutoString
 localeStr
 ;
 localeStr
 .
-AssignWithConversion
+Assign
 (
 locale
 )

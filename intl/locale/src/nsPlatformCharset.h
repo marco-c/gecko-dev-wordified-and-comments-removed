@@ -87,7 +87,7 @@ oString
 nsresult
 ConvertLocaleToCharsetUsingDeprecatedConfig
 (
-nsAString
+nsACString
 &
 locale
 nsACString
