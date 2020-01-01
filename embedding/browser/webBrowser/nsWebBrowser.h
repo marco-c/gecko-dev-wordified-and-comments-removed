@@ -175,7 +175,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -544,7 +544,11 @@ nsIWidget
 *
 mParentWidget
 ;
-nsVoidArray
+nsTArray
+<
+nsWebBrowserListenerState
+*
+>
 *
 mListenerArray
 ;

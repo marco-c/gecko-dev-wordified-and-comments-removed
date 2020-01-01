@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

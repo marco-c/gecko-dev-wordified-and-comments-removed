@@ -496,7 +496,11 @@ CGID_MSHTML_Moz
 }
 }
 ;
-nsVoidArray
+nsTArray
+<
+CMozillaBrowser
+*
+>
 CMozillaBrowser
 :
 :

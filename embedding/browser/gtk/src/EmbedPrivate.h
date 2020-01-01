@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -435,7 +435,11 @@ nsIAppShell
 sAppShell
 ;
 static
-nsVoidArray
+nsTArray
+<
+EmbedPrivate
+*
+>
 *
 sWindowList
 ;

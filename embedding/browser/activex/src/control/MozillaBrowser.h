@@ -2387,7 +2387,11 @@ S_OK
 protected
 :
 static
-nsVoidArray
+nsTArray
+<
+CMozillaBrowser
+*
+>
 sBrowserList
 ;
 nsString

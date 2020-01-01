@@ -2290,7 +2290,7 @@ Count
 |
 mDocList
 .
-Count
+Length
 (
 )
 |
@@ -2920,7 +2920,7 @@ if
 (
 mDocList
 .
-Count
+Length
 (
 )
 =
@@ -6409,7 +6409,7 @@ mStartSaving
 =
 PR_TRUE
 ;
-PRInt32
+PRUint32
 i
 ;
 for
@@ -6422,7 +6422,7 @@ i
 <
 mDocList
 .
-Count
+Length
 (
 )
 ;
@@ -6435,10 +6435,6 @@ DocData
 *
 docData
 =
-(
-DocData
-*
-)
 mDocList
 .
 ElementAt
@@ -6584,7 +6580,7 @@ i
 <
 mDocList
 .
-Count
+Length
 (
 )
 ;
@@ -6597,10 +6593,6 @@ DocData
 *
 docData
 =
-(
-DocData
-*
-)
 mDocList
 .
 ElementAt
@@ -6694,7 +6686,7 @@ Reset
 (
 )
 ;
-PRInt32
+PRUint32
 i
 ;
 for
@@ -6707,7 +6699,7 @@ i
 <
 mDocList
 .
-Count
+Length
 (
 )
 ;
@@ -6720,10 +6712,6 @@ DocData
 *
 docData
 =
-(
-DocData
-*
-)
 mDocList
 .
 ElementAt
@@ -6751,7 +6739,7 @@ i
 <
 mCleanupList
 .
-Count
+Length
 (
 )
 ;
@@ -6764,10 +6752,6 @@ CleanupData
 *
 cleanupData
 =
-(
-CleanupData
-*
-)
 mCleanupList
 .
 ElementAt
@@ -6818,7 +6802,7 @@ pass
 +
 )
 {
-PRInt32
+PRUint32
 i
 ;
 for
@@ -6831,7 +6815,7 @@ i
 <
 mCleanupList
 .
-Count
+Length
 (
 )
 ;
@@ -6844,10 +6828,6 @@ CleanupData
 *
 cleanupData
 =
-(
-CleanupData
-*
-)
 mCleanupList
 .
 ElementAt
