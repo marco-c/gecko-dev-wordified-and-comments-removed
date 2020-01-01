@@ -34,11 +34,19 @@ mach
 settings
 import
 Settings
+from
+mach
+.
+testing
+import
+Testing
 HANDLERS
 =
 [
     
 Settings
+    
+Testing
 ]
 SETTINGS_PROVIDERS
 =
@@ -164,6 +172,16 @@ list
 of
 all
 commands
+.
+    
+%
+(
+prog
+)
+s
+test
+Run
+tests
 .
 To
 see
