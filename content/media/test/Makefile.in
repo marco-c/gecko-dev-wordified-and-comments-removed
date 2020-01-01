@@ -921,6 +921,10 @@ test_play_events
 .
 html
 \
+test_play_events_2
+.
+html
+\
 test_play_twice
 .
 html
