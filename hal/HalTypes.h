@@ -11,6 +11,13 @@ IPCMessageUtils
 .
 h
 "
+#
+include
+"
+Observer
+.
+h
+"
 namespace
 mozilla
 {
