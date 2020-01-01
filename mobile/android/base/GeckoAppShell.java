@@ -11781,7 +11781,9 @@ Base64
 decode
 (
 in
-GUID_ENCODE_FLAGS
+Base64
+.
+DEFAULT
 )
 ;
 int
