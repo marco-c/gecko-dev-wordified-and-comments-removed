@@ -515,7 +515,7 @@ SmsParent
 .
 h
 \
-SmsServiceFactory
+SmsServicesFactory
 .
 h
 \
@@ -549,7 +549,7 @@ SmsIPCService
 .
 cpp
 \
-SmsServiceFactory
+SmsServicesFactory
 .
 cpp
 \
@@ -570,6 +570,10 @@ Constants
 cpp
 \
 SmsChild
+.
+cpp
+\
+SmsDatabaseService
 .
 cpp
 \
