@@ -991,6 +991,11 @@ mode
 "
 view
 "
+tablet_sidebar
+=
+"
+true
+"
 /
 >
 <
