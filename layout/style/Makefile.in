@@ -540,10 +540,6 @@ nsICSSRuleList
 .
 h
 \
-nsICSSStyleRule
-.
-h
-\
 nsICSSStyleRuleDOMWrapper
 .
 h
@@ -632,6 +628,10 @@ Loader
 .
 h
 \
+StyleRule
+.
+h
+\
 (
 NULL
 )
@@ -687,10 +687,6 @@ nsCSSScanner
 cpp
 \
 nsCSSStruct
-.
-cpp
-\
-nsCSSStyleRule
 .
 cpp
 \
@@ -787,6 +783,10 @@ nsStyleUtil
 cpp
 \
 nsTransitionManager
+.
+cpp
+\
+StyleRule
 .
 cpp
 \
