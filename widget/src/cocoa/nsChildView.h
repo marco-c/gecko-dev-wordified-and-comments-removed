@@ -261,12 +261,6 @@ mPendingDirtyRects
 BOOL
 mPendingFullDisplay
 ;
-PRIntervalTime
-mLastShadowInvalidation
-;
-BOOL
-mNeedsShadowInvalidation
-;
 nsIDragService
 *
 mDragService
