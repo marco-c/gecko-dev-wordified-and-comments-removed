@@ -673,8 +673,6 @@ image
 "
 )
 ;
-return
-;
 }
 nsRect
 bounds
