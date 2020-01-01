@@ -7104,6 +7104,7 @@ record
 "
 )
 ;
+let
 meta
 =
 new
