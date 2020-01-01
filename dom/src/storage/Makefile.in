@@ -104,6 +104,10 @@ nsDOMStorageDBWrapper
 .
 cpp
 \
+nsLocalStorageCache
+.
+cpp
+\
 nsDOMStoragePersistentDB
 .
 cpp
