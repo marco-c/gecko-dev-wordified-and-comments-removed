@@ -546,6 +546,14 @@ PrivateFrameworks
 framework
 CHUD
 endif
+ifdef
+MOZ_CALLGRIND
+DEFINES
++
+=
+-
+DMOZ_CALLGRIND
+endif
 #
 #
 Line
