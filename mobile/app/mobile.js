@@ -2703,6 +2703,6 @@ console
 .
 showInPanel
 "
-true
+false
 )
 ;
