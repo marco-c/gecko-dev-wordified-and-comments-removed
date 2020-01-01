@@ -1778,6 +1778,12 @@ DELEGATE_EXECUTE_HANDLER_ID
 {
 EndIf
 }
+{
+ResetWin8PromptKeys
+}
+{
+ResetWin8MetroSplash
+}
 !
 endif
 {

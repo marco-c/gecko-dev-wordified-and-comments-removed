@@ -1653,6 +1653,9 @@ Mozilla
 RegCleanUninstall
 }
 {
+ResetWin8PromptKeys
+}
+{
 UpdateProtocolHandlers
 }
 ClearErrors
@@ -1814,6 +1817,14 @@ AppName
 \
 TaskBarIDs
 "
+!
+ifdef
+MOZ_METRO
+{
+ResetWin8MetroSplash
+}
+!
+endif
 {
 RemoveDeprecatedKeys
 }
