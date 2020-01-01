@@ -3482,10 +3482,10 @@ gcTriggerBytes
 TriggerCompartmentGC
 (
 comp
-gcstats
+gcreason
 :
 :
-ALLOCTRIGGER
+ALLOC_TRIGGER
 )
 ;
 return
@@ -7583,10 +7583,10 @@ rt
 >
 gcTriggerCompartment
 GC_NORMAL
-gcstats
+gcreason
 :
 :
-LASTDITCH
+LAST_DITCH
 )
 ;
 }
@@ -10331,7 +10331,7 @@ TriggerGC
 JSRuntime
 *
 rt
-gcstats
+gcreason
 :
 :
 Reason
@@ -10398,7 +10398,7 @@ TriggerCompartmentGC
 JSCompartment
 *
 comp
-gcstats
+gcreason
 :
 :
 Reason
@@ -10610,7 +10610,7 @@ js_GC
 cx
 NULL
 GC_NORMAL
-gcstats
+gcreason
 :
 :
 MAYBEGC
@@ -10653,7 +10653,7 @@ comp
 :
 NULL
 GC_NORMAL
-gcstats
+gcreason
 :
 :
 MAYBEGC
@@ -10707,7 +10707,7 @@ comp
 :
 NULL
 GC_NORMAL
-gcstats
+gcreason
 :
 :
 MAYBEGC
@@ -10761,7 +10761,7 @@ js_GC
 cx
 NULL
 GC_SHRINK
-gcstats
+gcreason
 :
 :
 MAYBEGC
@@ -13910,7 +13910,7 @@ JSCompartment
 comp
 JSGCInvocationKind
 gckind
-gcstats
+gcreason
 :
 :
 Reason

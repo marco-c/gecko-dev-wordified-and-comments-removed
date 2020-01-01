@@ -3431,6 +3431,13 @@ thisFromCtor
 (
 )
 )
+gcTriggerReason
+(
+gcreason
+:
+:
+NO_REASON
+)
 gcTriggerCompartment
 (
 NULL
@@ -13453,10 +13460,10 @@ js_GC
 cx
 comp
 GC_NORMAL
-gcstats
+gcreason
 :
 :
-PUBLIC_API
+API
 )
 ;
 }

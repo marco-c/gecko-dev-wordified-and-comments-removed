@@ -3709,6 +3709,13 @@ nsJSContext
 :
 GarbageCollectNow
 (
+js
+:
+:
+gcreason
+:
+:
+DOM_UTILS
 )
 ;
 nsJSContext
