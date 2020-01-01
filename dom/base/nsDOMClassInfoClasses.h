@@ -1240,10 +1240,6 @@ MozBatteryManager
 )
 DOMCI_CLASS
 (
-MozPowerManager
-)
-DOMCI_CLASS
-(
 MozSmsManager
 )
 DOMCI_CLASS
