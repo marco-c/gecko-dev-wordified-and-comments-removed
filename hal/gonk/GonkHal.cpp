@@ -4298,13 +4298,13 @@ master
 foreground
 "
 "
-background
+backgroundPerceivable
 "
 "
 backgroundHomescreen
 "
 "
-backgroundPerceivable
+background
 "
 }
 ;
