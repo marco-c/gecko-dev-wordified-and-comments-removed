@@ -2289,8 +2289,8 @@ aOldValue
 nsAttrValue
 &
 aParsedValue
-PRBool
-aModification
+PRUint8
+aModType
 PRBool
 aFireMutation
 PRBool
