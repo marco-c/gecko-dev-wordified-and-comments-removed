@@ -30,12 +30,6 @@ DEPTH
 /
 .
 .
-/
-.
-.
-/
-.
-.
 topsrcdir
 =
 top_srcdir
@@ -49,11 +43,9 @@ relativesrcdir
 =
 dom
 /
+imported
+-
 tests
-/
-mochitest
-/
-w3c
 /
 html
 /

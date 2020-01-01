@@ -1430,10 +1430,8 @@ argv
 "
 dom
 /
+imported
+-
 tests
-/
-mochitest
-/
-w3c
 "
 )
