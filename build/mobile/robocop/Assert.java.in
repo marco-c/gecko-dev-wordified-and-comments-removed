@@ -428,6 +428,15 @@ message
 )
 ;
 void
+dumpLog
+(
+String
+message
+Throwable
+t
+)
+;
+void
 setLogFile
 (
 String
