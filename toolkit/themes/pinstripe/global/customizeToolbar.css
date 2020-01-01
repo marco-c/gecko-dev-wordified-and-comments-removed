@@ -96,14 +96,11 @@ box
 >
 button
 {
+min
 -
-moz
--
-appearance
+height
 :
-button
--
-small
+19px
 ;
 font
 :

@@ -4242,10 +4242,6 @@ break
 case
 NS_THEME_BUTTON
 :
-case
-NS_THEME_BUTTON_SMALL
-:
-{
 DrawButton
 (
 cgContext
@@ -4264,7 +4260,6 @@ kThemeAdornmentNone
 eventState
 )
 ;
-}
 break
 ;
 case
@@ -5466,9 +5461,6 @@ aWidgetType
 case
 NS_THEME_BUTTON
 :
-case
-NS_THEME_BUTTON_SMALL
-:
 /
 /
 Top
@@ -5903,9 +5895,6 @@ case
 NS_THEME_BUTTON
 :
 case
-NS_THEME_BUTTON_SMALL
-:
-case
 NS_THEME_TEXTFIELD
 :
 case
@@ -6094,9 +6083,6 @@ aWidgetType
 {
 case
 NS_THEME_BUTTON
-:
-case
-NS_THEME_BUTTON_SMALL
 :
 {
 aResult
@@ -7726,9 +7712,6 @@ case
 NS_THEME_BUTTON
 :
 case
-NS_THEME_BUTTON_SMALL
-:
-case
 NS_THEME_BUTTON_BEVEL
 :
 case
@@ -7978,12 +7961,6 @@ aWidgetType
 =
 =
 NS_THEME_BUTTON
-|
-|
-aWidgetType
-=
-=
-NS_THEME_BUTTON_SMALL
 )
 return
 PR_TRUE
