@@ -47,7 +47,7 @@ eAria_none
 #
 include
 "
-nsAriaPropertyList
+nsARIAPropertyList
 .
 h
 "
@@ -85,7 +85,7 @@ eAria_none
 #
 include
 "
-nsAriaPropertyList
+nsARIAPropertyList
 .
 h
 "

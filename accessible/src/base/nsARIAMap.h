@@ -34,7 +34,7 @@ EAriaProperty
 #
 include
 "
-nsAriaPropertyList
+nsARIAPropertyList
 .
 h
 "
