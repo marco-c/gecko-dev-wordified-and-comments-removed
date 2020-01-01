@@ -1536,6 +1536,12 @@ float
 offset
 )
 {
+NS_ENSURE_FINITE
+(
+offset
+NS_ERROR_ILLEGAL_VALUE
+)
+;
 nsresult
 rv
 =
@@ -1592,6 +1598,12 @@ float
 offset
 )
 {
+NS_ENSURE_FINITE
+(
+offset
+NS_ERROR_ILLEGAL_VALUE
+)
+;
 nsresult
 rv
 =
