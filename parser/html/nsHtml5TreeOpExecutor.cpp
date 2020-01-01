@@ -3439,7 +3439,7 @@ nsnull
 }
 mPreloadedURLs
 .
-Put
+PutEntry
 (
 spec
 )
