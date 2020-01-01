@@ -1320,7 +1320,7 @@ NIns
 *
 targ
 bool
-far
+isfar
 )
 ;
 void

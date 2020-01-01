@@ -5245,13 +5245,13 @@ NIns
 *
 targ
 bool
-far
+isfar
 )
 {
 (
 void
 )
-far
+isfar
 ;
 NIns
 *

@@ -1766,6 +1766,8 @@ cond
 NIns
 *
 targ
+bool
+isfar
 )
 {
 NIns
