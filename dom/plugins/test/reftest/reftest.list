@@ -951,6 +951,7 @@ shrink
 ref
 .
 html
+#
 skip
 -
 if
@@ -972,6 +973,8 @@ update
 ref
 .
 html
+bug
+807728
 fails
 -
 if
