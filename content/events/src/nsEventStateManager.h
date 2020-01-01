@@ -993,6 +993,9 @@ aDataTransfer
 PRBool
 *
 aIsSelection
+PRBool
+*
+aIsInEditor
 nsIContent
 *
 *
