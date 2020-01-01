@@ -948,6 +948,8 @@ Application
 .
 bookmarks
 .
+menu
+.
 addFolder
 (
 "
