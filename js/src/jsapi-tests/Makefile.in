@@ -441,6 +441,10 @@ testClassGetter
 .
 cpp
 \
+testCloneScript
+.
+cpp
+\
 testConservativeGC
 .
 cpp
