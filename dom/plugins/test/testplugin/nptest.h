@@ -211,6 +211,9 @@ asyncCallbackResult
 bool
 invalidateDuringPaint
 ;
+bool
+slowPaint
+;
 int32_t
 winX
 ;
