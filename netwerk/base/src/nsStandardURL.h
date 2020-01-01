@@ -1402,7 +1402,7 @@ nsStandardURL
 :
 Userpass
 (
-int
+PRBool
 includeDelim
 )
 {

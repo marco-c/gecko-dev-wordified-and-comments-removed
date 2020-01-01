@@ -405,7 +405,7 @@ rv
 return
 rv
 ;
-PRBool
+PRInt32
 tempValue
 ;
 block

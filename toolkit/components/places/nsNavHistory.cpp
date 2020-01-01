@@ -11370,7 +11370,7 @@ rv
 rv
 )
 ;
-PRBool
+PRInt32
 oldHiddenState
 =
 0
