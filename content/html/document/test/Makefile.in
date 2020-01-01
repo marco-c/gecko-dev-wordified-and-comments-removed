@@ -570,6 +570,10 @@ takes
 seconds
 )
 \
+test_bug463104
+.
+html
+\
 test_bug468353
 .
 html
