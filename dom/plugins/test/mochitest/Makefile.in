@@ -457,6 +457,10 @@ test_bug479979
 .
 xul
 \
+test_refresh_navigator_plugins
+.
+html
+\
 (
 NULL
 )
