@@ -3656,6 +3656,12 @@ whichTreesToTrash
 GuardedShapeTable
 guardedShapeTable
 ;
+int
+initDepth
+;
+bool
+hadNewInit
+;
 nanojit
 :
 :
