@@ -374,11 +374,6 @@ CreateTable
 )
 ;
 nsresult
-ImportCookies
-(
-)
-;
-nsresult
 Read
 (
 )
