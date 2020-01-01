@@ -285,11 +285,6 @@ mMainThread
 new
 nsThread
 (
-nsThread
-:
-:
-MAIN_THREAD
-0
 )
 ;
 if
@@ -691,11 +686,6 @@ thread
 new
 nsThread
 (
-nsThread
-:
-:
-NOT_MAIN_THREAD
-0
 )
 ;
 if
@@ -754,10 +744,6 @@ thr
 new
 nsThread
 (
-nsThread
-:
-:
-NOT_MAIN_THREAD
 stackSize
 )
 ;
