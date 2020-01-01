@@ -145,7 +145,6 @@ getEditor
 )
 ;
 }
-Override
 public
 void
 apply
@@ -156,7 +155,7 @@ this
 .
 editor
 .
-apply
+commit
 (
 )
 ;
