@@ -226,10 +226,6 @@ HTMLPreElement
 .
 h
 \
-HTMLProgressElement
-.
-h
-\
 HTMLScriptElement
 .
 h
@@ -468,7 +464,7 @@ HTMLPreElement
 .
 cpp
 \
-HTMLProgressElement
+nsHTMLProgressElement
 .
 cpp
 \

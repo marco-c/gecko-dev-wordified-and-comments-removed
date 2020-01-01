@@ -399,10 +399,6 @@ HTMLPreElement
 .
 webidl
 \
-HTMLProgressElement
-.
-webidl
-\
 HTMLPropertiesCollection
 .
 webidl
