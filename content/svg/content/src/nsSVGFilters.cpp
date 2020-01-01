@@ -1694,6 +1694,22 @@ this
 )
 ;
 }
+void
+nsSVGFE
+:
+:
+DidAnimateString
+(
+PRUint8
+aAttrEnum
+)
+{
+DidAnimateAttr
+(
+this
+)
+;
+}
 typedef
 nsSVGFE
 nsSVGFEGaussianBlurElementBase
@@ -2049,6 +2065,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -2057,6 +2074,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -4566,6 +4584,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -4574,6 +4593,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -4582,6 +4602,7 @@ nsGkAtoms
 :
 in2
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -5565,6 +5586,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -5573,6 +5595,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -7407,6 +7430,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -7415,6 +7439,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -7423,6 +7448,7 @@ nsGkAtoms
 :
 in2
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -8585,6 +8611,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -8593,6 +8620,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -11276,6 +11304,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -11552,6 +11581,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -11990,6 +12020,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -11998,6 +12029,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -12768,6 +12800,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -13325,6 +13358,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -13333,6 +13367,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -14667,6 +14702,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -17348,6 +17384,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -17356,6 +17393,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -19159,6 +19197,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -19167,6 +19206,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -22202,6 +22242,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -22210,6 +22251,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;
@@ -25566,6 +25608,14 @@ GetStringInfo
 (
 )
 ;
+virtual
+void
+DidAnimateString
+(
+PRUint8
+aAttrEnum
+)
+;
 enum
 {
 RESULT
@@ -25610,6 +25660,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -25618,6 +25669,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
+PR_TRUE
 }
 }
 ;
@@ -26436,6 +26488,42 @@ sStringInfo
 )
 ;
 }
+void
+nsSVGFEImageElement
+:
+:
+DidAnimateString
+(
+PRUint8
+aAttrEnum
+)
+{
+if
+(
+aAttrEnum
+=
+=
+HREF
+)
+{
+LoadSVGImage
+(
+PR_TRUE
+PR_FALSE
+)
+;
+return
+;
+}
+nsSVGFEImageElementBase
+:
+:
+DidAnimateString
+(
+aAttrEnum
+)
+;
+}
 NS_IMETHODIMP
 nsSVGFEImageElement
 :
@@ -27097,6 +27185,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -27105,6 +27194,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
+PR_TRUE
 }
 {
 &
@@ -27113,6 +27203,7 @@ nsGkAtoms
 :
 in2
 kNameSpaceID_None
+PR_TRUE
 }
 }
 ;

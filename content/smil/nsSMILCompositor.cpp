@@ -486,6 +486,9 @@ GetAnimatedAttr
 (
 mKey
 .
+mAttributeNamespaceID
+mKey
+.
 mAttributeName
 )
 ;

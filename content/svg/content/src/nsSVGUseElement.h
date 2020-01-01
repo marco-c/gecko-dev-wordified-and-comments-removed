@@ -250,6 +250,14 @@ aAttrEnum
 )
 ;
 virtual
+void
+DidAnimateString
+(
+PRUint8
+aAttrEnum
+)
+;
+virtual
 nsresult
 Clone
 (

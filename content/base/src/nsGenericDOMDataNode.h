@@ -994,6 +994,7 @@ nsISMILAttr
 *
 GetAnimatedAttr
 (
+PRInt32
 nsIAtom
 *
 )

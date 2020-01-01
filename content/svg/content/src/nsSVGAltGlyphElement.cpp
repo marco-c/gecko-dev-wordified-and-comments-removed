@@ -199,6 +199,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
+PR_FALSE
 }
 }
 ;

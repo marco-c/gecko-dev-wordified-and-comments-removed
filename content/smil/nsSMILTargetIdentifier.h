@@ -44,6 +44,10 @@ mAttributeName
 (
 nsnull
 )
+mAttributeNamespaceID
+(
+kNameSpaceID_Unknown
+)
 mIsCSS
 (
 PR_FALSE
@@ -81,6 +85,14 @@ mAttributeName
 &
 aOther
 .
+mAttributeNamespaceID
+=
+=
+mAttributeNamespaceID
+&
+&
+aOther
+.
 mIsCSS
 =
 =
@@ -105,6 +117,9 @@ nsRefPtr
 nsIAtom
 >
 mAttributeName
+;
+PRInt32
+mAttributeNamespaceID
 ;
 PRPackedBool
 mIsCSS

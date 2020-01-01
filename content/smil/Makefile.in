@@ -550,6 +550,10 @@ SMILIntegerType
 .
 cpp
 \
+SMILStringType
+.
+cpp
+\
 (
 NULL
 )
