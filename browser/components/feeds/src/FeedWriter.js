@@ -8126,7 +8126,9 @@ category
 :
 "
 JavaScript
+-
 global
+-
 constructor
 "
 entry
