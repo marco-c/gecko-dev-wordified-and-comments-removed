@@ -820,6 +820,10 @@ enableTestPlugin
 .
 js
 \
+test_getClientRects_emptytext
+.
+html
+\
 (
 NULL
 )

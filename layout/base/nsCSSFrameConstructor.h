@@ -90,6 +90,9 @@ struct
 PendingBinding
 ;
 class
+nsGenericDOMDataNode
+;
+class
 nsFrameConstructorState
 ;
 class
@@ -415,6 +418,15 @@ aContent
 CharacterDataChangeInfo
 *
 aInfo
+)
+;
+nsIFrame
+*
+EnsureFrameForTextNode
+(
+nsGenericDOMDataNode
+*
+aContent
 )
 ;
 nsresult
