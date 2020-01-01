@@ -552,6 +552,16 @@ null
 )
 |
 |
+typeof
+v
+=
+=
+=
+"
+function
+"
+|
+|
 (
 typeof
 v
