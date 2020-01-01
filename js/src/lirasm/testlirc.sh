@@ -7,6 +7,9 @@ bash
 set
 -
 eu
+exitcode
+=
+0
 LIRASM
 =
 1
@@ -187,6 +190,9 @@ cat
 testoutput
 .
 txt
+exitcode
+=
+1
 fi
 }
 #
@@ -741,3 +747,5 @@ rm
 testoutput
 .
 txt
+exit
+exitcode
