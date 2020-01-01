@@ -15807,6 +15807,9 @@ break
 case
 NS_ERROR_DOCUMENT_NOT_CACHED
 :
+case
+NS_ERROR_OFFLINE
+:
 error
 .
 AssignLiteral
@@ -24539,6 +24542,12 @@ aStatus
 =
 =
 NS_ERROR_NET_RESET
+|
+|
+aStatus
+=
+=
+NS_ERROR_OFFLINE
 |
 |
 aStatus
