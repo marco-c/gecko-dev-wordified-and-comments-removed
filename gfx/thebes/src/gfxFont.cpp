@@ -315,7 +315,7 @@ gfxFont
 gfxFontEntry
 :
 :
-GetOrMakeFont
+FindOrMakeFont
 (
 const
 gfxFontStyle
@@ -7399,7 +7399,7 @@ font
 defaultFont
 -
 >
-GetOrMakeFont
+FindOrMakeFont
 (
 aStyle
 needsBold
@@ -7659,7 +7659,7 @@ font
 fe
 -
 >
-GetOrMakeFont
+FindOrMakeFont
 (
 fontStyle
 needsBold
@@ -10749,7 +10749,7 @@ prefFont
 fe
 -
 >
-GetOrMakeFont
+FindOrMakeFont
 (
 &
 mStyle
@@ -10846,7 +10846,7 @@ font
 fe
 -
 >
-GetOrMakeFont
+FindOrMakeFont
 (
 &
 mStyle

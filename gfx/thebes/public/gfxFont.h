@@ -824,7 +824,7 @@ already_AddRefed
 <
 gfxFont
 >
-GetOrMakeFont
+FindOrMakeFont
 (
 const
 gfxFontStyle
