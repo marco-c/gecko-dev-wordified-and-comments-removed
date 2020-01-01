@@ -6357,6 +6357,9 @@ return
 NS_OK
 ;
 }
+AutoJSContext
+cx
+;
 JS
 :
 :
@@ -6369,7 +6372,7 @@ Value
 >
 v
 (
-mContext
+cx
 )
 ;
 nsresult
@@ -6380,7 +6383,7 @@ nsContentUtils
 :
 WrapNative
 (
-mContext
+cx
 aScope
 aTarget
 v
@@ -6426,7 +6429,7 @@ XPConnect
 >
 GetNativeOfWrapper
 (
-mContext
+cx
 JSVAL_TO_OBJECT
 (
 v
@@ -6542,6 +6545,12 @@ xpc_UnmarkGrayObject
 aHandler
 )
 ;
+AutoPushJSContext
+cx
+(
+mContext
+)
+;
 XPCAutoRequest
 ar
 (
@@ -6558,7 +6567,7 @@ JSObject
 >
 target
 (
-mContext
+cx
 )
 ;
 JS
@@ -6571,7 +6580,7 @@ JSObject
 >
 scope
 (
-mContext
+cx
 aScope
 )
 ;
@@ -6602,7 +6611,7 @@ DEBUG
 JSAutoCompartment
 ac
 (
-mContext
+cx
 aHandler
 )
 ;
@@ -6610,7 +6619,7 @@ NS_ASSERTION
 (
 JS_TypeOfValue
 (
-mContext
+cx
 OBJECT_TO_JSVAL
 (
 aHandler
@@ -6635,7 +6644,7 @@ endif
 JSAutoCompartment
 ac
 (
-mContext
+cx
 target
 )
 ;
@@ -6652,7 +6661,7 @@ funobj
 =
 JS_CloneFunctionObject
 (
-mContext
+cx
 aHandler
 target
 )
@@ -6709,6 +6718,12 @@ aScriptObject
 return
 NS_ERROR_FAILURE
 ;
+AutoPushJSContext
+cx
+(
+mContext
+)
+;
 return
 nsContentUtils
 :
@@ -6721,7 +6736,7 @@ XPConnect
 WriteScript
 (
 aStream
-mContext
+cx
 xpc_UnmarkGrayScript
 (
 aScriptObject
@@ -6749,6 +6764,12 @@ JSScript
 aResult
 )
 {
+AutoPushJSContext
+cx
+(
+mContext
+)
+;
 JS
 :
 :
@@ -6759,7 +6780,7 @@ JSScript
 >
 script
 (
-mContext
+cx
 )
 ;
 nsresult
@@ -6776,7 +6797,7 @@ XPConnect
 ReadScript
 (
 aStream
-mContext
+cx
 script
 .
 address
@@ -6814,6 +6835,9 @@ GetGlobalObject
 (
 )
 {
+AutoJSContext
+cx
+;
 JS
 :
 :
@@ -6824,7 +6848,7 @@ JSObject
 >
 global
 (
-mContext
+cx
 :
 :
 JS_GetGlobalObject
@@ -6860,7 +6884,7 @@ inner
 =
 JS_ObjectToInnerObject
 (
-mContext
+cx
 global
 )
 ;
@@ -7373,6 +7397,9 @@ xpc
 NS_ERROR_UNEXPECTED
 )
 ;
+AutoJSContext
+cx
+;
 if
 (
 !
@@ -7440,7 +7467,11 @@ aTempStorage
 .
 construct
 (
-mContext
+(
+JSContext
+*
+)
+cx
 )
 ;
 aTempStorage
@@ -7451,7 +7482,7 @@ ref
 .
 SetCapacity
 (
-mContext
+cx
 argCount
 )
 ;
@@ -7573,7 +7604,7 @@ xpc
 >
 VariantToJS
 (
-mContext
+cx
 aScope
 variant
 thisval
@@ -7652,7 +7683,7 @@ Value
 >
 v
 (
-mContext
+cx
 )
 ;
 rv
@@ -7662,7 +7693,7 @@ nsContentUtils
 :
 WrapNative
 (
-mContext
+cx
 aScope
 arg
 v
@@ -7719,7 +7750,7 @@ xpc
 >
 VariantToJS
 (
-mContext
+cx
 aScope
 variant
 argv
@@ -7817,11 +7848,8 @@ argPrimitive
 return
 NS_ERROR_NO_INTERFACE
 ;
-JSContext
-*
+AutoJSContext
 cx
-=
-mContext
 ;
 uint16_t
 type
@@ -10097,11 +10125,17 @@ js_options_dot_str
 this
 )
 ;
+AutoPushJSContext
+cx
+(
+mContext
+)
+;
 :
 :
 JS_DefineProfilingFunctions
 (
-mContext
+cx
 aGlobalObj
 )
 ;
@@ -10112,7 +10146,7 @@ NS_TRACE_MALLOC
 :
 JS_DefineFunctions
 (
-mContext
+cx
 aGlobalObj
 TraceMallocFunctions
 )
@@ -10126,7 +10160,7 @@ MOZ_DMD
 :
 JS_DefineFunctions
 (
-mContext
+cx
 aGlobalObj
 DMDFunctions
 )
@@ -10140,7 +10174,7 @@ MOZ_JPROF
 :
 JS_DefineFunctions
 (
-mContext
+cx
 aGlobalObj
 JProfFunctions
 )
