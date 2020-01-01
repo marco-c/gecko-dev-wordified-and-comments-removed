@@ -5879,9 +5879,17 @@ aMetrics
 .
 height
 =
+PR_MAX
+(
 aReflowState
 .
 availableHeight
+aState
+.
+mY
++
+nonCarriedOutVerticalMargin
+)
 ;
 aState
 .
