@@ -66,13 +66,6 @@ h
 #
 include
 "
-nsILink
-.
-h
-"
-#
-include
-"
 nsINameSpaceManager
 .
 h
