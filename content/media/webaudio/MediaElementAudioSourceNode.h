@@ -18,9 +18,6 @@ namespace
 dom
 {
 class
-HTMLMediaElement
-;
-class
 MediaElementAudioSourceNode
 :
 public

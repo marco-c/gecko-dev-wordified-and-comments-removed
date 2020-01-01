@@ -51,6 +51,13 @@ DelayProcessor
 .
 h
 "
+#
+include
+"
+PlayingRefChangeHandler
+.
+h
+"
 namespace
 mozilla
 {

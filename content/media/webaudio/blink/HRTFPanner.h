@@ -14,13 +14,6 @@ h
 #
 include
 "
-HRTFDatabaseLoader
-.
-h
-"
-#
-include
-"
 DelayProcessor
 .
 h
@@ -35,6 +28,9 @@ AudioChunk
 namespace
 WebCore
 {
+class
+HRTFDatabaseLoader
+;
 using
 mozilla
 :

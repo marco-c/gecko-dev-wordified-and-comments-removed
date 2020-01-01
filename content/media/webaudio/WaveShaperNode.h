@@ -14,7 +14,11 @@ h
 #
 include
 "
-AudioParam
+mozilla
+/
+dom
+/
+WaveShaperNodeBinding
 .
 h
 "
@@ -25,7 +29,7 @@ mozilla
 /
 dom
 /
-WaveShaperNodeBinding
+TypedArray
 .
 h
 "

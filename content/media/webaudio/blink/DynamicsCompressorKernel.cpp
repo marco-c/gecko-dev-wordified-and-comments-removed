@@ -29,6 +29,15 @@ h
 #
 include
 "
+mozilla
+/
+Constants
+.
+h
+"
+#
+include
+"
 WebAudioUtils
 .
 h
