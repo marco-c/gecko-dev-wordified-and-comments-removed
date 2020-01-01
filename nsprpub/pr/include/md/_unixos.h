@@ -823,6 +823,17 @@ _PR_UnixInit
 void
 )
 ;
+extern
+void
+_PR_UnixCleanup
+(
+void
+)
+;
+#
+define
+_MD_EARLY_CLEANUP
+_PR_UnixCleanup
 struct
 _MDProcess
 {

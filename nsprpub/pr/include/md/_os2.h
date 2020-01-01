@@ -1186,6 +1186,11 @@ _MD_FINAL_INIT
 )
 #
 define
+_MD_EARLY_CLEANUP
+(
+)
+#
+define
 _MD_INIT_CPUS
 (
 )

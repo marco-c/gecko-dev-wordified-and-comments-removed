@@ -504,6 +504,17 @@ TCP_SERVER_PORT
 define
 SERVER_MAX_BIND_COUNT
 100
+#
+ifdef
+WINCE
+#
+define
+perror
+(
+s
+)
+#
+endif
 static
 PRInt32
 num_tcp_clients
