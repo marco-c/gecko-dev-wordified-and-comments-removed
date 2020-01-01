@@ -292,6 +292,15 @@ tab_new
 "
 android
 :
+contentDescription
+=
+"
+string
+/
+new_tab
+"
+android
+:
 background
 =
 "
