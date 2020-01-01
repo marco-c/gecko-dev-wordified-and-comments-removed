@@ -144,10 +144,6 @@ nsIDOMSVGStringList
 .
 idl
 \
-nsIDOMSVGURIReference
-.
-idl
-\
 nsIDOMSVGUnitTypes
 .
 idl

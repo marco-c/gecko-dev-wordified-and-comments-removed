@@ -7,13 +7,6 @@ __NS_SVGGRADIENTELEMENT_H__
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -133,8 +126,6 @@ SVGGradientElement
 :
 public
 SVGGradientElementBase
-public
-nsIDOMSVGURIReference
 {
 friend
 class
@@ -175,7 +166,6 @@ MOZ_OVERRIDE
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGURIREFERENCE
 NS_IMETHOD_
 (
 bool

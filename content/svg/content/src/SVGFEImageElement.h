@@ -46,8 +46,6 @@ SVGFEImageElementBase
 public
 nsIDOMSVGElement
 public
-nsIDOMSVGURIReference
-public
 nsImageLoadingContent
 {
 friend
@@ -191,7 +189,6 @@ nsSVGFilterInstance
 aInstance
 )
 ;
-NS_DECL_NSIDOMSVGURIREFERENCE
 NS_FORWARD_NSIDOMSVGELEMENT
 (
 SVGFEImageElementBase

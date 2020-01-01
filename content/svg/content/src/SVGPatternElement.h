@@ -7,13 +7,6 @@ mozilla_dom_SVGPatternElement_h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsSVGEnum
 .
 h
@@ -98,8 +91,6 @@ public
 SVGPatternElementBase
 public
 nsIDOMSVGElement
-public
-nsIDOMSVGURIReference
 {
 friend
 class
@@ -164,7 +155,6 @@ SVGAnimatedPreserveAspectRatio
 SVGAnimatedPreserveAspectRatio
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGURIREFERENCE
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT

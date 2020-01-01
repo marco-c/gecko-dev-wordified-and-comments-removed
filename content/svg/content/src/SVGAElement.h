@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsILink
 .
 h
@@ -76,8 +69,6 @@ SVGAElementBase
 public
 nsIDOMSVGElement
 public
-nsIDOMSVGURIReference
-public
 nsILink
 public
 Link
@@ -132,7 +123,6 @@ MOZ_OVERRIDE
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGURIREFERENCE
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT

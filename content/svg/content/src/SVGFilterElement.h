@@ -7,13 +7,6 @@ mozilla_dom_SVGFilterElement_h
 #
 include
 "
-nsIDOMSVGURIReference
-.
-h
-"
-#
-include
-"
 nsSVGEnum
 .
 h
@@ -86,8 +79,6 @@ public
 SVGFilterElementBase
 public
 nsIDOMSVGElement
-public
-nsIDOMSVGURIReference
 {
 friend
 class
@@ -151,7 +142,6 @@ MOZ_OVERRIDE
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGURIREFERENCE
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
