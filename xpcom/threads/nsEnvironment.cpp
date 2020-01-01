@@ -375,7 +375,7 @@ rv
 typedef
 nsBaseHashtableET
 <
-nsCStringHashKey
+nsCharPtrHashKey
 char
 *
 >
@@ -523,6 +523,10 @@ gEnvHash
 PutEntry
 (
 nativeName
+.
+get
+(
+)
 )
 ;
 if
