@@ -184,7 +184,7 @@ getService
 (
 Ci
 .
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 )
 ;
 }
@@ -503,7 +503,7 @@ this
 .
 _messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 msgname
 msg

@@ -1142,7 +1142,12 @@ messages
 )
 {
 func
+.
+call
 (
+aWindow
+.
+messageManager
 message
 this
 )

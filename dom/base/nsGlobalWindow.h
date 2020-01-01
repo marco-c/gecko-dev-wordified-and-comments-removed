@@ -3679,7 +3679,7 @@ mBrowserDOMWindow
 ;
 nsCOMPtr
 <
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 >
 mMessageManager
 ;

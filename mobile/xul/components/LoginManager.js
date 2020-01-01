@@ -323,7 +323,7 @@ getService
 (
 Ci
 .
-nsIChromeFrameMessageManager
+nsIMessageListenerManager
 )
 ;
 messageManager

@@ -175,19 +175,12 @@ NetUtil
 ;
 XPCOMUtils
 .
-defineLazyGetter
+defineLazyServiceGetter
 (
 this
 "
 ppmm
 "
-function
-(
-)
-{
-return
-Cc
-[
 "
 mozilla
 .
@@ -197,16 +190,9 @@ parentprocessmessagemanager
 ;
 1
 "
-]
-.
-getService
-(
-Ci
-.
-nsIFrameMessageManager
-)
-;
-}
+"
+nsIMessageBroadcaster
+"
 )
 ;
 XPCOMUtils
@@ -227,7 +213,7 @@ childprocessmessagemanager
 1
 "
 "
-nsIFrameMessageManager
+nsIMessageSender
 "
 )
 ;
@@ -1585,7 +1571,7 @@ msg
 else
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -1948,7 +1934,7 @@ e
 }
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -2325,7 +2311,7 @@ function
 {
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -3010,7 +2996,7 @@ e
 }
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -3540,7 +3526,7 @@ function
 {
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -3589,7 +3575,7 @@ found
 {
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -3739,7 +3725,7 @@ manifest
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -3903,7 +3889,7 @@ manifest
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -4053,7 +4039,7 @@ manifest
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -4203,7 +4189,7 @@ manifest
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -4847,7 +4833,7 @@ e
 }
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -4929,7 +4915,7 @@ true
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps
@@ -5514,7 +5500,7 @@ aStatus
 ;
 ppmm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Webapps

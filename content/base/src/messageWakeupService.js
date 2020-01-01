@@ -123,7 +123,7 @@ getService
 (
 Ci
 .
-nsIFrameMessageManager
+nsIMessageListenerManager
 )
 ;
 return

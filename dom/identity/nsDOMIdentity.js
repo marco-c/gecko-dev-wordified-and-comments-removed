@@ -2783,7 +2783,7 @@ Ci
 nsIDOMGlobalPropertyInitializer
 Ci
 .
-nsIFrameMessageListener
+nsIMessageListener
 ]
 )
 classInfo

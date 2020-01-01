@@ -123,7 +123,7 @@ Ci
 nsIObserver
 Ci
 .
-nsIFrameMessageListener
+nsIMessageListener
 Ci
 .
 nsISupportsWeakReference
@@ -511,7 +511,7 @@ getService
 (
 Ci
 .
-nsIChromeFrameMessageManager
+nsIMessageListenerManager
 )
 ;
 this

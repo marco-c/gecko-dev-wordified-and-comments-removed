@@ -352,7 +352,7 @@ h
 #
 include
 "
-nsIFrameMessageManager
+nsIMessageManager
 .
 h
 "
@@ -2063,7 +2063,7 @@ aResult
 nsresult
 NS_NewGlobalMessageManager
 (
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 *
 *
 aResult
@@ -2072,7 +2072,7 @@ aResult
 nsresult
 NS_NewParentProcessMessageManager
 (
-nsIFrameMessageManager
+nsIMessageBroadcaster
 *
 *
 aResult
@@ -2507,13 +2507,13 @@ NS_NewEventListenerService
 MAKE_CTOR
 (
 CreateGlobalMessageManager
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 NS_NewGlobalMessageManager
 )
 MAKE_CTOR
 (
 CreateParentMessageManager
-nsIFrameMessageManager
+nsIMessageBroadcaster
 NS_NewParentProcessMessageManager
 )
 MAKE_CTOR

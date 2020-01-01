@@ -890,7 +890,7 @@ Ci
 nsIContentPrefService
 Ci
 .
-nsIFrameMessageListener
+nsIMessageListener
 ]
 )
 __observerSvc

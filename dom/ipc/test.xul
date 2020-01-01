@@ -924,7 +924,7 @@ Components
 .
 interfaces
 .
-nsIFrameMessageManager
+nsIMessageBroadcaster
 )
 ;
 var
@@ -951,7 +951,7 @@ Components
 .
 interfaces
 .
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 )
 ;
 var
@@ -981,23 +981,9 @@ interfaces
 nsISyncMessageSender
 )
 ;
-var
-tppm
-=
-ppm
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsITreeItemFrameMessageManager
-)
-;
 if
 (
-tppm
+ppm
 .
 childCount
 !
@@ -1021,7 +1007,7 @@ processes
 var
 childprocessmm
 =
-tppm
+ppm
 .
 getChildAt
 (
@@ -1545,7 +1531,7 @@ FAIL
 ;
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 chrome
@@ -1792,7 +1778,7 @@ speedHandler
 ;
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 speed
@@ -1935,7 +1921,7 @@ echoListener
 ;
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 async
@@ -1980,7 +1966,7 @@ echoListener
 ;
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 async

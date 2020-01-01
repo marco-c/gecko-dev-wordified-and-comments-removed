@@ -340,7 +340,7 @@ i
 ;
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 cmp

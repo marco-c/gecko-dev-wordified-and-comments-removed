@@ -5070,10 +5070,10 @@ getService
 (
 Ci
 .
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 )
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 MSG_JAR_FLUSH
 aJarFile

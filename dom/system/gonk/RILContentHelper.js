@@ -403,7 +403,7 @@ childprocessmessagemanager
 1
 "
 "
-nsIFrameMessageManager
+nsISyncMessageSender
 "
 )
 ;
@@ -786,13 +786,6 @@ let
 rilContext
 =
 cpmm
-.
-QueryInterface
-(
-Ci
-.
-nsISyncMessageSender
-)
 .
 sendSyncMessage
 (

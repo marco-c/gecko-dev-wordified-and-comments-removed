@@ -329,7 +329,7 @@ getService
 (
 Ci
 .
-nsIFrameMessageManager
+nsIMessageListenerManager
 )
 ;
 mM

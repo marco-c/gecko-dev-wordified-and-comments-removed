@@ -205,7 +205,7 @@ Components
 .
 interfaces
 .
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 )
 ;
 var
@@ -232,7 +232,7 @@ Components
 .
 interfaces
 .
-nsIFrameMessageManager
+nsIMessageBroadcaster
 )
 ;
 var
@@ -364,7 +364,7 @@ cpmASL
 ;
 ppm
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 childprocessmessage

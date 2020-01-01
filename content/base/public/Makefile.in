@@ -331,7 +331,7 @@ nsIContentSecurityPolicy
 .
 idl
 \
-nsIFrameMessageManager
+nsIMessageManager
 .
 idl
 \

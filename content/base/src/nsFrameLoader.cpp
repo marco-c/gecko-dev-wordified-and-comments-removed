@@ -9980,7 +9980,7 @@ nsFrameLoader
 :
 GetMessageManager
 (
-nsIChromeFrameMessageManager
+nsIMessageSender
 *
 *
 aManager
@@ -10493,7 +10493,7 @@ GetWindow
 ;
 nsCOMPtr
 <
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 >
 parentManager
 ;

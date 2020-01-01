@@ -195,7 +195,7 @@ implements
 nsIAccessibleProvider
 nsIObserver
 nsIDOMEventListener
-nsIFrameMessageListener
+nsIMessageListener
 "
 >
 <
@@ -4222,7 +4222,7 @@ implements
 nsIAccessibleProvider
 nsIObserver
 nsIDOMEventListener
-nsIFrameMessageListener
+nsIMessageListener
 "
 >
 <

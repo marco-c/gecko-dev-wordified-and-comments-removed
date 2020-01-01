@@ -617,7 +617,7 @@ getService
 (
 Ci
 .
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 )
 ;
 this
@@ -843,7 +843,7 @@ this
 .
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Marionette
@@ -1699,7 +1699,7 @@ this
 .
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Marionette
@@ -6026,7 +6026,7 @@ this
 .
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Marionette
@@ -6123,7 +6123,7 @@ this
 .
 messageManager
 .
-sendAsyncMessage
+broadcastAsyncMessage
 (
 "
 Marionette
@@ -7527,7 +7527,7 @@ getService
 (
 Ci
 .
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 )
 ;
 this

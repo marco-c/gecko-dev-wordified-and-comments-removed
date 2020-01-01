@@ -408,7 +408,7 @@ getService
 (
 Ci
 .
-nsIFrameMessageManager
+nsIMessageListenerManager
 )
 ;
 }

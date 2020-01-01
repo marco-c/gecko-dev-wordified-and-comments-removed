@@ -44551,7 +44551,7 @@ nsGlobalChromeWindow
 :
 GetMessageManager
 (
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 *
 *
 aManager
@@ -44603,7 +44603,7 @@ cx
 ;
 nsCOMPtr
 <
-nsIChromeFrameMessageManager
+nsIMessageBroadcaster
 >
 globalMM
 =
@@ -44643,6 +44643,9 @@ get
 )
 )
 cx
+false
+false
+true
 )
 ;
 NS_ENSURE_TRUE
