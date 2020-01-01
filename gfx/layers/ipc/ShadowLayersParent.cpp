@@ -450,7 +450,7 @@ MOZ_LAYERS_LOG
 [
 ParentSide
 ]
-recieved
+received
 txn
 with
 %
