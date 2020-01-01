@@ -466,8 +466,5 @@ mPlayingBeforeSeek
 PRPackedBool
 mPausedBeforeFreeze
 ;
-PRPackedBool
-mPlayRequested
-;
 }
 ;

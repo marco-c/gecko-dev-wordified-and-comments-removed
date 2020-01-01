@@ -562,6 +562,10 @@ test_onloadedmetadata
 .
 html
 \
+test_play
+.
+html
+\
 test_progress1
 .
 html
