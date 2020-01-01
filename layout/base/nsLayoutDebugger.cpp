@@ -369,6 +369,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+endif
+#
+ifdef
+MOZ_DUMP_PAINTING
 static
 void
 PrintDisplayListTo
@@ -414,6 +419,9 @@ GetAbove
 )
 )
 {
+#
+ifdef
+DEBUG
 if
 (
 aList
@@ -436,6 +444,8 @@ IsEmpty
 )
 continue
 ;
+#
+endif
 for
 (
 PRInt32
@@ -474,6 +484,9 @@ GetUnderlyingFrame
 nsAutoString
 fName
 ;
+#
+ifdef
+DEBUG
 if
 (
 f
@@ -488,6 +501,8 @@ fName
 )
 ;
 }
+#
+endif
 nsRect
 rect
 =
@@ -623,6 +638,9 @@ GetList
 )
 ;
 }
+#
+ifdef
+DEBUG
 if
 (
 !
@@ -648,6 +666,8 @@ aBuilder
 )
 ;
 }
+#
+endif
 fprintf
 (
 aOutput

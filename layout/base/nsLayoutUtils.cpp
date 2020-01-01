@@ -6057,7 +6057,7 @@ breakType
 }
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 #
 include
 <
@@ -6450,7 +6450,7 @@ rv
 ;
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 if
 (
 gDumpEventList
@@ -7983,7 +7983,7 @@ true
 }
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 if
 (
 gDumpPaintList
@@ -8255,7 +8255,7 @@ windowRegion
 }
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 if
 (
 gDumpPaintList

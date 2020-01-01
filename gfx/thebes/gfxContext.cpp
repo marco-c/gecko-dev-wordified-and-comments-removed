@@ -4669,7 +4669,7 @@ mCairo
 }
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 void
 gfxContext
 :

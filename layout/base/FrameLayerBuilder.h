@@ -381,7 +381,7 @@ aCallbackData
 ;
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 void
 DumpRetainedLayerTree
 (
