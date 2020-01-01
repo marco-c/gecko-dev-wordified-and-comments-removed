@@ -6507,6 +6507,12 @@ SetNotificationCallbacks
 nsnull
 )
 ;
+nsCOMPtr
+<
+nsITransportEventSink
+>
+ourEventSink
+;
 {
 nsAutoLock
 lock
@@ -6542,8 +6548,11 @@ mCallbacks
 nsnull
 ;
 mEventSink
-=
-nsnull
+.
+swap
+(
+ourEventSink
+)
 ;
 }
 }
