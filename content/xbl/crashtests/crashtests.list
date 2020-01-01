@@ -255,3 +255,13 @@ load
 1
 .
 xhtml
+load
+set
+-
+field
+-
+bad
+-
+this
+.
+xhtml
