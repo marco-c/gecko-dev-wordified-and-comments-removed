@@ -170,6 +170,10 @@ LayerManager
 LayersBackend
 LayersBackend
 ;
+typedef
+uintptr_t
+WindowsHandle
+;
 struct
 void_t
 {

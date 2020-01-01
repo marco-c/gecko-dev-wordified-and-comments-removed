@@ -348,6 +348,15 @@ aDocument
 )
 ;
 static
+bool
+IsTabDocument
+(
+nsIDocument
+*
+aDocumentNode
+)
+;
+static
 PRBool
 IsErrorPage
 (

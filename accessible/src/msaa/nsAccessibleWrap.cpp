@@ -735,7 +735,7 @@ IsWindowEmulationStarted
 )
 &
 &
-nsWinUtils
+nsCoreUtils
 :
 :
 IsTabDocument

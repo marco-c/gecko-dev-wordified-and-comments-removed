@@ -162,15 +162,6 @@ LPCWSTR
 kModuleHandle
 )
 ;
-static
-bool
-IsTabDocument
-(
-nsIDocument
-*
-aDocumentNode
-)
-;
 }
 ;
 #
