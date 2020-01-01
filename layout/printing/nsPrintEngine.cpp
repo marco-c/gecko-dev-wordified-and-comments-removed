@@ -2334,6 +2334,11 @@ rv
 )
 ;
 {
+if
+(
+aIsPrintPreview
+)
+{
 nsCOMPtr
 <
 nsIContentViewer
@@ -2391,6 +2396,7 @@ false
 nullptr
 )
 ;
+}
 }
 nsAutoScriptBlocker
 scriptBlocker
