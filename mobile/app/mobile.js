@@ -1666,7 +1666,7 @@ google
 .
 com
 /
-search
+m
 ?
 ie
 =
