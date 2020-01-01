@@ -2225,7 +2225,7 @@ if
 iter
 -
 >
-flags
+iter_flags
 &
 ITER_16
 )
@@ -2242,7 +2242,7 @@ if
 iter
 -
 >
-flags
+iter_flags
 &
 ITER_NARROW
 )
