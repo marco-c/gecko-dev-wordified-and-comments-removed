@@ -4191,6 +4191,11 @@ try
 {
 if
 (
+this
+.
+docShell
+&
+&
 !
 this
 .
@@ -4300,11 +4305,6 @@ told
 otherwise
 if
 (
-this
-.
-docShell
-&
-&
 !
 this
 .
