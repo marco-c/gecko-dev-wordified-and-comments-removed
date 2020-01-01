@@ -222,6 +222,15 @@ Encode
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aObj
 const
 nsAString
 &
@@ -428,6 +437,7 @@ outView
 CreateUint8Array
 (
 aCx
+aObj
 buf
 dstLen
 )
