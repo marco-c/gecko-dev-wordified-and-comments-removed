@@ -11142,6 +11142,14 @@ mDOMNode
 ;
 if
 (
+!
+content
+)
+return
+NS_OK
+;
+if
+(
 mRoleMapEntry
 )
 {

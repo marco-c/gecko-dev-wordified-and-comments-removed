@@ -3278,6 +3278,14 @@ nsIContent
 aContent
 )
 {
+if
+(
+!
+aContent
+)
+return
+PR_FALSE
+;
 return
 aContent
 -
