@@ -165,6 +165,10 @@ test_bug726949
 .
 xul
 \
+test_bug738244
+.
+xul
+\
 test_bug743843
 .
 xul

@@ -327,6 +327,10 @@ test_lookupMethod
 .
 html
 \
+file_bug738244
+.
+html
+\
 (
 NULL
 )
