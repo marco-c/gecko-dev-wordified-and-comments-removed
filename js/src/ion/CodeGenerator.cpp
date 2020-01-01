@@ -12833,12 +12833,8 @@ linkAbsoluteLabels
 (
 )
 ;
-#
-ifdef
-JS_CPU_ARM
-bool
-needsBarrier
-=
+if
+(
 cx
 -
 >
@@ -12848,7 +12844,7 @@ compartment
 needsBarrier
 (
 )
-;
+)
 script
 -
 >
@@ -12857,11 +12853,9 @@ ion
 >
 toggleBarriers
 (
-needsBarrier
+true
 )
 ;
-#
-endif
 return
 true
 ;

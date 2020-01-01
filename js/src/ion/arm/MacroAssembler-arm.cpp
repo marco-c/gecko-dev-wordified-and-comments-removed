@@ -13498,8 +13498,6 @@ MacroAssemblerARMCompat
 :
 toggledJump
 (
-bool
-enabled
 Label
 *
 label

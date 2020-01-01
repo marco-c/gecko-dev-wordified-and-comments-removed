@@ -1905,16 +1905,6 @@ nopJump
 =
 toggledJump
 (
-!
-cx
--
->
-compartment
--
->
-needsBarrier
-(
-)
 &
 done
 )

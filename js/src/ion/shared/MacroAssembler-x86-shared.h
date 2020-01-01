@@ -1658,8 +1658,6 @@ done
 CodeOffsetLabel
 toggledJump
 (
-bool
-enabled
 Label
 *
 label
@@ -1673,17 +1671,7 @@ size
 )
 )
 ;
-if
-(
-enabled
-)
 jump
-(
-label
-)
-;
-else
-cmpEAX
 (
 label
 )
