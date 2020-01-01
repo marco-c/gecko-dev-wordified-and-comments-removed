@@ -4279,6 +4279,12 @@ defined
 (
 XP_MACOSX
 )
+&
+&
+defined
+(
+__i386
+)
 info
 -
 >
