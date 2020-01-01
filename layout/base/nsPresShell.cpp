@@ -12510,7 +12510,7 @@ nsIFrame
 nsIPresShell
 :
 :
-GetRootFrame
+GetRootFrameExternal
 (
 )
 const
