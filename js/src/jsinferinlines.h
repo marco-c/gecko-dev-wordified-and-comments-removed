@@ -1256,17 +1256,6 @@ mode
 {
 JS_ASSERT
 (
-cx
--
->
-compartment
--
->
-activeAnalysis
-)
-;
-JS_ASSERT
-(
 info
 .
 outputIndex
