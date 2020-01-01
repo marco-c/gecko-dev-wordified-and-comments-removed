@@ -372,7 +372,7 @@ init
 )
 ;
 let
-mm
+fl
 =
 container
 .
@@ -384,6 +384,17 @@ nsIFrameLoaderOwner
 )
 .
 frameLoader
+;
+fl
+.
+activateRemoteFrame
+(
+)
+;
+let
+mm
+=
+fl
 .
 messageManager
 ;
