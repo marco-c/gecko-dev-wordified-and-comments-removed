@@ -2534,6 +2534,15 @@ self
 .
 localProfile
         
+env
+[
+"
+MOZ_HIDE_RESULTS_TABLE
+"
+]
+=
+1
+        
 retVal
 =
 Mochitest
