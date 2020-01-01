@@ -707,11 +707,13 @@ address
 )
 ;
 void
-ensureDouble
+ensureNumber
 (
 FrameEntry
 *
 fe
+bool
+integer
 )
 ;
 void
