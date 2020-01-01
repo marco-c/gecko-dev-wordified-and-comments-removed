@@ -617,6 +617,8 @@ mozipc_s
 \
 chromium_s
 \
+ipcshell_s
+\
 (
 NULL
 )
