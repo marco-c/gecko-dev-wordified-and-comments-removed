@@ -2512,6 +2512,9 @@ const
 nsAString
 &
 aSelector
+nsresult
+*
+aResult
 )
 ;
 virtual

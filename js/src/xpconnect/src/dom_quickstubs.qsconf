@@ -4570,14 +4570,11 @@ self
 MozMatchesSelector
 (
 arg0
+&
+rv
 )
 ;
 '
-'
-canFail
-'
-:
-False
 }
 '
 nsIDOM3Text_

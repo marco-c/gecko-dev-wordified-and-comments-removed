@@ -2093,6 +2093,10 @@ file_bug601803b
 .
 html
 \
+test_bug605982
+.
+html
+\
 (
 NULL
 )
