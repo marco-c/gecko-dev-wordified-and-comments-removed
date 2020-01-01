@@ -479,6 +479,17 @@ GC
 ENTITY
 aboutSupport
 .
+libraryVersionsTitle
+"
+Library
+Versions
+"
+>
+<
+!
+ENTITY
+aboutSupport
+.
 installationHistoryTitle
 "
 Installation
