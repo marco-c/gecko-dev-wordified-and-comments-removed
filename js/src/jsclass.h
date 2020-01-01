@@ -1332,6 +1332,13 @@ flags
 JSCLASS_EMULATES_UNDEFINED
 ;
 }
+inline
+bool
+isCallable
+(
+)
+const
+;
 static
 size_t
 offsetOfFlags
