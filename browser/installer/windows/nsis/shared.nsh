@@ -4883,7 +4883,7 @@ dll
 "
 Push
 "
-sqlite3
+mozsqlite3
 .
 dll
 "
