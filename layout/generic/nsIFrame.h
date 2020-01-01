@@ -1608,6 +1608,17 @@ const
 =
 0
 ;
+virtual
+nsIFrame
+*
+GetLastChild
+(
+nsIAtom
+*
+aListName
+)
+const
+;
 nsIFrame
 *
 GetNextSibling
