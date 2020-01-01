@@ -5935,6 +5935,10 @@ void
 if
 (
 mRunsToCompletion
+|
+|
+!
+mDocument
 )
 {
 return
