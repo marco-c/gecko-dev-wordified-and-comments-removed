@@ -747,13 +747,7 @@ nsIAccessibleHyperText
 >
 hyperTextParent
 =
-nsAccUtils
-:
-:
-QueryObject
-<
-nsIAccessibleHyperText
->
+do_QueryObject
 (
 GetParent
 (

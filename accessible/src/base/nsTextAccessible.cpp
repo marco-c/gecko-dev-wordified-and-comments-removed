@@ -71,11 +71,13 @@ GetFrame
 (
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 frame
-NS_ERROR_FAILURE
 )
+return
+NS_ERROR_FAILURE
 ;
 return
 frame

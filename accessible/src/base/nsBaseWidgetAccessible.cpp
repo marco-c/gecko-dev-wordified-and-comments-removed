@@ -621,13 +621,7 @@ nsIAccessibleHyperLink
 >
 hyperLinkAcc
 =
-nsAccUtils
-:
-:
-QueryObject
-<
-nsIAccessibleHyperLink
->
+do_QueryObject
 (
 actionAcc
 )

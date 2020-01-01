@@ -1504,13 +1504,7 @@ nsDocAccessible
 >
 docAccessible
 =
-nsAccUtils
-:
-:
-QueryObject
-<
-nsDocAccessible
->
+do_QueryObject
 (
 accessibleDoc
 )

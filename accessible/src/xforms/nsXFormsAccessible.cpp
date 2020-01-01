@@ -497,13 +497,7 @@ continue
 ;
 acc
 =
-nsAccUtils
-:
-:
-QueryObject
-<
-nsAccessible
->
+do_QueryObject
 (
 accessible
 )
