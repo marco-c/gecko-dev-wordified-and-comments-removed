@@ -427,7 +427,7 @@ aShutdownIntent
 RasterImage
 :
 :
-eShutdownIntent_Interrupted
+eShutdownIntent_NotNeeded
 &
 &
 !

@@ -652,7 +652,7 @@ eShutdownIntent
 eShutdownIntent_Done
 =
 0
-eShutdownIntent_Interrupted
+eShutdownIntent_NotNeeded
 =
 1
 eShutdownIntent_Error
