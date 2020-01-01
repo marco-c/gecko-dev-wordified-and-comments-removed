@@ -254,9 +254,6 @@ GetAccessoryView
 (
 )
 ;
-PRBool
-mAllFilesDisplayed
-;
 nsString
 mTitle
 ;
@@ -279,11 +276,7 @@ nsStringArray
 mTitles
 ;
 PRInt32
-mSelectedType
-;
-static
-OSType
-sCurrentProcessSignature
+mSelectedTypeIndex
 ;
 }
 ;
