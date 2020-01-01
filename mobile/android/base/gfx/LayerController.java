@@ -1265,7 +1265,7 @@ pageSize
 .
 height
 ;
-RectF
+DisplayPortMetrics
 displayPort
 =
 (
@@ -1275,7 +1275,7 @@ mLayerClient
 null
 ?
 new
-RectF
+DisplayPortMetrics
 (
 )
 :

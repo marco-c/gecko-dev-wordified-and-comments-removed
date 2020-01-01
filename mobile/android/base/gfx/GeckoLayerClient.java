@@ -184,11 +184,11 @@ IntSize
 mWindowSize
 ;
 private
-RectF
+DisplayPortMetrics
 mDisplayPort
 ;
 private
-RectF
+DisplayPortMetrics
 mReturnDisplayPort
 ;
 private
@@ -243,7 +243,7 @@ IntSize
 mDisplayPort
 =
 new
-RectF
+DisplayPortMetrics
 (
 )
 ;
@@ -382,7 +382,7 @@ true
 )
 ;
 }
-RectF
+DisplayPortMetrics
 getDisplayPort
 (
 )
@@ -614,7 +614,7 @@ viewSizeChanged
 }
 private
 static
-RectF
+DisplayPortMetrics
 calculateDisplayPort
 (
 ImmutableViewportMetrics
@@ -1006,7 +1006,7 @@ delta
 }
 return
 new
-RectF
+DisplayPortMetrics
 (
 metrics
 .
@@ -1028,6 +1028,9 @@ metrics
 viewportRectBottom
 +
 bottomMargin
+metrics
+.
+zoomFactor
 )
 ;
 }
@@ -1461,11 +1464,10 @@ return
 try
 {
 return
-RectUtils
+mReturnDisplayPort
 .
 toJSON
 (
-mReturnDisplayPort
 )
 ;
 }
