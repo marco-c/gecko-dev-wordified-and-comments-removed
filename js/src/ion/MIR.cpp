@@ -3529,6 +3529,8 @@ argc
 JS_ASSERT
 (
 argc
++
+1
 <
 stackDepth
 (
@@ -3543,6 +3545,8 @@ stackDepth
 )
 -
 argc
+-
+1
 ;
 for
 (
