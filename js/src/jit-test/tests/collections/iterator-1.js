@@ -2,6 +2,7 @@ function
 test
 (
 obj
+name
 )
 {
 var
@@ -40,6 +41,15 @@ toString
 "
 [
 object
+"
++
+obj
+.
+constructor
+.
+name
++
+"
 Iterator
 ]
 "
