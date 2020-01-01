@@ -210,7 +210,7 @@ return
 true
 ;
 }
-bool
+JSBool
 TestShellParent
 :
 :
@@ -251,7 +251,7 @@ Length
 1
 )
 return
-false
+JS_FALSE
 ;
 NS_ASSERTION
 (
@@ -289,7 +289,6 @@ cwps
 )
 ;
 return
-(
 cwp
 -
 >
@@ -297,7 +296,6 @@ GetGlobalJSObject
 (
 cx
 globalp
-)
 )
 ;
 }

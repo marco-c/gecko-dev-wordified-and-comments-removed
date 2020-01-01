@@ -29,6 +29,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -573,7 +580,7 @@ PContextWrapperParent
 actor
 )
 ;
-bool
+JSBool
 GetGlobalJSObject
 (
 JSContext

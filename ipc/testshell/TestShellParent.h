@@ -122,7 +122,7 @@ PContextWrapperParent
 actor
 )
 ;
-bool
+JSBool
 GetGlobalJSObject
 (
 JSContext
