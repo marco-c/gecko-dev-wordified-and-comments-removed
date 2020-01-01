@@ -3903,15 +3903,6 @@ CURDIR
 )
 endif
 ifdef
-.
-PYMAKE
-NSINSTALL
-=
-%
-nsinstall
-nsinstall
-else
-ifdef
 NSINSTALL_BIN
 NSINSTALL
 =
@@ -3953,10 +3944,6 @@ OS2
 endif
 #
 NSINSTALL_BIN
-endif
-#
-.
-PYMAKE
 ifeq
 (
 (
