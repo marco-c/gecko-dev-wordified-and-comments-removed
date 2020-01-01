@@ -84,9 +84,6 @@ shadow
 :
 none
 ;
-%
-ifdef
-XP_WIN
 border
 -
 bottom
@@ -95,8 +92,6 @@ width
 :
 0
 ;
-%
-endif
 }
 .
 devtools
