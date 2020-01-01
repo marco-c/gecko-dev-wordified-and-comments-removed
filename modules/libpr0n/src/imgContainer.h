@@ -256,6 +256,13 @@ Cancel
 }
 }
 ;
+void
+DeleteImgFrame
+(
+PRUint32
+framenum
+)
+;
 imgFrame
 *
 GetImgFrame
