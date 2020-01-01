@@ -1449,8 +1449,7 @@ opacket
 if
 (
 r
-!
-=
+<
 0
 )
 {
@@ -1476,8 +1475,7 @@ mVorbisInfo
 if
 (
 r
-!
-=
+<
 0
 )
 {
@@ -1502,8 +1500,7 @@ mVorbisBlock
 if
 (
 r
-!
-=
+<
 0
 )
 {
