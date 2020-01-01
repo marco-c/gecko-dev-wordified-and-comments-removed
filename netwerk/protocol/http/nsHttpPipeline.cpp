@@ -2871,6 +2871,17 @@ Close
 NS_OK
 )
 ;
+if
+(
+trans
+=
+=
+Response
+(
+0
+)
+)
+{
 NS_RELEASE
 (
 trans
@@ -2891,6 +2902,7 @@ false
 +
 mHttp1xTransactionCount
 ;
+}
 nsRefPtr
 <
 nsHttpConnectionInfo
