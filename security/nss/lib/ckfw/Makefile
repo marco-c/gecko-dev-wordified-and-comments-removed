@@ -440,11 +440,14 @@ coreconf
 rules
 .
 mk
+#
 ifdef
 MOZILLA_CLIENT
+#
 NSS_BUILD_CAPI
 =
 1
+#
 endif
 #
 This
