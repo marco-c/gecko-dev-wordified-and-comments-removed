@@ -81,6 +81,16 @@ mk
 MOCHITEST_FILES
 =
 \
+test_constructor
+.
+html
+\
+test_constructor
+-
+assignment
+.
+html
+\
 test_document
 .
 all_unqualified
