@@ -2560,6 +2560,14 @@ LIR_icall
 if
 (
 ARM_VFP
+&
+&
+ins
+-
+>
+isUsed
+(
+)
 )
 {
 ArgSize
