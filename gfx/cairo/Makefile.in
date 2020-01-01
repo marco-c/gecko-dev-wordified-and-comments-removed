@@ -418,12 +418,6 @@ autoconf
 mk
 DIRS
 =
-(
-NULL
-)
-DIRS
-+
-=
 libpixman
 /
 src
