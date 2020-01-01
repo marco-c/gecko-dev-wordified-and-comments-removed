@@ -3895,6 +3895,7 @@ function
 BEH_onClick
 (
 aEvent
+aView
 )
 {
 #
@@ -4108,6 +4109,7 @@ target
 .
 _placesNode
 aEvent
+aView
 )
 ;
 }
@@ -4127,6 +4129,7 @@ this
 onCommand
 (
 aEvent
+aView
 )
 ;
 }
@@ -4137,6 +4140,7 @@ function
 BEH_onCommand
 (
 aEvent
+aView
 )
 {
 var
@@ -4160,6 +4164,7 @@ target
 .
 _placesNode
 aEvent
+aView
 )
 ;
 }
