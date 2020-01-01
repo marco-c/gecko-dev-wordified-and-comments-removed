@@ -2175,7 +2175,7 @@ from
 -
 to
 =
-GFX_PACKED_PIXEL
+gfxPackedPixel
 (
 0xFF
 from
@@ -2240,7 +2240,7 @@ from
 -
 to
 =
-GFX_PACKED_PIXEL
+gfxPackedPixel
 (
 0xFF
 from
