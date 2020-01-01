@@ -1978,6 +1978,7 @@ mMetrics
 .
 underlineOffset
 =
+-
 fontMetrics
 .
 underlinePos
