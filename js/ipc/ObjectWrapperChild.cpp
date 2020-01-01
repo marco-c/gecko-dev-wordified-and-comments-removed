@@ -2091,7 +2091,7 @@ v
 return
 false
 ;
-jsuint
+jsint
 i
 =
 JSVAL_TO_INT
@@ -2139,10 +2139,7 @@ large
 ;
 if
 (
-jsuint
-(
 i
-)
 =
 =
 strIds

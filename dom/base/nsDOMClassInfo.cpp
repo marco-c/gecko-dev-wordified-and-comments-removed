@@ -8011,7 +8011,7 @@ op
 obj
 -
 >
-getClass
+getJSClass
 (
 )
 -
