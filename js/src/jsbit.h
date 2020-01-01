@@ -68,7 +68,10 @@ JS_BITS_PER_WORD_LOG2
 &
 \
 (
-1UL
+(
+jsbitmap
+)
+1
 <
 <
 (
@@ -107,7 +110,10 @@ JS_BITS_PER_WORD_LOG2
 =
 \
 (
-1UL
+(
+jsbitmap
+)
+1
 <
 <
 (
@@ -147,7 +153,10 @@ JS_BITS_PER_WORD_LOG2
 \
 ~
 (
-1UL
+(
+jsbitmap
+)
+1
 <
 <
 (

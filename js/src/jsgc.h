@@ -918,7 +918,7 @@ JSGCArenaInfo
 *
 first
 ;
-uint8
+jsbitmap
 *
 nextDoubleFlags
 ;
