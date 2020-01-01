@@ -433,15 +433,6 @@ FORCE_STATIC_LIB
 LIBXUL_LIBRARY
 =
 1
-EXPORTS
-=
-nsSHEntryShared
-.
-h
-\
-(
-NULL
-)
 CPPSRCS
 =
 nsSHEntry
@@ -453,10 +444,6 @@ nsSHTransaction
 cpp
 \
 nsSHistory
-.
-cpp
-\
-nsSHEntryShared
 .
 cpp
 \
