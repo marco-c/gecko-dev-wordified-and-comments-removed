@@ -801,13 +801,6 @@ catch
 ex
 )
 {
-console
-.
-log
-(
-ex
-)
-;
 }
 }
 function
