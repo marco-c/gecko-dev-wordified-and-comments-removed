@@ -215,6 +215,10 @@ browser_tilt_picking
 .
 js
 \
+browser_tilt_picking_inspector
+.
+js
+\
 browser_tilt_picking_delete
 .
 js
