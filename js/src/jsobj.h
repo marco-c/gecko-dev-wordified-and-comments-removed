@@ -2840,6 +2840,12 @@ JSProperty
 *
 *
 propp
+JSPropCacheEntry
+*
+*
+entryp
+=
+NULL
 )
 ;
 extern
