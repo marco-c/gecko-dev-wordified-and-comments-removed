@@ -840,6 +840,15 @@ reftest
 .
 list
 #
+counters
+/
+include
+counters
+/
+reftest
+.
+list
+#
 first
 -
 letter
