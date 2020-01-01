@@ -10,9 +10,9 @@ h
 #
 include
 "
-gc
+js
 /
-Root
+PropertyKey
 .
 h
 "
@@ -21,7 +21,7 @@ include
 "
 js
 /
-PropertyKey
+RootingAPI
 .
 h
 "
