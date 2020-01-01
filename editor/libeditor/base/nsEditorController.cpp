@@ -361,9 +361,6 @@ nsIControllerCommandTable
 inCommandTable
 )
 {
-nsresult
-rv
-;
 NS_REGISTER_FIRST_COMMAND
 (
 nsSelectionMoveCommands
