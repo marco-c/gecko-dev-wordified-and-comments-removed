@@ -3565,6 +3565,15 @@ mVisibleRegion
 ;
 }
 }
+gl
+(
+)
+-
+>
+MakeCurrent
+(
+)
+;
 DEBUG_GL_ERROR_CHECK
 (
 gl
