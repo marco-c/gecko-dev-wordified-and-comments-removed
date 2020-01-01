@@ -447,6 +447,8 @@ JS_STATIC_ASSERT
 offsetof
 (
 VMFrame
+regs
+.
 fp
 )
 =
@@ -1060,6 +1062,8 @@ JS_STATIC_ASSERT
 offsetof
 (
 VMFrame
+regs
+.
 fp
 )
 =
@@ -1279,6 +1283,8 @@ JS_STATIC_ASSERT
 offsetof
 (
 VMFrame
+regs
+.
 fp
 )
 =
@@ -1834,6 +1840,8 @@ JS_STATIC_ASSERT
 offsetof
 (
 VMFrame
+regs
+.
 fp
 )
 =
@@ -2103,6 +2111,8 @@ JS_STATIC_ASSERT
 offsetof
 (
 VMFrame
+regs
+.
 fp
 )
 =
@@ -3157,6 +3167,8 @@ JS_STATIC_ASSERT
 offsetof
 (
 VMFrame
+regs
+.
 fp
 )
 =
