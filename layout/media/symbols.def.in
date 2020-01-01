@@ -126,3 +126,5 @@ ShGetInfoLog
 ShCompile
 ShGetInfo
 ShConstructCompiler
+ShGetActiveAttrib
+ShGetActiveUniform
