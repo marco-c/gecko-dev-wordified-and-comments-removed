@@ -327,6 +327,13 @@ bin
 /
 components
 /
+alerts
+.
+xpt
+bin
+/
+components
+/
 accessibility
 .
 xpt
