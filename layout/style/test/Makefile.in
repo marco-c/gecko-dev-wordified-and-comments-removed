@@ -820,6 +820,10 @@ test_bug499655
 .
 xhtml
 \
+test_bug511909
+.
+html
+\
 test_bug517224
 .
 html
