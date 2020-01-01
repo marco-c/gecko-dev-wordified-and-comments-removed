@@ -52352,7 +52352,7 @@ REQ_NSIS_MAJOR_VER
 2
 MIN_NSIS_MINOR_VER
 =
-33
+46
 MOZ_PATH_PROGS
 (
 MAKENSISU
@@ -52362,7 +52362,6 @@ makensisu
 2
 .
 46
-makensisu
 makensis
 )
 if
