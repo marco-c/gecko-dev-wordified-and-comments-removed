@@ -2601,8 +2601,13 @@ vbox
 pack
 =
 "
-start
+center
 "
+>
+<
+xul
+:
+hbox
 >
 <
 xul
@@ -2668,6 +2673,12 @@ anonid
 info
 "
 /
+>
+<
+/
+xul
+:
+hbox
 >
 <
 /
