@@ -2942,7 +2942,7 @@ JS_FRIEND_API
 (
 JSVersion
 )
-VersionSetXML
+VersionSetMoarXML
 (
 JSVersion
 version
@@ -2963,7 +2963,7 @@ version
 VersionFlags
 :
 :
-HAS_XML
+MOAR_XML
 )
 :
 JSVersion
@@ -2977,7 +2977,7 @@ version
 VersionFlags
 :
 :
-HAS_XML
+MOAR_XML
 )
 ;
 }

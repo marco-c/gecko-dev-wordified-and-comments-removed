@@ -299,7 +299,7 @@ function
 options
 (
 '
-xml
+moar_xml
 '
 )
 ;

@@ -3672,7 +3672,7 @@ version
 js
 :
 :
-VersionSetXML
+VersionSetMoarXML
 (
 JSVersion
 (
@@ -3744,7 +3744,7 @@ version
 js
 :
 :
-VersionSetXML
+VersionSetMoarXML
 (
 JSVersion
 (
@@ -3803,7 +3803,7 @@ version
 js
 :
 :
-VersionSetXML
+VersionSetMoarXML
 (
 JSVersion
 (

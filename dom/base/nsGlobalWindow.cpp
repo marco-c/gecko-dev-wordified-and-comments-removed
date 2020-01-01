@@ -6886,7 +6886,7 @@ JS_GetOptions
 cx
 )
 |
-JSOPTION_XML
+JSOPTION_MOAR_XML
 )
 ;
 }

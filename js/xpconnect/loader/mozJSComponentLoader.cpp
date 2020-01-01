@@ -1836,7 +1836,7 @@ JS_SetOptions
 mContext
 options
 |
-JSOPTION_XML
+JSOPTION_MOAR_XML
 )
 ;
 JS_SetVersion

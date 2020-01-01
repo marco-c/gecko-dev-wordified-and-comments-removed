@@ -2548,9 +2548,9 @@ JSOPTION_WERROR
 }
 {
 "
-xml
+moar_xml
 "
-JSOPTION_XML
+JSOPTION_MOAR_XML
 }
 {
 "

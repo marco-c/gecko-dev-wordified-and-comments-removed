@@ -2354,7 +2354,7 @@ JS_FRIEND_API
 (
 JSVersion
 )
-VersionSetXML
+VersionSetMoarXML
 (
 JSVersion
 version

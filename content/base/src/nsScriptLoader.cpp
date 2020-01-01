@@ -2081,7 +2081,7 @@ version
 js
 :
 :
-VersionSetXML
+VersionSetMoarXML
 (
 JSVersion
 (

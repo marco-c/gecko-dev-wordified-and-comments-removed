@@ -2731,7 +2731,7 @@ AutoResolving
 static
 inline
 bool
-OptionsHasXML
+OptionsHasMoarXML
 (
 uint32_t
 options
@@ -2743,7 +2743,7 @@ return
 (
 options
 &
-JSOPTION_XML
+JSOPTION_MOAR_XML
 )
 ;
 }
@@ -2763,7 +2763,7 @@ const
 uint32_t
 mask
 =
-JSOPTION_XML
+JSOPTION_MOAR_XML
 ;
 return
 !
@@ -2795,7 +2795,7 @@ MASK
 static
 const
 unsigned
-HAS_XML
+MOAR_XML
 =
 0x1000
 ;
@@ -2834,7 +2834,7 @@ MASK
 static
 inline
 bool
-VersionHasXML
+VersionHasMoarXML
 (
 JSVersion
 version
@@ -2849,7 +2849,7 @@ version
 VersionFlags
 :
 :
-HAS_XML
+MOAR_XML
 )
 ;
 }
@@ -2863,7 +2863,7 @@ version
 )
 {
 return
-VersionHasXML
+VersionHasMoarXML
 (
 version
 )
@@ -2963,12 +2963,12 @@ version
 unsigned
 copts
 =
-VersionHasXML
+VersionHasMoarXML
 (
 version
 )
 ?
-JSOPTION_XML
+JSOPTION_MOAR_XML
 :
 0
 ;
@@ -3000,10 +3000,10 @@ version
 )
 {
 return
-VersionSetXML
+VersionSetMoarXML
 (
 version
-OptionsHasXML
+OptionsHasMoarXML
 (
 options
 )
