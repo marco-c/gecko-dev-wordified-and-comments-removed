@@ -15769,6 +15769,17 @@ NS_OK
 ;
 }
 }
+nsIContent
+*
+previousSibling
+=
+aKid
+-
+>
+GetPreviousSibling
+(
+)
+;
 if
 (
 GetFirstChild
@@ -15809,6 +15820,7 @@ ContentRemoved
 this
 aKid
 aIndex
+previousSibling
 )
 ;
 }

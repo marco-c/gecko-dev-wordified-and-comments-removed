@@ -667,6 +667,9 @@ nsIContent
 aChild
 PRInt32
 aIndexInContainer
+nsIContent
+*
+aPreviousSibling
 )
 {
 NS_PRECONDITION
@@ -781,6 +784,7 @@ document
 container
 aChild
 aIndexInContainer
+aPreviousSibling
 )
 )
 ;

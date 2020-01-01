@@ -990,6 +990,12 @@ aParentContent
 content
 -
 1
+content
+-
+>
+GetPreviousSibling
+(
+)
 )
 ;
 if

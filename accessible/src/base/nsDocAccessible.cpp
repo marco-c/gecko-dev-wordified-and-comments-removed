@@ -4750,6 +4750,9 @@ nsIContent
 *
 aChild
 PRInt32
+nsIContent
+*
+aPreviousSibling
 )
 {
 }

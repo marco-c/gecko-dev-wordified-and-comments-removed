@@ -7811,6 +7811,17 @@ ChildAt
 i
 )
 ;
+nsIContent
+*
+previousSibling
+=
+content
+-
+>
+GetPreviousSibling
+(
+)
+;
 if
 (
 nsINode
@@ -7849,6 +7860,7 @@ ContentRemoved
 this
 content
 i
+previousSibling
 )
 ;
 content
