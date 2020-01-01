@@ -492,14 +492,6 @@ mozIStoragePendingStatement
 .
 idl
 \
-mozIStorageBindingParamsArray
-.
-idl
-\
-mozIStorageBindingParams
-.
-idl
-\
 (
 NULL
 )
