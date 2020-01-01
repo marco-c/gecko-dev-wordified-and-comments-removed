@@ -150,6 +150,15 @@ aEventType
 )
 ;
 static
+PRUint32
+GetAccessKeyFor
+(
+nsIContent
+*
+aContent
+)
+;
+static
 nsresult
 FireAccEvent
 (
