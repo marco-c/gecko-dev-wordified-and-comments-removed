@@ -138,7 +138,7 @@ final
 int
 FORMAT_VERSION
 =
-1
+2
 ;
 protected
 boolean
