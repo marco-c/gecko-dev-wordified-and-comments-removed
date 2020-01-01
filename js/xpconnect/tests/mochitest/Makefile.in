@@ -117,6 +117,10 @@ file_nodelists
 .
 html
 \
+test_sameOriginPolicy
+.
+html
+\
 file_wrappers
 -
 2
