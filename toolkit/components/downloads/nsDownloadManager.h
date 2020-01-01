@@ -676,6 +676,9 @@ nsIURI
 aURI
 )
 ;
+bool
+mUseJSTransfer
+;
 nsCOMArray
 <
 nsIDownloadProgressListener
