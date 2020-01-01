@@ -2573,8 +2573,22 @@ None
 load_early
 =
 False
+busybox
+=
+None
 )
 :
+        
+if
+busybox
+:
+            
+self
+.
+install_busybox
+(
+busybox
+)
         
 if
 gecko_path

@@ -1041,18 +1041,9 @@ gecko_path
 load_early
 =
 load_early
-)
-            
-if
+                                
 busybox
-:
-                
-self
-.
-emulator
-.
-install_busybox
-(
+=
 busybox
 )
     
