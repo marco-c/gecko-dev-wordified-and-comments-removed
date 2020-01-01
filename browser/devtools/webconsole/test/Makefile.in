@@ -533,6 +533,10 @@ browser_bug_865871_variables_view_close_on_esc_key
 .
 js
 \
+browser_bug_865288_repeat_different_objects
+.
+js
+\
 head
 .
 js
