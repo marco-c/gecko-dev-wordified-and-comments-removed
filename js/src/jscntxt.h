@@ -667,7 +667,7 @@ size_t
 <
 8
 ;
-PropertyIteratorObject
+JSObject
 *
 data
 [
@@ -693,7 +693,7 @@ SIZE
 }
 public
 :
-PropertyIteratorObject
+JSObject
 *
 last
 ;
@@ -727,7 +727,7 @@ data
 )
 ;
 }
-PropertyIteratorObject
+JSObject
 *
 get
 (
@@ -751,7 +751,7 @@ set
 (
 uint32_t
 key
-PropertyIteratorObject
+JSObject
 *
 iterobj
 )
@@ -3907,10 +3907,7 @@ endif
 DSTOffsetCache
 dstOffsetCache
 ;
-js
-:
-:
-PropertyIteratorObject
+JSObject
 *
 enumerators
 ;

@@ -35298,10 +35298,7 @@ NotEqual
 reg
 T1
 &
-PropertyIteratorObject
-:
-:
-class_
+IteratorClass
 )
 ;
 stubcc
@@ -35601,10 +35598,7 @@ NotEqual
 reg
 tempreg
 &
-PropertyIteratorObject
-:
-:
-class_
+IteratorClass
 )
 ;
 stubcc
@@ -35840,10 +35834,7 @@ NotEqual
 reg
 T1
 &
-PropertyIteratorObject
-:
-:
-class_
+IteratorClass
 )
 ;
 stubcc
