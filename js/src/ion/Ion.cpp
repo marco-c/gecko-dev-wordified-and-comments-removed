@@ -1363,7 +1363,7 @@ rt
 functionWrappers_
 -
 >
-lookup
+readonlyThreadsafeLookup
 (
 &
 f
