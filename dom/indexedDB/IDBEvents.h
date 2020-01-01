@@ -232,7 +232,10 @@ GlobalObject
 &
 aGlobal
 const
+NonNull
+<
 nsAString
+>
 &
 aType
 const

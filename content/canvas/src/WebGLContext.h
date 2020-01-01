@@ -2903,6 +2903,7 @@ WebGLenum
 format
 WebGLenum
 type
+const
 ElementType
 &
 elt
@@ -3139,6 +3140,7 @@ WebGLenum
 format
 WebGLenum
 type
+const
 ElementType
 &
 elt
@@ -5522,7 +5524,14 @@ nsLayoutUtils
 SurfaceFromElementResult
 SurfaceFromElement
 (
+const
+dom
+:
+:
+NonNull
+<
 ElementType
+>
 &
 aElement
 )
@@ -5530,8 +5539,11 @@ aElement
 return
 SurfaceFromElement
 (
-&
 aElement
+.
+get
+(
+)
 )
 ;
 }

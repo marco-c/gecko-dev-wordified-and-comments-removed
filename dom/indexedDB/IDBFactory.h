@@ -455,7 +455,10 @@ nsIIDBOpenDBRequest
 Open
 (
 const
+NonNull
+<
 nsAString
+>
 &
 aName
 const
@@ -488,7 +491,10 @@ nsIIDBOpenDBRequest
 DeleteDatabase
 (
 const
+NonNull
+<
 nsAString
+>
 &
 aName
 ErrorResult
@@ -555,7 +561,10 @@ nsIPrincipal
 *
 aPrincipal
 const
+NonNull
+<
 nsAString
+>
 &
 aName
 const
@@ -580,7 +589,10 @@ nsIPrincipal
 *
 aPrincipal
 const
+NonNull
+<
 nsAString
+>
 &
 aName
 ErrorResult

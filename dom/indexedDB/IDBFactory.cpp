@@ -3246,7 +3246,10 @@ nsIPrincipal
 *
 aPrincipal
 const
+NonNull
+<
 nsAString
+>
 &
 aName
 const
@@ -3301,7 +3304,10 @@ nsIPrincipal
 *
 aPrincipal
 const
+NonNull
+<
 nsAString
+>
 &
 aName
 ErrorResult

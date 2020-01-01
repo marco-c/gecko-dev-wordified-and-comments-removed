@@ -869,10 +869,6 @@ PannerNode
 .
 webidl
 \
-ParentNode
-.
-webidl
-\
 Performance
 .
 webidl
