@@ -1323,6 +1323,10 @@ BindCompiledEventHandler
 scriptTarget
 scope
 handler
+.
+getObject
+(
+)
 boundHandler
 )
 ;
