@@ -235,7 +235,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
