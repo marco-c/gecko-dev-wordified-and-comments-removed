@@ -20,6 +20,13 @@ defined
 (
 __linux__
 )
+&
+&
+!
+defined
+(
+__FreeBSD__
+)
 )
 NS_IMETHOD
 Stub3

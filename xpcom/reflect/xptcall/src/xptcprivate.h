@@ -52,6 +52,13 @@ defined
 (
 __linux__
 )
+&
+&
+!
+defined
+(
+__FreeBSD__
+)
 )
 #
 define
@@ -157,6 +164,13 @@ __hpux
 defined
 (
 __linux__
+)
+&
+&
+!
+defined
+(
+__FreeBSD__
 )
 )
 #
