@@ -389,6 +389,16 @@ JSOP_NEG
 \
 _
 (
+JSOP_NEWARRAY
+)
+\
+_
+(
+JSOP_ENDINIT
+)
+\
+_
+(
 JSOP_GETELEM
 )
 \
