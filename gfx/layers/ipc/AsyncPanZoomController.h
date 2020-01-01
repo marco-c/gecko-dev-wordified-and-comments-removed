@@ -333,6 +333,13 @@ LayerIntPoint
 aRelativePointOut
 )
 ;
+void
+UpdateScrollOffset
+(
+CSSPoint
+aScrollOffset
+)
+;
 protected
 :
 nsEventStatus
