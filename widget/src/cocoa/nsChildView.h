@@ -1271,6 +1271,9 @@ mPluginDrawing
 PRPackedBool
 mPluginIsCG
 ;
+PRPackedBool
+mIsDispatchPaint
+;
 NP_CGContext
 mPluginCGContext
 ;
