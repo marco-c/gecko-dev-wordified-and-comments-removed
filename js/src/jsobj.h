@@ -611,9 +611,6 @@ JSObject
 parent
 jsval
 privateSlotValue
-jsval
-*
-nullPtr
 )
 {
 JS_ASSERT
@@ -725,7 +722,7 @@ JSVAL_VOID
 ;
 dslots
 =
-nullPtr
+NULL
 ;
 }
 JSBool
@@ -1391,10 +1388,12 @@ obj
 )
 \
 (
-DSLOTS_IS_NOT_NULL
 (
 obj
 )
+-
+>
+dslots
 ?
 (
 uint32
@@ -2803,10 +2802,10 @@ obj
 {
 if
 (
-DSLOTS_IS_NOT_NULL
-(
 obj
-)
+-
+>
+dslots
 )
 js_ShrinkSlots
 (
