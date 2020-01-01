@@ -334,7 +334,7 @@ PINCHING
 ANIMATED_ZOOM
 BOUNCE
 WAITING_LISTENERS
-AUTOSCROLL
+AUTONAV
 }
 private
 final
@@ -1586,7 +1586,7 @@ case
 FLING
 :
 case
-AUTOSCROLL
+AUTONAV
 :
 case
 BOUNCE
@@ -1699,7 +1699,7 @@ case
 FLING
 :
 case
-AUTOSCROLL
+AUTONAV
 :
 case
 BOUNCE
@@ -1878,7 +1878,7 @@ case
 FLING
 :
 case
-AUTOSCROLL
+AUTONAV
 :
 case
 BOUNCE
@@ -2205,7 +2205,7 @@ mState
 =
 PanZoomState
 .
-AUTOSCROLL
+AUTONAV
 )
 {
 bounce
@@ -2234,13 +2234,13 @@ setState
 (
 PanZoomState
 .
-AUTOSCROLL
+AUTONAV
 )
 ;
 startAnimationTimer
 (
 new
-AutoscrollRunnable
+AutonavRunnable
 (
 )
 )
@@ -2253,7 +2253,7 @@ mState
 =
 PanZoomState
 .
-AUTOSCROLL
+AUTONAV
 )
 {
 mX
@@ -3319,7 +3319,7 @@ true
 }
 private
 class
-AutoscrollRunnable
+AutonavRunnable
 extends
 AnimationRunnable
 {
@@ -3337,7 +3337,7 @@ mState
 =
 PanZoomState
 .
-AUTOSCROLL
+AUTONAV
 )
 {
 finishAnimation
