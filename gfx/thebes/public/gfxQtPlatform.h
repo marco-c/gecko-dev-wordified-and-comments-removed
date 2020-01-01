@@ -364,6 +364,11 @@ gfxFontconfigUtils
 *
 sFontconfigUtils
 ;
+void
+InitDisplayCaps
+(
+)
+;
 private
 :
 virtual
