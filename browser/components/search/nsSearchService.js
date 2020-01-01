@@ -6511,6 +6511,12 @@ _parseAsSherlock
 )
 ;
 }
+this
+.
+_data
+=
+null
+;
 }
 _initFromMetadata
 :
