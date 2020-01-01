@@ -31513,11 +31513,6 @@ nsnull
 nsString
 documentURI
 ;
-if
-(
-mDocument
-)
-{
 mDocument
 -
 >
@@ -31526,7 +31521,6 @@ GetDocumentURI
 documentURI
 )
 ;
-}
 nsresult
 rv
 =
@@ -31857,11 +31851,6 @@ rv
 nsString
 documentURI
 ;
-if
-(
-mDocument
-)
-{
 mDocument
 -
 >
@@ -31870,7 +31859,6 @@ GetDocumentURI
 documentURI
 )
 ;
-}
 rv
 =
 storageManager
