@@ -2709,10 +2709,6 @@ mFlags
 GtkTextDirection
 mDirection
 ;
-GdkWindow
-*
-mWindow
-;
 const
 GdkRectangle
 &
