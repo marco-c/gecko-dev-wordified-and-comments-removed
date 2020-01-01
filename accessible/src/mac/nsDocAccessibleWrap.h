@@ -38,12 +38,6 @@ nsDocAccessibleWrap
 (
 )
 ;
-virtual
-bool
-Init
-(
-)
-;
 }
 ;
 #
