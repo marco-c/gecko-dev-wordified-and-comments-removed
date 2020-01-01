@@ -1,3 +1,11 @@
+namespace
+url
+(
+http
+:
+*
+|
+*
 :
 :
 -
@@ -10,6 +18,9 @@ cursor
 text
 ;
 }
+*
+|
+*
 :
 focus
 :
@@ -235,6 +246,9 @@ cursor
 default
 ;
 }
+*
+|
+*
 :
 -
 moz
@@ -330,6 +344,9 @@ moz
 hyperlinktext
 ;
 }
+*
+|
+*
 :
 -
 moz
@@ -346,6 +363,9 @@ moz
 read
 -
 only
+*
+|
+*
 :
 -
 moz
@@ -362,6 +382,9 @@ moz
 read
 -
 only
+*
+|
+*
 :
 -
 moz
@@ -421,6 +444,9 @@ moz
 read
 -
 write
+*
+|
+*
 :
 -
 moz
@@ -433,6 +459,9 @@ input
 [
 disabled
 ]
+*
+|
+*
 :
 -
 moz
@@ -449,6 +478,9 @@ type
 checkbox
 "
 ]
+*
+|
+*
 :
 -
 moz
@@ -465,6 +497,9 @@ type
 radio
 "
 ]
+*
+|
+*
 :
 -
 moz
@@ -680,6 +715,9 @@ url
 chrome
 :
 }
+*
+|
+*
 :
 -
 moz
@@ -748,6 +786,9 @@ all
 important
 ;
 }
+*
+|
+*
 :
 :
 -
