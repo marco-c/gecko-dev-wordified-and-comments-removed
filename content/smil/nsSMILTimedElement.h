@@ -1130,12 +1130,15 @@ mDeferIntervalUpdates
 bool
 mDoDeferredUpdate
 ;
-PRUint16
+PRUint8
+mDeleteCount
+;
+PRUint8
 mUpdateIntervalRecursionDepth
 ;
 static
 const
-PRUint16
+PRUint8
 sMaxUpdateIntervalRecursionDepth
 ;
 }
