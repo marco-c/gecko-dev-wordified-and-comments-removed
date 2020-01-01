@@ -380,6 +380,12 @@ aVal
 }
 #
 endif
+bool
+VerticalScrollbarNotNeeded
+(
+)
+const
+;
 protected
 :
 bool
