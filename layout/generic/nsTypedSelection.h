@@ -32,6 +32,13 @@ nsISelectionPrivate
 .
 h
 "
+#
+include
+"
+nsRange
+.
+h
+"
 struct
 CachedOffsetForFrame
 ;
@@ -43,9 +50,6 @@ nsIContentIterator
 ;
 class
 nsIFrame
-;
-class
-nsRange
 ;
 struct
 SelectionDetails
