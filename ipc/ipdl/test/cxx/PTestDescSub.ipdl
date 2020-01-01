@@ -12,6 +12,7 @@ mozilla
 namespace
 _ipdltest
 {
+rpc
 protocol
 PTestDescSub
 {
@@ -27,6 +28,7 @@ __delete__
 (
 )
 ;
+rpc
 PTestDescSubsub
 (
 )
