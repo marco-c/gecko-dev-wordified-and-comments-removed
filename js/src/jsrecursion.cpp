@@ -3395,6 +3395,7 @@ exit
 )
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -3543,6 +3544,7 @@ return
 int32_ins
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -3648,6 +3650,7 @@ return
 dbl_ins
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -3723,6 +3726,7 @@ return
 bool_ins
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -3792,6 +3796,7 @@ return
 str_ins
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -3827,6 +3832,7 @@ return
 val_ins
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -3929,6 +3935,7 @@ return
 val_ins
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder

@@ -53504,6 +53504,7 @@ args
 }
 }
 static
+JS_REQUIRES_STACK
 inline
 bool
 IsTraceableRecursion

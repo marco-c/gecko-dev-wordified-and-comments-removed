@@ -3723,6 +3723,7 @@ VMSideExit
 exit
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -3744,6 +3745,7 @@ VMSideExit
 exit
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -3765,6 +3767,7 @@ VMSideExit
 exit
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -3786,6 +3789,7 @@ VMSideExit
 exit
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -3807,6 +3811,7 @@ VMSideExit
 exit
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -3828,6 +3833,7 @@ VMSideExit
 exit
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -3849,6 +3855,7 @@ VMSideExit
 exit
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -3870,6 +3877,7 @@ VMSideExit
 exit
 )
 ;
+JS_REQUIRES_STACK
 nanojit
 :
 :
@@ -3891,6 +3899,7 @@ VMSideExit
 exit
 )
 ;
+JS_REQUIRES_STACK
 void
 slurpSlot
 (
