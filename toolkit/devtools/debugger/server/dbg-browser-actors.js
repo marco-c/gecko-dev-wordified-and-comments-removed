@@ -1117,6 +1117,13 @@ _onWindowCreated
 true
 )
 ;
+if
+(
+this
+.
+_tabbrowser
+)
+{
 this
 .
 _progressListener
@@ -1127,6 +1134,7 @@ DebuggerProgressListener
 this
 )
 ;
+}
 this
 .
 _attached
