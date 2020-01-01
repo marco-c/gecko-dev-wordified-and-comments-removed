@@ -1198,12 +1198,6 @@ SearchPreferenceCategory
 .
 java
 \
-preferences
-/
-SearchEnginePreference
-.
-java
-\
 widget
 /
 AboutHome
