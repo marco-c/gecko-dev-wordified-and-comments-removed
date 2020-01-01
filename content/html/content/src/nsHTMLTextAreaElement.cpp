@@ -3512,7 +3512,7 @@ PRInt32
 {
 ContentChanged
 (
-aContainer
+aFirstNewContent
 )
 ;
 }
