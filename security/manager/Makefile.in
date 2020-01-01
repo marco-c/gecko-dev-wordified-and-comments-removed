@@ -1547,6 +1547,14 @@ OS_ARCH
 )
 "
 \
+OS_TEST
+=
+"
+(
+OS_TEST
+)
+"
+\
 CPU_ARCH
 =
 "
