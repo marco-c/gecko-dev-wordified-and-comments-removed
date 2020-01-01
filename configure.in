@@ -46091,6 +46091,14 @@ z
 "
 MOZ_ENABLE_GTK2
 "
+&
+&
+test
+-
+z
+"
+MOZ_ENABLE_QT
+"
 ;
 then
 MOZ_IMG_DECODERS_DEFAULT
