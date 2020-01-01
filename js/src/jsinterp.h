@@ -401,9 +401,6 @@ inline
 void
 resetInvokeCallFrame
 (
-JSContext
-*
-cx
 )
 ;
 inline
@@ -2638,6 +2635,16 @@ JSOp
 op
 size_t
 oplen
+)
+;
+extern
+JSObject
+*
+GetScopeChain
+(
+JSContext
+*
+cx
 )
 ;
 extern
