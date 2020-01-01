@@ -738,10 +738,9 @@ pl
 (
 PACKAGE_DIR
 )
-Makefile
-Makefile
-.
-in
+(
+GLOBAL_DEPS
+)
 (
 PERL
 )
@@ -888,10 +887,9 @@ JAVA_IFACES_PKG_NAME
 .
 java
 )
-Makefile
-Makefile
-.
-in
+(
+GLOBAL_DEPS
+)
 echo
 Compiling
 Java
