@@ -442,10 +442,9 @@ certmgr
 .
 tab
 .
-websites2
+websites3
 "
-Internet
-Sites
+Servers
 "
 >
 <
@@ -1682,10 +1681,9 @@ exceptionMgr
 .
 certlocation
 .
-caption
+caption2
 "
-Internet
-Site
+Server
 "
 >
 <
