@@ -317,6 +317,16 @@ message
 NULL
 )
 ;
+bool
+errored
+(
+)
+const
+{
+return
+error_
+;
+}
 public
 :
 JSScript
@@ -1141,7 +1151,7 @@ i
 }
 LBlock
 *
-getLir
+lir
 (
 )
 const

@@ -1862,6 +1862,10 @@ BitSet
 .
 cpp
 \
+IonLIR
+.
+cpp
+\
 (
 NULL
 )
