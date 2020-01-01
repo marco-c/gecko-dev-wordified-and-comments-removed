@@ -299,9 +299,6 @@ init
 (
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GONK
 SettingsListener
 .
 observe
@@ -360,6 +357,21 @@ value
 }
 )
 ;
+let
+audioSettings
+=
+[
+]
+;
+if
+(
+"
+nsIAudioManager
+"
+in
+Ci
+)
+{
 const
 nsIAudioManager
 =
@@ -367,7 +379,6 @@ Ci
 .
 nsIAudioManager
 ;
-let
 audioSettings
 =
 [
@@ -516,6 +527,7 @@ STREAM_TYPE_FM
 ]
 ]
 ;
+}
 for
 each
 (
@@ -589,8 +601,6 @@ streamType
 )
 ;
 }
-#
-endif
 SettingsListener
 .
 observe
