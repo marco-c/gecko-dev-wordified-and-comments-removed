@@ -12070,6 +12070,13 @@ runScript
 aTextRun
 -
 >
+SanitizeGlyphRuns
+(
+)
+;
+aTextRun
+-
+>
 SortGlyphRuns
 (
 )
@@ -12516,13 +12523,6 @@ runStart
 matchedLength
 ;
 }
-aTextRun
--
->
-SanitizeGlyphRuns
-(
-)
-;
 }
 already_AddRefed
 <
