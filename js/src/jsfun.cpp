@@ -11791,7 +11791,6 @@ vp
 )
 ;
 }
-inline
 bool
 JSFunction
 :
