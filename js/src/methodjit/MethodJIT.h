@@ -117,7 +117,8 @@ defined
 (
 JS_CPU_X86
 )
-or
+|
+|
 defined
 (
 JS_CPU_X64
