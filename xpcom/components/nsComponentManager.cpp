@@ -2224,6 +2224,8 @@ While
 registering
 XPCOM
 module
+%
+s
 trying
 to
 re
