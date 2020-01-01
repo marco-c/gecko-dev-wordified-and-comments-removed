@@ -682,6 +682,9 @@ X64_cvtsd2ss
 X64_cvtsd2si
 =
 0xC02D0F40F2000005LL
+X64_cvttsd2si
+=
+0xC02C0F40F2000005LL
 X64_divsd
 =
 0xC05E0F40F2000005LL
@@ -2787,6 +2790,16 @@ r
 \
 void
 CVTSD2SI
+(
+Register
+l
+Register
+r
+)
+;
+\
+void
+CVTTSD2SI
 (
 Register
 l

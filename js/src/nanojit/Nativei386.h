@@ -3378,6 +3378,16 @@ xr
 ;
 \
 void
+SSE_CVTTSD2SI
+(
+Register
+gr
+Register
+xr
+)
+;
+\
+void
 SSE_CVTSD2SS
 (
 Register
