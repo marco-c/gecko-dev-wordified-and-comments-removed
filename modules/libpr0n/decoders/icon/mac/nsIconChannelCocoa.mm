@@ -641,6 +641,10 @@ mUrl
 =
 uri
 ;
+mOriginalURI
+=
+uri
+;
 nsresult
 rv
 ;
@@ -1104,10 +1108,6 @@ aURI
 aURI
 =
 mOriginalURI
-?
-mOriginalURI
-:
-mUrl
 ;
 NS_ADDREF
 (
@@ -1130,6 +1130,11 @@ nsIURI
 aURI
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aURI
+)
+;
 mOriginalURI
 =
 aURI

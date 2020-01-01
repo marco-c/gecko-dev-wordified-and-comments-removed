@@ -16063,7 +16063,7 @@ originalURI
 =
 mOriginalURI
 ;
-NS_IF_ADDREF
+NS_ADDREF
 (
 *
 originalURI
@@ -16084,6 +16084,11 @@ nsIURI
 originalURI
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+originalURI
+)
+;
 mOriginalURI
 =
 originalURI

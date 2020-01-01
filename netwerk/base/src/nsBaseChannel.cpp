@@ -1247,7 +1247,7 @@ OriginalURI
 (
 )
 ;
-NS_IF_ADDREF
+NS_ADDREF
 (
 *
 aURI
@@ -1268,6 +1268,11 @@ nsIURI
 aURI
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aURI
+)
+;
 mOriginalURI
 =
 aURI

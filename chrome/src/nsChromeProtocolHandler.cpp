@@ -483,6 +483,10 @@ mURI
 (
 aURI
 )
+mOriginalURI
+(
+aURI
+)
 mLoadFlags
 (
 nsIRequest
@@ -572,10 +576,6 @@ aOriginalURI
 aOriginalURI
 =
 mOriginalURI
-?
-mOriginalURI
-:
-mURI
 ;
 NS_ADDREF
 (
@@ -598,6 +598,11 @@ nsIURI
 aOriginalURI
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aOriginalURI
+)
+;
 mOriginalURI
 =
 aOriginalURI
