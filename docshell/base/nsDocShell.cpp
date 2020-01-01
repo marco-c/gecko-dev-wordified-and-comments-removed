@@ -18278,9 +18278,6 @@ mLoadType
 )
 {
 case
-LOAD_RELOAD_CHARSET_CHANGE
-:
-case
 LOAD_NORMAL_REPLACE
 :
 case
