@@ -422,6 +422,8 @@ REQUIRES
 =
 xpcom
 \
+dom
+\
 string
 \
 necko
