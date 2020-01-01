@@ -621,11 +621,11 @@ test
 !
 -
 d
-system_wrappers
+system_wrappers_js
 ;
 then
 mkdir
-system_wrappers
+system_wrappers_js
 ;
 fi
 (
@@ -674,11 +674,11 @@ system
 wrappers
 .
 pl
-system_wrappers
+system_wrappers_js
 (
 INSTALL
 )
-system_wrappers
+system_wrappers_js
 (
 DIST
 )
@@ -687,7 +687,7 @@ include
 GARBAGE_DIRS
 +
 =
-system_wrappers
+system_wrappers_js
 endif
 FORCE
 :
