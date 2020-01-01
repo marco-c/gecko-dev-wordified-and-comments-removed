@@ -1,3 +1,12 @@
+EnableEngines
+(
+[
+"
+passwords
+"
+]
+)
+;
 var
 phases
 =
