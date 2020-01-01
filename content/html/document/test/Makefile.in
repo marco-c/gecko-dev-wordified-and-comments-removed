@@ -501,6 +501,10 @@ test_bug255820
 .
 html
 \
+test_bug259332
+.
+html
+\
 test_bug311681
 .
 html
@@ -508,6 +512,10 @@ html
 test_bug311681
 .
 xhtml
+\
+test_bug324378
+.
+html
 \
 test_bug332848
 .
@@ -522,10 +530,6 @@ test_bug380383
 html
 \
 test_bug386495
-.
-html
-\
-test_bug259332
 .
 html
 \
