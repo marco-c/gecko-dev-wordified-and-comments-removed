@@ -272,13 +272,6 @@ GARBAGE
 mozglue
 .
 def
-LDFLAGS
-+
-=
--
-ENTRY
-:
-DllMain
 ifneq
 (
 (

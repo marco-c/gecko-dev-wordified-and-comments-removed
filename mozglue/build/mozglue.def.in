@@ -70,9 +70,6 @@ useful
 malloc
 =
 je_malloc
-valloc
-=
-je_valloc
 calloc
 =
 je_calloc
@@ -82,9 +79,6 @@ je_realloc
 free
 =
 je_free
-memalign
-=
-je_memalign
 posix_memalign
 =
 je_posix_memalign
@@ -106,7 +100,15 @@ je_wcsdup
 malloc_usable_size
 =
 je_malloc_usable_size
+#
+ifdef
+MOZ_JEMALLOC
+je_nallocm
+#
+else
 je_malloc_good_size
+#
+endif
 jemalloc_stats
 ;
 A
