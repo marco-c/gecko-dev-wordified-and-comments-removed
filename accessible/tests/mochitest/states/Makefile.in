@@ -459,6 +459,10 @@ test_aria_tabs
 .
 html
 \
+test_buttons
+.
+html
+\
 test_doc
 .
 html

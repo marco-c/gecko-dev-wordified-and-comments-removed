@@ -20,6 +20,13 @@ nsIAccessibleStates
 STATE_COLLAPSED
 ;
 const
+STATE_DEFAULT
+=
+nsIAccessibleStates
+.
+STATE_DEFAULT
+;
+const
 STATE_EXPANDED
 =
 nsIAccessibleStates
