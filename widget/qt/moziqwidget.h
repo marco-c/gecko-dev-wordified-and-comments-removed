@@ -28,7 +28,7 @@ QGraphicsView
 #
 include
 "
-nsIWidget
+nsCOMPtr
 .
 h
 "
@@ -78,18 +78,6 @@ setModal
 bool
 )
 {
-}
-virtual
-bool
-SetCursor
-(
-nsCursor
-aCursor
-)
-{
-return
-false
-;
 }
 virtual
 void

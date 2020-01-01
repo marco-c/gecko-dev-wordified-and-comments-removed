@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsStringGlue
+.
+h
+"
+#
+include
+"
 BinaryPath
 .
 h
