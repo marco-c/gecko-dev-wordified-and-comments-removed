@@ -159,11 +159,6 @@ nsIIDBTransaction
 idl
 '
 '
-nsIIDBVersionChangeEvent
-.
-idl
-'
-'
 nsIIndexedDatabaseManager
 .
 idl
