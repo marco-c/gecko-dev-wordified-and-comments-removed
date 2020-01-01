@@ -296,12 +296,12 @@ Init
 )
 ;
 nsresult
-Destroy
+LoadPlugins
 (
 )
 ;
 nsresult
-LoadPlugins
+UnloadPlugins
 (
 )
 ;
@@ -1108,9 +1108,6 @@ mPluginsLoaded
 ;
 bool
 mDontShowBadPluginMessage
-;
-bool
-mIsDestroyed
 ;
 bool
 mOverrideInternalTypes
