@@ -71,17 +71,6 @@ gfxASurface
 aSurface
 )
 {
-nsAutoCString
-tmpDir
-(
-getenv
-(
-"
-TMPDIR
-"
-)
-)
-;
 nsresult
 rv
 =
