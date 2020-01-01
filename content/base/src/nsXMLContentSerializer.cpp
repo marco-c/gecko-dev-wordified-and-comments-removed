@@ -234,6 +234,8 @@ char
 aCharSet
 PRBool
 aIsCopying
+PRBool
+aIsWholeDocument
 )
 {
 mCharset

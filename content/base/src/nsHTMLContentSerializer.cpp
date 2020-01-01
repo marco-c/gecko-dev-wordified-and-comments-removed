@@ -276,6 +276,10 @@ mMayIgnoreLineBreakSequence
 (
 PR_FALSE
 )
+mIsWholeDocument
+(
+PR_FALSE
+)
 mInCDATA
 (
 PR_FALSE
@@ -388,6 +392,8 @@ char
 aCharSet
 PRBool
 aIsCopying
+PRBool
+aIsWholeDocument
 )
 {
 mFlags
@@ -412,6 +418,10 @@ mMaxColumn
 aWrapColumn
 ;
 }
+mIsWholeDocument
+=
+aIsWholeDocument
+;
 mIsCopying
 =
 aIsCopying
@@ -2552,6 +2562,9 @@ Tag
 ;
 if
 (
+mIsWholeDocument
+&
+&
 name
 =
 =
@@ -3004,6 +3017,9 @@ PR_TRUE
 }
 if
 (
+mIsWholeDocument
+&
+&
 name
 =
 =
@@ -3155,6 +3171,9 @@ Tag
 ;
 if
 (
+mIsWholeDocument
+&
+&
 name
 =
 =

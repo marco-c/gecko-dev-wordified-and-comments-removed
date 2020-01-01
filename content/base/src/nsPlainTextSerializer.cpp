@@ -436,6 +436,8 @@ char
 aCharSet
 PRBool
 aIsCopying
+PRBool
+aIsWholeDocument
 )
 {
 #
@@ -1027,6 +1029,7 @@ Init
 aFlags
 aWrapCol
 nsnull
+PR_FALSE
 PR_FALSE
 )
 ;

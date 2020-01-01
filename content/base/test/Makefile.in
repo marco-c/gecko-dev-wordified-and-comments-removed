@@ -615,6 +615,10 @@ test_bug382113
 .
 html
 \
+test_bug390735
+.
+html
+\
 bug382113_object
 .
 html

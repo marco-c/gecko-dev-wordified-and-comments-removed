@@ -304,6 +304,8 @@ char
 aCharSet
 PRBool
 aIsCopying
+PRBool
+aIsWholeDocument
 )
 {
 NS_ENSURE_TRUE
@@ -346,6 +348,7 @@ Init
 aFlags
 0
 nsnull
+PR_FALSE
 PR_FALSE
 )
 ;

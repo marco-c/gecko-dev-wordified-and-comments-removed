@@ -69,6 +69,8 @@ char
 aCharSet
 PRBool
 aIsCopying
+PRBool
+aIsWholeDocument
 )
 ;
 NS_IMETHOD
@@ -437,6 +439,9 @@ mAddSpace
 ;
 PRPackedBool
 mMayIgnoreLineBreakSequence
+;
+PRPackedBool
+mIsWholeDocument
 ;
 PRPackedBool
 mIsFirstChildOfOL
