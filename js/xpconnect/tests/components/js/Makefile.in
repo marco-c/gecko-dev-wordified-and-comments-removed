@@ -95,6 +95,10 @@ xpctest_attributes
 .
 js
 \
+xpctest_bug809674
+.
+js
+\
 xpctest_interfaces
 .
 js

@@ -103,6 +103,11 @@ xpctest_attributes
 idl
 '
 '
+xpctest_bug809674
+.
+idl
+'
+'
 xpctest_interfaces
 .
 idl
