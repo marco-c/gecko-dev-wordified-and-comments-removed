@@ -10521,7 +10521,12 @@ extensions
 {
 SECOidTag
 ev_oid_tag
+=
+SEC_OID_UNKNOWN
 ;
+#
+ifndef
+NSS_NO_LIBPKIX
 bool
 validEV
 ;
@@ -10552,6 +10557,8 @@ ev_oid_tag
 =
 SEC_OID_UNKNOWN
 ;
+#
+endif
 rv
 =
 ProcessExtensions

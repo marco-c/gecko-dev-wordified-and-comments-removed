@@ -569,6 +569,9 @@ mInstanceCount
 =
 0
 ;
+#
+ifndef
+NSS_NO_LIBPKIX
 bool
 nsNSSComponent
 :
@@ -577,6 +580,8 @@ globalConstFlagUsePKIXVerification
 =
 false
 ;
+#
+endif
 extern
 char
 *
@@ -1523,6 +1528,9 @@ mObserversRegistered
 =
 false
 ;
+#
+ifndef
+NSS_NO_LIBPKIX
 memset
 (
 &
@@ -1534,6 +1542,8 @@ PRCallOnceType
 )
 )
 ;
+#
+endif
 NS_ASSERTION
 (
 (
@@ -4872,6 +4882,9 @@ ocspMode_FailureIsVerificationFailure
 ocspMode_FailureIsNotAVerificationFailure
 )
 ;
+#
+ifndef
+NSS_NO_LIBPKIX
 RefPtr
 <
 nsCERTValInParamWrapper
@@ -4960,6 +4973,8 @@ mDefaultCERTValInParam
 newCVIN
 ;
 }
+#
+endif
 SSL_ClearSessionCache
 (
 )
@@ -7293,6 +7308,9 @@ profilePath
 ;
 #
 endif
+#
+ifndef
+NSS_NO_LIBPKIX
 rv
 =
 mPrefBranch
@@ -7320,6 +7338,8 @@ globalConstFlagUsePKIXVerification
 =
 USE_NSS_LIBPKIX_DEFAULT
 ;
+#
+endif
 bool
 supress_warning_preference
 =
@@ -7871,6 +7891,9 @@ setValidationOptions
 mPrefBranch
 )
 ;
+#
+ifndef
+NSS_NO_LIBPKIX
 mDefaultCERTValInParamLocalOnly
 =
 new
@@ -7925,6 +7948,8 @@ return
 rv
 ;
 }
+#
+endif
 RegisterMyOCSPAIAInfoCallback
 (
 )
@@ -8139,10 +8164,15 @@ UnloadLoadableRoots
 (
 )
 ;
+#
+ifndef
+NSS_NO_LIBPKIX
 CleanupIdentityInfo
 (
 )
 ;
+#
+endif
 PR_LOG
 (
 gPIPNSSLog
@@ -10976,6 +11006,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+NSS_NO_LIBPKIX
 NS_IMETHODIMP
 nsNSSComponent
 :
@@ -11048,6 +11081,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsCryptoHash
 :
 :

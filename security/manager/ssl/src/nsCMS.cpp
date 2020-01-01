@@ -1122,6 +1122,9 @@ sigd
 0
 )
 ;
+#
+ifndef
+NSS_NO_LIBPKIX
 if
 (
 !
@@ -1131,6 +1134,8 @@ nsNSSComponent
 globalConstFlagUsePKIXVerification
 )
 {
+#
+endif
 if
 (
 CERT_VerifyCertificateNow
@@ -1188,6 +1193,9 @@ goto
 loser
 ;
 }
+#
+ifndef
+NSS_NO_LIBPKIX
 }
 else
 {
@@ -1308,6 +1316,8 @@ loser
 ;
 }
 }
+#
+endif
 if
 (
 NSS_CMSSignedData_VerifySignerInfo
