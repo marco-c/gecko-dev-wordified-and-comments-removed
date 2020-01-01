@@ -1464,8 +1464,14 @@ mText
 private
 :
 void
-SetBidiStatus
+UpdateBidiStatus
 (
+const
+PRUnichar
+*
+aBuffer
+PRUint32
+aLength
 )
 ;
 already_AddRefed

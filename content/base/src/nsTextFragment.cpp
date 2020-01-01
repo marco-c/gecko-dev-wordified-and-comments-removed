@@ -1593,8 +1593,14 @@ void
 nsTextFragment
 :
 :
-SetBidiFlag
+UpdateBidiFlag
 (
+const
+PRUnichar
+*
+aBuffer
+PRUint32
+aLength
 )
 {
 if
@@ -1615,7 +1621,7 @@ PRUnichar
 *
 cp
 =
-m2b
+aBuffer
 ;
 const
 PRUnichar
@@ -1624,9 +1630,7 @@ end
 =
 cp
 +
-mState
-.
-mLength
+aLength
 ;
 while
 (

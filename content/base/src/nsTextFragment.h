@@ -544,8 +544,14 @@ aIndex
 ;
 }
 void
-SetBidiFlag
+UpdateBidiFlag
 (
+const
+PRUnichar
+*
+aBuffer
+PRUint32
+aLength
 )
 ;
 struct
