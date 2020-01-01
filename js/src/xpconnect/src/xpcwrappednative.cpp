@@ -7142,6 +7142,10 @@ pobj2
 *
 pobj2
 =
+isWN
+?
+nsnull
+:
 cur
 ;
 return
@@ -7245,7 +7249,7 @@ pobj2
 *
 pobj2
 =
-cur
+nsnull
 ;
 XPCWrappedNativeTearOff
 *

@@ -3393,10 +3393,6 @@ obj2
 ;
 if
 (
-!
-wrapper
-&
-&
 obj2
 )
 {
