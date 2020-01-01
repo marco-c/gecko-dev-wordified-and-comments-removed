@@ -439,6 +439,16 @@ aPermission
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+CheckAppHasStatus
+(
+unsigned
+short
+aStatus
+)
+MOZ_OVERRIDE
+;
 void
 NotifyTabDestroying
 (
