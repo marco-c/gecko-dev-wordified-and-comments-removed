@@ -595,7 +595,7 @@ typename
 T
 >
 class
-MOZ_STACK_CLASS
+MOZ_NONHEAP_CLASS
 Handle
 :
 public

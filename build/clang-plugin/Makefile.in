@@ -97,6 +97,10 @@ TestMustOverride
 .
 cpp
 \
+TestNonHeapClass
+.
+cpp
+\
 TestStackClass
 .
 cpp
