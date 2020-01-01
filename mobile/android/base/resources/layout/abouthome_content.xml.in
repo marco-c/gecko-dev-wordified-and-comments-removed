@@ -162,8 +162,6 @@ abouthome_gutter_large
 "
 >
 <
-Gecko
-.
 ImageView
 android
 :
@@ -236,8 +234,6 @@ true
 /
 >
 <
-Gecko
-.
 TextView
 android
 :
@@ -299,9 +295,8 @@ android
 textColor
 =
 "
-color
-/
-abouthome_section_title
+#
+000000
 "
 android
 :
