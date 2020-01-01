@@ -1997,9 +1997,8 @@ nsCOMPtr
 nsIURI
 >
 ourURI
-(
+=
 uri
-)
 ;
 extProtService
 -
