@@ -2056,7 +2056,7 @@ static
 nsresult
 CreateContextualFragment
 (
-nsIDOMNode
+nsINode
 *
 aContextNode
 const
