@@ -2860,12 +2860,6 @@ PRUint32
 aExtraState
 )
 {
-NS_ENSURE_TRUE
-(
-mDOMNode
-NS_ERROR_FAILURE
-)
-;
 nsresult
 rv
 =
@@ -2883,6 +2877,14 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
+;
+if
+(
+!
+mDOMNode
+)
+return
+NS_OK
 ;
 nsCOMPtr
 <
