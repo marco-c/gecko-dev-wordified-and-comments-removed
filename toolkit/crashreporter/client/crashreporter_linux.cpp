@@ -2557,10 +2557,7 @@ Reports
 "
 ;
 return
-UIEnsurePathExists
-(
-settingsPath
-)
+true
 ;
 }
 bool

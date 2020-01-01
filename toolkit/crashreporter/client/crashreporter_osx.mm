@@ -2921,17 +2921,6 @@ destPath
 UTF8String
 ]
 ;
-if
-(
-!
-UIEnsurePathExists
-(
-settingsPath
-)
-)
-return
-false
-;
 return
 true
 ;

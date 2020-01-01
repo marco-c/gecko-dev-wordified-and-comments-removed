@@ -101,6 +101,11 @@ char
 *
 crashReporterURL
 ;
+const
+char
+*
+profile
+;
 }
 ;
 #
