@@ -309,11 +309,11 @@ BufferSlice
 (
 )
 :
-next
+prev
 (
 NULL
 )
-prev
+next
 (
 NULL
 )
