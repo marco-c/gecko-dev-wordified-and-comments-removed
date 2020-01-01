@@ -1033,7 +1033,15 @@ start
 except
 :
       
-raise
+print
+'
+WARNING
+:
+problem
+starting
+counter
+monitor
+'
   
 def
 stopMonitor

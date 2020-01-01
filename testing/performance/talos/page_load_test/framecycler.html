@@ -65,7 +65,7 @@ NUM_CYCLES
 var
 DEFAULT_TIMEOUT
 =
-25000
+55000
 ;
 /
 /
@@ -1000,7 +1000,7 @@ all
 dump
 (
 "
-__start_tp_report
+__start_report
 \
 n
 "
@@ -1085,11 +1085,6 @@ toFixed
 (
 2
 )
-+
-"
-\
-n
-"
 )
 ;
 for
@@ -1276,7 +1271,7 @@ n
 dump
 (
 "
-__end_tp_report
+__end_report
 \
 n
 \
@@ -1554,6 +1549,16 @@ __FAIL
 "
 )
 ;
+if
+(
+QUIT
+)
+{
+goQuitApplication
+(
+)
+;
+}
 window
 .
 close
@@ -1656,11 +1661,6 @@ privs
 if
 (
 QUIT
-&
-&
-canQuitApplication
-(
-)
 )
 {
 goQuitApplication

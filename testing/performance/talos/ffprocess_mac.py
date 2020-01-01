@@ -99,26 +99,6 @@ s
 %
 profile_dir
   
-url_arg
-=
-'
-'
-  
-if
-url
-:
-    
-url_arg
-=
-'
--
-url
-%
-s
-'
-%
-url
-  
 cmd
 =
 '
@@ -128,14 +108,6 @@ s
 s
 %
 s
--
-width
-%
-d
--
-height
-%
-d
 '
 %
 (
@@ -143,15 +115,7 @@ firefox_path
                       
 profile_arg
                       
-url_arg
-                      
-config
-.
-BROWSER_WIDTH
-                      
-config
-.
-BROWSER_HEIGHT
+url
 )
   
 return
@@ -432,6 +396,9 @@ terminate
 "
 "
   
+try
+:
+    
 os
 .
 kill
@@ -440,6 +407,35 @@ pid
 signal
 .
 SIGTERM
+)
+  
+except
+OSError
+(
+errno
+strerror
+)
+:
+    
+print
+'
+WARNING
+:
+failed
+os
+.
+kill
+:
+%
+s
+:
+%
+s
+'
+%
+(
+errno
+strerror
 )
 def
 TerminateAllProcesses
