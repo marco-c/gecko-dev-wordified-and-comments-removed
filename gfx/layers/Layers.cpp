@@ -21,14 +21,6 @@ ShadowLayers
 h
 "
 #
-define
-MOZ_DUMP_PAINTING
-1
-#
-define
-MOZ_LAYERS_HAVE_LOG
-1
-#
 include
 "
 ImageLayers

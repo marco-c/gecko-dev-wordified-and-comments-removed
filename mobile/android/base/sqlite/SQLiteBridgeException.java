@@ -11,7 +11,7 @@ public
 class
 SQLiteBridgeException
 extends
-RuntimeException
+Exception
 {
 static
 final

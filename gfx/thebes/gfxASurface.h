@@ -39,10 +39,6 @@ nsThreadUtils
 .
 h
 "
-#
-define
-MOZ_DUMP_PAINTING
-1
 typedef
 struct
 _cairo_surface
