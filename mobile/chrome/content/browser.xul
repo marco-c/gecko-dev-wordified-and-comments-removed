@@ -996,6 +996,11 @@ tablet_sidebar
 "
 true
 "
+persist
+=
+"
+tablet_sidebar
+"
 /
 >
 <
