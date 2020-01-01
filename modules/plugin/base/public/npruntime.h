@@ -55,10 +55,10 @@ _NPString
 const
 NPUTF8
 *
-utf8characters
+UTF8Characters
 ;
 uint32_t
-utf8length
+UTF8Length
 ;
 }
 NPString

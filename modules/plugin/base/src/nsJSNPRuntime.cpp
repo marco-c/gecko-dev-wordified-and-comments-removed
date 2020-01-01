@@ -1204,11 +1204,11 @@ utf16String
 s
 -
 >
-utf8characters
+UTF8Characters
 s
 -
 >
-utf8length
+UTF8Length
 )
 ;
 JSString
