@@ -144,10 +144,6 @@ nsIDOMSVGFilters
 .
 idl
 \
-nsIDOMSVGForeignObjectElem
-.
-idl
-\
 nsIDOMSVGGElement
 .
 idl

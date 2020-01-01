@@ -923,10 +923,6 @@ ClientRectList
 )
 DOMCI_CLASS
 (
-SVGForeignObjectElement
-)
-DOMCI_CLASS
-(
 XULCommandEvent
 )
 DOMCI_CLASS
