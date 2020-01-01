@@ -27,7 +27,7 @@ isWritable
 ;
 }
 function
-nsUnkownContentTypeDialogProgressListener
+nsUnknownContentTypeDialogProgressListener
 (
 aHelperAppDialog
 )
@@ -39,7 +39,7 @@ helperAppDlg
 aHelperAppDialog
 ;
 }
-nsUnkownContentTypeDialogProgressListener
+nsUnknownContentTypeDialogProgressListener
 .
 prototype
 =
@@ -680,7 +680,7 @@ var
 progressListener
 =
 new
-nsUnkownContentTypeDialogProgressListener
+nsUnknownContentTypeDialogProgressListener
 (
 this
 )
@@ -1306,7 +1306,7 @@ validateLeafName
 :
 function
 (
-aLocalFile
+aLocalFolder
 aLeafName
 aFileExt
 )
@@ -1315,12 +1315,12 @@ if
 (
 !
 (
-aLocalFile
+aLocalFolder
 &
 &
 isUsableDirectory
 (
-aLocalFile
+aLocalFolder
 )
 )
 )
@@ -1370,7 +1370,7 @@ aFileExt
 "
 )
 ;
-aLocalFile
+aLocalFolder
 .
 append
 (
@@ -1384,7 +1384,7 @@ DownloadPaths
 .
 createNiceUniqueFile
 (
-aLocalFile
+aLocalFolder
 )
 ;
 #
@@ -1456,7 +1456,7 @@ remove
 false
 )
 ;
-aLocalFile
+aLocalFolder
 .
 leafName
 =
@@ -1470,7 +1470,7 @@ DownloadPaths
 .
 createNiceUniqueFile
 (
-aLocalFile
+aLocalFolder
 )
 ;
 }
