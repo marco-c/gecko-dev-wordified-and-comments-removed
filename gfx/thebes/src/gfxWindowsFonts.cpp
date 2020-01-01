@@ -3108,7 +3108,7 @@ cx
 ;
 if
 (
-GetExtentPoint32
+GetTextExtentPoint32
 (
 dc
 "
