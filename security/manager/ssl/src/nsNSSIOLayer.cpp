@@ -683,6 +683,8 @@ nsNSSSocketInfo
 :
 SetHandshakeCompleted
 (
+bool
+aResumedSession
 )
 {
 if
@@ -707,6 +709,18 @@ TimeStamp
 Now
 (
 )
+)
+;
+Telemetry
+:
+:
+Accumulate
+(
+Telemetry
+:
+:
+SSL_RESUMED_SESSION
+aResumedSession
 )
 ;
 mHandshakeCompleted

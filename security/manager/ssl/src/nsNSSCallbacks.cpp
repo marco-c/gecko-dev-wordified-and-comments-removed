@@ -3239,11 +3239,19 @@ higher
 >
 secret
 ;
-if
+bool
+isResumedSession
+=
+!
 (
 infoObject
+-
+>
+GetFirstServerHelloReceived
+(
 )
-{
+)
+;
 infoObject
 -
 >
@@ -3251,7 +3259,6 @@ SetFirstServerHelloReceived
 (
 )
 ;
-}
 nsSSLIOLayerHelpers
 &
 ioLayerHelpers
@@ -4102,6 +4109,7 @@ infoObject
 >
 SetHandshakeCompleted
 (
+isResumedSession
 )
 ;
 }
