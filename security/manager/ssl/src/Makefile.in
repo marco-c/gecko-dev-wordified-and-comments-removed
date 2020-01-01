@@ -319,10 +319,6 @@ nsCertificatePrincipal
 .
 cpp
 \
-SharedSSLState
-.
-cpp
-\
 (
 NULL
 )
