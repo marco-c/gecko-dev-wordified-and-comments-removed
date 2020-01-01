@@ -1118,6 +1118,18 @@ argv
 0
 ]
         
+tempPort
+=
+options
+.
+httpPort
+        
+tempSSL
+=
+options
+.
+sslPort
+        
 options
 =
 MochitestOptions
@@ -1134,6 +1146,18 @@ options
 app
 =
 temp
+        
+options
+.
+httpPort
+=
+tempPort
+        
+options
+.
+sslPort
+=
+tempSSL
         
 if
 (
@@ -1162,6 +1186,17 @@ address
           
 return
 None
+        
+else
+:
+          
+options
+.
+webServer
+=
+options
+.
+remoteWebServer
         
 if
 (
@@ -1494,6 +1529,7 @@ options
 .
 profilePath
         
+if
 self
 .
 _dm
@@ -1506,6 +1542,26 @@ profilePath
 self
 .
 remoteProfile
+)
+=
+=
+None
+:
+            
+raise
+devicemanager
+.
+FileError
+(
+"
+Unable
+to
+copy
+profile
+to
+device
+.
+"
 )
         
 options
@@ -1608,8 +1664,16 @@ chrome
 /
 "
 +
+os
+.
+path
+.
+basename
+(
 filename
+)
         
+if
 self
 .
 _dm
@@ -1618,6 +1682,27 @@ pushFile
 (
 filename
 manifest
+)
+=
+=
+None
+:
+            
+raise
+devicemanager
+.
+FileError
+(
+"
+Unable
+to
+install
+Chrome
+files
+on
+device
+.
+"
 )
         
 return
@@ -1803,7 +1888,7 @@ exit
     
 auto
 .
-setServerPort
+setServerInfo
 (
 options
 .
