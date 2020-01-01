@@ -754,16 +754,6 @@ GetThebesComputationalSurface
 )
 ;
 static
-PRBool
-IsSingular
-(
-const
-cairo_matrix_t
-*
-aMatrix
-)
-;
-static
 cairo_matrix_t
 ConvertSVGMatrixToCairo
 (
