@@ -10619,9 +10619,6 @@ EqualsLiteral
 )
 )
 ;
-#
-ifdef
-DEBUG
 PRBool
 purgeCaches
 =
@@ -10652,8 +10649,6 @@ purgeCaches
 *
 aCachesOK
 ;
-#
-endif
 return
 PR_TRUE
 ;
@@ -15067,9 +15062,6 @@ nsILocalFile
 >
 flagFile
 ;
-#
-ifdef
-DEBUG
 rv
 =
 NS_ERROR_FILE_NOT_FOUND
@@ -15126,8 +15118,6 @@ FILE_INVALIDATE_CACHES
 )
 ;
 }
-#
-endif
 PRBool
 cachesOK
 ;
@@ -15281,9 +15271,6 @@ directory
 )
 ;
 }
-#
-ifdef
-DEBUG
 if
 (
 flagFile
@@ -15298,8 +15285,6 @@ PR_TRUE
 )
 ;
 }
-#
-endif
 PRBool
 appInitiatedRestart
 =
