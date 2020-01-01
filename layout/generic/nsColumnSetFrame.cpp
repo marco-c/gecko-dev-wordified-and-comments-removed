@@ -3214,8 +3214,9 @@ PresContext
 )
 -
 >
-HasPendingInterrupt
+CheckForInterrupt
 (
+this
 )
 )
 {

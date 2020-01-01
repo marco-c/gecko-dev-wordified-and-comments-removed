@@ -728,8 +728,9 @@ kidNeedsReflow
 aPresContext
 -
 >
-HasPendingInterrupt
+CheckForInterrupt
 (
+aDelegatingFrame
 )
 )
 {
