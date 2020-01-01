@@ -518,8 +518,13 @@ length
 )
 ;
 }
+mozilla
+:
+:
+RefPtr
+<
 Mappable
-*
+>
 mappable
 ;
 }
@@ -1372,9 +1377,6 @@ __wrap_cxa_finalize
 (
 this
 )
-;
-delete
-mappable
 ;
 ElfLoader
 :

@@ -26,9 +26,6 @@ Elfxx
 h
 "
 class
-Mappable
-;
-class
 CustomElf
 :
 public
@@ -373,8 +370,13 @@ addr
 )
 ;
 }
+mozilla
+:
+:
+RefPtr
+<
 Mappable
-*
+>
 mappable
 ;
 MappedPtr
