@@ -475,6 +475,10 @@ mWorkerLoop
 bool
 mChild
 ;
+CancelableTask
+*
+mChannelErrorTask
+;
 }
 ;
 }
