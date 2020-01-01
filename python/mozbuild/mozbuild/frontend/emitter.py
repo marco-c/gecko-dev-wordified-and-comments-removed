@@ -391,6 +391,12 @@ ASFILES
 ASFILES
 '
             
+CMMSRCS
+=
+'
+CMMSRCS
+'
+            
 CPPSRCS
 =
 '
