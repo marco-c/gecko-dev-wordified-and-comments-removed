@@ -6901,6 +6901,9 @@ spec
 ;
 uint32_t
 specHash
+;
+nsresult
+res
 =
 baseURI
 -
@@ -6914,7 +6917,7 @@ if
 (
 NS_SUCCEEDED
 (
-specHash
+res
 )
 )
 specHash
@@ -6925,6 +6928,17 @@ mozilla
 HashString
 (
 spec
+)
+;
+else
+specHash
+=
+static_cast
+<
+uint32_t
+>
+(
+res
 )
 ;
 return
