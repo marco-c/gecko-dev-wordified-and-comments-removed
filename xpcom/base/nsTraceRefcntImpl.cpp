@@ -397,7 +397,7 @@ PLHashTable
 gSerialNumbers
 ;
 static
-int32_t
+intptr_t
 gNextSerialNumber
 ;
 static
@@ -506,7 +506,7 @@ nullptr
 struct
 serialNumberRecord
 {
-int32_t
+intptr_t
 serialNumber
 ;
 int32_t
@@ -2437,7 +2437,7 @@ FILE
 aClosure
 "
 %
-d
+ld
 %
 p
 (
@@ -2485,7 +2485,7 @@ FILE
 aClosure
 "
 %
-d
+ld
 %
 p
 (
@@ -2996,7 +2996,7 @@ he
 ;
 }
 static
-int32_t
+intptr_t
 GetSerialNumber
 (
 void
@@ -3034,9 +3034,6 @@ hep
 )
 {
 return
-int32_t
-(
-(
 reinterpret_cast
 <
 serialNumberRecord
@@ -3051,11 +3048,9 @@ hep
 >
 value
 )
-)
 -
 >
 serialNumber
-)
 ;
 }
 else
@@ -3301,7 +3296,7 @@ static
 bool
 LogThisObj
 (
-int32_t
+intptr_t
 aSerialNumber
 )
 {
@@ -3317,9 +3312,7 @@ const
 void
 *
 )
-(
 aSerialNumber
-)
 )
 ;
 }
@@ -4510,12 +4503,12 @@ cm
 '
 ;
 }
-int32_t
+intptr_t
 top
 =
 0
 ;
-int32_t
+intptr_t
 bottom
 =
 0
@@ -4583,7 +4576,7 @@ top
 }
 for
 (
-int32_t
+intptr_t
 serialno
 =
 bottom
@@ -4619,7 +4612,7 @@ fprintf
 stdout
 "
 %
-d
+ld
 "
 serialno
 )
@@ -5148,7 +5141,7 @@ aClazz
 )
 )
 ;
-int32_t
+intptr_t
 serialno
 =
 0
@@ -5264,7 +5257,7 @@ s
 %
 08X
 %
-d
+ld
 Create
 \
 n
@@ -5331,7 +5324,7 @@ s
 %
 08X
 %
-d
+ld
 AddRef
 %
 d
@@ -5454,7 +5447,7 @@ aClazz
 )
 )
 ;
-int32_t
+intptr_t
 serialno
 =
 0
@@ -5581,7 +5574,7 @@ s
 %
 08X
 %
-d
+ld
 Release
 %
 d
@@ -5643,7 +5636,7 @@ s
 %
 08X
 %
-d
+ld
 Destroy
 \
 n
@@ -5776,7 +5769,7 @@ aType
 )
 )
 ;
-int32_t
+intptr_t
 serialno
 =
 0
@@ -5837,7 +5830,7 @@ s
 %
 08X
 %
-d
+ld
 Ctor
 (
 %
@@ -5955,7 +5948,7 @@ aType
 )
 )
 ;
-int32_t
+intptr_t
 serialno
 =
 0
@@ -6021,7 +6014,7 @@ s
 %
 08X
 %
-d
+ld
 Dtor
 (
 %
@@ -6108,7 +6101,7 @@ gSerialNumbers
 return
 ;
 }
-int32_t
+intptr_t
 serialno
 =
 GetSerialNumber
@@ -6201,7 +6194,7 @@ n
 %
 08X
 %
-d
+ld
 nsCOMPtrAddRef
 %
 d
@@ -6300,7 +6293,7 @@ gSerialNumbers
 return
 ;
 }
-int32_t
+intptr_t
 serialno
 =
 GetSerialNumber
@@ -6393,7 +6386,7 @@ n
 %
 08X
 %
-d
+ld
 nsCOMPtrRelease
 %
 d
