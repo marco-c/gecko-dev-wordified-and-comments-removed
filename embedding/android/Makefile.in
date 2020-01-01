@@ -746,6 +746,14 @@ notification_progress_text
 .
 xml
 \
+res
+/
+layout
+/
+notification_icon_text
+.
+xml
+\
 (
 NULL
 )

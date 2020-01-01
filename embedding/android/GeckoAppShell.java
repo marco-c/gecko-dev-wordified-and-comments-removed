@@ -4847,6 +4847,10 @@ e
 )
 {
 }
+imageUri
+=
+null
+;
 }
 int
 notificationID
@@ -4960,6 +4964,13 @@ mAppContext
 aAlertTitle
 aAlertText
 contentIntent
+)
+;
+notification
+.
+setCustomIcon
+(
+imageUri
 )
 ;
 Intent
