@@ -7,6 +7,7 @@ h
 "
 class
 nsVersionComparatorImpl
+MOZ_FINAL
 :
 public
 nsIVersionComparator

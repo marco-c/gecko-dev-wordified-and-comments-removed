@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -53,6 +62,7 @@ nsExceptionManager
 ;
 class
 nsExceptionService
+MOZ_FINAL
 :
 public
 nsIExceptionService

@@ -179,6 +179,7 @@ mKey
 ;
 class
 nsExceptionManager
+MOZ_FINAL
 :
 public
 nsIExceptionManager

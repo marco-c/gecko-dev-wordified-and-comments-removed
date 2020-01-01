@@ -391,6 +391,7 @@ end
 }
 class
 nsIncrementalDownload
+MOZ_FINAL
 :
 public
 nsIIncrementalDownload
