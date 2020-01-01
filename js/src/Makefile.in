@@ -946,10 +946,14 @@ SunOS
 )
 ifneq
 (
+86
+(
+findstring
+86
 (
 OS_TEST
 )
-i86pc
+)
 )
 ifndef
 GNU_CC
