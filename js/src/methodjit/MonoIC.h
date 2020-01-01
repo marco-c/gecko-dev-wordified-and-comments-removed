@@ -416,6 +416,17 @@ isNew
 ;
 #
 endif
+void
+PurgeMICs
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 }
 }
 }
