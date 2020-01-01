@@ -472,6 +472,8 @@ AssertH
 sp
 <
 FALLBACK_QSORT_STACK_SIZE
+-
+1
 1004
 )
 ;
@@ -3730,6 +3732,8 @@ AssertH
 sp
 <
 MAIN_QSORT_STACK_SIZE
+-
+2
 1001
 )
 ;
