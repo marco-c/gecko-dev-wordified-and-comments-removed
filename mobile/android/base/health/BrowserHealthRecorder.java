@@ -3477,11 +3477,12 @@ recordSearch
 (
 message
 .
-getString
+optString
 (
 "
 identifier
 "
+null
 )
 message
 .
