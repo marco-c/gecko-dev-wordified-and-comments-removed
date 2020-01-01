@@ -19,6 +19,8 @@ VariablePassthru
 Exports
     
 ReaderSummary
+    
+XpcshellManifests
 )
 from
 .
@@ -505,6 +507,28 @@ Exports
 (
 sandbox
 exports
+)
+        
+for
+manifest
+in
+sandbox
+.
+get
+(
+'
+XPCSHELL_TESTS_MANIFESTS
+'
+[
+]
+)
+:
+            
+yield
+XpcshellManifests
+(
+sandbox
+manifest
 )
     
 def
