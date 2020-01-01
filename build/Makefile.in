@@ -1881,6 +1881,10 @@ endif
 GARBAGE
 +
 =
+(
+srcdir
+)
+/
 automationutils
 .
 pyc
