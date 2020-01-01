@@ -418,7 +418,6 @@ ifneq
 filter
 OS2
 WINNT
-WINCE
 (
 OS_ARCH
 )

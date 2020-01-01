@@ -1152,14 +1152,6 @@ kEXSLTMathNS
 }
 }
 ;
-#
-ifdef
-WINCE
-#
-undef
-DIFFERENCE
-#
-endif
 class
 txEXSLTFunctionCall
 :

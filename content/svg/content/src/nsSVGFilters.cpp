@@ -250,13 +250,8 @@ defined
 XP_WIN
 )
 #
-ifndef
-WINCE
-#
 undef
 LoadImage
-#
-endif
 #
 endif
 #
