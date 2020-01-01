@@ -4070,8 +4070,12 @@ nsSVGPaintServerFrame
 *
 ps
 =
+nsSVGEffects
+:
+:
 GetPaintServer
 (
+this
 &
 style
 -
@@ -4127,7 +4131,7 @@ strokePattern
 {
 nscolor
 color
-;
+=
 nsSVGUtils
 :
 :
@@ -4142,10 +4146,6 @@ nsStyleSVG
 :
 :
 mStroke
-&
-opacity
-&
-color
 )
 ;
 strokePattern

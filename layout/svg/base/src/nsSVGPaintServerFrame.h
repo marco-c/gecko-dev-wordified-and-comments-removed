@@ -133,7 +133,7 @@ SetupPaintServer
 gfxContext
 *
 aContext
-nsSVGGeometryFrame
+nsIFrame
 *
 aSource
 nsStyleSVGPaint
