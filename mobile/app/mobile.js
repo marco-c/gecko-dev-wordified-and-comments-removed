@@ -2540,6 +2540,16 @@ pref
 "
 browser
 .
+enable_click_image_resizing
+"
+false
+)
+;
+pref
+(
+"
+browser
+.
 link
 .
 open_external
