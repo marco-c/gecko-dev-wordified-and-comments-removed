@@ -717,3 +717,10 @@ p3
 bug498827
 .
 patch
+patch
+-
+p3
+<
+bug498855
+.
+patch
