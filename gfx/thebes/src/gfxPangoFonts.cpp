@@ -32,6 +32,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

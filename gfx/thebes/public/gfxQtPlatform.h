@@ -18,6 +18,13 @@ nsDataHashtable
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 typedef
 struct
 FT_LibraryRec_
@@ -100,7 +107,10 @@ const
 nsACString
 &
 aGenericFamily
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aListOfFonts
 )

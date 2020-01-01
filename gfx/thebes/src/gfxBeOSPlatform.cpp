@@ -33,6 +33,13 @@ gfxBeOSSurface
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 gfxFontconfigUtils
 *
 gfxPlatformGtk
@@ -203,7 +210,10 @@ const
 nsACString
 &
 aGenericFamily
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aListOfFonts
 )

@@ -226,7 +226,10 @@ const
 nsACString
 &
 aGenericFamily
-nsStringArray
+nsTArray
+<
+nsString
+>
 &
 aListOfFonts
 )
