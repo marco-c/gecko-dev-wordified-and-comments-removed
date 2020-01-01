@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsMIMEInfoImpl
-.
-h
-"
-#
-include
-"
 nsIMIMEService
 .
 h
