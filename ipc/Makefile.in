@@ -420,6 +420,9 @@ DIRS
 =
 chromium
 glue
+TOOL_DIRS
+=
+app
 include
 (
 topsrcdir

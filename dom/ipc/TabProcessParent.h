@@ -24,7 +24,7 @@ tabs
 class
 TabProcessParent
 :
-private
+public
 mozilla
 :
 :
@@ -41,11 +41,6 @@ TabProcessParent
 ;
 ~
 TabProcessParent
-(
-)
-;
-bool
-Launch
 (
 )
 ;
@@ -91,13 +86,6 @@ GetProcessEvent
 }
 private
 :
-static
-char
-const
-*
-const
-kTabProcessName
-;
 DISALLOW_EVIL_CONSTRUCTORS
 (
 TabProcessParent
