@@ -5500,7 +5500,13 @@ aX
 0
 |
 |
+static_cast
+<
+size_t
+>
+(
 aX
+)
 >
 =
 ioWidth
@@ -5511,7 +5517,13 @@ aY
 0
 |
 |
+static_cast
+<
+size_t
+>
+(
 aY
+)
 >
 =
 ioHeight
