@@ -2825,12 +2825,6 @@ this
 .
 inputField
 ;
-input
-.
-hidden
-=
-false
-;
 var
 box
 =
@@ -2990,6 +2984,12 @@ outx
 .
 value
 )
+;
+input
+.
+hidden
+=
+false
 ;
 input
 .
