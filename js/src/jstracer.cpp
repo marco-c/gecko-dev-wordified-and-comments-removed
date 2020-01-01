@@ -5995,7 +5995,7 @@ toDouble
 static
 inline
 JSValueType
-GetPromotedType
+getPromotedType
 (
 const
 Value
@@ -48275,7 +48275,7 @@ cond
 JSValueType
 ltag
 =
-GetPromotedType
+getPromotedType
 (
 l
 )
@@ -48285,7 +48285,7 @@ if
 ltag
 !
 =
-GetPromotedType
+getPromotedType
 (
 r
 )
@@ -48623,13 +48623,13 @@ NULL
 ;
 if
 (
-GetPromotedType
+getPromotedType
 (
 l
 )
 =
 =
-GetPromotedType
+getPromotedType
 (
 r
 )
