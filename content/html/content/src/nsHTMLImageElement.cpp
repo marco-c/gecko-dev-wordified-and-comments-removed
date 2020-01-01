@@ -1230,11 +1230,9 @@ aTabIndex
 {
 int32_t
 tabIndex
-;
-GetTabIndex
+=
+TabIndex
 (
-&
-tabIndex
 )
 ;
 if
