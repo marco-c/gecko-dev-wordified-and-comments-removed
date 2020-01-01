@@ -5083,7 +5083,13 @@ JSObject
 *
 proto
 =
-NewObject
+NewNonFunction
+<
+WithProto
+:
+:
+Class
+>
 (
 cx
 &
