@@ -962,8 +962,11 @@ cleared
 "
 )
 ;
-do_check_eq
+do_check_throws
 (
+function
+(
+)
 Svc
 .
 Annos
@@ -977,8 +980,9 @@ bookmarkProperties
 description
 "
 )
-"
-"
+Cr
+.
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 do_check_eq
@@ -991,8 +995,7 @@ getItemTitle
 (
 bmk1_id
 )
-"
-"
+null
 )
 ;
 do_check_eq
