@@ -1469,6 +1469,13 @@ kRadialGradientSizeKTable
 static
 const
 PRInt32
+kRadialGradientLegacySizeKTable
+[
+]
+;
+static
+const
+PRInt32
 kResizeKTable
 [
 ]

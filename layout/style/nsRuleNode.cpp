@@ -3815,6 +3815,7 @@ gradient
 "
 )
 ;
+const
 nsCSSValueGradient
 *
 gradient
@@ -3838,7 +3839,9 @@ if
 gradient
 -
 >
-mRadialShape
+GetRadialShape
+(
+)
 .
 GetUnit
 (
@@ -3855,7 +3858,9 @@ mShape
 gradient
 -
 >
-mRadialShape
+GetRadialShape
+(
+)
 .
 GetIntValue
 (
@@ -3869,7 +3874,9 @@ NS_ASSERTION
 gradient
 -
 >
-mRadialShape
+GetRadialShape
+(
+)
 .
 GetUnit
 (
@@ -3898,7 +3905,9 @@ if
 gradient
 -
 >
-mRadialSize
+GetRadialSize
+(
+)
 .
 GetUnit
 (
@@ -3915,7 +3924,9 @@ mSize
 gradient
 -
 >
-mRadialSize
+GetRadialSize
+(
+)
 .
 GetIntValue
 (
@@ -3929,7 +3940,9 @@ NS_ASSERTION
 gradient
 -
 >
-mRadialSize
+GetRadialSize
+(
+)
 .
 GetUnit
 (
@@ -3961,7 +3974,9 @@ NS_ASSERTION
 gradient
 -
 >
-mRadialShape
+GetRadialShape
+(
+)
 .
 GetUnit
 (
@@ -3983,7 +3998,9 @@ NS_ASSERTION
 gradient
 -
 >
-mRadialSize
+GetRadialSize
+(
+)
 .
 GetUnit
 (
@@ -4220,6 +4237,7 @@ i
 nsStyleGradientStop
 stop
 ;
+const
 nsCSSValueGradientStop
 &
 valueStop
