@@ -8,13 +8,6 @@ h
 #
 include
 "
-jswrapper
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Endian
@@ -34,6 +27,13 @@ h
 include
 "
 jsdate
+.
+h
+"
+#
+include
+"
+jswrapper
 .
 h
 "

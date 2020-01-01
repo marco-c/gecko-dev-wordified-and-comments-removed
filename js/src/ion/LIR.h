@@ -61,7 +61,7 @@ include
 "
 ion
 /
-MIRGraph
+MIR
 .
 h
 "
@@ -70,7 +70,7 @@ include
 "
 ion
 /
-MIR
+MIRGraph
 .
 h
 "

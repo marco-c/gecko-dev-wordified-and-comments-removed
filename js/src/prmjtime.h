@@ -6,6 +6,15 @@ define
 prmjtime_h
 #
 include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
+include
 <
 time
 .
