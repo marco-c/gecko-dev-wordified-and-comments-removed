@@ -15039,6 +15039,9 @@ message
 if
 (
 message
+&
+&
+message
 .
 messageClass
 =
