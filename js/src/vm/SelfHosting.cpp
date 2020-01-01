@@ -2106,7 +2106,7 @@ JSBool
 js
 :
 :
-intrinsic_UnsafeSetElement
+intrinsic_UnsafePutElements
 (
 JSContext
 *
@@ -3191,9 +3191,9 @@ intrinsic_RuntimeDefaultLocale
 JS_FN
 (
 "
-UnsafeSetElement
+UnsafePutElements
 "
-intrinsic_UnsafeSetElement
+intrinsic_UnsafePutElements
 3
 0
 )

@@ -2253,7 +2253,7 @@ callInfo
 )
 ;
 InliningStatus
-inlineUnsafeSetElement
+inlineUnsafePutElements
 (
 CallInfo
 &

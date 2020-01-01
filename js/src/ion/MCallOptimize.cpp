@@ -570,10 +570,10 @@ if
 native
 =
 =
-intrinsic_UnsafeSetElement
+intrinsic_UnsafePutElements
 )
 return
-inlineUnsafeSetElement
+inlineUnsafePutElements
 (
 callInfo
 )
@@ -5589,7 +5589,7 @@ InliningStatus
 IonBuilder
 :
 :
-inlineUnsafeSetElement
+inlineUnsafePutElements
 (
 CallInfo
 &

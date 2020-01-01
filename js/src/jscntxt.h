@@ -8199,7 +8199,7 @@ vp
 )
 ;
 JSBool
-intrinsic_UnsafeSetElement
+intrinsic_UnsafePutElements
 (
 JSContext
 *
