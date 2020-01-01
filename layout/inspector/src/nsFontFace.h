@@ -36,11 +36,11 @@ nsFontFace
 gfxFontEntry
 *
 aFontEntry
+gfxFontGroup
+*
+aFontGroup
 uint8_t
 aMatchInfo
-nsCSSFontFaceRule
-*
-aRule
 )
 ;
 virtual
@@ -87,9 +87,9 @@ mFontEntry
 ;
 nsRefPtr
 <
-nsCSSFontFaceRule
+gfxFontGroup
 >
-mRule
+mFontGroup
 ;
 uint8_t
 mMatchType

@@ -217,6 +217,9 @@ aBuffer
 void
 CheckForBrokenFont
 (
+gfxFontFamily
+*
+aFamily
 )
 ;
 virtual
@@ -306,7 +309,7 @@ gfxFT2FontList
 )
 ;
 virtual
-gfxFontEntry
+gfxFontFamily
 *
 GetDefaultFont
 (
@@ -314,9 +317,6 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-&
-aNeedsBold
 )
 ;
 virtual

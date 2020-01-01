@@ -553,7 +553,7 @@ mNeedFullnamePostscriptNames
 ;
 }
 virtual
-gfxFontEntry
+gfxFontFamily
 *
 GetDefaultFont
 (
@@ -561,9 +561,6 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-&
-aNeedsBold
 )
 =
 0
@@ -717,7 +714,6 @@ void
 userArg
 )
 ;
-virtual
 gfxFontEntry
 *
 CommonFontFallback
@@ -731,6 +727,10 @@ const
 gfxFontStyle
 *
 aMatchStyle
+gfxFontFamily
+*
+*
+aMatchedFamily
 )
 ;
 virtual
@@ -750,6 +750,10 @@ aMatchStyle
 uint32_t
 &
 aCmapCount
+gfxFontFamily
+*
+*
+aMatchedFamily
 )
 ;
 virtual
@@ -957,7 +961,10 @@ mPrefFonts
 gfxSparseBitSet
 mCodepointsWithNoFonts
 ;
-nsString
+nsRefPtr
+<
+gfxFontFamily
+>
 mReplacementCharFallbackFamily
 ;
 nsTHashtable

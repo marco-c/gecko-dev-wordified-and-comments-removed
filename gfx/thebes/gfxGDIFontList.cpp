@@ -4465,7 +4465,7 @@ NS_ConvertUTF16toUTF8
 aProxyEntry
 -
 >
-FamilyName
+Name
 (
 )
 )
@@ -4727,7 +4727,7 @@ return
 fe
 ;
 }
-gfxFontEntry
+gfxFontFamily
 *
 gfxGDIFontList
 :
@@ -4738,9 +4738,6 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-&
-aNeedsBold
 )
 {
 HGDIOBJ
@@ -4793,11 +4790,9 @@ resolvedName
 )
 {
 return
-FindFontForFamily
+FindFamily
 (
 resolvedName
-aStyle
-aNeedsBold
 )
 ;
 }
@@ -4856,11 +4851,9 @@ resolvedName
 )
 {
 return
-FindFontForFamily
+FindFamily
 (
 resolvedName
-aStyle
-aNeedsBold
 )
 ;
 }

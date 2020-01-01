@@ -1183,7 +1183,7 @@ InitFontList
 )
 ;
 virtual
-gfxFontEntry
+gfxFontFamily
 *
 GetDefaultFont
 (
@@ -1191,9 +1191,6 @@ const
 gfxFontStyle
 *
 aStyle
-bool
-&
-aNeedsBold
 )
 ;
 virtual
