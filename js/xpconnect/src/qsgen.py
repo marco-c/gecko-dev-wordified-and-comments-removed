@@ -2375,10 +2375,7 @@ n
 if
 (
 !
-JS
-:
-:
-ToInt32
+JS_ValueToECMAInt32
 (
 cx
 {
@@ -2504,10 +2501,7 @@ n
 if
 (
 !
-JS
-:
-:
-ToInt32
+JS_ValueToECMAInt32
 (
 cx
 {

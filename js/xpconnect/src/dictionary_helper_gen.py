@@ -2531,10 +2531,7 @@ write
 "
 NS_ENSURE_STATE
 (
-JS
-:
-:
-ToInt32
+JS_ValueToECMAInt32
 (
 aCx
 v
@@ -2626,10 +2623,7 @@ write
 "
 NS_ENSURE_STATE
 (
-JS
-:
-:
-ToInt32
+JS_ValueToECMAInt32
 (
 aCx
 v
