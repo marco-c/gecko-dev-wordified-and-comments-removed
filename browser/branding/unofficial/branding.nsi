@@ -460,7 +460,7 @@ modified
 define
 BrandFullNameInternal
 "
-Shiretoko
+Namoroka
 "
 !
 define

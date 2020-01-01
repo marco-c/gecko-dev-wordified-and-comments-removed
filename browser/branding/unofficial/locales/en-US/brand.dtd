@@ -3,7 +3,7 @@
 ENTITY
 brandShortName
 "
-Shiretoko
+Namoroka
 "
 >
 <
@@ -11,7 +11,7 @@ Shiretoko
 ENTITY
 brandFullName
 "
-Shiretoko
+Namoroka
 "
 >
 <
@@ -78,7 +78,7 @@ org
 /
 projects
 /
-shiretoko
+namoroka
 /
 releases
 /
