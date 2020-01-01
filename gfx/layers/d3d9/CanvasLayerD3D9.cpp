@@ -429,13 +429,6 @@ MakeCurrent
 (
 )
 ;
-mGLContext
--
->
-fFlush
-(
-)
-;
 PRUint32
 currentFramebuffer
 =
