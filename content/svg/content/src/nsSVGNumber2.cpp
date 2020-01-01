@@ -362,6 +362,10 @@ mBaseVal
 =
 val
 ;
+mIsBaseSet
+=
+PR_TRUE
+;
 if
 (
 !
@@ -435,6 +439,10 @@ aDoSetAttr
 mBaseVal
 =
 aValue
+;
+mIsBaseSet
+=
+PR_TRUE
 ;
 if
 (

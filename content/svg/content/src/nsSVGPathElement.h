@@ -67,10 +67,6 @@ friend
 class
 nsSVGPathFrame
 ;
-friend
-class
-nsSVGTextPathFrame
-;
 protected
 :
 friend
@@ -238,6 +234,11 @@ nsGkAtoms
 d
 ;
 }
+gfxFloat
+GetScale
+(
+)
+;
 protected
 :
 virtual
