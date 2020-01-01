@@ -76,7 +76,7 @@ aRewriteEncodingDeclaration
 NS_IMETHOD
 AppendText
 (
-nsIDOMText
+nsIContent
 *
 aText
 PRInt32
@@ -91,7 +91,7 @@ aStr
 NS_IMETHOD
 AppendDocumentStart
 (
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 nsAString
@@ -120,7 +120,7 @@ virtual
 void
 AppendEndOfElementStart
 (
-nsIDOMElement
+nsIContent
 *
 aOriginalElement
 nsIAtom
@@ -140,7 +140,7 @@ AfterElementStart
 nsIContent
 *
 aContent
-nsIDOMElement
+nsIContent
 *
 aOriginalElement
 nsAString
@@ -256,7 +256,7 @@ SerializeAttributes
 nsIContent
 *
 aContent
-nsIDOMElement
+nsIContent
 *
 aOriginalElement
 nsAString
@@ -281,7 +281,7 @@ aAddNSAttr
 PRBool
 IsFirstChildOfOL
 (
-nsIDOMElement
+nsIContent
 *
 aElement
 )
@@ -289,7 +289,7 @@ aElement
 void
 SerializeLIValueAttribute
 (
-nsIDOMElement
+nsIContent
 *
 aElement
 nsAString
