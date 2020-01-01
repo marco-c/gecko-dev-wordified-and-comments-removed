@@ -1501,14 +1501,6 @@ lir
 )
 ;
 bool
-visitOutOfLineLoadTypedArray
-(
-OutOfLineLoadTypedArray
-*
-ool
-)
-;
-bool
 visitCallIteratorStart
 (
 LCallIteratorStart

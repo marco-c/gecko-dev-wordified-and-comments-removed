@@ -19185,12 +19185,12 @@ return
 AliasSet
 :
 :
-Store
+Load
 (
 AliasSet
 :
 :
-Any
+TypedArrayElement
 )
 ;
 }

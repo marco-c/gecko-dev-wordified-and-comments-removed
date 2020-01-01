@@ -33806,12 +33806,6 @@ load
 )
 ;
 return
-resumeAfter
-(
-load
-)
-&
-&
 pushTypeBarrier
 (
 load
