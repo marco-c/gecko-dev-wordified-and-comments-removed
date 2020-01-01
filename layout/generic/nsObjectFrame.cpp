@@ -6279,6 +6279,14 @@ height
 if
 (
 isVisible
+&
+&
+aBuilder
+-
+>
+ShouldSyncDecodeImages
+(
+)
 )
 {
 #
