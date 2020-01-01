@@ -171,16 +171,16 @@ Freetype
 .
 "
 )
-NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
+NS_MEMORY_REPORTER_MALLOC_SIZEOF_ON_ALLOC_FUN
 (
-FreetypeMallocSizeOfForCounterInc
+FreetypeMallocSizeOfOnAlloc
 "
 freetype
 "
 )
-NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN_UN
+NS_MEMORY_REPORTER_MALLOC_SIZEOF_ON_FREE_FUN
 (
-FreetypeMallocSizeOfForCounterDec
+FreetypeMallocSizeOfOnFree
 )
 static
 void
@@ -205,7 +205,7 @@ size
 sFreetypeMemoryUsed
 +
 =
-FreetypeMallocSizeOfForCounterInc
+FreetypeMallocSizeOfOnAlloc
 (
 p
 )
@@ -228,7 +228,7 @@ p
 sFreetypeMemoryUsed
 -
 =
-FreetypeMallocSizeOfForCounterDec
+FreetypeMallocSizeOfOnFree
 (
 p
 )
@@ -258,7 +258,7 @@ p
 sFreetypeMemoryUsed
 -
 =
-FreetypeMallocSizeOfForCounterDec
+FreetypeMallocSizeOfOnFree
 (
 p
 )
@@ -281,7 +281,7 @@ pnew
 sFreetypeMemoryUsed
 +
 =
-FreetypeMallocSizeOfForCounterInc
+FreetypeMallocSizeOfOnAlloc
 (
 pnew
 )
@@ -292,7 +292,7 @@ else
 sFreetypeMemoryUsed
 +
 =
-FreetypeMallocSizeOfForCounterInc
+FreetypeMallocSizeOfOnAlloc
 (
 p
 )

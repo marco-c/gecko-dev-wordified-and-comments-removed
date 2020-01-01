@@ -117,6 +117,17 @@ malloc
 lib
 endif
 ifdef
+MOZ_DMD
+tier_platform_dirs
++
+=
+memory
+/
+replace
+/
+dmd
+endif
+ifdef
 MOZ_TREE_FREETYPE
 tier_platform_staticdirs
 +

@@ -5102,8 +5102,13 @@ defined
 HAVE__UNWIND_BACKTRACE
 )
 #
+ifndef
+_GNU_SOURCE
+#
 define
 _GNU_SOURCE
+#
+endif
 #
 include
 <

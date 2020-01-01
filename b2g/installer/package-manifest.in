@@ -306,6 +306,16 @@ mozalloc
 DLL_SUFFIX
 #
 ifdef
+MOZ_DMD
+BINPATH
+/
+DLL_PREFIX
+dmd
+DLL_SUFFIX
+#
+endif
+#
+ifdef
 XP_MACOSX
 BINPATH
 /

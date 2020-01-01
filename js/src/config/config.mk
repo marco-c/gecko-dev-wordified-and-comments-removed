@@ -1372,6 +1372,8 @@ Handle
 trace
 -
 malloc
+and
+DMD
 in
 optimized
 builds
@@ -1385,8 +1387,15 @@ sane
 callstacks
 .
 #
-ifdef
+ifneq
+(
+(
 NS_TRACE_MALLOC
+)
+(
+MOZ_DMD
+)
+)
 MOZ_OPTIMIZE_FLAGS
 =
 -
@@ -1429,6 +1438,9 @@ endif
 endif
 #
 NS_TRACE_MALLOC
+|
+|
+MOZ_DMD
 endif
 #
 MOZ_DEBUG
@@ -2673,6 +2685,9 @@ MOZ_DEBUG
 (
 NS_TRACE_MALLOC
 )
+(
+MOZ_DMD
+)
 )
 ifndef
 MOZ_NO_DEBUG_RTL
@@ -2696,6 +2711,9 @@ MOZ_DEBUG
 |
 |
 NS_TRACE_MALLOC
+|
+|
+MOZ_DMD
 else
 #
 !
@@ -2716,6 +2734,9 @@ MOZ_DEBUG
 )
 (
 NS_TRACE_MALLOC
+)
+(
+MOZ_DMD
 )
 )
 ifndef
@@ -2740,6 +2761,9 @@ MOZ_DEBUG
 |
 |
 NS_TRACE_MALLOC
+|
+|
+MOZ_DMD
 endif
 #
 USE_STATIC_LIBS
