@@ -971,12 +971,15 @@ STATE_IDLE
 NS_ERROR_IN_PROGRESS
 )
 ;
-nsresult
-rv
+NS_ENSURE_ARG_POINTER
+(
+listener
+)
 ;
 PRBool
 nonBlocking
 ;
+nsresult
 rv
 =
 mStream
