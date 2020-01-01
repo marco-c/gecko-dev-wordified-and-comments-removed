@@ -876,7 +876,8 @@ FrameConstructionItem
 class
 FrameConstructionItemList
 ;
-nsresult
+nsIFrame
+*
 ConstructPageFrame
 (
 nsIPresShell
@@ -891,10 +892,6 @@ aParentFrame
 nsIFrame
 *
 aPrevPageFrame
-nsIFrame
-*
-&
-aPageFrame
 nsIFrame
 *
 &
@@ -3821,7 +3818,8 @@ nsIFrame
 aContinuingFrame
 )
 ;
-nsresult
+nsIFrame
+*
 CreateContinuingTableFrame
 (
 nsIPresShell
@@ -3842,10 +3840,6 @@ aContent
 nsStyleContext
 *
 aStyleContext
-nsIFrame
-*
-*
-aContinuingFrame
 )
 ;
 already_AddRefed
