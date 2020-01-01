@@ -424,6 +424,10 @@ DoorHangerPopup
 .
 java
 \
+EditBookmarkDialog
+.
+java
+\
 Favicons
 .
 java
