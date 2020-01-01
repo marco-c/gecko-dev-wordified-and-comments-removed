@@ -2459,6 +2459,10 @@ ref
 .
 html
 \
+test_bug684671
+.
+html
+\
 test_bug685798
 .
 html
