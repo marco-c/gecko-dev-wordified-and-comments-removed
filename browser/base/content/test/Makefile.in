@@ -625,7 +625,7 @@ browser_bug386835
 .
 js
 \
-bug386835
+dummy_page
 .
 html
 \
@@ -636,6 +636,10 @@ js
 browser_sanitize
 -
 sitepermissions
+.
+js
+\
+browser_bug356571
 .
 js
 \

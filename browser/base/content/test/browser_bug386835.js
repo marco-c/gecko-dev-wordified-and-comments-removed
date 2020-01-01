@@ -20,7 +20,7 @@ content
 /
 test
 /
-bug386835
+dummy_page
 .
 html
 "
