@@ -458,6 +458,14 @@ DocumentRendererParent
 .
 h
 \
+DocumentRendererShmemChild
+.
+h
+\
+DocumentRendererShmemParent
+.
+h
+\
 (
 NULL
 )
