@@ -495,10 +495,6 @@ keysym2ucs
 .
 c
 \
-nsPrintdGTK
-.
-c
-\
 (
 NULL
 )
