@@ -220,10 +220,6 @@ GLScreenBuffer
 .
 h
 "
-typedef
-char
-realGLboolean
-;
 #
 include
 "
