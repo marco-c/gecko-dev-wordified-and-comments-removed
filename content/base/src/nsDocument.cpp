@@ -8156,6 +8156,8 @@ Clear
 ;
 nsresult
 rv
+=
+NS_OK
 ;
 nsStyleSet
 :
@@ -8202,8 +8204,6 @@ mAttrStyleSheet
 )
 ;
 }
-rv
-=
 mAttrStyleSheet
 -
 >
@@ -8227,13 +8227,13 @@ aURI
 this
 )
 ;
-}
 NS_ENSURE_SUCCESS
 (
 rv
 rv
 )
 ;
+}
 mAttrStyleSheet
 -
 >
@@ -8280,8 +8280,6 @@ mStyleAttrStyleSheet
 )
 ;
 }
-rv
-=
 mStyleAttrStyleSheet
 -
 >
@@ -8317,13 +8315,13 @@ aURI
 this
 )
 ;
-}
 NS_ENSURE_SUCCESS
 (
 rv
 rv
 )
 ;
+}
 mStyleAttrStyleSheet
 -
 >

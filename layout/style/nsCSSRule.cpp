@@ -27,10 +27,6 @@ nsCSSRule
 void
 )
 :
-mRefCnt
-(
-0
-)
 mSheet
 (
 nsnull
@@ -52,10 +48,6 @@ nsCSSRule
 aCopy
 )
 :
-mRefCnt
-(
-0
-)
 mSheet
 (
 aCopy
