@@ -326,9 +326,6 @@ nsIFrame
 aContainerLayerFrame
 LayerState
 aLayerState
-LayerManager
-*
-aTempManager
 )
 ;
 Layer
@@ -858,14 +855,11 @@ nsDisplayItem
 *
 mItem
 ;
-nsRefPtr
-<
-LayerManager
->
-mTempLayerManager
-;
 Clip
 mClip
+;
+PRPackedBool
+mInactiveLayer
 ;
 }
 ;
