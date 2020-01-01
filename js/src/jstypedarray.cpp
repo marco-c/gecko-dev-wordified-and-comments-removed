@@ -260,9 +260,6 @@ static
 bool
 ValueIsLength
 (
-JSContext
-*
-cx
 const
 Value
 &
@@ -1624,9 +1621,6 @@ ArrayBufferObject
 :
 addView
 (
-JSContext
-*
-cx
 RawObject
 view
 )
@@ -2352,7 +2346,6 @@ TypedArray
 :
 neuter
 (
-cx
 view
 )
 ;
@@ -4344,9 +4337,6 @@ TypedArray
 :
 isArrayIndex
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -4426,9 +4416,6 @@ TypedArray
 :
 neuter
 (
-JSContext
-*
-cx
 RawObject
 tarray
 )
@@ -4521,7 +4508,6 @@ if
 (
 isArrayIndex
 (
-cx
 tarray
 id
 )
@@ -5727,7 +5713,6 @@ tarray
 {
 copyIndexToValue
 (
-cx
 tarray
 index
 vp
@@ -6029,7 +6014,6 @@ tarray
 {
 copyIndexToValue
 (
-cx
 tarray
 index
 vp
@@ -6466,7 +6450,6 @@ if
 !
 isArrayIndex
 (
-cx
 tarray
 id
 &
@@ -7549,7 +7532,6 @@ buffer
 >
 addView
 (
-cx
 obj
 )
 ;
@@ -7671,7 +7653,6 @@ argc
 |
 ValueIsLength
 (
-cx
 argv
 [
 0
@@ -9857,9 +9838,6 @@ static
 void
 copyIndexToValue
 (
-JSContext
-*
-cx
 JSObject
 *
 tarray
@@ -12200,9 +12178,6 @@ NativeType
 :
 copyIndexToValue
 (
-JSContext
-*
-cx
 JSObject
 *
 tarray
@@ -12246,9 +12221,6 @@ int32_t
 :
 copyIndexToValue
 (
-JSContext
-*
-cx
 JSObject
 *
 tarray
@@ -12287,9 +12259,6 @@ uint32_t
 :
 copyIndexToValue
 (
-JSContext
-*
-cx
 JSObject
 *
 tarray
@@ -12328,9 +12297,6 @@ float
 :
 copyIndexToValue
 (
-JSContext
-*
-cx
 JSObject
 *
 tarray
@@ -12377,9 +12343,6 @@ double
 :
 copyIndexToValue
 (
-JSContext
-*
-cx
 JSObject
 *
 tarray

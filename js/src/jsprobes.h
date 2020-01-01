@@ -174,9 +174,6 @@ StackFrame
 bool
 startExecution
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -185,9 +182,6 @@ script
 bool
 stopExecution
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -562,9 +556,6 @@ ETWShutdown
 bool
 ETWCallTrackingActive
 (
-JSContext
-*
-cx
 )
 ;
 bool
@@ -781,9 +772,6 @@ marker
 bool
 ETWStartExecution
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -871,7 +859,6 @@ ProfilingActive
 &
 ETWCallTrackingActive
 (
-cx
 )
 )
 return
@@ -2275,9 +2262,6 @@ Probes
 :
 startExecution
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -2335,7 +2319,6 @@ ProfilingActive
 !
 ETWStartExecution
 (
-cx
 script
 )
 )
@@ -2356,9 +2339,6 @@ Probes
 :
 stopExecution
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -2416,7 +2396,6 @@ ProfilingActive
 !
 ETWStopExecution
 (
-cx
 script
 )
 )

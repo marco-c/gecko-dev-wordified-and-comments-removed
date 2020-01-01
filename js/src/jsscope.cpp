@@ -2047,9 +2047,6 @@ inline
 bool
 NormalizeGetterAndSetter
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -2173,7 +2170,6 @@ NULL
 }
 NormalizeGetterAndSetter
 (
-cx
 this
 id
 attrs
@@ -2880,7 +2876,6 @@ id
 ;
 NormalizeGetterAndSetter
 (
-cx
 this
 id
 attrs
@@ -3552,7 +3547,6 @@ self
 >
 freeSlot
 (
-cx
 oldSlot
 )
 ;
@@ -4122,7 +4116,6 @@ self
 >
 freeSlot
 (
-cx
 shape
 -
 >

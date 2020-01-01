@@ -462,9 +462,6 @@ v
 JSBool
 js_PrototypeHasIndexedProperties
 (
-JSContext
-*
-cx
 JSObject
 *
 obj

@@ -5986,9 +5986,6 @@ public
 :
 SingleStringPredicate
 (
-JSContext
-*
-cx
 Handle
 <
 JSFlatString
@@ -6077,7 +6074,6 @@ cx
 obj
 SingleStringPredicate
 (
-cx
 str
 )
 )

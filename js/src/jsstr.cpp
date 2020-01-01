@@ -9831,9 +9831,6 @@ static
 bool
 InterpretDollar
 (
-JSContext
-*
-cx
 RegExpStatics
 *
 res
@@ -10681,7 +10678,6 @@ if
 (
 InterpretDollar
 (
-cx
 res
 dp
 ep
@@ -10729,9 +10725,6 @@ static
 void
 DoReplace
 (
-JSContext
-*
-cx
 RegExpStatics
 *
 res
@@ -10832,7 +10825,6 @@ if
 (
 InterpretDollar
 (
-cx
 res
 dp
 ep
@@ -11058,7 +11050,6 @@ leftlen
 ;
 DoReplace
 (
-cx
 res
 rdata
 )
@@ -12493,9 +12484,6 @@ LambdaIsGetElem
 JSObject
 &
 lambda
-JSContext
-*
-cx
 )
 {
 if
@@ -12908,7 +12896,6 @@ LambdaIsGetElem
 rdata
 .
 lambda
-cx
 )
 )
 rdata
@@ -21426,9 +21413,6 @@ inline
 bool
 TransferBufferToString
 (
-JSContext
-*
-cx
 StringBuffer
 &
 sb
@@ -21866,7 +21850,6 @@ JS_FALSE
 return
 TransferBufferToString
 (
-cx
 sb
 rval
 )
@@ -22426,7 +22409,6 @@ JS_FALSE
 return
 TransferBufferToString
 (
-cx
 sb
 rval
 )

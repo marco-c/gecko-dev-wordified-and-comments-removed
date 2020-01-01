@@ -896,9 +896,6 @@ Probes
 :
 ETWCallTrackingActive
 (
-JSContext
-*
-cx
 )
 {
 return
@@ -1850,9 +1847,6 @@ Probes
 :
 ETWStartExecution
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -1891,9 +1885,6 @@ Probes
 :
 ETWStopExecution
 (
-JSContext
-*
-cx
 JSScript
 *
 script
