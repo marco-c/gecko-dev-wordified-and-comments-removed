@@ -7685,10 +7685,17 @@ ClearStatus
 bool
 reUseInnerWindow
 =
+(
 aForceReuseInnerWindow
 |
 |
 wouldReuseInnerWindow
+)
+&
+&
+GetCurrentInnerWindowInternal
+(
+)
 ;
 nsresult
 rv
