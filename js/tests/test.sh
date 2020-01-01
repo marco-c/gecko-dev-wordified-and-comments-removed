@@ -2560,6 +2560,7 @@ out
 >
 >
 excludetestsfile
+#
 echo
 "
 pattern
@@ -2642,6 +2643,7 @@ crash
 >
 >
 excludetestsfile
+#
 echo
 "
 pattern
