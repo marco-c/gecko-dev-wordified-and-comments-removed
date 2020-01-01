@@ -439,10 +439,6 @@ nsISO2022KRToUnicode
 .
 cpp
 \
-nsUnicodeToISO2022KR
-.
-cpp
-\
 nsCP949ToUnicode
 .
 cpp
