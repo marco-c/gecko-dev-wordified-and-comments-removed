@@ -159,9 +159,6 @@ variantAlternates
 uint8_t
 decorations
 ;
-uint8_t
-smoothing
-;
 uint16_t
 weight
 ;
