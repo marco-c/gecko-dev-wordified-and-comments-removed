@@ -3205,7 +3205,7 @@ FrameConstructionItemList
 aItems
 )
 ;
-nsresult
+void
 ConstructFramesFromItemList
 (
 nsFrameConstructorState
