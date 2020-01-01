@@ -595,10 +595,6 @@ test_leaving_page
 .
 html
 \
-test_multientry
-.
-html
-\
 test_objectCursors
 .
 html

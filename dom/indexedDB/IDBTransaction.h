@@ -224,15 +224,6 @@ OnRequestFinished
 )
 ;
 void
-ReleaseCachedObjectStore
-(
-const
-nsAString
-&
-aName
-)
-;
-void
 SetTransactionListener
 (
 IDBTransactionListener

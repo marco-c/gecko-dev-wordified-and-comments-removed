@@ -278,9 +278,6 @@ unique
 bool
 autoIncrement
 ;
-bool
-multiEntry
-;
 }
 ;
 struct
@@ -368,11 +365,8 @@ IndexUpdateInfo
 ;
 #
 endif
-PRInt64
-indexId
-;
-bool
-indexUnique
+IndexInfo
+info
 ;
 Key
 value

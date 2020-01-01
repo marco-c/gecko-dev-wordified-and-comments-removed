@@ -923,10 +923,6 @@ sUnique_id
 ;
 static
 jsid
-sMultiEntry_id
-;
-static
-jsid
 sOnload_id
 ;
 static

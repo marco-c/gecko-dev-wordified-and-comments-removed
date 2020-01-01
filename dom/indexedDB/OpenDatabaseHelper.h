@@ -94,10 +94,6 @@ mForDeletion
 (
 aForDeletion
 )
-mDatabaseId
-(
-nsnull
-)
 mCurrentVersion
 (
 0
@@ -105,6 +101,10 @@ mCurrentVersion
 mDataVersion
 (
 DB_SCHEMA_VERSION
+)
+mDatabaseId
+(
+0
 )
 mLastObjectStoreId
 (
