@@ -620,6 +620,7 @@ uri
 ;
 }
 }
+Override
 public
 String
 getTable
@@ -714,6 +715,7 @@ return
 null
 ;
 }
+Override
 public
 void
 setupDefaults
@@ -872,6 +874,7 @@ uri
 ;
 }
 }
+Override
 public
 void
 initGecko

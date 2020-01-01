@@ -327,6 +327,7 @@ mContentObserver
 null
 ;
 }
+Override
 public
 int
 getTitleStringId
@@ -341,6 +342,7 @@ string
 awesomebar_history_title
 ;
 }
+Override
 public
 String
 getTag
@@ -351,6 +353,7 @@ return
 TAG
 ;
 }
+Override
 public
 ListView
 getView
@@ -519,6 +522,7 @@ ListView
 mView
 ;
 }
+Override
 public
 void
 destroy
@@ -543,6 +547,7 @@ mContentObserver
 )
 ;
 }
+Override
 public
 boolean
 onBackPressed
@@ -1168,6 +1173,7 @@ MS_PER_DAY
 *
 7
 ;
+Override
 protected
 Pair
 <
@@ -1884,6 +1890,7 @@ HistorySection
 OLDER
 ;
 }
+Override
 protected
 void
 onPostExecute
@@ -1958,6 +1965,7 @@ getHandler
 )
 )
 {
+Override
 public
 void
 onChange
@@ -2167,6 +2175,7 @@ return
 true
 ;
 }
+Override
 public
 ContextMenuSubject
 getSubject

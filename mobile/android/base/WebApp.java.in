@@ -1235,6 +1235,7 @@ fadein
 ;
 }
 }
+Override
 public
 String
 getPackageName
@@ -1247,6 +1248,7 @@ ANDROID_PACKAGE_NAME
 "
 ;
 }
+Override
 public
 String
 getContentProcessName
@@ -1259,6 +1261,7 @@ MOZ_CHILD_PROCESS_NAME
 "
 ;
 }
+Override
 public
 String
 getDefaultUAString
@@ -1315,6 +1318,7 @@ MOZ_APP_VERSION
 "
 ;
 }
+Override
 public
 String
 getUAStringForHost
@@ -1882,6 +1886,7 @@ data
 )
 ;
 }
+Override
 protected
 void
 connectGeckoLayerClient

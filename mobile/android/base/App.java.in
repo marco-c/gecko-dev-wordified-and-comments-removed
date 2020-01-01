@@ -153,6 +153,7 @@ App
 extends
 BrowserApp
 {
+Override
 public
 int
 getLayout
@@ -167,6 +168,7 @@ layout
 gecko_app
 ;
 }
+Override
 public
 String
 getPackageName
@@ -179,6 +181,7 @@ ANDROID_PACKAGE_NAME
 "
 ;
 }
+Override
 public
 String
 getContentProcessName
@@ -191,6 +194,7 @@ MOZ_CHILD_PROCESS_NAME
 "
 ;
 }
+Override
 protected
 String
 getDefaultProfileName
@@ -222,6 +226,7 @@ default
 )
 ;
 }
+Override
 public
 String
 getDefaultUAString
@@ -278,6 +283,7 @@ MOZ_APP_VERSION
 "
 ;
 }
+Override
 public
 String
 getUAStringForHost

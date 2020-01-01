@@ -3131,6 +3131,7 @@ e
 ;
 }
 }
+Override
 public
 void
 addTab
@@ -3147,6 +3148,7 @@ NEW_TAB
 )
 ;
 }
+Override
 public
 void
 addPrivateTab
@@ -3176,6 +3178,7 @@ LOADURL_PRIVATE
 )
 ;
 }
+Override
 public
 void
 showNormalTabs
@@ -3192,6 +3195,7 @@ NORMAL_TABS
 )
 ;
 }
+Override
 public
 void
 showPrivateTabs
@@ -3208,6 +3212,7 @@ PRIVATE_TABS
 )
 ;
 }
+Override
 public
 void
 showRemoteTabs
@@ -3259,6 +3264,7 @@ panel
 )
 ;
 }
+Override
 public
 void
 hideTabs
@@ -3272,6 +3278,7 @@ hide
 )
 ;
 }
+Override
 public
 boolean
 autoHideTabs
@@ -3303,6 +3310,7 @@ return
 false
 ;
 }
+Override
 public
 boolean
 areTabsShown

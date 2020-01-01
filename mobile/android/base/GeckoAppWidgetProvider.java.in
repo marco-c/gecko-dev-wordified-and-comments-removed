@@ -135,6 +135,7 @@ GeckoAppWidgetProvider
 extends
 AppWidgetProvider
 {
+Override
 public
 void
 onUpdate
