@@ -412,13 +412,11 @@ handlers
 function
 setUp
 (
-server
 )
 {
 new
 SyncTestingInfrastructure
 (
-server
 "
 johndoe
 "
@@ -593,7 +591,6 @@ sync_httpd_setup
 ;
 setUp
 (
-server
 )
 ;
 Service
@@ -717,7 +714,6 @@ sync_httpd_setup
 ;
 setUp
 (
-server
 )
 ;
 Service
@@ -855,7 +851,6 @@ sync_httpd_setup
 ;
 setUp
 (
-server
 )
 ;
 function
