@@ -13413,7 +13413,6 @@ aSelector
 .
 AddPseudoClass
 (
-pseudo
 pseudoClassType
 )
 ;
@@ -14091,7 +14090,6 @@ aSelector
 .
 AddPseudoClass
 (
-aPseudo
 aType
 mToken
 .
@@ -14750,7 +14748,6 @@ aSelector
 .
 AddPseudoClass
 (
-aPseudo
 aType
 numbers
 )
@@ -14862,7 +14859,6 @@ aSelector
 .
 AddPseudoClass
 (
-aPseudo
 aType
 slist
 .

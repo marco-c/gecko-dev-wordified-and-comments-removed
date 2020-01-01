@@ -1727,9 +1727,6 @@ nsCSSSelector
 :
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
@@ -1753,9 +1750,6 @@ nsCSSSelector
 :
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
@@ -1784,9 +1778,6 @@ nsCSSSelector
 :
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
@@ -1815,9 +1806,6 @@ nsCSSSelector
 :
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :

@@ -590,9 +590,6 @@ aClass
 void
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
@@ -603,9 +600,6 @@ aType
 void
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
@@ -620,9 +614,6 @@ aString
 void
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
@@ -637,9 +628,6 @@ aIntPair
 void
 AddPseudoClass
 (
-nsIAtom
-*
-aPseudoClass
 nsCSSPseudoClasses
 :
 :
