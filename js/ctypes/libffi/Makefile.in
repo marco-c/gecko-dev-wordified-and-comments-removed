@@ -2044,15 +2044,6 @@ libffi_convenience_la_SOURCES
 )
 INFO_DEPS
 =
-(
-srcdir
-)
-/
-doc
-/
-libffi
-.
-info
 am__TEXINFO_TEX_DIR
 =
 (
