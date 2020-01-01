@@ -1107,9 +1107,14 @@ return
 JS_TRUE
 ;
 }
+size_t
+newcapBig
+=
+newcap
+;
 if
 (
-newcap
+newcapBig
 >
 MAX_DSLOTS_LENGTH
 )
@@ -6418,7 +6423,7 @@ JS_ASSERT
 (
 count
 <
-size_t
+uint32
 (
 -
 1
