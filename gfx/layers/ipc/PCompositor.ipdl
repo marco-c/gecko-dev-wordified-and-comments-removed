@@ -319,13 +319,6 @@ Resume
 (
 )
 ;
-async
-NotifyChildCreated
-(
-uint64_t
-id
-)
-;
 /
 /
 Make
