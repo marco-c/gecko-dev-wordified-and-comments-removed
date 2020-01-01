@@ -460,6 +460,10 @@ browser_passwordmgrdlg
 .
 js
 \
+browser_passwordmgr_sort
+.
+js
+\
 (
 NULL
 )
