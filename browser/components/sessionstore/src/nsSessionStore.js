@@ -12244,6 +12244,17 @@ if
 root
 .
 selectedWindow
+|
+|
+root
+.
+selectedWindow
+>
+root
+.
+windows
+.
+length
 )
 {
 root
