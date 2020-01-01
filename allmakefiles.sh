@@ -951,13 +951,6 @@ gfx
 /
 src
 /
-gtk
-/
-Makefile
-gfx
-/
-src
-/
 ps
 /
 Makefile

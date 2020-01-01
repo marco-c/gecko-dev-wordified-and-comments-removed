@@ -556,8 +556,6 @@ is
 used
 by
 libgfxps
-and
-libgfx_gtk
 bin
 /
 libgfxpsshar
@@ -1011,13 +1009,6 @@ bin
 components
 /
 libembedcomponents
-.
-so
-bin
-/
-components
-/
-libgfx_gtk
 .
 so
 bin

@@ -118,7 +118,7 @@ libgfxpsshar
 so
 components
 /
-libgfx_gtk
+libgkgfxthebes
 .
 so
 components
@@ -131,11 +131,6 @@ components
 gfx
 .
 xpt
-components
-/
-libwidget_gtk
-.
-so
 components
 /
 libwidget_gtk2

@@ -115,9 +115,6 @@ nsCRT
 h
 "
 #
-ifdef
-MOZ_CAIRO_GFX
-#
 include
 "
 gfxASurface
@@ -131,8 +128,6 @@ nsImageToPixbuf
 .
 h
 "
-#
-endif
 static
 PRLogModuleInfo
 *
@@ -688,9 +683,6 @@ action
 event
 )
 ;
-#
-ifdef
-MOZ_CAIRO_GFX
 GdkPixbuf
 *
 dragPixbuf
@@ -783,15 +775,6 @@ gtk_drag_set_icon_default
 context
 )
 ;
-#
-else
-gtk_drag_set_icon_default
-(
-context
-)
-;
-#
-endif
 gtk_target_list_unref
 (
 sourceList

@@ -484,13 +484,6 @@ DIRS
 thebes
 else
 ifdef
-MOZ_ENABLE_GTK2
-DIRS
-+
-=
-gtk
-endif
-ifdef
 MOZ_ENABLE_PHOTON
 DIRS
 +
@@ -595,7 +588,6 @@ ifneq
 (
 (
 filter
-gtk2
 beos
 windows
 os2
