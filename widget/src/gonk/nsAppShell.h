@@ -153,6 +153,17 @@ ScheduleNativeEventCallback
 (
 )
 ;
+private
+:
+nsresult
+AddFdHandler
+(
+int
+fd
+FdHandlerCallback
+handlerFunc
+)
+;
 bool
 mNativeCallbackRequest
 ;
