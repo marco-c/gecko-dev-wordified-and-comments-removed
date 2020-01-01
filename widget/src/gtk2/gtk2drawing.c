@@ -6952,6 +6952,12 @@ rect
 y
 )
 ;
+gtk_widget_size_allocate
+(
+gComboBoxWidget
+rect
+)
+;
 gtk_paint_arrow
 (
 style
