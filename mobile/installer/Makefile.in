@@ -602,16 +602,9 @@ package
 -
 manifest
 endif
-libs
-:
-:
+MOZ_POST_STAGING_CMD
+=
 find
-(
-DIST
-)
-/
-bin
-/
 chrome
 -
 type
@@ -629,6 +622,7 @@ i
 '
 /
 ^
+\
 #
 /
 d
