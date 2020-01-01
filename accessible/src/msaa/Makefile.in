@@ -537,10 +537,6 @@ NULL
 EXPORTS
 =
 \
-ApplicationAccessibleWrap
-.
-h
-\
 ARIAGridAccessibleWrap
 .
 h
