@@ -500,7 +500,7 @@ aDirSvc
 >
 Get
 (
-NS_XPCOM_CURRENT_PROCESS_DIR
+XRE_EXECUTABLE_FILE
 NS_GET_IID
 (
 nsIFile
@@ -523,7 +523,7 @@ return
 searchPlugins
 -
 >
-AppendNative
+SetNativeLeafName
 (
 NS_LITERAL_CSTRING
 (

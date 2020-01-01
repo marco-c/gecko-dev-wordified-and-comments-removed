@@ -131,7 +131,7 @@ dirSvc
 get
 (
 "
-XCurProcD
+XREExeF
 "
 Ci
 .
@@ -140,12 +140,11 @@ nsIFile
 ;
 iniFile
 .
-append
-(
+leafName
+=
 "
 distribution
 "
-)
 ;
 iniFile
 .
