@@ -67,6 +67,11 @@ aDocShell
 ;
 protected
 :
+void
+EnsureFresh
+(
+)
+;
 nsIDocShellTreeNode
 *
 mDocShellNode
