@@ -5791,6 +5791,15 @@ notification
 -
 icon
 "
+class
+=
+"
+notification
+-
+anchor
+-
+icon
+"
 /
 >
 <
