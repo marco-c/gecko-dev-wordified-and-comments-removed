@@ -4931,3 +4931,13 @@ version
 MOZ_B2G_VERSION
 )
 ;
+pref
+(
+"
+consoleservice
+.
+buffered
+"
+false
+)
+;
