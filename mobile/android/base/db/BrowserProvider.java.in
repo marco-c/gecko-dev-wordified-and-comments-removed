@@ -21287,7 +21287,7 @@ SQLiteDatabase
 db
 String
 pageUrl
-long
+Long
 faviconId
 )
 {
