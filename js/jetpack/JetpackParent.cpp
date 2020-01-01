@@ -608,10 +608,6 @@ nsIJSContextStack
 >
 mCXStack
 ;
-JSContext
-*
-mCX
-;
 }
 ;
 static
