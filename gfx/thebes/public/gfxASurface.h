@@ -25,6 +25,9 @@ nsStringFwd
 .
 h
 "
+#
+undef
+Status
 typedef
 struct
 _cairo_surface
