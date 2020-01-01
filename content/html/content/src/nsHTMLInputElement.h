@@ -217,11 +217,6 @@ nsGenericHTMLFormElement
 :
 )
 NS_IMETHOD
-Click
-(
-)
-;
-NS_IMETHOD
 Focus
 (
 )
@@ -263,6 +258,13 @@ aInnerHTML
 )
 ;
 }
+virtual
+void
+Click
+(
+)
+MOZ_OVERRIDE
+;
 virtual
 int32_t
 TabIndexDefault

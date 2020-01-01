@@ -850,7 +850,7 @@ element
 element
 -
 >
-Click
+DOMClick
 (
 )
 ;
