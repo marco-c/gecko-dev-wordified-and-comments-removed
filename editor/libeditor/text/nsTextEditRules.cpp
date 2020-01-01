@@ -2430,6 +2430,12 @@ outString
 IsEmpty
 (
 )
+&
+&
+aAction
+!
+=
+kInsertTextIME
 )
 {
 *
