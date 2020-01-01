@@ -124,17 +124,6 @@ h
 #
 include
 "
-mozilla
-/
-plugins
-/
-PluginThreadChild
-.
-h
-"
-#
-include
-"
 PluginIdentifierChild
 .
 h

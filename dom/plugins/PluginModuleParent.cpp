@@ -3083,8 +3083,7 @@ instance
 )
 ;
 return
-*
-error
+NS_ERROR_FAILURE
 ;
 }
 return
