@@ -105,12 +105,11 @@ nsHtml5AtomTable
 )
 ;
 inline
-bool
+void
 Init
 (
 )
 {
-return
 mTable
 .
 Init

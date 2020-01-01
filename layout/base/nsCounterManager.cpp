@@ -1154,9 +1154,6 @@ nsCounterList
 (
 )
 ;
-if
-(
-!
 mNames
 .
 Put
@@ -1164,15 +1161,7 @@ Put
 aCounterName
 counterList
 )
-)
-{
-delete
-counterList
 ;
-return
-nsnull
-;
-}
 }
 return
 counterList

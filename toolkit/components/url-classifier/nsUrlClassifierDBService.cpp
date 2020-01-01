@@ -18879,9 +18879,6 @@ if
 completer
 )
 {
-if
-(
-!
 mCompleters
 .
 Put
@@ -18889,12 +18886,7 @@ Put
 tableName
 completer
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 }
 else
 {

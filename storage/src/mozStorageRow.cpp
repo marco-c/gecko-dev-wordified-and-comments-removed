@@ -50,14 +50,10 @@ sqlite3_stmt
 aStatement
 )
 {
-NS_ENSURE_TRUE
-(
 mNameHashtable
 .
 Init
 (
-)
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 mNumCols

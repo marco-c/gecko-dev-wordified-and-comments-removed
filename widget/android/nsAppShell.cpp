@@ -3911,7 +3911,6 @@ null
 "
 )
 ;
-return
 mObserversHash
 .
 Put
@@ -3919,10 +3918,9 @@ Put
 aObserverKey
 aObserver
 )
-?
+;
+return
 NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 class

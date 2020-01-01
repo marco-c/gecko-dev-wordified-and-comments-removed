@@ -418,9 +418,6 @@ mMatchType
 rule
 )
 ;
-if
-(
-!
 mFontFaces
 .
 Put
@@ -428,12 +425,7 @@ Put
 fe
 ff
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 }
 }
 return

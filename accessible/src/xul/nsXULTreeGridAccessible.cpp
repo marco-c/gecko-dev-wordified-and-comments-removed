@@ -2690,8 +2690,6 @@ if
 cell
 )
 {
-if
-(
 mAccessibleCache
 .
 Put
@@ -2699,8 +2697,7 @@ Put
 key
 cell
 )
-)
-{
+;
 if
 (
 Document
@@ -2724,7 +2721,6 @@ Remove
 key
 )
 ;
-}
 }
 return
 nsnull

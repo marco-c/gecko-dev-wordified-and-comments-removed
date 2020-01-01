@@ -961,9 +961,6 @@ mLocked
 NS_ERROR_UNEXPECTED
 )
 ;
-if
-(
-!
 mNamedParameters
 .
 Put
@@ -971,9 +968,6 @@ Put
 aName
 aValue
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 return
 NS_OK

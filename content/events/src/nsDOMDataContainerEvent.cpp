@@ -199,7 +199,6 @@ IsInitialized
 )
 )
 ;
-return
 mData
 .
 Put
@@ -207,10 +206,9 @@ Put
 aKey
 aData
 )
-?
+;
+return
 NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 nsresult
