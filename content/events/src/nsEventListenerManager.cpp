@@ -5386,10 +5386,11 @@ nsnull
 }
 found
 :
-nsTObserverArray
+nsAutoTObserverArray
 <
 nsListenerStruct
 *
+2
 >
 :
 :
