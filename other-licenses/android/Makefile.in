@@ -514,6 +514,10 @@ dlfcn
 .
 c
 \
+getaddrinfo
+.
+c
+\
 linker
 .
 c
