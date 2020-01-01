@@ -740,7 +740,6 @@ nsIScreenManager
 nsIScriptableDateFormat
 nsIScriptableInputStream
 nsIScriptableInterfaces
-nsIScriptablePlugin
 nsIScriptableRegion
 nsIScriptableUConv
 nsIScriptContextOwner

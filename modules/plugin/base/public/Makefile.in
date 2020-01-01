@@ -527,10 +527,6 @@ nsIWindowlessPlugInstPeer
 .
 idl
 \
-nsIScriptablePlugin
-.
-idl
-\
 nsIPluginTag
 .
 idl

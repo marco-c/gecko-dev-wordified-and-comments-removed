@@ -253,13 +253,6 @@ h
 #
 include
 "
-nsIScriptablePlugin
-.
-h
-"
-#
-include
-"
 nsICachingChannel
 .
 h
