@@ -649,6 +649,17 @@ mShadowManager
 ;
 }
 virtual
+void
+WindowOverlayChanged
+(
+)
+{
+mWindowOverlayChanged
+=
+true
+;
+}
+virtual
 bool
 AllocUnsafeShmem
 (
@@ -905,6 +916,9 @@ mIsFirstPaint
 ;
 bool
 mDrawColoredBorders
+;
+bool
+mWindowOverlayChanged
 ;
 }
 ;
