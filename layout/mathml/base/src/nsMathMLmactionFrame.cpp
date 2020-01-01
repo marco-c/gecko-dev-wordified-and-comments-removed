@@ -1004,7 +1004,7 @@ aReflowState
 ComputedWidth
 (
 )
-NS_UNCONSTRAINESIZE
+NS_UNCONSTRAINEDSIZE
 )
 ;
 nsHTMLReflowState
