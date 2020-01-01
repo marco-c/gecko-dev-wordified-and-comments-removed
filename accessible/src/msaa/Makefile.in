@@ -435,10 +435,6 @@ nsDocAccessibleWrap
 .
 cpp
 \
-nsRootAccessibleWrap
-.
-cpp
-\
 nsHTMLWin32ObjectAccessible
 .
 cpp

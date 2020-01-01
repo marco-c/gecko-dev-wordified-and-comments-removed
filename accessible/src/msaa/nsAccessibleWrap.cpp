@@ -816,7 +816,8 @@ rootView
 view
 )
 {
-hwnd
+HWND
+parenthwnd
 =
 :
 :
@@ -824,6 +825,14 @@ GetParent
 (
 hwnd
 )
+;
+if
+(
+parenthwnd
+)
+hwnd
+=
+parenthwnd
 ;
 NS_ASSERTION
 (
