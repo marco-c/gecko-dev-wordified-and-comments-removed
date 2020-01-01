@@ -1072,7 +1072,7 @@ SVG_HIT_TEST_STROKE
 nsSVGUtils
 :
 :
-SetupCairoStrokeHitGeometry
+SetupCairoStrokeGeometry
 (
 this
 tmpCtx

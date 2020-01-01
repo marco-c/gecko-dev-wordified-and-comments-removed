@@ -4110,7 +4110,7 @@ StyleSVG
 nsSVGUtils
 :
 :
-SetupCairoStrokeHitGeometry
+SetupCairoStrokeGeometry
 (
 this
 aContext

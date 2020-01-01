@@ -1426,7 +1426,7 @@ nullptr
 ;
 static
 void
-SetupCairoStrokeHitGeometry
+SetupCairoStrokeGeometry
 (
 nsIFrame
 *
