@@ -3561,9 +3561,9 @@ aCollectorFunc
 RuleProcessorData
 *
 aData
-nsIContent
+Element
 *
-aContent
+aElement
 nsRuleWalker
 *
 aRuleWalker
@@ -3654,10 +3654,10 @@ true
 bool
 skipUserStyles
 =
-aContent
+aElement
 &
 &
-aContent
+aElement
 -
 >
 IsInNativeAnonymousSubtree
@@ -3769,7 +3769,7 @@ if
 mBindingManager
 &
 &
-aContent
+aElement
 )
 {
 mBindingManager
