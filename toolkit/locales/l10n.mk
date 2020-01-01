@@ -925,7 +925,7 @@ PACKAGER_NO_LIBS
 1
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
@@ -1371,7 +1371,7 @@ MAKE
 -
 C
 (
-DEPTH
+MOZDEPTH
 )
 /
 tools
@@ -1660,7 +1660,7 @@ inc
 )
 \
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
@@ -1740,7 +1740,7 @@ PKG_LANGPACK_PATH
 PERL
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -2057,7 +2057,7 @@ snippet
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 tools
