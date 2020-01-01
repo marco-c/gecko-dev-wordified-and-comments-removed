@@ -1826,7 +1826,7 @@ NS_MIN
 mScrollOffset
 .
 x
-mContentSize
+mContentRect
 .
 width
 -
@@ -1847,7 +1847,7 @@ NS_MIN
 mScrollOffset
 .
 y
-mContentSize
+mContentRect
 .
 height
 -
