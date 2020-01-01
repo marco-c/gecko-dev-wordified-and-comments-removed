@@ -330,6 +330,8 @@ const
 PRInt64
 kCookiePurgeAge
 =
+PRInt64
+(
 30
 *
 24
@@ -337,6 +339,7 @@ kCookiePurgeAge
 60
 *
 60
+)
 *
 PR_USEC_PER_SEC
 ;
@@ -5902,8 +5905,11 @@ val
 )
 )
 )
+{
 mCookiePurgeAge
 =
+PRInt64
+(
 LIMIT
 (
 val
@@ -5911,9 +5917,11 @@ val
 PR_INT32_MAX
 PR_INT32_MAX
 )
+)
 *
 PR_USEC_PER_SEC
 ;
+}
 PRBool
 boolval
 ;
