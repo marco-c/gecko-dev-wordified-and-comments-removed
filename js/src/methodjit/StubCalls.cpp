@@ -3171,11 +3171,14 @@ props_end
 *
 rval
 =
+ID_TO_VALUE
+(
 *
 ni
 -
 >
 props_cursor
+)
 ;
 if
 (
