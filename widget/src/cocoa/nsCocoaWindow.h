@@ -953,9 +953,6 @@ PRPackedBool
 mWindowMadeHere
 ;
 PRPackedBool
-mVisible
-;
-PRPackedBool
 mSheetNeedsShow
 ;
 PRPackedBool
