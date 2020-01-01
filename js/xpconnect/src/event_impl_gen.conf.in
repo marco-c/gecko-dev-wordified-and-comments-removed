@@ -171,6 +171,9 @@ MozWifiStatusChangeEvent
 '
 MozWifiConnectionInfoEvent
 '
+'
+MozCellBroadcastEvent
+'
 #
 endif
 '
