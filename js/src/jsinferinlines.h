@@ -2583,6 +2583,9 @@ slot
 {
 JS_ASSERT
 (
+varTypes
+&
+&
 slot
 <
 js
