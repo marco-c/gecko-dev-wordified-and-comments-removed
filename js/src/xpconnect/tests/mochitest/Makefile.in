@@ -538,10 +538,6 @@ file_bug505915
 .
 html
 \
-test_bug517163
-.
-html
-\
 test_bug553407
 .
 html

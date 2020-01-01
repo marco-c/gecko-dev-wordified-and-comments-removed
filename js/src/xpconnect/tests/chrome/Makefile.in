@@ -490,6 +490,10 @@ test_cows
 .
 xul
 \
+test_bug517163
+.
+xul
+\
 (
 NULL
 )
