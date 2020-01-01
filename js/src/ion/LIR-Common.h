@@ -583,6 +583,15 @@ right
 )
 ;
 }
+JSOp
+bitop
+(
+)
+{
+return
+op_
+;
+}
 }
 ;
 class

@@ -49,6 +49,16 @@ BitAnd
 \
 _
 (
+BitOr
+)
+\
+_
+(
+BitXOr
+)
+\
+_
+(
 Add
 )
 \
