@@ -145,12 +145,6 @@ LIBS
 =
 \
 -
-lGLESv2
-\
--
-lEGL
-\
--
 lui
 \
 -
