@@ -8913,7 +8913,7 @@ xml
 "
 )
 ;
-bool
+Capabilities
 supportType
 =
 isSVG
