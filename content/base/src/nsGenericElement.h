@@ -484,6 +484,7 @@ class
 nsNSElementTearoff
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_DOM_MEMORY_REPORTER_SIZEOF
 nsresult
 PostQueryInterface
 (
