@@ -31,6 +31,7 @@ gfxTypes
 h
 "
 CGColorSpaceRef
+THEBES_API
 CreateSystemColorSpace
 (
 )
@@ -201,6 +202,7 @@ uint32_t
 IOSurfaceID
 ;
 class
+THEBES_API
 nsIOSurface
 {
 public
