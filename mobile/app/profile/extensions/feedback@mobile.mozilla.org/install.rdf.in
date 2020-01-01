@@ -10,6 +10,9 @@ version
 "
 ?
 >
+#
+filter
+substitution
 <
 RDF
 xmlns
@@ -176,9 +179,9 @@ em
 :
 minVersion
 >
-2
+4
 .
-0b1pre
+0
 <
 /
 em
@@ -190,9 +193,7 @@ em
 :
 maxVersion
 >
-6
-.
-*
+FIREFOX_VERSION
 <
 /
 em
