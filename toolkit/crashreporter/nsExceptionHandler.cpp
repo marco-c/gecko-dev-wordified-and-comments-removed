@@ -3455,9 +3455,6 @@ ExceptionHandler
 :
 :
 HANDLER_ALL
-MiniDumpWithFullMemoryInfo
-NULL
-NULL
 )
 ;
 #
