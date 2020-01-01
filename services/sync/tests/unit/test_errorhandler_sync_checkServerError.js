@@ -68,6 +68,25 @@ services
 -
 sync
 /
+policies
+.
+js
+"
+)
+;
+Cu
+.
+import
+(
+"
+resource
+:
+/
+/
+services
+-
+sync
+/
 util
 .
 js
@@ -990,7 +1009,7 @@ localhost
 /
 "
 ;
-Service
+ErrorHandler
 .
 _ignorableErrorCount
 =
@@ -1028,7 +1047,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_eq
 (
-Service
+ErrorHandler
 .
 _ignorableErrorCount
 1
@@ -1105,7 +1124,7 @@ offline
 =
 true
 ;
-Service
+ErrorHandler
 .
 _ignorableErrorCount
 =
@@ -1143,7 +1162,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_eq
 (
-Service
+ErrorHandler
 .
 _ignorableErrorCount
 0
@@ -1214,7 +1233,7 @@ sync_httpd_setup
 (
 )
 ;
-Service
+ErrorHandler
 .
 _ignorableErrorCount
 =
@@ -1277,7 +1296,7 @@ SYNC_SUCCEEDED
 ;
 do_check_eq
 (
-Service
+ErrorHandler
 .
 _ignorableErrorCount
 0
@@ -1351,7 +1370,7 @@ sync_httpd_setup
 (
 )
 ;
-Service
+ErrorHandler
 .
 _ignorableErrorCount
 =
@@ -1430,7 +1449,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_eq
 (
-Service
+ErrorHandler
 .
 _ignorableErrorCount
 1

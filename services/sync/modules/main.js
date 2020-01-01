@@ -222,6 +222,9 @@ js
 "
 SyncScheduler
 "
+"
+ErrorHandler
+"
 ]
 "
 resource

@@ -267,7 +267,7 @@ true
 ;
 do_check_eq
 (
-Service
+ErrorHandler
 .
 _ignorableErrorCount
 0
@@ -294,7 +294,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_eq
 (
-Service
+ErrorHandler
 .
 _ignorableErrorCount
 0

@@ -1541,7 +1541,7 @@ _needsSetup
 |
 Weave
 .
-Service
+ErrorHandler
 .
 shouldIgnoreError
 (
@@ -2326,7 +2326,7 @@ if
 (
 Weave
 .
-Service
+ErrorHandler
 .
 shouldIgnoreError
 (
