@@ -81,15 +81,6 @@ xpcom
 XPIDL_MODULE
 =
 xpcom_system
-ifdef
-MOZ_CRASHREPORTER
-XPIDLSRCS
-+
-=
-nsICrashReporter
-.
-idl
-endif
 include
 (
 topsrcdir

@@ -241,16 +241,6 @@ cpp
 (
 NULL
 )
-XPIDLSRCS
-=
-\
-nsIProfiler
-.
-idl
-\
-(
-NULL
-)
 EXTRA_JS_MODULES
 =
 \

@@ -94,12 +94,6 @@ NULL
 )
 ifdef
 MOZ_UPDATER
-XPIDLSRCS
-+
-=
-nsIUpdateService
-.
-idl
 EXTRA_PP_COMPONENTS
 +
 =

@@ -84,17 +84,6 @@ GRE_MODULE
 1
 ifdef
 MOZ_XUL
-XPIDLSRCS
-+
-=
-\
-nsIXULOverlayProvider
-.
-idl
-\
-(
-NULL
-)
 EXPORTS
 =
 \

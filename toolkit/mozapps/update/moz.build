@@ -157,6 +157,16 @@ TEST_DIRS
 test_timermanager
 '
 ]
+XPIDL_SOURCES
++
+=
+[
+'
+nsIUpdateTimerManager
+.
+idl
+'
+]
 #
 Update
 tests
@@ -201,7 +211,7 @@ XPIDL_SOURCES
 =
 [
 '
-nsIUpdateTimerManager
+nsIUpdateService
 .
 idl
 '

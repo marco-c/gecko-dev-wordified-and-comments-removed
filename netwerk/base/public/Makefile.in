@@ -91,15 +91,6 @@ necko
 GRE_MODULE
 =
 1
-ifdef
-MOZ_TOOLKIT_SEARCH
-XPIDLSRCS
-+
-=
-nsIBrowserSearchService
-.
-idl
-endif
 EXPORTS
 =
 \

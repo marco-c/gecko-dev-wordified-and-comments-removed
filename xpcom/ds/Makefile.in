@@ -379,12 +379,6 @@ CPPSRCS
 nsWindowsRegKey
 .
 cpp
-XPIDLSRCS
-+
-=
-nsIWindowsRegKey
-.
-idl
 EXPORTS
 +
 =

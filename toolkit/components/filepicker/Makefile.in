@@ -113,16 +113,6 @@ nsFileViewModule
 LIBXUL_LIBRARY
 =
 1
-XPIDLSRCS
-=
-\
-nsIFileView
-.
-idl
-\
-(
-NULL
-)
 CPPSRCS
 =
 \
