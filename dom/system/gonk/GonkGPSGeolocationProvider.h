@@ -236,7 +236,7 @@ StartGPS
 )
 ;
 void
-ShutdownNow
+ShutdownGPS
 (
 )
 ;
