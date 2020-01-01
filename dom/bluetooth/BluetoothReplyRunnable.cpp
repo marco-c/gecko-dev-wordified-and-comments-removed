@@ -79,6 +79,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+bool
+allowDefault
+;
 return
 mReply
 -
@@ -100,6 +103,8 @@ FireSuccess
 (
 mDOMRequest
 aVal
+&
+allowDefault
 )
 :
 rs
@@ -118,6 +123,8 @@ get_BluetoothReplyError
 error
 (
 )
+&
+allowDefault
 )
 ;
 }
@@ -174,6 +181,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+bool
+allowDefault
+;
 return
 rs
 -
@@ -182,6 +192,8 @@ FireError
 (
 mDOMRequest
 mErrorString
+&
+allowDefault
 )
 ;
 }
