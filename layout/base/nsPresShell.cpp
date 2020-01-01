@@ -5104,7 +5104,6 @@ gVerifyReflowEnabled
 =
 PR_TRUE
 ;
-}
 printf
 (
 "
@@ -5112,17 +5111,7 @@ Note
 :
 verifyreflow
 is
-%
-sabled
-"
-gVerifyReflowEnabled
-?
-"
-en
-"
-:
-"
-dis
+enabled
 "
 )
 ;
@@ -5226,6 +5215,7 @@ n
 "
 )
 ;
+}
 }
 #
 endif
