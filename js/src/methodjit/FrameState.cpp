@@ -4701,6 +4701,7 @@ depth
 -
 locals
 )
+true
 )
 ;
 popn
