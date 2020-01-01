@@ -5376,6 +5376,13 @@ DESTDIR
 libdir
 )
 endif
+(
+MAKE
+)
+-
+C
+shell
+install
 #
 Extra
 dependancies
