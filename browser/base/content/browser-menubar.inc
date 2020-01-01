@@ -3642,7 +3642,7 @@ type
 "
 checkbox
 "
-command
+observes
 =
 "
 View
