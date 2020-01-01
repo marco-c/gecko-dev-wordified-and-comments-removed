@@ -802,6 +802,11 @@ InitCacheEntry
 (
 )
 ;
+void
+UpdateInhibitPersistentCachingFlag
+(
+)
+;
 nsresult
 InitOfflineCacheEntry
 (

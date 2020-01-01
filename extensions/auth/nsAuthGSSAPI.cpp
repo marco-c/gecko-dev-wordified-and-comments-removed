@@ -641,6 +641,11 @@ so
 .
 1
 "
+"
+libgssapi
+.
+so
+"
 }
 ;
 for

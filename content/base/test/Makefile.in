@@ -2527,6 +2527,10 @@ test_bug693875
 .
 html
 \
+test_bug694754
+.
+xhtml
+\
 test_bug698384
 .
 html

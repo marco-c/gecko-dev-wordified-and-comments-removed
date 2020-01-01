@@ -9209,6 +9209,11 @@ cx
 )
 ;
 }
+JS_EndRequest
+(
+cx
+)
+;
 JS_DestroyContext
 (
 cx

@@ -3614,14 +3614,6 @@ runLength
 =
 =
 fragmentLength
-&
-&
-frame
--
->
-GetNextSibling
-(
-)
 )
 {
 nsIFrame
