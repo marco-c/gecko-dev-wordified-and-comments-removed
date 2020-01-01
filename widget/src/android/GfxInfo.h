@@ -160,6 +160,11 @@ aStatus
 nsAString
 &
 aSuggestedDriverVersion
+GfxDriverInfo
+*
+aDriverInfo
+=
+nsnull
 )
 ;
 private
