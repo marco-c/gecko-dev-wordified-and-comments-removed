@@ -388,9 +388,6 @@ insertmacro
 AddDisabledDDEHandlerValues
 !
 insertmacro
-CleanUpdateDirectories
-!
-insertmacro
 CleanVirtualStore
 !
 insertmacro
