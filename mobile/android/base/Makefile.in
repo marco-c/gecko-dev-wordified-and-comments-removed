@@ -2687,6 +2687,14 @@ res
 /
 layout
 /
+preference_search_engine
+.
+xml
+\
+res
+/
+layout
+/
 preference_search_tip
 .
 xml
