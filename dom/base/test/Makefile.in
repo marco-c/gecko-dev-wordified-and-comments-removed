@@ -91,6 +91,10 @@ test_domrequest
 .
 html
 \
+test_e4x_for_each
+.
+html
+\
 test_gsp
 -
 standards
