@@ -259,7 +259,9 @@ CreateTrackUnionStream
 GetOwner
 (
 )
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 DOMMediaStream
 :
 :

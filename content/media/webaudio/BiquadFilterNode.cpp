@@ -829,7 +829,9 @@ mFrequency
 new
 AudioParam
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 SendFrequencyToStream
 350
 .
@@ -841,7 +843,9 @@ mDetune
 new
 AudioParam
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 SendDetuneToStream
 0
 .
@@ -853,7 +857,9 @@ mQ
 new
 AudioParam
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 SendQToStream
 1
 .
@@ -865,7 +871,9 @@ mGain
 new
 AudioParam
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 SendGainToStream
 0
 .

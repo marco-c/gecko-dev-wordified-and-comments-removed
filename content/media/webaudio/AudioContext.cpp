@@ -255,7 +255,9 @@ mDestination
 new
 AudioDestinationNode
 (
-this
+MOZ_THIS_IN_INITIALIZER_LIST
+(
+)
 aIsOffline
 aNumberOfChannels
 aLength
