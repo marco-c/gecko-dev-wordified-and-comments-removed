@@ -1184,9 +1184,6 @@ JS_ASSERT
 (
 thingSize
 %
-Cell
-:
-:
 CellSize
 =
 =
