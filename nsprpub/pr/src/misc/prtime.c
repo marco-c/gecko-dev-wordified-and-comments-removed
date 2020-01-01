@@ -7898,6 +7898,10 @@ string
 &
 isalpha
 (
+(
+unsigned
+char
+)
 rest
 [
 -
