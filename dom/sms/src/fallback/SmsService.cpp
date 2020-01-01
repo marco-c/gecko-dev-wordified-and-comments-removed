@@ -159,6 +159,9 @@ const
 jsval
 &
 aTimestamp
+const
+bool
+aRead
 JSContext
 *
 aCx
@@ -180,6 +183,7 @@ aSender
 aReceiver
 aBody
 aTimestamp
+aRead
 aCx
 aMessage
 )
