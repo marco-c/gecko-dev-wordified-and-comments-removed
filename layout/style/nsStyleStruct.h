@@ -687,6 +687,7 @@ nsresult
 RequestDecode
 (
 )
+const
 ;
 PRBool
 IsOpaque

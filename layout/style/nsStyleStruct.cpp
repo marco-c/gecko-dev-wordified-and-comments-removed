@@ -6498,6 +6498,7 @@ nsStyleImage
 RequestDecode
 (
 )
+const
 {
 if
 (
