@@ -618,9 +618,11 @@ down
 {
 if
 (
-STMT_IS_LOOP
-(
 stmt
+-
+>
+isLoop
+(
 )
 )
 return
