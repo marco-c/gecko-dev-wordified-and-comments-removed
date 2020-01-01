@@ -446,6 +446,10 @@ moz
 .
 png
 \
+longdesc_src
+.
+html
+\
 nsIAccessible_actions
 .
 js
