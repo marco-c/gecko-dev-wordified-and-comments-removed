@@ -632,6 +632,14 @@ browser_upgrade
 .
 rdf
 \
+browser_autocompletesearch
+.
+js
+\
+mock_autocomplete
+.
+json
+\
 (
 NULL
 )
