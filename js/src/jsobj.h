@@ -1013,6 +1013,15 @@ jsval
 value
 )
 ;
+inline
+jsval
+getReservedSlot
+(
+uintN
+index
+)
+const
+;
 JSObject
 *
 getProto
@@ -4893,6 +4902,7 @@ jsval
 vp
 )
 ;
+extern
 bool
 js_SetReservedSlot
 (
