@@ -412,6 +412,8 @@ FrameState
 :
 evictSomething
 (
+uint32
+mask
 )
 {
 #
@@ -474,10 +476,7 @@ maskReg
 reg
 )
 &
-Registers
-:
-:
-AvailRegs
+mask
 )
 )
 continue
