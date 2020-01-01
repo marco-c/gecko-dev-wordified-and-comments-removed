@@ -90,6 +90,9 @@ DLL_SUFFIX
 #
 endif
 LICENSE
+update
+.
+locale
 browserconfig
 .
 properties

@@ -3479,6 +3479,10 @@ jsloader
 \
 hyphenation
 \
+update
+.
+locale
+\
 (
 NULL
 )
