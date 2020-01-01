@@ -5641,6 +5641,9 @@ sense
 "
 )
 ;
+nsAutoDisableGetUsedXAssertions
+disableAssert
+;
 nsRect
 rect
 ;
