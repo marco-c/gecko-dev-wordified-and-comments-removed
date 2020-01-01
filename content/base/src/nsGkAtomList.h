@@ -11209,6 +11209,13 @@ ComputedOffsetProperty
 )
 GK_ATOM
 (
+floatRegionProperty
+"
+FloatRegionProperty
+"
+)
+GK_ATOM
+(
 generatedContent
 "
 GeneratedContentProperty

@@ -897,6 +897,17 @@ return
 this
 ;
 }
+nsMargin
+operator
+-
+(
+const
+nsRect
+&
+aRect
+)
+const
+;
 nsRect
 &
 ScaleRoundOut

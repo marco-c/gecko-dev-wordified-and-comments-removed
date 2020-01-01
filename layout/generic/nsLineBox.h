@@ -72,9 +72,6 @@ nsPlaceholderFrame
 *
 mPlaceholder
 ;
-nsRect
-mRegion
-;
 protected
 :
 nsFloatCache
