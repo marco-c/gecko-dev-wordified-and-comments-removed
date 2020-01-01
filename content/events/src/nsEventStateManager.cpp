@@ -9801,6 +9801,13 @@ do_GetInterface
 container
 )
 ;
+if
+(
+!
+window
+)
+return
+;
 bool
 canDrag
 ;
