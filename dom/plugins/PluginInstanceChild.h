@@ -162,9 +162,6 @@ const
 NPRemoteWindow
 &
 window
-NPError
-*
-rv
 )
 ;
 virtual
@@ -869,9 +866,6 @@ const
 NPRemoteWindow
 &
 aWindow
-NPError
-*
-rv
 )
 ;
 int16_t

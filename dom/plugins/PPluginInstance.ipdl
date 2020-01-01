@@ -561,11 +561,6 @@ NPP_SetWindow
 NPRemoteWindow
 window
 )
-returns
-(
-NPError
-rv
-)
 ;
 /
 /
