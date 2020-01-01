@@ -104,11 +104,8 @@ args
 aPacket
 .
 frame
-[
-"
+.
 arguments
-"
-]
 ;
 let
 objActor
@@ -126,11 +123,8 @@ args
 [
 0
 ]
-[
-"
+.
 class
-"
-]
 "
 Object
 "

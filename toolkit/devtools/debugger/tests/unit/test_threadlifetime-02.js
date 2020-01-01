@@ -104,11 +104,8 @@ pauseGrip
 aPacket
 .
 frame
-[
-"
+.
 arguments
-"
-]
 [
 0
 ]

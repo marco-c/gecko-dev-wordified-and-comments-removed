@@ -62,11 +62,8 @@ let
 args
 =
 aFrame
-[
-"
+.
 arguments
-"
-]
 ;
 try
 {

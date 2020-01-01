@@ -164,7 +164,9 @@ aPacket
 .
 why
 .
-exception
+frameFinished
+.
+throw
 .
 type
 "
@@ -178,12 +180,11 @@ aPacket
 .
 why
 .
-exception
-[
-"
+frameFinished
+.
+throw
+.
 class
-"
-]
 "
 Error
 "

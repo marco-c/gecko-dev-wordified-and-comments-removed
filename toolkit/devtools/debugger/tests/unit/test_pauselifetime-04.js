@@ -104,11 +104,8 @@ args
 aPacket
 .
 frame
-[
-"
+.
 arguments
-"
-]
 ;
 let
 objActor1

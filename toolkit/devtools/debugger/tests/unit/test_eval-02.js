@@ -165,7 +165,9 @@ aPacket
 .
 why
 .
-exception
+frameFinished
+.
+throw
 "
 failure
 "

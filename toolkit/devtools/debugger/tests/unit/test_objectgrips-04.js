@@ -123,11 +123,8 @@ args
 aPacket
 .
 frame
-[
-"
+.
 arguments
-"
-]
 ;
 do_check_eq
 (
@@ -135,11 +132,8 @@ args
 [
 0
 ]
-[
-"
+.
 class
-"
-]
 "
 Object
 "

@@ -102,11 +102,8 @@ let
 pauseActor
 =
 aPacket
-[
-"
+.
 actor
-"
-]
 ;
 gClient
 .
