@@ -486,6 +486,16 @@ I
 topsrcdir
 )
 /
+dom
+/
+battery
+\
+-
+I
+(
+topsrcdir
+)
+/
 content
 /
 xslt

@@ -4580,7 +4580,7 @@ Navigator
 :
 GetBattery
 (
-nsIDOMBatteryManager
+nsISupports
 *
 *
 aBattery

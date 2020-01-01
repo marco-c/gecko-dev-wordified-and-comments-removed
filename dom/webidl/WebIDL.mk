@@ -107,6 +107,10 @@ AudioSourceNode
 .
 webidl
 \
+BatteryManager
+.
+webidl
+\
 BiquadFilterNode
 .
 webidl

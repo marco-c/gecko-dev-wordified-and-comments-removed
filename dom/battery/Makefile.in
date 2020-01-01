@@ -159,10 +159,6 @@ NULL
 XPIDLSRCS
 =
 \
-nsIDOMBatteryManager
-.
-idl
-\
 nsINavigatorBattery
 .
 idl
