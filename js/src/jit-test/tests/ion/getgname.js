@@ -119,6 +119,10 @@ ReturnZ
 (
 )
 ;
+gc
+(
+)
+;
 assertEq
 (
 ReturnArray

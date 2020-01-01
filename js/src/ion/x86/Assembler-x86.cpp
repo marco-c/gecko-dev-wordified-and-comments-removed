@@ -202,7 +202,7 @@ void
 Assembler
 :
 :
-TraceRelocations
+TraceJumpRelocations
 (
 JSTracer
 *
