@@ -999,6 +999,12 @@ element
 "
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 synthesizeKeyFromKeyTag
 (
 "
@@ -1006,12 +1012,6 @@ key_inspect
 "
 )
 ;
-executeSoon
-(
-function
-(
-)
-{
 ok
 (
 InspectorUI
