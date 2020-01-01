@@ -2919,6 +2919,11 @@ InvokeArgsGuard
 iag
 )
 {
+LeaveTrace
+(
+cx
+)
+;
 JS_ASSERT
 (
 argc
