@@ -15299,6 +15299,10 @@ nsISupports
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
+nsIPermissionChecker
+)
+DOM_CLASSINFO_MAP_ENTRY
+(
 nsIFrameScriptLoader
 )
 DOM_CLASSINFO_MAP_ENTRY
