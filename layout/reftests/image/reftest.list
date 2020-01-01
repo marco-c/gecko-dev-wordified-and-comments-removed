@@ -4,14 +4,6 @@ if
 (
 bug685516
 )
-fuzzy
--
-if
-(
-Android
-4
-2
-)
 =
 =
 background
