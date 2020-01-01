@@ -356,13 +356,6 @@ nsAString
 aLocale
 )
 ;
-void
-ScrollTo
-(
-PRUint32
-aType
-)
-;
 protected
 :
 nsPresContext
