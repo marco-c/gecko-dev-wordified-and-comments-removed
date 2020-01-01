@@ -2724,10 +2724,10 @@ dualbutton
 )
 CSS_KEY
 (
-dualbutton
+toolbarbutton
 -
 dropdown
-dualbutton_dropdown
+toolbarbutton_dropdown
 )
 CSS_KEY
 (
