@@ -13303,6 +13303,16 @@ iterValue
 "
 )
 ;
+acx
+-
+>
+compartment
+-
+>
+marked
+=
+true
+;
 #
 ifdef
 JS_TRACER
