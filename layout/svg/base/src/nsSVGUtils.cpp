@@ -4458,7 +4458,6 @@ aLength
 )
 {
 float
-fraction
 axis
 ;
 switch
@@ -4551,8 +4550,9 @@ IsPercentage
 )
 )
 {
-fraction
-=
+return
+axis
+*
 aLength
 -
 >
@@ -4563,10 +4563,7 @@ GetAnimValInSpecifiedUnits
 100
 ;
 }
-else
-{
-fraction
-=
+return
 aLength
 -
 >
@@ -4581,10 +4578,6 @@ nsSVGSVGElement
 nsnull
 )
 )
-;
-}
-return
-fraction
 *
 axis
 ;
