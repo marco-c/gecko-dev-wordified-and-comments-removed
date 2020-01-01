@@ -2822,9 +2822,9 @@ BOOL
 CALLBACK
 callbackEspecial
 (
-LPSTR
+PCSTR
 aModuleName
-DWORD
+ULONG
 aModuleBase
 ULONG
 aModuleSize
@@ -2900,6 +2900,9 @@ GetCurrentProcess
 (
 )
 NULL
+(
+PSTR
+)
 aModuleName
 NULL
 aModuleBase
@@ -2928,7 +2931,7 @@ BOOL
 CALLBACK
 callbackEspecial64
 (
-PTSTR
+PCSTR
 aModuleName
 DWORD64
 aModuleBase
@@ -3009,6 +3012,9 @@ GetCurrentProcess
 (
 )
 NULL
+(
+PSTR
+)
 aModuleName
 NULL
 aModuleBase
@@ -3113,9 +3119,6 @@ enumRes
 _EnumerateLoadedModules
 (
 aProcess
-(
-PENUMLOADED_MODULES_CALLBACK
-)
 callbackEspecial
 (
 PVOID
@@ -3320,9 +3323,6 @@ enumRes
 _EnumerateLoadedModules64
 (
 aProcess
-(
-PENUMLOADED_MODULES_CALLBACK64
-)
 callbackEspecial64
 (
 PVOID
