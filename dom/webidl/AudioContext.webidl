@@ -200,6 +200,9 @@ mixToMono
 /
 AudioNode
 creation
+[
+Creator
+]
 AudioBufferSourceNode
 createBufferSource
 (

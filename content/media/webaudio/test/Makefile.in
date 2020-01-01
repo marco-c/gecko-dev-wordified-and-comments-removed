@@ -95,6 +95,14 @@ test_AudioContext
 .
 html
 \
+test_badConnect
+.
+html
+\
+test_singleSourceDest
+.
+html
+\
 (
 NULL
 )
