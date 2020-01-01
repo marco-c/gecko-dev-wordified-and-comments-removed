@@ -1285,7 +1285,7 @@ ons
 ENTITY
 discover
 .
-description
+description2
 "
 Add
 -
@@ -1296,7 +1296,9 @@ that
 let
 you
 personalize
-Firefox
+&
+brandShortName
+;
 with
 extra
 functionality
@@ -1318,7 +1320,9 @@ themed
 look
 to
 make
-Firefox
+&
+brandShortName
+;
 your
 own
 .
