@@ -636,7 +636,7 @@ false
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 OpaqueSeenType
 >
@@ -1453,7 +1453,7 @@ seen
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 OpaqueSeenType
 >

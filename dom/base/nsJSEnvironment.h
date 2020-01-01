@@ -84,7 +84,7 @@ template
 class
 >
 class
-LazilyConstructed
+Maybe
 ;
 }
 class
@@ -749,7 +749,7 @@ aArgv
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 nsAutoPoolRelease
 >
@@ -758,7 +758,7 @@ aPoolRelease
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 js
 :

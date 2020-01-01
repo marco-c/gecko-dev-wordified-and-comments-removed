@@ -480,11 +480,16 @@ gJSDiagnostics
 #
 endif
 #
+ifndef
+WINCE
+#
 ifdef
 CompareString
 #
 undef
 CompareString
+#
+endif
 #
 endif
 #
@@ -7797,7 +7802,7 @@ NS_ERROR_FAILURE
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 nsAutoPoolRelease
 >
@@ -7806,7 +7811,7 @@ poolRelease
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 js
 :
@@ -9690,7 +9695,7 @@ mContext
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 nsAutoPoolRelease
 >
@@ -9699,7 +9704,7 @@ poolRelease
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 js
 :
@@ -9878,7 +9883,7 @@ aArgv
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 nsAutoPoolRelease
 >
@@ -9887,7 +9892,7 @@ aPoolRelease
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 js
 :
@@ -16196,12 +16201,6 @@ JSVAL_TO_GCTHING
 *
 argv
 )
-"
-mArgv
-[
-i
-]
-"
 )
 }
 }
