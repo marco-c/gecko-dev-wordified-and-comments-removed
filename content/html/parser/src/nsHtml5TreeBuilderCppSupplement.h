@@ -134,6 +134,10 @@ fragment
 (
 PR_FALSE
 )
+documentModeHandler
+(
+aParser
+)
 mParser
 (
 aParser
