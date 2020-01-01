@@ -450,7 +450,7 @@ NULL
 XPIDLSRCS
 =
 \
-nsIAnimationFrameListener
+nsIFrameRequestCallback
 .
 idl
 \

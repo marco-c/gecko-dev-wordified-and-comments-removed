@@ -467,7 +467,7 @@ domstubs
 idl
 "
 interface
-nsIAnimationFrameListener
+nsIFrameRequestCallback
 ;
 interface
 nsIControllers
@@ -2548,8 +2548,8 @@ mozRequestAnimationFrame
 optional
 ]
 in
-nsIAnimationFrameListener
-aListener
+nsIFrameRequestCallback
+aCallback
 )
 ;
 /

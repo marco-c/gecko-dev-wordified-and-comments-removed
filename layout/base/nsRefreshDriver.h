@@ -373,7 +373,7 @@ aDocument
 )
 ;
 void
-ScheduleAnimationFrameListeners
+ScheduleFrameRequestCallbacks
 (
 nsIDocument
 *
@@ -389,7 +389,7 @@ aDocument
 )
 ;
 void
-RevokeAnimationFrameListeners
+RevokeFrameRequestCallbacks
 (
 nsIDocument
 *
@@ -537,13 +537,13 @@ GetRefreshTimerType
 const
 ;
 bool
-HaveAnimationFrameListeners
+HaveFrameRequestCallbacks
 (
 )
 const
 {
 return
-mAnimationFrameListenerDocs
+mFrameRequestCallbackDocs
 .
 Length
 (
@@ -623,7 +623,7 @@ nsTArray
 nsIDocument
 *
 >
-mAnimationFrameListenerDocs
+mFrameRequestCallbackDocs
 ;
 mutable
 PRInt32
