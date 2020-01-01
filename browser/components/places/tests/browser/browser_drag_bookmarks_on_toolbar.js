@@ -1193,6 +1193,12 @@ shift
 (
 )
 ;
+waitForFocus
+(
+function
+(
+)
+{
 info
 (
 "
@@ -1213,9 +1219,7 @@ run
 (
 )
 ;
-waitForFocus
-(
-nextTest
+}
 )
 ;
 }
@@ -1275,9 +1279,8 @@ toolbar
 true
 )
 ;
-waitForFocus
-(
 nextTest
+(
 )
 ;
 }
