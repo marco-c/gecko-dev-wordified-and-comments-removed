@@ -2324,6 +2324,13 @@ floor
 )
 GK_ATOM
 (
+flowlength
+"
+flowlength
+"
+)
+GK_ATOM
+(
 focus
 "
 focus
