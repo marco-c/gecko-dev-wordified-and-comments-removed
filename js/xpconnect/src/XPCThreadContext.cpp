@@ -979,14 +979,6 @@ mNextThread
 (
 nsnull
 )
-mResolveName
-(
-JSID_VOID
-)
-mResolvingWrapper
-(
-nsnull
-)
 #
 ifdef
 XPC_CHECK_WRAPPER_THREADSAFETY
