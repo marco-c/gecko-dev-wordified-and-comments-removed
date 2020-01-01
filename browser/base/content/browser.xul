@@ -9192,13 +9192,6 @@ inspectButton
 accesskey
 ;
 "
-class
-=
-"
-toolbarbutton
--
-text
-"
 command
 =
 "
