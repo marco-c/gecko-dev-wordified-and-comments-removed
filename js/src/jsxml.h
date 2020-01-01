@@ -496,12 +496,9 @@ JSObject
 *
 js_ParseNodeToXMLObject
 (
-JSContext
+JSCompiler
 *
-cx
-JSParseContext
-*
-pc
+jsc
 JSParseNode
 *
 pn

@@ -5908,7 +5908,7 @@ caller
 tcflags
 |
 =
-TCF_PUT_STATIC_DEPTH
+TCF_PUT_STATIC_LEVEL
 (
 caller
 -
@@ -5916,7 +5916,7 @@ caller
 script
 -
 >
-staticDepth
+staticLevel
 +
 1
 )
@@ -6293,7 +6293,10 @@ script
 {
 script
 =
-js_CompileScript
+JSCompiler
+:
+:
+compileScript
 (
 cx
 scopeobj
