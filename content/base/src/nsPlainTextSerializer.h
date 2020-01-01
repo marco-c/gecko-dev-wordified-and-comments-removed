@@ -707,8 +707,10 @@ DoOutput
 )
 {
 return
-!
-mInHead
+mHeadLevel
+=
+=
+0
 ;
 }
 PRBool
@@ -753,8 +755,8 @@ protected
 nsString
 mCurrentLine
 ;
-PRPackedBool
-mInHead
+PRUint32
+mHeadLevel
 ;
 PRPackedBool
 mAtFirstColumn
