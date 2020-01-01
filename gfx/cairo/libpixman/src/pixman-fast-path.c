@@ -5706,6 +5706,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 565_565_cover_SRC
 scaled_bilinear_scanline_565_565_SRC
+NULL
 uint16_t
 uint32_t
 uint16_t
@@ -5716,6 +5717,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 565_565_pad_SRC
 scaled_bilinear_scanline_565_565_SRC
+NULL
 uint16_t
 uint32_t
 uint16_t
@@ -5726,6 +5728,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 565_565_none_SRC
 scaled_bilinear_scanline_565_565_SRC
+NULL
 uint16_t
 uint32_t
 uint16_t
@@ -5736,6 +5739,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 565_565_normal_SRC
 scaled_bilinear_scanline_565_565_SRC
+NULL
 uint16_t
 uint32_t
 uint16_t
@@ -5746,6 +5750,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 8888_565_cover_OVER
 scaled_bilinear_scanline_8888_565_OVER
+NULL
 uint32_t
 uint32_t
 uint16_t
@@ -5756,6 +5761,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 8888_565_pad_OVER
 scaled_bilinear_scanline_8888_565_OVER
+NULL
 uint32_t
 uint32_t
 uint16_t
@@ -5766,6 +5772,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 8888_565_none_OVER
 scaled_bilinear_scanline_8888_565_OVER
+NULL
 uint32_t
 uint32_t
 uint16_t
@@ -5776,6 +5783,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 8888_565_normal_OVER
 scaled_bilinear_scanline_8888_565_OVER
+NULL
 uint32_t
 uint32_t
 uint16_t
@@ -5786,6 +5794,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 8888_8888_cover_OVER
 scaled_bilinear_scanline_8888_8888_OVER
+NULL
 uint32_t
 uint32_t
 uint32_t
@@ -5796,6 +5805,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 8888_8888_pad_OVER
 scaled_bilinear_scanline_8888_8888_OVER
+NULL
 uint32_t
 uint32_t
 uint32_t
@@ -5806,6 +5816,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 8888_8888_none_OVER
 scaled_bilinear_scanline_8888_8888_OVER
+NULL
 uint32_t
 uint32_t
 uint32_t
@@ -5816,6 +5827,7 @@ FAST_BILINEAR_MAINLOOP_COMMON
 (
 8888_8888_normal_OVER
 scaled_bilinear_scanline_8888_8888_OVER
+NULL
 uint32_t
 uint32_t
 uint32_t

@@ -1787,6 +1787,7 @@ _
 #
 op
 \
+NULL
 src_type
 uint32_t
 dst_type
@@ -1827,6 +1828,7 @@ _
 #
 op
 \
+NULL
 src_type
 uint32_t
 dst_type
@@ -1867,6 +1869,7 @@ _
 #
 op
 \
+NULL
 src_type
 uint32_t
 dst_type
@@ -1907,6 +1910,7 @@ _
 #
 op
 \
+NULL
 src_type
 uint32_t
 dst_type
@@ -2130,6 +2134,7 @@ _
 #
 op
 \
+NULL
 src_type
 uint8_t
 dst_type
@@ -2171,6 +2176,7 @@ _
 #
 op
 \
+NULL
 src_type
 uint8_t
 dst_type
@@ -2212,6 +2218,7 @@ _
 #
 op
 \
+NULL
 src_type
 uint8_t
 dst_type
@@ -2253,6 +2260,7 @@ _
 #
 op
 \
+NULL
 src_type
 uint8_t
 dst_type
