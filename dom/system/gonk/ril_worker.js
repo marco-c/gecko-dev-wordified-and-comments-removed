@@ -7415,9 +7415,9 @@ writeUint32
 (
 activate
 ?
-1
-:
 0
+:
+1
 )
 ;
 Buf
