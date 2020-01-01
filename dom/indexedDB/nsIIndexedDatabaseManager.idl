@@ -502,6 +502,7 @@ aUsage
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 415f5684
