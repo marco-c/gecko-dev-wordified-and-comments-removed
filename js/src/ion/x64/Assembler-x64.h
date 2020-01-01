@@ -956,6 +956,16 @@ value_
 }
 }
 ;
+static
+const
+ValueOperand
+JSReturnOperand
+=
+ValueOperand
+(
+JSReturnReg
+)
+;
 class
 Assembler
 :
