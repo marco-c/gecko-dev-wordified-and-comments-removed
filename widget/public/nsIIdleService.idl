@@ -629,10 +629,11 @@ amount
 of
 time
 in
-minutes
+seconds
 the
 user
 should
+be
 idle
 before
 *
