@@ -440,6 +440,7 @@ DIRS
 =
 src
 endif
+#
 ifneq
 (
 (
@@ -451,12 +452,14 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
+#
 DIRS
 +
 =
 src
 /
 mac
+#
 endif
 include
 (

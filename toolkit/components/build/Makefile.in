@@ -453,6 +453,7 @@ DEFINES
 -
 DALERTS_SERVICE
 endif
+#
 ifneq
 (
 (
@@ -463,14 +464,17 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
+#
 ALERTS_SERVICE_MAC
 =
 1
+#
 DEFINES
 +
 =
 -
 DALERTS_SERVICE_MAC
+#
 endif
 REQUIRES
 =
