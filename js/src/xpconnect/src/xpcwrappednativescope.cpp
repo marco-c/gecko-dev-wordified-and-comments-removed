@@ -2979,6 +2979,9 @@ follow
 "
 )
 ;
+#
+if
+0
 printf
 (
 "
@@ -3001,6 +3004,8 @@ JS_TRUE
 JS_TRUE
 )
 ;
+#
+endif
 printf
 (
 "
