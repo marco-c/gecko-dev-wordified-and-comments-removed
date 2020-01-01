@@ -951,6 +951,12 @@ endif
 INSTALLED_HEADERS
 =
 \
+js
+-
+config
+.
+h
+\
 jsautocfg
 .
 h

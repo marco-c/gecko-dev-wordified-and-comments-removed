@@ -665,6 +665,14 @@ build
 /
 autoconf
 )
+AC_CONFIG_HEADER
+(
+js
+-
+config
+.
+h
+)
 AC_CANONICAL_SYSTEM
 TARGET_CPU
 =
