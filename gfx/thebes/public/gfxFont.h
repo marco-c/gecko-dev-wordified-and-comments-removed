@@ -1171,7 +1171,7 @@ gfxFontStyle
 mStyle
 ;
 virtual
-void
+PRBool
 SetupCairoFont
 (
 cairo_t
