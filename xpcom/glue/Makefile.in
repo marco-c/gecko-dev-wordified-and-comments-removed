@@ -754,6 +754,9 @@ h
 CondVar
 .
 h
+DeadlockDetector
+.
+h
 Monitor
 .
 h
