@@ -465,6 +465,16 @@ self
 )
 :
         
+self
+.
+marionette
+=
+self
+.
+_marionette_weakref
+(
+)
+        
 if
 self
 .
@@ -532,6 +542,12 @@ marionette
 delete_session
 (
 )
+        
+self
+.
+marionette
+=
+None
 class
 MarionetteTestCase
 (
@@ -543,7 +559,7 @@ def
 __init__
 (
 self
-marionette
+marionette_weakref
 methodName
 =
 '
@@ -557,9 +573,15 @@ kwargs
         
 self
 .
+_marionette_weakref
+=
+marionette_weakref
+        
+self
+.
 marionette
 =
-marionette
+None
         
 self
 .
