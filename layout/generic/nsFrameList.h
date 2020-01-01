@@ -203,7 +203,17 @@ nsIFrame
 *
 aFrameList
 )
+{
+InsertFrames
+(
+aParent
+LastChild
+(
+)
+aFrameList
+)
 ;
+}
 Slice
 AppendFrames
 (
@@ -262,6 +272,7 @@ nsnull
 )
 ;
 }
+inline
 void
 AppendFrame
 (
@@ -304,6 +315,7 @@ aPrevSiblingHint
 nsnull
 )
 ;
+inline
 void
 InsertFrame
 (
