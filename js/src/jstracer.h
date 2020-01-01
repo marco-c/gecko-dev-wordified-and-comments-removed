@@ -4619,6 +4619,12 @@ LIns
 *
 newArguments
 (
+nanojit
+:
+:
+LIns
+*
+callee_ins
 )
 ;
 JS_REQUIRES_STACK
