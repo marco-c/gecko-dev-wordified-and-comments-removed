@@ -176,6 +176,8 @@ JSC
 :
 MacroAssembler
 {
+public
+:
 static
 const
 uint32_t
@@ -183,8 +185,6 @@ PAYLOAD_OFFSET
 =
 0
 ;
-public
-:
 static
 const
 JSC
