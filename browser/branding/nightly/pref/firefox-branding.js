@@ -79,7 +79,7 @@ update
 .
 interval
 "
-3600
+7200
 )
 ;
 pref
@@ -105,7 +105,7 @@ update
 .
 promptWaitTime
 "
-3600
+43200
 )
 ;
 pref
