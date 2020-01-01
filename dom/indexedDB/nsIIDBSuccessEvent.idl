@@ -451,7 +451,7 @@ BLOCK
 #
 include
 "
-nsIDOMEvent
+nsIIDBEvent
 .
 idl
 "
@@ -476,7 +476,7 @@ f8d4359eec9c
 interface
 nsIIDBSuccessEvent
 :
-nsIDOMEvent
+nsIIDBEvent
 {
 readonly
 attribute

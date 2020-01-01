@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIIDBDatabaseException
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Storage
@@ -262,9 +269,9 @@ CreateObjectStoreHelper
 IDBDatabaseRequest
 *
 aDatabase
-nsIDOMEventTarget
+IDBRequest
 *
-aTarget
+aRequest
 const
 nsAString
 &
@@ -280,7 +287,7 @@ aAutoIncrement
 AsyncConnectionHelper
 (
 aDatabase
-aTarget
+aRequest
 )
 mName
 (
@@ -356,9 +363,9 @@ OpenObjectStoreHelper
 IDBDatabaseRequest
 *
 aDatabase
-nsIDOMEventTarget
+IDBRequest
 *
-aTarget
+aRequest
 const
 nsAString
 &
@@ -370,7 +377,7 @@ aMode
 CreateObjectStoreHelper
 (
 aDatabase
-aTarget
+aRequest
 aName
 EmptyString
 (
@@ -424,9 +431,9 @@ RemoveObjectStoreHelper
 IDBDatabaseRequest
 *
 aDatabase
-nsIDOMEventTarget
+IDBRequest
 *
-aTarget
+aRequest
 const
 nsAString
 &
@@ -436,7 +443,7 @@ aName
 AsyncConnectionHelper
 (
 aDatabase
-aTarget
+aRequest
 )
 mName
 (
@@ -3365,7 +3372,7 @@ IDBErrorEvent
 CreateRunnable
 (
 request
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 CONSTRAINT_ERR
@@ -3612,7 +3619,7 @@ IDBErrorEvent
 CreateRunnable
 (
 request
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 CONSTRAINT_ERR
@@ -3931,7 +3938,7 @@ IDBErrorEvent
 CreateRunnable
 (
 request
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 NOT_FOUND_ERR
@@ -4256,7 +4263,7 @@ EnsureConnection
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4328,7 +4335,7 @@ stmt
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4353,7 +4360,7 @@ mName
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4406,7 +4413,7 @@ mKeyPath
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4435,7 +4442,7 @@ mAutoIncrement
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4455,7 +4462,7 @@ Execute
 )
 {
 return
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 CONSTRAINT_ERR
@@ -4485,7 +4492,7 @@ Commit
 ?
 OK
 :
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4523,7 +4530,7 @@ mId
 NS_ENSURE_TRUE
 (
 mObjectStore
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4617,7 +4624,7 @@ EnsureConnection
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4678,7 +4685,7 @@ stmt
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4703,7 +4710,7 @@ mName
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4726,7 +4733,7 @@ hasResult
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4735,7 +4742,7 @@ UNKNOWN_ERR
 NS_ENSURE_TRUE
 (
 hasResult
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 NOT_FOUND_ERR
@@ -4808,7 +4815,7 @@ mId
 NS_ENSURE_TRUE
 (
 mObjectStore
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4894,7 +4901,7 @@ EnsureConnection
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4950,7 +4957,7 @@ stmt
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4975,7 +4982,7 @@ mName
 NS_ENSURE_SUCCESS
 (
 rv
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 UNKNOWN_ERR
@@ -4995,7 +5002,7 @@ Execute
 )
 {
 return
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 :
 :
 NOT_FOUND_ERR

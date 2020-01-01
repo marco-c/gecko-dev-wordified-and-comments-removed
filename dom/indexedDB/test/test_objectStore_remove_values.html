@@ -155,9 +155,7 @@ error
 (
 "
 +
-aEvent
-.
-error
+event
 .
 code
 +
@@ -166,9 +164,7 @@ code
 :
 "
 +
-aEvent
-.
-error
+event
 .
 message
 )
@@ -241,8 +237,6 @@ this
 _code
 aEvent
 .
-error
-.
 code
 "
 Expected
@@ -275,13 +269,13 @@ interfaces
 nsIIDBObjectStore
 ;
 const
-IDBDatabaseError
+IDBDatabaseException
 =
 Components
 .
 interfaces
 .
-nsIIDBDatabaseError
+nsIIDBDatabaseException
 ;
 const
 name
@@ -531,7 +525,7 @@ onerror
 new
 ExpectError
 (
-IDBDatabaseError
+IDBDatabaseException
 .
 NOT_FOUND_ERR
 )

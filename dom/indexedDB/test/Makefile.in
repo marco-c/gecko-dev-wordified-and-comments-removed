@@ -471,6 +471,10 @@ test_objectStore_remove_values
 .
 html
 \
+test_event_source
+.
+html
+\
 (
 NULL
 )
