@@ -519,6 +519,14 @@ browser_inspector_breadcrumbs
 .
 js
 \
+browser_inspector_bug_699308_iframe_navigation
+.
+js
+\
+browser_inspector_changes
+.
+js
+\
 (
 NULL
 )

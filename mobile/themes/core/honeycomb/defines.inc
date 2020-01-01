@@ -196,6 +196,11 @@ color_text_panel_subheader
 333
 %
 define
+color_background_toaster
+#
+000
+%
+define
 color_background_highlight
 #
 a7c5f4
@@ -384,6 +389,12 @@ touch_normal
 6
 .
 77mozmm
+%
+define
+margin_toaster
+15
+.
+24mozmm
 %
 define
 margin_context_popup

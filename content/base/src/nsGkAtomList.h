@@ -9436,9 +9436,6 @@ zoomAndPan
 zoomAndPan
 "
 )
-#
-ifdef
-MOZ_SMIL
 GK_ATOM
 (
 accumulate
@@ -9623,8 +9620,6 @@ XML
 XML
 "
 )
-#
-endif
 GK_ATOM
 (
 _moz_math_columnalign_

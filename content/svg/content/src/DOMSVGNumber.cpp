@@ -272,9 +272,6 @@ float
 aValue
 )
 {
-#
-ifdef
-MOZ_SMIL
 if
 (
 mIsAnimValItem
@@ -295,8 +292,6 @@ FlushAnimations
 )
 ;
 }
-#
-endif
 *
 aValue
 =
@@ -363,9 +358,6 @@ mAttrEnum
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mList
@@ -389,8 +381,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;

@@ -11062,9 +11062,6 @@ outputdir
 =
 '
 '
-regen
-=
-False
 )
 :
         
@@ -11099,10 +11096,6 @@ xpidllex
                              
 optimize
 =
-0
-if
-regen
-else
 1
 )
         
@@ -11136,10 +11129,6 @@ xpidlyacc
                                 
 optimize
 =
-0
-if
-regen
-else
 1
 )
     

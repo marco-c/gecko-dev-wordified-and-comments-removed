@@ -918,12 +918,7 @@ new
 nsDOMCSSAttributeDeclaration
 (
 this
-#
-ifdef
-MOZ_SMIL
 false
-#
-endif
 )
 ;
 SetMayHaveStyle

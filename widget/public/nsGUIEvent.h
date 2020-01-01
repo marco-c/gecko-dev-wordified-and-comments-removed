@@ -290,14 +290,9 @@ define
 NS_SVGZOOM_EVENT
 31
 #
-ifdef
-MOZ_SMIL
-#
 define
 NS_SMIL_TIME_EVENT
 32
-#
-endif
 #
 define
 NS_QUERY_CONTENT_EVENT
@@ -1863,9 +1858,6 @@ NS_ANIMATION_EVENT_START
 2
 )
 #
-ifdef
-MOZ_SMIL
-#
 define
 NS_SMIL_TIME_EVENT_START
 4300
@@ -1891,8 +1883,6 @@ NS_SMIL_TIME_EVENT_START
 +
 2
 )
-#
-endif
 #
 define
 NS_MOZTOUCH_EVENT_START

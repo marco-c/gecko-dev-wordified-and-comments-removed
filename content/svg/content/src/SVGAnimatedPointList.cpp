@@ -27,9 +27,6 @@ nsSVGAttrTearoffTable
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -43,8 +40,6 @@ SVGPointListSMILType
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -427,9 +422,6 @@ DidAnimatePointList
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedPointList
@@ -736,6 +728,4 @@ mElement
 ;
 }
 }
-#
-endif
 }

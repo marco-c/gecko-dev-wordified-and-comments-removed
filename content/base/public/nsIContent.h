@@ -86,17 +86,12 @@ nsIDocShell
 class
 nsIFrame
 ;
-#
-ifdef
-MOZ_SMIL
 class
 nsISMILAttr
 ;
 class
 nsIDOMCSSStyleDeclaration
 ;
-#
-endif
 namespace
 mozilla
 {
@@ -1396,9 +1391,6 @@ mPrimaryFrame
 aFrame
 ;
 }
-#
-ifdef
-MOZ_SMIL
 virtual
 nsISMILAttr
 *
@@ -1456,8 +1448,6 @@ aNotify
 =
 0
 ;
-#
-endif
 nsresult
 LookupNamespaceURI
 (

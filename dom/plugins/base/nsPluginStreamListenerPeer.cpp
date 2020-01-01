@@ -2116,6 +2116,11 @@ bWantsAllNetworkStreams
 =
 false
 ;
+if
+(
+mPluginInstance
+)
+{
 rv
 =
 mPluginInstance
@@ -2140,6 +2145,7 @@ bWantsAllNetworkStreams
 =
 false
 ;
+}
 }
 if
 (

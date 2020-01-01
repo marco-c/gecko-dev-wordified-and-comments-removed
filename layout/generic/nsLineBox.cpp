@@ -1394,7 +1394,6 @@ nsLineBox
 CachedIsEmpty
 (
 )
-const
 {
 if
 (

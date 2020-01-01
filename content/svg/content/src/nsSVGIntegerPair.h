@@ -26,9 +26,6 @@ nsDOMError
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsISMILAttr
@@ -41,8 +38,6 @@ nsSMILValue
 class
 nsISMILType
 ;
-#
-endif
 class
 nsSVGIntegerPair
 {
@@ -238,9 +233,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 ToSMILAttr
@@ -250,8 +242,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-endif
 private
 :
 PRInt32
@@ -379,9 +369,6 @@ PRInt32
 aResult
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -389,8 +376,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aResult
 =
@@ -408,9 +393,6 @@ NS_OK
 }
 }
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILIntegerPair
 :
@@ -493,8 +475,6 @@ aValue
 ;
 }
 ;
-#
-endif
 }
 ;
 #

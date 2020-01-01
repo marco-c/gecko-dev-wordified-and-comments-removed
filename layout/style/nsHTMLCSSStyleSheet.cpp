@@ -210,9 +210,6 @@ rule
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 rule
 =
 element
@@ -292,8 +289,6 @@ rule
 ;
 }
 }
-#
-endif
 }
 void
 nsHTMLCSSStyleSheet

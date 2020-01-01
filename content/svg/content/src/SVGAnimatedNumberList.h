@@ -15,17 +15,12 @@ class
 nsSVGElement
 ;
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsISMILAttr
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -143,9 +138,6 @@ return
 mAnimVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 ToSMILAttr
@@ -157,8 +149,6 @@ PRUint8
 aAttrEnum
 )
 ;
-#
-endif
 private
 :
 SVGNumberList
@@ -173,9 +163,6 @@ mAnimVal
 bool
 mIsBaseSet
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILAnimatedNumberList
 :
@@ -267,8 +254,6 @@ aValue
 ;
 }
 ;
-#
-endif
 }
 ;
 }

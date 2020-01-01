@@ -743,6 +743,10 @@ NULL
 }
 EXCEPTION_ENTRY
 (
+UNKNOWN_ERR
+)
+EXCEPTION_ENTRY
+(
 INDEX_SIZE_ERR
 )
 EXCEPTION_ENTRY
@@ -941,10 +945,10 @@ break
 ;
 }
 }
-JS_ASSERT
+if
 (
 foundIndex
-!
+=
 =
 size_t
 (
@@ -952,7 +956,12 @@ size_t
 1
 )
 )
+{
+foundIndex
+=
+0
 ;
+}
 JSString
 *
 name

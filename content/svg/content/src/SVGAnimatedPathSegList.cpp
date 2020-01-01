@@ -27,9 +27,6 @@ nsSVGAttrTearoffTable
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -43,8 +40,6 @@ SVGPathSegListSMILType
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -424,9 +419,6 @@ DidAnimatePathSegList
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedPathSegList
@@ -733,6 +725,4 @@ mElement
 ;
 }
 }
-#
-endif
 }

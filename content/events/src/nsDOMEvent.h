@@ -192,14 +192,9 @@ eDOMEvents_SVGError
 eDOMEvents_SVGResize
 eDOMEvents_SVGScroll
 eDOMEvents_SVGZoom
-#
-ifdef
-MOZ_SMIL
 eDOMEvents_beginEvent
 eDOMEvents_endEvent
 eDOMEvents_repeatEvent
-#
-endif
 #
 ifdef
 MOZ_MEDIA

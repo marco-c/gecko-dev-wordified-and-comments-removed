@@ -139,9 +139,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 ToSMILAttr
@@ -151,8 +148,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-endif
 private
 :
 nsAutoPtr
@@ -262,9 +257,6 @@ nsAString
 aResult
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -272,8 +264,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 mVal
 -
 >
@@ -289,9 +279,6 @@ NS_OK
 }
 }
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILString
 :
@@ -374,8 +361,6 @@ aValue
 ;
 }
 ;
-#
-endif
 }
 ;
 #

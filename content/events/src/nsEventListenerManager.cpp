@@ -2858,9 +2858,6 @@ nsGkAtoms
 :
 onzoom
 ;
-#
-ifdef
-MOZ_SMIL
 else
 if
 (
@@ -2924,8 +2921,6 @@ nsGkAtoms
 :
 onend
 ;
-#
-endif
 content
 -
 >

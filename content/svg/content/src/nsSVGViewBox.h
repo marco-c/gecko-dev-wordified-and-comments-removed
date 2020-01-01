@@ -262,9 +262,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 ToSMILAttr
@@ -274,8 +271,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-endif
 private
 :
 nsSVGViewBoxRect
@@ -506,9 +501,6 @@ float
 aX
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -516,8 +508,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aX
 =
@@ -542,9 +532,6 @@ float
 aY
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -552,8 +539,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aY
 =
@@ -578,9 +563,6 @@ float
 aWidth
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -588,8 +570,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aWidth
 =
@@ -614,9 +594,6 @@ float
 aHeight
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -624,8 +601,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aHeight
 =
@@ -751,9 +726,6 @@ aResult
 ;
 }
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILViewBox
 :
@@ -836,8 +808,6 @@ aValue
 ;
 }
 ;
-#
-endif
 }
 ;
 #

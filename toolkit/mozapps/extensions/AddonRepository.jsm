@@ -5029,11 +5029,11 @@ false
 databaseOk
 :
 true
-statementCache
+asyncStatementsCache
 :
 {
 }
-statements
+queries
 :
 {
 getAllAddons
@@ -5782,7 +5782,7 @@ stmt
 in
 this
 .
-statementCache
+asyncStatementsCache
 )
 stmt
 .
@@ -5792,7 +5792,7 @@ finalize
 ;
 this
 .
-statementCache
+asyncStatementsCache
 =
 {
 }
@@ -5924,10 +5924,10 @@ aCallback
 )
 ;
 }
-getStatement
+getAsyncStatement
 :
 function
-AD_getStatement
+AD_getAsyncStatement
 (
 aKey
 )
@@ -5938,12 +5938,12 @@ aKey
 in
 this
 .
-statementCache
+asyncStatementsCache
 )
 return
 this
 .
-statementCache
+asyncStatementsCache
 [
 aKey
 ]
@@ -5953,7 +5953,7 @@ sql
 =
 this
 .
-statements
+queries
 [
 aKey
 ]
@@ -5963,7 +5963,7 @@ try
 return
 this
 .
-statementCache
+asyncStatementsCache
 [
 aKey
 ]
@@ -5972,7 +5972,7 @@ this
 .
 connection
 .
-createStatement
+createAsyncStatement
 (
 sql
 )
@@ -6035,7 +6035,7 @@ getAllAddons
 {
 self
 .
-getStatement
+getAsyncStatement
 (
 "
 getAllAddons
@@ -6160,7 +6160,7 @@ getAllDevelopers
 {
 self
 .
-getStatement
+getAsyncStatement
 (
 "
 getAllDevelopers
@@ -6338,7 +6338,7 @@ getAllScreenshots
 {
 self
 .
-getStatement
+getAsyncStatement
 (
 "
 getAllScreenshots
@@ -6558,7 +6558,7 @@ stmts
 [
 this
 .
-getStatement
+getAsyncStatement
 (
 "
 emptyAddon
@@ -6766,7 +6766,7 @@ stmt
 =
 self
 .
-getStatement
+getAsyncStatement
 (
 aStatementKey
 )
@@ -7059,7 +7059,7 @@ stmt
 =
 this
 .
-getStatement
+getAsyncStatement
 (
 "
 insertAddon

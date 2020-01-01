@@ -3618,6 +3618,7 @@ nsnull
 nsnull
 nsnull
 nsnull
+nsnull
 XPC_WN_JSOp_Enumerate
 XPC_WN_JSOp_TypeOf_Object
 nsnull

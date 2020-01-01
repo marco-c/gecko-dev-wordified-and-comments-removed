@@ -674,9 +674,6 @@ IsAnimated
 (
 )
 {
-#
-ifdef
-MOZ_SMIL
 nsIDocument
 *
 doc
@@ -712,13 +709,6 @@ HasRegisteredAnimations
 (
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 void
 SVGDocumentWrapper
@@ -751,9 +741,6 @@ if
 doc
 )
 {
-#
-ifdef
-MOZ_SMIL
 nsSMILAnimationController
 *
 controller
@@ -782,8 +769,6 @@ PAUSE_IMAGE
 )
 ;
 }
-#
-endif
 doc
 -
 >
@@ -825,9 +810,6 @@ if
 doc
 )
 {
-#
-ifdef
-MOZ_SMIL
 nsSMILAnimationController
 *
 controller
@@ -856,8 +838,6 @@ PAUSE_IMAGE
 )
 ;
 }
-#
-endif
 doc
 -
 >

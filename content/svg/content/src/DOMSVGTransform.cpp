@@ -1075,9 +1075,6 @@ DidChangeTransformList
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mList
@@ -1101,8 +1098,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 }
 }
 }

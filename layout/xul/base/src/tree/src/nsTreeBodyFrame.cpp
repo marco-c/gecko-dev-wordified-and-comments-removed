@@ -6060,7 +6060,7 @@ twidth
 =
 0
 ;
-int
+PRUint32
 length
 =
 aText
@@ -6069,7 +6069,7 @@ Length
 (
 )
 ;
-int
+PRUint32
 i
 ;
 for
@@ -6149,7 +6149,7 @@ twidth
 =
 0
 ;
-int
+PRInt32
 length
 =
 aText
@@ -6158,7 +6158,7 @@ Length
 (
 )
 ;
-int
+PRInt32
 i
 ;
 for
@@ -6256,7 +6256,7 @@ twidth
 =
 0
 ;
-int
+PRInt32
 length
 =
 aText
@@ -6265,7 +6265,7 @@ Length
 (
 )
 ;
-int
+PRInt32
 rightPos
 =
 length
@@ -6274,7 +6274,7 @@ length
 ;
 for
 (
-int
+PRInt32
 leftPos
 =
 0

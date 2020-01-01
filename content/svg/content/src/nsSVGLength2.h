@@ -47,9 +47,6 @@ nsMathUtils
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsISMILAttr
@@ -62,8 +59,6 @@ nsSMILValue
 class
 nsISMILType
 ;
-#
-endif
 class
 nsIFrame
 ;
@@ -378,9 +373,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 ToSMILAttr
@@ -390,8 +382,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-endif
 private
 :
 float
@@ -966,9 +956,6 @@ PRUint16
 aResult
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -976,8 +963,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aResult
 =
@@ -998,9 +983,6 @@ float
 aResult
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -1008,8 +990,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aResult
 =
@@ -1044,9 +1024,6 @@ float
 aResult
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -1054,8 +1031,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aResult
 =
@@ -1100,9 +1075,6 @@ nsAString
 aValue
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -1110,8 +1082,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 mVal
 -
 >
@@ -1241,9 +1211,6 @@ mSVGElement
 }
 }
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILLength
 :
@@ -1326,8 +1293,6 @@ aValue
 ;
 }
 ;
-#
-endif
 }
 ;
 #

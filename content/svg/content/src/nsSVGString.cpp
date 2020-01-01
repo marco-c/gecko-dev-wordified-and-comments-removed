@@ -6,9 +6,6 @@ nsSVGString
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -22,8 +19,6 @@ SMILStringType
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -126,9 +121,6 @@ aValue
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 if
 (
 mAnimVal
@@ -142,8 +134,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 aSVGElement
 -
 >
@@ -291,9 +281,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 nsSVGString
@@ -547,5 +534,3 @@ return
 NS_OK
 ;
 }
-#
-endif

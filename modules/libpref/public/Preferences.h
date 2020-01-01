@@ -1212,10 +1212,6 @@ static
 bool
 InitStaticMembers
 (
-bool
-aForService
-=
-false
 )
 ;
 }

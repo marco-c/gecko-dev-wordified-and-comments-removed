@@ -411,17 +411,12 @@ nsDOMMediaQueryList
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILAnimationController
 .
 h
 "
-#
-endif
 #
 ifdef
 IBMBIDI
@@ -5246,9 +5241,6 @@ aMode
 ;
 }
 }
-#
-ifdef
-MOZ_SMIL
 void
 nsPresContext
 :
@@ -5357,8 +5349,6 @@ break
 }
 }
 }
-#
-endif
 void
 nsPresContext
 :
@@ -5492,9 +5482,6 @@ aMode
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 SetSMILAnimations
 (
 doc
@@ -5502,8 +5489,6 @@ aMode
 mImageAnimationMode
 )
 ;
-#
-endif
 }
 }
 mImageAnimationMode

@@ -40,9 +40,6 @@ nsLineLayout
 class
 nsIPercentHeightObserver
 ;
-class
-nsPlaceholderFrame
-;
 struct
 nsStyleDisplay
 ;
@@ -1051,7 +1048,7 @@ CalculateHypotheticalBox
 nsPresContext
 *
 aPresContext
-nsPlaceholderFrame
+nsIFrame
 *
 aPlaceholderFrame
 nsIFrame

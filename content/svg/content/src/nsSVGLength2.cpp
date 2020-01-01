@@ -64,9 +64,6 @@ nsContentUtils
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -80,8 +77,6 @@ nsSMILFloatType
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -1322,9 +1317,6 @@ mAnimVal
 mBaseVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -1335,8 +1327,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 aSVGElement
 -
 >
@@ -1457,9 +1447,6 @@ mAnimVal
 mBaseVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -1470,8 +1457,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 aSVGElement
 -
 >
@@ -1738,9 +1723,6 @@ mAnimVal
 mBaseVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -1751,8 +1733,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 aSVGElement
 -
 >
@@ -1976,9 +1956,6 @@ mVal
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 nsSVGLength2
@@ -2272,5 +2249,3 @@ return
 NS_OK
 ;
 }
-#
-endif

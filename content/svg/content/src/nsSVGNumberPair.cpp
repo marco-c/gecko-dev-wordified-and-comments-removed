@@ -41,9 +41,6 @@ nsMathUtils
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -57,8 +54,6 @@ SVGNumberPairSMILType
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -413,9 +408,6 @@ mBaseVal
 ]
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -426,8 +418,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -547,9 +537,6 @@ index
 aValue
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -560,8 +547,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 aSVGElement
 -
 >
@@ -626,9 +611,6 @@ mAnimVal
 aValue2
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -639,8 +621,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 aSVGElement
 -
 >
@@ -739,9 +719,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 nsSVGNumberPair
@@ -1034,5 +1011,3 @@ return
 NS_OK
 ;
 }
-#
-endif

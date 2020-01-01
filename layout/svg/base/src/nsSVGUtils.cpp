@@ -920,9 +920,6 @@ gsRGBToLinearRGBMap
 255
 }
 ;
-#
-ifdef
-MOZ_SMIL
 static
 bool
 gSMILEnabled
@@ -942,11 +939,6 @@ smil
 enabled
 "
 ;
-#
-endif
-#
-ifdef
-MOZ_SMIL
 static
 int
 SMILPrefChanged
@@ -1024,8 +1016,6 @@ return
 gSMILEnabled
 ;
 }
-#
-endif
 nsSVGSVGElement
 *
 nsSVGUtils
