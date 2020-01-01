@@ -2900,8 +2900,6 @@ document
 (
 )
 {
-debugger
-;
 Components
 .
 utils
