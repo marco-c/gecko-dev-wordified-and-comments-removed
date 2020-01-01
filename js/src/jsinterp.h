@@ -1025,6 +1025,15 @@ cx
 uint32
 kshape_
 =
+(
+JS_ASSERT
+(
+OBJ_IS_NATIVE
+(
+obj
+)
+)
+\
 OBJ_SCOPE
 (
 obj
@@ -1032,6 +1041,7 @@ obj
 -
 >
 shape
+)
 ;
 \
 entry
