@@ -1610,6 +1610,12 @@ cover
 ref
 .
 html
+fails
+-
+if
+(
+smallScreen
+)
 random
 -
 if
@@ -1714,6 +1720,12 @@ cover
 ref
 .
 html
+fails
+-
+if
+(
+smallScreen
+)
 random
 -
 if

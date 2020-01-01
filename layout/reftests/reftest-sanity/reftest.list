@@ -752,6 +752,12 @@ corners
 ref
 .
 html
+fails
+-
+if
+(
+smallScreen
+)
 !
 =
 corners
@@ -766,6 +772,12 @@ corners
 ref
 .
 html
+fails
+-
+if
+(
+smallScreen
+)
 !
 =
 corners
