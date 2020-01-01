@@ -19145,12 +19145,6 @@ nsFrame
 :
 GetPointFromOffset
 (
-nsPresContext
-*
-inPresContext
-nsIRenderingContext
-*
-inRendContext
 PRInt32
 inOffset
 nsPoint

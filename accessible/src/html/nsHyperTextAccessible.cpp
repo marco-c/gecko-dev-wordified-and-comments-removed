@@ -1279,8 +1279,6 @@ frame
 >
 GetPointFromOffset
 (
-context
-rc
 startContentOffset
 &
 frameTextStartPoint
@@ -1319,8 +1317,6 @@ frame
 >
 GetPointFromOffset
 (
-context
-rc
 startContentOffset
 +
 frameSubStringLength

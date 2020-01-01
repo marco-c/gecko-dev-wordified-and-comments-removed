@@ -581,12 +581,6 @@ aCursor
 NS_IMETHOD
 GetPointFromOffset
 (
-nsPresContext
-*
-inPresContext
-nsIRenderingContext
-*
-inRendContext
 PRInt32
 inOffset
 nsPoint
