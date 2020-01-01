@@ -842,13 +842,6 @@ return
 nullptr
 ;
 }
-virtual
-void
-NotifyShadowTreeTransaction
-(
-)
-{
-}
 static
 already_AddRefed
 <

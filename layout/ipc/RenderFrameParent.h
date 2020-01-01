@@ -289,9 +289,6 @@ const
 nsIntRect
 &
 aVisibleRect
-nsDisplayItem
-*
-aItem
 )
 ;
 void

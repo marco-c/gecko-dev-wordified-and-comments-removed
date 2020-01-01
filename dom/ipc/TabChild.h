@@ -1379,9 +1379,6 @@ mDidFakeShow
 bool
 mIsBrowserElement
 ;
-bool
-mNotified
-;
 PRUint32
 mAppId
 ;

@@ -608,10 +608,6 @@ mAppId
 (
 aAppId
 )
-mNotified
-(
-false
-)
 {
 printf
 (
@@ -5355,10 +5351,6 @@ if
 UseDirectCompositor
 (
 )
-&
-&
-!
-mNotified
 )
 {
 mRemoteFrame
@@ -5367,10 +5359,6 @@ mRemoteFrame
 SendNotifyCompositorTransaction
 (
 )
-;
-mNotified
-=
-true
 ;
 }
 }
