@@ -520,6 +520,9 @@ asQuery
 (
 aNode
 )
+endl
+:
+NEWLINE
 _uri
 :
 function
