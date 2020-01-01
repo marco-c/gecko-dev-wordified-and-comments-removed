@@ -4633,6 +4633,15 @@ NS_OK
 elif
 defined
 (
+XP_MACOSX
+)
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+#
+elif
+defined
+(
 XP_UNIX
 )
 nsCOMPtr
