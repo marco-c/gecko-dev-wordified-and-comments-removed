@@ -479,7 +479,7 @@ STACK_GRANULARITY
 *
 _activation
 .
-highwatermark
+tos
 ;
 uint32_t
 frameSize

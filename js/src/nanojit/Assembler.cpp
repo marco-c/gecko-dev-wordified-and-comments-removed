@@ -386,12 +386,6 @@ arReset
 {
 _activation
 .
-highwatermark
-=
-0
-;
-_activation
-.
 lowwatermark
 =
 0
@@ -892,7 +886,7 @@ NanoAssert
 (
 ar
 .
-highwatermark
+tos
 <
 NJ_MAX_STACK_ENTRY
 )
@@ -1935,7 +1929,7 @@ arIndex
 =
 _activation
 .
-highwatermark
+tos
 )
 ;
 }
@@ -2992,14 +2986,6 @@ _activation
 .
 lowwatermark
 ;
-_activation
-.
-highwatermark
-=
-_activation
-.
-tos
-;
 _inExit
 =
 false
@@ -3546,7 +3532,7 @@ i
 <
 _activation
 .
-highwatermark
+tos
 ;
 i
 +
@@ -7282,10 +7268,6 @@ tos
 ar
 .
 tos
-=
-ar
-.
-highwatermark
 =
 i
 +

@@ -29,9 +29,6 @@ uint32_t
 tos
 ;
 uint32_t
-highwatermark
-;
-uint32_t
 lowwatermark
 ;
 }
