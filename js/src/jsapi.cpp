@@ -4028,10 +4028,6 @@ numGrouping
 (
 0
 )
-waiveGCQuota
-(
-false
-)
 mathCache_
 (
 NULL

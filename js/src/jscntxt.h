@@ -2515,9 +2515,6 @@ char
 *
 numGrouping
 ;
-bool
-waiveGCQuota
-;
 private
 :
 js
