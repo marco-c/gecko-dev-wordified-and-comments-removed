@@ -210,6 +210,17 @@ NULL
 ;
 #
 endif
+JS_FRIEND_API
+(
+void
+)
+js_DumpBacktrace
+(
+JSContext
+*
+cx
+)
+;
 JS_BEGIN_EXTERN_C
 #
 endif
