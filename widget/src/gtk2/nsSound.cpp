@@ -1781,7 +1781,7 @@ if
 libcanberra
 )
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 GtkSettings
 *
