@@ -1718,12 +1718,6 @@ cacheEntry
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsCOMPtr
-<
-nsIInputStream
->
-input
-;
 rv
 =
 nsCacheService
