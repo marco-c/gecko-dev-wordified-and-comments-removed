@@ -316,6 +316,10 @@ window
 "
 )
 ;
+SetIsDOMBinding
+(
+)
+;
 }
 nsFallbackCameraControl
 :

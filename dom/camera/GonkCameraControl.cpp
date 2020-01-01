@@ -678,6 +678,10 @@ __LINE__
 this
 )
 ;
+SetIsDOMBinding
+(
+)
+;
 NS_ADDREF_THIS
 (
 )
