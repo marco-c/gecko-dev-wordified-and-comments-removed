@@ -256,6 +256,11 @@ rv
 =
 NPERR_NO_ERROR
 ;
+*
+stype
+=
+NP_NORMAL
+;
 rv
 =
 mInstance
