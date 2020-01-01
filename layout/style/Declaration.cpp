@@ -3492,6 +3492,16 @@ NS_FONT_KERNING_AUTO
 |
 fontSynthesis
 .
+GetUnit
+(
+)
+!
+=
+eCSSUnit_Enumerated
+|
+|
+fontSynthesis
+.
 GetIntValue
 (
 )
