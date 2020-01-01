@@ -3181,6 +3181,15 @@ eDATA_NODE
 )
 ;
 }
+void
+nsGenericDOMDataNode
+:
+:
+DestroyContent
+(
+)
+{
+}
 #
 ifdef
 DEBUG
