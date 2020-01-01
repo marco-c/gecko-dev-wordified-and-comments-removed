@@ -3541,6 +3541,16 @@ certerror
 pref
 (
 "
+security
+.
+warn_viewing_mixed
+"
+false
+)
+;
+pref
+(
+"
 ui
 .
 -
