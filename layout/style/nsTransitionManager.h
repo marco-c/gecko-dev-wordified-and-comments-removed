@@ -616,6 +616,9 @@ aContent
 nsStyleContext
 *
 aParentStyle
+nsStyleChangeList
+&
+aChangeList
 )
 ;
 nsStyleContext
@@ -634,6 +637,9 @@ aElement
 nsStyleContext
 *
 aParentStyle
+nsStyleChangeList
+&
+aChangeList
 )
 ;
 }
