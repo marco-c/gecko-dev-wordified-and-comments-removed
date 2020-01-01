@@ -826,7 +826,7 @@ int
 sx
 ;
 register
-char
+T
 cc
 ;
 for
