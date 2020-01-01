@@ -1326,6 +1326,13 @@ Gecko
 .
 Translucent
 "
+android
+:
+launchMode
+=
+"
+singleTask
+"
 /
 >
 <
