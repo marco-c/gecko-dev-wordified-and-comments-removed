@@ -178,7 +178,7 @@ java
 const
 unsigned
 short
-NO_ERROR
+SUCCESS_NO_ERROR
 =
 0
 ;

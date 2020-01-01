@@ -47,18 +47,6 @@ friend
 class
 SmsRequestManager
 ;
-enum
-ErrorType
-{
-eNoError
-=
-0
-eNoSignalError
-eNotFoundError
-eUnknownError
-eInternalError
-}
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMOZSMSREQUEST
 NS_FORWARD_NSIDOMEVENTTARGET
@@ -135,7 +123,7 @@ aCursor
 void
 SetError
 (
-ErrorType
+PRInt32
 aError
 )
 ;
@@ -159,7 +147,7 @@ mResult
 bool
 mResultRooted
 ;
-ErrorType
+PRInt32
 mError
 ;
 bool
