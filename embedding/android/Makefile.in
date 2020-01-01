@@ -513,6 +513,10 @@ GlobalHistory
 .
 java
 \
+ConfirmPreference
+.
+java
+\
 (
 NULL
 )
