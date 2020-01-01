@@ -88,5 +88,10 @@ unsigned
 long
 offset
 ;
+ClientRect
+getClientRect
+(
+)
+;
 }
 ;
