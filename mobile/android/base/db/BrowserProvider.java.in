@@ -3915,6 +3915,9 @@ pattern
 )
 {
 Class
+<
+?
+>
 stringsClass
 =
 R
@@ -4256,6 +4259,9 @@ url
 )
 {
 Class
+<
+?
+>
 drawablesClass
 =
 R
