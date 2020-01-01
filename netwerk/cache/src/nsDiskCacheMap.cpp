@@ -5092,7 +5092,7 @@ buf
 char
 *
 )
-realloc
+PR_REALLOC
 (
 mBuffer
 bufSize

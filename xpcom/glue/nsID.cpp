@@ -8,14 +8,7 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
-prmem
+nsMemory
 .
 h
 "
@@ -441,7 +434,7 @@ res
 char
 *
 )
-PR_Malloc
+NS_Alloc
 (
 NSID_LENGTH
 )

@@ -4618,7 +4618,7 @@ if
 (
 contractID
 )
-PR_Free
+NS_Free
 (
 contractID
 )
@@ -4627,7 +4627,7 @@ if
 (
 className
 )
-PR_Free
+NS_Free
 (
 className
 )
