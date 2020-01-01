@@ -2608,7 +2608,7 @@ NULL
 obj
 -
 >
-setPrivate
+setPrivateGCThing
 (
 delegate
 )

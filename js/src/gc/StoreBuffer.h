@@ -121,6 +121,21 @@ cell
 )
 const
 {
+JS_ASSERT
+(
+(
+uintptr_t
+(
+cell
+)
+&
+0x3
+)
+=
+=
+0
+)
+;
 return
 nursery
 .
@@ -547,6 +562,7 @@ compactNotInSet
 (
 )
 ;
+virtual
 void
 compact
 (
@@ -614,6 +630,7 @@ compactMoved
 (
 )
 ;
+virtual
 void
 compact
 (

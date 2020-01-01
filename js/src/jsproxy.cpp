@@ -9722,12 +9722,13 @@ key
 ;
 JS_ASSERT
 (
+*
 p
 -
 >
 value
 .
-get
+unsafeGet
 (
 )
 =
@@ -10557,7 +10558,7 @@ NULL
 obj
 -
 >
-setSlot
+initSlot
 (
 JSSLOT_PROXY_HANDLER
 PrivateValue
@@ -10569,7 +10570,7 @@ handler
 obj
 -
 >
-setSlot
+initCrossCompartmentSlot
 (
 JSSLOT_PROXY_PRIVATE
 priv
@@ -10583,7 +10584,7 @@ fun
 obj
 -
 >
-setSlot
+initCrossCompartmentSlot
 (
 JSSLOT_PROXY_CALL
 call
@@ -10607,7 +10608,7 @@ construct
 obj
 -
 >
-setSlot
+initSlot
 (
 JSSLOT_PROXY_CONSTRUCT
 ObjectValue

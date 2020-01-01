@@ -110,10 +110,10 @@ get
 )
 {
 }
-HeapPtrObject
+EncapsulatedPtrObject
 object
 ;
-HeapId
+EncapsulatedId
 id
 ;
 }
@@ -124,7 +124,7 @@ Watchpoint
 JSWatchPointHandler
 handler
 ;
-HeapPtrObject
+RelocatablePtrObject
 closure
 ;
 bool
