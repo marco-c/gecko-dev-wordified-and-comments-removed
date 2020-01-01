@@ -3653,6 +3653,10 @@ aBuilder
 LayerManager
 *
 aManager
+const
+ContainerParameters
+&
+aContainerParameters
 )
 {
 PRInt32

@@ -370,6 +370,10 @@ aBuilder
 LayerManager
 *
 aManager
+const
+ContainerParameters
+&
+aContainerParameters
 )
 ;
 NS_DISPLAY_DECL_NAME
