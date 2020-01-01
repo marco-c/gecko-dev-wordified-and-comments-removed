@@ -19114,6 +19114,10 @@ mSavingOldViewer
 )
 ;
 }
+mFiredUnloadEvent
+=
+PR_FALSE
+;
 nsCOMPtr
 <
 nsICategoryManager
