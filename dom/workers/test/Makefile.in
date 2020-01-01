@@ -199,6 +199,10 @@ json_worker
 .
 js
 \
+test_loadError
+.
+html
+\
 test_location
 .
 html
