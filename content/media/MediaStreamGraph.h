@@ -1983,6 +1983,13 @@ mGraphUpdatesSent
 ;
 }
 void
+StartNonRealtimeProcessing
+(
+uint32_t
+aTicksToProcess
+)
+;
+void
 DispatchToMainThreadAfterStreamStateUpdate
 (
 already_AddRefed

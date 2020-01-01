@@ -725,6 +725,9 @@ WAITSTATE_WAKING_UP
 WaitState
 mWaitState
 ;
+uint32_t
+mNonRealtimeTicksToProcess
+;
 bool
 mNeedAnotherIteration
 ;
@@ -733,6 +736,9 @@ mForceShutDown
 ;
 bool
 mPostedRunInStableStateEvent
+;
+bool
+mNonRealtimeIsRunning
 ;
 nsTArray
 <
@@ -751,6 +757,9 @@ mPostedRunInStableState
 ;
 bool
 mRealtime
+;
+bool
+mNonRealtimeProcessing
 ;
 }
 ;
