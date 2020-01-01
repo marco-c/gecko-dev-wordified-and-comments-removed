@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 sys
 import
@@ -34,14 +38,18 @@ m
     
 return
 "
-%
-s
-%
-s
-%
-s
+{
+0
+}
+{
+1
+}
+{
+2
+}
 "
-%
+.
+format
 (
 m
 .
@@ -51,7 +59,7 @@ group
 prefix
 '
 )
-                         
+                                 
 {
 '
 a
@@ -78,7 +86,7 @@ c
 '
 )
 ]
-                         
+                                 
 m
 .
 group
@@ -169,6 +177,7 @@ argv
 :
   
 print
+(
 get_prerelease_suffix
 (
 sys
@@ -177,4 +186,5 @@ argv
 [
 1
 ]
+)
 )
