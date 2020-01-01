@@ -2588,6 +2588,11 @@ UserFontSetUpdated
 )
 ;
 PRBool
+EnsureSafeToHandOutCSSRules
+(
+)
+;
+PRBool
 MayHavePaintEventListener
 (
 )
