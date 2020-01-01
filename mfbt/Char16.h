@@ -18,7 +18,7 @@ ifdef
 _MSC_VER
 #
 define
-MOZ_UTF16
+MOZ_UTF16_HELPER
 (
 s
 )
@@ -60,7 +60,7 @@ __GXX_EXPERIMENTAL_CXX0X__
 )
 #
 define
-MOZ_UTF16
+MOZ_UTF16_HELPER
 (
 s
 )
@@ -96,6 +96,16 @@ support
 "
 #
 endif
+#
+define
+MOZ_UTF16
+(
+s
+)
+MOZ_UTF16_HELPER
+(
+s
+)
 MOZ_STATIC_ASSERT
 (
 sizeof
