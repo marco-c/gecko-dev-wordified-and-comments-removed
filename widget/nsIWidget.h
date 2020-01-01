@@ -2258,6 +2258,7 @@ return
 false
 ;
 }
+virtual
 bool
 NeedsPaint
 (
