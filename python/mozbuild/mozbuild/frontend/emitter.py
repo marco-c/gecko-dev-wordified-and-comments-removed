@@ -696,6 +696,12 @@ MSVC_ENABLE_PGO
 MSVC_ENABLE_PGO
 '
             
+NO_DIST_INSTALL
+=
+'
+NO_DIST_INSTALL
+'
+            
 SDK_LIBRARY
 =
 '
@@ -751,28 +757,6 @@ sandbox
 [
 moz
 ]
-        
-if
-sandbox
-[
-'
-NO_DIST_INSTALL
-'
-]
-:
-            
-passthru
-.
-variables
-[
-'
-NO_DIST_INSTALL
-'
-]
-=
-'
-1
-'
         
 if
 passthru
