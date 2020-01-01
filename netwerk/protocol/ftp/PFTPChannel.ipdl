@@ -572,7 +572,7 @@ nsresult
 statusCode
 )
 ;
-CancelEarly
+FailedAsyncOpen
 (
 nsresult
 statusCode

@@ -249,7 +249,7 @@ rv
 )
 )
 return
-SendCancelEarly
+SendFailedAsyncOpen
 (
 rv
 )
@@ -280,7 +280,7 @@ rv
 )
 )
 return
-SendCancelEarly
+SendFailedAsyncOpen
 (
 rv
 )
@@ -336,7 +336,7 @@ rv
 )
 )
 return
-SendCancelEarly
+SendFailedAsyncOpen
 (
 rv
 )
@@ -361,7 +361,7 @@ rv
 )
 )
 return
-SendCancelEarly
+SendFailedAsyncOpen
 (
 rv
 )
@@ -385,7 +385,7 @@ rv
 )
 )
 return
-SendCancelEarly
+SendFailedAsyncOpen
 (
 rv
 )
@@ -512,6 +512,10 @@ nsresult
 status
 )
 {
+if
+(
+mChannel
+)
 mChannel
 -
 >
@@ -532,6 +536,10 @@ RecvSuspend
 (
 )
 {
+if
+(
+mChannel
+)
 mChannel
 -
 >
@@ -551,6 +559,10 @@ RecvResume
 (
 )
 {
+if
+(
+mChannel
+)
 mChannel
 -
 >
