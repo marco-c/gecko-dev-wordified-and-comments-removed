@@ -434,6 +434,10 @@ mk
 _MOCHITEST_FILES
 =
 \
+test_getauthenticationinfo
+.
+html
+\
 test_npobject_getters
 .
 html
