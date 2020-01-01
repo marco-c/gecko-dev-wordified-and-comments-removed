@@ -24,9 +24,6 @@ Do
 not
 assert
 :
-Assertion
-failure
-:
 JSVAL_TAG
 (
 v

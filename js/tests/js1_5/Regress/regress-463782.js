@@ -18,8 +18,9 @@ var
 summary
 =
 '
-Assertion
-failed
+Do
+not
+assert
 :
 "
 need
