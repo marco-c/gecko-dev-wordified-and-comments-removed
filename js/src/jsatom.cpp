@@ -1879,11 +1879,6 @@ js_FinalizeStringRT
 (
 rt
 str
-js_GetExternalStringGCType
-(
-str
-)
-NULL
 )
 ;
 return
