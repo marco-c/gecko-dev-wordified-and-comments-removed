@@ -326,6 +326,17 @@ screenSupports
 ;
 }
 }
+if
+(
+screenInfo
+)
+{
+XFree
+(
+screenInfo
+)
+;
+}
 #
 endif
 }
