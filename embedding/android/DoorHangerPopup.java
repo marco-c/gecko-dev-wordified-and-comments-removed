@@ -226,6 +226,8 @@ JSONArray
 buttons
 Tab
 tab
+JSONObject
+options
 )
 {
 Log
@@ -385,6 +387,13 @@ e
 ;
 }
 }
+dh
+.
+setOptions
+(
+options
+)
+;
 dh
 .
 setTab

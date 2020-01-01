@@ -4941,6 +4941,19 @@ tabID
 "
 )
 ;
+final
+JSONObject
+options
+=
+geckoObject
+.
+getJSONObject
+(
+"
+options
+"
+)
+;
 Log
 .
 i
@@ -5002,6 +5015,7 @@ message
 value
 buttons
 tab
+options
 )
 ;
 }

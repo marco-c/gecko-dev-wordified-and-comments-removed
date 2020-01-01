@@ -4129,6 +4129,7 @@ aMessage
 aValue
 aButtons
 aTabID
+aOptions
 )
 {
 aButtons
@@ -4225,6 +4226,13 @@ BrowserApp
 selectedTab
 .
 id
+options
+:
+aOptions
+|
+|
+{
+}
 }
 }
 ;
