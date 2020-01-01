@@ -28314,7 +28314,7 @@ SetAllSidesTo
 (
 nsCSSValue
 (
-eCSSUnit_Auto
+eCSSUnit_RectIsAuto
 )
 )
 ;

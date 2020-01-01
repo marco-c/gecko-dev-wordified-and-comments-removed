@@ -278,6 +278,9 @@ eCSSUnit_Dummy
 eCSSUnit_DummyInherit
 =
 8
+eCSSUnit_RectIsAuto
+=
+9
 eCSSUnit_String
 =
 10
@@ -439,7 +442,7 @@ NS_ASSERTION
 aUnit
 <
 =
-eCSSUnit_DummyInherit
+eCSSUnit_RectIsAuto
 "
 not
 a
@@ -1307,6 +1310,14 @@ NS_HIDDEN_
 void
 )
 SetDummyInheritValue
+(
+)
+;
+NS_HIDDEN_
+(
+void
+)
+SetRectIsAutoValue
 (
 )
 ;
