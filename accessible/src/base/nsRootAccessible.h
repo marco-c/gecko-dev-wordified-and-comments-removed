@@ -254,6 +254,11 @@ aIsAsynch
 PR_FALSE
 )
 ;
+void
+FireCurrentFocusEvent
+(
+)
+;
 nsCaretAccessible
 *
 GetCaretAccessible
@@ -322,11 +327,6 @@ TryFireEarlyLoadEvent
 nsIDOMNode
 *
 aDocNode
-)
-;
-void
-FireCurrentFocusEvent
-(
 )
 ;
 void
