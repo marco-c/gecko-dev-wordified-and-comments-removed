@@ -104,7 +104,6 @@ nsIChromeEventHandler
 nsIChromeRegistry
 nsICipherInfo
 nsICiter
-nsIClassicPluginFactory
 nsIClassInfo
 nsIClientAuthDialogs
 nsIClipboard

@@ -527,10 +527,6 @@ nsICookieStorage
 .
 idl
 \
-nsIClassicPluginFactory
-.
-idl
-\
 nsIWindowlessPlugInstPeer
 .
 idl
