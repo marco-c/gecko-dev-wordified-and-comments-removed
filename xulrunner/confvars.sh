@@ -425,9 +425,6 @@ fi
 MOZ_EXTENSIONS_DEFAULT
 =
 "
-xml
--
-rpc
 gnomevfs
 "
 MOZ_NO_XPCOM_OBSOLETE
