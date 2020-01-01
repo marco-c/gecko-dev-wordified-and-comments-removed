@@ -6773,13 +6773,6 @@ rv
 return
 rv
 ;
-if
-(
-!
-moreData
-)
-break
-;
 CopyUTF8toUTF16
 (
 cBuffer
@@ -7097,7 +7090,7 @@ break
 }
 while
 (
-1
+moreData
 )
 ;
 done
