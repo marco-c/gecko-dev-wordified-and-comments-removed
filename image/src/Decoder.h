@@ -69,6 +69,11 @@ aCount
 void
 Finish
 (
+RasterImage
+:
+:
+eShutdownIntent
+aShutdownIntent
 )
 ;
 void
