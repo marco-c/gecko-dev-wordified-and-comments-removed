@@ -7378,7 +7378,15 @@ direction
 :
 call
 .
-direction
+isOutgoing
+?
+"
+outgoing
+"
+:
+"
+incoming
+"
 }
 ;
 gSystemMessenger

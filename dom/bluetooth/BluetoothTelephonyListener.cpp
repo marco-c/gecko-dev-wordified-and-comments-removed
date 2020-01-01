@@ -74,6 +74,8 @@ nsAString
 aNumber
 bool
 aIsActive
+bool
+aIsOutgoing
 )
 {
 BluetoothHfpManager
@@ -118,6 +120,8 @@ nsAString_internal
 aNumber
 bool
 aIsActive
+bool
+aIsOutgoing
 bool
 *
 aResult

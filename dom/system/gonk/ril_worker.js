@@ -12560,11 +12560,9 @@ CALL_STATE_INCOMING
 {
 newCall
 .
-direction
+isOutgoing
 =
-'
-incoming
-'
+false
 ;
 }
 else
@@ -12580,11 +12578,9 @@ CALL_STATE_DIALING
 {
 newCall
 .
-direction
+isOutgoing
 =
-'
-outgoing
-'
+true
 ;
 }
 this
