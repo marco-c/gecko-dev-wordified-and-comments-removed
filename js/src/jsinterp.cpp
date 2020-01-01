@@ -23511,6 +23511,8 @@ obj
 id
 )
 ;
+do
+{
 if
 (
 OBJ_IS_DENSE_ARRAY
@@ -23569,6 +23571,15 @@ JSVAL_HOLE
 {
 if
 (
+rt
+-
+>
+anyArrayProtoHasElement
+)
+break
+;
+if
+(
 i
 >
 =
@@ -23618,6 +23629,12 @@ end_setelem
 ;
 }
 }
+}
+while
+(
+0
+)
+;
 if
 (
 !
