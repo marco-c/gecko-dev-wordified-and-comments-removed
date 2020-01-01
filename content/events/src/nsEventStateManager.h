@@ -151,6 +151,10 @@ nsIEventStateManager
 public
 nsIObserver
 {
+friend
+class
+nsMouseWheelTransaction
+;
 public
 :
 nsEventStateManager
@@ -689,6 +693,8 @@ nsMouseScrollEvent
 aMouseEvent
 ScrollQuantity
 aScrollQuantity
+PRBool
+aAllowScrollSpeedOverride
 )
 ;
 void
