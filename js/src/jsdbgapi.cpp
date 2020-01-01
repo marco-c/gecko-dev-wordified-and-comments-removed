@@ -5945,7 +5945,7 @@ fp
 )
 ;
 return
-js_GetScopeChain
+GetScopeChain
 (
 cx
 fp

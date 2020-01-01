@@ -5174,7 +5174,7 @@ staticLevel
 ;
 scopeobj
 =
-js_GetScopeChainFast
+GetScopeChainFast
 (
 cx
 caller

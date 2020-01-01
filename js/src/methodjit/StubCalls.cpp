@@ -4735,7 +4735,7 @@ fun
 ;
 obj2
 =
-js_GetScopeChainFast
+GetScopeChainFast
 (
 cx
 fp
@@ -8510,7 +8510,7 @@ JSObject
 *
 parent
 =
-js_GetScopeChainFast
+GetScopeChainFast
 (
 f
 .
@@ -9255,7 +9255,7 @@ else
 {
 parent
 =
-js_GetScopeChainFast
+GetScopeChainFast
 (
 f
 .

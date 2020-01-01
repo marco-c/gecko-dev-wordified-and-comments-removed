@@ -8829,7 +8829,7 @@ JSObject
 *
 scopeChain
 =
-JS_GetScopeChain
+GetScopeChain
 (
 cx
 )
@@ -35802,7 +35802,7 @@ JSObject
 *
 scopeChain
 =
-JS_GetScopeChain
+GetScopeChain
 (
 cx
 )
