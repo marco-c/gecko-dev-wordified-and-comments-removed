@@ -3167,7 +3167,6 @@ false
 ;
 if
 (
-!
 PACResolveToString
 (
 NS_ConvertUTF16toUTF8
@@ -3178,9 +3177,7 @@ dottedDecimal
 0
 )
 )
-return
-false
-;
+{
 JSString
 *
 dottedDecimalString
@@ -3205,6 +3202,17 @@ dottedDecimalString
 )
 )
 ;
+}
+else
+{
+JS_SET_RVAL
+(
+cx
+vp
+JSVAL_NULL
+)
+;
+}
 return
 true
 ;
