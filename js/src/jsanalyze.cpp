@@ -1,7 +1,7 @@
 #
 include
 "
-jsanalyze
+jsanalyzeinlines
 .
 h
 "
@@ -35,13 +35,6 @@ h
 #
 include
 "
-jscompartment
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -49,7 +42,7 @@ h
 #
 include
 "
-jsanalyzeinlines
+jscompartment
 .
 h
 "

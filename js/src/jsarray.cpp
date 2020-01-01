@@ -186,7 +186,7 @@ include
 "
 vm
 /
-ArrayObject
+ArgumentsObject
 -
 inl
 .
@@ -197,7 +197,7 @@ include
 "
 vm
 /
-ArgumentsObject
+ArrayObject
 -
 inl
 .

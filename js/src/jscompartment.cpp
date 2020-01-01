@@ -1,7 +1,7 @@
 #
 include
 "
-jscompartment
+jscompartmentinlines
 .
 h
 "

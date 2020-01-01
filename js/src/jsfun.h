@@ -7,14 +7,14 @@ jsfun_h
 #
 include
 "
-jsprvtd
+jsobj
 .
 h
 "
 #
 include
 "
-jsobj
+jsprvtd
 .
 h
 "

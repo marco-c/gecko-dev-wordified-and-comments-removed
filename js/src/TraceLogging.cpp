@@ -23,7 +23,7 @@ cstdlib
 #
 include
 <
-unistd
+stdint
 .
 h
 >
@@ -37,7 +37,7 @@ h
 #
 include
 <
-stdint
+unistd
 .
 h
 >
