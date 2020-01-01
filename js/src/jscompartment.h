@@ -1146,9 +1146,6 @@ releaseTypes
 void
 purge
 (
-JSContext
-*
-cx
 )
 ;
 void
@@ -1318,9 +1315,6 @@ debugModeBits
 bool
 hasScriptsOnStack
 (
-JSContext
-*
-cx
 )
 ;
 private

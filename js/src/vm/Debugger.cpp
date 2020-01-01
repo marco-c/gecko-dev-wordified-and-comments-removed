@@ -9591,7 +9591,6 @@ debuggeeCompartment
 >
 hasScriptsOnStack
 (
-cx
 )
 )
 {

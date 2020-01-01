@@ -4819,6 +4819,7 @@ seg_
 ;
 StackSpace
 *
+const
 space_
 ;
 JSContext

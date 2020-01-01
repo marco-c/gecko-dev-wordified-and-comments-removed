@@ -12272,7 +12272,6 @@ CompartmentPrivate
 (
 JS_GetCompartmentPrivate
 (
-cx
 compartment
 )
 )
@@ -13093,7 +13092,6 @@ privateValue
 =
 JS_GetCompartmentPrivate
 (
-cx
 GetObjectCompartment
 (
 unwrapped
@@ -14551,7 +14549,6 @@ CompartmentPrivate
 (
 JS_GetCompartmentPrivate
 (
-cx
 js
 :
 :

@@ -597,9 +597,9 @@ shape
 void
 purge
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 void

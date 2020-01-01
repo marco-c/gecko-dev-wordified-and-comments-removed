@@ -752,12 +752,8 @@ bool
 js
 :
 :
-IsAtomsCompartmentFor
+IsAtomsCompartment
 (
-const
-JSContext
-*
-cx
 const
 JSCompartment
 *
@@ -768,10 +764,10 @@ return
 c
 =
 =
-cx
+c
 -
 >
-runtime
+rt
 -
 >
 atomsCompartment
