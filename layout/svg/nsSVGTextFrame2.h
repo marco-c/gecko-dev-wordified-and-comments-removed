@@ -852,8 +852,6 @@ ePositioningDirtyDueToMutation
 void
 UpdateFontSizeScaleFactor
 (
-bool
-aForceGlobalTransform
 )
 ;
 double
@@ -1058,8 +1056,6 @@ mFrame
 void
 DoReflow
 (
-bool
-aForceGlobalTransform
 )
 ;
 void
@@ -1077,8 +1073,6 @@ aBit
 void
 UpdateGlyphPositioning
 (
-bool
-aForceGlobalTransform
 )
 ;
 void
