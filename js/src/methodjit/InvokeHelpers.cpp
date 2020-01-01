@@ -2652,9 +2652,11 @@ handler
 cx
 -
 >
-debugHooks
+runtime
 -
 >
+debugHooks
+.
 throwHook
 ;
 if
@@ -2734,9 +2736,11 @@ rval
 cx
 -
 >
-debugHooks
+runtime
 -
 >
+debugHooks
+.
 throwHookData
 )
 ;
