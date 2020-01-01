@@ -7,7 +7,7 @@ _MOZSTORAGESTATEMENTWRAPPER_H_
 #
 include
 "
-mozIStorageStatement
+mozStorageStatement
 .
 h
 "
@@ -80,9 +80,9 @@ GetNativeStatementPointer
 )
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-mozIStorageStatement
+mozStorageStatement
 >
 mStatement
 ;

@@ -515,6 +515,10 @@ mozStorageEvents
 .
 cpp
 \
+mozStorageStatementJSHelper
+.
+cpp
+\
 (
 NULL
 )
