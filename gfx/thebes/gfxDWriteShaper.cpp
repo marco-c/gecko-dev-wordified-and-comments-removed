@@ -655,7 +655,7 @@ mFont
 )
 -
 >
-mUsingClearType
+mUseSubpixelPositions
 )
 {
 hr

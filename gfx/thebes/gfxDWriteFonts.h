@@ -175,7 +175,7 @@ const
 {
 return
 !
-mUsingClearType
+mUseSubpixelPositions
 |
 |
 (
@@ -216,6 +216,13 @@ CreatePlatformShaper
 void
 ComputeMetrics
 (
+)
+;
+PRBool
+HasBitmapStrikeForSize
+(
+PRUint32
+aSize
 )
 ;
 cairo_font_face_t
@@ -273,7 +280,7 @@ PRPackedBool
 mNeedsBold
 ;
 PRPackedBool
-mUsingClearType
+mUseSubpixelPositions
 ;
 }
 ;
