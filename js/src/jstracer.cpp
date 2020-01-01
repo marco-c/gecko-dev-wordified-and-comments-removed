@@ -72595,7 +72595,7 @@ lir
 >
 ins2
 (
-LIR_peq
+LIR_eq
 v_ins
 INS_CONST
 (
