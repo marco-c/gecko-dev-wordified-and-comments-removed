@@ -1018,7 +1018,7 @@ e
 xpcEx
 -
 >
-StealThrownJSVal
+GetThrownJSVal
 (
 &
 thrown
