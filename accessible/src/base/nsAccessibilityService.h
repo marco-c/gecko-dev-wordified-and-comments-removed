@@ -667,6 +667,10 @@ option
 "
 listbox
 "
+"
+flat
+equation
+"
 }
 ;
 static
