@@ -1002,6 +1002,11 @@ mDirection
 NS_STYLE_DIRECTION_RTL
 ;
 }
+nsresult
+CreatePopupViewForFrame
+(
+)
+;
 nsString
 mIncrementalString
 ;
