@@ -3946,6 +3946,10 @@ argv
 )
 -
 >
+u
+.
+n
+.
 clasp
 NULL
 NULL
@@ -9864,6 +9868,7 @@ js_InitParseContext
 cx
 &
 pc
+NULL
 chars
 length
 NULL
