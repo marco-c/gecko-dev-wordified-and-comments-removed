@@ -188,6 +188,14 @@ test
 )
 ;
 bool
+visitBitNot
+(
+MBitNot
+*
+ins
+)
+;
+bool
 visitBitAnd
 (
 MBitAnd

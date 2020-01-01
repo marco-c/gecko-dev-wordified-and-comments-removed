@@ -701,6 +701,13 @@ v
 )
 ;
 bool
+jsop_bitnot
+(
+JSOp
+op
+)
+;
+bool
 jsop_bitop
 (
 JSOp
