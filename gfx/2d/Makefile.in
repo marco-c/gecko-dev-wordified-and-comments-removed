@@ -200,6 +200,10 @@ ImageScaling
 .
 cpp
 \
+SourceSurfaceRawData
+.
+cpp
+\
 (
 NULL
 )
