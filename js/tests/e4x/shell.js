@@ -630,8 +630,6 @@ END
 (
 )
 {
-debugger
-;
 }
 function
 compareSource

@@ -53,8 +53,6 @@ summary
 var
 code
 ;
-debugger
-;
 options
 (
 '
