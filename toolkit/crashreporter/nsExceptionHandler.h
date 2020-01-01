@@ -400,6 +400,17 @@ SetRemoteExceptionHandler
 )
 ;
 #
+elif
+defined
+(
+XP_MACOSX
+)
+void
+CreateNotificationPipeForChild
+(
+)
+;
+#
 endif
 bool
 UnsetRemoteExceptionHandler
