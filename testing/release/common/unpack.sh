@@ -146,7 +146,7 @@ if
 [
 -
 d
-localized
+core
 ]
 then
 mkdir
@@ -155,15 +155,7 @@ bin
 cp
 -
 rp
-nonlocalized
-/
-*
-bin
-/
-cp
--
-rp
-localized
+core
 /
 *
 bin
