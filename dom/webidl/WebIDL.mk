@@ -183,6 +183,10 @@ CompositionEvent
 .
 webidl
 \
+Coordinates
+.
+webidl
+\
 CSS
 .
 webidl
@@ -688,6 +692,10 @@ PerformanceNavigation
 webidl
 \
 PerformanceTiming
+.
+webidl
+\
+Position
 .
 webidl
 \
