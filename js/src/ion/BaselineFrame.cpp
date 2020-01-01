@@ -8,6 +8,15 @@ h
 #
 include
 "
+BaselineFrame
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 ScopeObject

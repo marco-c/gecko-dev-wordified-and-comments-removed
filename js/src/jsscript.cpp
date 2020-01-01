@@ -15282,6 +15282,9 @@ needsArgsObj_
 =
 true
 ;
+#
+ifdef
+JS_ION
 if
 (
 script
@@ -15303,6 +15306,8 @@ setNeedsArgsObj
 (
 )
 ;
+#
+endif
 InternalBindingsHandle
 bindings
 (

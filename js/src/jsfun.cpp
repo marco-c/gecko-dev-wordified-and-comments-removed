@@ -4704,6 +4704,9 @@ return
 ok
 ;
 }
+#
+ifdef
+JS_ION
 static
 bool
 PushBaselineFunApplyArguments
@@ -4805,6 +4808,8 @@ return
 true
 ;
 }
+#
+endif
 JSBool
 js_fun_apply
 (

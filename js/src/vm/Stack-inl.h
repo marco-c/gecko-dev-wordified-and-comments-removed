@@ -37,6 +37,9 @@ Stack
 h
 "
 #
+ifdef
+JS_ION
+#
 include
 "
 ion
@@ -56,9 +59,6 @@ inl
 .
 h
 "
-#
-ifdef
-JS_ION
 #
 include
 "
