@@ -69,9 +69,6 @@ class
 nsIDOMBlob
 ;
 class
-nsDOMFileBase
-;
-class
 nsIObserver
 ;
 struct
@@ -850,17 +847,6 @@ return
 mID
 ;
 }
-bool
-GetParamsForBlob
-(
-nsDOMFileBase
-*
-aBlob
-BlobConstructorParams
-*
-aOutParams
-)
-;
 BlobChild
 *
 GetOrCreateActorForBlob
