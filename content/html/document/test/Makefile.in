@@ -557,6 +557,10 @@ test_bug404320
 .
 html
 \
+test_bug468353
+.
+html
+\
 test_form
 -
 parsing
