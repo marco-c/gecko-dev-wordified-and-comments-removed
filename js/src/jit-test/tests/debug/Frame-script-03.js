@@ -58,11 +58,3 @@ Script
 true
 )
 ;
-assertEq
-(
-s
-.
-live
-false
-)
-;
