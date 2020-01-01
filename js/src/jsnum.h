@@ -764,7 +764,7 @@ JSContext
 cx
 jsval
 v
-JSCharVector
+JSCharBuffer
 &
 cb
 )

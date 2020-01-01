@@ -52,7 +52,7 @@ JSObject
 replacer
 jsval
 space
-JSCharVector
+JSCharBuffer
 &
 cb
 )

@@ -529,7 +529,7 @@ space
 return
 JS_FALSE
 ;
-JSCharVector
+JSCharBuffer
 cb
 (
 cx
@@ -700,7 +700,7 @@ write_string
 JSContext
 *
 cx
-JSCharVector
+JSCharBuffer
 &
 cb
 const
@@ -997,7 +997,7 @@ StringifyContext
 JSContext
 *
 cx
-JSCharVector
+JSCharBuffer
 &
 cb
 JSObject
@@ -1023,11 +1023,11 @@ depth
 )
 {
 }
-JSCharVector
+JSCharBuffer
 &
 cb
 ;
-JSCharVector
+JSCharBuffer
 gap
 ;
 JSObject
@@ -2664,7 +2664,7 @@ JSContext
 cx
 jsval
 space
-JSCharVector
+JSCharBuffer
 &
 cb
 )
@@ -2811,7 +2811,7 @@ JSObject
 replacer
 jsval
 space
-JSCharVector
+JSCharBuffer
 &
 cb
 )
