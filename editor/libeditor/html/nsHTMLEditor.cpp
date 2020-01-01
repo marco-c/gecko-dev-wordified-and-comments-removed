@@ -1110,7 +1110,7 @@ aDoc
 document
 -
 >
-AddMutationObserver
+AddMutationObserverUnlessExists
 (
 this
 )
