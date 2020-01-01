@@ -411,11 +411,11 @@ parent
 :
 Vibrate
 (
-uint32
+uint32_t
 [
 ]
 pattern
-uint64
+uint64_t
 [
 ]
 id
@@ -425,7 +425,7 @@ browser
 ;
 CancelVibrate
 (
-uint64
+uint64_t
 [
 ]
 id
