@@ -1439,6 +1439,14 @@ file
 file
 }
 ;
+let
+relatedURI
+=
+aReferrer
+|
+|
+sourceURI
+;
 if
 (
 !
@@ -1446,6 +1454,7 @@ getTargetFile
 (
 fpParams
 aSkipPrompt
+relatedURI
 )
 )
 return
@@ -2092,6 +2101,7 @@ getTargetFile
 (
 aFpP
 aSkipPrompt
+aRelatedURI
 )
 {
 if
@@ -2268,7 +2278,10 @@ lastDir
 =
 gDownloadLastDir
 .
-file
+getFile
+(
+aRelatedURI
+)
 ;
 if
 (
@@ -2530,9 +2543,11 @@ nsILocalFile
 ;
 gDownloadLastDir
 .
-file
-=
+setFile
+(
+aRelatedURI
 directory
+)
 ;
 fp
 .

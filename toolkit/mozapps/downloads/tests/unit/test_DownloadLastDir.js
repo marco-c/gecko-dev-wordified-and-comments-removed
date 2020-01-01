@@ -24,6 +24,10 @@ Components
 .
 utils
 ;
+do_get_profile
+(
+)
+;
 Cu
 .
 import
