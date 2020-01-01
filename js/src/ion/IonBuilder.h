@@ -1608,8 +1608,6 @@ flags
 bool
 jsop_iternext
 (
-uint8
-depth
 )
 ;
 bool
