@@ -409,6 +409,13 @@ config
 autoconf
 .
 mk
+ifdef
+MOZ_MOCHITEST
+DIRS
++
+=
+tests
+endif
 MODULE
 =
 layout
