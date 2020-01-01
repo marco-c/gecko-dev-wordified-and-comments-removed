@@ -150,7 +150,6 @@ nsIParentChannel
 nsIInterfaceRequestor
 nsIRequestObserver
 )
-;
 bool
 FTPChannelParent
 :

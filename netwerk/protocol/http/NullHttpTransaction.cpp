@@ -36,7 +36,6 @@ NS_IMPL_THREADSAFE_ISUPPORTS0
 (
 NullHttpTransaction
 )
-;
 NullHttpTransaction
 :
 :

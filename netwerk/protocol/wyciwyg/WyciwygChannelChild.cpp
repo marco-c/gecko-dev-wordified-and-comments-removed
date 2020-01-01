@@ -85,7 +85,6 @@ nsIRequest
 nsIChannel
 nsIWyciwygChannel
 )
-;
 WyciwygChannelChild
 :
 :

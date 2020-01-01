@@ -139,7 +139,6 @@ nsIStreamListener
 nsIInterfaceRequestor
 nsIRequestObserver
 )
-;
 bool
 WyciwygChannelParent
 :
