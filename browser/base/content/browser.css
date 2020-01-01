@@ -3780,6 +3780,16 @@ end
 ;
 }
 .
+styleInspector
+{
+min
+-
+width
+:
+350px
+;
+}
+.
 panel
 -
 inner
