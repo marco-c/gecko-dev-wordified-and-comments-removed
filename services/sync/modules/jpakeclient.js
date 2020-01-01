@@ -328,9 +328,9 @@ prototype
 {
 _chain
 :
-Utils
+Async
 .
-asyncChain
+chain
 receiveNoPIN
 :
 function

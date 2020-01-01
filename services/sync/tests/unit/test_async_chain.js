@@ -11,7 +11,7 @@ services
 -
 sync
 /
-util
+async
 .
 js
 "
@@ -122,9 +122,9 @@ methods
 .
 chain
 =
-Utils
+Async
 .
-asyncChain
+chain
 ;
 methods
 .

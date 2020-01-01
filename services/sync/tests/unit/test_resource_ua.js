@@ -634,9 +634,9 @@ next
 )
 ;
 }
-Utils
+Async
 .
-asyncChain
+chain
 (
 test_fetchInfo
 test_desktop_post
