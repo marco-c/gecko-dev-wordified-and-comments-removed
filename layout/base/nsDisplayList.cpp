@@ -758,7 +758,7 @@ nsRefPtr
 nsCaret
 >
 caret
-;
+=
 CurrentPresShellState
 (
 )
@@ -769,10 +769,6 @@ mPresShell
 >
 GetCaret
 (
-getter_AddRefs
-(
-caret
-)
 )
 ;
 return
@@ -868,7 +864,7 @@ nsRefPtr
 nsCaret
 >
 caret
-;
+=
 state
 -
 >
@@ -877,10 +873,6 @@ mPresShell
 >
 GetCaret
 (
-getter_AddRefs
-(
-caret
-)
 )
 ;
 state
