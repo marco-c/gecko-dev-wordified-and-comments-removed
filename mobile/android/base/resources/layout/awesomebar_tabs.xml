@@ -208,14 +208,6 @@ AwesomeBarList
 "
 android
 :
-childDivider
-=
-"
-#
-E5E5E5
-"
-android
-:
 groupIndicator
 =
 "
