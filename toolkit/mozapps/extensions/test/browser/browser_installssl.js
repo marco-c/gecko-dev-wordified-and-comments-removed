@@ -102,7 +102,9 @@ downloading
 +
 gPendingInstall
 .
-sourceURL
+sourceURI
+.
+spec
 )
 ;
 try

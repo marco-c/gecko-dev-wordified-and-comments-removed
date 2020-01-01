@@ -76,7 +76,9 @@ getResourceURI
 spec
 aInstall
 .
-sourceURL
+sourceURI
+.
+spec
 )
 ;
 do_check_true
@@ -118,7 +120,9 @@ jar
 +
 aInstall
 .
-sourceURL
+sourceURI
+.
+spec
 +
 "
 !
@@ -188,7 +192,9 @@ jar
 +
 aInstall
 .
-sourceURL
+sourceURI
+.
+spec
 +
 "
 !

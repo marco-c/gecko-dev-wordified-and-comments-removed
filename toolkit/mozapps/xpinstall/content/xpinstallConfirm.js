@@ -616,7 +616,9 @@ installs
 i
 ]
 .
-sourceURL
+sourceURI
+.
+spec
 ;
 var
 icon

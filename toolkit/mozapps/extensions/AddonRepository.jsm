@@ -1735,7 +1735,7 @@ if
 (
 aSkip
 .
-sourceURLs
+sourceURIs
 .
 indexOf
 (
@@ -2090,7 +2090,7 @@ skip
 ids
 :
 null
-sourceURLs
+sourceURIs
 :
 null
 }
@@ -2125,7 +2125,7 @@ if
 (
 skip
 .
-sourceURLs
+sourceURIs
 )
 self
 .
@@ -2150,7 +2150,7 @@ aInstalls
 {
 skip
 .
-sourceURLs
+sourceURIs
 =
 [
 ]
@@ -2177,13 +2177,15 @@ STATE_AVAILABLE
 )
 skip
 .
-sourceURLs
+sourceURIs
 .
 push
 (
 aInstall
 .
-sourceURL
+sourceURI
+.
+spec
 )
 ;
 }

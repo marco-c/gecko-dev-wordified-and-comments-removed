@@ -9291,7 +9291,9 @@ this
 .
 mInstall
 .
-sourceURL
+sourceURI
+.
+spec
 null
 null
 )

@@ -280,7 +280,7 @@ type
 "
 extension
 "
-sourceURL
+sourceURI
 :
 "
 http
@@ -378,7 +378,7 @@ type
 "
 theme
 "
-sourceURL
+sourceURI
 :
 "
 http
@@ -649,7 +649,7 @@ p
 =
 =
 "
-sourceURL
+sourceURI
 "
 )
 {
@@ -667,6 +667,8 @@ install
 [
 p
 ]
+.
+spec
 RESULTS
 [
 i

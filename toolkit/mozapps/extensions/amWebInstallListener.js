@@ -443,7 +443,7 @@ of
 +
 install
 .
-sourceURL
+sourceURI
 +
 "
 in
