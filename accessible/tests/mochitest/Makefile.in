@@ -539,6 +539,10 @@ test_groupattrs
 .
 html
 \
+test_name_markup
+.
+html
+\
 (
 warning
 test_table_indexes
