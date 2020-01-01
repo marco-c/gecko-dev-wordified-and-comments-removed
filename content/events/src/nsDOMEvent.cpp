@@ -3077,7 +3077,7 @@ nullptr
 commandEvent
 -
 >
-AssignGUIEventData
+AssignCommandEventData
 (
 *
 oldCommandEvent
