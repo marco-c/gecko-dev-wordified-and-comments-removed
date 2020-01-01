@@ -915,10 +915,6 @@ ogv
 headers
 ^
 \
-browser_save_private_link
-.
-js
-\
 bug792517
 .
 html
@@ -1371,6 +1367,10 @@ perwindowpb
 .
 js
 \
+browser_save_private_link_perwindowpb
+.
+js
+\
 (
 NULL
 )
@@ -1388,6 +1388,10 @@ browser_bug767836
 js
 \
 browser_save_link
+.
+js
+\
+browser_save_private_link
 .
 js
 \
