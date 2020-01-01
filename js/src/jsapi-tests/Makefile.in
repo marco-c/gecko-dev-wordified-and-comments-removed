@@ -109,10 +109,6 @@ testAddPropertyPropcache
 .
 cpp
 \
-testArrayBuffer
-.
-cpp
-\
 testArgumentsObject
 .
 cpp
