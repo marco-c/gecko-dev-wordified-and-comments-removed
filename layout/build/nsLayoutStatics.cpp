@@ -328,6 +328,13 @@ nsDOMThreadService
 h
 "
 #
+include
+"
+nsCrossSiteListenerProxy
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -1493,10 +1500,10 @@ ShutdownLibrary
 ;
 #
 endif
-nsXMLHttpRequest
+nsCrossSiteListenerProxy
 :
 :
-ShutdownACCache
+ShutdownPreflightCache
 (
 )
 ;
