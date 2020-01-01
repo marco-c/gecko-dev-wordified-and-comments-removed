@@ -3610,6 +3610,12 @@ IsRequestFullScreenAllowed
 ;
 static
 bool
+IsFullscreenApiContentOnly
+(
+)
+;
+static
+bool
 IsIdleObserverAPIEnabled
 (
 )
@@ -3639,7 +3645,7 @@ aContent
 static
 nsIDocument
 *
-GetRootDocument
+GetFullscreenAncestor
 (
 nsIDocument
 *
@@ -4485,6 +4491,10 @@ sIsFullScreenApiEnabled
 static
 bool
 sTrustedFullScreenOnly
+;
+static
+bool
+sFullscreenApiIsContentOnly
 ;
 static
 uint32_t
