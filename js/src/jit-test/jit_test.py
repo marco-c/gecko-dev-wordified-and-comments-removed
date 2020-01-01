@@ -3860,7 +3860,7 @@ OPTIONS
 tbpl
 :
         
-ion_flags
+flags
 =
 [
                       
@@ -3880,18 +3880,7 @@ jm
 -
 ion
 -
-gvn
-=
-off
-'
-'
--
--
-ion
--
-licm
-=
-off
+eager
 '
 ]
                       
@@ -4045,7 +4034,7 @@ test_list
 for
 variant
 in
-ion_flags
+flags
 :
                 
 new_test
@@ -4078,9 +4067,20 @@ OPTIONS
 ion
 :
         
-args
+flags
 =
 [
+[
+]
+[
+'
+-
+-
+ion
+-
+eager
+'
+]
 ]
         
 for
@@ -4089,6 +4089,12 @@ in
 test_list
 :
             
+for
+variant
+in
+flags
+:
+                
 new_test
 =
 test
@@ -4096,16 +4102,16 @@ test
 copy
 (
 )
-            
+                
 new_test
 .
 jitflags
 .
 extend
 (
-args
+variant
 )
-            
+                
 job_list
 .
 append

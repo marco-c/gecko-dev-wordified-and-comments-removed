@@ -1,3 +1,13 @@
+try
+{
+}
+catch
+(
+x
+)
+{
+}
+;
 function
 ASSERT
 (
