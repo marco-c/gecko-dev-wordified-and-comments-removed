@@ -1202,6 +1202,10 @@ RemoveImageElementFromTable
 (
 this
 tmp
+nsHTMLFormElement
+:
+:
+AttributeUpdated
 )
 ;
 }
@@ -2746,6 +2750,10 @@ RemoveImageElementFromTable
 (
 this
 nameVal
+nsHTMLFormElement
+:
+:
+ElementRemoved
 )
 ;
 }
@@ -2766,6 +2774,10 @@ RemoveImageElementFromTable
 (
 this
 idVal
+nsHTMLFormElement
+:
+:
+ElementRemoved
 )
 ;
 }

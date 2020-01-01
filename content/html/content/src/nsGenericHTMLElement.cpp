@@ -10613,6 +10613,10 @@ RemoveElementFromTable
 (
 this
 nameVal
+nsHTMLFormElement
+:
+:
+ElementRemoved
 )
 ;
 }
@@ -10633,6 +10637,10 @@ RemoveElementFromTable
 (
 this
 idVal
+nsHTMLFormElement
+:
+:
+ElementRemoved
 )
 ;
 }
@@ -11109,6 +11117,10 @@ RemoveElementFromTable
 (
 this
 tmp
+nsHTMLFormElement
+:
+:
+AttributeUpdated
 )
 ;
 }
@@ -11154,6 +11166,10 @@ RemoveElementFromTable
 (
 this
 tmp
+nsHTMLFormElement
+:
+:
+AttributeUpdated
 )
 ;
 }
@@ -11184,6 +11200,10 @@ RemoveElementFromTable
 (
 this
 tmp
+nsHTMLFormElement
+:
+:
+AttributeUpdated
 )
 ;
 }
