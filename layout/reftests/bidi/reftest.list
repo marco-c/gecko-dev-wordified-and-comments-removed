@@ -72,6 +72,12 @@ bidi
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 bidi
@@ -86,6 +92,9 @@ bidi
 ref
 .
 html
+#
+bug
+736726
 =
 =
 bidi
