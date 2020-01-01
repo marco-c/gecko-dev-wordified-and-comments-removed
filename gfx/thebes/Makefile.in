@@ -135,6 +135,10 @@ gfxTextRunWordCache
 .
 h
 \
+gfxUnicodeProperties
+.
+h
+\
 gfxUtils
 .
 h

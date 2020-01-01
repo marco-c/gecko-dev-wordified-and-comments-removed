@@ -3166,9 +3166,6 @@ NSBIDI_LEVEL_OVERRIDE
 }
 }
 }
-#
-ifdef
-FULL_BIDI_ENGINE
 nsresult
 nsBidi
 :
@@ -3189,6 +3186,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+FULL_BIDI_ENGINE
 nsresult
 nsBidi
 :
