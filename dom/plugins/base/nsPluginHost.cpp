@@ -2666,7 +2666,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -2919,7 +2919,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -3335,7 +3335,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -3718,7 +3718,7 @@ return
 res
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -3730,7 +3730,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -4067,7 +4067,7 @@ aDir
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -5468,7 +5468,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -6119,7 +6119,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -6322,7 +6322,7 @@ aExtension
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -6819,7 +6819,7 @@ NS_IMPL_ISUPPORTS1
 DOMPluginImpl
 nsIDOMPlugin
 )
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -6885,7 +6885,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -10247,7 +10247,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -15819,7 +15819,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -16626,7 +16626,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -17144,7 +17144,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -17163,7 +17163,7 @@ aPluginNativeWindow
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
@@ -17181,7 +17181,7 @@ aPluginNativeWindow
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsPluginHost
 :
 :
