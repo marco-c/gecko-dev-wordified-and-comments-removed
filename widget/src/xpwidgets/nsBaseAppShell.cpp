@@ -74,6 +74,10 @@ mSuspendNativeCount
 (
 0
 )
+mEventloopNestingLevel
+(
+0
+)
 mBlockedWait
 (
 nsnull
@@ -83,10 +87,6 @@ mFavorPerf
 0
 )
 mNativeEventPending
-(
-0
-)
-mEventloopNestingLevel
 (
 0
 )
