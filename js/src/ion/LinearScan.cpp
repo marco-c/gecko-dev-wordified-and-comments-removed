@@ -6192,8 +6192,11 @@ isTemp
 )
 )
 {
+DebugOnly
+<
 LDefinition
 *
+>
 def
 =
 reg
