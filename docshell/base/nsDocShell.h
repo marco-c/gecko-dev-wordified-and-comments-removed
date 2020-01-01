@@ -473,6 +473,10 @@ public
 nsIURIClassifierCallback
 public
 nsIRunnable
+public
+nsIChannelEventSink
+public
+nsIInterfaceRequestor
 {
 public
 :
@@ -491,6 +495,8 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSICHANNELCLASSIFIER
 NS_DECL_NSIURICLASSIFIERCALLBACK
 NS_DECL_NSIRUNNABLE
+NS_DECL_NSICHANNELEVENTSINK
+NS_DECL_NSIINTERFACEREQUESTOR
 private
 :
 nsCOMPtr
@@ -505,6 +511,12 @@ nsIChannel
 >
 mSuspendedChannel
 ;
+nsCOMPtr
+<
+nsIInterfaceRequestor
+>
+mNotificationCallbacks
+;
 void
 MarkEntryClassified
 (
@@ -515,6 +527,9 @@ status
 PRBool
 HasBeenClassified
 (
+nsIChannel
+*
+aChannel
 )
 ;
 }
