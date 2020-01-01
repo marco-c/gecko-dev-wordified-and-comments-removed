@@ -1799,7 +1799,7 @@ nsCOMPtr
 nsIAccessNode
 >
 accessNode
-;
+=
 GetAccService
 (
 )
@@ -1809,10 +1809,6 @@ GetCachedAccessNode
 (
 aNode
 mWeakShell
-getter_AddRefs
-(
-accessNode
-)
 )
 ;
 if
