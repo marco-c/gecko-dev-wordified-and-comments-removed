@@ -1422,7 +1422,7 @@ const
 uint32
 CONTRIBUTION_LIMIT
 =
-20000
+2000
 ;
 Property
 *
