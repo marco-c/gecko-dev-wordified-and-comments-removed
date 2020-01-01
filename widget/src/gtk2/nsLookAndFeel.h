@@ -144,6 +144,10 @@ nscolor
 sOddCellBackground
 ;
 static
+nscolor
+sNativeHyperLinkText
+;
+static
 PRUnichar
 sInvisibleCharacter
 ;

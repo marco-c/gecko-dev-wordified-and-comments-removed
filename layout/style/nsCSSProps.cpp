@@ -1577,6 +1577,11 @@ nsILookAndFeel
 :
 :
 eColor__moz_win_communicationstext
+eCSSKeyword__moz_nativehyperlinktext
+nsILookAndFeel
+:
+:
+eColor__moz_nativehyperlinktext
 eCSSKeyword_UNKNOWN
 -
 1
