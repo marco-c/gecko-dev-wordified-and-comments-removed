@@ -47849,6 +47849,7 @@ if
 sn
 &
 &
+(
 SN_TYPE
 (
 sn
@@ -47856,6 +47857,16 @@ sn
 =
 =
 SRC_BREAK
+|
+|
+SN_TYPE
+(
+sn
+)
+=
+=
+SRC_CONT2LABEL
+)
 )
 {
 AUDIT
