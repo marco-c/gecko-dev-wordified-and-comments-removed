@@ -35,6 +35,14 @@ style
 ref
 .
 html
+fuzzy
+-
+if
+(
+Android
+17
+1120
+)
 =
 =
 meter
@@ -82,6 +90,8 @@ style
 ref
 .
 html
+#
+dithering
 =
 =
 meter
