@@ -186,10 +186,6 @@ MmsMessage
 .
 h
 \
-SmsRequest
-.
-h
-\
 SmsSegmentInfo
 .
 h
@@ -291,10 +287,6 @@ Constants
 cpp
 \
 SmsChild
-.
-cpp
-\
-SmsRequest
 .
 cpp
 \
