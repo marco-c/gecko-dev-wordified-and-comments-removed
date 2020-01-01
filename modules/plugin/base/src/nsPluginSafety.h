@@ -1,9 +1,9 @@
 #
 ifndef
-nsPluginSafety_h__
+nsPluginSafety_h_
 #
 define
-nsPluginSafety_h__
+nsPluginSafety_h_
 #
 include
 "

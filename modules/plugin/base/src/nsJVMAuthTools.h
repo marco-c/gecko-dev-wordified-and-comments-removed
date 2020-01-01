@@ -1,9 +1,9 @@
 #
 ifndef
-nsJVMAuthTools_h___
+nsJVMAuthTools_h_
 #
 define
-nsJVMAuthTools_h___
+nsJVMAuthTools_h_
 #
 include
 "

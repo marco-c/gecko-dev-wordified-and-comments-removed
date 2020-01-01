@@ -1,9 +1,9 @@
 #
 ifndef
-nsPluginInstancePeer_h___
+nsPluginInstancePeer_h_
 #
 define
-nsPluginInstancePeer_h___
+nsPluginInstancePeer_h_
 #
 include
 "

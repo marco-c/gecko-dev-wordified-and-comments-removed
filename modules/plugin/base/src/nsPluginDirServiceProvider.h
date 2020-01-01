@@ -1,9 +1,9 @@
 #
 ifndef
-__nsPluginDirServiceProvider_h__
+nsPluginDirServiceProvider_h_
 #
 define
-__nsPluginDirServiceProvider_h__
+nsPluginDirServiceProvider_h_
 #
 include
 "

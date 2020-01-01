@@ -1,9 +1,9 @@
 #
 ifndef
-nsJSNPRuntime_h__
+nsJSNPRuntime_h_
 #
 define
-nsJSNPRuntime_h__
+nsJSNPRuntime_h_
 #
 include
 "

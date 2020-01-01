@@ -1,9 +1,9 @@
 #
 ifndef
-nsPluginsDir_h___
+nsPluginsDir_h_
 #
 define
-nsPluginsDir_h___
+nsPluginsDir_h_
 #
 include
 "
