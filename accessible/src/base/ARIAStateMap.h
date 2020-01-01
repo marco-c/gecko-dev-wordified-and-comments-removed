@@ -51,6 +51,7 @@ eARIAReadonlyOrEditable
 eARIAReadonlyOrEditableIfDefined
 eARIARequired
 eARIASelectable
+eARIASelectableIfDefined
 eReadonlyUntilEditable
 eIndeterminateIfNoValue
 }
