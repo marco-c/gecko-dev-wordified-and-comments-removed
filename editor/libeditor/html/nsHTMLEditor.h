@@ -3528,6 +3528,11 @@ PRBool
 aPreserveRatio
 )
 ;
+void
+HideAnonymousEditingUIs
+(
+)
+;
 PRInt32
 mPositionedObjectX
 ;
