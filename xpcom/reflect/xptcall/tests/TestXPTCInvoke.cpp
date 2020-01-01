@@ -913,13 +913,12 @@ int64_t
 retval
 )
 {
-LL_ADD
-(
 *
 retval
+=
 p1
++
 p2
-)
 ;
 return
 NS_OK
