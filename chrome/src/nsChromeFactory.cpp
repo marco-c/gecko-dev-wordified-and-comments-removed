@@ -183,7 +183,6 @@ NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 nsChromeRegistry
 GetSingleton
 )
-;
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsChromeProtocolHandler
