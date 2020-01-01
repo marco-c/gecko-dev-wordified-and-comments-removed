@@ -337,6 +337,11 @@ importFunction
 workerWindow
 .
 postMessage
+.
+bind
+(
+workerWindow
+)
 "
 postMessage
 "
