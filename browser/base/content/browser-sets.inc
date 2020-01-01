@@ -1269,7 +1269,7 @@ oncommand
 "
 DeveloperToolbar
 .
-focus
+focusToggle
 (
 )
 ;
