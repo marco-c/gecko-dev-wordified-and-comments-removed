@@ -1611,6 +1611,12 @@ finish
 (
 )
 ;
+overridePendingTransition
+(
+0
+0
+)
+;
 }
 private
 void
