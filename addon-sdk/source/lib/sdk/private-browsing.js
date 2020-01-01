@@ -24,7 +24,6 @@ getMode
 on
 :
 onStateChange
-isPermanentPrivateBrowsing
 }
 =
 require
@@ -371,15 +370,6 @@ window
 )
 ;
 }
-if
-(
-isPermanentPrivateBrowsing
-(
-)
-)
-return
-true
-;
 return
 getMode
 (

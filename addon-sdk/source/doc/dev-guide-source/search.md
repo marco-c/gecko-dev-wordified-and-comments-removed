@@ -86,7 +86,7 @@ script
 src
 =
 "
-https
+http
 :
 /
 /
@@ -394,7 +394,7 @@ stylesheet
 href
 =
 "
-https
+http
 :
 /
 /
