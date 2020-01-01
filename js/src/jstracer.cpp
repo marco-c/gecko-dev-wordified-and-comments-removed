@@ -3950,7 +3950,6 @@ DOUBLEPTR
 0
 0
 )
-;
 void
 TraceRecorder
 :
