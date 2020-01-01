@@ -183,10 +183,6 @@ test_biquadFilterNode
 .
 html
 \
-test_currentTime
-.
-html
-\
 test_delayNode
 .
 html
@@ -330,6 +326,10 @@ MOCHITEST_FILES
 =
 \
 test_bug867174
+.
+html
+\
+test_currentTime
 .
 html
 \
