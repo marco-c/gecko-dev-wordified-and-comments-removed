@@ -93,6 +93,10 @@ PTestShutdownSubsub
 .
 ipdl
 \
+PTestStackHooks
+.
+ipdl
+\
 PTestSyncWakeup
 .
 ipdl
