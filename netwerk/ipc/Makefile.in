@@ -208,16 +208,6 @@ base
 /
 src
 \
--
-I
-(
-topsrcdir
-)
-/
-modules
-/
-libjar
-\
 (
 NULL
 )

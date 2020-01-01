@@ -1284,9 +1284,6 @@ mMarkedDestroying
 bool
 mIsDestroyed
 ;
-bool
-mAppPackageFileDescriptorSent
-;
 }
 ;
 }
