@@ -1708,6 +1708,11 @@ nsGUIEvent
 event
 )
 ;
+void
+WillPaintWindow
+(
+)
+;
 bool
 PaintWindow
 (
@@ -2034,6 +2039,12 @@ forget
 )
 ;
 }
+nsIWidget
+*
+GetWidgetForListenerEvents
+(
+)
+;
 protected
 :
 NSView
