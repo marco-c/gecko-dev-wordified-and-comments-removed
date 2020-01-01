@@ -896,7 +896,7 @@ h
 #
 include
 "
-nsHTMLFrame
+nsCanvasFrame
 .
 h
 "
@@ -21782,7 +21782,7 @@ SetIgnoreScrollFrame
 rootScrollFrame
 )
 ;
-CanvasFrame
+nsCanvasFrame
 *
 canvasFrame
 =
