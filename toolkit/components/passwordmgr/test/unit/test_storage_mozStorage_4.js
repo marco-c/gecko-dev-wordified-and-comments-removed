@@ -809,6 +809,7 @@ testnum
 +
 +
 ;
+var
 testdesc
 =
 "
