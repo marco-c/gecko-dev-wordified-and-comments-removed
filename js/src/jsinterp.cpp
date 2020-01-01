@@ -942,6 +942,8 @@ isObject
 )
 )
 return
+!
+!
 js_PrimitiveToObject
 (
 cx
@@ -1753,6 +1755,8 @@ clasp
 js_NoSuchMethodClass
 )
 return
+!
+!
 NoSuchMethod
 (
 cx
@@ -2171,6 +2175,8 @@ cx
 #
 endif
 return
+!
+!
 ok
 ;
 }
@@ -2909,6 +2915,8 @@ fp
 rval
 ;
 return
+!
+!
 ok
 ;
 }
@@ -3923,6 +3931,8 @@ hookData
 ;
 }
 return
+!
+!
 ok
 ;
 }
@@ -4344,6 +4354,8 @@ return
 JS_FALSE
 ;
 return
+!
+!
 JS_ReportErrorFlagsAndNumber
 (
 cx
@@ -4517,6 +4529,8 @@ lmask
 JSVAL_STRING_MASK
 )
 return
+!
+!
 js_EqualStrings
 (
 lval
@@ -5440,6 +5454,8 @@ UndefinedTag
 return
 BooleanTag
 (
+!
+!
 JSBOXEDWORD_TO_BOOLEAN
 (
 w
@@ -9330,6 +9346,8 @@ else
 \
 b
 =
+!
+!
 js_ValueToBoolean
 (
 *
@@ -10641,6 +10659,8 @@ true
 slow_path
 :
 return
+!
+!
 js_IteratorNext
 (
 cx

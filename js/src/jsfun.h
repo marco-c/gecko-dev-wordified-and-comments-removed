@@ -612,9 +612,13 @@ isFastNative
 const
 {
 return
+!
+!
+(
 flags
 &
 JSFUN_FAST_NATIVE
+)
 ;
 }
 bool

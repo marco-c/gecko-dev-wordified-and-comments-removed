@@ -2586,7 +2586,7 @@ js
 class
 Value
 ;
-class
+struct
 Class
 ;
 typedef

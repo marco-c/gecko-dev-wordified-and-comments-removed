@@ -2058,6 +2058,8 @@ objv
 bool
 ok
 =
+!
+!
 js_ValueToObjectOrNull
 (
 cx
