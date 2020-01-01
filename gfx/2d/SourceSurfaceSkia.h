@@ -113,12 +113,11 @@ aFormat
 )
 ;
 bool
-InitWithBitmap
+InitFromCanvas
 (
-const
-SkBitmap
-&
-aBitmap
+SkCanvas
+*
+aCanvas
 SurfaceFormat
 aFormat
 DrawTargetSkia
