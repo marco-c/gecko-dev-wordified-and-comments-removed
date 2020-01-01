@@ -1089,6 +1089,14 @@ align
 "
 center
 "
+style
+=
+"
+overflow
+:
+auto
+;
+"
 >
 <
 spacer
