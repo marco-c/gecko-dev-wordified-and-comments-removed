@@ -679,9 +679,7 @@ aSource
 )
 {
 case
-AddonManager
-.
-SCOPE_APPLICATION
+APP
 :
 return
 strings
@@ -696,9 +694,7 @@ bundled
 )
 ;
 case
-AddonManager
-.
-SCOPE_PROFILE
+PROFILE
 :
 return
 strings
