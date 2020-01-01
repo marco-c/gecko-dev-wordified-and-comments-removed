@@ -437,6 +437,8 @@ stackPushed
 STACK_GRANULARITY
 +
 STACK_GRANULARITY
++
+STACK_GRANULARITY
 ;
 if
 (
@@ -547,6 +549,12 @@ lirbuf
 >
 explicitSavedRegs
 )
+{
+PUSHr
+(
+FP
+)
+;
 for
 (
 int
@@ -570,6 +578,7 @@ i
 ]
 )
 ;
+}
 asm_align_code
 (
 )
@@ -939,6 +948,7 @@ lirbuf
 >
 explicitSavedRegs
 )
+{
 for
 (
 int
@@ -965,6 +975,12 @@ i
 ]
 )
 ;
+POPr
+(
+FP
+)
+;
+}
 POPr
 (
 FP
