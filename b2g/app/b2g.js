@@ -3416,6 +3416,16 @@ enabled
 true
 )
 ;
+pref
+(
+"
+ril
+.
+lastKnownMcc
+"
+724
+)
+;
 #
 endif
 pref
