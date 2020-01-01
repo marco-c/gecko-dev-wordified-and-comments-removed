@@ -898,15 +898,6 @@ aCustomizeURL
 )
 {
 }
-addMicrosummaryGenerator
-:
-function
-addMicrosummaryGenerator
-(
-generatorURL
-)
-{
-}
 addSearchEngine
 :
 function
