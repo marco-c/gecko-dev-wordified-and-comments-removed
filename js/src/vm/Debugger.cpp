@@ -12924,6 +12924,12 @@ if
 global
 )
 {
+ExposeGCThingToActiveJS
+(
+global
+JSTRACE_OBJECT
+)
+;
 Value
 globalValue
 (
