@@ -11493,3 +11493,17 @@ GOOGLE_API_KEY
 "
 )
 ;
+pref
+(
+"
+network
+.
+disable
+.
+ipc
+.
+security
+"
+true
+)
+;
