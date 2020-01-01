@@ -2195,11 +2195,15 @@ fe
 IsBold
 (
 )
+|
+|
+!
+mNeedsBold
 )
 {
 weight
 =
-400
+200
 ;
 }
 }
