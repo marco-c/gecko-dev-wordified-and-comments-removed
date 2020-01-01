@@ -28,15 +28,6 @@ Splendid
 Test
 "
 ;
-const
-description
-=
-"
-My
-Test
-Database
-"
-;
 let
 request
 =
@@ -46,7 +37,6 @@ open
 (
 name
 1
-description
 )
 ;
 request
@@ -142,7 +132,6 @@ open
 (
 name
 version
-description
 )
 ;
 request

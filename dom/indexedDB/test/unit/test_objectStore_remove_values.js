@@ -37,15 +37,6 @@ Splendid
 Test
 "
 ;
-const
-description
-=
-"
-My
-Test
-Database
-"
-;
 var
 data
 =
@@ -218,7 +209,6 @@ name
 i
 +
 1
-description
 )
 ;
 request

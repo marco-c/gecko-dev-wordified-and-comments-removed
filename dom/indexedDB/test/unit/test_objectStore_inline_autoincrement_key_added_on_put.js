@@ -37,15 +37,6 @@ Splendid
 Test
 "
 ;
-const
-description
-=
-"
-My
-Test
-Database
-"
-;
 var
 request
 =
@@ -55,7 +46,6 @@ open
 (
 name
 1
-description
 )
 ;
 request

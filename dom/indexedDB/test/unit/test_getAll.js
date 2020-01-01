@@ -29,15 +29,6 @@ Test
 "
 ;
 const
-description
-=
-"
-My
-Test
-Database
-"
-;
-const
 values
 =
 [
@@ -69,7 +60,6 @@ open
 (
 name
 1
-description
 )
 ;
 request

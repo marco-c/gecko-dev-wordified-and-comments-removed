@@ -29,15 +29,6 @@ Test
 "
 ;
 const
-description
-=
-"
-My
-Test
-Database
-"
-;
-const
 keys
 =
 [
@@ -115,7 +106,6 @@ open
 (
 name
 1
-description
 )
 ;
 request
