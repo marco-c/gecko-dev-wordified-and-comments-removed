@@ -5517,15 +5517,6 @@ CheckPermission
 mobileconnection
 "
 )
-&
-&
-!
-CheckPermission
-(
-"
-mobilenetwork
-"
-)
 )
 {
 return
