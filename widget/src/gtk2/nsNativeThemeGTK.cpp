@@ -1106,10 +1106,14 @@ aState
 disabled
 =
 (
-IsDisabled
 (
-aFrame
+eventState
+&
+NS_EVENT_STATE_DISABLED
 )
+=
+=
+NS_EVENT_STATE_DISABLED
 |
 |
 IsReadOnly

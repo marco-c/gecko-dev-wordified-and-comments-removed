@@ -319,7 +319,7 @@ HIRect
 &
 inBoxRect
 PRBool
-inIsDisabled
+inReadOnly
 PRInt32
 inState
 )
@@ -383,8 +383,6 @@ const
 HIRect
 &
 inBoxRect
-PRBool
-inIsDisabled
 PRInt32
 inState
 PRBool
@@ -415,8 +413,6 @@ HIRect
 inBoxRect
 PRBool
 inSelected
-PRBool
-inDisabled
 PRInt32
 inState
 nsIFrame
@@ -436,6 +432,8 @@ inBoxRect
 nsIFrame
 *
 aFrame
+PRInt32
+inState
 )
 ;
 void
@@ -447,8 +445,6 @@ const
 HIRect
 &
 inBoxRect
-PRBool
-inDisabled
 PRInt32
 inState
 nsIFrame
@@ -469,8 +465,6 @@ HIRect
 inBoxRect
 PRBool
 inIsDefault
-PRBool
-inDisabled
 ThemeButtonValue
 inValue
 ThemeButtonAdornment
@@ -511,8 +505,6 @@ const
 HIRect
 &
 inBoxRect
-PRBool
-inDisabled
 ThemeDrawState
 inDrawState
 ThemeButtonAdornment
