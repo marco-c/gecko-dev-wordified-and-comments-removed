@@ -41240,7 +41240,7 @@ val
 *
 vp
 =
-JSVAL_NULL
+JSVAL_VOID
 ;
 }
 else
@@ -41249,12 +41249,10 @@ JSString
 *
 str
 =
-:
-:
 JS_NewUCStringCopyN
 (
 cx
-reinterpret_cast
+static_cast
 <
 const
 jschar
