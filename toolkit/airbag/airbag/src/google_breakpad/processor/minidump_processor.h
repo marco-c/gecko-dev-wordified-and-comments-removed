@@ -74,7 +74,7 @@ process_state
 )
 ;
 static
-void
+bool
 GetCPUInfo
 (
 Minidump
@@ -86,7 +86,7 @@ info
 )
 ;
 static
-void
+bool
 GetOSInfo
 (
 Minidump
