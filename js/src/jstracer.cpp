@@ -54751,7 +54751,6 @@ argv
 ;
 JS_ASSERT
 (
-!
 fp
 -
 >
@@ -54759,7 +54758,7 @@ getThisValue
 (
 )
 .
-isPrimitive
+isObject
 (
 )
 )
@@ -54795,6 +54794,7 @@ failed
 ;
 JS_ASSERT
 (
+&
 fp
 -
 >
@@ -54802,7 +54802,7 @@ getThisValue
 (
 )
 .
-toObjectOrNull
+toObject
 (
 )
 =
@@ -54816,6 +54816,7 @@ this_ins
 =
 INS_CONSTOBJ
 (
+&
 fp
 -
 >
@@ -54823,7 +54824,7 @@ getThisValue
 (
 )
 .
-toObjectOrNull
+toObject
 (
 )
 )
@@ -54832,6 +54833,7 @@ return
 RECORD_CONTINUE
 ;
 }
+const
 Value
 &
 thisv
@@ -54954,8 +54956,9 @@ argv
 ]
 =
 =
-ObjectOrNullValue
+ObjectValue
 (
+*
 obj
 )
 )
