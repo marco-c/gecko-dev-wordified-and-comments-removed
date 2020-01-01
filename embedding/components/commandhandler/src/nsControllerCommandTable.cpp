@@ -581,11 +581,6 @@ nsIControllerCommand
 >
 commandHandler
 ;
-nsresult
-rv
-;
-rv
-=
 FindCommandHandler
 (
 aCommandName
@@ -667,11 +662,6 @@ nsIControllerCommand
 >
 commandHandler
 ;
-nsresult
-rv
-;
-rv
-=
 FindCommandHandler
 (
 aCommandName
