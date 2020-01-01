@@ -878,12 +878,6 @@ srcdir
 dombindings
 .
 conf
-exports
-:
-:
-dombindings_gen
-.
-h
 dombindings_gen
 .
 cpp
