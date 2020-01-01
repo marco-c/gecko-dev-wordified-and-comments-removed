@@ -5988,15 +5988,8 @@ HOST_LIBS
 HOST_EXTRA_LIBS
 )
 else
-ifneq
-(
-(
+ifdef
 HOST_CPPSRCS
-)
-(
-USE_HOST_CXX
-)
-)
 (
 HOST_CXX
 )
@@ -6972,8 +6965,6 @@ OS_ARCH
 )
 ifdef
 MSMANIFEST_TOOL
-ifdef
-EMBED_MANIFEST_AT
 if
 test
 -
@@ -6997,9 +6988,7 @@ OUTPUTRESOURCE
 :
 \
 ;
-(
-EMBED_MANIFEST_AT
-)
+2
 ;
 \
 rm
@@ -7010,10 +6999,6 @@ manifest
 ;
 \
 fi
-endif
-#
-embed
-manifest
 endif
 #
 MSVC
