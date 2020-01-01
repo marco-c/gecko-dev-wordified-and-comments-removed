@@ -1,13 +1,6 @@
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StandardInteger

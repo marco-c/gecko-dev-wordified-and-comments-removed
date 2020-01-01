@@ -108,7 +108,9 @@ file
 #
 include
 "
-prtypes
+mozilla
+/
+StandardInteger
 .
 h
 "
