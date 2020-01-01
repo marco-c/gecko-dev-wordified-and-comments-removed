@@ -649,6 +649,14 @@ passwordDisabledHosts
 .
 js
 \
+browser_bug479408
+.
+js
+\
+browser_bug479408_sample
+.
+html
+\
 (
 NULL
 )
