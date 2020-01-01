@@ -41,15 +41,6 @@ analyzeLate
 (
 )
 ;
-static
-int
-AllUsesTruncate
-(
-MInstruction
-*
-m
-)
-;
 }
 ;
 }

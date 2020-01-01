@@ -646,7 +646,10 @@ append
 (
 '
 -
-a
+-
+always
+-
+mjit
 '
 )
                     
@@ -667,7 +670,8 @@ append
 (
 '
 -
-d
+-
+debugjit
 '
 )
                     
@@ -688,7 +692,34 @@ append
 (
 '
 -
-m
+-
+jm
+'
+)
+                    
+elif
+name
+=
+=
+'
+no
+-
+jm
+'
+:
+                        
+test
+.
+jitflags
+.
+append
+(
+'
+-
+-
+no
+-
+jm
 '
 )
                     
@@ -737,7 +768,10 @@ append
 (
 '
 -
-D
+-
+dump
+-
+bytecode
 '
 )
                     
