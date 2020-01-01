@@ -713,7 +713,6 @@ enterJIT_
 &
 IsAboutToBeFinalized
 (
-cx
 enterJIT_
 )
 )
@@ -728,7 +727,6 @@ osrPrologue_
 &
 IsAboutToBeFinalized
 (
-cx
 osrPrologue_
 )
 )
@@ -743,7 +741,6 @@ bailoutHandler_
 &
 IsAboutToBeFinalized
 (
-cx
 bailoutHandler_
 )
 )
@@ -758,7 +755,6 @@ argumentsRectifier_
 &
 IsAboutToBeFinalized
 (
-cx
 argumentsRectifier_
 )
 )
@@ -773,7 +769,6 @@ invalidator_
 &
 IsAboutToBeFinalized
 (
-cx
 invalidator_
 )
 )
@@ -811,7 +806,6 @@ i
 &
 IsAboutToBeFinalized
 (
-cx
 bailoutTables_
 [
 i

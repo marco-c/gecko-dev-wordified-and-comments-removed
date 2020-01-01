@@ -4129,6 +4129,7 @@ toGCThing
 )
 )
 ;
+}
 static
 const
 int64_t
