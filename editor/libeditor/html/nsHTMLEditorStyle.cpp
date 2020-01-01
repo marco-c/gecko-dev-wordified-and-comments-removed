@@ -502,10 +502,7 @@ handled
 nsTextRulesInfo
 ruleInfo
 (
-nsTextEditRules
-:
-:
-kSetTextProperty
+kOpSetTextProperty
 )
 ;
 res
@@ -6128,10 +6125,7 @@ handled
 nsTextRulesInfo
 ruleInfo
 (
-nsTextEditRules
-:
-:
-kRemoveTextProperty
+kOpRemoveTextProperty
 )
 ;
 res

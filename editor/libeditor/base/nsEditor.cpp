@@ -611,7 +611,7 @@ mPlaceHolderBatch
 )
 mAction
 (
-nsnull
+kOpNone
 )
 mHandlingActionCount
 (
@@ -8165,7 +8165,7 @@ nsEditor
 :
 StartOperation
 (
-PRInt32
+OperationID
 opID
 nsIEditor
 :
@@ -8196,7 +8196,7 @@ EndOperation
 {
 mAction
 =
-nsnull
+kOpNone
 ;
 mDirection
 =
@@ -20672,7 +20672,7 @@ nsEditor
 :
 HandleInlineSpellCheck
 (
-PRInt32
+OperationID
 action
 nsISelection
 *

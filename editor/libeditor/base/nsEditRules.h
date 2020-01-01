@@ -37,7 +37,10 @@ public
 :
 nsRulesInfo
 (
-int
+nsEditor
+:
+:
+OperationID
 aAction
 )
 :
@@ -54,7 +57,10 @@ nsRulesInfo
 )
 {
 }
-int
+nsEditor
+:
+:
+OperationID
 action
 ;
 }
@@ -91,7 +97,10 @@ DetachEditor
 NS_IMETHOD
 BeforeEdit
 (
-PRInt32
+nsEditor
+:
+:
+OperationID
 action
 nsIEditor
 :
@@ -105,7 +114,10 @@ aDirection
 NS_IMETHOD
 AfterEdit
 (
-PRInt32
+nsEditor
+:
+:
+OperationID
 action
 nsIEditor
 :
