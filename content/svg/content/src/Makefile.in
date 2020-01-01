@@ -269,10 +269,6 @@ nsSVGUnknownElement
 .
 cpp
 \
-nsSVGUseElement
-.
-cpp
-\
 nsSVGViewBox
 .
 cpp
@@ -565,6 +561,10 @@ SVGTSpanElement
 .
 cpp
 \
+SVGUseElement
+.
+cpp
+\
 SVGViewBoxSMILType
 .
 cpp
@@ -795,6 +795,10 @@ SVGTransformableElement
 h
 \
 SVGTSpanElement
+.
+h
+\
+SVGUseElement
 .
 h
 \
