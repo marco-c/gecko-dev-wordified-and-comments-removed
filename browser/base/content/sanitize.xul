@@ -318,6 +318,7 @@ width2
 ondialogaccept
 =
 "
+return
 gSanitizePromptDialog
 .
 sanitize
