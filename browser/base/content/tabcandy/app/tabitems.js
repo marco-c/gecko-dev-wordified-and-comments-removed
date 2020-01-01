@@ -3204,14 +3204,12 @@ getItems
 (
 )
 ;
-iQ
-.
-each
-(
 items
+.
+forEach
+(
 function
 (
-index
 item
 )
 {
