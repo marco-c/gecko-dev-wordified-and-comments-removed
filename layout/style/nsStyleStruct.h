@@ -4651,6 +4651,9 @@ mUserSelect
 PRUint8
 mForceBrokenImageIcon
 ;
+PRUint8
+mIMEMode
+;
 }
 ;
 struct

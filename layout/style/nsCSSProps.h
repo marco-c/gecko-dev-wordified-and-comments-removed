@@ -639,6 +639,13 @@ kKeyEquivalentKTable
 static
 const
 PRInt32
+kIMEModeKTable
+[
+]
+;
+static
+const
+PRInt32
 kListStylePositionKTable
 [
 ]

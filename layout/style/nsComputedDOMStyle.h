@@ -1314,6 +1314,15 @@ aValue
 )
 ;
 nsresult
+GetIMEMode
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
+nsresult
 GetUserFocus
 (
 nsIDOMCSSValue

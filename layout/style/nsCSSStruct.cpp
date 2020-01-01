@@ -2164,6 +2164,12 @@ aCopy
 .
 mForceBrokenImageIcon
 )
+mIMEMode
+(
+aCopy
+.
+mIMEMode
+)
 {
 MOZ_COUNT_CTOR
 (
