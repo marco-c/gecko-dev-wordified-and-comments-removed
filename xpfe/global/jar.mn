@@ -333,7 +333,6 @@ nsClipboard
 .
 js
 )
-*
 content
 /
 global
@@ -342,8 +341,7 @@ nsDragAndDrop
 .
 js
 (
-/
-toolkit
+resources
 /
 content
 /
@@ -351,7 +349,6 @@ nsDragAndDrop
 .
 js
 )
-*
 content
 /
 global
@@ -360,8 +357,7 @@ nsTransferable
 .
 js
 (
-/
-toolkit
+resources
 /
 content
 /

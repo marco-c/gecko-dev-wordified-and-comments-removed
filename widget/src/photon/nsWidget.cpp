@@ -5123,12 +5123,16 @@ pos
 nsEventStatus
 status
 ;
-nsDragEvent
+nsMouseEvent
 event
 (
 PR_TRUE
 0
 nsnull
+nsMouseEvent
+:
+:
+eReal
 )
 ;
 InitEvent

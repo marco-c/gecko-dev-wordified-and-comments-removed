@@ -495,14 +495,6 @@ test_bug447736
 .
 html
 \
-test_draggableprop
-.
-html
-\
-test_dragstart
-.
-html
-\
 (
 NULL
 )
