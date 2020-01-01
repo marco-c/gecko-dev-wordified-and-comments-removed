@@ -457,6 +457,10 @@ browser_privatebrowsing_theming
 .
 js
 \
+browser_privatebrowsing_searchbar
+.
+js
+\
 (
 NULL
 )
