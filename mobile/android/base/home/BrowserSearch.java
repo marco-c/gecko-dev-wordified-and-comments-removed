@@ -2099,6 +2099,17 @@ showSuggestionsOptIn
 (
 )
 {
+if
+(
+mSuggestionsOptInPrompt
+!
+=
+null
+)
+{
+return
+;
+}
 mSuggestionsOptInPrompt
 =
 (
