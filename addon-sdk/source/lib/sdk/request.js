@@ -114,6 +114,7 @@ heritage
 const
 {
 XMLHttpRequest
+forceAllowThirdPartyCookie
 }
 =
 require
@@ -453,10 +454,9 @@ mode
 url
 )
 ;
-xhr
-.
 forceAllowThirdPartyCookie
 (
+xhr
 )
 ;
 xhr
