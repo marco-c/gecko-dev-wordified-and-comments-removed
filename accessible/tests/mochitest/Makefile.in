@@ -478,6 +478,10 @@ test_nsIAccessibleTable_listboxes
 .
 xul
 \
+test_nsIAccessibleHyperlink
+.
+html
+\
 (
 NULL
 )

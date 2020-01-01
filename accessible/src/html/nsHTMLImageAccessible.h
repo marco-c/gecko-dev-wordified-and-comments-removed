@@ -88,7 +88,7 @@ index
 )
 ;
 NS_IMETHOD
-GetAnchors
+GetAnchorsCount
 (
 PRInt32
 *
@@ -107,7 +107,7 @@ aURI
 )
 ;
 NS_IMETHOD
-GetObject
+GetAnchor
 (
 PRInt32
 aIndex
