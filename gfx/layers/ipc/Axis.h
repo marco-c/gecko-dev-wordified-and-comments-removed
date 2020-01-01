@@ -258,6 +258,9 @@ mStartPos
 float
 mVelocity
 ;
+PRInt32
+mAcceleration
+;
 nsRefPtr
 <
 AsyncPanZoomController
