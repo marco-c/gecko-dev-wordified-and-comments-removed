@@ -4259,7 +4259,7 @@ objReg
 ;
 masm
 .
-rshiftPtr
+urshift32
 (
 Imm32
 (
