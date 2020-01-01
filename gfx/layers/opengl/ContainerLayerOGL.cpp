@@ -431,11 +431,6 @@ RenderLayer
 (
 int
 aPreviousFrameBuffer
-DrawThebesLayerCallback
-aCallback
-void
-*
-aCallbackData
 )
 {
 GLuint
@@ -840,8 +835,6 @@ layerToRender
 RenderLayer
 (
 frameBuffer
-aCallback
-aCallbackData
 )
 ;
 layerToRender

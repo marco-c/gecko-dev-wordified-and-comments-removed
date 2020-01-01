@@ -120,11 +120,6 @@ RenderLayer
 (
 int
 aPreviousDestination
-DrawThebesLayerCallback
-aCallback
-void
-*
-aCallbackData
 )
 ;
 protected
