@@ -446,6 +446,11 @@ log
 "
 )
 ;
+chomp
+(
+pushDir
+)
+;
 return
 pushDir
 ;
