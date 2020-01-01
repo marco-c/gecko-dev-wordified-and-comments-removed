@@ -2780,7 +2780,7 @@ browser
 .
 ctrlTab
 .
-mostRecentlyUsed
+previews
 "
 true
 )
