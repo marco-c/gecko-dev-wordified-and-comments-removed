@@ -103,7 +103,7 @@ setup
 name
 =
 '
-marionette
+marionette_client
 '
       
 version
