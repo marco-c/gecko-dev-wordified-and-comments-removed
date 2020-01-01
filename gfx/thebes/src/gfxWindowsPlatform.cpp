@@ -1834,7 +1834,7 @@ for
 PRUint16
 ch
 =
-0x21
+0x20
 ;
 ch
 <
