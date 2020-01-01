@@ -1622,6 +1622,14 @@ PopJSContext
 (
 )
 ;
+bool
+IsJSContextOnStack
+(
+JSContext
+*
+aCx
+)
+;
 }
 }
 namespace
