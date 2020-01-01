@@ -836,7 +836,9 @@ Cookies
 var
 eTLDService
 =
-Cc
+Components
+.
+classes
 [
 "
 mozilla
@@ -857,7 +859,9 @@ service
 .
 getService
 (
-Ci
+Components
+.
+interfaces
 .
 nsIEffectiveTLDService
 )
