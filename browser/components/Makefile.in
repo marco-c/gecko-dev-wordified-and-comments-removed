@@ -472,8 +472,6 @@ dirprovider
 \
 microsummaries
 \
-migration
-\
 preferences
 \
 search
@@ -493,6 +491,13 @@ privatebrowsing
 (
 NULL
 )
+ifndef
+WINCE
+DIRS
++
+=
+migration
+endif
 ifdef
 MOZ_SAFE_BROWSING
 DIRS

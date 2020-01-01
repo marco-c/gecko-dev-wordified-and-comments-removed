@@ -20,8 +20,11 @@ nsPlacesImportExportService
 h
 "
 #
-ifdef
+if
+defined
+(
 XP_WIN
+)
 #
 include
 "
@@ -57,6 +60,9 @@ h
 "
 #
 endif
+#
+ifndef
+WINCE
 #
 include
 "
@@ -171,6 +177,8 @@ nsICabProfileMigrator
 .
 h
 "
+#
+endif
 #
 endif
 #
@@ -206,8 +214,11 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 nsPlacesImportExportService
 )
 #
-ifdef
+if
+defined
+(
 XP_WIN
+)
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsWindowsShellService
@@ -235,6 +246,9 @@ Init
 )
 #
 endif
+#
+ifndef
+WINCE
 #
 if
 !
@@ -316,6 +330,8 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsICabProfileMigrator
 )
+#
+endif
 #
 endif
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -406,6 +422,9 @@ nsAboutFeeds
 :
 Create
 }
+#
+ifndef
+WINCE
 {
 "
 Profile
@@ -605,6 +624,8 @@ seamonkey
 "
 nsSeamonkeyProfileMigratorConstructor
 }
+#
+endif
 }
 ;
 NS_IMPL_NSGETMODULE
