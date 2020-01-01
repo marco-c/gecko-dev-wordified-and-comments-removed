@@ -871,14 +871,6 @@ contentAreaDropListener
 .
 manifest
 \
-messageWakeupService
-.
-js
-\
-messageWakeupService
-.
-manifest
-\
 (
 NULL
 )
@@ -1176,12 +1168,6 @@ include
 \
 (
 NULL
-)
-CXXFLAGS
-+
-=
-(
-TK_CFLAGS
 )
 DEFINES
 +
