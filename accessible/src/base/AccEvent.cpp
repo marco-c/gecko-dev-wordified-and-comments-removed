@@ -386,8 +386,11 @@ mAccessible
 =
 =
 aTarget
-&
-&
+)
+{
+uint32_t
+eventType
+=
 mDependentEvents
 [
 index
@@ -395,6 +398,10 @@ index
 -
 >
 mEventType
+;
+if
+(
+eventType
 =
 =
 nsIAccessibleEvent
@@ -403,13 +410,7 @@ nsIAccessibleEvent
 EVENT_SHOW
 |
 |
-mDependentEvents
-[
-index
-]
--
->
-mEventType
+eventType
 =
 =
 nsIAccessibleEvent
@@ -427,6 +428,7 @@ index
 >
 mEventType
 ;
+}
 }
 }
 return
