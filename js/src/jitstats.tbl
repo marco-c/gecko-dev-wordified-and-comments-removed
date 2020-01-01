@@ -515,6 +515,10 @@ blacklisted
 )
 JITSTAT
 (
+cacheFlushed
+)
+JITSTAT
+(
 archIsIA32
 )
 JITSTAT

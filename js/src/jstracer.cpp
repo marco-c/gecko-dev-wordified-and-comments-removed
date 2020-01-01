@@ -13092,6 +13092,11 @@ flush
 (
 )
 {
+AUDIT
+(
+cacheFlushed
+)
+;
 verbose_only
 (
 for
@@ -38620,6 +38625,11 @@ mismatch
 %
 llu
 )
+flushed
+(
+%
+llu
+)
 \
 n
 "
@@ -38635,6 +38645,9 @@ typeMapMismatchAtEntry
 jitstats
 .
 globalShapeMismatchAtEntry
+jitstats
+.
+cacheFlushed
 )
 ;
 }
