@@ -711,6 +711,8 @@ nsISupports
 securityInfo
 PRBool
 forSTARTTLS
+PRBool
+anonymousLoad
 )
 ;
 nsresult
@@ -739,6 +741,8 @@ nsISupports
 securityInfo
 PRBool
 forSTARTTLS
+PRBool
+anonymousLoad
 )
 ;
 nsresult
