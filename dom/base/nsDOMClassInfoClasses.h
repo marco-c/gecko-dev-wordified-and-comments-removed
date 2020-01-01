@@ -340,10 +340,6 @@ SVGFEColorMatrixElement
 )
 DOMCI_CLASS
 (
-SVGFEComponentTransferElement
-)
-DOMCI_CLASS
-(
 SVGFECompositeElement
 )
 DOMCI_CLASS
