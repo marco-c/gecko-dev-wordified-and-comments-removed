@@ -821,7 +821,7 @@ mSpdyPingThreshold
 (
 PR_SecondsToInterval
 (
-44
+58
 )
 )
 mSpdyPingTimeout

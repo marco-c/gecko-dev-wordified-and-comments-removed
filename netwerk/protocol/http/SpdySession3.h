@@ -528,11 +528,6 @@ PROCESSING_COMPLETE_HEADERS
 PROCESSING_CONTROL_RST_STREAM
 }
 ;
-void
-DeterminePingThreshold
-(
-)
-;
 nsresult
 ResponseHeadersComplete
 (
@@ -571,12 +566,6 @@ void
 GeneratePing
 (
 uint32_t
-)
-;
-void
-ClearPing
-(
-bool
 )
 ;
 void
@@ -868,9 +857,6 @@ mPingSentEpoch
 ;
 uint32_t
 mNextPingID
-;
-bool
-mPingThresholdExperiment
 ;
 }
 ;

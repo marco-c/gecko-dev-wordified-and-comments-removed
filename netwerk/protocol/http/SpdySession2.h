@@ -515,11 +515,6 @@ PROCESSING_CONTROL_SYN_REPLY
 PROCESSING_CONTROL_RST_STREAM
 }
 ;
-void
-DeterminePingThreshold
-(
-)
-;
 nsresult
 HandleSynReplyForValidStream
 (
@@ -576,12 +571,6 @@ void
 GeneratePing
 (
 uint32_t
-)
-;
-void
-ClearPing
-(
-bool
 )
 ;
 void
@@ -852,9 +841,6 @@ mPingSentEpoch
 ;
 uint32_t
 mNextPingID
-;
-bool
-mPingThresholdExperiment
 ;
 }
 ;
