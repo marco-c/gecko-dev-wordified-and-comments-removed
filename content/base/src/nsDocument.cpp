@@ -6787,6 +6787,13 @@ classes
 }
 else
 {
+delete
+classes
+;
+classes
+=
+nsnull
+;
 elements
 =
 new
