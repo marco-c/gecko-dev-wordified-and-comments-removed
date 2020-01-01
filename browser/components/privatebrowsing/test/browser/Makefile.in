@@ -493,6 +493,10 @@ browser_privatebrowsing_import
 .
 js
 \
+browser_privatebrowsing_lastpbcontextexited
+.
+js
+\
 browser_privatebrowsing_localStorage
 .
 js
