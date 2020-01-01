@@ -1424,6 +1424,7 @@ uuid
 ole32
 oleaut32
 Ws2
+ddraw
 )
 ifdef
 WINCE_WINDOWS_MOBILE

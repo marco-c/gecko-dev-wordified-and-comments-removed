@@ -173,6 +173,14 @@ EXPORTS
 gfxFT2Fonts
 .
 h
+\
+gfxDDrawSurface
+.
+h
+\
+(
+NULL
+)
 else
 EXPORTS
 +
