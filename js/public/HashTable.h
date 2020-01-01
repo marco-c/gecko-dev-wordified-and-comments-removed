@@ -1611,10 +1611,10 @@ length
 {
 JS_ASSERT
 (
-table
-=
-=
-NULL
+!
+initialized
+(
+)
 )
 ;
 if
