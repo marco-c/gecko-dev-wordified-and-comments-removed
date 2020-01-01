@@ -4280,6 +4280,16 @@ aIcon
 ;
 intent
 .
+putExtra
+(
+"
+duplicate
+"
+false
+)
+;
+intent
+.
 setAction
 (
 "
