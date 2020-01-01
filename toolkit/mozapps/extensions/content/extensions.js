@@ -3243,6 +3243,8 @@ updateDate
 getTime
 (
 )
+/
+1000
 )
 ;
 if
