@@ -508,6 +508,7 @@ CHECK
 rt2
 )
 ;
+{
 JSContext
 *
 cx2
@@ -578,6 +579,7 @@ JS_DestroyContext
 cx2
 )
 ;
+}
 JS_DestroyRuntime
 (
 rt2
