@@ -1201,6 +1201,9 @@ void
 )
 ;
 nsCSSValue
+mTabSize
+;
+nsCSSValue
 mWordSpacing
 ;
 nsCSSValue

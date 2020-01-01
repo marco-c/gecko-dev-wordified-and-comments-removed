@@ -1434,6 +1434,15 @@ aValue
 )
 ;
 nsresult
+GetMozTabSize
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
+nsresult
 GetOpacity
 (
 nsIDOMCSSValue

@@ -26045,6 +26045,17 @@ kIMEModeKTable
 )
 ;
 case
+eCSSProperty__moz_tab_size
+:
+return
+ParseNonNegativeVariant
+(
+aValue
+VARIANT_HI
+nsnull
+)
+;
+case
 eCSSProperty_letter_spacing
 :
 case
