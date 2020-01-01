@@ -349,7 +349,7 @@ enum
 VMFunction
 :
 :
-ReturnType
+DataType
 DefType
 size_t
 Defs

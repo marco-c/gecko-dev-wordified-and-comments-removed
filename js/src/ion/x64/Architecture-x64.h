@@ -637,7 +637,7 @@ ecx
 static
 const
 uint32
-JSCCallMask
+CallMask
 =
 (
 1
