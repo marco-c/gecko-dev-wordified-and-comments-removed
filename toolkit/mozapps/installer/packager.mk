@@ -4421,6 +4421,16 @@ x
 x
 )
 )
+ifeq
+(
+WINNT
+(
+OS_ARCH
+)
+)
+MOZ_SIGN_PREPARED_PACKAGE_CMD
++
+=
 -
 -
 nsscmd
@@ -4429,6 +4439,7 @@ nsscmd
 SIGN_CMD
 )
 "
+endif
 endif
 #
 For
