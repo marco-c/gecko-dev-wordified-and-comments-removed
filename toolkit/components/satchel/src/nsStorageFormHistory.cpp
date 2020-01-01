@@ -2054,6 +2054,10 @@ fieldname
 =
 ?
 1
+ORDER
+BY
+value
+ASC
 "
 )
 getter_AddRefs
