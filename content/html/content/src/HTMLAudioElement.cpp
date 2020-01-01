@@ -1004,7 +1004,7 @@ HTMLAudioElement
 :
 CanPlayChanged
 (
-bool
+int32_t
 canPlay
 )
 {
@@ -1041,6 +1041,9 @@ MOZ_B2G
 if
 (
 canPlay
+!
+=
+AUDIO_CHANNEL_STATE_MUTED
 )
 {
 SetMutedInternal
@@ -1201,7 +1204,7 @@ if
 mPlayingThroughTheAudioChannel
 )
 {
-bool
+int32_t
 canPlay
 ;
 mAudioChannelAgent

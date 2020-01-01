@@ -2017,7 +2017,13 @@ aType
 nsresult
 UpdateChannelMuteState
 (
-bool
+mozilla
+:
+:
+dom
+:
+:
+AudioChannelState
 aCanPlay
 )
 ;
@@ -2321,6 +2327,9 @@ mDownloadSuspendedByCache
 ;
 AudioChannelType
 mAudioChannelType
+;
+bool
+mAudioChannelFaded
 ;
 bool
 mPlayingThroughTheAudioChannel
