@@ -547,6 +547,9 @@ ElementRestyler
 nsPresContext
 *
 aPresContext
+nsIFrame
+*
+aFrame
 nsChangeHint
 aHintsHandledByAncestors
 )
@@ -557,6 +560,9 @@ const
 ElementRestyler
 &
 aParentRestyler
+nsIFrame
+*
+aFrame
 )
 ;
 enum
@@ -572,6 +578,9 @@ const
 ElementRestyler
 &
 aParentFrameRestyler
+nsIFrame
+*
+aFrame
 )
 ;
 public
@@ -600,9 +609,6 @@ Restyle
 nsPresContext
 *
 aPresContext
-nsIFrame
-*
-aFrame
 nsIContent
 *
 aParentContent
@@ -650,9 +656,6 @@ aOldContext
 nsStyleContext
 *
 aNewContext
-nsIFrame
-*
-aFrame
 nsIContent
 *
 aContent
@@ -674,6 +677,11 @@ nsPresContext
 *
 const
 mPresContext
+;
+nsIFrame
+*
+const
+mFrame
 ;
 nsChangeHint
 mHintsHandled

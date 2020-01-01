@@ -8298,6 +8298,9 @@ ElementRestyler
 nsPresContext
 *
 aPresContext
+nsIFrame
+*
+aFrame
 nsChangeHint
 aHintsHandledByAncestors
 )
@@ -8305,6 +8308,10 @@ aHintsHandledByAncestors
 mPresContext
 (
 aPresContext
+)
+mFrame
+(
+aFrame
 )
 mHintsHandled
 (
@@ -8328,6 +8335,9 @@ const
 ElementRestyler
 &
 aParentRestyler
+nsIFrame
+*
+aFrame
 )
 :
 mPresContext
@@ -8335,6 +8345,10 @@ mPresContext
 aParentRestyler
 .
 mPresContext
+)
+mFrame
+(
+aFrame
 )
 mHintsHandled
 (
@@ -8363,6 +8377,9 @@ const
 ElementRestyler
 &
 aParentRestyler
+nsIFrame
+*
+aFrame
 )
 :
 mPresContext
@@ -8370,6 +8387,10 @@ mPresContext
 aParentRestyler
 .
 mPresContext
+)
+mFrame
+(
+aFrame
 )
 mHintsHandled
 (
@@ -8400,9 +8421,6 @@ aOldContext
 nsStyleContext
 *
 aNewContext
-nsIFrame
-*
-aFrame
 nsIContent
 *
 aContent
@@ -8522,7 +8540,7 @@ aChangeList
 >
 AppendChange
 (
-aFrame
+mFrame
 aContent
 ourChange
 )
@@ -8546,9 +8564,6 @@ Restyle
 nsPresContext
 *
 aPresContext
-nsIFrame
-*
-aFrame
 nsIContent
 *
 aParentContent
@@ -8578,7 +8593,7 @@ aTreeMatchContext
 {
 NS_ASSERTION
 (
-aFrame
+mFrame
 -
 >
 GetContent
@@ -8623,7 +8638,7 @@ nsStyleContext
 *
 oldContext
 =
-aFrame
+mFrame
 -
 >
 StyleContext
@@ -8712,7 +8727,7 @@ nsIContent
 *
 localContent
 =
-aFrame
+mFrame
 -
 >
 GetContent
@@ -8793,7 +8808,7 @@ aChangeList
 >
 AppendChange
 (
-aFrame
+mFrame
 content
 restyleData
 .
@@ -8849,7 +8864,7 @@ nsIFrame
 *
 providerFrame
 =
-aFrame
+mFrame
 -
 >
 GetParentStyleContextFrame
@@ -8870,7 +8885,7 @@ GetParent
 )
 =
 =
-aFrame
+mFrame
 ;
 if
 (
@@ -8909,7 +8924,7 @@ GetContent
 )
 =
 =
-aFrame
+mFrame
 -
 >
 GetContent
@@ -8950,6 +8965,7 @@ providerRestyler
 PARENT_CONTEXT_FROM_CHILD_FRAME
 *
 this
+providerFrame
 )
 ;
 providerRestyler
@@ -8957,7 +8973,6 @@ providerRestyler
 Restyle
 (
 aPresContext
-providerFrame
 aParentContent
 aChangeList
 nsChangeHint_Hints_NotHandledForDescendants
@@ -8995,7 +9010,7 @@ if
 providerFrame
 !
 =
-aFrame
+mFrame
 -
 >
 GetParent
@@ -9016,7 +9031,7 @@ nsIFrame
 *
 nextContinuation
 =
-aFrame
+mFrame
 -
 >
 GetNextContinuation
@@ -9092,7 +9107,7 @@ context
 if
 (
 (
-aFrame
+mFrame
 -
 >
 GetStateBits
@@ -9104,7 +9119,7 @@ NS_FRAME_IS_SPECIAL
 &
 &
 !
-aFrame
+mFrame
 -
 >
 GetPrevContinuation
@@ -9122,7 +9137,7 @@ nsIFrame
 *
 >
 (
-aFrame
+mFrame
 -
 >
 Properties
@@ -9262,7 +9277,7 @@ prevContinuation
 =
 GetPrevContinuationWithPossiblySameStyle
 (
-aFrame
+mFrame
 )
 ;
 nsStyleContext
@@ -9381,7 +9396,7 @@ parentContext
 ElementForStyleContext
 (
 aParentContent
-aFrame
+mFrame
 pseudoType
 )
 )
@@ -9420,7 +9435,7 @@ element
 ElementForStyleContext
 (
 aParentContent
-aFrame
+mFrame
 pseudoType
 )
 ;
@@ -9479,7 +9494,7 @@ aChangeList
 >
 AppendChange
 (
-aFrame
+mFrame
 element
 nsChangeHint_ReconstructFrame
 )
@@ -9664,7 +9679,7 @@ copyFromContinuation
 TryStartingTransition
 (
 aPresContext
-aFrame
+mFrame
 -
 >
 GetContent
@@ -9680,7 +9695,6 @@ CaptureChange
 (
 oldContext
 newContext
-aFrame
 content
 aChangeList
 aParentFrameHintsNotHandledForDescendants
@@ -9698,7 +9712,7 @@ nsChangeHint_ReconstructFrame
 )
 )
 {
-aFrame
+mFrame
 -
 >
 SetStyleContext
@@ -9755,7 +9769,7 @@ nullptr
 ;
 oldExtraContext
 =
-aFrame
+mFrame
 -
 >
 GetAdditionalStyleContext
@@ -9907,7 +9921,6 @@ CaptureChange
 (
 oldExtraContext
 newExtraContext
-aFrame
 content
 aChangeList
 aParentFrameHintsNotHandledForDescendants
@@ -9931,7 +9944,7 @@ nsChangeHint_ReconstructFrame
 )
 )
 {
-aFrame
+mFrame
 -
 >
 SetAdditionalStyleContext
@@ -9975,7 +9988,7 @@ pseudoTag
 {
 checkUndisplayed
 =
-aFrame
+mFrame
 =
 =
 frameConstructor
@@ -10362,7 +10375,7 @@ pseudoTag
 &
 (
 (
-aFrame
+mFrame
 -
 >
 GetStateBits
@@ -10374,7 +10387,7 @@ NS_FRAME_MAY_HAVE_GENERATED_CONTENT
 |
 |
 (
-aFrame
+mFrame
 -
 >
 GetContentInsertionFrame
@@ -10395,7 +10408,7 @@ nsIFrame
 *
 prevContinuation
 =
-aFrame
+mFrame
 -
 >
 GetPrevContinuation
@@ -10416,7 +10429,7 @@ nsLayoutUtils
 :
 GetBeforeFrame
 (
-aFrame
+mFrame
 )
 &
 &
@@ -10446,7 +10459,7 @@ aChangeList
 >
 AppendChange
 (
-aFrame
+mFrame
 content
 nsChangeHint_ReconstructFrame
 )
@@ -10476,7 +10489,7 @@ pseudoTag
 &
 (
 (
-aFrame
+mFrame
 -
 >
 GetStateBits
@@ -10488,7 +10501,7 @@ NS_FRAME_MAY_HAVE_GENERATED_CONTENT
 |
 |
 (
-aFrame
+mFrame
 -
 >
 GetContentInsertionFrame
@@ -10509,7 +10522,7 @@ nsIFrame
 *
 nextContinuation
 =
-aFrame
+mFrame
 -
 >
 GetNextContinuation
@@ -10545,7 +10558,7 @@ nsLayoutUtils
 :
 GetAfterFrame
 (
-aFrame
+mFrame
 )
 )
 {
@@ -10560,7 +10573,7 @@ aChangeList
 >
 AppendChange
 (
-aFrame
+mFrame
 content
 nsChangeHint_ReconstructFrame
 )
@@ -10603,7 +10616,7 @@ IsAccessibilityActive
 &
 &
 !
-aFrame
+mFrame
 -
 >
 GetPrevContinuation
@@ -10617,7 +10630,7 @@ nsLayoutUtils
 :
 FrameIsNonFirstInIBSplit
 (
-aFrame
+mFrame
 )
 )
 {
@@ -10705,7 +10718,7 @@ aVisibleKidsOfHiddenElement
 .
 AppendElement
 (
-aFrame
+mFrame
 -
 >
 GetContent
@@ -10727,7 +10740,7 @@ nsIFrame
 ChildListIterator
 lists
 (
-aFrame
+mFrame
 )
 ;
 for
@@ -10969,6 +10982,7 @@ oofRestyler
 (
 *
 this
+outOfFlowFrame
 )
 ;
 oofRestyler
@@ -10988,7 +11002,6 @@ oofRestyler
 Restyle
 (
 aPresContext
-outOfFlowFrame
 content
 aChangeList
 nonInheritedHints
@@ -11019,6 +11032,7 @@ phRestyler
 (
 *
 this
+child
 )
 ;
 phRestyler
@@ -11026,7 +11040,6 @@ phRestyler
 Restyle
 (
 aPresContext
-child
 content
 aChangeList
 nonInheritedHints
@@ -11053,6 +11066,7 @@ childRestyler
 (
 *
 this
+child
 )
 ;
 childRestyler
@@ -11060,7 +11074,6 @@ childRestyler
 Restyle
 (
 aPresContext
-child
 content
 aChangeList
 nonInheritedHints
@@ -11107,7 +11120,7 @@ nsIPresShell
 *
 presShell
 =
-aFrame
+mFrame
 -
 >
 PresContext
@@ -11123,7 +11136,7 @@ nsIContent
 *
 content
 =
-aFrame
+mFrame
 -
 >
 GetContent
@@ -11182,7 +11195,7 @@ nsIPresShell
 *
 presShell
 =
-aFrame
+mFrame
 -
 >
 PresContext
@@ -11198,7 +11211,7 @@ nsIContent
 *
 content
 =
-aFrame
+mFrame
 -
 >
 GetContent
@@ -11466,6 +11479,7 @@ ElementRestyler
 restyler
 (
 mPresContext
+frame
 aMinChange
 )
 ;
@@ -11474,7 +11488,6 @@ restyler
 Restyle
 (
 mPresContext
-frame
 nullptr
 aChangeList
 nsChangeHint
