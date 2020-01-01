@@ -36044,7 +36044,7 @@ const
 size_t
 maxNumProperties
 =
-8
+7
 ;
 NS_ABORT_IF_FALSE
 (
@@ -36676,7 +36676,6 @@ eCSSProperty_animation_delay
 eCSSProperty_animation_direction
 eCSSProperty_animation_fill_mode
 eCSSProperty_animation_iteration_count
-eCSSProperty_animation_play_state
 eCSSProperty_animation_name
 }
 ;
@@ -36771,17 +36770,6 @@ eCSSUnit_Number
 initialValues
 [
 6
-]
-.
-SetIntValue
-(
-NS_STYLE_ANIMATION_PLAY_STATE_RUNNING
-eCSSUnit_Enumerated
-)
-;
-initialValues
-[
-7
 ]
 .
 SetNoneValue
