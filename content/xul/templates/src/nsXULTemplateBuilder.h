@@ -268,6 +268,16 @@ RebuildAll
 =
 0
 ;
+void
+RunnableRebuild
+(
+)
+{
+Rebuild
+(
+)
+;
+}
 nsresult
 GetTemplateRoot
 (
