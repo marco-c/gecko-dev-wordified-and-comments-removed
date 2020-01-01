@@ -629,7 +629,7 @@ NSAccessibilityUnknownRole
 mGeckoAccessible
 -
 >
-NativeInteractiveState
+InteractiveState
 (
 )
 &
