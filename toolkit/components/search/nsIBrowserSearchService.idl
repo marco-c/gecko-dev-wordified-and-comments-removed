@@ -1710,6 +1710,9 @@ objects
 void
 getEngines
 (
+[
+optional
+]
 out
 unsigned
 long
@@ -1760,6 +1763,9 @@ objects
 void
 getVisibleEngines
 (
+[
+optional
+]
 out
 unsigned
 long
@@ -1826,6 +1832,9 @@ objects
 void
 getDefaultEngines
 (
+[
+optional
+]
 out
 unsigned
 long

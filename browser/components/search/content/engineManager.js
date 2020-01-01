@@ -2056,8 +2056,6 @@ searchService
 .
 getVisibleEngines
 (
-{
-}
 )
 .
 map
@@ -2075,8 +2073,6 @@ searchService
 .
 getDefaultEngines
 (
-{
-}
 )
 .
 map
@@ -2106,13 +2102,9 @@ function
 (
 e
 )
-{
-return
 e
 .
 hidden
-;
-}
 )
 ;
 gEngineManagerDialog

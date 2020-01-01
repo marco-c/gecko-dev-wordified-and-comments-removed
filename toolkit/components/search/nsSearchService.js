@@ -19232,8 +19232,6 @@ searchService
 .
 getEngines
 (
-{
-}
 )
 )
 {

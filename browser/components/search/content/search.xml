@@ -1411,8 +1411,6 @@ searchService
 .
 getVisibleEngines
 (
-{
-}
 )
 ;
 return
