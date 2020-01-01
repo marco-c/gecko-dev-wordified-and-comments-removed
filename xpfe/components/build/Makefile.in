@@ -581,11 +581,16 @@ specific
 includes
 ifdef
 MOZ_SUITE
+ifdef
+SUITE_USING_XPFE_DM
 REQUIRES
 +
 =
-\
 downloadmanager
+endif
+REQUIRES
++
+=
 \
 intl
 \
