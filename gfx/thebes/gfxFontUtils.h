@@ -2357,6 +2357,17 @@ numOfLongHorMetrics
 ;
 }
 ;
+struct
+MaxpTableHeader
+{
+AutoSwap_PRUint32
+version
+;
+AutoSwap_PRUint16
+numGlyphs
+;
+}
+;
 #
 pragma
 pack
