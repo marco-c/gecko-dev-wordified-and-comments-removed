@@ -478,6 +478,10 @@ nsPIPlacesHistoryListenersNotifier
 .
 idl
 \
+mozIPlacesAutoComplete
+.
+idl
+\
 (
 NULL
 )

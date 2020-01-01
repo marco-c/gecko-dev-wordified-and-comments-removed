@@ -96,4 +96,15 @@ mozStorageCID
 h
 "
 #
+include
+"
+mozilla
+/
+storage
+/
+Variant
+.
+h
+"
+#
 endif
