@@ -51,12 +51,6 @@ nsLinkState
 aState
 )
 ;
-PRInt32
-LinkState
-(
-)
-const
-;
 protected
 :
 virtual
