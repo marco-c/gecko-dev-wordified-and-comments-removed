@@ -20370,7 +20370,7 @@ runtime
 >
 atomState
 .
-callAtom
+__call__Atom
 )
 &
 fval
@@ -20643,7 +20643,7 @@ runtime
 >
 atomState
 .
-constructAtom
+__construct__Atom
 )
 &
 cval
@@ -20876,7 +20876,7 @@ runtime
 >
 atomState
 .
-hasInstanceAtom
+__hasInstance__Atom
 )
 &
 fval

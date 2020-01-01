@@ -306,9 +306,9 @@ endif
 #
 ifdef
 NARCISSUS
-js_call_str
-js_construct_str
-js_hasInstance_str
+js___call___str
+js___construct___str
+js___hasInstance___str
 js_ExecutionContext_str
 js_current_str
 #
@@ -823,7 +823,7 @@ ifdef
 NARCISSUS
 const
 char
-js_call_str
+js___call___str
 [
 ]
 =
@@ -833,7 +833,7 @@ __call__
 ;
 const
 char
-js_construct_str
+js___construct___str
 [
 ]
 =
@@ -843,7 +843,7 @@ __construct__
 ;
 const
 char
-js_hasInstance_str
+js___hasInstance___str
 [
 ]
 =

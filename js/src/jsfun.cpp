@@ -7741,7 +7741,6 @@ JS_FN
 __applyConstructor__
 "
 fun_applyConstructor
-0
 1
 0
 )
