@@ -1493,7 +1493,7 @@ IndexedDatabaseManager
 IndexedDatabaseManager
 :
 :
-GetOrCreateInstance
+FactoryCreate
 )
 #
 if

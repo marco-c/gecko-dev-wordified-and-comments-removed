@@ -584,6 +584,16 @@ I
 topsrcdir
 )
 /
+xpcom
+/
+build
+\
+-
+I
+(
+topsrcdir
+)
+/
 dom
 /
 base
