@@ -29,6 +29,9 @@ MPAPI
 .
 h
 "
+class
+nsACString
+;
 namespace
 mozilla
 {
@@ -80,6 +83,10 @@ MediaPluginReader
 AbstractMediaDecoder
 *
 aDecoder
+const
+nsACString
+&
+aContentType
 )
 ;
 ~

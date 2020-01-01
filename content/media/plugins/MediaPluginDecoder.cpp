@@ -57,6 +57,7 @@ new
 MediaPluginReader
 (
 this
+mType
 )
 )
 ;
