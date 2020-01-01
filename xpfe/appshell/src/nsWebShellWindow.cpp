@@ -3286,7 +3286,7 @@ left
 |
 |
 *
-aY
+aX
 >
 left
 +
