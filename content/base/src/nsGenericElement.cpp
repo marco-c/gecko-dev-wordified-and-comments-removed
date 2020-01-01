@@ -13953,8 +13953,13 @@ aInstancePtr
 )
 ;
 }
+*
+aInstancePtr
+=
+nsnull
+;
 return
-NS_NOINTERFACE
+NS_ERROR_NO_INTERFACE
 ;
 }
 nsresult

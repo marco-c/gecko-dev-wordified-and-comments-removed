@@ -332,6 +332,16 @@ void
 aInstancePtr
 )
 {
+NS_PRECONDITION
+(
+aInstancePtr
+"
+null
+out
+param
+"
+)
+;
 if
 (
 aIID
@@ -355,7 +365,6 @@ return
 NS_OK
 ;
 }
-else
 return
 mOuter
 -
