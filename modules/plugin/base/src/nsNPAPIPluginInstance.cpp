@@ -1918,7 +1918,7 @@ contentLength
 ;
 mStreamBufferSize
 =
-PR_MAX
+NS_MAX
 (
 length
 contentLength
@@ -1926,10 +1926,13 @@ contentLength
 ;
 mStreamBufferSize
 =
-PR_MIN
+NS_MIN
 (
 mStreamBufferSize
+PRUint32
+(
 MAX_PLUGIN_NECKO_BUFFER
+)
 )
 ;
 mStreamBuffer
@@ -2091,7 +2094,7 @@ buf
 PRUint32
 bytesToRead
 =
-PR_MIN
+NS_MIN
 (
 length
 mStreamBufferSize
@@ -2325,7 +2328,7 @@ break
 }
 numtowrite
 =
-PR_MIN
+NS_MIN
 (
 numtowrite
 mStreamBufferByteCount
@@ -2471,7 +2474,7 @@ data
 ;
 writeCount
 =
-PR_MIN
+NS_MIN
 (
 writeCount
 mStreamBufferByteCount

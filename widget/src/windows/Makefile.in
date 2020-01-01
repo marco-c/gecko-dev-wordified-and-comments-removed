@@ -731,6 +731,13 @@ config
 .
 mk
 endif
+ifdef
+ENABLE_TESTS
+TOOL_DIRS
++
+=
+tests
+endif
 include
 (
 topsrcdir
