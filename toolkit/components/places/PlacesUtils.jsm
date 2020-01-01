@@ -10022,7 +10022,12 @@ this
 .
 _transactions
 =
+Array
+.
+slice
+(
 aTransactions
+)
 ;
 this
 .
