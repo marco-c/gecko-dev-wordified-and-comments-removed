@@ -698,6 +698,10 @@ test_bug527306
 .
 html
 \
+test_bug579767
+.
+html
+\
 test_bug597333
 .
 html
@@ -779,6 +783,14 @@ file_bug514732_1
 html
 \
 file_bug514732_helper
+.
+html
+\
+file_bug579767_1
+.
+html
+\
+file_bug579767_2
 .
 html
 \

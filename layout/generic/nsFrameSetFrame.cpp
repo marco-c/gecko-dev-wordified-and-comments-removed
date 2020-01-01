@@ -330,10 +330,6 @@ mSource
 =
 aSource
 ;
-mActive
-=
-PR_TRUE
-;
 }
 void
 nsFramesetDrag
@@ -359,10 +355,6 @@ mChange
 mSource
 =
 nsnull
-;
-mActive
-=
-PR_FALSE
 ;
 }
 class
@@ -4583,14 +4575,6 @@ return
 NS_OK
 ;
 }
-if
-(
-!
-mDrag
-.
-mActive
-)
-{
 CalculateRowCol
 (
 aPresContext
@@ -4609,7 +4593,6 @@ rowSpecs
 mRowSizes
 )
 ;
-}
 nsAutoArrayPtr
 <
 PRBool

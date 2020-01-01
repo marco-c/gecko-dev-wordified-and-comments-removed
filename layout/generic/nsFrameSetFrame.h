@@ -160,9 +160,6 @@ mChange
 PRPackedBool
 mVertical
 ;
-PRPackedBool
-mActive
-;
 nsFramesetDrag
 (
 )
