@@ -1515,6 +1515,18 @@ groupItem
 hidden
 &
 &
+(
+groupItem
+.
+getTitle
+(
+)
+.
+trim
+(
+)
+|
+|
 groupItem
 .
 getChildren
@@ -1522,6 +1534,7 @@ getChildren
 )
 .
 length
+)
 &
 &
 (
