@@ -669,7 +669,7 @@ vp
 endif
 extern
 JSBool
-js_ArrayCompPush
+js_NewbornArrayPush
 (
 JSContext
 *
@@ -683,7 +683,7 @@ js
 :
 Value
 &
-vp
+v
 )
 ;
 JSBool

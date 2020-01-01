@@ -87118,7 +87118,7 @@ w
 call
 (
 &
-js_ArrayCompPush_tn_ci
+js_NewbornArrayPush_tn_ci
 args
 )
 ;

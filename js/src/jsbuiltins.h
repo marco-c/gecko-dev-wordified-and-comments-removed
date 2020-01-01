@@ -3126,7 +3126,7 @@ NewDenseUnallocatedArray
 }
 JS_DECLARE_CALLINFO
 (
-js_ArrayCompPush_tn
+js_NewbornArrayPush_tn
 )
 JS_DECLARE_CALLINFO
 (
