@@ -3910,7 +3910,7 @@ private
 #
 ifdef
 DEBUG_CC
-NS_METHOD_
+NS_IMETHOD_
 (
 void
 )
@@ -3928,7 +3928,7 @@ objName
 ;
 #
 else
-NS_METHOD_
+NS_IMETHOD_
 (
 void
 )
@@ -3940,7 +3940,7 @@ refCount
 ;
 #
 endif
-NS_METHOD_
+NS_IMETHOD_
 (
 void
 )
@@ -3951,7 +3951,7 @@ nsISupports
 child
 )
 ;
-NS_METHOD_
+NS_IMETHOD_
 (
 void
 )
@@ -3965,7 +3965,7 @@ nsCycleCollectionParticipant
 participant
 )
 ;
-NS_METHOD_
+NS_IMETHOD_
 (
 void
 )
@@ -4285,7 +4285,10 @@ Mark
 )
 ;
 }
+NS_IMETHODIMP_
+(
 void
+)
 #
 ifdef
 DEBUG_CC
@@ -4376,7 +4379,10 @@ mVisitedNode
 #
 endif
 }
+NS_IMETHODIMP_
+(
 void
+)
 GCGraphBuilder
 :
 :
@@ -4472,7 +4478,10 @@ mInternalRefs
 ;
 }
 }
+NS_IMETHODIMP_
+(
 void
+)
 GCGraphBuilder
 :
 :
@@ -4540,7 +4549,10 @@ childPi
 mInternalRefs
 ;
 }
+NS_IMETHODIMP_
+(
 void
+)
 GCGraphBuilder
 :
 :
@@ -7135,7 +7147,7 @@ return
 mSuppressThisNode
 ;
 }
-NS_METHOD_
+NS_IMETHOD_
 (
 void
 )
@@ -7165,7 +7177,7 @@ nsnull
 )
 ;
 }
-NS_METHOD_
+NS_IMETHOD_
 (
 void
 )
@@ -7177,7 +7189,7 @@ child
 )
 {
 }
-NS_METHOD_
+NS_IMETHOD_
 (
 void
 )
@@ -7191,7 +7203,7 @@ child
 )
 {
 }
-NS_METHOD_
+NS_IMETHOD_
 (
 void
 )
