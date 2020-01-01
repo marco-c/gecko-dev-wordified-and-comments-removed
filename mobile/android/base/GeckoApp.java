@@ -13526,7 +13526,7 @@ notifyGeckoReady
 ;
 mLayerView
 .
-setTouchIntercepter
+addTouchInterceptor
 (
 this
 )
