@@ -102,6 +102,15 @@ JS_FREE_PATTERN
 0xDA
 #
 ifdef
+DEBUG
+#
+define
+JS_CRASH_DIAGNOSTICS
+1
+#
+endif
+#
+ifdef
 JS_CRASH_DIAGNOSTICS
 #
 define
