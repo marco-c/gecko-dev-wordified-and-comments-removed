@@ -3193,7 +3193,7 @@ position
 (
 )
 .
-top
+x
 +
 phantom
 .
@@ -3210,7 +3210,7 @@ position
 (
 )
 .
-left
+y
 +
 phantom
 .
