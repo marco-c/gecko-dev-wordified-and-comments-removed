@@ -4591,7 +4591,7 @@ if
 XMLHttpRequestBinding_workers
 :
 :
-CreateInterfaceObjects
+GetProtoObject
 (
 aCx
 global
@@ -4603,7 +4603,7 @@ global
 XMLHttpRequestUploadBinding_workers
 :
 :
-CreateInterfaceObjects
+GetProtoObject
 (
 aCx
 global

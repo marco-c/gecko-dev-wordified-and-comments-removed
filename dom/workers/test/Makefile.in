@@ -181,6 +181,14 @@ importScripts_worker_imported4
 .
 js
 \
+test_instanceof
+.
+html
+\
+instanceof_worker
+.
+js
+\
 test_json
 .
 html
