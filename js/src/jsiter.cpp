@@ -5232,9 +5232,6 @@ next
 JS_FS_END
 }
 ;
-#
-if
-JS_HAS_GENERATORS
 static
 JSBool
 CloseGenerator
@@ -5246,8 +5243,6 @@ HandleObject
 genobj
 )
 ;
-#
-endif
 bool
 js
 :
@@ -5464,9 +5459,6 @@ props_array
 ;
 }
 }
-#
-if
-JS_HAS_GENERATORS
 else
 if
 (
@@ -5489,8 +5481,6 @@ obj
 )
 ;
 }
-#
-endif
 return
 true
 ;
@@ -6867,9 +6857,6 @@ stopiter_hasInstance
 NULL
 }
 ;
-#
-if
-JS_HAS_GENERATORS
 static
 void
 generator_finalize
@@ -9001,8 +8988,6 @@ JSPROP_ROPERM
 JS_FS_END
 }
 ;
-#
-endif
 bool
 GlobalObject
 :
@@ -9296,9 +9281,6 @@ proto
 )
 ;
 }
-#
-if
-JS_HAS_GENERATORS
 if
 (
 global
@@ -9361,8 +9343,6 @@ proto
 )
 ;
 }
-#
-endif
 if
 (
 global

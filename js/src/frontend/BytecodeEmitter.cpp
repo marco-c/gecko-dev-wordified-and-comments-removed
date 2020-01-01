@@ -26152,9 +26152,6 @@ ParseNode
 pn
 )
 {
-#
-if
-JS_HAS_GENERATORS
 if
 (
 pn
@@ -26250,8 +26247,6 @@ JSOP_ENDINIT
 0
 ;
 }
-#
-endif
 if
 (
 !
@@ -27848,9 +27843,6 @@ pn
 ;
 break
 ;
-#
-if
-JS_HAS_GENERATORS
 case
 PNK_YIELD
 :
@@ -27945,8 +27937,6 @@ false
 ;
 break
 ;
-#
-endif
 case
 PNK_STATEMENTLIST
 :
@@ -28556,9 +28546,6 @@ break
 ;
 #
 endif
-#
-if
-JS_HAS_GENERATORS
 case
 PNK_ARRAYPUSH
 :
@@ -28625,19 +28612,12 @@ false
 break
 ;
 }
-#
-endif
 case
 PNK_ARRAY
 :
-#
-if
-JS_HAS_GENERATORS
 case
 PNK_ARRAYCOMP
 :
-#
-endif
 ok
 =
 EmitArray

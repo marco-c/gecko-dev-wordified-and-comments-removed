@@ -6518,9 +6518,6 @@ uint32_t
 >
 blockDepth
 ;
-#
-if
-JS_HAS_GENERATORS
 if
 (
 JS_UNLIKELY
@@ -6609,8 +6606,6 @@ error
 ;
 }
 }
-#
-endif
 bool
 interpReturnOK
 ;
@@ -16539,9 +16534,6 @@ END_CASE
 (
 JSOP_LEAVEBLOCK
 )
-#
-if
-JS_HAS_GENERATORS
 BEGIN_CASE
 (
 JSOP_GENERATOR
@@ -16859,8 +16851,6 @@ END_CASE
 (
 JSOP_ARRAYPUSH
 )
-#
-endif
 default
 :
 {
@@ -17103,9 +17093,6 @@ pc
 JSOP_ENTERBLOCK
 )
 ;
-#
-if
-JS_HAS_GENERATORS
 if
 (
 JS_UNLIKELY
@@ -17125,8 +17112,6 @@ JS_GENERATOR_CLOSING
 )
 break
 ;
-#
-endif
 len
 =
 0
@@ -17247,9 +17232,6 @@ interpReturnOK
 =
 false
 ;
-#
-if
-JS_HAS_GENERATORS
 if
 (
 JS_UNLIKELY
@@ -17299,8 +17281,6 @@ clearReturnValue
 )
 ;
 }
-#
-endif
 }
 else
 {

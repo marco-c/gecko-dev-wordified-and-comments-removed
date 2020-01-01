@@ -1153,9 +1153,6 @@ closedOK
 }
 ;
 }
-#
-if
-JS_HAS_GENERATORS
 enum
 JSGeneratorState
 {
@@ -1235,8 +1232,6 @@ gen
 )
 ;
 }
-#
-endif
 extern
 JSObject
 *
