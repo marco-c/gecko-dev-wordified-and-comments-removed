@@ -573,6 +573,9 @@ OBJ_SUFFIX
 (
 MKSHLIB
 )
+(
+LDFLAGS
+)
 <
 echo
 =
