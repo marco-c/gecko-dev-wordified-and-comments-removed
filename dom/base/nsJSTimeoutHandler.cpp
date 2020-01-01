@@ -95,6 +95,13 @@ FunctionBinding
 .
 h
 "
+#
+include
+"
+nsAXPCNativeCallContext
+.
+h
+"
 static
 const
 char

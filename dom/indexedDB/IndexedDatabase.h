@@ -72,6 +72,13 @@ nsTArray
 h
 "
 #
+include
+"
+nsIInputStream
+.
+h
+"
+#
 define
 BEGIN_INDEXEDDB_NAMESPACE
 \
@@ -125,9 +132,6 @@ indexedDB
 ;
 class
 nsIDOMBlob
-;
-class
-nsIInputStream
 ;
 BEGIN_INDEXEDDB_NAMESPACE
 class

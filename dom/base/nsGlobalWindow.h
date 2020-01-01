@@ -258,6 +258,13 @@ Units
 h
 "
 #
+include
+"
+nsComponentManagerUtils
+.
+h
+"
+#
 ifdef
 MOZ_B2G
 #

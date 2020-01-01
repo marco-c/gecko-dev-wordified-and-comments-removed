@@ -354,6 +354,13 @@ h
 #
 include
 "
+nsAXPCNativeCallContext
+.
+h
+"
+#
+include
+"
 nsJSPrincipals
 .
 h

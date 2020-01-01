@@ -27,6 +27,13 @@ HTMLTrackElement
 .
 h
 "
+#
+include
+"
+nsIInputStream
+.
+h
+"
 namespace
 mozilla
 {

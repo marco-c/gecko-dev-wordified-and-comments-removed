@@ -103,6 +103,13 @@ nsIXPConnect
 .
 idl
 "
+#
+include
+"
+nsIClassInfo
+.
+idl
+"
 %
 {
 C

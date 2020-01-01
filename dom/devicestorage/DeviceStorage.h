@@ -100,6 +100,9 @@ DEVICESTORAGE_CRASHES
 "
 crashes
 "
+class
+nsIInputStream
+;
 namespace
 mozilla
 {

@@ -183,6 +183,13 @@ h
 #
 include
 "
+nsIVariant
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h

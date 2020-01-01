@@ -103,6 +103,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 struct
 nsTreeRange
 {

@@ -35,6 +35,13 @@ nsCOMPtr
 h
 "
 #
+include
+"
+nsIInputStream
+.
+h
+"
+#
 define
 BLOBURI_SCHEME
 "
@@ -68,9 +75,6 @@ nsIDOMMediaStream
 ;
 class
 nsIPrincipal
-;
-class
-nsIInputStream
 ;
 namespace
 mozilla

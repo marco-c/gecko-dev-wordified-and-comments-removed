@@ -229,6 +229,9 @@ nsILoadGroup
 class
 nsIUnicodeDecoder
 ;
+class
+nsIJSID
+;
 namespace
 mozilla
 {

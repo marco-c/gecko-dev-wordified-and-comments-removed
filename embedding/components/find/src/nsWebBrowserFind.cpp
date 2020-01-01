@@ -215,6 +215,13 @@ Element
 h
 "
 #
+include
+"
+nsISimpleEnumerator
+.
+h
+"
+#
 if
 DEBUG
 #
