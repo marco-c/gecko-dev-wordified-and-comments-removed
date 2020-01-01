@@ -222,8 +222,11 @@ host_port_override
 }
 mTypeOfEntry
 ;
-nsString
-mHostWithPort
+nsCString
+mAsciiHost
+;
+PRInt32
+mPort
 ;
 nsCertOverride
 :
