@@ -26315,9 +26315,6 @@ tc
 ;
 #
 endif
-#
-if
-JS_HAS_LVALUE_RETURN
 case
 TOK_LP
 :
@@ -26337,8 +26334,6 @@ NULL
 ;
 break
 ;
-#
-endif
 #
 if
 JS_HAS_XML_SUPPORT
