@@ -842,6 +842,11 @@ gInternalManager
 =
 null
 ;
+loadAddonsList
+(
+false
+)
+;
 gAppInfo
 .
 annotations
