@@ -262,8 +262,9 @@ representative
 public
 :
 static
-bool
-needsSplit
+MDefinition
+*
+findSplit
 (
 MDefinition
 *
@@ -327,11 +328,12 @@ MDefinition
 )
 ;
 friend
-bool
+MDefinition
+*
 ValueNumberer
 :
 :
-needsSplit
+findSplit
 (
 MDefinition
 *
