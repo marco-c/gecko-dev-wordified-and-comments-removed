@@ -9,7 +9,7 @@ waitForExplicitFinish
 ;
 requestLongerTimeout
 (
-3
+4
 )
 ;
 function
