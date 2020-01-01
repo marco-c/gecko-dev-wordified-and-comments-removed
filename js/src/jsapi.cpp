@@ -26171,6 +26171,9 @@ JSScript
 *
 >
 script
+(
+NULL
+)
 ;
 if
 (

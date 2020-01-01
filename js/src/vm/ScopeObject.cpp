@@ -6094,12 +6094,7 @@ block
 .
 slotToFrameLocal
 (
-maybefp
--
->
 script
-(
-)
 i
 )
 ;
