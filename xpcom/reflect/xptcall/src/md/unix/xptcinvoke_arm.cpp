@@ -1699,7 +1699,7 @@ vtable
 methodIndex
 ]
 ;
-uint32_t
+nsresult
 result
 ;
 asm
