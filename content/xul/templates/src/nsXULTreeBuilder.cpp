@@ -218,16 +218,7 @@ return
 NS_OK
 ;
 }
-virtual
-void
-NodeWillBeDestroyed
-(
-const
-nsINode
-*
-aNode
-)
-;
+NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
 protected
 :
 friend
