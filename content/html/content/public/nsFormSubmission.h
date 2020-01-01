@@ -105,6 +105,10 @@ aName
 nsIDOMBlob
 *
 aBlob
+const
+nsString
+&
+aFilename
 )
 =
 0
@@ -324,6 +328,10 @@ aName
 nsIDOMBlob
 *
 aBlob
+const
+nsString
+&
+aFilename
 )
 ;
 virtual
