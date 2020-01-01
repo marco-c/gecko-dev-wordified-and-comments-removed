@@ -1056,13 +1056,6 @@ h
 #
 include
 "
-nsIContentViewer
-.
-h
-"
-#
-include
-"
 prdtoa
 .
 h
@@ -15508,6 +15501,9 @@ get
 )
 ;
 }
+nsresult
+rv
+=
 sHTMLFragmentParser
 -
 >
@@ -15529,7 +15525,7 @@ Reset
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 nsresult
