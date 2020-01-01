@@ -748,6 +748,17 @@ mEditingState
 ;
 }
 virtual
+void
+DisableCookieAccess
+(
+)
+{
+mDisableCookieAccess
+=
+PR_TRUE
+;
+}
+virtual
 nsIContent
 *
 GetBodyContentExternal
@@ -1309,6 +1320,9 @@ sCutCopyInternal_id
 static
 jsval
 sPasteInternal_id
+;
+PRBool
+mDisableCookieAccess
 ;
 nsCOMPtr
 <

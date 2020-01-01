@@ -338,6 +338,14 @@ aResult
 0
 ;
 virtual
+void
+DisableCookieAccess
+(
+)
+=
+0
+;
+virtual
 nsIContent
 *
 GetBodyContentExternal
