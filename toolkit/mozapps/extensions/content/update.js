@@ -2417,6 +2417,7 @@ onInstallEnded
 function
 (
 aInstall
+aAddon
 )
 {
 AddonManagerPrivate
@@ -2426,7 +2427,7 @@ addStartupChange
 AddonManager
 .
 STARTUP_CHANGE_CHANGED
-aInstall
+aAddon
 .
 id
 )
