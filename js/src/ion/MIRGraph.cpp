@@ -1468,7 +1468,7 @@ MInstructionIterator
 MBasicBlock
 :
 :
-removeAt
+discardAt
 (
 MInstructionIterator
 &
@@ -1517,7 +1517,7 @@ MInstructionReverseIterator
 MBasicBlock
 :
 :
-removeAt
+discardAt
 (
 MInstructionReverseIterator
 &
@@ -1566,7 +1566,7 @@ MDefinitionIterator
 MBasicBlock
 :
 :
-removeDefAt
+discardDefAt
 (
 MDefinitionIterator
 &
@@ -1596,7 +1596,7 @@ iter
 block_
 -
 >
-removePhiAt
+discardPhiAt
 (
 iter
 .
@@ -1613,7 +1613,7 @@ iter
 block_
 -
 >
-removeAt
+discardAt
 (
 iter
 .
@@ -1812,7 +1812,7 @@ MPhiIterator
 MBasicBlock
 :
 :
-removePhiAt
+discardPhiAt
 (
 MPhiIterator
 &
