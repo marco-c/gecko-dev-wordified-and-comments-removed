@@ -592,6 +592,9 @@ HeapLabel
 *
 return_
 ;
+CodeOffsetLabel
+prologueOffset_
+;
 Label
 *
 labelOf

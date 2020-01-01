@@ -488,6 +488,9 @@ fallbackStubSpace_
 ICStubSpace
 optimizedStubSpace_
 ;
+uint32_t
+prologueOffset_
+;
 bool
 active_
 ;
@@ -517,6 +520,8 @@ public
 :
 BaselineScript
 (
+uint32_t
+prologueOffset
 )
 ;
 static
@@ -527,6 +532,8 @@ New
 JSContext
 *
 cx
+uint32_t
+prologueOffset
 size_t
 icEntries
 size_t
@@ -600,6 +607,16 @@ resetActive
 active_
 =
 false
+;
+}
+uint32_t
+prologueOffset
+(
+)
+const
+{
+return
+prologueOffset_
 ;
 }
 ICEntry
