@@ -521,14 +521,6 @@ nsDOMWorker
 nsresult
 PostMessageInternal
 (
-const
-nsAString
-&
-aMessage
-PRBool
-aIsJSON
-PRBool
-aIsPrimitive
 PRBool
 aToInner
 )
