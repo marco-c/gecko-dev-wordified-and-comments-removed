@@ -3087,8 +3087,7 @@ nsContentUtils
 HoldJSObjects
 (
 elem
-&
-NS_CYCLE_COLLECTION_NAME
+NS_CYCLE_COLLECTION_PARTICIPANT
 (
 nsXULPrototypeNode
 )
@@ -13490,8 +13489,7 @@ nsContentUtils
 HoldJSObjects
 (
 this
-&
-NS_CYCLE_COLLECTION_NAME
+NS_CYCLE_COLLECTION_PARTICIPANT
 (
 nsXULPrototypeNode
 )
