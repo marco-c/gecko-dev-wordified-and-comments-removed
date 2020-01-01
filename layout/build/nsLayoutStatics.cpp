@@ -1007,9 +1007,6 @@ return
 rv
 ;
 }
-#
-ifndef
-DEBUG_CC
 rv
 =
 nsCCUncollectableMarker
@@ -1041,8 +1038,6 @@ return
 rv
 ;
 }
-#
-endif
 nsCSSRuleProcessor
 :
 :
