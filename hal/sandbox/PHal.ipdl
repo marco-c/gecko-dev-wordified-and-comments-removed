@@ -540,6 +540,15 @@ mozilla
 hal
 :
 :
+SensorAccuracyType
+;
+using
+mozilla
+:
+:
+hal
+:
+:
 WakeLockControl
 ;
 using
@@ -607,6 +616,9 @@ float
 [
 ]
 values
+;
+SensorAccuracyType
+accuracy
 ;
 }
 ;

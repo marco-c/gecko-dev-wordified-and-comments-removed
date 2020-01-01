@@ -480,10 +480,6 @@ mk
 CPPSRCS
 =
 \
-nsDeviceMotionSystem
-.
-cpp
-\
 AndroidLocationProvider
 .
 cpp
