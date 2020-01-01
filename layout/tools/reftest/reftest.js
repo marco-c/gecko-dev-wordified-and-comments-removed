@@ -6691,7 +6691,7 @@ gCurrentCanvas
 =
 null
 ;
-SendResetZoom
+ResetRenderingState
 (
 )
 ;
@@ -7445,6 +7445,16 @@ StartCurrentTest
 ;
 }
 function
+ResetRenderingState
+(
+)
+{
+SendResetRenderingState
+(
+)
+;
+}
+function
 RegisterMessageListenersAndLoadContentScript
 (
 )
@@ -8010,7 +8020,7 @@ timeout
 ;
 }
 function
-SendResetZoom
+SendResetRenderingState
 (
 )
 {
@@ -8021,7 +8031,7 @@ sendAsyncMessage
 "
 reftest
 :
-ResetZoom
+ResetRenderingState
 "
 )
 ;
