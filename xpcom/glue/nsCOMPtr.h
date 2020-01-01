@@ -2080,7 +2080,7 @@ operator
 )
 const
 {
-NS_PRECONDITION
+NS_ABORT_IF_FALSE
 (
 mRawPtr
 !
@@ -2149,7 +2149,7 @@ operator
 )
 const
 {
-NS_PRECONDITION
+NS_ABORT_IF_FALSE
 (
 mRawPtr
 !
@@ -3018,7 +3018,7 @@ operator
 )
 const
 {
-NS_PRECONDITION
+NS_ABORT_IF_FALSE
 (
 mRawPtr
 !
@@ -3087,7 +3087,7 @@ operator
 )
 const
 {
-NS_PRECONDITION
+NS_ABORT_IF_FALSE
 (
 mRawPtr
 !
