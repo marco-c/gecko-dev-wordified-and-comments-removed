@@ -2100,6 +2100,10 @@ ANDROID_LOG_INFO
 "
 Gecko
 "
+"
+%
+s
+"
 bytes
 .
 ptr

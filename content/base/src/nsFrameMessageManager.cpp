@@ -1334,6 +1334,10 @@ ANDROID_LOG_INFO
 "
 Gecko
 "
+"
+%
+s
+"
 NS_ConvertUTF16toUTF8
 (
 aStr
