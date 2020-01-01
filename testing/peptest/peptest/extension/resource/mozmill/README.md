@@ -64,6 +64,7 @@ folders
 are
 pulled
 from
+:
 https
 :
 /
@@ -72,7 +73,7 @@ github
 .
 com
 /
-mozautomation
+mozilla
 /
 mozmill
 /
@@ -87,7 +88,6 @@ mozmill
 extension
 /
 resource
-.
 To
 update
 them
