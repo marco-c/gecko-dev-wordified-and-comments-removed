@@ -1117,6 +1117,10 @@ res
 IDS_SUCCESS_INSTALL
 ;
 }
+else
+return
+0
+;
 break
 ;
 case
@@ -1181,6 +1185,7 @@ IDS_SUCCESS_UNINSTALL
 break
 ;
 }
+else
 return
 0
 ;
