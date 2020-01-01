@@ -2268,6 +2268,12 @@ z
 DOMString
 str
 ;
+DOMString
+empty
+=
+"
+"
+;
 TestEnum
 otherEnum
 =
