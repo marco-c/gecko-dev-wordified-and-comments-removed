@@ -267,14 +267,6 @@ NetworkGeolocationProvider
 .
 manifest
 \
-GPSDGeolocationProvider
-.
-js
-\
-GPSDGeolocationProvider
-.
-manifest
-\
 (
 NULL
 )
