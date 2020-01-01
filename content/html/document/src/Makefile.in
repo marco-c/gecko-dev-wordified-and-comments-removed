@@ -167,7 +167,7 @@ config
 rules
 .
 mk
-INCLUDES
+LOCAL_INCLUDES
 +
 =
 \
@@ -244,16 +244,6 @@ topsrcdir
 dom
 /
 base
-\
--
-I
-(
-topsrcdir
-)
-/
-xpcom
-/
-io
 \
 -
 I

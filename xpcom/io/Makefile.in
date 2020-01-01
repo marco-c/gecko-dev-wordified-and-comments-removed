@@ -324,7 +324,15 @@ nsStreamUtils
 .
 h
 \
+nsUnicharInputStream
+.
+h
+\
 nsWildCard
+.
+h
+\
+SpecialSystemDirectory
 .
 h
 \
