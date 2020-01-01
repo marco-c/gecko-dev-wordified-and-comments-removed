@@ -10827,7 +10827,9 @@ head
 <
 title
 >
-MozJSHTTP
+httpd
+.
+js
 <
 /
 title
@@ -10844,7 +10846,9 @@ body
 <
 h1
 >
-MozJSHTTP
+httpd
+.
+js
 <
 /
 h1
@@ -10860,7 +10864,9 @@ re
 seeing
 this
 page
-MozJSHTTP
+httpd
+.
+js
 is
 up
 and
@@ -13546,7 +13552,9 @@ jshttp
 className
 :
 "
-MozJSHTTP
+httpd
+.
+js
 server
 "
 factory

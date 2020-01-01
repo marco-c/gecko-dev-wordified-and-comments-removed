@@ -143,7 +143,9 @@ Original
 Code
 is
 the
-MozJSHTTP
+httpd
+.
+js
 server
 .
 *
