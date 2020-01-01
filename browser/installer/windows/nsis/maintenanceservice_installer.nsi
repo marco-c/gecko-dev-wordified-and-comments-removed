@@ -1557,6 +1557,17 @@ AB_CD
 }
 )
 "
+WriteRegDWORD
+HKLM
+"
+{
+MaintUninstallKey
+}
+"
+"
+NoModify
+"
+1
 {
 GetSize
 }
