@@ -532,6 +532,10 @@ test_form_attributes_reflection
 .
 html
 \
+test_option_index_attribute
+.
+html
+\
 (
 NULL
 )
