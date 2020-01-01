@@ -575,6 +575,10 @@ test_isSupported
 .
 xhtml
 \
+test_lang
+.
+xhtml
+\
 test_nonAnimStrings
 .
 xhtml
