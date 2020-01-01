@@ -61029,8 +61029,6 @@ dist
 /
 lib
 -
-lmozalloc
--
 lmozutils
 "
 WRAP_MALLOC_CFLAGS
@@ -61679,6 +61677,12 @@ wrap
 -
 Wl
 posix_memalign
+-
+Wl
+-
+-
+wrap
+malloc_usable_size
 "
 MKSHLIB
 =

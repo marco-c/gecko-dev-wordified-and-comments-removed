@@ -446,6 +446,13 @@ application
 ini
 ifndef
 LIBXUL_SDK
+ifneq
+(
+Android
+(
+OS_TARGET
+)
+)
 PROGRAM
 =
 (
@@ -567,6 +574,7 @@ WIN32_EXE_LDFLAGS
 ENTRY
 :
 wmainCRTStartup
+endif
 endif
 endif
 #
