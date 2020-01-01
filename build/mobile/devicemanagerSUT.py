@@ -216,10 +216,34 @@ _sock
 =
 None
     
+if
 self
 .
 getDeviceRoot
 (
+)
+=
+=
+None
+:
+        
+raise
+BaseException
+(
+"
+Failed
+to
+connect
+to
+SUT
+Agent
+and
+retrieve
+the
+device
+root
+.
+"
 )
   
 def

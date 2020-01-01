@@ -2833,6 +2833,9 @@ remoteLogFile
 )
 :
             
+try
+:
+                
 self
 .
 _devicemanager
@@ -2845,6 +2848,37 @@ remoteLogFile
 self
 .
 localLogName
+)
+            
+except
+:
+                
+print
+"
+ERROR
+:
+We
+were
+not
+able
+to
+retrieve
+the
+info
+from
+%
+s
+"
+%
+self
+.
+remoteLogFile
+                
+sys
+.
+exit
+(
+5
 )
         
 self
