@@ -334,7 +334,7 @@ nsACString
 aMIMEType
 )
 {
-mType
+mSchemeOrType
 =
 aMIMEType
 ;
@@ -481,7 +481,7 @@ nsString
 mDescription
 ;
 nsCString
-mType
+mSchemeOrType
 ;
 HandlerClass
 mClass
