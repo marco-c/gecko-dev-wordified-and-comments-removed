@@ -524,7 +524,7 @@ const
 nsAString
 &
 aHref
-nsIContent
+nsINode
 *
 aSource
 bool
