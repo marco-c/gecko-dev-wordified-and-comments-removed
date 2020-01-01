@@ -290,7 +290,7 @@ cx
 aScriptContext
 -
 >
-GetWindowProxy
+GetNativeGlobal
 (
 )
 )

@@ -290,10 +290,13 @@ ssm
 )
 {
 RootedObject
-defaultScope
+defaultGlobal
 (
 cx
-GetDefaultScopeFromJSContext
+js
+:
+:
+DefaultObjectForContextOrNull
 (
 cx
 )
@@ -320,7 +323,7 @@ defaultPrincipal
 =
 GetObjectPrincipal
 (
-defaultScope
+defaultGlobal
 )
 ;
 bool
