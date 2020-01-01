@@ -623,6 +623,17 @@ aOther
 )
 ;
 }
+void
+AppendToString
+(
+nsCSSProperty
+aProperty
+nsAString
+&
+aResult
+)
+const
+;
 nsCSSUnit
 GetUnit
 (
