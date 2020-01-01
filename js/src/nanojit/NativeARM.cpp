@@ -441,7 +441,7 @@ data
 elif
 defined
 (
-WINCE
+UNDER_CE
 )
 leading_zeroes
 =
