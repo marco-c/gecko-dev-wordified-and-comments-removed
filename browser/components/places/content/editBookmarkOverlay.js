@@ -2643,7 +2643,7 @@ if
 description
 !
 =
-PlacesUtils
+PlacesUIUtils
 .
 getItemDescription
 (
@@ -4661,7 +4661,7 @@ _initTextField
 "
 descriptionField
 "
-PlacesUtils
+PlacesUIUtils
 .
 getItemDescription
 (
