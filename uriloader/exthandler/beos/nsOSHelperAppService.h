@@ -65,11 +65,8 @@ PRBool
 aFound
 )
 ;
-already_AddRefed
-<
-nsIHandlerInfo
->
-GetProtocolInfoFromOS
+NS_IMETHOD
+GetProtocolHandlerInfoFromOS
 (
 const
 nsACString
@@ -78,6 +75,10 @@ aScheme
 PRBool
 *
 found
+nsIHandlerInfo
+*
+*
+_retval
 )
 ;
 nsresult
