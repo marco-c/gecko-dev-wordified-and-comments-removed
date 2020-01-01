@@ -25274,6 +25274,9 @@ newfun
 JSBool
 ok
 =
+CallJSNative
+(
+cx
 newfun
 -
 >
@@ -25282,8 +25285,6 @@ u
 n
 .
 native
-(
-cx
 argc
 vp
 )
