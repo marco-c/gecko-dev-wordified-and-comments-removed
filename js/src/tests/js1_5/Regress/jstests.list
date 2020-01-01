@@ -1074,6 +1074,12 @@ regress
 328664
 .
 js
+fails
+-
+if
+(
+browserIsRemote
+)
 script
 regress
 -
