@@ -42,9 +42,6 @@ unused
 .
 h
 "
-#
-ifdef
-MOZ_IPC
 using
 mozilla
 :
@@ -503,5 +500,3 @@ true
 }
 }
 }
-#
-endif
