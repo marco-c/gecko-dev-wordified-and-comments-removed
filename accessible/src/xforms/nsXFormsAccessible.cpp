@@ -89,6 +89,13 @@ nsIPlaintextEditor
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 nsIXFormsUtilityService
 *
 nsXFormsAccessibleBase

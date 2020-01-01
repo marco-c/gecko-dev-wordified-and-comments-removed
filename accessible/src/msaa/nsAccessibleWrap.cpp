@@ -180,6 +180,13 @@ nsArrayUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 #
 ifdef
 DEBUG_LEAKS

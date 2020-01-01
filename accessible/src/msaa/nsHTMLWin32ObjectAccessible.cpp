@@ -12,6 +12,13 @@ States
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 nsHTMLWin32ObjectOwnerAccessible
 :
 :

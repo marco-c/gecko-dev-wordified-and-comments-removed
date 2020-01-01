@@ -404,6 +404,13 @@ Element
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 nsAccessibilityService
 *
 nsAccessibilityService
