@@ -141,7 +141,9 @@ http
 /
 localhost
 :
-7777
+6666
+/
+apps
 /
 dialer
 /
