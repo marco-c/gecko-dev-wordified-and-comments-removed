@@ -438,6 +438,13 @@ MOZ_UI_LOCALE
 DPACKAGE
 =
 browser
+ifdef
+ENABLE_TESTS
+DIRS
++
+=
+tests
+endif
 include
 (
 topsrcdir
