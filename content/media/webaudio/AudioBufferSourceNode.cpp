@@ -568,6 +568,11 @@ end
 -
 start
 )
+*
+sizeof
+(
+float
+)
 )
 ;
 }
