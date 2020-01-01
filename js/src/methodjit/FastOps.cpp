@@ -2805,7 +2805,6 @@ lhsTypes
 getKnownObjectKind
 (
 cx
-outerScript
 )
 :
 types
@@ -2827,7 +2826,6 @@ rhsTypes
 getKnownObjectKind
 (
 cx
-outerScript
 )
 :
 types
@@ -6859,7 +6857,6 @@ types
 getKnownObjectKind
 (
 cx
-outerScript
 )
 :
 types
@@ -8647,7 +8644,6 @@ types
 getKnownObjectKind
 (
 cx
-outerScript
 )
 :
 types

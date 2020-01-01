@@ -704,9 +704,6 @@ addFreeze
 JSContext
 *
 cx
-JSScript
-*
-script
 )
 ;
 JSValueType
@@ -715,9 +712,6 @@ getKnownTypeTag
 JSContext
 *
 cx
-JSScript
-*
-script
 )
 ;
 ObjectKind
@@ -726,9 +720,6 @@ getKnownObjectKind
 JSContext
 *
 cx
-JSScript
-*
-script
 )
 ;
 bool
@@ -737,9 +728,6 @@ hasUnknownProperties
 JSContext
 *
 cx
-JSScript
-*
-script
 )
 ;
 bool
@@ -748,9 +736,6 @@ knownNonEmpty
 JSContext
 *
 cx
-JSScript
-*
-script
 )
 ;
 JSObject
@@ -760,9 +745,6 @@ getSingleton
 JSContext
 *
 cx
-JSScript
-*
-script
 )
 ;
 void
@@ -787,9 +769,6 @@ Clone
 JSContext
 *
 cx
-JSScript
-*
-script
 TypeSet
 *
 source
@@ -1467,6 +1446,10 @@ recompilations
 ;
 unsigned
 frameExpansions
+;
+JSScript
+*
+compiledScript
 ;
 ArrayTypeTable
 *
