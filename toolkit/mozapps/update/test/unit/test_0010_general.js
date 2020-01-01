@@ -21,6 +21,10 @@ n
 "
 )
 ;
+removeUpdateDirsAndFiles
+(
+)
+;
 var
 testFile
 =
