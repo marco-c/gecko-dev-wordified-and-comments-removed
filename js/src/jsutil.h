@@ -18,6 +18,13 @@ stdlib
 .
 h
 >
+#
+include
+<
+string
+.
+h
+>
 JS_BEGIN_EXTERN_C
 extern
 JS_PUBLIC_API
