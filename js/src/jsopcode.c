@@ -17331,14 +17331,10 @@ argv
 i
 ]
 )
-{
 ok
 =
 JS_FALSE
 ;
-break
-;
-}
 }
 LOCAL_ASSERT
 (

@@ -758,14 +758,14 @@ break
 ;
 }
 }
-#
-ifdef
-METER_PARSENODES
 if
 (
 pn
 )
 {
+#
+ifdef
+METER_PARSENODES
 parsenodes
 +
 +
@@ -784,7 +784,6 @@ parsenodes
 -
 recyclednodes
 ;
-}
 #
 endif
 memset
@@ -809,6 +808,7 @@ pn_next
 =
 NULL
 ;
+}
 return
 pn
 ;
