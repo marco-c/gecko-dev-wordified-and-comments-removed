@@ -164,6 +164,15 @@ wifi
 NULL
 )
 endif
+ifdef
+MOZ_B2G_BT
+DOM_SRCDIRS
++
+=
+dom
+/
+bluetooth
+endif
 LOCAL_INCLUDES
 +
 =
