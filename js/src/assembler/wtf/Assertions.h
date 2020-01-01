@@ -30,6 +30,9 @@ ASSERT_DISABLED
 #
 endif
 #
+ifndef
+ASSERT
+#
 define
 ASSERT
 (
@@ -39,6 +42,8 @@ MOZ_ASSERT
 (
 assertion
 )
+#
+endif
 #
 define
 ASSERT_UNUSED

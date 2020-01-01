@@ -107,3 +107,14 @@ use
 StandardInteger
 .
 patch
+patch
+-
+p3
+<
+use
+-
+mozilla
+-
+assertions
+.
+patch
