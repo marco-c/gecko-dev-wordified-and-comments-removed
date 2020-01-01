@@ -417,7 +417,6 @@ MODULE
 xul
 DIRS
 =
-public
 src
 test
 include

@@ -2836,6 +2836,8 @@ GetNextSibling
 )
 ;
 }
+do
+{
 childListName
 =
 aFrame
@@ -2846,6 +2848,18 @@ GetAdditionalChildListName
 childListIndex
 +
 +
+)
+;
+}
+while
+(
+childListName
+=
+=
+nsGkAtoms
+:
+:
+popupList
 )
 ;
 }

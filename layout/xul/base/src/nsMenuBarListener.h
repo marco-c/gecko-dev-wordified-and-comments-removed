@@ -205,6 +205,11 @@ nsIDOMKeyEvent
 event
 )
 ;
+void
+ToggleMenuActiveState
+(
+)
+;
 nsMenuBarFrame
 *
 mMenuBarFrame
