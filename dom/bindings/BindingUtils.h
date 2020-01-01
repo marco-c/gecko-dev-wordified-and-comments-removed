@@ -1365,6 +1365,15 @@ JSObject
 *
 *
 protoCache
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+interfaceProto
 JSClass
 *
 constructorClass
