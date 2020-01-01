@@ -110,6 +110,16 @@ nsSMILTimedElement
 (
 )
 ;
+typedef
+mozilla
+:
+:
+dom
+:
+:
+Element
+Element
+;
 void
 SetAnimationElement
 (
@@ -243,7 +253,7 @@ aValue
 nsAttrValue
 &
 aResult
-nsIContent
+Element
 *
 aContextNode
 nsresult
@@ -447,7 +457,7 @@ const
 nsAString
 &
 aBeginSpec
-nsIContent
+Element
 *
 aContextNode
 RemovalTestFunction
@@ -461,7 +471,7 @@ const
 nsAString
 &
 aEndSpec
-nsIContent
+Element
 *
 aContextNode
 RemovalTestFunction
@@ -587,7 +597,7 @@ const
 nsAString
 &
 aSpec
-nsIContent
+Element
 *
 aContextNode
 PRBool

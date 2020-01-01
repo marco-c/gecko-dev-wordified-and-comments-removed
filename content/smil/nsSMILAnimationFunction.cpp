@@ -1275,7 +1275,7 @@ thisContent
 mAnimationElement
 -
 >
-Content
+AsElement
 (
 )
 ;
@@ -1289,7 +1289,7 @@ aOther
 mAnimationElement
 -
 >
-Content
+AsElement
 (
 )
 ;
