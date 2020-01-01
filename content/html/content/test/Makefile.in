@@ -671,10 +671,6 @@ test_bug561640
 .
 html
 \
-test_bug566064
-.
-html
-\
 test_bug582412
 -
 1
