@@ -94,7 +94,8 @@ FreeType
 .
 3
 .
-7
+12
+=
 =
 =
 =
@@ -206,7 +207,7 @@ doc
 .
 3
 .
-7
+12
 .
 tar
 .
@@ -219,12 +220,12 @@ doc
 .
 3
 .
-7
+12
 .
 tar
 .
 gz
-ftdoc237
+ftdoc2312
 .
 zip
 Bugs
@@ -384,6 +385,8 @@ Copyright
 2006
 2007
 2008
+2009
+2010
 by
 David
 Turner

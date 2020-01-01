@@ -87,6 +87,7 @@ PFR_DRIVER
 (
 OPEN_DRIVER
 )
+FT_Driver_ClassRec
 pfr_driver_class
 (
 CLOSE_DRIVER

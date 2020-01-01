@@ -99,6 +99,7 @@ GXVALID_MODULE
 (
 OPEN_DRIVER
 )
+FT_Module_Class
 gxv_module_class
 (
 CLOSE_DRIVER

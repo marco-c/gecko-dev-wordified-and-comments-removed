@@ -448,8 +448,7 @@ commandline
 2
 .
 Metrowerks
-CodeWarriror
--
+CodeWarrior
 -
 -
 -
@@ -485,7 +484,7 @@ generated
 and
 tested
 by
-CodeWarriror
+CodeWarrior
 9
 .
 0
@@ -738,7 +737,7 @@ used
 -
 FreeType
 .
-ppc_classic
+ppc_carbon
 .
 make
 .
@@ -3693,14 +3692,11 @@ versions
 Last
 update
 :
-2007
+2009
 -
-Feb
+Jul
 -
-01
-by
-Alexei
-Podtelezhnikov
+25
 .
 Currently
 maintained

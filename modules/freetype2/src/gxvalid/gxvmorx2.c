@@ -731,8 +731,8 @@ FT_UShort
 state
 FT_UShort
 flags
-GXV_StateTable_GlyphOffsetDesc
-glyphOffset
+GXV_StateTable_GlyphOffsetCPtr
+glyphOffset_p
 FT_Bytes
 table
 FT_Bytes
@@ -827,8 +827,9 @@ flags
 ;
 ligActionIndex
 =
-glyphOffset
-.
+glyphOffset_p
+-
+>
 u
 ;
 if

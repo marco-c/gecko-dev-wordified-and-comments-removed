@@ -310,6 +310,12 @@ APINAMES_SRC
 :
 =
 (
+subst
+/
+(
+SEP
+)
+(
 TOP_DIR
 )
 /
@@ -320,9 +326,16 @@ tools
 apinames
 .
 c
+)
 APINAMES_EXE
 :
 =
+(
+subst
+/
+(
+SEP
+)
 (
 OBJ_DIR
 )
@@ -330,6 +343,7 @@ OBJ_DIR
 apinames
 (
 E_BUILD
+)
 )
 (
 APINAMES_EXE

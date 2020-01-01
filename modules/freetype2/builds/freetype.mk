@@ -1067,7 +1067,7 @@ freetype
 '
 .
 (
-BASE_H
+INTERNAL_H
 )
 and
 (
@@ -1117,7 +1117,7 @@ PUBLIC_DIR
 .
 h
 )
-BASE_H
+INTERNAL_H
 :
 =
 (
@@ -1199,7 +1199,7 @@ FREETYPE_H
 PUBLIC_H
 )
 (
-BASE_H
+INTERNAL_H
 )
 (
 CONFIG_H

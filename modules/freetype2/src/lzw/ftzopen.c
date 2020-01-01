@@ -453,7 +453,7 @@ memory
 FT_Error
 error
 ;
-FT_UInt
+FT_Offset
 old_size
 =
 state
@@ -461,7 +461,7 @@ state
 >
 stack_size
 ;
-FT_UInt
+FT_Offset
 new_size
 =
 old_size
@@ -1353,6 +1353,17 @@ code
 256U
 )
 {
+if
+(
+!
+state
+-
+>
+prefix
+)
+goto
+Eof
+;
 FTLZW_STACK_PUSH
 (
 state

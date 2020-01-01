@@ -11472,13 +11472,16 @@ t1_expert_encoding
 378
 }
 ;
+#
+ifdef
+FT_CONFIG_OPTION_ADOBE_GLYPH_LIST
 static
 const
 unsigned
 char
 ft_adobe_glyph_list
 [
-54791
+54791L
 ]
 =
 {
@@ -66683,3 +66686,5 @@ return
 0
 ;
 }
+#
+endif

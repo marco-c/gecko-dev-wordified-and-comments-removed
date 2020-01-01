@@ -87,6 +87,7 @@ OTVALID_MODULE
 (
 OPEN_DRIVER
 )
+FT_Module_Class
 otv_module_class
 (
 CLOSE_DRIVER

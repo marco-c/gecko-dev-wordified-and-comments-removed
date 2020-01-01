@@ -87,7 +87,6 @@ FTC_MruNode_Prepend
 :
 invalid
 action
-!
 \
 n
 "
@@ -255,7 +254,6 @@ FTC_MruNode_Up
 :
 invalid
 action
-!
 \
 n
 "
@@ -417,7 +415,6 @@ FTC_MruNode_Remove
 :
 invalid
 action
-!
 \
 n
 "

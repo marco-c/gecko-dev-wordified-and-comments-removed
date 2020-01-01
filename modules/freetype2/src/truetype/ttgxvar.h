@@ -64,7 +64,7 @@ FT_MM_Var
 *
 mmvar
 ;
-FT_Int
+FT_Offset
 mmvar_len
 ;
 FT_Bool

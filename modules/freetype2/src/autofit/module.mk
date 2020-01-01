@@ -91,6 +91,7 @@ AUTOFIT_MODULE
 (
 OPEN_DRIVER
 )
+FT_Module_Class
 autofit_module_class
 (
 CLOSE_DRIVER

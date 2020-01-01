@@ -40,6 +40,10 @@ libdir
 }
 -
 lfreetype
+Libs
+.
+private
+:
 LIBZ
 FT2_EXTRA_LIBS
 Cflags

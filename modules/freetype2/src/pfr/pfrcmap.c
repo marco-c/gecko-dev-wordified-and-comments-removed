@@ -14,9 +14,6 @@ h
 "
 #
 include
-FT_INTERNAL_DEBUG_H
-#
-include
 "
 pfrerror
 .
@@ -262,7 +259,7 @@ return
 }
 FT_CALLBACK_DEF
 (
-FT_UInt
+FT_UInt32
 )
 pfr_cmap_char_next
 (

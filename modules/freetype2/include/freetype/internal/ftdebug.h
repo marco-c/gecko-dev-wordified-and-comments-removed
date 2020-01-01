@@ -110,7 +110,8 @@ level
 varformat
 )
 do
-;
+{
+}
 while
 (
 0
@@ -251,7 +252,8 @@ FT_ERROR
 varformat
 )
 do
-;
+{
+}
 while
 (
 0
@@ -321,7 +323,8 @@ FT_ASSERT
 condition
 )
 do
-;
+{
+}
 while
 (
 0

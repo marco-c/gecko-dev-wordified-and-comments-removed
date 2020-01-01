@@ -102,6 +102,7 @@ cffload
 cffobjs
 cffparse
 cffcmap
+cffpic
 ;
 }
 else

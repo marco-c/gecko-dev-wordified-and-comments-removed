@@ -1501,7 +1501,7 @@ b
 }
 #
 endif
-FT_EXPORT
+FT_EXPORT_DEF
 (
 FT_Error
 )
@@ -1608,7 +1608,7 @@ defined
 (
 FT_FORCE_LIGHT_LCD_FILTER
 )
-memcpy
+ft_memcpy
 (
 library
 -
@@ -1634,7 +1634,7 @@ lcd_extra
 ;
 #
 else
-memcpy
+ft_memcpy
 (
 library
 -
@@ -1665,7 +1665,7 @@ break
 case
 FT_LCD_FILTER_LIGHT
 :
-memcpy
+ft_memcpy
 (
 library
 -
@@ -1734,7 +1734,7 @@ return
 }
 #
 else
-FT_EXPORT
+FT_EXPORT_DEF
 (
 FT_Error
 )

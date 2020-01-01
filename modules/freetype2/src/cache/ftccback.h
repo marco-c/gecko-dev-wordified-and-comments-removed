@@ -78,7 +78,7 @@ cache
 ;
 FT_LOCAL
 (
-FT_ULong
+FT_Offset
 )
 ftc_inode_weight
 (
@@ -117,7 +117,7 @@ cache
 ;
 FT_LOCAL
 (
-FT_ULong
+FT_Offset
 )
 ftc_snode_weight
 (

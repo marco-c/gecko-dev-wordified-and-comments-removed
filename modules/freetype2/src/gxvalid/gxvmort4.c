@@ -18,8 +18,8 @@ gxv_mort_subtable_type4_lookupval_validate
 (
 FT_UShort
 glyph
-GXV_LookupValueDesc
-value
+GXV_LookupValueCPtr
+value_p
 GXV_Validator
 valid
 )
@@ -31,8 +31,9 @@ glyph
 ;
 gxv_glyphid_validate
 (
-value
-.
+value_p
+-
+>
 u
 valid
 )
@@ -44,8 +45,8 @@ gxv_mort_subtable_type4_lookupfmt4_transit
 (
 FT_UShort
 relative_gindex
-GXV_LookupValueDesc
-base_value
+GXV_LookupValueCPtr
+base_value_p
 FT_Bytes
 lookuptbl_limit
 GXV_Validator
@@ -70,8 +71,9 @@ offset
 FT_UShort
 )
 (
-base_value
-.
+base_value_p
+-
+>
 u
 +
 relative_gindex

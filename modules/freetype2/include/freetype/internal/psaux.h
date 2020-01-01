@@ -211,6 +211,7 @@ T1_FieldLocation_
 {
 T1_FIELD_LOCATION_CID_INFO
 T1_FIELD_LOCATION_FONT_DICT
+T1_FIELD_LOCATION_FONT_EXTRA
 T1_FIELD_LOCATION_FONT_INFO
 T1_FIELD_LOCATION_PRIVATE
 T1_FIELD_LOCATION_BBOX
@@ -732,7 +733,7 @@ parser
 FT_Byte
 *
 bytes
-FT_Long
+FT_Offset
 max_bytes
 FT_Long
 *
@@ -1060,9 +1061,6 @@ FT_Outline
 *
 current
 ;
-FT_Vector
-last
-;
 FT_Pos
 pos_x
 ;
@@ -1086,9 +1084,6 @@ load_points
 ;
 FT_Bool
 no_recurse
-;
-FT_Bool
-shift
 ;
 FT_Bool
 metrics_only
@@ -1311,12 +1306,15 @@ parse_callback
 T1_Decoder_FuncsRec
 funcs
 ;
-FT_Int
+FT_Long
 *
 buildchar
 ;
 FT_UInt
 len_buildchar
+;
+FT_Bool
+seac
 ;
 }
 T1_DecoderRec
@@ -1401,7 +1399,7 @@ const
 char
 *
 name
-FT_UInt
+FT_Offset
 len
 void
 *

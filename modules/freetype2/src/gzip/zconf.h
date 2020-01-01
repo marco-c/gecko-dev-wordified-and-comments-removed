@@ -216,6 +216,14 @@ MSDOS
 #
 endif
 #
+ifdef
+_WIN32_WCE
+#
+define
+NO_ERRNO_H
+#
+endif
+#
 if
 defined
 (

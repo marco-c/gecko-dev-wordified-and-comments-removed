@@ -277,13 +277,10 @@ table
 %
 s
 '
-!
-\
-n
 "
 \
 "
-Set
+set
 to
 zero
 .
@@ -908,7 +905,8 @@ FT_END_STMNT
 define
 OTV_INIT
 do
-;
+{
+}
 while
 (
 0
@@ -917,7 +915,8 @@ while
 define
 OTV_ENTER
 do
-;
+{
+}
 while
 (
 0
@@ -929,7 +928,8 @@ OTV_NAME_ENTER
 name
 )
 do
-;
+{
+}
 while
 (
 0
@@ -938,7 +938,8 @@ while
 define
 OTV_EXIT
 do
-;
+{
+}
 while
 (
 0
@@ -950,7 +951,8 @@ OTV_TRACE
 s
 )
 do
-;
+{
+}
 while
 (
 0

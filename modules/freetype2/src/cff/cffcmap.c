@@ -133,7 +133,7 @@ result
 }
 FT_CALLBACK_DEF
 (
-FT_UInt
+FT_UInt32
 )
 cff_cmap_encoding_char_next
 (
@@ -230,12 +230,9 @@ return
 result
 ;
 }
-FT_CALLBACK_TABLE_DEF
-const
-FT_CMap_ClassRec
+FT_DEFINE_CMAP_CLASS
+(
 cff_cmap_encoding_class_rec
-=
-{
 sizeof
 (
 CFF_CMapStdRec
@@ -261,8 +258,7 @@ NULL
 NULL
 NULL
 NULL
-}
-;
+)
 FT_CALLBACK_DEF
 (
 const
@@ -566,7 +562,7 @@ char_code
 }
 FT_CALLBACK_DEF
 (
-FT_UInt
+FT_UInt32
 )
 cff_cmap_unicode_char_next
 (
@@ -623,12 +619,9 @@ pchar_code
 )
 ;
 }
-FT_CALLBACK_TABLE_DEF
-const
-FT_CMap_ClassRec
+FT_DEFINE_CMAP_CLASS
+(
 cff_cmap_unicode_class_rec
-=
-{
 sizeof
 (
 PS_UnicodesRec
@@ -654,5 +647,4 @@ NULL
 NULL
 NULL
 NULL
-}
-;
+)

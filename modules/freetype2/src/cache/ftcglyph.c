@@ -20,12 +20,6 @@ include
 FT_ERRORS_H
 #
 include
-FT_INTERNAL_OBJECTS_H
-#
-include
-FT_INTERNAL_DEBUG_H
-#
-include
 "
 ftccback
 .

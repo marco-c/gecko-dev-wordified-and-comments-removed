@@ -11,6 +11,13 @@ h
 #
 include
 "
+pspic
+.
+c
+"
+#
+include
+"
 psmodule
 .
 c

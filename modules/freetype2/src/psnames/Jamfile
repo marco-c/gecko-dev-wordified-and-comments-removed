@@ -96,6 +96,7 @@ FT2_MULTI
 _sources
 =
 psmodule
+pspic
 ;
 }
 else

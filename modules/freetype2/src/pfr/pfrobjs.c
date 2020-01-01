@@ -73,6 +73,15 @@ pfrface
 ;
 FT_Memory
 memory
+;
+if
+(
+!
+face
+)
+return
+;
+memory
 =
 pfrface
 -

@@ -290,6 +290,8 @@ FT_Bytes
 gsub
 FT_Bytes
 gpos
+FT_UInt
+glyph_count
 FT_Validator
 ftvalid
 )
@@ -401,6 +403,13 @@ else
 table_size
 =
 10
+;
+valid
+-
+>
+glyph_count
+=
+glyph_count
 ;
 OTV_OPTIONAL_OFFSET
 (

@@ -11,6 +11,7 @@ rules
 Copyright
 2002
 2003
+2008
 by
 #
 David
@@ -172,6 +173,14 @@ T42_DIR
 )
 /
 t42error
+.
+h
+\
+(
+T42_DIR
+)
+/
+t42types
 .
 h
 #

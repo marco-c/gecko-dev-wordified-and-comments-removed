@@ -102,6 +102,7 @@ ttpload
 ttgload
 ttinterp
 ttgxvar
+ttpic
 ;
 }
 else

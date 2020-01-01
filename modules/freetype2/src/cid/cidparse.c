@@ -10,9 +10,6 @@ include
 FT_INTERNAL_DEBUG_H
 #
 include
-FT_INTERNAL_CALC_H
-#
-include
 FT_INTERNAL_OBJECTS_H
 #
 include
@@ -202,7 +199,7 @@ buffer
 10
 ]
 ;
-FT_Int
+FT_Long
 read_len
 =
 256
@@ -219,9 +216,6 @@ for
 (
 offset
 =
-(
-FT_ULong
-)
 FT_STREAM_POS
 (
 )
@@ -233,7 +227,7 @@ offset
 256
 )
 {
-FT_Int
+FT_Long
 stream_len
 ;
 stream_len

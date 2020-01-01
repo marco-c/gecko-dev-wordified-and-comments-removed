@@ -15,6 +15,7 @@ platform
 /
 Copyright
 2008
+2009
 by
 /
 /
@@ -318,12 +319,12 @@ include
 /
 freetype
 /
-ftchapters
+ftcid
 .
 h
 freetype
 /
-ftchapters
+ftcid
 .
 h
 .

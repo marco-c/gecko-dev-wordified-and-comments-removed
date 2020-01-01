@@ -52,6 +52,8 @@ FT_Bytes
 gsub
 FT_Bytes
 gpos
+FT_UInt
+glyph_count
 FT_Validator
 valid
 )

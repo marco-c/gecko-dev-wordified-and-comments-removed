@@ -89,6 +89,7 @@ PSHINTER_MODULE
 (
 OPEN_DRIVER
 )
+FT_Module_Class
 pshinter_module_class
 (
 CLOSE_DRIVER

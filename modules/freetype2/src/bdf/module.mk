@@ -217,6 +217,7 @@ BDF_DRIVER
 (
 OPEN_DRIVER
 )
+FT_Driver_ClassRec
 bdf_driver_class
 (
 CLOSE_DRIVER

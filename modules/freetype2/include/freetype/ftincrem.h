@@ -82,6 +82,9 @@ bearing_y
 FT_Long
 advance
 ;
+FT_Long
+advance_v
+;
 }
 FT_Incremental_MetricsRec
 ;

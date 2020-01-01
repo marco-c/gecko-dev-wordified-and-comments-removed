@@ -303,11 +303,11 @@ char
 atom
 ;
 long
-int32
+l
 ;
 unsigned
 long
-card32
+ul
 ;
 }
 value
@@ -389,8 +389,7 @@ char
 *
 key
 ;
-void
-*
+size_t
 data
 ;
 }

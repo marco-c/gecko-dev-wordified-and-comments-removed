@@ -70,6 +70,7 @@ MULTI_MASTERS
 ;
 if
 (
+*
 aservice
 )
 error

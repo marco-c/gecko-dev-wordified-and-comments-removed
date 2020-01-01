@@ -224,7 +224,7 @@ FT_NEXT_USHORT
 p
 )
 ;
-FT_UInt32
+FT_ULong
 strings
 =
 FT_NEXT_ULONG
@@ -462,7 +462,7 @@ FT_Byte
 *
 strike
 ;
-FT_UInt
+FT_Offset
 property_len
 ;
 aprop

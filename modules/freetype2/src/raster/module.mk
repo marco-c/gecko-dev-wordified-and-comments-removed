@@ -89,6 +89,7 @@ RASTER_MODULE
 (
 OPEN_DRIVER
 )
+FT_Renderer_Class
 ft_raster1_renderer_class
 (
 CLOSE_DRIVER

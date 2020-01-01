@@ -89,6 +89,7 @@ PSNAMES_MODULE
 (
 OPEN_DRIVER
 )
+FT_Module_Class
 psnames_module_class
 (
 CLOSE_DRIVER

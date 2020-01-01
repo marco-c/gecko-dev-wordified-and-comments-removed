@@ -89,6 +89,7 @@ PSAUX_MODULE
 (
 OPEN_DRIVER
 )
+FT_Module_Class
 psaux_module_class
 (
 CLOSE_DRIVER

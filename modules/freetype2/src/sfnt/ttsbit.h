@@ -72,8 +72,7 @@ metrics
 )
 ;
 #
-if
-defined
+ifdef
 FT_CONFIG_OPTION_OLD_INTERNALS
 FT_LOCAL
 (

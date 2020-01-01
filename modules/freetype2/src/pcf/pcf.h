@@ -93,10 +93,10 @@ FT_String
 atom
 ;
 FT_Long
-integer
+l
 ;
 FT_ULong
-cardinal
+ul
 ;
 }
 value

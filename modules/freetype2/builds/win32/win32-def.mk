@@ -136,6 +136,11 @@ E
 =
 .
 exe
+E_BUILD
+:
+=
+.
+exe
 #
 The
 directory

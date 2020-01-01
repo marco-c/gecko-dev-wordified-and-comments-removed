@@ -92,8 +92,8 @@ gxv_lcar_LookupValue_validate
 (
 FT_UShort
 glyph
-GXV_LookupValueDesc
-value
+GXV_LookupValueCPtr
+value_p
 GXV_Validator
 valid
 )
@@ -109,8 +109,9 @@ root
 >
 base
 +
-value
-.
+value_p
+-
+>
 u
 ;
 FT_Bytes
@@ -200,8 +201,8 @@ gxv_lcar_LookupFmt4_transit
 (
 FT_UShort
 relative_gindex
-GXV_LookupValueDesc
-base_value
+GXV_LookupValueCPtr
+base_value_p
 FT_Bytes
 lookuptbl_limit
 GXV_Validator
@@ -231,8 +232,9 @@ offset
 FT_UShort
 )
 (
-base_value
-.
+base_value_p
+-
+>
 u
 +
 relative_gindex

@@ -261,7 +261,7 @@ table
 max_hints
 )
 {
-FT_ERROR
+FT_TRACE0
 (
 (
 "
@@ -395,7 +395,7 @@ num_hints
 hint
 ;
 else
-FT_ERROR
+FT_TRACE0
 (
 (
 "
@@ -754,7 +754,7 @@ max_hints
 FT_UInt
 idx
 ;
-FT_ERROR
+FT_TRACE0
 (
 (
 "
@@ -765,7 +765,6 @@ missing
 incorrect
 hint
 masks
-!
 \
 n
 "
@@ -968,7 +967,7 @@ hint
 hint2
 )
 )
-FT_ERROR
+FT_TRACE0
 (
 (
 "
@@ -1028,7 +1027,7 @@ count
 hint
 ;
 else
-FT_ERROR
+FT_TRACE0
 (
 (
 "
@@ -3007,11 +3006,7 @@ ifdef
 DEBUG_ZONES
 #
 include
-<
-stdio
-.
-h
->
+FT_CONFIG_STANDARD_LIBRARY_H
 static
 void
 psh_print_zone

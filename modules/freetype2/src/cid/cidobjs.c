@@ -528,12 +528,19 @@ cidface
 FT_Memory
 memory
 ;
+CID_FaceInfo
+cid
+;
+PS_FontInfo
+info
+;
 if
 (
+!
 face
 )
-{
-CID_FaceInfo
+return
+;
 cid
 =
 &
@@ -542,7 +549,6 @@ face
 >
 cid
 ;
-PS_FontInfo
 info
 =
 &
@@ -744,7 +750,6 @@ face
 cid_stream
 )
 ;
-}
 }
 FT_LOCAL_DEF
 (
@@ -1315,7 +1320,7 @@ font_bbox
 .
 xMax
 +
-0xFFFFU
+0xFFFF
 )
 >
 >
@@ -1336,7 +1341,7 @@ font_bbox
 .
 yMax
 +
-0xFFFFU
+0xFFFF
 )
 >
 >

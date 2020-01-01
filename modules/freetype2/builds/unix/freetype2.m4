@@ -25,6 +25,7 @@ Copyright
 2001
 2003
 2007
+2009
 by
 #
 David
@@ -140,7 +141,7 @@ program
 #
 #
 serial
-2
+3
 #
 AC_CHECK_FT2
 (
@@ -467,6 +468,16 @@ freetype
 config
 fi
 fi
+if
+test
+"
+x
+FT2_CONFIG
+"
+=
+x
+;
+then
 AC_PATH_PROG
 (
 [
@@ -481,6 +492,7 @@ config
 no
 ]
 )
+fi
 min_ft_version
 =
 m4_if

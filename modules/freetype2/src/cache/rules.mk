@@ -13,6 +13,7 @@ Copyright
 2003
 2004
 2006
+2008
 by
 #
 David
@@ -209,6 +210,14 @@ CACHE_DRV_H
 CACHE_DIR
 )
 /
+ftccache
+.
+h
+\
+(
+CACHE_DIR
+)
+/
 ftccback
 .
 h
@@ -250,6 +259,14 @@ CACHE_DIR
 )
 /
 ftcmru
+.
+h
+\
+(
+CACHE_DIR
+)
+/
+ftcsbits
 .
 h
 #

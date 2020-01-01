@@ -11,6 +11,13 @@ h
 #
 include
 "
+pshpic
+.
+c
+"
+#
+include
+"
 pshrec
 .
 c

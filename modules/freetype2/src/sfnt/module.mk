@@ -89,6 +89,7 @@ SFNT_MODULE
 (
 OPEN_DRIVER
 )
+FT_Module_Class
 sfnt_module_class
 (
 CLOSE_DRIVER

@@ -608,7 +608,7 @@ format
 1
 )
 {
-FT_UInt
+FT_PtrDist
 table_size
 ;
 OTV_OPTIONAL_TABLE
@@ -2482,6 +2482,8 @@ case
 {
 FT_UInt
 ExtensionLookupType
+;
+FT_ULong
 ExtensionOffset
 ;
 OTV_Validate_Func

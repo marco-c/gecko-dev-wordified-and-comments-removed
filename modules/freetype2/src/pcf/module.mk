@@ -216,6 +216,7 @@ PCF_DRIVER
 (
 OPEN_DRIVER
 )
+FT_Driver_ClassRec
 pcf_driver_class
 (
 CLOSE_DRIVER

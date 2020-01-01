@@ -101,11 +101,13 @@ _sources
 sfobjs
 sfdriver
 ttcmap
+ttmtx
 ttpost
 ttload
 ttsbit
 ttkern
 ttbdf
+sfntpic
 ;
 }
 else

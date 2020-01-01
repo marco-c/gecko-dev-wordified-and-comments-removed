@@ -165,6 +165,11 @@ OTV_OPTIONAL_TABLE
 DeviceTableOffset
 )
 ;
+FT_UNUSED
+(
+isItalic
+)
+;
 OTV_NAME_ENTER
 (
 isItalic

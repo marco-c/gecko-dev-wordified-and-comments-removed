@@ -355,7 +355,7 @@ base_adj
 FT_UInt
 pair_size
 ;
-FT_UInt32
+FT_Offset
 offset
 ;
 FT_UInt32
@@ -530,7 +530,7 @@ blue_scale
 FT_UInt
 num_chars
 ;
-FT_UInt32
+FT_Offset
 chars_offset
 ;
 PFR_Char
@@ -546,7 +546,7 @@ PFR_KernItem
 *
 kern_items_tail
 ;
-FT_UInt32
+FT_Long
 bct_offset
 ;
 FT_Byte

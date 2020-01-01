@@ -11,6 +11,13 @@ h
 #
 include
 "
+ftspic
+.
+c
+"
+#
+include
+"
 ftgrays
 .
 c

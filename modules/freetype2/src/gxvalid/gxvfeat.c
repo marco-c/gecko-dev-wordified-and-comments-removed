@@ -552,7 +552,7 @@ feature
 FT_UShort
 nSettings
 ;
-FT_UInt
+FT_ULong
 settingTable
 ;
 FT_UShort

@@ -33,6 +33,13 @@ ftcerror
 h
 "
 #
+undef
+FT_COMPONENT
+#
+define
+FT_COMPONENT
+trace_cache
+#
 define
 FTC_HASH_MAX_LOAD
 2
@@ -186,7 +193,7 @@ node
 *
 pnode
 ;
-FT_UInt
+FT_UFast
 p
 =
 cache
@@ -194,7 +201,7 @@ cache
 >
 p
 ;
-FT_UInt
+FT_UFast
 mask
 =
 cache
@@ -202,7 +209,7 @@ cache
 >
 mask
 ;
-FT_UInt
+FT_UFast
 count
 =
 mask
@@ -421,7 +428,7 @@ count
 FTC_HASH_SUB_LOAD
 )
 {
-FT_UInt
+FT_UFast
 old_index
 =
 p
@@ -667,7 +674,7 @@ node
 NULL
 )
 {
-FT_ERROR
+FT_TRACE0
 (
 (
 "
@@ -675,7 +682,6 @@ ftc_node_hash_unlink
 :
 unknown
 node
-!
 \
 n
 "
@@ -878,7 +884,7 @@ manager
 num_caches
 )
 {
-FT_ERROR
+FT_TRACE0
 (
 (
 "
@@ -922,7 +928,7 @@ cache
 NULL
 )
 {
-FT_ERROR
+FT_TRACE0
 (
 (
 "
@@ -995,7 +1001,7 @@ num_nodes
 =
 0
 )
-FT_ERROR
+FT_TRACE0
 (
 (
 "
@@ -1005,10 +1011,10 @@ invalid
 cache
 node
 count
-!
-=
+(
 %
 d
+)
 \
 n
 "
@@ -1127,7 +1133,7 @@ manager
 FT_UFast
 i
 ;
-FT_UInt
+FT_UFast
 count
 ;
 count

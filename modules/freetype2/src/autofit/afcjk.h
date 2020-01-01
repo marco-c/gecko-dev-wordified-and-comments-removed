@@ -12,11 +12,10 @@ afhints
 h
 "
 FT_BEGIN_HEADER
-FT_CALLBACK_TABLE
-const
-AF_ScriptClassRec
+AF_DECLARE_SCRIPT_CLASS
+(
 af_cjk_script_class
-;
+)
 FT_LOCAL
 (
 FT_Error

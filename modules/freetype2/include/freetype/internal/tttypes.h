@@ -597,7 +597,7 @@ FT_Byte
 *
 strings
 ;
-FT_UInt32
+FT_ULong
 strings_size
 ;
 FT_UInt
@@ -909,7 +909,7 @@ vert_metrics
 FT_ULong
 vert_metrics_size
 ;
-FT_UInt
+FT_ULong
 num_locations
 ;
 FT_Byte

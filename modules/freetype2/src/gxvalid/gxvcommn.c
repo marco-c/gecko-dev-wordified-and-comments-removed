@@ -33,10 +33,8 @@ a
 b
 )
 return
-(
 -
 1
-)
 ;
 else
 if
@@ -48,15 +46,11 @@ a
 b
 )
 return
-(
 1
-)
 ;
 else
 return
-(
 0
-)
 ;
 }
 FT_LOCAL_DEF
@@ -309,10 +303,8 @@ a
 b
 )
 return
-(
 -
 1
-)
 ;
 else
 if
@@ -324,15 +316,11 @@ a
 b
 )
 return
-(
 1
-)
 ;
 else
 return
-(
 0
-)
 ;
 }
 FT_LOCAL_DEF
@@ -1393,6 +1381,8 @@ in
 LookupTable
 %
 s
+\
+n
 "
 \
 UNITSIZE
@@ -1599,6 +1589,7 @@ valid
 lookupval_func
 (
 i
+&
 value
 valid
 )
@@ -2028,6 +2019,7 @@ valid
 lookupval_func
 (
 gid
+&
 value
 valid
 )
@@ -2396,6 +2388,7 @@ gid
 -
 firstGlyph
 )
+&
 base_value
 limit
 valid
@@ -2407,6 +2400,7 @@ valid
 lookupval_func
 (
 gid
+&
 value
 valid
 )
@@ -2722,6 +2716,7 @@ valid
 lookupval_func
 (
 glyph
+&
 value
 valid
 )
@@ -2876,6 +2871,7 @@ firstGlyph
 +
 i
 )
+&
 value
 valid
 )
@@ -4338,6 +4334,7 @@ entry_validate_func
 (
 state
 flags
+&
 glyphOffset
 statetable_table
 statetable_limit
@@ -4944,8 +4941,8 @@ gxv_XClassTable_lookupval_validate
 (
 FT_UShort
 glyph
-GXV_LookupValueDesc
-value
+GXV_LookupValueCPtr
+value_p
 GXV_Validator
 valid
 )
@@ -4957,8 +4954,9 @@ glyph
 ;
 if
 (
-value
-.
+value_p
+-
+>
 u
 >
 =
@@ -4973,8 +4971,9 @@ FT_INVALID_DATA
 ;
 if
 (
-value
-.
+value_p
+-
+>
 u
 >
 valid
@@ -4991,8 +4990,9 @@ xstatetable
 .
 maxClassID
 =
-value
-.
+value_p
+-
+>
 u
 ;
 }
@@ -5002,8 +5002,8 @@ gxv_XClassTable_lookupfmt4_transit
 (
 FT_UShort
 relative_gindex
-GXV_LookupValueDesc
-base_value
+GXV_LookupValueCPtr
+base_value_p
 FT_Bytes
 lookuptbl_limit
 GXV_Validator
@@ -5028,8 +5028,9 @@ offset
 FT_UShort
 )
 (
-base_value
-.
+base_value_p
+-
+>
 u
 +
 relative_gindex
@@ -5712,6 +5713,7 @@ entry_validate_func
 (
 state
 flags
+&
 glyphOffset
 xstatetable_table
 xstatetable_limit

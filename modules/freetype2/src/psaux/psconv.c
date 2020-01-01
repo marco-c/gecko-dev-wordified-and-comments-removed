@@ -10,18 +10,8 @@ include
 FT_INTERNAL_POSTSCRIPT_AUX_H
 #
 include
-FT_INTERNAL_DEBUG_H
-#
-include
 "
 psconv
-.
-h
-"
-#
-include
-"
-psobjs
 .
 h
 "
@@ -1116,7 +1106,7 @@ limit
 FT_Byte
 *
 buffer
-FT_UInt
+FT_Offset
 n
 )
 {
@@ -1451,7 +1441,7 @@ limit
 FT_Byte
 *
 buffer
-FT_UInt
+FT_Offset
 n
 )
 {
@@ -1777,7 +1767,7 @@ limit
 FT_Byte
 *
 buffer
-FT_UInt
+FT_Offset
 n
 FT_UShort
 *

@@ -131,6 +131,16 @@ FT_EXPORT
 (
 FT_Error
 )
+FT_GlyphSlot_Own_Bitmap
+(
+FT_GlyphSlot
+slot
+)
+;
+FT_EXPORT
+(
+FT_Error
+)
 FT_Bitmap_Done
 (
 FT_Library

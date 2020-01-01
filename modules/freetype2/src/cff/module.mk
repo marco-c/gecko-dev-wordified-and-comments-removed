@@ -89,6 +89,7 @@ CFF_DRIVER
 (
 OPEN_DRIVER
 )
+FT_Driver_ClassRec
 cff_driver_class
 (
 CLOSE_DRIVER

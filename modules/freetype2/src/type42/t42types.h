@@ -44,11 +44,16 @@ void
 *
 psaux
 ;
+#
+if
+0
 const
 void
 *
 afm_data
 ;
+#
+endif
 FT_Byte
 *
 ttf_data

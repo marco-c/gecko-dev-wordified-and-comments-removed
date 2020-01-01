@@ -125,8 +125,8 @@ FT_Byte
 state
 FT_UShort
 flags
-GXV_StateTable_GlyphOffsetDesc
-glyphOffset
+GXV_StateTable_GlyphOffsetCPtr
+glyphOffset_p
 FT_Bytes
 table
 FT_Bytes
@@ -177,7 +177,7 @@ verb
 ;
 FT_UNUSED
 (
-glyphOffset
+glyphOffset_p
 )
 ;
 markFirst
@@ -262,8 +262,9 @@ glyphOffset
 %
 04x
 "
-glyphOffset
-.
+glyphOffset_p
+-
+>
 u
 )
 )

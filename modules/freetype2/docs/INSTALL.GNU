@@ -246,9 +246,7 @@ number
 VERSION
 3
 .
-78
-.
-1
+80
 OR
 NEWER
 IS
@@ -1313,6 +1311,7 @@ Copyright
 2004
 2005
 2006
+2008
 by
 David
 Turner

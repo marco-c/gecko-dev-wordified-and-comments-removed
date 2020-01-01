@@ -1369,6 +1369,8 @@ FT_ERROR
 "
 pfr_extra_item_load_bitmap_info
 :
+"
+"
 invalid
 bitmap
 info
@@ -1635,6 +1637,8 @@ FT_ERROR
 "
 pfr_exta_item_load_stem_snaps
 :
+"
+"
 invalid
 stem
 snaps
@@ -2481,6 +2485,8 @@ memory
 ;
 FT_UInt
 flags
+;
+FT_ULong
 num_aux
 ;
 FT_Byte

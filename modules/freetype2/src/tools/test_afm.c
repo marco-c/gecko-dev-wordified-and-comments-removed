@@ -414,7 +414,7 @@ const
 char
 *
 name
-FT_UInt
+FT_Offset
 len
 void
 *

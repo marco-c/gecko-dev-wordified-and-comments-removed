@@ -89,6 +89,7 @@ TRUETYPE_DRIVER
 (
 OPEN_DRIVER
 )
+FT_Driver_ClassRec
 tt_driver_class
 (
 CLOSE_DRIVER

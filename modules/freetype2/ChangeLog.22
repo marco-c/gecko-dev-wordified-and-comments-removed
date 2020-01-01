@@ -1572,7 +1572,6 @@ FT_STRICT_ALIASING
 .
 (
 ft_mem_alloc
-.
 ft_mem_realloc
 ft_mem_qrealloc
 )

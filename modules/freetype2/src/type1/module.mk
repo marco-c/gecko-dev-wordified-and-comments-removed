@@ -89,6 +89,7 @@ TYPE1_DRIVER
 (
 OPEN_DRIVER
 )
+FT_Driver_ClassRec
 t1_driver_class
 (
 CLOSE_DRIVER

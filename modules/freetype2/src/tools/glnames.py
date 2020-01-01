@@ -24,7 +24,8 @@ defined
 in
 the
   
-PSNames
+psnames
+'
 module
 .
   
@@ -17134,6 +17135,7 @@ the_array
 )
 +
 "
+L
 ]
 =
 \
@@ -17521,6 +17523,7 @@ write
 *
 Copyright
 2005
+2008
 by
 *
 /
@@ -18049,6 +18052,9 @@ table
    
 *
 /
+#
+ifdef
+FT_CONFIG_OPTION_ADOBE_GLYPH_LIST
 "
 "
 "
@@ -18580,6 +18586,13 @@ return
 ;
   
 }
+#
+endif
+/
+*
+FT_CONFIG_OPTION_ADOBE_GLYPH_LIST
+*
+/
 "
 "
 "

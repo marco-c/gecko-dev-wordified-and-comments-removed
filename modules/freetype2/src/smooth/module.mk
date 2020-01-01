@@ -90,6 +90,7 @@ SMOOTH_RENDERER
 (
 OPEN_DRIVER
 )
+FT_Renderer_Class
 ft_smooth_renderer_class
 (
 CLOSE_DRIVER
@@ -112,6 +113,7 @@ ECHO_DRIVER_DONE
 (
 OPEN_DRIVER
 )
+FT_Renderer_Class
 ft_smooth_lcd_renderer_class
 (
 CLOSE_DRIVER
@@ -136,6 +138,7 @@ ECHO_DRIVER_DONE
 (
 OPEN_DRIVER
 )
+FT_Renderer_Class
 ft_smooth_lcdv_renderer_class
 (
 CLOSE_DRIVER

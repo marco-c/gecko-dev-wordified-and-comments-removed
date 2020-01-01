@@ -7,6 +7,9 @@ h
 >
 #
 include
+FT_INTERNAL_CALC_H
+#
+include
 FT_INTERNAL_DEBUG_H
 #
 include
@@ -516,12 +519,19 @@ T1_Face
 face
 )
 {
+FT_Memory
+memory
+;
+T1_Font
+type1
+;
 if
 (
+!
 face
 )
-{
-FT_Memory
+return
+;
 memory
 =
 face
@@ -531,7 +541,6 @@ root
 .
 memory
 ;
-T1_Font
 type1
 =
 &
@@ -829,7 +838,6 @@ style_name
 NULL
 ;
 }
-}
 FT_LOCAL_DEF
 (
 FT_Error
@@ -982,8 +990,7 @@ Exit
 if
 (
 face_index
-!
-=
+>
 0
 )
 {
@@ -1038,7 +1045,7 @@ root
 >
 face_index
 =
-face_index
+0
 ;
 root
 -
@@ -1441,7 +1448,7 @@ font_bbox
 .
 xMax
 +
-0xFFFFU
+0xFFFF
 )
 >
 >
@@ -1462,7 +1469,7 @@ font_bbox
 .
 yMax
 +
-0xFFFFU
+0xFFFF
 )
 >
 >
@@ -1618,7 +1625,10 @@ max_advance_width
 (
 FT_Short
 )
+FIXED_TO_INT
+(
 max_advance
+)
 ;
 else
 error
