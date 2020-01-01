@@ -776,6 +776,12 @@ DoneTests
 )
 ;
 }
+gBrowser
+.
+focus
+(
+)
+;
 StartTests
 (
 )
