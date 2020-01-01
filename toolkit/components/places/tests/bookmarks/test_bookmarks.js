@@ -3163,7 +3163,7 @@ _itemChangedId
 ;
 annosvc
 .
-setItemAnnotationString
+setItemAnnotation
 (
 newId3
 "

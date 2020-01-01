@@ -530,7 +530,7 @@ id2
 ;
 annosvc
 .
-setItemAnnotationString
+setItemAnnotation
 (
 id1
 "
@@ -545,7 +545,7 @@ a
 ;
 annosvc
 .
-setItemAnnotationString
+setItemAnnotation
 (
 id3
 "
@@ -583,7 +583,7 @@ id2
 ;
 annosvc
 .
-setItemAnnotationString
+setItemAnnotation
 (
 id1
 "

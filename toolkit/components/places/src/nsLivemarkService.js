@@ -740,7 +740,7 @@ this
 .
 _ans
 .
-getItemAnnotationString
+getItemAnnotation
 (
 livemarks
 [
@@ -1100,7 +1100,7 @@ this
 .
 _ans
 .
-getPageAnnotationInt64
+getPageAnnotation
 (
 livemark
 .
@@ -1435,7 +1435,7 @@ this
 .
 _ans
 .
-setItemAnnotationString
+setItemAnnotation
 (
 livemarkID
 LMANNO_FEEDURI
@@ -1494,7 +1494,7 @@ this
 .
 _ans
 .
-setItemAnnotationString
+setItemAnnotation
 (
 livemarkID
 LMANNO_SITEURI
@@ -1582,7 +1582,7 @@ this
 .
 _ans
 .
-getItemAnnotationString
+getItemAnnotation
 (
 container
 LMANNO_SITEURI
@@ -1669,7 +1669,7 @@ this
 .
 _ans
 .
-setItemAnnotationString
+setItemAnnotation
 (
 container
 LMANNO_SITEURI
@@ -1702,7 +1702,7 @@ this
 .
 _ans
 .
-getItemAnnotationString
+getItemAnnotation
 (
 container
 LMANNO_FEEDURI
@@ -1773,7 +1773,7 @@ this
 .
 _ans
 .
-setItemAnnotationString
+setItemAnnotation
 (
 container
 LMANNO_FEEDURI
@@ -2643,7 +2643,7 @@ this
 .
 _ans
 .
-setItemAnnotationString
+setItemAnnotation
 (
 id
 LMANNO_BMANNO
@@ -2937,7 +2937,7 @@ this
 .
 _ans
 .
-setPageAnnotationInt64
+setPageAnnotation
 (
 this
 .

@@ -1439,7 +1439,7 @@ i
 =
 annotations
 .
-getItemAnnotationString
+getItemAnnotation
 (
 bookmarks
 [
@@ -2122,7 +2122,7 @@ PlacesUtils
 .
 annotations
 .
-getItemAnnotationString
+getItemAnnotation
 (
 folder
 "
@@ -7095,7 +7095,7 @@ PlacesUtils
 .
 annotations
 .
-getItemAnnotationString
+getItemAnnotation
 (
 aItemId
 aAnnoName

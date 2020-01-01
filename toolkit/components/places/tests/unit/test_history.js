@@ -621,7 +621,7 @@ nsIAnnotationService
 ;
 annos
 .
-setPageAnnotationInt32
+setPageAnnotation
 (
 uri
 (

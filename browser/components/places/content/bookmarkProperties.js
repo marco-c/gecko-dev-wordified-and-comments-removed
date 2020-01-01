@@ -1121,7 +1121,7 @@ _itemDescription
 =
 annos
 .
-getItemAnnotationString
+getItemAnnotation
 (
 itemId
 DESCRIPTION_ANNO
@@ -1461,7 +1461,7 @@ lastUsed
 =
 annos
 .
-getItemAnnotationInt64
+getItemAnnotation
 (
 folderIds
 [
@@ -4787,7 +4787,7 @@ PlacesUtils
 .
 annotations
 .
-setItemAnnotationInt64
+setItemAnnotation
 (
 aFolderId
 LAST_USED_ANNO
