@@ -2371,7 +2371,7 @@ DB
 return
 transferMultipleByRunsImpl
 <
-FloatRegisterBackwardIterator
+FloatRegisterIterator
 >
 (
 set
