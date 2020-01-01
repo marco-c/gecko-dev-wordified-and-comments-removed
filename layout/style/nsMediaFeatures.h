@@ -59,6 +59,7 @@ ValueType
 {
 eLength
 eInteger
+eBoolInteger
 eIntRatio
 eResolution
 eEnumerated
