@@ -1737,7 +1737,7 @@ Height
 nsSVGUtils
 :
 :
-SetupCairoStrokeGeometry
+SetupCairoStrokeBBoxGeometry
 (
 this
 tmpCtx
