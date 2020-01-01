@@ -7202,7 +7202,7 @@ browser
 tab
 )
 {
-this
+browser
 .
 selectedTab
 =
