@@ -152,6 +152,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -389,6 +398,7 @@ HIST_CMD_RELOAD
 ;
 class
 nsSHistoryObserver
+MOZ_FINAL
 :
 public
 nsIObserver

@@ -60,6 +60,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsSHEntry
 ;
@@ -86,6 +95,7 @@ nsDocShellEditorData
 ;
 class
 nsSHEntryShared
+MOZ_FINAL
 :
 public
 nsIBFCacheEntry

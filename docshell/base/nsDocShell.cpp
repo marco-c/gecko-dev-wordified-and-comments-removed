@@ -506,6 +506,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIHttpChannelInternal
 .
 h
@@ -1891,6 +1900,7 @@ host2
 }
 class
 nsPingListener
+MOZ_FINAL
 :
 public
 nsIStreamListener
@@ -31119,6 +31129,7 @@ namespace
 {
 class
 nsCopyFaviconCallback
+MOZ_FINAL
 :
 public
 nsIFaviconDataCallback
