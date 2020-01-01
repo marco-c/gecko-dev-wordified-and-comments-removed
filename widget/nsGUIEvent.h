@@ -4571,12 +4571,6 @@ kIsHorizontal
 <
 <
 2
-kHasPixels
-=
-1
-<
-<
-3
 }
 ;
 nsMouseScrollEvent
