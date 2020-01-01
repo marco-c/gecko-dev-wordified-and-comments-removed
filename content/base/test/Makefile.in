@@ -523,6 +523,11 @@ bug
 )
 _TEST_FILES1
 =
+\
+responseIdentical
+.
+sjs
+\
 test_bug5141
 .
 html

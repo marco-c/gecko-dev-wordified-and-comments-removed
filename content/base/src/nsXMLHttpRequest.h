@@ -572,6 +572,14 @@ writeCount
 )
 ;
 nsresult
+CreateResponseParsedJSON
+(
+JSContext
+*
+aCx
+)
+;
+nsresult
 CreateResponseArrayBuffer
 (
 JSContext
@@ -796,6 +804,7 @@ XML_HTTP_RESPONSE_TYPE_ARRAYBUFFER
 XML_HTTP_RESPONSE_TYPE_BLOB
 XML_HTTP_RESPONSE_TYPE_DOCUMENT
 XML_HTTP_RESPONSE_TYPE_TEXT
+XML_HTTP_RESPONSE_TYPE_JSON
 }
 mResponseType
 ;
@@ -895,6 +904,9 @@ nsCOMPtr
 nsIChannel
 >
 mNewRedirectChannel
+;
+jsval
+mResultJSON
 ;
 JSObject
 *
