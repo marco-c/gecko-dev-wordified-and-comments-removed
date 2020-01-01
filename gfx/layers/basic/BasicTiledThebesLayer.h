@@ -454,6 +454,15 @@ aTileB
 }
 private
 :
+gfxASurface
+:
+:
+gfxImageFormat
+GetFormat
+(
+)
+const
+;
 BasicTiledThebesLayer
 *
 mThebesLayer
