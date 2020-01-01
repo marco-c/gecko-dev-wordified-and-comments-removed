@@ -718,6 +718,9 @@ LAllocation
 *
 canonicalSpill_
 ;
+bool
+isTemporary_
+;
 public
 :
 VirtualRegister
@@ -767,6 +770,10 @@ ins
 LDefinition
 *
 def
+bool
+temporary_
+=
+false
 )
 {
 reg_
@@ -784,6 +791,10 @@ ins
 def_
 =
 def
+;
+isTemporary_
+=
+temporary_
 ;
 LiveInterval
 *
@@ -1122,6 +1133,15 @@ canonicalSpill
 {
 return
 canonicalSpill_
+;
+}
+bool
+isTemporary
+(
+)
+{
+return
+isTemporary_
 ;
 }
 LiveInterval

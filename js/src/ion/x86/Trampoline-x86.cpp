@@ -393,6 +393,17 @@ ebp
 ;
 masm
 .
+movl
+(
+Imm32
+(
+1
+)
+eax
+)
+;
+masm
+.
 ret
 (
 )

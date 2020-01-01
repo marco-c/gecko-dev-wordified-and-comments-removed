@@ -1767,6 +1767,7 @@ block
 *
 ins
 def
+true
 )
 )
 return
@@ -2373,7 +2374,7 @@ getInterval
 >
 addRange
 (
-outputOf
+inputOf
 (
 *
 ins
@@ -3163,6 +3164,19 @@ CodePosition
 :
 :
 OUTPUT
+|
+|
+current
+-
+>
+reg
+(
+)
+-
+>
+isTemporary
+(
+)
 )
 ;
 LDefinition

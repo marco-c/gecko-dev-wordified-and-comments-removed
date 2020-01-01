@@ -421,6 +421,17 @@ rbp
 ;
 masm
 .
+movq
+(
+ImmWord
+(
+1
+)
+rax
+)
+;
+masm
+.
 ret
 (
 )
