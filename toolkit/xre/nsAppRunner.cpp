@@ -1947,6 +1947,8 @@ ProcessDDE
 nsINativeAppSupport
 *
 aNative
+PRBool
+aWait
 )
 {
 ArgResult
@@ -1976,6 +1978,11 @@ Enable
 (
 )
 ;
+if
+(
+aWait
+)
+{
 nsIThread
 *
 thread
@@ -2012,6 +2019,7 @@ PR_MillisecondsToInterval
 )
 )
 ;
+}
 }
 }
 }
@@ -7303,6 +7311,7 @@ XP_WIN
 ProcessDDE
 (
 aNative
+PR_FALSE
 )
 ;
 #
@@ -14677,6 +14686,7 @@ XP_WIN
 ProcessDDE
 (
 nativeApp
+PR_TRUE
 )
 ;
 #
