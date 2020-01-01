@@ -2124,15 +2124,6 @@ eSVG_PROPERTIES
 aWarning
 aParams
 aParamsLength
-doc
-?
-doc
--
->
-GetDocumentURI
-(
-)
-:
 nsnull
 EmptyString
 (
@@ -2146,6 +2137,7 @@ warningFlag
 "
 SVG
 "
+doc
 )
 ;
 }

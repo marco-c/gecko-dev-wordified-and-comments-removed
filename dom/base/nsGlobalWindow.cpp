@@ -21244,15 +21244,6 @@ eDOM_PROPERTIES
 aWarning
 nsnull
 0
-doc
-?
-doc
--
->
-GetDocumentURI
-(
-)
-:
 nsnull
 EmptyString
 (
@@ -21267,6 +21258,7 @@ warningFlag
 DOM
 Events
 "
+doc
 )
 ;
 }
@@ -23879,6 +23871,7 @@ warningFlag
 DOM
 Window
 "
+mDoc
 )
 ;
 return

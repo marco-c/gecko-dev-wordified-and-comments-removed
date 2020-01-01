@@ -3540,7 +3540,6 @@ friend
 class
 nsNodeUtils
 ;
-static
 inline
 PRBool
 CheckGetElementByIdArg
@@ -3572,7 +3571,6 @@ return
 PR_TRUE
 ;
 }
-static
 void
 ReportEmptyGetElementByIdArg
 (

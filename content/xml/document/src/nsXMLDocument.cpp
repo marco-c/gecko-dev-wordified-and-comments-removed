@@ -1474,12 +1474,7 @@ eDOM_PROPERTIES
 aWarning
 nsnull
 0
-aDoc
--
->
-GetDocumentURI
-(
-)
+nsnull
 EmptyString
 (
 )
@@ -1493,6 +1488,7 @@ warningFlag
 DOM3
 Load
 "
+aDoc
 )
 ;
 }
