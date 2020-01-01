@@ -365,7 +365,7 @@ aFrame
 protected
 :
 PRBool
-EmbeddedByReference
+IsRootOfReplacedElementSubDoc
 (
 nsIFrame
 *

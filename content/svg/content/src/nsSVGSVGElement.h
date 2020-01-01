@@ -799,6 +799,11 @@ GetImageOverridePreserveAspectRatio
 (
 )
 ;
+PRBool
+ShouldSynthesizeViewBox
+(
+)
+;
 protected
 :
 PRBool
@@ -1054,6 +1059,9 @@ mStartAnimationOnBindToTree
 endif
 PRPackedBool
 mImageNeedsTransformInvalidation
+;
+PRPackedBool
+mIsPaintingSVGImageElement
 ;
 }
 ;
