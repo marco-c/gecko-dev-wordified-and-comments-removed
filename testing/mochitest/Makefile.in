@@ -510,6 +510,16 @@ topsrcdir
 /
 build
 /
+devicemanager
+.
+py
+\
+(
+topsrcdir
+)
+/
+build
+/
 automationutils
 .
 py
