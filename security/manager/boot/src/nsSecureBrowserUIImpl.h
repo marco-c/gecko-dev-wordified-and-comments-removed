@@ -86,7 +86,7 @@ h
 #
 include
 "
-nsIWebProgressListener2
+nsIWebProgressListener
 .
 h
 "
@@ -180,7 +180,7 @@ nsSecureBrowserUIImpl
 public
 nsISecureBrowserUI
 public
-nsIWebProgressListener2
+nsIWebProgressListener
 public
 nsIFormSubmitObserver
 public
@@ -204,7 +204,6 @@ nsSecureBrowserUIImpl
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWEBPROGRESSLISTENER
-NS_DECL_NSIWEBPROGRESSLISTENER2
 NS_DECL_NSISECUREBROWSERUI
 NS_DECL_NSIOBSERVER
 NS_DECL_NSISSLSTATUSPROVIDER

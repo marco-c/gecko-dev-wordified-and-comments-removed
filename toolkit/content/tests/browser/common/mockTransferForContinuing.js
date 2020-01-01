@@ -197,17 +197,6 @@ aSameURI
 )
 {
 }
-onLocationChange2
-:
-function
-(
-aWebProgress
-aRequest
-aLocation
-aFlags
-)
-{
-}
 init
 :
 function
