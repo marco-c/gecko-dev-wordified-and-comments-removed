@@ -830,6 +830,9 @@ EventHandlerNonNull
 *
 aCallback
 \
+mozilla
+:
+:
 ErrorResult
 &
 aRv

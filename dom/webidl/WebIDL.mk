@@ -1448,6 +1448,10 @@ webidl_files
 +
 =
 \
+DataChannel
+.
+webidl
+\
 MediaStreamList
 .
 webidl
