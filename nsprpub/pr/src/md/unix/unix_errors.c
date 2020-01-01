@@ -230,6 +230,9 @@ break
 case
 EHOSTUNREACH
 :
+case
+EHOSTDOWN
+:
 prError
 =
 PR_HOST_UNREACHABLE_ERROR

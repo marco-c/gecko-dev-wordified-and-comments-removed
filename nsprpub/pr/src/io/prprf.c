@@ -2673,7 +2673,7 @@ cn
 .
 u
 .
-s
+ws
 =
 va_arg
 (
@@ -2814,6 +2814,7 @@ ip
 #
 ifdef
 WIN32
+const
 WCHAR
 *
 ws
