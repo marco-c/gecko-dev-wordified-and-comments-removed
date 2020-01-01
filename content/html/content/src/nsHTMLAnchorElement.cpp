@@ -410,6 +410,10 @@ nsGenericHTMLElement
 (
 aNodeInfo
 )
+Link
+(
+this
+)
 {
 }
 nsHTMLAnchorElement

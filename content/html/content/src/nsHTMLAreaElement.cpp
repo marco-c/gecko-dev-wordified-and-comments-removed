@@ -351,6 +351,10 @@ nsGenericHTMLElement
 (
 aNodeInfo
 )
+Link
+(
+this
+)
 {
 }
 nsHTMLAreaElement

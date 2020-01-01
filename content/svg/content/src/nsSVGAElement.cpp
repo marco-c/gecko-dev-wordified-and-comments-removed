@@ -145,6 +145,10 @@ nsSVGAElementBase
 (
 aNodeInfo
 )
+Link
+(
+this
+)
 {
 }
 NS_IMETHODIMP
