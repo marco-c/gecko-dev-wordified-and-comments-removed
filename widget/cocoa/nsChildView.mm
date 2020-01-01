@@ -4074,7 +4074,7 @@ double
 nsChildView
 :
 :
-GetDefaultScale
+GetDefaultScaleInternal
 (
 )
 {

@@ -8930,7 +8930,7 @@ double
 nsCocoaWindow
 :
 :
-GetDefaultScale
+GetDefaultScaleInternal
 (
 )
 {

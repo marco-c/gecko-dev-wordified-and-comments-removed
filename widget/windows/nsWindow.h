@@ -311,7 +311,7 @@ GetDPI
 ;
 virtual
 double
-GetDefaultScale
+GetDefaultScaleInternal
 (
 )
 ;

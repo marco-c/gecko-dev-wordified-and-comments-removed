@@ -3430,7 +3430,7 @@ double
 nsWindow
 :
 :
-GetDefaultScale
+GetDefaultScaleInternal
 (
 )
 {

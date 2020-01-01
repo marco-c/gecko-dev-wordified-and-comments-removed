@@ -262,12 +262,6 @@ GetDPI
 )
 ;
 virtual
-double
-GetDefaultScale
-(
-)
-;
-virtual
 void
 AddChild
 (

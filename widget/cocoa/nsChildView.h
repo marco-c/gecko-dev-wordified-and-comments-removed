@@ -1327,7 +1327,7 @@ BackingScaleFactorChanged
 ;
 virtual
 double
-GetDefaultScale
+GetDefaultScaleInternal
 (
 )
 ;
