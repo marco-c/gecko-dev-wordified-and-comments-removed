@@ -921,6 +921,12 @@ IsOptimus
 (
 )
 ;
+static
+bool
+IsRunningInWindows8Metro
+(
+)
+;
 protected
 :
 RenderMode
