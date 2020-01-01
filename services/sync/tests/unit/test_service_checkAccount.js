@@ -178,7 +178,7 @@ do_check_eq
 (
 Service
 .
-checkUsername
+checkAccount
 (
 "
 jimdoe
@@ -257,6 +257,9 @@ notAvailable
 _
 (
 "
+Username
+fallback
+:
 Account
 that
 '
@@ -271,7 +274,7 @@ do_check_eq
 (
 Service
 .
-checkUsername
+checkAccount
 (
 "
 johndoe
@@ -285,6 +288,9 @@ notAvailable
 _
 (
 "
+Username
+fallback
+:
 Account
 that
 '
@@ -298,7 +304,7 @@ do_check_eq
 (
 Service
 .
-checkUsername
+checkAccount
 (
 "
 janedoe
