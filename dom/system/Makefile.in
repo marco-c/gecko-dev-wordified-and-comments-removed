@@ -87,6 +87,10 @@ domsystem_s
 LIBXUL_LIBRARY
 =
 1
+FAIL_ON_WARNINGS
+:
+=
+1
 ifneq
 (
 (

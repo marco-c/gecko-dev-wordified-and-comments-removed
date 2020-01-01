@@ -91,6 +91,10 @@ LIBXUL_LIBRARY
 FORCE_STATIC_LIB
 =
 1
+FAIL_ON_WARNINGS
+:
+=
+1
 include
 (
 topsrcdir
