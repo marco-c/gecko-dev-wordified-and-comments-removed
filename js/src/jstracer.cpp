@@ -2059,6 +2059,11 @@ gvarobj
 if
 (
 !
+sprop
+|
+|
+\
+!
 SPROP_HAS_STUB_GETTER
 (
 sprop
@@ -3845,6 +3850,10 @@ continue
 ;
 if
 (
+!
+sprop
+|
+|
 !
 SPROP_HAS_STUB_GETTER
 (
