@@ -738,8 +738,4 @@ sub_test_cookie_tracker
 (
 )
 ;
-sub_test_cookie_engine
-(
-)
-;
 }
