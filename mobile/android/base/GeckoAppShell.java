@@ -129,6 +129,17 @@ FloatUtils
 import
 org
 .
+mozilla
+.
+gecko
+.
+util
+.
+GeckoBackgroundThread
+;
+import
+org
+.
 json
 .
 JSONObject

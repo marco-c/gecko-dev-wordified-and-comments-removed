@@ -140,6 +140,10 @@ ActivityResultHandlerMap
 .
 java
 \
+GeckoBackgroundThread
+.
+java
+\
 GeckoJarReader
 .
 java
@@ -321,10 +325,6 @@ GeckoAsyncTask
 java
 \
 GeckoBatteryManager
-.
-java
-\
-GeckoBackgroundThread
 .
 java
 \

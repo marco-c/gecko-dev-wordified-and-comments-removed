@@ -5,6 +5,17 @@ mozilla
 .
 gecko
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+GeckoBackgroundThread
+;
 public
 abstract
 class
@@ -134,7 +145,7 @@ mPriority
 =
 PRIORITY_HIGH
 )
-GeckoAppShell
+GeckoBackgroundThread
 .
 getHandler
 (
@@ -150,7 +161,7 @@ params
 )
 ;
 else
-GeckoAppShell
+GeckoBackgroundThread
 .
 getHandler
 (

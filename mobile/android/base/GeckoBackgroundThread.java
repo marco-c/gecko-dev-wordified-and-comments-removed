@@ -4,6 +4,8 @@ org
 mozilla
 .
 gecko
+.
+util
 ;
 import
 android
@@ -29,6 +31,7 @@ concurrent
 SynchronousQueue
 ;
 public
+final
 class
 GeckoBackgroundThread
 extends
