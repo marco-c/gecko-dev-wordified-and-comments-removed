@@ -22180,6 +22180,12 @@ value
 "
 &
 &
+!
+content
+.
+opener
+&
+&
 getWebNavigation
 (
 )
