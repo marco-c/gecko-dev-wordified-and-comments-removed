@@ -106,7 +106,7 @@ endif
 class
 nsIInputStream
 ;
-class
+struct
 nsIntRect
 ;
 class
