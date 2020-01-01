@@ -708,6 +708,9 @@ UNIVERSAL_BINARY
 =
 SIGN_NSS
 =
+PKG_SKIP_STRIP
+=
+1
 stage
 -
 package
@@ -728,6 +731,9 @@ UNIVERSAL_BINARY
 =
 SIGN_NSS
 =
+PKG_SKIP_STRIP
+=
+1
 stage
 -
 package
