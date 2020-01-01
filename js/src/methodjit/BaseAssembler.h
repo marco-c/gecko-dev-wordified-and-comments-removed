@@ -3092,6 +3092,10 @@ offsetOfFp
 )
 )
 ;
+if
+(
+pc
+)
 storePtr
 (
 ImmPtr
