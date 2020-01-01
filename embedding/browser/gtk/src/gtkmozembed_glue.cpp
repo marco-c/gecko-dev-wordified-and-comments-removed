@@ -179,8 +179,6 @@ GTKF
 gtk_moz_embed_get_nsIWebBrowser
 )
 #
-endif
-#
 define
 GTKMOZEMBED_FUNCTIONS
 \
