@@ -4210,7 +4210,7 @@ NIns
 *
 targ
 bool
-far
+isfar
 )
 {
 NIns
@@ -4282,7 +4282,7 @@ LIR_eq
 JNE
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4296,7 +4296,7 @@ LIR_ov
 JNO
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4310,7 +4310,7 @@ LIR_cs
 JNC
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4324,7 +4324,7 @@ LIR_lt
 JNL
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4338,7 +4338,7 @@ LIR_le
 JNLE
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4352,7 +4352,7 @@ LIR_gt
 JNG
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4366,7 +4366,7 @@ LIR_ge
 JNGE
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4380,7 +4380,7 @@ LIR_ult
 JNB
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4394,7 +4394,7 @@ LIR_ule
 JNBE
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4408,14 +4408,14 @@ LIR_ugt
 JNA
 (
 targ
-far
+isfar
 )
 ;
 else
 JNAE
 (
 targ
-far
+isfar
 )
 ;
 }
@@ -4431,7 +4431,7 @@ LIR_eq
 JE
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4445,7 +4445,7 @@ LIR_ov
 JO
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4459,7 +4459,7 @@ LIR_cs
 JC
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4473,7 +4473,7 @@ LIR_lt
 JL
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4487,7 +4487,7 @@ LIR_le
 JLE
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4501,7 +4501,7 @@ LIR_gt
 JG
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4515,7 +4515,7 @@ LIR_ge
 JGE
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4529,7 +4529,7 @@ LIR_ult
 JB
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4543,7 +4543,7 @@ LIR_ule
 JBE
 (
 targ
-far
+isfar
 )
 ;
 else
@@ -4557,14 +4557,14 @@ LIR_ugt
 JA
 (
 targ
-far
+isfar
 )
 ;
 else
 JAE
 (
 targ
-far
+isfar
 )
 ;
 }
