@@ -2307,11 +2307,6 @@ type
 "
 timed
 "
-timeout
-=
-"
-500
-"
 oncommand
 =
 "
