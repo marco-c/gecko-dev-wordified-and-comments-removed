@@ -604,6 +604,13 @@ nsISupportsPrimitives
 .
 h
 "
+#
+include
+"
+nsObjCExceptions
+.
+h
+"
 interface
 MacApplicationDelegate
 :
@@ -665,10 +672,14 @@ EnsureUseCocoaDockAPI
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 NSApplication
 sharedApplication
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -676,6 +687,8 @@ SetupMacApplicationDelegate
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 This
@@ -787,6 +800,8 @@ setDelegate
 :
 delegate
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 implementation
@@ -997,6 +1012,8 @@ NSString
 )
 filename
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 FSRef
 ref
 ;
@@ -1163,6 +1180,11 @@ abcd
 return
 YES
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
+;
 }
 /
 /
@@ -1223,6 +1245,8 @@ NSString
 )
 filename
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 FSRef
 ref
 ;
@@ -1387,6 +1411,11 @@ abcd
 return
 YES
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
+;
 }
 /
 /
@@ -1520,6 +1549,8 @@ NSApplication
 )
 sender
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 /
 /
 Why
@@ -1986,6 +2017,8 @@ release
 return
 menu
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 /
 /
@@ -2008,6 +2041,8 @@ id
 )
 sender
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 Our
@@ -2032,6 +2067,8 @@ activateIgnoringOtherApps
 :
 YES
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /

@@ -469,6 +469,13 @@ nsNotificationsList
 h
 "
 #
+include
+"
+nsObjCExceptions
+.
+h
+"
+#
 import
 "
 mozGrowlDelegate
@@ -578,6 +585,8 @@ GrowlDelegateWrapper
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 delegate
 =
 [
@@ -588,16 +597,22 @@ alloc
 init
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 ~
 GrowlDelegateWrapper
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 delegate
 release
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 }
@@ -645,6 +660,8 @@ nsIObserver
 aListener
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 [
@@ -819,6 +836,8 @@ uri
 listener
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -939,6 +958,8 @@ Init
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 [
@@ -1000,6 +1021,8 @@ startup
 "
 PR_FALSE
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 nsAlertsService
@@ -1149,6 +1172,8 @@ nsAString
 aAlertName
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ASSERTION
 (
 mDelegate
@@ -1340,6 +1365,8 @@ aAlertCookie
 aAlertListener
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -1445,6 +1472,8 @@ PRUnichar
 aData
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 strcmp
@@ -1579,5 +1608,7 @@ delegate
 }
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }

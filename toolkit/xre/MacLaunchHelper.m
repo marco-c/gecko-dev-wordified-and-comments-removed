@@ -439,6 +439,13 @@ h
 "
 #
 include
+"
+nsObjCExceptions
+.
+h
+"
+#
+include
 <
 Cocoa
 /
@@ -494,6 +501,8 @@ char
 aArgv
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 int
 i
 ;
@@ -802,5 +811,7 @@ launch
 pool
 release
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }

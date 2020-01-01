@@ -399,6 +399,13 @@ nsAlertsImageLoadListener
 h
 "
 #
+include
+"
+nsObjCExceptions
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -505,6 +512,8 @@ PRUint8
 aResult
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 #
 ifdef
 DEBUG
@@ -656,5 +665,7 @@ mAlertCookie
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }

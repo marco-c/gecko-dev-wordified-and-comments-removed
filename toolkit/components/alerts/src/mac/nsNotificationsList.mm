@@ -408,6 +408,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsStringAPI
 .
 h
@@ -441,6 +448,8 @@ nsNotificationsList
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 mNames
 =
 [
@@ -460,6 +469,8 @@ alloc
 ]
 init
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 nsNotificationsList
@@ -470,6 +481,8 @@ nsNotificationsList
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mNames
 release
@@ -479,6 +492,8 @@ release
 mEnabled
 release
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 NS_IMETHODIMP
@@ -495,6 +510,8 @@ PRBool
 aEnabled
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NSString
 *
 name
@@ -538,6 +555,8 @@ name
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsNotificationsList
@@ -554,6 +573,8 @@ PRBool
 retVal
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NSString
 *
 name
@@ -593,6 +614,8 @@ PR_FALSE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 void
 nsNotificationsList
@@ -605,6 +628,8 @@ mozGrowlDelegate
 aController
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 aController
 addNotificationNames
@@ -618,5 +643,7 @@ addEnabledNotifications
 :
 mEnabled
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }

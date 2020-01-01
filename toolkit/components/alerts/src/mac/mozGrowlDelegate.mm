@@ -429,6 +429,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -455,6 +462,8 @@ id
 )
 init
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -668,6 +677,8 @@ Notification
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -675,6 +686,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mDict
 release
@@ -695,6 +708,8 @@ super
 dealloc
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -708,12 +723,16 @@ NSArray
 )
 aNames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mNames
 addObjectsFromArray
 :
 aNames
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -728,12 +747,16 @@ NSArray
 )
 aEnabled
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mEnabled
 addObjectsFromArray
 :
 aEnabled
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 +
@@ -786,6 +809,8 @@ nsAString
 )
 aCookie
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NS_ASSERTION
 (
 aName
@@ -928,6 +953,8 @@ clickContext
 clickContext
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -941,6 +968,8 @@ nsIObserver
 )
 aObserver
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 NS_ADDREF
 (
 aObserver
@@ -983,6 +1012,11 @@ mKey
 return
 mKey
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+)
+;
 }
 -
 (
@@ -991,6 +1025,8 @@ NSDictionary
 )
 registrationDictionaryForGrowl
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 NSDictionary
@@ -1003,6 +1039,8 @@ GROWL_NOTIFICATIONS_DEFAULT
 nil
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1011,6 +1049,8 @@ NSString
 )
 applicationNameForGrowl
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsresult
 rv
 ;
@@ -1091,6 +1131,8 @@ Length
 )
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1103,6 +1145,8 @@ id
 )
 clickContext
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NS_ASSERTION
 (
 [
@@ -1246,6 +1290,8 @@ observer
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -1258,6 +1304,8 @@ id
 )
 clickContext
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NS_ASSERTION
 (
 [
@@ -1417,5 +1465,7 @@ observer
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 end
