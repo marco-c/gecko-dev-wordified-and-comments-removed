@@ -715,17 +715,6 @@ CryptoMeta_init
 uri
 )
 {
-dump
-(
-"
-ASDASD
-\
-n
-\
-n
-"
-)
-;
 this
 .
 _WBORec_init
