@@ -469,6 +469,8 @@ EXPORT_LIBRARY
 IPDLTESTS
 =
 \
+TestLatency
+\
 TestManyChildAllocs
 \
 TestSanity

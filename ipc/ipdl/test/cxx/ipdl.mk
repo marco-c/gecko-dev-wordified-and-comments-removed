@@ -1,6 +1,10 @@
 IPDLSRCS
 =
 \
+PTestLatency
+.
+ipdl
+\
 PTestManyChildAllocs
 .
 ipdl
