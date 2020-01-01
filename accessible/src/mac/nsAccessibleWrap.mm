@@ -1347,10 +1347,6 @@ nsAccessibleWrap
 *
 >
 (
-(
-nsIAccessible
-*
-)
 curAcc
 .
 get
@@ -1627,10 +1623,6 @@ nsAccessibleWrap
 *
 >
 (
-(
-nsIAccessible
-*
-)
 curAcc
 .
 get
@@ -1780,10 +1772,6 @@ nsAccessibleWrap
 *
 >
 (
-(
-nsIAccessible
-*
-)
 parent
 .
 get
