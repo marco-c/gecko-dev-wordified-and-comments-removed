@@ -369,6 +369,10 @@ nsGeolocationService
 (
 )
 {
+mHigherAccuracy
+=
+false
+;
 }
 nsresult
 Init
@@ -420,6 +424,13 @@ SetDisconnectTimer
 (
 )
 ;
+void
+SetHigherAccuracy
+(
+bool
+aEnable
+)
+;
 private
 :
 ~
@@ -451,6 +462,9 @@ nsCOMPtr
 nsIDOMGeoPosition
 >
 mLastPosition
+;
+bool
+mHigherAccuracy
 ;
 }
 ;

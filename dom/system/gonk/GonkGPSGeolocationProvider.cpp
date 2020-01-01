@@ -526,3 +526,16 @@ return
 NS_OK
 ;
 }
+NS_IMETHODIMP
+GonkGPSGeolocationProvider
+:
+:
+SetHighAccuracy
+(
+bool
+)
+{
+return
+NS_OK
+;
+}
