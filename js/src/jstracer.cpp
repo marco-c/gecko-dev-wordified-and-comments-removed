@@ -93691,7 +93691,7 @@ cx
 uintN
 &
 inlineCallCount
-JSInterpMode
+InterpMode
 interpMode
 )
 {

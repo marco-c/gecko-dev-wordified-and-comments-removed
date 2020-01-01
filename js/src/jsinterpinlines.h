@@ -549,8 +549,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 pc
 =
 script_
