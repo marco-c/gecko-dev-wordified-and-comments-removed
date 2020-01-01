@@ -1112,6 +1112,14 @@ index
 )
 const
 ;
+void
+dumpStack
+(
+FILE
+*
+fp
+)
+;
 private
 :
 MIRGraph
