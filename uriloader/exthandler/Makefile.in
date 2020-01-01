@@ -675,6 +675,10 @@ OSHELPER
 nsMIMEInfoOS2
 .
 cpp
+REQUIRES
++
+=
+widget
 endif
 EXPORTS
 =

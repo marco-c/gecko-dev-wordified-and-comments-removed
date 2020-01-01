@@ -567,6 +567,10 @@ nsPrintOptionsOS2
 .
 cpp
 \
+nsRwsService
+.
+cpp
+\
 (
 NULL
 )
