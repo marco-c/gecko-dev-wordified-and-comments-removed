@@ -882,7 +882,6 @@ endif
 }
 }
 ;
-static
 JS_ALWAYS_INLINE
 size_t
 RoundUpPow2
@@ -958,7 +957,6 @@ template
 class
 T
 >
-static
 JS_ALWAYS_INLINE
 size_t
 PointerRangeSize
