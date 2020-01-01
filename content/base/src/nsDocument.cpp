@@ -23038,7 +23038,8 @@ nsnull
 ;
 mAnimationController
 =
-NS_NewSMILAnimationController
+new
+nsSMILAnimationController
 (
 this
 )
