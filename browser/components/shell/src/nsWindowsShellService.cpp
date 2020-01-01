@@ -473,8 +473,6 @@ define
 CPL_DESKTOP
 L
 "
-\
-\
 Control
 Panel
 \
@@ -521,8 +519,6 @@ define
 CPL_DESKTOP
 L
 "
-\
-\
 ControlPanel
 \
 \
