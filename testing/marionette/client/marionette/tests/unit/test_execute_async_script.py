@@ -144,7 +144,7 @@ marionette
 .
 set_script_timeout
 (
-2000
+10000
 )
         
 self
