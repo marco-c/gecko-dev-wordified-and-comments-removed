@@ -1352,7 +1352,7 @@ graphite
 .
 enabled
 "
-false
+true
 )
 ;
 #
