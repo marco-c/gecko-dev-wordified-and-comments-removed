@@ -650,7 +650,6 @@ CLOSE_FLAG_DONTNOTIFY
 (
 mFlags
 &
-&
 imgIDecoder
 :
 :
