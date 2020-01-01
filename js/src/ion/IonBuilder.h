@@ -760,6 +760,13 @@ JSOp
 op
 )
 ;
+bool
+jsop_getglobal
+(
+JSOp
+op
+)
+;
 private
 :
 JSAtom
