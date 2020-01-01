@@ -11352,7 +11352,6 @@ result
 nullptr
 )
 ;
-return
 inst
 -
 >
@@ -11360,6 +11359,9 @@ SetCached
 (
 bCached
 )
+;
+return
+NPERR_NO_ERROR
 ;
 }
 case

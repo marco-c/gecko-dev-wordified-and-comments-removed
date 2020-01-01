@@ -1033,7 +1033,7 @@ StopTime
 (
 )
 ;
-nsresult
+void
 SetCached
 (
 bool

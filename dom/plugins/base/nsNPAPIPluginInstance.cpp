@@ -5103,7 +5103,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsNPAPIPluginInstance
 :
 :
@@ -5116,9 +5116,6 @@ aCache
 mCached
 =
 aCache
-;
-return
-NS_OK
 ;
 }
 bool
