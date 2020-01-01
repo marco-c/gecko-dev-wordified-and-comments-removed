@@ -13177,12 +13177,6 @@ JSScript
 *
 newScriptObject
 =
-static_cast
-<
-JSScript
-*
->
-(
 cache
 -
 >
@@ -13191,7 +13185,6 @@ GetScript
 mSrcURI
 &
 newLangID
-)
 )
 ;
 if

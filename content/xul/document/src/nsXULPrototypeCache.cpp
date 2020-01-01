@@ -829,7 +829,7 @@ return
 NS_OK
 ;
 }
-void
+JSScript
 *
 nsXULPrototypeCache
 :
@@ -880,9 +880,16 @@ entry
 mScriptTypeID
 ;
 return
+static_cast
+<
+JSScript
+*
+>
+(
 entry
 .
 mScriptObject
+)
 ;
 }
 static
