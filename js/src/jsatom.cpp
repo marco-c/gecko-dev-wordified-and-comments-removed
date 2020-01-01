@@ -4598,6 +4598,10 @@ space
 ;
 }
 }
+JS_ARENA_ALLOCATE
+(
+space
+&
 parser
 -
 >
@@ -4605,10 +4609,6 @@ context
 -
 >
 tempPool
-.
-allocate
-(
-space
 size
 )
 ;
@@ -4767,6 +4767,11 @@ ale
 entry
 ;
 }
+JS_ARENA_ALLOCATE_TYPE
+(
+ale
+JSAtomListElement
+&
 parser
 -
 >
@@ -4774,13 +4779,6 @@ context
 -
 >
 tempPool
-.
-allocateType
-<
-JSAtomListElement
->
-(
-ale
 )
 ;
 if
