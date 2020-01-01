@@ -735,9 +735,10 @@ this
 .
 tabs
 .
-selectedItem
-=
+_selectNewTab
+(
 val
+)
 ;
 return
 val
