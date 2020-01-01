@@ -2274,15 +2274,6 @@ MAI_TYPE_UTIL
 )
 )
 ;
-PR_SetEnv
-(
-"
-NO_AT_BRIDGE
-=
-0
-"
-)
-;
 rv
 =
 LoadGtkModule
