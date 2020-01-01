@@ -14,13 +14,6 @@ h
 #
 include
 "
-a11yGeneric
-.
-h
-"
-#
-include
-"
 nsAccDocManager
 .
 h

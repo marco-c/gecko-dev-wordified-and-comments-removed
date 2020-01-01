@@ -204,10 +204,6 @@ endif
 EXPORTS
 =
 \
-a11yGeneric
-.
-h
-\
 AccEvent
 .
 h
