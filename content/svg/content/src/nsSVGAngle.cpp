@@ -876,7 +876,7 @@ nsIDOMSVGAngle
 SVG_ANGLETYPE_GRAD
 :
 return
-180
+90
 .
 0f
 /
