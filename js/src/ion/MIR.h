@@ -5303,6 +5303,14 @@ right
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+bool
+useValueNumbers
+)
+;
 double
 getIdentity
 (
