@@ -131,6 +131,16 @@ mozilla
 namespace
 layers
 {
+float
+APZCTreeManager
+:
+:
+sDPI
+=
+72
+.
+0
+;
 APZCTreeManager
 :
 :
