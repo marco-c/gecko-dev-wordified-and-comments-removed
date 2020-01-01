@@ -585,6 +585,12 @@ test_SVGLengthList
 .
 xhtml
 \
+test_SVGLengthList
+-
+2
+.
+xhtml
+\
 test_SVGPathSegList
 .
 xhtml

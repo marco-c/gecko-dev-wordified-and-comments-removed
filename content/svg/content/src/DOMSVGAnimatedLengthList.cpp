@@ -117,6 +117,13 @@ new
 DOMSVGLengthList
 (
 this
+InternalAList
+(
+)
+.
+GetBaseValue
+(
+)
 )
 ;
 }
@@ -156,6 +163,13 @@ new
 DOMSVGLengthList
 (
 this
+InternalAList
+(
+)
+.
+GetAnimValue
+(
+)
 )
 ;
 }
