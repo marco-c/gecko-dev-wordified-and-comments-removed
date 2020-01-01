@@ -8641,7 +8641,7 @@ kNameSpaceID_None
 nsAccessibilityAtoms
 :
 :
-aria_secret
+aria_haspopup
 nsAccessibilityAtoms
 :
 :
