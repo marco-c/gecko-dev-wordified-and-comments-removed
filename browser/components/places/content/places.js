@@ -3624,6 +3624,13 @@ multiEdit
 return
 ;
 }
+gEditItemOverlay
+.
+uninitPanel
+(
+false
+)
+;
 if
 (
 aSelectedNode
