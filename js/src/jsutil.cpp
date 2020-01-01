@@ -922,6 +922,9 @@ mean
 )
 cnt
 =
+(
+uint32
+)
 ceil
 (
 log10
