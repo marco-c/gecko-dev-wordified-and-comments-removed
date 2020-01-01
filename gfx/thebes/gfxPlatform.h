@@ -471,9 +471,13 @@ PRUint32
 aLength
 )
 ;
-virtual
 PRBool
 DownloadableFontsEnabled
+(
+)
+;
+PRBool
+SanitizeDownloadedFonts
 (
 )
 ;
@@ -751,6 +755,9 @@ aPageLang
 ;
 PRBool
 mAllowDownloadableFonts
+;
+PRBool
+mDownloadableFontsSanitize
 ;
 PRInt8
 mUseHarfBuzzLevel

@@ -798,6 +798,10 @@ MOZ_HARFBUZZ_LIBS
 )
 \
 (
+MOZ_OTS_LIBS
+)
+\
+(
 NULL
 )
 ifeq
