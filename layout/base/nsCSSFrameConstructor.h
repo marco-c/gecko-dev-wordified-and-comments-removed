@@ -670,6 +670,15 @@ return
 mDocElementContainingBlock
 ;
 }
+PRBool
+IsDestroyingFrameTree
+(
+)
+{
+return
+mIsDestroyingFrameTree
+;
+}
 private
 :
 nsresult
