@@ -573,7 +573,7 @@ getExcess
 (
 )
 ;
-return
+if
 (
 excess
 >
@@ -581,7 +581,15 @@ excess
 .
 0f
 )
-?
+{
+return
+Math
+.
+max
+(
+0
+.
+0f
 SNAP_LIMIT
 -
 excess
@@ -589,7 +597,10 @@ excess
 getViewportLength
 (
 )
-:
+)
+;
+}
+return
 1
 .
 0f
