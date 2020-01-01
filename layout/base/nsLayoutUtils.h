@@ -595,6 +595,17 @@ aFrame
 )
 ;
 static
+nsIFrame
+*
+GetPopupFrameForEventCoordinates
+(
+const
+nsEvent
+*
+aEvent
+)
+;
+static
 nsPoint
 TranslateWidgetToView
 (

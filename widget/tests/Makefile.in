@@ -506,6 +506,14 @@ test_plugin_scroll_consistency
 .
 html
 \
+test_composition_text_querycontent
+.
+xul
+\
+window_composition_text_querycontent
+.
+xul
+\
 (
 NULL
 )
