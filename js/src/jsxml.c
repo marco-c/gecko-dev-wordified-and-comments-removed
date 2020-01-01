@@ -9868,6 +9868,7 @@ js_InitParseContext
 cx
 &
 pc
+NULL
 chars
 length
 NULL

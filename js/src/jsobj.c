@@ -113,6 +113,13 @@ h
 #
 include
 "
+jsemit
+.
+h
+"
+#
+include
+"
 jsfun
 .
 h
@@ -162,7 +169,7 @@ h
 #
 include
 "
-jsscan
+jsparse
 .
 h
 "
@@ -6068,11 +6075,12 @@ caller
 ;
 script
 =
-JS_CompileUCScriptForPrincipals
+js_CompileScript
 (
 cx
 scopeobj
 principals
+TCF_COMPILE_N_GO
 JSSTRING_CHARS
 (
 str
@@ -6081,6 +6089,7 @@ JSSTRING_LENGTH
 (
 str
 )
+NULL
 file
 line
 )
