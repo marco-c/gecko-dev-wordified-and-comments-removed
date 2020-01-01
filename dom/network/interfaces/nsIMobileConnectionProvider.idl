@@ -224,6 +224,9 @@ nsIDOMWindow
 window
 in
 jsval
+command
+in
+jsval
 response
 )
 ;
