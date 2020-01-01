@@ -927,10 +927,6 @@ actionBarHeight
 +
 listHeight
 ;
-if
-(
-showAnimation
-)
 dispatchLayoutChange
 (
 getWidth
