@@ -2579,11 +2579,13 @@ PeerConnectionImpl
 :
 NotifyDataChannel
 (
+already_AddRefed
+<
 mozilla
 :
 :
 DataChannel
-*
+>
 aChannel
 )
 {
@@ -2594,6 +2596,10 @@ PC_AUTO_ENTER_API_CALL_NO_CHECK
 MOZ_ASSERT
 (
 aChannel
+.
+get
+(
+)
 )
 ;
 CSFLogDebugS
@@ -2616,6 +2622,10 @@ void
 >
 (
 aChannel
+.
+get
+(
+)
 )
 )
 ;

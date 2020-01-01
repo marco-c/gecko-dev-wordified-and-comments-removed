@@ -477,11 +477,13 @@ NotifyClosedConnection
 void
 NotifyDataChannel
 (
+already_AddRefed
+<
 mozilla
 :
 :
 DataChannel
-*
+>
 aChannel
 )
 ;
