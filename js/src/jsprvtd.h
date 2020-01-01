@@ -107,11 +107,6 @@ JSProperty
 ;
 typedef
 struct
-JSScript
-JSScript
-;
-typedef
-struct
 JSSharpObjectMap
 JSSharpObjectMap
 ;

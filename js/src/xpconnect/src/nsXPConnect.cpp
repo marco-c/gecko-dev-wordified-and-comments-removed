@@ -1470,7 +1470,7 @@ inline
 bool
 AddToCCKind
 (
-uint32
+JSGCTraceKind
 kind
 )
 {
@@ -1485,6 +1485,12 @@ kind
 =
 =
 JSTRACE_XML
+|
+|
+kind
+=
+=
+JSTRACE_SCRIPT
 ;
 }
 #
@@ -1536,7 +1542,7 @@ trc
 void
 *
 thing
-uint32
+JSGCTraceKind
 kind
 )
 {

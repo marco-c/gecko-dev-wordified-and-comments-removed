@@ -9943,6 +9943,10 @@ nsIDOMProcessingInstruction
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
+nsIDOMCharacterData
+)
+DOM_CLASSINFO_MAP_ENTRY
+(
 nsIDOMEventTarget
 )
 DOM_CLASSINFO_MAP_END
@@ -24862,10 +24866,6 @@ else
 {
 my_cx
 =
-(
-JSContext
-*
-)
 my_context
 -
 >
@@ -36311,10 +36311,6 @@ mContext
 {
 cx
 =
-(
-JSContext
-*
-)
 mContext
 -
 >
