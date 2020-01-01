@@ -334,7 +334,7 @@ originalURI
 spec
 this
 .
-_origURI
+_newURI
 .
 spec
 )
@@ -344,9 +344,9 @@ do_check_eq
 newChan
 .
 originalURI
-this
+newChan
 .
-_origURI
+URI
 )
 ;
 do_check_eq
