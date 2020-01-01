@@ -6887,12 +6887,10 @@ PaintWindow
 nsIWidget
 *
 aWidget
-bool
-isRequest
 nsIntRegion
 aRegion
-bool
-aWillSendDidPaint
+uint32_t
+aFlags
 )
 {
 LayerManager
