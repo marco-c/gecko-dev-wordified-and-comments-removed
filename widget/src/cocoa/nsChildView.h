@@ -229,9 +229,6 @@ nsChildView
 *
 mGeckoChild
 ;
-NSTrackingRectTag
-mMouseEnterExitTag
-;
 BOOL
 mIsPluginView
 ;
