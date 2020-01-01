@@ -850,6 +850,7 @@ getBoundingClientRect
 (
 )
 ;
+return
 synthesizeMouseAtPoint
 (
 rect
@@ -920,6 +921,11 @@ _getDOMWindowUtils
 aWindow
 )
 ;
+var
+defaultPrevented
+=
+false
+;
 if
 (
 utils
@@ -969,6 +975,8 @@ aEvent
 type
 )
 {
+defaultPrevented
+=
 utils
 .
 sendMouseEvent
@@ -1016,6 +1024,9 @@ modifiers
 ;
 }
 }
+return
+defaultPrevented
+;
 }
 function
 synthesizeTouchAtPoint
