@@ -1423,6 +1423,14 @@ presShell
 GetRootFrame
 (
 )
+|
+|
+presShell
+-
+>
+IsDestroying
+(
+)
 )
 return
 nullptr
