@@ -112,7 +112,7 @@ id
 +
 id
 /
-open_new_tab
+top_bookmarks_open_new_tab
 "
 android
 :
@@ -135,7 +135,7 @@ id
 +
 id
 /
-open_private_tab
+top_bookmarks_open_private_tab
 "
 android
 :

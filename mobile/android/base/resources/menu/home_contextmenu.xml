@@ -112,7 +112,7 @@ id
 +
 id
 /
-open_new_tab
+home_open_new_tab
 "
 android
 :
@@ -135,7 +135,7 @@ id
 +
 id
 /
-open_private_tab
+home_open_private_tab
 "
 android
 :
@@ -158,7 +158,7 @@ id
 +
 id
 /
-open_in_reader
+home_open_in_reader
 "
 android
 :
@@ -204,7 +204,7 @@ id
 +
 id
 /
-edit_bookmark
+home_edit_bookmark
 "
 android
 :
@@ -227,7 +227,7 @@ id
 +
 id
 /
-remove_history
+home_remove_history
 "
 android
 :
@@ -250,7 +250,7 @@ id
 +
 id
 /
-remove_bookmark
+home_remove_bookmark
 "
 android
 :
