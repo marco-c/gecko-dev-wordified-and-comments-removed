@@ -340,6 +340,9 @@ cx
 JSLinearString
 &
 pattern
+TokenStream
+*
+ts
 )
 ;
 bool
@@ -348,6 +351,9 @@ compile
 JSContext
 *
 cx
+TokenStream
+*
+ts
 )
 ;
 static
@@ -369,6 +375,9 @@ reportYarrError
 JSContext
 *
 cx
+TokenStream
+*
+ts
 JSC
 :
 :
@@ -569,6 +578,9 @@ JSString
 source
 uint32
 flags
+TokenStream
+*
+ts
 )
 ;
 static
@@ -587,6 +599,9 @@ source
 JSString
 *
 flags
+TokenStream
+*
+ts
 )
 ;
 static
@@ -608,6 +623,9 @@ size_t
 length
 uint32
 flags
+TokenStream
+*
+ts
 )
 ;
 static
@@ -626,6 +644,9 @@ size_t
 length
 uint32
 flags
+TokenStream
+*
+ts
 )
 ;
 static
@@ -1726,6 +1747,9 @@ JSString
 source
 uint32
 flags
+TokenStream
+*
+ts
 )
 {
 typedef
@@ -1798,6 +1822,7 @@ self
 compile
 (
 cx
+ts
 )
 )
 {
@@ -1845,6 +1870,9 @@ size_t
 length
 uint32
 flags
+TokenStream
+*
+ts
 )
 {
 uint32
@@ -1866,6 +1894,7 @@ length
 flags
 |
 staticsFlags
+ts
 )
 ;
 }
@@ -1888,6 +1917,9 @@ size_t
 length
 uint32
 flags
+TokenStream
+*
+ts
 )
 {
 JS_ASSERT
@@ -1948,6 +1980,7 @@ create
 cx
 str
 flags
+ts
 )
 ;
 if
@@ -2065,6 +2098,9 @@ cx
 JSLinearString
 &
 pattern
+TokenStream
+*
+ts
 )
 {
 JSC
@@ -2104,6 +2140,7 @@ yarrError
 reportYarrError
 (
 cx
+ts
 yarrError
 )
 ;
@@ -2261,6 +2298,9 @@ compile
 JSContext
 *
 cx
+TokenStream
+*
+ts
 )
 {
 if
@@ -2290,6 +2330,7 @@ compileHelper
 cx
 *
 source
+ts
 )
 ;
 static
@@ -2425,6 +2466,7 @@ compileHelper
 cx
 *
 fakeySource
+ts
 )
 ;
 }
