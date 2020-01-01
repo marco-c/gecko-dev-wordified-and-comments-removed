@@ -75,12 +75,6 @@ MPL
 /
 .
 #
-#
-ident
-"
-Id
-"
-#
 MACH
 =
 (

@@ -120,9 +120,6 @@ MPL
 0
 /
 .
-#
-Id
-#
 list
 :
 test_list
