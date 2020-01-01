@@ -1063,8 +1063,9 @@ gAppShell
 =
 nullptr
 ;
-delete
 sAfterPaintListener
+=
+nullptr
 ;
 if
 (
