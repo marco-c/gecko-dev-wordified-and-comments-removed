@@ -752,6 +752,11 @@ width
 1px
 ;
 "
+clicktoscroll
+=
+"
+true
+"
 >
 <
 children
