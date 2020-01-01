@@ -10448,6 +10448,12 @@ open
 ;
 BrowserUI
 .
+popPopup
+(
+)
+;
+BrowserUI
+.
 unlockToolbar
 (
 )
