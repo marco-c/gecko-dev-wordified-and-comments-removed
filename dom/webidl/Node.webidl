@@ -560,7 +560,6 @@ nullable
 type
 .
 [
-Throws
 Constant
 ]
 readonly

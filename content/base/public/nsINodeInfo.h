@@ -230,7 +230,7 @@ mPrefix
 ;
 }
 virtual
-nsresult
+void
 GetNamespaceURI
 (
 nsAString

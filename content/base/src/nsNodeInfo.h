@@ -70,7 +70,7 @@ NS_DECL_CYCLE_COLLECTION_SKIPPABLE_CLASS
 nsNodeInfo
 )
 virtual
-nsresult
+void
 GetNamespaceURI
 (
 nsAString
