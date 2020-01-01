@@ -1837,6 +1837,13 @@ constructing
 )
 ;
 bool
+functionCall
+(
+bool
+constructing
+)
+;
+bool
 forInLoop
 (
 jsval
