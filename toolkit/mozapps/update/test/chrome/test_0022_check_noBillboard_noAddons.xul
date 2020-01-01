@@ -692,6 +692,10 @@ showDetails
 =
 1
 "
++
+getVersionParams
+(
+)
 ;
 setUpdateURLOverride
 (

@@ -645,11 +645,9 @@ gNeverPref
 =
 PREF_APP_UPDATE_NEVER_BRANCH
 +
-"
-99
+gApp
 .
-9
-"
+version
 ;
 /
 *
@@ -722,6 +720,10 @@ showNever
 =
 1
 "
++
+getVersionParams
+(
+)
 ;
 setUpdateURLOverride
 (

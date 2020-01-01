@@ -702,6 +702,10 @@ showPrompt
 =
 1
 "
++
+getVersionParams
+(
+)
 ;
 setUpdateURLOverride
 (
