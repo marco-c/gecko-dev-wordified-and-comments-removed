@@ -490,7 +490,7 @@ boolean
 equals
 (
 in
-nsIDRef
+nsIJSID
 other
 )
 ;
