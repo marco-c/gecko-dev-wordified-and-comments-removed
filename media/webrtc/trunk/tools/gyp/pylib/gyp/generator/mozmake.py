@@ -2620,6 +2620,12 @@ os
 .
 path
 .
+normpath
+(
+os
+.
+path
+.
 join
 (
 top
@@ -2637,6 +2643,7 @@ rel_path
 [
 0
 ]
+)
 )
 )
                   
