@@ -298,6 +298,10 @@ mTimerIsPrecise
 (
 false
 )
+mLastTimerInterval
+(
+0
+)
 {
 }
 nsRefreshDriver
