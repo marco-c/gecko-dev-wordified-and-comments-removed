@@ -524,6 +524,9 @@ as
 such
 :
 *
+<
+pre
+>
 *
 ftp
 :
@@ -656,6 +659,10 @@ Scheme
 *
 PrePath
 *
+<
+/
+pre
+>
 *
 The
 definition
