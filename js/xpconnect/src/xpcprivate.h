@@ -2584,7 +2584,7 @@ trc
 )
 ;
 void
-AddXPConnectRoots
+TraverseAdditionalNativeRoots
 (
 nsCycleCollectionNoteRootCallback
 &
