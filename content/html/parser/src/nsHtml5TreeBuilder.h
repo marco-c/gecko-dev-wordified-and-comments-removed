@@ -705,6 +705,11 @@ pop
 )
 ;
 void
+popOnEof
+(
+)
+;
+void
 appendHtmlElementToDocumentAndPush
 (
 nsHtml5HtmlAttributes
@@ -1081,6 +1086,14 @@ element
 nsHtml5HtmlAttributes
 *
 attributes
+)
+;
+void
+markMalformedIfScript
+(
+nsIContent
+*
+elt
 )
 ;
 void
