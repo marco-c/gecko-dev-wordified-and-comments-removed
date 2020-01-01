@@ -633,15 +633,6 @@ test_keys
 .
 html
 \
-(
-warning
-test_nsIAccessible_comboboxes
-.
-xul
-temporarily
-disabled
-)
-\
 test_nsIAccessible_selects
 .
 html

@@ -459,6 +459,10 @@ test_aria_tabs
 .
 html
 \
+test_comboboxes
+.
+xul
+\
 test_doc
 .
 html
