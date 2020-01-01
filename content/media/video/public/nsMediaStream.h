@@ -189,14 +189,6 @@ Tell
 0
 ;
 virtual
-PRUint32
-Available
-(
-)
-=
-0
-;
-virtual
 void
 Cancel
 (
@@ -323,11 +315,6 @@ aOffset
 ;
 PRInt64
 Tell
-(
-)
-;
-PRUint32
-Available
 (
 )
 ;

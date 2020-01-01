@@ -225,6 +225,11 @@ PRInt64
 aBytes
 )
 ;
+void
+PlaybackPositionChanged
+(
+)
+;
 virtual
 void
 SetDuration
@@ -336,6 +341,9 @@ mStream
 ;
 float
 mTimeOffset
+;
+float
+mCurrentTime
 ;
 float
 mEndedCurrentTime

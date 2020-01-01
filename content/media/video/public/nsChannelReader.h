@@ -91,11 +91,6 @@ Cancel
 (
 )
 ;
-PRUint32
-Available
-(
-)
-;
 void
 Suspend
 (
