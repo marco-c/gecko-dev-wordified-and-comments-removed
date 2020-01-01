@@ -1845,12 +1845,6 @@ scope
 001
 .
 js
-fails
--
-if
-(
-Android
-)
 script
 toLocaleFormat
 -

@@ -814,12 +814,6 @@ js
 #
 bug
 524731
-fails
--
-if
-(
-Android
-)
 script
 regress
 -

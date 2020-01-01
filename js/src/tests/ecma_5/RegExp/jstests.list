@@ -77,6 +77,10 @@ xulRuntime
 shell
 &
 &
+(
+Android
+|
+|
 xulRuntime
 .
 OS
@@ -85,6 +89,7 @@ OS
 "
 WINNT
 "
+)
 )
 script
 regress
