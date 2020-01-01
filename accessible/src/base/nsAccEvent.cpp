@@ -1,7 +1,7 @@
 #
 include
 "
-nsAccessibleEventData
+nsAccEvent
 .
 h
 "

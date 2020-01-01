@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsAccessibleEventData
+nsAccEvent
 .
 h
 "

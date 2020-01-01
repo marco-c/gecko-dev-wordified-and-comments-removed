@@ -436,7 +436,7 @@ nsAccessNode
 .
 cpp
 \
-nsAccessibleEventData
+nsAccEvent
 .
 cpp
 \
@@ -530,7 +530,7 @@ nsRootAccessible
 .
 h
 \
-nsAccessibleEventData
+nsAccEvent
 .
 h
 \
