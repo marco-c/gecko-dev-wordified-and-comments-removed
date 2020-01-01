@@ -73,6 +73,10 @@ PTestRPCRaces
 .
 ipdl
 \
+PTestRPCShutdownRace
+.
+ipdl
+\
 PTestSanity
 .
 ipdl

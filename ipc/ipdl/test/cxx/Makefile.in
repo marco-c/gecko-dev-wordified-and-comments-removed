@@ -489,6 +489,8 @@ TestRPCRaces
 \
 TestRacyRPCReplies
 \
+TestRPCShutdownRace
+\
 TestHangs
 \
 TestBlockChild
