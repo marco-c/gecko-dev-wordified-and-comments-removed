@@ -78,9 +78,6 @@ mk
 MODULE
 =
 gtkqticonsconverter
-XPIDL_MODULE
-=
-gtkqticonsconverter
 XPIDLSRCS
 =
 nsGtkQtIconsConverter

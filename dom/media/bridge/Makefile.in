@@ -85,9 +85,6 @@ mk
 MODULE
 =
 peerconnection
-XPIDL_MODULE
-=
-peerconnection
 LIBRARY_NAME
 =
 peerconnection

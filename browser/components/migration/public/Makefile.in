@@ -78,9 +78,6 @@ mk
 MODULE
 =
 migration
-XPIDL_MODULE
-=
-migration
 XPIDLSRCS
 =
 nsIBrowserProfileMigrator

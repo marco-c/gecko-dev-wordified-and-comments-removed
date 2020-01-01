@@ -84,9 +84,6 @@ srcdir
 MODULE
 =
 embed_base
-XPIDL_MODULE
-=
-embed_base
 include
 (
 DEPTH

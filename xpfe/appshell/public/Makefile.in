@@ -79,9 +79,6 @@ mk
 MODULE
 =
 appshell
-XPIDL_MODULE
-=
-appshell
 GRE_MODULE
 =
 1

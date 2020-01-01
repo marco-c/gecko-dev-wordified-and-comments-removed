@@ -131,9 +131,6 @@ hal
 LIBRARY_NAME
 =
 hal_s
-XPIDL_MODULE
-=
-hal
 FORCE_STATIC_LIB
 =
 1

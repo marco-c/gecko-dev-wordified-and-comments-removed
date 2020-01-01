@@ -78,9 +78,6 @@ mk
 MODULE
 =
 B2GComponents
-XPIDL_MODULE
-=
-B2GComponents
 XPIDLSRCS
 =
 \

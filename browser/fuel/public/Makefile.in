@@ -78,9 +78,6 @@ mk
 MODULE
 =
 fuel
-XPIDL_MODULE
-=
-fuel
 XPIDLSRCS
 =
 fuelIApplication

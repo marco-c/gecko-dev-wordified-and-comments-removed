@@ -68,9 +68,6 @@ srcdir
 MODULE
 =
 spellchecker
-XPIDL_MODULE
-=
-spellchecker
 include
 (
 DEPTH

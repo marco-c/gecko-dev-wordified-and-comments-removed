@@ -90,9 +90,6 @@ GRE_MODULE
 LIBRARY_NAME
 =
 jsdebugger
-XPIDL_MODULE
-=
-jsdebugger
 LIBXUL_LIBRARY
 =
 1

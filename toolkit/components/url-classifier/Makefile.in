@@ -83,11 +83,6 @@ classifier
 LIBRARY_NAME
 =
 urlclassifier_s
-XPIDL_MODULE
-=
-url
--
-classifier
 LIBXUL_LIBRARY
 =
 1

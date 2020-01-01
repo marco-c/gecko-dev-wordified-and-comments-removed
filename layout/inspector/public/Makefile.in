@@ -79,9 +79,6 @@ mk
 MODULE
 =
 inspector
-XPIDL_MODULE
-=
-inspector
 XPIDLSRCS
 =
 inIDOMView

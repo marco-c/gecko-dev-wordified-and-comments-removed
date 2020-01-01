@@ -78,9 +78,6 @@ mk
 MODULE
 =
 MobileComponents
-XPIDL_MODULE
-=
-MobileComponents
 XPIDLSRCS
 =
 \

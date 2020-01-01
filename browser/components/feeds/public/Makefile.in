@@ -81,11 +81,6 @@ MODULE
 browser
 -
 feeds
-XPIDL_MODULE
-=
-browser
--
-feeds
 XPIDLSRCS
 =
 nsIFeedResultService

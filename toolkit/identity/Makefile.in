@@ -85,9 +85,6 @@ identity
 MODULE_NAME
 =
 identity
-XPIDL_MODULE
-=
-identity
 LIBRARY_NAME
 =
 identity

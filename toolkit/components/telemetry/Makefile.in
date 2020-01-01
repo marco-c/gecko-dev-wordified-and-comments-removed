@@ -95,9 +95,6 @@ mk
 MODULE
 =
 telemetry
-XPIDL_MODULE
-=
-telemetry
 MODULE_NAME
 =
 telemetry

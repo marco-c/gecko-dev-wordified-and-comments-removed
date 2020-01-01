@@ -79,9 +79,6 @@ mk
 MODULE
 =
 commandhandler
-XPIDL_MODULE
-=
-commandhandler
 XPIDLSRCS
 =
 \

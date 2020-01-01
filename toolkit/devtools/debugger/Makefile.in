@@ -87,9 +87,6 @@ GRE_MODULE
 LIBRARY_NAME
 =
 jsinspector
-XPIDL_MODULE
-=
-jsinspector
 LIBXUL_LIBRARY
 =
 1

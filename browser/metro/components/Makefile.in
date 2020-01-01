@@ -94,9 +94,6 @@ manifest
 MODULE
 =
 components
-XPIDL_MODULE
-=
-components
 XPIDLSRCS
 =
 \

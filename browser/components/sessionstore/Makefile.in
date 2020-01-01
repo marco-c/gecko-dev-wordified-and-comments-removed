@@ -79,9 +79,6 @@ mk
 MODULE
 =
 sessionstore
-XPIDL_MODULE
-=
-sessionstore
 XPIDLSRCS
 =
 \

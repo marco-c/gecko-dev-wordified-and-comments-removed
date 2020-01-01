@@ -79,9 +79,6 @@ mk
 MODULE
 =
 accessibility
-XPIDL_MODULE
-=
-accessibility
 GRE_MODULE
 =
 1

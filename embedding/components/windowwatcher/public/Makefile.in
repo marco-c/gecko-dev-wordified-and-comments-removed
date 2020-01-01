@@ -94,9 +94,6 @@ mk
 MODULE
 =
 windowwatcher
-XPIDL_MODULE
-=
-windowwatcher
 GRE_MODULE
 =
 1

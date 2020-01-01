@@ -79,9 +79,6 @@ mk
 MODULE
 =
 storage
-XPIDL_MODULE
-=
-storage
 GRE_MODULE
 =
 1

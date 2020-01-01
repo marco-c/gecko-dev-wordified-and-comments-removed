@@ -101,17 +101,6 @@ MODULE
 =
 xpcomsample
 #
-XPIDL_MODULE
-names
-the
-.
-xpt
-file
-generated
-from
-IDL
-files
-#
 i
 .
 e
@@ -125,9 +114,6 @@ components
 xpcomsample
 .
 xpt
-XPIDL_MODULE
-=
-xpcomsample
 #
 LIBRARY_NAME
 names
