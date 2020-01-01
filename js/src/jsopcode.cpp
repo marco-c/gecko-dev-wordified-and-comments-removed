@@ -1069,6 +1069,15 @@ origPC
 *
 pc
 )
+#
+ifdef
+DEBUG
+assertionBefore
+(
+false
+)
+#
+endif
 {
 jsbytecode
 *
