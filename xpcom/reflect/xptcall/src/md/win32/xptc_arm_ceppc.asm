@@ -937,7 +937,6 @@ MEND
 MACRO
 MY_STUB_NESTED_ARMENTRY
 Number
-;
 FuncName
 SETS
 VBar
@@ -955,7 +954,6 @@ UAAIXZ
 CC
 :
 VBar
-;
 PrologName
 SETS
 VBar
@@ -979,7 +977,6 @@ _Prolog
 CC
 :
 VBar
-;
 FuncEndName
 SETS
 VBar
@@ -1003,6 +1000,7 @@ _end
 CC
 :
 VBar
+;
 FuncName
 SETS
 VBar
@@ -1019,6 +1017,8 @@ YAIXZ
 CC
 :
 VBar
+;
+;
 PrologName
 SETS
 VBar
@@ -1041,6 +1041,7 @@ _Prolog
 CC
 :
 VBar
+;
 FuncEndName
 SETS
 VBar
