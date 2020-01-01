@@ -179,6 +179,14 @@ arg
 )
 ;
 void
+funcConnStatusDict
+(
+optional
+ConnStatusDict
+arg
+)
+;
+void
 frameRequestCallback
 (
 FrameRequestCallback
