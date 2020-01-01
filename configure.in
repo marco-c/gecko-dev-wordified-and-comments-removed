@@ -38709,8 +38709,6 @@ USE_ARM_KUSER
 1
 MOZ_INSTALLER
 =
-MOZ_CRASHREPORTER
-=
 NS_PRINTING
 =
 NECKO_WIFI
@@ -50114,6 +50112,17 @@ arm
 -
 linux
 *
+)
+MOZ_CRASHREPORTER
+=
+1
+;
+;
+arm
+-
+android
+-
+eabi
 )
 MOZ_CRASHREPORTER
 =
