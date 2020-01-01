@@ -3668,7 +3668,7 @@ XPCOM_DEBUG_BREAK
 }
 =
 '
-stack
+warn
 '
 ;
 if
