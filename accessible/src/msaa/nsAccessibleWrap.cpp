@@ -7481,6 +7481,8 @@ GetChildAt
 aVarChild
 .
 lVal
+-
+1
 )
 ;
 }
