@@ -2585,9 +2585,6 @@ finish
 )
 {
 #
-ifndef
-JS_TYPE_INFERENCE
-#
 ifdef
 DEBUG
 for
@@ -2618,8 +2615,6 @@ i
 ]
 )
 ;
-#
-endif
 #
 endif
 if

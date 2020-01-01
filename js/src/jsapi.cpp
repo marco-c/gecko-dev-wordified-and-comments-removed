@@ -25715,6 +25715,14 @@ cx
 ok
 )
 ;
+#
+ifdef
+JS_TYPE_INFERENCE
+return
+ok
+;
+#
+endif
 js_DestroyScript
 (
 cx

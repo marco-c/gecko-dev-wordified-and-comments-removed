@@ -1875,6 +1875,14 @@ Bytecode
 code
 )
 ;
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 }
 ;
 }
