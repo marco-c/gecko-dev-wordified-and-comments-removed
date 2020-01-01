@@ -381,7 +381,7 @@ nsHalfOpenSocket
 mHalfOpens
 ;
 nsCString
-mDottedDecimalAddress
+mCoalescingKey
 ;
 bool
 mUsingSpdy
