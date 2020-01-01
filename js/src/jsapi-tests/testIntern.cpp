@@ -118,6 +118,8 @@ JSFreeOp
 fop
 JSFinalizeStatus
 status
+JSBool
+isCompartmentGC
 )
 {
 if

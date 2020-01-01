@@ -4707,6 +4707,8 @@ JSFreeOp
 fop
 JSFinalizeStatus
 status
+JSBool
+isCompartment
 )
 ;
 typedef
