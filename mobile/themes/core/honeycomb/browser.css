@@ -1084,6 +1084,14 @@ urlbar
 -
 title
 {
+font
+-
+size
+:
+font_snormal
+!
+important
+;
 background
 :
 color_toolbar_background
