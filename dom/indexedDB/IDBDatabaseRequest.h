@@ -114,8 +114,6 @@ const
 nsAString
 &
 aDescription
-PRBool
-aReadOnly
 nsTArray
 <
 nsString
@@ -262,9 +260,6 @@ mName
 ;
 nsString
 mDescription
-;
-PRBool
-mReadOnly
 ;
 nsString
 mVersion

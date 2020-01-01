@@ -509,8 +509,6 @@ const
 nsAString
 &
 aDescription
-PRBool
-aReadOnly
 nsTArray
 <
 nsString
@@ -585,13 +583,6 @@ Assign
 (
 aDescription
 )
-;
-db
--
->
-mReadOnly
-=
-aReadOnly
 ;
 db
 -
@@ -671,11 +662,6 @@ IDBDatabaseRequest
 :
 IDBDatabaseRequest
 (
-)
-:
-mReadOnly
-(
-PR_FALSE
 )
 {
 }

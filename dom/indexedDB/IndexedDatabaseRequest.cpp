@@ -146,8 +146,6 @@ const
 nsAString
 &
 aDescription
-PRBool
-aReadOnly
 const
 nsACString
 &
@@ -169,10 +167,6 @@ aName
 mDescription
 (
 aDescription
-)
-mReadOnly
-(
-aReadOnly
 )
 mASCIIOrigin
 (
@@ -207,9 +201,6 @@ mName
 ;
 nsString
 mDescription
-;
-PRBool
-mReadOnly
 ;
 nsCString
 mASCIIOrigin
@@ -2198,10 +2189,6 @@ const
 nsAString
 &
 aDescription
-PRBool
-aModifyDatabase
-PRUint8
-aOptionalArgCount
 nsIIDBRequest
 *
 *
@@ -2219,17 +2206,6 @@ IsEmpty
 {
 return
 NS_ERROR_INVALID_ARG
-;
-}
-if
-(
-!
-aOptionalArgCount
-)
-{
-aModifyDatabase
-=
-PR_TRUE
 ;
 }
 nsCOMPtr
@@ -2343,8 +2319,6 @@ OpenDatabaseHelper
 request
 aName
 aDescription
-!
-aModifyDatabase
 origin
 thread
 )
@@ -2728,7 +2702,6 @@ Create
 (
 mName
 mDescription
-mReadOnly
 mObjectStoreNames
 mIndexNames
 mVersion

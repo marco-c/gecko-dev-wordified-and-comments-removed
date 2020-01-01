@@ -532,9 +532,6 @@ nsIIndexedDatabaseRequest
 :
 nsISupports
 {
-[
-optional_argc
-]
 nsIIDBRequest
 open
 (
@@ -544,17 +541,6 @@ name
 in
 AString
 description
-[
-optional
-/
-*
-true
-*
-/
-]
-in
-boolean
-modifyDatabase
 )
 ;
 }
