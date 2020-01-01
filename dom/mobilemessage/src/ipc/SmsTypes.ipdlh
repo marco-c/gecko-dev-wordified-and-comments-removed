@@ -257,6 +257,9 @@ MmsAttachmentData
 ]
 attachments
 ;
+uint64_t
+expiryDate
+;
 }
 ;
 union
