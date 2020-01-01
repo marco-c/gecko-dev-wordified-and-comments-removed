@@ -2199,7 +2199,7 @@ endif
 #
 define
 JS_DISPLAY_SIZE
-16
+16U
 JSStackFrame
 *
 display
