@@ -743,7 +743,7 @@ return
 nullptr
 ;
 }
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 *
 nsStyledElementNotElementCSSInlineStyle
 :

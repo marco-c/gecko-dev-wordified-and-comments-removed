@@ -2312,7 +2312,7 @@ innerHTML
 htmlElement
 -
 >
-GetDOMInnerHTML
+GetInnerHTML
 (
 innerHTML
 )
