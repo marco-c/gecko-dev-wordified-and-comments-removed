@@ -142,8 +142,8 @@ libs
 )
 )
 (
-INSTALL
-)
+call
+install_cmd
 (
 foreach
 f
@@ -159,6 +159,7 @@ call
 mochitestdir
 (
 2
+)
 )
 )
 endef
