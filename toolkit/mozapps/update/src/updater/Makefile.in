@@ -564,13 +564,6 @@ dir
 (
 srcdir
 )
-DEFINES
-+
-=
--
-D_WIN32_IE
-=
-0x300
 endif
 endif
 ifneq
