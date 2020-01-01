@@ -18092,6 +18092,11 @@ OBJECT_TO_JSVAL
 parent
 )
 ;
+if
+(
+parent
+)
+{
 JSClass
 *
 clasp
@@ -18147,6 +18152,7 @@ parent
 )
 )
 ;
+}
 }
 return
 JS_TRUE
