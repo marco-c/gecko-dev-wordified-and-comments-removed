@@ -359,11 +359,6 @@ UnlockImageData
 (
 )
 ;
-void
-MarkImageDataDirty
-(
-)
-;
 nsresult
 GetSurface
 (

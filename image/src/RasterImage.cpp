@@ -13035,16 +13035,6 @@ image
 mDecoder
 )
 {
-image
--
->
-mDecoder
--
->
-MarkFrameDirty
-(
-)
-;
 if
 (
 request
