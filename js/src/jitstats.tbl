@@ -726,6 +726,10 @@ JITSTAT
 (
 archIsPPC
 )
+JITSTAT
+(
+archIsMIPS
+)
 #
 ifdef
 DEFINED_MONITOR_JITSTAT
