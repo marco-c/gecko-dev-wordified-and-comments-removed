@@ -3029,6 +3029,14 @@ TS_HOVER
 else
 if
 (
+GetWindowsVersion
+(
+)
+>
+=
+VISTA_VERSION
+&
+&
 parentState
 &
 NS_EVENT_STATE_HOVER
