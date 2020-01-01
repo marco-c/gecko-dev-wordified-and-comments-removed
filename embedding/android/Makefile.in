@@ -493,6 +493,10 @@ GeckoPreferences
 .
 java
 \
+GeckoStateListDrawable
+.
+java
+\
 GlobalHistory
 .
 java
