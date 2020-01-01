@@ -3353,7 +3353,7 @@ _preferredNetworkType
 RIL
 .
 GECKO_PREFERRED_NETWORK_TYPE_DEFAULT
-null
+false
 )
 ;
 return
@@ -3441,7 +3441,7 @@ preferredNetworkType
 this
 .
 _preferredNetworkType
-null
+false
 )
 ;
 return
