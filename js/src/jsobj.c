@@ -3629,19 +3629,19 @@ if
 (
 JSFUN_GETTER_TEST
 (
-FUN_FLAGS
-(
 fun
-)
+-
+>
+flags
 )
 |
 |
 JSFUN_SETTER_TEST
 (
-FUN_FLAGS
-(
 fun
-)
+-
+>
+flags
 )
 )
 {
@@ -7671,7 +7671,6 @@ cx
 js_ObjectClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -8338,7 +8337,6 @@ cx
 js_WithClass
 proto
 parent
-0
 )
 ;
 if
@@ -8398,7 +8396,6 @@ cx
 js_BlockClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -8482,7 +8479,6 @@ cx
 js_BlockClass
 proto
 parent
-0
 )
 ;
 if
@@ -10650,8 +10646,6 @@ proto
 JSObject
 *
 parent
-uintN
-extraBytes
 )
 {
 jsid
@@ -10724,7 +10718,6 @@ cx
 clasp
 proto
 parent
-extraBytes
 )
 ;
 }
@@ -10744,8 +10737,6 @@ proto
 JSObject
 *
 parent
-uintN
-extraBytes
 )
 {
 JSObject
@@ -10824,8 +10815,6 @@ sizeof
 (
 JSObject
 )
-+
-extraBytes
 )
 ;
 if
@@ -12203,7 +12192,6 @@ cx
 clasp
 proto
 parent
-0
 )
 ;
 if
@@ -20419,7 +20407,6 @@ cx
 clasp
 NULL
 NULL
-0
 )
 ;
 if

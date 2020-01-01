@@ -2275,8 +2275,6 @@ proto
 JSObject
 *
 parent
-uintN
-extraBytes
 )
 ;
 extern
@@ -2296,8 +2294,6 @@ proto
 JSObject
 *
 parent
-uintN
-extraBytes
 )
 ;
 extern

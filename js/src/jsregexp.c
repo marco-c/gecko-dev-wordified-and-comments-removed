@@ -20174,7 +20174,6 @@ cx
 js_RegExpClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -22206,7 +22205,6 @@ cx
 js_RegExpClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -22505,7 +22503,6 @@ cx
 js_RegExpClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -22607,7 +22604,6 @@ cx
 js_RegExpClass
 NULL
 parent
-0
 )
 ;
 if

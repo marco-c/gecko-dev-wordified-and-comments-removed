@@ -1622,7 +1622,6 @@ cx
 js_IteratorClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -2900,7 +2899,6 @@ cx
 js_GeneratorClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -2923,13 +2921,10 @@ nargs
 JS_MAX
 (
 argc
-FUN_TO_SCRIPTED
-(
 fp
 -
 >
 fun
-)
 -
 >
 nargs
