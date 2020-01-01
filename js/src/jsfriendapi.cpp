@@ -519,7 +519,7 @@ if
 c
 -
 >
-wasGCStarted
+needsBarrier
 (
 )
 )

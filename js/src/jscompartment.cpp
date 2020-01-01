@@ -240,10 +240,6 @@ gcPreserveCode
 (
 false
 )
-gcStarted
-(
-false
-)
 gcBytes
 (
 0
