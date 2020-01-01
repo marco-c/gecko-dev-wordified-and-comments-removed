@@ -5195,6 +5195,13 @@ FlushTags
 (
 )
 {
+mSink
+-
+>
+mDeferredFlushTags
+=
+PR_FALSE
+;
 PRBool
 oldBeganUpdate
 =

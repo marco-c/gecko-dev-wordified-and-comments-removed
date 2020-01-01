@@ -536,6 +536,12 @@ nsIContent
 *
 mDocElement
 ;
+nsCOMPtr
+<
+nsIContent
+>
+mCurrentHead
+;
 PRUnichar
 *
 mText
