@@ -43,6 +43,13 @@ h
 #
 include
 "
+Statistics
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -173,6 +180,13 @@ service
 )
 ;
 }
+statistics
+:
+:
+XFormsAccessibleUsed
+(
+)
+;
 }
 nsXFormsAccessible
 :

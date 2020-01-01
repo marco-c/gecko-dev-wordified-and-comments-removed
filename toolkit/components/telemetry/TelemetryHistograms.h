@@ -67,6 +67,17 @@ been
 used
 "
 )
+HISTOGRAM_BOOLEAN
+(
+XFORMS_ACCESSIBLE_USED
+"
+has
+XForms
+accessibility
+been
+instantiated
+"
+)
 HISTOGRAM
 (
 CYCLE_COLLECTOR
