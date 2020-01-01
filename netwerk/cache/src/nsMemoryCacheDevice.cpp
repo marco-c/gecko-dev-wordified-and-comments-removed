@@ -1145,9 +1145,14 @@ newSize
 mSoftLimit
 )
 {
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 nsCacheService
 :
 :

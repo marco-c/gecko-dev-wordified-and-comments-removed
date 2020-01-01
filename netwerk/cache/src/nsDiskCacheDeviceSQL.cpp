@@ -6612,9 +6612,14 @@ CacheSize
 mCacheCapacity
 )
 {
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 nsCacheService
 :
 :

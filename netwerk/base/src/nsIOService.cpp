@@ -3930,9 +3930,6 @@ Truncate
 (
 )
 ;
-PRBool
-escaped
-=
 NS_EscapeURL
 (
 aStr
@@ -3978,9 +3975,6 @@ Truncate
 (
 )
 ;
-PRBool
-unescaped
-=
 NS_UnescapeURL
 (
 aStr
