@@ -46202,7 +46202,7 @@ dnl
 =
 MOZ_ARG_DISABLE_BOOL
 (
-vp8
+webm
 [
 -
 -
