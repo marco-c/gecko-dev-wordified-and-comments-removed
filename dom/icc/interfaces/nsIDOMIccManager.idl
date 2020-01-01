@@ -1327,6 +1327,9 @@ below
 -
 MozStkLocationEvent
 *
+-
+MozStkCallEvent
+*
 /
 void
 sendStkEventDownload
