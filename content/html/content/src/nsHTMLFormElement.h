@@ -624,6 +624,8 @@ RemoveElement
 nsGenericHTMLFormElement
 *
 aElement
+bool
+aUpdateValidity
 PRBool
 aNotify
 )
@@ -646,6 +648,8 @@ AddElement
 nsGenericHTMLFormElement
 *
 aElement
+bool
+aUpdateValidity
 PRBool
 aNotify
 )
