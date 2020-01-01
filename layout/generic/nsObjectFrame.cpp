@@ -5946,10 +5946,8 @@ PR_FALSE
 nsPoint
 origin
 ;
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext

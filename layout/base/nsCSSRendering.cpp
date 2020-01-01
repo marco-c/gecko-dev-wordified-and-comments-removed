@@ -14632,10 +14632,8 @@ borderStyles
 ]
 )
 ;
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext
@@ -15446,10 +15444,8 @@ width
 twipsPerPixel
 }
 ;
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext
@@ -18445,10 +18441,8 @@ aBorderArea
 y
 ;
 }
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext
@@ -19439,10 +19433,8 @@ PRBool
 aCanPaintNonWhite
 )
 {
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext

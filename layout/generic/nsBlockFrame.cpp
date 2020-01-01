@@ -26847,10 +26847,8 @@ width
 0
 )
 {
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aRenderingContext

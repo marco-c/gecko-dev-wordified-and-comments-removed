@@ -3322,10 +3322,8 @@ a
 .
 5
 ;
-nsRefPtr
-<
 gfxContext
->
+*
 ctx
 =
 aCtx
