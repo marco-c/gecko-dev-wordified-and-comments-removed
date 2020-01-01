@@ -1977,6 +1977,7 @@ panel
 .
 show
 (
+null
 getNodeView
 .
 implement

@@ -556,7 +556,7 @@ function
 (
 )
 {
-addObserver
+observerService
 .
 removeObserver
 (

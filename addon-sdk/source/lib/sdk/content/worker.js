@@ -630,6 +630,9 @@ window
 wantXrays
 :
 true
+sameZoneAs
+:
+window
 }
 )
 ;
@@ -697,6 +700,9 @@ proto
 wantXrays
 :
 true
+sameZoneAs
+:
+window
 }
 )
 ;

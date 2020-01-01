@@ -287,7 +287,10 @@ close
 test
 .
 done
+.
+bind
 (
+test
 )
 )
 ;

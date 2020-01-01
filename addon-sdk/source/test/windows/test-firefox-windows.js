@@ -2327,12 +2327,6 @@ function
 window
 )
 {
-test
-.
-assertEqual
-(
-)
-;
 let
 tab
 =

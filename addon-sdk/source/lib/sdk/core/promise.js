@@ -386,6 +386,7 @@ prototype
 Object
 .
 prototype
+;
 var
 promise
 =
@@ -543,6 +544,7 @@ error
 (
 error
 )
+;
 deferred
 .
 resolve
@@ -778,6 +780,7 @@ call
 Function
 .
 call
+;
 var
 concat
 =
@@ -786,6 +789,7 @@ Array
 prototype
 .
 concat
+;
 function
 execute
 (
@@ -840,10 +844,13 @@ concat
 value
 ]
 )
+;
 }
 )
+;
 }
 )
+;
 }
 return
 function
@@ -886,12 +893,15 @@ then
 (
 execute
 )
+;
 }
+;
 }
 }
 )
 (
 )
+;
 exports
 .
 promised

@@ -2334,6 +2334,7 @@ panel
 .
 show
 (
+null
 anchor
 )
 ;
@@ -4989,6 +4990,7 @@ panel
 .
 show
 (
+null
 browserWindow
 .
 gBrowser
@@ -5325,6 +5327,7 @@ panel
 .
 show
 (
+null
 window
 .
 gBrowser
@@ -5338,6 +5341,7 @@ panel
 .
 show
 (
+null
 browserWindow
 .
 gBrowser
