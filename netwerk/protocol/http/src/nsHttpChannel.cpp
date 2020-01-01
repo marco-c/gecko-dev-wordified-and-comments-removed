@@ -21210,7 +21210,7 @@ value
 PRInt16
 newValue
 =
-CLAMP
+NS_CLAMP
 (
 value
 PR_INT16_MIN

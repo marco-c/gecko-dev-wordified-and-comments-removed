@@ -311,6 +311,15 @@ return
 mPhishyUserPassLength
 ;
 }
+PRUint8
+GetQoSBits
+(
+)
+{
+return
+mQoSBits
+;
+}
 PRBool
 IsPersistentHttpsCachingEnabled
 (
@@ -786,6 +795,9 @@ mRedirectionLimit
 ;
 PRUint8
 mPhishyUserPassLength
+;
+PRUint8
+mQoSBits
 ;
 PRPackedBool
 mPipeliningOverSSL
