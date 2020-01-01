@@ -649,9 +649,9 @@ gcreason
 Reason
 reason
 PRUint32
-aGckind
-bool
-aGlobal
+gckind
+=
+nsGCNormal
 )
 ;
 static
@@ -720,12 +720,6 @@ MaybePokeCC
 static
 void
 KillCCTimer
-(
-)
-;
-static
-void
-KillFullGCTimer
 (
 )
 ;

@@ -3221,8 +3221,6 @@ gcreason
 :
 :
 DOM_IPC
-nsGCNormal
-true
 )
 ;
 return
@@ -3249,8 +3247,6 @@ gcreason
 :
 :
 DOM_IPC
-nsGCNormal
-true
 )
 ;
 nsJSContext
