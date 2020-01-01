@@ -97,6 +97,14 @@ browser_context_ui
 .
 js
 \
+browser_tiles
+.
+js
+\
+browser_tilegrid
+.
+xul
+\
 browser_onscreen_keyboard
 .
 js
