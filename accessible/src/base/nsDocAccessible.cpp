@@ -2943,8 +2943,9 @@ nsIPresShell
 >
 presShell
 (
-GetPresShell
+do_QueryReferent
 (
+mWeakShell
 )
 )
 ;
