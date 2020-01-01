@@ -86,7 +86,7 @@ feature
 ConditionalProcessing
 "
 )
-SVG_UNSUPPORTED_FEATURE
+SVG_SUPPORTED_FEATURE
 (
 "
 http
