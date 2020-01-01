@@ -292,11 +292,11 @@ MINMAX_ELSE
 else
 #
 endif
-void
+bool
 SkRect
 :
 :
-set
+setBoundsCheck
 (
 const
 SkPoint
@@ -324,6 +324,11 @@ count
 =
 0
 )
+;
+bool
+isFinite
+=
+true
 ;
 if
 (
@@ -664,6 +669,10 @@ b
 =
 0
 ;
+isFinite
+=
+false
+;
 }
 #
 endif
@@ -681,6 +690,9 @@ b
 #
 endif
 }
+return
+isFinite
+;
 }
 bool
 SkRect

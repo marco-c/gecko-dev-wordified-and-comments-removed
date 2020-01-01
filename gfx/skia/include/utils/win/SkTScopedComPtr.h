@@ -108,6 +108,14 @@ operator
 )
 const
 {
+SkASSERT
+(
+fPtr
+!
+=
+NULL
+)
+;
 return
 *
 fPtr

@@ -15,7 +15,7 @@ h
 #
 include
 "
-SkBuffer
+SkFlattenableBuffers
 .
 h
 "
@@ -525,7 +525,7 @@ BlurStyle
 )
 buffer
 .
-readS32
+readInt
 (
 )
 ;
@@ -533,7 +533,7 @@ fBlurFlags
 =
 buffer
 .
-readU32
+readUInt
 (
 )
 &
@@ -596,14 +596,14 @@ fRadius
 ;
 buffer
 .
-write32
+writeInt
 (
 fBlurStyle
 )
 ;
 buffer
 .
-write32
+writeUInt
 (
 fBlurFlags
 )

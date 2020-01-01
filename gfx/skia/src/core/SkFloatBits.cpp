@@ -8,7 +8,7 @@ h
 #
 include
 "
-SkMath
+SkMathPriv
 .
 h
 "
@@ -583,9 +583,6 @@ exp
 ;
 }
 }
-#
-ifdef
-SK_CAN_USE_FLOAT
 float
 SkIntToFloatCast
 (
@@ -882,5 +879,3 @@ data
 fFloat
 ;
 }
-#
-endif

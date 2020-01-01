@@ -922,7 +922,7 @@ fDone
 }
 ;
 uint32_t
-flatten
+writeToMemory
 (
 void
 *
@@ -931,7 +931,7 @@ buffer
 const
 ;
 uint32_t
-unflatten
+readFromMemory
 (
 const
 void

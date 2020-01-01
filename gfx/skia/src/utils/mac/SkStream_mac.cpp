@@ -46,6 +46,7 @@ unref
 )
 ;
 }
+static
 size_t
 get_bytes_proc
 (
@@ -104,6 +105,9 @@ info
 >
 skip
 (
+(
+size_t
+)
 bytes
 )
 ;

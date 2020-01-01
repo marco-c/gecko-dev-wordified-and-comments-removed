@@ -42,6 +42,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+GrPathRendererChain
+)
 enum
 UsageFlags
 {
@@ -130,6 +134,10 @@ GrPathRenderer
 true
 >
 fChain
+;
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

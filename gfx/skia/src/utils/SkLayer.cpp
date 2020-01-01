@@ -21,6 +21,10 @@ gLayerAllocCount
 ;
 #
 endif
+SK_DEFINE_INST_COUNT
+(
+SkLayer
+)
 SkLayer
 :
 :
@@ -110,10 +114,6 @@ const
 SkLayer
 &
 src
-)
-:
-INHERITED
-(
 )
 {
 fParent

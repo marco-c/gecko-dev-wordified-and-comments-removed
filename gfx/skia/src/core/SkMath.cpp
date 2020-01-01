@@ -1,7 +1,7 @@
 #
 include
 "
-SkMath
+SkMathPriv
 .
 h
 "

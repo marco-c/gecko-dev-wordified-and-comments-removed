@@ -105,7 +105,7 @@ fData
 ;
 friend
 class
-SkImage
+SkImageBaseBitmap
 ;
 }
 ;

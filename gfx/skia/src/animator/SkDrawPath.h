@@ -63,6 +63,7 @@ SkDisplayable
 *
 child
 )
+SK_OVERRIDE
 ;
 bool
 childHasID
@@ -241,7 +242,7 @@ SkAnimateMaker
 SkDisplayable
 *
 )
-const
+SK_OVERRIDE
 ;
 virtual
 void

@@ -29,6 +29,10 @@ GrRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+GrFontScaler
+)
 virtual
 const
 GrKey
@@ -94,6 +98,12 @@ SkPath
 )
 =
 0
+;
+private
+:
+typedef
+GrRefCnt
+INHERITED
 ;
 }
 ;

@@ -140,7 +140,7 @@ private
 :
 friend
 class
-SkGradient
+SkDrawGradient
 ;
 typedef
 SkPaintPart

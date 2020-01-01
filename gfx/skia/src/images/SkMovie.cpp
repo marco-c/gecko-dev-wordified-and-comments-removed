@@ -19,6 +19,10 @@ SkPaint
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+SkMovie
+)
 #
 define
 UNINITIALIZED_MSEC

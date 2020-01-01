@@ -40,6 +40,14 @@ GrRect
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+GrFontScaler
+)
+SK_DEFINE_INST_COUNT
+(
+GrKey
+)
 GrFontCache
 :
 :
@@ -124,10 +132,12 @@ fAtlasMgr
 {
 fAtlasMgr
 =
-new
+SkNEW_ARGS
+(
 GrAtlasMgr
 (
 fGpu
+)
 )
 ;
 }
@@ -135,7 +145,8 @@ GrTextStrike
 *
 strike
 =
-new
+SkNEW_ARGS
+(
 GrTextStrike
 (
 this
@@ -152,6 +163,7 @@ getMaskFormat
 (
 )
 fAtlasMgr
+)
 )
 ;
 fCache

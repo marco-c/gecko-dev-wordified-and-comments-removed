@@ -47,6 +47,7 @@ SkStream
 .
 h
 "
+static
 void
 addResourcesToCatalog
 (
@@ -698,6 +699,9 @@ fCatalog
 .
 get
 (
+)
+(
+size_t
 )
 fileOffset
 )

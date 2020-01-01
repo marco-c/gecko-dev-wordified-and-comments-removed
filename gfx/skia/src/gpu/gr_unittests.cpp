@@ -33,6 +33,11 @@ GrTDArray
 .
 h
 "
+void
+gr_run_unittests
+(
+)
+;
 static
 bool
 LT
@@ -540,7 +545,7 @@ kDataLenUsedForKey
 8
 }
 ;
-GrBinHashKey
+GrTBinHashKey
 <
 BogusEntry
 kDataLenUsedForKey
@@ -554,7 +559,7 @@ setKeyData
 testStringA
 )
 ;
-GrBinHashKey
+GrTBinHashKey
 <
 BogusEntry
 kDataLenUsedForKey
@@ -629,7 +634,7 @@ getHash
 )
 )
 ;
-GrBinHashKey
+GrTBinHashKey
 <
 BogusEntry
 kDataLenUsedForKey

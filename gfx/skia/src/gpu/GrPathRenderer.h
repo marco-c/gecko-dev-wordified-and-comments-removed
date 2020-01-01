@@ -40,6 +40,10 @@ GrRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+GrPathRenderer
+)
 static
 void
 AddPathRenderers
@@ -120,11 +124,6 @@ translate
 GrDrawTarget
 *
 target
-GrDrawState
-:
-:
-StageMask
-stageMask
 bool
 antiAlias
 )
@@ -153,7 +152,6 @@ path
 fill
 translate
 target
-stageMask
 antiAlias
 )
 ;
@@ -204,11 +202,6 @@ translate
 GrDrawTarget
 *
 target
-GrDrawState
-:
-:
-StageMask
-stageMask
 bool
 antiAlias
 )

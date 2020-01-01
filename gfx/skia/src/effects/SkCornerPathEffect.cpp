@@ -22,7 +22,7 @@ h
 #
 include
 "
-SkBuffer
+SkFlattenableBuffers
 .
 h
 "
@@ -156,9 +156,8 @@ const
 SkPath
 &
 src
-SkScalar
+SkStrokeRec
 *
-width
 )
 {
 if

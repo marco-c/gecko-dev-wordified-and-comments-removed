@@ -59,6 +59,12 @@ bytes
 )
 ;
 static
+size_t
+GetFontCacheUsed
+(
+)
+;
+static
 void
 PurgeFontCache
 (

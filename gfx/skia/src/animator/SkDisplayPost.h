@@ -83,6 +83,7 @@ SkDisplayable
 *
 child
 )
+SK_OVERRIDE
 ;
 virtual
 bool

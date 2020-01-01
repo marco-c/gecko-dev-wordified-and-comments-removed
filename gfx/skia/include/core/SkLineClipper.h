@@ -28,6 +28,11 @@ enum
 kMaxPoints
 =
 4
+kMaxClippedLineSegments
+=
+kMaxPoints
+-
+1
 }
 ;
 static

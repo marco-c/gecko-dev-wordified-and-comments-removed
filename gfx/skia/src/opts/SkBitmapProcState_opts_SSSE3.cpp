@@ -1243,6 +1243,10 @@ _mm_setzero_si128
 ;
 __m128i
 alpha
+=
+_mm_setzero_si128
+(
+)
 ;
 if
 (

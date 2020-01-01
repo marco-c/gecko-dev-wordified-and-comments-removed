@@ -793,3 +793,7 @@ count
 ;
 }
 }
+SK_DEFINE_FLATTENABLE_REGISTRAR
+(
+SkTransparentShader
+)

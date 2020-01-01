@@ -44,6 +44,10 @@ SkWeakRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkTypeface
+)
 enum
 Style
 {
@@ -272,6 +276,12 @@ length
 void
 *
 data
+)
+const
+;
+int
+getUnitsPerEm
+(
 )
 const
 ;

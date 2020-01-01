@@ -942,7 +942,6 @@ SkAnimateMaker
 SkDisplayable
 *
 )
-const
 {
 return
 false

@@ -26,6 +26,10 @@ GrGpu
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+GrPathRendererChain
+)
 GrPathRendererChain
 :
 :
@@ -242,7 +246,9 @@ getCaps
 (
 )
 .
-fTwoSidedStencilSupport
+twoSidedStencilSupport
+(
+)
 ;
 bool
 wrapOp
@@ -254,7 +260,9 @@ getCaps
 (
 )
 .
-fStencilWrapOpsSupport
+stencilWrapOpsSupport
+(
+)
 ;
 GrPathRenderer
 :
@@ -271,11 +279,13 @@ this
 >
 addPathRenderer
 (
-new
+SkNEW_ARGS
+(
 GrDefaultPathRenderer
 (
 twoSided
 wrapOp
+)
 )
 )
 -

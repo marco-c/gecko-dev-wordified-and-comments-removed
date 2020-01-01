@@ -415,6 +415,9 @@ j_decompress_ptr
 )
 {
 }
+#
+if
+0
 static
 void
 skmem_init_source
@@ -574,6 +577,8 @@ j_decompress_ptr
 )
 {
 }
+#
+endif
 skjpeg_source_mgr
 :
 :
@@ -597,18 +602,6 @@ stream
 fDecoder
 =
 decoder
-;
-const
-void
-*
-baseAddr
-=
-stream
--
->
-getMemoryBase
-(
-)
 ;
 fMemoryBase
 =

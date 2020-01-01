@@ -19,6 +19,13 @@ SkDither
 .
 h
 "
+#
+include
+"
+SkMathPriv
+.
+h
+"
 static
 void
 S32_D565_Opaque

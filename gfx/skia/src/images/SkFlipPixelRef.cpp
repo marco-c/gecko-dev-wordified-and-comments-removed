@@ -8,7 +8,7 @@ h
 #
 include
 "
-SkFlattenable
+SkFlattenableBuffers
 .
 h
 "
@@ -308,14 +308,7 @@ buffer
 ;
 buffer
 .
-write32
-(
-fSize
-)
-;
-buffer
-.
-writePad
+writeByteArray
 (
 fPage0
 fSize
@@ -342,7 +335,7 @@ fSize
 =
 buffer
 .
-readU32
+getArrayCount
 (
 )
 ;
@@ -372,10 +365,9 @@ fSize
 ;
 buffer
 .
-read
+readByteArray
 (
 fPage0
-fSize
 )
 ;
 }

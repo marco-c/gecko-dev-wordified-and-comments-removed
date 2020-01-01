@@ -26,6 +26,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkBoundary
+)
 enum
 Edge
 {
@@ -53,6 +57,12 @@ unitInterval
 )
 =
 0
+;
+private
+:
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

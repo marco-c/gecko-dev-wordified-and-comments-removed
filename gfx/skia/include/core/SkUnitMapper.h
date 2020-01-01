@@ -33,6 +33,10 @@ SkFlattenable
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkUnitMapper
+)
 SkUnitMapper
 (
 )
@@ -63,6 +67,12 @@ rb
 )
 {
 }
+private
+:
+typedef
+SkFlattenable
+INHERITED
+;
 }
 ;
 #

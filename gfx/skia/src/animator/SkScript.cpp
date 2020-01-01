@@ -9549,17 +9549,12 @@ true
 ifdef
 SK_SUPPORT_UNITTEST
 #
-ifdef
-SK_CAN_USE_FLOAT
-#
 include
 "
 SkFloatingPoint
 .
 h
 "
-#
-endif
 #
 define
 DEF_SCALAR_ANSWER
@@ -9629,9 +9624,6 @@ DEF_STRING_ANSWER
 #
 else
 #
-ifdef
-SK_CAN_USE_FLOAT
-#
 define
 testScalar
 (
@@ -9689,8 +9681,6 @@ exp2
 )
 DEF_STRING_ANSWER
 }
-#
-endif
 #
 endif
 #
@@ -9768,9 +9758,6 @@ testInt
 5
 )
 )
-#
-ifdef
-SK_CAN_USE_FLOAT
 testScalar
 (
 1
@@ -9962,8 +9949,6 @@ testFalse
 -
 5
 )
-#
-endif
 testInt
 (
 0x123
@@ -10364,9 +10349,6 @@ testInt
 =
 11
 )
-#
-ifdef
-SK_CAN_USE_FLOAT
 testInt
 (
 2
@@ -10791,8 +10773,6 @@ testInt
 11
 .
 )
-#
-endif
 testFalse
 (
 2
@@ -10978,9 +10958,6 @@ testFalse
 .
 '
 )
-#
-ifdef
-SK_CAN_USE_FLOAT
 testFalse
 (
 2
@@ -11122,8 +11099,6 @@ testFalse
 11
 .
 )
-#
-endif
 testFalse
 (
 '
@@ -11460,9 +11435,6 @@ testInt
 :
 5
 )
-#
-ifdef
-SK_CAN_USE_FLOAT
 {
 "
 123
@@ -11481,8 +11453,6 @@ SK_Scalar1
 2
 DEF_STRING_ANSWER
 }
-#
-endif
 }
 ;
 #

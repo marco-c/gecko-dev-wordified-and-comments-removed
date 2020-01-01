@@ -384,6 +384,13 @@ p
 ]
 SkScalar
 tolScale
+bool
+constrainWithinTangents
+SkPath
+:
+:
+Direction
+dir
 SkTArray
 <
 SkPoint

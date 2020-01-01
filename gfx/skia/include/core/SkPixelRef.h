@@ -53,6 +53,10 @@ SkFlattenable
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkPixelRef
+)
 explicit
 SkPixelRef
 (
@@ -395,6 +399,10 @@ fLockCount
 mutable
 uint32_t
 fGenerationID
+;
+friend
+class
+SkBitmap
 ;
 SkString
 fURI

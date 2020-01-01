@@ -76,8 +76,13 @@ SkTSort
 h
 "
 #
+ifdef
+SK_USE_LEGACY_AA_COVERAGE
+#
 define
 SK_USE_STD_SORT_FOR_EDGES
+#
+endif
 #
 define
 kEDGE_HEAD_Y
@@ -2852,6 +2857,8 @@ const
 SkIRect
 &
 ir
+bool
+skipRejectTest
 )
 {
 fBlitter
@@ -2879,6 +2886,10 @@ getBounds
 ;
 if
 (
+!
+skipRejectTest
+&
+&
 !
 SkIRect
 :
@@ -3174,6 +3185,11 @@ clipper
 blitter
 clipPtr
 ir
+path
+.
+isInverseFillType
+(
+)
 )
 ;
 blitter

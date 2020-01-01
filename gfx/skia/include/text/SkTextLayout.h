@@ -26,6 +26,10 @@ SkRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkTextStyle
+)
 SkTextStyle
 (
 )
@@ -77,6 +81,10 @@ private
 :
 SkPaint
 fPaint
+;
+typedef
+SkRefCnt
+INHERITED
 ;
 }
 ;

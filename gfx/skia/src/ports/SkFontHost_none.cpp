@@ -5,6 +5,13 @@ SkFontHost
 .
 h
 "
+#
+include
+"
+SkScalerContext
+.
+h
+"
 SkTypeface
 *
 SkFontHost

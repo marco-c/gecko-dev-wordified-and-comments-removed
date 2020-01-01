@@ -12,6 +12,14 @@ SkTSearch
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+SkPtrSet
+)
+SK_DEFINE_INST_COUNT
+(
+SkNamedFactorySet
+)
 void
 SkPtrSet
 :
@@ -155,6 +163,7 @@ index
 SkTSearch
 <
 Pair
+Cmp
 >
 (
 fList
@@ -168,8 +177,6 @@ sizeof
 (
 pair
 )
-&
-Cmp
 )
 ;
 if
@@ -239,6 +246,7 @@ index
 SkTSearch
 <
 Pair
+Cmp
 >
 (
 fList
@@ -252,8 +260,6 @@ sizeof
 (
 pair
 )
-&
-Cmp
 )
 ;
 if

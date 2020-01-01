@@ -498,9 +498,14 @@ SkToU8
 0
 '
 +
+(
+int32_t
+)
+(
 dec
 %
 10
+)
 )
 ;
 dec
@@ -603,9 +608,6 @@ return
 string
 ;
 }
-#
-ifdef
-SK_CAN_USE_FLOAT
 char
 *
 SkStrAppendFloat
@@ -674,8 +676,6 @@ string
 len
 ;
 }
-#
-endif
 char
 *
 SkStrAppendFixed

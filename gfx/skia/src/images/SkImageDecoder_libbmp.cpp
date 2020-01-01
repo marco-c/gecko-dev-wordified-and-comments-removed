@@ -94,6 +94,7 @@ DEFINE_DECODER_CREATOR
 BMPImageDecoder
 )
 ;
+static
 SkImageDecoder
 *
 sk_libbmp_dfactory

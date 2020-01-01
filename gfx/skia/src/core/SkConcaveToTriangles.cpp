@@ -1,6 +1,13 @@
 #
 include
 "
+SkConcaveToTriangles
+.
+h
+"
+#
+include
+"
 SkTDArray
 .
 h
@@ -23,6 +30,9 @@ h
 define
 kMaxCount
 1000
+#
+define
+DEBUG
 #
 ifdef
 DEBUG
@@ -2170,6 +2180,7 @@ vt
 ;
 }
 ;
+static
 bool
 operator
 <
@@ -2268,6 +2279,10 @@ return
 false
 ;
 }
+#
+if
+0
+static
 bool
 operator
 >
@@ -2366,6 +2381,8 @@ return
 false
 ;
 }
+#
+endif
 static
 void
 SetVertexPoints
@@ -4074,6 +4091,7 @@ nullify
 }
 }
 }
+static
 bool
 ConvertPointsToVertices
 (
@@ -5177,6 +5195,7 @@ return
 count
 ;
 }
+static
 bool
 operator
 <
@@ -5340,6 +5359,7 @@ n
 )
 ;
 }
+static
 bool
 TriangulateMonotone
 (
@@ -5757,6 +5777,7 @@ return
 true
 ;
 }
+static
 bool
 Triangulate
 (

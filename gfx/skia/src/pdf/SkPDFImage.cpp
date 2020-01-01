@@ -2444,9 +2444,12 @@ scale5Val
 new
 SkPDFScalar
 (
+SkFloatToScalar
+(
 8
 .
 2258f
+)
 )
 ;
 scale5Val
@@ -2465,9 +2468,12 @@ scale6Val
 new
 SkPDFScalar
 (
+SkFloatToScalar
+(
 4
 .
 0476f
+)
 )
 ;
 scale6Val

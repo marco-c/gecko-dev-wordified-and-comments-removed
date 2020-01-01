@@ -54,10 +54,10 @@ const
 SkPath
 &
 src
-SkScalar
+SkStrokeRec
 *
-width
 )
+SK_OVERRIDE
 ;
 virtual
 Factory

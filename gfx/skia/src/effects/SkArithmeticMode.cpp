@@ -889,6 +889,9 @@ bits
 #
 endif
 }
+#
+if
+0
 static
 int32_t
 toDot8
@@ -932,6 +935,8 @@ x
 #
 endif
 }
+#
+endif
 SkXfermode
 *
 SkArithmeticMode
@@ -979,6 +984,9 @@ k2
 )
 )
 {
+#
+if
+0
 int32_t
 i1
 =
@@ -1011,9 +1019,6 @@ toDot8
 k4
 )
 ;
-#
-if
-0
 if
 (
 i1

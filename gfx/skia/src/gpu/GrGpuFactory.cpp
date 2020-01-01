@@ -26,7 +26,7 @@ include
 "
 gl
 /
-GrGpuGLShaders
+GrGpuGL
 .
 h
 "
@@ -145,10 +145,12 @@ isInitialized
 )
 {
 return
-new
-GrGpuGLShaders
+SkNEW_ARGS
+(
+GrGpuGL
 (
 ctxInfo
+)
 )
 ;
 }

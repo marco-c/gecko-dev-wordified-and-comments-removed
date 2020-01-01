@@ -66,6 +66,9 @@ Mode
 ;
 }
 ;
+#
+if
+0
 SkImageDecoder
 *
 SkCreateICOImageDecoder
@@ -77,6 +80,8 @@ new
 SkICOImageDecoder
 ;
 }
+#
+endif
 #
 define
 readByte
@@ -2126,6 +2131,7 @@ SkTRegistry
 .
 h
 "
+static
 SkImageDecoder
 *
 sk_libico_dfactory

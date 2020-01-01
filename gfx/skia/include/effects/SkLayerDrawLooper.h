@@ -30,6 +30,10 @@ SkDrawLooper
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkLayerDrawLooper
+)
 SkLayerDrawLooper
 (
 )

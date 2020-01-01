@@ -283,6 +283,9 @@ return
 ;
 }
 return
+(
+size_t
+)
 size
 ;
 }
@@ -382,9 +385,14 @@ return
 ;
 }
 return
+(
+size_t
+)
+(
 newCurr
 -
 oldCurr
+)
 ;
 }
 else

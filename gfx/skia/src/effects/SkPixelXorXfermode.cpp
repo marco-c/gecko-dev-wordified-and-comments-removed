@@ -12,6 +12,13 @@ SkColorPriv
 .
 h
 "
+#
+include
+"
+SkFlattenableBuffers
+.
+h
+"
 SkPMColor
 SkPixelXorXfermode
 :
@@ -72,7 +79,7 @@ wb
 ;
 wb
 .
-write32
+writeColor
 (
 fOpColor
 )
@@ -97,7 +104,7 @@ fOpColor
 =
 rb
 .
-readU32
+readColor
 (
 )
 ;

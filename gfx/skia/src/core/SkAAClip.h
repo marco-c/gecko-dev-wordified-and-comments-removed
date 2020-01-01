@@ -330,6 +330,8 @@ y
 int
 *
 lastYForRow
+=
+NULL
 )
 const
 ;
@@ -348,6 +350,8 @@ x
 int
 *
 initialCount
+=
+NULL
 )
 const
 ;

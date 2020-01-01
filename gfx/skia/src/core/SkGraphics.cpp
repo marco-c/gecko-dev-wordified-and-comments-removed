@@ -545,6 +545,13 @@ PurgeFontCache
 (
 )
 ;
+SkPaint
+:
+:
+Term
+(
+)
+;
 }
 static
 const

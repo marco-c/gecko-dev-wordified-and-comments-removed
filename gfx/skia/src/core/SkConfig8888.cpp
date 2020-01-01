@@ -5,6 +5,13 @@ SkConfig8888
 .
 h
 "
+#
+include
+"
+SkMathPriv
+.
+h
+"
 namespace
 {
 template

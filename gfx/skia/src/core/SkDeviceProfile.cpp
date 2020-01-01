@@ -5,6 +5,10 @@ SkDeviceProfile
 .
 h
 "
+SK_DEFINE_INST_COUNT
+(
+SkDeviceProfile
+)
 #
 define
 DEFAULT_GAMMAEXP

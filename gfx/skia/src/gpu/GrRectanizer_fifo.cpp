@@ -572,11 +572,13 @@ height
 )
 {
 return
-new
+SkNEW_ARGS
+(
 GrRectanizerFIFO
 (
 width
 height
+)
 )
 ;
 }

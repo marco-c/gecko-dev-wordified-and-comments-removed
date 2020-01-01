@@ -68,6 +68,13 @@ SkXfermode
 .
 h
 "
+#
+include
+"
+SkMagnifierImageFilter
+.
+h
+"
 void
 SkFlattenable
 :
@@ -99,6 +106,10 @@ SkLayerDrawLooper
 SK_DEFINE_FLATTENABLE_REGISTRAR_ENTRY
 (
 SkMallocPixelRef
+)
+SK_DEFINE_FLATTENABLE_REGISTRAR_ENTRY
+(
+SkMagnifierImageFilter
 )
 SkBlurMaskFilter
 :

@@ -6,6 +6,13 @@ SkColorMatrix
 h
 "
 #
+include
+"
+SkFlattenableBuffers
+.
+h
+"
+#
 define
 kRScale
 0

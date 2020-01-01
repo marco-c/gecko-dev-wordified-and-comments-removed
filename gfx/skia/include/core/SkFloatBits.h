@@ -112,9 +112,6 @@ int32_t
 floatBits
 )
 ;
-#
-ifdef
-SK_CAN_USE_FLOAT
 union
 SkFloatIntUnion
 {
@@ -302,8 +299,6 @@ x
 )
 ;
 }
-#
-endif
 #
 ifdef
 SK_SCALAR_IS_FLOAT

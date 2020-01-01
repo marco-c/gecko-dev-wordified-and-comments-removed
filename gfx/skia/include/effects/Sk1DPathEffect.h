@@ -40,10 +40,10 @@ const
 SkPath
 &
 src
-SkScalar
+SkStrokeRec
 *
-width
 )
+SK_OVERRIDE
 ;
 protected
 :
@@ -119,9 +119,8 @@ SkPath
 const
 SkPath
 &
-SkScalar
+SkStrokeRec
 *
-width
 )
 SK_OVERRIDE
 ;

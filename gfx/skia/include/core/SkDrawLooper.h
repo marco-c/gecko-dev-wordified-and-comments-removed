@@ -17,6 +17,9 @@ SkCanvas
 class
 SkPaint
 ;
+struct
+SkRect
+;
 class
 SK_API
 SkDrawLooper
@@ -26,6 +29,10 @@ SkFlattenable
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+SkDrawLooper
+)
 virtual
 void
 init

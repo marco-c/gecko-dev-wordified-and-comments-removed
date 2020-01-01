@@ -22,6 +22,11 @@ GrResource
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+GrGeometryBuffer
+)
+;
 bool
 dynamic
 (

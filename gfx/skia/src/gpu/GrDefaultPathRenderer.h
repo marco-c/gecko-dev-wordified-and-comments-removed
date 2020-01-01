@@ -108,11 +108,6 @@ translate
 GrDrawTarget
 *
 target
-GrDrawState
-:
-:
-StageMask
-stageMask
 bool
 antiAlias
 )
@@ -134,11 +129,6 @@ translate
 GrDrawTarget
 *
 target
-GrDrawState
-:
-:
-StageMask
-stageMask
 bool
 stencilOnly
 )
@@ -161,11 +151,6 @@ srcSpaceTol
 GrDrawTarget
 *
 target
-GrDrawState
-:
-:
-StageMask
-stages
 GrPrimitiveType
 *
 primType

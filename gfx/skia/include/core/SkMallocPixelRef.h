@@ -29,6 +29,10 @@ size
 SkColorTable
 *
 ctable
+bool
+ownPixels
+=
+true
 )
 ;
 virtual
@@ -109,6 +113,9 @@ fSize
 SkColorTable
 *
 fCTable
+;
+bool
+fOwnPixels
 ;
 typedef
 SkPixelRef

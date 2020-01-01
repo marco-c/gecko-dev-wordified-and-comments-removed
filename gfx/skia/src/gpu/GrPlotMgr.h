@@ -68,11 +68,11 @@ else
 {
 fBusy
 =
-new
+SkNEW_ARRAY
+(
 char
-[
 needed
-]
+)
 ;
 }
 this

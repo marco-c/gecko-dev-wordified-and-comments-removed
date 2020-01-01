@@ -19,6 +19,10 @@ GrRefCnt
 {
 public
 :
+SK_DECLARE_INST_COUNT
+(
+GrKey
+)
 typedef
 intptr_t
 Hash
@@ -147,6 +151,10 @@ private
 const
 Hash
 fHash
+;
+typedef
+GrRefCnt
+INHERITED
 ;
 }
 ;

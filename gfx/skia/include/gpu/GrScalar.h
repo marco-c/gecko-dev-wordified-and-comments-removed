@@ -173,7 +173,7 @@ GrFloatToScalar
 (
 a
 )
-SkScalarToFloat
+SkFloatToScalar
 (
 a
 )
