@@ -5054,6 +5054,16 @@ disabled
 return
 ;
 }
+if
+(
+this
+.
+_changingRadioPower
+)
+{
+return
+;
+}
 debug
 (
 "
