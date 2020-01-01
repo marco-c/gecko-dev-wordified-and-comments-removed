@@ -765,7 +765,6 @@ eGestureState_None
 eGestureState_StartGesture
 eGestureState_MagnifyGesture
 eGestureState_RotateGesture
-eGestureState_TapGesture
 }
 mGestureState
 ;
@@ -774,9 +773,6 @@ mCumulativeMagnification
 ;
 float
 mCumulativeRotation
-;
-NSTimeInterval
-mFirstTapTime
 ;
 BOOL
 mDidForceRefreshOpenGL
@@ -1039,18 +1035,6 @@ anEvent
 void
 )
 endGestureWithEvent
-:
-(
-NSEvent
-*
-)
-anEvent
-;
--
-(
-void
-)
-tapWithEvent
 :
 (
 NSEvent
