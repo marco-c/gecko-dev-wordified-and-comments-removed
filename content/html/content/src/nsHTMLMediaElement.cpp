@@ -11563,6 +11563,13 @@ HAVE_METADATA
 {
 ChangeReadyState
 (
+mStream
+?
+nsIDOMHTMLMediaElement
+:
+:
+HAVE_CURRENT_DATA
+:
 nsIDOMHTMLMediaElement
 :
 :

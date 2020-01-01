@@ -523,17 +523,7 @@ MediaStreamListener
 >
 aListener
 )
-{
-*
-mListeners
-.
-AppendElement
-(
-)
-=
-aListener
 ;
-}
 void
 RemoveListenerImpl
 (
