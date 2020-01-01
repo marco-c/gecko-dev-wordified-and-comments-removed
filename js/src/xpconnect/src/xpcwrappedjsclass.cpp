@@ -4710,11 +4710,6 @@ SetException
 nsnull
 )
 ;
-js_LeaveTrace
-(
-cx
-)
-;
 if
 (
 XPT_MD_IS_GETTER

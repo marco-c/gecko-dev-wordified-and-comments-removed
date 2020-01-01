@@ -281,13 +281,6 @@ h
 #
 include
 "
-jstracer
-.
-h
-"
-#
-include
-"
 nsEventDispatcher
 .
 h
@@ -1303,7 +1296,6 @@ aPtr
 )
 {
 }
-JS_REQUIRES_STACK
 ~
 AutoFreeJSStack
 (
@@ -10111,11 +10103,6 @@ nsresult
 rv
 =
 NS_OK
-;
-js_LeaveTrace
-(
-mContext
-)
 ;
 nsCOMPtr
 <

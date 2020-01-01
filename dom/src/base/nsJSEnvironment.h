@@ -652,7 +652,6 @@ nsIXPConnectJSObjectHolder
 aHolder
 )
 ;
-JS_FORCES_STACK
 nsresult
 ConvertSupportsTojsvals
 (
