@@ -308,11 +308,6 @@ JSString
 ;
 typedef
 struct
-JSTraceableNative
-JSTraceableNative
-;
-typedef
-struct
 JSXDRState
 JSXDRState
 ;
