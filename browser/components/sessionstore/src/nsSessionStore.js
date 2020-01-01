@@ -247,6 +247,9 @@ DNSPrefetch
 "
 Auth
 "
+"
+WindowControl
+"
 ]
 ;
 const
