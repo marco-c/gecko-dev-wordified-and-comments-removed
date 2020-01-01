@@ -4743,6 +4743,11 @@ PRUint32
 aType
 )
 {
+NS_ENSURE_ARG
+(
+aFile
+)
+;
 switch
 (
 aType
