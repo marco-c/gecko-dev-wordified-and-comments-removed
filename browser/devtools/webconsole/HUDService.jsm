@@ -362,7 +362,7 @@ defineLazyGetter
 (
 this
 "
-Templater
+template
 "
 function
 (
@@ -398,7 +398,7 @@ obj
 return
 obj
 .
-Templater
+template
 ;
 }
 )
@@ -27756,12 +27756,7 @@ timestamp
 (
 )
 ;
-new
-Templater
-(
-)
-.
-processNode
+template
 (
 element
 {
