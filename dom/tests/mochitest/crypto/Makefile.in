@@ -107,6 +107,10 @@ mk
 _TEST_FILES
 =
 \
+test_getRandomValues
+.
+html
+\
 (
 NULL
 )
