@@ -462,6 +462,12 @@ aFlushType
 ;
 #
 endif
+static
+PRInt32
+DefaultInterval
+(
+)
+;
 private
 :
 typedef
