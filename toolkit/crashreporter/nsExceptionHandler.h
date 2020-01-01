@@ -163,7 +163,9 @@ EXCEPTION_POINTERS
 aExceptionInfo
 )
 ;
-nsCString
+const
+char
+*
 GetChildNotificationPipe
 (
 )
