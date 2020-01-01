@@ -744,10 +744,6 @@ browser_bug749738
 .
 js
 \
-browser_bug763468
-.
-js
-\
 browser_bug767836
 .
 js
@@ -1319,6 +1315,10 @@ _BROWSER_FILES
 +
 =
 \
+browser_bug763468_perwindowpb
+.
+js
+\
 browser_private_browsing_window
 .
 js
@@ -1346,6 +1346,10 @@ else
 _BROWSER_FILES
 +
 =
+\
+browser_bug763468
+.
+js
 \
 browser_save_link
 .
