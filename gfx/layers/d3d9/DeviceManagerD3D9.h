@@ -49,7 +49,7 @@ class
 DeviceManagerD3D9
 ;
 class
-ThebesLayerD3D9
+LayerD3D9
 ;
 class
 Nv3DVUtils
@@ -237,10 +237,10 @@ mNv3DVUtils
 }
 nsTArray
 <
-ThebesLayerD3D9
+LayerD3D9
 *
 >
-mThebesLayers
+mLayersWithResources
 ;
 private
 :

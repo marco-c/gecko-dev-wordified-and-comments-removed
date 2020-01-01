@@ -530,6 +530,13 @@ RenderLayer
 =
 0
 ;
+virtual
+void
+CleanResources
+(
+)
+{
+}
 IDirect3DDevice9
 *
 device
