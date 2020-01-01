@@ -635,13 +635,9 @@ js_CloseIterator
 JSContext
 *
 cx
-const
-js
-:
-:
-Value
-&
-v
+JSObject
+*
+iterObj
 )
 ;
 bool

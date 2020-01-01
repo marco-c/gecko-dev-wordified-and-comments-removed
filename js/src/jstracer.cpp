@@ -79262,11 +79262,7 @@ if
 js_CloseIterator
 (
 cx
-ObjectValue
-(
-*
 iterobj
-)
 )
 )
 {
