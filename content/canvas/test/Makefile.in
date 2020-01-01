@@ -6956,6 +6956,12 @@ composite
 .
 html
 \
+test_2d
+.
+imageSmoothing
+.
+html
+\
 test_bug397524
 .
 html
