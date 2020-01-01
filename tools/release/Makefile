@@ -1215,6 +1215,15 @@ rm
 -
 rf
 /
+builds
+/
+symbols
+/
+*
+rm
+-
+rf
+/
 data
 /
 cltbld
