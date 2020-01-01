@@ -76,6 +76,9 @@ uint32_t
 colormap
 uint32_t
 colormapSize
+imgFrame
+*
+currentFrame
 )
 ;
 void
@@ -465,6 +468,10 @@ AllocateFrame
 RasterImage
 &
 mImage
+;
+imgFrame
+*
+mCurrentFrame
 ;
 RefPtr
 <
