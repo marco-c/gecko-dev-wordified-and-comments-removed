@@ -562,12 +562,12 @@ nsIDOMNode
 inParent
 PRInt32
 inOffset
-nsCOMPtr
-<
 nsIDOMNode
->
+*
 *
 outBRNode
+=
+nsnull
 )
 ;
 nsresult
