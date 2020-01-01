@@ -144,6 +144,9 @@ lastReportedPrivateModeState
 bool
 hasWidget
 ;
+bool
+npnNewStream
+;
 uint32_t
 timerID1
 ;

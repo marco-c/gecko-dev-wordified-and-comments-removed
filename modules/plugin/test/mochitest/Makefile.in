@@ -486,6 +486,10 @@ test_pluginstream_seek
 .
 html
 \
+test_pluginstream_newstream
+.
+html
+\
 (
 NULL
 )
