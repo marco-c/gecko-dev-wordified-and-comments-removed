@@ -15716,11 +15716,6 @@ mChannelMuted
 =
 true
 ;
-SetMutedInternal
-(
-mMuted
-)
-;
 DispatchAsyncEvent
 (
 NS_LITERAL_STRING
@@ -15746,11 +15741,6 @@ mChannelMuted
 =
 false
 ;
-SetMutedInternal
-(
-mMuted
-)
-;
 DispatchAsyncEvent
 (
 NS_LITERAL_STRING
@@ -15762,6 +15752,11 @@ mozinterruptend
 )
 ;
 }
+SetMutedInternal
+(
+mMuted
+)
+;
 #
 endif
 return
