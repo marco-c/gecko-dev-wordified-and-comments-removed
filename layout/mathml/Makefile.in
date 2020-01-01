@@ -489,16 +489,6 @@ tables
 -
 I
 (
-srcdir
-)
-/
-content
-/
-src
-\
--
-I
-(
 topsrcdir
 )
 /
