@@ -422,9 +422,9 @@ parser
 DIRS
 =
 expat
+xml
 htmlparser
 html
-xml
 include
 (
 topsrcdir
