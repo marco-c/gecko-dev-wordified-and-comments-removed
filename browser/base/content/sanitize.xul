@@ -1434,6 +1434,15 @@ suffix
 /
 hbox
 >
+<
+separator
+class
+=
+"
+thin
+"
+/
+>
 #
 ifdef
 CRH_DIALOG_TREE_VIEW
@@ -1653,6 +1662,11 @@ id
 =
 "
 sanitizeEverythingWarningDescBox
+"
+flex
+=
+"
+1
 "
 >
 <
