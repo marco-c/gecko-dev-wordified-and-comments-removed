@@ -496,6 +496,10 @@ nsIIdentityInfo
 .
 idl
 \
+nsIAssociatedContentSecurity
+.
+idl
+\
 nsICertOverrideService
 .
 idl
