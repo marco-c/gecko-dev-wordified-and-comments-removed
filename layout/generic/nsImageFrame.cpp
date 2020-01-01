@@ -4906,7 +4906,7 @@ pc
 >
 Draw
 (
-pc
+aFrame
 *
 aCtx
 )
@@ -5199,7 +5199,7 @@ map
 >
 Draw
 (
-presContext
+this
 aRenderingContext
 )
 ;
