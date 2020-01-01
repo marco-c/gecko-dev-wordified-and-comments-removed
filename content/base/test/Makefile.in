@@ -2021,6 +2021,10 @@ options_page
 .
 sjs
 \
+test_createHTMLDocument
+.
+html
+\
 (
 NULL
 )
