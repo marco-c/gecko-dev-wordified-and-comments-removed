@@ -45496,6 +45496,17 @@ MOZ_CUBEB
 ;
 *
 -
+darwin
+*
+)
+AC_DEFINE
+(
+MOZ_CUBEB
+)
+;
+;
+*
+-
 openbsd
 *
 )
