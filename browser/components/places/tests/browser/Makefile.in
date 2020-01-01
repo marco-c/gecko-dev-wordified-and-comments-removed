@@ -568,6 +568,10 @@ browser_toolbar_migration
 .
 js
 \
+browser_library_batch_delete
+.
+js
+\
 (
 NULL
 )
