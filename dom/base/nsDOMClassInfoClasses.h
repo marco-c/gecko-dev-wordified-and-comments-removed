@@ -84,10 +84,6 @@ ClipboardEvent
 )
 DOMCI_CLASS
 (
-KeyboardEvent
-)
-DOMCI_CLASS
-(
 CompositionEvent
 )
 #
@@ -124,10 +120,6 @@ DeviceAcceleration
 DOMCI_CLASS
 (
 DeviceRotationRate
-)
-DOMCI_CLASS
-(
-HTMLDocument
 )
 DOMCI_CLASS
 (
@@ -596,10 +588,6 @@ CameraCapabilities
 )
 DOMCI_CLASS
 (
-DOMError
-)
-DOMCI_CLASS
-(
 OpenWindowEventDetail
 )
 DOMCI_CLASS
@@ -625,10 +613,6 @@ MOZ_WEBRTC
 DOMCI_CLASS
 (
 DataChannel
-)
-DOMCI_CLASS
-(
-RTCPeerConnection
 )
 #
 endif
