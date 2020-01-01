@@ -2476,6 +2476,11 @@ menuitem_resume
 menuitem_cancel
 "
 ]
+[
+"
+menuitem_cancel
+"
+]
 ]
 ;
 function
