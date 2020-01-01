@@ -280,6 +280,19 @@ cls
 =
 UbuntuBootstrapper
             
+elif
+distro
+=
+=
+'
+Elementary
+'
+:
+                
+cls
+=
+UbuntuBootstrapper
+            
 else
 :
                 
