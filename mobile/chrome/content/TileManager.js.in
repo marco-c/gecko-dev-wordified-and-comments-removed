@@ -1018,7 +1018,7 @@ browserView
 )
 {
 /
-/
+*
 backref
 to
 the
@@ -1027,6 +1027,8 @@ object
 that
 owns
 us
+*
+/
 this
 .
 _browserView
@@ -1034,7 +1036,7 @@ _browserView
 browserView
 ;
 /
-/
+*
 callbacks
 to
 append
@@ -1047,6 +1049,8 @@ to
 from
 the
 parent
+*
+/
 this
 .
 _appendTile
@@ -1060,7 +1064,7 @@ _removeTile
 removeTile
 ;
 /
-/
+*
 tile
 cache
 holds
@@ -1073,6 +1077,8 @@ under
 a
 given
 capacity
+*
+/
 let
 self
 =
@@ -1108,7 +1114,7 @@ kInitialCacheCapacity
 )
 ;
 /
-/
+*
 Rectangle
 within
 the
@@ -1125,8 +1131,7 @@ is
 "
 critical
 "
-/
-/
+*
 in
 the
 sense
@@ -1141,6 +1146,22 @@ as
 it
 becomes
 dirty
+and
+tiles
+*
+within
+this
+rectangle
+should
+not
+be
+evicted
+for
+use
+elsewhere
+.
+*
+/
 this
 .
 _criticalRect
@@ -1148,7 +1169,7 @@ _criticalRect
 null
 ;
 /
-/
+*
 timeout
 of
 the
@@ -1165,6 +1186,8 @@ renders
 from
 the
 browser
+*
+/
 this
 .
 _idleTileCrawlerTimeout
@@ -1172,7 +1195,7 @@ _idleTileCrawlerTimeout
 0
 ;
 /
-/
+*
 object
 that
 keeps
@@ -1182,6 +1205,8 @@ our
 current
 lazyload
 crawl
+*
+/
 this
 .
 _crawler
@@ -1783,6 +1808,9 @@ n
 if
 (
 cr
+&
+&
+destCriticalRect
 )
 cr
 .
@@ -2175,8 +2203,6 @@ _removeTileSafe
 tile
 )
 {
-debugger
-;
 if
 (
 tile
