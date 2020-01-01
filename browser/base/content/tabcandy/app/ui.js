@@ -1217,11 +1217,11 @@ e
 .
 originalTarget
 .
-nodeName
+id
 =
 =
 "
-HTML
+bg
 "
 )
 Page
@@ -1945,7 +1945,8 @@ e
 {
 (
 "
-html
+#
+bg
 "
 )
 .
@@ -2067,7 +2068,8 @@ remove
 }
 (
 "
-html
+#
+bg
 "
 )
 .
@@ -2076,9 +2078,7 @@ mousemove
 updateSize
 )
 (
-"
-html
-"
+window
 )
 .
 one
@@ -2087,6 +2087,12 @@ one
 mouseup
 '
 finalize
+)
+;
+e
+.
+preventDefault
+(
 )
 ;
 return
