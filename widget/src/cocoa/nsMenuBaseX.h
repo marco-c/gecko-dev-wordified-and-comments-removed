@@ -150,9 +150,12 @@ eCommand_ID_HideOthers
 eCommand_ID_ShowAll
 =
 6
-eCommand_ID_Last
+eCommand_ID_Update
 =
 7
+eCommand_ID_Last
+=
+8
 }
 ;
 #
