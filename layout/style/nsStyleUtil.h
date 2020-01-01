@@ -173,7 +173,7 @@ aFeatureName
 ;
 static
 void
-AppendFunctionalAlternates
+SerializeFunctionalAlternates
 (
 const
 nsTArray
@@ -189,7 +189,7 @@ aResult
 ;
 static
 void
-AppendAlternateValues
+ComputeFunctionalAlternates
 (
 const
 nsCSSValueList
