@@ -225,7 +225,7 @@ Model
 const
 {
 return
-nsString
+EmptyString
 (
 )
 ;
@@ -240,7 +240,7 @@ Hardware
 const
 {
 return
-nsString
+EmptyString
 (
 )
 ;
@@ -255,7 +255,7 @@ Product
 const
 {
 return
-nsString
+EmptyString
 (
 )
 ;
@@ -270,7 +270,7 @@ Manufacturer
 const
 {
 return
-nsString
+EmptyString
 (
 )
 ;
