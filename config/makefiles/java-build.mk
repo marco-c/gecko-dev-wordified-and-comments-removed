@@ -207,6 +207,17 @@ GENERATED_DIRS
 +
 =
 classes
+export
+:
+:
+classes
+classes
+:
+(
+call
+mkdir_deps
+classes
+)
 endif
 #
 }
