@@ -1682,7 +1682,7 @@ cx
 )
 ;
 return
-js_DeleteProperty
+js_DeleteGeneric
 (
 cx
 &
@@ -2303,7 +2303,7 @@ cx
 )
 ;
 return
-js_DeleteProperty
+js_DeleteGeneric
 (
 cx
 &

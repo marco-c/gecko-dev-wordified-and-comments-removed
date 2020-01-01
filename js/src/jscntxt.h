@@ -1065,10 +1065,10 @@ gcLocksHash
 jsrefcount
 gcKeepAtoms
 ;
-uint32_t
+size_t
 gcBytes
 ;
-uint32_t
+size_t
 gcTriggerBytes
 ;
 size_t
@@ -1079,9 +1079,6 @@ gcMaxBytes
 ;
 size_t
 gcMaxMallocBytes
-;
-uint32_t
-gcEmptyArenaPoolLifespan
 ;
 volatile
 uint32_t
@@ -1598,7 +1595,7 @@ gckind
 void
 reduceGCTriggerBytes
 (
-uint32_t
+size_t
 amount
 )
 ;

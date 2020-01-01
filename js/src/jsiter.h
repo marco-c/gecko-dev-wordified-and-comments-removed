@@ -376,6 +376,7 @@ JSObject
 iterObj
 )
 ;
+extern
 bool
 js_SuppressDeletedProperty
 (
@@ -389,6 +390,7 @@ jsid
 id
 )
 ;
+extern
 bool
 js_SuppressDeletedElement
 (
@@ -402,6 +404,7 @@ uint32_t
 index
 )
 ;
+extern
 bool
 js_SuppressDeletedElements
 (

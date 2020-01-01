@@ -2491,7 +2491,7 @@ functionEpilogue
 ;
 inline
 void
-markFunctionEpilogueDone
+updateEpilogueFlags
 (
 )
 ;

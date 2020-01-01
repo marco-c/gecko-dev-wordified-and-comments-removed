@@ -4360,16 +4360,6 @@ iconsize
 "
 large
 "
-tabsontop
-=
-"
-true
-"
-persist
-=
-"
-tabsontop
-"
 >
 <
 !

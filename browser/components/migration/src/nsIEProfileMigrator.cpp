@@ -387,6 +387,11 @@ h
 "
 #
 define
+kNotFound
+-
+1
+#
+define
 TRIDENTPROFILE_BUNDLE
 "
 chrome
@@ -2758,7 +2763,7 @@ Cut
 1
 )
 ;
-PRUint32
+PRInt32
 index
 =
 iePath
@@ -2859,7 +2864,7 @@ Length
 2
 )
 {
-PRUint32
+PRInt32
 index
 =
 ieVersion
@@ -2875,8 +2880,9 @@ FindChar
 if
 (
 index
-<
-0
+=
+=
+kNotFound
 )
 return
 false
