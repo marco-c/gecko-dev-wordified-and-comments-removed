@@ -476,9 +476,9 @@ pc
 void
 CallToUncompiledScriptPar
 (
-JSFunction
+JSObject
 *
-func
+obj
 )
 ;
 }
