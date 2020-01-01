@@ -100,7 +100,7 @@ AccessCheck
 .
 cpp
 \
-CrossOriginWrapper
+WaiveXrayWrapper
 .
 cpp
 \
