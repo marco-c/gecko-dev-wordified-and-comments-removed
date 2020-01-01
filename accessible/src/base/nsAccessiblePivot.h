@@ -114,6 +114,8 @@ PRInt32
 aOldStart
 PRInt32
 aOldEnd
+PivotMoveReason
+aReason
 )
 ;
 bool
@@ -164,6 +166,8 @@ MovePivotInternal
 Accessible
 *
 aPosition
+PivotMoveReason
+aReason
 )
 ;
 nsRefPtr
