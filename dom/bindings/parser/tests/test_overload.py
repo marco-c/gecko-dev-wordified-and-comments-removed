@@ -37,8 +37,7 @@ arg1
 boolean
 abitharder
 (
-unsigned
-long
+TestOverloads
 foo
 )
 ;
@@ -54,7 +53,7 @@ foo
 void
 abitharder
 (
-long
+ArrayBuffer
 ?
 foo
 )
