@@ -65,5 +65,11 @@ aOffset
 nsnull
 )
 ;
+nsPresContext
+*
+GetPresContext
+(
+)
+;
 }
 ;
