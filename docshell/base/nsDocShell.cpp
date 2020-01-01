@@ -45878,7 +45878,7 @@ You
 should
 not
 call
-SetIsBrowser
+SetIsBrowserElement
 (
 )
 more
