@@ -158,7 +158,11 @@ ok
 (
 hList
 .
-getChildCount
+getAdapter
+(
+)
+.
+getCount
 (
 )
 >
@@ -320,7 +324,11 @@ ok
 (
 hList
 .
-getChildCount
+getAdapter
+(
+)
+.
+getCount
 (
 )
 =

@@ -711,7 +711,11 @@ count
 =
 listview
 .
-getChildCount
+getAdapter
+(
+)
+.
+getCount
 (
 )
 ;

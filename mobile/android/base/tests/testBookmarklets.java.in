@@ -331,7 +331,11 @@ i
 <
 bookmarks
 .
-getChildCount
+getAdapter
+(
+)
+.
+getCount
 (
 )
 ;
