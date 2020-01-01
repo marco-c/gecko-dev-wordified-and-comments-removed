@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -57,6 +57,13 @@ h
 include
 "
 nsIPluginInstanceInternal
+.
+h
+"
+#
+include
+"
+nsPIDOMWindow
 .
 h
 "
@@ -369,7 +376,10 @@ nsInstanceStream
 *
 mStreams
 ;
-nsVoidArray
+nsTArray
+<
+PopupControlState
+>
 mPopupStates
 ;
 }
