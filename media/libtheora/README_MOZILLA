@@ -52,6 +52,17 @@ in
 bug
 below
 .
+bug498770
+.
+patch
+-
+Enable
+optimized
+theora
+code
+in
+windows
+build
 Bug
 455357
 -

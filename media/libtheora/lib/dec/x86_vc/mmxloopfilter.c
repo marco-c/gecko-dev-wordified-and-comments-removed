@@ -60,7 +60,7 @@ edx
 _ystride
 ]
 mov
-ebx
+ecx
 [
 _ll
 ]
@@ -203,7 +203,7 @@ mm5
 movq
 mm0
 [
-ebx
+ecx
 ]
 movq
 mm5

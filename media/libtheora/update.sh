@@ -967,3 +967,10 @@ patch
 p3
 <
 455357_wince_local_variable_macro_clash_patch
+patch
+-
+p0
+<
+bug498770
+.
+patch
