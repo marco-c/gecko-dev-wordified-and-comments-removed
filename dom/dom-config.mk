@@ -98,6 +98,10 @@ contacts
 \
 dom
 /
+permission
+\
+dom
+/
 alarm
 \
 dom
