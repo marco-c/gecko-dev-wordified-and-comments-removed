@@ -4343,6 +4343,14 @@ this
 .
 _request
 .
+mozBackgroundRequest
+=
+true
+;
+this
+.
+_request
+.
 open
 (
 "
