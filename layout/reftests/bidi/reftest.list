@@ -379,6 +379,17 @@ mixedChartype
 ref
 .
 html
+random
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+gtk2
+"
+)
 =
 =
 386339
