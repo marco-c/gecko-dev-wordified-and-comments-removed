@@ -37263,7 +37263,7 @@ dragService
 >
 SetDragEndPoint
 (
-nsPoint
+nsIntPoint
 (
 NSToIntRound
 (

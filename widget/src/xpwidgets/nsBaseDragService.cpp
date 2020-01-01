@@ -658,7 +658,7 @@ aDOMNode
 ;
 mEndDragPoint
 =
-nsPoint
+nsIntPoint
 (
 0
 0

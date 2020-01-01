@@ -114,7 +114,7 @@ NS_DECL_NSIDRAGSESSION
 void
 SetDragEndPoint
 (
-nsPoint
+nsIntPoint
 aEndDragPoint
 )
 {
@@ -250,7 +250,7 @@ mScreenX
 PRInt32
 mScreenY
 ;
-nsPoint
+nsIntPoint
 mEndDragPoint
 ;
 PRUint32
