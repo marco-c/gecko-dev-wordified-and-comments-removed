@@ -49289,7 +49289,9 @@ record_JSOP_QNAMEPART
 )
 {
 return
-false
+record_JSOP_STRING
+(
+)
 ;
 }
 JS_REQUIRES_STACK
@@ -51890,7 +51892,8 @@ ABORT_TRACE
 non
 -
 string
-primitives
+primitive
+JSOP_LENGTH
 unsupported
 "
 )
