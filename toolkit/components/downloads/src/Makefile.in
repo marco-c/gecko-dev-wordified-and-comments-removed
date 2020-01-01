@@ -494,8 +494,6 @@ cpp
 NULL
 )
 ifndef
-MOZ_DISABLE_VISTA_SDK_REQUIREMENTS
-ifndef
 GNU_CXX
 ifeq
 (
@@ -514,12 +512,6 @@ REQUIRES
 +
 =
 xulapp
-DEFINES
-+
-=
--
-DDOWNLOAD_SCANNER
-endif
 endif
 endif
 ifndef

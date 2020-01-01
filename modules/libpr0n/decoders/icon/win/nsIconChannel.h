@@ -201,8 +201,11 @@ nonBlocking
 )
 ;
 #
-ifndef
-MOZ_DISABLE_VISTA_SDK_REQUIREMENTS
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 protected
 :
 nsresult

@@ -498,11 +498,10 @@ aIsDefaultBrowser
 {
 #
 if
-!
-defined
-(
-MOZ_DISABLE_VISTA_SDK_REQUIREMENTS
-)
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 IApplicationAssociationRegistration
 *
 pAAR

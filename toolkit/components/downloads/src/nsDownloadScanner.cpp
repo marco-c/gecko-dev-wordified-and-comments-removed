@@ -1,4 +1,10 @@
 #
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
+#
 include
 "
 nsDownloadScanner
@@ -3521,3 +3527,5 @@ return
 0
 ;
 }
+#
+endif
