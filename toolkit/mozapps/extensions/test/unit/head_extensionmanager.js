@@ -758,6 +758,13 @@ start
 null
 )
 ;
+var
+dummy
+=
+gEM
+.
+datasource
+;
 }
 function
 shutdownEM
