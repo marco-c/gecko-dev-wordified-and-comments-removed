@@ -6656,6 +6656,9 @@ TCF_FUN_HEAVYWEIGHT
 else
 if
 (
+callerFrame
+|
+|
 funbox
 -
 >
