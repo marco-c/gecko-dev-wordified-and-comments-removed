@@ -3248,9 +3248,6 @@ eSelectEndLine
 eSelectBeginLine
 ;
 }
-nsPeekOffsetStruct
-pos
-;
 nsresult
 rv
 ;
@@ -3323,9 +3320,8 @@ rv
 ;
 }
 }
+nsPeekOffsetStruct
 pos
-.
-SetData
 (
 aAmount
 aDirection
