@@ -2443,6 +2443,13 @@ toString
 )
 )
 ;
+if
+(
+!
+hasCompositionString
+(
+)
+)
 setEditable
 (
 text
