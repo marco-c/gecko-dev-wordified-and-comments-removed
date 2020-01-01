@@ -398,7 +398,6 @@ if
 !
 js_DateIsValid
 (
-aCx
 obj
 )
 )
@@ -411,7 +410,6 @@ EncodeNumber
 (
 js_DateGetMsecSinceEpoch
 (
-aCx
 obj
 )
 eDate

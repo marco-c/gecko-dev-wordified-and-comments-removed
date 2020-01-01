@@ -617,7 +617,6 @@ if
 :
 js_DateIsValid
 (
-aCtx
 obj
 )
 )
@@ -631,7 +630,6 @@ msecd
 :
 js_DateGetMsecSinceEpoch
 (
-aCtx
 obj
 )
 ;

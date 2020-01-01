@@ -238,9 +238,6 @@ int
 )
 js_DateGetSeconds
 (
-JSContext
-*
-cx
 JSObject
 *
 obj

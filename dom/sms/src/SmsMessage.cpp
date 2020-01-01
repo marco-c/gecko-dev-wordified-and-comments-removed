@@ -321,7 +321,6 @@ timestamp
 =
 js_DateGetMsecSinceEpoch
 (
-aCx
 &
 obj
 )

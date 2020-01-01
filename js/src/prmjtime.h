@@ -29,9 +29,6 @@ getDSTOffsetMilliseconds
 (
 int64_t
 localTimeMilliseconds
-JSContext
-*
-cx
 )
 ;
 inline

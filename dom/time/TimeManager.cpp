@@ -124,7 +124,6 @@ dateObj
 &
 js_DateIsValid
 (
-ctx
 dateObj
 )
 )
@@ -133,7 +132,6 @@ dateMSec
 =
 js_DateGetMsecSinceEpoch
 (
-ctx
 dateObj
 )
 ;
@@ -161,7 +159,6 @@ NS_WARN_IF_FALSE
 (
 js_DateIsValid
 (
-ctx
 dateObj
 )
 "

@@ -1600,7 +1600,6 @@ dstOffsetCache
 getDSTOffsetMilliseconds
 (
 timeMilliseconds
-cx
 )
 ;
 return
@@ -5372,9 +5371,6 @@ static
 JSBool
 SetUTCTime
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -5462,9 +5458,6 @@ static
 void
 SetDateToNaN
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -5475,26 +5468,10 @@ vp
 NULL
 )
 {
-double
-NaN
-=
-cx
--
->
-runtime
--
->
-NaNValue
-.
-getDoubleRef
-(
-)
-;
 SetUTCTime
 (
-cx
 obj
-NaN
+js_NaN
 vp
 )
 ;
@@ -8306,7 +8283,6 @@ length
 {
 SetDateToNaN
 (
-cx
 thisObj
 args
 .
@@ -8346,7 +8322,6 @@ false
 return
 SetUTCTime
 (
-cx
 thisObj
 TimeClip
 (
@@ -8702,7 +8677,6 @@ cx
 return
 SetUTCTime
 (
-cx
 thisObj
 u
 args
@@ -8879,7 +8853,6 @@ time
 return
 SetUTCTime
 (
-cx
 thisObj
 v
 args
@@ -9080,7 +9053,6 @@ cx
 return
 SetUTCTime
 (
-cx
 thisObj
 u
 args
@@ -9273,7 +9245,6 @@ date
 return
 SetUTCTime
 (
-cx
 thisObj
 v
 args
@@ -9490,7 +9461,6 @@ cx
 return
 SetUTCTime
 (
-cx
 thisObj
 u
 args
@@ -9699,7 +9669,6 @@ date
 return
 SetUTCTime
 (
-cx
 thisObj
 v
 args
@@ -9932,7 +9901,6 @@ cx
 return
 SetUTCTime
 (
-cx
 thisObj
 u
 args
@@ -10157,7 +10125,6 @@ newDate
 return
 SetUTCTime
 (
-cx
 thisObj
 v
 args
@@ -10338,7 +10305,6 @@ cx
 return
 SetUTCTime
 (
-cx
 thisObj
 u
 args
@@ -10511,7 +10477,6 @@ newDate
 return
 SetUTCTime
 (
-cx
 thisObj
 v
 args
@@ -10820,7 +10785,6 @@ cx
 return
 SetUTCTime
 (
-cx
 thisObj
 u
 args
@@ -11009,7 +10973,6 @@ newDate
 return
 SetUTCTime
 (
-cx
 thisObj
 v
 args
@@ -11299,7 +11262,6 @@ cx
 return
 SetUTCTime
 (
-cx
 thisObj
 u
 args
@@ -11498,7 +11460,6 @@ newDate
 return
 SetUTCTime
 (
-cx
 thisObj
 v
 args
@@ -11642,7 +11603,6 @@ y
 {
 SetDateToNaN
 (
-cx
 thisObj
 args
 .
@@ -11720,7 +11680,6 @@ cx
 return
 SetUTCTime
 (
-cx
 thisObj
 TimeClip
 (
@@ -15458,7 +15417,6 @@ NULL
 ;
 SetDateToNaN
 (
-cx
 dateProto
 )
 ;
@@ -15669,7 +15627,6 @@ if
 !
 SetUTCTime
 (
-cx
 obj
 msec_time
 )
@@ -15764,9 +15721,6 @@ JSBool
 )
 js_DateIsValid
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -16038,9 +15992,6 @@ int
 )
 js_DateGetSeconds
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -16099,9 +16050,6 @@ double
 )
 js_DateGetMsecSinceEpoch
 (
-JSContext
-*
-cx
 RawObject
 obj
 )

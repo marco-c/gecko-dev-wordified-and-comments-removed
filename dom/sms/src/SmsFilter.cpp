@@ -350,7 +350,6 @@ startDate
 =
 js_DateGetMsecSinceEpoch
 (
-aCx
 &
 obj
 )
@@ -507,7 +506,6 @@ endDate
 =
 js_DateGetMsecSinceEpoch
 (
-aCx
 &
 obj
 )
