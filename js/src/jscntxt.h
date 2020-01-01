@@ -365,6 +365,12 @@ Fragmento
 )
 reFragmento
 ;
+CLS
+(
+TraceRecorder
+)
+abortStack
+;
 }
 JSTraceMonitor
 ;
