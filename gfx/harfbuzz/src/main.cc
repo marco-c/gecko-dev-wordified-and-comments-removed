@@ -1,6 +1,14 @@
 #
-define
-HB_OT_LAYOUT_CC
+include
+"
+hb
+-
+mutex
+-
+private
+.
+hh
+"
 #
 include
 "
@@ -25,7 +33,7 @@ layout
 -
 gdef
 -
-private
+table
 .
 hh
 "
@@ -70,7 +78,6 @@ stdio
 .
 h
 >
-HB_BEGIN_DECLS
 int
 main
 (
@@ -1360,4 +1367,3 @@ return
 0
 ;
 }
-HB_END_DECLS

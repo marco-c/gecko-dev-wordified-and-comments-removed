@@ -1593,8 +1593,8 @@ FindCharUnicodeRange
 aCh
 )
 ;
-PRUint32
-hbscript
+PRInt32
+script
 =
 gfxUnicodeProperties
 :
@@ -1664,7 +1664,7 @@ n
 aCh
 charRange
 unicodeRange
-hbscript
+script
 (
 data
 .

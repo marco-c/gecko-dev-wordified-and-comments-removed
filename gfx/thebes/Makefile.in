@@ -541,6 +541,10 @@ gfxUnicodeProperties
 .
 h
 \
+gfxUnicodeScriptCodes
+.
+h
+\
 gfxUtils
 .
 h
@@ -1578,6 +1582,8 @@ DEFINES
 DIMPL_THEBES
 -
 DWOFF_MOZILLA_CLIENT
+-
+DHB_DONT_DEFINE_STDINT
 ifeq
 (
 WINNT

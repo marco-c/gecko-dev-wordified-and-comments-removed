@@ -17,7 +17,6 @@ private
 .
 hh
 "
-HB_BEGIN_DECLS
 struct
 OpenTypeFontFile
 ;
@@ -29,7 +28,7 @@ TTCHeader
 ;
 typedef
 struct
-TableDirectory
+TableRecord
 {
 inline
 bool
@@ -99,7 +98,7 @@ numTables
 }
 inline
 const
-TableDirectory
+TableRecord
 &
 get_table
 (
@@ -122,11 +121,11 @@ numTables
 return
 Null
 (
-TableDirectory
+TableRecord
 )
 ;
 return
-tableDir
+tables
 [
 i
 ]
@@ -183,7 +182,7 @@ if
 t
 =
 =
-tableDir
+tables
 [
 i
 ]
@@ -223,7 +222,7 @@ false
 }
 inline
 const
-TableDirectory
+TableRecord
 &
 get_table_by_tag
 (
@@ -280,8 +279,8 @@ c
 >
 check_array
 (
-tableDir
-TableDirectory
+tables
+TableRecord
 :
 :
 static_size
@@ -306,8 +305,8 @@ entrySelector
 USHORT
 rangeShift
 ;
-TableDirectory
-tableDir
+TableRecord
+tables
 [
 VAR
 ]
@@ -317,7 +316,7 @@ public
 DEFINE_SIZE_ARRAY
 (
 12
-tableDir
+tables
 )
 ;
 }
@@ -438,6 +437,8 @@ u
 header
 .
 version
+.
+major
 )
 {
 case
@@ -481,6 +482,8 @@ u
 header
 .
 version
+.
+major
 )
 {
 case
@@ -549,6 +552,8 @@ u
 header
 .
 version
+.
+major
 )
 {
 case
@@ -926,6 +931,5 @@ tag
 ;
 }
 ;
-HB_END_DECLS
 #
 endif
