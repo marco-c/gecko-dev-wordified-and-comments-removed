@@ -1061,12 +1061,6 @@ mDocument
 GetDocBaseURI
 (
 )
-mDocument
--
->
-NodePrincipal
-(
-)
 mRefreshString
 )
 ;
