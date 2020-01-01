@@ -525,6 +525,7 @@ candidates
 /
 rc1
 /
+*
 &
 &
 mv
