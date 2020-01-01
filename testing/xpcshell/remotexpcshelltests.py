@@ -584,6 +584,22 @@ js
 '
 )
         
+remoteFile
+=
+self
+.
+remoteJoin
+(
+self
+.
+remoteScriptsDir
+"
+head
+.
+js
+"
+)
+        
 self
 .
 device
@@ -591,9 +607,7 @@ device
 pushFile
 (
 local
-self
-.
-remoteScriptsDir
+remoteFile
 )
         
 localBin
@@ -696,6 +710,20 @@ xpcshell
 "
 )
         
+remoteFile
+=
+self
+.
+remoteJoin
+(
+self
+.
+remoteBinDir
+"
+xpcshell
+"
+)
+        
 self
 .
 device
@@ -703,9 +731,7 @@ device
 pushFile
 (
 local
-self
-.
-remoteBinDir
+remoteFile
 )
         
 local
@@ -726,6 +752,22 @@ js
 "
 )
         
+remoteFile
+=
+self
+.
+remoteJoin
+(
+self
+.
+remoteComponentsDir
+"
+httpd
+.
+js
+"
+)
+        
 self
 .
 device
@@ -733,9 +775,7 @@ device
 pushFile
 (
 local
-self
-.
-remoteComponentsDir
+remoteFile
 )
         
 local
@@ -756,6 +796,22 @@ manifest
 "
 )
         
+remoteFile
+=
+self
+.
+remoteJoin
+(
+self
+.
+remoteComponentsDir
+"
+httpd
+.
+manifest
+"
+)
+        
 self
 .
 device
@@ -763,9 +819,7 @@ device
 pushFile
 (
 local
-self
-.
-remoteComponentsDir
+remoteFile
 )
         
 local
@@ -786,6 +840,22 @@ xpt
 "
 )
         
+remoteFile
+=
+self
+.
+remoteJoin
+(
+self
+.
+remoteComponentsDir
+"
+test_necko
+.
+xpt
+"
+)
+        
 self
 .
 device
@@ -793,9 +863,30 @@ device
 pushFile
 (
 local
+remoteFile
+)
+        
+remoteFile
+=
 self
 .
-remoteComponentsDir
+remoteJoin
+(
+self
+.
+remoteBinDir
+os
+.
+path
+.
+basename
+(
+self
+.
+options
+.
+localAPK
+)
 )
         
 self
@@ -809,9 +900,7 @@ self
 options
 .
 localAPK
-self
-.
-remoteBinDir
+remoteFile
 )
         
 self
@@ -1026,6 +1115,18 @@ while
 .
 "
             
+remoteFile
+=
+self
+.
+remoteJoin
+(
+self
+.
+remoteBinDir
+file
+)
+            
 self
 .
 device
@@ -1041,9 +1142,7 @@ join
 localLib
 file
 )
-self
-.
-remoteBinDir
+remoteFile
 )
         
 localArmLib
@@ -1104,6 +1203,18 @@ so
 )
 :
                 
+remoteFile
+=
+self
+.
+remoteJoin
+(
+self
+.
+remoteBinDir
+file
+)
+                
 self
 .
 device
@@ -1119,9 +1230,7 @@ join
 root
 file
 )
-self
-.
-remoteBinDir
+remoteFile
 )
     
 def
