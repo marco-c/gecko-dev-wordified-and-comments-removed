@@ -256,14 +256,14 @@ NULL
 "
 HEBREW
 "
-1255
+862
 NULL
 }
 {
 "
 ARABIC
 "
-1256
+864
 NULL
 }
 {
