@@ -58,6 +58,10 @@ nsIChannel
 aChannel
 )
 ;
+static
+PRBool
+Enabled
+;
 #
 ifdef
 DEBUG
