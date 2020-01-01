@@ -1121,6 +1121,15 @@ valuemax
 )
 ACCESSIBILITY_ATOM
 (
+aria_valuetext
+"
+aria
+-
+valuetext
+"
+)
+ACCESSIBILITY_ATOM
+(
 defaultLabel
 "
 defaultLabel
