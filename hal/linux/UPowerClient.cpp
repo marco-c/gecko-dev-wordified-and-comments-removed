@@ -455,7 +455,7 @@ kDefaultCharging
 )
 mRemainingTime
 (
-kUnknownRemainingTime
+kDefaultRemainingTime
 )
 {
 }
@@ -717,7 +717,7 @@ kDefaultCharging
 ;
 mRemainingTime
 =
-kUnknownRemainingTime
+kDefaultRemainingTime
 ;
 }
 void
