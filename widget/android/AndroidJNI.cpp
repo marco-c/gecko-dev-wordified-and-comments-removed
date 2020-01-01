@@ -793,10 +793,13 @@ runnable
 )
 ;
 }
+#
+ifdef
+MOZ_WEBSMS_BACKEND
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifySmsReceived
+Java_org_mozilla_gecko_GeckoSmsManager_notifySmsReceived
 (
 JNIEnv
 *
@@ -946,7 +949,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifySmsSent
+Java_org_mozilla_gecko_GeckoSmsManager_notifySmsSent
 (
 JNIEnv
 *
@@ -1135,7 +1138,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifySmsDelivery
+Java_org_mozilla_gecko_GeckoSmsManager_notifySmsDelivery
 (
 JNIEnv
 *
@@ -1307,7 +1310,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifySmsSendFailed
+Java_org_mozilla_gecko_GeckoSmsManager_notifySmsSendFailed
 (
 JNIEnv
 *
@@ -1419,7 +1422,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifyGetSms
+Java_org_mozilla_gecko_GeckoSmsManager_notifyGetSms
 (
 JNIEnv
 *
@@ -1605,7 +1608,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifyGetSmsFailed
+Java_org_mozilla_gecko_GeckoSmsManager_notifyGetSmsFailed
 (
 JNIEnv
 *
@@ -1717,7 +1720,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifySmsDeleted
+Java_org_mozilla_gecko_GeckoSmsManager_notifySmsDeleted
 (
 JNIEnv
 *
@@ -1829,7 +1832,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifySmsDeleteFailed
+Java_org_mozilla_gecko_GeckoSmsManager_notifySmsDeleteFailed
 (
 JNIEnv
 *
@@ -1941,7 +1944,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifyNoMessageInList
+Java_org_mozilla_gecko_GeckoSmsManager_notifyNoMessageInList
 (
 JNIEnv
 *
@@ -2040,7 +2043,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifyListCreated
+Java_org_mozilla_gecko_GeckoSmsManager_notifyListCreated
 (
 JNIEnv
 *
@@ -2239,7 +2242,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifyGotNextMessage
+Java_org_mozilla_gecko_GeckoSmsManager_notifyGotNextMessage
 (
 JNIEnv
 *
@@ -2425,7 +2428,7 @@ runnable
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_notifyReadingMessageListFailed
+Java_org_mozilla_gecko_GeckoSmsManager_notifyReadingMessageListFailed
 (
 JNIEnv
 *
@@ -2534,6 +2537,8 @@ runnable
 )
 ;
 }
+#
+endif
 #
 ifdef
 MOZ_ANDROID_OMTC
