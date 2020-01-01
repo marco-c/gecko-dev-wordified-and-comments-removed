@@ -639,6 +639,10 @@ browser_NetworkPrioritizer
 .
 js
 \
+browser_allTabsPanel
+.
+js
+\
 browser_alltabslistener
 .
 js
