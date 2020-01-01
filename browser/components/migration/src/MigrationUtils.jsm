@@ -1316,6 +1316,13 @@ OVERRIDES
 "
 4_firefox_history_and_bookmarks
 "
+"
+64_firefox
+"
+:
+"
+64_firefox_other
+"
 }
 ;
 aKey
