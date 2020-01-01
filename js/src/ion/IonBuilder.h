@@ -1982,6 +1982,15 @@ constructing
 )
 ;
 InliningStatus
+inlineMathImul
+(
+uint32_t
+argc
+bool
+constructing
+)
+;
+InliningStatus
 inlineMathFunction
 (
 MMathFunction
