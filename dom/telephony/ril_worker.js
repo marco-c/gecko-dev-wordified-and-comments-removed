@@ -12,10 +12,10 @@ js
 "
 )
 ;
-const
+let
 DEBUG
 =
-true
+false
 ;
 const
 INT32_MAX
