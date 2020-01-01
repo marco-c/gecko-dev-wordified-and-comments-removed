@@ -1049,6 +1049,15 @@ send
 (
 )
 ;
+if
+(
+!
+xhr
+.
+responseXML
+)
+return
+;
 /
 /
 Only
