@@ -83,6 +83,10 @@ gJIS0212Index
 define
 SJIS_UNMAPPED
 0x30fb
+#
+define
+UNICODE_REPLACEMENT_CHARACTER
+0xfffd
 NS_IMETHODIMP
 nsShiftJISToUnicode
 :
@@ -658,6 +662,10 @@ if
 off
 )
 {
+src
+-
+-
+;
 if
 (
 mErrBehavior
@@ -673,7 +681,7 @@ dest
 +
 +
 =
-SJIS_UNMAPPED
+UNICODE_REPLACEMENT_CHARACTER
 ;
 }
 else
@@ -757,6 +765,10 @@ if
 off
 )
 {
+src
+-
+-
+;
 if
 (
 mErrBehavior
@@ -772,7 +784,7 @@ dest
 +
 +
 =
-SJIS_UNMAPPED
+UNICODE_REPLACEMENT_CHARACTER
 ;
 }
 else
