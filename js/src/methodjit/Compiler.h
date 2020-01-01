@@ -1771,7 +1771,7 @@ oomInVector
 bool
 overflowICSpace
 ;
-uint32_t
+uint64_t
 gcNumber
 ;
 enum

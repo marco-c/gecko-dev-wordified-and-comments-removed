@@ -518,6 +518,17 @@ Shape
 shape
 )
 ;
+void
+PushArena
+(
+GCMarker
+*
+gcmarker
+ArenaHeader
+*
+aheader
+)
+;
 inline
 void
 Mark

@@ -738,10 +738,6 @@ jsgcmark
 .
 cpp
 \
-jsgcstats
-.
-cpp
-\
 jscrashreport
 .
 cpp
@@ -1047,10 +1043,6 @@ jsgc
 h
 \
 jscell
-.
-h
-\
-jsgcstats
 .
 h
 \

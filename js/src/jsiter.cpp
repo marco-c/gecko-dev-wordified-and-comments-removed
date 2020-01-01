@@ -295,6 +295,8 @@ Iterator
 "
 JSCLASS_HAS_PRIVATE
 |
+JSCLASS_IMPLEMENTS_BARRIERS
+|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Iterator
@@ -6887,6 +6889,8 @@ GeneratorClass
 Generator
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub

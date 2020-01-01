@@ -1226,6 +1226,9 @@ WRAPPER_SLOTS
 (
 JSCLASS_HAS_PRIVATE
 |
+JSCLASS_IMPLEMENTS_BARRIERS
+|
+\
 JSCLASS_HAS_RESERVED_SLOTS
 (
 1
@@ -1813,6 +1816,16 @@ EnsureGCBeforeCC
 mNeedGCBeforeCC
 =
 true
+;
+}
+void
+ClearGCBeforeCC
+(
+)
+{
+mNeedGCBeforeCC
+=
+false
 ;
 }
 nsresult

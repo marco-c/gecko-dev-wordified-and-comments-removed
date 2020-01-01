@@ -873,10 +873,6 @@ test_can_play_type
 .
 html
 \
-test_closing_connections
-.
-html
-\
 test_constants
 .
 html
@@ -1170,6 +1166,15 @@ now
 test_audioDocumentTitle
 .
 html
+#
+Bug
+634564
+:
+#
+test_closing_connections
+.
+html
+\
 #
 sample
 files

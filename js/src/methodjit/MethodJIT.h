@@ -1153,7 +1153,7 @@ recompilations
 unsigned
 frameExpansions
 ;
-unsigned
+uint64_t
 gcNumber
 ;
 RecompilationMonitor

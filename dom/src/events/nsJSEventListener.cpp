@@ -1036,6 +1036,16 @@ nsIVariant
 >
 vrv
 ;
+xpc_UnmarkGrayObject
+(
+mScopeObject
+)
+;
+xpc_UnmarkGrayObject
+(
+mHandler
+)
+;
 rv
 =
 mContext

@@ -4825,6 +4825,11 @@ jsbytecode
 pc
 )
 ;
+void
+markActiveCompartments
+(
+)
+;
 JS_FRIEND_API
 (
 size_t
