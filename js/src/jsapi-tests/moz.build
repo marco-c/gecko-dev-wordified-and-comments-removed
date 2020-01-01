@@ -200,6 +200,11 @@ testErrorCopying
 cpp
 '
 '
+testException
+.
+cpp
+'
+'
 testExternalStrings
 .
 cpp
