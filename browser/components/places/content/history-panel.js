@@ -696,7 +696,7 @@ placesContext_cut
 placesContext_paste
 "
 "
-placesContext_sortby
+placesContext_sortBy
 :
 name
 "
