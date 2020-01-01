@@ -141,14 +141,14 @@ android
 layout_width
 =
 "
-43dip
+44dip
 "
 android
 :
 layout_height
 =
 "
-15dip
+16dip
 "
 android
 :
@@ -162,7 +162,7 @@ android
 layout_marginTop
 =
 "
-10dip
+9dip
 "
 android
 :
