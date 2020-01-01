@@ -607,6 +607,12 @@ exit
 .
 js
 \
+browser_dbg_bug723069_editor
+-
+breakpoints
+.
+js
+\
 head
 .
 js

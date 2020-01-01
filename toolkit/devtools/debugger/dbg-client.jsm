@@ -2215,6 +2215,7 @@ _client
 aResponse
 .
 actor
+aLocation
 )
 ;
 if
@@ -3252,6 +3253,7 @@ BreakpointClient
 (
 aClient
 aActor
+aLocation
 )
 {
 this
@@ -3265,6 +3267,12 @@ this
 _actor
 =
 aActor
+;
+this
+.
+location
+=
+aLocation
 ;
 }
 BreakpointClient

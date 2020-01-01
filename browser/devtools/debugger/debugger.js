@@ -2578,6 +2578,12 @@ aScript
 text
 )
 ;
+window
+.
+updateEditorBreakpoints
+(
+)
+;
 }
 }
 }
