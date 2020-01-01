@@ -2394,6 +2394,10 @@ const
 gfxIntSize
 &
 aRenderSize
+const
+gfxMatrix
+&
+aContextMatrix
 )
 {
 if
@@ -2465,6 +2469,7 @@ server
 GetPaintServerPattern
 (
 aTarget
+aContextMatrix
 &
 nsStyleSVG
 :
@@ -2721,6 +2726,17 @@ aPaintServer
 aTarget
 aPaintServerSize
 imageSize
+aRenderingContext
+-
+>
+ThebesContext
+(
+)
+-
+>
+CurrentMatrix
+(
+)
 )
 ;
 if

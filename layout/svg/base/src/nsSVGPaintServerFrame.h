@@ -104,6 +104,10 @@ GetPaintServerPattern
 nsIFrame
 *
 aSource
+const
+gfxMatrix
+&
+aContextMatrix
 nsStyleSVGPaint
 nsStyleSVG
 :
