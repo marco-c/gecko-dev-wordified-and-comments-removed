@@ -774,12 +774,6 @@ vetoHook
 )
 )
 ;
-nsHttpChannel
-*
-channel
-=
-mChannel
-;
 mChannel
 =
 nullptr
