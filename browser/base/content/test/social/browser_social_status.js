@@ -122,6 +122,8 @@ content
 /
 test
 /
+general
+/
 moz
 .
 png
@@ -232,6 +234,8 @@ content
 /
 test
 /
+general
+/
 moz
 .
 png
@@ -315,6 +319,8 @@ base
 content
 /
 test
+/
+general
 /
 moz
 .

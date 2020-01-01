@@ -484,6 +484,8 @@ content
 /
 test
 /
+general
+/
 moz
 .
 png
