@@ -556,6 +556,12 @@ GeckoViewsFactory
 .
 java
 \
+health
+/
+BrowserHealthRecorder
+.
+java
+\
 InputMethods
 .
 java
