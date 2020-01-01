@@ -129,6 +129,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIScriptContext
 .
 h
@@ -13597,6 +13606,7 @@ GetService
 )
 class
 jsdASObserver
+MOZ_FINAL
 :
 public
 nsIObserver
