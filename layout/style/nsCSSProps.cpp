@@ -3367,6 +3367,15 @@ eCSSKeyword__moz_groupbox
 NS_STYLE_DISPLAY_GROUPBOX
 #
 endif
+#
+ifdef
+MOZ_FLEXBOX
+eCSSKeyword__moz_flex
+NS_STYLE_DISPLAY_FLEX
+eCSSKeyword__moz_inline_flex
+NS_STYLE_DISPLAY_INLINE_FLEX
+#
+endif
 eCSSKeyword_UNKNOWN
 -
 1
