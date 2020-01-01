@@ -3426,6 +3426,8 @@ domain
 "
 )
 ;
+break
+;
 case
 eRegExp
 :
