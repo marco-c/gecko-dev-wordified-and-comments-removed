@@ -11,6 +11,13 @@ gfxTypes
 .
 h
 "
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
 class
 gfxContext
 ;
@@ -26,7 +33,7 @@ class
 THEBES_API
 gfxPath
 {
-THEBES_INLINE_DECL_REFCOUNTING
+NS_INLINE_DECL_REFCOUNTING
 (
 gfxPath
 )
