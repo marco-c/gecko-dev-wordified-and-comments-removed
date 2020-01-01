@@ -7226,6 +7226,8 @@ MToDouble
 :
 public
 MUnaryInstruction
+public
+ToDoublePolicy
 {
 MToDouble
 (
@@ -7271,6 +7273,16 @@ MToDouble
 (
 def
 )
+;
+}
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
 ;
 }
 MDefinition
