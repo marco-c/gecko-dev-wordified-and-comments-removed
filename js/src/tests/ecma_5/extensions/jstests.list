@@ -89,6 +89,14 @@ script
 bug566661
 .
 js
+script
+array
+-
+toString
+-
+recursion
+.
+js
 skip
 -
 if
