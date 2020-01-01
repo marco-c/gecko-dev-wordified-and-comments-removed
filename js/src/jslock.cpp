@@ -126,7 +126,7 @@ endif
 if
 defined
 (
-_WIN32
+_MSC_VER
 )
 &
 &
