@@ -3239,13 +3239,15 @@ JS_PUBLIC_API
 (
 JSWrapObjectCallback
 )
-JS_SetWrapObjectCallback
+JS_SetWrapObjectCallbacks
 (
 JSRuntime
 *
 rt
 JSWrapObjectCallback
 callback
+JSPreWrapCallback
+precallback
 )
 ;
 extern

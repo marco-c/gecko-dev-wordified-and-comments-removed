@@ -4462,6 +4462,9 @@ endif
 JSWrapObjectCallback
 wrapObjectCallback
 ;
+JSPreWrapCallback
+preWrapObjectCallback
+;
 JSC
 :
 :
