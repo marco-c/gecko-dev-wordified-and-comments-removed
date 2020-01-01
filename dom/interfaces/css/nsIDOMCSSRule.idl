@@ -291,13 +291,6 @@ SUPPORTS_RULE
 =
 12
 ;
-const
-unsigned
-short
-FONT_FEATURE_VALUES_RULE
-=
-14
-;
 readonly
 attribute
 unsigned

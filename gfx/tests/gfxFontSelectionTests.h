@@ -36,6 +36,11 @@ NS_LITERAL_STRING
 "
 "
 )
+NS_LITERAL_STRING
+(
+"
+"
+)
 )
 ;
 gfxFontStyle
@@ -62,6 +67,11 @@ en
 false
 false
 false
+NS_LITERAL_STRING
+(
+"
+"
+)
 NS_LITERAL_STRING
 (
 "

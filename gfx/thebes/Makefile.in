@@ -78,10 +78,6 @@ mk
 LIBRARY_NAME
 =
 thebes
-MSVC_ENABLE_PGO
-:
-=
-1
 LIBXUL_LIBRARY
 =
 1
@@ -172,10 +168,6 @@ gfxImageSurface
 cpp
 \
 gfxFont
-.
-cpp
-\
-gfxFontFeatures
 .
 cpp
 \

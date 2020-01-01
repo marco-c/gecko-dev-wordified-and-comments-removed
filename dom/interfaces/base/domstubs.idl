@@ -282,9 +282,6 @@ interface
 nsIDOMMozCSSKeyframeRule
 ;
 interface
-nsIDOMCSSFontFeatureValuesRule
-;
-interface
 nsIDOMCSSStyleSheet
 ;
 interface
