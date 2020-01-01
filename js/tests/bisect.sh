@@ -1379,13 +1379,13 @@ and
 bad
 .
 if
-[
-[
+(
+(
 localgood
 <
 localbad
-]
-]
+)
+)
 ;
 then
 cat
