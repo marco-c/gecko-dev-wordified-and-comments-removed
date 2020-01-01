@@ -455,6 +455,9 @@ fno
 strict
 -
 aliasing
+(
+MOZ_OPTIMIZE_SIZE_TWEAK
+)
 endif
 endif
 ifeq
