@@ -1955,7 +1955,6 @@ i
 ]
 )
 ;
-gfxPoint
 segEnd
 =
 gfxPoint
