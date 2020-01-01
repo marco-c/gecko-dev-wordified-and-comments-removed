@@ -4395,9 +4395,7 @@ leafName
 !
 =
 "
-__MOZ_APP_DISPLAYNAME__
-.
-app
+__MOZ_MACBUNDLE_NAME__
 "
 )
 {
