@@ -14118,7 +14118,6 @@ init
 (
 chars
 length
-NULL
 filename
 lineno
 )

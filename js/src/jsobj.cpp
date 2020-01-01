@@ -5540,7 +5540,6 @@ principals
 tcflags
 chars
 length
-NULL
 filename
 lineno
 str

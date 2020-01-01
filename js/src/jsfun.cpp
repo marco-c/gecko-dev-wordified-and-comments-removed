@@ -12737,7 +12737,6 @@ findVersion
 )
 collected_args
 args_length
-NULL
 filename
 lineno
 )

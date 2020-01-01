@@ -726,9 +726,6 @@ jschar
 base
 size_t
 length
-FILE
-*
-fp
 const
 char
 *
@@ -773,7 +770,6 @@ init
 version
 base
 length
-fp
 filename
 lineno
 )
@@ -3384,9 +3380,6 @@ jschar
 chars
 size_t
 length
-FILE
-*
-file
 const
 char
 *
@@ -3490,7 +3483,6 @@ init
 (
 chars
 length
-file
 filename
 lineno
 )
@@ -8042,7 +8034,6 @@ init
 (
 chars
 length
-NULL
 filename
 lineno
 )
