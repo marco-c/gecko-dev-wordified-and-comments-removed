@@ -1212,7 +1212,7 @@ BindingManager
 >
 GetBinding
 (
-cont
+elem
 )
 "
 Non
