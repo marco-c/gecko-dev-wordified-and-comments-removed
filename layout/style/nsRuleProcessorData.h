@@ -394,10 +394,6 @@ Element
 *
 mElement
 ;
-nsIContent
-*
-mParentContent
-;
 nsRuleWalker
 *
 mRuleWalker
