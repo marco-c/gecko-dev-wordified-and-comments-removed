@@ -275,7 +275,7 @@ BMT_onEndUpdateBatch
 onItemVisited
 :
 function
-BMT_onItemChanged
+BMT_onItemVisited
 (
 )
 {
