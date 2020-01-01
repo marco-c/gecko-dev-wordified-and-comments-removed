@@ -329,11 +329,6 @@ RegExp
 \
 _
 (
-RegExpTest
-)
-\
-_
-(
 Lambda
 )
 \

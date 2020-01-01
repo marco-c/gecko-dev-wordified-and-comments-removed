@@ -300,14 +300,6 @@ lir
 )
 ;
 bool
-visitRegExpTest
-(
-LRegExpTest
-*
-lir
-)
-;
-bool
 visitLambda
 (
 LLambda
