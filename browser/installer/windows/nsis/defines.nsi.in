@@ -73,3 +73,11 @@ AppRegName
 "
 Firefox
 "
+!
+define
+MinUnsupportedVer
+"
+Microsoft
+Windows
+2000
+"
