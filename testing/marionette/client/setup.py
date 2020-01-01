@@ -81,7 +81,10 @@ mozhttpd
 3
 '
 '
-mozprocess
+mozrunner
+'
+'
+datazilla
 '
 ]
 setup
