@@ -10,13 +10,6 @@ h
 #
 include
 "
-DOMSVGAnimatedTransformList
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -25,6 +18,17 @@ h
 include
 "
 nsGkAtoms
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+SVGAnimatedTransformList
 .
 h
 "
@@ -378,7 +382,7 @@ this
 }
 already_AddRefed
 <
-DOMSVGAnimatedTransformList
+SVGAnimatedTransformList
 >
 SVGPatternElement
 :
@@ -388,7 +392,7 @@ PatternTransform
 )
 {
 return
-DOMSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 GetDOMWrapper
@@ -569,7 +573,7 @@ name
 )
 ;
 }
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 SVGPatternElement
 :
@@ -596,7 +600,7 @@ DO_ALLOCATE
 mPatternTransform
 =
 new
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 (
 )
 ;

@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsSVGAnimatedTransformList
+.
+h
+"
+#
+include
+"
 nsSVGLength2
 .
 h
@@ -246,13 +253,6 @@ h
 include
 "
 SVGAnimatedPathSegList
-.
-h
-"
-#
-include
-"
-SVGAnimatedTransformList
 .
 h
 "
@@ -2832,7 +2832,7 @@ GetTransformListAttrName
 aAttribute
 )
 {
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 transformList
 =
@@ -3871,7 +3871,7 @@ GetTransformListAttrName
 aName
 )
 {
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 transformList
 =

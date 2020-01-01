@@ -19,13 +19,6 @@ h
 #
 include
 "
-SVGAnimatedTransformList
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -41,6 +34,13 @@ h
 include
 "
 nsAttrValueInlines
+.
+h
+"
+#
+include
+"
+nsSVGAnimatedTransformList
 .
 h
 "
@@ -1176,7 +1176,7 @@ InternalItem
 (
 )
 {
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 alist
 =
@@ -1256,7 +1256,7 @@ IndexIsValid
 (
 )
 {
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 alist
 =

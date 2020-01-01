@@ -12,7 +12,11 @@ h
 #
 include
 "
-DOMSVGAnimatedTransformList
+mozilla
+/
+dom
+/
+SVGAnimatedTransformList
 .
 h
 "
@@ -300,7 +304,7 @@ this
 }
 already_AddRefed
 <
-DOMSVGAnimatedTransformList
+SVGAnimatedTransformList
 >
 SVGGradientElement
 :
@@ -310,7 +314,7 @@ GradientTransform
 )
 {
 return
-DOMSVGAnimatedTransformList
+SVGAnimatedTransformList
 :
 :
 GetDOMWrapper
@@ -644,7 +648,7 @@ this
 )
 ;
 }
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 SVGGradientElement
 :
@@ -671,7 +675,7 @@ DO_ALLOCATE
 mGradientTransform
 =
 new
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 (
 )
 ;
