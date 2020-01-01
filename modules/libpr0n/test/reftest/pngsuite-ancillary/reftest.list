@@ -49,7 +49,7 @@ b
 0
 .
 06
-fail
+fails
 -
 if
 (
@@ -119,7 +119,7 @@ b
 0
 .
 06
-fail
+fails
 -
 if
 (
