@@ -15,14 +15,7 @@ h
 #
 include
 "
-jspubtd
-.
-h
-"
-#
-include
-"
-jsprvtd
+jsfriendapi
 .
 h
 "
@@ -1103,7 +1096,7 @@ jsdval
 >
 funName
 =
-JS_GetEmptyString
+JS_GetAnonymousString
 (
 jsdc
 -

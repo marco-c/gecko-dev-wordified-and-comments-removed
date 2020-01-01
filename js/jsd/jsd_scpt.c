@@ -6,6 +6,13 @@ jsd
 h
 "
 #
+include
+"
+jsfriendapi
+.
+h
+"
+#
 define
 NOT_SET_YET
 -
@@ -1994,7 +2001,7 @@ str
 ?
 str
 :
-JS_GetEmptyString
+JS_GetAnonymousString
 (
 jsdc
 -

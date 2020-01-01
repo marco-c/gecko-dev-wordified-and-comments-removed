@@ -792,6 +792,10 @@ jscntxt
 .
 cpp
 \
+jscompartment
+.
+cpp
+\
 jsdate
 .
 cpp
@@ -816,6 +820,10 @@ jsexn
 .
 cpp
 \
+jsfriendapi
+.
+cpp
+\
 jsfun
 .
 cpp
@@ -829,10 +837,6 @@ jsgcchunk
 cpp
 \
 jsgcstats
-.
-cpp
-\
-jscompartment
 .
 cpp
 \
@@ -1049,6 +1053,10 @@ jsemit
 h
 \
 jsfun
+.
+h
+\
+jsfriendapi
 .
 h
 \
