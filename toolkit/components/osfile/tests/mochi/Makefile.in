@@ -52,6 +52,14 @@ worker_test_osfile_win
 .
 js
 \
+test_osfile_front
+.
+xul
+\
+worker_test_osfile_front
+.
+js
+\
 (
 NULL
 )

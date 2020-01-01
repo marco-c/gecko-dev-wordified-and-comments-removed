@@ -300,16 +300,6 @@ jsm
 "
 )
 ;
-OS
-.
-Win
-.
-File
-.
-_init
-(
-)
-;
 }
 function
 test_OpenClose
