@@ -182,7 +182,7 @@ JS_CPU_X86
 |
 defined
 (
-_MSC_VER
+_WIN64
 )
 static
 const
@@ -507,7 +507,7 @@ if
 !
 defined
 (
-_MSC_VER
+_WIN64
 )
 |
 (
@@ -580,7 +580,7 @@ r15
 if
 defined
 (
-_MSC_VER
+_WIN64
 )
 |
 (
