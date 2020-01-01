@@ -18082,9 +18082,7 @@ return
 }
 if
 (
-HTMLCanvasElement
-(
-)
+mCanvasElement
 -
 >
 IsWriteOnly
@@ -20327,9 +20325,7 @@ subsumes
 nsresult
 rv
 =
-HTMLCanvasElement
-(
-)
+mCanvasElement
 -
 >
 NodePrincipal

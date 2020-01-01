@@ -23,6 +23,13 @@ gfxPattern
 .
 h
 "
+#
+include
+"
+nsICanvasRenderingContextInternal
+.
+h
+"
 using
 namespace
 mozilla
