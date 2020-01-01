@@ -2739,11 +2739,9 @@ if
 (
 !
 winWidget
-)
-random
--
-if
-(
+&
+&
+!
 gtk2Widget
 )
 skip
