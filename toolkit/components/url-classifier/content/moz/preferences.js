@@ -1166,11 +1166,6 @@ function
 iid
 )
 {
-var
-Ci
-=
-Ci
-;
 if
 (
 iid
