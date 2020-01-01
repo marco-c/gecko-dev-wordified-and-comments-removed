@@ -226,9 +226,6 @@ aOwnerCache
 IDBTransaction
 *
 aTransaction
-JSContext
-*
-aCallingCx
 )
 {
 NS_ASSERTION
@@ -295,7 +292,6 @@ request
 >
 CaptureCaller
 (
-aCallingCx
 )
 ;
 return
@@ -879,20 +875,11 @@ IDBRequest
 :
 CaptureCaller
 (
-JSContext
-*
-aCx
 )
 {
-if
-(
-!
-aCx
-)
-{
-return
+AutoJSContext
+cx
 ;
-}
 const
 char
 *
@@ -913,7 +900,7 @@ nsJSUtils
 :
 GetCallingLocation
 (
-aCx
+cx
 &
 filename
 &
@@ -1436,9 +1423,6 @@ JSObject
 *
 >
 aScriptOwner
-JSContext
-*
-aCallingCx
 )
 {
 NS_ASSERTION
@@ -1495,7 +1479,6 @@ request
 >
 CaptureCaller
 (
-aCallingCx
 )
 ;
 request

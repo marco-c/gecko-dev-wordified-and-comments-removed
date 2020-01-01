@@ -3488,7 +3488,6 @@ Create
 nullptr
 this
 nullptr
-aCx
 )
 ;
 nsRefPtr

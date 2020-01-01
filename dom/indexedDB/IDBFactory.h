@@ -305,9 +305,6 @@ nsACString
 aASCIIOrigin
 bool
 aDeleting
-JSContext
-*
-aCallingCx
 IDBOpenDBRequest
 *
 *
@@ -325,9 +322,6 @@ int64_t
 aVersion
 bool
 aDeleting
-JSContext
-*
-aCallingCx
 IDBOpenDBRequest
 *
 *
@@ -341,7 +335,6 @@ aName
 aVersion
 mASCIIOrigin
 aDeleting
-aCallingCx
 _retval
 )
 ;
@@ -461,9 +454,6 @@ nsIIDBOpenDBRequest
 >
 Open
 (
-JSContext
-*
-aCx
 const
 NonNull
 <
@@ -486,7 +476,6 @@ aRv
 return
 Open
 (
-aCx
 nullptr
 aName
 aVersion
@@ -501,9 +490,6 @@ nsIIDBOpenDBRequest
 >
 DeleteDatabase
 (
-JSContext
-*
-aCx
 const
 NonNull
 <
@@ -519,7 +505,6 @@ aRv
 return
 Open
 (
-aCx
 nullptr
 aName
 Optional
@@ -572,9 +557,6 @@ nsIIDBOpenDBRequest
 >
 OpenForPrincipal
 (
-JSContext
-*
-aCx
 nsIPrincipal
 *
 aPrincipal
@@ -603,9 +585,6 @@ nsIIDBOpenDBRequest
 >
 DeleteForPrincipal
 (
-JSContext
-*
-aCx
 nsIPrincipal
 *
 aPrincipal
@@ -638,9 +617,6 @@ nsIIDBOpenDBRequest
 >
 Open
 (
-JSContext
-*
-aCx
 nsIPrincipal
 *
 aPrincipal

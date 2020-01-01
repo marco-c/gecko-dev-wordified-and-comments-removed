@@ -123,9 +123,6 @@ aOwnerCache
 IDBTransaction
 *
 aTransaction
-JSContext
-*
-aCallingCx
 )
 ;
 virtual
@@ -255,9 +252,6 @@ mActorParent
 void
 CaptureCaller
 (
-JSContext
-*
-aCx
 )
 ;
 void
@@ -413,9 +407,6 @@ JSObject
 *
 >
 aScriptOwner
-JSContext
-*
-aCallingCx
 )
 ;
 void

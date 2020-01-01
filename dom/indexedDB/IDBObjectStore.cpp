@@ -2062,9 +2062,6 @@ GenerateRequest
 IDBObjectStore
 *
 aObjectStore
-JSContext
-*
-aCx
 )
 {
 NS_ASSERTION
@@ -2109,7 +2106,6 @@ aObjectStore
 Transaction
 (
 )
-aCx
 )
 ;
 }
@@ -8342,7 +8338,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -8690,7 +8685,6 @@ request
 GenerateRequest
 (
 this
-nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -9297,7 +9291,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -9484,7 +9477,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -9698,7 +9690,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -9892,7 +9883,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -10071,7 +10061,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -10275,7 +10264,6 @@ request
 GenerateRequest
 (
 this
-aCx
 )
 ;
 NS_ENSURE_TRUE
