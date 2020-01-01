@@ -3686,7 +3686,6 @@ return
 eHTMLTag_userdefined
 ;
 }
-static
 PRUnichar
 buf
 [
