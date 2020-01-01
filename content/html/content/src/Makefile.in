@@ -659,10 +659,6 @@ nsHTMLTextAreaElement
 .
 cpp
 \
-nsHTMLTimeRanges
-.
-cpp
-\
 nsHTMLTitleElement
 .
 cpp
@@ -697,6 +693,10 @@ nsHTMLMediaError
 cpp
 \
 nsHTMLSourceElement
+.
+cpp
+\
+nsHTMLTimeRanges
 .
 cpp
 \
