@@ -607,6 +607,17 @@ srcdir
 .
 .
 /
+style
+\
+-
+I
+(
+srcdir
+)
+/
+.
+.
+/
 xul
 /
 base
