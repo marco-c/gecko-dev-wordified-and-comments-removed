@@ -596,11 +596,10 @@ NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLSelectElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE4
+NS_HTML_CONTENT_INTERFACE_TABLE3
 (
 nsHTMLSelectElement
 nsIDOMHTMLSelectElement
-nsIDOMHTMLSelectElement_Mozilla_2_0_Branch
 nsISelectElement
 nsIConstraintValidation
 )
