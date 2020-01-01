@@ -7955,11 +7955,6 @@ getBoolPref
 pref
 )
 ;
-var
-reallyClose
-=
-true
-;
 if
 (
 shouldPrompt
