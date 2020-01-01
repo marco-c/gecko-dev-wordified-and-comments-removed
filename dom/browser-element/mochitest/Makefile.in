@@ -173,6 +173,10 @@ test_browserFramePromptConfirm
 .
 html
 \
+test_browserFrameClose
+.
+html
+\
 (
 NULL
 )
