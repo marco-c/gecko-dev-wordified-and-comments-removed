@@ -230,7 +230,7 @@ bundle
 GetStringFromName
 (
 "
-deleteCaCertTitle
+deleteCaCertTitle2
 "
 )
 ;
@@ -241,7 +241,7 @@ bundle
 GetStringFromName
 (
 "
-deleteCaCertConfirm
+deleteCaCertConfirm2
 "
 )
 ;
@@ -252,7 +252,7 @@ bundle
 GetStringFromName
 (
 "
-deleteCaCertImpactX
+deleteCaCertImpactX2
 "
 )
 ;

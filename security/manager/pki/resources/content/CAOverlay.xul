@@ -765,7 +765,7 @@ label
 &
 certmgr
 .
-edit2
+edit3
 .
 label
 ;
@@ -776,7 +776,7 @@ accesskey
 &
 certmgr
 .
-edit2
+edit3
 .
 accesskey
 ;
@@ -892,7 +892,7 @@ label
 &
 certmgr
 .
-delete2
+delete_builtin
 .
 label
 ;
@@ -903,7 +903,7 @@ accesskey
 &
 certmgr
 .
-delete2
+delete_builtin
 .
 accesskey
 ;
