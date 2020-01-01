@@ -396,7 +396,7 @@ PreWrap
 ;
 CHECK
 (
-JS_TransplantWrapper
+JS_TransplantObject
 (
 cx
 outerObj
