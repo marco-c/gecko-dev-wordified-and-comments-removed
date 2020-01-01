@@ -3139,7 +3139,7 @@ label
 =
 "
 &
-verify
+verify2
 .
 label
 ;
@@ -3148,7 +3148,7 @@ accesskey
 =
 "
 &
-verify
+verify2
 .
 accesskey
 ;
