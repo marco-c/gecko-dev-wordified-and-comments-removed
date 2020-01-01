@@ -9440,14 +9440,6 @@ return
 NS_OK
 ;
 }
-pluginTag
--
->
-SetHost
-(
-this
-)
-;
 if
 (
 mPlugins
