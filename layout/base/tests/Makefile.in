@@ -582,6 +582,10 @@ test_bug514127
 .
 html
 \
+test_bug518777
+.
+html
+\
 test_scrolling
 .
 html
