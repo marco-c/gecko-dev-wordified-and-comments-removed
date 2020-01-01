@@ -1,9 +1,9 @@
 #
 ifndef
-jsinterp_h___
+Interpreter_h___
 #
 define
-jsinterp_h___
+Interpreter_h___
 #
 include
 "

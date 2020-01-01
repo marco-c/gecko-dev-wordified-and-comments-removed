@@ -30,13 +30,6 @@ h
 #
 include
 "
-jsinterp
-.
-h
-"
-#
-include
-"
 jsproxy
 .
 h
@@ -65,6 +58,13 @@ include
 js
 /
 TemplateLib
+.
+h
+"
+#
+include
+"
+Interpreter
 .
 h
 "

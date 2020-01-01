@@ -590,6 +590,11 @@ GlobalObject
 cpp
 '
 '
+Interpreter
+.
+cpp
+'
+'
 Intl
 .
 cpp
@@ -896,11 +901,6 @@ cpp
 '
 '
 jsinfer
-.
-cpp
-'
-'
-jsinterp
 .
 cpp
 '
