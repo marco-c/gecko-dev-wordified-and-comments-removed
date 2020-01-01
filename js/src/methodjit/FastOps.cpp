@@ -745,6 +745,9 @@ true
 if
 (
 stubNeeded
+|
+|
+recompiling
 )
 {
 stubcc
@@ -843,6 +846,14 @@ peek
 (
 -
 2
+)
+;
+frame
+.
+separateBinaryEntries
+(
+lhs
+rhs
 )
 ;
 VoidStub

@@ -747,6 +747,17 @@ FrameEntry
 rhs
 )
 ;
+void
+separateBinaryEntries
+(
+FrameEntry
+*
+lhs
+FrameEntry
+*
+rhs
+)
+;
 inline
 void
 enterBlock
