@@ -1322,7 +1322,7 @@ script
 )
 ;
 void
-DestroyScriptTypes
+AnalyzeScriptNew
 (
 JSContext
 *

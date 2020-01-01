@@ -1040,6 +1040,11 @@ isUncachedEval
 1
 ;
 bool
+calledWithNew
+:
+1
+;
+bool
 analyzed
 :
 1
@@ -1491,6 +1496,15 @@ types
 :
 jstype
 type
+)
+;
+inline
+bool
+typeSetNewCalled
+(
+JSContext
+*
+cx
 )
 ;
 inline
