@@ -1269,6 +1269,9 @@ uintN
 flags
 intN
 shortid
+JSBool
+*
+cacheByPrevShape
 )
 ;
 extern
