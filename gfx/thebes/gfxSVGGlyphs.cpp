@@ -826,7 +826,7 @@ if
 presShell
 -
 >
-DidInitialReflow
+DidInitialize
 (
 )
 )
@@ -851,7 +851,7 @@ rv
 presShell
 -
 >
-InitialReflow
+Initialize
 (
 rect
 .

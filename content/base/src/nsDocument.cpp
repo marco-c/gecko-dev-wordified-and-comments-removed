@@ -26213,7 +26213,7 @@ mPresShell
 mPresShell
 -
 >
-DidInitialReflow
+DidInitialize
 (
 )
 )

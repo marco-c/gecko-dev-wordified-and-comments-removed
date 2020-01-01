@@ -9009,7 +9009,7 @@ aPO
 mPresShell
 -
 >
-InitialReflow
+Initialize
 (
 adjSize
 .

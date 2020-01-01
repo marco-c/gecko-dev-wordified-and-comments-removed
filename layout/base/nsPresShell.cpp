@@ -7172,7 +7172,7 @@ nsresult
 PresShell
 :
 :
-InitialReflow
+Initialize
 (
 nscoord
 aWidth
@@ -7220,7 +7220,7 @@ Now
 NS_ASSERTION
 (
 !
-mDidInitialReflow
+mDidInitialize
 "
 Why
 are
@@ -7240,7 +7240,7 @@ kungFuDeathGrip
 this
 )
 ;
-mDidInitialReflow
+mDidInitialize
 =
 true
 ;
@@ -7295,7 +7295,7 @@ printf
 PresShell
 :
 :
-InitialReflow
+Initialize
 (
 this
 =
@@ -10651,7 +10651,7 @@ reflow
 if
 (
 !
-mDidInitialReflow
+mDidInitialize
 )
 return
 ;
@@ -11683,7 +11683,7 @@ NS_ERROR_FAILURE
 if
 (
 !
-mDidInitialReflow
+mDidInitialize
 )
 {
 return
@@ -12870,7 +12870,7 @@ NS_OK
 ;
 NS_ASSERTION
 (
-mDidInitialReflow
+mDidInitialize
 "
 should
 have
@@ -13947,7 +13947,7 @@ currentDoc
 ;
 NS_ASSERTION
 (
-mDidInitialReflow
+mDidInitialize
 "
 should
 have
@@ -14075,7 +14075,7 @@ DoScrollContentIntoView
 {
 NS_ASSERTION
 (
-mDidInitialReflow
+mDidInitialize
 "
 should
 have
@@ -16815,7 +16815,7 @@ aDocument
 ;
 if
 (
-mDidInitialReflow
+mDidInitialize
 )
 {
 nsAutoCauseReflowNotifier
@@ -16874,7 +16874,7 @@ aDocument
 ;
 if
 (
-mDidInitialReflow
+mDidInitialize
 &
 &
 mStyleSet
@@ -16992,7 +16992,7 @@ aDocument
 ;
 if
 (
-mDidInitialReflow
+mDidInitialize
 )
 {
 nsAutoCauseReflowNotifier
@@ -17061,7 +17061,7 @@ aDocument
 ;
 if
 (
-mDidInitialReflow
+mDidInitialize
 )
 {
 nsAutoCauseReflowNotifier
@@ -17139,7 +17139,7 @@ container
 if
 (
 !
-mDidInitialReflow
+mDidInitialize
 )
 {
 return
@@ -17222,7 +17222,7 @@ aDocument
 if
 (
 !
-mDidInitialReflow
+mDidInitialize
 )
 {
 return
@@ -17441,7 +17441,7 @@ GetRootFrame
 )
 |
 |
-mDidInitialReflow
+mDidInitialize
 "
 Must
 not
@@ -17457,7 +17457,7 @@ reflow
 if
 (
 !
-mDidInitialReflow
+mDidInitialize
 )
 {
 return
@@ -17576,7 +17576,7 @@ GetRootElement
 if
 (
 !
-mDidInitialReflow
+mDidInitialize
 )
 {
 return
@@ -36539,7 +36539,7 @@ this
 sh
 -
 >
-InitialReflow
+Initialize
 (
 r
 .

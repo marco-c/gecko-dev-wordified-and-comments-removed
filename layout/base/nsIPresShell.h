@@ -946,13 +946,13 @@ EndObservingDocument
 0
 ;
 bool
-DidInitialReflow
+DidInitialize
 (
 )
 const
 {
 return
-mDidInitialReflow
+mDidInitialize
 ;
 }
 virtual
@@ -960,7 +960,7 @@ NS_HIDDEN_
 (
 nsresult
 )
-InitialReflow
+Initialize
 (
 nscoord
 aWidth
@@ -3075,7 +3075,7 @@ mStylesHaveChanged
 1
 ;
 bool
-mDidInitialReflow
+mDidInitialize
 :
 1
 ;
