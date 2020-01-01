@@ -24,6 +24,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 IonCode
 .
 h
