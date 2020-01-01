@@ -1200,6 +1200,10 @@ PropertyKey
 .
 h
 \
+RequiredDefines
+.
+h
+\
 TemplateLib
 .
 h
