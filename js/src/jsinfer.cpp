@@ -3192,6 +3192,12 @@ case
 TYPE_UNDEFINED
 :
 case
+TYPE_BOOLEAN
+:
+case
+TYPE_NULL
+:
+case
 TYPE_INT32
 :
 case
