@@ -89,6 +89,13 @@ nsDOMMemoryReporter
 h
 "
 #
+include
+"
+nsIVariant
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -154,9 +161,6 @@ nsNodeSupportsWeakRefTearoff
 ;
 class
 nsIEditor
-;
-class
-nsIVariant
 ;
 class
 nsIDOMUserDataHandler
