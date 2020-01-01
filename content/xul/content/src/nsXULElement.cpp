@@ -2355,9 +2355,8 @@ return
 piTarget
 -
 >
-GetListenerManager
+ListenerManager
 (
-true
 )
 ;
 }
@@ -7555,9 +7554,8 @@ nsEventListenerManager
 *
 manager
 =
-GetListenerManager
+ListenerManager
 (
-true
 )
 ;
 SetFlags

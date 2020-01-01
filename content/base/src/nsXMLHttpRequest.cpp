@@ -9117,9 +9117,8 @@ manager
 eventTarget
 -
 >
-GetListenerManager
+ListenerManager
 (
-true
 )
 ;
 manager
