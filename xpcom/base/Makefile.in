@@ -305,6 +305,10 @@ ClearOnShutdown
 .
 h
 \
+StaticPtr
+.
+h
+\
 AvailableMemoryTracker
 .
 h
