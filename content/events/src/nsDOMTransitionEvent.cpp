@@ -103,6 +103,10 @@ PR_Now
 )
 ;
 }
+SetIsDOMBinding
+(
+)
+;
 }
 nsDOMTransitionEvent
 :
@@ -197,12 +201,9 @@ aElapsedTime
 *
 aElapsedTime
 =
-TransitionEvent
+ElapsedTime
 (
 )
--
->
-elapsedTime
 ;
 return
 NS_OK
