@@ -157,9 +157,6 @@ document
 *
 /
 interface
-HTMLTableCaptionElement
-;
-interface
 HTMLTableSectionElement
 ;
 interface
