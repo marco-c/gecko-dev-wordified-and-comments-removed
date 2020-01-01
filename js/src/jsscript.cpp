@@ -6773,6 +6773,9 @@ cx
 NULL
 )
 ;
+#
+ifdef
+JS_THREADSAFE
 if
 (
 !
@@ -6797,6 +6800,8 @@ currentChars
 ;
 }
 else
+#
+endif
 if
 (
 compressed
