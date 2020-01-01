@@ -226,6 +226,10 @@ nsSurfaceTexture
 .
 h
 \
+gfxBaseSharedMemorySurface
+.
+h
+\
 gfxSharedImageSurface
 .
 h
@@ -680,7 +684,7 @@ gfxHarfBuzzShaper
 .
 cpp
 \
-gfxSharedImageSurface
+gfxBaseSharedMemorySurface
 .
 cpp
 \
