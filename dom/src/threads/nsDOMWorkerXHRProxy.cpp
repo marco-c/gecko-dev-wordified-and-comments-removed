@@ -2161,6 +2161,10 @@ index
 ;
 (
 xhrTarget
+.
+get
+(
+)
 -
 >
 *
@@ -2174,6 +2178,10 @@ PR_FALSE
 ;
 (
 uploadTarget
+.
+get
+(
+)
 -
 >
 *
@@ -2213,6 +2221,10 @@ index
 ;
 (
 xhrTarget
+.
+get
+(
+)
 -
 >
 *
