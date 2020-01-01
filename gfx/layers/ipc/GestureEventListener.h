@@ -185,6 +185,9 @@ mPreviousSpan
 uint64_t
 mTapStartTime
 ;
+uint64_t
+mLastTapEndTime
+;
 MultiTouchInput
 mLastTouchInput
 ;
