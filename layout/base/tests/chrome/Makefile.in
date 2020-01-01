@@ -491,6 +491,10 @@ default_background_window
 .
 xul
 \
+test_leaf_layers_partition_browser_window
+.
+xul
+\
 test_printpreview
 .
 xul
