@@ -701,9 +701,6 @@ processSwitchBreak
 (
 JSOp
 op
-jssrcnote
-*
-sn
 )
 ;
 ControlStatus
@@ -750,9 +747,6 @@ processContinue
 (
 JSOp
 op
-jssrcnote
-*
-sn
 )
 ;
 ControlStatus
@@ -1000,8 +994,6 @@ sn
 ControlStatus
 whileOrForInLoop
 (
-JSOp
-op
 jssrcnote
 *
 sn
