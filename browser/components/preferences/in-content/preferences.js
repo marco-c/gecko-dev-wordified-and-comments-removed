@@ -117,6 +117,17 @@ init
 (
 )
 ;
+#
+ifdef
+XP_WIN
+gTabsPane
+.
+init
+(
+)
+;
+#
+endif
 var
 initFinished
 =

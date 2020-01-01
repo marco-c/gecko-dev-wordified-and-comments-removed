@@ -918,6 +918,11 @@ include
 main
 .
 xul
+#
+include
+tabs
+.
+xul
 <
 /
 prefpane
