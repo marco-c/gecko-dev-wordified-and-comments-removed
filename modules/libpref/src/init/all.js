@@ -1341,9 +1341,6 @@ always_use_cmaps
 false
 )
 ;
-#
-ifdef
-MOZ_GRAPHITE
 pref
 (
 "
@@ -1358,8 +1355,6 @@ enabled
 false
 )
 ;
-#
-endif
 #
 ifdef
 XP_WIN

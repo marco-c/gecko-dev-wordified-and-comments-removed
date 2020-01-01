@@ -85,15 +85,6 @@ DIRS
 =
 cairo
 endif
-ifdef
-MOZ_GRAPHITE
-DIRS
-+
-=
-graphite2
-/
-src
-endif
 DIRS
 +
 =
@@ -104,6 +95,9 @@ src
 qcms
 gl
 layers
+graphite2
+/
+src
 harfbuzz
 /
 src

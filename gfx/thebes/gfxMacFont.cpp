@@ -25,17 +25,12 @@ include
 algorithm
 >
 #
-ifdef
-MOZ_GRAPHITE
-#
 include
 "
 gfxGraphiteShaper
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -442,9 +437,6 @@ warnBuf
 #
 endif
 }
-#
-ifdef
-MOZ_GRAPHITE
 if
 (
 FontCanSupportGraphite
@@ -461,8 +453,6 @@ this
 )
 ;
 }
-#
-endif
 if
 (
 FontCanSupportHarfBuzz

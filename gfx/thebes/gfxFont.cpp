@@ -1811,9 +1811,6 @@ mFontTableCache
 )
 ;
 }
-#
-ifdef
-MOZ_GRAPHITE
 void
 gfxFontEntry
 :
@@ -1855,8 +1852,6 @@ buffer
 )
 ;
 }
-#
-endif
 size_t
 gfxFontEntry
 :
@@ -12264,9 +12259,6 @@ ok
 =
 false
 ;
-#
-ifdef
-MOZ_GRAPHITE
 if
 (
 mGraphiteShaper
@@ -12301,8 +12293,6 @@ aShapedText
 )
 ;
 }
-#
-endif
 if
 (
 !
