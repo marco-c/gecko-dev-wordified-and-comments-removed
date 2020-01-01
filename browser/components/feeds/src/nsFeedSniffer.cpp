@@ -1211,6 +1211,10 @@ Find
 (
 NS_RDF
 )
+!
+=
+-
+1
 &
 &
 dataString
@@ -1219,6 +1223,10 @@ Find
 (
 NS_RSS
 )
+!
+=
+-
+1
 ;
 }
 if

@@ -444,6 +444,16 @@ data
 .
 xml
 \
+test_bug368464
+.
+html
+\
+bug368464
+-
+data
+.
+xml
+\
 (
 NULL
 )
