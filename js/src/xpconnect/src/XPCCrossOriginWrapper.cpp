@@ -1457,17 +1457,6 @@ return
 JS_TRUE
 ;
 }
-XPCJSRuntime
-*
-rt
-=
-nsXPConnect
-:
-:
-GetRuntimeInstance
-(
-)
-;
 parent
 =
 JS_GetGlobalForObject
