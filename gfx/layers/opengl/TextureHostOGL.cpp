@@ -5171,9 +5171,6 @@ DeleteTextures
 (
 )
 ;
-#
-if
-1
 gl
 (
 )
@@ -5232,8 +5229,6 @@ mTextureTarget
 mEGLImage
 )
 ;
-#
-endif
 }
 gl
 :
