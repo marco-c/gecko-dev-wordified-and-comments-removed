@@ -1244,6 +1244,14 @@ orient
 :
 horizontal
 ;
+min
+-
+width
+:
+7
+.
+2mm
+;
 }
 #
 autocomplete_navbuttons
