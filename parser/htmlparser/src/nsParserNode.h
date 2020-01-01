@@ -393,6 +393,7 @@ nsString
 &
 aString
 )
+const
 ;
 virtual
 PRBool
@@ -703,6 +704,7 @@ nsString
 &
 aString
 )
+const
 ;
 virtual
 nsresult

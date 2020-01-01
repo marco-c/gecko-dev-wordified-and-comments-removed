@@ -501,6 +501,7 @@ nsString
 &
 aString
 )
+const
 {
 eHTMLTags
 theTag
@@ -889,6 +890,7 @@ nsString
 &
 aString
 )
+const
 {
 aString
 .

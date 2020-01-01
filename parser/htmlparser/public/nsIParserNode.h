@@ -203,6 +203,7 @@ nsString
 &
 aString
 )
+const
 =
 0
 ;
