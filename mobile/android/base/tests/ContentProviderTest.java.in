@@ -251,7 +251,7 @@ Class
 mProviderContract
 ;
 protected
-Uri
+String
 mProviderAuthority
 ;
 protected
@@ -341,7 +341,7 @@ setUpProviderClassAndAuthority
 String
 providerClassName
 String
-authorityUriField
+authorityField
 )
 throws
 Exception
@@ -368,13 +368,13 @@ BrowserContract
 mProviderAuthority
 =
 (
-Uri
+String
 )
 mProviderContract
 .
 getField
 (
-authorityUriField
+authorityField
 )
 .
 get
@@ -474,10 +474,6 @@ mResolver
 addProvider
 (
 mProviderAuthority
-.
-toString
-(
-)
 mProvider
 )
 ;

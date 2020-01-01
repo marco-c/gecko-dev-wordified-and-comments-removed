@@ -1595,7 +1595,7 @@ db
 BrowserProvider
 "
 "
-AUTHORITY_URI
+AUTHORITY
 "
 )
 ;
