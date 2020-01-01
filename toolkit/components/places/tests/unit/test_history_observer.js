@@ -286,10 +286,9 @@ aTime
 testtime
 )
 ;
-do_check_true
+do_check_eq
 (
 aSessionID
->
 0
 )
 ;
@@ -410,10 +409,9 @@ aTime
 testtime
 )
 ;
-do_check_true
+do_check_eq
 (
 aSessionID
->
 0
 )
 ;

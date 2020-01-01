@@ -2101,13 +2101,6 @@ nsINavHistoryResultNode
 .
 RESULT_TYPE_URI
 :
-case
-Ci
-.
-nsINavHistoryResultNode
-.
-RESULT_TYPE_VISIT
-:
 nodeData
 [
 "

@@ -623,7 +623,7 @@ resultType
 =
 options
 .
-RESULT_TYPE_URI
+RESULTS_AS_URI
 ;
 var
 query

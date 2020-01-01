@@ -305,9 +305,11 @@ do_check_eq
 node
 .
 type
-options
+Ci
 .
-RESULTS_AS_URI
+nsINavHistoryResultNode
+.
+RESULT_TYPE_URI
 )
 ;
 }
@@ -451,9 +453,11 @@ do_check_eq
 node
 .
 type
-options
+Ci
 .
-RESULTS_AS_URI
+nsINavHistoryResultNode
+.
+RESULT_TYPE_URI
 )
 ;
 }

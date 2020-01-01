@@ -4164,7 +4164,7 @@ resultType
 =
 currentOptions
 .
-RESULT_TYPE_URI
+RESULTS_AS_URI
 ;
 options
 .
@@ -4268,7 +4268,7 @@ resultType
 =
 currentOptions
 .
-RESULT_TYPE_URI
+RESULTS_AS_URI
 ;
 options
 .

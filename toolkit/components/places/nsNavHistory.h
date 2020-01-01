@@ -522,11 +522,6 @@ kGetInfoIndex_FaviconURL
 static
 const
 int32_t
-kGetInfoIndex_SessionId
-;
-static
-const
-int32_t
 kGetInfoIndex_ItemId
 ;
 static
@@ -1105,11 +1100,6 @@ return
 mNumVisitsForFrecency
 ;
 }
-int64_t
-GetNewSessionID
-(
-)
-;
 void
 NotifyOnVisit
 (
@@ -1120,8 +1110,6 @@ int64_t
 aVisitID
 PRTime
 aTime
-int64_t
-aSessionID
 int64_t
 referringVisitID
 int32_t
@@ -1520,9 +1508,6 @@ RecentEventHash
 *
 hashTable
 )
-;
-int64_t
-mLastSessionID
 ;
 #
 ifdef
