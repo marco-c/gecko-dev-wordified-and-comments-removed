@@ -2035,6 +2035,15 @@ aList
 mTimeouts
 ;
 }
+static
+void
+NotifyDOMWindowDestroyed
+(
+nsGlobalWindow
+*
+aWindow
+)
+;
 PRPackedBool
 mIsFrozen
 :
@@ -2318,6 +2327,9 @@ ifdef
 DEBUG
 PRBool
 mSetOpenerWindowCalled
+;
+PRUint32
+mSerial
 ;
 #
 endif
