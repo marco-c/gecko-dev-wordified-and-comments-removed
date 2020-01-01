@@ -497,6 +497,9 @@ numGlobalSlots
 uint32
 numStackSlots
 ;
+uint32
+numStackSlotsBelowCurrentFrame
+;
 uint8
 *
 typeMap
