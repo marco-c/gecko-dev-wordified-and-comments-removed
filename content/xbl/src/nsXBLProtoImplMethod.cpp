@@ -752,7 +752,6 @@ args
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-}
 PRInt32
 argPos
 =
@@ -793,6 +792,7 @@ argPos
 +
 +
 ;
+}
 }
 nsDependentString
 body
