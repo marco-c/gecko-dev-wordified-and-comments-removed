@@ -4121,6 +4121,8 @@ const
 gfx3DMatrix
 &
 aRootTransform
+bool
+aPrimaryLayer
 )
 {
 ShadowLayer
@@ -4371,6 +4373,11 @@ scrollOffsetDevPixels
 .
 y
 ;
+if
+(
+aPrimaryLayer
+)
+{
 SyncViewportInfo
 (
 displayPortDevPixels
@@ -4387,6 +4394,7 @@ mLayersUpdated
 =
 false
 ;
+}
 float
 tempScaleDiffX
 =
@@ -4822,6 +4830,10 @@ scrollableLayers
 i
 ]
 rootTransform
+i
+=
+=
+0
 )
 ;
 }
