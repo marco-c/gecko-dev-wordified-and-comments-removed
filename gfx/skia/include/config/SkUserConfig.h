@@ -5,6 +5,15 @@ SkUserConfig_DEFINED
 define
 SkUserConfig_DEFINED
 #
+include
+"
+mozilla
+/
+mozalloc
+.
+h
+"
+#
 ifdef
 SK_DEBUG
 #

@@ -174,14 +174,6 @@ licenses
 /
 android
 \
-other
--
-licenses
-/
-skia
--
-npapi
-\
 (
 NULL
 )
