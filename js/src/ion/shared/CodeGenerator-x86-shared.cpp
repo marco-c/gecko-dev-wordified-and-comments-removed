@@ -3681,12 +3681,9 @@ notzero
 ;
 masm
 .
-movl
+xorl
 (
-Imm32
-(
-0
-)
+output
 output
 )
 ;
