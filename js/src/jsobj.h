@@ -5691,9 +5691,12 @@ int
 shortid
 )
 ;
+namespace
+js
+{
 extern
 JSBool
-js_DefineOwnProperty
+DefineOwnProperty
 (
 JSContext
 *
@@ -5708,12 +5711,10 @@ JS
 :
 HandleId
 id
-const
 JS
 :
 :
-Value
-&
+HandleValue
 descriptor
 JSBool
 *
@@ -5722,7 +5723,7 @@ bp
 ;
 extern
 JSBool
-js_DefineOwnProperty
+DefineOwnProperty
 (
 JSContext
 *
@@ -5749,9 +5750,6 @@ JSBool
 bp
 )
 ;
-namespace
-js
-{
 enum
 NewObjectKind
 {

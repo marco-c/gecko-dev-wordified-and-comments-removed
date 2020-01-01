@@ -19490,7 +19490,7 @@ objArg
 jsid
 idArg
 jsval
-descriptor
+descriptorArg
 JSBool
 *
 bp
@@ -19508,6 +19508,13 @@ id
 (
 cx
 idArg
+)
+;
+RootedValue
+descriptor
+(
+cx
+descriptorArg
 )
 ;
 AssertHeapIsIdle
@@ -19529,7 +19536,7 @@ descriptor
 )
 ;
 return
-js_DefineOwnProperty
+DefineOwnProperty
 (
 cx
 obj
