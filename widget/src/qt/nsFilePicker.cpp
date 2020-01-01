@@ -299,12 +299,8 @@ nsAString
 aDefaultString
 )
 {
-mDefault
-=
-aDefaultString
-;
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
@@ -319,8 +315,12 @@ nsAString
 aDefaultString
 )
 {
+mDefault
+=
+aDefaultString
+;
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 NS_IMETHODIMP
