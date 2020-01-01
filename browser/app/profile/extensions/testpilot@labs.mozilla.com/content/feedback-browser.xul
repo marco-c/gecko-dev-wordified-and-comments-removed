@@ -790,13 +790,10 @@ label
 &
 testpilot
 .
-allStudies
+allYourStudies
 .
 label
 ;
-.
-.
-.
 "
 oncommand
 =
