@@ -16490,14 +16490,14 @@ h
 )
         
 for
-pinc
+inc
 in
 tu
 .
-protocolIncludes
+includes
 :
             
-pinc
+inc
 .
 accept
 (
@@ -16966,16 +16966,16 @@ NL
 )
     
 def
-visitProtocolInclude
+visitInclude
 (
 self
-pi
+inc
 )
 :
         
 ip
 =
-pi
+inc
 .
 tu
 .

@@ -1113,13 +1113,13 @@ elif
 isinstance
 (
 stmt
-ProtocolInclude
+Include
 )
 :
             
 tu
 .
-addProtocolInclude
+addInclude
 (
 stmt
 )
@@ -1457,7 +1457,7 @@ loc
     
 inc
 =
-ProtocolInclude
+Include
 (
 loc
 p
