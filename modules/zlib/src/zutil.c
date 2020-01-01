@@ -30,7 +30,7 @@ dummy
 ;
 #
 endif
-const
+z_const
 char
 *
 const

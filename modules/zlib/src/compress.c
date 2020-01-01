@@ -49,6 +49,7 @@ stream
 next_in
 =
 (
+z_const
 Bytef
 *
 )
