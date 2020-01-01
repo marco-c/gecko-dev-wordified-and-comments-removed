@@ -1,9 +1,9 @@
 #
 ifndef
-jsthreadpool_h___
+ThreadPool_h__
 #
 define
-jsthreadpool_h___
+ThreadPool_h__
 #
 include
 <
