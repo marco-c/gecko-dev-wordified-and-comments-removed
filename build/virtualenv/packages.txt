@@ -88,6 +88,13 @@ pth
 python
 /
 mozbuild
+pymake
+.
+pth
+:
+build
+/
+pymake
 optional
 :
 setup
