@@ -5034,7 +5034,6 @@ aEvent
 &
 &
 (
-(
 NS_IS_MOUSE_EVENT_STRUCT
 (
 aEvent
@@ -5055,7 +5054,6 @@ eventStructType
 =
 =
 NS_MOUSE_SCROLL_EVENT
-)
 )
 {
 if
