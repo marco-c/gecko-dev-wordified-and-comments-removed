@@ -1070,6 +1070,9 @@ aState
 nsHTMLReflowMetrics
 &
 aMetrics
+nscoord
+*
+aBottomEdgeOfChildren
 )
 ;
 void
@@ -1082,6 +1085,8 @@ aReflowState
 nsHTMLReflowMetrics
 &
 aMetrics
+nscoord
+aBottomEdgeOfChildren
 )
 ;
 virtual
