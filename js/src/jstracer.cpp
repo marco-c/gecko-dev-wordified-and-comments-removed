@@ -53100,7 +53100,7 @@ lir
 insCall
 (
 &
-js_NewUninitializedArray_ci
+js_NewArrayWithSlots_ci
 args
 )
 ;
@@ -73811,7 +73811,7 @@ lir
 insCall
 (
 &
-js_NewUninitializedArray_ci
+js_NewArrayWithSlots_ci
 args
 )
 ;

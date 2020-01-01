@@ -2670,7 +2670,7 @@ js_NewEmptyArray
 )
 JS_DECLARE_CALLINFO
 (
-js_NewUninitializedArray
+js_NewArrayWithSlots
 )
 JS_DECLARE_CALLINFO
 (
