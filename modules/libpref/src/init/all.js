@@ -23395,7 +23395,7 @@ zh
 CN
 "
 "
-STSong
+Times
 "
 )
 ;
@@ -23415,7 +23415,7 @@ zh
 CN
 "
 "
-STHeiti
+Helvetica
 "
 )
 ;
@@ -23433,7 +23433,7 @@ zh
 CN
 "
 "
-STHeiti
+Courier
 "
 )
 ;
@@ -23453,6 +23453,7 @@ zh
 CN
 "
 "
+Times
 STSong
 Heiti
 SC
@@ -23477,6 +23478,7 @@ zh
 CN
 "
 "
+Helvetica
 STHeiti
 Heiti
 SC
@@ -23499,6 +23501,7 @@ zh
 CN
 "
 "
+Courier
 STHeiti
 Heiti
 SC
