@@ -438,6 +438,7 @@ js_enumerable_str
 js_configurable_str
 js_writable_str
 js_value_str
+js_test_str
 "
 use
 strict
@@ -1001,6 +1002,16 @@ js_value_str
 =
 "
 value
+"
+;
+const
+char
+js_test_str
+[
+]
+=
+"
+test
 "
 ;
 #
