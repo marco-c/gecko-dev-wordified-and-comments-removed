@@ -1205,11 +1205,6 @@ stretchDir
 containerSize
 )
 ;
-if
-(
-firstChild
-)
-{
 nscoord
 delta
 =
@@ -1243,7 +1238,6 @@ delta
 -
 axisHeight
 ;
-}
 ReflowChar
 (
 aPresContext
