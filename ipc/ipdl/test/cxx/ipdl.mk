@@ -109,6 +109,10 @@ PTestSyncWakeup
 .
 ipdl
 \
+PTestSysVShmem
+.
+ipdl
+\
 (
 NULL
 )
