@@ -206,11 +206,7 @@ addBuiltinManifest
 manifest
 )
 {
-Services
-.
-prefs
-.
-setCharPref
+setManifestPref
 (
 "
 social
@@ -222,12 +218,7 @@ manifest
 manifest
 .
 origin
-JSON
-.
-stringify
-(
 manifest
-)
 )
 ;
 }
