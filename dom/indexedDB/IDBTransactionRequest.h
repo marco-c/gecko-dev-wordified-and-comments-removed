@@ -114,6 +114,11 @@ OnRequestFinished
 (
 )
 ;
+nsresult
+Commit
+(
+)
+;
 private
 :
 IDBTransactionRequest
