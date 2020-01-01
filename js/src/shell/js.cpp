@@ -16790,6 +16790,15 @@ DumpParseTree
 pn
 )
 ;
+fputc
+(
+'
+\
+n
+'
+stderr
+)
+;
 #
 endif
 JS_SET_RVAL

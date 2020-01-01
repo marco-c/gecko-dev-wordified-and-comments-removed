@@ -9709,7 +9709,7 @@ pn
 >
 isKind
 (
-PNK_FUNCTION
+PNK_FUNCTIONDECL
 )
 |
 |
@@ -9751,7 +9751,7 @@ getKind
 )
 {
 case
-PNK_FUNCTION
+PNK_FUNCTIONDECL
 :
 return
 function
@@ -11335,7 +11335,7 @@ getKind
 )
 {
 case
-PNK_FUNCTION
+PNK_FUNCTIONDECL
 :
 case
 PNK_VAR
@@ -13303,7 +13303,7 @@ getKind
 )
 {
 case
-PNK_FUNCTION
+PNK_FUNCTIONEXPR
 :
 return
 function
@@ -14156,7 +14156,7 @@ case
 PNK_NEW
 :
 case
-PNK_LP
+PNK_CALL
 :
 {
 #
@@ -14415,7 +14415,7 @@ dst
 ;
 }
 case
-PNK_LB
+PNK_ELEM
 :
 {
 JS_ASSERT
@@ -14500,7 +14500,7 @@ dst
 ;
 }
 case
-PNK_RB
+PNK_ARRAY
 :
 {
 NodeVector
@@ -14668,7 +14668,7 @@ dst
 ;
 }
 case
-PNK_RC
+PNK_OBJECT
 :
 {
 if
@@ -15210,7 +15210,7 @@ pnleft
 >
 isKind
 (
-PNK_FUNCTION
+PNK_FUNCTIONNS
 )
 )
 return
@@ -15921,7 +15921,10 @@ pi
 pn
 -
 >
-asXMLProcessingInstruction
+as
+<
+XMLProcessingInstruction
+>
 (
 )
 ;
@@ -16369,7 +16372,7 @@ pn
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 )
 ;
@@ -16522,7 +16525,7 @@ pn
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 )
 ;
@@ -16691,7 +16694,7 @@ getKind
 )
 {
 case
-PNK_RC
+PNK_OBJECT
 :
 return
 objectPattern
@@ -16702,7 +16705,7 @@ dst
 )
 ;
 case
-PNK_RB
+PNK_ARRAY
 :
 return
 arrayPattern

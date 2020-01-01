@@ -6865,7 +6865,7 @@ shell
 shell
 -
 >
-DidInitialReflow
+DidInitialize
 (
 )
 )
@@ -6888,7 +6888,7 @@ GetVisibleArea
 shell
 -
 >
-InitialReflow
+Initialize
 (
 r
 .

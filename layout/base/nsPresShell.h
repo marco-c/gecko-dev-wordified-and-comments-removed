@@ -285,7 +285,7 @@ NS_HIDDEN_
 (
 nsresult
 )
-InitialReflow
+Initialize
 (
 nscoord
 aWidth

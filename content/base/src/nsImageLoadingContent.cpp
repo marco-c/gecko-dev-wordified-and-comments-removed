@@ -986,7 +986,7 @@ IsVisible
 shell
 -
 >
-DidInitialReflow
+DidInitialize
 (
 )
 |

@@ -738,6 +738,10 @@ Texture
 .
 cpp
 \
+TextureSSE2
+.
+cpp
+\
 utilities
 .
 cpp

@@ -89,7 +89,7 @@ include
 "
 libGLESv2
 /
-FrameBuffer
+Framebuffer
 .
 h
 "
@@ -125,7 +125,7 @@ include
 "
 libGLESv2
 /
-RenderBuffer
+Renderbuffer
 .
 h
 "
@@ -1923,6 +1923,14 @@ Release
 )
 ;
 }
+mDevice
+-
+>
+SetPixelShader
+(
+NULL
+)
+;
 markAllStateDirty
 (
 )

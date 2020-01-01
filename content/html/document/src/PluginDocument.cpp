@@ -872,7 +872,7 @@ GetShell
 )
 -
 >
-DidInitialReflow
+DidInitialize
 (
 )
 "

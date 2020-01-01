@@ -4813,7 +4813,7 @@ shell
 shell
 -
 >
-DidInitialReflow
+DidInitialize
 (
 )
 )
@@ -4847,7 +4847,7 @@ rv
 shell
 -
 >
-InitialReflow
+Initialize
 (
 r
 .

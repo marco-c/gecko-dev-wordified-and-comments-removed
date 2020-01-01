@@ -434,10 +434,9 @@ thing
 )
 )
 ;
-JS_SET_TRACING_LOCATION
+JS_UNSET_TRACING_LOCATION
 (
 trc
-NULL
 )
 ;
 }
@@ -1618,10 +1617,9 @@ obj
 }
 else
 {
-JS_SET_TRACING_LOCATION
+JS_UNSET_TRACING_LOCATION
 (
 trc
-NULL
 )
 ;
 }
@@ -1936,10 +1934,9 @@ thing
 }
 else
 {
-JS_SET_TRACING_LOCATION
+JS_UNSET_TRACING_LOCATION
 (
 trc
-NULL
 )
 ;
 }

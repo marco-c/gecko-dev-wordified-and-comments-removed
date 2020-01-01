@@ -793,7 +793,6 @@ rootKind
 )
 ;
 }
-;
 }
 ;
 template
