@@ -62,6 +62,13 @@ windowUtils
 displayDPI
 ;
 let
+DEFAULT_SCREEN
+=
+"
+320x480
+"
+;
+let
 screens
 =
 {
@@ -309,7 +316,9 @@ screenarg
 =
 null
 )
-return
+screenarg
+=
+DEFAULT_SCREEN
 ;
 if
 (
