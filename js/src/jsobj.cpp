@@ -21668,7 +21668,7 @@ LookupPropertyWithFlags
 cx
 obj
 id
-JSRESOLVE_CLASSNAME
+0
 &
 pobj
 &
