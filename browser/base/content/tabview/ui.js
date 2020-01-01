@@ -2851,9 +2851,7 @@ if
 (
 self
 .
-_privateBrowsing
-.
-transitionMode
+_storageBusyCount
 )
 return
 ;
