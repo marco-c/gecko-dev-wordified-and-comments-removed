@@ -204,6 +204,10 @@ h
 #
 ifdef
 ANDROID
+extern
+"
+C
+"
 __attribute__
 (
 (
