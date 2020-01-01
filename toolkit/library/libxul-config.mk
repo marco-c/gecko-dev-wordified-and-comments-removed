@@ -619,8 +619,6 @@ chromium_s
 \
 ipcshell_s
 \
-ipctestharness_s
-\
 (
 NULL
 )
