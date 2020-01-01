@@ -3885,14 +3885,13 @@ _log
 debug
 (
 "
-Min
-supported
+Local
 storage
 version
 is
 "
 +
-MIN_SERVER_STORAGE_VERSION
+STORAGE_VERSION
 )
 ;
 this
@@ -3939,7 +3938,7 @@ Version
 .
 compare
 (
-MIN_SERVER_STORAGE_VERSION
+STORAGE_VERSION
 remoteVersion
 )
 >
@@ -4062,7 +4061,7 @@ Version
 .
 compare
 (
-MIN_SERVER_STORAGE_VERSION
+STORAGE_VERSION
 remoteVersion
 )
 >
@@ -5792,7 +5791,7 @@ version
 to
 "
 +
-WEAVE_VERSION
+STORAGE_VERSION
 )
 ;
 meta
@@ -5801,7 +5800,7 @@ payload
 .
 storageVersion
 =
-WEAVE_VERSION
+STORAGE_VERSION
 ;
 meta
 .
