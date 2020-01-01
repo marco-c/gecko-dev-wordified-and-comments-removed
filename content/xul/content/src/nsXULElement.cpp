@@ -5895,6 +5895,11 @@ hasMutationListeners
 {
 mozAutoRemovableBlockerRemover
 blockerRemover
+(
+GetOwnerDoc
+(
+)
+)
 ;
 nsMutationEvent
 mutation

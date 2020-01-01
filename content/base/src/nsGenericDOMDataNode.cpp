@@ -1510,6 +1510,11 @@ haveMutationListeners
 {
 mozAutoRemovableBlockerRemover
 blockerRemover
+(
+GetOwnerDoc
+(
+)
+)
 ;
 nsMutationEvent
 mutation

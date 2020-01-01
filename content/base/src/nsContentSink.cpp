@@ -6338,6 +6338,8 @@ aUpdateType
 if
 (
 mInNotification
+>
+0
 &
 &
 mUpdatesInNotification

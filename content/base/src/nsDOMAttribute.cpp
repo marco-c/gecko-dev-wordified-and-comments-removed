@@ -2629,6 +2629,11 @@ this
 {
 mozAutoRemovableBlockerRemover
 blockerRemover
+(
+GetOwnerDoc
+(
+)
+)
 ;
 nsMutationEvent
 mutation
