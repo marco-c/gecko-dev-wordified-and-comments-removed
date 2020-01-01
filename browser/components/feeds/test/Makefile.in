@@ -115,6 +115,16 @@ data
 .
 xml
 \
+test_bug436801
+.
+html
+\
+bug436801
+-
+data
+.
+xml
+\
 test_registerHandler
 .
 html
