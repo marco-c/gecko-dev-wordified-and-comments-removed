@@ -375,7 +375,7 @@ metrics
 .
 mResolution
 .
-width
+scale
 ;
 mPaintData
 .
@@ -388,7 +388,7 @@ metrics
 .
 mResolution
 .
-height
+scale
 ;
 }
 mPaintData

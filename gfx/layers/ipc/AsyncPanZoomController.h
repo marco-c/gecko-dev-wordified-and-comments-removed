@@ -300,7 +300,7 @@ aEstimatedPaintDuration
 )
 ;
 static
-gfxSize
+CSSToScreenScale
 CalculateIntrinsicScale
 (
 const
@@ -594,8 +594,10 @@ TimeoutTouchListeners
 void
 SetZoomAndResolution
 (
-float
-aScale
+const
+ScreenToScreenScale
+&
+aZoom
 )
 ;
 void
