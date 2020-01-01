@@ -648,10 +648,9 @@ bce
 sc
 -
 >
-flags
-|
-=
-TCF_STRICT_MODE_CODE
+setInStrictMode
+(
+)
 ;
 tokenStream
 .
