@@ -265,6 +265,11 @@ OrientationObserver
 cpp
 '
 '
+ProcessOrientation
+.
+cpp
+'
+'
 PixelFormat
 .
 cpp

@@ -116,6 +116,11 @@ nsIDOMDOMRequest
 idl
 '
 '
+nsIDOMDOMWindowResizeEventDetail
+.
+idl
+'
+'
 nsIEntropyCollector
 .
 idl
@@ -375,11 +380,6 @@ Navigator
 cpp
 '
 '
-URL
-.
-cpp
-'
-'
 nsContentPermissionHelper
 .
 cpp
@@ -406,6 +406,11 @@ cpp
 '
 '
 nsDOMWindowList
+.
+cpp
+'
+'
+nsDOMWindowResizeEventDetail
 .
 cpp
 '
@@ -501,6 +506,11 @@ cpp
 '
 '
 nsWrapperCache
+.
+cpp
+'
+'
+URL
 .
 cpp
 '
