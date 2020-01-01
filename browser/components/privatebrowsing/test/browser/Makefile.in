@@ -469,6 +469,10 @@ browser_privatebrowsing_findbar
 .
 js
 \
+browser_privatebrowsing_zoom
+.
+js
+\
 (
 NULL
 )
