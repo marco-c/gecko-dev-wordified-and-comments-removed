@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsError
+ImageErrors
 .
 h
 "
@@ -3011,11 +3011,6 @@ rv
 =
 NS_OK
 ;
-if
-(
-mDecoded
-)
-{
 PRUint32
 desiredDecodeFlags
 =
@@ -3023,6 +3018,11 @@ aFlags
 &
 DECODE_FLAGS_MASK
 ;
+if
+(
+mDecoded
+)
+{
 if
 (
 desiredDecodeFlags
@@ -3063,12 +3063,12 @@ ForceDiscard
 (
 )
 ;
+}
+}
 mFrameDecodeFlags
 =
 desiredDecodeFlags
 ;
-}
-}
 if
 (
 aFlags
