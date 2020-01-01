@@ -213,15 +213,6 @@ inFilePath
 ;
 public
 :
-nsIMdbFile
-*
-AcquireFileHandle
-(
-morkEnv
-*
-ev
-)
-;
 mork_bool
 FileFrozen
 (
