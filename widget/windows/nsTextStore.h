@@ -1074,6 +1074,11 @@ RecordCompositionUpdateAction
 (
 )
 ;
+HRESULT
+RecordCompositionEndAction
+(
+)
+;
 void
 FlushPendingActions
 (
