@@ -1739,7 +1739,7 @@ snav
 .
 enabled
 "
-true
+false
 )
 ;
 pref
