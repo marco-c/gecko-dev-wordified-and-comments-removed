@@ -514,6 +514,10 @@ browser_addons
 .
 js
 \
+browser_addons_locales
+.
+js
+\
 browser_appmenu
 .
 js
