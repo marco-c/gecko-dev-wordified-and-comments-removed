@@ -264,9 +264,6 @@ GL_OES_EGL_image
 "
 GL_OES_EGL_sync
 "
-"
-GL_OES_EGL_image_external
-"
 nsnull
 }
 ;
@@ -3923,7 +3920,7 @@ PRFuncPtr
 &
 mSymbols
 .
-fEGLImageTargetTexture2D
+fImageTargetTexture2D
 {
 "
 EGLImageTargetTexture2DOES
@@ -3975,7 +3972,7 @@ OES_EGL_image
 ;
 mSymbols
 .
-fEGLImageTargetTexture2D
+fImageTargetTexture2D
 =
 nsnull
 ;
