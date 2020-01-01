@@ -18936,6 +18936,17 @@ case
 resize
 "
 :
+if
+(
+aEvent
+.
+target
+!
+=
+window
+)
+break
+;
 var
 width
 =
