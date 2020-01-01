@@ -79,6 +79,9 @@ config
 autoconf
 .
 mk
+XPCSHELL_TESTS
+=
+unit
 MOCHITEST_BROWSER_FILES
 =
 \
