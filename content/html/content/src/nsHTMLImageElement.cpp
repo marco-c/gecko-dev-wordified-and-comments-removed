@@ -420,9 +420,6 @@ aInnerHTML
 ;
 }
 NS_DECL_NSIDOMHTMLIMAGEELEMENT
-nsGenericHTMLElement
-:
-:
 CORSMode
 GetCORSMode
 (

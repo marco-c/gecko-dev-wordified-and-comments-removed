@@ -142,6 +142,15 @@ CANPLAY_MAYBE
 CANPLAY_YES
 }
 ;
+CORSMode
+GetCORSMode
+(
+)
+{
+return
+mCORSMode
+;
+}
 nsHTMLMediaElement
 (
 already_AddRefed
@@ -1170,6 +1179,9 @@ mLoadIsSuspended
 ;
 bool
 mMediaSecurityVerified
+;
+CORSMode
+mCORSMode
 ;
 }
 ;
