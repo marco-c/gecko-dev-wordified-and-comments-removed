@@ -8790,6 +8790,7 @@ jp
 ;
 JSOp
 op
+saveop
 ;
 const
 JSCodeSpec
@@ -8956,6 +8957,10 @@ LOAD_OP_DATA
 (
 pc
 )
+;
+saveop
+=
+op
 ;
 switch
 (
@@ -20746,9 +20751,6 @@ break
 ;
 case
 JSOP_SETELEM
-:
-case
-JSOP_SETHOLE
 :
 rval
 =
