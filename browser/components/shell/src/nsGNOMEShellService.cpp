@@ -1677,13 +1677,6 @@ NULL
 NULL
 )
 ;
-aImage
--
->
-UnlockImageData
-(
-)
-;
 g_object_unref
 (
 pixbuf
