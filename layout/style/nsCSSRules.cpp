@@ -8007,9 +8007,6 @@ aCssText
 AssignLiteral
 (
 "
--
-moz
--
 keyframes
 "
 )
