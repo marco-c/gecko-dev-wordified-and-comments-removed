@@ -167,9 +167,14 @@ formatStr
 appVersion
 "
 [
+branding
+.
+getStringFromName
+(
 "
-Firefox
+brandShortName
 "
+)
 version
 build
 ]
