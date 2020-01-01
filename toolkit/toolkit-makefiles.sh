@@ -1227,13 +1227,6 @@ content
 /
 xbl
 /
-public
-/
-Makefile
-content
-/
-xbl
-/
 src
 /
 Makefile
