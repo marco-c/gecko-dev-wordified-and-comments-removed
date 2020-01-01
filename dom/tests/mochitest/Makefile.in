@@ -439,8 +439,6 @@ chrome
 \
 whatwg
 \
-geolocation
-\
 (
 NULL
 )
