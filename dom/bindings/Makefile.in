@@ -562,6 +562,10 @@ DOMJSProxyHandler
 .
 cpp
 \
+Date
+.
+cpp
+\
 (
 NULL
 )

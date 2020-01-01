@@ -3,6 +3,17 @@ include
 "
 mozilla
 /
+dom
+/
+HTMLInputElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -14,7 +25,7 @@ mozilla
 /
 dom
 /
-HTMLInputElement
+Date
 .
 h
 "

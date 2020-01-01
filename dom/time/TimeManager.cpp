@@ -12,6 +12,17 @@ mozilla
 /
 dom
 /
+Date
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MozTimeManagerBinding
 .
 h

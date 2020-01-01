@@ -154,6 +154,11 @@ DOMJSProxyHandler
 h
 '
 '
+Date
+.
+h
+'
+'
 Errors
 .
 msg
