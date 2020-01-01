@@ -377,6 +377,10 @@ test_bug738366
 .
 html
 \
+test_bug757371
+.
+html
+\
 (
 NULL
 )
