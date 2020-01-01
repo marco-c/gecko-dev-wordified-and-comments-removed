@@ -373,11 +373,6 @@ rgba
 )
 %
 define
-toolbarbuttonInactiveFontColor
-#
-7C7C7C
-%
-define
 toolbarbuttonInactiveBackgroundImage
 -
 moz
