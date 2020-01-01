@@ -8200,7 +8200,7 @@ element
 element
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 ;

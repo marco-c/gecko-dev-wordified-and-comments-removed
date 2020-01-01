@@ -1200,7 +1200,7 @@ Element
 *
 parent
 =
-GetElementParent
+GetParentElement
 (
 )
 ;
@@ -1220,7 +1220,7 @@ parent
 content
 -
 >
-GetElementParent
+GetParentElement
 (
 )
 )
