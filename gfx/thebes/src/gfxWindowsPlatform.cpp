@@ -1245,9 +1245,7 @@ ff
 ff
 -
 >
-mAvailableFonts
-.
-AppendElement
+AddFontEntry
 (
 fe
 )
@@ -3785,7 +3783,9 @@ len
 aFontFamily
 -
 >
-mAvailableFonts
+GetFontList
+(
+)
 .
 Length
 (
@@ -3808,7 +3808,9 @@ len
 aFontFamily
 -
 >
-mAvailableFonts
+GetFontList
+(
+)
 [
 index
 ]
@@ -3853,7 +3855,9 @@ mFontEntry
 aFontFamily
 -
 >
-mAvailableFonts
+GetFontList
+(
+)
 [
 index
 ]
