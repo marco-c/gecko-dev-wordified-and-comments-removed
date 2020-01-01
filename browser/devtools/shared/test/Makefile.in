@@ -118,6 +118,14 @@ head
 .
 js
 \
+helper
+.
+js
+\
+leakhunt
+.
+js
+\
 (
 NULL
 )
