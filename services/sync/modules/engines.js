@@ -2102,14 +2102,10 @@ _lowMemCheck
 ;
 try
 {
-yield
 item
 .
 decrypt
 (
-self
-.
-cb
 ID
 .
 get
