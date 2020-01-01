@@ -4996,7 +4996,7 @@ sheet
 nsresult
 rv
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsMediaList
 >

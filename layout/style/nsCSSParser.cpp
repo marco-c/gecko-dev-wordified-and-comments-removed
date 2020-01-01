@@ -8220,7 +8220,7 @@ void
 aData
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsMediaList
 >
@@ -8675,7 +8675,7 @@ void
 aData
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsMediaList
 >
