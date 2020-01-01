@@ -485,7 +485,7 @@ if
 (
 aName
 .
-IsVoid
+IsEmpty
 (
 )
 &
@@ -493,11 +493,8 @@ IsVoid
 hasAltAttrib
 )
 {
-aName
-.
-Truncate
-(
-)
+return
+NS_OK_EMPTY_NAME
 ;
 }
 return

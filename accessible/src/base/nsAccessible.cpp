@@ -1312,6 +1312,13 @@ name
 ;
 }
 else
+if
+(
+rv
+!
+=
+NS_OK_EMPTY_NAME
+)
 {
 aName
 .
