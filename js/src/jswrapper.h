@@ -940,15 +940,6 @@ indent
 )
 ;
 static
-bool
-isCrossCompartmentWrapper
-(
-JSObject
-*
-obj
-)
-;
-static
 JSCrossCompartmentWrapper
 singleton
 ;
