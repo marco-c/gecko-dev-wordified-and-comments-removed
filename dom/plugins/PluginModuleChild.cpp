@@ -3790,6 +3790,11 @@ AssertPluginThread
 (
 )
 ;
+if
+(
+aNPP
+)
+{
 InstCast
 (
 aNPP
@@ -3801,6 +3806,7 @@ InvalidateRect
 aInvalidRect
 )
 ;
+}
 }
 void
 NP_CALLBACK
