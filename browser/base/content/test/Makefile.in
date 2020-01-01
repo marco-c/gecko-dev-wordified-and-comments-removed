@@ -651,6 +651,14 @@ browser_bug321000
 .
 js
 \
+title_test
+.
+svg
+\
+browser_bug329212
+.
+js
+\
 browser_bug356571
 .
 js
