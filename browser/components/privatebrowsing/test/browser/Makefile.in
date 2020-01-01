@@ -453,6 +453,10 @@ browser_console_clear
 .
 js
 \
+browser_privatebrowsing_theming
+.
+js
+\
 (
 NULL
 )

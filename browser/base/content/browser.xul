@@ -873,6 +873,11 @@ screenY
 "
 4
 "
+browsingmode
+=
+"
+normal
+"
 persist
 =
 "
