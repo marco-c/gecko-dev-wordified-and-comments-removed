@@ -441,6 +441,8 @@ dom
 \
 intl
 \
+unicharutil
+\
 necko
 \
 content
