@@ -1063,6 +1063,11 @@ nsIObjectOutputStream
 aStream
 )
 {
+if
+(
+mJSMethodObject
+)
+{
 nsresult
 rv
 =
@@ -1103,6 +1108,10 @@ aContext
 aStream
 mJSMethodObject
 )
+;
+}
+return
+NS_OK
 ;
 }
 nsresult
