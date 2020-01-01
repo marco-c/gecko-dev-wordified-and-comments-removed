@@ -1110,23 +1110,6 @@ fill
 opacity
 '
 property
-#
-XXXdholbert
-These
-tests
-require
-float
-support
-in
-nsStyleAnimation
-(
-bug
-504652
-or
-a
-followup
-)
-fails
 =
 =
 anim
@@ -1151,7 +1134,6 @@ fillopacity
 ref
 .
 svg
-fails
 =
 =
 anim
@@ -1178,7 +1160,6 @@ fillopacity
 ref
 .
 svg
-fails
 =
 =
 anim
@@ -1205,7 +1186,6 @@ fillopacity
 ref
 .
 svg
-fails
 =
 =
 anim
@@ -1230,7 +1210,6 @@ fillopacity
 ref
 .
 svg
-fails
 =
 =
 anim
@@ -1285,7 +1264,6 @@ svg
 #
 bug
 501188
-fails
 =
 =
 anim
