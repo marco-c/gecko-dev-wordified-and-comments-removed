@@ -4059,6 +4059,7 @@ dataItem
 .
 openLocalFile
 (
+window
 )
 ;
 DownloadsPanel
