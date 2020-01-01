@@ -643,6 +643,16 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+gfxContext
+*
+ThebesContext
+(
+)
+{
+return
+nsnull
+;
+}
 protected
 :
 virtual

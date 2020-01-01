@@ -988,7 +988,7 @@ aDataFile
 ;
 gfxContext
 *
-Thebes
+ThebesContext
 (
 )
 {

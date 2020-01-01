@@ -1174,6 +1174,15 @@ aDataFile
 =
 0
 ;
+virtual
+gfxContext
+*
+ThebesContext
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

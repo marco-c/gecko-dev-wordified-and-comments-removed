@@ -1210,7 +1210,7 @@ ctx
 thebesRC
 -
 >
-Thebes
+ThebesContext
 (
 )
 ;
