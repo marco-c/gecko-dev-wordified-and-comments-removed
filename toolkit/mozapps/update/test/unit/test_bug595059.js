@@ -67,10 +67,6 @@ removeUpdateDirsAndFiles
 (
 )
 ;
-setUpdateChannel
-(
-)
-;
 let
 registrar
 =

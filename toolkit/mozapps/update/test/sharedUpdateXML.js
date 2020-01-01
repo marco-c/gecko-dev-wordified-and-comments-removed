@@ -479,9 +479,12 @@ aChannel
 ?
 aChannel
 :
-"
-test_channel
-"
+gDefaultPrefBranch
+.
+getCharPref
+(
+PREF_APP_UPDATE_CHANNEL
+)
 ;
 let
 foregroundDownload

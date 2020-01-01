@@ -28,6 +28,9 @@ setUpdateURLOverride
 ;
 setUpdateChannel
 (
+"
+test_channel
+"
 )
 ;
 overrideXHR
