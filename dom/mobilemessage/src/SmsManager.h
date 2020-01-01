@@ -98,7 +98,10 @@ const
 nsAString
 &
 aMessage
-jsval
+JS
+:
+:
+Value
 *
 aRequest
 )

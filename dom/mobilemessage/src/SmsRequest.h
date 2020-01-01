@@ -305,7 +305,10 @@ void
 SetSuccess
 (
 const
-jsval
+JS
+:
+:
+Value
 &
 aVal
 )
@@ -353,7 +356,10 @@ int32_t
 aError
 )
 ;
-jsval
+JS
+:
+:
+Value
 mResult
 ;
 bool

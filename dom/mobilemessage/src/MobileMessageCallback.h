@@ -72,7 +72,10 @@ nsresult
 NotifySuccess
 (
 const
-jsval
+JS
+:
+:
+Value
 &
 aResult
 )

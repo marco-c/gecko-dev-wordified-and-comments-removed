@@ -130,7 +130,10 @@ MobileMessageCallback
 NotifySuccess
 (
 const
-jsval
+JS
+:
+:
+Value
 &
 aResult
 )
@@ -217,7 +220,10 @@ cx
 NS_ERROR_FAILURE
 )
 ;
-jsval
+JS
+:
+:
+Value
 wrappedMessage
 ;
 rv
@@ -595,7 +601,10 @@ MobileMessageCallback
 NotifyThreadList
 (
 const
-jsval
+JS
+:
+:
+Value
 &
 aThreadList
 JSContext
