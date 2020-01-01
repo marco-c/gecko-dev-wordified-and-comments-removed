@@ -3819,6 +3819,14 @@ now
 }
 )
 ;
+Browser
+.
+canvasBrowser
+.
+endPanning
+(
+)
+;
 if
 (
 this
