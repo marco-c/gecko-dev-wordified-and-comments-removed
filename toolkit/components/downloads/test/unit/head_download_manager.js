@@ -631,6 +631,13 @@ gDownloadCount
 +
 +
 ;
+let
+dm
+=
+downloadUtils
+.
+downloadManager
+;
 var
 dl
 =
