@@ -728,10 +728,6 @@ browser_webconsole_bug_597460_filter_scroll
 .
 js
 \
-browser_webconsole_gcli_require
-.
-js
-\
 browser_webconsole_console_extras
 .
 js

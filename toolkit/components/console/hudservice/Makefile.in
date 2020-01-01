@@ -438,10 +438,6 @@ AutocompletePopup
 .
 jsm
 \
-gcli
-.
-jsm
-\
 (
 NULL
 )
