@@ -442,7 +442,6 @@ PRTime
 aValue
 )
 ;
-typedef
 struct
 folderChildrenInfo
 {
