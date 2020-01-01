@@ -32,6 +32,13 @@ nsIDocumentViewer
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 class
 nsIAtom
 ;
@@ -93,6 +100,7 @@ public
 nsIStreamListener
 public
 nsIObserver
+nsSupportsWeakReference
 {
 public
 :
@@ -239,6 +247,11 @@ RegisterForXPCOMShutdown
 )
 ;
 void
+UnregisterForXPCOMShutdown
+(
+)
+;
+void
 FlushLayout
 (
 )
@@ -263,6 +276,9 @@ mListener
 ;
 PRPackedBool
 mIgnoreInvalidation
+;
+PRPackedBool
+mRegisteredForXPCOMShutdown
 ;
 static
 nsIAtom
