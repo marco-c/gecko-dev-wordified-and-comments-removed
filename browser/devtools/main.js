@@ -1466,7 +1466,7 @@ l10n
 "
 profiler
 .
-tooltip
+tooltip2
 "
 profilerStrings
 )
