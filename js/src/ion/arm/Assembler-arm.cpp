@@ -11504,7 +11504,7 @@ if
 (
 instIsBNop
 (
-this
+ret
 )
 )
 {
