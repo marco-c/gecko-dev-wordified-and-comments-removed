@@ -23724,6 +23724,12 @@ ourselves
 .
 if
 (
+!
+dispatchedKeyPress
+)
+{
+if
+(
 nsTSMManager
 :
 :
@@ -23747,10 +23753,6 @@ else
 if
 (
 nonDeadKeyPress
-&
-&
-!
-dispatchedKeyPress
 )
 [
 self
@@ -23762,6 +23764,7 @@ characters
 ]
 ]
 ;
+}
 mIgnoreDoCommand
 =
 NO
