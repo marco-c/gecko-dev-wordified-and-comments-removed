@@ -427,6 +427,16 @@ nsDirectoryServiceAtomList
 h
 '
 '
+nsDirectoryServiceDefs
+.
+h
+'
+'
+nsDirectoryServiceUtils
+.
+h
+'
+'
 nsEscape
 .
 h

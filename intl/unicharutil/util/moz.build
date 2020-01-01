@@ -121,6 +121,11 @@ nsSpecialCasingData
 h
 '
 '
+nsUnicharUtils
+.
+h
+'
+'
 nsUnicodeProperties
 .
 h

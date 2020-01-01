@@ -128,7 +128,7 @@ build
 (
 NULL
 )
-SDK_HEADERS
+DISABLED_SDK_HEADERS
 =
 \
 nsArrayEnumerator

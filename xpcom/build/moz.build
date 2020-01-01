@@ -103,6 +103,16 @@ EXPORTS
 =
 [
 '
+nsXPCOM
+.
+h
+'
+'
+nsXPCOMCID
+.
+h
+'
+'
 nsXPCOMCIDInternal
 .
 h

@@ -91,7 +91,7 @@ config
 autoconf
 .
 mk
-SDK_HEADERS
+DISABLED_SDK_HEADERS
 =
 \
 nsEmbedCID

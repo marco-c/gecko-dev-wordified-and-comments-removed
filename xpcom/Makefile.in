@@ -86,7 +86,7 @@ is
 generated
 by
 configure
-SDK_HEADERS
+DISABLED_SDK_HEADERS
 =
 xpcom
 -

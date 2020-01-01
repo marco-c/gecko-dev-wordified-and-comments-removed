@@ -135,7 +135,7 @@ mm
 NULL
 )
 endif
-SDK_HEADERS
+DISABLED_SDK_HEADERS
 =
 \
 nsDirectoryServiceDefs

@@ -128,6 +128,11 @@ nsDependentSubstring
 h
 '
 '
+nsEmbedString
+.
+h
+'
+'
 nsLiteralString
 .
 h
@@ -209,6 +214,11 @@ h
 '
 '
 nsUTF8Utils
+.
+h
+'
+'
+nsXPCOMStrings
 .
 h
 '

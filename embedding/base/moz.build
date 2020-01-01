@@ -123,3 +123,13 @@ MODULE
 '
 embed_base
 '
+EXPORTS
++
+=
+[
+'
+nsEmbedCID
+.
+h
+'
+]
