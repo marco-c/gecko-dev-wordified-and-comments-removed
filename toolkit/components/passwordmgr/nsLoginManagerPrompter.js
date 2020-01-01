@@ -3501,7 +3501,7 @@ this
 _getLocalizedString
 (
 "
-rememberPasswordText
+rememberPasswordMsg
 "
 [
 displayUser
@@ -3519,7 +3519,7 @@ this
 _getLocalizedString
 (
 "
-rememberPasswordTextNoUsername
+rememberPasswordMsgNoUsername
 "
 [
 displayHost
@@ -4046,7 +4046,7 @@ this
 _getLocalizedString
 (
 "
-rememberPasswordText
+rememberPasswordMsg
 "
 [
 displayUser
@@ -4064,7 +4064,7 @@ this
 _getLocalizedString
 (
 "
-rememberPasswordTextNoUsername
+rememberPasswordMsgNoUsername
 "
 [
 displayHost
@@ -4324,7 +4324,7 @@ this
 _getLocalizedString
 (
 "
-updatePasswordText
+updatePasswordMsg
 "
 [
 aOldLogin
@@ -4341,7 +4341,7 @@ this
 _getLocalizedString
 (
 "
-updatePasswordTextNoUser
+updatePasswordMsgNoUser
 "
 )
 ;
@@ -4623,7 +4623,7 @@ this
 _getLocalizedString
 (
 "
-updatePasswordText
+updatePasswordMsg
 "
 [
 aOldLogin
@@ -4640,7 +4640,7 @@ this
 _getLocalizedString
 (
 "
-updatePasswordTextNoUser
+updatePasswordMsgNoUser
 "
 )
 ;
