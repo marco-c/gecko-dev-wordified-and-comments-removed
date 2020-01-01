@@ -606,9 +606,6 @@ public
 void
 Restyle
 (
-nsIContent
-*
-aParentContent
 nsStyleChangeList
 *
 aChangeList
@@ -653,9 +650,6 @@ aOldContext
 nsStyleContext
 *
 aNewContext
-nsIContent
-*
-aContent
 nsStyleChangeList
 *
 aChangeList
@@ -679,6 +673,16 @@ nsIFrame
 *
 const
 mFrame
+;
+nsIContent
+*
+const
+mParentContent
+;
+nsIContent
+*
+const
+mContent
 ;
 nsChangeHint
 mHintsHandled
