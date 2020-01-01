@@ -3269,11 +3269,9 @@ aNotify
 ;
 uint32_t
 len
-;
-GetLength
+=
+Length
 (
-&
-len
 )
 ;
 for
