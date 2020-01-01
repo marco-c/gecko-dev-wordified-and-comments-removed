@@ -1598,6 +1598,16 @@ PR_FALSE
 ;
 }
 virtual
+PRBool
+RenewSurface
+(
+)
+{
+return
+PR_FALSE
+;
+}
+virtual
 already_AddRefed
 <
 TextureImage
