@@ -36374,7 +36374,7 @@ chars
 str
 -
 >
-flatChars
+chars
 (
 )
 ;
