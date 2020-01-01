@@ -12759,6 +12759,15 @@ Record_EnterFrame
 }
 #
 endif
+if
+(
+!
+TRACE_RECORDER
+(
+cx
+)
+)
+{
 JSObject
 *
 scope
@@ -12832,6 +12841,7 @@ true
 goto
 inline_return
 ;
+}
 }
 op
 =
