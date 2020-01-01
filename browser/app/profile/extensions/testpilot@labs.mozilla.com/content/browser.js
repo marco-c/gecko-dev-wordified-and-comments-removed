@@ -696,6 +696,9 @@ setUpToolbarFeedbackButton
 if
 (
 TestPilotSetup
+&
+&
+TestPilotSetup
 .
 startupComplete
 )
