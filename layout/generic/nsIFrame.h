@@ -4672,10 +4672,6 @@ nsRect
 aRect
 =
 nsnull
-PRBool
-aImmediate
-=
-PR_FALSE
 )
 ;
 NS_IMETHOD
