@@ -2090,6 +2090,16 @@ onSyncOptions
 (
 )
 "
+onpageshow
+=
+"
+gSyncSetup
+.
+onPageShow
+(
+)
+;
+"
 >
 <
 vbox
