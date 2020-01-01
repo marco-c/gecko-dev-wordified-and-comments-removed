@@ -275,9 +275,6 @@ endif
 #
 !
 NO_DIST_INSTALL
-(
-LOOP_OVER_DIRS
-)
 ifndef
 NO_DIST_INSTALL
 ifneq
