@@ -19640,6 +19640,9 @@ then
 SKIP_COMPILER_CHECKS
 =
 1
+SKIP_LIBRARY_CHECKS
+=
+1
 fi
 if
 test

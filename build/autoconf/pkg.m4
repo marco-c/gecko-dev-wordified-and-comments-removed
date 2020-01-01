@@ -401,6 +401,13 @@ ifelse
 ]
 )
 else
+if
+test
+"
+COMPILE_ENVIRONMENT
+"
+;
+then
 ifelse
 (
 [
@@ -445,6 +452,7 @@ them
 4
 ]
 )
+fi
 fi
 ]
 )
