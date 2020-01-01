@@ -62,17 +62,12 @@ nsILocalFile
 h
 "
 #
-ifdef
-MOZ_TOOLKIT_SEARCH
-#
 include
 "
 nsIBrowserSearchService
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1506,9 +1501,6 @@ spec
 )
 ;
 }
-#
-ifdef
-MOZ_TOOLKIT_SEARCH
 nsCOMPtr
 <
 nsIBrowserSearchService
@@ -1660,8 +1652,6 @@ aURI
 }
 }
 }
-#
-endif
 return
 NS_ERROR_NOT_AVAILABLE
 ;
