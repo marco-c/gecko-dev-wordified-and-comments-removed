@@ -424,6 +424,14 @@ InputMethods
 .
 java
 \
+LightweightTheme
+.
+java
+\
+LightweightThemeDrawable
+.
+java
+\
 LinkPreference
 .
 java
