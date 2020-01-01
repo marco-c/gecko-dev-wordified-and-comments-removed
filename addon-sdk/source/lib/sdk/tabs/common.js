@@ -66,6 +66,15 @@ string
 inBackground
 :
 {
+map
+:
+function
+(
+v
+)
+!
+!
+v
 is
 :
 [

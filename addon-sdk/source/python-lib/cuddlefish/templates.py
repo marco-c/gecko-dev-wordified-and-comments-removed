@@ -10,6 +10,8 @@ main
 require
 (
 "
+.
+/
 main
 "
 )
@@ -81,6 +83,8 @@ done
 require
 (
 "
+sdk
+/
 test
 "
 )

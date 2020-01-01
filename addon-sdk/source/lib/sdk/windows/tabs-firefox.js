@@ -160,6 +160,7 @@ observer
 ;
 const
 {
+ignoreWindow
 isWindowPrivate
 }
 =
@@ -551,6 +552,15 @@ _window
 getOwnerWindow
 (
 tab
+)
+&
+&
+!
+ignoreWindow
+(
+this
+.
+_window
 )
 )
 {

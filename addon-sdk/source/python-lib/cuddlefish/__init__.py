@@ -6649,15 +6649,11 @@ manifest
 '
 ]
 =
-\
-        
 manifest
 .
 get_harness_options_manifest
 (
-options
-.
-bundle_sdk
+False
 )
     
 harness_options
@@ -7243,6 +7239,12 @@ verbose
 options
 .
 verbose
+                             
+parseable
+=
+options
+.
+parseable
                              
 enforce_timeouts
 =

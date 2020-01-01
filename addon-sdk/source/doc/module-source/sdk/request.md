@@ -1323,7 +1323,7 @@ status
 >
 property
 {
-string
+integer
 }
 The
 HTTP
