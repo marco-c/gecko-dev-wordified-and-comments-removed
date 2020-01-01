@@ -3,12 +3,12 @@ EXPORTED_SYMBOLS
 =
 [
 "
-JSON
+JSONModule
 "
 ]
 ;
 var
-JSON
+JSONModule
 =
 {
 toString

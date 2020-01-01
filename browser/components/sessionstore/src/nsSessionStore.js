@@ -12741,7 +12741,7 @@ aJSObject
 let
 str
 =
-JSON
+JSONModule
 .
 toString
 (
@@ -12762,7 +12762,7 @@ _formDataSaved
 if
 (
 !
-JSON
+JSONModule
 .
 isMostlyHarmless
 (

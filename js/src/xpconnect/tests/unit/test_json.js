@@ -12,7 +12,7 @@ a
 var
 res
 =
-JSON
+JSONModule
 .
 toString
 (
@@ -22,7 +22,7 @@ a
 if
 (
 !
-JSON
+JSONModule
 .
 isMostlyHarmless
 (
@@ -55,7 +55,7 @@ a
 {
 try
 {
-JSON
+JSONModule
 .
 toString
 (
@@ -91,7 +91,7 @@ a
 {
 try
 {
-JSON
+JSONModule
 .
 fromString
 (
@@ -134,7 +134,7 @@ gre
 /
 modules
 /
-JSON
+JSONModule
 .
 jsm
 "
@@ -144,7 +144,7 @@ do_check_eq
 (
 typeof
 (
-JSON
+JSONModule
 )
 "
 object
@@ -441,7 +441,7 @@ c
 ;
 do_check_eq
 (
-JSON
+JSONModule
 .
 toString
 (
@@ -484,7 +484,7 @@ toJSONString
 (
 obj
 )
-JSON
+JSONModule
 .
 toString
 (
@@ -494,7 +494,7 @@ obj
 ;
 do_check_eq
 (
-JSON
+JSONModule
 .
 fromString
 (
@@ -507,7 +507,7 @@ true
 ;
 do_check_eq
 (
-JSON
+JSONModule
 .
 fromString
 (
@@ -520,7 +520,7 @@ false
 ;
 do_check_eq
 (
-JSON
+JSONModule
 .
 fromString
 (
@@ -533,7 +533,7 @@ fromString
 ;
 do_check_eq
 (
-JSON
+JSONModule
 .
 fromString
 (
@@ -554,7 +554,7 @@ fromString
 ;
 do_check_eq
 (
-JSON
+JSONModule
 .
 fromString
 (
@@ -585,7 +585,7 @@ NaN
 ;
 do_check_eq
 (
-JSON
+JSONModule
 .
 fromString
 (
@@ -666,7 +666,7 @@ nline
 ;
 do_check_eq
 (
-JSON
+JSONModule
 .
 fromString
 (
@@ -690,7 +690,7 @@ isInvalidSyntax
 var
 res
 =
-JSON
+JSONModule
 .
 fromString
 (
@@ -735,7 +735,7 @@ Array
 ;
 res
 =
-JSON
+JSONModule
 .
 fromString
 (
@@ -797,7 +797,7 @@ c
 ;
 do_check_true
 (
-JSON
+JSONModule
 .
 isMostlyHarmless
 (
@@ -809,7 +809,7 @@ a
 ;
 do_check_true
 (
-JSON
+JSONModule
 .
 isMostlyHarmless
 (
@@ -824,7 +824,7 @@ a
 ;
 do_check_true
 (
-JSON
+JSONModule
 .
 isMostlyHarmless
 (
@@ -852,7 +852,7 @@ P0wn3d
 ;
 do_check_false
 (
-JSON
+JSONModule
 .
 isMostlyHarmless
 (
@@ -880,7 +880,7 @@ P0wn3d
 ;
 do_check_false
 (
-JSON
+JSONModule
 .
 isMostlyHarmless
 (
@@ -929,7 +929,7 @@ bigString
 ;
 do_check_eq
 (
-JSON
+JSONModule
 .
 fromString
 (
