@@ -2934,6 +2934,7 @@ Clone
 if
 (
 !
+*
 aBlock
 )
 {
