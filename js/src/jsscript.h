@@ -1529,6 +1529,11 @@ isGenerator
 1
 ;
 bool
+isGeneratorExp
+:
+1
+;
+bool
 hasScriptCounts
 :
 1
