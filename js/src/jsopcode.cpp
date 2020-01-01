@@ -11530,6 +11530,17 @@ SRC_WHILE
 +
 pc
 ;
+sn
+=
+js_GetSrcNote
+(
+jp
+-
+>
+script
+pc
+)
+;
 tail
 =
 js_GetSrcNoteOffset
@@ -11537,8 +11548,6 @@ js_GetSrcNoteOffset
 sn
 0
 )
--
-1
 ;
 LOCAL_ASSERT
 (
