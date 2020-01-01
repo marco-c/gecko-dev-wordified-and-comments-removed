@@ -152,6 +152,13 @@ return
 }
 if
 (
+mMaxDurations
+>
+0
+)
+{
+if
+(
 mDurations
 .
 Length
@@ -170,11 +177,6 @@ RemoveElementAt
 )
 ;
 }
-if
-(
-mMaxDurations
-)
-{
 mDurations
 .
 AppendElement
