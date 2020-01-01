@@ -804,7 +804,7 @@ style
 &
 prefWin
 .
-styleWin
+styleWin2
 ;
 "
 >
@@ -819,7 +819,7 @@ style
 &
 prefWin
 .
-styleMac
+styleMac2
 ;
 "
 >
@@ -831,7 +831,7 @@ style
 &
 prefWin
 .
-styleGNOME
+styleGNOME2
 ;
 "
 >

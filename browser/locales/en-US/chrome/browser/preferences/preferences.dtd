@@ -56,7 +56,7 @@ theme
 ENTITY
 prefWin
 .
-styleWin
+styleWin2
 "
 width
 :
@@ -66,7 +66,7 @@ min
 -
 height
 :
-44em
+39em
 ;
 "
 >
@@ -75,7 +75,7 @@ height
 ENTITY
 prefWin
 .
-styleMac
+styleMac2
 "
 width
 :
@@ -85,7 +85,7 @@ min
 -
 height
 :
-45em
+40em
 ;
 "
 >
@@ -94,7 +94,7 @@ height
 ENTITY
 prefWin
 .
-styleGNOME
+styleGNOME2
 "
 width
 :
@@ -104,7 +104,7 @@ min
 -
 height
 :
-44
+39
 .
 5em
 ;
