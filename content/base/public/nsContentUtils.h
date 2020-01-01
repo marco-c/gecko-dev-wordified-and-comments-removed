@@ -1095,6 +1095,16 @@ aResult
 )
 ;
 static
+PRInt32
+ParseLegacyFontSize
+(
+const
+nsAString
+&
+aValue
+)
+;
+static
 void
 Shutdown
 (
