@@ -7701,6 +7701,10 @@ CloseChannel
 )
 ;
 }
+finalListener
+=
+nullptr
+;
 LoadFallback
 (
 fallbackType
@@ -7833,6 +7837,10 @@ NS_ENSURE_TRUE
 (
 mIsLoading
 NS_OK
+)
+;
+CloseChannel
+(
 )
 ;
 LoadFallback
