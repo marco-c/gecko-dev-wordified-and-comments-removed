@@ -51,7 +51,7 @@ virtual
 void
 GetOptionText
 (
-int32_t
+uint32_t
 aIndex
 nsAString
 &
