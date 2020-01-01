@@ -181,6 +181,10 @@ browser_crashprompt
 .
 js
 \
+browser_inputsource
+.
+js
+\
 (
 NULL
 )
