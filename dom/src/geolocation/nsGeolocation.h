@@ -333,8 +333,6 @@ SendLocation
 nsIDOMGeoPosition
 *
 location
-bool
-aCachePosition
 )
 ;
 void
@@ -434,9 +432,6 @@ mAllowed
 ;
 bool
 mCleared
-;
-bool
-mIsFirstUpdate
 ;
 bool
 mIsWatchPositionRequest
