@@ -462,7 +462,7 @@ ranlib
 MKSHLIB
 =
 (
-CC
+CCC
 )
 -
 dynamiclib

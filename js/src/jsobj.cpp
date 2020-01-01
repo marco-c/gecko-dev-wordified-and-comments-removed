@@ -14741,6 +14741,8 @@ return
 ;
 return
 protoIndex
++
+1
 ;
 }
 obj
