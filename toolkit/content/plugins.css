@@ -131,7 +131,7 @@ text
 -
 align
 :
-left
+start
 ;
 font
 -
@@ -178,7 +178,7 @@ text
 -
 align
 :
-left
+start
 ;
 width
 :
@@ -236,9 +236,12 @@ td
 +
 td
 {
+-
+moz
+-
 border
 -
-left
+start
 :
 1px
 dotted
@@ -251,7 +254,7 @@ text
 -
 align
 :
-left
+start
 ;
 border
 -
