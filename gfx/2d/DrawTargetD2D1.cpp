@@ -812,6 +812,9 @@ ID2D1Bitmap
 >
 bitmap
 ;
+Matrix
+mat
+;
 RefPtr
 <
 ID2D1Image
@@ -821,9 +824,7 @@ image
 GetImageForSurface
 (
 aMask
-Matrix
-(
-)
+mat
 EXTEND_CLAMP
 )
 ;
