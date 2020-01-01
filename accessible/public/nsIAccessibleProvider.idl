@@ -793,6 +793,12 @@ XULTooltip
 =
 0x00001031
 ;
+const
+long
+XULToolbarButton
+=
+0x00001032
+;
 /
 *
 *
