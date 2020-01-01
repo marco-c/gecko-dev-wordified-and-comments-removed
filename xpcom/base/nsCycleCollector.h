@@ -304,14 +304,6 @@ nsCycleCollectionLanguageRuntime
 rt
 )
 ;
-nsCycleCollectionLanguageRuntime
-*
-nsCycleCollector_getRuntime
-(
-PRUint32
-langID
-)
-;
 void
 nsCycleCollector_forgetRuntime
 (
