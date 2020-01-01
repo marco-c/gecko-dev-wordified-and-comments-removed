@@ -175,11 +175,6 @@ NotifySetVersionFinished
 (
 )
 ;
-void
-BlockDatabase
-(
-)
-;
 protected
 :
 nsresult

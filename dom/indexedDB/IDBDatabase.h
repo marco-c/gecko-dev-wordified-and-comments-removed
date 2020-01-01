@@ -290,16 +290,6 @@ IsClosed
 (
 )
 ;
-void
-EnterSetVersionTransaction
-(
-)
-;
-void
-ExitSetVersionTransaction
-(
-)
-;
 private
 :
 IDBDatabase

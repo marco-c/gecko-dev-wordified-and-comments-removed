@@ -52,10 +52,6 @@ nextIndexId
 (
 1
 )
-runningVersionChange
-(
-false
-)
 {
 }
 #
@@ -126,9 +122,6 @@ nextObjectStoreId
 ;
 PRInt64
 nextIndexId
-;
-bool
-runningVersionChange
 ;
 nsAutoRefCnt
 referenceCount
