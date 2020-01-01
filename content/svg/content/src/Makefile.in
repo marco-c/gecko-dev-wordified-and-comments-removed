@@ -933,7 +933,15 @@ FORCE_STATIC_LIB
 EXPORTS
 =
 \
+nsSVGElement
+.
+h
+\
 nsSVGFeatures
+.
+h
+\
+nsSVGLength2
 .
 h
 \
