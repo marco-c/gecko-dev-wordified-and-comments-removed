@@ -2063,6 +2063,7 @@ window
 ;
 for
 (
+let
 i
 =
 0
