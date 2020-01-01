@@ -22,7 +22,9 @@ h
 #
 include
 <
-stdint
+mozilla
+/
+StandardInteger
 .
 h
 >
