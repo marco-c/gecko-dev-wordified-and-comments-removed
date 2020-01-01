@@ -1357,6 +1357,10 @@ browser_bug767836_perwindowpb
 .
 js
 \
+browser_bug816527
+.
+js
+\
 browser_private_browsing_window
 .
 js
