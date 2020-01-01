@@ -1063,7 +1063,7 @@ nsXPIDLCString
 contentType
 ;
 nsCAutoString
-filePath
+fileExt
 ;
 nsCOMPtr
 <
@@ -1086,7 +1086,7 @@ localFile
 &
 desiredImageSize
 contentType
-filePath
+fileExt
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1107,6 +1107,9 @@ PRBool
 fileExists
 =
 PR_FALSE
+;
+nsCAutoString
+filePath
 ;
 if
 (
@@ -1271,7 +1274,7 @@ rv
 )
 ;
 nsCAutoString
-fileExt
+defFileExt
 ;
 mimeService
 -
@@ -1279,10 +1282,8 @@ mimeService
 GetPrimaryExtension
 (
 contentType
-EmptyCString
-(
-)
 fileExt
+defFileExt
 )
 ;
 filePath
@@ -1294,7 +1295,7 @@ NS_LITERAL_CSTRING
 "
 )
 +
-fileExt
+defFileExt
 ;
 }
 rv
