@@ -275,6 +275,10 @@ GetContentState
 nsIContent
 *
 aContent
+PRBool
+aFollowLabels
+=
+PR_FALSE
 )
 ;
 virtual
