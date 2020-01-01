@@ -14136,6 +14136,15 @@ result
 {
 Value
 rval
+#
+ifdef
+__GNUC__
+=
+UndefinedValue
+(
+)
+#
+endif
 ;
 if
 (
