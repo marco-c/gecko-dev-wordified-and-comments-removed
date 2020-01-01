@@ -4838,9 +4838,9 @@ viewerToRebuild
 .
 _self
 .
-_rebuild
-(
-)
+_built
+=
+false
 ;
 else
 this
