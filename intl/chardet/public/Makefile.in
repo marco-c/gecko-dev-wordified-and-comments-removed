@@ -460,15 +460,7 @@ nsICharsetDetector
 .
 h
 \
-nsIMetaCharsetService
-.
-h
-\
 nsIStringCharsetDetector
-.
-h
-\
-nsIXMLEncodingService
 .
 h
 \

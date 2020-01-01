@@ -25,13 +25,6 @@ uconvutil
 .
 h
 "
-#
-include
-"
-nsICharRepresentable
-.
-h
-"
 NS_METHOD
 CreateMultiTableDecoder
 (

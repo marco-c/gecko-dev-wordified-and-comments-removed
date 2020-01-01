@@ -88,14 +88,6 @@ PRUnichar
 aChar
 )
 ;
-NS_IMETHOD
-FillInfo
-(
-PRUint32
-*
-aInfo
-)
-;
 protected
 :
 PRUnichar

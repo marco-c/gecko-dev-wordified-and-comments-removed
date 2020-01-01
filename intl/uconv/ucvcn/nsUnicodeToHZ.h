@@ -62,14 +62,6 @@ aDestLength
 )
 ;
 NS_IMETHOD
-FillInfo
-(
-PRUint32
-*
-aInfo
-)
-;
-NS_IMETHOD
 ConvertNoBuffNoErr
 (
 const

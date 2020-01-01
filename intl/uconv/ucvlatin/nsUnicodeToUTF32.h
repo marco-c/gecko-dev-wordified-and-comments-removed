@@ -68,14 +68,6 @@ NS_OK
 ;
 }
 NS_IMETHOD
-FillInfo
-(
-PRUint32
-*
-aInfo
-)
-;
-NS_IMETHOD
 SetOutputErrorBehavior
 (
 PRInt32

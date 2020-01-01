@@ -983,12 +983,6 @@ nsFontCache
 <
 font
 >
-nsFontMetricsGTK
-:
-:
-<
-font
->
 nsFont
 :
 :

@@ -27,14 +27,6 @@ char
 aEscChar
 )
 ;
-NS_IMETHOD
-FillInfo
-(
-PRUint32
-*
-aInfo
-)
-;
 protected
 :
 PRInt32

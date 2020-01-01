@@ -16,8 +16,6 @@ nsUnicodeToJamoTTF
 :
 public
 nsIUnicodeEncoder
-public
-nsICharRepresentable
 {
 NS_DECL_ISUPPORTS
 public
@@ -90,14 +88,6 @@ nsIUnicharEncoder
 aEncoder
 PRUnichar
 aChar
-)
-;
-NS_IMETHOD
-FillInfo
-(
-PRUint32
-*
-aInfo
 )
 ;
 protected

@@ -387,10 +387,6 @@ nsUnicharUtils
 .
 cpp
 \
-nsCompressedCharMap
-.
-cpp
-\
 nsBidiUtils
 .
 cpp
