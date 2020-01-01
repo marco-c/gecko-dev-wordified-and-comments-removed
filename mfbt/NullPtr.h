@@ -40,7 +40,7 @@ __GNUC__
 if
 defined
 (
-_GXX_EXPERIMENTAL_CXX0X__
+__GXX_EXPERIMENTAL_CXX0X__
 )
 |
 |
