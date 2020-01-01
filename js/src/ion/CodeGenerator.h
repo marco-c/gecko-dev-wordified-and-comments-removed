@@ -731,14 +731,6 @@ ins
 )
 ;
 bool
-visitCallDeleteProperty
-(
-LCallDeleteProperty
-*
-lir
-)
-;
-bool
 visitBitNotV
 (
 LBitNotV

@@ -1188,14 +1188,6 @@ atom
 )
 ;
 bool
-jsop_delprop
-(
-JSAtom
-*
-atom
-)
-;
-bool
 jsop_newarray
 (
 uint32
