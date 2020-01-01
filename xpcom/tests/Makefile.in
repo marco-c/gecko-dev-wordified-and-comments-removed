@@ -435,6 +435,15 @@ DIRS
 =
 windows
 endif
+ifdef
+DEHYDRA_PATH
+DIRS
++
+=
+static
+-
+checker
+endif
 REQUIRES
 =
 \
