@@ -238,13 +238,6 @@ aPluginTag
 >
 mIsJavaPlugin
 )
-mIsNPRuntimeEnabledJavaPlugin
-(
-aPluginTag
--
->
-mIsNPRuntimeEnabledJavaPlugin
-)
 mIsFlashPlugin
 (
 aPluginTag
@@ -316,10 +309,6 @@ mLibrary
 nsnull
 )
 mIsJavaPlugin
-(
-false
-)
-mIsNPRuntimeEnabledJavaPlugin
 (
 false
 )
@@ -450,10 +439,6 @@ mLibrary
 nsnull
 )
 mIsJavaPlugin
-(
-false
-)
-mIsNPRuntimeEnabledJavaPlugin
 (
 false
 )
@@ -631,10 +616,6 @@ npruntime
 0
 )
 {
-mIsNPRuntimeEnabledJavaPlugin
-=
-true
-;
 continue
 ;
 }
