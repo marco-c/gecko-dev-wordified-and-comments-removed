@@ -669,6 +669,10 @@ html
 \
 test_events_focus
 .
+html
+\
+test_events_focus
+.
 xul
 \
 test_events_mutation
