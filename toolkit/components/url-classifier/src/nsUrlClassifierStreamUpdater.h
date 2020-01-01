@@ -178,6 +178,12 @@ mIsUpdating
 PRBool
 mInitialized
 ;
+PRBool
+mDownloadError
+;
+PRBool
+mBeganStream
+;
 nsCOMPtr
 <
 nsIURI
