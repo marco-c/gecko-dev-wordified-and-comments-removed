@@ -120,10 +120,9 @@ IUnknown
 *
 >
 (
-nsMemory
 :
 :
-Alloc
+CoTaskMemAlloc
 (
 (
 length
@@ -280,10 +279,9 @@ idx2
 NULL
 ;
 }
-nsMemory
 :
 :
-Free
+CoTaskMemFree
 (
 *
 aIA2Array
