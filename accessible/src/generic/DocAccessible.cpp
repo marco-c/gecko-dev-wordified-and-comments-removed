@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsAccessibilityService
-.
-h
-"
-#
-include
-"
 nsAccessiblePivot
 .
 h
@@ -83,13 +76,6 @@ h
 include
 "
 RootAccessible
-.
-h
-"
-#
-include
-"
-States
 .
 h
 "

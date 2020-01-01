@@ -112,6 +112,10 @@ test_doc
 .
 html
 \
+test_doc_busy
+.
+html
+\
 test_docarticle
 .
 html
