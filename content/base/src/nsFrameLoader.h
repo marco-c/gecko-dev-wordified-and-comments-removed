@@ -1004,6 +1004,11 @@ nsGkAtoms
 mozframetype
 ;
 }
+void
+ResetPermissionManagerStatus
+(
+)
+;
 nsCOMPtr
 <
 nsIDocShell
@@ -1025,6 +1030,9 @@ dom
 Element
 *
 mOwnerContent
+;
+uint32_t
+mAppIdSentToPermissionManager
 ;
 public
 :
