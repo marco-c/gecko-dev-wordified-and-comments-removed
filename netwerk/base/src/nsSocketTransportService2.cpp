@@ -4265,11 +4265,6 @@ mProbedMaxCount
 =
 true
 ;
-int32_t
-startedMaxCount
-=
-gMaxCount
-;
 struct
 PRPollDesc
 pfd
