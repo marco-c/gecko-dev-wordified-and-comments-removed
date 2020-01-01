@@ -193,6 +193,9 @@ init
 final
 Context
 context
+final
+String
+packagePath
 )
 {
 GeckoBackgroundThread
@@ -260,9 +263,17 @@ state
 =
 =
 STATE_NONE
+&
+&
+packagePath
+=
+=
+null
 )
+{
 return
 ;
+}
 if
 (
 state
@@ -303,6 +314,7 @@ distributionSet
 copyFiles
 (
 context
+packagePath
 )
 ;
 }
@@ -397,6 +409,8 @@ copyFiles
 (
 Context
 context
+String
+packagePath
 )
 throws
 IOException
@@ -407,11 +421,7 @@ applicationPackage
 new
 File
 (
-context
-.
-getPackageResourcePath
-(
-)
+packagePath
 )
 ;
 ZipFile
