@@ -870,6 +870,7 @@ _update
 notification
 .
 anchorElement
+true
 )
 ;
 }
@@ -2160,6 +2161,9 @@ function
 PopupNotifications_update
 (
 anchor
+dismissShowing
+=
+false
 )
 {
 if
@@ -2305,6 +2309,11 @@ updateNotShowing
 "
 )
 ;
+if
+(
+!
+dismissShowing
+)
 this
 .
 _dismiss
