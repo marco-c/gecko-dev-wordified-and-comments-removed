@@ -13311,9 +13311,7 @@ already
 ;
 NS_ENSURE_FALSE
 (
-GetBFCacheEntry
-(
-)
+mShellIsHidden
 NS_ERROR_FAILURE
 )
 ;
