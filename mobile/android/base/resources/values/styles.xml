@@ -1060,7 +1060,7 @@ android
 :
 attr
 /
-textColorLinkInverse
+textColorLink
 <
 /
 item
@@ -1182,7 +1182,7 @@ android
 :
 attr
 /
-textColorLinkInverse
+textColorLink
 <
 /
 item
@@ -1304,7 +1304,7 @@ android
 :
 attr
 /
-textColorLinkInverse
+textColorLink
 <
 /
 item
@@ -1446,7 +1446,7 @@ android
 :
 attr
 /
-textColorLinkInverse
+textColorLink
 <
 /
 item
@@ -1588,7 +1588,7 @@ android
 :
 attr
 /
-textColorLinkInverse
+textColorLink
 <
 /
 item
