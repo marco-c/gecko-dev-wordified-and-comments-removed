@@ -72,6 +72,8 @@ Date
 now
 (
 )
+*
+1000
 null
 aType
 false

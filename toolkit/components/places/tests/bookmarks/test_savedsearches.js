@@ -734,6 +734,8 @@ Date
 now
 (
 )
+*
+1000
 )
 ;
 var
@@ -981,6 +983,8 @@ Date
 now
 (
 )
+*
+1000
 )
 ;
 do_check_eq
