@@ -2259,11 +2259,9 @@ M_PI
 4
 )
 *
-(
-3
-/
-2
-)
+1
+.
+5
 ;
 gfxIntSize
 gfxAlphaBoxBlur

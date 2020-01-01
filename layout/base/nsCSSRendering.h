@@ -688,6 +688,16 @@ GetContext
 (
 )
 ;
+static
+nsMargin
+GetBlurRadiusMargin
+(
+nscoord
+aBlurRadius
+PRInt32
+aAppUnitsPerDevPixel
+)
+;
 protected
 :
 gfxAlphaBoxBlur
