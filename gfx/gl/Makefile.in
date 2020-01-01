@@ -125,6 +125,10 @@ ForceDiscreteGPUHelperCGL
 .
 h
 \
+GLTextureImage
+.
+h
+\
 (
 NULL
 )
@@ -199,6 +203,10 @@ GLContextUtils
 cpp
 \
 GLLibraryLoader
+.
+cpp
+\
+GLTextureImage
 .
 cpp
 \
