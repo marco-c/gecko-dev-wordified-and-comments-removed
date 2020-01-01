@@ -908,6 +908,13 @@ patch
 -
 p3
 <
+oggplay_os2
+.
+patch
+patch
+-
+p3
+<
 bug498815
 .
 patch
