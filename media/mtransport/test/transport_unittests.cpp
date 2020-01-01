@@ -657,7 +657,7 @@ res
 ;
 EXPECT_EQ
 (
-20
+20u
 fingerprint_len_
 )
 ;
