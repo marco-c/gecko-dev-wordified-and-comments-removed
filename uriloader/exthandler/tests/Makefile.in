@@ -511,3 +511,11 @@ config
 rules
 .
 mk
+export
+PERSONAL_MAILCAP
+=
+(
+CURDIR
+)
+/
+mailcap
