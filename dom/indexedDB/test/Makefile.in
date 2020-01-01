@@ -667,6 +667,10 @@ test_transaction_lifetimes_nested
 .
 html
 \
+test_transaction_ordering
+.
+html
+\
 test_setVersion
 .
 html
