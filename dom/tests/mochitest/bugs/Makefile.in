@@ -708,6 +708,10 @@ iframe_bug534362
 .
 html
 \
+test_bug531542
+.
+html
+\
 (
 NULL
 )
