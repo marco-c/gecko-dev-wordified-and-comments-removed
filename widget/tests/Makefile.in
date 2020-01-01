@@ -420,13 +420,8 @@ MOZ_WIDGET_TOOLKIT
 )
 windows
 )
-ifneq
-(
-(
-OS_ARCH
-)
-WINCE
-)
+ifdef
+NS_ENABLE_TSF
 CPP_UNIT_TESTS
 +
 =
