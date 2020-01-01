@@ -658,6 +658,17 @@ f
 ;
 void
 JS_FASTCALL
+ArgSub
+(
+VMFrame
+&
+f
+uint32
+n
+)
+;
+void
+JS_FASTCALL
 EnterBlock
 (
 VMFrame
