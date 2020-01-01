@@ -913,6 +913,8 @@ EXIT_FAILURE
 ;
 }
 }
+#
+endif
 printf
 (
 "
@@ -933,8 +935,6 @@ dummy1
 )
 )
 ;
-#
-endif
 printf
 (
 "
