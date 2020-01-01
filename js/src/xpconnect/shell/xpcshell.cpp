@@ -3946,10 +3946,10 @@ file
 stdin
 ;
 }
+else
 #
 ifdef
 HAVE_ISATTY
-else
 if
 (
 !
@@ -3961,6 +3961,8 @@ file
 )
 )
 )
+#
+endif
 {
 int
 ch
@@ -4077,8 +4079,6 @@ cx
 return
 ;
 }
-#
-endif
 lineno
 =
 1
