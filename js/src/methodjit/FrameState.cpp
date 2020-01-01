@@ -919,7 +919,7 @@ inRegister
 {
 masm
 .
-storeData32
+storePayload
 (
 fe
 -
@@ -967,7 +967,7 @@ DATA
 ;
 masm
 .
-loadData32
+loadPayload
 (
 addressOf
 (
@@ -978,7 +978,7 @@ reg
 ;
 masm
 .
-storeData32
+storePayload
 (
 reg
 address
@@ -1019,12 +1019,12 @@ masm
 .
 storeTypeTag
 (
-ImmTag
+ImmType
 (
 fe
 -
 >
-getKnownTag
+getKnownType
 (
 )
 )
@@ -1857,12 +1857,12 @@ masm
 .
 storeTypeTag
 (
-ImmTag
+ImmType
 (
 fe
 -
 >
-getKnownTag
+getKnownType
 (
 )
 )
@@ -1903,7 +1903,7 @@ synced
 )
 masm
 .
-storeData32
+storePayload
 (
 backing
 -
@@ -2775,7 +2775,7 @@ inRegister
 )
 masm
 .
-loadData32
+loadPayload
 (
 addressOf
 (
@@ -3031,7 +3031,7 @@ reg
 else
 masm
 .
-loadData32
+loadPayload
 (
 addressOf
 (
@@ -4033,7 +4033,7 @@ allocReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 addressOf
 (
@@ -4140,7 +4140,7 @@ allocReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 addressOf
 (
@@ -5367,12 +5367,12 @@ masm
 .
 storeTypeTag
 (
-ImmTag
+ImmType
 (
 backing
 -
 >
-getKnownTag
+getKnownType
 (
 )
 )

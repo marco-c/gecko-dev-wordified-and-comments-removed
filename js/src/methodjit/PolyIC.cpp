@@ -1504,7 +1504,7 @@ masm
 .
 storeTypeTag
 (
-ImmTag
+ImmType
 (
 pic
 .
@@ -1518,7 +1518,7 @@ s
 .
 type
 .
-tag
+knownType
 )
 address
 )
@@ -1546,7 +1546,7 @@ address
 ;
 masm
 .
-storeData32
+storePayload
 (
 pic
 .
@@ -1800,7 +1800,7 @@ shapeReg
 ;
 masm
 .
-loadData32
+load32
 (
 address
 pic
@@ -1885,7 +1885,7 @@ Value
 ;
 masm
 .
-loadData32
+load32
 (
 privSlot
 pic
@@ -3067,7 +3067,7 @@ js_SlowArrayClass
 ;
 masm
 .
-loadData32
+load32
 (
 Address
 (
@@ -3402,7 +3402,7 @@ masm
 ;
 masm
 .
-loadData32
+load32
 (
 Address
 (
@@ -3930,16 +3930,16 @@ masm
 .
 storeTypeTag
 (
-ImmTag
+ImmType
 (
-JSVAL_TAG_STRING
+JSVAL_TYPE_STRING
 )
 thisv
 )
 ;
 masm
 .
-storeData32
+storePayload
 (
 pic
 .
@@ -4774,7 +4774,7 @@ JSStackFrame
 )
 masm
 .
-loadData32
+load32
 (
 Address
 (
@@ -6257,7 +6257,7 @@ JSStackFrame
 )
 masm
 .
-loadData32
+load32
 (
 Address
 (
@@ -6327,7 +6327,7 @@ JSStackFrame
 )
 masm
 .
-loadData32
+load32
 (
 Address
 (
@@ -7628,7 +7628,7 @@ cx
 ;
 masm
 .
-loadData32
+load32
 (
 Address
 (
@@ -7890,7 +7890,7 @@ Value
 ;
 masm
 .
-loadData32
+load32
 (
 parent
 pic
@@ -8006,7 +8006,7 @@ JSSLOT_PRIVATE
 ;
 masm
 .
-loadData32
+load32
 (
 privSlot
 pic
@@ -8106,7 +8106,7 @@ Value
 ;
 masm
 .
-loadData32
+loadPayload
 (
 addr
 pic
@@ -8217,7 +8217,7 @@ shapeReg
 ;
 masm
 .
-loadData32
+loadPayload
 (
 dslot
 pic
@@ -8899,7 +8899,7 @@ cx
 ;
 masm
 .
-loadData32
+load32
 (
 Address
 (
@@ -9013,7 +9013,7 @@ chain
 ;
 masm
 .
-loadData32
+load32
 (
 parent
 pic
