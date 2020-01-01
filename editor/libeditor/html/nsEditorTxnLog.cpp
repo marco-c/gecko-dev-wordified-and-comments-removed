@@ -1243,13 +1243,11 @@ char
 aBuffer
 )
 {
-if
+NS_ENSURE_TRUE
 (
-!
 aBuffer
-)
-return
 NS_ERROR_NULL_POINTER
+)
 ;
 if
 (

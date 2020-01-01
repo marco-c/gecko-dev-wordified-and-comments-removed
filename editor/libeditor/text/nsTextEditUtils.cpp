@@ -229,13 +229,11 @@ nsIEditor
 editor
 )
 {
-if
+NS_ENSURE_TRUE
 (
-!
 node
-)
-return
 PR_FALSE
+)
 ;
 nsCOMPtr
 <

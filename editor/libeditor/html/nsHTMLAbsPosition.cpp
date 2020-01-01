@@ -1030,14 +1030,12 @@ PR_FALSE
 aReturn
 )
 ;
-if
+NS_ENSURE_TRUE
 (
-!
 *
 aReturn
-)
-return
 NS_ERROR_FAILURE
+)
 ;
 nsCOMPtr
 <
