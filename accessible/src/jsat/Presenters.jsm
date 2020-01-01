@@ -1220,6 +1220,9 @@ vcDoc
 virtualCursor
 .
 position
+|
+|
+aObject
 context
 )
 ;
