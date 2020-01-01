@@ -506,7 +506,7 @@ using
 NPEvent
 ;
 using
-NPWindow
+NPRemoteWindow
 ;
 using
 NPReason
@@ -541,7 +541,7 @@ child
 rpc
 NPP_SetWindow
 (
-NPWindow
+NPRemoteWindow
 window
 )
 returns
