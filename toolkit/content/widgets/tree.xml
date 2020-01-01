@@ -4815,11 +4815,6 @@ event
 "
 DOMMouseScroll
 "
-phase
-=
-"
-capturing
-"
 >
 <
 !
