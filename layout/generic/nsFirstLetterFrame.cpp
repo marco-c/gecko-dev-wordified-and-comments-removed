@@ -864,15 +864,13 @@ GetFirstLetterStyleOK
 )
 |
 |
-GetPrevInFlow
+GetPrevContinuation
 (
 )
 "
 First
 -
-in
--
-flow
+continuation
 first
 -
 letter
