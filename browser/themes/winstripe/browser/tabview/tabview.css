@@ -1146,7 +1146,7 @@ groupItem
 {
 cursor
 :
-move
+pointer
 ;
 background
 -
@@ -2286,6 +2286,10 @@ rgba
 .
 titlebar
 {
+cursor
+:
+move
+;
 font
 -
 size
