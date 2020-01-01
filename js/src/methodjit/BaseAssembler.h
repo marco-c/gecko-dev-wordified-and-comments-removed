@@ -6558,10 +6558,15 @@ i
 +
 +
 )
+{
 storeValue
 (
-UndefinedValue
+templateObject
+-
+>
+getFixedSlot
 (
+i
 )
 Address
 (
@@ -6576,6 +6581,7 @@ i
 )
 )
 ;
+}
 }
 return
 jump

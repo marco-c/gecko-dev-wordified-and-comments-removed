@@ -32,6 +32,15 @@ jsstrinlines
 .
 h
 "
+#
+include
+"
+RegExpStatics
+-
+inl
+.
+h
+"
 inline
 js
 :

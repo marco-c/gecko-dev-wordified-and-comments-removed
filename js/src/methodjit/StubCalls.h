@@ -780,8 +780,7 @@ JSFunction
 fun
 )
 ;
-JSObject
-*
+void
 JS_FASTCALL
 RegExp
 (

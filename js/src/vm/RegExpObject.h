@@ -1084,6 +1084,17 @@ JSContext
 cx
 )
 ;
+size_t
+*
+addressOfRefCount
+(
+)
+{
+return
+&
+refCount
+;
+}
 JSLinearString
 *
 getSource

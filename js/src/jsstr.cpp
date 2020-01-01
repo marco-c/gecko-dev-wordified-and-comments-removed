@@ -8300,8 +8300,10 @@ v
 )
 ;
 }
-static
 JSBool
+js
+:
+:
 str_match
 (
 JSContext
@@ -8499,8 +8501,10 @@ return
 true
 ;
 }
-static
 JSBool
+js
+:
+:
 str_search
 (
 JSContext
@@ -12942,8 +12946,10 @@ true
 }
 }
 ;
-static
 JSBool
+js
+:
+:
 str_split
 (
 JSContext

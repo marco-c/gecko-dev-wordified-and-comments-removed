@@ -1490,6 +1490,7 @@ res
 >
 setMultiline
 (
+cx
 !
 !
 JSVAL_TO_BOOLEAN
