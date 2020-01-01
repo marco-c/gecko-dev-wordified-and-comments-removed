@@ -56,6 +56,13 @@ xptinfo
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 struct
 nsXPTCMiniVariant
 {
@@ -103,6 +110,9 @@ wc
 void
 *
 p
+;
+jsval
+j
 ;
 }
 val
