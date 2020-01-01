@@ -1448,6 +1448,15 @@ receiveAnySequence
 (
 )
 ;
+sequence
+<
+any
+>
+?
+receiveNullableAnySequence
+(
+)
+;
 /
 /
 Typed

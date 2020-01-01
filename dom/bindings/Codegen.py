@@ -21912,6 +21912,9 @@ def
 typeNeedsCx
 (
 type
+retVal
+=
+False
 )
 :
     
@@ -21923,6 +21926,20 @@ None
         
 return
 False
+    
+if
+type
+.
+nullable
+(
+)
+:
+        
+type
+=
+type
+.
+inner
     
 if
 type
@@ -21970,6 +21987,19 @@ unroll
 .
 flatMemberTypes
 )
+    
+if
+retVal
+and
+type
+.
+isSpiderMonkeyInterface
+(
+)
+:
+        
+return
+True
     
 return
 type
@@ -22657,6 +22687,7 @@ needsCx
 typeNeedsCx
 (
 returnType
+True
 )
 or
                    
@@ -27661,10 +27692,6 @@ s
 self
 .
 descriptor
-.
-interface
-.
-identifier
 .
 name
         

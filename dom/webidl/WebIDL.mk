@@ -119,6 +119,10 @@ FileList
 .
 webidl
 \
+FileReaderSync
+.
+webidl
+\
 HTMLCollection
 .
 webidl
