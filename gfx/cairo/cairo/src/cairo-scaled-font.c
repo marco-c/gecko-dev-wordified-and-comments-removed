@@ -1460,8 +1460,7 @@ hash
 ^
 =
 (
-unsigned
-long
+uintptr_t
 )
 scaled_font
 -
@@ -9500,8 +9499,7 @@ cache_entry
 hash
 =
 (
-unsigned
-long
+uintptr_t
 )
 scaled_font
 ;

@@ -30,8 +30,7 @@ typedef
 struct
 _cairo_cache_entry
 {
-unsigned
-long
+uintptr_t
 hash
 ;
 unsigned
