@@ -18010,6 +18010,7 @@ aUrl
 aName
 aOptions
 PR_FALSE
+PR_FALSE
 PR_TRUE
 PR_FALSE
 nsnull
@@ -18213,6 +18214,7 @@ name
 options
 PR_FALSE
 PR_FALSE
+PR_FALSE
 PR_TRUE
 nsnull
 nsnull
@@ -18258,6 +18260,7 @@ aUrl
 aName
 aOptions
 PR_TRUE
+PR_FALSE
 PR_TRUE
 PR_FALSE
 nsnull
@@ -18510,6 +18513,7 @@ url
 name
 options
 PR_TRUE
+PR_FALSE
 PR_FALSE
 PR_FALSE
 argvArray
@@ -20599,6 +20603,7 @@ EmptyString
 )
 options
 PR_FALSE
+PR_TRUE
 PR_TRUE
 PR_FALSE
 nsnull
@@ -25610,6 +25615,8 @@ aOptions
 PRBool
 aDialog
 PRBool
+aContentModal
+PRBool
 aCalledNoScript
 PRBool
 aDoJSFixups
@@ -25639,6 +25646,7 @@ aUrl
 aName
 aOptions
 aDialog
+aContentModal
 aCalledNoScript
 aDoJSFixups
 argv
@@ -26158,12 +26166,21 @@ nsCOMPtr
 nsIJSContextStack
 >
 stack
+;
+if
+(
+!
+aContentModal
+)
+{
+stack
 =
 do_GetService
 (
 sJSStackContractID
 )
 ;
+}
 if
 (
 stack

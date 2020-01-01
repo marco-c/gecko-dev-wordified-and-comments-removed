@@ -1489,6 +1489,8 @@ aOptions
 PRBool
 aDialog
 PRBool
+aContentModal
+PRBool
 aCalledNoScript
 PRBool
 aDoJSFixups

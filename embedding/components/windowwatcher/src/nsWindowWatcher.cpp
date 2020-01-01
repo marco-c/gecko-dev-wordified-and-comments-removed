@@ -5495,7 +5495,12 @@ forceEnable
 &
 &
 !
+(
 aDialog
+&
+&
+isChrome
+)
 &
 &
 \
