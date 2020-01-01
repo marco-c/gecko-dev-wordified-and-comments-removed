@@ -669,6 +669,12 @@ return
 mEnabled
 ;
 }
+bool
+IsToggling
+(
+)
+const
+;
 protected
 :
 BluetoothService
@@ -676,10 +682,6 @@ BluetoothService
 )
 :
 mEnabled
-(
-false
-)
-mSettingsCheckInProgress
 (
 false
 )
@@ -811,9 +813,6 @@ mLiveManagers
 ;
 bool
 mEnabled
-;
-bool
-mSettingsCheckInProgress
 ;
 #
 ifdef

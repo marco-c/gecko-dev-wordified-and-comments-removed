@@ -49,6 +49,11 @@ RawDBusConnection
 {
 public
 :
+bool
+IsReady
+(
+)
+;
 virtual
 nsresult
 StartInternal
