@@ -1777,7 +1777,7 @@ user_pref
 "
 dom
 .
-_allow_script_to_close_windows
+allow_script_to_close_windows
 "
 true
 )
