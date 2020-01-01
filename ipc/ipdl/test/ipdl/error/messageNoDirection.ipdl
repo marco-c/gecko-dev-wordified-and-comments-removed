@@ -1,0 +1,9 @@
+protocol
+messageNoDirection
+{
+NoDirection
+(
+)
+;
+}
+;
