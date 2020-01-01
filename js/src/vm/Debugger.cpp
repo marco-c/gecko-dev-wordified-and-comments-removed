@@ -2588,7 +2588,6 @@ dbg
 handleUncaughtException
 (
 ac
-NULL
 false
 )
 ;
@@ -5111,7 +5110,6 @@ dsobj
 handleUncaughtException
 (
 ac
-NULL
 false
 )
 ;
@@ -5163,7 +5161,6 @@ rv
 handleUncaughtException
 (
 ac
-NULL
 true
 )
 ;
@@ -6874,7 +6871,6 @@ return
 handleUncaughtException
 (
 ac
-NULL
 false
 )
 ;
