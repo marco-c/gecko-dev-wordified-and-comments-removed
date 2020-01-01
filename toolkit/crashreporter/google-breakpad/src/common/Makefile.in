@@ -215,7 +215,7 @@ srcdir
 )
 /
 android
-SSRCS
+DISABLED_SSRCS
 :
 =
 breakpad_getcontext

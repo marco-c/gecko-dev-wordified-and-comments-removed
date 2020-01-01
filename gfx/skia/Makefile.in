@@ -553,7 +553,7 @@ GNU_CC
 )
 arm_1
 )
-SSRCS
+DISABLED_SSRCS
 +
 =
 memset

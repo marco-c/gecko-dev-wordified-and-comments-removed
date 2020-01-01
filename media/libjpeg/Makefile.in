@@ -377,7 +377,7 @@ simd
 jsimd_arm
 .
 c
-SSRCS
+DISABLED_SSRCS
 +
 =
 simd

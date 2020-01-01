@@ -678,7 +678,7 @@ arm
 simd
 .
 c
-SSRCS
+DISABLED_SSRCS
 +
 =
 pixman
@@ -719,7 +719,7 @@ arm
 neon
 .
 c
-SSRCS
+DISABLED_SSRCS
 +
 =
 pixman
@@ -731,7 +731,7 @@ neon
 asm
 .
 S
-SSRCS
+DISABLED_SSRCS
 +
 =
 pixman
