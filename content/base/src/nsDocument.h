@@ -2268,9 +2268,9 @@ static
 nsresult
 GetElementsByClassNameHelper
 (
-nsIContent
+nsINode
 *
-aContent
+aRootNode
 const
 nsAString
 &
