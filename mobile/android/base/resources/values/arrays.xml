@@ -27,7 +27,7 @@ array
 name
 =
 "
-pref_enable_plugins_entries
+pref_plugins_entries
 "
 >
 <
@@ -35,7 +35,7 @@ item
 >
 string
 /
-pref_enable_plugins_yes
+pref_plugins_enabled
 <
 /
 item
@@ -45,7 +45,7 @@ item
 >
 string
 /
-pref_enable_plugins_tap_to_play
+pref_plugins_tap_to_play
 <
 /
 item
@@ -55,7 +55,7 @@ item
 >
 string
 /
-pref_enable_plugins_no
+pref_plugins_disabled
 <
 /
 item
@@ -73,7 +73,7 @@ array
 name
 =
 "
-pref_enable_plugins_values
+pref_plugins_values
 "
 >
 <

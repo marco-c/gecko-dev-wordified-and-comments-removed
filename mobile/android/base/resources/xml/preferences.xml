@@ -172,7 +172,7 @@ title
 "
 string
 /
-pref_enable_plugins
+pref_plugins
 "
 android
 :
@@ -181,7 +181,7 @@ entries
 "
 array
 /
-pref_enable_plugins_entries
+pref_plugins_entries
 "
 android
 :
@@ -190,7 +190,7 @@ entryValues
 "
 array
 /
-pref_enable_plugins_values
+pref_plugins_values
 "
 android
 :
