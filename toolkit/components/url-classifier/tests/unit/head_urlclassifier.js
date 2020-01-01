@@ -690,6 +690,7 @@ streamFinished
 :
 function
 (
+status
 )
 {
 }
