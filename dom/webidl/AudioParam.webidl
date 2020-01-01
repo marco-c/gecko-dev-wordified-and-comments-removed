@@ -269,13 +269,9 @@ the
 desired
 duration
 .
-/
-/
 [
 Throws
 ]
-/
-/
 void
 setValueCurveAtTime
 (

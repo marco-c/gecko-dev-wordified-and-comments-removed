@@ -194,9 +194,6 @@ MOZ_OVERRIDE
 void
 SetValueCurveAtTime
 (
-JSContext
-*
-cx
 const
 Float32Array
 &
