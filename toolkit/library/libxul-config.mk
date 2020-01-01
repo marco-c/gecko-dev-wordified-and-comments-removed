@@ -441,11 +441,11 @@ cpp
 (
 NULL
 )
-RESFILE
+RCINCLUDE
 =
 xulrunner
 .
-res
+rc
 ifndef
 MOZ_NATIVE_ZLIB
 CPPSRCS
