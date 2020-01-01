@@ -198,12 +198,15 @@ m
 .
 message
 .
-contains
+indexOf
 (
 "
 NS_ERROR_DOM_BAD_URI
 "
 )
+>
+-
+1
 )
 {
 ok
