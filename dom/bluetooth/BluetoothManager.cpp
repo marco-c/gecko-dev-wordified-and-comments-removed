@@ -109,12 +109,7 @@ DOMCI_DATA
 BluetoothManager
 BluetoothManager
 )
-NS_IMPL_CYCLE_COLLECTION_INHERITED_0
-(
-BluetoothManager
-nsDOMEventTargetHelper
-)
-NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
+NS_INTERFACE_MAP_BEGIN
 (
 BluetoothManager
 )

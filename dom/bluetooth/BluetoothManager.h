@@ -67,11 +67,6 @@ nsDOMEventTargetHelper
 :
 :
 )
-NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
-(
-BluetoothManager
-nsDOMEventTargetHelper
-)
 static
 already_AddRefed
 <

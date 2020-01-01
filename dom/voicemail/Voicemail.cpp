@@ -80,12 +80,7 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_CYCLE_COLLECTION_INHERITED_0
-(
-Voicemail
-nsDOMEventTargetHelper
-)
-NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
+NS_INTERFACE_MAP_BEGIN
 (
 Voicemail
 )
