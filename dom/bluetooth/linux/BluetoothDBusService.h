@@ -132,13 +132,9 @@ nsresult
 GetDevicePropertiesInternal
 (
 const
-nsAString
+BluetoothSignal
 &
-aDevicePath
-const
-nsAString
-&
-aSignalPath
+aSignal
 )
 ;
 virtual

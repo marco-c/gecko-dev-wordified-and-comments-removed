@@ -341,13 +341,9 @@ BluetoothServiceChildProcess
 GetDevicePropertiesInternal
 (
 const
-nsAString
+BluetoothSignal
 &
-aDevicePath
-const
-nsAString
-&
-aSignalPath
+aSignal
 )
 {
 MOZ_NOT_REACHED
