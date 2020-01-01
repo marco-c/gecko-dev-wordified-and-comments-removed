@@ -3461,6 +3461,12 @@ typedef
 uint32_t
 HashNumber
 ;
+const
+unsigned
+HashNumberSizeBits
+=
+32
+;
 namespace
 detail
 {
