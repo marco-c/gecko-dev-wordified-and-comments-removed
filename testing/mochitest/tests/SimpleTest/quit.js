@@ -253,16 +253,6 @@ return
 false
 ;
 }
-if
-(
-crossDomain
-)
-crossDomain
-.
-disable
-(
-)
-;
 const
 kAppStartup
 =
