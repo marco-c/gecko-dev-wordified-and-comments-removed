@@ -2219,7 +2219,6 @@ appArgc
 +
 4
 argv
-0
 )
 )
 return
