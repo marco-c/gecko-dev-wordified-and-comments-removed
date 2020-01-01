@@ -572,6 +572,14 @@ browser_cancel
 .
 js
 \
+browser_navigateaway
+.
+js
+\
+browser_navigateaway2
+.
+js
+\
 unsigned
 .
 xpi
