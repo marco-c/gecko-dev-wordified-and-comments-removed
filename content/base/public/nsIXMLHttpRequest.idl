@@ -478,7 +478,6 @@ h
 }
 [
 scriptable
-builtinclass
 uuid
 (
 dea238a1
@@ -530,7 +529,6 @@ onloadend
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 09ff3682

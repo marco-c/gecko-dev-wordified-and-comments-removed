@@ -5649,9 +5649,6 @@ False
 function
 =
 False
-builtinclass
-=
-False
 )
 :
         
@@ -5714,12 +5711,6 @@ self
 function
 =
 function
-        
-self
-.
-builtinclass
-=
-builtinclass
         
 if
 self
@@ -6241,7 +6232,7 @@ B
 flags
 &
 =
-0xE0
+0xC0
         
 if
 flags
@@ -6264,18 +6255,6 @@ flags
 self
 .
 function
-=
-True
-        
-if
-flags
-&
-0x20
-:
-            
-self
-.
-builtinclass
 =
 True
         
@@ -6560,17 +6539,6 @@ flags
 |
 =
 0x40
-        
-if
-self
-.
-builtinclass
-:
-            
-flags
-|
-=
-0x20
         
 file
 .
@@ -8855,11 +8823,6 @@ Scriptable
 %
 s
          
-BuiltinClass
-:
-%
-s
-         
 Function
 :
 %
@@ -8874,18 +8837,6 @@ n
 i
 .
 scriptable
-and
-"
-TRUE
-"
-or
-"
-FALSE
-"
-                              
-i
-.
-builtinclass
 and
 "
 TRUE

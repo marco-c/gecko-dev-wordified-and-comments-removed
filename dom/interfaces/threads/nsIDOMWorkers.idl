@@ -831,7 +831,6 @@ onclose
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 b90b7561
@@ -858,7 +857,6 @@ onerror
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 daf945c3
