@@ -111,6 +111,9 @@ inlineMaxTotalBytecodeLength
 bool
 eagerCompilation
 ;
+uint32
+slowCallLimit
+;
 void
 setEagerCompilation
 (
@@ -216,6 +219,10 @@ inlineMaxTotalBytecodeLength
 eagerCompilation
 (
 false
+)
+slowCallLimit
+(
+512
 )
 {
 }

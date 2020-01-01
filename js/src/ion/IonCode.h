@@ -544,6 +544,9 @@ safepointsSize_
 size_t
 refcount_
 ;
+uint32
+slowCallCount
+;
 SnapshotOffset
 *
 bailoutTable
