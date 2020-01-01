@@ -943,6 +943,9 @@ value
 in
 case
 the
+checkbox
+gets
+unchecked
 gURLParameter
 =
 gQueryParameters
