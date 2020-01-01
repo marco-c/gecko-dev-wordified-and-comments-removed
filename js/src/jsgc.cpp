@@ -3950,6 +3950,9 @@ disable
 )
 #
 endif
+(
+void
+)
 setjmp
 (
 registerSnapshot
