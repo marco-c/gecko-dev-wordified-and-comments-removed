@@ -1216,9 +1216,6 @@ js
 )
 #
 endif
-#
-ifdef
-MOZ_SVG
 content
 /
 global
@@ -1246,5 +1243,3 @@ svgBindings
 .
 xml
 )
-#
-endif

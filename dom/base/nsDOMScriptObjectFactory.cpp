@@ -202,9 +202,6 @@ provider
 NS_ERROR_MODULE_DOM_RANGE
 )
 ;
-#
-ifdef
-MOZ_SVG
 xs
 -
 >
@@ -214,8 +211,6 @@ provider
 NS_ERROR_MODULE_SVG
 )
 ;
-#
-endif
 xs
 -
 >
@@ -1095,9 +1090,6 @@ gExceptionProvider
 NS_ERROR_MODULE_DOM_RANGE
 )
 ;
-#
-ifdef
-MOZ_SVG
 xs
 -
 >
@@ -1107,8 +1099,6 @@ gExceptionProvider
 NS_ERROR_MODULE_SVG
 )
 ;
-#
-endif
 xs
 -
 >
@@ -1474,9 +1464,6 @@ aDefaultException
 _retval
 )
 ;
-#
-ifdef
-MOZ_SVG
 case
 NS_ERROR_MODULE_SVG
 :
@@ -1488,8 +1475,6 @@ aDefaultException
 _retval
 )
 ;
-#
-endif
 case
 NS_ERROR_MODULE_DOM_XPATH
 :

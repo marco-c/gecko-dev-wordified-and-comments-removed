@@ -282,9 +282,6 @@ dom
 .
 properties
 )
-#
-ifdef
-MOZ_SVG
 locale
 /
 AB_CD
@@ -306,8 +303,6 @@ svg
 .
 properties
 )
-#
-endif
 locale
 /
 AB_CD

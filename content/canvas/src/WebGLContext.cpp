@@ -132,17 +132,12 @@ gfxCrashReporterUtils
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsSVGEffects
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1238,9 +1233,6 @@ mCanvasElement
 )
 return
 ;
-#
-ifdef
-MOZ_SVG
 nsSVGEffects
 :
 :
@@ -1251,8 +1243,6 @@ HTMLCanvasElement
 )
 )
 ;
-#
-endif
 mInvalidated
 =
 PR_TRUE

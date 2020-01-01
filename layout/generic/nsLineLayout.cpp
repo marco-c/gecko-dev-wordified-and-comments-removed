@@ -3344,9 +3344,6 @@ PR_TRUE
 if
 (
 (
-#
-ifdef
-MOZ_SVG
 fType
 =
 =
@@ -3365,8 +3362,6 @@ nsGkAtoms
 imageFrame
 |
 |
-#
-endif
 fType
 =
 =

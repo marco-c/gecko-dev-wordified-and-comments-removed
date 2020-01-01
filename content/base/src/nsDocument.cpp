@@ -21264,9 +21264,6 @@ break
 ;
 #
 endif
-#
-ifdef
-MOZ_SVG
 case
 kNameSpaceID_SVG
 :
@@ -21295,8 +21292,6 @@ tmp
 break
 ;
 }
-#
-endif
 default
 :
 GetTitleFromElement
@@ -21360,17 +21355,12 @@ GetNameSpaceID
 )
 )
 {
-#
-ifdef
-MOZ_SVG
 case
 kNameSpaceID_SVG
 :
 return
 NS_OK
 ;
-#
-endif
 #
 ifdef
 MOZ_XUL

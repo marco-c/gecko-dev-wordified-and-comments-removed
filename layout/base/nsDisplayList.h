@@ -5719,9 +5719,6 @@ mParentAPD
 ;
 }
 ;
-#
-ifdef
-MOZ_SVG
 class
 nsDisplaySVGEffects
 :
@@ -5880,8 +5877,6 @@ mBounds
 ;
 }
 ;
-#
-endif
 class
 nsDisplayTransform
 :

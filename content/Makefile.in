@@ -416,6 +416,7 @@ canvas
 events
 html
 smil
+svg
 xml
 xul
 xbl
@@ -426,13 +427,6 @@ PARALLEL_DIRS
 +
 =
 media
-endif
-ifdef
-MOZ_SVG
-PARALLEL_DIRS
-+
-=
-svg
 endif
 ifdef
 MOZ_XTF

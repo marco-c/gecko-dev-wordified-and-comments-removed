@@ -218,9 +218,6 @@ c20a
 -
 13a3a9e97384
 }
-#
-ifdef
-MOZ_SVG
 contract
 mozilla
 .
@@ -265,8 +262,6 @@ c20a
 -
 13a3a9e97384
 }
-#
-endif
 contract
 mozilla
 .

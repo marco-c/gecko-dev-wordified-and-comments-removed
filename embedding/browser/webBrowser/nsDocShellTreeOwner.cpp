@@ -167,9 +167,6 @@ Link
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsIDOMSVGElement
@@ -190,8 +187,6 @@ nsIDOMSVGForeignObjectElem
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -3924,9 +3919,6 @@ window
 )
 ;
 }
-#
-ifdef
-MOZ_SVG
 static
 PRBool
 UseSVGTitle
@@ -4021,8 +4013,6 @@ nsnull
 )
 ;
 }
-#
-endif
 NS_IMETHODIMP
 DefaultTooltipTextProvider
 :
@@ -4422,9 +4412,6 @@ PR_TRUE
 ;
 }
 }
-#
-ifdef
-MOZ_SVG
 else
 {
 if
@@ -4563,8 +4550,6 @@ break
 }
 }
 }
-#
-endif
 }
 }
 }

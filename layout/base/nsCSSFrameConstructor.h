@@ -3228,9 +3228,6 @@ nsStyleContext
 aStyleContext
 )
 ;
-#
-ifdef
-MOZ_SVG
 static
 const
 FrameConstructionData
@@ -3278,8 +3275,6 @@ nsIFrame
 aNewFrame
 )
 ;
-#
-endif
 const
 FrameConstructionData
 *

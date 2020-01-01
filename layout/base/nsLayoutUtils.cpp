@@ -416,9 +416,6 @@ nsDataHashtable
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsSVGUtils
@@ -446,8 +443,6 @@ nsSVGOuterSVGFrame
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_XUL
@@ -8543,9 +8538,6 @@ nsIFrame
 aFrame
 )
 {
-#
-ifdef
-MOZ_SVG
 nsRect
 r
 ;
@@ -8586,8 +8578,6 @@ mRelativeTo
 ;
 }
 else
-#
-endif
 mCallback
 -
 >
@@ -15027,9 +15017,6 @@ FILTER_NEAREST
 }
 #
 endif
-#
-ifdef
-MOZ_SVG
 nsIFrame
 *
 frame
@@ -15098,13 +15085,6 @@ return
 defaultFilter
 ;
 }
-#
-else
-return
-defaultFilter
-;
-#
-endif
 }
 static
 gfxPoint
@@ -17895,9 +17875,6 @@ gfxTextRunFactory
 TEXT_DISABLE_OPTIONAL_LIGATURES
 ;
 }
-#
-ifdef
-MOZ_SVG
 switch
 (
 aStyleContext
@@ -17965,8 +17942,6 @@ default
 break
 ;
 }
-#
-endif
 return
 result
 ;

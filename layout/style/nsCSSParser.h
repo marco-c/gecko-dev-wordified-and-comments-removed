@@ -155,9 +155,6 @@ PRBool
 aQuirkMode
 )
 ;
-#
-ifdef
-MOZ_SVG
 nsresult
 SetSVGMode
 (
@@ -165,8 +162,6 @@ PRBool
 aSVGMode
 )
 ;
-#
-endif
 nsresult
 SetChildLoader
 (

@@ -267,17 +267,12 @@ PR_BIT
 (
 2
 )
-#
-ifdef
-MOZ_SVG
 eSupportSVG
 =
 PR_BIT
 (
 3
 )
-#
-endif
 eSupportClassID
 =
 PR_BIT

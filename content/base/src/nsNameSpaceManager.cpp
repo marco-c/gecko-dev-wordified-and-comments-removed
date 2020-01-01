@@ -1122,17 +1122,12 @@ kNameSpaceID_MathML
 |
 #
 endif
-#
-ifdef
-MOZ_SVG
 aNameSpaceID
 =
 =
 kNameSpaceID_SVG
 |
 |
-#
-endif
 aNameSpaceID
 =
 =

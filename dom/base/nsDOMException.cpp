@@ -55,17 +55,12 @@ nsIDOMFileException
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsIDOMSVGException
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -654,9 +649,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SVG
 IMPL_INTERNAL_DOM_EXCEPTION_HEAD
 (
 nsSVGException
@@ -708,8 +700,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 IMPL_INTERNAL_DOM_EXCEPTION_HEAD
 (
 nsXPathException

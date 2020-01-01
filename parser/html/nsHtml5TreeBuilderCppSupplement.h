@@ -2964,9 +2964,6 @@ aNamespace
 kNameSpaceID_SVG
 )
 {
-#
-ifdef
-MOZ_SVG
 if
 (
 aName
@@ -3010,8 +3007,6 @@ aElement
 )
 ;
 }
-#
-endif
 return
 ;
 }

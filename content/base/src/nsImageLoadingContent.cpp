@@ -195,17 +195,12 @@ nsDOMClassInfo
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsSVGEffects
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1169,9 +1164,6 @@ error
 )
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsCOMPtr
 <
 nsINode
@@ -1196,8 +1188,6 @@ AsElement
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;

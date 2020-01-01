@@ -963,9 +963,6 @@ PRBool
 aQuirkMode
 )
 ;
-#
-ifdef
-MOZ_SVG
 nsresult
 SetSVGMode
 (
@@ -973,8 +970,6 @@ PRBool
 aSVGMode
 )
 ;
-#
-endif
 nsresult
 SetChildLoader
 (
@@ -1357,9 +1352,6 @@ ReleaseScanner
 void
 )
 ;
-#
-ifdef
-MOZ_SVG
 PRBool
 IsSVGMode
 (
@@ -1374,8 +1366,6 @@ IsSVGMode
 )
 ;
 }
-#
-endif
 PRBool
 GetToken
 (
@@ -2479,9 +2469,6 @@ ParseAnimation
 ;
 #
 endif
-#
-ifdef
-MOZ_SVG
 PRBool
 ParsePaint
 (
@@ -2499,8 +2486,6 @@ ParseMarker
 (
 )
 ;
-#
-endif
 void
 AppendValue
 (
@@ -3401,9 +3386,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsresult
 CSSParserImpl
 :
@@ -3444,8 +3426,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 nsresult
 CSSParserImpl
 :
@@ -3501,16 +3481,11 @@ SetQuirkMode
 PR_FALSE
 )
 ;
-#
-ifdef
-MOZ_SVG
 SetSVGMode
 (
 PR_FALSE
 )
 ;
-#
-endif
 SetChildLoader
 (
 nsnull
@@ -19960,9 +19935,6 @@ PR_TRUE
 ;
 }
 }
-#
-ifdef
-MOZ_SVG
 if
 (
 IsSVGMode
@@ -20017,8 +19989,6 @@ PR_TRUE
 ;
 }
 }
-#
-endif
 if
 (
 (
@@ -24455,9 +24425,6 @@ ParseTransitionProperty
 (
 )
 ;
-#
-ifdef
-MOZ_SVG
 case
 eCSSProperty_fill
 :
@@ -24486,8 +24453,6 @@ ParseMarker
 (
 )
 ;
-#
-endif
 default
 :
 NS_ABORT_IF_FALSE
@@ -37371,9 +37336,6 @@ kNameSpaceID_Unknown
 ;
 }
 }
-#
-ifdef
-MOZ_SVG
 PRBool
 CSSParserImpl
 :
@@ -37668,8 +37630,6 @@ return
 PR_FALSE
 ;
 }
-#
-endif
 }
 static
 CSSParserImpl
@@ -37923,9 +37883,6 @@ aQuirkMode
 )
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsresult
 nsCSSParser
 :
@@ -37953,8 +37910,6 @@ aSVGMode
 )
 ;
 }
-#
-endif
 nsresult
 nsCSSParser
 :

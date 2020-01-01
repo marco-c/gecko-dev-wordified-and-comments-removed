@@ -181,9 +181,6 @@ eDOMEvents_cut
 eDOMEvents_paste
 eDOMEvents_open
 eDOMEvents_message
-#
-ifdef
-MOZ_SVG
 eDOMEvents_SVGLoad
 eDOMEvents_SVGUnload
 eDOMEvents_SVGAbort
@@ -191,8 +188,6 @@ eDOMEvents_SVGError
 eDOMEvents_SVGResize
 eDOMEvents_SVGScroll
 eDOMEvents_SVGZoom
-#
-endif
 #
 ifdef
 MOZ_SMIL

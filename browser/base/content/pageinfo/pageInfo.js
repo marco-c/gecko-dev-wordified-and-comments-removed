@@ -3844,9 +3844,6 @@ elem
 false
 )
 ;
-#
-ifdef
-MOZ_SVG
 else
 if
 (
@@ -3892,8 +3889,6 @@ e
 {
 }
 }
-#
-endif
 #
 ifdef
 MOZ_MEDIA
@@ -5205,9 +5200,6 @@ if
 isBG
 &
 &
-#
-ifdef
-MOZ_SVG
 !
 (
 item
@@ -5216,8 +5208,6 @@ SVGImageElement
 )
 &
 &
-#
-endif
 !
 (
 gDocument
@@ -5761,16 +5751,11 @@ instanceof
 HTMLImageElement
 |
 |
-#
-ifdef
-MOZ_SVG
 item
 instanceof
 SVGImageElement
 |
 |
-#
-endif
 (
 item
 instanceof
@@ -5879,9 +5864,6 @@ newImage
 naturalHeight
 ;
 }
-#
-ifdef
-MOZ_SVG
 if
 (
 item
@@ -5914,8 +5896,6 @@ baseVal
 value
 ;
 }
-#
-endif
 width
 =
 newImage

@@ -431,9 +431,6 @@ nsIDOMText
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsIDOMSVGImageElement
@@ -447,8 +444,6 @@ nsIDOMSVGScriptElement
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_MEDIA
@@ -10762,9 +10757,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsCOMPtr
 <
 nsIDOMSVGImageElement
@@ -10808,8 +10800,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_MEDIA
@@ -11011,9 +11001,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsCOMPtr
 <
 nsIDOMSVGScriptElement
@@ -11057,8 +11044,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIDOMHTMLEmbedElement
@@ -12477,9 +12462,6 @@ rv
 }
 #
 endif
-#
-ifdef
-MOZ_SVG
 nsCOMPtr
 <
 nsIDOMSVGImageElement
@@ -12569,8 +12551,6 @@ return
 rv
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIDOMHTMLScriptElement
@@ -12621,9 +12601,6 @@ return
 rv
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsCOMPtr
 <
 nsIDOMSVGScriptElement
@@ -12689,8 +12666,6 @@ return
 rv
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIDOMHTMLEmbedElement

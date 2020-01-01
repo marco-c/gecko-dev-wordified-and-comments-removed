@@ -913,9 +913,6 @@ svgdom
 html
 *
 /
-#
-ifdef
-MOZ_SVG
 DOM_MSG_DEF
 (
 NS_ERROR_DOM_SVG_WRONG_TYPE_ERR
@@ -952,8 +949,6 @@ be
 computed
 "
 )
-#
-endif
 /
 *
 DOM

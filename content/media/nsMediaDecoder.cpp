@@ -97,17 +97,12 @@ nsDisplayList
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsSVGEffects
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -533,9 +528,6 @@ TYPE_VIDEO
 ;
 }
 }
-#
-ifdef
-MOZ_SVG
 nsSVGEffects
 :
 :
@@ -544,8 +536,6 @@ InvalidateDirectRenderingObservers
 mElement
 )
 ;
-#
-endif
 }
 static
 void

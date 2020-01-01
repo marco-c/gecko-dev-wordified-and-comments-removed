@@ -464,9 +464,6 @@ nsExpirationTracker
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsSVGIntegrationUtils
@@ -480,8 +477,6 @@ nsSVGEffects
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1703,9 +1698,6 @@ root
 "
 )
 ;
-#
-ifdef
-MOZ_SVG
 nsSVGEffects
 :
 :
@@ -1714,8 +1706,6 @@ InvalidateDirectRenderingObservers
 this
 )
 ;
-#
-endif
 nsIView
 *
 view
@@ -6658,9 +6648,6 @@ this
 )
 ;
 }
-#
-ifdef
-MOZ_SVG
 PRBool
 usingSVGEffects
 =
@@ -6689,8 +6676,6 @@ dirtyRect
 )
 ;
 }
-#
-endif
 MarkAbsoluteFramesForDisplayList
 (
 aBuilder
@@ -7109,9 +7094,6 @@ item
 )
 ;
 }
-#
-ifdef
-MOZ_SVG
 if
 (
 usingSVGEffects
@@ -7148,8 +7130,6 @@ rv
 ;
 }
 else
-#
-endif
 if
 (
 disp
@@ -7750,9 +7730,6 @@ aChild
 IsTransformed
 (
 )
-#
-ifdef
-MOZ_SVG
 |
 |
 nsSVGIntegrationUtils
@@ -7762,8 +7739,6 @@ UsingEffectsForFrame
 (
 aChild
 )
-#
-endif
 ;
 PRBool
 isPositioned
@@ -19026,9 +19001,6 @@ PRUint32
 aFlags
 )
 {
-#
-ifdef
-MOZ_SVG
 nsSVGEffects
 :
 :
@@ -19077,8 +19049,6 @@ aFlags
 return
 ;
 }
-#
-endif
 InvalidateInternalAfterResize
 (
 aDamageRect
@@ -20064,9 +20034,6 @@ PR_TRUE
 ;
 }
 }
-#
-ifdef
-MOZ_SVG
 if
 (
 nsSVGIntegrationUtils
@@ -20123,8 +20090,6 @@ r
 )
 ;
 }
-#
-endif
 return
 r
 ;

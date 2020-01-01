@@ -212,9 +212,6 @@ TEXT_XUL
 )
 |
 |
-#
-ifdef
-MOZ_SVG
 mMimeType
 .
 EqualsLiteral
@@ -223,8 +220,6 @@ IMAGE_SVG_XML
 )
 |
 |
-#
-endif
 #
 ifdef
 MOZ_MATHML

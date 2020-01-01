@@ -237,9 +237,6 @@ nsContentUtils
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsSVGEffects
@@ -260,8 +257,6 @@ gfxDrawable
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -366,9 +361,6 @@ nsStyleGradient
 >
 mGradientData
 ;
-#
-ifdef
-MOZ_SVG
 nsIFrame
 *
 mPaintServerFrame
@@ -379,8 +371,6 @@ nsLayoutUtils
 SurfaceFromElementResult
 mImageElementSurface
 ;
-#
-endif
 PRBool
 mIsReady
 ;
@@ -16843,15 +16833,10 @@ mGradientData
 (
 nsnull
 )
-#
-ifdef
-MOZ_SVG
 mPaintServerFrame
 (
 nsnull
 )
-#
-endif
 mIsReady
 (
 PR_FALSE
@@ -17228,9 +17213,6 @@ PR_TRUE
 ;
 break
 ;
-#
-ifdef
-MOZ_SVG
 case
 eStyleImageType_Element
 :
@@ -17394,8 +17376,6 @@ PR_TRUE
 break
 ;
 }
-#
-endif
 case
 eStyleImageType_Null
 :
@@ -17518,9 +17498,6 @@ aDefault
 ;
 break
 ;
-#
-ifdef
-MOZ_SVG
 case
 eStyleImageType_Element
 :
@@ -17668,8 +17645,6 @@ height
 break
 ;
 }
-#
-endif
 case
 eStyleImageType_Null
 :
@@ -17863,9 +17838,6 @@ aFill
 ;
 break
 ;
-#
-ifdef
-MOZ_SVG
 case
 eStyleImageType_Element
 :
@@ -17943,8 +17915,6 @@ aDirty
 }
 break
 ;
-#
-endif
 case
 eStyleImageType_Null
 :

@@ -972,9 +972,6 @@ NS_RANGEUTILS_CID
 }
 }
 #
-ifdef
-MOZ_SVG
-#
 define
 NS_SVGDOCUMENT_CID
 \
@@ -1008,8 +1005,6 @@ c2feab4186bc
 0xbc
 }
 }
-#
-endif
 #
 ifdef
 MOZ_MEDIA

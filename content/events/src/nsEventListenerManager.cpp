@@ -125,17 +125,12 @@ nsITextControlFrame
 h
 "
 #
-ifdef
-MOZ_SVG
-#
 include
 "
 nsGkAtoms
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -4553,9 +4548,6 @@ attrName
 =
 aName
 ;
-#
-ifdef
-MOZ_SVG
 if
 (
 aName
@@ -4681,8 +4673,6 @@ nsGkAtoms
 :
 onzoom
 ;
-#
-endif
 #
 ifdef
 MOZ_SMIL

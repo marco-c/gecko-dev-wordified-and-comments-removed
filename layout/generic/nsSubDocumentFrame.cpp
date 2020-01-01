@@ -4697,9 +4697,6 @@ nsnull
 }
 }
 }
-#
-ifdef
-MOZ_SVG
 if
 (
 subDocRoot
@@ -4740,8 +4737,6 @@ return
 subDocRoot
 ;
 }
-#
-endif
 }
 return
 nsnull

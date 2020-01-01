@@ -3830,9 +3830,6 @@ nsIDocument
 aInstancePtrResult
 )
 ;
-#
-ifdef
-MOZ_SVG
 nsresult
 NS_NewSVGDocument
 (
@@ -3842,8 +3839,6 @@ nsIDocument
 aInstancePtrResult
 )
 ;
-#
-endif
 nsresult
 NS_NewImageDocument
 (
