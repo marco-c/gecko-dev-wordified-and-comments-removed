@@ -5693,6 +5693,14 @@ start
 NULL
 )
 ;
+bool
+IsSaneThisObject
+(
+JSObject
+&
+obj
+)
+;
 }
 #
 endif
