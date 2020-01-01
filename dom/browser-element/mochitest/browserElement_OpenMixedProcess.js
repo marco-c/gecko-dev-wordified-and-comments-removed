@@ -9,11 +9,6 @@ waitForExplicitFinish
 (
 )
 ;
-function
-runTest
-(
-)
-{
 browserElementTestHelpers
 .
 setEnabledPref
@@ -27,6 +22,11 @@ addPermission
 (
 )
 ;
+function
+runTest
+(
+)
+{
 var
 remote
 =
@@ -468,7 +468,11 @@ result
 }
 ;
 }
-runTest
+addEventListener
 (
+'
+testready
+'
+runTest
 )
 ;
