@@ -5842,7 +5842,7 @@ __FUNCTION__
 )
 ;
 return
-false
+NS_ERROR_FAILURE
 ;
 }
 sAdapterPath
