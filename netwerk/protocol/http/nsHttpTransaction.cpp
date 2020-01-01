@@ -4953,6 +4953,11 @@ val
 ;
 if
 (
+!
+mConsumerTarget
+|
+|
+(
 NS_SUCCEEDED
 (
 mConsumerTarget
@@ -4968,9 +4973,12 @@ val
 &
 val
 )
+)
+{
 delete
 this
 ;
+}
 else
 {
 LOG
