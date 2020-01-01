@@ -1203,6 +1203,8 @@ upper_t
 /
 Premultiply
 output
+.
+rgb
 *
 =
 output
@@ -1402,6 +1404,8 @@ t
 /
 Premultiply
 output
+.
+rgb
 *
 =
 output
