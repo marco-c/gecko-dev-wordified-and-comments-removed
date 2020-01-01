@@ -1436,11 +1436,6 @@ ELT_SYMBOL
 static
 nsHtml5ElementName
 *
-ELT_SPACER
-;
-static
-nsHtml5ElementName
-*
 ELT_SELECT
 ;
 static
@@ -4352,15 +4347,6 @@ nsHtml5ElementName
 :
 :
 ELT_SYMBOL
-=
-nsnull
-;
-nsHtml5ElementName
-*
-nsHtml5ElementName
-:
-:
-ELT_SPACER
 =
 nsnull
 ;

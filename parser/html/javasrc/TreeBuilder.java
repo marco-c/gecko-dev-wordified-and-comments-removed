@@ -567,7 +567,7 @@ EMBED_OR_IMG
 final
 static
 int
-AREA_OR_SPACER_OR_WBR
+AREA_OR_WBR
 =
 49
 ;
@@ -8844,7 +8844,7 @@ case
 TABLE
 :
 case
-AREA_OR_SPACER_OR_WBR
+AREA_OR_WBR
 :
 case
 BR
@@ -10014,7 +10014,7 @@ case
 EMBED_OR_IMG
 :
 case
-AREA_OR_SPACER_OR_WBR
+AREA_OR_WBR
 :
 reconstructTheActiveFormattingElements
 (
@@ -17406,7 +17406,7 @@ break
 endtagloop
 ;
 case
-AREA_OR_SPACER_OR_WBR
+AREA_OR_WBR
 :
 case
 PARAM_OR_SOURCE

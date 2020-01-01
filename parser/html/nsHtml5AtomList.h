@@ -6373,13 +6373,6 @@ symbol
 )
 HTML5_ATOM
 (
-spacer
-"
-spacer
-"
-)
-HTML5_ATOM
-(
 subset
 "
 subset
