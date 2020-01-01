@@ -494,6 +494,16 @@ return
 mWeakShell
 ;
 }
+#
+ifdef
+DEBUG
+PRBool
+IsInCache
+(
+)
+;
+#
+endif
 protected
 :
 nsresult

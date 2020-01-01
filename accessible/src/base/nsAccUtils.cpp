@@ -1648,9 +1648,9 @@ content
 PR_FALSE
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessible
+nsAccessible
 >
 accessible
 =

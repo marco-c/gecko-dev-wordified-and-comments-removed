@@ -373,7 +373,7 @@ void
 aUniqueID
 )
 ;
-void
+PRBool
 CacheAccessNode
 (
 void
