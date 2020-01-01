@@ -1165,6 +1165,15 @@ TK_LIBS
 NULL
 )
 endif
+ifdef
+MOZ_ENABLE_DBUS
+EXTRA_DSO_LDOPTS
++
+=
+(
+MOZ_DBUS_GLIB_LIBS
+)
+endif
 ifeq
 (
 gtk2
