@@ -832,13 +832,10 @@ aEvent
 {
 NS_ABORT_IF_FALSE
 (
+NS_IS_MOUSE_EVENT_STRUCT
+(
 aEvent
--
->
-eventStructType
-=
-=
-NS_MOUSE_EVENT
+)
 "
 Not
 a
