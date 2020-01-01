@@ -1016,10 +1016,7 @@ Length
 i
 )
 {
-dom
-:
-:
-Touch
+nsIDOMTouch
 *
 touch
 =

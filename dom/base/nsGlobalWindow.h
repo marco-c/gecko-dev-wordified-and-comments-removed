@@ -358,13 +358,6 @@ h
 #
 include
 "
-nsIDOMTouchEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

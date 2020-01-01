@@ -30938,7 +30938,7 @@ Length
 i
 )
 {
-Touch
+nsIDOMTouch
 *
 touch
 =

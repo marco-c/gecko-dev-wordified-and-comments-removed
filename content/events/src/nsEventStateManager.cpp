@@ -7468,7 +7468,7 @@ Length
 i
 )
 {
-Touch
+nsIDOMTouch
 *
 touch
 =
@@ -7785,7 +7785,7 @@ Length
 i
 )
 {
-Touch
+nsIDOMTouch
 *
 touch
 =
