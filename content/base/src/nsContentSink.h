@@ -265,10 +265,6 @@ SINK_NO_INCREMENTAL
 define
 NS_DELAY_FOR_WINDOW_CREATION
 500000
-#
-define
-NS_MAX_TOKENS_DEFLECTED_IN_LOW_FREQ_MODE
-200
 class
 nsContentSink
 :
@@ -913,6 +909,9 @@ mMaxTokenProcessingTime
 ;
 PRInt32
 mDynamicIntervalSwitchThreshold
+;
+PRInt32
+mMaxTokensDeflectedInLowFreqMode
 ;
 PRInt32
 mBeginLoadTime
