@@ -644,6 +644,15 @@ BulletIsEmpty
 )
 const
 ;
+void
+GetBulletText
+(
+nsAString
+&
+aText
+)
+const
+;
 virtual
 void
 MarkIntrinsicWidthsDirty
@@ -894,6 +903,9 @@ nsBlockFrame
 #
 ifdef
 DEBUG
+#
+ifdef
+_IMPL_NS_LAYOUT
 already_AddRefed
 <
 nsStyleContext
@@ -930,6 +942,8 @@ mStyleContext
 )
 ;
 }
+#
+endif
 #
 endif
 virtual

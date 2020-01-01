@@ -253,10 +253,6 @@ aContent
 nsIWeakReference
 *
 aShell
-const
-nsAString
-&
-aBulletText
 )
 ;
 NS_IMETHOD
@@ -375,10 +371,6 @@ aContent
 nsIWeakReference
 *
 aShell
-const
-nsAString
-&
-aBulletText
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED

@@ -290,10 +290,6 @@ aContent
 nsIPresShell
 *
 aPresShell
-const
-nsAString
-&
-aBulletText
 )
 =
 0

@@ -887,10 +887,6 @@ aContent
 nsIPresShell
 *
 aPresShell
-const
-nsAString
-&
-aBulletText
 )
 {
 nsCOMPtr
@@ -914,7 +910,6 @@ nsHTMLLIAccessible
 (
 aContent
 weakShell
-aBulletText
 )
 ;
 NS_IF_ADDREF
@@ -7595,9 +7590,6 @@ nsHTMLLIAccessible
 (
 aContent
 aWeakShell
-EmptyString
-(
-)
 )
 ;
 NS_IF_ADDREF
