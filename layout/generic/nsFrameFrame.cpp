@@ -1348,6 +1348,7 @@ aBuilder
 nsDisplayClip
 (
 nsnull
+this
 &
 childItems
 nsRect
