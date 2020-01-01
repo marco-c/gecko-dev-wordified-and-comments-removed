@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsView
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
@@ -419,7 +412,7 @@ FlushPendingInvalidates
 void
 ProcessPendingUpdatesForView
 (
-nsView
+nsIView
 *
 aView
 bool
@@ -431,7 +424,7 @@ true
 void
 FlushDirtyRegionToWidget
 (
-nsView
+nsIView
 *
 aView
 )
@@ -468,7 +461,7 @@ aParent
 void
 InvalidateWidgetArea
 (
-nsView
+nsIView
 *
 aWidgetView
 const
@@ -480,7 +473,7 @@ aDamagedRegion
 void
 InvalidateViews
 (
-nsView
+nsIView
 *
 aView
 )
@@ -488,7 +481,7 @@ aView
 void
 Refresh
 (
-nsView
+nsIView
 *
 aView
 const
@@ -502,7 +495,7 @@ aWillSendDidPaint
 void
 InvalidateRectDifference
 (
-nsView
+nsIView
 *
 aView
 const
@@ -518,7 +511,7 @@ aCutOut
 void
 InvalidateHorizontalBandDifference
 (
-nsView
+nsIView
 *
 aView
 const
@@ -540,7 +533,7 @@ aInCutOut
 bool
 IsViewInserted
 (
-nsView
+nsIView
 *
 aView
 )
@@ -548,7 +541,7 @@ aView
 nsIntRect
 ViewToWidget
 (
-nsView
+nsIView
 *
 aView
 const
@@ -613,7 +606,7 @@ aRect
 ;
 public
 :
-nsView
+nsIView
 *
 GetRootViewImpl
 (
@@ -729,7 +722,7 @@ mPresShell
 nsSize
 mDelayedResize
 ;
-nsView
+nsIView
 *
 mRootView
 ;
