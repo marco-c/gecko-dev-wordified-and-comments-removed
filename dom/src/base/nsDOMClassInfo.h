@@ -4681,14 +4681,14 @@ aData
 }
 ;
 class
-nsTextRectangleListSH
+nsClientRectListSH
 :
 public
 nsArraySH
 {
 protected
 :
-nsTextRectangleListSH
+nsClientRectListSH
 (
 nsDOMClassInfoData
 *
@@ -4703,7 +4703,7 @@ aData
 }
 virtual
 ~
-nsTextRectangleListSH
+nsClientRectListSH
 (
 )
 {
@@ -4737,7 +4737,7 @@ aData
 {
 return
 new
-nsTextRectangleListSH
+nsClientRectListSH
 (
 aData
 )
