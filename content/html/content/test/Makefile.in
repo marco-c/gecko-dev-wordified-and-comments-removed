@@ -848,6 +848,10 @@ bug514856_iframe
 .
 html
 \
+test_bug519987
+.
+html
+\
 (
 NULL
 )
