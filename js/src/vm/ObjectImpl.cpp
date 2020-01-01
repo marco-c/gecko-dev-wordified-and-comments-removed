@@ -1696,6 +1696,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 PropDesc
 *
 desc
@@ -1818,6 +1820,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 PropDesc
 *
 desc
@@ -1914,6 +1918,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 PropDesc
 *
 desc
@@ -2001,6 +2007,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 PropDesc
 *
 desc
@@ -2051,6 +2059,8 @@ PropDesc
 desc
 bool
 shouldThrow
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -2101,6 +2111,8 @@ PropDesc
 desc
 bool
 shouldThrow
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -2286,6 +2298,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -2455,6 +2468,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -2610,6 +2624,8 @@ PropDesc
 desc
 bool
 shouldThrow
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -2660,6 +2676,8 @@ PropDesc
 desc
 bool
 shouldThrow
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -2705,6 +2723,7 @@ delegate
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -2723,6 +2742,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 PropDesc
 *
 desc
@@ -2763,6 +2784,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2781,6 +2803,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2799,6 +2822,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2817,6 +2841,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2835,6 +2860,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2853,6 +2879,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2871,6 +2898,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2889,6 +2917,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2907,6 +2936,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2925,6 +2955,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2943,6 +2974,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2961,6 +2993,7 @@ getOwnElement
 cx
 obj
 index
+resolveFlags
 desc
 )
 ;
@@ -2996,6 +3029,8 @@ ObjectImpl
 receiver
 uint32_t
 index
+unsigned
+resolveFlags
 Value
 *
 vp
@@ -3058,6 +3093,7 @@ GetOwnElement
 cx
 obj
 index
+resolveFlags
 &
 desc
 )
@@ -3274,6 +3310,8 @@ ObjectImpl
 obj
 uint32_t
 index
+unsigned
+resolveFlags
 bool
 *
 found
@@ -3336,6 +3374,7 @@ GetOwnElement
 cx
 obj
 index
+resolveFlags
 &
 prop
 )
@@ -3424,6 +3463,8 @@ PropDesc
 desc
 bool
 shouldThrow
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -3470,6 +3511,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3490,6 +3532,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3510,6 +3553,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3530,6 +3574,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3550,6 +3595,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3570,6 +3616,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3590,6 +3637,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3610,6 +3658,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3630,6 +3679,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3650,6 +3700,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3670,6 +3721,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3690,6 +3742,7 @@ obj
 index
 desc
 shouldThrow
+resolveFlags
 succeeded
 )
 ;
@@ -3729,6 +3782,8 @@ const
 Value
 &
 v
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -3780,6 +3835,8 @@ const
 Value
 &
 v
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -3839,6 +3896,8 @@ const
 Value
 &
 v
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -4027,6 +4086,8 @@ const
 Value
 &
 v
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -4072,6 +4133,7 @@ obj
 receiver
 index
 v
+resolveFlags
 succeeded
 )
 ;
@@ -4097,6 +4159,8 @@ const
 Value
 &
 v
+unsigned
+resolveFlags
 bool
 *
 succeeded
@@ -4159,6 +4223,7 @@ GetOwnElement
 cx
 obj
 index
+resolveFlags
 &
 ownDesc
 )
@@ -4231,6 +4296,7 @@ receiver
 index
 updateDesc
 false
+resolveFlags
 succeeded
 )
 ;
@@ -4246,6 +4312,7 @@ receiver
 index
 newDesc
 false
+resolveFlags
 succeeded
 )
 ;
@@ -4406,6 +4473,7 @@ receiver
 index
 newDesc
 false
+resolveFlags
 succeeded
 )
 ;
