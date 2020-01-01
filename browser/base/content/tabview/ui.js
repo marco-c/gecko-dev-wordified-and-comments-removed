@@ -2612,6 +2612,7 @@ event
 shiftKey
 &
 &
+!
 event
 .
 altKey
