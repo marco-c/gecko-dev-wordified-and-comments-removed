@@ -79,11 +79,11 @@ class
 ContextFlags
 {
 friend
-class
+struct
 SharedContext
 ;
 friend
-class
+struct
 FunctionBox
 ;
 bool
