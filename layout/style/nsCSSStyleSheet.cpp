@@ -8055,7 +8055,7 @@ if
 nsContentUtils
 :
 :
-IsCallerTrustedForWrite
+IsCallerChrome
 (
 )
 )

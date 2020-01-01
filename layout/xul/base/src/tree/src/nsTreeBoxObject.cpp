@@ -640,7 +640,7 @@ if
 nsContentUtils
 :
 :
-IsCallerTrustedForWrite
+IsCallerChrome
 (
 )
 )

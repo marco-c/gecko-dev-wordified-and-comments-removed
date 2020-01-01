@@ -1980,7 +1980,7 @@ if
 nsContentUtils
 :
 :
-IsCallerTrustedForWrite
+IsCallerChrome
 (
 )
 )

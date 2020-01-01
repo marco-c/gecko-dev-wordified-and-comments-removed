@@ -5446,7 +5446,7 @@ subsumes
 nsContentUtils
 :
 :
-IsCallerTrustedForWrite
+IsCallerChrome
 (
 )
 )

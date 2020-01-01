@@ -3004,7 +3004,7 @@ SetTrusted
 nsContentUtils
 :
 :
-IsCallerTrustedForWrite
+IsCallerChrome
 (
 )
 )
