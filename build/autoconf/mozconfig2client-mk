@@ -671,7 +671,7 @@ client
 mk
 options
 from
-MOZCONFIG
+FOUND_MOZCONFIG
 :
 "
 IFS
