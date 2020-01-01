@@ -1210,7 +1210,7 @@ const
 uint32
 METHOD_OBJECT_SLOT
 =
-0
+1
 ;
 inline
 bool

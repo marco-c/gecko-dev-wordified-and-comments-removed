@@ -247,6 +247,16 @@ joinable
 isExtended
 (
 )
+&
+&
+getExtendedSlot
+(
+METHOD_PROPERTY_SLOT
+)
+.
+isString
+(
+)
 )
 ?
 (
