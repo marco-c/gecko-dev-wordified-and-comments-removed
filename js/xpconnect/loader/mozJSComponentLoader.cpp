@@ -2088,6 +2088,15 @@ reuseGlobal
 "
 )
 ;
+#
+ifdef
+MOZ_B2G
+mReuseLoaderGlobal
+=
+true
+;
+#
+endif
 mRuntimeService
 =
 do_GetService
