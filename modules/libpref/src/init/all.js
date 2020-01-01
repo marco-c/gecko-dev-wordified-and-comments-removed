@@ -5594,16 +5594,6 @@ pref
 "
 dom
 .
-new_bindings
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 experimental_bindings
 "
 true

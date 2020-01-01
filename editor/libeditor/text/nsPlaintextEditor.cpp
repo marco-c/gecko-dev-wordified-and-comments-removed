@@ -1202,7 +1202,7 @@ nsCOMPtr
 <
 nsIDOMNodeList
 >
-metaList
+list
 ;
 nsresult
 rv
@@ -1220,7 +1220,7 @@ meta
 )
 getter_AddRefs
 (
-metaList
+list
 )
 )
 ;
@@ -1232,8 +1232,19 @@ false
 ;
 NS_ENSURE_TRUE
 (
-metaList
+list
 false
+)
+;
+nsCOMPtr
+<
+nsINodeList
+>
+metaList
+=
+do_QueryInterface
+(
+list
 )
 ;
 uint32_t
@@ -1275,7 +1286,7 @@ metaNode
 metaList
 -
 >
-GetNodeAt
+Item
 (
 i
 )

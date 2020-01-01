@@ -118,7 +118,6 @@ enum
 XrayType
 {
 XrayForDOMObject
-XrayForDOMProxyObject
 XrayForWrappedNative
 NotXray
 }
@@ -478,17 +477,6 @@ props
 )
 ;
 }
-;
-typedef
-XrayWrapper
-<
-js
-:
-:
-CrossCompartmentWrapper
-ProxyXrayTraits
->
-XrayProxy
 ;
 typedef
 XrayWrapper

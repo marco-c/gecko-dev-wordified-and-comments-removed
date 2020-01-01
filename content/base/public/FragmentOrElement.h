@@ -164,6 +164,15 @@ nsIContent
 aContent
 )
 ;
+virtual
+nsIContent
+*
+Item
+(
+uint32_t
+aIndex
+)
+;
 void
 DropReference
 (

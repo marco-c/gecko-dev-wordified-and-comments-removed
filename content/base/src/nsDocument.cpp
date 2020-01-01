@@ -21953,7 +21953,7 @@ current
 nodeList
 -
 >
-GetNodeAt
+Item
 (
 i
 )
@@ -34714,7 +34714,7 @@ map
 mImageMaps
 -
 >
-GetNodeAt
+Item
 (
 i
 )

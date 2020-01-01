@@ -180,7 +180,6 @@ long
 length
 ;
 [
-getter
 binaryname
 (
 MozItem
@@ -251,9 +250,6 @@ DOMString
 token
 )
 ;
-[
-stringifier
-]
 DOMString
 toString
 (

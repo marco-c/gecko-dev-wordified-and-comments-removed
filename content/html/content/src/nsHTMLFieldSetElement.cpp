@@ -370,7 +370,7 @@ nsGenericHTMLFormElement
 mElements
 -
 >
-GetNodeAt
+Item
 (
 i
 )
@@ -840,7 +840,7 @@ nsGenericHTMLFormElement
 mElements
 -
 >
-GetNodeAt
+Item
 (
 i
 )
