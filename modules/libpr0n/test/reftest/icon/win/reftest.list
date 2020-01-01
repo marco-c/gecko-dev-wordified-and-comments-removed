@@ -2,12 +2,8 @@ skip
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
 !
-=
-"
-windows
-"
+windowsWidget
 )
 HTTP
 =
@@ -22,12 +18,8 @@ skip
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
 !
-=
-"
-windows
-"
+windowsWidget
 )
 HTTP
 =

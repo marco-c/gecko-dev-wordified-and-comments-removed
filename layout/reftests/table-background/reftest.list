@@ -44,12 +44,7 @@ asserts
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-gtk2
-"
+gtk2Widget
 0
 -
 12
@@ -70,12 +65,7 @@ asserts
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-gtk2
-"
+gtk2Widget
 0
 -
 6

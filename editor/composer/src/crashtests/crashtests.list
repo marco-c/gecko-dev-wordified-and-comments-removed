@@ -14,12 +14,7 @@ skip
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-windows
-"
+windowsWidget
 )
 load
 428844
@@ -46,12 +41,7 @@ asserts
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-windows
-"
+windowsWidget
 0
 -
 2

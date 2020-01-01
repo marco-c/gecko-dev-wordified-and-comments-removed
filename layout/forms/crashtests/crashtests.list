@@ -168,12 +168,7 @@ asserts
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-windows
-"
+windowsWidget
 1
 )
 load

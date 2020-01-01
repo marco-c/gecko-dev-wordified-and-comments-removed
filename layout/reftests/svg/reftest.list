@@ -2053,12 +2053,7 @@ random
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-gtk2
-"
+gtk2Widget
 )
 =
 =
@@ -2218,12 +2213,7 @@ random
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-gtk2
-"
+gtk2Widget
 )
 !
 =

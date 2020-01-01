@@ -456,12 +456,7 @@ fails
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-cocoa
-"
+cocoaWidget
 )
 =
 =
@@ -487,12 +482,7 @@ fails
 -
 if
 (
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-cocoa
-"
+cocoaWidget
 )
 =
 =
