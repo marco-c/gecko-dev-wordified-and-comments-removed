@@ -2098,6 +2098,16 @@ return
 True
     
 def
+isConsequential
+(
+self
+)
+:
+        
+return
+False
+    
+def
 addExtendedAttributes
 (
 self
@@ -2200,6 +2210,12 @@ implementedInterfaces
 set
 (
 )
+        
+self
+.
+_consequential
+=
+False
         
 IDLObjectWithScope
 .
@@ -2660,6 +2676,12 @@ name
 )
 :
             
+iface
+.
+setConsequential
+(
+)
+            
 additionalMembers
 =
 iface
@@ -2930,6 +2952,31 @@ self
         
 return
 False
+    
+def
+setConsequential
+(
+self
+)
+:
+        
+self
+.
+_consequential
+=
+True
+    
+def
+isConsequential
+(
+self
+)
+:
+        
+return
+self
+.
+_consequential
     
 def
 setCallback
