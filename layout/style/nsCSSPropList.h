@@ -2644,7 +2644,7 @@ mBorderSpacing
 eCSSType_ValuePair
 nsnull
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_SHORTHAND
 (
@@ -4875,7 +4875,7 @@ mTransformOrigin
 eCSSType_ValuePair
 kBackgroundPositionKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_POSITION
 (
