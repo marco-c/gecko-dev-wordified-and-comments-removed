@@ -1,7 +1,4 @@
 #
-ifdef
-IBMBIDI
-#
 include
 "
 nsBidiUtils
@@ -3540,5 +3537,3 @@ IBMBIDI_NUMERAL_REGULAR
 )
 ;
 }
-#
-endif
