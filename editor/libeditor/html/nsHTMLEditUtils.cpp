@@ -3825,6 +3825,14 @@ GROUP_TBODY_CONTENT
 )
 ELEM
 (
+template
+false
+false
+GROUP_NONE
+GROUP_NONE
+)
+ELEM
+(
 time
 true
 false

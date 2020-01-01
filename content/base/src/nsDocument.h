@@ -3215,6 +3215,13 @@ MaybeRescheduleAnimationFrameNotifications
 )
 ;
 }
+virtual
+nsIDocument
+*
+GetTemplateContentsOwner
+(
+)
+;
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsDocument
@@ -4502,6 +4509,12 @@ nsRefPtr
 nsHTMLCSSStyleSheet
 >
 mStyleAttrStyleSheet
+;
+nsCOMPtr
+<
+nsIDocument
+>
+mTemplateContentsOwner
 ;
 uint32_t
 mUpdateNestLevel

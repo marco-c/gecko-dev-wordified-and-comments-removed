@@ -550,6 +550,11 @@ TableSection
 )
 HTML_TAG
 (
+template
+Template
+)
+HTML_TAG
+(
 time
 Time
 )

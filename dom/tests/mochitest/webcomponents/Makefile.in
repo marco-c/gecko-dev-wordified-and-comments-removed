@@ -89,6 +89,10 @@ test_document_register_lifecycle
 .
 html
 \
+test_template
+.
+html
+\
 (
 NULL
 )

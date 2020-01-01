@@ -3492,6 +3492,15 @@ mAllowXULXBL
 eTriTrue
 ;
 }
+virtual
+nsIDocument
+*
+GetTemplateContentsOwner
+(
+)
+=
+0
+;
 bool
 IsStaticDocument
 (
