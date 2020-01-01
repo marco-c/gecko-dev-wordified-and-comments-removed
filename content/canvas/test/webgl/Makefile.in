@@ -109,7 +109,15 @@ failing_tests_android_nvidia
 .
 txt
 \
+failing_tests_android_x86
+.
+txt
+\
 skipped_tests_android
+.
+txt
+\
+skipped_tests_android_x86
 .
 txt
 \
