@@ -560,6 +560,14 @@ aPoint
 )
 const
 ;
+PRBool
+WithinEpsilonOfIntegerPixels
+(
+gfxFloat
+aEpsilon
+)
+const
+;
 gfxPoint
 TopLeft
 (
