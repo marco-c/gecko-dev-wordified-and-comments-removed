@@ -2200,6 +2200,19 @@ IsOpen
 {
 }
 else
+if
+(
+this
+=
+=
+mMenuParent
+-
+>
+GetCurrentMenuItem
+(
+)
+)
+{
 mMenuParent
 -
 >
@@ -2209,6 +2222,7 @@ nsnull
 PR_FALSE
 )
 ;
+}
 }
 }
 }
