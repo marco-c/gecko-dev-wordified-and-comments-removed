@@ -49,7 +49,6 @@ flushToHandler
 (
 txAXMLEventHandler
 *
-*
 aHandler
 )
 ;
