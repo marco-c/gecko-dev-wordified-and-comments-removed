@@ -1409,7 +1409,7 @@ eBBoxIncludeFill
 <
 <
 0
-eBBoxIgnoreFillIfNone
+eBBoxIncludeFillGeometry
 =
 1
 <
@@ -1421,7 +1421,7 @@ eBBoxIncludeStroke
 <
 <
 2
-eBBoxIgnoreStrokeIfNone
+eBBoxIncludeStrokeGeometry
 =
 1
 <
@@ -1445,7 +1445,7 @@ aFrame
 PRUint32
 aFlags
 =
-eBBoxIncludeFill
+eBBoxIncludeFillGeometry
 )
 ;
 static
