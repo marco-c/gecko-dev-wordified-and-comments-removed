@@ -554,7 +554,7 @@ aRelativeSize
 ;
 nsPresContext
 *
-GetPresContext
+PresContext
 (
 )
 {
@@ -2800,7 +2800,7 @@ presContext
 aForFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -4851,7 +4851,7 @@ devContext
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -6498,7 +6498,7 @@ nextBreakIndex
 firstFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -7379,7 +7379,7 @@ rendContext
 nsresult
 rv
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -11585,7 +11585,7 @@ mPresContext
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
@@ -13618,7 +13618,7 @@ nsPropertyTable
 *
 propTable
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -15495,7 +15495,7 @@ eCompatibility_NavQuirks
 =
 aTextPaintStyle
 .
-GetPresContext
+PresContext
 (
 )
 -
@@ -15790,7 +15790,7 @@ FillClippedRect
 aCtx
 aTextPaintStyle
 .
-GetPresContext
+PresContext
 (
 )
 overColor
@@ -15829,7 +15829,7 @@ FillClippedRect
 aCtx
 aTextPaintStyle
 .
-GetPresContext
+PresContext
 (
 )
 underColor
@@ -15874,7 +15874,7 @@ FillClippedRect
 aCtx
 aTextPaintStyle
 .
-GetPresContext
+PresContext
 (
 )
 strikeColor
@@ -15974,7 +15974,7 @@ p2t
 =
 aTextPaintStyle
 .
-GetPresContext
+PresContext
 (
 )
 -
@@ -16032,7 +16032,7 @@ FillClippedRect
 aContext
 aTextPaintStyle
 .
-GetPresContext
+PresContext
 (
 )
 color
@@ -16097,7 +16097,7 @@ p2t
 =
 aTextPaintStyle
 .
-GetPresContext
+PresContext
 (
 )
 -
@@ -17265,7 +17265,7 @@ FillClippedRect
 aCtx
 aTextPaintStyle
 .
-GetPresContext
+PresContext
 (
 )
 background
@@ -18314,7 +18314,7 @@ rv
 =
 GetSelectionController
 (
-GetPresContext
+PresContext
 (
 )
 getter_AddRefs
