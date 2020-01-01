@@ -485,11 +485,7 @@ gcHeapChunkTotal
 (
 0
 )
-gcHeapChunkCleanDecommitted
-(
-0
-)
-gcHeapChunkDirtyDecommitted
+gcHeapDecommittedArenas
 (
 0
 )
@@ -536,10 +532,7 @@ size_t
 gcHeapChunkTotal
 ;
 size_t
-gcHeapChunkCleanDecommitted
-;
-size_t
-gcHeapChunkDirtyDecommitted
+gcHeapDecommittedArenas
 ;
 size_t
 gcHeapUnusedChunks
