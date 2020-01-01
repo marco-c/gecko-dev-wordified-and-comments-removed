@@ -1414,6 +1414,8 @@ const
 CallStack
 *
 stack
+bool
+stack_scan_allowed
 )
 {
 if
@@ -1554,6 +1556,9 @@ frames
 ;
 if
 (
+stack_scan_allowed
+&
+&
 !
 frame
 .

@@ -1011,6 +1011,8 @@ const
 CallStack
 *
 stack
+bool
+stack_scan_allowed
 )
 {
 if
@@ -1126,6 +1128,9 @@ get
 ;
 if
 (
+stack_scan_allowed
+&
+&
 !
 new_frame
 .
