@@ -739,7 +739,7 @@ sizemode
 fullscreen
 "
 #
-endif
+else
 width
 =
 "
@@ -750,6 +750,8 @@ height
 "
 800
 "
+#
+endif
 onkeypress
 =
 "
