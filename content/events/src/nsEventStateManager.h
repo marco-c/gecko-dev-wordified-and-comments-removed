@@ -1843,9 +1843,6 @@ nsEventStateManager
 aClearer
 )
 ;
-bool
-mClickHoldContextMenu
-;
 nsCOMPtr
 <
 nsITimer
