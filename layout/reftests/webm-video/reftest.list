@@ -848,6 +848,12 @@ ref
 green70x30
 .
 html
+skip
+-
+if
+(
+Android
+)
 =
 =
 bug686957
