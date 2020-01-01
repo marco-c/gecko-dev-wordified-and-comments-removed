@@ -2402,6 +2402,14 @@ resource
 headers
 ^
 \
+test_xhr_progressevents
+.
+html
+\
+progressserver
+.
+sjs
+\
 somedatas
 .
 resource
