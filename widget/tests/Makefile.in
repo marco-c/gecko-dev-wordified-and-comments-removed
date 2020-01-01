@@ -461,6 +461,14 @@ xul
 test_bug428405
 .
 xul
+\
+test_bug466599
+.
+xul
+\
+(
+NULL
+)
 endif
 libs
 :
