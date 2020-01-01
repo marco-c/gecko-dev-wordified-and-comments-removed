@@ -1838,6 +1838,8 @@ const
 {
 nsresult
 rv
+=
+NS_OK
 ;
 nsIAtom
 *
