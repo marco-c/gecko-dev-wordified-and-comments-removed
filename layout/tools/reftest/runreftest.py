@@ -1128,6 +1128,16 @@ symbolsPath
 options
 .
 symbolsPath
+                               
+timeout
+=
+options
+.
+timeout
++
+30
+.
+0
 )
     
 processLeakLog
