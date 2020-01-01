@@ -399,7 +399,7 @@ this
 invoke
 =
 function
-invoke
+statesChecker_invoke
 (
 )
 {
@@ -419,7 +419,7 @@ this
 check
 =
 function
-check
+statesChecker_check
 (
 )
 {
@@ -606,10 +606,11 @@ this
 getID
 =
 function
-getID
+statesChecker_getID
 (
 )
 {
+return
 "
 tree
 processor
