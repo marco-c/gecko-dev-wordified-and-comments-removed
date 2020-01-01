@@ -1,5 +1,12 @@
 #
 include
+"
+jsstddef
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -212,7 +219,7 @@ index
 index
 )
 >
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 array
 )
@@ -1129,9 +1136,9 @@ JSObject
 *
 obj
 uint32
-oldlen
+oldsize
 uint32
-len
+size
 )
 {
 jsval
@@ -1142,7 +1149,7 @@ newslots
 ;
 if
 (
-len
+size
 =
 =
 0
@@ -1181,7 +1188,7 @@ JS_TRUE
 }
 if
 (
-len
+size
 >
 ~
 (
@@ -1236,7 +1243,7 @@ jsval
 )
 *
 (
-len
+size
 +
 1
 )
@@ -1259,10 +1266,10 @@ newslots
 +
 1
 ;
-ARRAY_SET_DENSE_LENGTH
+js_SetDenseArrayCapacity
 (
 obj
-len
+size
 )
 ;
 for
@@ -1274,7 +1281,7 @@ obj
 >
 dslots
 +
-oldlen
+oldsize
 ;
 slots
 <
@@ -1283,7 +1290,7 @@ obj
 >
 dslots
 +
-len
+size
 ;
 slots
 +
@@ -1300,7 +1307,7 @@ JS_TRUE
 }
 static
 JSBool
-EnsureLength
+EnsureCapacity
 (
 JSContext
 *
@@ -1315,7 +1322,7 @@ len
 uint32
 oldlen
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -1391,7 +1398,7 @@ obj
 &
 index
 <
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -1588,7 +1595,7 @@ index
 if
 (
 !
-EnsureLength
+EnsureCapacity
 (
 cx
 obj
@@ -1766,7 +1773,7 @@ if
 (
 index
 <
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -2399,7 +2406,7 @@ obj
 jsuint
 oldsize
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -2718,7 +2725,7 @@ JSSLOT_ARRAY_LENGTH
 i
 >
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -3005,7 +3012,7 @@ i
 i
 >
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -3409,7 +3416,7 @@ vp
 if
 (
 !
-EnsureLength
+EnsureCapacity
 (
 cx
 obj
@@ -3518,9 +3525,9 @@ obj
 do
 {
 jsuint
-length
+capacity
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -3532,7 +3539,7 @@ jsuint
 )
 i
 <
-length
+capacity
 )
 {
 if
@@ -3904,7 +3911,7 @@ i
 &
 i
 <
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -4171,7 +4178,7 @@ idp
 )
 {
 uint32
-length
+capacity
 i
 ;
 JSIndexIterState
@@ -4195,9 +4202,9 @@ obj
 )
 )
 ;
-length
+capacity
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -4233,7 +4240,7 @@ i
 i
 !
 =
-length
+capacity
 ;
 +
 +
@@ -4277,7 +4284,7 @@ holes
 +
 JS_BITMAP_SIZE
 (
-length
+capacity
 )
 )
 ;
@@ -4305,7 +4312,7 @@ holes
 0
 JS_BITMAP_SIZE
 (
-length
+capacity
 )
 )
 ;
@@ -4329,7 +4336,7 @@ ii
 {
 if
 (
-length
+capacity
 <
 =
 PACKED_UINT_PAIR_MASK
@@ -4341,7 +4348,7 @@ statep
 UINT_PAIR_TO_BOOLEAN_JSVAL
 (
 0
-length
+capacity
 )
 ;
 break
@@ -4391,7 +4398,7 @@ ii
 >
 length
 =
-length
+capacity
 ;
 *
 statep
@@ -4433,7 +4440,7 @@ BOOLEAN_JSVAL_TO_UINT_PAIR
 *
 statep
 i
-length
+capacity
 )
 ;
 if
@@ -4441,7 +4448,7 @@ if
 i
 !
 =
-length
+capacity
 )
 {
 *
@@ -4460,7 +4467,7 @@ UINT_PAIR_TO_BOOLEAN_JSVAL
 i
 +
 1
-length
+capacity
 )
 ;
 break
@@ -4804,7 +4811,7 @@ obj
 )
 {
 uint32
-length
+capacity
 ;
 size_t
 i
@@ -4821,9 +4828,9 @@ obj
 )
 )
 ;
-length
+capacity
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -4836,7 +4843,7 @@ i
 ;
 i
 <
-length
+capacity
 ;
 i
 +
@@ -5201,7 +5208,7 @@ oldmap
 ;
 uint32
 i
-length
+capacity
 ;
 JS_ASSERT
 (
@@ -5243,16 +5250,16 @@ map
 return
 JS_FALSE
 ;
-length
+capacity
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
 ;
 if
 (
-length
+capacity
 )
 {
 map
@@ -5278,7 +5285,7 @@ dslots
 =
 JS_INITIAL_NSLOTS
 +
-length
+capacity
 ;
 }
 else
@@ -5302,7 +5309,7 @@ i
 ;
 i
 <
-length
+capacity
 ;
 i
 +
@@ -5390,6 +5397,7 @@ goto
 out_bad
 ;
 }
+uint32
 length
 =
 obj
@@ -6729,7 +6737,7 @@ obj
 if
 (
 !
-EnsureLength
+EnsureCapacity
 (
 cx
 obj
@@ -6878,7 +6886,7 @@ vector
 if
 (
 !
-EnsureLength
+EnsureCapacity
 (
 cx
 obj
@@ -9638,7 +9646,7 @@ rval
 if
 (
 !
-EnsureLength
+EnsureCapacity
 (
 cx
 obj
@@ -9753,7 +9761,7 @@ JS_ASSERT
 length
 <
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -9764,7 +9772,7 @@ if
 length
 =
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -11472,7 +11480,7 @@ JSSLOT_ARRAY_LENGTH
 jsuint
 capacity
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 aobj
 )
@@ -12142,7 +12150,7 @@ obj
 end
 <
 =
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
@@ -14605,7 +14613,7 @@ newslots
 1
 ;
 \
-ARRAY_SET_DENSE_LENGTH
+js_SetDenseArrayCapacity
 (
 obj
 len
@@ -15084,7 +15092,7 @@ stderr
 count
 %
 lu
-denselen
+capacity
 %
 lu
 "
@@ -15095,7 +15103,7 @@ fslots
 [
 JSSLOT_ARRAY_COUNT
 ]
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 array
 )

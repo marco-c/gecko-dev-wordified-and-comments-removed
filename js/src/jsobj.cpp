@@ -25702,7 +25702,7 @@ fslots
 [
 JSSLOT_ARRAY_LENGTH
 ]
-ARRAY_DENSE_LENGTH
+js_DenseArrayCapacity
 (
 obj
 )
