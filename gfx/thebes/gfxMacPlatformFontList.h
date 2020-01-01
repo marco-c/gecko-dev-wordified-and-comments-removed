@@ -97,6 +97,16 @@ ReadCMAP
 (
 )
 ;
+PRBool
+RequiresAATLayout
+(
+)
+const
+{
+return
+mRequiresAAT
+;
+}
 virtual
 nsresult
 GetFontTable
@@ -150,6 +160,9 @@ mATSFontRef
 ;
 PRPackedBool
 mATSFontRefInitialized
+;
+PRPackedBool
+mRequiresAAT
 ;
 }
 ;
