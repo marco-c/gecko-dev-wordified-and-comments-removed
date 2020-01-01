@@ -56,14 +56,6 @@ shlibs
 :
 Depends
 }
-xulrunner
-(
->
-=
-GRE_MILESTONE
--
-GRE_BUILDID
-)
 Description
 :
 Web
