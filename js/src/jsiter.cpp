@@ -1841,7 +1841,10 @@ js_CloseIterator
 CONTEXT
 JSVAL
 0
-0
+nanojit
+:
+:
+ACC_STORE_ANY
 )
 static
 JSBool

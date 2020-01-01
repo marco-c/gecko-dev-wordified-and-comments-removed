@@ -5799,13 +5799,13 @@ exit
 nanojit
 :
 :
-LOpcode
-loadOp
+AccSet
+accSet
 =
 nanojit
 :
 :
-LIR_ldp
+ACC_LOAD_ANY
 )
 ;
 bool
@@ -5838,7 +5838,7 @@ exit
 nanojit
 :
 :
-LIR_ldcp
+ACC_READONLY
 )
 ;
 }

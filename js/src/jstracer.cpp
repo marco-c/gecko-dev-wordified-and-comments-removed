@@ -4554,7 +4554,7 @@ CHARPTR
 UINT32
 DOUBLEPTR
 0
-0
+ACC_STORE_ANY
 )
 void
 TraceRecorder
@@ -27640,14 +27640,16 @@ ARGSIZE_SHIFT
 ci
 -
 >
-_cse
+_isPure
 =
+0
+;
 ci
 -
 >
-_fold
+_storeAccSet
 =
-0
+ACC_STORE_ANY
 ;
 ci
 -
@@ -42365,7 +42367,7 @@ OBJECT
 CVIPTR
 DOUBLEPTR
 0
-0
+ACC_STORE_ANY
 )
 JS_DEFINE_CALLINFO_4
 (
@@ -42377,7 +42379,7 @@ OBJECT
 CVIPTR
 DOUBLEPTR
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 AbortableRecordingStatus
@@ -50075,7 +50077,7 @@ lir
 >
 insLoad
 (
-LIR_ldcp
+LIR_ldp
 map_ins
 int
 (
@@ -50085,6 +50087,7 @@ JSObjectMap
 ops
 )
 )
+ACC_READONLY
 )
 "
 ops
@@ -50100,9 +50103,10 @@ lir
 >
 insLoad
 (
-LIR_ldcp
+LIR_ldp
 ops_ins
 op_offset
+ACC_READONLY
 )
 ;
 guard
@@ -50953,13 +50957,14 @@ lir
 >
 insLoad
 (
-LIR_ldcp
+LIR_ldp
 cx_ins
 offsetof
 (
 JSContext
 runtime
 )
+ACC_READONLY
 )
 "
 runtime
@@ -51533,7 +51538,7 @@ lir
 >
 insLoad
 (
-LIR_ldcp
+LIR_ldp
 obj_ins
 offsetof
 (
@@ -51547,6 +51552,7 @@ sizeof
 (
 jsval
 )
+ACC_READONLY
 )
 ;
 }
@@ -52107,7 +52113,7 @@ lir
 >
 insLoad
 (
-LIR_ldcp
+LIR_ldp
 v_ins
 offsetof
 (
@@ -52594,8 +52600,8 @@ clasp
 VMSideExit
 *
 exit
-LOpcode
-loadOp
+AccSet
+accSet
 )
 {
 bool
@@ -52620,13 +52626,14 @@ lir
 >
 insLoad
 (
-loadOp
+LIR_ldp
 obj_ins
 offsetof
 (
 JSObject
 classword
 )
+accSet
 )
 ;
 class_ins
@@ -58311,14 +58318,16 @@ ARGSIZE_SHIFT
 ci
 -
 >
-_cse
+_isPure
 =
+0
+;
 ci
 -
 >
-_fold
+_storeAccSet
 =
-0
+ACC_STORE_ANY
 ;
 ci
 -
@@ -60805,14 +60814,16 @@ native
 ci
 -
 >
-_cse
+_isPure
 =
+0
+;
 ci
 -
 >
-_fold
+_storeAccSet
 =
-0
+ACC_STORE_ANY
 ;
 ci
 -
@@ -62302,7 +62313,7 @@ OBJECT
 SCOPEPROP
 OBJECT
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 RecordingStatus
@@ -63504,7 +63515,7 @@ lir
 >
 insLoad
 (
-LIR_ldcb
+LIR_ldzb
 lir
 -
 >
@@ -63521,6 +63532,7 @@ slot_ins
 )
 )
 0
+ACC_READONLY
 )
 ;
 TraceType
@@ -64217,7 +64229,7 @@ OBJECT
 STRINGPTR
 JSVALPTR
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 RecordingStatus
@@ -64525,7 +64537,7 @@ OBJECT
 INT32
 JSVALPTR
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 RecordingStatus
@@ -64690,7 +64702,7 @@ OBJECT
 JSVAL
 JSVALPTR
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 RecordingStatus
@@ -65040,7 +65052,7 @@ OBJECT
 SCOPEPROP
 JSVALPTR
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 RecordingStatus
@@ -65832,9 +65844,10 @@ lir
 >
 insLoad
 (
-LIR_ldcb
+LIR_ldzb
 typep_ins
 0
+ACC_READONLY
 )
 ;
 guard
@@ -66241,7 +66254,7 @@ OBJECT
 STRINGPTR
 JSVALPTR
 0
-0
+ACC_STORE_ANY
 )
 static
 JSBool
@@ -66330,7 +66343,7 @@ OBJECT
 STRINGPTR
 JSVAL
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 RecordingStatus
@@ -66592,7 +66605,7 @@ OBJECT
 INT32
 JSVALPTR
 0
-0
+ACC_STORE_ANY
 )
 static
 JSBool
@@ -66689,7 +66702,7 @@ OBJECT
 INT32
 JSVAL
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 RecordingStatus
@@ -67112,7 +67125,7 @@ lir
 >
 insLoad
 (
-LIR_ldc
+LIR_ld
 priv_ins
 js
 :
@@ -67123,6 +67136,7 @@ TypedArray
 lengthOffset
 (
 )
+ACC_READONLY
 )
 )
 createGuardRecord
@@ -67143,7 +67157,7 @@ lir
 >
 insLoad
 (
-LIR_ldcp
+LIR_ldp
 priv_ins
 js
 :
@@ -67154,6 +67168,7 @@ TypedArray
 dataOffset
 (
 )
+ACC_READONLY
 )
 ;
 LIns
@@ -68273,7 +68288,7 @@ INT32
 UINT32
 DOUBLEPTR
 0
-0
+ACC_STORE_ANY
 )
 JS_DEFINE_CALLINFO_5
 (
@@ -68286,7 +68301,7 @@ INT32
 UINT32
 DOUBLEPTR
 0
-0
+ACC_STORE_ANY
 )
 JS_DEFINE_CALLINFO_5
 (
@@ -68299,7 +68314,7 @@ INT32
 UINT32
 DOUBLEPTR
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 LIns
@@ -68918,7 +68933,7 @@ lir
 >
 insLoad
 (
-LIR_ldcp
+LIR_ldp
 dslots_ins
 index
 *
@@ -68926,6 +68941,7 @@ sizeof
 (
 jsval
 )
+ACC_READONLY
 )
 ;
 stack
@@ -70567,7 +70583,7 @@ CONTEXT
 BOOL
 JSVALPTR
 0
-0
+ACC_STORE_ANY
 )
 )
 )
@@ -71347,7 +71363,7 @@ OBJECT
 SCOPEPROP
 OBJECT
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 AbortableRecordingStatus
@@ -72937,7 +72953,7 @@ lir
 >
 insLoad
 (
-LIR_ldc
+LIR_ld
 priv_ins
 js
 :
@@ -72948,6 +72964,7 @@ TypedArray
 lengthOffset
 (
 )
+ACC_READONLY
 )
 )
 OVERFLOW_EXIT
@@ -72962,7 +72979,7 @@ lir
 >
 insLoad
 (
-LIR_ldcp
+LIR_ldp
 priv_ins
 js
 :
@@ -72973,6 +72990,7 @@ TypedArray
 dataOffset
 (
 )
+ACC_READONLY
 )
 ;
 switch
@@ -76404,7 +76422,7 @@ CONTEXT
 OBJECT
 JSVAL
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 AbortableRecordingStatus
@@ -80960,7 +80978,7 @@ PC
 THIS
 INT32
 0
-0
+ACC_STORE_ANY
 )
 )
 )
@@ -80977,7 +80995,7 @@ CONTEXT
 PC
 THIS
 0
-0
+ACC_STORE_ANY
 )
 )
 )
@@ -81681,7 +81699,7 @@ lir
 >
 insLoad
 (
-LIR_ldc
+LIR_ld
 stobj_get_const_fslot
 (
 obj_ins
@@ -81696,6 +81714,7 @@ TypedArray
 lengthOffset
 (
 )
+ACC_READONLY
 )
 )
 ;
@@ -82318,7 +82337,7 @@ js_Unbrand
 CONTEXT
 OBJECT
 0
-0
+ACC_STORE_ANY
 )
 JS_REQUIRES_STACK
 AbortableRecordingStatus

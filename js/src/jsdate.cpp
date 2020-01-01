@@ -10097,7 +10097,10 @@ DOUBLE
 date_now_tn
 CONTEXT
 0
-0
+nanojit
+:
+:
+ACC_STORE_ANY
 )
 )
 )
@@ -10153,7 +10156,10 @@ CONTEXT
 THIS
 STRING
 0
-0
+nanojit
+:
+:
+ACC_STORE_ANY
 )
 )
 )
