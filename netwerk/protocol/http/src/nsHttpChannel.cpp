@@ -10540,6 +10540,9 @@ NS_OK
 if
 (
 mResponseHead
+&
+&
+mResponseHead
 -
 >
 NoStore
