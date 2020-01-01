@@ -421,15 +421,12 @@ DIRS
 autoconfig
 ifdef
 MOZ_ENABLE_GTK2
-ifdef
-MOZ_ENABLE_GCONF
 DIRS
 +
 =
 system
 -
 pref
-endif
 endif
 include
 (

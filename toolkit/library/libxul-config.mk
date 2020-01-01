@@ -1010,15 +1010,12 @@ COMPONENT_LIBS
 widget_gtk2
 ifdef
 MOZ_PREF_EXTENSIONS
-ifdef
-MOZ_ENABLE_GCONF
 COMPONENT_LIBS
 +
 =
 system
 -
 pref
-endif
 endif
 endif
 ifdef
