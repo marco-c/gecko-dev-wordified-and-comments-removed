@@ -1886,6 +1886,9 @@ mDragLeaveTimer
 float
 mLastMotionPressure
 ;
+nsSizeMode
+mLastSizeMode
+;
 static
 PRBool
 sIsDraggingOutOf
