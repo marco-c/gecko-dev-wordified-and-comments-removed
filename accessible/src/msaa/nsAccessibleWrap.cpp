@@ -431,7 +431,7 @@ ppv
 HRESULT
 hr
 =
-CAccessibleComponent
+ia2AccessibleComponent
 :
 :
 QueryInterface

@@ -771,7 +771,7 @@ UpdateBounds
 )
 ;
 }
-gfxRect
+SVGBBox
 nsSVGTextFrame
 :
 :

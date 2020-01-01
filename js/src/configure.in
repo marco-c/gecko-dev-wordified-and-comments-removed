@@ -33919,7 +33919,9 @@ dnl
 =
 MOZ_ARG_ENABLE_BOOL
 (
-gcrootanalysis
+root
+-
+analysis
 [
 -
 -

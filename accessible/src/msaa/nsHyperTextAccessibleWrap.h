@@ -28,7 +28,7 @@ h
 #
 include
 "
-CAccessibleHyperText
+ia2AccessibleHyperText
 .
 h
 "
@@ -38,7 +38,7 @@ nsHyperTextAccessibleWrap
 public
 nsHyperTextAccessible
 public
-CAccessibleHypertext
+ia2AccessibleHypertext
 public
 CAccessibleEditableText
 {

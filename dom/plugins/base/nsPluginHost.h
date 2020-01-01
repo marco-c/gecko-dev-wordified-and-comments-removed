@@ -807,7 +807,7 @@ aLibrary
 )
 ;
 nsresult
-InstantiateEmbeddedPlugin
+InstantiateEmbeddedPluginInstance
 (
 const
 char
@@ -826,7 +826,7 @@ aOwner
 )
 ;
 nsresult
-InstantiateFullPagePlugin
+InstantiateFullPagePluginInstance
 (
 const
 char
@@ -920,7 +920,7 @@ aInstance
 )
 ;
 nsresult
-NewFullPagePluginStream
+NewFullPagePluginStreamListener
 (
 nsIURI
 *

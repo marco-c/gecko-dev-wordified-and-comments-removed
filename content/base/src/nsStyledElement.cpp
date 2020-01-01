@@ -505,7 +505,7 @@ aNotify
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsStyledElementNotElementCSSInlineStyle
 :
 :

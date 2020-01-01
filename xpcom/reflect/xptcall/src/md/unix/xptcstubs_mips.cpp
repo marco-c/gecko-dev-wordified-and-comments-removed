@@ -12,6 +12,15 @@ xptiprivate
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 extern
 "
 C
@@ -245,7 +254,7 @@ T_I64
 if
 (
 (
-PRWord
+intptr_t
 )
 ap
 &
@@ -286,7 +295,7 @@ T_U64
 if
 (
 (
-PRWord
+intptr_t
 )
 ap
 &
@@ -327,7 +336,7 @@ T_DOUBLE
 if
 (
 (
-PRWord
+intptr_t
 )
 ap
 &

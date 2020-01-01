@@ -832,8 +832,7 @@ ParseNode
 *
 functionDef
 (
-PropertyName
-*
+HandlePropertyName
 name
 FunctionType
 type

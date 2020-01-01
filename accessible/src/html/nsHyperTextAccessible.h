@@ -379,6 +379,11 @@ PRInt32
 aEndOffset
 )
 ;
+bool
+IsTextRole
+(
+)
+;
 inline
 PRUint32
 CharacterCount
@@ -720,7 +725,7 @@ nsIFrame
 aFrame
 PRInt32
 aOffset
-nsIAccessible
+nsAccessible
 *
 aAccessible
 nsIDOMNode

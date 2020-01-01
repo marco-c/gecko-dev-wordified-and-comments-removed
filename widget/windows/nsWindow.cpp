@@ -12019,6 +12019,12 @@ windowRect
 top
 >
 MAX_ACCELERATED_DIMENSION
+|
+|
+mWindowType
+=
+=
+eWindowType_popup
 )
 mUseAcceleratedRendering
 =

@@ -174,6 +174,11 @@ ConditionallyStopPruneDeadConnectionsTimer
 (
 )
 ;
+void
+ConditionallyStopReadTimeoutTick
+(
+)
+;
 nsresult
 AddTransaction
 (

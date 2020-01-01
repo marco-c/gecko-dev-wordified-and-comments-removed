@@ -2224,6 +2224,11 @@ nsLegendFrame
 >
 (
 mLegendFrame
+-
+>
+GetContentInsertionFrame
+(
+)
 )
 -
 >

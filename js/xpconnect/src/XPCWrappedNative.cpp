@@ -87,6 +87,15 @@ include
 "
 mozilla
 /
+StandardInteger
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -4169,7 +4178,7 @@ Destroy
 }
 static
 const
-PRWord
+intptr_t
 WRAPPER_WORD_POISON
 =
 0xa8a8a8a8

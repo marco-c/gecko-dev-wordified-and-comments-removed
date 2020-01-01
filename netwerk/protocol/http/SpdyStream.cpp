@@ -1130,7 +1130,7 @@ mTxInlineFrame
 SpdySession
 :
 :
-kPri00
+kPri03
 ;
 else
 if
@@ -1151,7 +1151,7 @@ mTxInlineFrame
 SpdySession
 :
 :
-kPri01
+kPri02
 ;
 else
 if
@@ -1172,7 +1172,7 @@ mTxInlineFrame
 SpdySession
 :
 :
-kPri02
+kPri01
 ;
 else
 mTxInlineFrame
@@ -1183,7 +1183,7 @@ mTxInlineFrame
 SpdySession
 :
 :
-kPri03
+kPri00
 ;
 mTxInlineFrame
 [

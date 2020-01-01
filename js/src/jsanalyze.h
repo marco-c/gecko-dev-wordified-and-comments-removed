@@ -4289,6 +4289,11 @@ slot
 &
 &
 canTrackVars
+&
+&
+slot
+<
+1000
 ;
 }
 const

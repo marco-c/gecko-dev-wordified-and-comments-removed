@@ -2636,7 +2636,7 @@ long
 :
         
 "
-PRInt64
+int64_t
 {
 name
 }
@@ -2649,7 +2649,10 @@ n
 if
 (
 !
-xpc_qsValueToInt64
+xpc
+:
+:
+ValueToInt64
 (
 cx
 {
@@ -2681,7 +2684,7 @@ long
 :
         
 "
-PRUint64
+uint64_t
 {
 name
 }
@@ -2694,7 +2697,10 @@ n
 if
 (
 !
-xpc_qsValueToUint64
+xpc
+:
+:
+ValueToUint64
 (
 cx
 {
@@ -9263,7 +9269,20 @@ f
 write
 (
 "
-JSBool
+namespace
+xpc
+{
+\
+n
+"
+)
+    
+f
+.
+write
+(
+"
+bool
 %
 s_DefineQuickStubs
 (
@@ -9315,6 +9334,8 @@ write
 (
 "
 return
+!
+!
 xpc_qsDefineQuickStubs
 (
 "
@@ -9355,6 +9376,21 @@ write
 (
 "
 }
+\
+n
+"
+)
+    
+f
+.
+write
+(
+"
+}
+/
+/
+namespace
+xpc
 \
 n
 \

@@ -808,6 +808,7 @@ const
 D3DXCONSTANT_DESC
 &
 constantDescription
+const
 std
 :
 :
@@ -824,6 +825,7 @@ const
 D3DXCONSTANT_DESC
 &
 constantDescription
+const
 std
 :
 :

@@ -2817,7 +2817,7 @@ rv
 pluginHost
 -
 >
-InstantiateFullPagePlugin
+InstantiateFullPagePluginInstance
 (
 aMimeType
 aURI
@@ -2857,7 +2857,7 @@ rv
 pluginHost
 -
 >
-InstantiateEmbeddedPlugin
+InstantiateEmbeddedPluginInstance
 (
 aMimeType
 aURI

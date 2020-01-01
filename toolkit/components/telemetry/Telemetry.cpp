@@ -6592,6 +6592,10 @@ PR_RDONLY
 0
 &
 fd
+.
+rwget
+(
+)
 )
 ;
 if
@@ -7048,6 +7052,10 @@ PR_TRUNCATE
 0600
 &
 fd
+.
+rwget
+(
+)
 )
 ;
 if

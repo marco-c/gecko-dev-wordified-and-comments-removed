@@ -209,12 +209,6 @@ hidden
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 HTTP
 (
 .

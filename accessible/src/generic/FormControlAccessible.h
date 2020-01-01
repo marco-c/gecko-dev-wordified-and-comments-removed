@@ -7,7 +7,7 @@ MOZILLA_A11Y_FormControlAccessible_H_
 #
 include
 "
-BaseAccessibles
+nsBaseWidgetAccessible
 .
 h
 "
@@ -26,7 +26,7 @@ class
 ProgressMeterAccessible
 :
 public
-LeafAccessible
+nsLeafAccessible
 {
 public
 :
@@ -35,12 +35,12 @@ ProgressMeterAccessible
 nsIContent
 *
 aContent
-DocAccessible
+nsDocAccessible
 *
 aDoc
 )
 :
-LeafAccessible
+nsLeafAccessible
 (
 aContent
 aDoc
@@ -71,7 +71,7 @@ NativeRole
 )
 ;
 virtual
-uint64_t
+PRUint64
 NativeState
 (
 )
@@ -89,7 +89,7 @@ class
 RadioButtonAccessible
 :
 public
-LeafAccessible
+nsLeafAccessible
 {
 public
 :
@@ -98,7 +98,7 @@ RadioButtonAccessible
 nsIContent
 *
 aContent
-DocAccessible
+nsDocAccessible
 *
 aDoc
 )
@@ -106,7 +106,7 @@ aDoc
 NS_IMETHOD
 GetActionName
 (
-uint8_t
+PRUint8
 aIndex
 nsAString
 &
@@ -116,7 +116,7 @@ aName
 NS_IMETHOD
 DoAction
 (
-uint8_t
+PRUint8
 aIndex
 )
 ;
@@ -133,7 +133,7 @@ NativeRole
 )
 ;
 virtual
-uint8_t
+PRUint8
 ActionCount
 (
 )

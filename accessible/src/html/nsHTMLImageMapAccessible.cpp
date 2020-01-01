@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsARIAMap
+.
+h
+"
+#
+include
+"
 nsDocAccessible
 .
 h
@@ -440,10 +447,10 @@ mDoc
 BindToDocument
 (
 area
-nsAccUtils
+aria
 :
 :
-GetRoleMapEntry
+GetRoleMap
 (
 areaContent
 )

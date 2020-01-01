@@ -2650,9 +2650,8 @@ Value
 vp
 Native
 native
-PropertyName
-*
-name
+jsid
+id
 )
 {
 CallArgs
@@ -2693,13 +2692,14 @@ false
 Value
 callable
 ;
-JSObject
-*
+RootedVarObject
 buffer
-=
+(
+cx
 GetBuffer
 (
 obj
+)
 )
 ;
 if
@@ -2709,10 +2709,7 @@ js_GetMethod
 (
 cx
 buffer
-ATOM_TO_JSID
-(
-name
-)
+id
 0
 &
 callable
@@ -2774,6 +2771,8 @@ cx
 argc
 vp
 ParallelArray_toString
+ATOM_TO_JSID
+(
 cx
 -
 >
@@ -2783,6 +2782,7 @@ runtime
 atomState
 .
 toStringAtom
+)
 )
 ;
 }
@@ -2807,6 +2807,8 @@ cx
 argc
 vp
 ParallelArray_toLocaleString
+ATOM_TO_JSID
+(
 cx
 -
 >
@@ -2816,6 +2818,7 @@ runtime
 atomState
 .
 toStringAtom
+)
 )
 ;
 }
@@ -2840,6 +2843,8 @@ cx
 argc
 vp
 ParallelArray_toSource
+ATOM_TO_JSID
+(
 cx
 -
 >
@@ -2849,6 +2854,7 @@ runtime
 atomState
 .
 toStringAtom
+)
 )
 ;
 }

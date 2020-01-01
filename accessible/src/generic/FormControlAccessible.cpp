@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIDOMHTMLInputElement
+.
+h
+"
+#
+include
+"
 nsIDOMXULElement
 .
 h
@@ -77,7 +84,7 @@ ProgressMeterAccessible
 <
 Max
 >
-LeafAccessible
+nsLeafAccessible
 )
 template
 <
@@ -90,7 +97,7 @@ ProgressMeterAccessible
 <
 Max
 >
-LeafAccessible
+nsLeafAccessible
 )
 template
 <
@@ -103,7 +110,7 @@ ProgressMeterAccessible
 <
 Max
 >
-LeafAccessible
+nsLeafAccessible
 nsIAccessibleValue
 )
 template
@@ -134,7 +141,7 @@ template
 int
 Max
 >
-uint64_t
+PRUint64
 ProgressMeterAccessible
 <
 Max
@@ -145,10 +152,10 @@ NativeState
 (
 )
 {
-uint64_t
+PRUint64
 state
 =
-LeafAccessible
+nsLeafAccessible
 :
 :
 NativeState
@@ -231,7 +238,7 @@ nsString
 aValue
 )
 {
-LeafAccessible
+nsLeafAccessible
 :
 :
 Value
@@ -357,7 +364,7 @@ aMaximumValue
 nsresult
 rv
 =
-LeafAccessible
+nsLeafAccessible
 :
 :
 GetMaximumValue
@@ -394,7 +401,7 @@ value
 )
 )
 {
-nsresult
+PRInt32
 result
 =
 NS_OK
@@ -445,7 +452,7 @@ aMinimumValue
 nsresult
 rv
 =
-LeafAccessible
+nsLeafAccessible
 :
 :
 GetMinimumValue
@@ -494,7 +501,7 @@ aMinimumIncrement
 nsresult
 rv
 =
-LeafAccessible
+nsLeafAccessible
 :
 :
 GetMinimumIncrement
@@ -543,7 +550,7 @@ aCurrentValue
 nsresult
 rv
 =
-LeafAccessible
+nsLeafAccessible
 :
 :
 GetCurrentValue
@@ -588,7 +595,7 @@ IsEmpty
 return
 NS_OK
 ;
-nsresult
+PRInt32
 error
 =
 NS_OK
@@ -653,19 +660,19 @@ RadioButtonAccessible
 nsIContent
 *
 aContent
-DocAccessible
+nsDocAccessible
 *
 aDoc
 )
 :
-LeafAccessible
+nsLeafAccessible
 (
 aContent
 aDoc
 )
 {
 }
-uint8_t
+PRUint8
 RadioButtonAccessible
 :
 :
@@ -683,7 +690,7 @@ RadioButtonAccessible
 :
 GetActionName
 (
-uint8_t
+PRUint8
 aIndex
 nsAString
 &
@@ -721,7 +728,7 @@ RadioButtonAccessible
 :
 DoAction
 (
-uint8_t
+PRUint8
 aIndex
 )
 {

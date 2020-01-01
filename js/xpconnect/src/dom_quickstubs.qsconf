@@ -2573,11 +2573,6 @@ nsIIDBDatabase
 *
 '
 '
-nsIIDBDatabaseException
-.
-*
-'
-'
 nsIIDBIndex
 .
 *

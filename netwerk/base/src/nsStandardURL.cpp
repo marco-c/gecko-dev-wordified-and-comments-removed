@@ -2040,6 +2040,8 @@ bool
 useEncUsername
 useEncPassword
 useEncHost
+=
+false
 useEncDirectory
 useEncBasename
 useEncExtension

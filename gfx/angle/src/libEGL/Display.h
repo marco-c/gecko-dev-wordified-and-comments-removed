@@ -406,6 +406,13 @@ getOcclusionQuerySupport
 const
 ;
 virtual
+bool
+getInstancingSupport
+(
+)
+const
+;
+virtual
 D3DPOOL
 getBufferPool
 (
@@ -438,6 +445,7 @@ bool
 isD3d9ExDevice
 (
 )
+const
 {
 return
 mD3d9Ex
@@ -450,6 +458,12 @@ const
 char
 *
 getExtensionString
+(
+)
+const
+;
+bool
+shareHandleSupported
 (
 )
 const

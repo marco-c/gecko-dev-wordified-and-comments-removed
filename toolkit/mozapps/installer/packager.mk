@@ -9341,9 +9341,9 @@ CREATE_HG_BUNDLE_CMD
 (
 SIGN_HG_BUNDLE_CMD
 )
-upload
--
 source
+-
+upload
 :
 (
 MAKE

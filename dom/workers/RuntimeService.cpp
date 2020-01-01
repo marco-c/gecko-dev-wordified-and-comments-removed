@@ -233,16 +233,6 @@ mozilla
 :
 Preferences
 ;
-using
-namespace
-mozilla
-:
-:
-xpconnect
-:
-:
-memory
-;
 #
 define
 WORKER_DEFAULT_RUNTIME_HEAPSIZE

@@ -53532,9 +53532,7 @@ dnl
 =
 MOZ_ARG_ENABLE_BOOL
 (
-sign
--
-mar
+signmar
 [
 -
 -
@@ -58024,6 +58022,10 @@ GLContextProvider
 MOZ_GL_PROVIDER
 )
 fi
+AC_SUBST
+(
+MOZ_GL_DEFAULT_PROVIDER
+)
 dnl
 =
 =
@@ -74883,6 +74885,10 @@ MOZ_OGG
 AC_SUBST
 (
 MOZ_ALSA_LIBS
+)
+AC_SUBST
+(
+MOZ_ALSA_CFLAGS
 )
 AC_SUBST
 (

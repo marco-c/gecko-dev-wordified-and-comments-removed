@@ -1,7 +1,9 @@
 #
 include
 "
-nsAccessible
+Accessible
+-
+inl
 .
 h
 "
