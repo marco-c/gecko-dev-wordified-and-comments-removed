@@ -43722,7 +43722,7 @@ telemetry
 .
 optin
 .
-yes
+send
 "
 )
 callback
@@ -43773,7 +43773,7 @@ telemetry
 .
 optin
 .
-no
+dontSend
 "
 )
 callback
