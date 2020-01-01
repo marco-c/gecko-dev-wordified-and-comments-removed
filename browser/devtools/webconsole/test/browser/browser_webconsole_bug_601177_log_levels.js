@@ -419,10 +419,6 @@ onContentLoaded
 true
 )
 ;
-expectUncaughtException
-(
-)
-;
 content
 .
 location

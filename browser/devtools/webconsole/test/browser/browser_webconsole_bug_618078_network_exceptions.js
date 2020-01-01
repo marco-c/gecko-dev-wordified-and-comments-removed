@@ -292,10 +292,6 @@ function
 (
 )
 {
-expectUncaughtException
-(
-)
-;
 content
 .
 location
