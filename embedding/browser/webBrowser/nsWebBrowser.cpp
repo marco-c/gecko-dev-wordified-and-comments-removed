@@ -6275,6 +6275,15 @@ nsIDocShell
 aDocShell
 )
 {
+nsCOMPtr
+<
+nsIDocShell
+>
+kungFuDeathGrip
+(
+mDocShell
+)
+;
 if
 (
 aDocShell
