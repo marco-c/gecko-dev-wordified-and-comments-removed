@@ -445,10 +445,6 @@ TestShellParent
 .
 h
 \
-TestShellThread
-.
-h
-\
 XPCShellEnvironment
 .
 h
@@ -465,10 +461,6 @@ TestShellChild
 cpp
 \
 TestShellParent
-.
-cpp
-\
-TestShellThread
 .
 cpp
 \

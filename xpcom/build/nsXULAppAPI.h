@@ -349,7 +349,6 @@ GeckoChildProcess_Default
 GeckoChildProcess_Plugin
 GeckoChildProcess_Tab
 GeckoChildProcess_TestHarness
-GeckoChildProcess_TestShell
 GeckoChildProcess_End
 GeckoChildProcess_Invalid
 =
@@ -377,9 +376,6 @@ tab
 "
 "
 testharness
-"
-"
-testshell
 "
 }
 ;
