@@ -386,7 +386,7 @@ pc
 (
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -1217,7 +1217,7 @@ jsdframe
 JSBool
 ok
 ;
-JS
+js
 :
 :
 RootedValue

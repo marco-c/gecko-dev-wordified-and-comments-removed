@@ -1788,7 +1788,7 @@ setUserBit
 true
 )
 ;
-JS
+js
 :
 :
 RootedObject

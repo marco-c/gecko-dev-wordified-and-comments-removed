@@ -6523,7 +6523,7 @@ wrapper
 )
 )
 {
-JS
+js
 :
 :
 RootedId
@@ -7632,7 +7632,7 @@ wrapper
 )
 )
 {
-JS
+js
 :
 :
 RootedId
