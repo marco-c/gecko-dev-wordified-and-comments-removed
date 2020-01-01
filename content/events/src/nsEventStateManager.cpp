@@ -19034,12 +19034,8 @@ if
 mDocument
 )
 {
-MOZ_AUTO_DOC_UPDATE
-(
-mDocument
-UPDATE_CONTENT_STATE
-PR_TRUE
-)
+nsAutoScriptBlocker
+scriptBlocker
 ;
 if
 (

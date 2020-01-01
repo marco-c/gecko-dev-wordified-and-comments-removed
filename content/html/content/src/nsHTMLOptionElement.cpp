@@ -514,13 +514,8 @@ if
 document
 )
 {
-mozAutoDocUpdate
-upd
-(
-document
-UPDATE_CONTENT_STATE
-aNotify
-)
+nsAutoScriptBlocker
+scriptBlocker
 ;
 document
 -
