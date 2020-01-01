@@ -4144,6 +4144,7 @@ info
 entries
 ;
 }
+static
 callsite
 *
 backtrace
