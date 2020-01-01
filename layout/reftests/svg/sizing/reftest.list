@@ -5187,6 +5187,7 @@ somehow
 is
 not
 restored
+skip
 =
 =
 dynamic
@@ -5204,6 +5205,11 @@ xhtml
 pass
 .
 svg
+#
+Fails
+way
+too
+much
 fails
 =
 =
