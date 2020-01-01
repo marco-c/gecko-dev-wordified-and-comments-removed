@@ -24,6 +24,10 @@ ASSEMBLER
 #
 include
 "
+assembler
+/
+assembler
+/
 ARMv7Assembler
 .
 h
@@ -31,6 +35,10 @@ h
 #
 include
 "
+assembler
+/
+assembler
+/
 AbstractMacroAssembler
 .
 h

@@ -1,6 +1,8 @@
 #
 include
 "
+yarr
+/
 PageBlock
 .
 h
@@ -8,6 +10,8 @@ h
 #
 include
 "
+assembler
+/
 wtf
 /
 Assertions

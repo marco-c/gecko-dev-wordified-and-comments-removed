@@ -21,6 +21,10 @@ ENABLE_ASSEMBLER
 #
 include
 "
+assembler
+/
+assembler
+/
 X86Assembler
 .
 h
@@ -28,6 +32,10 @@ h
 #
 include
 "
+assembler
+/
+assembler
+/
 AbstractMacroAssembler
 .
 h

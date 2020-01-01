@@ -32,6 +32,8 @@ h
 #
 include
 "
+yarr
+/
 MatchResult
 .
 h
@@ -39,6 +41,8 @@ h
 #
 include
 "
+yarr
+/
 Yarr
 .
 h
@@ -46,6 +50,8 @@ h
 #
 include
 "
+yarr
+/
 YarrPattern
 .
 h

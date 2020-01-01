@@ -21,6 +21,10 @@ ENABLE_ASSEMBLER
 #
 include
 "
+assembler
+/
+assembler
+/
 AssemblerBuffer
 .
 h

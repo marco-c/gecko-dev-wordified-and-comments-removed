@@ -19,6 +19,8 @@ WTF_OS_SYMBIAN
 #
 include
 "
+yarr
+/
 OSAllocator
 .
 h
@@ -42,6 +44,8 @@ h
 #
 include
 "
+assembler
+/
 wtf
 /
 Assertions

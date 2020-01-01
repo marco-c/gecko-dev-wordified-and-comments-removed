@@ -28,6 +28,8 @@ h
 #
 include
 "
+assembler
+/
 wtf
 /
 Assertions
@@ -37,6 +39,8 @@ h
 #
 include
 "
+yarr
+/
 OSAllocator
 .
 h

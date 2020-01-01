@@ -18,6 +18,10 @@ WTF_CPU_ARM_TRADITIONAL
 #
 include
 "
+assembler
+/
+assembler
+/
 ARMAssembler
 .
 h

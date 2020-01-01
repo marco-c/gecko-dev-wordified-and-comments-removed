@@ -20,13 +20,15 @@ if
 ENABLE_ASSEMBLER
 #
 include
-<
+"
+assembler
+/
 assembler
 /
 MacroAssembler
 .
 h
->
+"
 namespace
 JSC
 {

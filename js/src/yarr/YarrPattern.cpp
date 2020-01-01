@@ -1,6 +1,8 @@
 #
 include
 "
+yarr
+/
 YarrPattern
 .
 h
@@ -8,6 +10,8 @@ h
 #
 include
 "
+yarr
+/
 Yarr
 .
 h
@@ -15,6 +19,8 @@ h
 #
 include
 "
+yarr
+/
 YarrCanonicalizeUCS2
 .
 h
@@ -22,6 +28,8 @@ h
 #
 include
 "
+yarr
+/
 YarrParser
 .
 h
@@ -39,6 +47,8 @@ Yarr
 #
 include
 "
+yarr
+/
 RegExpJitTables
 .
 h
