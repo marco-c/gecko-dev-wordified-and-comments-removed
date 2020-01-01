@@ -1517,13 +1517,6 @@ BINPATH
 /
 components
 /
-nsAddonRepository
-.
-js
-BINPATH
-/
-components
-/
 nsBrowserContentHandler
 .
 js
@@ -1944,6 +1937,13 @@ BINPATH
 components
 /
 nsINIProcessor
+.
+js
+BINPATH
+/
+components
+/
+nsPrompter
 .
 js
 ;
