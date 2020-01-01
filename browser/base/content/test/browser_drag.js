@@ -214,6 +214,16 @@ gBrowser
 .
 addTab
 (
+"
+about
+:
+blank
+"
+{
+skipAnimation
+:
+true
+}
 )
 ;
 var
