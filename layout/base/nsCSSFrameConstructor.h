@@ -417,8 +417,6 @@ RecalcQuotesAndCounters
 void
 WillDestroyFrameTree
 (
-PRBool
-aDestroyingPresShell
 )
 ;
 PRUint32
