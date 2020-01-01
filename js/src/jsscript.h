@@ -106,7 +106,7 @@ CALLEE_UPVAR_SLOT
 #
 define
 FREE_STATIC_LEVEL
-0xffff
+0x3fff
 #
 define
 FREE_UPVAR_COOKIE

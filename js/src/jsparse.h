@@ -1781,6 +1781,10 @@ object
 ;
 }
 ;
+#
+define
+JSFB_LEVEL_BITS
+14
 struct
 JSFunctionBox
 :
@@ -1807,9 +1811,12 @@ uint32
 queued
 :
 1
+inLoop
+:
+1
 level
 :
-15
+JSFB_LEVEL_BITS
 tcflags
 :
 16
