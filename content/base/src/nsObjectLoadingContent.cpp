@@ -2861,9 +2861,9 @@ else
 if
 (
 mType
+!
 =
-=
-eType_Document
+eType_Image
 )
 {
 UnloadObject
