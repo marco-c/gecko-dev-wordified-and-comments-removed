@@ -78,6 +78,13 @@ rightContext
 ;
 }
 ;
+namespace
+js
+{
+class
+AutoValueRooter
+;
+}
 extern
 JS_FRIEND_API
 (
@@ -91,7 +98,10 @@ cx
 JSRegExpStatics
 *
 statics
-JSTempValueRooter
+js
+:
+:
+AutoValueRooter
 *
 tvr
 )
@@ -109,7 +119,10 @@ cx
 JSRegExpStatics
 *
 statics
-JSTempValueRooter
+js
+:
+:
+AutoValueRooter
 *
 tvr
 )
