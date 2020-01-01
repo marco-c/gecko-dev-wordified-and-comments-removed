@@ -95,12 +95,6 @@ defined
 (
 JS_CPU_ARM
 )
-&
-&
-defined
-(
-JS_METHODJIT
-)
 #
 include
 "
