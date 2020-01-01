@@ -7779,8 +7779,10 @@ JSContext
 maybecx
 )
 ;
-extern
+JS_FRIEND_API
+(
 void
+)
 js_ReportOverRecursed
 (
 JSContext
