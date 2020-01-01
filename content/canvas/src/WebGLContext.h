@@ -6201,6 +6201,9 @@ mContextStatus
 bool
 mContextLostErrorSet
 ;
+int
+mAlreadyReportedMessages
+;
 #
 ifdef
 XP_MACOSX
@@ -6217,7 +6220,6 @@ mMemoryPressureObserver
 ;
 public
 :
-static
 void
 LogMessage
 (
@@ -6230,7 +6232,6 @@ fmt
 .
 )
 ;
-static
 void
 LogMessage
 (
