@@ -757,6 +757,10 @@ nsIDOMSVGAnimateElement
 .
 idl
 \
+nsIDOMSVGAnimateTransformElement
+.
+idl
+\
 nsIDOMSVGAnimationElement
 .
 idl

@@ -203,6 +203,15 @@ reftest
 .
 list
 #
+animateTransform
+tests
+include
+transform
+/
+reftest
+.
+list
+#
 time
 -
 dependent

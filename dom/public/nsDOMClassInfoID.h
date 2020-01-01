@@ -175,6 +175,7 @@ eDOMClassInfo_SVGAElement_id
 ifdef
 MOZ_SMIL
 eDOMClassInfo_SVGAnimateElement_id
+eDOMClassInfo_SVGAnimateTransformElement_id
 eDOMClassInfo_SVGSetElement_id
 #
 endif

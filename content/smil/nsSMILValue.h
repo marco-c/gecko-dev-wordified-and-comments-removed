@@ -116,6 +116,15 @@ aCount
 )
 ;
 nsresult
+SandwichAdd
+(
+const
+nsSMILValue
+&
+aValueToAdd
+)
+;
+nsresult
 ComputeDistance
 (
 const
