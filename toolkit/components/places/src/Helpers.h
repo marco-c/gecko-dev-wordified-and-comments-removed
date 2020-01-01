@@ -501,6 +501,14 @@ nsString
 aReversed
 )
 ;
+nsresult
+GenerateGUID
+(
+nsCString
+&
+_guid
+)
+;
 template
 <
 typename
