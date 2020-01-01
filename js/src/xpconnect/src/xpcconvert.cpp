@@ -2996,11 +2996,9 @@ buf
 else
 {
 *
-*
 (
 (
 jsval
-*
 *
 )
 d
