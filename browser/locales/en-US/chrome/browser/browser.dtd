@@ -2594,6 +2594,16 @@ H
 <
 !
 ENTITY
+appMenuEdit
+.
+label
+"
+Edit
+"
+>
+<
+!
+ENTITY
 appMenuCustomize
 .
 label
