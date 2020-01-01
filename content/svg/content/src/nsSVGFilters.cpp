@@ -323,14 +323,6 @@ static
 const
 unsigned
 short
-SVG_FECOMPONENTTRANSFER_TYPE_UNKNOWN
-=
-0
-;
-static
-const
-unsigned
-short
 SVG_FECOMPONENTTRANSFER_TYPE_IDENTITY
 =
 1

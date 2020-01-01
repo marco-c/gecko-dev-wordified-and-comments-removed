@@ -663,13 +663,6 @@ eNPPStreamTypeInternal_Get
 eNPPStreamTypeInternal_Post
 }
 ;
-static
-NS_DEFINE_IID
-(
-kMemoryCID
-NS_MEMORY_CID
-)
-;
 PRIntervalTime
 NS_NotifyBeginPluginCall
 (

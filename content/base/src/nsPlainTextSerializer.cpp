@@ -129,13 +129,6 @@ kTabSize
 static
 const
 int32_t
-kOLNumberWidth
-=
-3
-;
-static
-const
-int32_t
 kIndentSizeHeaders
 =
 2

@@ -48,14 +48,6 @@ static
 const
 unsigned
 short
-SVG_EDGEMODE_UNKNOWN
-=
-0
-;
-static
-const
-unsigned
-short
 SVG_EDGEMODE_DUPLICATE
 =
 1

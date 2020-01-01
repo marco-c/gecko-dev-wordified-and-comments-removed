@@ -612,13 +612,6 @@ mozilla
 :
 dom
 ;
-static
-NS_DEFINE_CID
-(
-kXULPopupListenerCID
-NS_XULPOPUPLISTENER_CID
-)
-;
 #
 ifdef
 XUL_PROTOTYPE_ATTRIBUTE_METERING

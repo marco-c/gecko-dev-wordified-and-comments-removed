@@ -48,14 +48,6 @@ static
 const
 unsigned
 short
-SVG_CHANNEL_UNKNOWN
-=
-0
-;
-static
-const
-unsigned
-short
 SVG_CHANNEL_R
 =
 1

@@ -215,6 +215,9 @@ NS_PER_S
 =
 1e9
 ;
+#
+ifdef
+MOZ_DASH
 static
 const
 double
@@ -222,13 +225,8 @@ USEC_PER_S
 =
 1e6
 ;
-static
-const
-int
-SEEK_DECODE_MARGIN
-=
-250000
-;
+#
+endif
 static
 int
 webm_read

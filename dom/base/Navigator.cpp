@@ -431,17 +431,6 @@ NavigatorBinding
 .
 h
 "
-DOMCI_DATA
-(
-Navigator
-mozilla
-:
-:
-dom
-:
-:
-Navigator
-)
 namespace
 mozilla
 {

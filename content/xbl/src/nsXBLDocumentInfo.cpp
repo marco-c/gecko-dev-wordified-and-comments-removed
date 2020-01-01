@@ -232,13 +232,6 @@ kXBLCachePrefix
 xblcache
 "
 ;
-static
-NS_DEFINE_CID
-(
-kDOMScriptObjectFactoryCID
-NS_DOM_SCRIPT_OBJECT_FACTORY_CID
-)
-;
 class
 nsXBLDocGlobalObject
 :

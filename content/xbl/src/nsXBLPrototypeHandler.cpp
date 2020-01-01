@@ -318,13 +318,6 @@ mozilla
 :
 dom
 ;
-static
-NS_DEFINE_CID
-(
-kDOMScriptObjectFactoryCID
-NS_DOM_SCRIPT_OBJECT_FACTORY_CID
-)
-;
 uint32_t
 nsXBLPrototypeHandler
 :
