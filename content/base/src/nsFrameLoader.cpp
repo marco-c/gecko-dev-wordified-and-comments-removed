@@ -1522,7 +1522,7 @@ if
 mRemoteBrowser
 )
 {
-TryNewProcess
+TryRemoteBrowser
 (
 )
 ;
