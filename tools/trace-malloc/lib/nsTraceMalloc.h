@@ -240,6 +240,15 @@ argv
 ;
 PR_EXTERN
 (
+PRBool
+)
+NS_TraceMallocHasStarted
+(
+void
+)
+;
+PR_EXTERN
+(
 void
 )
 NS_TraceMallocShutdown
