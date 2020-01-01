@@ -188,6 +188,17 @@ expectAssertions
 )
 ;
 }
+else
+{
+SimpleTest
+.
+expectAssertions
+(
+0
+1
+)
+;
+}
 SimpleTest
 .
 waitForExplicitFinish
