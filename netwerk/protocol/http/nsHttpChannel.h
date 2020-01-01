@@ -170,8 +170,6 @@ nsIEncodedChannel
 public
 nsITransportEventSink
 public
-nsIResumableChannel
-public
 nsIProtocolProxyCallback
 public
 nsIHttpAuthenticableChannel
@@ -192,7 +190,6 @@ NS_DECL_NSICACHINGCHANNEL
 NS_DECL_NSICACHELISTENER
 NS_DECL_NSIENCODEDCHANNEL
 NS_DECL_NSITRANSPORTEVENTSINK
-NS_DECL_NSIRESUMABLECHANNEL
 NS_DECL_NSIPROTOCOLPROXYCALLBACK
 NS_DECL_NSIPROXIEDCHANNEL
 NS_DECL_NSITRACEABLECHANNEL
@@ -387,6 +384,17 @@ SetPriority
 (
 PRInt32
 value
+)
+;
+NS_IMETHOD
+ResumeAt
+(
+PRUint64
+startPos
+const
+nsACString
+&
+entityID
 )
 ;
 public
@@ -986,12 +994,6 @@ nsCOMPtr
 nsIHttpChannelAuthProvider
 >
 mAuthProvider
-;
-nsCString
-mEntityID
-;
-PRUint64
-mStartPos
 ;
 nsAsyncCallback
 mPendingAsyncCallOnResume

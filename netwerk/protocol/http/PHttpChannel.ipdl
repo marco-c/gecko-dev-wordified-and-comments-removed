@@ -662,6 +662,12 @@ PRBool
 allowPipelining
 PRBool
 forceAllowThirdPartyCookie
+bool
+resumeAt
+PRUint64
+startPos
+nsCString
+entityID
 )
 ;
 SetPriority
@@ -674,6 +680,14 @@ SetCacheTokenCachedCharset
 (
 nsCString
 charset
+)
+;
+Suspend
+(
+)
+;
+Resume
+(
 )
 ;
 /
