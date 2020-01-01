@@ -302,17 +302,8 @@ Collation
 "
 NS_COLLATION_CID
 NS_COLLATION_CONTRACTID
-#
-ifdef
-USE_UCCOLLATIONKEY
 nsCollationMacUCConstructor
 }
-#
-else
-nsCollationMacConstructor
-}
-#
-endif
 {
 "
 Date
