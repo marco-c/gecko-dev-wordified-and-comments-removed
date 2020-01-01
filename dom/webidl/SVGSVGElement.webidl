@@ -316,8 +316,6 @@ SVGRect
 rect
 )
 ;
-/
-/
 void
 deselectAll
 (

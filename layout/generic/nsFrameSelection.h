@@ -939,6 +939,11 @@ DisconnectFromPresShell
 (
 )
 ;
+nsresult
+ClearNormalSelection
+(
+)
+;
 private
 :
 nsresult
@@ -1303,11 +1308,6 @@ nsINode
 aParentNode
 int32_t
 aOffset
-)
-;
-nsresult
-ClearNormalSelection
-(
 )
 ;
 nsCOMPtr
