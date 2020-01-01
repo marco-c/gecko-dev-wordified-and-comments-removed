@@ -475,6 +475,10 @@ HTMLTextAreaElement
 .
 webidl
 \
+HTMLTimeElement
+.
+webidl
+\
 HTMLTitleElement
 .
 webidl

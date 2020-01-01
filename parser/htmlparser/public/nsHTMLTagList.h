@@ -546,6 +546,11 @@ TableSection
 )
 HTML_TAG
 (
+time
+Time
+)
+HTML_TAG
+(
 title
 Title
 )

@@ -1610,6 +1610,10 @@ test_style_attributes_reflection
 .
 html
 \
+test_bug629801
+.
+html
+\
 (
 NULL
 )
