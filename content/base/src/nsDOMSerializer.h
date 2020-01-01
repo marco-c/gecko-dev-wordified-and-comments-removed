@@ -39,12 +39,6 @@ XMLSerializerBinding
 h
 "
 class
-nsINode
-;
-class
-nsIOutputStream
-;
-class
 nsDOMSerializer
 MOZ_FINAL
 :
