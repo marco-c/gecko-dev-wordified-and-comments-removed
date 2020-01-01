@@ -160,6 +160,10 @@ max_frames_
 =
 max_frames
 ;
+max_frames_set_
+=
+true
+;
 }
 static
 uint32_t
@@ -383,6 +387,10 @@ stack
 static
 uint32_t
 max_frames_
+;
+static
+bool
+max_frames_set_
 ;
 }
 ;

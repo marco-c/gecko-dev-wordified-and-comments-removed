@@ -7428,6 +7428,14 @@ CodeModule
 (
 )
 ;
+sw
+-
+>
+set_max_frames
+(
+256
+)
+;
 bool
 b
 =

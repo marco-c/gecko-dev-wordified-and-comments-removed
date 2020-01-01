@@ -185,6 +185,14 @@ max_frames_
 =
 1024
 ;
+bool
+Stackwalker
+:
+:
+max_frames_set_
+=
+false
+;
 Stackwalker
 :
 :
@@ -548,6 +556,11 @@ size
 max_frames_
 )
 {
+if
+(
+!
+max_frames_set_
+)
 BPLOG
 (
 ERROR
