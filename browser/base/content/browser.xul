@@ -11021,7 +11021,7 @@ clipPath
 id
 =
 "
-winstripe
+windows
 -
 keyhole
 -
@@ -11104,7 +11104,7 @@ clipPath
 id
 =
 "
-winstripe
+windows
 -
 urlbar
 -
@@ -11202,7 +11202,7 @@ clipPath
 id
 =
 "
-pinstripe
+osx
 -
 keyhole
 -
@@ -11285,7 +11285,7 @@ clipPath
 id
 =
 "
-pinstripe
+osx
 -
 urlbar
 -
@@ -11368,7 +11368,7 @@ clipPath
 id
 =
 "
-pinstripe
+osx
 -
 tab
 -
@@ -11460,7 +11460,7 @@ clipPath
 id
 =
 "
-pinstripe
+osx
 -
 tab
 -
@@ -11547,7 +11547,7 @@ clipPath
 id
 =
 "
-pinstripe
+osx
 -
 tab
 -
@@ -11634,7 +11634,7 @@ clipPath
 id
 =
 "
-pinstripe
+osx
 -
 tab
 -

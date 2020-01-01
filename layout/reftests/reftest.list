@@ -1727,7 +1727,7 @@ list
 #
 theme
 (
-pinstripe
+osx
 )
 skip
 -
@@ -1746,7 +1746,7 @@ toolkit
 /
 themes
 /
-pinstripe
+osx
 /
 reftests
 /
