@@ -548,6 +548,10 @@ GlobalObject
 .
 cpp
 \
+Object
+.
+cpp
+\
 ObjectImpl
 .
 cpp

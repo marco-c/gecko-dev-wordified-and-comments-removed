@@ -56,6 +56,15 @@ h
 #
 include
 "
+builtin
+/
+Object
+.
+h
+"
+#
+include
+"
 frontend
 /
 ParseMaps
@@ -2282,7 +2291,7 @@ native
 )
 !
 =
-js_Object
+obj_construct
 )
 !
 args

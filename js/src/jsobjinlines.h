@@ -9119,6 +9119,16 @@ AllocKind
 kind
 )
 ;
+bool
+NewObjectScriptedCall
+(
+JSContext
+*
+cx
+MutableHandleObject
+obj
+)
+;
 static
 inline
 JSObject
