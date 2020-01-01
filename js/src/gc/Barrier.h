@@ -41,6 +41,9 @@ h
 namespace
 js
 {
+class
+PropertyName
+;
 template
 <
 class

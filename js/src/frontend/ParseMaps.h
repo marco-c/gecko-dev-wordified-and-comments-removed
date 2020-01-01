@@ -65,6 +65,9 @@ Vector
 .
 h
 "
+class
+JSAtom
+;
 namespace
 js
 {
