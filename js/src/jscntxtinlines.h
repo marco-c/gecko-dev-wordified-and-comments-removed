@@ -127,10 +127,6 @@ JS_CRASH_DIAGNOSTICS
 class
 CompartmentChecker
 {
-ExclusiveContext
-*
-context
-;
 JSCompartment
 *
 compartment
@@ -145,10 +141,6 @@ ExclusiveContext
 cx
 )
 :
-context
-(
-cx
-)
 compartment
 (
 cx
