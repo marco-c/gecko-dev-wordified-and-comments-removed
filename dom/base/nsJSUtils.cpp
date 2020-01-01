@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsPIDOMWindow
-.
-h
-"
-#
-include
-"
 nsDOMJSUtils
 .
 h

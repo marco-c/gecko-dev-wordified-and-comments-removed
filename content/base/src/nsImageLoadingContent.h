@@ -53,13 +53,6 @@ nsString
 .
 h
 "
-#
-include
-"
-nsEventStates
-.
-h
-"
 class
 nsIURI
 ;

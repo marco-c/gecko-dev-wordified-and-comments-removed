@@ -209,17 +209,6 @@ mozAutoDocUpdate
 h
 "
 #
-include
-"
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
-#
 ifdef
 DEBUG_chb
 static

@@ -156,17 +156,6 @@ nsIRange
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
 inDOMUtils
 :
 :
