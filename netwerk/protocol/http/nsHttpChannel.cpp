@@ -17738,10 +17738,13 @@ redirectFlags
 ;
 if
 (
+nsHttp
+:
+:
+IsPermanentRedirect
+(
 mRedirectType
-=
-=
-301
+)
 )
 redirectFlags
 =

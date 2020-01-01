@@ -598,6 +598,14 @@ next
 '
 ;
 }
+static
+bool
+IsPermanentRedirect
+(
+PRUint32
+httpStatus
+)
+;
 #
 define
 HTTP_ATOM
