@@ -148,11 +148,11 @@ clear
 scriptable
 uuid
 (
-0694f5e0
+c40b1c70
 -
-f777
+00fb
 -
-11e1
+11e2
 -
 a21f
 -
@@ -166,11 +166,6 @@ nsISupports
 {
 nsIDOMSettingsLock
 createLock
-(
-)
-;
-nsIDOMSettingsLock
-getLock
 (
 )
 ;
