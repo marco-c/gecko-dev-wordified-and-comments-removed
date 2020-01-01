@@ -1246,3 +1246,17 @@ enabled
 true
 )
 ;
+pref
+(
+"
+browser
+.
+xul
+.
+error_pages
+.
+enabled
+"
+true
+)
+;
