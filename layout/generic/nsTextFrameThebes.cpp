@@ -14090,7 +14090,7 @@ GetColor
 nsILookAndFeel
 :
 :
-eColor_TextSelectForeground
+eColor_TextHighlightForeground
 foreColor
 )
 ;
