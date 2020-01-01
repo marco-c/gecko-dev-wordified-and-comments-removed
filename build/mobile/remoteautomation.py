@@ -263,6 +263,7 @@ maxTime
 startTime
 debuggerInfo
 symbolsDir
+logger
 )
 :
         
