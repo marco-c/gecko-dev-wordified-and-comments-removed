@@ -3096,7 +3096,7 @@ ReallyInit
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 )
 ;
@@ -6830,7 +6830,7 @@ rv
 )
 )
 return
-NULL
+nullptr
 ;
 return
 f
