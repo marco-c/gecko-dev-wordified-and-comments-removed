@@ -1842,11 +1842,10 @@ JSParseNode
 *
 )
 (
+uintptr_t
 (
-char
-*
-)
 pn_tail
+)
 -
 offsetof
 (
