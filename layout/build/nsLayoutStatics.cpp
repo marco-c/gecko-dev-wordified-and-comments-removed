@@ -1691,4 +1691,11 @@ DestroyUploadLastDir
 (
 )
 ;
+nsLayoutUtils
+:
+:
+Shutdown
+(
+)
+;
 }
