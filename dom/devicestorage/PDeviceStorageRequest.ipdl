@@ -135,6 +135,9 @@ struct
 DeviceStorageFileValue
 {
 nsString
+storageName
+;
+nsString
 name
 ;
 }
@@ -146,7 +149,7 @@ nsString
 type
 ;
 nsString
-relpath
+rootdir
 ;
 DeviceStorageFileValue
 [

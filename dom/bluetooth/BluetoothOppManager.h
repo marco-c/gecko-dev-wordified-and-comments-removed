@@ -438,15 +438,6 @@ RetrieveSentFileName
 (
 )
 ;
-DeviceStorageFile
-*
-CreateDeviceStorageFile
-(
-nsIFile
-*
-aFile
-)
-;
 void
 NotifyAboutFileChange
 (

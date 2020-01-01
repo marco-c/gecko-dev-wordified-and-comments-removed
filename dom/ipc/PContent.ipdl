@@ -381,7 +381,7 @@ nsString
 type
 ;
 nsString
-relpath
+storageName
 ;
 }
 ;
@@ -392,7 +392,7 @@ nsString
 type
 ;
 nsString
-relpath
+storageName
 ;
 }
 ;
@@ -403,7 +403,7 @@ nsString
 type
 ;
 nsString
-relpath
+storageName
 ;
 }
 ;
@@ -412,6 +412,9 @@ DeviceStorageAddParams
 {
 nsString
 type
+;
+nsString
+storageName
 ;
 nsString
 relpath
@@ -428,6 +431,9 @@ nsString
 type
 ;
 nsString
+storageName
+;
+nsString
 rootDir
 ;
 nsString
@@ -442,6 +448,9 @@ nsString
 type
 ;
 nsString
+storageName
+;
+nsString
 relpath
 ;
 }
@@ -453,7 +462,10 @@ nsString
 type
 ;
 nsString
-relpath
+storageName
+;
+nsString
+rootdir
 ;
 uint64_t
 since
@@ -1570,7 +1582,9 @@ LastPrivateDocShellDestroyed
 FilePathUpdate
 (
 nsString
-type
+storageType
+nsString
+storageName
 nsString
 filepath
 nsCString
@@ -2301,6 +2315,8 @@ FilePathUpdateNotify
 (
 nsString
 aType
+nsString
+aStorageName
 nsString
 aFilepath
 nsCString
