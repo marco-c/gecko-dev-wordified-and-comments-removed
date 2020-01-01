@@ -28,13 +28,6 @@ Components
 interfaces
 ;
 const
-Cr
-=
-Components
-.
-results
-;
-const
 Cu
 =
 Components
@@ -573,6 +566,7 @@ return
 this
 .
 __cookieManager
+;
 }
 _createCommand
 :
@@ -838,6 +832,7 @@ data
 [
 key
 ]
+;
 }
 this
 .
@@ -1047,6 +1042,7 @@ cookie
 .
 isHttpOnly
 }
+;
 }
 }
 return
@@ -1067,6 +1063,7 @@ _cookieManager
 removeAll
 (
 )
+;
 }
 resetGUIDs
 :
