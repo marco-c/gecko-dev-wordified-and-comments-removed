@@ -11695,6 +11695,10 @@ s
 u
 %
 u
+exitType
+=
+%
+d
 sp
 =
 %
@@ -11747,6 +11751,13 @@ script
 -
 >
 code
+lr
+-
+>
+exit
+-
+>
+exitType
 state
 .
 sp
@@ -13206,6 +13217,7 @@ JSSTRING_LENGTH_MASK
 )
 )
 )
+BRANCH_EXIT
 )
 ;
 }
@@ -14550,6 +14562,7 @@ map
 )
 "
 )
+MISMATCH_EXIT
 )
 ;
 return
@@ -15053,6 +15066,7 @@ shape
 )
 "
 )
+MISMATCH_EXIT
 )
 ;
 if
@@ -15191,6 +15205,7 @@ vcap_shape
 )
 "
 )
+MISMATCH_EXIT
 )
 ;
 }
@@ -16175,6 +16190,7 @@ JSVAL_DOUBLE
 )
 )
 )
+MISMATCH_EXIT
 )
 ;
 v_ins
@@ -16234,6 +16250,7 @@ JSVAL_TAGMASK
 )
 JSVAL_BOOLEAN
 )
+MISMATCH_EXIT
 )
 ;
 v_ins
@@ -16284,6 +16301,7 @@ JSVAL_TAGMASK
 )
 JSVAL_OBJECT
 )
+MISMATCH_EXIT
 )
 ;
 return
@@ -16322,6 +16340,7 @@ JSVAL_TAGMASK
 )
 JSVAL_STRING
 )
+MISMATCH_EXIT
 )
 ;
 v_ins
@@ -16426,6 +16445,7 @@ ins_eq0
 (
 this_ins
 )
+MISMATCH_EXIT
 )
 ;
 }
@@ -16592,6 +16612,7 @@ clasp
 )
 namebuf
 )
+MISMATCH_EXIT
 )
 ;
 return
@@ -16700,6 +16721,7 @@ LIR_ge
 idx_ins
 0
 )
+MISMATCH_EXIT
 )
 ;
 guard
@@ -16714,6 +16736,7 @@ LIR_lt
 idx_ins
 length_ins
 )
+MISMATCH_EXIT
 )
 ;
 guard
@@ -16726,6 +16749,7 @@ ins_eq0
 (
 dslots_ins
 )
+MISMATCH_EXIT
 )
 ;
 guard
@@ -16752,6 +16776,7 @@ jsval
 )
 )
 )
+MISMATCH_EXIT
 )
 ;
 return
@@ -18988,6 +19013,7 @@ shape
 )
 "
 )
+MISMATCH_EXIT
 )
 ;
 }
@@ -19072,6 +19098,7 @@ ins_eq0
 (
 ok_ins
 )
+MISMATCH_EXIT
 )
 ;
 }
@@ -19239,6 +19266,7 @@ ins_eq0
 (
 unitstr_ins
 )
+MISMATCH_EXIT
 )
 ;
 set
@@ -19367,6 +19395,7 @@ void
 JSVAL_ERROR_COOKIE
 )
 )
+MISMATCH_EXIT
 )
 ;
 if
@@ -19600,6 +19629,7 @@ ins_eq0
 (
 ok_ins
 )
+MISMATCH_EXIT
 )
 ;
 set
@@ -19690,6 +19720,7 @@ LIR_i2f
 idx_ins
 )
 )
+MISMATCH_EXIT
 )
 ;
 LIns
@@ -19761,6 +19792,7 @@ ins_eq0
 (
 res_ins
 )
+MISMATCH_EXIT
 )
 ;
 jsbytecode
@@ -20028,6 +20060,7 @@ callee
 )
 "
 )
+MISMATCH_EXIT
 )
 ;
 return
@@ -21499,6 +21532,7 @@ void
 globalObj
 )
 )
+MISMATCH_EXIT
 )
 ;
 if
@@ -21718,6 +21752,7 @@ void
 globalObj
 )
 )
+MISMATCH_EXIT
 )
 ;
 if
@@ -21776,6 +21811,7 @@ LIR_i2f
 idx_ins
 )
 )
+MISMATCH_EXIT
 )
 ;
 LIns
@@ -22543,6 +22579,7 @@ numeric
 )
 "
 )
+BRANCH_EXIT
 )
 ;
 }
@@ -22616,6 +22653,7 @@ string
 )
 "
 )
+BRANCH_EXIT
 )
 ;
 }
@@ -22663,6 +22701,7 @@ boolean
 )
 "
 )
+BRANCH_EXIT
 )
 ;
 }
@@ -23567,6 +23606,7 @@ ins_eq0
 (
 v_ins
 )
+MISMATCH_EXIT
 )
 ;
 set
@@ -23744,6 +23784,7 @@ JSITER_ENUMERATE
 )
 "
 )
+MISMATCH_EXIT
 )
 ;
 JSObject
@@ -23873,6 +23914,7 @@ enumerate
 )
 "
 )
+MISMATCH_EXIT
 )
 ;
 return
@@ -23930,6 +23972,7 @@ ins_eq0
 (
 ok_ins
 )
+MISMATCH_EXIT
 )
 ;
 return
@@ -24060,6 +24103,7 @@ iter
 state
 "
 )
+MISMATCH_EXIT
 )
 ;
 if
@@ -24107,6 +24151,7 @@ state
 )
 "
 )
+MISMATCH_EXIT
 )
 ;
 if
@@ -24189,6 +24234,7 @@ cursor
 )
 "
 )
+MISMATCH_EXIT
 )
 ;
 JSNativeEnumerator
@@ -27718,6 +27764,7 @@ string
 )
 "
 )
+MISMATCH_EXIT
 )
 ;
 set

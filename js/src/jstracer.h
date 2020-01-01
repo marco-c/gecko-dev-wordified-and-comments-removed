@@ -853,11 +853,6 @@ nanojit
 :
 ExitType
 exitType
-=
-nanojit
-:
-:
-DONT_GROW
 )
 ;
 nanojit
