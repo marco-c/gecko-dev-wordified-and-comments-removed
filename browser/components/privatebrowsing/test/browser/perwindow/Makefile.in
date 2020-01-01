@@ -149,6 +149,10 @@ browser_privatebrowsing_opendir
 .
 js
 \
+browser_privatebrowsing_openlocation
+.
+js
+\
 browser_privatebrowsing_theming
 .
 js
