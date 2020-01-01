@@ -5865,7 +5865,7 @@ script_
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 ;
@@ -5906,7 +5906,7 @@ JS_ASSERT
 fun_
 -
 >
-script
+nonLazyScript
 (
 )
 =

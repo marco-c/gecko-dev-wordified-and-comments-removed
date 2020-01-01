@@ -2068,7 +2068,7 @@ return
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -2109,7 +2109,7 @@ cx
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 )
@@ -2318,7 +2318,7 @@ return
 fun
 -
 >
-maybeScript
+maybeNonLazyScript
 (
 )
 .
@@ -5156,7 +5156,7 @@ cx
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .

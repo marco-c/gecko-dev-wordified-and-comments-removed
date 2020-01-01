@@ -60,7 +60,7 @@ inStrictMode
 const
 {
 return
-script
+nonLazyScript
 (
 )
 -

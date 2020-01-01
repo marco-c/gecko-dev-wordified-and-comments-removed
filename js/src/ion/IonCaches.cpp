@@ -8212,7 +8212,7 @@ script
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .

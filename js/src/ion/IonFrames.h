@@ -283,7 +283,7 @@ token
 )
 -
 >
-script
+nonLazyScript
 (
 )
 .

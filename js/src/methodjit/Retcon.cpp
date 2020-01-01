@@ -1297,7 +1297,7 @@ inner
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 -

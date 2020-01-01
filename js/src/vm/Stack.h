@@ -1418,7 +1418,7 @@ fun
 )
 -
 >
-script
+nonLazyScript
 (
 )
 .

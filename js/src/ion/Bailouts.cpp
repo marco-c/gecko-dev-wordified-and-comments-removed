@@ -349,7 +349,7 @@ return
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .
@@ -1073,7 +1073,7 @@ cx
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 )

@@ -10376,7 +10376,7 @@ cx
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 )
@@ -10540,7 +10540,7 @@ script
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .

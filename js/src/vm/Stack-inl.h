@@ -643,7 +643,7 @@ JS_ASSERT
 (
 callee
 .
-script
+nonLazyScript
 (
 )
 =
@@ -2148,7 +2148,7 @@ JS_ASSERT
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 =
@@ -2460,7 +2460,7 @@ JS_ASSERT
 (
 callee
 .
-script
+nonLazyScript
 (
 )
 =
@@ -2646,7 +2646,7 @@ JS_ASSERT
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 =
@@ -2662,7 +2662,7 @@ toFunction
 )
 -
 >
-script
+nonLazyScript
 (
 )
 )
@@ -2672,7 +2672,7 @@ JS_ASSERT
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 =
@@ -3097,7 +3097,7 @@ frame
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .

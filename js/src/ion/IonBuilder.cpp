@@ -1033,7 +1033,7 @@ cx
 target
 -
 >
-script
+nonLazyScript
 (
 )
 )
@@ -12791,7 +12791,7 @@ cx
 callee
 -
 >
-script
+nonLazyScript
 (
 )
 )
@@ -13266,7 +13266,7 @@ script
 target
 -
 >
-script
+nonLazyScript
 (
 )
 ;
@@ -16534,7 +16534,7 @@ ThisTypes
 target
 -
 >
-script
+nonLazyScript
 (
 )
 .

@@ -370,7 +370,7 @@ callee
 (
 )
 .
-script
+nonLazyScript
 (
 )
 .
@@ -490,7 +490,7 @@ callee
 (
 )
 .
-script
+nonLazyScript
 (
 )
 .

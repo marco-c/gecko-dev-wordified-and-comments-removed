@@ -2064,7 +2064,7 @@ i
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 .

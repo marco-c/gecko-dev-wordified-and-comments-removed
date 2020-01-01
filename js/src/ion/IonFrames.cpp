@@ -2174,7 +2174,7 @@ calleeToken
 )
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -5173,7 +5173,7 @@ script_
 callee_
 -
 >
-script
+nonLazyScript
 (
 )
 .

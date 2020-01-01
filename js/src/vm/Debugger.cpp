@@ -14449,7 +14449,7 @@ funScript
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 ;
@@ -18571,7 +18571,7 @@ script
 cx
 callee
 .
-script
+nonLazyScript
 (
 )
 )
@@ -21326,7 +21326,7 @@ nargs
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -21361,7 +21361,7 @@ cx
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 )
@@ -21602,7 +21602,7 @@ cx
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 )

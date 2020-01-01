@@ -1867,7 +1867,7 @@ cx
 functionProto
 -
 >
-script
+nonLazyScript
 (
 )
 )
