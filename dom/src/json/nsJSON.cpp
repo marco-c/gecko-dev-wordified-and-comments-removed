@@ -2243,6 +2243,7 @@ JS_FinishJSONParse
 (
 mCx
 mJSONParser
+JSVAL_NULL
 )
 ;
 mJSONParser
@@ -3003,6 +3004,7 @@ JS_FinishJSONParse
 (
 mCx
 mJSONParser
+JSVAL_NULL
 )
 ;
 mJSONParser

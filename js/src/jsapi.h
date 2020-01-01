@@ -8830,6 +8830,8 @@ cx
 JSONParser
 *
 jp
+jsval
+reviver
 )
 ;
 struct

@@ -169,6 +169,8 @@ cx
 JSONParser
 *
 jp
+jsval
+reviver
 )
 ;
 JS_END_EXTERN_C

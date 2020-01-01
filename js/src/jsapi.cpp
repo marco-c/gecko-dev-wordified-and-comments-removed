@@ -25683,6 +25683,8 @@ cx
 JSONParser
 *
 jp
+jsval
+reviver
 )
 {
 CHECK_REQUEST
@@ -25695,6 +25697,7 @@ js_FinishJSONParse
 (
 cx
 jp
+reviver
 )
 ;
 }

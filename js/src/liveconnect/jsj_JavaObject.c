@@ -15,6 +15,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h
