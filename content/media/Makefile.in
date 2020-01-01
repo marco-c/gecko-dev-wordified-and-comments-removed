@@ -257,6 +257,10 @@ cpp
 NULL
 )
 endif
+PARALLEL_DIRS
++
+=
+webaudio
 ifdef
 MOZ_RAW
 PARALLEL_DIRS
