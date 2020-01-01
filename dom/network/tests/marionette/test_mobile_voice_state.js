@@ -415,12 +415,6 @@ testSearching
 (
 )
 {
-testDenied
-(
-)
-;
-return
-;
 setEmulatorVoiceState
 (
 "
