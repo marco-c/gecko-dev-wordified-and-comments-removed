@@ -55,7 +55,7 @@ h
 #
 include
 "
-nsTArray
+nsTObserverArray
 .
 h
 "
@@ -248,7 +248,7 @@ bool
 mShuttingDown
 ;
 typedef
-nsTArray
+nsTObserverArray
 <
 mozilla
 :
