@@ -475,10 +475,6 @@ for
 mypage
 in
 page_results
-[
-2
-:
-]
 :
           
 r
@@ -491,6 +487,18 @@ split
 ;
 '
 )
+          
+if
+len
+(
+r
+)
+=
+=
+1
+:
+              
+continue
           
 r
 [
@@ -1161,10 +1169,6 @@ for
 mypage
 in
 page_results
-[
-2
-:
-]
 :
           
 r
@@ -1177,6 +1181,18 @@ split
 ;
 '
 )
+          
+if
+len
+(
+r
+)
+=
+=
+1
+:
+              
+continue
           
 r
 [
