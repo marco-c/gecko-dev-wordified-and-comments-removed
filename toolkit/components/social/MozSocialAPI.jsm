@@ -396,16 +396,6 @@ origin
 targetDocURI
 .
 prePath
-&
-&
-targetDocURI
-.
-scheme
-!
-=
-"
-data
-"
 )
 {
 let
