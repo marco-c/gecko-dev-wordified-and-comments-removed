@@ -6511,6 +6511,14 @@ CreateAndAddWyciwygChannel
 -
 mWriteLevel
 ;
+SetReadyStateInternal
+(
+nsIDocument
+:
+:
+READYSTATE_LOADING
+)
+;
 NS_ENSURE_SUCCESS
 (
 rv
