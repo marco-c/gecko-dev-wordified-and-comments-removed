@@ -645,6 +645,14 @@ run
 (
 )
 {
+setName
+(
+"
+GeckoLooper
+Thread
+"
+)
+;
 Looper
 .
 prepare

@@ -12511,6 +12511,10 @@ e
 }
 }
 }
+"
+DNSPrefetcher
+Thread
+"
 )
 .
 start

@@ -1260,6 +1260,10 @@ mPendingExtrasFile
 ;
 }
 }
+"
+CrashReporter
+Thread
+"
 )
 .
 start
