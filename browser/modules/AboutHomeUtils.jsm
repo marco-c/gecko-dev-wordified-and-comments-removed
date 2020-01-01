@@ -75,10 +75,13 @@ this
 .
 AboutHomeUtils
 =
-new
-Object
+{
+get
+snippetsVersion
 (
 )
+STARTPAGE_VERSION
+}
 ;
 XPCOMUtils
 .
