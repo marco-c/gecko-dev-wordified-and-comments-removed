@@ -2447,9 +2447,6 @@ bool
 mProgressTimerIsActive
 ;
 bool
-mProgressEventWasDelayed
-;
-bool
 mIsHtml
 ;
 bool
