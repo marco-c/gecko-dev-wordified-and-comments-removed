@@ -241,6 +241,14 @@ PRUint32
 aStateMask
 )
 ;
+PRBool
+MediumFeaturesChanged
+(
+nsPresContext
+*
+aPresContext
+)
+;
 void
 SetBindingManager
 (

@@ -227,6 +227,17 @@ nsReStyleHint
 aResult
 )
 ;
+NS_IMETHOD
+MediumFeaturesChanged
+(
+nsPresContext
+*
+aPresContext
+PRBool
+*
+aRulesChanged
+)
+;
 nsresult
 Init
 (
