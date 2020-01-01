@@ -620,6 +620,14 @@ mStartupCrashTrackingEnded
 (
 false
 )
+mCachedShutdownTime
+(
+false
+)
+mLastShutdownTime
+(
+0
+)
 {
 }
 nsresult
@@ -1171,7 +1179,7 @@ mozFile
 ;
 NS_GetSpecialDirectory
 (
-NS_APP_PREFS_50_DIR
+NS_APP_USER_PROFILE_50_DIR
 getter_AddRefs
 (
 mozFile
@@ -2373,6 +2381,11 @@ n
 shutdownTime
 )
 ;
+fclose
+(
+f
+)
+;
 if
 (
 r
@@ -2390,11 +2403,6 @@ return
 NS_OK
 ;
 }
-fclose
-(
-f
-)
-;
 mLastShutdownTime
 =
 shutdownTime
