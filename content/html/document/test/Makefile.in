@@ -730,6 +730,10 @@ bug499092
 .
 html
 \
+test_bug571981
+.
+html
+\
 (
 NULL
 )
