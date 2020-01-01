@@ -10,10 +10,6 @@ test_common_terminate
 (
 )
 {
-continueResponses
-(
-)
-;
 let
 deferred
 =
