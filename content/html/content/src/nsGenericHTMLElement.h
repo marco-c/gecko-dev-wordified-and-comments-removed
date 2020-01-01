@@ -2144,6 +2144,13 @@ aNotify
 )
 ;
 void
+UpdateEditableFormControlState
+(
+PRBool
+aNotify
+)
+;
+void
 UpdateFormOwner
 (
 bool
