@@ -227,6 +227,15 @@ reftest
 list
 #
 text
+/
+include
+text
+/
+reftest
+.
+list
+#
+text
 -
 decoration
 /
