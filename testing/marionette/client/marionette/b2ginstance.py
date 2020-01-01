@@ -785,10 +785,6 @@ Path
 )
 :
                 
-is_relative
-=
-0
-                
 if
 cfg
 .
@@ -799,10 +795,7 @@ section
 IsRelative
 '
 )
-:
-                    
-is_relative
-=
+and
 cfg
 .
 getint
@@ -812,7 +805,8 @@ section
 IsRelative
 '
 )
-                
+:
+                    
 remote_profiles
 .
 append
@@ -821,7 +815,12 @@ posixpath
 .
 join
 (
+posixpath
+.
+dirname
+(
 remote_profiles_ini
+)
 cfg
 .
 get
@@ -832,10 +831,15 @@ Path
 '
 )
 )
-                                        
-if
-is_relative
+)
+                
 else
+:
+                    
+remote_profiles
+.
+append
+(
 cfg
 .
 get

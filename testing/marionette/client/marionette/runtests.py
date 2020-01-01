@@ -23,6 +23,8 @@ sys
 import
 time
 import
+traceback
+import
 platform
 import
 moznetwork
@@ -1340,6 +1342,10 @@ None
 device
 =
 None
+                 
+symbols_path
+=
+None
 )
 :
         
@@ -1511,6 +1517,12 @@ self
 device
 =
 device
+        
+self
+.
+symbols_path
+=
+symbols_path
         
 if
 testvars
@@ -2025,6 +2037,12 @@ gecko_path
 self
 .
 gecko_path
+                                             
+symbols_path
+=
+self
+.
+symbols_path
 )
             
 else
@@ -2122,6 +2140,12 @@ gecko_path
 self
 .
 gecko_path
+                                         
+symbols_path
+=
+self
+.
+symbols_path
 )
         
 else
@@ -2517,6 +2541,26 @@ d
 self
 .
 todo
+)
+        
+try
+:
+            
+self
+.
+marionette
+.
+check_for_crash
+(
+)
+        
+except
+:
+            
+traceback
+.
+print_exc
+(
 )
         
 self
@@ -5278,6 +5322,57 @@ to
 '
 )
     
+parser
+.
+add_option
+(
+'
+-
+-
+symbols
+-
+path
+'
+dest
+=
+'
+symbols_path
+'
+action
+=
+'
+store
+'
+                      
+default
+=
+None
+                      
+help
+=
+'
+absolute
+path
+to
+directory
+containing
+breakpad
+'
+                      
+'
+symbols
+or
+the
+URL
+of
+a
+zip
+file
+containing
+symbols
+'
+)
+    
 options
 tests
 =
@@ -5618,6 +5713,12 @@ device
 options
 .
 device
+                          
+symbols_path
+=
+options
+.
+symbols_path
 )
     
 runner
