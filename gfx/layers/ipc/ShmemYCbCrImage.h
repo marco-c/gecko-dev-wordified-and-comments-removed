@@ -178,12 +178,15 @@ GetCbCrSize
 bool
 CopyData
 (
+const
 uint8_t
 *
 aYData
+const
 uint8_t
 *
 aCbData
+const
 uint8_t
 *
 aCrData
@@ -195,6 +198,10 @@ gfxIntSize
 aCbCrSize
 uint32_t
 aCbCrStride
+uint32_t
+aYSkip
+uint32_t
+aCbCrSkip
 )
 ;
 private
