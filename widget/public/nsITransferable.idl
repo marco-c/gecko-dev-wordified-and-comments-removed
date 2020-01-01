@@ -1390,6 +1390,7 @@ param
 aData
 the
 data
+either
 some
 variant
 of
@@ -1399,6 +1400,8 @@ nsISupportsPrimitives
 .
 idl
 *
+an
+nsIFile
 or
 an
 nsIFlavorDataProvider
