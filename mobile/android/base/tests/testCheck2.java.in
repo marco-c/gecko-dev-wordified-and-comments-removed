@@ -232,6 +232,16 @@ mDriver
 getGeckoTop
 (
 )
+mDriver
+.
+getGeckoWidth
+(
+)
+mDriver
+.
+getGeckoHeight
+(
+)
 )
 ;
 float
