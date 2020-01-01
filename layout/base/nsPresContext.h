@@ -1303,6 +1303,12 @@ r
 ;
 if
 (
+!
+IsPaginated
+(
+)
+&
+&
 HasCachedStyleData
 (
 )
