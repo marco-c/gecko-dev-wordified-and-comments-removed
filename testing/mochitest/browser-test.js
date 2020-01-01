@@ -1189,6 +1189,8 @@ Tester_observe
 aConsoleMessage
 )
 {
+try
+{
 var
 msg
 =
@@ -1246,6 +1248,13 @@ js
 msg
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 nextTest
 :
