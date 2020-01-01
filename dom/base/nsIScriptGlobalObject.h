@@ -211,8 +211,6 @@ virtual
 nsresult
 EnsureScriptEnvironment
 (
-PRUint32
-aLangID
 )
 =
 0
@@ -222,8 +220,6 @@ nsIScriptContext
 *
 GetScriptContext
 (
-PRUint32
-lang
 )
 =
 0
@@ -247,10 +243,6 @@ GetContext
 return
 GetScriptContext
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 )
 ;
 }
@@ -258,8 +250,6 @@ virtual
 nsresult
 SetScriptContext
 (
-PRUint32
-lang
 nsIScriptContext
 *
 aContext

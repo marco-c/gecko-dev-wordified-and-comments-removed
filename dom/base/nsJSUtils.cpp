@@ -440,10 +440,6 @@ nativeGlobal
 >
 GetScriptContext
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 )
 ;
 }

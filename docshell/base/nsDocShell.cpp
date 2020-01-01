@@ -41451,10 +41451,6 @@ mScriptGlobal
 >
 EnsureScriptEnvironment
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 )
 ;
 NS_ENSURE_SUCCESS

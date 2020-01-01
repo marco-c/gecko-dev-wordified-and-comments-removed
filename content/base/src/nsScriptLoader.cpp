@@ -1680,10 +1680,6 @@ globalObject
 >
 GetScriptContext
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 )
 ;
 if
@@ -3958,7 +3954,6 @@ globalObject
 >
 EnsureScriptEnvironment
 (
-stid
 )
 ;
 if
@@ -3982,7 +3977,6 @@ globalObject
 >
 GetScriptContext
 (
-stid
 )
 ;
 if

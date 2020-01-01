@@ -13911,16 +13911,6 @@ if
 global
 )
 {
-PRUint32
-stid
-=
-scriptProto
--
->
-mScriptObject
-.
-mLangID
-;
 nsIScriptContext
 *
 scriptContext
@@ -13931,7 +13921,6 @@ global
 >
 GetScriptContext
 (
-stid
 )
 ;
 NS_ASSERTION
@@ -14229,16 +14218,6 @@ mScriptGlobalObject
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-PRUint32
-stid
-=
-aScript
--
->
-mScriptObject
-.
-mLangID
-;
 nsresult
 rv
 ;
@@ -14249,7 +14228,6 @@ mScriptGlobalObject
 >
 EnsureScriptEnvironment
 (
-stid
 )
 ;
 NS_ENSURE_SUCCESS
@@ -14269,7 +14247,6 @@ mScriptGlobalObject
 >
 GetScriptContext
 (
-stid
 )
 ;
 NS_ENSURE_TRUE
