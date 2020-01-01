@@ -3864,7 +3864,7 @@ target
 {
 frame
 .
-syncAndForgetEverything
+forgetEverything
 (
 )
 ;
@@ -5413,7 +5413,7 @@ fe
 ;
 frame
 .
-syncAndForgetEverything
+forgetEverything
 (
 )
 ;
@@ -5970,7 +5970,7 @@ b
 {
 frame
 .
-syncAndForgetEverything
+forgetEverything
 (
 )
 ;
@@ -6078,7 +6078,7 @@ JS_FALSE
 {
 frame
 .
-syncAndForgetEverything
+forgetEverything
 (
 )
 ;
