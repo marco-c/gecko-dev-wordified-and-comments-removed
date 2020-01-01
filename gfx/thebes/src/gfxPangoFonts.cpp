@@ -2659,6 +2659,7 @@ SanitizeMetrics
 (
 &
 mMetrics
+PR_FALSE
 )
 ;
 #

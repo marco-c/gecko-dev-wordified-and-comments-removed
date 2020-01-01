@@ -218,6 +218,11 @@ Init
 (
 )
 ;
+void
+InitBadUnderlineList
+(
+)
+;
 static
 int
 CALLBACK

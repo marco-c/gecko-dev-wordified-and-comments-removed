@@ -190,6 +190,12 @@ PRUint32
 aCh
 )
 ;
+MacOSFontEntry
+*
+GetFontEntry
+(
+)
+;
 protected
 :
 const

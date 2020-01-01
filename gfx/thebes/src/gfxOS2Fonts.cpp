@@ -853,6 +853,7 @@ externalLeading
 SanitizeMetrics
 (
 mMetrics
+PR_FALSE
 )
 ;
 #
