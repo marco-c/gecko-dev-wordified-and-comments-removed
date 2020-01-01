@@ -735,10 +735,6 @@ MediaError
 .
 webidl
 \
-MediaSource
-.
-webidl
-\
 MediaStream
 .
 webidl
@@ -928,14 +924,6 @@ ScrollAreaEvent
 webidl
 \
 SimpleGestureEvent
-.
-webidl
-\
-SourceBufferList
-.
-webidl
-\
-SourceBuffer
 .
 webidl
 \
@@ -1448,10 +1436,6 @@ UndoManager
 webidl
 \
 URLUtils
-.
-webidl
-\
-VideoPlaybackQuality
 .
 webidl
 \
