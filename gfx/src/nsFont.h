@@ -221,7 +221,7 @@ aSize
 nsFont
 (
 const
-nsString
+nsSubstring
 &
 aName
 uint8_t
