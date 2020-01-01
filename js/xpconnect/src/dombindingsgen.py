@@ -3646,6 +3646,15 @@ n
 n
 "
 "
+*
+enabled
+=
+true
+;
+\
+n
+"
+"
 return
 getPrototype
 (
