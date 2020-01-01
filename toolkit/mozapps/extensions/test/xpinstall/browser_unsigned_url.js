@@ -57,6 +57,7 @@ confirm_install
 window
 )
 {
+let
 items
 =
 window
