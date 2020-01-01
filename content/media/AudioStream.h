@@ -356,7 +356,7 @@ mChannels
 ;
 }
 virtual
-void
+nsresult
 EnsureTimeStretcherInitialized
 (
 )
