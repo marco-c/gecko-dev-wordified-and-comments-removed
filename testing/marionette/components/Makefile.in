@@ -75,6 +75,16 @@ config
 autoconf
 .
 mk
+ifdef
+ENABLE_MARIONETTE
+DEFINES
++
+=
+-
+DENABLE_MARIONETTE
+=
+1
+endif
 EXTRA_PP_COMPONENTS
 =
 \
