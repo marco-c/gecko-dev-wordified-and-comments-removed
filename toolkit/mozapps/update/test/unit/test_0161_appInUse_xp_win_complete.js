@@ -1282,6 +1282,10 @@ gSwitchApp
 =
 true
 ;
+gDisableReplaceFallback
+=
+true
+;
 exitValue
 =
 runUpdate
