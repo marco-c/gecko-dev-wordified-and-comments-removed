@@ -519,7 +519,7 @@ if
 (
 this
 .
-hasCustomizedItemSelection
+hasNonSelectedItems
 (
 )
 )
@@ -800,7 +800,7 @@ value
 ;
 }
 }
-hasCustomizedItemSelection
+hasNonSelectedItems
 :
 function
 (
@@ -863,14 +863,10 @@ preference
 ;
 if
 (
+!
 pref
 .
 value
-!
-=
-pref
-.
-defaultValue
 )
 return
 true
