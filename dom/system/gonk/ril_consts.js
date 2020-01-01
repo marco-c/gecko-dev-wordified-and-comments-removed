@@ -2002,6 +2002,13 @@ EF_PATH_DF_GSM
 "
 ;
 const
+EF_PATH_ADF_USIM
+=
+"
+7fff
+"
+;
+const
 ICC_STATUS_NORMAL_ENDING
 =
 0x90
