@@ -96,7 +96,7 @@ equal
 toLocaleString
 (
 )
-"
+'
 ;
 if
 (
