@@ -3378,7 +3378,7 @@ payloadReg
 )
 )
 ;
-psrlq
+psrldq
 (
 Imm32
 (
