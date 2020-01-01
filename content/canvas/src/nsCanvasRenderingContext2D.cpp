@@ -770,14 +770,8 @@ NS_MEMORY_REPORTER_IMPLEMENT
 (
 CanvasMemory
 "
-heap
--
-used
-/
-content
-/
 canvas
-/
+-
 2d
 -
 pixel
