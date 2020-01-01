@@ -511,6 +511,11 @@ h
 Constants
 .
 h
+\
+Types
+.
+h
+\
 (
 NULL
 )
@@ -546,6 +551,10 @@ SmsEvent
 cpp
 \
 Constants
+.
+cpp
+\
+SmsChild
 .
 cpp
 \
