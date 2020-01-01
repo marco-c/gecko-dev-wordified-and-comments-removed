@@ -188,7 +188,7 @@ disk
 .
 max_entry_size
 "
-51200
+5120
 )
 ;
 pref
