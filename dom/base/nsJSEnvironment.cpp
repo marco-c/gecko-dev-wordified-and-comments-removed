@@ -4397,7 +4397,7 @@ js_asmjs_content_str
 =
 JS_OPTIONS_DOT_STR
 "
-experimental_asmjs
+asmjs
 "
 ;
 static
