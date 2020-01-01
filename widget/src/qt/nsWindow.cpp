@@ -9992,6 +9992,16 @@ nsnull
 #
 ifdef
 MOZ_ENABLE_MEEGOTOUCH
+if
+(
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Default
+)
+{
 newView
 =
 new
@@ -10000,6 +10010,8 @@ MozMGraphicsView
 widget
 )
 ;
+}
+else
 #
 else
 newView
