@@ -115,11 +115,11 @@ HTMLListAccessible
 .
 cpp
 \
-nsHTMLCanvasAccessible
+HTMLSelectAccessible
 .
 cpp
 \
-nsHTMLSelectAccessible
+nsHTMLCanvasAccessible
 .
 cpp
 \

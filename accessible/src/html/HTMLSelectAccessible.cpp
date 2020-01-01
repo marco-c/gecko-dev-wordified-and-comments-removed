@@ -1,7 +1,7 @@
 #
 include
 "
-nsHTMLSelectAccessible
+HTMLSelectAccessible
 .
 h
 "
@@ -147,10 +147,10 @@ mozilla
 :
 a11y
 ;
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 (
 nsIContent
 *
@@ -173,7 +173,7 @@ eListControlAccessible
 ;
 }
 PRUint64
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 NativeState
@@ -222,7 +222,7 @@ state
 ;
 }
 role
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 NativeRole
@@ -237,7 +237,7 @@ LISTBOX
 ;
 }
 bool
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 IsSelect
@@ -249,7 +249,7 @@ true
 ;
 }
 bool
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 SelectAll
@@ -280,7 +280,7 @@ false
 ;
 }
 bool
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 UnselectAll
@@ -311,7 +311,7 @@ false
 ;
 }
 bool
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 IsWidget
@@ -324,7 +324,7 @@ true
 ;
 }
 bool
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 IsActiveWidget
@@ -345,7 +345,7 @@ mContent
 ;
 }
 bool
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 AreItemsOperable
@@ -359,7 +359,7 @@ true
 }
 Accessible
 *
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 CurrentItem
@@ -428,7 +428,7 @@ nsnull
 ;
 }
 void
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 SetCurrentItem
@@ -464,7 +464,7 @@ true
 ;
 }
 void
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 CacheChildren
@@ -478,7 +478,7 @@ mContent
 ;
 }
 void
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 CacheOptSiblings
@@ -602,10 +602,10 @@ childContent
 }
 }
 }
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 (
 nsIContent
 *
@@ -623,7 +623,7 @@ aDoc
 {
 }
 role
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 NativeRole
@@ -662,7 +662,7 @@ OPTION
 ;
 }
 nsresult
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 GetNameInternal
@@ -774,7 +774,7 @@ NS_OK
 ;
 }
 PRUint64
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 NativeState
@@ -1043,7 +1043,7 @@ state
 ;
 }
 PRUint64
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 NativeInteractiveState
@@ -1073,7 +1073,7 @@ SELECTABLE
 ;
 }
 PRInt32
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 GetLevelInternal
@@ -1141,7 +1141,7 @@ level
 ;
 }
 void
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 GetBoundsRect
@@ -1203,7 +1203,7 @@ aBoundingFrame
 ;
 }
 NS_IMETHODIMP
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 GetActionName
@@ -1241,7 +1241,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 PRUint8
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 ActionCount
@@ -1253,7 +1253,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 DoAction
@@ -1290,7 +1290,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 SetSelected
@@ -1332,7 +1332,7 @@ aSelect
 }
 Accessible
 *
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 :
 :
 ContainerWidget
@@ -1356,10 +1356,10 @@ mParent
 nsnull
 ;
 }
-nsHTMLSelectOptGroupAccessible
+HTMLSelectOptGroupAccessible
 :
 :
-nsHTMLSelectOptGroupAccessible
+HTMLSelectOptGroupAccessible
 (
 nsIContent
 *
@@ -1369,7 +1369,7 @@ DocAccessible
 aDoc
 )
 :
-nsHTMLSelectOptionAccessible
+HTMLSelectOptionAccessible
 (
 aContent
 aDoc
@@ -1377,7 +1377,7 @@ aDoc
 {
 }
 role
-nsHTMLSelectOptGroupAccessible
+HTMLSelectOptGroupAccessible
 :
 :
 NativeRole
@@ -1392,7 +1392,7 @@ HEADING
 ;
 }
 PRUint64
-nsHTMLSelectOptGroupAccessible
+HTMLSelectOptGroupAccessible
 :
 :
 NativeInteractiveState
@@ -1414,7 +1414,7 @@ UNAVAILABLE
 ;
 }
 NS_IMETHODIMP
-nsHTMLSelectOptGroupAccessible
+HTMLSelectOptGroupAccessible
 :
 :
 DoAction
@@ -1428,7 +1428,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsHTMLSelectOptGroupAccessible
+HTMLSelectOptGroupAccessible
 :
 :
 GetActionName
@@ -1445,7 +1445,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 PRUint8
-nsHTMLSelectOptGroupAccessible
+HTMLSelectOptGroupAccessible
 :
 :
 ActionCount
@@ -1457,7 +1457,7 @@ return
 ;
 }
 void
-nsHTMLSelectOptGroupAccessible
+HTMLSelectOptGroupAccessible
 :
 :
 CacheChildren
@@ -1465,10 +1465,10 @@ CacheChildren
 )
 {
 }
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 (
 nsIContent
 *
@@ -1491,7 +1491,7 @@ eComboboxAccessible
 ;
 }
 role
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 NativeRole
@@ -1506,7 +1506,7 @@ COMBOBOX
 ;
 }
 void
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 InvalidateChildren
@@ -1533,7 +1533,7 @@ InvalidateChildren
 ;
 }
 void
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 CacheChildren
@@ -1598,7 +1598,7 @@ mListAccessible
 mListAccessible
 =
 new
-nsHTMLComboboxListAccessible
+HTMLComboboxListAccessible
 (
 mParent
 mContent
@@ -1640,7 +1640,7 @@ EnsureChildren
 }
 }
 void
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 Shutdown
@@ -1673,7 +1673,7 @@ nsnull
 }
 }
 PRUint64
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 NativeState
@@ -1743,7 +1743,7 @@ state
 ;
 }
 void
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 Description
@@ -1800,7 +1800,7 @@ aDescription
 ;
 }
 void
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 Value
@@ -1832,7 +1832,7 @@ aValue
 ;
 }
 PRUint8
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 ActionCount
@@ -1844,7 +1844,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 DoAction
@@ -1881,7 +1881,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 GetActionName
@@ -1898,7 +1898,7 @@ if
 aIndex
 !
 =
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 eAction_Click
@@ -1978,7 +1978,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 IsWidget
@@ -1991,7 +1991,7 @@ true
 ;
 }
 bool
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 IsActiveWidget
@@ -2012,7 +2012,7 @@ mContent
 ;
 }
 bool
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 AreItemsOperable
@@ -2045,7 +2045,7 @@ IsDroppedDown
 }
 Accessible
 *
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 CurrentItem
@@ -2068,7 +2068,7 @@ nsnull
 ;
 }
 void
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 SetCurrentItem
@@ -2095,7 +2095,7 @@ aItem
 }
 Accessible
 *
-nsHTMLComboboxAccessible
+HTMLComboboxAccessible
 :
 :
 SelectedOption
@@ -2192,10 +2192,10 @@ return
 nsnull
 ;
 }
-nsHTMLComboboxListAccessible
+HTMLComboboxListAccessible
 :
 :
-nsHTMLComboboxListAccessible
+HTMLComboboxListAccessible
 (
 nsIAccessible
 *
@@ -2208,7 +2208,7 @@ DocAccessible
 aDoc
 )
 :
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 (
 aContent
 aDoc
@@ -2217,7 +2217,7 @@ aDoc
 }
 nsIFrame
 *
-nsHTMLComboboxListAccessible
+HTMLComboboxListAccessible
 :
 :
 GetFrame
@@ -2229,7 +2229,7 @@ nsIFrame
 *
 frame
 =
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 GetFrame
@@ -2270,7 +2270,7 @@ nsnull
 ;
 }
 bool
-nsHTMLComboboxListAccessible
+HTMLComboboxListAccessible
 :
 :
 IsPrimaryForNode
@@ -2283,7 +2283,7 @@ false
 ;
 }
 role
-nsHTMLComboboxListAccessible
+HTMLComboboxListAccessible
 :
 :
 NativeRole
@@ -2298,7 +2298,7 @@ COMBOBOX_LIST
 ;
 }
 PRUint64
-nsHTMLComboboxListAccessible
+HTMLComboboxListAccessible
 :
 :
 NativeState
@@ -2363,7 +2363,7 @@ state
 ;
 }
 void
-nsHTMLComboboxListAccessible
+HTMLComboboxListAccessible
 :
 :
 GetBoundsRect
@@ -2417,7 +2417,7 @@ COLLAPSED
 )
 )
 {
-nsHTMLSelectListAccessible
+HTMLSelectListAccessible
 :
 :
 GetBoundsRect
@@ -2498,7 +2498,7 @@ GetRect
 ;
 }
 bool
-nsHTMLComboboxListAccessible
+HTMLComboboxListAccessible
 :
 :
 IsActiveWidget
@@ -2519,7 +2519,7 @@ IsActiveWidget
 ;
 }
 bool
-nsHTMLComboboxListAccessible
+HTMLComboboxListAccessible
 :
 :
 AreItemsOperable
