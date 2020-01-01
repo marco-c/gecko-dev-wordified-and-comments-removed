@@ -3178,8 +3178,8 @@ messagep
 JSErrorReport
 *
 reportp
-bool
-charArgs
+ErrorArgumentsType
+argumentsType
 va_list
 ap
 )
@@ -3375,7 +3375,10 @@ messageArgsPassed
 else
 if
 (
-charArgs
+argumentsType
+=
+=
+ArgumentsAreASCII
 )
 {
 char
@@ -3895,7 +3898,10 @@ messageArgs
 {
 if
 (
-charArgs
+argumentsType
+=
+=
+ArgumentsAreASCII
 )
 {
 i
@@ -4020,8 +4026,8 @@ userRef
 const
 unsigned
 errorNumber
-JSBool
-charArgs
+ErrorArgumentsType
+argumentsType
 va_list
 ap
 )
@@ -4093,9 +4099,7 @@ errorNumber
 message
 &
 report
-!
-!
-charArgs
+argumentsType
 ap
 )
 )
@@ -4132,7 +4136,10 @@ messageArgs
 {
 if
 (
-charArgs
+argumentsType
+=
+=
+ArgumentsAreASCII
 )
 {
 int
@@ -4296,7 +4303,7 @@ errorNumber
 message
 &
 report
-JS_FALSE
+ArgumentsAreUnicode
 dummy
 )
 )

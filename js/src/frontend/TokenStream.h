@@ -1352,8 +1352,8 @@ char
 *
 message
 ;
-bool
-hasCharArgs
+ErrorArgumentsType
+argumentsType
 ;
 CompileError
 (
@@ -1370,9 +1370,9 @@ message
 (
 NULL
 )
-hasCharArgs
+argumentsType
 (
-false
+ArgumentsAreUnicode
 )
 {
 PodZero
