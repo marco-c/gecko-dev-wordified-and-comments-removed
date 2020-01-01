@@ -69,6 +69,8 @@ offset
 =
 0
 ;
+private
+:
 virtual
 void
 munmap
@@ -89,6 +91,12 @@ length
 )
 ;
 }
+friend
+class
+Mappable1stPagePtr
+;
+public
+:
 virtual
 void
 finalize
