@@ -12001,3 +12001,17 @@ menubar
 drag
 "
 )
+GK_ATOM
+(
+_moz_device_pixel_ratio
+"
+-
+moz
+-
+device
+-
+pixel
+-
+ratio
+"
+)
