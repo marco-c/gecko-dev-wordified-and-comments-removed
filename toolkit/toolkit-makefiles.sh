@@ -860,13 +860,6 @@ gfx
 /
 src
 /
-shared
-/
-Makefile
-gfx
-/
-src
-/
 thebes
 /
 Makefile
