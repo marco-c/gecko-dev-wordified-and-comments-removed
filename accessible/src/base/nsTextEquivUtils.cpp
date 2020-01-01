@@ -513,10 +513,12 @@ if
 isVisible
 )
 {
-nsAccessible
-*
+nsCOMPtr
+<
+nsIAccessible
+>
 accessible
-=
+;
 GetAccService
 (
 )
@@ -526,6 +528,10 @@ GetAccessibleInShell
 (
 DOMNode
 shell
+getter_AddRefs
+(
+accessible
+)
 )
 ;
 if
