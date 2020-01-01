@@ -445,6 +445,8 @@ XPCSHELL_TESTS
 \
 autocomplete
 \
+background
+\
 bookmarks
 \
 queries
