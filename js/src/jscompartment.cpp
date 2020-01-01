@@ -91,6 +91,15 @@ h
 #
 include
 "
+vm
+/
+StopIterationObject
+.
+h
+"
+#
+include
+"
 jsgcinlines
 .
 h
@@ -1058,7 +1067,10 @@ if
 obj
 -
 >
-isStopIteration
+is
+<
+StopIterationObject
+>
 (
 )
 )
