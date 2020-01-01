@@ -352,17 +352,6 @@ aLengthUnit
 )
 ;
 nsresult
-HasClassOrID
-(
-nsIDOMElement
-*
-aElement
-bool
-&
-aReturn
-)
-;
-nsresult
 GetCSSEquivalentToHTMLInlineStyleSet
 (
 nsIDOMNode

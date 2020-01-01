@@ -471,6 +471,14 @@ false
 nsresult
 RemoveContainer
 (
+nsINode
+*
+aNode
+)
+;
+nsresult
+RemoveContainer
+(
 nsIDOMNode
 *
 inNode
