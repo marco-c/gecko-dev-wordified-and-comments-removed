@@ -20,6 +20,12 @@ WIN32_LEAN_AND_MEAN
 #
 endif
 #
+if
+defined
+(
+MOZ_IPC
+)
+#
 include
 "
 client
@@ -32,6 +38,8 @@ crash_generation_server
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -129,6 +137,12 @@ defined
 XP_LINUX
 )
 #
+if
+defined
+(
+MOZ_IPC
+)
+#
 include
 "
 client
@@ -141,6 +155,8 @@ crash_generation_server
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -296,6 +312,12 @@ nsDataHashtable
 .
 h
 "
+#
+if
+defined
+(
+MOZ_IPC
+)
 using
 google_breakpad
 :
@@ -308,6 +330,8 @@ google_breakpad
 :
 ClientInfo
 ;
+#
+endif
 namespace
 CrashReporter
 {
@@ -666,6 +690,12 @@ notesField
 =
 nsnull
 ;
+#
+if
+defined
+(
+MOZ_IPC
+)
 static
 CrashGenerationServer
 *
@@ -720,6 +750,8 @@ kMagicChildCrashReportFd
 =
 42
 ;
+#
+endif
 #
 endif
 static
@@ -3955,6 +3987,12 @@ NS_OK
 }
 #
 endif
+#
+if
+defined
+(
+MOZ_IPC
+)
 static
 void
 OnChildProcessDumpRequested
@@ -4496,4 +4534,6 @@ return
 true
 ;
 }
+#
+endif
 }
