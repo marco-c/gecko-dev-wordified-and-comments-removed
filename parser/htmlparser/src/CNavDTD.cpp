@@ -3300,8 +3300,7 @@ GetCount
 PRBool
 theParentContains
 =
--
-1
+PR_FALSE
 ;
 do
 {
@@ -6010,7 +6009,7 @@ mDTDMode
 eDTDMode_almost_standards
 )
 {
-PRBool
+PRInt32
 theParentContains
 =
 -
@@ -6805,7 +6804,7 @@ theNode
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRBool
+PRInt32
 theParentContains
 =
 -
@@ -7848,7 +7847,7 @@ eHTMLTags
 aParent
 eHTMLTags
 aChild
-PRBool
+PRInt32
 aParentContains
 )
 {
@@ -8032,7 +8031,7 @@ eHTMLTags
 aParent
 eHTMLTags
 aChild
-PRBool
+PRInt32
 &
 aParentContains
 )
