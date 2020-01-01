@@ -249,13 +249,6 @@ name
 target
 "
 ]
-img
-:
-[
-"
-align
-"
-]
 input
 :
 [
