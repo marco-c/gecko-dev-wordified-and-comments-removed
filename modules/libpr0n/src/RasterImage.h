@@ -804,9 +804,8 @@ GetCurrentImgFrameIndex
 const
 ;
 inline
-Anim
-*
-ensureAnimExists
+void
+EnsureAnimExists
 (
 )
 {
@@ -828,9 +827,6 @@ LockImage
 )
 ;
 }
-return
-mAnim
-;
 }
 nsresult
 DoComposite
