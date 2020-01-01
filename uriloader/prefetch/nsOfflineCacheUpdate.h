@@ -603,15 +603,12 @@ public
 nsIOfflineCacheUpdateObserver
 public
 nsOfflineCacheUpdateOwner
-public
-nsIApplicationCacheAsyncCallback
 {
 public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOFFLINECACHEUPDATE
 NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER
-NS_DECL_NSIAPPLICATIONCACHEASYNCCALLBACK
 nsOfflineCacheUpdate
 (
 )
@@ -771,7 +768,7 @@ FinishNoNotify
 )
 ;
 nsresult
-EvictOneNonPinnedAsync
+EvictOneNonPinned
 (
 )
 ;
