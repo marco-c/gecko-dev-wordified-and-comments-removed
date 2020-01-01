@@ -463,10 +463,7 @@ handler
 "
 )
 ;
-throw
-Cr
-.
-NS_ERROR_FAILURE
+return
 ;
 }
 if
@@ -582,10 +579,8 @@ message
 "
 )
 ;
-throw
-Cr
-.
-NS_ERROR_FAILURE
+return
+false
 ;
 }
 if
