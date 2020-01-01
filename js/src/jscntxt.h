@@ -4817,7 +4817,7 @@ ida
 }
 ;
 class
-AutoSaveWeakRoots
+AutoSaveRestoreWeakRoots
 :
 private
 AutoGCRooter
@@ -4825,7 +4825,7 @@ AutoGCRooter
 public
 :
 explicit
-AutoSaveWeakRoots
+AutoSaveRestoreWeakRoots
 (
 JSContext
 *
@@ -4847,6 +4847,19 @@ weakRoots
 )
 {
 JS_GUARD_OBJECT_NOTIFIER_INIT
+;
+}
+~
+AutoSaveRestoreWeakRoots
+(
+)
+{
+context
+-
+>
+weakRoots
+=
+savedRoots
 ;
 }
 friend

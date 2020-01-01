@@ -6765,7 +6765,7 @@ cx
 )
 )
 ;
-AutoSaveWeakRoots
+AutoSaveRestoreWeakRoots
 save
 (
 cx
