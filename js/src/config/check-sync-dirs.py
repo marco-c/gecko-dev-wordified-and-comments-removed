@@ -98,34 +98,6 @@ argv
 2
 ]
 )
-ignored_patterns
-=
-[
-'
-*
-~
-'
-'
-.
-#
-*
-'
-'
-#
-*
-#
-'
-'
-*
-.
-orig
-'
-'
-*
-.
-rej
-'
-]
 def
 read_exceptions
 (
@@ -260,7 +232,6 @@ check
 (
 copy
 original
-ignore
 )
 :
     
@@ -312,9 +283,9 @@ dirnames
 :
             
 if
+fnmatch_any
 (
 dirname
-in
 exceptions
 )
 :
@@ -335,16 +306,10 @@ filenames
 :
             
 if
-(
-filename
-in
-exceptions
-)
-or
 fnmatch_any
 (
 filename
-ignore
+exceptions
 )
 :
                 
@@ -542,7 +507,6 @@ check
 (
 copy
 original
-ignored_patterns
 )
 if
 differences_found
