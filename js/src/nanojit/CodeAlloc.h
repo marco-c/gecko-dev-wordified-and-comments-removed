@@ -191,6 +191,14 @@ availblocks
 size_t
 totalAllocated
 ;
+const
+size_t
+bytesPerPage
+;
+const
+size_t
+bytesPerAlloc
+;
 static
 CodeList
 *
@@ -244,7 +252,6 @@ sanity_check
 (
 )
 ;
-static
 CodeList
 *
 firstBlock
