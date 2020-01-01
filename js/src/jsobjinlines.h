@@ -3011,7 +3011,7 @@ aclasp
 ;
 flags
 =
-0
+INITIAL_FLAGS
 ;
 #
 ifdef
