@@ -38,6 +38,11 @@ nsContainerFrame
 {
 public
 :
+NS_DECL_QUERYFRAME_TARGET
+(
+ViewportFrame
+)
+NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 typedef
 nsContainerFrame
@@ -191,6 +196,15 @@ GetType
 )
 const
 MOZ_OVERRIDE
+;
+nsRect
+AdjustReflowStateAsContainingBlock
+(
+nsHTMLReflowState
+*
+aReflowState
+)
+const
 ;
 #
 ifdef
