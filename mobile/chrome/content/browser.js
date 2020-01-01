@@ -16847,7 +16847,6 @@ Browser
 .
 selectedTab
 )
-{
 BrowserUI
 .
 update
@@ -16855,17 +16854,6 @@ update
 TOOLBARSTATE_LOADED
 )
 ;
-this
-.
-browser
-.
-docShell
-.
-isOffScreenBrowser
-=
-true
-;
-}
 if
 (
 this
