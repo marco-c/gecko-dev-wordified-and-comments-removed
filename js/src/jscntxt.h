@@ -368,6 +368,13 @@ jsval
 *
 recoveryDoublePoolPtr
 ;
+JSObject
+*
+reservedObjects
+;
+JSBool
+useReservedObjects
+;
 CLS
 (
 nanojit
