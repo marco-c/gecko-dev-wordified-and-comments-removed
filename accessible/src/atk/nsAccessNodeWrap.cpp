@@ -12,13 +12,6 @@ nsApplicationAccessibleWrap
 .
 h
 "
-#
-include
-"
-nsMaiInterfaceText
-.
-h
-"
 nsAccessNodeWrap
 :
 :

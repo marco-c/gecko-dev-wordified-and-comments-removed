@@ -14,6 +14,10 @@ h
 #
 ifdef
 __ATK_H__
+extern
+"
+C
+"
 typedef
 void
 (
@@ -29,6 +33,10 @@ gchar
 ;
 #
 else
+extern
+"
+C
+"
 typedef
 void
 (
