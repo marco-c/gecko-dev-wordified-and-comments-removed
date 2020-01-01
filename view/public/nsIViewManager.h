@@ -565,15 +565,6 @@ ForceUpdate
 0
 ;
 NS_IMETHOD
-AllowDoubleBuffering
-(
-PRBool
-aDoubleBuffer
-)
-=
-0
-;
-NS_IMETHOD
 IsPainting
 (
 PRBool

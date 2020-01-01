@@ -711,13 +711,6 @@ ForceUpdate
 )
 ;
 NS_IMETHOD
-AllowDoubleBuffering
-(
-PRBool
-aDoubleBuffer
-)
-;
-NS_IMETHOD
 IsPainting
 (
 PRBool
@@ -1516,9 +1509,6 @@ mRootView
 nsViewManager
 *
 mRootViewManager
-;
-PRPackedBool
-mAllowDoubleBuffering
 ;
 nsRevocableEventPtr
 <
