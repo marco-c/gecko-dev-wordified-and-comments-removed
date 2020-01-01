@@ -170,7 +170,9 @@ DebuggerView
 .
 Properties
 .
-localScope
+_vars
+.
+firstChild
 localNodes
 =
 localScope
@@ -679,7 +681,7 @@ value
 "
 [
 object
-Object
+Arguments
 ]
 "
 "
@@ -691,7 +693,7 @@ property
 value
 for
 '
-b
+arguments
 '
 .
 "
@@ -733,7 +735,7 @@ property
 value
 for
 '
-c
+b
 '
 .
 "
@@ -763,7 +765,7 @@ value
 "
 [
 object
-Arguments
+Object
 ]
 "
 "
@@ -775,7 +777,7 @@ property
 value
 for
 '
-arguments
+c
 '
 .
 "
