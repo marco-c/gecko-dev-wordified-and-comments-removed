@@ -54,6 +54,15 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -138,6 +147,7 @@ TestFuncPtr
 ;
 class
 SettingsServiceCallback
+MOZ_FINAL
 :
 public
 nsISettingsServiceCallback
