@@ -313,6 +313,7 @@ addEventListener
 focus
 '
 function
+onFocus
 (
 )
 {
@@ -323,9 +324,7 @@ removeEventListener
 '
 focus
 '
-arguments
-.
-callee
+onFocus
 true
 )
 ;

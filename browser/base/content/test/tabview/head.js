@@ -915,6 +915,7 @@ addEventListener
 tabviewhidden
 '
 function
+onHidden
 (
 )
 {
@@ -925,9 +926,7 @@ removeEventListener
 '
 tabviewhidden
 '
-arguments
-.
-callee
+onHidden
 false
 )
 ;
@@ -980,6 +979,7 @@ addEventListener
 tabviewshown
 '
 function
+onShown
 (
 )
 {
@@ -990,9 +990,7 @@ removeEventListener
 '
 tabviewshown
 '
-arguments
-.
-callee
+onShown
 false
 )
 ;

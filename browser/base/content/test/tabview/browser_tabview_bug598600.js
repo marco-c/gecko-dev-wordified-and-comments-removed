@@ -62,6 +62,7 @@ addEventListener
 load
 "
 function
+onLoad
 (
 event
 )
@@ -73,9 +74,7 @@ removeEventListener
 "
 load
 "
-arguments
-.
-callee
+onLoad
 false
 )
 ;

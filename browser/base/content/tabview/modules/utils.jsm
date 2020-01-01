@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 EXPORTED_SYMBOLS
 =
@@ -1371,6 +1376,9 @@ if
 smooth
 )
 {
+let
+tanh
+=
 function
 tanh
 (
@@ -1405,6 +1413,7 @@ e
 )
 ;
 }
+;
 return
 .
 5

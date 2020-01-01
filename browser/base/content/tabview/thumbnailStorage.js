@@ -280,6 +280,7 @@ addEventListener
 load
 "
 function
+onLoad
 (
 )
 {
@@ -290,9 +291,7 @@ removeEventListener
 "
 load
 "
-arguments
-.
-callee
+onLoad
 true
 )
 ;

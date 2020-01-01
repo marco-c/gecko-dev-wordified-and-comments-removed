@@ -2491,6 +2491,9 @@ EDEDED
 ;
 #
 endif
+let
+dispatchTabViewSearchEnabledEvent
+=
 function
 dispatchTabViewSearchEnabledEvent
 (

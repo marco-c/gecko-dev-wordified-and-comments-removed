@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 Cu
 =
@@ -478,6 +483,7 @@ addEventListener
 load
 "
 function
+onLoad
 (
 )
 {
@@ -488,9 +494,7 @@ removeEventListener
 "
 load
 "
-arguments
-.
-callee
+onLoad
 false
 )
 ;
