@@ -117,7 +117,7 @@ true
 ;
 }
 }
-helpText
+helpInfo
 :
 "
 -
