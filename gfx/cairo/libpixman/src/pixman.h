@@ -147,6 +147,13 @@ defined
 (
 __ELF__
 )
+&
+&
+!
+defined
+(
+__sun__
+)
 #
 define
 pixman_private
@@ -838,10 +845,10 @@ struct
 pixman_radial_gradient
 {
 pixman_circle_t
-inner
+c1
 ;
 pixman_circle_t
-outer
+c2
 ;
 }
 pixman_radial_gradient_t

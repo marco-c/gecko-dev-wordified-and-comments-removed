@@ -88,7 +88,7 @@ h
 #
 define
 DFB_RECTANGLES
-1
+0
 #
 define
 DFB_COMPOSITE
