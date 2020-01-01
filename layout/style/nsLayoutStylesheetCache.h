@@ -111,7 +111,8 @@ nsLayoutStylesheetCache
 nsLayoutStylesheetCache
 (
 )
-;
+{
+}
 static
 void
 EnsureGlobal
