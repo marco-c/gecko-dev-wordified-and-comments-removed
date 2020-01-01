@@ -711,6 +711,11 @@ VARSTR
 NPNVprivateModeBool
 )
 ;
+VARSTR
+(
+NPNVdocumentOrigin
+)
+;
 default
 :
 return

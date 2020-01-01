@@ -690,6 +690,10 @@ test_npruntime_npnsetexception
 .
 html
 \
+test_NPNVdocumentOrigin
+.
+html
+\
 (
 NULL
 )
