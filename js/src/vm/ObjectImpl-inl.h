@@ -1946,12 +1946,10 @@ ifdef
 JSGC_INCREMENTAL
 if
 (
-uintptr_t
+IsNullTaggedPointer
 (
 obj
 )
-<
-32
 )
 return
 ;
@@ -2057,12 +2055,10 @@ ifdef
 JSGC_GENERATIONAL
 if
 (
-uintptr_t
+IsNullTaggedPointer
 (
 obj
 )
-<
-32
 )
 return
 ;

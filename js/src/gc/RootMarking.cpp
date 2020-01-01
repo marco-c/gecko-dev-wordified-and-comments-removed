@@ -235,9 +235,11 @@ address
 ;
 if
 (
-!
+IsNullTaggedPointer
+(
 *
 addr
+)
 )
 return
 ;
