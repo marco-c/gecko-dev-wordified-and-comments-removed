@@ -1152,11 +1152,6 @@ dom
 /
 file
 '
-nsIDOMFileRequest
-.
-*
-'
-'
 nsIDOMLockedFile
 .
 *

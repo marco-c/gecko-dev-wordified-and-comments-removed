@@ -76,11 +76,6 @@ nsIActivityUIGlue
 idl
 '
 '
-nsIDOMActivity
-.
-idl
-'
-'
 nsIDOMActivityHandlerDescription
 .
 idl

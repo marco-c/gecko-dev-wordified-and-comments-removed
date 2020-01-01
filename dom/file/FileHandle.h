@@ -65,6 +65,17 @@ nsIDOMFile
 class
 nsIFileStorage
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
+class
+DOMRequest
+;
+}
+}
 BEGIN_FILE_NAMESPACE
 class
 FileService
@@ -176,7 +187,7 @@ aError
 ;
 already_AddRefed
 <
-nsIDOMDOMRequest
+DOMRequest
 >
 GetFile
 (

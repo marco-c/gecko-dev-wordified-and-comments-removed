@@ -127,6 +127,10 @@ DOMFileHandle
 .
 cpp
 \
+DOMFileRequest
+.
+cpp
+\
 File
 .
 cpp
@@ -204,6 +208,10 @@ file
 =
 \
 DOMFileHandle
+.
+h
+\
+DOMFileRequest
 .
 h
 \

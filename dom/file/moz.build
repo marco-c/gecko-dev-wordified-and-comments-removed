@@ -74,17 +74,7 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMArchiveRequest
-.
-idl
-'
-'
 nsIDOMFileHandle
-.
-idl
-'
-'
-nsIDOMFileRequest
 .
 idl
 '
