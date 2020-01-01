@@ -905,17 +905,6 @@ offset
 \
 macro
 (
-outOfMemory
-outOfMemory
-"
-out
-of
-memory
-"
-)
-\
-macro
-(
 parseFloat
 parseFloat
 "
