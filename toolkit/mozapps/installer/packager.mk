@@ -2216,6 +2216,17 @@ DIST_FILES
 (
 MOZ_CHILD_PROCESS_NAME
 )
+ifeq
+(
+(
+CPU_ARCH
+)
+x86
+)
+ABI_DIR
+=
+x86
+else
 ifdef
 MOZ_THUMB2
 ABI_DIR
@@ -2227,6 +2238,7 @@ else
 ABI_DIR
 =
 armeabi
+endif
 endif
 PKG_SUFFIX
 =

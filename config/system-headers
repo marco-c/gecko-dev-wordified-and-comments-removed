@@ -77,6 +77,11 @@ alsa
 mixer
 .
 h
+android
+/
+log
+.
+h
 ansi_parms
 .
 h
@@ -1246,6 +1251,9 @@ h
 JavaVM
 /
 jni
+.
+h
+jemalloc
 .
 h
 JManager
