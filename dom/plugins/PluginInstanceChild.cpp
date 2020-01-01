@@ -1186,13 +1186,15 @@ OS_LINUX
 &
 defined
 (
-DEBUG_cjones
+DEBUG
 )
 if
 (
 GraphicsExpose
 =
 =
+event
+.
 event
 .
 type
@@ -1208,6 +1210,8 @@ lx
 \
 n
 "
+event
+.
 event
 .
 xgraphicsexpose
