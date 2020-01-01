@@ -23912,6 +23912,10 @@ PR_TRUE
 ;
 rv
 =
+mIsBeingDestroyed
+?
+NS_ERROR_NOT_AVAILABLE
+:
 NS_OK
 ;
 }
