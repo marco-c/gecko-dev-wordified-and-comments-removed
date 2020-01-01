@@ -2477,6 +2477,16 @@ LANGPACK_FILE
 )
 "
 (
+NSINSTALL
+)
+-
+D
+(
+DIST
+)
+/
+install
+(
 RM
 )
 -
