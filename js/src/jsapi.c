@@ -3908,6 +3908,10 @@ js_CleanupLocks
 ;
 #
 endif
+PRMJ_NowShutdown
+(
+)
+;
 }
 JS_PUBLIC_API
 (
