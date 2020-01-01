@@ -9,10 +9,6 @@ function
 s
 )
 {
-dis
-(
-)
-;
 return
 a
 =
