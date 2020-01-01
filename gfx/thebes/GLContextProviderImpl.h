@@ -49,7 +49,7 @@ already_AddRefed
 <
 GLContext
 >
-CreatePBuffer
+CreateOffscreen
 (
 const
 gfxIntSize
@@ -76,6 +76,13 @@ CreateForNativePixmapSurface
 gfxASurface
 *
 aSurface
+)
+;
+static
+GLContext
+*
+GetGlobalContext
+(
 )
 ;
 }

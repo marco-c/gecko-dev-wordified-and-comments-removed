@@ -139,6 +139,11 @@ LayerManagerOGL
 (
 )
 ;
+void
+CleanupResources
+(
+)
+;
 PRBool
 Initialize
 (
