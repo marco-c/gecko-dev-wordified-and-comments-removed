@@ -2715,6 +2715,16 @@ nsILookAndFeel
 :
 :
 eColor__moz_combobox
+eCSSKeyword__moz_entrytext
+nsILookAndFeel
+:
+:
+eColor__moz_entrytext
+eCSSKeyword__moz_entry
+nsILookAndFeel
+:
+:
+eColor__moz_entry
 eCSSKeyword_UNKNOWN
 -
 1
