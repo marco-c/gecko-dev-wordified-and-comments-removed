@@ -6371,6 +6371,7 @@ maxTime
 startTime
 debuggerInfo
 symbolsPath
+logger
 )
 :
 "
@@ -6697,6 +6698,15 @@ and
 not
 didTimeout
 :
+if
+logger
+:
+logger
+.
+log
+(
+line
+)
 if
 "
 TEST
@@ -7583,6 +7593,9 @@ None
 certPath
 =
 None
+logger
+=
+None
 debuggerInfo
 =
 None
@@ -8050,6 +8063,7 @@ maxTime
 startTime
 debuggerInfo
 symbolsPath
+logger
 )
 self
 .
