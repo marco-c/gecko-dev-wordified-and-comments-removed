@@ -1463,10 +1463,16 @@ mGTKPrinter
 }
 else
 {
+nsXPIDLString
+nullPrintName
+;
 *
 aPrinter
 =
-nsnull
+ToNewUnicode
+(
+nullPrintName
+)
 ;
 return
 NS_OK
