@@ -332,11 +332,6 @@ jsproxy
 h
 '
 '
-jsprvtd
-.
-h
-'
-'
 jspubtd
 .
 h

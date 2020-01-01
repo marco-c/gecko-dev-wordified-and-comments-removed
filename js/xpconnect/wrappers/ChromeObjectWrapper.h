@@ -89,10 +89,7 @@ JS
 :
 MutableHandle
 <
-js
-:
-:
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 unsigned

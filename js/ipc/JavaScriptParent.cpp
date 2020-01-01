@@ -279,7 +279,7 @@ HandleId
 id
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 unsigned
@@ -300,7 +300,7 @@ HandleId
 id
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 unsigned
@@ -321,7 +321,7 @@ HandleId
 id
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 )
@@ -650,7 +650,7 @@ HandleId
 id
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 unsigned
@@ -689,7 +689,7 @@ HandleId
 id
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 unsigned
@@ -783,7 +783,7 @@ HandleId
 id
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 unsigned
@@ -822,7 +822,7 @@ HandleId
 id
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 unsigned
@@ -916,7 +916,7 @@ HandleId
 id
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 )
@@ -952,7 +952,7 @@ HandleId
 id
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 )

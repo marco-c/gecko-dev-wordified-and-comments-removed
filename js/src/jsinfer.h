@@ -30,6 +30,13 @@ h
 #
 include
 "
+jsprvtd
+.
+h
+"
+#
+include
+"
 ds
 /
 LifoAlloc

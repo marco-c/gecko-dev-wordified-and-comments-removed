@@ -12449,7 +12449,7 @@ cx
 Op
 &
 op
-PropertyDescriptor
+JSPropertyDescriptor
 *
 desc
 HandleId
@@ -12649,7 +12649,7 @@ JS
 :
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 unsigned
@@ -12920,7 +12920,7 @@ JS
 :
 MutableHandle
 <
-PropertyDescriptor
+JSPropertyDescriptor
 >
 desc
 unsigned
