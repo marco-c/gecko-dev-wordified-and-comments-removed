@@ -35051,16 +35051,6 @@ i
 ]
 )
 {
-PRInt32
-variantMask
-;
-const
-PRInt32
-*
-table
-=
-nsnull
-;
 if
 (
 ParseSingleValueProperty
