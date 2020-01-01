@@ -25537,7 +25537,6 @@ CheckObjectAccess
 NULL
 NULL
 NULL
-NULL
 }
 ;
 int

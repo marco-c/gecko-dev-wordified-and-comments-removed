@@ -2234,9 +2234,6 @@ JSPrincipals
 )
 JS_GetScriptPrincipals
 (
-JSContext
-*
-cx
 JSScript
 *
 script
@@ -2256,9 +2253,6 @@ JSPrincipals
 )
 JS_GetScriptOriginPrincipals
 (
-JSContext
-*
-cx
 JSScript
 *
 script

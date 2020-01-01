@@ -45,7 +45,6 @@ seccb
 {
 NULL
 NULL
-NULL
 ObjectPrincipalsFinder
 NULL
 }
@@ -710,7 +709,6 @@ CHECK
 (
 JS_GetScriptPrincipals
 (
-cx
 script
 )
 =
@@ -722,7 +720,6 @@ CHECK
 (
 JS_GetScriptOriginPrincipals
 (
-cx
 script
 )
 =
