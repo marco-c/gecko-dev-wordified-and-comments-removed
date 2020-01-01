@@ -551,7 +551,6 @@ d27
 d28
 d29
 d30
-d31
 invalid_freg
 }
 FPRegisterID
@@ -695,6 +694,13 @@ NonAllocatableMask
 <
 <
 d0
+)
+|
+(
+1
+<
+<
+invalid_freg
 )
 ;
 static
