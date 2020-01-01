@@ -1,12 +1,5 @@
 #
 include
-"
-jslibmath
-.
-h
-"
-#
-include
 <
 stdlib
 .
@@ -93,6 +86,13 @@ h
 include
 "
 jsnum
+.
+h
+"
+#
+include
+"
+jslibmath
 .
 h
 "
