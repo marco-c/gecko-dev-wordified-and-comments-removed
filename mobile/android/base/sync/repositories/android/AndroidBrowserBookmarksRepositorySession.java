@@ -2046,7 +2046,7 @@ childArray
 Override
 protected
 boolean
-checkRecordType
+shouldIgnore
 (
 Record
 record
@@ -2063,7 +2063,7 @@ BookmarkRecord
 )
 {
 return
-false
+true
 ;
 }
 if
@@ -2074,7 +2074,7 @@ deleted
 )
 {
 return
-true
+false
 ;
 }
 BookmarkRecord
@@ -2102,7 +2102,7 @@ isFolder
 )
 {
 return
-true
+false
 ;
 }
 Logger
@@ -2134,7 +2134,7 @@ type
 )
 ;
 return
-false
+true
 ;
 }
 Override
