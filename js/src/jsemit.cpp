@@ -9753,6 +9753,15 @@ globalObj
 &
 &
 !
+pn
+-
+>
+isDeoptimized
+(
+)
+&
+&
+!
 (
 cg
 -
