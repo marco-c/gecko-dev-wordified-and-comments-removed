@@ -137,7 +137,7 @@ LAYERS_OPENGL
 {
 return
 new
-CanvasClientSurfaceStream
+DeprecatedCanvasClientSurfaceStream
 (
 aForwarder
 aFlags
@@ -146,7 +146,7 @@ aFlags
 }
 return
 new
-CanvasClient2D
+DeprecatedCanvasClient2D
 (
 aForwarder
 aFlags
@@ -154,7 +154,7 @@ aFlags
 ;
 }
 void
-CanvasClient
+DeprecatedCanvasClient2D
 :
 :
 Updated
@@ -177,10 +177,10 @@ GetDescriptor
 )
 ;
 }
-CanvasClient2D
+DeprecatedCanvasClient2D
 :
 :
-CanvasClient2D
+DeprecatedCanvasClient2D
 (
 CompositableForwarder
 *
@@ -203,7 +203,7 @@ BUFFER_IMAGE_SINGLE
 ;
 }
 void
-CanvasClient2D
+DeprecatedCanvasClient2D
 :
 :
 Update
@@ -316,7 +316,7 @@ Unlock
 ;
 }
 void
-CanvasClientSurfaceStream
+DeprecatedCanvasClientSurfaceStream
 :
 :
 Updated
@@ -349,10 +349,10 @@ false
 ;
 }
 }
-CanvasClientSurfaceStream
+DeprecatedCanvasClientSurfaceStream
 :
 :
-CanvasClientSurfaceStream
+DeprecatedCanvasClientSurfaceStream
 (
 CompositableForwarder
 *
@@ -379,7 +379,7 @@ BUFFER_IMAGE_SINGLE
 ;
 }
 void
-CanvasClientSurfaceStream
+DeprecatedCanvasClientSurfaceStream
 :
 :
 Update
