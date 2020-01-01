@@ -4254,13 +4254,12 @@ isFunction
 )
 ;
 {
-orPtr
-(
-Imm32
+JS_ASSERT
 (
 CalleeToken_Function
-)
-calleeToken
+=
+=
+0
 )
 ;
 loadPtr
