@@ -22114,7 +22114,7 @@ table
 >
 mCaptionSide
 =
-NS_SIDE_TOP
+NS_STYLE_CAPTION_SIDE_TOP
 ;
 }
 if

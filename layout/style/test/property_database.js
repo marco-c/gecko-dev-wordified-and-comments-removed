@@ -6004,6 +6004,16 @@ left
 "
 bottom
 "
+"
+top
+-
+outside
+"
+"
+bottom
+-
+outside
+"
 ]
 invalid_values
 :

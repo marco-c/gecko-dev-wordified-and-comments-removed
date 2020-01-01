@@ -1203,6 +1203,13 @@ bottom
 )
 CSS_KEY
 (
+bottom
+-
+outside
+bottom_outside
+)
+CSS_KEY
+(
 bounding
 -
 box
@@ -2509,6 +2516,13 @@ CSS_KEY
 (
 top
 top
+)
+CSS_KEY
+(
+top
+-
+outside
+top_outside
 )
 CSS_KEY
 (
