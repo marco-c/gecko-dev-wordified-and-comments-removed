@@ -223,7 +223,7 @@ aSnap
 *
 aSnap
 =
-false
+true
 ;
 nsHTMLCanvasFrame
 *
