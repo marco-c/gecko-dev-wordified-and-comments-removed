@@ -725,6 +725,10 @@ mathfontSTIXSizeOneSym
 .
 properties
 \
+mathfontAsanaMath
+.
+properties
+\
 mathfontStandardSymbolsL
 .
 properties
