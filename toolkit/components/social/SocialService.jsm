@@ -60,14 +60,10 @@ jsm
 "
 )
 ;
-XPCOMUtils
+Cu
 .
-defineLazyModuleGetter
+import
 (
-this
-"
-SocialProvider
-"
 "
 resource
 :
