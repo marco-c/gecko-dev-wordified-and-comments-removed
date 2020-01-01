@@ -2805,6 +2805,14 @@ true
 ;
 scope
 .
+contextMenu
+=
+"
+debuggerWatchExpressionsContextMenu
+"
+;
+scope
+.
 switch
 =
 DebuggerView
