@@ -703,6 +703,10 @@ SVGFEMergeElement
 .
 webidl
 \
+SVGFEMergeNodeElement
+.
+webidl
+\
 SVGFitToViewBox
 .
 webidl
