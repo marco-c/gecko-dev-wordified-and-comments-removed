@@ -2075,7 +2075,16 @@ UpdateNativeThemeInfo
 {
 sTitlebarInfoPopulatedThemed
 =
-PR_FALSE
+(
+nsWindow
+:
+:
+GetWindowsVersion
+(
+)
+<
+VISTA_VERSION
+)
 ;
 sIsDefaultWindowsTheme
 =
