@@ -275,6 +275,9 @@ class
 WorkerGlobalScope
 :
 public
+workers
+:
+:
 EventTarget
 {
 static
