@@ -1384,7 +1384,7 @@ uint32_t
 ICStub
 :
 :
-Call_Scripted
+Call_Fallback
 )
 )
 )
