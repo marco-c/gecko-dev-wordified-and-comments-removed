@@ -12327,13 +12327,16 @@ e
 )
 {
 }
-openTopWin
+openUILinkIn
 (
 fp
 .
 fileURL
 .
 spec
+"
+current
+"
 )
 ;
 }

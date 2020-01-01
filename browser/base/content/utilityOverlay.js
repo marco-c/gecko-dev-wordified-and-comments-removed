@@ -760,12 +760,14 @@ openTopWin
 url
 )
 {
-openUILink
+openUILinkIn
 (
 url
-{
-}
+"
+current
+"
 )
+;
 }
 function
 getBoolPref
