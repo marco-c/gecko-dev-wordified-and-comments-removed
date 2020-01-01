@@ -2563,7 +2563,7 @@ mPartID
 ;
 }
 virtual
-nsresult
+void
 Sanitize
 (
 )
