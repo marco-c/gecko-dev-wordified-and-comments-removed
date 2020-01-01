@@ -172,6 +172,14 @@ exit
 .
 js
 \
+browser_dbg_clean
+-
+exit
+-
+window
+.
+js
+\
 browser_dbg_cmd
 -
 blackbox

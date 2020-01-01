@@ -2868,6 +2868,7 @@ function
 getTab
 (
 aTarget
+aWindow
 )
 {
 if
@@ -2892,6 +2893,7 @@ return
 addTab
 (
 aTarget
+aWindow
 )
 ;
 }
@@ -2918,6 +2920,7 @@ return
 getTab
 (
 aTarget
+aWindow
 )
 .
 then
@@ -3050,6 +3053,7 @@ resolve
 aTab
 debuggee
 debuggerPanel
+aWindow
 ]
 )
 ;
