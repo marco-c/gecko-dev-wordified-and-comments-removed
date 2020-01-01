@@ -5302,9 +5302,9 @@ voiceInfo
 .
 type
 =
-"
-gsm
-"
+newInfo
+.
+type
 ;
 if
 (
