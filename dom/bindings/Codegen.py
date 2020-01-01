@@ -22089,7 +22089,10 @@ z_
 )
     
 return
+MakeNativeName
+(
 value
+)
 class
 CGEnum
 (

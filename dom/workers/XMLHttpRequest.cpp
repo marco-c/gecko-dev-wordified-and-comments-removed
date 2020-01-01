@@ -5550,7 +5550,7 @@ mResponseType
 XMLHttpRequestResponseTypeValues
 :
 :
-text
+Text
 )
 mTimeout
 (
@@ -8235,7 +8235,7 @@ aResponseType
 XMLHttpRequestResponseTypeValues
 :
 :
-document
+Document
 )
 {
 return
