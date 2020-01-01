@@ -4532,7 +4532,7 @@ mozsmsevent
 )
 )
 return
-NS_NewDOMSmsEvent
+NS_NewDOMMozSmsEvent
 (
 aDOMEvent
 aPresContext

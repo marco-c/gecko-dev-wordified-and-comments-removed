@@ -186,6 +186,9 @@ MozVoicemailEvent
 #
 endif
 '
+MozSmsEvent
+'
+'
 DeviceStorageChangeEvent
 '
 '

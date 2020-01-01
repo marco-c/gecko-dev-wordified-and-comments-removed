@@ -101,11 +101,11 @@ nsIDOMSmsManager
 .
 idl
 \
-nsIDOMSmsMessage
+nsIDOMMozSmsMessage
 .
 idl
 \
-nsIDOMSmsEvent
+nsIDOMMozSmsEvent
 .
 idl
 \

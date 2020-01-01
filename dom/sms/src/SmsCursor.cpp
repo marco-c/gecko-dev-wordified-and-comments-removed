@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIDOMSmsMessage
+nsIDOMMozSmsMessage
 .
 h
 "
