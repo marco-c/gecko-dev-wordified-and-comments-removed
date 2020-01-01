@@ -8362,10 +8362,13 @@ true
 {
 column
 .
-removeAttribute
+setAttribute
 (
 "
 hidden
+"
+"
+false
 "
 )
 ;
