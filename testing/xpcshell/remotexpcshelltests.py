@@ -2293,16 +2293,6 @@ main
 )
 :
     
-dm_none
-=
-devicemanagerADB
-.
-DeviceManagerADB
-(
-None
-None
-)
-    
 parser
 =
 RemoteXPCShellOptions
@@ -2428,7 +2418,11 @@ else
         
 dm
 =
-dm_none
+devicemanagerADB
+.
+DeviceManagerADB
+(
+)
     
 else
 :

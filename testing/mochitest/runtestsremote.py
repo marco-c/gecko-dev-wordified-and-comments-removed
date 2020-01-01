@@ -3138,19 +3138,11 @@ __file__
 )
 )
     
-dm_none
-=
-devicemanagerADB
-.
-DeviceManagerADB
-(
-)
-    
 auto
 =
 RemoteAutomation
 (
-dm_none
+None
 "
 fennec
 "
@@ -3213,7 +3205,11 @@ else
             
 dm
 =
-dm_none
+devicemanagerADB
+.
+DeviceManagerADB
+(
+)
     
 else
 :
