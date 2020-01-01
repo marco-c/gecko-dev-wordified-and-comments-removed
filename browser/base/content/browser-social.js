@@ -6162,6 +6162,12 @@ icon
 "
 )
 ;
+setTimeout
+(
+function
+(
+)
+{
 panel
 .
 openPopup
@@ -6175,6 +6181,10 @@ topright
 0
 false
 false
+)
+;
+}
+0
 )
 ;
 }
