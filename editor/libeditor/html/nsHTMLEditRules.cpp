@@ -1317,6 +1317,8 @@ if
 (
 !
 mActionNesting
++
++
 )
 {
 mDidRangedDelete
@@ -1583,10 +1585,6 @@ mTheAction
 action
 ;
 }
-mActionNesting
-+
-+
-;
 return
 NS_OK
 ;
