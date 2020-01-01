@@ -36,6 +36,10 @@ mConnection
 (
 aConnection
 )
+mHasTransaction
+(
+PR_FALSE
+)
 mCommitOnComplete
 (
 aCommitOnComplete
@@ -43,6 +47,11 @@ aCommitOnComplete
 mCompleted
 (
 PR_FALSE
+)
+{
+if
+(
+mConnection
 )
 {
 PRBool
@@ -77,6 +86,7 @@ aType
 )
 ;
 }
+}
 ~
 mozStorageTransaction
 (
@@ -84,6 +94,9 @@ mozStorageTransaction
 {
 if
 (
+mConnection
+&
+&
 mHasTransaction
 &
 &
@@ -119,6 +132,10 @@ Commit
 {
 if
 (
+!
+mConnection
+|
+|
 mCompleted
 )
 return
@@ -152,6 +169,10 @@ Rollback
 {
 if
 (
+!
+mConnection
+|
+|
 mCompleted
 )
 return
