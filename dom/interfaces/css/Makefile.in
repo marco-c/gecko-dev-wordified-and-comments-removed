@@ -502,10 +502,6 @@ nsIDOMCounter
 .
 idl
 \
-nsIDOMDocumentCSS
-.
-idl
-\
 nsIDOMRGBColor
 .
 idl

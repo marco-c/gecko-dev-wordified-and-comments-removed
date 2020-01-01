@@ -424,10 +424,6 @@ GRE_MODULE
 SDK_XPIDLSRCS
 =
 \
-nsIDOMDocumentStyle
-.
-idl
-\
 nsIDOMMediaList
 .
 idl
@@ -447,10 +443,6 @@ XPIDLSRCS
 =
 \
 nsIDOMLinkStyle
-.
-idl
-\
-nsIDOMNSDocumentStyle
 .
 idl
 \
