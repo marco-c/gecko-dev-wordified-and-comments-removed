@@ -461,6 +461,13 @@ application
 ini
 BINPATH
 /
+update
+-
+settings
+.
+ini
+BINPATH
+/
 platform
 .
 ini
