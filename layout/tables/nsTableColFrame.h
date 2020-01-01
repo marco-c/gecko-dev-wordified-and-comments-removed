@@ -733,8 +733,6 @@ mFinalWidth
 ;
 uint32_t
 mColIndex
-:
-16
 ;
 BCPixelSize
 mLeftBorderWidth
