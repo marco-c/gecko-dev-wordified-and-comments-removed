@@ -9121,7 +9121,7 @@ UINT32_MAX
 aobj
 -
 >
-setArrayCount
+setDenseArrayCount
 (
 len
 )

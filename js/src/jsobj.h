@@ -1262,20 +1262,11 @@ JSSLOT_PRIVATE
 static
 const
 uint32
-JSSLOT_ARRAY_COUNT
+JSSLOT_DENSE_ARRAY_COUNT
 =
 JSSLOT_PRIVATE
 +
 1
-;
-static
-const
-uint32
-JSSLOT_ARRAY_UNUSED
-=
-JSSLOT_PRIVATE
-+
-2
 ;
 inline
 void
@@ -1302,7 +1293,7 @@ length
 ;
 inline
 uint32
-getArrayCount
+getDenseArrayCount
 (
 )
 const
@@ -1315,7 +1306,7 @@ voidDenseArrayCount
 ;
 inline
 void
-setArrayCount
+setDenseArrayCount
 (
 uint32
 count
@@ -1323,7 +1314,7 @@ count
 ;
 inline
 void
-incArrayCountBy
+incDenseArrayCountBy
 (
 uint32
 posDelta
@@ -1331,7 +1322,7 @@ posDelta
 ;
 inline
 void
-decArrayCountBy
+decDenseArrayCountBy
 (
 uint32
 negDelta
