@@ -591,14 +591,12 @@ hasOwnProperty
 name
 )
 )
-{
 return
 narcissusGlobal
 [
 name
 ]
 ;
-}
 var
 globalFun
 =
@@ -5050,8 +5048,6 @@ v
 break
 ;
 }
-else
-{
 for
 (
 s
@@ -5099,7 +5095,6 @@ value
 n
 )
 ;
-}
 break
 ;
 case
