@@ -131,6 +131,8 @@ EndGIF
 void
 BeginImageFrame
 (
+gfx_depth
+aDepth
 )
 ;
 void
@@ -217,7 +219,7 @@ mCurrentRow
 PRInt32
 mLastFlushedRow
 ;
-PRUint32
+PRUint8
 *
 mImageData
 ;

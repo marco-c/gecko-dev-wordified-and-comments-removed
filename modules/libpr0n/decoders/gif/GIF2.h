@@ -159,7 +159,7 @@ rows_remaining
 PRUintn
 irow
 ;
-PRUint32
+PRUint8
 *
 rowp
 ;
@@ -197,7 +197,7 @@ PRUintn
 screen_height
 ;
 PRUint32
-global_colormap_size
+global_colormap_depth
 ;
 int
 images_decoded
