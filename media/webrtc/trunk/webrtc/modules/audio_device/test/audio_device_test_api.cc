@@ -1019,6 +1019,12 @@ defined
 (
 WEBRTC_LINUX
 )
+|
+|
+defined
+(
+WEBRTC_BSD
+)
 EXPECT_TRUE
 (
 (
@@ -10772,6 +10778,13 @@ _WIN32
 defined
 (
 WEBRTC_LINUX
+)
+&
+&
+!
+defined
+(
+WEBRTC_BSD
 )
 TEST_F
 (
