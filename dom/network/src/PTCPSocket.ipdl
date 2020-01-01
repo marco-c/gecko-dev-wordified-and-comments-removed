@@ -266,10 +266,6 @@ SendableData
 data
 )
 ;
-StartTLS
-(
-)
-;
 Suspend
 (
 )
