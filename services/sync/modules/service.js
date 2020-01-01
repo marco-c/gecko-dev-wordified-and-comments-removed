@@ -2662,6 +2662,8 @@ user
 username
 )
 ;
+try
+{
 let
 res
 =
@@ -2694,6 +2696,13 @@ self
 cb
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 if
 (
 res
