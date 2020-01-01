@@ -719,14 +719,6 @@ nsILayoutHistoryState
 aFrameState
 )
 ;
-nsresult
-RemoveMappingsForFrameSubtree
-(
-nsIFrame
-*
-aRemovedFrame
-)
-;
 nsIFrame
 *
 GetRootElementFrame

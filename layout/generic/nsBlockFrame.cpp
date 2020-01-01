@@ -24335,6 +24335,14 @@ nextFrame
 )
 ;
 }
+aDeletedFrame
+-
+>
+SetNextSibling
+(
+nsnull
+)
+;
 }
 else
 {

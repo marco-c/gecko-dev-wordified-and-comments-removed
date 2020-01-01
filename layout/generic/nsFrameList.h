@@ -271,7 +271,8 @@ nsIFrame
 aAfterFrame
 )
 ;
-PRBool
+nsIFrame
+*
 RemoveFirstChild
 (
 )

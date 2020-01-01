@@ -130,6 +130,16 @@ nsLayoutUtils
 public
 :
 static
+nsIAtom
+*
+GetChildListNameFor
+(
+nsIFrame
+*
+aChildFrame
+)
+;
+static
 nsIFrame
 *
 GetBeforeFrame

@@ -67,6 +67,11 @@ nsPopupFrameList
 aNext
 )
 ;
+~
+nsPopupFrameList
+(
+)
+;
 }
 ;
 class
