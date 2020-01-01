@@ -5979,6 +5979,14 @@ ins
 isGuard
 (
 )
+&
+&
+ins
+-
+>
+isLive
+(
+)
 )
 {
 stk
