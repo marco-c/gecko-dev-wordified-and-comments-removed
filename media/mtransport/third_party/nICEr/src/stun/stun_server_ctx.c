@@ -867,6 +867,8 @@ res
 nr_stun_server_client
 *
 clnt
+=
+0
 ;
 nr_stun_server_request
 info
