@@ -21,7 +21,7 @@ nsRect
 h
 "
 float
-HighestPointOnAnyScreen
+CocoaScreenCoordsHeight
 (
 )
 ;
