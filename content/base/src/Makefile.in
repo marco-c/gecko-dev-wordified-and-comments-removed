@@ -229,6 +229,10 @@ Text
 .
 h
 \
+TreeWalker
+.
+h
+\
 (
 NULL
 )
@@ -519,7 +523,7 @@ nsTreeSanitizer
 .
 cpp
 \
-nsTreeWalker
+TreeWalker
 .
 cpp
 \
