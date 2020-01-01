@@ -504,7 +504,6 @@ TOOL_DIRS
 +
 =
 os2wrapper
-endif
 ifdef
 ENABLE_TESTS
 TOOL_DIRS
@@ -520,6 +519,7 @@ tools
 tester
 /
 os2
+endif
 endif
 endif
 ifeq
