@@ -394,6 +394,13 @@ aID
 )
 ;
 nsresult
+PauseAllDownloads
+(
+PRBool
+aSetResume
+)
+;
+nsresult
 RemoveAllDownloads
 (
 )
