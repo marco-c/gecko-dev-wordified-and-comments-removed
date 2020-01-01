@@ -435,8 +435,6 @@ public
 void
 show
 (
-View
-v
 int
 leftMargin
 )
@@ -941,7 +939,11 @@ newLayoutParams
 ;
 showAsDropDown
 (
-v
+GeckoApp
+.
+mBrowserToolbar
+.
+mSiteSecurity
 )
 ;
 }

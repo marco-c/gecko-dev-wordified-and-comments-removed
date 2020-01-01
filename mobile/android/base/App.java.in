@@ -102,7 +102,7 @@ mozilla
 .
 gecko
 .
-BrowserApp
+GeckoApp
 ;
 import
 org
@@ -142,7 +142,7 @@ public
 class
 App
 extends
-BrowserApp
+GeckoApp
 {
 public
 String

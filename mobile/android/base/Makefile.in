@@ -189,10 +189,6 @@ AwesomeBarTabs
 .
 java
 \
-BrowserApp
-.
-java
-\
 BrowserToolbar
 .
 java
