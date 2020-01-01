@@ -135,6 +135,9 @@ nsWebShellWindow
 mHiddenWindow
 ;
 PRPackedBool
+mXPCOMWillShutDown
+;
+PRPackedBool
 mXPCOMShuttingDown
 ;
 PRUint16

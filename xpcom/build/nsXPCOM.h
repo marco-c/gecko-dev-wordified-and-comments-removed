@@ -683,6 +683,16 @@ startup
 "
 #
 define
+NS_XPCOM_WILL_SHUTDOWN_OBSERVER_ID
+"
+xpcom
+-
+will
+-
+shutdown
+"
+#
+define
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
 "
 xpcom
