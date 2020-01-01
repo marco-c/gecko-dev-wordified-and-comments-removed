@@ -222,6 +222,8 @@ line
 '
 )
         
+status
+=
 self
 .
 _run_make
@@ -236,14 +238,18 @@ client
 .
 mk
 '
+            
 line_handler
 =
 on_line
-            
 log
 =
 False
 print_directory
+=
+False
+            
+ensure_exit_code
 =
 False
 )
@@ -289,6 +295,9 @@ save_to_file
 (
 warnings_path
 )
+        
+return
+status
 CommandProvider
 class
 Warnings

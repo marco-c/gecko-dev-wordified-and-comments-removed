@@ -941,6 +941,9 @@ ignore_errors
 =
 False
             
+ensure_exit_code
+=
+0
 silent
 =
 True
@@ -1239,10 +1242,10 @@ require_unix_environment
 True
             
 '
-ignore_errors
+ensure_exit_code
 '
 :
-ignore_errors
+ensure_exit_code
             
 '
 ignore_children
@@ -1267,6 +1270,7 @@ log_name
 make
 '
         
+return
 fn
 (
 *
@@ -1403,6 +1407,7 @@ args
 )
 :
         
+return
 self
 .
 run_process
@@ -1427,6 +1432,7 @@ args
 )
 :
         
+return
 self
 .
 run_process
