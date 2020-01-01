@@ -11360,7 +11360,8 @@ JSContext
 cx
 Fragment
 *
-f
+*
+treep
 uintN
 &
 inlineCallCount
@@ -11603,6 +11604,7 @@ lr
 js_ExecuteTree
 (
 cx
+&
 f
 inlineCallCount
 )
@@ -11846,12 +11848,20 @@ JSContext
 cx
 Fragment
 *
-f
+*
+treep
 uintN
 &
 inlineCallCount
 )
 {
+Fragment
+*
+f
+=
+*
+treep
+;
 AUDIT
 (
 traceTriggered
@@ -13296,6 +13306,7 @@ lr
 js_ExecuteTree
 (
 cx
+&
 f
 inlineCallCount
 )
