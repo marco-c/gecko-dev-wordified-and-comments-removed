@@ -148,7 +148,7 @@ false
 {
 AddStateBits
 (
-NS_STATE_SVG_NONDISPLAY_CHILD
+NS_FRAME_IS_NONDISPLAY
 )
 ;
 }
