@@ -31,13 +31,6 @@ h
 #
 include
 "
-pratom
-.
-h
-"
-#
-include
-"
 nsUniversalCharDetDll
 .
 h
