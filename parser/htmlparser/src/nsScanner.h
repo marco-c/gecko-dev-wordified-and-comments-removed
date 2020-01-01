@@ -104,12 +104,6 @@ const
 nsAString
 &
 anHTMLString
-const
-nsACString
-&
-aCharset
-int32_t
-aSource
 )
 ;
 nsScanner
@@ -119,12 +113,6 @@ nsString
 aFilename
 bool
 aCreateStream
-const
-nsACString
-&
-aCharset
-int32_t
-aSource
 )
 ;
 ~
