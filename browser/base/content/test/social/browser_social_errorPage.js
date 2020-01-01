@@ -99,9 +99,11 @@ cache
 .
 evictEntries
 (
-Services
+Components
 .
-cache
+interfaces
+.
+nsICache
 .
 STORE_ANYWHERE
 )

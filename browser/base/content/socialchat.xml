@@ -1469,6 +1469,12 @@ cachedWidthNub
 =
 0
 ;
+this
+.
+_selectedChat
+=
+null
+;
 <
 /
 constructor
