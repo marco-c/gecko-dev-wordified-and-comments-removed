@@ -5189,6 +5189,10 @@ executeStep
 )
 )
 {
+updateClearListButton
+(
+)
+;
 setTimeout
 (
 function

@@ -499,6 +499,10 @@ browser_multi_select
 .
 js
 \
+browser_search_clearlist
+.
+js
+\
 browser_select_all
 .
 js
