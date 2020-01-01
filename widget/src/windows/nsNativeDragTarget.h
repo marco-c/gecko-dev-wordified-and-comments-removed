@@ -148,8 +148,10 @@ DWORD
 pEffect
 )
 ;
-PRBool
-mDragCancelled
+void
+DragCancel
+(
+)
 ;
 protected
 :
