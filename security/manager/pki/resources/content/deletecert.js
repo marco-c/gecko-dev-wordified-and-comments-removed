@@ -316,7 +316,7 @@ bundle
 GetStringFromName
 (
 "
-deleteCaCertImpact
+deleteCaCertImpactX
 "
 )
 ;

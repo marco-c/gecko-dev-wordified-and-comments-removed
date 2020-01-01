@@ -452,15 +452,10 @@ error
 ENTITY
 newserver
 .
-reason1
+reason1x
 "
 -
-Your
-browser
-does
-not
-recognize
-the
+The
 Certificate
 Authority
 that
@@ -470,6 +465,9 @@ site
 '
 s
 certificate
+is
+not
+recognized
 .
 "
 >

@@ -734,7 +734,7 @@ nssComponent
 GetPIPNSSBundleString
 (
 "
-CrlImportFailure1
+CrlImportFailure1x
 "
 message
 )

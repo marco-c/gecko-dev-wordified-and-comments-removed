@@ -9024,7 +9024,7 @@ rv
 GetPIPNSSBundleString
 (
 "
-NSSInitProblem
+NSSInitProblemX
 "
 message
 )
@@ -11936,7 +11936,7 @@ nssComponent
 GetPIPNSSBundleString
 (
 "
-CrlImportFailure1
+CrlImportFailure1x
 "
 message
 )
