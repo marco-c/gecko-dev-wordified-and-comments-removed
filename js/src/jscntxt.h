@@ -271,6 +271,7 @@ C
 +
 +
 "
+{
 template
 <
 typename
@@ -279,6 +280,7 @@ T
 class
 Queue
 ;
+}
 typedef
 Queue
 <
