@@ -6035,9 +6035,13 @@ GetAbsoluteContainingBlock
 )
 const
 ;
-virtual
 void
 MarkAsAbsoluteContainingBlock
+(
+)
+;
+void
+MarkAsNotAbsoluteContainingBlock
 (
 )
 ;
