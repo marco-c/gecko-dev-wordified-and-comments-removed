@@ -1212,9 +1212,8 @@ nsCOMPtr
 nsIURI
 >
 newURI
-(
+=
 aURI
-)
 ;
 History
 :
