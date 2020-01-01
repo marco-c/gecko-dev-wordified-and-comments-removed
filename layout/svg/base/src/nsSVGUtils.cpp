@@ -2963,6 +2963,9 @@ y
 ;
 if
 (
+currentDoc
+&
+&
 element
 -
 >
@@ -2994,9 +2997,6 @@ GetPrimaryShell
 ;
 if
 (
-element
-&
-&
 presShell
 )
 {
