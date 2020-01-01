@@ -429,7 +429,14 @@ MODULE
 test_dm
 XPCSHELL_TESTS
 =
+\
 unit
+\
+schema_migration
+\
+(
+NULL
+)
 include
 (
 topsrcdir
