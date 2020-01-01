@@ -506,11 +506,11 @@ string
 name
 =
 "
-saveaspdf
+save_as_pdf
 "
 >
 &
-saveaspdf
+save_as_pdf
 ;
 <
 /
