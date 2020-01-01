@@ -1,13 +1,6 @@
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsWifiMonitor
 .
 h
@@ -69,6 +62,10 @@ DLADM_STRSIZE
 define
 DLADM_SECTIONS
 3
+using
+namespace
+mozilla
+;
 struct
 val_strength_t
 {
@@ -766,7 +763,7 @@ nsIWifiListener
 currentListeners
 ;
 {
-nsAutoMonitor
+MonitorAutoEnter
 mon
 (
 mMonitor
@@ -1086,7 +1083,7 @@ n
 )
 )
 ;
-nsAutoMonitor
+MonitorAutoEnter
 mon
 (
 mMonitor
