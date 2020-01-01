@@ -438,8 +438,7 @@ nsis
 define
 BrandShortName
 "
-Gran
-Paradiso
+Shiretoko
 "
 #
 BrandFullNameInternal
@@ -467,8 +466,7 @@ modified
 define
 BrandFullNameInternal
 "
-Gran
-Paradiso
+Shiretoko
 "
 !
 define
@@ -560,8 +558,7 @@ releases
 define
 BrandFullName
 "
-Gran
-Paradiso
+Shiretoko
 "
 #
 Add

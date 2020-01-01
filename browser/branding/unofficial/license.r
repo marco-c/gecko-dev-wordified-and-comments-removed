@@ -181,8 +181,7 @@ install
 n
 "
 "
-Gran
-Paradiso
+Shiretoko
 .
 \
 n
@@ -326,8 +325,7 @@ English
 )
 {
 "
-GRAN
-PARADISO
+SHIRETOKO
 END
 -
 USER

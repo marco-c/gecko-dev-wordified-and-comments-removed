@@ -3,8 +3,7 @@
 ENTITY
 brandShortName
 "
-Gran
-Paradiso
+Shiretoko
 "
 >
 <
@@ -12,8 +11,7 @@ Paradiso
 ENTITY
 brandFullName
 "
-Gran
-Paradiso
+Shiretoko
 "
 >
 <
@@ -73,7 +71,7 @@ org
 /
 projects
 /
-granparadiso
+shiretoko
 /
 releases
 /
