@@ -1468,6 +1468,10 @@ mId
 (
 LL_MININT
 )
+mKeyPath
+(
+0
+)
 mActorChild
 (
 nsnull
@@ -1475,10 +1479,6 @@ nsnull
 mActorParent
 (
 nsnull
-)
-mKeyPath
-(
-0
 )
 mCachedKeyPath
 (
