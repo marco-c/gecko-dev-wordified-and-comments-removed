@@ -10995,6 +10995,16 @@ cx
 typeInferenceEnabled
 (
 )
+&
+&
+obj
+-
+>
+getDenseArrayInitializedLength
+(
+)
+>
+index
 )
 obj
 -
