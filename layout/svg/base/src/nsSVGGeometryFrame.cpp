@@ -457,6 +457,10 @@ mContent
 >
 GetPathLengthScale
 (
+nsSVGPathElement
+:
+:
+eForStroking
 )
 ;
 if

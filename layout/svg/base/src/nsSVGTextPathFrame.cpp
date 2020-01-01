@@ -676,6 +676,10 @@ GetContent
 >
 GetPathLengthScale
 (
+nsSVGPathElement
+:
+:
+eForTextPath
 )
 ;
 }
