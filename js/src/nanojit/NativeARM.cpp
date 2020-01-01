@@ -1322,6 +1322,15 @@ AvmCore
 )
 {
 }
+void
+Assembler
+:
+:
+nBeginAssembly
+(
+)
+{
+}
 NIns
 *
 Assembler
