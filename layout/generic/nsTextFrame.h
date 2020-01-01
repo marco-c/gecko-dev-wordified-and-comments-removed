@@ -586,6 +586,13 @@ PRBool
 _retval
 )
 ;
+enum
+{
+ALLOW_FRAME_CREATION_AND_DESTRUCTION
+=
+0x01
+}
+;
 void
 SetLength
 (
@@ -594,6 +601,10 @@ aLength
 nsLineLayout
 *
 aLineLayout
+PRUint32
+aSetLengthFlags
+=
+0
 )
 ;
 NS_IMETHOD

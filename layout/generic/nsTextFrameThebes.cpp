@@ -30983,6 +30983,8 @@ aLength
 nsLineLayout
 *
 aLineLayout
+PRUint32
+aSetLengthFlags
 )
 {
 mContentLengthHint
@@ -31100,6 +31102,13 @@ nsGkAtoms
 :
 :
 letterFrame
+&
+&
+(
+aSetLengthFlags
+&
+ALLOW_FRAME_CREATION_AND_DESTRUCTION
+)
 )
 {
 nsPresContext
@@ -31315,6 +31324,13 @@ GetNextSibling
 =
 =
 next
+&
+&
+(
+aSetLengthFlags
+&
+ALLOW_FRAME_CREATION_AND_DESTRUCTION
+)
 )
 {
 nsSplittableFrame
@@ -32095,6 +32111,7 @@ SetLength
 maxContentLength
 &
 aLineLayout
+ALLOW_FRAME_CREATION_AND_DESTRUCTION
 )
 ;
 if
@@ -32228,6 +32245,7 @@ GetContentOffset
 )
 &
 aLineLayout
+ALLOW_FRAME_CREATION_AND_DESTRUCTION
 )
 ;
 ClearTextRun
@@ -33849,6 +33867,7 @@ SetLength
 contentLength
 &
 aLineLayout
+ALLOW_FRAME_CREATION_AND_DESTRUCTION
 )
 ;
 if
@@ -36037,6 +36056,7 @@ aEnd
 -
 aStart
 nsnull
+0
 )
 ;
 }
