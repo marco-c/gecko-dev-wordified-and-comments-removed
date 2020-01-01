@@ -115,16 +115,6 @@ PRBool
 canFalseStart
 )
 ;
-SECStatus
-RegisterMyOCSPAIAInfoCallback
-(
-)
-;
-SECStatus
-UnregisterMyOCSPAIAInfoCallback
-(
-)
-;
 class
 nsHTTPListener
 MOZ_FINAL
