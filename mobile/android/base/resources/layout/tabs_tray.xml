@@ -123,9 +123,11 @@ android
 background
 =
 "
-drawable
+android
+:
+color
 /
-tabs_tray_bg_repeat
+transparent
 "
 android
 :

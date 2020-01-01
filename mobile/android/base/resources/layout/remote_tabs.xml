@@ -120,6 +120,17 @@ TabsList
 "
 android
 :
+background
+=
+"
+android
+:
+color
+/
+transparent
+"
+android
+:
 childDivider
 =
 "
