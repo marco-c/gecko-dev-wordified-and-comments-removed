@@ -467,6 +467,10 @@ nsIMacWebAppUtils
 .
 idl
 \
+nsITaskbarProgress
+.
+idl
+\
 (
 NULL
 )
