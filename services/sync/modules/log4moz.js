@@ -1211,6 +1211,8 @@ i
 pieces
 .
 length
+-
+1
 ;
 i
 +
@@ -1256,10 +1258,8 @@ cur
 }
 if
 (
+!
 parent
-=
-=
-name
 )
 this
 .
@@ -1309,11 +1309,11 @@ logger
 name
 &
 &
-name
+logger
 .
 indexOf
 (
-logger
+name
 )
 =
 =
