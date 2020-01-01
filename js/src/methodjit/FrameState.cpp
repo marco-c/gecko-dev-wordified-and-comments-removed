@@ -17238,6 +17238,8 @@ FrameState
 :
 getTemporaryCopies
 (
+Uses
+uses
 )
 {
 Vector
@@ -17328,6 +17330,9 @@ if
 deadEntry
 (
 nfe
+uses
+.
+nuses
 )
 &
 &

@@ -203,9 +203,6 @@ fp
 jsbytecode
 *
 pc
-CallSite
-*
-inline_
 RejoinState
 rejoin
 )

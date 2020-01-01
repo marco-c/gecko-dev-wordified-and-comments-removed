@@ -395,6 +395,8 @@ void
 ptr
 RejoinState
 rejoin
+Uses
+uses
 )
 ;
 Call
@@ -405,6 +407,8 @@ void
 ptr
 RejoinState
 rejoin
+Uses
+uses
 int32
 slots
 )

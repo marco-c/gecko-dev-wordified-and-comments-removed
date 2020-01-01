@@ -2537,6 +2537,8 @@ TemporaryCopy
 *
 getTemporaryCopies
 (
+Uses
+uses
 )
 ;
 inline

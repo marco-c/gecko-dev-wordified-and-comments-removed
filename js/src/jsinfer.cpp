@@ -18635,9 +18635,6 @@ break
 case
 JSOP_SETELEM
 :
-case
-JSOP_SETHOLE
-:
 poppedTypes
 (
 pc
@@ -30276,6 +30273,13 @@ script
 ;
 #
 endif
+script
+-
+>
+resetUseCount
+(
+)
+;
 }
 void
 TypeScript

@@ -1216,13 +1216,6 @@ CloneFunctionObject
 (
 cx
 fun
-funobj
--
->
-getParent
-(
-)
-true
 )
 ;
 if

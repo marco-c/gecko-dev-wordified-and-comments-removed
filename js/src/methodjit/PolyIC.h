@@ -189,6 +189,11 @@ slowCallPatched
 :
 1
 ;
+bool
+canCallHook
+:
+1
+;
 uint32
 stubsGenerated
 :
