@@ -28655,9 +28655,6 @@ JS_FALSE
 JSBool
 useCapture
 ;
-if
-(
-!
 JS_ValueToBoolean
 (
 cx
@@ -28668,12 +28665,7 @@ argv
 &
 useCapture
 )
-)
-{
-return
-JS_FALSE
 ;
-}
 if
 (
 argc
@@ -28685,9 +28677,6 @@ argc
 JSBool
 wantsUntrusted
 ;
-if
-(
-!
 JS_ValueToBoolean
 (
 cx
@@ -28698,12 +28687,7 @@ argv
 &
 wantsUntrusted
 )
-)
-{
-return
-JS_FALSE
 ;
-}
 nsCOMPtr
 <
 nsIDOMNSEventTarget

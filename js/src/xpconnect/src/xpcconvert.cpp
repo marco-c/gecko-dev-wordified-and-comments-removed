@@ -2692,9 +2692,6 @@ nsXPTType
 :
 T_BOOL
 :
-if
-(
-!
 JS_ValueToBoolean
 (
 cx
@@ -2705,9 +2702,6 @@ JSBool
 )
 d
 )
-)
-return
-JS_FALSE
 ;
 break
 ;

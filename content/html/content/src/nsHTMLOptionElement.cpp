@@ -1677,9 +1677,6 @@ argc
 JSBool
 defaultSelected
 ;
-if
-(
-!
 JS_ValueToBoolean
 (
 aContext
@@ -1690,12 +1687,7 @@ argv
 &
 defaultSelected
 )
-)
-{
-return
-NS_ERROR_FAILURE
 ;
-}
 if
 (
 defaultSelected
@@ -1733,9 +1725,6 @@ argc
 JSBool
 selected
 ;
-if
-(
-!
 JS_ValueToBoolean
 (
 aContext
@@ -1746,12 +1735,7 @@ argv
 &
 selected
 )
-)
-{
-return
-NS_ERROR_FAILURE
 ;
-}
 return
 SetSelected
 (
