@@ -1,11 +1,4 @@
 #
-include
-"
-jsstddef
-.
-h
-"
-#
 ifdef
 SOLARIS
 #

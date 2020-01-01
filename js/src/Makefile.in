@@ -1051,10 +1051,6 @@ jsstaticcheck
 .
 h
 \
-jsstddef
-.
-h
-\
 jsstdint
 .
 h

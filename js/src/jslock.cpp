@@ -3,13 +3,6 @@ ifdef
 JS_THREADSAFE
 #
 include
-"
-jsstddef
-.
-h
-"
-#
-include
 <
 stdlib
 .

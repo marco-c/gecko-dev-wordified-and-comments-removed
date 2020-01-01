@@ -7,13 +7,6 @@ jsxml_h___
 #
 include
 "
-jsstddef
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h

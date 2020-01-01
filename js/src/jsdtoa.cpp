@@ -1,13 +1,6 @@
 #
 include
 "
-jsstddef
-.
-h
-"
-#
-include
-"
 jslibmath
 .
 h
