@@ -2077,6 +2077,14 @@ sX
 sY
 )
 ;
+Browser
+.
+canvasBrowser
+.
+prepareForPanning
+(
+)
+;
 this
 .
 _kineticData
