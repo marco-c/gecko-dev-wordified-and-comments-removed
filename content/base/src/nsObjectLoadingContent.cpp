@@ -3904,6 +3904,14 @@ doc
 IsStaticDocument
 (
 )
+|
+|
+doc
+-
+>
+IsBeingUsedAsImage
+(
+)
 )
 {
 return
