@@ -10508,6 +10508,15 @@ cg
 if
 (
 !
+cg
+-
+>
+mightAliasLocals
+(
+)
+&
+&
+!
 TryConvertToGname
 (
 cg
