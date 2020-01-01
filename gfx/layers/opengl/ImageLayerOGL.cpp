@@ -1,10 +1,15 @@
 #
+ifdef
+MOZ_IPC
+#
 include
 "
 gfxSharedImageSurface
 .
 h
 "
+#
+endif
 #
 include
 "

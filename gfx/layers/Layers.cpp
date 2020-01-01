@@ -2448,6 +2448,9 @@ ShadowLayer
 aShadowLayer
 )
 {
+return
+aTo
+;
 }
 #
 endif
