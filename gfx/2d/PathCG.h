@@ -179,6 +179,10 @@ friend
 class
 PathCG
 ;
+friend
+class
+ScaledFontMac
+;
 void
 EnsureActive
 (
