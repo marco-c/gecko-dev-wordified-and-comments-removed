@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsIRollupListener
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -96,8 +89,6 @@ nsIAutoCompleteController
 public
 nsIAutoCompleteObserver
 public
-nsIRollupListener
-public
 nsITimerCallback
 public
 nsITreeView
@@ -107,7 +98,6 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIAUTOCOMPLETECONTROLLER
 NS_DECL_NSIAUTOCOMPLETEOBSERVER
-NS_DECL_NSIROLLUPLISTENER
 NS_DECL_NSITREEVIEW
 NS_DECL_NSITIMERCALLBACK
 nsAutoCompleteController
