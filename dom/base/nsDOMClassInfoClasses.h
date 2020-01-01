@@ -352,10 +352,6 @@ SVGFEMorphologyElement
 )
 DOMCI_CLASS
 (
-SVGFESpecularLightingElement
-)
-DOMCI_CLASS
-(
 SVGFETurbulenceElement
 )
 DOMCI_CLASS
