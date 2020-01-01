@@ -984,9 +984,12 @@ aOutEvent
 const
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMTouch
+dom
+:
+:
+Touch
 >
 >
 &
