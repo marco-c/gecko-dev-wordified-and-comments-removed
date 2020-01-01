@@ -250,6 +250,8 @@ layout_marginLeft
 /
 >
 <
+Gecko
+.
 TextView
 android
 :
@@ -311,8 +313,9 @@ android
 textColor
 =
 "
-#
-000000
+color
+/
+abouthome_section_title
 "
 android
 :

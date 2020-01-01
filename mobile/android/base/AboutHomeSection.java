@@ -67,7 +67,7 @@ public
 class
 AboutHomeSection
 extends
-LinearLayout
+GeckoLinearLayout
 {
 private
 static
