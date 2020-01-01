@@ -2705,6 +2705,13 @@ mImageBuffer
 that
 -
 >
+mImageBuffer
+=
+nsnull
+;
+that
+-
+>
 mImageBufferSize
 =
 0
