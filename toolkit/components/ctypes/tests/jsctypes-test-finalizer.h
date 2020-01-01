@@ -75,6 +75,16 @@ i
 ;
 EXPORT_CDECL
 (
+RECT
+)
+test_finalizer_rel_size_t_return_struct_t
+(
+size_t
+i
+)
+;
+EXPORT_CDECL
+(
 bool
 )
 test_finalizer_cmp_size_t
