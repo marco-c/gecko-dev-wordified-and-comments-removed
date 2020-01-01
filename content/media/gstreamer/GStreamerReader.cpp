@@ -1194,6 +1194,7 @@ NULL
 ;
 for
 (
+unsigned
 int
 i
 =
@@ -2765,11 +2766,6 @@ duration
 =
 0
 ;
-GstFormat
-format
-=
-GST_FORMAT_TIME
-;
 duration
 =
 QueryDuration
@@ -2918,8 +2914,6 @@ GST_FORMAT_TIME
 continue
 ;
 double
-start
-=
 start
 =
 (
