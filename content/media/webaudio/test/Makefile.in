@@ -195,10 +195,6 @@ test_pannerNode
 .
 html
 \
-test_scriptProcessorNodeChannelCount
-.
-html
-\
 test_singleSourceDest
 .
 html
@@ -326,6 +322,10 @@ test_mixingRules
 html
 \
 test_scriptProcessorNode
+.
+html
+\
+test_scriptProcessorNodeChannelCount
 .
 html
 \
