@@ -772,13 +772,6 @@ nsDebug
 "
 )
 ;
-gDebugLog
--
->
-level
-=
-PR_LOG_DEBUG
-;
 }
 }
 enum
