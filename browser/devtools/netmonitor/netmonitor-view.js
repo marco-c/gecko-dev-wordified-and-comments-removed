@@ -1395,6 +1395,8 @@ push
 [
 menuView
 aId
+"
+"
 ]
 {
 attachment
@@ -1524,6 +1526,8 @@ push
 (
 [
 menuView
+"
+"
 ]
 {
 attachment
