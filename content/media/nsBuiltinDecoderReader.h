@@ -1414,6 +1414,13 @@ ReadMetadata
 nsVideoInfo
 *
 aInfo
+nsHTMLMediaElement
+:
+:
+MetadataTags
+*
+*
+aTags
 )
 =
 0

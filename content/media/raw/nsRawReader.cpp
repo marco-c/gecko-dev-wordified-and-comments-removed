@@ -121,6 +121,13 @@ ReadMetadata
 nsVideoInfo
 *
 aInfo
+nsHTMLMediaElement
+:
+:
+MetadataTags
+*
+*
+aTags
 )
 {
 NS_ASSERTION
@@ -548,6 +555,11 @@ mFrameRate
 aInfo
 =
 mInfo
+;
+*
+aTags
+=
+nullptr
 ;
 return
 NS_OK

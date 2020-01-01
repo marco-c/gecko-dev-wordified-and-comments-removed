@@ -1099,6 +1099,13 @@ ReadMetadata
 nsVideoInfo
 *
 aInfo
+nsHTMLMediaElement
+:
+:
+MetadataTags
+*
+*
+aTags
 )
 {
 NS_ASSERTION
@@ -1678,6 +1685,11 @@ n_audio
 aInfo
 =
 mInfo
+;
+*
+aTags
+=
+nullptr
 ;
 gst_element_set_state
 (

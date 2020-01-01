@@ -432,6 +432,7 @@ MetadataLoaded
 aChannels
 aRate
 true
+nullptr
 )
 ;
 mAudioStream
