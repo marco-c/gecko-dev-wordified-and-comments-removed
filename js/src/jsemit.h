@@ -494,9 +494,9 @@ JSParseContext
 *
 parseContext
 ;
-JSFunction
+JSScriptedFunction
 *
-funobj
+fun
 ;
 }
 ;
@@ -823,7 +823,7 @@ tc
 )
 -
 >
-funobj
+fun
 =
 NULL
 )
