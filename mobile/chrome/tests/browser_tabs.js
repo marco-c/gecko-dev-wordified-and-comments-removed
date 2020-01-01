@@ -229,7 +229,7 @@ Browser
 .
 selectedTab
 .
-browser
+notification
 Elements
 .
 browsers
@@ -272,7 +272,7 @@ Browser
 .
 selectedTab
 .
-browser
+notification
 Elements
 .
 browsers
@@ -326,7 +326,7 @@ Browser
 .
 selectedTab
 .
-browser
+notification
 Elements
 .
 browsers
@@ -374,7 +374,7 @@ Browser
 .
 selectedTab
 .
-browser
+notification
 Elements
 .
 browsers
@@ -461,7 +461,7 @@ Browser
 .
 selectedTab
 .
-browser
+notification
 Elements
 .
 browsers
@@ -504,7 +504,7 @@ Browser
 .
 selectedTab
 .
-browser
+notification
 Elements
 .
 browsers
@@ -591,7 +591,7 @@ Browser
 .
 selectedTab
 .
-browser
+notification
 Elements
 .
 browsers
@@ -649,7 +649,7 @@ Browser
 .
 selectedTab
 .
-browser
+notification
 Elements
 .
 browsers
