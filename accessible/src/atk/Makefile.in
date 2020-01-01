@@ -472,7 +472,7 @@ nsRootAccessibleWrap
 .
 cpp
 \
-nsAppRootAccessible
+nsApplicationAccessibleWrap
 .
 cpp
 \

@@ -1,6 +1,13 @@
 #
 include
 "
+nsApplicationAccessibleWrap
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -9,13 +16,6 @@ h
 include
 "
 nsMai
-.
-h
-"
-#
-include
-"
-nsAppRootAccessible
 .
 h
 "

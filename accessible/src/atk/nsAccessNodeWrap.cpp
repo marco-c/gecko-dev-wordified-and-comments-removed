@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsAppRootAccessible
+nsApplicationAccessibleWrap
 .
 h
 "

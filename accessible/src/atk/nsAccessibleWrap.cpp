@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsApplicationAccessibleWrap
+.
+h
+"
+#
+include
+"
 nsRootAccessible
 .
 h
@@ -149,13 +156,6 @@ h
 include
 "
 nsMaiInterfaceImage
-.
-h
-"
-#
-include
-"
-nsAppRootAccessible
 .
 h
 "
