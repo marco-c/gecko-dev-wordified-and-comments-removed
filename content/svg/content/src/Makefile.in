@@ -225,10 +225,6 @@ nsSVGMarkerElement
 .
 cpp
 \
-nsSVGMaskElement
-.
-cpp
-\
 nsSVGNumber2
 .
 cpp
@@ -402,6 +398,10 @@ SVGLineElement
 cpp
 \
 SVGLocatableElement
+.
+cpp
+\
+SVGMaskElement
 .
 cpp
 \
@@ -731,6 +731,10 @@ SVGLineElement
 h
 \
 SVGLocatableElement
+.
+h
+\
+SVGMaskElement
 .
 h
 \
