@@ -37,6 +37,12 @@ retrylimit
 packageName
 =
 None
+               
+adbPath
+=
+'
+adb
+'
 )
 :
     
@@ -105,6 +111,12 @@ self
 tempDir
 =
 None
+    
+self
+.
+adbPath
+=
+adbPath
     
 if
 packageName
@@ -485,9 +497,9 @@ subprocess
 Popen
 (
 [
-"
-adb
-"
+self
+.
+adbPath
 "
 shell
 "
@@ -4356,9 +4368,9 @@ args
 insert
 (
 0
-"
-adb
-"
+self
+.
+adbPath
 )
     
 return
@@ -4493,9 +4505,9 @@ args
 insert
 (
 0
-"
-adb
-"
+self
+.
+adbPath
 )
     
 return
@@ -4739,6 +4751,52 @@ verifyADB
 self
 )
 :
+    
+if
+self
+.
+adbPath
+!
+=
+'
+adb
+'
+:
+      
+if
+not
+os
+.
+access
+(
+self
+.
+adbPath
+os
+.
+X_OK
+)
+:
+        
+raise
+DMError
+(
+"
+invalid
+adb
+path
+or
+adb
+not
+executable
+:
+%
+s
+"
+self
+.
+adbPath
+)
     
 try
 :
