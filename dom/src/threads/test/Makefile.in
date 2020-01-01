@@ -531,6 +531,14 @@ json_worker
 .
 js
 \
+test_location
+.
+html
+\
+location_worker
+.
+js
+\
 test_longThread
 .
 html
