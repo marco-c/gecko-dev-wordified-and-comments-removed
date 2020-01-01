@@ -657,8 +657,10 @@ n
 *
 scert
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 si
 -

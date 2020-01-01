@@ -2277,8 +2277,10 @@ nsIX509Cert
 >
 pipCert
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 node
 -

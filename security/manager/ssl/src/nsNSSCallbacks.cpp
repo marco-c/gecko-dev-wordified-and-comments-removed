@@ -3665,8 +3665,10 @@ nsNSSCertificate
 >
 nssc
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 serverCert
 )
@@ -3705,6 +3707,9 @@ PR_FALSE
 if
 (
 prevcert
+&
+&
+nssc
 )
 {
 nsresult
@@ -4018,8 +4023,10 @@ mServerCert
 {
 nsc
 =
-new
 nsNSSCertificate
+:
+:
+Create
 (
 serverCert
 )

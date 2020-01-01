@@ -664,6 +664,15 @@ nsCertTree
 .
 cpp
 endif
+ifdef
+MOZ_IPC
+CPPSRCS
++
+=
+nsNSSCertificateFakeTransport
+.
+cpp
+endif
 CSRCS
 +
 =

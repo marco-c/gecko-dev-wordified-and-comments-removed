@@ -803,6 +803,10 @@ mozIThirdPartyUtil
 .
 idl
 \
+nsISerializationHelper
+.
+idl
+\
 (
 NULL
 )
