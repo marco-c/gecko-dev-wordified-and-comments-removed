@@ -1498,12 +1498,6 @@ eScopedDocSheet
 aType
 =
 =
-ePresHintSheet
-|
-|
-aType
-=
-=
 eStyleAttrSheet
 )
 )
@@ -2492,11 +2486,6 @@ mDirty
 <
 <
 eDocSheet
-|
-1
-<
-<
-ePresHintSheet
 |
 1
 <
@@ -5739,6 +5728,7 @@ nsRuleWalker
 ruleWalker
 (
 mRuleTree
+mAuthorStyleDisabled
 )
 ;
 aTreeMatchContext
@@ -5939,6 +5929,7 @@ nsRuleWalker
 ruleWalker
 (
 mRuleTree
+mAuthorStyleDisabled
 )
 ;
 ruleWalker
@@ -6031,6 +6022,7 @@ nsRuleWalker
 ruleWalker
 (
 mRuleTree
+mAuthorStyleDisabled
 )
 ;
 for
@@ -6171,6 +6163,7 @@ nsRuleWalker
 ruleWalker
 (
 mRuleTree
+mAuthorStyleDisabled
 )
 ;
 ruleWalker
@@ -6553,6 +6546,7 @@ nsRuleWalker
 ruleWalker
 (
 mRuleTree
+mAuthorStyleDisabled
 )
 ;
 TreeMatchContext
@@ -6844,6 +6838,7 @@ nsRuleWalker
 ruleWalker
 (
 mRuleTree
+mAuthorStyleDisabled
 )
 ;
 aTreeMatchContext
@@ -7173,6 +7168,7 @@ nsRuleWalker
 ruleWalker
 (
 mRuleTree
+mAuthorStyleDisabled
 )
 ;
 AnonBoxRuleProcessorData
@@ -7432,6 +7428,7 @@ nsRuleWalker
 ruleWalker
 (
 mRuleTree
+mAuthorStyleDisabled
 )
 ;
 TreeMatchContext
