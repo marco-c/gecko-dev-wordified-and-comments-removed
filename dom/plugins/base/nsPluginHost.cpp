@@ -9332,9 +9332,12 @@ seenBefore
 pluginTag
 -
 >
-SetDisabled
+SetEnabledState
 (
-true
+nsIPluginTag
+:
+:
+STATE_DISABLED
 )
 ;
 }

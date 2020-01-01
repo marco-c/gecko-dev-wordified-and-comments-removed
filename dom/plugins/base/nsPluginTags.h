@@ -91,6 +91,9 @@ ePluginState_Clicktoplay
 ePluginState_Enabled
 =
 2
+ePluginState_MaxValue
+=
+3
 }
 ;
 nsPluginTag
