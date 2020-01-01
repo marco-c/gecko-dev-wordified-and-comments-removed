@@ -1349,6 +1349,10 @@ _BROWSER_FILES
 +
 =
 \
+browser_bug565667
+.
+js
+\
 browser_customize
 .
 js
