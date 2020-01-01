@@ -773,6 +773,7 @@ class
 splitview
 -
 root
+loading
 "
 >
 <
@@ -867,6 +868,11 @@ newButton
 label
 ;
 "
+disabled
+=
+"
+true
+"
 /
 >
 <
@@ -911,6 +917,11 @@ importButton
 .
 label
 ;
+"
+disabled
+=
+"
+true
 "
 /
 >
