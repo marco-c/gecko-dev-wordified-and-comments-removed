@@ -5487,12 +5487,6 @@ updateTooltip
 (
 )
 ;
-gHomeButton
-.
-setPersonalToolbarStyle
-(
-)
-;
 #
 ifdef
 HAVE_SHELL_SERVICE
