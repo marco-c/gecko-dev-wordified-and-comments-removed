@@ -2613,7 +2613,7 @@ OGGZ_ERR_STOP_ERR
 default
 :
 return
-OGGZ_ERR_STOP_ERR
+cb_ret
 ;
 }
 }

@@ -28,10 +28,6 @@ HAVE_SPEEX
 0
 #
 define
-HAVE_STDINT_H
-1
-#
-define
 HAVE_STDLIB_H
 1
 #
