@@ -10680,6 +10680,13 @@ self
 tag
 =
 tag
+        
+self
+.
+_extendedAttrDict
+=
+{
+}
     
 def
 isMethod
@@ -10745,13 +10752,6 @@ self
 attrs
 )
 :
-        
-self
-.
-_extendedAttrDict
-=
-{
-}
         
 for
 attr
@@ -13042,6 +13042,49 @@ _overloads
 =
 1
         
+if
+self
+.
+_extendedAttrDict
+!
+=
+method
+.
+_extendedAttrDict
+:
+            
+raise
+WebIDLError
+(
+"
+Extended
+attributes
+differ
+on
+different
+"
+                              
+"
+overloads
+of
+%
+s
+"
+%
+method
+.
+identifier
+                              
+[
+self
+.
+location
+method
+.
+location
+]
+)
+        
 self
 .
 _overloads
@@ -13094,7 +13137,7 @@ static
 attribute
 "
 %
-method1
+method
 .
 identifier
                               
@@ -13140,7 +13183,7 @@ legacycaller
 attribute
 "
 %
-method1
+method
 .
 identifier
                               
