@@ -3927,6 +3927,13 @@ ignore
 >
 <
 menupopup
+id
+=
+"
+appmenu
+-
+popup
+"
 >
 <
 menuitem
