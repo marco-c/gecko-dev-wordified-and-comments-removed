@@ -270,6 +270,16 @@ gfxImageSurface
 isurf
 )
 ;
+asurf
+-
+>
+SetOpaqueRect
+(
+GetOpaqueRect
+(
+)
+)
+;
 return
 asurf
 .

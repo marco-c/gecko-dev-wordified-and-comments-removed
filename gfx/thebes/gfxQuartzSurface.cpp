@@ -927,6 +927,16 @@ Release
 (
 )
 ;
+img
+-
+>
+SetOpaqueRect
+(
+GetOpaqueRect
+(
+)
+)
+;
 return
 img
 .
