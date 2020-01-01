@@ -219,9 +219,6 @@ PRTime
 result
 )
 ;
-#
-ifndef
-NO_NSPR_10_SUPPORT
 NSPR_API
 (
 PRUint32
@@ -264,8 +261,6 @@ PRExplodedTime
 tm
 )
 ;
-#
-endif
 PR_END_EXTERN_C
 #
 endif

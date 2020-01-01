@@ -734,12 +734,7 @@ _thread
 )
 #
 define
-_MD_GET_INTERVAL
-_PR_UNIX_GetInterval
-#
-define
-_MD_INTERVAL_PER_SEC
-_PR_UNIX_TicksPerSecond
+_MD_INTERVAL_USE_GTOD
 #
 define
 _MD_SELECT

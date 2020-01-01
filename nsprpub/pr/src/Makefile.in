@@ -710,6 +710,11 @@ OS_LIBS
 -
 ldl
 endif
+OS_LIBS
++
+=
+-
+lrt
 endif
 ifeq
 (
