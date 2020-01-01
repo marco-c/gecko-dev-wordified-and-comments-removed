@@ -5449,6 +5449,10 @@ runOptions
 (
 0
 )
+reportGranularity
+(
+JS_DEFAULT_JITREPORT_GRANULARITY
+)
 localeCallbacks
 (
 NULL
@@ -5576,10 +5580,6 @@ MagicValue
 (
 JS_NO_ITER_VALUE
 )
-)
-reportGranularity
-(
-JS_DEFAULT_JITREPORT_GRANULARITY
 )
 #
 ifdef
