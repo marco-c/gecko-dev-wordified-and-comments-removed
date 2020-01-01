@@ -428,13 +428,6 @@ do_get_cwd
 )
 )
 ;
-let
-search
-=
-Services
-.
-search
-;
 do_register_cleanup
 (
 function
@@ -497,6 +490,8 @@ modified
 false
 )
 ;
+Services
+.
 search
 .
 addEngine
@@ -525,6 +520,8 @@ null
 false
 )
 ;
+Services
+.
 search
 .
 addEngine
