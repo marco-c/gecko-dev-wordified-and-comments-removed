@@ -20987,12 +20987,12 @@ shape
 "
 )
 ;
-JS_ASSERT
+obj
+-
+>
+setPrivateUnbarriered
 (
 tmp
-=
-=
-pdata
 )
 ;
 }

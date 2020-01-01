@@ -1334,7 +1334,7 @@ delegate
 obj
 -
 >
-setPrivate
+setPrivateUnbarriered
 (
 delegate
 )
