@@ -163,6 +163,10 @@ browser_topsites
 .
 js
 \
+browser_tabs
+.
+js
+\
 (
 NULL
 )
