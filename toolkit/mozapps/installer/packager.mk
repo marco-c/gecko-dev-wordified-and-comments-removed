@@ -3533,11 +3533,15 @@ install
 stage
 -
 package
-ifeq
+ifneq
 (
+(
+filter
 WINNT
+Darwin
 (
 OS_ARCH
+)
 )
 )
 (
@@ -3550,7 +3554,8 @@ is
 not
 supported
 on
-Windows
+this
+platform
 .
 Use
 "
