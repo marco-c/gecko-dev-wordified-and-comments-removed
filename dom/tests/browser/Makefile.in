@@ -455,6 +455,14 @@ api
 .
 html
 \
+browser_ConsoleStorageAPITests
+.
+js
+\
+browser_ConsoleStoragePBTest
+.
+js
+\
 browser_autofocus_preference
 .
 js
