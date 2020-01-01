@@ -19349,6 +19349,12 @@ aNewValue
 ;
 this
 .
+lastInputValue
+=
+aNewValue
+;
+this
+.
 completeNode
 .
 value

@@ -860,6 +860,10 @@ browser_webconsole_bug_663443_panel_title
 .
 js
 \
+browser_webconsole_bug_660806_history_nav
+.
+js
+\
 head
 .
 js
