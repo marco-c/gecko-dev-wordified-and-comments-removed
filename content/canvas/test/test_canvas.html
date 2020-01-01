@@ -32079,11 +32079,6 @@ rgba
 ;
 ok
 (
-ctx
-.
-fillStyle
-=
-~
 /
 ^
 rgba
@@ -32102,6 +32097,13 @@ d
 \
 )
 /
+.
+test
+(
+ctx
+.
+fillStyle
+)
 "
 ctx
 .
@@ -42040,11 +42042,6 @@ ThreeDDarkShadow
 ;
 ok
 (
-ctx
-.
-fillStyle
-=
-~
 /
 ^
 #
@@ -42060,6 +42057,13 @@ f00
 )
 )
 /
+.
+test
+(
+ctx
+.
+fillStyle
+)
 "
 ctx
 .
@@ -66193,7 +66197,7 @@ _thrown
 e
 }
 ;
-todo
+ok
 (
 _thrown
 &
@@ -66241,7 +66245,7 @@ _thrown
 e
 }
 ;
-todo
+ok
 (
 _thrown
 &
@@ -66289,7 +66293,7 @@ _thrown
 e
 }
 ;
-todo
+ok
 (
 _thrown
 &
@@ -66433,7 +66437,7 @@ data
 =
 300
 ;
-todo
+ok
 (
 imgdata
 .
@@ -66488,7 +66492,7 @@ data
 -
 100
 ;
-todo
+ok
 (
 imgdata
 .
@@ -66550,7 +66554,7 @@ pow
 32
 )
 ;
-todo
+ok
 (
 imgdata
 .
@@ -66613,7 +66617,7 @@ pow
 32
 )
 ;
-todo
+ok
 (
 imgdata
 .
@@ -66673,7 +66677,7 @@ pow
 39
 )
 ;
-todo
+ok
 (
 imgdata
 .
@@ -66734,7 +66738,7 @@ pow
 39
 )
 ;
-todo
+ok
 (
 imgdata
 .
@@ -66789,7 +66793,7 @@ data
 -
 Infinity
 ;
-todo
+ok
 (
 imgdata
 .
@@ -66843,7 +66847,7 @@ data
 =
 Infinity
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67156,7 +67160,7 @@ data
 =
 NaN
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67212,7 +67216,7 @@ data
 cheese
 "
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67588,7 +67592,7 @@ data
 100
 ]
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67608,7 +67612,7 @@ w
 "
 )
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67628,7 +67632,7 @@ h
 "
 )
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67648,7 +67652,7 @@ d
 "
 )
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67684,7 +67688,7 @@ data
 "
 )
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67720,7 +67724,7 @@ data
 "
 )
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67756,7 +67760,7 @@ data
 "
 )
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67909,7 +67913,7 @@ data
 .
 499
 ;
-todo
+ok
 (
 imgdata
 .
@@ -67956,7 +67960,7 @@ data
 .
 5
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68003,7 +68007,7 @@ data
 .
 501
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68050,7 +68054,7 @@ data
 .
 499
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68097,7 +68101,7 @@ data
 .
 5
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68144,7 +68148,7 @@ data
 .
 501
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68191,7 +68195,7 @@ data
 .
 5
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68238,7 +68242,7 @@ data
 .
 5
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68285,7 +68289,7 @@ data
 .
 5
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68332,7 +68336,7 @@ data
 .
 5
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68379,7 +68383,7 @@ data
 .
 5
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68737,7 +68741,7 @@ data
 110
 "
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68793,7 +68797,7 @@ data
 0x78
 "
 ;
-todo
+ok
 (
 imgdata
 .
@@ -68850,7 +68854,7 @@ data
 130e0
 "
 ;
-todo
+ok
 (
 imgdata
 .
@@ -69010,7 +69014,7 @@ data
 =
 undefined
 ;
-todo
+ok
 (
 imgdata
 .
@@ -75916,7 +75920,7 @@ _thrown
 e
 }
 ;
-todo
+ok
 (
 _thrown
 &
@@ -76875,7 +76879,7 @@ _thrown
 e
 }
 ;
-todo
+ok
 (
 _thrown
 &
@@ -76922,7 +76926,7 @@ _thrown
 e
 }
 ;
-todo
+ok
 (
 _thrown
 &
@@ -162988,9 +162992,6 @@ exception
 ;
 ok
 (
-data
-=
-~
 /
 ^
 data
@@ -163003,6 +163004,11 @@ png
 ;
 ]
 /
+.
+test
+(
+data
+)
 "
 data
 =
@@ -163177,9 +163183,6 @@ another
 ;
 ok
 (
-data
-=
-~
 /
 ^
 data
@@ -163192,6 +163195,11 @@ png
 ;
 ]
 /
+.
+test
+(
+data
+)
 "
 data
 =
@@ -163364,9 +163372,6 @@ null
 ;
 ok
 (
-data
-=
-~
 /
 ^
 data
@@ -163379,6 +163384,11 @@ png
 ;
 ]
 /
+.
+test
+(
+data
+)
 "
 data
 =
@@ -163856,9 +163866,6 @@ toDataURL
 ;
 ok
 (
-data
-=
-~
 /
 ^
 data
@@ -163871,6 +163878,11 @@ png
 ;
 ]
 /
+.
+test
+(
+data
+)
 "
 data
 =
@@ -164006,9 +164018,6 @@ PnG
 ;
 ok
 (
-data
-=
-~
 /
 ^
 data
@@ -164021,6 +164030,11 @@ png
 ;
 ]
 /
+.
+test
+(
+data
+)
 "
 data
 =
@@ -164176,9 +164190,6 @@ toDataURL
 ;
 ok
 (
-data
-=
-~
 /
 ^
 data
@@ -164191,6 +164202,11 @@ png
 ;
 ]
 /
+.
+test
+(
+data
+)
 "
 data
 =
@@ -164316,9 +164332,6 @@ png
 ;
 ok
 (
-data
-=
-~
 /
 ^
 data
@@ -164331,6 +164344,11 @@ png
 ;
 ]
 /
+.
+test
+(
+data
+)
 "
 data
 =
@@ -164760,9 +164778,6 @@ example
 ;
 ok
 (
-data
-=
-~
 /
 ^
 data
@@ -164775,6 +164790,11 @@ png
 ;
 ]
 /
+.
+test
+(
+data
+)
 "
 data
 =
