@@ -399,6 +399,9 @@ nsBulletFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsFrame
@@ -406,6 +409,7 @@ nsFrame
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 imgIRequest

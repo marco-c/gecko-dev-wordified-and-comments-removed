@@ -1526,6 +1526,9 @@ nsImageBoxFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsLeafBoxFrame
@@ -1533,6 +1536,7 @@ nsLeafBoxFrame
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 const

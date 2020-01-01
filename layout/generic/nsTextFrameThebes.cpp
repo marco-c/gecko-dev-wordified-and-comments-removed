@@ -17398,6 +17398,9 @@ nsTextFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 nsFrame
@@ -17405,6 +17408,7 @@ nsFrame
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 ClearTextRun

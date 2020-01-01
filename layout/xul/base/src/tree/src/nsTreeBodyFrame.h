@@ -371,6 +371,9 @@ virtual
 void
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 ;
 friend

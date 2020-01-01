@@ -95,6 +95,15 @@ nsStyleContext
 aContext
 )
 ;
+virtual
+void
+DidSetStyleContext
+(
+nsStyleContext
+*
+aOldStyleContext
+)
+;
 PRInt32
 GetColIndex
 (

@@ -140,6 +140,15 @@ PRInt32
 aModType
 )
 ;
+virtual
+void
+DidSetStyleContext
+(
+nsStyleContext
+*
+aOldStyleContext
+)
+;
 NS_IMETHOD
 AppendFrames
 (

@@ -2525,6 +2525,9 @@ nsObjectFrame
 :
 DidSetStyleContext
 (
+nsStyleContext
+*
+aOldStyleContext
 )
 {
 if
@@ -2585,6 +2588,7 @@ nsObjectFrameSuper
 :
 DidSetStyleContext
 (
+aOldStyleContext
 )
 ;
 }

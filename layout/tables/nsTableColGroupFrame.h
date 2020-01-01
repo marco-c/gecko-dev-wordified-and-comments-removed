@@ -127,6 +127,15 @@ nsIFrame
 aLastColGroup
 )
 ;
+virtual
+void
+DidSetStyleContext
+(
+nsStyleContext
+*
+aOldStyleContext
+)
+;
 NS_IMETHOD
 AppendFrames
 (
