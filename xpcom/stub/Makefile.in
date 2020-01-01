@@ -805,6 +805,15 @@ Makefile
 .
 in
 (
+DEPTH
+)
+/
+config
+/
+autoconf
+.
+mk
+(
 EXIT_ON_ERROR
 )
 \
