@@ -1124,6 +1124,12 @@ TwoLinePageRow
 .
 java
 \
+home
+/
+VisitedPage
+.
+java
+\
 menu
 /
 GeckoMenu
