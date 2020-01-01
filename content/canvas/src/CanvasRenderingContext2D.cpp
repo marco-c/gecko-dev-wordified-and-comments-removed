@@ -591,17 +591,6 @@ mozilla
 /
 dom
 /
-CanvasPattern
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 CanvasRenderingContext2DBinding
 .
 h

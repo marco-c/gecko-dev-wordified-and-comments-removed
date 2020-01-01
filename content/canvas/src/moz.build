@@ -107,11 +107,6 @@ dom
 =
 [
 '
-CanvasPattern
-.
-h
-'
-'
 CanvasRenderingContext2D
 .
 h
