@@ -1,4 +1,18 @@
 #
+if
+!
+defined
+(
+JSGC_ROOT_ANALYSIS
+)
+&
+&
+!
+defined
+(
+JSGC_USE_EXACT_ROOTING
+)
+#
 include
 "
 tests
@@ -33,9 +47,6 @@ BEGIN_TEST
 testConservativeGC
 )
 {
-#
-ifndef
-JSGC_USE_EXACT_ROOTING
 js
 :
 :
@@ -419,8 +430,6 @@ str2Copy
 )
 )
 ;
-#
-endif
 return
 true
 ;
@@ -623,3 +632,5 @@ END_TEST
 (
 testDerivedValues
 )
+#
+endif
