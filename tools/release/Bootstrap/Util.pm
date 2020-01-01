@@ -2612,6 +2612,10 @@ product
 '
 .
 version
+.
+'
+/
+'
 )
 ;
 cmdArgs
