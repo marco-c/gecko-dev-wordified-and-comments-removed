@@ -4794,8 +4794,9 @@ onselect
 "
 ExtensionsView
 .
-hideOptions
+hideOnSelect
 (
+event
 )
 "
 >
