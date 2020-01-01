@@ -700,6 +700,8 @@ lxpcomglue_s
 lxul
 -
 lxpcom
+-
+lmozalloc
 ifdef
 JS_SHARED_LIBRARY
 MOZ_JS_LINK
