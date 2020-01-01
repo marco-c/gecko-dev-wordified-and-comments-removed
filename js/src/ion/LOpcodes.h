@@ -73,6 +73,11 @@ CheckOverRecursed
 \
 _
 (
+RecompileCheck
+)
+\
+_
+(
 CallGeneric
 )
 \

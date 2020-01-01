@@ -56,9 +56,10 @@ add
 1
 )
 ;
-print
+assertEq
 (
 accum
+2000
 )
 ;
 var
@@ -75,7 +76,7 @@ i
 ;
 i
 <
-50
+10100
 ;
 +
 +
@@ -90,9 +91,10 @@ i
 i
 )
 ;
-print
+assertEq
 (
 accum
+20198
 )
 ;
 var

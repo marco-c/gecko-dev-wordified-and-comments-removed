@@ -3775,7 +3775,7 @@ incUseCount
 =
 js_IonOptions
 .
-invokesBeforeCompile
+usesBeforeCompile
 )
 return
 Method_Skipped

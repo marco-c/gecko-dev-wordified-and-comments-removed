@@ -242,6 +242,14 @@ LImplicitThis
 lir
 )
 ;
+bool
+visitRecompileCheck
+(
+LRecompileCheck
+*
+lir
+)
+;
 }
 ;
 typedef

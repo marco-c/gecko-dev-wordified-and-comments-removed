@@ -50,6 +50,7 @@ BailoutKind
 Bailout_Normal
 Bailout_ArgumentCheck
 Bailout_TypeBarrier
+Bailout_RecompileCheck
 }
 ;
 static
@@ -93,6 +94,13 @@ uint32
 BAILOUT_RETURN_TYPE_BARRIER
 =
 3
+;
+static
+const
+uint32
+BAILOUT_RETURN_RECOMPILE_CHECK
+=
+4
 ;
 class
 BailoutClosure
@@ -206,6 +214,11 @@ ReflowTypeInfo
 (
 uint32
 bailoutResult
+)
+;
+uint32
+RecompileForInlining
+(
 )
 ;
 }
