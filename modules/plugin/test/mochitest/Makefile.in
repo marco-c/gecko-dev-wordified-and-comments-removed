@@ -442,6 +442,10 @@ test_npruntime_npninvoke
 .
 html
 \
+test_npruntime_npninvokedefault
+.
+html
+\
 loremipsum
 .
 txt
