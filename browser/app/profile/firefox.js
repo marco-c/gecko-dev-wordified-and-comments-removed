@@ -3750,9 +3750,6 @@ twist
 right
 "
 "
-Browser
-:
-NextTab
 "
 )
 ;
@@ -3768,9 +3765,6 @@ twist
 left
 "
 "
-Browser
-:
-PrevTab
 "
 )
 ;
