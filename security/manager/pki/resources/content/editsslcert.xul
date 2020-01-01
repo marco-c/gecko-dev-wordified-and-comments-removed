@@ -677,10 +677,10 @@ editsslcert
 dotrust
 ;
 "
-id
+value
 =
 "
-trustSSLCert
+true
 "
 /
 >
@@ -697,10 +697,10 @@ editsslcert
 donttrust
 ;
 "
-id
+value
 =
 "
-dontTrustSSLCert
+false
 "
 /
 >

@@ -677,10 +677,10 @@ editemailcert
 dotrust
 ;
 "
-id
+value
 =
 "
-trustEmailCert
+true
 "
 /
 >
@@ -697,10 +697,10 @@ editemailcert
 donttrust
 ;
 "
-id
+value
 =
 "
-dontTrustEmailCert
+false
 "
 /
 >
