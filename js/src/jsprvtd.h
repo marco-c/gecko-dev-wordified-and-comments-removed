@@ -740,6 +740,10 @@ JSXMLQName
 *
 qname
 ;
+JSXMLNamespace
+*
+nspace
+;
 JSTempValueTrace
 trace
 ;
