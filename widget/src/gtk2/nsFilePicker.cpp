@@ -114,7 +114,7 @@ h
 "
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 #
 include
 <
@@ -1642,7 +1642,7 @@ GTK_STOCK_OPEN
 ;
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 GtkWidget
 *
 file_chooser

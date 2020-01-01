@@ -5536,8 +5536,13 @@ value
 )
 {
 #
-ifdef
-MOZ_PLATFORM_HILDON
+if
+(
+MOZ_PLATFORM_MAEMO
+=
+=
+5
+)
 if
 (
 variable

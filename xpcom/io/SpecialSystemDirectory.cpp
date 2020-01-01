@@ -2012,7 +2012,7 @@ Desktop
 if
 defined
 (
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 )
 else
 if

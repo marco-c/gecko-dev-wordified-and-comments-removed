@@ -98,7 +98,7 @@ h
 endif
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 #
 include
 <
@@ -728,7 +728,7 @@ name
 ;
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 const
 char
 kDefaultTextDomain

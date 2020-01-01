@@ -3753,8 +3753,13 @@ h
 #
 endif
 #
-ifdef
-MOZ_PLATFORM_HILDON
+if
+(
+MOZ_PLATFORM_MAEMO
+=
+=
+5
+)
 hildon
 -
 uri
@@ -3774,11 +3779,6 @@ chooser
 dialog
 .
 h
-#
-endif
-#
-ifdef
-NS_OSSO
 libosso
 .
 h

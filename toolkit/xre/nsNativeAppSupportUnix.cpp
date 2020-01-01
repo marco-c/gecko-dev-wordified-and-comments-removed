@@ -137,7 +137,7 @@ h
 >
 #
 ifdef
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 struct
 DBusMessage
 ;
@@ -612,7 +612,7 @@ private
 :
 #
 ifdef
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 osso_context_t
 *
 m_osso_context
@@ -626,7 +626,7 @@ endif
 ;
 #
 ifdef
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 static
 void
 OssoDisplayCallback
@@ -1416,7 +1416,7 @@ exit
 }
 #
 ifdef
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 memset
 (
 &
@@ -2036,7 +2036,7 @@ PR_TRUE
 ;
 #
 ifdef
-NS_OSSO
+MOZ_PLATFORM_MAEMO
 if
 (
 m_osso_context

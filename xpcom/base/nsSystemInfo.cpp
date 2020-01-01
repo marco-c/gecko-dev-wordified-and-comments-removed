@@ -346,7 +346,7 @@ rv
 endif
 #
 ifdef
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
 char
 *
 line

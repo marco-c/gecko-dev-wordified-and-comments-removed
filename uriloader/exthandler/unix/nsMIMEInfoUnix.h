@@ -113,9 +113,11 @@ aFile
 ;
 #
 if
-defined
 (
-MOZ_PLATFORM_HILDON
+MOZ_PLATFORM_MAEMO
+=
+=
+5
 )
 &
 &
