@@ -7714,12 +7714,6 @@ switchMask
 -
 1
 ;
-for
-(
-;
-;
-)
-{
 advanceAndDoOp
 :
 js
@@ -7776,6 +7770,7 @@ case
 -
 1
 :
+{
 JS_ASSERT
 (
 switchMask
@@ -7785,7 +7780,6 @@ switchMask
 1
 )
 ;
-{
 bool
 moreInterrupts
 =
@@ -17589,7 +17583,17 @@ error
 ;
 }
 }
-}
+MOZ_ASSUME_UNREACHABLE
+(
+"
+Interpreter
+loop
+exited
+via
+fallthrough
+"
+)
+;
 error
 :
 JS_ASSERT
