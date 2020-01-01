@@ -475,6 +475,16 @@ jsapi
 -
 tests
 endif
+ifdef
+ENABLE_TESTS
+DIRS
++
+=
+.
+.
+/
+tests
+endif
 MODULE
 =
 js

@@ -1,0 +1,6 @@
+include
+regress
+/
+jstests
+.
+list
