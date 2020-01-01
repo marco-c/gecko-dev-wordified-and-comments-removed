@@ -54,9 +54,6 @@ RasterImage
 h
 "
 #
-undef
-LoadImage
-#
 include
 "
 nsCOMPtr

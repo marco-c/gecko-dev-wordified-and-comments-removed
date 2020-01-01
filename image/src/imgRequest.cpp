@@ -13,9 +13,6 @@ ImageLogging
 h
 "
 #
-undef
-LoadImage
-#
 include
 "
 imgLoader

@@ -25,6 +25,9 @@ windows
 .
 h
 >
+#
+undef
+LoadImage
 class
 gfxContext
 ;

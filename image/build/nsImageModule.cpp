@@ -22,9 +22,6 @@ RasterImage
 h
 "
 #
-undef
-LoadImage
-#
 include
 "
 imgLoader
