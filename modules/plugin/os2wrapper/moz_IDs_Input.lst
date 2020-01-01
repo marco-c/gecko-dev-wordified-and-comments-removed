@@ -480,8 +480,6 @@ nsIJAR
 nsIJARChannel
 nsIJARProtocolHandler
 nsIJARURI
-nsIJRILiveConnectPIPeer
-nsIJRILiveConnectPlugin
 nsIJSConsoleService
 nsIJSContextStack
 nsIJSRuntimeService

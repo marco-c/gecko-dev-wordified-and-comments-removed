@@ -539,14 +539,6 @@ nsIPluginTagInfo2
 .
 idl
 \
-nsIJRILiveConnectPIPeer
-.
-idl
-\
-nsIJRILiveConnectPlugin
-.
-idl
-\
 nsIPluginInputStream
 .
 idl
