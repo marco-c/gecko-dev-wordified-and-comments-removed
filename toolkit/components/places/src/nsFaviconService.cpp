@@ -1550,7 +1550,7 @@ mFaviconsExpirationRunning
 =
 true
 ;
-mozIStorageStatement
+mozIStorageBaseStatement
 *
 stmts
 [

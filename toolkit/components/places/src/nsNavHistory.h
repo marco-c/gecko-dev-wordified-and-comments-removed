@@ -613,7 +613,7 @@ aResults
 nsresult
 RowToResult
 (
-mozIStorageValueArray
+mozIStorageStatement
 *
 aRow
 nsNavHistoryQueryOptions

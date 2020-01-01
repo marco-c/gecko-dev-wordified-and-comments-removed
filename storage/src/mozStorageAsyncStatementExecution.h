@@ -53,6 +53,13 @@ h
 #
 include
 "
+SQLiteMutex
+.
+h
+"
+#
+include
+"
 mozIStoragePendingStatement
 .
 h
@@ -281,6 +288,10 @@ mCancelRequested
 Mutex
 &
 mMutex
+;
+SQLiteMutex
+&
+mDBMutex
 ;
 }
 ;

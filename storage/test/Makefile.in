@@ -451,6 +451,10 @@ test_binding_params
 .
 cpp
 \
+test_true_async
+.
+cpp
+\
 (
 NULL
 )
