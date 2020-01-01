@@ -1690,7 +1690,7 @@ const
 size_t
 CellBufferSize
 =
-2
+8
 *
 1024
 *
