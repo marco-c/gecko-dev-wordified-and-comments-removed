@@ -1809,7 +1809,7 @@ about
 )
 )
 ;
-updateTabCountAndAnimate
+updateTabCount
 (
 Tabs
 .
