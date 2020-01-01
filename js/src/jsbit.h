@@ -1039,7 +1039,7 @@ n
 \
 (
 (
-JSUword
+size_t
 )
 (
 JS_BITS_PER_WORD
@@ -1062,7 +1062,7 @@ n
 )
 (
 (
-JSUword
+size_t
 )
 JS_FloorLog2
 (
@@ -1089,7 +1089,7 @@ n
 \
 (
 (
-JSUword
+size_t
 )
 (
 JS_BITS_PER_WORD
@@ -1105,10 +1105,10 @@ n
 #
 else
 extern
-JSUword
+size_t
 js_FloorLog2wImpl
 (
-JSUword
+size_t
 n
 )
 ;

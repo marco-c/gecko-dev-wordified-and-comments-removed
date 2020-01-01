@@ -142,14 +142,14 @@ JS_BYTES_PER_WORD
 =
 =
 8
-JSUword
+size_t
 js_FloorLog2wImpl
 (
-JSUword
+size_t
 n
 )
 {
-JSUword
+size_t
 log2
 m
 ;
