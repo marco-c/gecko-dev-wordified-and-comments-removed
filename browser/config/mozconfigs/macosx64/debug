@@ -38,17 +38,6 @@ ENABLE_MARIONETTE
 =
 1
 #
-Enable
-parallel
-compiling
-mk_add_options
-MOZ_MAKE_FLAGS
-=
-"
--
-j12
-"
-#
 Needed
 to
 enable

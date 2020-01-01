@@ -90,7 +90,7 @@ MOZ_TELEMETRY_REPORTING
 if
 test
 -
-n
+z
 "
 {
 _PYMAKE
@@ -98,12 +98,6 @@ _PYMAKE
 "
 ;
 then
-mk_add_options
-MOZ_MAKE_FLAGS
-=
--
-j4
-else
 mk_add_options
 MOZ_MAKE_FLAGS
 =

@@ -6,13 +6,6 @@ TOPSRCDIR
 obj
 -
 b2g
-mk_add_options
-MOZ_MAKE_FLAGS
-=
-"
--
-j8
-"
 ac_add_options
 -
 -

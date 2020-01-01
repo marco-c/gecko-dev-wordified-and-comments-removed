@@ -40,17 +40,6 @@ enable
 -
 accessibility
 #
-Enable
-parallel
-compiling
-mk_add_options
-MOZ_MAKE_FLAGS
-=
-"
--
-j12
-"
-#
 Package
 js
 shell
