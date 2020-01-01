@@ -2660,7 +2660,7 @@ TrackType
 aTrackType
 )
 {
-PacketQueue
+WebMPacketQueue
 &
 otherPackets
 =
@@ -2673,7 +2673,7 @@ mAudioPackets
 :
 mVideoPackets
 ;
-PacketQueue
+WebMPacketQueue
 &
 packets
 =

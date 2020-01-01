@@ -200,14 +200,14 @@ nullptr
 }
 ;
 class
-PacketQueue
+WebMPacketQueue
 :
 private
 nsDeque
 {
 public
 :
-PacketQueue
+WebMPacketQueue
 (
 )
 :
@@ -221,7 +221,7 @@ PacketQueueDeallocator
 {
 }
 ~
-PacketQueue
+WebMPacketQueue
 (
 )
 {
@@ -261,7 +261,7 @@ aItem
 NULL
 pushed
 to
-PacketQueue
+WebMPacketQueue
 "
 )
 ;
@@ -290,7 +290,7 @@ aItem
 NULL
 pushed
 to
-PacketQueue
+WebMPacketQueue
 "
 )
 ;
@@ -637,10 +637,10 @@ mPacketCount
 uint32_t
 mChannels
 ;
-PacketQueue
+WebMPacketQueue
 mVideoPackets
 ;
-PacketQueue
+WebMPacketQueue
 mAudioPackets
 ;
 uint32_t

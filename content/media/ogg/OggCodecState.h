@@ -204,14 +204,14 @@ nullptr
 }
 ;
 class
-PacketQueue
+OggPacketQueue
 :
 private
 nsDeque
 {
 public
 :
-PacketQueue
+OggPacketQueue
 (
 )
 :
@@ -225,7 +225,7 @@ OggPacketDeallocator
 {
 }
 ~
-PacketQueue
+OggPacketQueue
 (
 )
 {
@@ -549,7 +549,7 @@ mSerial
 ogg_stream_state
 mState
 ;
-PacketQueue
+OggPacketQueue
 mPackets
 ;
 bool

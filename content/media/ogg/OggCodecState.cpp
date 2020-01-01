@@ -1131,7 +1131,7 @@ aPacket
 ;
 }
 void
-PacketQueue
+OggPacketQueue
 :
 :
 Append
