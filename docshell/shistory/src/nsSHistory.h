@@ -70,7 +70,7 @@ h
 #
 include
 "
-nsIObserver
+nsTObserverArray
 .
 h
 "
@@ -304,8 +304,12 @@ mLength
 int32_t
 mRequestedIndex
 ;
+nsAutoTObserverArray
+<
 nsWeakPtr
-mListener
+2
+>
+mListeners
 ;
 nsIDocShell
 *
