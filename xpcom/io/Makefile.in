@@ -669,10 +669,6 @@ nsStorageStream
 .
 h
 \
-nsStringIO
-.
-h
-\
 nsStringStream
 .
 h
