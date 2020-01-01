@@ -5863,6 +5863,9 @@ nsHttp
 :
 Range
 )
+|
+|
+mResuming
 )
 {
 return
