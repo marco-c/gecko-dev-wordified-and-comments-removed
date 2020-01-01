@@ -1095,7 +1095,10 @@ IDBDatabaseRequest
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIIDBDatabaseRequest
+IDBRequest
+:
+:
+Generator
 )
 NS_INTERFACE_MAP_ENTRY
 (

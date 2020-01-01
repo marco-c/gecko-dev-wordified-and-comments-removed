@@ -1350,3 +1350,11 @@ DOMCI_CLASS
 (
 IDBTransactionRequest
 )
+DOMCI_CLASS
+(
+IDBCursorRequest
+)
+DOMCI_CLASS
+(
+IDBKeyRange
+)
