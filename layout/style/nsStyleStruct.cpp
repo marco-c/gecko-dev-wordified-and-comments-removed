@@ -3009,7 +3009,7 @@ mTwipsPerPixel
 return
 NS_CombineHint
 (
-nsChangeHint_ReflowFrame
+nsChangeHint_UpdateOverflow
 nsChangeHint_RepaintFrame
 )
 ;
@@ -3068,7 +3068,7 @@ MaxDifference
 return
 NS_CombineHint
 (
-nsChangeHint_ReflowFrame
+nsChangeHint_UpdateOverflow
 nsChangeHint_RepaintFrame
 )
 ;
