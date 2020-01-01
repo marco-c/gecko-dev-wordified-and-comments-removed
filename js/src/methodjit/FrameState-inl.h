@@ -619,7 +619,7 @@ FrameState
 :
 pushSyncedType
 (
-uint32
+JSValueMask32
 tag
 )
 {
@@ -791,7 +791,7 @@ FrameState
 :
 pushTypedPayload
 (
-uint32
+JSValueMask32
 tag
 RegisterID
 payload
@@ -864,7 +864,7 @@ FrameState
 :
 pushUntypedPayload
 (
-uint32
+JSValueMask32
 tag
 RegisterID
 payload
@@ -907,7 +907,7 @@ masm
 .
 storeTypeTag
 (
-Imm32
+ImmTag
 (
 tag
 )
@@ -1265,7 +1265,7 @@ masm
 .
 storeTypeTag
 (
-Imm32
+ImmTag
 (
 fe
 -
@@ -1448,7 +1448,7 @@ learnType
 FrameEntry
 *
 fe
-uint32
+JSValueMask32
 tag
 )
 {

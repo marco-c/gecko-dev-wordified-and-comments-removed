@@ -132,7 +132,7 @@ isConstant
 )
 ;
 }
-uint32
+JSValueMask32
 getTypeTag
 (
 )
@@ -192,7 +192,7 @@ index_
 void
 setTypeTag
 (
-uint32
+JSValueMask32
 u32
 )
 {
