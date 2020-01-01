@@ -1757,7 +1757,7 @@ location
 line
 )
 {
-break
+continue
 ;
 }
 script
