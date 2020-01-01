@@ -223,7 +223,7 @@ IO
 ;
 typedef
 NameOps
-NO
+NOp
 ;
 }
 ;
@@ -431,7 +431,7 @@ typename
 LC
 :
 :
-NO
+NOp
 :
 :
 G
@@ -445,7 +445,7 @@ typename
 LC
 :
 :
-NO
+NOp
 :
 :
 S
@@ -485,7 +485,7 @@ hasNameGetter
 LC
 :
 :
-NO
+NOp
 :
 :
 G
@@ -497,7 +497,7 @@ hasNameSetter
 LC
 :
 :
-NO
+NOp
 :
 :
 S
