@@ -7214,7 +7214,7 @@ if
 dn
 -
 >
-isArgOrBindingForm
+isBindingForm
 (
 )
 )
@@ -11113,8 +11113,8 @@ table
 js_var_str
 js_const_str
 js_let_str
-js_argument_str
 js_function_str
+js_argument_str
 js_unknown_str
 }
 ;
@@ -11128,7 +11128,7 @@ kind
 =
 unsigned
 (
-FUNCTION
+ARG
 )
 )
 ;
