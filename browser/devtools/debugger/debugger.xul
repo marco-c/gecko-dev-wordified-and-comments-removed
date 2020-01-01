@@ -972,15 +972,6 @@ sizetopopup
 "
 always
 "
-label
-=
-"
-&
-debuggerUI
-.
-emptyScriptText
-;
-"
 /
 >
 <
