@@ -582,6 +582,7 @@ MacroAssemblerCodePtr
 code
 (
 )
+const
 {
 return
 m_code
@@ -591,6 +592,7 @@ size_t
 size
 (
 )
+const
 {
 return
 m_size
