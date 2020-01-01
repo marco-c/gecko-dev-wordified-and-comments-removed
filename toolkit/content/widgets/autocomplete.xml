@@ -1689,14 +1689,16 @@ true
 onget
 =
 "
+return
 this
 .
 PrivateBrowsingUtils
 .
-isPrivateWindow
+isWindowPrivate
 (
 window
 )
+;
 "
 /
 >
