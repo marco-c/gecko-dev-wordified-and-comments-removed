@@ -1547,7 +1547,7 @@ _epilogue
 ;
 asm_ld_imm
 (
-R2
+R0
 int
 (
 gr
@@ -1641,12 +1641,6 @@ PC
 POP_mask
 (
 savingMask
-)
-;
-MOV
-(
-R0
-R2
 )
 ;
 return
