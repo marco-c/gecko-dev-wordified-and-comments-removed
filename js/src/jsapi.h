@@ -11233,6 +11233,16 @@ JSStackFrame
 target
 )
 ;
+JSAutoCompartment
+(
+JSContext
+*
+cx
+JSString
+*
+target
+)
+;
 ~
 JSAutoCompartment
 (
