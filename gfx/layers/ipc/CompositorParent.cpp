@@ -169,7 +169,7 @@ PostDelayedTask
 (
 FROM_HERE
 composeTask
-100
+10
 )
 ;
 if
