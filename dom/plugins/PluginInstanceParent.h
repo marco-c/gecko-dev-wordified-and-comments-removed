@@ -158,9 +158,10 @@ AllocPPluginScriptableObject
 (
 )
 ;
+NS_OVERRIDE
 virtual
 bool
-AnswerPPluginScriptableObjectConstructor
+RecvPPluginScriptableObjectConstructor
 (
 PPluginScriptableObjectParent
 *

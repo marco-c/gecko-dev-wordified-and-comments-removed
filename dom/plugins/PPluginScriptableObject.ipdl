@@ -537,7 +537,7 @@ PPluginInstance
 ;
 both
 :
-rpc
+async
 __delete__
 (
 )
@@ -795,12 +795,12 @@ of
 the
 call
 .
-rpc
+async
 Protect
 (
 )
 ;
-rpc
+async
 Unprotect
 (
 )
