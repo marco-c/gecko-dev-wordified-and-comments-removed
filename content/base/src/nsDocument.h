@@ -3266,6 +3266,10 @@ const
 nsAString
 &
 charset
+const
+nsAString
+&
+aCrossOriginAttr
 )
 ;
 virtual

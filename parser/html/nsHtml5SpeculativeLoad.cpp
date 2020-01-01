@@ -132,6 +132,7 @@ PreloadStyle
 (
 mUrl
 mCharset
+mCrossOrigin
 )
 ;
 break

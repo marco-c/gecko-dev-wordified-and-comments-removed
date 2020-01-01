@@ -3201,6 +3201,10 @@ const
 nsAString
 &
 aCharset
+const
+nsAString
+&
+aCrossOriginAttr
 )
 =
 0

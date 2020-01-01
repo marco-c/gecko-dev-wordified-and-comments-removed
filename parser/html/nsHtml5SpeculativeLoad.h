@@ -218,6 +218,10 @@ const
 nsAString
 &
 aCharset
+const
+nsAString
+&
+aCrossOrigin
 )
 {
 NS_PRECONDITION
@@ -253,6 +257,13 @@ mCharset
 Assign
 (
 aCharset
+)
+;
+mCrossOrigin
+.
+Assign
+(
+aCrossOrigin
 )
 ;
 }

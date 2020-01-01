@@ -4168,6 +4168,10 @@ const
 nsAString
 &
 aCharset
+const
+nsAString
+&
+aCrossOrigin
 )
 {
 nsCOMPtr
@@ -4197,6 +4201,7 @@ PreloadStyle
 (
 uri
 aCharset
+aCrossOrigin
 )
 ;
 }
