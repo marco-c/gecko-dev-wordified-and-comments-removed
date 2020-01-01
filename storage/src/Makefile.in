@@ -480,6 +480,12 @@ cpp
 (
 NULL
 )
+LOCAL_INCLUDES
+=
+\
+(
+SQLITE_CFLAGS
+)
 #
 This
 is

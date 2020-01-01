@@ -476,6 +476,10 @@ cpp
 LOCAL_INCLUDES
 =
 \
+(
+SQLITE_CFLAGS
+)
+\
 -
 I
 (
@@ -506,10 +510,6 @@ LIB_SUFFIX
 (
 NULL
 )
-EXTRA_DSO_LIBS
-+
-=
-sqlite3
 EXTRA_DSO_LDOPTS
 +
 =
@@ -519,7 +519,7 @@ LIBS_DIR
 )
 \
 (
-EXTRA_DSO_LIBS
+SQLITE_LIBS
 )
 \
 (

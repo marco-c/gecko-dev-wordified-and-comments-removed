@@ -918,10 +918,12 @@ COMPONENT_LIBS
 +
 =
 storagecomps
-EXTRA_DSO_LIBS
+EXTRA_DSO_LDOPTS
 +
 =
-sqlite3
+(
+SQLITE_LIBS
+)
 endif
 ifdef
 MOZ_PLACES
