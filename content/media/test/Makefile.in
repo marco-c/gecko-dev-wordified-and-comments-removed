@@ -941,10 +941,6 @@ test_play_events_2
 .
 html
 \
-test_played
-.
-html
-\
 test_playback
 .
 html

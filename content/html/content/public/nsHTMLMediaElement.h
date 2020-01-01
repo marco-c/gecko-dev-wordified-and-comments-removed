@@ -92,13 +92,6 @@ nsAudioStream
 .
 h
 "
-#
-include
-"
-nsTimeRanges
-.
-h
-"
 typedef
 PRUint16
 nsMediaNetworkState
@@ -1075,12 +1068,6 @@ mAudioStream
 ;
 PRBool
 mAllowAudioData
-;
-nsTimeRanges
-mPlayed
-;
-double
-mCurrentPlayRangeStart
 ;
 PRPackedBool
 mBegun
