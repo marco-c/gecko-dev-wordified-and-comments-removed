@@ -49,7 +49,7 @@ n
 const
 kTapOverlayTimeout
 =
-300
+200
 ;
 let
 Cc
