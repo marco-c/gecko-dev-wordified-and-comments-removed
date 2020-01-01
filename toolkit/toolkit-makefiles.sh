@@ -1400,6 +1400,15 @@ idl
 /
 Makefile
 "
+MAKEFILES_jsctypes
+=
+"
+js
+/
+ctypes
+/
+Makefile
+"
 MAKEFILES_content
 =
 "
@@ -5476,6 +5485,7 @@ MAKEFILES_htmlparser
 MAKEFILES_intl
 MAKEFILES_xpconnect
 MAKEFILES_jsdebugger
+MAKEFILES_jsctypes
 MAKEFILES_content
 MAKEFILES_layout
 MAKEFILES_libimg
@@ -6316,6 +6326,13 @@ xpconnect
 tests
 /
 mochitest
+/
+Makefile
+js
+/
+ctypes
+/
+tests
 /
 Makefile
 layout

@@ -683,6 +683,8 @@ pipboot
 \
 pipnss
 \
+jsctypes
+\
 (
 NULL
 )
