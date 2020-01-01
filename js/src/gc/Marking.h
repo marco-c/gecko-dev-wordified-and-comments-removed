@@ -1197,7 +1197,7 @@ code
 )
 {
 return
-IsIonCodeMarked
+IsIonCodeAboutToBeFinalized
 (
 code
 .
