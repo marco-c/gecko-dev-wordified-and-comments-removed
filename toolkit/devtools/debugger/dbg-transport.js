@@ -873,9 +873,11 @@ aPacket
 )
 ;
 let
-self
+other
 =
 this
+.
+other
 ;
 Services
 .
@@ -892,8 +894,6 @@ function
 (
 )
 {
-self
-.
 other
 .
 hooks

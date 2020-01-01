@@ -146,7 +146,7 @@ Debugger
 :
 SourceShown
 "
-onScriptShown
+onSourceShown
 )
 ;
 gDebugger
@@ -195,7 +195,7 @@ firstCall
 )
 ;
 function
-onScriptShown
+onSourceShown
 (
 aEvent
 )
@@ -257,7 +257,7 @@ Debugger
 :
 SourceShown
 "
-onScriptShown
+onSourceShown
 )
 ;
 testStarted

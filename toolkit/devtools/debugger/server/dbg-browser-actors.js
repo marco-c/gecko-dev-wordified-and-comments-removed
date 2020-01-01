@@ -126,6 +126,9 @@ browser
 traits
 :
 {
+sources
+:
+true
 }
 }
 ;

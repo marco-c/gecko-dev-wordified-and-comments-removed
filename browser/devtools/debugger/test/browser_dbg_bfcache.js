@@ -236,7 +236,7 @@ addEventListener
 "
 Debugger
 :
-AfterScriptsAdded
+AfterSourcesAdded
 "
 function
 _onEvent
@@ -390,7 +390,7 @@ addEventListener
 "
 Debugger
 :
-AfterScriptsAdded
+AfterSourcesAdded
 "
 function
 _onEvent
@@ -552,7 +552,7 @@ addEventListener
 "
 Debugger
 :
-AfterScriptsAdded
+AfterSourcesAdded
 "
 function
 _onEvent

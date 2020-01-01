@@ -491,7 +491,7 @@ addEventListener
 "
 Debugger
 :
-AfterScriptsAdded
+AfterSourcesAdded
 "
 function
 _onEvent
