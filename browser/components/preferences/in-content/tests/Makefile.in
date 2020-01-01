@@ -147,10 +147,6 @@ browser_privacypane_6
 .
 js
 \
-browser_privacypane_7
-.
-js
-\
 browser_privacypane_8
 .
 js
@@ -158,6 +154,15 @@ js
 (
 NULL
 )
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
+_BROWSER_FILES
++
+=
+browser_privacypane_7
+.
+js
+endif
 libs
 :
 :
