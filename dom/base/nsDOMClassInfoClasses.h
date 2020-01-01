@@ -1430,3 +1430,7 @@ DOMCI_CLASS
 (
 IDBDatabaseException
 )
+DOMCI_CLASS
+(
+EventException
+)

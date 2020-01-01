@@ -152,5 +152,9 @@ FileException
 )
 DECL_INTERNAL_DOM_EXCEPTION
 (
+EventException
+)
+DECL_INTERNAL_DOM_EXCEPTION
+(
 IDBDatabaseException
 )
