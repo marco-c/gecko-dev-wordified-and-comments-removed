@@ -267,7 +267,7 @@ popup
 "
 )
 ;
-is
+isnot
 (
 doc
 .
@@ -296,6 +296,7 @@ location
 '
 command
 is
+not
 disabled
 in
 the
