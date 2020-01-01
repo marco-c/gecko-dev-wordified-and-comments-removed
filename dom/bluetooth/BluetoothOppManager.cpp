@@ -359,7 +359,7 @@ kPutRequestHeaderSize
 =
 6
 ;
-StaticAutoPtr
+StaticRefPtr
 <
 BluetoothOppManager
 >
@@ -6306,6 +6306,10 @@ Listen
 ;
 }
 }
+NS_IMPL_ISUPPORTS0
+(
+BluetoothOppManager
+)
 bool
 BluetoothOppManager
 :
