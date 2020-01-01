@@ -420,6 +420,10 @@ LinkTextView
 .
 java
 \
+MemoryMonitor
+.
+java
+\
 MenuButton
 .
 java
