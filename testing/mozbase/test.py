@@ -388,18 +388,23 @@ verbosity
 2
 )
     
-results
+unittest_results
 =
-TestResultCollection
-.
-from_unittest_results
-(
 runner
 .
 run
 (
 suite
 )
+    
+results
+=
+TestResultCollection
+.
+from_unittest_results
+(
+None
+unittest_results
 )
     
 sys
