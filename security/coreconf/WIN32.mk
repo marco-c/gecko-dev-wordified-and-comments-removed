@@ -977,6 +977,8 @@ DLLFLAGS
 +
 =
 -
+DYNAMICBASE
+-
 OUT
 :
 "
