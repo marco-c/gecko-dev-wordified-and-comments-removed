@@ -1276,6 +1276,9 @@ widget
 Modifiers
 mGestureModifiers
 ;
+PRUint16
+mGestureDownButtons
+;
 nsCOMPtr
 <
 nsIContent
