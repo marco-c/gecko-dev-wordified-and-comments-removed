@@ -605,6 +605,10 @@ MOZ_COMPONENT_LIBS
 )
 \
 (
+LCMS_LIBS
+)
+\
+(
 NULL
 )
 ifdef
