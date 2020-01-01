@@ -28,6 +28,13 @@ nsDebug
 h
 "
 #
+include
+"
+nsTraceRefcnt
+.
+h
+"
+#
 ifdef
 OS_WIN
 #

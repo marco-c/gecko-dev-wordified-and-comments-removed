@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsTraceRefcnt
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
