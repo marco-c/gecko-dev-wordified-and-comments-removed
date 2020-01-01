@@ -436,6 +436,14 @@ mk
 _TEST_FILES
 =
 \
+test_dom_fullscreen_warning
+.
+xul
+\
+dom_fullscreen_warning
+.
+xul
+\
 test_fullscreen
 .
 xul
