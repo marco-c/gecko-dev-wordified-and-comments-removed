@@ -1275,7 +1275,7 @@ W32API_VERSION
 =
 3
 .
-8
+14
 MSMANIFEST_TOOL
 =
 dnl
@@ -7334,17 +7334,9 @@ build
 ]
 )
 fi
-#
-Server
-2003
-is
-the
-highest
-version
-supported
 MOZ_WINSDK_MAXVER
 =
-0x05020000
+0x06010000
 fi
 #
 !
