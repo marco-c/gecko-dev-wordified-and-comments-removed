@@ -3260,7 +3260,6 @@ classFlags
 ;
 break
 ;
-;
 }
 switch
 (
@@ -3371,6 +3370,8 @@ classFlags
 =
 0
 ;
+break
+;
 }
 if
 (
@@ -3440,6 +3441,8 @@ classFlags
 =
 0
 ;
+break
+;
 }
 if
 (
@@ -3502,6 +3505,8 @@ CK_BBOOL
 classFlags
 =
 0
+;
+break
 ;
 }
 if
@@ -3568,7 +3573,7 @@ crv
 =
 lg_GetULongAttribute
 (
-CKA_CLASS
+CKA_CERTIFICATE_TYPE
 &
 pTemplate
 [
@@ -3590,6 +3595,8 @@ CKR_OK
 classFlags
 =
 0
+;
+break
 ;
 }
 classFlags
@@ -3657,6 +3664,8 @@ CK_BBOOL
 classFlags
 =
 0
+;
+break
 ;
 }
 classFlags

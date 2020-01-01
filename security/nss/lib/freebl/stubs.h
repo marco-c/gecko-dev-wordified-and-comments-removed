@@ -84,6 +84,10 @@ SECITEM_ZfreeItem
 SECITEM_ZfreeItem_stub
 #
 define
+NSS_SecureMemcmp
+NSS_SecureMemcmp_stub
+#
+define
 PR_Assert
 PR_Assert_stub
 #

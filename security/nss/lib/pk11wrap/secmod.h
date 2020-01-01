@@ -186,6 +186,13 @@ char
 nss
 )
 ;
+SECStatus
+SECMOD_RestartModules
+(
+PRBool
+force
+)
+;
 char
 *
 *
