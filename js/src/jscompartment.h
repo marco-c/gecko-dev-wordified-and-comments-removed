@@ -583,12 +583,6 @@ arenas
 bool
 needsBarrier_
 ;
-js
-:
-:
-BarrierGCMarker
-barrierMarker_
-;
 bool
 needsBarrier
 (
@@ -614,7 +608,10 @@ needsBarrier_
 ;
 return
 &
-barrierMarker_
+rt
+-
+>
+gcMarker
 ;
 }
 size_t
