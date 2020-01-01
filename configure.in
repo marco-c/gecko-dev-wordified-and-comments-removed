@@ -8110,10 +8110,6 @@ AC_DEFINE
 (
 HAVE_ISATTY
 )
-AC_DEFINE
-(
-HAVE_STDCALL
-)
 fi
 fi
 #
@@ -19841,6 +19837,11 @@ CXXFLAGS
 -
 mstackrealign
 "
+else
+AC_DEFINE
+(
+HAVE_STDCALL
+)
 fi
 MOZ_CHECK_HEADERS
 (
@@ -39937,8 +39938,6 @@ else
 AC_CHECK_LIB
 (
 QtSensors
-QtFeedback
-QtLocation
 main
 [
 MOZ_ENABLE_QTMOBILITY
