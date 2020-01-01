@@ -2519,6 +2519,7 @@ kNameSpaceID_XBL
 )
 |
 |
+(
 realElement
 -
 >
@@ -2544,6 +2545,7 @@ nsGkAtoms
 :
 :
 value
+)
 )
 {
 PRUint32

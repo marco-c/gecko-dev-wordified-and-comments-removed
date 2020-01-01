@@ -10816,6 +10816,7 @@ XML_HTTP_REQUEST_SENT
 ;
 if
 (
+(
 !
 mUploadComplete
 &
@@ -10825,6 +10826,7 @@ HasListenersFor
 NS_LITERAL_STRING
 (
 UPLOADPROGRESS_STR
+)
 )
 )
 |

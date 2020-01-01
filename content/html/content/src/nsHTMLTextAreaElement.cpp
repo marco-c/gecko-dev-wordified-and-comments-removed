@@ -4384,11 +4384,13 @@ VALIDITY_STATE_CUSTOM_ERROR
 )
 |
 |
+(
 mCanShowInvalidUI
 &
 &
 ShouldShowValidityUI
 (
+)
 )
 )
 )

@@ -1222,6 +1222,7 @@ entry
 mChunkId
 |
 |
+(
 mHavePartial
 &
 &
@@ -1229,6 +1230,7 @@ mHavePartial
 entry
 .
 mHavePartial
+)
 |
 |
 (
@@ -1243,6 +1245,7 @@ mPartialHash
 )
 |
 |
+(
 mHaveComplete
 &
 &
@@ -1250,6 +1253,7 @@ mHaveComplete
 entry
 .
 mHaveComplete
+)
 |
 |
 (

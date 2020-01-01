@@ -7343,6 +7343,7 @@ charLen
 if
 (
 (
+(
 unsigned
 char
 )
@@ -7370,8 +7371,10 @@ unsigned
 char
 )
 0x9f
+)
 |
 |
+(
 (
 unsigned
 char
@@ -7400,6 +7403,7 @@ unsigned
 char
 )
 0xfc
+)
 )
 *
 charLen
