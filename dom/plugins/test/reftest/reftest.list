@@ -78,7 +78,7 @@ div
 sanity
 .
 html
-random
+skip
 -
 if
 (
@@ -109,6 +109,9 @@ update
 ref
 .
 html
+#
+bug
+731962
 fails
 -
 if
