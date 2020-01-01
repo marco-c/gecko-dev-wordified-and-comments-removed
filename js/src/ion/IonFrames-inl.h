@@ -18,15 +18,6 @@ include
 "
 ion
 /
-Snapshots
-.
-h
-"
-#
-include
-"
-ion
-/
 IonFrameIterator
 .
 h

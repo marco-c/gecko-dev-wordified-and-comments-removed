@@ -44,16 +44,6 @@ BailoutId
 1
 )
 ;
-enum
-BailoutKind
-{
-Bailout_Normal
-Bailout_ArgumentCheck
-Bailout_TypeBarrier
-Bailout_Monitor
-Bailout_RecompileCheck
-}
-;
 static
 const
 uint32
