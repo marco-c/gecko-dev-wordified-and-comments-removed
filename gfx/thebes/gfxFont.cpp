@@ -10980,11 +10980,14 @@ if
 generic
 )
 {
-fc
+ForEachFontInternal
 (
 family
-gf
+groupAtom
 PR_FALSE
+aResolveFontName
+PR_FALSE
+fc
 closure
 )
 ;
