@@ -1646,6 +1646,16 @@ GetEffectiveTransform
 program
 -
 >
+SetTextureTransform
+(
+gfx3DMatrix
+(
+)
+)
+;
+program
+-
+>
 SetLayerOpacity
 (
 GetEffectiveOpacity
