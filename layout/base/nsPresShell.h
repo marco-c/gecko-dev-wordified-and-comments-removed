@@ -2951,9 +2951,9 @@ nsDisplayList
 aList
 )
 ;
-nsTArray
+nsTHashtable
 <
-nsCOMPtr
+nsRefPtrHashKey
 <
 nsIImageLoadingContent
 >
