@@ -677,6 +677,14 @@ XLIBS
 )
 \
 (
+XEXT_LIBS
+)
+\
+(
+XCOMPOSITE_LIBS
+)
+\
+(
 MOZ_GTK2_LIBS
 )
 \

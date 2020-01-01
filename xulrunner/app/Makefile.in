@@ -799,6 +799,12 @@ XLDFLAGS
 (
 XLIBS
 )
+(
+XEXT_LIBS
+)
+(
+XCOMPOSITE_LIBS
+)
 endif
 ifdef
 MOZ_JPROF
