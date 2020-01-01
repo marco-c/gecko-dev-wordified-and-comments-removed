@@ -7160,11 +7160,6 @@ if
 "
 MOZ_STATIC_COMPONENTS
 "
--
-o
-"
-MOZ_META_COMPONENTS
-"
 ]
 ;
 then
