@@ -442,13 +442,6 @@ srcdir
 mobile
 .
 js
-DIST_FILES
-=
-recommended
--
-addons
-.
-json
 ifndef
 LIBXUL_SDK
 ifneq

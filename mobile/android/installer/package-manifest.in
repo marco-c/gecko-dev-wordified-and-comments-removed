@@ -421,13 +421,6 @@ BINPATH
 res
 /
 layout
-BINPATH
-/
-recommended
--
-addons
-.
-json
 #
 endif
 #
