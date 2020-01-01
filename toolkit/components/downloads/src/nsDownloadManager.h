@@ -211,6 +211,13 @@ Init
 (
 )
 ;
+static
+nsDownloadManager
+*
+GetSingleton
+(
+)
+;
 virtual
 ~
 nsDownloadManager
@@ -587,6 +594,11 @@ nsCOMPtr
 mozIStorageStatement
 >
 mUpdateDownloadStatement
+;
+static
+nsDownloadManager
+*
+gDownloadManagerService
 ;
 friend
 class
