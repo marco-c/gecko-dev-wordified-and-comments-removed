@@ -74602,10 +74602,6 @@ AC_DEFINE
 (
 XP_UNIX
 )
-AC_DEFINE
-(
-UNIX_ASYNC_DNS
-)
 elif
 test
 "
@@ -74631,10 +74627,6 @@ then
 AC_DEFINE
 (
 XP_UNIX
-)
-AC_DEFINE
-(
-UNIX_ASYNC_DNS
 )
 fi
 if
