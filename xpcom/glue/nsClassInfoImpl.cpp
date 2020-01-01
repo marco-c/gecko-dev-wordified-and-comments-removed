@@ -151,15 +151,6 @@ char
 description
 )
 {
-NS_ERROR
-(
-"
-GetClassDescription
-not
-implemented
-"
-)
-;
 *
 description
 =
