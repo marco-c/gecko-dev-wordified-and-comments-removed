@@ -4431,7 +4431,7 @@ op
 LIR_ldcb
 )
 {
-LDSB32
+LDUB32
 (
 ra
 d
@@ -4448,7 +4448,7 @@ op
 LIR_ldcs
 )
 {
-LDSH32
+LDUH32
 (
 ra
 d

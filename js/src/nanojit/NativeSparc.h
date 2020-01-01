@@ -3427,7 +3427,7 @@ while
 )
 #
 define
-LDSB
+LDUB
 (
 rs1
 rs2
@@ -3470,7 +3470,7 @@ Format_3_1
 (
 3
 rd
-0x9
+0x1
 rs1
 0
 rs2
@@ -3484,7 +3484,7 @@ while
 )
 #
 define
-LDSBI
+LDUBI
 (
 rs1
 simm13
@@ -3524,7 +3524,7 @@ Format_3_1I
 (
 3
 rd
-0x9
+0x1
 rs1
 simm13
 )
@@ -3537,7 +3537,7 @@ while
 )
 #
 define
-LDSH
+LDUH
 (
 rs1
 rs2
@@ -3580,7 +3580,7 @@ Format_3_1
 (
 3
 rd
-0xa
+0x2
 rs1
 0
 rs2
@@ -3594,7 +3594,7 @@ while
 )
 #
 define
-LDSHI
+LDUHI
 (
 rs1
 simm13
@@ -3634,7 +3634,7 @@ Format_3_1I
 (
 3
 rd
-0xa
+0x2
 rs1
 simm13
 )
@@ -6433,7 +6433,7 @@ L0
 }
 #
 define
-LDSB32
+LDUB32
 (
 rs1
 imm32
@@ -6449,7 +6449,7 @@ imm32
 )
 {
 \
-LDSBI
+LDUBI
 (
 rs1
 imm32
@@ -6461,7 +6461,7 @@ rd
 else
 {
 \
-LDSB
+LDUB
 (
 rs1
 L0
@@ -6479,7 +6479,7 @@ L0
 }
 #
 define
-LDSH32
+LDUH32
 (
 rs1
 imm32
@@ -6495,7 +6495,7 @@ imm32
 )
 {
 \
-LDSHI
+LDUHI
 (
 rs1
 imm32
@@ -6507,7 +6507,7 @@ rd
 else
 {
 \
-LDSH
+LDUH
 (
 rs1
 L0
