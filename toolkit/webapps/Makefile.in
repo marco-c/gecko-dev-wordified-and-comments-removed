@@ -96,6 +96,10 @@ WebappOSUtils
 .
 jsm
 \
+WebappsInstaller
+.
+jsm
+\
 (
 NULL
 )

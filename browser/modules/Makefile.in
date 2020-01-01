@@ -150,16 +150,6 @@ jsm
 NULL
 )
 endif
-EXTRA_PP_JS_MODULES
-=
-\
-WebappsInstaller
-.
-jsm
-\
-(
-NULL
-)
 include
 (
 topsrcdir
