@@ -3826,6 +3826,15 @@ doTransaction
 txn
 )
 ;
+this
+.
+_places
+.
+selectPlaceURI
+(
+placeSpec
+)
+;
 }
 }
 ;
