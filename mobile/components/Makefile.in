@@ -553,15 +553,12 @@ UpdatePrompt
 .
 js
 endif
-ifndef
-ANDROID
 EXTRA_COMPONENTS
 +
 =
 AlertsService
 .
 js
-endif
 ifneq
 (
 Android
