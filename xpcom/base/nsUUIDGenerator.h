@@ -70,6 +70,13 @@ defined
 (
 XP_MACOSX
 )
+&
+&
+!
+defined
+(
+ANDROID
+)
 char
 mState
 [
