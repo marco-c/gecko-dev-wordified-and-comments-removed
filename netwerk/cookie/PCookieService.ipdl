@@ -119,10 +119,6 @@ protocol
 PNecko
 ;
 include
-protocol
-PBrowser
-;
-include
 URIParams
 ;
 include
@@ -437,9 +433,6 @@ bool
 fromHttp
 SerializedLoadContext
 loadContext
-nullable
-PBrowser
-browser
 )
 returns
 (
@@ -666,9 +659,6 @@ bool
 fromHttp
 SerializedLoadContext
 loadContext
-nullable
-PBrowser
-browser
 )
 ;
 __delete__
