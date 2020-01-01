@@ -2820,7 +2820,7 @@ SimpleTest
 isDeeply
 ;
 const
-oldOnError
+gOldOnError
 =
 window
 .
@@ -2869,12 +2869,12 @@ errorMsg
 ;
 if
 (
-oldOnError
+gOldOnError
 )
 {
 try
 {
-oldOnError
+gOldOnError
 (
 errorMsg
 url
@@ -2896,7 +2896,7 @@ funcIdentifier
 Exception
 thrown
 by
-oldOnError
+gOldOnError
 (
 )
 "
