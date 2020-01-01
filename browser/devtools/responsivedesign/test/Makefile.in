@@ -452,10 +452,6 @@ head
 .
 js
 \
-helpers
-.
-js
-\
 (
 NULL
 )
