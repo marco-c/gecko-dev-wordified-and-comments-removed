@@ -9136,6 +9136,9 @@ LValueToInt32
 tempFloat
 (
 )
+temp
+(
+)
 LValueToInt32
 :
 :
@@ -9166,6 +9169,13 @@ lir
 &
 &
 define
+(
+lir
+convert
+)
+&
+&
+assignSafepoint
 (
 lir
 convert
@@ -9348,6 +9358,9 @@ LValueToInt32
 tempFloat
 (
 )
+temp
+(
+)
 LValueToInt32
 :
 :
@@ -9378,6 +9391,13 @@ lir
 &
 &
 define
+(
+lir
+truncate
+)
+&
+&
+assignSafepoint
 (
 lir
 truncate
