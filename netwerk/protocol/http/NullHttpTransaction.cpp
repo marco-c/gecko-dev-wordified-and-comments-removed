@@ -79,6 +79,10 @@ mRequestHead
 (
 nsnull
 )
+mIsDone
+(
+false
+)
 {
 }
 NullHttpTransaction
@@ -239,7 +243,7 @@ IsDone
 )
 {
 return
-true
+mIsDone
 ;
 }
 nsresult
@@ -298,6 +302,10 @@ countRead
 countRead
 =
 0
+;
+mIsDone
+=
+true
 ;
 return
 NS_BASE_STREAM_CLOSED
@@ -465,6 +473,10 @@ reason
 mConnection
 =
 nsnull
+;
+mIsDone
+=
+true
 ;
 }
 nsresult

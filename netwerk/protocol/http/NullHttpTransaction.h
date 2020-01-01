@@ -128,6 +128,9 @@ nsHttpRequestHead
 *
 mRequestHead
 ;
+bool
+mIsDone
+;
 }
 ;
 }
