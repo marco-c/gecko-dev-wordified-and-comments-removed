@@ -1457,6 +1457,9 @@ newRect
 {
 if
 (
+assumeConstantSize
+&
+&
 updatedX
 &
 &
@@ -1466,6 +1469,9 @@ break
 ;
 if
 (
+assumeConstantSize
+&
+&
 updatedX
 &
 &
@@ -1494,6 +1500,9 @@ continue
 ;
 if
 (
+assumeConstantSize
+&
+&
 updatedY
 &
 &
