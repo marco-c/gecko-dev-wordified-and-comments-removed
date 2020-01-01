@@ -512,6 +512,16 @@ CPPSRCS
 nsHapticFeedback
 .
 cpp
+LOCAL_INCLUDES
++
+=
+(
+MOZ_DBUS_CFLAGS
+)
+\
+(
+NULL
+)
 endif
 include
 (
