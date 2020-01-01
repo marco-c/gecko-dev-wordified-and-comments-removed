@@ -3762,7 +3762,7 @@ bool
 CycleCollectedJSRuntime
 :
 :
-TestJSHolder
+IsJSHolder
 (
 void
 *

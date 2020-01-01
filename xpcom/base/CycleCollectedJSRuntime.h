@@ -633,7 +633,7 @@ aHolder
 ifdef
 DEBUG
 bool
-TestJSHolder
+IsJSHolder
 (
 void
 *
