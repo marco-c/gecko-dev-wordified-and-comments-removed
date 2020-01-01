@@ -869,7 +869,7 @@ remove
 (
 AnnouncementsConstants
 .
-PREF_LAST_FETCH
+PREF_LAST_FETCH_LOCAL_TIME
 )
 ;
 editor

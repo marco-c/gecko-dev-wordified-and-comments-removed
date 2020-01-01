@@ -34,6 +34,12 @@ getLastFetch
 )
 ;
 public
+String
+getLastDate
+(
+)
+;
+public
 Locale
 getLocale
 (
@@ -56,7 +62,9 @@ void
 onNoNewAnnouncements
 (
 long
-fetched
+localFetchTime
+String
+serverDate
 )
 ;
 public
@@ -69,7 +77,9 @@ Announcement
 >
 snippets
 long
-fetched
+localFetchTime
+String
+serverDate
 )
 ;
 public
