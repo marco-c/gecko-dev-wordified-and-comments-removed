@@ -55,13 +55,6 @@ nsEventDispatcher
 h
 "
 #
-include
-"
-xpcprivate
-.
-h
-"
-#
 define
 ERROR_STR
 "
