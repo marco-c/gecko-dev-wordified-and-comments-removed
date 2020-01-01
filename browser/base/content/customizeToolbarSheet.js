@@ -413,7 +413,7 @@ document
 getElementById
 (
 "
-browser
+navigator
 -
 toolbox
 "

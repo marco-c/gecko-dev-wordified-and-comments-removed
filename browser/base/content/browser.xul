@@ -2279,7 +2279,7 @@ toolbox
 id
 =
 "
-browser
+navigator
 -
 toolbox
 "
@@ -4462,9 +4462,9 @@ toolbar
 id
 =
 "
-navigation
+nav
 -
-toolbar
+bar
 "
 class
 =
@@ -4771,9 +4771,7 @@ toolbar
 id
 =
 "
-personal
--
-toolbar
+PersonalToolbar
 "
 mode
 =
