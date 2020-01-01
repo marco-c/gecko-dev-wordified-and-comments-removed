@@ -65,6 +65,9 @@ h
 ifdef
 XP_WIN
 #
+ifndef
+WINCE
+#
 include
 <
 shlobj
@@ -78,6 +81,8 @@ intshcut
 .
 h
 >
+#
+endif
 #
 include
 "
