@@ -1573,7 +1573,14 @@ L
 Activation
 succeeded
 .
-processid
+"
+)
+;
+Log
+(
+L
+"
+METRO_BROWSER_PROCESS
 =
 %
 d
