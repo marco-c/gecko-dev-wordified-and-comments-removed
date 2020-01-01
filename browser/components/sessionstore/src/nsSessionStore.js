@@ -21199,6 +21199,11 @@ if
 aBrowser
 .
 __SS_restoreState
+&
+&
+aBrowser
+.
+__SS_restoreState
 =
 =
 TAB_STATE_RESTORING
