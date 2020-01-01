@@ -314,11 +314,6 @@ nsDOMAttributeMap
 (
 )
 ;
-bool
-Init
-(
-)
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMNAMEDNODEMAP
 void
