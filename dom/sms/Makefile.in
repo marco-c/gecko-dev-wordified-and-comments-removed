@@ -410,6 +410,11 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+dom
+/
+sms
 include
 (
 DEPTH
@@ -428,6 +433,9 @@ ifdef
 ENABLE_TESTS
 DIRS
 +
+=
+tests
+XPCSHELL_TESTS
 =
 tests
 endif
