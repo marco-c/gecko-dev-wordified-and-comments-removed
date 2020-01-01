@@ -4547,6 +4547,9 @@ GetSingleton
 ;
 if
 (
+cache
+&
+&
 NS_SUCCEEDED
 (
 cache
@@ -4885,6 +4888,9 @@ false
 if
 (
 allFontsExtracted
+&
+&
+cache
 )
 {
 cache
