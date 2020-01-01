@@ -592,13 +592,6 @@ OS_ARCH
 )
 )
 )
-PWD
-:
-=
-(
-shell
-pwd
-)
 _VPATH_SRCS
 =
 (
@@ -611,7 +604,7 @@ filter
 )
 <
 (
-PWD
+CURDIR
 )
 /
 <
