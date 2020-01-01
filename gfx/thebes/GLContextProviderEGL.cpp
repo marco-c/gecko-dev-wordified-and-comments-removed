@@ -9503,6 +9503,18 @@ return
 nsnull
 ;
 }
+ContextFormat
+actualFormat
+(
+aFormat
+)
+;
+actualFormat
+.
+samples
+=
+0
+;
 #
 if
 defined
@@ -9522,7 +9534,7 @@ GLContextEGL
 CreateEGLPBufferOffscreenContext
 (
 aSize
-aFormat
+actualFormat
 )
 ;
 #
@@ -9544,7 +9556,7 @@ GLContextEGL
 CreateBasicEGLPixmapOffscreenContext
 (
 aSize
-aFormat
+actualFormat
 )
 ;
 #
@@ -9565,7 +9577,7 @@ GLContextEGL
 CreateEGLPixmapOffscreenContext
 (
 aSize
-aFormat
+actualFormat
 true
 )
 ;
