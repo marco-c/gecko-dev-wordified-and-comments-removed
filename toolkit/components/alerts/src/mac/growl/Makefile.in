@@ -443,11 +443,7 @@ GrowlApplicationBridge
 .
 m
 \
-GrowlPathUtil
-.
-m
-\
-NSURLAdditions
+GrowlPathUtilities
 .
 m
 \
@@ -458,6 +454,14 @@ CSRCS
 =
 \
 CFGrowlAdditions
+.
+c
+\
+CFMutableDictionaryAdditions
+.
+c
+\
+CFURLAdditions
 .
 c
 \
