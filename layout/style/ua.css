@@ -226,6 +226,14 @@ after
 :
 inherit
 ;
+page
+-
+break
+-
+inside
+:
+inherit
+;
 vertical
 -
 align

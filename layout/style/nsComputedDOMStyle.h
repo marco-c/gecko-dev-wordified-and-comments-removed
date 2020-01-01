@@ -1452,6 +1452,12 @@ DoGetPageBreakBefore
 ;
 nsIDOMCSSValue
 *
+DoGetPageBreakInside
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetTransform
 (
 )
