@@ -427,7 +427,12 @@ GetJSContextForEventHandlers
 MOZ_OVERRIDE
 {
 return
-mCx
+nsContentUtils
+:
+:
+GetSafeJSContext
+(
+)
 ;
 }
 virtual
