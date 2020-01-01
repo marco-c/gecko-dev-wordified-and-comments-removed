@@ -485,6 +485,8 @@ DLL_PREFIX
 softokn3
 .
 chk
+ifndef
+NSS_DISABLE_DBM
 NSSDBM3_LIB
 =
 (
@@ -494,6 +496,10 @@ nssdbm3
 (
 DLL_SUFFIX
 )
+else
+NSSDBM3_LIB
+=
+endif
 ifndef
 MOZ_NATIVE_NSS
 ifneq
@@ -1184,6 +1190,15 @@ DEFAULT_GMAKE_FLAGS
 NSS_ENABLE_ECC
 =
 1
+ifdef
+NSS_DISABLE_DBM
+DEFAULT_GMAKE_FLAGS
++
+=
+NSS_DISABLE_DBM
+=
+1
+endif
 ABS_topsrcdir
 :
 =
@@ -1741,6 +1756,8 @@ coreconf
 (
 DEFAULT_GMAKE_FLAGS
 )
+ifndef
+NSS_DISABLE_DBM
 (
 MAKE
 )
@@ -1756,6 +1773,7 @@ dbm
 (
 DEFAULT_GMAKE_FLAGS
 )
+endif
 (
 MAKE
 )
@@ -1953,6 +1971,8 @@ DIST
 )
 /
 bin
+ifndef
+NSS_DISABLE_DBM
 (
 INSTALL
 )
@@ -1973,6 +1993,7 @@ DIST
 )
 /
 bin
+endif
 (
 INSTALL
 )
