@@ -160,7 +160,7 @@ Pages
 <
 !
 ENTITY
-useBookmark
+chooseBookmark
 .
 label
 "
@@ -171,7 +171,7 @@ Bookmark
 <
 !
 ENTITY
-useBookmark
+chooseBookmark
 .
 accesskey
 "

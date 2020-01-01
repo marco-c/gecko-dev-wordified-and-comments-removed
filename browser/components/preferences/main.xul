@@ -1500,7 +1500,7 @@ label
 =
 "
 &
-useBookmark
+chooseBookmark
 .
 label
 ;
@@ -1509,7 +1509,7 @@ accesskey
 =
 "
 &
-useBookmark
+chooseBookmark
 .
 accesskey
 ;
