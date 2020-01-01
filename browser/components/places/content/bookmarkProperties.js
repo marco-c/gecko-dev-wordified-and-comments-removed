@@ -1689,7 +1689,7 @@ nsIMicrosummaryObserver
 |
 aIID
 .
-eqauls
+equals
 (
 Ci
 .
