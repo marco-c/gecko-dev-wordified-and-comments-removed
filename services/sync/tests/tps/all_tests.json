@@ -119,10 +119,5 @@ test_special_tabs
 .
 js
 "
-"
-test_mozmill_sanity
-.
-js
-"
 ]
 }
