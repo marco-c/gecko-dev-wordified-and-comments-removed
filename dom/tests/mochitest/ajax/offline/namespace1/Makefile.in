@@ -454,6 +454,10 @@ opp
 .
 html
 \
+script
+.
+js
+\
 (
 NULL
 )
