@@ -1300,9 +1300,7 @@ org
 LOCALE
 %
 /
-%
-APP
-%
+mobile
 /
 api
 /
@@ -1360,9 +1358,7 @@ com
 LOCALE
 %
 /
-%
-APP
-%
+mobile
 /
 search
 ?
@@ -1402,9 +1398,7 @@ org
 LOCALE
 %
 /
-%
-APP
-%
+mobile
 /
 api
 /
