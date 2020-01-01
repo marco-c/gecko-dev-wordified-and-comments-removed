@@ -181,10 +181,6 @@ imgRequest
 (
 )
 :
-mObservers
-(
-0
-)
 mLoading
 (
 PR_FALSE
