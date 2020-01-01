@@ -335,6 +335,15 @@ nsIMarkupDocumentViewer
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #
@@ -2029,6 +2038,7 @@ mozilla
 {
 class
 WebShellWindowTimerCallback
+MOZ_FINAL
 :
 public
 nsITimerCallback
