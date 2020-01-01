@@ -13166,6 +13166,10 @@ sender
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
+RollUpPopups
+(
+)
+;
 nsCocoaWindow
 *
 geckoWindow
