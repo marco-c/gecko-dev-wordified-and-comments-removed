@@ -1188,7 +1188,7 @@ Volatile
 ;
 regs
 .
-maybeTake
+takeUnchecked
 (
 output
 )
@@ -1220,7 +1220,7 @@ Volatile
 ;
 regs
 .
-maybeTake
+takeUnchecked
 (
 output
 )
@@ -1252,7 +1252,7 @@ Volatile
 ;
 regs
 .
-maybeTake
+takeUnchecked
 (
 output
 )
@@ -1284,7 +1284,7 @@ Volatile
 ;
 regs
 .
-maybeTake
+takeUnchecked
 (
 output
 )

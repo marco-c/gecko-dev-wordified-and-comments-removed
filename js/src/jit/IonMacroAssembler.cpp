@@ -7290,7 +7290,7 @@ regs
 ;
 regs
 .
-maybeTake
+takeUnchecked
 (
 value
 )

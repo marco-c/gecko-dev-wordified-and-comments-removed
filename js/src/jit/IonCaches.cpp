@@ -10163,7 +10163,7 @@ constant
 )
 regSet
 .
-maybeTake
+takeUnchecked
 (
 value
 (
@@ -10602,7 +10602,7 @@ constant
 )
 regSet
 .
-maybeTake
+takeUnchecked
 (
 value
 .
@@ -14500,7 +14500,7 @@ regs
 ;
 regs
 .
-maybeTake
+takeUnchecked
 (
 str
 )

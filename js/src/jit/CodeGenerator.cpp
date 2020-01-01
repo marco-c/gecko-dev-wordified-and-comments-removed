@@ -14044,7 +14044,7 @@ liveRegs
 ;
 saveSet
 .
-maybeTake
+takeUnchecked
 (
 tempReg
 )
@@ -14337,7 +14337,7 @@ liveRegs
 ;
 saveSet
 .
-maybeTake
+takeUnchecked
 (
 tempReg
 )
@@ -18379,7 +18379,7 @@ CallTempReg1
 ;
 saveSet
 .
-maybeTake
+takeUnchecked
 (
 AnyRegister
 (
@@ -29010,7 +29010,7 @@ liveRegs
 ;
 saveSet
 .
-maybeTake
+takeUnchecked
 (
 object
 )
