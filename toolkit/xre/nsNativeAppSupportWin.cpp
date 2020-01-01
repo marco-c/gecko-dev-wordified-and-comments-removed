@@ -2104,10 +2104,17 @@ s
 s
 "
 MOZ_MUTEX_NAMESPACE
+NS_ConvertUTF8toUTF16
+(
 gAppData
 -
 >
 name
+)
+.
+get
+(
+)
 MOZ_STARTUP_MUTEX_NAME
 )
 ;
