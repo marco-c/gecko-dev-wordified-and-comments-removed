@@ -118,6 +118,14 @@ Init
 private
 :
 nsresult
+Init
+(
+nsIFile
+*
+aOmniJar
+)
+;
+nsresult
 AddSpecialDir
 (
 const
