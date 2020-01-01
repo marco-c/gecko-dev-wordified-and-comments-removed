@@ -551,6 +551,13 @@ PRBool
 offline
 )
 ;
+async
+NotifyVisited
+(
+URI
+uri
+)
+;
 NotifyRemotePrefObserver
 (
 nsCString
@@ -572,6 +579,13 @@ URI
 referrer
 PRUint32
 flags
+)
+;
+async
+StartVisitedQuery
+(
+URI
+uri
 )
 ;
 /
