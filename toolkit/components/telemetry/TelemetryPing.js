@@ -299,13 +299,6 @@ peak
 MEMORY_JS_MAIN_RUNTIME_TEMPORARY_PEAK
 "
 "
-explicit
-"
-:
-"
-MEMORY_EXPLICIT
-"
-"
 resident
 -
 fast
