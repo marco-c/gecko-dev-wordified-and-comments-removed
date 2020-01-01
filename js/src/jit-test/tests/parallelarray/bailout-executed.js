@@ -61,7 +61,7 @@ array
 range
 (
 0
-768
+minItemsTestingThreshold
 )
 ;
 var
@@ -99,12 +99,6 @@ map
 (
 makeObject
 m
-)
-;
-assertStructuralEq
-(
-pa1
-array1
 )
 ;
 }

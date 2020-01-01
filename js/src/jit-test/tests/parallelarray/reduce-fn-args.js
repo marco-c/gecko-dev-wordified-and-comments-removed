@@ -19,7 +19,7 @@ testReduce
 var
 N
 =
-64
+minItemsTestingThreshold
 ;
 var
 p

@@ -24,7 +24,9 @@ compareAgainstArray
 range
 (
 0
-617
+minItemsTestingThreshold
++
+17
 )
 "
 filter

@@ -22,7 +22,7 @@ ints
 range
 (
 0
-1024
+minItemsTestingThreshold
 )
 ;
 var

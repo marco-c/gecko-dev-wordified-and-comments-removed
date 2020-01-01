@@ -19,7 +19,7 @@ testDivideScatterVector
 var
 len
 =
-1024
+minItemsTestingThreshold
 ;
 function
 add1

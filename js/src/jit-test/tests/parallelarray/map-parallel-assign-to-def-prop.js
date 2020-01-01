@@ -50,7 +50,7 @@ compareAgainstArray
 range
 (
 0
-64
+minItemsTestingThreshold
 )
 "
 map
