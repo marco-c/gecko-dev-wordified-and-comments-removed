@@ -430,17 +430,6 @@ aNode
 static
 txXPathNode
 *
-getDocument
-(
-const
-txXPathNode
-&
-aNode
-)
-;
-static
-txXPathNode
-*
 getOwnerDocument
 (
 const
