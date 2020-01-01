@@ -863,6 +863,14 @@ srcPath
 nsCAutoString
 dstPath
 ;
+if
+(
+!
+resultCString
+)
+return
+nsnull
+;
 *
 resultCString
 =
