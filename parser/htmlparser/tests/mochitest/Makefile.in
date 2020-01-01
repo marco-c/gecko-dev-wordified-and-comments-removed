@@ -79,16 +79,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-\
-dir_bug534293
-\
-html5lib_tree_construction
-\
-(
-NULL
-)
 MOCHITEST_FILES
 =
 parser_datreader

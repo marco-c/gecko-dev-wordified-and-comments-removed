@@ -76,14 +76,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-\
-mochitest
-\
-(
-NULL
-)
 include
 (
 topsrcdir

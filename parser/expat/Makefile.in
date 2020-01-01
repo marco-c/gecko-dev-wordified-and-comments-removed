@@ -78,9 +78,6 @@ mk
 MODULE
 =
 expat
-DIRS
-=
-lib
 EXPORTS
 =
 expat_config
