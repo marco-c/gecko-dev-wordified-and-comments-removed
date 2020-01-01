@@ -8,13 +8,6 @@ h
 #
 if
 ENABLE_ASSEMBLER
-#
-include
-"
-prmjtime
-.
-h
-"
 namespace
 JSC
 {

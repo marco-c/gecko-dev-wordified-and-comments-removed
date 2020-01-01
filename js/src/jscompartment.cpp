@@ -583,7 +583,6 @@ jc
 >
 Initialize
 (
-cx
 )
 )
 {
