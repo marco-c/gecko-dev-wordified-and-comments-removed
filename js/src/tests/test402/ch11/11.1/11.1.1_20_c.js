@@ -449,6 +449,9 @@ TZS
 UAH
 :
 2
+UGX
+:
+0
 USD
 :
 2
