@@ -1420,6 +1420,13 @@ mString
 ;
 }
 }
+else
+{
+ResetInputState
+(
+)
+;
+}
 mIMEPreference
 .
 mWantUpdates
