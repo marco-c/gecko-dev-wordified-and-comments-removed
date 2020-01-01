@@ -433,10 +433,10 @@ objects
 /
 .
 global
-XPTC_InvokeByIndex
+NS_InvokeByIndex_P
 /
 *
-XPTC_InvokeByIndex
+NS_InvokeByIndex
 (
 nsISupports
 *
@@ -452,7 +452,7 @@ params
 ;
 *
 /
-XPTC_InvokeByIndex
+NS_InvokeByIndex_P
 :
 save
 %
