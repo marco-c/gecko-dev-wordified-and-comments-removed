@@ -442,10 +442,6 @@ mk
 _TEST_FILES
 =
 \
-test_lastPosition
-.
-html
-\
 test_manyWindows
 .
 html
