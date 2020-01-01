@@ -1049,6 +1049,10 @@ plugin_bug749455
 .
 html
 \
+plugin_hidden_to_visible
+.
+html
+\
 alltabslistener
 .
 html
