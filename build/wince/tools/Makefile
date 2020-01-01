@@ -396,6 +396,8 @@ DEVENV_FLAG
 CC
 =
 cl
+-
+O2
 MOZCE_DEVENV
 =
 vs
