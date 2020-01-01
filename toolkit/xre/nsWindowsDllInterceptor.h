@@ -365,6 +365,15 @@ i
 !
 =
 0x90
+&
+&
+fn
+[
+i
+]
+!
+=
+0xcc
 )
 return
 false
