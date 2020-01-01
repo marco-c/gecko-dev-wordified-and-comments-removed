@@ -423,7 +423,7 @@ historyObserver
 false
 )
 ;
-finish_test
+do_test_finished
 (
 )
 ;

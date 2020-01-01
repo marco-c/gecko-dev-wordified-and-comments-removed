@@ -415,7 +415,7 @@ this
 kSyncFinished
 )
 ;
-finish_test
+do_test_finished
 (
 )
 ;

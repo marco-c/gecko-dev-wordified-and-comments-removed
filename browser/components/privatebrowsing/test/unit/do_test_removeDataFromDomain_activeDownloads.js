@@ -580,8 +580,4 @@ i
 removed
 )
 ;
-shutdownPlaces
-(
-)
-;
 }

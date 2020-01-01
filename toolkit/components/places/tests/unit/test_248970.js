@@ -264,7 +264,7 @@ aType
 )
 {
 var
-placeID
+visitId
 =
 histsvc
 .
@@ -288,7 +288,7 @@ false
 )
 ;
 return
-placeID
+visitId
 ;
 }
 function
@@ -1063,10 +1063,6 @@ if
 pb
 )
 {
-start_sync
-(
-)
-;
 var
 os
 =
@@ -1494,7 +1490,7 @@ keep_current_session
 "
 )
 ;
-finish_test
+do_test_finished
 (
 )
 ;

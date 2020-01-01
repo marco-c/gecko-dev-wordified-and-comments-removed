@@ -1,7 +1,3 @@
-start_sync
-(
-)
-;
 let
 hs
 =
@@ -1272,7 +1268,7 @@ finalize
 (
 )
 ;
-finish_test
+do_test_finished
 (
 )
 ;

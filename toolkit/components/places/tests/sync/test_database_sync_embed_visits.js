@@ -745,7 +745,7 @@ finalize
 (
 )
 ;
-finish_test
+do_test_finished
 (
 )
 ;

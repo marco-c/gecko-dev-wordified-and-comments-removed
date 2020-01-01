@@ -275,7 +275,7 @@ bs
 toolbarFolder
 )
 ;
-finish_test
+do_test_finished
 (
 )
 ;

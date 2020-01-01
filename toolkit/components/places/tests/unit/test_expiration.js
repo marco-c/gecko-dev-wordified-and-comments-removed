@@ -1,7 +1,3 @@
-start_sync
-(
-)
-;
 var
 histsvc
 =
@@ -4386,7 +4382,7 @@ n
 "
 )
 ;
-finish_test
+do_test_finished
 (
 )
 ;
