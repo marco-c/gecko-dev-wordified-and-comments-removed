@@ -14266,6 +14266,15 @@ if
 gtk2Widget
 4
 )
+asserts
+-
+if
+(
+winWidget
+0
+-
+4
+)
 !
 =
 421710
