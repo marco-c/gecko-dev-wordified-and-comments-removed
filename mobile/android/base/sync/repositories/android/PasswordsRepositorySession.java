@@ -3052,11 +3052,13 @@ debug
 (
 LOG_TAG
 "
-Fetched
+Processing
 record
 "
 +
 r
+.
+guid
 )
 ;
 delegate
