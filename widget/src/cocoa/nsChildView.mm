@@ -20679,7 +20679,7 @@ carbonEvent
 .
 what
 =
-nullEvent
+NPEventType_AdjustCursorEvent
 ;
 carbonEvent
 .
