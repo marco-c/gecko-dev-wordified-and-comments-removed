@@ -1391,9 +1391,9 @@ uint32_t
 aGlyphId
 int
 aDrawMode
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 )
 {
 NS_ASSERTION
@@ -1431,7 +1431,7 @@ DrawMode
 (
 aDrawMode
 )
-aContextPaint
+aObjectPaint
 )
 ;
 }
@@ -9824,9 +9824,9 @@ DrawMode
 aDrawMode
 bool
 aReverse
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 const
 gfxMatrix
 &
@@ -9971,7 +9971,7 @@ GLYPH_STROKE_UNDERNEATH
 FlushStroke
 (
 aCR
-aContextPaint
+aObjectPaint
 aGlobalMatrix
 )
 ;
@@ -10004,7 +10004,7 @@ pattern
 ;
 if
 (
-aContextPaint
+aObjectPaint
 &
 &
 !
@@ -10012,7 +10012,7 @@ aContextPaint
 (
 pattern
 =
-aContextPaint
+aObjectPaint
 -
 >
 GetFillPattern
@@ -10086,7 +10086,7 @@ GLYPH_STROKE
 FlushStroke
 (
 aCR
-aContextPaint
+aObjectPaint
 aGlobalMatrix
 )
 ;
@@ -10105,9 +10105,9 @@ FlushStroke
 cairo_t
 *
 aCR
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 const
 gfxMatrix
 &
@@ -10122,7 +10122,7 @@ pattern
 ;
 if
 (
-aContextPaint
+aObjectPaint
 &
 &
 !
@@ -10130,7 +10130,7 @@ aContextPaint
 (
 pattern
 =
-aContextPaint
+aObjectPaint
 -
 >
 GetStrokePattern
@@ -10297,9 +10297,9 @@ Flush
 DrawTarget
 *
 aDT
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 ScaledFont
 *
 aFont
@@ -10452,7 +10452,7 @@ GLYPH_STROKE_UNDERNEATH
 FlushStroke
 (
 aDT
-aContextPaint
+aObjectPaint
 aFont
 aThebesContext
 buf
@@ -10477,7 +10477,7 @@ state
 pattern
 |
 |
-aContextPaint
+aObjectPaint
 )
 {
 Pattern
@@ -10493,14 +10493,14 @@ fillPattern
 if
 (
 !
-aContextPaint
+aObjectPaint
 |
 |
 !
 (
 fillPattern
 =
-aContextPaint
+aObjectPaint
 -
 >
 GetFillPattern
@@ -10834,7 +10834,7 @@ GLYPH_STROKE
 FlushStroke
 (
 aDT
-aContextPaint
+aObjectPaint
 aFont
 aThebesContext
 buf
@@ -10855,9 +10855,9 @@ FlushStroke
 DrawTarget
 *
 aDT
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 ScaledFont
 *
 aFont
@@ -10895,7 +10895,7 @@ aDT
 ;
 if
 (
-aContextPaint
+aObjectPaint
 )
 {
 nsRefPtr
@@ -10904,7 +10904,7 @@ gfxPattern
 >
 strokePattern
 =
-aContextPaint
+aObjectPaint
 -
 >
 GetStrokePattern
@@ -11136,9 +11136,9 @@ aPt
 Spacing
 *
 aSpacing
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 gfxTextRunDrawCallbacks
 *
 aCallbacks
@@ -11270,9 +11270,9 @@ this
 ;
 nsAutoPtr
 <
-gfxTextContextPaint
+gfxTextObjectPaint
 >
-contextPaint
+objectPaint
 ;
 if
 (
@@ -11280,7 +11280,7 @@ haveSVGGlyphs
 &
 &
 !
-aContextPaint
+aObjectPaint
 )
 {
 NS_ASSERTION
@@ -11316,10 +11316,10 @@ GetPattern
 (
 )
 ;
-contextPaint
+objectPaint
 =
 new
-SimpleTextContextPaint
+SimpleTextObjectPaint
 (
 fillPattern
 nullptr
@@ -11331,9 +11331,9 @@ CurrentMatrix
 )
 )
 ;
-aContextPaint
+aObjectPaint
 =
-contextPaint
+objectPaint
 ;
 }
 double
@@ -11637,7 +11637,7 @@ glyphData
 GetSimpleGlyph
 (
 )
-aContextPaint
+aObjectPaint
 aCallbacks
 emittedGlyphs
 )
@@ -11696,7 +11696,7 @@ Flush
 cr
 aDrawMode
 isRTL
-aContextPaint
+aObjectPaint
 globalMatrix
 )
 ;
@@ -11778,7 +11778,7 @@ Flush
 cr
 aDrawMode
 isRTL
-aContextPaint
+aObjectPaint
 globalMatrix
 )
 ;
@@ -12061,7 +12061,7 @@ details
 -
 >
 mGlyphID
-aContextPaint
+aObjectPaint
 aCallbacks
 emittedGlyphs
 )
@@ -12123,7 +12123,7 @@ Flush
 cr
 aDrawMode
 isRTL
-aContextPaint
+aObjectPaint
 globalMatrix
 )
 ;
@@ -12205,7 +12205,7 @@ Flush
 cr
 aDrawMode
 isRTL
-aContextPaint
+aObjectPaint
 globalMatrix
 )
 ;
@@ -12317,7 +12317,7 @@ Flush
 cr
 aDrawMode
 isRTL
-aContextPaint
+aObjectPaint
 globalMatrix
 true
 )
@@ -12690,7 +12690,7 @@ glyphData
 GetSimpleGlyph
 (
 )
-aContextPaint
+aObjectPaint
 aCallbacks
 emittedGlyphs
 )
@@ -12763,7 +12763,7 @@ glyphs
 Flush
 (
 dt
-aContextPaint
+aObjectPaint
 scaledFont
 aDrawMode
 isRTL
@@ -12867,7 +12867,7 @@ glyphs
 Flush
 (
 dt
-aContextPaint
+aObjectPaint
 scaledFont
 aDrawMode
 isRTL
@@ -13156,7 +13156,7 @@ details
 -
 >
 mGlyphID
-aContextPaint
+aObjectPaint
 aCallbacks
 emittedGlyphs
 )
@@ -13232,7 +13232,7 @@ glyphs
 Flush
 (
 dt
-aContextPaint
+aObjectPaint
 scaledFont
 aDrawMode
 isRTL
@@ -13336,7 +13336,7 @@ glyphs
 Flush
 (
 dt
-aContextPaint
+aObjectPaint
 scaledFont
 aDrawMode
 isRTL
@@ -13420,7 +13420,7 @@ glyphs
 Flush
 (
 dt
-aContextPaint
+aObjectPaint
 scaledFont
 aDrawMode
 isRTL
@@ -13489,9 +13489,9 @@ DrawMode
 aDrawMode
 uint32_t
 aGlyphId
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 )
 {
 if
@@ -13559,7 +13559,7 @@ devUnitsPerSVGUnit
 devUnitsPerSVGUnit
 )
 ;
-aContextPaint
+aObjectPaint
 -
 >
 InitStrokeGeometry
@@ -13579,7 +13579,7 @@ RenderSVGGlyph
 aContext
 aGlyphId
 aDrawMode
-aContextPaint
+aObjectPaint
 )
 ;
 }
@@ -13598,9 +13598,9 @@ DrawMode
 aDrawMode
 uint32_t
 aGlyphId
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 gfxTextRunDrawCallbacks
 *
 aCallbacks
@@ -13648,7 +13648,7 @@ aContext
 aPoint
 aDrawMode
 aGlyphId
-aContextPaint
+aObjectPaint
 )
 ;
 if
@@ -28241,9 +28241,9 @@ aDrawMode
 gfxPoint
 *
 aPt
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 uint32_t
 aStart
 uint32_t
@@ -28304,7 +28304,7 @@ Elements
 )
 :
 nullptr
-aContextPaint
+aObjectPaint
 aCallbacks
 )
 ;
@@ -29005,9 +29005,9 @@ aProvider
 gfxFloat
 *
 aAdvanceWidth
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 gfxTextRunDrawCallbacks
 *
 aCallbacks
@@ -29387,7 +29387,7 @@ aContext
 aDrawMode
 &
 pt
-aContextPaint
+aObjectPaint
 ligatureRunStart
 ligatureRunEnd
 aProvider

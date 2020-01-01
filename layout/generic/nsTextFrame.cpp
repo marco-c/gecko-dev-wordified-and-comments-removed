@@ -27426,9 +27426,9 @@ nsCharClipDisplayItem
 ClipEdges
 &
 aClipEdges
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 nsTextFrame
 :
 :
@@ -28490,9 +28490,9 @@ const
 nsCharClipDisplayItem
 &
 aItem
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 nsTextFrame
 :
 :
@@ -28770,7 +28770,7 @@ contentOffset
 contentLength
 textPaintStyle
 clipEdges
-aContextPaint
+aObjectPaint
 aCallbacks
 )
 )
@@ -28920,7 +28920,7 @@ TEXT_HYPHEN_BREAK
 =
 0
 nullptr
-aContextPaint
+aObjectPaint
 aCallbacks
 )
 ;
@@ -28952,9 +28952,9 @@ aTextColor
 gfxFloat
 *
 aAdvanceWidth
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 nsTextFrame
 :
 :
@@ -29006,7 +29006,7 @@ aOffset
 aLength
 aProvider
 aAdvanceWidth
-aContextPaint
+aObjectPaint
 aCallbacks
 )
 ;
@@ -29043,7 +29043,7 @@ aOffset
 aLength
 aProvider
 aAdvanceWidth
-aContextPaint
+aObjectPaint
 )
 ;
 }
@@ -29076,9 +29076,9 @@ gfxFloat
 aAdvanceWidth
 bool
 aDrawSoftHyphen
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 nsTextFrame
 :
 :
@@ -29101,7 +29101,7 @@ aProvider
 aTextColor
 &
 aAdvanceWidth
-aContextPaint
+aObjectPaint
 aCallbacks
 )
 ;
@@ -29202,7 +29202,7 @@ GetLength
 nullptr
 aTextColor
 nullptr
-aContextPaint
+aObjectPaint
 aCallbacks
 )
 ;
@@ -29265,9 +29265,9 @@ nscolor
 *
 const
 aDecorationOverrideColor
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 nsTextFrame
 :
 :
@@ -29655,7 +29655,7 @@ aProvider
 aTextColor
 aAdvanceWidth
 aDrawSoftHyphen
-aContextPaint
+aObjectPaint
 aCallbacks
 )
 ;
@@ -29836,9 +29836,9 @@ nscolor
 *
 const
 aDecorationOverrideColor
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 nsTextFrame
 :
 :
@@ -29909,7 +29909,7 @@ aAdvanceWidth
 aDrawSoftHyphen
 decorations
 aDecorationOverrideColor
-aContextPaint
+aObjectPaint
 aCallbacks
 )
 ;
@@ -29926,7 +29926,7 @@ aProvider
 aTextColor
 aAdvanceWidth
 aDrawSoftHyphen
-aContextPaint
+aObjectPaint
 aCallbacks
 )
 ;

@@ -306,9 +306,9 @@ uint32_t
 aGlyphId
 DrawMode
 aDrawMode
-gfxTextContextPaint
+gfxTextObjectPaint
 *
-aContextPaint
+aObjectPaint
 )
 ;
 bool
@@ -452,11 +452,11 @@ _b
 }
 ;
 class
-gfxTextContextPaint
+gfxTextObjectPaint
 {
 protected
 :
-gfxTextContextPaint
+gfxTextObjectPaint
 (
 )
 {
@@ -618,7 +618,7 @@ aCTM
 }
 virtual
 ~
-gfxTextContextPaint
+gfxTextObjectPaint
 (
 )
 {
@@ -640,10 +640,10 @@ mStrokeWidth
 }
 ;
 class
-SimpleTextContextPaint
+SimpleTextObjectPaint
 :
 public
-gfxTextContextPaint
+gfxTextObjectPaint
 {
 private
 :
@@ -701,7 +701,7 @@ GetMatrix
 )
 ;
 }
-SimpleTextContextPaint
+SimpleTextObjectPaint
 (
 gfxPattern
 *

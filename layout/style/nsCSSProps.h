@@ -283,10 +283,6 @@ to
 0
 #
 define
-VARIANT_OPENTYPE_SVG_KEYWORD
-0x40000000
-#
-define
 VARIANT_AL
 (
 VARIANT_AUTO
@@ -1924,7 +1920,7 @@ kStrokeLinejoinKTable
 static
 const
 int32_t
-kStrokeContextValueKTable
+kStrokeObjectValueKTable
 [
 ]
 ;
@@ -2252,14 +2248,14 @@ kMaskTypeKTable
 static
 const
 int32_t
-kContextOpacityKTable
+kObjectOpacityKTable
 [
 ]
 ;
 static
 const
 int32_t
-kContextPatternKTable
+kObjectPatternKTable
 [
 ]
 ;
