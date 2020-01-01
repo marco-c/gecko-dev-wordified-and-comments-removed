@@ -1350,7 +1350,7 @@ hg
 -
 R
 (
-srcdir
+topsrcdir
 )
 parent
 -
