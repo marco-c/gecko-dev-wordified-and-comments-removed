@@ -7398,18 +7398,6 @@ XPConnect
 (
 )
 ;
-uint32_t
-flags
-=
-aIsChrome
-?
-nsIXPConnect
-:
-:
-FLAG_SYSTEM_GLOBAL_OBJECT
-:
-0
-;
 nsCOMPtr
 <
 nsIPrincipal
@@ -7481,7 +7469,7 @@ get
 )
 :
 aPrincipal
-flags
+0
 getter_AddRefs
 (
 jsholder
