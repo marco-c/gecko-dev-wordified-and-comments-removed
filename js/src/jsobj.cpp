@@ -4618,16 +4618,6 @@ bool
 rval
 )
 {
-uint32_t
-oldLen
-=
-obj
--
->
-getArrayLength
-(
-)
-;
 if
 (
 JSID_IS_ATOM
