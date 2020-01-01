@@ -114,7 +114,7 @@ nsNativeDragTarget
 (
 nsIWidget
 *
-aWnd
+aWidget
 )
 :
 m_cRef
@@ -137,9 +137,9 @@ mTookOwnRef
 (
 false
 )
-mWindow
+mWidget
 (
-aWnd
+aWidget
 )
 mDropTargetHelper
 (
@@ -151,7 +151,7 @@ mHWnd
 (
 HWND
 )
-mWindow
+mWidget
 -
 >
 GetNativeData
@@ -359,7 +359,7 @@ aGeckoAction
 if
 (
 !
-mWindow
+mWidget
 -
 >
 IsEnabled
@@ -583,7 +583,7 @@ event
 (
 true
 aEventType
-mWindow
+mWidget
 )
 ;
 nsWindow
@@ -596,7 +596,7 @@ nsWindow
 *
 >
 (
-mWindow
+mWidget
 )
 ;
 win
@@ -711,7 +711,7 @@ GetInputSource
 (
 )
 ;
-mWindow
+mWidget
 -
 >
 DispatchEvent
