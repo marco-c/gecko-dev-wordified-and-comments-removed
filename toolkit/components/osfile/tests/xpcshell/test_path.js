@@ -72,7 +72,7 @@ modules
 /
 osfile
 /
-ospath_win_back
+ospath_win
 .
 jsm
 "
@@ -96,7 +96,7 @@ modules
 /
 osfile
 /
-ospath_unix_back
+ospath_unix
 .
 jsm
 "
@@ -107,15 +107,11 @@ let
 Win
 =
 ImportWin
-.
-OS
 ;
 let
 Unix
 =
 ImportUnix
-.
-OS
 ;
 function
 do_check_fail
@@ -191,8 +187,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 basename
 (
 "
@@ -211,8 +205,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 basename
 (
 "
@@ -232,8 +224,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 basename
 (
 "
@@ -249,8 +239,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 dirname
 (
 "
@@ -269,8 +257,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 dirname
 (
 "
@@ -293,8 +279,6 @@ b
 do_check_eq
 (
 Win
-.
-Path
 .
 dirname
 (
@@ -319,8 +303,6 @@ a
 do_check_eq
 (
 Win
-.
-Path
 .
 dirname
 (
@@ -336,8 +318,6 @@ abc
 do_check_eq
 (
 Win
-.
-Path
 .
 normalize
 (
@@ -369,8 +349,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 normalize
 (
@@ -409,8 +387,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 normalize
 (
 "
@@ -447,8 +423,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 normalize
 (
@@ -501,8 +475,6 @@ f
 do_check_eq
 (
 Win
-.
-Path
 .
 normalize
 (
@@ -555,8 +527,6 @@ function
 )
 Win
 .
-Path
-.
 normalize
 (
 "
@@ -602,8 +572,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 join
 (
 "
@@ -643,8 +611,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 join
 (
 "
@@ -684,8 +650,6 @@ bar
 do_check_eq
 (
 Win
-.
-Path
 .
 winGetDrive
 (
@@ -701,8 +665,6 @@ null
 do_check_eq
 (
 Win
-.
-Path
 .
 winGetDrive
 (
@@ -734,8 +696,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 winGetDrive
 (
 "
@@ -762,8 +722,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 basename
 (
 "
@@ -784,8 +742,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 basename
 (
 "
@@ -806,8 +762,6 @@ b
 do_check_eq
 (
 Win
-.
-Path
 .
 basename
 (
@@ -826,8 +780,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 dirname
 (
 "
@@ -850,8 +802,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 dirname
 (
 "
@@ -878,8 +828,6 @@ b
 do_check_eq
 (
 Win
-.
-Path
 .
 dirname
 (
@@ -908,8 +856,6 @@ a
 do_check_eq
 (
 Win
-.
-Path
 .
 dirname
 (
@@ -938,8 +884,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 dirname
 (
 "
@@ -961,8 +905,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 dirname
 (
 "
@@ -989,8 +931,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 dirname
 (
 "
@@ -1017,8 +957,6 @@ a
 do_check_eq
 (
 Win
-.
-Path
 .
 dirname
 (
@@ -1038,8 +976,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 normalize
 (
 "
@@ -1075,8 +1011,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 normalize
 (
 "
@@ -1117,8 +1051,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 normalize
 (
@@ -1161,8 +1093,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 normalize
 (
 "
@@ -1203,8 +1133,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 normalize
 (
@@ -1261,8 +1189,6 @@ f
 do_check_eq
 (
 Win
-.
-Path
 .
 normalize
 (
@@ -1319,8 +1245,6 @@ function
 )
 Win
 .
-Path
-.
 normalize
 (
 "
@@ -1368,8 +1292,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 join
 (
 "
@@ -1415,8 +1337,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 join
 (
 "
@@ -1462,8 +1382,6 @@ bar
 do_check_eq
 (
 Win
-.
-Path
 .
 join
 (
@@ -1515,8 +1433,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 join
 (
 "
@@ -1560,8 +1476,6 @@ bar
 do_check_eq
 (
 Win
-.
-Path
 .
 winGetDrive
 (
@@ -1579,8 +1493,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 winGetDrive
 (
@@ -1600,8 +1512,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 winGetDrive
 (
@@ -1620,8 +1530,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 winGetDrive
 (
@@ -1653,8 +1561,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 winGetDrive
 (
 "
@@ -1674,8 +1580,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 winGetDrive
 (
@@ -1721,8 +1625,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 basename
 (
 "
@@ -1745,8 +1647,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 basename
 (
 "
@@ -1769,8 +1669,6 @@ b
 do_check_eq
 (
 Win
-.
-Path
 .
 basename
 (
@@ -1790,8 +1688,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 dirname
 (
 "
@@ -1818,8 +1714,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 dirname
 (
 "
@@ -1850,8 +1744,6 @@ b
 do_check_eq
 (
 Win
-.
-Path
 .
 dirname
 (
@@ -1884,8 +1776,6 @@ a
 do_check_eq
 (
 Win
-.
-Path
 .
 dirname
 (
@@ -1909,8 +1799,6 @@ abc
 do_check_eq
 (
 Win
-.
-Path
 .
 normalize
 (
@@ -1946,8 +1834,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 normalize
 (
@@ -1990,8 +1876,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 normalize
 (
 "
@@ -2032,8 +1916,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 normalize
 (
@@ -2093,8 +1975,6 @@ function
 )
 Win
 .
-Path
-.
 normalize
 (
 "
@@ -2138,8 +2018,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 join
 (
 "
@@ -2181,8 +2059,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 join
 (
 "
@@ -2223,8 +2099,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 join
 (
 "
@@ -2265,8 +2139,6 @@ bar
 do_check_eq
 (
 Win
-.
-Path
 .
 winGetDrive
 (
@@ -2284,8 +2156,6 @@ do_check_eq
 (
 Win
 .
-Path
-.
 winGetDrive
 (
 "
@@ -2308,8 +2178,6 @@ c
 do_check_eq
 (
 Win
-.
-Path
 .
 winGetDrive
 (
@@ -2346,8 +2214,6 @@ do_check_eq
 (
 Unix
 .
-Path
-.
 basename
 (
 "
@@ -2365,8 +2231,6 @@ do_check_eq
 (
 Unix
 .
-Path
-.
 basename
 (
 "
@@ -2384,8 +2248,6 @@ do_check_eq
 (
 Unix
 .
-Path
-.
 basename
 (
 "
@@ -2401,8 +2263,6 @@ do_check_eq
 (
 Unix
 .
-Path
-.
 dirname
 (
 "
@@ -2420,8 +2280,6 @@ do_check_eq
 (
 Unix
 .
-Path
-.
 dirname
 (
 "
@@ -2441,8 +2299,6 @@ b
 do_check_eq
 (
 Unix
-.
-Path
 .
 dirname
 (
@@ -2463,8 +2319,6 @@ a
 do_check_eq
 (
 Unix
-.
-Path
 .
 dirname
 (
@@ -2481,8 +2335,6 @@ do_check_eq
 (
 Unix
 .
-Path
-.
 normalize
 (
 "
@@ -2508,8 +2360,6 @@ do_check_eq
 (
 Unix
 .
-Path
-.
 normalize
 (
 "
@@ -2537,8 +2387,6 @@ c
 do_check_eq
 (
 Unix
-.
-Path
 .
 normalize
 (
@@ -2568,8 +2416,6 @@ do_check_eq
 (
 Unix
 .
-Path
-.
 normalize
 (
 "
@@ -2597,8 +2443,6 @@ c
 do_check_eq
 (
 Unix
-.
-Path
 .
 normalize
 (
@@ -2639,8 +2483,6 @@ f
 do_check_eq
 (
 Unix
-.
-Path
 .
 normalize
 (
@@ -2683,8 +2525,6 @@ function
 )
 Unix
 .
-Path
-.
 normalize
 (
 "
@@ -2720,8 +2560,6 @@ do_check_eq
 (
 Unix
 .
-Path
-.
 join
 (
 "
@@ -2756,8 +2594,6 @@ do_check_eq
 (
 Unix
 .
-Path
-.
 join
 (
 "
@@ -2786,6 +2622,58 @@ tmp
 foo
 bar
 "
+)
+;
+do_print
+(
+"
+Testing
+the
+presence
+of
+ospath
+.
+jsm
+"
+)
+;
+let
+Scope
+=
+{
+}
+;
+Components
+.
+utils
+.
+import
+(
+"
+resource
+:
+/
+/
+gre
+/
+modules
+/
+osfile
+/
+ospath
+.
+jsm
+"
+Scope
+)
+;
+do_check_true
+(
+!
+!
+Scope
+.
+basename
 )
 ;
 }
