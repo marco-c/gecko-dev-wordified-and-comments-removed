@@ -4971,6 +4971,12 @@ selection
 ;
 selection
 .
+selectEventsSuppressed
+=
+true
+;
+selection
+.
 clearSelection
 (
 )
@@ -5016,6 +5022,12 @@ true
 )
 ;
 }
+selection
+.
+selectEventsSuppressed
+=
+false
+;
 ]
 ]
 >
