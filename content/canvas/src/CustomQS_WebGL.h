@@ -948,7 +948,7 @@ selfref
 ptr
 tvr
 .
-addr
+jsval_addr
 (
 )
 nsnull
