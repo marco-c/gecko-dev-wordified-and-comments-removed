@@ -192,7 +192,7 @@ float
 mStrokeWidth
 mX
 mY
-mAngle
+mAutoAngle
 ;
 virtual
 gfxMatrix
