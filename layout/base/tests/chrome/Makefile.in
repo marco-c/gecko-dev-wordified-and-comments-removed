@@ -459,6 +459,14 @@ test_bug533845
 .
 xul
 \
+test_bug551434
+.
+html
+\
+bug551434_childframe
+.
+html
+\
 test_chrome_content_integration
 .
 xul

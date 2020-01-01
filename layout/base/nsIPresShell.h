@@ -2432,6 +2432,11 @@ PresShellPtrKey
 *
 sLiveShells
 ;
+static
+nsIContent
+*
+gKeyDownTarget
+;
 }
 ;
 nsresult
