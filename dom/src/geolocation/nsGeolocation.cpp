@@ -4193,6 +4193,10 @@ mParent
 false
 )
 ;
+mParent
+=
+nsnull
+;
 return
 NS_OK
 ;
@@ -4234,6 +4238,10 @@ mParent
 true
 )
 ;
+mParent
+=
+nsnull
+;
 return
 NS_OK
 ;
@@ -4274,10 +4282,6 @@ mElement
 =
 element
 ;
-mProxy
-=
-nsnull
-;
 }
 GeolocationRequestParent
 :
@@ -4291,9 +4295,6 @@ MOZ_COUNT_DTOR
 (
 GeolocationRequestParent
 )
-;
-delete
-mProxy
 ;
 }
 bool
