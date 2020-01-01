@@ -73,6 +73,13 @@ h
 #
 include
 "
+nsIMutableArray
+.
+h
+"
+#
+include
+"
 nsIAccessibleRelation
 .
 h

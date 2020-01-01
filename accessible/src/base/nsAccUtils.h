@@ -67,6 +67,13 @@ h
 #
 include
 "
+nsIDocShellTreeItem
+.
+h
+"
+#
+include
+"
 nsIDOMNode
 .
 h
