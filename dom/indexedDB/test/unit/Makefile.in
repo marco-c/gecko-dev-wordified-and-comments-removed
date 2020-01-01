@@ -181,6 +181,10 @@ test_indexes_funny_things
 .
 js
 \
+test_invalid_version
+.
+js
+\
 test_key_requirements
 .
 js

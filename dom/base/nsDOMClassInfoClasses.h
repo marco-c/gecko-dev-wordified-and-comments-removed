@@ -621,10 +621,6 @@ DesktopNotificationCenter
 )
 DOMCI_CLASS
 (
-IDBFactory
-)
-DOMCI_CLASS
-(
 IDBFileHandle
 )
 DOMCI_CLASS

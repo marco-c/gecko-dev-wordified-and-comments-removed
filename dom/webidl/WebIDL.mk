@@ -579,6 +579,10 @@ HTMLVideoElement
 .
 webidl
 \
+IDBFactory
+.
+webidl
+\
 IDBVersionChangeEvent
 .
 webidl

@@ -55,7 +55,6 @@ IDBTransaction
 IDBOpenDBRequest
 IDBVersionChangeEvent
 IDBDatabase
-IDBFactory
 IDBIndex
 IDBObjectStore
 IDBRequest
@@ -165,7 +164,6 @@ IDBOpenDBRequest
 IDBOpenDBRequest
 IDBVersionChangeEvent
 IDBDatabase
-IDBFactory
 IDBIndex
 IDBObjectStore
 IDBRequest

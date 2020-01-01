@@ -320,6 +320,10 @@ test_indexes_funny_things
 .
 html
 \
+test_invalid_version
+.
+html
+\
 test_key_requirements
 .
 html

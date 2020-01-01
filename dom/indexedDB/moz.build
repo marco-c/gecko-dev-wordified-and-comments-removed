@@ -97,11 +97,6 @@ nsIIDBDatabase
 idl
 '
 '
-nsIIDBFactory
-.
-idl
-'
-'
 nsIIDBFileHandle
 .
 idl

@@ -385,14 +385,6 @@ nsIIDBDatabase
 ;
 exports
 .
-IDBFactory
-=
-Ci
-.
-nsIIDBFactory
-;
-exports
-.
 IDBIndex
 =
 Ci
