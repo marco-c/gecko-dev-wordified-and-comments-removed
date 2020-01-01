@@ -387,6 +387,10 @@ HTMLOptionsCollection
 .
 webidl
 \
+HTMLOutputElement
+.
+webidl
+\
 HTMLParagraphElement
 .
 webidl
