@@ -371,6 +371,14 @@ ins
 )
 ;
 bool
+visitSub
+(
+MSub
+*
+ins
+)
+;
+bool
 visitMul
 (
 MMul

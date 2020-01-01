@@ -331,6 +331,15 @@ ins
 ;
 virtual
 bool
+visitSubI
+(
+LSubI
+*
+ins
+)
+;
+virtual
+bool
 visitMulI
 (
 LMulI
