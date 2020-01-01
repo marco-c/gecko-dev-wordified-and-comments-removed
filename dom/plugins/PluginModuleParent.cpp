@@ -281,6 +281,10 @@ why
 case
 AbnormalShutdown
 :
+mShutdown
+=
+true
+;
 if
 (
 mPlugin
@@ -291,6 +295,8 @@ mPlugin
 PluginCrashed
 (
 )
+;
+break
 ;
 case
 NormalShutdown
