@@ -875,6 +875,9 @@ filter
 out
 WINNT
 WINCE
+os2
+-
+emx
 (
 HOST_OS_ARCH
 )
@@ -945,6 +948,9 @@ TestVersionComparator
 tests
 "
 (
+RUN_TEST_PROGRAM
+)
+(
 PERL
 )
 -
@@ -957,9 +963,6 @@ TestVersionComparatorRunner
 .
 pl
 "
-(
-RUN_TEST_PROGRAM
-)
 (
 FINAL_TARGET
 )
