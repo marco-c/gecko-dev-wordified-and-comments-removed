@@ -2118,6 +2118,13 @@ finish
 (
 )
 ;
+rt
+-
+>
+finishSelfHosting
+(
+)
+;
 JS
 :
 :
