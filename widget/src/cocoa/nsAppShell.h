@@ -318,6 +318,9 @@ mRecursionDepth
 PRInt32
 mNativeEventCallbackDepth
 ;
+PRInt32
+mNativeEventScheduledDepth
+;
 }
 ;
 #
