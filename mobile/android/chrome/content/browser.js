@@ -13079,6 +13079,15 @@ browser
 .
 lastURI
 )
+&
+&
+!
+fixedURI
+.
+equals
+(
+aLocationURI
+)
 )
 ;
 this
