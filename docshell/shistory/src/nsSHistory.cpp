@@ -3087,9 +3087,6 @@ uint32_t
 aReloadFlags
 )
 {
-nsresult
-rv
-;
 nsDocShellInfoLoadType
 loadType
 ;
@@ -3216,8 +3213,6 @@ nsIURI
 >
 currentURI
 ;
-rv
-=
 GetCurrentURI
 (
 getter_AddRefs
