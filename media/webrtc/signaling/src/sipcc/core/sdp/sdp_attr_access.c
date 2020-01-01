@@ -507,7 +507,7 @@ fmtp_p
 >
 parameter_add
 =
-FALSE
+SDP_FMTP_UNUSED
 ;
 fmtp_p
 -
@@ -31461,7 +31461,7 @@ u8
 cap_num
 u16
 inst_num
-tinybool
+u16
 parameter_add
 )
 {
@@ -37210,6 +37210,9 @@ attr
 fmtp
 .
 parameter_add
+!
+=
+0
 )
 ;
 }
