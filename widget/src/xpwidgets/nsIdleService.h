@@ -135,6 +135,11 @@ void
 aClosure
 )
 ;
+void
+IdleTimeWasModified
+(
+)
+;
 protected
 :
 void
