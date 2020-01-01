@@ -42,17 +42,6 @@ link
 in
 Mozilla
 -
-DWEBVTT_NO_CONFIG_H
-=
-1
--
--
-Prevent
-inclusion
-of
-generated
-headers
--
 DWEBVTT_STATIC
 =
 1
