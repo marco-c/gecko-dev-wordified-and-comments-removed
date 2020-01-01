@@ -1019,7 +1019,10 @@ mozilla
 dom
 :
 :
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 mDocumentNode
 -

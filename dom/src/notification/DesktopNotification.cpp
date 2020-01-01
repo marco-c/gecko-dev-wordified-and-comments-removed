@@ -632,7 +632,10 @@ TabChild
 *
 child
 =
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 GetOwner
 (

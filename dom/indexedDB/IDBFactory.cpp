@@ -804,7 +804,10 @@ TabChild
 *
 tabChild
 =
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 aWindow
 )

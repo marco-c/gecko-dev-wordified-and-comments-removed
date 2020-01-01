@@ -21629,7 +21629,10 @@ TabChild
 *
 tabChild
 =
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 this
 )
@@ -23944,7 +23947,10 @@ TabChild
 *
 tabChild
 =
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 mShell
 )
@@ -43334,7 +43340,10 @@ TabChild
 *
 tab
 =
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 this
 )
@@ -43925,7 +43934,10 @@ TabChild
 *
 tab
 =
-GetTabChildFrom
+TabChild
+:
+:
+GetFrom
 (
 this
 )
