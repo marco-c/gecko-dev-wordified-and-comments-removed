@@ -87,7 +87,12 @@ popup
 0
 ]
 ;
+SpecialPowers
+.
+wrap
+(
 document
+)
 .
 getAnonymousNodes
 (
