@@ -21762,12 +21762,6 @@ options
 Init
 (
 aCx
-JS
-:
-:
-NullPtr
-(
-)
 aOptions
 )
 NS_ERROR_UNEXPECTED
