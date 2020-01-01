@@ -228,10 +228,6 @@ mLoadFlags
 (
 LOAD_NORMAL
 )
-mStatus
-(
-NS_OK
-)
 mQueriedProgressSink
 (
 PR_TRUE
@@ -247,6 +243,10 @@ PR_FALSE
 mWaitingOnAsyncRedirect
 (
 PR_FALSE
+)
+mStatus
+(
+NS_OK
 )
 {
 mContentType
