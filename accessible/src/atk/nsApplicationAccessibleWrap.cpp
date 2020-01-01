@@ -1788,7 +1788,9 @@ if
 nsAccessibilityService
 :
 :
-gIsShutdown
+IsShutdown
+(
+)
 )
 {
 if

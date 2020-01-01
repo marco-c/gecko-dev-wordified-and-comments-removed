@@ -432,6 +432,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+nsAccDocManager
+.
+cpp
+\
 nsAccessNode
 .
 cpp

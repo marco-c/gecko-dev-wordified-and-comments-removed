@@ -495,10 +495,12 @@ if
 node
 )
 return
-nsAccessNode
-:
-:
-GetDocAccessibleFor
+GetAccService
+(
+)
+-
+>
+GetDocAccessible
 (
 node
 -

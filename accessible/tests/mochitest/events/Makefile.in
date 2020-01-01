@@ -447,6 +447,10 @@ mk
 _TEST_FILES
 =
 \
+docload_wnd
+.
+xul
+\
 focus
 .
 html
@@ -476,9 +480,13 @@ temporarily
 disabled
 )
 \
-test_doc
+test_docload
 .
 html
+\
+test_docload
+.
+xul
 \
 test_dragndrop
 .
