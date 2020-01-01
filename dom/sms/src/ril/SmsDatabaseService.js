@@ -1692,9 +1692,7 @@ this
 .
 mRIL
 .
-rilContext
-.
-icc
+radioState
 .
 msisdn
 body
@@ -1740,9 +1738,7 @@ this
 .
 mRIL
 .
-rilContext
-.
-icc
+radioState
 .
 msisdn
 receiver

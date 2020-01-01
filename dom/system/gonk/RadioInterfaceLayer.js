@@ -209,7 +209,7 @@ RIL_IPC_MSG_NAMES
 "
 RIL
 :
-GetRilContext
+GetRadioState
 "
 "
 RIL
@@ -819,7 +819,7 @@ this
 ;
 this
 .
-rilContext
+radioState
 =
 {
 radioState
@@ -1080,13 +1080,13 @@ case
 "
 RIL
 :
-GetRilContext
+GetRadioState
 "
 :
 return
 this
 .
-rilContext
+radioState
 ;
 case
 "
@@ -1697,7 +1697,7 @@ cardstatechange
 :
 this
 .
-rilContext
+radioState
 .
 cardState
 =
@@ -1869,7 +1869,7 @@ iccinfochange
 :
 this
 .
-rilContext
+radioState
 .
 icc
 =
@@ -1984,7 +1984,7 @@ celllocationchanged
 :
 this
 .
-rilContext
+radioState
 .
 cell
 =
@@ -2086,7 +2086,7 @@ voiceInfo
 =
 this
 .
-rilContext
+radioState
 .
 voice
 ;
@@ -2434,7 +2434,7 @@ message
 {
 this
 .
-rilContext
+radioState
 .
 voice
 .
@@ -2446,7 +2446,7 @@ gsmDBM
 ;
 this
 .
-rilContext
+radioState
 .
 voice
 .
@@ -2467,14 +2467,14 @@ VoiceInfoChanged
 "
 this
 .
-rilContext
+radioState
 .
 voice
 )
 ;
 this
 .
-rilContext
+radioState
 .
 data
 .
@@ -2486,7 +2486,7 @@ gsmDBM
 ;
 this
 .
-rilContext
+radioState
 .
 data
 .
@@ -2507,7 +2507,7 @@ DataInfoChanged
 "
 this
 .
-rilContext
+radioState
 .
 data
 )
@@ -2580,7 +2580,7 @@ voice
 =
 this
 .
-rilContext
+radioState
 .
 voice
 ;
@@ -2589,7 +2589,7 @@ data
 =
 this
 .
-rilContext
+radioState
 .
 data
 ;
@@ -2677,7 +2677,7 @@ if
 (
 this
 .
-rilContext
+radioState
 .
 radioState
 =
@@ -2690,7 +2690,7 @@ return
 }
 this
 .
-rilContext
+radioState
 .
 radioState
 =
@@ -2721,7 +2721,7 @@ is
 +
 this
 .
-rilContext
+radioState
 .
 radioState
 +
@@ -2755,7 +2755,7 @@ if
 (
 this
 .
-rilContext
+radioState
 .
 radioState
 =
@@ -2772,7 +2772,7 @@ if
 (
 this
 .
-rilContext
+radioState
 .
 radioState
 =
@@ -2799,7 +2799,7 @@ if
 (
 this
 .
-rilContext
+radioState
 .
 radioState
 =
@@ -3312,11 +3312,11 @@ destinationAddress
 :
 this
 .
-rilContext
+radioState
 .
 icc
 .
-msisdn
+MSISDN
 destinationPort
 :
 message
@@ -4560,7 +4560,7 @@ value
 )
 ;
 }
-rilContext
+radioState
 :
 null
 enumerateCalls
