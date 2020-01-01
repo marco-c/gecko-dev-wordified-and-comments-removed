@@ -497,6 +497,10 @@ nsThreadUtils
 .
 cpp
 \
+nsTObserverArray
+.
+cpp
+\
 (
 NULL
 )

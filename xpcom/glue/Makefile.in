@@ -664,6 +664,10 @@ nsIClassInfoImpl
 .
 h
 \
+nsTObserverArray
+.
+h
+\
 (
 NULL
 )
