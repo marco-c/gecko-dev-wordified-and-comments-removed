@@ -867,12 +867,7 @@ HasValidDir
 )
 |
 |
-NodeInfo
-(
-)
--
->
-Equals
+IsHTML
 (
 nsGkAtoms
 :
