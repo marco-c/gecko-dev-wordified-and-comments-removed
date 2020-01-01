@@ -1018,9 +1018,6 @@ I
 (
 srcdir
 )
-FORCE_STATIC_LIB
-=
-1
 include
 (
 topsrcdir

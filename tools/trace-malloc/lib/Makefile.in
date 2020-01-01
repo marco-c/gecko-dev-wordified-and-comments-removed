@@ -88,9 +88,6 @@ win_srcdir
 tm
 .
 def
-FORCE_STATIC_LIB
-=
-1
 LIBXUL_LIBRARY
 =
 1
