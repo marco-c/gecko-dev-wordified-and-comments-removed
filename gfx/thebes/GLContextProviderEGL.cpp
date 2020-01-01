@@ -379,9 +379,6 @@ EGLSurface
 )
 0
 )
-GLContextProvider
-sGLContextProvider
-;
 static
 class
 EGLLibrary
@@ -2022,7 +2019,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderEGL
 :
 :
 CreateForWindow
@@ -2448,7 +2445,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderEGL
 :
 :
 CreatePBuffer
@@ -2821,7 +2818,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderEGL
 :
 :
 CreateForNativePixmapSurface

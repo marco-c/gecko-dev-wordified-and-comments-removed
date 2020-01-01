@@ -11,14 +11,11 @@ mozilla
 namespace
 gl
 {
-GLContextProvider
-sGLContextProvider
-;
 already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderNull
 :
 :
 CreateForWindow
@@ -35,7 +32,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderNull
 :
 :
 CreateForNativePixmapSurface
@@ -53,7 +50,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderNull
 :
 :
 CreatePBuffer

@@ -457,13 +457,13 @@ NS_OK
 ;
 }
 }
-GLContextProvider
+gl
 :
 :
 ContextFormat
 format
 (
-GLContextProvider
+gl
 :
 :
 ContextFormat
@@ -489,8 +489,9 @@ gl
 gl
 :
 :
-sGLContextProvider
-.
+GLContextProvider
+:
+:
 CreatePBuffer
 (
 gfxIntSize

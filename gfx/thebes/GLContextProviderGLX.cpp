@@ -171,9 +171,6 @@ mozilla
 namespace
 gl
 {
-GLContextProvider
-sGLContextProvider
-;
 PRBool
 GLXLibrary
 :
@@ -1446,7 +1443,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderGLX
 :
 :
 CreateForWindow
@@ -1936,7 +1933,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderGLX
 :
 :
 CreatePBuffer
@@ -2277,7 +2274,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderGLX
 :
 :
 CreateForNativePixmapSurface

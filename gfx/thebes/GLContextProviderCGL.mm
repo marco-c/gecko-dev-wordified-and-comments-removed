@@ -498,9 +498,6 @@ mozilla
 namespace
 gl
 {
-GLContextProvider
-sGLContextProvider
-;
 class
 CGLLibrary
 {
@@ -1071,7 +1068,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderCGL
 :
 :
 CreateForWindow
@@ -1236,7 +1233,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderCGL
 :
 :
 CreatePBuffer
@@ -1553,7 +1550,7 @@ already_AddRefed
 <
 GLContext
 >
-GLContextProvider
+GLContextProviderCGL
 :
 :
 CreateForNativePixmapSurface

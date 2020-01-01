@@ -151,6 +151,10 @@ GLContextProvider
 .
 h
 \
+GLContextProviderImpl
+.
+h
+\
 nsCoreAnimationSupport
 .
 h

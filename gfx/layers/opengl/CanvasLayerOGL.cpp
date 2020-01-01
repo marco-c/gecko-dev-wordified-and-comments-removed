@@ -195,8 +195,9 @@ SurfaceTypeXlib
 )
 mCanvasSurfaceAsGLContext
 =
-sGLContextProvider
-.
+GLContextProvider
+:
+:
 CreateForNativePixmapSurface
 (
 mCanvasSurface

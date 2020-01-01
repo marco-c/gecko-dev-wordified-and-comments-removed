@@ -46,13 +46,6 @@ mozilla
 namespace
 gl
 {
-typedef
-GLContextProvider
-:
-:
-ContextFormat
-ContextFormat
-;
 const
 ContextFormat
 ContextFormat
