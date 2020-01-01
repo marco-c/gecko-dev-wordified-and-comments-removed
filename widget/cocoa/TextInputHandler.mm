@@ -4192,7 +4192,6 @@ IsAlt
 {
 NS_ASSERTION
 (
-!
 computeCharCode
 |
 |
@@ -5548,7 +5547,6 @@ originalCmdedShiftChar
 ;
 NS_ASSERTION
 (
-!
 computeCharCode
 |
 |
