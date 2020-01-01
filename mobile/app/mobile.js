@@ -3092,7 +3092,7 @@ methodjit
 .
 chrome
 "
-true
+false
 )
 ;
 pref
