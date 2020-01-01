@@ -2562,6 +2562,15 @@ FAIL
 "
 }
 }
+__exposedProps__
+:
+{
+prop
+:
+'
+r
+'
+}
 }
 ;
 is
