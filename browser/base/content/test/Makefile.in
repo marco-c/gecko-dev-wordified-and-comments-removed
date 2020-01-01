@@ -488,10 +488,6 @@ browser_bug435035
 .
 js
 \
-browser_bug435325
-.
-js
-\
 browser_bug441778
 .
 js
@@ -757,6 +753,10 @@ browser_bug763468
 js
 \
 browser_bug767836
+.
+js
+\
+browser_bug783614
 .
 js
 \
