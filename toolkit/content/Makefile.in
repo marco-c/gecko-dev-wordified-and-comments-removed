@@ -515,8 +515,6 @@ CHANGESET
 shell
 hg
 identify
--
-i
 (
 topsrcdir
 )
@@ -526,6 +524,14 @@ topsrcdir
 dev
 /
 null
+|
+cut
+-
+f1
+-
+d
+'
+'
 )
 ifdef
 CHANGESET

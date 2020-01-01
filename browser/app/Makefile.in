@@ -664,8 +664,6 @@ SOURCE_STAMP
 shell
 hg
 identify
--
-i
 (
 topsrcdir
 )
@@ -675,6 +673,14 @@ topsrcdir
 dev
 /
 null
+|
+cut
+-
+f1
+-
+d
+'
+'
 )
 ifdef
 SOURCE_STAMP
