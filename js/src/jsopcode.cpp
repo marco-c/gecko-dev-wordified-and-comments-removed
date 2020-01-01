@@ -10522,7 +10522,7 @@ jp
 %
 s
 "
-POP_COND_STR
+POP_STR
 (
 )
 )
