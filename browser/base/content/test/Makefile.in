@@ -1294,6 +1294,10 @@ browser_addon_bar_shortcut
 .
 js
 \
+browser_addon_bar_aomlistener
+.
+js
+\
 (
 NULL
 )
