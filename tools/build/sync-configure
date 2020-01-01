@@ -477,9 +477,6 @@ result
 rm
 -
 rf
-/
-tmp
-/
 {
 TDIR
 }
