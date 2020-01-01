@@ -487,6 +487,7 @@ EnsureDeliverablesDir
 ValidateToolsDirectory
 SubstitutePath
 GetSnippetDirFromChannel
+CachedHashFile
 )
 ;
 use
@@ -499,7 +500,6 @@ qw
 MkdirWithPath
 RunShellCommand
 DownloadFile
-HashFile
 )
 ;
 Data
@@ -5243,7 +5243,7 @@ hash_value
 '
 }
 =
-HashFile
+CachedHashFile
 (
 file
 =
@@ -7270,7 +7270,7 @@ hash_value
 '
 }
 =
-HashFile
+CachedHashFile
 (
 file
 =
@@ -8464,7 +8464,7 @@ l
 my
 partialPatchHash
 =
-HashFile
+CachedHashFile
 (
 file
 =
@@ -8563,7 +8563,7 @@ l
 my
 completePatchHash
 =
-HashFile
+CachedHashFile
 (
 file
 =
