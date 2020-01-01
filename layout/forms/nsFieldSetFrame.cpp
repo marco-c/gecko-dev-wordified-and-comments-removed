@@ -1928,7 +1928,7 @@ mLegendFrame
 {
 mLegendRect
 .
-Empty
+SetEmpty
 (
 )
 ;

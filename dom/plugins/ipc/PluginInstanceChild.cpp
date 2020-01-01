@@ -13239,7 +13239,7 @@ mAccumulatedInvalidRect
 ;
 mAccumulatedInvalidRect
 .
-Empty
+SetEmpty
 (
 )
 ;

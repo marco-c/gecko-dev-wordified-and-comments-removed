@@ -179,7 +179,7 @@ Clear
 {
 mRect
 .
-Empty
+SetEmpty
 (
 )
 ;

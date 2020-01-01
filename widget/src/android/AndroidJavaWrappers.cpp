@@ -2236,7 +2236,7 @@ else
 {
 mRect
 .
-Empty
+SetEmpty
 (
 )
 ;
@@ -2839,7 +2839,7 @@ DRAW
 ;
 mRect
 .
-Empty
+SetEmpty
 (
 )
 ;

@@ -1679,7 +1679,7 @@ call
 .
 mImageRegionRect
 .
-Empty
+SetEmpty
 (
 )
 ;

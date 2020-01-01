@@ -544,7 +544,7 @@ mInvalidRect
 }
 mInvalidRect
 .
-Empty
+SetEmpty
 (
 )
 ;

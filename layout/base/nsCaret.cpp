@@ -4499,7 +4499,7 @@ ifdef
 IBMBIDI
 mHookRect
 .
-Empty
+SetEmpty
 (
 )
 ;
