@@ -744,6 +744,10 @@ browser_bug783614
 .
 js
 \
+browser_bug797677
+.
+js
+\
 browser_canonizeURL
 .
 js
@@ -1080,6 +1084,10 @@ plugin_clickToPlayDeny
 html
 \
 plugin_bug749455
+.
+html
+\
+plugin_bug797677
 .
 html
 \
