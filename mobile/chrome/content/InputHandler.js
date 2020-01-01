@@ -4019,6 +4019,9 @@ this
 .
 _swipeLength
 ;
+let
+me
+;
 for
 (
 let
@@ -4035,7 +4038,6 @@ i
 +
 )
 {
-let
 me
 =
 mb
