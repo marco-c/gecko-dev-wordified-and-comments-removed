@@ -6,6 +6,13 @@ nsIAccessibleRole
 ROLE_ALERT
 ;
 const
+ROLE_APPLICATION
+=
+nsIAccessibleRole
+.
+ROLE_APPLICATION
+;
+const
 ROLE_CELL
 =
 nsIAccessibleRole

@@ -570,6 +570,10 @@ test_aria_role_grid
 .
 html
 \
+test_aria_roles
+.
+html
+\
 test_aria_token_attrs
 .
 html
