@@ -196,10 +196,6 @@ test_bug_627616
 .
 html
 \
-test_bug_654348
-.
-html
-\
 test_bug_776171
 .
 html
