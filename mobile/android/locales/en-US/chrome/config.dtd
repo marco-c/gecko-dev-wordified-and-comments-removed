@@ -12,11 +12,11 @@ Preferences
 <
 !
 ENTITY
-filter
+clear
 .
-label
+altText
 "
-Filter
+Clear
 "
 >
 <
