@@ -2375,13 +2375,6 @@ char
 *
 filename
 ;
-JSSourceHandler
-listener
-;
-void
-*
-listenerData
-;
 void
 *
 listenerTSData
