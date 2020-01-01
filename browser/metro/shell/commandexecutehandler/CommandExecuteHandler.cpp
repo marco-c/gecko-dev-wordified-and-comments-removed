@@ -600,7 +600,7 @@ count
 ;
 for
 (
-int
+DWORD
 idx
 =
 0
