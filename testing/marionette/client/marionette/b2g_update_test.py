@@ -1337,18 +1337,6 @@ get_logs
             
 self
 .
-perfdata
-=
-self
-.
-marionette
-.
-get_perf_data
-(
-)
-            
-self
-.
 marionette
 .
 delete_session

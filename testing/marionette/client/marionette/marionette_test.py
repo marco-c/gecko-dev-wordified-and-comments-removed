@@ -131,12 +131,6 @@ None
         
 self
 .
-perfdata
-=
-None
-        
-self
-.
 duration
 =
 0
@@ -569,18 +563,6 @@ self
 marionette
 .
 get_logs
-(
-)
-            
-self
-.
-perfdata
-=
-self
-.
-marionette
-.
-get_perf_data
 (
 )
             
@@ -1829,13 +1811,6 @@ fails
 )
 )
             
-if
-not
-self
-.
-perfdata
-:
-                
 self
 .
 assertTrue
@@ -1855,7 +1830,7 @@ failed
 ]
 >
 0
-                                
+                            
 '
 no
 tests
