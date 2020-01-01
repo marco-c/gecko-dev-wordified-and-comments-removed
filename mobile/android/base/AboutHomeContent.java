@@ -4172,6 +4172,16 @@ getNumberOfTopSites
 )
 ;
 }
+Override
+protected
+void
+onContentChanged
+(
+)
+{
+return
+;
+}
 }
 class
 TopSitesViewBinder

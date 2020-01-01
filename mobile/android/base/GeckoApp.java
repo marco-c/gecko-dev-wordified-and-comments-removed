@@ -4245,7 +4245,7 @@ STATE_LOADING
 ;
 }
 void
-handleClearHistory
+updateAboutHomeTopSites
 (
 )
 {
@@ -4298,6 +4298,16 @@ TOP_SITES
 ;
 }
 }
+)
+;
+}
+void
+handleClearHistory
+(
+)
+{
+updateAboutHomeTopSites
+(
 )
 ;
 }
@@ -14088,6 +14098,10 @@ launch
 setupScreen
 .
 dismiss
+(
+)
+;
+updateAboutHomeTopSites
 (
 )
 ;
