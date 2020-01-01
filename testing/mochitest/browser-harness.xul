@@ -1501,7 +1501,7 @@ t
 )
 {
 var
-classname
+class
 =
 t
 .
@@ -1539,7 +1539,7 @@ class
 "
 "
 +
-classname
+class
 +
 "
 \

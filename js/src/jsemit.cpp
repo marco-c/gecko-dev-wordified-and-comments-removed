@@ -32464,6 +32464,9 @@ JS_FALSE
 ;
 break
 ;
+#
+if
+JS_HAS_DEBUGGER_KEYWORD
 case
 TOK_DEBUGGER
 :
@@ -32483,6 +32486,8 @@ JS_FALSE
 ;
 break
 ;
+#
+endif
 #
 if
 JS_HAS_XML_SUPPORT

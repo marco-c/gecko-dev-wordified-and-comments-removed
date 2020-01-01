@@ -27016,6 +27016,9 @@ TOK_SEMI
 return
 pn
 ;
+#
+if
+JS_HAS_DEBUGGER_KEYWORD
 case
 TOK_DEBUGGER
 :
@@ -27054,6 +27057,8 @@ TCF_FUN_HEAVYWEIGHT
 ;
 break
 ;
+#
+endif
 #
 if
 JS_HAS_XML_SUPPORT

@@ -5484,7 +5484,7 @@ success
 string
 ;
 let
-classname
+class
 =
 success
 ?
@@ -5521,7 +5521,7 @@ setAttribute
 "
 status
 "
-classname
+class
 )
 ;
 let

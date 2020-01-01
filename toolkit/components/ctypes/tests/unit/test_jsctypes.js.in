@@ -729,7 +729,7 @@ function
 do_check_class
 (
 obj
-classname
+class
 stack
 )
 {
@@ -763,7 +763,7 @@ obj
 object
 "
 +
-classname
+class
 +
 "
 ]

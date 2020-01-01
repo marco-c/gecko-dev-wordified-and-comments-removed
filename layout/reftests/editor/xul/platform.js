@@ -58,7 +58,7 @@ ua
 )
 )
 var
-classname
+class
 =
 "
 winxp
@@ -157,7 +157,7 @@ platform
 ;
 if
 (
-classname
+class
 )
 document
 .
@@ -168,6 +168,6 @@ setAttribute
 "
 class
 "
-classname
+class
 )
 ;
