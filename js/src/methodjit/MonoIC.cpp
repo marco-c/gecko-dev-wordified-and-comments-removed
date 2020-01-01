@@ -4396,7 +4396,7 @@ ic
 .
 funObjReg
 &
-js_FunctionClass
+FunctionClass
 )
 ;
 JSFunction
@@ -7697,6 +7697,10 @@ cs
 .
 executableAddress
 (
+)
+(
+unsigned
+long
 )
 masm
 .
