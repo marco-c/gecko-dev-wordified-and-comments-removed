@@ -160,15 +160,15 @@ element
 scriptable
 uuid
 (
-69D44CE2
+f1465e67
 -
-B544
+577f
 -
-49A8
+4546
 -
-BB5F
+a7a3
 -
-87804B971EE4
+bb1293c0dd15
 )
 ]
 interface
@@ -335,7 +335,7 @@ raises
 DOMException
 )
 ;
-nsIDOMNodeList
+nsIDOMHTMLCollection
 getElementsByTagName
 (
 in
@@ -343,7 +343,7 @@ DOMString
 name
 )
 ;
-nsIDOMNodeList
+nsIDOMHTMLCollection
 getElementsByTagNameNS
 (
 in
@@ -374,7 +374,7 @@ string
 .
 *
 /
-nsIDOMNodeList
+nsIDOMHTMLCollection
 getElementsByClassName
 (
 in

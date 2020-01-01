@@ -13247,7 +13247,9 @@ nsIDOMNodeList
 aReturn
 )
 {
-return
+*
+aReturn
+=
 nsContentUtils
 :
 :
@@ -13255,8 +13257,14 @@ GetElementsByClassName
 (
 this
 aClasses
-aReturn
 )
+.
+get
+(
+)
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

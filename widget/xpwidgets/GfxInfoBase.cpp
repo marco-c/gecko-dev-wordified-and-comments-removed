@@ -105,6 +105,13 @@ h
 #
 include
 "
+nsIDOMHTMLCollection
+.
+h
+"
+#
+include
+"
 nsIDOMNode
 .
 h
@@ -1043,7 +1050,7 @@ GfxDeviceFamily
 *
 BlacklistDevicesToDeviceFamily
 (
-nsIDOMNodeList
+nsIDOMHTMLCollection
 *
 aDevices
 )
@@ -1599,7 +1606,7 @@ firstchild
 {
 nsCOMPtr
 <
-nsIDOMNodeList
+nsIDOMHTMLCollection
 >
 nodelist
 ;
@@ -1847,7 +1854,7 @@ devicesElement
 {
 nsCOMPtr
 <
-nsIDOMNodeList
+nsIDOMHTMLCollection
 >
 devices
 ;
@@ -2057,7 +2064,7 @@ static
 void
 BlacklistEntriesToDriverInfo
 (
-nsIDOMNodeList
+nsIDOMHTMLCollection
 *
 aBlacklistEntries
 nsTArray
@@ -2227,7 +2234,7 @@ gfxItems
 {
 nsCOMPtr
 <
-nsIDOMNodeList
+nsIDOMHTMLCollection
 >
 blacklistEntries
 ;

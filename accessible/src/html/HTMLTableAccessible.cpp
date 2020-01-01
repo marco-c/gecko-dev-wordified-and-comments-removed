@@ -4208,7 +4208,7 @@ false
 ;
 nsCOMPtr
 <
-nsIDOMNodeList
+nsIDOMHTMLCollection
 >
 nodeList
 ;
