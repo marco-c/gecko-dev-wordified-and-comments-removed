@@ -3569,6 +3569,10 @@ NewPath
 (
 )
 ;
+Redraw
+(
+)
+;
 return
 NS_OK
 ;
