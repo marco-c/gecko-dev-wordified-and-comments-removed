@@ -1011,10 +1011,6 @@ value
 ;
 \
 }
-\
-extern
-int
-no_such_variable
 #
 define
 PIXMAN_GET_THREAD_LOCAL

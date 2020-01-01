@@ -1278,8 +1278,7 @@ fails
 -
 if
 (
-!
-d2d
+cocoaWidget
 )
 =
 =
@@ -1312,17 +1311,6 @@ twostops
 ref
 .
 html
-fails
--
-if
-(
-!
-cocoaWidget
-&
-&
-!
-d2d
-)
 =
 =
 twostops
@@ -1337,9 +1325,6 @@ twostops
 ref
 .
 html
-#
-bug
-524173
 #
 from
 http
