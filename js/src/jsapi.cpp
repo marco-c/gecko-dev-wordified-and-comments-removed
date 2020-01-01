@@ -4040,6 +4040,7 @@ gcStoreBuffer
 thisFromCtor
 (
 )
+gcNursery
 )
 #
 endif
