@@ -13,13 +13,6 @@ h
 >
 #
 include
-<
-winsock2
-.
-h
->
-#
-include
 "
 nsINetworkLinkService
 .
@@ -176,13 +169,6 @@ DWORD
 CheckAdaptersAddresses
 (
 void
-)
-;
-BOOL
-CheckAddressIsGateway
-(
-LPSOCKADDR
-aAddress
 )
 ;
 void

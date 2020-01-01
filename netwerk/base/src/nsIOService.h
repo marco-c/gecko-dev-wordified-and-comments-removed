@@ -467,9 +467,6 @@ mSettingOffline
 PRPackedBool
 mSetOfflineValue
 ;
-PRPackedBool
-mShutdown
-;
 nsCOMPtr
 <
 nsPISocketTransportService
