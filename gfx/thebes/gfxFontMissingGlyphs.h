@@ -44,6 +44,8 @@ gfxRect
 aRect
 uint32_t
 aChar
+uint32_t
+aAppUnitsPerDevPixel
 )
 ;
 static
@@ -52,6 +54,8 @@ GetDesiredMinWidth
 (
 uint32_t
 aChar
+uint32_t
+aAppUnitsPerDevUnit
 )
 ;
 }

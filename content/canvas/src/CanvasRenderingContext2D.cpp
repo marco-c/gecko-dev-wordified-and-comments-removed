@@ -11205,6 +11205,12 @@ detailedGlyphs
 ]
 .
 mGlyphID
+nsDeviceContext
+:
+:
+AppUnitsPerCSSPixel
+(
+)
 )
 ;
 mCtx
