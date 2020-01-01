@@ -1159,7 +1159,7 @@ listener
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 sourceHandler
@@ -1172,7 +1172,7 @@ listenerData
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 sourceHandlerData
@@ -3456,7 +3456,7 @@ hook
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 debugErrorHook
@@ -3475,7 +3475,7 @@ report
 cx
 -
 >
-runtime
+debugHooks
 -
 >
 debugErrorHookData
