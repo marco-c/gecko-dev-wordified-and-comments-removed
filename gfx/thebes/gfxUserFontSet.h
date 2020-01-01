@@ -153,6 +153,9 @@ mURI
 nsString
 mLocalName
 ;
+nsString
+mRealName
+;
 PRUint32
 mSrcIndex
 ;
