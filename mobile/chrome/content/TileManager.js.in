@@ -2336,7 +2336,12 @@ destCriticalRect
 {
 if
 (
+!
 destCriticalRect
+.
+isEmpty
+(
+)
 )
 {
 let
