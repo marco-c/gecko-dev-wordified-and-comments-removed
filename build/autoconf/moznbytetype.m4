@@ -499,7 +499,9 @@ short
 dnl
 AC_DEFUN
 (
+[
 MOZ_N_BYTE_TYPE
+]
 [
 dnl
 The
@@ -737,7 +739,9 @@ void
 )
 AC_DEFUN
 (
+[
 MOZ_SIZE_OF_TYPE
+]
 [
 AC_CACHE_CHECK
 (
@@ -912,7 +916,9 @@ void
 )
 AC_DEFUN
 (
+[
 MOZ_ALIGN_OF_TYPE
+]
 [
 AC_CACHE_CHECK
 (

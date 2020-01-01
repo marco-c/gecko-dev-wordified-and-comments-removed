@@ -429,7 +429,9 @@ FOUND
 )
 AC_DEFUN
 (
+[
 MOZ_CHECK_HEADER
+]
 [
 dnl
 Do
@@ -580,7 +582,9 @@ FOUND
 )
 AC_DEFUN
 (
+[
 MOZ_CHECK_HEADERS
+]
 [
 for
 ac_hdr
