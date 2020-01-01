@@ -117,10 +117,6 @@ browser_social_chatwindow
 .
 js
 \
-browser_social_chatwindowfocus
-.
-js
-\
 browser_social_multiprovider
 .
 js
