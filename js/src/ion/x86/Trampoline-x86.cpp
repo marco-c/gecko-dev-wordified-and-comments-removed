@@ -73,6 +73,15 @@ h
 #
 include
 "
+ion
+/
+ExecutionModeInlines
+.
+h
+"
+#
+include
+"
 jsscriptinlines
 .
 h
@@ -881,6 +890,8 @@ generateArgumentsRectifier
 JSContext
 *
 cx
+ExecutionMode
+mode
 )
 {
 MacroAssembler
@@ -1252,10 +1263,9 @@ movl
 Operand
 (
 eax
-offsetof
+OffsetOfIonInJSScript
 (
-JSScript
-ion
+mode
 )
 )
 eax
