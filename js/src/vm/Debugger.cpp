@@ -75,6 +75,15 @@ include
 "
 frontend
 /
+BytecodeCompiler
+.
+h
+"
+#
+include
+"
+frontend
+/
 CodeGenerator
 .
 h

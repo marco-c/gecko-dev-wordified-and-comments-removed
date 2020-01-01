@@ -194,7 +194,7 @@ include
 "
 frontend
 /
-CodeGenerator
+BytecodeCompiler
 .
 h
 "
@@ -203,7 +203,7 @@ include
 "
 frontend
 /
-Parser
+CodeGenerator
 .
 h
 "
