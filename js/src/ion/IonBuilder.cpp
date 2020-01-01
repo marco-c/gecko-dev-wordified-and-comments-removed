@@ -29,14 +29,14 @@ h
 #
 include
 "
-IonSpew
+IonAnalysis
 .
 h
 "
 #
 include
 "
-IonAnalysis
+IonSpewer
 .
 h
 "

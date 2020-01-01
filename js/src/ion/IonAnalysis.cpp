@@ -22,13 +22,6 @@ h
 #
 include
 "
-IonSpew
-.
-h
-"
-#
-include
-"
 IonAnalysis
 .
 h
