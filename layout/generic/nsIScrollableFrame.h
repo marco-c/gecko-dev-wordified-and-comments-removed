@@ -387,6 +387,14 @@ ResetScrollPositionForLayerPixelAlignment
 =
 0
 ;
+virtual
+bool
+DidHistoryRestore
+(
+)
+=
+0
+;
 }
 ;
 #
