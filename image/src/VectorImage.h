@@ -275,6 +275,9 @@ SVGParseCompleteListener
 >
 mParseCompleteListener
 ;
+nsIntRect
+mRestrictedRegion
+;
 bool
 mIsInitialized
 ;
@@ -286,6 +289,9 @@ mIsDrawing
 ;
 bool
 mHaveAnimations
+;
+bool
+mHaveRestrictedRegion
 ;
 friend
 class
