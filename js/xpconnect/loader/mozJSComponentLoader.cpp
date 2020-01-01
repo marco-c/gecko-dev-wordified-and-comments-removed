@@ -5077,6 +5077,12 @@ happen
 "
 )
 ;
+JSAutoRequest
+ar
+(
+mContext
+)
+;
 RootedObject
 global
 (
