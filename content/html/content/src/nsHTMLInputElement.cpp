@@ -3739,6 +3739,12 @@ nsHTMLInputElement
 Max
 max
 )
+NS_IMPL_STRING_ATTR
+(
+nsHTMLInputElement
+Min
+min
+)
 NS_IMPL_ACTION_ATTR
 (
 nsHTMLInputElement
