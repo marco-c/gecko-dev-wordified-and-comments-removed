@@ -492,7 +492,6 @@ HTML_TAG
 image
 "
 "
-Span
 "
 )
 HTML_TAG
@@ -528,7 +527,7 @@ HTML_TAG
 isindex
 "
 "
-Shared
+Unknown
 "
 )
 HTML_TAG
@@ -636,7 +635,7 @@ HTML_TAG
 multicol
 "
 "
-Span
+Unknown
 "
 )
 HTML_TAG
@@ -807,7 +806,7 @@ HTML_TAG
 spacer
 "
 "
-Shared
+Unknown
 "
 )
 HTML_TAG
