@@ -520,6 +520,10 @@ MozSmsSegmentInfo
 )
 DOMCI_CLASS
 (
+MozMobileMessageThread
+)
+DOMCI_CLASS
+(
 MozConnection
 )
 #

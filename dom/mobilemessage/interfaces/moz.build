@@ -113,6 +113,11 @@ nsIDOMMozMmsMessage
 idl
 '
 '
+nsIDOMMozMobileMessageThread
+.
+idl
+'
+'
 nsIDOMMozSmsEvent
 .
 idl
