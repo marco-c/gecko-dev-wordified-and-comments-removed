@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsIDOMSVGSymbolElement
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

@@ -172,10 +172,6 @@ nsIDOMSVGStringList
 .
 idl
 \
-nsIDOMSVGSymbolElement
-.
-idl
-\
 nsIDOMSVGTextContentElement
 .
 idl
