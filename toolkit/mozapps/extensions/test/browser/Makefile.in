@@ -473,6 +473,10 @@ browser_about
 .
 js
 \
+browser_bug523784
+.
+js
+\
 browser_bug557943
 .
 js
