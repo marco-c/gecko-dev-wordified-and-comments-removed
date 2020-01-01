@@ -3574,8 +3574,6 @@ get
 )
 )
 ;
-return
-;
 }
 else
 if
