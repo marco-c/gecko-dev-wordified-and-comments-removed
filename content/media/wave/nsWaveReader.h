@@ -160,7 +160,7 @@ FindDataOffset
 (
 )
 ;
-float
+double
 BytesToTime
 (
 PRInt64
@@ -171,7 +171,7 @@ const
 PRInt64
 TimeToBytes
 (
-float
+double
 aTime
 )
 const

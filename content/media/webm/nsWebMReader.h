@@ -592,7 +592,7 @@ PRUint32
 mAudioTrack
 ;
 PRInt64
-mAudioStartMs
+mAudioStartUsec
 ;
 PRUint64
 mAudioSamples

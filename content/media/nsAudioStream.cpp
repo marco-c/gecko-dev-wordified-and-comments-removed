@@ -103,6 +103,13 @@ nsAlgorithm
 .
 h
 "
+#
+include
+"
+VideoUtils
+.
+h
+"
 extern
 "
 C
@@ -179,10 +186,6 @@ endif
 define
 FAKE_BUFFER_SIZE
 176400
-#
-define
-MILLISECONDS_PER_SECOND
-1000
 class
 nsAudioStreamLocal
 :
@@ -2212,7 +2215,7 @@ sampleOffset
 return
 (
 (
-MILLISECONDS_PER_SECOND
+USECS_PER_S
 *
 sampleOffset
 )
@@ -2811,7 +2814,7 @@ sampleOffset
 return
 (
 (
-MILLISECONDS_PER_SECOND
+USECS_PER_S
 *
 sampleOffset
 )
@@ -2891,7 +2894,7 @@ PR_IntervalNow
 time
 )
 /
-MILLISECONDS_PER_SECOND
+USECS_PER_S
 )
 ;
 return

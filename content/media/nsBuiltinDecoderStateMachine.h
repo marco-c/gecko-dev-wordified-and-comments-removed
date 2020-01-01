@@ -468,7 +468,7 @@ PRBool
 HasLowDecodedData
 (
 PRInt64
-aAudioMs
+aAudioUsecs
 )
 const
 ;
@@ -485,7 +485,7 @@ GetUndecodedData
 const
 ;
 PRInt64
-AudioDecodedMs
+AudioDecodedUsecs
 (
 )
 const
@@ -505,7 +505,7 @@ void
 Wait
 (
 PRInt64
-aMs
+aUsecs
 )
 ;
 void
@@ -680,7 +680,7 @@ mDecodeThread
 TimeStamp
 mPlayStartTime
 ;
-TimeDuration
+PRInt64
 mPlayDuration
 ;
 TimeStamp

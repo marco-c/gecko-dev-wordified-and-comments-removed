@@ -592,7 +592,7 @@ PR_TRUE
 ;
 }
 PRBool
-SamplesToMs
+SamplesToUsecs
 (
 PRInt64
 aSamples
@@ -600,7 +600,7 @@ PRUint32
 aRate
 PRInt64
 &
-aOutMs
+aOutUsecs
 )
 {
 PRInt64
@@ -612,14 +612,14 @@ if
 MulOverflow
 (
 aSamples
-1000
+USECS_PER_S
 x
 )
 )
 return
 PR_FALSE
 ;
-aOutMs
+aOutUsecs
 =
 x
 /
@@ -630,10 +630,10 @@ PR_TRUE
 ;
 }
 PRBool
-MsToSamples
+UsecsToSamples
 (
 PRInt64
-aMs
+aUsecs
 PRUint32
 aRate
 PRInt64
@@ -649,7 +649,7 @@ if
 !
 MulOverflow
 (
-aMs
+aUsecs
 aRate
 x
 )
@@ -661,7 +661,7 @@ aOutSamples
 =
 x
 /
-1000
+USECS_PER_S
 ;
 return
 PR_TRUE

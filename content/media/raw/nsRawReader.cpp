@@ -536,7 +536,7 @@ GetStateMachine
 >
 SetDuration
 (
-1000
+USECS_PER_S
 *
 (
 length
@@ -772,7 +772,7 @@ PR_FALSE
 PRInt64
 currentFrameTime
 =
-1000
+USECS_PER_S
 *
 mCurrentFrame
 /
@@ -914,9 +914,13 @@ mCurrentFrame
 currentFrameTime
 +
 =
-1000
-.
-0
+static_cast
+<
+double
+>
+(
+USECS_PER_S
+)
 /
 mFrameRate
 ;
@@ -1154,7 +1158,7 @@ currentFrameTime
 currentFrameTime
 +
 (
-1000
+USECS_PER_S
 /
 mFrameRate
 )
@@ -1190,7 +1194,7 @@ decoded
 currentFrameTime
 +
 =
-1000
+USECS_PER_S
 /
 mFrameRate
 ;
@@ -1286,7 +1290,7 @@ aTime
 *
 mFrameRate
 /
-1000
+USECS_PER_S
 ;
 PRUint32
 offset
