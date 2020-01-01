@@ -636,8 +636,8 @@ run_for_effects
 (
 shell
 if
-!
 test
+!
 -
 d
 (
