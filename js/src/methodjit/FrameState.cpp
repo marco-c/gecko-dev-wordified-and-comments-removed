@@ -9968,6 +9968,11 @@ i
 if
 (
 nfe
+<
+sp
+&
+&
+nfe
 -
 >
 isCopy
@@ -11207,6 +11212,11 @@ nfe
 !
 =
 fe
+&
+&
+nfe
+<
+sp
 &
 &
 nfe
