@@ -592,16 +592,7 @@ endif
 TEST_DIRS
 +
 =
-\
 tests
-\
-imported
--
-tests
-\
-(
-NULL
-)
 ifneq
 (
 (

@@ -15879,7 +15879,7 @@ return
 nsnull
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsGenericElement
 :
 :

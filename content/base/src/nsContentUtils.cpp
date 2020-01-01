@@ -7582,11 +7582,15 @@ JSContext
 *
 cx
 =
+nsnull
+;
 sThreadJSContextStack
 -
 >
 GetSafeJSContext
 (
+&
+cx
 )
 ;
 if

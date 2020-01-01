@@ -127,11 +127,15 @@ JSContext
 *
 cx
 =
+nsnull
+;
 stack
 -
 >
 GetSafeJSContext
 (
+&
+cx
 )
 ;
 if

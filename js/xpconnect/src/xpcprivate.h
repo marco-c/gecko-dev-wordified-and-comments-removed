@@ -6035,8 +6035,11 @@ mContext
 ;
 }
 void
-ClearContext
+SetContext
 (
+XPCContext
+*
+xpcc
 )
 {
 mContext

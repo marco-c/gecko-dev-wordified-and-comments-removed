@@ -505,8 +505,7 @@ lld
 "
 static_cast
 <
-long
-long
+PRInt64
 >
 (
 mStartTime

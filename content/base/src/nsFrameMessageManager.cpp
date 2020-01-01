@@ -1660,8 +1660,6 @@ if
 ctx
 )
 {
-ctx
-=
 nsContentUtils
 :
 :
@@ -1672,6 +1670,8 @@ ThreadJSContextStack
 >
 GetSafeJSContext
 (
+&
+ctx
 )
 ;
 }
@@ -3336,6 +3336,8 @@ JSContext
 *
 cx
 =
+nsnull
+;
 nsContentUtils
 :
 :
@@ -3346,6 +3348,8 @@ ThreadJSContextStack
 >
 GetSafeJSContext
 (
+&
+cx
 )
 ;
 if
