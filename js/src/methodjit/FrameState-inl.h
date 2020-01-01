@@ -7374,7 +7374,7 @@ FrameState
 :
 unpinKilledReg
 (
-RegisterID
+AnyRegisterID
 reg
 )
 {
