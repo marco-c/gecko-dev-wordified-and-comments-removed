@@ -3408,9 +3408,6 @@ mContextStatus
 bool
 mContextLostErrorSet
 ;
-bool
-mContextLostDueToTest
-;
 #
 ifdef
 XP_MACOSX
