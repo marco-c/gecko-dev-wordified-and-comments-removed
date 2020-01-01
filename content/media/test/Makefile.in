@@ -677,10 +677,6 @@ test_standalone
 .
 html
 \
-test_too_many_elements
-.
-html
-\
 test_volume
 .
 html
