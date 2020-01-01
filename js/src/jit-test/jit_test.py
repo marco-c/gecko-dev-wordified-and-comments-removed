@@ -1143,6 +1143,8 @@ path
 .
 join
 (
+jittests
+.
 TEST_DIR
 line
 .
