@@ -824,7 +824,7 @@ SEC_ERROR_INVALID_ARGS
 )
 ;
 return
-SECFailure
+HASH_AlgNULL
 ;
 }
 L

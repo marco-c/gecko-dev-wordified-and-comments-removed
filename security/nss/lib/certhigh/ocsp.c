@@ -559,6 +559,7 @@ static
 PRBool
 wantOcspTrace
 (
+void
 )
 {
 static
@@ -2508,6 +2509,7 @@ static
 PRBool
 ocsp_IsCacheDisabled
 (
+void
 )
 {
 PRBool
@@ -2872,6 +2874,7 @@ monitor
 SECStatus
 CERT_ClearOCSPCache
 (
+void
 )
 {
 OCSP_TRACE
@@ -4330,6 +4333,7 @@ SEC_HttpClientFcn
 *
 SEC_GetRegisteredHttpClient
 (
+void
 )
 {
 const
@@ -7363,6 +7367,7 @@ CERTOCSPRequest
 *
 ocsp_prepareEmptyOCSPRequest
 (
+void
 )
 {
 PRArenaPool
@@ -16017,6 +16022,7 @@ rv
 PRBool
 ocsp_FetchingFailureIsVerificationFailure
 (
+void
 )
 {
 PRBool

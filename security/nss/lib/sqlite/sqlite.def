@@ -405,6 +405,8 @@ sqlite3_expired
 ;
 sqlite3_extended_result_codes
 ;
+sqlite3_file_control
+;
 sqlite3_finalize
 ;
 sqlite3_free
@@ -495,6 +497,11 @@ sqlite3_snprintf
 ;
 sqlite3_step
 ;
+;
+;
+sqlite3_temp_directory
+DATA
+;
 sqlite3_thread_cleanup
 ;
 sqlite3_total_changes
@@ -534,6 +541,8 @@ sqlite3_value_type
 sqlite3_version
 ;
 sqlite3_vmprintf
+;
+sqlite3_wal_checkpoint
 ;
 ;
 +

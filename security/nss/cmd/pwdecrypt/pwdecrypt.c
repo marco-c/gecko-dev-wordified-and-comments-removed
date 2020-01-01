@@ -810,10 +810,6 @@ rv
 int
 err
 ;
-unsigned
-int
-i
-;
 SECItem
 result
 =

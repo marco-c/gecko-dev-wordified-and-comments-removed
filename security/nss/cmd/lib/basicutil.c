@@ -133,6 +133,7 @@ enable
 PRBool
 SECU_GetWrapEnabled
 (
+void
 )
 {
 return

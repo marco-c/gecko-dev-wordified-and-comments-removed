@@ -1872,9 +1872,9 @@ globalrng
 NULL
 )
 ?
-PR_SUCCESS
+SECSuccess
 :
-PR_FAILURE
+SECFailure
 ;
 }
 SECStatus

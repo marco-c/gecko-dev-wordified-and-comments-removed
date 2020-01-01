@@ -22025,12 +22025,10 @@ cert
 ;
 if
 (
-(
 refCount
 =
 =
 0
-)
 )
 {
 certDBEntryCert

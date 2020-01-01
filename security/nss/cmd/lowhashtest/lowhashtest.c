@@ -2426,13 +2426,6 @@ char
 argv
 )
 {
-PLOptState
-*
-optstate
-;
-PLOptStatus
-status
-;
 NSSLOWInitContext
 *
 initCtx

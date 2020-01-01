@@ -1612,7 +1612,6 @@ SEC_ASN1_CHOOSER_IMPLEMENT
 (
 NSSCMSGenericWrapperDataTemplate
 )
-;
 const
 SEC_ASN1Template
 NSS_PointerToCMSGenericWrapperDataTemplate
@@ -1631,7 +1630,6 @@ SEC_ASN1_CHOOSER_IMPLEMENT
 (
 NSS_PointerToCMSGenericWrapperDataTemplate
 )
-;
 static
 const
 SEC_ASN1Template

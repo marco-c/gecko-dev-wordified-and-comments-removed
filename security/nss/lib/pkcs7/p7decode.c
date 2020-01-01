@@ -1555,11 +1555,6 @@ slot
 =
 NULL
 ;
-int
-bulkLength
-=
-0
-;
 if
 (
 recipientinfos

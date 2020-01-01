@@ -5433,7 +5433,6 @@ SEC_ASN1_MKSUB
 (
 SECOID_AlgorithmIDTemplate
 )
-;
 const
 SEC_ASN1Template
 secuKDF2Params
@@ -19566,13 +19565,13 @@ if
 colonPos
 )
 {
-return
-SECFailure
-;
 PORT_SetError
 (
 SEC_ERROR_INVALID_ARGS
 )
+;
+return
+SECFailure
 ;
 }
 colonIndex

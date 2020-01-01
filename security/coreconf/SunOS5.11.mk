@@ -54,11 +54,6 @@ MPL
 0
 /
 .
-SOL_CFLAGS
-+
-=
--
-D_SVID_GETTOD
 include
 (
 CORE_DEPTH

@@ -177,6 +177,7 @@ isDefault
 PRBool
 ocsp_FetchingFailureIsVerificationFailure
 (
+void
 )
 ;
 #

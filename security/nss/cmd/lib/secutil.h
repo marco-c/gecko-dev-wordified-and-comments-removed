@@ -472,6 +472,7 @@ extern
 PRBool
 SECU_GetWrapEnabled
 (
+void
 )
 ;
 extern
@@ -1183,6 +1184,19 @@ char
 SECU_SECModDBName
 (
 void
+)
+;
+extern
+void
+SECU_cert_fetchOID
+(
+SECOidTag
+*
+data
+const
+SECOidData
+*
+src
 )
 ;
 extern

@@ -9149,7 +9149,7 @@ pVfy
 )
 ;
 }
-PRBool
+SECStatus
 PRNGTEST_RunHealthTests
 (
 void
@@ -9169,7 +9169,7 @@ freebl_RunLoaderOnce
 )
 )
 return
-PR_FALSE
+SECFailure
 ;
 return
 vector
