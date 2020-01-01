@@ -163,6 +163,10 @@ nsIDOMTelephonyCall
 call
 =
 mCall
+.
+get
+(
+)
 ;
 call
 .
