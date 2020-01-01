@@ -3432,6 +3432,12 @@ SetVisibility
 true
 )
 ;
+NS_ENSURE_TRUE
+(
+mDocShell
+false
+)
+;
 nsCOMPtr
 <
 nsIPresShell

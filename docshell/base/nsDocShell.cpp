@@ -22321,10 +22321,18 @@ bool
 aVisibility
 )
 {
+nsCOMPtr
+<
+nsIContentViewer
+>
+cv
+=
+mContentViewer
+;
 if
 (
 !
-mContentViewer
+cv
 )
 return
 NS_OK
@@ -22334,7 +22342,7 @@ if
 aVisibility
 )
 {
-mContentViewer
+cv
 -
 >
 Show
@@ -22344,7 +22352,7 @@ Show
 }
 else
 {
-mContentViewer
+cv
 -
 >
 Hide
