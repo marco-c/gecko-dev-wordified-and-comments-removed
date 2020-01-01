@@ -312,6 +312,10 @@ imgCacheValidator
 ;
 friend
 class
+imgStatusTracker
+;
+friend
+class
 imgCacheExpirationTracker
 ;
 friend
