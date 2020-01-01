@@ -15131,6 +15131,14 @@ height
 )
 )
 ;
+targetSurface
+-
+>
+SetAllowUseAsSource
+(
+PR_FALSE
+)
+;
 nsRefPtr
 <
 gfxContext
