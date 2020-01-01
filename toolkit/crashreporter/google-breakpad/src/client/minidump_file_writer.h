@@ -289,7 +289,7 @@ location
 {
 static_cast
 <
-int
+u_int32_t
 >
 (
 size_
