@@ -190,13 +190,6 @@ h
 #
 include
 "
-nsNetCID
-.
-h
-"
-#
-include
-"
 nsIJSContextStack
 .
 h
@@ -433,20 +426,6 @@ NS_LITERAL_STRING
 zlevel
 "
 )
-static
-NS_DEFINE_CID
-(
-kAppShellCID
-NS_APPSHELL_CID
-)
-;
-static
-NS_DEFINE_CID
-(
-kWindowMediatorCID
-NS_WINDOWMEDIATOR_CID
-)
-;
 nsXULWindow
 :
 :
@@ -869,7 +848,7 @@ mediator
 (
 do_GetService
 (
-kWindowMediatorCID
+NS_WINDOWMEDIATOR_CONTRACTID
 )
 )
 ;
@@ -914,7 +893,7 @@ mediator
 (
 do_GetService
 (
-kWindowMediatorCID
+NS_WINDOWMEDIATOR_CONTRACTID
 )
 )
 ;
@@ -3170,7 +3149,7 @@ windowMediator
 (
 do_GetService
 (
-kWindowMediatorCID
+NS_WINDOWMEDIATOR_CONTRACTID
 )
 )
 ;
@@ -3561,7 +3540,7 @@ windowMediator
 (
 do_GetService
 (
-kWindowMediatorCID
+NS_WINDOWMEDIATOR_CONTRACTID
 )
 )
 ;
@@ -6392,7 +6371,7 @@ mediator
 (
 do_GetService
 (
-kWindowMediatorCID
+NS_WINDOWMEDIATOR_CONTRACTID
 )
 )
 ;
@@ -8041,7 +8020,7 @@ mediator
 (
 do_GetService
 (
-kWindowMediatorCID
+NS_WINDOWMEDIATOR_CONTRACTID
 )
 )
 ;
@@ -8416,7 +8395,7 @@ mediator
 (
 do_GetService
 (
-kWindowMediatorCID
+NS_WINDOWMEDIATOR_CONTRACTID
 )
 )
 ;

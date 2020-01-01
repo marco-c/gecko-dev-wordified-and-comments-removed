@@ -930,13 +930,6 @@ directory_service
 "
 ;
 static
-NS_DEFINE_IID
-(
-kStringBundleServiceCID
-NS_STRINGBUNDLESERVICE_CID
-)
-;
-static
 NS_DEFINE_CID
 (
 kCPluginManagerCID
@@ -26563,7 +26556,7 @@ strings
 (
 do_GetService
 (
-kStringBundleServiceCID
+NS_STRINGBUNDLE_CONTRACTID
 &
 rv
 )
