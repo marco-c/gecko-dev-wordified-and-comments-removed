@@ -667,6 +667,10 @@ browser_installssl
 .
 js
 \
+browser_newaddon
+.
+js
+\
 (
 NULL
 )

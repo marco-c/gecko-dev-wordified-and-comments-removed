@@ -3666,6 +3666,14 @@ AddonManager
 .
 OPTIONS_TYPE_DIALOG
 ;
+addon
+.
+isActive
+=
+addon
+.
+shouldBeActive
+;
 this
 .
 addAddon

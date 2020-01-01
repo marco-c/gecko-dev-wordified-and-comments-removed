@@ -938,6 +938,16 @@ true
 pref
 (
 "
+extensions
+.
+autoDisableScopes
+"
+10
+)
+;
+pref
+(
+"
 browser
 .
 dictionaries
