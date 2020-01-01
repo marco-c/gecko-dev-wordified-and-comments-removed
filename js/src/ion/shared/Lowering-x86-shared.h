@@ -69,6 +69,14 @@ ins
 )
 ;
 bool
+visitInterruptCheck
+(
+MInterruptCheck
+*
+ins
+)
+;
+bool
 lowerMulI
 (
 MMul

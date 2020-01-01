@@ -271,6 +271,14 @@ LRecompileCheck
 lir
 )
 ;
+bool
+visitInterruptCheck
+(
+LInterruptCheck
+*
+lir
+)
+;
 }
 ;
 typedef

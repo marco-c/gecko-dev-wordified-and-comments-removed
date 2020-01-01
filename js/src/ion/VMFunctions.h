@@ -2204,6 +2204,14 @@ bool
 isSetName
 )
 ;
+bool
+InterruptCheck
+(
+JSContext
+*
+cx
+)
+;
 }
 }
 #

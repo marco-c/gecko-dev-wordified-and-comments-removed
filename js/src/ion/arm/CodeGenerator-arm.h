@@ -729,6 +729,14 @@ lir
 )
 ;
 bool
+visitInterruptCheck
+(
+LInterruptCheck
+*
+lir
+)
+;
+bool
 generateInvalidateEpilogue
 (
 )

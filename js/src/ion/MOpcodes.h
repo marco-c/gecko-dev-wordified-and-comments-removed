@@ -516,6 +516,11 @@ _
 (
 Round
 )
+\
+_
+(
+InterruptCheck
+)
 #
 define
 FORWARD_DECLARE
