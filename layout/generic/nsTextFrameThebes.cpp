@@ -36323,9 +36323,6 @@ mAdvanceWidth
 ;
 if
 (
-completedFirstLetter
-&
-&
 transformedCharsFit
 =
 =
