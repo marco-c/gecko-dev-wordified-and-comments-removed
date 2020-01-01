@@ -12460,6 +12460,7 @@ ccResults
 ;
 nsCycleCollector_collect
 (
+false
 &
 ccResults
 aListener
