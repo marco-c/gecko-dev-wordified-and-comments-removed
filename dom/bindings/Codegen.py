@@ -18610,6 +18610,11 @@ if
 descriptor
 .
 prefable
+and
+not
+descriptor
+.
+hasXPConnectImpls
 :
                 
 raise
@@ -24244,6 +24249,11 @@ not
 descriptor
 .
 prefable
+and
+not
+descriptor
+.
+hasXPConnectImpls
 :
                 
 failed
