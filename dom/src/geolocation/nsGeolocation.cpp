@@ -19,6 +19,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+TabChild
+.
+h
+"
+#
+include
+"
 nsISettingsService
 .
 h
