@@ -3947,7 +3947,7 @@ nsIDOMHTMLMediaElement
 HAVE_ENOUGH_DATA
 )
 ;
-DispatchProgressEvent
+DispatchAsyncProgressEvent
 (
 NS_LITERAL_STRING
 (
@@ -3981,7 +3981,7 @@ mBegun
 =
 PR_FALSE
 ;
-DispatchProgressEvent
+DispatchAsyncProgressEvent
 (
 NS_LITERAL_STRING
 (
@@ -3998,7 +3998,7 @@ nsIDOMHTMLMediaElement
 :
 NETWORK_EMPTY
 ;
-DispatchSimpleEvent
+DispatchAsyncSimpleEvent
 (
 NS_LITERAL_STRING
 (
@@ -4045,7 +4045,7 @@ mPaused
 =
 PR_TRUE
 ;
-DispatchSimpleEvent
+DispatchAsyncSimpleEvent
 (
 NS_LITERAL_STRING
 (
