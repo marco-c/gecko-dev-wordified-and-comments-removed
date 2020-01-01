@@ -751,6 +751,9 @@ capture
 .
 *
 /
+[
+noscript
+]
 void
 addEventListener
 (
