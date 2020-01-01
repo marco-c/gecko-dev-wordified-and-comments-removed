@@ -969,6 +969,7 @@ target
 private
 :
 DummyFrameGuard
+*
 frame
 ;
 public
