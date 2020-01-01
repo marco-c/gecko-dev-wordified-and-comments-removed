@@ -17,16 +17,7 @@ include
 <
 gtk
 /
-gtkmain
-.
-h
->
-#
-include
-<
 gtk
-/
-gtkprivate
 .
 h
 >

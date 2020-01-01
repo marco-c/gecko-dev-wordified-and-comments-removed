@@ -60,16 +60,7 @@ include
 <
 gtk
 /
-gtkprinter
-.
-h
->
-#
-include
-<
-gtk
-/
-gtkprintjob
+gtkunixprint
 .
 h
 >

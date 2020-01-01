@@ -9,7 +9,7 @@ include
 <
 gdk
 /
-gdkwindow
+gdk
 .
 h
 >
@@ -18,7 +18,7 @@ include
 <
 gtk
 /
-gtkversion
+gtk
 .
 h
 >

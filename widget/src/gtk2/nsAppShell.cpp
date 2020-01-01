@@ -33,7 +33,7 @@ include
 <
 gdk
 /
-gdkwindow
+gdk
 .
 h
 >

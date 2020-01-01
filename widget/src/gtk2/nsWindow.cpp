@@ -5,15 +5,6 @@ MOZ_PLATFORM_HILDON
 define
 MAEMO_CHANGES
 #
-include
-<
-gtk
-/
-gtkimcontext
-.
-h
->
-#
 endif
 #
 include
@@ -118,7 +109,7 @@ include
 <
 gtk
 /
-gtkwindow
+gtk
 .
 h
 >
