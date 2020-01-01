@@ -476,7 +476,7 @@ SEP
 ;
 #
 the
-paltform
+platform
 independent
 path
 separator

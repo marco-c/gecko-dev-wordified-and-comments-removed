@@ -3094,7 +3094,7 @@ NS_ASSERTION
 mStyleContext
 "
 chars
-shoud
+should
 always
 have
 style
