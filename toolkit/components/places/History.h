@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsIDownloadHistory
+.
+h
+"
+#
+include
+"
 Database
 .
 h
@@ -121,6 +128,8 @@ History
 public
 IHistory
 public
+nsIDownloadHistory
+public
 mozIAsyncHistory
 public
 nsIObserver
@@ -129,6 +138,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_IHISTORY
+NS_DECL_NSIDOWNLOADHISTORY
 NS_DECL_MOZIASYNCHISTORY
 NS_DECL_NSIOBSERVER
 History

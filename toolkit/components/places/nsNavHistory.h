@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsIDownloadHistory
-.
-h
-"
-#
-include
-"
 nsINavBookmarksService
 .
 h
@@ -276,8 +269,6 @@ nsIObserver
 public
 nsIBrowserHistory
 public
-nsIDownloadHistory
-public
 nsPIPlacesDatabase
 public
 nsPIPlacesHistoryListenersNotifier
@@ -297,7 +288,6 @@ nsNavHistory
 NS_DECL_ISUPPORTS
 NS_DECL_NSINAVHISTORYSERVICE
 NS_DECL_NSIGLOBALHISTORY2
-NS_DECL_NSIDOWNLOADHISTORY
 NS_DECL_NSIBROWSERHISTORY
 NS_DECL_NSIOBSERVER
 NS_DECL_NSPIPLACESDATABASE
