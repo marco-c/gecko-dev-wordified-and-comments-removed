@@ -1175,6 +1175,10 @@ XPathEvaluator
 .
 webidl
 \
+XULCommandEvent
+.
+webidl
+\
 XULDocument
 .
 webidl
