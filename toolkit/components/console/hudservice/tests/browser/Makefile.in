@@ -600,10 +600,6 @@ browser_webconsole_bug_587617_output_copy
 .
 js
 \
-browser_webconsole_bug_588342_document_focus
-.
-js
-\
 browser_webconsole_bug_585237_line_limit
 .
 js
@@ -633,6 +629,10 @@ browser_webconsole_bug_589162_css_filter
 js
 \
 browser_webconsole_bug_597103_deactivateHUDForContext_unfocused_window
+.
+js
+\
+browser_webconsole_bug_588342_document_focus
 .
 js
 \
