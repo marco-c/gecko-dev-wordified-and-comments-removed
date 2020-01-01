@@ -3379,8 +3379,7 @@ nsSHEntry
 :
 GetLastTouched
 (
-unsigned
-int
+PRUint32
 *
 aLastTouched
 )
@@ -3400,8 +3399,7 @@ nsSHEntry
 :
 SetLastTouched
 (
-unsigned
-int
+PRUint32
 aLastTouched
 )
 {
