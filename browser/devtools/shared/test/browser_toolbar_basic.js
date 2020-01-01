@@ -40,7 +40,7 @@ imported
 )
 ;
 const
-URL
+TEST_URI
 =
 "
 http
@@ -73,7 +73,7 @@ test
 {
 addTab
 (
-URL
+TEST_URI
 function
 (
 browser
