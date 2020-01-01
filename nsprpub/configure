@@ -9643,6 +9643,9 @@ mingw
 wince
 *
 |
+winmo
+*
+|
 os2
 *
 )
@@ -22319,6 +22322,14 @@ OS_ARCH
 WINCE
 ;
 ;
+winmo
+*
+)
+OS_ARCH
+=
+WINCE
+;
+;
 darwin
 *
 )
@@ -23388,6 +23399,11 @@ mks
 -
 wince
 *
+|
+*
+-
+winmo
+*
 )
 NSINSTALL
 =
@@ -23599,7 +23615,7 @@ echo
 "
 configure
 :
-2979
+2980
 :
 checking
 for
@@ -23661,7 +23677,7 @@ ac_ext
 EOF
 #
 line
-2984
+2985
 "
 configure
 "
@@ -23706,7 +23722,7 @@ eval
 echo
 configure
 :
-2989
+2990
 :
 \
 "
@@ -24474,7 +24490,7 @@ echo
 "
 configure
 :
-3146
+3147
 :
 checking
 for
@@ -24568,7 +24584,7 @@ ac_ext
 EOF
 #
 line
-3154
+3155
 "
 configure
 "
@@ -24646,7 +24662,7 @@ eval
 echo
 configure
 :
-3165
+3166
 :
 \
 "
@@ -29946,6 +29962,11 @@ fi
 -
 wince
 *
+|
+*
+-
+winmo
+*
 )
 cat
 >
@@ -31470,7 +31491,7 @@ echo
 "
 configure
 :
-4511
+4512
 :
 checking
 for
@@ -31532,7 +31553,7 @@ ac_ext
 EOF
 #
 line
-4516
+4517
 "
 configure
 "
@@ -31577,7 +31598,7 @@ eval
 echo
 configure
 :
-4521
+4522
 :
 \
 "
@@ -35262,7 +35283,7 @@ echo
 "
 configure
 :
-5170
+5171
 :
 checking
 for
@@ -35356,7 +35377,7 @@ ac_ext
 EOF
 #
 line
-5178
+5179
 "
 configure
 "
@@ -35434,7 +35455,7 @@ eval
 echo
 configure
 :
-5189
+5190
 :
 \
 "
@@ -35597,7 +35618,7 @@ echo
 "
 configure
 :
-5206
+5207
 :
 checking
 for
@@ -35657,7 +35678,7 @@ ac_ext
 EOF
 #
 line
-5211
+5212
 "
 configure
 "
@@ -35700,7 +35721,7 @@ eval
 echo
 configure
 :
-5216
+5217
 :
 \
 "
@@ -35916,7 +35937,7 @@ echo
 "
 configure
 :
-5249
+5250
 :
 checking
 whether
@@ -35990,7 +36011,7 @@ ac_ext
 EOF
 #
 line
-5255
+5256
 "
 configure
 "
@@ -36081,7 +36102,7 @@ ac_ext
 EOF
 #
 line
-5273
+5274
 "
 configure
 "
@@ -36202,7 +36223,7 @@ echo
 "
 configure
 :
-5297
+5298
 :
 checking
 for
@@ -36260,7 +36281,7 @@ ac_ext
 EOF
 #
 line
-5302
+5303
 "
 configure
 "
@@ -36429,7 +36450,7 @@ eval
 echo
 configure
 :
-5325
+5326
 :
 \
 "
@@ -36677,7 +36698,7 @@ echo
 "
 configure
 :
-5366
+5367
 :
 checking
 for
@@ -36917,7 +36938,7 @@ echo
 "
 configure
 :
-5405
+5406
 :
 checking
 for
@@ -37125,7 +37146,7 @@ echo
 "
 configure
 :
-5427
+5428
 :
 checking
 for
@@ -37333,7 +37354,7 @@ echo
 "
 configure
 :
-5449
+5450
 :
 checking
 for
@@ -37541,7 +37562,7 @@ echo
 "
 configure
 :
-5471
+5472
 :
 checking
 for
@@ -38258,7 +38279,7 @@ echo
 "
 configure
 :
-5603
+5604
 :
 checking
 whether
@@ -38472,7 +38493,7 @@ echo
 "
 configure
 :
-5626
+5627
 :
 checking
 whether
@@ -39410,6 +39431,11 @@ mks
 *
 -
 wince
+*
+|
+*
+-
+winmo
 *
 |
 *

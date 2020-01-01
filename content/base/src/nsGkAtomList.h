@@ -1000,13 +1000,6 @@ clip
 )
 GK_ATOM
 (
-clonedTextForPrint
-"
-clonedTextForPrint
-"
-)
-GK_ATOM
-(
 close
 "
 close
@@ -11547,6 +11540,13 @@ GK_ATOM
 DeleteTxnName
 "
 Deleting
+"
+)
+GK_ATOM
+(
+Remote
+"
+remote
 "
 )
 GK_ATOM
