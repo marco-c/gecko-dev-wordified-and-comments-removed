@@ -5133,6 +5133,11 @@ script
 .
 url
 )
+|
+|
+aFrame
+.
+onStep
 )
 {
 return
@@ -8731,6 +8736,11 @@ location
 .
 url
 )
+|
+|
+aFrame
+.
+onStep
 )
 {
 return
