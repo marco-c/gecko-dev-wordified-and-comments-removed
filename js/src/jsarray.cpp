@@ -15455,7 +15455,7 @@ js_NewArrayObjectWithCapacity
 JSContext
 *
 cx
-jsuint
+uint32
 capacity
 jsval
 *
