@@ -420,12 +420,16 @@ DIRS
 =
 webBrowser
 build
-ifeq
+ifneq
 (
+(
+filter
 (
 OS_ARCH
 )
 WINNT
+WINCE
+)
 )
 ifndef
 MOZ_NO_ACTIVEX_SUPPORT

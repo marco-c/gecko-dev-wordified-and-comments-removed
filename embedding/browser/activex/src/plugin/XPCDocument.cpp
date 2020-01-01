@@ -21,6 +21,14 @@ h
 >
 #
 ifdef
+WINCE
+#
+define
+USE_HTIFACE
+#
+endif
+#
+ifdef
 USE_HTIFACE
 #
 include
@@ -2682,6 +2690,11 @@ mUseTarget
 NULL
 )
 {
+#
+ifdef
+MOZ_FLASH_ACTIVEX_PATCH
+#
+else
 MozAxPlugin
 :
 :
@@ -2689,6 +2702,8 @@ AddRef
 (
 )
 ;
+#
+endif
 }
 HRESULT
 Init
@@ -2976,6 +2991,11 @@ Release
 )
 ;
 }
+#
+ifdef
+MOZ_FLASH_ACTIVEX_PATCH
+#
+else
 MozAxPlugin
 :
 :
@@ -2983,6 +3003,8 @@ Release
 (
 )
 ;
+#
+endif
 }
 BEGIN_COM_MAP
 (

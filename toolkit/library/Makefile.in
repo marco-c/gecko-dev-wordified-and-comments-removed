@@ -1426,6 +1426,16 @@ oleaut32
 Ws2
 ddraw
 )
+EXTRA_DSO_LDOPTS
++
+=
+(
+call
+EXPAND_LIBNAME
+ceosutil
+libcmt
+comsuppw
+)
 ifdef
 WINCE_WINDOWS_MOBILE
 EXTRA_DSO_LDOPTS

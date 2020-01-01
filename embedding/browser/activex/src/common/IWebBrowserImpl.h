@@ -11,6 +11,10 @@ mshtml
 .
 h
 >
+typedef
+long
+SHANDLE_PTR
+;
 #
 include
 "

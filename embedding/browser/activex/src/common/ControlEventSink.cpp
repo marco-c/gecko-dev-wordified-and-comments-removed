@@ -462,7 +462,7 @@ Advise
 (
 this
 &
-m_dwEventCookie
+dwCookie
 )
 )
 )

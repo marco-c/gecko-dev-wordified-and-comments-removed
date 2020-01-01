@@ -72,7 +72,6 @@ szCLSID
 64
 ]
 ;
-const
 DWORD
 kBufLength
 =
@@ -89,6 +88,11 @@ szCLSID
 ]
 )
 ;
+DWORD
+len
+=
+kBufLength
+;
 memset
 (
 szCLSID
@@ -103,12 +107,17 @@ if
 (
 :
 :
-RegEnumKey
+RegEnumKeyEx
 (
 keyList
 i
 szCLSID
-kBufLength
+&
+len
+NULL
+NULL
+NULL
+NULL
 )
 !
 =
@@ -128,7 +137,7 @@ PR_FALSE
 ;
 szCLSID
 [
-kBufLength
+len
 -
 1
 ]
@@ -298,6 +307,9 @@ PRBool
 bClassExists
 )
 {
+#
+ifndef
+WINCE
 bClassExists
 =
 ClassExists
@@ -418,6 +430,8 @@ return
 PR_TRUE
 ;
 }
+#
+endif
 return
 PR_FALSE
 ;

@@ -35933,9 +35933,6 @@ XPC_IDISPATCH_SUPPORT
 1
 MOZ_NO_ACTIVEX_SUPPORT
 =
-MOZ_ACTIVEX_SCRIPTING_SUPPORT
-=
-1
 fi
 ;
 ;
@@ -49645,7 +49642,7 @@ AC_SUBST
 (
 MOZ_NO_ACTIVEX_SUPPORT
 )
-MOZ_ARG_DISABLE_BOOL
+MOZ_ARG_ENABLE_BOOL
 (
 activex
 -
@@ -49653,12 +49650,12 @@ scripting
 [
 -
 -
-disable
+enable
 -
 activex
 -
 scripting
-Disable
+Enable
 building
 of
 ActiveX
@@ -49670,9 +49667,9 @@ win32
 ]
 MOZ_ACTIVEX_SCRIPTING_SUPPORT
 =
+1
 MOZ_ACTIVEX_SCRIPTING_SUPPORT
 =
-1
 )
 AC_SUBST
 (
