@@ -195,6 +195,10 @@ HTMLCollection
 .
 webidl
 \
+HTMLElement
+.
+webidl
+\
 HTMLOptionsCollection
 .
 webidl
