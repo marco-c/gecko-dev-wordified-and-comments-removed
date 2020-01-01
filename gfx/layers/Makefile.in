@@ -486,10 +486,6 @@ BasicLayers
 .
 cpp
 \
-glWrapper
-.
-cpp
-\
 LayerManagerOGL
 .
 cpp

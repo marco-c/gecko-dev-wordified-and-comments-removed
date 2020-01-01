@@ -147,6 +147,10 @@ ImageLayer
 aManager
 NULL
 )
+LayerOGL
+(
+aManager
+)
 {
 mImplData
 =
