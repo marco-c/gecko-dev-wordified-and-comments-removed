@@ -305,10 +305,7 @@ JS_ASSERT
 flags
 &
 ~
-StackFrame
-:
-:
-CONSTRUCTING
+JSFRAME_CONSTRUCTING
 )
 =
 =
@@ -341,7 +338,7 @@ newfp
 (
 sizeof
 (
-StackFrame
+JSStackFrame
 )
 +
 frameDepth
@@ -359,7 +356,7 @@ newfp
 .
 addrOf
 (
-StackFrame
+JSStackFrame
 :
 :
 offsetOfFlags
@@ -373,10 +370,7 @@ store32
 (
 Imm32
 (
-StackFrame
-:
-:
-FUNCTION
+JSFRAME_FUNCTION
 |
 flags
 )
@@ -390,7 +384,7 @@ newfp
 .
 addrOf
 (
-StackFrame
+JSStackFrame
 :
 :
 offsetOfPrev
@@ -413,10 +407,10 @@ newfp
 .
 addrOf
 (
-StackFrame
+JSStackFrame
 :
 :
-offsetOfNcode
+offsetOfncode
 (
 )
 )
@@ -442,7 +436,7 @@ Imm32
 (
 sizeof
 (
-StackFrame
+JSStackFrame
 )
 +
 frameDepth
@@ -488,7 +482,7 @@ Address
 flagsAddr
 (
 newfp
-StackFrame
+JSStackFrame
 :
 :
 offsetOfFlags
@@ -502,10 +496,7 @@ store32
 (
 Imm32
 (
-StackFrame
-:
-:
-FUNCTION
+JSFRAME_FUNCTION
 |
 flags
 )
@@ -516,7 +507,7 @@ Address
 prevAddr
 (
 newfp
-StackFrame
+JSStackFrame
 :
 :
 offsetOfPrev
@@ -536,10 +527,10 @@ Address
 ncodeAddr
 (
 newfp
-StackFrame
+JSStackFrame
 :
 :
-offsetOfNcode
+offsetOfncode
 (
 )
 )
