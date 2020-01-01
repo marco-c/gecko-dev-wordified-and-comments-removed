@@ -179,12 +179,6 @@ return
 nsnull
 ;
 }
-static
-void
-Shutdown
-(
-)
-;
 nsresult
 DOMQueryInterface
 (
