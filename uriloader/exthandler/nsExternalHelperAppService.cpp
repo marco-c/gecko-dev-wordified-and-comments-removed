@@ -1458,13 +1458,13 @@ css
 "
 }
 {
-IMAGE_JPEG
+IMAGE_JPG
 "
 jpeg
 "
 }
 {
-IMAGE_JPEG
+IMAGE_JPG
 "
 jpg
 "
@@ -1877,7 +1877,7 @@ Image
 "
 }
 {
-IMAGE_JPEG
+IMAGE_JPG
 "
 jpeg
 jpg

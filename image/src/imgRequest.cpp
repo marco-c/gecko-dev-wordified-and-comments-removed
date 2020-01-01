@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsMimeTypes
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h
@@ -2801,9 +2794,9 @@ newType
 |
 newType
 .
-EqualsLiteral
+Equals
 (
-IMAGE_SVG_XML
+SVG_MIMETYPE
 )
 )
 {

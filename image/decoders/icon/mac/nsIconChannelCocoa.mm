@@ -2118,7 +2118,11 @@ aContentType
 .
 AssignLiteral
 (
-IMAGE_ICON
+"
+image
+/
+icon
+"
 )
 ;
 return
@@ -2180,7 +2184,11 @@ aContentCharset
 .
 AssignLiteral
 (
-IMAGE_ICON
+"
+image
+/
+icon
+"
 )
 ;
 return
