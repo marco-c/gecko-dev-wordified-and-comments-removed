@@ -583,6 +583,14 @@ aManager
 nsnull
 )
 ;
+nsRect
+GetPaintedRect
+(
+nsDisplayPlugin
+*
+aItem
+)
+;
 static
 void
 BeginSwapDocShells
