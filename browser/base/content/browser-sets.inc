@@ -1040,9 +1040,7 @@ state
 is
 handled
 by
-the
-BookmarkAllTabsHandler
-object
+gBookmarkAllTabsHandler
 .
 -
 -
