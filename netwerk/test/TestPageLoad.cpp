@@ -96,6 +96,9 @@ nsIComponentRegistrar
 .
 h
 "
+namespace
+TestPageLoad
+{
 int
 getStrLine
 (
@@ -1297,6 +1300,11 @@ return
 NS_OK
 ;
 }
+}
+using
+namespace
+TestPageLoad
+;
 int
 main
 (

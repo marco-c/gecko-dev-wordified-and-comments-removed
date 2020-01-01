@@ -47,6 +47,9 @@ nsISupportsArray
 .
 h
 "
+namespace
+TestPerf
+{
 static
 nsIIOService
 *
@@ -810,6 +813,11 @@ n
 )
 ;
 }
+}
+using
+namespace
+TestPerf
+;
 int
 main
 (

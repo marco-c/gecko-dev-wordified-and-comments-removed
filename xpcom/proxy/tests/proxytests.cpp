@@ -184,6 +184,9 @@ printf
 args
 #
 endif
+namespace
+proxytests
+{
 static
 nsresult
 GetThreadFromPRThread
@@ -2131,6 +2134,11 @@ return
 NS_OK
 ;
 }
+}
+using
+namespace
+proxytests
+;
 int
 main
 (
