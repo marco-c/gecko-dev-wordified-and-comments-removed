@@ -325,15 +325,12 @@ window
 )
 ;
 nsresult
-GetImage
+GetImageContainer
 (
 ImageContainer
 *
+*
 aContainer
-Image
-*
-*
-aImage
 )
 ;
 nsresult

@@ -891,12 +891,12 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
-bool
-SetCurrentImage
-(
+already_AddRefed
+<
 ImageContainer
-*
-aContainer
+>
+GetImageContainer
+(
 )
 ;
 nsIntSize
