@@ -431,6 +431,10 @@ test_lenientThis
 .
 html
 \
+test_ByteString
+.
+html
+\
 (
 NULL
 )

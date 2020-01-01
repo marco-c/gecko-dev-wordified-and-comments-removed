@@ -96,7 +96,7 @@ mResponseText
 uint32_t
 mStatus
 ;
-nsString
+nsCString
 mStatusText
 ;
 uint16_t
@@ -438,7 +438,7 @@ void
 Open
 (
 const
-nsAString
+nsACString
 &
 aMethod
 const
@@ -470,11 +470,11 @@ void
 SetRequestHeader
 (
 const
-nsAString
+nsACString
 &
 aHeader
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -691,7 +691,7 @@ mStatus
 void
 GetStatusText
 (
-nsAString
+nsACString
 &
 aStatusText
 )
@@ -708,10 +708,10 @@ void
 GetResponseHeader
 (
 const
-nsAString
+nsACString
 &
 aHeader
-nsAString
+nsACString
 &
 aResponseHeader
 ErrorResult
@@ -722,7 +722,7 @@ aRv
 void
 GetAllResponseHeaders
 (
-nsAString
+nsACString
 &
 aResponseHeaders
 ErrorResult

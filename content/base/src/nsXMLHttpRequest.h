@@ -910,7 +910,7 @@ void
 Open
 (
 const
-nsAString
+nsACString
 &
 aMethod
 const
@@ -954,10 +954,7 @@ aRv
 =
 Open
 (
-NS_ConvertUTF16toUTF8
-(
 aMethod
-)
 NS_ConvertUTF16toUTF8
 (
 aUrl
@@ -972,11 +969,11 @@ void
 SetRequestHeader
 (
 const
-nsAString
+nsACString
 &
 aHeader
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult
@@ -988,14 +985,8 @@ aRv
 =
 SetRequestHeader
 (
-NS_ConvertUTF16toUTF8
-(
 aHeader
-)
-NS_ConvertUTF16toUTF8
-(
 aValue
-)
 )
 ;
 }
@@ -1656,7 +1647,7 @@ Status
 void
 GetStatusText
 (
-nsString
+nsCString
 &
 aStatusText
 )
@@ -1734,7 +1725,7 @@ aResult
 void
 GetAllResponseHeaders
 (
-nsString
+nsCString
 &
 aResponseHeaders
 )
