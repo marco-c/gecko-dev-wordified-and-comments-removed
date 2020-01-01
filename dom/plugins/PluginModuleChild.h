@@ -442,14 +442,6 @@ aObject
 ifdef
 DEBUG
 bool
-NPObjectIsRegistered
-(
-NPObject
-*
-aObject
-)
-;
-bool
 NPObjectIsRegisteredForActor
 (
 PluginScriptableObjectChild

@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -93,13 +86,6 @@ NPRemoteIdentifier
 namespace
 plugins
 {
-enum
-ScriptableObjectType
-{
-LocalObject
-Proxy
-}
-;
 extern
 PRLogModuleInfo
 *

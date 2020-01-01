@@ -510,16 +510,6 @@ PluginScriptableObjectParent
 .
 h
 \
-PluginScriptableObjectUtils
-.
-h
-\
-PluginScriptableObjectUtils
--
-inl
-.
-h
-\
 PluginInstanceChild
 .
 h
