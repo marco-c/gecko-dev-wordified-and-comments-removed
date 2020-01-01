@@ -1547,11 +1547,6 @@ DragInProgress
 void
 )
 ;
-static
-nsWindow
-*
-sLastMouseEnterWindow
-;
 void
 ResetDragMotionTimer
 (
