@@ -226,9 +226,11 @@ shadowIntRect
 if
 (
 mSkipRect
-=
-=
+.
+IsEqualInterior
+(
 shadowIntRect
+)
 )
 return
 nsnull

@@ -328,12 +328,14 @@ return
 VisualOverflow
 (
 )
-=
-=
+.
+IsEqualInterior
+(
 aOther
 .
 VisualOverflow
 (
+)
 )
 &
 &
@@ -341,7 +343,7 @@ ScrollableOverflow
 (
 )
 .
-IsExactEqual
+IsEqualEdges
 (
 aOther
 .

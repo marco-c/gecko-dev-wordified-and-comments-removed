@@ -1303,7 +1303,7 @@ sizeChanged
 !
 oldRect
 .
-IsExactEqual
+IsEqualEdges
 (
 childRect
 )
@@ -1781,10 +1781,13 @@ PR_TRUE
 }
 if
 (
-childRectNoMargin
 !
-=
+childRectNoMargin
+.
+IsEqualInterior
+(
 oldRect
+)
 )
 {
 if

@@ -2467,8 +2467,10 @@ aOut
 >
 height
 )
-=
-=
+.
+IsEqualEdges
+(
 aIn
+)
 ;
 }

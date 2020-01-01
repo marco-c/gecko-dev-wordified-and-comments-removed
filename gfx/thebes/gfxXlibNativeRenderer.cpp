@@ -313,9 +313,11 @@ FINISH
 if
 (
 rect
-=
-=
+.
+IsEqualInterior
+(
 bounds
+)
 )
 {
 *

@@ -1847,9 +1847,11 @@ DeviceToUser
 (
 deviceRect
 )
-=
-=
+.
+IsEqualInterior
+(
 userRect
+)
 ;
 }
 static

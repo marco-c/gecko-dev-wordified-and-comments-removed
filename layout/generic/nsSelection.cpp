@@ -21996,7 +21996,7 @@ anchorFrame
 aRect
 -
 >
-UnionRectIncludeEmpty
+UnionRectEdges
 (
 anchorRect
 focusRect

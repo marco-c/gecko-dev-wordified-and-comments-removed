@@ -1312,9 +1312,11 @@ Properties
 if
 (
 aRegion
-=
-=
+.
+IsEqualEdges
+(
 rect
+)
 )
 {
 props

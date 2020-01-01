@@ -493,7 +493,7 @@ aRect1
 }
 else
 {
-UnionRectIncludeEmpty
+UnionRectEdges
 (
 aRect1
 aRect2
@@ -508,7 +508,7 @@ void
 nsRect
 :
 :
-UnionRectIncludeEmpty
+UnionRectEdges
 (
 const
 nsRect

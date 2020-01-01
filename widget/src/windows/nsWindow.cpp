@@ -5408,12 +5408,14 @@ mClipRectCount
 1
 |
 |
+!
 mClipRects
 [
 0
 ]
-!
-=
+.
+IsEqualInterior
+(
 nsIntRect
 (
 0
@@ -5424,6 +5426,7 @@ width
 mBounds
 .
 height
+)
 )
 )
 )

@@ -567,11 +567,11 @@ NS_OK
 nsRect
 r
 =
-(
-*
 aDirtyRect
-=
-=
+-
+>
+IsEqualInterior
+(
 nsIntRect
 :
 :

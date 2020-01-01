@@ -1761,10 +1761,13 @@ GetScrollParts
 if
 (
 (
-aRect
 !
-=
+aRect
+.
+IsEqualEdges
+(
 mRect
+)
 |
 |
 mHorzWidth

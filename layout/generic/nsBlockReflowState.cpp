@@ -3544,10 +3544,13 @@ failed
 ;
 if
 (
-region
 !
-=
+region
+.
+IsEqualEdges
+(
 oldRegion
+)
 )
 {
 nscoord

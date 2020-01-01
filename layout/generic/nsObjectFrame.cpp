@@ -10528,10 +10528,13 @@ height
 ;
 if
 (
-mWindowlessRect
 !
-=
+mWindowlessRect
+.
+IsEqualEdges
+(
 winlessRect
+)
 )
 {
 mWindowlessRect

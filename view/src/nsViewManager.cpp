@@ -1039,7 +1039,7 @@ if
 !
 oldDim
 .
-IsExactEqual
+IsEqualEdges
 (
 newDim
 )
@@ -6027,7 +6027,7 @@ if
 !
 oldDimensions
 .
-IsExactEqual
+IsEqualEdges
 (
 aRect
 )

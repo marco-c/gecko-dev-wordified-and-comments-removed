@@ -7087,13 +7087,15 @@ GetChildrenBounds
 NS_ASSERTION
 (
 bounds
-=
-=
+.
+IsEqualInterior
+(
 aChildren
 .
 GetBounds
 (
 aBuilder
+)
 )
 "
 Wrong
