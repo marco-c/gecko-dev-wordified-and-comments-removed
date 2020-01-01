@@ -1076,7 +1076,7 @@ NS_OK
 ;
 mEncoder
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -1099,12 +1099,7 @@ rv
 )
 &
 &
-(
-nullptr
-!
-=
 ccm
-)
 )
 {
 rv

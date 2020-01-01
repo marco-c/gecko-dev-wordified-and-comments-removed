@@ -115,7 +115,7 @@ nsWin32Locale
 :
 localeNameToLCID
 =
-NULL
+nullptr
 ;
 nsWin32Locale
 :
@@ -126,7 +126,7 @@ nsWin32Locale
 :
 lcidToLocaleName
 =
-NULL
+nullptr
 ;
 #
 ifndef

@@ -714,9 +714,7 @@ rb
 ;
 if
 (
-NULL
-=
-=
+!
 infile
 )
 {

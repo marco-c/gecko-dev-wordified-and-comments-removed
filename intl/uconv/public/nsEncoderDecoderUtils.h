@@ -61,7 +61,7 @@ define
 NS_CONVERTER_REGISTRY_END
 \
 {
-NULL
+nullptr
 }
 \
 }

@@ -573,9 +573,7 @@ rb
 ;
 if
 (
-NULL
-=
-=
+!
 infile
 )
 {
@@ -630,9 +628,7 @@ ab
 ;
 if
 (
-NULL
-=
-=
+!
 outfile
 )
 {

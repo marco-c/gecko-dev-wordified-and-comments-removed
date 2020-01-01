@@ -2454,7 +2454,7 @@ wb
 >
 ucs
 =
-NULL
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY

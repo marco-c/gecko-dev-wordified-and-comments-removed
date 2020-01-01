@@ -98,9 +98,7 @@ NS_OK
 ;
 if
 (
-NULL
-=
-=
+!
 locale
 )
 {
@@ -197,9 +195,7 @@ mLCID
 ;
 if
 (
-NULL
-=
-=
+!
 locale
 )
 {

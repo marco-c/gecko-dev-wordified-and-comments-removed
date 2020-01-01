@@ -128,8 +128,8 @@ nsLocale
 :
 :
 Hash_CompareNSString
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 NS_ASSERTION
@@ -163,7 +163,7 @@ nsLocale
 :
 :
 Hash_EnumerateDelete
-NULL
+nullptr
 )
 ;
 PL_HashTableDestroy
