@@ -18300,7 +18300,6 @@ assembler
 :
 compile
 (
-fragmento
 assm
 fragment
 *
@@ -18308,6 +18307,13 @@ tm
 -
 >
 allocator
+verbose_only
+(
+fragmento
+-
+>
+labels
+)
 )
 ;
 if

@@ -5377,9 +5377,6 @@ Assembler
 void
 compile
 (
-Fragmento
-*
-frago
 Assembler
 *
 assm
@@ -5389,6 +5386,11 @@ frag
 Allocator
 &
 alloc
+verbose_only
+(
+LabelMap
+*
+)
 )
 ;
 verbose_only

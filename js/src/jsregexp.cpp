@@ -16341,10 +16341,16 @@ fail
 :
 compile
 (
-fragmento
 assm
 fragment
 alloc
+verbose_only
+(
+fragmento
+-
+>
+labels
+)
 )
 ;
 if
