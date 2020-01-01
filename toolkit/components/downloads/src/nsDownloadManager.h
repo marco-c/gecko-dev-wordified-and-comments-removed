@@ -658,7 +658,7 @@ nsDownload
 ;
 public
 :
-void
+nsresult
 SetState
 (
 DownloadState
