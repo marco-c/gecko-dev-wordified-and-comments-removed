@@ -1221,6 +1221,10 @@ lib
 '
 ]
             
+LIBXUL_LIBRARY
+=
+True
+            
 NO_DIST_INSTALL
 =
 '

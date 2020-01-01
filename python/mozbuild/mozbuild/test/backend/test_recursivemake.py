@@ -1589,6 +1589,21 @@ lib_name
 ]
             
 '
+LIBXUL_LIBRARY
+'
+:
+[
+                
+'
+LIBXUL_LIBRARY
+:
+=
+1
+'
+            
+]
+            
+'
 SDK_LIBRARY
 '
 :
