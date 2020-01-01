@@ -1779,6 +1779,12 @@ synthesizeKey
 }
 SimpleTest
 .
+waitForExplicitFinish
+(
+)
+;
+SimpleTest
+.
 waitForFocus
 (
 doTest
