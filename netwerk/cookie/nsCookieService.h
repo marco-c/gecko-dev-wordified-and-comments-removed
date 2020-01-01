@@ -763,7 +763,12 @@ CloseDBStates
 )
 ;
 void
-CloseDefaultDBConnection
+CleanupCachedStatements
+(
+)
+;
+void
+CleanupDefaultDBConnection
 (
 )
 ;
