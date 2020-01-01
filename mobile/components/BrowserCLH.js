@@ -1184,6 +1184,7 @@ show
 localepicker
 "
 )
+;
 if
 (
 (
@@ -1205,12 +1206,6 @@ showLocalePicker
 haveSystemLocale
 (
 )
-)
-|
-|
-!
-checkCurrentLocale
-(
 )
 )
 {
