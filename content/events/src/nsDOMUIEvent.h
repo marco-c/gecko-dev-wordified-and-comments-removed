@@ -107,12 +107,12 @@ aVal
 protected
 :
 nsIntPoint
-GetClientPoint
+GetScreenPoint
 (
 )
 ;
 nsIntPoint
-GetScreenPoint
+GetClientPoint
 (
 )
 ;
