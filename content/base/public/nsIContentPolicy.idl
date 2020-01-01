@@ -891,10 +891,9 @@ for
 document
 .
 load
-EventSource
 and
-*
-WebSockets
+for
+EventSource
 .
 *
 /
