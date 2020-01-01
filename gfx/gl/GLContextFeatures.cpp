@@ -912,7 +912,7 @@ break
 }
 }
 }
-bool
+void
 GLContext
 :
 :
@@ -1037,9 +1037,6 @@ get
 (
 )
 )
-;
-return
-true
 ;
 }
 }

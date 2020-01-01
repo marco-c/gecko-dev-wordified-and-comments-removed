@@ -1414,7 +1414,7 @@ InitFeatures
 (
 )
 ;
-bool
+void
 MarkUnsupported
 (
 GLFeature
