@@ -3824,6 +3824,10 @@ Rect
 aRect
 )
 {
+MarkChanged
+(
+)
+;
 mRT
 -
 >
@@ -3963,6 +3967,10 @@ IntPoint
 aDestination
 )
 {
+MarkChanged
+(
+)
+;
 Rect
 srcRect
 (
