@@ -6037,11 +6037,13 @@ role
 {
 RETURN_LAYOUT_ANSWER
 (
-PR_TRUE
+PR_FALSE
 "
 Has
 role
 attribute
+weak
+role
 and
 role
 is
