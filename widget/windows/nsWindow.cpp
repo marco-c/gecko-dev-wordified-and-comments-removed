@@ -12129,7 +12129,7 @@ bool
 nsWindow
 :
 :
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 {
@@ -12628,7 +12628,7 @@ mLayerManager
 {
 if
 (
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 )

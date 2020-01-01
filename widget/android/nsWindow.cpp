@@ -3074,7 +3074,7 @@ mLayerManager
 }
 if
 (
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 )
@@ -3138,7 +3138,7 @@ mUseLayersAcceleration
 ;
 if
 (
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 )

@@ -1087,7 +1087,7 @@ aDpi
 )
 ;
 void
-UpdateSizeAndPosition
+UpdateWidgetSizeAndPosition
 (
 )
 ;

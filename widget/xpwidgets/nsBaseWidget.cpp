@@ -3337,7 +3337,7 @@ bool
 nsBaseWidget
 :
 :
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 {
@@ -3408,7 +3408,7 @@ mUseLayersAcceleration
 ;
 if
 (
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 )

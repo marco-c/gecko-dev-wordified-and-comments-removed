@@ -2367,6 +2367,16 @@ argv
 ]
 )
 {
+#
+ifdef
+DEBUG_delay_start_metro
+Sleep
+(
+5000
+)
+;
+#
+endif
 PRTime
 start
 =

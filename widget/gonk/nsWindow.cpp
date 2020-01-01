@@ -914,7 +914,7 @@ GetPlatform
 ;
 sUsingOMTC
 =
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 ;

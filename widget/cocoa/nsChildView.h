@@ -1453,7 +1453,7 @@ aDefault
 ;
 virtual
 bool
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 ;

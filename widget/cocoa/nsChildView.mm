@@ -8006,7 +8006,7 @@ bool
 nsChildView
 :
 :
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 {
@@ -8056,7 +8056,7 @@ return
 nsBaseWidget
 :
 :
-UseOffMainThreadCompositing
+ShouldUseOffMainThreadCompositing
 (
 )
 &
