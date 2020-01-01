@@ -37866,6 +37866,10 @@ pangocairo
 >
 =
 PANGO_VERSION
+pangoft2
+>
+=
+PANGO_VERSION
 )
 AC_SUBST
 (
