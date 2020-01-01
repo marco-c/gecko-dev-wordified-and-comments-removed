@@ -50,8 +50,6 @@ PRUint32
 aWidth
 PRUint32
 aHeight
-PRUint32
-aDepth
 )
 ;
 nsresult
@@ -63,8 +61,6 @@ PRUint32
 aWidth
 PRUint32
 aHeight
-PRUint32
-aDepth
 )
 ;
 nsresult
@@ -81,6 +77,16 @@ return
 mSharedHdc
 ;
 }
+void
+*
+GetBits
+(
+)
+{
+return
+mBitmapBits
+;
+}
 private
 :
 HDC
@@ -92,6 +98,10 @@ mSharedBmp
 HGDIOBJ
 mOldObj
 ;
+void
+*
+mBitmapBits
+;
 PRUint32
 SetupBitmapHeader
 (
@@ -99,8 +109,6 @@ PRUint32
 aWidth
 PRUint32
 aHeight
-PRUint32
-aDepth
 BITMAPINFOHEADER
 *
 aHeader
