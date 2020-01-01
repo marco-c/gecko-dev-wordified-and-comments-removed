@@ -292,6 +292,12 @@ StopDocumentLoad
 ;
 virtual
 void
+BeginLoad
+(
+)
+;
+virtual
+void
 EndLoad
 (
 )
