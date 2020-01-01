@@ -261,7 +261,7 @@ JSContext
 aContext
 )
 ;
-void
+bool
 SetChannelDataFromArrayBufferContents
 (
 JSContext
@@ -289,7 +289,7 @@ aContents
 ;
 protected
 :
-void
+bool
 RestoreJSChannelData
 (
 JSContext
