@@ -747,13 +747,13 @@ checkbox
 id
 =
 "
-moveResizeWindows
+moveResizePopupWindows
 "
 label
 =
 "
 &
-moveResizeWindows
+moveResizePopupWindows
 .
 label
 ;
@@ -762,7 +762,7 @@ accesskey
 =
 "
 &
-moveResizeWindows
+moveResizePopupWindows
 .
 accesskey
 ;
