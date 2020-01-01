@@ -26139,6 +26139,7 @@ inherits
 value
 =
 label
+crop
 mirror
 "
 flex
