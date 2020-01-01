@@ -1349,6 +1349,8 @@ initial_values
 [
 "
 content
+-
+box
 "
 ]
 other_values
@@ -1356,12 +1358,18 @@ other_values
 [
 "
 border
+-
+box
 "
 "
 padding
+-
+box
 "
 "
 margin
+-
+box
 "
 ]
 invalid_values
