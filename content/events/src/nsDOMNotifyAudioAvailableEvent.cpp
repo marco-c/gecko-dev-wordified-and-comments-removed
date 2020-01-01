@@ -342,10 +342,6 @@ const
 nsAString
 &
 aType
-bool
-aCanBubble
-bool
-aCancelable
 float
 *
 aFrameBuffer
@@ -375,8 +371,8 @@ nsDOMEvent
 InitEvent
 (
 aType
-aCanBubble
-aCancelable
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
