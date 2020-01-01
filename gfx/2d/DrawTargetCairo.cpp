@@ -296,12 +296,7 @@ cgc
 )
 ;
 return
-size
-.
-width
-!
-=
-0
+true
 ;
 }
 #
