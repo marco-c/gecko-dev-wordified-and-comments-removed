@@ -511,6 +511,16 @@ manifest
 (
 NULL
 )
+EXTRA_PP_JS_MODULES
+=
+\
+MigrationUtils
+.
+jsm
+\
+(
+NULL
+)
 include
 (
 topsrcdir
