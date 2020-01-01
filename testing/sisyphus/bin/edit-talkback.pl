@@ -611,7 +611,7 @@ i
 os
 =
 "
-win32
+nt
 "
 ;
 }
@@ -646,7 +646,7 @@ darwin
 os
 =
 "
-mac
+darwin
 "
 ;
 }
@@ -1232,7 +1232,7 @@ if
 os
 eq
 "
-win32
+nt
 "
 )
 {
@@ -1462,7 +1462,7 @@ elsif
 os
 eq
 "
-mac
+darwin
 "
 )
 {
@@ -1533,7 +1533,7 @@ if
 os
 eq
 "
-win32
+nt
 "
 )
 {
@@ -1860,7 +1860,7 @@ elsif
 os
 eq
 "
-mac
+darwin
 "
 )
 {
@@ -2020,7 +2020,7 @@ if
 os
 eq
 "
-win32
+nt
 "
 )
 {
@@ -2170,7 +2170,7 @@ elsif
 os
 eq
 "
-mac
+darwin
 "
 )
 {

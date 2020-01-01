@@ -567,6 +567,8 @@ test
 download
 "
 \
+EXECUTABLE_DRIVER
+\
 "
 executable
 "
@@ -666,6 +668,8 @@ TEST_DOWNLOAD_PAGE_TIMEOUT
 test
 download
 "
+\
+EXECUTABLE_DRIVER
 \
 "
 executable
@@ -1283,6 +1287,8 @@ TEST_DOWNLOAD_BUILD_TIMEOUT
 .
 .
 "
+\
+EXECUTABLE_DRIVER
 \
 "
 downloadexecutable

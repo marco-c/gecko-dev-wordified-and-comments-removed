@@ -4,13 +4,11 @@ http
 :
 /
 /
-khan
+www
 .
-landfill
+mozilla
 .
-bugzilla
-.
-org
+com
 /
 en
 -
@@ -19,8 +17,6 @@ US
 firefox
 /
 all
--
-older
 .
 html
 product
@@ -61,7 +57,7 @@ releases
 .
 0
 .
-13
+14
 /
 mac
 /
@@ -77,7 +73,7 @@ Firefox
 .
 0
 .
-13
+14
 .
 dmg
 profilename
