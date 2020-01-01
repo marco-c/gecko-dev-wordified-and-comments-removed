@@ -149,6 +149,16 @@ classic
 /
 global
 /
+textbar
+.
+css
++
+skin
+/
+classic
+/
+global
+/
 icons
 /
 notfound
