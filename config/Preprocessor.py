@@ -3144,6 +3144,27 @@ aLine
 )
 :
     
+if
+(
+aLine
+.
+find
+(
+'
+/
+/
+'
+)
+=
+=
+-
+1
+)
+:
+      
+return
+aLine
+    
 [
 aLine
 rest
