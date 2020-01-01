@@ -108,6 +108,10 @@ Message
 reply
 )
 {
+AssertWorkerThread
+(
+)
+;
 NS_ABORT_IF_FALSE
 (
 !
@@ -681,6 +685,10 @@ Message
 msg
 )
 {
+AssertWorkerThread
+(
+)
+;
 if
 (
 msg
@@ -735,6 +743,10 @@ OnMaybeDequeueOne
 (
 )
 {
+AssertWorkerThread
+(
+)
+;
 Message
 recvd
 ;
@@ -830,6 +842,10 @@ Message
 call
 )
 {
+AssertWorkerThread
+(
+)
+;
 ProcessIncall
 (
 call
@@ -851,6 +867,10 @@ size_t
 stackDepth
 )
 {
+AssertWorkerThread
+(
+)
+;
 mMutex
 .
 AssertNotCurrentThreadOwns
@@ -1026,6 +1046,10 @@ Message
 msg
 )
 {
+AssertIOThread
+(
+)
+;
 MutexAutoLock
 lock
 (
@@ -1251,6 +1275,10 @@ OnChannelError
 (
 )
 {
+AssertIOThread
+(
+)
+;
 {
 MutexAutoLock
 lock

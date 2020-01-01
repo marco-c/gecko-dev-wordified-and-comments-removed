@@ -285,6 +285,10 @@ Message
 msg
 )
 {
+AssertWorkerThread
+(
+)
+;
 NS_ABORT_IF_FALSE
 (
 MSG_ROUTING_NONE
@@ -347,6 +351,10 @@ Message
 msg
 )
 {
+AssertWorkerThread
+(
+)
+;
 NS_ASSERTION
 (
 !
@@ -444,6 +452,10 @@ Message
 msg
 )
 {
+AssertIOThread
+(
+)
+;
 NS_ASSERTION
 (
 mChannelState
@@ -489,6 +501,10 @@ int32
 peer_pid
 )
 {
+AssertIOThread
+(
+)
+;
 MutexAutoLock
 lock
 (
@@ -514,6 +530,10 @@ OnChannelError
 (
 )
 {
+AssertIOThread
+(
+)
+;
 mChannelState
 =
 ChannelError
@@ -574,6 +594,10 @@ OnChannelOpened
 (
 )
 {
+AssertIOThread
+(
+)
+;
 mChannelState
 =
 ChannelOpening
@@ -597,6 +621,10 @@ Message
 aMsg
 )
 {
+AssertIOThread
+(
+)
+;
 mTransport
 -
 >

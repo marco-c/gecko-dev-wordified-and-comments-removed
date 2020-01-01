@@ -102,6 +102,10 @@ Message
 reply
 )
 {
+AssertWorkerThread
+(
+)
+;
 NS_ABORT_IF_FALSE
 (
 !
@@ -259,6 +263,10 @@ Message
 msg
 )
 {
+AssertWorkerThread
+(
+)
+;
 NS_ABORT_IF_FALSE
 (
 msg
@@ -422,6 +430,10 @@ Message
 msg
 )
 {
+AssertIOThread
+(
+)
+;
 if
 (
 !
@@ -497,6 +509,10 @@ OnChannelError
 (
 )
 {
+AssertIOThread
+(
+)
+;
 {
 MutexAutoLock
 lock
@@ -543,6 +559,10 @@ Message
 aReply
 )
 {
+AssertIOThread
+(
+)
+;
 mTransport
 -
 >
