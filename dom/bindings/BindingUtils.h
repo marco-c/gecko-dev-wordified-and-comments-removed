@@ -1099,6 +1099,9 @@ JSNative
 constructor
 unsigned
 ctorNargs
+JSClass
+*
+instanceClass
 Prefable
 <
 JSFunctionSpec
@@ -2158,6 +2161,17 @@ mObject
 )
 ;
 }
+JSBool
+InstanceClassHasProtoAtDepth
+(
+JSHandleObject
+protoObject
+uint32_t
+protoID
+uint32_t
+depth
+)
+;
 bool
 XPCOMObjectToJsval
 (

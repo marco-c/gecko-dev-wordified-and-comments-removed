@@ -4049,6 +4049,10 @@ JSSecurityCallbacks
 NullSecurityCallbacks
 )
 )
+DOMcallbacks
+(
+NULL
+)
 destroyPrincipals
 (
 NULL
