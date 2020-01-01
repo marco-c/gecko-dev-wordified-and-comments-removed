@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsIHTMLObjectResizer
+.
+h
+"
+#
+include
+"
 nsIDocumentObserver
 .
 h
@@ -183,6 +190,13 @@ h
 include
 "
 nsAttrName
+.
+h
+"
+#
+include
+"
+nsStubMutationObserver
 .
 h
 "

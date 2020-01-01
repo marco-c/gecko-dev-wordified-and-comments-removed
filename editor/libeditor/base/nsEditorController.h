@@ -5,6 +5,13 @@ nsEditorController_h__
 define
 nsEditorController_h__
 #
+include
+"
+nscore
+.
+h
+"
+#
 define
 NS_EDITORCONTROLLER_CID
 \
