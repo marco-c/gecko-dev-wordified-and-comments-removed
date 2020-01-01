@@ -469,6 +469,10 @@ xpiDialogService
 .
 js
 \
+downloadManagerUI
+.
+js
+\
 (
 NULL
 )
