@@ -74,6 +74,17 @@ Star
 <
 !
 ENTITY
+showTabs
+.
+label
+"
+Show
+Tabs
+"
+>
+<
+!
+ENTITY
 newtab
 .
 label
