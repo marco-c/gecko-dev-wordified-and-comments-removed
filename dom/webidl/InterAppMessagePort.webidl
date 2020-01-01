@@ -175,8 +175,6 @@ DOMString
 keyword
 DOMString
 messagePortID
-boolean
-isPublisher
 )
 JSImplementation
 =
