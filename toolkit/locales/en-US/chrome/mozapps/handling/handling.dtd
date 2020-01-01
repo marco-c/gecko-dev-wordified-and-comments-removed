@@ -3,9 +3,9 @@
 ENTITY
 window
 .
-width
+emWidth
 "
-320
+26em
 "
 >
 <
@@ -13,9 +13,9 @@ width
 ENTITY
 window
 .
-height
+emHeight
 "
-250
+26em
 "
 >
 <
