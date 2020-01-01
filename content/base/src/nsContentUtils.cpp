@@ -1823,7 +1823,7 @@ nsGkAtoms
 onpageshow
 {
 NS_PAGE_SHOW
-EventNameType_HTMLXUL
+EventNameType_HTML
 }
 }
 {
@@ -1834,7 +1834,7 @@ nsGkAtoms
 onpagehide
 {
 NS_PAGE_HIDE
-EventNameType_HTMLXUL
+EventNameType_HTML
 }
 }
 {
