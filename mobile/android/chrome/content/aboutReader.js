@@ -440,7 +440,7 @@ GetStringFromName
 "
 aboutReader
 .
-fontTitle
+textTitle
 "
 )
 ;
