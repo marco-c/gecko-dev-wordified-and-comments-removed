@@ -53,7 +53,7 @@ nsIWeakReference
 aShell
 )
 :
-nsLeafAccessible
+nsAccessibleWrap
 (
 aNode
 aShell
@@ -212,7 +212,7 @@ aExtraState
 nsresult
 rv
 =
-nsLeafAccessible
+nsAccessibleWrap
 :
 :
 GetStateInternal
@@ -392,7 +392,7 @@ aRelation
 nsresult
 rv
 =
-nsLeafAccessible
+nsAccessibleWrap
 :
 :
 GetRelationByType

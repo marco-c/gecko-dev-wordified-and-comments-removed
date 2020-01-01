@@ -503,6 +503,14 @@ test_select
 .
 html
 \
+test_tabbox
+.
+xul
+\
+test_tabbrowser
+.
+xul
+\
 test_table
 .
 html

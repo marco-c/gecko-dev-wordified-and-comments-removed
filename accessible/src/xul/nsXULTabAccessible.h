@@ -22,7 +22,7 @@ class
 nsXULTabAccessible
 :
 public
-nsLeafAccessible
+nsAccessibleWrap
 {
 public
 :

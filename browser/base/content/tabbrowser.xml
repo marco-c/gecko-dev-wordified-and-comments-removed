@@ -23231,6 +23231,11 @@ icon
 -
 image
 "
+role
+=
+"
+presentation
+"
 /
 >
 <
@@ -23259,6 +23264,11 @@ class
 tab
 -
 text
+"
+role
+=
+"
+presentation
 "
 /
 >

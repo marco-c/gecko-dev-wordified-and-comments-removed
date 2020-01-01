@@ -3837,6 +3837,11 @@ src
 =
 image
 "
+role
+=
+"
+presentation
+"
 /
 >
 <
@@ -3866,6 +3871,11 @@ flex
 =
 "
 1
+"
+role
+=
+"
+presentation
 "
 /
 >
