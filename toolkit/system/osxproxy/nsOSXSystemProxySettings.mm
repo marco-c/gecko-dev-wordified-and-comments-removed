@@ -490,6 +490,15 @@ h
 #
 import
 <
+CoreFoundation
+/
+CoreFoundation
+.
+h
+>
+#
+import
+<
 SystemConfiguration
 .
 h
