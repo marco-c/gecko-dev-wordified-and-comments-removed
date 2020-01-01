@@ -920,8 +920,7 @@ guardShape
 (
 RegisterID
 objReg
-Shape
-*
+UnrootedShape
 shape
 )
 {
@@ -4486,8 +4485,7 @@ objReg
 js
 :
 :
-Shape
-*
+UnrootedShape
 shape
 RegisterID
 typeReg
@@ -6680,6 +6678,9 @@ JSObject
 templateObject
 )
 {
+AutoAssertNoGC
+nogc
+;
 gc
 :
 :

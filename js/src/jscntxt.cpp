@@ -2533,11 +2533,15 @@ asPropertyName
 ;
 DebugOnly
 <
-Shape
-*
+RawShape
 >
 shape
 =
+static_cast
+<
+RawShape
+>
+(
 callee
 -
 >
@@ -2547,6 +2551,7 @@ cx
 NameToId
 (
 usageAtom
+)
 )
 )
 ;

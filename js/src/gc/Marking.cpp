@@ -173,8 +173,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-Shape
-*
+UnrootedShape
 thing
 )
 ;
@@ -244,8 +243,7 @@ MarkChildren
 JSTracer
 *
 trc
-Shape
-*
+UnrootedShape
 shape
 )
 ;
@@ -1424,6 +1422,7 @@ unsafeGet
 \
 \
 bool
+\
 Is
 #
 #
@@ -1454,6 +1453,7 @@ thingp
 \
 \
 bool
+\
 Is
 #
 #
@@ -3777,8 +3777,7 @@ ScanShape
 GCMarker
 *
 gcmarker
-Shape
-*
+UnrootedShape
 shape
 )
 ;
@@ -3789,8 +3788,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-Shape
-*
+UnrootedShape
 thing
 )
 {
@@ -3934,8 +3932,7 @@ ScanShape
 GCMarker
 *
 gcmarker
-Shape
-*
+UnrootedShape
 shape
 )
 {
@@ -4791,8 +4788,7 @@ MarkChildren
 JSTracer
 *
 trc
-Shape
-*
+UnrootedShape
 shape
 )
 {
@@ -5008,8 +5004,7 @@ MarkCycleCollectorChildren
 JSTracer
 *
 trc
-Shape
-*
+UnrootedShape
 shape
 )
 {
@@ -5235,6 +5230,10 @@ newScript
 -
 >
 shape
+.
+get
+(
+)
 )
 ;
 }
@@ -7220,8 +7219,7 @@ this
 type
 )
 ;
-Shape
-*
+UnrootedShape
 shape
 =
 obj

@@ -558,8 +558,6 @@ false
 )
 ;
 return
-!
-!
 DefineNativeProperty
 (
 cx

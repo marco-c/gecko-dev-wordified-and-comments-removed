@@ -2322,6 +2322,10 @@ MutableHandleAtom
 atomp
 )
 {
+AssertCanGC
+(
+)
+;
 if
 (
 mode

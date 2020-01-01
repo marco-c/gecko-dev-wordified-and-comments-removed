@@ -14533,8 +14533,6 @@ obj
 )
 ;
 return
-!
-!
 DefineNativeProperty
 (
 cx

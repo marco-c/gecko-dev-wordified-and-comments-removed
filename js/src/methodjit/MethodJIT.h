@@ -3640,8 +3640,7 @@ false
 #
 endif
 }
-Shape
-*
+UnrootedShape
 GetPICSingleShape
 (
 JSContext

@@ -762,8 +762,7 @@ isNative
 {
 if
 (
-Shape
-*
+UnrootedShape
 shape
 =
 obj

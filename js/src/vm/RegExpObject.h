@@ -1536,8 +1536,7 @@ friend
 class
 RegExpObjectBuilder
 ;
-Shape
-*
+UnrootedShape
 assignInitialShape
 (
 JSContext

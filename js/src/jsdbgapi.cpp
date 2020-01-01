@@ -3819,8 +3819,7 @@ cx
 JSObject
 *
 obj_
-Shape
-*
+HandleShape
 shape
 JSPropertyDesc
 *
@@ -4536,10 +4535,10 @@ NULL
 goto
 bad
 ;
-Shape
-*
+RootedShape
 shape
-=
+(
+cx
 const_cast
 <
 Shape
@@ -4551,6 +4550,7 @@ r
 .
 front
 (
+)
 )
 )
 ;

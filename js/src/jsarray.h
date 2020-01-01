@@ -258,8 +258,7 @@ cx
 )
 ;
 extern
-Shape
-*
+UnrootedShape
 GetDenseArrayShape
 (
 JSContext

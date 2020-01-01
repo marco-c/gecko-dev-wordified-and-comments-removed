@@ -7983,8 +7983,7 @@ return
 NULL
 ;
 }
-Shape
-*
+UnrootedShape
 mjit
 :
 :
@@ -8024,7 +8023,10 @@ if
 pic
 )
 return
+UnrootedShape
+(
 NULL
+)
 ;
 return
 pic

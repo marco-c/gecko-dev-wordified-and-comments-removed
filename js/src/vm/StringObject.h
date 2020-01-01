@@ -221,8 +221,7 @@ HandleObject
 global
 )
 ;
-Shape
-*
+UnrootedShape
 assignInitialShape
 (
 JSContext
