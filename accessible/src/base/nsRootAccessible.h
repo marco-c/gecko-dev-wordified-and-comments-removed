@@ -351,8 +351,11 @@ nsCaretAccessible
 >
 mCaretAccessible
 ;
-PRPackedBool
-mIsInDHTMLMenu
+nsCOMPtr
+<
+nsIAccessible
+>
+mCurrentARIAMenubar
 ;
 }
 ;
