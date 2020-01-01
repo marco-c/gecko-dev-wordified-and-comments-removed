@@ -13117,6 +13117,10 @@ Cancel
 (
 )
 ;
+mTimer
+=
+nsnull
+;
 }
 }
 NS_IMPL_ISUPPORTS1
