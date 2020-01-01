@@ -315,6 +315,7 @@ nsWidgetAtoms
 :
 :
 value
+0
 )
 ;
 }
@@ -355,6 +356,8 @@ aFrame
 nsIAtom
 *
 aAtom
+PRInt32
+defaultValue
 )
 ;
 PRBool

@@ -321,6 +321,13 @@ orient
 )
 WIDGET_ATOM
 (
+pageincrement
+"
+pageincrement
+"
+)
+WIDGET_ATOM
+(
 parentfocused
 "
 parentfocused
