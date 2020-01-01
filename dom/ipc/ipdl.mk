@@ -60,10 +60,6 @@ DOMTypes
 .
 ipdlh
 \
-PAudio
-.
-ipdl
-\
 PBlob
 .
 ipdl

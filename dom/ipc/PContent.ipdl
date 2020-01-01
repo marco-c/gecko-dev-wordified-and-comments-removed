@@ -116,10 +116,6 @@ MPL
 /
 include
 protocol
-PAudio
-;
-include
-protocol
 PBlob
 ;
 include
@@ -913,9 +909,6 @@ opens
 PImageBridge
 ;
 manages
-PAudio
-;
-manages
 PBlob
 ;
 manages
@@ -1617,14 +1610,6 @@ returns
 (
 bool
 isOffline
-)
-;
-PAudio
-(
-int32_t
-aNumChannels
-int32_t
-aRate
 )
 ;
 PDeviceStorageRequest

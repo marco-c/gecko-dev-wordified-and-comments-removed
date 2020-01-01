@@ -115,9 +115,6 @@ aNumChannels
 int32_t
 aRate
 const
-mozilla
-:
-:
 dom
 :
 :
