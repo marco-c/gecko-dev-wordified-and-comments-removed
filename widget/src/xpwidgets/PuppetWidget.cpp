@@ -292,6 +292,15 @@ SetChild
 this
 )
 ;
+mLayerManager
+=
+parent
+-
+>
+GetLayerManager
+(
+)
+;
 }
 else
 {
@@ -916,7 +925,7 @@ mLayerManager
 mLayerManager
 =
 new
-BasicLayerManager
+BasicShadowLayerManager
 (
 this
 )
