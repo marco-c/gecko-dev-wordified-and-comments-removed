@@ -2299,6 +2299,13 @@ login
 LOGIN_FAILED_NO_PASSPHRASE
 ;
 }
+else
+Status
+.
+service
+=
+STATUS_OK
+;
 return
 Status
 .
