@@ -654,7 +654,7 @@ stubsGenerated
 :
 5
 ;
-int
+uint32
 shapeGuard
 ;
 uint32
