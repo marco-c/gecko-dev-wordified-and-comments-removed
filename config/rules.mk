@@ -1724,8 +1724,6 @@ OBJS
 pp
 )
 )
-ifndef
-NO_GEN_XPT
 MDDEPFILES
 +
 =
@@ -1758,7 +1756,6 @@ xpt
 pp
 )
 )
-endif
 endif
 endif
 ALL_TRASH
@@ -9584,8 +9581,6 @@ else
 true
 ;
 fi
-ifndef
-NO_GEN_XPT
 #
 generate
 intermediate
@@ -9874,9 +9869,6 @@ manifest
 "
 endif
 endif
-endif
-#
-NO_GEN_XPT
 GARBAGE_DIRS
 +
 =
