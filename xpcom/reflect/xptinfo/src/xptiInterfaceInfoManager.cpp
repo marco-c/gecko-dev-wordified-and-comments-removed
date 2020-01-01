@@ -1489,9 +1489,15 @@ args
 {
 array
 prefix
+static_cast
+<
+uint32_t
+>
+(
 strlen
 (
 prefix
+)
 )
 }
 ;
