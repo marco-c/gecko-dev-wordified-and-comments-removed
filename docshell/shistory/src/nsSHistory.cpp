@@ -973,10 +973,10 @@ PR_GetPhysicalMemorySize
 ;
 if
 (
-LL_IS_ZERO
-(
 bytes
-)
+=
+=
+0
 )
 return
 0

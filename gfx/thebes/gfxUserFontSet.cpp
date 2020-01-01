@@ -2611,10 +2611,10 @@ sFontSetGeneration
 ;
 if
 (
-LL_IS_ZERO
-(
 sFontSetGeneration
-)
+=
+=
+0
 )
 LL_ADD
 (

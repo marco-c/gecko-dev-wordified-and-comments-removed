@@ -2931,10 +2931,10 @@ rdate
 ;
 if
 (
-LL_IS_ZERO
-(
 delta
-)
+=
+=
+0
 )
 *
 aResult
