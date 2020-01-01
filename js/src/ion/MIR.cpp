@@ -8298,12 +8298,6 @@ looseEq
 strictEq
 )
 ;
-MDefinition
-*
-newlhs
-*
-newrhs
-;
 if
 (
 tryUseUnsignedOperands
