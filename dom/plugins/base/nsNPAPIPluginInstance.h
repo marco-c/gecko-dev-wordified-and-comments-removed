@@ -217,6 +217,9 @@ NS_DECL_ISUPPORTS
 nsresult
 Initialize
 (
+nsNPAPIPlugin
+*
+aPlugin
 nsIPluginInstanceOwner
 *
 aOwner
@@ -707,9 +710,6 @@ listener
 ;
 nsNPAPIPluginInstance
 (
-nsNPAPIPlugin
-*
-plugin
 )
 ;
 virtual
@@ -947,11 +947,6 @@ CarbonNPAPIFailure
 ;
 protected
 :
-nsresult
-InitializePlugin
-(
-)
-;
 nsresult
 GetTagType
 (
