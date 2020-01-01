@@ -165,12 +165,14 @@ GetJSObject
 (
 )
 )
-TraceJSObjectFromBits
+{
+TraceWrapperJSObject
 (
 aTrc
 aName
 )
 ;
+}
 }
 #
 ifdef
@@ -200,7 +202,7 @@ GetJSObject
 const
 {
 return
-GetJSObjectFromBits
+GetWrapperJSObject
 (
 )
 ;
@@ -213,7 +215,7 @@ JSObject
 aObject
 )
 {
-SetWrapperBits
+SetWrapperJSObject
 (
 aObject
 )
