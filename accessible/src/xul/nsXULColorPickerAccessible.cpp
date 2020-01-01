@@ -354,11 +354,11 @@ mContent
 PR_TRUE
 )
 ;
-nsRefPtr
-<
 nsAccessible
->
+*
 child
+=
+nsnull
 ;
 while
 (
@@ -367,7 +367,7 @@ child
 =
 walker
 .
-GetNextChild
+NextChild
 (
 )
 )

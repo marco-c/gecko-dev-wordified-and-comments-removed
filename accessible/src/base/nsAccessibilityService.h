@@ -534,10 +534,8 @@ return
 gIsShutdown
 ;
 }
-already_AddRefed
-<
 nsAccessible
->
+*
 GetOrCreateAccessible
 (
 nsINode

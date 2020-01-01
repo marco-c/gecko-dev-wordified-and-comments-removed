@@ -13495,11 +13495,11 @@ GetAllowsAnonChildAccessibles
 )
 )
 ;
-nsRefPtr
-<
 nsAccessible
->
+*
 child
+=
+nsnull
 ;
 while
 (
@@ -13508,7 +13508,7 @@ child
 =
 walker
 .
-GetNextChild
+NextChild
 (
 )
 )
