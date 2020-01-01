@@ -519,7 +519,7 @@ length
 js
 :
 :
-UnrootedFlatString
+RawFlatString
 finishString
 (
 )
@@ -527,7 +527,7 @@ finishString
 js
 :
 :
-UnrootedAtom
+RawAtom
 finishAtom
 (
 )

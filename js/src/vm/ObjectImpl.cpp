@@ -961,14 +961,14 @@ isNative
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 lastProperty
 (
 )
 ;
-UnrootedShape
+RawShape
 prev
 =
 NULL
@@ -1725,7 +1725,7 @@ _MSC_VER
 MOZ_NEVER_INLINE
 #
 endif
-UnrootedShape
+RawShape
 js
 :
 :

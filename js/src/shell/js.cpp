@@ -6649,7 +6649,7 @@ true
 ;
 }
 static
-UnrootedScript
+RawScript
 ValueToScript
 (
 JSContext
@@ -6682,10 +6682,7 @@ if
 fun
 )
 return
-UnrootedScript
-(
 NULL
-)
 ;
 RootedScript
 script
@@ -6826,7 +6823,7 @@ ok
 ;
 }
 static
-UnrootedScript
+RawScript
 GetTopScript
 (
 JSContext

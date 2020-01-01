@@ -754,7 +754,7 @@ return
 true
 ;
 }
-UnrootedScript
+RawScript
 IonFrameIterator
 :
 :
@@ -1974,7 +1974,7 @@ case
 CalleeToken_Script
 :
 {
-UnrootedScript
+RawScript
 script
 =
 CalleeTokenToScript

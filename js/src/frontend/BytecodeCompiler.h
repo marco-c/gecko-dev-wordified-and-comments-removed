@@ -19,7 +19,7 @@ js
 namespace
 frontend
 {
-UnrootedScript
+RawScript
 CompileScript
 (
 JSContext

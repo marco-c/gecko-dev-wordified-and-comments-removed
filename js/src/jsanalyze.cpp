@@ -8850,7 +8850,7 @@ cv
 .
 v
 ;
-UnrootedScript
+RawScript
 parentScript
 =
 NULL
@@ -9089,7 +9089,7 @@ case
 JSOP_CALL
 :
 {
-UnrootedScript
+RawScript
 callee
 =
 NULL

@@ -292,7 +292,7 @@ dump
 }
 }
 static
-UnrootedScript
+RawScript
 GetBailedJSScript
 (
 JSContext
@@ -2695,7 +2695,7 @@ GetIonContext
 >
 cx
 ;
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -2848,7 +2848,7 @@ GetIonContext
 >
 cx
 ;
-UnrootedScript
+RawScript
 script
 =
 GetBailedJSScript
@@ -2939,7 +2939,7 @@ GetIonContext
 >
 cx
 ;
-UnrootedScript
+RawScript
 script
 =
 GetBailedJSScript
@@ -3018,7 +3018,7 @@ GetIonContext
 >
 cx
 ;
-UnrootedScript
+RawScript
 script
 =
 GetBailedJSScript

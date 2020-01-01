@@ -1644,7 +1644,7 @@ NoCompilerRunning
 bool
 init
 (
-UnrootedScript
+RawScript
 script
 bool
 constructing
@@ -2328,7 +2328,7 @@ TrackPropertyTypes
 JSContext
 *
 cx
-UnrootedObject
+RawObject
 obj
 RawId
 id
@@ -3120,7 +3120,7 @@ hasSingletonType
 return
 false
 ;
-UnrootedScript
+RawScript
 script
 =
 fun
@@ -3261,7 +3261,7 @@ TypeScript
 :
 NumTypeSets
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -7310,7 +7310,7 @@ TypeCallsite
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 jsbytecode
 *

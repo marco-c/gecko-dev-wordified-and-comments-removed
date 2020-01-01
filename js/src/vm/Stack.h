@@ -614,7 +614,7 @@ rt
 const
 ;
 inline
-UnrootedObject
+RawObject
 scopeChain
 (
 )
@@ -701,7 +701,7 @@ isDebuggerFrame
 const
 ;
 inline
-UnrootedScript
+RawScript
 script
 (
 )
@@ -1406,7 +1406,7 @@ cx
 JSFunction
 &
 callee
-UnrootedScript
+RawScript
 script
 uint32_t
 nactual
@@ -1438,7 +1438,7 @@ nactual
 void
 initExecuteFrame
 (
-UnrootedScript
+RawScript
 script
 StackFrame
 *
@@ -2021,7 +2021,7 @@ JSContext
 cx
 )
 ;
-UnrootedScript
+RawScript
 script
 (
 )
@@ -2040,9 +2040,6 @@ u
 .
 evalScript
 :
-(
-RawScript
-)
 fun
 (
 )
@@ -4160,7 +4157,7 @@ prepareToRun
 StackFrame
 &
 fp
-UnrootedScript
+RawScript
 script
 )
 {
@@ -4199,7 +4196,7 @@ setToEndOfScript
 (
 )
 {
-UnrootedScript
+RawScript
 script
 =
 fp
@@ -5667,7 +5664,7 @@ true
 }
 ;
 inline
-UnrootedScript
+RawScript
 currentScript
 (
 jsbytecode
@@ -6473,7 +6470,7 @@ state_
 SCRIPTED
 ;
 }
-UnrootedScript
+RawScript
 script
 (
 )

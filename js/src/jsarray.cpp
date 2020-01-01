@@ -752,7 +752,7 @@ return
 false
 ;
 }
-UnrootedShape
+RawShape
 js
 :
 :
@@ -792,10 +792,7 @@ if
 proto
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 return
 EmptyShape
@@ -6346,7 +6343,7 @@ hasScript
 return
 Match_None
 ;
-UnrootedScript
+RawScript
 script
 =
 fun

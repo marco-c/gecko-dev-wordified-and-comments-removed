@@ -34831,7 +34831,7 @@ offsetOfEnclosingScope
 reg
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 ScopeCoordinateToStaticScopeShape
@@ -37552,7 +37552,7 @@ name
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 globalObj
@@ -37595,10 +37595,7 @@ globalObj
 >
 getSlotRef
 (
-DropUnrooted
-(
 shape
-)
 -
 >
 slot

@@ -87,7 +87,7 @@ hasDynamicScopeObject
 )
 const
 ;
-UnrootedShape
+RawShape
 scopeShape
 (
 )
@@ -114,7 +114,7 @@ block
 )
 const
 ;
-UnrootedScript
+RawScript
 funScript
 (
 )
@@ -148,7 +148,7 @@ ScopeCoordinate
 }
 ;
 extern
-UnrootedShape
+RawShape
 ScopeCoordinateToStaticScopeShape
 (
 JSContext
@@ -786,7 +786,7 @@ resetPrevBlockChainFromParser
 )
 ;
 static
-UnrootedShape
+RawShape
 addVar
 (
 JSContext

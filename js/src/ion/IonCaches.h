@@ -669,7 +669,7 @@ true
 void
 setScriptedLocation
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *

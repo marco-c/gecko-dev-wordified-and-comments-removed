@@ -32098,7 +32098,7 @@ storeSlot
 MDefinition
 *
 obj
-UnrootedShape
+RawShape
 shape
 MDefinition
 *
@@ -36587,7 +36587,7 @@ MDefinition
 *
 obj
 const
-UnrootedShape
+RawShape
 shape
 BailoutKind
 bailoutKind

@@ -3891,7 +3891,7 @@ next
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 i
@@ -5180,7 +5180,7 @@ checkScriptSize
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -6266,7 +6266,7 @@ static
 bool
 CheckScript
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -6333,7 +6333,7 @@ checkScriptSize
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 {
@@ -7302,7 +7302,7 @@ checkScriptSize
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 {
@@ -10287,7 +10287,7 @@ isValid
 )
 )
 ;
-UnrootedScript
+RawScript
 script
 =
 co
@@ -10435,7 +10435,7 @@ Invalidate
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 ExecutionMode
 mode
@@ -10570,7 +10570,7 @@ Invalidate
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 bool
 resetUses
@@ -10593,7 +10593,7 @@ FinishInvalidationOf
 FreeOp
 *
 fop
-UnrootedScript
+RawScript
 script
 IonScript
 *
@@ -10681,7 +10681,7 @@ FinishInvalidation
 FreeOp
 *
 fop
-UnrootedScript
+RawScript
 script
 )
 {
@@ -10800,7 +10800,7 @@ ForbidCompilation
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 )
 {
@@ -10821,7 +10821,7 @@ ForbidCompilation
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 ExecutionMode
 mode
@@ -10960,7 +10960,7 @@ ion
 :
 UsesBeforeIonRecompile
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -11378,7 +11378,7 @@ ion
 :
 PurgeCaches
 (
-UnrootedScript
+RawScript
 script
 JSCompartment
 *
@@ -11432,7 +11432,7 @@ ion
 :
 MemoryUsed
 (
-UnrootedScript
+RawScript
 script
 JSMallocSizeOfFun
 mallocSizeOf
@@ -11502,7 +11502,7 @@ DestroyIonScripts
 FreeOp
 *
 fop
-UnrootedScript
+RawScript
 script
 )
 {
@@ -11564,7 +11564,7 @@ TraceIonScripts
 JSTracer
 *
 trc
-UnrootedScript
+RawScript
 script
 )
 {

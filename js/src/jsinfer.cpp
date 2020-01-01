@@ -2976,7 +2976,7 @@ id
 ;
 TypeConstraintProp
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3250,7 +3250,7 @@ id
 ;
 TypeConstraintCallProp
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3419,7 +3419,7 @@ valueTypes
 ;
 TypeConstraintSetElement
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3656,7 +3656,7 @@ other
 ;
 TypeConstraintArith
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3783,7 +3783,7 @@ target
 ;
 TypeConstraintTransformThis
 (
-UnrootedScript
+RawScript
 script
 TypeSet
 *
@@ -3890,7 +3890,7 @@ types
 ;
 TypeConstraintPropagateThis
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -4112,7 +4112,7 @@ target
 }
 static
 inline
-UnrootedShape
+RawShape
 GetSingletonShape
 (
 JSContext
@@ -4135,10 +4135,7 @@ isNative
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 RootedId
 id
@@ -4147,13 +4144,10 @@ cx
 idArg
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
-DropUnrooted
-(
 obj
-)
 -
 >
 nativeLookup
@@ -4186,10 +4180,7 @@ return
 shape
 ;
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 void
@@ -4280,7 +4271,7 @@ JSVAL_TYPE_UNDEFINED
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 GetSingletonShape
@@ -4697,7 +4688,7 @@ target
 ;
 TypeConstraintSubsetBarrier
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -10634,7 +10625,7 @@ inline
 bool
 JITCodeHasCheck
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -10874,7 +10865,7 @@ AddPendingRecompile
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -11054,7 +11045,7 @@ public
 :
 TypeConstraintFreezeStack
 (
-UnrootedScript
+RawScript
 script
 )
 :
@@ -11958,7 +11949,7 @@ GetAtomId
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 const
 jsbytecode
@@ -13386,7 +13377,7 @@ addPendingRecompile
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -15936,7 +15927,7 @@ return
 false
 ;
 }
-UnrootedShape
+RawShape
 shape
 =
 obj
@@ -16948,9 +16939,9 @@ cx
 TypeSet
 *
 types
-UnrootedObject
+RawObject
 obj
-UnrootedShape
+RawShape
 shape
 bool
 force
@@ -17348,7 +17339,7 @@ cx
 id
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 singleton
@@ -17682,7 +17673,7 @@ found
 =
 false
 ;
-UnrootedShape
+RawShape
 shape
 =
 obj

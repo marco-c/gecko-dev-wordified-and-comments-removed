@@ -257,7 +257,7 @@ GenericObject
 )
 ;
 extern
-UnrootedShape
+RawShape
 GetDenseArrayShape
 (
 JSContext

@@ -183,7 +183,7 @@ init
 JSRuntime
 *
 rt
-UnrootedShape
+RawShape
 lastProp
 )
 {
@@ -348,7 +348,7 @@ compartment
 )
 )
 ;
-UnrootedBaseShape
+RawBaseShape
 nbase
 =
 js_NewGCBaseShape
@@ -411,7 +411,7 @@ Shape
 :
 handoffTableTo
 (
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -468,7 +468,7 @@ isOwned
 )
 )
 ;
-UnrootedBaseShape
+RawBaseShape
 nbase
 =
 base
@@ -1281,7 +1281,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 Shape
 :
 :
@@ -1359,7 +1359,7 @@ child
 )
 ;
 }
-UnrootedShape
+RawShape
 Shape
 :
 :
@@ -1458,7 +1458,7 @@ child
 )
 ;
 {
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 nbase
 =
 BaseShape
@@ -1476,10 +1476,7 @@ if
 nbase
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 child
 .
@@ -1513,7 +1510,7 @@ child
 )
 ;
 }
-UnrootedShape
+RawShape
 JSObject
 :
 :
@@ -1580,10 +1577,7 @@ slot
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 child
 .
@@ -1685,10 +1679,7 @@ if
 shape
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 if
 (
@@ -1744,10 +1735,7 @@ slot
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 shape
@@ -1800,10 +1788,7 @@ if
 shape
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 if
 (
@@ -1819,10 +1804,7 @@ shape
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 return
@@ -1912,7 +1894,7 @@ inDictionary
 )
 )
 ;
-UnrootedShape
+RawShape
 dprop
 =
 js_NewGCShape
@@ -2162,7 +2144,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 JSObject
 :
 :
@@ -2220,10 +2202,7 @@ cx
 )
 ;
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 NormalizeGetterAndSetter
@@ -2289,7 +2268,7 @@ allowDictionary
 )
 ;
 }
-UnrootedShape
+RawShape
 JSObject
 :
 :
@@ -2459,10 +2438,7 @@ cx
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 table
 =
@@ -2531,10 +2507,7 @@ cx
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 spp
 =
@@ -2701,10 +2674,7 @@ if
 nbase
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 StackShape
@@ -2825,10 +2795,7 @@ checkShapeConsistency
 )
 ;
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 inline
@@ -2921,7 +2888,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 JSObject
 :
 :
@@ -3032,10 +2999,7 @@ cx
 )
 ;
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 return
@@ -3079,10 +3043,7 @@ attrs
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 bool
 hadSlot
@@ -3206,10 +3167,7 @@ if
 nbase
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 if
@@ -3263,10 +3221,7 @@ cx
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 spp
 =
@@ -3370,10 +3325,7 @@ if
 shape
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 if
 (
@@ -3391,10 +3343,7 @@ cx
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 if
 (
@@ -3424,10 +3373,7 @@ slot
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 if
@@ -3523,7 +3469,7 @@ getter
 setter
 )
 ;
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 nbase
 =
 BaseShape
@@ -3541,10 +3487,7 @@ if
 nbase
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 JS_ASSERT
 (
@@ -3576,11 +3519,6 @@ flags
 shortid
 )
 ;
-DropUnrooted
-(
-nbase
-)
-;
 RootedShape
 parent
 (
@@ -3591,7 +3529,7 @@ shape
 parent
 )
 ;
-UnrootedShape
+RawShape
 newShape
 =
 JSObject
@@ -3619,10 +3557,7 @@ checkShapeConsistency
 )
 ;
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 shape
@@ -3685,7 +3620,7 @@ return
 shape
 ;
 }
-UnrootedShape
+RawShape
 JSObject
 :
 :
@@ -3839,10 +3774,7 @@ attrs
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 if
 (
@@ -3891,7 +3823,7 @@ propid
 )
 )
 ;
-UnrootedShape
+RawShape
 newShape
 =
 putProperty
@@ -4187,7 +4119,7 @@ setter
 )
 )
 ;
-UnrootedBaseShape
+RawBaseShape
 nbase
 =
 BaseShape
@@ -4319,7 +4251,7 @@ entryCount
 #
 ifdef
 DEBUG
-UnrootedShape
+RawShape
 aprop
 =
 self
@@ -4376,7 +4308,7 @@ aprop
 endif
 }
 {
-UnrootedShape
+RawShape
 oldLastProp
 =
 self
@@ -5128,7 +5060,7 @@ parent
 =
 parent
 ;
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 nbase
 =
 BaseShape
@@ -5170,7 +5102,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 newShape
 =
 Shape
@@ -5211,7 +5143,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 Shape
 :
 :
@@ -5457,7 +5389,7 @@ flags
 =
 flag
 ;
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 nbase
 =
 BaseShape
@@ -5499,7 +5431,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 newShape
 =
 Shape
@@ -5596,7 +5528,7 @@ flags
 ~
 flag
 ;
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 nbase
 =
 BaseShape
@@ -5638,7 +5570,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 Shape
 :
 :
@@ -5959,7 +5891,7 @@ cx
 base
 )
 ;
-UnrootedBaseShape
+RawBaseShape
 nbase_
 =
 js_NewGCBaseShape
@@ -5987,12 +5919,12 @@ BaseShape
 base
 )
 ;
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 nbase
 =
 static_cast
 <
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 >
 (
 nbase_
@@ -6599,7 +6531,7 @@ nbase
 return
 NULL
 ;
-UnrootedShape
+RawShape
 shape
 =
 cx

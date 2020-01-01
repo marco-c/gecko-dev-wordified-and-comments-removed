@@ -21825,7 +21825,7 @@ junk
 ;
 }
 static
-UnrootedShape
+RawShape
 LastConfigurableShape
 (
 JSObject
@@ -21868,7 +21868,7 @@ popFront
 )
 )
 {
-UnrootedShape
+RawShape
 shape
 =
 &
@@ -21892,10 +21892,7 @@ shape
 ;
 }
 return
-UnrootedShape
-(
 NULL
-)
 ;
 }
 JS_PUBLIC_API
@@ -22031,7 +22028,7 @@ popFront
 )
 )
 {
-UnrootedShape
+RawShape
 shape
 =
 &
@@ -22393,7 +22390,7 @@ toInt32
 0
 )
 {
-UnrootedShape
+RawShape
 tmp
 =
 static_cast
@@ -22715,7 +22712,7 @@ isNative
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 static_cast

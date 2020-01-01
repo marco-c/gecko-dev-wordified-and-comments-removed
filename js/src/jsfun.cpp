@@ -723,7 +723,7 @@ false
 #
 ifdef
 JS_ION
-UnrootedScript
+RawScript
 script
 =
 iter
@@ -5993,7 +5993,7 @@ hasScript
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 fun

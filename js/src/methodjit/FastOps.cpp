@@ -8840,7 +8840,7 @@ Uses
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 GetDenseArrayShape
@@ -12335,7 +12335,7 @@ slowPathStart
 )
 ;
 }
-UnrootedShape
+RawShape
 shape
 =
 GetDenseArrayShape

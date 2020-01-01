@@ -362,7 +362,7 @@ c
 '
 )
 {
-UnrootedFlatString
+RawFlatString
 str
 =
 (
@@ -375,13 +375,10 @@ JSONParser
 PropertyName
 )
 ?
-UnrootedFlatString
-(
 buffer
 .
 finishAtom
 (
-)
 )
 :
 buffer

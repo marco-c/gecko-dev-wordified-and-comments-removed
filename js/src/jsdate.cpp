@@ -5195,7 +5195,7 @@ return
 true
 ;
 }
-UnrootedString
+RawString
 str
 =
 ToString
@@ -5218,7 +5218,7 @@ str
 return
 false
 ;
-UnrootedLinearString
+RawLinearString
 linearStr
 =
 str
@@ -6352,7 +6352,7 @@ thisv
 )
 )
 ;
-UnrootedObject
+RawObject
 thisObj
 =
 &
@@ -6501,7 +6501,7 @@ thisv
 )
 )
 ;
-UnrootedObject
+RawObject
 thisObj
 =
 &
@@ -6718,7 +6718,7 @@ thisv
 )
 )
 ;
-UnrootedObject
+RawObject
 thisObj
 =
 &
@@ -6924,7 +6924,7 @@ thisv
 )
 )
 ;
-UnrootedObject
+RawObject
 thisObj
 =
 &
@@ -7141,7 +7141,7 @@ thisv
 )
 )
 ;
-UnrootedObject
+RawObject
 thisObj
 =
 &
@@ -7358,7 +7358,7 @@ thisv
 )
 )
 ;
-UnrootedObject
+RawObject
 thisObj
 =
 &
@@ -7575,7 +7575,7 @@ thisv
 )
 )
 ;
-UnrootedObject
+RawObject
 thisObj
 =
 &
@@ -7792,7 +7792,7 @@ thisv
 )
 )
 ;
-UnrootedObject
+RawObject
 thisObj
 =
 &
@@ -8009,7 +8009,7 @@ thisv
 )
 )
 ;
-UnrootedObject
+RawObject
 thisObj
 =
 &
@@ -12079,7 +12079,7 @@ buf
 utctime
 )
 ;
-UnrootedString
+RawString
 str
 =
 JS_NewStringCopyZ
@@ -12225,7 +12225,7 @@ buf
 utctime
 )
 ;
-UnrootedString
+RawString
 str
 =
 JS_NewStringCopyZ
@@ -13224,7 +13224,7 @@ break
 ;
 }
 }
-UnrootedString
+RawString
 str
 =
 JS_NewStringCopyZ
@@ -13543,7 +13543,7 @@ address
 )
 )
 ;
-UnrootedString
+RawString
 str
 =
 JS_NewStringCopyZ
@@ -14335,7 +14335,7 @@ return
 false
 ;
 }
-UnrootedString
+RawString
 str
 =
 sb
@@ -14515,7 +14515,7 @@ thisv
 )
 )
 ;
-UnrootedObject
+RawObject
 thisObj
 =
 &

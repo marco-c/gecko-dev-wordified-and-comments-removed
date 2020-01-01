@@ -1040,7 +1040,7 @@ empty
 (
 )
 ?
-UnrootedAtom
+RawAtom
 (
 unescaped
 )
@@ -1793,7 +1793,7 @@ thisv
 )
 )
 ;
-UnrootedString
+RawString
 str
 =
 args

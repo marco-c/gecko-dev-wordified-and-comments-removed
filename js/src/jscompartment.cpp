@@ -1630,7 +1630,7 @@ str
 return
 false
 ;
-UnrootedString
+RawString
 wrapped
 =
 js_NewStringCopyN

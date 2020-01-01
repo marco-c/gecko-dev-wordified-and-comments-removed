@@ -150,7 +150,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-UnrootedScript
+RawScript
 thing
 )
 ;
@@ -162,7 +162,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-UnrootedShape
+RawShape
 thing
 )
 ;
@@ -220,7 +220,7 @@ MarkChildren
 JSTracer
 *
 trc
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -231,7 +231,7 @@ MarkChildren
 JSTracer
 *
 trc
-UnrootedShape
+RawShape
 shape
 )
 ;
@@ -242,7 +242,7 @@ MarkChildren
 JSTracer
 *
 trc
-UnrootedBaseShape
+RawBaseShape
 base
 )
 ;
@@ -3934,7 +3934,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-UnrootedScript
+RawScript
 thing
 )
 {
@@ -3976,7 +3976,7 @@ ScanShape
 GCMarker
 *
 gcmarker
-UnrootedShape
+RawShape
 shape
 )
 ;
@@ -3987,7 +3987,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-UnrootedShape
+RawShape
 thing
 )
 {
@@ -4078,7 +4078,7 @@ ScanBaseShape
 GCMarker
 *
 gcmarker
-UnrootedBaseShape
+RawBaseShape
 base
 )
 ;
@@ -4089,7 +4089,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-UnrootedBaseShape
+RawBaseShape
 thing
 )
 {
@@ -4131,7 +4131,7 @@ ScanShape
 GCMarker
 *
 gcmarker
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -4235,7 +4235,7 @@ ScanBaseShape
 GCMarker
 *
 gcmarker
-UnrootedBaseShape
+RawBaseShape
 base
 )
 {
@@ -4344,7 +4344,7 @@ isOwned
 )
 )
 {
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 unowned
 =
 base
@@ -4974,7 +4974,7 @@ MarkChildren
 JSTracer
 *
 trc
-UnrootedScript
+RawScript
 script
 )
 {
@@ -4997,7 +4997,7 @@ MarkChildren
 JSTracer
 *
 trc
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -5020,7 +5020,7 @@ MarkChildren
 JSTracer
 *
 trc
-UnrootedBaseShape
+RawBaseShape
 base
 )
 {
@@ -5041,7 +5041,7 @@ MarkCycleCollectorChildren
 JSTracer
 *
 trc
-UnrootedBaseShape
+RawBaseShape
 base
 JSObject
 *
@@ -5213,7 +5213,7 @@ MarkCycleCollectorChildren
 JSTracer
 *
 trc
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -7344,7 +7344,7 @@ this
 type
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 obj

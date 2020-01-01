@@ -554,7 +554,7 @@ numVars
 )
 ;
 }
-UnrootedShape
+RawShape
 callObjShape
 (
 )
@@ -562,10 +562,6 @@ const
 {
 return
 callObjShape_
-.
-get
-(
-)
 ;
 }
 static
@@ -1435,7 +1431,7 @@ static
 js
 :
 :
-UnrootedScript
+RawScript
 Create
 (
 JSContext
@@ -2545,7 +2541,7 @@ cloneHasArray
 js
 :
 :
-UnrootedScript
+RawScript
 script
 )
 {
@@ -3440,7 +3436,7 @@ writeBarrierPre
 js
 :
 :
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -3452,7 +3448,7 @@ writeBarrierPost
 js
 :
 :
-UnrootedScript
+RawScript
 script
 void
 *
@@ -3846,7 +3842,7 @@ AliasedFormalIter
 js
 :
 :
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -5290,7 +5286,7 @@ NOT_CALLED_FROM_JSOP_EVAL
 )
 ;
 extern
-UnrootedScript
+RawScript
 CloneScript
 (
 JSContext

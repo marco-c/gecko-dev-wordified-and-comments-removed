@@ -18966,7 +18966,7 @@ scopeChain
 PropertyName
 *
 name
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -19013,7 +19013,7 @@ scopeChain
 PropertyName
 *
 name
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -19066,7 +19066,7 @@ return
 name_
 ;
 }
-UnrootedScript
+RawScript
 script
 (
 )
@@ -19108,7 +19108,7 @@ MGuardShape
 MDefinition
 *
 obj
-UnrootedShape
+RawShape
 shape
 BailoutKind
 bailoutKind
@@ -19155,7 +19155,7 @@ New
 MDefinition
 *
 obj
-UnrootedShape
+RawShape
 shape
 BailoutKind
 bailoutKind
@@ -19196,7 +19196,7 @@ getOperand
 ;
 }
 const
-UnrootedShape
+RawShape
 shape
 (
 )
@@ -23957,7 +23957,7 @@ inlineLevel_
 ;
 MFunctionBoundary
 (
-UnrootedScript
+RawScript
 script
 Type
 type
@@ -24018,7 +24018,7 @@ MFunctionBoundary
 *
 New
 (
-UnrootedScript
+RawScript
 script
 Type
 type
@@ -24038,7 +24038,7 @@ inlineLevel
 )
 ;
 }
-UnrootedScript
+RawScript
 script
 (
 )

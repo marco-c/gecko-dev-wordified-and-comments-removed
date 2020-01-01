@@ -2072,7 +2072,7 @@ ElementsHeader
 {
 public
 :
-UnrootedShape
+RawShape
 shape
 (
 )
@@ -5226,7 +5226,7 @@ numDynamicSlots
 )
 const
 ;
-UnrootedShape
+RawShape
 nativeLookup
 (
 JSContext
@@ -5237,7 +5237,7 @@ id
 )
 ;
 inline
-UnrootedShape
+RawShape
 nativeLookup
 (
 JSContext
@@ -5248,7 +5248,7 @@ pid
 )
 ;
 inline
-UnrootedShape
+RawShape
 nativeLookup
 (
 JSContext

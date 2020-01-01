@@ -204,7 +204,7 @@ StackFrame
 :
 initExecuteFrame
 (
-UnrootedScript
+RawScript
 script
 StackFrame
 *

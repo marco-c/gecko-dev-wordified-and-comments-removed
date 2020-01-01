@@ -559,7 +559,7 @@ stmt
 >
 blockObj
 ;
-UnrootedShape
+RawShape
 shape
 =
 blockObj

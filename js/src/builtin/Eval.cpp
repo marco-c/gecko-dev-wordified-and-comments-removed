@@ -150,7 +150,7 @@ static
 bool
 IsEvalCacheCandidate
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -246,7 +246,7 @@ EvalCacheHashPolicy
 :
 match
 (
-UnrootedScript
+RawScript
 script
 const
 EvalCacheLookup
@@ -587,7 +587,7 @@ true
 void
 setNewScript
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -1406,7 +1406,7 @@ script
 NULL
 )
 ;
-UnrootedScript
+RawScript
 compiled
 =
 frontend
@@ -1725,7 +1725,7 @@ setOriginPrincipals
 originPrincipals
 )
 ;
-UnrootedScript
+RawScript
 compiled
 =
 frontend

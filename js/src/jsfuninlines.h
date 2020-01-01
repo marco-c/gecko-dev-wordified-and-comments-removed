@@ -98,7 +98,7 @@ setGuessedAtom
 js
 :
 :
-UnrootedAtom
+RawAtom
 atom
 )
 {

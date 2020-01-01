@@ -9932,7 +9932,7 @@ fun
 (
 )
 ;
-UnrootedScript
+RawScript
 script
 =
 fun
@@ -10163,7 +10163,7 @@ frameAddr
 =
 repatchCode
 ;
-UnrootedScript
+RawScript
 script
 =
 f

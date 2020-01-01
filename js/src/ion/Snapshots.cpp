@@ -1351,7 +1351,7 @@ startFrame
 JSFunction
 *
 fun
-UnrootedScript
+RawScript
 script
 jsbytecode
 *

@@ -881,7 +881,7 @@ length
 )
 )
 ;
-UnrootedString
+RawString
 str
 =
 js_NewDependentString

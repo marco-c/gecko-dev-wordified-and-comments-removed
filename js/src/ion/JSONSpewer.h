@@ -209,7 +209,7 @@ path
 void
 beginFunction
 (
-UnrootedScript
+RawScript
 script
 )
 ;

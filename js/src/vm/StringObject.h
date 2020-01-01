@@ -205,7 +205,7 @@ HandleObject
 global
 )
 ;
-UnrootedShape
+RawShape
 assignInitialShape
 (
 JSContext

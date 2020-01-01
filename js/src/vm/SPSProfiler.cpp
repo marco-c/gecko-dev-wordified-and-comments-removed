@@ -325,9 +325,9 @@ profileString
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
-UnrootedFunction
+RawFunction
 maybeFun
 )
 {
@@ -424,7 +424,7 @@ SPSProfiler
 :
 onScriptFinalized
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -495,9 +495,9 @@ enter
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
-UnrootedFunction
+RawFunction
 maybeFun
 )
 {
@@ -590,9 +590,9 @@ exit
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
-UnrootedFunction
+RawFunction
 maybeFun
 )
 {
@@ -878,7 +878,7 @@ string
 void
 *
 sp
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1015,9 +1015,9 @@ allocProfileString
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
-UnrootedFunction
+RawFunction
 maybeFun
 )
 {
@@ -2076,7 +2076,7 @@ mjit
 JITChunk
 *
 chunk
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -2227,7 +2227,7 @@ SPSProfiler
 :
 unregisterScript
 (
-UnrootedScript
+RawScript
 script
 mjit
 :

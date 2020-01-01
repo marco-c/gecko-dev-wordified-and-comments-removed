@@ -666,7 +666,7 @@ JSONSpewer
 :
 beginFunction
 (
-UnrootedScript
+RawScript
 script
 )
 {

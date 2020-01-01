@@ -1120,7 +1120,7 @@ setLastPropertyInfallible
 js
 :
 :
-UnrootedShape
+RawShape
 shape
 )
 ;
@@ -2938,7 +2938,7 @@ static
 js
 :
 :
-UnrootedShape
+RawShape
 getChildProperty
 (
 JSContext
@@ -2968,7 +2968,7 @@ static
 js
 :
 :
-UnrootedShape
+RawShape
 addPropertyInternal
 (
 JSContext
@@ -3062,7 +3062,7 @@ static
 js
 :
 :
-UnrootedShape
+RawShape
 addProperty
 (
 JSContext
@@ -3098,7 +3098,7 @@ true
 js
 :
 :
-UnrootedShape
+RawShape
 addDataProperty
 (
 JSContext
@@ -3164,7 +3164,7 @@ attrs
 js
 :
 :
-UnrootedShape
+RawShape
 addDataProperty
 (
 JSContext
@@ -3237,7 +3237,7 @@ static
 js
 :
 :
-UnrootedShape
+RawShape
 putProperty
 (
 JSContext
@@ -3271,7 +3271,7 @@ static
 js
 :
 :
-UnrootedShape
+RawShape
 putProperty
 (
 JSContext
@@ -3337,7 +3337,7 @@ static
 js
 :
 :
-UnrootedShape
+RawShape
 changeProperty
 (
 JSContext
@@ -5619,7 +5619,7 @@ extern
 js
 :
 :
-UnrootedShape
+RawShape
 js_AddNativeProperty
 (
 JSContext

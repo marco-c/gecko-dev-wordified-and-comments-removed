@@ -1216,7 +1216,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 RegExpObject
 :
 :
@@ -1325,10 +1325,7 @@ JSPROP_PERMANENT
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 unsigned
 attrs
@@ -1359,10 +1356,7 @@ attrs
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 if
 (
@@ -1386,10 +1380,7 @@ attrs
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 if
 (
@@ -1413,10 +1404,7 @@ attrs
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 if
 (
@@ -1440,10 +1428,7 @@ attrs
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
 return
 self

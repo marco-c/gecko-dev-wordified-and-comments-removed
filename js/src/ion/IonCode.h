@@ -1298,7 +1298,7 @@ return
 safepointsSize_
 ;
 }
-UnrootedScript
+RawScript
 getScript
 (
 size_t

@@ -115,7 +115,7 @@ AliasedFormalIter
 js
 :
 :
-UnrootedScript
+RawScript
 script
 )
 :
@@ -788,7 +788,7 @@ writeBarrierPre
 js
 :
 :
-UnrootedScript
+RawScript
 script
 )
 {
@@ -843,7 +843,7 @@ isHeapBusy
 js
 :
 :
-UnrootedScript
+RawScript
 tmp
 =
 script
@@ -886,7 +886,7 @@ writeBarrierPost
 js
 :
 :
-UnrootedScript
+RawScript
 script
 void
 *

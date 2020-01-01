@@ -119,7 +119,7 @@ addr
 jsbytecode
 *
 pc
-UnrootedScript
+RawScript
 script
 )
 {

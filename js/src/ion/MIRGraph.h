@@ -2288,7 +2288,7 @@ osrStart_
 bool
 addScript
 (
-UnrootedScript
+RawScript
 script
 )
 {

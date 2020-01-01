@@ -2655,7 +2655,7 @@ cx
 rootedFun
 )
 ;
-UnrootedScript
+RawScript
 script
 =
 rootedFun

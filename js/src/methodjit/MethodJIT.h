@@ -3641,7 +3641,7 @@ false
 #
 endif
 }
-UnrootedShape
+RawShape
 GetPICSingleShape
 (
 JSContext

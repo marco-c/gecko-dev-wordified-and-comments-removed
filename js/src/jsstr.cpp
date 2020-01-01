@@ -13958,7 +13958,7 @@ hasScript
 return
 NULL
 ;
-UnrootedScript
+RawScript
 script
 =
 fun
@@ -18562,7 +18562,7 @@ str_fromCharCode
 JS_FS_END
 }
 ;
-UnrootedShape
+RawShape
 StringObject
 :
 :
@@ -22884,7 +22884,7 @@ MutableHandleValue
 rval
 )
 {
-UnrootedString
+RawString
 str
 =
 sb

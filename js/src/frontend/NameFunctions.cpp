@@ -1031,7 +1031,7 @@ empty
 return
 NULL
 ;
-UnrootedAtom
+RawAtom
 atom
 =
 buf

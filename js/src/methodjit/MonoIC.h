@@ -432,7 +432,7 @@ patchInlineShapeGuard
 Repatcher
 &
 repatcher
-UnrootedShape
+RawShape
 shape
 )
 ;

@@ -708,7 +708,7 @@ StackBaseShape
 :
 StackBaseShape
 (
-UnrootedShape
+RawShape
 shape
 )
 :
@@ -874,7 +874,7 @@ BaseShape
 :
 adoptUnowned
 (
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 other
 )
 {
@@ -937,7 +937,7 @@ BaseShape
 :
 setOwned
 (
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 unowned
 )
 {
@@ -973,7 +973,7 @@ isOwned
 )
 )
 {
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 unowned
 =
 baseUnowned
@@ -1157,7 +1157,7 @@ Shape
 :
 Shape
 (
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 base
 uint32_t
 nfixed
@@ -1301,7 +1301,7 @@ Shape
 matches
 (
 const
-UnrootedShape
+RawShape
 other
 )
 const
@@ -1407,7 +1407,7 @@ Shape
 :
 matchesParamsAfterId
 (
-UnrootedBaseShape
+RawBaseShape
 base
 uint32_t
 aslot
@@ -1878,7 +1878,7 @@ Shape
 :
 setParent
 (
-UnrootedShape
+RawShape
 p
 )
 {
@@ -2199,7 +2199,7 @@ EmptyShape
 :
 EmptyShape
 (
-UnrootedUnownedBaseShape
+RawUnownedBaseShape
 base
 uint32_t
 nfixed
@@ -2239,7 +2239,7 @@ Shape
 :
 writeBarrierPre
 (
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -2277,7 +2277,7 @@ needsBarrier
 )
 )
 {
-UnrootedShape
+RawShape
 tmp
 =
 shape
@@ -2332,7 +2332,7 @@ Shape
 :
 readBarrier
 (
-UnrootedShape
+RawShape
 shape
 )
 {
@@ -2363,7 +2363,7 @@ needsBarrier
 )
 )
 {
-UnrootedShape
+RawShape
 tmp
 =
 shape

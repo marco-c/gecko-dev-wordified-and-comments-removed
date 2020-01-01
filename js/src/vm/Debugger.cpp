@@ -6385,7 +6385,7 @@ stepperCount
 =
 0
 ;
-UnrootedScript
+RawScript
 trappingScript
 =
 iter
@@ -6394,11 +6394,8 @@ script
 (
 )
 ;
-Unrooted
-<
 GlobalObject
 *
->
 global
 =
 cx
@@ -19827,7 +19824,7 @@ iter
 AutoAssertNoGC
 nogc
 ;
-UnrootedScript
+RawScript
 script
 =
 iter
