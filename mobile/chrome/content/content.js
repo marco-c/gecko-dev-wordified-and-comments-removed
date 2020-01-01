@@ -4778,12 +4778,6 @@ state
 }
 }
 ;
-ContextHandler
-.
-init
-(
-)
-;
 var
 FormSubmitObserver
 =
