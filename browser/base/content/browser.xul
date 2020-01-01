@@ -7534,6 +7534,13 @@ id
 "
 TabsToolbar
 "
+class
+=
+"
+toolbar
+-
+primary
+"
 fullscreentoolbar
 =
 "
