@@ -64309,7 +64309,8 @@ argc
 0
 &
 &
-JSVAL_IS_PRIMITIVE
+!
+JSVAL_IS_OBJECT
 (
 vp
 [
