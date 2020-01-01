@@ -504,10 +504,9 @@ cachedHasSSSE3
 {
 #
 if
-!
 defined
 (
-SK_BUILD_FOR_ANDROID
+SK_BUILD_SSSE3
 )
 if
 (

@@ -176,3 +176,16 @@ clang
 build
 .
 patch
+0012
+-
+Bug
+-
+759683
+-
+make
+-
+ssse3
+-
+conditional
+.
+patch
