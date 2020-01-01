@@ -14023,11 +14023,8 @@ script
 regs
 .
 pc
+&
 rval
-.
-address
-(
-)
 )
 )
 goto
