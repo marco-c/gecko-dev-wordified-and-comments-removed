@@ -245,9 +245,6 @@ mTransform
 bool
 mReading
 ;
-bool
-mInvertedCMYK
-;
 PRUint32
 mCMSMode
 ;
