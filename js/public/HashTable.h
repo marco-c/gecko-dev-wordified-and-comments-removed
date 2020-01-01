@@ -24,10 +24,6 @@ js
 class
 TempAllocPolicy
 ;
-typedef
-uint32_t
-HashNumber
-;
 namespace
 detail
 {
@@ -1330,13 +1326,6 @@ sInvMaxAlpha
 static
 const
 HashNumber
-sGoldenRatio
-=
-0x9E3779B9U
-;
-static
-const
-HashNumber
 sFreeKey
 =
 Entry
@@ -1445,6 +1434,8 @@ l
 HashNumber
 keyHash
 =
+ScrambleHashCode
+(
 HashPolicy
 :
 :
@@ -1452,11 +1443,7 @@ hash
 (
 l
 )
-;
-keyHash
-*
-=
-sGoldenRatio
+)
 ;
 if
 (
