@@ -75,6 +75,9 @@ MmsMessage
 (
 int32_t
 aId
+const
+uint64_t
+aThreadId
 mobilemessage
 :
 :
@@ -131,6 +134,9 @@ Create
 (
 int32_t
 aId
+const
+uint64_t
+aThreadId
 const
 nsAString
 &
@@ -190,6 +196,9 @@ private
 :
 int32_t
 mId
+;
+uint64_t
+mThreadId
 ;
 mobilemessage
 :

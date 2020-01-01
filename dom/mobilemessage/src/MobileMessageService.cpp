@@ -115,6 +115,8 @@ CreateSmsMessage
 (
 int32_t
 aId
+uint64_t
+aThreadId
 const
 nsAString
 &
@@ -165,6 +167,7 @@ SmsMessage
 Create
 (
 aId
+aThreadId
 aDelivery
 aDeliveryStatus
 aSender
@@ -186,6 +189,8 @@ CreateMmsMessage
 (
 int32_t
 aId
+uint64_t
+aThreadId
 const
 nsAString
 &
@@ -248,6 +253,7 @@ MmsMessage
 Create
 (
 aId
+aThreadId
 aDelivery
 aDeliveryStatus
 aSender
