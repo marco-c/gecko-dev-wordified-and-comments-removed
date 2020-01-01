@@ -7049,7 +7049,7 @@ SHOULD_SEND_VIDEO
 TEST_F
 (
 SignalingTest
-CreateOfferRemoveAudioStream
+DISABLED_CreateOfferRemoveAudioStream
 )
 {
 sipcc
@@ -7096,7 +7096,7 @@ SHOULD_SENDRECV_VIDEO
 TEST_F
 (
 SignalingTest
-CreateOfferDontReceiveAudioRemoveAudioStream
+DISABLED_CreateOfferDontReceiveAudioRemoveAudioStream
 )
 {
 sipcc
@@ -7141,7 +7141,7 @@ SHOULD_SENDRECV_VIDEO
 TEST_F
 (
 SignalingTest
-CreateOfferDontReceiveVideoRemoveVideoStream
+DISABLED_CreateOfferDontReceiveVideoRemoveVideoStream
 )
 {
 sipcc
