@@ -1920,7 +1920,6 @@ rasdlg
 iphlpapi
 uxtheme
 setupapi
-t2embed
 secur32
 )
 ifdef
@@ -2007,13 +2006,6 @@ DELAYLOAD
 winspool
 .
 drv
-\
--
-DELAYLOAD
-:
-t2embed
-.
-dll
 \
 -
 DELAYLOAD
