@@ -153,6 +153,16 @@ nsICMSSecureMessage
 idl
 '
 '
+nsICRLInfo
+.
+idl
+'
+'
+nsICRLManager
+.
+idl
+'
+'
 nsICertOverrideService
 .
 idl

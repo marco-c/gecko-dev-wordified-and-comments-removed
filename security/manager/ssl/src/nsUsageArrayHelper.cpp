@@ -59,13 +59,6 @@ h
 #
 include
 "
-nsServiceManagerUtils
-.
-h
-"
-#
-include
-"
 nspr
 .
 h

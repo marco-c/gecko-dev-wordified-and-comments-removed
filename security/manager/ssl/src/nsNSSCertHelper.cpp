@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsNSSCertValidity
 .
 h
@@ -93,13 +86,6 @@ h
 include
 "
 nsDateTimeFormatCID
-.
-h
-"
-#
-include
-"
-nsServiceManagerUtils
 .
 h
 "
