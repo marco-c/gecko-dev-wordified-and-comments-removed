@@ -43,12 +43,6 @@ maxp
 .
 h
 "
-#
-define
-TABLE_NAME
-"
-GPOS
-"
 namespace
 {
 enum
@@ -3390,7 +3384,6 @@ DROP_THIS_TABLE
 \
 do
 {
-\
 file
 -
 >
@@ -3401,7 +3394,6 @@ data
 =
 0
 ;
-\
 file
 -
 >
@@ -3412,18 +3404,6 @@ length
 =
 0
 ;
-\
-OTS_FAILURE_MSG
-(
-"
-OpenType
-layout
-data
-discarded
-"
-)
-;
-\
 }
 while
 (
