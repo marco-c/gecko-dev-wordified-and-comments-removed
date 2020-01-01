@@ -155,7 +155,6 @@ CHECK
 JS_IsArrayBufferObject
 (
 buffer
-cx
 )
 )
 ;
@@ -182,7 +181,6 @@ CHECK
 JS_IsArrayBufferObject
 (
 proto
-cx
 )
 )
 ;
@@ -202,7 +200,6 @@ CHECK
 JS_IsArrayBufferObject
 (
 dummy
-cx
 )
 )
 ;
@@ -211,7 +208,6 @@ CHECK_EQUAL
 JS_GetArrayBufferByteLength
 (
 buffer
-cx
 )
 nbytes
 )
@@ -221,7 +217,6 @@ memset
 JS_GetArrayBufferData
 (
 buffer
-cx
 )
 1
 nbytes
@@ -361,8 +356,6 @@ GetData
 (
 JSObject
 *
-JSContext
-*
 )
 >
 bool
@@ -389,7 +382,6 @@ CHECK
 JS_IsTypedArrayObject
 (
 array
-cx
 )
 )
 ;
@@ -416,7 +408,6 @@ CHECK
 JS_IsTypedArrayObject
 (
 proto
-cx
 )
 )
 ;
@@ -436,7 +427,6 @@ CHECK
 JS_IsTypedArrayObject
 (
 dummy
-cx
 )
 )
 ;
@@ -445,7 +435,6 @@ CHECK_EQUAL
 JS_GetTypedArrayLength
 (
 array
-cx
 )
 7
 )
@@ -455,7 +444,6 @@ CHECK_EQUAL
 JS_GetTypedArrayByteOffset
 (
 array
-cx
 )
 0
 )
@@ -465,7 +453,6 @@ CHECK_EQUAL
 JS_GetTypedArrayByteLength
 (
 array
-cx
 )
 sizeof
 (
@@ -486,7 +473,6 @@ data
 GetData
 (
 array
-cx
 )
 )
 ;
@@ -553,8 +539,6 @@ GetData
 (
 JSObject
 *
-JSContext
-*
 )
 >
 bool
@@ -602,7 +586,6 @@ bufdata
 JS_GetArrayBufferData
 (
 buffer
-cx
 )
 )
 ;
@@ -632,7 +615,6 @@ CHECK_EQUAL
 JS_GetTypedArrayLength
 (
 array
-cx
 )
 elts
 )
@@ -642,7 +624,6 @@ CHECK_EQUAL
 JS_GetTypedArrayByteOffset
 (
 array
-cx
 )
 0
 )
@@ -652,7 +633,6 @@ CHECK_EQUAL
 JS_GetTypedArrayByteLength
 (
 array
-cx
 )
 nbytes
 )
@@ -662,7 +642,6 @@ CHECK_EQUAL
 JS_GetArrayBufferViewBuffer
 (
 array
-cx
 )
 (
 JSObject
@@ -682,7 +661,6 @@ data
 GetData
 (
 array
-cx
 )
 )
 ;
@@ -693,7 +671,6 @@ bufdata
 JS_GetArrayBufferData
 (
 buffer
-cx
 )
 )
 ;
@@ -752,7 +729,6 @@ CHECK_EQUAL
 JS_GetTypedArrayLength
 (
 shortArray
-cx
 )
 elts
 /
@@ -764,7 +740,6 @@ CHECK_EQUAL
 JS_GetTypedArrayByteOffset
 (
 shortArray
-cx
 )
 0
 )
@@ -774,7 +749,6 @@ CHECK_EQUAL
 JS_GetTypedArrayByteLength
 (
 shortArray
-cx
 )
 nbytes
 /
@@ -802,7 +776,6 @@ CHECK_EQUAL
 JS_GetTypedArrayLength
 (
 ofsArray
-cx
 )
 elts
 /
@@ -814,7 +787,6 @@ CHECK_EQUAL
 JS_GetTypedArrayByteOffset
 (
 ofsArray
-cx
 )
 nbytes
 /
@@ -826,7 +798,6 @@ CHECK_EQUAL
 JS_GetTypedArrayByteLength
 (
 ofsArray
-cx
 )
 nbytes
 /

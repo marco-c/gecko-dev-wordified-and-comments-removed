@@ -285,7 +285,6 @@ memcpy
 JS_GetFloat32ArrayData
 (
 mCachedArray
-aCx
 )
 mFrameBuffer
 .
