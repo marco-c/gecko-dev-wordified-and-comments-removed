@@ -511,6 +511,7 @@ shell32
 imm32
 shlwapi
 winspool
+msimg32
 )
 else
 OS_LIBS
