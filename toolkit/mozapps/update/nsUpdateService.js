@@ -3619,6 +3619,11 @@ if
 Services
 .
 metro
+&
+&
+Services
+.
+metro
 .
 immersive
 )
@@ -9122,6 +9127,9 @@ if
 this
 .
 canCheckForUpdates
+&
+&
+gMetroUpdatesEnabled
 )
 {
 LOG
