@@ -549,6 +549,10 @@ browser_bug_862916_console_dir_and_filter_off
 .
 js
 \
+browser_console_native_getters
+.
+js
+\
 head
 .
 js

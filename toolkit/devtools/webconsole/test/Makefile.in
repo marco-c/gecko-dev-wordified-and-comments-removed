@@ -125,6 +125,10 @@ test_bug819670_getter_throws
 .
 html
 \
+test_object_actor_native_getters
+.
+html
+\
 network_requests_iframe
 .
 html
