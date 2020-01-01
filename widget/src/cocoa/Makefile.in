@@ -834,11 +834,6 @@ GFX_CPPSRCS
 srcdir
 )
 /
-.
-.
-/
-mac
-/
 (
 RES_SRC
 )
