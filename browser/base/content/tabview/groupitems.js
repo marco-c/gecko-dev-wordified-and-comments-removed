@@ -11111,11 +11111,8 @@ if
 tab
 .
 _tabViewTabItem
-)
-{
-if
-(
-!
+&
+&
 tab
 .
 _tabViewTabItem
@@ -11141,7 +11138,6 @@ _tabViewTabItem
 .
 parent
 ;
-}
 }
 return
 true
