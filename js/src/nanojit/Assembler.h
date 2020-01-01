@@ -601,6 +601,16 @@ arReset
 Register
 registerAlloc
 (
+LIns
+*
+ins
+RegisterMask
+allow
+)
+;
+Register
+registerAllocTmp
+(
 RegisterMask
 allow
 )
