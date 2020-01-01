@@ -20548,12 +20548,6 @@ isYield
 next
 =
 =
-TOK_YIELD
-|
-|
-next
-=
-=
 TOK_RB
 |
 |
