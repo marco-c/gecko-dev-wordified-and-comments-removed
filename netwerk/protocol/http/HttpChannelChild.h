@@ -568,7 +568,10 @@ mIPCOpen
 bool
 mKeptAlive
 ;
+nsRefPtr
+<
 ChannelEventQueue
+>
 mEventQ
 ;
 bool
@@ -755,11 +758,6 @@ Redirect3Complete
 ;
 void
 DeleteSelf
-(
-)
-;
-void
-CompleteResume
 (
 )
 ;

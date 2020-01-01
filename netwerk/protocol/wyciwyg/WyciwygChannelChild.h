@@ -333,7 +333,10 @@ mIPCOpen
 bool
 mSentAppData
 ;
+nsRefPtr
+<
 ChannelEventQueue
+>
 mEventQ
 ;
 friend
