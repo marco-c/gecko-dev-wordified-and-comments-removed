@@ -450,7 +450,7 @@ radio
 [
 pane
 =
-paneFeeds
+paneApplications
 ]
 {
 -
@@ -473,7 +473,7 @@ radio
 [
 pane
 =
-paneFeeds
+paneApplications
 ]
 :
 hover
@@ -481,7 +481,7 @@ radio
 [
 pane
 =
-paneFeeds
+paneApplications
 ]
 :
 active
@@ -489,7 +489,7 @@ radio
 [
 pane
 =
-paneFeeds
+paneApplications
 ]
 [
 selected
@@ -1153,18 +1153,5 @@ margin
 start
 :
 10px
-;
-}
-#
-chooseClientAppCell
-{
--
-moz
--
-padding
--
-end
-:
-12px
 ;
 }
