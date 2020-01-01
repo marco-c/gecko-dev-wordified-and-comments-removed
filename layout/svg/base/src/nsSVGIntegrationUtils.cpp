@@ -2463,6 +2463,14 @@ aTarget
 overrideBounds
 )
 ;
+if
+(
+!
+pattern
+)
+return
+nsnull
+;
 gfxFloat
 scaleX
 =
@@ -2701,6 +2709,11 @@ aPaintServerSize
 imageSize
 )
 ;
+if
+(
+drawable
+)
+{
 nsLayoutUtils
 :
 :
@@ -2715,4 +2728,5 @@ aAnchor
 aDirty
 )
 ;
+}
 }
