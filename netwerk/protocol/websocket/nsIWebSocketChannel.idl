@@ -942,7 +942,7 @@ how
 often
 (
 in
-milliseconds
+seconds
 )
 websocket
 keepalive
@@ -1023,7 +1023,7 @@ how
 long
 (
 in
-milliseconds
+seconds
 )
 the
 websocket
@@ -1041,6 +1041,12 @@ that
 has
 been
 sent
+before
+considering
+the
+*
+connection
+broken
 .
 *
 *
