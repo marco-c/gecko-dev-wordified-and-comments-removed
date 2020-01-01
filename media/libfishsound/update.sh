@@ -711,15 +711,8 @@ AUTHORS
 AUTHORS
 patch
 -
-p4
-<
-endian
-.
-patch
-patch
--
 p3
 <
-bug481601
+endian
 .
 patch
