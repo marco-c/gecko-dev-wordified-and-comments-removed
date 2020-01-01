@@ -3316,13 +3316,6 @@ X11
 /
 extensions
 /
-XIElib
-.
-h
-X11
-/
-extensions
-/
 XShm
 .
 h
