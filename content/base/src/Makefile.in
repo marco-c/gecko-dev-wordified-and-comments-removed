@@ -538,6 +538,10 @@ nsCrossSiteListenerProxy
 .
 cpp
 \
+nsCSPService
+.
+cpp
+\
 nsDataDocumentContentPolicy
 .
 cpp
