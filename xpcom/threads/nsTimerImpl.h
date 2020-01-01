@@ -318,6 +318,12 @@ o
 }
 mCallback
 ;
+nsCOMPtr
+<
+nsITimerCallback
+>
+mTimerCallbackWhileFiring
+;
 PRUint8
 mCallbackType
 ;
