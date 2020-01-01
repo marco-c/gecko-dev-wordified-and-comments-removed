@@ -5187,8 +5187,6 @@ bad
 }
 else
 {
-have_fun
-:
 fun
 =
 GET_FUNCTION_PRIVATE
