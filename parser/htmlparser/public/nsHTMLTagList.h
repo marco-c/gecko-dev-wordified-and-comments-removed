@@ -383,6 +383,11 @@ Option
 )
 HTML_TAG
 (
+output
+Output
+)
+HTML_TAG
+(
 p
 Paragraph
 )
