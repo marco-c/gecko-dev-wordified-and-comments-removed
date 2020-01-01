@@ -5719,10 +5719,6 @@ mComputedMargin
 top
 =
 availMarginSpace
--
-mComputedMargin
-.
-bottom
 ;
 }
 }
@@ -5733,10 +5729,6 @@ mComputedMargin
 bottom
 =
 availMarginSpace
--
-mComputedMargin
-.
-top
 ;
 }
 }
