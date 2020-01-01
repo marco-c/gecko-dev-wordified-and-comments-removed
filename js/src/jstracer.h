@@ -21,6 +21,9 @@ h
 struct
 JSTraceMonitor
 {
+int
+freq
+;
 JSObject
 *
 recorder
@@ -29,8 +32,8 @@ recorder
 ;
 #
 define
-TRACE_THRESHOLD
-10
+TRACE_TRIGGER_MASK
+0x3f
 jsval
 js_CallRecorder
 (
