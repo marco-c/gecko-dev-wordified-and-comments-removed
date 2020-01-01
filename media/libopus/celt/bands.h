@@ -292,8 +292,6 @@ LM
 int
 C
 int
-CC
-int
 size
 int
 start

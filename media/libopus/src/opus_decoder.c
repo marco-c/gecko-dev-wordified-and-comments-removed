@@ -2960,8 +2960,7 @@ size
 ;
 break
 ;
-case
-3
+default
 :
 if
 (
