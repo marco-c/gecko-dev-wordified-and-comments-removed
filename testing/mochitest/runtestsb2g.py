@@ -57,6 +57,14 @@ insert
 here
 )
 from
+b2gautomation
+import
+B2GDesktopAutomation
+from
+runtests
+import
+Mochitest
+from
 runtests
 import
 MochitestUtilsMixin
@@ -86,7 +94,6 @@ mozprofile
 import
 Profile
 Preferences
-DEFAULT_PORTS
 from
 mozrunner
 import
@@ -1578,6 +1585,7 @@ class
 B2GDesktopMochitest
 (
 B2GMochitest
+Mochitest
 )
 :
     
@@ -1585,6 +1593,7 @@ def
 __init__
 (
 self
+automation
 marionette
 profile_data_dir
 )
@@ -1595,12 +1604,21 @@ B2GMochitest
 __init__
 (
 self
+marionette
 out_of_process
 =
 False
 profile_data_dir
 =
 profile_data_dir
+)
+        
+Mochitest
+.
+__init__
+(
+self
+automation
 )
     
 def
@@ -1609,6 +1627,7 @@ runMarionetteScript
 self
 marionette
 test_script
+test_script_args
 )
 :
         
@@ -1636,11 +1655,52 @@ marionette
 CONTEXT_CHROME
 )
         
+if
+os
+.
+path
+.
+isfile
+(
+test_script
+)
+:
+            
+f
+=
+open
+(
+test_script
+'
+r
+'
+)
+            
+test_script
+=
+f
+.
+read
+(
+)
+            
+f
+.
+close
+(
+)
+        
+self
+.
 marionette
 .
 execute_script
 (
 test_script
+                                       
+script_args
+=
+test_script_args
 )
     
 def
@@ -1672,6 +1732,10 @@ marionette
 self
 .
 test_script
+                                        
+self
+.
+test_script_args
 )
 )
         
@@ -1811,6 +1875,22 @@ filename
         
 return
 retVal
+    
+def
+buildProfile
+(
+self
+options
+)
+:
+        
+return
+self
+.
+build_profile
+(
+options
+)
 def
 run_remote_mochitests
 (
@@ -2257,6 +2337,12 @@ options
 )
 :
     
+automation
+=
+B2GDesktopAutomation
+(
+)
+    
 kwargs
 =
 {
@@ -2314,10 +2400,17 @@ getMarionetteOrExit
 kwargs
 )
     
+automation
+.
+marionette
+=
+marionette
+    
 mochitest
 =
 B2GDesktopMochitest
 (
+automation
 marionette
 options
 .
@@ -2405,6 +2498,27 @@ specifying
 -
 desktop
 "
+)
+    
+automation
+.
+setServerInfo
+(
+options
+.
+webServer
+                             
+options
+.
+httpPort
+                             
+options
+.
+sslPort
+                             
+options
+.
+webSocketPort
 )
     
 sys
