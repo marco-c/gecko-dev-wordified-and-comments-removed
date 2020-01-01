@@ -910,11 +910,6 @@ PRInt32
 aHeight
 )
 ;
-nsresult
-PrePopulateIdentifierMap
-(
-)
-;
 nsIContent
 *
 MatchId
