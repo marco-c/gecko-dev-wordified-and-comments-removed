@@ -1365,6 +1365,9 @@ aMetric
 break
 ;
 case
+eMetric_DWMCompositor
+:
+case
 eMetric_WindowsDefaultTheme
 :
 aMetric

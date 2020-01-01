@@ -1094,8 +1094,8 @@ aSides
 )
 ;
 static
-PRBool
-FrameHasTransparency
+nsTransparencyMode
+GetFrameTransparency
 (
 nsIFrame
 *

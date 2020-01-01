@@ -5776,7 +5776,11 @@ HasWidget
 (
 )
 )
-{
+widgetIsTransparent
+=
+eTransparencyOpaque
+!
+=
 rootView
 -
 >
@@ -5785,12 +5789,10 @@ GetWidget
 )
 -
 >
-GetHasTransparentBackground
+GetTransparencyMode
 (
-widgetIsTransparent
 )
 ;
-}
 if
 (
 !

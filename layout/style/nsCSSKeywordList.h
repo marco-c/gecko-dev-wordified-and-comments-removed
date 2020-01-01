@@ -3329,6 +3329,16 @@ win
 communicationstext
 _moz_win_communicationstext
 )
+CSS_KEY
+(
+-
+moz
+-
+win
+-
+glass
+_moz_win_glass
+)
 #
 ifdef
 MOZ_SVG
