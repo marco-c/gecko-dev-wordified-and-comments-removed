@@ -1154,10 +1154,6 @@ jsgcstats
 .
 h
 \
-jscompartment
-.
-h
-\
 jshash
 .
 h
