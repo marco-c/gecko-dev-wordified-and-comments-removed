@@ -2655,6 +2655,10 @@ start
 "
 )
 ;
+mInitialized
+=
+PR_FALSE
+;
 #
 ifdef
 PR_LOGGING
