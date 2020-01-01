@@ -262,6 +262,16 @@ SetNextSibling
 second
 )
 ;
+aTexture
+-
+>
+SetCompositableQuirks
+(
+GetCompositableQuirks
+(
+)
+)
+;
 }
 void
 CompositableHost
