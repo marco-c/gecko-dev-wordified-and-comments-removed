@@ -1799,6 +1799,11 @@ JSString
 *
 str
 )
+:
+mUsedFlags
+(
+0
+)
 {
 mStr
 =
@@ -1877,9 +1882,13 @@ ropeLeft
 (
 )
 ;
+JS_ASSERT
+(
 mUsedFlags
 =
+=
 0
+)
 ;
 return
 mStr
