@@ -18319,16 +18319,7 @@ FastGetGlobalJSObject
 )
 ;
 return
-win
--
->
-IsChromeWindow
-(
-)
-?
 NS_OK
-:
-NS_SUCCESS_NEEDS_XOW
 ;
 }
 JSObject
