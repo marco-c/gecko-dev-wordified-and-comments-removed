@@ -1624,8 +1624,6 @@ colorStr
 {
 if
 (
-NS_SUCCEEDED
-(
 NS_HexToRGB
 (
 NS_ConvertASCIItoUTF16
@@ -1645,7 +1643,6 @@ Length
 )
 &
 thecolor
-)
 )
 )
 {
@@ -1668,8 +1665,6 @@ thecolor
 else
 if
 (
-NS_SUCCEEDED
-(
 NS_ColorNameToRGB
 (
 NS_ConvertASCIItoUTF16
@@ -1678,7 +1673,6 @@ colorStr
 )
 &
 thecolor
-)
 )
 )
 {
@@ -1969,14 +1963,11 @@ Length
 ;
 if
 (
-NS_SUCCEEDED
-(
 NS_HexToRGB
 (
 hexString
 &
 thecolor
-)
 )
 )
 {
@@ -1991,14 +1982,11 @@ thecolor
 else
 if
 (
-NS_SUCCEEDED
-(
 NS_ColorNameToRGB
 (
 colorNSStr
 &
 thecolor
-)
 )
 )
 {
