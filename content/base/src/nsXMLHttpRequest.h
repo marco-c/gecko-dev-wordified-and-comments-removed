@@ -597,7 +597,7 @@ JSContext
 aCx
 )
 ;
-void
+bool
 CreateResponseBlob
 (
 nsIRequest
