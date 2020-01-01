@@ -202,6 +202,13 @@ aMatch
 )
 ;
 nsresult
+RemoveTimeRange
+(
+PRInt64
+aSince
+)
+;
+nsresult
 RemoveAll
 (
 )
@@ -315,6 +322,12 @@ nsCOMPtr
 mozIStorageStatement
 >
 mRemoveStorageStatement
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
+mRemoveTimeRangeStatement
 ;
 nsCOMPtr
 <
