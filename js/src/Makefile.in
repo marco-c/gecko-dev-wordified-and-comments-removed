@@ -899,6 +899,10 @@ jsparse
 .
 cpp
 \
+jsproxy
+.
+cpp
+\
 jsprf
 .
 cpp
@@ -1110,6 +1114,10 @@ jsotypes
 h
 \
 jsparse
+.
+h
+\
+jsproxy
 .
 h
 \

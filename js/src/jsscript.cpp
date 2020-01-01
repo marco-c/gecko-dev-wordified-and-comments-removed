@@ -153,6 +153,13 @@ endif
 #
 include
 "
+jsobjinlines
+.
+h
+"
+#
+include
+"
 jsscriptinlines
 .
 h

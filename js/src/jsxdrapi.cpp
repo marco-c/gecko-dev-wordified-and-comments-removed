@@ -100,6 +100,13 @@ jsxdrapi
 h
 "
 #
+include
+"
+jsobjinlines
+.
+h
+"
+#
 ifdef
 DEBUG
 #
