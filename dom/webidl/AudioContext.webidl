@@ -172,6 +172,8 @@ PrefControlled
 ]
 interface
 AudioContext
+:
+EventTarget
 {
 readonly
 attribute
