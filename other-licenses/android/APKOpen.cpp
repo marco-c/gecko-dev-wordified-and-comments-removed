@@ -1061,6 +1061,10 @@ SHELL_WRAPPER0
 (
 onLowMemory
 )
+SHELL_WRAPPER0
+(
+onCriticalOOM
+)
 SHELL_WRAPPER3
 (
 callObserver
@@ -3793,6 +3797,11 @@ onResume
 GETFUNC
 (
 onLowMemory
+)
+;
+GETFUNC
+(
+onCriticalOOM
 )
 ;
 GETFUNC
