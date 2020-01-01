@@ -148,6 +148,13 @@ nsHtml5AttributeName
 .
 h
 "
+#
+include
+"
+nsHtml5ReleasableAttributeName
+.
+h
+"
 nsIAtom
 *
 *
@@ -409,7 +416,7 @@ return
 nsHtml5AttributeName
 :
 :
-create
+createAttributeName
 (
 nsHtml5Portability
 :
@@ -468,7 +475,7 @@ return
 nsHtml5AttributeName
 :
 :
-create
+createAttributeName
 (
 nsHtml5Portability
 :
@@ -632,7 +639,7 @@ nsHtml5AttributeName
 nsHtml5AttributeName
 :
 :
-create
+createAttributeName
 (
 nsIAtom
 *
@@ -641,7 +648,7 @@ name
 {
 return
 new
-nsHtml5AttributeName
+nsHtml5ReleasableAttributeName
 (
 nsHtml5AttributeName
 :
@@ -667,11 +674,11 @@ release
 )
 {
 }
-void
 nsHtml5AttributeName
 :
 :
-destructor
+~
+nsHtml5AttributeName
 (
 )
 {

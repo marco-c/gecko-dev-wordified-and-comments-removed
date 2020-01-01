@@ -518,9 +518,6 @@ nsHtml5AttributeName
 attributeName
 ;
 PRBool
-shouldAddAttributes
-;
-PRBool
 html4
 ;
 PRBool
@@ -573,8 +570,8 @@ nsString
 newSystemId
 )
 ;
-void
-destructor
+~
+nsHtml5Tokenizer
 (
 )
 ;
@@ -693,7 +690,7 @@ strBufToString
 ;
 nsIAtom
 *
-strBufToLocal
+strBufToDoctypeName
 (
 )
 ;
@@ -914,6 +911,11 @@ eof
 ;
 private
 :
+void
+emitDoctypeToken
+(
+)
+;
 PRUnichar
 read
 (

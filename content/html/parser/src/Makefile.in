@@ -516,6 +516,14 @@ nsHtml5Module
 .
 cpp
 \
+nsHtml5ReleasableAttributeName
+.
+cpp
+\
+nsHtml5ReleasableElementName
+.
+cpp
+\
 (
 NULL
 )

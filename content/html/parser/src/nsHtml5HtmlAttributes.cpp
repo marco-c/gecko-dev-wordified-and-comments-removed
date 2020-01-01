@@ -191,11 +191,11 @@ PRInt32
 )
 {
 }
-void
 nsHtml5HtmlAttributes
 :
 :
-destructor
+~
+nsHtml5HtmlAttributes
 (
 )
 {
