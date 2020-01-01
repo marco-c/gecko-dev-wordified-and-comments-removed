@@ -1713,6 +1713,14 @@ TypeSet
 other
 )
 ;
+bool
+intersectionEmpty
+(
+TypeSet
+*
+other
+)
+;
 inline
 StackTypeSet
 *
