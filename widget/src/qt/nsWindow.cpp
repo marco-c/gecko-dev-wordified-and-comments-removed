@@ -854,6 +854,15 @@ gfxASurface
 :
 ImageFormatRGB24
 ;
+case
+16
+:
+return
+gfxASurface
+:
+:
+ImageFormatRGB16
+;
 default
 :
 return
