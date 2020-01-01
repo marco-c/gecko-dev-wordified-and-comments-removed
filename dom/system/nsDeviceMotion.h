@@ -183,9 +183,6 @@ double
 z
 )
 ;
-PRUint32
-mUpdateInterval
-;
 bool
 mEnabled
 ;
