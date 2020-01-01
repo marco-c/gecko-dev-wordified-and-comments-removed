@@ -829,6 +829,11 @@ GetCols
 )
 ;
 PRInt32
+GetWrapCols
+(
+)
+;
+PRInt32
 GetRows
 (
 )
