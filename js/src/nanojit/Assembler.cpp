@@ -7276,16 +7276,6 @@ _nIns
 ;
 if
 (
-codeList
-)
-{
-codeList
-=
-codeList
-;
-}
-if
-(
 !
 codeList
 |
@@ -7312,6 +7302,9 @@ VMPI_getVMPageSize
 nopInsertTrigger
 -
 =
+(
+int32_t
+)
 delta
 ;
 if
