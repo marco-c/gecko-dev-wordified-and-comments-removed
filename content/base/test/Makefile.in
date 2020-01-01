@@ -2296,14 +2296,6 @@ test_bug656283
 .
 html
 \
-test_blobbuilder
-.
-html
-\
-fileutils
-.
-js
-\
 (
 NULL
 )

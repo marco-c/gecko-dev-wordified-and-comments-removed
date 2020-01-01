@@ -1183,10 +1183,6 @@ MozURLProperty
 )
 DOMCI_CLASS
 (
-MozBlobBuilder
-)
-DOMCI_CLASS
-(
 DOMStringMap
 )
 DOMCI_CLASS
@@ -1341,10 +1337,6 @@ WebGLUniformLocation
 DOMCI_CLASS
 (
 WebGLActiveInfo
-)
-DOMCI_CLASS
-(
-WebGLExtension
 )
 DOMCI_CLASS
 (
