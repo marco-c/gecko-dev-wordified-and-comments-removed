@@ -9,6 +9,10 @@ PTestArraysSub
 .
 ipdl
 \
+PTestBlockChild
+.
+ipdl
+\
 PTestCrashCleanup
 .
 ipdl
