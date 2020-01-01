@@ -147,7 +147,7 @@ parent
 docShellAsItem
 -
 >
-GetSameTypeParent
+GetParent
 (
 getter_AddRefs
 (
