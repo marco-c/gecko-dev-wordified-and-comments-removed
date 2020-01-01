@@ -5616,6 +5616,13 @@ aNode
 mWeakShell
 )
 ;
+if
+(
+!
+parent
+)
+return
+;
 }
 parent
 -
