@@ -532,6 +532,9 @@ mIsFileChannel
 PRUint32
 mReason
 ;
+PRBool
+mTempFileIsExecutable
+;
 PRTime
 mTimeDownloadStarted
 ;
