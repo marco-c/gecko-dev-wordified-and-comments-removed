@@ -39,6 +39,15 @@ nsWeakReference
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 gfxASurface
 ;
@@ -754,6 +763,7 @@ MOZ_OVERRIDE
 ;
 class
 PuppetScreenManager
+MOZ_FINAL
 :
 public
 nsIScreenManager
