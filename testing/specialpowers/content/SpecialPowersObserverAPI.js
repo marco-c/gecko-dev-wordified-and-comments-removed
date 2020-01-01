@@ -19,6 +19,13 @@ jsm
 "
 )
 ;
+const
+Ci
+=
+Components
+.
+interfaces
+;
 function
 SpecialPowersException
 (
