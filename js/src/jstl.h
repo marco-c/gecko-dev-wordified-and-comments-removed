@@ -403,8 +403,6 @@ const
 size_t
 result
 =
-~
-(
 (
 size_t
 (
@@ -416,7 +414,6 @@ N
 )
 -
 1
-)
 ;
 }
 ;
@@ -461,6 +458,7 @@ const
 size_t
 result
 =
+~
 NBitMask
 <
 BitSize
