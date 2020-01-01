@@ -24404,6 +24404,9 @@ AddStartMenuSC
 {
 EndIf
 }
+!
+ifndef
+NO_STARTMENU_DIR
 ReadINIStr
 R8
 R7
@@ -24429,6 +24432,8 @@ R8
 {
 EndIf
 }
+!
+endif
 {
 EndIf
 }
