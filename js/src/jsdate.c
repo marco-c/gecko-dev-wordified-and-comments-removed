@@ -4258,7 +4258,7 @@ dp
 }
 static
 JSBool
-GetLocalTime
+GetAndCacheLocalTime
 (
 JSContext
 *
@@ -4454,7 +4454,7 @@ result
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 JS_THIS_OBJECT
@@ -4630,7 +4630,7 @@ result
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 JS_THIS_OBJECT
@@ -4748,7 +4748,7 @@ result
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 JS_THIS_OBJECT
@@ -4866,7 +4866,7 @@ result
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 JS_THIS_OBJECT
@@ -4984,7 +4984,7 @@ result
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 JS_THIS_OBJECT
@@ -5102,7 +5102,7 @@ result
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 JS_THIS_OBJECT
@@ -5367,7 +5367,7 @@ JS_FALSE
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -9933,7 +9933,7 @@ localtime
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -9948,9 +9948,11 @@ JSDOUBLE_IS_NaN
 localtime
 )
 )
+{
 return
 0
 ;
+}
 return
 (
 int
@@ -9981,7 +9983,7 @@ localtime
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -9996,9 +9998,11 @@ JSDOUBLE_IS_NaN
 localtime
 )
 )
+{
 return
 0
 ;
+}
 return
 (
 int
@@ -10029,7 +10033,7 @@ localtime
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -10044,9 +10048,11 @@ JSDOUBLE_IS_NaN
 localtime
 )
 )
+{
 return
 0
 ;
+}
 return
 (
 int
@@ -10077,7 +10083,7 @@ localtime
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -10092,9 +10098,11 @@ JSDOUBLE_IS_NaN
 localtime
 )
 )
+{
 return
 0
 ;
+}
 return
 (
 int
@@ -10125,7 +10133,7 @@ localtime
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -10140,9 +10148,11 @@ JSDOUBLE_IS_NaN
 localtime
 )
 )
+{
 return
 0
 ;
+}
 return
 (
 int
@@ -10223,7 +10233,7 @@ local
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -10317,7 +10327,7 @@ month
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -10402,7 +10412,7 @@ local
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -10487,7 +10497,7 @@ local
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -10572,7 +10582,7 @@ local
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
@@ -10657,7 +10667,7 @@ local
 if
 (
 !
-GetLocalTime
+GetAndCacheLocalTime
 (
 cx
 obj
