@@ -331,6 +331,8 @@ aDeclaration
 PRBool
 *
 aChanged
+PRBool
+aIsImportant
 )
 ;
 NS_HIDDEN_

@@ -970,6 +970,8 @@ aDeclaration
 PRBool
 *
 aChanged
+PRBool
+aIsImportant
 )
 ;
 nsresult
@@ -4405,6 +4407,8 @@ aDeclaration
 PRBool
 *
 aChanged
+PRBool
+aIsImportant
 )
 {
 NS_PRECONDITION
@@ -4568,6 +4572,16 @@ void
 *
 valueSlot
 =
+nsnull
+;
+if
+(
+!
+aIsImportant
+)
+{
+valueSlot
+=
 aDeclaration
 -
 >
@@ -4576,6 +4590,7 @@ SlotForValue
 aPropID
 )
 ;
+}
 if
 (
 !
@@ -4649,7 +4664,7 @@ TransferTempData
 (
 aDeclaration
 aPropID
-PR_FALSE
+aIsImportant
 PR_FALSE
 aChanged
 )
@@ -40226,6 +40241,8 @@ aDeclaration
 PRBool
 *
 aChanged
+PRBool
+aIsImportant
 )
 {
 return
@@ -40248,6 +40265,7 @@ aBaseURI
 aSheetPrincipal
 aDeclaration
 aChanged
+aIsImportant
 )
 ;
 }

@@ -302,6 +302,8 @@ const
 nsAString
 &
 aPropValue
+PRBool
+aIsImportant
 )
 ;
 nsresult
