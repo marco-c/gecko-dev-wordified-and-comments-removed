@@ -145,7 +145,6 @@ resource
 :
 /
 /
-gre
 /
 modules
 /
@@ -999,9 +998,9 @@ return
 {
 type
 :
-Ci
+MigrationUtils
 .
-nsIBrowserProfileMigrator
+resourceTypes
 .
 BOOKMARKS
 migrate
@@ -1270,9 +1269,9 @@ return
 {
 type
 :
-Ci
+MigrationUtils
 .
-nsIBrowserProfileMigrator
+resourceTypes
 .
 HISTORY
 migrate
@@ -1604,9 +1603,9 @@ return
 {
 type
 :
-Ci
+MigrationUtils
 .
-nsIBrowserProfileMigrator
+resourceTypes
 .
 COOKIES
 migrate
