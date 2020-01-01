@@ -3600,14 +3600,6 @@ aMimeType
 ]
 )
 ;
-if
-(
-!
-conid
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 strcpy
 (
 conid
