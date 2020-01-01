@@ -8241,7 +8241,7 @@ SEC_ASN1Template
 *
 ocsp_ResponderIDTemplateByType
 (
-ocspResponderIDType
+CERTOCSPResponderIDType
 responderIDType
 )
 {
@@ -8667,14 +8667,14 @@ rv
 ;
 }
 static
-ocspResponderIDType
+CERTOCSPResponderIDType
 ocsp_ResponderIDTypeByTag
 (
 int
 derTag
 )
 {
-ocspResponderIDType
+CERTOCSPResponderIDType
 responderIDType
 ;
 switch
@@ -8742,7 +8742,7 @@ ocspResponderID
 *
 responderID
 ;
-ocspResponderIDType
+CERTOCSPResponderIDType
 responderIDType
 ;
 const

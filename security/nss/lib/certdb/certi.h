@@ -663,7 +663,6 @@ log
 CERTCertificate
 *
 cert
-unsigned
 long
 errorCode
 unsigned

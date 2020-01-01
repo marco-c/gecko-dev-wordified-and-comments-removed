@@ -757,6 +757,17 @@ DARWIN_SDK_SHLIBFLAGS
 DLL_SUFFIX
 =
 dylib
+ifdef
+MAPFILE
+MKSHLIB
++
+=
+-
+exported_symbols_list
+(
+MAPFILE
+)
+endif
 PROCESS_MAP_FILE
 =
 grep

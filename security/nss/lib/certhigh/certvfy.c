@@ -874,7 +874,6 @@ log
 CERTCertificate
 *
 cert
-unsigned
 long
 error
 unsigned
@@ -1226,9 +1225,13 @@ PORT_GetError
 (
 )
 depth
+\
 (
 void
 *
+)
+(
+PRWord
 )
 arg
 )
@@ -1270,9 +1273,13 @@ PORT_GetError
 (
 )
 depth
+\
 (
 void
 *
+)
+(
+PRWord
 )
 arg
 )
