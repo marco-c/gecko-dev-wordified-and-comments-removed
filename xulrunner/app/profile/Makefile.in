@@ -414,7 +414,6 @@ mk
 DIRS
 =
 chrome
-extensions
 include
 (
 topsrcdir
