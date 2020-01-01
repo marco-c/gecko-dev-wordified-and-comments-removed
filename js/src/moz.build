@@ -1275,7 +1275,7 @@ MoveResolver
 cpp
 '
 '
-ParallelArrayAnalysis
+ParallelSafetyAnalysis
 .
 cpp
 '

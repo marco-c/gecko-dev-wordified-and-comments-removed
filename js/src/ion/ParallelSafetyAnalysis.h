@@ -1,9 +1,9 @@
 #
 ifndef
-ion_ParallelArrayAnalysis_h
+ion_ParallelSafetyAnalysis_h
 #
 define
-ion_ParallelArrayAnalysis_h
+ion_ParallelSafetyAnalysis_h
 #
 include
 "
@@ -34,7 +34,7 @@ class
 AutoDestroyAllocator
 ;
 class
-ParallelArrayAnalysis
+ParallelSafetyAnalysis
 {
 MIRGenerator
 *
@@ -62,7 +62,7 @@ withDef
 ;
 public
 :
-ParallelArrayAnalysis
+ParallelSafetyAnalysis
 (
 MIRGenerator
 *
