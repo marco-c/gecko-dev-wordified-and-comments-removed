@@ -22,17 +22,6 @@ private
 .
 h
 "
-#
-include
-"
-cairo
--
-types
--
-private
-.
-h
-"
 struct
 _cairo_region
 {

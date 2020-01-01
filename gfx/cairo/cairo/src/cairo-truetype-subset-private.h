@@ -12,9 +12,6 @@ cairoint
 h
 "
 #
-if
-CAIRO_HAS_FONT_SUBSET
-#
 define
 MAKE_TT_TAG
 (
@@ -642,7 +639,5 @@ glyph
 }
 tt_glyph_data_t
 ;
-#
-endif
 #
 endif

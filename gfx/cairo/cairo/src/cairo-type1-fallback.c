@@ -9,9 +9,6 @@ cairoint
 h
 "
 #
-if
-CAIRO_HAS_FONT_SUBSET
-#
 include
 "
 cairo
@@ -4419,5 +4416,3 @@ widths
 )
 ;
 }
-#
-endif

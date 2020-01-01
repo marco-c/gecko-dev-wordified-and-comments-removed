@@ -63,16 +63,9 @@ Display
 *
 dpy
 ;
-cairo_xlib_display_t
-*
-display
-;
 cairo_xlib_screen_info_t
 *
 screen_info
-;
-cairo_xlib_hook_t
-close_display_hook
 ;
 GC
 gc

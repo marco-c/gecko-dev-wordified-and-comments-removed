@@ -4,18 +4,7 @@ CAIRO_COMPILER_PRIVATE_H
 #
 define
 CAIRO_COMPILER_PRIVATE_H
-#
-if
-HAVE_CONFIG_H
-#
-include
-"
-config
-.
-h
-"
-#
-endif
+CAIRO_BEGIN_DECLS
 #
 if
 __GNUC__
@@ -436,9 +425,6 @@ endif
 ifndef
 __GNUC__
 #
-undef
-__attribute__
-#
 define
 __attribute__
 (
@@ -497,5 +483,6 @@ inline
 __inline__
 #
 endif
+CAIRO_END_DECLS
 #
 endif

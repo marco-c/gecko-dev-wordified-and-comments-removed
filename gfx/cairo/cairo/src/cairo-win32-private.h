@@ -102,10 +102,6 @@ HBRUSH
 brush
 old_brush
 ;
-cairo_scaled_font_subsets_t
-*
-font_subsets
-;
 }
 cairo_win32_surface_t
 ;

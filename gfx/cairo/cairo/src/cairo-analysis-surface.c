@@ -2689,7 +2689,7 @@ surface
 abstract_surface
 ;
 return
-cairo_surface_has_show_text_glyphs
+_cairo_surface_has_show_text_glyphs
 (
 surface
 -

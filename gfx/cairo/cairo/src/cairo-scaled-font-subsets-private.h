@@ -11,9 +11,6 @@ cairoint
 .
 h
 "
-#
-if
-CAIRO_HAS_FONT_SUBSET
 typedef
 struct
 _cairo_scaled_font_subsets_glyph
@@ -265,7 +262,6 @@ double
 ascent
 descent
 ;
-unsigned
 char
 *
 data
@@ -348,9 +344,6 @@ trailer_length
 }
 cairo_type1_subset_t
 ;
-#
-if
-CAIRO_HAS_FT_FONT
 cairo_private
 cairo_status_t
 _cairo_type1_subset_init
@@ -378,8 +371,6 @@ cairo_type1_subset_t
 subset
 )
 ;
-#
-endif
 cairo_private
 cairo_bool_t
 _cairo_type1_scaled_font_is_type1
@@ -499,7 +490,5 @@ uint32_t
 ucs4
 )
 ;
-#
-endif
 #
 endif

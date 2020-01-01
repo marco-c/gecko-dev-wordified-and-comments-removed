@@ -834,12 +834,6 @@ c
 \
 cairo
 -
-version
-.
-c
-\
-cairo
--
 wideint
 .
 c
@@ -850,11 +844,6 @@ NULL
 EXPORTS
 =
 cairo
-.
-h
-cairo
--
-version
 .
 h
 cairo

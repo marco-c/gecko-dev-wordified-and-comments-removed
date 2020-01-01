@@ -7,16 +7,6 @@ CAIRO_TYPE3_GLYPH_SURFACE_PRIVATE_H
 #
 include
 "
-cairoint
-.
-h
-"
-#
-if
-CAIRO_HAS_FONT_SUBSET
-#
-include
-"
 cairo
 -
 surface
@@ -134,7 +124,5 @@ double
 width
 )
 ;
-#
-endif
 #
 endif

@@ -1788,12 +1788,6 @@ format
 )
 {
 case
-PIXMAN_a2b10g10r10
-:
-case
-PIXMAN_x2b10g10r10
-:
-case
 PIXMAN_a8r8g8b8
 :
 case

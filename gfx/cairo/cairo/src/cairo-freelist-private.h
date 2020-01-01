@@ -15,17 +15,6 @@ private
 .
 h
 "
-#
-include
-"
-cairo
--
-compiler
--
-private
-.
-h
-"
 typedef
 struct
 _cairo_freelist
