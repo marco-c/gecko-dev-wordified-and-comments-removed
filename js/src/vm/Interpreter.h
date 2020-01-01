@@ -1,9 +1,9 @@
 #
 ifndef
-Interpreter_h___
+vm_Interpreter_h
 #
 define
-Interpreter_h___
+vm_Interpreter_h
 #
 include
 "

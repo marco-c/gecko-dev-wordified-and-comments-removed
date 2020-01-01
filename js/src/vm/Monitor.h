@@ -1,9 +1,9 @@
 #
 ifndef
-Monitor_h__
+vm_Monitor_h
 #
 define
-Monitor_h__
+vm_Monitor_h
 #
 include
 "

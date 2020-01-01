@@ -1,9 +1,9 @@
 #
 ifndef
-jsgc_barrier_h___
+gc_Barrier_h
 #
 define
-jsgc_barrier_h___
+gc_Barrier_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-Shape_h___
+vm_Shape_h
 #
 define
-Shape_h___
+vm_Shape_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jsgc_nursery_h___
+gc_Nursery_h
 #
 define
-jsgc_nursery_h___
+gc_Nursery_h
 #
 ifdef
 JSGC_GENERATIONAL

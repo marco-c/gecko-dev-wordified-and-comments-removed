@@ -1,9 +1,9 @@
 #
 ifndef
-ArgumentsObject_inl_h___
+vm_ArgumentsObject_inl_h
 #
 define
-ArgumentsObject_inl_h___
+vm_ArgumentsObject_inl_h
 #
 include
 "

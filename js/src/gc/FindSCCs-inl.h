@@ -1,4 +1,10 @@
 #
+ifndef
+gc_FindSCCs_inl_h
+#
+define
+gc_FindSCCs_inl_h
+#
 include
 "
 jsfriendapi
@@ -576,3 +582,5 @@ NULL
 }
 }
 }
+#
+endif

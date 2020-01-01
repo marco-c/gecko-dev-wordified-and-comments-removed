@@ -1,9 +1,9 @@
 #
 ifndef
-Probes_h__
+vm_Probes_h
 #
 define
-Probes_h__
+vm_Probes_h
 #
 include
 "

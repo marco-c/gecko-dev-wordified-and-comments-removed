@@ -1,9 +1,9 @@
 #
 ifndef
-Debugger_inl_h__
+vm_Debugger_inl_h
 #
 define
-Debugger_inl_h__
+vm_Debugger_inl_h
 #
 include
 "

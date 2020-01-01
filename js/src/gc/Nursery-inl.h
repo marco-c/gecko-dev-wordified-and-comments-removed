@@ -1,12 +1,12 @@
 #
-ifdef
-JSGC_GENERATIONAL
-#
 ifndef
-gc_Nursery_inl_h__
+gc_Nursery_inl_h
 #
 define
-gc_Nursery_inl_h__
+gc_Nursery_inl_h
+#
+ifdef
+JSGC_GENERATIONAL
 #
 include
 "

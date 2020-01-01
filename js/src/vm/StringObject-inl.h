@@ -1,9 +1,9 @@
 #
 ifndef
-StringObject_inl_h___
+vm_StringObject_inl_h
 #
 define
-StringObject_inl_h___
+vm_StringObject_inl_h
 #
 include
 "

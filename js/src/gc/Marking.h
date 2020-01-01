@@ -1,9 +1,9 @@
 #
 ifndef
-gc_marking_h___
+gc_Marking_h
 #
 define
-gc_marking_h___
+gc_Marking_h
 #
 include
 "

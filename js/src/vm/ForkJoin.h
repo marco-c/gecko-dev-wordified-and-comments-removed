@@ -1,9 +1,9 @@
 #
 ifndef
-ForkJoin_h__
+vm_ForkJoin_h
 #
 define
-ForkJoin_h__
+vm_ForkJoin_h
 #
 include
 "

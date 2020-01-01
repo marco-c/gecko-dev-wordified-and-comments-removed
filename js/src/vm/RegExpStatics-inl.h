@@ -1,9 +1,9 @@
 #
 ifndef
-RegExpStatics_inl_h__
+vm_RegExpStatics_inl_h
 #
 define
-RegExpStatics_inl_h__
+vm_RegExpStatics_inl_h
 #
 include
 "

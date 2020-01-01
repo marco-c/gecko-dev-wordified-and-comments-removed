@@ -1,9 +1,9 @@
 #
 ifndef
-DateTime_h___
+vm_DateTime_h
 #
 define
-DateTime_h___
+vm_DateTime_h
 #
 include
 "

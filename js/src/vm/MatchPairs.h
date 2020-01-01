@@ -1,9 +1,9 @@
 #
 ifndef
-MatchPairs_h__
+vm_MatchPairs_h
 #
 define
-MatchPairs_h__
+vm_MatchPairs_h
 #
 include
 "

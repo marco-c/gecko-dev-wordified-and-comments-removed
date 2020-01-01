@@ -1,9 +1,9 @@
 #
 ifndef
-NumberObject_inl_h___
+vm_NumberObject_inl_h
 #
 define
-NumberObject_inl_h___
+vm_NumberObject_inl_h
 #
 include
 "

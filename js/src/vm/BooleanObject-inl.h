@@ -1,9 +1,9 @@
 #
 ifndef
-BooleanObject_inl_h___
+vm_BooleanObject_inl_h
 #
 define
-BooleanObject_inl_h___
+vm_BooleanObject_inl_h
 #
 include
 "

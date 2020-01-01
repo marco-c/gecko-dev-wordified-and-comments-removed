@@ -1,9 +1,9 @@
 #
 ifndef
-RegExpObject_inl_h___
+vm_RegExpObject_inl_h
 #
 define
-RegExpObject_inl_h___
+vm_RegExpObject_inl_h
 #
 include
 "

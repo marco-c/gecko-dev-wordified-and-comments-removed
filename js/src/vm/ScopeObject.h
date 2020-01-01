@@ -1,9 +1,9 @@
 #
 ifndef
-ScopeObject_h___
+vm_ScopeObject_h
 #
 define
-ScopeObject_h___
+vm_ScopeObject_h
 #
 include
 "

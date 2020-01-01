@@ -1,9 +1,9 @@
 #
 ifndef
-gc_findsccs_h___
+gc_FindSCCs_h
 #
 define
-gc_findsccs_h___
+gc_FindSCCs_h
 #
 include
 "

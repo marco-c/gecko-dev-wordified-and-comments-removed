@@ -1,9 +1,9 @@
 #
 ifndef
-Unicode_h__
+vm_Unicode_h
 #
 define
-Unicode_h__
+vm_Unicode_h
 #
 include
 "
