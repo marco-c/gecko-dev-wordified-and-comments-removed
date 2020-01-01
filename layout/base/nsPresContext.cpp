@@ -7698,15 +7698,6 @@ RebuildUserFontSet
 (
 )
 ;
-AnimationManager
-(
-)
--
->
-KeyframesListIsDirty
-(
-)
-;
 RestyleManager
 (
 )
