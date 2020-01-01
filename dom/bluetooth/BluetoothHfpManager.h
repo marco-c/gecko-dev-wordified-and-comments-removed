@@ -372,6 +372,9 @@ mCMEE
 bool
 mCMER
 ;
+int
+mNetworkSelectionMode
+;
 bool
 mReceiveVgsFlag
 ;
@@ -380,6 +383,9 @@ mDevicePath
 ;
 nsString
 mMsisdn
+;
+nsString
+mOperatorName
 ;
 enum
 mozilla
