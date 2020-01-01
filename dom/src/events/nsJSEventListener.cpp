@@ -337,7 +337,7 @@ mContext
 GetScriptTypeID
 (
 )
-this
+tmp
 &
 NS_CYCLE_COLLECTION_NAME
 (
