@@ -741,6 +741,7 @@ set
 CPU_TAG
 on
 Linux
+WINCE
 .
 #
 CPU_TAG

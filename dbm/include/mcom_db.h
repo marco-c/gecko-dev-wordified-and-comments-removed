@@ -5,6 +5,15 @@ _DB_H_
 define
 _DB_H_
 #
+ifdef
+WINCE
+#
+define
+off_t
+long
+#
+endif
+#
 ifndef
 macintosh
 #

@@ -56,6 +56,7 @@ h
 "
 #
 if
+(
 defined
 (
 XP_UNIX
@@ -77,6 +78,14 @@ _WINDOWS
 defined
 (
 XP_BEOS
+)
+)
+&
+&
+!
+defined
+(
+_WIN32_WCE
 )
 #
 include
@@ -2099,6 +2108,7 @@ myTime
 ;
 #
 if
+(
 defined
 (
 XP_UNIX
@@ -2120,6 +2130,14 @@ _WINDOWS
 defined
 (
 XP_BEOS
+)
+)
+&
+&
+!
+defined
+(
+_WIN32_WCE
 )
 myTime
 =

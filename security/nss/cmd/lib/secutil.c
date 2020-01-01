@@ -90,6 +90,13 @@ stdarg
 h
 >
 #
+if
+!
+defined
+(
+_WIN32_WCE
+)
+#
 include
 <
 sys
@@ -105,6 +112,8 @@ errno
 .
 h
 >
+#
+endif
 #
 ifdef
 XP_UNIX

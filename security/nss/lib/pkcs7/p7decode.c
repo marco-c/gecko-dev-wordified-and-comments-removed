@@ -4379,7 +4379,6 @@ SEC_PKCS7ContentInfo
 cinfo
 SECCertUsage
 certusage
-const
 SECItem
 *
 detached_digest
@@ -4396,7 +4395,6 @@ digestalgs
 *
 bulkid
 ;
-const
 SECItem
 *
 digest
@@ -6001,7 +5999,6 @@ SEC_PKCS7ContentInfo
 cinfo
 SECCertUsage
 certusage
-const
 SECItem
 *
 detached_digest

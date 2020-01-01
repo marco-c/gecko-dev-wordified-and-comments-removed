@@ -6402,6 +6402,16 @@ getpid
 elif
 defined
 (
+_WIN32_WCE
+)
+#
+define
+SSL_GETPID
+GetCurrentProcessId
+#
+elif
+defined
+(
 WIN32
 )
 extern

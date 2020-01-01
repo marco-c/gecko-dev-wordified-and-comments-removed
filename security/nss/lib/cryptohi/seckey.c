@@ -85,6 +85,13 @@ h
 #
 include
 "
+ec
+.
+h
+"
+#
+include
+"
 keyi
 .
 h
@@ -7496,7 +7503,6 @@ key
 >
 pkcs11ID
 attribute
-PR_FALSE
 )
 )
 {

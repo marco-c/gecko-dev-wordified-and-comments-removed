@@ -594,7 +594,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_UNWRAP
-PR_FALSE
 )
 |
 |
@@ -603,7 +602,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_DECRYPT
-PR_FALSE
 )
 )
 )
@@ -621,7 +619,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_DERIVE
-PR_FALSE
 )
 )
 {
@@ -639,7 +636,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_SIGN_RECOVER
-PR_FALSE
 )
 |
 |
@@ -648,7 +644,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_SIGN
-PR_FALSE
 )
 )
 )
@@ -1344,7 +1339,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_UNWRAP
-PR_FALSE
 )
 )
 {
@@ -1361,7 +1355,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_WRAP
-PR_FALSE
 )
 )
 {
@@ -1378,7 +1371,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_ENCRYPT
-PR_FALSE
 )
 )
 {
@@ -1395,7 +1387,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_DECRYPT
-PR_FALSE
 )
 )
 {
@@ -1412,7 +1403,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_DERIVE
-PR_FALSE
 )
 )
 {
@@ -1429,7 +1419,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_SIGN
-PR_FALSE
 )
 )
 {
@@ -1446,7 +1435,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_SIGN_RECOVER
-PR_FALSE
 )
 )
 {
@@ -1463,7 +1451,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_VERIFY
-PR_FALSE
 )
 )
 {
@@ -1480,7 +1467,6 @@ PK11_HasAttributeSet
 slot
 id
 CKA_VERIFY_RECOVER
-PR_FALSE
 )
 )
 {

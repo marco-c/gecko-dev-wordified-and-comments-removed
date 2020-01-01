@@ -11746,7 +11746,6 @@ PK11_AddSlotToList
 (
 slotList
 slot
-PR_TRUE
 )
 ;
 found

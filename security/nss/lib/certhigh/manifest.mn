@@ -114,10 +114,6 @@ ocsp
 .
 c
 \
-ocspsig
-.
-c
-\
 certhigh
 .
 c

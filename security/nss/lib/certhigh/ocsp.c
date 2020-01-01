@@ -526,6 +526,7 @@ certid
 )
 #
 if
+(
 defined
 (
 XP_UNIX
@@ -548,6 +549,14 @@ XP_BEOS
 defined
 (
 XP_MACOSX
+)
+)
+&
+&
+!
+defined
+(
+_WIN32_WCE
 )
 #
 define
@@ -4817,6 +4826,7 @@ serialNumber
 }
 }
 ;
+static
 const
 SEC_ASN1Template
 ocsp_OCSPResponseTemplate
@@ -4863,6 +4873,7 @@ ocsp_PointerToResponseBytesTemplate
 }
 }
 ;
+static
 const
 SEC_ASN1Template
 ocsp_ResponseBytesTemplate
@@ -5090,6 +5101,7 @@ CERT_SequenceOfCertExtensionTemplate
 }
 }
 ;
+static
 const
 SEC_ASN1Template
 ocsp_ResponderIDByNameTemplate
@@ -5116,6 +5128,7 @@ CERT_NameTemplate
 }
 }
 ;
+static
 const
 SEC_ASN1Template
 ocsp_ResponderIDByKeyTemplate

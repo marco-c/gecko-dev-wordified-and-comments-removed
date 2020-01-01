@@ -217,6 +217,13 @@ the
 root
 certificate
 .
+Then
+run
+"
+gmake
+generate
+"
+.
 %
 addbuiltin
 -
@@ -242,6 +249,9 @@ der
 certdata
 .
 txt
+%
+gmake
+generate
 4
 .
 Edit
@@ -286,6 +296,9 @@ in
 certdata
 .
 txt
+certdata
+.
+c
 and
 nssckbi
 .
@@ -322,6 +335,14 @@ certificate
 .
 3
 .
+Run
+"
+gmake
+generate
+"
+.
+4
+.
 Edit
 nssckbi
 .
@@ -334,7 +355,7 @@ of
 the
 module
 .
-4
+5
 .
 Run
 gmake
@@ -347,7 +368,7 @@ the
 nssckbi
 module
 .
-5
+6
 .
 After
 you
@@ -364,6 +385,9 @@ in
 certdata
 .
 txt
+certdata
+.
+c
 and
 nssckbi
 .

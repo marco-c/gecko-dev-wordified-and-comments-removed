@@ -85,7 +85,9 @@ the
 lib
 prefix
 Win95
-doesn
+and
+WinCE
+don
 '
 t
 NSPR31_LIB_PREFIX
