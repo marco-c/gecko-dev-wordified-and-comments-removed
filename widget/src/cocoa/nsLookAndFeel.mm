@@ -2061,15 +2061,7 @@ eMetric_CaretBlinkTime
 :
 aMetric
 =
-:
-:
-GetCaretTime
-(
-)
-*
-1000
-/
-60
+567
 ;
 break
 ;
