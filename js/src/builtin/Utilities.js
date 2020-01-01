@@ -1,3 +1,16 @@
+#
+define
+TO_UINT32
+(
+x
+)
+(
+x
+>
+>
+>
+0
+)
 var
 std_isFinite
 =
