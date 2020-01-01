@@ -2241,6 +2241,8 @@ callSite
 void
 addReturnSite
 (
+bool
+ool
 )
 ;
 void
