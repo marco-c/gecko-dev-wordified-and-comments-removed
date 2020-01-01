@@ -469,7 +469,7 @@ jsbytecode
 *
 convert
 (
-UnrootedScript
+RawScript
 script
 size_t
 ip
