@@ -1,6 +1,13 @@
 #
 include
 "
+NSPRFormatTime
+.
+h
+"
+#
+include
+"
 nsAboutCache
 .
 h
@@ -65,13 +72,6 @@ h
 include
 "
 nsNetUtil
-.
-h
-"
-#
-include
-"
-prtime
 .
 h
 "

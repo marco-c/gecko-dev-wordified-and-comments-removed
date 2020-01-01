@@ -9,6 +9,13 @@ endif
 #
 include
 "
+NSPRFormatTime
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net
@@ -186,13 +193,6 @@ h
 include
 "
 nsCRT
-.
-h
-"
-#
-include
-"
-prtime
 .
 h
 "

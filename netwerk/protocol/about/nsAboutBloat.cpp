@@ -1,6 +1,13 @@
 #
 include
 "
+NSPRFormatTime
+.
+h
+"
+#
+include
+"
 nsTraceRefcntImpl
 .
 h
@@ -47,13 +54,6 @@ h
 include
 "
 nsIURI
-.
-h
-"
-#
-include
-"
-prtime
 .
 h
 "

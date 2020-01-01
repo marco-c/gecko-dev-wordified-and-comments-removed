@@ -1,6 +1,13 @@
 #
 include
 "
+NSPRFormatTime
+.
+h
+"
+#
+include
+"
 TestCommon
 .
 h
@@ -271,13 +278,6 @@ h
 include
 "
 prlog
-.
-h
-"
-#
-include
-"
-prtime
 .
 h
 "

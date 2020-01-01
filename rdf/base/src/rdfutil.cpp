@@ -1,6 +1,13 @@
 #
 include
 "
+NSPRFormatTime
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -86,13 +93,6 @@ h
 include
 "
 nsUnicharUtils
-.
-h
-"
-#
-include
-"
-prtime
 .
 h
 "

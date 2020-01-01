@@ -9,6 +9,13 @@ endif
 #
 include
 "
+NSPRFormatTime
+.
+h
+"
+#
+include
+"
 nsAppRunner
 .
 h
@@ -24,13 +31,6 @@ h
 include
 "
 prprf
-.
-h
-"
-#
-include
-"
-prtime
 .
 h
 "

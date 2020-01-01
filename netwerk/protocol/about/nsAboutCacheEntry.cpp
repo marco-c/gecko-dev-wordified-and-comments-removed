@@ -8,6 +8,13 @@ h
 #
 include
 "
+NSPRFormatTime
+.
+h
+"
+#
+include
+"
 nsAboutCacheEntry
 .
 h
@@ -51,13 +58,6 @@ h
 include
 "
 prprf
-.
-h
-"
-#
-include
-"
-prtime
 .
 h
 "
