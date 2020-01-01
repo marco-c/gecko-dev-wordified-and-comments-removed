@@ -8,7 +8,7 @@ h
 #
 include
 "
-ScaeldFontBase
+ScaledFontBase
 .
 h
 "
@@ -77,7 +77,7 @@ mTypeface
 =
 SkCreateTypefaceFromLOGFONT
 (
-lf
+mLogFont
 )
 ;
 }
