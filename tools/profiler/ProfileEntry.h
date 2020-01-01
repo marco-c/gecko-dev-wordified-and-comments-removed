@@ -43,9 +43,6 @@ class
 ThreadProfile
 ;
 class
-ThreadProfile
-;
-class
 ProfileEntry
 {
 public
@@ -259,6 +256,9 @@ PseudoStack
 aStack
 int
 aThreadId
+PlatformData
+*
+aPlatformData
 bool
 aIsMainThread
 )
@@ -406,6 +406,16 @@ return
 mThreadId
 ;
 }
+PlatformData
+*
+GetPlatformData
+(
+)
+{
+return
+mPlatformData
+;
+}
 private
 :
 ProfileEntry
@@ -443,6 +453,10 @@ mThreadId
 ;
 bool
 mIsMainThread
+;
+PlatformData
+*
+mPlatformData
 ;
 }
 ;
