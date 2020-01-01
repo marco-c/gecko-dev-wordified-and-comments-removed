@@ -504,6 +504,8 @@ keyboardHidden
 mcc
 |
 mnc
+|
+orientation
 "
 android
 :
