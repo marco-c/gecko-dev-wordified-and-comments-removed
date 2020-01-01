@@ -17821,6 +17821,12 @@ setPrivate
 data
 )
 ;
+r
+.
+removeFrontFrame
+(
+)
+;
 if
 (
 !
@@ -17845,12 +17851,6 @@ return
 false
 ;
 }
-r
-.
-removeFrontFrame
-(
-)
-;
 }
 return
 true
