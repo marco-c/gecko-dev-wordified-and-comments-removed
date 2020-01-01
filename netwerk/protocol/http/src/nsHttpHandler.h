@@ -802,6 +802,9 @@ mPlatform
 nsCString
 mOscpu
 ;
+nsCString
+mDeviceType
+;
 nsXPIDLCString
 mSecurity
 ;
