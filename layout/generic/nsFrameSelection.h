@@ -1332,7 +1332,7 @@ mHint
 #
 ifdef
 IBMBIDI
-PRInt8
+PRUint8
 mCaretBidiLevel
 ;
 #
