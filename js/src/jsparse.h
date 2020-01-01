@@ -2599,9 +2599,6 @@ bit
 )
 *
 /
-class
-JSTreeContext
-;
 typedef
 struct
 BindData
@@ -2797,7 +2794,7 @@ trc
 )
 ;
 friend
-class
+struct
 JSTreeContext
 ;
 bool
