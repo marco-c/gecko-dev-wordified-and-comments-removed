@@ -6414,6 +6414,7 @@ return
 new
 IndexedDBParent
 (
+this
 )
 ;
 }

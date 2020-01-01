@@ -3972,6 +3972,7 @@ return
 new
 IndexedDBParent
 (
+this
 )
 ;
 }
