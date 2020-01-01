@@ -4488,7 +4488,7 @@ focused
 .
 scrollIntoView
 (
-true
+false
 )
 ;
 tab
