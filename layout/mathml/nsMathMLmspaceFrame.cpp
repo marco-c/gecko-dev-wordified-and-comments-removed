@@ -176,10 +176,7 @@ ParseNumericValue
 value
 &
 mHeight
-nsMathMLElement
-:
-:
-PARSE_ALLOW_NEGATIVE
+0
 aPresContext
 mStyleContext
 )
@@ -217,10 +214,7 @@ ParseNumericValue
 value
 &
 mDepth
-nsMathMLElement
-:
-:
-PARSE_ALLOW_NEGATIVE
+0
 aPresContext
 mStyleContext
 )
@@ -263,7 +257,11 @@ mBoundingMetrics
 .
 width
 =
+NS_MAX
+(
+0
 mWidth
+)
 ;
 mBoundingMetrics
 .
@@ -287,7 +285,9 @@ mBoundingMetrics
 .
 rightBearing
 =
-mWidth
+mBoundingMetrics
+.
+width
 ;
 aDesiredSize
 .
@@ -299,7 +299,9 @@ aDesiredSize
 .
 width
 =
-mWidth
+mBoundingMetrics
+.
+width
 ;
 aDesiredSize
 .
