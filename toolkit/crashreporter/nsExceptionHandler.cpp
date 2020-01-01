@@ -10773,6 +10773,10 @@ lastMinidumpFile
 ;
 if
 (
+!
+lastMinidumpFile
+|
+|
 NS_FAILED
 (
 lastMinidumpFile
