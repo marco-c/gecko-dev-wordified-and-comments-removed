@@ -3168,6 +3168,9 @@ target
 msg
 .
 target
+expectingSystemMessage
+:
+true
 }
 )
 ;
