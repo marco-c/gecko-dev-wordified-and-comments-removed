@@ -6783,7 +6783,7 @@ TSF_OPERAND
 &
 &
 (
-VersionHasXML
+VersionShouldParseXML
 (
 version
 )
