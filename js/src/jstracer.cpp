@@ -77034,6 +77034,8 @@ tarray
 length
 )
 {
+CHECK_STATUS_A
+(
 guard
 (
 false
@@ -77050,6 +77052,8 @@ priv_ins
 )
 )
 BRANCH_EXIT
+true
+)
 )
 ;
 v_ins
