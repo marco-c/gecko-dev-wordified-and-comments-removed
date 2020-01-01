@@ -11,13 +11,6 @@ nsCoord
 .
 h
 "
-#
-include
-"
-nsDebug
-.
-h
-"
 typedef
 void
 *

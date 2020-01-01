@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsHTMLParts
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h
@@ -65,13 +58,6 @@ h
 include
 "
 nsIContent
-.
-h
-"
-#
-include
-"
-nsFrameSelection
 .
 h
 "

@@ -20,13 +20,6 @@ nsContainerFrame
 .
 h
 "
-#
-include
-"
-nsGkAtoms
-.
-h
-"
 class
 nsPresContext
 ;

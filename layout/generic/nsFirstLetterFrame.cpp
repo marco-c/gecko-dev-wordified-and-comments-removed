@@ -1,13 +1,6 @@
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsFirstLetterFrame
 .
 h

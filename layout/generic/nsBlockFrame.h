@@ -67,13 +67,7 @@ class
 nsBulletFrame
 ;
 class
-nsLineBox
-;
-class
 nsFirstLineFrame
-;
-class
-nsIntervalSet
 ;
 #
 define

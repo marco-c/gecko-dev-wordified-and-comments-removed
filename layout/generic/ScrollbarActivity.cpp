@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMNSEvent
-.
-h
-"
-#
-include
-"
 nsIDOMElementCSSInlineStyle
 .
 h

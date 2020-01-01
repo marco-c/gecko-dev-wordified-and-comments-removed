@@ -90,13 +90,6 @@ h
 #
 include
 "
-nsStyleStructInlines
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Util

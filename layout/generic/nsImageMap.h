@@ -7,7 +7,7 @@ nsImageMap_h
 #
 include
 "
-nsISupports
+nsCOMPtr
 .
 h
 "
@@ -42,7 +42,7 @@ h
 #
 include
 "
-nsIFrame
+nsRect
 .
 h
 "
@@ -50,13 +50,16 @@ class
 Area
 ;
 class
-nsIDOMEvent
-;
-class
 nsRenderingContext
 ;
 class
 nsImageFrame
+;
+class
+nsIFrame
+;
+class
+nsIContent
 ;
 class
 nsImageMap

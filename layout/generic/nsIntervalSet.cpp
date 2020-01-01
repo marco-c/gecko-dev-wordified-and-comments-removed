@@ -7,13 +7,6 @@ h
 "
 #
 include
-"
-nsAlgorithm
-.
-h
-"
-#
-include
 <
 new
 >

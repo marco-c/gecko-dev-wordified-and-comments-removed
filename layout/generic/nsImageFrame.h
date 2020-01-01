@@ -56,9 +56,6 @@ Attributes
 h
 "
 class
-nsIFrame
-;
-class
 nsImageMap
 ;
 class
@@ -72,9 +69,6 @@ nsHTMLReflowState
 ;
 struct
 nsHTMLReflowMetrics
-;
-struct
-nsSize
 ;
 class
 nsDisplayImage
@@ -90,9 +84,6 @@ nsTransform2D
 ;
 class
 nsImageLoadingContent
-;
-class
-imgRequestProxy
 ;
 namespace
 mozilla
