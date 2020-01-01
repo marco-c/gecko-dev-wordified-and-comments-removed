@@ -203,14 +203,6 @@ nsXPIDLString
 aLabel
 )
 ;
-bool
-IsFileBrowseButton
-(
-int32_t
-type
-)
-const
-;
 virtual
 bool
 IsInput
