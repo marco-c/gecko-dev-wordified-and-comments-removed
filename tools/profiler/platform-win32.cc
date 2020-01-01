@@ -405,7 +405,7 @@ context
 .
 ContextFlags
 =
-CONTEXT_FULL
+CONTEXT_CONTROL
 ;
 if
 (
