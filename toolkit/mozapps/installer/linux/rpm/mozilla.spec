@@ -132,15 +132,8 @@ Applications
 Internet
 License
 :
-MPLv1
-.
-1
-or
-GPLv2
-+
-or
-LGPLv2
-+
+MPL
+2
 Vendor
 :
 Mozilla
