@@ -40,6 +40,13 @@ h
 #
 include
 "
+nsStringGlue
+.
+h
+"
+#
+include
+"
 nsIXULAppInfo
 .
 h
