@@ -653,8 +653,6 @@ mobile
 /
 chrome
 /
-tests
-/
 browser_title
 .
 sjs
@@ -728,8 +726,6 @@ browser
 mobile
 /
 chrome
-/
-tests
 /
 browser_title
 .

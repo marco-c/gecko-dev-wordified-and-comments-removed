@@ -449,8 +449,6 @@ mobile
 /
 chrome
 /
-tests
-/
 "
 ;
 messageManager
