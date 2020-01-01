@@ -481,6 +481,15 @@ nsAString
 aAlertText
 )
 ;
+void
+AlertsProgressListener_OnCancel
+(
+const
+nsAString
+&
+aAlertName
+)
+;
 int
 GetDPI
 (
@@ -718,6 +727,9 @@ jShowAlertNotification
 ;
 jmethodID
 jAlertsProgressListener_OnProgress
+;
+jmethodID
+jAlertsProgressListener_OnCancel
 ;
 jmethodID
 jGetDpi
