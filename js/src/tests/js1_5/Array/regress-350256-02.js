@@ -1,4 +1,17 @@
 var
+gTestfile
+=
+'
+regress
+-
+350256
+-
+02
+.
+js
+'
+;
+var
 BUGNUMBER
 =
 350256
