@@ -493,10 +493,6 @@ GeckoPreferences
 .
 java
 \
-GeckoGestureDetector
-.
-java
-\
 GlobalHistory
 .
 java
