@@ -1275,9 +1275,9 @@ user_pref
 (
 \
 "
-dom
+hangmonitor
 .
-max_script_run_time
+timeout
 \
 "
 0
@@ -1287,6 +1287,7 @@ max_script_run_time
 n
 "
 )
+;
         
 userprefs
 .
