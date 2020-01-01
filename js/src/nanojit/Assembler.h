@@ -1777,6 +1777,11 @@ table
 )
 ;
 void
+asm_insert_random_nop
+(
+)
+;
+void
 emitJumpTable
 (
 SwitchInfo
