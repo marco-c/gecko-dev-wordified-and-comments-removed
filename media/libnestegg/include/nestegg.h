@@ -543,6 +543,16 @@ end_pos
 )
 ;
 int
+nestegg_offset_seek
+(
+nestegg
+*
+context
+uint64_t
+offset
+)
+;
+int
 nestegg_track_seek
 (
 nestegg
