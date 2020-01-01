@@ -1,3 +1,8 @@
+const
+kDefaultWait
+=
+2000
+;
 function
 waitFor
 (
@@ -41,7 +46,7 @@ now
 -
 timeout
 >
-1000
+kDefaultWait
 )
 throw
 "
@@ -103,7 +108,7 @@ now
 -
 timeout
 >
-1000
+kDefaultWait
 )
 {
 callback
