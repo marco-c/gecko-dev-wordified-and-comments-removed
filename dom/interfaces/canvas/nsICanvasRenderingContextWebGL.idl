@@ -3098,6 +3098,13 @@ STENCIL_INDEX8
 const
 unsigned
 long
+DEPTH_STENCIL
+=
+0x84F9
+;
+const
+unsigned
+long
 RENDERBUFFER_WIDTH
 =
 0x8D42
@@ -3206,6 +3213,13 @@ long
 STENCIL_ATTACHMENT
 =
 0x8D20
+;
+const
+unsigned
+long
+DEPTH_STENCIL_ATTACHMENT
+=
+0x821A
 ;
 const
 unsigned
