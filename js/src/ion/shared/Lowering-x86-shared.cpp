@@ -443,7 +443,7 @@ isConstant
 )
 )
 {
-int32
+int32_t
 rhs
 =
 mod
@@ -467,7 +467,7 @@ toInt32
 (
 )
 ;
-int32
+int32_t
 shift
 ;
 JS_FLOOR_LOG2

@@ -162,7 +162,7 @@ LInstructionHelper
 >
 {
 const
-int32
+int32_t
 shift_
 ;
 public
@@ -178,7 +178,7 @@ const
 LAllocation
 &
 lhs
-int32
+int32_t
 shift
 )
 :
@@ -194,7 +194,7 @@ lhs
 )
 ;
 }
-int32
+int32_t
 shift
 (
 )

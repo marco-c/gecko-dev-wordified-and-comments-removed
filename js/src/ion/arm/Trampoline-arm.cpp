@@ -843,7 +843,7 @@ WriteBack
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -890,7 +890,7 @@ WriteBack
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1556,7 +1556,7 @@ GenerateBailoutThunk
 MacroAssembler
 &
 masm
-uint32
+uint32_t
 frameClass
 )
 {
@@ -1572,7 +1572,7 @@ WriteBack
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1619,7 +1619,7 @@ WriteBack
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1729,7 +1729,7 @@ Bailout
 )
 )
 ;
-uint32
+uint32_t
 bailoutFrameSize
 =
 sizeof
@@ -1814,7 +1814,7 @@ r4
 }
 else
 {
-uint32
+uint32_t
 frameSize
 =
 FrameSizeClass
@@ -1867,7 +1867,7 @@ generateBailoutTable
 JSContext
 *
 cx
-uint32
+uint32_t
 frameClass
 )
 {
@@ -2218,7 +2218,7 @@ reserveStack
 (
 sizeof
 (
-int32
+int32_t
 )
 )
 ;
@@ -2294,7 +2294,7 @@ argDisp
 ;
 for
 (
-uint32
+uint32_t
 explicitArg
 =
 0
@@ -2591,7 +2591,7 @@ freeStack
 (
 sizeof
 (
-int32
+int32_t
 )
 )
 ;

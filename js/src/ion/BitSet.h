@@ -43,7 +43,7 @@ bits
 *
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
@@ -72,13 +72,13 @@ unsigned
 int
 max_
 ;
-uint32
+uint32_t
 *
 bits_
 ;
 static
 inline
-uint32
+uint32_t
 bitForValue
 (
 unsigned
@@ -91,7 +91,7 @@ return
 <
 <
 (
-uint32
+uint32_t
 )
 (
 value
@@ -101,7 +101,7 @@ value
 *
 sizeof
 (
-uint32
+uint32_t
 )
 )
 )
@@ -126,7 +126,7 @@ value
 *
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
@@ -343,7 +343,7 @@ clear
 (
 )
 ;
-uint32
+uint32_t
 *
 raw
 (
@@ -386,7 +386,7 @@ index_
 unsigned
 word_
 ;
-uint32
+uint32_t
 value_
 ;
 public

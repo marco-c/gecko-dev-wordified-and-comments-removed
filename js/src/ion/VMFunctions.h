@@ -44,7 +44,7 @@ void
 *
 wrapped
 ;
-uint32
+uint32_t
 explicitArgs
 ;
 enum
@@ -73,7 +73,7 @@ ByRef
 2
 }
 ;
-uint32
+uint32_t
 argumentProperties
 ;
 DataType
@@ -96,10 +96,10 @@ RootValue
 RootCell
 }
 ;
-uint64
+uint64_t
 argumentRootTypes
 ;
-uint32
+uint32_t
 argc
 (
 )
@@ -139,7 +139,7 @@ returnType
 ArgProperties
 argProperties
 (
-uint32
+uint32_t
 explicitArg
 )
 const
@@ -165,7 +165,7 @@ explicitArg
 RootType
 argRootType
 (
-uint32
+uint32_t
 explicitArg
 )
 const
@@ -199,7 +199,7 @@ stackSlots
 =
 explicitArgs
 ;
-uint32
+uint32_t
 n
 =
 (
@@ -253,7 +253,7 @@ stackSlots
 =
 explicitArgs
 ;
-uint32
+uint32_t
 n
 =
 (
@@ -341,11 +341,11 @@ VMFunction
 void
 *
 wrapped
-uint32
+uint32_t
 explicitArgs
-uint32
+uint32_t
 argumentProperties
-uint64
+uint64_t
 argRootTypes
 DataType
 outParam
@@ -652,7 +652,7 @@ TypeToArgProperties
 {
 static
 const
-uint32
+uint32_t
 result
 =
 (
@@ -694,7 +694,7 @@ Value
 {
 static
 const
-uint32
+uint32_t
 result
 =
 TypeToArgProperties
@@ -723,7 +723,7 @@ HandleObject
 {
 static
 const
-uint32
+uint32_t
 result
 =
 TypeToArgProperties
@@ -753,7 +753,7 @@ HandleString
 {
 static
 const
-uint32
+uint32_t
 result
 =
 TypeToArgProperties
@@ -783,7 +783,7 @@ HandlePropertyName
 {
 static
 const
-uint32
+uint32_t
 result
 =
 TypeToArgProperties
@@ -813,7 +813,7 @@ HandleFunction
 {
 static
 const
-uint32
+uint32_t
 result
 =
 TypeToArgProperties
@@ -843,7 +843,7 @@ HandleScript
 {
 static
 const
-uint32
+uint32_t
 result
 =
 TypeToArgProperties
@@ -873,7 +873,7 @@ HandleValue
 {
 static
 const
-uint32
+uint32_t
 result
 =
 TypeToArgProperties
@@ -902,7 +902,7 @@ MutableHandleValue
 {
 static
 const
-uint32
+uint32_t
 result
 =
 TypeToArgProperties
@@ -931,7 +931,7 @@ HandleShape
 {
 static
 const
-uint32
+uint32_t
 result
 =
 TypeToArgProperties
@@ -961,7 +961,7 @@ HandleTypeObject
 {
 static
 const
-uint32
+uint32_t
 result
 =
 TypeToArgProperties
@@ -993,7 +993,7 @@ TypeToRootType
 {
 static
 const
-uint32
+uint32_t
 result
 =
 VMFunction
@@ -1014,7 +1014,7 @@ HandleObject
 {
 static
 const
-uint32
+uint32_t
 result
 =
 VMFunction
@@ -1035,7 +1035,7 @@ HandleString
 {
 static
 const
-uint32
+uint32_t
 result
 =
 VMFunction
@@ -1056,7 +1056,7 @@ HandlePropertyName
 {
 static
 const
-uint32
+uint32_t
 result
 =
 VMFunction
@@ -1077,7 +1077,7 @@ HandleFunction
 {
 static
 const
-uint32
+uint32_t
 result
 =
 VMFunction
@@ -1098,7 +1098,7 @@ HandleValue
 {
 static
 const
-uint32
+uint32_t
 result
 =
 VMFunction
@@ -1119,7 +1119,7 @@ MutableHandleValue
 {
 static
 const
-uint32
+uint32_t
 result
 =
 VMFunction
@@ -1140,7 +1140,7 @@ HandleShape
 {
 static
 const
-uint32
+uint32_t
 result
 =
 VMFunction
@@ -1161,7 +1161,7 @@ HandleTypeObject
 {
 static
 const
-uint32
+uint32_t
 result
 =
 VMFunction
@@ -1425,7 +1425,7 @@ COMPUTE_ARG_ROOT
 NbArg
 )
 (
-uint64
+uint64_t
 (
 TypeToRootType
 <
@@ -1559,7 +1559,7 @@ Type_Void
 \
 static
 inline
-uint32
+uint32_t
 argumentProperties
 (
 )
@@ -1578,7 +1578,7 @@ NOTHING
 \
 static
 inline
-uint64
+uint64_t
 argumentRootTypes
 (
 )
@@ -1714,7 +1714,7 @@ return
 }
 static
 inline
-uint32
+uint32_t
 argumentProperties
 (
 )
@@ -1725,7 +1725,7 @@ return
 }
 static
 inline
-uint64
+uint64_t
 argumentRootTypes
 (
 )
@@ -2177,7 +2177,7 @@ cx
 JSFunction
 *
 fun
-uint32
+uint32_t
 argc
 Value
 *
@@ -2196,7 +2196,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 argc
 Value
 *

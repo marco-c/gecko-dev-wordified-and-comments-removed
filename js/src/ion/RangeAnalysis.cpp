@@ -484,7 +484,7 @@ getOperand
 1
 )
 ;
-int32
+int32_t
 bound
 ;
 MDefinition
@@ -2148,7 +2148,7 @@ const
 Range
 *
 lhs
-int32
+int32_t
 c
 )
 {
@@ -2158,7 +2158,7 @@ EnsureRange
 lhs
 )
 ;
-int32
+int32_t
 shift
 =
 c
@@ -2203,7 +2203,7 @@ const
 Range
 *
 lhs
-int32
+int32_t
 c
 )
 {
@@ -2213,7 +2213,7 @@ EnsureRange
 lhs
 )
 ;
-int32
+int32_t
 shift
 =
 c
@@ -2949,7 +2949,7 @@ isConstant
 )
 return
 ;
-int32
+int32_t
 c
 =
 right
@@ -3025,7 +3025,7 @@ isConstant
 )
 return
 ;
-int32
+int32_t
 c
 =
 right
@@ -4517,7 +4517,7 @@ lhsInitial
 return
 NULL
 ;
-int32
+int32_t
 lhsConstant
 ;
 if
@@ -4868,7 +4868,7 @@ initialSum
 )
 return
 ;
-int32
+int32_t
 negativeConstant
 ;
 if
@@ -5729,7 +5729,7 @@ upperTerm
 return
 false
 ;
-int32
+int32_t
 lowerConstant
 =
 0
@@ -5791,7 +5791,7 @@ setMinimum
 lowerConstant
 )
 ;
-int32
+int32_t
 upperConstant
 =
 index

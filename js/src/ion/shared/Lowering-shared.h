@@ -389,7 +389,7 @@ tempCopy
 MDefinition
 *
 input
-uint32
+uint32_t
 reusedInput
 )
 ;
@@ -573,7 +573,7 @@ lir
 MDefinition
 *
 mir
-uint32
+uint32_t
 operand
 )
 ;
@@ -604,7 +604,7 @@ MDefinition
 inMir
 )
 ;
-uint32
+uint32_t
 getVirtualRegister
 (
 )
@@ -654,7 +654,7 @@ lowerTypedPhiInput
 MPhi
 *
 phi
-uint32
+uint32_t
 inputPosition
 LBlock
 *

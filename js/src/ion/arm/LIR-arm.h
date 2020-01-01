@@ -425,7 +425,7 @@ LInstructionHelper
 >
 {
 const
-int32
+int32_t
 shift_
 ;
 public
@@ -435,7 +435,7 @@ LIR_HEADER
 ModPowTwoI
 )
 ;
-int32
+int32_t
 shift
 (
 )
@@ -450,7 +450,7 @@ const
 LAllocation
 &
 lhs
-int32
+int32_t
 shift
 )
 :
@@ -480,7 +480,7 @@ LInstructionHelper
 >
 {
 const
-int32
+int32_t
 shift_
 ;
 public
@@ -500,7 +500,7 @@ const
 LDefinition
 &
 temp1
-int32
+int32_t
 shift
 )
 :
@@ -522,7 +522,7 @@ temp1
 )
 ;
 }
-int32
+int32_t
 shift
 (
 )

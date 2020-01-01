@@ -3033,7 +3033,7 @@ getCallTarget
 JSScript
 *
 caller
-uint32
+uint32_t
 argc
 jsbytecode
 *
@@ -3108,9 +3108,9 @@ getCallArg
 JSScript
 *
 script
-uint32
+uint32_t
 argc
-uint32
+uint32_t
 arg
 jsbytecode
 *

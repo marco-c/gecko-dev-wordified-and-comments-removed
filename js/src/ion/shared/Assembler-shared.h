@@ -371,7 +371,7 @@ AbsoluteAddress
 (
 (
 (
-uint8
+uint8_t
 *
 )
 addr
@@ -389,14 +389,14 @@ Address
 Register
 base
 ;
-int32
+int32_t
 offset
 ;
 Address
 (
 Register
 base
-int32
+int32_t
 offset
 )
 :
@@ -434,7 +434,7 @@ index
 Scale
 scale
 ;
-int32
+int32_t
 offset
 ;
 BaseIndex
@@ -445,7 +445,7 @@ Register
 index
 Scale
 scale
-int32
+int32_t
 offset
 =
 0
@@ -500,7 +500,7 @@ LabelBase
 {
 protected
 :
-int32
+int32_t
 offset_
 :
 31
@@ -537,7 +537,7 @@ id
 ;
 static
 const
-int32
+int32_t
 INVALID_OFFSET
 =
 -
@@ -601,7 +601,7 @@ return
 bound_
 ;
 }
-int32
+int32_t
 offset
 (
 )
@@ -644,7 +644,7 @@ INVALID_OFFSET
 void
 bind
 (
-int32
+int32_t
 offset
 )
 {
@@ -687,10 +687,10 @@ bound_
 false
 ;
 }
-int32
+int32_t
 use
 (
-int32
+int32_t
 offset
 )
 {
@@ -702,7 +702,7 @@ bound
 )
 )
 ;
-int32
+int32_t
 old
 =
 offset_
@@ -776,17 +776,17 @@ RepatchLabel
 {
 static
 const
-int32
+int32_t
 INVALID_OFFSET
 =
 0xC0000000
 ;
-int32
+int32_t
 offset_
 :
 31
 ;
-uint32
+uint32_t
 bound_
 :
 1
@@ -810,7 +810,7 @@ bound_
 void
 use
 (
-uint32
+uint32_t
 newOffset
 )
 {
@@ -828,7 +828,7 @@ newOffset
 !
 =
 (
-uint32
+uint32_t
 )
 INVALID_OFFSET
 )
@@ -851,7 +851,7 @@ bound_
 void
 bind
 (
-int32
+int32_t
 dest
 )
 {
@@ -878,7 +878,7 @@ bound_
 true
 ;
 }
-int32
+int32_t
 target
 (
 )
@@ -890,7 +890,7 @@ bound
 )
 )
 ;
-int32
+int32_t
 ret
 =
 offset_
@@ -903,7 +903,7 @@ return
 ret
 ;
 }
-int32
+int32_t
 offset
 (
 )
@@ -970,7 +970,7 @@ label
 )
 {
 }
-int32
+int32_t
 prev
 (
 )
@@ -1003,7 +1003,7 @@ offset
 void
 setPrev
 (
-int32
+int32_t
 offset
 )
 {
@@ -1082,7 +1082,7 @@ TempObject
 AbsoluteLabel
 label_
 ;
-int32
+int32_t
 offset_
 ;
 public
@@ -1098,7 +1098,7 @@ offset_
 )
 {
 }
-int32
+int32_t
 offset
 (
 )
@@ -1119,7 +1119,7 @@ offset_
 void
 setOffset
 (
-int32
+int32_t
 offset
 )
 {
@@ -1146,7 +1146,7 @@ copy
 IonCode
 *
 code
-uint8
+uint8_t
 *
 buffer
 )
@@ -1302,7 +1302,7 @@ masm
 class
 CodeLocationJump
 {
-uint8
+uint8_t
 *
 raw_
 ;
@@ -1318,7 +1318,7 @@ absolute_
 #
 ifdef
 JS_SMALL_BRANCH
-uint8
+uint8_t
 *
 jumpTableEntry_
 ;
@@ -1362,7 +1362,7 @@ base
 raw_
 =
 (
-uint8
+uint8_t
 *
 )
 base
@@ -1381,7 +1381,7 @@ JS_SMALL_BRANCH
 jumpTableEntry_
 =
 (
-uint8
+uint8_t
 *
 )
 base
@@ -1406,7 +1406,7 @@ masm
 NULL
 )
 ;
-uint8
+uint8_t
 *
 raw
 (
@@ -1422,7 +1422,7 @@ return
 raw_
 ;
 }
-uint8
+uint8_t
 *
 offset
 (
@@ -1442,7 +1442,7 @@ raw_
 #
 ifdef
 JS_SMALL_BRANCH
-uint8
+uint8_t
 *
 jumpTableEntry
 (
@@ -1464,7 +1464,7 @@ endif
 class
 CodeLocationLabel
 {
-uint8
+uint8_t
 *
 raw_
 ;
@@ -1527,7 +1527,7 @@ true
 }
 CodeLocationLabel
 (
-uint8
+uint8_t
 *
 raw
 )
@@ -1552,7 +1552,7 @@ base
 raw_
 =
 (
-uint8
+uint8_t
 *
 )
 base
@@ -1597,7 +1597,7 @@ masm
 NULL
 )
 ;
-uint8
+uint8_t
 *
 raw
 (
@@ -1612,7 +1612,7 @@ return
 raw_
 ;
 }
-uint8
+uint8_t
 *
 offset
 (

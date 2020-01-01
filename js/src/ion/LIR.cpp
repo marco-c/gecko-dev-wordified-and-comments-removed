@@ -97,7 +97,7 @@ const
 Value
 &
 v
-uint32
+uint32_t
 *
 index
 )
@@ -218,7 +218,7 @@ label
 )
 ;
 }
-uint32
+uint32_t
 LBlock
 :
 :
@@ -298,7 +298,7 @@ return
 0
 ;
 }
-uint32
+uint32_t
 LBlock
 :
 :

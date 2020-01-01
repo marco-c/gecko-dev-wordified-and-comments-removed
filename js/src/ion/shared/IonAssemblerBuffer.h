@@ -205,7 +205,7 @@ SliceSize
 {
 protected
 :
-uint32
+uint32_t
 nodeSize
 ;
 public
@@ -260,7 +260,7 @@ next
 next_
 ;
 }
-uint8
+uint8_t
 instructions
 [
 SliceSize
@@ -299,9 +299,9 @@ nodeSize
 void
 putBlob
 (
-uint32
+uint32_t
 instSize
-uint8
+uint8_t
 *
 inst
 )
@@ -398,10 +398,10 @@ public
 bool
 m_oom
 ;
-uint32
+uint32_t
 bufferSize
 ;
-uint32
+uint32_t
 lastInstSize
 ;
 bool
@@ -590,7 +590,7 @@ true
 BufferOffset
 putByte
 (
-uint8
+uint8_t
 value
 )
 {
@@ -602,7 +602,7 @@ sizeof
 value
 )
 (
-uint8
+uint8_t
 *
 )
 &
@@ -613,7 +613,7 @@ value
 BufferOffset
 putShort
 (
-uint16
+uint16_t
 value
 )
 {
@@ -625,7 +625,7 @@ sizeof
 value
 )
 (
-uint8
+uint8_t
 *
 )
 &
@@ -636,7 +636,7 @@ value
 BufferOffset
 putInt
 (
-uint32
+uint32_t
 value
 )
 {
@@ -648,7 +648,7 @@ sizeof
 value
 )
 (
-uint8
+uint8_t
 *
 )
 &
@@ -659,9 +659,9 @@ value
 BufferOffset
 putBlob
 (
-uint32
+uint32_t
 instSize
-uint8
+uint8_t
 *
 inst
 )

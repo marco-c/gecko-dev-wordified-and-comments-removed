@@ -78,7 +78,7 @@ count_
 )
 {
 }
-uint32
+uint32_t
 ValueNumberer
 :
 :
@@ -1208,7 +1208,7 @@ iter
 continue
 ;
 }
-uint32
+uint32_t
 value
 =
 lookupValue
@@ -2090,7 +2090,7 @@ eliminateRedundancies
 )
 ;
 }
-uint32
+uint32_t
 MDefinition
 :
 :
@@ -2129,7 +2129,7 @@ MDefinition
 :
 setValueNumber
 (
-uint32
+uint32_t
 vn
 )
 {

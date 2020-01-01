@@ -33,7 +33,7 @@ Assembler
 :
 executableCopy
 (
-uint8
+uint8_t
 *
 buffer
 )
@@ -101,7 +101,7 @@ RelocationIterator
 CompactBufferReader
 reader_
 ;
-uint32
+uint32_t
 offset_
 ;
 public
@@ -148,7 +148,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 offset
 (
 )
@@ -166,17 +166,17 @@ IonCode
 *
 CodeFromJump
 (
-uint8
+uint8_t
 *
 jump
 )
 {
-uint8
+uint8_t
 *
 target
 =
 (
-uint8
+uint8_t
 *
 )
 JSC

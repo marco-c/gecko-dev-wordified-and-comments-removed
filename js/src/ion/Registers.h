@@ -144,7 +144,7 @@ static
 Register
 FromCode
 (
-uint32
+uint32_t
 i
 )
 {
@@ -184,7 +184,7 @@ const
 JS_ASSERT
 (
 (
-uint32
+uint32_t
 )
 code_
 <
@@ -309,7 +309,7 @@ static
 FloatRegister
 FromCode
 (
-uint32
+uint32_t
 i
 )
 {
@@ -349,7 +349,7 @@ const
 JS_ASSERT
 (
 (
-uint32
+uint32_t
 )
 code_
 <

@@ -77,7 +77,7 @@ Assembler
 {
 protected
 :
-uint32
+uint32_t
 framePushed_
 ;
 public
@@ -829,7 +829,7 @@ STACK_SLOT_SIZE
 void
 implicitPop
 (
-uint32
+uint32_t
 args
 )
 {
@@ -849,7 +849,7 @@ framePushed_
 args
 ;
 }
-uint32
+uint32_t
 framePushed
 (
 )
@@ -862,7 +862,7 @@ framePushed_
 void
 setFramePushed
 (
-uint32
+uint32_t
 framePushed
 )
 {
@@ -1950,7 +1950,7 @@ const
 Register
 &
 scratch
-uint32
+uint32_t
 *
 offset
 )
@@ -1960,7 +1960,7 @@ mozilla
 :
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialDepth
 =
@@ -1999,7 +1999,7 @@ dest
 scratch
 )
 ;
-uint32
+uint32_t
 descriptor
 =
 MakeFrameDescriptor
@@ -2069,7 +2069,7 @@ void
 fakeReturnAddr
 )
 {
-uint32
+uint32_t
 descriptor
 =
 MakeFrameDescriptor
@@ -2108,7 +2108,7 @@ IonCode
 target
 )
 {
-uint32
+uint32_t
 descriptor
 =
 MakeFrameDescriptor

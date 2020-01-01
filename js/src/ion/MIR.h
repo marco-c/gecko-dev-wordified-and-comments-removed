@@ -307,7 +307,7 @@ MNode
 *
 node_
 ;
-uint32
+uint32_t
 index_
 ;
 MUse
@@ -315,7 +315,7 @@ MUse
 MNode
 *
 owner
-uint32
+uint32_t
 index
 )
 :
@@ -340,7 +340,7 @@ New
 MNode
 *
 owner
-uint32
+uint32_t
 index
 )
 {
@@ -364,7 +364,7 @@ return
 node_
 ;
 }
-uint32
+uint32_t
 index
 (
 )
@@ -583,7 +583,7 @@ AliasSet
 {
 private
 :
-uint32
+uint32_t
 flags_
 ;
 public
@@ -640,7 +640,7 @@ Store_
 ;
 AliasSet
 (
-uint32
+uint32_t
 flags
 )
 :
@@ -666,7 +666,7 @@ flags_
 None_
 ;
 }
-uint32
+uint32_t
 flags
 (
 )
@@ -778,7 +778,7 @@ static
 AliasSet
 Load
 (
-uint32
+uint32_t
 flags
 )
 {
@@ -806,7 +806,7 @@ static
 AliasSet
 Store
 (
-uint32
+uint32_t
 flags
 )
 {
@@ -893,7 +893,7 @@ MUse
 >
 uses_
 ;
-uint32
+uint32_t
 id_
 ;
 ValueNumberData
@@ -907,7 +907,7 @@ range_
 MIRType
 resultType_
 ;
-uint32
+uint32_t
 flags_
 ;
 union
@@ -916,7 +916,7 @@ MDefinition
 *
 dependency_
 ;
-uint32
+uint32_t
 virtualRegister_
 ;
 }
@@ -966,7 +966,7 @@ block
 bool
 hasFlags
 (
-uint32
+uint32_t
 flags
 )
 const
@@ -985,7 +985,7 @@ flags
 void
 removeFlags
 (
-uint32
+uint32_t
 flags
 )
 {
@@ -999,7 +999,7 @@ flags
 void
 setFlags
 (
-uint32
+uint32_t
 flags
 )
 {
@@ -1217,7 +1217,7 @@ MNode
 Definition
 ;
 }
-uint32
+uint32_t
 id
 (
 )
@@ -1235,7 +1235,7 @@ id_
 void
 setId
 (
-uint32
+uint32_t
 id
 )
 {
@@ -1244,7 +1244,7 @@ id_
 id
 ;
 }
-uint32
+uint32_t
 valueNumber
 (
 )
@@ -1253,7 +1253,7 @@ const
 void
 setValueNumber
 (
-uint32
+uint32_t
 vn
 )
 ;
@@ -1603,7 +1603,7 @@ use
 void
 setVirtualRegister
 (
-uint32
+uint32_t
 vreg
 )
 {
@@ -1621,7 +1621,7 @@ setLoweredUnchecked
 #
 endif
 }
-uint32
+uint32_t
 virtualRegister
 (
 )
@@ -2469,7 +2469,7 @@ MParameter
 public
 MNullaryInstruction
 {
-int32
+int32_t
 index_
 ;
 const
@@ -2484,7 +2484,7 @@ public
 :
 static
 const
-int32
+int32_t
 THIS_SLOT
 =
 -
@@ -2492,7 +2492,7 @@ THIS_SLOT
 ;
 MParameter
 (
-int32
+int32_t
 index
 const
 types
@@ -2530,7 +2530,7 @@ MParameter
 *
 New
 (
-int32
+int32_t
 index
 const
 types
@@ -2541,7 +2541,7 @@ TypeSet
 types
 )
 ;
-int32
+int32_t
 index
 (
 )
@@ -2754,10 +2754,10 @@ MDefinition
 *
 operand_
 ;
-int32
+int32_t
 low_
 ;
-int32
+int32_t
 high_
 ;
 MTableSwitch
@@ -2765,9 +2765,9 @@ MTableSwitch
 MDefinition
 *
 ins
-int32
+int32_t
 low
-int32
+int32_t
 high
 )
 :
@@ -2833,9 +2833,9 @@ New
 MDefinition
 *
 ins
-int32
+int32_t
 low
-int32
+int32_t
 high
 )
 ;
@@ -2934,7 +2934,7 @@ length
 )
 ;
 }
-int32
+int32_t
 low
 (
 )
@@ -2944,7 +2944,7 @@ return
 low_
 ;
 }
-int32
+int32_t
 high
 (
 )
@@ -3725,7 +3725,7 @@ NewArray_Unallocating
 ;
 private
 :
-uint32
+uint32_t
 count_
 ;
 CompilerRootObject
@@ -3743,7 +3743,7 @@ NewArray
 ;
 MNewArray
 (
-uint32
+uint32_t
 count
 JSObject
 *
@@ -3771,7 +3771,7 @@ MIRType_Object
 )
 ;
 }
-uint32
+uint32_t
 count
 (
 )
@@ -4052,7 +4052,7 @@ MPrepareCall
 )
 {
 }
-uint32
+uint32_t
 argc
 (
 )
@@ -4197,7 +4197,7 @@ construct_
 CompilerRootFunction
 target_
 ;
-uint32
+uint32_t
 numActualArgs_
 ;
 MCall
@@ -4205,7 +4205,7 @@ MCall
 JSFunction
 *
 target
-uint32
+uint32_t
 numActualArgs
 bool
 construct
@@ -4349,7 +4349,7 @@ MDefinition
 *
 getArg
 (
-uint32
+uint32_t
 index
 )
 const
@@ -4384,7 +4384,7 @@ return
 construct_
 ;
 }
-uint32
+uint32_t
 numStackArgs
 (
 )
@@ -4398,7 +4398,7 @@ numOperands
 NumNonArgumentOperands
 ;
 }
-uint32
+uint32_t
 numActualArgs
 (
 )
@@ -6392,7 +6392,7 @@ MPassArg
 public
 MUnaryInstruction
 {
-int32
+int32_t
 argnum_
 ;
 private
@@ -6467,7 +6467,7 @@ getOperand
 void
 setArgnum
 (
-uint32
+uint32_t
 argnum
 )
 {
@@ -6476,7 +6476,7 @@ argnum_
 argnum
 ;
 }
-uint32
+uint32_t
 getArgnum
 (
 )
@@ -6492,7 +6492,7 @@ argnum_
 ;
 return
 (
-uint32
+uint32_t
 )
 argnum_
 ;
@@ -10448,7 +10448,7 @@ IonAllocPolicy
 >
 inputs_
 ;
-uint32
+uint32_t
 slot_
 ;
 bool
@@ -10462,7 +10462,7 @@ isIterator_
 ;
 MPhi
 (
-uint32
+uint32_t
 slot
 )
 :
@@ -10521,7 +10521,7 @@ MPhi
 *
 New
 (
-uint32
+uint32_t
 slot
 )
 ;
@@ -10555,7 +10555,7 @@ length
 )
 ;
 }
-uint32
+uint32_t
 slot
 (
 )
@@ -10998,7 +10998,7 @@ minUses_
 ;
 MRecompileCheck
 (
-uint32
+uint32_t
 minUses
 )
 :
@@ -12697,10 +12697,10 @@ MBoundsCheck
 public
 MBinaryInstruction
 {
-int32
+int32_t
 minimum_
 ;
-int32
+int32_t
 maximum_
 ;
 MBoundsCheck
@@ -12824,7 +12824,7 @@ getOperand
 )
 ;
 }
-int32
+int32_t
 minimum
 (
 )
@@ -12837,7 +12837,7 @@ minimum_
 void
 setMinimum
 (
-int32
+int32_t
 n
 )
 {
@@ -12846,7 +12846,7 @@ minimum_
 n
 ;
 }
-int32
+int32_t
 maximum
 (
 )
@@ -12859,7 +12859,7 @@ maximum_
 void
 setMaximum
 (
-int32
+int32_t
 n
 )
 {
@@ -12964,7 +12964,7 @@ MBoundsCheckLower
 public
 MUnaryInstruction
 {
-int32
+int32_t
 minimum_
 ;
 MBoundsCheckLower
@@ -13044,7 +13044,7 @@ getOperand
 )
 ;
 }
-int32
+int32_t
 minimum
 (
 )
@@ -13057,7 +13057,7 @@ minimum_
 void
 setMinimum
 (
-int32
+int32_t
 n
 )
 {
@@ -17586,7 +17586,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
-uint32
+uint32_t
 slot_
 ;
 MLoadSlot
@@ -17594,7 +17594,7 @@ MLoadSlot
 MDefinition
 *
 slots
-uint32
+uint32_t
 slot
 )
 :
@@ -17645,7 +17645,7 @@ New
 MDefinition
 *
 slots
-uint32
+uint32_t
 slot
 )
 {
@@ -17682,7 +17682,7 @@ getOperand
 )
 ;
 }
-uint32
+uint32_t
 slot
 (
 )
@@ -17856,7 +17856,7 @@ MBinaryInstruction
 public
 SingleObjectPolicy
 {
-uint32
+uint32_t
 slot_
 ;
 MIRType
@@ -17870,7 +17870,7 @@ MStoreSlot
 MDefinition
 *
 slots
-uint32
+uint32_t
 slot
 MDefinition
 *
@@ -17926,7 +17926,7 @@ New
 MDefinition
 *
 slots
-uint32
+uint32_t
 slot
 MDefinition
 *
@@ -17952,7 +17952,7 @@ NewBarriered
 MDefinition
 *
 slots
-uint32
+uint32_t
 slot
 MDefinition
 *
@@ -18008,7 +18008,7 @@ getOperand
 )
 ;
 }
-uint32
+uint32_t
 slot
 (
 )
@@ -19729,7 +19729,7 @@ MUnaryInstruction
 public
 SingleObjectPolicy
 {
-uint8
+uint8_t
 flags_
 ;
 MIteratorStart
@@ -19737,7 +19737,7 @@ MIteratorStart
 MDefinition
 *
 obj
-uint8
+uint8_t
 flags
 )
 :
@@ -19771,7 +19771,7 @@ New
 MDefinition
 *
 obj
-uint8
+uint8_t
 flags
 )
 {
@@ -19808,7 +19808,7 @@ getOperand
 )
 ;
 }
-uint8
+uint8_t
 flags
 (
 )
@@ -21449,7 +21449,7 @@ MDefinition
 *
 operands_
 ;
-uint32
+uint32_t
 stackDepth_
 ;
 jsbytecode
@@ -21605,7 +21605,7 @@ return
 pc_
 ;
 }
-uint32
+uint32_t
 stackDepth
 (
 )
@@ -21638,13 +21638,13 @@ caller_
 caller
 ;
 }
-uint32
+uint32_t
 frameCount
 (
 )
 const
 {
-uint32
+uint32_t
 count
 =
 1

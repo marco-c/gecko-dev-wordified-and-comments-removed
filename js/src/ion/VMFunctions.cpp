@@ -185,7 +185,7 @@ cx
 JSFunction
 *
 fun
-uint32
+uint32_t
 argc
 Value
 *
@@ -393,7 +393,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 argc
 Value
 *

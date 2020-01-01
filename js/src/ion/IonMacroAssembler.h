@@ -2821,7 +2821,7 @@ InvalidReg
 )
 ;
 }
-uint32
+uint32_t
 callIon
 (
 const
@@ -2842,7 +2842,7 @@ callIon
 callee
 )
 ;
-uint32
+uint32_t
 ret
 =
 currentOffset
@@ -2857,7 +2857,7 @@ return
 ret
 ;
 }
-uint32
+uint32_t
 callWithExitFrame
 (
 IonCode
@@ -2877,7 +2877,7 @@ callWithExitFrame
 target
 )
 ;
-uint32
+uint32_t
 ret
 =
 currentOffset
@@ -2892,7 +2892,7 @@ return
 ret
 ;
 }
-uint32
+uint32_t
 callWithExitFrame
 (
 IonCode
@@ -2915,7 +2915,7 @@ target
 dynStack
 )
 ;
-uint32
+uint32_t
 ret
 =
 currentOffset

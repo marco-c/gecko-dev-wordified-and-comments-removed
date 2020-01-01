@@ -194,7 +194,7 @@ fp
 current_
 (
 (
-uint8
+uint8_t
 *
 )
 fp
@@ -260,7 +260,7 @@ const
 AutoAssertNoGC
 nogc
 ;
-uint8
+uint8_t
 *
 returnAddr
 =
@@ -316,12 +316,12 @@ invalidated
 return
 false
 ;
-int32
+int32_t
 invalidationDataOffset
 =
 (
 (
-int32
+int32_t
 *
 )
 returnAddr
@@ -331,7 +331,7 @@ returnAddr
 1
 ]
 ;
-uint8
+uint8_t
 *
 ionScriptDataOffset
 =
@@ -849,7 +849,7 @@ argv
 1
 ;
 }
-uint8
+uint8_t
 *
 IonFrameIterator
 :
@@ -972,7 +972,7 @@ return
 this
 ;
 }
-uint8
+uint8_t
 *
 prev
 =
@@ -1133,7 +1133,7 @@ const
 InlineFrameIterator
 &
 frame
-uint32
+uint32_t
 localSlot
 )
 {
@@ -1150,7 +1150,7 @@ snapshotIterator
 (
 )
 ;
-uint32
+uint32_t
 base
 =
 CountArgSlots
@@ -1171,7 +1171,7 @@ script
 >
 nfixed
 ;
-uint32
+uint32_t
 skipSlots
 =
 base
@@ -1325,10 +1325,10 @@ trynotes
 >
 length
 ;
-uint32
+uint32_t
 pcOffset
 =
-uint32
+uint32_t
 (
 pc
 -
@@ -1432,7 +1432,7 @@ stackDepth
 0
 )
 ;
-uint32
+uint32_t
 localSlot
 =
 tn
@@ -2003,7 +2003,7 @@ isStackSlot
 )
 )
 {
-uint32
+uint32_t
 slot
 =
 a
@@ -2033,7 +2033,7 @@ slot
 )
 ;
 }
-uint32
+uint32_t
 index
 =
 a
@@ -2048,13 +2048,13 @@ index
 (
 )
 ;
-uint8
+uint8_t
 *
 argv
 =
 reinterpret_cast
 <
-uint8
+uint8_t
 *
 >
 (
@@ -2293,7 +2293,7 @@ ionScript
 si
 )
 ;
-uint32
+uint32_t
 slot
 ;
 while
@@ -3269,7 +3269,7 @@ explicitArgs
 )
 return
 ;
-uint8
+uint8_t
 *
 argBase
 =
@@ -3286,7 +3286,7 @@ argBase
 ;
 for
 (
-uint32
+uint32_t
 explicitArg
 =
 0
@@ -4060,7 +4060,7 @@ callPointDisplacement_
 )
 ;
 }
-uint32
+uint32_t
 OsiIndex
 :
 :

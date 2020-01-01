@@ -89,7 +89,7 @@ analyzeLate
 (
 )
 {
-uint32
+uint32_t
 nextId
 =
 1

@@ -97,7 +97,7 @@ temp
 bits_
 =
 (
-uint32
+uint32_t
 *
 )
 alloc
@@ -443,7 +443,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 old
 =
 bits_

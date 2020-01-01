@@ -65,7 +65,7 @@ LoggingChecked
 false
 ;
 static
-uint32
+uint32_t
 LoggingBits
 =
 0
@@ -1136,7 +1136,7 @@ all
 )
 LoggingBits
 =
-uint32
+uint32_t
 (
 -
 1
@@ -1465,7 +1465,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 channel
 )
@@ -1494,7 +1494,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 channel
 )
@@ -1524,7 +1524,7 @@ LoggingBits
 1
 <
 <
-uint32
+uint32_t
 (
 channel
 )

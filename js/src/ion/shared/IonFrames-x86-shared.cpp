@@ -91,7 +91,7 @@ JS_ASSERT
 token
 )
 ;
-uint8
+uint8_t
 *
 rawBase
 =
@@ -109,7 +109,7 @@ raw
 (
 )
 ;
-uint8
+uint8_t
 *
 rawLimit
 =
@@ -129,7 +129,7 @@ instructionsSize
 (
 )
 ;
-uint8
+uint8_t
 *
 osiPoint
 =

@@ -408,9 +408,9 @@ LInstruction
 call
 Register
 callereg
-uint32
+uint32_t
 argc
-uint32
+uint32_t
 unusedStack
 )
 ;

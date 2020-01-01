@@ -153,7 +153,7 @@ return
 tableOffset_
 ;
 }
-uint32
+uint32_t
 frameSize
 (
 )
@@ -227,7 +227,7 @@ return
 snapshotOffset_
 ;
 }
-uint8
+uint8_t
 *
 parentStackPointer
 (
@@ -250,7 +250,7 @@ None
 )
 return
 (
-uint8
+uint8_t
 *
 )
 this
@@ -262,7 +262,7 @@ BailoutStack
 ;
 return
 (
-uint8
+uint8_t
 *
 )
 this
@@ -320,7 +320,7 @@ machine
 )
 )
 {
-uint8
+uint8_t
 *
 sp
 =
@@ -331,7 +331,7 @@ parentStackPointer
 (
 )
 ;
-uint8
+uint8_t
 *
 fp
 =
@@ -506,7 +506,7 @@ BAILOUT_TABLE_ENTRY_SIZE
 0
 )
 ;
-uint32
+uint32_t
 bailoutId
 =
 (
@@ -601,7 +601,7 @@ returnAddressToFp_
 current_
 =
 (
-uint8
+uint8_t
 *
 )
 bailout

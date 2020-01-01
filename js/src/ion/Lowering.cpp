@@ -1091,7 +1091,7 @@ getArgument
 (
 )
 ;
-uint32
+uint32_t
 argslot
 =
 getArgumentSlot
@@ -1382,7 +1382,7 @@ type
 MIRType_Object
 )
 ;
-uint32
+uint32_t
 argslot
 =
 getArgumentSlotForCall
@@ -2150,7 +2150,7 @@ isConstant
 )
 )
 {
-int32
+int32_t
 num
 =
 opd
@@ -6715,7 +6715,7 @@ coerces
 to
 NaN
 not
-int32
+int32_t
 .
 "
 )
@@ -12962,7 +12962,7 @@ LIRGenerator
 :
 allocateArguments
 (
-uint32
+uint32_t
 argc
 )
 {
@@ -12982,13 +12982,13 @@ maxargslots_
 argslots_
 ;
 }
-uint32
+uint32_t
 LIRGenerator
 :
 :
 getArgumentSlot
 (
-uint32
+uint32_t
 argnum
 )
 {
@@ -13011,7 +13011,7 @@ LIRGenerator
 :
 freeArguments
 (
-uint32
+uint32_t
 argc
 )
 {
@@ -13140,7 +13140,7 @@ successorWithPhis
 (
 )
 ;
-uint32
+uint32_t
 position
 =
 block

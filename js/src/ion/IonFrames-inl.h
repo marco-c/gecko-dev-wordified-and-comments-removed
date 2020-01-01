@@ -185,7 +185,7 @@ current_
 ;
 }
 inline
-uint8
+uint8_t
 *
 IonFrameIterator
 :

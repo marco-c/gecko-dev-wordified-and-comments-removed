@@ -121,7 +121,7 @@ CompileInfo
 info
 size_t
 inliningDepth
-uint32
+uint32_t
 loopDepth
 )
 :
@@ -353,7 +353,7 @@ endif
 }
 static
 inline
-int32
+int32_t
 GetJumpOffset
 (
 jsbytecode
@@ -725,7 +725,7 @@ IonBuilder
 :
 getSingleCallTarget
 (
-uint32
+uint32_t
 argc
 jsbytecode
 *
@@ -809,7 +809,7 @@ IonBuilder
 :
 getPolyCallTargets
 (
-uint32
+uint32_t
 argc
 jsbytecode
 *
@@ -1473,7 +1473,7 @@ false
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1685,7 +1685,7 @@ setGuard
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2487,7 +2487,7 @@ nlocals
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -2641,14 +2641,14 @@ scopeChainSlot
 ;
 static
 const
-uint32
+uint32_t
 START_SLOT
 =
 1
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 START_SLOT
@@ -2922,7 +2922,7 @@ param
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -10065,7 +10065,7 @@ numCases
 =
 =
 (
-uint32
+uint32_t
 )
 (
 high
@@ -11199,7 +11199,7 @@ jsop_dup2
 (
 )
 {
-uint32
+uint32_t
 lhsSlot
 =
 current
@@ -11211,7 +11211,7 @@ stackDepth
 -
 2
 ;
-uint32
+uint32_t
 rhsSlot
 =
 current
@@ -12719,7 +12719,7 @@ jsop_call_inline
 (
 HandleFunction
 callee
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -12823,7 +12823,7 @@ false
 ;
 for
 (
-int32
+int32_t
 i
 =
 argc
@@ -13222,7 +13222,7 @@ makeInliningDecision
 AutoObjectVector
 &
 targets
-uint32
+uint32_t
 argc
 )
 {
@@ -14587,7 +14587,7 @@ prepCall
 ;
 for
 (
-int32
+int32_t
 i
 =
 0
@@ -14602,7 +14602,7 @@ i
 +
 )
 {
-int32
+int32_t
 argno
 =
 argc
@@ -14759,7 +14759,7 @@ inlineScriptedCall
 AutoObjectVector
 &
 targets
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -14780,7 +14780,7 @@ barrier
 #
 ifdef
 DEBUG
-uint32
+uint32_t
 origStackDepth
 =
 current
@@ -14830,7 +14830,7 @@ current
 ;
 for
 (
-int32
+int32_t
 i
 =
 argc
@@ -16870,7 +16870,7 @@ IonBuilder
 :
 jsop_funcall
 (
-uint32
+uint32_t
 argc
 )
 {
@@ -17143,7 +17143,7 @@ IonBuilder
 :
 jsop_funapply
 (
-uint32
+uint32_t
 argc
 )
 {
@@ -17583,7 +17583,7 @@ IonBuilder
 :
 jsop_call
 (
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -17785,13 +17785,13 @@ makeCallHelper
 (
 HandleFunction
 target
-uint32
+uint32_t
 argc
 bool
 constructing
 )
 {
-uint32
+uint32_t
 targetArgs
 =
 argc
@@ -17813,7 +17813,7 @@ targetArgs
 =
 Max
 <
-uint32
+uint32_t
 >
 (
 target
@@ -17933,7 +17933,7 @@ pass
 }
 for
 (
-int32
+int32_t
 i
 =
 argc
@@ -18183,7 +18183,7 @@ makeCallBarrier
 (
 HandleFunction
 target
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -18256,7 +18256,7 @@ makeCall
 (
 HandleFunction
 target
-uint32
+uint32_t
 argc
 bool
 constructing
@@ -18406,7 +18406,7 @@ IonBuilder
 :
 getNewArrayTemplateObject
 (
-uint32
+uint32_t
 count
 )
 {
@@ -18516,7 +18516,7 @@ IonBuilder
 :
 jsop_newarray
 (
-uint32
+uint32_t
 count
 )
 {
@@ -19322,7 +19322,7 @@ add
 slots
 )
 ;
-uint32
+uint32_t
 slot
 =
 templateObject
@@ -19388,7 +19388,7 @@ addBlock
 MBasicBlock
 *
 block
-uint32
+uint32_t
 loopDepth
 )
 {
@@ -19589,7 +19589,7 @@ predecessor
 jsbytecode
 *
 pc
-uint32
+uint32_t
 loopDepth
 )
 {
@@ -19724,7 +19724,7 @@ entry
 )
 ;
 {
-uint32
+uint32_t
 slot
 =
 info
@@ -19776,7 +19776,7 @@ fun
 )
 )
 {
-uint32
+uint32_t
 slot
 =
 info
@@ -19836,7 +19836,7 @@ thisv
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -19856,7 +19856,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 slot
 =
 info
@@ -19920,7 +19920,7 @@ osrv
 }
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -19940,7 +19940,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 slot
 =
 info
@@ -19994,7 +19994,7 @@ osrv
 )
 ;
 }
-uint32
+uint32_t
 numSlots
 =
 preheader
@@ -20025,7 +20025,7 @@ nlocals
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -20039,7 +20039,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 slot
 =
 info
@@ -20232,7 +20232,7 @@ NULL
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -20274,7 +20274,7 @@ NULL
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 1
@@ -30782,7 +30782,7 @@ IonBuilder
 :
 jsop_deflocalfun
 (
-uint32
+uint32_t
 local
 JSFunction
 *
@@ -30866,7 +30866,7 @@ IonBuilder
 :
 jsop_defvar
 (
-uint32
+uint32_t
 index
 )
 {
@@ -31280,7 +31280,7 @@ IonBuilder
 :
 jsop_iter
 (
-uint8
+uint8_t
 flags
 )
 {

@@ -325,7 +325,7 @@ enqueueVirtualRegisterIntervals
 (
 )
 ;
-uint32
+uint32_t
 allocateSlotFor
 (
 const

@@ -91,7 +91,7 @@ InstructionInfo
 {
 Vector
 <
-uint32
+uint32_t
 2
 SystemAllocPolicy
 >
@@ -99,7 +99,7 @@ inputs
 ;
 Vector
 <
-uint32
+uint32_t
 1
 SystemAllocPolicy
 >
@@ -279,13 +279,13 @@ LBlock
 *
 block
 ;
-uint32
+uint32_t
 vreg
 ;
 LAllocation
 alloc
 ;
-uint32
+uint32_t
 index
 ;
 typedef
@@ -430,7 +430,7 @@ block
 LInstruction
 *
 ins
-uint32
+uint32_t
 vreg
 LAllocation
 alloc
@@ -444,7 +444,7 @@ addPredecessor
 LBlock
 *
 block
-uint32
+uint32_t
 vreg
 LAllocation
 alloc
@@ -476,7 +476,7 @@ private
 CodePosition
 (
 const
-uint32
+uint32_t
 &
 bits
 )
@@ -503,7 +503,7 @@ SUBPOSITION_MASK
 =
 1
 ;
-uint32
+uint32_t
 bits_
 ;
 public
@@ -537,7 +537,7 @@ bits_
 }
 CodePosition
 (
-uint32
+uint32_t
 instruction
 SubPosition
 where
@@ -554,7 +554,7 @@ JS_ASSERT
 (
 (
 (
-uint32
+uint32_t
 )
 where
 &
@@ -563,7 +563,7 @@ SUBPOSITION_MASK
 =
 =
 (
-uint32
+uint32_t
 )
 where
 )
@@ -578,12 +578,12 @@ INSTRUCTION_SHIFT
 )
 |
 (
-uint32
+uint32_t
 )
 where
 ;
 }
-uint32
+uint32_t
 ins
 (
 )
@@ -596,7 +596,7 @@ bits_
 INSTRUCTION_SHIFT
 ;
 }
-uint32
+uint32_t
 pos
 (
 )
@@ -927,7 +927,7 @@ InstructionData
 *
 insData_
 ;
-uint32
+uint32_t
 numIns_
 ;
 public
@@ -952,7 +952,7 @@ init
 MIRGenerator
 *
 gen
-uint32
+uint32_t
 numInstructions
 )
 {
@@ -1072,7 +1072,7 @@ operator
 [
 ]
 (
-uint32
+uint32_t
 ins
 )
 {
@@ -1193,7 +1193,7 @@ init
 CodePosition
 outputOf
 (
-uint32
+uint32_t
 pos
 )
 {
@@ -1235,7 +1235,7 @@ OUTPUT
 CodePosition
 inputOf
 (
-uint32
+uint32_t
 pos
 )
 {
@@ -1278,7 +1278,7 @@ LMoveGroup
 *
 getInputMoveGroup
 (
-uint32
+uint32_t
 ins
 )
 ;
@@ -1286,7 +1286,7 @@ LMoveGroup
 *
 getMoveGroupAfter
 (
-uint32
+uint32_t
 ins
 )
 ;

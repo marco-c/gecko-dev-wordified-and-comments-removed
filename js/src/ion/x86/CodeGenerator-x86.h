@@ -49,14 +49,14 @@ TempObject
 AbsoluteLabel
 label_
 ;
-uint32
+uint32_t
 index_
 ;
 public
 :
 DeferredDouble
 (
-uint32
+uint32_t
 index
 )
 :
@@ -77,7 +77,7 @@ return
 label_
 ;
 }
-uint32
+uint32_t
 index
 (
 )

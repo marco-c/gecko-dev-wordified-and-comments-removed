@@ -831,7 +831,7 @@ LSnapshot
 *
 snapshot_
 ;
-uint32
+uint32_t
 frameSize_
 ;
 public
@@ -841,7 +841,7 @@ OutOfLineBailout
 LSnapshot
 *
 snapshot
-uint32
+uint32_t
 frameSize
 )
 :

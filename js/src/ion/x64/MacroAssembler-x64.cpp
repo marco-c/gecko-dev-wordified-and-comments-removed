@@ -49,7 +49,7 @@ MacroAssemblerX64
 :
 setupABICall
 (
-uint32
+uint32_t
 args
 )
 {
@@ -86,7 +86,7 @@ MacroAssemblerX64
 :
 setupAlignedABICall
 (
-uint32
+uint32_t
 args
 )
 {
@@ -106,7 +106,7 @@ MacroAssemblerX64
 :
 setupUnalignedABICall
 (
-uint32
+uint32_t
 args
 const
 Register
@@ -362,7 +362,7 @@ passedIntArgs_
 passedFloatArgs_
 )
 ;
-uint32
+uint32_t
 stackAdjust
 ;
 if

@@ -63,7 +63,7 @@ AliasSetIterator
 {
 private
 :
-uint32
+uint32_t
 flags
 ;
 unsigned
@@ -274,7 +274,7 @@ return
 false
 ;
 }
-uint32
+uint32_t
 newId
 =
 1

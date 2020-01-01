@@ -119,7 +119,7 @@ HashMap
 <
 MDefinition
 *
-uint32
+uint32_t
 ValueHasher
 IonAllocPolicy
 >
@@ -132,7 +132,7 @@ MDefinition
 *
 def
 ;
-uint32
+uint32_t
 validUntil
 ;
 }
@@ -140,11 +140,11 @@ validUntil
 typedef
 HashMap
 <
-uint32
+uint32_t
 DominatingValue
 DefaultHasher
 <
-uint32
+uint32_t
 >
 IonAllocPolicy
 >
@@ -152,7 +152,7 @@ InstructionMap
 ;
 protected
 :
-uint32
+uint32_t
 lookupValue
 (
 MDefinition
@@ -355,7 +355,7 @@ MDefinition
 *
 )
 ;
-uint32
+uint32_t
 number
 ;
 MDefinition
@@ -389,7 +389,7 @@ NULL
 void
 setValueNumber
 (
-uint32
+uint32_t
 number_
 )
 {
@@ -398,7 +398,7 @@ number
 number_
 ;
 }
-uint32
+uint32_t
 valueNumber
 (
 )

@@ -444,7 +444,7 @@ rejoinLabel
 )
 const
 {
-uint8
+uint8_t
 *
 ptr
 =
@@ -457,7 +457,7 @@ raw
 #
 ifdef
 JS_CPU_ARM
-uint32
+uint32_t
 i
 =
 0

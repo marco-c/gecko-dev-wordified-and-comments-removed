@@ -169,7 +169,7 @@ isCall
 )
 )
 ;
-uint32
+uint32_t
 vreg
 =
 getVirtualRegister
@@ -401,7 +401,7 @@ lir
 MDefinition
 *
 mir
-uint32
+uint32_t
 operand
 )
 {
@@ -513,7 +513,7 @@ isCall
 )
 )
 ;
-uint32
+uint32_t
 vreg
 =
 getVirtualRegister
@@ -680,7 +680,7 @@ isCall
 )
 )
 ;
-uint32
+uint32_t
 vreg
 =
 getVirtualRegister
@@ -1038,7 +1038,7 @@ MDefinition
 inMir
 )
 {
-uint32
+uint32_t
 vreg
 =
 inMir
@@ -1727,7 +1727,7 @@ Policy
 policy
 )
 {
-uint32
+uint32_t
 vreg
 =
 getVirtualRegister
@@ -1831,7 +1831,7 @@ tempCopy
 MDefinition
 *
 input
-uint32
+uint32_t
 reusedInput
 )
 {
@@ -1972,7 +1972,7 @@ ifdef
 JS_NUNBOX32
 static
 inline
-uint32
+uint32_t
 VirtualRegisterOfPayload
 (
 MDefinition

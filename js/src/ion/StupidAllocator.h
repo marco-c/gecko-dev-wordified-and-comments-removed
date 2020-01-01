@@ -25,7 +25,7 @@ RegisterAllocator
 {
 static
 const
-uint32
+uint32_t
 MAX_REGISTERS
 =
 Registers
@@ -40,7 +40,7 @@ Allocatable
 ;
 static
 const
-uint32
+uint32_t
 MISSING_ALLOCATION
 =
 UINT32_MAX
@@ -51,10 +51,10 @@ AllocatedRegister
 AnyRegister
 reg
 ;
-uint32
+uint32_t
 vreg
 ;
-uint32
+uint32_t
 age
 ;
 bool
@@ -63,7 +63,7 @@ dirty
 void
 set
 (
-uint32
+uint32_t
 vreg
 LInstruction
 *
@@ -115,11 +115,11 @@ registers
 MAX_REGISTERS
 ]
 ;
-uint32
+uint32_t
 registerCount
 ;
 typedef
-uint32
+uint32_t
 RegisterIndex
 ;
 Vector
@@ -200,7 +200,7 @@ LAllocation
 *
 stackLocation
 (
-uint32
+uint32_t
 vreg
 )
 ;
@@ -217,7 +217,7 @@ ensureHasRegister
 LInstruction
 *
 ins
-uint32
+uint32_t
 vreg
 )
 ;
@@ -227,7 +227,7 @@ allocateRegister
 LInstruction
 *
 ins
-uint32
+uint32_t
 vreg
 )
 ;
@@ -257,7 +257,7 @@ loadRegister
 LInstruction
 *
 ins
-uint32
+uint32_t
 vreg
 RegisterIndex
 index
@@ -266,7 +266,7 @@ index
 RegisterIndex
 findExistingRegister
 (
-uint32
+uint32_t
 vreg
 )
 ;

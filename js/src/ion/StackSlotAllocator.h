@@ -25,7 +25,7 @@ js
 :
 Vector
 <
-uint32
+uint32_t
 4
 SystemAllocPolicy
 >
@@ -36,13 +36,13 @@ js
 :
 Vector
 <
-uint32
+uint32_t
 4
 SystemAllocPolicy
 >
 doubleSlots
 ;
-uint32
+uint32_t
 height_
 ;
 public
@@ -60,7 +60,7 @@ height_
 void
 freeSlot
 (
-uint32
+uint32_t
 index
 )
 {
@@ -75,7 +75,7 @@ index
 void
 freeDoubleSlot
 (
-uint32
+uint32_t
 index
 )
 {
@@ -90,7 +90,7 @@ index
 void
 freeValueSlot
 (
-uint32
+uint32_t
 index
 )
 {
@@ -100,7 +100,7 @@ index
 )
 ;
 }
-uint32
+uint32_t
 allocateDoubleSlot
 (
 )
@@ -154,7 +154,7 @@ return
 height_
 ;
 }
-uint32
+uint32_t
 allocateSlot
 (
 )
@@ -185,7 +185,7 @@ empty
 )
 )
 {
-uint32
+uint32_t
 index
 =
 doubleSlots
@@ -213,7 +213,7 @@ return
 height_
 ;
 }
-uint32
+uint32_t
 allocateValueSlot
 (
 )
@@ -224,7 +224,7 @@ allocateDoubleSlot
 )
 ;
 }
-uint32
+uint32_t
 stackHeight
 (
 )

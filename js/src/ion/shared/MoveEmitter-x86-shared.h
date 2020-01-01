@@ -55,13 +55,13 @@ MacroAssemblerSpecific
 &
 masm
 ;
-uint32
+uint32_t
 pushedAtStart_
 ;
-int32
+int32_t
 pushedAtCycle_
 ;
-int32
+int32_t
 pushedAtSpill_
 ;
 Register

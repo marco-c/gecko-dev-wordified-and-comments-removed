@@ -171,7 +171,7 @@ copy
 IonCode
 *
 code
-uint8
+uint8_t
 *
 ignore__
 )
@@ -272,7 +272,7 @@ label
 (
 )
 ;
-uint32
+uint32_t
 offset
 =
 caseheader
@@ -1144,7 +1144,7 @@ snapshot
 )
 )
 {
-uint8
+uint8_t
 *
 code
 =
@@ -1303,7 +1303,7 @@ snapshot
 )
 )
 {
-uint8
+uint8_t
 *
 code
 =
@@ -2273,7 +2273,7 @@ Assembler
 :
 Overflow
 ;
-int32
+int32_t
 constant
 =
 ToInt32
@@ -2473,7 +2473,7 @@ ToRegister
 lhs
 )
 ;
-uint32
+uint32_t
 shift
 ;
 JS_FLOOR_LOG2
@@ -2482,7 +2482,7 @@ shift
 constant
 )
 ;
-uint32
+uint32_t
 rest
 =
 constant
@@ -2529,7 +2529,7 @@ true
 }
 else
 {
-uint32
+uint32_t
 shift_rest
 ;
 JS_FLOOR_LOG2
@@ -2616,7 +2616,7 @@ dest
 )
 )
 {
-uint32
+uint32_t
 shift
 ;
 JS_FLOOR_LOG2
@@ -5011,7 +5011,7 @@ label
 (
 )
 ;
-int32
+int32_t
 cases
 =
 mir
@@ -5674,7 +5674,7 @@ output
 }
 static
 const
-uint32
+uint32_t
 FrameSizes
 [
 ]
@@ -5692,13 +5692,13 @@ FrameSizeClass
 :
 FromDepth
 (
-uint32
+uint32_t
 frameDepth
 )
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -5758,7 +5758,7 @@ FrameSizes
 )
 ;
 }
-uint32
+uint32_t
 FrameSizeClass
 :
 :
@@ -7582,7 +7582,7 @@ input
 )
 )
 ;
-int32
+int32_t
 offset
 =
 load
@@ -7645,7 +7645,7 @@ input
 )
 )
 ;
-int32
+int32_t
 offset
 =
 load
@@ -7756,7 +7756,7 @@ slots
 )
 )
 ;
-int32
+int32_t
 offset
 =
 store
@@ -8570,7 +8570,7 @@ tmp
 Imm32
 (
 (
-uint32
+uint32_t
 )
 guard
 -

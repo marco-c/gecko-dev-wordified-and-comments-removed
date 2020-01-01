@@ -118,7 +118,7 @@ fpregs_
 )
 ;
 }
-uint32
+uint32_t
 snapshotOffset
 (
 )
@@ -128,7 +128,7 @@ return
 snapshotOffset_
 ;
 }
-uint32
+uint32_t
 frameSize
 (
 )
@@ -138,7 +138,7 @@ return
 frameSize_
 ;
 }
-uint8
+uint8_t
 *
 parentStackPointer
 (
@@ -146,7 +146,7 @@ parentStackPointer
 {
 return
 (
-uint8
+uint8_t
 *
 )
 this
@@ -203,7 +203,7 @@ machineState
 )
 )
 {
-uint8
+uint8_t
 *
 sp
 =
@@ -214,7 +214,7 @@ parentStackPointer
 (
 )
 ;
-uint8
+uint8_t
 *
 fp
 =
@@ -322,7 +322,7 @@ returnAddressToFp_
 current_
 =
 (
-uint8
+uint8_t
 *
 )
 bailout

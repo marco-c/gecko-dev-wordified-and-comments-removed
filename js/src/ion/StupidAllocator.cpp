@@ -18,10 +18,10 @@ ion
 ;
 static
 inline
-uint32
+uint32_t
 DefaultStackSlot
 (
-uint32
+uint32_t
 vreg
 )
 {
@@ -55,7 +55,7 @@ StupidAllocator
 :
 stackLocation
 (
-uint32
+uint32_t
 vreg
 )
 {
@@ -476,7 +476,7 @@ getDef
 0
 )
 ;
-uint32
+uint32_t
 vreg
 =
 def
@@ -824,7 +824,7 @@ ensureHasRegister
 LInstruction
 *
 ins
-uint32
+uint32_t
 vreg
 )
 {
@@ -928,7 +928,7 @@ allocateRegister
 LInstruction
 *
 ins
-uint32
+uint32_t
 vreg
 )
 {
@@ -1120,7 +1120,7 @@ index
 reg
 )
 ;
-uint32
+uint32_t
 existing
 =
 registers
@@ -1198,7 +1198,7 @@ loadRegister
 LInstruction
 *
 ins
-uint32
+uint32_t
 vreg
 RegisterIndex
 index
@@ -1272,7 +1272,7 @@ StupidAllocator
 :
 findExistingRegister
 (
-uint32
+uint32_t
 vreg
 )
 {
@@ -1548,7 +1548,7 @@ if
 successor
 )
 {
-uint32
+uint32_t
 position
 =
 block
@@ -1612,7 +1612,7 @@ getPhi
 i
 )
 ;
-uint32
+uint32_t
 sourcevreg
 =
 phi
@@ -1633,7 +1633,7 @@ virtualRegister
 (
 )
 ;
-uint32
+uint32_t
 destvreg
 =
 phi
@@ -1835,7 +1835,7 @@ toUse
 (
 )
 ;
-uint32
+uint32_t
 vreg
 =
 use
@@ -2138,7 +2138,7 @@ toUse
 (
 )
 ;
-uint32
+uint32_t
 vreg
 =
 use
@@ -2313,7 +2313,7 @@ LDefinition
 def
 )
 {
-uint32
+uint32_t
 vreg
 =
 def

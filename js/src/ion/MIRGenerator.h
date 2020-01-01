@@ -279,7 +279,7 @@ JSFunction
 *
 fun_
 ;
-uint32
+uint32_t
 nslots_
 ;
 MIRGraph

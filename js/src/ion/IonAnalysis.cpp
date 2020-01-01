@@ -356,7 +356,7 @@ isParameter
 )
 continue
 ;
-uint32
+uint32_t
 maxDefinition
 =
 0
@@ -851,7 +851,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 slot
 =
 phi
@@ -919,7 +919,7 @@ callerResumePoint
 )
 )
 ;
-uint32
+uint32_t
 first
 =
 info
@@ -4465,7 +4465,7 @@ ins
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -4516,7 +4516,7 @@ MBoundsCheck
 *
 check
 ;
-uint32
+uint32_t
 validUntil
 ;
 }
@@ -4524,11 +4524,11 @@ validUntil
 typedef
 HashMap
 <
-uint32
+uint32_t
 BoundsCheckInfo
 DefaultHasher
 <
-uint32
+uint32_t
 >
 IonAllocPolicy
 >
@@ -4905,7 +4905,7 @@ isAdd
 )
 )
 {
-int32
+int32_t
 constant
 ;
 if
@@ -4956,7 +4956,7 @@ lsum
 term
 )
 {
-int32
+int32_t
 constant
 ;
 if
@@ -5378,7 +5378,7 @@ eliminated
 =
 true
 ;
-int32
+int32_t
 minimumA
 maximumA
 minimumB
@@ -5458,7 +5458,7 @@ return
 false
 ;
 }
-int32
+int32_t
 newMinimum
 newMaximum
 ;
@@ -5859,7 +5859,7 @@ LinearSum
 :
 multiply
 (
-int32
+int32_t
 scale
 )
 {
@@ -5997,7 +5997,7 @@ add
 MDefinition
 *
 term
-int32
+int32_t
 scale
 )
 {
@@ -6026,7 +6026,7 @@ isConstant
 )
 )
 {
-int32
+int32_t
 constant
 =
 term
@@ -6180,7 +6180,7 @@ LinearSum
 :
 add
 (
-int32
+int32_t
 constant
 )
 {
@@ -6226,7 +6226,7 @@ i
 +
 )
 {
-int32
+int32_t
 scale
 =
 terms_
@@ -6236,7 +6236,7 @@ i
 .
 scale
 ;
-int32
+int32_t
 id
 =
 terms_

@@ -482,7 +482,7 @@ fun
 )
 ;
 }
-uint32
+uint32_t
 scopeChainSlot
 (
 )
@@ -492,7 +492,7 @@ return
 0
 ;
 }
-uint32
+uint32_t
 thisSlot
 (
 )
@@ -509,7 +509,7 @@ return
 1
 ;
 }
-uint32
+uint32_t
 firstArgSlot
 (
 )
@@ -526,10 +526,10 @@ return
 2
 ;
 }
-uint32
+uint32_t
 argSlot
 (
-uint32
+uint32_t
 i
 )
 const
@@ -542,7 +542,7 @@ firstArgSlot
 i
 ;
 }
-uint32
+uint32_t
 firstLocalSlot
 (
 )
@@ -557,10 +557,10 @@ fun
 )
 ;
 }
-uint32
+uint32_t
 localSlot
 (
-uint32
+uint32_t
 i
 )
 const
@@ -573,7 +573,7 @@ firstLocalSlot
 i
 ;
 }
-uint32
+uint32_t
 firstStackSlot
 (
 )
@@ -589,10 +589,10 @@ nlocals
 )
 ;
 }
-uint32
+uint32_t
 stackSlot
 (
-uint32
+uint32_t
 i
 )
 const

@@ -172,12 +172,12 @@ fail
 cx
 )
 ;
-uint8
+uint8_t
 *
 result
 =
 (
-uint8
+uint8_t
 *
 )
 comp
@@ -210,7 +210,7 @@ fail
 cx
 )
 ;
-uint8
+uint8_t
 *
 codeStart
 =
@@ -225,7 +225,7 @@ IonCode
 codeStart
 =
 (
-uint8
+uint8_t
 *
 )
 AlignBytes
@@ -237,7 +237,7 @@ codeStart
 CodeAlignment
 )
 ;
-uint32
+uint32_t
 headerSize
 =
 codeStart

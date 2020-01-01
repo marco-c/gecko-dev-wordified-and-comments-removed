@@ -245,7 +245,7 @@ MInstruction
 mir
 )
 {
-uint32
+uint32_t
 index
 ;
 if
@@ -314,7 +314,7 @@ type
 MIRType_Double
 )
 {
-uint32
+uint32_t
 index
 ;
 if
@@ -504,7 +504,7 @@ type
 )
 )
 ;
-uint32
+uint32_t
 vreg
 =
 getVirtualRegister
@@ -1156,7 +1156,7 @@ lirIndex
 VREG_DATA_OFFSET
 )
 ;
-uint32
+uint32_t
 typeVreg
 =
 getVirtualRegister
@@ -1181,7 +1181,7 @@ setVirtualRegister
 typeVreg
 )
 ;
-uint32
+uint32_t
 payloadVreg
 =
 getVirtualRegister
@@ -1263,7 +1263,7 @@ lowerUntypedPhiInput
 MPhi
 *
 phi
-uint32
+uint32_t
 inputPosition
 LBlock
 *
@@ -1560,7 +1560,7 @@ isConstant
 )
 )
 {
-int32
+int32_t
 rhs
 =
 mod
@@ -1584,7 +1584,7 @@ toInt32
 (
 )
 ;
-int32
+int32_t
 shift
 ;
 JS_FLOOR_LOG2

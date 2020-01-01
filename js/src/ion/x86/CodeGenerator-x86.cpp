@@ -100,7 +100,7 @@ graph
 }
 static
 const
-uint32
+uint32_t
 FrameSizes
 [
 ]
@@ -118,13 +118,13 @@ FrameSizeClass
 :
 FromDepth
 (
-uint32
+uint32_t
 frameDepth
 )
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -184,7 +184,7 @@ FrameSizes
 )
 ;
 }
-uint32
+uint32_t
 FrameSizeClass
 :
 :
@@ -970,7 +970,7 @@ input
 )
 )
 ;
-int32
+int32_t
 offset
 =
 load
@@ -1033,7 +1033,7 @@ input
 )
 )
 ;
-int32
+int32_t
 offset
 =
 load
@@ -1144,7 +1144,7 @@ slots
 )
 )
 ;
-int32
+int32_t
 offset
 =
 store

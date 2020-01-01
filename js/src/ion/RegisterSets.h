@@ -28,12 +28,12 @@ struct
 AnyRegister
 {
 typedef
-uint32
+uint32_t
 Code
 ;
 static
 const
-uint32
+uint32_t
 Total
 =
 Registers
@@ -48,7 +48,7 @@ Total
 ;
 static
 const
-uint32
+uint32_t
 Invalid
 =
 UINT_MAX
@@ -121,7 +121,7 @@ static
 AnyRegister
 FromCode
 (
-uint32
+uint32_t
 i
 )
 {
@@ -1056,7 +1056,7 @@ T
 class
 TypedRegisterSet
 {
-uint32
+uint32_t
 bits_
 ;
 public
@@ -1064,7 +1064,7 @@ public
 explicit
 TypedRegisterSet
 (
-uint32
+uint32_t
 bits
 )
 :
@@ -1220,7 +1220,7 @@ in
 )
 {
 const
-uint32
+uint32_t
 allocatableVolatile
 =
 T
@@ -1499,7 +1499,7 @@ bits_
 0
 ;
 }
-uint32
+uint32_t
 bits
 (
 )
@@ -1509,13 +1509,13 @@ return
 bits_
 ;
 }
-uint32
+uint32_t
 size
 (
 )
 const
 {
-uint32
+uint32_t
 sum2
 =
 (
@@ -1535,7 +1535,7 @@ bits_
 1
 )
 ;
-uint32
+uint32_t
 sum4
 =
 (
@@ -1555,7 +1555,7 @@ sum2
 2
 )
 ;
-uint32
+uint32_t
 sum8
 =
 (
@@ -1575,7 +1575,7 @@ sum4
 4
 )
 ;
-uint32
+uint32_t
 sum16
 =
 (
