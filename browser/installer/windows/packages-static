@@ -242,6 +242,9 @@ jar50
 dll
 #
 endif
+#
+ifndef
+MOZ_MEMORY
 bin
 \
 Microsoft
@@ -266,11 +269,15 @@ bin
 msvcr80
 .
 dll
+#
+else
 bin
 \
 mozcrt19
 .
 dll
+#
+endif
 [
 browser
 ]
