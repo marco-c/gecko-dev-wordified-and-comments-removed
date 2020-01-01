@@ -1934,6 +1934,9 @@ if
 mFlags
 &
 SkipInvisibleContent
+&
+~
+OutputNonTextContentAsPlaceholder
 )
 {
 if
