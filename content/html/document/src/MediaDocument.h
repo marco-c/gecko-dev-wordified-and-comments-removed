@@ -112,6 +112,15 @@ aSink
 nsnull
 )
 ;
+virtual
+void
+SetScriptGlobalObject
+(
+nsIScriptGlobalObject
+*
+aGlobalObject
+)
+;
 protected
 :
 virtual
@@ -204,6 +213,9 @@ eWithFile
 eWithDim
 eWithDimAndFile
 }
+;
+bool
+mDocumentElementInserted
 ;
 }
 ;

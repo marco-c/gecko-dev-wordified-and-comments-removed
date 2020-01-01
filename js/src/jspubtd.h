@@ -147,11 +147,11 @@ id
 endif
 JS_BEGIN_EXTERN_C
 typedef
-JSInt32
+int32_t
 jsint
 ;
 typedef
-JSUint32
+uint32_t
 jsuint
 ;
 typedef
@@ -159,7 +159,7 @@ double
 jsdouble
 ;
 typedef
-JSInt32
+int32_t
 jsrefcount
 ;
 #
@@ -172,7 +172,7 @@ jschar
 #
 else
 typedef
-JSUint16
+uint16_t
 jschar
 ;
 #

@@ -455,7 +455,7 @@ js_Int32ToId
 JSContext
 *
 cx
-int32
+int32_t
 index
 jsid
 *
@@ -533,7 +533,7 @@ T
 >
 BackfillIndexInCharBuffer
 (
-uint32
+uint32_t
 index
 mozilla
 :
@@ -562,7 +562,7 @@ UINT32_CHAR_BUFFER_LENGTH
 endif
 do
 {
-uint32
+uint32_t
 next
 =
 index
@@ -608,7 +608,7 @@ IndexToId
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 jsid
 *
@@ -642,7 +642,7 @@ IndexToIdSlow
 JSContext
 *
 cx
-uint32
+uint32_t
 index
 jsid
 *

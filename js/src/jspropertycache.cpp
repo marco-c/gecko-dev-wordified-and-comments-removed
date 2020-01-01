@@ -649,6 +649,9 @@ pobj
 *
 tmp
 ;
+#
+ifdef
+DEBUG
 JSScript
 *
 script
@@ -662,6 +665,8 @@ currentScript
 (
 )
 ;
+#
+endif
 JS_ASSERT
 (
 this
@@ -676,7 +681,7 @@ cx
 ;
 JS_ASSERT
 (
-uint32
+uint32_t
 (
 pc
 -
@@ -716,7 +721,7 @@ obj
 *
 objp
 ;
-uint32
+uint32_t
 vindex
 =
 entry

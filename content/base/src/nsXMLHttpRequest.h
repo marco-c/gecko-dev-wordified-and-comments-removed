@@ -587,14 +587,6 @@ JSContext
 aCx
 )
 ;
-nsresult
-CreateResponseArrayBuffer
-(
-JSContext
-*
-aCx
-)
-;
 bool
 CreateResponseBlob
 (

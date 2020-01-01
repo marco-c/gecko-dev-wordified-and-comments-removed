@@ -840,7 +840,7 @@ NS_IMETHODIMP
 nsJPEGEncoder
 :
 :
-GetImageBufferSize
+GetImageBufferUsed
 (
 PRUint32
 *
@@ -855,7 +855,7 @@ aOutputSize
 *
 aOutputSize
 =
-mImageBufferSize
+mImageBufferUsed
 ;
 return
 NS_OK

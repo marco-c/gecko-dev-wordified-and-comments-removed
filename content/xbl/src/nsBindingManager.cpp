@@ -3919,6 +3919,13 @@ PostProcessAttachedQueueEvent
 )
 ;
 }
+mDocument
+-
+>
+SetNeedStyleFlush
+(
+)
+;
 return
 NS_OK
 ;

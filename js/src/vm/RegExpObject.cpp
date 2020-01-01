@@ -1397,7 +1397,7 @@ source
 =
 0
 ;
-uint32
+uint32_t
 flagsword
 =
 0
@@ -1626,10 +1626,13 @@ obj
 {
 if
 (
-IS_GC_MARKING_TRACER
-(
 trc
-)
+-
+>
+runtime
+-
+>
+gcRunning
 )
 obj
 -

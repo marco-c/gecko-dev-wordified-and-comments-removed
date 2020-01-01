@@ -278,6 +278,11 @@ endif
 #
 ifdef
 XP_WIN32
+BINPATH
+/
+DLL_PREFIX
+gkmedias
+DLL_SUFFIX
 #
 if
 _MSC_VER

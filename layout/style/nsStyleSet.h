@@ -180,8 +180,10 @@ nsStyleSet
 )
 ;
 size_t
-SizeOf
+SizeOfIncludingThis
 (
+nsMallocSizeOfFun
+aMallocSizeOf
 )
 const
 ;

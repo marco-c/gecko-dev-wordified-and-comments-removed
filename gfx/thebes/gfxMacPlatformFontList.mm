@@ -2145,7 +2145,7 @@ if
 !
 aBuffer
 .
-AppendElements
+SetLength
 (
 dataLength
 )

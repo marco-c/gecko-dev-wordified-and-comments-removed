@@ -11,6 +11,13 @@ jsscript
 .
 h
 "
+#
+include
+"
+IonTypes
+.
+h
+"
 namespace
 js
 {

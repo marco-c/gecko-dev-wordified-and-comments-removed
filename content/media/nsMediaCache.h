@@ -26,6 +26,9 @@ nsCOMPtr
 h
 "
 class
+nsMediaStream
+;
+class
 nsByteRange
 ;
 namespace
@@ -325,6 +328,10 @@ IsSeekable
 bool
 AreAllStreamsForResourceSuspended
 (
+nsMediaStream
+*
+*
+aActiveStream
 )
 ;
 nsresult

@@ -235,10 +235,6 @@ cairo_font_face_t
 *
 mFontFace
 ;
-cairo_scaled_font_t
-*
-mScaledFont
-;
 Metrics
 mMetrics
 ;

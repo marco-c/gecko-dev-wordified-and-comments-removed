@@ -8078,7 +8078,7 @@ parser
 NodeBuilder
 builder
 ;
-uint32
+uint32_t
 lineno
 ;
 Value
@@ -8658,7 +8658,7 @@ char
 const
 *
 src
-uint32
+uint32_t
 ln
 )
 :
@@ -15806,7 +15806,7 @@ NodeVector
 args
 )
 {
-uint32
+uint32_t
 i
 =
 0
@@ -16058,7 +16058,7 @@ reflect_parse
 JSContext
 *
 cx
-uint32
+uint32_t
 argc
 jsval
 *
@@ -16133,7 +16133,7 @@ cx
 filename
 )
 ;
-uint32
+uint32_t
 lineno
 =
 1
@@ -16564,6 +16564,7 @@ Parser
 parser
 (
 cx
+NULL
 NULL
 NULL
 false

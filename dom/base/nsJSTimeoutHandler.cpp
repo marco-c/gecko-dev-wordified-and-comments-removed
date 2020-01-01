@@ -149,7 +149,7 @@ GetHandlerText
 )
 ;
 virtual
-void
+JSObject
 *
 GetScriptObject
 (
@@ -819,11 +819,6 @@ funobj
 =
 nsnull
 ;
-int32
-interval
-=
-0
-;
 JSAutoRequest
 ar
 (
@@ -864,6 +859,11 @@ return
 NS_ERROR_DOM_TYPE_ERR
 ;
 }
+int32_t
+interval
+=
+0
+;
 if
 (
 argc

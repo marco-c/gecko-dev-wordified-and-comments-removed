@@ -126,6 +126,10 @@ JSPrincipals
 *
 principals
 ;
+JSPrincipals
+*
+originPrincipals
+;
 StackFrame
 *
 const
@@ -139,7 +143,7 @@ callerVarObj
 ParseNodeAllocator
 allocator
 ;
-uint32
+uint32_t
 functionCount
 ;
 ObjectBox
@@ -164,6 +168,11 @@ cx
 JSPrincipals
 *
 prin
+=
+NULL
+JSPrincipals
+*
+originPrin
 =
 NULL
 StackFrame
@@ -223,6 +232,9 @@ setPrincipals
 JSPrincipals
 *
 prin
+JSPrincipals
+*
+originPrin
 )
 ;
 const

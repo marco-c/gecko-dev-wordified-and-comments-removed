@@ -810,7 +810,7 @@ BEGIN_TEST
 testDebugger_throwHook
 )
 {
-uint32
+uint32_t
 newopts
 =
 JS_GetOptions
@@ -822,7 +822,7 @@ JSOPTION_METHODJIT
 |
 JSOPTION_METHODJIT_ALWAYS
 ;
-uint32
+uint32_t
 oldopts
 =
 JS_SetOptions
@@ -1668,7 +1668,7 @@ NULL
 )
 )
 ;
-uint32
+uint32_t
 opts
 =
 JS_GetOptions

@@ -50,7 +50,7 @@ CGCT_END
 struct
 ConservativeGCStats
 {
-uint32
+uint32_t
 counter
 [
 gc
@@ -59,7 +59,7 @@ gc
 CGCT_END
 ]
 ;
-uint32
+uint32_t
 unaligned
 ;
 void

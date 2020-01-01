@@ -441,9 +441,6 @@ DEPTH
 /
 .
 .
-/
-.
-.
 topsrcdir
 =
 top_srcdir
@@ -462,8 +459,6 @@ devtools
 webconsole
 /
 test
-/
-browser
 include
 (
 DEPTH
@@ -860,6 +855,10 @@ browser_webconsole_bug_678816
 js
 \
 browser_webconsole_bug_664131_console_group
+.
+js
+\
+browser_webconsole_bug_704295
 .
 js
 \

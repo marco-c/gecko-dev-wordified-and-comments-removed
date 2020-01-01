@@ -813,6 +813,17 @@ rv
 rv
 )
 ;
+persist
+-
+>
+SetPersistFlags
+(
+nsIWebBrowserPersist
+:
+:
+PERSIST_FLAGS_AUTODETECT_APPLY_CONVERSION
+)
+;
 return
 persist
 -

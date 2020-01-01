@@ -521,6 +521,10 @@ testIntString
 .
 cpp
 \
+testIntTypesABI
+.
+cpp
+\
 testIntern
 .
 cpp
@@ -538,6 +542,10 @@ testNewObject
 cpp
 \
 testOps
+.
+cpp
+\
+testOriginPrincipals
 .
 cpp
 \

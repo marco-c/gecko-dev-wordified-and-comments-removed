@@ -1512,7 +1512,9 @@ fragment
 mFragmentStart
 ;
 }
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 nsCharSourceTraits
 <

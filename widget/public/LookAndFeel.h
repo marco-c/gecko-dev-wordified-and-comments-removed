@@ -191,6 +191,7 @@ eIntID_ImagesInButtons
 eIntID_MenuBarDrag
 eIntID_WindowsThemeIdentifier
 eIntID_ScrollbarButtonAutoRepeatBehavior
+eIntID_TooltipDelay
 }
 ;
 enum

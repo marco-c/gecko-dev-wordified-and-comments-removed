@@ -122,7 +122,7 @@ RegisterID
 MaybeRegisterID
 reg_
 ;
-int32
+int32_t
 index_
 ;
 Int32Key
@@ -160,7 +160,7 @@ static
 Int32Key
 FromConstant
 (
-int32
+int32_t
 index
 )
 {
@@ -177,7 +177,7 @@ return
 key
 ;
 }
-int32
+int32_t
 index
 (
 )
@@ -241,7 +241,7 @@ Address
 {
 FrameAddress
 (
-int32
+int32_t
 offset
 )
 :
@@ -296,17 +296,17 @@ val
 struct
 StackMarker
 {
-uint32
+uint32_t
 base
 ;
-uint32
+uint32_t
 bytes
 ;
 StackMarker
 (
-uint32
+uint32_t
 base
-uint32
+uint32_t
 bytes
 )
 :
@@ -394,7 +394,7 @@ doublePatches
 Registers
 availInCall
 ;
-uint32
+uint32_t
 extraStackSpace
 ;
 Registers
@@ -403,7 +403,7 @@ Registers
 CallConvention
 callConvention
 ;
-uint32
+uint32_t
 stackAdjust
 ;
 #
@@ -772,7 +772,7 @@ JSObject
 obj
 RegisterID
 reg
-uint32
+uint32_t
 slot
 )
 {
@@ -1210,7 +1210,7 @@ defined
 JS_CPU_X64
 static
 const
-uint64
+uint64_t
 DoubleNegMask
 =
 0x8000000000000000ULL
@@ -1331,12 +1331,12 @@ endif
 }
 static
 inline
-uint32
+uint32_t
 align
 (
-uint32
+uint32_t
 bytes
-uint32
+uint32_t
 alignment
 )
 {
@@ -1357,9 +1357,9 @@ alignment
 StackMarker
 allocStack
 (
-uint32
+uint32_t
 bytes
-uint32
+uint32_t
 alignment
 =
 4
@@ -1456,17 +1456,17 @@ reg
 }
 static
 const
-uint32
+uint32_t
 StackAlignment
 =
 16
 ;
 static
 inline
-uint32
+uint32_t
 alignForCall
 (
-uint32
+uint32_t
 stackBytes
 )
 {
@@ -1502,7 +1502,7 @@ ifdef
 _WIN64
 static
 const
-uint32
+uint32_t
 ReturnStackAdjustment
 =
 32
@@ -1521,7 +1521,7 @@ JS_NO_FASTCALL
 )
 static
 const
-uint32
+uint32_t
 ReturnStackAdjustment
 =
 16
@@ -1530,7 +1530,7 @@ ReturnStackAdjustment
 else
 static
 const
-uint32
+uint32_t
 ReturnStackAdjustment
 =
 0
@@ -1586,7 +1586,7 @@ ifdef
 _WIN64
 static
 const
-uint32
+uint32_t
 ShadowStackSpace
 =
 32
@@ -1599,7 +1599,7 @@ JS_CPU_SPARC
 )
 static
 const
-uint32
+uint32_t
 ShadowStackSpace
 =
 92
@@ -1608,7 +1608,7 @@ ShadowStackSpace
 else
 static
 const
-uint32
+uint32_t
 ShadowStackSpace
 =
 0
@@ -1623,7 +1623,7 @@ JS_CPU_SPARC
 )
 static
 const
-uint32
+uint32_t
 BaseStackSpace
 =
 104
@@ -1632,7 +1632,7 @@ BaseStackSpace
 else
 static
 const
-uint32
+uint32_t
 BaseStackSpace
 =
 0
@@ -1647,7 +1647,7 @@ Registers
 :
 CallConvention
 convention
-uint32
+uint32_t
 generalArgs
 )
 {
@@ -1657,7 +1657,7 @@ JS_ASSERT
 callIsAligned
 )
 ;
-uint32
+uint32_t
 numArgRegs
 =
 Registers
@@ -1668,7 +1668,7 @@ numArgRegs
 convention
 )
 ;
-uint32
+uint32_t
 pushCount
 =
 (
@@ -1690,7 +1690,7 @@ Registers
 :
 TempRegs
 ;
-uint32
+uint32_t
 total
 =
 (
@@ -1762,7 +1762,7 @@ endif
 Address
 vmFrameOffset
 (
-uint32
+uint32_t
 offs
 )
 {
@@ -1816,11 +1816,11 @@ base
 Address
 addressOfArg
 (
-uint32
+uint32_t
 i
 )
 {
-uint32
+uint32_t
 numArgRegs
 =
 Registers
@@ -1839,7 +1839,7 @@ i
 numArgRegs
 )
 ;
-int32
+int32_t
 spOffset
 =
 (
@@ -1869,7 +1869,7 @@ spOffset
 void
 storeArg
 (
-uint32
+uint32_t
 i
 RegisterID
 reg
@@ -1934,7 +1934,7 @@ i
 void
 storeArg
 (
-uint32
+uint32_t
 i
 Address
 address
@@ -2037,7 +2037,7 @@ pressure
 void
 storeArgAddr
 (
-uint32
+uint32_t
 i
 Address
 address
@@ -2140,7 +2140,7 @@ pressure
 void
 storeArg
 (
-uint32
+uint32_t
 i
 ImmPtr
 imm
@@ -2376,7 +2376,7 @@ pc
 DataLabelPtr
 *
 pinlined
-uint32
+uint32_t
 fd
 )
 {
@@ -2425,7 +2425,7 @@ STUB_CALL_TYPE
 void
 setupFrameDepth
 (
-int32
+int32_t
 frameDepth
 )
 {
@@ -2482,7 +2482,7 @@ offsetOfRegsSp
 void
 setupInfallibleVMFrame
 (
-int32
+int32_t
 frameDepth
 )
 {
@@ -2515,7 +2515,7 @@ pc
 DataLabelPtr
 *
 pinlined
-int32
+int32_t
 frameDepth
 )
 {
@@ -2599,7 +2599,7 @@ inlining
 jsbytecode
 *
 pc
-int32
+int32_t
 frameDepth
 )
 {
@@ -2717,7 +2717,7 @@ infallibleVMCall
 void
 *
 ptr
-int32
+int32_t
 frameDepth
 )
 {
@@ -2747,7 +2747,7 @@ pc
 DataLabelPtr
 *
 pinlined
-int32
+int32_t
 frameDepth
 )
 {
@@ -3264,7 +3264,7 @@ bumpKey
 Int32Key
 &
 key
-int32
+int32_t
 delta
 )
 {
@@ -3582,7 +3582,7 @@ Condition
 cond
 RegisterID
 reg
-int32
+int32_t
 value
 RegisterID
 result
@@ -3821,7 +3821,7 @@ loadDynamicSlot
 (
 RegisterID
 objReg
-uint32
+uint32_t
 index
 RegisterID
 typeReg
@@ -5374,7 +5374,7 @@ JSObject
 obj
 RegisterID
 objReg
-uint32
+uint32_t
 slot
 )
 {
@@ -5436,7 +5436,7 @@ Value
 ;
 }
 static
-uint32
+uint32_t
 maskAddress
 (
 Address
@@ -5456,7 +5456,7 @@ base
 ;
 }
 static
-uint32
+uint32_t
 maskAddress
 (
 BaseIndex
@@ -6560,7 +6560,7 @@ hasPrivate
 )
 )
 {
-uint32
+uint32_t
 nfixed
 =
 templateObject
@@ -6856,7 +6856,7 @@ Assembler
 &
 masm
 ;
-uint32
+uint32_t
 count
 ;
 RegisterID

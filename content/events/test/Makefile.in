@@ -719,6 +719,10 @@ test_bug698929
 .
 html
 \
+test_eventctors
+.
+html
+\
 (
 NULL
 )
@@ -832,6 +836,10 @@ xul
 file_bug679494
 .
 html
+\
+test_eventctors
+.
+xul
 \
 (
 NULL

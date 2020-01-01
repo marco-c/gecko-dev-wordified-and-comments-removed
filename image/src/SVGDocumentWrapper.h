@@ -282,11 +282,6 @@ mIgnoreInvalidation
 bool
 mRegisteredForXPCOMShutdown
 ;
-static
-nsIAtom
-*
-kSVGAtom
-;
 }
 ;
 }

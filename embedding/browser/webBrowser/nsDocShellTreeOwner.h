@@ -456,9 +456,6 @@ enum
 kTooltipAutoHideTime
 =
 5000
-kTooltipShowTime
-=
-500
 }
 ;
 NS_IMETHOD

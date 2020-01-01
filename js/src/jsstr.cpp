@@ -577,17 +577,17 @@ vp
 ;
 static
 const
-uint32
+uint32_t
 INVALID_UTF8
 =
 UINT32_MAX
 ;
 static
-uint32
+uint32_t
 Utf8ToOneUcs4Char
 (
 const
-uint8
+uint8_t
 *
 utf8Buffer
 int
@@ -709,7 +709,7 @@ chars
 ;
 static
 const
-uint8
+uint8_t
 shouldPassThrough
 [
 256
@@ -850,14 +850,14 @@ shouldPassThrough
 #
 ifdef
 DEBUG
-int
+size_t
 count
 =
 0
 ;
 for
 (
-uint
+size_t
 i
 =
 0
@@ -2228,7 +2228,7 @@ obj
 defineElement
 (
 cx
-uint32
+uint32_t
 (
 slot
 )
@@ -2775,7 +2775,7 @@ const
 Value
 &
 v
-int32
+int32_t
 *
 out
 )
@@ -2845,7 +2845,7 @@ else
 *
 out
 =
-int32
+int32_t
 (
 d
 )
@@ -2887,7 +2887,7 @@ str
 return
 false
 ;
-int32
+int32_t
 length
 begin
 end
@@ -2903,7 +2903,7 @@ end
 =
 length
 =
-int32
+int32_t
 (
 str
 -
@@ -3745,7 +3745,7 @@ vp
 )
 ;
 }
-int32
+int32_t
 result
 ;
 if
@@ -4253,7 +4253,7 @@ jsuint
 patlen
 )
 {
-uint8
+uint8_t
 skip
 [
 sBMHCharSetSize
@@ -4293,7 +4293,7 @@ i
 ]
 =
 (
-uint8
+uint8_t
 )
 patlen
 ;
@@ -4344,7 +4344,7 @@ c
 ]
 =
 (
-uint8
+uint8_t
 )
 (
 m
@@ -4676,7 +4676,7 @@ pat
 patlen
 )
 ;
-uint8
+uint8_t
 fixup
 ;
 const
@@ -6842,7 +6842,7 @@ pat
 size_t
 patlen
 ;
-int32
+int32_t
 match_
 ;
 friend
@@ -6882,7 +6882,7 @@ return
 patlen
 ;
 }
-int32
+int32_t
 match
 (
 )
@@ -11254,7 +11254,7 @@ false
 ;
 static
 const
-uint32
+uint32_t
 lambdaArgc
 =
 3
@@ -11565,7 +11565,7 @@ false
 ;
 static
 const
-uint32
+uint32_t
 optarg
 =
 2
@@ -12204,7 +12204,7 @@ cx
 JSLinearString
 *
 str
-uint32
+uint32_t
 limit
 Matcher
 splitMatch
@@ -13072,7 +13072,7 @@ StringType
 )
 )
 ;
-uint32
+uint32_t
 limit
 ;
 if
@@ -13496,7 +13496,7 @@ str
 return
 false
 ;
-int32
+int32_t
 length
 len
 begin
@@ -13510,7 +13510,7 @@ argc
 {
 length
 =
-int32
+int32_t
 (
 str
 -
@@ -13650,12 +13650,12 @@ out
 }
 if
 (
-uint32
+uint32_t
 (
 length
 )
 <
-uint32
+uint32_t
 (
 begin
 +
@@ -18076,7 +18076,7 @@ str1
 JSString
 *
 str2
-int32
+int32_t
 *
 result
 )
@@ -18197,7 +18197,7 @@ i
 {
 if
 (
-int32
+int32_t
 cmp
 =
 s1
@@ -18225,7 +18225,7 @@ true
 result
 =
 (
-int32
+int32_t
 )
 (
 l1
@@ -18249,7 +18249,7 @@ str1
 JSString
 *
 str2
-int32
+int32_t
 *
 result
 )
@@ -19340,10 +19340,10 @@ jschar
 c
 c2
 ;
-uint32
+uint32_t
 v
 ;
-uint8
+uint8_t
 utf8buf
 [
 6
@@ -19815,7 +19815,7 @@ offset
 j
 n
 ;
-uint32
+uint32_t
 v
 ;
 dstlen
@@ -19855,7 +19855,7 @@ srclen
 v
 =
 (
-uint8
+uint8_t
 )
 *
 src
@@ -19948,7 +19948,7 @@ v
 Utf8ToOneUcs4Char
 (
 (
-uint8
+uint8_t
 *
 )
 src
@@ -21153,7 +21153,7 @@ return
 JS_FALSE
 ;
 }
-uint32
+uint32_t
 v
 ;
 if
@@ -21259,7 +21259,7 @@ c2
 0x10000
 ;
 }
-uint8
+uint8_t
 utf8buf
 [
 4
@@ -21595,7 +21595,7 @@ n
 goto
 report_bad_uri
 ;
-uint8
+uint8_t
 octets
 [
 4
@@ -21607,7 +21607,7 @@ octets
 ]
 =
 (
-uint8
+uint8_t
 )
 B
 ;
@@ -21746,7 +21746,7 @@ char
 B
 ;
 }
-uint32
+uint32_t
 v
 =
 Utf8ToOneUcs4Char
@@ -22101,10 +22101,10 @@ vp
 int
 js_OneUcs4ToUtf8Char
 (
-uint8
+uint8_t
 *
 utf8Buffer
-uint32
+uint32_t
 ucs4Char
 )
 {
@@ -22132,7 +22132,7 @@ ucs4Char
 utf8Buffer
 =
 (
-uint8
+uint8_t
 )
 ucs4Char
 ;
@@ -22142,7 +22142,7 @@ else
 int
 i
 ;
-uint32
+uint32_t
 a
 =
 ucs4Char
@@ -22187,7 +22187,7 @@ i
 ]
 =
 (
-uint8
+uint8_t
 )
 (
 (
@@ -22210,7 +22210,7 @@ ucs4Char
 utf8Buffer
 =
 (
-uint8
+uint8_t
 )
 (
 0x100
@@ -22235,11 +22235,11 @@ utf8Length
 ;
 }
 static
-uint32
+uint32_t
 Utf8ToOneUcs4Char
 (
 const
-uint8
+uint8_t
 *
 utf8Buffer
 int
@@ -22286,7 +22286,7 @@ utf8Buffer
 }
 static
 const
-uint32
+uint32_t
 minucs4Table
 [
 ]
@@ -22336,7 +22336,7 @@ utf8Length
 )
 )
 ;
-uint32
+uint32_t
 ucs4Char
 =
 *
@@ -22359,7 +22359,7 @@ utf8Length
 1
 )
 ;
-uint32
+uint32_t
 minucs4Char
 =
 minucs4Table
@@ -22455,7 +22455,7 @@ fp
 JSLinearString
 *
 str
-uint32
+uint32_t
 quote
 )
 {

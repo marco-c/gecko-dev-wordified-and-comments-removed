@@ -742,7 +742,7 @@ type
 ;
 for
 (
-jsuint
+uint32_t
 i
 =
 0
@@ -1499,7 +1499,7 @@ id
 )
 )
 ;
-jsuint
+uint32_t
 len
 ;
 if

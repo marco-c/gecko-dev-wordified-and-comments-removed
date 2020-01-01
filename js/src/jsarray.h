@@ -49,7 +49,7 @@ namespace
 js
 {
 const
-uint32
+uint32_t
 MAX_ARRAY_INDEX
 =
 4294967294u
@@ -193,7 +193,7 @@ NewDenseAllocatedArray
 JSContext
 *
 cx
-uint
+uint32_t
 length
 JSObject
 *
@@ -211,7 +211,7 @@ NewDenseAllocatedEmptyArray
 JSContext
 *
 cx
-uint
+uint32_t
 length
 JSObject
 *
@@ -229,7 +229,7 @@ NewDenseUnallocatedArray
 JSContext
 *
 cx
-uint
+uint32_t
 length
 JSObject
 *
@@ -246,7 +246,7 @@ NewDenseCopiedArray
 JSContext
 *
 cx
-uint32
+uint32_t
 length
 const
 Value
@@ -312,7 +312,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 const
 Value
@@ -336,7 +336,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -365,10 +365,6 @@ Value
 vp
 )
 ;
-}
-namespace
-js
-{
 extern
 JSBool
 array_sort
@@ -537,21 +533,6 @@ js
 Value
 *
 vp
-)
-;
-extern
-JSBool
-JS_FASTCALL
-js_EnsureDenseArrayCapacity
-(
-JSContext
-*
-cx
-JSObject
-*
-obj
-jsint
-i
 )
 ;
 #

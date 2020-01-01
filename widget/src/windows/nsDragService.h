@@ -153,11 +153,6 @@ IDataObject
 inDataObj
 )
 ;
-PRUint64
-GetShellVersion
-(
-)
-;
 bool
 CreateDragImage
 (

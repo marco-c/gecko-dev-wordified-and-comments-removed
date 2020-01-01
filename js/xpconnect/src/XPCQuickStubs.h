@@ -2111,7 +2111,7 @@ v
 )
 )
 {
-int32
+int32_t
 intval
 ;
 if
@@ -2237,7 +2237,7 @@ v
 )
 )
 {
-uint32
+uint32_t
 intval
 ;
 if

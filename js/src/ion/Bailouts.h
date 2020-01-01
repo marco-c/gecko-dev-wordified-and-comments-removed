@@ -33,10 +33,6 @@ js
 namespace
 ion
 {
-typedef
-uint32
-BailoutId
-;
 static
 const
 BailoutId

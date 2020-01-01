@@ -1619,13 +1619,13 @@ true
 if
 JS_HAS_NO_SUCH_METHOD
 const
-uint32
+uint32_t
 JSSLOT_FOUND_FUNCTION
 =
 0
 ;
 const
-uint32
+uint32_t
 JSSLOT_SAVED_ID
 =
 1
@@ -7243,7 +7243,7 @@ PropertyCacheEntry
 entry
 )
 {
-uint32
+uint32_t
 sample
 =
 cx
@@ -10122,7 +10122,7 @@ JSOP_BLOCKCHAIN
 )
 BEGIN_CASE
 (
-JSOP_PUSH
+JSOP_UNDEFINED
 )
 PUSH_UNDEFINED
 (
@@ -10130,7 +10130,7 @@ PUSH_UNDEFINED
 ;
 END_CASE
 (
-JSOP_PUSH
+JSOP_UNDEFINED
 )
 BEGIN_CASE
 (
@@ -13354,7 +13354,7 @@ toString
 )
 ;
 \
-int32
+int32_t
 result
 ;
 \
@@ -13720,7 +13720,7 @@ sp
 .
 setNumber
 (
-uint32
+uint32_t
 (
 u
 )
@@ -15560,7 +15560,7 @@ int
 incr
 incr2
 ;
-uint32
+uint32_t
 slot
 ;
 Value
@@ -16118,7 +16118,7 @@ hasOverriddenLength
 )
 )
 {
-uint32
+uint32_t
 length
 =
 argsobj
@@ -17713,7 +17713,7 @@ lref
 obj
 )
 ;
-uint32
+uint32_t
 index
 ;
 if
@@ -20857,7 +20857,7 @@ BEGIN_CASE
 JSOP_CALLARG
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_ARGNO
@@ -20912,7 +20912,7 @@ BEGIN_CASE
 JSOP_SETARG
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_ARGNO
@@ -20961,7 +20961,7 @@ BEGIN_CASE
 JSOP_GETLOCAL
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_SLOTNO
@@ -21037,7 +21037,7 @@ BEGIN_CASE
 JSOP_CALLLOCAL
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_SLOTNO
@@ -21088,7 +21088,7 @@ BEGIN_CASE
 JSOP_SETLOCAL
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_SLOTNO
@@ -21243,7 +21243,7 @@ BEGIN_CASE
 JSOP_DEFVAR
 )
 {
-uint32
+uint32_t
 index
 =
 GET_INDEX
@@ -22186,7 +22186,7 @@ getProto
 )
 )
 ;
-uint32
+uint32_t
 slot
 =
 GET_SLOTNO
@@ -22255,7 +22255,7 @@ obj
 goto
 error
 ;
-uint32
+uint32_t
 slot
 =
 GET_SLOTNO
@@ -24265,7 +24265,7 @@ BEGIN_CASE
 JSOP_DEFSHARP
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_UINT16
@@ -24490,7 +24490,7 @@ BEGIN_CASE
 JSOP_USESHARP
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_UINT16
@@ -24681,7 +24681,7 @@ BEGIN_CASE
 JSOP_SHARPINIT
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_UINT16
@@ -25136,7 +25136,7 @@ base
 2
 )
 ;
-uint32
+uint32_t
 slot
 =
 GET_UINT16
@@ -27912,7 +27912,7 @@ BEGIN_CASE
 JSOP_ARRAYPUSH
 )
 {
-uint32
+uint32_t
 slot
 =
 GET_UINT16
@@ -28166,7 +28166,7 @@ regs
 ;
 JS_ASSERT
 (
-uint32
+uint32_t
 (
 regs
 .
@@ -28211,7 +28211,7 @@ tn
 *
 tnlimit
 ;
-uint32
+uint32_t
 offset
 ;
 atoms
@@ -28397,7 +28397,7 @@ no_catch
 offset
 =
 (
-uint32
+uint32_t
 )
 (
 regs
@@ -28990,7 +28990,7 @@ NewInitArray
 JSContext
 *
 cx
-uint32
+uint32_t
 count
 types
 :

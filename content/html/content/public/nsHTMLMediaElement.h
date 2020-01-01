@@ -286,6 +286,12 @@ aNullParent
 true
 )
 ;
+virtual
+void
+DoneCreatingElement
+(
+)
+;
 void
 NotifyOwnerDocumentActivityChanged
 (

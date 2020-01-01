@@ -1238,6 +1238,16 @@ PickerClosed
 (
 )
 ;
+bool
+const
+DestroyCalled
+(
+)
+{
+return
+mDestroyCalled
+;
+}
 protected
 :
 enum

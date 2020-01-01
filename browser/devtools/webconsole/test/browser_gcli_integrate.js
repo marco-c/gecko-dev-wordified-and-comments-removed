@@ -49,8 +49,6 @@ webconsole
 /
 test
 /
-browser
-/
 test
 -
 console

@@ -81,15 +81,6 @@ nsIBrowserProfileMigrator
 bpm
 )
 ;
-bool
-ImportRegistryProfiles
-(
-const
-nsACString
-&
-aAppName
-)
-;
 }
 ;
 #

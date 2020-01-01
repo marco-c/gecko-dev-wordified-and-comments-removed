@@ -1093,12 +1093,11 @@ bytecodes
 /
 OPDEF
 (
-JSOP_PUSH
+JSOP_UNDEFINED
 1
+js_undefined_str
 "
-push
 "
-NULL
 1
 0
 1
@@ -2568,7 +2567,7 @@ this
 op
 '
 s
-uint8
+uint8_t
 immediate
 operand
 .

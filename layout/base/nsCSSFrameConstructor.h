@@ -4131,6 +4131,13 @@ mQuotesDirty
 =
 true
 ;
+mDocument
+-
+>
+SetNeedLayoutFlush
+(
+)
+;
 }
 void
 CountersDirty
@@ -4156,6 +4163,13 @@ news
 mCountersDirty
 =
 true
+;
+mDocument
+-
+>
+SetNeedLayoutFlush
+(
+)
 ;
 }
 public

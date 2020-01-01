@@ -595,7 +595,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 JSObject
 *
@@ -700,7 +700,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 const
 Value
@@ -804,7 +804,7 @@ obj
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *
@@ -827,7 +827,7 @@ obj
 JSObject
 *
 receiver
-uint32
+uint32_t
 index
 Value
 *
@@ -918,7 +918,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -1003,7 +1003,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 uintN
 *
@@ -1088,7 +1088,7 @@ cx
 JSObject
 *
 obj
-uint32
+uint32_t
 index
 Value
 *
@@ -1196,7 +1196,7 @@ char
 name
 ;
 \
-uint32
+uint32_t
 flags
 ;
 \
@@ -1488,7 +1488,7 @@ ext
 ObjectOps
 ops
 ;
-uint8
+uint8_t
 pad
 [
 sizeof
@@ -1514,7 +1514,7 @@ ObjectOps
 ;
 static
 const
-uint32
+uint32_t
 NON_NATIVE
 =
 JSCLASS_INTERNAL_FLAG2

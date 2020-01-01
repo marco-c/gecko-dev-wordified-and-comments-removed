@@ -2251,7 +2251,7 @@ return
 NS_OK
 ;
 }
-uint32
+uint32_t
 width
 ;
 JSBool
@@ -2307,7 +2307,7 @@ argc
 )
 )
 {
-uint32
+uint32_t
 height
 ;
 ret

@@ -1297,6 +1297,9 @@ mFullScreen
 bool
 mModal
 ;
+bool
+mInReportMoveEvent
+;
 PRInt32
 mNumModalDescendents
 ;

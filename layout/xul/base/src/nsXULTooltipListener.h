@@ -299,9 +299,6 @@ enum
 kTooltipMouseMoveTolerance
 =
 7
-kTooltipShowTime
-=
-500
 }
 ;
 bool

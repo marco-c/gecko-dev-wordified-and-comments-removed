@@ -142,3 +142,7 @@ DEPRECATED_OPERATION
 (
 InputEncoding
 )
+DEPRECATED_OPERATION
+(
+MozBeforePaint
+)

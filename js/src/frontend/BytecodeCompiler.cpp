@@ -510,7 +510,7 @@ globals
 (
 )
 ;
-uint32
+uint32_t
 nGlobalUses
 =
 globalUses
@@ -520,7 +520,7 @@ length
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -534,7 +534,7 @@ i
 +
 )
 {
-uint32
+uint32_t
 index
 =
 globalUses
@@ -604,7 +604,10 @@ callerFrame
 JSPrincipals
 *
 principals
-uint32
+JSPrincipals
+*
+originPrincipals
+uint32_t
 tcflags
 const
 jschar
@@ -682,6 +685,7 @@ parser
 (
 cx
 principals
+originPrincipals
 callerFrame
 )
 ;
@@ -1024,7 +1028,7 @@ true
 endif
 }
 }
-uint32
+uint32_t
 bodyid
 ;
 if
@@ -1617,6 +1621,9 @@ fun
 JSPrincipals
 *
 principals
+JSPrincipals
+*
+originPrincipals
 Bindings
 *
 bindings
@@ -1641,6 +1648,7 @@ parser
 (
 cx
 principals
+originPrincipals
 )
 ;
 if

@@ -523,7 +523,7 @@ fun
 JSScript
 *
 script
-uint32
+uint32_t
 *
 pflags
 )

@@ -628,7 +628,7 @@ void
 RestyleTracker
 :
 :
-ProcessRestyles
+DoProcessRestyles
 (
 )
 {

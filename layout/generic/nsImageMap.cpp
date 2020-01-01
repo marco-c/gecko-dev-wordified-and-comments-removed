@@ -434,6 +434,11 @@ nsContentUtils
 :
 ReportToConsole
 (
+aFlags
+"
+ImageMap
+"
+doc
 nsContentUtils
 :
 :
@@ -464,13 +469,6 @@ NS_LITERAL_STRING
 "
 )
 )
-0
-0
-aFlags
-"
-ImageMap
-"
-doc
 )
 ;
 }

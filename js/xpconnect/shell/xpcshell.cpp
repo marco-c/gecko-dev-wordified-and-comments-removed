@@ -2519,7 +2519,7 @@ jsval
 vp
 )
 {
-int32
+int32_t
 depth
 =
 2
@@ -2578,10 +2578,10 @@ xpc
 >
 DebugDump
 (
+int16_t
 (
-int16
-)
 depth
+)
 )
 ;
 JS_SET_RVAL
@@ -2656,7 +2656,7 @@ jsval
 vp
 )
 {
-uint32
+uint32_t
 zeal
 ;
 if
@@ -2687,10 +2687,10 @@ false
 JS_SetGCZeal
 (
 cx
+uint8_t
 (
-PRUint8
-)
 zeal
+)
 JS_DEFAULT_ZEAL_FREQ
 false
 )
@@ -2986,7 +2986,7 @@ vp
 JSVAL_VOID
 )
 {
-uint32
+uint32_t
 depth
 ;
 if
@@ -3749,7 +3749,7 @@ jsval
 vp
 )
 {
-uint32
+uint32_t
 optset
 flag
 ;

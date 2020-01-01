@@ -506,7 +506,7 @@ NS_IMETHODIMP
 nsBMPEncoder
 :
 :
-GetImageBufferSize
+GetImageBufferUsed
 (
 PRUint32
 *

@@ -2806,7 +2806,7 @@ jump
 )
 ;
 }
-int32
+int32_t
 value
 =
 0
@@ -3803,7 +3803,7 @@ op
 JSOP_SUB
 )
 ;
-int32
+int32_t
 fixValue
 =
 (
@@ -5258,7 +5258,7 @@ temp
 RegisterID
 rhsReg
 ;
-uint32
+uint32_t
 mask
 =
 Registers
@@ -8641,7 +8641,7 @@ cmpOp
 =
 op
 ;
-int32
+int32_t
 value
 =
 0
