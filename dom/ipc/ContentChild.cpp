@@ -958,6 +958,12 @@ defined
 (
 ANDROID
 )
+&
+&
+defined
+(
+MOZ_CRASHREPORTER
+)
 PCrashReporterChild
 *
 crashreporter
