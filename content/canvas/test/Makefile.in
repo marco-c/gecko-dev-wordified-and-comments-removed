@@ -400,6 +400,14 @@ test_drawImage_edge_cases
 .
 html
 \
+test_drawImage_document_domain
+.
+html
+\
+file_drawImage_document_domain
+.
+html
+\
 (
 NULL
 )
