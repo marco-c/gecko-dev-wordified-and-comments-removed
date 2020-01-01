@@ -367,6 +367,17 @@ setTargetAtTime
 )
 [
 Throws
+Pref
+=
+"
+media
+.
+webaudio
+.
+legacy
+.
+AudioParam
+"
 ]
 void
 setTargetValueAtTime
