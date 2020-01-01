@@ -3404,6 +3404,7 @@ mAppContext
 notificationID
 icon
 aAlertTitle
+aAlertText
 System
 .
 currentTimeMillis
