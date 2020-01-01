@@ -525,6 +525,10 @@ nsThemeConstants
 .
 h
 \
+gfxCrashReporterUtils
+.
+h
+\
 (
 NULL
 )
@@ -563,6 +567,10 @@ nsTransform2D
 cpp
 \
 nsScriptableRegion
+.
+cpp
+\
+gfxCrashReporterUtils
 .
 cpp
 \

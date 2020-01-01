@@ -76,6 +76,13 @@ gfxImageSurface
 h
 "
 #
+include
+"
+gfxCrashReporterUtils
+.
+h
+"
+#
 define
 OSMESA_RGBA
 GL_RGBA
