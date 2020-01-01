@@ -67,6 +67,15 @@ unused
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 namespace
 mozilla
 {
@@ -308,7 +317,10 @@ nsIInputStream
 >
 stringStream
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 NS_NewByteInputStream
