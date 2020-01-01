@@ -4447,7 +4447,15 @@ StopRepeat
 )
 ;
 return
-NS_OK
+nsBoxFrame
+:
+:
+HandleRelease
+(
+aPresContext
+aEvent
+aEventStatus
+)
 ;
 }
 void

@@ -878,6 +878,14 @@ file_bug514732_window
 .
 xul
 \
+test_selection_scrolling
+.
+html
+\
+window_selection_scrolling
+.
+html
+\
 (
 NULL
 )
