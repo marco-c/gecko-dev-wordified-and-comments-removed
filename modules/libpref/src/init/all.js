@@ -34507,3 +34507,15 @@ runUpdate
 true
 )
 ;
+pref
+(
+"
+network
+.
+activity
+.
+blipIntervalMilliseconds
+"
+0
+)
+;

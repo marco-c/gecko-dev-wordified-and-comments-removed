@@ -4224,3 +4224,15 @@ allowNative
 false
 )
 ;
+pref
+(
+"
+network
+.
+activity
+.
+blipIntervalMilliseconds
+"
+250
+)
+;
