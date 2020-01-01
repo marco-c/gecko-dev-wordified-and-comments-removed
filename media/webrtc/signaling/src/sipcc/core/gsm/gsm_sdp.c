@@ -232,6 +232,10 @@ static
 cc_causes_t
 gsmsdp_init_local_sdp
 (
+const
+char
+*
+peerconnection
 cc_sdp_t
 *
 *
@@ -7271,6 +7275,10 @@ NULL
 {
 gsmsdp_init_local_sdp
 (
+dcb_p
+-
+>
+peerconnection
 &
 (
 dcb_p
@@ -14962,6 +14970,10 @@ static
 cc_causes_t
 gsmsdp_init_local_sdp
 (
+const
+char
+*
+peerconnection
 cc_sdp_t
 *
 *
@@ -15019,6 +15031,10 @@ strtok_state
 ;
 if
 (
+!
+peerconnection
+|
+|
 !
 sdp_pp
 )
@@ -15134,6 +15150,7 @@ NULL
 {
 sipsdp_src_dest_create
 (
+peerconnection
 CCSIP_SRC_SDP_BIT
 sdp_pp
 )
@@ -15166,6 +15183,7 @@ sdp_pp
 }
 sipsdp_src_dest_create
 (
+peerconnection
 CCSIP_SRC_SDP_BIT
 sdp_pp
 )
@@ -16114,6 +16132,10 @@ CC_CAUSE_OK
 =
 gsmsdp_init_local_sdp
 (
+dcb_p
+-
+>
+peerconnection
 &
 (
 dcb_p
@@ -16627,6 +16649,8 @@ if
 (
 gsmsdp_init_local_sdp
 (
+"
+"
 sdp_pp
 )
 =
@@ -18782,6 +18806,10 @@ CC_CAUSE_OK
 =
 gsmsdp_init_local_sdp
 (
+dcb_p
+-
+>
+peerconnection
 &
 (
 dcb_p
@@ -18997,6 +19025,10 @@ NULL
 {
 sipsdp_src_dest_create
 (
+dcb_p
+-
+>
+peerconnection
 CCSIP_DEST_SDP_BIT
 &
 dcb_p
@@ -19032,6 +19064,10 @@ sdp
 }
 sipsdp_src_dest_create
 (
+dcb_p
+-
+>
+peerconnection
 CCSIP_DEST_SDP_BIT
 &
 dcb_p
@@ -19684,6 +19720,10 @@ void
 )
 gsmsdp_init_local_sdp
 (
+dcb_p
+-
+>
+peerconnection
 &
 (
 dcb_p

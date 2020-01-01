@@ -19,6 +19,9 @@ sdp_private
 .
 h
 "
+#
+if
+0
 void
 sdp_log_errmsg
 (
@@ -108,6 +111,8 @@ break
 ;
 }
 }
+#
+endif
 void
 sdp_dump_buffer
 (

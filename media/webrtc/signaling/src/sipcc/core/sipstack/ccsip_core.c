@@ -2306,6 +2306,8 @@ SIP_SDP_NOT_PRESENT
 }
 sipsdp_src_dest_create
 (
+"
+"
 CCSIP_DEST_SDP_BIT
 &
 sip_msg_sdp
