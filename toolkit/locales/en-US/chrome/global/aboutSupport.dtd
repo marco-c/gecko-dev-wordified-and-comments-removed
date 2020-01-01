@@ -224,6 +224,17 @@ Agent
 ENTITY
 aboutSupport
 .
+appBasicsCrashIDs
+"
+Crash
+Reports
+"
+>
+<
+!
+ENTITY
+aboutSupport
+.
 show
 .
 label
