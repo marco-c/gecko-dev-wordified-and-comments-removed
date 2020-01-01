@@ -506,6 +506,10 @@ results
 will
 be
 notified
+on
+the
+main
+thread
 .
 *
 /
