@@ -110,7 +110,13 @@ jpg
 (
 JPEG
 Image
-1500x1500
+1500
+\
+u00A0
+\
+u00D7
+\
+u00A01500
 pixels
 \
 )
