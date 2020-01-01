@@ -12600,9 +12600,6 @@ TIMESTAMP
 sweepStringEnd
 )
 ;
-#
-ifdef
-DEBUG
 for
 (
 JSCompartment
@@ -12635,13 +12632,6 @@ end
 +
 c
 )
-JS_ASSERT_IF
-(
-*
-c
-!
-=
-comp
 (
 *
 c
@@ -12650,10 +12640,9 @@ c
 >
 propertyTree
 .
-checkShapesAllUnmarked
+unmarkShapes
 (
 cx
-)
 )
 ;
 PropertyTree
@@ -12664,8 +12653,6 @@ dumpShapes
 cx
 )
 ;
-#
-endif
 ExpireGCChunks
 (
 rt
