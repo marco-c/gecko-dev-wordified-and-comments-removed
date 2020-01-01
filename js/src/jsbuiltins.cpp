@@ -685,8 +685,6 @@ return
 JS_TRUE
 ;
 }
-else
-{
 JSString
 *
 str
@@ -716,7 +714,6 @@ str
 id
 )
 ;
-}
 }
 jsval
 FASTCALL
