@@ -2128,11 +2128,6 @@ GeneralRegisterSet
 regs
 =
 GeneralRegisterSet
-:
-:
-Not
-(
-GeneralRegisterSet
 (
 Register
 :
@@ -2140,8 +2135,7 @@ Register
 Codes
 :
 :
-VolatileMask
-)
+WrapperMask
 )
 ;
 masm
@@ -2175,10 +2169,13 @@ explicitArgs
 {
 argsBase
 =
+r10
+;
 regs
 .
-takeAny
+take
 (
+r10
 )
 ;
 masm
