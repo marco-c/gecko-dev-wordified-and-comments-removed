@@ -338,7 +338,7 @@ nsNodeInfoManager
 aOwnerManager
 )
 {
-CHECK_VALID_NODEINFO
+CheckValidNodeInfo
 (
 aNodeType
 aName
