@@ -197,6 +197,9 @@ virtual
 void
 ShadowLayersUpdated
 (
+ShadowLayersParent
+*
+aLayerTree
 bool
 isFirstPaint
 )

@@ -2367,6 +2367,9 @@ RenderFrameParent
 :
 ShadowLayersUpdated
 (
+ShadowLayersParent
+*
+aLayerTree
 bool
 isFirstPaint
 )
