@@ -395,9 +395,6 @@ mInFrame
 bool
 mIsAnimated
 ;
-bool
-mFirstWrite
-;
 }
 ;
 }
