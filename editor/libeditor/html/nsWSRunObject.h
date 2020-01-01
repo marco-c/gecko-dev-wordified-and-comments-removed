@@ -493,7 +493,7 @@ nsIContent
 >
 mTextNode
 ;
-PRInt16
+PRUint32
 mOffset
 ;
 PRUnichar
