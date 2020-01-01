@@ -73,9 +73,9 @@ h
 #
 include
 "
-vm
+gc
 /
-ObjectImpl
+Barrier
 -
 inl
 .

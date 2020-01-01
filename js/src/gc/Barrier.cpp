@@ -10,6 +10,13 @@ h
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h
@@ -17,11 +24,9 @@ h
 #
 include
 "
-vm
+gc
 /
-ObjectImpl
--
-inl
+Zone
 .
 h
 "

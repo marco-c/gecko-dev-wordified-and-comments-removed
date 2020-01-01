@@ -31,11 +31,7 @@ h
 #
 include
 "
-vm
-/
-ObjectImpl
--
-inl
+jsgcinlines
 .
 h
 "
