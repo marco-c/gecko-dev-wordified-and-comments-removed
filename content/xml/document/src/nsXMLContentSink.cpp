@@ -155,14 +155,14 @@ h
 #
 include
 "
-nsICSSLoader
+nsICSSStyleSheet
 .
 h
 "
 #
 include
 "
-nsICSSStyleSheet
+nsCSSLoader
 .
 h
 "

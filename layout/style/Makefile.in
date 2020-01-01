@@ -447,6 +447,10 @@ nsCSSKeywords
 .
 h
 \
+nsCSSLoader
+.
+h
+\
 nsCSSParser
 .
 h
@@ -512,10 +516,6 @@ nsICSSGroupRule
 h
 \
 nsICSSImportRule
-.
-h
-\
-nsICSSLoader
 .
 h
 \

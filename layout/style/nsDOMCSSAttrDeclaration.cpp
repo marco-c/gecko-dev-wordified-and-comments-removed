@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsICSSLoader
+nsCSSLoader
 .
 h
 "
@@ -568,7 +568,13 @@ nsIPrincipal
 *
 *
 aSheetPrincipal
-nsICSSLoader
+mozilla
+:
+:
+css
+:
+:
+Loader
 *
 *
 aCSSLoader

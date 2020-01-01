@@ -372,6 +372,13 @@ h
 #
 include
 "
+nsCSSLoader
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h

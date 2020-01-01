@@ -50,9 +50,6 @@ class
 nsIStyleSheet
 ;
 class
-nsICSSLoader
-;
-class
 nsIContent
 ;
 class
