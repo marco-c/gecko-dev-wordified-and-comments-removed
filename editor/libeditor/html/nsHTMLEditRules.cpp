@@ -26190,7 +26190,13 @@ NS_ERROR_OUT_OF_MEMORY
 }
 NS_ASSERTION
 (
+static_cast
+<
+PRUint32
+>
+(
 rangeCount
+)
 =
 =
 rangeItemArray
