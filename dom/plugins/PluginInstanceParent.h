@@ -584,7 +584,7 @@ NPPVariable
 variable
 void
 *
-ret_value
+retval
 )
 ;
 NPError
@@ -596,13 +596,7 @@ void
 *
 value
 )
-{
-PLUGIN_LOG_DEBUG_FUNCTION
 ;
-return
-1
-;
-}
 NPError
 NPP_NewStream
 (
@@ -635,10 +629,7 @@ NPPrint
 *
 platformPrint
 )
-{
-PLUGIN_LOG_DEBUG_FUNCTION
 ;
-}
 int16_t
 NPP_HandleEvent
 (
