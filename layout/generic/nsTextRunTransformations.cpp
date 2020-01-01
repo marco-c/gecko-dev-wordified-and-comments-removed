@@ -268,7 +268,7 @@ PRUint32
 aStart
 PRUint32
 aLength
-PRPackedBool
+PRUint8
 *
 aBreakBefore
 gfxContext
@@ -1165,7 +1165,7 @@ styleArray
 ;
 nsAutoTArray
 <
-PRPackedBool
+PRUint8
 50
 >
 canBreakBeforeArray
@@ -1584,7 +1584,7 @@ styleArray
 ;
 nsAutoTArray
 <
-PRPackedBool
+PRUint8
 50
 >
 canBreakBeforeArray

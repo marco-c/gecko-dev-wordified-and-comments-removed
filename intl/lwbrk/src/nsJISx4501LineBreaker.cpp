@@ -2375,7 +2375,7 @@ ret
 ;
 nsAutoTArray
 <
-PRPackedBool
+PRUint8
 2000
 >
 breakState
@@ -2642,7 +2642,7 @@ PRUnichar
 aChars
 PRUint32
 aLength
-PRPackedBool
+PRUint8
 *
 aBreakBefore
 )
@@ -2934,7 +2934,7 @@ PRUint8
 aChars
 PRUint32
 aLength
-PRPackedBool
+PRUint8
 *
 aBreakBefore
 )

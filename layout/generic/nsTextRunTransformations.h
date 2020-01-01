@@ -266,7 +266,7 @@ PRUint32
 aStart
 PRUint32
 aLength
-PRPackedBool
+PRUint8
 *
 aBreakBefore
 gfxContext
