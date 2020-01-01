@@ -668,17 +668,6 @@ DIST
 )
 /
 sdk
-(
-MAKE
-)
--
-C
-config
-export
-(
-MAKE
-)
-tier_nspr
 ifdef
 ENABLE_TESTS
 #
