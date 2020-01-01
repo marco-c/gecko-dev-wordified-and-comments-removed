@@ -1082,6 +1082,11 @@ removeCurrentTab
 xul
 :
 tab
+selected
+=
+"
+true
+"
 validate
 =
 "
@@ -1188,6 +1193,11 @@ class
 =
 "
 plain
+"
+selectedIndex
+=
+"
+0
 "
 >
 <
