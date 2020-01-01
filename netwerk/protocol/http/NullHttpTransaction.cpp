@@ -452,7 +452,7 @@ void
 NullHttpTransaction
 :
 :
-SetSSLConnectFailed
+SetProxyConnectFailed
 (
 )
 {

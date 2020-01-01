@@ -263,7 +263,7 @@ this
 includes
 authentication
 for
-SSL
+CONNECT
 *
 tunneling
 )
@@ -449,7 +449,7 @@ this
 includes
 authentication
 for
-SSL
+CONNECT
 *
 tunneling
 )

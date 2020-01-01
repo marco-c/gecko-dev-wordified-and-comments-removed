@@ -1296,7 +1296,7 @@ void
 nsHttpPipeline
 :
 :
-SetSSLConnectFailed
+SetProxyConnectFailed
 (
 )
 {
@@ -1316,7 +1316,7 @@ trans
 trans
 -
 >
-SetSSLConnectFailed
+SetProxyConnectFailed
 (
 )
 ;
