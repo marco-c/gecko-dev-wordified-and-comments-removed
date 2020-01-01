@@ -3506,7 +3506,7 @@ trc
 .
 eagerlyTraceWeakMaps
 =
-false
+DoNotTraceWeakMaps
 ;
 JS_TraceChildren
 (
@@ -10676,7 +10676,7 @@ trc
 .
 eagerlyTraceWeakMaps
 =
-false
+DoNotTraceWeakMaps
 ;
 js
 :

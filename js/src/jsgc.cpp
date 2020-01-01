@@ -7743,7 +7743,7 @@ trc
 >
 eagerlyTraceWeakMaps
 =
-true
+TraceWeakMapValues
 ;
 #
 ifdef
@@ -8002,7 +8002,7 @@ markLaterArenas
 ;
 eagerlyTraceWeakMaps
 =
-JS_FALSE
+DoNotTraceWeakMaps
 ;
 }
 void
