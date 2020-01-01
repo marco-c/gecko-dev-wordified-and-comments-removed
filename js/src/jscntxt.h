@@ -804,6 +804,10 @@ endif
 struct
 JSThreadData
 {
+JSGCDoubleCell
+*
+doubleFreeList
+;
 JSGSNCache
 gsnCache
 ;
@@ -2758,10 +2762,6 @@ localRootStack
 JSTempValueRooter
 *
 tempValueRooters
-;
-JSGCDoubleCell
-*
-doubleFreeList
 ;
 JSDebugHooks
 *

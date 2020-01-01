@@ -408,6 +408,13 @@ JSThreadData
 data
 )
 {
+data
+-
+>
+doubleFreeList
+=
+NULL
+;
 js_PurgeGSNCache
 (
 &

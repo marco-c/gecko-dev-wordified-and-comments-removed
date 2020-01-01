@@ -686,11 +686,6 @@ freeList
 ;
 }
 ;
-typedef
-union
-JSGCDoubleCell
-JSGCDoubleCell
-;
 union
 JSGCDoubleCell
 {
@@ -703,7 +698,6 @@ link
 ;
 }
 ;
-typedef
 struct
 JSGCDoubleArenaList
 {
@@ -711,12 +705,11 @@ JSGCArenaInfo
 *
 first
 ;
-jsbitmap
+JSGCArenaInfo
 *
-nextDoubleFlags
+cursor
 ;
 }
-JSGCDoubleArenaList
 ;
 extern
 void

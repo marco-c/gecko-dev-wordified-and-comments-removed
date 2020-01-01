@@ -15951,7 +15951,10 @@ store_double
 {
 if
 (
+JS_THREAD_DATA
+(
 cx
+)
 -
 >
 doubleFreeList
