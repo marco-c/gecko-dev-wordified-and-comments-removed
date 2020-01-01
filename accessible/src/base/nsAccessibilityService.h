@@ -511,7 +511,6 @@ Accessible
 aRootAccessible
 )
 ;
-virtual
 void
 ContentRangeInserted
 (
@@ -529,7 +528,6 @@ nsIContent
 aEndChild
 )
 ;
-virtual
 void
 ContentRemoved
 (
@@ -592,7 +590,6 @@ nsImageFrame
 aImageFrame
 )
 ;
-virtual
 void
 NotifyOfAnchorJumpTo
 (
@@ -601,7 +598,6 @@ nsIContent
 aTarget
 )
 ;
-virtual
 void
 PresShellDestroyed
 (
