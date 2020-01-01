@@ -3114,7 +3114,7 @@ GetFileAttributesW
 (
 buffer
 )
-!
+=
 =
 INVALID_FILE_ATTRIBUTES
 )
