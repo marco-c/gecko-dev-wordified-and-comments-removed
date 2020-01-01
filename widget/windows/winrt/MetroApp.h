@@ -260,13 +260,6 @@ ShutdownXPCOM
 )
 ;
 static
-FrameworkView
-*
-GetView
-(
-)
-;
-static
 void
 SetBaseWidget
 (
