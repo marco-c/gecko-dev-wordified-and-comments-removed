@@ -806,7 +806,7 @@ test
 .
 plugin
 =
-true
+false
 -
 -
 test
@@ -847,7 +847,7 @@ test
 .
 plugin
 =
-true
+false
 -
 -
 test
@@ -888,7 +888,7 @@ test
 .
 plugin
 =
-true
+false
 -
 -
 test
@@ -917,7 +917,7 @@ plugins
 .
 enabled
 =
-true
+false
 -
 -
 test
