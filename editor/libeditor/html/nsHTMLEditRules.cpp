@@ -41440,6 +41440,9 @@ mHTMLEditor
 return
 ;
 }
+nsAutoRemovableScriptBlocker
+scriptBlocker
+;
 nsCOMPtr
 <
 nsIHTMLEditor
