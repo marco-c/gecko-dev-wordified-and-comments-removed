@@ -37,17 +37,6 @@ h
 #
 include
 "
-gc
-/
-Barrier
--
-inl
-.
-h
-"
-#
-include
-"
 vm
 /
 ObjectImpl

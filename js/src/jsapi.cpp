@@ -536,17 +536,6 @@ include
 "
 vm
 /
-RegExpObject
--
-inl
-.
-h
-"
-#
-include
-"
-vm
-/
 RegExpStatics
 -
 inl
