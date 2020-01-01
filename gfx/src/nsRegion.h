@@ -948,6 +948,7 @@ nsCString
 ToString
 (
 )
+const
 ;
 static
 nsresult
@@ -2201,6 +2202,7 @@ nsCString
 ToString
 (
 )
+const
 {
 return
 mImpl

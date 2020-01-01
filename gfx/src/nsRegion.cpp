@@ -9034,6 +9034,7 @@ nsRegion
 ToString
 (
 )
+const
 {
 nsCString
 result
