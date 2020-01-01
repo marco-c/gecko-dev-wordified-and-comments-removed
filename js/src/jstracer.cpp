@@ -815,7 +815,10 @@ vp
 =
 INT_TO_JSVAL
 (
+jsint
+(
 result
+)
 )
 ;
 return
@@ -4953,6 +4956,8 @@ jsint
 i
 ;
 return
+!
+!
 JSDOUBLE_IS_INT
 (
 d
@@ -26857,7 +26862,10 @@ imm32
 )
 =
 =
+int32
+(
 cond
+)
 )
 ;
 return
@@ -45059,6 +45067,8 @@ op
 LIR_feq
 )
 return
+!
+!
 js_EqualStrings
 (
 l
@@ -45215,6 +45225,8 @@ equal
 ;
 cond
 =
+!
+!
 js_EqualStrings
 (
 JSVAL_TO_STRING
@@ -45580,6 +45592,8 @@ insImm
 ;
 cond
 =
+!
+!
 js_EqualStrings
 (
 JSVAL_TO_STRING
@@ -45847,6 +45861,8 @@ l
 bool
 isVoid
 =
+!
+!
 JSVAL_IS_VOID
 (
 l
@@ -45958,6 +45974,8 @@ r
 bool
 isVoid
 =
+!
+!
 JSVAL_IS_VOID
 (
 r
@@ -54618,12 +54636,16 @@ rooted
 bool
 constructing
 =
+!
+!
+(
 sn
 -
 >
 flags
 &
 JSTN_CONSTRUCTOR
+)
 ;
 if
 (
@@ -56057,9 +56079,12 @@ vplen
 JS_MAX
 (
 argc
+unsigned
+(
 FUN_MINARGS
 (
 fun
+)
 )
 )
 +

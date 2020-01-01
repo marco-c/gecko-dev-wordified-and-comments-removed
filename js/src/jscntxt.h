@@ -263,7 +263,7 @@ template
 typename
 K
 >
-class
+struct
 DefaultHash
 ;
 template

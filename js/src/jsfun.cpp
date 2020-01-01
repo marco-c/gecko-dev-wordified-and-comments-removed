@@ -7488,6 +7488,8 @@ i
 .
 wrapper
 =
+JSPackedBool
+(
 (
 firstword
 >
@@ -7496,6 +7498,7 @@ firstword
 )
 &
 1
+)
 ;
 }
 n
@@ -14170,6 +14173,8 @@ nCopiedVars
 +
 +
 <
+unsigned
+(
 args
 -
 >
@@ -14193,6 +14198,7 @@ u
 i
 .
 nupvars
+)
 )
 ;
 i

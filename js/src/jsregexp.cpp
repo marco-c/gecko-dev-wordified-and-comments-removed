@@ -30968,7 +30968,7 @@ length
 i
 )
 {
-char
+jschar
 c
 =
 chars

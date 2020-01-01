@@ -10611,13 +10611,6 @@ fun
 atom
 )
 ;
-switch
-(
-op
-)
-{
-default
-:
 JS_ASSERT
 (
 op
@@ -10650,9 +10643,6 @@ pn_dflags
 |
 =
 PND_CONST
-;
-}
-break
 ;
 }
 pn

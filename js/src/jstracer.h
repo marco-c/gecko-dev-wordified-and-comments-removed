@@ -1908,10 +1908,13 @@ get_argc
 const
 {
 return
+uint16
+(
 argc
 &
 ~
 CONSTRUCTING_FLAG
+)
 ;
 }
 bool

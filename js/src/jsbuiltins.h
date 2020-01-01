@@ -179,7 +179,7 @@ nanojit
 :
 :
 ARGSIZE_P
-class
+struct
 ClosureVarInfo
 ;
 #

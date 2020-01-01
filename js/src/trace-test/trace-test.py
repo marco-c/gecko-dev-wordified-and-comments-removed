@@ -1115,8 +1115,6 @@ and
 out
 of
 memory
-\
-n
 '
 in
 err

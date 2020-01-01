@@ -1493,7 +1493,10 @@ idp
 =
 INT_TO_JSID
 (
+int
+(
 index
+)
 )
 ;
 return
@@ -11991,9 +11994,12 @@ obj
 INDEX_TOO_SPARSE
 (
 obj
+unsigned
+(
 newlen
 +
 argc
+)
 )
 )
 {

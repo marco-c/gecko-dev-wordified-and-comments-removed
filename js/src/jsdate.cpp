@@ -689,6 +689,8 @@ year
 intN
 result
 =
+intN
+(
 DayFromMonth
 (
 month
@@ -701,6 +703,7 @@ month
 -
 1
 leap
+)
 )
 ;
 return
