@@ -393,14 +393,6 @@ zIndex
 }
 )
 .
-data
-(
-'
-isDragging
-'
-false
-)
-.
 appendTo
 (
 "
