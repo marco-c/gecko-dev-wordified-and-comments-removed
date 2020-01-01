@@ -12789,18 +12789,6 @@ range
 ;
 if
 (
-(
-shouldPatchInlineTypeGuard
-(
-)
-|
-|
-shouldPatchUnconditionalClaspGuard
-(
-)
-)
-&
-&
 !
 buffer
 .
@@ -12819,7 +12807,6 @@ jit
 )
 )
 )
-{
 return
 disable
 (
@@ -12834,7 +12821,6 @@ range
 "
 )
 ;
-}
 buffer
 .
 maybeLink
