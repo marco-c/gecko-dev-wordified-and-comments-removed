@@ -65,6 +65,15 @@ elf
 h
 >
 #
+include
+<
+linux
+/
+version
+.
+h
+>
+#
 if
 LINUX_VERSION_CODE
 <
