@@ -32,14 +32,6 @@ Create
 )
 COMPONENT
 (
-BYTEBUFFER
-ByteBufferImpl
-:
-:
-Create
-)
-COMPONENT
-(
 SCRIPTABLEINPUTSTREAM
 nsScriptableInputStream
 :
