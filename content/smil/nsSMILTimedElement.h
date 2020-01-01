@@ -189,6 +189,12 @@ return
 mSimpleDur
 ;
 }
+nsSMILTimeValue
+GetHyperlinkTime
+(
+)
+const
+;
 void
 AddInstanceTime
 (

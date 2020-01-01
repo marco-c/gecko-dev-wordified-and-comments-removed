@@ -278,6 +278,11 @@ GetTimeContainer
 (
 )
 ;
+void
+ActivateByHyperlink
+(
+)
+;
 protected
 :
 bool
