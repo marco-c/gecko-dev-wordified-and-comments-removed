@@ -415,12 +415,15 @@ NULL
 DIRS
 =
 src
+#
 ifdef
 MOZ_MOCHITEST
+#
 DIRS
 +
 =
 test
+#
 endif
 include
 (
