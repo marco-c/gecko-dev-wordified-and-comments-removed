@@ -237,10 +237,6 @@ mTmpFile
 (
 nullptr
 )
-mTmpFilePath
-(
-nullptr
-)
 mDigest
 (
 nullptr

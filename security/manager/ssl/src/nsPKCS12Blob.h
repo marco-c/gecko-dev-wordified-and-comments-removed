@@ -225,10 +225,6 @@ PRFileDesc
 *
 mTmpFile
 ;
-char
-*
-mTmpFilePath
-;
 nsCString
 *
 mDigest
