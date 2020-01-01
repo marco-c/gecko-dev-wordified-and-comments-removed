@@ -5168,8 +5168,6 @@ DefineNativeProperty
 (
 cx
 global
-NameToId
-(
 cx
 -
 >
@@ -5179,7 +5177,6 @@ runtime
 atomState
 .
 NaNAtom
-)
 cx
 -
 >
@@ -5202,8 +5199,6 @@ DefineNativeProperty
 (
 cx
 global
-NameToId
-(
 cx
 -
 >
@@ -5213,7 +5208,6 @@ runtime
 atomState
 .
 InfinityAtom
-)
 cx
 -
 >

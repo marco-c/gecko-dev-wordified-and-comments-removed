@@ -68,8 +68,10 @@ IterHook
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 obj
 JSBool
 keysonly
