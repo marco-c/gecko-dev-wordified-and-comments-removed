@@ -91,13 +91,6 @@ mContext
 ;
 }
 void
-PremultiplyAlpha
-(
-gfxFloat
-alpha
-)
-;
-void
 Paint
 (
 gfxContext
