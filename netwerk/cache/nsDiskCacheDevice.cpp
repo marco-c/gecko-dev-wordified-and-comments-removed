@@ -3263,6 +3263,7 @@ nsDiskCache
 :
 :
 kData
+PR_FALSE
 getter_AddRefs
 (
 file

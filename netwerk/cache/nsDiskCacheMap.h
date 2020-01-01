@@ -1503,6 +1503,8 @@ nsDiskCacheRecord
 record
 PRBool
 meta
+PRBool
+createPath
 nsIFile
 *
 *
@@ -1517,6 +1519,8 @@ nsDiskCacheRecord
 record
 PRBool
 meta
+PRBool
+createPath
 nsILocalFile
 *
 *
@@ -1738,6 +1742,11 @@ flush
 ;
 PRBool
 CacheFilesExist
+(
+)
+;
+nsresult
+CreateCacheSubDirectories
 (
 )
 ;
