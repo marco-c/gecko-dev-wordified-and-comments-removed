@@ -2309,7 +2309,7 @@ dll
 if
 (
 (
-UINT
+UINT_PTR
 )
 mhRASapi32
 >
@@ -2493,7 +2493,7 @@ dll
 if
 (
 (
-UINT
+UINT_PTR
 )
 mhRASdlg
 >
