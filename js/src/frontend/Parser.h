@@ -626,8 +626,8 @@ fun
 ParseContext
 *
 pc
-StrictMode
-sms
+bool
+strict
 )
 ;
 JSFunction

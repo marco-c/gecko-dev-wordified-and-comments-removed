@@ -196,8 +196,8 @@ isFunction
 AnyContextFlags
 anyCxFlags
 ;
-StrictMode
-strictModeState
+bool
+strictMode
 ;
 inline
 SharedContext
@@ -207,8 +207,8 @@ JSContext
 cx
 bool
 isFun
-StrictMode
-sms
+bool
+strict
 )
 ;
 inline
@@ -279,12 +279,6 @@ needStrictChecks
 (
 )
 ;
-inline
-bool
-inStrictMode
-(
-)
-;
 }
 ;
 class
@@ -310,8 +304,8 @@ cx
 JSObject
 *
 scopeChain
-StrictMode
-sms
+bool
+strict
 )
 ;
 JSObject
@@ -376,8 +370,8 @@ fun
 ParseContext
 *
 pc
-StrictMode
-sms
+bool
+strict
 )
 ;
 JSFunction

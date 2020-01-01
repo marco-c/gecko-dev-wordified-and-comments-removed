@@ -1855,7 +1855,7 @@ opn
 pn_funbox
 -
 >
-strictModeState
+strictMode
 )
 )
 ;

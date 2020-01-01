@@ -10024,9 +10024,7 @@ bce
 sc
 -
 >
-inStrictMode
-(
-)
+strictMode
 ;
 script
 -
