@@ -102,9 +102,6 @@ mNetworkManagerActive
 bool
 mOK
 ;
-bool
-mManageIOService
-;
 }
 ;
 #
