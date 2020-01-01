@@ -4579,17 +4579,6 @@ return
 PR_FALSE
 ;
 }
-NS_ERROR
-(
-"
-trying
-to
-start
-new
-process
-"
-)
-;
 nsAutoString
 value
 ;
