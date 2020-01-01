@@ -498,10 +498,14 @@ STRINGSPATH
 =
 (
 call
+core_abspath
+(
+call
 MERGE_FILE
 android_strings
 .
 dtd
+)
 )
 ifeq
 (
