@@ -10,6 +10,7 @@ padding
 0
 ;
 }
+audio
 video
 {
 width
@@ -19,17 +20,6 @@ width
 height
 :
 100px
-;
-}
-audio
-{
-width
-:
-140px
-;
-height
-:
-28px
 ;
 background
 -
