@@ -141,6 +141,9 @@ PRPackedBool
 mTerminated
 ;
 PRPackedBool
+mNotifiedWillTerminate
+;
+PRPackedBool
 mSkippedNativeCallback
 ;
 PRUint32
