@@ -11399,6 +11399,9 @@ mNeedsResize
 PR_FALSE
 ;
 #
+ifdef
+MOZ_IPC
+#
 ifndef
 MOZ_ENABLE_MEEGOTOUCH
 if
@@ -11437,6 +11440,8 @@ aHeight
 )
 ;
 }
+#
+endif
 #
 endif
 mWidget
@@ -11522,6 +11527,9 @@ mNeedsMove
 PR_FALSE
 ;
 #
+ifdef
+MOZ_IPC
+#
 ifndef
 MOZ_ENABLE_MEEGOTOUCH
 if
@@ -11565,6 +11573,8 @@ aHeight
 ;
 }
 }
+#
+endif
 #
 endif
 mWidget
@@ -11615,6 +11625,12 @@ GetViewWidget
 ;
 if
 (
+widget
+&
+&
+#
+ifdef
+MOZ_IPC
 (
 XRE_GetProcessType
 (
@@ -11625,9 +11641,8 @@ GeckoProcessType_Default
 )
 &
 &
-widget
-&
-&
+#
+endif
 !
 widget
 -
@@ -12592,7 +12607,12 @@ newView
 nsnull
 ;
 #
-ifdef
+if
+defined
+MOZ_IPC
+&
+&
+defined
 MOZ_ENABLE_MEEGOTOUCH
 if
 (
@@ -12616,6 +12636,7 @@ widget
 else
 #
 else
+{
 newView
 =
 new
@@ -12624,6 +12645,7 @@ MozQGraphicsView
 widget
 )
 ;
+}
 #
 endif
 if

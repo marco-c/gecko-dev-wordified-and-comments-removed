@@ -115,7 +115,12 @@ QRect
 r
 ;
 #
-ifdef
+if
+defined
+MOZ_IPC
+&
+&
+defined
 MOZ_ENABLE_MEEGOTOUCH
 if
 (
