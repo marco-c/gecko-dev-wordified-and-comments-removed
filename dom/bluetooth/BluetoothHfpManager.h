@@ -264,6 +264,9 @@ const
 nsAString
 &
 aNumber
+const
+bool
+aIsOutgoing
 bool
 aSend
 )
