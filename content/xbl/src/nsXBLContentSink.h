@@ -336,15 +336,6 @@ aLineNumber
 nsresult
 FlushText
 (
-PRBool
-aCreateTextNode
-=
-PR_TRUE
-PRBool
-*
-aDidFlush
-=
-nsnull
 )
 ;
 NS_IMETHOD
