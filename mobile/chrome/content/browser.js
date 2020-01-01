@@ -6962,13 +6962,6 @@ panning
 =
 true
 ;
-else
-aEvent
-.
-preventDefault
-(
-)
-;
 break
 ;
 case
