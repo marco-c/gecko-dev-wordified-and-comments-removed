@@ -2277,6 +2277,7 @@ cb
 }
 ;
 static
+const
 CCParticipantVTable
 <
 nsXPConnectParticipant
@@ -4400,6 +4401,7 @@ NS_OK
 }
 ;
 static
+const
 CCParticipantVTable
 <
 JSContextParticipant
