@@ -1314,6 +1314,14 @@ return
 true
 ;
 }
+void
+CheckInvalidateSizeChange
+(
+nsHTMLReflowMetrics
+&
+aNewDesiredSize
+)
+;
 bool
 IsFrameTreeTooDeep
 (

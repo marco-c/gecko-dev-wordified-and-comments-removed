@@ -193,15 +193,6 @@ mValidRegion
 aRegion
 )
 ;
-AddInvalidRect
-(
-aRegion
-.
-GetBounds
-(
-)
-)
-;
 }
 void
 ThebesLayerD3D10

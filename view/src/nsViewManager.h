@@ -725,6 +725,9 @@ bool
 mRecursiveRefreshPending
 ;
 bool
+mHasPendingUpdates
+;
+bool
 mHasPendingWidgetGeometryChanges
 ;
 bool
