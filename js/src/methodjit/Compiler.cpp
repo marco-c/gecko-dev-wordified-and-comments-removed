@@ -39224,7 +39224,10 @@ frame
 .
 pushSynced
 (
-JSVAL_TYPE_OBJECT
+knownPushedType
+(
+0
+)
 )
 ;
 frame
@@ -39394,7 +39397,10 @@ frame
 .
 pushTypedPayload
 (
-JSVAL_TYPE_OBJECT
+knownPushedType
+(
+0
+)
 result
 )
 ;
