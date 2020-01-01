@@ -1371,6 +1371,14 @@ WordMapRange
 r
 )
 :
+cur
+(
+NULL
+)
+end
+(
+NULL
+)
 isInline
 (
 false
