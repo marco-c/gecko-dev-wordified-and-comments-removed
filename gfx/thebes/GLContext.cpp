@@ -3213,6 +3213,9 @@ GL_IMG_read_format
 "
 GL_EXT_read_format_bgra
 "
+"
+GL_APPLE_client_storage
+"
 NULL
 }
 ;
