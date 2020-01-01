@@ -5536,7 +5536,7 @@ getDenseArrayInitializedLength
 (
 )
 ;
-MarkSlotRange
+MarkArraySlots
 (
 trc
 initLength

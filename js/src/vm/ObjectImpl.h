@@ -888,6 +888,14 @@ void
 oldval
 )
 ;
+void
+markChildren
+(
+JSTracer
+*
+trc
+)
+;
 static
 size_t
 offsetOfShape
