@@ -3169,7 +3169,7 @@ JSObject
 target
 (
 aCx
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
@@ -3547,7 +3547,7 @@ false
 ;
 target
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
@@ -6243,7 +6243,7 @@ JSObject
 *
 global
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
@@ -6638,7 +6638,7 @@ WorkerThread
 {
 targetCompartmentObject
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 cx
 )
@@ -14837,7 +14837,7 @@ true
 if
 (
 !
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
@@ -16329,7 +16329,7 @@ RootedObject
 global
 (
 aCx
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )

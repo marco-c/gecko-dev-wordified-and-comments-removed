@@ -2567,7 +2567,7 @@ RootedObject
 global
 (
 aCx
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )

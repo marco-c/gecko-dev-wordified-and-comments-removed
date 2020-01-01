@@ -1737,7 +1737,7 @@ aCx
 UnwrapErrorEvent
 1
 0
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
