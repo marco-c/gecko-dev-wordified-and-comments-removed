@@ -736,6 +736,13 @@ removeAllViews
 )
 ;
 }
+final
+boolean
+showAnimation
+=
+!
+mVisible
+;
 mVisible
 =
 true
@@ -849,6 +856,10 @@ isSideBar
 )
 )
 {
+if
+(
+showAnimation
+)
 dispatchLayoutChange
 (
 getWidth
@@ -916,6 +927,10 @@ actionBarHeight
 +
 listHeight
 ;
+if
+(
+showAnimation
+)
 dispatchLayoutChange
 (
 getWidth
