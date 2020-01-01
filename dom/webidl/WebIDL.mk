@@ -165,6 +165,10 @@ Blob
 .
 webidl
 \
+BrowserElementDictionaries
+.
+webidl
+\
 CameraManager
 .
 webidl
