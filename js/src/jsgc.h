@@ -780,10 +780,10 @@ JSGCArenaInfo
 *
 last
 ;
-uint16
+uint32
 lastCount
 ;
-uint16
+uint32
 thingSize
 ;
 JSGCThing
