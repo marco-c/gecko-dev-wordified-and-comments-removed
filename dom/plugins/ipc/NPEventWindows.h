@@ -249,16 +249,6 @@ event
 >
 =
 0xC000
-&
-&
-paramCopy
-.
-event
-.
-event
-<
-=
-0xFFFF
 )
 break
 ;

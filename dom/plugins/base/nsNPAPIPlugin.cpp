@@ -972,8 +972,6 @@ useA11yPref
 false
 ;
 #
-endif
-#
 ifdef
 XP_WIN
 useA11yPref
@@ -988,6 +986,13 @@ IsJAWS
 (
 )
 ;
+#
+endif
+#
+endif
+#
+ifdef
+XP_WIN
 if
 (
 aPluginTag
