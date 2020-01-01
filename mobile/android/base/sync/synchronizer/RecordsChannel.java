@@ -574,6 +574,14 @@ halt
 (
 )
 ;
+delegate
+.
+onFlowFetchFailed
+(
+this
+ex
+)
+;
 }
 Override
 public

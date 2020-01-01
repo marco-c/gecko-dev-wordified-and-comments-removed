@@ -37,6 +37,16 @@ ex
 ;
 public
 void
+onFlowFetchFailed
+(
+RecordsChannel
+recordsChannel
+Exception
+ex
+)
+;
+public
+void
 onFlowStoreFailed
 (
 RecordsChannel
