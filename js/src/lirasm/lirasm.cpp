@@ -120,6 +120,7 @@ allocChunk
 (
 size_t
 nbytes
+bool
 )
 {
 void
