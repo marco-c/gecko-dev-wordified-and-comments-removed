@@ -5643,8 +5643,9 @@ tobj
 wobj
 )
 )
-return
-false
+MOZ_CRASH
+(
+)
 ;
 if
 (
@@ -5666,8 +5667,9 @@ cx
 tobj
 )
 )
-return
-false
+MOZ_CRASH
+(
+)
 ;
 }
 JS_ASSERT
@@ -5870,8 +5872,9 @@ toObject
 newTarget
 )
 )
-return
-false
+MOZ_CRASH
+(
+)
 ;
 }
 return
@@ -6105,8 +6108,9 @@ wrapper
 wrapped
 )
 )
-return
-false
+MOZ_CRASH
+(
+)
 ;
 }
 return
