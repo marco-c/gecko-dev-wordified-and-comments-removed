@@ -1654,3 +1654,15 @@ aPtr
 )
 ;
 }
+PRUword
+nsPresArena
+:
+:
+GetPoisonValue
+(
+)
+{
+return
+ARENA_POISON
+;
+}

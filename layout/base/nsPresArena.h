@@ -108,6 +108,12 @@ Size
 (
 )
 ;
+static
+PRUword
+GetPoisonValue
+(
+)
+;
 private
 :
 struct
