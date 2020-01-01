@@ -148,6 +148,11 @@ SilentFirstRun
 )
 ;
 BOOL
+RunSetupCab
+(
+)
+;
+BOOL
 GetInstallPath
 (
 WCHAR
