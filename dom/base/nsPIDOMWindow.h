@@ -1354,10 +1354,6 @@ mChromeEventHandler
 =
 aChromeEventHandler
 ;
-mParentTarget
-=
-nsnull
-;
 }
 nsCOMPtr
 <
@@ -1370,12 +1366,6 @@ nsCOMPtr
 nsIDOMDocument
 >
 mDocument
-;
-nsCOMPtr
-<
-nsPIDOMEventTarget
->
-mParentTarget
 ;
 nsCOMPtr
 <
