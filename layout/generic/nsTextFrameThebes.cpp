@@ -1804,6 +1804,7 @@ nsnull
 ;
 class
 FrameTextRunCache
+MOZ_FINAL
 :
 public
 nsExpirationTracker

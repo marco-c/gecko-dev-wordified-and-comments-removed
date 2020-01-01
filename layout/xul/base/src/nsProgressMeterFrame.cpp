@@ -68,6 +68,15 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 nsIFrame
 *
 NS_NewProgressMeterFrame
@@ -107,6 +116,7 @@ nsProgressMeterFrame
 }
 class
 nsAsyncProgressMeterInit
+MOZ_FINAL
 :
 public
 nsIReflowCallback
