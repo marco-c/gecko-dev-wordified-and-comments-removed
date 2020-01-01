@@ -4712,7 +4712,7 @@ if
 (
 NS_REINTERPRET_CAST
 (
-PRUint32
+HDC
 window
 -
 >
@@ -4720,12 +4720,6 @@ window
 )
 !
 =
-(
-PRUint32
-)
-(
-HDC
-)
 hdc
 )
 {
