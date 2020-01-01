@@ -248,7 +248,7 @@ record
 >
 exit
 ;
-snprintf
+VMPI_snprintf
 (
 buf
 -
@@ -374,7 +374,7 @@ record
 >
 exit
 ;
-snprintf
+VMPI_snprintf
 (
 buf
 -
