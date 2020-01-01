@@ -472,6 +472,10 @@ define
 ATTRIBUTE_INIT
 js_InitAttributeNameClass
 #
+define
+XMLFILTER_INIT
+js_InitXMLFilterClass
+#
 else
 #
 define
@@ -492,6 +496,10 @@ js_InitNullClass
 #
 define
 ATTRIBUTE_INIT
+js_InitNullClass
+#
+define
+XMLFILTER_INIT
 js_InitNullClass
 #
 endif
@@ -753,6 +761,12 @@ JS_PROTO
 Block
 30
 js_InitBlockClass
+)
+JS_PROTO
+(
+XMLFilter
+31
+XMLFILTER_INIT
 )
 #
 undef

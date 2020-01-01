@@ -4569,11 +4569,11 @@ JSOP_ENDFILTER
 endfilter
 "
 NULL
+3
+2
 1
-1
-0
 18
-JOF_BYTE
+JOF_JUMP
 )
 OPDEF
 (
