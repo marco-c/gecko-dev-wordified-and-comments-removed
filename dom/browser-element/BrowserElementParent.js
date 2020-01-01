@@ -731,6 +731,16 @@ _fireEventFromMsg
 addMessageListener
 (
 "
+securitychange
+"
+this
+.
+_fireEventFromMsg
+)
+;
+addMessageListener
+(
+"
 get
 -
 mozapp
@@ -823,7 +833,7 @@ this
 _setVisible
 )
 ;
-self
+this
 .
 _mm
 .
