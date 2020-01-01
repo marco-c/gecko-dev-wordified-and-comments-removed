@@ -586,6 +586,7 @@ function
 (
 )
 {
+return
 doApply
 (
 obj
