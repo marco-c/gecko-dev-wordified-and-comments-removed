@@ -565,6 +565,10 @@ mSecondaryState
 eXBL_InField
 )
 {
+if
+(
+mField
+)
 mField
 -
 >
