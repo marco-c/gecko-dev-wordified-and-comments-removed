@@ -1562,6 +1562,12 @@ aOther
 .
 mHadLastPart
 )
+mHasBeenDecoded
+(
+aOther
+.
+mHasBeenDecoded
+)
 {
 mTrackerObserver
 =
