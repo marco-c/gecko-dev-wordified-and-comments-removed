@@ -500,10 +500,6 @@ TestTimers
 .
 cpp
 \
-TestOOM
-.
-cpp
-\
 TestBlockingProcess
 .
 cpp
