@@ -7,13 +7,6 @@ mozilla_dom_SVGViewElement_h
 #
 include
 "
-nsIDOMSVGViewElement
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -77,6 +70,9 @@ SVGViewElementBase
 class
 nsSVGOuterSVGFrame
 ;
+class
+nsIDOMSVGStringList
+;
 nsresult
 NS_NewSVGViewElement
 (
@@ -109,7 +105,7 @@ SVGViewElement
 public
 SVGViewElementBase
 public
-nsIDOMSVGViewElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -178,7 +174,6 @@ MOZ_OVERRIDE
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGVIEWELEMENT
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
@@ -200,13 +195,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode

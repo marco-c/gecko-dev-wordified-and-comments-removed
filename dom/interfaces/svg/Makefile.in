@@ -184,10 +184,6 @@ nsIDOMSVGUnitTypes
 .
 idl
 \
-nsIDOMSVGViewElement
-.
-idl
-\
 nsIDOMSVGZoomEvent
 .
 idl

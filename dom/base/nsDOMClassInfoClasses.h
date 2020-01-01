@@ -719,10 +719,6 @@ SVGUnknownElement
 )
 DOMCI_CLASS
 (
-SVGViewElement
-)
-DOMCI_CLASS
-(
 SVGAnimatedEnumeration
 )
 DOMCI_CLASS
