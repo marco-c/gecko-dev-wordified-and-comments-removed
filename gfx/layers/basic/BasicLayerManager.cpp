@@ -3648,6 +3648,9 @@ HasNonAxisAlignedTransform
 )
 )
 {
+gfx
+:
+:
 Rect
 opaqueRect
 =
@@ -3660,6 +3663,9 @@ GetTransform
 .
 TransformBounds
 (
+gfx
+:
+:
 Rect
 (
 bounds

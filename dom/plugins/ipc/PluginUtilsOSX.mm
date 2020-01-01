@@ -1640,7 +1640,7 @@ false
 }
 mFrontSurface
 =
-nsIOSurface
+MacIOSurface
 :
 :
 CreateIOSurface
@@ -1804,9 +1804,9 @@ SwapSurfaces
 (
 )
 {
-nsRefPtr
+RefPtr
 <
-nsIOSurface
+MacIOSurface
 >
 prevFrontSurface
 =

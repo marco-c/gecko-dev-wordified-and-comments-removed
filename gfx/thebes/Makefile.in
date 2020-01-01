@@ -222,14 +222,6 @@ gfxUserFontSet
 .
 h
 \
-nsCoreAnimationSupport
-.
-h
-\
-nsIOSurface
-.
-h
-\
 nsSurfaceTexture
 .
 h
@@ -1249,10 +1241,6 @@ CMMSRCS
 =
 \
 gfxMacPlatformFontList
-.
-mm
-\
-nsCoreAnimationSupport
 .
 mm
 \

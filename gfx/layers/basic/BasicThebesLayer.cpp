@@ -326,6 +326,9 @@ GetBounds
 (
 )
 ;
+gfx
+:
+:
 Rect
 transformedBounds
 =
@@ -338,6 +341,9 @@ GetTransform
 .
 TransformBounds
 (
+gfx
+:
+:
 Rect
 (
 Float
