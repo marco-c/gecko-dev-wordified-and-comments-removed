@@ -454,17 +454,6 @@ aResult
 )
 const
 ;
-nsresult
-GetValueOrImportantValue
-(
-nsCSSProperty
-aProperty
-nsCSSValue
-&
-aValue
-)
-const
-;
 void
 AppendPropertyAndValueToString
 (
