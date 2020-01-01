@@ -543,6 +543,10 @@ test_text
 .
 html
 \
+test_textattrchange
+.
+html
+\
 test_tree
 .
 xul

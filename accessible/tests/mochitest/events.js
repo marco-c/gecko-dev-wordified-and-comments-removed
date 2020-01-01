@@ -104,6 +104,13 @@ nsIAccessibleEvent
 EVENT_STATE_CHANGE
 ;
 const
+EVENT_TEXT_ATTRIBUTE_CHANGED
+=
+nsIAccessibleEvent
+.
+EVENT_TEXT_ATTRIBUTE_CHANGED
+;
+const
 EVENT_TEXT_CARET_MOVED
 =
 nsIAccessibleEvent
