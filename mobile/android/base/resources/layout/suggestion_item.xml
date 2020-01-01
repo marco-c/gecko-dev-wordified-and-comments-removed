@@ -147,13 +147,6 @@ true
 "
 android
 :
-focusable
-=
-"
-true
-"
-android
-:
 padding
 =
 "

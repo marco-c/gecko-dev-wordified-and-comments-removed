@@ -132,6 +132,13 @@ awesomebar_row_height
 "
 android
 :
+duplicateParentState
+=
+"
+true
+"
+android
+:
 padding
 =
 "
