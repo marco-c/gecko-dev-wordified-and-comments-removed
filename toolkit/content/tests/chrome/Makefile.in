@@ -535,6 +535,10 @@ test_autocomplete2
 .
 xul
 \
+test_autocomplete3
+.
+xul
+\
 test_keys
 .
 xul
