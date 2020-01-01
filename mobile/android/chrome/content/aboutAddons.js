@@ -913,6 +913,9 @@ className
 addon
 -
 item
+list
+-
+item
 "
 ;
 outer
@@ -999,7 +1002,7 @@ img
 className
 =
 "
-favicon
+icon
 "
 ;
 img
@@ -2117,7 +2120,7 @@ addon
 -
 item
 .
-favicon
+icon
 "
 )
 ;

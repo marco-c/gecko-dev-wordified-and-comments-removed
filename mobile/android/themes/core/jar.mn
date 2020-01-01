@@ -111,6 +111,16 @@ aboutApps
 .
 css
 )
+skin
+/
+aboutBase
+.
+css
+(
+aboutBase
+.
+css
+)
 *
 skin
 /
