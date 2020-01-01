@@ -810,7 +810,7 @@ aOffset
 nsresult
 DeleteNonTableElements
 (
-nsIDOMNode
+nsINode
 *
 aNode
 )
