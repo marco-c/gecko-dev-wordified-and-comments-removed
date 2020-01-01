@@ -2233,6 +2233,13 @@ DispatchMessageW
 msg
 )
 ;
+ExitSpinLoop
+(
+)
+;
+return
+false
+;
 }
 }
 else
