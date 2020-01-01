@@ -256,11 +256,6 @@ uint32_t
 aNumRead
 )
 ;
-bool
-IsTransferring
-(
-)
-;
 void
 ReceiveSocketData
 (
@@ -347,6 +342,13 @@ GetAddress
 nsAString
 &
 aDeviceAddress
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
+IsConnected
+(
 )
 MOZ_OVERRIDE
 ;

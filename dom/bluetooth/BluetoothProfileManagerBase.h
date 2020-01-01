@@ -92,6 +92,14 @@ aDeviceAddress
 =
 0
 ;
+virtual
+bool
+IsConnected
+(
+)
+=
+0
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE

@@ -1363,7 +1363,7 @@ NS_IsMainThread
 MOZ_ASSERT
 (
 !
-IsTransferring
+IsConnected
 (
 )
 )
@@ -4521,7 +4521,7 @@ bool
 BluetoothOppManager
 :
 :
-IsTransferring
+IsConnected
 (
 )
 {
