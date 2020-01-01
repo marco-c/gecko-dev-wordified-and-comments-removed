@@ -1129,6 +1129,13 @@ return
 nsnull
 ;
 }
+virtual
+void
+ScrollToRef
+(
+)
+{
+}
 NS_IMETHOD
 OpenHead
 (

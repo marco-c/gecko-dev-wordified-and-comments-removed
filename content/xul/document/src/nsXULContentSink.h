@@ -161,6 +161,13 @@ GetTarget
 (
 )
 ;
+virtual
+void
+ScrollToRef
+(
+)
+{
+}
 nsresult
 Init
 (

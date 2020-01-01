@@ -440,6 +440,13 @@ return
 nsnull
 ;
 }
+virtual
+void
+ScrollToRef
+(
+)
+{
+}
 private
 :
 nsRefPtr
