@@ -1758,7 +1758,7 @@ if
 !
 domain
 .
-contains
+endsWith
 (
 baseDomain
 )
