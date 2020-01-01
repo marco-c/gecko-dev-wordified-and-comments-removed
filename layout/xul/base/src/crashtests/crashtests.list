@@ -289,6 +289,9 @@ skip
 if
 (
 B2G
+|
+|
+browserIsRemote
 )
 load
 395609
