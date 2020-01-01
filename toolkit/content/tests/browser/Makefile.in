@@ -124,6 +124,10 @@ browser_Services
 .
 js
 \
+browser_DeferredTask
+.
+js
+\
 (
 NULL
 )
