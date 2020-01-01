@@ -52,6 +52,12 @@ compartment
 )
 ;
 static
+bool
+callerIsChrome
+(
+)
+;
+static
 nsIPrincipal
 *
 getPrincipal
