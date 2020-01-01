@@ -6036,13 +6036,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
-(
-"
-Bad
-type
-"
-)
+return
 ;
 }
 if
