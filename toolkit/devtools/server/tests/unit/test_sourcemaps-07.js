@@ -117,7 +117,7 @@ writeFile
 "
 temp
 .
-foobar
+js
 "
 "
 initial
@@ -148,7 +148,7 @@ getFileUrl
 "
 temp
 .
-foobar
+js
 "
 )
 "
@@ -316,7 +316,7 @@ writeFile
 "
 temp
 .
-foobar
+js
 "
 "
 new
@@ -384,7 +384,7 @@ do_get_file
 "
 temp
 .
-foobar
+js
 "
 )
 .
