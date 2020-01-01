@@ -2718,7 +2718,10 @@ bool
 GetVibrationDurationFromJsval
 (
 const
-jsval
+JS
+:
+:
+Value
 &
 aJSVal
 JSContext
@@ -2964,7 +2967,10 @@ Navigator
 Vibrate
 (
 const
-jsval
+JS
+:
+:
+Value
 &
 aPattern
 JSContext
@@ -3151,7 +3157,10 @@ length
 i
 )
 {
-jsval
+JS
+:
+:
+Value
 v
 ;
 int32_t
@@ -5814,7 +5823,10 @@ gpi
 NS_ERROR_FAILURE
 )
 ;
-jsval
+JS
+:
+:
+Value
 prop_val
 =
 JSVAL_VOID

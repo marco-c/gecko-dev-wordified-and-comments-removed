@@ -663,7 +663,10 @@ aScope
 uint32_t
 *
 aArgc
-jsval
+JS
+:
+:
+Value
 *
 *
 aArgv
@@ -684,7 +687,10 @@ AddSupportsPrimitiveTojsvals
 nsISupports
 *
 aArg
-jsval
+JS
+:
+:
+Value
 *
 aArgv
 )

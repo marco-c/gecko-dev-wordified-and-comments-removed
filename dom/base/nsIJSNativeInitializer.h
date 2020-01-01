@@ -64,7 +64,10 @@ JSObject
 obj
 uint32_t
 argc
-jsval
+JS
+:
+:
+Value
 *
 argv
 )

@@ -153,7 +153,10 @@ NS_ENSURE_ARG_POINTER
 aCx
 )
 ;
-jsval
+JS
+:
+:
+Value
 jsData
 ;
 nsresult
@@ -429,7 +432,10 @@ aData
 =
 nullptr
 ;
-jsval
+JS
+:
+:
+Value
 jsStateObj
 ;
 JSBool
