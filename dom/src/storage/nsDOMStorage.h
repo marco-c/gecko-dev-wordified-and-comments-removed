@@ -906,10 +906,6 @@ mPrincipal
 nsString
 mDocumentURI
 ;
-friend
-class
-nsDOMStorage2
-;
 nsRefPtr
 <
 nsDOMStorage
