@@ -7,7 +7,9 @@ base
 resources
 /
 drawable
+-
+mdpi
 /
-sync_icon
+sync_ic_launcher
 .
 png
