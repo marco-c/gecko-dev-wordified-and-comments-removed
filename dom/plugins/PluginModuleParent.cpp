@@ -1337,6 +1337,7 @@ mPlugin
 PluginCrashed
 (
 mPluginDumpID
+mBrowserDumpID
 )
 ;
 }

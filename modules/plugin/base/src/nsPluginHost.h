@@ -515,7 +515,11 @@ plugin
 const
 nsAString
 &
-dumpID
+pluginDumpID
+const
+nsAString
+&
+browserDumpID
 )
 ;
 #

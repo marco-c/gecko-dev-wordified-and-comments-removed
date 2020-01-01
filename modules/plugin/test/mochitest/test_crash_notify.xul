@@ -400,7 +400,7 @@ subject
 getPropertyAsAString
 (
 "
-minidumpID
+pluginDumpID
 "
 )
 ;

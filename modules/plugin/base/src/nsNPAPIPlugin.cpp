@@ -1647,7 +1647,11 @@ PluginCrashed
 const
 nsAString
 &
-dumpID
+pluginDumpID
+const
+nsAString
+&
+browserDumpID
 )
 {
 nsRefPtr
@@ -1672,7 +1676,8 @@ host
 PluginCrashed
 (
 this
-dumpID
+pluginDumpID
+browserDumpID
 )
 ;
 }
