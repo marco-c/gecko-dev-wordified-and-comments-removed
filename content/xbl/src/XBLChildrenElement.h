@@ -36,6 +36,9 @@ nsXMLElement
 .
 h
 "
+class
+nsAnonymousContentList
+;
 namespace
 mozilla
 {
@@ -45,13 +48,8 @@ dom
 class
 ExplicitChildIterator
 ;
-}
-}
 class
-nsAnonymousContentList
-;
-class
-nsXBLChildrenElement
+XBLChildrenElement
 :
 public
 nsXMLElement
@@ -72,7 +70,7 @@ friend
 class
 nsAnonymousContentList
 ;
-nsXBLChildrenElement
+XBLChildrenElement
 (
 already_AddRefed
 <
@@ -88,7 +86,7 @@ aNodeInfo
 {
 }
 ~
-nsXBLChildrenElement
+XBLChildrenElement
 (
 )
 ;
@@ -569,6 +567,8 @@ mIncludes
 ;
 }
 ;
+}
+}
 class
 nsAnonymousContentList
 :

@@ -71,7 +71,11 @@ h
 #
 include
 "
-nsXBLChildrenElement
+mozilla
+/
+dom
+/
+XBLChildrenElement
 .
 h
 "
@@ -993,7 +997,7 @@ NS_ADDREF
 aResult
 =
 new
-nsXBLChildrenElement
+XBLChildrenElement
 (
 aNodeInfo
 )
