@@ -1791,6 +1791,10 @@ load
 .
 xhtml
 load
+536720
+.
+xul
+load
 537059
 -
 1
@@ -1827,6 +1831,10 @@ load
 .
 html
 load
+540760
+.
+xul
+load
 541869
 -
 1
@@ -1862,6 +1870,10 @@ load
 1
 .
 xhtml
+load
+572003
+.
+xul
 load
 572582
 -
