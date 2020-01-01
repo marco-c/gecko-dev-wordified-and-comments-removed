@@ -35545,6 +35545,16 @@ stack
 ensureEnoughSpaceToEnterTrace
 (
 )
+|
+|
+inlineCallCount
++
+f
+-
+>
+maxCallDepth
+>
+JS_MAX_INLINE_CALL_COUNT
 )
 {
 *
