@@ -1818,7 +1818,7 @@ if
 member
 -
 >
-GetValue
+GetConstantValue
 (
 ccx
 iface
