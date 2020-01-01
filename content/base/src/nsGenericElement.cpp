@@ -27320,6 +27320,13 @@ IsElement
 )
 |
 |
+(
+element
+!
+=
+aRoot
+&
+&
 nsContentUtils
 :
 :
@@ -27327,6 +27334,7 @@ ContentIsDescendantOf
 (
 element
 aRoot
+)
 )
 )
 {
