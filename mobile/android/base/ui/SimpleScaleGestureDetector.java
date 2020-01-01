@@ -90,6 +90,10 @@ long
 mLastEventTime
 ;
 private
+boolean
+mScaleResult
+;
+private
 LinkedList
 <
 PointerInfo
@@ -951,6 +955,8 @@ eventType
 case
 BEGIN
 :
+mScaleResult
+=
 mListener
 .
 onScaleBegin
@@ -963,6 +969,11 @@ break
 case
 CONTINUE
 :
+if
+(
+mScaleResult
+)
+{
 mListener
 .
 onScale
@@ -970,11 +981,17 @@ onScale
 this
 )
 ;
+}
 break
 ;
 case
 END
 :
+if
+(
+mScaleResult
+)
+{
 mListener
 .
 onScaleEnd
@@ -982,6 +999,7 @@ onScaleEnd
 this
 )
 ;
+}
 break
 ;
 }
