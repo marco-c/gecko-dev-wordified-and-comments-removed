@@ -663,15 +663,6 @@ payload
 ;
 inline
 void
-pushUntypedValue
-(
-Value
-&
-value
-)
-;
-inline
-void
 pushNumber
 (
 MaybeRegisterID

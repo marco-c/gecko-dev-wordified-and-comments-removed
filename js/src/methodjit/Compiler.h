@@ -2121,11 +2121,6 @@ index
 )
 ;
 void
-jsop_callgname_epilogue
-(
-)
-;
-void
 jsop_setgname
 (
 JSAtom
