@@ -453,6 +453,10 @@ test_nsFind
 .
 html
 \
+test_window_open_units
+.
+html
+\
 (
 NULL
 )
