@@ -495,4 +495,13 @@ installer
 debian
 /
 menu
+mobile
+/
+installer
+/
+debian
+/
+fennec
+.
+postinst
 "
