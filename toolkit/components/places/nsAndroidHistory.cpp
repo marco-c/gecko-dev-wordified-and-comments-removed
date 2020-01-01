@@ -32,10 +32,11 @@ dom
 :
 Link
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS2
 (
 nsAndroidHistory
 IHistory
+nsIRunnable
 )
 nsAndroidHistory
 *
