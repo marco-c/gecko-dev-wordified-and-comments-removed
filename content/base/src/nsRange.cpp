@@ -878,6 +878,8 @@ aInfo
 -
 >
 mChangeEnd
++
+1
 "
 mStartOffset
 is
@@ -1065,6 +1067,8 @@ aInfo
 -
 >
 mChangeEnd
++
+1
 "
 mEndOffset
 is
