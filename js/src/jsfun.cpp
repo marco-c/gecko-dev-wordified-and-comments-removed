@@ -9998,6 +9998,13 @@ aobj
 isArguments
 (
 )
+&
+&
+!
+IsOverriddenArgsLength
+(
+aobj
+)
 )
 {
 JSStackFrame
