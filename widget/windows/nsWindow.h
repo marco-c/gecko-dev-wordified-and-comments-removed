@@ -2197,6 +2197,12 @@ ClearCachedResources
 (
 )
 ;
+nsIWidgetListener
+*
+GetPaintListener
+(
+)
+;
 protected
 :
 nsCOMPtr
