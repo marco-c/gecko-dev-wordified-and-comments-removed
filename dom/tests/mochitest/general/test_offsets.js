@@ -611,7 +611,7 @@ width
 +
 paddingRight
 +
-borderLeft
+borderRight
 element
 .
 id
@@ -675,7 +675,7 @@ width
 +
 paddingRight
 +
-borderLeft
+borderRight
 element
 .
 id
