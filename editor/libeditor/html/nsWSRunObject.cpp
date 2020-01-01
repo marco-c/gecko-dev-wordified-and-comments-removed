@@ -3456,6 +3456,8 @@ SetPoint
 (
 mNode
 pos
++
+1
 )
 ;
 }
