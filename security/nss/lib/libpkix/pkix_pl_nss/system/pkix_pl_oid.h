@@ -24,12 +24,8 @@ endif
 struct
 PKIX_PL_OIDStruct
 {
-PKIX_UInt32
-*
-components
-;
-PKIX_UInt32
-length
+SECItem
+derOid
 ;
 }
 ;

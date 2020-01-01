@@ -389,6 +389,8 @@ PRBool
 noKeyDB
 PRBool
 forceOpen
+PRBool
+isFIPS
 SFTKDBHandle
 *
 *

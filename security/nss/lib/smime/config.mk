@@ -483,6 +483,12 @@ lib
 lnss3
 \
 -
+L
+(
+NSSUTIL_LIB_DIR
+)
+\
+-
 lnssutil3
 \
 -
@@ -585,6 +591,12 @@ lib
 \
 -
 lnss3
+\
+-
+L
+(
+NSSUTIL_LIB_DIR
+)
 \
 -
 lnssutil3

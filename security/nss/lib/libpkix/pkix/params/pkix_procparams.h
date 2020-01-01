@@ -81,6 +81,9 @@ resourceLimits
 PKIX_Boolean
 useAIAForCertFetching
 ;
+PKIX_Boolean
+qualifyTargetCert
+;
 }
 ;
 PKIX_Error

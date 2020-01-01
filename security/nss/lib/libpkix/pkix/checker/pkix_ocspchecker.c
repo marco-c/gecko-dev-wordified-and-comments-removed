@@ -496,7 +496,7 @@ PKIX_ENTER
 (
 OCSPCHECKER
 "
-pkix_OcspChecker_Check
+pkix_OcspChecker_CheckExternal
 "
 )
 ;

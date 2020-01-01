@@ -3707,7 +3707,7 @@ C3
 if
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 #
 define
@@ -4414,7 +4414,7 @@ C3
 if
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 #
 undef
@@ -4487,7 +4487,7 @@ C3
 if
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 #
 define
@@ -5186,7 +5186,7 @@ roundkeyw
 if
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 #
 undef

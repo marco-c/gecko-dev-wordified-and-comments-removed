@@ -2434,6 +2434,11 @@ rvH
 =
 CK_INVALID_HANDLE
 ;
+PORT_SetError
+(
+SEC_ERROR_CRL_IMPORT_FAILED
+)
+;
 }
 return
 rvH

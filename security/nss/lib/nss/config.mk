@@ -518,6 +518,12 @@ DIST
 lib
 \
 -
+L
+(
+NSSUTIL_LIB_DIR
+)
+\
+-
 lnssutil3
 \
 -
@@ -632,6 +638,12 @@ DIST
 )
 /
 lib
+\
+-
+L
+(
+NSSUTIL_LIB_DIR
+)
 \
 -
 lnssutil3

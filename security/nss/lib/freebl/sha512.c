@@ -19,18 +19,9 @@ h
 "
 #
 if
-(
 defined
 (
-_X86_
-)
-&
-&
-!
-defined
-(
-__x86_64__
-)
+NSS_X86
 )
 |
 |
@@ -397,7 +388,7 @@ _MSC_VER
 &
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 #
 ifndef
@@ -479,7 +470,7 @@ __GNUC__
 &
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 static
 __inline__

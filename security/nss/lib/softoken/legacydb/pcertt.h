@@ -367,6 +367,14 @@ v2
 extensions
 *
 /
+#
+define
+NSS_MAX_LEGACY_DB_KEY_SIZE
+(
+60
+*
+1024
+)
 struct
 NSSLOWCERTIssuerAndSNStr
 {

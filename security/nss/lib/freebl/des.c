@@ -1171,7 +1171,7 @@ __GNUC__
 &
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 #
 define
@@ -1432,7 +1432,7 @@ ls
 if
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 left
 =
@@ -2544,7 +2544,7 @@ temp
 if
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 left
 =
@@ -3114,7 +3114,7 @@ temp
 if
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 BYTESWAP
 (

@@ -586,7 +586,7 @@ R
 if
 defined
 (
-_X86_
+NSS_X86_OR_X64
 )
 #
 define

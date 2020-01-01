@@ -35,6 +35,9 @@ store
 PKIX_CertSelector
 *
 selector
+PKIX_VerifyNode
+*
+verifyNode
 void
 *
 *
@@ -58,6 +61,9 @@ store
 PKIX_CertSelector
 *
 selector
+PKIX_VerifyNode
+*
+verifyNode
 void
 *
 *
@@ -85,6 +91,9 @@ store
 PKIX_CertSelector
 *
 selector
+PKIX_VerifyNode
+*
+verifyNode
 void
 *
 *
