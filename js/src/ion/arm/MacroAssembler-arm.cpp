@@ -5138,12 +5138,15 @@ FloatRegister
 src
 FloatRegister
 dest
+Condition
+cc
 )
 {
 as_vmov
 (
 dest
 src
+cc
 )
 ;
 }
@@ -5157,12 +5160,15 @@ FloatRegister
 src
 FloatRegister
 dest
+Condition
+cc
 )
 {
 as_vneg
 (
 dest
 src
+cc
 )
 ;
 }
@@ -5176,12 +5182,37 @@ FloatRegister
 src
 FloatRegister
 dest
+Condition
+cc
 )
 {
 as_vabs
 (
 dest
 src
+cc
+)
+;
+}
+void
+MacroAssemblerARM
+:
+:
+ma_vsqrt
+(
+FloatRegister
+src
+FloatRegister
+dest
+Condition
+cc
+)
+{
+as_vsqrt
+(
+dest
+src
+cc
 )
 ;
 }
@@ -5195,6 +5226,8 @@ double
 value
 FloatRegister
 dest
+Condition
+cc
 )
 {
 union
@@ -5278,6 +5311,7 @@ as_vimm
 (
 dest
 dblEnc
+cc
 )
 ;
 as_vsub
@@ -5285,6 +5319,7 @@ as_vsub
 dest
 dest
 dest
+cc
 )
 ;
 return
@@ -5313,6 +5348,7 @@ as_vimm
 (
 dest
 dblEnc
+cc
 )
 ;
 return
@@ -5323,6 +5359,8 @@ as_FImm64Pool
 (
 dest
 value
+NULL
+cc
 )
 ;
 }
@@ -5336,6 +5374,8 @@ FloatRegister
 src1
 FloatRegister
 src2
+Condition
+cc
 )
 {
 as_vcmp
@@ -5348,6 +5388,7 @@ VFPRegister
 (
 src2
 )
+cc
 )
 ;
 }
@@ -5359,6 +5400,8 @@ ma_vcmpz
 (
 FloatRegister
 src1
+Condition
+cc
 )
 {
 as_vcmpz
@@ -5367,6 +5410,7 @@ VFPRegister
 (
 src1
 )
+cc
 )
 ;
 }
@@ -5380,6 +5424,8 @@ FloatRegister
 src
 FloatRegister
 dest
+Condition
+cc
 )
 {
 as_vcvt
@@ -5396,6 +5442,8 @@ VFPRegister
 (
 src
 )
+false
+cc
 )
 ;
 }
@@ -5409,6 +5457,8 @@ FloatRegister
 src
 FloatRegister
 dest
+Condition
+cc
 )
 {
 as_vcvt
@@ -5425,6 +5475,8 @@ VFPRegister
 (
 src
 )
+false
+cc
 )
 ;
 }
@@ -5438,6 +5490,8 @@ FloatRegister
 dest
 FloatRegister
 src
+Condition
+cc
 )
 {
 as_vcvt
@@ -5454,6 +5508,8 @@ src
 sintOverlay
 (
 )
+false
+cc
 )
 ;
 }
@@ -5467,6 +5523,8 @@ FloatRegister
 dest
 FloatRegister
 src
+Condition
+cc
 )
 {
 as_vcvt
@@ -5483,6 +5541,8 @@ src
 uintOverlay
 (
 )
+false
+cc
 )
 ;
 }
@@ -5496,6 +5556,8 @@ FloatRegister
 src
 Register
 dest
+Condition
+cc
 )
 {
 as_vxfer
@@ -5511,6 +5573,7 @@ singleOverlay
 (
 )
 FloatToCore
+cc
 )
 ;
 }
@@ -5526,6 +5589,8 @@ Register
 dest1
 Register
 dest2
+Condition
+cc
 )
 {
 as_vxfer
@@ -5537,6 +5602,7 @@ VFPRegister
 src
 )
 FloatToCore
+cc
 )
 ;
 }
@@ -5550,6 +5616,8 @@ VFPRegister
 src
 Register
 dest
+Condition
+cc
 )
 {
 as_vxfer
@@ -5558,6 +5626,7 @@ dest
 InvalidReg
 src
 FloatToCore
+cc
 )
 ;
 }
@@ -5573,6 +5642,8 @@ Register
 dest1
 Register
 dest2
+Condition
+cc
 )
 {
 as_vxfer
@@ -5581,6 +5652,7 @@ dest1
 dest2
 src
 FloatToCore
+cc
 )
 ;
 }
@@ -5925,6 +5997,8 @@ VFPAddr
 addr
 VFPRegister
 dest
+Condition
+cc
 )
 {
 as_vdtr
@@ -5932,6 +6006,7 @@ as_vdtr
 IsLoad
 dest
 addr
+cc
 )
 ;
 }
@@ -5947,6 +6022,8 @@ Operand
 addr
 VFPRegister
 dest
+Condition
+cc
 )
 {
 ma_vdtr
@@ -5954,6 +6031,7 @@ ma_vdtr
 IsLoad
 addr
 dest
+cc
 )
 ;
 }
@@ -5967,6 +6045,8 @@ VFPRegister
 src
 VFPAddr
 addr
+Condition
+cc
 )
 {
 as_vdtr
@@ -5974,6 +6054,7 @@ as_vdtr
 IsStore
 src
 addr
+cc
 )
 ;
 }
@@ -5989,6 +6070,8 @@ const
 Operand
 &
 addr
+Condition
+cc
 )
 {
 ma_vdtr
@@ -5996,6 +6079,7 @@ ma_vdtr
 IsStore
 addr
 src
+cc
 )
 ;
 }
@@ -6013,6 +6097,8 @@ Register
 index
 int32
 shift
+Condition
+cc
 )
 {
 as_add
@@ -6024,6 +6110,8 @@ lsl
 index
 shift
 )
+NoSetCond
+cc
 )
 ;
 ma_vstr
@@ -6034,6 +6122,7 @@ Operand
 ScratchRegister
 0
 )
+cc
 )
 ;
 }
