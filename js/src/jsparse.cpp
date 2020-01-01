@@ -2426,7 +2426,11 @@ JS_ASSERT
 tcflags
 &
 ~
+(
 TCF_COMPILE_N_GO
+|
+TCF_NO_SCRIPT_RVAL
+)
 )
 )
 ;

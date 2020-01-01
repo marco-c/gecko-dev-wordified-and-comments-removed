@@ -1038,6 +1038,8 @@ cx
 oldopts
 |
 JSOPTION_COMPILE_N_GO
+|
+JSOPTION_NO_SCRIPT_RVAL
 )
 ;
 script
@@ -1074,8 +1076,7 @@ JS_ExecuteScript
 cx
 obj
 script
-&
-result
+NULL
 )
 ;
 JS_DestroyScript
@@ -2896,6 +2897,8 @@ cx
 oldopts
 |
 JSOPTION_COMPILE_N_GO
+|
+JSOPTION_NO_SCRIPT_RVAL
 )
 ;
 script
@@ -2936,8 +2939,7 @@ JS_ExecuteScript
 cx
 obj
 script
-&
-result
+NULL
 )
 :
 JS_TRUE
@@ -6924,6 +6926,8 @@ cx
 oldopts
 |
 JSOPTION_COMPILE_N_GO
+|
+JSOPTION_NO_SCRIPT_RVAL
 )
 ;
 script

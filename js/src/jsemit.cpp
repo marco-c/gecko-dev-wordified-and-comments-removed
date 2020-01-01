@@ -22890,7 +22890,11 @@ treeContext
 .
 flags
 &
+(
 TCF_IN_FUNCTION
+|
+TCF_NO_SCRIPT_RVAL
+)
 )
 ;
 if

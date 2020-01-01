@@ -2376,6 +2376,13 @@ JS_BIT
 (
 11
 )
+#
+define
+JSOPTION_NO_SCRIPT_RVAL
+JS_BIT
+(
+12
+)
 extern
 JS_PUBLIC_API
 (
