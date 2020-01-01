@@ -33,8 +33,6 @@ WeaveCryptoConstructor
 ;
 NS_IMPL_NSGETMODULE
 (
-"
 WeaveCryptoModule
-"
 components
 )
