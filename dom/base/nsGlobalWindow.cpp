@@ -41105,6 +41105,8 @@ menuPopupFrame
 NS_OK
 )
 ;
+widget
+=
 (
 static_cast
 <
@@ -41119,10 +41121,6 @@ frame
 >
 GetWidget
 (
-getter_AddRefs
-(
-widget
-)
 )
 ;
 }
