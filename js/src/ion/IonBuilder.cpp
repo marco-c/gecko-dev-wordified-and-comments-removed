@@ -26147,10 +26147,8 @@ if
 propSet
 -
 >
-isOwnProperty
+ownProperty
 (
-cx
-typeObj
 false
 )
 )
@@ -26489,10 +26487,8 @@ if
 propSet
 -
 >
-isOwnProperty
+ownProperty
 (
-cx
-typeObj
 false
 )
 )
