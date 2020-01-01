@@ -700,6 +700,14 @@ utils_bug260264
 .
 js
 \
+test_bug534362
+.
+html
+\
+iframe_bug534362
+.
+html
+\
 (
 NULL
 )
