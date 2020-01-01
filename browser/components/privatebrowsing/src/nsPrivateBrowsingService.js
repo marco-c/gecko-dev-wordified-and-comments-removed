@@ -1001,6 +1001,15 @@ navigator
 browser
 "
 )
+;
+if
+(
+browser
+)
+{
+browser
+=
+browser
 .
 gBrowser
 ;
@@ -1021,6 +1030,7 @@ tabContainer
 firstChild
 )
 ;
+}
 }
 }
 else
