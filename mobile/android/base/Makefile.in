@@ -262,12 +262,6 @@ java
 \
 db
 /
-AndroidBrowserDB
-.
-java
-\
-db
-/
 BrowserDB
 .
 java
