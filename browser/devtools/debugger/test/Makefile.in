@@ -640,6 +640,10 @@ browser_dbg_displayName
 .
 js
 \
+browser_dbg_iframes
+.
+js
+\
 head
 .
 js
@@ -713,6 +717,10 @@ editor
 mode
 \
 browser_dbg_displayName
+.
+html
+\
+browser_dbg_iframes
 .
 html
 \
