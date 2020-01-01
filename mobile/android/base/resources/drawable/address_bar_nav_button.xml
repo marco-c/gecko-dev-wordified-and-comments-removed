@@ -1,6 +1,3 @@
-#
-filter
-substitution
 <
 ?
 xml
@@ -122,8 +119,8 @@ com
 apk
 /
 res
-/
-ANDROID_PACKAGE_NAME
+-
+auto
 "
 >
 <
