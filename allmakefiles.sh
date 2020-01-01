@@ -535,13 +535,6 @@ marionette
 components
 /
 Makefile
-testing
-/
-marionette
-/
-tests
-/
-Makefile
 "
 fi
 if
