@@ -958,7 +958,7 @@ public
 :
 MutexLock
 (
-Mutex
+SafeMutex
 &
 aMutex
 )
@@ -1054,7 +1054,7 @@ false
 }
 private
 :
-Mutex
+SafeMutex
 &
 mMutex
 ;
@@ -4114,7 +4114,7 @@ uint32_t
 aContractIDLen
 )
 {
-MutexAutoLock
+SafeMutexAutoLock
 lock
 (
 mLock
@@ -4146,7 +4146,7 @@ nsCID
 aClass
 )
 {
-MutexAutoLock
+SafeMutexAutoLock
 lock
 (
 mLock
@@ -5697,7 +5697,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-MutexAutoUnlock
+SafeMutexAutoUnlock
 unlockPending
 (
 mLock
@@ -5808,7 +5808,7 @@ nsresult
 rv
 ;
 {
-MutexAutoUnlock
+SafeMutexAutoUnlock
 unlock
 (
 mLock
@@ -6085,7 +6085,7 @@ nsFactoryEntry
 entry
 ;
 {
-MutexAutoLock
+SafeMutexAutoLock
 lock
 (
 mLock
@@ -6244,7 +6244,7 @@ nsFactoryEntry
 entry
 ;
 {
-MutexAutoLock
+SafeMutexAutoLock
 lock
 (
 mLock
@@ -6529,7 +6529,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-MutexAutoUnlock
+SafeMutexAutoUnlock
 unlockPending
 (
 mLock
@@ -6650,7 +6650,7 @@ nsresult
 rv
 ;
 {
-MutexAutoUnlock
+SafeMutexAutoUnlock
 unlock
 (
 mLock
@@ -6952,7 +6952,7 @@ aContractID
 return
 NS_ERROR_INVALID_ARG
 ;
-MutexAutoLock
+SafeMutexAutoLock
 lock
 (
 mLock
@@ -7006,7 +7006,7 @@ aFactory
 )
 )
 ;
-MutexAutoLock
+SafeMutexAutoLock
 lock
 (
 mLock
@@ -7089,7 +7089,7 @@ nsISupports
 dyingServiceObject
 ;
 {
-MutexAutoLock
+SafeMutexAutoLock
 lock
 (
 mLock
@@ -7623,7 +7623,7 @@ _retval
 )
 {
 {
-MutexAutoLock
+SafeMutexAutoLock
 lock
 (
 mLock
@@ -8159,7 +8159,7 @@ factory
 return
 NULL
 ;
-MutexAutoLock
+SafeMutexAutoLock
 lock
 (
 nsComponentManagerImpl
