@@ -328,6 +328,11 @@ Mach
 (
 our_dir
 )
+mach
+.
+load_commands_from_sys_path
+(
+)
 sys
 .
 exit
