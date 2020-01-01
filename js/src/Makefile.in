@@ -628,15 +628,6 @@ MOZ_BITS
 (
 VERSION_NUMBER
 )
-RESFILE
-=
-js
-(
-MOZ_BITS
-)
-40
-.
-res
 endif
 #
 JavaScript
