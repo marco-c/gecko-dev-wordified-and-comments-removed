@@ -1962,6 +1962,9 @@ unknownObject
 )
 &
 &
+other
+-
+>
 unknownObject
 (
 )
@@ -2028,6 +2031,14 @@ baseFlags
 return
 false
 ;
+if
+(
+!
+unknownObject
+(
+)
+)
+{
 for
 (
 unsigned
@@ -2081,6 +2092,7 @@ obj
 return
 false
 ;
+}
 }
 return
 true
