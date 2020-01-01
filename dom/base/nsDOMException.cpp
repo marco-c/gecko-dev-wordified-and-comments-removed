@@ -174,6 +174,13 @@ classname
 }
 \
 \
+DOMCI_DATA
+(
+domname
+classname
+)
+\
+\
 NS_IMPL_ADDREF_INHERITED
 (
 classname

@@ -498,6 +498,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLLinkElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLLinkElement
+nsHTMLLinkElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLLinkElement

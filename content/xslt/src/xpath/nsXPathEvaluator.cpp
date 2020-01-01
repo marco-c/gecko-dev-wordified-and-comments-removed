@@ -309,6 +309,11 @@ mIsCaseSensitive
 ;
 }
 ;
+DOMCI_DATA
+(
+XPathEvaluator
+nsXPathEvaluator
+)
 NS_IMPL_AGGREGATED
 (
 nsXPathEvaluator

@@ -112,6 +112,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGForeignObjectElement
 nsSVGForeignObjectElementBase
 )
+DOMCI_DATA
+(
+SVGForeignObjectElement
+nsSVGForeignObjectElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGForeignObjectElement

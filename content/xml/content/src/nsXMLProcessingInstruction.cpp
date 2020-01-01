@@ -217,6 +217,11 @@ nsXMLProcessingInstruction
 )
 {
 }
+DOMCI_DATA
+(
+ProcessingInstruction
+nsXMLProcessingInstruction
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsXMLProcessingInstruction

@@ -118,6 +118,11 @@ NS_IMPL_RELEASE
 (
 nsSVGAnimatedTransformList
 )
+DOMCI_DATA
+(
+SVGAnimatedTransformList
+nsSVGAnimatedTransformList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGAnimatedTransformList

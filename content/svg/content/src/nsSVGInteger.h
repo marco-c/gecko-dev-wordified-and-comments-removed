@@ -162,6 +162,8 @@ mAttrEnum
 PRPackedBool
 mIsAnimated
 ;
+public
+:
 struct
 DOMAnimatedInteger
 :

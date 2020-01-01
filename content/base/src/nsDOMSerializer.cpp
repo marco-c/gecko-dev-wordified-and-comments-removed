@@ -113,6 +113,11 @@ nsDOMSerializer
 )
 {
 }
+DOMCI_DATA
+(
+XMLSerializer
+nsDOMSerializer
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMSerializer

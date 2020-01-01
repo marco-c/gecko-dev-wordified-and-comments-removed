@@ -394,6 +394,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLLabelElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLLabelElement
+nsHTMLLabelElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLLabelElement

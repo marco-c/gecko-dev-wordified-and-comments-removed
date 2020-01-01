@@ -121,6 +121,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGAnimateElement
 nsSVGAnimateElementBase
 )
+DOMCI_DATA
+(
+SVGAnimateElement
+nsSVGAnimateElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGAnimateElement

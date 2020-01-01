@@ -253,6 +253,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGTSpanElement
 nsSVGTSpanElementBase
 )
+DOMCI_DATA
+(
+SVGTSpanElement
+nsSVGTSpanElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGTSpanElement

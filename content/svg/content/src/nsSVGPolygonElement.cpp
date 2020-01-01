@@ -126,6 +126,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGPolygonElement
 nsSVGPolygonElementBase
 )
+DOMCI_DATA
+(
+SVGPolygonElement
+nsSVGPolygonElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGPolygonElement

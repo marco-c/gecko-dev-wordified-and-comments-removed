@@ -20,6 +20,11 @@ NS_IMPL_RELEASE
 (
 nsHTMLMediaError
 )
+DOMCI_DATA
+(
+HTMLMediaError
+nsHTMLMediaError
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsHTMLMediaError

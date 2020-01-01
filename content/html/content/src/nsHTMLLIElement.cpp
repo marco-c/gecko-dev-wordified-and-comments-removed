@@ -190,6 +190,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLLIElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLLIElement
+nsHTMLLIElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLLIElement

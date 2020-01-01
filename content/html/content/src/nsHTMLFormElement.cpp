@@ -852,6 +852,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLFormElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLFormElement
+nsHTMLFormElement
+)
 NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLFormElement
@@ -6688,6 +6693,11 @@ cb
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
+DOMCI_DATA
+(
+HTMLCollection
+nsFormControlList
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsFormControlList

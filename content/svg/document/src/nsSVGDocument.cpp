@@ -50,6 +50,11 @@ nsSVGDocument
 )
 {
 }
+DOMCI_DATA
+(
+SVGDocument
+nsSVGDocument
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGDocument

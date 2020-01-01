@@ -163,6 +163,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGImageElement
 nsSVGImageElementBase
 )
+DOMCI_DATA
+(
+SVGImageElement
+nsSVGImageElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGImageElement

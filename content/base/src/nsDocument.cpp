@@ -2015,6 +2015,11 @@ this
 ;
 }
 }
+DOMCI_DATA
+(
+StyleSheetList
+nsDOMStyleSheetList
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsDOMStyleSheetList
@@ -5191,6 +5196,11 @@ nsDOMImplementation
 )
 {
 }
+DOMCI_DATA
+(
+DOMImplementation
+nsDOMImplementation
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMImplementation

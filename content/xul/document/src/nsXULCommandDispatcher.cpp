@@ -253,6 +253,11 @@ NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsXULCommandDispatcher
 )
+DOMCI_DATA
+(
+XULCommandDispatcher
+nsXULCommandDispatcher
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsXULCommandDispatcher

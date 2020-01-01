@@ -190,6 +190,8 @@ nsSVGElement
 aSVGElement
 )
 ;
+public
+:
 struct
 DOMAnimatedEnum
 :

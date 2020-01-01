@@ -26,6 +26,11 @@ nsPresContext
 .
 h
 "
+DOMCI_DATA
+(
+ClientRect
+nsClientRect
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsClientRect
@@ -206,6 +211,11 @@ return
 NS_OK
 ;
 }
+DOMCI_DATA
+(
+ClientRectList
+nsClientRectList
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsClientRectList

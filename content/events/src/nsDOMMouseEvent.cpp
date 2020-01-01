@@ -254,6 +254,11 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMMouseEvent
 nsDOMUIEvent
 )
+DOMCI_DATA
+(
+MouseEvent
+nsDOMMouseEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMMouseEvent

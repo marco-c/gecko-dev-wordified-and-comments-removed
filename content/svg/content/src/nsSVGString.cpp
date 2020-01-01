@@ -27,6 +27,14 @@ nsSVGString
 :
 DOMAnimatedString
 )
+DOMCI_DATA
+(
+SVGAnimatedString
+nsSVGString
+:
+:
+DOMAnimatedString
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsSVGString

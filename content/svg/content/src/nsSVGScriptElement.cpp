@@ -297,6 +297,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGScriptElement
 nsSVGScriptElementBase
 )
+DOMCI_DATA
+(
+SVGScriptElement
+nsSVGScriptElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGScriptElement

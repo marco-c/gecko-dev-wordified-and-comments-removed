@@ -243,6 +243,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLTableCellElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLTableCellElement
+nsHTMLTableCellElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLTableCellElement

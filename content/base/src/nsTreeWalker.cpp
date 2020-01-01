@@ -98,6 +98,11 @@ mFilter
 mCurrentNode
 mRoot
 )
+DOMCI_DATA
+(
+TreeWalker
+nsTreeWalker
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsTreeWalker

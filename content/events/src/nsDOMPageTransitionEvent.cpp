@@ -12,6 +12,11 @@ nsContentUtils
 .
 h
 "
+DOMCI_DATA
+(
+PageTransitionEvent
+nsDOMPageTransitionEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMPageTransitionEvent

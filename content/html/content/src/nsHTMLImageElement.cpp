@@ -653,6 +653,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLImageElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLImageElement
+nsHTMLImageElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLImageElement

@@ -22,6 +22,11 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMBeforeUnloadEvent
 nsDOMEvent
 )
+DOMCI_DATA
+(
+BeforeUnloadEvent
+nsDOMBeforeUnloadEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMBeforeUnloadEvent

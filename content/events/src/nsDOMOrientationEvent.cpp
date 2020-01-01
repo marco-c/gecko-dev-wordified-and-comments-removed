@@ -22,6 +22,11 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMOrientationEvent
 nsDOMEvent
 )
+DOMCI_DATA
+(
+OrientationEvent
+nsDOMOrientationEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMOrientationEvent

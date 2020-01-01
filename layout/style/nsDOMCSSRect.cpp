@@ -80,6 +80,11 @@ void
 )
 {
 }
+DOMCI_DATA
+(
+CSSRect
+nsDOMCSSRect
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMCSSRect

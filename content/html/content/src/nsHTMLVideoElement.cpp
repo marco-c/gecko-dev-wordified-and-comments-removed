@@ -215,6 +215,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLVideoElement
 nsHTMLMediaElement
 )
+DOMCI_DATA
+(
+HTMLVideoElement
+nsHTMLVideoElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLVideoElement

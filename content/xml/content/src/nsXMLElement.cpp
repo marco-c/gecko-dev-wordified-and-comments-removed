@@ -49,6 +49,11 @@ return
 NS_OK
 ;
 }
+DOMCI_DATA
+(
+Element
+nsXMLElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsXMLElement

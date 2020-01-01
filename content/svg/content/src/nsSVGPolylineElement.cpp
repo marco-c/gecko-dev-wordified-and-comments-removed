@@ -98,6 +98,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGPolylineElement
 nsSVGPolylineElementBase
 )
+DOMCI_DATA
+(
+SVGPolylineElement
+nsSVGPolylineElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGPolylineElement

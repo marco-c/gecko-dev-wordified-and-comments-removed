@@ -245,6 +245,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLOptGroupElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLOptGroupElement
+nsHTMLOptGroupElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLOptGroupElement

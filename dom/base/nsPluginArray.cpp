@@ -172,6 +172,11 @@ mPluginArray
 ;
 }
 }
+DOMCI_DATA
+(
+PluginArray
+nsPluginArray
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsPluginArray
@@ -1023,6 +1028,11 @@ mMimeTypeArray
 ;
 }
 }
+DOMCI_DATA
+(
+Plugin
+nsPluginElement
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsPluginElement

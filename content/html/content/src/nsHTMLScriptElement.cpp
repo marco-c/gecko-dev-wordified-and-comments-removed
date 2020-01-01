@@ -1116,6 +1116,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLScriptElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLScriptElement
+nsHTMLScriptElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLScriptElement

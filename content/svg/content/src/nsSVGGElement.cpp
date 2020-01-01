@@ -111,6 +111,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGGElement
 nsSVGGElementBase
 )
+DOMCI_DATA
+(
+SVGGElement
+nsSVGGElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGGElement

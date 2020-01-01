@@ -96,6 +96,11 @@ mozAutoDocUpdate
 .
 h
 "
+DOMCI_DATA
+(
+MathMLElement
+nsMathMLElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsMathMLElement

@@ -50,6 +50,14 @@ nsSVGBoolean
 :
 DOMAnimatedBoolean
 )
+DOMCI_DATA
+(
+SVGAnimatedBoolean
+nsSVGBoolean
+:
+:
+DOMAnimatedBoolean
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsSVGBoolean

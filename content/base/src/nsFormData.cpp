@@ -60,6 +60,11 @@ UTF
 )
 {
 }
+DOMCI_DATA
+(
+FormData
+nsFormData
+)
 NS_IMPL_ADDREF
 (
 nsFormData

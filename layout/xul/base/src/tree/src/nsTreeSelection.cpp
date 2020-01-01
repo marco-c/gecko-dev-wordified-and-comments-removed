@@ -1099,6 +1099,11 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsTreeSelection
 )
+DOMCI_DATA
+(
+TreeSelection
+nsTreeSelection
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsTreeSelection

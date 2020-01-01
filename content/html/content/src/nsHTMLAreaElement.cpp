@@ -389,6 +389,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLAreaElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLAreaElement
+nsHTMLAreaElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLAreaElement

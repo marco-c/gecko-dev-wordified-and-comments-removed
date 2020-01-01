@@ -103,6 +103,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGDescElement
 nsSVGDescElementBase
 )
+DOMCI_DATA
+(
+SVGDescElement
+nsSVGDescElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGDescElement

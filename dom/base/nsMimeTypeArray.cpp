@@ -105,6 +105,11 @@ Clear
 )
 ;
 }
+DOMCI_DATA
+(
+MimeTypeArray
+nsMimeTypeArray
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsMimeTypeArray
@@ -1100,6 +1105,11 @@ nsMimeType
 )
 {
 }
+DOMCI_DATA
+(
+MimeType
+nsMimeType
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsMimeType

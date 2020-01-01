@@ -638,6 +638,11 @@ NS_IMPL_RELEASE_INHERITED
 nsXULTreeBuilder
 nsXULTemplateBuilder
 )
+DOMCI_DATA
+(
+XULTreeBuilder
+nsXULTreeBuilder
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsXULTreeBuilder

@@ -355,6 +355,11 @@ CSSRuleListImpl
 )
 {
 }
+DOMCI_DATA
+(
+CSSRuleList
+CSSRuleListImpl
+)
 NS_INTERFACE_MAP_BEGIN
 (
 CSSRuleListImpl
@@ -2623,6 +2628,11 @@ match
 mNegated
 ;
 }
+DOMCI_DATA
+(
+MediaList
+nsMediaList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsMediaList
@@ -5010,6 +5020,11 @@ mRuleProcessors
 ;
 }
 }
+DOMCI_DATA
+(
+CSSStyleSheet
+nsCSSStyleSheet
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsCSSStyleSheet

@@ -270,6 +270,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGRectElement
 nsSVGRectElementBase
 )
+DOMCI_DATA
+(
+SVGRectElement
+nsSVGRectElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGRectElement

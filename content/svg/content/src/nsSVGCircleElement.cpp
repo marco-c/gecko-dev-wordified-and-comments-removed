@@ -226,6 +226,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGCircleElement
 nsSVGCircleElementBase
 )
+DOMCI_DATA
+(
+SVGCircleElement
+nsSVGCircleElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGCircleElement

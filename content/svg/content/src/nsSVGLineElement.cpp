@@ -271,6 +271,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGLineElement
 nsSVGLineElementBase
 )
+DOMCI_DATA
+(
+SVGLineElement
+nsSVGLineElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGLineElement

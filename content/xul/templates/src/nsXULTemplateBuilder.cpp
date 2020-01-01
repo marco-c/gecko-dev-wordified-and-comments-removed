@@ -1180,6 +1180,11 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE_AMBIGUOUS
 nsXULTemplateBuilder
 nsIXULTemplateBuilder
 )
+DOMCI_DATA
+(
+XULTemplateBuilder
+nsXULTemplateBuilder
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsXULTemplateBuilder

@@ -71,6 +71,11 @@ NS_IMPL_RELEASE
 (
 nsDOMCSSValueList
 )
+DOMCI_DATA
+(
+CSSValueList
+nsDOMCSSValueList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMCSSValueList

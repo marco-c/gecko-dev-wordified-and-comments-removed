@@ -287,6 +287,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGMarkerElement
 nsSVGMarkerElementBase
 )
+DOMCI_DATA
+(
+SVGMarkerElement
+nsSVGMarkerElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGMarkerElement

@@ -360,6 +360,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLLegendElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLLegendElement
+nsHTMLLegendElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLLegendElement

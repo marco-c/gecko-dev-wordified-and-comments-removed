@@ -230,6 +230,11 @@ nsXMLCDATASection
 )
 {
 }
+DOMCI_DATA
+(
+CDATASection
+nsXMLCDATASection
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsXMLCDATASection

@@ -29,6 +29,11 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMPopupBlockedEvent
 nsDOMEvent
 )
+DOMCI_DATA
+(
+PopupBlockedEvent
+nsDOMPopupBlockedEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMPopupBlockedEvent

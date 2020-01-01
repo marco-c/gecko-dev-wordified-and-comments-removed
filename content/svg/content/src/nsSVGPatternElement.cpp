@@ -195,6 +195,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGPatternElement
 nsSVGPatternElementBase
 )
+DOMCI_DATA
+(
+SVGPatternElement
+nsSVGPatternElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGPatternElement

@@ -228,6 +228,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGTextPathElement
 nsSVGTextPathElementBase
 )
+DOMCI_DATA
+(
+SVGTextPathElement
+nsSVGTextPathElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGTextPathElement

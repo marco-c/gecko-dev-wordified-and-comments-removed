@@ -160,6 +160,8 @@ mIsAnimated
 PRUint8
 mAttrEnum
 ;
+public
+:
 struct
 DOMAnimatedBoolean
 :

@@ -183,6 +183,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLDivElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLDivElement
+nsHTMLDivElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLDivElement

@@ -212,6 +212,11 @@ nsHistory
 )
 {
 }
+DOMCI_DATA
+(
+History
+nsHistory
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsHistory

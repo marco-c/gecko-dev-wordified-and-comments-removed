@@ -279,6 +279,11 @@ NS_IMPL_RELEASE
 (
 nsSVGMatrix
 )
+DOMCI_DATA
+(
+SVGMatrix
+nsSVGMatrix
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGMatrix

@@ -218,6 +218,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLFontElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLFontElement
+nsHTMLFontElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLFontElement

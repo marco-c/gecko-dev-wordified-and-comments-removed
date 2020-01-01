@@ -548,6 +548,11 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsTreeContentView
 )
+DOMCI_DATA
+(
+TreeContentView
+nsTreeContentView
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsTreeContentView

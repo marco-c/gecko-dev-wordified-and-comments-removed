@@ -273,6 +273,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGStyleElement
 nsSVGStyleElementBase
 )
+DOMCI_DATA
+(
+SVGStyleElement
+nsSVGStyleElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGStyleElement

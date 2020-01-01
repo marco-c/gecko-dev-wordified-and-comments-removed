@@ -316,6 +316,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLFrameSetElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLFrameSetElement
+nsHTMLFrameSetElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLFrameSetElement

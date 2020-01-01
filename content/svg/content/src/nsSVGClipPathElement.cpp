@@ -53,6 +53,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGClipPathElement
 nsSVGClipPathElementBase
 )
+DOMCI_DATA
+(
+SVGClipPathElement
+nsSVGClipPathElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGClipPathElement

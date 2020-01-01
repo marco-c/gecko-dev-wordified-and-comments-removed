@@ -1117,6 +1117,11 @@ mLoopingForSyncLoad
 PR_FALSE
 ;
 }
+DOMCI_DATA
+(
+XMLDocument
+nsXMLDocument
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsXMLDocument

@@ -170,6 +170,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLSpanElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLSpanElement
+nsHTMLSpanElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLSpanElement
@@ -353,6 +358,11 @@ const
 ;
 }
 ;
+DOMCI_DATA
+(
+HTMLUnknownElement
+nsHTMLUnknownElement
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsHTMLUnknownElement

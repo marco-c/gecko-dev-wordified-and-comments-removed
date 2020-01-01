@@ -311,6 +311,11 @@ mLoopingForSyncLoad
 PR_FALSE
 ;
 }
+DOMCI_DATA
+(
+DOMParser
+nsDOMParser
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMParser

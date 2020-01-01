@@ -327,6 +327,8 @@ nsSVGElement
 aSVGElement
 )
 ;
+public
+:
 struct
 DOMBaseVal
 :

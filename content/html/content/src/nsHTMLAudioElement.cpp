@@ -302,6 +302,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLAudioElement
 nsHTMLMediaElement
 )
+DOMCI_DATA
+(
+HTMLAudioElement
+nsHTMLAudioElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLAudioElement

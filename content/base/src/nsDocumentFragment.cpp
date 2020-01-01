@@ -857,6 +857,11 @@ eDOCUMENT_FRAGMENT
 )
 ;
 }
+DOMCI_DATA
+(
+DocumentFragment
+nsDocumentFragment
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsDocumentFragment

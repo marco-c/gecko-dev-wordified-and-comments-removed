@@ -107,6 +107,11 @@ NS_IMPL_RELEASE
 (
 nsROCSSPrimitiveValue
 )
+DOMCI_DATA
+(
+ROCSSPrimitiveValue
+nsROCSSPrimitiveValue
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsROCSSPrimitiveValue

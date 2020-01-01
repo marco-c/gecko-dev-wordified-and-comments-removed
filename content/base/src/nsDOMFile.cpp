@@ -180,6 +180,11 @@ prmem
 .
 h
 "
+DOMCI_DATA
+(
+File
+nsDOMFile
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMFile
@@ -1994,6 +1999,11 @@ return
 rv
 ;
 }
+DOMCI_DATA
+(
+FileList
+nsDOMFileList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMFileList
@@ -2073,6 +2083,11 @@ return
 NS_OK
 ;
 }
+DOMCI_DATA
+(
+FileError
+nsDOMFileError
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMFileError

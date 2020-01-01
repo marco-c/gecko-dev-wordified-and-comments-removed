@@ -97,6 +97,11 @@ nsnull
 ;
 }
 }
+DOMCI_DATA
+(
+TransitionEvent
+nsDOMTransitionEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMTransitionEvent

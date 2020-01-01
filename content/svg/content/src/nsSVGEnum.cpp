@@ -64,6 +64,14 @@ nsSVGEnum
 :
 DOMAnimatedEnum
 )
+DOMCI_DATA
+(
+SVGAnimatedEnumeration
+nsSVGEnum
+:
+:
+DOMAnimatedEnum
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsSVGEnum

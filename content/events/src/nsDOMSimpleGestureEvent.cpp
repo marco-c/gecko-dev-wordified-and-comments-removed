@@ -167,6 +167,11 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMSimpleGestureEvent
 nsDOMUIEvent
 )
+DOMCI_DATA
+(
+SimpleGestureEvent
+nsDOMSimpleGestureEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMSimpleGestureEvent

@@ -233,6 +233,11 @@ NS_IMPL_RELEASE
 (
 nsSVGAnimatedLengthList
 )
+DOMCI_DATA
+(
+SVGAnimatedLengthList
+nsSVGAnimatedLengthList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGAnimatedLengthList

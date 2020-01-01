@@ -189,6 +189,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGStopElement
 nsSVGStopElementBase
 )
+DOMCI_DATA
+(
+SVGStopElement
+nsSVGStopElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGStopElement

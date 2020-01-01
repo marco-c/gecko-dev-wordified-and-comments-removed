@@ -165,6 +165,11 @@ NS_IMPL_RELEASE
 (
 nsSVGNumber
 )
+DOMCI_DATA
+(
+SVGNumber
+nsSVGNumber
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGNumber

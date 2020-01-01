@@ -631,6 +631,16 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLSharedObjectElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLAppletElement
+nsHTMLSharedObjectElement
+)
+DOMCI_DATA
+(
+HTMLEmbedElement
+nsHTMLSharedObjectElement
+)
 NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLSharedObjectElement

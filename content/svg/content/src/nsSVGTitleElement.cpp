@@ -157,6 +157,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGTitleElement
 nsSVGTitleElementBase
 )
+DOMCI_DATA
+(
+SVGTitleElement
+nsSVGTitleElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGTitleElement

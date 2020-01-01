@@ -200,6 +200,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLHRElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLHRElement
+nsHTMLHRElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLHRElement

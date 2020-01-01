@@ -491,6 +491,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLButtonElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLButtonElement
+nsHTMLButtonElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLButtonElement

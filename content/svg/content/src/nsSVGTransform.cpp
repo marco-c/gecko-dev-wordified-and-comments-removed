@@ -226,6 +226,11 @@ NS_IMPL_RELEASE
 (
 nsSVGTransform
 )
+DOMCI_DATA
+(
+SVGTransform
+nsSVGTransform
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGTransform

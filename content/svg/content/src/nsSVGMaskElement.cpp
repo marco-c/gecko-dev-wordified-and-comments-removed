@@ -153,6 +153,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGMaskElement
 nsSVGMaskElementBase
 )
+DOMCI_DATA
+(
+SVGMaskElement
+nsSVGMaskElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGMaskElement

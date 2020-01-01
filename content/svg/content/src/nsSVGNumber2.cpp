@@ -139,6 +139,14 @@ NS_IMPL_RELEASE
 (
 DOMSVGNumber
 )
+DOMCI_DATA
+(
+SVGAnimatedNumber
+nsSVGNumber2
+:
+:
+DOMAnimatedNumber
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsSVGNumber2

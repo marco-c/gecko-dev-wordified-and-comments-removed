@@ -118,6 +118,8 @@ mAnimVal
 PRUint8
 mAttrEnum
 ;
+public
+:
 struct
 DOMAnimatedString
 :

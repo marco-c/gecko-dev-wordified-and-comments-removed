@@ -231,6 +231,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLTableSectionElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLTableSectionElement
+nsHTMLTableSectionElement
+)
 NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLTableSectionElement

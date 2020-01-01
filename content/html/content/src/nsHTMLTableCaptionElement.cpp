@@ -190,6 +190,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLTableCaptionElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLTableCaptionElement
+nsHTMLTableCaptionElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLTableCaptionElement

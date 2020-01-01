@@ -208,6 +208,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLSourceElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLSourceElement
+nsHTMLSourceElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLSourceElement

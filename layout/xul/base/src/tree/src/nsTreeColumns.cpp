@@ -195,6 +195,11 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsTreeColumn
 )
+DOMCI_DATA
+(
+TreeColumn
+nsTreeColumn
+)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsTreeColumn
@@ -1460,6 +1465,11 @@ InvalidateColumns
 )
 ;
 }
+DOMCI_DATA
+(
+TreeColumns
+nsTreeColumns
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsTreeColumns

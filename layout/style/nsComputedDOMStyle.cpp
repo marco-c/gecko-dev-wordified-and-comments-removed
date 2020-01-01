@@ -434,6 +434,11 @@ NS_IMPL_CYCLE_COLLECTION_1
 nsComputedDOMStyle
 mContent
 )
+DOMCI_DATA
+(
+ComputedCSSStyleDeclaration
+nsComputedDOMStyle
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsComputedDOMStyle

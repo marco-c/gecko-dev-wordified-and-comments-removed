@@ -441,6 +441,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLAnchorElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLAnchorElement
+nsHTMLAnchorElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLAnchorElement

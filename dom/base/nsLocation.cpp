@@ -555,6 +555,11 @@ nsLocation
 )
 {
 }
+DOMCI_DATA
+(
+Location
+nsLocation
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsLocation

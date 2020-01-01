@@ -151,6 +151,11 @@ NS_INTERFACE_TABLE_ENTRY
 _class
 nsIDOMNodeList
 )
+DOMCI_DATA
+(
+NodeList
+nsBaseContentList
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsBaseContentList
@@ -1360,6 +1365,11 @@ mData
 ;
 }
 }
+DOMCI_DATA
+(
+ContentList
+nsContentList
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsContentList

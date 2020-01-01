@@ -243,6 +243,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGEllipseElement
 nsSVGEllipseElementBase
 )
+DOMCI_DATA
+(
+SVGEllipseElement
+nsSVGEllipseElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGEllipseElement

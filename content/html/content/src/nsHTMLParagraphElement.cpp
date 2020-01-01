@@ -190,6 +190,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLParagraphElement
 nsGenericElement
 )
+DOMCI_DATA
+(
+HTMLParagraphElement
+nsHTMLParagraphElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLParagraphElement

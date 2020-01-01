@@ -228,6 +228,11 @@ NS_IMPL_RELEASE
 (
 nsSVGAnimatedNumberList
 )
+DOMCI_DATA
+(
+SVGAnimatedNumberList
+nsSVGAnimatedNumberList
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsSVGAnimatedNumberList

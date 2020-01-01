@@ -71,6 +71,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGSwitchElement
 nsSVGSwitchElementBase
 )
+DOMCI_DATA
+(
+SVGSwitchElement
+nsSVGSwitchElement
+)
 NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsSVGSwitchElement
