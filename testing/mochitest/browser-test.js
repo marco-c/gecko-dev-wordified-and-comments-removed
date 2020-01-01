@@ -38,6 +38,17 @@ testOnLoad
 (
 )
 {
+window
+.
+removeEventListener
+(
+"
+load
+"
+testOnLoad
+false
+)
+;
 var
 prefs
 =
