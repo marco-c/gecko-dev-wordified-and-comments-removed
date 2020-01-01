@@ -17275,14 +17275,6 @@ isProxy
 )
 )
 {
-JS_ASSERT
-(
-obj
-=
-=
-obj2
-)
-;
 JSAutoResolveFlags
 rf
 (
@@ -17299,7 +17291,7 @@ JSProxy
 getOwnPropertyDescriptor
 (
 cx
-obj
+obj2
 id
 desc
 )
@@ -17310,7 +17302,7 @@ JSProxy
 getPropertyDescriptor
 (
 cx
-obj
+obj2
 id
 desc
 )
