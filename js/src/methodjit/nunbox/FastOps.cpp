@@ -5737,6 +5737,7 @@ pushUntypedPayload
 (
 JSVAL_TAG_INT32
 reg
+true
 )
 ;
 frame
@@ -5744,6 +5745,11 @@ frame
 storeLocal
 (
 slot
+post
+|
+|
+popped
+false
 )
 ;
 if
