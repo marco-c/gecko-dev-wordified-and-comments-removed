@@ -5234,6 +5234,7 @@ sheet
 new
 nsCSSStyleSheet
 (
+CORS_NONE
 )
 ;
 sheet
