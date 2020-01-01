@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 import
 configobj
 sys
@@ -26,7 +22,6 @@ ValueError
 :
     
 print
-(
 "
 Usage
 :
@@ -43,7 +38,6 @@ section
 setting
 >
 "
-)
     
 sys
 .
@@ -73,29 +67,23 @@ KeyError
 :
     
 print
-(
+>
+>
+sys
+.
+stderr
 "
 Section
 [
-{
-0
-}
+%
+s
 ]
 not
 found
 .
 "
-.
-format
-(
+%
 section
-)
-file
-=
-sys
-.
-stderr
-)
     
 sys
 .
@@ -107,38 +95,30 @@ try
 :
     
 print
-(
 s
 [
 key
 ]
-)
 except
 KeyError
 :
     
 print
-(
+>
+>
+sys
+.
+stderr
 "
 Key
-{
-0
-}
+%
+s
 not
 found
 .
 "
-.
-format
-(
+%
 key
-)
-file
-=
-sys
-.
-stderr
-)
     
 sys
 .
