@@ -89,6 +89,10 @@ webapprt_sample
 .
 html
 \
+webapprt_indexeddb
+.
+html
+\
 (
 NULL
 )
