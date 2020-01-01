@@ -1249,9 +1249,6 @@ op
 }
 #
 ifdef
-DEBUG
-#
-ifdef
 JS_ION
 void
 js
@@ -1484,6 +1481,9 @@ script
 hasScriptCounts
 )
 ;
+#
+ifdef
+DEBUG
 jsbytecode
 *
 pc
@@ -1698,6 +1698,8 @@ next
 ;
 }
 #
+endif
+#
 ifdef
 JS_ION
 ion
@@ -1738,6 +1740,9 @@ previous
 #
 endif
 }
+#
+ifdef
+DEBUG
 JS_FRIEND_API
 (
 JSBool

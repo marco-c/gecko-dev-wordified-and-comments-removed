@@ -4586,12 +4586,6 @@ JSScript
 scriptArg
 )
 {
-#
-if
-defined
-(
-DEBUG
-)
 Rooted
 <
 JSScript
@@ -4709,8 +4703,6 @@ script
 lineno
 )
 ;
-#
-endif
 }
 namespace
 {
@@ -4933,12 +4925,6 @@ if
 defined
 (
 JS_ION
-)
-&
-&
-defined
-(
-DEBUG
 )
 for
 (
