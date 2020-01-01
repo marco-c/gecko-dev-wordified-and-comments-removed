@@ -613,7 +613,6 @@ mozce_shunt
 .
 def
 OS_LIBS
-+
 =
 (
 call
@@ -647,6 +646,8 @@ DEFINES
 =
 -
 DMOZCE_SHUNT_EXPORTS
+-
+DIN_SHUNT
 include
 (
 topsrcdir

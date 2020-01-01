@@ -228,6 +228,9 @@ p
 ;
 }
 #
+ifndef
+IN_SHUNT
+#
 if
 defined
 (
@@ -347,6 +350,8 @@ ptr
 )
 ;
 }
+#
+endif
 #
 endif
 extern
