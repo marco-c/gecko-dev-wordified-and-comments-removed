@@ -7144,6 +7144,8 @@ aDocShell
 getSessionStorageForPrincipal
 (
 principal
+"
+"
 false
 )
 ;
@@ -12090,6 +12092,8 @@ aDocShell
 getSessionStorageForURI
 (
 uri
+"
+"
 )
 ;
 for
