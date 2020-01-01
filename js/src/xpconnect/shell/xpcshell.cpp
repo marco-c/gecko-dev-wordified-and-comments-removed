@@ -2135,7 +2135,7 @@ MOZ_SHARK
 "
 startShark
 "
-StartShark
+js_StartShark
 0
 0
 0
@@ -2144,7 +2144,7 @@ StartShark
 "
 stopShark
 "
-StopShark
+js_StopShark
 0
 0
 0
@@ -2153,7 +2153,7 @@ StopShark
 "
 connectShark
 "
-ConnectShark
+js_ConnectShark
 0
 0
 0
@@ -2162,7 +2162,7 @@ ConnectShark
 "
 disconnectShark
 "
-DisconnectShark
+js_DisconnectShark
 0
 0
 0
