@@ -1,9 +1,3 @@
-fails
--
-if
-(
-Android
-)
 =
 =
 bdi
@@ -18,11 +12,6 @@ element
 ref
 .
 html
-#
-sub
--
-pixel
-AA
 =
 =
 bidi
