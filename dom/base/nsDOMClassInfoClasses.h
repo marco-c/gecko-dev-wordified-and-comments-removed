@@ -467,10 +467,6 @@ CSSStyleSheet
 )
 DOMCI_CLASS
 (
-ROCSSPrimitiveValue
-)
-DOMCI_CLASS
-(
 Range
 )
 DOMCI_CLASS
@@ -538,10 +534,6 @@ ChromeWindow
 DOMCI_CLASS
 (
 CSSRGBColor
-)
-DOMCI_CLASS
-(
-CSSValueList
 )
 DOMCI_CLASS
 (

@@ -119,9 +119,6 @@ interface
 CSSRule
 ;
 interface
-CSSValue
-;
-interface
 CSSStyleDeclaration
 {
 [
@@ -166,6 +163,7 @@ of
 Throws
 ]
 CSSValue
+?
 getPropertyCSSValue
 (
 DOMString

@@ -94,6 +94,13 @@ h
 #
 include
 "
+nsDOMCSSValueList
+.
+h
+"
+#
+include
+"
 nsFlexContainerFrame
 .
 h
@@ -130,6 +137,13 @@ h
 include
 "
 nsStyleStructInlines
+.
+h
+"
+#
+include
+"
+nsROCSSPrimitiveValue
 .
 h
 "
@@ -900,54 +914,78 @@ nsAString
 aReturn
 )
 {
-nsCOMPtr
-<
-nsIDOMCSSValue
->
-val
-;
 aReturn
 .
 Truncate
 (
 )
 ;
-nsresult
-rv
+ErrorResult
+error
+;
+nsRefPtr
+<
+CSSValue
+>
+val
 =
 GetPropertyCSSValue
 (
 aPropertyName
-getter_AddRefs
-(
-val
-)
+error
 )
 ;
-NS_ENSURE_SUCCESS
+if
 (
-rv
-rv
+error
+.
+Failed
+(
+)
+)
+{
+return
+error
+.
+ErrorCode
+(
 )
 ;
+}
 if
 (
 val
 )
 {
-rv
-=
+nsString
+text
+;
 val
 -
 >
 GetCssText
 (
+text
+error
+)
+;
 aReturn
+.
+Assign
+(
+text
+)
+;
+return
+error
+.
+ErrorCode
+(
 )
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 already_AddRefed
@@ -1598,7 +1636,10 @@ mPrincipal
 nullptr
 ;
 }
-NS_IMETHODIMP
+already_AddRefed
+<
+CSSValue
+>
 nsComputedDOMStyle
 :
 :
@@ -1608,10 +1649,9 @@ const
 nsAString
 &
 aPropertyName
-nsIDOMCSSValue
-*
-*
-aReturn
+ErrorResult
+&
+aRv
 )
 {
 NS_ASSERTION
@@ -1624,11 +1664,6 @@ state
 "
 )
 ;
-*
-aReturn
-=
-nullptr
-;
 nsCOMPtr
 <
 nsIDocument
@@ -1640,12 +1675,23 @@ do_QueryReferent
 mDocumentWeak
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 document
+)
+{
+aRv
+.
+Throw
+(
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+return
+nullptr
+;
+}
 document
 -
 >
@@ -1829,7 +1875,7 @@ get
 #
 endif
 return
-NS_OK
+nullptr
 ;
 }
 document
@@ -1868,20 +1914,32 @@ GetShell
 (
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 mPresShell
-&
-&
+|
+|
+!
 mPresShell
 -
 >
 GetPresContext
 (
 )
+)
+{
+aRv
+.
+Throw
+(
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+return
+nullptr
+;
+}
 if
 (
 !
@@ -2114,12 +2172,23 @@ mPresShell
 mStyleType
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 mStyleContextHolder
+)
+{
+aRv
+.
+Throw
+(
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
+return
+nullptr
+;
+}
 NS_ASSERTION
 (
 mPseudo
@@ -2198,8 +2267,11 @@ styleIfVisited
 ;
 }
 }
-*
-aReturn
+nsRefPtr
+<
+CSSValue
+>
+val
 =
 (
 this
@@ -2214,12 +2286,6 @@ mGetter
 )
 )
 (
-)
-;
-NS_IF_ADDREF
-(
-*
-aReturn
 )
 ;
 mOuterFrame
@@ -2239,7 +2305,11 @@ mStyleContextHolder
 nullptr
 ;
 return
-NS_OK
+val
+.
+forget
+(
+)
 ;
 }
 NS_IMETHODIMP
@@ -2396,7 +2466,7 @@ aPropName
 ;
 }
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -2462,7 +2532,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -2506,7 +2576,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -2550,7 +2620,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -2566,7 +2636,7 @@ NS_SIDE_BOTTOM
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -2751,7 +2821,7 @@ rgbColor
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -2783,7 +2853,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -2817,7 +2887,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -2881,7 +2951,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -2914,7 +2984,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -2990,7 +3060,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -3034,7 +3104,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -3070,7 +3140,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -3114,7 +3184,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -3181,7 +3251,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -3772,7 +3842,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -3940,7 +4010,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -4104,7 +4174,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -4203,7 +4273,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -4282,7 +4352,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -4326,7 +4396,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -4370,7 +4440,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -4885,7 +4955,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5053,7 +5123,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5231,7 +5301,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5439,7 +5509,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5473,7 +5543,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5538,7 +5608,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5584,7 +5654,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5630,7 +5700,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5696,7 +5766,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5742,7 +5812,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5823,7 +5893,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -5904,7 +5974,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -6019,7 +6089,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -6051,7 +6121,7 @@ kBackgroundAttachmentKTable
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -6083,7 +6153,7 @@ kBackgroundOriginKTable
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -6139,8 +6209,6 @@ val
 =
 new
 nsROCSSPrimitiveValue
-(
-)
 ;
 nsAutoString
 tmp
@@ -7796,7 +7864,7 @@ break
 ;
 }
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -7887,7 +7955,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -7931,7 +7999,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -7963,7 +8031,7 @@ kBackgroundOriginKTable
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -8250,7 +8318,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -8518,7 +8586,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9039,7 +9107,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9055,7 +9123,7 @@ NS_SIDE_TOP
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9071,7 +9139,7 @@ NS_SIDE_BOTTOM
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9087,7 +9155,7 @@ NS_SIDE_LEFT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9103,7 +9171,7 @@ NS_SIDE_RIGHT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9147,7 +9215,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9232,7 +9300,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9276,7 +9344,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9320,7 +9388,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9364,7 +9432,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9380,7 +9448,7 @@ NS_SIDE_TOP
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9396,7 +9464,7 @@ NS_SIDE_BOTTOM
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9412,7 +9480,7 @@ NS_SIDE_LEFT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9428,7 +9496,7 @@ NS_SIDE_RIGHT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9444,7 +9512,7 @@ NS_SIDE_BOTTOM
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9460,7 +9528,7 @@ NS_SIDE_LEFT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9476,7 +9544,7 @@ NS_SIDE_RIGHT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9492,7 +9560,7 @@ NS_SIDE_TOP
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9515,7 +9583,7 @@ true
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9538,7 +9606,7 @@ true
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9561,7 +9629,7 @@ true
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9584,7 +9652,7 @@ true
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9600,7 +9668,7 @@ NS_SIDE_TOP
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9616,7 +9684,7 @@ NS_SIDE_BOTTOM
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9632,7 +9700,7 @@ NS_SIDE_LEFT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9648,7 +9716,7 @@ NS_SIDE_RIGHT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9664,7 +9732,7 @@ NS_SIDE_TOP
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9680,7 +9748,7 @@ NS_SIDE_BOTTOM
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9696,7 +9764,7 @@ NS_SIDE_LEFT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9712,7 +9780,7 @@ NS_SIDE_RIGHT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9728,7 +9796,7 @@ NS_SIDE_TOP
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9744,7 +9812,7 @@ NS_SIDE_BOTTOM
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9760,7 +9828,7 @@ NS_SIDE_LEFT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9776,7 +9844,7 @@ NS_SIDE_RIGHT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9809,7 +9877,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9853,7 +9921,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -9965,7 +10033,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10011,7 +10079,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10045,7 +10113,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10068,7 +10136,7 @@ false
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10091,7 +10159,7 @@ false
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10114,7 +10182,7 @@ false
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10137,7 +10205,7 @@ false
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10189,7 +10257,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10427,7 +10495,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10782,7 +10850,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10810,7 +10878,7 @@ true
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10843,7 +10911,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10937,7 +11005,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -10981,7 +11049,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11025,7 +11093,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11210,7 +11278,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11271,7 +11339,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11313,7 +11381,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11357,7 +11425,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11401,7 +11469,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11445,7 +11513,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11644,7 +11712,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11703,7 +11771,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11787,7 +11855,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11833,7 +11901,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -11871,7 +11939,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12087,7 +12155,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12115,7 +12183,7 @@ false
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12159,7 +12227,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12193,7 +12261,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12226,7 +12294,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12260,7 +12328,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12304,7 +12372,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12348,7 +12416,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12392,7 +12460,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12436,7 +12504,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12480,7 +12548,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12548,7 +12616,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12592,7 +12660,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12636,7 +12704,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12698,7 +12766,7 @@ expected
 "
 )
 ;
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12742,7 +12810,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -12969,7 +13037,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13013,7 +13081,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13057,7 +13125,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13101,7 +13169,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13135,7 +13203,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13169,7 +13237,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13213,7 +13281,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13257,7 +13325,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13301,7 +13369,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13384,7 +13452,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13489,7 +13557,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13558,7 +13626,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13627,7 +13695,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13735,7 +13803,7 @@ valueList
 #
 ifdef
 MOZ_FLEXBOX
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13779,7 +13847,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13895,7 +13963,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13933,7 +14001,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -13977,7 +14045,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14011,7 +14079,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14045,7 +14113,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14079,7 +14147,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14125,7 +14193,7 @@ val
 }
 #
 endif
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14169,7 +14237,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14203,7 +14271,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14247,7 +14315,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14291,7 +14359,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14335,7 +14403,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14379,7 +14447,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14423,7 +14491,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14467,7 +14535,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14511,7 +14579,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14771,7 +14839,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14840,7 +14908,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14884,7 +14952,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14928,7 +14996,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -14972,7 +15040,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15030,7 +15098,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15088,7 +15156,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15132,7 +15200,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15295,7 +15363,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15461,7 +15529,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15499,7 +15567,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15541,7 +15609,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15604,7 +15672,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15756,7 +15824,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15772,7 +15840,7 @@ NS_SIDE_LEFT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15788,7 +15856,7 @@ NS_SIDE_RIGHT
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15819,8 +15887,6 @@ primitiveValue
 =
 new
 nsROCSSPrimitiveValue
-(
-)
 ;
 NS_ASSERTION
 (
@@ -15880,7 +15946,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -15979,7 +16045,7 @@ nullptr
 ;
 }
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -16334,7 +16400,7 @@ s_
 &
 3
 )
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -16519,7 +16585,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -16565,7 +16631,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -16815,7 +16881,7 @@ return
 true
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -16940,7 +17006,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -17019,7 +17085,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -17087,7 +17153,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -17198,7 +17264,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18134,7 +18200,7 @@ return
 true
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18332,7 +18398,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18348,7 +18414,7 @@ true
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18364,7 +18430,7 @@ false
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18421,7 +18487,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18478,7 +18544,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18535,7 +18601,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18651,7 +18717,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18684,7 +18750,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18717,7 +18783,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18761,7 +18827,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18795,7 +18861,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18829,7 +18895,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18863,7 +18929,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18897,7 +18963,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18931,7 +18997,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -18975,7 +19041,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19019,7 +19085,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19063,7 +19129,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19107,7 +19173,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19151,7 +19217,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19195,7 +19261,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19239,7 +19305,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19283,7 +19349,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19327,7 +19393,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19371,7 +19437,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19415,7 +19481,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19447,7 +19513,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19479,7 +19545,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19511,7 +19577,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19568,7 +19634,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19625,7 +19691,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19682,7 +19748,7 @@ return
 val
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19801,7 +19867,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -19920,7 +19986,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -20317,7 +20383,7 @@ tmp
 )
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -20401,7 +20467,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -20557,7 +20623,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -20676,7 +20742,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -20795,7 +20861,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -20879,7 +20945,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -21000,7 +21066,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -21121,7 +21187,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :
@@ -21270,7 +21336,7 @@ return
 valueList
 ;
 }
-nsIDOMCSSValue
+CSSValue
 *
 nsComputedDOMStyle
 :

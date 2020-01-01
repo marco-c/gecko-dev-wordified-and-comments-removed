@@ -451,6 +451,10 @@ test_bug765590
 .
 html
 \
+test_bug798567
+.
+html
+\
 test_cascade
 .
 html
