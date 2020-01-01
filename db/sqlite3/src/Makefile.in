@@ -85,9 +85,16 @@ mozsqlite3
 SHORT_LIBNAME
 =
 mozsqlt3
+ifdef
+MOZ_FOLD_LIBS
+FORCE_STATIC_LIB
+=
+1
+else
 FORCE_SHARED_LIB
 =
 1
+endif
 VISIBILITY_FLAGS
 =
 LIB_IS_C_ONLY

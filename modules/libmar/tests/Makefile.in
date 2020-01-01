@@ -215,6 +215,8 @@ TESTROOT
 )
 /
 unit
+ifndef
+MOZ_FOLD_LIBS
 (
 INSTALL
 )
@@ -307,6 +309,7 @@ TESTROOT
 )
 /
 unit
+endif
 endif
 endif
 #
