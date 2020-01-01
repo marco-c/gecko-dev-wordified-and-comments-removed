@@ -109,13 +109,13 @@ uint64_t
 mBitRateSum
 ;
 uint64_t
+mTotalFrameSize
+;
+uint64_t
 mNumFrames
 ;
 int64_t
 mOffset
-;
-int64_t
-mUnhandled
 ;
 int64_t
 mLength
@@ -125,6 +125,9 @@ mMP3Offset
 ;
 uint32_t
 mSkippedBytes
+;
+uint16_t
+mSampleRate
 ;
 enum
 eIsMP3
