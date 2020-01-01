@@ -643,7 +643,7 @@ mContextLostErrorSet
 =
 false
 ;
-mAlreadyReportedMessages
+mAlreadyGeneratedWarnings
 =
 0
 ;
