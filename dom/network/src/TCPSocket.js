@@ -941,7 +941,7 @@ if
 status
 )
 {
-this
+self
 .
 _readyState
 =
@@ -970,7 +970,7 @@ status
 =
 status
 ;
-this
+self
 .
 callListener
 (
@@ -980,7 +980,7 @@ onerror
 err
 )
 ;
-this
+self
 .
 callListener
 (
