@@ -20118,7 +20118,7 @@ JSID_IS_EMPTY
 shape
 -
 >
-id
+propid
 )
 )
 ;
@@ -20156,7 +20156,7 @@ idp
 shape
 -
 >
-id
+propid
 ;
 }
 }
@@ -21300,7 +21300,7 @@ front
 (
 )
 .
-id
+propid
 clone
 -
 >

@@ -511,7 +511,7 @@ search
 (
 shape
 .
-id
+propid
 true
 )
 ;
@@ -905,7 +905,7 @@ shape
 shape
 -
 >
-id
+propid
 =
 =
 id
@@ -1088,7 +1088,7 @@ shape
 shape
 -
 >
-id
+propid
 =
 =
 id
@@ -1341,7 +1341,7 @@ search
 shape
 -
 >
-id
+propid
 true
 )
 ;
@@ -1491,7 +1491,7 @@ JSID_IS_VOID
 (
 child
 .
-id
+propid
 )
 )
 ;
@@ -1620,7 +1620,7 @@ search
 newShape
 -
 >
-id
+propid
 true
 )
 ;
@@ -1822,7 +1822,7 @@ JSID_IS_VOID
 (
 child
 .
-id
+propid
 )
 )
 ;
@@ -2092,7 +2092,7 @@ Shape
 (
 child
 .
-id
+propid
 child
 .
 rawGetter
@@ -2599,7 +2599,7 @@ objShape
 lastProp
 -
 >
-shape
+shapeid
 )
 ;
 else
@@ -2611,7 +2611,7 @@ objShape
 lastProp
 -
 >
-shape
+shapeid
 )
 ;
 Shape
@@ -2748,7 +2748,7 @@ search
 shape
 -
 >
-id
+propid
 false
 )
 ;
@@ -3024,7 +3024,7 @@ front
 (
 )
 .
-id
+propid
 false
 )
 ;
@@ -3614,7 +3614,7 @@ cx
 shape
 -
 >
-id
+propid
 )
 ;
 return
@@ -3933,7 +3933,7 @@ nativeSearch
 shape
 -
 >
-id
+propid
 )
 ;
 shape
@@ -4121,7 +4121,7 @@ shape
 lastProp
 -
 >
-shape
+shapeid
 =
 js_GenerateShape
 (
@@ -4335,7 +4335,7 @@ JSID_IS_VOID
 shape
 -
 >
-id
+propid
 )
 )
 ;
@@ -4654,7 +4654,7 @@ shape
 lastProp
 -
 >
-shape
+shapeid
 =
 js_GenerateShape
 (
@@ -4717,7 +4717,7 @@ child
 shape
 -
 >
-id
+propid
 getter
 setter
 shape
@@ -4783,7 +4783,7 @@ nativeSearch
 shape
 -
 >
-id
+propid
 )
 ;
 JS_ASSERT
@@ -4810,7 +4810,7 @@ child
 shape
 -
 >
-id
+propid
 getter
 setter
 shape
@@ -4835,7 +4835,7 @@ putProperty
 cx
 child
 .
-id
+propid
 child
 .
 rawGetter
@@ -5032,7 +5032,7 @@ nativeSearch
 shape
 -
 >
-id
+propid
 )
 ;
 shape
@@ -5789,7 +5789,7 @@ JSID_IS_VOID
 (
 shape
 .
-id
+propid
 )
 )
 ;
@@ -5831,7 +5831,7 @@ JSID_IS_VOID
 (
 shape
 .
-id
+propid
 )
 )
 ;
@@ -5914,7 +5914,7 @@ putProperty
 cx
 shape
 .
-id
+propid
 NULL
 shape
 .
@@ -6090,7 +6090,7 @@ JSID_IS_VOID
 (
 shape
 .
-id
+propid
 )
 )
 ;
@@ -6158,7 +6158,7 @@ JSID_IS_VOID
 (
 shape
 .
-id
+propid
 )
 )
 ;

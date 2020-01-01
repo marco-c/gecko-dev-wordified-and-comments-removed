@@ -1665,7 +1665,7 @@ JSID_TO_ATOM
 (
 shape
 .
-id
+propid
 )
 &
 bytes
@@ -7242,7 +7242,7 @@ JSID_IS_ATOM
 (
 shape
 .
-id
+propid
 )
 )
 ;
@@ -7254,7 +7254,7 @@ JSID_TO_ATOM
 (
 shape
 .
-id
+propid
 )
 ;
 const
@@ -13753,7 +13753,7 @@ JSID_TO_ATOM
 (
 shape
 .
-id
+propid
 )
 ;
 }

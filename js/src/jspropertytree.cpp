@@ -313,7 +313,7 @@ JSID_IS_VOID
 parent
 -
 >
-id
+propid
 )
 )
 ;
@@ -325,7 +325,7 @@ JSID_IS_VOID
 child
 -
 >
-id
+propid
 )
 )
 ;
@@ -549,7 +549,7 @@ JS_ASSERT
 !
 JSID_IS_VOID
 (
-id
+propid
 )
 )
 ;
@@ -642,7 +642,7 @@ JSID_IS_VOID
 parent
 -
 >
-id
+propid
 )
 )
 ;
@@ -752,7 +752,7 @@ Shape
 (
 child
 .
-id
+propid
 child
 .
 rawGetter
@@ -890,7 +890,7 @@ JS_ASSERT
 !
 JSID_IS_VOID
 (
-id
+propid
 )
 )
 ;
@@ -898,7 +898,7 @@ if
 (
 JSID_IS_INT
 (
-id
+propid
 )
 )
 {
@@ -916,7 +916,7 @@ long
 )
 JSID_TO_INT
 (
-id
+propid
 )
 )
 ;
@@ -926,7 +926,7 @@ if
 (
 JSID_IS_DEFAULT_XML_NAMESPACE
 (
-id
+propid
 )
 )
 {
@@ -953,7 +953,7 @@ if
 (
 JSID_IS_ATOM
 (
-id
+propid
 )
 )
 {
@@ -961,7 +961,7 @@ str
 =
 JSID_TO_ATOM
 (
-id
+propid
 )
 ;
 }
@@ -971,7 +971,7 @@ JS_ASSERT
 (
 JSID_IS_OBJECT
 (
-id
+propid
 )
 )
 ;
@@ -984,7 +984,7 @@ js_ValueToString
 cx
 IdToValue
 (
-id
+propid
 )
 )
 ;
@@ -1460,7 +1460,7 @@ JS_ASSERT
 (
 JSID_IS_EMPTY
 (
-id
+propid
 )
 )
 ;
@@ -1481,7 +1481,7 @@ clasp
 -
 >
 name
-shape
+shapeid
 )
 ;
 }
