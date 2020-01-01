@@ -2604,7 +2604,7 @@ return
 {
 touchSupported
 :
-false
+true
 tap
 :
 tap
