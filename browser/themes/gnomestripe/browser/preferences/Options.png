@@ -1,12 +1,14 @@
 PNG
 IHDR
 tU
-sRGB
-bKGD
-pHYs
+gAMA
+a
 tIME
 5
 m
+bKGD
+pHYs
+/
 IDATx
 }
 w
@@ -2247,7 +2249,6 @@ c
 s
 z
 >
-IDAT
 s
 p
 (
@@ -3343,7 +3344,6 @@ g
 ]
 X
 x
-VX
-9
+V
 IEND
 B

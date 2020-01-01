@@ -1,14 +1,15 @@
 PNG
 IHDR
 iq
-sRGB
+gAMA
+a
+tIME
+A
 bKGD
 pHYs
 B
 (
 x
-tIME
-A
 IDATx
 ml
 \
@@ -768,7 +769,6 @@ Hbp
 Vp
 E
 }
-B
 r
 f
 *
@@ -1027,6 +1027,6 @@ ED
 (
 S
 #
-9
+M
 IEND
 B
