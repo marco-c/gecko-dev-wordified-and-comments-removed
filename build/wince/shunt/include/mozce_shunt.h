@@ -1113,6 +1113,10 @@ int
 inYRadial2
 )
 ;
+#
+define
+GetDriveTypeW
+GetDriveType
 MOZCE_SHUNT_API
 UINT
 GetDriveType
@@ -1459,6 +1463,10 @@ LPFILETIME
 lpSystemTimeAsFileTime
 )
 ;
+#
+define
+GetFullPathNameW
+GetFullPathName
 MOZCE_SHUNT_API
 DWORD
 GetFullPathName
