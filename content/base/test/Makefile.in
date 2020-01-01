@@ -2053,6 +2053,10 @@ test_createHTMLDocument
 .
 html
 \
+test_bug564047
+.
+html
+\
 test_bug567350
 .
 html
