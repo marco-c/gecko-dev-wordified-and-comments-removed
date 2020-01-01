@@ -1,12 +1,5 @@
 test
 (
-"
-hz
--
-gb
--
-2312
-"
 function
 (
 )
@@ -29801,7 +29794,7 @@ u9F3E
 u9F44
 "
 ;
-equal
+assert_equals
 (
 TextDecoder
 (
@@ -29829,5 +29822,12 @@ decoded
 )
 ;
 }
+"
+hz
+-
+gb
+-
+2312
+"
 )
 ;

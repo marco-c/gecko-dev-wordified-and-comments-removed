@@ -1,8 +1,5 @@
 test
 (
-"
-big5
-"
 function
 (
 )
@@ -53699,7 +53696,7 @@ u74E9
 u7809
 "
 ;
-equal
+assert_equals
 (
 TextDecoder
 (
@@ -53723,5 +53720,8 @@ decoded
 )
 ;
 }
+"
+big5
+"
 )
 ;

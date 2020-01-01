@@ -1,8 +1,5 @@
 test
 (
-"
-shift_jis
-"
 function
 (
 )
@@ -27551,7 +27548,7 @@ u7199
 u2235
 "
 ;
-equal
+assert_equals
 (
 TextDecoder
 (
@@ -27575,5 +27572,8 @@ decoded
 )
 ;
 }
+"
+shift_jis
+"
 )
 ;

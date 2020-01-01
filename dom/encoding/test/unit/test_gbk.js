@@ -1,8 +1,5 @@
 test
 (
-"
-gbk
-"
 function
 (
 )
@@ -87187,7 +87184,7 @@ uFA28
 uFA29
 "
 ;
-equal
+assert_equals
 (
 TextDecoder
 (
@@ -87211,5 +87208,8 @@ decoded
 )
 ;
 }
+"
+gbk
+"
 )
 ;

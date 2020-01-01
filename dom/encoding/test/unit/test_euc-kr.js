@@ -1,10 +1,5 @@
 test
 (
-"
-euc
--
-kr
-"
 function
 (
 )
@@ -32921,7 +32916,7 @@ u7FB2
 u8A70
 "
 ;
-equal
+assert_equals
 (
 TextDecoder
 (
@@ -32947,5 +32942,10 @@ decoded
 )
 ;
 }
+"
+euc
+-
+kr
+"
 )
 ;

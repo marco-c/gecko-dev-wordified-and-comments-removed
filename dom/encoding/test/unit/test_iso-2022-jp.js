@@ -1,12 +1,5 @@
 test
 (
-"
-iso
--
-2022
--
-jp
-"
 function
 (
 )
@@ -27558,7 +27551,7 @@ u7199
 u2235
 "
 ;
-equal
+assert_equals
 (
 TextDecoder
 (
@@ -27586,5 +27579,12 @@ decoded
 )
 ;
 }
+"
+iso
+-
+2022
+-
+jp
+"
 )
 ;
