@@ -1671,6 +1671,15 @@ build
 MOZ_PROFILE_GENERATE
 =
 1
+(
+MAKE
+)
+-
+C
+(
+PGO_OBJDIR
+)
+package
 OBJDIR
 =
 {
