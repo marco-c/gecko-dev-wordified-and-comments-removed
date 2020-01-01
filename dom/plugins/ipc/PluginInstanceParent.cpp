@@ -1837,6 +1837,9 @@ NPPVpluginDrawingModel
 void
 *
 )
+(
+intptr_t
+)
 drawingModel
 )
 ;
