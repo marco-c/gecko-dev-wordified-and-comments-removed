@@ -1812,8 +1812,6 @@ this
 handleDataCallState
 (
 message
-.
-datacall
 )
 ;
 break
@@ -2413,6 +2411,7 @@ voiceInfo
 )
 ;
 return
+false
 ;
 }
 let
@@ -2711,6 +2710,7 @@ data
 )
 ;
 return
+false
 ;
 }
 data
