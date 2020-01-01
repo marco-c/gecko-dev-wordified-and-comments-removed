@@ -25,7 +25,9 @@ include
 .
 .
 /
-browserShared
+shared
+/
+browser
 .
 inc
 %
