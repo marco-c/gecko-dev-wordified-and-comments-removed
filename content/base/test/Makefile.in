@@ -2555,6 +2555,10 @@ test_messagemanager_assertpermission
 .
 html
 \
+test_child_process_shutdown_message
+.
+html
+\
 (
 NULL
 )
