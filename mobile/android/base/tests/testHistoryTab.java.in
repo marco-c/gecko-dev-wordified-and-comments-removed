@@ -1814,11 +1814,13 @@ view
 getTag
 (
 )
-=
-=
+.
+equals
+(
 "
 history
 "
+)
 )
 {
 listview
