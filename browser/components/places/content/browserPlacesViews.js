@@ -2637,6 +2637,13 @@ function
 )
 {
 }
+batching
+:
+function
+(
+)
+{
+}
 containerOpened
 :
 function
