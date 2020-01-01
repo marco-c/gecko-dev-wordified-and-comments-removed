@@ -551,6 +551,7 @@ CDATA
 [
 if
 (
+!
 navigator
 .
 platform
@@ -558,7 +559,7 @@ platform
 startsWith
 (
 "
-Mac
+Linux
 "
 )
 )
@@ -568,7 +569,7 @@ SimpleTest
 expectAssertions
 (
 0
-2
+3
 )
 ;
 }
