@@ -34,7 +34,7 @@ initial
 startup
 #
 ifdef
-NS_HILDON
+MOZ_PLATFORM_HILDON
 /
 bin
 /
