@@ -350,6 +350,8 @@ JNIEnv
 *
 jenv
 jclass
+jboolean
+mayWait
 )
 {
 if
@@ -367,7 +369,10 @@ gAppShell
 >
 ProcessNextNativeEvent
 (
-false
+mayWait
+!
+=
+JNI_FALSE
 )
 ;
 }
