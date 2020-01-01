@@ -673,9 +673,14 @@ windows
 _TEST_FILES
 +
 =
+(
+warning
 test_cursorsnap
 .
 xul
+temporarily
+disabled
+)
 \
 window_cursorsnap_dialog
 .
