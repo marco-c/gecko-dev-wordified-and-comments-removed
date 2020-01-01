@@ -9028,6 +9028,7 @@ inline
 PRBool
 IsAutocompleteOff
 (
+const
 nsIContent
 *
 aElement
@@ -9063,6 +9064,7 @@ GenerateStateKey
 nsIContent
 *
 aContent
+const
 nsIDocument
 *
 aDocument
@@ -9862,6 +9864,7 @@ nsContentUtils
 :
 SplitQName
 (
+const
 nsIContent
 *
 aNamespaceResolver
@@ -10440,6 +10443,7 @@ nsContentUtils
 :
 GetContextForContent
 (
+const
 nsIContent
 *
 aContent
@@ -11385,6 +11389,7 @@ nsContentUtils
 :
 IsDraggableLink
 (
+const
 nsIContent
 *
 aContent
@@ -15082,6 +15087,7 @@ MatchElementId
 nsIContent
 *
 aContent
+const
 nsIAtom
 *
 aId
@@ -15861,6 +15867,7 @@ nsContentUtils
 :
 HasNonEmptyAttr
 (
+const
 nsIContent
 *
 aContent
@@ -18363,9 +18370,11 @@ nsContentUtils
 :
 IsInSameAnonymousTree
 (
+const
 nsINode
 *
 aNode
+const
 nsIContent
 *
 aContent
@@ -18429,6 +18438,7 @@ nsnull
 return
 static_cast
 <
+const
 nsIContent
 *
 >
@@ -27510,6 +27520,7 @@ nsContentUtils
 :
 IsFocusedContent
 (
+const
 nsIContent
 *
 aContent
