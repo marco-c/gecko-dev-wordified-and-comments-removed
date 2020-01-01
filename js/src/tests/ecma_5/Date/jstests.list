@@ -49,3 +49,11 @@ script
 toISOString
 .
 js
+script
+setTime
+-
+argument
+-
+shortcircuiting
+.
+js
