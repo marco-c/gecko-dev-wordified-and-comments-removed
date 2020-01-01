@@ -105,6 +105,14 @@ Webapps
 .
 jsm
 \
+AppsServiceChild
+.
+jsm
+\
+AppsUtils
+.
+jsm
+\
 (
 NULL
 )
