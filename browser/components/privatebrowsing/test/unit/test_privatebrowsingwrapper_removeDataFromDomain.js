@@ -11,6 +11,8 @@ mozilla
 org
 /
 privatebrowsing
+-
+wrapper
 ;
 1
 "
@@ -28,7 +30,7 @@ test
 /
 unit
 /
-do_test_privatebrowsing_autostart
+do_test_removeDataFromDomain
 .
 js
 "
