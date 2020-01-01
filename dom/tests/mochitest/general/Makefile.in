@@ -572,6 +572,10 @@ test_browserFrame6
 .
 html
 \
+test_browserFrame7
+.
+html
+\
 test_for_of
 .
 html

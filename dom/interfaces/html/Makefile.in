@@ -718,6 +718,10 @@ nsIDOMHTMLUnknownElement
 .
 idl
 \
+nsIMozBrowserFrame
+.
+idl
+\
 (
 NULL
 )
