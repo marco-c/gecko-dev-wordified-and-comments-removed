@@ -25,6 +25,12 @@ AccessibleEditableText
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 ia2AccessibleEditableText
 :
@@ -117,5 +123,7 @@ attributes
 ;
 }
 ;
+}
+}
 #
 endif

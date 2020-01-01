@@ -11,6 +11,12 @@ AccessibleComponent
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 ia2AccessibleComponent
 :
@@ -63,5 +69,7 @@ background
 ;
 }
 ;
+}
+}
 #
 endif

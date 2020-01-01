@@ -119,7 +119,7 @@ ImageAccessibleWrap
 .
 cpp
 \
-nsAccessNodeWrap
+IUnknownImpl
 .
 cpp
 \

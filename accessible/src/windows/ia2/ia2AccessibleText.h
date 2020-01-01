@@ -25,6 +25,12 @@ AccessibleText
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 ia2AccessibleText
 :
@@ -351,6 +357,8 @@ coordinateType
 ;
 }
 ;
+}
+}
 #
 define
 FORWARD_IACCESSIBLETEXT

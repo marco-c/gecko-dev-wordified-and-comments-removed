@@ -18,6 +18,12 @@ AccessibleAction
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 ia2AccessibleAction
 :
@@ -110,6 +116,8 @@ localizedName
 ;
 }
 ;
+}
+}
 #
 define
 FORWARD_IACCESSIBLEACTION

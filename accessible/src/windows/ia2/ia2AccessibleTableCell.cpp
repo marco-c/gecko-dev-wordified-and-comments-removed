@@ -50,6 +50,13 @@ h
 #
 include
 "
+IUnknownImpl
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

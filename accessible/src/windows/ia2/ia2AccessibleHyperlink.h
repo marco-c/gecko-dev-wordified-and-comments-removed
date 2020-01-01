@@ -25,6 +25,12 @@ AccessibleHyperlink
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 ia2AccessibleHyperlink
 :
@@ -104,5 +110,7 @@ valid
 ;
 }
 ;
+}
+}
 #
 endif

@@ -107,11 +107,6 @@ IUnknownImpl
 .
 h
 '
-'
-nsAccessNodeWrap
-.
-h
-'
 ]
 EXPORTS
 .

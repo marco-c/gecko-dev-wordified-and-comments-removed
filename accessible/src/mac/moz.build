@@ -107,11 +107,6 @@ mozAccessibleProtocol
 .
 h
 '
-'
-nsAccessNodeWrap
-.
-h
-'
 ]
 EXPORTS
 .

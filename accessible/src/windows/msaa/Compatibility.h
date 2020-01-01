@@ -20,9 +20,6 @@ namespace
 a11y
 {
 class
-nsAccessNodeWrap
-;
-class
 Compatibility
 {
 public

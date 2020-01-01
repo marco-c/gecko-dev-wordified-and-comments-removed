@@ -11,6 +11,12 @@ AccessibleImage
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 ia2AccessibleImage
 :
@@ -69,5 +75,7 @@ width
 ;
 }
 ;
+}
+}
 #
 endif

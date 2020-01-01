@@ -11,6 +11,12 @@ AccessibleValue
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 ia2AccessibleValue
 :
@@ -69,5 +75,7 @@ minimumValue
 ;
 }
 ;
+}
+}
 #
 endif

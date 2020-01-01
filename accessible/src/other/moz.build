@@ -99,16 +99,6 @@ MODULE
 accessibility
 '
 EXPORTS
-+
-=
-[
-'
-nsAccessNodeWrap
-.
-h
-'
-]
-EXPORTS
 .
 mozilla
 .
