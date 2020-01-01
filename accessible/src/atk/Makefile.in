@@ -574,6 +574,8 @@ nsHyperTextAccessibleWrap
 .
 h
 \
+nsHTMLTableAccessibleWrap
+\
 (
 NULL
 )
