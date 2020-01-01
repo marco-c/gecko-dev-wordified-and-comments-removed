@@ -1903,15 +1903,6 @@ rv
 &
 &
 mayThrow
-&
-&
-!
-cx
--
->
-isExceptionPending
-(
-)
 )
 reportError
 (
