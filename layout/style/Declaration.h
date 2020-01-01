@@ -118,7 +118,7 @@ nsCSSProperty
 aProperty
 )
 ;
-bool
+void
 RemoveProperty
 (
 nsCSSProperty
