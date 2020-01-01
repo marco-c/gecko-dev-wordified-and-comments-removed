@@ -4424,6 +4424,9 @@ case
 LIR_fneg
 :
 case
+LIR_not
+:
+case
 LIR_qlo
 :
 case
@@ -4534,9 +4537,6 @@ LIR_qior
 :
 case
 LIR_qxor
-:
-case
-LIR_not
 :
 case
 LIR_lsh
