@@ -404,6 +404,7 @@ EventUtils
 sendString
 (
 aNewValue
+gDebugger
 )
 ;
 EventUtils
@@ -413,6 +414,7 @@ sendKey
 "
 RETURN
 "
+gDebugger
 )
 ;
 }
