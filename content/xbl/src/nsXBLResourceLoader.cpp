@@ -768,6 +768,7 @@ nsStyleSet
 :
 :
 eDocSheet
+nullptr
 )
 ;
 if

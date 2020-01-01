@@ -460,6 +460,7 @@ nsStyleSet
 :
 :
 eDocSheet
+nullptr
 )
 ;
 return
