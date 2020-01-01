@@ -71,6 +71,10 @@ function
 (
 )
 {
+aCallback
+(
+)
+;
 Services
 .
 obs
@@ -83,13 +87,6 @@ blocklist
 -
 updated
 "
-)
-;
-SimpleTest
-.
-executeSoon
-(
-aCallback
 )
 ;
 }
