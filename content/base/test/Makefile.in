@@ -2633,6 +2633,10 @@ test_bug809003
 .
 html
 \
+test_textnode_split_in_selection
+.
+html
+\
 (
 NULL
 )
