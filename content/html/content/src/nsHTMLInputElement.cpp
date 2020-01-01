@@ -1807,8 +1807,6 @@ if
 prefSaved
 )
 {
-rv
-=
 nsHTMLInputElement
 :
 :
@@ -1824,12 +1822,6 @@ GetDocumentURI
 (
 )
 localFile
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 prefSaved
@@ -1912,8 +1904,6 @@ domFile
 )
 ;
 }
-rv
-=
 nsHTMLInputElement
 :
 :
@@ -1929,12 +1919,6 @@ GetDocumentURI
 (
 )
 localFile
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }
