@@ -487,7 +487,7 @@ element
 *
 /
 [
-scriptable
+noscript
 uuid
 (
 aa73a61a
@@ -607,9 +607,6 @@ optgroup
 )
 *
 /
-[
-noscript
-]
 void
 willAddOptions
 (
@@ -701,9 +698,6 @@ optgroup
 )
 *
 /
-[
-noscript
-]
 void
 willRemoveOptions
 (
