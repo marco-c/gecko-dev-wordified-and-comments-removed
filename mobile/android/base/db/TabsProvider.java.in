@@ -1455,6 +1455,13 @@ enableWriteAheadLogging
 (
 )
 ;
+db
+.
+setLockingEnabled
+(
+false
+)
+;
 }
 else
 {
