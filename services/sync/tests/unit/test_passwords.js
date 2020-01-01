@@ -120,9 +120,15 @@ PasswordSyncCore
 (
 )
 ;
+pwStore
+.
+wrap
+(
+)
+;
 do_check_false
 (
-psc
+pwStore
 .
 _itemExists
 (
@@ -135,7 +141,7 @@ guid
 ;
 do_check_true
 (
-psc
+pwStore
 .
 _itemExists
 (
