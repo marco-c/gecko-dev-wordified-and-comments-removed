@@ -625,9 +625,13 @@ important
 content
 pre
 {
-overflow
+white
+-
+space
 :
-scroll
+pre
+-
+wrap
 !
 important
 ;
