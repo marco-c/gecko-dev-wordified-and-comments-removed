@@ -97,6 +97,12 @@ defined
 (
 XP_WIN
 )
+&
+&
+defined
+(
+_MSC_VER
+)
 #
 define
 MOZ_WIN_MEM_TRY_BEGIN
