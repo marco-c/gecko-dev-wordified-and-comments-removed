@@ -146,7 +146,7 @@ class
 nsStyleSet
 ;
 class
-nsIViewManager
+nsViewManager
 ;
 class
 nsView
@@ -455,7 +455,7 @@ aDocument
 nsPresContext
 *
 aPresContext
-nsIViewManager
+nsViewManager
 *
 aViewManager
 nsStyleSet
@@ -739,7 +739,7 @@ return
 mPresContext
 ;
 }
-nsIViewManager
+nsViewManager
 *
 GetViewManager
 (
@@ -3107,7 +3107,7 @@ nsCSSFrameConstructor
 *
 mFrameConstructor
 ;
-nsIViewManager
+nsViewManager
 *
 mViewManager
 ;

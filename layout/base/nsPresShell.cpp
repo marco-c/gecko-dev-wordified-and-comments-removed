@@ -3474,7 +3474,7 @@ aDocument
 nsPresContext
 *
 aPresContext
-nsIViewManager
+nsViewManager
 *
 aViewManager
 nsStyleSet
@@ -8174,7 +8174,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 viewManagerDeathGrip
 =
@@ -8320,7 +8320,7 @@ GetPresContext
 Reflow
 )
 ;
-nsIViewManager
+nsViewManager
 :
 :
 AutoDisableRefresh
@@ -16068,7 +16068,7 @@ if
 isSafeToFlush
 )
 {
-nsIViewManager
+nsViewManager
 *
 viewManager
 =
@@ -16348,7 +16348,7 @@ manager
 ;
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 viewManagerDeathGrip
 =
@@ -22340,7 +22340,7 @@ refpoint
 0
 )
 ;
-nsIViewManager
+nsViewManager
 *
 pointVM
 =
@@ -33561,7 +33561,7 @@ GetPresContext
 Reflow
 )
 ;
-nsIViewManager
+nsViewManager
 :
 :
 AutoDisableRefresh
@@ -36973,7 +36973,7 @@ GetWidget
 ;
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 vm
 =

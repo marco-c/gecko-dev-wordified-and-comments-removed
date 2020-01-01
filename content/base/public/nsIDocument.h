@@ -270,7 +270,7 @@ class
 nsIVariant
 ;
 class
-nsIViewManager
+nsViewManager
 ;
 class
 nsPresContext
@@ -993,7 +993,7 @@ CreateShell
 nsPresContext
 *
 aContext
-nsIViewManager
+nsViewManager
 *
 aViewManager
 nsStyleSet

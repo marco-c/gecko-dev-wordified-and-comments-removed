@@ -189,7 +189,7 @@ h
 #
 include
 "
-nsIViewManager
+nsViewManager
 .
 h
 "
@@ -48284,7 +48284,7 @@ return
 ;
 nsCOMPtr
 <
-nsIViewManager
+nsViewManager
 >
 vm
 =
