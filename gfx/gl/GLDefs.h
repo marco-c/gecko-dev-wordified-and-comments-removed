@@ -12735,4 +12735,8 @@ define
 LOCAL_EGL_DRAW
 0x3059
 #
+define
+LOCAL_EGL_CONTEXT_LOST
+0x300E
+#
 endif

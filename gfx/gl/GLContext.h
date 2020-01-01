@@ -1516,6 +1516,10 @@ mHasRobustness
 (
 false
 )
+mContextLost
+(
+false
+)
 mVendor
 (
 -
@@ -1712,6 +1716,15 @@ MakeCurrentImpl
 (
 aForce
 )
+;
+}
+bool
+IsContextLost
+(
+)
+{
+return
+mContextLost
 ;
 }
 virtual
@@ -3653,6 +3666,9 @@ mIsGlobalSharedContext
 ;
 bool
 mHasRobustness
+;
+bool
+mContextLost
 ;
 PRInt32
 mVendor
