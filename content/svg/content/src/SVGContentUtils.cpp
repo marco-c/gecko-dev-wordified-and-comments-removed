@@ -1653,7 +1653,7 @@ zero
 "
 )
 ;
-uint16_t
+SVGAlign
 align
 =
 aPreserveAspectRatio
@@ -1662,7 +1662,7 @@ GetAlign
 (
 )
 ;
-uint16_t
+SVGMeetOrSlice
 meetOrSlice
 =
 aPreserveAspectRatio
