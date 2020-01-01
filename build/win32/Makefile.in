@@ -483,8 +483,6 @@ config
 rules
 .
 mk
-ifndef
-WIN32_OLD_STYLE_JEMALLOC
 ifdef
 WIN32_REDIST_DIR
 ifndef
@@ -623,7 +621,3 @@ MOZ_DEBUG
 endif
 #
 WIN32_REDIST_DIR
-endif
-#
-!
-MOZ_MEMORY
