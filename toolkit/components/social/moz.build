@@ -125,6 +125,11 @@ FrameWorker
 jsm
 '
 '
+FrameWorkerContent
+.
+js
+'
+'
 MessagePortBase
 .
 jsm
