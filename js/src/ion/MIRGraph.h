@@ -283,6 +283,9 @@ pred
 jsbytecode
 *
 entryPc
+MResumePoint
+*
+resumePoint
 )
 ;
 bool
