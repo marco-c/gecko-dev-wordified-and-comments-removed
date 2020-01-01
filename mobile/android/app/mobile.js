@@ -6551,6 +6551,16 @@ false
 pref
 (
 "
+gfx
+.
+show_checkerboard_pattern
+"
+false
+)
+;
+pref
+(
+"
 remote
 -
 debugger
