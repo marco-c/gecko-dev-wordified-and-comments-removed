@@ -20,7 +20,7 @@ h
 "
 #
 ifdef
-__arm__
+HAVE_ARM_NEON
 #
 define
 HAVE_YCBCR_TO_RGB565
