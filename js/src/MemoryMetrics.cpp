@@ -343,7 +343,7 @@ rtStats
 currCompartmentStats
 -
 >
-gcHeapArenaUnused
+gcHeapUnusedGcThings
 +
 =
 allocationSpace
@@ -793,7 +793,7 @@ endif
 cStats
 -
 >
-gcHeapArenaUnused
+gcHeapUnusedGcThings
 -
 =
 thingSize
@@ -859,7 +859,7 @@ ArenaSize
 rtStats
 -
 >
-gcHeapChunkCleanUnused
+gcHeapUnusedChunks
 =
 size_t
 (
@@ -934,7 +934,7 @@ runtime
 rtStats
 -
 >
-gcHeapChunkDirtyUnused
+gcHeapUnusedArenas
 =
 rtStats
 -
@@ -944,7 +944,7 @@ gcHeapChunkTotal
 rtStats
 -
 >
-gcHeapChunkCleanUnused
+gcHeapUnusedChunks
 -
 rtStats
 -
@@ -1012,7 +1012,7 @@ gcHeapArenaAdmin
 +
 cStats
 .
-gcHeapArenaUnused
+gcHeapUnusedGcThings
 +
 cStats
 .
@@ -1058,7 +1058,7 @@ gcHeapTypeObjects
 rtStats
 -
 >
-gcHeapChunkDirtyUnused
+gcHeapUnusedArenas
 -
 =
 used
@@ -1066,12 +1066,12 @@ used
 rtStats
 -
 >
-gcHeapArenaUnused
+gcHeapUnusedGcThings
 +
 =
 cStats
 .
-gcHeapArenaUnused
+gcHeapUnusedGcThings
 ;
 rtStats
 -
@@ -1220,7 +1220,7 @@ gcHeapChunkTotal
 rtStats
 -
 >
-gcHeapChunkCleanUnused
+gcHeapUnusedChunks
 )
 /
 gc
@@ -1266,7 +1266,7 @@ perChunkAdmin
 rtStats
 -
 >
-gcHeapChunkDirtyUnused
+gcHeapUnusedArenas
 -
 =
 rtStats
@@ -1282,17 +1282,17 @@ gcHeapUnused
 rtStats
 -
 >
-gcHeapChunkDirtyUnused
+gcHeapUnusedArenas
 +
 rtStats
 -
 >
-gcHeapChunkCleanUnused
+gcHeapUnusedChunks
 +
 rtStats
 -
 >
-gcHeapArenaUnused
+gcHeapUnusedGcThings
 ;
 rtStats
 -
