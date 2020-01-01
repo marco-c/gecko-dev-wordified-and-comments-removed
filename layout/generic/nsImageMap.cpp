@@ -4058,6 +4058,10 @@ break
 ;
 default
 :
+area
+=
+nullptr
+;
 NS_NOTREACHED
 (
 "
