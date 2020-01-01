@@ -256,6 +256,7 @@ size
 readonly
 tabindex
 accesskey
+noinitialfocus
 "
 /
 >
