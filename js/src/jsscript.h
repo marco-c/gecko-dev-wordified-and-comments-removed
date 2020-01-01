@@ -1200,9 +1200,6 @@ js
 HeapPtrFunction
 function_
 ;
-size_t
-useCount
-;
 public
 :
 uint32_t
@@ -1216,6 +1213,11 @@ mainOffset
 ;
 uint32_t
 natoms
+;
+private
+:
+uint32_t
+useCount
 ;
 #
 ifdef
@@ -1957,7 +1959,7 @@ jsbytecode
 pc
 )
 ;
-size_t
+uint32_t
 getUseCount
 (
 )
@@ -1967,7 +1969,7 @@ return
 useCount
 ;
 }
-size_t
+uint32_t
 incUseCount
 (
 )
@@ -1978,7 +1980,7 @@ return
 useCount
 ;
 }
-size_t
+uint32_t
 *
 addressOfUseCount
 (
