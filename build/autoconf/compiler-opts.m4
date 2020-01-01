@@ -88,6 +88,14 @@ _WARNINGS_CXXFLAGS
 -
 Wno
 -
+unknown
+-
+warning
+-
+option
+-
+Wno
+-
 return
 -
 type
