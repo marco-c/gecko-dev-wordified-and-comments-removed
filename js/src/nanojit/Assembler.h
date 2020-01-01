@@ -1158,6 +1158,7 @@ nBytes
 )
 )
 ;
+static
 bool
 canRemat
 (
