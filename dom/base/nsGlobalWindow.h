@@ -3569,12 +3569,6 @@ mStopAbuseDialogs
 bool
 mDialogsPermanentlyDisabled
 ;
-bool
-mObservingNetworkUpload
-;
-bool
-mObservingNetworkDownload
-;
 nsRefPtr
 <
 nsDOMMozURLProperty
