@@ -278,13 +278,6 @@ is
 bug
 432425
 #
-browser_aboutHome
-.
-js
-is
-bug
-890409
-#
 #
 browser_sanitizeDialog_treeView
 .
@@ -394,6 +387,10 @@ blockPluginVulnerableUpdatable
 xml
 \
 browser_aboutHealthReport
+.
+js
+\
+browser_aboutHome
 .
 js
 \
