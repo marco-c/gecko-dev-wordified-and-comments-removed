@@ -6016,10 +6016,11 @@ idval
 {
 if
 (
-OBJECT_IS_XML
-(
-cx
 obj
+-
+>
+isXML
+(
 )
 )
 {
