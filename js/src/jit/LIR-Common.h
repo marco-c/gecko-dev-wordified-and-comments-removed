@@ -16078,7 +16078,7 @@ object
 const
 LDefinition
 &
-elem
+tempToUnboxIndex
 const
 LDefinition
 &
@@ -16094,7 +16094,7 @@ object
 setTemp
 (
 0
-elem
+tempToUnboxIndex
 )
 ;
 setTemp
@@ -16138,7 +16138,7 @@ getOperand
 const
 LDefinition
 *
-temp0
+tempToUnboxIndex
 (
 )
 {
@@ -16152,7 +16152,7 @@ getTemp
 const
 LDefinition
 *
-temp1
+temp
 (
 )
 {
@@ -16205,7 +16205,7 @@ value
 const
 LDefinition
 &
-elem
+tempToUnboxIndex
 const
 LDefinition
 &
@@ -16227,7 +16227,7 @@ value
 setTemp
 (
 0
-elem
+tempToUnboxIndex
 )
 ;
 setTemp
@@ -16285,7 +16285,7 @@ getOperand
 const
 LDefinition
 *
-temp0
+tempToUnboxIndex
 (
 )
 {
@@ -16299,7 +16299,7 @@ getTemp
 const
 LDefinition
 *
-temp1
+temp
 (
 )
 {

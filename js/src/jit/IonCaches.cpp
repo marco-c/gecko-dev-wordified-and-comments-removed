@@ -13508,7 +13508,7 @@ masm
 extractInt32
 (
 indexVal
-temp0
+tempToUnboxIndex
 (
 )
 )
@@ -13517,7 +13517,7 @@ temp0
 Register
 elements
 =
-temp1
+temp
 (
 )
 ;
