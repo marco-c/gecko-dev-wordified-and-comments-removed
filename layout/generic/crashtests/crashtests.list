@@ -3555,13 +3555,6 @@ html
 asserts
 (
 1
-)
-asserts
--
-if
-(
-winWidget
-1
 -
 3
 )
