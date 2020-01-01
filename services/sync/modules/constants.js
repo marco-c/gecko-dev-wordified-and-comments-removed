@@ -164,6 +164,9 @@ FENNEC_ID
 '
 SEAMONKEY_ID
 '
+'
+UI_DATA_TYPES_PER_ROW
+'
 ]
 ;
 const
