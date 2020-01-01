@@ -155,6 +155,15 @@ Init
 (
 )
 ;
+NS_IMETHOD_
+(
+void
+)
+GetData
+(
+)
+{
+}
 protected
 :
 virtual
