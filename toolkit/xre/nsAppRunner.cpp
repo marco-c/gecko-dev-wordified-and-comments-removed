@@ -2070,7 +2070,7 @@ aResult
 {
 aResult
 .
-AssignLiteral
+Assign
 (
 gToolkitVersion
 )
