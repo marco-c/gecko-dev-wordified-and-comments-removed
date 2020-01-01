@@ -9789,7 +9789,7 @@ bounds
 height
 )
 ;
-nsIFrameDebug
+nsFrame
 :
 :
 PrintDisplayList
@@ -9842,7 +9842,7 @@ n
 "
 )
 ;
-nsIFrameDebug
+nsFrame
 :
 :
 PrintDisplayList

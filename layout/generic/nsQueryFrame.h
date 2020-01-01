@@ -169,7 +169,6 @@ nsICheckboxControlFrame_id
 nsIComboboxControlFrame_id
 nsIFormControlFrame_id
 nsIFrame_id
-nsIFrameDebug_id
 nsIFrameFrame_id
 nsIImageFrame_id
 nsIListControlFrame_id

@@ -523,10 +523,6 @@ nsIFrame
 .
 h
 \
-nsIFrameDebug
-.
-h
-\
 nsIFrameFrame
 .
 h

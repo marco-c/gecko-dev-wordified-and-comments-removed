@@ -4263,7 +4263,7 @@ aPt
 y
 )
 ;
-nsIFrameDebug
+nsFrame
 :
 :
 PrintDisplayList
@@ -5118,7 +5118,7 @@ dirtyRect
 height
 )
 ;
-nsIFrameDebug
+nsFrame
 :
 :
 PrintDisplayList
@@ -5170,7 +5170,7 @@ n
 "
 )
 ;
-nsIFrameDebug
+nsFrame
 :
 :
 PrintDisplayList
@@ -5945,7 +5945,7 @@ void
 aMovingFrame
 )
 ;
-nsIFrameDebug
+nsFrame
 :
 :
 PrintDisplayList
@@ -6011,7 +6011,7 @@ n
 "
 )
 ;
-nsIFrameDebug
+nsFrame
 :
 :
 PrintDisplayList
