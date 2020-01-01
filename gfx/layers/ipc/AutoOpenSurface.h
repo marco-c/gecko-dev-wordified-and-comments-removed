@@ -58,6 +58,13 @@ gfxASurface
 gfxContentType
 gfxContentType
 ;
+typedef
+gfxASurface
+:
+:
+gfxImageFormat
+gfxImageFormat
+;
 AutoOpenSurface
 (
 OpenMode
@@ -75,6 +82,11 @@ AutoOpenSurface
 ;
 gfxContentType
 ContentType
+(
+)
+;
+gfxImageFormat
+ImageFormat
 (
 )
 ;
