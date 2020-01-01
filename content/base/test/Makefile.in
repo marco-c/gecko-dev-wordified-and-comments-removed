@@ -1245,6 +1245,14 @@ file_CrossSiteXHR_inner
 .
 html
 \
+file_CrossSiteXHR_inner_data
+.
+sjs
+\
+file_CrossSiteXHR_inner
+.
+jar
+\
 file_CrossSiteXHR_server
 .
 sjs
