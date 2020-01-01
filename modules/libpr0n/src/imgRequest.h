@@ -212,9 +212,6 @@ imgCacheEntry
 aCacheEntry
 void
 *
-aCacheId
-void
-*
 aLoadId
 nsIPrincipal
 *
@@ -252,14 +249,6 @@ char
 buf
 PRUint32
 len
-)
-;
-PRBool
-IsReusable
-(
-void
-*
-aCacheId
 )
 ;
 void
@@ -632,10 +621,6 @@ nsRefPtr
 imgCacheEntry
 >
 mCacheEntry
-;
-void
-*
-mCacheId
 ;
 void
 *
