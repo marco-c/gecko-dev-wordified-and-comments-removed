@@ -419,6 +419,11 @@ needScriptGlobal
 :
 1
 ;
+bool
+hasSingletons
+:
+1
+;
 BytecodeEmitter
 (
 Parser
@@ -622,13 +627,9 @@ return
 false
 ;
 }
-sc
--
->
-flags
-|
+hasSingletons
 =
-TCF_HAS_SINGLETONS
+true
 ;
 return
 true
