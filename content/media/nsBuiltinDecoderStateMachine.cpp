@@ -529,10 +529,6 @@ mQuickBuffering
 (
 PR_FALSE
 )
-mEventManager
-(
-aDecoder
-)
 mIsRunning
 (
 PR_FALSE
@@ -548,6 +544,10 @@ PR_FALSE
 mDecodeThreadWaiting
 (
 PR_FALSE
+)
+mEventManager
+(
+aDecoder
 )
 {
 MOZ_COUNT_CTOR
