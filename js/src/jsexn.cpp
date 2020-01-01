@@ -138,6 +138,13 @@ jsstaticcheck
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 using
 namespace
 js
@@ -3437,7 +3444,7 @@ JS_FALSE
 }
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -5014,7 +5021,7 @@ fun
 ;
 proto
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -5675,7 +5682,7 @@ errProto
 ;
 errObject
 =
-js_NewObject
+NewObject
 (
 cx
 &

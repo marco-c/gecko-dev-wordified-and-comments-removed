@@ -192,6 +192,13 @@ h
 "
 #
 endif
+#
+include
+"
+jsobjinlines
+.
+h
+"
 using
 namespace
 js
@@ -1656,7 +1663,7 @@ if
 (
 iterobj
 =
-js_NewObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -1679,7 +1686,7 @@ if
 (
 iterobj
 =
-js_NewObject
+NewObject
 (
 cx
 &
@@ -2922,7 +2929,7 @@ slots
 ;
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &

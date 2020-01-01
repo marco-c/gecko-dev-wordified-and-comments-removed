@@ -131,6 +131,13 @@ jsstr
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 using
 namespace
 js
@@ -10884,7 +10891,7 @@ JSObject
 *
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 &

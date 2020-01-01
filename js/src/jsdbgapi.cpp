@@ -8991,7 +8991,7 @@ obj
 ;
 obj
 =
-js_NewObject
+NewObject
 (
 cx
 clasp
