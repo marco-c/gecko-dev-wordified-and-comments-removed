@@ -861,6 +861,12 @@ Update
 (
 )
 ;
+virtual
+PRBool
+GetShouldAccelerate
+(
+)
+;
 NS_IMETHOD
 SetCursor
 (
