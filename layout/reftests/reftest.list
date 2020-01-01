@@ -862,6 +862,15 @@ reftest
 .
 list
 #
+svg
+/
+include
+svg
+/
+reftest
+.
+list
+#
 text
 -
 indent
