@@ -6534,6 +6534,11 @@ attrs
 return
 JS_FALSE
 ;
+*
+vp
+=
+JSVAL_VOID
+;
 if
 (
 attrs
@@ -6542,11 +6547,6 @@ JSPROP_READONLY
 )
 return
 JS_TRUE
-;
-*
-vp
-=
-JSVAL_VOID
 ;
 if
 (
