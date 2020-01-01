@@ -8385,7 +8385,7 @@ i
 clone
 -
 >
-setExtendedSlot
+initExtendedSlot
 (
 i
 fun
