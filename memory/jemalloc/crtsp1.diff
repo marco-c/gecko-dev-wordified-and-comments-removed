@@ -667,7 +667,7 @@ RETAIL_DLL_NAME
 MOZCRT19
 RETAIL_LIB_NAME
 =
-msvcrt
+mozcrt19
 .
 diff
 -

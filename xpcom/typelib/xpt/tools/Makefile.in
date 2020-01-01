@@ -490,6 +490,9 @@ xpt
 (
 LIB_SUFFIX
 )
+USE_STATIC_LIBS
+=
+1
 include
 (
 topsrcdir

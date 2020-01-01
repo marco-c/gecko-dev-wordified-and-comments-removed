@@ -43,12 +43,6 @@ system
 nmake
 dll_
 mt
-RETAIL_DLL_NAME
-=
-mozcrt19
-RETAIL_LIB_NAME
-=
-msvcrt
 '
 )
 )

@@ -409,6 +409,9 @@ config
 autoconf
 .
 mk
+USE_STATIC_LIBS
+=
+1
 #
 undefine
 (
