@@ -1811,7 +1811,7 @@ Social
 .
 provider
 .
-getWorkerPort
+_getWorkerPort
 (
 )
 ;

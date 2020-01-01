@@ -149,9 +149,7 @@ Social
 .
 provider
 .
-getWorkerPort
-(
-)
+port
 ;
 ok
 (
@@ -249,12 +247,6 @@ is
 hidden
 '
 "
-)
-;
-port
-.
-close
-(
 )
 ;
 next
