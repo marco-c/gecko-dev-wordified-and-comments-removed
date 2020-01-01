@@ -3137,7 +3137,7 @@ endif
 nsDataHashtable
 <
 nsStringHashKey
-nsFrameScriptExecutorJSObjectHolder
+nsFrameJSScriptExecutorHolder
 *
 >
 *
@@ -3188,7 +3188,7 @@ new
 nsDataHashtable
 <
 nsStringHashKey
-nsFrameScriptExecutorJSObjectHolder
+nsFrameJSScriptExecutorHolder
 *
 >
 ;
@@ -3289,7 +3289,7 @@ const
 nsAString
 &
 aKey
-nsFrameScriptExecutorJSObjectHolder
+nsFrameJSScriptExecutorHolder
 *
 &
 aData
@@ -3311,7 +3311,7 @@ JSContext
 aUserArg
 )
 ;
-JS_RemoveObjectRoot
+JS_RemoveScriptRoot
 (
 cx
 &
@@ -3319,7 +3319,7 @@ cx
 aData
 -
 >
-mObject
+mScript
 )
 )
 ;
@@ -3478,7 +3478,7 @@ sCachedScripts
 return
 ;
 }
-nsFrameScriptExecutorJSObjectHolder
+nsFrameJSScriptExecutorHolder
 *
 holder
 =
@@ -3545,7 +3545,7 @@ global
 holder
 -
 >
-mObject
+mScript
 nsnull
 )
 ;
@@ -3848,9 +3848,9 @@ oldopts
 JSOPTION_NO_SCRIPT_RVAL
 )
 ;
-JSObject
+JSScript
 *
-scriptObj
+script
 =
 JS_CompileUCScriptForPrincipals
 (
@@ -3887,7 +3887,7 @@ oldopts
 ;
 if
 (
-scriptObj
+script
 )
 {
 nsCAutoString
@@ -3914,17 +3914,17 @@ data
 )
 )
 {
-nsFrameScriptExecutorJSObjectHolder
+nsFrameJSScriptExecutorHolder
 *
 holder
 =
 new
-nsFrameScriptExecutorJSObjectHolder
+nsFrameJSScriptExecutorHolder
 (
-scriptObj
+script
 )
 ;
-JS_AddNamedObjectRoot
+JS_AddNamedScriptRoot
 (
 mCx
 &
@@ -3932,7 +3932,7 @@ mCx
 holder
 -
 >
-mObject
+mScript
 )
 "
 Cached
@@ -3959,7 +3959,7 @@ JS_ExecuteScript
 (
 mCx
 global
-scriptObj
+script
 nsnull
 )
 ;

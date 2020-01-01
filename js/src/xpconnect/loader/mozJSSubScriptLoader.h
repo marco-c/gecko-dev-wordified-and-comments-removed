@@ -113,10 +113,10 @@ serv
 nsIPrincipal
 *
 principal
-JSObject
+JSScript
 *
 *
-scriptObjp
+scriptp
 )
 ;
 nsCOMPtr

@@ -403,9 +403,9 @@ filename
 return
 false
 ;
-JSObject
+JSScript
 *
-scriptObj
+script
 =
 JS_CompileFile
 (
@@ -421,7 +421,7 @@ ptr
 if
 (
 !
-scriptObj
+script
 |
 |
 !
@@ -429,7 +429,7 @@ JS_ExecuteScript
 (
 cx
 obj
-scriptObj
+script
 &
 result
 )

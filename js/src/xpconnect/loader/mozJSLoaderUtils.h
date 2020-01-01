@@ -50,10 +50,10 @@ uri
 JSContext
 *
 cx
-JSObject
+JSScript
 *
 *
-scriptObj
+script
 )
 ;
 nsresult
@@ -74,9 +74,9 @@ uri
 JSContext
 *
 cx
-JSObject
+JSScript
 *
-scriptObj
+script
 )
 ;
 #
