@@ -467,7 +467,7 @@ aAttributes
 nsAccessibilityAtoms
 :
 :
-cellIndex
+tableCellIndex
 stringIdx
 )
 ;

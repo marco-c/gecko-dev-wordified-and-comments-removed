@@ -1170,8 +1170,10 @@ defaultLabel
 )
 ACCESSIBILITY_ATOM
 (
-cellIndex
+tableCellIndex
 "
+table
+-
 cell
 -
 index
