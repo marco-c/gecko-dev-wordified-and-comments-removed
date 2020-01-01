@@ -764,6 +764,16 @@ try
 if
 (
 allow
+&
+&
+prefs
+.
+prefHasUserValue
+(
+"
+enabled
+"
+)
 )
 {
 prefs

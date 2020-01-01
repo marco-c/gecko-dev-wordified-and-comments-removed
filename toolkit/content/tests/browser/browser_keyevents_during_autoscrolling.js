@@ -518,6 +518,15 @@ onKey
 true
 )
 ;
+if
+(
+prefSvc
+.
+prefHasUserValue
+(
+kPrefName_AutoScroll
+)
+)
 prefSvc
 .
 clearUserPref

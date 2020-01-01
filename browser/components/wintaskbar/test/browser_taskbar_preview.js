@@ -714,6 +714,15 @@ checkPreviews
 1
 )
 ;
+if
+(
+gPrefService
+.
+prefHasUserValue
+(
+ENABLE_PREF_NAME
+)
+)
 gPrefService
 .
 clearUserPref

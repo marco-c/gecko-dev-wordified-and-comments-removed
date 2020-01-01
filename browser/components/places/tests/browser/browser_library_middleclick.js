@@ -1403,6 +1403,15 @@ removeTabsProgressListener
 gTabsListener
 )
 ;
+if
+(
+gPrefService
+.
+prefHasUserValue
+(
+DISABLE_HISTORY_PREF
+)
+)
 gPrefService
 .
 clearUserPref

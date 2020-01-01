@@ -227,6 +227,15 @@ com
 "
 )
 ;
+if
+(
+pbi
+.
+prefHasUserValue
+(
+whitelistPref
+)
+)
 pbi
 .
 clearUserPref

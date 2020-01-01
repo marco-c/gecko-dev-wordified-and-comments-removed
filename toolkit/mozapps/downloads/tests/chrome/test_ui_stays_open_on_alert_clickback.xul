@@ -936,6 +936,8 @@ testObs
 DLMGR_UI_DONE
 )
 ;
+try
+{
 Cc
 [
 "
@@ -971,6 +973,13 @@ closeWhenDone
 "
 )
 ;
+}
+catch
+(
+err
+)
+{
+}
 SimpleTest
 .
 finish

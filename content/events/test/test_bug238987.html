@@ -436,6 +436,8 @@ if
 newValue
 )
 {
+try
+{
 prefs
 .
 clearUserPref
@@ -445,6 +447,13 @@ tabfocus
 "
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 else
 {

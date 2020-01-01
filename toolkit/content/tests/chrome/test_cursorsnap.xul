@@ -737,6 +737,15 @@ true
 ;
 }
 else
+if
+(
+prefSvc
+.
+prefHasUserValue
+(
+kPrefName
+)
+)
 {
 prefSvc
 .

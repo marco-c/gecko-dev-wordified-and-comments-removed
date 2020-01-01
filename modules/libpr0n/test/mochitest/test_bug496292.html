@@ -885,6 +885,8 @@ UniversalXPConnect
 "
 )
 ;
+try
+{
 Cc
 [
 "
@@ -918,6 +920,13 @@ accept
 "
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 var
 remoteCanvas
 =

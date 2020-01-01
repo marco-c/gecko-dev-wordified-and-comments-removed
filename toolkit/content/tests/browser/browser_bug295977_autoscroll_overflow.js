@@ -993,6 +993,15 @@ endTest
 (
 )
 {
+if
+(
+prefSvc
+.
+prefHasUserValue
+(
+kPrefName_AutoScroll
+)
+)
 prefSvc
 .
 clearUserPref

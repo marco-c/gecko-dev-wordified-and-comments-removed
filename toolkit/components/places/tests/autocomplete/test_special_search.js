@@ -1574,6 +1574,17 @@ restrict
 .
 "
 ;
+if
+(
+prefs
+.
+prefHasUserValue
+(
+branch
++
+aType
+)
+)
 prefs
 .
 clearUserPref
