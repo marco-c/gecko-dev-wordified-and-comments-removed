@@ -4662,7 +4662,15 @@ ClearInvalidationStateBits
 ;
 enum
 {
+PAINT_DEFAULT
+=
+0
 PAINT_COMPOSITE_ONLY
+=
+1
+<
+<
+0
 }
 ;
 void
@@ -4671,7 +4679,7 @@ SchedulePaint
 uint32_t
 aFlags
 =
-0
+PAINT_DEFAULT
 )
 ;
 Layer
