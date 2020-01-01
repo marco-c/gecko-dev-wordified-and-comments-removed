@@ -770,6 +770,11 @@ aImage
 )
 ;
 void
+ClearCurrentImage
+(
+)
+;
+void
 SetCurrentImageInTransaction
 (
 Image
