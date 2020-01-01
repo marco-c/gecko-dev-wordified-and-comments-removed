@@ -27,15 +27,8 @@ chrome
 loadBundle
 (
 '
-resource
+chrome
 :
-/
-browserconfig
-.
-properties
-'
-)
-;
 }
 function
 userOnBeforePage

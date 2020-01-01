@@ -24963,8 +24963,13 @@ SBS
 createBundle
 (
 "
-resource
+chrome
 :
+/
+/
+branding
+/
+locale
 /
 browserconfig
 .

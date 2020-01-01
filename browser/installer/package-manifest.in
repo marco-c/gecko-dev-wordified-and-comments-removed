@@ -121,11 +121,6 @@ l10n
 js
 BINPATH
 /
-browserconfig
-.
-properties
-BINPATH
-/
 searchplugins
 /
 *

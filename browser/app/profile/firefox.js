@@ -1357,8 +1357,13 @@ startup
 homepage
 "
 "
-resource
+chrome
 :
+/
+/
+branding
+/
+locale
 /
 browserconfig
 .
