@@ -441,6 +441,9 @@ idl
 (
 NULL
 )
+EXPORTS_NAMESPACES
+=
+mozilla
 EXPORTS
 =
 \
@@ -555,6 +558,16 @@ h
 (
 NULL
 )
+EXPORTS_mozilla
+=
+\
+PaintTracker
+.
+h
+\
+(
+NULL
+)
 CPPSRCS
 =
 \
@@ -659,6 +672,10 @@ nsStyleChangeList
 cpp
 \
 nsStyleSheetService
+.
+cpp
+\
+PaintTracker
 .
 cpp
 \

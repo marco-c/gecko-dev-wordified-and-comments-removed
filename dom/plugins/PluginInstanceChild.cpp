@@ -2426,6 +2426,9 @@ AssertPluginThread
 (
 )
 ;
+PaintTracker
+pt
+;
 NPCocoaEvent
 evcopy
 =
@@ -2777,6 +2780,9 @@ PLUGIN_LOG_DEBUG_FUNCTION
 AssertPluginThread
 (
 )
+;
+PaintTracker
+pt
 ;
 NPCocoaEvent
 evcopy

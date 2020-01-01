@@ -128,6 +128,15 @@ nsTHashtable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+PaintTracker
+.
+h
+"
 namespace
 mozilla
 {
@@ -294,6 +303,9 @@ int16_t
 handled
 )
 {
+PaintTracker
+pt
+;
 return
 AnswerNPP_HandleEvent
 (
