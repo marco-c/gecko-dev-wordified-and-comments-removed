@@ -380,9 +380,6 @@ nsStyleContext
 aStyles
 bool
 aOwnsFactory
-CompressedGlyph
-*
-aGlyphStorage
 )
 :
 gfxTextRun
@@ -392,7 +389,6 @@ aString
 aLength
 aFontGroup
 aFlags
-aGlyphStorage
 )
 mFactory
 (
@@ -412,6 +408,19 @@ mNeedsRebuild
 true
 )
 {
+mCharacterGlyphs
+=
+reinterpret_cast
+<
+CompressedGlyph
+*
+>
+(
+this
++
+1
+)
+;
 PRUint32
 i
 ;
