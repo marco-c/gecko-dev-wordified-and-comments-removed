@@ -407,6 +407,10 @@ cpp
 _TEST_FILES
 =
 \
+test_enums
+.
+html
+\
 test_interfaceToString
 .
 html

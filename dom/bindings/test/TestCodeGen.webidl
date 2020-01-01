@@ -1476,6 +1476,15 @@ receiveEnum
 (
 )
 ;
+attribute
+TestEnum
+enumAttribute
+;
+readonly
+attribute
+TestEnum
+readonlyEnumAttribute
+;
 /
 /
 Callback

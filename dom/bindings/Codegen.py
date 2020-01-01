@@ -9960,6 +9960,10 @@ False
 isOptional
 =
 False
+                                    
+invalidEnumValueFatal
+=
+True
 )
 :
     
@@ -12653,19 +12657,9 @@ n
 "
             
 "
-{
-declName
-}
+int
+index
 =
-static_cast
-<
-%
-(
-enumtype
-)
-s
->
-(
 FindEnumStringIndex
 (
 cx
@@ -12679,7 +12673,6 @@ values
 s
 &
 ok
-)
 )
 ;
 \
@@ -12712,6 +12705,57 @@ n
 "
             
 "
+if
+(
+index
+<
+0
+)
+{
+\
+n
+"
+            
+"
+return
+%
+(
+failureCode
+)
+s
+;
+\
+n
+"
+            
+"
+}
+\
+n
+"
+            
+"
+{
+declName
+}
+=
+static_cast
+<
+%
+(
+enumtype
+)
+s
+>
+(
+index
+)
+;
+\
+n
+"
+            
+"
 }
 "
 %
@@ -12733,6 +12777,27 @@ Values
 :
 :
 strings
+"
+                 
+"
+failureCode
+"
+:
+"
+Throw
+<
+false
+>
+(
+cx
+NS_ERROR_XPC_BAD_CONVERT_JS
+)
+"
+if
+invalidEnumValueFatal
+else
+"
+true
 "
 }
             
@@ -14455,6 +14520,10 @@ index
 argv
 argc
 descriptorProvider
+                 
+invalidEnumValueFatal
+=
+True
 )
 :
         
@@ -14743,6 +14812,12 @@ self
 argcAndIndex
 =
 None
+        
+self
+.
+invalidEnumValueFatal
+=
+invalidEnumValueFatal
     
 def
 define
@@ -14777,6 +14852,12 @@ is
 not
 None
 )
+                                            
+invalidEnumValueFatal
+=
+self
+.
+invalidEnumValueFatal
 )
             
 self
@@ -18047,6 +18128,11 @@ getArgc
 self
 .
 descriptor
+                                             
+invalidEnumValueFatal
+=
+not
+setter
 )
 for
                          
