@@ -1060,7 +1060,7 @@ GetCachedStatement
 "
 INSERT
 OR
-REPLACE
+FAIL
 INTO
 ai_object_data
 (
@@ -1154,7 +1154,7 @@ GetCachedStatement
 "
 INSERT
 OR
-REPLACE
+FAIL
 INTO
 object_data
 (
