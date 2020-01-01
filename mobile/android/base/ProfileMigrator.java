@@ -3624,11 +3624,8 @@ null
 ;
 GeckoAppShell
 .
-loadSQLiteLibs
+ensureSQLiteLibsLoaded
 (
-GeckoApp
-.
-mAppContext
 GeckoApp
 .
 mAppContext
@@ -3757,9 +3754,6 @@ GeckoAppShell
 .
 getCacheDir
 (
-GeckoApp
-.
-mAppContext
 )
 ;
 File

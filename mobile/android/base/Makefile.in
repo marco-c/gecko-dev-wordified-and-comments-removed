@@ -885,10 +885,6 @@ GeckoInputConnection
 .
 java
 \
-GeckoMessageReceiver
-.
-java
-\
 GeckoPreferences
 .
 java
@@ -910,10 +906,6 @@ GlobalHistory
 java
 \
 LinkPreference
-.
-java
-\
-NSSBridge
 .
 java
 \
