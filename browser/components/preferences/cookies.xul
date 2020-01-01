@@ -1769,6 +1769,11 @@ hbox
 >
 <
 resizer
+type
+=
+"
+window
+"
 dir
 =
 "
