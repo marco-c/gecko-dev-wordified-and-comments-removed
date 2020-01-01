@@ -669,12 +669,6 @@ y
 1b
 .
 html
-fails
--
-if
-(
-d2d
-)
 =
 =
 subpixel
@@ -691,11 +685,6 @@ lineheight
 1b
 .
 html
-#
-d2d
-is
-bug
-610330
 =
 =
 swash
