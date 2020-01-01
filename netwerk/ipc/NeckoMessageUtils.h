@@ -218,6 +218,17 @@ about
 :
 "
 )
+|
+|
+scheme
+.
+EqualsASCII
+(
+"
+javascript
+:
+"
+)
 "
 All
 IPDL
