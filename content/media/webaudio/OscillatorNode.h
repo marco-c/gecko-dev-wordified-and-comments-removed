@@ -329,7 +329,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
+NS_ERROR_DOM_INVALID_STATE_ERR
 )
 ;
 return
@@ -478,6 +478,11 @@ aNode
 ;
 void
 SendTypeToStream
+(
+)
+;
+void
+SendPeriodicWaveToStream
 (
 )
 ;
