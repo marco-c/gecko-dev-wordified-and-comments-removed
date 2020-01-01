@@ -10407,6 +10407,14 @@ THROW
 ;
 }
 }
+bool
+usePropCache
+=
+pic
+-
+>
+usePropCache
+;
 Value
 v
 ;
@@ -10442,9 +10450,6 @@ isUndefined
 )
 &
 &
-pic
--
->
 usePropCache
 )
 f

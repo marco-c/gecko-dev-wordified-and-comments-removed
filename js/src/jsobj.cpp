@@ -19332,7 +19332,7 @@ ctorHandler
 )
 ctorHandler
 =
-JS_TypeHandlerMissing
+JS_TypeHandlerDynamic
 ;
 fun
 =
