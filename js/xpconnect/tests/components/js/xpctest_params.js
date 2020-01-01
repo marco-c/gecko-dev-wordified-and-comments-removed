@@ -214,6 +214,12 @@ f_is
 testLongLongArray
 :
 f_is
+testStringArray
+:
+f_is
+testWstringArray
+:
+f_is
 }
 ;
 var
