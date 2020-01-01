@@ -1993,7 +1993,7 @@ gDownloadDNDObserver
 richlistbox
 >
 <
-hbox
+windowdragbox
 id
 =
 "
@@ -2094,7 +2094,7 @@ label
 >
 <
 /
-hbox
+windowdragbox
 >
 <
 /

@@ -4368,6 +4368,11 @@ pack
 "
 center
 "
+mousethrough
+=
+"
+always
+"
 >
 <
 button
