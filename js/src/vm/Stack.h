@@ -6209,13 +6209,6 @@ return
 script_
 ;
 }
-JSObject
-&
-callee
-(
-)
-const
-;
 Value
 calleev
 (
