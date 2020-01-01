@@ -2771,7 +2771,7 @@ NS_ERROR_FAILURE
 ;
 for
 (
-PRUint32
+PRInt32
 i
 =
 0
@@ -2979,7 +2979,7 @@ return
 ;
 for
 (
-PRUint32
+PRInt32
 i
 =
 0
