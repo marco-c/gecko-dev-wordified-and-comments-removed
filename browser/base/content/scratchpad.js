@@ -95,17 +95,17 @@ jsm
 )
 ;
 const
-WORKSPACE_CONTEXT_CONTENT
+SCRATCHPAD_CONTEXT_CONTENT
 =
 1
 ;
 const
-WORKSPACE_CONTEXT_CHROME
+SCRATCHPAD_CONTEXT_CHROME
 =
 2
 ;
 const
-WORKSPACE_WINDOW_URL
+SCRATCHPAD_WINDOW_URL
 =
 "
 chrome
@@ -116,13 +116,13 @@ browser
 /
 content
 /
-workspace
+scratchpad
 .
 xul
 "
 ;
 const
-WORKSPACE_L10N
+SCRATCHPAD_L10N
 =
 "
 chrome
@@ -133,13 +133,13 @@ browser
 /
 locale
 /
-workspace
+scratchpad
 .
 properties
 "
 ;
 const
-WORKSPACE_WINDOW_FEATURES
+SCRATCHPAD_WINDOW_FEATURES
 =
 "
 chrome
@@ -164,12 +164,12 @@ enabled
 "
 ;
 var
-Workspace
+Scratchpad
 =
 {
 executionContext
 :
-WORKSPACE_CONTEXT_CONTENT
+SCRATCHPAD_CONTEXT_CONTENT
 get
 textbox
 (
@@ -179,7 +179,7 @@ document
 getElementById
 (
 "
-workspace
+scratchpad
 -
 textbox
 "
@@ -193,7 +193,7 @@ document
 getElementById
 (
 "
-workspace
+scratchpad
 -
 status
 "
@@ -464,7 +464,7 @@ _chromeSandbox
 deselect
 :
 function
-WS_deselect
+SP_deselect
 (
 )
 {
@@ -484,7 +484,7 @@ selectionStart
 selectRange
 :
 function
-WS_selectRange
+SP_selectRange
 (
 aStart
 aEnd
@@ -510,7 +510,7 @@ aEnd
 evalInContentSandbox
 :
 function
-WS_evalInContentSandbox
+SP_evalInContentSandbox
 (
 aString
 )
@@ -536,7 +536,7 @@ contentSandbox
 8
 "
 "
-Workspace
+Scratchpad
 "
 1
 )
@@ -644,7 +644,7 @@ result
 evalInChromeSandbox
 :
 function
-WS_evalInChromeSandbox
+SP_evalInChromeSandbox
 (
 aString
 )
@@ -670,7 +670,7 @@ chromeSandbox
 8
 "
 "
-Workspace
+Scratchpad
 "
 1
 )
@@ -711,7 +711,7 @@ result
 evalForContext
 :
 function
-WS_evaluateForContext
+SP_evaluateForContext
 (
 aString
 )
@@ -722,7 +722,7 @@ this
 executionContext
 =
 =
-WORKSPACE_CONTEXT_CONTENT
+SCRATCHPAD_CONTEXT_CONTENT
 ?
 this
 .
@@ -742,7 +742,7 @@ aString
 execute
 :
 function
-WS_execute
+SP_execute
 (
 )
 {
@@ -786,7 +786,7 @@ result
 inspect
 :
 function
-WS_inspect
+SP_inspect
 (
 )
 {
@@ -820,7 +820,7 @@ result
 print
 :
 function
-WS_print
+SP_print
 (
 )
 {
@@ -973,7 +973,7 @@ length
 openPropertyPanel
 :
 function
-WS_openPropertyPanel
+SP_openPropertyPanel
 (
 aEvalString
 aOutputObject
@@ -1144,7 +1144,7 @@ setAttribute
 class
 "
 "
-workspace_propertyPanel
+scratchpad_propertyPanel
 "
 )
 ;
@@ -1174,10 +1174,10 @@ return
 propPanel
 ;
 }
-openWorkspace
+openScratchpad
 :
 function
-WS_openWorkspace
+SP_openScratchpad
 (
 )
 {
@@ -1188,11 +1188,11 @@ ww
 openWindow
 (
 null
-WORKSPACE_WINDOW_URL
+SCRATCHPAD_WINDOW_URL
 "
 _blank
 "
-WORKSPACE_WINDOW_FEATURES
+SCRATCHPAD_WINDOW_FEATURES
 null
 )
 ;
@@ -1200,7 +1200,7 @@ null
 exportToFile
 :
 function
-WS_exportToFile
+SP_exportToFile
 (
 aFile
 aNoConfirmation
@@ -1412,7 +1412,7 @@ aStatus
 importFromFile
 :
 function
-WS_importFromFile
+SP_importFromFile
 (
 aFile
 aSilentError
@@ -1541,7 +1541,7 @@ content
 openFile
 :
 function
-WS_openFile
+SP_openFile
 (
 )
 {
@@ -1643,7 +1643,7 @@ file
 saveFile
 :
 function
-WS_saveFile
+SP_saveFile
 (
 )
 {
@@ -1709,7 +1709,7 @@ true
 saveFileAs
 :
 function
-WS_saveFileAs
+SP_saveFileAs
 (
 )
 {
@@ -1763,7 +1763,7 @@ fp
 defaultString
 =
 "
-workspace
+scratchpad
 .
 js
 "
@@ -1812,7 +1812,7 @@ file
 openErrorConsole
 :
 function
-WS_openErrorConsole
+SP_openErrorConsole
 (
 )
 {
@@ -1828,7 +1828,7 @@ toJavaScriptConsole
 openWebConsole
 :
 function
-WS_openWebConsole
+SP_openWebConsole
 (
 )
 {
@@ -1869,7 +1869,7 @@ focus
 setContentContext
 :
 function
-WS_setContentContext
+SP_setContentContext
 (
 )
 {
@@ -1881,7 +1881,7 @@ document
 getElementById
 (
 "
-ws
+sp
 -
 menu
 -
@@ -1894,7 +1894,7 @@ document
 getElementById
 (
 "
-ws
+sp
 -
 menu
 -
@@ -1938,7 +1938,7 @@ this
 .
 executionContext
 =
-WORKSPACE_CONTEXT_CONTENT
+SCRATCHPAD_CONTEXT_CONTENT
 ;
 this
 .
@@ -1950,7 +1950,7 @@ resetContext
 setChromeContext
 :
 function
-WS_setChromeContext
+SP_setChromeContext
 (
 )
 {
@@ -1962,7 +1962,7 @@ document
 getElementById
 (
 "
-ws
+sp
 -
 menu
 -
@@ -1975,7 +1975,7 @@ document
 getElementById
 (
 "
-ws
+sp
 -
 menu
 -
@@ -2019,7 +2019,7 @@ this
 .
 executionContext
 =
-WORKSPACE_CONTEXT_CHROME
+SCRATCHPAD_CONTEXT_CHROME
 ;
 this
 .
@@ -2031,7 +2031,7 @@ resetContext
 resetContext
 :
 function
-WS_resetContext
+SP_resetContext
 (
 )
 {
@@ -2057,7 +2057,7 @@ null
 getWindowId
 :
 function
-HS_getWindowId
+SP_getWindowId
 (
 aWindow
 )
@@ -2085,7 +2085,7 @@ outerWindowID
 onLoad
 :
 function
-HS_onLoad
+SP_onLoad
 (
 )
 {
@@ -2097,7 +2097,7 @@ document
 getElementById
 (
 "
-ws
+sp
 -
 menu
 -
@@ -2113,7 +2113,7 @@ document
 getElementById
 (
 "
-ws
+sp
 -
 menu
 -
@@ -2129,7 +2129,7 @@ document
 getElementById
 (
 "
-ws
+sp
 -
 cmd
 -
@@ -2145,7 +2145,7 @@ document
 getElementById
 (
 "
-ws
+sp
 -
 cmd
 -
@@ -2214,7 +2214,7 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-Workspace
+Scratchpad
 "
 strings
 "
@@ -2229,7 +2229,7 @@ strings
 .
 createBundle
 (
-WORKSPACE_L10N
+SCRATCHPAD_L10N
 )
 ;
 }
@@ -2240,13 +2240,13 @@ addEventListener
 "
 DOMContentLoaded
 "
-Workspace
+Scratchpad
 .
 onLoad
 .
 bind
 (
-Workspace
+Scratchpad
 )
 false
 )

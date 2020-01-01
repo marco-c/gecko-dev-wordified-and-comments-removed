@@ -211,7 +211,7 @@ locale
 /
 browser
 /
-workspace
+scratchpad
 .
 properties
 (
@@ -220,7 +220,7 @@ chrome
 /
 browser
 /
-workspace
+scratchpad
 .
 properties
 )
@@ -228,7 +228,7 @@ locale
 /
 browser
 /
-workspace
+scratchpad
 .
 dtd
 (
@@ -237,7 +237,7 @@ chrome
 /
 browser
 /
-workspace
+scratchpad
 .
 dtd
 )

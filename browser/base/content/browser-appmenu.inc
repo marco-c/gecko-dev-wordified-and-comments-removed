@@ -1555,7 +1555,7 @@ menuitem
 id
 =
 "
-appmenu_workspace
+appmenu_scratchpad
 "
 hidden
 =
@@ -1566,7 +1566,7 @@ label
 =
 "
 &
-workspace
+scratchpad
 .
 label
 ;
@@ -1574,14 +1574,14 @@ label
 key
 =
 "
-key_workspace
+key_scratchpad
 "
 command
 =
 "
 Tools
 :
-Workspace
+Scratchpad
 "
 /
 >

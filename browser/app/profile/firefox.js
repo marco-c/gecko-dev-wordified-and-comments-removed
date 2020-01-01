@@ -9179,7 +9179,7 @@ pref
 "
 devtools
 .
-workspace
+scratchpad
 .
 enabled
 "
