@@ -463,7 +463,7 @@ delete
 ;
 (
 "
-menuitem_clearList
+cmd_clearList
 "
 )
 .
