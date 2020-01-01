@@ -732,10 +732,6 @@ send
 '
         
 '
-share
-'
-        
-'
 start
 '
         
@@ -745,10 +741,6 @@ state
         
 '
 sync
-'
-        
-'
-transfer
 '
         
 '
