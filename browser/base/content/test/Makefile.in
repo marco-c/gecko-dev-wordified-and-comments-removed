@@ -1186,6 +1186,10 @@ browser_tabs_owner
 .
 js
 \
+browser_urlHighlight
+.
+js
+\
 browser_visibleFindSelection
 .
 js
