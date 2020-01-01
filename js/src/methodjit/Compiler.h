@@ -579,6 +579,11 @@ STUB_CALL_TYPE
 JSObjStubFun
 )
 ;
+STUB_CALL_TYPE
+(
+JSObjStubJSObj
+)
+;
 #
 undef
 STUB_CALL_TYPE
