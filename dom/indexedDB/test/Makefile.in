@@ -755,10 +755,6 @@ test_unique_index_update
 .
 html
 \
-test_writer_starvation
-.
-html
-\
 third_party_iframe1
 .
 html
@@ -770,6 +766,16 @@ html
 (
 NULL
 )
+#
+test_writer_starvation
+.
+html
+disabled
+for
+infinite
+loops
+bug
+595368
 ifeq
 (
 browser
