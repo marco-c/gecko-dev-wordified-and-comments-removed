@@ -553,6 +553,10 @@ nsTextAccessible
 .
 cpp
 \
+nsTextUtils
+.
+cpp
+\
 (
 NULL
 )
