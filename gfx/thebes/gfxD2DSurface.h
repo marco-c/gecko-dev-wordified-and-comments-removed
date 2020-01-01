@@ -132,6 +132,14 @@ nsIntRect
 aClip
 )
 ;
+virtual
+const
+gfxIntSize
+GetSize
+(
+)
+const
+;
 ID3D10Texture2D
 *
 GetTexture

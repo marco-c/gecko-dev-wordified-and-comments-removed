@@ -241,14 +241,14 @@ h
 #
 include
 "
-XPCQuickStubs
+nsIParser
 .
 h
 "
 #
 include
 "
-nsIParser
+XPCQuickStubs
 .
 h
 "

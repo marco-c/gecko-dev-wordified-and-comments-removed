@@ -2161,6 +2161,15 @@ sMenuSupportsDrag
 ;
 break
 ;
+case
+eIntID_ScrollbarButtonAutoRepeatBehavior
+:
+aResult
+=
+1
+;
+break
+;
 default
 :
 aResult

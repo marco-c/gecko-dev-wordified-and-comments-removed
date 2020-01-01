@@ -1121,6 +1121,14 @@ nsAString
 aRet
 )
 ;
+nsCOMPtr
+<
+nsIAndroidDrawMetadataProvider
+>
+GetDrawMetadataProvider
+(
+)
+;
 void
 EmitGeckoAccessibilityEvent
 (

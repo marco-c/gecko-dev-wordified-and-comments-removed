@@ -502,13 +502,6 @@ PRInt64
 aNewFolder
 )
 ;
-bool
-IsRealBookmark
-(
-PRInt64
-aPlaceId
-)
-;
 nsresult
 FetchItemInfo
 (

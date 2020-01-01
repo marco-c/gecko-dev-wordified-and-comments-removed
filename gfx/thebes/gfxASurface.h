@@ -477,7 +477,7 @@ gfxIntSize
 }
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 void
 WriteAsPNG
 (

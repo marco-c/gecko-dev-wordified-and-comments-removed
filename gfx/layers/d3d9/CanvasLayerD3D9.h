@@ -181,6 +181,15 @@ IDirect3DTexture9
 >
 mTexture
 ;
+RefPtr
+<
+gfx
+:
+:
+DrawTarget
+>
+mDrawTarget
+;
 PRUint32
 mCanvasFramebuffer
 ;

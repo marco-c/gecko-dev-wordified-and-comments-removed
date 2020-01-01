@@ -502,7 +502,7 @@ extensions
 .
 strictCompatibility
 "
-true
+false
 )
 ;
 pref
@@ -9255,6 +9255,18 @@ pref
 devtools
 .
 scratchpad
+.
+enabled
+"
+true
+)
+;
+pref
+(
+"
+devtools
+.
+styleeditor
 .
 enabled
 "

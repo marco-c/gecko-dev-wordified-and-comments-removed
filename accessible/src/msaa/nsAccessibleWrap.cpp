@@ -1110,11 +1110,9 @@ IsVoid
 (
 )
 )
-{
 return
-S_OK
+S_FALSE
 ;
-}
 *
 pszName
 =
