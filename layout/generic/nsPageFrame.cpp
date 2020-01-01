@@ -1987,7 +1987,7 @@ aY
 aExtraPage
 -
 >
-GetOffsetTo
+GetOffsetToCrossDoc
 (
 aBuilder
 -
@@ -2434,14 +2434,11 @@ child
 BuildDisplayListForStackingContext
 (
 aBuilder
-aDirtyRect
--
 child
 -
 >
-GetOffsetTo
+GetVisualOverflowRectRelativeToSelf
 (
-this
 )
 &
 content
