@@ -24742,6 +24742,9 @@ thebesContext
 >
 SetFlag
 (
+gfxContext
+:
+:
 FLAG_DESTINED_FOR_SCREEN
 )
 ;
