@@ -1241,9 +1241,6 @@ PRPackedBool
 mFireChangeEventState
 ;
 PRPackedBool
-mInSecureKeyboardInputMode
-;
-PRPackedBool
 mUsePlaceholder
 ;
 #
