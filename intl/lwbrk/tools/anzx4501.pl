@@ -4434,6 +4434,16 @@ printarray
 "
 )
 ;
+printarray
+(
+"
+0E
+"
+"
+9
+"
+)
+;
 #
 print
 %
