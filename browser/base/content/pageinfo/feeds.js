@@ -754,7 +754,7 @@ feedListbox
 "
 )
 ;
-openUILink
+openUILinkIn
 (
 listbox
 .
@@ -766,11 +766,14 @@ getAttribute
 feedURL
 "
 )
-null
-false
+"
+current
+"
+{
+ignoreAlt
+:
 true
-false
-null
+}
 )
 ;
 }
