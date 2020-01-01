@@ -252,6 +252,9 @@ mIMEActionHint
 private
 String
 mCurrentInputMethod
+=
+"
+"
 ;
 private
 final
@@ -1945,10 +1948,13 @@ mCurrentInputMethod
 }
 if
 (
-mCurrentInputMethod
 !
-=
+mCurrentInputMethod
+.
+equals
+(
 prevInputMethod
+)
 )
 {
 FormAssistPopup
