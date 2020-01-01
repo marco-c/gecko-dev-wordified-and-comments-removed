@@ -1443,13 +1443,9 @@ _tests
 /
 xpcshell
 /
-all
--
-test
--
-dirs
+xpcshell
 .
-list
+ini
 \
 -
 -

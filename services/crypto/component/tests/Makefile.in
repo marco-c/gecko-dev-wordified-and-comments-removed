@@ -421,7 +421,7 @@ services
 /
 crypto
 /
-components
+component
 /
 tests
 include
