@@ -8,13 +8,6 @@ version
 .
 0
 "
-encoding
-=
-"
-UTF
--
-8
-"
 ?
 >
 <
@@ -226,7 +219,7 @@ flood
 color
 =
 "
-lime
+red
 "
 /
 >
