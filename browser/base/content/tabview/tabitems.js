@@ -1055,6 +1055,15 @@ function
 imageData
 )
 {
+if
+(
+!
+self
+.
+tab
+)
+return
+;
 Utils
 .
 assertThrow
