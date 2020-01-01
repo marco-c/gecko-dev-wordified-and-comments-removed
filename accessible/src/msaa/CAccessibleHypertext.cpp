@@ -78,7 +78,7 @@ if
 hyperAcc
 )
 return
-E_FAIL
+E_NOINTERFACE
 ;
 *
 ppv
