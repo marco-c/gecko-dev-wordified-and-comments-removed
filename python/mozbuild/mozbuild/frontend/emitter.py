@@ -405,6 +405,12 @@ CPPSRCS
 CPP_SOURCES
 '
             
+CPP_UNIT_TESTS
+=
+'
+CPP_UNIT_TESTS
+'
+            
 CSRCS
 =
 '

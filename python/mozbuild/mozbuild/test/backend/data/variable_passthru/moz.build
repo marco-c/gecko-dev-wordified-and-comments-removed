@@ -155,6 +155,15 @@ pp
 js
 '
 ]
+CPP_UNIT_TESTS
+=
+[
+'
+foo
+.
+cpp
+'
+]
 GTEST_C_SOURCES
 =
 [

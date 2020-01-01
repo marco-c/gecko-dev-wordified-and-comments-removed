@@ -1032,6 +1032,16 @@ c
 '
 ]
             
+CPP_UNIT_TESTS
+=
+[
+'
+foo
+.
+cpp
+'
+]
+            
 DEFINES
 =
 [
