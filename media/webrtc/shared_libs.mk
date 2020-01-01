@@ -886,7 +886,7 @@ ARM
 ifeq
 (
 (
-HAVE_ARM_NEON
+BUILD_ARM_NEON
 )
 1
 )
