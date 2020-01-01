@@ -1917,9 +1917,11 @@ stm
 -
 >
 instance
-params
+stm
 -
 >
+params
+.
 stream_type
 stm
 -
@@ -1950,9 +1952,11 @@ stm
 -
 >
 instance
-params
+stm
 -
 >
+params
+.
 stream_type
 stm
 -
