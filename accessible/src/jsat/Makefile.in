@@ -85,17 +85,7 @@ ACCESSFU_FILES
 \
 AccessFu
 .
-css
-\
-AccessFu
-.
 jsm
-\
-content
--
-script
-.
-js
 \
 EventManager
 .
