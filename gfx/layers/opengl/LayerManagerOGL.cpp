@@ -7811,9 +7811,15 @@ return
 nullptr
 ;
 }
-#
-ifdef
-FORCE_BASICTILEDTHEBESLAYER
+if
+(
+ThebesLayer
+:
+:
+UseTiledThebes
+(
+)
+)
 return
 nsRefPtr
 <
@@ -7831,8 +7837,6 @@ forget
 (
 )
 ;
-#
-else
 return
 nsRefPtr
 <
@@ -7850,8 +7854,6 @@ forget
 (
 )
 ;
-#
-endif
 }
 already_AddRefed
 <
