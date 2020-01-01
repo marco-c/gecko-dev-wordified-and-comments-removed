@@ -491,6 +491,10 @@ nsSubDocumentFrame
 .
 h
 \
+nsObjectFrame
+.
+h
+\
 (
 NULL
 )
