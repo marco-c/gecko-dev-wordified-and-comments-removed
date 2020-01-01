@@ -853,6 +853,10 @@ browser_bug887515
 .
 js
 \
+browser_bug896291
+.
+js
+\
 browser_canonizeURL
 .
 js
