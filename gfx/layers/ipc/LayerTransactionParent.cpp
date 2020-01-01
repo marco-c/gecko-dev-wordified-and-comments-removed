@@ -2431,7 +2431,6 @@ compositableParent
 (
 )
 )
-false
 )
 ;
 cast
@@ -2520,7 +2519,6 @@ layerParent
 )
 )
 compositableParent
-true
 )
 ;
 compositableParent
@@ -3057,8 +3055,6 @@ aLayerParent
 CompositableParent
 *
 aCompositable
-bool
-aIsAsyncVideo
 )
 {
 LayerComposite
@@ -3146,22 +3142,6 @@ AsLayer
 (
 )
 compositor
-aIsAsyncVideo
-?
-CompositableHost
-:
-:
-ALLOW_REATTACH
-|
-CompositableHost
-:
-:
-KEEP_ATTACHED
-:
-CompositableHost
-:
-:
-NO_FLAGS
 )
 ;
 }
