@@ -10432,6 +10432,11 @@ rightNode
 )
 )
 {
+*
+aCancel
+=
+true
+;
 return
 NS_OK
 ;
