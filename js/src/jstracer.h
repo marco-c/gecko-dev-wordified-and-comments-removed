@@ -2617,6 +2617,9 @@ bool
 traceOK
 ;
 bool
+unprofitable
+;
+bool
 execOK
 ;
 uintN
@@ -3005,7 +3008,7 @@ JSContext
 *
 cx
 uintN
-depth
+goodOps
 )
 ;
 void
