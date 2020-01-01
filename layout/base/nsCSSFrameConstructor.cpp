@@ -40107,11 +40107,6 @@ firstLetterLength
 =
 0
 ;
-bool
-done
-=
-false
-;
 PRInt32
 i
 n
@@ -40162,10 +40157,6 @@ if
 firstLetterLength
 )
 {
-done
-=
-PR_TRUE
-;
 break
 ;
 }
@@ -40205,10 +40196,6 @@ if
 firstLetterLength
 )
 {
-done
-=
-PR_TRUE
-;
 break
 ;
 }
@@ -40222,10 +40209,6 @@ else
 count
 +
 +
-;
-done
-=
-PR_TRUE
 ;
 break
 ;
