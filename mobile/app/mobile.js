@@ -407,7 +407,7 @@ manager
 .
 showAlertOnComplete
 "
-true
+false
 )
 ;
 pref
@@ -463,7 +463,7 @@ manager
 .
 useWindow
 "
-true
+false
 )
 ;
 pref
