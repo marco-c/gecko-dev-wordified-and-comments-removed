@@ -14,10 +14,6 @@ h
 #
 include
 "
-mozilla
-/
-a11y
-/
 States
 .
 h
@@ -920,12 +916,6 @@ State
 (
 )
 &
-mozilla
-:
-:
-a11y
-:
-:
 states
 :
 :

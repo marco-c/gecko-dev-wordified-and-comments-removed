@@ -148,13 +148,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-a11y
-;
 static
 NS_DEFINE_CID
 (

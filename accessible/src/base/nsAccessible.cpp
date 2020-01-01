@@ -421,13 +421,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-a11y
-;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsAccessible

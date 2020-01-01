@@ -26,13 +26,6 @@ nsDocAccessible
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-a11y
-;
 nsOuterDocAccessible
 :
 :

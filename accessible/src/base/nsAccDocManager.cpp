@@ -124,13 +124,6 @@ nsServiceManagerUtils
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-a11y
-;
 nsDocAccessible
 *
 nsAccDocManager

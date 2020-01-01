@@ -82,13 +82,6 @@ nsNetUtil
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-a11y
-;
 nsXULTextAccessible
 :
 :
