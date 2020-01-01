@@ -1537,6 +1537,7 @@ keyword
 "
 "
 FROM
+FROM
 moz_places
 h
 "
