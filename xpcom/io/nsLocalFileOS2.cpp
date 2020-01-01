@@ -2028,7 +2028,7 @@ PR_TRUE
 )
 {
 }
-NS_METHOD
+nsresult
 nsLocalFile
 :
 :

@@ -8122,7 +8122,7 @@ SHARED_LIBRARY_LIBS
 endif
 else
 echo
-_NSGetModule
+_NSModule
 >
 >
 endif

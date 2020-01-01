@@ -8,7 +8,9 @@ h
 #
 include
 "
-nsIGenericFactory
+mozilla
+/
+ModuleUtils
 .
 h
 "
