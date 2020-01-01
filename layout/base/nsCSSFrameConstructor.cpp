@@ -27569,7 +27569,10 @@ isSingleInsert
 aContainer
 |
 |
+PRUint32
+(
 aEndIndexInContainer
+)
 <
 aContainer
 -
