@@ -993,13 +993,6 @@ gfx
 /
 src
 /
-xlibrgb
-/
-Makefile
-gfx
-/
-src
-/
 windows
 /
 Makefile

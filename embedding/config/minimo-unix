@@ -113,9 +113,6 @@ so
 libgtkembedmoz
 .
 so
-libxlibrgb
-.
-so
 libgfxpsshar
 .
 so
@@ -127,11 +124,6 @@ so
 components
 /
 libgfxps
-.
-so
-components
-/
-libgfxxprint
 .
 so
 components
