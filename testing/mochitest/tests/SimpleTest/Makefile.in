@@ -471,10 +471,6 @@ WindowSnapshot
 .
 js
 \
-PluginUtils
-.
-js
-\
 specialpowersAPI
 .
 js

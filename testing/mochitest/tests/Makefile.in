@@ -510,9 +510,6 @@ bug
 _TEST_FILES
 +
 =
-test_sanityPluginUtils
-.
-html
 \
 test_sanityEventUtils
 .
