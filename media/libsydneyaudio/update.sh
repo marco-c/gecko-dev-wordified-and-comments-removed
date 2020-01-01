@@ -110,3 +110,10 @@ p3
 bug495558_alsa_endian
 .
 patch
+patch
+-
+p3
+<
+bug526411_latency
+.
+patch
