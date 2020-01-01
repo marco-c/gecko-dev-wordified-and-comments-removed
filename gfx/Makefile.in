@@ -415,16 +415,10 @@ DIRS
 =
 cairo
 endif
-ifdef
-MOZ_ENABLE_CAIRO_GFX
 DIRS
 +
 =
 thebes
-endif
-DIRS
-+
-=
 public
 idl
 src
