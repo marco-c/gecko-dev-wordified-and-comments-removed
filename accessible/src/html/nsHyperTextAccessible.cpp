@@ -5475,6 +5475,9 @@ nsIDocShellTreeItem
 >
 docShellTreeItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 mDOMNode

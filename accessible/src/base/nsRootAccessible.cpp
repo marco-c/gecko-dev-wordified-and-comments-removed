@@ -455,6 +455,9 @@ nsIDocShellTreeItem
 >
 docShellAsItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 mDOMNode
@@ -701,6 +704,9 @@ nsIDocShellTreeItem
 >
 treeItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 mDOMNode
@@ -1454,6 +1460,9 @@ nsIDocShellTreeItem
 >
 treeItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 aDocNode
@@ -4252,6 +4261,9 @@ nsIDocShellTreeItem
 >
 treeItem
 =
+nsAccUtils
+:
+:
 GetDocShellTreeItemFor
 (
 mDOMNode
@@ -4353,7 +4365,7 @@ nsIDocShellTreeItem
 >
 docShellTreeItem
 =
-nsAccessNode
+nsAccUtils
 :
 :
 GetDocShellTreeItemFor
