@@ -353,14 +353,6 @@ aDepth
 )
 ;
 NS_IMETHOD
-GetPaletteInfo
-(
-nsPaletteInfo
-&
-aPaletteInfo
-)
-;
-NS_IMETHOD
 ConvertPixel
 (
 nscolor
