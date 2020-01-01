@@ -383,7 +383,7 @@ pop
 (
 )
 ;
-bool
+void
 add
 (
 MInstruction
@@ -391,7 +391,7 @@ MInstruction
 ins
 )
 ;
-bool
+void
 end
 (
 MControlInstruction
@@ -426,7 +426,7 @@ MBasicBlock
 successor
 )
 ;
-bool
+void
 insertBefore
 (
 MInstruction
@@ -437,7 +437,7 @@ MInstruction
 ins
 )
 ;
-bool
+void
 insertAfter
 (
 MInstruction
