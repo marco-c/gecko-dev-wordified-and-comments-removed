@@ -306,6 +306,10 @@ test_bug777098
 .
 html
 \
+test_bug751809
+.
+html
+\
 test_enumerate
 .
 html
