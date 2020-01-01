@@ -10581,6 +10581,12 @@ op
 !
 =
 CAIRO_OPERATOR_ADD
+&
+&
+op
+!
+=
+CAIRO_OPERATOR_CLEAR
 )
 {
 return
