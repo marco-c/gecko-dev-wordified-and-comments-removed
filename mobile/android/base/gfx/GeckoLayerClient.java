@@ -645,6 +645,15 @@ mLayerController
 getViewportMetrics
 (
 )
+mLayerController
+.
+getPanZoomController
+(
+)
+.
+getVelocityVector
+(
+)
 )
 ;
 GeckoAppShell
@@ -810,6 +819,7 @@ mLayerController
 getViewportMetrics
 (
 )
+null
 )
 ;
 }
@@ -912,6 +922,7 @@ DisplayPortCalculator
 calculate
 (
 newMetrics
+null
 )
 ;
 }

@@ -1158,6 +1158,11 @@ DisplayPortCalculator
 aboutToCheckerboard
 (
 mViewportMetrics
+mPanZoomController
+.
+getVelocityVector
+(
+)
 mLayerClient
 .
 getDisplayPort
