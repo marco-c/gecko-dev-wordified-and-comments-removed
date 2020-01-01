@@ -521,6 +521,10 @@ MOZ_UNICHARUTIL_LIBS
 )
 \
 (
+QCMS_LIBS
+)
+\
+(
 NULL
 )
 EXTRA_DSO_LDOPTS
@@ -536,6 +540,7 @@ OS_LIBS
 call
 EXPAND_LIBNAME
 ole32
+oleaut32
 shell32
 comctl32
 comdlg32
