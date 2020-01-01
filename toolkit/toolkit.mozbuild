@@ -541,14 +541,6 @@ media
 libnestegg
 '
 )
-if
-CONFIG
-[
-'
-MOZ_WEBVTT
-'
-]
-:
 add_tier_dir
 (
 '
