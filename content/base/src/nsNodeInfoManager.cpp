@@ -982,7 +982,7 @@ aNodeInfo
 ?
 NS_OK
 :
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 nsresult
@@ -1179,7 +1179,7 @@ aNodeInfo
 ?
 NS_OK
 :
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 already_AddRefed

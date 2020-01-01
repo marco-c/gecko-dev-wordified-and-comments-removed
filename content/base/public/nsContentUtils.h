@@ -1430,7 +1430,7 @@ aResult
 ?
 NS_OK
 :
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 static
@@ -1493,7 +1493,7 @@ aResult
 ?
 NS_OK
 :
-NS_ERROR_FAILURE
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 static
