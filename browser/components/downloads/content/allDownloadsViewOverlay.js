@@ -4802,7 +4802,7 @@ _lastSessionDownloadElement
 =
 shell
 .
-dataItem
+element
 )
 {
 this
@@ -4811,7 +4811,7 @@ _lastSessionDownloadElement
 =
 shell
 .
-dataItem
+element
 .
 previousSibling
 ;
