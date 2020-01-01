@@ -95,7 +95,7 @@ _tabs
 _selectedTab
 :
 null
-_windowUtils
+windowUtils
 :
 window
 .
@@ -284,7 +284,7 @@ px
 ;
 self
 .
-_windowUtils
+windowUtils
 .
 processUpdates
 (
