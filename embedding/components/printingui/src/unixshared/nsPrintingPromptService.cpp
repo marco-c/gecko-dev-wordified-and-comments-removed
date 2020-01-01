@@ -342,6 +342,7 @@ dlgPrint
 >
 Show
 (
+parent
 printSettings
 )
 ;
@@ -682,6 +683,7 @@ dlgPrint
 >
 ShowPageSetup
 (
+parent
 printSettings
 )
 ;

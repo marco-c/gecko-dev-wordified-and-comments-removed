@@ -41,6 +41,9 @@ Init
 NS_IMETHODIMP
 Show
 (
+nsIDOMWindow
+*
+aParent
 nsIPrintSettings
 *
 aSettings
@@ -49,6 +52,9 @@ aSettings
 NS_IMETHODIMP
 ShowPageSetup
 (
+nsIDOMWindow
+*
+aParent
 nsIPrintSettings
 *
 aSettings

@@ -12,6 +12,9 @@ nsISupports
 h
 "
 class
+nsIDOMWindow
+;
+class
 nsIPrintSettings
 ;
 #
@@ -56,6 +59,9 @@ Init
 NS_IMETHOD
 Show
 (
+nsIDOMWindow
+*
+aParent
 nsIPrintSettings
 *
 aSettings
@@ -66,6 +72,9 @@ aSettings
 NS_IMETHOD
 ShowPageSetup
 (
+nsIDOMWindow
+*
+aParent
 nsIPrintSettings
 *
 aSettings

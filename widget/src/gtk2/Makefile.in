@@ -451,6 +451,8 @@ pref
 \
 dom
 \
+docshell
+\
 necko
 \
 uconv
