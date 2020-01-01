@@ -1514,7 +1514,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 RasterImage
 :
 :
@@ -1525,13 +1525,6 @@ nsIntRect
 aRect
 )
 {
-if
-(
-mError
-)
-return
-NS_ERROR_FAILURE
-;
 imgFrame
 *
 curframe
@@ -1544,6 +1537,7 @@ if
 (
 curframe
 )
+{
 aRect
 =
 curframe
@@ -1553,6 +1547,7 @@ GetRect
 (
 )
 ;
+}
 else
 {
 aRect
@@ -1572,9 +1567,6 @@ SizeTo
 )
 ;
 }
-return
-NS_OK
-;
 }
 PRUint32
 RasterImage

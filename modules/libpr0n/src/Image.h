@@ -105,7 +105,7 @@ aFlags
 0
 ;
 virtual
-nsresult
+void
 GetCurrentFrameRect
 (
 nsIntRect
