@@ -413,11 +413,6 @@ GuardClass
 \
 _
 (
-GuardObject
-)
-\
-_
-(
 TypeBarrier
 )
 \
