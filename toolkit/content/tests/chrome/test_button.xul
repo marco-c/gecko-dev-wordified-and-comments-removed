@@ -366,7 +366,7 @@ platform
 startsWith
 (
 "
-Linux
+Mac
 "
 )
 )
@@ -376,7 +376,7 @@ SimpleTest
 expectAssertions
 (
 0
-2
+7
 )
 ;
 }
