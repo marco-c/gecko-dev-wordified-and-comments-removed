@@ -2834,7 +2834,7 @@ public
 js
 :
 :
-Wrapper
+DirectWrapper
 {
 public
 :
@@ -2845,7 +2845,7 @@ nsOuterWindowProxy
 js
 :
 :
-Wrapper
+DirectWrapper
 (
 0
 )
