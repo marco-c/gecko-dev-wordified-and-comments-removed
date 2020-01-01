@@ -7028,8 +7028,11 @@ removeFront
 }
 else
 {
+DebugOnly
+<
 JSObject
 *
+>
 parent
 =
 shape
