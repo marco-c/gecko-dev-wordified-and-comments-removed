@@ -461,6 +461,10 @@ geolocationPrompt
 .
 js
 \
+alertsService
+.
+js
+\
 (
 NULL
 )
