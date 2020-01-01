@@ -1549,7 +1549,7 @@ mFrecency
 bool
 mHidden
 ;
-int32_t
+uint32_t
 mTransitionType
 ;
 }
