@@ -188,7 +188,7 @@ nsIRequestObserver
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 faviconAsyncLoader
 (
 nsIChannel
@@ -644,10 +644,10 @@ mReturnDefaultIcon
 ;
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS_INHERITED1
 (
 faviconAsyncLoader
-mozIStorageStatementCallback
+AsyncStatementCallback
 nsIRequestObserver
 )
 }
