@@ -8,13 +8,13 @@ expected
 '
 [
 object
-Object
+Arguments
 ]
 undefined
 undefined
 [
 object
-Object
+Arguments
 ]
 undefined
 undefined
