@@ -2907,6 +2907,13 @@ BINPATH
 /
 components
 /
+TCPSocketParentIntermediary
+.
+js
+BINPATH
+/
+components
+/
 TCPSocket
 .
 manifest

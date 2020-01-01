@@ -109,6 +109,14 @@ nsIDOMTCPSocket
 .
 idl
 \
+nsITCPSocketParent
+.
+idl
+\
+nsITCPSocketChild
+.
+idl
+\
 nsIDOMDataErrorEvent
 .
 idl

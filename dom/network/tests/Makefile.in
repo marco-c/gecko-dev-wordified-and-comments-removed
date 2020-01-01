@@ -112,6 +112,7 @@ test_dom_socket
 XPCSHELL_TESTS
 =
 unit
+unit_ipc
 include
 (
 topsrcdir

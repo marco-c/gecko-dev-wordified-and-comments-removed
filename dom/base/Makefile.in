@@ -239,6 +239,10 @@ nsIScriptTimeoutHandler
 .
 h
 \
+nsJSUtils
+.
+h
+\
 nsPIDOMWindow
 .
 h
