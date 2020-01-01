@@ -2910,6 +2910,10 @@ if
 currentTooltip
 )
 {
+mCurrentTooltip
+=
+nullptr
+;
 nsCOMPtr
 <
 nsIDocument
@@ -2989,14 +2993,10 @@ true
 )
 ;
 }
-mCurrentTooltip
-=
-nullptr
-;
 currentTooltip
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
