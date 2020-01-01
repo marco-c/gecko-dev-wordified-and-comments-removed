@@ -146,8 +146,9 @@ android
 color
 =
 "
-#
-FFFFFFFF
+color
+/
+text_color_primary_inverse
 "
 /
 >
@@ -174,8 +175,9 @@ android
 color
 =
 "
-#
-FF222222
+color
+/
+text_color_primary
 "
 /
 >
@@ -194,8 +196,9 @@ android
 color
 =
 "
-#
-FF000000
+color
+/
+text_color_primary
 "
 /
 >
