@@ -4463,7 +4463,7 @@ EvictAllContentViewers
 )
 ;
 }
-if
+NS_ASSERTION
 (
 ourFrame
 =
@@ -4485,8 +4485,13 @@ otherContent
 GetPrimaryFrame
 (
 )
+"
+changed
+primary
+frame
+"
 )
-{
+;
 ourFrameFrame
 -
 >
@@ -4495,7 +4500,6 @@ EndSwapDocShells
 otherFrame
 )
 ;
-}
 ourParentDocument
 -
 >
