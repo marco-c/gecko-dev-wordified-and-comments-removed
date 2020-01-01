@@ -144,7 +144,7 @@ close
 setTimeout
 (
 doWrite
-1
+0
 )
 ;
 '

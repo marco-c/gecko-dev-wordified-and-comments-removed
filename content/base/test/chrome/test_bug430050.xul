@@ -427,6 +427,12 @@ UTF
 )
 ;
 }
+setTimeout
+(
+endTest
+0
+)
+;
 }
 true
 )
@@ -443,12 +449,6 @@ foo
 "
 bar
 "
-)
-;
-setTimeout
-(
-endTest
-100
 )
 ;
 }
