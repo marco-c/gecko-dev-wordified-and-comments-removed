@@ -171,6 +171,11 @@ nsIDOMMobileConnection
 idl
 '
 '
+nsIDOMMozEmergencyCbModeEvent
+.
+idl
+'
+'
 nsIDOMNetworkStats
 .
 idl
