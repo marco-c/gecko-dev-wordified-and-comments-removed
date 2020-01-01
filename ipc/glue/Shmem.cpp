@@ -2277,7 +2277,7 @@ size
 +
 sizeof
 (
-size_t
+uint32
 )
 )
 ;
