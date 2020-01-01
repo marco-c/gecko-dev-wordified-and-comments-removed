@@ -298,7 +298,7 @@ return
 mDOMTiming
 -
 >
-TimeStampToDOM
+TimeStampToDOMOrFetchStart
 (
 stamp
 aTime
@@ -348,7 +348,7 @@ return
 mDOMTiming
 -
 >
-TimeStampToDOM
+TimeStampToDOMOrFetchStart
 (
 stamp
 aTime
@@ -398,7 +398,7 @@ return
 mDOMTiming
 -
 >
-TimeStampToDOM
+TimeStampToDOMOrFetchStart
 (
 stamp
 aTime
@@ -448,7 +448,7 @@ return
 mDOMTiming
 -
 >
-TimeStampToDOM
+TimeStampToDOMOrFetchStart
 (
 stamp
 aTime
@@ -498,7 +498,7 @@ return
 mDOMTiming
 -
 >
-TimeStampToDOM
+TimeStampToDOMOrFetchStart
 (
 stamp
 aTime
@@ -592,7 +592,7 @@ return
 mDOMTiming
 -
 >
-TimeStampToDOM
+TimeStampToDOMOrFetchStart
 (
 stamp
 aTime
@@ -686,7 +686,7 @@ return
 mDOMTiming
 -
 >
-TimeStampToDOM
+TimeStampToDOMOrFetchStart
 (
 stamp
 aTime
