@@ -2708,6 +2708,11 @@ panel
 -
 dark
 "
+flex
+=
+"
+1
+"
 >
 <
 richlistbox
@@ -2873,6 +2878,11 @@ class
 panel
 -
 dark
+"
+flex
+=
+"
+1
 "
 >
 <
@@ -3320,6 +3330,11 @@ class
 panel
 -
 dark
+"
+flex
+=
+"
+1
 "
 >
 <
