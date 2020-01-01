@@ -297,7 +297,7 @@ isWrapper
 )
 obj
 =
-UnwrapObject
+UncheckedUnwrap
 (
 obj
 )

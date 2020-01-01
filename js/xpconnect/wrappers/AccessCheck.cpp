@@ -338,7 +338,7 @@ wrapped
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 wrapper
 )
@@ -1721,7 +1721,7 @@ subsumes
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 hallpass
 )

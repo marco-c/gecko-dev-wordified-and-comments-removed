@@ -767,7 +767,7 @@ obj
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 false
@@ -2696,7 +2696,7 @@ scope
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 scope
 false

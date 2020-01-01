@@ -16723,7 +16723,7 @@ wrapped_obj
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 dom_obj
 false
@@ -19288,7 +19288,7 @@ global
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 false
@@ -20454,7 +20454,7 @@ obj
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 obj
 false

@@ -7377,7 +7377,7 @@ parentObj
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 parentObj
 false
@@ -7584,7 +7584,7 @@ realParent
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 parentObj
 )
