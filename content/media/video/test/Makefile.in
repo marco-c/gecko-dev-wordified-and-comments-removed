@@ -493,10 +493,6 @@ test_volume
 .
 html
 \
-use_large_cache
-.
-js
-\
 (
 NULL
 )
