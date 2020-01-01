@@ -239,7 +239,7 @@ N
 <
 !
 ENTITY
-helpTroubleshooting
+helpTroubleshootingInfo
 .
 label
 "
@@ -250,7 +250,7 @@ Information
 <
 !
 ENTITY
-helpTroubleshooting
+helpTroubleshootingInfo
 .
 accesskey
 "
