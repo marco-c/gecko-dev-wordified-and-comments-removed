@@ -18,8 +18,8 @@ mozStorageBackground
 .
 h
 "
-class
-mozStorageStatement
+struct
+sqlite3_stmt
 ;
 class
 mozIStorageStatementCallback
@@ -30,7 +30,7 @@ mozIStoragePendingStatement
 nsresult
 NS_executeAsync
 (
-mozStorageStatement
+sqlite3_stmt
 *
 aStatement
 mozIStorageStatementCallback
