@@ -894,6 +894,16 @@ aFrame
 )
 ;
 static
+nsIFrame
+*
+GetNonGeneratedAncestor
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsBlockFrame
 *
 GetAsBlock
