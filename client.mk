@@ -2492,15 +2492,6 @@ allmakefiles
 sh
 \
 (
-TOPSRCDIR
-)
-/
-.
-mozconfig
-.
-mk
-\
-(
 wildcard
 (
 TOPSRCDIR
