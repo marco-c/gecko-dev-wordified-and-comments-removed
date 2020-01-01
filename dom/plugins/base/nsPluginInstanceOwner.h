@@ -90,14 +90,6 @@ h
 "
 #
 ifdef
-KeyPress
-#
-undef
-KeyPress
-#
-endif
-#
-ifdef
 XP_MACOSX
 #
 include
@@ -181,14 +173,6 @@ os2
 .
 h
 >
-#
-endif
-#
-ifdef
-KeyPress
-#
-undef
-KeyPress
 #
 endif
 class
@@ -323,7 +307,7 @@ changed
 NS_DECL_NSIPLUGINTAGINFO
 NS_DECL_NSIDOMEVENTLISTENER
 nsresult
-MouseDown
+ProcessMouseDown
 (
 nsIDOMEvent
 *
@@ -331,7 +315,7 @@ aKeyEvent
 )
 ;
 nsresult
-KeyPress
+ProcessKeyPress
 (
 nsIDOMEvent
 *
