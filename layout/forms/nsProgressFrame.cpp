@@ -1309,6 +1309,17 @@ GetStyleDisplay
 mOrient
 =
 =
+NS_STYLE_ORIENT_AUTO
+|
+|
+GetStyleDisplay
+(
+)
+-
+>
+mOrient
+=
+=
 NS_STYLE_ORIENT_HORIZONTAL
 )
 {
