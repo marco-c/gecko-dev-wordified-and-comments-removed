@@ -28103,10 +28103,6 @@ if
 (
 !
 mContent
-|
-|
-!
-mContent
 -
 >
 GetParent
