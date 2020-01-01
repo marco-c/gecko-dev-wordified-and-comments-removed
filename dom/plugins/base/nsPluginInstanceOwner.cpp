@@ -1268,7 +1268,7 @@ true
 #
 endif
 bool
-useAsyncRendering
+isOOP
 ;
 bool
 result
@@ -1282,15 +1282,15 @@ NS_SUCCEEDED
 mInstance
 -
 >
-UseAsyncPainting
+GetIsOOP
 (
 &
-useAsyncRendering
+isOOP
 )
 )
 &
 &
-useAsyncRendering
+isOOP
 #
 ifndef
 XP_MACOSX
