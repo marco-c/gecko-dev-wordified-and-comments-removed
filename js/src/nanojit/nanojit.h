@@ -1389,13 +1389,6 @@ Assembler
 h
 "
 #
-include
-"
-TraceTreeDrawer
-.
-h
-"
-#
 endif
 #
 endif
