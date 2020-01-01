@@ -339,6 +339,14 @@ storage
 ]
 )
 ;
+if
+(
+file
+.
+exists
+(
+)
+)
 file
 .
 remove
