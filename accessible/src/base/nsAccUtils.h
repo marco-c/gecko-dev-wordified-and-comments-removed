@@ -365,7 +365,7 @@ aAcc
 aAcc
 -
 >
-GetFinalRole
+GetRole
 (
 &
 role
@@ -375,6 +375,15 @@ return
 role
 ;
 }
+static
+PRUint32
+RoleInternal
+(
+nsIAccessible
+*
+aAcc
+)
+;
 static
 PRUint32
 State

@@ -1047,7 +1047,7 @@ NO
 geckoAccessible
 -
 >
-GetFinalRole
+GetRole
 (
 &
 mRole

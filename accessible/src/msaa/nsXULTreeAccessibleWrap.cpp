@@ -39,11 +39,11 @@ aShell
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsXULTreeAccessibleWrap
 :
 :
-GetRole
+GetRoleInternal
 (
 PRUint32
 *
@@ -145,11 +145,11 @@ aColumn
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsXULTreeitemAccessibleWrap
 :
 :
-GetRole
+GetRoleInternal
 (
 PRUint32
 *

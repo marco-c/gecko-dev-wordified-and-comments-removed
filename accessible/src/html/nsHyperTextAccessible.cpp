@@ -507,11 +507,11 @@ aShell
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsHyperTextAccessible
 :
 :
-GetRole
+GetRoleInternal
 (
 PRUint32
 *
@@ -898,7 +898,7 @@ eChildCountUninitialized
 PRUint32
 role
 ;
-GetRole
+GetRoleInternal
 (
 &
 role

@@ -2814,7 +2814,7 @@ rv
 accWrap
 -
 >
-GetFinalRole
+GetRole
 (
 &
 accRole

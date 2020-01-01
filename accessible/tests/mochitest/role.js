@@ -279,7 +279,7 @@ role
 =
 acc
 .
-finalRole
+role
 ;
 }
 catch

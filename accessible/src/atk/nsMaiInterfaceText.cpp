@@ -196,7 +196,7 @@ accRole
 accWrap
 -
 >
-GetRole
+GetRoleInternal
 (
 &
 accRole
@@ -731,7 +731,7 @@ accRole
 accWrap
 -
 >
-GetRole
+GetRoleInternal
 (
 &
 accRole

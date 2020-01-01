@@ -938,11 +938,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULTreeAccessible
 :
 :
-GetRole
+GetRoleInternal
 (
 PRUint32
 *
@@ -3620,11 +3620,11 @@ mCachedName
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXULTreeitemAccessible
 :
 :
-GetRole
+GetRoleInternal
 (
 PRUint32
 *

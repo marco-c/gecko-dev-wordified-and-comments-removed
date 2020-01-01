@@ -702,11 +702,11 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDocAccessible
 :
 :
-GetRole
+GetRoleInternal
 (
 PRUint32
 *

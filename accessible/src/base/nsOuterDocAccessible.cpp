@@ -72,11 +72,11 @@ aShell
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsOuterDocAccessible
 :
 :
-GetRole
+GetRoleInternal
 (
 PRUint32
 *

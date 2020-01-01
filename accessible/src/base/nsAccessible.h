@@ -348,6 +348,15 @@ aName
 ;
 virtual
 nsresult
+GetRoleInternal
+(
+PRUint32
+*
+aRole
+)
+;
+virtual
+nsresult
 GetStateInternal
 (
 PRUint32
