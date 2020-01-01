@@ -366,6 +366,8 @@ nsStyleCorners
 aRadius
 PRUint8
 aFullCorner
+PRBool
+aIsBorder
 nsIDOMCSSValue
 *
 *
