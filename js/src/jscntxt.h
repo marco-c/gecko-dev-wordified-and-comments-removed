@@ -2903,6 +2903,10 @@ cachedNativeIterators
 NATIVE_ITER_CACHE_SIZE
 ]
 ;
+JSObject
+*
+lastNativeIterator
+;
 jsuword
 *
 nativeStackBase
