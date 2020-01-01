@@ -2144,6 +2144,9 @@ data
 )
 ;
 }
+#
+ifndef
+__GNUC__
 template
 <
 >
@@ -2172,6 +2175,8 @@ asRawBits
 )
 ;
 }
+#
+endif
 }
 typedef
 JS
