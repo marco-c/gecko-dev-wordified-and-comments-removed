@@ -585,7 +585,7 @@ the
 data
 and
 not
-free
+NS_Free
 (
 )
 it
@@ -598,7 +598,7 @@ destructor
 observer
 must
 call
-free
+NS_Free
 (
 )
 when

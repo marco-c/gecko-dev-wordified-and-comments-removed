@@ -26,13 +26,6 @@ nsNetError
 .
 h
 "
-#
-include
-<
-stdlib
-.
-h
->
 nsStreamLoader
 :
 :
@@ -67,9 +60,7 @@ if
 mData
 )
 {
-:
-:
-free
+NS_Free
 (
 mData
 )
@@ -282,9 +273,7 @@ PRUint8
 *
 >
 (
-:
-:
-malloc
+NS_Alloc
 (
 contentLength
 )
@@ -431,7 +420,7 @@ if
 (
 count
 >
-0xffffffffU
+PR_UINT32_MAX
 -
 self
 -
@@ -469,9 +458,7 @@ PRUint8
 *
 >
 (
-:
-:
-realloc
+NS_Realloc
 (
 self
 -
