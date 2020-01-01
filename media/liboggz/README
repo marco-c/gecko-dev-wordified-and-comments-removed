@@ -843,15 +843,6 @@ chop
 )
 Reporting
 :
-codecs
-Display
-the
-codecs
-present
-in
-an
-Ogg
-file
 diff
 Hexdump
 the
