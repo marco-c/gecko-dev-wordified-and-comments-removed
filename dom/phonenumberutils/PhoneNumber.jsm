@@ -975,6 +975,10 @@ value
 this
 .
 internationalFormat
+?
+this
+.
+internationalFormat
 .
 replace
 (
@@ -982,6 +986,8 @@ NON_DIALABLE_CHARS
 "
 "
 )
+:
+null
 ;
 Object
 .
