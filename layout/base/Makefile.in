@@ -174,7 +174,11 @@ nsFrameManagerBase
 .
 h
 \
-nsFrameIterator
+nsFrameTraversal
+.
+h
+\
+nsIFrameTraversal
 .
 h
 \
@@ -306,7 +310,7 @@ nsFrameManager
 .
 cpp
 \
-nsFrameIterator
+nsFrameTraversal
 .
 cpp
 \
