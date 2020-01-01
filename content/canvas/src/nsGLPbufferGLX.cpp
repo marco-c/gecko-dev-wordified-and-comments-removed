@@ -757,6 +757,10 @@ mDisplay
 ;
 if
 (
+!
+s
+|
+|
 strstr
 (
 s
@@ -801,6 +805,10 @@ GLX_EXTENSIONS
 ;
 if
 (
+!
+s
+|
+|
 strstr
 (
 s
