@@ -193,14 +193,6 @@ nsPrivateTextRange
 .
 cpp
 \
-nsXMLEventsManager
-.
-cpp
-\
-nsXMLEventsElement
-.
-cpp
-\
 nsAsyncDOMEvent
 .
 cpp
