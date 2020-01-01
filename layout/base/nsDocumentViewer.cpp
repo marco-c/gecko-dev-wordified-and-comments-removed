@@ -3327,8 +3327,10 @@ mDocument
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+nsCOMPtr
+<
 nsPIDOMWindow
-*
+>
 window
 =
 mDocument
@@ -3479,6 +3481,14 @@ readystate
 "
 )
 ;
+nsCOMPtr
+<
+nsIDocument
+>
+d
+=
+mDocument
+;
 mDocument
 -
 >
@@ -3496,7 +3506,7 @@ nsDOMNavigationTiming
 >
 timing
 (
-mDocument
+d
 -
 >
 GetNavigationTiming
