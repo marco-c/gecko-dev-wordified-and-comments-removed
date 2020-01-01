@@ -318,7 +318,7 @@ JSSTRDEP_LENGTH
 str
 )
 ;
-JSSTRDEP_INIT
+JSSTRDEP_REINIT
 (
 str
 base
@@ -720,7 +720,7 @@ if
 ldep
 )
 {
-JSPREFIX_INIT
+JSPREFIX_REINIT
 (
 ldep
 str
@@ -879,7 +879,7 @@ n
 =
 0
 ;
-JSFLATSTR_INIT
+JSFLATSTR_REINIT
 (
 str
 s
