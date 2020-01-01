@@ -137,6 +137,11 @@ nsIAccessibleCaretMoveEvent
 idl
 '
 '
+nsIAccessibleCursorable
+.
+idl
+'
+'
 nsIAccessibleDocument
 .
 idl
