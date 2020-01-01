@@ -1472,6 +1472,14 @@ if
 (
 winWidget
 )
+fuzzy
+-
+if
+(
+Android
+1
+5
+)
 =
 =
 curved

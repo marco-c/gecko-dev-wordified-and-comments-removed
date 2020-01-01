@@ -69,6 +69,14 @@ if
 (
 gtk2Widget
 )
+fuzzy
+-
+if
+(
+Android
+3
+60
+)
 HTTP
 =
 =
@@ -279,8 +287,8 @@ fuzzy
 if
 (
 Android
-8
-80
+4
+67
 )
 HTTP
 =
@@ -302,8 +310,8 @@ fuzzy
 if
 (
 Android
-12
-100
+4
+11
 )
 HTTP
 =
@@ -327,8 +335,8 @@ fuzzy
 if
 (
 Android
-255
-1200
+251
+722
 )
 HTTP
 =
