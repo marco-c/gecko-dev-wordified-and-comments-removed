@@ -289,7 +289,7 @@ PNG_sPLT_SUPPORTED
 png_sPLT_tp
 splt_palettes
 ;
-png_uint_32
+int
 splt_palettes_num
 ;
 #

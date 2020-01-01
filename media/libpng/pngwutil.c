@@ -1564,9 +1564,6 @@ png_malloc
 (
 png_ptr
 (
-png_alloc_size_t
-)
-(
 comp
 -
 >
@@ -1574,7 +1571,7 @@ max_output_ptr
 *
 png_sizeof
 (
-png_charpp
+png_bytep
 )
 )
 )
@@ -1590,7 +1587,7 @@ old_max
 *
 png_sizeof
 (
-png_charp
+png_bytep
 )
 )
 ;
@@ -1614,9 +1611,6 @@ png_malloc
 (
 png_ptr
 (
-png_alloc_size_t
-)
-(
 comp
 -
 >
@@ -1624,7 +1618,7 @@ max_output_ptr
 *
 png_sizeof
 (
-png_charp
+png_bytep
 )
 )
 )
@@ -1647,9 +1641,6 @@ png_bytep
 png_malloc
 (
 png_ptr
-(
-png_alloc_size_t
-)
 png_ptr
 -
 >
@@ -4301,9 +4292,14 @@ png_write_chunk_header
 (
 png_ptr
 png_fdAT
+(
+png_uint_32
+)
+(
 4
 +
 length
+)
 )
 ;
 png_save_uint_32

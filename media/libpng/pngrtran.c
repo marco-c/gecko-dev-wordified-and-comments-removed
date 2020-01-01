@@ -17212,7 +17212,7 @@ a
 png_ptr
 -
 >
-background_1
+background
 .
 gray
 )
@@ -17673,7 +17673,7 @@ a
 png_ptr
 -
 >
-background_1
+background
 .
 gray
 )
@@ -22279,12 +22279,6 @@ bit_depth
 8
 )
 {
-gray
-=
-gray
-&
-0xff
-;
 sp
 =
 row
