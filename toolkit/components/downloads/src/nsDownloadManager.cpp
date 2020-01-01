@@ -1474,9 +1474,14 @@ rv
 )
 ;
 }
+#
+ifndef
+DEBUG
 case
 DM_SCHEMA_VERSION
 :
+#
+endif
 break
 ;
 case
