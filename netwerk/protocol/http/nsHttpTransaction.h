@@ -552,6 +552,9 @@ mSSLConnectFailed
 PRPackedBool
 mHttpResponseMatched
 ;
+PRPackedBool
+mPreserveStream
+;
 }
 ;
 #
