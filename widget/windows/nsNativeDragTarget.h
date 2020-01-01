@@ -222,6 +222,14 @@ mDragService
 ;
 IDropTargetHelper
 *
+GetDropTargetHelper
+(
+)
+;
+private
+:
+IDropTargetHelper
+*
 mDropTargetHelper
 ;
 }
