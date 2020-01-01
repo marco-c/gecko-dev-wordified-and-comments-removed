@@ -1073,6 +1073,11 @@ SHELL_WRAPPER1
 removeObserver
 jstring
 )
+SHELL_WRAPPER1
+(
+onChangeNetworkLinkStatus
+jstring
+)
 static
 void
 *
@@ -3798,6 +3803,11 @@ callObserver
 GETFUNC
 (
 removeObserver
+)
+;
+GETFUNC
+(
+onChangeNetworkLinkStatus
 )
 ;
 #

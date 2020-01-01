@@ -441,6 +441,10 @@ GeckoAppShell
 .
 java
 \
+GeckoConnectivityReceiver
+.
+java
+\
 GeckoEvent
 .
 java
