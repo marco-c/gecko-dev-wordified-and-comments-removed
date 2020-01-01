@@ -78,6 +78,9 @@ NS_TraceMallocGetStackTrace
 (
 )
 #
+define
+NS_DEADLOCK_DETECTOR_CONSTEXPR
+#
 else
 typedef
 void
@@ -91,12 +94,17 @@ NS_GET_BACKTRACE
 )
 0
 #
+define
+NS_DEADLOCK_DETECTOR_CONSTEXPR
+MOZ_CONSTEXPR
+#
 endif
 callstack_id
 mCallStack
 ;
 public
 :
+NS_DEADLOCK_DETECTOR_CONSTEXPR
 CallStack
 (
 const
@@ -114,6 +122,7 @@ aCallStack
 )
 {
 }
+NS_DEADLOCK_DETECTOR_CONSTEXPR
 CallStack
 (
 const
