@@ -15291,6 +15291,7 @@ endif
 MarkCrossCompartmentSlot
 (
 trc
+obj
 &
 obj
 -
@@ -15322,6 +15323,14 @@ extra0
 "
 )
 ;
+if
+(
+!
+IsCrossCompartmentWrapper
+(
+obj
+)
+)
 MarkSlot
 (
 trc
@@ -15355,6 +15364,7 @@ obj
 MarkCrossCompartmentSlot
 (
 trc
+obj
 &
 GetCall
 (
@@ -16465,6 +16475,14 @@ UndefinedValue
 )
 )
 ;
+if
+(
+!
+IsCrossCompartmentWrapper
+(
+obj
+)
+)
 obj
 -
 >

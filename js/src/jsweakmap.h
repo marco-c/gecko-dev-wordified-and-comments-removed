@@ -454,6 +454,17 @@ entry
 "
 )
 ;
+JS_ASSERT
+(
+gc
+:
+:
+IsMarked
+(
+x
+)
+)
+;
 return
 true
 ;
