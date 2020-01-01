@@ -282,6 +282,17 @@ createAnalyser
 ;
 [
 Creator
+Throws
+]
+MediaStreamAudioSourceNode
+createMediaStreamSource
+(
+MediaStream
+mediaStream
+)
+;
+[
+Creator
 ]
 GainNode
 createGain

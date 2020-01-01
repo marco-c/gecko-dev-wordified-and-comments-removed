@@ -785,6 +785,10 @@ MediaStreamAudioDestinationNode
 .
 webidl
 \
+MediaStreamAudioSourceNode
+.
+webidl
+\
 MediaStreamEvent
 .
 webidl
