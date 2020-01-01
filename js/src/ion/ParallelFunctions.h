@@ -7,9 +7,9 @@ ion_ParallelFunctions_h
 #
 include
 "
-vm
+gc
 /
-ThreadPool
+Heap
 .
 h
 "
@@ -25,9 +25,9 @@ h
 #
 include
 "
-gc
+vm
 /
-Heap
+ThreadPool
 .
 h
 "

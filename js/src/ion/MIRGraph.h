@@ -9,6 +9,15 @@ include
 "
 ion
 /
+FixedList
+.
+h
+"
+#
+include
+"
+ion
+/
 IonAllocPolicy
 .
 h
@@ -18,7 +27,7 @@ include
 "
 ion
 /
-MIRGenerator
+MIR
 .
 h
 "
@@ -27,7 +36,7 @@ include
 "
 ion
 /
-FixedList
+MIRGenerator
 .
 h
 "

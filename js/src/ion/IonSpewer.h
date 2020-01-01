@@ -6,13 +6,6 @@ define
 ion_IonSpewer_h
 #
 include
-<
-stdarg
-.
-h
->
-#
-include
 "
 mozilla
 /
@@ -20,6 +13,13 @@ DebugOnly
 .
 h
 "
+#
+include
+<
+stdarg
+.
+h
+>
 #
 include
 "

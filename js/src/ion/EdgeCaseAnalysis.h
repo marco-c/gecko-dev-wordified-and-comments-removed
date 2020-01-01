@@ -4,6 +4,15 @@ ion_EdgeCaseAnalysis_h
 #
 define
 ion_EdgeCaseAnalysis_h
+#
+include
+"
+ion
+/
+MIRGenerator
+.
+h
+"
 namespace
 js
 {

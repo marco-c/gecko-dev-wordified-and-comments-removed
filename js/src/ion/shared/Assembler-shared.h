@@ -6,13 +6,6 @@ define
 ion_shared_Assembler_shared_h
 #
 include
-<
-limits
-.
-h
->
-#
-include
 "
 mozilla
 /
@@ -29,6 +22,13 @@ PodOperations
 .
 h
 "
+#
+include
+<
+limits
+.
+h
+>
 #
 include
 "

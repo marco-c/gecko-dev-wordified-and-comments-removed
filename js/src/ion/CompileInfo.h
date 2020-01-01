@@ -7,6 +7,13 @@ ion_CompileInfo_h
 #
 include
 "
+jsfun
+.
+h
+"
+#
+include
+"
 ion
 /
 Registers

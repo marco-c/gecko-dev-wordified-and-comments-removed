@@ -10,6 +10,13 @@ h
 #
 include
 "
+jsanalyze
+.
+h
+"
+#
+include
+"
 ion
 /
 IonSpewer
@@ -26,13 +33,6 @@ shared
 BaselineCompiler
 -
 shared
-.
-h
-"
-#
-include
-"
-jsanalyze
 .
 h
 "

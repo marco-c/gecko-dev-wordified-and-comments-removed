@@ -9,7 +9,7 @@ include
 "
 ion
 /
-MoveResolver
+IonMacroAssembler
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 ion
 /
-IonMacroAssembler
+MoveResolver
 .
 h
 "

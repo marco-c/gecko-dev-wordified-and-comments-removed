@@ -7,6 +7,15 @@ ion_shared_IonFrames_x86_shared_h
 #
 include
 "
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
+include
+"
 ion
 /
 shared

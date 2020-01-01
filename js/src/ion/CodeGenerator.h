@@ -5,6 +5,15 @@ ion_CodeGenerator_h
 define
 ion_CodeGenerator_h
 #
+include
+"
+ion
+/
+PerfSpewer
+.
+h
+"
+#
 if
 defined
 (
