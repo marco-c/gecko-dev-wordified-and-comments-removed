@@ -24672,6 +24672,7 @@ JSVAL_TO_STRING
 (
 rval
 )
+JS_FALSE
 )
 ;
 if
