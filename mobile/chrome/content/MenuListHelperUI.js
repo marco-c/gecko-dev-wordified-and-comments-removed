@@ -580,7 +580,7 @@ this
 .
 _popup
 .
-maxWidth
+width
 =
 window
 .
@@ -588,7 +588,7 @@ innerWidth
 *
 0
 .
-75
+8
 ;
 }
 handleEvent
