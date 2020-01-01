@@ -194,6 +194,13 @@ jstracer
 .
 h
 "
+#
+include
+"
+jshashmap
+.
+h
+"
 static
 void
 FreeContext
@@ -3176,7 +3183,10 @@ cx
 busyArrayTable
 )
 {
-JS_HashTableDestroy
+cx
+-
+>
+destroy
 (
 cx
 -
