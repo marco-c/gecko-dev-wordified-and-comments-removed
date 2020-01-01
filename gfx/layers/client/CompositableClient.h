@@ -241,6 +241,7 @@ GetIPDLActor
 )
 const
 ;
+virtual
 void
 SetIPDLActor
 (
