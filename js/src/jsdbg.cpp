@@ -2964,6 +2964,15 @@ true
 }
 if
 (
+obj
+-
+>
+isMarked
+(
+)
+&
+&
+(
 !
 comp
 |
@@ -2977,6 +2986,7 @@ compartment
 =
 =
 comp
+)
 )
 {
 for
