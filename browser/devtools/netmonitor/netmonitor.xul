@@ -2380,6 +2380,11 @@ vbox
 >
 <
 splitter
+id
+=
+"
+splitter
+"
 class
 =
 "
