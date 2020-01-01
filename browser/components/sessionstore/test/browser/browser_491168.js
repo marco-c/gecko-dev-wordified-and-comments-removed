@@ -236,7 +236,7 @@ SSTabRestored
 arguments
 .
 callee
-false
+true
 )
 ;
 is
@@ -301,7 +301,7 @@ SSTabRestored
 arguments
 .
 callee
-false
+true
 )
 ;
 is
