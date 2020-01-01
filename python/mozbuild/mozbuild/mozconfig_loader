@@ -210,8 +210,13 @@ echo
 -
 END_BEFORE_SOURCE
 "
-.
+topsrcdir
+=
 1
+.
+2
+unset
+topsrcdir
 echo
 "
 -
