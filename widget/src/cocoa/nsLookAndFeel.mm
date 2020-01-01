@@ -2460,6 +2460,15 @@ AppleScrollerPagingBehavior
 break
 ;
 case
+eMetric_ChosenMenuItemsShouldBlink
+:
+aMetric
+=
+1
+;
+break
+;
+case
 eMetric_IMERawInputUnderlineStyle
 :
 case

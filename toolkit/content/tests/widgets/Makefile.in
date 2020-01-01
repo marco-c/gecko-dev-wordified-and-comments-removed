@@ -483,6 +483,10 @@ test_deck
 .
 xul
 \
+test_menuitem_blink
+.
+xul
+\
 test_menulist_keynav
 .
 xul

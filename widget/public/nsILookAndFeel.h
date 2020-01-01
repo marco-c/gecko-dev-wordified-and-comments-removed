@@ -193,6 +193,7 @@ eMetric_TreeLazyScrollDelay
 eMetric_TreeScrollDelay
 eMetric_TreeScrollLinesMax
 eMetric_TabFocusModel
+eMetric_ChosenMenuItemsShouldBlink
 eMetric_WindowsDefaultTheme
 eMetric_DWMCompositor
 eMetric_WindowsClassic
