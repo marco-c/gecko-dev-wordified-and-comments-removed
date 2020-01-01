@@ -147,11 +147,6 @@ nsIDOMSVGNumber
 .
 idl
 '
-'
-nsIDOMSVGRect
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

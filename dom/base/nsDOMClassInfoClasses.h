@@ -296,10 +296,6 @@ SVGNumber
 )
 DOMCI_CLASS
 (
-SVGRect
-)
-DOMCI_CLASS
-(
 MozCanvasPrintState
 )
 DOMCI_CLASS
