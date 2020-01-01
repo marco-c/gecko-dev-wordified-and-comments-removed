@@ -17402,14 +17402,6 @@ G
 fi
 ;
 ;
-dnl
-the
-qsort
-routine
-under
-solaris
-is
-faulty
 *
 -
 solaris
