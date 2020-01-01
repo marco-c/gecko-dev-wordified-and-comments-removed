@@ -722,6 +722,14 @@ test_bug408231
 .
 html
 \
+test_bug417760
+.
+html
+\
+file_bug417760
+.
+png
+\
 (
 NULL
 )
