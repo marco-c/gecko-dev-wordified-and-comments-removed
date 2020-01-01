@@ -587,6 +587,11 @@ ParseNode
 *
 statements
 (
+bool
+*
+hasFunctionStmt
+=
+NULL
 )
 ;
 ParseNode
