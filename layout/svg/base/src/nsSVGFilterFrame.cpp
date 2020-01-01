@@ -344,7 +344,6 @@ FILTERUNITS
 .
 GetAnimValue
 (
-filter
 )
 ;
 PRUint16
@@ -363,7 +362,6 @@ PRIMITIVEUNITS
 .
 GetAnimValue
 (
-filter
 )
 ;
 gfxRect

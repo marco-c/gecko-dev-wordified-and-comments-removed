@@ -316,7 +316,6 @@ mPathLength
 .
 GetAnimValue
 (
-this
 )
 ;
 distance

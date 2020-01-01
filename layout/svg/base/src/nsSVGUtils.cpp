@@ -4380,7 +4380,6 @@ aPreserveAspectRatio
 .
 GetAnimValue
 (
-aElement
 )
 .
 GetAlign
@@ -4394,7 +4393,6 @@ aPreserveAspectRatio
 .
 GetAnimValue
 (
-aElement
 )
 .
 GetMeetOrSlice
@@ -7764,19 +7762,6 @@ aUnits
 >
 GetAnimValue
 (
-static_cast
-<
-nsSVGElement
-*
->
-(
-aFrame
--
->
-GetContent
-(
-)
-)
 )
 =
 =

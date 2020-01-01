@@ -1119,7 +1119,6 @@ PATTERNUNITS
 .
 GetAnimValue
 (
-patternElement
 )
 ;
 }
@@ -1158,7 +1157,6 @@ PATTERNCONTENTUNITS
 .
 GetAnimValue
 (
-patternElement
 )
 ;
 }
@@ -2071,7 +2069,6 @@ GetViewBox
 .
 GetAnimValue
 (
-patternElement
 )
 ;
 if
