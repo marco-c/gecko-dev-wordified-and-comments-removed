@@ -2287,7 +2287,11 @@ updateSize
 )
 iQ
 (
-window
+Utils
+.
+getCurrentWindow
+(
+)
 )
 .
 one
