@@ -1140,16 +1140,12 @@ aMetrics
 pushedFrame
 )
 ;
-nsSize
-size
-;
 ll
 -
 >
 EndSpan
 (
 this
-size
 )
 ;
 }

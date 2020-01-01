@@ -173,15 +173,12 @@ nscoord
 aRightEdge
 )
 ;
-void
+nscoord
 EndSpan
 (
 nsIFrame
 *
 aFrame
-nsSize
-&
-aSizeResult
 )
 ;
 PRInt32
