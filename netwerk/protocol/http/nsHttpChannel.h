@@ -577,10 +577,11 @@ RequestIsConditional
 nsresult
 Connect
 (
-bool
-firstTime
-=
-true
+)
+;
+nsresult
+ContinueConnect
+(
 )
 ;
 void
