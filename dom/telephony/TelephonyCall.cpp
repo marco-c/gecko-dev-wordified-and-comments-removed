@@ -56,6 +56,12 @@ mozilla
 :
 dom
 ;
+using
+mozilla
+:
+:
+ErrorResult
+;
 already_AddRefed
 <
 TelephonyCall

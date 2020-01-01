@@ -169,16 +169,6 @@ topsrcdir
 /
 dom
 /
-telephony
-\
--
-I
-(
-topsrcdir
-)
-/
-dom
-/
 wifi
 \
 -
