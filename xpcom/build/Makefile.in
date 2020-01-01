@@ -513,6 +513,10 @@ Omnijar
 .
 cpp
 \
+FileLocation
+.
+cpp
+\
 (
 NULL
 )
@@ -942,6 +946,10 @@ ServiceList
 h
 \
 Omnijar
+.
+h
+\
+FileLocation
 .
 h
 \
