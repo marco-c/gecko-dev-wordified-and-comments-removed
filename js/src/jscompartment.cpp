@@ -1672,6 +1672,14 @@ return
 true
 ;
 }
+#
+if
+defined
+JS_METHODJIT
+&
+&
+defined
+JS_MONOIC
 static
 inline
 bool
@@ -1774,6 +1782,8 @@ pool
 m_destroy
 ;
 }
+#
+endif
 void
 JSCompartment
 :
