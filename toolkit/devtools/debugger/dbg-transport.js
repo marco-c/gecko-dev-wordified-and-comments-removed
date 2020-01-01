@@ -808,6 +808,10 @@ true
 ;
 }
 }
+this
+.
+LocalDebuggerTransport
+=
 function
 LocalDebuggerTransport
 (
