@@ -482,9 +482,14 @@ data
 .
 payload
 =
+json
+.
+decode
+(
 data
 .
 payload
+)
 [
 0
 ]
