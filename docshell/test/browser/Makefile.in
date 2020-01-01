@@ -428,6 +428,14 @@ browser_search_notification
 .
 js
 \
+browser_loadURI
+.
+js
+\
+print_postdata
+.
+sjs
+\
 (
 NULL
 )
