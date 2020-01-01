@@ -9201,12 +9201,12 @@ kRoleOfferer
 TransportLayerDtls
 :
 :
-CLIENT
+SERVER
 :
 TransportLayerDtls
 :
 :
-SERVER
+CLIENT
 )
 ;
 dtls
