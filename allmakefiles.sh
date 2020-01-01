@@ -4219,13 +4219,6 @@ xpfe
 /
 components
 /
-killAll
-/
-Makefile
-xpfe
-/
-components
-/
 build
 /
 Makefile
