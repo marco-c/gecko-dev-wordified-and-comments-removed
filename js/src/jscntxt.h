@@ -6185,10 +6185,7 @@ cx
 namespace
 js
 {
-JS_FRIEND_API
-(
 void
-)
 TriggerOperationCallback
 (
 JSContext
