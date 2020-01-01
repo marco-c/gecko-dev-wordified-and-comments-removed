@@ -330,7 +330,7 @@ css
 const
 minFontSize
 =
-6
+8
 ;
 const
 maxFontSize
@@ -1284,15 +1284,11 @@ group
 gID
 )
 ;
-UI
+Groups
 .
-tabBar
-.
-showOnlyTheseTabs
+setActiveGroup
 (
 group
-.
-_children
 )
 ;
 }
