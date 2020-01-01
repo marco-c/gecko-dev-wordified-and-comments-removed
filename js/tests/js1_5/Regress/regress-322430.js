@@ -57,7 +57,7 @@ strict
 options
 (
 '
-werrror
+werror
 '
 )
 ;
