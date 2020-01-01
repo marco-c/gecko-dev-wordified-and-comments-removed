@@ -236,7 +236,13 @@ x
 \
 n
 "
+static_cast
+<
+uint32_t
+>
+(
 status
+)
 )
 ;
 QuitPumpingEvents
@@ -563,7 +569,13 @@ x
 \
 n
 "
+static_cast
+<
+uint32_t
+>
+(
 rv
+)
 )
 ;
 NS_ShutdownXPCOM
