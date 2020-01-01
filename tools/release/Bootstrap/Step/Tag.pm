@@ -64,7 +64,6 @@ Util
 qw
 (
 CvsCatfile
-GetDiffFileList
 )
 ;
 use

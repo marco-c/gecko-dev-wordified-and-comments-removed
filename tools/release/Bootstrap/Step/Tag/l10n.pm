@@ -86,6 +86,7 @@ Util
 qw
 (
 CvsCatfile
+GetDiffFileList
 )
 ;
 use
@@ -967,9 +968,6 @@ rc
 my
 diffFileList
 =
-this
--
->
 GetDiffFileList
 (
 cvsDir

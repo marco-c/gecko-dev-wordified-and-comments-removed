@@ -58,6 +58,16 @@ use
 Bootstrap
 :
 :
+Util
+qw
+(
+GetDiffFileList
+)
+;
+use
+Bootstrap
+:
+:
 Config
 ;
 use
@@ -371,9 +381,6 @@ rc
 my
 diffFileList
 =
-this
--
->
 GetDiffFileList
 (
 cvsDir
