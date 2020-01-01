@@ -49,9 +49,6 @@ nsHTMLVideoElement
 class
 nsIImageLoadingContent
 ;
-class
-nsHTMLImageElement
-;
 #
 include
 "
@@ -176,6 +173,9 @@ dom
 {
 class
 Element
+;
+class
+HTMLImageElement
 ;
 }
 }
@@ -2741,7 +2741,13 @@ static
 SurfaceFromElementResult
 SurfaceFromElement
 (
-nsHTMLImageElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLImageElement
 *
 aElement
 uint32_t

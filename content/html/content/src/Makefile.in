@@ -158,6 +158,10 @@ HTMLHeadingElement
 .
 h
 \
+HTMLImageElement
+.
+h
+\
 HTMLLabelElement
 .
 h
@@ -268,7 +272,7 @@ nsHTMLIFrameElement
 .
 cpp
 \
-nsHTMLImageElement
+HTMLImageElement
 .
 cpp
 \

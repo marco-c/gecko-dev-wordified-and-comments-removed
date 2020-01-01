@@ -573,7 +573,11 @@ h
 #
 include
 "
-nsHTMLImageElement
+mozilla
+/
+dom
+/
+HTMLImageElement
 .
 h
 "
@@ -13571,7 +13575,7 @@ IsHTMLImageElement
 )
 )
 {
-nsHTMLImageElement
+HTMLImageElement
 *
 img
 =

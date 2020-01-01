@@ -35,7 +35,11 @@ h
 #
 include
 "
-nsHTMLImageElement
+mozilla
+/
+dom
+/
+HTMLImageElement
 .
 h
 "
@@ -980,7 +984,13 @@ nsHTMLFormElement
 DEFINE_UNWRAP_CAST_HTML
 (
 img
-nsHTMLImageElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLImageElement
 )
 DEFINE_UNWRAP_CAST_HTML
 (
