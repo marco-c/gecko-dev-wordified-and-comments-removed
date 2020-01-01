@@ -368,6 +368,14 @@ index
 ;
 }
 .
+titlebar
+{
+position
+:
+absolute
+;
+}
+.
 title
 -
 shield
