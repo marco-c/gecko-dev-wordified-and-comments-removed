@@ -799,12 +799,6 @@ case
 roles
 :
 :
-LABEL
-:
-case
-roles
-:
-:
 CAPTION
 :
 case

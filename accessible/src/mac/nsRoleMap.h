@@ -110,7 +110,7 @@ NSAccessibilityUnknownRole
 NSAccessibilityGroupRole
 NSAccessibilityUnknownRole
 NSAccessibilityImageRole
-NSAccessibilityStaticTextRole
+NSAccessibilityGroupRole
 NSAccessibilityGroupRole
 NSAccessibilityGroupRole
 NSAccessibilityTextFieldRole
