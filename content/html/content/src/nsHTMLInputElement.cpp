@@ -7187,6 +7187,14 @@ NS_FORM_INPUT_TEXT
 if
 (
 newType
+!
+=
+mType
+)
+{
+if
+(
+newType
 =
 =
 NS_FORM_INPUT_FILE
@@ -7230,6 +7238,7 @@ mType
 =
 newType
 ;
+}
 return
 success
 ;
