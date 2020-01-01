@@ -482,6 +482,12 @@ if
 (
 !
 screenInfo
+|
+|
+numScreens
+=
+=
+1
 )
 {
 nsRefPtr
