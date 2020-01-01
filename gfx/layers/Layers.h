@@ -135,8 +135,13 @@ prlog
 h
 "
 #
+ifndef
+MOZ_LAYERS_HAVE_LOG
+#
 define
 MOZ_LAYERS_HAVE_LOG
+#
+endif
 #
 define
 MOZ_LAYERS_LOG
