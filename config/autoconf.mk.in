@@ -821,6 +821,9 @@ JAR
 TAR
 =
 TAR
+MAKENSIS
+=
+MAKENSIS
 RM
 =
 rm
