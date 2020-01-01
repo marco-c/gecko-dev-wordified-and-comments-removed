@@ -827,6 +827,12 @@ clipSiblings
 =
 PR_TRUE
 ;
+widgetData
+.
+mPopupHint
+=
+mPopupType
+;
 PRBool
 viewHasTransparentContent
 =

@@ -96,17 +96,6 @@ class
 nsIDocShellTreeItem
 ;
 enum
-nsPopupType
-{
-ePopupTypePanel
-ePopupTypeMenu
-ePopupTypeTooltip
-ePopupTypeAny
-=
-0xF000
-}
-;
-enum
 CloseMenuMode
 {
 CloseMenuMode_Auto
