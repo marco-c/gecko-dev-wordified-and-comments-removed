@@ -1287,7 +1287,7 @@ container
 dir
 =
 "
-ltr
+normal
 "
 ;
 anchorClass
@@ -1418,7 +1418,7 @@ container
 dir
 =
 "
-reverse
+rtl
 "
 ;
 anchorClass
