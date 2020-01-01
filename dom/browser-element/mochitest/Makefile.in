@@ -582,6 +582,14 @@ test_browserElement_inproc_RemoveBrowserElement
 .
 html
 \
+browserElement_DOMRequestError
+.
+js
+\
+test_browserElement_inproc_DOMRequestError
+.
+html
+\
 (
 NULL
 )
@@ -864,6 +872,10 @@ test_browserElement_oop_Auth
 html
 \
 test_browserElement_oop_RemoveBrowserElement
+.
+html
+\
+test_browserElement_oop_DOMRequestError
 .
 html
 \
