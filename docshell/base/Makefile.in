@@ -614,6 +614,10 @@ nsIURIClassifier
 .
 idl
 \
+nsIDownloadHistory
+.
+idl
+\
 (
 NULL
 )
@@ -670,6 +674,10 @@ nsWebNavigationInfo
 cpp
 \
 nsAboutRedirector
+.
+cpp
+\
+nsDownloadHistory
 .
 cpp
 \
