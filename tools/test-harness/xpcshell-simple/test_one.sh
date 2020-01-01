@@ -468,7 +468,6 @@ null
 Make
 assertions
 fatal
-export
 XPCOM_DEBUG_BREAK
 =
 stack
@@ -476,6 +475,9 @@ stack
 and
 -
 abort
+;
+export
+XPCOM_DEBUG_BREAK
 exit_status
 =
 0
