@@ -4177,6 +4177,11 @@ if
 mDocument
 )
 {
+PRBool
+isAlreadySuppressed
+=
+PR_FALSE
+;
 if
 (
 gLastFocusedDocument
@@ -4203,11 +4208,6 @@ nsCOMPtr
 nsIFocusController
 >
 focusController
-;
-PRBool
-isAlreadySuppressed
-=
-PR_FALSE
 ;
 if
 (
@@ -4470,6 +4470,10 @@ GetWindow
 if
 (
 window
+&
+&
+!
+isAlreadySuppressed
 )
 {
 nsCOMPtr
