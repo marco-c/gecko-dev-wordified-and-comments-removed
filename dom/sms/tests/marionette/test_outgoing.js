@@ -41,6 +41,14 @@ true
 document
 )
 ;
+const
+SENDER
+=
+"
++
+15555215554
+"
+;
 let
 sms
 =
@@ -346,7 +354,7 @@ is
 message
 .
 sender
-null
+SENDER
 "
 message
 .

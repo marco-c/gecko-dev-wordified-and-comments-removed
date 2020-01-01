@@ -156,6 +156,12 @@ function
 event
 )
 {
+sms
+.
+onsent
+=
+null
+;
 log
 (
 "
@@ -900,12 +906,6 @@ cleanUp
 (
 )
 {
-sms
-.
-onsent
-=
-null
-;
 SpecialPowers
 .
 removePermission
