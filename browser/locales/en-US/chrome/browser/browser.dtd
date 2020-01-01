@@ -1653,6 +1653,16 @@ History
 <
 !
 ENTITY
+showAllHistoryCmd
+.
+commandkey
+"
+H
+"
+>
+<
+!
+ENTITY
 openCmd
 .
 commandkey
