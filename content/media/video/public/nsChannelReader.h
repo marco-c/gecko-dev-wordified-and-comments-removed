@@ -106,6 +106,16 @@ PlaybackRate
 (
 )
 ;
+void
+Suspend
+(
+)
+;
+void
+Resume
+(
+)
+;
 nsIPrincipal
 *
 GetCurrentPrincipal
