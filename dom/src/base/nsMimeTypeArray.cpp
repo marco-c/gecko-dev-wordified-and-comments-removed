@@ -170,6 +170,9 @@ NS_ASSERTION
 mPluginMimeTypeCount
 <
 =
+(
+PRUint32
+)
 mMimeTypeArray
 .
 Count
@@ -252,6 +255,9 @@ NS_ASSERTION
 mPluginMimeTypeCount
 <
 =
+(
+PRUint32
+)
 mMimeTypeArray
 .
 Count
@@ -390,6 +396,9 @@ NS_ASSERTION
 mPluginMimeTypeCount
 <
 =
+(
+PRUint32
+)
 mMimeTypeArray
 .
 Count
