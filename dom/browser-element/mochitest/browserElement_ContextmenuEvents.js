@@ -164,6 +164,11 @@ inner
 link
 '
 )
+.
+childNodes
+[
+0
+]
 )
 ;
 content
