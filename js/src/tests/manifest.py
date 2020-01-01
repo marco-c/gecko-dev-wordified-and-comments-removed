@@ -607,6 +607,10 @@ parse
 (
 filename
 xul_tester
+reldir
+=
+'
+'
 )
 :
     
@@ -711,6 +715,32 @@ include
 '
 :
             
+include_file
+=
+parts
+[
+1
+]
+            
+include_reldir
+=
+os
+.
+path
+.
+join
+(
+reldir
+os
+.
+path
+.
+dirname
+(
+include_file
+)
+)
+            
 ans
 +
 =
@@ -723,12 +753,10 @@ path
 join
 (
 dir
-parts
-[
-1
-]
+include_file
 )
 xul_tester
+include_reldir
 )
         
 elif
@@ -1082,7 +1110,7 @@ path
 .
 join
 (
-dir
+reldir
 script
 )
                                 
