@@ -1040,11 +1040,6 @@ id
 "
 downloadsSummaryDescription
 "
-class
-=
-"
-downloadTarget
-"
 style
 =
 "
@@ -1095,11 +1090,6 @@ id
 =
 "
 downloadsSummaryDetails
-"
-class
-=
-"
-downloadDetails
 "
 style
 =
