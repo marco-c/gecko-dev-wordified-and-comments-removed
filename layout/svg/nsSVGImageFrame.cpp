@@ -2316,7 +2316,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_REQUEST
+LOAD_COMPLETE
 )
 {
 nsSVGUtils
@@ -2336,7 +2336,7 @@ aType
 imgINotificationObserver
 :
 :
-FRAME_CHANGED
+FRAME_UPDATE
 )
 {
 nsSVGEffects
@@ -2364,7 +2364,7 @@ aType
 imgINotificationObserver
 :
 :
-START_CONTAINER
+SIZE_AVAILABLE
 )
 {
 aRequest

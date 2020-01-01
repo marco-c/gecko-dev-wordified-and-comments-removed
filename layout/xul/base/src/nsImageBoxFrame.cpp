@@ -2753,7 +2753,7 @@ aType
 imgINotificationObserver
 :
 :
-START_CONTAINER
+SIZE_AVAILABLE
 )
 {
 nsCOMPtr
@@ -2789,7 +2789,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_DECODE
+DECODE_COMPLETE
 )
 {
 return
@@ -2807,7 +2807,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_REQUEST
+LOAD_COMPLETE
 )
 {
 uint32_t
@@ -2870,7 +2870,7 @@ aType
 imgINotificationObserver
 :
 :
-FRAME_CHANGED
+FRAME_UPDATE
 )
 {
 return

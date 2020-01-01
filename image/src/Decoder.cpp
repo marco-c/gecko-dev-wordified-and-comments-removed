@@ -775,17 +775,6 @@ s
 "
 )
 ;
-if
-(
-mObserver
-)
-mObserver
--
->
-OnStartFrame
-(
-)
-;
 }
 void
 Decoder

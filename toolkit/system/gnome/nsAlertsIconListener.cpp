@@ -543,7 +543,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_REQUEST
+LOAD_COMPLETE
 )
 {
 return
@@ -561,7 +561,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_FRAME
+FRAME_COMPLETE
 )
 {
 return

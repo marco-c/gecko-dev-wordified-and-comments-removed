@@ -117,7 +117,7 @@ aType
 imgINotificationObserver
 :
 :
-START_CONTAINER
+SIZE_AVAILABLE
 )
 {
 aRequest
@@ -136,16 +136,7 @@ aType
 imgINotificationObserver
 :
 :
-DATA_AVAILABLE
-|
-|
-aType
-=
-=
-imgINotificationObserver
-:
-:
-FRAME_CHANGED
+FRAME_UPDATE
 )
 {
 Invalidate

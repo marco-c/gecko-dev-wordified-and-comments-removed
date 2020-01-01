@@ -585,7 +585,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_REQUEST
+LOAD_COMPLETE
 )
 {
 NS_ABORT_IF_FALSE
@@ -628,17 +628,6 @@ IsCallerChrome
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-if
-(
-aType
-!
-=
-imgINotificationObserver
-:
-:
-FRAME_CHANGED
-)
-{
 LOOP_OVER_OBSERVERS
 (
 Notify
@@ -649,7 +638,6 @@ aData
 )
 )
 ;
-}
 if
 (
 aType
@@ -658,7 +646,7 @@ aType
 imgINotificationObserver
 :
 :
-START_CONTAINER
+SIZE_AVAILABLE
 )
 {
 UpdateImageState
@@ -675,7 +663,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_REQUEST
+LOAD_COMPLETE
 )
 {
 uint32_t
