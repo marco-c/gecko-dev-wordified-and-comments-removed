@@ -465,10 +465,6 @@ state
 __FUNCTION__
 )
 ;
-Cleanup
-(
-)
-;
 MOZ_ASSERT
 (
 PR_FALSE
@@ -478,10 +474,6 @@ PR_FALSE
 }
 else
 {
-Cleanup
-(
-)
-;
 NS_NOTREACHED
 (
 "
