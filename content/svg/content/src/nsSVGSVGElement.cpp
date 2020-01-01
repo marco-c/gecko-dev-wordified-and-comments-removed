@@ -3371,6 +3371,10 @@ Begin
 (
 )
 ;
+AnimationNeedsResample
+(
+)
+;
 }
 }
 return
