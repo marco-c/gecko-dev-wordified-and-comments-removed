@@ -3464,7 +3464,7 @@ rv
 statement
 -
 >
-BindBlobParameter
+BindBlobByIndex
 (
 0
 rec
@@ -3481,7 +3481,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 1
 rec
@@ -3495,7 +3495,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 2
 rec
@@ -3509,7 +3509,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 3
 rec
@@ -3523,7 +3523,7 @@ rv
 statement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 4
 rec
@@ -3537,7 +3537,7 @@ rv
 statement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 5
 rec
@@ -3551,7 +3551,7 @@ rv
 statement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 6
 rec
@@ -3565,7 +3565,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 7
 nsDependentCString
@@ -3580,7 +3580,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 8
 nsDependentCString
@@ -3691,7 +3691,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 newSize
@@ -3703,7 +3703,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 nsDependentCString
@@ -3718,7 +3718,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 2
 nsDependentCString
@@ -3853,7 +3853,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 nsDependentCString
@@ -3868,7 +3868,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 nsDependentCString
@@ -6018,7 +6018,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 nsDependentCString
@@ -6033,7 +6033,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 nsDependentCString
@@ -6338,7 +6338,7 @@ rv
 updateStatement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 rec
@@ -6352,7 +6352,7 @@ rv
 updateStatement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 nsDependentCString
@@ -6367,7 +6367,7 @@ rv
 updateStatement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 2
 nsDependentCString
@@ -6738,7 +6738,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 nsDependentCString
@@ -6755,7 +6755,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 nsDependentCString
@@ -6772,7 +6772,7 @@ rv
 statement
 -
 >
-BindBlobParameter
+BindBlobByIndex
 (
 2
 rec
@@ -6789,7 +6789,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 3
 rec
@@ -6803,7 +6803,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 4
 rec
@@ -6817,7 +6817,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 5
 rec
@@ -6831,7 +6831,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 6
 rec
@@ -6845,7 +6845,7 @@ rv
 statement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 7
 rec
@@ -6859,7 +6859,7 @@ rv
 statement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 8
 rec
@@ -6873,7 +6873,7 @@ rv
 statement
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 9
 rec
@@ -8043,7 +8043,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 nsDependentCString
@@ -8160,7 +8160,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 nsDependentCString
@@ -8298,7 +8298,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 typeBits
@@ -8315,7 +8315,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 clientID
@@ -8332,7 +8332,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 2
 key
@@ -8435,7 +8435,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 typeBits
@@ -8452,7 +8452,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 clientID
@@ -8469,7 +8469,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 2
 key
@@ -8514,7 +8514,7 @@ rv
 cleanupStatement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 clientID
@@ -8531,7 +8531,7 @@ rv
 cleanupStatement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 key
@@ -8639,7 +8639,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 clientID
@@ -8656,7 +8656,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 key
@@ -8956,7 +8956,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 clientID
@@ -8973,7 +8973,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 key
@@ -9092,7 +9092,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 clientID
@@ -9109,7 +9109,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 1
 typeBits
@@ -9265,7 +9265,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 clientID
@@ -9282,7 +9282,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 namespaceSpec
@@ -9299,7 +9299,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 2
 data
@@ -9316,7 +9316,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 3
 itemType
@@ -9407,7 +9407,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 clientID
@@ -10054,7 +10054,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 group
@@ -10261,7 +10261,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 key
@@ -10399,7 +10399,7 @@ rv
 nsstatement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 key
@@ -10605,7 +10605,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 group
@@ -10622,7 +10622,7 @@ rv
 statement
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 clientID
@@ -10639,7 +10639,7 @@ rv
 statement
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 2
 SecondsFromPRTime
