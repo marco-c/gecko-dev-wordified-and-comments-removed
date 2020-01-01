@@ -1213,6 +1213,16 @@ shutdownDuration
 SHUTDOWN_TIME
 )
 ;
+do_check_eq
+(
+payload
+.
+simpleMeasurements
+.
+savedPings
+1
+)
+;
 var
 isWindows
 =
