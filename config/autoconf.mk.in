@@ -422,6 +422,9 @@ target
 ac_configure_args
 =
 ac_configure_args
+BUILD_MODULES
+=
+BUILD_MODULES
 MOZILLA_VERSION
 =
 MOZILLA_VERSION
@@ -2073,12 +2076,9 @@ CRT
 building
 ifdef
 MOZ_MEMORY
-ifdef
-WIN32_CRT_SRC_DIR
 DLLFLAGS
 =
 DLLFLAGS
-endif
 endif
 #
 Codesighs
