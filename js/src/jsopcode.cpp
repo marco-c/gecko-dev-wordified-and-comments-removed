@@ -26985,11 +26985,6 @@ spindex
 JSDVG_SEARCH_STACK
 )
 ;
-LeaveTrace
-(
-cx
-)
-;
 if
 (
 !

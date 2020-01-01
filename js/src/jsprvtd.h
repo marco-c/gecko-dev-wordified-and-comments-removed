@@ -248,12 +248,6 @@ class
 StringBuffer
 ;
 class
-TraceRecorder
-;
-struct
-TraceMonitor
-;
-class
 FrameRegs
 ;
 class

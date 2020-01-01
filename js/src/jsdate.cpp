@@ -9933,11 +9933,6 @@ return
 false
 ;
 }
-LeaveTrace
-(
-cx
-)
-;
 InvokeArgsGuard
 args
 ;

@@ -2001,11 +2001,6 @@ frame
 return
 false
 ;
-LeaveTrace
-(
-context
-)
-;
 JS_ASSERT
 (
 context
@@ -2150,11 +2145,6 @@ origin
 destination
 )
 {
-LeaveTrace
-(
-context
-)
-;
 JSObject
 *
 scopeChain

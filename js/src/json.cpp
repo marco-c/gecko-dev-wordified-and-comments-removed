@@ -1717,11 +1717,6 @@ return
 false
 ;
 }
-LeaveTrace
-(
-cx
-)
-;
 InvokeArgsGuard
 args
 ;
@@ -4004,11 +3999,6 @@ key
 )
 return
 false
-;
-LeaveTrace
-(
-cx
-)
 ;
 InvokeArgsGuard
 args

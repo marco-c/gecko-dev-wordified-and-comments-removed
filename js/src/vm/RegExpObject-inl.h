@@ -1510,12 +1510,6 @@ return
 cx
 -
 >
-traceJitEnabled
-|
-|
-cx
--
->
 methodJitEnabled
 ;
 #

@@ -2919,11 +2919,6 @@ InvokeArgsGuard
 iag
 )
 {
-LeaveTrace
-(
-cx
-)
-;
 JS_ASSERT
 (
 argc
@@ -5234,11 +5229,6 @@ compartment
 ;
 #
 endif
-LeaveTrace
-(
-cx
-)
-;
 if
 (
 StackSegment
