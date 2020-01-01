@@ -722,6 +722,16 @@ return
 }
 }
 ;
+extern
+bool
+IsFastTypedArrayClass
+(
+const
+Class
+*
+clasp
+)
+;
 }
 JS_FRIEND_API
 (

@@ -63454,6 +63454,13 @@ Function
 if
 (
 !
+IsFastTypedArrayClass
+(
+clasp
+)
+&
+&
+!
 clasp
 -
 >
