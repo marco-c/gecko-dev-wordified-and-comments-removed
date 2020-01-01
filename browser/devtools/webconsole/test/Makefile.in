@@ -501,6 +501,10 @@ browser_output_breaks_after_console_dir_uninspectable
 .
 js
 \
+browser_console_log_inspectable_object
+.
+js
+\
 head
 .
 js
