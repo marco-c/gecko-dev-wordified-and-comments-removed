@@ -38,8 +38,6 @@ NS_TRACE_MALLOC
 #
 include
 "
-tracemalloc
-/
 nsTraceMalloc
 .
 h
