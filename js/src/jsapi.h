@@ -5817,16 +5817,7 @@ JSID_INT_MIN
 #
 define
 JSID_INT_MAX
-(
-(
-1
-<
-<
-31
-)
--
-1
-)
+INT32_MAX
 static
 JS_ALWAYS_INLINE
 JSBool
