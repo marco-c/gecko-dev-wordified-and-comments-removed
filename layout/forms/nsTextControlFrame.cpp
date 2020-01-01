@@ -5751,14 +5751,6 @@ nsIPlaintextEditor
 :
 eEditorWidgetMask
 ;
-editorFlags
-|
-=
-nsIPlaintextEditor
-:
-:
-eEditorUseAsyncUpdatesMask
-;
 rv
 =
 mEditor
