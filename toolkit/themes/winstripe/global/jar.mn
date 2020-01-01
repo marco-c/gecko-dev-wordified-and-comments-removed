@@ -1,4 +1,4 @@
-toolkit
+classic
 .
 jar
 :
@@ -2875,7 +2875,7 @@ png
 #
 ifdef
 XP_WIN
-toolkit
+classic
 .
 jar
 :
