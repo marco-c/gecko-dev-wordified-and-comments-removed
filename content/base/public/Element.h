@@ -3064,6 +3064,11 @@ bool
 aValue
 )
 ;
+float
+FontSizeInflation
+(
+)
+;
 protected
 :
 static
