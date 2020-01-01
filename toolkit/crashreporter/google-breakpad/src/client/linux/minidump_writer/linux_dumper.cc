@@ -1597,7 +1597,7 @@ name
 &
 &
 (
-memcmp
+my_strncmp
 (
 name
 module
