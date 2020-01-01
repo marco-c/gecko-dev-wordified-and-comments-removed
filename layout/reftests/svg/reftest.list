@@ -4292,6 +4292,12 @@ if
 (
 B2G
 )
+fails
+-
+if
+(
+Android
+)
 !
 =
 text
@@ -4315,6 +4321,12 @@ skip
 if
 (
 B2G
+)
+fails
+-
+if
+(
+Android
 )
 random
 -
