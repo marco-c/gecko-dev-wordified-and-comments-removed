@@ -2438,6 +2438,10 @@ mIgnoreXULSize
 =
 PR_TRUE
 ;
+mIgnoreXULSizeMode
+=
+PR_TRUE
+;
 return
 NS_OK
 ;
@@ -2536,6 +2540,10 @@ mIgnoreXULPosition
 PR_TRUE
 ;
 mIgnoreXULSize
+=
+PR_TRUE
+;
+mIgnoreXULSizeMode
 =
 PR_TRUE
 ;
