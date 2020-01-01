@@ -46,6 +46,13 @@ nsGenericHTMLElement
 .
 h
 "
+#
+include
+"
+jsfriendapi
+.
+h
+"
 namespace
 mozilla
 {
@@ -57,7 +64,7 @@ class
 nsDOMStringMap
 :
 public
-nsISupports
+nsStubMutationObserver
 public
 nsWrapperCache
 {
@@ -68,6 +75,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsDOMStringMap
 )
+NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 nsINode
 *
 GetParentObject
@@ -168,6 +176,12 @@ nsString
 &
 aNames
 )
+;
+js
+:
+:
+ExpandoAndGeneration
+mExpandoAndGeneration
 ;
 private
 :

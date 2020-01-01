@@ -169,6 +169,9 @@ document
 .
 *
 /
+[
+OverrideBuiltins
+]
 interface
 DOMStringMap
 {
