@@ -351,7 +351,7 @@ moz
 .
 ril
 .
-have_query_icc_lock_retry_count
+query_icc_count
 "
 "
 false
