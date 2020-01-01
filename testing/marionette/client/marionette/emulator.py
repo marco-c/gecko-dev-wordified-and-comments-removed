@@ -2518,18 +2518,18 @@ prefs
 prefs
 =
 [
-'
+"
 user_pref
 (
-"
+'
 marionette
 .
 loadearly
-"
+'
 true
 )
 ;
-'
+"
 ]
         
 local_user_js
@@ -2574,14 +2574,7 @@ f
 write
 (
 '
-%
-s
-\
-n
-'
-%
-'
-\
+/
 n
 '
 .
@@ -2926,6 +2919,13 @@ False
 )
 :
         
+self
+.
+wait_for_system_message
+(
+marionette
+)
+        
 if
 gecko_path
 :
@@ -2965,7 +2965,7 @@ restart_b2g
 )
         
 if
-load_early
+True
 :
             
 self
