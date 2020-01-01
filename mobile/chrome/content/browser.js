@@ -6644,6 +6644,14 @@ tryUnfloatToolbar
 (
 )
 ;
+getBrowser
+(
+)
+.
+_updateCSSViewport
+(
+)
+;
 }
 dragMove
 :
