@@ -831,9 +831,6 @@ attribute
 DOMString
 title
 ;
-[
-SetterThrows
-]
 attribute
 DOMString
 dir
