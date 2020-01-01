@@ -125,8 +125,11 @@ zA
 Z
 ]
 +
+(
 \
 s
+|
+)
 '
 )
 def
@@ -525,6 +528,7 @@ context
 env
 targets
 options
+ostmts
 overrides
 cb
 )
@@ -571,6 +575,12 @@ self
 options
 =
 options
+        
+self
+.
+ostmts
+=
+ostmts
         
 self
 .
@@ -696,6 +706,13 @@ makeflags
 self
 .
 makeflags
+                                          
+makeoverrides
+=
+self
+.
+overrides
+                                          
 workdir
 =
 self
@@ -744,7 +761,7 @@ try
                 
 self
 .
-overrides
+ostmts
 .
 execute
 (
@@ -1505,7 +1522,21 @@ append
 k
 '
 )
-;
+        
+if
+options
+.
+printdir
+:
+            
+shortflags
+.
+append
+(
+'
+w
+'
+)
         
 loglevel
 =
@@ -1605,6 +1636,15 @@ options
 directory
 )
         
+if
+options
+.
+jobcount
+!
+=
+1
+:
+            
 longflags
 .
 append
@@ -1632,7 +1672,17 @@ join
 (
 shortflags
 )
+        
+if
+len
+(
+longflags
+)
+:
+            
+makeflags
 +
+=
 '
 '
 +
@@ -1765,8 +1815,9 @@ cb
                 
 return
         
-overrides
+ostmts
 targets
+overrides
 =
 parserdata
 .
@@ -1784,6 +1835,7 @@ context
 env
 targets
 options
+ostmts
 overrides
 cb
 )

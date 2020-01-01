@@ -3979,6 +3979,23 @@ r
 automatic
 '
         
+elif
+source
+=
+=
+data
+.
+Variables
+.
+SOURCE_IMPLICIT
+:
+            
+r
+=
+'
+default
+'
+        
 fd
 .
 write
