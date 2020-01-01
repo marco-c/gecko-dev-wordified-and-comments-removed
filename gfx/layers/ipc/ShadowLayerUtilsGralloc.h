@@ -167,8 +167,7 @@ virtual
 GrallocBufferActor
 (
 )
-{
-}
+;
 static
 PGrallocBufferParent
 *
@@ -237,8 +236,7 @@ private
 GrallocBufferActor
 (
 )
-{
-}
+;
 void
 InitFromHandle
 (
@@ -256,6 +254,9 @@ sp
 GraphicBuffer
 >
 mGraphicBuffer
+;
+size_t
+mAllocBytes
 ;
 }
 ;
