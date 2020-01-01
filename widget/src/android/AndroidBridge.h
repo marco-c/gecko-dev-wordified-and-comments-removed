@@ -512,6 +512,13 @@ aFilters
 )
 ;
 void
+PerformHapticFeedback
+(
+PRBool
+aIsLongPress
+)
+;
+void
 SetFullScreen
 (
 PRBool
@@ -843,6 +850,9 @@ jShowInputMethodPicker
 ;
 jmethodID
 jHideProgressDialog
+;
+jmethodID
+jPerformHapticFeedback
 ;
 jclass
 jEGLSurfaceImplClass

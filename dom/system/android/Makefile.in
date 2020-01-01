@@ -488,6 +488,10 @@ AndroidLocationProvider
 .
 cpp
 \
+nsHapticFeedback
+.
+cpp
+\
 (
 NULL
 )
