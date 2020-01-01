@@ -741,8 +741,8 @@ this
 .
 _dbStmts
 =
-[
-]
+{
+}
 ;
 this
 .
@@ -7193,8 +7193,8 @@ this
 .
 _dbStmts
 =
-[
-]
+{
+}
 ;
 try
 {
