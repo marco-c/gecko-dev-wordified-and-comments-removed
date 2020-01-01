@@ -4637,6 +4637,16 @@ small
 "
 #
 endif
+#
+ifdef
+XP_WIN
+tabsontop
+=
+"
+true
+"
+#
+endif
 persist
 =
 "
