@@ -277,6 +277,9 @@ StaticBlockObject
 >
 blockChain
 ;
+Node
+maybeFunction
+;
 const
 unsigned
 staticLevel
@@ -482,6 +485,8 @@ prs
 GenericParseContext
 *
 parent
+Node
+maybeFunction
 SharedContext
 *
 sc
