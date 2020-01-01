@@ -36,7 +36,7 @@ class
 nsCSSDeclaration
 ;
 class
-nsICSSParser
+nsCSSParser
 ;
 class
 nsICSSLoader
@@ -274,10 +274,6 @@ nsICSSLoader
 *
 *
 aCSSLoader
-nsICSSParser
-*
-*
-aCSSParser
 )
 =
 0

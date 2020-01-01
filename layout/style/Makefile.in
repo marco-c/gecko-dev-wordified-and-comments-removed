@@ -448,6 +448,10 @@ nsCSSKeywords
 .
 h
 \
+nsCSSParser
+.
+h
+\
 nsCSSPropList
 .
 h
@@ -521,10 +525,6 @@ nsICSSLoaderObserver
 h
 \
 nsICSSNameSpaceRule
-.
-h
-\
-nsICSSParser
 .
 h
 \

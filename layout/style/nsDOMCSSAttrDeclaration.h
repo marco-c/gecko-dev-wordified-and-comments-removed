@@ -36,9 +36,6 @@ class
 nsICSSLoader
 ;
 class
-nsICSSParser
-;
-class
 nsDOMCSSAttributeDeclaration
 :
 public
@@ -104,10 +101,6 @@ nsICSSLoader
 *
 *
 aCSSLoader
-nsICSSParser
-*
-*
-aCSSParser
 )
 ;
 NS_IMETHOD

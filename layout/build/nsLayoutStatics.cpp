@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsCSSLoader
+nsCSSParser
 .
 h
 "
@@ -1341,7 +1341,7 @@ Shutdown
 (
 )
 ;
-CSSLoaderImpl
+nsCSSParser
 :
 :
 Shutdown
@@ -1455,13 +1455,6 @@ ReleaseGlobals
 )
 ;
 nsXULPrototypeCache
-:
-:
-ReleaseGlobals
-(
-)
-;
-nsXULPrototypeElement
 :
 :
 ReleaseGlobals
