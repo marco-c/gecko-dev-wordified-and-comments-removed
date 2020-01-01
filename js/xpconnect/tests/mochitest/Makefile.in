@@ -110,10 +110,6 @@ test_frameWrapping
 .
 html
 \
-test_lookupMethod
-.
-html
-\
 test_bug92773
 .
 html
@@ -327,10 +323,6 @@ test_bug781476
 html
 \
 file_bug781476
-.
-html
-\
-test_bug785096
 .
 html
 \

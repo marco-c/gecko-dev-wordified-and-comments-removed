@@ -80,10 +80,6 @@ test_bug503926
 .
 xul
 \
-test_bug517163
-.
-xul
-\
 test_bug533596
 .
 xul
