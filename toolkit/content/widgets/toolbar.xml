@@ -3276,7 +3276,6 @@ tmp
 WindowDraggingElement
 (
 this
-window
 )
 ;
 draggableThis

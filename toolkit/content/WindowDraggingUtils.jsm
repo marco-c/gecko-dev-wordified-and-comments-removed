@@ -11,7 +11,6 @@ function
 WindowDraggingElement
 (
 elem
-window
 )
 {
 this
@@ -24,7 +23,11 @@ this
 .
 _window
 =
-window
+elem
+.
+ownerDocument
+.
+defaultView
 ;
 #
 ifdef

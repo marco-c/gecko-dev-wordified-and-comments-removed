@@ -1509,7 +1509,6 @@ tmp
 WindowDraggingElement
 (
 this
-window
 )
 ;
 draghandle
@@ -2248,7 +2247,6 @@ tmp
 WindowDraggingElement
 (
 this
-window
 )
 ;
 draghandle
