@@ -42,6 +42,12 @@ defined
 (
 CHROMIUM_MOZILLA_BUILD
 )
+&
+&
+defined
+(
+OS_POSIX
+)
 bool
 force
 =
