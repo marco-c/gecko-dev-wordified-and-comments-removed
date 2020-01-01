@@ -12090,8 +12090,6 @@ return
 JS_FALSE
 ;
 }
-if
-(
 JSObject
 *
 proto
@@ -12101,10 +12099,12 @@ v
 toObjectOrNull
 (
 )
-)
-{
+;
 if
 (
+proto
+&
+&
 proto
 -
 >
@@ -12125,7 +12125,6 @@ return
 false
 ;
 }
-}
 JSObject
 *
 obj
@@ -12141,11 +12140,7 @@ Given
 cx
 &
 js_ObjectClass
-v
-.
-toObjectOrNull
-(
-)
+proto
 vp
 -
 >
