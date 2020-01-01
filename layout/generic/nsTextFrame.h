@@ -542,10 +542,6 @@ aForward
 PRInt32
 *
 aOffset
-PRBool
-aRespectClusters
-=
-PR_TRUE
 )
 ;
 virtual
