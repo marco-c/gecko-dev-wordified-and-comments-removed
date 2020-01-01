@@ -1962,7 +1962,11 @@ script
 const
 char
 *
-name
+base
+const
+char
+*
+postfix
 bool
 isFunction
 bool
