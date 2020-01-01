@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -1158,7 +1167,7 @@ CompartmentStats
 :
 extra
 (
-NULL
+nullptr
 )
 gcHeapObjectsOrdinary
 (
@@ -1729,7 +1738,7 @@ zoneStatsVector
 )
 currZoneStats
 (
-NULL
+nullptr
 )
 mallocSizeOf_
 (

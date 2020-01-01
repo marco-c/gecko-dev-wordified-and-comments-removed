@@ -7,6 +7,15 @@ js_OldDebugAPI_h
 #
 include
 "
+mozilla
+/
+NullPtr
+.
+h
+"
+#
+include
+"
 jsbytecode
 .
 h
@@ -170,7 +179,7 @@ StackFrame
 *
 start
 =
-NULL
+nullptr
 )
 ;
 #

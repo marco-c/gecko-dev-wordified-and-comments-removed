@@ -580,7 +580,7 @@ objp
 .
 set
 (
-NULL
+nullptr
 )
 ;
 return

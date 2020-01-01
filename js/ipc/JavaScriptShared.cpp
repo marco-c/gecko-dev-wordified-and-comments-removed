@@ -193,7 +193,7 @@ if
 p
 )
 return
-NULL
+nullptr
 ;
 return
 p
@@ -2363,7 +2363,7 @@ objp
 *
 objp
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2384,9 +2384,9 @@ cx
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 ;
@@ -2483,8 +2483,8 @@ Length
 (
 )
 v
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )

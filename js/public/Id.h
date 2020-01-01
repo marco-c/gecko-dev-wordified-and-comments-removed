@@ -7,6 +7,15 @@ js_Id_h
 #
 include
 "
+mozilla
+/
+NullPtr
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -414,7 +423,7 @@ JS_ASSERT
 obj
 !
 =
-NULL
+nullptr
 )
 ;
 JS_ASSERT

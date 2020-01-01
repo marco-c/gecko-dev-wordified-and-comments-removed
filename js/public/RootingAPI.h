@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+NullPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypeTraits
 .
 h
@@ -2158,7 +2167,7 @@ initial
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -4284,7 +4293,7 @@ ptr
 :
 next
 (
-NULL
+nullptr
 )
 ptr_
 (

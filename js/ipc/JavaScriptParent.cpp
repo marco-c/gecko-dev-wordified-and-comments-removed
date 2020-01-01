@@ -2497,7 +2497,7 @@ name
 )
 )
 return
-NULL
+nullptr
 ;
 return
 ToNewCString
@@ -2858,7 +2858,7 @@ address
 )
 )
 return
-NULL
+nullptr
 ;
 return
 obj
@@ -2882,7 +2882,7 @@ id
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -2929,7 +2929,7 @@ CPOWProxyHandler
 :
 singleton
 v
-NULL
+nullptr
 global
 callable
 ?
@@ -2944,7 +2944,7 @@ if
 obj
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2958,7 +2958,7 @@ obj
 )
 )
 return
-NULL
+nullptr
 ;
 incref
 (
