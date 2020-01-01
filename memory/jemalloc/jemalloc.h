@@ -166,12 +166,6 @@ void
 ptr
 )
 ;
-#
-if
-defined
-(
-WIN32_NEW_STYLE_JEMALLOC
-)
 void
 *
 je_memalign
@@ -182,8 +176,6 @@ size_t
 size
 )
 ;
-#
-endif
 int
 je_posix_memalign
 (
