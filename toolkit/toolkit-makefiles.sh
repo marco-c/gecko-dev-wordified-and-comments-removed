@@ -3527,13 +3527,6 @@ xpfe
 /
 browser
 /
-public
-/
-Makefile
-xpfe
-/
-browser
-/
 src
 /
 Makefile
