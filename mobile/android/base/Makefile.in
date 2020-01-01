@@ -1133,14 +1133,6 @@ WidgetTileLayer
 .
 java
 \
-gfx
-/
-layers
-/
-OGLSurfaceView
-.
-java
-\
 ui
 /
 Axis

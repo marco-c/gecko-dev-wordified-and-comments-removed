@@ -1751,7 +1751,7 @@ jclass
 jEGL10Class
 ;
 jclass
-jOGLSurfaceView
+jFlexSurfaceView
 ;
 int
 (
