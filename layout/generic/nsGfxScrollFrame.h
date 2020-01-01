@@ -789,7 +789,11 @@ IsScrollingActive
 (
 )
 const
+{
+return
+mScrollingActive
 ;
+}
 void
 AdjustScrollbarRectForResizer
 (
