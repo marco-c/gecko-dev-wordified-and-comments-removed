@@ -45,7 +45,14 @@ mStream
 >
 pdata
 =
+static_cast
+<
+AStream
+*
+>
+(
 this
+)
 ;
 }
 bool
@@ -271,7 +278,7 @@ if
 CallNPP_Write
 (
 offset
-nsDependentCString
+nsCString
 (
 static_cast
 <
