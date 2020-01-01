@@ -7841,7 +7841,9 @@ pref
 "
 app
 .
-reportCrashes
+crashreporter
+.
+autosubmit
 "
 type
 =
