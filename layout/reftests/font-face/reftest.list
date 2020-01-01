@@ -2355,15 +2355,6 @@ html
 #
 bug
 668758
-#
-t2embed
-lib
-on
-windows
-is
-picky
-about
-fullname
 HTTP
 (
 .

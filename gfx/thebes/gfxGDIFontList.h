@@ -1291,11 +1291,6 @@ gfxGDIFontList
 (
 )
 ;
-void
-InitializeFontEmbeddingProcs
-(
-)
-;
 nsresult
 GetFontSubstitutes
 (
