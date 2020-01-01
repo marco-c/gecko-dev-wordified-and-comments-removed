@@ -660,7 +660,7 @@ writeBuildFiles
 substMozbuild
 (
 "
-importTestSuites
+importTestsuite
 .
 py
 "
