@@ -619,7 +619,10 @@ objectEnumerator
 NSRect
 inRect
 =
-geckoRectToCocoaRect
+nsCocoaUtils
+:
+:
+GeckoRectToCocoaRect
 (
 nsRect
 (

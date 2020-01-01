@@ -510,7 +510,10 @@ outHeight
 nsRect
 r
 =
-cocoaRectToGeckoRect
+nsCocoaUtils
+:
+:
+CocoaRectToGeckoRect
 (
 [
 mScreen
@@ -573,7 +576,10 @@ outHeight
 nsRect
 r
 =
-cocoaRectToGeckoRect
+nsCocoaUtils
+:
+:
+CocoaRectToGeckoRect
 (
 [
 mScreen

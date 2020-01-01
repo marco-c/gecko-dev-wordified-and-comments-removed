@@ -1237,6 +1237,9 @@ cocoaPoint
 .
 y
 =
+nsCocoaUtils
+:
+:
 FlippedScreenY
 (
 aPoint
