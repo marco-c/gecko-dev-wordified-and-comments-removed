@@ -2549,6 +2549,10 @@ nsIScriptGlobalObject
 >
 mScriptGlobalObject
 ;
+nsPIDOMWindow
+*
+mWindow
+;
 nsWeakPtr
 mScriptObject
 ;
