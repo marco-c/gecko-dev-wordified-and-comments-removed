@@ -10658,6 +10658,16 @@ this
 .
 _tristateMenulist
 .
+selectedItem
+.
+disabled
+=
+false
+;
+this
+.
+_tristateMenulist
+.
 disabled
 =
 false
