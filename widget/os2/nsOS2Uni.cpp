@@ -199,11 +199,9 @@ nullptr
 {
 949
 "
-x
+EUC
 -
-windows
--
-949
+KR
 "
 nullptr
 nullptr

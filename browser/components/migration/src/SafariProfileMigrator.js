@@ -1800,11 +1800,9 @@ korean
 )
 return
 "
-x
+EUC
 -
-windows
--
-949
+KR
 "
 ;
 try

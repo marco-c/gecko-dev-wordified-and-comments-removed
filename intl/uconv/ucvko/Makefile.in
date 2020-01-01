@@ -91,14 +91,6 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
-nsEUCKRToUnicode
-.
-cpp
-\
-nsUnicodeToEUCKR
-.
-cpp
-\
 nsISO2022KRToUnicode
 .
 cpp

@@ -9880,11 +9880,6 @@ EUC
 KR
 x
 -
-windows
--
-949
-x
--
 johab
 ISO
 -

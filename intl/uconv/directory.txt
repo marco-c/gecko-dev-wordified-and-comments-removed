@@ -169,7 +169,7 @@ KR
 EUC
 -
 KR
-CP949
+Johab
 ucvlatin
 -
 Latin

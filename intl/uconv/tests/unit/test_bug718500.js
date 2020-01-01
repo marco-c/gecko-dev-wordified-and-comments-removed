@@ -536,13 +536,6 @@ x
 johab
 "
 "
-x
--
-windows
--
-949
-"
-"
 GB2312
 "
 "
@@ -1006,13 +999,6 @@ KR
 x
 -
 johab
-"
-"
-x
--
-windows
--
-949
 "
 "
 GB2312
