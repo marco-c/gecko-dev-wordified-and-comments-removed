@@ -47777,7 +47777,10 @@ name_
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+Value
 *
 vp
 )
@@ -47812,7 +47815,10 @@ JSContext
 *
 cx
 const
-jsval
+JS
+:
+:
+Value
 &
 v
 )

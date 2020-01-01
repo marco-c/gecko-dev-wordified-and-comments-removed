@@ -627,7 +627,10 @@ JSObject
 obj
 uint32_t
 argc
-jsval
+JS
+:
+:
+Value
 *
 argv
 )
@@ -750,7 +753,10 @@ GetResult
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aResult
 )

@@ -156,7 +156,10 @@ nsAString
 &
 aMessageName
 const
-jsval
+JS
+:
+:
+Value
 &
 aObject
 JSContext
@@ -164,7 +167,10 @@ JSContext
 aCx
 uint8_t
 aArgc
-jsval
+JS
+:
+:
+Value
 *
 aRetval
 )

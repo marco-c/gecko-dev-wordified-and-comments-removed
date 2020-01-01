@@ -878,7 +878,10 @@ nsAString
 &
 aMessageName
 const
-jsval
+JS
+:
+:
+Value
 &
 aObject
 JSContext

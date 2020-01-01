@@ -3847,7 +3847,10 @@ GetResponse
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aResult
 )
@@ -10066,7 +10069,10 @@ aCharset
 )
 ;
 }
-jsval
+JS
+:
+:
+Value
 realVal
 ;
 nsresult

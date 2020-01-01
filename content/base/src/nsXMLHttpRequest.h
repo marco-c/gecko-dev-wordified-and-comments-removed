@@ -2434,7 +2434,10 @@ nsIChannel
 >
 mNewRedirectChannel
 ;
-jsval
+JS
+:
+:
+Value
 mResultJSON
 ;
 JSObject

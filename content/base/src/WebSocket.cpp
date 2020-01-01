@@ -3801,7 +3801,10 @@ cx
 NS_ERROR_FAILURE
 )
 ;
-jsval
+JS
+:
+:
+Value
 jsData
 ;
 {
