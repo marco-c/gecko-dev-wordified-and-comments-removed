@@ -6231,7 +6231,7 @@ title
 type
 =
 "
-menulist
+control
 "
 >
 <
@@ -6317,7 +6317,7 @@ title
 type
 =
 "
-menulist
+control
 "
 >
 <
