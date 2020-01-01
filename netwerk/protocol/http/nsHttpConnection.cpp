@@ -5042,6 +5042,11 @@ mSpdySession
 nsnull
 ;
 }
+if
+(
+mTransaction
+)
+{
 mHttp1xTransactionCount
 +
 =
@@ -5064,6 +5069,7 @@ mTransaction
 =
 nsnull
 ;
+}
 if
 (
 mCallbacks
