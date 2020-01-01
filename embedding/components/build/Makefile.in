@@ -767,6 +767,7 @@ ifneq
 (
 (
 filter
+qt
 gtk2
 beos
 photon
