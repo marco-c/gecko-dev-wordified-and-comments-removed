@@ -31311,6 +31311,9 @@ return
 TRUE
 ;
 }
+#
+ifndef
+WINCE
 if
 (
 popupsToRollup
@@ -31334,6 +31337,8 @@ return
 TRUE
 ;
 }
+#
+endif
 }
 }
 }
