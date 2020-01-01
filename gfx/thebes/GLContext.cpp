@@ -61,6 +61,15 @@ gfxCrashReporterUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 namespace
 mozilla
 {
@@ -9855,7 +9864,10 @@ if
 aTexture
 )
 {
+DebugOnly
+<
 GLenum
+>
 status
 =
 fCheckFramebufferStatus
