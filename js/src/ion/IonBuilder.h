@@ -1117,6 +1117,14 @@ reobj
 )
 ;
 bool
+jsop_object
+(
+JSObject
+*
+obj
+)
+;
+bool
 jsop_this
 (
 )
