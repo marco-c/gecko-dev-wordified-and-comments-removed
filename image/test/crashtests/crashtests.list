@@ -244,6 +244,12 @@ Android
 &
 smallScreen
 )
+skip
+-
+if
+(
+B2G
+)
 load
 694165
 -
@@ -260,6 +266,13 @@ Android
 3
 .
 6
+bug
+876275
+for
+B2G
+on
+a
+VM
 load
 732319
 -
