@@ -1257,6 +1257,12 @@ mozIStorageStatement
 >
 mDBVisitToVisitResult
 ;
+mozIStorageStatement
+*
+GetDBBookmarkToUrlResult
+(
+)
+;
 nsCOMPtr
 <
 mozIStorageStatement
