@@ -3353,9 +3353,8 @@ JSC
 :
 :
 MacroAssembler
-(
-)
-.
+:
+:
 supportsFloatingPoint
 (
 )
