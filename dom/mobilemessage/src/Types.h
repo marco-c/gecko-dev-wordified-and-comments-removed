@@ -30,6 +30,7 @@ eDeliveryState_Received
 eDeliveryState_Sending
 eDeliveryState_Error
 eDeliveryState_Unknown
+eDeliveryState_NotDownloaded
 eDeliveryState_EndGuard
 }
 ;

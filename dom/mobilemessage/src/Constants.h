@@ -87,6 +87,17 @@ error
 )
 #
 define
+DELIVERY_NOT_DOWNLOADED
+NS_LITERAL_STRING
+(
+"
+not
+-
+downloaded
+"
+)
+#
+define
 DELIVERY_STATUS_NOT_APPLICABLE
 NS_LITERAL_STRING
 (

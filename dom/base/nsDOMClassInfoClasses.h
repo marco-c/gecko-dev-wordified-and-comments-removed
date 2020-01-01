@@ -568,6 +568,10 @@ MozSmsMessage
 )
 DOMCI_CLASS
 (
+MozMmsMessage
+)
+DOMCI_CLASS
+(
 MozSmsRequest
 )
 DOMCI_CLASS
