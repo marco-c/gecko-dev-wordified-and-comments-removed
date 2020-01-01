@@ -2120,7 +2120,7 @@ promise
 ;
 }
 return
-resolveAll
+all
 (
 promises
 )
@@ -2481,7 +2481,7 @@ line
 )
 ;
 return
-resolveAll
+all
 (
 [
 response
@@ -3106,7 +3106,7 @@ TA__discoverScriptsAndSources
 )
 {
 return
-resolveAll
+all
 (
 [
 this
