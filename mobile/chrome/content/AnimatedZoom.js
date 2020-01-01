@@ -268,7 +268,6 @@ contentView
 setScale
 (
 zoomLevel
-zoomLevel
 )
 ;
 contentView
