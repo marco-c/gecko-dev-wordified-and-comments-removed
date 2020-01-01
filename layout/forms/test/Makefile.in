@@ -450,6 +450,10 @@ test_bug348236
 .
 html
 \
+test_bug353539
+.
+html
+\
 test_bug378670
 .
 html
