@@ -602,7 +602,7 @@ static
 bool
 IsPermanentRedirect
 (
-PRUint32
+uint32_t
 httpStatus
 )
 ;
@@ -610,7 +610,7 @@ static
 bool
 ShouldRewriteRedirectToGET
 (
-PRUint32
+uint32_t
 httpStatus
 nsHttpAtom
 method

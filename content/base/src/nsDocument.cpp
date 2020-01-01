@@ -10732,7 +10732,7 @@ NodePrincipal
 (
 )
 ;
-PRUint16
+uint16_t
 appStatus
 =
 nsIPrincipal

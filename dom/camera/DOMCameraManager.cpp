@@ -686,7 +686,7 @@ controls
 return
 ;
 }
-PRUint32
+uint32_t
 length
 =
 controls
@@ -698,7 +698,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

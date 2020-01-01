@@ -2075,7 +2075,7 @@ GetBodyElement
 )
 )
 ;
-PRInt32
+int32_t
 htmlWidth
 =
 0
@@ -2107,7 +2107,7 @@ htmlHeight
 )
 ;
 }
-PRInt32
+int32_t
 bodyWidth
 =
 0
