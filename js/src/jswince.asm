@@ -273,7 +273,7 @@ js_arm_try_armv6_op
 rev
 ip
 ip
-DVD
+DCD
 0xE6BFCF3C
 mov
 pc
@@ -288,7 +288,6 @@ mov
 pc
 lr
 js_arm_try_armv5_test
-:
 bx
 lr
 ENTRY_END
