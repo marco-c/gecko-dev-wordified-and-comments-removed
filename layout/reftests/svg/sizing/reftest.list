@@ -4921,6 +4921,19 @@ pct
 ref
 .
 html
+#
+The
+following
+four
+commented
+out
+tests
+fail
+post
+bug
+428023
+:
+#
 =
 =
 object
@@ -4952,6 +4965,7 @@ pct
 ref
 .
 html
+#
 =
 =
 object
@@ -5025,6 +5039,7 @@ px
 ref
 .
 html
+#
 =
 =
 object
@@ -5087,6 +5102,7 @@ px
 ref
 .
 html
+#
 =
 =
 object
