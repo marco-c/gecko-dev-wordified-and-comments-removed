@@ -3699,9 +3699,6 @@ GLOBAL_DEPS
 +
 =
 Makefile
-Makefile
-.
-in
 (
 DEPTH
 )
@@ -3720,6 +3717,15 @@ config
 config
 .
 mk
+ifndef
+NO_MAKEFILE_RULE
+GLOBAL_DEPS
++
+=
+Makefile
+.
+in
+endif
 #
 #
 #
@@ -8178,6 +8184,8 @@ Makefiles
 #
 #
 #
+ifndef
+NO_MAKEFILE_RULE
 #
 Note
 :
@@ -8224,6 +8232,9 @@ d
 (
 DEPTH
 )
+endif
+ifndef
+NO_SUBMAKEFILES_RULE
 ifdef
 SUBMAKEFILES
 #
@@ -8275,6 +8286,7 @@ d
 (
 DEPTH
 )
+endif
 endif
 ifdef
 AUTOUPDATE_CONFIGURE

@@ -1613,7 +1613,7 @@ SystemConfiguration
 \
 -
 framework
-QuickTime
+QTKit
 \
 -
 framework
@@ -1679,6 +1679,10 @@ Foundation
 -
 framework
 AppKit
+\
+-
+framework
+Security
 \
 (
 NULL

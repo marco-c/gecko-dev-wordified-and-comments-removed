@@ -889,6 +889,9 @@ defines
 '
 WEBRTC_WIN
 '
+'
+WEBRTC_EXPORT
+'
 ]
 #
 TODO
