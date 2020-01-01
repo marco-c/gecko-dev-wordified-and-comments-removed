@@ -11202,6 +11202,11 @@ LIR64
 LIR_uge
 )
 ;
+underrunProtect
+(
+8
+)
+;
 if
 (
 target
