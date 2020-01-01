@@ -233,11 +233,11 @@ NULL
 CPPSRCS
 =
 \
-FrameLayerBuilder
+DisplayItemClip
 .
 cpp
 \
-MaskLayerImageCache
+FrameLayerBuilder
 .
 cpp
 \
@@ -245,7 +245,7 @@ FramePropertyTable
 .
 cpp
 \
-RestyleTracker
+MaskLayerImageCache
 .
 cpp
 \
@@ -346,6 +346,10 @@ PaintTracker
 cpp
 \
 PositionedEventTargeting
+.
+cpp
+\
+RestyleTracker
 .
 cpp
 \

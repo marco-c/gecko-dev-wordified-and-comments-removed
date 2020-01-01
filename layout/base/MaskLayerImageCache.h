@@ -14,6 +14,13 @@ h
 #
 include
 "
+DisplayItemClip
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -58,10 +65,7 @@ PixelRoundedRect
 PixelRoundedRect
 (
 const
-FrameLayerBuilder
-:
-:
-Clip
+DisplayItemClip
 :
 :
 RoundedRect
