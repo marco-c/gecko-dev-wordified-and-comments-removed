@@ -797,6 +797,14 @@ RESOURCES_HTML
 srcdir
 )
 /
+folder
+.
+png
+\
+(
+srcdir
+)
+/
 gopher
 -
 audio
