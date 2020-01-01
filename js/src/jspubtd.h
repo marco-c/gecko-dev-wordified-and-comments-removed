@@ -1184,6 +1184,9 @@ uint32
 tag
 uint32
 data
+void
+*
+closure
 )
 ;
 typedef
@@ -1202,6 +1205,9 @@ w
 JSObject
 *
 obj
+void
+*
+closure
 )
 ;
 typedef
