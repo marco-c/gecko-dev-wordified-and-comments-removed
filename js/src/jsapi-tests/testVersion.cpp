@@ -100,7 +100,7 @@ vp
 )
 ;
 JSBool
-OverrideVersion15
+OverrideVersion18
 (
 JSContext
 *
@@ -269,9 +269,9 @@ JS_DefineFunction
 cx
 global
 "
-overrideVersion15
+overrideVersion18
 "
-OverrideVersion15
+OverrideVersion18
 0
 0
 )
@@ -753,7 +753,7 @@ checkNewScriptNoXML
 ;
 }
 JSBool
-OverrideVersion15
+OverrideVersion18
 (
 JSContext
 *
@@ -773,7 +773,7 @@ callbackData
 >
 setVersion
 (
-JSVERSION_1_5
+JSVERSION_1_8
 )
 )
 return
@@ -1084,7 +1084,7 @@ testVersion_EntryLosesOverride
 EXEC
 (
 "
-overrideVersion15
+overrideVersion18
 (
 )
 ;
@@ -1117,7 +1117,7 @@ JS_GetVersion
 (
 cx
 )
-JSVERSION_1_5
+JSVERSION_1_8
 )
 ;
 CHECK
@@ -1168,7 +1168,7 @@ false
 evalScriptVersion16
 (
 '
-overrideVersion15
+overrideVersion18
 (
 )
 ;
@@ -1234,7 +1234,7 @@ false
 eval
 (
 '
-overrideVersion15
+overrideVersion18
 (
 )
 ;
@@ -1260,7 +1260,7 @@ captureVersion
 CHECK_EQUAL
 (
 captured
-JSVERSION_1_5
+JSVERSION_1_8
 )
 ;
 return
