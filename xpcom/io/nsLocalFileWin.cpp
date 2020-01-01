@@ -9952,7 +9952,7 @@ rv
 )
 ;
 #
-ifdef
+ifndef
 WINCE
 explorerPath
 .
