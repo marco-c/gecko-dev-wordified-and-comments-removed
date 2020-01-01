@@ -289,6 +289,8 @@ wat
 "
 )
 ;
+return
+;
 }
 if
 (
