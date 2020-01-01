@@ -1457,7 +1457,7 @@ ifndef
 NO_PROFILE_GUIDED_OPTIMIZE
 maybe_clobber_profiledbuild
 :
-clobber_all
+clean
 else
 maybe_clobber_profiledbuild
 :
