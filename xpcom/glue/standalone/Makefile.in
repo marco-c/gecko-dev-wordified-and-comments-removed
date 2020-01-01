@@ -624,10 +624,6 @@ nsXPCOMGlue
 .
 cpp
 \
-nsGREDirServiceProvider
-.
-cpp
-\
 (
 LINKSRC
 )
