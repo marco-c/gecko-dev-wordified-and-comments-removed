@@ -287,6 +287,13 @@ h
 #
 include
 "
+xpcpublic
+.
+h
+"
+#
+include
+"
 nsIResProtocolHandler
 .
 h
@@ -978,7 +985,7 @@ return
 true
 ;
 return
-nsXPConnect
+xpc
 :
 :
 Base64Decode
@@ -1024,7 +1031,7 @@ return
 true
 ;
 return
-nsXPConnect
+xpc
 :
 :
 Base64Encode
