@@ -630,6 +630,14 @@ window_screenPosSize
 .
 xul
 \
+test_titlebar
+.
+xul
+\
+window_titlebar
+.
+xul
+\
 (
 NULL
 )

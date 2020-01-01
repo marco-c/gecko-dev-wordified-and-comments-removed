@@ -646,6 +646,7 @@ popupChild
 SetPopupPosition
 (
 nsnull
+PR_FALSE
 )
 ;
 nsIBox
@@ -827,6 +828,7 @@ popupChild
 SetPopupPosition
 (
 nsnull
+PR_FALSE
 )
 ;
 }

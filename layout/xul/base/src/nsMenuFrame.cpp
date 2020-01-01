@@ -3438,6 +3438,7 @@ mPopupFrame
 SetPopupPosition
 (
 this
+PR_FALSE
 )
 ;
 nsIBox

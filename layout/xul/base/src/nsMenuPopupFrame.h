@@ -405,6 +405,8 @@ SetPopupPosition
 nsIFrame
 *
 aAnchorFrame
+PRBool
+aIsMove
 )
 ;
 PRBool
