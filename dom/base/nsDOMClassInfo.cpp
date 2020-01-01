@@ -25054,7 +25054,7 @@ id
 JSVAL_VOID
 nsnull
 nsnull
-0
+JSPROP_SHARED
 )
 ;
 if
