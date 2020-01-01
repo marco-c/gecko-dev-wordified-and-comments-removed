@@ -32,13 +32,13 @@ nsHashKeys
 .
 h
 "
-class
+struct
 gr_face
 ;
-class
+struct
 gr_font
 ;
-class
+struct
 gr_segment
 ;
 class

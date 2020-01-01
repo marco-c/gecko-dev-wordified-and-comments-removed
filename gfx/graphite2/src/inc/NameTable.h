@@ -13,6 +13,8 @@ h
 #
 include
 "
+inc
+/
 TtfTypes
 .
 h
@@ -20,6 +22,8 @@ h
 #
 include
 "
+inc
+/
 locale2lcid
 .
 h

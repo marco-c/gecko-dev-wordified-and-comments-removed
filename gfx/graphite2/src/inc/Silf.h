@@ -4,6 +4,8 @@ once
 #
 include
 "
+inc
+/
 Main
 .
 h
@@ -11,6 +13,8 @@ h
 #
 include
 "
+inc
+/
 Pass
 .
 h
@@ -119,6 +123,7 @@ throw
 bool
 readGraphite
 (
+const
 void
 *
 pSilf
@@ -377,8 +382,6 @@ throw
 (
 )
 ;
-private
-:
 Silf
 (
 const

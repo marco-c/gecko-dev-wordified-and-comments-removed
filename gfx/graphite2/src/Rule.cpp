@@ -1,6 +1,8 @@
 #
 include
 "
+inc
+/
 Rule
 .
 h

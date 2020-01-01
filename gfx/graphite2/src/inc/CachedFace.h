@@ -3,10 +3,12 @@ pragma
 once
 #
 ifndef
-DISABLE_SEGCACHE
+GRAPHITE2_NSEGCACHE
 #
 include
 "
+inc
+/
 Face
 .
 h

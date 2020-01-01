@@ -3,10 +3,12 @@ pragma
 once
 #
 ifndef
-DISABLE_SEGCACHE
+GRAPHITE2_NSEGCACHE
 #
 include
 "
+inc
+/
 Main
 .
 h
@@ -172,14 +174,6 @@ m_glyphLength
 )
 ;
 }
-void
-log
-(
-size_t
-unicodeLength
-)
-const
-;
 unsigned
 long
 long
@@ -302,7 +296,7 @@ Slot
 *
 m_glyph
 ;
-uint16
+int16
 *
 m_attr
 ;

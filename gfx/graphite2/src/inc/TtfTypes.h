@@ -8,11 +8,12 @@ namespace
 TtfUtil
 {
 typedef
+unsigned
 char
 uint8
 ;
 typedef
-char
+uint8
 byte
 ;
 typedef

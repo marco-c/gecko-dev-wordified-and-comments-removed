@@ -1,9 +1,11 @@
 #
 ifndef
-DISABLE_SEGCACHE
+GRAPHITE2_NSEGCACHE
 #
 include
 "
+inc
+/
 SegCacheStore
 .
 h
@@ -11,6 +13,8 @@ h
 #
 include
 "
+inc
+/
 Face
 .
 h

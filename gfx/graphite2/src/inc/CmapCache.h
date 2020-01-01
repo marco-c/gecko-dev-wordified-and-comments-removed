@@ -3,11 +3,13 @@ pragma
 once
 #
 include
-<
+"
+inc
+/
 Main
 .
 h
->
+"
 namespace
 graphite2
 {

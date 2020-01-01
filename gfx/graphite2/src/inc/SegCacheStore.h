@@ -3,10 +3,12 @@ pragma
 once
 #
 ifndef
-DISABLE_SEGCACHE
+GRAPHITE2_NSEGCACHE
 #
 include
 "
+inc
+/
 Main
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+inc
+/
 CmapCache
 .
 h
@@ -21,6 +25,8 @@ h
 #
 include
 "
+inc
+/
 SegCache
 .
 h

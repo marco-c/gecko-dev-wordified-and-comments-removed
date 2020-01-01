@@ -13,7 +13,7 @@ h
 #
 define
 GR2_VERSION_MAJOR
-1
+2
 #
 define
 GR2_VERSION_MINOR
@@ -124,9 +124,6 @@ int
 faceOptions
 )
 ;
-#
-ifndef
-DISABLE_SEGCACHE
 GR2_API
 gr_face
 *
@@ -146,8 +143,6 @@ int
 faceOptions
 )
 ;
-#
-endif
 GR2_API
 gr_uint32
 gr_str_to_tag
@@ -265,7 +260,7 @@ pFace
 ;
 #
 ifndef
-DISABLE_FILE_FACE
+GRAPHITE2_NFILEFACE
 GR2_API
 gr_face
 *
@@ -280,9 +275,6 @@ int
 faceOptions
 )
 ;
-#
-ifndef
-DISABLE_SEGCACHE
 GR2_API
 gr_face
 *
@@ -300,8 +292,6 @@ int
 faceOptions
 )
 ;
-#
-endif
 #
 endif
 GR2_API

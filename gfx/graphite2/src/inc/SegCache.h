@@ -3,7 +3,7 @@ pragma
 once
 #
 ifndef
-DISABLE_SEGCACHE
+GRAPHITE2_NSEGCACHE
 #
 include
 <
@@ -16,6 +16,8 @@ h
 #
 include
 "
+inc
+/
 Main
 .
 h
@@ -23,6 +25,8 @@ h
 #
 include
 "
+inc
+/
 Slot
 .
 h
@@ -30,6 +34,8 @@ h
 #
 include
 "
+inc
+/
 FeatureVal
 .
 h
@@ -37,6 +43,8 @@ h
 #
 include
 "
+inc
+/
 SegCacheEntry
 .
 h
@@ -44,6 +52,8 @@ h
 #
 include
 "
+inc
+/
 Segment
 .
 h
@@ -135,20 +145,6 @@ k
 +
 +
 )
-{
-m_entries
-[
-j
-]
-[
-k
-]
-.
-log
-(
-j
-)
-;
 m_entries
 [
 j
@@ -161,7 +157,6 @@ clear
 (
 )
 ;
-}
 free
 (
 m_entries

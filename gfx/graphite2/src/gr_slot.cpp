@@ -10,6 +10,8 @@ h
 #
 include
 "
+inc
+/
 Segment
 .
 h
@@ -17,6 +19,8 @@ h
 #
 include
 "
+inc
+/
 Slot
 .
 h
@@ -24,6 +28,8 @@ h
 #
 include
 "
+inc
+/
 Font
 .
 h
@@ -126,7 +132,7 @@ gr_slot
 p
 -
 >
-attachTo
+attachedTo
 (
 )
 )
@@ -632,7 +638,7 @@ prev
 prev
 -
 >
-next
+sibling
 (
 NULL
 )
@@ -640,7 +646,7 @@ NULL
 prev
 -
 >
-sibling
+next
 (
 NULL
 )

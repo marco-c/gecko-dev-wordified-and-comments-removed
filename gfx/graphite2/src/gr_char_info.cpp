@@ -15,6 +15,8 @@ h
 #
 include
 "
+inc
+/
 CharInfo
 .
 h

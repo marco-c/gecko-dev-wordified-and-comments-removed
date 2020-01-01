@@ -1,6 +1,8 @@
 #
 include
 "
+inc
+/
 Main
 .
 h
@@ -8,6 +10,8 @@ h
 #
 include
 "
+inc
+/
 Endian
 .
 h
@@ -15,6 +19,8 @@ h
 #
 include
 "
+inc
+/
 NameTable
 .
 h
@@ -22,6 +28,8 @@ h
 #
 include
 "
+inc
+/
 UtfCodec
 .
 h
