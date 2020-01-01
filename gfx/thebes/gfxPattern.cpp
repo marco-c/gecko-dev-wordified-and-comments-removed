@@ -1158,6 +1158,10 @@ mGfxPattern
 break
 ;
 }
+default
+:
+break
+;
 }
 new
 (
@@ -1366,10 +1370,12 @@ true
 ;
 }
 }
-}
+default
+:
 return
 false
 ;
+}
 }
 if
 (
