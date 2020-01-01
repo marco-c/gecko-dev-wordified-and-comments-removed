@@ -861,6 +861,10 @@ GeckoBatteryManager
 .
 java
 \
+GeckoBackgroundThread
+.
+java
+\
 GeckoConnectivityReceiver
 .
 java

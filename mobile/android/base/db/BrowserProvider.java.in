@@ -498,7 +498,7 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+GeckoBackgroundThread
 ;
 import
 org
@@ -5481,11 +5481,7 @@ BrowserProvider
 "
 )
 ;
-GeckoAppShell
-.
-getHandler
-(
-)
+GeckoBackgroundThread
 .
 post
 (
@@ -5494,6 +5490,7 @@ Runnable
 (
 )
 {
+Override
 public
 void
 run
