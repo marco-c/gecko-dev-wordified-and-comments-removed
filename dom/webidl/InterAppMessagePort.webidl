@@ -172,8 +172,6 @@ EnabledForScope
 Constructor
 (
 DOMString
-keyword
-DOMString
 messagePortID
 )
 JSImplementation
