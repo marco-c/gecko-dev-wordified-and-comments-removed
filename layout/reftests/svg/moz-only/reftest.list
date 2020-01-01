@@ -105,6 +105,8 @@ bound
 .
 svg
 pass
+-
+black
 .
 svg
 fails
