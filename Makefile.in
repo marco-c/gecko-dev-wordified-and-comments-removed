@@ -1424,6 +1424,16 @@ bin
 /
 dump_syms
 endif
+ifdef
+MOZ_SYMBOLS_EXTRA_BUILDID
+EXTRA_BUILDID
+:
+=
+-
+(
+MOZ_SYMBOLS_EXTRA_BUILDID
+)
+endif
 buildsymbols
 :
 ifdef
@@ -1512,6 +1522,9 @@ OS_ARCH
 -
 (
 BUILDID
+)
+(
+EXTRA_BUILDID
 )
 -
 symbols
