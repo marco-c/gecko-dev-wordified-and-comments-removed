@@ -865,6 +865,14 @@ origin
 }
 )
 ;
+if
+(
+aDir
+.
+exists
+(
+)
+)
 aDir
 .
 remove
