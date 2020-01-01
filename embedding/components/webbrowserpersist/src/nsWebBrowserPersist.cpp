@@ -10586,6 +10586,9 @@ get
 ;
 }
 }
+return
+NS_OK
+;
 }
 nsCOMPtr
 <
