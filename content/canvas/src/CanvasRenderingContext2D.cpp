@@ -2644,9 +2644,6 @@ GetUnit
 )
 =
 =
-nsCSSUnit
-:
-:
 eCSSUnit_Color
 )
 {
