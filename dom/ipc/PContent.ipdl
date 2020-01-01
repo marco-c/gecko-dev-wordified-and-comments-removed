@@ -1929,6 +1929,8 @@ AudioChannelRegisterType
 (
 AudioChannelType
 aType
+bool
+aWithVideo
 )
 ;
 sync
@@ -1938,6 +1940,8 @@ AudioChannelType
 aType
 bool
 aElementHidden
+bool
+aWithVideo
 )
 ;
 async

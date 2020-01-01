@@ -119,6 +119,10 @@ nsIAudioChannelAgentCallback
 aCallback
 bool
 aUseWeakRef
+bool
+aWithVideo
+=
+false
 )
 ;
 nsCOMPtr
@@ -138,6 +142,9 @@ mIsRegToService
 ;
 bool
 mVisible
+;
+bool
+mWithVideo
 ;
 }
 ;

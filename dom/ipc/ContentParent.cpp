@@ -7463,6 +7463,10 @@ const
 AudioChannelType
 &
 aType
+const
+bool
+&
+aWithVideo
 )
 {
 nsRefPtr
@@ -7490,6 +7494,7 @@ RegisterType
 (
 aType
 mChildID
+aWithVideo
 )
 ;
 }
@@ -7511,6 +7516,10 @@ const
 bool
 &
 aElementHidden
+const
+bool
+&
+aWithVideo
 )
 {
 nsRefPtr
@@ -7539,6 +7548,7 @@ UnregisterType
 aType
 aElementHidden
 mChildID
+aWithVideo
 )
 ;
 }
