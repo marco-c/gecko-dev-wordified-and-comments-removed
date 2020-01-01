@@ -493,6 +493,17 @@ js
 )
 \
 (
+wildcard
+(
+TESTPATH
+)
+/
+*
+.
+xml
+)
+\
+(
 NULL
 )
 GARBAGE
