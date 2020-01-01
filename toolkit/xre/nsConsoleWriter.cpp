@@ -1,13 +1,6 @@
 #
 include
 "
-NSPRFormatTime
-.
-h
-"
-#
-include
-"
 nsAppRunner
 .
 h

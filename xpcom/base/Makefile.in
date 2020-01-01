@@ -296,10 +296,6 @@ nsGZFileWriter
 .
 h
 \
-NSPRFormatTime
-.
-h
-\
 (
 NULL
 )
