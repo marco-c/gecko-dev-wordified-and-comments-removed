@@ -1078,6 +1078,11 @@ HeightOfARow
 )
 ;
 }
+uint32_t
+GetNumberOfRows
+(
+)
+;
 int32_t
 mStartSelectionIndex
 ;
