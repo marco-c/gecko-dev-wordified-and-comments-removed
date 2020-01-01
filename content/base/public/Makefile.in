@@ -195,10 +195,6 @@ nsXMLNameSpaceMap
 .
 h
 \
-nsIXFormsUtilityService
-.
-h
-\
 nsHostObjectProtocolHandler
 .
 h
