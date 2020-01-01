@@ -93,7 +93,7 @@ JSCLASS_MARK_IS_TRACE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub

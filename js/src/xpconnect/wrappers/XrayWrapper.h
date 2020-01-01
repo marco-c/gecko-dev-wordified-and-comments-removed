@@ -253,6 +253,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 js
 :
 :

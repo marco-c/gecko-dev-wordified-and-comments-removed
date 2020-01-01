@@ -758,7 +758,7 @@ endif
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 SafeGlobalResolve
 JS_ConvertStub

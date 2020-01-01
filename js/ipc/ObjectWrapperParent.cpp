@@ -614,7 +614,7 @@ JS_VALUEIFY
 js
 :
 :
-PropertyOp
+StrictPropertyOp
 ObjectWrapperParent
 :
 :
@@ -1958,6 +1958,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp

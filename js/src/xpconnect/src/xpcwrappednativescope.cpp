@@ -619,7 +619,7 @@ PropertyStub
 js
 :
 :
-PropertyStub
+StrictPropertyStub
 js
 :
 :

@@ -515,6 +515,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp
@@ -579,6 +581,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp

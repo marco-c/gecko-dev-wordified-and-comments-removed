@@ -35,7 +35,7 @@ name
 JSPropertyOp
 getter
 ;
-JSPropertyOp
+JSStrictPropertyOp
 setter
 ;
 }
@@ -618,6 +618,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp

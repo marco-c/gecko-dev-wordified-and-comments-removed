@@ -12114,7 +12114,7 @@ JSCLASS_GLOBAL_FLAGS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 sandbox_enumerate
 sandbox_resolve
 sandbox_convert

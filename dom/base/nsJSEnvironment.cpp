@@ -13259,7 +13259,7 @@ window
 "
 window
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
