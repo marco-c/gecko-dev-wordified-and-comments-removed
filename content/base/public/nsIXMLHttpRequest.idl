@@ -1970,6 +1970,9 @@ send
 void
 send
 (
+[
+optional
+]
 in
 nsIVariant
 body
