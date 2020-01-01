@@ -474,7 +474,7 @@ nsComboboxControlFrame
 nsComboboxControlFrame
 :
 :
-mFocused
+sFocused
 =
 nsnull
 ;
@@ -1428,7 +1428,7 @@ ComboboxFocusSet
 (
 )
 ;
-mFocused
+sFocused
 =
 this
 ;
@@ -1459,7 +1459,7 @@ return
 }
 else
 {
-mFocused
+sFocused
 =
 nsnull
 ;
@@ -4235,7 +4235,7 @@ aDoDropDown
 {
 if
 (
-mFocused
+sFocused
 =
 =
 this
@@ -6851,7 +6851,7 @@ NS_EVENT_STATE_DISABLED
 )
 |
 |
-mFocused
+sFocused
 !
 =
 this
