@@ -6,13 +6,6 @@ define
 CAIRO_REGION_PRIVATE_H
 #
 include
-<
-pixman
-.
-h
->
-#
-include
 "
 cairo
 -
@@ -33,6 +26,14 @@ private
 .
 h
 "
+#
+include
+<
+pixman
+.
+h
+>
+CAIRO_BEGIN_DECLS
 struct
 _cairo_region
 {
@@ -225,5 +226,6 @@ cairo_rectangle_int_t
 box
 )
 ;
+CAIRO_END_DECLS
 #
 endif

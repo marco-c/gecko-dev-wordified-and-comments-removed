@@ -12,7 +12,7 @@ cairo
 h
 "
 #
-ifdef
+if
 CAIRO_HAS_DIRECTFB_SURFACE
 #
 include

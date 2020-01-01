@@ -5,18 +5,6 @@ CAIRO_MUTEX_PRIVATE_H
 define
 CAIRO_MUTEX_PRIVATE_H
 #
-if
-HAVE_CONFIG_H
-#
-include
-"
-config
-.
-h
-"
-#
-endif
-#
 include
 "
 cairo
@@ -77,6 +65,7 @@ cairo_private
 extern
 cairo_mutex_t
 mutex
+;
 #
 include
 "

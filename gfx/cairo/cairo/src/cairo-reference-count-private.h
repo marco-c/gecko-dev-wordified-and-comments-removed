@@ -5,18 +5,6 @@ CAIRO_REFRENCE_COUNT_PRIVATE_H
 define
 CAIRO_REFRENCE_COUNT_PRIVATE_H
 #
-if
-HAVE_CONFIG_H
-#
-include
-"
-config
-.
-h
-"
-#
-endif
-#
 include
 "
 cairo
@@ -27,7 +15,6 @@ private
 .
 h
 "
-CAIRO_BEGIN_DECLS
 typedef
 struct
 {
@@ -169,6 +156,5 @@ RC
 >
 0
 )
-CAIRO_END_DECLS
 #
 endif

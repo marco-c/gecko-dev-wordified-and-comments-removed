@@ -64,7 +64,7 @@ surface
 )
 ;
 #
-ifdef
+if
 CAIRO_HAS_QUARTZ_FONT
 cairo_public
 cairo_font_face_t

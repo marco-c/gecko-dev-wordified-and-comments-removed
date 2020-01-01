@@ -18,6 +18,10 @@ h
 -
 a
 /
+gfx
+/
+cairo
+/
 cairo
 /
 src
@@ -40,6 +44,10 @@ Jun
 +
 +
 b
+/
+gfx
+/
+cairo
 /
 cairo
 /

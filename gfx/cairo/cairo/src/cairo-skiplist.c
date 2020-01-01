@@ -1640,6 +1640,10 @@ i
 level
 prev_index
 ;
+elt
+=
+NULL
+;
 next
 =
 list
@@ -1663,6 +1667,17 @@ i
 =
 0
 ;
+)
+{
+if
+(
+elt
+!
+=
+next
+[
+i
+]
 )
 {
 for
@@ -1725,6 +1740,7 @@ cmp
 )
 break
 ;
+}
 }
 update
 [

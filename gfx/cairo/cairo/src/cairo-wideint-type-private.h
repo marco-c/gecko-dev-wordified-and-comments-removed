@@ -5,6 +5,13 @@ CAIRO_WIDEINT_TYPE_H
 define
 CAIRO_WIDEINT_TYPE_H
 #
+include
+"
+cairo
+.
+h
+"
+#
 if
 HAVE_CONFIG_H
 #

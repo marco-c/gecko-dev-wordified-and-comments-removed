@@ -504,6 +504,16 @@ cairo_color_t
 color_b
 )
 {
+if
+(
+color_a
+=
+=
+color_b
+)
+return
+TRUE
+;
 return
 color_a
 -

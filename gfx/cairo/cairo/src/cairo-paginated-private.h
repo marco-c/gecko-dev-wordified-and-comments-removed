@@ -68,6 +68,17 @@ cairo_bool_t
 fallbacks_required
 )
 ;
+cairo_bool_t
+(
+*
+supports_fine_grained_fallbacks
+)
+(
+void
+*
+surface
+)
+;
 }
 ;
 cairo_private

@@ -276,6 +276,12 @@ int
 width
 int
 height
+int
+*
+clone_offset_x
+int
+*
+clone_offset_y
 cairo_surface_t
 *
 *

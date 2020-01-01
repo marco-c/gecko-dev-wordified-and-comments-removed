@@ -87,6 +87,9 @@ cairo_surface_t
 surface
 )
 ;
+#
+if
+CAIRO_HAS_WIN32_FONT
 cairo_public
 cairo_font_face_t
 *
@@ -171,6 +174,8 @@ cairo_matrix_t
 device_to_logical
 )
 ;
+#
+endif
 CAIRO_END_DECLS
 #
 else

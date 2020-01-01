@@ -183,7 +183,7 @@ int
 num_clusters
 ;
 cairo_bool_t
-backward
+cluster_flags
 ;
 cairo_scaled_font_t
 *

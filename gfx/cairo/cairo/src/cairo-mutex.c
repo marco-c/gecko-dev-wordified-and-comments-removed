@@ -26,6 +26,7 @@ cairo_mutex_t
 mutex
 =
 CAIRO_MUTEX_NIL_INITIALIZER
+;
 #
 include
 "
@@ -102,6 +103,7 @@ CAIRO_MUTEX_INIT
 (
 mutex
 )
+;
 #
 include
 "
@@ -151,6 +153,7 @@ CAIRO_MUTEX_FINI
 (
 mutex
 )
+;
 #
 include
 "

@@ -324,6 +324,14 @@ stream
 cairo_private
 cairo_output_stream_t
 *
+_cairo_null_stream_create
+(
+void
+)
+;
+cairo_private
+cairo_output_stream_t
+*
 _cairo_base85_stream_create
 (
 cairo_output_stream_t
