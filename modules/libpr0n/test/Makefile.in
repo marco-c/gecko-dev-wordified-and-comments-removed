@@ -438,12 +438,15 @@ test_libpr0n
 XPCSHELL_TESTS
 =
 unit
+#
 ifdef
 MOZ_MOCHITEST
+#
 DIRS
 +
 =
 mochitest
+#
 endif
 include
 (
