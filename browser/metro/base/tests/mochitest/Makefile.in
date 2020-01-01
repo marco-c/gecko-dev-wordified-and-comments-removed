@@ -248,6 +248,10 @@ browser_selection_frame_inputs
 .
 html
 \
+browser_selection_urlbar
+.
+js
+\
 (
 NULL
 )
