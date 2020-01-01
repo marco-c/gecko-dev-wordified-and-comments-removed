@@ -4238,6 +4238,10 @@ cb
 {
 if
 (
+!
+mChannel
+|
+|
 aOldChannel
 !
 =
