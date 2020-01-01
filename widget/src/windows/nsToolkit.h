@@ -170,12 +170,6 @@ PRThread
 aThread
 )
 ;
-PRBool
-UserIsMovingWindow
-(
-void
-)
-;
 private
 :
 ~
