@@ -434,6 +434,8 @@ _je_malloc_message
 #
 endif
 #
+endif
+#
 include
 <
 mozilla
@@ -452,5 +454,3 @@ MOZ_CRASH
 )
 ;
 }
-#
-endif

@@ -221,6 +221,13 @@ DMOZ_JEMALLOC_HARD_ASSERTS
 -
 DMOZ_TEMP_INVESTIGATION
 endif
+DEFINES
++
+=
+-
+Dabort
+=
+moz_abort
 include
 (
 topsrcdir
