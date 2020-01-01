@@ -112,6 +112,13 @@ pth
 python
 /
 psutil
+which
+.
+pth
+:
+python
+/
+which
 mozilla
 .
 pth
