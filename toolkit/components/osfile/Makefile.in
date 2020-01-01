@@ -111,16 +111,6 @@ jsm
 (
 NULL
 )
-CPPSRCS
-=
-\
-osfileutils
-.
-cpp
-\
-(
-NULL
-)
 ifdef
 ENABLE_TESTS
 DIRS
