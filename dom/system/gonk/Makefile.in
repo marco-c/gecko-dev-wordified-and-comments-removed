@@ -329,6 +329,10 @@ nsVolumeStat
 .
 cpp
 \
+TimeSetting
+.
+cpp
+\
 Volume
 .
 cpp
