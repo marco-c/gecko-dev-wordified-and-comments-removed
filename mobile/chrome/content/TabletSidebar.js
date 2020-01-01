@@ -134,6 +134,11 @@ ViewableAreaObserver
 .
 update
 (
+{
+setIgnoreTabletSidebar
+:
+true
+}
 )
 ;
 let
@@ -307,6 +312,11 @@ ViewableAreaObserver
 .
 update
 (
+{
+setIgnoreTabletSidebar
+:
+false
+}
 )
 ;
 }
