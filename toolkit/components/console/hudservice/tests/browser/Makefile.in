@@ -520,6 +520,14 @@ error
 .
 html
 \
+test
+-
+duplicate
+-
+error
+.
+html
+\
 (
 NULL
 )
