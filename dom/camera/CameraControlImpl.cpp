@@ -2090,6 +2090,7 @@ DOMCameraPreview
 mCameraControl
 mWidth
 mHeight
+mWindowId
 mFramesPerSecond
 )
 ;

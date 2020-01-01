@@ -100,6 +100,8 @@ uint32_t
 aWidth
 uint32_t
 aHeight
+uint64_t
+aWindowId
 uint32_t
 aFramesPerSecond
 =
