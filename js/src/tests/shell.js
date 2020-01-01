@@ -3191,6 +3191,7 @@ optionsClear
 ;
 for
 (
+var
 optionName
 in
 options
@@ -3198,6 +3199,18 @@ options
 initvalues
 )
 {
+if
+(
+!
+options
+.
+hasOwnProperty
+(
+optionName
+)
+)
+continue
+;
 options
 (
 optionName

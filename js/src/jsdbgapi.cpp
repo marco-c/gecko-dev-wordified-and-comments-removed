@@ -7110,6 +7110,12 @@ chars
 length
 filename
 lineno
+cx
+-
+>
+findVersion
+(
+)
 NULL
 UpvarCookie
 :
