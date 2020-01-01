@@ -32,6 +32,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 Accessible
 ;
@@ -49,6 +58,7 @@ NS_ERROR_MODULE_GENERAL
 )
 class
 nsAccessiblePivot
+MOZ_FINAL
 :
 public
 nsIAccessiblePivot
