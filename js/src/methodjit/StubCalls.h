@@ -1391,8 +1391,6 @@ IterNext
 VMFrame
 &
 f
-int32
-offset
 )
 ;
 JSBool
