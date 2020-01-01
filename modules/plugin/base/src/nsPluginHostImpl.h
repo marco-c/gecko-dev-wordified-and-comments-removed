@@ -337,10 +337,6 @@ aHost
 void
 TryUnloadPlugin
 (
-PRBool
-aForceShutdown
-=
-PR_FALSE
 )
 ;
 void
