@@ -1900,6 +1900,16 @@ layout
 -
 large
 /
+site_identity_popup
+.
+xml
+\
+res
+/
+layout
+-
+large
+/
 tabs_panel_toolbar
 .
 xml

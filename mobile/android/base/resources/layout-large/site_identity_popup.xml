@@ -123,7 +123,9 @@ android
 layout_width
 =
 "
-fill_parent
+dimen
+/
+site_identity_popup_width
 "
 android
 :
