@@ -3204,6 +3204,9 @@ true
 case
 401
 :
+case
+404
+:
 if
 (
 this
