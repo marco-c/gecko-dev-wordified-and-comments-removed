@@ -4581,6 +4581,23 @@ busybox
 options
 .
 busybox
+        
+if
+options
+.
+symbolsPath
+:
+            
+kwargs
+[
+'
+symbols_path
+'
+]
+=
+options
+.
+symbolsPath
     
 if
 options
