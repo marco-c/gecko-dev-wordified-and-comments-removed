@@ -131,6 +131,14 @@ cx
 )
 ;
 nsresult
+InitNetd
+(
+JSContext
+*
+cx
+)
+;
+nsresult
 InitWifi
 (
 JSContext
@@ -143,6 +151,12 @@ nsCOMPtr
 nsIWorkerHolder
 >
 mRILWorker
+;
+nsCOMPtr
+<
+nsIWorkerHolder
+>
+mNetdWorker
 ;
 nsCOMPtr
 <
