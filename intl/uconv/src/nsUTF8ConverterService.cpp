@@ -78,6 +78,8 @@ const
 char
 *
 aCharset
+bool
+aAllowSubstitution
 nsACString
 &
 aResult
@@ -144,6 +146,22 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+if
+(
+!
+aAllowSubstitution
+)
+unicodeDecoder
+-
+>
+SetInputErrorBehavior
+(
+nsIUnicodeDecoder
+:
+:
+kOnError_Signal
 )
 ;
 PRInt32
@@ -274,6 +292,8 @@ char
 aCharset
 bool
 aSkipCheck
+bool
+aAllowSubstitution
 nsACString
 &
 aUTF8String
@@ -320,6 +340,7 @@ ToUTF8
 (
 aString
 aCharset
+aAllowSubstitution
 aUTF8String
 )
 ;
@@ -460,6 +481,7 @@ ToUTF8
 (
 unescapedSpec
 aCharset
+true
 aUTF8Spec
 )
 ;
