@@ -97,6 +97,14 @@ void
 aOutAccessible
 )
 ;
+NS_IMETHOD
+FireAccessibleEvent
+(
+nsIAccessibleEvent
+*
+aEvent
+)
+;
 AtkObject
 *
 GetAtkObject
