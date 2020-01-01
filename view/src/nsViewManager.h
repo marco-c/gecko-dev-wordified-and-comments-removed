@@ -598,6 +598,14 @@ const
 nsRegion
 &
 aRegion
+const
+nsIntRegion
+&
+aIntRegion
+PRBool
+aPaintDefaultBackground
+PRBool
+aWillSendDidPaint
 )
 ;
 void
