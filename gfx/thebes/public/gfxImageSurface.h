@@ -93,6 +93,14 @@ return
 mData
 ;
 }
+PRBool
+CopyFrom
+(
+gfxImageSurface
+*
+other
+)
+;
 private
 :
 long

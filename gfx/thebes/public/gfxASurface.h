@@ -87,6 +87,7 @@ SurfaceTypeDirectFB
 SurfaceTypeSVG
 SurfaceTypeOS2
 SurfaceTypeWin32Printing
+SurfaceTypeQuartzImage
 }
 gfxSurfaceType
 ;

@@ -684,8 +684,12 @@ cairo_quartz_surface_get_cg_context
 _moz_cairo_quartz_surface_get_cg_context
 #
 define
-cairo_quartz_surface_get_image
-_moz_cairo_quartz_surface_get_image
+cairo_quartz_image_surface_create
+_moz_cairo_quartz_image_surface_create
+#
+define
+cairo_quartz_image_surface_get_image
+_moz_cairo_quartz_image_surface_get_image
 #
 define
 cairo_rectangle

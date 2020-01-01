@@ -54,7 +54,7 @@ XP_MACOSX
 #
 include
 "
-gfxQuartzSurface
+gfxQuartzImageSurface
 .
 h
 "
@@ -558,7 +558,7 @@ XP_MACOSX
 )
 nsRefPtr
 <
-gfxQuartzSurface
+gfxQuartzImageSurface
 >
 mQuartzSurface
 ;
