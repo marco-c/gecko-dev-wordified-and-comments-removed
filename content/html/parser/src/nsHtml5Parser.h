@@ -486,6 +486,18 @@ Reset
 (
 )
 ;
+virtual
+void
+ScriptExecuting
+(
+)
+;
+virtual
+void
+ScriptDidExecute
+(
+)
+;
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 void
@@ -512,7 +524,7 @@ m
 )
 ;
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 )
 ;
@@ -729,6 +741,9 @@ nsCOMPtr
 nsIContent
 >
 mScriptElement
+;
+PRUint32
+mScriptsExecuting
 ;
 void
 *
