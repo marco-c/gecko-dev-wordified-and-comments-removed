@@ -73,7 +73,7 @@ sizeof
 (
 nsStaticAtomStringType
 )
-NS_L
+MOZ_UTF16
 (
 str_data
 )
