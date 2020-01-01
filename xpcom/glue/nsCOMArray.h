@@ -717,13 +717,15 @@ uint32_t
 aCapacity
 )
 {
-return
 mArray
 .
 SetCapacity
 (
 aCapacity
 )
+;
+return
+true
 ;
 }
 uint32_t
