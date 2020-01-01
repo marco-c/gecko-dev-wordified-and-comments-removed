@@ -54,6 +54,8 @@ referencesVia
 (
 o
 '
+type
+;
 type_proto
 '
 C
