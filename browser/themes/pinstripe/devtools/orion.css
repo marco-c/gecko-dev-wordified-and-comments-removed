@@ -579,6 +579,10 @@ center
 }
 .
 line_caret
+.
+annotationLine
+.
+currentLine
 {
 background
 :
@@ -590,6 +594,12 @@ dae2ee
 readonly
 .
 line_caret
+.
+readonly
+.
+annotationLine
+.
+currentLine
 {
 background
 :
