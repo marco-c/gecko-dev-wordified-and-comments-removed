@@ -4879,7 +4879,6 @@ jsm
 #
 ifdef
 XP_MACOSX
-LICENSE
 extensions
 /
 inspector
@@ -6114,3 +6113,4 @@ components
 microsummaries
 .
 xpt
+LICENSE
