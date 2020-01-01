@@ -584,6 +584,9 @@ mTheoraInfo
 PRInt64
 mPageOffset
 ;
+nsIntRect
+mPicture
+;
 }
 ;
 #

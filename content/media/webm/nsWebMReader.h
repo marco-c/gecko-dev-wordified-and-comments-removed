@@ -603,6 +603,12 @@ nsWebMBufferedState
 >
 mBufferedState
 ;
+nsIntSize
+mInitialFrame
+;
+nsIntRect
+mPicture
+;
 PRPackedBool
 mHasVideo
 ;

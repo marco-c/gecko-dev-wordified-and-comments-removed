@@ -823,8 +823,6 @@ const
 gfxIntSize
 &
 aSize
-float
-aPixelAspectRatio
 Image
 *
 aImage
@@ -909,9 +907,6 @@ mDataTime
 ;
 Mutex
 mVideoUpdateLock
-;
-float
-mPixelAspectRatio
 ;
 PRUint32
 mFrameBufferLength

@@ -571,10 +571,6 @@ VideoData
 aData
 TimeStamp
 aTarget
-nsIntSize
-aDisplaySize
-float
-aAspectRatio
 )
 ;
 void
