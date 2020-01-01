@@ -266,6 +266,8 @@ RasterImage
 >
 mImage
 ;
+private
+:
 nsCOMPtr
 <
 imgIDecoderObserver
