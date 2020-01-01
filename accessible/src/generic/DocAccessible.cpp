@@ -5269,7 +5269,7 @@ return
 nullptr
 ;
 }
-bool
+void
 DocAccessible
 :
 :
@@ -5283,14 +5283,6 @@ nsRoleMapEntry
 aRoleMapEntry
 )
 {
-if
-(
-!
-aAccessible
-)
-return
-false
-;
 if
 (
 aAccessible
@@ -5366,9 +5358,6 @@ AsElement
 (
 )
 )
-;
-return
-true
 ;
 }
 void

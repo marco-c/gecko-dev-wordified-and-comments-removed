@@ -776,7 +776,7 @@ nullptr
 )
 ;
 }
-bool
+void
 BindToDocument
 (
 Accessible

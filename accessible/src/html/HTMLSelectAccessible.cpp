@@ -1508,9 +1508,6 @@ mContent
 mDoc
 )
 ;
-if
-(
-!
 Document
 (
 )
@@ -1521,8 +1518,6 @@ BindToDocument
 mListAccessible
 nullptr
 )
-)
-return
 ;
 }
 if
