@@ -210,10 +210,6 @@ NSTextInput
 >
 {
 private
-NSWindow
-*
-mWindow
-;
 nsChildView
 *
 mGeckoChild
