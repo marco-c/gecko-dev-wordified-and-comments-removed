@@ -65,13 +65,6 @@ defined
 (
 MOZ_CRASHREPORTER
 )
-&
-&
-!
-defined
-(
-XP_MACOSX
-)
 if
 (
 argc
@@ -146,7 +139,6 @@ crashReporterArg
 !
 XRE_SetRemoteExceptionHandler
 (
-NULL
 )
 )
 return
