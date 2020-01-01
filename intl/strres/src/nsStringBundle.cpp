@@ -930,7 +930,7 @@ aResult
 )
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsStringBundle
 nsIStringBundle
@@ -2335,7 +2335,7 @@ service
 )
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 nsStringBundleService
 nsIStringBundleService
