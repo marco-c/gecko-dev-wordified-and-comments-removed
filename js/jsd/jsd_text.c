@@ -309,7 +309,6 @@ _newSource
 JSDContext
 *
 jsdc
-const
 char
 *
 url
@@ -345,10 +344,6 @@ jsdsrc
 >
 url
 =
-(
-char
-*
-)
 url
 ;
 jsdsrc
@@ -460,7 +455,6 @@ _addSource
 JSDContext
 *
 jsdc
-const
 char
 *
 url
@@ -802,7 +796,6 @@ file_url_prefix
 -
 1
 )
-const
 char
 *
 jsd_BuildNormalizedURL
@@ -1517,7 +1510,6 @@ JSDSourceText
 *
 jsdsrc
 ;
-const
 char
 *
 new_url_string
@@ -1574,20 +1566,11 @@ jsdsrc
 doingEval
 )
 {
-#
-ifdef
-LIVEWIRE
 free
 (
-(
-char
-*
-)
 new_url_string
 )
 ;
-#
-endif
 JSD_UNLOCK_SOURCE_TEXT
 (
 jsdc
