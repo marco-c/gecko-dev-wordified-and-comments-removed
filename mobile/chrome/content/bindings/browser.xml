@@ -2494,17 +2494,6 @@ feeds
 =
 null
 ;
-if
-(
-aMessage
-.
-windowId
-=
-=
-this
-.
-contentWindowId
-)
 this
 .
 scale
