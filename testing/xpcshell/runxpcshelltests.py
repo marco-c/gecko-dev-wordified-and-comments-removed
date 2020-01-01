@@ -1905,13 +1905,13 @@ testfiles
         
 testfiles
 =
+[
 os
 .
 path
 .
 abspath
 (
-[
 os
 .
 path
@@ -1923,8 +1923,8 @@ self
 .
 singleFile
 )
-]
 )
+]
       
 else
 :
@@ -4011,6 +4011,13 @@ runTests
 args
 [
 0
+]
+testdirs
+=
+args
+[
+1
+:
 ]
 *
 *
