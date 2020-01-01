@@ -6183,8 +6183,6 @@ fp
 3d
 %
 08x
-%
-5lu
 "
 i
 (
@@ -6194,14 +6192,6 @@ he
 -
 >
 keyHash
-(
-unsigned
-long
-)
-atom
--
->
-number
 )
 ;
 if
