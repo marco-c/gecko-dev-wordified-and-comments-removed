@@ -197,7 +197,7 @@ Log4Moz
 Level
 [
 "
-All
+INFO
 "
 ]
 ;
