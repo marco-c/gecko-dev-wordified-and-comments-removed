@@ -9916,6 +9916,15 @@ t
 ]
 ;
 }
+if
+(
+aTabs
+.
+length
+>
+0
+)
+{
 let
 tabScrollBoxObject
 =
@@ -10091,6 +10100,7 @@ aTabs
 0
 ]
 ;
+}
 }
 if
 (
