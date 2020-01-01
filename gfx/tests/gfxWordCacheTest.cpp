@@ -417,7 +417,13 @@ size
 gfxASurface
 :
 :
+ContentFromFormat
+(
+gfxASurface
+:
+:
 ImageFormatRGB24
+)
 )
 ;
 gfxContext

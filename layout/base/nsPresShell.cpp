@@ -36215,7 +36215,13 @@ height
 gfxASurface
 :
 :
+ContentFromFormat
+(
+gfxASurface
+:
+:
 ImageFormatARGB32
+)
 )
 ;
 NS_ENSURE_TRUE

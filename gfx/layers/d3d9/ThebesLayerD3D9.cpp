@@ -1628,7 +1628,13 @@ bounds
 .
 height
 )
+gfxASurface
+:
+:
+ContentFromFormat
+(
 imageFormat
+)
 )
 ;
 }
