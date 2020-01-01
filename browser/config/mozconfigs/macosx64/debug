@@ -1,3 +1,11 @@
+.
+topsrcdir
+/
+build
+/
+macosx
+/
+common
 ac_add_options
 -
 -
