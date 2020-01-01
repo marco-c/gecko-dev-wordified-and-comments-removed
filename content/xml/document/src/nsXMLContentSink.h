@@ -263,6 +263,15 @@ PRBool
 aIsAlternate
 )
 ;
+virtual
+nsresult
+ProcessMETATag
+(
+nsIContent
+*
+aContent
+)
+;
 protected
 :
 virtual
