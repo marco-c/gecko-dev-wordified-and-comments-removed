@@ -1,10 +1,6 @@
 #
-if
-!
-defined
-(
+ifndef
 GLCONSTS_H_
-)
 #
 define
 GLCONSTS_H_

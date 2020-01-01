@@ -198,12 +198,8 @@ MPL
                     
 '
 #
-if
-!
-defined
-(
+ifndef
 GLCONSTS_H_
-)
 '
                     
 '
@@ -234,24 +230,23 @@ DIRECTLY
                     
 '
 *
-THIS
-IS
-A
-GENERATED
-FILE
-DIRECTLY
-FROM
-THE
-OFFCIAL
-OPENGL
-REGISTRY
+This
+is
+a
+file
+generated
+directly
+from
+the
+official
+OpenGL
+registry
 '
                     
 '
 *
-XML
-AVAILABLE
-AT
+xml
+available
 http
 :
 /
@@ -346,16 +341,24 @@ name
         
 whitespace
 =
-max
-(
 60
 -
 len
 (
 define
 )
+        
+if
+whitespace
+<
 0
-)
+:
+            
+whitespace
+=
+whitespace
+%
+8
         
 self
 .
