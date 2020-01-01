@@ -2618,13 +2618,6 @@ return
 false
 ;
 }
-if
-(
-desc
--
->
-obj
-)
 desc
 -
 >
