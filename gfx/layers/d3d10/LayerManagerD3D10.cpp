@@ -3506,6 +3506,13 @@ Present
 )
 ;
 }
+LayerManager
+:
+:
+PostPresent
+(
+)
+;
 }
 void
 LayerManagerD3D10
