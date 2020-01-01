@@ -8335,7 +8335,7 @@ isUnusedOrHasUnknownReg
 (
 )
 ;
-findSpecificRegForUnallocated
+findSpecificRegFor
 (
 lhs
 FST0
@@ -8361,7 +8361,7 @@ isUnusedOrHasUnknownReg
 (
 )
 ;
-findSpecificRegForUnallocated
+findSpecificRegFor
 (
 lhs
 FST0
