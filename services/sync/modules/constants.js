@@ -501,6 +501,15 @@ reason
 .
 over_quota
 "
+PROLONGED_SYNC_FAILURE
+:
+"
+error
+.
+sync
+.
+prolonged_failure
+"
 RESPONSE_OVER_QUOTA
 :
 "
