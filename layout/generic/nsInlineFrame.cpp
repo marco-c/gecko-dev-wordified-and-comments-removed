@@ -1,6 +1,13 @@
 #
 include
 "
+nsInlineFrame
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -8,7 +15,7 @@ h
 #
 include
 "
-nsInlineFrame
+nsLineLayout
 .
 h
 "

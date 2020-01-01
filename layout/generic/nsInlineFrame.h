@@ -20,13 +20,9 @@ nsContainerFrame
 .
 h
 "
-#
-include
-"
+class
 nsLineLayout
-.
-h
-"
+;
 #
 define
 NS_INLINE_FRAME_BIDI_VISUAL_STATE_IS_SET
