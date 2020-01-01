@@ -453,6 +453,10 @@ can_play_type_wave
 .
 js
 \
+test_autobuffer
+.
+html
+\
 test_autoplay
 .
 html
@@ -515,6 +519,10 @@ test_access_control
 html
 \
 file_access_controls
+.
+html
+\
+test_autobuffer2
 .
 html
 \

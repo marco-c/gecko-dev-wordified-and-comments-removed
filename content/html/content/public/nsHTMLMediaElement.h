@@ -547,6 +547,11 @@ PRBool
 aDelay
 )
 ;
+void
+StopSuspendingAfterFirstFrame
+(
+)
+;
 nsresult
 OnChannelRedirect
 (
@@ -660,6 +665,12 @@ mDelayingLoadEvent
 ;
 PRPackedBool
 mIsRunningSelectResource
+;
+PRPackedBool
+mSuspendedAfterFirstFrame
+;
+PRPackedBool
+mAllowSuspendAfterFirstFrame
 ;
 }
 ;
