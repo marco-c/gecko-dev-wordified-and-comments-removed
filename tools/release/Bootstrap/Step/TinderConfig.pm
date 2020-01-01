@@ -1472,7 +1472,7 @@ branches
 branchTag
 .
 '
-l10n
+_l10n
 '
 )
 ;
