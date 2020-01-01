@@ -355,6 +355,14 @@ test_short_gif_header
 .
 html
 \
+INT32_MIN
+.
+bmp
+\
+test_bug865919
+.
+html
+\
 (
 NULL
 )
