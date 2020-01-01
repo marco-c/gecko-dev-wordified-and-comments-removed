@@ -196,13 +196,6 @@ h
 #
 include
 "
-nsIUGenCategory
-.
-h
-"
-#
-include
-"
 nsUnicharUtilCIID
 .
 h
