@@ -2564,7 +2564,7 @@ id
 "
 runTestsButton
 "
-onclick
+oncommand
 =
 "
 runTests
