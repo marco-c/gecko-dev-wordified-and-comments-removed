@@ -1090,7 +1090,7 @@ aProfileId
 )
 ;
 }
-bool
+void
 BluetoothServiceChildProcess
 :
 :
@@ -1125,11 +1125,8 @@ aBlobChild
 )
 )
 ;
-return
-true
-;
 }
-bool
+void
 BluetoothServiceChildProcess
 :
 :
@@ -1155,9 +1152,6 @@ aDeviceAddress
 )
 )
 )
-;
-return
-true
 ;
 }
 void

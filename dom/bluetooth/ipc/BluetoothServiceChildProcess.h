@@ -419,7 +419,7 @@ aRunnable
 MOZ_OVERRIDE
 ;
 virtual
-bool
+void
 SendFile
 (
 const
@@ -439,7 +439,7 @@ aRunnable
 MOZ_OVERRIDE
 ;
 virtual
-bool
+void
 StopSendingFile
 (
 const
