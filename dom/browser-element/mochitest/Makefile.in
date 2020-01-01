@@ -423,6 +423,14 @@ test_browserElement_inproc_SendEvent
 .
 html
 \
+browserElement_ScrollEvent
+.
+js
+\
+test_browserElement_inproc_ScrollEvent
+.
+html
+\
 (
 NULL
 )
@@ -615,6 +623,10 @@ test_browserElement_oop_ContextmenuEvents
 html
 \
 test_browserElement_oop_SendEvent
+.
+html
+\
+test_browserElement_oop_ScrollEvent
 .
 html
 \
