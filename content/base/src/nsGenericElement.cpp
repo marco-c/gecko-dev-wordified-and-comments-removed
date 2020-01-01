@@ -15223,7 +15223,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOM3Document
+nsIDOMDocument
 >
 domDoc
 =
@@ -17518,7 +17518,7 @@ GetOwnerDoc
 {
 nsCOMPtr
 <
-nsIDOM3Document
+nsIDOMDocument
 >
 domDoc
 =

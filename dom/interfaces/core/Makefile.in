@@ -502,10 +502,6 @@ NULL
 XPIDLSRCS
 =
 \
-nsIDOM3Document
-.
-idl
-\
 nsIDOM3Node
 .
 idl
