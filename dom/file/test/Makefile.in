@@ -114,6 +114,10 @@ test_getFileId
 .
 html
 \
+test_location
+.
+html
+\
 test_lockedfile_lifetimes
 .
 html
