@@ -2086,12 +2086,6 @@ trc
 if
 (
 method_
-&
-&
-!
-invalidated
-(
-)
 )
 MarkIonCode
 (

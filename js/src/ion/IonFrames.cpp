@@ -1234,6 +1234,15 @@ ionScript
 )
 )
 {
+IonScript
+:
+:
+Trace
+(
+trc
+ionScript
+)
+;
 }
 else
 if
