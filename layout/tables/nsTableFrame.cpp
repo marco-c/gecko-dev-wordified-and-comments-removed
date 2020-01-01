@@ -21000,7 +21000,7 @@ width
 styleData
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 aSide
 )

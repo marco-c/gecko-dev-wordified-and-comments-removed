@@ -443,7 +443,7 @@ kidReflowState
 mStyleBorder
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 NS_SIDE_RIGHT
 )

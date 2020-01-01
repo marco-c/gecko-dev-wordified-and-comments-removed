@@ -2976,7 +2976,7 @@ mBorderImageSource
 ;
 }
 nscoord
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 mozilla
 :

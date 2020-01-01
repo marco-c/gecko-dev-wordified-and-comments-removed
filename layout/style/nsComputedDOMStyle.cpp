@@ -15970,7 +15970,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 aSide
 )
