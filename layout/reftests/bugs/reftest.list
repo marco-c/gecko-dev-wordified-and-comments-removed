@@ -26811,13 +26811,11 @@ xul
 notref
 .
 xul
-fuzzy
+skip
 -
 if
 (
 azureSkiaGL
-14
-2000
 )
 =
 =
