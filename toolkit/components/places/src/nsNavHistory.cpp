@@ -465,7 +465,7 @@ PR_MSEC_PER_SEC
 )
 #
 define
-VACUUM_IDLE_TIME_IN_MSECS
+LONG_IDLE_TIME_IN_MSECS
 (
 900000
 )
@@ -8119,10 +8119,6 @@ transaction
 (
 mDBConn
 PR_FALSE
-mozIStorageConnection
-:
-:
-TRANSACTION_EXCLUSIVE
 )
 ;
 mozStorageStatementScoper
@@ -14064,7 +14060,7 @@ if
 (
 idleTime
 >
-VACUUM_IDLE_TIME_IN_MSECS
+LONG_IDLE_TIME_IN_MSECS
 )
 {
 PRBool
@@ -14099,17 +14095,6 @@ urlindexTransaction
 (
 mDBConn
 PR_FALSE
-mozIStorageConnection
-:
-:
-TRANSACTION_EXCLUSIVE
-)
-;
-PRTime
-start
-=
-PR_Now
-(
 )
 ;
 rv
