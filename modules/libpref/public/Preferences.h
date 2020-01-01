@@ -576,16 +576,6 @@ aPref
 )
 ;
 static
-PRBool
-HasUserValue
-(
-const
-char
-*
-aPref
-)
-;
-static
 nsresult
 AddStrongObserver
 (
