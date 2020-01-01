@@ -7172,6 +7172,10 @@ lineAreas
 )
 ;
 }
+ClearLineCursor
+(
+)
+;
 return
 nsBlockFrameSuper
 :
