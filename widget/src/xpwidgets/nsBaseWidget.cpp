@@ -2534,6 +2534,13 @@ defined
 (
 ANDROID
 )
+|
+|
+(
+MOZ_PLATFORM_MAEMO
+>
+5
+)
 PRBool
 accelerateByDefault
 =
