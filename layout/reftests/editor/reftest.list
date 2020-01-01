@@ -219,6 +219,16 @@ spellcheck
 ref
 .
 html
+=
+=
+caret_on_focus
+.
+html
+caret_on_focus
+-
+ref
+.
+html
 !
 =
 caret_on_textarea_lastline
