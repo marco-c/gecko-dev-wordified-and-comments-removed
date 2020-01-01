@@ -137,6 +137,11 @@ cpp
 (
 NULL
 )
+DEFINES
++
+=
+-
+DIMPL_MFBT
 include
 (
 topsrcdir
