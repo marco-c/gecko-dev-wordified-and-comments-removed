@@ -8354,7 +8354,7 @@ close
 }
 ;
 let
-browser
+deviceStorage
 =
 Services
 .
@@ -8367,15 +8367,6 @@ navigator
 :
 browser
 "
-)
-;
-let
-deviceStorage
-=
-browser
-.
-getContentWindow
-(
 )
 .
 navigator
