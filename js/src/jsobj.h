@@ -4201,6 +4201,15 @@ caller
 )
 ;
 extern
+JSBool
+js_CheckContentSecurityPolicy
+(
+JSContext
+*
+cx
+)
+;
+extern
 JSObject
 *
 js_GetWrappedObject
