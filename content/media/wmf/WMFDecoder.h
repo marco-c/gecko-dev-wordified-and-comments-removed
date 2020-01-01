@@ -94,6 +94,12 @@ IsEnabled
 (
 )
 ;
+static
+bool
+IsMP3Supported
+(
+)
+;
 }
 ;
 }
