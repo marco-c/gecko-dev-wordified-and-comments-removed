@@ -103,6 +103,10 @@ html
 MOCHITEST_FILES
 =
 \
+test_multiple_alerts
+.
+html
+\
 test_alerts
 .
 html
