@@ -1494,6 +1494,11 @@ true
 >
 <
 menuitem
+id
+=
+"
+context_tabViewNewGroup
+"
 label
 =
 "
