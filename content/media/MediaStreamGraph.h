@@ -2189,6 +2189,12 @@ return
 mGraphUpdatesSent
 ;
 }
+bool
+IsNonRealtime
+(
+)
+const
+;
 void
 StartNonRealtimeProcessing
 (
