@@ -1050,12 +1050,6 @@ vp
 +
 nvals
 ;
-MakeValueRangeGCSafe
-(
-vp
-vpend
-)
-;
 ag
 -
 >

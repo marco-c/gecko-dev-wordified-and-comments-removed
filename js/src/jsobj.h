@@ -2747,6 +2747,17 @@ js
 :
 Value
 *
+getArgsElements
+(
+)
+const
+;
+inline
+js
+:
+:
+Value
+*
 addressOfArgsElement
 (
 uint32
