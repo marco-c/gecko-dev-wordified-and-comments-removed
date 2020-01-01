@@ -60,12 +60,6 @@ ComRegF
 "
 #
 define
-NS_XPCOM_XPTI_REGISTRY_FILE
-"
-XptiRegF
-"
-#
-define
 NS_XPCOM_LIBRARY_FILE
 "
 XpcomLib

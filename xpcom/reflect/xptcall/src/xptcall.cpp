@@ -35,7 +35,9 @@ Equals
 mEntry
 -
 >
-mIID
+IID
+(
+)
 )
 )
 {
@@ -142,7 +144,7 @@ iim
 xptiInterfaceInfoManager
 :
 :
-GetInterfaceInfoManagerNoAddRef
+GetSingleton
 (
 )
 ;

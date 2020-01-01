@@ -941,7 +941,7 @@ iim
 xptiInterfaceInfoManager
 :
 :
-GetInterfaceInfoManagerNoAddRef
+GetSingleton
 (
 )
 ;
