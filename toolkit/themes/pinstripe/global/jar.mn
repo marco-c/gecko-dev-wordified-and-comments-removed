@@ -353,6 +353,7 @@ global
 menulist
 .
 css
+*
 skin
 /
 classic
