@@ -2021,6 +2021,9 @@ PRPackedBool
 mIsOffScreenBrowser
 ;
 PRPackedBool
+mIsActive
+;
+PRPackedBool
 mFiredUnloadEvent
 ;
 PRPackedBool

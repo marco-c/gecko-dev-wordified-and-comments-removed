@@ -493,6 +493,9 @@ mActivating
 PRPackedBool
 mShouldEnableHistory
 ;
+PRPackedBool
+mIsActive
+;
 nativeWindow
 mParentNativeWindow
 ;
