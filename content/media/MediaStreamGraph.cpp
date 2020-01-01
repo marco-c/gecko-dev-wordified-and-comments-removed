@@ -8111,10 +8111,6 @@ mWrapper
 =
 nullptr
 ;
-mMainThreadDestroyed
-=
-true
-;
 GraphImpl
 (
 )
@@ -8128,6 +8124,10 @@ Message
 this
 )
 )
+;
+mMainThreadDestroyed
+=
+true
 ;
 }
 void
