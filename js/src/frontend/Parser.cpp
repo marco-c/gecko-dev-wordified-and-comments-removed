@@ -391,6 +391,13 @@ stmt
 type
 )
 ;
+stmt
+-
+>
+isFunctionBodyBlock
+=
+false
+;
 }
 static
 void

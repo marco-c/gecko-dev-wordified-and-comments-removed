@@ -723,11 +723,6 @@ isBlockScope
 1
 ;
 bool
-isFunctionBodyBlock
-:
-1
-;
-bool
 isForLetBlock
 :
 1
@@ -750,10 +745,6 @@ cx
 )
 :
 isBlockScope
-(
-false
-)
-isFunctionBodyBlock
 (
 false
 )
@@ -871,6 +862,9 @@ downScope
 uint32_t
 blockid
 ;
+bool
+isFunctionBodyBlock
+;
 StmtInfoTC
 (
 JSContext
@@ -881,6 +875,10 @@ cx
 StmtInfoBase
 (
 cx
+)
+isFunctionBodyBlock
+(
+false
 )
 {
 }
