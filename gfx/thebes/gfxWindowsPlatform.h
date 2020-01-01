@@ -779,6 +779,12 @@ GetFTLibrary
 ;
 #
 endif
+static
+bool
+IsOptimus
+(
+)
+;
 protected
 :
 RenderMode
