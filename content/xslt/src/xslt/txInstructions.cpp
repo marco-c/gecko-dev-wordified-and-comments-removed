@@ -171,9 +171,6 @@ nsnull
 frame
 )
 ;
-nsresult
-rv
-=
 aEs
 .
 pushTemplateRule
@@ -183,12 +180,6 @@ mode
 aEs
 .
 mTemplateParams
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 return
@@ -337,8 +328,6 @@ mFrame
 frame
 )
 ;
-rv
-=
 aEs
 .
 pushTemplateRule
@@ -349,12 +338,6 @@ rule
 -
 >
 mParams
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 return
@@ -432,9 +415,6 @@ nsnull
 frame
 )
 ;
-nsresult
-rv
-=
 aEs
 .
 pushTemplateRule
@@ -444,12 +424,6 @@ mMode
 aEs
 .
 mTemplateParams
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 return
@@ -3198,7 +3172,6 @@ txExecutionState
 aEs
 )
 {
-return
 aEs
 .
 pushTemplateRule
@@ -3209,6 +3182,9 @@ txExpandedName
 )
 nsnull
 )
+;
+return
+NS_OK
 ;
 }
 nsresult
