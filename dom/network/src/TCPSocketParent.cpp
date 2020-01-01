@@ -496,6 +496,11 @@ default
 :
 MOZ_NOT_REACHED
 (
+"
+unexpected
+SendableData
+type
+"
 )
 ;
 return

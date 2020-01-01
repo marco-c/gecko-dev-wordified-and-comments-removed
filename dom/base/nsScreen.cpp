@@ -1697,6 +1697,13 @@ true
 }
 MOZ_NOT_REACHED
 (
+"
+unexpected
+lock
+orientation
+permission
+value
+"
 )
 ;
 return
