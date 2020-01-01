@@ -9866,6 +9866,13 @@ copy
 ;
 }
 }
+Tabs
+.
+registerOnTabsChangedListener
+(
+this
+)
+;
 initializeChrome
 (
 passedUri
@@ -10051,13 +10058,6 @@ launching
 )
 ;
 }
-Tabs
-.
-registerOnTabsChangedListener
-(
-this
-)
-;
 if
 (
 cameraView
