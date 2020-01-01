@@ -59,9 +59,6 @@ namespace
 mozilla
 ;
 #
-ifdef
-JS_ASMJS
-#
 include
 "
 ion
@@ -95,6 +92,9 @@ js
 :
 ion
 ;
+#
+ifdef
+JS_ASMJS
 static
 inline
 ParseNode

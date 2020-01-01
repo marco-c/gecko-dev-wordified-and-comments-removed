@@ -48,6 +48,9 @@ using
 namespace
 mozilla
 ;
+#
+ifdef
+JS_ASMJS
 static
 bool
 LinkFail
@@ -2564,3 +2567,5 @@ return
 true
 ;
 }
+#
+endif

@@ -2169,6 +2169,9 @@ fn
 pn_body
 ;
 }
+#
+ifdef
+JS_ION
 if
 (
 fn
@@ -2194,6 +2197,8 @@ script
 return
 false
 ;
+#
+endif
 if
 (
 !
