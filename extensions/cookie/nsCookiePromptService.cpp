@@ -197,9 +197,10 @@ nsICookieAcceptDialog
 :
 CHANGINGCOOKIE
 aChangingCookie
-!
-=
-PR_FALSE
+?
+1
+:
+0
 )
 ;
 nsCOMPtr

@@ -795,9 +795,6 @@ aData
 NS_ASSERTION
 (
 mEnabled
-=
-=
-PR_TRUE
 "
 Should
 not
