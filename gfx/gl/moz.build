@@ -307,6 +307,11 @@ GLTypes
 h
 '
 '
+GfxTexturesReporter
+.
+h
+'
+'
 SharedSurface
 .
 h
@@ -333,6 +338,11 @@ h
 '
 '
 SurfaceTypes
+.
+h
+'
+'
+TextureGarbageBin
 .
 h
 '
@@ -572,6 +582,11 @@ GLTextureImage
 cpp
 '
 '
+GfxTexturesReporter
+.
+cpp
+'
+'
 SharedSurface
 .
 cpp
@@ -603,6 +618,11 @@ cpp
 '
 '
 VBOArena
+.
+cpp
+'
+'
+TextureGarbageBin
 .
 cpp
 '

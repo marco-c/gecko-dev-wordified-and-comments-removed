@@ -172,6 +172,13 @@ nsRegion
 h
 "
 #
+include
+"
+GfxTexturesReporter
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #
