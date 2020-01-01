@@ -876,3 +876,10 @@ p3
 bug488951_yuv_fix
 .
 patch
+patch
+-
+p3
+<
+bug488951_yuv_fix_2
+.
+patch
