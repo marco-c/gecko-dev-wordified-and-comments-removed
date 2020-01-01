@@ -42,7 +42,3 @@ true
 )
 ;
 }
-testEnumerate
-(
-)
-;

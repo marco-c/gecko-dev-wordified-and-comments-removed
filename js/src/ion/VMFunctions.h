@@ -2393,6 +2393,17 @@ res
 ;
 JSObject
 *
+NewInitParallelArray
+(
+JSContext
+*
+cx
+HandleObject
+templateObj
+)
+;
+JSObject
+*
 NewInitArray
 (
 JSContext

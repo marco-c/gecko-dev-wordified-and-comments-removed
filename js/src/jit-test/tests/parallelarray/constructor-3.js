@@ -74,10 +74,7 @@ p
 toString
 (
 )
-bracket
-(
 e
-)
 )
 ;
 }
