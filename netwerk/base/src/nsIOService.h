@@ -461,6 +461,12 @@ mOfflineForProfileChange
 PRPackedBool
 mManageOfflineStatus
 ;
+PRPackedBool
+mSettingOffline
+;
+PRPackedBool
+mSetOfflineValue
+;
 nsCOMPtr
 <
 nsPISocketTransportService
