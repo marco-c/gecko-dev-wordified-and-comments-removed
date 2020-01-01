@@ -20258,6 +20258,9 @@ AC_DEFINE
 (
 JS_METHODJIT
 )
+else
+ENABLE_ION
+=
 fi
 if
 test
