@@ -435,8 +435,7 @@ doTest
 (
 )
 ;
-case
-1
+default
 :
 ok
 (
@@ -462,7 +461,7 @@ doTest
 )
 ;
 case
-2
+4
 :
 ok
 (
@@ -508,7 +507,7 @@ doTest
 )
 ;
 case
-3
+5
 :
 ok
 (
