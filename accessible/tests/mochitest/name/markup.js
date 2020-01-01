@@ -22,14 +22,6 @@ testNames
 (
 )
 {
-enableLogging
-(
-"
-tree
-stack
-"
-)
-;
 var
 request
 =
