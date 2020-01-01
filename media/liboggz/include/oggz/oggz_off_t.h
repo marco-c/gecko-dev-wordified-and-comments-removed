@@ -7,6 +7,15 @@ __OGGZ_OFF_T_H__
 #
 ifdef
 _WIN32
+#
+ifdef
+WINCE
+typedef
+long
+off_t
+;
+#
+endif
 typedef
 off_t
 oggz_off_t
