@@ -1449,13 +1449,13 @@ mChildrenReadOnly
 (
 aReadOnly
 )
-mDynamicContainerType
-(
-aDynamicContainerType
-)
 mOptions
 (
 aOptions
+)
+mDynamicContainerType
+(
+aDynamicContainerType
 )
 {
 }

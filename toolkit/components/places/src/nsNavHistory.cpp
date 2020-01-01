@@ -12305,6 +12305,10 @@ mConditions
 (
 aConditions
 )
+mUseLimit
+(
+aUseLimit
+)
 mResultType
 (
 aOptions
@@ -12349,10 +12353,6 @@ aOptions
 MaxResults
 (
 )
-)
-mUseLimit
-(
-aUseLimit
 )
 mSkipOrderBy
 (
@@ -14479,7 +14479,7 @@ Where
 (
 )
 {
-PRUint32
+PRInt32
 useInnerCondition
 ;
 useInnerCondition
@@ -15380,11 +15380,6 @@ i
 {
 nsCString
 queryClause
-;
-PRInt32
-clauseParameters
-=
-0
 ;
 rv
 =
@@ -16636,7 +16631,7 @@ deletePlaceIdsQueryString
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -22375,7 +22370,7 @@ aQueries
 terms
 )
 ;
-PRUint32
+PRInt32
 queryIndex
 ;
 PRUint16

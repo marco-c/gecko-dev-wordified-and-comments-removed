@@ -6236,14 +6236,6 @@ aItemId
 }
 else
 {
-mozIStorageConnection
-*
-dbConn
-=
-DBConn
-(
-)
-;
 {
 mozStorageStatementScoper
 scope
@@ -7947,9 +7939,7 @@ SetItemDateInternal
 (
 mDBSetItemLastModified
 oldParent
-PR_Now
-(
-)
+now
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7964,9 +7954,7 @@ SetItemDateInternal
 (
 mDBSetItemLastModified
 aNewParent
-PR_Now
-(
-)
+now
 )
 ;
 NS_ENSURE_SUCCESS
