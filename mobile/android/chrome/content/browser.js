@@ -18880,6 +18880,14 @@ false
 this
 .
 _find
+.
+collapseSelection
+(
+)
+;
+this
+.
+_find
 =
 null
 ;
