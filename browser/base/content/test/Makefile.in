@@ -764,10 +764,6 @@ browser_bug797677
 .
 js
 \
-browser_bug832435
-.
-js
-\
 browser_canonizeURL
 .
 js
