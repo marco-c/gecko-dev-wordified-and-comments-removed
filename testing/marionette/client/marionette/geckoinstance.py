@@ -1,8 +1,4 @@
 from
-mozprofile
-import
-Profile
-from
 mozrunner
 import
 Runner
@@ -131,7 +127,7 @@ else
 profile_args
 [
 "
-path_from
+profile
 "
 ]
 =
@@ -147,7 +143,7 @@ self
 .
 runner
 =
-CloneRunner
+Runner
 .
 create
 (
@@ -156,11 +152,11 @@ binary
 self
 .
 bin
-                                         
+                                    
 profile_args
 =
 profile_args
-                                         
+                                    
 cmdargs
 =
 [
@@ -230,15 +226,3 @@ b2gdesktop
 :
 B2GDesktopInstance
 }
-class
-CloneRunner
-(
-Runner
-)
-:
-    
-profile_class
-=
-Profile
-.
-clone
