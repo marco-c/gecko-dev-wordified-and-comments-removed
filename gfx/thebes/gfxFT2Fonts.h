@@ -613,6 +613,8 @@ const
 nsACString
 &
 genericName
+PRBool
+aUseFontSet
 void
 *
 closure
