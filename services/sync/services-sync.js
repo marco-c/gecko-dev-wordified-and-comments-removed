@@ -95,7 +95,7 @@ ui
 .
 syncnow
 "
-false
+true
 )
 ;
 pref
