@@ -10876,7 +10876,8 @@ isForEval
 )
 )
 {
-RawFunction
+JSFunction
+*
 fun
 =
 &

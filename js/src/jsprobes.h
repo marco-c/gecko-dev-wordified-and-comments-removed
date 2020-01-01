@@ -110,7 +110,8 @@ enterScript
 JSContext
 *
 RawScript
-RawFunction
+JSFunction
+*
 StackFrame
 *
 )
@@ -121,7 +122,8 @@ exitScript
 JSContext
 *
 RawScript
-RawFunction
+JSFunction
+*
 StackFrame
 *
 )
@@ -282,7 +284,8 @@ DTraceEnterJSFun
 JSContext
 *
 cx
-RawFunction
+JSFunction
+*
 fun
 RawScript
 script
@@ -294,7 +297,8 @@ DTraceExitJSFun
 JSContext
 *
 cx
-RawFunction
+JSFunction
+*
 fun
 RawScript
 script
@@ -396,7 +400,8 @@ JSContext
 cx
 RawScript
 script
-RawFunction
+JSFunction
+*
 maybeFun
 StackFrame
 *
@@ -516,7 +521,8 @@ JSContext
 cx
 RawScript
 script
-RawFunction
+JSFunction
+*
 maybeFun
 StackFrame
 *

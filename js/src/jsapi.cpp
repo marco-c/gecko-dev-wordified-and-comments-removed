@@ -25057,7 +25057,8 @@ JS_FALSE
 }
 else
 {
-RawFunction
+JSFunction
+*
 fun
 =
 DefineFunction

@@ -280,7 +280,8 @@ inline
 bool
 CanIonCompile
 (
-RawFunction
+JSFunction
+*
 fun
 ExecutionMode
 cmode

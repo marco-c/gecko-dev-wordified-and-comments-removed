@@ -8699,7 +8699,8 @@ argslot
 )
 )
 ;
-RawFunction
+JSFunction
+*
 target
 =
 call
@@ -9776,7 +9777,8 @@ hasSingleTarget
 )
 )
 {
-RawFunction
+JSFunction
+*
 target
 =
 apply

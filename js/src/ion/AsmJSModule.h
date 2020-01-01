@@ -1999,7 +1999,8 @@ counts
 bool
 addExportedFunction
 (
-RawFunction
+JSFunction
+*
 fun
 PropertyName
 *

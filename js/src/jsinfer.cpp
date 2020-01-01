@@ -6855,7 +6855,8 @@ JSID_VOID
 }
 static
 inline
-RawFunction
+JSFunction
+*
 CloneCallee
 (
 JSContext
@@ -6870,7 +6871,8 @@ jsbytecode
 pc
 )
 {
-RawFunction
+JSFunction
+*
 callee
 =
 CloneFunctionAtCallsite

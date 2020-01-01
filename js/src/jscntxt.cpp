@@ -1233,7 +1233,8 @@ removeFront
 }
 }
 }
-RawFunction
+JSFunction
+*
 js
 :
 :
