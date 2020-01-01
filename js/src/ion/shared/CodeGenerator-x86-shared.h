@@ -27,6 +27,9 @@ class
 OutOfLineBailout
 ;
 class
+OutOfLineUndoALUOperation
+;
+class
 MulNegativeZeroCheck
 ;
 class
@@ -675,6 +678,14 @@ bool
 visitOutOfLineBailout
 (
 OutOfLineBailout
+*
+ool
+)
+;
+bool
+visitOutOfLineUndoALUOperation
+(
+OutOfLineUndoALUOperation
 *
 ool
 )
