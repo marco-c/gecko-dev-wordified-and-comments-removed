@@ -82,3 +82,10 @@ include
 CoreServices
 .
 patch
+patch
+-
+p3
+<
+bug495794_closeAudio
+.
+patch
