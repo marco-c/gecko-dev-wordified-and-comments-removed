@@ -49,6 +49,8 @@ content
 /
 test
 /
+social
+/
 social_sidebar
 .
 html
@@ -73,6 +75,8 @@ base
 content
 /
 test
+/
+social
 /
 social_worker
 .
@@ -777,6 +781,8 @@ content
 /
 test
 /
+social
+/
 social_chat
 .
 html
@@ -1297,6 +1303,8 @@ base
 content
 /
 test
+/
+social
 /
 social_chat
 .
@@ -3515,6 +3523,8 @@ content
 /
 test
 /
+social
+/
 social_chat
 .
 html
@@ -3700,6 +3710,8 @@ base
 content
 /
 test
+/
+social
 /
 social_chat
 .
@@ -4040,6 +4052,8 @@ base
 content
 /
 test
+/
+social
 /
 social_chat
 .
@@ -4545,6 +4559,8 @@ base
 content
 /
 test
+/
+social
 /
 social_chat
 .

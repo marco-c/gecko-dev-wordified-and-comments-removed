@@ -922,6 +922,8 @@ content
 /
 test
 /
+social
+/
 social_panel
 .
 html
@@ -1060,6 +1062,8 @@ content
 /
 test
 /
+social
+/
 social_share_image
 .
 png
@@ -1084,6 +1088,8 @@ base
 content
 /
 test
+/
+social
 /
 social_share_image
 .

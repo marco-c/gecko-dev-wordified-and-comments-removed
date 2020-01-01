@@ -164,6 +164,8 @@ content
 /
 test
 /
+social
+/
 social_sidebar
 .
 html
@@ -188,6 +190,8 @@ base
 content
 /
 test
+/
+social
 /
 social_worker
 .
@@ -587,6 +591,8 @@ content
 /
 test
 /
+social
+/
 social_share_image
 .
 png
@@ -724,6 +730,8 @@ base
 content
 /
 test
+/
+social
 /
 social_share_image
 .

@@ -655,6 +655,17 @@ newtab
 Makefile
 browser
 /
+base
+/
+content
+/
+test
+/
+social
+/
+Makefile
+browser
+/
 components
 /
 certerror
