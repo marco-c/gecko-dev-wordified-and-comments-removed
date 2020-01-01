@@ -689,10 +689,9 @@ nsIFile
 aFile
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_ARG
 (
 aFile
-NS_ERROR_NULL_POINTER
 )
 ;
 PRBool
