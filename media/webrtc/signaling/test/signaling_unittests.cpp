@@ -4881,16 +4881,6 @@ TearDown
 (
 )
 {
-sipcc
-:
-:
-PeerConnectionImpl
-:
-:
-Shutdown
-(
-)
-;
 }
 }
 ;

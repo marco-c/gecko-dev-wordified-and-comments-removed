@@ -389,12 +389,6 @@ CreatePeerConnection
 )
 ;
 static
-void
-Shutdown
-(
-)
-;
-static
 nsresult
 ConvertConstraints
 (
