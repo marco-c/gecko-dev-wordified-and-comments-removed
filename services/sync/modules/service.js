@@ -6722,12 +6722,7 @@ this
 .
 _syncError
 )
-this
-.
-_log
-.
-warn
-(
+throw
 "
 Some
 engines
@@ -6736,7 +6731,6 @@ not
 sync
 correctly
 "
-)
 ;
 else
 {
@@ -7043,7 +7037,7 @@ e
 ;
 Status
 .
-engine
+engines
 =
 [
 engine
