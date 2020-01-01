@@ -679,7 +679,6 @@ LoadBindings
 rootCont
 bindingUri
 sysPrincipal
-false
 getter_AddRefs
 (
 unused

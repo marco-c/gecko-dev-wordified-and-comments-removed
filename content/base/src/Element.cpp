@@ -1823,7 +1823,6 @@ LoadBindings
 this
 uri
 principal
-false
 getter_AddRefs
 (
 binding
