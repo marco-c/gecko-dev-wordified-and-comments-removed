@@ -19928,7 +19928,7 @@ isInt32
 {
 str
 =
-js_NumberToString
+Int32ToString
 (
 cx
 v
