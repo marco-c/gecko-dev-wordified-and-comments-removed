@@ -6945,6 +6945,16 @@ void
 p
 )
 ;
+JSContext
+*
+thisInInitializer
+(
+)
+{
+return
+this
+;
+}
 }
 ;
 #

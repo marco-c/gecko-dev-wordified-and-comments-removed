@@ -56082,9 +56082,11 @@ LIns
 )
 ;
 }
-struct
+class
 BoxArg
 {
+public
+:
 BoxArg
 (
 TraceRecorder
