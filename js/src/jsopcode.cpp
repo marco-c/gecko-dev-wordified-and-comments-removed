@@ -5014,7 +5014,7 @@ jsbytecode
 *
 parent
 ;
-int32
+int32_t
 parentOffset
 ;
 bool
@@ -7268,7 +7268,7 @@ PopStrPrecDupe
 SprintStack
 *
 ss
-uint8
+uint8_t
 prec
 jsbytecode
 *
@@ -31154,7 +31154,7 @@ code
 ]
 ;
 }
-int32
+int32_t
 printedOffset
 =
 search
