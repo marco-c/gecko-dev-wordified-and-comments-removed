@@ -4078,6 +4078,10 @@ defined
 by
 configure
 )
+else
+IS_LANGUAGE_REPACK
+=
+1
 endif
 EXPAND_LOCALE_SRCDIR
 =
