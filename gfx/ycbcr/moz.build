@@ -358,7 +358,7 @@ if
 CONFIG
 [
 '
-OS_TEST
+CPU_ARCH
 '
 ]
 =
@@ -374,6 +374,16 @@ HAVE_ARM_NEON
 '
 ]
 :
+ASFILES
++
+=
+[
+'
+yuv_row_arm
+.
+s
+'
+]
 CPP_SOURCES
 +
 =
