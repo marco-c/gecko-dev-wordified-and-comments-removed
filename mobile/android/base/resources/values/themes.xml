@@ -971,6 +971,8 @@ style
 Widget
 .
 ListView
+.
+AwesomeBar
 <
 /
 item
@@ -990,6 +992,8 @@ style
 Widget
 .
 ExpandableListView
+.
+AwesomeBar
 <
 /
 item
