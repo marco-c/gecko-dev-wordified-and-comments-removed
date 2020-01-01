@@ -846,9 +846,6 @@ inline
 mozilla
 :
 :
-directionality
-:
-:
 Directionality
 GetDocumentDirectionality
 (
@@ -4179,9 +4176,6 @@ uint32_t
 mSandboxFlags
 ;
 mozilla
-:
-:
-directionality
 :
 :
 Directionality
