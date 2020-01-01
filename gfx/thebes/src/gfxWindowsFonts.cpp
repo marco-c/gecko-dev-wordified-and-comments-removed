@@ -155,6 +155,13 @@ prlog
 .
 h
 "
+#
+include
+"
+prinit
+.
+h
+"
 static
 PRLogModuleInfo
 *
@@ -6379,7 +6386,7 @@ mDC
 )
 {
 return
-GDI_ERROR
+E_PENDING
 ;
 }
 SelectFont
@@ -6729,8 +6736,9 @@ SetLength
 mNumGlyphs
 )
 )
-return
-GDI_ERROR
+PR_Abort
+(
+)
 ;
 SIZE
 size
@@ -11160,6 +11168,7 @@ rv
 Failed
 to
 shape
+twice
 -
 -
 we
@@ -11170,6 +11179,14 @@ this
 "
 )
 ;
+if
+(
+SUCCEEDED
+(
+rv
+)
+)
+{
 rv
 =
 item
@@ -11199,6 +11216,7 @@ bad
 "
 )
 ;
+}
 if
 (
 FAILED
