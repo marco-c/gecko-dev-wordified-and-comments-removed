@@ -1318,6 +1318,13 @@ TOUCHING
 :
 if
 (
+mTarget
+.
+isFullScreen
+(
+)
+|
+|
 panDistance
 (
 event

@@ -2266,6 +2266,14 @@ fuzzyEquals
 (
 mLastPageContext
 )
+&
+&
+!
+mView
+.
+isFullScreen
+(
+)
 )
 {
 mVertScrollLayer
