@@ -324,6 +324,10 @@ VacuumManager
 .
 cpp
 \
+TelemetryVFS
+.
+cpp
+\
 FileSystemModule
 .
 cpp
