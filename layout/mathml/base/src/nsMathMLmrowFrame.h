@@ -51,13 +51,6 @@ PRInt32
 aModType
 )
 ;
-virtual
-nsIFrame
-*
-GetContentInsertionFrame
-(
-)
-;
 NS_IMETHOD
 InheritAutomaticData
 (

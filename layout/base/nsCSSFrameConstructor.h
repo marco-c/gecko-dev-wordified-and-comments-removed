@@ -838,8 +838,6 @@ aIsPseudo
 nsFrameItems
 &
 aChildItems
-PRBool
-aAllowOutOfFlow
 nsIFrame
 *
 &
