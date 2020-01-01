@@ -2791,6 +2791,7 @@ ENABLE_YARR_JIT
 )
 #
 if
+(
 WTF_CPU_X86
 \
 |
@@ -2808,6 +2809,11 @@ WTF_CPU_ARM_TRADITIONAL
 |
 |
 WTF_CPU_X86
+)
+&
+&
+!
+WTF_PLATFORM_ANDROID
 #
 define
 ENABLE_YARR_JIT
@@ -2824,10 +2830,16 @@ endif
 endif
 #
 if
+(
 ENABLE_JIT
 |
 |
 ENABLE_YARR_JIT
+)
+&
+&
+!
+WTF_PLATFORM_ANDROID
 #
 define
 ENABLE_ASSEMBLER
