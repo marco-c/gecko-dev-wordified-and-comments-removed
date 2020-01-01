@@ -1657,7 +1657,7 @@ chrome
 :
 /
 /
-global
+browser
 /
 content
 /
