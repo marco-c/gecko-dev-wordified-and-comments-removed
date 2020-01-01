@@ -3035,7 +3035,9 @@ put
 Bookmarks
 .
 PARENT
-0
+Bookmarks
+.
+FIXED_ROOT_ID
 )
 ;
 String

@@ -783,6 +783,14 @@ Bookmarks
 public
 static
 final
+int
+FIXED_ROOT_ID
+=
+0
+;
+public
+static
+final
 String
 MOBILE_FOLDER_GUID
 =
