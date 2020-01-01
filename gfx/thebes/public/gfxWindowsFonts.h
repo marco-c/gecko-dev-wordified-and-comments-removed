@@ -777,6 +777,9 @@ const
 gfxFontStyle
 *
 aFontStyle
+FontEntry
+*
+aFontEntry
 )
 ;
 virtual
