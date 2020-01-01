@@ -20419,7 +20419,7 @@ tab
 .
 style
 .
-MozTransition
+transition
 =
 "
 none
@@ -20444,7 +20444,7 @@ tab
 .
 style
 .
-MozTransition
+transition
 =
 "
 "
