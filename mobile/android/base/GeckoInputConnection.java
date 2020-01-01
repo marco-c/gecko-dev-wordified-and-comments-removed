@@ -4457,11 +4457,9 @@ local
 )
 )
 {
-mIMEState
+state
 =
 IME_STATE_DISABLED
-;
-return
 ;
 }
 mIMEState
