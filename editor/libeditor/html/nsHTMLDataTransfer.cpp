@@ -11914,7 +11914,6 @@ outNode
 PRBool
 bContext
 =
-!
 aTagStack
 .
 IsEmpty
