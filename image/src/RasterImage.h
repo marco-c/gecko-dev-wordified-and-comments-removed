@@ -1678,6 +1678,16 @@ mDrawStartTime
 ;
 inline
 bool
+CanQualityScale
+(
+const
+gfxSize
+&
+scale
+)
+;
+inline
+bool
 CanScale
 (
 gfxPattern
