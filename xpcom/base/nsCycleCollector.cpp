@@ -2629,7 +2629,7 @@ GCGraph
 graph
 )
 ;
-void
+PRBool
 CollectWhite
 (
 GCGraph
@@ -4611,7 +4611,7 @@ mPointer
 #
 endif
 }
-void
+PRBool
 nsCycleCollector
 :
 :
@@ -5122,6 +5122,11 @@ lTotalCount
 ;
 #
 endif
+return
+count
+>
+0
+;
 }
 #
 ifdef
@@ -7681,6 +7686,9 @@ PR_Now
 ;
 #
 endif
+PRBool
+collected
+=
 CollectWhite
 (
 graph
@@ -7719,6 +7727,15 @@ endif
 -
 -
 aTryCollections
+;
+if
+(
+!
+collected
+)
+aTryCollections
+=
+0
 ;
 }
 #
