@@ -189,7 +189,7 @@ pp
 .
 BackBufferFormat
 =
-D3DFMT_UNKNOWN
+D3DFMT_A8R8G8B8
 ;
 pp
 .
