@@ -6154,6 +6154,7 @@ offsetOfScript
 (
 )
 )
+BaselineFrameReg
 scratch
 scratch2
 )
