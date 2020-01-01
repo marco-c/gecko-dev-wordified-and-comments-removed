@@ -182,6 +182,10 @@ HTMLPreElement
 .
 h
 \
+HTMLScriptElement
+.
+h
+\
 HTMLSharedListElement
 .
 h
@@ -384,7 +388,7 @@ nsHTMLProgressElement
 .
 cpp
 \
-nsHTMLScriptElement
+HTMLScriptElement
 .
 cpp
 \
