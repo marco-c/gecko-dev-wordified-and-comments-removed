@@ -110,6 +110,9 @@ gfxASurface
 >
 mD2DSurface
 ;
+bool
+mD2DSurfaceInitialized
+;
 void
 DrawRegion
 (
