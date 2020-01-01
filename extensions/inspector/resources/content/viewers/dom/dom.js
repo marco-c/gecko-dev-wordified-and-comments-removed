@@ -3141,6 +3141,15 @@ function
 (
 )
 {
+if
+(
+!
+this
+.
+mSelectDocs
+)
+return
+;
 for
 (
 var
