@@ -3481,8 +3481,7 @@ we
 '
 re
 not
-a
-browser
+Firefox
 use
 the
 external
