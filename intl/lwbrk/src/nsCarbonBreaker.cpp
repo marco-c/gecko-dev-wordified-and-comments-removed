@@ -124,6 +124,12 @@ status
 !
 =
 noErr
+|
+|
+offset
+>
+=
+aLength
 )
 break
 ;
