@@ -1,6 +1,13 @@
 #
 include
 "
+HttpLog
+.
+h
+"
+#
+include
+"
 nsHttpAuthCache
 .
 h

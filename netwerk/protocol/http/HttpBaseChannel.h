@@ -187,6 +187,11 @@ DNS
 .
 h
 "
+extern
+PRLogModuleInfo
+*
+gHttpLog
+;
 namespace
 mozilla
 {
@@ -1473,8 +1478,10 @@ nsresult
 status
 )
 {
-LOG
+PR_LOG
 (
+gHttpLog
+4
 (
 "
 HttpAsyncAborter
@@ -1562,8 +1569,10 @@ mThis
 mSuspendCount
 )
 {
-LOG
+PR_LOG
 (
+gHttpLog
+4
 (
 "
 Waiting

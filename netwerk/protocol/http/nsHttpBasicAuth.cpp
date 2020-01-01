@@ -1,10 +1,10 @@
 #
 include
-<
-stdlib
+"
+HttpLog
 .
 h
->
+"
 #
 include
 "
@@ -23,13 +23,6 @@ h
 include
 "
 plbase64
-.
-h
-"
-#
-include
-"
-plstr
 .
 h
 "
