@@ -3493,6 +3493,17 @@ boolean
 enabled
 )
 {
+if
+(
+mSuggestionsOptInPrompt
+=
+=
+null
+)
+{
+return
+;
+}
 primeSuggestions
 (
 )
