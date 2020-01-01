@@ -9917,6 +9917,15 @@ devUnitsPerSVGUnit
 devUnitsPerSVGUnit
 )
 ;
+aObjectPaint
+-
+>
+InitStrokeGeometry
+(
+aContext
+devUnitsPerSVGUnit
+)
+;
 return
 GetFontEntry
 (

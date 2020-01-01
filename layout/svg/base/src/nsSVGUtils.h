@@ -1713,6 +1713,11 @@ HasStroke
 nsIFrame
 *
 aFrame
+gfxTextObjectPaint
+*
+aObjectPaint
+=
+nullptr
 )
 ;
 static
@@ -1722,6 +1727,11 @@ GetStrokeWidth
 nsIFrame
 *
 aFrame
+gfxTextObjectPaint
+*
+aObjectPaint
+=
+nullptr
 )
 ;
 static
@@ -1734,6 +1744,11 @@ aFrame
 gfxContext
 *
 aContext
+gfxTextObjectPaint
+*
+aObjectPaint
+=
+nullptr
 )
 ;
 static
@@ -1746,6 +1761,11 @@ aFrame
 gfxContext
 *
 aContext
+gfxTextObjectPaint
+*
+aObjectPaint
+=
+nullptr
 )
 ;
 static

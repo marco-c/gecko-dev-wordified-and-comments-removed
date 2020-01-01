@@ -4177,6 +4177,7 @@ SetupCairoStrokeHitGeometry
 (
 this
 aContext
+aOuterObjectPaint
 )
 ;
 float
