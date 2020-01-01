@@ -524,6 +524,10 @@ moonsurface
 .
 jpg
 \
+nocontent
+.
+sjs
+\
 redirecttoemptyimage
 .
 sjs
@@ -549,6 +553,10 @@ test_bug472986
 html
 \
 test_bug477118
+.
+html
+\
+test_bug521461
 .
 html
 \
