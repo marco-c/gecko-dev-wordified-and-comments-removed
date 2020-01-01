@@ -2787,7 +2787,7 @@ this
 .
 _titleElement
 .
-innerHTML
+textContent
 =
 article
 .
