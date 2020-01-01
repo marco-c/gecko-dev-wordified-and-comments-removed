@@ -117,7 +117,7 @@ browser_social_toolbar
 .
 js
 \
-browser_social_markButton
+browser_social_shareButton
 .
 js
 \
@@ -169,7 +169,7 @@ social_panel
 .
 html
 \
-social_mark_image
+social_share_image
 .
 png
 \
