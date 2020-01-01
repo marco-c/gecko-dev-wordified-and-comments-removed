@@ -8525,9 +8525,6 @@ radius
 :
 3px
 ;
--
-moz
--
 outline
 -
 offset
