@@ -3371,14 +3371,5 @@ mMaxLineBoxWidth
 ;
 }
 ;
-nsresult
-NS_NewPresShell
-(
-nsIPresShell
-*
-*
-aInstancePtrResult
-)
-;
 #
 endif
