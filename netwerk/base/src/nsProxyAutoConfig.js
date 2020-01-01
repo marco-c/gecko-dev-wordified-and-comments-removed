@@ -168,6 +168,13 @@ utils
 Sandbox
 (
 pacURI
+{
+sandboxName
+:
+'
+nsProxyAutoConfig
+'
+}
 )
 ;
 Components

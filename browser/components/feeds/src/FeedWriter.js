@@ -1610,6 +1610,13 @@ Sandbox
 this
 .
 _window
+{
+sandboxName
+:
+'
+FeedWriter
+'
+}
 )
 ;
 return

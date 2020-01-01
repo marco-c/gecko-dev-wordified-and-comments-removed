@@ -8397,6 +8397,9 @@ rval
 principal
 NULL
 false
+EmptyCString
+(
+)
 )
 ;
 NS_ASSERTION
