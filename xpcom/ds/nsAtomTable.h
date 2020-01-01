@@ -100,6 +100,9 @@ return
 mRefCnt
 ;
 }
+PRUint32
+mLength
+;
 char
 mString
 [
