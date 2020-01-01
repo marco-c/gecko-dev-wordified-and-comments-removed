@@ -469,6 +469,15 @@ HOST_CSRCS
 bsdiff
 .
 c
+ifdef
+MOZ_NATIVE_BZ2
+HOST_LIBS
++
+=
+(
+BZ2_LIBS
+)
+else
 HOST_LIBS
 +
 =
@@ -488,6 +497,7 @@ hostbz2
 (
 LIB_SUFFIX
 )
+endif
 ifneq
 (
 (
