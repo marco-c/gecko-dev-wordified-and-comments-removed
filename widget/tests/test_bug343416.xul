@@ -446,6 +446,8 @@ newIdleSeconds
 1000
 )
 ;
+/
+/
 ok
 (
 diff
@@ -464,6 +466,8 @@ roughly
 seconds
 "
 +
+/
+/
 "
 as
 that
@@ -480,6 +484,8 @@ fire
 "
 )
 ;
+/
+/
 if
 (
 diff
@@ -487,6 +493,8 @@ diff
 =
 5000
 )
+/
+/
 alert
 (
 data
