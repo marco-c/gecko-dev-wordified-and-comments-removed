@@ -107,10 +107,11 @@ v
 let
 serialized
 =
-record
+JSON
 .
-serialize
+stringify
 (
+record
 )
 ;
 let

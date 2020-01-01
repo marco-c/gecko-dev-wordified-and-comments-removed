@@ -814,10 +814,6 @@ uri
 put
 (
 key
-.
-serialize
-(
-)
 )
 ;
 }

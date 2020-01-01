@@ -213,16 +213,6 @@ uri
 ;
 this
 .
-pushFilter
-(
-new
-JsonFilter
-(
-)
-)
-;
-this
-.
 _full
 =
 true
