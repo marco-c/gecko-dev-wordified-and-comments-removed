@@ -2855,6 +2855,7 @@ JSObject
 obj
 )
 ;
+JS_REQUIRES_STACK
 jsatomid
 getFullIndex
 (
