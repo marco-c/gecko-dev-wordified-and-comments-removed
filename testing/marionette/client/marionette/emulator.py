@@ -224,6 +224,8 @@ homedir
 glue
 /
 gonk
+-
+ics
 /
 out
 /
@@ -292,6 +294,8 @@ homedir
 glue
 /
 gonk
+-
+ics
 /
 out
 /
@@ -366,21 +370,25 @@ self
 homedir
                                       
 '
-boot
+glue
 /
-kernel
+gonk
 -
-android
--
+ics
+/
+prebuilts
+/
 qemu
-/
-arch
+-
+kernel
 /
 arm
 /
-boot
-/
-zImage
+kernel
+-
+qemu
+-
+armv7
 '
 )
         
@@ -413,7 +421,11 @@ self
 .
 homedir
 '
-zImage
+kernel
+-
+qemu
+-
+armv7
 '
 )
         
@@ -444,6 +456,8 @@ homedir
 glue
 /
 gonk
+-
+ics
 /
 out
 /
