@@ -198,9 +198,6 @@ GARBAGE
 (
 XPCOM_GLUE_SRC_LCPPSRCS
 )
-SRCS_IN_OBJDIR
-=
-1
 include
 (
 topsrcdir

@@ -371,9 +371,6 @@ lib
 FORCE_STATIC_LIB
 =
 1
-SRCS_IN_OBJDIR
-=
-1
 include
 (
 topsrcdir

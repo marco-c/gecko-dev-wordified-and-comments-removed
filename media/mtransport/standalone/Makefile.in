@@ -148,9 +148,6 @@ OS_TARGET
 VISIBILITY_FLAGS
 =
 endif
-SRCS_IN_OBJDIR
-=
-1
 #
 Make
 a
