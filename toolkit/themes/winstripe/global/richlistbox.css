@@ -28,6 +28,13 @@ xul
 ;
 richlistbox
 {
+-
+moz
+-
+appearance
+:
+listbox
+;
 margin
 :
 2px
