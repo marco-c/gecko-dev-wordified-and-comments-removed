@@ -249,6 +249,11 @@ nsIObjectOutputStream
 outStream
 )
 ;
+nsresult
+RecordAgesAlways
+(
+)
+;
 static
 StartupCache
 *
@@ -295,6 +300,11 @@ RECORD_AGE
 =
 1
 }
+;
+static
+enum
+TelemetrifyAge
+gPostFlushAgeAction
 ;
 nsresult
 LoadArchive
