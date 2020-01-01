@@ -680,6 +680,12 @@ eEditorAllowInteraction
 *
 *
 /
+const
+long
+eEditorDontEchoPassword
+=
+0x1000
+;
 /
 *
 *
