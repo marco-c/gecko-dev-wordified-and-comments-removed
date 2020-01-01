@@ -368,15 +368,6 @@ void
 ;
 NS_HIDDEN_
 (
-PRBool
-)
-ReadyToCallDidBuildModelImpl
-(
-void
-)
-;
-NS_HIDDEN_
-(
 void
 )
 DropParserAndPerfHint
@@ -762,7 +753,7 @@ CPP_THROW_NEW
 protected
 :
 void
-ContinueInterruptedParsingAsyncIfEnabled
+ContinueInterruptedParsingAsync
 (
 )
 ;
@@ -896,11 +887,6 @@ mDeferredLayoutStart
 ;
 PRUint8
 mDeferredFlushTags
-:
-1
-;
-PRUint8
-mDidGetReadyToCallDidBuildModelCall
 :
 1
 ;

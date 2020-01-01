@@ -2297,14 +2297,6 @@ aData
 =
 0
 ;
-virtual
-void
-DispatchContentLoadedEvents
-(
-)
-=
-0
-;
 PRBool
 IsShowing
 (
