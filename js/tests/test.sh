@@ -1343,11 +1343,17 @@ z
 ;
 j
 )
-jit
+jitshell
 =
 "
 -
 j
+"
+jitbrowser
+=
+"
+;
+jit
 "
 ;
 ;
@@ -2818,7 +2824,7 @@ gczealshell
 \
 splitobjects
 \
-jit
+jitshell
 \
 -
 f
@@ -3134,6 +3140,7 @@ text
 javascript
 version
 gczealbrowser
+jitbrowser
 "
 >
 >
@@ -3179,6 +3186,7 @@ text
 javascript
 version
 gczealbrowser
+jitbrowser
 '
 >
 jsfile
