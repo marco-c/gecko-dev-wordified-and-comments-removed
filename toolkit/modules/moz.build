@@ -171,6 +171,11 @@ PropertyListUtils
 jsm
 '
 '
+RemoteSecurityUI
+.
+jsm
+'
+'
 RemoteWebProgress
 .
 jsm
