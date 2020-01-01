@@ -3399,6 +3399,13 @@ UnsuppressPainting
 (
 )
 ;
+mPresShell
+-
+>
+ScrollToAnchor
+(
+)
+;
 }
 nsJSContext
 :

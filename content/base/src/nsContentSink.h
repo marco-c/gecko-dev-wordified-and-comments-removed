@@ -648,11 +648,6 @@ FlushTags
 =
 0
 ;
-void
-TryToScrollToRef
-(
-)
-;
 PRBool
 WaitForPendingSheets
 (
