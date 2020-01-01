@@ -154,6 +154,9 @@ virtual
 void
 ReceiveSocketData
 (
+BluetoothSocket
+*
+aSocket
 nsAutoPtr
 <
 mozilla
@@ -173,6 +176,9 @@ virtual
 void
 OnConnectSuccess
 (
+BluetoothSocket
+*
+aSocket
 )
 MOZ_OVERRIDE
 ;
@@ -180,6 +186,9 @@ virtual
 void
 OnConnectError
 (
+BluetoothSocket
+*
+aSocket
 )
 MOZ_OVERRIDE
 ;
@@ -187,6 +196,9 @@ virtual
 void
 OnDisconnect
 (
+BluetoothSocket
+*
+aSocket
 )
 MOZ_OVERRIDE
 ;
