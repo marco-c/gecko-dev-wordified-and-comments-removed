@@ -9093,6 +9093,17 @@ class
 ]
 &
 &
+!
+[
+(
+ToolbarWindow
+*
+)
+win
+drawsContentsIntoWindowFrame
+]
+&
+&
 DrawingAtWindowTop
 (
 cgContext
