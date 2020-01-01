@@ -86,6 +86,10 @@ green
 .
 png
 \
+test_bug200416
+.
+html
+\
 test_bug290026
 .
 html
