@@ -365,7 +365,7 @@ window
 open
 (
 "
-bug288254_window
+findbar_window
 .
 xul
 "

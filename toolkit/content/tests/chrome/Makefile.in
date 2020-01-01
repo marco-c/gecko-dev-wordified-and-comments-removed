@@ -435,11 +435,11 @@ rules
 mk
 _TEST_FILES
 =
-bug288254_window
+findbar_window
 .
 xul
 \
-test_bug288254
+test_findbar
 .
 xul
 \

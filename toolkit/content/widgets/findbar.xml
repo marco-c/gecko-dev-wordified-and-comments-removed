@@ -8574,6 +8574,11 @@ nsIDOMNSEditableElement
 &
 focusedElement
 .
+editor
+&
+&
+focusedElement
+.
 ownerDocument
 .
 defaultView
