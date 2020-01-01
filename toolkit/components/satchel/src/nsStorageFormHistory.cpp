@@ -855,6 +855,8 @@ PR_FALSE
 ;
 PRBool
 exists
+=
+PR_TRUE
 ;
 EntryExists
 (
