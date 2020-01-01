@@ -1384,10 +1384,6 @@ pluginCrashCommentAndURL
 .
 html
 \
-browser_private_no_prompt
-.
-js
-\
 (
 NULL
 )
