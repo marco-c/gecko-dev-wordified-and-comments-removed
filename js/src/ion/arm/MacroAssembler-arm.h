@@ -6169,6 +6169,15 @@ dest
 )
 ;
 void
+sub32
+(
+Register
+src
+Register
+dest
+)
+;
+void
 xor32
 (
 Imm32
