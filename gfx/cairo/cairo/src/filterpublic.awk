@@ -40,6 +40,9 @@ cat
 .
 h
 |
+awk
+-
+f
 .
 /
 filterpublic

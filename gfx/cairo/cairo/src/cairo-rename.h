@@ -16,10 +16,6 @@ cairo_arc_to
 _moz_cairo_arc_to
 #
 define
-cairo_atsui_font_face_create_for_atsu_font_id
-_moz_cairo_atsui_font_face_create_for_atsu_font_id
-#
-define
 cairo_beos_surface_create
 _moz_cairo_beos_surface_create
 #
@@ -678,6 +674,14 @@ _moz_cairo_push_group
 define
 cairo_push_group_with_content
 _moz_cairo_push_group_with_content
+#
+define
+cairo_quartz_font_face_create_for_atsu_font_id
+_moz_cairo_quartz_font_face_create_for_atsu_font_id
+#
+define
+cairo_quartz_font_face_create_for_cgfont
+_moz_cairo_quartz_font_face_create_for_cgfont
 #
 define
 cairo_quartz_image_surface_create
