@@ -537,6 +537,17 @@ slots
 )
 ;
 void
+captureMissingGlobalTypes
+(
+JSContext
+*
+cx
+SlotList
+&
+slots
+)
+;
+void
 captureStackTypes
 (
 JSContext
