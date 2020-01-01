@@ -10285,6 +10285,9 @@ Alpha
 ;
 ;
 sun4u
+|
+sparc
+*
 )
 CPU_ARCH
 =
@@ -10292,10 +10295,6 @@ sparc
 ;
 ;
 x86_64
-|
-sparc
-|
-ppc
 |
 ia64
 )
