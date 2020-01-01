@@ -400,7 +400,7 @@ pc
 const
 {
 return
-js_GetSrcNoteCached
+js_GetSrcNote
 (
 cx
 script
