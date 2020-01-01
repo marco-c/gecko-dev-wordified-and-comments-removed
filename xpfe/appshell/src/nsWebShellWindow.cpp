@@ -863,17 +863,11 @@ NS_SCRIPTSECURITYMANAGER_CONTRACTID
 rv
 )
 ;
-MOZ_ASSERT
+if
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 ssm
 )
-;
+{
 nsCOMPtr
 <
 nsIPrincipal
@@ -952,6 +946,7 @@ SetIsInitialDocument
 true
 )
 ;
+}
 if
 (
 nullptr
