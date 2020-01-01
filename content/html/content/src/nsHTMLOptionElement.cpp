@@ -208,6 +208,13 @@ nsContentCreatorFunctions
 .
 h
 "
+#
+include
+"
+mozAutoDocUpdate
+.
+h
+"
 class
 nsHTMLOptionElement
 :

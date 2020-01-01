@@ -643,6 +643,13 @@ nsPresShellIterator
 h
 "
 #
+include
+"
+mozAutoDocUpdate
+.
+h
+"
+#
 define
 XUL_ELEMENT_CHILDREN_MUST_BE_REBUILT
 \

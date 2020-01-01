@@ -5,6 +5,13 @@ nsXBLInsertionPoint
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 nsXBLInsertionPoint
 :
 :
@@ -304,6 +311,9 @@ nsIContent
 defContent
 =
 mDefaultContent
+;
+nsAutoScriptBlocker
+scriptBlocker
 ;
 PRUint32
 childCount

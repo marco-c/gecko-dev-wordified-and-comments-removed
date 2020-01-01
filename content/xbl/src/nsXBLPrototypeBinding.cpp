@@ -543,6 +543,9 @@ if
 mDefaultContent
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 mDefaultContent
 -
 >
@@ -975,6 +978,9 @@ tmp
 mDefaultContent
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 tmp
 -
 >
@@ -5514,6 +5520,9 @@ defaultCount
 0
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 xblIns
 -
 >

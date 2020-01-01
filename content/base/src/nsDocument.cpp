@@ -650,6 +650,13 @@ nsFrameLoader
 h
 "
 #
+include
+"
+mozAutoDocUpdate
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -2939,6 +2946,9 @@ DestroyLinkMap
 (
 )
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 PRInt32
 indx
 ;
@@ -4052,6 +4062,9 @@ tmp
 DestroyLinkMap
 (
 )
+;
+nsAutoScriptBlocker
+scriptBlocker
 ;
 for
 (

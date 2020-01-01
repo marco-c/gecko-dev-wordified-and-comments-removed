@@ -167,6 +167,9 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 nsSVGUseElement
 nsSVGUseElementBase
 )
+nsAutoScriptBlocker
+scriptBlocker
+;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
 mOriginal
