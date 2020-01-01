@@ -166,11 +166,6 @@ IC
 CodeGenerator
 *
 codegen
-op
-#
-#
-IC
-*
 )
 {
 \
@@ -1037,7 +1032,6 @@ ickind
 IC
 (
 codegen
-this
 )
 ;
 \
