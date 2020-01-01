@@ -4540,9 +4540,9 @@ security
 .
 fileuri
 .
-origin_policy
+strict_origin_policy
 "
-2
+true
 )
 ;
 pref

@@ -1426,6 +1426,15 @@ aResult
 ;
 static
 PRBool
+URIIsLocalFile
+(
+nsIURI
+*
+aURI
+)
+;
+static
+PRBool
 IsAboutBlank
 (
 nsIURI
@@ -1527,6 +1536,9 @@ mAllowAuth
 ;
 PRPackedBool
 mAllowKeywordFixup
+;
+PRPackedBool
+mStrictFilePolicy
 ;
 PRPackedBool
 mFiredUnloadEvent
