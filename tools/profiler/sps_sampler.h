@@ -840,6 +840,16 @@ mozilla_sampler_print_location
 (
 )
 ;
+void
+mozilla_sampler_lock
+(
+)
+;
+void
+mozilla_sampler_unlock
+(
+)
+;
 namespace
 mozilla
 {
