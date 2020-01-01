@@ -4774,16 +4774,9 @@ rr
 int
 d
 bool
-pop
-bool
 quad
 )
 {
-(
-void
-)
-pop
-;
 (
 void
 )
@@ -5933,7 +5926,6 @@ asm_spill
 (
 rr
 d
-false
 true
 )
 ;

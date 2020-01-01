@@ -16343,7 +16343,6 @@ rr
 int
 d
 bool
-bool
 quad
 )
 {
