@@ -383,6 +383,9 @@ mHeaderTheme
 BOOL
 mFlatMenus
 ;
+OSVERSIONINFO
+mOsVersion
+;
 }
 ;
 extern
