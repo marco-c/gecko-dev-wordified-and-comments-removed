@@ -1020,13 +1020,13 @@ mFinishing
 (
 false
 )
-mScaleRequest
-(
-this
-)
 mInUpdateImageContainer
 (
 false
+)
+mScaleRequest
+(
+this
 )
 {
 mDiscardTrackerNode
