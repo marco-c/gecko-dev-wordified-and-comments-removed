@@ -784,7 +784,7 @@ RecvdConnect
 ;
 nsConnectionEntry
 *
-GetSpdyPreferred
+GetSpdyPreferredEnt
 (
 nsConnectionEntry
 *
@@ -792,15 +792,7 @@ aOriginalEntry
 )
 ;
 void
-SetSpdyPreferred
-(
-nsConnectionEntry
-*
-ent
-)
-;
-void
-RemoveSpdyPreferred
+RemoveSpdyPreferredEnt
 (
 nsACString
 &
@@ -848,7 +840,7 @@ ent
 )
 ;
 void
-ProcessSpdyPendingQ
+ProcessAllSpdyPendingQ
 (
 )
 ;
