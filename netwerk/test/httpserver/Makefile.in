@@ -159,6 +159,11 @@ NULL
 XPCSHELL_TESTS
 =
 test
+TESTING_JS_MODULES
+=
+httpd
+.
+js
 include
 (
 topsrcdir
