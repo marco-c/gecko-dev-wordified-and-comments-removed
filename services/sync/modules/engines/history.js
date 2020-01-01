@@ -2587,15 +2587,6 @@ BMT__upScore
 (
 )
 {
-if
-(
-!
-this
-.
-enabled
-)
-return
-;
 this
 .
 _score
@@ -2633,6 +2624,8 @@ uri
 spec
 )
 ;
+if
+(
 this
 .
 addChangedID
@@ -2646,7 +2639,7 @@ _getGUID
 uri
 )
 )
-;
+)
 this
 .
 _upScore
@@ -2680,6 +2673,8 @@ uri
 spec
 )
 ;
+if
+(
 this
 .
 addChangedID
@@ -2693,7 +2688,7 @@ _getGUID
 uri
 )
 )
-;
+)
 this
 .
 _upScore
@@ -2725,6 +2720,8 @@ uri
 spec
 )
 ;
+if
+(
 this
 .
 addChangedID
@@ -2736,7 +2733,7 @@ _all
 uri
 ]
 )
-;
+)
 this
 .
 _upScore
