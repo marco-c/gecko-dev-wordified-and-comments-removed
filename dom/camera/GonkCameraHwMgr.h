@@ -204,6 +204,14 @@ aCamera
 ;
 static
 int
+GetSensorOrientation
+(
+uint32_t
+aHwHandle
+)
+;
+static
+int
 AutoFocus
 (
 uint32_t
@@ -426,6 +434,9 @@ mListener
 ;
 bool
 mInitialized
+;
+int
+mSensorOrientation
 ;
 bool
 IsInitialized
