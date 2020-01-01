@@ -200,7 +200,7 @@ NSEvent
 mCurKeyEvent
 ;
 PRBool
-mKeyHandled
+mKeyDownHandled
 ;
 NSRange
 mMarkedRange
