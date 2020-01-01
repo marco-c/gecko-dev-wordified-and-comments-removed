@@ -1767,10 +1767,9 @@ return
 ;
 }
 }
-throw
-new
-Error
+ok
 (
+false
 aSuccessErrObj
 .
 err
