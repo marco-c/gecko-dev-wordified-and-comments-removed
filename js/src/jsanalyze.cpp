@@ -3189,6 +3189,9 @@ JSOP_LOCALINC
 case
 JSOP_LOCALDEC
 :
+case
+JSOP_GETLOCALPROP
+:
 {
 uint32
 local
