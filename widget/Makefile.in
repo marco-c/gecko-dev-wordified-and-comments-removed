@@ -536,6 +536,15 @@ idl
 NULL
 )
 endif
+ifdef
+MOZ_METRO
+XPIDLSRCS
++
+=
+nsIWinMetroUtils
+.
+idl
+endif
 ifeq
 (
 (

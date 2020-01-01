@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsWindow
-.
-h
-"
-#
-include
-"
 nsStyleConsts
 .
 h
