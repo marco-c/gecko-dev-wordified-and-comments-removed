@@ -6509,3 +6509,13 @@ light
 "
 )
 ;
+pref
+(
+"
+reader
+.
+has_used_toolbar
+"
+false
+)
+;
