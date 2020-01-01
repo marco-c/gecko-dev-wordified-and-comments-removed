@@ -1983,13 +1983,12 @@ imptests
 editing
 /
 selecttest
-/
-test_addRange
-.
-html
 "
 :
 "
+bug
+782431
+&
 bug
 775227
 "
