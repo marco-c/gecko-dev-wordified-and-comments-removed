@@ -54,6 +54,15 @@ MPL
 0
 /
 .
+CVS_ID
+"
+(
+#
+)
+RCSfile
+Revision
+Date
+"
 #
 #
 certdata

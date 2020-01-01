@@ -2584,11 +2584,14 @@ else
 {
 rv
 =
-SECITEM_ReallocItemV2
+SECITEM_ReallocItem
 (
 NULL
 &
 filedata
+filedata
+.
+len
 filedata
 .
 len

@@ -1036,12 +1036,11 @@ SSL_SetStapledOCSPResponses
 PRFileDesc
 *
 fd
-const
 SECItemArray
 *
 responses
-SSLKEAType
-kea
+PRBool
+takeOwnership
 )
 ;
 typedef

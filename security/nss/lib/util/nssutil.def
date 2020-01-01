@@ -1043,8 +1043,6 @@ SECITEM_DupArray
 ;
 SECITEM_FreeArray
 ;
-SECITEM_ReallocItemV2
-;
 SECITEM_ZfreeArray
 ;
 ;
