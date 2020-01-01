@@ -476,6 +476,10 @@ test_changingManifest
 .
 html
 \
+test_refetchManifest
+.
+html
+\
 test_offlineIFrame
 .
 html
@@ -633,7 +637,14 @@ sjs
 \
 changingManifest
 .
-sjs
+cacheManifest
+\
+changingManifest
+.
+cacheManifest
+^
+headers
+^
 \
 offlineChild
 .
