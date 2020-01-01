@@ -73,12 +73,12 @@ CompositorParent
 )
 ;
 bool
-RecvInit
+RecvStop
 (
 )
 ;
 bool
-RecvStop
+RecvFixMeDoNotCall
 (
 )
 ;
