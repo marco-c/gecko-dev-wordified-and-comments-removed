@@ -3055,6 +3055,8 @@ this
 _rootNode
 )
 {
+try
+{
 this
 .
 _rootNode
@@ -3068,6 +3070,13 @@ this
 true
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 delete
 this
 .

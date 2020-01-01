@@ -210,6 +210,10 @@ browser_inspector_bug_840156_destroy_after_navigation
 .
 js
 \
+browser_inspector_reload
+.
+js
+\
 head
 .
 js
