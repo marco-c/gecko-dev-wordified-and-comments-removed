@@ -1214,7 +1214,7 @@ aCellElement
 nsresult
 CreateAndAddRange
 (
-nsIDOMNode
+nsINode
 *
 aParentNode
 PRInt32
