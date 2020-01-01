@@ -7336,6 +7336,9 @@ getSpecial
 JSContext
 *
 cx
+JSObject
+*
+receiver
 js
 :
 :
@@ -7353,6 +7356,7 @@ return
 getGeneric
 (
 cx
+receiver
 SPECIALID_TO_JSID
 (
 sid

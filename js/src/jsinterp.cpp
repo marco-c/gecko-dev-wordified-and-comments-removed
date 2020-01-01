@@ -16987,6 +16987,7 @@ obj
 getSpecial
 (
 cx
+obj
 special
 &
 rval
