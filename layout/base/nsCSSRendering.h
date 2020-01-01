@@ -640,9 +640,6 @@ const
 nsRect
 &
 aDirtyRect
-gfxRect
-*
-aSkipRect
 )
 ;
 void
