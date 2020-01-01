@@ -704,7 +704,7 @@ WIN32_EXE_LDFLAGS
 -
 ENTRY
 :
-mainWCRTStartup
+wmainCRTStartup
 endif
 ifneq
 (

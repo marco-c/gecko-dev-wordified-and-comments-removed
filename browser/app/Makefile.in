@@ -980,7 +980,7 @@ WIN32_EXE_LDFLAGS
 -
 ENTRY
 :
-mainWCRTStartup
+wmainCRTStartup
 endif
 ifndef
 BUILD_STATIC_LIBS
