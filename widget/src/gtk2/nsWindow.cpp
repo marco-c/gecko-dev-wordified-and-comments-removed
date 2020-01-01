@@ -17687,9 +17687,12 @@ break
 case
 eCursor_help
 :
-newType
+gdkcursor
 =
-MOZ_CURSOR_QUESTION_ARROW
+gdk_cursor_new
+(
+GDK_QUESTION_ARROW
+)
 ;
 break
 ;
