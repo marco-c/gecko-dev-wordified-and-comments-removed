@@ -70,6 +70,7 @@ ion
 {
 static
 const
+MOZ_CONSTEXPR
 Register
 eax
 =
@@ -85,6 +86,7 @@ eax
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 ecx
 =
@@ -100,6 +102,7 @@ ecx
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 edx
 =
@@ -115,6 +118,7 @@ edx
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 ebx
 =
@@ -130,6 +134,7 @@ ebx
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 esp
 =
@@ -145,6 +150,7 @@ esp
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 ebp
 =
@@ -160,6 +166,7 @@ ebp
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 esi
 =
@@ -175,6 +182,7 @@ esi
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 edi
 =
@@ -190,6 +198,7 @@ edi
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 xmm0
 =
@@ -205,6 +214,7 @@ xmm0
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 xmm1
 =
@@ -220,6 +230,7 @@ xmm1
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 xmm2
 =
@@ -235,6 +246,7 @@ xmm2
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 xmm3
 =
@@ -250,6 +262,7 @@ xmm3
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 xmm4
 =
@@ -265,6 +278,7 @@ xmm4
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 xmm5
 =
@@ -280,6 +294,7 @@ xmm5
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 xmm6
 =
@@ -295,6 +310,7 @@ xmm6
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 xmm7
 =
@@ -310,6 +326,7 @@ xmm7
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 InvalidReg
 =
@@ -325,6 +342,7 @@ invalid_reg
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 InvalidFloatReg
 =
@@ -340,6 +358,7 @@ invalid_xmm
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 JSReturnReg_Type
 =
@@ -347,6 +366,7 @@ ecx
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 JSReturnReg_Data
 =
@@ -354,6 +374,7 @@ edx
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 StackPointer
 =
@@ -361,6 +382,7 @@ esp
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 FramePointer
 =
@@ -368,6 +390,7 @@ ebp
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 ReturnReg
 =
@@ -375,6 +398,7 @@ eax
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 ReturnFloatReg
 =
@@ -382,6 +406,7 @@ xmm0
 ;
 static
 const
+MOZ_CONSTEXPR
 FloatRegister
 ScratchFloatReg
 =
@@ -389,6 +414,7 @@ xmm7
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 ArgumentsRectifierReg
 =
@@ -396,6 +422,7 @@ esi
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 CallTempReg0
 =
@@ -403,6 +430,7 @@ edi
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 CallTempReg1
 =
@@ -410,6 +438,7 @@ eax
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 CallTempReg2
 =
@@ -417,6 +446,7 @@ ebx
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 CallTempReg3
 =
@@ -424,6 +454,7 @@ ecx
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 CallTempReg4
 =
@@ -431,6 +462,7 @@ esi
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 CallTempReg5
 =
@@ -438,6 +470,7 @@ edx
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 CallTempReg6
 =
@@ -445,6 +478,7 @@ ebp
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 CallTempNonArgRegs
 [
@@ -533,6 +567,7 @@ NonVolatileReg
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 OsrFrameReg
 =
@@ -540,6 +575,7 @@ edx
 ;
 static
 const
+MOZ_CONSTEXPR
 Register
 PreBarrierReg
 =
