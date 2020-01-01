@@ -28111,10 +28111,11 @@ parent
 }
 while
 (
+!
 obj
 -
 >
-isScope
+isGlobal
 (
 )
 )
