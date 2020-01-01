@@ -2947,6 +2947,11 @@ scaling
 !
 =
 aValue
+|
+|
+settings
+.
+shrinkToFit
 )
 {
 settings
