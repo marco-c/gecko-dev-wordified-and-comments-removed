@@ -307,7 +307,7 @@ global
 /
 content
 /
-aboutMemory
+aboutCompartments
 .
 xhtml
 "

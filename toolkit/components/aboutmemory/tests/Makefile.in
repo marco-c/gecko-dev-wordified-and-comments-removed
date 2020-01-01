@@ -89,10 +89,6 @@ diff2
 .
 json
 \
-test_aboutcompartments
-.
-xul
-\
 test_aboutmemory
 .
 xul

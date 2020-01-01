@@ -3690,8 +3690,14 @@ nsIMemoryReporter
 :
 UNITS_COUNT
 1
-EmptyCString
+NS_LITERAL_CSTRING
 (
+"
+A
+ghost
+window
+.
+"
 )
 data
 -
