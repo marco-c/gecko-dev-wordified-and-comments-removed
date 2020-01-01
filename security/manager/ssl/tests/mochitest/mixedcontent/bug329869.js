@@ -1,5 +1,11 @@
 document
 .
+open
+(
+)
+;
+document
+.
 write
 (
 "
