@@ -354,6 +354,10 @@ BrowserApp
 .
 java
 \
+BrowserSearch
+.
+java
+\
 BrowserToolbar
 .
 java
@@ -697,6 +701,10 @@ ShapedButton
 java
 \
 SharedPreferencesHelper
+.
+java
+\
+SimpleCursorLoader
 .
 java
 \
