@@ -497,6 +497,10 @@ test_delete_key_removes
 .
 xul
 \
+test_destinationURI_annotation
+.
+xul
+\
 test_esc_key_closes_clears
 .
 xul
