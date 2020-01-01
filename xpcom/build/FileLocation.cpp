@@ -407,7 +407,7 @@ GetBaseFile
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 nsCOMPtr
