@@ -4542,6 +4542,13 @@ components
 MetroUIUtils
 .
 js
+BINPATH
+/
+components
+/
+MetroUIUtils
+.
+manifest
 [
 metro
 ]
