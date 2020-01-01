@@ -832,7 +832,7 @@ you
 "
 are
 using
-mozIStorageConnection
+mozIStorageStatement
 :
 :
 escapeStringForLIKE
