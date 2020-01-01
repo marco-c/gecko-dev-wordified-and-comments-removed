@@ -280,7 +280,7 @@ aSize
 const
 uint32_t
 &
-aContent
+aFormat
 const
 uint32_t
 &
@@ -740,11 +740,10 @@ const
 gfxIntSize
 &
 aSize
-gfxASurface
-:
-:
-gfxContentType
-aContent
+uint32_t
+aFormat
+uint32_t
+aUsage
 MaybeMagicGrallocBufferHandle
 *
 aHandle
