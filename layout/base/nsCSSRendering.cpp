@@ -6570,6 +6570,9 @@ PRBool
 aRepeat
 )
 {
+#
+if
+0
 gfxContext
 *
 ctx
@@ -6910,6 +6913,8 @@ Restore
 (
 )
 ;
+#
+endif
 }
 void
 nsCSSRendering
