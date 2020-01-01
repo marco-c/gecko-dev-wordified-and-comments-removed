@@ -636,9 +636,7 @@ this
 method
 (
 except
-it
-'
-s
+its
 name
 :
 -
