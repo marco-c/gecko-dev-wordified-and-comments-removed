@@ -969,7 +969,8 @@ c
 <
 0x100
 )
-return
+{
+if
 (
 c
 >
@@ -986,7 +987,9 @@ c
 Z
 '
 )
-?
+return
+char_type
+(
 c
 +
 (
@@ -998,9 +1001,12 @@ a
 A
 '
 )
-:
+)
+;
+return
 c
 ;
+}
 else
 {
 if
@@ -1926,7 +1932,7 @@ char_type
 c
 )
 {
-return
+if
 (
 c
 >
@@ -1943,7 +1949,8 @@ c
 Z
 '
 )
-?
+return
+char_type
 (
 c
 +
@@ -1957,7 +1964,8 @@ A
 '
 )
 )
-:
+;
+return
 c
 ;
 }
