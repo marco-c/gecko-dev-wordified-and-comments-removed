@@ -13,7 +13,7 @@ gPreloadListExpirationTime
 =
 INT64_C
 (
-1383765229095000
+1383992137406000
 )
 ;
 class
@@ -225,16 +225,6 @@ crypto
 cat
 "
 false
-}
-{
-"
-csawctf
-.
-poly
-.
-edu
-"
-true
 }
 {
 "
