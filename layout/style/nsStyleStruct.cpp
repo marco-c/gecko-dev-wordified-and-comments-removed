@@ -2738,6 +2738,8 @@ PR_TRUE
 {
 mCachedOutlineWidth
 =
+NS_MAX
+(
 CalcCoord
 (
 mOutlineWidth
@@ -2748,6 +2750,8 @@ GetBorderWidthTable
 (
 )
 3
+)
+0
 )
 ;
 mCachedOutlineWidth

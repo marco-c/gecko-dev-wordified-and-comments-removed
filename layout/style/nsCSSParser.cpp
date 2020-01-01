@@ -24388,6 +24388,8 @@ aValue
 VARIANT_HL
 |
 VARIANT_NORMAL
+|
+VARIANT_CALC
 nsnull
 )
 ;
@@ -25446,6 +25448,8 @@ ParseNonNegativeVariant
 (
 aValue
 VARIANT_HKL
+|
+VARIANT_CALC
 nsCSSProps
 :
 :
