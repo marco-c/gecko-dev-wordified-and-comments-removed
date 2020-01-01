@@ -90,6 +90,16 @@ DisableAlarm
 (
 )
 ;
+void
+EnableSystemTimeChangeNotifications
+(
+)
+;
+void
+DisableSystemTimeChangeNotifications
+(
+)
+;
 }
 }
 #

@@ -643,6 +643,14 @@ nsCString
 aTimezoneSpec
 )
 ;
+EnableSystemTimeChangeNotifications
+(
+)
+;
+DisableSystemTimeChangeNotifications
+(
+)
+;
 sync
 SetLight
 (

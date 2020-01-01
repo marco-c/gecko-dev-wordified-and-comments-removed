@@ -40,5 +40,17 @@ EmptyCString
 )
 ;
 }
+void
+EnableSystemTimeChangeNotifications
+(
+)
+{
+}
+void
+DisableSystemTimeChangeNotifications
+(
+)
+{
+}
 }
 }
