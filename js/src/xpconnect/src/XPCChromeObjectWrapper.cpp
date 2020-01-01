@@ -917,7 +917,7 @@ return
 XPCNativeWrapperCtor
 (
 cx
-obj
+nsnull
 1
 vp
 vp
