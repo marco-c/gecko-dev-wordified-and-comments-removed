@@ -8,11 +8,9 @@ http
 :
 /
 /
-test1
-.
 example
 .
-org
+com
 /
 tests
 /
@@ -22,6 +20,6 @@ base
 /
 test
 /
-file_CrossSiteXHR2_pass3_redirect
+file_XHR_pass2
 .
-xml
+txt
