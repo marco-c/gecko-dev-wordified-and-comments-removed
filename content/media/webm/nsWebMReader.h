@@ -514,7 +514,7 @@ char
 aBuffer
 PRUint32
 aLength
-PRUint32
+PRInt64
 aOffset
 )
 ;

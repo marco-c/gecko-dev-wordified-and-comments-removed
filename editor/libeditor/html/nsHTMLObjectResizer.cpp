@@ -4149,15 +4149,6 @@ mResizedObjectMarginTop
 0
 )
 ;
-bool
-useCSS
-;
-GetIsCSSEnabled
-(
-&
-useCSS
-)
-;
 nsAutoEditBatch
 batchIt
 (
@@ -4229,7 +4220,9 @@ false
 }
 if
 (
-useCSS
+IsCSSEnabled
+(
+)
 |
 |
 mResizedObjectIsAbsolutelyPositioned

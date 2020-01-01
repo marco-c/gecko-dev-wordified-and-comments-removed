@@ -11,6 +11,10 @@ battery
 \
 dom
 /
+power
+\
+dom
+/
 network
 /
 src

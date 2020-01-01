@@ -2707,6 +2707,11 @@ quota
 h
 sys
 /
+reboot
+.
+h
+sys
+/
 reg
 .
 h
