@@ -75,8 +75,8 @@ start
 ;
 }
 %
-ifdef
-MOZ_PLATFORM_MAEMO
+ifndef
+ANDROID
 #
 tool
 -
@@ -2967,8 +2967,8 @@ png
 ;
 }
 %
-ifdef
-MOZ_PLATFORM_MAEMO
+ifndef
+ANDROID
 #
 tool
 -

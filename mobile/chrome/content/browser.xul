@@ -3729,8 +3729,8 @@ hbox
 hbox
 >
 #
-ifdef
-MOZ_PLATFORM_MAEMO
+ifndef
+ANDROID
 <
 toolbarbutton
 id
@@ -5463,8 +5463,8 @@ container
 /
 >
 #
-ifdef
-MOZ_PLATFORM_MAEMO
+ifndef
+ANDROID
 <
 spacer
 flex
