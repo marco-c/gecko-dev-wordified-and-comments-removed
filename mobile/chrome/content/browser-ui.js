@@ -3039,10 +3039,10 @@ postData
 )
 ;
 }
-updateCurrentBrowser
+updateUIFocus
 :
 function
-_updateCurrentBrowser
+_updateUIFocus
 (
 )
 {
