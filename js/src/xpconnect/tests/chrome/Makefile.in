@@ -460,6 +460,10 @@ test_bug533596
 .
 xul
 \
+test_doublewrappedcompartments
+.
+xul
+\
 test_evalInSandbox
 .
 xul
