@@ -187,13 +187,6 @@ nsICacheListener
 h
 "
 #
-include
-"
-nsIProtocolProxyCallback
-.
-h
-"
-#
 define
 FTP_GENERIC_TYPE
 0
@@ -268,9 +261,6 @@ class
 nsFtpChannel
 ;
 class
-nsICancelable
-;
-class
 nsFtpState
 :
 public
@@ -285,8 +275,6 @@ public
 nsIRequestObserver
 public
 nsFtpControlConnectionListener
-public
-nsIProtocolProxyCallback
 {
 public
 :
@@ -295,7 +283,6 @@ NS_DECL_NSIINPUTSTREAMCALLBACK
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSICACHELISTENER
 NS_DECL_NSIREQUESTOBSERVER
-NS_DECL_NSIPROTOCOLPROXYCALLBACK
 NS_IMETHOD
 CloseWithStatus
 (
@@ -765,15 +752,6 @@ mDoomCache
 ;
 nsCString
 mSuppliedEntityID
-;
-nsCOMPtr
-<
-nsICancelable
->
-mProxyRequest
-;
-bool
-mDeferredCallbackPending
 ;
 }
 ;
