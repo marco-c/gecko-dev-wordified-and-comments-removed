@@ -48,13 +48,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-LayersBackend
-.
-h
-"
 class
 gfxASurface
 ;

@@ -47,6 +47,15 @@ h
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 ShadowLayersManager
 .
 h
@@ -69,6 +78,9 @@ layers
 {
 class
 AsyncPanZoomController
+;
+class
+Layer
 ;
 class
 LayerManager

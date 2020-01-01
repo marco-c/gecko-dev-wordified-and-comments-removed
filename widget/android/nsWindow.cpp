@@ -2444,6 +2444,7 @@ if
 !
 aRaise
 )
+{
 ALOG
 (
 "
@@ -2467,6 +2468,7 @@ false
 "
 )
 ;
+}
 if
 (
 !
@@ -4729,7 +4731,10 @@ setupLayerManager
 (
 this
 ctx
-BasicLayerManager
+mozilla
+:
+:
+layers
 :
 :
 BUFFER_NONE

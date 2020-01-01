@@ -126,13 +126,6 @@ RenderFrameParent
 .
 h
 "
-#
-include
-"
-LayersBackend
-.
-h
-"
 typedef
 nsContentView
 :

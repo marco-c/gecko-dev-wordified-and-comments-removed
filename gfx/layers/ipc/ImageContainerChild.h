@@ -36,6 +36,9 @@ class
 ImageBridgeCopyAndSendTask
 ;
 class
+ImageContainer
+;
+class
 ImageContainerChild
 :
 public

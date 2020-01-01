@@ -43,13 +43,6 @@ AndroidJavaWrappers
 h
 "
 #
-include
-"
-Layers
-.
-h
-"
-#
 endif
 class
 gfxASurface
@@ -74,6 +67,9 @@ CompositorParent
 ;
 class
 CompositorChild
+;
+class
+LayerManager
 ;
 }
 }

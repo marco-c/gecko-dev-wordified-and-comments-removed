@@ -157,6 +157,10 @@ BasicImplData
 .
 h
 \
+FrameMetrics
+.
+h
+\
 ImageLayers
 .
 h
@@ -165,7 +169,7 @@ Layers
 .
 h
 \
-LayersBackend
+LayersTypes
 .
 h
 \

@@ -12,13 +12,6 @@ map
 #
 include
 "
-LayersBackend
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layout
