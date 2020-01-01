@@ -660,6 +660,10 @@ browser_bug645699
 .
 js
 \
+browser_bug672485
+.
+js
+\
 unsigned
 .
 xpi
