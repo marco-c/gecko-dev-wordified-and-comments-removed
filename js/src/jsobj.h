@@ -2411,9 +2411,9 @@ JSObject
 obj
 jsid
 id
-jsval
+JSBool
 *
-vp
+foundp
 )
 ;
 extern
