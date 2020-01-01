@@ -417,6 +417,16 @@ html
 (
 NULL
 )
+ifdef
+GNU_CC
+CXXFLAGS
++
+=
+-
+Wno
+-
+uninitialized
+endif
 #
 Include
 rules
