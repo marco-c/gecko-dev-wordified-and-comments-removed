@@ -3352,14 +3352,6 @@ nodeType
 Node
 .
 DOCUMENT_NODE
-|
-|
-this
-.
-isTargetAFormControl
-(
-aNode
-)
 )
 {
 this
