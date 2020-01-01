@@ -946,7 +946,7 @@ StackDepth
 )
 const
 {
-mMutex
+mMonitor
 .
 AssertCurrentThreadOwns
 (

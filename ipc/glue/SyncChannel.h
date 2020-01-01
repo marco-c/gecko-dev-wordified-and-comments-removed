@@ -415,7 +415,7 @@ AwaitingSyncReply
 )
 const
 {
-mMutex
+mMonitor
 .
 AssertCurrentThreadOwns
 (
