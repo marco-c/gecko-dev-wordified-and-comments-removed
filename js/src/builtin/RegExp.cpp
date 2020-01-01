@@ -2342,6 +2342,7 @@ HIDDEN_PROP_ATTRS
 JSPROP_READONLY
 ;
 static
+const
 JSPropertySpec
 regexp_static_props
 [

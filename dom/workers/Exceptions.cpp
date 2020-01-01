@@ -94,6 +94,7 @@ JSClass
 sClass
 ;
 static
+const
 JSPropertySpec
 sProperties
 [
@@ -106,6 +107,7 @@ sFunctions
 ]
 ;
 static
+const
 JSPropertySpec
 sStaticProperties
 [
@@ -662,6 +664,7 @@ JS_ConvertStub
 Finalize
 }
 ;
+const
 JSPropertySpec
 DOMException
 :
@@ -746,6 +749,7 @@ ToString
 JS_FS_END
 }
 ;
+const
 JSPropertySpec
 DOMException
 :

@@ -462,6 +462,7 @@ name
 JSOP_NULLWRAPPER
 }
 static
+const
 JSPropertySpec
 pm_props
 [

@@ -96,6 +96,7 @@ JSClass
 sMainRuntimeClass
 ;
 static
+const
 JSPropertySpec
 sProperties
 [
@@ -108,6 +109,7 @@ sFunctions
 ]
 ;
 static
+const
 JSPropertySpec
 sStaticProperties
 [
@@ -882,7 +884,6 @@ aIdval
 const
 char
 *
-&
 name
 =
 sProperties
@@ -1382,6 +1383,7 @@ WorkerEvent
 #
 undef
 DECL_EVENT_CLASS
+const
 JSPropertySpec
 Event
 :
@@ -1583,6 +1585,7 @@ FUNCTION_FLAGS
 JS_FS_END
 }
 ;
+const
 JSPropertySpec
 Event
 :
@@ -1652,6 +1655,7 @@ JSClass
 sMainRuntimeClass
 ;
 static
+const
 JSPropertySpec
 sProperties
 [
@@ -2280,7 +2284,6 @@ SLOT_COUNT
 const
 char
 *
-&
 name
 =
 sProperties
@@ -2624,6 +2627,7 @@ WorkerMessageEvent
 #
 undef
 DECL_MESSAGEEVENT_CLASS
+const
 JSPropertySpec
 MessageEvent
 :
@@ -2723,6 +2727,7 @@ JSClass
 sMainRuntimeClass
 ;
 static
+const
 JSPropertySpec
 sProperties
 [
@@ -3224,7 +3229,6 @@ SLOT_COUNT
 const
 char
 *
-&
 name
 =
 sProperties
@@ -3457,6 +3461,7 @@ WorkerErrorEvent
 #
 undef
 DECL_ERROREVENT_CLASS
+const
 JSPropertySpec
 ErrorEvent
 :
@@ -3552,6 +3557,7 @@ JSClass
 sClass
 ;
 static
+const
 JSPropertySpec
 sProperties
 [
@@ -4014,7 +4020,6 @@ SLOT_COUNT
 const
 char
 *
-&
 name
 =
 sProperties
@@ -4214,6 +4219,7 @@ JS_ConvertStub
 Finalize
 }
 ;
+const
 JSPropertySpec
 ProgressEvent
 :

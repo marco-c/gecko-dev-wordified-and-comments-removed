@@ -4714,6 +4714,7 @@ NULL
 mark
 }
 ;
+const
 JSPropertySpec
 MapObject
 :
@@ -7702,6 +7703,7 @@ NULL
 mark
 }
 ;
+const
 JSPropertySpec
 SetObject
 :

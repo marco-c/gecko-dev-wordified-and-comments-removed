@@ -2374,6 +2374,7 @@ JSPROP_READONLY
 JSPROP_PERMANENT
 )
 static
+const
 JSPropertySpec
 sCTypeProps
 [
@@ -2530,6 +2531,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSPropertySpec
 sCDataProps
 [
@@ -2639,6 +2641,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSPropertySpec
 sCDataFinalizerProps
 [
@@ -2754,6 +2757,7 @@ CTYPESCTOR_FLAGS
 )
 ;
 static
+const
 JSPropertySpec
 sPointerProps
 [
@@ -2831,6 +2835,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSPropertySpec
 sPointerInstanceProps
 [
@@ -2887,6 +2892,7 @@ CTYPESCTOR_FLAGS
 )
 ;
 static
+const
 JSPropertySpec
 sArrayProps
 [
@@ -2955,6 +2961,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSPropertySpec
 sArrayInstanceProps
 [
@@ -3007,6 +3014,7 @@ CTYPESCTOR_FLAGS
 )
 ;
 static
+const
 JSPropertySpec
 sStructProps
 [
@@ -3099,6 +3107,7 @@ CTYPESCTOR_FLAGS
 )
 ;
 static
+const
 JSPropertySpec
 sFunctionProps
 [
@@ -3473,6 +3482,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSPropertySpec
 sModuleProps
 [

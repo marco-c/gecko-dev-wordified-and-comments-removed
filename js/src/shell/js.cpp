@@ -22188,6 +22188,7 @@ vp
 )
 ;
 static
+const
 JSPropertySpec
 its_props
 [
@@ -24991,6 +24992,7 @@ false
 }
 ;
 static
+const
 JSPropertySpec
 dom_props
 [
