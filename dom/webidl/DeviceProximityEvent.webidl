@@ -100,13 +100,6 @@ optional
 DeviceProximityEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 DeviceProximityEvent

@@ -2293,11 +2293,6 @@ DeviceOrientationEvent
 webidl
 '
 '
-DeviceProximityEvent
-.
-webidl
-'
-'
 DeviceStorageChangeEvent
 .
 webidl
@@ -2639,6 +2634,11 @@ GENERATED_EVENTS_WEBIDL_FILES
 [
 '
 BlobEvent
+.
+webidl
+'
+'
+DeviceProximityEvent
 .
 webidl
 '

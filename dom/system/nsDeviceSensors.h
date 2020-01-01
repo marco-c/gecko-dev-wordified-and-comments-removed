@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIDOMDeviceProximityEvent
-.
-h
-"
-#
-include
-"
 nsIDOMUserProximityEvent
 .
 h

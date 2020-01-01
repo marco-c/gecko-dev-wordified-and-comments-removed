@@ -163,11 +163,6 @@ nsIDOMDeviceOrientationEvent
 idl
 '
 '
-nsIDOMDeviceProximityEvent
-.
-idl
-'
-'
 nsIDOMDragEvent
 .
 idl

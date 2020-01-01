@@ -113,9 +113,6 @@ ProgressEvent
 StorageEvent
 '
 '
-DeviceProximityEvent
-'
-'
 MozSettingsEvent
 '
 '
