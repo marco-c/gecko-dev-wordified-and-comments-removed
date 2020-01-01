@@ -716,6 +716,12 @@ PCMETER
 (
 x
 )
+(
+(
+void
+)
+0
+)
 #
 endif
 }
