@@ -141,9 +141,11 @@ HEIGHT_OFFSET
 +
 4
 )
-static
 const
 PRUint8
+nsPNGDecoder
+:
+:
 pngSignatureBytes
 [
 ]
@@ -1155,6 +1157,9 @@ if
 memcmp
 (
 mHeaderBuf
+nsPNGDecoder
+:
+:
 pngSignatureBytes
 sizeof
 (
