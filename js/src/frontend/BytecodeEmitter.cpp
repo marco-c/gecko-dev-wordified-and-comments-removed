@@ -18040,6 +18040,15 @@ isOp
 (
 JSOP_NAME
 )
+|
+|
+lhs
+-
+>
+isOp
+(
+JSOP_GETGNAME
+)
 )
 {
 if
