@@ -149,6 +149,16 @@ Background
 "
 android
 :
+id
+=
+"
++
+id
+/
+awesomebar_background
+"
+android
+:
 orientation
 =
 "
@@ -175,7 +185,7 @@ background
 "
 drawable
 /
-abouthome_bg_repeat
+awesomebar_tabs_bg
 "
 >
 <

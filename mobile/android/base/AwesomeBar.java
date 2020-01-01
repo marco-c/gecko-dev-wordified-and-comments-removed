@@ -397,6 +397,7 @@ READING_LIST_KEY
 reading_list
 "
 ;
+public
 static
 enum
 Target
@@ -880,6 +881,13 @@ true
 ;
 }
 }
+mAwesomeTabs
+.
+setTarget
+(
+mTarget
+)
+;
 mText
 .
 setOnKeyPreImeListener
