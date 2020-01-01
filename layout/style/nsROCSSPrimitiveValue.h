@@ -224,7 +224,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIDOMRect
+nsDOMCSSRect
 >
 GetRectValue
 (

@@ -331,6 +331,10 @@ PerformanceTiming
 .
 webidl
 \
+Rect
+.
+webidl
+\
 RGBColor
 .
 webidl
