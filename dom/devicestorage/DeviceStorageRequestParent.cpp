@@ -1516,6 +1516,8 @@ r
 uint64_t
 diskUsage
 =
+0
+;
 DeviceStorageFile
 :
 :
@@ -1525,10 +1527,14 @@ mFile
 -
 >
 mFile
+&
+diskUsage
 )
 ;
 int64_t
 freeSpace
+=
+0
 ;
 nsresult
 rv
@@ -1564,8 +1570,8 @@ new
 PostStatResultEvent
 (
 mParent
-diskUsage
 freeSpace
+diskUsage
 )
 ;
 NS_DispatchToMainThread
