@@ -624,12 +624,6 @@ notifySecurityChange
 (
 PRUint32
 aState
-PRBool
-aUseSSLStatusObject
-nsString
-aTooltip
-nsCString
-aSecInfoAsString
 )
 ;
 sync

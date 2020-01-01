@@ -675,18 +675,6 @@ OnStopRequestCompleted
 (
 )
 ;
-UpdateAssociatedContentSecurity
-(
-PRInt32
-high
-PRInt32
-low
-PRInt32
-broken
-PRInt32
-no
-)
-;
 child
 :
 OnStartRequest
@@ -703,8 +691,6 @@ PRUint32
 cacheExpirationTime
 nsCString
 cachedCharset
-nsCString
-securityInfoSerialization
 )
 ;
 OnDataAvailable
