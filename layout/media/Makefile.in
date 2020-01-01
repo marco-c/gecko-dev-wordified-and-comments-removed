@@ -591,6 +591,7 @@ OS_LIBS
 call
 EXPAND_LIBNAME
 usp10
+ole32
 )
 #
 OTS
