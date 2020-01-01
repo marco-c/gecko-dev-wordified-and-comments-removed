@@ -89,6 +89,13 @@ nsHTMLDNSPrefetch
 .
 h
 "
+#
+include
+"
+nsDOMMemoryReporter
+.
+h
+"
 using
 namespace
 mozilla
@@ -157,6 +164,11 @@ nsGenericHTMLElement
 :
 )
 NS_DECL_NSIDOMHTMLANCHORELEMENT
+NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
+(
+nsHTMLAnchorElement
+nsGenericHTMLElement
+)
 NS_IMETHOD
 LinkAdded
 (

@@ -47,6 +47,13 @@ nsRuleData
 .
 h
 "
+#
+include
+"
+nsDOMMemoryReporter
+.
+h
+"
 class
 nsHTMLSpanElement
 :
@@ -90,6 +97,11 @@ NS_FORWARD_NSIDOMHTMLELEMENT
 nsGenericHTMLElement
 :
 :
+)
+NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
+(
+nsHTMLSpanElement
+nsGenericHTMLElement
 )
 virtual
 nsresult
