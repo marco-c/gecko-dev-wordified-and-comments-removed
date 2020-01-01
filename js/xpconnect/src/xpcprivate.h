@@ -13276,6 +13276,12 @@ nsStringBuffer
 sharedBuffer
 )
 ;
+static
+void
+ClearCache
+(
+)
+;
 private
 :
 XPCStringConvert
