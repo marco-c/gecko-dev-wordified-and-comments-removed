@@ -5045,9 +5045,6 @@ echo
 (
 CVSCO
 )
-(
-CVS_CO_DATE_FLAGS
-)
 mozilla
 /
 client
@@ -5068,9 +5065,6 @@ ROOTDIR
 \
 (
 CVSCO
-)
-(
-CVS_CO_DATE_FLAGS
 )
 mozilla
 /
@@ -5879,9 +5873,6 @@ echo
 (
 CVSCO
 )
-(
-CVS_CO_DATE_FLAGS
-)
 mozilla
 /
 client
@@ -5902,9 +5893,6 @@ ROOTDIR
 \
 (
 CVSCO
-)
-(
-CVS_CO_DATE_FLAGS
 )
 mozilla
 /
