@@ -4167,7 +4167,6 @@ return
 ReLayoutChildren
 (
 target
-NS_FRAME_IS_DIRTY
 )
 ;
 }

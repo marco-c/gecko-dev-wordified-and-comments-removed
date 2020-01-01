@@ -2576,8 +2576,6 @@ ReLayoutChildren
 nsIFrame
 *
 aParentFrame
-nsFrameState
-aBits
 )
 {
 if
@@ -2765,7 +2763,7 @@ nsIPresShell
 :
 :
 eStyleChange
-aBits
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -2854,7 +2852,6 @@ return
 ReLayoutChildren
 (
 frame
-NS_FRAME_IS_DIRTY
 )
 ;
 }
