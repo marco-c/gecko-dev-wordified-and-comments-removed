@@ -1304,11 +1304,6 @@ nsBlockFrame
 aContext
 )
 ;
-if
-(
-it
-)
-{
 it
 -
 >
@@ -1317,7 +1312,6 @@ SetFlags
 aFlags
 )
 ;
-}
 return
 it
 ;

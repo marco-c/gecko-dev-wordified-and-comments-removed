@@ -324,11 +324,6 @@ aCount
 false
 )
 ;
-if
-(
-newLine
-)
-{
 newLine
 -
 >
@@ -337,7 +332,6 @@ NoteFramesMovedFrom
 aFromLine
 )
 ;
-}
 return
 newLine
 ;
