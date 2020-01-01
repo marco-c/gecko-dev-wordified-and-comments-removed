@@ -2738,6 +2738,9 @@ PRBool
 aNeedMakeCX
 )
 {
+nsAutoScriptBlocker
+blockScripts
+;
 mParentWidget
 =
 aParentWidget
