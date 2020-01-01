@@ -324,6 +324,11 @@ analyze
 (
 )
 ;
+bool
+clear
+(
+)
+;
 }
 ;
 class
