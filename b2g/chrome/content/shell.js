@@ -352,6 +352,11 @@ notification
 '
 geolocation
 '
+'
+device
+-
+storage
+'
 ]
 ;
 urls

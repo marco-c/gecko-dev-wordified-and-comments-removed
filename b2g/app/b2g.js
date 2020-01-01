@@ -3955,3 +3955,15 @@ delay
 1000
 )
 ;
+pref
+(
+"
+device
+.
+storage
+.
+enabled
+"
+true
+)
+;
