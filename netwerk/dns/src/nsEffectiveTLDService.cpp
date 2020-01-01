@@ -410,10 +410,6 @@ entry
 IsNormal
 (
 )
-|
-|
-!
-nextDot
 )
 {
 *
