@@ -49,10 +49,6 @@ nsString
 h
 "
 #
-define
-FORCE_ALOG
-1
-#
 ifndef
 ALOG
 #
