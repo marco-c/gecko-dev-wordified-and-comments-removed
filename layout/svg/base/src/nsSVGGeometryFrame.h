@@ -163,9 +163,10 @@ const
 nsStyleSVGPaint
 *
 aPaint
-nsIAtom
+const
+FramePropertyDescriptor
 *
-aType
+aProperty
 )
 ;
 private

@@ -119,7 +119,7 @@ h
 #
 include
 "
-nsPropertyTable
+FramePropertyTable
 .
 h
 "
@@ -452,6 +452,13 @@ nsIObserver
 {
 public
 :
+typedef
+mozilla
+:
+:
+FramePropertyTable
+FramePropertyTable
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIOBSERVER
 NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
@@ -2453,7 +2460,7 @@ return
 mPrintSettings
 ;
 }
-nsPropertyTable
+FramePropertyTable
 *
 PropertyTable
 (
@@ -3266,7 +3273,7 @@ nsITimer
 >
 mPrefChangedTimer
 ;
-nsPropertyTable
+FramePropertyTable
 mPropertyTable
 ;
 nsInvalidateRequestList
