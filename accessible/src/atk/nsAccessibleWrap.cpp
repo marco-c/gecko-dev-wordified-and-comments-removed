@@ -1250,6 +1250,10 @@ mAtkObject
 if
 (
 !
+mWeakShell
+|
+|
+!
 IsEmbeddedObject
 (
 this
