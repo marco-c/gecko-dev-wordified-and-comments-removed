@@ -303,23 +303,6 @@ shutdown
 false
 )
 ;
-let
-appsDir
-=
-FileUtils
-.
-getDir
-(
-DIRECTORY_NAME
-[
-"
-webapps
-"
-]
-true
-true
-)
-;
 this
 .
 appsFile
@@ -344,7 +327,6 @@ true
 ;
 if
 (
-!
 this
 .
 appsFile
@@ -353,8 +335,7 @@ exists
 (
 )
 )
-return
-;
+{
 this
 .
 _loadJSONAsync
@@ -383,6 +364,7 @@ this
 )
 )
 ;
+}
 try
 {
 let
@@ -402,6 +384,7 @@ mozApps
 whitelist
 "
 )
+;
 hosts
 .
 split
