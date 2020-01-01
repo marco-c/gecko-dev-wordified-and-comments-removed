@@ -101,9 +101,6 @@ class
 nsSupportsHashtable
 ;
 class
-nsFixedSizeAllocator
-;
-class
 nsXBLProtoImplField
 ;
 class
@@ -995,15 +992,6 @@ void
 aClosure
 )
 const
-;
-static
-uint32_t
-gRefCnt
-;
-static
-nsFixedSizeAllocator
-*
-kAttrPool
 ;
 public
 :
