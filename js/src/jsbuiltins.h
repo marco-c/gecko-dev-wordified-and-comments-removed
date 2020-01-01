@@ -157,14 +157,14 @@ _JS_F64_ARGTYPE
 nanojit
 :
 :
-ARGTYPE_F
+ARGTYPE_D
 #
 define
 _JS_F64_RETTYPE
 nanojit
 :
 :
-ARGTYPE_F
+ARGTYPE_D
 #
 define
 _JS_PTR_ARGTYPE

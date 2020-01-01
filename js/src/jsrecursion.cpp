@@ -132,7 +132,7 @@ mRecorder
 lir
 -
 >
-insStorei
+insStore
 (
 mRecorder
 .
@@ -211,7 +211,7 @@ lir
 lir
 -
 >
-insStorei
+insStore
 (
 rval_ins
 lirbuf
@@ -264,7 +264,7 @@ double
 lir
 -
 >
-insStorei
+insStore
 (
 lirbuf
 -
@@ -317,7 +317,7 @@ FrameInfo
 lir
 -
 >
-insStorei
+insStore
 (
 lirbuf
 -
@@ -2112,7 +2112,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 fp_ins
 )
@@ -2125,7 +2125,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 argv_ins
 )
@@ -2292,7 +2292,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 lir
 -
@@ -2853,7 +2853,7 @@ INS_VOID
 lir
 -
 >
-insStorei
+insStore
 (
 rval_ins
 lirbuf
@@ -4008,7 +4008,7 @@ double
 lir
 -
 >
-insStorei
+insStore
 (
 lirbuf
 -
@@ -4057,7 +4057,7 @@ FrameInfo
 lir
 -
 >
-insStorei
+insStore
 (
 lirbuf
 -
@@ -4304,7 +4304,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 result
 )
@@ -4650,7 +4650,7 @@ true
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 val_ins
 )
@@ -4686,7 +4686,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 val_ins
 )
@@ -4699,7 +4699,7 @@ true
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 lir
 -
@@ -4790,7 +4790,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 val_ins
 )
@@ -4803,7 +4803,7 @@ true
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 lir
 -
@@ -5136,7 +5136,7 @@ exit
 lir
 -
 >
-insStorei
+insStore
 (
 val
 lirbuf

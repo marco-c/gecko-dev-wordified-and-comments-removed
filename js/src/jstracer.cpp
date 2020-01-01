@@ -1733,7 +1733,7 @@ addName
 lir
 -
 >
-insImm
+insImmI
 (
 c
 )
@@ -1751,7 +1751,7 @@ addName
 lir
 -
 >
-insImmPtr
+insImmP
 (
 p
 )
@@ -1769,7 +1769,7 @@ addName
 lir
 -
 >
-insImmPtr
+insImmP
 (
 (
 void
@@ -4702,7 +4702,7 @@ i
 lir
 -
 >
-insStorei
+insStore
 (
 insa
 [
@@ -4763,7 +4763,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 call_ins
 )
@@ -8997,7 +8997,7 @@ JS_ASSERT
 ins
 -
 >
-isF64
+isD
 (
 )
 )
@@ -9046,7 +9046,7 @@ JS_ASSERT
 ins
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -9057,7 +9057,7 @@ cf
 ins
 -
 >
-imm64f
+immD
 (
 )
 ;
@@ -9082,7 +9082,7 @@ return
 out
 -
 >
-insImm
+insImmI
 (
 ci
 )
@@ -9113,7 +9113,7 @@ if
 ins
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -9124,7 +9124,7 @@ d
 ins
 -
 >
-imm64f
+immD
 (
 )
 ;
@@ -9177,7 +9177,7 @@ if
 ins
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -9188,7 +9188,7 @@ d
 ins
 -
 >
-imm64f
+immD
 (
 )
 ;
@@ -9288,7 +9288,7 @@ oprnd2
 )
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -9299,7 +9299,7 @@ isconst
 c
 -
 >
-imm32
+immI
 (
 )
 &
@@ -9335,7 +9335,7 @@ oprnd2
 )
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -9346,7 +9346,7 @@ isconst
 c
 -
 >
-imm32
+immI
 (
 )
 >
@@ -9390,7 +9390,7 @@ oprnd2
 )
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -9401,7 +9401,7 @@ isconst
 c
 -
 >
-imm32
+immI
 (
 )
 &
@@ -9437,7 +9437,7 @@ oprnd2
 )
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -9448,7 +9448,7 @@ isconst
 c
 -
 >
-imm32
+immI
 (
 )
 >
@@ -9517,7 +9517,7 @@ s0
 )
 {
 return
-insImm
+insImmI
 (
 1
 )
@@ -9589,7 +9589,7 @@ rhs
 )
 {
 return
-insImm
+insImmI
 (
 1
 )
@@ -9600,7 +9600,7 @@ insImm
 else
 if
 (
-isFCmpOpcode
+isCmpDOpcode
 (
 v
 )
@@ -9622,7 +9622,7 @@ s1
 {
 v
 =
-f64cmp_to_i32cmp
+cmpOpcodeD2I
 (
 v
 )
@@ -9664,7 +9664,7 @@ s1
 {
 v
 =
-f64cmp_to_u32cmp
+cmpOpcodeD2UI
 (
 v
 )
@@ -13123,7 +13123,7 @@ true
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 x
 )
@@ -13760,7 +13760,7 @@ return
 lir
 -
 >
-insImmPtr
+insImmP
 (
 (
 void
@@ -13803,7 +13803,7 @@ return
 lir
 -
 >
-insImmPtr
+insImmP
 (
 (
 void
@@ -13843,7 +13843,7 @@ return
 lir
 -
 >
-insImmPtr
+insImmP
 (
 (
 void
@@ -13880,7 +13880,7 @@ return
 lir
 -
 >
-insImmPtr
+insImmP
 (
 (
 void
@@ -17413,7 +17413,7 @@ return
 lir
 -
 >
-insImm
+insImmI
 (
 2
 +
@@ -17615,7 +17615,7 @@ LIR_add
 lir
 -
 >
-insImm
+insImmI
 (
 4
 +
@@ -19511,7 +19511,7 @@ return
 lir
 -
 >
-insStorei
+insStore
 (
 i
 base
@@ -19729,7 +19729,7 @@ oprnd2
 )
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -20545,7 +20545,7 @@ TT_DOUBLE
 mLir
 -
 >
-insStorei
+insStore
 (
 mRecorder
 .
@@ -20751,7 +20751,7 @@ TT_DOUBLE
 mLir
 -
 >
-insStorei
+insStore
 (
 mRecorder
 .
@@ -22425,14 +22425,14 @@ cond
 cond
 -
 >
-isI32
+isI
 (
 )
 ?
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 cond
 )
@@ -22440,7 +22440,7 @@ cond
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 cond
 )
@@ -24229,7 +24229,7 @@ info
 vp
 mRecorder
 .
-f2i
+d2i
 (
 mRecorder
 .
@@ -24284,7 +24284,7 @@ vp
 )
 -
 >
-isF64
+isD
 (
 )
 )
@@ -27118,7 +27118,7 @@ nativeStackBase
 lir
 -
 >
-insStorei
+insStore
 (
 lir
 -
@@ -27150,7 +27150,7 @@ ACC_OTHER
 lir
 -
 >
-insStorei
+insStore
 (
 lir
 -
@@ -27484,7 +27484,7 @@ LIR_jt
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 lir
@@ -27509,7 +27509,7 @@ NULL
 lir
 -
 >
-insStorei
+insStore
 (
 lr
 lirbuf
@@ -27565,7 +27565,7 @@ LIR_jf
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 lir
 -
@@ -27591,7 +27591,7 @@ NULL
 lir
 -
 >
-insStorei
+insStore
 (
 lr
 lirbuf
@@ -27609,7 +27609,7 @@ ACC_OTHER
 lir
 -
 >
-insStorei
+insStore
 (
 lir
 -
@@ -27637,12 +27637,12 @@ ACC_OTHER
 lir
 -
 >
-ins_i2p
+insI2P
 (
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_lsh
 lir
@@ -27717,7 +27717,7 @@ label
 lir
 -
 >
-insStorei
+insStore
 (
 lr
 lirbuf
@@ -28041,7 +28041,7 @@ callDepth
 lir
 -
 >
-insStorei
+insStore
 (
 lirbuf
 -
@@ -28062,7 +28062,7 @@ ACC_OTHER
 lir
 -
 >
-insStorei
+insStore
 (
 lirbuf
 -
@@ -28422,7 +28422,7 @@ if
 x
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -28433,7 +28433,7 @@ pendingLoop
 x
 -
 >
-imm32
+immI
 (
 )
 =
@@ -28461,7 +28461,7 @@ if
 x
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -43544,7 +43544,7 @@ call_ins
 lir
 -
 >
-insImm
+insImmI
 (
 type
 )
@@ -43852,7 +43852,7 @@ JS_ASSERT_IF
 s0
 -
 >
-isconstf
+isImmD
 (
 )
 &
@@ -43860,13 +43860,13 @@ isconstf
 s1
 -
 >
-isconstf
+isImmD
 (
 )
 result
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -43977,7 +43977,7 @@ v1
 s1
 -
 >
-isconstf
+isImmD
 (
 )
 &
@@ -44076,7 +44076,7 @@ if
 d0
 -
 >
-isconst
+isImmI
 (
 )
 &
@@ -44084,7 +44084,7 @@ isconst
 d1
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -44098,7 +44098,7 @@ LIR_i2f
 lir
 -
 >
-insImm
+insImmI
 (
 jsint
 (
@@ -44120,7 +44120,7 @@ if
 d1
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -44138,7 +44138,7 @@ LIR_jt
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_gt
 d1
@@ -44153,7 +44153,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 d1
 )
@@ -44172,7 +44172,7 @@ LIR_and
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 d0
@@ -44181,7 +44181,7 @@ d0
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 d1
@@ -44214,7 +44214,7 @@ if
 d1
 -
 >
-imm32
+immI
 (
 )
 =
@@ -44228,7 +44228,7 @@ false
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 d0
@@ -44258,7 +44258,7 @@ true
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 lir
 -
@@ -44278,7 +44278,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 result
 )
@@ -44296,7 +44296,7 @@ if
 d0
 -
 >
-isconst
+isImmI
 (
 )
 &
@@ -44304,7 +44304,7 @@ isconst
 d1
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -44318,7 +44318,7 @@ LIR_i2f
 lir
 -
 >
-insImm
+insImmI
 (
 jsint
 (
@@ -44340,7 +44340,7 @@ if
 d1
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -44350,7 +44350,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 d1
 )
@@ -44391,7 +44391,7 @@ LIR_jf
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 result
 )
@@ -44404,7 +44404,7 @@ false
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_lt
 d0
@@ -44436,7 +44436,7 @@ default
 :
 v
 =
-f64arith_to_i32arith
+arithOpcodeD2I
 (
 v
 )
@@ -44509,7 +44509,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 result
 )
@@ -44540,7 +44540,7 @@ JS_ASSERT_IF
 d0
 -
 >
-isconst
+isImmI
 (
 )
 &
@@ -44548,13 +44548,13 @@ isconst
 d1
 -
 >
-isconst
+isImmI
 (
 )
 result
 -
 >
-isconst
+isImmI
 (
 )
 &
@@ -44562,7 +44562,7 @@ isconst
 result
 -
 >
-imm32
+immI
 (
 )
 =
@@ -44589,7 +44589,7 @@ LIns
 TraceRecorder
 :
 :
-i2f
+i2d
 (
 LIns
 *
@@ -44612,7 +44612,7 @@ LIns
 TraceRecorder
 :
 :
-f2i
+d2i
 (
 LIns
 *
@@ -44624,7 +44624,7 @@ if
 f
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -44632,14 +44632,14 @@ return
 lir
 -
 >
-insImm
+insImmI
 (
 js_DoubleToECMAInt32
 (
 f
 -
 >
-imm64f
+immD
 (
 )
 )
@@ -44717,7 +44717,7 @@ rhs
 LOpcode
 op
 =
-f64arith_to_i32arith
+arithOpcodeD2I
 (
 f
 -
@@ -44996,7 +44996,7 @@ if
 f
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -45004,14 +45004,14 @@ return
 lir
 -
 >
-insImm
+insImmI
 (
 js_DoubleToECMAUint32
 (
 f
 -
 >
-imm64f
+immD
 (
 )
 )
@@ -45069,7 +45069,7 @@ JS_ASSERT
 f
 -
 >
-isF64
+isD
 (
 )
 )
@@ -45089,7 +45089,7 @@ f
 {
 x
 =
-f2i
+d2i
 (
 f
 )
@@ -45287,7 +45287,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 v_ins
 )
@@ -45426,7 +45426,7 @@ x
 lir
 -
 >
-insImm
+insImmI
 (
 0
 )
@@ -45451,7 +45451,7 @@ x
 lir
 -
 >
-insImm
+insImmI
 (
 1
 )
@@ -45481,7 +45481,7 @@ x
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 v_ins
@@ -45537,7 +45537,7 @@ v_ins
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 lir
 -
@@ -45549,7 +45549,7 @@ v_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 0
 )
@@ -45679,7 +45679,7 @@ LIns
 *
 v_ins
 =
-f2i
+d2i
 (
 get
 (
@@ -45693,7 +45693,7 @@ if
 v_ins
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -45895,7 +45895,7 @@ v_ins
 lir
 -
 >
-insImm
+insImmI
 (
 low
 )
@@ -45915,7 +45915,7 @@ diff
 lir
 -
 >
-insImm
+insImmI
 (
 si
 -
@@ -45943,13 +45943,13 @@ DEFAULT_EXIT
 lir
 -
 >
-insStorei
+insStore
 (
 diff
 lir
 -
 >
-insImmPtr
+insImmP
 (
 &
 si
@@ -46124,7 +46124,7 @@ v_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 d
 )
@@ -46176,12 +46176,12 @@ addName
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 lir
 -
@@ -46231,7 +46231,7 @@ v_ins
 lir
 -
 >
-insImm
+insImmI
 (
 UnboxBooleanOrUndefined
 (
@@ -46455,7 +46455,7 @@ v_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 incr
 )
@@ -46721,7 +46721,7 @@ pre
 lir
 -
 >
-insStorei
+insStore
 (
 box_jsval
 (
@@ -46969,7 +46969,7 @@ x
 lir
 -
 >
-insImm
+insImmI
 (
 cond
 )
@@ -47000,7 +47000,7 @@ x
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 lir
@@ -47099,7 +47099,7 @@ x
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 x
 )
@@ -47150,7 +47150,7 @@ if
 x
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -47475,7 +47475,7 @@ r_ins
 lir
 -
 >
-insImm
+insImmI
 (
 1
 )
@@ -47726,7 +47726,7 @@ l
 {
 l_ins
 =
-i2f
+i2d
 (
 l_ins
 )
@@ -47771,7 +47771,7 @@ r
 {
 r_ins
 =
-i2f
+i2d
 (
 r_ins
 )
@@ -47897,7 +47897,7 @@ l_ins
 lir
 -
 >
-insImm
+insImmI
 (
 0
 )
@@ -47907,7 +47907,7 @@ r_ins
 lir
 -
 >
-insImm
+insImmI
 (
 1
 )
@@ -47941,7 +47941,7 @@ x
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 x
 )
@@ -48220,7 +48220,7 @@ r_ins
 lir
 -
 >
-insImm
+insImmI
 (
 0
 )
@@ -48287,7 +48287,7 @@ l_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 js_NaN
 )
@@ -48295,7 +48295,7 @@ js_NaN
 else
 l_ins
 =
-i2f
+i2d
 (
 l_ins
 )
@@ -48335,7 +48335,7 @@ l_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 0
 .
@@ -48428,7 +48428,7 @@ r_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 js_NaN
 )
@@ -48436,7 +48436,7 @@ js_NaN
 else
 r_ins
 =
-i2f
+i2d
 (
 r_ins
 )
@@ -48476,7 +48476,7 @@ r_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 0
 .
@@ -48600,7 +48600,7 @@ fp
 {
 JS_ASSERT
 (
-isFCmpOpcode
+isCmpDOpcode
 (
 op
 )
@@ -48608,7 +48608,7 @@ op
 ;
 op
 =
-f64cmp_to_i32cmp
+cmpOpcodeD2I
 (
 op
 )
@@ -48724,7 +48724,7 @@ op
 ]
 =
 =
-LTy_I32
+LTy_I
 ;
 if
 (
@@ -48750,7 +48750,7 @@ intop
 )
 a
 =
-f2i
+d2i
 (
 a
 )
@@ -48914,7 +48914,7 @@ op
 ]
 =
 =
-LTy_I32
+LTy_I
 ;
 LIns
 *
@@ -49107,7 +49107,7 @@ a
 lir
 -
 >
-insImmf
+insImmD
 (
 js_NaN
 )
@@ -49121,7 +49121,7 @@ else
 {
 a
 =
-i2f
+i2d
 (
 a
 )
@@ -49160,7 +49160,7 @@ b
 lir
 -
 >
-insImmf
+insImmD
 (
 js_NaN
 )
@@ -49174,7 +49174,7 @@ else
 {
 b
 =
-i2f
+i2d
 (
 b
 )
@@ -49219,14 +49219,14 @@ f2u
 a
 )
 :
-f2i
+d2i
 (
 a
 )
 ;
 b
 =
-f2i
+d2i
 (
 b
 )
@@ -49723,7 +49723,7 @@ addName
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 shape_ins
@@ -50753,7 +50753,7 @@ addName
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 vshape_ins
@@ -50850,7 +50850,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 obj2_ins
 )
@@ -50913,7 +50913,7 @@ v_ins
 lir
 -
 >
-insStorei
+insStore
 (
 v_ins
 obj_ins
@@ -50978,7 +50978,7 @@ ACC_OTHER
 lir
 -
 >
-insStorei
+insStore
 (
 v_ins
 dslots_ins
@@ -51259,7 +51259,7 @@ JS_ASSERT
 v_ins
 -
 >
-isF64
+isD
 (
 )
 )
@@ -51383,13 +51383,13 @@ LIR_pior
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 lir
 -
 >
-ins_u2p
+insUI2P
 (
 v_ins
 )
@@ -51468,7 +51468,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 lir
 -
@@ -51619,7 +51619,7 @@ JS_ASSERT
 v_ins
 -
 >
-isconstp
+isImmP
 (
 )
 )
@@ -51648,7 +51648,7 @@ p2i
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pursh
 v_ins
@@ -51673,7 +51673,7 @@ true
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 v_ins
 )
@@ -51689,7 +51689,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 v_ins
 )
@@ -52197,12 +52197,12 @@ this_ins
 lir
 -
 >
-ins_choose
+insChoose
 (
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 stobj_get_parent
 (
@@ -52492,7 +52492,7 @@ addName
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 *
 pobj_ins
@@ -53205,7 +53205,7 @@ i
 lir
 -
 >
-insStorei
+insStore
 (
 arg_ins
 args_ins
@@ -53370,7 +53370,7 @@ i
 lir
 -
 >
-insStorei
+insStore
 (
 slot_ins
 slots_ins
@@ -54001,7 +54001,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 call_ins
 )
@@ -54646,7 +54646,7 @@ ACC_OTHER
 lir
 -
 >
-insStorei
+insStore
 (
 rval_ins
 fp_ins
@@ -55199,7 +55199,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 call_ins
 )
@@ -55342,7 +55342,7 @@ LIR_jt
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 a_ins
 )
@@ -55352,7 +55352,7 @@ NULL
 lir
 -
 >
-insStorei
+insStore
 (
 a_ins
 mem_ins
@@ -55406,7 +55406,7 @@ callee_ins
 lir
 -
 >
-insStorei
+insStore
 (
 call_ins
 mem_ins
@@ -56130,7 +56130,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 concat
 )
@@ -56268,12 +56268,12 @@ v
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 get
@@ -56328,7 +56328,7 @@ v_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 0
 )
@@ -56336,7 +56336,7 @@ insImmf
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 lir
 -
@@ -56373,7 +56373,7 @@ v
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 get
 (
@@ -56402,7 +56402,7 @@ v
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 lir
 -
@@ -56612,7 +56612,7 @@ LIR_sub
 lir
 -
 >
-insImm
+insImmI
 (
 0
 )
@@ -56630,7 +56630,7 @@ if
 a
 -
 >
-isconst
+isImmI
 (
 )
 &
@@ -56650,7 +56650,7 @@ false
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 a
@@ -56712,7 +56712,7 @@ v
 lir
 -
 >
-insImmf
+insImmD
 (
 -
 0
@@ -56740,7 +56740,7 @@ v
 lir
 -
 >
-insImmf
+insImmD
 (
 js_NaN
 )
@@ -56817,7 +56817,7 @@ lir
 ins1
 (
 LIR_fneg
-i2f
+i2d
 (
 get
 (
@@ -56905,7 +56905,7 @@ v
 lir
 -
 >
-insImmf
+insImmD
 (
 0
 )
@@ -56930,7 +56930,7 @@ v
 lir
 -
 >
-insImmf
+insImmD
 (
 js_NaN
 )
@@ -56994,7 +56994,7 @@ set
 (
 &
 v
-i2f
+i2d
 (
 get
 (
@@ -57495,7 +57495,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 obj_ins
 )
@@ -57589,7 +57589,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 arr_ins
 )
@@ -57622,7 +57622,7 @@ args
 ]
 =
 {
-f2i
+d2i
 (
 get
 (
@@ -57651,7 +57651,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 arr_ins
 )
@@ -57694,7 +57694,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 arr_ins
 )
@@ -57858,19 +57858,19 @@ status_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_lsh
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_xor
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_and
 ok_ins
@@ -57885,7 +57885,7 @@ ok_ins
 lir
 -
 >
-insStorei
+insStore
 (
 status_ins
 lirbuf
@@ -57991,7 +57991,7 @@ jsval
 lir
 -
 >
-insStorei
+insStore
 (
 vp_ins
 lirbuf
@@ -58009,7 +58009,7 @@ ACC_OTHER
 lir
 -
 >
-insStorei
+insStore
 (
 INS_CONST
 (
@@ -58034,7 +58034,7 @@ setflag
 lir
 -
 >
-insStorei
+insStore
 (
 boxed_ins
 vp_ins
@@ -58200,7 +58200,7 @@ args
 lir
 -
 >
-insStorei
+insStore
 (
 INS_NULL
 (
@@ -58258,7 +58258,7 @@ true
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 status_ins
 )
@@ -58403,7 +58403,7 @@ rooted
 lir
 -
 >
-insStorei
+insStore
 (
 INS_NULL
 (
@@ -58441,7 +58441,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 res_ins
 )
@@ -58477,7 +58477,7 @@ res_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 0
 )
@@ -58496,7 +58496,7 @@ false
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 res_ins
@@ -59116,7 +59116,7 @@ i
 *
 argp
 =
-f2i
+d2i
 (
 *
 argp
@@ -59584,7 +59584,7 @@ LIR_i2f
 lir
 -
 >
-ins_choose
+insChoose
 (
 lir
 -
@@ -59821,7 +59821,7 @@ jsval
 lir
 -
 >
-insStorei
+insStore
 (
 INS_CONSTVAL
 (
@@ -59974,7 +59974,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 newobj_ins
 )
@@ -60155,12 +60155,12 @@ this_ins
 lir
 -
 >
-ins_choose
+insChoose
 (
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 stobj_get_parent
 (
@@ -60200,7 +60200,7 @@ this_ins
 lir
 -
 >
-insStorei
+insStore
 (
 this_ins
 invokevp_ins
@@ -60254,7 +60254,7 @@ n
 lir
 -
 >
-insStorei
+insStore
 (
 i
 invokevp_ins
@@ -60325,7 +60325,7 @@ n
 lir
 -
 >
-insStorei
+insStore
 (
 undef_ins
 invokevp_ins
@@ -60407,7 +60407,7 @@ args
 lir
 -
 >
-insImm
+insImmI
 (
 argc
 )
@@ -60527,7 +60527,7 @@ args
 lir
 -
 >
-insImm
+insImmI
 (
 argc
 )
@@ -60717,7 +60717,7 @@ NULL
 lir
 -
 >
-insStorei
+insStore
 (
 INS_CONST
 (
@@ -60738,7 +60738,7 @@ ACC_OTHER
 lir
 -
 >
-insStorei
+insStore
 (
 invokevp_ins
 lirbuf
@@ -60852,7 +60852,7 @@ fval
 )
 -
 >
-isconstp
+isImmP
 (
 )
 )
@@ -60933,7 +60933,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 tv_ins
 )
@@ -62631,7 +62631,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 ok_ins
 )
@@ -62718,7 +62718,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 ok_ins
 )
@@ -63152,7 +63152,7 @@ ACC_OTHER
 lir
 -
 >
-insStorei
+insStore
 (
 box_jsval
 (
@@ -63438,7 +63438,7 @@ typemap_ins
 lir
 -
 >
-ins_u2p
+insUI2P
 (
 slot_ins
 )
@@ -63488,7 +63488,7 @@ type_ins
 lir
 -
 >
-insImm
+insImmI
 (
 type
 )
@@ -63549,7 +63549,7 @@ v_ins
 lir
 -
 >
-insStorei
+insStore
 (
 storeValue_ins
 lir
@@ -63562,7 +63562,7 @@ stackBase_ins
 lir
 -
 >
-ins_u2p
+insUI2P
 (
 offset_ins
 )
@@ -63649,7 +63649,7 @@ addName
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 call_ins
 )
@@ -63818,7 +63818,7 @@ DEEP_BAIL_EXIT
 lir
 -
 >
-insStorei
+insStore
 (
 INS_CONSTPTR
 (
@@ -63872,7 +63872,7 @@ leaveDeepBailCall
 lir
 -
 >
-insStorei
+insStore
 (
 INS_NULL
 (
@@ -65287,7 +65287,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 unitstr_ins
 )
@@ -65453,7 +65453,7 @@ if
 idx_ins
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -65737,7 +65737,7 @@ typemap_ins
 lir
 -
 >
-ins_u2p
+insUI2P
 (
 lir
 -
@@ -65787,7 +65787,7 @@ type_ins
 lir
 -
 >
-insImm
+insImmI
 (
 type
 )
@@ -65878,7 +65878,7 @@ args_addr_ins
 lir
 -
 >
-ins_u2p
+insUI2P
 (
 lir
 -
@@ -66391,7 +66391,7 @@ vp
 lir
 -
 >
-insStorei
+insStore
 (
 rval_ins
 vp_ins
@@ -66735,7 +66735,7 @@ vp
 lir
 -
 >
-insStorei
+insStore
 (
 rval_ins
 vp_ins
@@ -67105,7 +67105,7 @@ pidx_ins
 lir
 -
 >
-ins_u2p
+insUI2P
 (
 idx_ins
 )
@@ -67155,7 +67155,7 @@ v_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 js_NaN
 )
@@ -67213,7 +67213,7 @@ v
 ;
 v_ins
 =
-i2f
+i2d
 (
 v_ins
 )
@@ -67226,7 +67226,7 @@ v_ins
 lir
 -
 >
-insImmf
+insImmD
 (
 js_NaN
 )
@@ -67270,7 +67270,7 @@ TYPE_INT32
 :
 v_ins
 =
-f2i
+d2i
 (
 v_ins
 )
@@ -67343,12 +67343,12 @@ v_ins
 lir
 -
 >
-ins_choose
+insChoose
 (
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_lt
 v_ins
@@ -67357,19 +67357,19 @@ v_ins
 lir
 -
 >
-insImm
+insImmI
 (
 0
 )
 lir
 -
 >
-ins_choose
+insChoose
 (
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_gt
 v_ins
@@ -67378,7 +67378,7 @@ v_ins
 lir
 -
 >
-insImm
+insImmI
 (
 0xff
 )
@@ -67549,7 +67549,7 @@ data_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -67601,7 +67601,7 @@ data_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -67644,7 +67644,7 @@ data_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -67687,7 +67687,7 @@ data_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -67911,7 +67911,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 res_ins
 )
@@ -68456,7 +68456,7 @@ call_ins
 lir
 -
 >
-insImm
+insImmI
 (
 type
 )
@@ -69599,7 +69599,7 @@ memory
 lir
 -
 >
-insStorei
+insStore
 (
 INS_CONSTPTR
 (
@@ -70225,7 +70225,7 @@ true
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 p2i
@@ -70571,7 +70571,7 @@ FAIL_STATUS
 lir
 -
 >
-insStorei
+insStore
 (
 INS_NULL
 (
@@ -70701,7 +70701,7 @@ x
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 lir
 -
@@ -70722,7 +70722,7 @@ x
 lir
 -
 >
-ins_choose
+insChoose
 (
 x
 v_ins
@@ -70746,12 +70746,12 @@ v_ins
 lir
 -
 >
-ins_choose
+insChoose
 (
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 x
 )
@@ -70789,7 +70789,7 @@ true
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 status
 )
@@ -72166,7 +72166,7 @@ pidx_ins
 lir
 -
 >
-ins_u2p
+insUI2P
 (
 idx_ins
 )
@@ -72255,7 +72255,7 @@ MAX_DSLOTS_LENGTH32
 idx_ins
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -72282,7 +72282,7 @@ LIR_jt
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_lt
 idx_ins
@@ -72348,7 +72348,7 @@ LIR_jt
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 dslots_ins
 )
@@ -72490,7 +72490,7 @@ MAX_DSLOTS_LENGTH32
 idx_ins
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -72512,7 +72512,7 @@ false
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_lt
 idx_ins
@@ -72550,7 +72550,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 dslots_ins
 )
@@ -72615,7 +72615,7 @@ dslots_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -72834,7 +72834,7 @@ pidx_ins
 lir
 -
 >
-ins_u2p
+insUI2P
 (
 idx_ins
 )
@@ -73107,7 +73107,7 @@ data_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -73158,7 +73158,7 @@ data_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -73209,7 +73209,7 @@ data_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -73260,7 +73260,7 @@ data_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -73311,7 +73311,7 @@ data_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -73355,7 +73355,7 @@ data_ins
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_pilsh
 pidx_ins
@@ -73588,7 +73588,7 @@ stack
 lir
 -
 >
-insImmf
+insImmD
 (
 *
 JSVAL_TO_DOUBLE
@@ -73668,7 +73668,7 @@ stack
 lir
 -
 >
-insImmf
+insImmD
 (
 0
 )
@@ -73693,7 +73693,7 @@ stack
 lir
 -
 >
-insImmf
+insImmD
 (
 1
 )
@@ -73770,7 +73770,7 @@ stack
 lir
 -
 >
-insImm
+insImmI
 (
 0
 )
@@ -73795,7 +73795,7 @@ stack
 lir
 -
 >
-insImm
+insImmI
 (
 1
 )
@@ -74177,7 +74177,7 @@ stack
 lir
 -
 >
-insImmf
+insImmD
 (
 GET_UINT16
 (
@@ -74311,7 +74311,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 v_ins
 )
@@ -75094,7 +75094,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 ok_ins
 )
@@ -75547,7 +75547,7 @@ addName
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 shape_ins
@@ -76150,7 +76150,7 @@ false
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 x
@@ -76167,7 +76167,7 @@ x
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 x
@@ -76490,7 +76490,7 @@ pendingGuardCondition
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 status_ins
 )
@@ -77068,7 +77068,7 @@ addName
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 call_ins
 )
@@ -77603,7 +77603,7 @@ true
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 ovr_ins
 )
@@ -77735,7 +77735,7 @@ LIR_jt
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 a_ins
 )
@@ -77774,7 +77774,7 @@ stack
 lir
 -
 >
-insImmf
+insImmD
 (
 cx
 -
@@ -78797,7 +78797,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 regex_ins
 )
@@ -79309,7 +79309,7 @@ false
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_eq
 get
@@ -79640,7 +79640,7 @@ stack
 lir
 -
 >
-insImmf
+insImmD
 (
 GET_UINT24
 (
@@ -80314,7 +80314,7 @@ false
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 ok_ins
 )
@@ -81296,7 +81296,7 @@ stack
 lir
 -
 >
-insImmf
+insImmD
 (
 GET_INT8
 (
@@ -81333,7 +81333,7 @@ stack
 lir
 -
 >
-insImmf
+insImmD
 (
 GET_INT32
 (
@@ -81553,7 +81553,7 @@ LIR_i2f
 lir
 -
 >
-ins2i
+ins2ImmI
 (
 LIR_rsh
 p2i
@@ -81864,7 +81864,7 @@ args
 lir
 -
 >
-insImm
+insImmI
 (
 len
 )
@@ -81892,7 +81892,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 v_ins
 )
@@ -82256,7 +82256,7 @@ vp
 lir
 -
 >
-insStorei
+insStore
 (
 stringify
 (
@@ -82279,7 +82279,7 @@ args
 lir
 -
 >
-insImm
+insImmI
 (
 argc
 )
@@ -82307,7 +82307,7 @@ false
 lir
 -
 >
-ins_peq0
+insEqP_0
 (
 result_ins
 )

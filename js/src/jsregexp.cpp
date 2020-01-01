@@ -11350,7 +11350,7 @@ text_ch
 lir
 -
 >
-insImm
+insImmI
 (
 32
 )
@@ -11832,7 +11832,7 @@ text_ch
 lir
 -
 >
-insImm
+insImmI
 (
 extras
 [
@@ -11890,7 +11890,7 @@ text_ch
 lir
 -
 >
-insImm
+insImmI
 (
 ch
 )
@@ -12317,7 +12317,7 @@ text_word
 lir
 -
 >
-insImm
+insImmI
 (
 mask
 .
@@ -12350,7 +12350,7 @@ comp_word
 lir
 -
 >
-insImm
+insImmI
 (
 word
 )
@@ -12956,7 +12956,7 @@ text_ch
 lir
 -
 >
-insImm
+insImmI
 (
 charSet
 -
@@ -12980,7 +12980,7 @@ byteIndex
 lir
 -
 >
-ins_i2p
+insI2P
 (
 lir
 -
@@ -12992,7 +12992,7 @@ text_ch
 lir
 -
 >
-insImm
+insImmI
 (
 3
 )
@@ -13006,7 +13006,7 @@ bitmap
 lir
 -
 >
-insImmPtr
+insImmP
 (
 bitmapData
 )
@@ -13050,7 +13050,7 @@ LIR_lsh
 lir
 -
 >
-insImm
+insImmI
 (
 1
 )
@@ -13064,7 +13064,7 @@ text_ch
 lir
 -
 >
-insImm
+insImmI
 (
 0x7
 )
@@ -13093,7 +13093,7 @@ bitMask
 lir
 -
 >
-insImm
+insImmI
 (
 0
 )
@@ -13175,7 +13175,7 @@ sizeLog2
 lir
 -
 >
-insImm
+insImmI
 (
 StaticLog2
 <
@@ -13215,14 +13215,14 @@ LIR_piadd
 lir
 -
 >
-insImmPtr
+insImmP
 (
 tbl
 )
 lir
 -
 >
-ins_u2p
+insUI2P
 (
 chr
 )
@@ -13326,7 +13326,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 '
 \
@@ -13370,7 +13370,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 '
 \
@@ -13414,7 +13414,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 LINE_SEPARATOR
 )
@@ -13455,7 +13455,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 PARA_SEPARATOR
 )
@@ -13503,7 +13503,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 '
 0
@@ -13546,7 +13546,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 '
 9
@@ -13596,7 +13596,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 '
 0
@@ -13618,7 +13618,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 '
 9
@@ -13656,7 +13656,7 @@ LIR_jf
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 both
 )
@@ -13688,7 +13688,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 128
 )
@@ -13741,7 +13741,7 @@ LIR_jt
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 tableVal
 )
@@ -13773,7 +13773,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 128
 )
@@ -13819,7 +13819,7 @@ LIR_jf
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 tableVal
 )
@@ -13874,7 +13874,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0x20
 )
@@ -13908,7 +13908,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0xA0
 )
@@ -13942,7 +13942,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0x2000
 )
@@ -13976,7 +13976,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0x200A
 )
@@ -14044,7 +14044,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0xA0
 )
@@ -14078,7 +14078,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0x1680
 )
@@ -14112,7 +14112,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0x180E
 )
@@ -14180,7 +14180,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0x2028
 )
@@ -14214,7 +14214,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0x2029
 )
@@ -14248,7 +14248,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0x202F
 )
@@ -14282,7 +14282,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0x205F
 )
@@ -14316,7 +14316,7 @@ chr
 lir
 -
 >
-insImm
+insImmI
 (
 0x3000
 )
@@ -14387,7 +14387,7 @@ tableCnd
 lir
 -
 >
-ins_eq0
+insEqI_0
 (
 tableVal
 )
@@ -14868,7 +14868,7 @@ NULL
 lir
 -
 >
-insStorei
+insStore
 (
 branchEnd
 state
@@ -14920,7 +14920,7 @@ NULL
 lir
 -
 >
-insStorei
+insStore
 (
 branchEnd
 state
@@ -14984,7 +14984,7 @@ fails
 lir
 -
 >
-insStorei
+insStore
 (
 pos
 state
@@ -15023,7 +15023,7 @@ NULL
 lir
 -
 >
-insStorei
+insStore
 (
 pos
 state
@@ -15293,7 +15293,7 @@ NULL
 lir
 -
 >
-insStorei
+insStore
 (
 pos
 state
@@ -15419,7 +15419,7 @@ NULL
 lir
 -
 >
-insStorei
+insStore
 (
 iterEnd
 state
@@ -15698,7 +15698,7 @@ false
 lir
 -
 >
-insStorei
+insStore
 (
 pos
 state
@@ -15727,7 +15727,7 @@ LIR_ret
 lir
 -
 >
-insImm
+insImmI
 (
 1
 )
@@ -15760,7 +15760,7 @@ LIR_ret
 lir
 -
 >
-insImm
+insImmI
 (
 0
 )
@@ -15817,7 +15817,7 @@ LIR_ret
 lir
 -
 >
-insImm
+insImmI
 (
 0
 )
@@ -15879,7 +15879,7 @@ false
 lir
 -
 >
-insStorei
+insStore
 (
 lir
 -

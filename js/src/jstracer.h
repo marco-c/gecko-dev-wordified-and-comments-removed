@@ -4667,7 +4667,7 @@ nanojit
 :
 LIns
 *
-i2f
+i2d
 (
 nanojit
 :
@@ -4682,7 +4682,7 @@ nanojit
 :
 LIns
 *
-f2i
+d2i
 (
 nanojit
 :
