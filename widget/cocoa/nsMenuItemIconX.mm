@@ -2135,7 +2135,7 @@ aType
 imgINotificationObserver
 :
 :
-LOAD_COMPLETE
+DECODE_COMPLETE
 )
 {
 if
