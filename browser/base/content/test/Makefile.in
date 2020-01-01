@@ -808,10 +808,6 @@ browser_drag
 .
 js
 \
-browser_bug125282
-.
-js
-\
 (
 NULL
 )
