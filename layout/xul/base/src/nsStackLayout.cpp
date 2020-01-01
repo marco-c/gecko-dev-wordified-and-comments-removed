@@ -54,7 +54,7 @@ nsINameSpaceManager
 .
 h
 "
-nsIBoxLayout
+nsBoxLayout
 *
 nsStackLayout
 :
@@ -107,7 +107,7 @@ nsIPresShell
 aPresShell
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 &
 aNewLayout

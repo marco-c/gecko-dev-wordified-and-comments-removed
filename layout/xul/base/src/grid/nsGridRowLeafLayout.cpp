@@ -56,13 +56,13 @@ h
 "
 already_AddRefed
 <
-nsIBoxLayout
+nsBoxLayout
 >
 NS_NewGridRowLeafLayout
 (
 )
 {
-nsIBoxLayout
+nsBoxLayout
 *
 layout
 =

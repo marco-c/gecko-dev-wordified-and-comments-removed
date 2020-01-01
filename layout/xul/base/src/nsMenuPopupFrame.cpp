@@ -239,13 +239,6 @@ h
 #
 include
 "
-nsIBoxLayout
-.
-h
-"
-#
-include
-"
 nsIPopupBoxObject
 .
 h

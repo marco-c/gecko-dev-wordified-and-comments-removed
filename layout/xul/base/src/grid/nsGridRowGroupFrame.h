@@ -55,7 +55,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsIBoxLayout
+nsBoxLayout
 *
 aLayoutManager
 )

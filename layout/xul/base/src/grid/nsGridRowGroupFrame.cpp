@@ -35,7 +35,7 @@ h
 "
 already_AddRefed
 <
-nsIBoxLayout
+nsBoxLayout
 >
 NS_NewGridRowGroupLayout
 (
@@ -55,7 +55,7 @@ aContext
 {
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 layout
 =

@@ -22,7 +22,7 @@ public
 friend
 already_AddRefed
 <
-nsIBoxLayout
+nsBoxLayout
 >
 NS_NewGridRowGroupLayout
 (

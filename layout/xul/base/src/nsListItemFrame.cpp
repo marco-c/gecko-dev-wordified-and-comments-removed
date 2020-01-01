@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsIBoxLayout
+nsBoxLayout
 .
 h
 "
@@ -53,7 +53,7 @@ nsStyleContext
 aContext
 PRBool
 aIsRoot
-nsIBoxLayout
+nsBoxLayout
 *
 aLayoutManager
 )
@@ -189,7 +189,7 @@ aLists
 }
 already_AddRefed
 <
-nsIBoxLayout
+nsBoxLayout
 >
 NS_NewGridRowLeafLayout
 (
@@ -209,7 +209,7 @@ aContext
 {
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 layout
 =

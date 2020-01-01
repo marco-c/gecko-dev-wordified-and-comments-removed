@@ -142,7 +142,7 @@ class
 nsBoxLayoutState
 ;
 class
-nsIBoxLayout
+nsBoxLayout
 ;
 class
 nsILineIterator
@@ -4919,14 +4919,14 @@ virtual
 void
 SetLayoutManager
 (
-nsIBoxLayout
+nsBoxLayout
 *
 aLayout
 )
 {
 }
 virtual
-nsIBoxLayout
+nsBoxLayout
 *
 GetLayoutManager
 (

@@ -454,7 +454,7 @@ nsnull
 ;
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 layout
 ;

@@ -85,7 +85,7 @@ PRBool
 aIsRoot
 =
 nsnull
-nsIBoxLayout
+nsBoxLayout
 *
 aLayoutManager
 =

@@ -402,7 +402,7 @@ nsIPresShell
 aPresShell
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 &
 aNewLayout
@@ -425,7 +425,7 @@ nsIPresShell
 aPresShell
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 &
 aNewLayout
@@ -743,7 +743,7 @@ aState
 private
 :
 static
-nsIBoxLayout
+nsBoxLayout
 *
 gInstance
 ;

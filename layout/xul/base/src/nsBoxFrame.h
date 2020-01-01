@@ -96,7 +96,7 @@ nsStyleContext
 aContext
 PRBool
 aIsRoot
-nsIBoxLayout
+nsBoxLayout
 *
 aLayoutManager
 )
@@ -135,7 +135,7 @@ nsStyleContext
 aContext
 PRBool
 aIsRoot
-nsIBoxLayout
+nsBoxLayout
 *
 aLayoutManager
 )
@@ -157,7 +157,7 @@ virtual
 void
 SetLayoutManager
 (
-nsIBoxLayout
+nsBoxLayout
 *
 aLayout
 )
@@ -168,7 +168,7 @@ aLayout
 ;
 }
 virtual
-nsIBoxLayout
+nsBoxLayout
 *
 GetLayoutManager
 (
@@ -527,7 +527,7 @@ PRBool
 aIsRoot
 =
 PR_FALSE
-nsIBoxLayout
+nsBoxLayout
 *
 aLayoutManager
 =
@@ -750,7 +750,7 @@ mAscent
 ;
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 mLayoutManager
 ;

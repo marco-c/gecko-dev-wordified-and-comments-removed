@@ -445,7 +445,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsIBoxLayout
+nsBoxLayout
 *
 aLayoutManager
 )
@@ -5936,7 +5936,7 @@ Destroy
 }
 already_AddRefed
 <
-nsIBoxLayout
+nsBoxLayout
 >
 NS_NewListBoxLayout
 (
@@ -5956,7 +5956,7 @@ aContext
 {
 nsCOMPtr
 <
-nsIBoxLayout
+nsBoxLayout
 >
 layout
 =
