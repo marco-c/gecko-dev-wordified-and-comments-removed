@@ -2079,10 +2079,12 @@ nsIObjectLoadingContent
 )
 ;
 return
-!
-objLoadingContent
+gPluginHandler
 .
-activated
+canActivatePlugin
+(
+objLoadingContent
+)
 ;
 }
 )
