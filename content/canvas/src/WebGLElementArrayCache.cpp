@@ -780,13 +780,11 @@ aMallocSizeOf
 this
 )
 +
-aMallocSizeOf
-(
 mTreeData
 .
-Elements
+SizeOfExcludingThis
 (
-)
+aMallocSizeOf
 )
 ;
 }
