@@ -143,7 +143,7 @@ nsMixedContentBlocker
 :
 ShouldLoad
 (
-uint32_t
+PRUint32
 aContentType
 nsIURI
 *
@@ -164,7 +164,7 @@ aExtra
 nsIPrincipal
 *
 aRequestPrincipal
-int16_t
+PRInt16
 *
 aDecision
 )
@@ -443,7 +443,7 @@ nsMixedContentBlocker
 :
 ShouldProcess
 (
-uint32_t
+PRUint32
 aContentType
 nsIURI
 *
@@ -464,7 +464,7 @@ aExtra
 nsIPrincipal
 *
 aRequestPrincipal
-int16_t
+PRInt16
 *
 aDecision
 )
