@@ -315,6 +315,10 @@ XMLSerializer
 .
 webidl
 \
+XPathEvaluator
+.
+webidl
+\
 (
 NULL
 )
