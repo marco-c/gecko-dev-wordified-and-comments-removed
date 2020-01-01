@@ -706,7 +706,6 @@ callback
 :
 function
 (
-notification
 )
 {
 let
