@@ -1172,7 +1172,7 @@ cx
 getterOp
 (
 )
-obj
+receiver
 SHAPE_USERID
 (
 this
