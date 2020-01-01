@@ -411,6 +411,19 @@ fp
 ;
 if
 (
+!
+frame
+.
+script
+(
+)
+-
+>
+selfHosted
+)
+{
+if
+(
 frame
 .
 isFramePushedByExecute
@@ -511,6 +524,7 @@ callHookData
 )
 )
 ;
+}
 }
 RootedValue
 rval
@@ -4903,7 +4917,7 @@ JSContext
 cx
 )
 {
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 iter
 (
 cx
@@ -5025,7 +5039,7 @@ cx
 ;
 for
 (
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 i
 (
 cx
@@ -5043,19 +5057,6 @@ done
 i
 )
 {
-if
-(
-i
-.
-script
-(
-)
--
->
-selfHosted
-)
-continue
-;
 FrameDescription
 desc
 ;
@@ -5415,7 +5416,7 @@ JSContext
 *
 cx
 const
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 &
 iter
 char
@@ -6629,7 +6630,7 @@ num
 ;
 for
 (
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 i
 (
 cx
@@ -7268,7 +7269,7 @@ JSContext
 cx
 )
 {
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 iter
 (
 cx
@@ -7313,7 +7314,7 @@ done
 )
 const
 {
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 iter
 (
 *
@@ -7362,7 +7363,7 @@ Data
 )
 data_
 ;
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 iter
 (
 *
@@ -7394,7 +7395,7 @@ abstractFramePtr
 )
 const
 {
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 iter
 (
 *
@@ -7429,7 +7430,7 @@ pc
 )
 const
 {
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 iter
 (
 *
@@ -7460,7 +7461,7 @@ isConstructing
 )
 const
 {
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 iter
 (
 *

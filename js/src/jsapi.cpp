@@ -34721,7 +34721,7 @@ lineno
 =
 0
 ;
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 i
 (
 cx
