@@ -745,6 +745,15 @@ case
 dom
 :
 :
+AUDIO_CHANNEL_RINGER
+:
+return
+SA_STREAM_TYPE_RING
+;
+case
+dom
+:
+:
 AUDIO_CHANNEL_PUBLICNOTIFICATION
 :
 return
