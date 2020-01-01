@@ -497,7 +497,12 @@ upload
 (
 Service
 .
+resource
+(
+Service
+.
 metaURL
+)
 )
 ;
 _
@@ -568,7 +573,12 @@ upload
 (
 Service
 .
+resource
+(
+Service
+.
 cryptoKeysURL
+)
 )
 .
 success
@@ -899,6 +909,10 @@ fetch
 (
 Service
 .
+resource
+(
+Service
+.
 storageURL
 +
 "
@@ -911,6 +925,7 @@ no
 -
 0
 "
+)
 )
 ;
 _

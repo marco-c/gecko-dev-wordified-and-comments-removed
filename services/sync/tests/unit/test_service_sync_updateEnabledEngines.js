@@ -470,7 +470,12 @@ upload
 (
 Service
 .
+resource
+(
+Service
+.
 cryptoKeysURL
+)
 )
 .
 success
@@ -1757,7 +1762,12 @@ upload
 (
 Service
 .
+resource
+(
+Service
+.
 cryptoKeysURL
+)
 )
 .
 status

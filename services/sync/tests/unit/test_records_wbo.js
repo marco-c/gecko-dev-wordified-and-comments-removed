@@ -479,6 +479,10 @@ rec
 .
 fetch
 (
+Service
+.
+resource
+(
 "
 http
 :
@@ -490,6 +494,7 @@ localhost
 /
 record
 "
+)
 )
 ;
 do_check_eq

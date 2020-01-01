@@ -449,7 +449,12 @@ upload
 (
 Service
 .
+resource
+(
+Service
+.
 cryptoKeysURL
+)
 )
 ;
 }
@@ -1113,7 +1118,12 @@ upload
 (
 Service
 .
+resource
+(
+Service
+.
 cryptoKeysURL
+)
 )
 .
 success

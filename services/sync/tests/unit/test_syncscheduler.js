@@ -491,7 +491,12 @@ upload
 (
 Service
 .
+resource
+(
+Service
+.
 cryptoKeysURL
+)
 )
 .
 success
@@ -4879,6 +4884,10 @@ rec
 .
 upload
 (
+Service
+.
+resource
+(
 clientsEngine
 .
 engineURL
@@ -4886,6 +4895,7 @@ engineURL
 rec
 .
 id
+)
 )
 ;
 Service
@@ -5197,6 +5207,10 @@ rec
 .
 upload
 (
+Service
+.
+resource
+(
 clientsEngine
 .
 engineURL
@@ -5204,6 +5218,7 @@ engineURL
 rec
 .
 id
+)
 )
 ;
 Service

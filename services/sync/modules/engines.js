@@ -3482,6 +3482,9 @@ engineURL
 this
 .
 _recordObj
+this
+.
+service
 )
 ;
 let
@@ -4355,6 +4358,10 @@ Collection
 this
 .
 engineURL
+null
+this
+.
+service
 )
 ;
 guidColl
@@ -5655,6 +5662,10 @@ Collection
 this
 .
 engineURL
+null
+this
+.
+service
 )
 ;
 let
@@ -6074,6 +6085,9 @@ engineURL
 this
 .
 _recordObj
+this
+.
+service
 )
 ;
 coll
@@ -6334,6 +6348,9 @@ engineURL
 this
 .
 _recordObj
+this
+.
+service
 )
 ;
 test
@@ -6475,8 +6492,11 @@ wipeServer
 let
 response
 =
-new
-Resource
+this
+.
+service
+.
+resource
 (
 this
 .
