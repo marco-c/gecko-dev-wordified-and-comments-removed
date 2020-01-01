@@ -2129,9 +2129,6 @@ nsIMozIconURI
 aIconURI
 )
 {
-nsresult
-rv
-;
 GIcon
 *
 icon
@@ -2402,11 +2399,6 @@ if
 icon
 )
 {
-NS_SUCCEEDED
-(
-rv
-)
-;
 iconInfo
 =
 gtk_icon_theme_lookup_by_gicon
@@ -2483,6 +2475,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+nsresult
 rv
 =
 ScaleIconBuf
