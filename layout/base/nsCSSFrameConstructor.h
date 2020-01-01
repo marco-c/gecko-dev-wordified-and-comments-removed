@@ -474,8 +474,9 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
-aIndexInContainer
+nsIContent
+*
+aOldNextSibling
 RemoveFlags
 aFlags
 PRBool
@@ -2876,8 +2877,9 @@ ReframeTextIfNeeded
 nsIContent
 *
 aParentContent
-PRInt32
-aContentIndex
+nsIContent
+*
+aContent
 )
 ;
 void
