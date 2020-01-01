@@ -102,9 +102,6 @@ interface
 nsIFile
 ;
 interface
-nsIToolkitProfile
-;
-interface
 nsIProfileUnlocker
 ;
 /

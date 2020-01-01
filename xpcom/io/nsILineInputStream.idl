@@ -98,9 +98,6 @@ nsISupports
 .
 idl
 "
-interface
-nsILineInputStream
-;
 [
 scriptable
 uuid

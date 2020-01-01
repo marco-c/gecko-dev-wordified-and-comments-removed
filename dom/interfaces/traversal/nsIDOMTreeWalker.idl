@@ -97,9 +97,6 @@ domstubs
 idl
 "
 interface
-nsIDOMTreeWalker
-;
-interface
 nsIDOMNodeFilter
 ;
 [
