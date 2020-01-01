@@ -1062,6 +1062,8 @@ DIRS
 .
 endif
 endif
+ifndef
+MOZILLA_CLIENT
 ifeq
 (
 (
@@ -1080,6 +1082,7 @@ directory
 to
 DIRS
 .
+endif
 endif
 #
 #
