@@ -1046,9 +1046,6 @@ mDimBounds
 nsPoint
 mViewToWidgetOffset
 ;
-float
-mOpacity
-;
 uint32_t
 mVFlags
 ;
