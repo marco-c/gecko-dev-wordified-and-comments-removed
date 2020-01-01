@@ -2934,8 +2934,7 @@ ProfilingGetPC
 JSRuntime
 *
 rt
-JSScript
-*
+RawScript
 script
 void
 *
