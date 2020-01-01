@@ -127,3 +127,15 @@ YCbCr
 :
 4
 support
+arm
+.
+patch
+:
+Add
+YCbCr
+to
+rgb16_565
+conversion
+support
+bug
+616469

@@ -103,3 +103,10 @@ p3
 convert
 .
 patch
+patch
+-
+p3
+<
+arm
+.
+patch
