@@ -2677,7 +2677,6 @@ newScript
 )
 ;
 static
-inline
 void
 writeBarrierPost
 (
@@ -2688,7 +2687,8 @@ void
 *
 addr
 )
-;
+{
+}
 }
 ;
 struct
@@ -3162,7 +3162,6 @@ type
 )
 ;
 static
-inline
 void
 writeBarrierPost
 (
@@ -3173,7 +3172,8 @@ void
 *
 addr
 )
-;
+{
+}
 static
 inline
 void

@@ -508,7 +508,8 @@ void
 *
 addr
 )
-;
+{
+}
 static
 inline
 ThingRootKind

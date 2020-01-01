@@ -971,7 +971,6 @@ shape
 )
 ;
 static
-inline
 void
 writeBarrierPost
 (
@@ -982,7 +981,8 @@ void
 *
 addr
 )
-;
+{
+}
 static
 inline
 void
@@ -3503,7 +3503,6 @@ shape
 )
 ;
 static
-inline
 void
 writeBarrierPost
 (
@@ -3514,7 +3513,8 @@ void
 *
 addr
 )
-;
+{
+}
 static
 inline
 void

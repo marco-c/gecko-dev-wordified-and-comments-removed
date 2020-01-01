@@ -3878,7 +3878,6 @@ script
 )
 ;
 static
-inline
 void
 writeBarrierPost
 (
@@ -3889,7 +3888,8 @@ void
 *
 addr
 )
-;
+{
+}
 static
 inline
 js
