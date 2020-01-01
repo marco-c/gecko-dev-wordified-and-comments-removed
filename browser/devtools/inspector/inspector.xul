@@ -827,7 +827,7 @@ inspector
 .
 highlighter
 .
-unlockAndFocus
+toggleLockState
 (
 )
 "
