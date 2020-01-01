@@ -3390,6 +3390,7 @@ aAction
 eToEndOfLine
 )
 )
+{
 if
 (
 mCaretStyle
@@ -3424,6 +3425,7 @@ aAction
 =
 eNone
 ;
+}
 }
 nsTextRulesInfo
 ruleInfo
