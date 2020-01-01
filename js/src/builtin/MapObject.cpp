@@ -3702,7 +3702,7 @@ if
 proto
 )
 return
-false
+NULL
 ;
 ValueMap
 :
@@ -3736,7 +3736,7 @@ if
 range
 )
 return
-false
+NULL
 ;
 JSObject
 *
@@ -3766,7 +3766,7 @@ range
 )
 ;
 return
-false
+NULL
 ;
 }
 iterobj
@@ -6171,7 +6171,7 @@ if
 proto
 )
 return
-false
+NULL
 ;
 ValueSet
 :
@@ -6205,7 +6205,7 @@ if
 range
 )
 return
-false
+NULL
 ;
 JSObject
 *
@@ -6235,7 +6235,7 @@ range
 )
 ;
 return
-false
+NULL
 ;
 }
 iterobj
