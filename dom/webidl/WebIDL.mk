@@ -286,6 +286,10 @@ TestDictionary
 .
 webidl
 \
+TestExampleGen
+.
+webidl
+\
 TestTypedef
 .
 webidl
