@@ -741,6 +741,16 @@ pass
 svg
 =
 =
+feComponentTransfer
+-
+03
+.
+svg
+pass
+.
+svg
+=
+=
 feComposite
 -
 arguments
