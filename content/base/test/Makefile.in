@@ -1816,6 +1816,10 @@ file_bug541937
 .
 xhtml
 \
+test_bug558726
+.
+html
+\
 (
 NULL
 )
