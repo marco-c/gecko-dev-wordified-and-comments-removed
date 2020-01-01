@@ -6070,6 +6070,17 @@ JS_ASSERT
 proto
 )
 ;
+JS_ASSERT
+(
+!
+fun
+-
+>
+isBoundFunction
+(
+)
+)
+;
 JSObject
 *
 cloneobj

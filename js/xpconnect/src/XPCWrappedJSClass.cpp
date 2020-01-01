@@ -1122,9 +1122,10 @@ rv
 ;
 if
 (
-JSVAL_IS_OBJECT
-(
 jsexception
+.
+isObject
+(
 )
 )
 {
@@ -1145,9 +1146,11 @@ GetXPConnect
 GetWrappedNativeOfJSObject
 (
 ccx
-JSVAL_TO_OBJECT
-(
+&
 jsexception
+.
+toObject
+(
 )
 getter_AddRefs
 (

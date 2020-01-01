@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_A11Y_APPLICATION_ACCESSIBLE_H__
+mozilla_a11y_ApplicationAccessible_h__
 #
 define
-MOZILLA_A11Y_APPLICATION_ACCESSIBLE_H__
+mozilla_a11y_ApplicationAccessible_h__
 #
 include
 "
@@ -32,6 +32,12 @@ nsIXULAppInfo
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 ApplicationAccessible
 :
@@ -383,5 +389,7 @@ mAppInfo
 ;
 }
 ;
+}
+}
 #
 endif

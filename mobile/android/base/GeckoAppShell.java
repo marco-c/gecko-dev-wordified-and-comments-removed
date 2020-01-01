@@ -1282,16 +1282,6 @@ height
 public
 static
 native
-void
-unlockDatabaseFile
-(
-String
-databasePath
-)
-;
-public
-static
-native
 SurfaceBits
 getSurfaceBits
 (

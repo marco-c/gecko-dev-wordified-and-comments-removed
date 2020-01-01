@@ -54,9 +54,6 @@ nsWeakReference
 h
 "
 class
-ApplicationAccessible
-;
-class
 nsAccessNode
 ;
 class
@@ -71,6 +68,9 @@ mozilla
 namespace
 a11y
 {
+class
+ApplicationAccessible
+;
 class
 RootAccessible
 ;
@@ -124,6 +124,12 @@ ShutdownXPAccessibility
 )
 ;
 static
+mozilla
+:
+:
+a11y
+:
+:
 ApplicationAccessible
 *
 GetApplicationAccessible
@@ -372,6 +378,12 @@ nsAccessNode
 MOZ_DELETE
 ;
 static
+mozilla
+:
+:
+a11y
+:
+:
 ApplicationAccessible
 *
 gApplicationAccessible

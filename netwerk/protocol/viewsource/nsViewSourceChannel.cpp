@@ -109,6 +109,11 @@ mCachingChannel
 )
 NS_INTERFACE_MAP_ENTRY_CONDITIONAL
 (
+nsIApplicationCacheChannel
+mApplicationCacheChannel
+)
+NS_INTERFACE_MAP_ENTRY_CONDITIONAL
+(
 nsIUploadChannel
 mUploadChannel
 )
@@ -292,6 +297,13 @@ mChannel
 )
 ;
 mCachingChannel
+=
+do_QueryInterface
+(
+mChannel
+)
+;
+mApplicationCacheChannel
 =
 do_QueryInterface
 (

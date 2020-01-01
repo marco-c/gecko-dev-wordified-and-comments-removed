@@ -4008,6 +4008,13 @@ GetAccessible
 aContent
 )
 ;
+if
+(
+!
+item
+)
+return
+;
 nsAccessible
 *
 widget

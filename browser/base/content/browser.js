@@ -38986,6 +38986,11 @@ mainBox
 "
 )
 ;
+if
+(
+overlay
+)
+{
 overlay
 .
 addEventListener
@@ -39031,6 +39036,7 @@ top
 true
 )
 ;
+}
 if
 (
 !
@@ -42064,10 +42070,11 @@ openUILink
 (
 href
 event
-false
+{
+ignoreAlt
+:
 true
-false
-null
+}
 )
 ;
 }
