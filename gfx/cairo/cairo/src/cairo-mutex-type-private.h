@@ -27,6 +27,15 @@ h
 >
 CAIRO_BEGIN_DECLS
 #
+ifndef
+MOZILLA_CAIRO_NOT_DEFINED
+#
+define
+CAIRO_NO_MUTEX
+1
+#
+endif
+#
 define
 CAIRO_MUTEX_NOOP
 do

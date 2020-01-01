@@ -5,6 +5,18 @@ CAIRO_REGION_PRIVATE_H
 define
 CAIRO_REGION_PRIVATE_H
 #
+ifdef
+MOZ_TREE_CAIRO
+#
+include
+"
+pixman
+.
+h
+"
+#
+else
+#
 include
 <
 pixman
@@ -13,6 +25,8 @@ pixman
 .
 h
 >
+#
+endif
 struct
 _cairo_region
 {

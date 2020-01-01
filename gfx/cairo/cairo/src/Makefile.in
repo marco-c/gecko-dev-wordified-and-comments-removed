@@ -577,6 +577,14 @@ cairo
 -
 font
 -
+face
+.
+c
+\
+cairo
+-
+font
+-
 options
 .
 c
@@ -1295,4 +1303,12 @@ DEFINES
 =
 -
 DCAIRO_WIN32_STATIC_BUILD
+endif
+ifdef
+MOZ_TREE_CAIRO
+DEFINES
++
+=
+-
+DMOZ_TREE_CAIRO
 endif
