@@ -6332,7 +6332,7 @@ if
 (
 tokenHandler
 .
-isInForeign
+cdataSectionAllowed
 (
 )
 )
@@ -6355,9 +6355,6 @@ CDATA_START
 continue
 stateloop
 ;
-}
-else
-{
 }
 default
 :

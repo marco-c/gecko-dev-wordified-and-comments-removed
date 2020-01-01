@@ -1250,6 +1250,11 @@ node
 ;
 public
 :
+PRBool
+cdataSectionAllowed
+(
+)
+;
 void
 setFragmentContext
 (
