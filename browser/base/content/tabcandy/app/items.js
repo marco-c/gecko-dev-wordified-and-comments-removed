@@ -2360,6 +2360,8 @@ Drag
 (
 this
 event
+false
+true
 )
 ;
 FauxDragInfo
