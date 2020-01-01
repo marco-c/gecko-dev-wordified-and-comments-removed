@@ -8335,6 +8335,11 @@ if
 (
 invokevp
 )
+{
+VOUCH_HAVE_STACK
+(
+)
+;
 js_FreeStack
 (
 g
@@ -8345,6 +8350,7 @@ cx
 invokevpMark
 )
 ;
+}
 }
 JSString
 *
