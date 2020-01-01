@@ -601,12 +601,12 @@ if
 (
 char
 *
-pathreads
+jsthreads
 =
 getenv
 (
 "
-PATHREADS
+JS_THREADPOOL_SIZE
 "
 )
 )
@@ -614,7 +614,7 @@ numWorkers_
 =
 strtol
 (
-pathreads
+jsthreads
 NULL
 10
 )
