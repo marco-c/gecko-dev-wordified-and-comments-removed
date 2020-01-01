@@ -808,6 +808,11 @@ return
 mTransform
 ;
 }
+PRBool
+CanUseOpaqueSurface
+(
+)
+;
 void
 SetUserData
 (
