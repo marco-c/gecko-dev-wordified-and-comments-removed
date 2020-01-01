@@ -583,8 +583,10 @@ aOldVersion
 aNewVersion
 )
 {
-function
+let
 loadInitialContacts
+=
+function
 (
 )
 {
@@ -1005,6 +1007,12 @@ contact
 ;
 }
 }
+.
+bind
+(
+this
+)
+;
 if
 (
 DEBUG
