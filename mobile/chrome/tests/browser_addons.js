@@ -580,6 +580,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 Services
 .
 prefs
