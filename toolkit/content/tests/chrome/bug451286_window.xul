@@ -242,6 +242,9 @@ snapshotWindow
 "
 compareSnapshots
 "
+"
+parentFinish
+"
 ]
 ;
 for
@@ -279,9 +282,7 @@ close
 (
 )
 ;
-SimpleTest
-.
-finish
+parentFinish
 (
 )
 ;
