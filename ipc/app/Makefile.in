@@ -343,6 +343,14 @@ WINNT
 )
 #
 {
+EXTRA_DEPS
++
+=
+(
+PROGRAM
+)
+.
+manifest
 #
 #
 Control
