@@ -126,6 +126,12 @@ mozpack
 /
 test
 \
+mozbuild
+/
+dumbmake
+/
+test
+\
 (
 NULL
 )
