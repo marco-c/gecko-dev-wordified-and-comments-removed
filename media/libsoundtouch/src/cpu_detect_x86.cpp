@@ -32,9 +32,7 @@ cpuid
 h
 "
 #
-endif
-#
-if
+elif
 defined
 (
 _M_IX86
