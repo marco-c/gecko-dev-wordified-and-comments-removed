@@ -10,6 +10,8 @@ for
 var
 i
 =
+HOTLOOP
+-
 1
 ;
 i
