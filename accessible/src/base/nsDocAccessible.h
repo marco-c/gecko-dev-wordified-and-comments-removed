@@ -354,17 +354,6 @@ nsIEditor
 aEditor
 )
 ;
-nsIDocument
-*
-GetDOMDocument
-(
-)
-const
-{
-return
-mDocument
-;
-}
 PRBool
 IsContentLoaded
 (

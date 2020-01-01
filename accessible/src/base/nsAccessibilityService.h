@@ -430,6 +430,15 @@ aTarget
 )
 ;
 virtual
+void
+PresShellDestroyed
+(
+nsIPresShell
+*
+aPresShell
+)
+;
+virtual
 nsresult
 FireAccessibleEvent
 (
