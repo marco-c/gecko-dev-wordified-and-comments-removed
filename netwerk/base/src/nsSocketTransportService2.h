@@ -235,8 +235,10 @@ nsSocketTransportService
 ;
 private
 :
+nsCOMPtr
+<
 nsIThread
-*
+>
 mThread
 ;
 PRFileDesc
@@ -245,6 +247,14 @@ mThreadEvent
 ;
 PRBool
 mAutodialEnabled
+;
+already_AddRefed
+<
+nsIThread
+>
+GetThreadSafely
+(
+)
 ;
 PRLock
 *
