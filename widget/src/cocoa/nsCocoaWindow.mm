@@ -5984,9 +5984,12 @@ nsIntPoint
 &
 aDelta
 const
+nsTArray
+<
 nsIntRect
+>
 &
-aSource
+aDestRects
 const
 nsTArray
 <
@@ -6007,7 +6010,7 @@ mPopupContentView
 Scroll
 (
 aDelta
-aSource
+aDestRects
 aConfigurations
 )
 ;

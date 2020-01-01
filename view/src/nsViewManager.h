@@ -1095,8 +1095,8 @@ nsRegion
 aUpdateRegion
 )
 ;
-PRBool
-CanScrollWithBitBlt
+void
+GetRegionsForBlit
 (
 nsView
 *
@@ -1105,7 +1105,10 @@ nsPoint
 aDelta
 nsRegion
 *
-aUpdateRegion
+aBlitRegion
+nsRegion
+*
+aRepaintRegion
 )
 ;
 nsresult
