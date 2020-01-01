@@ -6,13 +6,13 @@ expected
 TabOpen
 "
 "
-onLinkIconAvailable
-"
-"
 onLocationChange
 "
 "
 onStateChange
+"
+"
+onLinkIconAvailable
 "
 ]
 ;
