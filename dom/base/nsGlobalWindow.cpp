@@ -7530,7 +7530,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-JSAutoRequest
+XPCAutoRequest
 ar
 (
 cx

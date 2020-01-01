@@ -5322,7 +5322,7 @@ aVersion
 JSVERSION_UNKNOWN
 )
 {
-JSAutoRequest
+XPCAutoRequest
 ar
 (
 mContext
@@ -5995,7 +5995,7 @@ aVersion
 JSVERSION_UNKNOWN
 )
 {
-JSAutoRequest
+XPCAutoRequest
 ar
 (
 mContext
@@ -6095,7 +6095,7 @@ if
 ok
 )
 {
-JSAutoRequest
+XPCAutoRequest
 ar
 (
 mContext
@@ -6313,7 +6313,7 @@ JSVERSION_UNKNOWN
 return
 NS_OK
 ;
-JSAutoRequest
+XPCAutoRequest
 ar
 (
 mContext
@@ -6569,7 +6569,7 @@ holder
 this
 )
 ;
-JSAutoRequest
+XPCAutoRequest
 ar
 (
 mContext
@@ -7090,7 +7090,7 @@ pushed
 ;
 #
 endif
-JSAutoRequest
+XPCAutoRequest
 ar
 (
 mContext
@@ -7358,7 +7358,7 @@ target
 =
 aTarget
 ;
-JSAutoRequest
+XPCAutoRequest
 ar
 (
 mContext
@@ -7609,12 +7609,6 @@ CallEventHandler
 nsAutoMicroTask
 mt
 ;
-JSAutoRequest
-ar
-(
-mContext
-)
-;
 xpc_UnmarkGrayObject
 (
 aScope
@@ -7623,6 +7617,12 @@ aScope
 xpc_UnmarkGrayObject
 (
 aHandler
+)
+;
+XPCAutoRequest
+ar
+(
+mContext
 )
 ;
 JSObject
@@ -8091,12 +8091,6 @@ handler
 "
 )
 ;
-JSAutoRequest
-ar
-(
-mContext
-)
-;
 xpc_UnmarkGrayObject
 (
 aScope
@@ -8105,6 +8099,12 @@ aScope
 xpc_UnmarkGrayObject
 (
 aHandler
+)
+;
+XPCAutoRequest
+ar
+(
+mContext
 )
 ;
 JSObject
@@ -8704,7 +8704,10 @@ GetNativeContext
 )
 {
 return
+xpc_UnmarkGrayContext
+(
 mContext
+)
 ;
 }
 nsresult
@@ -8849,7 +8852,7 @@ argv
 =
 nsnull
 ;
-JSAutoRequest
+XPCAutoRequest
 ar
 (
 mContext
