@@ -1395,13 +1395,6 @@ padding
 ;
 background
 -
-position
-:
-center
-top
-;
-background
--
 image
 :
 url
@@ -1429,6 +1422,13 @@ color
 :
 transparent
 ;
+background
+-
+position
+:
+right
+top
+;
 -
 moz
 -
@@ -1451,7 +1451,7 @@ background
 -
 position
 :
-center
+right
 center
 ;
 }
@@ -1469,7 +1469,7 @@ background
 -
 position
 :
-center
+right
 bottom
 ;
 }
