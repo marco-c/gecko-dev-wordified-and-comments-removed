@@ -217,10 +217,6 @@ EXPORTS_mozilla
 dom
 =
 \
-DirectionalityUtils
-.
-h
-\
 Element
 .
 h

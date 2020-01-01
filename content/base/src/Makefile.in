@@ -213,10 +213,6 @@ NULL
 CPPSRCS
 =
 \
-DirectionalityUtils
-.
-cpp
-\
 nsAtomListUtils
 .
 cpp
