@@ -2036,7 +2036,7 @@ gfxMatrix
 nsSVGUseElement
 :
 :
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 const
 gfxMatrix
@@ -2051,7 +2051,7 @@ matrix
 nsSVGUseElementBase
 :
 :
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 aMatrix
 )

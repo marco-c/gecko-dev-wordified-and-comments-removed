@@ -507,7 +507,7 @@ GetFlattenedPath
 element
 -
 >
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 gfxMatrix
 (

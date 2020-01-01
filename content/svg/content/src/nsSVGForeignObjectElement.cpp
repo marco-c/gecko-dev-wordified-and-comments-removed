@@ -270,7 +270,7 @@ gfxMatrix
 nsSVGForeignObjectElement
 :
 :
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 const
 gfxMatrix
@@ -285,7 +285,7 @@ matrix
 nsSVGForeignObjectElementBase
 :
 :
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 aMatrix
 )

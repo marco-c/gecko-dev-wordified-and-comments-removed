@@ -636,7 +636,7 @@ gfxMatrix
 nsSVGGraphicElement
 :
 :
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 const
 gfxMatrix

@@ -2441,7 +2441,7 @@ matrix
 aElement
 -
 >
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 gfxMatrix
 (
@@ -2509,7 +2509,7 @@ matrix
 element
 -
 >
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 gfxMatrix
 (

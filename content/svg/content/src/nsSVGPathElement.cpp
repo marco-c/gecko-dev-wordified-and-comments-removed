@@ -1773,7 +1773,7 @@ eForTextPath
 {
 matrix
 =
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 matrix
 )
