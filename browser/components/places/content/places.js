@@ -4091,6 +4091,12 @@ true
 "
 )
 ;
+PlacesOrganizer
+.
+onContentTreeSelect
+(
+)
+;
 }
 findAll
 :
@@ -6828,6 +6834,12 @@ queries
 this
 .
 options
+)
+;
+PlacesOrganizer
+.
+onContentTreeSelect
+(
 )
 ;
 }
