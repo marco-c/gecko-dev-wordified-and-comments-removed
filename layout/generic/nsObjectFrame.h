@@ -329,6 +329,12 @@ aURI
 ;
 virtual
 void
+TryNotifyContentObjectWrapper
+(
+)
+;
+virtual
+void
 StopPlugin
 (
 )
