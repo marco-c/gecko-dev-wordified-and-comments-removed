@@ -413,6 +413,9 @@ DEPTH
 /
 .
 .
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -530,6 +533,8 @@ xpconnect
 tests
 /
 components
+/
+native
 libs
 :
 :

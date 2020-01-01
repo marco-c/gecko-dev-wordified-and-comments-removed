@@ -161,6 +161,8 @@ xpc
 /
 test
 /
+native
+/
 ObjectReadOnly
 ;
 1
@@ -179,6 +181,8 @@ js
 xpc
 /
 test
+/
+native
 /
 ObjectReadWrite
 ;
