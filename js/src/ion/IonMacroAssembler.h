@@ -297,6 +297,10 @@ cx
 #
 ifdef
 JS_CPU_ARM
+initWithAllocator
+(
+)
+;
 m_buffer
 .
 id
@@ -366,6 +370,10 @@ cx
 #
 ifdef
 JS_CPU_ARM
+initWithAllocator
+(
+)
+;
 m_buffer
 .
 id

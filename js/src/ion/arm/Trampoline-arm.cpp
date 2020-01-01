@@ -806,12 +806,6 @@ JSContext
 cx
 )
 {
-AutoIonContextAlloc
-aica
-(
-cx
-)
-;
 MacroAssembler
 masm
 (
@@ -1873,6 +1867,9 @@ frameClass
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 Label
 bailout
@@ -1943,6 +1940,9 @@ cx
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 GenerateBailoutThunk
 (
@@ -2030,6 +2030,9 @@ value
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 GeneralRegisterSet
 regs
@@ -2719,6 +2722,9 @@ type
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RegisterSet
 save
