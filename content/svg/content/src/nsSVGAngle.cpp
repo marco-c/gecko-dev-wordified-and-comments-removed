@@ -1682,11 +1682,8 @@ SVG_MARKER_ORIENT_ANGLE
 ;
 }
 aValue
-.
-Swap
-(
+=
 val
-)
 ;
 aCanCache
 =

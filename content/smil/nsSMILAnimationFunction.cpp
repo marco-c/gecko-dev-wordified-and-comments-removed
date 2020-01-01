@@ -1200,11 +1200,8 @@ result
 )
 {
 aResult
-.
-Swap
-(
+=
 result
-)
 ;
 }
 }

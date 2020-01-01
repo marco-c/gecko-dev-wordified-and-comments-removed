@@ -794,11 +794,8 @@ return
 ;
 }
 aResult
-.
-Swap
-(
+=
 val
-)
 ;
 }
 inline
