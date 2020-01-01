@@ -1,11 +1,3 @@
-#
-ifdef
-WINCE
-#
-undef
-small
-#
-endif
 EDITOR_ATOM
 (
 a
