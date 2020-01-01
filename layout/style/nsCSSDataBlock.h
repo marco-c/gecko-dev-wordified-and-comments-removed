@@ -416,13 +416,6 @@ DoAssertInitialState
 ;
 #
 endif
-static
-const
-size_t
-kOffsetTable
-[
-]
-;
 nsCSSPropertySet
 mPropertiesSet
 ;
