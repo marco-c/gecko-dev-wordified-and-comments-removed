@@ -34,8 +34,6 @@ MOZILLA_VERSION
 Requires
 :
 libxul
--
-unstable
 =
 %
 MOZILLA_VERSION

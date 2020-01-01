@@ -40,8 +40,6 @@ Requires
 libxul
 -
 embedding
--
-unstable
 =
 %
 MOZILLA_VERSION
