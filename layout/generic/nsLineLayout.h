@@ -142,14 +142,10 @@ EndLineReflow
 void
 UpdateBand
 (
-nscoord
-aX
-nscoord
-aY
-nscoord
-aWidth
-nscoord
-aHeight
+const
+nsRect
+&
+aNewAvailableSpace
 PRBool
 aPlacedLeftFloat
 nsIFrame
@@ -501,6 +497,8 @@ InitFloat
 nsPlaceholderFrame
 *
 aFrame
+nscoord
+aAvailableWidth
 nsReflowStatus
 &
 aReflowStatus
@@ -515,6 +513,7 @@ InitFloat
 *
 this
 aFrame
+aAvailableWidth
 aReflowStatus
 )
 ;
@@ -525,6 +524,8 @@ AddFloat
 nsPlaceholderFrame
 *
 aFrame
+nscoord
+aAvailableWidth
 nsReflowStatus
 &
 aReflowStatus
@@ -540,6 +541,7 @@ AddFloat
 this
 aFrame
 PR_FALSE
+aAvailableWidth
 aReflowStatus
 )
 ;
@@ -1424,11 +1426,6 @@ pfd
 nsHTMLReflowMetrics
 &
 aMetrics
-)
-;
-void
-UpdateFrames
-(
 )
 ;
 void
