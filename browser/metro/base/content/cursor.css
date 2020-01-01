@@ -90,3 +90,15 @@ none
 important
 ;
 }
+select
+option
+select
+optgroup
+{
+pointer
+-
+events
+:
+none
+;
+}
