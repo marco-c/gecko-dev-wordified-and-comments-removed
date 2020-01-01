@@ -166,6 +166,14 @@ javascript
 "
 #
 define
+APPLICATION_JSON
+"
+application
+/
+json
+"
+#
+define
 APPLICATION_NETSCAPE_REVOCATION
 "
 application
