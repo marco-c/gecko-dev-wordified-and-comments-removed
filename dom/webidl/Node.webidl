@@ -261,6 +261,9 @@ NOTATION_NODE
 /
 /
 historical
+[
+Constant
+]
 readonly
 attribute
 unsigned
@@ -301,6 +304,9 @@ hasChildNodes
 (
 )
 ;
+[
+Constant
+]
 readonly
 attribute
 NodeList
@@ -522,6 +528,9 @@ in
 the
 spec
 .
+[
+Constant
+]
 readonly
 attribute
 NamedNodeMap
@@ -552,6 +561,7 @@ type
 .
 [
 Throws
+Constant
 ]
 readonly
 attribute
@@ -559,12 +569,18 @@ DOMString
 ?
 namespaceURI
 ;
+[
+Constant
+]
 readonly
 attribute
 DOMString
 ?
 prefix
 ;
+[
+Constant
+]
 readonly
 attribute
 DOMString

@@ -213,6 +213,9 @@ attribute
 DOMString
 dir
 ;
+[
+Constant
+]
 readonly
 attribute
 DOMStringMap
@@ -232,6 +235,7 @@ itemScope
 PutForwards
 =
 value
+Constant
 ]
 readonly
 attribute
@@ -249,6 +253,7 @@ itemId
 PutForwards
 =
 value
+Constant
 ]
 readonly
 attribute
@@ -259,12 +264,16 @@ itemRef
 PutForwards
 =
 value
+Constant
 ]
 readonly
 attribute
 DOMSettableTokenList
 itemProp
 ;
+[
+Constant
+]
 readonly
 attribute
 HTMLPropertiesCollection
@@ -441,6 +450,7 @@ commandChecked
 styling
 [
 Throws
+Constant
 ]
 readonly
 attribute

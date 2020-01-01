@@ -153,11 +153,17 @@ now
 (
 )
 ;
+[
+Constant
+]
 readonly
 attribute
 PerformanceTiming
 timing
 ;
+[
+Constant
+]
 readonly
 attribute
 PerformanceNavigation
