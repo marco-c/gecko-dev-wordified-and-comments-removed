@@ -3325,13 +3325,6 @@ TYPE_LOCALE
 const
 unsigned
 long
-TYPE_PLUGIN
-=
-0x10
-;
-const
-unsigned
-long
 TYPE_MULTI_XPI
 =
 0x20
@@ -3346,8 +3339,6 @@ TYPE_EXTENSION
 TYPE_THEME
 +
 TYPE_LOCALE
-+
-TYPE_PLUGIN
 ;
 const
 unsigned
