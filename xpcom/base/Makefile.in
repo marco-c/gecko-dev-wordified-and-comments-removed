@@ -608,6 +608,12 @@ CPPSRCS
 nsSetDllDirectory
 .
 cpp
+CPPSRCS
++
+=
+nsCrashOnException
+.
+cpp
 endif
 ifeq
 (

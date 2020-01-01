@@ -708,6 +708,16 @@ toolkit
 /
 xre
 \
+-
+I
+(
+topsrcdir
+)
+/
+xpcom
+/
+base
+\
 (
 NULL
 )
