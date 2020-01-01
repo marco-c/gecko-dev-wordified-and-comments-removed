@@ -103,7 +103,7 @@ nsSHistory
 public
 PRCList
 public
-nsISHistory
+nsISHistory_2_0_BRANCH
 public
 nsISHistoryInternal
 public
@@ -119,6 +119,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSISHISTORY
 NS_DECL_NSISHISTORYINTERNAL
 NS_DECL_NSIWEBNAVIGATION
+NS_DECL_NSISHISTORY_2_0_BRANCH
 static
 nsresult
 Startup
