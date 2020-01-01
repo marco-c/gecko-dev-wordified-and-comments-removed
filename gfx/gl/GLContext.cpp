@@ -3908,7 +3908,7 @@ mSymbols
 fImageTargetTexture2D
 {
 "
-glEGLImageTargetTexture2DOES
+EGLImageTargetTexture2DOES
 "
 nsnull
 }
