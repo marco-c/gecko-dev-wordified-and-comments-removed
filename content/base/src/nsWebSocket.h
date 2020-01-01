@@ -353,10 +353,13 @@ PRPackedBool
 mSecure
 ;
 PRPackedBool
-mHasStrongEventListeners
+mKeepingAlive
 ;
 PRPackedBool
-mCheckThereAreStrongEventListeners
+mCheckMustKeepAlive
+;
+PRPackedBool
+mTriggeredCloseEvent
 ;
 nsCString
 mAsciiHost
