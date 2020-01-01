@@ -6015,6 +6015,16 @@ GetCurrentNode
 (
 )
 ;
+if
+(
+!
+domNode
+)
+{
+return
+true
+;
+}
 nsCOMPtr
 <
 nsINode
