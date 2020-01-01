@@ -910,6 +910,13 @@ SEC_PKCS12DecoderFinish
 dcx
 )
 ;
+SECITEM_ZfreeItem
+(
+&
+unicodePw
+PR_FALSE
+)
+;
 return
 NS_OK
 ;
@@ -1860,6 +1867,13 @@ mTmpFile
 NULL
 ;
 }
+SECITEM_ZfreeItem
+(
+&
+unicodePw
+PR_FALSE
+)
+;
 return
 rv
 ;
