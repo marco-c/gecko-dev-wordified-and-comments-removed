@@ -73,6 +73,12 @@ return
 NS_ERROR_FILE_READ_ONLY
 ;
 case
+SQLITE_IOERR
+:
+return
+NS_ERROR_STORAGE_IOERR
+;
+case
 SQLITE_FULL
 :
 case
