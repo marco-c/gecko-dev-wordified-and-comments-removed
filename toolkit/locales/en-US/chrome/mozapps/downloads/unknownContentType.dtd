@@ -189,13 +189,12 @@ a
 <
 !
 ENTITY
-whichIsA
+whichIs
 .
 label
 "
 which
 is
-a
 :
 "
 >
