@@ -208,7 +208,7 @@ error_invalid_argument
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -240,7 +240,7 @@ error_not_supported
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -276,7 +276,7 @@ error_invalid_argument
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 int32_t
@@ -352,7 +352,7 @@ get
 )
 =
 =
-nsnull
+nullptr
 )
 {
 error_no_memory
@@ -360,7 +360,7 @@ error_no_memory
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 rv
@@ -395,7 +395,7 @@ error_invalid_argument
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 dest
@@ -459,7 +459,7 @@ error_invalid_argument
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -491,7 +491,7 @@ error_not_supported
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -527,7 +527,7 @@ error_invalid_argument
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 int32_t
@@ -618,7 +618,7 @@ get
 )
 =
 =
-nsnull
+nullptr
 )
 {
 error_no_memory
@@ -626,7 +626,7 @@ error_no_memory
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 rv
@@ -661,7 +661,7 @@ error_invalid_argument
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 *

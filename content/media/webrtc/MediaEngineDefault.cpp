@@ -82,7 +82,7 @@ MediaEngineDefaultVideoSource
 :
 mTimer
 (
-nsnull
+nullptr
 )
 mState
 (

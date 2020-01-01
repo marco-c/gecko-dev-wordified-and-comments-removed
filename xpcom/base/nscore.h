@@ -977,10 +977,6 @@ endif
 #
 endif
 #
-define
-nsnull
-nullptr
-#
 include
 "
 nsError

@@ -56,7 +56,7 @@ SerializedLoadContext
 {
 Init
 (
-nsnull
+nullptr
 )
 ;
 }

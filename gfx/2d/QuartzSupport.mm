@@ -1442,15 +1442,15 @@ sCoreGraphicsFramework
 ;
 sIOSurfaceFramework
 =
-nsnull
+nullptr
 ;
 sOpenGLFramework
 =
-nsnull
+nullptr
 ;
 sCoreGraphicsFramework
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -5413,7 +5413,7 @@ isInit
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 MacIOSurfaceLib
@@ -5449,7 +5449,7 @@ isInit
 )
 )
 return
-nsnull
+nullptr
 ;
 IOSurfacePtr
 surfaceRef
@@ -5468,7 +5468,7 @@ if
 surfaceRef
 )
 return
-nsnull
+nullptr
 ;
 /
 /
@@ -5511,7 +5511,7 @@ surfaceRef
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return

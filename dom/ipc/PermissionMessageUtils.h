@@ -48,7 +48,7 @@ Principal
 :
 mPrincipal
 (
-nsnull
+nullptr
 )
 {
 }

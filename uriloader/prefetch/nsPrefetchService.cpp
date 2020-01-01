@@ -1381,7 +1381,7 @@ mRedirectChannel
 ;
 mRedirectChannel
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

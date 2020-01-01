@@ -283,7 +283,7 @@ Cancel
 ;
 mActivityFinishedTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -320,10 +320,10 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
