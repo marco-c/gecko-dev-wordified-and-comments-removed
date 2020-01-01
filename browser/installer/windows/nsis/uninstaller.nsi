@@ -1478,6 +1478,16 @@ Mozilla
 \
 Firefox
 "
+{
+un
+.
+DeleteRelativeProfiles
+}
+"
+Mozilla
+\
+MetroFirefox
+"
 RmDir
 "
 APPDATA
