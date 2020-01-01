@@ -2110,6 +2110,8 @@ JSContext
 cx
 JSLookupPropOp
 lookup
+uintN
+argc
 jsval
 *
 vp

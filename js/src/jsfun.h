@@ -69,7 +69,7 @@ uint16
 extra
 ;
 uint16
-minargs
+spare
 ;
 JSNative
 native
@@ -308,16 +308,7 @@ JSFUN_FAST_NATIVE
 )
 \
 ?
-(
-fun
-)
--
->
-u
-.
-n
-.
-minargs
+0
 \
 :
 (
