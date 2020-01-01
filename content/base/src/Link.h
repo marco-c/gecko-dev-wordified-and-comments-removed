@@ -60,6 +60,7 @@ Link
 (
 )
 ;
+virtual
 nsLinkState
 GetLinkState
 (
@@ -208,6 +209,7 @@ nsAString
 _hash
 )
 ;
+virtual
 void
 ResetLinkState
 (
