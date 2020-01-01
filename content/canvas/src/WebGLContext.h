@@ -634,6 +634,15 @@ scope
 =
 0
 ;
+virtual
+bool
+IsWebGL2
+(
+)
+const
+=
+0
+;
 NS_DECL_NSIDOMWEBGLRENDERINGCONTEXT
 NS_IMETHOD
 SetDimensions

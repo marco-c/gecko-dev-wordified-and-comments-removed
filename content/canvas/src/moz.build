@@ -200,6 +200,11 @@ WebGL1Context
 cpp
 '
 '
+WebGL2Context
+.
+cpp
+'
+'
 WebGLContext
 .
 cpp
