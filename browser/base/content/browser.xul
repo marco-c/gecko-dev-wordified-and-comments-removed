@@ -9736,10 +9736,10 @@ new
 tab
 -
 button
-tabview
+alltabs
 -
 button
-alltabs
+tabview
 -
 button
 tabs
