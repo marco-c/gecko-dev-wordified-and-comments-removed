@@ -807,8 +807,9 @@ rv
 mgr
 -
 >
-WaitForClearAndDispatch
+WaitForOpenAllowed
 (
+mName
 mASCIIOrigin
 this
 )

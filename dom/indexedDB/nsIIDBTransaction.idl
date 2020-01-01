@@ -588,6 +588,13 @@ SNAPSHOT_READ
 =
 2
 ;
+const
+unsigned
+short
+VERSION_CHANGE
+=
+3
+;
 readonly
 attribute
 unsigned
