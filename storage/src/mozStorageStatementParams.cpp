@@ -344,6 +344,9 @@ aEnumOp
 case
 JSENUMERATE_INIT
 :
+case
+JSENUMERATE_INIT_ALL
+:
 {
 *
 _statep
@@ -610,7 +613,7 @@ idx
 JSVAL_VOID
 nsnull
 nsnull
-0
+JSPROP_ENUMERATE
 )
 ;
 resolved
@@ -709,7 +712,7 @@ nameLength
 JSVAL_VOID
 nsnull
 nsnull
-0
+JSPROP_ENUMERATE
 )
 ;
 resolved

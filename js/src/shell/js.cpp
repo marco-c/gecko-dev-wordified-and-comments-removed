@@ -13218,6 +13218,9 @@ enum_op
 case
 JSENUMERATE_INIT
 :
+case
+JSENUMERATE_INIT_ALL
+:
 cpx
 =
 (
@@ -22609,6 +22612,9 @@ enum_op
 {
 case
 JSENUMERATE_INIT
+:
+case
+JSENUMERATE_INIT_ALL
 :
 if
 (

@@ -27899,6 +27899,9 @@ enum_op
 )
 {
 case
+JSENUMERATE_INIT_ALL
+:
+case
 JSENUMERATE_INIT
 :
 {
@@ -37162,7 +37165,7 @@ str
 JSVAL_VOID
 nsnull
 nsnull
-0
+JSPROP_ENUMERATE
 )
 ;
 *
@@ -37419,6 +37422,9 @@ enum_op
 {
 case
 JSENUMERATE_INIT
+:
+case
+JSENUMERATE_INIT_ALL
 :
 {
 nsCOMPtr
@@ -40895,7 +40901,7 @@ jsstr
 JSVAL_VOID
 nsnull
 nsnull
-0
+JSPROP_ENUMERATE
 )
 )
 {
@@ -41217,6 +41223,9 @@ enum_op
 {
 case
 JSENUMERATE_INIT
+:
+case
+JSENUMERATE_INIT_ALL
 :
 {
 nsCOMPtr
@@ -41575,7 +41584,7 @@ jsstr
 JSVAL_VOID
 nsnull
 nsnull
-0
+JSPROP_ENUMERATE
 )
 )
 {
@@ -42056,6 +42065,9 @@ enum_op
 {
 case
 JSENUMERATE_INIT
+:
+case
+JSENUMERATE_INIT_ALL
 :
 {
 nsCOMPtr
