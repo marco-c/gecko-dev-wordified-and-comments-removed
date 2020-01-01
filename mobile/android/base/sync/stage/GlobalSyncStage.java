@@ -39,6 +39,7 @@ syncClientsEngine
 syncTabs
 syncBookmarks
 syncHistory
+syncFormHistory
 completed
 }
 public
