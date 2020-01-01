@@ -116,7 +116,7 @@ if
 ComputeByteAlignment
 (
 height_
-DOUBLE_ALIGNMENT
+DOUBLE_STACK_ALIGNMENT
 )
 )
 {
@@ -135,7 +135,7 @@ JS_ASSERT
 ComputeByteAlignment
 (
 height_
-DOUBLE_ALIGNMENT
+DOUBLE_STACK_ALIGNMENT
 )
 )
 ;
