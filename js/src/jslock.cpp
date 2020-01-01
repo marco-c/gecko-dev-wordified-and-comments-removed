@@ -74,13 +74,6 @@ h
 #
 include
 "
-jsfun
-.
-h
-"
-#
-include
-"
 jslock
 .
 h
@@ -3082,9 +3075,8 @@ cx
 )
 )
 {
-LOCKED_OBJ_WRITE_SLOT
+LOCKED_OBJ_SET_SLOT
 (
-cx
 obj
 slot
 v
@@ -3144,9 +3136,8 @@ obj
 )
 )
 {
-LOCKED_OBJ_WRITE_SLOT
+LOCKED_OBJ_SET_SLOT
 (
-cx
 obj
 slot
 v
@@ -3243,9 +3234,8 @@ owner
 me
 )
 {
-LOCKED_OBJ_WRITE_SLOT
+LOCKED_OBJ_SET_SLOT
 (
-cx
 obj
 slot
 v
@@ -3262,9 +3252,8 @@ cx
 obj
 )
 ;
-LOCKED_OBJ_WRITE_SLOT
+LOCKED_OBJ_SET_SLOT
 (
-cx
 obj
 slot
 v

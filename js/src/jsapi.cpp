@@ -16427,7 +16427,7 @@ js_GetMethod
 cx
 obj
 id
-false
+JSGET_METHOD_BARRIER
 vp
 )
 )
@@ -23491,7 +23491,7 @@ ok
 atom
 &
 &
-JS_GetMethodById
+js_GetMethod
 (
 cx
 obj
@@ -23499,7 +23499,7 @@ ATOM_TO_JSID
 (
 atom
 )
-NULL
+JSGET_NO_METHOD_BARRIER
 tvr
 .
 addr
