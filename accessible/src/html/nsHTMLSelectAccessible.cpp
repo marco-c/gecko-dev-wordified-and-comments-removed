@@ -2533,7 +2533,7 @@ aState
 aExtraState
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_SUCCESS
 (
 rv
 rv
