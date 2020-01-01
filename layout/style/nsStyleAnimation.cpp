@@ -7839,10 +7839,10 @@ mCSSValuePair
 else
 if
 (
+IsStringUnit
+(
 mUnit
-=
-=
-eUnit_UnparsedString
+)
 )
 {
 NS_ABORT_IF_FALSE
