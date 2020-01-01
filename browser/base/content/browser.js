@@ -24242,6 +24242,11 @@ sync
 -
 progress
 "
+"
+about
+:
+preferences
+"
 ]
 QueryInterface
 :
