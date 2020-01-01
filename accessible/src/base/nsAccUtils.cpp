@@ -575,6 +575,8 @@ nsAccessible
 *
 itemAcc
 =
+currNode
+?
 GetAccService
 (
 )
@@ -584,6 +586,8 @@ GetAccessible
 (
 currNode
 )
+:
+nsnull
 ;
 if
 (
@@ -789,6 +793,8 @@ nsAccessible
 *
 itemAcc
 =
+itemNode
+?
 GetAccService
 (
 )
@@ -798,6 +804,8 @@ GetAccessible
 (
 itemNode
 )
+:
+nsnull
 ;
 if
 (
@@ -917,6 +925,8 @@ nsAccessible
 *
 itemAcc
 =
+itemNode
+?
 GetAccService
 (
 )
@@ -926,6 +936,8 @@ GetAccessible
 (
 itemNode
 )
+:
+nsnull
 ;
 if
 (
