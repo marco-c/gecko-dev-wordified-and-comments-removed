@@ -157,6 +157,10 @@ data
 .
 js
 \
+browser_net_jsonp
+.
+js
+\
 head
 .
 js
@@ -212,6 +216,14 @@ html
 html_post
 -
 data
+-
+test
+-
+page
+.
+html
+\
+html_jsonp
 -
 test
 -
