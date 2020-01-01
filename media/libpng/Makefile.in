@@ -414,6 +414,9 @@ png
 LIBRARY_NAME
 =
 mozpng
+FORCE_STATIC_LIB
+=
+1
 ifeq
 (
 (
@@ -421,13 +424,9 @@ OS_ARCH
 )
 WINNT
 )
-LIBRARY_NAME
+VISIBILITY_FLAGS
 =
-png
 endif
-LIBXUL_LIBRARY
-=
-1
 CSRCS
 =
 \
