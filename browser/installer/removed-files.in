@@ -10,6 +10,16 @@ classic
 manifest
 chrome
 /
+comm
+.
+jar
+chrome
+/
+comm
+.
+manifest
+chrome
+/
 reporter
 .
 jar
