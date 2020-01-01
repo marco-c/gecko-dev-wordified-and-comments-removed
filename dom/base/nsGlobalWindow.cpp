@@ -7562,10 +7562,9 @@ mJSObject
 if
 (
 !
-JS_TransplantObject
+JS_RefreshCrossCompartmentWrappers
 (
 cx
-mJSObject
 mJSObject
 )
 )
