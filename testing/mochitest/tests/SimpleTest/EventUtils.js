@@ -2008,7 +2008,8 @@ result
 function
 synthesizeDrop
 (
-element
+srcElement
+destElement
 dragData
 dropEffect
 aWindow
@@ -2142,7 +2143,7 @@ true
 ;
 synthesizeMouse
 (
-element
+srcElement
 2
 2
 {
@@ -2157,7 +2158,7 @@ aWindow
 ;
 synthesizeMouse
 (
-element
+srcElement
 11
 11
 {
@@ -2172,7 +2173,7 @@ aWindow
 ;
 synthesizeMouse
 (
-element
+srcElement
 20
 20
 {
@@ -2233,7 +2234,7 @@ null
 dataTransfer
 )
 ;
-element
+destElement
 .
 dispatchEvent
 (
@@ -2280,7 +2281,7 @@ dataTransfer
 ;
 if
 (
-element
+destElement
 .
 dispatchEvent
 (
@@ -2290,7 +2291,7 @@ event
 {
 synthesizeMouse
 (
-element
+destElement
 20
 20
 {
@@ -2358,7 +2359,7 @@ null
 dataTransfer
 )
 ;
-element
+destElement
 .
 dispatchEvent
 (
@@ -2368,7 +2369,7 @@ event
 }
 synthesizeMouse
 (
-element
+destElement
 20
 20
 {

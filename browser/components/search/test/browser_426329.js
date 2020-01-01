@@ -849,6 +849,9 @@ synthesizeDrop
 searchBar
 .
 searchButton
+searchBar
+.
+searchButton
 [
 [
 {
@@ -921,6 +924,9 @@ EventUtils
 .
 synthesizeDrop
 (
+searchBar
+.
+searchButton
 searchBar
 .
 searchButton
@@ -1008,6 +1014,9 @@ EventUtils
 .
 synthesizeDrop
 (
+searchBar
+.
+searchButton
 searchBar
 .
 searchButton

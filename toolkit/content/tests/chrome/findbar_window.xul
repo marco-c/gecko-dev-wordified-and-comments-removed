@@ -1288,6 +1288,9 @@ synthesizeDrop
 gFindBar
 .
 _findField
+gFindBar
+.
+_findField
 [
 [
 {

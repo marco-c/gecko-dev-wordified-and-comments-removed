@@ -836,6 +836,11 @@ synthesizeDrop
 drag1
 "
 )
+(
+"
+drag1
+"
+)
 drag1
 null
 window
@@ -900,6 +905,11 @@ result
 =
 synthesizeDrop
 (
+(
+"
+drag1
+"
+)
 (
 "
 drag1
