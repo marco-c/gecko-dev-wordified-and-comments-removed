@@ -184,6 +184,14 @@ void
 )
 ;
 virtual
+nsIWidget
+*
+GetSheetWindowParent
+(
+void
+)
+;
+virtual
 void
 AddChild
 (
@@ -535,6 +543,8 @@ SetWindowTitlebarColor
 (
 nscolor
 aColor
+PRBool
+aActive
 )
 ;
 virtual
