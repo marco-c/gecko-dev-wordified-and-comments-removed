@@ -1747,6 +1747,9 @@ aIsFocusable
 =
 PR_FALSE
 ;
+return
+PR_FALSE
+;
 }
 }
 if
