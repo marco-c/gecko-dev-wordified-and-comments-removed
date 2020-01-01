@@ -1199,9 +1199,10 @@ once
 "
 connected
 "
-function
 (
 )
+=
+>
 {
 this
 .
