@@ -190,6 +190,11 @@ UpdateCoveredRegion
 )
 ;
 NS_IMETHOD
+InitialUpdate
+(
+)
+;
+NS_IMETHOD
 GetBBox
 (
 nsIDOMSVGRect
