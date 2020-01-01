@@ -1440,6 +1440,14 @@ DOMString
 arg
 )
 ;
+sequence
+<
+any
+>
+receiveAnySequence
+(
+)
+;
 /
 /
 Typed

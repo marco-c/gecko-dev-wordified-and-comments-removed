@@ -5593,6 +5593,13 @@ IDLType
 Tags
 .
 any
+and
+not
+self
+.
+isSequence
+(
+)
     
 def
 isDate
