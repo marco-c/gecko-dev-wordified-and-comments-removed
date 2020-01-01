@@ -1982,6 +1982,10 @@ inliningDepth
 bool
 failedBoundsCheck_
 ;
+MInstruction
+*
+lazyArguments_
+;
 }
 ;
 }
