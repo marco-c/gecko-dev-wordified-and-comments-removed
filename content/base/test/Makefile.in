@@ -721,12 +721,6 @@ html
 \
 test_bug371576
 -
-1
-.
-html
-\
-test_bug371576
--
 2
 .
 html
