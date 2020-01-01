@@ -1679,7 +1679,6 @@ mBuffer
 *
 sizeof
 (
-*
 mBuffer
 [
 0
