@@ -267,6 +267,14 @@ Label
 fail
 )
 ;
+enum
+NaNCond
+{
+NaN_Unexpected
+NaN_IsTrue
+NaN_IsFalse
+}
+;
 void
 emitSet
 (
@@ -279,6 +287,10 @@ const
 Register
 &
 dest
+NaNCond
+ifNaN
+=
+NaN_Unexpected
 )
 ;
 void
@@ -295,6 +307,10 @@ ifTrue
 MBasicBlock
 *
 ifFalse
+NaNCond
+ifNaN
+=
+NaN_Unexpected
 )
 ;
 public
