@@ -439,6 +439,16 @@ cpp
 NULL
 )
 endif
+CPP_UNIT_TESTS
++
+=
+TestChromeMargin
+.
+cpp
+\
+(
+NULL
+)
 endif
 include
 (
