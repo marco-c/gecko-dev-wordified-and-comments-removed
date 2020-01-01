@@ -101,7 +101,7 @@ modules
 /
 devtools
 /
-Target
+gDevTools
 .
 jsm
 "
@@ -112,6 +112,8 @@ let
 TargetFactory
 =
 tempScope
+.
+devtools
 .
 TargetFactory
 ;
