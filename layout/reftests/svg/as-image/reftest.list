@@ -2024,6 +2024,7 @@ html
 blue100x100
 .
 svg
+random
 skip
 -
 if
@@ -2044,6 +2045,7 @@ html
 lime100x100
 .
 svg
+random
 skip
 -
 if
