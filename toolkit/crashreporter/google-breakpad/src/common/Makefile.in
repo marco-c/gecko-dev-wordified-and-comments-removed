@@ -442,9 +442,15 @@ srcdir
 ifeq
 (
 (
+filter
+-
+out
+Darwin
+Linux
+(
 OS_ARCH
 )
-Darwin
+)
 )
 DIRS
 =
