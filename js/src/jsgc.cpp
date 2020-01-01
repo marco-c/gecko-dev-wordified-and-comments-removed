@@ -4747,6 +4747,12 @@ w
 )
 ;
 }
+#
+ifdef
+MOZ_ASAN
+JS_NEVER_INLINE
+#
+endif
 static
 void
 MarkRangeConservatively
