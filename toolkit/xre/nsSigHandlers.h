@@ -8,6 +8,12 @@ _M_IX86
 |
 defined
 (
+_M_X64
+)
+|
+|
+defined
+(
 __i386__
 )
 |
