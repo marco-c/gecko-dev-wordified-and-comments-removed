@@ -10985,7 +10985,7 @@ bounds
 ;
 list
 .
-ComputeVisibility
+ComputeVisibilityForRoot
 (
 &
 builder
