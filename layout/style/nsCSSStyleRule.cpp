@@ -2029,6 +2029,11 @@ PR_TRUE
 }
 else
 {
+if
+(
+aSheet
+)
+{
 nsXMLNameSpaceMap
 *
 sheetNS
@@ -2192,6 +2197,7 @@ wroteNamespace
 =
 PR_TRUE
 ;
+}
 }
 }
 }
@@ -2477,6 +2483,11 @@ mNameSpace
 0
 )
 {
+if
+(
+aSheet
+)
+{
 nsXMLNameSpaceMap
 *
 sheetNS
@@ -2538,6 +2549,7 @@ PRUnichar
 )
 )
 ;
+}
 }
 }
 list
