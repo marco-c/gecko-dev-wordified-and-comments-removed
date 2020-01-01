@@ -485,14 +485,6 @@ NS_WINDOW_START
 )
 #
 define
-NS_DESTROY
-(
-NS_WINDOW_START
-+
-2
-)
-#
-define
 NS_SIZE
 (
 NS_WINDOW_START

@@ -13282,9 +13282,6 @@ case
 NS_SIZEMODE
 :
 case
-NS_DESTROY
-:
-case
 NS_SETZLEVEL
 :
 case
@@ -28518,9 +28515,8 @@ if
 !
 mInDtor
 )
-DispatchStandardEvent
+NotifyWindowDestroyed
 (
-NS_DESTROY
 )
 ;
 mEventCallback

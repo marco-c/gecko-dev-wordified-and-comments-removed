@@ -987,6 +987,11 @@ UnregisterTouchWindow
 )
 ;
 void
+NotifyWindowDestroyed
+(
+)
+;
+void
 NotifySizeMoveDone
 (
 )
