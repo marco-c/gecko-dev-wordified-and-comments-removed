@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIDOMHTMLFrameElement
+nsIFrameLoader
 .
 h
 "
@@ -23,6 +23,13 @@ h
 include
 "
 nsIDOMEventListener
+.
+h
+"
+#
+include
+"
+nsFrameLoader
 .
 h
 "

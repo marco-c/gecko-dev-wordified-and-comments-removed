@@ -418,6 +418,13 @@ h
 #
 include
 "
+nsIObserverService
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences

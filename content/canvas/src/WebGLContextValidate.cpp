@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+CheckedInt
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -19,7 +28,7 @@ include
 "
 mozilla
 /
-CheckedInt
+Services
 .
 h
 "

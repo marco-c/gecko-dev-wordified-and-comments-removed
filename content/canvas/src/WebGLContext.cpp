@@ -159,6 +159,15 @@ include
 "
 mozilla
 /
+Services
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
