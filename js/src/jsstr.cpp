@@ -24876,7 +24876,7 @@ else
 {
 rt
 =
-js_GetGCThingRuntime
+js_GetGCStringRuntime
 (
 str
 )
