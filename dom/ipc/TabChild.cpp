@@ -1714,7 +1714,7 @@ tabChild
 this
 )
 {
-CSSRect
+gfxRect
 rect
 ;
 sscanf

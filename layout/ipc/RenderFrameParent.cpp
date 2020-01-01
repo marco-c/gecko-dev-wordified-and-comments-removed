@@ -4458,7 +4458,7 @@ RenderFrameParent
 ZoomToRect
 (
 const
-CSSRect
+gfxRect
 &
 aRect
 )

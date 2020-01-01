@@ -240,10 +240,10 @@ using
 gfxMatrix
 ;
 using
-gfxSize
+gfxRect
 ;
 using
-CSSRect
+gfxSize
 ;
 using
 mozilla
@@ -1637,7 +1637,7 @@ document
 /
 ZoomToRect
 (
-CSSRect
+gfxRect
 aRect
 )
 ;

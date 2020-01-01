@@ -180,7 +180,9 @@ DetectScrollableSubframe
 void
 ZoomToRect
 (
-CSSRect
+const
+gfxRect
+&
 aRect
 )
 ;
