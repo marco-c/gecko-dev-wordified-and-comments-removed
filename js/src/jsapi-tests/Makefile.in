@@ -298,6 +298,10 @@ testProfileStrings
 .
 cpp
 \
+testJSEvaluateScript
+.
+cpp
+\
 (
 NULL
 )
