@@ -367,7 +367,7 @@ nsPIDOMWindow
 nsGlobalWindow
 :
 :
-GetOuterWindowWithId
+GetInnerWindowWithId
 (
 mWindowID
 )
