@@ -804,6 +804,15 @@ mPseudoTag
 aPseudoTag
 &
 &
+!
+child
+-
+>
+IsStyleIfVisited
+(
+)
+&
+&
 child
 -
 >

@@ -1911,6 +1911,13 @@ return
 nsnull
 ;
 }
+resultIfVisited
+-
+>
+SetIsStyleIfVisited
+(
+)
+;
 result
 -
 >
