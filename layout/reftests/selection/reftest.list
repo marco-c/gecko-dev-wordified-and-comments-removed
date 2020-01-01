@@ -424,6 +424,12 @@ fails
 -
 if
 (
+Android
+)
+fails
+-
+if
+(
 cocoaWidget
 )
 =
@@ -444,6 +450,12 @@ widget
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 fails
 -
 if

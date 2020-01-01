@@ -262,6 +262,12 @@ full
 page
 zoom
 UI
+fails
+-
+if
+(
+Android
+)
 =
 =
 feImage
@@ -280,6 +286,12 @@ zoom
 ref
 .
 svg
+fails
+-
+if
+(
+Android
+)
 =
 =
 feImage

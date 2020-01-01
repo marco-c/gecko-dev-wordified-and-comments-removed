@@ -136,6 +136,12 @@ type
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 image

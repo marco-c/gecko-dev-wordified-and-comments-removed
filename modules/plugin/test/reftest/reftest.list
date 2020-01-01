@@ -267,6 +267,12 @@ if
 !
 haveTestPlugin
 )
+skip
+-
+if
+(
+Android
+)
 =
 =
 border
@@ -303,6 +309,10 @@ if
 (
 !
 haveTestPlugin
+&
+&
+!
+Android
 )
 skip
 -
@@ -337,6 +347,10 @@ if
 (
 !
 haveTestPlugin
+&
+&
+!
+Android
 )
 skip
 -

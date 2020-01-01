@@ -299,6 +299,12 @@ html
 #
 bug
 8253
+fails
+-
+if
+(
+Android
+)
 random
 -
 if
@@ -821,6 +827,10 @@ if
 (
 !
 gtk2Widget
+&
+&
+!
+Android
 )
 =
 =

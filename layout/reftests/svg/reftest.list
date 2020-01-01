@@ -2795,6 +2795,12 @@ test
 SVG
 behavior
 .
+fails
+-
+if
+(
+Android
+)
 !
 =
 text
@@ -2813,6 +2819,12 @@ language
 ref
 .
 xhtml
+fails
+-
+if
+(
+Android
+)
 random
 -
 if

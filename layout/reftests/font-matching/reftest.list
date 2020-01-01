@@ -128,6 +128,12 @@ defaultfont
 bold
 .
 html
+fails
+-
+if
+(
+Android
+)
 !
 =
 defaultjapanese

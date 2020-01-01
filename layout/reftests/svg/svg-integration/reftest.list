@@ -476,6 +476,12 @@ html
 ref
 .
 svg
+fails
+-
+if
+(
+Android
+)
 =
 =
 mask
