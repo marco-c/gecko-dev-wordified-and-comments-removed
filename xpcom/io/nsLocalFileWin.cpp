@@ -1116,7 +1116,6 @@ if
 (
 osflags
 &
-&
 nsILocalFile
 :
 :
