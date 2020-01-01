@@ -947,7 +947,6 @@ _doDragStop
 (
 0
 0
-0
 true
 )
 ;
@@ -1665,18 +1664,6 @@ this
 .
 _dragData
 ;
-dragData
-.
-setDragStart
-(
-event
-.
-screenX
-event
-.
-screenY
-)
-;
 this
 .
 _kinetic
@@ -1689,9 +1676,18 @@ screenX
 event
 .
 screenY
+)
+;
+dragData
+.
+setDragStart
+(
 event
 .
-timeStamp
+screenX
+event
+.
+screenY
 )
 ;
 this
@@ -1722,7 +1718,6 @@ _doDragStop
 (
 sX
 sY
-t
 kineticStop
 )
 {
@@ -1771,7 +1766,6 @@ addData
 (
 sX
 sY
-t
 )
 ;
 this
@@ -1813,7 +1807,6 @@ _doDragMove
 (
 sX
 sY
-t
 )
 {
 let
@@ -1849,7 +1842,6 @@ addData
 (
 sX
 sY
-t
 )
 ;
 return
@@ -3938,7 +3930,6 @@ addData
 (
 sx
 sy
-t
 )
 {
 if
@@ -3967,9 +3958,6 @@ length
 let
 now
 =
-t
-|
-|
 Date
 .
 now
