@@ -332,13 +332,6 @@ cc_callinfo_ref_t
 handle
 )
 ;
-cc_string_t
-CCAPI_CallInfo_getCandidate
-(
-cc_callinfo_ref_t
-handle
-)
-;
 cc_int32_t
 CCAPI_CallInfo_getStatusCode
 (

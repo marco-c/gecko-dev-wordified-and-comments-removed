@@ -2293,13 +2293,6 @@ cb_arg
 cand
 -
 >
-ready_cb_timer
-=
-0
-;
-cand
--
->
 ready_cb
 (
 0
@@ -2309,6 +2302,13 @@ cand
 >
 ready_cb_arg
 )
+;
+cand
+-
+>
+ready_cb_timer
+=
+0
 ;
 }
 int

@@ -566,17 +566,6 @@ takeTimecard
 =
 0
 ;
-virtual
-std
-:
-:
-string
-getCandidate
-(
-)
-=
-0
-;
 }
 ;
 }
