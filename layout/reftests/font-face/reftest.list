@@ -2319,7 +2319,9 @@ ref
 .
 html
 #
-Bug
+Tests
+for
+bug
 523717
 HTTP
 (
@@ -2429,9 +2431,6 @@ html
 #
 Bug
 534132
-#
-Bug
-534352
 HTTP
 (
 .

@@ -51,8 +51,17 @@ regress
 .
 js
 #
+this
+is
+a
+bogus
+timing
+test
+(
+see
 bug
 524734
+)
 random
 script
 regress

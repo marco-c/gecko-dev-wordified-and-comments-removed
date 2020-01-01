@@ -35,6 +35,8 @@ ref
 .
 html
 #
+test
+for
 bug
 464589
 =
@@ -62,6 +64,8 @@ ref
 .
 html
 #
+test
+for
 bug
 409587
 =
@@ -250,6 +254,8 @@ ref
 .
 xul
 #
+test
+for
 bug
 494901
 =
@@ -293,6 +299,8 @@ ref
 .
 html
 #
+test
+for
 bug
 471741
 !
