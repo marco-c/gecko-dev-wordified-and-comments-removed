@@ -437,6 +437,10 @@ theoradec
 .
 h
 \
+theoraenc
+.
+h
+\
 codec
 .
 h

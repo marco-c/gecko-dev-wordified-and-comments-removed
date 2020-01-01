@@ -10,7 +10,7 @@ if
 !
 defined
 (
-USE_ASM
+OC_X86_ASM
 )
 static
 ogg_uint32_t
@@ -887,7 +887,7 @@ ebx
 ecx
 =
 =
-0x43534E20
+0x43534e20
 &
 &
 edx
@@ -899,7 +899,7 @@ edx
 ebx
 =
 =
-0x646F6547
+0x646f6547
 )
 {
 cpuid
@@ -996,15 +996,6 @@ oc_parse_intel_flags
 (
 edx
 ecx
-)
-;
-cpuid
-(
-0x80000000
-eax
-ebx
-ecx
-edx
 )
 ;
 if
