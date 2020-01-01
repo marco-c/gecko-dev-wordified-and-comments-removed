@@ -125,10 +125,12 @@ test
 printf
 (
 "
+TEST
+-
+PASS
+|
 %
 s
-PASSED
-!
 \
 n
 "
