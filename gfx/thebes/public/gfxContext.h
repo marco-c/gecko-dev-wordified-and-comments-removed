@@ -133,6 +133,11 @@ return
 mCairo
 ;
 }
+PRBool
+HasError
+(
+)
+;
 void
 Save
 (
