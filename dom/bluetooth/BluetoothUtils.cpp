@@ -293,7 +293,7 @@ Length
 NS_ENSURE_TRUE
 (
 JsData
-NS_ERROR_FAILURE
+false
 )
 ;
 val
@@ -398,7 +398,7 @@ property
 )
 ;
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 }
