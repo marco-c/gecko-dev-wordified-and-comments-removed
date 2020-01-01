@@ -175,6 +175,10 @@ alloc
 bytesNeeded
 &
 pool
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 if

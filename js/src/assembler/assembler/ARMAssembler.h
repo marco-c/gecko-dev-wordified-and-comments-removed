@@ -6368,6 +6368,8 @@ ExecutablePool
 *
 *
 poolp
+CodeKind
+kind
 )
 ;
 void

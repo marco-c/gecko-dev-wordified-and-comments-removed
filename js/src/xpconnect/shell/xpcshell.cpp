@@ -2714,10 +2714,10 @@ startThing
 =
 NULL
 ;
-uint32
+JSGCTraceKind
 startTraceKind
 =
-0
+JSTRACE_OBJECT
 ;
 void
 *

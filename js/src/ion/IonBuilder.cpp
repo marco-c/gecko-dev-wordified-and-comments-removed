@@ -127,9 +127,7 @@ atoms
 script
 -
 >
-atomMap
-.
-vector
+atoms
 ;
 }
 static
@@ -249,9 +247,7 @@ atoms
 script
 -
 >
-atomMap
-.
-vector
+atoms
 )
 +
 GET_INDEX

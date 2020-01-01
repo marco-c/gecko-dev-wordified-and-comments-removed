@@ -263,9 +263,6 @@ script
 uint16
 skipmin
 ;
-JSPackedBool
-wrapper
-;
 js
 :
 :

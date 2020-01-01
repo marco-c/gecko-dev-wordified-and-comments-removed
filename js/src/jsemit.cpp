@@ -10886,7 +10886,7 @@ JS_TRUE
 ;
 if
 (
-level
+skip
 >
 =
 UpvarCookie
