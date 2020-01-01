@@ -206,12 +206,6 @@ dispatchParams
 =
 NULL
 ;
-nsIInterfaceInfo
-*
-iface_info
-=
-NULL
-;
 const
 nsXPTMethodInfo
 *
