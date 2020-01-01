@@ -182,6 +182,8 @@ newState
 true
 )
 ;
+newWin
+.
 setTimeout
 (
 function
@@ -288,6 +290,8 @@ newState
 true
 )
 ;
+newWin
+.
 setTimeout
 (
 function
@@ -362,6 +366,8 @@ newState
 true
 )
 ;
+newWin
+.
 setTimeout
 (
 function
