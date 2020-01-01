@@ -2824,6 +2824,14 @@ tests
 test_data_store
 .
 js
+extensions
+/
+uriloader
+pdf
+.
+js
+.
+xpi
 greprefs
 /
 all
