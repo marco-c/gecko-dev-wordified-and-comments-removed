@@ -118,6 +118,11 @@ MODULE
 '
 dom
 '
+LIBRARY_NAME
+=
+'
+domfm_s
+'
 CPP_SOURCES
 +
 =
