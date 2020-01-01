@@ -1467,6 +1467,9 @@ file
 in
 nsITelemetryLoadSessionDataCallback
 callback
+in
+bool
+isSynchronous
 )
 ;
 /

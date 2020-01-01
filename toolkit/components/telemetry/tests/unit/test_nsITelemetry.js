@@ -1678,6 +1678,7 @@ loadHistograms
 (
 tmpFile
 loadCallback
+false
 )
 ;
 saveFinished
