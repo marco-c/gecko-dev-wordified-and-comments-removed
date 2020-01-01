@@ -34,6 +34,7 @@ eLinebreakNet
 eLinebreakMac
 eLinebreakUnix
 eLinebreakWindows
+eLinebreakSpace
 }
 ELinebreakType
 ;

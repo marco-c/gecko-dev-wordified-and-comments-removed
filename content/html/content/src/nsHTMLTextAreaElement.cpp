@@ -3408,9 +3408,6 @@ NS_OK
 nsAutoString
 name
 ;
-if
-(
-!
 GetAttr
 (
 kNameSpaceID_None
@@ -3419,6 +3416,14 @@ nsGkAtoms
 :
 name
 name
+)
+;
+if
+(
+name
+.
+IsEmpty
+(
 )
 )
 {

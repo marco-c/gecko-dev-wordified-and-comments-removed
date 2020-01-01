@@ -258,9 +258,11 @@ const
 nsAString
 &
 aStr
-nsACString
+nsCString
 &
 aResult
+bool
+aHeaderEncode
 )
 ;
 private
