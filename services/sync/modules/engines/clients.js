@@ -807,6 +807,17 @@ break
 ;
 }
 }
+_reconcile
+:
+function
+_reconcile
+(
+)
+{
+return
+true
+;
+}
 _resetClient
 :
 function
