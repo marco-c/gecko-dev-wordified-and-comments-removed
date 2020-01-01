@@ -670,6 +670,7 @@ do
 {
 if
 (
+(
 cs
 -
 >
@@ -677,9 +678,8 @@ format
 &
 JOF_CALLOP
 )
-{
-if
-(
+&
+&
 SPROP_HAS_STUB_GETTER
 (
 sprop
@@ -807,11 +807,9 @@ js_IsPropertyCacheDisabled
 cx
 )
 )
-{
 return
 JS_NO_PROP_CACHE_FILL
 ;
-}
 SCOPE_SET_BRANDED
 (
 scope
@@ -827,7 +825,6 @@ v
 ;
 break
 ;
-}
 }
 }
 if
