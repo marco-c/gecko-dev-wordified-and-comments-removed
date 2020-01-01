@@ -487,10 +487,6 @@ test_bug460437
 .
 xhtml
 \
-test_bug502091
-.
-html
-\
 bug_502091_iframe
 .
 html
@@ -542,3 +538,14 @@ tests
 (
 relativesrcdir
 )
+#
+Disabled
+due
+to
+bug
+529544
+#
+test_bug502091
+.
+html
+\
