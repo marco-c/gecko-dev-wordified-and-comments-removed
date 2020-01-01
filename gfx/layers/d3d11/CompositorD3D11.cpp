@@ -4438,6 +4438,8 @@ switch
 aFilter
 )
 {
+default
+:
 case
 FILTER_LINEAR
 :

@@ -358,6 +358,15 @@ FILTER_NEAREST
 return
 FILTER_POINT
 ;
+case
+gfxPattern
+:
+:
+FILTER_GOOD
+:
+return
+FILTER_GOOD
+;
 default
 :
 return
