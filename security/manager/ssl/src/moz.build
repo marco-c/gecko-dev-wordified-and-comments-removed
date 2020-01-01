@@ -205,6 +205,11 @@ nsCrypto
 cpp
 '
 '
+nsCryptoHash
+.
+cpp
+'
+'
 nsDataSignatureVerifier
 .
 cpp

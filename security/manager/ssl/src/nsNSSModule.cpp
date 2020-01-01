@@ -113,6 +113,13 @@ h
 #
 include
 "
+nsCryptoHash
+.
+h
+"
+#
+include
+"
 nsDOMCID
 .
 h
