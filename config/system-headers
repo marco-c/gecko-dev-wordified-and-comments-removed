@@ -696,6 +696,11 @@ ftglyph
 h
 freetype
 /
+ftsynth
+.
+h
+freetype
+/
 ftoutln
 .
 h
