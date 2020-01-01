@@ -186,6 +186,13 @@ grow
 w
 )
 ;
+NanoAssert
+(
+w
+<
+cap
+)
+;
 bits
 [
 w
