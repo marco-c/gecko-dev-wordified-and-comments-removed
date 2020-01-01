@@ -6184,8 +6184,6 @@ principals
 JSFunction
 *
 fun
-;
-fun
 =
 script
 -
@@ -6421,6 +6419,8 @@ scopeobj
 callerFrame
 principals
 TCF_COMPILE_N_GO
+|
+TCF_NEED_MUTABLE_SCRIPT
 str
 -
 >
@@ -9829,19 +9829,6 @@ scope
 )
 goto
 bad
-;
-if
-(
-!
-DSLOTS_IS_NOT_NULL
-(
-obj
-)
-)
-DSLOTS_BUMP_1
-(
-obj
-)
 ;
 }
 else
