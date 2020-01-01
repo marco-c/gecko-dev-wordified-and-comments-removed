@@ -136,6 +136,7 @@ ArgToStackOffset
 int32
 slot
 )
+const
 {
 JS_ASSERT
 (
@@ -164,6 +165,7 @@ SlotToStackOffset
 int32
 slot
 )
+const
 {
 JS_ASSERT
 (
@@ -286,6 +288,16 @@ LParameter
 param
 )
 ;
+}
+;
+struct
+HeapLabel
+:
+public
+TempObject
+public
+Label
+{
 }
 ;
 class

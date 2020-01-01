@@ -723,10 +723,6 @@ op
 ;
 private
 :
-JSContext
-*
-cx
-;
 JSAtom
 *
 *

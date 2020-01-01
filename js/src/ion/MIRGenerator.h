@@ -33,6 +33,9 @@ public
 :
 MIRGenerator
 (
+JSContext
+*
+cx
 TempAllocator
 &
 temp
@@ -336,6 +339,10 @@ public
 JSScript
 *
 script
+;
+JSContext
+*
+cx
 ;
 protected
 :

@@ -646,7 +646,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -734,7 +734,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -852,7 +852,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -940,7 +940,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -1886,7 +1886,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -1994,7 +1994,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -2142,7 +2142,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -2224,7 +2224,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -2332,7 +2332,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -2440,7 +2440,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -2528,7 +2528,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -2616,7 +2616,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -2704,7 +2704,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -2792,7 +2792,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -2938,7 +2938,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "
@@ -3033,7 +3033,7 @@ default
 JS_NOT_REACHED
 (
 "
-unexepcted
+unexpected
 operand
 kind
 "

@@ -128,7 +128,7 @@ void
 ;
 stackAdjust_
 =
-alignStackForCall
+dynamicallyAlignStackForCall
 (
 stackForArgs
 scratch

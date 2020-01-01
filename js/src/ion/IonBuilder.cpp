@@ -104,14 +104,11 @@ oracle
 :
 MIRGenerator
 (
+cx
 temp
 script
 fun
 graph
-)
-cx
-(
-cx
 )
 oracle
 (
