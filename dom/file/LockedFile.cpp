@@ -780,6 +780,7 @@ if
 JS_IsArrayBufferObject
 (
 obj
+aCx
 )
 )
 {
@@ -796,6 +797,7 @@ char
 JS_GetArrayBufferData
 (
 obj
+aCx
 )
 )
 ;
@@ -805,6 +807,7 @@ length
 JS_GetArrayBufferByteLength
 (
 obj
+aCx
 )
 ;
 rv

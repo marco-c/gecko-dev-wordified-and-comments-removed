@@ -578,6 +578,7 @@ if
 JS_IsFloat32Array
 (
 darray
+aCx
 )
 )
 {
@@ -640,6 +641,7 @@ dataLength
 JS_GetTypedArrayLength
 (
 tsrc
+aCx
 )
 ;
 if
@@ -679,6 +681,7 @@ frames
 JS_GetFloat32ArrayData
 (
 tsrc
+aCx
 )
 ;
 nsAutoArrayPtr

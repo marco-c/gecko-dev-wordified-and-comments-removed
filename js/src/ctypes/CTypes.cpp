@@ -9608,6 +9608,7 @@ switch
 JS_GetTypedArrayType
 (
 valObj
+cx
 )
 )
 {
@@ -10815,6 +10816,7 @@ val
 JS_IsArrayBufferObject
 (
 valObj
+cx
 )
 )
 {
@@ -10832,6 +10834,7 @@ buffer
 JS_GetArrayBufferData
 (
 valObj
+cx
 )
 ;
 break
@@ -10849,6 +10852,7 @@ val
 JS_IsTypedArrayObject
 (
 valObj
+cx
 )
 )
 {
@@ -10893,6 +10897,7 @@ buffer
 JS_GetArrayBufferViewData
 (
 valObj
+cx
 )
 ;
 break
@@ -11382,6 +11387,7 @@ val
 JS_IsArrayBufferObject
 (
 valObj
+cx
 )
 )
 {
@@ -11391,6 +11397,7 @@ sourceLength
 JS_GetArrayBufferByteLength
 (
 valObj
+cx
 )
 ;
 size_t
@@ -11447,6 +11454,7 @@ buffer
 JS_GetArrayBufferData
 (
 valObj
+cx
 )
 sourceLength
 )
@@ -11467,6 +11475,7 @@ val
 JS_IsTypedArrayObject
 (
 valObj
+cx
 )
 )
 {
@@ -11503,6 +11512,7 @@ sourceLength
 JS_GetTypedArrayByteLength
 (
 valObj
+cx
 )
 ;
 size_t
@@ -11560,6 +11570,7 @@ buffer
 JS_GetArrayBufferViewData
 (
 valObj
+cx
 )
 sourceLength
 )

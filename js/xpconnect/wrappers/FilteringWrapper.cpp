@@ -740,7 +740,11 @@ define
 XOW
 FilteringWrapper
 <
-SecurityXrayXPCWN
+XrayWrapper
+<
+CrossCompartmentSecurityWrapper
+>
+\
 CrossOriginAccessiblePropertiesOnly
 >
 #
@@ -748,7 +752,8 @@ define
 DXOW
 FilteringWrapper
 <
-SecurityXrayDOM
+XrayDOM
+\
 CrossOriginAccessiblePropertiesOnly
 >
 #
@@ -757,6 +762,7 @@ NNXOW
 FilteringWrapper
 <
 CrossCompartmentSecurityWrapper
+\
 CrossOriginAccessiblePropertiesOnly
 >
 #
@@ -764,7 +770,11 @@ define
 LW
 FilteringWrapper
 <
-SCSecurityXrayXPCWN
+XrayWrapper
+<
+SameCompartmentSecurityWrapper
+>
+\
 LocationPolicy
 >
 #
@@ -772,7 +782,11 @@ define
 XLW
 FilteringWrapper
 <
-SecurityXrayXPCWN
+XrayWrapper
+<
+CrossCompartmentSecurityWrapper
+>
+\
 LocationPolicy
 >
 #
@@ -781,6 +795,7 @@ CW
 FilteringWrapper
 <
 SameCompartmentSecurityWrapper
+\
 ComponentsObjectPolicy
 >
 #
@@ -789,6 +804,7 @@ XCW
 FilteringWrapper
 <
 CrossCompartmentSecurityWrapper
+\
 ComponentsObjectPolicy
 >
 template

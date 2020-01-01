@@ -15317,6 +15317,7 @@ pixels
 Obj
 (
 )
+NULL
 )
 ;
 int
@@ -15330,6 +15331,7 @@ pixels
 Obj
 (
 )
+NULL
 )
 ;
 uint32_t
@@ -23452,6 +23454,7 @@ pixels
 Obj
 (
 )
+cx
 )
 :
 -
@@ -23521,6 +23524,7 @@ ImageData
 Uint8ClampedArray
 arr
 (
+cx
 pixels
 -
 >
@@ -24326,6 +24330,7 @@ pixels
 Obj
 (
 )
+cx
 )
 WebGLTexelConversions
 :
@@ -24396,6 +24401,7 @@ null
 Uint8ClampedArray
 arr
 (
+cx
 pixels
 -
 >

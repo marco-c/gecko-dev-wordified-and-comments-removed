@@ -4786,6 +4786,9 @@ JS_IsTypedArrayObject
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4798,6 +4801,9 @@ JS_IsArrayBufferViewObject
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4810,6 +4816,9 @@ JS_IsInt8Array
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4822,6 +4831,9 @@ JS_IsUint8Array
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4834,6 +4846,9 @@ JS_IsUint8ClampedArray
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4846,6 +4861,9 @@ JS_IsInt16Array
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4858,6 +4876,9 @@ JS_IsUint16Array
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4870,6 +4891,9 @@ JS_IsInt32Array
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4882,6 +4906,9 @@ JS_IsUint32Array
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4894,6 +4921,9 @@ JS_IsFloat32Array
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4906,6 +4936,9 @@ JS_IsFloat64Array
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -4916,6 +4949,9 @@ JSObject
 )
 JS_GetObjectAsInt8Array
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -4936,6 +4972,9 @@ JSObject
 )
 JS_GetObjectAsUint8Array
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -4956,6 +4995,9 @@ JSObject
 )
 JS_GetObjectAsUint8ClampedArray
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -4976,6 +5018,9 @@ JSObject
 )
 JS_GetObjectAsInt16Array
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -4996,6 +5041,9 @@ JSObject
 )
 JS_GetObjectAsUint16Array
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -5016,6 +5064,9 @@ JSObject
 )
 JS_GetObjectAsInt32Array
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -5036,6 +5087,9 @@ JSObject
 )
 JS_GetObjectAsUint32Array
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -5056,6 +5110,9 @@ JSObject
 )
 JS_GetObjectAsFloat32Array
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -5076,6 +5133,9 @@ JSObject
 )
 JS_GetObjectAsFloat64Array
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -5096,6 +5156,9 @@ JSObject
 )
 JS_GetObjectAsArrayBufferView
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -5116,6 +5179,9 @@ JSObject
 )
 JS_GetObjectAsArrayBuffer
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -5138,6 +5204,9 @@ JS_GetTypedArrayType
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5150,6 +5219,9 @@ JS_IsArrayBufferObject
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5162,6 +5234,9 @@ JS_GetArrayBufferByteLength
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5175,6 +5250,9 @@ JS_GetArrayBufferData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5187,6 +5265,9 @@ JS_GetTypedArrayLength
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -5199,6 +5280,9 @@ JS_GetTypedArrayByteOffset
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -5211,6 +5295,9 @@ JS_GetTypedArrayByteLength
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -5223,6 +5310,9 @@ JS_IsArrayBufferViewObject
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -5235,6 +5325,9 @@ JS_GetArrayBufferViewByteLength
 JSObject
 *
 obj
+JSContext
+*
+cx
 )
 ;
 extern
@@ -5248,6 +5341,9 @@ JS_GetInt8ArrayData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5261,6 +5357,9 @@ JS_GetUint8ArrayData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5274,6 +5373,9 @@ JS_GetUint8ClampedArrayData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5287,6 +5389,9 @@ JS_GetInt16ArrayData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5300,6 +5405,9 @@ JS_GetUint16ArrayData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5313,6 +5421,9 @@ JS_GetInt32ArrayData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5326,6 +5437,9 @@ JS_GetUint32ArrayData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5339,6 +5453,9 @@ JS_GetFloat32ArrayData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5352,6 +5469,9 @@ JS_GetFloat64ArrayData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5365,6 +5485,9 @@ JS_GetArrayBufferViewData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 extern
@@ -5378,6 +5501,9 @@ JS_GetArrayBufferViewBuffer
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 JS_FRIEND_API
@@ -5386,9 +5512,15 @@ JSBool
 )
 JS_IsDataViewObject
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
+JSBool
+*
+isDataView
 )
 ;
 JS_FRIEND_API
@@ -5400,6 +5532,9 @@ JS_GetDataViewByteOffset
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 JS_FRIEND_API
@@ -5411,6 +5546,9 @@ JS_GetDataViewByteLength
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 JS_FRIEND_API
@@ -5423,6 +5561,9 @@ JS_GetDataViewData
 JSObject
 *
 obj
+JSContext
+*
+maybecx
 )
 ;
 typedef

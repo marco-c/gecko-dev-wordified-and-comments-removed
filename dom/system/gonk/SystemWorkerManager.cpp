@@ -390,6 +390,7 @@ if
 JS_IsTypedArrayObject
 (
 obj
+cx
 )
 )
 {
@@ -419,6 +420,7 @@ type
 JS_GetTypedArrayType
 (
 obj
+cx
 )
 ;
 if
@@ -481,6 +483,7 @@ size
 JS_GetTypedArrayByteLength
 (
 obj
+cx
 )
 ;
 data
@@ -488,6 +491,7 @@ data
 JS_GetArrayBufferViewData
 (
 obj
+cx
 )
 ;
 }
@@ -805,6 +809,7 @@ memcpy
 JS_GetArrayBufferViewData
 (
 array
+aCx
 )
 mMessage
 -
@@ -1043,6 +1048,7 @@ if
 JS_IsTypedArrayObject
 (
 obj
+cx
 )
 )
 {
@@ -1072,6 +1078,7 @@ type
 JS_GetTypedArrayType
 (
 obj
+cx
 )
 ;
 if
@@ -1134,6 +1141,7 @@ size
 JS_GetTypedArrayByteLength
 (
 obj
+cx
 )
 ;
 if
@@ -1164,6 +1172,7 @@ data
 JS_GetArrayBufferViewData
 (
 obj
+cx
 )
 ;
 if
@@ -1552,6 +1561,7 @@ memcpy
 JS_GetUint8ArrayData
 (
 array
+aCx
 )
 mMessage
 -
