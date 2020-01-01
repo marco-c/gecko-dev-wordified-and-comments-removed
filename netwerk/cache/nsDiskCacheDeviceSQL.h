@@ -534,9 +534,10 @@ BuildApplicationCacheGroupID
 nsIURI
 *
 aManifestURL
-nsILoadContext
-*
-aLoadContext
+uint32_t
+appId
+bool
+isInBrowserElement
 nsACString
 &
 _result

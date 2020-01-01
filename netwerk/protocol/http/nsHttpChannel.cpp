@@ -10589,6 +10589,17 @@ NS_OK
 }
 if
 (
+mLoadFlags
+&
+INHIBIT_CACHING
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 mRequestHead
 .
 Method

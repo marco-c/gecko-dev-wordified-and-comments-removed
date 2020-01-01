@@ -236,6 +236,10 @@ test_updatingManifest
 .
 html
 \
+test_updateCheck
+.
+html
+\
 445544_part1
 .
 html
