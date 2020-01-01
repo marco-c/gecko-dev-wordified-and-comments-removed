@@ -530,6 +530,16 @@ properties
 (
 NULL
 )
+EXTRA_JS_MODULES
+=
+\
+PluralForm
+.
+jsm
+\
+(
+NULL
+)
 #
 we
 don
