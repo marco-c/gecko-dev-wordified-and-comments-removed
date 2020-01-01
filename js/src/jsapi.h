@@ -8935,9 +8935,10 @@ JSBool
 )
 JS_IsAboutToBeFinalized
 (
-void
+JSObject
 *
-thing
+*
+obj
 )
 ;
 typedef
