@@ -901,8 +901,6 @@ uint32_t
 aAppId
 bool
 aInBrowserElement
-bool
-aIsPrivate
 nsCString
 &
 aCookie
@@ -950,11 +948,6 @@ uint32_t
 aAppId
 bool
 aInBrowserElement
-bool
-aIsPrivate
-nsIChannel
-*
-aChannel
 )
 ;
 bool
@@ -978,9 +971,6 @@ int64_t
 aServerTime
 bool
 aFromHttp
-nsIChannel
-*
-aChannel
 )
 ;
 void
