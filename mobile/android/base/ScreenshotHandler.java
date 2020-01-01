@@ -1679,6 +1679,17 @@ getInstance
 ;
 if
 (
+handler
+=
+=
+null
+)
+{
+break
+;
+}
+if
+(
 Tabs
 .
 getInstance
