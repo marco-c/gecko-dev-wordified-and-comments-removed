@@ -2551,6 +2551,7 @@ static
 nsresult
 ReadCMAPTableFormat12
 (
+const
 PRUint8
 *
 aBuf
@@ -2565,6 +2566,7 @@ static
 nsresult
 ReadCMAPTableFormat4
 (
+const
 PRUint8
 *
 aBuf
@@ -2579,6 +2581,7 @@ static
 nsresult
 ReadCMAPTableFormat14
 (
+const
 PRUint8
 *
 aBuf
@@ -2594,6 +2597,7 @@ static
 PRUint32
 FindPreferredSubtable
 (
+const
 PRUint8
 *
 aBuf
@@ -2614,6 +2618,7 @@ static
 nsresult
 ReadCMAP
 (
+const
 PRUint8
 *
 aBuf
@@ -2646,6 +2651,18 @@ aCh
 )
 ;
 static
+PRUint32
+MapCharToGlyphFormat12
+(
+const
+PRUint8
+*
+aBuf
+PRUint32
+aCh
+)
+;
+static
 PRUint16
 MapUVSToGlyphFormat14
 (
@@ -2663,6 +2680,7 @@ static
 PRUint32
 MapCharToGlyph
 (
+const
 PRUint8
 *
 aBuf
