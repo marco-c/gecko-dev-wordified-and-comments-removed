@@ -3761,6 +3761,11 @@ p
 )
 ;
 }
+bool
+isConstructing
+(
+)
+;
 private
 :
 void

@@ -1388,17 +1388,6 @@ char
 )
 ;
 extern
-JS_FRIEND_API
-(
-void
-)
-js_MapKeywords
-(
-JSMapKeywordFun
-mapfun
-)
-;
-extern
 JSBool
 js_IsIdentifier
 (

@@ -363,13 +363,6 @@ nsIPrefService
 h
 "
 #
-include
-"
-jsinterp
-.
-h
-"
-#
 ifdef
 USEWEAKREFS
 #
@@ -3744,9 +3737,6 @@ parentDocShell
 GetSessionStorageForPrincipal
 (
 subjectPrincipal
-EmptyString
-(
-)
 PR_FALSE
 getter_AddRefs
 (
