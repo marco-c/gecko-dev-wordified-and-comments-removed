@@ -468,6 +468,11 @@ uint8
 *
 typeMap
 ;
+int32_t
+loopExit
+:
+1
+;
 #
 if
 defined
