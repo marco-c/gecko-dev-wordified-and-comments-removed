@@ -232,7 +232,7 @@ bool
 aNewActive
 )
 ;
-void
+bool
 SetIsFading
 (
 bool
