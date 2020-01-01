@@ -3842,7 +3842,7 @@ GetPrototypeBinding
 ref
 )
 ;
-NS_ASSERTION
+NS_WARN_IF_FALSE
 (
 protoBinding
 "
@@ -3852,7 +3852,6 @@ locate
 an
 XBL
 binding
-.
 "
 )
 ;
