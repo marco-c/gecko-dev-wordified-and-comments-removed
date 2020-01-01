@@ -12758,6 +12758,9 @@ case
 JSOP_DEFAULT
 :
 case
+JSOP_DEFAULTX
+:
+case
 JSOP_POPN
 :
 case
@@ -16481,6 +16484,9 @@ break
 ;
 case
 JSOP_CASE
+:
+case
+JSOP_CASEX
 :
 state
 .
