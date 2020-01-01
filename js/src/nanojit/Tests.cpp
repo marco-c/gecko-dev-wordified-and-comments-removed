@@ -1847,10 +1847,6 @@ NIns
 *
 code
 ;
-LIns
-*
-instr
-;
 SideExit
 exit
 ;
@@ -2077,7 +2073,10 @@ from
 =
 frag
 ;
-instr
+frag
+-
+>
+lastIns
 =
 lirout
 -
