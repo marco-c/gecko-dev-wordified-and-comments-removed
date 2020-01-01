@@ -2158,7 +2158,7 @@ shell
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -5200,7 +5200,7 @@ shell
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -5958,7 +5958,7 @@ shell
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -6481,7 +6481,7 @@ shell
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

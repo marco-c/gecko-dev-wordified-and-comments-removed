@@ -343,7 +343,7 @@ shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

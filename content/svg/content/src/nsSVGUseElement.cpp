@@ -1914,7 +1914,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

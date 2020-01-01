@@ -3493,7 +3493,7 @@ shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -3534,12 +3534,7 @@ IsProcessingAnimationStyleChange
 )
 )
 {
-context
--
->
-PresShell
-(
-)
+shell
 -
 >
 RestyleForAnimation

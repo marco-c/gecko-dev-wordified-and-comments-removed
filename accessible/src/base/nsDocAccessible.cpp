@@ -2570,7 +2570,7 @@ presShell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

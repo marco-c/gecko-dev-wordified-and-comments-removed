@@ -899,7 +899,7 @@ doc
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 :

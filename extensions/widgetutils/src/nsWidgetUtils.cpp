@@ -952,7 +952,7 @@ shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

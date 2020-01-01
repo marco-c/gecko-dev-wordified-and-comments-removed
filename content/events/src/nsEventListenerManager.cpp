@@ -5807,7 +5807,7 @@ shell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

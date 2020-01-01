@@ -30908,7 +30908,7 @@ shell
 aDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

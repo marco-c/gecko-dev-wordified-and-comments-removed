@@ -884,7 +884,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;

@@ -1512,7 +1512,7 @@ shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

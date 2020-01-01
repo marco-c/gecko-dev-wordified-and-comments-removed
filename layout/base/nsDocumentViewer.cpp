@@ -9138,7 +9138,7 @@ shell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -10401,7 +10401,7 @@ shell
 aDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -10477,7 +10477,7 @@ shell
 aDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

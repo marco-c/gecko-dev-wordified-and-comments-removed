@@ -1722,7 +1722,7 @@ ownerDoc
 ownerDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 :

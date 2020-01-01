@@ -1092,7 +1092,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

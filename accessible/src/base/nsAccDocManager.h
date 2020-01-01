@@ -811,7 +811,7 @@ ps
 aDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

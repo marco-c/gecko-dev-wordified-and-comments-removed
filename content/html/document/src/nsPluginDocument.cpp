@@ -400,7 +400,7 @@ shell
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -851,13 +851,13 @@ CreateSyntheticPluginDocument
 NS_ASSERTION
 (
 !
-GetPrimaryShell
+GetShell
 (
 )
 |
 |
 !
-GetPrimaryShell
+GetShell
 (
 )
 -

@@ -2419,7 +2419,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

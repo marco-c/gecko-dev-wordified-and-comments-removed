@@ -234,7 +234,7 @@ shell
 aDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

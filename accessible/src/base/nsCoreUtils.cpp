@@ -384,7 +384,7 @@ presShell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -952,7 +952,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

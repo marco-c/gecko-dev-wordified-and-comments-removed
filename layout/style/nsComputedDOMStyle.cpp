@@ -1350,7 +1350,7 @@ return
 currentDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -1552,7 +1552,7 @@ mPresShell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -4922,7 +4922,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

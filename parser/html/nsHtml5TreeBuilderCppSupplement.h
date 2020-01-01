@@ -2944,7 +2944,7 @@ GetDocument
 )
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

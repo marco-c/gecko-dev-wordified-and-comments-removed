@@ -7814,7 +7814,7 @@ NS_ASSERTION
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 =
@@ -25953,7 +25953,7 @@ presShell
 retargetEventDoc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -30184,7 +30184,7 @@ shell
 aDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -30467,7 +30467,7 @@ shell
 aDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

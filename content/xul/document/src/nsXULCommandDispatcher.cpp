@@ -1754,7 +1754,7 @@ shell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

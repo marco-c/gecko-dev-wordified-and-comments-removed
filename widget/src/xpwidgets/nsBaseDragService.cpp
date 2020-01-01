@@ -719,7 +719,7 @@ do_QueryInterface
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 )
@@ -1218,7 +1218,7 @@ presShell
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -1371,7 +1371,7 @@ return
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

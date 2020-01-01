@@ -4853,7 +4853,7 @@ shell
 mDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

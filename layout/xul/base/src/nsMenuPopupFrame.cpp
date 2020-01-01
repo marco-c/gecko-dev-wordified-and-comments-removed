@@ -4200,7 +4200,7 @@ shell
 document
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;

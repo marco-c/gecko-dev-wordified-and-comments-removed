@@ -350,7 +350,7 @@ doc
 doc
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 :

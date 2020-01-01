@@ -8127,7 +8127,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -8188,7 +8188,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -8261,7 +8261,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -8344,7 +8344,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -10568,7 +10568,7 @@ nsIPresShell
 *
 ps
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -10875,7 +10875,7 @@ nsIPresShell
 *
 ps
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -13298,7 +13298,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -13402,7 +13402,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -13936,7 +13936,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -15835,7 +15835,7 @@ shell
 parent
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -20195,7 +20195,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -21504,7 +21504,7 @@ nsIPresShell
 *
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -21750,7 +21750,7 @@ nsIPresShell
 *
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -24311,7 +24311,7 @@ nsIPresShell
 *
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -24682,7 +24682,7 @@ nsIPresShell
 *
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -24914,7 +24914,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -26839,7 +26839,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -30520,7 +30520,7 @@ i
 ]
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -30692,7 +30692,7 @@ nsIPresShell
 *
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -31276,7 +31276,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;

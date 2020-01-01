@@ -4953,7 +4953,7 @@ nsIPresShell
 >
 shell
 =
-GetPrimaryShell
+GetShell
 (
 )
 ;
@@ -8337,7 +8337,7 @@ mWriteLevel
 ;
 if
 (
-GetPrimaryShell
+GetShell
 (
 )
 )

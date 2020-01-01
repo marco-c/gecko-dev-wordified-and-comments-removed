@@ -202,7 +202,7 @@ if
 aDocument
 -
 >
-GetPrimaryShell
+GetShell
 (
 )
 )
