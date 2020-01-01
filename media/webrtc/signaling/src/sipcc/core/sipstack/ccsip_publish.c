@@ -1057,8 +1057,6 @@ is
 an
 outstanding
 transaction
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1114,8 +1112,6 @@ outgoing
 PUBLISH
 request
 failed
-\
-n
 "
 fname
 )
@@ -1233,8 +1229,6 @@ SIP_F_PREFIX
 PCB
 allocation
 failed
-\
-n
 "
 fname
 )
@@ -1378,8 +1372,6 @@ PUBLISH
 request
 sent
 successfully
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1427,8 +1419,6 @@ to
 send
 PUBLISH
 request
-\
-n
 "
 fname
 )
@@ -1744,8 +1734,6 @@ in
 adding
 Request
 line
-\
-n
 "
 fname
 )
@@ -1838,8 +1826,6 @@ in
 adding
 VIA
 header
-\
-n
 "
 fname
 )
@@ -1893,8 +1879,6 @@ in
 adding
 TO
 header
-\
-n
 "
 fname
 )
@@ -1965,8 +1949,6 @@ in
 adding
 FROM
 header
-\
-n
 "
 fname
 )
@@ -2103,8 +2085,6 @@ in
 adding
 CALLID
 header
-\
-n
 "
 fname
 )
@@ -2208,8 +2188,6 @@ in
 adding
 Contact
 header
-\
-n
 "
 fname
 )
@@ -2267,8 +2245,6 @@ in
 adding
 CSEQ
 header
-\
-n
 "
 fname
 )
@@ -2330,8 +2306,6 @@ in
 adding
 Event
 header
-\
-n
 "
 fname
 )
@@ -2375,8 +2349,6 @@ in
 adding
 Expires
 header
-\
-n
 "
 fname
 )
@@ -2427,8 +2399,6 @@ Max
 -
 Forwards
 header
-\
-n
 "
 fname
 )
@@ -2488,8 +2458,6 @@ in
 adding
 Authorization
 header
-\
-n
 "
 fname
 )
@@ -2542,8 +2510,6 @@ Error
 in
 adding
 Content
-\
-n
 "
 fname
 )
@@ -2585,8 +2551,6 @@ adding
 Content
 -
 Len
-\
-n
 "
 fname
 )
@@ -2658,8 +2622,6 @@ to
 send
 PUBLISH
 message
-\
-n
 "
 fname
 )
@@ -2862,8 +2824,6 @@ message
 #
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3281,8 +3241,6 @@ SIP
 Call
 ID
 .
-\
-n
 "
 fname
 )
@@ -3314,8 +3272,6 @@ No
 matching
 PCB
 found
-\
-n
 "
 fname
 )
@@ -3394,8 +3350,6 @@ DEB_F_PREFIX
 "
 Authentication
 Required
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3454,8 +3408,6 @@ request
 with
 Auth
 header
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3505,8 +3457,6 @@ respond
 to
 auth
 challenge
-\
-n
 "
 fname
 )
@@ -3613,8 +3563,6 @@ request
 with
 increased
 expires
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3663,8 +3611,6 @@ to
 respond
 to
 423
-\
-n
 "
 fname
 )
@@ -3714,8 +3660,6 @@ received
 %
 d
 response
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3744,8 +3688,6 @@ received
 %
 d
 response
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3810,8 +3752,6 @@ was
 a
 terminating
 PUBLISH
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3958,8 +3898,6 @@ SIP_F_PREFIX
 memory
 allocation
 failed
-\
-n
 "
 fname
 )
@@ -4052,8 +3990,6 @@ response
 d
 to
 app
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

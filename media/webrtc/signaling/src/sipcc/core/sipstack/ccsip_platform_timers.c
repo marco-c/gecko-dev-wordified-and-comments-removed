@@ -786,8 +786,6 @@ create
 sip
 PassThrough
 timer
-\
-n
 "
 fname
 )
@@ -2940,8 +2938,6 @@ Send
 msg
 failed
 .
-\
-n
 "
 fname
 )
@@ -3187,8 +3183,6 @@ SIP_F_PREFIX
 %
 s
 failed
-\
-n
 "
 fname
 "
@@ -3293,8 +3287,6 @@ DEB_F_PREFIX
 %
 s
 failed
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

@@ -177,8 +177,6 @@ label
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -516,8 +514,6 @@ has
 len
 =
 0
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -548,8 +544,6 @@ DEB_F_PREFIX
 CCAPI_ApplyTranslationMask
 length
 overflow
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -766,8 +760,6 @@ to
 avoid
 mem
 leaks
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1363,8 +1355,6 @@ externalNumber
 to
 %
 s
-\
-n
 "
 lineInfo
 [
@@ -2010,8 +2000,6 @@ to
 avoid
 mem
 leaks
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2435,8 +2423,6 @@ ref_count
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2468,8 +2454,6 @@ not_prompt
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2493,8 +2477,6 @@ not_prompt_prio
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2518,8 +2500,6 @@ not_prompt_prog
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2548,8 +2528,6 @@ s
 to
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2593,8 +2571,6 @@ mwi_lamp
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2618,8 +2594,6 @@ ins_state
 =
 %
 02X
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2643,8 +2617,6 @@ cucm_mode
 =
 %
 02X
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2668,8 +2640,6 @@ ins_cause
 =
 %
 02X
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2750,8 +2720,6 @@ ref_count
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2775,8 +2743,6 @@ line_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2800,8 +2766,6 @@ button
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2825,8 +2789,6 @@ reg_state
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2850,8 +2812,6 @@ isCFWD
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2875,8 +2835,6 @@ isLocalCFWD
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2900,8 +2858,6 @@ mwi
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2927,8 +2883,6 @@ name
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2952,8 +2906,6 @@ dn
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2977,8 +2929,6 @@ cfwd_dest
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3091,8 +3041,6 @@ status
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3188,8 +3136,6 @@ status
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3635,8 +3581,6 @@ Error
 destination
 is
 NULL
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3666,8 +3610,6 @@ Error
 source
 is
 NULL
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3752,8 +3694,6 @@ length
 <
 =
 0
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3863,8 +3803,6 @@ Error
 phrase_bucket_ptr
 is
 NULL
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4027,8 +3965,6 @@ String
 returning
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4077,8 +4013,6 @@ received
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4155,8 +4089,6 @@ ref_count
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4180,8 +4112,6 @@ sess_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4205,8 +4135,6 @@ line
 =
 %
 02X
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4230,8 +4158,6 @@ id
 =
 %
 u
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4255,8 +4181,6 @@ inst
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4280,8 +4204,6 @@ state
 =
 %
 02X
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4305,8 +4227,6 @@ attr
 =
 %
 02X
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4330,8 +4250,6 @@ type
 =
 %
 02X
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4355,8 +4273,6 @@ security
 =
 %
 02X
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4380,8 +4296,6 @@ policy
 =
 %
 02X
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4405,8 +4319,6 @@ isSelected
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4430,8 +4342,6 @@ log_disp
 =
 %
 u
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4455,8 +4365,6 @@ clg_name
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4480,8 +4388,6 @@ clg_number
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4505,8 +4411,6 @@ alt_number
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4530,8 +4434,6 @@ cld_name
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4555,8 +4457,6 @@ cld_number
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4580,8 +4480,6 @@ orig_called_name
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4605,8 +4503,6 @@ orig_called_number
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4630,8 +4526,6 @@ last_redir_name
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4655,8 +4549,6 @@ last_redir_number
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4680,8 +4572,6 @@ plcd_name
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4705,8 +4595,6 @@ plcd_number
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4730,8 +4618,6 @@ status
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4755,8 +4641,6 @@ gci
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4780,8 +4664,6 @@ cause
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4805,8 +4687,6 @@ vid_dir
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4830,8 +4710,6 @@ vid_offer
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4855,8 +4733,6 @@ is_conf
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4880,8 +4756,6 @@ ringer_start
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4905,8 +4779,6 @@ ringer_mode
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4930,8 +4802,6 @@ ringer_once
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4970,8 +4840,6 @@ button
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4995,8 +4863,6 @@ contact
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5020,8 +4886,6 @@ featureOptionMask
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5045,8 +4909,6 @@ feature_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5070,8 +4932,6 @@ name
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5095,8 +4955,6 @@ retrievalPrefix
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5120,8 +4978,6 @@ speedDialNumber
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5153,8 +5009,6 @@ blf_state
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

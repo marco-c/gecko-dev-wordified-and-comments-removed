@@ -637,8 +637,6 @@ get
 new
 ccb
 .
-\
-n
 "
 fname
 )
@@ -2418,6 +2416,10 @@ CC_CAUSE_OK
 {
 FSM_DEBUG_SM
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -2579,8 +2581,6 @@ to
 get
 FCB
 .
-\
-n
 "
 fname
 )
@@ -3091,6 +3091,10 @@ CC_CAUSE_OK
 {
 GSM_DEBUG_ERROR
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -3896,6 +3900,10 @@ CC_CAUSE_OK
 {
 GSM_DEBUG_ERROR
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -4130,8 +4138,6 @@ t_call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4549,6 +4555,10 @@ CC_CAUSE_OK
 {
 GSM_DEBUG_ERROR
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR
@@ -5647,6 +5657,10 @@ CC_CAUSE_OK
 {
 GSM_DEBUG_ERROR
 (
+"
+%
+s
+"
 get_debug_string
 (
 FSM_DBG_SDP_BUILD_ERR

@@ -514,8 +514,6 @@ sent
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -577,8 +575,6 @@ d
 for
 sent
 req
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -643,8 +639,6 @@ d
 for
 recv
 req
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -712,8 +706,6 @@ sent
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -772,8 +764,6 @@ d
 for
 sent
 req
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -835,8 +825,6 @@ d
 for
 recv
 req
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -864,8 +852,6 @@ open
 TRX
 !
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -932,8 +918,6 @@ sent
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1000,8 +984,6 @@ method
 %
 s
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1071,8 +1053,6 @@ method
 %
 s
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1105,8 +1085,6 @@ for
 method
 !
 !
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1184,8 +1162,6 @@ sent
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1322,8 +1298,6 @@ method
 %
 s
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1799,8 +1773,6 @@ Building
 Register
 Headers
 .
-\
-n
 "
 fname
 )
@@ -2044,8 +2016,11 @@ FALSE
 }
 else
 {
-err_msg
+CSFLogError
 (
+"
+sipstack
+"
 "
 %
 s
@@ -2057,8 +2032,6 @@ address
 of
 proxy
 .
-\
-n
 "
 fname
 )
@@ -2439,8 +2412,6 @@ Error
 NULL
 ccb
 .
-\
-n
 "
 fname
 )
@@ -2826,8 +2797,6 @@ Error
 NULL
 ccb
 .
-\
-n
 "
 fname
 )
@@ -2923,8 +2892,6 @@ sip_from_temp
 is
 NULL
 .
-\
-n
 "
 fname
 )
@@ -3551,8 +3518,6 @@ INVITE
 build
 unsuccessful
 .
-\
-n
 "
 fname
 )
@@ -3894,8 +3859,6 @@ to
 allocate
 INVITE
 request
-\
-n
 "
 fname
 )
@@ -4188,8 +4151,6 @@ message
 build
 unsuccessful
 .
-\
-n
 "
 fname
 )
@@ -4759,8 +4720,6 @@ message
 build
 unsuccessful
 .
-\
-n
 "
 fname
 )
@@ -5064,8 +5023,6 @@ response
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5124,8 +5081,6 @@ ccb
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6368,8 +6323,6 @@ get
 buffer
 failed
 .
-\
-n
 "
 fname
 )
@@ -6430,8 +6383,6 @@ send
 msg
 failed
 .
-\
-n
 "
 fname
 )
@@ -9355,8 +9306,6 @@ Request
 URI
 failed
 .
-\
-n
 "
 fname
 )
@@ -9839,8 +9788,6 @@ in
 Cseq
 failed
 .
-\
-n
 "
 fname
 )
@@ -12860,8 +12807,6 @@ Bad
 authentication
 header
 .
-\
-n
 "
 fname
 )
@@ -13024,8 +12969,6 @@ store
 for
 this
 Ack
-\
-n
 "
 fname
 )
@@ -13424,8 +13367,6 @@ Req
 -
 URI
 !
-\
-n
 "
 fname
 )
@@ -14983,8 +14924,6 @@ route
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -15041,8 +14980,6 @@ DEB_F_PREFIX
 Not
 adding
 route
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -15625,8 +15562,6 @@ through
 s
 \
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16083,8 +16018,6 @@ address
 in
 Request
 URI
-\
-n
 "
 )
 ;
@@ -16122,8 +16055,6 @@ address
 in
 Request
 URI
-\
-n
 "
 )
 ;
@@ -16202,8 +16133,6 @@ Used
 :
 %
 d
-\
-n
 "
 sipUriUrl
 -
@@ -16522,8 +16451,6 @@ Request
 URI
 Not
 Found
-\
-n
 "
 fname
 )
@@ -16781,8 +16708,6 @@ header
 value
 not
 supported
-\
-n
 "
 fname
 )
@@ -16834,8 +16759,6 @@ new
 call
 id
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -16863,8 +16786,6 @@ same
 call
 id
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17136,8 +17057,6 @@ length
 exceeds
 acceptable
 value
-\
-n
 "
 fname
 )
@@ -17932,8 +17851,6 @@ Tag
 mismatch
 detected
 !
-\
-n
 "
 fname
 )
@@ -18027,8 +17944,6 @@ Tag
 mismatch
 detected
 !
-\
-n
 "
 fname
 )
@@ -18158,8 +18073,6 @@ detected
 .
 .
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -18549,8 +18462,6 @@ headers
 found
 in
 response
-\
-n
 "
 fname
 )
@@ -18584,8 +18495,6 @@ header
 value
 not
 supported
-\
-n
 "
 fname
 )
@@ -19246,8 +19155,6 @@ detected
 .
 .
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -19307,8 +19214,6 @@ Allowed
 duplicate
 provisional
 response
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -19360,8 +19265,6 @@ Request
 Found
 !
 :
-\
-n
 "
 "
 (
@@ -19695,8 +19598,6 @@ DEB_F_PREFIX
 Ignoring
 response
 message
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20099,8 +20000,6 @@ XXX
 -
 Authenticate
 .
-\
-n
 "
 fname
 )
@@ -20117,8 +20016,6 @@ algorithm
 %
 s
 .
-\
-n
 "
 sip_authen
 -
@@ -20510,8 +20407,6 @@ DEB_F_PREFIX
 entity
 body
 =
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -23502,8 +23397,6 @@ s
 Record
 -
 Route
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -23947,8 +23840,6 @@ URI
 :
 using
 Contact
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -27553,8 +27444,6 @@ URI
 :
 using
 Contact
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -29642,8 +29531,6 @@ send_reason_header
 set
 to
 false
-\
-n
 "
 fname
 )
@@ -30017,8 +29904,6 @@ unreg
 reason
 code
 passed
-\
-n
 "
 )
 ;
@@ -31287,8 +31172,6 @@ Valid
 Trx
 found
 !
-\
-n
 "
 "
 SendRequest
@@ -32950,8 +32833,6 @@ adding
 message
 body
 .
-\
-n
 "
 fname
 )
@@ -33025,8 +32906,6 @@ options
 message
 body
 .
-\
-n
 "
 fname
 )
@@ -33672,8 +33551,6 @@ message
 build
 unsuccessful
 .
-\
-n
 "
 fname
 )
@@ -34953,8 +34830,6 @@ message
 build
 unsuccessful
 .
-\
-n
 "
 fname
 )

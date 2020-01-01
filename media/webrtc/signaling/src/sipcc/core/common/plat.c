@@ -462,8 +462,6 @@ to
 send
 platform_apply_config
 msg
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

@@ -195,8 +195,6 @@ Stack
 Not
 Initialized
 .
-\
-n
 "
 "
 sip_platform_init

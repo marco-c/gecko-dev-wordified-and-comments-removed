@@ -466,8 +466,6 @@ cmd
 0x
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -537,8 +535,6 @@ Processed
 0x
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -594,8 +590,6 @@ Processed
 0x
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -626,8 +620,6 @@ Processed
 0x
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -668,8 +660,6 @@ received
 0x
 %
 x
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -733,8 +723,6 @@ Timer
 %
 s
 expired
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -958,9 +946,7 @@ GSM_F_PREFIX
 unknown
 timer
 %
-d
-\
-n
+s
 "
 fname
 timerMsg
@@ -1103,8 +1089,6 @@ GSM_F_PREFIX
 invalid
 input
 exiting
-\
-n
 "
 fname
 )
@@ -1361,8 +1345,6 @@ GSM_F_PREFIX
 "
 Unknown
 message
-\
-n
 "
 fname
 )
@@ -1488,8 +1470,6 @@ subs
 response
 =
 OK
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1510,8 +1490,6 @@ subs
 response
 =
 ERROR
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1607,8 +1585,6 @@ DEB_F_PREFIX
 B2BCNF
 subs
 response
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1638,8 +1614,6 @@ DEB_F_PREFIX
 B2BCNF
 subs
 notify
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1671,8 +1645,6 @@ DEB_F_PREFIX
 B2BCNF
 subs
 terminate
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1739,8 +1711,6 @@ B2BCNF
 subs
 unknown
 event
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2024,8 +1994,6 @@ in
 the
 NOTIFY
 message
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2150,8 +2118,6 @@ and
 destroying
 GSM
 thread
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

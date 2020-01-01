@@ -505,8 +505,6 @@ DEB_F_PREFIX
 Secure
 connect
 ok
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -598,8 +596,6 @@ Socket
 set
 option
 failure
-\
-n
 "
 fname
 )

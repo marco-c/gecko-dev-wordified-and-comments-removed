@@ -950,8 +950,6 @@ value
 =
 %
 d
-\
-n
 "
 "
 compare_or_set_byte_value
@@ -1095,8 +1093,6 @@ value
 =
 %
 d
-\
-n
 "
 "
 compare_or_set_boolean_value
@@ -1235,8 +1231,6 @@ value
 =
 %
 d
-\
-n
 "
 "
 compare_or_set_int_value
@@ -1381,8 +1375,6 @@ value
 =
 %
 s
-\
-n
 "
 "
 compare_or_set_string_value
@@ -1599,8 +1591,6 @@ mode
 %
 d
 ]
-\
-n
 "
 "
 update_security_mode_and_ports
@@ -1904,8 +1894,6 @@ x
 :
 %
 x
-\
-n
 "
 "
 config_get_mac_addr
@@ -3506,8 +3494,6 @@ x
 :
 %
 x
-\
-n
 "
 "
 config_get_mac_addr
@@ -3559,8 +3545,6 @@ CFG_F_PREFIX
 "
 %
 s
-\
-n
 "
 "
 config_parse_element
@@ -3576,8 +3560,6 @@ CFG_F_PREFIX
 "
 %
 s
-\
-n
 "
 "
 config_parse_element
@@ -3601,8 +3583,6 @@ old
 =
 %
 s
-\
-n
 "
 "
 config_parser_element
@@ -3684,8 +3664,6 @@ allocated
 space
 %
 d
-\
-n
 "
 "
 config_parser_element
@@ -3730,8 +3708,6 @@ value
 for
 %
 s
-\
-n
 "
 "
 config_parser_element
@@ -3748,8 +3724,6 @@ CFG_F_PREFIX
 "
 %
 s
-\
-n
 "
 "
 config_parser_element

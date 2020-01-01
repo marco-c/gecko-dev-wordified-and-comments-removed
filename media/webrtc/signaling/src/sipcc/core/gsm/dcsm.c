@@ -519,8 +519,6 @@ in
 ready
 state
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -613,8 +611,6 @@ s
 %
 s
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -762,8 +758,6 @@ to
 store
 call_id
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -946,8 +940,6 @@ handling
 for
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1121,8 +1113,6 @@ send
 DCSM_EV_READY
 ERROR
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1155,8 +1145,6 @@ s
 >
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1209,8 +1197,6 @@ DEB_F_PREFIX
 "
 :
 offhook
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1315,8 +1301,6 @@ id
 s
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1383,8 +1367,6 @@ d
 :
 Event
 queued
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1415,8 +1397,6 @@ Feature
 msg
 not
 handled
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1469,8 +1449,6 @@ DEB_F_PREFIX
 "
 :
 dialstring
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1601,8 +1579,6 @@ s
 %
 s
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1729,8 +1705,6 @@ entry
 %
 s
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2365,8 +2339,6 @@ CB
 creation
 failed
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

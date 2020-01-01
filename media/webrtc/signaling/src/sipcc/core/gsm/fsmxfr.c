@@ -1137,8 +1137,6 @@ cause
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1429,8 +1427,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1676,8 +1672,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1873,8 +1867,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1989,8 +1981,6 @@ DEB_F_PREFIX
 clean
 both
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3150,8 +3140,6 @@ find
 the
 active
 xfer
-\
-n
 "
 fname
 )
@@ -3320,8 +3308,6 @@ find
 the
 active
 xfer
-\
-n
 "
 fname
 )
@@ -4065,8 +4051,6 @@ find
 the
 active
 xfer
-\
-n
 "
 fname
 )
@@ -5455,8 +5439,6 @@ DEB_F_PREFIX
 "
 Entered
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5498,8 +5480,6 @@ call
 to
 cancel
 .
-\
-n
 "
 fname
 )
@@ -6201,8 +6181,6 @@ called_dialed_num
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6253,8 +6231,6 @@ called_dcb_num
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6298,8 +6274,6 @@ calling_dcb_num
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -6489,8 +6463,6 @@ find
 the
 active
 xfer
-\
-n
 "
 fname
 )
@@ -6587,8 +6559,6 @@ cid
 d
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7048,8 +7018,6 @@ find
 the
 active
 xfer
-\
-n
 "
 fname
 )
@@ -7197,8 +7165,6 @@ t_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7282,8 +7248,6 @@ t_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7588,8 +7552,6 @@ t_call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7849,8 +7811,6 @@ type
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8095,8 +8055,6 @@ t_call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8893,8 +8851,6 @@ find
 the
 active
 xfer
-\
-n
 "
 fname
 )
@@ -9352,8 +9308,6 @@ find
 the
 active
 xfer
-\
-n
 "
 fname
 )
@@ -10096,8 +10050,6 @@ find
 the
 active
 xfer
-\
-n
 "
 fname
 )
@@ -10715,8 +10667,6 @@ dialstring
 =
 %
 c
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10748,8 +10698,6 @@ dialstring
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10835,8 +10783,6 @@ unable
 to
 copy
 dialstring
-\
-n
 "
 msg
 -
@@ -11428,8 +11374,6 @@ id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -11459,8 +11403,6 @@ id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -11490,8 +11432,6 @@ id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -11521,8 +11461,6 @@ id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

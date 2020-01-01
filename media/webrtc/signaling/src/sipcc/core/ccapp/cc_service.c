@@ -308,8 +308,6 @@ CCAPP_DEBUG
 (
 "
 CC_Service_start
-\
-n
 "
 )
 ;
@@ -364,8 +362,6 @@ CC_Service_start
 :
 ccappTaskSendMsg
 failed
-\
-n
 "
 )
 ;
@@ -393,8 +389,6 @@ CCAPP_DEBUG
 (
 "
 CC_Service_shutdown
-\
-n
 "
 )
 ;
@@ -449,8 +443,6 @@ CC_Service_shutdown
 :
 ccappTaskSendMsg
 failed
-\
-n
 "
 )
 ;
@@ -478,8 +470,6 @@ CCAPP_DEBUG
 (
 "
 CC_Service_shutdown
-\
-n
 "
 )
 ;
@@ -554,8 +544,6 @@ CC_Service_shutdown
 :
 ccappTaskSendMsg
 failed
-\
-n
 "
 )
 ;
@@ -583,8 +571,6 @@ CCAPP_DEBUG
 (
 "
 CC_Service_registerAllLines
-\
-n
 "
 )
 ;
@@ -659,8 +645,6 @@ CC_Service_registerAllLines
 :
 ccappTaskSendMsg
 failed
-\
-n
 "
 )
 ;
@@ -684,8 +668,6 @@ CCAPP_DEBUG
 (
 "
 CC_Service_restart
-\
-n
 "
 )
 ;
@@ -740,8 +722,6 @@ CC_Service_restart
 :
 ccappTaskSendMsg
 failed
-\
-n
 "
 )
 ;

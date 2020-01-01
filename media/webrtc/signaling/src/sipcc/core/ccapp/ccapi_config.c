@@ -191,8 +191,6 @@ domain
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

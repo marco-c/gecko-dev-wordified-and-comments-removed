@@ -332,8 +332,6 @@ s
 %
 s
 )
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -397,8 +395,6 @@ d
 %
 d
 )
-\
-n
 "
 fname
 state_id

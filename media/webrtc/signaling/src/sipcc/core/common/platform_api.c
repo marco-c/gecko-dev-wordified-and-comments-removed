@@ -229,8 +229,6 @@ requested
 *
 *
 *
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -308,8 +306,6 @@ platform_reset_req
 d
 )
 msg
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -412,8 +408,6 @@ sk_ver
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -527,8 +521,6 @@ to
 send
 platform_sync_cfg_vers
 msg
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -622,8 +614,6 @@ to
 send
 platform_set_time
 msg
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -688,8 +678,6 @@ d
 *
 *
 *
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -768,8 +756,6 @@ platform_reg_failover_ind
 d
 )
 msg
-\
-n
 "
 fname
 failover_to
@@ -830,8 +816,6 @@ CUCM
 *
 *
 *
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -898,8 +882,6 @@ platform_reg_fallback_ind
 d
 )
 msg
-\
-n
 "
 fname
 fallback_to
@@ -953,8 +935,6 @@ completed
 *
 *
 *
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1010,8 +990,6 @@ completed
 *
 *
 *
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1045,8 +1023,6 @@ CCAPP_DEBUG
 (
 DEB_F_PREFIX
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1129,8 +1105,6 @@ mode
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1197,8 +1171,6 @@ platform_cc_mode_notify
 d
 )
 msg
-\
-n
 "
 fname
 mode
@@ -1240,8 +1212,6 @@ index
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1332,8 +1302,6 @@ kpml
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1386,8 +1354,6 @@ to
 send
 update_kpmlconfig
 msg
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1425,8 +1391,6 @@ HEADSET
 active
 or
 not
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1465,8 +1429,6 @@ CCAPP_DEBUG
 (
 DEB_F_PREFIX
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

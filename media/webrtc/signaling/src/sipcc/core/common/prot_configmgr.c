@@ -1465,8 +1465,6 @@ Line
 :
 %
 d
-\
-n
 "
 fname
 line
@@ -1605,8 +1603,6 @@ it
 to
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1647,8 +1643,6 @@ it
 to
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

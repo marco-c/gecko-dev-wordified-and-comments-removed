@@ -299,10 +299,6 @@ _format
 ;
 #
 define
-logMsg
-buginf
-#
-define
 CCSIP_DEBUG_MESSAGE
 (
 format

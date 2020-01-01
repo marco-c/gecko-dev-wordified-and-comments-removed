@@ -335,8 +335,13 @@ if
 pmsg
 )
 {
-err_msg
+CSFLogError
 (
+"
+src
+-
+common
+"
 get_debug_string
 (
 CC_NO_MSG_BUFFER
@@ -440,8 +445,13 @@ dp_int_t
 CPR_SUCCESS
 )
 {
-err_msg
+CSFLogError
 (
+"
+src
+-
+common
+"
 get_debug_string
 (
 CC_SEND_FAILURE
@@ -486,8 +496,6 @@ DPINT_DEBUG
 (
 DEB_F_PREFIX
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1169,8 +1177,6 @@ DEB_L_C_F_PREFIX
 "
 KEY
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -1203,8 +1209,6 @@ DEB_F_PREFIX
 call
 not
 found
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1247,8 +1251,6 @@ LSM
 state
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1319,8 +1321,6 @@ dialplan
 line
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1351,8 +1351,6 @@ DEB_F_PREFIX
 "
 warm
 line
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1379,8 +1377,6 @@ DEB_F_PREFIX
 digit
 is
 0
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1604,8 +1600,6 @@ digits
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1803,8 +1797,6 @@ timeout
 =
 %
 u
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2062,8 +2054,6 @@ DEB_F_PREFIX
 Full
 pattern
 match
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2138,8 +2128,6 @@ DEB_F_PREFIX
 "
 Dial
 immediately
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2195,8 +2183,6 @@ DEB_F_PREFIX
 "
 Give
 tone
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2227,8 +2213,6 @@ DEB_F_PREFIX
 call
 not
 found
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2275,8 +2259,6 @@ DEB_F_PREFIX
 "
 No
 match
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2376,8 +2358,6 @@ digits
 :
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2472,8 +2452,6 @@ call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2523,8 +2501,6 @@ line
 %
 d
 instead
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2559,8 +2535,6 @@ line
 %
 d
 unregistered
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2602,8 +2576,6 @@ call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2721,8 +2693,6 @@ call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2837,8 +2807,6 @@ call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3046,8 +3014,6 @@ line
 d
 PLAR
 line
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3271,8 +3237,6 @@ call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3461,8 +3425,6 @@ digits
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3836,8 +3798,6 @@ DEB_F_PREFIX
 Reset
 dp_int
 module
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3974,8 +3934,6 @@ Length
 %
 d
 ]
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4129,8 +4087,6 @@ Successfully
 Parsed
 Dialplan
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4318,8 +4274,6 @@ cmd
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

@@ -2496,8 +2496,6 @@ group_id
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -2608,8 +2606,6 @@ set
 to
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -2855,8 +2851,6 @@ set
 to
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -3035,8 +3029,6 @@ Need
 stop
 tone
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -3327,8 +3319,6 @@ port
 %
 d
 )
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -3616,8 +3606,6 @@ d
 )
 failed
 .
-\
-n
 "
 dcb
 -
@@ -3990,8 +3978,6 @@ to
 play
 tone
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -4297,8 +4283,6 @@ LSM_DEBUG
 DEB_L_C_F_PREFIX
 "
 invoked
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -4389,8 +4373,6 @@ to
 open
 transmit
 port
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -4693,8 +4675,6 @@ s
 :
 vcmTxOpen
 failed
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -4958,8 +4938,6 @@ s
 :
 vcmTxStart
 failed
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5084,8 +5062,6 @@ s
 :
 vcmTxStartICE
 failed
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5128,8 +5104,6 @@ s
 :
 vcmTxStart
 started
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5192,8 +5166,6 @@ restart
 playing
 tone
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5515,8 +5487,6 @@ DEB_F_PREFIX
 NULL
 lcb
 passed
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5565,8 +5535,6 @@ call_id
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5784,8 +5752,6 @@ play
 correct
 tone
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5826,8 +5792,6 @@ Ignoring
 tone
 stop
 request
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5897,8 +5861,6 @@ duration
 %
 -
 2d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -5991,8 +5953,6 @@ line
 %
 d
 )
-\
-n
 "
 fname
 line
@@ -6146,8 +6106,6 @@ line
 %
 d
 )
-\
-n
 "
 __FUNCTION__
 line
@@ -6227,8 +6185,6 @@ line
 %
 d
 )
-\
-n
 "
 __FUNCTION__
 line
@@ -6596,8 +6552,6 @@ line
 %
 d
 )
-\
-n
 "
 fname
 line
@@ -6718,8 +6672,6 @@ all_free
 =
 %
 d
-\
-n
 "
 line
 expline
@@ -6747,8 +6699,6 @@ free_instances
 =
 %
 d
-\
-n
 "
 line
 expline
@@ -7094,8 +7044,6 @@ line
 %
 d
 )
-\
-n
 "
 fname
 line
@@ -7248,8 +7196,6 @@ call_id
 %
 d
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7373,8 +7319,6 @@ s
 >
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -7451,8 +7395,6 @@ No
 lsm
 line
 cb
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -7818,8 +7760,6 @@ called_number
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8338,8 +8278,6 @@ DEB_F_PREFIX
 invalid
 call
 id
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -8377,8 +8315,6 @@ for
 call_id
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9560,8 +9496,6 @@ DEB_F_PREFIX
 invalid
 call
 id
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -9599,8 +9533,6 @@ for
 call_id
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -10294,8 +10226,6 @@ state
 %
 d
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10480,8 +10410,6 @@ flag
 %
 d
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10599,8 +10527,6 @@ mode
 %
 d
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10732,8 +10658,6 @@ ringerMode
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -10812,8 +10736,6 @@ RING
 SETTING
 :
 Beep_only
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -11498,8 +11420,6 @@ DEB_L_C_F_PREFIX
 "
 Applying
 ringback
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -12469,8 +12389,6 @@ d
 d
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -15698,8 +15616,6 @@ DEB_F_PREFIX
 Transfer
 complete
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17651,8 +17567,6 @@ Entering
 .
 .
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17696,8 +17610,6 @@ Exiting
 lcb
 not
 found
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -17774,8 +17686,6 @@ dialed
 digits
 is
 empty
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -17956,8 +17866,6 @@ invoked
 ui_update_placed_call_info
 (
 )
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -18248,8 +18156,6 @@ lsm_lcbs
 cpr_calloc
 returned
 NULL
-\
-n
 "
 fname
 )
@@ -19195,8 +19101,6 @@ ID
 %
 d
 found
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -20310,8 +20214,6 @@ new
 =
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -20570,8 +20472,6 @@ monrec_tone_action
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20695,8 +20595,6 @@ monrec_tone_action
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20746,8 +20644,6 @@ monrec_tone_action
 :
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -20891,8 +20787,6 @@ monrec_tone_action
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -20999,8 +20893,6 @@ monrec_tone_action
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -21049,8 +20941,6 @@ monrec_tone_action
 :
 %
 d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -21115,8 +21005,6 @@ for
 lcb
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -21313,8 +21201,6 @@ number
 =
 %
 s
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -21677,8 +21563,6 @@ LSM_DEBUG
 DEB_F_PREFIX
 "
 called
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -22661,8 +22545,6 @@ call_id
 %
 d
 .
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -22804,8 +22686,6 @@ direction
 %
 -
 2d
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (

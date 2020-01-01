@@ -697,8 +697,6 @@ d
 APP
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -753,8 +751,6 @@ request
 list
 creation
 failed
-\
-n
 "
 fname
 )
@@ -814,8 +810,6 @@ Exiting
 :
 malloc
 failed
-\
-n
 "
 fname
 )
@@ -945,8 +939,6 @@ Unable
 to
 send
 SUBSCRIBE
-\
-n
 "
 fname
 )
@@ -963,8 +955,6 @@ Exiting
 request
 made
 successfully
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1033,8 +1023,6 @@ request_id
 %
 d
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1076,8 +1064,6 @@ exist
 in
 the
 list
-\
-n
 "
 fname
 )
@@ -1130,8 +1116,6 @@ Exiting
 :
 request
 terminated
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1224,8 +1208,6 @@ BLF_DEBUG
 DEB_F_PREFIX
 "
 Entering
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1251,8 +1233,6 @@ Exiting
 no
 outstanding
 requests
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1316,8 +1296,6 @@ BLF_DEBUG
 DEB_F_PREFIX
 "
 Exiting
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1390,8 +1368,6 @@ status_code
 %
 d
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1453,8 +1429,6 @@ subscription
 does
 not
 exist
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1500,8 +1474,6 @@ Exiting
 -
 299
 response
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1571,8 +1543,6 @@ Unable
 to
 send
 SUBSCRIBE
-\
-n
 "
 fname
 )
@@ -1591,8 +1561,6 @@ again
 with
 double
 duration
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1708,8 +1676,6 @@ Unable
 to
 send
 SUBSCRIBE
-\
-n
 "
 fname
 )
@@ -1728,8 +1694,6 @@ again
 after
 receiving
 481
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1781,8 +1745,6 @@ Exiting
 :
 request
 terminated
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1902,8 +1864,6 @@ subscription_state
 %
 d
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1958,8 +1918,6 @@ not
 contain
 presence
 body
-\
-n
 "
 fname
 )
@@ -2097,8 +2055,6 @@ subscription
 does
 not
 exist
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2153,8 +2109,6 @@ of
 sequence
 NOTIFY
 received
-\
-n
 "
 fname
 )
@@ -2421,8 +2375,6 @@ Exiting
 retry_after
 Timer
 started
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2459,8 +2411,6 @@ Unable
 to
 send
 SUBSCRIBE
-\
-n
 "
 fname
 )
@@ -2474,8 +2424,6 @@ subscribed
 again
 after
 expiration
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2572,8 +2520,6 @@ d
 BLF
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2608,8 +2554,6 @@ based
 on
 subscription
 state
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2664,8 +2608,6 @@ BLF_DEBUG
 DEB_F_PREFIX
 "
 Entering
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2719,8 +2661,6 @@ not
 contain
 presence
 body
-\
-n
 "
 fname
 )
@@ -2890,8 +2830,6 @@ Exiting
 no
 pres
 requests
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3251,8 +3189,13 @@ s_pending_notify_list
 NULL
 )
 {
-err_msg
+CSFLogError
 (
+"
+src
+-
+common
+"
 "
 MSC
 :
@@ -3364,8 +3307,13 @@ s_pending_notify_list
 MAX_REG_LINES
 )
 {
-err_msg
+CSFLogError
 (
+"
+src
+-
+common
+"
 "
 MSC
 :
@@ -3379,6 +3327,8 @@ s
 ignoring
 the
 NOTIFY
+"
+"
 to
 protect
 from
@@ -3418,8 +3368,13 @@ pending_notify_p
 NULL
 )
 {
-err_msg
+CSFLogError
 (
+"
+src
+-
+common
+"
 "
 MSC
 :
@@ -3532,8 +3487,6 @@ MSC
 s
 :
 invoked
-\
-n
 "
 fname
 )
@@ -3565,8 +3518,6 @@ s
 no
 pending
 notfications
-\
-n
 "
 fname
 )
@@ -3730,8 +3681,6 @@ notfication
 for
 %
 s
-\
-n
 "
 fname
 presentity_url
@@ -3871,8 +3820,6 @@ status_code
 %
 d
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -3934,8 +3881,6 @@ subscription
 does
 not
 exist
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4090,8 +4035,6 @@ Exiting
 :
 terminated
 subscription
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4147,8 +4090,6 @@ BLF_DEBUG
 DEB_F_PREFIX
 "
 Entering
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4270,8 +4211,6 @@ alerting
 :
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4317,8 +4256,6 @@ return
 value
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4359,8 +4296,6 @@ return
 value
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4420,8 +4355,6 @@ return
 value
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4644,8 +4577,6 @@ received
 :
 %
 d
-\
-n
 "
 fname
 cmd
@@ -4659,8 +4590,6 @@ BLF_DEBUG
 DEB_F_PREFIX
 "
 Exiting
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4913,8 +4842,6 @@ BLF_DEBUG
 DEB_F_PREFIX
 "
 Entering
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -4998,8 +4925,6 @@ retry
 -
 after
 seconds
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5022,8 +4947,6 @@ timer
 %
 d
 expired
-\
-n
 "
 fname
 timerMsg
@@ -5040,8 +4963,6 @@ BLF_DEBUG
 DEB_F_PREFIX
 "
 Exiting
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -5104,8 +5025,6 @@ MISC_F_PREFIX
 "
 malloc
 failed
-\
-n
 "
 fname
 )

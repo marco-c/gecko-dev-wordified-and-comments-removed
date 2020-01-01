@@ -259,8 +259,6 @@ SIP_F_PREFIX
 SDP
 allocation
 failure
-\
-n
 "
 __FUNCTION__
 )
@@ -385,8 +383,6 @@ d
 while
 freeing
 src_sdp
-\
-n
 "
 fname
 sdp_ret
@@ -435,8 +431,6 @@ d
 while
 freeing
 dest_sdp
-\
-n
 "
 fname
 sdp_ret
@@ -594,8 +588,6 @@ d
 while
 freeing
 src_sdp
-\
-n
 "
 fname
 sdp_ret
@@ -662,8 +654,6 @@ d
 while
 freeing
 dest_sdp
-\
-n
 "
 fname
 sdp_ret
@@ -898,8 +888,6 @@ NULL
 sdp_info
 or
 src_sdp
-\
-n
 "
 __FUNCTION__
 )
@@ -936,8 +924,6 @@ rc
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

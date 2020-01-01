@@ -123,8 +123,15 @@ int
 _size_bytes
 )
 {
-buginf_msg
+CSFLogDebug
 (
+"
+sdp
+"
+"
+%
+s
+"
 _ptr
 )
 ;

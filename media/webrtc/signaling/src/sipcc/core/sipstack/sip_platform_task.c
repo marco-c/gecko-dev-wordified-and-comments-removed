@@ -703,8 +703,6 @@ msgq
 is
 null
 exiting
-\
-n
 "
 fname
 )
@@ -737,8 +735,6 @@ attach
 thread
 to
 JVM
-\
-n
 "
 fname
 )
@@ -979,8 +975,6 @@ msg
 available
 on
 msgq
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1032,8 +1026,6 @@ errno
 =
 %
 d
-\
-n
 "
 fname
 cpr_errno
@@ -1214,8 +1206,6 @@ queue
 is
 empty
 !
-\
-n
 "
 fname
 )
@@ -1243,8 +1233,6 @@ exceeds
 maximum
 %
 d
-\
-n
 "
 fname
 num_messages
@@ -1384,8 +1372,6 @@ to
 remove
 temp
 dir
-\
-n
 "
 fname
 )
@@ -1538,8 +1524,6 @@ sip_msgq
 is
 null
 exiting
-\
-n
 "
 fname
 )
@@ -1585,8 +1569,6 @@ attach
 thread
 to
 JVM
-\
-n
 "
 fname
 )
@@ -1669,8 +1651,6 @@ to
 create
 temp
 dir
-\
-n
 "
 fname
 )

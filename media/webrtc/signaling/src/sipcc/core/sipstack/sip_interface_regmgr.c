@@ -188,8 +188,6 @@ DEB_F_PREFIX
 REG
 ALL
 FAILED
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -494,8 +492,6 @@ CCSIP_DEBUG_STATE
 (
 DEB_F_PREFIX
 "
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -535,8 +531,6 @@ addr
 str1
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

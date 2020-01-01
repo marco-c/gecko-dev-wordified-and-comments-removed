@@ -2245,8 +2245,6 @@ SIP_F_PREFIX
 "
 unsupported
 hold_resume_reason
-\
-n
 "
 fname
 )

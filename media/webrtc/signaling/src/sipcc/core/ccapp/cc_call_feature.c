@@ -249,8 +249,6 @@ data
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -405,8 +403,6 @@ DEB_F_PREFIX
 "
 ccappTaskSendMsg
 failed
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -567,8 +563,6 @@ data
 =
 %
 s
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -767,8 +761,6 @@ DEB_F_PREFIX
 "
 ccappTaskSendMsg
 failed
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -902,8 +894,6 @@ cHandle
 =
 %
 d
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (
@@ -2501,8 +2491,6 @@ handle
 is
 empty
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
@@ -2588,8 +2576,6 @@ handle
 is
 empty
 .
-\
-n
 "
 DEB_L_C_F_PREFIX_ARGS
 (
