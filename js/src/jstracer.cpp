@@ -37594,6 +37594,12 @@ JSOP_CALLELEM
 op
 =
 =
+JSOP_CALLPROP
+|
+|
+op
+=
+=
 JSOP_SETPROP
 |
 |
