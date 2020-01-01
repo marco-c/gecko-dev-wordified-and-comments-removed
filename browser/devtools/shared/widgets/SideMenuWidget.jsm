@@ -276,6 +276,12 @@ this
 autoscrollWithAppendedItems
 &
 &
+!
+this
+.
+_selectedItem
+&
+&
 (
 aIndex
 <
