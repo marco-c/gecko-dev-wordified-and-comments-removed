@@ -71,7 +71,15 @@ disconnected
 )
 NS_DECL_EVENT_HANDLER
 (
-incoming
+holding
+)
+NS_DECL_EVENT_HANDLER
+(
+held
+)
+NS_DECL_EVENT_HANDLER
+(
+resuming
 )
 nsRefPtr
 <
