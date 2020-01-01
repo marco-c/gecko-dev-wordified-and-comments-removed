@@ -8995,11 +8995,6 @@ globalScope
 bce
 -
 >
-compiler
-(
-)
--
->
 globalScope
 ;
 JSObject

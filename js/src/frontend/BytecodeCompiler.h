@@ -22,10 +22,6 @@ BytecodeCompiler
 Parser
 parser
 ;
-GlobalScope
-*
-globalScope
-;
 BytecodeCompiler
 (
 JSContext
