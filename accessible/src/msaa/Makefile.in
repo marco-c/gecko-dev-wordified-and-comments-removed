@@ -447,6 +447,10 @@ nsARIAGridAccessibleWrap
 .
 cpp
 \
+nsRootAccessibleWrap
+.
+cpp
+\
 nsXULMenuAccessibleWrap
 .
 cpp
