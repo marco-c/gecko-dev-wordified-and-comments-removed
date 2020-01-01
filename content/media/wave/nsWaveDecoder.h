@@ -145,9 +145,9 @@ virtual
 nsresult
 Load
 (
-nsIChannel
+nsMediaStream
 *
-aChannel
+aStream
 nsIStreamListener
 *
 *
