@@ -5893,6 +5893,9 @@ bool
 mContextLostErrorSet
 ;
 int
+mDrawCallsSinceLastFlush
+;
+int
 mAlreadyGeneratedWarnings
 ;
 bool

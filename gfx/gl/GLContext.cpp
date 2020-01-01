@@ -3397,6 +3397,10 @@ PowerVR
 SGX
 540
 "
+"
+NVIDIA
+Tegra
+"
 }
 ;
 mRenderer

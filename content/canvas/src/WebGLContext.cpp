@@ -875,6 +875,10 @@ mDisableFragHighP
 =
 false
 ;
+mDrawCallsSinceLastFlush
+=
+0
+;
 }
 WebGLContext
 :
@@ -3764,6 +3768,13 @@ context
 PresentScreenBuffer
 (
 )
+;
+context
+-
+>
+mDrawCallsSinceLastFlush
+=
+0
 ;
 }
 static

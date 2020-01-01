@@ -1027,6 +1027,7 @@ RendererAdrenoTM205
 RendererAdrenoTM320
 RendererSGX530
 RendererSGX540
+RendererTegra
 RendererOther
 }
 ;
