@@ -19822,10 +19822,6 @@ PersistLayoutHistoryState
 (
 )
 ;
-if
-(
-mOSHE
-)
 SetHistoryEntry
 (
 &
