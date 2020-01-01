@@ -740,7 +740,7 @@ const
 nsACString
 &
 aMsgString
-PRUint32
+uint32_t
 aMsgLength
 bool
 aIsBinary
@@ -819,7 +819,7 @@ PRUnichar
 *
 *
 aFormatStrings
-PRUint32
+uint32_t
 aFormatStringsLen
 )
 ;
@@ -876,7 +876,7 @@ CreateAndDispatchCloseEvent
 (
 bool
 aWasClean
-PRUint16
+uint16_t
 aCode
 const
 nsString
