@@ -212,7 +212,7 @@ nsILanguageAtomService
 ;
 typedef
 struct
-_hb_blob_t
+hb_blob_t
 hb_blob_t
 ;
 #
