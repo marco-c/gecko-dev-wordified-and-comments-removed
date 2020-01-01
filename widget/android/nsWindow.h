@@ -734,11 +734,6 @@ aAllowRetaining
 nullptr
 )
 ;
-void
-CreateLayerManager
-(
-)
-;
 NS_IMETHOD
 ReparentNativeWidget
 (
@@ -1146,6 +1141,15 @@ mozilla
 AndroidGeckoEvent
 *
 ae
+)
+;
+void
+CreateLayerManager
+(
+int
+aCompositorWidth
+int
+aCompositorHeight
 )
 ;
 void

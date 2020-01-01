@@ -547,8 +547,10 @@ sendEventToGeckoSync
 (
 GeckoEvent
 .
-createCompositorResumeEvent
+createCompositorCreateEvent
 (
+mWidth
+mHeight
 )
 )
 ;

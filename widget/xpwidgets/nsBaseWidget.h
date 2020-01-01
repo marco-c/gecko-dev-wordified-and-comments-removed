@@ -515,6 +515,16 @@ CreateCompositor
 ;
 virtual
 void
+CreateCompositor
+(
+int
+aWidth
+int
+aHeight
+)
+;
+virtual
+void
 DrawWindowUnderlay
 (
 LayerManager
