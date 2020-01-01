@@ -2173,7 +2173,7 @@ sample
 function
 scrollAnim_handleEvent
 (
-event
+timeStamp
 )
 {
 if
@@ -2197,8 +2197,6 @@ return
 const
 timePassed
 =
-event
-.
 timeStamp
 -
 this
@@ -4684,7 +4682,7 @@ sample
 function
 arrowSmoothScroll_handleEvent
 (
-event
+timeStamp
 )
 {
 if
@@ -4717,8 +4715,6 @@ _scrollIndex
 const
 timePassed
 =
-event
-.
 timeStamp
 -
 this
@@ -4729,8 +4725,6 @@ this
 .
 lastFrameTime
 =
-event
-.
 timeStamp
 ;
 const
