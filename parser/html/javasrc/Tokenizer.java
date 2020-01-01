@@ -2008,7 +2008,9 @@ switch
 (
 endTagExpectation
 .
-group
+getGroup
+(
+)
 )
 {
 case

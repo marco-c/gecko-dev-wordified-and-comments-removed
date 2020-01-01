@@ -3808,7 +3808,9 @@ currentPtr
 ]
 -
 >
-fosterParenting
+isFosterParenting
+(
+)
 )
 ;
 }
