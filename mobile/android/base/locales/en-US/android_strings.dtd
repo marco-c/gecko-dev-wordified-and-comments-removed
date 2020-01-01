@@ -768,12 +768,10 @@ size
 ENTITY
 pref_reflow_on_zoom
 "
-Enable
-Reflow
--
-On
--
-Zoom
+Pinch
+to
+reflow
+text
 "
 >
 <
