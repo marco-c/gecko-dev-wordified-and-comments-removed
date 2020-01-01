@@ -2873,7 +2873,7 @@ SetProperty
 propName
 et
 ElementTransitionsPropertyDtor
-nullptr
+false
 )
 ;
 if

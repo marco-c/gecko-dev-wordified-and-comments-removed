@@ -1604,7 +1604,7 @@ FrameLayerBuilder
 :
 sWidgetManagerSecondary
 =
-nullptr
+false
 ;
 const
 FramePropertyDescriptor

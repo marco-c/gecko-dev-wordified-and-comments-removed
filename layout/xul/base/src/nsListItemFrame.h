@@ -87,7 +87,7 @@ aContext
 bool
 aIsRoot
 =
-nullptr
+false
 nsBoxLayout
 *
 aLayoutManager
