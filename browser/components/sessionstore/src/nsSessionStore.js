@@ -209,6 +209,12 @@ MetaRedirects
 "
 Images
 "
+"
+DNSPrefetch
+"
+"
+Auth
+"
 ]
 ;
 Cu
