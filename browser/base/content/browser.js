@@ -20791,6 +20791,9 @@ msg
 "
 "
 ;
+let
+location
+;
 if
 (
 aRequest
@@ -20805,7 +20808,6 @@ in
 aRequest
 )
 {
-let
 location
 =
 aRequest
