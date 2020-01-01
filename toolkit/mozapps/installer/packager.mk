@@ -4163,8 +4163,6 @@ core
 \
 bsdecho
 \
-gtscc
-\
 js
 \
 js
