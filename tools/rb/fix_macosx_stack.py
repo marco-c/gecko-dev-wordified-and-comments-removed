@@ -716,12 +716,11 @@ in
 )
 "
 )
-for
+def
+fixSymbols
+(
 line
-in
-sys
-.
-stdin
+)
 :
     
 result
@@ -853,12 +852,7 @@ fileline
 library
 )
             
-sys
-.
-stdout
-.
-write
-(
+return
 before
 +
 info
@@ -869,7 +863,6 @@ after
 \
 n
 "
-)
         
 else
 :
@@ -902,16 +895,29 @@ n
 "
 )
             
-sys
-.
-stdout
-.
-write
-(
+return
 line
-)
     
 else
+:
+        
+return
+line
+if
+__name__
+=
+=
+"
+__main__
+"
+:
+    
+for
+line
+in
+sys
+.
+stdin
 :
         
 sys
@@ -920,5 +926,8 @@ stdout
 .
 write
 (
+fixSymbols
+(
 line
+)
 )

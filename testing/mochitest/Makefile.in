@@ -749,13 +749,9 @@ Darwin
 TEST_HARNESS_BINS
 +
 =
-fix
--
-macosx
--
-stack
+fix_macosx_stack
 .
-pl
+py
 endif
 ifeq
 (
