@@ -1,7 +1,13 @@
-gTestsuite
+gTestsubsuite
 =
 '
-js1_8_5_extensions
+extensions
+'
+;
+var
+workerDir
+=
+'
 '
 ;
 if
