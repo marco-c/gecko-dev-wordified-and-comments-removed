@@ -304,6 +304,11 @@ ScheduleComposition
 (
 )
 ;
+void
+NotifyShadowTreeTransaction
+(
+)
+;
 static
 CompositorParent
 *
