@@ -422,6 +422,12 @@ config
 autoconf
 .
 mk
+MODULE
+=
+test_browser_feeds
+XPCSHELL_TESTS
+=
+unit
 include
 (
 topsrcdir
