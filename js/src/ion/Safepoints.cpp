@@ -692,6 +692,8 @@ fprintf
 IonSpewFile
 "
 )
+\
+n
 "
 )
 ;
