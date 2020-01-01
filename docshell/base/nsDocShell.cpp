@@ -59,7 +59,7 @@ h
 #
 include
 "
-nsIDOMStorage
+nsIDOMStorageObsolete
 .
 h
 "
@@ -8399,7 +8399,7 @@ nsIPrincipal
 aPrincipal
 PRBool
 aCreate
-nsIDOMStorage
+nsIDOMStorageObsolete
 *
 *
 aStorage
@@ -8575,7 +8575,7 @@ GetSessionStorageForURI
 nsIURI
 *
 aURI
-nsIDOMStorage
+nsIDOMStorageObsolete
 *
 *
 aStorage
@@ -8601,7 +8601,7 @@ nsIURI
 aURI
 PRBool
 aCreate
-nsIDOMStorage
+nsIDOMStorageObsolete
 *
 *
 aStorage
@@ -8770,7 +8770,7 @@ aCreate
 {
 nsCOMPtr
 <
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 newstorage
 =
@@ -8861,7 +8861,7 @@ const
 nsACString
 &
 aDomain
-nsIDOMStorage
+nsIDOMStorageObsolete
 *
 aStorage
 )

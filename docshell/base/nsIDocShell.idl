@@ -526,7 +526,7 @@ interface
 nsISecureBrowserUI
 ;
 interface
-nsIDOMStorage
+nsIDOMStorageObsolete
 ;
 interface
 nsIPrincipal
@@ -2783,7 +2783,7 @@ to
 retrieve
 *
 /
-nsIDOMStorage
+nsIDOMStorageObsolete
 getSessionStorageForURI
 (
 in
@@ -2833,7 +2833,7 @@ in
 ACString
 aDomain
 in
-nsIDOMStorage
+nsIDOMStorageObsolete
 storage
 )
 ;
@@ -3166,7 +3166,7 @@ created
 .
 *
 /
-nsIDOMStorage
+nsIDOMStorageObsolete
 getSessionStorageForPrincipal
 (
 in

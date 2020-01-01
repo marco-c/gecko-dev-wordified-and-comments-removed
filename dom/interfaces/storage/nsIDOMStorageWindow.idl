@@ -487,10 +487,10 @@ areas
 *
 /
 interface
-nsIDOMStorage
+nsIDOMStorageObsolete
 ;
 interface
-nsIDOMStorage2
+nsIDOMStorage
 ;
 interface
 nsIDOMStorageList
@@ -531,7 +531,7 @@ context
 /
 readonly
 attribute
-nsIDOMStorage
+nsIDOMStorageObsolete
 sessionStorage
 ;
 /
@@ -567,7 +567,7 @@ context
 /
 readonly
 attribute
-nsIDOMStorage2
+nsIDOMStorage
 localStorage
 ;
 }

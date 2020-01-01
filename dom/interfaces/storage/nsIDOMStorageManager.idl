@@ -427,7 +427,7 @@ nsISupports
 idl
 "
 interface
-nsIDOMStorage2
+nsIDOMStorage
 ;
 interface
 nsIPrincipal
@@ -599,7 +599,7 @@ origin
 .
 *
 /
-nsIDOMStorage2
+nsIDOMStorage
 getLocalStorageForPrincipal
 (
 in

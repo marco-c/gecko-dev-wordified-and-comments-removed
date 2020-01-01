@@ -26507,7 +26507,7 @@ nsGlobalWindow
 :
 GetSessionStorage
 (
-nsIDOMStorage
+nsIDOMStorageObsolete
 *
 *
 aSessionStorage
@@ -26666,7 +26666,7 @@ nsGlobalWindow
 :
 GetLocalStorage
 (
-nsIDOMStorage2
+nsIDOMStorage
 *
 *
 aLocalStorage
@@ -27533,7 +27533,7 @@ docShell
 {
 nsCOMPtr
 <
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 storage
 ;
@@ -27868,7 +27868,7 @@ userArg
 ;
 nsCOMPtr
 <
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 storage
 ;

@@ -19,7 +19,7 @@ nsTArray
 h
 "
 class
-nsIDOMStorage
+nsIDOMStorageObsolete
 ;
 class
 nsIURI
@@ -96,7 +96,7 @@ aURI
 virtual
 already_AddRefed
 <
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 Clone
 (

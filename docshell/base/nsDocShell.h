@@ -1728,7 +1728,7 @@ nsIURI
 aURI
 PRBool
 create
-nsIDOMStorage
+nsIDOMStorageObsolete
 *
 *
 aStorage
@@ -2019,7 +2019,7 @@ mRestorePresentationEvent
 nsInterfaceHashtable
 <
 nsCStringHashKey
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 mStorages
 ;

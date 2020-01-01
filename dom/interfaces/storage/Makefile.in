@@ -442,10 +442,6 @@ nsIDOMToString
 .
 idl
 \
-nsIDOMStorage2
-.
-idl
-\
 nsIDOMStorageManager
 .
 idl
@@ -457,6 +453,10 @@ SDK_XPIDLSRCS
 =
 \
 nsIDOMStorage
+.
+idl
+\
+nsIDOMStorageObsolete
 .
 idl
 \

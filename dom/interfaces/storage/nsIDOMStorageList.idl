@@ -489,7 +489,7 @@ domain
 *
 /
 interface
-nsIDOMStorage
+nsIDOMStorageObsolete
 ;
 [
 scriptable
@@ -542,7 +542,7 @@ given
 domain
 *
 /
-nsIDOMStorage
+nsIDOMStorageObsolete
 namedItem
 (
 in

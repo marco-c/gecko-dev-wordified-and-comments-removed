@@ -21,14 +21,14 @@ h
 #
 include
 "
-nsIDOMStorage
+nsIDOMStorageObsolete
 .
 h
 "
 #
 include
 "
-nsIDOMStorage2
+nsIDOMStorage
 .
 h
 "
@@ -125,7 +125,7 @@ class
 nsDOMStorage
 ;
 class
-nsIDOMStorage2
+nsIDOMStorage
 ;
 class
 nsDOMStorageItem
@@ -286,7 +286,7 @@ class
 nsDOMStorage
 :
 public
-nsIDOMStorage
+nsIDOMStorageObsolete
 public
 nsPIDOMStorage
 {
@@ -313,9 +313,9 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsDOMStorage
-nsIDOMStorage
+nsIDOMStorageObsolete
 )
-NS_DECL_NSIDOMSTORAGE
+NS_DECL_NSIDOMSTORAGEOBSOLETE
 nsresult
 GetItem
 (
@@ -364,7 +364,7 @@ aURI
 virtual
 already_AddRefed
 <
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 Clone
 (
@@ -514,7 +514,7 @@ nsDOMStorage
 (
 static_cast
 <
-nsIDOMStorage
+nsIDOMStorageObsolete
 *
 >
 (
@@ -622,7 +622,7 @@ class
 nsDOMStorage2
 :
 public
-nsIDOMStorage2
+nsIDOMStorage
 public
 nsPIDOMStorage
 {
@@ -632,9 +632,9 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsDOMStorage2
-nsIDOMStorage2
+nsIDOMStorage
 )
-NS_DECL_NSIDOMSTORAGE2
+NS_DECL_NSIDOMSTORAGE
 virtual
 nsresult
 InitAsLocalStorage
@@ -666,7 +666,7 @@ aURI
 virtual
 already_AddRefed
 <
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 Clone
 (
@@ -743,7 +743,7 @@ nsDOMStorageList
 }
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMSTORAGELIST
-nsIDOMStorage
+nsIDOMStorageObsolete
 *
 GetNamedItem
 (
@@ -772,7 +772,7 @@ aCurrentDomain
 ;
 protected
 :
-nsIDOMStorage
+nsIDOMStorageObsolete
 *
 GetStorageForDomain
 (
@@ -810,7 +810,7 @@ aArray
 nsInterfaceHashtable
 <
 nsCStringHashKey
-nsIDOMStorage
+nsIDOMStorageObsolete
 >
 mStorages
 ;
