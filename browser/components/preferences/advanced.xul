@@ -985,6 +985,11 @@ smart_size
 .
 enabled
 "
+inverted
+=
+"
+true
+"
 type
 =
 "
@@ -2463,7 +2468,7 @@ label
 =
 "
 &
-smartSizeCache
+overrideSmartCacheSize
 .
 label
 ;
@@ -2472,7 +2477,7 @@ accesskey
 =
 "
 &
-smartSizeCache
+overrideSmartCacheSize
 .
 accesskey
 ;
@@ -2508,7 +2513,7 @@ accesskey
 =
 "
 &
-useCacheBefore
+limitCacheSizeBefore
 .
 accesskey
 ;
@@ -2517,7 +2522,7 @@ value
 =
 "
 &
-useCacheBefore
+limitCacheSizeBefore
 .
 label
 ;
@@ -2604,7 +2609,7 @@ flex
 "
 >
 &
-useCacheAfter
+limitCacheSizeAfter
 .
 label
 ;

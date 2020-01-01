@@ -1175,7 +1175,7 @@ function
 )
 {
 var
-enabled
+disabled
 =
 document
 .
@@ -1200,7 +1200,8 @@ this
 .
 updateCacheSizeUI
 (
-enabled
+!
+disabled
 )
 ;
 }
