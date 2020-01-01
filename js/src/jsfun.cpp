@@ -5341,6 +5341,14 @@ clone
 clone
 -
 >
+isInterpreted
+(
+)
+&
+&
+clone
+-
+>
 script
 (
 )
