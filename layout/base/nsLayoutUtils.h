@@ -1606,10 +1606,10 @@ aType
 ;
 static
 nscoord
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 nscoord
-aContainingBlockWidth
+aPercentBasis
 const
 nsStyleCoord
 &

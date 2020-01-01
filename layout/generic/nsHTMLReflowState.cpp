@@ -3206,7 +3206,7 @@ right
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 position
@@ -3249,7 +3249,7 @@ left
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 position
@@ -3881,7 +3881,7 @@ left
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 mStylePadding
@@ -3901,7 +3901,7 @@ right
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 mStylePadding
@@ -3958,7 +3958,7 @@ left
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 mStyleMargin
@@ -4003,7 +4003,7 @@ right
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 mStyleMargin
@@ -5314,7 +5314,7 @@ left
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 containingBlockWidth
 mStylePosition
@@ -5363,7 +5363,7 @@ right
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 containingBlockWidth
 mStylePosition
@@ -10118,7 +10118,7 @@ left
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 styleMargin
@@ -10138,7 +10138,7 @@ right
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 styleMargin
@@ -10158,7 +10158,7 @@ top
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 styleMargin
@@ -10178,7 +10178,7 @@ bottom
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 styleMargin
@@ -10364,7 +10364,7 @@ max
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 stylePadding
@@ -10391,7 +10391,7 @@ max
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 stylePadding
@@ -10418,7 +10418,7 @@ max
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 stylePadding
@@ -10445,7 +10445,7 @@ max
 nsLayoutUtils
 :
 :
-ComputeWidthDependentValue
+ComputeCBDependentValue
 (
 aContainingBlockWidth
 stylePadding
