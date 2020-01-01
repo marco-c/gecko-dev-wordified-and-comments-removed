@@ -575,8 +575,12 @@ key
 <
 string
 >
+%
 APP_NAME
+%
+%
 APP_VERSION
+%
 1998
 -
 2007
@@ -650,7 +654,9 @@ key
 <
 string
 >
+%
 APP_NAME
+%
 <
 /
 string
@@ -682,7 +688,9 @@ key
 <
 string
 >
+%
 APP_VERSION
+%
 <
 /
 string
@@ -1000,7 +1008,9 @@ key
 <
 string
 >
+%
 APP_VERSION
+%
 <
 /
 string

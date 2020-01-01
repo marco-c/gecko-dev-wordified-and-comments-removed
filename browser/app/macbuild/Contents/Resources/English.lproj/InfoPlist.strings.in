@@ -1,7 +1,9 @@
 CFBundleName
 =
 "
+%
 APP_NAME
+%
 "
 ;
 NSHumanReadableCopyright
