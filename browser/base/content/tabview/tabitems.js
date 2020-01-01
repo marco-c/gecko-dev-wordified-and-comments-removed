@@ -3382,7 +3382,7 @@ self
 =
 this
 ;
-Tabs
+AllTabs
 .
 onOpen
 (
@@ -3430,7 +3430,7 @@ tab
 }
 )
 ;
-Tabs
+AllTabs
 .
 onChange
 (
@@ -3478,7 +3478,7 @@ tab
 }
 )
 ;
-Tabs
+AllTabs
 .
 onClose
 (
@@ -3526,9 +3526,9 @@ tab
 }
 )
 ;
-Tabs
+AllTabs
 .
-allTabs
+tabs
 .
 forEach
 (

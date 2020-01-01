@@ -211,9 +211,9 @@ self
 =
 this
 ;
-Tabs
+AllTabs
 .
-allTabs
+tabs
 .
 forEach
 (

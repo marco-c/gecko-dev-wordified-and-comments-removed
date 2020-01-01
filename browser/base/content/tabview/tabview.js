@@ -20,7 +20,7 @@ modules
 /
 tabview
 /
-tabs
+utils
 .
 js
 "
@@ -41,9 +41,7 @@ gre
 /
 modules
 /
-tabview
-/
-utils
+AllTabs
 .
 js
 "
