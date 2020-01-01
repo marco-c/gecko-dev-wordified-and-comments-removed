@@ -3752,13 +3752,6 @@ boundRect
 .
 top
 ;
-browserView
-.
-viewportToBrowserRect
-(
-rect
-)
-;
 let
 ctx
 =
@@ -3803,9 +3796,11 @@ _contentWindow
 ;
 ctx
 .
-drawWindow
+asyncDrawXULElement
 (
-cw
+browserView
+.
+_browser
 rect
 .
 left
