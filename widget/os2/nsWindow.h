@@ -879,6 +879,16 @@ pQmsg
 )
 ;
 bool
+OnQueryConvertPos
+(
+MPARAM
+mp1
+MRESULT
+&
+mresult
+)
+;
+bool
 DispatchKeyEvent
 (
 MPARAM
