@@ -750,6 +750,14 @@ test_browserElement_inproc_VisibilityChange
 .
 html
 \
+browserElement_BrowserWindowResize
+.
+js
+\
+test_browserElement_inproc_BrowserWindowResize
+.
+html
+\
 (
 NULL
 )
@@ -1106,6 +1114,10 @@ test_browserElement_oop_DocumentFirstPaint
 html
 \
 test_browserElement_oop_VisibilityChange
+.
+html
+\
+test_browserElement_oop_BrowserWindowResize
 .
 html
 \
