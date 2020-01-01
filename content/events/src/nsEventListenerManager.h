@@ -75,6 +75,9 @@ nsPoint
 struct
 EventTypeData
 ;
+class
+nsEventTargetChainItem
+;
 typedef
 struct
 {
@@ -274,7 +277,7 @@ nsIDOMEvent
 *
 *
 aDOMEvent
-nsISupports
+nsPIDOMEventTarget
 *
 aCurrentTarget
 PRUint32
@@ -613,6 +616,14 @@ mInstanceCount
 static
 jsval
 sAddListenerID
+;
+friend
+class
+nsEventTargetChainItem
+;
+static
+PRUint32
+sCreatedCount
 ;
 }
 ;
