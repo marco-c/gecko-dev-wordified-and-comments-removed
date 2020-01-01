@@ -5554,7 +5554,6 @@ nsDisplayClip
 (
 aBuilder
 nsnull
-mContainer
 aList
 mRect
 )
@@ -5608,7 +5607,6 @@ nsDisplayClip
 (
 aBuilder
 f
-mContainer
 aItem
 mRect
 )
@@ -5688,7 +5686,6 @@ nsDisplayClip
 (
 aBuilder
 nsnull
-mContainer
 aList
 mRect
 )
@@ -5721,7 +5718,6 @@ aItem
 GetUnderlyingFrame
 (
 )
-mContainer
 aItem
 mRect
 )

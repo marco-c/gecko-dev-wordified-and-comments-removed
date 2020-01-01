@@ -22438,7 +22438,6 @@ nsDisplayClip
 (
 aBuilder
 frame
-frame
 i
 textRect
 )

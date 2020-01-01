@@ -1530,7 +1530,6 @@ nsDisplayClip
 (
 aBuilder
 this
-this
 &
 childItems
 subdocBoundsInParentUnits
