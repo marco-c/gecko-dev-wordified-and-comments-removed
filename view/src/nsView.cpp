@@ -4418,8 +4418,6 @@ WillPaintWindow
 nsIWidget
 *
 aWidget
-bool
-aWillSendDidPaint
 )
 {
 nsRefPtr
@@ -4436,7 +4434,6 @@ vm
 WillPaintWindow
 (
 aWidget
-aWillSendDidPaint
 )
 ;
 }

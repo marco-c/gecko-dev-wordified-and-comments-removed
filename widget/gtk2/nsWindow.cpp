@@ -7762,7 +7762,6 @@ listener
 WillPaintWindow
 (
 this
-true
 )
 ;
 if

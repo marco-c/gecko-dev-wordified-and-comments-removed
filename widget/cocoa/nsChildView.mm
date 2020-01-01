@@ -15248,7 +15248,6 @@ listener
 WillPaintWindow
 (
 mGeckoChild
-false
 )
 ;
 }

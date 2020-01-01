@@ -531,8 +531,6 @@ aView
 void
 CallWillPaintOnObservers
 (
-bool
-aWillSendDidPaint
 )
 ;
 void
@@ -587,8 +585,6 @@ const
 nsIntRegion
 &
 aRegion
-bool
-aWillSendDidPaint
 )
 ;
 void
@@ -752,8 +748,6 @@ WillPaintWindow
 nsIWidget
 *
 aWidget
-bool
-aWillSendDidPaint
 )
 ;
 bool

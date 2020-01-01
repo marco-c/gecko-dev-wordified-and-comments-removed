@@ -2182,7 +2182,6 @@ mAttachedWidgetListener
 WillPaintWindow
 (
 this
-true
 )
 ;
 if

@@ -1210,8 +1210,6 @@ const
 nsIntRegion
 &
 aRegion
-bool
-aWillSendDidPaint
 )
 {
 NS_ASSERTION
@@ -1479,16 +1477,10 @@ nsIPresShell
 :
 PAINT_COMPOSITE
 |
-(
-aWillSendDidPaint
-?
 nsIPresShell
 :
 :
 PAINT_WILL_SEND_DID_PAINT
-:
-0
-)
 )
 ;
 #
@@ -2930,8 +2922,6 @@ WillPaintWindow
 nsIWidget
 *
 aWidget
-bool
-aWillSendDidPaint
 )
 {
 if
@@ -3012,7 +3002,7 @@ shell
 >
 WillPaintWindow
 (
-aWillSendDidPaint
+true
 )
 ;
 }
@@ -3094,7 +3084,6 @@ Refresh
 (
 view
 aRegion
-true
 )
 ;
 }
@@ -5453,7 +5442,6 @@ mPresShell
 {
 CallWillPaintOnObservers
 (
-true
 )
 ;
 }
@@ -5515,8 +5503,6 @@ nsViewManager
 :
 CallWillPaintOnObservers
 (
-bool
-aWillSendDidPaint
 )
 {
 NS_PRECONDITION
@@ -5627,7 +5613,7 @@ shell
 >
 WillPaint
 (
-aWillSendDidPaint
+true
 )
 ;
 }

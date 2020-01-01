@@ -740,8 +740,6 @@ WillPaintWindow
 nsIWidget
 *
 aWidget
-bool
-aWillSendDidPaint
 )
 MOZ_OVERRIDE
 ;

@@ -4738,7 +4738,6 @@ mWidgetListener
 WillPaintWindow
 (
 this
-true
 )
 ;
 }

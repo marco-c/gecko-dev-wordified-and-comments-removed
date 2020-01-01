@@ -1058,7 +1058,6 @@ listener
 WillPaintWindow
 (
 gWindowToRedraw
-true
 )
 ;
 }

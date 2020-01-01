@@ -766,7 +766,6 @@ listener
 WillPaintWindow
 (
 this
-true
 )
 ;
 }
