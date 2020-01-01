@@ -113,6 +113,11 @@ initialized
 unsigned
 nthreads
 ;
+const
+char
+*
+dss
+;
 size_t
 pactive
 ;
@@ -185,6 +190,9 @@ ndalloc
 ;
 }
 huge
+;
+unsigned
+narenas
 ;
 ctl_arena_stats_t
 *

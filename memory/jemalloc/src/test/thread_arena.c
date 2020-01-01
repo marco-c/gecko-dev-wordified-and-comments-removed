@@ -392,6 +392,7 @@ i
 +
 +
 )
+{
 je_thread_create
 (
 &
@@ -408,6 +409,7 @@ void
 arena_ind
 )
 ;
+}
 for
 (
 i

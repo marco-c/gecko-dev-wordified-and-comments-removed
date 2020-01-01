@@ -127,6 +127,9 @@ alignment
 false
 &
 is_zeroed
+chunk_dss_prec_get
+(
+)
 )
 ;
 if
@@ -370,6 +373,8 @@ size_t
 alignment
 bool
 zero
+bool
+try_tcache_dalloc
 )
 {
 void
@@ -638,9 +643,10 @@ ptr
 copysize
 )
 ;
-iqalloc
+iqallocx
 (
 ptr
+try_tcache_dalloc
 )
 ;
 }

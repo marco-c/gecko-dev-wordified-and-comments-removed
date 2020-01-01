@@ -86,6 +86,9 @@ chunksize
 true
 &
 zero
+chunk_dss_prec_get
+(
+)
 )
 ;
 if

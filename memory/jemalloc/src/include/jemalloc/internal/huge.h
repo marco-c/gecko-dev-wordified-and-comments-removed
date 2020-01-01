@@ -81,6 +81,8 @@ size_t
 alignment
 bool
 zero
+bool
+try_tcache_dalloc
 )
 ;
 void
