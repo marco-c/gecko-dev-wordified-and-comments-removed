@@ -155,9 +155,6 @@ layer
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 receiveWapPush
 (
