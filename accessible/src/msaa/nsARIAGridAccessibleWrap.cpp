@@ -16,4 +16,14 @@ nsARIAGridAccessibleWrap
 nsAccessibleWrap
 CAccessibleTable
 )
-;
+NS_IMPL_ISUPPORTS_INHERITED0
+(
+nsARIAGridCellAccessibleWrap
+nsARIAGridCellAccessible
+)
+IMPL_IUNKNOWN_INHERITED1
+(
+nsARIAGridCellAccessibleWrap
+nsHyperTextAccessibleWrap
+CAccessibleTableCell
+)

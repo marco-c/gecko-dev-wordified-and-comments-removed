@@ -16,5 +16,10 @@ class
 nsARIAGridAccessible
 nsARIAGridAccessibleWrap
 ;
+typedef
+class
+nsARIAGridCellAccessible
+nsARIAGridCellAccessibleWrap
+;
 #
 endif

@@ -117,14 +117,6 @@ aCell
 nsnull
 )
 ;
-PRBool
-IsARIASelected
-(
-nsIAccessible
-*
-aAccessible
-)
-;
 nsresult
 SetARIASelected
 (
@@ -144,7 +136,7 @@ GetSelectedColumnsArray
 (
 PRUint32
 *
-aColumnsCount
+acolumnCount
 PRInt32
 *
 *
@@ -160,6 +152,8 @@ nsARIAGridCellAccessible
 :
 public
 nsHyperTextAccessibleWrap
+public
+nsIAccessibleTableCell
 {
 public
 :
@@ -174,6 +168,7 @@ aShell
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSIACCESSIBLETABLECELL
 virtual
 nsresult
 GetARIAState

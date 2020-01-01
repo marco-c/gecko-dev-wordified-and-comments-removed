@@ -18,8 +18,13 @@ nsHTMLTableAccessibleWrap
 ;
 typedef
 class
-nsHTMLTableHeadAccessible
-nsHTMLTableHeadAccessibleWrap
+nsHTMLTableCellAccessible
+nsHTMLTableCellAccessibleWrap
+;
+typedef
+class
+nsHTMLTableHeaderCellAccessible
+nsHTMLTableHeaderCellAccessibleWrap
 ;
 #
 endif

@@ -515,6 +515,14 @@ AccessibleTable
 .
 idl
 \
+AccessibleTable2
+.
+idl
+\
+AccessibleTableCell
+.
+idl
+\
 AccessibleText
 .
 idl

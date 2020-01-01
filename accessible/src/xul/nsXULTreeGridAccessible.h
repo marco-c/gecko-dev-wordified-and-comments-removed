@@ -240,6 +240,8 @@ nsXULTreeGridCellAccessible
 :
 public
 nsLeafAccessible
+public
+nsIAccessibleTableCell
 {
 public
 :
@@ -363,6 +365,7 @@ PRUint8
 aIndex
 )
 ;
+NS_DECL_NSIACCESSIBLETABLECELL
 virtual
 PRBool
 IsDefunct

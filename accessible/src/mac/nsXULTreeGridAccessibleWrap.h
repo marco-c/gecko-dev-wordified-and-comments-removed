@@ -1,9 +1,9 @@
 #
 ifndef
-__nsXULTreeAccessibleWrap_h__
+__nsXULTreeGridAccessibleWrap_h__
 #
 define
-__nsXULTreeAccessibleWrap_h__
+__nsXULTreeGridAccessibleWrap_h__
 #
 include
 "
@@ -18,8 +18,8 @@ nsXULTreeGridAccessibleWrap
 ;
 typedef
 class
-nsXULTreeColumnsAccessible
-nsXULTreeColumnsAccessibleWrap
+nsXULTreeGridCellAccessible
+nsXULTreeGridCellAccessibleWrap
 ;
 #
 endif

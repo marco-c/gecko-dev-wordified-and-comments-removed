@@ -2978,7 +2978,7 @@ treeAcc
 )
 ;
 PRInt32
-rowsCount
+rowCount
 =
 0
 ;
@@ -2988,7 +2988,7 @@ mTreeView
 GetRowCount
 (
 &
-rowsCount
+rowCount
 )
 ;
 if
@@ -2998,7 +2998,7 @@ mRow
 1
 >
 =
-rowsCount
+rowCount
 )
 return
 NS_OK
