@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -26,10 +25,6 @@ Cu
 =
 Components
 ;
-this
-.
-StringBundle
-=
 function
 StringBundle
 (

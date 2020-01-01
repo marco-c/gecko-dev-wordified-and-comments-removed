@@ -824,8 +824,7 @@ nsIPaymentUIGlue
 ]
 )
 }
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

@@ -3511,8 +3511,7 @@ dc149e474da1
 "
 )
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

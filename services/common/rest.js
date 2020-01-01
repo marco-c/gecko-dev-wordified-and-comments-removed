@@ -16,8 +16,7 @@ Cr
 =
 Components
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -162,10 +161,6 @@ rest
 "
 )
 ;
-this
-.
-RESTRequest
-=
 function
 RESTRequest
 (
@@ -2337,10 +2332,6 @@ NS_OK
 }
 }
 ;
-this
-.
-RESTResponse
-=
 function
 RESTResponse
 (
@@ -2679,10 +2670,6 @@ body
 null
 }
 ;
-this
-.
-TokenAuthenticatedRESTRequest
-=
 function
 TokenAuthenticatedRESTRequest
 (

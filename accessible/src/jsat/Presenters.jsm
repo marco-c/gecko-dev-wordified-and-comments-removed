@@ -92,8 +92,7 @@ jsm
 '
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -237,10 +236,6 @@ aIsEditing
 }
 }
 ;
-this
-.
-VisualPresenter
-=
 function
 VisualPresenter
 (
@@ -500,10 +495,6 @@ null
 }
 }
 ;
-this
-.
-AndroidPresenter
-=
 function
 AndroidPresenter
 (
@@ -1130,10 +1121,6 @@ fromIndex
 }
 }
 ;
-this
-.
-SpeechPresenter
-=
 function
 SpeechPresenter
 (
@@ -1314,10 +1301,6 @@ true
 }
 }
 ;
-this
-.
-PresenterContext
-=
 function
 PresenterContext
 (

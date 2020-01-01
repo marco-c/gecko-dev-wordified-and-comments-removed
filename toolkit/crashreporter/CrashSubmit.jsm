@@ -40,8 +40,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -1840,8 +1839,7 @@ true
 }
 }
 ;
-this
-.
+let
 CrashSubmit
 =
 {

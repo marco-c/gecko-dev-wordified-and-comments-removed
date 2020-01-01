@@ -529,8 +529,7 @@ components
 nsDownloadManagerUI
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

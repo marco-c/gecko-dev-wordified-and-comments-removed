@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -357,8 +356,7 @@ print_to_filename
 /
 ]
 ;
-this
-.
+let
 Troubleshoot
 =
 {

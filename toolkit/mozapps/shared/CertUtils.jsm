@@ -3,8 +3,6 @@ if
 0
 #
 endif
-this
-.
 EXPORTED_SYMBOLS
 =
 [
@@ -71,10 +69,6 @@ jsm
 "
 )
 ;
-this
-.
-readCertPrefs
-=
 function
 readCertPrefs
 (
@@ -204,10 +198,6 @@ return
 certs
 ;
 }
-this
-.
-validateCert
-=
 function
 validateCert
 (
@@ -484,10 +474,6 @@ NS_ERROR_ILLEGAL_VALUE
 ;
 }
 }
-this
-.
-checkCert
-=
 function
 checkCert
 (
@@ -703,10 +689,6 @@ Token
 "
 ;
 }
-this
-.
-BadCertHandler
-=
 function
 BadCertHandler
 (

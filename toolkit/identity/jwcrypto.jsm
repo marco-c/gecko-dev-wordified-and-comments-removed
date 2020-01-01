@@ -116,8 +116,7 @@ nsIIdentityCryptoService
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -611,8 +610,7 @@ signedAssertion
 }
 }
 ;
-this
-.
+var
 jwcrypto
 =
 new

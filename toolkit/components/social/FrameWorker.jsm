@@ -56,8 +56,7 @@ jsm
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -77,10 +76,6 @@ _nextPortId
 =
 1
 ;
-this
-.
-getFrameWorkerHandle
-=
 function
 getFrameWorkerHandle
 (

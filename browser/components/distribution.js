@@ -1,5 +1,3 @@
-this
-.
 EXPORTED_SYMBOLS
 =
 [
@@ -89,10 +87,6 @@ jsm
 "
 )
 ;
-this
-.
-DistributionCustomizer
-=
 function
 DistributionCustomizer
 (

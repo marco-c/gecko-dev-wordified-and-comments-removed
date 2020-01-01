@@ -76,7 +76,6 @@ WspPduHelper
 .
 jsm
 "
-this
 )
 ;
 const
@@ -84,8 +83,7 @@ DEBUG
 =
 false
 ;
-this
-.
+let
 WapPushManager
 =
 {
@@ -433,8 +431,7 @@ s
 }
 ;
 }
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 ALL_CONST_SYMBOLS

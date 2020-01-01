@@ -1947,8 +1947,7 @@ a53e
 "
 )
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

@@ -821,8 +821,7 @@ components
 ContentAreaDropListener
 ]
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

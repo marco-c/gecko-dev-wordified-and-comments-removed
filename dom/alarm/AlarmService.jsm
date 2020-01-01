@@ -109,8 +109,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -186,8 +185,7 @@ myGlobal
 =
 this
 ;
-this
-.
+let
 AlarmService
 =
 {

@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -37,8 +36,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 GLib
 =
 {
@@ -157,8 +155,7 @@ voidptr_t
 }
 }
 ;
-this
-.
+let
 EBook
 =
 {

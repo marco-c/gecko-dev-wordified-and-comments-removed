@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -321,8 +320,7 @@ converter
 }
 )
 ;
-this
-.
+let
 PageThumbs
 =
 {
@@ -1178,8 +1176,7 @@ true
 }
 }
 ;
-this
-.
+let
 PageThumbsStorage
 =
 {

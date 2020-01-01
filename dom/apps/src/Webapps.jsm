@@ -31,8 +31,7 @@ Components
 .
 results
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -356,8 +355,7 @@ ProfD
 ;
 #
 endif
-this
-.
+let
 DOMApplicationRegistry
 =
 {

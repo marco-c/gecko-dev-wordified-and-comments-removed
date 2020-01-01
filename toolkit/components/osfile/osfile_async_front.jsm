@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -34,7 +33,6 @@ osfile_shared_allthreads
 .
 jsm
 "
-this
 )
 ;
 let

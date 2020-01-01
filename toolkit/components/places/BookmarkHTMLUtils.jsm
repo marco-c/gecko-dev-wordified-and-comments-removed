@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -192,8 +191,7 @@ serialNumber
 =
 0
 ;
-this
-.
+let
 BookmarkHTMLUtils
 =
 Object

@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -209,10 +208,6 @@ js
 "
 )
 ;
-this
-.
-Tracker
-=
 function
 Tracker
 (
@@ -843,10 +838,6 @@ saveChangedIDs
 }
 }
 ;
-this
-.
-Store
-=
 function
 Store
 (
@@ -1357,10 +1348,6 @@ subclass
 }
 }
 ;
-this
-.
-EngineManager
-=
 function
 EngineManager
 (
@@ -1867,10 +1854,6 @@ name
 }
 }
 ;
-this
-.
-Engine
-=
 function
 Engine
 (
@@ -2360,10 +2343,6 @@ _wipeClient
 }
 }
 ;
-this
-.
-SyncEngine
-=
 function
 SyncEngine
 (

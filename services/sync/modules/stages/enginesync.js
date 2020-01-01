@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -112,10 +111,6 @@ js
 "
 )
 ;
-this
-.
-EngineSynchronizer
-=
 function
 EngineSynchronizer
 (

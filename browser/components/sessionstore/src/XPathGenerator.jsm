@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -8,8 +7,7 @@ XPathGenerator
 "
 ]
 ;
-this
-.
+let
 XPathGenerator
 =
 {

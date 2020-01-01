@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -42,10 +41,6 @@ substr
 )
 ;
 }
-this
-.
-Dict
-=
 function
 Dict
 (

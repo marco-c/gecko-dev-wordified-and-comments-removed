@@ -921,8 +921,7 @@ aMessage
 }
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

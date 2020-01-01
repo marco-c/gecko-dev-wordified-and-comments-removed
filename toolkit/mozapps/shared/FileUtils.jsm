@@ -1,5 +1,3 @@
-this
-.
 EXPORTED_SYMBOLS
 =
 [
@@ -74,8 +72,7 @@ nsIProperties
 "
 )
 ;
-this
-.
+var
 FileUtils
 =
 {

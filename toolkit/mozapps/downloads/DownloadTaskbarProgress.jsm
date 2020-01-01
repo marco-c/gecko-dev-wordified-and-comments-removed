@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -37,8 +36,7 @@ taskbar
 1
 "
 ;
-this
-.
+const
 DownloadTaskbarProgress
 =
 {

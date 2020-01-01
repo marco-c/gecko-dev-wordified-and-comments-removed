@@ -432,8 +432,7 @@ components
 CapturePicker
 ]
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

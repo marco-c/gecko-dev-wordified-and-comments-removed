@@ -2434,8 +2434,7 @@ callback
 }
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

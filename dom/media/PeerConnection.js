@@ -3228,8 +3228,7 @@ _executeNext
 }
 }
 ;
-this
-.
+let
 NSGetFactory
 =
 XPCOMUtils

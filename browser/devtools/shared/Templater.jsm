@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -41,10 +40,6 @@ interfaces
 .
 nsIDOMNode
 ;
-this
-.
-template
-=
 function
 template
 (
@@ -78,10 +73,6 @@ return
 template
 ;
 }
-this
-.
-Templater
-=
 function
 Templater
 (

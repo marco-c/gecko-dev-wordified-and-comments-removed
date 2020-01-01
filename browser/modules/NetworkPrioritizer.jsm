@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -101,10 +100,6 @@ _windows
 [
 ]
 ;
-this
-.
-trackBrowserWindow
-=
 function
 trackBrowserWindow
 (

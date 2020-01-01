@@ -133,8 +133,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1133,8 +1132,7 @@ this
 ;
 }
 }
-this
-.
+var
 AddonRepository
 =
 {

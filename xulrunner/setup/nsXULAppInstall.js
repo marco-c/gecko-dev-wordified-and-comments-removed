@@ -1783,8 +1783,7 @@ endif
 }
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

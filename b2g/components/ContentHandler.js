@@ -308,8 +308,7 @@ nsIContentHandler
 )
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

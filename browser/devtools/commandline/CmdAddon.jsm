@@ -13,8 +13,7 @@ Cu
 =
 Components
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -104,8 +103,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 Flags
 =
 {

@@ -1,3 +1,6 @@
+let
+EXPORTED_SYMBOLS
+;
 if
 (
 !
@@ -6,8 +9,6 @@ this
 ctypes
 )
 {
-this
-.
 EXPORTED_SYMBOLS
 =
 [
@@ -57,8 +58,7 @@ SYSTEM_PROPERTY_VALUE_MAX
 let
 DEBUG
 ;
-this
-.
+let
 libcutils
 =
 (
@@ -360,8 +360,7 @@ rv
 (
 )
 ;
-this
-.
+let
 libnetutils
 =
 (
@@ -1621,8 +1620,7 @@ iface
 (
 )
 ;
-this
-.
+let
 netHelpers
 =
 {

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -380,8 +379,7 @@ return
 "
 ;
 }
-this
-.
+let
 MigratorPrototype
 =
 {
@@ -1171,8 +1169,7 @@ aProfile
 }
 }
 ;
-this
-.
+let
 MigrationUtils
 =
 Object

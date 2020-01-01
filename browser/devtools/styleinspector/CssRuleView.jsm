@@ -234,8 +234,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -373,8 +372,7 @@ populate
 )
 ;
 }
-this
-.
+var
 _ElementStyle
 =
 ElementStyle
@@ -2908,10 +2906,6 @@ this
 }
 }
 ;
-this
-.
-CssRuleView
-=
 function
 CssRuleView
 (
@@ -7578,10 +7572,6 @@ aEvent
 )
 ;
 }
-this
-.
-editableItem
-=
 function
 editableItem
 (
@@ -7822,8 +7812,7 @@ _editable
 true
 ;
 }
-this
-.
+var
 _editableField
 =
 editableField
@@ -9278,10 +9267,6 @@ trim
 }
 }
 ;
-this
-.
-_getInplaceEditorForSpan
-=
 function
 _getInplaceEditorForSpan
 (

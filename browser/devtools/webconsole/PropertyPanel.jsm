@@ -68,8 +68,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -81,8 +80,7 @@ PropertyTreeView
 "
 ]
 ;
-this
-.
+var
 PropertyTreeView
 =
 function
@@ -1466,10 +1464,6 @@ return
 node
 ;
 }
-this
-.
-PropertyPanel
-=
 function
 PropertyPanel
 (

@@ -17,8 +17,7 @@ Components
 .
 interfaces
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

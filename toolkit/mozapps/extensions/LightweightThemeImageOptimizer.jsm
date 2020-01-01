@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -102,8 +101,7 @@ ORIGIN_BOTTOM_LEFT
 =
 2
 ;
-this
-.
+let
 LightweightThemeImageOptimizer
 =
 {

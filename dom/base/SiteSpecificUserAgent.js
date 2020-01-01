@@ -153,8 +153,7 @@ nsISiteSpecificUserAgent
 )
 }
 ;
-this
-.
+let
 NSGetFactory
 =
 XPCOMUtils

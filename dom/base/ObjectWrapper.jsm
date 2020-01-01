@@ -23,8 +23,7 @@ Components
 .
 interfaces
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -33,8 +32,7 @@ ObjectWrapper
 "
 ]
 ;
-this
-.
+let
 ObjectWrapper
 =
 {

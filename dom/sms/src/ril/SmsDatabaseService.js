@@ -4313,8 +4313,7 @@ nsIRadioInterfaceLayer
 }
 )
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

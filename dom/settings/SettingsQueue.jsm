@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -8,10 +7,6 @@ Queue
 "
 ]
 ;
-this
-.
-Queue
-=
 function
 Queue
 (

@@ -1804,8 +1804,7 @@ component
 SearchSuggestAutoComplete
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

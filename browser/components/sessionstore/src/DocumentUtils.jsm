@@ -1,5 +1,3 @@
-this
-.
 EXPORTED_SYMBOLS
 =
 [
@@ -61,8 +59,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 DocumentUtils
 =
 {

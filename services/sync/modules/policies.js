@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -124,10 +123,6 @@ js
 "
 )
 ;
-this
-.
-SyncScheduler
-=
 function
 SyncScheduler
 (
@@ -2843,10 +2838,6 @@ error
 -
 "
 ;
-this
-.
-ErrorHandler
-=
 function
 ErrorHandler
 (

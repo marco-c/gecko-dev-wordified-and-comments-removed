@@ -1072,8 +1072,7 @@ component
 INIProcessorFactory
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

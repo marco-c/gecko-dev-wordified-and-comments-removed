@@ -117,8 +117,7 @@ forcePrompt
 {
 }
 }
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

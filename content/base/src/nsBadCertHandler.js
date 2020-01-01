@@ -138,8 +138,7 @@ a834
 )
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

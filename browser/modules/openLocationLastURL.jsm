@@ -46,8 +46,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -274,10 +273,6 @@ history
 true
 )
 ;
-this
-.
-OpenLocationLastURL
-=
 function
 OpenLocationLastURL
 (

@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -99,8 +98,7 @@ js
 "
 )
 ;
-this
-.
+let
 Notifications
 =
 {
@@ -342,10 +340,6 @@ notification
 }
 }
 ;
-this
-.
-Notification
-=
 function
 Notification
 (
@@ -426,10 +420,6 @@ buttons
 [
 ]
 ;
-this
-.
-NotificationButton
-=
 function
 NotificationButton
 (

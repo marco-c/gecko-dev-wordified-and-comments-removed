@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -13,8 +12,7 @@ TelURIParser
 "
 ]
 ;
-this
-.
+let
 TelURIParser
 =
 {

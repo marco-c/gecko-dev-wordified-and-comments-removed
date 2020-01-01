@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -187,8 +186,7 @@ commands
 [
 ]
 ;
-this
-.
+let
 CmdCommands
 =
 {

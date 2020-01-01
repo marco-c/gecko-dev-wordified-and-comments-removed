@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -193,10 +192,6 @@ appinfo
 ID
 )
 ;
-this
-.
-PrefRec
-=
 function
 PrefRec
 (
@@ -250,10 +245,6 @@ value
 ]
 )
 ;
-this
-.
-PrefsEngine
-=
 function
 PrefsEngine
 (

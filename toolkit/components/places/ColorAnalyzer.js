@@ -610,8 +610,7 @@ mozIColorAnalyzer
 )
 }
 ;
-this
-.
+let
 NSGetFactory
 =
 XPCOMUtils

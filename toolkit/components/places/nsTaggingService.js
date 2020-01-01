@@ -2673,8 +2673,7 @@ TaggingService
 TagAutoCompleteSearch
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

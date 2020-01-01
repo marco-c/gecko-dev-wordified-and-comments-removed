@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -132,10 +131,6 @@ tokenserverclient
 "
 )
 ;
-this
-.
-TokenServerClientError
-=
 function
 TokenServerClientError
 (
@@ -181,10 +176,6 @@ constructor
 =
 TokenServerClientError
 ;
-this
-.
-TokenServerClientNetworkError
-=
 function
 TokenServerClientNetworkError
 (
@@ -223,10 +214,6 @@ constructor
 =
 TokenServerClientNetworkError
 ;
-this
-.
-TokenServerClientServerError
-=
 function
 TokenServerClientServerError
 (
@@ -283,10 +270,6 @@ constructor
 =
 TokenServerClientServerError
 ;
-this
-.
-TokenServerClient
-=
 function
 TokenServerClient
 (

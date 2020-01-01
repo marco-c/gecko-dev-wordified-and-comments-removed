@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -283,10 +282,6 @@ anchorElement
 }
 }
 ;
-this
-.
-PopupNotifications
-=
 function
 PopupNotifications
 (

@@ -5891,8 +5891,7 @@ maxVersion
 }
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

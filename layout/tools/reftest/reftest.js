@@ -1,8 +1,7 @@
 #
 if
 BOOTSTRAP
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -884,10 +883,6 @@ unknown
 ;
 }
 }
-this
-.
-OnRefTestLoad
-=
 function
 OnRefTestLoad
 (

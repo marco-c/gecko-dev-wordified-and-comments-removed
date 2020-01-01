@@ -2970,8 +2970,7 @@ removedLogin
 }
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

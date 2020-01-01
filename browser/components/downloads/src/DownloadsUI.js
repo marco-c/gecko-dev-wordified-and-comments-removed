@@ -405,8 +405,7 @@ getAttention
 }
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

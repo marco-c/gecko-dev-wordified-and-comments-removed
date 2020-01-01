@@ -756,8 +756,7 @@ buttons
 }
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

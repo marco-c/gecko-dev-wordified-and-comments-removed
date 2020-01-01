@@ -7683,8 +7683,7 @@ nsINavHistoryObserver
 )
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

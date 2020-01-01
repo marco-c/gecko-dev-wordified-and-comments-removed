@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -35,10 +34,6 @@ splitview
 binding
 "
 ;
-this
-.
-SplitView
-=
 function
 SplitView
 (
