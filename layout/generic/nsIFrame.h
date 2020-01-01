@@ -1968,6 +1968,14 @@ nsDisplayList
 aList
 )
 ;
+virtual
+nscolor
+GetCaretColorAt
+(
+PRInt32
+aOffset
+)
+;
 PRBool
 IsThemed
 (
