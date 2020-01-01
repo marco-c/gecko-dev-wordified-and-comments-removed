@@ -108,11 +108,6 @@ FrameworkView
 cpp
 '
 '
-FrameworkViewGfx
-.
-cpp
-'
-'
 MetroApp
 .
 cpp

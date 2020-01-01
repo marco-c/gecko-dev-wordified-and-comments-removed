@@ -83,13 +83,7 @@ LPARAM
 )
 ;
 static
-void
-ProcessAllNativeEventsPresent
-(
-)
-;
-static
-void
+bool
 ProcessOneNativeEventIfPresent
 (
 )
