@@ -104,11 +104,6 @@ nsConsoleServiceConstructor
 )
 COMPONENT
 (
-EXCEPTIONSERVICE
-nsExceptionServiceConstructor
-)
-COMPONENT
-(
 ATOMSERVICE
 nsAtomServiceConstructor
 )

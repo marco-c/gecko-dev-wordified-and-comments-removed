@@ -138,11 +138,6 @@ nsIException
 idl
 '
 '
-nsIExceptionService
-.
-idl
-'
-'
 nsIGZFileWriter
 .
 idl
@@ -505,11 +500,6 @@ cpp
 '
 '
 nsErrorService
-.
-cpp
-'
-'
-nsExceptionService
 .
 cpp
 '

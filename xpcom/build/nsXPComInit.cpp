@@ -198,13 +198,6 @@ h
 #
 include
 "
-nsExceptionService
-.
-h
-"
-#
-include
-"
 nsComponentManager
 .
 h
@@ -858,10 +851,6 @@ Init
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsAtomService
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-nsExceptionService
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
