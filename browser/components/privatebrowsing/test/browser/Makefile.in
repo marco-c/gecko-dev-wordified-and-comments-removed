@@ -85,6 +85,14 @@ head
 .
 js
 \
+browser_privatebrowsing_aboutHomeButtonAfterWindowClose
+.
+js
+\
+browser_privatebrowsing_aboutSessionRestore
+.
+js
+\
 browser_privatebrowsing_certexceptionsui
 .
 js
