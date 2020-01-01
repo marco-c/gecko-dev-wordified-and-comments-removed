@@ -1873,6 +1873,13 @@ finalize
 (
 )
 ;
+gPlacesDatabase
+.
+asyncClose
+(
+null
+)
+;
 }
 observe
 :
