@@ -4,10 +4,6 @@ Window
 )
 DOMCI_CLASS
 (
-InnerWindow
-)
-DOMCI_CLASS
-(
 Location
 )
 DOMCI_CLASS
@@ -515,10 +511,6 @@ CSSRect
 DOMCI_CLASS
 (
 ChromeWindow
-)
-DOMCI_CLASS
-(
-InnerChromeWindow
 )
 DOMCI_CLASS
 (
@@ -1167,10 +1159,6 @@ FileList
 )
 DOMCI_CLASS
 (
-Blob
-)
-DOMCI_CLASS
-(
 File
 )
 DOMCI_CLASS
@@ -1188,10 +1176,6 @@ FileReader
 DOMCI_CLASS
 (
 ModalContentWindow
-)
-DOMCI_CLASS
-(
-InnerModalContentWindow
 )
 DOMCI_CLASS
 (
