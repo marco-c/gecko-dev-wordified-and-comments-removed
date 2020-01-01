@@ -67,6 +67,8 @@ exists
 (
 )
 )
+try
+{
 dbFile
 .
 remove
@@ -74,6 +76,13 @@ remove
 true
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 var
 destFile
 =
