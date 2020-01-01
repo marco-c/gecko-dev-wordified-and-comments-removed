@@ -250,6 +250,10 @@ test_localStorageKeyOrder
 .
 html
 \
+test_lowDeviceStorage
+.
+html
+\
 test_storageConstructor
 .
 html
