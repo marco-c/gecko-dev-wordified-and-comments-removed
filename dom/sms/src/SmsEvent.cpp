@@ -147,7 +147,7 @@ NS_IMETHODIMP
 SmsEvent
 :
 :
-GetMessage
+GetMessageMoz
 (
 nsIDOMMozSmsMessage
 *
