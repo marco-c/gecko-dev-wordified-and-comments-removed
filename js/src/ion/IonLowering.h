@@ -111,6 +111,16 @@ generate
 (
 )
 ;
+MIRGenerator
+*
+mir
+(
+)
+{
+return
+gen
+;
+}
 protected
 :
 bool

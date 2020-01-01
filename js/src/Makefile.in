@@ -1879,6 +1879,10 @@ ValueNumbering
 .
 cpp
 \
+LinearScan
+.
+cpp
+\
 (
 NULL
 )
