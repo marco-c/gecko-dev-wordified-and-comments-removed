@@ -1010,9 +1010,10 @@ nsWyciwygProtocolHandler
 .
 h
 "
-NS_GENERIC_FACTORY_CONSTRUCTOR
+NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsWyciwygProtocolHandler
+Init
 )
 #
 endif
