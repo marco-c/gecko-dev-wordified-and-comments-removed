@@ -216,7 +216,7 @@ hbox
 xul
 :
 toolbarbutton
-id
+anonid
 =
 "
 notification
@@ -495,7 +495,7 @@ getAnonymousElementByAttribute
 (
 this
 "
-id
+anonid
 "
 "
 notification
