@@ -2676,6 +2676,10 @@ COMMIT_VALS
 class
 FrameRegsIter
 {
+JSContext
+*
+cx
+;
 StackSegment
 *
 curseg
@@ -5910,6 +5914,16 @@ saveActiveSegment
 void
 restoreSegment
 (
+)
+;
+inline
+JSStackFrame
+*
+computeNextFrame
+(
+JSStackFrame
+*
+fp
 )
 ;
 js

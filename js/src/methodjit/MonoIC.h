@@ -324,7 +324,7 @@ CodeLocationJump
 funJump
 ;
 uint32
-hotCallOffset
+hotJumpOffset
 :
 16
 ;

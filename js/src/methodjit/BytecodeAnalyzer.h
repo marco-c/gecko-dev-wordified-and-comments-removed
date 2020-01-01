@@ -91,6 +91,9 @@ ContextAllocPolicy
 >
 doList
 ;
+bool
+usesRval
+;
 public
 :
 BytecodeAnalyzer
@@ -122,6 +125,10 @@ ContextAllocPolicy
 cx
 )
 )
+usesRval
+(
+false
+)
 {
 }
 ~
@@ -150,6 +157,16 @@ stackDepth
 ;
 public
 :
+bool
+usesReturnValue
+(
+)
+const
+{
+return
+usesRval
+;
+}
 inline
 const
 OpcodeStatus
