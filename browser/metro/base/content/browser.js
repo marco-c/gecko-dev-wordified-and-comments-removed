@@ -7318,6 +7318,17 @@ blocked
 if
 (
 notification
+&
+&
+!
+notification
+.
+contains
+(
+aEvent
+.
+target
+)
 )
 box
 .
@@ -7553,7 +7564,8 @@ popupButtonAllowOnce2
 )
 accessKey
 :
-null
+"
+"
 callback
 :
 function
@@ -7581,7 +7593,8 @@ popupButtonAlwaysAllow3
 )
 accessKey
 :
-null
+"
+"
 callback
 :
 function
@@ -7610,7 +7623,8 @@ popupButtonNeverWarn3
 )
 accessKey
 :
-null
+"
+"
 callback
 :
 function
