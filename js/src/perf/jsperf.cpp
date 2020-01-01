@@ -44,7 +44,10 @@ GetPM
 JSContext
 *
 cx
-JSHandleObject
+JS
+:
+:
+HandleObject
 obj
 const
 char
@@ -869,7 +872,10 @@ GetPM
 JSContext
 *
 cx
-JSHandleObject
+JS
+:
+:
+HandleObject
 obj
 const
 char

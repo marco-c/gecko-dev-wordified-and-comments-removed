@@ -1404,7 +1404,7 @@ AutoSwitchCompartment
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 target
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
@@ -5407,9 +5407,9 @@ SetObjectMetadata
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleObject
+HandleObject
 metadata
 )
 {

@@ -2635,7 +2635,7 @@ JSStructuredCloneWriter
 :
 writeArrayBuffer
 (
-JSHandleObject
+HandleObject
 obj
 )
 {
@@ -2690,7 +2690,7 @@ JSStructuredCloneWriter
 :
 startObject
 (
-JSHandleObject
+HandleObject
 obj
 bool
 *
@@ -2792,7 +2792,7 @@ JSStructuredCloneWriter
 :
 traverseObject
 (
-JSHandleObject
+HandleObject
 obj
 )
 {

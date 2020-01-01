@@ -24051,7 +24051,7 @@ JS_EnumerateState
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 JSIterateOp
 enum_op
@@ -25568,9 +25568,9 @@ js_GetterOnlyPropertyStub
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 JSBool
 strict
