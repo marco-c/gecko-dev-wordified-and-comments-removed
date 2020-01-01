@@ -688,7 +688,7 @@ nsIFrameMessageManager
 .
 idl
 \
-nsIMozWebSocket
+nsIWebSocket
 .
 idl
 \

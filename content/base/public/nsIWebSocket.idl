@@ -515,7 +515,7 @@ nsString
 *
 *
 The
-nsIMozWebSocket
+nsIWebSocket
 interface
 enables
 Web
@@ -569,7 +569,7 @@ e4f5bc33f17b
 )
 ]
 interface
-nsIMozWebSocket
+nsIWebSocket
 :
 nsISupports
 {

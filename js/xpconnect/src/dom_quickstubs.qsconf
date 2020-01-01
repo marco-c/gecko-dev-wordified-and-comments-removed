@@ -2506,7 +2506,7 @@ upload
 #
 WebSocket
 '
-nsIMozWebSocket
+nsIWebSocket
 .
 *
 '
