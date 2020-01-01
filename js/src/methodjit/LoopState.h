@@ -856,7 +856,7 @@ analyzeLoopIncrements
 (
 )
 ;
-bool
+void
 analyzeLoopBody
 (
 unsigned

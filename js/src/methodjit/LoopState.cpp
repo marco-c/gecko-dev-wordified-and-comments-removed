@@ -661,16 +661,10 @@ backedge
 continue
 ;
 }
-if
-(
-!
 analyzeLoopBody
 (
 index
 )
-)
-return
-false
 ;
 }
 if
@@ -7928,7 +7922,7 @@ return
 true
 ;
 }
-bool
+void
 LoopState
 :
 :
@@ -8408,7 +8402,6 @@ JSID_VOID
 )
 )
 return
-false
 ;
 if
 (
@@ -8425,7 +8418,6 @@ object
 )
 )
 return
-false
 ;
 }
 if
@@ -8939,9 +8931,6 @@ offset
 successorOffset
 ;
 }
-return
-true
-;
 }
 bool
 LoopState
