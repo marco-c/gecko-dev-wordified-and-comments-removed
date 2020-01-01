@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsGrid
 .
 h

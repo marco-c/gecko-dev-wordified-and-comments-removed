@@ -7,13 +7,6 @@ nsBoxLayoutState_h___
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -40,6 +33,9 @@ nsCalculatedBoxInfo
 ;
 struct
 nsHTMLReflowMetrics
+;
+struct
+nsHTMLReflowState
 ;
 class
 nsString

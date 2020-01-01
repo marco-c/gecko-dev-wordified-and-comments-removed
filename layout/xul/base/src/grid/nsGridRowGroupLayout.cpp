@@ -40,6 +40,13 @@ nsGridRow
 .
 h
 "
+#
+include
+"
+nsHTMLReflowState
+.
+h
+"
 already_AddRefed
 <
 nsBoxLayout

@@ -53,13 +53,6 @@ nsWidgetInitData
 .
 h
 "
-#
-include
-"
-nsIFrame
-.
-h
-"
 class
 nsIViewManager
 ;
@@ -74,6 +67,9 @@ nsWeakView
 ;
 class
 nsIWidget
+;
+class
+nsIFrame
 ;
 enum
 nsViewVisibility

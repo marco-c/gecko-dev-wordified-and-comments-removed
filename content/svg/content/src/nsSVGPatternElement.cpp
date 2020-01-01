@@ -42,13 +42,6 @@ nsSVGPatternElement
 .
 h
 "
-#
-include
-"
-nsIFrame
-.
-h
-"
 using
 namespace
 mozilla

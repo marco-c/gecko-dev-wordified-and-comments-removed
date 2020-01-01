@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLSelectElement
 .
 h

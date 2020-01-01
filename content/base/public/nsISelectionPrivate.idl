@@ -145,9 +145,6 @@ class
 nsFrameSelection
 ;
 class
-nsIFrame
-;
-class
 nsIPresShell
 ;
 struct
@@ -162,14 +159,14 @@ ScrollAxis
 #
 include
 "
-nsIFrame
+nsTArray
 .
 h
 "
 #
 include
 "
-nsTArray
+nsIFrame
 .
 h
 "

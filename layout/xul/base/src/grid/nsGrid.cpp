@@ -54,6 +54,13 @@ nsGridCell
 .
 h
 "
+#
+include
+"
+nsHTMLReflowState
+.
+h
+"
 nsGrid
 :
 :

@@ -53,13 +53,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

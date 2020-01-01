@@ -25,13 +25,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsIFrame
-.
-h
-"
 class
 nsGridRowGroupLayout
 ;

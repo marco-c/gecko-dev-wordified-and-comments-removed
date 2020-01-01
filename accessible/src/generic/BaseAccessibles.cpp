@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsINameSpaceManager
 .
 h

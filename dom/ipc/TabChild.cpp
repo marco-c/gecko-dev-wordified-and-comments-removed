@@ -222,13 +222,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h

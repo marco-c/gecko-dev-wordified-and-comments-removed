@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsRuleData
 .
 h
