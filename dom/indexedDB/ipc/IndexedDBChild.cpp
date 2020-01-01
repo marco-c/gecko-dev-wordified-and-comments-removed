@@ -1571,7 +1571,7 @@ request
 )
 ;
 }
-MainThreadEventTarget
+ImmediateRunEventTarget
 target
 ;
 if
@@ -1697,7 +1697,7 @@ SetError
 aRv
 )
 ;
-MainThreadEventTarget
+ImmediateRunEventTarget
 target
 ;
 if
@@ -1773,7 +1773,7 @@ aOldVersion
 mVersion
 )
 ;
-MainThreadEventTarget
+ImmediateRunEventTarget
 target
 ;
 if
@@ -1842,7 +1842,7 @@ aOldVersion
 aNewVersion
 )
 ;
-MainThreadEventTarget
+ImmediateRunEventTarget
 target
 ;
 if
@@ -2169,7 +2169,15 @@ version
 =
 oldVersion
 ;
-MainThreadEventTarget
+actor
+-
+>
+SetTransaction
+(
+transaction
+)
+;
+ImmediateRunEventTarget
 target
 ;
 if
@@ -2202,14 +2210,6 @@ return
 false
 ;
 }
-actor
--
->
-SetTransaction
-(
-transaction
-)
-;
 mOpenHelper
 =
 helper
@@ -2493,7 +2493,7 @@ transaction
 aRv
 )
 ;
-MainThreadEventTarget
+ImmediateRunEventTarget
 target
 ;
 if
@@ -5116,7 +5116,7 @@ aRv
 )
 ;
 }
-MainThreadEventTarget
+ImmediateRunEventTarget
 target
 ;
 if
@@ -5186,7 +5186,7 @@ aCurrentVersion
 0
 )
 ;
-MainThreadEventTarget
+ImmediateRunEventTarget
 target
 ;
 if
