@@ -1788,7 +1788,7 @@ R
 .
 id
 .
-abouthome_pager
+home_pager
 )
 ;
 mBrowserToolbar

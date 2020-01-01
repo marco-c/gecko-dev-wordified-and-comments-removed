@@ -1084,6 +1084,12 @@ HomePager
 .
 java
 \
+home
+/
+HomePagerTabStrip
+.
+java
+\
 widget
 /
 AboutHome
