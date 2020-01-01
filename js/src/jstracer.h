@@ -2623,8 +2623,9 @@ ExitType
 exitType
 )
 ;
+JS_REQUIRES_STACK
 bool
-guardNotGlobalObject
+guardElemOp
 (
 JSObject
 *
@@ -2635,6 +2636,13 @@ nanojit
 LIns
 *
 obj_ins
+jsid
+id
+size_t
+op_offset
+jsval
+*
+vp
 )
 ;
 void
