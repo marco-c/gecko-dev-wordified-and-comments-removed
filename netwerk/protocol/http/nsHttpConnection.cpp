@@ -5718,6 +5718,15 @@ n
 0
 )
 {
+rv
+=
+NS_OK
+;
+if
+(
+mTransaction
+)
+{
 mTransaction
 -
 >
@@ -5734,6 +5743,7 @@ ResumeRecv
 (
 )
 ;
+}
 again
 =
 false
