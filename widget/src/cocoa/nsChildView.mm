@@ -33888,7 +33888,7 @@ NS_DRAGDROP_DROP
 We
 make
 the
-assuption
+assumption
 that
 the
 dragOver
