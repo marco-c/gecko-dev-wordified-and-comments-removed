@@ -1967,9 +1967,9 @@ if
 aEvent
 -
 >
-flags
-&
-NS_EVENT_RETARGET_TO_NON_NATIVE_ANONYMOUS
+mFlags
+.
+mRetargetToNonNativeAnonymous
 )
 {
 nsCOMPtr

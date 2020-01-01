@@ -7911,9 +7911,9 @@ nsEventStatus_eConsumeNoDefault
 aEvent
 -
 >
-flags
-&
-NS_EVENT_FLAG_DONT_FORWARD_CROSS_PROCESS
+mFlags
+.
+mNoCrossProcessBoundaryForwarding
 |
 |
 !
