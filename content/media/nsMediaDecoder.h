@@ -644,6 +644,9 @@ PRPackedBool
 mSizeChanged
 ;
 PRPackedBool
+mImageContainerSizeChanged
+;
+PRPackedBool
 mShuttingDown
 ;
 }
