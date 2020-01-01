@@ -150,6 +150,14 @@ test_domWindowUtils_scrollXY
 .
 html
 \
+test_domWindowUtils_scrollbarWidth
+.
+html
+\
+file_domWindowUtils_scrollbarWidth
+.
+html
+\
 test_offsets
 .
 html
