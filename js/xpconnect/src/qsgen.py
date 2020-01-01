@@ -3189,19 +3189,14 @@ jsval
 :
         
 "
-JS
-:
-:
-RootedValue
+jsval
 {
 name
 }
-(
-cx
+=
 {
 argVal
 }
-)
 ;
 \
 n
@@ -3317,24 +3312,6 @@ i
 val
 )
         
-if
-typeName
-=
-=
-"
-[
-jsval
-]
-"
-:
-            
-argPtr
-=
-None
-        
-else
-:
-            
 argPtr
 =
 "
@@ -4058,15 +4035,9 @@ f
 write
 (
 "
-JS
-:
-:
-RootedValue
+jsval
 %
 s
-(
-cx
-)
 ;
 \
 n
@@ -4219,14 +4190,11 @@ jsval
 :
             
 return
-name
+'
+&
+'
 +
-'
-.
-address
-(
-)
-'
+name
         
 elif
 type
