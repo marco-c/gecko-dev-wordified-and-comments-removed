@@ -532,6 +532,10 @@ nsIX509CertList
 .
 idl
 \
+nsIPKCS11
+.
+idl
+\
 nsIPKCS11Slot
 .
 idl
