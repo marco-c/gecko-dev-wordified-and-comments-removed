@@ -7,6 +7,7 @@ os
 path
 logging
 shutil
+signal
 from
 glob
 import
@@ -1436,6 +1437,18 @@ cwd
 testdir
 )
         
+signal
+.
+signal
+(
+signal
+.
+SIGINT
+signal
+.
+SIG_IGN
+)
+        
 stdout
 stderr
 =
@@ -1443,6 +1456,18 @@ proc
 .
 communicate
 (
+)
+        
+signal
+.
+signal
+(
+signal
+.
+SIGINT
+signal
+.
+SIG_DFL
 )
         
 if
