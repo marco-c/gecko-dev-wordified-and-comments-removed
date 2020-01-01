@@ -663,10 +663,6 @@ platform
 (
 os
 )
--
-(
-compiler
-)
 else
 platform
 =
