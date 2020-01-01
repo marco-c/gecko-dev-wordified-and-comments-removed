@@ -3176,6 +3176,7 @@ activated
 /
 [
 scriptable
+function
 uuid
 (
 6da7f5fb
@@ -3222,6 +3223,7 @@ enterNestedEventLoop
 /
 [
 scriptable
+function
 uuid
 (
 88bea60f
@@ -3306,6 +3308,7 @@ enumerateFilters
 /
 [
 scriptable
+function
 uuid
 (
 e391ba85
@@ -3377,6 +3380,7 @@ enumerateScripts
 /
 [
 scriptable
+function
 uuid
 (
 4eef60c2
@@ -3448,6 +3452,7 @@ enumerateContexts
 /
 [
 scriptable
+function
 uuid
 (
 57d18286
@@ -3617,6 +3622,7 @@ properties
 /
 [
 scriptable
+function
 uuid
 (
 3eff1314
@@ -3770,6 +3776,7 @@ type
 ;
 [
 scriptable
+function
 uuid
 (
 e6b45eee
@@ -3982,6 +3989,7 @@ properties
 /
 [
 scriptable
+function
 uuid
 (
 3a722496
