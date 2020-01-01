@@ -9468,6 +9468,10 @@ currentTimeChanged
 =
 true
 ;
+StopPlayback
+(
+)
+;
 UpdatePlaybackPositionInternal
 (
 seekTime
@@ -9514,10 +9518,6 @@ if
 currentTimeChanged
 )
 {
-StopPlayback
-(
-)
-;
 StopAudioThread
 (
 )
