@@ -1,8 +1,10 @@
 =
 =
-clip
+clipPath
 -
-path
+basic
+-
+01
 .
 svg
 pass
