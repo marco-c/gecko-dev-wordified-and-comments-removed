@@ -731,7 +731,7 @@ size_t
 <
 8
 ;
-JSObject
+PropertyIteratorObject
 *
 data
 [
@@ -757,7 +757,7 @@ SIZE
 }
 public
 :
-JSObject
+PropertyIteratorObject
 *
 last
 ;
@@ -791,7 +791,7 @@ data
 )
 ;
 }
-JSObject
+PropertyIteratorObject
 *
 get
 (
@@ -815,7 +815,7 @@ set
 (
 uint32_t
 key
-JSObject
+PropertyIteratorObject
 *
 iterobj
 )
@@ -3692,6 +3692,9 @@ private
 js
 :
 :
+frontend
+:
+:
 ParseMapPool
 *
 parseMapPool_
@@ -3746,6 +3749,9 @@ regExpStatics
 public
 :
 js
+:
+:
+frontend
 :
 :
 ParseMapPool
@@ -4160,7 +4166,10 @@ endif
 DSTOffsetCache
 dstOffsetCache
 ;
-JSObject
+js
+:
+:
+PropertyIteratorObject
 *
 enumerators
 ;

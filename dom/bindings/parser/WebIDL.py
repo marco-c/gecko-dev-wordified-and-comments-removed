@@ -3336,6 +3336,16 @@ self
 isCallback
 (
 )
+and
+self
+.
+getUserData
+(
+'
+hasConcreteDescendant
+'
+False
+)
     
 def
 addExtendedAttributes

@@ -318,13 +318,12 @@ bool
 bState
 )
 ;
-NS_IMETHOD
+virtual
+bool
 IsVisible
 (
-bool
-&
-aState
 )
+const
 ;
 NS_IMETHOD
 ConstrainPosition

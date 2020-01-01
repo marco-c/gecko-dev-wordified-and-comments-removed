@@ -5680,8 +5680,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Array
 )
-|
-JSCLASS_FOR_OF_ITERATION
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -5699,7 +5697,7 @@ array_trace
 NULL
 NULL
 NULL
-JS_ElementIteratorStub
+NULL
 NULL
 false
 }
@@ -5753,8 +5751,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Array
 )
-|
-JSCLASS_FOR_OF_ITERATION
 slowarray_addProperty
 JS_PropertyStub
 JS_PropertyStub
@@ -5772,7 +5768,7 @@ NULL
 NULL
 NULL
 NULL
-JS_ElementIteratorStub
+NULL
 NULL
 false
 }
@@ -17126,6 +17122,15 @@ every
 array_every
 1
 JSFUN_GENERIC_NATIVE
+)
+JS_FN
+(
+"
+iterator
+"
+JS_ArrayIterator
+0
+0
 )
 JS_FS_END
 }
