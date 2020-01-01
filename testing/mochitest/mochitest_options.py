@@ -3,8 +3,6 @@ optparse
 import
 os
 import
-sys
-import
 tempfile
 from
 automation
@@ -35,12 +33,7 @@ path
 .
 dirname
 (
-sys
-.
-argv
-[
-0
-]
+__file__
 )
 )
 try
@@ -5639,12 +5632,7 @@ options
 .
 app
 =
-sys
-.
-argv
-[
-0
-]
+__file__
         
 tempPort
 =
