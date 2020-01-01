@@ -942,7 +942,9 @@ DM_FLAGS
 -
 dm_trans
 =
-adb
+(
+DM_TRANS
+)
 \
 -
 -
