@@ -1122,7 +1122,14 @@ aListener
 :
 mListener
 (
+new
+nsMainThreadPtrHolder
+<
+nsIServerSocketListener
+>
+(
 aListener
+)
 )
 mTargetThread
 (
@@ -1144,7 +1151,10 @@ public
 :
 OnSocketAcceptedRunnable
 (
+nsMainThreadPtrHolder
+<
 nsIServerSocketListener
+>
 *
 aListener
 nsIServerSocket
@@ -1172,7 +1182,7 @@ aTransport
 NS_DECL_NSIRUNNABLE
 private
 :
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIServerSocketListener
 >
@@ -1202,7 +1212,10 @@ public
 :
 OnStopListeningRunnable
 (
+nsMainThreadPtrHolder
+<
 nsIServerSocketListener
+>
 *
 aListener
 nsIServerSocket
@@ -1229,7 +1242,7 @@ aStatus
 NS_DECL_NSIRUNNABLE
 private
 :
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIServerSocketListener
 >
@@ -1248,7 +1261,7 @@ mStatus
 ;
 private
 :
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIServerSocketListener
 >
