@@ -35,7 +35,7 @@ h
 "
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 #
 include
 "
@@ -201,7 +201,7 @@ else
 {
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 factory
 =
 new
@@ -228,6 +228,7 @@ isCrossProcess
 but
 not
 on
+native
 B2G
 !
 "

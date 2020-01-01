@@ -40,7 +40,7 @@ h
 "
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 #
 include
 "
@@ -118,7 +118,7 @@ nullptr
 ;
 #
 ifdef
-MOZ_B2G
+MOZ_WIDGET_GONK
 if
 (
 !
