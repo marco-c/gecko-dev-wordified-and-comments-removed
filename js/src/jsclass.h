@@ -30,6 +30,9 @@ PropertyName
 class
 SpecialId
 ;
+class
+PropertyId
+;
 static
 JS_ALWAYS_INLINE
 jsid
@@ -57,6 +60,10 @@ SpecialId
 &
 sid
 )
+;
+friend
+class
+PropertyId
 ;
 static
 const
