@@ -1223,6 +1223,11 @@ AccessibilityEvent
 .
 TYPE_ANNOUNCEMENT
 :
+case
+AccessibilityEvent
+.
+TYPE_VIEW_SCROLLED
+:
 final
 AccessibilityEvent
 accEvent
