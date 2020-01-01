@@ -3339,11 +3339,7 @@ sizeChanged
 mPopupFrame
 -
 >
-GetRect
-(
-)
-.
-Size
+PreferredSize
 (
 )
 !
@@ -3359,7 +3355,7 @@ sizeChanged
 mPopupFrame
 -
 >
-SetBounds
+SetPreferredBounds
 (
 aState
 nsRect

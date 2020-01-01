@@ -596,7 +596,7 @@ maxSize
 popupChild
 -
 >
-SetBounds
+SetPreferredBounds
 (
 aState
 nsRect
@@ -781,6 +781,20 @@ bounds
 .
 height
 )
+{
+popupChild
+-
+>
+SetPreferredSize
+(
+popupChild
+-
+>
+GetSize
+(
+)
+)
+;
 popupChild
 -
 >
@@ -789,6 +803,7 @@ SetPopupPosition
 nsnull
 )
 ;
+}
 popupChild
 -
 >
