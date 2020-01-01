@@ -885,6 +885,9 @@ true
 methodjit_always
 :
 true
+strict_mode
+:
+true
 }
 ;
 options

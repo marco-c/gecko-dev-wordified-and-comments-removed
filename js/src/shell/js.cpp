@@ -2553,6 +2553,12 @@ xml
 "
 JSOPTION_XML
 }
+{
+"
+strict_mode
+"
+JSOPTION_STRICT_MODE
+}
 }
 ;
 static
