@@ -547,8 +547,6 @@ aScrollPosition
 void
 ScrollVisual
 (
-nsIntPoint
-aPixDelta
 )
 ;
 void
