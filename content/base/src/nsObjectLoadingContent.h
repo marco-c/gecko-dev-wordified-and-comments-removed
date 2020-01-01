@@ -253,6 +253,7 @@ ObjectType
 Type
 (
 )
+const
 {
 return
 mType

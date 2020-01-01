@@ -1953,7 +1953,7 @@ return
 element
 -
 >
-DOMFocus
+Focus
 (
 )
 ;
