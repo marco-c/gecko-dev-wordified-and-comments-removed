@@ -7901,6 +7901,11 @@ hadValidDir
 =
 false
 ;
+bool
+hadDirAuto
+=
+false
+;
 if
 (
 aNamespaceID
@@ -7933,6 +7938,12 @@ nsGkAtoms
 :
 :
 bdi
+)
+;
+hadDirAuto
+=
+HasDirAuto
+(
 )
 ;
 }
@@ -8137,6 +8148,7 @@ this
 &
 aValueForAfterSetAttr
 hadValidDir
+hadDirAuto
 aNotify
 )
 ;
@@ -8824,6 +8836,11 @@ hadValidDir
 =
 false
 ;
+bool
+hadDirAuto
+=
+false
+;
 if
 (
 aNameSpaceID
@@ -8854,6 +8871,12 @@ nsGkAtoms
 :
 :
 bdi
+)
+;
+hadDirAuto
+=
+HasDirAuto
+(
 )
 ;
 }
@@ -8989,6 +9012,7 @@ OnSetDirAttr
 this
 nullptr
 hadValidDir
+hadDirAuto
 aNotify
 )
 ;

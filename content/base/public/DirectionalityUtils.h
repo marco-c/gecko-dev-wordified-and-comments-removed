@@ -209,6 +209,8 @@ aNewValue
 bool
 hadValidDir
 bool
+hadDirAuto
+bool
 aNotify
 )
 ;
