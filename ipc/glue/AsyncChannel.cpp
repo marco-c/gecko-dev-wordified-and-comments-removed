@@ -248,6 +248,10 @@ mIOLoop
 mWorkerLoop
 (
 )
+mChild
+(
+false
+)
 mChannelErrorTask
 (
 NULL
