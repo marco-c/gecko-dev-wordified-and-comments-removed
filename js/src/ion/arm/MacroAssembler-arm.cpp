@@ -12282,6 +12282,10 @@ Register
 r
 )
 {
+enterNoPool
+(
+)
+;
 as_dtr
 (
 IsStore
@@ -12304,6 +12308,10 @@ as_blx
 r
 )
 ;
+leaveNoPool
+(
+)
+;
 }
 void
 MacroAssemblerARM
@@ -12316,6 +12324,10 @@ Register
 r
 )
 {
+enterNoPool
+(
+)
+;
 as_dtr
 (
 IsStore
@@ -12337,6 +12349,10 @@ as_blx
 r
 )
 ;
+leaveNoPool
+(
+)
+;
 }
 void
 MacroAssemblerARM
@@ -12349,6 +12365,10 @@ Register
 r
 )
 {
+enterNoPool
+(
+)
+;
 ma_push
 (
 pc
@@ -12357,6 +12377,10 @@ pc
 as_blx
 (
 r
+)
+;
+leaveNoPool
+(
 )
 ;
 }
