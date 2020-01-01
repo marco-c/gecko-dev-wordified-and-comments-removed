@@ -83,7 +83,7 @@ android
 .
 widget
 .
-LinearLayout
+RelativeLayout
 ;
 import
 android
@@ -96,7 +96,7 @@ public
 class
 TopSitesGridItemView
 extends
-LinearLayout
+RelativeLayout
 {
 private
 static
