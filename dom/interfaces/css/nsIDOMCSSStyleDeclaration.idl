@@ -580,6 +580,9 @@ propertyName
 in
 DOMString
 value
+[
+optional
+]
 in
 DOMString
 priority
