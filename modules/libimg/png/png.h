@@ -3240,6 +3240,10 @@ unknown_chunk
 ;
 #
 endif
+png_uint_32
+old_big_row_buf_size
+old_prev_row_size
+;
 }
 ;
 typedef
