@@ -518,11 +518,11 @@ this
 setTextValue
 (
 "
-nodeName
+localName
 "
 aObject
 .
-nodeName
+localName
 )
 ;
 this

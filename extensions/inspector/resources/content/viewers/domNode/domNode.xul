@@ -585,7 +585,7 @@ value
 =
 "
 &
-nodeName
+localName
 .
 label
 ;
@@ -593,7 +593,7 @@ label
 for
 =
 "
-tx_nodeName
+tx_localName
 "
 class
 =
@@ -607,7 +607,7 @@ textbox
 id
 =
 "
-tx_nodeName
+tx_localName
 "
 readonly
 =

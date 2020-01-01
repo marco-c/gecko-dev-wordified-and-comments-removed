@@ -402,11 +402,11 @@ BLOCK
 <
 !
 ENTITY
-nodeName
+localName
 .
 label
 "
-Node
+Local
 Name
 :
 "
