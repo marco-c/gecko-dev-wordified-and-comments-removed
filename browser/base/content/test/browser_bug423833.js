@@ -249,7 +249,7 @@ window
 setInterval
 (
 testShowOnlyThisFrame
-3000
+1000
 )
 ;
 }
@@ -489,7 +489,7 @@ window
 setInterval
 (
 testOpenFrameInTab
-3000
+1000
 )
 ;
 }
@@ -655,7 +655,7 @@ window
 setInterval
 (
 testOpenFrame
-3000
+1000
 )
 ;
 }
