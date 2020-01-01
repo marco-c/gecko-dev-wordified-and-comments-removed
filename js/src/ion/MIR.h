@@ -1775,6 +1775,12 @@ useCount
 )
 const
 ;
+size_t
+defUseCount
+(
+)
+const
+;
 bool
 hasUses
 (
