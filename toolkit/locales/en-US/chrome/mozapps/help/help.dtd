@@ -369,7 +369,7 @@ fullZoomReduceBtn
 label
 "
 Zoom
-In
+Out
 "
 >
 <
@@ -379,7 +379,7 @@ fullZoomReduceBtn
 .
 accesskey
 "
-I
+O
 "
 >
 <
@@ -390,7 +390,7 @@ fullZoomEnlargeBtn
 label
 "
 Zoom
-Out
+In
 "
 >
 <
@@ -400,6 +400,6 @@ fullZoomEnlargeBtn
 .
 accesskey
 "
-O
+I
 "
 >
