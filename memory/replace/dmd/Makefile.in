@@ -111,12 +111,6 @@ lib
 libc
 /
 src
-DISABLED_CSRCS
-+
-=
-strcpy
-.
-c
 VPATH
 +
 =

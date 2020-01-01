@@ -137,16 +137,6 @@ build
 (
 NULL
 )
-DISABLED_SDK_HEADERS
-=
-\
-nsXPCOMGlue
-.
-h
-\
-(
-NULL
-)
 SDK_LIBRARY
 =
 \

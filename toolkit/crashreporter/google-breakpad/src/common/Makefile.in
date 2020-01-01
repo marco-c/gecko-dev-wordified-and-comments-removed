@@ -173,16 +173,6 @@ NULL
 )
 endif
 endif
-DISABLED_CSRCS
-=
-\
-convert_UTF
-.
-c
-\
-(
-NULL
-)
 ifeq
 (
 (

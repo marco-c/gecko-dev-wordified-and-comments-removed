@@ -76,12 +76,6 @@ config
 autoconf
 .
 mk
-DISABLED_SIMPLE_PROGRAMS
-=
-windbgdlg
-(
-BIN_SUFFIX
-)
 MOZ_WINCONSOLE
 =
 0

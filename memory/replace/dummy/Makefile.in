@@ -78,11 +78,6 @@ mk
 FORCE_SHARED_LIB
 =
 1
-DISABLED_CSRCS
-=
-dummy_replace_malloc
-.
-c
 include
 (
 topsrcdir
