@@ -100,7 +100,10 @@ Create
 COMPONENT
 (
 ARRAY
-nsArrayConstructor
+nsArray
+:
+:
+XPCOMConstructor
 )
 COMPONENT
 (

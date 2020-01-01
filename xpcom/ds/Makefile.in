@@ -253,6 +253,10 @@ NULL
 EXPORTS
 =
 \
+nsArray
+.
+h
+\
 nsAtomService
 .
 h

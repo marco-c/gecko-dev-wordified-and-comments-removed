@@ -522,8 +522,10 @@ nsIMutableArray
 >
 propertyArray
 =
-new
 nsArray
+:
+:
+Create
 (
 )
 ;
