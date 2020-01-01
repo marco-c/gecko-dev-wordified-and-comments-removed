@@ -34701,3 +34701,15 @@ blipIntervalMilliseconds
 0
 )
 ;
+pref
+(
+"
+dom
+.
+browserElement
+.
+maxScreenshotDelayMS
+"
+2000
+)
+;

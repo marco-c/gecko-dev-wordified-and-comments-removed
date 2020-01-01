@@ -358,3 +358,8 @@ COMPONENT
 CYCLE_COLLECTOR_LOGGER
 nsCycleCollectorLoggerConstructor
 )
+COMPONENT
+(
+MESSAGE_LOOP
+nsMessageLoopConstructor
+)

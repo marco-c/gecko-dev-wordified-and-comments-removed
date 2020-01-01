@@ -484,6 +484,13 @@ h
 "
 #
 include
+"
+nsMessageLoop
+.
+h
+"
+#
+include
 <
 locale
 .
