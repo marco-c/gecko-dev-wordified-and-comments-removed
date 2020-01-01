@@ -978,15 +978,6 @@ CompartmentPrivate
 (
 )
 {
-delete
-waiverWrapperMap
-;
-delete
-expandoMap
-;
-delete
-domExpandoMap
-;
 MOZ_COUNT_DTOR
 (
 xpc
