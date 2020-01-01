@@ -866,9 +866,9 @@ js
 /
 src
 /
-mozilla
+js
 -
-config
+confdefs
 .
 h
 )
@@ -901,9 +901,9 @@ js
 /
 src
 /
-mozilla
+js
 -
-config
+confdefs
 .
 h
 to
@@ -1157,9 +1157,9 @@ js
 /
 src
 /
-mozilla
+js
 -
-config
+confdefs
 .
 h
 (
