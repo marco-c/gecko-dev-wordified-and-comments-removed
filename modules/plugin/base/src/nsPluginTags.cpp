@@ -1351,6 +1351,14 @@ EnsureMembersAreUTF8
 (
 )
 {
+#
+ifdef
+XP_WIN
+return
+NS_OK
+;
+#
+else
 nsresult
 rv
 ;
@@ -1572,6 +1580,8 @@ i
 return
 NS_OK
 ;
+#
+endif
 }
 void
 nsPluginTag
