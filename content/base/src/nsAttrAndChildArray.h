@@ -41,7 +41,7 @@ class
 nsRuleWalker
 ;
 class
-nsGenericHTMLElement
+nsMappedAttributeElement
 ;
 #
 define
@@ -400,7 +400,7 @@ aLocalName
 nsAttrValue
 &
 aValue
-nsGenericHTMLElement
+nsMappedAttributeElement
 *
 aContent
 nsHTMLStyleSheet
@@ -465,7 +465,7 @@ const
 nsresult
 GetModifiableMapped
 (
-nsGenericHTMLElement
+nsMappedAttributeElement
 *
 aContent
 nsHTMLStyleSheet
