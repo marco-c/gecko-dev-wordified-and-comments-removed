@@ -31,6 +31,11 @@ gfxFontShaper
 aFont
 )
 {
+MOZ_COUNT_CTOR
+(
+gfxDWriteShaper
+)
+;
 }
 virtual
 ~
@@ -38,6 +43,11 @@ gfxDWriteShaper
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+gfxDWriteShaper
+)
+;
 }
 virtual
 PRBool
