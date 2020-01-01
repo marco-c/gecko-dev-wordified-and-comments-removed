@@ -151,6 +151,13 @@ nsHtml5StreamParser
 .
 h
 "
+#
+include
+"
+nsHtml5AtomTable
+.
+h
+"
 class
 nsHtml5Parser
 :
@@ -599,6 +606,13 @@ nsRefPtr
 nsHtml5StreamParser
 >
 mStreamParser
+;
+const
+nsAutoPtr
+<
+nsHtml5AtomTable
+>
+mAtomTable
 ;
 }
 ;

@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsHtml5AtomTable
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -153,6 +160,7 @@ ns
 ;
 nsIContent
 *
+*
 node
 ;
 PRBool
@@ -186,6 +194,7 @@ nsIAtom
 name
 nsIContent
 *
+*
 node
 PRBool
 scoping
@@ -210,6 +219,7 @@ nsHtml5ElementName
 elementName
 nsIContent
 *
+*
 node
 )
 ;
@@ -221,6 +231,7 @@ nsHtml5ElementName
 *
 elementName
 nsIContent
+*
 *
 node
 nsHtml5HtmlAttributes
@@ -237,6 +248,7 @@ nsHtml5ElementName
 elementName
 nsIContent
 *
+*
 node
 nsIAtom
 *
@@ -251,6 +263,7 @@ nsHtml5ElementName
 *
 elementName
 nsIContent
+*
 *
 node
 nsIAtom
@@ -292,13 +305,6 @@ releaseStatics
 (
 )
 ;
-#
-include
-"
-nsHtml5StackNodeHSupplement
-.
-h
-"
 }
 ;
 #

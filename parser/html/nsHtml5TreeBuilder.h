@@ -236,6 +236,7 @@ contextNamespace
 ;
 nsIContent
 *
+*
 contextNode
 ;
 jArray
@@ -262,9 +263,11 @@ listPtr
 ;
 nsIContent
 *
+*
 formPointer
 ;
 nsIContent
+*
 *
 headPointer
 ;
@@ -700,6 +703,7 @@ insertIntoFosterParent
 (
 nsIContent
 *
+*
 child
 )
 ;
@@ -841,6 +845,7 @@ nsHtml5HtmlAttributes
 attributes
 nsIContent
 *
+*
 form
 )
 ;
@@ -856,6 +861,7 @@ nsHtml5HtmlAttributes
 *
 attributes
 nsIContent
+*
 *
 form
 )
@@ -899,6 +905,7 @@ nsHtml5HtmlAttributes
 attributes
 nsIContent
 *
+*
 form
 )
 ;
@@ -930,6 +937,7 @@ requestSuspension
 ;
 nsIContent
 *
+*
 createElement
 (
 PRInt32
@@ -944,6 +952,7 @@ attributes
 ;
 nsIContent
 *
+*
 createElement
 (
 PRInt32
@@ -955,11 +964,13 @@ nsHtml5HtmlAttributes
 *
 attributes
 nsIContent
+*
 *
 form
 )
 ;
 nsIContent
+*
 *
 createHtmlElementSetAsRoot
 (
@@ -973,6 +984,7 @@ detachFromParent
 (
 nsIContent
 *
+*
 element
 )
 ;
@@ -980,6 +992,7 @@ PRBool
 hasChildren
 (
 nsIContent
+*
 *
 element
 )
@@ -989,8 +1002,10 @@ appendElement
 (
 nsIContent
 *
+*
 child
 nsIContent
+*
 *
 newParent
 )
@@ -1000,8 +1015,10 @@ appendChildrenToNewParent
 (
 nsIContent
 *
+*
 oldParent
 nsIContent
+*
 *
 newParent
 )
@@ -1011,11 +1028,14 @@ insertFosterParentedChild
 (
 nsIContent
 *
+*
 child
 nsIContent
 *
+*
 table
 nsIContent
+*
 *
 stackParent
 )
@@ -1032,8 +1052,10 @@ PRInt32
 length
 nsIContent
 *
+*
 table
 nsIContent
+*
 *
 stackParent
 )
@@ -1042,6 +1064,7 @@ void
 appendCharacters
 (
 nsIContent
+*
 *
 parent
 PRUnichar
@@ -1057,6 +1080,7 @@ void
 appendComment
 (
 nsIContent
+*
 *
 parent
 PRUnichar
@@ -1085,6 +1109,7 @@ addAttributesToElement
 (
 nsIContent
 *
+*
 element
 nsHtml5HtmlAttributes
 *
@@ -1095,6 +1120,7 @@ void
 markMalformedIfScript
 (
 nsIContent
+*
 *
 elt
 )
@@ -1135,6 +1161,7 @@ nsIAtom
 name
 nsIContent
 *
+*
 node
 )
 ;
@@ -1147,6 +1174,7 @@ nsIAtom
 *
 name
 nsIContent
+*
 *
 node
 )
@@ -1163,6 +1191,7 @@ PRInt32
 ns
 nsIContent
 *
+*
 node
 PRBool
 quirks
@@ -1171,6 +1200,7 @@ quirks
 protected
 :
 nsIContent
+*
 *
 currentNode
 (
