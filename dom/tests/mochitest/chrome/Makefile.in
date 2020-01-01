@@ -262,6 +262,14 @@ file_DOM_element_instanceof
 .
 xul
 \
+test_bug830858
+.
+xul
+\
+file_bug830858
+.
+xul
+\
 (
 NULL
 )
