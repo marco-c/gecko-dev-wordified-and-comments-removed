@@ -2268,6 +2268,13 @@ DestinationStream
 )
 const
 {
+if
+(
+Destination
+(
+)
+)
+{
 return
 Destination
 (
@@ -2277,6 +2284,10 @@ Destination
 Stream
 (
 )
+;
+}
+return
+nullptr
 ;
 }
 double
