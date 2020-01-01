@@ -442,6 +442,17 @@ GraphTime
 aEnd
 )
 ;
+void
+ProduceDataForStreamsBlockByBlock
+(
+uint32_t
+aStreamIndex
+GraphTime
+aFrom
+GraphTime
+aTo
+)
+;
 bool
 WillUnderrun
 (
