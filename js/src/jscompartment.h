@@ -953,14 +953,15 @@ rt
 -
 >
 gcIncrementalState
->
+=
+=
 js
 :
 :
 gc
 :
 :
-MARK
+SWEEP
 ;
 }
 size_t
