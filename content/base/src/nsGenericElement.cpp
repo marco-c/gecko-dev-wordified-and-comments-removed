@@ -9668,9 +9668,6 @@ PR_TRUE
 ;
 }
 }
-#
-ifdef
-MOZ_SVG
 else
 if
 (
@@ -9703,6 +9700,7 @@ nsSVGFeatures
 :
 HaveFeature
 (
+aObject
 aFeature
 )
 )
@@ -9751,8 +9749,6 @@ PR_TRUE
 ;
 }
 }
-#
-endif
 #
 ifdef
 MOZ_SMIL
