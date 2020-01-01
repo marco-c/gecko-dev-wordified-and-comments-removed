@@ -251,7 +251,7 @@ if
 CONFIG
 [
 '
-MOZ_ENABLE_DBUS
+NECKO_WIFI_DBUS
 '
 ]
 :
