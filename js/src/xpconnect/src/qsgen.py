@@ -535,11 +535,6 @@ kind
 '
 method
 '
-and
-not
-member
-.
-implicit_jscontext
 :
         
 haveCallee
@@ -894,12 +889,8 @@ readonly
 '
 optional_argc
 '
-                                              
 '
 traceable
-'
-'
-implicit_jscontext
 '
 )
 :
@@ -3125,20 +3116,6 @@ if
 name
 }
 )
-{
-\
-n
-"
-                
-"
-xpc_qsThrowBadArgWithCcx
-(
-ccx
-NS_ERROR_XPC_BAD_CONVERT_JS
-%
-d
-)
-;
 \
 n
 "
@@ -3150,13 +3127,7 @@ JS_FALSE
 \
 n
 "
-                
-"
-}
-"
 )
-%
-i
             
 f
 .
@@ -6210,21 +6181,6 @@ params
 if
 member
 .
-implicit_jscontext
-:
-                
-argv
-.
-append
-(
-'
-cx
-'
-)
-            
-if
-member
-.
 optional_argc
 :
                 
@@ -6310,20 +6266,6 @@ args
 "
 arg0
 "
-            
-if
-member
-.
-implicit_jscontext
-:
-                
-args
-=
-"
-cx
-"
-+
-args
         
 f
 .
@@ -9819,7 +9761,7 @@ readonly
 setterName
 =
 '
-xpc_qsGetterOnlyPropertyStub
+js_GetterOnlyPropertyStub
 '
     
 else
