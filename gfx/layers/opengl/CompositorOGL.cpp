@@ -3256,6 +3256,8 @@ texCoordRect
 =
 IntRect
 (
+roundf
+(
 aTexCoordRect
 .
 x
@@ -3268,6 +3270,9 @@ GetSize
 )
 .
 width
+)
+roundf
+(
 aTexCoordRect
 .
 y
@@ -3280,6 +3285,9 @@ GetSize
 )
 .
 height
+)
+roundf
+(
 aTexCoordRect
 .
 width
@@ -3292,6 +3300,9 @@ GetSize
 )
 .
 width
+)
+roundf
+(
 aTexCoordRect
 .
 height
@@ -3304,6 +3315,7 @@ GetSize
 )
 .
 height
+)
 )
 ;
 bool
