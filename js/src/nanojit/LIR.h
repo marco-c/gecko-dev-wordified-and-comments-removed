@@ -4945,9 +4945,6 @@ x
 ;
 class
 LirBuffer
-:
-public
-GCFinalizedObject
 {
 public
 :
@@ -4955,11 +4952,6 @@ LirBuffer
 (
 Allocator
 &
-)
-;
-~
-LirBuffer
-(
 )
 ;
 void
@@ -5096,11 +5088,8 @@ LirBufWriter
 public
 LirWriter
 {
-DWB
-(
 LirBuffer
 *
-)
 _buf
 ;
 public
