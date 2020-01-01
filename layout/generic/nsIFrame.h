@@ -239,7 +239,7 @@ define
 NS_INTRINSIC_WIDTH_UNKNOWN
 nscoord_MIN
 typedef
-PRUint32
+PRUint64
 nsFrameState
 ;
 #
