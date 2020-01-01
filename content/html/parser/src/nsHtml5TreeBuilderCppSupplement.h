@@ -138,6 +138,14 @@ mParser
 (
 aParser
 )
+formPointer
+(
+nsnull
+)
+headPointer
+(
+nsnull
+)
 {
 }
 nsHtml5TreeBuilder

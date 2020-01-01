@@ -458,6 +458,10 @@ xpconnect
 \
 util
 \
+webshell
+\
+docshell
+\
 (
 NULL
 )

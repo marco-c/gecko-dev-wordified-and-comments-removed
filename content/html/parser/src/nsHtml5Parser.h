@@ -697,6 +697,11 @@ MaybePostContinueEvent
 (
 )
 ;
+nsresult
+PerformCharsetSwitch
+(
+)
+;
 void
 ParseUntilSuspend
 (
@@ -774,6 +779,9 @@ mCharsetSource
 ;
 nsCString
 mCharset
+;
+nsCString
+mPendingCharset
 ;
 nsCOMPtr
 <
