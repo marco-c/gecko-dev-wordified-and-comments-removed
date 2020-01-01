@@ -1003,7 +1003,10 @@ nsAttrSelector
 nsAutoString
 lowercase
 ;
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 aAttr
 lowercase
@@ -1082,7 +1085,10 @@ nsAttrSelector
 nsAutoString
 lowercase
 ;
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 aAttr
 lowercase
@@ -1612,7 +1618,10 @@ aTag
 nsAutoString
 lowercase
 ;
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 aTag
 lowercase
