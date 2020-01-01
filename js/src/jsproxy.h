@@ -22,7 +22,10 @@ namespace
 js
 {
 class
+JS_FRIEND_API
+(
 Wrapper
+)
 ;
 class
 JS_FRIEND_API
