@@ -319,9 +319,6 @@ idl
 *
 /
 interface
-Comment
-;
-interface
 StyleSheetList
 ;
 interface

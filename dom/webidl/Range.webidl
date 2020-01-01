@@ -197,9 +197,6 @@ apply
 *
 /
 interface
-ClientRect
-;
-interface
 Range
 {
 [

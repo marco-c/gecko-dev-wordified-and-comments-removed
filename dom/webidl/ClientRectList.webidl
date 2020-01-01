@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-ClientRect
-;
-interface
 ClientRectList
 {
 readonly
