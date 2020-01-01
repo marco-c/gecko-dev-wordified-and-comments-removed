@@ -14331,10 +14331,10 @@ InvalidateSubtreeFor
 (
 presShell
 aKid
-nsIAccessibleEvent
+nsIAccessibilityService
 :
 :
-EVENT_DOM_DESTROY
+NODE_REMOVE
 )
 ;
 }

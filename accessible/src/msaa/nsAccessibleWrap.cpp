@@ -7424,16 +7424,7 @@ eventType
 nsIAccessibleEvent
 :
 :
-EVENT_ASYNCH_HIDE
-|
-|
-eventType
-=
-=
-nsIAccessibleEvent
-:
-:
-EVENT_DOM_DESTROY
+EVENT_HIDE
 )
 {
 accessible

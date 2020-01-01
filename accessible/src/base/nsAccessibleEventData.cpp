@@ -181,7 +181,7 @@ nsIAccessible
 *
 aAccessible
 PRBool
-aIsAsynch
+aIsAsync
 EEventRule
 aEventRule
 )
@@ -194,6 +194,10 @@ mEventRule
 (
 aEventRule
 )
+mIsAsync
+(
+aIsAsync
+)
 mAccessible
 (
 aAccessible
@@ -201,7 +205,6 @@ aAccessible
 {
 CaptureIsFromUserInput
 (
-aIsAsynch
 )
 ;
 }
@@ -216,7 +219,7 @@ nsIDOMNode
 *
 aDOMNode
 PRBool
-aIsAsynch
+aIsAsync
 EEventRule
 aEventRule
 )
@@ -229,6 +232,10 @@ mEventRule
 (
 aEventRule
 )
+mIsAsync
+(
+aIsAsync
+)
 mDOMNode
 (
 aDOMNode
@@ -236,7 +243,6 @@ aDOMNode
 {
 CaptureIsFromUserInput
 (
-aIsAsynch
 )
 ;
 }
@@ -306,8 +312,6 @@ nsAccEvent
 :
 CaptureIsFromUserInput
 (
-PRBool
-aIsAsynch
 )
 {
 nsCOMPtr
@@ -389,7 +393,7 @@ return
 if
 (
 !
-aIsAsynch
+mIsAsync
 )
 {
 PrepareForEvent

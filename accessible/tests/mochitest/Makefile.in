@@ -659,6 +659,10 @@ test_events_caretmove
 .
 html
 \
+test_events_coalescence
+.
+html
+\
 test_events_doc
 .
 html
@@ -676,10 +680,6 @@ test_events_focus
 xul
 \
 test_events_mutation
-.
-html
-\
-test_events_mutation_coalesce
 .
 html
 \

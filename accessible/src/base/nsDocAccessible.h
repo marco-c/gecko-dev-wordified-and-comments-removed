@@ -570,6 +570,13 @@ PRBool
 aIsAsynch
 )
 ;
+enum
+EEventFiringType
+{
+eNormalEvent
+eDelayedEvent
+}
+;
 nsresult
 FireShowHideEvents
 (
@@ -580,8 +587,10 @@ PRBool
 aAvoidOnThisNode
 PRUint32
 aEventType
+EEventFiringType
+aDelayedOrNormal
 PRBool
-aDelay
+aIsAsyncChange
 PRBool
 aForceIsFromUserInput
 )

@@ -14490,10 +14490,10 @@ InvalidateSubtreeFor
 (
 this
 aContent
-nsIAccessibleEvent
+nsIAccessibilityService
 :
 :
-EVENT_ASYNCH_SIGNIFICANT_CHANGE
+FRAME_SIGNIFICANT_CHANGE
 )
 ;
 }
