@@ -6156,16 +6156,6 @@ hidePopup
 (
 )
 ;
-popupset
-.
-removeChild
-(
-panels
-[
-i
-]
-)
-;
 }
 let
 id
