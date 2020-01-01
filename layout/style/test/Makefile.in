@@ -627,6 +627,10 @@ test_initial_computation
 .
 html
 \
+test_parse_rule
+.
+html
+\
 test_property_database
 .
 html
