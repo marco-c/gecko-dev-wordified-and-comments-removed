@@ -6905,8 +6905,10 @@ depth
 uint16
 i
 ;
+nsCOMPtr
+<
 nsIInterfaceInfo
-*
+>
 parent
 ;
 XPC_LOG_INDENT
@@ -6918,8 +6920,10 @@ mInfo
 >
 GetParent
 (
-&
+getter_AddRefs
+(
 parent
+)
 )
 ;
 XPC_LOG_ALWAYS
@@ -6931,6 +6935,10 @@ parent
 x
 "
 parent
+.
+get
+(
+)
 )
 )
 ;
