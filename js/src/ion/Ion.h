@@ -373,6 +373,16 @@ bool
 newType
 )
 ;
+MethodStatus
+CanEnterUsingFastInvoke
+(
+JSContext
+*
+cx
+HandleScript
+script
+)
+;
 enum
 IonExecStatus
 {
