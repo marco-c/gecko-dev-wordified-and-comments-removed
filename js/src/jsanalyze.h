@@ -612,6 +612,12 @@ JSOP_EQ
 case
 JSOP_NE
 :
+case
+JSOP_STRICTEQ
+:
+case
+JSOP_STRICTNE
+:
 return
 op
 ;
