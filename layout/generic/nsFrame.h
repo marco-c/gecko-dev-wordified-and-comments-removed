@@ -769,13 +769,6 @@ GetType
 )
 const
 ;
-virtual
-bool
-IsContainingBlock
-(
-)
-const
-;
 NS_IMETHOD
 GetSelected
 (

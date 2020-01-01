@@ -168,17 +168,6 @@ aStatus
 ;
 virtual
 bool
-IsContainingBlock
-(
-)
-const
-{
-return
-true
-;
-}
-virtual
-bool
 IsFrameOfType
 (
 PRUint32

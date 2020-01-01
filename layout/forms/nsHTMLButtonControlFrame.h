@@ -172,13 +172,6 @@ nsReflowStatus
 aStatus
 )
 ;
-virtual
-bool
-IsContainingBlock
-(
-)
-const
-;
 NS_IMETHOD
 HandleEvent
 (

@@ -78,13 +78,6 @@ aLists
 )
 ;
 virtual
-bool
-IsContainingBlock
-(
-)
-const
-;
-virtual
 nsIAtom
 *
 GetType

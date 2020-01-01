@@ -346,13 +346,6 @@ GetType
 )
 const
 ;
-virtual
-bool
-IsContainingBlock
-(
-)
-const
-;
 #
 ifdef
 DEBUG

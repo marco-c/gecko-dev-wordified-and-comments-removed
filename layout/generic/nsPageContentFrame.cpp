@@ -621,16 +621,3 @@ aResult
 }
 #
 endif
-bool
-nsPageContentFrame
-:
-:
-IsContainingBlock
-(
-)
-const
-{
-return
-PR_TRUE
-;
-}

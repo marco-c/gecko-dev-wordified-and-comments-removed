@@ -446,13 +446,6 @@ const
 ;
 virtual
 bool
-IsContainingBlock
-(
-)
-const
-;
-virtual
-bool
 IsFloatContainingBlock
 (
 )

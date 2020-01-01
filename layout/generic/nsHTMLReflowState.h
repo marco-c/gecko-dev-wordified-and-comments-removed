@@ -730,17 +730,6 @@ nsHTMLReflowState
 aReflowState
 )
 ;
-static
-nsIFrame
-*
-GetContainingBlockFor
-(
-const
-nsIFrame
-*
-aFrame
-)
-;
 nscoord
 CalcLineHeight
 (

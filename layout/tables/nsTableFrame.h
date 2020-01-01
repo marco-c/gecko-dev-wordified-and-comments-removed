@@ -407,13 +407,6 @@ nsHTMLReflowState
 aReflowState
 )
 ;
-virtual
-bool
-IsContainingBlock
-(
-)
-const
-;
 static
 void
 RePositionViews

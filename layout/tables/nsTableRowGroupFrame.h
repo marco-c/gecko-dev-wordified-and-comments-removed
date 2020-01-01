@@ -294,13 +294,6 @@ GetType
 )
 const
 ;
-virtual
-bool
-IsContainingBlock
-(
-)
-const
-;
 nsTableRowFrame
 *
 GetFirstRow
