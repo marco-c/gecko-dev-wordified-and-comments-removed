@@ -139,10 +139,17 @@ browser_geolocation_privatebrowsing_perwindowpb
 .
 js
 \
+browser_localStorage_privatestorageevent
+.
+js
+\
 network_geolocation
 .
 sjs
 \
+page_privatestorageevent
+.
+html
 (
 NULL
 )
