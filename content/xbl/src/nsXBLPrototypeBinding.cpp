@@ -1467,7 +1467,7 @@ void
 nsXBLPrototypeBinding
 :
 :
-Unlink
+UnlinkJSObjects
 (
 )
 {
@@ -1478,7 +1478,7 @@ mImplementation
 mImplementation
 -
 >
-Unlink
+UnlinkJSObjects
 (
 )
 ;
@@ -1496,7 +1496,7 @@ curr
 curr
 -
 >
-Unlink
+UnlinkJSObjects
 (
 )
 ;
