@@ -47345,10 +47345,6 @@ Pref
 extensions
 (
 autoconfig
-and
-system
--
-pref
 )
 dnl
 =
@@ -47426,10 +47422,6 @@ extensions
 such
 as
 autoconfig
-and
-system
--
-pref
 ]
 MOZ_PREF_EXTENSIONS
 =

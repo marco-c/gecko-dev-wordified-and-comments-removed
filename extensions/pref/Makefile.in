@@ -419,17 +419,6 @@ mk
 DIRS
 =
 autoconfig
-ifdef
-MOZ_ENABLE_GTK2
-DIRS
-+
-=
-system
--
-pref
-/
-src
-endif
 include
 (
 topsrcdir

@@ -250,11 +250,6 @@ SYSTEMPREF_MODULES
 \
 MODULE
 (
-nsSystemPrefModule
-)
-\
-MODULE
-(
 nsAutoConfigModule
 )
 #
