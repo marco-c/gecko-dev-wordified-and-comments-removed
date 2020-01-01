@@ -17882,13 +17882,6 @@ setFinishedInInterpreter
 (
 )
 ;
-#
-ifdef
-JS_METHODJIT
-leave_on_safe_point
-:
-#
-endif
 gc
 :
 :
@@ -17898,6 +17891,13 @@ cx
 true
 )
 ;
+#
+ifdef
+JS_METHODJIT
+leave_on_safe_point
+:
+#
+endif
 return
 interpReturnOK
 ?
