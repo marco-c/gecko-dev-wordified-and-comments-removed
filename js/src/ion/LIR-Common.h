@@ -17231,6 +17231,7 @@ MPhi
 ;
 class
 LPhi
+MOZ_FINAL
 :
 public
 LInstruction
@@ -18498,6 +18499,7 @@ getOperand
 ;
 class
 LAsmJSCall
+MOZ_FINAL
 :
 public
 LInstruction
