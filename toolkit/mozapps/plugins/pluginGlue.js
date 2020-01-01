@@ -22,7 +22,7 @@ content
 /
 plugins
 /
-missingPluginBinding
+pluginProblemBinding
 .
 css
 "

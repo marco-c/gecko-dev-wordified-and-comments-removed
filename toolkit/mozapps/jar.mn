@@ -360,7 +360,7 @@ mozapps
 /
 plugins
 /
-missingPlugin
+pluginProblem
 .
 xml
 (
@@ -368,7 +368,7 @@ plugins
 /
 content
 /
-missingPlugin
+pluginProblem
 .
 xml
 )
@@ -378,7 +378,7 @@ mozapps
 /
 plugins
 /
-missingPluginBinding
+pluginProblemBinding
 .
 css
 (
@@ -386,7 +386,7 @@ plugins
 /
 content
 /
-missingPluginBinding
+pluginProblemBinding
 .
 css
 )
