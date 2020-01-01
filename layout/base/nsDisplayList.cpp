@@ -2287,13 +2287,12 @@ return
 if
 (
 !
-nsDisplayTransform
-:
-:
-ShouldPrerenderTransformedContent
+aItem
+-
+>
+CanUseAsyncAnimations
 (
 aBuilder
-frame
 )
 )
 {
