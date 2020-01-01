@@ -8517,6 +8517,10 @@ const
 nsAString
 &
 aPageTitle
+const
+nsACString
+&
+aGUID
 )
 {
 return

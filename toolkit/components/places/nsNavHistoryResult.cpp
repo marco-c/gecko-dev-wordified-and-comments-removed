@@ -11826,6 +11826,10 @@ const
 nsAString
 &
 aPageTitle
+const
+nsACString
+&
+aGUID
 )
 {
 if
@@ -20068,6 +20072,10 @@ const
 nsAString
 &
 aPageTitle
+const
+nsACString
+&
+aGUID
 )
 {
 ENUMERATE_HISTORY_OBSERVERS
@@ -20076,6 +20084,7 @@ OnTitleChanged
 (
 aURI
 aPageTitle
+aGUID
 )
 )
 ;
