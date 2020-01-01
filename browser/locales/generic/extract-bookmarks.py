@@ -417,8 +417,6 @@ en
 -
 US
 /
-firefox
-/
 about
 /
 #

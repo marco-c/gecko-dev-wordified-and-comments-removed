@@ -327,8 +327,6 @@ en
 -
 US
 /
-firefox
-/
 about
 /
 #
