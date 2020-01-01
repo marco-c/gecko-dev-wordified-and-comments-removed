@@ -1118,6 +1118,10 @@ browser_tabfocus
 .
 js
 \
+browser_tabs_isActive
+.
+js
+\
 browser_tabs_owner
 .
 js
