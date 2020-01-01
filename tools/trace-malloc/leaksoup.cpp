@@ -1821,7 +1821,7 @@ PR_FALSE
 }
 for
 (
-PRBool
+PRInt32
 root_type
 =
 PR_TRUE

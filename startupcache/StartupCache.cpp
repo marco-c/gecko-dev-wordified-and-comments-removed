@@ -2149,7 +2149,7 @@ flags
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 if
