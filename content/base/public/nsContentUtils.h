@@ -2530,6 +2530,8 @@ PRBool
 aClick
 PRBool
 aIsUserTriggered
+PRBool
+aIsTrusted
 )
 ;
 static
