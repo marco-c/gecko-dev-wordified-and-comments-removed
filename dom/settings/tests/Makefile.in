@@ -100,8 +100,16 @@ html
 (
 NULL
 )
-_CHROMEMOCHITEST_FILES
+MOCHITEST_CHROME_FILES
 =
+\
+test_settings_service
+.
+xul
+\
+test_settings_service
+.
+js
 \
 (
 NULL
