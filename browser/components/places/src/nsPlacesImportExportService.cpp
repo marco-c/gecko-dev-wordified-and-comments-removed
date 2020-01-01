@@ -5279,8 +5279,9 @@ serialNumber
 +
 ;
 }
-rv
-=
+(
+void
+)
 faviconService
 -
 >
@@ -5289,12 +5290,6 @@ SetFaviconDataFromDataURL
 faviconURI
 aData
 0
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 rv
