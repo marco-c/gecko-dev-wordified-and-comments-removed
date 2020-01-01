@@ -24336,7 +24336,7 @@ NULL
 cx
 -
 >
-saveActiveCallStack
+saveActiveSegment
 (
 )
 ;
@@ -24387,7 +24387,7 @@ return
 cx
 -
 >
-restoreCallStack
+restoreSegment
 (
 )
 ;

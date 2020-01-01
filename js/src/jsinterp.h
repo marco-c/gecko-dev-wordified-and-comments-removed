@@ -361,9 +361,9 @@ varobj
 js
 :
 :
-CallStack
+CallStackSegment
 *
-cs
+css
 )
 const
 ;

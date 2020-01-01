@@ -4055,7 +4055,7 @@ varobj
 cx
 -
 >
-containingCallStack
+containingSegment
 (
 down
 )
@@ -20891,7 +20891,7 @@ cx
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
@@ -20908,7 +20908,7 @@ varobj
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
@@ -27932,7 +27932,7 @@ cx
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
@@ -27949,7 +27949,7 @@ varobj
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
@@ -28061,7 +28061,7 @@ cx
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -
@@ -28078,7 +28078,7 @@ obj
 cx
 -
 >
-activeCallStack
+activeSegment
 (
 )
 -

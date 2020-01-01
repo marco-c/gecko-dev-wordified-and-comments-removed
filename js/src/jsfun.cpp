@@ -943,7 +943,7 @@ varobj
 cx
 -
 >
-containingCallStack
+containingSegment
 (
 fp
 )
