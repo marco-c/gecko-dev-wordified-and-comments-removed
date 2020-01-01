@@ -63,6 +63,10 @@ object
     
 TEST_PROC_TIMEOUT
 =
+1200
+    
+TEST_PROC_NO_OUTPUT_TIMEOUT
+=
 300
     
 def
@@ -222,6 +226,12 @@ timeout
 CPPUnitTests
 .
 TEST_PROC_TIMEOUT
+                     
+outputTimeout
+=
+CPPUnitTests
+.
+TEST_PROC_NO_OUTPUT_TIMEOUT
 )
             
 proc
