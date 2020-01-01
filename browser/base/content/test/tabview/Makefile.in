@@ -460,14 +460,13 @@ browser_tabview_launch
 .
 js
 \
-(
-NULL
-)
-#
 browser_tabview_dragdrop
 .
 js
 \
+(
+NULL
+)
 #
 browser_tabview_group
 .
