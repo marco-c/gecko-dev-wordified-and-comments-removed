@@ -255,6 +255,7 @@ _result
 val
 )
 return
+val
 ;
 if
 (
@@ -8664,7 +8665,6 @@ _openedMenuButton
 =
 parent
 ;
-return
 PlacesViewBase
 .
 prototype
