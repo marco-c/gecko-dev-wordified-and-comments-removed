@@ -724,6 +724,11 @@ UpdateSurfaceClip
 (
 )
 ;
+gfxRect
+GetClipExtents
+(
+)
+;
 void
 PushGroup
 (
