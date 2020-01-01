@@ -3959,6 +3959,9 @@ audioPlaying
 )
 )
 {
+#
+ifdef
+MOZ_DASH
 mReader
 -
 >
@@ -3966,6 +3969,8 @@ PrepareToDecode
 (
 )
 ;
+#
+endif
 if
 (
 videoPump

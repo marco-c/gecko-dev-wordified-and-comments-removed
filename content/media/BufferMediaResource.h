@@ -571,6 +571,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+ifdef
+MOZ_DASH
 virtual
 nsresult
 OpenByteRange
@@ -589,6 +592,8 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+endif
 virtual
 nsresult
 GetCachedRanges

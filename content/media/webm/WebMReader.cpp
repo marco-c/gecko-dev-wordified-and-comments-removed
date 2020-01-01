@@ -5078,6 +5078,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+#
+ifdef
+MOZ_DASH
 MediaResource
 *
 resource
@@ -5185,6 +5188,8 @@ break
 ;
 }
 }
+#
+endif
 return
 DecodeToTarget
 (

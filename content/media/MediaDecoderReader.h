@@ -1292,6 +1292,9 @@ DecodeAudioData
 =
 0
 ;
+#
+ifdef
+MOZ_DASH
 virtual
 void
 PrepareToDecode
@@ -1299,6 +1302,8 @@ PrepareToDecode
 )
 {
 }
+#
+endif
 virtual
 bool
 DecodeVideoFrame
