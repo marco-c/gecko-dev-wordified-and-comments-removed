@@ -1356,6 +1356,9 @@ char
 *
 buffer
 ;
+size_t
+size
+;
 int
 lineno
 ;
@@ -1610,13 +1613,14 @@ buffer
 =
 NULL
 ;
+size
+=
+0
+;
 do
 {
 size_t
 len
-=
-0
-size
 =
 0
 ;
