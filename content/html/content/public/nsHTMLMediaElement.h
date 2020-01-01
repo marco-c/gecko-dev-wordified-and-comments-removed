@@ -826,7 +826,7 @@ const
 const
 gH264Codecs
 [
-6
+7
 ]
 ;
 #
