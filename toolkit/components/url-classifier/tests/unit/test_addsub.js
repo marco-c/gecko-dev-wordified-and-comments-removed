@@ -2370,6 +2370,12 @@ tableData
 "
 :
 "
+test
+-
+phish
+-
+simple
+;
 "
 }
 ;
@@ -2787,6 +2793,9 @@ testSubPartiallyMatches2
 testSubsDifferentChunks
 testSubsDifferentChunksSameHostId
 testExpireLists
+testDuplicateAddChunks
+testExpireWholeSub
+testPreventWholeSub
 ]
 )
 ;
