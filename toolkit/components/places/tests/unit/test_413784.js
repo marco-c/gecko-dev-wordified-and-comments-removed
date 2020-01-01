@@ -1,8 +1,3 @@
-version
-(
-180
-)
-;
 var
 histsvc
 =
@@ -476,7 +471,9 @@ getValueAt
 (
 0
 )
-decoded
+url
+.
+spec
 )
 ;
 do_test_finished
