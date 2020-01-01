@@ -106,7 +106,7 @@ panning
 .
 kinetic
 "
-true
+false
 )
 ;
 pref
