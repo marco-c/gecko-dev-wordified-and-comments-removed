@@ -200,3 +200,11 @@ in
 catch
 .
 js
+script
+strict
+-
+function
+-
+statements
+.
+js
