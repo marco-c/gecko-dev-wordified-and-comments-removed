@@ -17387,7 +17387,12 @@ setBottomCornerRounded
 self
 setBottomCornerRounded
 :
-NO
+nsCocoaFeatures
+:
+:
+OnLionOrLater
+(
+)
 ]
 ;
 [

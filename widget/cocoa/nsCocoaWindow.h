@@ -351,6 +351,12 @@ BOOL
 )
 rounded
 ;
+-
+(
+BOOL
+)
+bottomCornerRounded
+;
 end
 interface
 PopupWindow
