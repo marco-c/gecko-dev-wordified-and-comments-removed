@@ -272,7 +272,7 @@ ifdef
 JSGC_ROOT_ANALYSIS
 void
 *
-IsAddressableGCThing
+GetAddressableGCThing
 (
 JSRuntime
 *
