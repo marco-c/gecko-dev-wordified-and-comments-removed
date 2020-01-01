@@ -475,6 +475,10 @@ Favicons
 .
 java
 \
+FloatUtils
+.
+java
+\
 GeckoApp
 .
 java
@@ -564,6 +568,12 @@ java
 gfx
 /
 CairoUtils
+.
+java
+\
+gfx
+/
+FloatSize
 .
 java
 \
