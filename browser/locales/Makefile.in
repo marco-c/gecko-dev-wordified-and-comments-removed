@@ -1039,6 +1039,10 @@ OS_ARCH
 )
 WINNT
 )
+(
+EXIT_ON_ERROR
+)
+\
 for
 file
 in
