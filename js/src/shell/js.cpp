@@ -15278,6 +15278,8 @@ JS_FALSE
 JSStackFrame
 *
 oldfp
+=
+NULL
 ;
 if
 (
