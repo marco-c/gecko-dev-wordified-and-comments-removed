@@ -3843,10 +3843,6 @@ gcIsNeeded
 (
 0
 )
-gcWeakMapList
-(
-NULL
-)
 gcStats
 (
 thisFromCtor

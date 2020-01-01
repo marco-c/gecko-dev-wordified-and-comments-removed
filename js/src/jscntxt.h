@@ -2168,13 +2168,6 @@ gcIsNeeded
 js
 :
 :
-WeakMapBase
-*
-gcWeakMapList
-;
-js
-:
-:
 gcstats
 :
 :

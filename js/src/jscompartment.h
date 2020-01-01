@@ -1336,6 +1336,13 @@ JSObject
 *
 gcLiveArrayBuffers
 ;
+js
+:
+:
+WeakMapBase
+*
+gcWeakMapList
+;
 private
 :
 ptrdiff_t
