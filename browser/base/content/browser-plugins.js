@@ -1569,7 +1569,7 @@ getAnonymousElementByAttribute
 (
 plugin
 "
-class
+anonid
 "
 "
 installPluginLink
@@ -1620,7 +1620,7 @@ getAnonymousElementByAttribute
 (
 plugin
 "
-class
+anonid
 "
 "
 checkForUpdatesLink
@@ -1805,7 +1805,7 @@ getAnonymousElementByAttribute
 (
 plugin
 "
-class
+anonid
 "
 "
 managePluginsLink

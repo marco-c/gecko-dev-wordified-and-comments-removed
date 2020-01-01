@@ -637,6 +637,17 @@ protection
 <
 !
 ENTITY
+hidePluginBtn
+.
+label
+"
+Hide
+plugin
+"
+>
+<
+!
+ENTITY
 installPlugin
 "
 Install
