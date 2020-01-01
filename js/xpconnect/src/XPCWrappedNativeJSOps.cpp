@@ -488,11 +488,8 @@ JS_GetPropertyById
 ccx
 mainObj
 id
+&
 val
-.
-address
-(
-)
 )
 &
 &

@@ -1951,11 +1951,8 @@ JS_GetProperty
 cx
 aObject
 aProperty
+&
 val
-.
-address
-(
-)
 )
 )
 {

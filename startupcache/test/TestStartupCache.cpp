@@ -2250,11 +2250,8 @@ h
 "
 snapshot
 "
+&
 snapshot_val
-.
-address
-(
-)
 )
 &
 &
@@ -2298,10 +2295,6 @@ ss
 counts
 "
 counts
-.
-address
-(
-)
 )
 )
 ;

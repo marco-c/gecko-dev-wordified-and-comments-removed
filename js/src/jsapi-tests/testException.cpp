@@ -92,11 +92,8 @@ toObject
 "
 stack
 "
+&
 v
-.
-address
-(
-)
 )
 ;
 CHECK
