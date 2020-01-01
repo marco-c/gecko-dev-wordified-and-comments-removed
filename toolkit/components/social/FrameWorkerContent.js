@@ -3,6 +3,9 @@ use
 strict
 "
 ;
+let
+frameworker
+;
 (
 function
 (
@@ -1389,9 +1392,6 @@ DISPATCH_NORMAL
 ;
 }
 }
-;
-let
-frameworker
 ;
 const
 FrameWorkerManager
