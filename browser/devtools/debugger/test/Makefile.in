@@ -216,12 +216,6 @@ mode
 .
 js
 \
-browser_dbg_event
--
-listeners
-.
-js
-\
 browser_dbg_function
 -
 display
@@ -1276,6 +1270,12 @@ on
 dom
 -
 event
+.
+js
+\
+browser_dbg_event
+-
+listeners
 .
 js
 \
