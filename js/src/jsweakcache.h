@@ -1,9 +1,9 @@
 #
 ifndef
-jscache_h___
+jsweakcache_h___
 #
 define
-jscache_h___
+jsweakcache_h___
 #
 include
 "
