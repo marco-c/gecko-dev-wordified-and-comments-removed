@@ -362,6 +362,7 @@ global
 passwordmgr
 .
 css
+*
 skin
 /
 classic
@@ -3399,6 +3400,7 @@ global
 passwordmgr
 .
 css
+*
 skin
 /
 classic
