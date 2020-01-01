@@ -2671,7 +2671,6 @@ toggleStylePanel
 (
 )
 ;
-'
 "
 /
 >
@@ -2690,7 +2689,7 @@ label
 =
 "
 &
-inspectDOMButton
+inspectObjectButton
 .
 label
 ;
@@ -2699,7 +2698,7 @@ accesskey
 =
 "
 &
-inspectDOMButton
+inspectObjectButton
 .
 accesskey
 ;

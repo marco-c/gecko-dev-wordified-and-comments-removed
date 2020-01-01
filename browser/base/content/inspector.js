@@ -1691,6 +1691,12 @@ else
 {
 this
 .
+clearDOMPanel
+(
+)
+;
+this
+.
 openDOMPanel
 (
 )
@@ -2037,6 +2043,14 @@ this
 .
 domPanel
 .
+hidden
+=
+false
+;
+this
+.
+domPanel
+.
 openPopup
 (
 this
@@ -2164,7 +2178,7 @@ win
 )
 ;
 let
-domPanelTitle
+objectPanelTitle
 =
 this
 .
@@ -2173,9 +2187,9 @@ strings
 GetStringFromName
 (
 "
-dom
+object
 .
-domPanelTitle
+objectPanelTitle
 "
 )
 ;
@@ -2210,7 +2224,7 @@ PropertyPanel
 (
 parent
 document
-domPanelTitle
+objectPanelTitle
 {
 }
 )
