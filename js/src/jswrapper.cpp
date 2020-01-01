@@ -522,6 +522,7 @@ wrapper
 JSITER_OWNONLY
 |
 JSITER_HIDDEN
+&
 props
 )
 )
@@ -634,6 +635,7 @@ wrappedObject
 wrapper
 )
 0
+&
 props
 )
 )
@@ -907,6 +909,7 @@ wrappedObject
 wrapper
 )
 JSITER_OWNONLY
+&
 props
 )
 )

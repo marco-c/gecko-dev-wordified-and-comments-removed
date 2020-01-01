@@ -18988,6 +18988,7 @@ GetPropertyNames
 cx
 obj
 JSITER_OWNONLY
+&
 props
 )
 |
