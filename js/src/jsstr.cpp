@@ -19080,6 +19080,10 @@ FlationCoding
 fc
 )
 {
+AssertCanGC
+(
+)
+;
 size_t
 nchars
 ;

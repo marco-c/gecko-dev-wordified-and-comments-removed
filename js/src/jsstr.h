@@ -477,6 +477,10 @@ Value
 v
 )
 {
+AssertCanGC
+(
+)
+;
 #
 ifdef
 DEBUG

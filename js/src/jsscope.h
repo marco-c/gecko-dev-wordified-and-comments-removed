@@ -4495,6 +4495,10 @@ bool
 adding
 )
 {
+AssertCanGC
+(
+)
+;
 #
 ifdef
 DEBUG

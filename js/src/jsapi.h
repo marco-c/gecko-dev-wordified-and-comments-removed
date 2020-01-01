@@ -9112,6 +9112,10 @@ double
 out
 )
 {
+AssertCanGC
+(
+)
+;
 AssertArgumentsAreSane
 (
 cx
@@ -9509,6 +9513,10 @@ uint16_t
 out
 )
 {
+AssertCanGC
+(
+)
+;
 AssertArgumentsAreSane
 (
 cx
@@ -9592,6 +9600,10 @@ int32_t
 out
 )
 {
+AssertCanGC
+(
+)
+;
 AssertArgumentsAreSane
 (
 cx
@@ -9672,6 +9684,10 @@ uint32_t
 out
 )
 {
+AssertCanGC
+(
+)
+;
 AssertArgumentsAreSane
 (
 cx
@@ -9755,6 +9771,10 @@ int64_t
 out
 )
 {
+AssertCanGC
+(
+)
+;
 AssertArgumentsAreSane
 (
 cx
@@ -9838,6 +9858,10 @@ uint64_t
 out
 )
 {
+AssertCanGC
+(
+)
+;
 AssertArgumentsAreSane
 (
 cx
