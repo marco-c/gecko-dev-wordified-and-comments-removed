@@ -480,6 +480,14 @@ nsHTMLSelectOptGroupAccessible
 {
 }
 NS_IMETHOD
+GetRole
+(
+PRUint32
+*
+aRole
+)
+;
+NS_IMETHOD
 GetState
 (
 PRUint32
@@ -513,6 +521,11 @@ GetNumActions
 PRUint8
 *
 _retval
+)
+;
+void
+CacheChildren
+(
 )
 ;
 }
