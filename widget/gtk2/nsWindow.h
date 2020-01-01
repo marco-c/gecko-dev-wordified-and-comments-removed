@@ -303,17 +303,6 @@ aListenForResizes
 )
 ;
 void
-InitKeyEvent
-(
-nsKeyEvent
-&
-aEvent
-GdkEventKey
-*
-aGdkEvent
-)
-;
-void
 DispatchActivateEvent
 (
 void
