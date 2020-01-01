@@ -1665,7 +1665,7 @@ d
 version
 )
 ;
-NS_PathifyURI
+PathifyURI
 (
 uri
 cachePath

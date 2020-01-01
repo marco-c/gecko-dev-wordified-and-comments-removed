@@ -33,7 +33,7 @@ scache
 {
 NS_EXPORT
 nsresult
-NS_NewObjectInputStreamFromBuffer
+NewObjectInputStreamFromBuffer
 (
 char
 *
@@ -48,7 +48,7 @@ stream
 ;
 NS_EXPORT
 nsresult
-NS_NewObjectOutputWrappedStorageStream
+NewObjectOutputWrappedStorageStream
 (
 nsIObjectOutputStream
 *
@@ -64,7 +64,7 @@ wantDebugStream
 ;
 NS_EXPORT
 nsresult
-NS_NewBufferFromStorageStream
+NewBufferFromStorageStream
 (
 nsIStorageStream
 *
@@ -80,7 +80,7 @@ len
 ;
 NS_EXPORT
 nsresult
-NS_PathifyURI
+PathifyURI
 (
 nsIURI
 *

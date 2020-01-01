@@ -89,7 +89,7 @@ scache
 {
 NS_EXPORT
 nsresult
-NS_NewObjectInputStreamFromBuffer
+NewObjectInputStreamFromBuffer
 (
 char
 *
@@ -176,7 +176,7 @@ NS_OK
 }
 NS_EXPORT
 nsresult
-NS_NewObjectOutputWrappedStorageStream
+NewObjectOutputWrappedStorageStream
 (
 nsIObjectOutputStream
 *
@@ -338,7 +338,7 @@ NS_OK
 }
 NS_EXPORT
 nsresult
-NS_NewBufferFromStorageStream
+NewBufferFromStorageStream
 (
 nsIStorageStream
 *
@@ -618,7 +618,7 @@ PR_TRUE
 }
 NS_EXPORT
 nsresult
-NS_PathifyURI
+PathifyURI
 (
 nsIURI
 *
@@ -1026,7 +1026,7 @@ rv
 ;
 rv
 =
-NS_PathifyURI
+PathifyURI
 (
 jarFileURI
 out

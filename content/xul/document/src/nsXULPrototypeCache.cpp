@@ -1686,7 +1686,7 @@ kXULCachePrefix
 nsresult
 rv
 =
-NS_PathifyURI
+PathifyURI
 (
 uri
 spec
@@ -1757,7 +1757,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 rv
 =
-NS_NewObjectInputStreamFromBuffer
+NewObjectInputStreamFromBuffer
 (
 buf
 len
@@ -1917,7 +1917,7 @@ else
 {
 rv
 =
-NS_NewObjectOutputWrappedStorageStream
+NewObjectOutputWrappedStorageStream
 (
 getter_AddRefs
 (
@@ -2036,7 +2036,7 @@ len
 ;
 rv
 =
-NS_NewBufferFromStorageStream
+NewBufferFromStorageStream
 (
 storageStream
 getter_Transfers
@@ -2061,7 +2061,7 @@ kXULCachePrefix
 ;
 rv
 =
-NS_PathifyURI
+PathifyURI
 (
 uri
 spec
@@ -2154,7 +2154,7 @@ kXULCachePrefix
 nsresult
 rv
 =
-NS_PathifyURI
+PathifyURI
 (
 uri
 spec
@@ -2604,7 +2604,7 @@ rv
 )
 rv
 =
-NS_NewObjectInputStreamFromBuffer
+NewObjectInputStreamFromBuffer
 (
 buf
 len
@@ -2729,7 +2729,7 @@ storageStream
 ;
 rv
 =
-NS_NewObjectOutputWrappedStorageStream
+NewObjectOutputWrappedStorageStream
 (
 getter_AddRefs
 (
