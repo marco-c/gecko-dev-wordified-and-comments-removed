@@ -215,7 +215,7 @@ JAVASCRIPT
 priv
 -
 >
-LookupExpandoObject
+LookupExpandoObjectPreserveColor
 (
 closure
 -
