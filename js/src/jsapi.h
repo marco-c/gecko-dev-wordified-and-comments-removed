@@ -5143,9 +5143,7 @@ ToNumber
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 double
 *

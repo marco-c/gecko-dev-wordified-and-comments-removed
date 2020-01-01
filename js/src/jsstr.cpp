@@ -7319,9 +7319,11 @@ ToNumber
 (
 cx
 args
-[
+.
+handleAt
+(
 1
-]
+)
 &
 d
 )
@@ -16184,9 +16186,11 @@ ToNumber
 (
 cx
 args
-[
+.
+handleAt
+(
 1
-]
+)
 &
 d
 )
