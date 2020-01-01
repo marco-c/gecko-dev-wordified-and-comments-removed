@@ -4041,11 +4041,6 @@ progressDlg
 Makefile
 embedding
 /
-config
-/
-Makefile
-embedding
-/
 tests
 /
 Makefile
