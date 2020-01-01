@@ -293,7 +293,6 @@ flag
 ;
 ok
 (
-!
 aEditor
 .
 hasFlag
@@ -305,9 +304,7 @@ unsaved
 "
 new
 editor
-does
-not
-have
+has
 UNSAVED
 flag
 "
