@@ -1265,6 +1265,11 @@ cjk_ideographic
 )
 CSS_KEY
 (
+clip
+clip
+)
+CSS_KEY
+(
 close
 -
 quote
@@ -1470,6 +1475,11 @@ CSS_KEY
 (
 ellipse
 ellipse
+)
+CSS_KEY
+(
+ellipsis
+ellipsis
 )
 CSS_KEY
 (

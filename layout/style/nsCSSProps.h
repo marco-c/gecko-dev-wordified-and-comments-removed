@@ -1472,6 +1472,13 @@ kTextDecorationStyleKTable
 static
 const
 PRInt32
+kTextOverflowKTable
+[
+]
+;
+static
+const
+PRInt32
 kTextTransformKTable
 [
 ]

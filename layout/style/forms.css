@@ -65,6 +65,12 @@ bidi
 :
 inherit
 ;
+text
+-
+overflow
+:
+inherit
+;
 height
 :
 100
@@ -2924,6 +2930,12 @@ before
 unicode
 -
 bidi
+:
+inherit
+;
+text
+-
+overflow
 :
 inherit
 ;

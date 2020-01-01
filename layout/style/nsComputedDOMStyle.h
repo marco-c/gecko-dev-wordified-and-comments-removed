@@ -1236,6 +1236,12 @@ DoGetTextIndent
 ;
 nsIDOMCSSValue
 *
+DoGetTextOverflow
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetTextTransform
 (
 )
