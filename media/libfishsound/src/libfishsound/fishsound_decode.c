@@ -118,7 +118,8 @@ fsound
 NULL
 )
 return
-FISH_SOUND_ERR_BAD
+-
+1
 ;
 #
 if
@@ -193,7 +194,8 @@ fsound
 NULL
 )
 return
-FISH_SOUND_ERR_BAD
+-
+1
 ;
 #
 if
@@ -267,7 +269,8 @@ fsound
 NULL
 )
 return
-FISH_SOUND_ERR_BAD
+-
+1
 ;
 #
 if
