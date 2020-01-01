@@ -743,9 +743,9 @@ jsprf
 .
 h
 \
-jsprototypes
+jsproto
 .
-h
+tbl
 \
 jsprvtd
 .
