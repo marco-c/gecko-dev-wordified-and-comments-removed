@@ -6778,7 +6778,11 @@ infoURL
 =
 "
 ?
+v
+=
 "
++
+WEAVE_VERSION
 ;
 Svc
 .
