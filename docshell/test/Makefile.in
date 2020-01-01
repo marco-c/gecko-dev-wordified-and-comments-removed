@@ -476,6 +476,10 @@ bug369814
 .
 zip
 \
+bug369814
+.
+jar
+\
 test_bug384014
 .
 html
