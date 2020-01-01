@@ -1104,7 +1104,7 @@ ipc_channel_posix
 .
 cc
 \
-process_watcher_posix
+process_watcher_posix_sigchld
 .
 cc
 \
