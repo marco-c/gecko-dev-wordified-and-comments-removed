@@ -690,6 +690,14 @@ SOURCE_REPO
 "
 endif
 ifdef
+MOZ_TOOLKIT_SEARCH
+DEFINES
++
+=
+-
+DMOZ_TOOLKIT_SEARCH
+endif
+ifdef
 ENABLE_TESTS
 DIRS
 +
@@ -698,10 +706,6 @@ tests
 endif
 EXTRA_JS_MODULES
 =
-\
-Services
-.
-jsm
 \
 InlineSpellChecker
 .
@@ -722,6 +726,10 @@ debug
 js
 \
 LightweightThemeConsumer
+.
+jsm
+\
+Services
 .
 jsm
 \
