@@ -3973,7 +3973,7 @@ PLayerTransactionParent
 RenderFrameParent
 :
 :
-AllocPLayerTransaction
+AllocPLayerTransactionParent
 (
 )
 {
@@ -4020,7 +4020,7 @@ bool
 RenderFrameParent
 :
 :
-DeallocPLayerTransaction
+DeallocPLayerTransactionParent
 (
 PLayerTransactionParent
 *

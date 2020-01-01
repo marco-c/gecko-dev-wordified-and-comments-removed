@@ -77,7 +77,7 @@ PTestShellCommandParent
 TestShellParent
 :
 :
-AllocPTestShellCommand
+AllocPTestShellCommandParent
 (
 const
 nsString
@@ -96,7 +96,7 @@ bool
 TestShellParent
 :
 :
-DeallocPTestShellCommand
+DeallocPTestShellCommandParent
 (
 PTestShellCommandParent
 *

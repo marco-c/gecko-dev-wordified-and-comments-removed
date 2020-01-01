@@ -61,14 +61,14 @@ protected
 virtual
 PLayerTransactionChild
 *
-AllocPLayerTransaction
+AllocPLayerTransactionChild
 (
 )
 MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPLayerTransaction
+DeallocPLayerTransactionChild
 (
 PLayerTransactionChild
 *
