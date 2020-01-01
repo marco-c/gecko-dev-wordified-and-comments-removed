@@ -6,6 +6,11 @@ TEST_ID
 "
 ;
 const
+TEST_HELPER_TIMEOUT
+=
+1000
+;
+const
 TEST_FILES
 =
 [
@@ -366,7 +371,7 @@ length
 ;
 do_timeout
 (
-100
+TEST_HELPER_TIMEOUT
 testUpdate
 )
 ;

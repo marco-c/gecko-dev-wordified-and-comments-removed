@@ -16,6 +16,11 @@ partial_in_use_win
 mar
 "
 ;
+const
+TEST_HELPER_TIMEOUT
+=
+1000
+;
 var
 TEST_FILES
 =
@@ -441,7 +446,7 @@ length
 ;
 do_timeout
 (
-100
+TEST_HELPER_TIMEOUT
 testUpdate
 )
 ;
