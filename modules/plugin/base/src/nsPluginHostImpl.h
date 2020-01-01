@@ -337,6 +337,10 @@ aFullPath
 const
 char
 *
+aVersion
+const
+char
+*
 const
 *
 aMimeTypes
@@ -637,6 +641,9 @@ mFileName
 ;
 nsCString
 mFullPath
+;
+nsCString
+mVersion
 ;
 PRInt64
 mLastModifiedTime
