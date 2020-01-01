@@ -446,9 +446,6 @@ regchrome
 regxpcom
 *
 \
-xpcshell
-*
-\
 (
 NULL
 )
