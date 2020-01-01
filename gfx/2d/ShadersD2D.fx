@@ -3276,6 +3276,11 @@ SampleTextTexture
 pass
 Unmasked
 {
+SetRasterizerState
+(
+TextureRast
+)
+;
 SetBlendState
 (
 bTextBlend
@@ -3328,6 +3333,11 @@ SampleTextTexturePS
 pass
 Masked
 {
+SetRasterizerState
+(
+TextureRast
+)
+;
 SetBlendState
 (
 bTextBlend
