@@ -945,6 +945,15 @@ StopPreservingSelection
 (
 )
 ;
+static
+nsresult
+GetTextNodeTag
+(
+nsAString
+&
+aOutString
+)
+;
 nsresult
 SplitNodeImpl
 (
