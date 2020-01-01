@@ -3274,9 +3274,14 @@ returnValue
 ;
 JS_ASSERT_IF
 (
+ok
+&
+&
+(
 flags
 &
 JSINVOKE_CONSTRUCT
+)
 !
 args
 .
