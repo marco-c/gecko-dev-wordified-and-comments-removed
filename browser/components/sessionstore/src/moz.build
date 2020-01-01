@@ -164,6 +164,11 @@ EXTRA_PP_JS_MODULES
 =
 [
 '
+SessionSaver
+.
+jsm
+'
+'
 SessionStore
 .
 jsm
