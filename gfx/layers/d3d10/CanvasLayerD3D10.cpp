@@ -501,9 +501,15 @@ PR_TRUE
 }
 if
 (
-!
 mUsingSharedTexture
 )
+{
+mNeedsYFlip
+=
+PR_FALSE
+;
+}
+else
 {
 CD3D10_TEXTURE2D_DESC
 desc
