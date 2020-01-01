@@ -224,6 +224,7 @@ RecvStop
 (
 )
 {
+unsigned
 int
 numChildren
 =
