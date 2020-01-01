@@ -1127,7 +1127,7 @@ nsGUIEvent
 aEvent
 )
 ;
-void
+bool
 DispatchCrossProcessEvent
 (
 nsEvent
@@ -1136,6 +1136,9 @@ aEvent
 nsIFrameLoader
 *
 remote
+nsEventStatus
+*
+aStatus
 )
 ;
 bool
