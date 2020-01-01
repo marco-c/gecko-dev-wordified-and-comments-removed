@@ -489,6 +489,10 @@ test_bug400705
 .
 xhtml
 \
+test_bug403162
+.
+xhtml
+\
 bug310107
 -
 resource
