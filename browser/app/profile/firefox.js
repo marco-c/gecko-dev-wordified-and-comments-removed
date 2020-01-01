@@ -10927,6 +10927,17 @@ for
 firefox
 \
 "
+\
+"
+builtin
+\
+"
+:
+\
+"
+true
+\
+"
 }
 "
 )

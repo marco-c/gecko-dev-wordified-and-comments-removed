@@ -97,6 +97,10 @@ browser_blocklist
 .
 js
 \
+browser_defaults
+.
+js
+\
 browser_addons
 .
 js
