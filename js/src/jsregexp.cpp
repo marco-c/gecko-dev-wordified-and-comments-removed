@@ -26559,9 +26559,8 @@ id
 \
 Value
 tmp
-(
+=
 valinit
-)
 ;
 \
 ok
@@ -26625,7 +26624,10 @@ out
 }
 DEFVAL
 (
+StringTag
+(
 matchstr
+)
 INT_TO_JSID
 (
 0
@@ -26880,6 +26882,8 @@ out
 }
 Value
 tmp
+=
+StringTag
 (
 parstr
 )
@@ -26997,7 +27001,10 @@ indexAtom
 ;
 DEFVAL
 (
+StringTag
+(
 str
+)
 ATOM_TO_JSID
 (
 cx
@@ -30888,7 +30895,7 @@ str
 return
 NULL
 ;
-AutoValueRooter
+AutoStringRooter
 tvr
 (
 cx

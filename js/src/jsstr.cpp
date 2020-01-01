@@ -3114,7 +3114,10 @@ INT_TO_JSID
 (
 i
 )
+StringTag
+(
 str1
+)
 NULL
 NULL
 STRING_ELEMENT_ATTRS
@@ -3244,7 +3247,10 @@ INT_TO_JSID
 (
 slot
 )
+StringTag
+(
 str1
+)
 NULL
 NULL
 STRING_ELEMENT_ATTRS
@@ -8433,6 +8439,8 @@ false
 ;
 Value
 v
+=
+StringTag
 (
 matchstr
 )
@@ -8540,9 +8548,12 @@ INT_TO_JSID
 (
 0
 )
+StringTag
+(
 g
 .
 patstr
+)
 )
 &
 &
@@ -8591,7 +8602,10 @@ atomState
 .
 inputAtom
 )
+StringTag
+(
 textstr
+)
 )
 ;
 }
@@ -11077,6 +11091,8 @@ argc
 {
 Value
 v
+=
+StringTag
 (
 str
 )
@@ -11387,7 +11403,10 @@ splits
 .
 append
 (
+StringTag
+(
 sub
+)
 )
 )
 return
@@ -11492,7 +11511,10 @@ splits
 .
 append
 (
+StringTag
+(
 sub
+)
 )
 )
 return
@@ -20143,7 +20165,10 @@ obj
 >
 setPrimitiveThis
 (
+StringTag
+(
 str
+)
 )
 ;
 return
@@ -20617,6 +20642,8 @@ proto
 >
 setPrimitiveThis
 (
+StringTag
+(
 cx
 -
 >
@@ -20624,6 +20651,7 @@ runtime
 -
 >
 emptyString
+)
 )
 ;
 if

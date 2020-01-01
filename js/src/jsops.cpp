@@ -12655,7 +12655,7 @@ Value
 *
 newsp
 =
-fp
+newfp
 -
 >
 base
@@ -20973,13 +20973,12 @@ atom
 ;
 Value
 rval
+=
+StringTag
 (
 ATOM_TO_STRING
 (
-ATOM_KEY
-(
 atom
-)
 )
 )
 ;

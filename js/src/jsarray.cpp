@@ -948,7 +948,10 @@ return
 js_ValueToStringId
 (
 cx
+StringTag
+(
 str
+)
 idp
 )
 ;

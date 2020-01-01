@@ -5367,9 +5367,12 @@ w
 )
 )
 return
+StringTag
+(
 JSBOXEDWORD_TO_STRING
 (
 w
+)
 )
 ;
 if

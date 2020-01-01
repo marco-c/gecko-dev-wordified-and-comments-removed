@@ -38288,12 +38288,15 @@ if
 ValueToNumber
 (
 cx
+StringTag
+(
 ATOM_TO_STRING
 (
 pn
 -
 >
 pn_atom
+)
 )
 &
 d
@@ -39300,7 +39303,7 @@ accum
 )
 {
 {
-AutoValueRooter
+AutoStringRooter
 tvr
 (
 cx
@@ -42159,6 +42162,8 @@ xmlbox
 ;
 Value
 v
+=
+StringTag
 (
 ATOM_TO_STRING
 (
