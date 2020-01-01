@@ -191,7 +191,10 @@ mozIStorageStatementCallback
 >
 callback
 =
+do_QueryInterface
+(
 mCallback
+)
 ;
 (
 void
@@ -288,7 +291,10 @@ mozIStorageStatementCallback
 >
 callback
 =
+do_QueryInterface
+(
 mCallback
+)
 ;
 (
 void
