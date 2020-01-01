@@ -806,6 +806,10 @@ test_bug589623
 .
 html
 \
+test_bug632379
+.
+xul
+\
 (
 srcdir
 )
