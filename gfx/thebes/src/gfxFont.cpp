@@ -5423,6 +5423,8 @@ closure
 ;
 PRBool
 aborted
+=
+PR_FALSE
 needsBold
 ;
 nsresult
@@ -5951,17 +5953,6 @@ forget
 )
 ;
 }
-if
-(
-selectedFont
-)
-return
-selectedFont
-.
-forget
-(
-)
-;
 if
 (
 (
