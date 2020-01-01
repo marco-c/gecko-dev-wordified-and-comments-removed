@@ -17765,6 +17765,12 @@ browser
 =
 null
 ;
+this
+.
+savedArticle
+=
+null
+;
 }
 setActive
 :
