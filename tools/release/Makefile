@@ -260,7 +260,7 @@ firefox
 .
 0
 .
-11
+12
 /
 batch1
 /
@@ -273,7 +273,7 @@ download
 .
 0
 .
-10
+11
 for
 l10n
 verify
@@ -327,7 +327,7 @@ nightly
 .
 0
 .
-10
+11
 -
 candidates
 /
@@ -374,7 +374,7 @@ download
 .
 0
 .
-10
+11
 release
 for
 update
@@ -429,7 +429,7 @@ releases
 .
 0
 .
-10
+11
 /
 &
 &
@@ -596,7 +596,7 @@ cvsroot
 rtag
 -
 d
-FIREFOX_2_0_0_11_RELEASE
+FIREFOX_2_0_0_12_RELEASE
 mozilla
 cvs
 -
@@ -612,7 +612,7 @@ cvsroot
 rtag
 -
 d
-FIREFOX_2_0_0_11_RELEASE_l10n
+FIREFOX_2_0_0_12_RELEASE_l10n
 mozilla
 /
 tools
@@ -635,7 +635,7 @@ cvsroot
 rtag
 -
 d
-FIREFOX_2_0_0_11_RC1
+FIREFOX_2_0_0_12_RC1
 mozilla
 cvs
 -
@@ -651,7 +651,7 @@ cvsroot
 rtag
 -
 d
-FIREFOX_2_0_0_11_RC1_l10n
+FIREFOX_2_0_0_12_RC1_l10n
 mozilla
 /
 tools
@@ -674,7 +674,7 @@ l10n
 rtag
 -
 d
-FIREFOX_2_0_0_11_RELEASE
+FIREFOX_2_0_0_12_RELEASE
 l10n
 cvs
 -
@@ -690,7 +690,7 @@ l10n
 rtag
 -
 d
-FIREFOX_2_0_0_11_RC1
+FIREFOX_2_0_0_12_RC1
 l10n
 cvsmirror_mofo
 :
