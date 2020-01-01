@@ -197,11 +197,6 @@ GTKF
 (
 gtk_moz_embed_set_directory_service_provider
 )
-\
-GTKF
-(
-gtk_moz_embed_set_app_components
-)
 #
 define
 GTKF
