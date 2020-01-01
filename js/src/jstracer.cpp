@@ -17053,8 +17053,12 @@ slots
 return
 NULL
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+ngslots
+!
+=
+0
 globalFrameSize
 =
 =
