@@ -36197,6 +36197,17 @@ if
 globalObj
 |
 |
+obj
+-
+>
+getGlobal
+(
+)
+!
+=
+globalObj
+|
+|
 !
 cx
 -
