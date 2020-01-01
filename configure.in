@@ -2595,9 +2595,7 @@ WINCE_SDK_DIR
 TOPSRCDIR
 =
 "
-_pwd
-/
-srcdir
+_topsrcdir
 "
 OBJDIR
 =
