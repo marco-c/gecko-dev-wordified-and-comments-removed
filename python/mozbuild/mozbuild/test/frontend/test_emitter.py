@@ -1058,6 +1058,25 @@ js
 '
 ]
             
+EXTRA_PP_COMPONENTS
+=
+[
+'
+fans
+.
+pp
+.
+js
+'
+'
+tans
+.
+pp
+.
+js
+'
+]
+            
 HOST_CSRCS
 =
 [
