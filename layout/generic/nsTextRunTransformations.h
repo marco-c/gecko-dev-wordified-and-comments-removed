@@ -359,6 +359,9 @@ nsStyleContext
 aStyles
 PRBool
 aOwnsFactory
+CompressedGlyph
+*
+aGlyphStorage
 )
 :
 gfxTextRun
@@ -368,10 +371,7 @@ aString
 aLength
 aFontGroup
 aFlags
-sizeof
-(
-nsTransformedTextRun
-)
+aGlyphStorage
 )
 mFactory
 (
