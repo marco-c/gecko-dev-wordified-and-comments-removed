@@ -4608,7 +4608,7 @@ void
 nsTableCellMap
 :
 :
-SetNotTopStart
+ResetTopStart
 (
 PRUint8
 aSide
