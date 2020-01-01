@@ -284,6 +284,7 @@ NS_ConvertUTF8toUTF16
 strContent
 (
 aString
+aLength
 )
 ;
 accText
