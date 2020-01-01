@@ -170,14 +170,6 @@ aMaxChunkLength
 return
 aLength
 ;
-PRUint8
-buffer
-[
-MAX_GFX_TEXT_BUF_SIZE
-+
-1
-]
-;
 PRInt32
 len
 =
