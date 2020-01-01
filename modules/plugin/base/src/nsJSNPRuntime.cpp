@@ -8632,9 +8632,14 @@ sNPObjectMemberClass
 nsnull
 )
 ;
-NS_ASSERTION
+if
 (
+!
 memberPrivate
+)
+{
+NS_ERROR
+(
 "
 no
 Ambiguous
@@ -8645,6 +8650,10 @@ data
 "
 )
 ;
+return
+JS_FALSE
+;
+}
 switch
 (
 type
