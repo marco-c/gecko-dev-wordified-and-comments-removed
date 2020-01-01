@@ -1491,6 +1491,10 @@ JSAtom
 *
 xmlAtom
 ;
+JSAtom
+*
+functionNamespaceURIAtom
+;
 #
 endif
 JSAtom
@@ -1582,10 +1586,6 @@ encodeURIComponentAtom
 JSAtom
 *
 escapeAtom
-;
-JSAtom
-*
-functionNamespaceURIAtom
 ;
 JSAtom
 *

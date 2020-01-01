@@ -28607,6 +28607,9 @@ JSCLASS_IS_GLOBAL
 )
 )
 {
+#
+if
+JS_HAS_XML_SUPPORT
 if
 (
 clasp
@@ -28651,8 +28654,6 @@ runtime
 >
 atomState
 .
-lazy
-.
 functionNamespaceURIAtom
 )
 )
@@ -28667,6 +28668,8 @@ runtime
 defaultCompartment
 ;
 }
+#
+endif
 if
 (
 clasp

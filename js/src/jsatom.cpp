@@ -456,6 +456,15 @@ js_star_str
 js_starQualifier_str
 js_tagc_str
 js_xml_str
+"
+mozilla
+.
+org
+/
+js
+/
+function
+"
 #
 endif
 "
