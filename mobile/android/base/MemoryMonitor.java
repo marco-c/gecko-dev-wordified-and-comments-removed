@@ -735,11 +735,9 @@ geckoEventSync
 (
 )
 ;
-GeckoApp
+Favicons
 .
-mAppContext
-.
-getFavicons
+getInstance
 (
 )
 .

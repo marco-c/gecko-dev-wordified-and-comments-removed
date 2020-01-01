@@ -3414,7 +3414,9 @@ tab
 long
 id
 =
-getFavicons
+Favicons
+.
+getInstance
 (
 )
 .
@@ -3574,7 +3576,9 @@ NOT_LOADING
 )
 return
 ;
-getFavicons
+Favicons
+.
+getInstance
 (
 )
 .
