@@ -2128,7 +2128,7 @@ if
 !
 EqualValues
 (
-useValueNumbers
+false
 getOperand
 (
 i
