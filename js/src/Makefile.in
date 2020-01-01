@@ -1871,7 +1871,7 @@ IonAnalysis
 .
 cpp
 \
-IonLowering
+Lowering
 .
 cpp
 \
