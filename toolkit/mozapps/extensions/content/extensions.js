@@ -9597,16 +9597,6 @@ notifyViewChanged
 )
 ;
 }
-getSelectedAddon
-:
-function
-(
-)
-{
-return
-null
-;
-}
 showEmptyNotice
 :
 function
