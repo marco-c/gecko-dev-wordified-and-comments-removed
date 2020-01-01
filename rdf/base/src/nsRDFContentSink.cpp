@@ -173,6 +173,13 @@ nsIScriptError
 .
 h
 "
+#
+include
+"
+nsIDTD
+.
+h
+"
 static
 NS_DEFINE_IID
 (
@@ -326,7 +333,8 @@ void
 NS_IMETHOD
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 ;
 NS_IMETHOD
@@ -2252,7 +2260,7 @@ RDFContentSinkImpl
 :
 WillBuildModel
 (
-void
+nsDTDMode
 )
 {
 if

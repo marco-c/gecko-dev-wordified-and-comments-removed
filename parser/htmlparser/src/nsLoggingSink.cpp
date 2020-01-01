@@ -278,6 +278,8 @@ nsLoggingSink
 :
 WillBuildModel
 (
+nsDTDMode
+aDTDMode
 )
 {
 WriteTabs
@@ -310,6 +312,7 @@ mSink
 >
 WillBuildModel
 (
+aDTDMode
 )
 ;
 }

@@ -162,6 +162,8 @@ NS_OK
 NS_IMETHOD
 WillBuildModel
 (
+nsDTDMode
+aDTDMode
 )
 ;
 NS_IMETHOD

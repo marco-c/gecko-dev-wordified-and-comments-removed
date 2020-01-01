@@ -518,17 +518,6 @@ void
 =
 0
 ;
-NS_IMETHOD_
-(
-nsDTDMode
-)
-GetParseMode
-(
-void
-)
-=
-0
-;
 NS_IMETHOD
 CancelParsingEvents
 (

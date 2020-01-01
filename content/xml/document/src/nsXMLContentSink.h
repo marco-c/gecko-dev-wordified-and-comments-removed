@@ -60,6 +60,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsIDTD
+.
+h
+"
 class
 nsIDocument
 ;
@@ -159,7 +166,8 @@ void
 NS_IMETHOD
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 ;
 NS_IMETHOD

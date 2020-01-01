@@ -32,6 +32,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsIDTD
+.
+h
+"
 class
 nsLoadSaveContentSink
 :
@@ -65,7 +72,8 @@ NS_DECL_NSIEXPATSINK
 NS_IMETHOD
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 ;
 NS_IMETHOD

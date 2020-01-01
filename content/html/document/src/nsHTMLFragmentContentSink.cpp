@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIDTD
+.
+h
+"
+#
+include
+"
 nsIHTMLContentSink
 .
 h
@@ -245,7 +252,8 @@ NS_OK
 NS_IMETHOD
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 ;
 NS_IMETHOD
@@ -989,7 +997,7 @@ nsHTMLFragmentContentSink
 :
 WillBuildModel
 (
-void
+nsDTDMode
 )
 {
 if

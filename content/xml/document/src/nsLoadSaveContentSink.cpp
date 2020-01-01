@@ -204,7 +204,8 @@ nsLoadSaveContentSink
 :
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 {
 return
@@ -213,6 +214,7 @@ mBaseSink
 >
 WillBuildModel
 (
+aDTDMode
 )
 ;
 }

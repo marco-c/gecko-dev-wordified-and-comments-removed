@@ -873,7 +873,8 @@ XULContentSinkImpl
 :
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 {
 #

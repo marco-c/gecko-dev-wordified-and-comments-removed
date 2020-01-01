@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIDTD
+.
+h
+"
+#
+include
+"
 nsIParser
 .
 h
@@ -278,7 +285,8 @@ _retval
 NS_IMETHOD
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 ;
 NS_IMETHOD
@@ -612,7 +620,8 @@ nsXMLFragmentContentSink
 :
 WillBuildModel
 (
-void
+nsDTDMode
+aDTDMode
 )
 {
 if
