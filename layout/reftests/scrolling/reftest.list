@@ -87,6 +87,14 @@ if
 (
 bug685516
 )
+fuzzy
+-
+if
+(
+Android
+3
+60
+)
 HTTP
 =
 =
@@ -332,8 +340,8 @@ fuzzy
 if
 (
 Android
-4
-5
+3
+11
 )
 HTTP
 =
@@ -357,8 +365,8 @@ fuzzy
 if
 (
 Android
-255
-675
+251
+722
 )
 HTTP
 =
