@@ -770,10 +770,6 @@ retRegs
 ]
 ;
 \
-bool
-has_cmov
-;
-\
 void
 nativePageReset
 (

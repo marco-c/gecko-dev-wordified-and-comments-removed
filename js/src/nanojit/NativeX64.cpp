@@ -17978,8 +17978,6 @@ Assembler
 :
 nInit
 (
-AvmCore
-*
 )
 {
 nHints

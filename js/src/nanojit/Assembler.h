@@ -662,9 +662,6 @@ dataAlloc
 Allocator
 &
 alloc
-AvmCore
-*
-core
 LogControl
 *
 logc
@@ -1826,8 +1823,6 @@ pending_lives
 void
 nInit
 (
-AvmCore
-*
 )
 ;
 void

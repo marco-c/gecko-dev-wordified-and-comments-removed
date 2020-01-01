@@ -32,15 +32,6 @@ using
 namespace
 avmplus
 ;
-nanojit
-:
-:
-Config
-AvmCore
-:
-:
-config
-;
 void
 avmplus
 :

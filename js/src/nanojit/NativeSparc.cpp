@@ -5514,15 +5514,8 @@ Assembler
 :
 nInit
 (
-AvmCore
-*
-core
 )
 {
-has_cmov
-=
-true
-;
 }
 void
 Assembler
