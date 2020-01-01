@@ -10938,7 +10938,10 @@ MakeContextCurrent
 )
 ;
 const
-WebGLFramebufferAttachment
+WebGLFramebuffer
+:
+:
+Attachment
 &
 fba
 =
