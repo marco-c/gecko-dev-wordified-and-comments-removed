@@ -5694,6 +5694,16 @@ function
 (
 )
 {
+if
+(
+self
+.
+isNewTabsGroup
+(
+)
+)
+return
+;
 var
 activeTab
 =
