@@ -884,12 +884,6 @@ mAppName
 nsXPIDLCString
 mAppVersion
 ;
-nsXPIDLCString
-mDeviceType
-;
-nsXPIDLCString
-mDeviceName
-;
 nsCString
 mCompatFirefox
 ;
