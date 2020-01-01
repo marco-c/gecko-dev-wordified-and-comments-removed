@@ -426,10 +426,6 @@ NULL
 CPPSRCS
 =
 \
-DumpColors
-.
-cpp
-\
 TestColorNames
 .
 cpp
