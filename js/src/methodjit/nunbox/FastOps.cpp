@@ -758,7 +758,7 @@ R
 )
 )
 ;
-break
+return
 ;
 case
 JSOP_BITXOR
@@ -775,7 +775,7 @@ R
 )
 )
 ;
-break
+return
 ;
 case
 JSOP_BITAND
