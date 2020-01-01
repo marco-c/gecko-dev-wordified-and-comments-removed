@@ -714,6 +714,15 @@ callObj
 const
 ;
 inline
+bool
+initFunctionScopeObjects
+(
+JSContext
+*
+cx
+)
+;
+inline
 JSCompartment
 *
 compartment

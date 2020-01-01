@@ -1165,6 +1165,14 @@ JSContext
 cx
 )
 ;
+bool
+initFunctionScopeObjects
+(
+JSContext
+*
+cx
+)
+;
 void
 initArgsObj
 (
