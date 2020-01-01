@@ -710,6 +710,8 @@ jsint
 incr
 bool
 pre
+=
+true
 )
 ;
 bool
