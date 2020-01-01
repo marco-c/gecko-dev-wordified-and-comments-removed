@@ -1156,6 +1156,12 @@ nanojit
 enum
 LC_Bits
 {
+LC_FragProfile
+=
+1
+<
+<
+7
 LC_Activation
 =
 1
