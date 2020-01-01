@@ -1133,12 +1133,6 @@ defined
 (
 MOZ_WIDGET_GONK
 )
-&
-&
-ANDROID_VERSION
-<
-=
-15
 if
 (
 !
