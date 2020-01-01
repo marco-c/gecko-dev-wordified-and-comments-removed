@@ -130,13 +130,6 @@ aDoc
 )
 ;
 virtual
-bool
-IsPrimaryForNode
-(
-)
-const
-;
-virtual
 void
 Description
 (

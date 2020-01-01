@@ -639,13 +639,6 @@ GetFrame
 const
 ;
 virtual
-bool
-IsPrimaryForNode
-(
-)
-const
-;
-virtual
 a11y
 :
 :

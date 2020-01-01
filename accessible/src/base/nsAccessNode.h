@@ -271,13 +271,6 @@ this
 )
 ;
 }
-virtual
-bool
-IsPrimaryForNode
-(
-)
-const
-;
 void
 Language
 (
