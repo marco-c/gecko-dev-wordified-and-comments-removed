@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsIAccessibleTypes
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h

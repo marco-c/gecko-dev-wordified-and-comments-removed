@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsIAccessibleTypes
-.
-h
-"
-#
-include
-"
 nsCocoaUtils
 .
 h

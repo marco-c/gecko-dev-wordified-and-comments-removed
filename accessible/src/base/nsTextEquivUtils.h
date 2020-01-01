@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIStringBundle
+.
+h
+"
+#
+include
+"
 Role
 .
 h

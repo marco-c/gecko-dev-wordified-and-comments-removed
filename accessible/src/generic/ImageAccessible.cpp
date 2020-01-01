@@ -92,13 +92,6 @@ h
 #
 include
 "
-nsIPersistentProperties2
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

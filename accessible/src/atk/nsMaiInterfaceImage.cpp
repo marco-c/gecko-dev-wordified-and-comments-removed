@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsIAccessibleTypes
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
