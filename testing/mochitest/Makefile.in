@@ -907,6 +907,8 @@ _DEST_DIR
 )
 #
 Binaries
+and
+scripts
 that
 don
 '
@@ -948,6 +950,10 @@ pk12util
 (
 BIN_SUFFIX
 )
+\
+fix_stack_using_bpsyms
+.
+py
 \
 (
 NULL
