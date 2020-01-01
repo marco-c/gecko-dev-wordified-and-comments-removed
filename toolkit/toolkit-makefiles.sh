@@ -6550,7 +6550,7 @@ stub
 Makefile
 "
 fi
-add_makefile
+add_makefiles
 "
 tools
 /
