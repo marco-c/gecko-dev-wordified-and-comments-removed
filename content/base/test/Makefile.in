@@ -890,6 +890,16 @@ test_bug425013
 .
 html
 \
+bug426308
+-
+redirect
+.
+sjs
+\
+test_bug426308
+.
+html
+\
 test_XHR
 .
 html
