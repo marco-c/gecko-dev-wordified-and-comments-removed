@@ -520,10 +520,6 @@ nsScriptableInputStream
 .
 cpp
 \
-nsScriptableOutputStream
-.
-cpp
-\
 nsSegmentedBuffer
 .
 cpp
@@ -908,10 +904,6 @@ nsIOutputStream
 idl
 \
 nsIScriptableInputStream
-.
-idl
-\
-nsIScriptableStreams
 .
 idl
 \

@@ -685,14 +685,6 @@ nsProxyAutoConfig
 js
 \
 (
-srcdir
-)
-/
-nsScriptableIO
-.
-js
-\
-(
 NULL
 )
 #
