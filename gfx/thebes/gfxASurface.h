@@ -516,16 +516,6 @@ empty
 ;
 }
 virtual
-PRBool
-SupportsSelfCopy
-(
-)
-{
-return
-PR_TRUE
-;
-}
-virtual
 void
 MovePixels
 (
