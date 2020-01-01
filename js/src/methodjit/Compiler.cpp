@@ -14192,7 +14192,7 @@ frame
 storeLocal
 (
 slot
-JSVAL_TYPE_OBJECT
+true
 true
 )
 ;
@@ -14740,7 +14740,7 @@ frame
 storeLocal
 (
 slot
-JSVAL_TYPE_OBJECT
+true
 true
 )
 ;
@@ -19617,13 +19617,16 @@ argTypes
 ;
 for
 (
-unsigned
+int
 i
 =
 0
 ;
 i
 <
+(
+int
+)
 argc
 ;
 i
