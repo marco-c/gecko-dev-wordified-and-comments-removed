@@ -81,6 +81,10 @@ mJSVal
 (
 aJSVal
 )
+mCCGeneration
+(
+0
+)
 {
 nsVariant
 :
