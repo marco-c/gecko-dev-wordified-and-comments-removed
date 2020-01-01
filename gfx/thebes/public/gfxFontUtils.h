@@ -99,11 +99,6 @@ undef
 max
 #
 endif
-#
-include
-<
-bitset
->
 class
 gfxSparseBitSet
 {
@@ -2143,6 +2138,9 @@ LANG_ID_MAC_SLOVAK
 LANG_ID_MICROSOFT_EN_US
 =
 0x0409
+CMAP_MAX_CODEPOINT
+=
+0x10ffff
 }
 ;
 struct

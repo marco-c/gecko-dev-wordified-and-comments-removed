@@ -76,6 +76,11 @@ win32
 .
 h
 >
+#
+include
+<
+bitset
+>
 enum
 gfxWindowsFontType
 {
