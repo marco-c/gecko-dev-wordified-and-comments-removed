@@ -181,6 +181,17 @@ unknown
 }
 }
 ;
+virtual
+u_int64_t
+ReturnAddress
+(
+)
+const
+{
+return
+instruction
+;
+}
 u_int64_t
 instruction
 ;

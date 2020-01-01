@@ -43,6 +43,9 @@ configuration_
 BOOL
 enableUploads_
 ;
+BOOL
+started_
+;
 int
 uploadIntervalInSeconds_
 ;

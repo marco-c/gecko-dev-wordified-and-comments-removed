@@ -171,13 +171,8 @@ tgid
 pid_t
 ppid
 ;
-const
-void
-*
-stack
-;
-size_t
-stack_len
+uintptr_t
+stack_pointer
 ;
 #
 if

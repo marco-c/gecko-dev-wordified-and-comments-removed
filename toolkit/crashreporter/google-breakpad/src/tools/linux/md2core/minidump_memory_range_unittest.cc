@@ -376,7 +376,7 @@ data
 ;
 EXPECT_EQ
 (
-0
+0U
 range
 .
 length
@@ -446,7 +446,7 @@ data
 ;
 EXPECT_EQ
 (
-0
+0U
 range
 .
 length
@@ -500,7 +500,7 @@ data
 ;
 EXPECT_EQ
 (
-0
+0U
 range
 .
 length
@@ -566,7 +566,7 @@ data
 ;
 EXPECT_EQ
 (
-0
+0U
 range
 .
 length
@@ -607,7 +607,7 @@ data
 ;
 EXPECT_EQ
 (
-0
+0U
 subrange
 .
 length
@@ -801,7 +801,7 @@ data
 ;
 EXPECT_EQ
 (
-0
+0U
 subrange
 .
 length
@@ -1011,7 +1011,7 @@ data
 ;
 EXPECT_EQ
 (
-0
+0U
 subrange
 .
 length

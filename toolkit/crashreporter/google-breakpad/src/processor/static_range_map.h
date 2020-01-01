@@ -116,7 +116,6 @@ entry_size
 const
 ;
 inline
-unsigned
 int
 GetCount
 (

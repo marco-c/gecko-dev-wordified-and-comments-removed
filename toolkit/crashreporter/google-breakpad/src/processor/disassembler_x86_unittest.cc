@@ -283,7 +283,7 @@ just_return
 ;
 EXPECT_EQ
 (
-1
+1U
 dis
 .
 NextInstruction
@@ -302,7 +302,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -372,7 +372,7 @@ type
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 NextInstruction
@@ -421,7 +421,7 @@ invalid_instruction
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 NextInstruction
@@ -460,7 +460,7 @@ read_eax_jmp_eax
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -479,7 +479,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -520,7 +520,7 @@ setBadRead
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -539,7 +539,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -571,7 +571,7 @@ currentInstructionGroup
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -645,7 +645,7 @@ write_eax_arg_to_call
 ;
 EXPECT_EQ
 (
-6
+6U
 dis
 .
 NextInstruction
@@ -664,7 +664,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -705,7 +705,7 @@ setBadWrite
 ;
 EXPECT_EQ
 (
-3
+3U
 dis
 .
 NextInstruction
@@ -724,7 +724,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -756,7 +756,7 @@ currentInstructionGroup
 ;
 EXPECT_EQ
 (
-1
+1U
 dis
 .
 NextInstruction
@@ -775,7 +775,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -794,7 +794,7 @@ endOfBlock
 ;
 EXPECT_EQ
 (
-5
+5U
 dis
 .
 NextInstruction
@@ -868,7 +868,7 @@ read_edi_stosb
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -887,7 +887,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -928,7 +928,7 @@ setBadRead
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -947,7 +947,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -979,7 +979,7 @@ currentInstructionGroup
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -1053,7 +1053,7 @@ read_clobber_write
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -1072,7 +1072,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -1113,7 +1113,7 @@ setBadRead
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -1132,7 +1132,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -1164,7 +1164,7 @@ currentInstructionGroup
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -1183,7 +1183,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -1235,7 +1235,7 @@ read_xchg_write
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -1254,7 +1254,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -1295,7 +1295,7 @@ setBadRead
 ;
 EXPECT_EQ
 (
-1
+1U
 dis
 .
 NextInstruction
@@ -1314,7 +1314,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -1346,7 +1346,7 @@ currentInstructionGroup
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -1365,7 +1365,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -1397,7 +1397,7 @@ currentInstructionGroup
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -1471,7 +1471,7 @@ read_cmp
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction
@@ -1490,7 +1490,7 @@ currentInstructionValid
 ;
 EXPECT_EQ
 (
-0
+0U
 dis
 .
 flags
@@ -1531,7 +1531,7 @@ setBadRead
 ;
 EXPECT_EQ
 (
-3
+3U
 dis
 .
 NextInstruction
@@ -1585,7 +1585,7 @@ currentInstructionGroup
 ;
 EXPECT_EQ
 (
-2
+2U
 dis
 .
 NextInstruction

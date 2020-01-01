@@ -126,10 +126,6 @@ offset
 enum
 DwarfTag
 tag
-const
-AttributeList
-&
-attrs
 )
 {
 HandlerStack
@@ -256,7 +252,6 @@ FindChildHandler
 (
 offset
 tag
-attrs
 )
 ;
 else
@@ -276,7 +271,6 @@ StartRootDIE
 (
 offset
 tag
-attrs
 )
 )
 handler

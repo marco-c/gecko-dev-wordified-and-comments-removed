@@ -22,6 +22,12 @@ h
 #
 include
 "
+client
+/
+windows
+/
+unittests
+/
 dump_analysis
 .
 h
@@ -29,6 +35,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest

@@ -57,6 +57,10 @@ DwarfLineToModule
 Module
 *
 module
+const
+string
+&
+compilation_dir
 vector
 <
 Module
@@ -71,6 +75,10 @@ lines
 module_
 (
 module
+)
+compilation_dir_
+(
+compilation_dir
 )
 lines_
 (
@@ -175,6 +183,9 @@ FileTable
 Module
 *
 module_
+;
+string
+compilation_dir_
 ;
 vector
 <

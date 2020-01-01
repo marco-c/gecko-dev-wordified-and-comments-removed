@@ -134,7 +134,7 @@ Empty
 {
 EXPECT_EQ
 (
-1
+1U
 table
 .
 Size
@@ -198,7 +198,7 @@ IsKnownConstant
 ;
 EXPECT_EQ
 (
-0
+0U
 table
 .
 empty_string
@@ -357,7 +357,7 @@ IsKnownConstant
 ;
 EXPECT_EQ
 (
-1
+1U
 l1
 .
 Value
@@ -539,7 +539,7 @@ size
 ;
 EXPECT_EQ
 (
-0
+0U
 table
 .
 empty_string
@@ -1101,7 +1101,14 @@ e_machine
 ;
 EXPECT_EQ
 (
+static_cast
+<
+unsigned
+int
+>
+(
 EV_CURRENT
+)
 header
 -
 >
@@ -1110,7 +1117,7 @@ e_version
 ;
 EXPECT_EQ
 (
-0
+0U
 header
 -
 >
@@ -1119,7 +1126,7 @@ e_entry
 ;
 EXPECT_EQ
 (
-0
+0U
 header
 -
 >
@@ -1144,7 +1151,7 @@ e_shoff
 ;
 EXPECT_EQ
 (
-0
+0U
 header
 -
 >
@@ -1394,7 +1401,14 @@ e_machine
 ;
 EXPECT_EQ
 (
+static_cast
+<
+unsigned
+int
+>
+(
 EV_CURRENT
+)
 header
 -
 >
@@ -1403,7 +1417,7 @@ e_version
 ;
 EXPECT_EQ
 (
-0
+0U
 header
 -
 >
@@ -1412,7 +1426,7 @@ e_entry
 ;
 EXPECT_EQ
 (
-0
+0U
 header
 -
 >
@@ -1437,7 +1451,7 @@ e_shoff
 ;
 EXPECT_EQ
 (
-0
+0U
 header
 -
 >

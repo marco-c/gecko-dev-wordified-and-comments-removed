@@ -311,10 +311,7 @@ type
 '
 :
 '
-<
-(
-library
-)
+static_library
 '
 '
 include_dirs
@@ -426,10 +423,7 @@ type
 '
 :
 '
-<
-(
-library
-)
+static_library
 '
 '
 include_dirs

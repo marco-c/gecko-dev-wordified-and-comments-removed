@@ -236,7 +236,7 @@ fast_resolver
 ;
 static
 const
-u_int32_t
+int32_t
 kNumberMaps_
 =
 FastSourceLineResolver

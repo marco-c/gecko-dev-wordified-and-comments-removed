@@ -108,7 +108,7 @@ cc
 :
 65
 +
-0x4
+0x5
 ]
 eip
 =
@@ -138,7 +138,7 @@ c
 :
 327
 +
-0x11
+0x12
 ]
 eip
 =
@@ -162,7 +162,7 @@ dll
 !
 BaseProcessStart
 +
-0x22
+0x23
 eip
 =
 0x7c816fd7

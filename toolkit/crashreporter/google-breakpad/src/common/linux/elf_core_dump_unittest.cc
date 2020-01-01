@@ -151,7 +151,7 @@ GetHeader
 ;
 EXPECT_EQ
 (
-0
+0U
 core
 .
 GetProgramHeaderCount
@@ -310,7 +310,7 @@ GetHeader
 ;
 EXPECT_EQ
 (
-0
+0U
 core
 .
 GetProgramHeaderCount
@@ -1313,7 +1313,7 @@ actual_thread_ids
 ;
 EXPECT_EQ
 (
-1
+1U
 num_nt_prpsinfo
 )
 ;

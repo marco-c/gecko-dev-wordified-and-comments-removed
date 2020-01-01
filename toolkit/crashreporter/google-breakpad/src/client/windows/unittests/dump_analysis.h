@@ -7,8 +7,9 @@ CLIENT_WINDOWS_UNITTESTS_DUMP_ANALYSIS_H_
 #
 include
 "
-.
-.
+client
+/
+windows
 /
 crash_generation
 /

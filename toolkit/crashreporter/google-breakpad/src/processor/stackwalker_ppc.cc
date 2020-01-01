@@ -72,12 +72,9 @@ const
 CodeModules
 *
 modules
-SymbolSupplier
+StackFrameSymbolizer
 *
-supplier
-SourceLineResolverInterface
-*
-resolver
+resolver_helper
 )
 :
 Stackwalker
@@ -85,8 +82,7 @@ Stackwalker
 system_info
 memory
 modules
-supplier
-resolver
+resolver_helper
 )
 context_
 (
@@ -95,6 +91,9 @@ context
 {
 if
 (
+memory_
+&
+&
 memory_
 -
 >
@@ -176,10 +175,6 @@ if
 (
 !
 context_
-|
-|
-!
-memory_
 )
 {
 BPLOG
@@ -197,8 +192,6 @@ context
 frame
 without
 context
-or
-memory
 "
 ;
 return

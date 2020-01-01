@@ -1,9 +1,9 @@
 #
 ifndef
-PROCESSOR_SCOPED_PTR_H__
+COMMON_SCOPED_PTR_H_
 #
 define
-PROCESSOR_SCOPED_PTR_H__
+COMMON_SCOPED_PTR_H_
 #
 include
 <

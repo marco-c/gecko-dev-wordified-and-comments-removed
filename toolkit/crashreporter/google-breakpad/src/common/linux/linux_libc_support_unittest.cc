@@ -428,7 +428,7 @@ my_uint_len
 (
 0
 )
-1
+1U
 )
 ;
 ASSERT_EQ
@@ -437,7 +437,7 @@ my_uint_len
 (
 2
 )
-1
+1U
 )
 ;
 ASSERT_EQ
@@ -446,7 +446,7 @@ my_uint_len
 (
 5
 )
-1
+1U
 )
 ;
 ASSERT_EQ
@@ -455,7 +455,7 @@ my_uint_len
 (
 9
 )
-1
+1U
 )
 ;
 ASSERT_EQ
@@ -464,7 +464,7 @@ my_uint_len
 (
 10
 )
-2
+2U
 )
 ;
 ASSERT_EQ
@@ -473,7 +473,7 @@ my_uint_len
 (
 99
 )
-2
+2U
 )
 ;
 ASSERT_EQ
@@ -482,7 +482,7 @@ my_uint_len
 (
 100
 )
-3
+3U
 )
 ;
 ASSERT_EQ
@@ -491,7 +491,7 @@ my_uint_len
 (
 101
 )
-3
+3U
 )
 ;
 ASSERT_EQ
@@ -500,7 +500,7 @@ my_uint_len
 (
 1000
 )
-4
+4U
 )
 ;
 ASSERT_EQ
@@ -509,7 +509,7 @@ my_uint_len
 (
 18446744073709551615LLU
 )
-20
+20U
 )
 ;
 }
@@ -921,7 +921,7 @@ result
 ASSERT_EQ
 (
 result
-0
+0U
 )
 ;
 ASSERT_EQ
@@ -945,7 +945,7 @@ result
 ASSERT_EQ
 (
 result
-0
+0U
 )
 ;
 ASSERT_EQ
@@ -969,7 +969,7 @@ result
 ASSERT_EQ
 (
 result
-0x123
+0x123U
 )
 ;
 ASSERT_EQ
@@ -993,7 +993,7 @@ result
 ASSERT_EQ
 (
 result
-0x123a
+0x123aU
 )
 ;
 ASSERT_EQ
@@ -1018,7 +1018,7 @@ result
 ASSERT_EQ
 (
 result
-0x123a
+0x123aU
 )
 ;
 ASSERT_EQ
@@ -1059,7 +1059,7 @@ result
 ASSERT_EQ
 (
 result
-0
+0U
 )
 ;
 ASSERT_EQ
@@ -1083,7 +1083,7 @@ result
 ASSERT_EQ
 (
 result
-123
+123U
 )
 ;
 ASSERT_EQ
@@ -1107,7 +1107,7 @@ result
 ASSERT_EQ
 (
 result
-1234
+1234U
 )
 ;
 ASSERT_EQ
@@ -1132,7 +1132,7 @@ result
 ASSERT_EQ
 (
 result
-1234
+1234U
 )
 ;
 ASSERT_EQ

@@ -133,6 +133,13 @@ StackFrameX86
 (
 )
 ;
+virtual
+u_int64_t
+ReturnAddress
+(
+)
+const
+;
 MDRawContextX86
 context
 ;
@@ -333,6 +340,13 @@ CONTEXT_VALID_NONE
 )
 {
 }
+virtual
+u_int64_t
+ReturnAddress
+(
+)
+const
+;
 MDRawContextAMD64
 context
 ;

@@ -22,11 +22,9 @@ sstream
 #
 include
 "
-processor
+common
 /
-postfix_evaluator
--
-inl
+scoped_ptr
 .
 h
 "
@@ -35,7 +33,9 @@ include
 "
 processor
 /
-scoped_ptr
+postfix_evaluator
+-
+inl
 .
 h
 "

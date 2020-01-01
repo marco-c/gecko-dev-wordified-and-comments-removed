@@ -488,7 +488,7 @@ contents
 ;
 ASSERT_LT
 (
-0
+0U
 contents
 .
 size

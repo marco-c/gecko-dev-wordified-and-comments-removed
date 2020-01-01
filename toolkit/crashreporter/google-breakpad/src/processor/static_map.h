@@ -276,7 +276,7 @@ char
 *
 raw_data_
 ;
-u_int32_t
+int32_t
 num_nodes_
 ;
 const

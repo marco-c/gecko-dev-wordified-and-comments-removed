@@ -192,10 +192,6 @@ offset
 enum
 DwarfTag
 tag
-const
-AttributeList
-&
-attrs
 )
 {
 return
@@ -261,10 +257,6 @@ offset
 enum
 DwarfTag
 tag
-const
-AttributeList
-&
-attrs
 )
 {
 return
@@ -322,10 +314,6 @@ offset
 enum
 DwarfTag
 tag
-const
-AttributeList
-&
-attrs
 )
 ;
 void

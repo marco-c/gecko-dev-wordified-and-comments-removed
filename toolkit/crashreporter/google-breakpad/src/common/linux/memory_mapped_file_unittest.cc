@@ -151,7 +151,7 @@ NULL
 ;
 EXPECT_EQ
 (
-0
+0U
 mapped_file
 .
 size
