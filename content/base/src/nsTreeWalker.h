@@ -67,8 +67,15 @@ nsINode
 aRoot
 uint32_t
 aWhatToShow
-nsIDOMNodeFilter
-*
+const
+mozilla
+:
+:
+dom
+:
+:
+NodeFilterHolder
+&
 aFilter
 )
 ;
