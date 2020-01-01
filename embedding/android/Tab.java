@@ -80,7 +80,7 @@ private
 static
 final
 String
-LOG_FILE_NAME
+LOG_NAME
 =
 "
 Tab
@@ -386,7 +386,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Updated
 url
@@ -453,7 +453,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Updated
 title
@@ -603,7 +603,7 @@ Log
 .
 i
 (
-LOG_FILE_NAME
+LOG_NAME
 "
 Updated
 favicon
