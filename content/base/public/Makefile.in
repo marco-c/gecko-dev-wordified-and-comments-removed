@@ -665,10 +665,6 @@ nsIScriptLoaderObserver
 .
 idl
 \
-nsISyncLoadDOMService
-.
-idl
-\
 nsIDroppedLinkHandler
 .
 idl
