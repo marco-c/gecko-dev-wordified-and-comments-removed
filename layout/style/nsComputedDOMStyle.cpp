@@ -4133,9 +4133,7 @@ if
 display
 -
 >
-HasTransform
-(
-)
+mSpecifiedTransform
 )
 {
 nsROCSSPrimitiveValue
