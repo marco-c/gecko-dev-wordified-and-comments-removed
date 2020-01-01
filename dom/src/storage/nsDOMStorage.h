@@ -383,6 +383,11 @@ Shutdown
 (
 )
 ;
+PRBool
+UnflushedDataExists
+(
+)
+;
 static
 nsDOMStorageManager
 *

@@ -322,6 +322,16 @@ nsACString
 aDomain
 )
 ;
+void
+EnsureTempTableFlushTimer
+(
+)
+;
+void
+StopTempTableFlushTimer
+(
+)
+;
 protected
 :
 nsDOMStoragePersistentDB
@@ -340,7 +350,7 @@ nsCOMPtr
 <
 nsITimer
 >
-mFlushTimer
+mTempTableFlushTimer
 ;
 }
 ;
