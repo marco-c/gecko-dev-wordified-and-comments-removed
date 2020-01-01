@@ -1998,8 +1998,10 @@ char
 >
 (
 mImageBuffer
-)
++
 mImageBufferReadPoint
+)
+0
 aCount
 _retval
 )
