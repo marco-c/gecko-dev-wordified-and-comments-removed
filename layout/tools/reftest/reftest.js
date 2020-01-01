@@ -3396,6 +3396,18 @@ DoneTests
 (
 )
 {
+gTestResults
+.
+AssertionUnexpected
+=
+0
+;
+gTestResults
+.
+AssertionUnexpectedFixed
+=
+0
+;
 dump
 (
 "
@@ -6080,7 +6092,9 @@ isDebugBuild
 var
 newAssertionCount
 =
-0
+gDebug
+.
+assertionCount
 ;
 var
 numAsserts
@@ -6166,7 +6180,7 @@ dump
 REFTEST
 TEST
 -
-UNEXPECTED
+DETCEPXENU
 -
 PASS
 |
@@ -6222,7 +6236,7 @@ dump
 REFTEST
 TEST
 -
-UNEXPECTED
+DETCEPXENU
 -
 FAIL
 |
