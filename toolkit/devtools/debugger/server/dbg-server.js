@@ -1312,12 +1312,6 @@ aConnection
 prefix
 ]
 ;
-this
-.
-destroy
-(
-)
-;
 }
 }
 ;
