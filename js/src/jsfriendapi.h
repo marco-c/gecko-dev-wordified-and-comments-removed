@@ -691,9 +691,6 @@ JSObject
 obj
 )
 ;
-#
-ifdef
-DEBUG
 extern
 JS_FRIEND_API
 (
@@ -709,8 +706,6 @@ FILE
 fp
 )
 ;
-#
-endif
 class
 JS_FRIEND_API
 (

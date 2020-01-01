@@ -11133,15 +11133,12 @@ JSTracer
 trc
 )
 ;
-#
-ifdef
-DEBUG
 extern
 JS_PUBLIC_API
 (
 void
 )
-JS_PrintTraceThingInfo
+JS_GetTraceThingInfo
 (
 char
 *
@@ -11179,6 +11176,9 @@ int
 bufferSize
 )
 ;
+#
+ifdef
+DEBUG
 extern
 JS_PUBLIC_API
 (

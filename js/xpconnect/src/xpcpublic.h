@@ -924,9 +924,6 @@ JSCompartment
 compartment
 )
 ;
-#
-ifdef
-DEBUG
 void
 DumpJSHeap
 (
@@ -935,8 +932,6 @@ FILE
 file
 )
 ;
-#
-endif
 void
 SetLocationForGlobal
 (

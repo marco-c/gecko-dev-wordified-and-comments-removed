@@ -2318,6 +2318,8 @@ dump
 )
 ;
 }
+#
+endif
 struct
 DumpingChildInfo
 {
@@ -2863,7 +2865,7 @@ popCopy
 (
 )
 ;
-JS_PrintTraceThingInfo
+JS_GetTraceThingInfo
 (
 dtrc
 .
@@ -2941,8 +2943,6 @@ output
 )
 ;
 }
-#
-endif
 namespace
 js
 {

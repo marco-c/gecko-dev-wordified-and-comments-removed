@@ -4967,9 +4967,6 @@ endif
 +
 gLogCounter
 ;
-#
-ifdef
-DEBUG
 char
 gcname
 [
@@ -5046,8 +5043,6 @@ fclose
 gcDumpFile
 )
 ;
-#
-endif
 sprintf
 (
 ccname
@@ -5127,9 +5122,6 @@ get
 )
 )
 ;
-#
-ifdef
-DEBUG
 cs
 -
 >
@@ -5145,8 +5137,6 @@ get
 )
 )
 ;
-#
-endif
 }
 return
 NS_OK
