@@ -745,7 +745,12 @@ mTCPClosed
 1
 ;
 PRUint32
-mChannelWasOpened
+mWasOpened
+:
+1
+;
+PRUint32
+mOpenedHttpChannel
 :
 1
 ;
