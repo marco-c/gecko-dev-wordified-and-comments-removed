@@ -94,7 +94,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-Setup
+SetUp
 (
 int
 aFd

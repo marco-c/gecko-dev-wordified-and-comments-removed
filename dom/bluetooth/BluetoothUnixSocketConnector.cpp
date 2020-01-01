@@ -283,7 +283,7 @@ bool
 BluetoothUnixSocketConnector
 :
 :
-Setup
+SetUp
 (
 int
 aFd
@@ -585,7 +585,7 @@ return
 if
 (
 !
-Setup
+SetUp
 (
 fd
 )
