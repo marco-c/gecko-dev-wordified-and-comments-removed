@@ -2118,7 +2118,7 @@ showOnlyThisFrameCmd
 .
 accesskey
 "
-w
+S
 "
 >
 <
@@ -2271,7 +2271,7 @@ viewFrameInfoCmd
 .
 accesskey
 "
-i
+I
 "
 >
 <
@@ -2415,7 +2415,7 @@ bookmarkFrameCmd
 .
 accesskey
 "
-F
+m
 "
 >
 <
