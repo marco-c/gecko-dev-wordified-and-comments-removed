@@ -433,11 +433,6 @@ config
 rules
 .
 mk
-_TEST_FILES
-=
-(
-NULL
-)
 ifneq
 (
 (
@@ -446,12 +441,14 @@ OS_ARCH
 Linux
 )
 _TEST_FILES
-+
 =
 test_bug393970
 .
 xul
-endif
+\
+(
+NULL
+)
 libs
 :
 :
@@ -477,3 +474,4 @@ tests
 (
 relativesrcdir
 )
+endif
