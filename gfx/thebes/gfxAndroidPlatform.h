@@ -360,7 +360,9 @@ retValue
 void
 FindFontsInDirectory
 (
+const
 nsCString
+&
 aFontsDir
 FontNameCache
 *
