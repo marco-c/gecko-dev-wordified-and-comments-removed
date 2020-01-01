@@ -5865,6 +5865,9 @@ cx
 )
 {
 #
+if
+0
+#
 ifdef
 JS_ION
 if
@@ -6002,6 +6005,8 @@ incUseCount
 ;
 }
 }
+#
+endif
 #
 endif
 return
