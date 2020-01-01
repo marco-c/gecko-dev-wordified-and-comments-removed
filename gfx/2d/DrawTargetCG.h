@@ -28,6 +28,13 @@ PathCG
 .
 h
 "
+#
+include
+"
+SourceSurfaceCG
+.
+h
+"
 namespace
 mozilla
 {
@@ -741,8 +748,8 @@ mCg
 }
 private
 :
-bool
-InitCGRenderTarget
+void
+MarkChanged
 (
 )
 ;
@@ -761,6 +768,12 @@ mData
 ;
 SurfaceFormat
 mFormat
+;
+RefPtr
+<
+SourceSurfaceCGBitmapContext
+>
+mSnapshot
 ;
 }
 ;
