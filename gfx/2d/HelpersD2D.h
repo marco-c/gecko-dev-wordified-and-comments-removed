@@ -6,11 +6,15 @@ define
 MOZILLA_GFX_HELPERSD2D_H_
 #
 include
-<
+"
+moz
+-
 d2d1
+-
+1
 .
 h
->
+"
 #
 include
 <
