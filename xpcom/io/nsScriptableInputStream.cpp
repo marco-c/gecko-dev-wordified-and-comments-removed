@@ -144,17 +144,6 @@ mInputStream
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-if
-(
-aCount
->
-PR_UINT32_MAX
--
-1
-)
-return
-NS_ERROR_ILLEGAL_VALUE
-;
 rv
 =
 mInputStream
