@@ -3049,6 +3049,15 @@ GetImage
 (
 )
 ;
+if
+(
+!
+img
+)
+{
+return
+;
+}
 ImageFormat
 format
 =
