@@ -23975,11 +23975,13 @@ TEST_DESCRIPTION
 *
 reason
 :
+javascript
 :
-0
+Components
+.
+classes
 :
-uncaught
-exception
+1
 :
 Permission
 denied
