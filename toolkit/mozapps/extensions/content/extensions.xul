@@ -2708,7 +2708,7 @@ true
 collapse
 =
 "
-after
+none
 "
 persist
 =
@@ -2733,6 +2733,11 @@ width
 =
 "
 220
+"
+flex
+=
+"
+1
 "
 persist
 =
