@@ -1007,6 +1007,16 @@ cx
 fp
 )
 ;
+if
+(
+!
+script
+)
+{
+return
+JS_TRUE
+;
+}
 uint32
 fileFlags
 =
