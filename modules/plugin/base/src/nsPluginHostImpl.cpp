@@ -9386,6 +9386,10 @@ NS_FAILED
 (
 rv
 )
+&
+&
+!
+mRequestFailed
 )
 return
 rv
