@@ -12,7 +12,7 @@ js
 var
 BUGNUMBER
 =
-407323
+407957
 ;
 var
 summary
