@@ -1469,7 +1469,9 @@ if
 script
 -
 >
-jit
+hasJITCode
+(
+)
 )
 mjit
 :
@@ -1549,7 +1551,9 @@ if
 script
 -
 >
-jit
+hasJITCode
+(
+)
 )
 {
 #
