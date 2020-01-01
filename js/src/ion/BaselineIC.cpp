@@ -362,7 +362,7 @@ if
 wrapper
 )
 return
-false
+NULL
 ;
 masm
 .
@@ -579,7 +579,7 @@ if
 wrapper
 )
 return
-false
+NULL
 ;
 masm
 .
@@ -955,7 +955,7 @@ if
 wrapper
 )
 return
-false
+NULL
 ;
 masm
 .

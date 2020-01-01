@@ -83,6 +83,12 @@ js
 :
 ion
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 void
 CodeLocationJump
 :
@@ -2485,12 +2491,6 @@ initialStack
 masm
 .
 framePushed
-(
-)
-;
-masm
-.
-checkStackAlignment
 (
 )
 ;

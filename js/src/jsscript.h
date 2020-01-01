@@ -4187,6 +4187,13 @@ jschar
 length_
 ;
 }
+bool
+adjustDataSize
+(
+size_t
+nbytes
+)
+;
 }
 ;
 class

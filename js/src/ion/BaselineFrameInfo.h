@@ -102,6 +102,9 @@ constant
 ;
 struct
 {
+mozilla
+:
+:
 AlignedStorage2
 <
 ValueOperand
