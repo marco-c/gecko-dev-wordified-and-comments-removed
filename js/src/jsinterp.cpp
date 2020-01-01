@@ -25211,6 +25211,11 @@ ok
 goto
 error
 ;
+TRACE_0
+(
+FastNativeCallComplete
+)
+;
 goto
 end_call
 ;
