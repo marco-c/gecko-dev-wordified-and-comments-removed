@@ -3092,6 +3092,14 @@ i
 if
 (
 optionName
+&
+&
+optionName
+!
+=
+"
+jit
+"
 )
 {
 options
