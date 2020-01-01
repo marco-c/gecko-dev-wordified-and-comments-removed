@@ -716,10 +716,6 @@ bytes
 )
 ;
 \
-bool
-has_cmov
-;
-\
 void
 nativePageReset
 (

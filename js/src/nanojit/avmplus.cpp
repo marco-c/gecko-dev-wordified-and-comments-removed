@@ -61,6 +61,14 @@ sse2_available
 =
 false
 ;
+bool
+AvmCore
+:
+:
+cmov_available
+=
+false
+;
 #
 ifdef
 _DEBUG

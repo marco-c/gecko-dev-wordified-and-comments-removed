@@ -1826,7 +1826,6 @@ iftrue
 LIns
 *
 iffalse
-bool
 )
 ;
 LIns
