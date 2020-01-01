@@ -93,9 +93,6 @@ def
 spawn_test
 (
 test
-passthrough
-=
-False
 )
 :
     
@@ -114,11 +111,6 @@ struct
 "
 "
     
-if
-not
-passthrough
-:
-        
 (
 rout
 wout
@@ -129,7 +121,7 @@ os
 pipe
 (
 )
-        
+    
 (
 rerr
 werr
@@ -140,7 +132,7 @@ os
 pipe
 (
 )
-        
+    
 rv
 =
 os
@@ -148,25 +140,25 @@ os
 fork
 (
 )
-        
+    
 if
 rv
 :
-            
+        
 os
 .
 close
 (
 wout
 )
-            
+        
 os
 .
 close
 (
 werr
 )
-            
+        
 return
 Task
 (
@@ -175,21 +167,21 @@ rv
 rout
 rerr
 )
-        
+    
 os
 .
 close
 (
 rout
 )
-        
+    
 os
 .
 close
 (
 rerr
 )
-        
+    
 os
 .
 dup2
@@ -197,7 +189,7 @@ dup2
 wout
 1
 )
-        
+    
 os
 .
 dup2
@@ -1175,9 +1167,6 @@ tests
 pop
 (
 )
-options
-.
-passthrough
 )
 )
         
