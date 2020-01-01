@@ -289,18 +289,6 @@ errno
 .
 ENOENT
 or
-\
-         
-(
-sys
-.
-platform
-=
-=
-"
-win32
-"
-and
 e
 .
 errno
@@ -309,7 +297,6 @@ errno
 errno
 .
 EACCES
-)
 :
         
 continue
