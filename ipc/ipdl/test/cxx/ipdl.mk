@@ -37,6 +37,10 @@ PTestManyChildAllocsSub
 .
 ipdl
 \
+PTestRacyRPCReplies
+.
+ipdl
+\
 PTestRPCErrorCleanup
 .
 ipdl
