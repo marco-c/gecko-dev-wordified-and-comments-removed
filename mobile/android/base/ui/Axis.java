@@ -62,6 +62,7 @@ util
 .
 Map
 ;
+public
 abstract
 class
 Axis
@@ -625,7 +626,7 @@ STOPPED
 PANNING
 FLINGING
 }
-private
+public
 enum
 Overscroll
 {
@@ -975,7 +976,7 @@ Overscroll
 NONE
 ;
 }
-private
+public
 Overscroll
 getOverscroll
 (

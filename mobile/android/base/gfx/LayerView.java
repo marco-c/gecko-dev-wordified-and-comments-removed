@@ -1284,7 +1284,7 @@ R
 .
 drawable
 .
-tabs_tray_selected_bg
+abouthome_bg
 )
 ;
 }
