@@ -4012,7 +4012,7 @@ now
 int
 pos
 =
-1
+0
 ;
 for
 (
