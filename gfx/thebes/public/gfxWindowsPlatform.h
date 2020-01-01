@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
