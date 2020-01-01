@@ -106,10 +106,6 @@ NULL
 JS_MODULES_PATH
 :
 =
-(
-FINAL_TARGET
-)
-/
 modules
 /
 sessionstore
