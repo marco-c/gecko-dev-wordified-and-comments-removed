@@ -1199,15 +1199,13 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 if
 (
-NS_FAILED
-(
+!
 mPropertyTable
 -
 >
 Init
 (
 8
-)
 )
 )
 {
