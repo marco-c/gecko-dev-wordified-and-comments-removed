@@ -470,7 +470,7 @@ airbag
 (
 LIB_PREFIX
 )
-airbagexception_s
+exception_handler_s
 .
 (
 LIB_SUFFIX
