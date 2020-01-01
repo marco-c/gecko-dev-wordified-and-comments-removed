@@ -1334,7 +1334,7 @@ getApplyDirFile
 )
 ;
 let
-force
+channelchange
 =
 updatesDir
 .
@@ -1342,14 +1342,14 @@ clone
 (
 )
 ;
-force
+channelchange
 .
 append
 (
 CHANNEL_CHANGE_FILE
 )
 ;
-force
+channelchange
 .
 create
 (
