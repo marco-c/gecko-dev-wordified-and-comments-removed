@@ -6039,9 +6039,5 @@ nsCString
 aArray
 )
 ;
-typedef
-nsAutoCString
-nsCAutoString
-;
 #
 endif
