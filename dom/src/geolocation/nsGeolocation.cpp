@@ -2226,11 +2226,9 @@ ifdef
 MOZ_WIDGET_GONK
 provider
 =
-GonkGPSGeolocationProvider
-:
-:
-GetSingleton
+do_GetService
 (
+GONK_GPS_GEOLOCATION_PROVIDER_CONTRACTID
 )
 ;
 if
