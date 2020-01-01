@@ -646,8 +646,6 @@ x
 )
 region
 .
-pos
-.
 x
 =
 defaultFilterSubregion
@@ -672,8 +670,6 @@ y
 )
 )
 region
-.
-pos
 .
 y
 =
@@ -700,8 +696,6 @@ width
 )
 region
 .
-size
-.
 width
 =
 defaultFilterSubregion
@@ -726,8 +720,6 @@ height
 )
 )
 region
-.
-size
 .
 height
 =

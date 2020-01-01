@@ -15576,8 +15576,6 @@ dash
 ;
 rect
 .
-size
-.
 width
 +
 =
@@ -15694,8 +15692,6 @@ dash
 ;
 rect
 .
-size
-.
 width
 +
 =
@@ -15779,8 +15775,6 @@ return
 ;
 }
 rect
-.
-pos
 .
 y
 +
@@ -15892,8 +15886,6 @@ TopRight
 ;
 rect
 .
-size
-.
 height
 -
 =
@@ -15983,8 +15975,6 @@ NS_STYLE_TEXT_DECORATION_STYLE_WAVY
 :
 {
 rect
-.
-pos
 .
 x
 +
@@ -16500,8 +16490,6 @@ descentLimit
 ;
 r
 .
-size
-.
 height
 =
 lineHeight
@@ -16538,8 +16526,6 @@ gap
 ;
 r
 .
-size
-.
 height
 =
 lineHeight
@@ -16567,8 +16553,6 @@ suggestedMaxRectHeight
 )
 {
 r
-.
-size
 .
 height
 =
@@ -16599,8 +16583,6 @@ NS_STYLE_TEXT_DECORATION_STYLE_WAVY
 )
 {
 r
-.
-size
 .
 height
 =
@@ -16639,8 +16621,6 @@ suggestedMaxRectHeight
 )
 {
 r
-.
-size
 .
 height
 =
@@ -16816,8 +16796,6 @@ value
 ;
 }
 r
-.
-pos
 .
 y
 =

@@ -1398,13 +1398,9 @@ mCairo
 &
 ret
 .
-pos
-.
 x
 &
 ret
-.
-pos
 .
 y
 )
@@ -1415,13 +1411,9 @@ mCairo
 &
 ret
 .
-size
-.
 width
 &
 ret
-.
-size
 .
 height
 )

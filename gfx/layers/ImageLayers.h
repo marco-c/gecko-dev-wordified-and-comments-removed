@@ -619,8 +619,8 @@ GetCurrentSize
 ;
 snap
 .
-size
-=
+SizeTo
+(
 gfxSize
 (
 size
@@ -629,6 +629,7 @@ width
 size
 .
 height
+)
 )
 ;
 }

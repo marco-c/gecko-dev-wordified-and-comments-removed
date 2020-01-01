@@ -1882,8 +1882,6 @@ NS_SIDE_BOTTOM
 )
 rect
 .
-size
-.
 height
 =
 mBorderWidths
@@ -1893,8 +1891,6 @@ aSide
 ;
 else
 rect
-.
-size
 .
 width
 =
@@ -2886,8 +2882,6 @@ r
 NS_SIDE_LEFT
 ]
 .
-pos
-.
 y
 +
 =
@@ -2900,8 +2894,6 @@ r
 [
 NS_SIDE_LEFT
 ]
-.
-size
 .
 height
 -
@@ -2936,8 +2928,6 @@ r
 [
 NS_SIDE_TOP
 ]
-.
-size
 .
 width
 -
@@ -2973,8 +2963,6 @@ r
 NS_SIDE_RIGHT
 ]
 .
-size
-.
 height
 -
 =
@@ -3009,8 +2997,6 @@ r
 NS_SIDE_BOTTOM
 ]
 .
-pos
-.
 x
 +
 =
@@ -3023,8 +3009,6 @@ r
 [
 NS_SIDE_BOTTOM
 ]
-.
-size
 .
 width
 -

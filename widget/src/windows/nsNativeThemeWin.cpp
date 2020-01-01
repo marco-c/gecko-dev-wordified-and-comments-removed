@@ -5179,8 +5179,6 @@ aFrame
 {
 tr
 .
-pos
-.
 y
 -
 =
@@ -5190,8 +5188,6 @@ y
 ;
 tr
 .
-size
-.
 width
 +
 =
@@ -5200,8 +5196,6 @@ width
 0
 ;
 tr
-.
-size
 .
 height
 +
@@ -5212,8 +5206,6 @@ height
 ;
 dr
 .
-pos
-.
 y
 -
 =
@@ -5223,8 +5215,6 @@ y
 ;
 dr
 .
-size
-.
 width
 +
 =
@@ -5233,8 +5223,6 @@ width
 0
 ;
 dr
-.
-size
 .
 height
 +

@@ -11527,8 +11527,6 @@ processor
 .
 mBoundingBox
 .
-size
-.
 width
 =
 totalWidth
