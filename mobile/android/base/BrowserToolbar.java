@@ -4967,7 +4967,7 @@ width
 ;
 adjustTabsAnimation
 (
-false
+true
 )
 ;
 }
