@@ -922,7 +922,7 @@ aPadding
 ;
 nsIFrame
 *
-GetNearestContainingBlock
+GetHypotheticalBoxContainer
 (
 nsIFrame
 *
