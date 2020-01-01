@@ -802,6 +802,14 @@ state
 dl
 .
 DOWNLOAD_PAUSED
+|
+|
+state
+=
+=
+dl
+.
+DOWNLOAD_SCANNING
 ;
 ]
 ]

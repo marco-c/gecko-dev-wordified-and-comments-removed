@@ -553,8 +553,9 @@ nsIDM
 .
 DOWNLOAD_QUEUED
 :
-buildActiveDownloadsList
+prependList
 (
+aDownload
 )
 ;
 break
