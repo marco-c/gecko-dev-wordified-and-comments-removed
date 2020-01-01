@@ -10124,7 +10124,7 @@ startup
 .
 max_resumed_crashes
 "
-2
+3
 )
 ;
 pref
