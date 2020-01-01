@@ -34,9 +34,6 @@ ac_add_options
 enable
 -
 signmar
-ENABLE_MARIONETTE
-=
-1
 #
 Needed
 to
