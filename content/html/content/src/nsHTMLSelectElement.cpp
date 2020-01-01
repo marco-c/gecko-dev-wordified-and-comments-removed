@@ -505,11 +505,6 @@ nsHTMLSelectElement
 (
 )
 {
-if
-(
-mOptions
-)
-{
 mOptions
 -
 >
@@ -517,7 +512,6 @@ DropReference
 (
 )
 ;
-}
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
