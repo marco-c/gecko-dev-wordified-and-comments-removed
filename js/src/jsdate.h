@@ -53,7 +53,7 @@ js
 {
 inline
 double
-TIMECLIP
+TimeClip
 (
 double
 time

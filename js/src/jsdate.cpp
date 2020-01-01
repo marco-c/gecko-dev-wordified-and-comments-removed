@@ -2636,7 +2636,7 @@ JS_FALSE
 ;
 msec_time
 =
-TIMECLIP
+TimeClip
 (
 msec_time
 )
@@ -5242,7 +5242,7 @@ true
 }
 result
 =
-TIMECLIP
+TimeClip
 (
 result
 )
@@ -7859,7 +7859,7 @@ SetUTCTime
 (
 cx
 obj
-TIMECLIP
+TimeClip
 (
 result
 )
@@ -8307,7 +8307,7 @@ SetUTCTime
 (
 cx
 obj
-TIMECLIP
+TimeClip
 (
 result
 )
@@ -8951,7 +8951,7 @@ SetUTCTime
 (
 cx
 obj
-TIMECLIP
+TimeClip
 (
 result
 )
@@ -9340,7 +9340,7 @@ SetUTCTime
 (
 cx
 obj
-TIMECLIP
+TimeClip
 (
 result
 )
@@ -12426,7 +12426,7 @@ false
 ;
 d
 =
-TIMECLIP
+TimeClip
 (
 d
 )
@@ -12503,7 +12503,7 @@ js_NaN
 else
 d
 =
-TIMECLIP
+TimeClip
 (
 d
 )
@@ -12547,7 +12547,7 @@ cx
 ;
 msec_time
 =
-TIMECLIP
+TimeClip
 (
 msec_time
 )
