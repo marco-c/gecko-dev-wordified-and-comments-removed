@@ -470,7 +470,7 @@ SunOS
 MODULE_OPTIMIZE_FLAGS
 =
 -
-fast
+xO5
 endif
 ifeq
 (
