@@ -193,6 +193,13 @@ DNSCacheDict
 arg
 )
 ;
+void
+frameRequestCallback
+(
+FrameRequestCallback
+arg
+)
+;
 }
 ;
 interface

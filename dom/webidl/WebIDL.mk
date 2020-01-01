@@ -1271,6 +1271,10 @@ VideoStreamTrack
 .
 webidl
 \
+Window
+.
+webidl
+\
 XMLDocument
 .
 webidl
