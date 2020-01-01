@@ -26,6 +26,9 @@ gfxImageSurface
 h
 "
 class
+gfxDrawable
+;
+class
 THEBES_API
 gfxUtils
 {
@@ -66,9 +69,9 @@ DrawPixelSnapped
 gfxContext
 *
 aContext
-gfxASurface
+gfxDrawable
 *
-aSurface
+aDrawable
 const
 gfxMatrix
 &
