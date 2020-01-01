@@ -80,6 +80,10 @@ STL_FLAGS
 CPP_UNIT_TESTS
 =
 \
+TestAtomics
+.
+cpp
+\
 TestBloomFilter
 .
 cpp
