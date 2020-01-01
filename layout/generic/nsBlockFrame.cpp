@@ -5222,7 +5222,7 @@ ComputedHeight
 NS_AUTOHEIGHT
 &
 &
-ApplyOverflowClipping
+ShouldApplyOverflowClipping
 (
 this
 aReflowState
@@ -7386,7 +7386,7 @@ aBounds
 if
 (
 !
-ApplyOverflowClipping
+ShouldApplyOverflowClipping
 (
 this
 aDisplay

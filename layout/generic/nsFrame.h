@@ -1950,7 +1950,7 @@ nullptr
 ;
 static
 bool
-ApplyOverflowClipping
+ShouldApplyOverflowClipping
 (
 const
 nsIFrame
