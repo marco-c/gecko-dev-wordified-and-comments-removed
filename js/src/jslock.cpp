@@ -1631,11 +1631,6 @@ scope
 >
 object
 ;
-if
-(
-obj
-)
-{
 nslots
 =
 scope
@@ -1695,7 +1690,6 @@ i
 JSVAL_VOID
 )
 ;
-}
 }
 }
 title
