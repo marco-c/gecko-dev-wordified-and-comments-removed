@@ -320,6 +320,28 @@ int
 c
 )
 ;
+pixman_bool_t
+pixman_multiply_overflows_int
+(
+unsigned
+int
+a
+unsigned
+int
+b
+)
+;
+pixman_bool_t
+pixman_addition_overflows_int
+(
+unsigned
+int
+a
+unsigned
+int
+b
+)
+;
 #
 if
 DEBUG
@@ -1388,6 +1410,7 @@ MSBFirst
 define
 Fetch24
 (
+img
 a
 )
 (
@@ -1406,6 +1429,7 @@ a
 (
 READ
 (
+img
 a
 )
 <
@@ -1415,6 +1439,7 @@ a
 |
 READ
 (
+img
 (
 uint16_t
 *
@@ -1434,6 +1459,7 @@ a
 (
 READ
 (
+img
 (
 uint16_t
 *
@@ -1449,6 +1475,7 @@ a
 |
 READ
 (
+img
 (
 a
 )
@@ -1461,6 +1488,7 @@ a
 define
 Store24
 (
+img
 a
 v
 )
@@ -1479,6 +1507,7 @@ a
 (
 WRITE
 (
+img
 a
 (
 uint8_t
@@ -1495,6 +1524,7 @@ v
 \
 WRITE
 (
+img
 (
 uint16_t
 *
@@ -1519,6 +1549,7 @@ v
 (
 WRITE
 (
+img
 (
 uint16_t
 *
@@ -1541,6 +1572,7 @@ v
 \
 WRITE
 (
+img
 (
 a
 )
@@ -1561,6 +1593,7 @@ else
 define
 Fetch24
 (
+img
 a
 )
 (
@@ -1578,12 +1611,14 @@ a
 (
 READ
 (
+img
 a
 )
 |
 (
 READ
 (
+img
 (
 uint16_t
 *
@@ -1606,6 +1641,7 @@ a
 (
 READ
 (
+img
 (
 uint16_t
 *
@@ -1618,6 +1654,7 @@ a
 (
 READ
 (
+img
 (
 a
 )
@@ -1634,6 +1671,7 @@ a
 define
 Store24
 (
+img
 a
 v
 )
@@ -1652,6 +1690,7 @@ a
 (
 WRITE
 (
+img
 a
 (
 uint8_t
@@ -1663,6 +1702,7 @@ v
 \
 WRITE
 (
+img
 (
 uint16_t
 *
@@ -1692,6 +1732,7 @@ v
 (
 WRITE
 (
+img
 (
 uint16_t
 *
@@ -1709,6 +1750,7 @@ v
 \
 WRITE
 (
+img
 (
 a
 )
@@ -4370,11 +4412,14 @@ PIXMAN_FB_ACCESSORS
 define
 READ
 (
+img
 ptr
 )
 \
 (
-image
+(
+img
+)
 -
 >
 common
@@ -4397,12 +4442,15 @@ ptr
 define
 WRITE
 (
+img
 ptr
 val
 )
 \
 (
-image
+(
+img
+)
 -
 >
 common
@@ -4428,6 +4476,7 @@ ptr
 define
 MEMCPY_WRAPPED
 (
+img
 dst
 src
 size
@@ -4481,11 +4530,17 @@ _i
 \
 WRITE
 (
+(
+img
+)
 _dst
 +
 _i
 READ
 (
+(
+img
+)
 _src
 +
 _i
@@ -4504,6 +4559,7 @@ while
 define
 MEMSET_WRAPPED
 (
+img
 dst
 val
 size
@@ -4550,6 +4606,9 @@ _i
 \
 WRITE
 (
+(
+img
+)
 _dst
 +
 _i
@@ -4584,6 +4643,7 @@ else
 define
 READ
 (
+img
 ptr
 )
 (
@@ -4596,6 +4656,7 @@ ptr
 define
 WRITE
 (
+img
 ptr
 val
 )
@@ -4613,6 +4674,7 @@ val
 define
 MEMCPY_WRAPPED
 (
+img
 dst
 src
 size
@@ -4628,6 +4690,7 @@ size
 define
 MEMSET_WRAPPED
 (
+img
 dst
 val
 size
@@ -4760,6 +4823,7 @@ res
 =
 READ
 (
+img
 (
 uint32_t
 *
@@ -4781,6 +4845,7 @@ res
 =
 Fetch24
 (
+img
 (
 uint8_t
 *
@@ -4802,6 +4867,7 @@ res
 =
 READ
 (
+img
 (
 uint16_t
 *
@@ -4833,6 +4899,7 @@ res
 =
 READ
 (
+img
 (
 uint8_t
 *
@@ -4866,6 +4933,7 @@ res
 =
 READ
 (
+img
 (
 uint32_t
 *
@@ -5107,11 +5175,17 @@ out_stride
 =
 __stride__
 *
+(
+int
+)
 sizeof
 (
 uint32_t
 )
 /
+(
+int
+)
 sizeof
 (
 type

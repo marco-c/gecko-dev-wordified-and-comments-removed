@@ -170,6 +170,17 @@ etc
 #
 endif
 #
+include
+"
+cairo
+-
+compiler
+-
+private
+.
+h
+"
+#
 define
 I
 cairo_private

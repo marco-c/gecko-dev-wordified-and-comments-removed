@@ -1181,7 +1181,10 @@ wc
 )
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_INVALID_STRING
+)
 ;
 n_chars
 +
@@ -1195,7 +1198,10 @@ n_chars
 INT_MAX
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_INVALID_STRING
+)
 ;
 in
 =
@@ -1224,7 +1230,10 @@ if
 str32
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 in
 =
@@ -1380,7 +1389,10 @@ wc
 )
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_INVALID_STRING
+)
 ;
 if
 (
@@ -1415,7 +1427,10 @@ n16
 INT_MAX
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_INVALID_STRING
+)
 ;
 in
 =
@@ -1444,7 +1459,10 @@ if
 str16
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 in
 =

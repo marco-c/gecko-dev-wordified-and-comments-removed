@@ -281,6 +281,16 @@ limit
 0
 )
 ;
+virtual
+PRInt32
+GetDefaultContextFlags
+(
+)
+{
+return
+0
+;
+}
 protected
 :
 gfxASurface

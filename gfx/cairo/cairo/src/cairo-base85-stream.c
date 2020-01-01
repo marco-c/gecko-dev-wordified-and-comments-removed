@@ -437,6 +437,12 @@ stream
 =
 NULL
 )
+{
+_cairo_error_throw
+(
+CAIRO_STATUS_NO_MEMORY
+)
+;
 return
 (
 cairo_output_stream_t
@@ -445,6 +451,7 @@ cairo_output_stream_t
 &
 _cairo_output_stream_nil
 ;
+}
 _cairo_output_stream_init
 (
 &

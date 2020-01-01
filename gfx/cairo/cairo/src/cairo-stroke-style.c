@@ -175,7 +175,10 @@ dash
 NULL
 )
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 memcpy
 (

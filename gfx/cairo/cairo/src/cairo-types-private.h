@@ -72,11 +72,6 @@ _cairo_xlib_screen_info
 cairo_xlib_screen_info_t
 ;
 typedef
-enum
-_cairo_paginated_mode
-cairo_paginated_mode_t
-;
-typedef
 cairo_array_t
 cairo_user_data_array_t
 ;
@@ -154,12 +149,14 @@ freeze_count
 ;
 }
 ;
+typedef
 enum
 _cairo_paginated_mode
 {
 CAIRO_PAGINATED_MODE_ANALYZE
 CAIRO_PAGINATED_MODE_RENDER
 }
+cairo_paginated_mode_t
 ;
 typedef
 enum

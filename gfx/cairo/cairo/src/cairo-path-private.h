@@ -11,12 +11,6 @@ cairoint
 .
 h
 "
-extern
-const
-cairo_private
-cairo_path_t
-_cairo_path_nil
-;
 cairo_private
 cairo_path_t
 *

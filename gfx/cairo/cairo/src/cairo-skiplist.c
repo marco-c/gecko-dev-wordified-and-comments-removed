@@ -1842,9 +1842,16 @@ data_and_elt
 =
 NULL
 )
+{
+_cairo_error_throw
+(
+CAIRO_STATUS_NO_MEMORY
+)
+;
 return
 NULL
 ;
+}
 memcpy
 (
 data_and_elt

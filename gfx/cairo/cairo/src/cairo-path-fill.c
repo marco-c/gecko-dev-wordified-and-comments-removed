@@ -629,10 +629,13 @@ cairo_path_buf_t
 *
 buf
 =
+&
 path
 -
 >
 buf_head
+.
+base
 ;
 int
 final

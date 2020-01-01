@@ -30,8 +30,8 @@ backing
 }
 test_fallback_surface_t
 ;
+static
 const
-cairo_private
 cairo_surface_backend_t
 test_fallback_surface_backend
 ;
@@ -107,7 +107,7 @@ cairo_surface_destroy
 backing
 )
 ;
-_cairo_error
+_cairo_error_throw
 (
 CAIRO_STATUS_NO_MEMORY
 )
@@ -454,6 +454,7 @@ rectangle
 )
 ;
 }
+static
 const
 cairo_surface_backend_t
 test_fallback_surface_backend

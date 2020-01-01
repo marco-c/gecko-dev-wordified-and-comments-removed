@@ -9,6 +9,17 @@ include
 "
 cairo
 -
+compiler
+-
+private
+.
+h
+"
+#
+include
+"
+cairo
+-
 types
 -
 private

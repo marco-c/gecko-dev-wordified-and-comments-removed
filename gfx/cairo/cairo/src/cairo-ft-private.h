@@ -86,11 +86,6 @@ scaled_font
 ;
 slim_hidden_proto
 (
-cairo_ft_font_options_substitute
-)
-;
-slim_hidden_proto
-(
 cairo_ft_scaled_font_lock_face
 )
 ;

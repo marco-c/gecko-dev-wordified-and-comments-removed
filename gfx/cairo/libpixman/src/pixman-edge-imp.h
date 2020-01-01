@@ -44,7 +44,7 @@ bits
 .
 bits
 ;
-int32_t
+int
 stride
 =
 (
@@ -56,7 +56,7 @@ bits
 .
 rowstride
 ;
-int32_t
+int
 width
 =
 (
@@ -222,9 +222,11 @@ startmask
 {
 WRITE
 (
+image
 a
 READ
 (
+image
 a
 )
 |
@@ -244,6 +246,7 @@ nmiddle
 )
 WRITE
 (
+image
 a
 +
 +
@@ -256,9 +259,11 @@ endmask
 )
 WRITE
 (
+image
 a
 READ
 (
+image
 a
 )
 |

@@ -91,7 +91,7 @@ subset_glyph_ret
 )
 ;
 typedef
-void
+cairo_status_t
 (
 *
 cairo_scaled_font_subset_callback_func_t
@@ -131,6 +131,15 @@ font_subset_callback
 void
 *
 closure
+)
+;
+cairo_private
+cairo_int_status_t
+_cairo_scaled_font_subset_create_glyph_names
+(
+cairo_scaled_font_subset_t
+*
+subset
 )
 ;
 typedef
