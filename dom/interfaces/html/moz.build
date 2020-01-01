@@ -293,11 +293,6 @@ nsIDOMHTMLMeterElement
 idl
 '
 '
-nsIDOMHTMLModElement
-.
-idl
-'
-'
 nsIDOMHTMLOListElement
 .
 idl
