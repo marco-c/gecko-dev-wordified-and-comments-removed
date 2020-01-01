@@ -4216,6 +4216,8 @@ result
 {
 PRBool
 success
+=
+PR_TRUE
 ;
 switch
 (
