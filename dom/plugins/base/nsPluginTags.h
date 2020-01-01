@@ -257,6 +257,11 @@ IsEnabled
 (
 )
 ;
+nsCString
+GetNiceFileName
+(
+)
+;
 nsRefPtr
 <
 nsPluginTag
@@ -329,6 +334,9 @@ private
 :
 uint32_t
 mFlags
+;
+nsCString
+mNiceFileName
 ;
 void
 InitMime
