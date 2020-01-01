@@ -90,6 +90,10 @@ mk
 MOCHITEST_FILES
 =
 \
+head
+.
+js
+\
 test_feed_discovery
 .
 html
@@ -211,6 +215,10 @@ cacheManifest
 ^
 headers
 ^
+\
+test_bug787619
+.
+html
 \
 (
 NULL
