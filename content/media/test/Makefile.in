@@ -1271,10 +1271,6 @@ test_progress4
 .
 html
 \
-test_wav_8bit
-.
-html
-\
 test_wav_ended1
 .
 html
