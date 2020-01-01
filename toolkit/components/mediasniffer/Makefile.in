@@ -111,6 +111,15 @@ cpp
 (
 NULL
 )
+CSRCS
+=
+\
+mp3sniff
+.
+c
+(
+NULL
+)
 include
 (
 topsrcdir
