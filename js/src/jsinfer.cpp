@@ -20235,9 +20235,6 @@ JSOP_TRY
 case
 JSOP_LABEL
 :
-case
-JSOP_LINKASMJS
-:
 break
 ;
 case

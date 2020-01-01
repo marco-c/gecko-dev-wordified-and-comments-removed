@@ -1291,17 +1291,6 @@ false
 break
 ;
 case
-JSOP_LINKASMJS
-:
-isJaegerCompileable
-=
-isIonInlineable
-=
-false
-;
-break
-;
-case
 JSOP_ENTERLET0
 :
 case

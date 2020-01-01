@@ -7433,6 +7433,7 @@ frontend
 CompileFunctionBody
 (
 cx
+&
 fun
 options
 formals
@@ -7639,6 +7640,13 @@ else
 if
 (
 native
+&
+&
+!
+IsAsmJSModuleNative
+(
+native
+)
 )
 newKind
 =

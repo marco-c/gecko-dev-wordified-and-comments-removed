@@ -516,11 +516,14 @@ public
 Bindings
 bindings
 ;
-size_t
+uint32_t
 bufStart
 ;
-size_t
+uint32_t
 bufEnd
+;
+uint32_t
+asmStart
 ;
 uint16_t
 ndefaults
