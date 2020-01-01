@@ -369,6 +369,7 @@ eDOMClassInfo_PaintRequest_id
 eDOMClassInfo_PaintRequestList_id
 eDOMClassInfo_ScrollAreaEvent_id
 eDOMClassInfo_EventListenerInfo_id
+eDOMClassInfo_TransitionEvent_id
 eDOMClassInfoIDCount
 }
 ;
