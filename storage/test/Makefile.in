@@ -484,6 +484,10 @@ test_file_perms
 .
 cpp
 \
+test_asyncStatementExecution_transaction
+.
+cpp
+\
 (
 NULL
 )

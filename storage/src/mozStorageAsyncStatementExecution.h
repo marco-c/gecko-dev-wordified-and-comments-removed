@@ -243,6 +243,11 @@ notifyResults
 (
 )
 ;
+bool
+statementsNeedTransaction
+(
+)
+;
 StatementDataArray
 mStatements
 ;
