@@ -171,7 +171,7 @@ color
 {
 mMainColor
 =
-color
+0
 ;
 mShowChecks
 =
