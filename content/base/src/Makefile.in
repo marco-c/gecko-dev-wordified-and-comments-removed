@@ -678,10 +678,6 @@ nsLineBreaker
 .
 cpp
 \
-nsLoadListenerProxy
-.
-cpp
-\
 nsMappedAttributeElement
 .
 cpp
