@@ -2837,7 +2837,6 @@ get
 )
 length
 NULL
-keepAtoms
 )
 ;
 int
@@ -7619,7 +7618,6 @@ get
 )
 args_length
 NULL
-keepAtoms
 )
 ;
 TokenKind
