@@ -267,7 +267,7 @@ EXPORTS
 gfxXlibSurface
 .
 h
-gfxXlibNativeRenderer
+gfxQtNativeRenderer
 .
 h
 EXPORTS

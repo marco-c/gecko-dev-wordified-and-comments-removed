@@ -412,7 +412,7 @@ CPPSRCS
 gfxXlibSurface
 .
 cpp
-gfxXlibNativeRenderer
+gfxQtNativeRenderer
 .
 cpp
 CPPSRCS
@@ -433,6 +433,7 @@ CPPSRCS
 nsUnicodeRange
 .
 cpp
+#
 CSRCS
 =
 cairo
