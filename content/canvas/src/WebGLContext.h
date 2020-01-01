@@ -5310,6 +5310,7 @@ WEBGL_depth_texture
 WEBGL_lose_context
 WEBGL_draw_buffers
 ANGLE_instanced_arrays
+WebGLExtensionID_max
 WebGLExtensionID_unknown_extension
 }
 ;
@@ -5355,6 +5356,16 @@ WebGLExtensionID
 ext
 )
 const
+;
+static
+const
+char
+*
+GetExtensionString
+(
+WebGLExtensionID
+ext
+)
 ;
 nsTArray
 <
