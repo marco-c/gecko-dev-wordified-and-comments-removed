@@ -4093,6 +4093,10 @@ ionActivation
 (
 NULL
 )
+ionPcScriptCache
+(
+NULL
+)
 ionReturnOverride_
 (
 MagicValue
@@ -4705,6 +4709,15 @@ endif
 js_delete
 (
 execAlloc_
+)
+;
+if
+(
+ionPcScriptCache
+)
+js_delete
+(
+ionPcScriptCache
 )
 ;
 }
