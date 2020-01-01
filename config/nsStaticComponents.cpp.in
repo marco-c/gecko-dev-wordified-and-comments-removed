@@ -544,6 +544,7 @@ MODULE
 _name
 )
 \
+&
 NSMODULE_NAME
 (
 _name
@@ -556,7 +557,6 @@ The
 nsStaticModuleInfo
 *
 /
-static
 const
 mozilla
 :
@@ -564,7 +564,9 @@ mozilla
 Module
 *
 const
-kStaticModules
+*
+const
+kPStaticModules
 [
 ]
 =
@@ -584,17 +586,4 @@ in
 "
 NULL
 }
-;
-mozilla
-:
-:
-Module
-const
-*
-const
-*
-const
-kPStaticModules
-=
-kStaticModules
 ;

@@ -24,6 +24,8 @@ const
 *
 const
 kPStaticModules
+[
+]
 ;
 #
 endif

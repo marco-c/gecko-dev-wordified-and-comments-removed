@@ -4309,6 +4309,8 @@ Module
 *
 const
 *
+const
+*
 staticModules
 =
 kPStaticModules
@@ -4322,6 +4324,7 @@ staticModules
 )
 XRE_AddStaticComponent
 (
+*
 *
 staticModules
 )
