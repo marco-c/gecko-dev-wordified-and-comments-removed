@@ -1032,7 +1032,6 @@ nsIDOMMutationEvent
 :
 :
 MODIFICATION
-0
 )
 ;
 }

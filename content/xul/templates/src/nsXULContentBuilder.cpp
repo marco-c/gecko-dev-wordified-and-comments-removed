@@ -5207,8 +5207,6 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
 )
 {
 if
@@ -5339,7 +5337,6 @@ aContent
 aNameSpaceID
 aAttribute
 aModType
-aStateMask
 )
 ;
 }

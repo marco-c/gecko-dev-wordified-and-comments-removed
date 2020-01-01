@@ -5464,8 +5464,6 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
 )
 {
 if
@@ -5486,7 +5484,6 @@ aContent
 aNameSpaceID
 aAttribute
 aModType
-aStateMask
 )
 ;
 }
@@ -20813,8 +20810,6 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
 )
 {
 NS_PRECONDITION
@@ -20859,7 +20854,6 @@ aContent
 aNameSpaceID
 aAttribute
 aModType
-aStateMask
 )
 ;
 VERIFY_STYLE_TREE

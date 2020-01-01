@@ -3804,8 +3804,6 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
 )
 {
 NS_ASSERTION
@@ -3830,7 +3828,6 @@ aElement
 aNameSpaceID
 aAttribute
 aModType
-aStateMask
 )
 ;
 if

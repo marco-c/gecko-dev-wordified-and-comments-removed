@@ -5893,7 +5893,6 @@ nsIDOMMutationEvent
 :
 :
 REMOVAL
-stateMask
 )
 ;
 }

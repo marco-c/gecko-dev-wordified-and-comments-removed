@@ -144,8 +144,6 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-PRUint32
-aStateMask
 )
 =
 0
@@ -328,9 +326,6 @@ aAttribute
 \
 PRInt32
 aModType
-\
-PRUint32
-aStateMask
 )
 ;
 #
@@ -581,9 +576,6 @@ aAttribute
 \
 PRInt32
 aModType
-\
-PRUint32
-aStateMask
 )
 \
 {
