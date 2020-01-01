@@ -638,10 +638,12 @@ window_titlebar
 .
 xul
 \
+#
 test_browser_drop
 .
 xul
 \
+#
 window_browser_drop
 .
 xul
