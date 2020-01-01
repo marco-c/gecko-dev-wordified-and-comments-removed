@@ -536,6 +536,17 @@ if
 haveTwoColons
 &
 &
+(
+!
+nsCSSPseudoElements
+:
+:
+IsPseudoElement
+(
+mPseudo
+)
+|
+|
 !
 nsCSSPseudoElements
 :
@@ -543,6 +554,7 @@ nsCSSPseudoElements
 IsCSS2PseudoElement
 (
 mPseudo
+)
 )
 )
 {
