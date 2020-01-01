@@ -346,6 +346,14 @@ _retval
 )
 ;
 NS_IMETHOD
+GetName
+(
+nsAString
+&
+aName
+)
+;
+NS_IMETHOD
 GetValue
 (
 nsAString
