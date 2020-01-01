@@ -4110,6 +4110,12 @@ kAllowSmoothScroll
 <
 <
 7
+kFromLines
+=
+1
+<
+<
+8
 }
 ;
 nsMouseScrollEvent
