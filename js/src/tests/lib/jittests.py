@@ -1065,8 +1065,7 @@ def
 command
 (
 self
-js
-shell_args
+prefix
 )
 :
         
@@ -1138,9 +1137,7 @@ scriptdir_var
         
 cmd
 =
-[
-js
-]
+prefix
 +
 list
 (
@@ -1152,37 +1149,12 @@ jitflags
 )
 )
 +
-shell_args
-+
 [
 '
 -
 e
 '
 expr
-]
-        
-cmd
-+
-=
-[
-'
--
-f
-'
-os
-.
-path
-.
-join
-(
-LIB_DIR
-'
-prolog
-.
-js
-'
-)
 '
 -
 f
@@ -1922,7 +1894,7 @@ def
 run_test
 (
 test
-shell_args
+prefix
 options
 )
 :
@@ -1933,10 +1905,7 @@ test
 .
 command
 (
-options
-.
-js_shell
-shell_args
+prefix
 )
     
 if
@@ -2231,7 +2200,7 @@ def
 wrap_parallel_run_test
 (
 test
-shell_args
+prefix
 resultQueue
 options
 )
@@ -2254,7 +2223,7 @@ result
 run_test
 (
 test
-shell_args
+prefix
 options
 )
     
@@ -2271,7 +2240,7 @@ def
 run_tests_parallel
 (
 tests
-shell_args
+prefix
 options
 )
 :
@@ -2471,7 +2440,7 @@ tests
 [
 testcnt
 ]
-shell_args
+prefix
 async_test_result_queue
 options
 )
@@ -3502,7 +3471,7 @@ def
 get_serial_results
 (
 tests
-shell_args
+prefix
 options
 )
 :
@@ -3517,14 +3486,14 @@ yield
 run_test
 (
 test
-shell_args
+prefix
 options
 )
 def
 run_tests
 (
 tests
-shell_args
+prefix
 options
 )
 :
@@ -3534,7 +3503,7 @@ gen
 get_serial_results
 (
 tests
-shell_args
+prefix
 options
 )
     
