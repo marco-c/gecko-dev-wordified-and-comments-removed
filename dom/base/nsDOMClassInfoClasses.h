@@ -1260,6 +1260,10 @@ MozConnection
 )
 DOMCI_CLASS
 (
+MozMobileConnection
+)
+DOMCI_CLASS
+(
 CSSFontFaceRule
 )
 DOMCI_CLASS
