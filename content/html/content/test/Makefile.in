@@ -1128,6 +1128,14 @@ test_bug582412
 html
 \
 test_bug558788
+-
+1
+.
+html
+\
+test_bug558788
+-
+2
 .
 html
 \
