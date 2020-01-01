@@ -6040,6 +6040,14 @@ nsnull
 ;
 if
 (
+aBuilder
+-
+>
+IsForEventDelivery
+(
+)
+|
+|
 AnyTablePartHasBorderOrBackground
 (
 this
