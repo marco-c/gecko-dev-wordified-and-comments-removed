@@ -662,7 +662,7 @@ CACHE_INVALIDATION_DELAY
 const
 CACHE_VERSION
 =
-2
+3
 ;
 const
 ICON_DATAURL_PREFIX
@@ -9889,7 +9889,7 @@ aFilter
 )
 json
 .
-updateInterval
+_updateInterval
 =
 this
 .
