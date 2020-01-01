@@ -224,7 +224,7 @@ false
 )
 usesBeforeCompile
 (
-10240
+1000
 )
 usesBeforeCompileNoJaeger
 (
