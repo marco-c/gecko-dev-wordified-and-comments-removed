@@ -128,6 +128,10 @@ name
 =
 "
 ;
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsAutoCompleteController
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsAutoCompleteController

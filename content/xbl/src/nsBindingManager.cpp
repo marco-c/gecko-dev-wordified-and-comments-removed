@@ -772,6 +772,10 @@ return
 NS_OK
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsBindingManager
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsBindingManager

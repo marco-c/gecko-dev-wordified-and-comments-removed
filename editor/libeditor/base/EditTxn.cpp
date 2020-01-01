@@ -19,6 +19,10 @@ nsISupportsBase
 .
 h
 "
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+EditTxn
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_0
 (
 EditTxn

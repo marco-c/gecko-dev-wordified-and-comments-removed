@@ -201,6 +201,10 @@ DOMCI_DATA
 MozMobileConnection
 MobileConnection
 )
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+MobileConnection
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 MobileConnection

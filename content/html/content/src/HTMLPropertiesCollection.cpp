@@ -71,6 +71,10 @@ mozilla
 namespace
 dom
 {
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+HTMLPropertiesCollection
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 HTMLPropertiesCollection
@@ -1687,6 +1691,10 @@ this
 )
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+PropertyNodeList
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 PropertyNodeList

@@ -75,6 +75,10 @@ DOMCI_DATA
 BluetoothDevice
 BluetoothDevice
 )
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+BluetoothDevice
+)
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 BluetoothDevice

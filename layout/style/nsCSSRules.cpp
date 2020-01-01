@@ -2065,6 +2065,10 @@ return
 true
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+GroupRule
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 GroupRule
@@ -2649,7 +2653,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 GroupRule
 :
 :
@@ -2763,6 +2767,9 @@ AppendLiteral
 }
 "
 )
+;
+return
+NS_OK
 ;
 }
 nsresult
@@ -3385,6 +3392,7 @@ AppendConditionText
 aCssText
 )
 ;
+return
 GroupRule
 :
 :
@@ -3392,9 +3400,6 @@ AppendRulesToCssText
 (
 aCssText
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -4205,6 +4210,7 @@ AppendConditionText
 aCssText
 )
 ;
+return
 GroupRule
 :
 :
@@ -4212,9 +4218,6 @@ AppendRulesToCssText
 (
 aCssText
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -7135,6 +7138,10 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsCSSFontFaceRule
 )
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsCSSFontFaceRule
+)
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN
 (
 nsCSSFontFaceRule
@@ -7155,11 +7162,9 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsCSSFontFaceRule
 )
-tmp
--
->
-mDecl
-.
+nsContentUtils
+:
+:
 ReleaseWrapper
 (
 static_cast
@@ -7170,6 +7175,11 @@ nsISupports
 (
 p
 )
+&
+tmp
+-
+>
+mDecl
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -9223,6 +9233,10 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsCSSKeyframeRule
 )
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsCSSKeyframeRule
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsCSSKeyframeRule
@@ -11004,6 +11018,10 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsCSSPageRule
 )
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsCSSPageRule
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsCSSPageRule
@@ -11790,6 +11808,7 @@ Append
 mCondition
 )
 ;
+return
 css
 :
 :
@@ -11800,9 +11819,6 @@ AppendRulesToCssText
 (
 aCssText
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

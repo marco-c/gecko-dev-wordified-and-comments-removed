@@ -89,6 +89,10 @@ mozilla
 namespace
 dom
 {
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+AudioBuffer
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 AudioBuffer

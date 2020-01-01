@@ -4437,8 +4437,12 @@ ClearBoxObjectFor
 this
 )
 ;
+nsContentUtils
+:
+:
 ReleaseWrapper
 (
+this
 this
 )
 ;
@@ -5140,6 +5144,10 @@ UnbindAll
 )
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+FragmentOrElement
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 FragmentOrElement

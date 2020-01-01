@@ -591,6 +591,10 @@ gSystemGlobal
 ;
 }
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsXULPrototypeDocument
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsXULPrototypeDocument
@@ -2850,6 +2854,10 @@ nsXULPDGlobalObject
 )
 {
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsXULPDGlobalObject
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_0
 (
 nsXULPDGlobalObject

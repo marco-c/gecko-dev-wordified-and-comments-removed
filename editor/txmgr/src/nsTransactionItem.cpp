@@ -165,6 +165,10 @@ CleanUp
 (
 )
 )
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsTransactionItem
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsTransactionItem

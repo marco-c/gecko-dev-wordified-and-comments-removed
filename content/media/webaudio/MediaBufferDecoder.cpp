@@ -133,6 +133,10 @@ h
 namespace
 mozilla
 {
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+WebAudioDecodeJob
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 WebAudioDecodeJob

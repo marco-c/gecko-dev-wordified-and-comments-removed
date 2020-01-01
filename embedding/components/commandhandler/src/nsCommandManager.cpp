@@ -188,6 +188,10 @@ return
 PL_DHASH_NEXT
 ;
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsCommandManager
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsCommandManager

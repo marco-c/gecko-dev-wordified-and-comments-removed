@@ -111,6 +111,10 @@ MediaStreamList
 )
 #
 else
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+MediaStreamList
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 MediaStreamList

@@ -59,6 +59,10 @@ mozilla
 namespace
 dom
 {
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+AudioParam
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 AudioParam

@@ -352,6 +352,10 @@ mParent
 ;
 }
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsGenericDOMDataNode
+)
 NS_IMPL_CYCLE_COLLECTION_TRACE_WRAPPERCACHE
 (
 nsGenericDOMDataNode
@@ -2993,8 +2997,12 @@ DestroyContent
 (
 )
 {
+nsContentUtils
+:
+:
 ReleaseWrapper
 (
+this
 this
 )
 ;

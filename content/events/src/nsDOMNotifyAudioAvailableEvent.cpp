@@ -118,6 +118,10 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMNotifyAudioAvailableEvent
 nsDOMEvent
 )
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsDOMNotifyAudioAvailableEvent
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 nsDOMNotifyAudioAvailableEvent

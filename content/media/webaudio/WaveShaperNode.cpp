@@ -52,6 +52,10 @@ mozilla
 namespace
 dom
 {
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+WaveShaperNode
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 WaveShaperNode

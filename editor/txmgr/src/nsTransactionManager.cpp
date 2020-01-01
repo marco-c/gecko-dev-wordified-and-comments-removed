@@ -159,6 +159,10 @@ nsTransactionManager
 )
 {
 }
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsTransactionManager
+)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsTransactionManager

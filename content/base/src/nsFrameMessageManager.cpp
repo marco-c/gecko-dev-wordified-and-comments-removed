@@ -254,6 +254,10 @@ dom
 :
 ipc
 ;
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+nsFrameMessageManager
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 nsFrameMessageManager
