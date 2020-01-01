@@ -79,6 +79,10 @@ AudioContext
 .
 webidl
 \
+Blob
+.
+webidl
+\
 CanvasRenderingContext2D
 .
 webidl
