@@ -5014,6 +5014,15 @@ hwndBelow
 !
 :
 :
+IsWindowEnabled
+(
+hwndBelow
+)
+|
+|
+!
+:
+:
 IsWindowVisible
 (
 hwndBelow
