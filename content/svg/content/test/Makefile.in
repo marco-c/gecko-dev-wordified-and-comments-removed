@@ -280,6 +280,14 @@ events
 .
 xhtml
 \
+test_pointer
+-
+events
+-
+4
+.
+xhtml
+\
 test_scientific
 .
 html
