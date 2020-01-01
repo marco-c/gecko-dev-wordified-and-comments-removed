@@ -471,6 +471,7 @@ EXTRA_DSO_LIBS
 +
 =
 thebes
+layers
 CPPSRCS
 =
 \
