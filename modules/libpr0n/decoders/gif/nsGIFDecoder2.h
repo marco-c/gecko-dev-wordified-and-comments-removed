@@ -220,6 +220,9 @@ mColormapSize
 PRUint32
 mOldColor
 ;
+PRInt32
+mCurrentFrame
+;
 PRUint8
 mCurrentPass
 ;
