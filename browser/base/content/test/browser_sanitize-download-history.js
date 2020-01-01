@@ -357,6 +357,11 @@ preferredAction
 autoResume
 :
 0
+guid
+:
+"
+a1bcD23eF4g5
+"
 }
 ;
 let
@@ -411,6 +416,7 @@ currBytes
 maxBytes
 preferredAction
 autoResume
+guid
 )
 "
 +
@@ -440,6 +446,8 @@ maxBytes
 preferredAction
 :
 autoResume
+:
+guid
 )
 "
 )

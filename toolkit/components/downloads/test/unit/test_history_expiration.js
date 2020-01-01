@@ -170,6 +170,7 @@ id
 source
 target
 state
+guid
 )
 "
 +
@@ -184,6 +185,8 @@ VALUES
 3
 ?
 4
+?
+5
 )
 "
 )
@@ -239,6 +242,13 @@ please
 null
 null
 )
+;
+let
+theGUID
+=
+"
+a1bcD23eF4g5
+"
 ;
 try
 {
@@ -349,6 +359,14 @@ bindByIndex
 dm
 .
 DOWNLOAD_FINISHED
+)
+;
+stmt
+.
+bindByIndex
+(
+4
+theGUID
 )
 ;
 stmt
