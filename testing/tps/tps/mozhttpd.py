@@ -650,6 +650,14 @@ httpd
 shutdown
 (
 )
+            
+self
+.
+httpd
+.
+server_close
+(
+)
     
 __del__
 =
