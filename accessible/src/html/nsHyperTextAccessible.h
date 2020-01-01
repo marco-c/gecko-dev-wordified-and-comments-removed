@@ -489,6 +489,16 @@ aOffset
 )
 ;
 }
+virtual
+already_AddRefed
+<
+nsIEditor
+>
+GetEditor
+(
+)
+const
+;
 protected
 :
 inline
