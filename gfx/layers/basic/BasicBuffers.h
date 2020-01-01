@@ -153,6 +153,16 @@ newSize
 =
 =
 prevSize
+|
+|
+prevSize
+=
+=
+gfxIntSize
+(
+0
+0
+)
 "
 Swapped
 -
