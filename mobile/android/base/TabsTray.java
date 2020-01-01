@@ -1255,6 +1255,17 @@ getTag
 (
 )
 ;
+row
+.
+close
+.
+setVisibility
+(
+View
+.
+VISIBLE
+)
+;
 }
 Tab
 tab
