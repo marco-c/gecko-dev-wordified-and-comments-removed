@@ -9064,6 +9064,10 @@ i
 {
 let
 uri
+;
+try
+{
+uri
 =
 aHistory
 .
@@ -9075,6 +9079,15 @@ false
 .
 URI
 ;
+}
+catch
+(
+ex
+)
+{
+continue
+;
+}
 let
 domain
 =
