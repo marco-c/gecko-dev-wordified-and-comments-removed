@@ -1901,8 +1901,8 @@ atom
 jsint
 *
 slotp
-JSBool
-letdecl
+uintN
+decltype
 )
 ;
 extern
