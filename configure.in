@@ -36397,7 +36397,6 @@ BZ2_CFLAGS
 BZ2_LIBS
 =
 ]
-BZ2_LIBS
 )
 fi
 CFLAGS
@@ -36456,7 +36455,7 @@ BZ2_DIR
 /
 lib
 {
-MOZ_BZ2_LIBS
+BZ2_LIBS
 }
 "
 fi
