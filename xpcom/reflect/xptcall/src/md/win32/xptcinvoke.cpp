@@ -453,6 +453,15 @@ have
 no
 return
 value
+#
+pragma
+optimize
+(
+"
+y
+"
+off
+)
 extern
 "
 C
