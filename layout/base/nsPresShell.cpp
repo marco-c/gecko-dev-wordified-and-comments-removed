@@ -26517,9 +26517,10 @@ return
 NS_OK
 ;
 }
+static
 inline
 PRBool
-IsSynthesizedMouseMove
+IsSynthesizedMouseEvent
 (
 nsEvent
 *
@@ -27131,7 +27132,7 @@ rv
 if
 (
 !
-IsSynthesizedMouseMove
+IsSynthesizedMouseEvent
 (
 aEvent
 )
