@@ -605,6 +605,10 @@ browser_globalwarnings
 .
 js
 \
+browser_globalinformations
+.
+js
+\
 browser_eula
 .
 js
