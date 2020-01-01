@@ -1486,13 +1486,13 @@ version
 assuming
 10
 .
-4
+6
 "
 )
 ;
 mOSXVersion
 =
-MAC_OS_X_VERSION_10_4_HEX
+MAC_OS_X_VERSION_10_6_HEX
 ;
 }
 }
