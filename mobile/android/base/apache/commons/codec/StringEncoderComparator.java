@@ -16,6 +16,12 @@ util
 .
 Comparator
 ;
+SuppressWarnings
+(
+"
+rawtypes
+"
+)
 public
 class
 StringEncoderComparator
@@ -53,6 +59,12 @@ stringEncoder
 stringEncoder
 ;
 }
+SuppressWarnings
+(
+"
+unchecked
+"
+)
 public
 int
 compare
