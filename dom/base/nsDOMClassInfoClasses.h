@@ -115,10 +115,6 @@ CRMFObject
 endif
 DOMCI_CLASS
 (
-Crypto
-)
-DOMCI_CLASS
-(
 ChromeWindow
 )
 #

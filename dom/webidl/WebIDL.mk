@@ -75,6 +75,10 @@ NULL
 preprocessed_webidl_files
 =
 \
+Crypto
+.
+webidl
+\
 Navigator
 .
 webidl
@@ -934,10 +938,6 @@ ProcessingInstruction
 webidl
 \
 Promise
-.
-webidl
-\
-PushManager
 .
 webidl
 \
