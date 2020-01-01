@@ -14094,9 +14094,12 @@ k
 1
 )
 {
-rv
-=
-NS_ERROR_FAILURE
+retval
+.
+SetIsVoid
+(
+true
+)
 ;
 return
 ;
