@@ -138,6 +138,7 @@ dialog
 no
 resizable
 scrollbars
+centerscreen
 "
 [
 ]
