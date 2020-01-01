@@ -3929,6 +3929,7 @@ HandleEvent
 (
 aView
 aEvent
+PR_FALSE
 aStatus
 )
 ;
@@ -4533,6 +4534,7 @@ HandleEvent
 (
 aView
 aEvent
+PR_FALSE
 &
 status
 )
