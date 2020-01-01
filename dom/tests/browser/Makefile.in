@@ -475,6 +475,10 @@ browser_bug396843
 .
 js
 \
+browser_popup_blocker_multiple_popups
+.
+js
+\
 (
 NULL
 )
