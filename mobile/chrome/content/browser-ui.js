@@ -2148,7 +2148,7 @@ messageManager
 addMessageListener
 (
 "
-DOMContentLoaded
+pageshow
 "
 function
 (
@@ -2159,7 +2159,7 @@ messageManager
 removeMessageListener
 (
 "
-DOMContentLoaded
+pageshow
 "
 arguments
 .
