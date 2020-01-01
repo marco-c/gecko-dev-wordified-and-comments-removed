@@ -597,6 +597,17 @@ ROLE_COMBOBOX_OPTION
 ]
 }
 ;
+/
+/
+XXX
+Bug
+551957
+if
+(
+!
+MAC
+)
+{
 testAccessibleTree
 (
 "
@@ -605,6 +616,7 @@ menulist2
 accTree
 )
 ;
+}
 /
 /
 /
