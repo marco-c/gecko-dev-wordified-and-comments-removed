@@ -140,10 +140,6 @@ AddonUpdateService
 .
 js
 \
-FormAutoComplete
-.
-js
-\
 LoginManagerPrompter
 .
 js
