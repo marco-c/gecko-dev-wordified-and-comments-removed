@@ -47,11 +47,11 @@ h
 #
 include
 "
-assembler
+methodjit
 /
-assembler
+nunbox
 /
-MacroAssembler
+Assembler
 .
 h
 "
@@ -69,13 +69,6 @@ JSC
 :
 :
 MacroAssembler
-MacroAssembler
-;
-typedef
-JSC
-:
-:
-MacroAssembler
 :
 :
 Address
@@ -111,7 +104,7 @@ MacroAssembler
 RegisterID
 RegisterID
 ;
-MacroAssembler
+Assembler
 &
 masm
 ;
@@ -123,7 +116,7 @@ public
 :
 CodeGenerator
 (
-MacroAssembler
+Assembler
 &
 masm
 FrameState

@@ -87,7 +87,7 @@ CodeGenerator
 :
 CodeGenerator
 (
-MacroAssembler
+Assembler
 &
 masm
 FrameState

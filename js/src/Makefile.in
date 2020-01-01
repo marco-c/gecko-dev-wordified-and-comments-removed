@@ -1524,7 +1524,7 @@ Logging
 .
 cpp
 \
-Stubs
+StubCalls
 .
 cpp
 \
@@ -1541,6 +1541,10 @@ FrameState
 cpp
 \
 FastOps
+.
+cpp
+\
+StubCompiler
 .
 cpp
 \

@@ -30,6 +30,16 @@ VMFrame
 f
 )
 ;
+JSObject
+*
+JS_FASTCALL
+BindName
+(
+VMFrame
+&
+f
+)
+;
 }
 }
 }
