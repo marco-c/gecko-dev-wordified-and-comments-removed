@@ -936,7 +936,7 @@ setup
 accountno
 ;
 "
-onclick
+oncommand
 =
 "
 qaSetup
@@ -969,7 +969,7 @@ setup
 accountyes
 ;
 "
-onclick
+oncommand
 =
 "
 qaSetup
