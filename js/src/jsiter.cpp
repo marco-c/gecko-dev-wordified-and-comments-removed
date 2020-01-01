@@ -368,6 +368,15 @@ getParent
 (
 )
 ;
+if
+(
+!
+iterable
+)
+{
+return
+;
+}
 jsval
 iter_state
 =
