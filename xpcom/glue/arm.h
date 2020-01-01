@@ -304,6 +304,18 @@ endif
 if
 defined
 (
+__ARM_NEON__
+)
+#
+define
+MOZILLA_PRESUME_NEON
+1
+#
+endif
+#
+if
+defined
+(
 __linux__
 )
 |
@@ -337,7 +349,7 @@ MOZILLA_ARM_HAVE_CPUID_DETECTION
 #
 define
 MOZILLA_ARM_ARCH
-3
+_M_ARM
 #
 define
 MOZILLA_MAY_SUPPORT_EDSP
