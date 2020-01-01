@@ -1202,6 +1202,8 @@ aSubject
 nsIPrincipal
 *
 aObject
+PRBool
+aIsCheckConnect
 )
 ;
 static
@@ -1291,6 +1293,9 @@ aJSObject
 nsISupports
 *
 aObj
+nsIURI
+*
+aTargetURI
 nsIClassInfo
 *
 aClassInfo
@@ -1317,6 +1322,8 @@ nsIPrincipal
 aObject
 PRUint32
 aAction
+PRBool
+aIsCheckConnect
 )
 ;
 nsresult
