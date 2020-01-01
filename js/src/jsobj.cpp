@@ -17097,12 +17097,7 @@ isFunction
 )
 &
 &
-getFunctionPrivate
-(
-)
--
->
-isBound
+isBoundFunction
 (
 )
 )
