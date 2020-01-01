@@ -340,6 +340,11 @@ String
 {
 }
 ;
+typedef
+class
+String
+AvmString
+;
 class
 StringNullTerminatedUTF8
 {

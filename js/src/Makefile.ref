@@ -1166,6 +1166,12 @@ nanojit
 .
 h
 \
+nanojit
+/
+TraceTreeDrawer
+.
+h
+\
 (
 NULL
 )
@@ -1465,6 +1471,12 @@ cpp
 nanojit
 /
 Tests
+.
+cpp
+\
+nanojit
+/
+TraceTreeDrawer
 .
 cpp
 \
