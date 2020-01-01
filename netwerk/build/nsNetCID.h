@@ -1852,8 +1852,6 @@ mozilla
 org
 /
 privatebrowsing
--
-wrapper
 ;
 1
 "
