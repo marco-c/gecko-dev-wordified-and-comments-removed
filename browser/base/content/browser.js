@@ -38112,13 +38112,11 @@ htmlString
 ;
 dt
 .
-setDragImage
+addElement
 (
 event
 .
 currentTarget
-0
-0
 )
 ;
 }
