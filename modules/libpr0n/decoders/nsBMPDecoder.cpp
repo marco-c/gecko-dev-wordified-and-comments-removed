@@ -8,6 +8,13 @@ h
 #
 include
 "
+Endian
+.
+h
+"
+#
+include
+"
 nsBMPDecoder
 .
 h
