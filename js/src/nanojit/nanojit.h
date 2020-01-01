@@ -52,6 +52,13 @@ NANOJIT_X64
 #
 elif
 defined
+VMCFG_SH4
+#
+define
+NANOJIT_SH4
+#
+elif
+defined
 AVMPLUS_MIPS
 #
 define
