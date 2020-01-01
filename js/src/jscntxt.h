@@ -482,6 +482,13 @@ gcStats
 ;
 #
 endif
+JSTraceDataOp
+gcExtraRootsTraceOp
+;
+void
+*
+gcExtraRootsData
+;
 JSAtomState
 atomState
 ;
