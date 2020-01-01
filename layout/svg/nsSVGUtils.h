@@ -1177,6 +1177,15 @@ aFrame
 )
 ;
 static
+bool
+AnyOuterSVGIsCallingReflowSVG
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 gfxMatrix
 GetStrokeTransform
 (
