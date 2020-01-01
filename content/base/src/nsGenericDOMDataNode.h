@@ -817,6 +817,7 @@ PRUint32
 TextLength
 (
 )
+const
 ;
 virtual
 nsresult
