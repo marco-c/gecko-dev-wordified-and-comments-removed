@@ -520,8 +520,6 @@ sampleCount
 ;
 DrainDone
 (
-nsresult
-status
 )
 ;
 }
