@@ -629,6 +629,12 @@ Sync
 :
 AddDevice
 "
+persist
+=
+"
+screenX
+screenY
+"
 onwizardnext
 =
 "

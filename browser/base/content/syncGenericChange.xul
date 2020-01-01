@@ -647,6 +647,12 @@ Weave
 :
 ChangeSomething
 "
+persist
+=
+"
+screenX
+screenY
+"
 onwizardnext
 =
 "

@@ -610,6 +610,12 @@ Weave
 :
 AccountSetup
 "
+persist
+=
+"
+screenX
+screenY
+"
 xmlns
 =
 "

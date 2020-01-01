@@ -538,6 +538,14 @@ Sync
 :
 ViewQuota
 "
+persist
+=
+"
+screenX
+screenY
+width
+height
+"
 xmlns
 =
 "
