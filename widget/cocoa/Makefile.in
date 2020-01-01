@@ -233,6 +233,10 @@ NativeKeyBindings
 .
 mm
 \
+nsColorPicker
+.
+mm
+\
 (
 NULL
 )
