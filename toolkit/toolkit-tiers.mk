@@ -497,6 +497,10 @@ tier_platform_dirs
 \
 modules
 /
+libreg
+\
+modules
+/
 libpref
 \
 intl
