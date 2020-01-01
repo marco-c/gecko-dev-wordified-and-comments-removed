@@ -33,6 +33,10 @@ downloads
 -
 button
 #
+downloads
+-
+indicator
+#
 history
 -
 button
