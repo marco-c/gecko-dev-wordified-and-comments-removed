@@ -29,14 +29,6 @@ NumericConversions
 .
 h
 "
-extern
-double
-js_PositiveInfinity
-;
-extern
-double
-js_NegativeInfinity
-;
 namespace
 js
 {

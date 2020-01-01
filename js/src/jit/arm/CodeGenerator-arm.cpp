@@ -134,6 +134,12 @@ mozilla
 :
 FloorLog2
 ;
+using
+mozilla
+:
+:
+NegativeInfinity
+;
 CodeGeneratorARM
 :
 :
@@ -5680,7 +5686,9 @@ masm
 .
 ma_vimm
 (
-js_NegativeInfinity
+NegativeInfinity
+(
+)
 ScratchFloatReg
 )
 ;

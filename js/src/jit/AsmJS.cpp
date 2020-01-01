@@ -246,6 +246,12 @@ mozilla
 :
 MoveRef
 ;
+using
+mozilla
+:
+:
+PositiveInfinity
+;
 static
 const
 size_t
@@ -16557,7 +16563,9 @@ m
 addGlobalConstant
 (
 varName
-js_PositiveInfinity
+PositiveInfinity
+(
+)
 field
 )
 ;
