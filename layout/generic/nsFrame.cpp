@@ -6721,7 +6721,7 @@ endif
 MarkAbsoluteFramesForDisplayList
 (
 aBuilder
-aDirtyRect
+dirtyRect
 )
 ;
 nsDisplayListCollection
