@@ -1460,7 +1460,6 @@ c
 )
 ;
 }
-;
 }
 ;
 struct
@@ -1548,7 +1547,6 @@ c
 principals
 ;
 }
-;
 }
 ;
 JS_FRIEND_API
