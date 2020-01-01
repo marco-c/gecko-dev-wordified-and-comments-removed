@@ -4032,6 +4032,7 @@ nsIURI
 if
 (
 !
+*
 aResults
 )
 return
@@ -4407,6 +4408,7 @@ PRInt64
 if
 (
 !
+*
 aResults
 )
 return
