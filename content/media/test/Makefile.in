@@ -729,6 +729,10 @@ test_mediarecorder_reload_crash
 .
 html
 \
+test_mediarecorder_record_immediate_stop
+.
+html
+\
 test_media_selection
 .
 html
