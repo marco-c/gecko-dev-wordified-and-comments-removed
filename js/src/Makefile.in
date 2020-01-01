@@ -2100,6 +2100,10 @@ YarrSyntaxChecker
 .
 cpp
 \
+YarrCanonicalizeUCS2
+.
+cpp
+\
 (
 NONE
 )
