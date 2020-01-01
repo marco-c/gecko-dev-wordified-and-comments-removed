@@ -423,8 +423,6 @@ deferred
 resolve
 (
 data
-.
-ok
 )
 ;
 }
