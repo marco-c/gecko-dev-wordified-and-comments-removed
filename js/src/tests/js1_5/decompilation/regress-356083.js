@@ -102,10 +102,8 @@ function
 {
 return
 {
+set
 this
-setter
-:
-function
 (
 )
 {
@@ -154,11 +152,9 @@ actual
 uneval
 (
 {
+set
 '
 '
-setter
-:
-function
 (
 )
 {

@@ -5,6 +5,12 @@ jstests
 .
 list
 include
+Expressions
+/
+jstests
+.
+list
+include
 Object
 /
 jstests
