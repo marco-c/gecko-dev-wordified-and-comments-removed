@@ -2479,7 +2479,7 @@ enterICCPIN
 function
 enterICCPIN
 (
-pin
+options
 )
 {
 Buf
@@ -2500,6 +2500,8 @@ Buf
 .
 writeString
 (
+options
+.
 pin
 )
 ;
@@ -2515,8 +2517,7 @@ changeICCPIN
 function
 changeICCPIN
 (
-oldPin
-newPin
+options
 )
 {
 Buf
@@ -2537,6 +2538,8 @@ Buf
 .
 writeString
 (
+options
+.
 oldPin
 )
 ;
@@ -2544,6 +2547,8 @@ Buf
 .
 writeString
 (
+options
+.
 newPin
 )
 ;
@@ -2559,8 +2564,7 @@ enterICCPUK
 function
 enterICCPUK
 (
-puk
-newPin
+options
 )
 {
 Buf
@@ -2581,6 +2585,8 @@ Buf
 .
 writeString
 (
+options
+.
 puk
 )
 ;
@@ -2588,6 +2594,8 @@ Buf
 .
 writeString
 (
+options
+.
 newPin
 )
 ;
@@ -2927,9 +2935,7 @@ dial
 function
 dial
 (
-address
-clirMode
-uusInfo
+options
 )
 {
 let
@@ -2946,13 +2952,17 @@ Buf
 .
 writeString
 (
-address
+options
+.
+number
 )
 ;
 Buf
 .
 writeUint32
 (
+options
+.
 clirMode
 |
 |
@@ -2963,6 +2973,8 @@ Buf
 .
 writeUint32
 (
+options
+.
 uusInfo
 |
 |
@@ -2988,7 +3000,7 @@ hangUp
 function
 hangUp
 (
-callIndex
+options
 )
 {
 Buf
@@ -3009,6 +3021,8 @@ Buf
 .
 writeUint32
 (
+options
+.
 callIndex
 )
 ;
@@ -3194,7 +3208,7 @@ startTone
 function
 startTone
 (
-dtmfChar
+options
 )
 {
 Buf
@@ -3208,6 +3222,8 @@ Buf
 .
 writeString
 (
+options
+.
 dtmfChar
 )
 ;
@@ -3238,7 +3254,7 @@ sendTone
 function
 sendTone
 (
-dtmfChar
+options
 )
 {
 Buf
@@ -3252,6 +3268,8 @@ Buf
 .
 writeString
 (
+options
+.
 dtmfChar
 )
 ;
@@ -3284,7 +3302,7 @@ setSMSCAddress
 function
 setSMSCAddress
 (
-smsc
+options
 )
 {
 Buf
@@ -3298,7 +3316,9 @@ Buf
 .
 writeString
 (
-smsc
+options
+.
+SMSC
 )
 ;
 Buf
@@ -9174,10 +9194,6 @@ RIL
 dial
 (
 options
-.
-number
-0
-0
 )
 ;
 }
@@ -9194,8 +9210,6 @@ RIL
 sendTone
 (
 options
-.
-dtmfChar
 )
 ;
 }
@@ -9212,8 +9226,6 @@ RIL
 startTone
 (
 options
-.
-dtmfChar
 )
 ;
 }
@@ -9244,8 +9256,6 @@ RIL
 hangUp
 (
 options
-.
-callIndex
 )
 ;
 }
