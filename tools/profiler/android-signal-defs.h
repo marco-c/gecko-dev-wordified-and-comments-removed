@@ -1,4 +1,15 @@
 #
+include
+<
+android
+/
+api
+-
+level
+.
+h
+>
+#
 if
 defined
 (
@@ -12,7 +23,7 @@ __thumb__
 )
 |
 |
-ANDROID_VERSION
+__ANDROID_API__
 >
 =
 9
