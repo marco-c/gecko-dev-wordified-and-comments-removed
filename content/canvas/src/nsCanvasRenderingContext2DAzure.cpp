@@ -12509,6 +12509,13 @@ nsBidiDirection
 direction
 )
 {
+mFontgrp
+-
+>
+UpdateFontList
+(
+)
+;
 mTextRun
 =
 mFontgrp
