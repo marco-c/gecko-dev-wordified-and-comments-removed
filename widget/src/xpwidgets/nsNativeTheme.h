@@ -116,6 +116,16 @@ PRUint8
 aWidgetType
 )
 ;
+bool
+IsDisabled
+(
+nsIFrame
+*
+aFrame
+PRInt32
+aEventStates
+)
+;
 PRBool
 IsFrameRTL
 (
