@@ -710,6 +710,10 @@ test_shorthand_property_getters
 .
 html
 \
+test_specified_value_serialization
+.
+html
+\
 test_style_struct_copy_constructors
 .
 html
@@ -963,10 +967,6 @@ visited_image_loading_frame_empty
 html
 \
 test_load_events_on_stylesheets
-.
-html
-\
-test_bug721136
 .
 html
 \
