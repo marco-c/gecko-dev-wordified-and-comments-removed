@@ -13,6 +13,16 @@ CrashGenerationServer
 struct
 ClientInfo
 {
+pid_t
+pid
+(
+)
+const
+{
+return
+pid_
+;
+}
 CrashGenerationServer
 *
 crash_server_

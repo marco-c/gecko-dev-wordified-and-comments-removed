@@ -38,6 +38,17 @@ size_t
 blob_size
 )
 ;
+bool
+WriteMinidump
+(
+const
+char
+*
+filename
+pid_t
+process
+)
+;
 }
 #
 endif
