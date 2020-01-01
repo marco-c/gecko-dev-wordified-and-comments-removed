@@ -4647,6 +4647,10 @@ scrollOverflow
 (
 0
 )
+customizedByUserPrefs
+(
+false
+)
 {
 }
 PRInt32
@@ -4657,6 +4661,9 @@ delta
 ;
 PRInt32
 scrollOverflow
+;
+bool
+customizedByUserPrefs
 ;
 }
 ;
