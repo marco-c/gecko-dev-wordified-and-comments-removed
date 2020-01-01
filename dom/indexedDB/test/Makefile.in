@@ -156,6 +156,10 @@ test_blob_simple
 .
 html
 \
+test_bug847147
+.
+html
+\
 test_clear
 .
 html
