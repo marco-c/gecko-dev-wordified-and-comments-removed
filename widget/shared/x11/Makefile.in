@@ -82,16 +82,6 @@ widget_shared_x11
 LIBXUL_LIBRARY
 =
 1
-CSRCS
-=
-\
-keysym2ucs
-.
-c
-\
-(
-NULL
-)
 include
 (
 topsrcdir

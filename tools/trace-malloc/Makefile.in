@@ -177,17 +177,6 @@ OBJ_SUFFIX
 )
 )
 endif
-CSRCS
-=
-(
-SIMPLECSRCS
-)
-(
-EXTRACSRCS
-)
-(
-PROGCSRCS
-)
 ifeq
 (
 (

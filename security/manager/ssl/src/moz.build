@@ -447,3 +447,13 @@ LIBRARY_NAME
 '
 pipnss
 '
+CSRCS
++
+=
+[
+'
+md4
+.
+c
+'
+]

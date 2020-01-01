@@ -151,3 +151,13 @@ LIBRARY_NAME
 '
 tracemalloc
 '
+CSRCS
++
+=
+[
+'
+nsTraceMalloc
+.
+c
+'
+]
