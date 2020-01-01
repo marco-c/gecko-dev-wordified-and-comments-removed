@@ -3832,6 +3832,9 @@ testcoll
 "
 )
 ;
+let
+bso
+=
 collection
 .
 insert
@@ -3851,9 +3854,9 @@ bar
 let
 serverModified
 =
-collection
+bso
 .
-timestamp
+modified
 ;
 let
 request1
