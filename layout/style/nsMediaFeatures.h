@@ -70,6 +70,7 @@ eBoolInteger
 eIntRatio
 eResolution
 eEnumerated
+eIdent
 }
 ;
 ValueType
