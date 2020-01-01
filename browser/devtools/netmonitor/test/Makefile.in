@@ -269,6 +269,10 @@ summary
 .
 js
 \
+browser_net_resend
+.
+js
+\
 head
 .
 js
