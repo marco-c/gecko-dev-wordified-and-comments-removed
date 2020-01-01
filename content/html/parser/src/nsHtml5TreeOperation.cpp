@@ -247,6 +247,7 @@ RemoveChildAt
 (
 0
 PR_TRUE
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
