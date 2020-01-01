@@ -447,6 +447,12 @@ DOMTestCase
 .
 js
 \
+activity
+-
+home
+.
+css
+\
 exclusions
 .
 js
