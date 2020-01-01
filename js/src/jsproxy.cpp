@@ -2993,7 +2993,7 @@ JSObject
 proxy
 JSObject
 *
-receiverArg
+receiver
 jsid
 id_
 bool
@@ -3010,17 +3010,6 @@ cx
 id_
 )
 ;
-Rooted
-<
-JSObject
-*
->
-receiver
-(
-cx
-receiverArg
-)
-;
 return
 GetProxyTargetObject
 (
@@ -3031,7 +3020,6 @@ proxy
 setGeneric
 (
 cx
-receiver
 id
 vp
 strict

@@ -17299,6 +17299,12 @@ mode_type
 =
 =
 JSACC_PROTO
+|
+|
+mode_type
+=
+=
+JSACC_PARENT
 )
 &
 &
@@ -19218,6 +19224,8 @@ flags
 &
 (
 JSRESOLVE_ASSIGNING
+|
+JSRESOLVE_DECLARING
 |
 JSRESOLVE_QUALIFIED
 )

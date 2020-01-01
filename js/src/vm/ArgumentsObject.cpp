@@ -1965,7 +1965,6 @@ SetPropertyHelper
 (
 cx
 argsobj
-argsobj
 id
 0
 vp

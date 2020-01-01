@@ -2608,8 +2608,6 @@ JSContext
 cx
 HandleObject
 obj
-HandleObject
-receiver
 bool
 strict
 js
