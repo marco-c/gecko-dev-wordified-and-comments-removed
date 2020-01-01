@@ -85,14 +85,12 @@ b
 )
 {
 }
-NS_COM
 size_type
 Length
 (
 )
 const
 ;
-NS_COM
 void
 WriteTo
 (
@@ -104,7 +102,6 @@ bufLen
 )
 const
 ;
-NS_COM
 PRBool
 IsDependentOn
 (

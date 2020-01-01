@@ -728,7 +728,6 @@ VALID_SXP
 )
 ;
 }
-NS_COM
 int
 NS_WildCardValid
 (
@@ -745,7 +744,6 @@ expr
 )
 ;
 }
-NS_COM
 int
 NS_WildCardValid
 (
@@ -2384,7 +2382,6 @@ template
 class
 T
 >
-NS_COM
 int
 NS_WildCardMatch_
 (
@@ -2434,7 +2431,6 @@ case_insensitive
 ;
 }
 }
-NS_COM
 int
 NS_WildCardMatch
 (
@@ -2459,7 +2455,6 @@ case_insensitive
 )
 ;
 }
-NS_COM
 int
 NS_WildCardMatch
 (

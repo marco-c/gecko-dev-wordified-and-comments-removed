@@ -35,7 +35,6 @@ _size
 _size
 )
 class
-NS_COM
 nsFixedSizeAllocator
 {
 protected

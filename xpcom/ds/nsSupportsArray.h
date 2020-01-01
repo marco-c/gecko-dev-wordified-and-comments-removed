@@ -18,14 +18,7 @@ kAutoArraySize
 =
 8
 ;
-#
-undef
-IMETHOD_VISIBILITY
-#
-define
-IMETHOD_VISIBILITY
 class
-NS_COM
 nsSupportsArray
 :
 public

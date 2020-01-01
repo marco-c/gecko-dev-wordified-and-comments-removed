@@ -87,7 +87,6 @@ af28
 \
 }
 extern
-NS_COM
 nsresult
 NS_NewByteInputStream
 (
@@ -111,7 +110,6 @@ NS_ASSIGNMENT_DEPEND
 )
 ;
 extern
-NS_COM
 nsresult
 NS_NewStringInputStream
 (
@@ -126,7 +124,6 @@ aStringToRead
 )
 ;
 extern
-NS_COM
 nsresult
 NS_NewCStringInputStream
 (

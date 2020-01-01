@@ -12,7 +12,6 @@ nsHashSets
 h
 "
 class
-NS_COM
 nsCheapStringSet
 {
 public
@@ -233,7 +232,6 @@ mValOrHash
 }
 ;
 class
-NS_COM
 nsCheapInt32Set
 {
 public

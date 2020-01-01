@@ -46,14 +46,7 @@ nsInterfaceHashtable
 .
 h
 "
-#
-undef
-IMETHOD_VISIBILITY
-#
-define
-IMETHOD_VISIBILITY
 class
-NS_COM
 nsHashPropertyBag
 :
 public
@@ -107,7 +100,6 @@ extern
 "
 C
 "
-NS_COM
 nsresult
 NS_NewHashPropertyBag
 (

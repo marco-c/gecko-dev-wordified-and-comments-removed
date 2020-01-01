@@ -91,7 +91,6 @@ get
 )
 ;
 }
-NS_COM
 void
 LossyCopyUTF16toASCII
 (
@@ -105,7 +104,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyASCIItoUTF16
 (
@@ -119,7 +117,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 LossyCopyUTF16toASCII
 (
@@ -133,7 +130,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyASCIItoUTF16
 (
@@ -147,7 +143,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyUTF16toUTF8
 (
@@ -161,7 +156,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyUTF8toUTF16
 (
@@ -175,7 +169,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyUTF16toUTF8
 (
@@ -189,7 +182,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 CopyUTF8toUTF16
 (
@@ -203,7 +195,6 @@ aDest
 NS_OUTPARAM
 )
 ;
-NS_COM
 void
 LossyAppendUTF16toASCII
 (
@@ -216,7 +207,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 void
 AppendASCIItoUTF16
 (
@@ -229,7 +219,6 @@ nsAString
 aDest
 )
 ;
-NS_COM
 void
 LossyAppendUTF16toASCII
 (
@@ -242,7 +231,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 void
 AppendASCIItoUTF16
 (
@@ -255,7 +243,6 @@ nsAString
 aDest
 )
 ;
-NS_COM
 void
 AppendUTF16toUTF8
 (
@@ -268,7 +255,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 void
 AppendUTF8toUTF16
 (
@@ -281,7 +267,6 @@ nsAString
 aDest
 )
 ;
-NS_COM
 void
 AppendUTF16toUTF8
 (
@@ -294,7 +279,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 void
 AppendUTF8toUTF16
 (
@@ -307,7 +291,6 @@ nsAString
 aDest
 )
 ;
-NS_COM
 char
 *
 ToNewCString
@@ -318,7 +301,6 @@ nsAString
 aSource
 )
 ;
-NS_COM
 char
 *
 ToNewCString
@@ -329,7 +311,6 @@ nsACString
 aSource
 )
 ;
-NS_COM
 char
 *
 ToNewUTF8String
@@ -345,7 +326,6 @@ aUTF8Count
 nsnull
 )
 ;
-NS_COM
 PRUnichar
 *
 ToNewUnicode
@@ -356,7 +336,6 @@ nsAString
 aSource
 )
 ;
-NS_COM
 PRUnichar
 *
 ToNewUnicode
@@ -367,7 +346,6 @@ nsACString
 aSource
 )
 ;
-NS_COM
 PRUnichar
 *
 UTF8ToNewUnicode
@@ -383,7 +361,6 @@ aUTF16Count
 nsnull
 )
 ;
-NS_COM
 PRUnichar
 *
 CopyUnicodeTo
@@ -401,7 +378,6 @@ PRUint32
 aLength
 )
 ;
-NS_COM
 void
 CopyUnicodeTo
 (
@@ -424,7 +400,6 @@ nsAString
 aDest
 )
 ;
-NS_COM
 void
 AppendUnicodeTo
 (
@@ -447,7 +422,6 @@ nsAString
 aDest
 )
 ;
-NS_COM
 PRBool
 IsASCII
 (
@@ -457,7 +431,6 @@ nsAString
 aString
 )
 ;
-NS_COM
 PRBool
 IsASCII
 (
@@ -467,7 +440,6 @@ nsACString
 aString
 )
 ;
-NS_COM
 PRBool
 IsUTF8
 (
@@ -477,7 +449,6 @@ nsACString
 aString
 )
 ;
-NS_COM
 PRBool
 ParseString
 (
@@ -495,7 +466,6 @@ nsCString
 aArray
 )
 ;
-NS_COM
 void
 ToUpperCase
 (
@@ -503,7 +473,6 @@ nsACString
 &
 )
 ;
-NS_COM
 void
 ToLowerCase
 (
@@ -511,7 +480,6 @@ nsACString
 &
 )
 ;
-NS_COM
 void
 ToUpperCase
 (
@@ -519,7 +487,6 @@ nsCSubstring
 &
 )
 ;
-NS_COM
 void
 ToLowerCase
 (
@@ -527,7 +494,6 @@ nsCSubstring
 &
 )
 ;
-NS_COM
 void
 ToUpperCase
 (
@@ -540,7 +506,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 void
 ToLowerCase
 (
@@ -553,7 +518,6 @@ nsACString
 aDest
 )
 ;
-NS_COM
 PRBool
 FindInReadable
 (
@@ -580,7 +544,6 @@ nsDefaultStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 FindInReadable
 (
@@ -713,7 +676,6 @@ compare
 )
 ;
 }
-NS_COM
 PRBool
 CaseInsensitiveFindInReadable
 (
@@ -733,7 +695,6 @@ const_iterator
 &
 )
 ;
-NS_COM
 PRBool
 RFindInReadable
 (
@@ -760,7 +721,6 @@ nsDefaultStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 RFindInReadable
 (
@@ -787,7 +747,6 @@ nsDefaultCStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 FindCharInReadable
 (
@@ -808,7 +767,6 @@ const_iterator
 aSearchEnd
 )
 ;
-NS_COM
 PRBool
 FindCharInReadable
 (
@@ -829,7 +787,6 @@ const_iterator
 aSearchEnd
 )
 ;
-NS_COM
 PRUint32
 CountCharInReadable
 (
@@ -841,7 +798,6 @@ PRUnichar
 aChar
 )
 ;
-NS_COM
 PRUint32
 CountCharInReadable
 (
@@ -853,7 +809,6 @@ char
 aChar
 )
 ;
-NS_COM
 PRBool
 StringBeginsWith
 (
@@ -875,7 +830,6 @@ nsDefaultStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 StringBeginsWith
 (
@@ -897,7 +851,6 @@ nsDefaultCStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 StringEndsWith
 (
@@ -919,7 +872,6 @@ nsDefaultStringComparator
 )
 )
 ;
-NS_COM
 PRBool
 StringEndsWith
 (
@@ -941,7 +893,6 @@ nsDefaultCStringComparator
 )
 )
 ;
-NS_COM
 const
 nsAFlatString
 &
@@ -949,7 +900,6 @@ EmptyString
 (
 )
 ;
-NS_COM
 const
 nsAFlatCString
 &
@@ -957,7 +907,6 @@ EmptyCString
 (
 )
 ;
-NS_COM
 PRInt32
 CompareUTF8toUTF16
 (
@@ -971,7 +920,6 @@ nsASingleFragmentString
 aUTF16String
 )
 ;
-NS_COM
 void
 AppendUCS4ToUTF16
 (

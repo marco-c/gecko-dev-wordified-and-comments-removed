@@ -425,7 +425,6 @@ NS_ERROR_NOT_INITIALIZED
 \
 PR_END_MACRO
 class
-NS_COM
 nsDirEnumeratorUnix
 :
 public

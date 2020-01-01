@@ -289,7 +289,6 @@ lstat
 #
 endif
 class
-NS_COM
 nsLocalFile
 :
 #

@@ -853,15 +853,11 @@ type
 #
 endif
 #
-define
-NS_COM
-#
 ifdef
 MOZILLA_INTERNAL_API
 #
 define
 NS_COM_GLUE
-NS_COM
 #
 define
 nsAString

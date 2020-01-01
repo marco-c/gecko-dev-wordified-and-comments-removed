@@ -244,7 +244,6 @@ data
 )
 ;
 }
-NS_COM
 void
 Rebind
 (

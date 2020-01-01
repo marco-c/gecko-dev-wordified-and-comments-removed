@@ -21,7 +21,6 @@ mStorageSize
 ;
 public
 :
-NS_COM
 static
 nsStringBuffer
 *
@@ -31,7 +30,6 @@ size_t
 storageSize
 )
 ;
-NS_COM
 static
 nsStringBuffer
 *
@@ -44,14 +42,12 @@ size_t
 storageSize
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 AddRef
 (
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 Release
@@ -131,7 +127,6 @@ mRefCount
 1
 ;
 }
-NS_COM
 static
 nsStringBuffer
 *
@@ -143,7 +138,6 @@ nsAString
 str
 )
 ;
-NS_COM
 static
 nsStringBuffer
 *
@@ -155,7 +149,6 @@ nsACString
 str
 )
 ;
-NS_COM
 void
 ToString
 (
@@ -170,7 +163,6 @@ aMoveOwnership
 PR_FALSE
 )
 ;
-NS_COM
 void
 ToString
 (

@@ -156,7 +156,6 @@ mType
 }
 ;
 class
-NS_COM
 nsVariant
 :
 public

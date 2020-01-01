@@ -159,7 +159,6 @@ undef
 h
 "
 class
-NS_COM
 nsCaseInsensitiveCStringComparator
 :
 public

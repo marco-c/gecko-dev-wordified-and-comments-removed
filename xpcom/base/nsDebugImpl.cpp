@@ -2156,7 +2156,6 @@ aInstancePtr
 )
 ;
 }
-NS_COM
 nsresult
 NS_ErrorAccordingToNSPR
 (
@@ -2268,7 +2267,6 @@ NS_ERROR_FAILURE
 #
 ifdef
 XP_WIN
-NS_COM
 PRBool
 sXPCOMHasLoadedNewDLLs
 =

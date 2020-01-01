@@ -556,7 +556,6 @@ nsOutputStreamReadyEvent
 nsIRunnable
 nsIOutputStreamCallback
 )
-NS_COM
 nsresult
 NS_NewInputStreamReadyEvent
 (
@@ -621,7 +620,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_NewOutputStreamReadyEvent
 (
@@ -1863,7 +1861,6 @@ n
 }
 }
 ;
-NS_COM
 nsresult
 NS_AsyncCopy
 (
@@ -2006,7 +2003,6 @@ return
 rv
 ;
 }
-NS_COM
 nsresult
 NS_CancelAsyncCopy
 (
@@ -2047,7 +2043,6 @@ aReason
 )
 ;
 }
-NS_COM
 nsresult
 NS_ConsumeStream
 (
@@ -2285,7 +2280,6 @@ return
 NS_ERROR_ABORT
 ;
 }
-NS_COM
 PRBool
 NS_InputStreamIsBuffered
 (
@@ -2372,7 +2366,6 @@ return
 NS_ERROR_ABORT
 ;
 }
-NS_COM
 PRBool
 NS_OutputStreamIsBuffered
 (
@@ -2406,7 +2399,6 @@ return
 result
 ;
 }
-NS_COM
 NS_METHOD
 NS_CopySegmentToStream
 (
@@ -2500,7 +2492,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 NS_METHOD
 NS_CopySegmentToBuffer
 (
@@ -2556,7 +2547,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 NS_METHOD
 NS_DiscardSegment
 (
@@ -2588,7 +2578,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 NS_METHOD
 NS_WriteSegmentThunk
 (

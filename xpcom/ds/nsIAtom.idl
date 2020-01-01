@@ -931,7 +931,6 @@ terminated
 *
 /
 extern
-NS_COM
 nsIAtom
 *
 NS_NewAtom
@@ -981,7 +980,6 @@ string
 *
 /
 extern
-NS_COM
 nsIAtom
 *
 NS_NewAtom
@@ -1041,7 +1039,6 @@ terminated
 *
 /
 extern
-NS_COM
 nsIAtom
 *
 NS_NewAtom
@@ -1091,7 +1088,6 @@ string
 *
 /
 extern
-NS_COM
 nsIAtom
 *
 NS_NewAtom
@@ -1103,7 +1099,6 @@ aUTF16String
 )
 ;
 extern
-NS_COM
 nsIAtom
 *
 NS_NewPermanentAtom
@@ -1157,7 +1152,6 @@ system
 *
 /
 extern
-NS_COM
 nsrefcnt
 NS_GetNumberOfAtoms
 (
@@ -1195,7 +1189,6 @@ string
 *
 /
 extern
-NS_COM
 nsIAtom
 *
 NS_GetStaticAtom
@@ -1218,7 +1211,6 @@ table
 *
 /
 extern
-NS_COM
 void
 NS_SealStaticAtomTable
 (

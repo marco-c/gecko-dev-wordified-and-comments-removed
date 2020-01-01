@@ -477,7 +477,6 @@ return
 nb
 ;
 }
-NS_COM
 nsresult
 NS_NewByteBuffer
 (

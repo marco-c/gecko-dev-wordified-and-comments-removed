@@ -2330,7 +2330,6 @@ MemoryReporter_
 #
 #
 _classname
-NS_COM
 nsresult
 NS_RegisterMemoryReporter
 (
@@ -2339,7 +2338,6 @@ nsIMemoryReporter
 reporter
 )
 ;
-NS_COM
 nsresult
 NS_RegisterMemoryMultiReporter
 (
@@ -2348,7 +2346,6 @@ nsIMemoryMultiReporter
 reporter
 )
 ;
-NS_COM
 nsresult
 NS_UnregisterMemoryReporter
 (
@@ -2357,7 +2354,6 @@ nsIMemoryReporter
 reporter
 )
 ;
-NS_COM
 nsresult
 NS_UnregisterMemoryMultiReporter
 (

@@ -267,7 +267,6 @@ NULL
 ;
 #
 endif
-NS_COM
 void
 StartupSpecialSystemDirectory
 (
@@ -313,7 +312,6 @@ SHGetKnownFolderPath
 #
 endif
 }
-NS_COM
 void
 ShutdownSpecialSystemDirectory
 (

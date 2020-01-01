@@ -26,7 +26,6 @@ nsUTF8Utils
 .
 h
 "
-NS_COM
 void
 LossyCopyUTF16toASCII
 (
@@ -52,7 +51,6 @@ aDest
 )
 ;
 }
-NS_COM
 void
 CopyASCIItoUTF16
 (
@@ -78,7 +76,6 @@ aDest
 )
 ;
 }
-NS_COM
 void
 LossyCopyUTF16toASCII
 (
@@ -113,7 +110,6 @@ aDest
 ;
 }
 }
-NS_COM
 void
 CopyASCIItoUTF16
 (
@@ -148,7 +144,6 @@ aDest
 ;
 }
 }
-NS_COM
 void
 CopyUTF16toUTF8
 (
@@ -174,7 +169,6 @@ aDest
 )
 ;
 }
-NS_COM
 void
 CopyUTF8toUTF16
 (
@@ -200,7 +194,6 @@ aDest
 )
 ;
 }
-NS_COM
 void
 CopyUTF16toUTF8
 (
@@ -226,7 +219,6 @@ aDest
 )
 ;
 }
-NS_COM
 void
 CopyUTF8toUTF16
 (
@@ -322,7 +314,6 @@ aDesiredLength
 )
 ;
 }
-NS_COM
 void
 LossyAppendUTF16toASCII
 (
@@ -416,7 +407,6 @@ converter
 )
 ;
 }
-NS_COM
 void
 AppendASCIItoUTF16
 (
@@ -510,7 +500,6 @@ converter
 )
 ;
 }
-NS_COM
 void
 LossyAppendUTF16toASCII
 (
@@ -539,7 +528,6 @@ aDest
 ;
 }
 }
-NS_COM
 void
 AppendASCIItoUTF16
 (
@@ -568,7 +556,6 @@ aDest
 ;
 }
 }
-NS_COM
 void
 AppendUTF16toUTF8
 (
@@ -697,7 +684,6 @@ ConvertUTF16toUTF8
 ;
 }
 }
-NS_COM
 void
 AppendUTF8toUTF16
 (
@@ -863,7 +849,6 @@ old_dest_length
 }
 }
 }
-NS_COM
 void
 AppendUTF16toUTF8
 (
@@ -892,7 +877,6 @@ aDest
 ;
 }
 }
-NS_COM
 void
 AppendUTF8toUTF16
 (
@@ -971,7 +955,6 @@ ToCharT
 )
 ;
 }
-NS_COM
 char
 *
 ToNewCString
@@ -1042,7 +1025,6 @@ return
 result
 ;
 }
-NS_COM
 char
 *
 ToNewUTF8String
@@ -1180,7 +1162,6 @@ return
 result
 ;
 }
-NS_COM
 char
 *
 ToNewCString
@@ -1253,7 +1234,6 @@ return
 result
 ;
 }
-NS_COM
 PRUnichar
 *
 ToNewUnicode
@@ -1326,7 +1306,6 @@ return
 result
 ;
 }
-NS_COM
 PRUnichar
 *
 ToNewUnicode
@@ -1397,7 +1376,6 @@ return
 result
 ;
 }
-NS_COM
 PRUnichar
 *
 UTF8ToNewUnicode
@@ -1542,7 +1520,6 @@ return
 result
 ;
 }
-NS_COM
 PRUnichar
 *
 CopyUnicodeTo
@@ -1612,7 +1589,6 @@ return
 aDest
 ;
 }
-NS_COM
 void
 CopyUnicodeTo
 (
@@ -1680,7 +1656,6 @@ writer
 )
 ;
 }
-NS_COM
 void
 AppendUnicodeTo
 (
@@ -1764,7 +1739,6 @@ writer
 )
 ;
 }
-NS_COM
 PRBool
 IsASCII
 (
@@ -1852,7 +1826,6 @@ return
 PR_TRUE
 ;
 }
-NS_COM
 PRBool
 IsASCII
 (
@@ -1940,7 +1913,6 @@ return
 PR_TRUE
 ;
 }
-NS_COM
 PRBool
 IsUTF8
 (
@@ -2447,7 +2419,6 @@ aSourceLength
 }
 }
 ;
-NS_COM
 void
 ToUpperCase
 (
@@ -2639,7 +2610,6 @@ mIter
 ;
 }
 ;
-NS_COM
 void
 ToUpperCase
 (
@@ -2812,7 +2782,6 @@ aSourceLength
 }
 }
 ;
-NS_COM
 void
 ToLowerCase
 (
@@ -3004,7 +2973,6 @@ mIter
 ;
 }
 ;
-NS_COM
 void
 ToLowerCase
 (
@@ -3074,7 +3042,6 @@ converter
 )
 ;
 }
-NS_COM
 PRBool
 ParseString
 (
@@ -3589,7 +3556,6 @@ return
 PR_FALSE
 ;
 }
-NS_COM
 PRBool
 FindInReadable
 (
@@ -3625,7 +3591,6 @@ aComparator
 )
 ;
 }
-NS_COM
 PRBool
 FindInReadable
 (
@@ -3661,7 +3626,6 @@ aComparator
 )
 ;
 }
-NS_COM
 PRBool
 CaseInsensitiveFindInReadable
 (
@@ -3695,7 +3659,6 @@ nsCaseInsensitiveCStringComparator
 )
 ;
 }
-NS_COM
 PRBool
 RFindInReadable
 (
@@ -3731,7 +3694,6 @@ aComparator
 )
 ;
 }
-NS_COM
 PRBool
 RFindInReadable
 (
@@ -3767,7 +3729,6 @@ aComparator
 )
 ;
 }
-NS_COM
 PRBool
 FindCharInReadable
 (
@@ -3858,7 +3819,6 @@ return
 PR_FALSE
 ;
 }
-NS_COM
 PRBool
 FindCharInReadable
 (
@@ -3949,7 +3909,6 @@ return
 PR_FALSE
 ;
 }
-NS_COM
 PRUint32
 CountCharInReadable
 (
@@ -4018,7 +3977,6 @@ return
 count
 ;
 }
-NS_COM
 PRUint32
 CountCharInReadable
 (
@@ -4087,7 +4045,6 @@ return
 count
 ;
 }
-NS_COM
 PRBool
 StringBeginsWith
 (
@@ -4148,7 +4105,6 @@ aComparator
 )
 ;
 }
-NS_COM
 PRBool
 StringBeginsWith
 (
@@ -4209,7 +4165,6 @@ aComparator
 )
 ;
 }
-NS_COM
 PRBool
 StringEndsWith
 (
@@ -4272,7 +4227,6 @@ aComparator
 )
 ;
 }
-NS_COM
 PRBool
 StringEndsWith
 (
@@ -4350,7 +4304,6 @@ empty_buffer
 '
 }
 ;
-NS_COM
 const
 nsAFlatString
 &
@@ -4370,7 +4323,6 @@ return
 sEmpty
 ;
 }
-NS_COM
 const
 nsAFlatCString
 &
@@ -4395,7 +4347,6 @@ return
 sEmpty
 ;
 }
-NS_COM
 PRInt32
 CompareUTF8toUTF16
 (
@@ -4607,7 +4558,6 @@ return
 0
 ;
 }
-NS_COM
 void
 AppendUCS4ToUTF16
 (

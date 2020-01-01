@@ -927,7 +927,6 @@ NS_ERROR_MODULE_XPCOM
 30
 )
 extern
-NS_COM
 nsresult
 NS_ErrorAccordingToNSPR
 (
@@ -1008,7 +1007,6 @@ endif
 ifdef
 XP_WIN
 extern
-NS_COM
 PRBool
 sXPCOMHasLoadedNewDLLs
 ;

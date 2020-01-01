@@ -69,7 +69,6 @@ C
 {
 #
 endif
-NS_COM
 char
 *
 nsEscape
@@ -82,7 +81,6 @@ nsEscapeMask
 mask
 )
 ;
-NS_COM
 char
 *
 nsUnescape
@@ -92,7 +90,6 @@ char
 str
 )
 ;
-NS_COM
 PRInt32
 nsUnescapeCount
 (
@@ -101,7 +98,6 @@ char
 str
 )
 ;
-NS_COM
 char
 *
 nsEscapeHTML
@@ -112,7 +108,6 @@ char
 string
 )
 ;
-NS_COM
 PRUnichar
 *
 nsEscapeHTML2
@@ -259,7 +254,6 @@ PR_BIT
 )
 }
 ;
-NS_COM
 PRBool
 NS_EscapeURL
 (
@@ -276,7 +270,6 @@ nsACString
 result
 )
 ;
-NS_COM
 PRBool
 NS_UnescapeURL
 (

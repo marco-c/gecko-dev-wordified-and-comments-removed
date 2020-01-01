@@ -24,7 +24,6 @@ instead
 #
 endif
 class
-NS_COM
 nsTStringComparator_CharT
 {
 public
@@ -60,7 +59,6 @@ const
 }
 ;
 class
-NS_COM
 nsTDefaultStringComparator_CharT
 :
 public
@@ -687,7 +685,6 @@ mLength
 ]
 ;
 }
-NS_COM
 size_type
 NS_FASTCALL
 CountChar
@@ -696,7 +693,6 @@ char_type
 )
 const
 ;
-NS_COM
 PRInt32
 NS_FASTCALL
 FindChar
@@ -709,7 +705,6 @@ offset
 )
 const
 ;
-NS_COM
 PRBool
 NS_FASTCALL
 Equals
@@ -720,7 +715,6 @@ self_type
 )
 const
 ;
-NS_COM
 PRBool
 NS_FASTCALL
 Equals
@@ -734,7 +728,6 @@ comparator_type
 )
 const
 ;
-NS_COM
 PRBool
 NS_FASTCALL
 Equals
@@ -746,7 +739,6 @@ data
 )
 const
 ;
-NS_COM
 PRBool
 NS_FASTCALL
 Equals
@@ -762,7 +754,6 @@ comp
 )
 const
 ;
-NS_COM
 PRBool
 NS_FASTCALL
 EqualsASCII
@@ -776,7 +767,6 @@ len
 )
 const
 ;
-NS_COM
 PRBool
 NS_FASTCALL
 EqualsASCII
@@ -881,7 +871,6 @@ N
 }
 #
 endif
-NS_COM
 PRBool
 NS_FASTCALL
 LowerCaseEqualsASCII
@@ -895,7 +884,6 @@ len
 )
 const
 ;
-NS_COM
 PRBool
 NS_FASTCALL
 LowerCaseEqualsASCII
@@ -1000,7 +988,6 @@ N
 }
 #
 endif
-NS_COM
 void
 NS_FASTCALL
 Assign
@@ -1009,7 +996,6 @@ char_type
 c
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 Assign
@@ -1028,7 +1014,6 @@ size_type
 )
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 Assign
@@ -1038,7 +1023,6 @@ self_type
 &
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 Assign
@@ -1048,7 +1032,6 @@ substring_tuple_type
 &
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 AssignASCII
@@ -1061,7 +1044,6 @@ size_type
 length
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 AssignASCII
@@ -1231,7 +1213,6 @@ return
 this
 ;
 }
-NS_COM
 void
 NS_FASTCALL
 Adopt
@@ -1249,7 +1230,6 @@ size_type
 )
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 Replace
@@ -1262,7 +1242,6 @@ char_type
 c
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 Replace
@@ -1315,7 +1294,6 @@ Length
 )
 ;
 }
-NS_COM
 void
 NS_FASTCALL
 Replace
@@ -1330,7 +1308,6 @@ substring_tuple_type
 tuple
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 ReplaceASCII
@@ -1454,7 +1431,6 @@ length
 )
 ;
 }
-NS_COM
 void
 AppendPrintf
 (
@@ -1749,7 +1725,6 @@ aFloat
 }
 private
 :
-NS_COM
 void
 NS_FASTCALL
 DoAppendFloat
@@ -2029,7 +2004,6 @@ sEmptyBuffer
 )
 ;
 }
-NS_COM
 PRBool
 NS_FASTCALL
 SetCapacity
@@ -2038,7 +2012,6 @@ size_type
 newCapacity
 )
 ;
-NS_COM
 void
 NS_FASTCALL
 SetLength
@@ -2143,7 +2116,6 @@ return
 mLength
 ;
 }
-NS_COM
 void
 NS_FASTCALL
 SetIsVoid
@@ -2151,7 +2123,6 @@ SetIsVoid
 PRBool
 )
 ;
-NS_COM
 void
 StripChar
 (
@@ -2163,7 +2134,6 @@ aOffset
 0
 )
 ;
-NS_COM
 void
 StripChars
 (
@@ -2253,7 +2223,6 @@ FORCE_BUILD_REFCNT_LOGGING
 #
 define
 XPCOM_STRING_CONSTRUCTOR_OUT_OF_LINE
-NS_COM
 nsTSubstring_CharT
 (
 char_type
@@ -2390,7 +2359,6 @@ F_VOIDED
 {
 }
 void
-NS_COM
 NS_FASTCALL
 Finalize
 (
@@ -2511,7 +2479,6 @@ Capacity
 )
 const
 ;
-NS_COM
 PRBool
 NS_FASTCALL
 EnsureMutable
@@ -2638,7 +2605,6 @@ F_CLASS_FIXED
 ;
 }
 ;
-NS_COM
 int
 NS_FASTCALL
 Compare

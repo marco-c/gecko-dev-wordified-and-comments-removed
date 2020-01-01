@@ -28,7 +28,6 @@ nsIRunnable
 h
 "
 class
-NS_COM
 nsEventQueue
 {
 typedef

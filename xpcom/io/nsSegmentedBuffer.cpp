@@ -680,7 +680,6 @@ mLastSegmentIndex
 #
 if
 0
-NS_COM
 void
 TestSegmentedBuffer
 (

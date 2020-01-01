@@ -403,7 +403,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_COM
 nsresult
 NS_NewISupportsArrayEnumerator
 (

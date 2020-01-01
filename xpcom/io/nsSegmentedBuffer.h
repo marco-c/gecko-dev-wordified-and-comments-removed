@@ -72,7 +72,6 @@ mSegAllocator
 )
 ;
 }
-NS_COM
 nsresult
 Init
 (
@@ -87,7 +86,6 @@ allocator
 nsnull
 )
 ;
-NS_COM
 char
 *
 AppendNewSegment
@@ -111,7 +109,6 @@ size_t
 newSize
 )
 ;
-NS_COM
 void
 Empty
 (

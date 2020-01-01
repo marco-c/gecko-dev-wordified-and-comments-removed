@@ -19,7 +19,6 @@ nsTArray
 .
 h
 "
-NS_COM
 nsresult
 NS_NewStringEnumerator
 (
@@ -40,7 +39,6 @@ nsISupports
 aOwner
 )
 ;
-NS_COM
 nsresult
 NS_NewUTF8StringEnumerator
 (
@@ -58,7 +56,6 @@ nsCString
 aArray
 )
 ;
-NS_COM
 nsresult
 NS_NewStringEnumerator
 (
@@ -76,7 +73,6 @@ nsString
 aArray
 )
 ;
-NS_COM
 nsresult
 NS_NewAdoptingStringEnumerator
 (
@@ -93,7 +89,6 @@ nsString
 aArray
 )
 ;
-NS_COM
 nsresult
 NS_NewAdoptingUTF8StringEnumerator
 (
@@ -110,7 +105,6 @@ nsCString
 aArray
 )
 ;
-NS_COM
 nsresult
 NS_NewUTF8StringEnumerator
 (

@@ -17,7 +17,6 @@ h
 #
 endif
 class
-NS_COM
 nsPrintfCString
 :
 public

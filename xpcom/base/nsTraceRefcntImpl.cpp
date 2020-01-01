@@ -175,7 +175,6 @@ h
 >
 #
 endif
-NS_COM
 void
 NS_MeanAndStdDev
 (
@@ -2593,7 +2592,6 @@ GetClassName
 ;
 #
 endif
-NS_COM
 nsresult
 nsTraceRefcntImpl
 :
@@ -2912,7 +2910,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 void
 nsTraceRefcntImpl
 :
@@ -4713,7 +4710,6 @@ stream
 ;
 }
 }
-NS_COM
 void
 nsTraceRefcntImpl
 :
@@ -4755,7 +4751,6 @@ h
 >
 #
 endif
-NS_COM
 void
 nsTraceRefcntImpl
 :
@@ -6396,7 +6391,6 @@ UNLOCK_TRACELOG
 #
 endif
 }
-NS_COM
 void
 nsTraceRefcntImpl
 :
@@ -6406,7 +6400,6 @@ Startup
 )
 {
 }
-NS_COM
 void
 nsTraceRefcntImpl
 :
@@ -6556,7 +6549,6 @@ nsnull
 #
 endif
 }
-NS_COM
 void
 nsTraceRefcntImpl
 :

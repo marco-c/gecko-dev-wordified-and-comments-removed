@@ -603,7 +603,6 @@ C
 factory
 methods
 extern
-NS_COM
 nsresult
 NS_NewInputStreamTee
 (
@@ -627,7 +626,6 @@ sink
 )
 ;
 extern
-NS_COM
 nsresult
 NS_NewInputStreamTeeAsync
 (

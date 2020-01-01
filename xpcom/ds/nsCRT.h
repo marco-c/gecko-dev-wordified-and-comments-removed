@@ -311,7 +311,6 @@ x
 ;
 }
 class
-NS_COM
 nsCRT
 {
 public

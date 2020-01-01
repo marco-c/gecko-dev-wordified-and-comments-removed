@@ -32,7 +32,6 @@ class
 TimeStamp
 ;
 class
-NS_COM
 TimeDuration
 {
 public
@@ -451,7 +450,6 @@ mValue
 }
 ;
 class
-NS_COM
 TimeStamp
 {
 public

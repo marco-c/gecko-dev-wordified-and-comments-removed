@@ -594,7 +594,6 @@ PL_DHASH_REMOVE
 \
 }
 class
-NS_COM
 PLDHashStringEntry
 :
 public
@@ -692,7 +691,6 @@ mKey
 }
 ;
 class
-NS_COM
 PLDHashCStringEntry
 :
 public
@@ -790,7 +788,6 @@ mKey
 }
 ;
 class
-NS_COM
 PLDHashInt32Entry
 :
 public
@@ -887,7 +884,6 @@ mKey
 }
 ;
 class
-NS_COM
 PLDHashVoidEntry
 :
 public

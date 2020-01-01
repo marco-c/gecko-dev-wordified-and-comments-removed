@@ -558,7 +558,6 @@ h
 #
 endif
 class
-NS_COM
 nsQueryElementAt
 :
 public

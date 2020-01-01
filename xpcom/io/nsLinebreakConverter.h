@@ -19,7 +19,6 @@ nsString
 h
 "
 class
-NS_COM
 nsLinebreakConverter
 {
 public

@@ -215,7 +215,6 @@ a49d5280
 \
 }
 extern
-NS_COM
 nsresult
 NS_NewByteBuffer
 (

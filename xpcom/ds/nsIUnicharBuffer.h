@@ -113,7 +113,6 @@ nsIUnicharBuffer
 NS_IUNICHARBUFFER_IID
 )
 extern
-NS_COM
 nsresult
 NS_NewUnicharBuffer
 (

@@ -683,7 +683,6 @@ void
 aData
 )
 ;
-NS_COM
 nsresult
 NS_NewArrayEnumerator
 (
@@ -1030,7 +1029,6 @@ of
 nsISupportsArray
 :
 extern
-NS_COM
 nsresult
 NS_NewISupportsArray
 (
@@ -1055,7 +1053,6 @@ for
 nsISupportsArrays
 :
 extern
-NS_COM
 nsresult
 NS_NewISupportsArrayEnumerator
 (

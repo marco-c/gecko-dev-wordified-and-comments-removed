@@ -364,7 +364,6 @@ typedef
 char
 incompatible_char_type
 ;
-NS_COM
 static
 char_type
 *
@@ -1490,7 +1489,6 @@ typedef
 PRUnichar
 incompatible_char_type
 ;
-NS_COM
 static
 char_type
 *

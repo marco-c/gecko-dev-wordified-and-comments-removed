@@ -31,7 +31,6 @@ class
 nsIEventTarget
 ;
 extern
-NS_COM
 nsresult
 NS_NewInputStreamReadyEvent
 (
@@ -48,7 +47,6 @@ aTarget
 )
 ;
 extern
-NS_COM
 nsresult
 NS_NewOutputStreamReadyEvent
 (
@@ -86,7 +84,6 @@ status
 )
 ;
 extern
-NS_COM
 nsresult
 NS_AsyncCopy
 (
@@ -133,7 +130,6 @@ nsnull
 )
 ;
 extern
-NS_COM
 nsresult
 NS_CancelAsyncCopy
 (
@@ -145,7 +141,6 @@ aReason
 )
 ;
 extern
-NS_COM
 nsresult
 NS_ConsumeStream
 (
@@ -160,7 +155,6 @@ aBuffer
 )
 ;
 extern
-NS_COM
 PRBool
 NS_InputStreamIsBuffered
 (
@@ -170,7 +164,6 @@ aInputStream
 )
 ;
 extern
-NS_COM
 PRBool
 NS_OutputStreamIsBuffered
 (
@@ -180,7 +173,6 @@ aOutputStream
 )
 ;
 extern
-NS_COM
 NS_METHOD
 NS_CopySegmentToStream
 (
@@ -204,7 +196,6 @@ aWriteCount
 )
 ;
 extern
-NS_COM
 NS_METHOD
 NS_CopySegmentToBuffer
 (
@@ -228,7 +219,6 @@ aWriteCount
 )
 ;
 extern
-NS_COM
 NS_METHOD
 NS_DiscardSegment
 (
@@ -252,7 +242,6 @@ aWriteCount
 )
 ;
 extern
-NS_COM
 NS_METHOD
 NS_WriteSegmentThunk
 (

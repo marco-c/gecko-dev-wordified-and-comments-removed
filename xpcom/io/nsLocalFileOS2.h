@@ -90,7 +90,6 @@ class
 TypeEaEnumerator
 ;
 class
-NS_COM
 nsLocalFile
 :
 public

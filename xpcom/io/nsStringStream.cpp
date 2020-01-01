@@ -1051,7 +1051,6 @@ value
 )
 ;
 }
-NS_COM
 nsresult
 NS_NewByteInputStream
 (
@@ -1206,7 +1205,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_NewStringInputStream
 (
@@ -1268,7 +1266,6 @@ return
 rv
 ;
 }
-NS_COM
 nsresult
 NS_NewCStringInputStream
 (

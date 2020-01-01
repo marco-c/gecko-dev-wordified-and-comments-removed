@@ -12,7 +12,6 @@ pldhash
 h
 "
 class
-NS_COM
 nsStaticCaseInsensitiveNameTable
 {
 public

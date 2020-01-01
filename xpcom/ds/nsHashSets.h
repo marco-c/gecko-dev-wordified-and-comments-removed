@@ -134,7 +134,6 @@ DHASH_EXPORT
 #
 define
 DHASH_EXPORT
-NS_COM
 DECL_DHASH_SET
 (
 nsStringHashSet

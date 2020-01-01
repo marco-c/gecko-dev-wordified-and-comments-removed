@@ -1353,7 +1353,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsresult
 NS_NewInputStreamTeeAsync
 (
@@ -1466,7 +1465,6 @@ return
 rv
 ;
 }
-NS_COM
 nsresult
 NS_NewInputStreamTee
 (

@@ -145,7 +145,6 @@ size
 ;
 }
 ;
-NS_COM
 nsresult
 NS_RegisterStaticAtoms
 (

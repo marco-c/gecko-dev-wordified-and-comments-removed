@@ -1,4 +1,3 @@
-NS_COM
 int
 NS_FASTCALL
 Compare

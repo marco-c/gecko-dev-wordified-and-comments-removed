@@ -12,7 +12,6 @@ self_type
 ;
 private
 :
-NS_COM
 void
 Init
 (

@@ -2408,7 +2408,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 void
 NS_CreateServicesFromCategory
 (

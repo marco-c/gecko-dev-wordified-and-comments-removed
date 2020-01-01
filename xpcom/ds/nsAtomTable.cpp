@@ -1746,7 +1746,6 @@ nsStringBuffer
 }
 }
 ;
-NS_COM
 nsresult
 NS_RegisterStaticAtoms
 (
@@ -2120,7 +2119,6 @@ return
 NS_OK
 ;
 }
-NS_COM
 nsIAtom
 *
 NS_NewAtom
@@ -2141,7 +2139,6 @@ aUTF8String
 )
 ;
 }
-NS_COM
 nsIAtom
 *
 NS_NewAtom
@@ -2231,7 +2228,6 @@ return
 atom
 ;
 }
-NS_COM
 nsIAtom
 *
 NS_NewAtom
@@ -2252,7 +2248,6 @@ aUTF16String
 )
 ;
 }
-NS_COM
 nsIAtom
 *
 NS_NewAtom
@@ -2333,7 +2328,6 @@ return
 atom
 ;
 }
-NS_COM
 nsIAtom
 *
 NS_NewPermanentAtom
@@ -2416,7 +2410,6 @@ return
 atom
 ;
 }
-NS_COM
 nsrefcnt
 NS_GetNumberOfAtoms
 (
@@ -2429,7 +2422,6 @@ gAtomTable
 entryCount
 ;
 }
-NS_COM
 nsIAtom
 *
 NS_GetStaticAtom
@@ -2495,7 +2487,6 @@ return
 atom
 ;
 }
-NS_COM
 void
 NS_SealStaticAtomTable
 (

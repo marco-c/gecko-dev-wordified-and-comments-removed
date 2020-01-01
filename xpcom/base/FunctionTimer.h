@@ -361,7 +361,6 @@ namespace
 mozilla
 {
 class
-NS_COM
 FunctionTimerLog
 {
 public
@@ -406,7 +405,6 @@ mLatest
 }
 ;
 class
-NS_COM
 FunctionTimer
 {
 static

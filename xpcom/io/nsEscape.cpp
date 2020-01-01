@@ -664,7 +664,6 @@ return
 result
 ;
 }
-NS_COM
 char
 *
 nsEscape
@@ -694,7 +693,6 @@ NULL
 )
 ;
 }
-NS_COM
 char
 *
 nsUnescape
@@ -713,7 +711,6 @@ return
 str
 ;
 }
-NS_COM
 PRInt32
 nsUnescapeCount
 (
@@ -947,7 +944,6 @@ str
 )
 ;
 }
-NS_COM
 char
 *
 nsEscapeHTML
@@ -1339,7 +1335,6 @@ rv
 )
 ;
 }
-NS_COM
 PRUnichar
 *
 nsEscapeHTML2
@@ -1942,7 +1937,6 @@ C
 flags
 )
 )
-NS_COM
 PRBool
 NS_EscapeURL
 (
@@ -2364,7 +2358,6 @@ hexChars
 -
 1
 )
-NS_COM
 PRBool
 NS_UnescapeURL
 (
