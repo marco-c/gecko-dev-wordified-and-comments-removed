@@ -4938,6 +4938,7 @@ getTime
 +
 1000
 ;
+let
 birth
 =
 stat
@@ -4990,7 +4991,7 @@ access
 =
 stat
 .
-lastModificationDate
+lastAccessDate
 ;
 ok
 (
