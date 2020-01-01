@@ -494,6 +494,14 @@ PRUint16
 aNumber
 )
 ;
+SendMessage
+(
+nsString
+aNumber
+nsString
+aMessage
+)
+;
 __delete__
 (
 )
