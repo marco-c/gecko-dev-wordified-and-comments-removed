@@ -31,7 +31,6 @@ svg
 pass
 .
 svg
-fails
 =
 =
 foreignObject
@@ -54,7 +53,6 @@ svg
 pass
 .
 svg
-fails
 =
 =
 foreignObject
