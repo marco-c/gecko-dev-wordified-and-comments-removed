@@ -2955,6 +2955,16 @@ checkDefaultBrowser
 false
 )
 ;
+user_pref
+(
+"
+browser
+.
+warnOnQuit
+"
+false
+)
+;
 PREFEND
 #
 #
