@@ -2605,6 +2605,10 @@ CreateChromeWindow2
 parentVisible
 ?
 parentChrome
+.
+get
+(
+)
 :
 nsnull
 chromeFlags
