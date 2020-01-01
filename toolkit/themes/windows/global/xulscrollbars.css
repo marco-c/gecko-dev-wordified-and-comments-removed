@@ -110,6 +110,12 @@ gif
 )
 scrollbar
 ;
+pointer
+-
+events
+:
+auto
+;
 }
 scrollbar
 [

@@ -90,6 +90,12 @@ color
 :
 white
 ;
+pointer
+-
+events
+:
+auto
+;
 }
 scrollbar
 [
