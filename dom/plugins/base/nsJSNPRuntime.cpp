@@ -105,6 +105,15 @@ nsIContent
 .
 h
 "
+#
+define
+NPRUNTIME_JSCLASS_NAME
+"
+NPObject
+JS
+wrapper
+class
+"
 using
 namespace
 mozilla
