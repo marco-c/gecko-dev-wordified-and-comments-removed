@@ -176,14 +176,14 @@ options
 hasOwnProperty
 (
 "
-recurseFrames
+recurseExternalFrames
 "
 )
 |
 |
 options
 .
-recurseFrames
+recurseExternalFrames
 )
 {
 if
