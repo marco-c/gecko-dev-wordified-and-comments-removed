@@ -2000,6 +2000,10 @@ friend
 class
 HashchangeCallback
 ;
+friend
+class
+nsBarProp
+;
 virtual
 ~
 nsGlobalWindow

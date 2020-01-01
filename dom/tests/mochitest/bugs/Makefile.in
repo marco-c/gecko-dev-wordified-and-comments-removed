@@ -828,6 +828,14 @@ test_bug648465
 .
 html
 \
+test_window_bar
+.
+html
+\
+file_window_bar
+.
+html
+\
 (
 NULL
 )
