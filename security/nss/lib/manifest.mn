@@ -455,6 +455,9 @@ DIRS
 =
 util
 freebl
+(
+SQLITE_SRCDIR
+)
 softoken
 \
 base
@@ -470,6 +473,9 @@ pk11wrap
 cryptohi
 nss
 \
+(
+ZLIB_SRCDIR
+)
 ssl
 \
 pkcs12

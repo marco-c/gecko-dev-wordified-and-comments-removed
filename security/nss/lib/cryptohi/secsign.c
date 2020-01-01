@@ -484,11 +484,13 @@ SGN_Update
 SGNContext
 *
 cx
+const
 unsigned
 char
 *
 input
 unsigned
+int
 inputLen
 )
 {

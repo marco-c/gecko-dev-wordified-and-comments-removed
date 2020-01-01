@@ -404,10 +404,6 @@ DIRS
 =
 lib
 \
-(
-ZLIB_SRCDIR
-)
-\
 addbuiltin
 \
 atob
@@ -435,6 +431,8 @@ digest
 fipstest
 \
 makepqg
+\
+multinit
 \
 ocspclnt
 \

@@ -145,6 +145,7 @@ SGN_Update
 SGNContext
 *
 cx
+const
 unsigned
 char
 *

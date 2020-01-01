@@ -3498,8 +3498,19 @@ pwd
 )
 endif
 endif
+#
+The
+quotes
+allow
+absolute
+paths
+to
+contain
+spaces
+.
 core_abspath
 =
+"
 (
 if
 (
@@ -3534,6 +3545,7 @@ PWD
 )
 )
 )
+"
 (
 OBJDIR
 )

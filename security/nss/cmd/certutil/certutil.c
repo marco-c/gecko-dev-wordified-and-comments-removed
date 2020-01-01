@@ -985,6 +985,11 @@ spki
 NULL
 )
 ;
+SECKEY_DestroySubjectPublicKeyInfo
+(
+spki
+)
+;
 if
 (
 !

@@ -405,6 +405,14 @@ slot
 )
 ;
 void
+pk11_SetInternalKeySlot
+(
+PK11SlotInfo
+*
+slot
+)
+;
+void
 PK11_AddMechanismEntry
 (
 CK_MECHANISM_TYPE

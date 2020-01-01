@@ -633,8 +633,6 @@ RPATH
 =
 endif
 endif
-DSO_LDFLAGS
-=
 #
 +
 Z

@@ -1307,7 +1307,7 @@ ss
 ;
 if
 (
-PORT_Memcmp
+NSS_SecureMemcmp
 (
 mac
 pBuf

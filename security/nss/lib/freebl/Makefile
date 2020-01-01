@@ -1602,11 +1602,13 @@ off
 intel
 HW
 accelleration
+#
 DEFINES
 +
 =
 -
 DUSE_HW_AES
+#
 ASFILES
 +
 =
@@ -3242,11 +3244,13 @@ off
 intel
 HW
 accelleration
+#
 DEFINES
 +
 =
 -
 DUSE_HW_AES
+#
 ASFILES
 +
 =

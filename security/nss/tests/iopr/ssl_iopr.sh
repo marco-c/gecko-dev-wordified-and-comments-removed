@@ -3,7 +3,7 @@
 /
 bin
 /
-sh
+bash
 #
 #
 *
@@ -182,7 +182,7 @@ C
 )
 1994
 -
-2000
+2009
 #
 the
 Initial
@@ -192,6 +192,10 @@ All
 Rights
 Reserved
 .
+#
+#
+Contributors
+:
 #
 #
 Alternatively
@@ -535,13 +539,6 @@ NOTE
 .
 unexpected
 behavior
-#
-#
-FIXME
--
-Netscape
--
-NSS
 #
 #
 #
@@ -5221,6 +5218,11 @@ ECC
 for
 interoperability
 tests
+NSS_SSL_ENABLE_RENEGOTIATION
+=
+u
+export
+NSS_SSL_ENABLE_RENEGOTIATION
 num
 =
 1

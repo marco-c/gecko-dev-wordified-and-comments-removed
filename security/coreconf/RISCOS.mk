@@ -456,8 +456,6 @@ DSO_LDOPTS
 =
 -
 shared
-DSO_LDFLAGS
-=
 ifdef
 BUILD_OPT
 OPTIMIZER

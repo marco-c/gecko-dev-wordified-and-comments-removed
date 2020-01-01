@@ -516,5 +516,3 @@ DSO_LDOPTS
 =
 -
 shared
-DSO_LDFLAGS
-=

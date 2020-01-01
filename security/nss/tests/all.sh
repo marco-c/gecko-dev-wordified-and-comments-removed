@@ -1286,7 +1286,7 @@ NSS_SSL_RUN
 -
 list
 of
-sss
+ssl
 sub
 -
 tests
@@ -2233,6 +2233,7 @@ sdr
 crmf
 smime
 merge
+multinit
 "
 echo
 "

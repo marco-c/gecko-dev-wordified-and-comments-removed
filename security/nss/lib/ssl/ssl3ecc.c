@@ -4319,7 +4319,7 @@ numAdvertised
 +
 ]
 =
-elliptic_curves_xtn
+ssl_elliptic_curves_xtn
 ;
 }
 }
@@ -4429,7 +4429,7 @@ numAdvertised
 +
 ]
 =
-ec_point_formats_xtn
+ssl_ec_point_formats_xtn
 ;
 }
 }

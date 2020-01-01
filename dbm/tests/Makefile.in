@@ -436,7 +436,10 @@ WINNT
 )
 EXTRA_DSO_LIBS
 =
-dbm32
+dbm
+(
+MOZ_BITS
+)
 else
 EXTRA_DSO_LIBS
 =
