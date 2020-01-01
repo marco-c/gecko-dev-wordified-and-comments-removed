@@ -29,6 +29,12 @@ jstests
 .
 list
 include
+RegExp
+/
+jstests
+.
+list
+include
 Types
 /
 jstests
