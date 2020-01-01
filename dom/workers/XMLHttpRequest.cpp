@@ -5653,15 +5653,12 @@ if
 mUpload
 )
 {
-JS_CallObjectTracer
-(
-aTrc
 mUpload
 -
 >
-GetJSObject
+TraceJSObject
 (
-)
+aTrc
 "
 mUpload
 "
@@ -5671,6 +5668,7 @@ mUpload
 JS_CallValueTracer
 (
 aTrc
+&
 mStateData
 .
 mResponse

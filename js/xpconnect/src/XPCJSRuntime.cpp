@@ -1928,6 +1928,7 @@ acx
 JS_CallObjectTracer
 (
 trc
+&
 global
 "
 XPC

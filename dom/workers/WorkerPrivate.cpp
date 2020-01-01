@@ -13363,6 +13363,7 @@ index
 JS_CallValueTracer
 (
 aTrc
+&
 info
 -
 >
@@ -13400,6 +13401,7 @@ index2
 JS_CallValueTracer
 (
 aTrc
+&
 info
 -
 >

@@ -548,6 +548,7 @@ i
 JS_CallValueTracer
 (
 aTrc
+&
 mSlots
 [
 i

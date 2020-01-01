@@ -2895,6 +2895,7 @@ aClosure
 JS_CallScriptTracer
 (
 trc
+&
 aScriptEntry
 .
 mScriptObject

@@ -16237,6 +16237,7 @@ this
 JS_CallObjectTracer
 (
 trc
+&
 mJSObj
 "
 XPCJSObjectHolder

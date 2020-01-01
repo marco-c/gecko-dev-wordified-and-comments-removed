@@ -3739,6 +3739,10 @@ countTracer
 .
 base
 startValue
+.
+address
+(
+)
 "
 root
 "
