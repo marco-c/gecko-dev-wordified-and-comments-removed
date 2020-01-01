@@ -306,9 +306,13 @@ RemovedFromDocument
 (
 )
 ;
+static
 void
 Traverse
 (
+nsObjectLoadingContent
+*
+tmp
 nsCycleCollectionTraversalCallback
 &
 cb
