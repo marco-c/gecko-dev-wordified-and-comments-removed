@@ -436,6 +436,10 @@ mk
 _TEST_FILES
 =
 \
+file_MozEnteredDomFullscreen
+.
+html
+\
 test_outerHTML
 .
 html

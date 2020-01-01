@@ -436,6 +436,14 @@ mk
 _TEST_FILES
 =
 \
+test_MozEnteredDomFullscreen_event
+.
+xul
+\
+MozEnteredDomFullscreen_chrome
+.
+xul
+\
 test_dom_fullscreen_warning
 .
 xul
