@@ -627,16 +627,6 @@ nsnull
 ;
 mFlags
 .
-mIsTopOfPage
-=
-aParentReflowState
-.
-mFlags
-.
-mIsTopOfPage
-;
-mFlags
-.
 mNextInFlowUntouched
 =
 aParentReflowState
