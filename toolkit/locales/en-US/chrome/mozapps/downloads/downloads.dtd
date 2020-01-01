@@ -252,13 +252,13 @@ R
 ENTITY
 cmd
 .
-copyLocation
+copyDownloadLink
 .
 label
 "
 Copy
-Source
-Location
+Download
+Link
 "
 >
 <
@@ -266,7 +266,7 @@ Location
 ENTITY
 cmd
 .
-copyLocation
+copyDownloadLink
 .
 accesskey
 "

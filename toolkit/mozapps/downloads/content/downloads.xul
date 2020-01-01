@@ -1861,7 +1861,7 @@ label
 &
 cmd
 .
-copyLocation
+copyDownloadLink
 .
 label
 ;
@@ -1872,7 +1872,7 @@ accesskey
 &
 cmd
 .
-copyLocation
+copyDownloadLink
 .
 accesskey
 ;
