@@ -659,6 +659,10 @@ test_focus
 .
 xul
 \
+test_tabindex
+.
+xul
+\
 (
 NULL
 )
