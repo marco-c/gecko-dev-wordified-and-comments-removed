@@ -58,13 +58,6 @@ h
 #
 include
 "
-jsdhash
-.
-h
-"
-#
-include
-"
 jsgc
 .
 h
