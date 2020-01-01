@@ -6229,7 +6229,7 @@ connect
 oncommand
 =
 "
-WeaveGlue
+Sync
 .
 tryConnect
 (
@@ -6362,7 +6362,7 @@ syncNow2
 oncommand
 =
 "
-WeaveGlue
+Sync
 .
 sync
 (
@@ -6408,7 +6408,7 @@ deviceName
 onchange
 =
 "
-WeaveGlue
+Sync
 .
 changeName
 (
@@ -6464,7 +6464,7 @@ disconnect
 oncommand
 =
 "
-WeaveGlue
+Sync
 .
 disconnect
 (
@@ -7690,7 +7690,7 @@ flex
 onclick
 =
 "
-WeaveGlue
+Sync
 .
 openTutorial
 (
@@ -7829,7 +7829,7 @@ flex
 onclick
 =
 "
-WeaveGlue
+Sync
 .
 openManual
 (
@@ -7881,7 +7881,7 @@ button
 oncommand
 =
 "
-WeaveGlue
+Sync
 .
 close
 (
@@ -8093,7 +8093,7 @@ button
 oncommand
 =
 "
-WeaveGlue
+Sync
 .
 close
 (
@@ -8138,7 +8138,7 @@ true
 oncommand
 =
 "
-WeaveGlue
+Sync
 .
 close
 (
@@ -8270,7 +8270,7 @@ account
 oninput
 =
 "
-WeaveGlue
+Sync
 .
 canConnect
 (
@@ -8312,7 +8312,7 @@ password
 oninput
 =
 "
-WeaveGlue
+Sync
 .
 canConnect
 (
@@ -8349,7 +8349,7 @@ recoveryKey
 oninput
 =
 "
-WeaveGlue
+Sync
 .
 canConnect
 (
@@ -8388,7 +8388,7 @@ customServer
 oncommand
 =
 "
-WeaveGlue
+Sync
 .
 toggleCustomServer
 (
@@ -8459,7 +8459,7 @@ button
 oncommand
 =
 "
-WeaveGlue
+Sync
 .
 close
 (
@@ -8503,13 +8503,13 @@ button
 oncommand
 =
 "
-WeaveGlue
+Sync
 .
 close
 (
 )
 ;
-WeaveGlue
+Sync
 .
 connect
 (
@@ -8728,7 +8728,7 @@ close
 (
 )
 ;
-WeaveGlue
+Sync
 .
 openTutorial
 (
