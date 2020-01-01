@@ -604,9 +604,7 @@ Test
 Bug
 325842
 -
-autoFill
-and
-autoFillAfterMatch
+completeDefaultIndex
 SimpleTest
 .
 waitForExplicitFinish
