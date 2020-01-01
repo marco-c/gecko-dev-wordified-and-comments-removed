@@ -3205,6 +3205,17 @@ args
                 
 method
 .
+addExtendedAttributes
+(
+[
+"
+Creator
+"
+]
+)
+                
+method
+.
 resolve
 (
 self
