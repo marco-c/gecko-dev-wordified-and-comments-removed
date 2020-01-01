@@ -1055,7 +1055,7 @@ masm
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 f
 (
@@ -5259,7 +5259,7 @@ masm
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ;
 JSC
@@ -5431,7 +5431,7 @@ size
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ;
 code
@@ -5802,7 +5802,7 @@ masm
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ;
 JSC
@@ -8327,7 +8327,7 @@ masm
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ;
 JSC

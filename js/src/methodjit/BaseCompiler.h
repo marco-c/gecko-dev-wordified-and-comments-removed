@@ -879,7 +879,7 @@ masm
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 chunk
 (

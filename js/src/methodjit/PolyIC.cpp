@@ -234,7 +234,7 @@ masm
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ic
 (
@@ -16696,7 +16696,7 @@ masm
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ;
 execPool
@@ -17222,7 +17222,7 @@ masm
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ;
 execPool

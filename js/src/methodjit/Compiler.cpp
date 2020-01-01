@@ -5016,7 +5016,7 @@ masm
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ;
 JSC
@@ -7512,7 +7512,7 @@ execPool
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ;
 if
@@ -7580,7 +7580,7 @@ codeSize
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ;
 JSC
@@ -7604,7 +7604,7 @@ size
 JSC
 :
 :
-METHOD_CODE
+JAEGER_CODE
 )
 ;
 JS_ASSERT
