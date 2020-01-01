@@ -508,6 +508,10 @@ test_button_attributes_reflection
 .
 html
 \
+test_textarea_attributes_reflection
+.
+html
+\
 (
 NULL
 )
