@@ -400,6 +400,11 @@ AllocateFrame
 (
 )
 ;
+void
+MarkFrameDirty
+(
+)
+;
 protected
 :
 virtual
