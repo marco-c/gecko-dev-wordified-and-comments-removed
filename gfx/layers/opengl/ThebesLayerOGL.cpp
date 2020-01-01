@@ -570,7 +570,7 @@ false
 mTexImage
 -
 >
-GetTextureFormat
+GetShaderProgramType
 (
 )
 )
@@ -641,6 +641,9 @@ aManager
 >
 GetProgram
 (
+gl
+:
+:
 ComponentAlphaPass1ProgramType
 mLayer
 -
@@ -673,6 +676,9 @@ aManager
 >
 GetProgram
 (
+gl
+:
+:
 ComponentAlphaPass2ProgramType
 mLayer
 -
@@ -735,14 +741,11 @@ aManager
 >
 GetProgram
 (
-ShaderProgramFromSurfaceFormat
-(
 mTexImage
 -
 >
-GetTextureFormat
+GetShaderProgramType
 (
-)
 )
 mLayer
 -

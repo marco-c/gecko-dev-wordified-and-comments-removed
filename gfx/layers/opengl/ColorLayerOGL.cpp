@@ -122,6 +122,9 @@ aManager
 >
 GetProgram
 (
+gl
+:
+:
 ColorLayerProgramType
 aLayer
 -

@@ -182,6 +182,9 @@ ShaderProgramOGL
 *
 GetProgram
 (
+gl
+:
+:
 ShaderProgramType
 aType
 )
