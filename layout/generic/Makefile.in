@@ -927,13 +927,11 @@ srcdir
 .
 .
 /
-modules
+dom
 /
-plugin
+plugins
 /
 base
-/
-src
 \
 (
 MOZ_CAIRO_CFLAGS

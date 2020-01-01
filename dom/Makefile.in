@@ -535,6 +535,10 @@ locales
 \
 plugins
 /
+base
+\
+plugins
+/
 ipc
 \
 indexedDB
