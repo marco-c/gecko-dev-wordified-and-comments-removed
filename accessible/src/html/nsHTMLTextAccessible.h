@@ -295,7 +295,7 @@ aExtraState
 )
 ;
 virtual
-nsresult
+void
 AppendTextTo
 (
 nsAString
@@ -303,8 +303,12 @@ nsAString
 aText
 PRUint32
 aStartOffset
+=
+0
 PRUint32
 aLength
+=
+PR_UINT32_MAX
 )
 ;
 protected

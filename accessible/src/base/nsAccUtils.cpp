@@ -2908,8 +2908,6 @@ aAccessible
 AppendTextTo
 (
 text
-0
-PR_UINT32_MAX
 )
 ;
 return
