@@ -317,9 +317,9 @@ ctx
 nsIInputStream
 *
 is
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
 )
 {
@@ -360,7 +360,7 @@ buf
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 nread
 =
 0
@@ -370,12 +370,12 @@ while
 count
 )
 {
-PRUint32
+uint32_t
 amount
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 count
@@ -629,7 +629,7 @@ OpenOutputStream
 (
 0
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -702,7 +702,7 @@ listener
 nullptr
 0
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -749,7 +749,7 @@ buf
 256
 ]
 ;
-PRUint32
+uint32_t
 count
 total
 =

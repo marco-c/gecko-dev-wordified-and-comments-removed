@@ -152,12 +152,12 @@ endif
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -289,7 +289,7 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -367,7 +367,7 @@ nscoord
 aMaxAscent
 )
 ;
-PRUint8
+uint8_t
 GetVerticalAlign
 (
 )
@@ -408,7 +408,7 @@ GetCellBaseline
 const
 ;
 virtual
-PRInt32
+int32_t
 GetRowSpan
 (
 )
@@ -416,10 +416,10 @@ GetRowSpan
 NS_IMETHOD
 GetCellIndexes
 (
-PRInt32
+int32_t
 &
 aRowIndex
-PRInt32
+int32_t
 &
 aColIndex
 )
@@ -428,14 +428,14 @@ virtual
 nsresult
 GetRowIndex
 (
-PRInt32
+int32_t
 &
 aRowIndex
 )
 const
 ;
 virtual
-PRInt32
+int32_t
 GetColSpan
 (
 )
@@ -444,7 +444,7 @@ virtual
 nsresult
 GetColIndex
 (
-PRInt32
+int32_t
 &
 aColIndex
 )
@@ -453,7 +453,7 @@ const
 void
 SetColIndex
 (
-PRInt32
+int32_t
 aColIndex
 )
 ;
@@ -542,7 +542,7 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -581,7 +581,7 @@ friend
 class
 nsTableRowFrame
 ;
-PRUint32
+uint32_t
 mColIndex
 ;
 nscoord
@@ -889,7 +889,7 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
-PRUint32
+uint32_t
 aFlags
 )
 ;

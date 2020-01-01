@@ -544,7 +544,7 @@ nsIAtom
 >
 prefix
 ;
-PRUint32
+uint32_t
 lnameStart
 =
 0
@@ -582,7 +582,7 @@ get
 1
 ;
 }
-PRInt32
+int32_t
 nsId
 =
 kNameSpaceID_None
@@ -980,7 +980,7 @@ popResultHandler
 )
 )
 ;
-PRUint32
+uint32_t
 length
 =
 handler
@@ -992,7 +992,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 pos
 =
 0
@@ -1013,7 +1013,7 @@ FindChar
 -
 '
 (
-PRUint32
+uint32_t
 )
 pos
 )
@@ -1030,7 +1030,7 @@ pos
 if
 (
 (
-PRUint32
+uint32_t
 )
 pos
 =
@@ -1862,7 +1862,7 @@ exprRes
 )
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -2244,7 +2244,7 @@ txLREAttribute
 :
 txLREAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2922,7 +2922,7 @@ NS_OK
 txNodeSorter
 sorter
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -3769,7 +3769,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 nsId
 =
 kNameSpaceID_None
@@ -3780,7 +3780,7 @@ nsIAtom
 >
 prefix
 ;
-PRUint32
+uint32_t
 lnameStart
 =
 0
@@ -4005,7 +4005,7 @@ txStartLREElement
 :
 txStartLREElement
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

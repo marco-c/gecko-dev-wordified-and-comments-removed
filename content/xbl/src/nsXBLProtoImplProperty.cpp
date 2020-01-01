@@ -406,7 +406,7 @@ nsXBLProtoImplProperty
 :
 SetGetterLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -462,7 +462,7 @@ nsXBLProtoImplProperty
 :
 SetSetterLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -860,7 +860,7 @@ functionUri
 =
 aClassStr
 ;
-PRInt32
+int32_t
 hash
 =
 functionUri

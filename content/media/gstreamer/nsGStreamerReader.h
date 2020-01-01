@@ -116,7 +116,7 @@ DecodeVideoFrame
 bool
 &
 aKeyframeSkip
-PRInt64
+int64_t
 aTimeThreshold
 )
 ;
@@ -140,13 +140,13 @@ virtual
 nsresult
 Seek
 (
-PRInt64
+int64_t
 aTime
-PRInt64
+int64_t
 aStartTime
-PRInt64
+int64_t
 aEndTime
-PRInt64
+int64_t
 aCurrentTime
 )
 ;
@@ -157,7 +157,7 @@ GetBuffered
 nsTimeRanges
 *
 aBuffered
-PRInt64
+int64_t
 aStartTime
 )
 ;
@@ -217,7 +217,7 @@ NotifyBytesConsumed
 (
 )
 ;
-PRInt64
+int64_t
 QueryDuration
 (
 )

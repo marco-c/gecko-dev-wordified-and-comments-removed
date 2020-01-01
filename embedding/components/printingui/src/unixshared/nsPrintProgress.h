@@ -103,7 +103,7 @@ m_processCanceled
 nsString
 m_pendingStatus
 ;
-PRInt32
+int32_t
 m_pendingStateFlags
 ;
 nsresult

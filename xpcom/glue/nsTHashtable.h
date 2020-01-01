@@ -47,7 +47,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 ordinal
 void
 *
@@ -83,7 +83,7 @@ nsTHashtable
 void
 Init
 (
-PRUint32
+uint32_t
 initSize
 =
 PL_DHASH_MIN_SIZE
@@ -130,7 +130,7 @@ fallible_t
 bool
 Init
 (
-PRUint32
+uint32_t
 initSize
 const
 fallible_t
@@ -152,7 +152,7 @@ mTable
 entrySize
 ;
 }
-PRUint32
+uint32_t
 GetGeneration
 (
 )
@@ -180,7 +180,7 @@ EntryType
 KeyTypePointer
 KeyTypePointer
 ;
-PRUint32
+uint32_t
 Count
 (
 )
@@ -430,7 +430,7 @@ void
 userArg
 )
 ;
-PRUint32
+uint32_t
 EnumerateEntries
 (
 Enumerator
@@ -729,7 +729,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 number
 void
 *
@@ -857,7 +857,7 @@ EntryType
 :
 Init
 (
-PRUint32
+uint32_t
 initSize
 const
 fallible_t
@@ -1224,7 +1224,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 number
 void
 *

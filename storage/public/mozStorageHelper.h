@@ -44,7 +44,7 @@ mozIStorageConnection
 aConnection
 bool
 aCommitOnComplete
-PRInt32
+int32_t
 aType
 =
 mozIStorageConnection

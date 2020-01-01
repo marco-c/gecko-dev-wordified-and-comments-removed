@@ -87,7 +87,7 @@ VERTICAL
 }
 ;
 virtual
-PRUint32
+uint32_t
 GetScrollbarVisibility
 (
 )

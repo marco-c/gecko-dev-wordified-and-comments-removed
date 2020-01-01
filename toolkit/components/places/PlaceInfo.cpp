@@ -53,7 +53,7 @@ PlaceInfo
 :
 PlaceInfo
 (
-PRInt64
+int64_t
 aId
 const
 nsCString
@@ -68,7 +68,7 @@ const
 nsString
 &
 aTitle
-PRInt64
+int64_t
 aFrecency
 const
 VisitsArray
@@ -123,7 +123,7 @@ PlaceInfo
 :
 GetPlaceId
 (
-PRInt64
+int64_t
 *
 _placeId
 )
@@ -205,7 +205,7 @@ PlaceInfo
 :
 GetFrecency
 (
-PRInt64
+int64_t
 *
 _frecency
 )

@@ -193,7 +193,7 @@ h
 "
 static
 const
-PRInt32
+int32_t
 kMinBidiIndicatorPixels
 =
 2
@@ -443,7 +443,7 @@ nsIFrame
 *
 *
 aFrame
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -465,7 +465,7 @@ line
 )
 return
 ;
-PRInt32
+int32_t
 count
 =
 line
@@ -728,7 +728,7 @@ mBlinkRate
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 LookAndFeel
@@ -898,7 +898,7 @@ DrawCJKCaret
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -940,7 +940,7 @@ aOffset
 0
 |
 |
-PRUint32
+uint32_t
 (
 aOffset
 )
@@ -992,7 +992,7 @@ ComputeMetrics
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aOffset
 nscoord
 aCaretHeight
@@ -1055,7 +1055,7 @@ caretWidth
 bidiIndicatorSize
 )
 ;
-PRUint32
+uint32_t
 tpp
 =
 aFrame
@@ -1331,7 +1331,7 @@ GetGeometryForFrame
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aFrameOffset
 nsRect
 *
@@ -1676,7 +1676,7 @@ focusNode
 return
 nullptr
 ;
-PRInt32
+int32_t
 focusOffset
 ;
 rv
@@ -1737,7 +1737,7 @@ frameSelection
 return
 nullptr
 ;
-PRUint8
+uint8_t
 bidiLevel
 =
 frameSelection
@@ -1751,7 +1751,7 @@ nsIFrame
 *
 frame
 ;
-PRInt32
+int32_t
 frameOffset
 ;
 rv
@@ -1916,7 +1916,7 @@ GetHintForPosition
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -2012,7 +2012,7 @@ DrawAtPosition
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -2021,7 +2021,7 @@ NS_ENSURE_ARG
 aNode
 )
 ;
-PRUint8
+uint8_t
 bidiLevel
 ;
 nsRefPtr
@@ -2090,7 +2090,7 @@ nsCaret
 :
 GetCaretFrame
 (
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -2103,7 +2103,7 @@ mDrawn
 return
 nullptr
 ;
-PRInt32
+int32_t
 offset
 ;
 nsIFrame
@@ -2266,7 +2266,7 @@ mCaretRect
 +
 aOffset
 ;
-PRInt32
+int32_t
 contentOffset
 ;
 #
@@ -2300,7 +2300,7 @@ frame
 "
 )
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -2512,7 +2512,7 @@ nsIDOMDocument
 nsISelection
 *
 aDomSel
-PRInt16
+int16_t
 aReason
 )
 {
@@ -2867,14 +2867,14 @@ DrawAtPositionWithHint
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsFrameSelection
 :
 :
 HINT
 aFrameHint
-PRUint8
+uint8_t
 aBidiLevel
 bool
 aInvalidate
@@ -2905,7 +2905,7 @@ theFrame
 =
 nullptr
 ;
-PRInt32
+int32_t
 theFrameOffset
 =
 0
@@ -3090,20 +3090,20 @@ GetCaretFrameForNodeOffset
 nsIContent
 *
 aContentNode
-PRInt32
+int32_t
 aOffset
 nsFrameSelection
 :
 :
 HINT
 aFrameHint
-PRUint8
+uint8_t
 aBidiLevel
 nsIFrame
 *
 *
 aReturnFrame
-PRInt32
+int32_t
 *
 aReturnOffset
 )
@@ -3184,7 +3184,7 @@ theFrame
 =
 nullptr
 ;
-PRInt32
+int32_t
 theFrameOffset
 =
 0
@@ -3237,10 +3237,10 @@ NS_GET_EMBEDDING_LEVEL
 theFrame
 )
 ;
-PRInt32
+int32_t
 start
 ;
-PRInt32
+int32_t
 end
 ;
 nsIFrame
@@ -3251,10 +3251,10 @@ nsIFrame
 *
 frameAfter
 ;
-PRUint8
+uint8_t
 levelBefore
 ;
-PRUint8
+uint8_t
 levelAfter
 ;
 theFrame
@@ -3472,7 +3472,7 @@ end
 }
 else
 {
-PRUint8
+uint8_t
 baseLevel
 =
 NS_GET_BASE_LEVEL
@@ -3623,7 +3623,7 @@ start
 }
 else
 {
-PRUint8
+uint8_t
 baseLevel
 =
 NS_GET_BASE_LEVEL
@@ -4190,7 +4190,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4350,7 +4350,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 nsFrameSelection
@@ -4359,7 +4359,7 @@ nsFrameSelection
 HINT
 hint
 ;
-PRUint8
+uint8_t
 bidiLevel
 ;
 if
@@ -4610,7 +4610,7 @@ UpdateCaretRects
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aFrameOffset
 )
 {

@@ -199,10 +199,10 @@ nsISupports
 context
 nsresult
 aStatus
-PRUint32
+uint32_t
 dataLen
 const
-PRUint8
+uint8_t
 *
 data
 )
@@ -436,7 +436,7 @@ nsSound
 :
 PlayEventSound
 (
-PRUint32
+uint32_t
 aEventId
 )
 {

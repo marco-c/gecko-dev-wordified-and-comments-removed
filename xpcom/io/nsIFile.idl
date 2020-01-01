@@ -1341,11 +1341,11 @@ GMT
 *
 /
 attribute
-PRInt64
+int64_t
 lastModifiedTime
 ;
 attribute
-PRInt64
+int64_t
 lastModifiedTimeOfLink
 ;
 /
@@ -1405,12 +1405,12 @@ nsILocalFileMac
 *
 /
 attribute
-PRInt64
+int64_t
 fileSize
 ;
 readonly
 attribute
-PRInt64
+int64_t
 fileSizeOfLink
 ;
 /
@@ -2435,7 +2435,7 @@ non
 superuser
 readonly
 attribute
-PRInt64
+int64_t
 diskSpaceAvailable
 ;
 /

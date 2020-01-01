@@ -138,7 +138,7 @@ nsKeyObject
 :
 InitKey
 (
-PRInt16
+int16_t
 aAlgorithm
 void
 *
@@ -332,7 +332,7 @@ nsKeyObject
 :
 GetType
 (
-PRInt16
+int16_t
 *
 _retval
 )
@@ -395,13 +395,13 @@ nsKeyObjectFactory
 :
 UnwrapKey
 (
-PRInt16
+int16_t
 aAlgorithm
 const
-PRUint8
+uint8_t
 *
 aWrappedKey
-PRUint32
+uint32_t
 aWrappedKeyLen
 nsIKeyObject
 *
@@ -419,7 +419,7 @@ nsKeyObjectFactory
 :
 KeyFromString
 (
-PRInt16
+int16_t
 aAlgorithm
 const
 nsACString

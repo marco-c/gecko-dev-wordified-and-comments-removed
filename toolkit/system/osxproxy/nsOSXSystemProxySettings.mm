@@ -286,7 +286,7 @@ aURI
 nsACString
 &
 aResultHost
-PRInt32
+int32_t
 &
 aResultPort
 bool
@@ -842,7 +842,7 @@ aURI
 nsACString
 &
 aResultHost
-PRInt32
+int32_t
 &
 aResultPort
 bool
@@ -1265,7 +1265,7 @@ override
 aOverride
 )
 ;
-PRInt32
+int32_t
 overrideLength
 =
 override
@@ -1274,12 +1274,12 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 tokenStart
 =
 0
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -1296,7 +1296,7 @@ tokenStart
 overrideLength
 )
 {
-PRInt32
+int32_t
 tokenEnd
 =
 override
@@ -1491,7 +1491,7 @@ offset
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 host
@@ -1725,7 +1725,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 proxyPort
 ;
 nsCAutoString

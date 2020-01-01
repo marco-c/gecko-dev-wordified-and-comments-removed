@@ -2825,7 +2825,7 @@ AssertPluginThread
 (
 )
 ;
-PRUint32
+uint32_t
 value
 =
 0
@@ -10674,7 +10674,7 @@ ManagedPStreamNotifyChild
 notifyStreams
 )
 ;
-PRUint32
+uint32_t
 notifyStreamCount
 =
 notifyStreams
@@ -10685,7 +10685,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -18789,7 +18789,7 @@ streams
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -18838,7 +18838,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19040,7 +19040,7 @@ DestroyPluginWindow
 endif
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

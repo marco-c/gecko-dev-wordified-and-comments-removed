@@ -221,7 +221,7 @@ const
 nsAString
 &
 host
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -238,7 +238,7 @@ dom
 Link
 *
 aElement
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -250,7 +250,7 @@ const
 nsAString
 &
 hostname
-PRUint16
+uint16_t
 flags
 nsresult
 aReason
@@ -269,7 +269,7 @@ dom
 Link
 *
 aElement
-PRUint16
+uint16_t
 flags
 nsresult
 aReason
@@ -331,7 +331,7 @@ Activate
 nsresult
 Add
 (
-PRUint16
+uint16_t
 flags
 mozilla
 :
@@ -361,13 +361,13 @@ SubmitQueue
 (
 )
 ;
-PRUint16
+uint16_t
 mHead
 ;
-PRUint16
+uint16_t
 mTail
 ;
-PRUint32
+uint32_t
 mActiveLoaderCount
 ;
 nsCOMPtr
@@ -412,7 +412,7 @@ sMaxDeferred
 struct
 deferred_entry
 {
-PRUint16
+uint16_t
 mFlags
 ;
 nsWeakPtr

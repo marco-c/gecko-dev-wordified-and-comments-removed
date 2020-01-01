@@ -159,7 +159,7 @@ NS_ARRAY_LENGTH
 (
 kTypeString
 )
-PRUint8
+uint8_t
 nsContentBlocker
 :
 :
@@ -279,7 +279,7 @@ do_QueryInterface
 prefService
 )
 ;
-PRInt32
+int32_t
 oldPref
 ;
 rv
@@ -311,7 +311,7 @@ rv
 oldPref
 )
 {
-PRInt32
+int32_t
 newPref
 ;
 switch
@@ -465,7 +465,7 @@ char
 aPref
 )
 {
-PRInt32
+int32_t
 val
 ;
 #
@@ -488,7 +488,7 @@ _P
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -550,7 +550,7 @@ nsContentBlocker
 :
 ShouldLoad
 (
-PRUint32
+uint32_t
 aContentType
 nsIURI
 *
@@ -571,7 +571,7 @@ aExtra
 nsIPrincipal
 *
 aRequestPrincipal
-PRInt16
+int16_t
 *
 aDecision
 )
@@ -730,7 +730,7 @@ nsContentBlocker
 :
 ShouldProcess
 (
-PRUint32
+uint32_t
 aContentType
 nsIURI
 *
@@ -751,7 +751,7 @@ aExtra
 nsIPrincipal
 *
 aRequestPrincipal
-PRInt16
+int16_t
 *
 aDecision
 )
@@ -775,7 +775,7 @@ if
 item
 )
 {
-PRInt32
+int32_t
 type
 ;
 item
@@ -916,7 +916,7 @@ aCurrentURI
 nsIURI
 *
 aFirstURI
-PRInt32
+int32_t
 aContentType
 bool
 *
@@ -936,7 +936,7 @@ aPermission
 =
 true
 ;
-PRUint32
+uint32_t
 permission
 ;
 nsresult
@@ -1099,7 +1099,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 dot
 =
 currentHost

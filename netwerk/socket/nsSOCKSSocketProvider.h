@@ -33,7 +33,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSISOCKETPROVIDER
 nsSOCKSSocketProvider
 (
-PRUint32
+uint32_t
 version
 )
 :
@@ -80,7 +80,7 @@ aResult
 ;
 private
 :
-PRUint32
+uint32_t
 mVersion
 ;
 }

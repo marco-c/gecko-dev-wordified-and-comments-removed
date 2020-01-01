@@ -111,14 +111,14 @@ template
 class
 T
 >
-PRInt32
+int32_t
 CountLinebreaks
 (
 const
 T
 *
 aSrc
-PRInt32
+int32_t
 inLen
 const
 char
@@ -142,7 +142,7 @@ aSrc
 +
 inLen
 ;
-PRInt32
+int32_t
 theCount
 =
 0
@@ -237,7 +237,7 @@ const
 T
 *
 inSrc
-PRInt32
+int32_t
 &
 ioLen
 const
@@ -331,7 +331,7 @@ return
 resultString
 ;
 }
-PRInt32
+int32_t
 srcBreakLen
 =
 strlen
@@ -339,7 +339,7 @@ strlen
 srcBreak
 )
 ;
-PRInt32
+int32_t
 destBreakLen
 =
 strlen
@@ -467,7 +467,7 @@ src
 }
 else
 {
-PRInt32
+int32_t
 numLinebreaks
 =
 CountLinebreaks
@@ -477,7 +477,7 @@ ioLen
 srcBreak
 )
 ;
-PRInt32
+int32_t
 newBufLen
 =
 ioLen
@@ -651,7 +651,7 @@ ConvertBreaksInSitu
 T
 *
 inSrc
-PRInt32
+int32_t
 inLen
 char
 srcBreak
@@ -713,7 +713,7 @@ const
 T
 *
 inSrc
-PRInt32
+int32_t
 &
 ioLen
 const
@@ -738,7 +738,7 @@ inSrc
 +
 ioLen
 ;
-PRInt32
+int32_t
 destBreakLen
 =
 strlen
@@ -746,7 +746,7 @@ strlen
 destBreak
 )
 ;
-PRInt32
+int32_t
 finalLen
 =
 0
@@ -1002,9 +1002,9 @@ ELinebreakType
 aSrcBreaks
 ELinebreakType
 aDestBreaks
-PRInt32
+int32_t
 aSrcLen
-PRInt32
+int32_t
 *
 outLen
 )
@@ -1035,7 +1035,7 @@ aSrc
 return
 nullptr
 ;
-PRInt32
+int32_t
 sourceLen
 =
 (
@@ -1121,9 +1121,9 @@ ELinebreakType
 aSrcBreaks
 ELinebreakType
 aDestBreaks
-PRInt32
+int32_t
 aSrcLen
-PRInt32
+int32_t
 *
 outLen
 )
@@ -1173,7 +1173,7 @@ parameter
 "
 )
 ;
-PRInt32
+int32_t
 sourceLen
 =
 (
@@ -1343,9 +1343,9 @@ ELinebreakType
 aSrcBreaks
 ELinebreakType
 aDestBreaks
-PRInt32
+int32_t
 aSrcLen
-PRInt32
+int32_t
 *
 outLen
 )
@@ -1376,7 +1376,7 @@ aSrc
 return
 nullptr
 ;
-PRInt32
+int32_t
 bufLen
 =
 (
@@ -1462,9 +1462,9 @@ ELinebreakType
 aSrcBreaks
 ELinebreakType
 aDestBreaks
-PRInt32
+int32_t
 aSrcLen
-PRInt32
+int32_t
 *
 outLen
 )
@@ -1514,7 +1514,7 @@ parameter
 "
 )
 ;
-PRInt32
+int32_t
 sourceLen
 =
 (
@@ -1729,7 +1729,7 @@ BeginWriting
 stringBuf
 )
 ;
-PRInt32
+int32_t
 newLen
 ;
 rv

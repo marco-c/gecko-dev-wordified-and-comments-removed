@@ -599,7 +599,7 @@ aCharSetID
 =
 0
 ;
-PRInt32
+int32_t
 GetDocumentCharacterSetSource
 (
 )
@@ -612,7 +612,7 @@ mCharacterSetSource
 void
 SetDocumentCharacterSetSource
 (
-PRInt32
+int32_t
 aCharsetSource
 )
 {
@@ -798,7 +798,7 @@ mIsInitialDocumentInWindow
 aIsInitialDocument
 ;
 }
-PRUint32
+uint32_t
 GetBidiOptions
 (
 )
@@ -811,7 +811,7 @@ mBidiOptions
 void
 SetBidiOptions
 (
-PRUint32
+uint32_t
 aBidiOptions
 )
 {
@@ -820,7 +820,7 @@ mBidiOptions
 aBidiOptions
 ;
 }
-PRUint32
+uint32_t
 GetSandboxFlags
 (
 )
@@ -833,7 +833,7 @@ mSandboxFlags
 void
 SetSandboxFlags
 (
-PRUint32
+uint32_t
 sandboxFlags
 )
 {
@@ -1109,7 +1109,7 @@ head
 ;
 }
 virtual
-PRInt32
+int32_t
 GetNumberOfStyleSheets
 (
 )
@@ -1122,7 +1122,7 @@ nsIStyleSheet
 *
 GetStyleSheetAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -1136,14 +1136,14 @@ InsertStyleSheetAt
 nsIStyleSheet
 *
 aSheet
-PRInt32
+int32_t
 aIndex
 )
 =
 0
 ;
 virtual
-PRInt32
+int32_t
 GetIndexOfStyleSheet
 (
 nsIStyleSheet
@@ -1210,7 +1210,7 @@ aApplicable
 0
 ;
 virtual
-PRInt32
+int32_t
 GetNumberOfCatalogStyleSheets
 (
 )
@@ -1223,7 +1223,7 @@ nsIStyleSheet
 *
 GetCatalogStyleSheetAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -1458,7 +1458,7 @@ GetInnerWindowInternal
 mWindow
 ;
 }
-PRUint64
+uint64_t
 OuterWindowID
 (
 )
@@ -1485,7 +1485,7 @@ WindowID
 0
 ;
 }
-PRUint64
+uint64_t
 InnerWindowID
 (
 )
@@ -2006,7 +2006,7 @@ PRUnichar
 *
 aEncoding
 const
-PRInt32
+int32_t
 aStandalone
 )
 =
@@ -2079,7 +2079,7 @@ aName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
 nsIContent
 *
@@ -2099,7 +2099,7 @@ return
 mSecurityInfo
 ;
 }
-PRInt32
+int32_t
 GetDefaultNamespaceID
 (
 )
@@ -2126,7 +2126,7 @@ nsPropertyTable
 *
 PropertyTable
 (
-PRUint16
+uint16_t
 aCategory
 )
 {
@@ -2148,7 +2148,7 @@ aCategory
 )
 ;
 }
-PRUint32
+uint32_t
 GetPropertyTableCount
 (
 )
@@ -2166,7 +2166,7 @@ Length
 void
 SetPartID
 (
-PRUint32
+uint32_t
 aID
 )
 {
@@ -2175,7 +2175,7 @@ mPartID
 aID
 ;
 }
-PRUint32
+uint32_t
 GetPartID
 (
 )
@@ -2516,7 +2516,7 @@ aTarget
 void
 MarkUncollectableForCCGeneration
 (
-PRUint32
+uint32_t
 aGeneration
 )
 {
@@ -2525,7 +2525,7 @@ mMarkedCCGeneration
 aGeneration
 ;
 }
-PRUint32
+uint32_t
 GetMarkedCCGeneration
 (
 )
@@ -3021,7 +3021,7 @@ virtual
 void
 SuppressEventHandling
 (
-PRUint32
+uint32_t
 aIncrease
 =
 1
@@ -3039,7 +3039,7 @@ aFireEvents
 =
 0
 ;
-PRUint32
+uint32_t
 EventHandlingSuppressed
 (
 )
@@ -3394,7 +3394,7 @@ ScheduleFrameRequestCallback
 nsIFrameRequestCallback
 *
 aCallback
-PRInt32
+int32_t
 *
 aHandle
 )
@@ -3402,7 +3402,7 @@ aHandle
 void
 CancelFrameRequestCallback
 (
-PRInt32
+int32_t
 aHandle
 )
 ;
@@ -3775,7 +3775,7 @@ mInSyncOperationCount
 }
 private
 :
-PRUint64
+uint64_t
 mWarnedAbout
 ;
 protected
@@ -3789,7 +3789,7 @@ nsPropertyTable
 *
 GetExtraPropertyTable
 (
-PRUint16
+uint16_t
 aCategory
 )
 ;
@@ -3924,7 +3924,7 @@ mDocumentContainer
 nsCString
 mCharacterSet
 ;
-PRInt32
+int32_t
 mCharacterSetSource
 ;
 nsIDocument
@@ -4110,10 +4110,10 @@ nsIDocument
 >
 mOriginalDocument
 ;
-PRUint32
+uint32_t
 mBidiOptions
 ;
-PRUint32
+uint32_t
 mSandboxFlags
 ;
 mozilla
@@ -4141,10 +4141,10 @@ nsISupports
 >
 mSecurityInfo
 ;
-PRUint32
+uint32_t
 mPartID
 ;
-PRUint32
+uint32_t
 mMarkedCCGeneration
 ;
 nsIPresShell
@@ -4157,7 +4157,7 @@ nsINode
 >
 mSubtreeModifiedTargets
 ;
-PRUint32
+uint32_t
 mSubtreeModifiedDepth
 ;
 nsCOMPtr
@@ -4166,13 +4166,13 @@ nsIDocument
 >
 mDisplayDocument
 ;
-PRUint32
+uint32_t
 mEventsSuppressed
 ;
-PRUint32
+uint32_t
 mExternalScriptsBeingEvaluated
 ;
-PRInt32
+int32_t
 mFrameRequestCallbackCounter
 ;
 nsPIDOMWindow
@@ -4193,7 +4193,7 @@ FrameRequest
 nsIFrameRequestCallback
 *
 aCallback
-PRInt32
+int32_t
 aHandle
 )
 :
@@ -4224,7 +4224,7 @@ operator
 =
 =
 (
-PRInt32
+int32_t
 aHandle
 )
 const
@@ -4240,7 +4240,7 @@ bool
 operator
 <
 (
-PRInt32
+int32_t
 aHandle
 )
 const
@@ -4257,7 +4257,7 @@ nsIFrameRequestCallback
 >
 mCallback
 ;
-PRInt32
+int32_t
 mHandle
 ;
 }
@@ -4287,10 +4287,10 @@ nsIVariant
 >
 mStateObjectCached
 ;
-PRUint8
+uint8_t
 mDefaultElementType
 ;
-PRUint32
+uint32_t
 mInSyncOperationCount
 ;
 }
@@ -4425,7 +4425,7 @@ nsIDocument
 >
 mDocuments
 ;
-PRUint32
+uint32_t
 mMicroTaskLevel
 ;
 }

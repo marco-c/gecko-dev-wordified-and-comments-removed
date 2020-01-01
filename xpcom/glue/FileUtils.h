@@ -172,7 +172,7 @@ fallocate
 PRFileDesc
 *
 aFD
-PRInt64
+int64_t
 aLength
 )
 ;

@@ -173,7 +173,7 @@ PrefCallback
 aKey
 )
 {
-PRUint32
+uint32_t
 hash
 =
 mozilla
@@ -628,7 +628,7 @@ nsPrefBranch
 (
 )
 ;
-PRInt32
+int32_t
 GetRootLength
 (
 )
@@ -727,7 +727,7 @@ aArgs
 ;
 private
 :
-PRInt32
+int32_t
 mPrefRootLength
 ;
 nsCString
@@ -808,7 +808,7 @@ aData
 NS_IMETHOD
 SetDataWithLength
 (
-PRUint32
+uint32_t
 aLength
 const
 PRUnichar

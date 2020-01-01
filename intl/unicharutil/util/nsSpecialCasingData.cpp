@@ -1283,14 +1283,14 @@ aElement
 )
 {
 const
-PRUint32
+uint32_t
 ch
 =
 *
 static_cast
 <
 const
-PRUint32
+uint32_t
 *
 >
 (
@@ -1343,7 +1343,7 @@ Special
 #
 which
 (
-PRUint32
+uint32_t
 aChar
 )
 \

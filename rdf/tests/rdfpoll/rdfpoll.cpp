@@ -585,7 +585,7 @@ aTarget
 nullptr
 )
 {
-PRInt32
+int32_t
 value
 ;
 number
@@ -1159,7 +1159,7 @@ argc
 )
 break
 ;
-PRInt32
+int32_t
 pollinterval
 =
 atol

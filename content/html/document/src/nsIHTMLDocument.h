@@ -118,7 +118,7 @@ RemovedForm
 0
 ;
 virtual
-PRInt32
+int32_t
 GetNumFormsSynchronous
 (
 )
@@ -158,7 +158,7 @@ ChangeContentEditableCount
 nsIContent
 *
 aElement
-PRInt32
+int32_t
 aChange
 )
 =

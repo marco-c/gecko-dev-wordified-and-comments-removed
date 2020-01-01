@@ -74,7 +74,7 @@ parent
 )
 return
 ;
-PRInt32
+int32_t
 indexInParent
 =
 aItem
@@ -84,7 +84,7 @@ IndexInParent
 (
 )
 ;
-PRUint32
+uint32_t
 siblingCount
 =
 parent
@@ -108,7 +108,7 @@ indexInParent
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 siblingCount
@@ -133,7 +133,7 @@ problem
 return
 ;
 }
-PRInt32
+int32_t
 level
 =
 nsAccUtils
@@ -150,7 +150,7 @@ mPosInSet
 ;
 for
 (
-PRInt32
+int32_t
 idx
 =
 indexInParent
@@ -229,7 +229,7 @@ INVISIBLE
 )
 continue
 ;
-PRInt32
+int32_t
 siblingLevel
 =
 nsAccUtils
@@ -315,7 +315,7 @@ mPosInSet
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 indexInParent
@@ -393,7 +393,7 @@ INVISIBLE
 )
 continue
 ;
-PRInt32
+int32_t
 siblingLevel
 =
 nsAccUtils

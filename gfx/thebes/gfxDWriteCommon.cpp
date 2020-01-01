@@ -99,7 +99,7 @@ gfxDWriteFontFileStream
 (
 FallibleTArray
 <
-PRUint8
+uint8_t
 >
 *
 aData

@@ -447,9 +447,9 @@ FileHelper
 :
 OnStreamProgress
 (
-PRUint64
+uint64_t
 aProgress
-PRUint64
+uint64_t
 aProgressMax
 )
 {

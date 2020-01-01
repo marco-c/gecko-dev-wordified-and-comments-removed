@@ -174,7 +174,7 @@ provided
 *
 /
 const
-PRUint32
+uint32_t
 LEVEL_NONE
 =
 0
@@ -199,7 +199,7 @@ insecure
 *
 /
 const
-PRUint32
+uint32_t
 LEVEL_PW_ENCRYPTED
 =
 1
@@ -221,7 +221,7 @@ secure
 *
 /
 const
-PRUint32
+uint32_t
 LEVEL_SECURE
 =
 2
@@ -388,7 +388,7 @@ in
 nsIChannel
 aChannel
 in
-PRUint32
+uint32_t
 level
 in
 nsIAuthInformation
@@ -700,7 +700,7 @@ in
 nsISupports
 aContext
 in
-PRUint32
+uint32_t
 level
 in
 nsIAuthInformation

@@ -445,7 +445,7 @@ GetLength
 (
 bool
 aCallerSecure
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -458,7 +458,7 @@ GetKey
 (
 bool
 aCallerSecure
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -529,7 +529,7 @@ Clear
 (
 bool
 aCallerSecure
-PRInt32
+int32_t
 *
 aOldCount
 )
@@ -786,7 +786,7 @@ GetLength
 (
 bool
 aCallerSecure
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -797,7 +797,7 @@ GetKey
 (
 bool
 aCallerSecure
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -860,7 +860,7 @@ Clear
 (
 bool
 aCallerSecure
-PRInt32
+int32_t
 *
 aOldCount
 )
@@ -870,7 +870,7 @@ CacheKeysFromDB
 (
 )
 ;
-PRUint64
+uint64_t
 CachedVersion
 (
 )
@@ -882,7 +882,7 @@ mItemsCachedVersion
 void
 SetCachedVersion
 (
-PRUint64
+uint64_t
 version
 )
 {
@@ -1030,7 +1030,7 @@ const
 nsACString
 &
 aQuotaETLDplus1DomainDBKey
-PRUint32
+uint32_t
 aStorageType
 )
 ;
@@ -1047,7 +1047,7 @@ InitDB
 (
 )
 ;
-PRUint64
+uint64_t
 mItemsCachedVersion
 ;
 nsTHashtable
@@ -1635,7 +1635,7 @@ void
 aResult
 )
 ;
-PRUint32
+uint32_t
 GetOfflinePermission
 (
 const

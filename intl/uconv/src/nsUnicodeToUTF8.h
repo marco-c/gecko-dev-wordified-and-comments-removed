@@ -80,13 +80,13 @@ const
 PRUnichar
 *
 aSrc
-PRInt32
+int32_t
 *
 aSrcLength
 char
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -97,7 +97,7 @@ Finish
 char
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -109,9 +109,9 @@ const
 PRUnichar
 *
 aSrc
-PRInt32
+int32_t
 aSrcLength
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -132,7 +132,7 @@ NS_OK
 NS_IMETHOD
 SetOutputErrorBehavior
 (
-PRInt32
+int32_t
 aBehavior
 nsIUnicharEncoder
 *

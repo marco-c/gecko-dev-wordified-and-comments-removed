@@ -573,7 +573,7 @@ dom
 NativeThreadId
 *
 id
-PRUint32
+uint32_t
 *
 processType
 )

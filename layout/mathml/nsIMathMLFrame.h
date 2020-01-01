@@ -155,9 +155,9 @@ TransmitAutomaticData
 NS_IMETHOD
 UpdatePresentationData
 (
-PRUint32
+uint32_t
 aFlagsValues
-PRUint32
+uint32_t
 aWhichFlags
 )
 =
@@ -166,13 +166,13 @@ aWhichFlags
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
 (
-PRInt32
+int32_t
 aFirstIndex
-PRInt32
+int32_t
 aLastIndex
-PRUint32
+uint32_t
 aFlagsValues
-PRUint32
+uint32_t
 aWhichFlags
 )
 =
@@ -183,7 +183,7 @@ aWhichFlags
 struct
 nsEmbellishData
 {
-PRUint32
+uint32_t
 flags
 ;
 nsIFrame
@@ -229,7 +229,7 @@ trailingSpace
 struct
 nsPresentationData
 {
-PRUint32
+uint32_t
 flags
 ;
 nsIFrame

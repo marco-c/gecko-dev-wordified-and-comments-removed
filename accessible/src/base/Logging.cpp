@@ -108,7 +108,7 @@ mozilla
 a11y
 ;
 static
-PRUint32
+uint32_t
 sModules
 =
 0
@@ -496,7 +496,7 @@ do_QueryInterface
 container
 )
 ;
-PRUint32
+uint32_t
 busyFlags
 =
 nsIDocShell
@@ -1351,7 +1351,7 @@ type
 "
 )
 ;
-PRUint32
+uint32_t
 loadType
 =
 0
@@ -1714,7 +1714,7 @@ get
 )
 )
 ;
-PRUint32
+uint32_t
 loadFlags
 =
 0
@@ -1894,7 +1894,7 @@ nsACString
 aEventType
 )
 {
-PRUint32
+uint32_t
 type
 =
 aEvent
@@ -2104,7 +2104,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 )
 {
@@ -2685,7 +2685,7 @@ aSelection
 )
 )
 ;
-PRInt16
+int16_t
 type
 =
 0
@@ -3183,7 +3183,7 @@ GetNodeParent
 (
 )
 ;
-PRInt32
+int32_t
 idxInParent
 =
 parentNode
@@ -3440,7 +3440,7 @@ logging
 :
 IsEnabled
 (
-PRUint32
+uint32_t
 aModules
 )
 {

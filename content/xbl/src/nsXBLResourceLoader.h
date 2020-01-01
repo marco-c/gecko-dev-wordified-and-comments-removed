@@ -218,7 +218,7 @@ mLoadingResources
 bool
 mInLoadResourcesFunc
 ;
-PRInt16
+int16_t
 mPendingSheets
 ;
 nsCOMArray

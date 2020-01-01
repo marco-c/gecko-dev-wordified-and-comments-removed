@@ -2590,7 +2590,7 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 nsISO2022CNToUnicode
 )
 const
-PRUint16
+uint16_t
 g_uf0201Mapping
 [
 ]
@@ -2606,7 +2606,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_uf0201GLMapping
 [
 ]
@@ -2622,7 +2622,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_uf0208Mapping
 [
 ]
@@ -2638,7 +2638,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_uf0208extMapping
 [
 ]
@@ -2654,7 +2654,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufCNS1MappingTable
 [
 ]
@@ -2670,7 +2670,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufCNS2MappingTable
 [
 ]
@@ -2686,7 +2686,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufCNS3MappingTable
 [
 ]
@@ -2702,7 +2702,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufCNS4MappingTable
 [
 ]
@@ -2718,7 +2718,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufCNS5MappingTable
 [
 ]
@@ -2734,7 +2734,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufCNS6MappingTable
 [
 ]
@@ -2750,7 +2750,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufCNS7MappingTable
 [
 ]
@@ -2766,7 +2766,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_utCNS1MappingTable
 [
 ]
@@ -2782,7 +2782,7 @@ ut
 }
 ;
 const
-PRUint16
+uint16_t
 g_utCNS2MappingTable
 [
 ]
@@ -2798,7 +2798,7 @@ ut
 }
 ;
 const
-PRUint16
+uint16_t
 g_utCNS3MappingTable
 [
 ]
@@ -2814,7 +2814,7 @@ ut
 }
 ;
 const
-PRUint16
+uint16_t
 g_utCNS4MappingTable
 [
 ]
@@ -2830,7 +2830,7 @@ ut
 }
 ;
 const
-PRUint16
+uint16_t
 g_utCNS5MappingTable
 [
 ]
@@ -2846,7 +2846,7 @@ ut
 }
 ;
 const
-PRUint16
+uint16_t
 g_utCNS6MappingTable
 [
 ]
@@ -2862,7 +2862,7 @@ ut
 }
 ;
 const
-PRUint16
+uint16_t
 g_utCNS7MappingTable
 [
 ]
@@ -2878,7 +2878,7 @@ ut
 }
 ;
 const
-PRUint16
+uint16_t
 g_ASCIIMappingTable
 [
 ]
@@ -2895,7 +2895,7 @@ g_ASCIIMappingTable
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufBig5Mapping
 [
 ]
@@ -2911,7 +2911,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_utBIG5Mapping
 [
 ]
@@ -2927,7 +2927,7 @@ ut
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufBig5HKSCSMapping
 [
 ]
@@ -2943,7 +2943,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_ASCIIMapping
 [
 ]
@@ -2960,7 +2960,7 @@ g_ASCIIMapping
 }
 ;
 const
-PRUint16
+uint16_t
 g_utBig5HKSCSMapping
 [
 ]
@@ -2976,7 +2976,7 @@ ut
 }
 ;
 const
-PRUint16
+uint16_t
 g_utKSC5601Mapping
 [
 ]
@@ -2992,7 +2992,7 @@ ut
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufKSC5601Mapping
 [
 ]
@@ -3008,7 +3008,7 @@ uf
 }
 ;
 const
-PRUint16
+uint16_t
 g_ucvko_AsciiMapping
 [
 ]
@@ -3025,7 +3025,7 @@ g_ucvko_AsciiMapping
 }
 ;
 const
-PRUint16
+uint16_t
 g_HangulNullMapping
 [
 ]
@@ -3042,7 +3042,7 @@ g_HangulNullMapping
 }
 ;
 const
-PRUint16
+uint16_t
 g_ufJohabJamoMapping
 [
 ]

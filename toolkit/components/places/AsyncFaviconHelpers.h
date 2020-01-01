@@ -95,7 +95,7 @@ char
 (
 const_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -111,7 +111,7 @@ _string
 \
 reinterpret_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -193,7 +193,7 @@ PR_TRUE
 )
 ;
 }
-PRInt64
+int64_t
 id
 ;
 nsCString
@@ -212,7 +212,7 @@ enum
 AsyncFaviconFetchMode
 fetchMode
 ;
-PRUint16
+uint16_t
 status
 ;
 nsCString
@@ -248,7 +248,7 @@ true
 )
 ;
 }
-PRInt64
+int64_t
 id
 ;
 nsCString
@@ -263,7 +263,7 @@ revHost
 bool
 canAddToHistory
 ;
-PRInt64
+int64_t
 iconId
 ;
 nsCString

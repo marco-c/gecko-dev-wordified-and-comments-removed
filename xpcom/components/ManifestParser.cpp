@@ -647,7 +647,7 @@ LogMessageWithContext
 FileLocation
 &
 aFile
-PRUint32
+uint32_t
 aLineNumber
 const
 char
@@ -1289,7 +1289,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 comparison
 ;
 nsAutoString
@@ -1496,7 +1496,7 @@ aResult
 eOK
 )
 {
-PRInt32
+int32_t
 c
 =
 mozilla
@@ -2196,7 +2196,7 @@ newline
 =
 buf
 ;
-PRUint32
+uint32_t
 line
 =
 0
@@ -3095,7 +3095,7 @@ argv
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

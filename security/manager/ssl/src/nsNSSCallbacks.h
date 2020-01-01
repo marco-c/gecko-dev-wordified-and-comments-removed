@@ -130,18 +130,18 @@ mResultCode
 bool
 mHttpRequestSucceeded
 ;
-PRUint16
+uint16_t
 mHttpResponseCode
 ;
 nsCString
 mHttpResponseContentType
 ;
 const
-PRUint8
+uint8_t
 *
 mResultData
 ;
-PRUint32
+uint32_t
 mResultLen
 ;
 mozilla
@@ -193,7 +193,7 @@ public
 nsCString
 mHost
 ;
-PRUint16
+uint16_t
 mPort
 ;
 static
@@ -204,7 +204,7 @@ const
 char
 *
 host
-PRUint16
+uint16_t
 portnum
 SEC_HTTP_SERVER_SESSION
 *
@@ -218,7 +218,7 @@ nsNSSHttpRequestSession
 {
 protected
 :
-PRInt32
+int32_t
 mRefCount
 ;
 public
@@ -257,7 +257,7 @@ char
 *
 http_data
 const
-PRUint32
+uint32_t
 http_data_len
 const
 char
@@ -285,7 +285,7 @@ PRPollDesc
 *
 *
 pPollDesc
-PRUint16
+uint16_t
 *
 http_response_code
 const
@@ -303,7 +303,7 @@ char
 *
 *
 http_response_data
-PRUint32
+uint32_t
 *
 http_response_data_len
 )
@@ -373,7 +373,7 @@ PRPollDesc
 *
 *
 pPollDesc
-PRUint16
+uint16_t
 *
 http_response_code
 const
@@ -391,7 +391,7 @@ char
 *
 *
 http_response_data
-PRUint32
+uint32_t
 *
 http_response_data_len
 )
@@ -411,7 +411,7 @@ const
 char
 *
 host
-PRUint16
+uint16_t
 portnum
 SEC_HTTP_SERVER_SESSION
 *
@@ -520,7 +520,7 @@ char
 *
 http_data
 const
-PRUint32
+uint32_t
 http_data_len
 const
 char
@@ -591,7 +591,7 @@ PRPollDesc
 *
 *
 pPollDesc
-PRUint16
+uint16_t
 *
 http_response_code
 const
@@ -609,7 +609,7 @@ char
 *
 *
 http_response_data
-PRUint32
+uint32_t
 *
 http_response_data_len
 )

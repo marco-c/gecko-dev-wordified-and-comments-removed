@@ -110,13 +110,13 @@ aHeight
 }
 ShaderConstantRect
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 :
@@ -152,9 +152,9 @@ aHeight
 }
 ShaderConstantRect
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 float
 aWidth
@@ -350,7 +350,7 @@ mDeviceManager
 return
 false
 ;
-PRInt32
+int32_t
 maxSize
 =
 mDeviceManager
@@ -372,7 +372,7 @@ maxSize
 ;
 }
 virtual
-PRInt32
+int32_t
 GetMaxTextureSize
 (
 )
@@ -721,7 +721,7 @@ mCurrentCallbackInfo
 nsIntRegion
 mClippingRegion
 ;
-PRUint32
+uint32_t
 mDeviceResetCount
 ;
 bool

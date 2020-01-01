@@ -105,7 +105,7 @@ static
 nsresult
 GetMenuAccessKey
 (
-PRInt32
+int32_t
 *
 aAccessKey
 )
@@ -129,7 +129,7 @@ InitAccessKey
 )
 ;
 static
-PRUint32
+uint32_t
 GetModifiers
 (
 nsIDOMKeyEvent
@@ -157,11 +157,11 @@ bool
 mAccessKeyFocuses
 ;
 static
-PRInt32
+int32_t
 mAccessKey
 ;
 static
-PRUint32
+uint32_t
 mAccessKeyMask
 ;
 }

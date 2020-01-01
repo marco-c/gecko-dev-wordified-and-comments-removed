@@ -120,7 +120,7 @@ ImageData
 :
 GetWidth
 (
-PRUint32
+uint32_t
 *
 aWidth
 )
@@ -142,7 +142,7 @@ ImageData
 :
 GetHeight
 (
-PRUint32
+uint32_t
 *
 aHeight
 )

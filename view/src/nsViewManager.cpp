@@ -216,7 +216,7 @@ return
 sRefreshDriverPaintingEnabled
 ;
 }
-PRInt32
+int32_t
 nsViewManager
 :
 :
@@ -233,7 +233,7 @@ gViewManagers
 =
 nullptr
 ;
-PRUint32
+uint32_t
 nsViewManager
 :
 :
@@ -2603,7 +2603,7 @@ clipRects
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2974,7 +2974,7 @@ displayRoot
 )
 )
 ;
-PRInt32
+int32_t
 rootAPD
 =
 displayRootVM
@@ -2984,7 +2984,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-PRInt32
+int32_t
 APD
 =
 AppUnitsPerDevPixel
@@ -4300,7 +4300,7 @@ parent
 }
 #
 else
-PRInt32
+int32_t
 zIndex
 =
 child
@@ -4318,7 +4318,7 @@ nullptr
 kid
 )
 {
-PRInt32
+int32_t
 idx
 =
 kid
@@ -4455,7 +4455,7 @@ aParent
 nsIView
 *
 aChild
-PRInt32
+int32_t
 aZIndex
 )
 {
@@ -5537,7 +5537,7 @@ nsIView
 aView
 bool
 aAutoZIndex
-PRInt32
+int32_t
 aZIndex
 bool
 aTopMost
@@ -5617,7 +5617,7 @@ aZIndex
 0
 ;
 }
-PRInt32
+int32_t
 oldidx
 =
 view
@@ -6119,7 +6119,7 @@ called
 "
 )
 ;
-PRInt32
+int32_t
 index
 ;
 for
@@ -6287,7 +6287,7 @@ nsViewManager
 :
 GetLastUserEventTime
 (
-PRUint32
+uint32_t
 &
 aTime
 )

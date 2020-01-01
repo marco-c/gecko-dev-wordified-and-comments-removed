@@ -150,7 +150,7 @@ NS_IMPL_ISUPPORTS1
 nsTransferable
 nsITransferable
 )
-PRUint32
+uint32_t
 GetDataForFlavor
 (
 const
@@ -168,7 +168,7 @@ aDataFlavor
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -242,7 +242,7 @@ SetData
 nsISupports
 *
 aData
-PRUint32
+uint32_t
 aDataLen
 )
 {
@@ -304,7 +304,7 @@ nsISupports
 *
 *
 aData
-PRUint32
+uint32_t
 *
 aDataLen
 )
@@ -479,7 +479,7 @@ WriteCache
 nsISupports
 *
 aData
-PRUint32
+uint32_t
 aDataLen
 )
 {
@@ -581,7 +581,7 @@ if
 buff
 )
 {
-PRUint32
+uint32_t
 ignored
 ;
 outStr
@@ -629,7 +629,7 @@ nsISupports
 *
 *
 aData
-PRUint32
+uint32_t
 *
 aDataLen
 )
@@ -681,10 +681,10 @@ exists
 exists
 )
 {
-PRInt64
+int64_t
 fileSize
 ;
-PRInt64
+int64_t
 max32
 (
 LL_INIT
@@ -715,7 +715,7 @@ max32
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 size
 ;
 LL_L2UI
@@ -948,7 +948,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1048,7 +1048,7 @@ nsISupports
 *
 *
 aData
-PRUint32
+uint32_t
 *
 aDataLen
 )
@@ -1080,7 +1080,7 @@ nsISupports
 >
 savedData
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1133,7 +1133,7 @@ nsISupports
 >
 dataBytes
 ;
-PRUint32
+uint32_t
 len
 ;
 data
@@ -1312,7 +1312,7 @@ nsISupports
 >
 dataBytes
 ;
-PRUint32
+uint32_t
 len
 ;
 data
@@ -1453,7 +1453,7 @@ nsISupports
 *
 *
 aData
-PRUint32
+uint32_t
 *
 aDataLen
 )
@@ -1476,7 +1476,7 @@ aDataLen
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1556,7 +1556,7 @@ aFlavor
 nsISupports
 *
 aData
-PRUint32
+uint32_t
 aDataLen
 )
 {
@@ -1570,7 +1570,7 @@ NS_ENSURE_ARG
 aFlavor
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -1702,7 +1702,7 @@ nsISupports
 >
 ConvertedData
 ;
-PRUint32
+uint32_t
 ConvertedLen
 ;
 mFormatConv
@@ -1836,7 +1836,7 @@ MOZ_ASSERT
 mInitialized
 )
 ;
-PRUint32
+uint32_t
 idx
 ;
 if
@@ -2031,7 +2031,7 @@ if
 convertedList
 )
 {
-PRUint32
+uint32_t
 importListLen
 ;
 convertedList
@@ -2045,7 +2045,7 @@ importListLen
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2203,7 +2203,7 @@ if
 convertedList
 )
 {
-PRUint32
+uint32_t
 importListLen
 ;
 convertedList
@@ -2217,7 +2217,7 @@ importListLen
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

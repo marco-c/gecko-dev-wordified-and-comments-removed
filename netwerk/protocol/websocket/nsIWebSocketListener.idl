@@ -474,7 +474,7 @@ in
 nsISupports
 aContext
 in
-PRUint32
+uint32_t
 aSize
 )
 ;

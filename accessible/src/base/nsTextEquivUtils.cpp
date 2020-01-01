@@ -690,7 +690,7 @@ rv
 =
 NS_OK_NO_NAME_CLAUSE_HANDLED
 ;
-PRUint32
+uint32_t
 childCount
 =
 aAccessible
@@ -702,7 +702,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -857,7 +857,7 @@ if
 isEmptyTextEquiv
 )
 {
-PRUint32
+uint32_t
 nameRule
 =
 GetRoleRule
@@ -1496,7 +1496,7 @@ aChar
 0xa0
 ;
 }
-PRUint32
+uint32_t
 nsTextEquivUtils
 :
 :

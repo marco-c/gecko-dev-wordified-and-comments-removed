@@ -64,7 +64,7 @@ const
 gfxRect
 &
 nativeRect
-PRUint32
+uint32_t
 nativeDrawFlags
 )
 :
@@ -477,7 +477,7 @@ mTempSurfaceSize
 gfxIntSize
 (
 (
-PRInt32
+int32_t
 )
 ceil
 (
@@ -490,7 +490,7 @@ Width
 1
 )
 (
-PRInt32
+int32_t
 )
 ceil
 (
@@ -575,7 +575,7 @@ mTempSurfaceSize
 gfxIntSize
 (
 (
-PRInt32
+int32_t
 )
 ceil
 (
@@ -592,7 +592,7 @@ width
 1
 )
 (
-PRInt32
+int32_t
 )
 ceil
 (

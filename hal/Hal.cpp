@@ -2524,9 +2524,9 @@ void_t
 bool
 SetAlarm
 (
-PRInt32
+int32_t
 aSeconds
-PRInt32
+int32_t
 aNanoseconds
 )
 {

@@ -334,10 +334,10 @@ aGetInsertedText
 nsAString
 &
 aText
-PRUint32
+uint32_t
 *
 aStartOffset
-PRUint32
+uint32_t
 *
 aEndOffset
 )

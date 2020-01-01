@@ -117,7 +117,7 @@ const
 nsRect
 *
 aRect
-PRInt32
+int32_t
 aAppUnitsPerCSSPx
 const
 gfxMatrix
@@ -228,7 +228,7 @@ NS_FRAME_SVG_LAYOUT
 )
 )
 {
-PRInt32
+int32_t
 appUnitsPerCSSPx
 =
 aFrame
@@ -492,7 +492,7 @@ GetFilterContent
 (
 )
 ;
-PRUint16
+uint16_t
 filterUnits
 =
 aFilterFrame
@@ -506,7 +506,7 @@ nsSVGFilterElement
 FILTERUNITS
 )
 ;
-PRUint16
+uint16_t
 primitiveUnits
 =
 aFilterFrame
@@ -716,7 +716,7 @@ IsExplicitlySet
 )
 )
 {
-PRInt32
+int32_t
 filterResX
 =
 filterResAttrs
@@ -730,7 +730,7 @@ nsSVGIntegerPair
 eFirst
 )
 ;
-PRInt32
+int32_t
 filterResY
 =
 filterResAttrs
@@ -959,7 +959,7 @@ FOR_PAINTING
 )
 ;
 }
-PRInt32
+int32_t
 appUnitsPerCSSPx
 =
 aTarget
@@ -1088,13 +1088,13 @@ primitiveUnits
 )
 ;
 }
-PRUint16
+uint16_t
 nsSVGFilterFrame
 :
 :
 GetEnumValue
 (
-PRUint32
+uint32_t
 aIndex
 nsIContent
 *
@@ -1189,7 +1189,7 @@ nsSVGFilterFrame
 :
 GetIntegerPairValue
 (
-PRUint32
+uint32_t
 aIndex
 nsIContent
 *
@@ -1280,7 +1280,7 @@ nsSVGFilterFrame
 :
 GetLengthValue
 (
-PRUint32
+uint32_t
 aIndex
 nsIContent
 *
@@ -1749,12 +1749,12 @@ nsSVGFilterFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {

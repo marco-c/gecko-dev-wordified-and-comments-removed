@@ -942,7 +942,7 @@ aImage
 key
 :
 (
-PRUint32
+uint32_t
 )
 aKey
 cookie
@@ -1103,7 +1103,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK
 }
 -
 (
-PRUint32
+uint32_t
 )
 addObserver
 :

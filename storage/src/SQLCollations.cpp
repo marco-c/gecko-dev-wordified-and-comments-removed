@@ -40,7 +40,7 @@ const
 void
 *
 aStr2
-PRInt32
+int32_t
 aComparisonStrength
 )
 {
@@ -117,7 +117,7 @@ const
 void
 *
 aStr2
-PRInt32
+int32_t
 aComparisonStrength
 )
 {

@@ -69,7 +69,7 @@ nsDOMProgressEvent
 :
 GetLoaded
 (
-PRUint64
+uint64_t
 *
 aLoaded
 )
@@ -89,7 +89,7 @@ nsDOMProgressEvent
 :
 GetTotal
 (
-PRUint64
+uint64_t
 *
 aTotal
 )
@@ -119,9 +119,9 @@ bool
 aCancelable
 bool
 aLengthComputable
-PRUint64
+uint64_t
 aLoaded
-PRUint64
+uint64_t
 aTotal
 )
 {

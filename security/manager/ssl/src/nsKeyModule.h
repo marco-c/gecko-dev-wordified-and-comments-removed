@@ -139,7 +139,7 @@ nsKeyObject
 &
 )
 ;
-PRUint32
+uint32_t
 mKeyType
 ;
 PK11SymKey

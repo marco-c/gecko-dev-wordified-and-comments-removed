@@ -141,10 +141,10 @@ data
 4096
 ]
 ;
-PRUint64
+uint64_t
 avail64
 ;
-PRUint32
+uint32_t
 avail
 ;
 nsresult
@@ -170,13 +170,13 @@ rv
 avail
 =
 (
-PRUint32
+uint32_t
 )
 NS_MIN
 (
 avail64
 (
-PRUint64
+uint64_t
 )
 sizeof
 (
@@ -184,7 +184,7 @@ data
 )
 )
 ;
-PRUint32
+uint32_t
 n
 ;
 rv
@@ -275,7 +275,7 @@ const
 nsCSubstring
 &
 host
-PRUint32
+uint32_t
 port
 )
 :
@@ -729,7 +729,7 @@ NS_ENSURE_STATE
 mSocketOutput
 )
 ;
-PRUint32
+uint32_t
 len
 =
 command
@@ -738,7 +738,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 cnt
 ;
 nsresult

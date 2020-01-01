@@ -229,7 +229,7 @@ static
 nsresult
 IsDescendedFrom
 (
-PRUint32
+uint32_t
 wpsFilePtr
 const
 char
@@ -423,13 +423,13 @@ ext
 8
 ]
 ;
-PRUint32
+uint32_t
 icon
 ;
-PRUint32
+uint32_t
 mini
 ;
-PRUint32
+uint32_t
 handler
 ;
 PRUnichar
@@ -470,7 +470,7 @@ char
 aExt
 bool
 aNeedMini
-PRUint32
+uint32_t
 *
 oIcon
 )
@@ -484,7 +484,7 @@ char
 aExt
 bool
 aIsMini
-PRUint32
+uint32_t
 aIcon
 )
 ;
@@ -495,7 +495,7 @@ const
 char
 *
 aExt
-PRUint32
+uint32_t
 *
 oHandle
 nsAString
@@ -510,7 +510,7 @@ const
 char
 *
 aExt
-PRUint32
+uint32_t
 aHandle
 nsAString
 &
@@ -538,16 +538,16 @@ aSet
 false
 )
 ;
-PRUint32
+uint32_t
 mPid
 ;
-PRUint32
+uint32_t
 mMutex
 ;
-PRUint32
+uint32_t
 mCount
 ;
-PRUint32
+uint32_t
 mSize
 ;
 ExtInfo
@@ -619,7 +619,7 @@ char
 aExt
 bool
 aNeedMini
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -743,7 +743,7 @@ bool
 aAbstract
 bool
 aNeedMini
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -765,7 +765,7 @@ _retval
 return
 NS_ERROR_INVALID_ARG
 ;
-PRUint32
+uint32_t
 rwsType
 ;
 if
@@ -798,7 +798,7 @@ RwsConvert
 (
 rwsType
 (
-PRUint32
+uint32_t
 )
 aPath
 _retval
@@ -811,11 +811,11 @@ nsRwsService
 :
 IconFromHandle
 (
-PRUint32
+uint32_t
 aHandle
 bool
 aNeedMini
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -853,7 +853,7 @@ nsRwsService
 :
 TitleFromHandle
 (
-PRUint32
+uint32_t
 aHandle
 nsAString
 &
@@ -887,7 +887,7 @@ const
 char
 *
 aExt
-PRUint32
+uint32_t
 *
 aHandle
 nsAString
@@ -1009,7 +1009,7 @@ const
 char
 *
 aPath
-PRUint32
+uint32_t
 *
 aHandle
 nsAString
@@ -1044,7 +1044,7 @@ pHdr
 =
 0
 ;
-PRUint32
+uint32_t
 rc
 ;
 _retval
@@ -1091,7 +1091,7 @@ rc
 wpQueryDefaultView
 "
 )
-PRUint32
+uint32_t
 defView
 =
 sRwsGetResult
@@ -1107,7 +1107,7 @@ defView
 =
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -1125,7 +1125,7 @@ defView
 =
 4
 ;
-PRUint32
+uint32_t
 wpsFilePtr
 =
 sRwsGetResult
@@ -1266,7 +1266,7 @@ aHandle
 *
 (
 (
-PRUint32
+uint32_t
 *
 )
 pRtn
@@ -1275,7 +1275,7 @@ pRtn
 pget
 )
 ;
-PRUint32
+uint32_t
 wpsPgmPtr
 =
 pRtn
@@ -1673,7 +1673,7 @@ break
 nsAutoChar16Buffer
 buffer
 ;
-PRInt32
+int32_t
 bufLength
 ;
 rv
@@ -1818,7 +1818,7 @@ pHdr
 =
 0
 ;
-PRUint32
+uint32_t
 type
 =
 (
@@ -1829,7 +1829,7 @@ RWSI_OFTITLE
 RWSI_OPATH
 )
 ;
-PRUint32
+uint32_t
 rc
 ;
 POINTL
@@ -1968,7 +1968,7 @@ const
 char
 *
 aFilePath
-PRUint32
+uint32_t
 aAppHandle
 )
 {
@@ -1999,7 +1999,7 @@ pHdr
 =
 0
 ;
-PRUint32
+uint32_t
 rc
 ;
 rc
@@ -2094,7 +2094,7 @@ pHdr
 =
 0
 ;
-PRUint32
+uint32_t
 rc
 ;
 rc
@@ -2147,11 +2147,11 @@ nsRwsService
 :
 RwsConvert
 (
-PRUint32
+uint32_t
 type
-PRUint32
+uint32_t
 value
-PRUint32
+uint32_t
 *
 result
 )
@@ -2171,7 +2171,7 @@ result
 =
 0
 ;
-PRUint32
+uint32_t
 rc
 =
 sRwsCall
@@ -2220,7 +2220,7 @@ result
 =
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -2251,9 +2251,9 @@ nsRwsService
 :
 RwsConvert
 (
-PRUint32
+uint32_t
 type
-PRUint32
+uint32_t
 value
 nsAString
 &
@@ -2276,7 +2276,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 rc
 =
 sRwsCall
@@ -2388,7 +2388,7 @@ application
 0
 )
 {
-PRUint32
+uint32_t
 rc
 =
 sRwsClientTerminate
@@ -2427,7 +2427,7 @@ static
 nsresult
 IsDescendedFrom
 (
-PRUint32
+uint32_t
 wpsFilePtr
 const
 char
@@ -2445,7 +2445,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 rc
 =
 sRwsCall
@@ -2876,7 +2876,7 @@ result
 nsAutoChar16Buffer
 buffer
 ;
-PRInt32
+int32_t
 bufLength
 ;
 if
@@ -3094,7 +3094,7 @@ ppib
 >
 pib_ulpid
 ;
-PRUint32
+uint32_t
 rc
 =
 DosCreateMutexSem
@@ -3142,12 +3142,12 @@ char
 aExt
 bool
 aNeedMini
-PRUint32
+uint32_t
 *
 oIcon
 )
 {
-PRUint32
+uint32_t
 rc
 =
 DosRequestMutexSem
@@ -3255,11 +3255,11 @@ char
 aExt
 bool
 aIsMini
-PRUint32
+uint32_t
 aIcon
 )
 {
-PRUint32
+uint32_t
 rc
 =
 DosRequestMutexSem
@@ -3399,7 +3399,7 @@ const
 char
 *
 aExt
-PRUint32
+uint32_t
 *
 oHandle
 nsAString
@@ -3407,7 +3407,7 @@ nsAString
 oTitle
 )
 {
-PRUint32
+uint32_t
 rc
 =
 DosRequestMutexSem
@@ -3512,14 +3512,14 @@ const
 char
 *
 aExt
-PRUint32
+uint32_t
 aHandle
 nsAString
 &
 aTitle
 )
 {
-PRUint32
+uint32_t
 rc
 =
 DosRequestMutexSem
@@ -3753,7 +3753,7 @@ ExtInfo
 *
 info
 ;
-PRUint32
+uint32_t
 ctr
 ;
 for
@@ -3799,7 +3799,7 @@ mCount
 mSize
 )
 {
-PRUint32
+uint32_t
 newSize
 =
 mSize
@@ -3894,7 +3894,7 @@ mExtInfo
 )
 return
 ;
-PRUint32
+uint32_t
 rc
 =
 DosRequestMutexSem
@@ -3918,7 +3918,7 @@ DosRequestMutexSem
 return
 ;
 }
-PRUint32
+uint32_t
 saveMutex
 =
 mMutex
@@ -3927,7 +3927,7 @@ mMutex
 =
 0
 ;
-PRUint32
+uint32_t
 ctr
 ;
 ExtInfo
@@ -4216,7 +4216,7 @@ errBuf
 HMODULE
 hmod
 ;
-PRUint32
+uint32_t
 rc
 =
 1
@@ -4608,10 +4608,10 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-PRUint32
+uint32_t
 currentTO
 ;
-PRUint32
+uint32_t
 userTO
 ;
 rc

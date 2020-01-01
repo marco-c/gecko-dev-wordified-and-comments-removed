@@ -3802,16 +3802,16 @@ mFilename
 nsString
 mLine
 ;
-PRUint32
+uint32_t
 mLineNumber
 ;
-PRUint32
+uint32_t
 mColumnNumber
 ;
-PRUint32
+uint32_t
 mFlags
 ;
-PRUint32
+uint32_t
 mErrorNumber
 ;
 public
@@ -3833,13 +3833,13 @@ const
 nsString
 &
 aLine
-PRUint32
+uint32_t
 aLineNumber
-PRUint32
+uint32_t
 aColumnNumber
-PRUint32
+uint32_t
 aFlags
-PRUint32
+uint32_t
 aErrorNumber
 )
 :
@@ -3932,7 +3932,7 @@ GetJSObject
 :
 nullptr
 ;
-PRUint64
+uint64_t
 innerWindowId
 ;
 WorkerPrivate
@@ -4077,15 +4077,15 @@ const
 nsString
 &
 aLine
-PRUint32
+uint32_t
 aLineNumber
-PRUint32
+uint32_t
 aColumnNumber
-PRUint32
+uint32_t
 aFlags
-PRUint32
+uint32_t
 aErrorNumber
-PRUint64
+uint64_t
 aInnerWindowId
 )
 {
@@ -4836,7 +4836,7 @@ Dispatch
 nsIRunnable
 *
 aRunnable
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -5061,7 +5061,7 @@ SetTimeout
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aDelayMS
 )
 {
@@ -5242,7 +5242,7 @@ UpdateJSContextOptionsRunnable
 public
 WorkerControlRunnable
 {
-PRUint32
+uint32_t
 mOptions
 ;
 public
@@ -5252,7 +5252,7 @@ UpdateJSContextOptionsRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-PRUint32
+uint32_t
 aOptions
 )
 :
@@ -5300,7 +5300,7 @@ UpdateJSRuntimeHeapSizeRunnable
 public
 WorkerControlRunnable
 {
-PRUint32
+uint32_t
 mJSRuntimeHeapSize
 ;
 public
@@ -5310,7 +5310,7 @@ UpdateJSRuntimeHeapSizeRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-PRUint32
+uint32_t
 aJSRuntimeHeapSize
 )
 :
@@ -5361,7 +5361,7 @@ UpdateGCZealRunnable
 public
 WorkerControlRunnable
 {
-PRUint8
+uint8_t
 mGCZeal
 ;
 public
@@ -5371,7 +5371,7 @@ UpdateGCZealRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-PRUint8
+uint8_t
 aGCZeal
 )
 :
@@ -6390,7 +6390,7 @@ aClosure
 NS_IMETHOD
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 aAmount
 )
@@ -7538,10 +7538,10 @@ mInterval
 nsCString
 mFilename
 ;
-PRUint32
+uint32_t
 mLineNumber
 ;
-PRUint32
+uint32_t
 mId
 ;
 bool
@@ -8356,7 +8356,7 @@ runnables
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -9171,7 +9171,7 @@ template
 class
 Derived
 >
-PRUint64
+uint64_t
 WorkerPrivateParent
 <
 Derived
@@ -9216,7 +9216,7 @@ UpdateJSContextOptions
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aOptions
 )
 {
@@ -9292,7 +9292,7 @@ UpdateJSRuntimeHeapSize
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aMaxBytes
 )
 {
@@ -9371,7 +9371,7 @@ UpdateGCZeal
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aGCZeal
 )
 {
@@ -9832,7 +9832,7 @@ Truncate
 )
 ;
 }
-PRInt32
+int32_t
 port
 ;
 if
@@ -12639,7 +12639,7 @@ Release
 ;
 }
 }
-PRUint32
+uint32_t
 WorkerPrivate
 :
 :
@@ -12701,7 +12701,7 @@ PR_UINT32_MAX
 ?
 PR_UINT32_MAX
 :
-PRUint32
+uint32_t
 (
 ms
 )
@@ -12792,7 +12792,7 @@ AssertIsOnWorkerThread
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -12835,7 +12835,7 @@ value
 ;
 for
 (
-PRUint32
+uint32_t
 index2
 =
 0
@@ -13338,7 +13338,7 @@ mFeatures
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -13402,7 +13402,7 @@ mChildWorkers
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -13523,7 +13523,7 @@ timer
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -13604,7 +13604,7 @@ mTimer
 nullptr
 ;
 }
-PRUint32
+uint32_t
 WorkerPrivate
 :
 :
@@ -13664,7 +13664,7 @@ RunSyncLoop
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aSyncLoopKey
 )
 {
@@ -13917,7 +13917,7 @@ WorkerPrivate
 :
 StopSyncLoop
 (
-PRUint32
+uint32_t
 aSyncLoopKey
 bool
 aSyncResult
@@ -14430,7 +14430,7 @@ status
 "
 )
 ;
-PRUint32
+uint32_t
 killSeconds
 =
 RuntimeService
@@ -14712,7 +14712,7 @@ message
 filename
 line
 ;
-PRUint32
+uint32_t
 lineNumber
 columnNumber
 flags
@@ -14919,7 +14919,7 @@ Huh
 )
 ;
 const
-PRUint32
+uint32_t
 timerId
 =
 mNextTimeoutId
@@ -15321,7 +15321,7 @@ char
 *
 filenameChars
 ;
-PRUint32
+uint32_t
 lineNumber
 ;
 if
@@ -15598,7 +15598,7 @@ Huh
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -15778,7 +15778,7 @@ expiredTimeouts
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -15835,7 +15835,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -16032,7 +16032,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -16298,7 +16298,7 @@ ToMilliseconds
 (
 )
 ;
-PRUint32
+uint32_t
 delay
 =
 delta
@@ -16370,7 +16370,7 @@ UpdateJSContextOptionsInternal
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aOptions
 )
 {
@@ -16386,7 +16386,7 @@ aOptions
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -16427,7 +16427,7 @@ UpdateJSRuntimeHeapSizeInternal
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aMaxBytes
 )
 {
@@ -16447,7 +16447,7 @@ aMaxBytes
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -16491,7 +16491,7 @@ UpdateGCZealInternal
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aGCZeal
 )
 {
@@ -16499,7 +16499,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-PRUint32
+uint32_t
 frequency
 =
 aGCZeal
@@ -16520,7 +16520,7 @@ frequency
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -16636,7 +16636,7 @@ aCollectChildren
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

@@ -43,9 +43,9 @@ mGroupSize
 }
 txDecimalCounter
 (
-PRInt32
+int32_t
 aMinLength
-PRInt32
+int32_t
 aGroupSize
 const
 nsAString
@@ -57,7 +57,7 @@ virtual
 void
 appendNumber
 (
-PRInt32
+int32_t
 aNumber
 nsAString
 &
@@ -66,10 +66,10 @@ aDest
 ;
 private
 :
-PRInt32
+int32_t
 mMinLength
 ;
-PRInt32
+int32_t
 mGroupSize
 ;
 nsString
@@ -101,7 +101,7 @@ virtual
 void
 appendNumber
 (
-PRInt32
+int32_t
 aNumber
 nsAString
 &
@@ -142,7 +142,7 @@ aUpper
 void
 appendNumber
 (
-PRInt32
+int32_t
 aNumber
 nsAString
 &
@@ -151,7 +151,7 @@ aDest
 ;
 private
 :
-PRInt32
+int32_t
 mTableOffset
 ;
 }
@@ -166,7 +166,7 @@ const
 nsAFlatString
 &
 aToken
-PRInt32
+int32_t
 aGroupSize
 const
 nsAString
@@ -178,7 +178,7 @@ txFormattedCounter
 aCounter
 )
 {
-PRInt32
+int32_t
 length
 =
 aToken
@@ -299,7 +299,7 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRInt32
+int32_t
 i
 ;
 for
@@ -396,9 +396,9 @@ txDecimalCounter
 :
 txDecimalCounter
 (
-PRInt32
+int32_t
 aMinLength
-PRInt32
+int32_t
 aGroupSize
 const
 nsAString
@@ -441,7 +441,7 @@ txDecimalCounter
 :
 appendNumber
 (
-PRInt32
+int32_t
 aNumber
 nsAString
 &
@@ -449,7 +449,7 @@ aDest
 )
 {
 const
-PRInt32
+int32_t
 bufsize
 =
 10
@@ -460,7 +460,7 @@ buf
 bufsize
 ]
 ;
-PRInt32
+int32_t
 pos
 =
 bufsize
@@ -472,7 +472,7 @@ aNumber
 0
 )
 {
-PRInt32
+int32_t
 ch
 =
 aNumber
@@ -498,7 +498,7 @@ ch
 '
 ;
 }
-PRInt32
+int32_t
 end
 =
 (
@@ -532,7 +532,7 @@ pos
 '
 ;
 }
-PRInt32
+int32_t
 extraPos
 =
 mMinLength
@@ -597,7 +597,7 @@ buf
 +
 pos
 (
-PRUint32
+uint32_t
 )
 (
 bufsize
@@ -609,7 +609,7 @@ pos
 }
 else
 {
-PRInt32
+int32_t
 len
 =
 (
@@ -694,7 +694,7 @@ txAlphaCounter
 :
 appendNumber
 (
-PRInt32
+int32_t
 aNumber
 nsAString
 &
@@ -714,7 +714,7 @@ buf
 =
 0
 ;
-PRInt32
+int32_t
 pos
 =
 11
@@ -730,7 +730,7 @@ aNumber
 -
 aNumber
 ;
-PRInt32
+int32_t
 ch
 =
 aNumber
@@ -762,7 +762,7 @@ buf
 +
 pos
 (
-PRUint32
+uint32_t
 )
 (
 11
@@ -963,7 +963,7 @@ txRomanCounter
 :
 appendNumber
 (
-PRInt32
+int32_t
 aNumber
 nsAString
 &
@@ -972,7 +972,7 @@ aDest
 {
 if
 (
-PRUint32
+uint32_t
 (
 aNumber
 )
@@ -1030,7 +1030,7 @@ aNumber
 1000
 ;
 }
-PRInt32
+int32_t
 posValue
 ;
 posValue

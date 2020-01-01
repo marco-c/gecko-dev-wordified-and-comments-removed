@@ -65,7 +65,7 @@ PrintNextPage
 NS_IMETHOD
 GetCurrentPageNum
 (
-PRInt32
+int32_t
 *
 aPageNum
 )
@@ -75,7 +75,7 @@ aPageNum
 NS_IMETHOD
 GetNumPages
 (
-PRInt32
+int32_t
 *
 aNumPages
 )
@@ -95,10 +95,10 @@ aDoing
 NS_IMETHOD
 GetPrintRange
 (
-PRInt32
+int32_t
 *
 aFromPage
-PRInt32
+int32_t
 *
 aToPage
 )
@@ -126,7 +126,7 @@ aHeight
 NS_IMETHOD
 SetTotalNumPages
 (
-PRInt32
+int32_t
 aTotal
 )
 =

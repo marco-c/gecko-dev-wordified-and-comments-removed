@@ -417,7 +417,7 @@ aRefreshTime
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -570,7 +570,7 @@ const
 {
 for
 (
-PRUint32
+uint32_t
 tranIdx
 =
 mPropertyTransitions
@@ -672,7 +672,7 @@ MostRecentRefresh
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -734,7 +734,7 @@ break
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1129,7 +1129,7 @@ whichStarted
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 disp
@@ -1345,7 +1345,7 @@ checkProperties
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 disp
@@ -1493,7 +1493,7 @@ et
 >
 mPropertyTransitions
 ;
-PRUint32
+uint32_t
 i
 =
 pts
@@ -1670,7 +1670,7 @@ mPropertyTransitions
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1939,7 +1939,7 @@ mEndValue
 dummyValue
 )
 ;
-PRUint32
+uint32_t
 currentIndex
 =
 nsTArray
@@ -1969,7 +1969,7 @@ mPropertyTransitions
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2426,7 +2426,7 @@ ifdef
 DEBUG
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3313,7 +3313,7 @@ object
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 et
@@ -3585,7 +3585,7 @@ ElementDataRemoved
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

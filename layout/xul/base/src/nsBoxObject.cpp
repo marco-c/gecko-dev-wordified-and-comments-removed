@@ -877,7 +877,7 @@ nsBoxObject
 :
 GetX
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -907,7 +907,7 @@ nsBoxObject
 :
 GetY
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -937,7 +937,7 @@ nsBoxObject
 :
 GetWidth
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -967,7 +967,7 @@ nsBoxObject
 :
 GetHeight
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -997,7 +997,7 @@ nsBoxObject
 :
 GetScreenX
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -1040,7 +1040,7 @@ nsBoxObject
 :
 GetScreenY
 (
-PRInt32
+int32_t
 *
 _retval
 )

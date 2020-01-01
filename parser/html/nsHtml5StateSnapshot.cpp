@@ -178,14 +178,14 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 stack
 jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 listOfActiveFormattingElements
 nsIContent
@@ -200,9 +200,9 @@ nsIContent
 *
 *
 deepTreeSurrogateParent
-PRInt32
+int32_t
 mode
-PRInt32
+int32_t
 originalMode
 bool
 framesetOk
@@ -263,7 +263,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 nsHtml5StateSnapshot
 :
@@ -280,7 +280,7 @@ jArray
 <
 nsHtml5StackNode
 *
-PRInt32
+int32_t
 >
 nsHtml5StateSnapshot
 :
@@ -335,7 +335,7 @@ return
 deepTreeSurrogateParent
 ;
 }
-PRInt32
+int32_t
 nsHtml5StateSnapshot
 :
 :
@@ -347,7 +347,7 @@ return
 mode
 ;
 }
-PRInt32
+int32_t
 nsHtml5StateSnapshot
 :
 :
@@ -395,7 +395,7 @@ return
 quirks
 ;
 }
-PRInt32
+int32_t
 nsHtml5StateSnapshot
 :
 :
@@ -409,7 +409,7 @@ listOfActiveFormattingElements
 length
 ;
 }
-PRInt32
+int32_t
 nsHtml5StateSnapshot
 :
 :
@@ -438,7 +438,7 @@ nsHtml5StateSnapshot
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -467,7 +467,7 @@ release
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0

@@ -205,7 +205,7 @@ in
 ACString
 table
 in
-PRUint32
+uint32_t
 chunkId
 in
 boolean

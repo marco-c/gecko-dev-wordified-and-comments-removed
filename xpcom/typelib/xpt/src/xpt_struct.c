@@ -27,7 +27,7 @@ stdio
 h
 >
 static
-PRUint32
+uint32_t
 SizeOfTypeDescriptor
 (
 XPTTypeDescriptor
@@ -39,7 +39,7 @@ id
 )
 ;
 static
-PRUint32
+uint32_t
 SizeOfMethodDescriptor
 (
 XPTMethodDescriptor
@@ -51,7 +51,7 @@ id
 )
 ;
 static
-PRUint32
+uint32_t
 SizeOfConstDescriptor
 (
 XPTConstDescriptor
@@ -63,7 +63,7 @@ id
 )
 ;
 static
-PRUint32
+uint32_t
 SizeOfInterfaceDescriptor
 (
 XPTInterfaceDescriptor
@@ -84,7 +84,7 @@ cursor
 XPTInterfaceDirectoryEntry
 *
 ide
-PRUint16
+uint16_t
 entry_index
 )
 ;
@@ -209,7 +209,7 @@ id
 ;
 XPT_PUBLIC_API
 (
-PRUint32
+uint32_t
 )
 XPT_SizeOfHeader
 (
@@ -224,7 +224,7 @@ ann
 *
 last
 ;
-PRUint32
+uint32_t
 size
 =
 16
@@ -318,7 +318,7 @@ size
 }
 XPT_PUBLIC_API
 (
-PRUint32
+uint32_t
 )
 XPT_SizeOfHeaderBlock
 (
@@ -327,7 +327,7 @@ XPTHeader
 header
 )
 {
-PRUint32
+uint32_t
 ide_size
 =
 16
@@ -362,11 +362,11 @@ XPT_NewHeader
 XPTArena
 *
 arena
-PRUint16
+uint16_t
 num_interfaces
-PRUint8
+uint8_t
 major_version
-PRUint8
+uint8_t
 minor_version
 )
 {
@@ -628,7 +628,7 @@ XPTHeader
 *
 *
 headerp
-PRUint32
+uint32_t
 *
 ide_offset
 )
@@ -1009,7 +1009,7 @@ XPTHeader
 *
 header
 ;
-PRUint32
+uint32_t
 ide_offset
 ;
 int
@@ -1329,7 +1329,7 @@ interface_directory
 i
 ]
 (
-PRUint16
+uint16_t
 )
 (
 i
@@ -1503,7 +1503,7 @@ cursor
 XPTInterfaceDirectoryEntry
 *
 ide
-PRUint16
+uint16_t
 entry_index
 )
 {
@@ -1615,13 +1615,13 @@ XPT_NewInterfaceDescriptor
 XPTArena
 *
 arena
-PRUint16
+uint16_t
 parent_interface
-PRUint16
+uint16_t
 num_methods
-PRUint16
+uint16_t
 num_constants
-PRUint8
+uint8_t
 flags
 )
 {
@@ -1951,7 +1951,7 @@ arena
 XPTInterfaceDescriptor
 *
 id
-PRUint16
+uint16_t
 num
 )
 {
@@ -2065,7 +2065,7 @@ arena
 XPTInterfaceDescriptor
 *
 id
-PRUint16
+uint16_t
 num
 )
 {
@@ -2179,7 +2179,7 @@ arena
 XPTInterfaceDescriptor
 *
 id
-PRUint16
+uint16_t
 num
 )
 {
@@ -2281,7 +2281,7 @@ return
 PR_TRUE
 ;
 }
-PRUint32
+uint32_t
 SizeOfTypeDescriptor
 (
 XPTTypeDescriptor
@@ -2292,7 +2292,7 @@ XPTInterfaceDescriptor
 id
 )
 {
-PRUint32
+uint32_t
 size
 =
 1
@@ -2385,7 +2385,7 @@ return
 size
 ;
 }
-PRUint32
+uint32_t
 SizeOfMethodDescriptor
 (
 XPTMethodDescriptor
@@ -2396,7 +2396,7 @@ XPTInterfaceDescriptor
 id
 )
 {
-PRUint32
+uint32_t
 i
 size
 =
@@ -2465,7 +2465,7 @@ return
 size
 ;
 }
-PRUint32
+uint32_t
 SizeOfConstDescriptor
 (
 XPTConstDescriptor
@@ -2476,7 +2476,7 @@ XPTInterfaceDescriptor
 id
 )
 {
-PRUint32
+uint32_t
 size
 =
 4
@@ -2602,7 +2602,7 @@ return
 size
 ;
 }
-PRUint32
+uint32_t
 SizeOfInterfaceDescriptor
 (
 XPTInterfaceDescriptor
@@ -2610,7 +2610,7 @@ XPTInterfaceDescriptor
 id
 )
 {
-PRUint32
+uint32_t
 size
 =
 2
@@ -2730,7 +2730,7 @@ cursor
 &
 curs
 ;
-PRUint32
+uint32_t
 i
 id_sz
 =
@@ -3184,7 +3184,7 @@ XPT_Do8
 (
 cursor
 (
-PRUint8
+uint8_t
 *
 )
 &
@@ -3207,7 +3207,7 @@ XPT_Do16
 (
 cursor
 (
-PRUint16
+uint16_t
 *
 )
 &
@@ -3230,7 +3230,7 @@ XPT_Do32
 (
 cursor
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -3329,7 +3329,7 @@ XPT_Do64
 (
 cursor
 (
-PRInt64
+int64_t
 *
 )
 &
@@ -3352,7 +3352,7 @@ XPT_Do8
 (
 cursor
 (
-PRUint8
+uint8_t
 *
 )
 &
@@ -3418,12 +3418,12 @@ arena
 XPTMethodDescriptor
 *
 meth
-PRUint8
+uint8_t
 flags
 char
 *
 name
-PRUint8
+uint8_t
 num_args
 )
 {
@@ -3796,7 +3796,7 @@ arena
 XPTParamDescriptor
 *
 pd
-PRUint8
+uint8_t
 flags
 XPTTypeDescriptor
 *
@@ -4156,7 +4156,7 @@ XPT_NewAnnotation
 XPTArena
 *
 arena
-PRUint8
+uint8_t
 flags
 XPTString
 *
@@ -4395,12 +4395,12 @@ XPT_GetInterfaceIndexByName
 XPTInterfaceDirectoryEntry
 *
 ide_block
-PRUint16
+uint16_t
 num_interfaces
 char
 *
 name
-PRUint16
+uint16_t
 *
 indexp
 )
@@ -4509,7 +4509,7 @@ versions
 )
 XPT_PUBLIC_API
 (
-PRUint16
+uint16_t
 )
 XPT_ParseVersionString
 (
@@ -4517,10 +4517,10 @@ const
 char
 *
 str
-PRUint8
+uint8_t
 *
 major
-PRUint8
+uint8_t
 *
 minor
 )

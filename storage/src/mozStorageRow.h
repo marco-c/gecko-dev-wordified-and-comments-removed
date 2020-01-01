@@ -68,7 +68,7 @@ aStatement
 ;
 private
 :
-PRUint32
+uint32_t
 mNumCols
 ;
 nsCOMArray
@@ -80,7 +80,7 @@ mData
 nsDataHashtable
 <
 nsCStringHashKey
-PRUint32
+uint32_t
 >
 mNameHashtable
 ;

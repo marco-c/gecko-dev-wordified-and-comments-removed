@@ -72,7 +72,7 @@ GrowlApplicationBridgeDelegate
 >
 {
 private
-PRUint32
+uint32_t
 mKey
 ;
 NSMutableDictionary
@@ -126,7 +126,7 @@ aImage
 key
 :
 (
-PRUint32
+uint32_t
 )
 aKey
 cookie
@@ -164,7 +164,7 @@ aEnabled
 ;
 -
 (
-PRUint32
+uint32_t
 )
 addObserver
 :

@@ -361,7 +361,7 @@ nsDiskCacheEntryInfo
 :
 GetFetchCount
 (
-PRInt32
+int32_t
 *
 aFetchCount
 )
@@ -389,7 +389,7 @@ nsDiskCacheEntryInfo
 :
 GetLastFetched
 (
-PRUint32
+uint32_t
 *
 aLastFetched
 )
@@ -417,7 +417,7 @@ nsDiskCacheEntryInfo
 :
 GetLastModified
 (
-PRUint32
+uint32_t
 *
 aLastModified
 )
@@ -445,7 +445,7 @@ nsDiskCacheEntryInfo
 :
 GetExpirationTime
 (
-PRUint32
+uint32_t
 *
 aExpirationTime
 )
@@ -498,7 +498,7 @@ nsDiskCacheEntryInfo
 :
 GetDataSize
 (
-PRUint32
+uint32_t
 *
 aDataSize
 )

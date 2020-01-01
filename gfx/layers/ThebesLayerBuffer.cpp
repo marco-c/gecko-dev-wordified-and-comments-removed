@@ -500,7 +500,7 @@ gfxContext
 mBuffer
 )
 ;
-PRInt32
+int32_t
 xBoundary
 =
 mBufferRect
@@ -513,7 +513,7 @@ mBufferRotation
 .
 x
 ;
-PRInt32
+int32_t
 yBoundary
 =
 mBufferRect
@@ -611,10 +611,10 @@ static
 void
 WrapRotationAxis
 (
-PRInt32
+int32_t
 *
 aRotationPoint
-PRInt32
+int32_t
 aSize
 )
 {
@@ -665,7 +665,7 @@ ThebesLayer
 aLayer
 ContentType
 aContentType
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -988,7 +988,7 @@ gfxASurface
 >
 destBuffer
 ;
-PRUint32
+uint32_t
 bufferFlags
 =
 canHaveRotation
@@ -1085,7 +1085,7 @@ bounds
 "
 )
 ;
-PRInt32
+int32_t
 xBoundary
 =
 destBufferRect
@@ -1098,7 +1098,7 @@ newRotation
 .
 x
 ;
-PRInt32
+int32_t
 yBoundary
 =
 destBufferRect

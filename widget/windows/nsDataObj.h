@@ -901,7 +901,7 @@ mChannel
 ;
 nsTArray
 <
-PRUint8
+uint8_t
 >
 mChannelData
 ;
@@ -911,7 +911,7 @@ mChannelRead
 nsresult
 mChannelResult
 ;
-PRUint32
+uint32_t
 mStreamRead
 ;
 protected

@@ -347,7 +347,7 @@ gMenuMethodsSwizzled
 =
 false
 ;
-PRInt32
+int32_t
 nsMenuX
 :
 :
@@ -1492,7 +1492,7 @@ hidden
 /
 collapsed
 ones
-PRUint32
+uint32_t
 nsMenuX
 :
 :
@@ -1525,7 +1525,7 @@ nsMenuX
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aPos
 )
 {
@@ -1535,7 +1535,7 @@ aPos
 >
 =
 (
-PRUint32
+uint32_t
 )
 mMenuObjectsArray
 .
@@ -1565,7 +1565,7 @@ nsMenuX
 :
 GetVisibleItemCount
 (
-PRUint32
+uint32_t
 &
 aCount
 )
@@ -1619,11 +1619,11 @@ nsMenuX
 :
 GetVisibleItemAt
 (
-PRUint32
+uint32_t
 aPos
 )
 {
-PRUint32
+uint32_t
 count
 =
 mMenuObjectsArray
@@ -1695,14 +1695,14 @@ nsMenuObjectX
 *
 item
 ;
-PRUint32
+uint32_t
 visibleNodeIndex
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1827,7 +1827,7 @@ mMenuGroupOwner
 UnregisterCommand
 (
 (
-PRUint32
+uint32_t
 )
 [
 [
@@ -2451,7 +2451,7 @@ Iterate
 over
 the
 kids
-PRUint32
+uint32_t
 count
 =
 menuPopup
@@ -2463,7 +2463,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3403,7 +3403,7 @@ domDoc
 return
 true
 ;
-PRUint32
+uint32_t
 count
 =
 popupContent
@@ -3415,7 +3415,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4051,7 +4051,7 @@ menu
 )
 .
 {
-PRInt32
+int32_t
 dummy
 ;
 nsCOMPtr
@@ -4114,7 +4114,7 @@ our
 child
 nodes
 .
-PRUint32
+uint32_t
 count
 =
 mContent
@@ -4126,7 +4126,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4140,7 +4140,7 @@ i
 +
 )
 {
-PRInt32
+int32_t
 dummy
 ;
 nsIContent
@@ -4882,7 +4882,7 @@ aDocument
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -5106,7 +5106,7 @@ mGeckoMenu
 GetVisibleItemAt
 (
 (
-PRUint32
+uint32_t
 )
 [
 menu
@@ -6583,7 +6583,7 @@ menus
 sIndexingMenuLevel
 is
 a
-PRInt32
+int32_t
 just
 in
 case

@@ -297,7 +297,7 @@ n
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 n
 count
 =
@@ -448,7 +448,7 @@ n
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 n
 ;
 char
@@ -560,7 +560,7 @@ mOutput
 nsCString
 mBuf
 ;
-PRUint32
+uint32_t
 mWriteOffset
 ;
 }
@@ -584,9 +584,9 @@ char
 host
 int
 port
-PRUint32
+uint32_t
 inFlags
-PRUint32
+uint32_t
 outFlags
 )
 {
@@ -781,9 +781,9 @@ const
 char
 *
 path
-PRUint32
+uint32_t
 inFlags
-PRUint32
+uint32_t
 outFlags
 )
 {

@@ -191,7 +191,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -341,7 +341,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -483,7 +483,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRUint32
+uint32_t
 geckoCoordType
 =
 (
@@ -503,7 +503,7 @@ nsIAccessibleCoordinateType
 :
 COORDTYPE_PARENT_RELATIVE
 ;
-PRInt32
+int32_t
 x
 =
 0
@@ -640,7 +640,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRInt32
+int32_t
 selCount
 =
 0
@@ -752,7 +752,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRUint32
+uint32_t
 geckoCoordType
 =
 (
@@ -772,7 +772,7 @@ nsIAccessibleCoordinateType
 :
 COORDTYPE_PARENT_RELATIVE
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -890,7 +890,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -1173,7 +1173,7 @@ NS_OK
 nsAutoString
 text
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -1410,7 +1410,7 @@ NS_OK
 nsAutoString
 text
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -1647,7 +1647,7 @@ NS_OK
 nsAutoString
 text
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -2263,7 +2263,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRUint32
+uint32_t
 geckoCoordType
 =
 (
@@ -2429,7 +2429,7 @@ IA2TextSegment
 aText
 )
 {
-PRUint32
+uint32_t
 startOffset
 =
 0

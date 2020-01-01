@@ -39,7 +39,7 @@ KeymapWrapper
 public
 :
 static
-PRUint32
+uint32_t
 ComputeDOMKeyCode
 (
 const
@@ -52,7 +52,7 @@ static
 guint
 GuessGDKKeyval
 (
-PRUint32
+uint32_t
 aDOMKeyCode
 )
 ;
@@ -95,7 +95,7 @@ ALTGR
 }
 ;
 typedef
-PRUint32
+uint32_t
 Modifiers
 ;
 static
@@ -310,7 +310,7 @@ aGdkKeymap
 )
 ;
 static
-PRUint32
+uint32_t
 GetCharCodeFor
 (
 const
@@ -319,7 +319,7 @@ GdkEventKey
 aGdkKeyEvent
 )
 ;
-PRUint32
+uint32_t
 GetCharCodeFor
 (
 const
@@ -356,7 +356,7 @@ static
 bool
 IsBasicLatinLetterOrNumeral
 (
-PRUint32
+uint32_t
 aCharCode
 )
 ;
@@ -371,7 +371,7 @@ aGdkKeyEvent
 )
 ;
 static
-PRUint32
+uint32_t
 GetDOMKeyCodeFromKeyPairs
 (
 guint

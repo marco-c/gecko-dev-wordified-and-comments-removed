@@ -1323,9 +1323,9 @@ DoRead
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aCountRead
 )
@@ -1352,7 +1352,7 @@ GnomeVFSHandle
 *
 mHandle
 ;
-PRUint64
+uint64_t
 mBytesRemaining
 ;
 nsresult
@@ -1369,7 +1369,7 @@ mDirListPtr
 nsCString
 mDirBuf
 ;
-PRUint32
+uint32_t
 mDirBufCursor
 ;
 bool
@@ -1632,7 +1632,7 @@ SetContentLength
 NS_MAX
 (
 (
-PRInt32
+int32_t
 )
 mBytesRemaining
 PR_INT32_MAX
@@ -1780,9 +1780,9 @@ DoRead
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aCountRead
 )
@@ -1821,7 +1821,7 @@ GNOME_VFS_OK
 aCountRead
 =
 (
-PRUint32
+uint32_t
 )
 bytesRead
 ;
@@ -1854,7 +1854,7 @@ rv
 GNOME_VFS_ERROR_EOF
 )
 {
-PRUint32
+uint32_t
 bufLen
 =
 mDirBuf
@@ -1870,7 +1870,7 @@ if
 bufLen
 )
 {
-PRUint32
+uint32_t
 n
 =
 NS_MIN
@@ -2086,7 +2086,7 @@ mDirBuf
 .
 AppendInt
 (
-PRInt32
+int32_t
 (
 info
 -
@@ -2537,7 +2537,7 @@ nsGnomeVFSInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 aResult
 )
@@ -2570,9 +2570,9 @@ Read
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aCountRead
 )
@@ -2709,9 +2709,9 @@ aWriter
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -3015,7 +3015,7 @@ colon
 return
 false
 ;
-PRUint32
+uint32_t
 length
 =
 colon
@@ -3115,7 +3115,7 @@ nsGnomeVFSProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 aDefaultPort
 )
@@ -3136,7 +3136,7 @@ nsGnomeVFSProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 aProtocolFlags
 )
@@ -3419,7 +3419,7 @@ nsGnomeVFSProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 aPort
 const
 char

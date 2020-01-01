@@ -53,7 +53,7 @@ NS_IUNICHARBUFFER_IID
 NS_IMETHOD
 Init
 (
-PRUint32
+uint32_t
 aBufferSize
 )
 =
@@ -61,7 +61,7 @@ aBufferSize
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetLength
 (
@@ -72,7 +72,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetBufferSize
 (
@@ -99,7 +99,7 @@ bool
 )
 Grow
 (
-PRInt32
+int32_t
 aNewSize
 )
 =
@@ -123,7 +123,7 @@ aInstancePtrResult
 nsISupports
 *
 aOuter
-PRUint32
+uint32_t
 aBufferSize
 =
 0

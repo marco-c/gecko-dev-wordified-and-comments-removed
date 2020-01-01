@@ -2222,7 +2222,7 @@ arena_alloc
 void
 *
 pool
-PRSize
+size_t
 size
 )
 {
@@ -2266,7 +2266,7 @@ generic_alloctable
 void
 *
 pool
-PRSize
+size_t
 size
 )
 {
@@ -2793,7 +2793,7 @@ pool
 PLHashEntry
 *
 he
-PRUintn
+unsigned
 flag
 )
 {
@@ -2837,7 +2837,7 @@ pool
 PLHashEntry
 *
 he
-PRUintn
+unsigned
 flag
 )
 {

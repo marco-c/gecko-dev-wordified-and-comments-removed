@@ -210,7 +210,7 @@ gMiddlePref
 =
 false
 ;
-PRInt32
+int32_t
 nsSliderFrame
 :
 :
@@ -543,7 +543,7 @@ return
 rv
 ;
 }
-PRInt32
+int32_t
 nsSliderFrame
 :
 :
@@ -566,7 +566,7 @@ curpos
 )
 ;
 }
-PRInt32
+int32_t
 nsSliderFrame
 :
 :
@@ -589,7 +589,7 @@ minpos
 )
 ;
 }
-PRInt32
+int32_t
 nsSliderFrame
 :
 :
@@ -612,7 +612,7 @@ maxpos
 )
 ;
 }
-PRInt32
+int32_t
 nsSliderFrame
 :
 :
@@ -635,7 +635,7 @@ increment
 )
 ;
 }
-PRInt32
+int32_t
 nsSliderFrame
 :
 :
@@ -658,7 +658,7 @@ pageincrement
 )
 ;
 }
-PRInt32
+int32_t
 nsSliderFrame
 :
 :
@@ -670,7 +670,7 @@ content
 nsIAtom
 *
 atom
-PRInt32
+int32_t
 defaultValue
 )
 {
@@ -731,7 +731,7 @@ aListener
 nsIAtom
 *
 aWhich
-PRInt32
+int32_t
 aValue
 bool
 aUserChanged
@@ -787,7 +787,7 @@ nsIAtom
 >
 mWhich
 ;
-PRInt32
+int32_t
 mValue
 ;
 bool
@@ -854,12 +854,12 @@ nsSliderFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -964,7 +964,7 @@ GetContentOfBox
 scrollbarBox
 )
 ;
-PRInt32
+int32_t
 current
 =
 GetCurrentPosition
@@ -972,7 +972,7 @@ GetCurrentPosition
 scrollbar
 )
 ;
-PRInt32
+int32_t
 min
 =
 GetMinPosition
@@ -980,7 +980,7 @@ GetMinPosition
 scrollbar
 )
 ;
-PRInt32
+int32_t
 max
 =
 GetMaxPosition
@@ -1519,7 +1519,7 @@ clientRect
 .
 width
 ;
-PRInt32
+int32_t
 curPos
 =
 GetCurrentPosition
@@ -1527,7 +1527,7 @@ GetCurrentPosition
 scrollbar
 )
 ;
-PRInt32
+int32_t
 minPos
 =
 GetMinPosition
@@ -1535,7 +1535,7 @@ GetMinPosition
 scrollbar
 )
 ;
-PRInt32
+int32_t
 maxPos
 =
 GetMaxPosition
@@ -1543,7 +1543,7 @@ GetMaxPosition
 scrollbar
 )
 ;
-PRInt32
+int32_t
 pageIncrement
 =
 GetPageIncrement
@@ -1758,7 +1758,7 @@ thumbSize
 height
 )
 ;
-PRInt32
+int32_t
 &
 thumbPos
 =
@@ -2605,7 +2605,7 @@ scrollToClick
 =
 false
 ;
-PRInt32
+int32_t
 scrollToClickMetric
 ;
 nsresult
@@ -2782,7 +2782,7 @@ GetPageIncrement
 scrollbar
 )
 ;
-PRInt32
+int32_t
 curpos
 =
 GetCurrentPosition
@@ -2790,7 +2790,7 @@ GetCurrentPosition
 scrollbar
 )
 ;
-PRInt32
+int32_t
 minpos
 =
 GetMinPosition
@@ -2798,7 +2798,7 @@ GetMinPosition
 scrollbar
 )
 ;
-PRInt32
+int32_t
 maxpos
 =
 GetMaxPosition
@@ -2806,7 +2806,7 @@ GetMaxPosition
 scrollbar
 )
 ;
-PRInt32
+int32_t
 newpos
 =
 curpos
@@ -2884,7 +2884,7 @@ GetContentOfBox
 scrollbarBox
 )
 ;
-PRInt32
+int32_t
 curPos
 =
 GetCurrentPosition
@@ -2902,7 +2902,7 @@ curPos
 return
 NS_OK
 ;
-PRInt32
+int32_t
 minPos
 =
 GetMinPosition
@@ -2910,7 +2910,7 @@ GetMinPosition
 scrollbar
 )
 ;
-PRInt32
+int32_t
 maxPos
 =
 GetMaxPosition
@@ -3257,7 +3257,7 @@ crect
 .
 y
 ;
-PRInt32
+int32_t
 newPos
 =
 NSToIntRound
@@ -3294,7 +3294,7 @@ eCaseMatters
 )
 )
 {
-PRInt32
+int32_t
 increment
 =
 GetIncrement
@@ -3335,7 +3335,7 @@ SetCurrentPosition
 nsIContent
 *
 aScrollbar
-PRInt32
+int32_t
 aNewPos
 bool
 aIsSmooth
@@ -3343,7 +3343,7 @@ bool
 aImmediateRedraw
 )
 {
-PRInt32
+int32_t
 minpos
 =
 GetMinPosition
@@ -3351,7 +3351,7 @@ GetMinPosition
 aScrollbar
 )
 ;
-PRInt32
+int32_t
 maxpos
 =
 GetMaxPosition
@@ -3434,7 +3434,7 @@ SetCurrentPositionInternal
 nsIContent
 *
 aScrollbar
-PRInt32
+int32_t
 aNewPos
 bool
 aIsSmooth
@@ -3789,7 +3789,7 @@ if
 mouseEvent
 )
 {
-PRUint16
+uint16_t
 button
 =
 0

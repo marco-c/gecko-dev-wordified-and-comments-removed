@@ -112,7 +112,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 itemType
 ;
 ds
@@ -419,7 +419,7 @@ nsScreen
 :
 GetTop
 (
-PRInt32
+int32_t
 *
 aTop
 )
@@ -452,7 +452,7 @@ nsScreen
 :
 GetLeft
 (
-PRInt32
+int32_t
 *
 aLeft
 )
@@ -485,7 +485,7 @@ nsScreen
 :
 GetWidth
 (
-PRInt32
+int32_t
 *
 aWidth
 )
@@ -518,7 +518,7 @@ nsScreen
 :
 GetHeight
 (
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -551,7 +551,7 @@ nsScreen
 :
 GetPixelDepth
 (
-PRInt32
+int32_t
 *
 aPixelDepth
 )
@@ -580,7 +580,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 depth
 ;
 context
@@ -606,7 +606,7 @@ nsScreen
 :
 GetColorDepth
 (
-PRInt32
+int32_t
 *
 aColorDepth
 )
@@ -624,7 +624,7 @@ nsScreen
 :
 GetAvailWidth
 (
-PRInt32
+int32_t
 *
 aAvailWidth
 )
@@ -657,7 +657,7 @@ nsScreen
 :
 GetAvailHeight
 (
-PRInt32
+int32_t
 *
 aAvailHeight
 )
@@ -690,7 +690,7 @@ nsScreen
 :
 GetAvailLeft
 (
-PRInt32
+int32_t
 *
 aAvailLeft
 )
@@ -723,7 +723,7 @@ nsScreen
 :
 GetAvailTop
 (
-PRInt32
+int32_t
 *
 aAvailTop
 )

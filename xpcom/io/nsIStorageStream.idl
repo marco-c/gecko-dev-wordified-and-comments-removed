@@ -285,10 +285,10 @@ void
 init
 (
 in
-PRUint32
+uint32_t
 segmentSize
 in
-PRUint32
+uint32_t
 maxSize
 in
 nsIMemory
@@ -370,7 +370,7 @@ nsIOutputStream
 getOutputStream
 (
 in
-PRInt32
+int32_t
 startPosition
 )
 ;
@@ -415,7 +415,7 @@ nsIInputStream
 newInputStream
 (
 in
-PRInt32
+int32_t
 startPosition
 )
 ;
@@ -488,7 +488,7 @@ writeInProgress
 *
 /
 attribute
-PRUint32
+uint32_t
 length
 ;
 /
@@ -527,9 +527,9 @@ method
 nsresult
 NS_NewStorageStream
 (
-PRUint32
+uint32_t
 segmentSize
-PRUint32
+uint32_t
 maxSize
 nsIStorageStream
 *

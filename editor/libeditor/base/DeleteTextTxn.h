@@ -83,9 +83,9 @@ aEditor
 nsIDOMCharacterData
 *
 aCharData
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aNumCharsToDelete
 nsRangeUpdater
 *
@@ -113,7 +113,7 @@ aInstancePtr
 )
 ;
 NS_DECL_EDITTXN
-PRUint32
+uint32_t
 GetOffset
 (
 )
@@ -122,7 +122,7 @@ return
 mOffset
 ;
 }
-PRUint32
+uint32_t
 GetNumCharsToDelete
 (
 )
@@ -143,10 +143,10 @@ nsIDOMCharacterData
 >
 mCharData
 ;
-PRUint32
+uint32_t
 mOffset
 ;
-PRUint32
+uint32_t
 mNumCharsToDelete
 ;
 nsString

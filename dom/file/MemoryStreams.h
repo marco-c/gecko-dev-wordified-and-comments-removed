@@ -36,7 +36,7 @@ MemoryOutputStream
 >
 Create
 (
-PRUint64
+uint64_t
 aSize
 )
 ;
@@ -74,7 +74,7 @@ MemoryOutputStream
 nsCString
 mData
 ;
-PRUint64
+uint64_t
 mOffset
 ;
 }

@@ -804,7 +804,7 @@ SmsRequest
 :
 SetError
 (
-PRInt32
+int32_t
 aError
 )
 {

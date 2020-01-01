@@ -71,7 +71,7 @@ Init
 ;
 private
 :
-PRUint32
+uint32_t
 mPolicy
 ;
 nsCOMPtr

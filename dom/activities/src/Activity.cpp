@@ -113,7 +113,7 @@ aContext
 JSObject
 *
 aObject
-PRUint32
+uint32_t
 aArgc
 JS
 :

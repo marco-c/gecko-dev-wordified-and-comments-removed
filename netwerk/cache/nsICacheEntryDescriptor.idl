@@ -172,7 +172,7 @@ void
 setExpirationTime
 (
 in
-PRUint32
+uint32_t
 expirationTime
 )
 ;
@@ -541,7 +541,7 @@ bug
 *
 /
 attribute
-PRInt64
+int64_t
 predictedDataSize
 ;
 /

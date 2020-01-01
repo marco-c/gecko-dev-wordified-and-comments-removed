@@ -118,7 +118,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 CallMethod
 (
-PRUint16
+uint16_t
 methodIndex
 const
 XPTMethodDescriptor
@@ -392,7 +392,7 @@ nsXTFInterfaceAggregator
 :
 CallMethod
 (
-PRUint16
+uint16_t
 methodIndex
 const
 XPTMethodDescriptor
@@ -491,7 +491,7 @@ params
 i
 ]
 ;
-PRUint8
+uint8_t
 flags
 =
 paramInfo

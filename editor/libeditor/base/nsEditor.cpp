@@ -1108,7 +1108,7 @@ aRoot
 nsISelectionController
 *
 aSelCon
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1696,7 +1696,7 @@ eTriTrue
 )
 ;
 }
-PRInt32
+int32_t
 spellcheckLevel
 =
 Preferences
@@ -1971,7 +1971,7 @@ nsEditor
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -1991,7 +1991,7 @@ nsEditor
 :
 SetFlags
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2993,7 +2993,7 @@ nsEditor
 :
 GetNumberOfUndoItems
 (
-PRInt32
+int32_t
 *
 aNumItems
 )
@@ -3023,7 +3023,7 @@ nsEditor
 :
 GetNumberOfRedoItems
 (
-PRInt32
+int32_t
 *
 aNumItems
 )
@@ -3125,7 +3125,7 @@ nsEditor
 :
 Undo
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -3212,7 +3212,7 @@ NS_OK
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3287,7 +3287,7 @@ if
 aIsEnabled
 )
 {
-PRInt32
+int32_t
 numTxns
 =
 0
@@ -3327,7 +3327,7 @@ nsEditor
 :
 Redo
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -3410,7 +3410,7 @@ NS_OK
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3485,7 +3485,7 @@ if
 aIsEnabled
 )
 {
-PRInt32
+int32_t
 numTxns
 =
 0
@@ -4183,7 +4183,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-PRInt32
+int32_t
 offsetInParent
 =
 parent
@@ -4303,7 +4303,7 @@ GetLastChild
 )
 ;
 }
-PRUint32
+uint32_t
 length
 =
 node
@@ -4320,7 +4320,7 @@ selection
 CollapseNative
 (
 node
-PRInt32
+int32_t
 (
 length
 )
@@ -4344,7 +4344,7 @@ outDocModified
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 modCount
 =
 0
@@ -4511,7 +4511,7 @@ nsEditor
 :
 Paste
 (
-PRInt32
+int32_t
 aSelectionType
 )
 {
@@ -4540,7 +4540,7 @@ nsEditor
 :
 CanPaste
 (
-PRInt32
+int32_t
 aSelectionType
 bool
 *
@@ -5172,7 +5172,7 @@ aTag
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 nsIDOMNode
 *
@@ -5180,7 +5180,7 @@ nsIDOMNode
 aNewNode
 )
 {
-PRInt32
+int32_t
 i
 ;
 nsAutoRules
@@ -5365,11 +5365,11 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 )
 {
-PRInt32
+int32_t
 i
 ;
 nsAutoRules
@@ -5506,7 +5506,7 @@ SplitNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
@@ -5514,7 +5514,7 @@ nsIDOMNode
 aNewLeftNode
 )
 {
-PRInt32
+int32_t
 i
 ;
 nsAutoRules
@@ -5786,7 +5786,7 @@ nsIDOMNode
 aParent
 )
 {
-PRInt32
+int32_t
 i
 ;
 nsAutoRules
@@ -5803,7 +5803,7 @@ nsIEditor
 ePrevious
 )
 ;
-PRInt32
+int32_t
 offset
 =
 GetChildOffset
@@ -5812,7 +5812,7 @@ aRightNode
 aParent
 )
 ;
-PRUint32
+uint32_t
 oldLeftNodeLen
 ;
 nsresult
@@ -5904,7 +5904,7 @@ aRightNode
 aParent
 offset
 (
-PRInt32
+int32_t
 )
 oldLeftNodeLen
 )
@@ -6006,7 +6006,7 @@ ePrevious
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6077,7 +6077,7 @@ txn
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6287,7 +6287,7 @@ NS_ENSURE_STATE
 parent
 )
 ;
-PRInt32
+int32_t
 offset
 =
 parent
@@ -6558,7 +6558,7 @@ NS_ENSURE_STATE
 parent
 )
 ;
-PRInt32
+int32_t
 offset
 =
 parent
@@ -6569,7 +6569,7 @@ IndexOf
 aNode
 )
 ;
-PRUint32
+uint32_t
 nodeOrigLen
 =
 aNode
@@ -6818,7 +6818,7 @@ NS_ENSURE_STATE
 parent
 )
 ;
-PRInt32
+int32_t
 offset
 =
 parent
@@ -7010,7 +7010,7 @@ aNode
 nsINode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -7042,7 +7042,7 @@ aOffset
 <
 =
 (
-PRInt32
+int32_t
 )
 aParent
 -
@@ -7107,7 +7107,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -7123,7 +7123,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 res
 ;
-PRInt32
+int32_t
 oldOffset
 ;
 nsCOMPtr
@@ -7148,7 +7148,7 @@ aOffset
 1
 )
 {
-PRUint32
+uint32_t
 unsignedOffset
 ;
 res
@@ -7168,7 +7168,7 @@ res
 aOffset
 =
 (
-PRInt32
+int32_t
 )
 unsignedOffset
 ;
@@ -7443,7 +7443,7 @@ time
 =
 static_cast
 <
-PRUint64
+uint64_t
 >
 (
 PR_Now
@@ -7514,7 +7514,7 @@ void
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -7758,7 +7758,7 @@ const
 nsAString
 &
 aFormatType
-PRUint32
+uint32_t
 aFlags
 nsAString
 &
@@ -7786,7 +7786,7 @@ const
 nsACString
 &
 aCharsetOverride
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -7904,10 +7904,10 @@ nsEditor
 :
 DebugUnitTests
 (
-PRInt32
+int32_t
 *
 outNumTests
-PRInt32
+int32_t
 *
 outNumTestsFailed
 )
@@ -9025,7 +9025,7 @@ p
 tmp
 ;
 }
-PRUint32
+uint32_t
 sourceCount
 ;
 sourceAttributes
@@ -9037,7 +9037,7 @@ GetLength
 sourceCount
 )
 ;
-PRUint32
+uint32_t
 i
 destCount
 ;
@@ -9339,7 +9339,7 @@ selCon
 selCon
 )
 {
-PRInt16
+int16_t
 region
 =
 nsISelectionController
@@ -9392,7 +9392,7 @@ nsIDOMNode
 >
 *
 aInOutNode
-PRInt32
+int32_t
 *
 aInOutOffset
 nsIDOMDocument
@@ -9661,7 +9661,7 @@ if
 nodeAsText
 )
 {
-PRUint32
+uint32_t
 length
 ;
 res
@@ -9686,7 +9686,7 @@ res
 *
 aInOutOffset
 =
-PRInt32
+int32_t
 (
 length
 )
@@ -9737,7 +9737,7 @@ if
 nodeAsText
 )
 {
-PRUint32
+uint32_t
 length
 ;
 res
@@ -9762,7 +9762,7 @@ res
 *
 aInOutOffset
 =
-PRInt32
+int32_t
 (
 length
 )
@@ -9828,7 +9828,7 @@ if
 nodeAsText
 )
 {
-PRUint32
+uint32_t
 length
 ;
 res
@@ -9853,7 +9853,7 @@ res
 *
 aInOutOffset
 =
-PRInt32
+int32_t
 (
 length
 )
@@ -9904,7 +9904,7 @@ parent
 }
 }
 }
-PRInt32
+int32_t
 offset
 =
 *
@@ -10118,7 +10118,7 @@ aStringToInsert
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 bool
 aSuppressIME
@@ -10167,7 +10167,7 @@ mIMETextOffset
 aOffset
 ;
 }
-PRUint16
+uint16_t
 len
 ;
 len
@@ -10194,7 +10194,7 @@ range
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -10223,7 +10223,7 @@ if
 range
 )
 {
-PRUint16
+uint16_t
 type
 ;
 result
@@ -10256,7 +10256,7 @@ nsIPrivateTextRange
 TEXTRANGE_RAWINPUT
 )
 {
-PRUint16
+uint16_t
 start
 end
 ;
@@ -10399,7 +10399,7 @@ result
 result
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -10497,7 +10497,7 @@ isIMETransaction
 mIMETextNode
 )
 {
-PRUint32
+uint32_t
 len
 ;
 mIMETextNode
@@ -10672,7 +10672,7 @@ TDocumentListenerNotification
 aNotificationType
 )
 {
-PRInt32
+int32_t
 numListeners
 =
 mDocStateListeners
@@ -10703,7 +10703,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 i
 ;
 switch
@@ -10829,7 +10829,7 @@ NS_OK
 mDocDirtyState
 =
 (
-PRInt8
+int8_t
 )
 docIsDirty
 ;
@@ -10902,7 +10902,7 @@ aStringToInsert
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 InsertTextTxn
 *
@@ -10975,9 +10975,9 @@ DeleteText
 nsIDOMCharacterData
 *
 aElement
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -11023,7 +11023,7 @@ result
 )
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -11110,9 +11110,9 @@ CreateTxnForDeleteText
 nsIDOMCharacterData
 *
 aElement
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 DeleteTextTxn
 *
@@ -11179,7 +11179,7 @@ CreateTxnForSplitNode
 nsIDOMNode
 *
 aNode
-PRUint32
+uint32_t
 aOffset
 SplitElementTxn
 *
@@ -11317,7 +11317,7 @@ SplitNodeImpl
 nsIDOMNode
 *
 aExistingRightNode
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
@@ -11467,7 +11467,7 @@ nsIDOMNode
 selStartNode
 selEndNode
 ;
-PRInt32
+int32_t
 selStartOffset
 selEndOffset
 ;
@@ -11655,7 +11655,7 @@ childNodes
 )
 )
 {
-PRInt32
+int32_t
 i
 =
 aOffset
@@ -12000,7 +12000,7 @@ nsIDOMNode
 selStartNode
 selEndNode
 ;
-PRInt32
+int32_t
 selStartOffset
 selEndOffset
 joinOffset
@@ -12073,7 +12073,7 @@ leftNode
 =
 aNodeToJoin
 ;
-PRUint32
+uint32_t
 firstNodeLength
 ;
 result
@@ -12387,10 +12387,10 @@ childNodes
 )
 )
 {
-PRInt32
+int32_t
 i
 ;
-PRUint32
+uint32_t
 childCount
 =
 0
@@ -12790,7 +12790,7 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 nsEditor
 :
 :
@@ -12842,7 +12842,7 @@ parent
 child
 )
 ;
-PRInt32
+int32_t
 idx
 =
 parent
@@ -12878,7 +12878,7 @@ GetNodeLocation
 nsIDOMNode
 *
 aChild
-PRInt32
+int32_t
 *
 outOffset
 )
@@ -12961,7 +12961,7 @@ GetLengthOfDOMNode
 nsIDOMNode
 *
 aNode
-PRUint32
+uint32_t
 &
 aCount
 )
@@ -13009,7 +13009,7 @@ GetPriorNode
 nsIDOMNode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 bool
 aEditableNode
@@ -13079,7 +13079,7 @@ GetPriorNode
 nsINode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 bool
 aEditableNode
@@ -13208,7 +13208,7 @@ GetNextNode
 nsIDOMNode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 bool
 aEditableNode
@@ -13278,7 +13278,7 @@ GetNextNode
 nsINode
 *
 aParentNode
-PRInt32
+int32_t
 aOffset
 bool
 aEditableNode
@@ -15323,7 +15323,7 @@ eCaseMatters
 )
 ;
 }
-PRUint32
+uint32_t
 nsEditor
 :
 :
@@ -15339,7 +15339,7 @@ MOZ_ASSERT
 aNode
 )
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -15393,11 +15393,11 @@ nsEditor
 :
 IncrementModificationCount
 (
-PRInt32
+int32_t
 inNumMods
 )
 {
-PRUint32
+uint32_t
 oldModCount
 =
 mModCount
@@ -15451,7 +15451,7 @@ nsEditor
 :
 GetModificationCount
 (
-PRInt32
+int32_t
 *
 outModCount
 )
@@ -15796,7 +15796,7 @@ return
 false
 ;
 }
-PRUint16
+uint16_t
 nodeType
 ;
 aNode
@@ -15858,7 +15858,7 @@ GetChildAt
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -15914,7 +15914,7 @@ GetNodeAtRangeOffsetPoint
 nsIDOMNode
 *
 aParentOrNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -15951,7 +15951,7 @@ nsIDOMNode
 *
 *
 outStartNode
-PRInt32
+int32_t
 *
 outStartOffset
 )
@@ -16121,7 +16121,7 @@ nsIDOMNode
 *
 *
 outEndNode
-PRInt32
+int32_t
 *
 outEndOffset
 )
@@ -16433,9 +16433,9 @@ aNode
 nsIDOMNode
 *
 aSplitPointParent
-PRInt32
+int32_t
 aSplitPointOffset
-PRInt32
+int32_t
 *
 outOffset
 bool
@@ -16477,7 +16477,7 @@ outOffset
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 offset
 =
 aSplitPointOffset
@@ -16527,7 +16527,7 @@ do_QueryInterface
 nodeToSplit
 )
 ;
-PRUint32
+uint32_t
 len
 =
 nodeToSplit
@@ -16562,7 +16562,7 @@ offset
 !
 =
 (
-PRInt32
+int32_t
 )
 len
 )
@@ -16784,7 +16784,7 @@ nsIDOMNode
 >
 *
 aOutJoinNode
-PRInt32
+int32_t
 *
 outOffset
 )
@@ -16867,7 +16867,7 @@ rightNodeToJoin
 )
 )
 {
-PRUint32
+uint32_t
 length
 ;
 res
@@ -17291,7 +17291,7 @@ nsINode
 >
 deleteNode
 ;
-PRInt32
+int32_t
 deleteCharOffset
 =
 0
@@ -17349,7 +17349,7 @@ deleteSelection
 aAction
 )
 ;
-PRInt32
+int32_t
 i
 ;
 if
@@ -17634,7 +17634,7 @@ GetAnchorNode
 (
 )
 ;
-PRInt32
+int32_t
 offset
 =
 selection
@@ -17692,7 +17692,7 @@ offset
 )
 ;
 }
-PRInt32
+int32_t
 nsEditor
 :
 :
@@ -17718,7 +17718,7 @@ nsIPrivateTextRange
 >
 rangePtr
 ;
-PRUint16
+uint16_t
 listlen
 type
 ;
@@ -17737,7 +17737,7 @@ GetLength
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -18056,7 +18056,7 @@ GetNodeParent
 )
 )
 ;
-PRInt32
+int32_t
 offset
 =
 selection
@@ -18123,7 +18123,7 @@ offset
 =
 =
 (
-PRInt32
+int32_t
 )
 node
 -
@@ -18290,7 +18290,7 @@ if
 isTransientTransaction
 )
 {
-PRInt32
+int32_t
 modCount
 ;
 GetModificationCount
@@ -18525,7 +18525,7 @@ aTag
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 CreateElementTxn
 *
@@ -18596,7 +18596,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 InsertElementTxn
 *
@@ -18930,10 +18930,10 @@ nsINode
 *
 *
 aNode
-PRInt32
+int32_t
 *
 aOffset
-PRInt32
+int32_t
 *
 aLength
 )
@@ -19133,7 +19133,7 @@ CreateTxnForDeleteCharacter
 nsIDOMCharacterData
 *
 aData
-PRUint32
+uint32_t
 aOffset
 EDirection
 aDirection
@@ -19201,7 +19201,7 @@ Length
 )
 )
 ;
-PRUint32
+uint32_t
 segOffset
 =
 aOffset
@@ -19339,10 +19339,10 @@ nsINode
 *
 *
 aNode
-PRInt32
+int32_t
 *
 aOffset
-PRInt32
+int32_t
 *
 aLength
 )
@@ -19376,7 +19376,7 @@ NS_ENSURE_STATE
 node
 )
 ;
-PRInt32
+int32_t
 offset
 =
 aRange
@@ -19397,7 +19397,7 @@ do_QueryInterface
 node
 )
 ;
-PRUint32
+uint32_t
 count
 =
 node
@@ -19425,7 +19425,7 @@ count
 =
 =
 (
-PRUint32
+uint32_t
 )
 offset
 )
@@ -19474,7 +19474,7 @@ if
 priorNodeAsCharData
 )
 {
-PRUint32
+uint32_t
 length
 =
 priorNode
@@ -19633,7 +19633,7 @@ if
 nextNodeAsCharData
 )
 {
-PRUint32
+uint32_t
 length
 =
 nextNode
@@ -19943,7 +19943,7 @@ if
 selectedNodeAsCharData
 )
 {
-PRUint32
+uint32_t
 position
 =
 0
@@ -20088,12 +20088,12 @@ CreateRange
 nsIDOMNode
 *
 aStartParent
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndParent
-PRInt32
+int32_t
 aEndOffset
 nsIDOMRange
 *
@@ -20194,7 +20194,7 @@ parentNode
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 offset
 =
 GetChildOffset
@@ -20733,17 +20733,17 @@ aSelection
 nsIDOMNode
 *
 previousSelectedNode
-PRInt32
+int32_t
 previousSelectedOffset
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -20756,7 +20756,7 @@ mInlineSpellChecker
 SpellCheckAfterEditorChange
 (
 (
-PRInt32
+int32_t
 )
 action
 aSelection
@@ -21076,7 +21076,7 @@ if
 isTargetDoc
 )
 {
-PRInt32
+int32_t
 rangeCount
 ;
 selection
@@ -21437,7 +21437,7 @@ nsEditor
 :
 SwitchTextDirectionTo
 (
-PRUint32
+uint32_t
 aDirection
 )
 {
@@ -21632,11 +21632,11 @@ DumpNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 indent
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -21764,7 +21764,7 @@ childList
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 numChildren
 ;
 childList

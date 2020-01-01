@@ -238,7 +238,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -262,7 +262,7 @@ i
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -421,7 +421,7 @@ char
 *
 GetPrefNameForFeature
 (
-PRInt32
+int32_t
 aFeature
 )
 {
@@ -587,9 +587,9 @@ static
 bool
 GetPrefValueForFeature
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 &
 aValue
 )
@@ -635,9 +635,9 @@ static
 void
 SetPrefValueForFeature
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 aValue
 )
 {
@@ -672,7 +672,7 @@ static
 void
 RemovePrefForFeature
 (
-PRInt32
+int32_t
 aFeature
 )
 {
@@ -1012,7 +1012,7 @@ nsIDOMNodeList
 aDevices
 )
 {
-PRUint32
+uint32_t
 length
 ;
 if
@@ -1041,7 +1041,7 @@ GfxDeviceFamily
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1112,7 +1112,7 @@ deviceIds
 ;
 }
 static
-PRInt32
+int32_t
 BlacklistFeatureToGfxFeature
 (
 const
@@ -1277,7 +1277,7 @@ return
 ;
 }
 static
-PRInt32
+int32_t
 BlacklistFeatureStatusToGfxFeatureStatus
 (
 const
@@ -1960,7 +1960,7 @@ dataNode
 dataValue
 )
 ;
-PRUint64
+uint64_t
 version
 ;
 if
@@ -2032,7 +2032,7 @@ GfxDriverInfo
 aDriverInfo
 )
 {
-PRUint32
+uint32_t
 length
 ;
 if
@@ -2066,7 +2066,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2325,9 +2325,9 @@ GfxInfoBase
 :
 GetFeatureStatus
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 *
 aStatus
 )
@@ -2363,7 +2363,7 @@ driverInfo
 )
 ;
 }
-PRInt32
+int32_t
 GfxInfoBase
 :
 :
@@ -2379,13 +2379,13 @@ info
 nsAString
 &
 aSuggestedVersion
-PRInt32
+int32_t
 aFeature
 OperatingSystem
 os
 )
 {
-PRInt32
+int32_t
 status
 =
 nsIGfxInfo
@@ -2435,7 +2435,7 @@ return
 0
 ;
 }
-PRUint64
+uint64_t
 driverVersion
 ;
 ParseDriverVersion
@@ -2445,7 +2445,7 @@ adapterDriverVersionString
 driverVersion
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -2574,7 +2574,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -3091,9 +3091,9 @@ GfxInfoBase
 :
 GetFeatureStatusImpl
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 *
 aStatus
 nsAString
@@ -3183,7 +3183,7 @@ return
 NS_OK
 ;
 }
-PRUint64
+uint64_t
 driverVersion
 ;
 ParseDriverVersion
@@ -3193,7 +3193,7 @@ adapterDriverVersionString
 driverVersion
 )
 ;
-PRInt32
+int32_t
 status
 ;
 if
@@ -3286,7 +3286,7 @@ GfxInfoBase
 :
 GetFeatureSuggestedDriverVersion
 (
-PRInt32
+int32_t
 aFeature
 nsAString
 &
@@ -3315,7 +3315,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 status
 ;
 nsTArray
@@ -3375,7 +3375,7 @@ GfxDriverInfo
 aDriverInfo
 )
 {
-PRInt32
+int32_t
 features
 [
 ]
@@ -3429,7 +3429,7 @@ i
 ]
 )
 {
-PRInt32
+int32_t
 status
 ;
 nsAutoString
@@ -3600,7 +3600,7 @@ GfxInfoBase
 :
 GetFailures
 (
-PRUint32
+uint32_t
 *
 failureCount
 char
@@ -3672,7 +3672,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3814,7 +3814,7 @@ aCx
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3915,7 +3915,7 @@ InitCollectors
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

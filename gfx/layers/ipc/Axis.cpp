@@ -114,7 +114,7 @@ Axis
 :
 UpdateWithTouchAtDevicePoint
 (
-PRInt32
+int32_t
 aPos
 const
 TimeDuration
@@ -274,7 +274,7 @@ Axis
 :
 StartTouch
 (
-PRInt32
+int32_t
 aPos
 )
 {
@@ -291,7 +291,7 @@ mLockPanning
 false
 ;
 }
-PRInt32
+int32_t
 Axis
 :
 :
@@ -324,7 +324,7 @@ mAcceleration
 )
 )
 ;
-PRInt32
+int32_t
 displacement
 =
 NS_lround
@@ -562,7 +562,7 @@ return
 OVERSCROLL_NONE
 ;
 }
-PRInt32
+int32_t
 Axis
 :
 :
@@ -641,7 +641,7 @@ Axis
 :
 DisplacementWillOverscroll
 (
-PRInt32
+int32_t
 aDisplacement
 )
 {
@@ -705,13 +705,13 @@ return
 OVERSCROLL_NONE
 ;
 }
-PRInt32
+int32_t
 Axis
 :
 :
 DisplacementWillOverscrollAmount
 (
-PRInt32
+int32_t
 aDisplacement
 )
 {
@@ -773,11 +773,11 @@ ScaleWillOverscroll
 (
 float
 aScale
-PRInt32
+int32_t
 aFocus
 )
 {
-PRInt32
+int32_t
 originAfterScale
 =
 NS_lround
@@ -876,7 +876,7 @@ return
 OVERSCROLL_NONE
 ;
 }
-PRInt32
+int32_t
 Axis
 :
 :
@@ -884,11 +884,11 @@ ScaleWillOverscrollAmount
 (
 float
 aScale
-PRInt32
+int32_t
 aFocus
 )
 {
-PRInt32
+int32_t
 originAfterScale
 =
 NS_lround
@@ -970,7 +970,7 @@ return
 mVelocity
 ;
 }
-PRInt32
+int32_t
 Axis
 :
 :
@@ -988,7 +988,7 @@ GetViewportLength
 )
 ;
 }
-PRInt32
+int32_t
 Axis
 :
 :
@@ -1006,7 +1006,7 @@ GetPageLength
 )
 ;
 }
-PRInt32
+int32_t
 Axis
 :
 :
@@ -1033,7 +1033,7 @@ origin
 )
 ;
 }
-PRInt32
+int32_t
 Axis
 :
 :
@@ -1103,7 +1103,7 @@ scaledViewport
 )
 ;
 }
-PRInt32
+int32_t
 Axis
 :
 :
@@ -1133,7 +1133,7 @@ pageRect
 )
 ;
 }
-PRInt32
+int32_t
 Axis
 :
 :
@@ -1278,7 +1278,7 @@ aAsyncPanZoomController
 )
 {
 }
-PRInt32
+int32_t
 AxisX
 :
 :
@@ -1296,7 +1296,7 @@ aPoint
 x
 ;
 }
-PRInt32
+int32_t
 AxisX
 :
 :
@@ -1320,7 +1320,7 @@ width
 )
 ;
 }
-PRInt32
+int32_t
 AxisX
 :
 :
@@ -1360,7 +1360,7 @@ aAsyncPanZoomController
 )
 {
 }
-PRInt32
+int32_t
 AxisY
 :
 :
@@ -1378,7 +1378,7 @@ aPoint
 y
 ;
 }
-PRInt32
+int32_t
 AxisY
 :
 :
@@ -1402,7 +1402,7 @@ height
 )
 ;
 }
-PRInt32
+int32_t
 AxisY
 :
 :

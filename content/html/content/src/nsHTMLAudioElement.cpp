@@ -281,7 +281,7 @@ aContext
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -346,9 +346,9 @@ nsHTMLAudioElement
 :
 MozSetup
 (
-PRUint32
+uint32_t
 aChannels
-PRUint32
+uint32_t
 aRate
 )
 {
@@ -466,7 +466,7 @@ aData
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 *
 aRetVal
 )
@@ -583,7 +583,7 @@ setObject
 tsrc
 )
 ;
-PRUint32
+uint32_t
 dataLength
 =
 JS_GetTypedArrayLength
@@ -606,7 +606,7 @@ return
 NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 }
-PRUint32
+uint32_t
 writeLen
 =
 NS_MIN
@@ -652,7 +652,7 @@ mChannels
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -801,7 +801,7 @@ nsHTMLAudioElement
 :
 MozCurrentSampleOffset
 (
-PRUint64
+uint64_t
 *
 aRetVal
 )
@@ -816,7 +816,7 @@ return
 NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 }
-PRInt64
+int64_t
 position
 =
 mAudioStream

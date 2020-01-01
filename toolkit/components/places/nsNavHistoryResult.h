@@ -79,13 +79,13 @@ public
 :
 typedef
 const
-PRInt64
+int64_t
 &
 KeyType
 ;
 typedef
 const
-PRInt64
+int64_t
 *
 KeyTypePointer
 ;
@@ -174,7 +174,7 @@ aKey
 return
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 (
@@ -196,7 +196,7 @@ true
 private
 :
 const
-PRInt64
+int64_t
 mValue
 ;
 }
@@ -213,24 +213,24 @@ OnVisit
 nsIURI
 *
 aURI
-PRInt64
+int64_t
 aVisitId
 PRTime
 aTime
 \
-PRInt64
+int64_t
 aSessionId
-PRInt64
+int64_t
 aReferringId
 \
-PRUint32
+uint32_t
 aTransitionType
 const
 nsACString
 &
 aGUID
 \
-PRUint32
+uint32_t
 *
 aAdded
 )
@@ -265,7 +265,7 @@ nsACString
 &
 aGUID
 \
-PRUint16
+uint16_t
 aReason
 )
 ;
@@ -281,7 +281,7 @@ nsACString
 &
 aGUID
 \
-PRUint16
+uint16_t
 aReason
 )
 ;
@@ -298,7 +298,7 @@ OnPageChanged
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aChangedAttribute
 \
 const
@@ -326,7 +326,7 @@ const
 nsACString
 &
 aGUID
-PRUint16
+uint16_t
 aReason
 )
 ;
@@ -371,7 +371,7 @@ nsINavHistoryQuery
 *
 *
 aQueries
-PRUint32
+uint32_t
 aQueryCount
 nsNavHistoryQueryOptions
 *
@@ -413,7 +413,7 @@ AddBookmarkFolderObserver
 nsNavHistoryFolderResultNode
 *
 aNode
-PRInt64
+int64_t
 aFolder
 )
 ;
@@ -439,7 +439,7 @@ RemoveBookmarkFolderObserver
 nsNavHistoryFolderResultNode
 *
 aNode
-PRInt64
+int64_t
 aFolder
 )
 ;
@@ -478,7 +478,7 @@ nsINavHistoryQuery
 *
 *
 aQueries
-PRUint32
+uint32_t
 aQueryCount
 nsNavHistoryQueryOptions
 *
@@ -503,7 +503,7 @@ nsNavHistoryQueryOptions
 >
 mOptions
 ;
-PRUint16
+uint16_t
 mSortingMode
 ;
 bool
@@ -559,7 +559,7 @@ FolderObserverList
 *
 BookmarkFolderObserversForId
 (
-PRInt64
+int64_t
 aFolderId
 bool
 aCreate
@@ -664,7 +664,7 @@ NS_OK
 NS_IMETHOD
 GetAccessCount
 (
-PRUint32
+uint32_t
 *
 aAccessCount
 )
@@ -702,7 +702,7 @@ NS_OK
 NS_IMETHOD
 GetIndentLevel
 (
-PRInt32
+int32_t
 *
 aIndentLevel
 )
@@ -721,7 +721,7 @@ NS_OK
 NS_IMETHOD
 GetBookmarkIndex
 (
-PRInt32
+int32_t
 *
 aIndex
 )
@@ -783,7 +783,7 @@ NS_IMPLEMENT_SIMPLE_RESULTNODE_NO_GETITEMMID
 NS_IMETHOD
 GetItemId
 (
-PRInt64
+int64_t
 *
 aId
 )
@@ -894,7 +894,7 @@ NS_FORWARD_COMMON_RESULTNODE_TO_BASE_NO_GETITEMMID
 NS_IMETHOD
 GetItemId
 (
-PRInt64
+int64_t
 *
 aId
 )
@@ -927,7 +927,7 @@ const
 nsACString
 &
 aTitle
-PRUint32
+uint32_t
 aAccessCount
 PRTime
 aTime
@@ -983,7 +983,7 @@ aResult
 NS_IMETHOD
 GetType
 (
-PRUint32
+uint32_t
 *
 type
 )
@@ -1033,7 +1033,7 @@ OnRemoving
 NS_IMETHOD
 OnItemChanged
 (
-PRInt64
+int64_t
 aItemId
 const
 nsACString
@@ -1047,9 +1047,9 @@ nsACString
 aValue
 PRTime
 aNewLastModified
-PRUint16
+uint16_t
 aItemType
-PRInt64
+int64_t
 aParentId
 const
 nsACString
@@ -1078,7 +1078,7 @@ GetGeneratingOptions
 bool
 IsTypeContainer
 (
-PRUint32
+uint32_t
 type
 )
 {
@@ -1117,7 +1117,7 @@ IsContainer
 (
 )
 {
-PRUint32
+uint32_t
 type
 ;
 GetType
@@ -1137,7 +1137,7 @@ static
 bool
 IsTypeURI
 (
-PRUint32
+uint32_t
 type
 )
 {
@@ -1176,7 +1176,7 @@ IsURI
 (
 )
 {
-PRUint32
+uint32_t
 type
 ;
 GetType
@@ -1196,7 +1196,7 @@ static
 bool
 IsTypeVisit
 (
-PRUint32
+uint32_t
 type
 )
 {
@@ -1226,7 +1226,7 @@ IsVisit
 (
 )
 {
-PRUint32
+uint32_t
 type
 ;
 GetType
@@ -1246,7 +1246,7 @@ static
 bool
 IsTypeFolder
 (
-PRUint32
+uint32_t
 type
 )
 {
@@ -1276,7 +1276,7 @@ IsFolder
 (
 )
 {
-PRUint32
+uint32_t
 type
 ;
 GetType
@@ -1296,7 +1296,7 @@ static
 bool
 IsTypeQuery
 (
-PRUint32
+uint32_t
 type
 )
 {
@@ -1317,7 +1317,7 @@ IsQuery
 (
 )
 {
-PRUint32
+uint32_t
 type
 ;
 GetType
@@ -1338,7 +1338,7 @@ IsSeparator
 (
 )
 {
-PRUint32
+uint32_t
 type
 ;
 GetType
@@ -1493,22 +1493,22 @@ mTags
 bool
 mAreTagsSorted
 ;
-PRUint32
+uint32_t
 mAccessCount
 ;
-PRInt64
+int64_t
 mTime
 ;
 nsCString
 mFaviconURI
 ;
-PRInt32
+int32_t
 mBookmarkIndex
 ;
-PRInt64
+int64_t
 mItemId
 ;
-PRInt64
+int64_t
 mFolderId
 ;
 PRTime
@@ -1517,10 +1517,10 @@ mDateAdded
 PRTime
 mLastModified
 ;
-PRInt32
+int32_t
 mIndentLevel
 ;
-PRInt32
+int32_t
 mFrecency
 ;
 }
@@ -1554,7 +1554,7 @@ NS_OK
 NS_IMETHOD
 GetSessionId
 (
-PRInt64
+int64_t
 *
 aSessionId
 )
@@ -1589,7 +1589,7 @@ const
 nsACString
 &
 aTitle
-PRUint32
+uint32_t
 aAccessCount
 PRTime
 aTime
@@ -1597,7 +1597,7 @@ const
 nsACString
 &
 aIconURI
-PRInt64
+int64_t
 aSession
 )
 ;
@@ -1606,7 +1606,7 @@ NS_FORWARD_COMMON_RESULTNODE_TO_BASE
 NS_IMETHOD
 GetType
 (
-PRUint32
+uint32_t
 *
 type
 )
@@ -1626,7 +1626,7 @@ NS_OK
 NS_IMPLEMENT_VISITRESULT
 public
 :
-PRInt64
+int64_t
 mSessionId
 ;
 }
@@ -1640,7 +1640,7 @@ NS_IMPLEMENT_VISITRESULT
 NS_IMETHOD
 GetVisitId
 (
-PRInt64
+int64_t
 *
 aVisitId
 )
@@ -1659,7 +1659,7 @@ NS_OK
 NS_IMETHOD
 GetReferringVisitId
 (
-PRInt64
+int64_t
 *
 aReferringVisitId
 )
@@ -1678,7 +1678,7 @@ NS_OK
 NS_IMETHOD
 GetTransitionType
 (
-PRInt32
+int32_t
 *
 aTransitionType
 )
@@ -1713,7 +1713,7 @@ const
 nsACString
 &
 aTitle
-PRUint32
+uint32_t
 aAccessCount
 PRTime
 aTime
@@ -1721,13 +1721,13 @@ const
 nsACString
 &
 aIconURI
-PRInt64
+int64_t
 aSession
-PRInt64
+int64_t
 aVisitId
-PRInt64
+int64_t
 aReferringVisitId
-PRInt32
+int32_t
 aTransitionType
 )
 ;
@@ -1736,7 +1736,7 @@ NS_FORWARD_COMMON_RESULTNODE_TO_BASE
 NS_IMETHOD
 GetType
 (
-PRUint32
+uint32_t
 *
 type
 )
@@ -1756,13 +1756,13 @@ NS_OK
 NS_IMPLEMENT_FULLVISITRESULT
 public
 :
-PRInt64
+int64_t
 mVisitId
 ;
-PRInt64
+int64_t
 mReferringVisitId
 ;
-PRInt32
+int32_t
 mTransitionType
 ;
 }
@@ -1774,7 +1774,7 @@ NS_FORWARD_CONTAINERNODE_EXCEPT_HASCHILDREN_AND_READONLY
 NS_IMETHOD
 GetState
 (
-PRUint16
+uint16_t
 *
 _state
 )
@@ -1833,7 +1833,7 @@ aContainerOpen
 NS_IMETHOD
 GetChildCount
 (
-PRUint32
+uint32_t
 *
 aChildCount
 )
@@ -1853,7 +1853,7 @@ aChildCount
 NS_IMETHOD
 GetChild
 (
-PRUint32
+uint32_t
 index
 nsINavHistoryResultNode
 *
@@ -1880,7 +1880,7 @@ GetChildIndex
 nsINavHistoryResultNode
 *
 aNode
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -1908,7 +1908,7 @@ aURIString
 PRTime
 aTime
 \
-PRInt64
+int64_t
 aItemId
 bool
 aRecursive
@@ -1978,7 +1978,7 @@ const
 nsACString
 &
 aIconURI
-PRUint32
+uint32_t
 aContainerType
 bool
 aReadOnly
@@ -2003,7 +2003,7 @@ const
 nsACString
 &
 aIconURI
-PRUint32
+uint32_t
 aContainerType
 bool
 aReadOnly
@@ -2038,7 +2038,7 @@ NS_FORWARD_COMMON_RESULTNODE_TO_BASE
 NS_IMETHOD
 GetType
 (
-PRUint32
+uint32_t
 *
 type
 )
@@ -2109,7 +2109,7 @@ nsNavHistoryResult
 >
 mResult
 ;
-PRUint32
+uint32_t
 mContainerType
 ;
 bool
@@ -2138,7 +2138,7 @@ FillStats
 nsresult
 ReverseUpdateStats
 (
-PRInt32
+int32_t
 aAccessCountChange
 )
 ;
@@ -2153,7 +2153,7 @@ nsCOMArrayComparatorFunc
 SortComparator
 ;
 virtual
-PRUint16
+uint16_t
 GetSortType
 (
 )
@@ -2171,7 +2171,7 @@ static
 SortComparator
 GetSortingComparator
 (
-PRUint16
+uint16_t
 aSortType
 )
 ;
@@ -2187,7 +2187,7 @@ SortComparator
 aComparator
 )
 ;
-PRUint32
+uint32_t
 FindInsertionPoint
 (
 nsNavHistoryResultNode
@@ -2207,7 +2207,7 @@ aItemExists
 bool
 DoesChildNeedResorting
 (
-PRUint32
+uint32_t
 aIndex
 SortComparator
 aComparator
@@ -2218,7 +2218,7 @@ aData
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_StringLess
 (
 const
@@ -2232,7 +2232,7 @@ b
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_Bookmark
 (
 nsNavHistoryResultNode
@@ -2247,7 +2247,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_TitleLess
 (
 nsNavHistoryResultNode
@@ -2262,7 +2262,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_TitleGreater
 (
 nsNavHistoryResultNode
@@ -2277,7 +2277,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_DateLess
 (
 nsNavHistoryResultNode
@@ -2292,7 +2292,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_DateGreater
 (
 nsNavHistoryResultNode
@@ -2307,7 +2307,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_URILess
 (
 nsNavHistoryResultNode
@@ -2322,7 +2322,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_URIGreater
 (
 nsNavHistoryResultNode
@@ -2337,7 +2337,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_VisitCountLess
 (
 nsNavHistoryResultNode
@@ -2352,7 +2352,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_VisitCountGreater
 (
 nsNavHistoryResultNode
@@ -2367,7 +2367,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_KeywordLess
 (
 nsNavHistoryResultNode
@@ -2382,7 +2382,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_KeywordGreater
 (
 nsNavHistoryResultNode
@@ -2397,7 +2397,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_AnnotationLess
 (
 nsNavHistoryResultNode
@@ -2412,7 +2412,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_AnnotationGreater
 (
 nsNavHistoryResultNode
@@ -2427,7 +2427,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_DateAddedLess
 (
 nsNavHistoryResultNode
@@ -2442,7 +2442,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_DateAddedGreater
 (
 nsNavHistoryResultNode
@@ -2457,7 +2457,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_LastModifiedLess
 (
 nsNavHistoryResultNode
@@ -2472,7 +2472,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_LastModifiedGreater
 (
 nsNavHistoryResultNode
@@ -2487,7 +2487,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_TagsLess
 (
 nsNavHistoryResultNode
@@ -2502,7 +2502,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_TagsGreater
 (
 nsNavHistoryResultNode
@@ -2517,7 +2517,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_FrecencyLess
 (
 nsNavHistoryResultNode
@@ -2532,7 +2532,7 @@ closure
 )
 ;
 static
-PRInt32
+int32_t
 SortComparison_FrecencyGreater
 (
 nsNavHistoryResultNode
@@ -2553,7 +2553,7 @@ FindChildURI
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 *
 aNodeIndex
 )
@@ -2593,7 +2593,7 @@ const
 nsACString
 &
 aSpec
-PRUint32
+uint32_t
 *
 aNodeIndex
 )
@@ -2606,12 +2606,12 @@ const
 nsACString
 &
 aTitle
-PRUint32
+uint32_t
 *
 aNodeIndex
 )
 ;
-PRInt32
+int32_t
 FindChild
 (
 nsNavHistoryResultNode
@@ -2634,7 +2634,7 @@ InsertChildAt
 nsNavHistoryResultNode
 *
 aNode
-PRInt32
+int32_t
 aIndex
 bool
 aIsTemporary
@@ -2661,7 +2661,7 @@ false
 bool
 EnsureItemPosition
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -2679,7 +2679,7 @@ aNodes
 nsresult
 ReplaceChildURIAt
 (
-PRUint32
+uint32_t
 aIndex
 nsNavHistoryResultNode
 *
@@ -2689,7 +2689,7 @@ aNode
 nsresult
 RemoveChildAt
 (
-PRInt32
+int32_t
 aIndex
 bool
 aIsTemporary
@@ -2784,7 +2784,7 @@ aRestart
 nsresult
 NotifyOnStateChange
 (
-PRUint16
+uint16_t
 aOldState
 )
 ;
@@ -2887,7 +2887,7 @@ NS_FORWARD_COMMON_RESULTNODE_TO_BASE
 NS_IMETHOD
 GetType
 (
-PRUint32
+uint32_t
 *
 type
 )
@@ -2976,7 +2976,7 @@ nsNavHistoryQuery
 >
 mQueries
 ;
-PRUint32
+uint32_t
 mLiveUpdate
 ;
 bool
@@ -3014,7 +3014,7 @@ Refresh
 )
 ;
 virtual
-PRUint16
+uint16_t
 GetSortType
 (
 )
@@ -3054,7 +3054,7 @@ nsIURI
 aURI
 )
 ;
-PRUint32
+uint32_t
 mBatchChanges
 ;
 }
@@ -3086,7 +3086,7 @@ aTitle
 nsNavHistoryQueryOptions
 *
 options
-PRInt64
+int64_t
 aFolderId
 )
 ;
@@ -3101,7 +3101,7 @@ NS_FORWARD_COMMON_RESULTNODE_TO_BASE_NO_GETITEMMID
 NS_IMETHOD
 GetType
 (
-PRUint32
+uint32_t
 *
 type
 )
@@ -3167,7 +3167,7 @@ aChildrenReadOnly
 NS_IMETHOD
 GetItemId
 (
-PRInt64
+int64_t
 *
 aItemId
 )
@@ -3196,7 +3196,7 @@ OnRemoving
 bool
 mContentsValid
 ;
-PRInt64
+int64_t
 mQueryItemId
 ;
 nsresult
@@ -3224,11 +3224,11 @@ StartIncrementalUpdate
 void
 ReindexRange
 (
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 aEndIndex
-PRInt32
+int32_t
 aDelta
 )
 ;
@@ -3236,9 +3236,9 @@ nsNavHistoryResultNode
 *
 FindChildById
 (
-PRInt64
+int64_t
 aItemId
-PRUint32
+uint32_t
 *
 aNodeIndex
 )
@@ -3263,7 +3263,7 @@ FillChildrenAsync
 bool
 mIsRegisteredFolderObserver
 ;
-PRInt32
+int32_t
 mAsyncBookmarkIndex
 ;
 }
@@ -3283,7 +3283,7 @@ nsNavHistorySeparatorResultNode
 NS_IMETHOD
 GetType
 (
-PRUint32
+uint32_t
 *
 type
 )

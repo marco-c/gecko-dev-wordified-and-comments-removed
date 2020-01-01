@@ -116,7 +116,7 @@ AsyncStatementCallback
 :
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -138,7 +138,7 @@ aError
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 result
 ;
 nsresult
@@ -276,7 +276,7 @@ Bind
 mozIStorageStatement
 *
 aStatement
-PRInt32
+int32_t
 aIndex
 nsIURI
 *
@@ -336,7 +336,7 @@ Bind
 mozIStorageStatement
 *
 aStatement
-PRInt32
+int32_t
 index
 const
 nsACString
@@ -490,7 +490,7 @@ Bind
 mozIStorageBindingParams
 *
 aParams
-PRInt32
+int32_t
 aIndex
 nsIURI
 *
@@ -550,7 +550,7 @@ Bind
 mozIStorageBindingParams
 *
 aParams
-PRInt32
+int32_t
 index
 const
 nsACString
@@ -811,7 +811,7 @@ Truncate
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aInput
@@ -849,17 +849,17 @@ nsresult
 Base64urlEncode
 (
 const
-PRUint8
+uint8_t
 *
 aBytes
-PRUint32
+uint32_t
 aNumBytes
 nsCString
 &
 _result
 )
 {
-PRUint32
+uint32_t
 length
 =
 (
@@ -968,9 +968,9 @@ static
 nsresult
 GenerateRandomBytes
 (
-PRUint32
+uint32_t
 aSize
-PRUint8
+uint8_t
 *
 _buffer
 )
@@ -1068,7 +1068,7 @@ if
 urandom
 )
 {
-PRInt32
+int32_t
 bytesRead
 =
 PR_Read
@@ -1085,7 +1085,7 @@ bytesRead
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 aSize
@@ -1143,7 +1143,7 @@ NS_ENSURE_STATE
 rg
 )
 ;
-PRUint8
+uint8_t
 *
 temp
 ;
@@ -1199,12 +1199,12 @@ Truncate
 )
 ;
 const
-PRUint32
+uint32_t
 kRequiredBytesLength
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 GUID_LENGTH
@@ -1214,7 +1214,7 @@ GUID_LENGTH
 3
 )
 ;
-PRUint8
+uint8_t
 buffer
 [
 kRequiredBytesLength
@@ -1529,7 +1529,7 @@ GetHiddenState
 (
 bool
 aIsRedirect
-PRUint32
+uint32_t
 aTransitionType
 )
 {
@@ -1661,7 +1661,7 @@ AsyncStatementCallbackNotifier
 :
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -1720,7 +1720,7 @@ AsyncStatementTelemetryTimer
 :
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {

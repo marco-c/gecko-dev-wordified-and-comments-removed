@@ -346,7 +346,7 @@ NS_OK
 NS_IMETHOD
 Available
 (
-PRUint64
+uint64_t
 *
 aAvailable
 )
@@ -402,9 +402,9 @@ Read
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -453,9 +453,9 @@ aWriter
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -523,9 +523,9 @@ NS_OK
 NS_IMETHOD
 Seek
 (
-PRInt32
+int32_t
 aWhence
-PRInt64
+int64_t
 aOffset
 )
 MOZ_OVERRIDE
@@ -590,7 +590,7 @@ NS_OK
 NS_IMETHOD
 Tell
 (
-PRInt64
+int64_t
 *
 aResult
 )
@@ -1635,10 +1635,10 @@ nsIDOMBlob
 >
 mSlice
 ;
-PRUint64
+uint64_t
 mStart
 ;
-PRUint64
+uint64_t
 mLength
 ;
 nsString
@@ -1694,9 +1694,9 @@ aActor
 nsresult
 GetSlice
 (
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -2046,7 +2046,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -2072,7 +2072,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 :
@@ -2165,9 +2165,9 @@ nsIDOMBlob
 >
 CreateSlice
 (
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -2835,7 +2835,7 @@ const
 nsString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 {
@@ -2910,7 +2910,7 @@ const
 nsString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 {
@@ -3888,7 +3888,7 @@ NS_IsMainThread
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4258,7 +4258,7 @@ if
 mClosing
 )
 {
-PRUint64
+uint64_t
 available
 ;
 if

@@ -209,7 +209,7 @@ _dom_class
 \
 extern
 const
-PRUint32
+uint32_t
 kDOMClassInfo_
 #
 #
@@ -394,7 +394,7 @@ _class
 )
 \
 const
-PRUint32
+uint32_t
 kDOMClassInfo_
 #
 #

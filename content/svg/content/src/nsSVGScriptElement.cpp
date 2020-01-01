@@ -231,7 +231,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -248,7 +248,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -826,7 +826,7 @@ nsSVGScriptElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -880,7 +880,7 @@ nsSVGScriptElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

@@ -143,7 +143,7 @@ aTargetNode
 nsIAtom
 *
 aContextLocalName
-PRInt32
+int32_t
 aContextNamespace
 bool
 aQuirks

@@ -66,7 +66,7 @@ g_JOHABRanges
 ;
 static
 const
-PRUint16
+uint16_t
 g_utJohabJamoMapping
 [
 ]
@@ -83,7 +83,7 @@ ut
 ;
 static
 const
-PRUint16
+uint16_t
 *
 g_JOHABMappingTableSet
 [

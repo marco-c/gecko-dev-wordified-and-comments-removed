@@ -195,7 +195,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -313,7 +313,7 @@ PRUnichar
 *
 *
 aFormatStrings
-PRUint32
+uint32_t
 aFormatStringsLen
 )
 ;
@@ -336,11 +336,11 @@ const
 char
 *
 aFromRawSegment
-PRUint32
+uint32_t
 aToOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -406,7 +406,7 @@ mSrc
 nsString
 mLastEventID
 ;
-PRUint32
+uint32_t
 mReconnectionTime
 ;
 struct
@@ -524,7 +524,7 @@ nsITimer
 >
 mTimer
 ;
-PRInt32
+int32_t
 mReadyState
 ;
 nsString
@@ -539,7 +539,7 @@ mPrincipal
 nsString
 mOrigin
 ;
-PRUint32
+uint32_t
 mRedirectFlags
 ;
 nsCOMPtr
@@ -557,10 +557,10 @@ mNewRedirectChannel
 nsString
 mScriptFile
 ;
-PRUint32
+uint32_t
 mScriptLine
 ;
-PRUint64
+uint64_t
 mInnerWindowID
 ;
 private

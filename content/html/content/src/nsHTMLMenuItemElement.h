@@ -156,7 +156,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -208,7 +208,7 @@ return
 this
 ;
 }
-PRUint8
+uint8_t
 GetType
 (
 )
@@ -252,7 +252,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -319,7 +319,7 @@ true
 }
 private
 :
-PRUint8
+uint8_t
 mType
 :
 2

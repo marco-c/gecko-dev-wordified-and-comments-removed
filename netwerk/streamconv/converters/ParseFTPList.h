@@ -42,10 +42,10 @@ now_time
 PRExplodedTime
 now_tm
 ;
-PRInt32
+int32_t
 lstyle
 ;
-PRInt32
+int32_t
 parsed_one
 ;
 char
@@ -54,10 +54,10 @@ carry_buf
 84
 ]
 ;
-PRUint32
+uint32_t
 carry_buf_len
 ;
-PRUint32
+uint32_t
 numlines
 ;
 }
@@ -65,7 +65,7 @@ numlines
 struct
 list_result
 {
-PRInt32
+int32_t
 fe_type
 ;
 const
@@ -73,7 +73,7 @@ char
 *
 fe_fname
 ;
-PRUint32
+uint32_t
 fe_fnlen
 ;
 const
@@ -81,7 +81,7 @@ char
 *
 fe_lname
 ;
-PRUint32
+uint32_t
 fe_lnlen
 ;
 char
@@ -93,7 +93,7 @@ fe_size
 PRExplodedTime
 fe_time
 ;
-PRInt32
+int32_t
 fe_cinfs
 ;
 }

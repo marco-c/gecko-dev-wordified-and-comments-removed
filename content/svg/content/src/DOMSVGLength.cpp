@@ -163,11 +163,11 @@ DOMSVGLength
 DOMSVGLengthList
 *
 aList
-PRUint8
+uint8_t
 aAttrEnum
-PRUint32
+uint32_t
 aListIndex
-PRUint8
+uint8_t
 aIsAnimValItem
 )
 :
@@ -297,7 +297,7 @@ DOMSVGLength
 :
 GetUnitType
 (
-PRUint16
+uint16_t
 *
 aUnit
 )
@@ -998,7 +998,7 @@ DOMSVGLength
 :
 NewValueSpecifiedUnits
 (
-PRUint16
+uint16_t
 aUnit
 float
 aValue
@@ -1099,7 +1099,7 @@ InternalItem
 SetValueAndUnit
 (
 aValue
-PRUint8
+uint8_t
 (
 aUnit
 )
@@ -1145,7 +1145,7 @@ NS_OK
 }
 mUnit
 =
-PRUint8
+uint8_t
 (
 aUnit
 )
@@ -1164,7 +1164,7 @@ DOMSVGLength
 :
 ConvertToSpecifiedUnits
 (
-PRUint16
+uint16_t
 aUnit
 )
 {
@@ -1239,7 +1239,7 @@ InternalItem
 .
 ConvertToUnit
 (
-PRUint8
+uint8_t
 (
 aUnit
 )
@@ -1283,7 +1283,7 @@ len
 .
 ConvertToUnit
 (
-PRUint8
+uint8_t
 (
 aUnit
 )
@@ -1322,11 +1322,11 @@ InsertingIntoList
 DOMSVGLengthList
 *
 aList
-PRUint8
+uint8_t
 aAttrEnum
-PRUint32
+uint32_t
 aListIndex
-PRUint8
+uint8_t
 aIsAnimValItem
 )
 {

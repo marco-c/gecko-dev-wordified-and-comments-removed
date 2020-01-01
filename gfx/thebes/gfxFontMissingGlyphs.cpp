@@ -136,7 +136,7 @@ b42
 )
 static
 const
-PRUint16
+uint16_t
 glyphMicroFont
 [
 16
@@ -488,7 +488,7 @@ const
 gfxPoint
 &
 aPt
-PRUint32
+uint32_t
 aDigit
 )
 {
@@ -499,7 +499,7 @@ NewPath
 (
 )
 ;
-PRUint32
+uint32_t
 glyphBits
 =
 glyphMicroFont
@@ -595,7 +595,7 @@ const
 gfxRect
 &
 aRect
-PRUint32
+uint32_t
 aChar
 )
 {
@@ -1199,7 +1199,7 @@ gfxFontMissingGlyphs
 :
 GetDesiredMinWidth
 (
-PRUint32
+uint32_t
 aChar
 )
 {

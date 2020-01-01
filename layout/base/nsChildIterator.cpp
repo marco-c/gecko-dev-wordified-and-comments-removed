@@ -141,7 +141,7 @@ if
 nodes
 )
 {
-PRUint32
+uint32_t
 length
 ;
 nodes

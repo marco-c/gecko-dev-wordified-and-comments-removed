@@ -1909,7 +1909,7 @@ nsIDOMDataTransfer
 clone
 (
 in
-PRUint32
+uint32_t
 aEventType
 in
 boolean

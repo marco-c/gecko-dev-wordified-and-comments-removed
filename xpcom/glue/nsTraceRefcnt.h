@@ -36,7 +36,7 @@ _rc
 _type
 )
 (
-PRUint32
+uint32_t
 )
 (
 _size
@@ -306,7 +306,7 @@ const
 char
 *
 aTypeName
-PRUint32
+uint32_t
 aInstanceSize
 )
 {
@@ -355,7 +355,7 @@ const
 char
 *
 aTypeName
-PRUint32
+uint32_t
 aInstanceSize
 )
 {
@@ -379,7 +379,7 @@ const
 char
 *
 aTypeName
-PRUint32
+uint32_t
 aInstanceSize
 )
 {

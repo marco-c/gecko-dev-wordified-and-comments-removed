@@ -321,7 +321,7 @@ nsCocoaWindow
 .
 mm
 extern
-PRInt32
+int32_t
 gXULModalLevel
 ;
 static
@@ -3031,7 +3031,7 @@ self
 mTerminated
 )
 {
-PRInt32
+int32_t
 releaseCount
 =
 0
@@ -6141,7 +6141,7 @@ mNativeEventCallbackDepth
 mNativeEventScheduledDepth
 )
 {
-PRInt32
+int32_t
 releaseCount
 =
 PR_ATOMIC_SET
@@ -6263,7 +6263,7 @@ nsIThreadInternal
 aThread
 bool
 aMayWait
-PRUint32
+uint32_t
 aRecursionDepth
 )
 {
@@ -6373,7 +6373,7 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 aThread
-PRUint32
+uint32_t
 aRecursionDepth
 )
 {

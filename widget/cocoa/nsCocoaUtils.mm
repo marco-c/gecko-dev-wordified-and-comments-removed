@@ -1559,7 +1559,7 @@ CGImageRef
 aResult
 )
 {
-PRInt32
+int32_t
 width
 =
 aFrame
@@ -1569,7 +1569,7 @@ Width
 (
 )
 ;
-PRInt32
+int32_t
 stride
 =
 aFrame
@@ -1579,7 +1579,7 @@ Stride
 (
 )
 ;
-PRInt32
+int32_t
 height
 =
 aFrame
@@ -1748,7 +1748,7 @@ aResult
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
-PRInt32
+int32_t
 width
 =
 :
@@ -1758,7 +1758,7 @@ CGImageGetWidth
 aInputImage
 )
 ;
-PRInt32
+int32_t
 height
 =
 :
@@ -1878,7 +1878,7 @@ CreateNSImageFromImageContainer
 imgIContainer
 *
 aImage
-PRUint32
+uint32_t
 aWhichFrame
 NSImage
 *

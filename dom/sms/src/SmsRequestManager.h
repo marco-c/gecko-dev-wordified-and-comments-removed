@@ -71,7 +71,7 @@ SmsRequest
 *
 GetRequest
 (
-PRInt32
+int32_t
 aRequestId
 )
 ;
@@ -83,7 +83,7 @@ T
 nsresult
 NotifySuccess
 (
-PRInt32
+int32_t
 aRequestId
 T
 aParam
@@ -92,9 +92,9 @@ aParam
 nsresult
 NotifyError
 (
-PRInt32
+int32_t
 aRequestId
-PRInt32
+int32_t
 aError
 )
 ;

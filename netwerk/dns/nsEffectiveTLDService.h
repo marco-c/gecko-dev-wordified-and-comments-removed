@@ -271,7 +271,7 @@ GetBaseDomainInternal
 nsCString
 &
 aHostname
-PRUint32
+uint32_t
 aAdditionalParts
 nsACString
 &

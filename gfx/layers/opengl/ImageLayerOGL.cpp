@@ -777,7 +777,7 @@ aContext
 return
 ;
 }
-PRUint32
+uint32_t
 last
 =
 mRecycledTextures
@@ -4341,7 +4341,7 @@ SharedImage
 TSharedImageID
 )
 {
-PRUint64
+uint64_t
 newID
 =
 aNewFront
@@ -5093,7 +5093,7 @@ GetCompositorID
 )
 )
 ;
-PRUint32
+uint32_t
 imgVersion
 =
 ImageContainerParent

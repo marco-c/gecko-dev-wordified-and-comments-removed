@@ -200,7 +200,7 @@ CalcSampleValues
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -497,7 +497,7 @@ const
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -578,7 +578,7 @@ currentX
 double
 currentT
 ;
-PRUint32
+uint32_t
 i
 =
 0

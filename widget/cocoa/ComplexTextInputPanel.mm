@@ -576,7 +576,7 @@ NSNotification
 notification
 {
 static
-PRInt8
+int8_t
 sDoCancel
 =
 -

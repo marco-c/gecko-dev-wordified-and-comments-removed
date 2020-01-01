@@ -67,7 +67,7 @@ nsSVGFilterInstance
 :
 GetPrimitiveNumber
 (
-PRUint8
+uint8_t
 aCtxType
 float
 aValue
@@ -670,7 +670,7 @@ SubregionIsUnionOfRegions
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1110,7 +1110,7 @@ Init
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1164,7 +1164,7 @@ sources
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1470,7 +1470,7 @@ ComputeResultBoundingBoxes
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1507,7 +1507,7 @@ sourceBBoxes
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1601,7 +1601,7 @@ ComputeResultChangeBoxes
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1638,7 +1638,7 @@ sourceChangeBoxes
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1758,7 +1758,7 @@ mPostFilterDirtyRect
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mPrimitives
@@ -1798,7 +1798,7 @@ sourceBBoxes
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1855,7 +1855,7 @@ this
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1978,7 +1978,7 @@ mResultNeededBox
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2763,13 +2763,13 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 const
-PRUint32
+uint32_t
 *
 src
 =
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -2781,13 +2781,13 @@ Data
 )
 )
 ;
-PRUint32
+uint32_t
 *
 dest
 =
 reinterpret_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -2805,7 +2805,7 @@ Data
 ;
 for
 (
-PRInt32
+int32_t
 y
 =
 0
@@ -2821,7 +2821,7 @@ y
 +
 )
 {
-PRUint32
+uint32_t
 rowOffset
 =
 (
@@ -2844,7 +2844,7 @@ y
 ;
 for
 (
-PRInt32
+int32_t
 x
 =
 0
@@ -2923,7 +2923,7 @@ currentModel
 )
 return
 ;
-PRUint8
+uint8_t
 *
 data
 =
@@ -2939,7 +2939,7 @@ Data
 (
 )
 ;
-PRInt32
+int32_t
 stride
 =
 aPrimitive
@@ -3187,7 +3187,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3278,7 +3278,7 @@ inputs
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -3501,7 +3501,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0

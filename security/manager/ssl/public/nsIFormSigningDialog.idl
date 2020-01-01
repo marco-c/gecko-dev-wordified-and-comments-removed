@@ -174,10 +174,10 @@ in
 wstring
 certDetailsList
 in
-PRUint32
+uint32_t
 count
 out
-PRInt32
+int32_t
 selectedIndex
 out
 AString

@@ -72,7 +72,7 @@ private
 :
 static
 const
-PRUint32
+uint32_t
 kLocalBufferSize
 =
 16

@@ -267,7 +267,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -432,7 +432,7 @@ return
 mType
 ;
 }
-PRUint32
+uint32_t
 GetSteps
 (
 )
@@ -450,7 +450,7 @@ mType
 nsSMILKeySpline
 mTimingFunction
 ;
-PRUint32
+uint32_t
 mSteps
 ;
 }

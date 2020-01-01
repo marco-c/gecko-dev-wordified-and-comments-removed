@@ -22,7 +22,7 @@ PR_STATIC_ASSERT
 (
 sizeof
 (
-PRUint32
+uint32_t
 )
 =
 =
@@ -33,7 +33,7 @@ PR_STATIC_ASSERT
 (
 sizeof
 (
-PRUint64
+uint64_t
 )
 =
 =
@@ -91,7 +91,7 @@ define
 MAX_SIZE_OF_MAR_FILE
 (
 (
-PRInt64
+int64_t
 )
 524288000
 )
@@ -101,7 +101,7 @@ MAX_SIZE_OF_MAR_FILE
 <
 (
 (
-PRInt64
+int64_t
 )
 LONG_MAX
 )
@@ -120,7 +120,7 @@ SIGNATURE_BLOCK_OFFSET
 +
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 )
@@ -144,7 +144,7 @@ namelen
 *
 sizeof
 (
-PRUint32
+uint32_t
 )
 +
 (
@@ -222,7 +222,7 @@ x
 (
 (
 (
-PRUint64
+uint64_t
 )
 x
 )
@@ -239,7 +239,7 @@ x
 (
 (
 (
-PRUint64
+uint64_t
 )
 x
 )
@@ -261,7 +261,7 @@ x
 (
 (
 (
-PRUint64
+uint64_t
 )
 x
 )
@@ -283,7 +283,7 @@ x
 (
 (
 (
-PRUint64
+uint64_t
 )
 x
 )
@@ -305,7 +305,7 @@ x
 (
 (
 (
-PRUint64
+uint64_t
 )
 x
 )
@@ -327,7 +327,7 @@ x
 (
 (
 (
-PRUint64
+uint64_t
 )
 x
 )
@@ -349,7 +349,7 @@ x
 (
 (
 (
-PRUint64
+uint64_t
 )
 x
 )
@@ -369,7 +369,7 @@ x
 (
 (
 (
-PRUint64
+uint64_t
 )
 x
 )

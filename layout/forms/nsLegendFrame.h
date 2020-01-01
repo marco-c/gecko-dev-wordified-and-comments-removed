@@ -87,7 +87,7 @@ const
 ;
 #
 endif
-PRInt32
+int32_t
 GetAlign
 (
 )

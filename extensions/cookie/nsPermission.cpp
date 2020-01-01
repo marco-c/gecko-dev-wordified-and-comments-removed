@@ -23,11 +23,11 @@ const
 nsACString
 &
 aType
-PRUint32
+uint32_t
 aCapability
-PRUint32
+uint32_t
 aExpireType
-PRInt64
+int64_t
 aExpireTime
 )
 :
@@ -106,7 +106,7 @@ nsPermission
 :
 GetCapability
 (
-PRUint32
+uint32_t
 *
 aCapability
 )
@@ -126,7 +126,7 @@ nsPermission
 :
 GetExpireType
 (
-PRUint32
+uint32_t
 *
 aExpireType
 )
@@ -146,7 +146,7 @@ nsPermission
 :
 GetExpireTime
 (
-PRInt64
+int64_t
 *
 aExpireTime
 )

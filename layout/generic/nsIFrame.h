@@ -220,7 +220,7 @@ Layer
 }
 }
 typedef
-PRUint32
+uint32_t
 nsSplittableType
 ;
 #
@@ -286,7 +286,7 @@ define
 NS_INTRINSIC_WIDTH_UNKNOWN
 nscoord_MIN
 typedef
-PRUint64
+uint64_t
 nsFrameState
 ;
 #
@@ -677,7 +677,7 @@ define
 NS_CARRIED_BOTTOM_MARGIN_IS_AUTO
 0x2
 typedef
-PRUint32
+uint32_t
 nsReflowStatus
 ;
 #
@@ -822,7 +822,7 @@ NS_IS_REFLOW_ERROR
 _status
 )
 (
-PRInt32
+int32_t
 (
 _status
 )
@@ -1331,10 +1331,10 @@ nullptr
 NS_IMETHOD
 GetOffsets
 (
-PRInt32
+int32_t
 &
 start
-PRInt32
+int32_t
 &
 end
 )
@@ -1346,9 +1346,9 @@ virtual
 void
 AdjustOffsetsForBidi
 (
-PRInt32
+int32_t
 aStart
-PRInt32
+int32_t
 aEnd
 )
 {
@@ -1632,7 +1632,7 @@ nsStyleContext
 *
 GetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -1643,7 +1643,7 @@ virtual
 void
 SetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 nsStyleContext
 *
@@ -2737,7 +2737,7 @@ virtual
 nscolor
 GetCaretColorAt
 (
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -2953,7 +2953,7 @@ const
 nsDisplayListSet
 &
 aLists
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -3112,13 +3112,13 @@ return
 content
 ;
 }
-PRInt32
+int32_t
 offset
 ;
-PRInt32
+int32_t
 secondaryOffset
 ;
-PRInt32
+int32_t
 StartOffset
 (
 )
@@ -3131,7 +3131,7 @@ secondaryOffset
 )
 ;
 }
-PRInt32
+int32_t
 EndOffset
 (
 )
@@ -3164,7 +3164,7 @@ GetContentOffsetsFromPoint
 (
 nsPoint
 aPoint
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -3176,7 +3176,7 @@ GetContentOffsetsFromPointExternal
 (
 nsPoint
 aPoint
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -3200,7 +3200,7 @@ imgIContainer
 >
 mContainer
 ;
-PRInt32
+int32_t
 mCursor
 ;
 bool
@@ -3229,7 +3229,7 @@ aCursor
 NS_IMETHOD
 GetPointFromOffset
 (
-PRInt32
+int32_t
 inOffset
 nsPoint
 *
@@ -3241,11 +3241,11 @@ outPoint
 NS_IMETHOD
 GetChildFrameContainingOffset
 (
-PRInt32
+int32_t
 inContentOffset
 bool
 inHint
-PRInt32
+int32_t
 *
 outFrameContentOffset
 nsIFrame
@@ -3306,12 +3306,12 @@ aInfo
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 =
@@ -3984,7 +3984,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 =
@@ -4082,11 +4082,11 @@ gfxSkipCharsIterator
 aSkipIter
 =
 nullptr
-PRUint32
+uint32_t
 aSkippedStartOffset
 =
 0
-PRUint32
+uint32_t
 aSkippedMaxLength
 =
 PR_UINT32_MAX
@@ -4389,7 +4389,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -4491,7 +4491,7 @@ const
 nsRect
 &
 aDamageRect
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -4520,7 +4520,7 @@ const
 nsRect
 &
 aDamageRect
-PRUint32
+uint32_t
 aDisplayItemKey
 )
 ;
@@ -4580,7 +4580,7 @@ aOffsetY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -4595,7 +4595,7 @@ nscoord
 aX
 nscoord
 aY
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -4786,7 +4786,7 @@ IsSelectable
 bool
 *
 aIsSelectable
-PRUint8
+uint8_t
 *
 aSelectStyle
 )
@@ -4847,7 +4847,7 @@ nsIFrame
 *
 *
 aOutFrame
-PRInt32
+int32_t
 *
 aOutOffset
 bool
@@ -4861,9 +4861,9 @@ CheckVisibility
 nsPresContext
 *
 aContext
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 aEndIndex
 bool
 aRecurse
@@ -5204,7 +5204,7 @@ virtual
 bool
 IsFocusable
 (
-PRInt32
+int32_t
 *
 aTabIndex
 =
@@ -5323,7 +5323,7 @@ aBoxLayoutState
 =
 0
 ;
-PRUint32
+uint32_t
 GetOrdinal
 (
 nsBoxLayoutState
@@ -5758,7 +5758,7 @@ nsIContent
 >
 mResultContent
 ;
-PRInt32
+int32_t
 mContentOffset
 ;
 }
@@ -5979,7 +5979,7 @@ VISIBILITY_CROSS_CHROME_CONTENT_BOUNDARY
 bool
 IsVisibleConsideringAncestors
 (
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -6008,7 +6008,7 @@ IsInlineOutside
 const
 ;
 inline
-PRUint8
+uint8_t
 GetDisplay
 (
 )
@@ -6042,7 +6042,7 @@ IsAbsolutelyPositioned
 )
 const
 ;
-PRUint8
+uint8_t
 VerticalAlignEnum
 (
 )
@@ -6228,16 +6228,16 @@ mState
 struct
 VisualDeltas
 {
-PRUint8
+uint8_t
 mLeft
 ;
-PRUint8
+uint8_t
 mTop
 ;
-PRUint8
+uint8_t
 mRight
 ;
-PRUint8
+uint8_t
 mBottom
 ;
 bool
@@ -6312,7 +6312,7 @@ aOther
 ;
 union
 {
-PRUint32
+uint32_t
 mType
 ;
 VisualDeltas
@@ -6328,7 +6328,7 @@ const
 nsRect
 &
 aDamageRect
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -6338,7 +6338,7 @@ PeekOffsetNoAmount
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -6351,7 +6351,7 @@ PeekOffsetCharacter
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 bool
@@ -6475,7 +6475,7 @@ bool
 aWordSelectEatSpace
 bool
 aIsKeyboardSelect
-PRInt32
+int32_t
 *
 aOffset
 PeekWordState
@@ -6534,7 +6534,7 @@ nsRect
 (
 -
 (
-PRInt32
+int32_t
 )
 mOverflow
 .
@@ -6543,7 +6543,7 @@ mVisualDeltas
 mLeft
 -
 (
-PRInt32
+int32_t
 )
 mOverflow
 .
@@ -6600,7 +6600,7 @@ nsIFrame
 *
 aOther
 const
-PRInt32
+int32_t
 aAPD
 )
 const
@@ -6616,7 +6616,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -6654,7 +6654,7 @@ aPresContext
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 =
@@ -7270,7 +7270,7 @@ this
 )
 ;
 }
-PRUint8
+uint8_t
 nsIFrame
 :
 :

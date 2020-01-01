@@ -166,9 +166,9 @@ const
 char_type
 *
 rhs
-PRUint32
+uint32_t
 lLength
-PRUint32
+uint32_t
 rLength
 )
 const

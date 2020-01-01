@@ -599,7 +599,7 @@ return
 false
 ;
 }
-PRUint64
+uint64_t
 blobSize
 ;
 nsresult

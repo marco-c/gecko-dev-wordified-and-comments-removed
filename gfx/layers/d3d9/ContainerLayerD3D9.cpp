@@ -1058,7 +1058,7 @@ visibleRect
 .
 x
 +
-PRInt32
+int32_t
 (
 transform
 .
@@ -1068,7 +1068,7 @@ visibleRect
 .
 y
 +
-PRInt32
+int32_t
 (
 transform
 .
@@ -1363,7 +1363,7 @@ children
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

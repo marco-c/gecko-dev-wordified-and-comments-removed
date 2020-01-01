@@ -226,7 +226,7 @@ escaped
 =
 nullptr
 ;
-PRUint32
+uint32_t
 len
 =
 strlen
@@ -1271,7 +1271,7 @@ nsIOutputStream
 aOutput
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 nsresult
@@ -1346,7 +1346,7 @@ nsIOutputStream
 aOutput
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 nsresult
@@ -1421,7 +1421,7 @@ nsIOutputStream
 aOutput
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 nsCOMPtr
@@ -1792,7 +1792,7 @@ char
 aAttributeStart
 [
 ]
-PRInt32
+int32_t
 aLength
 PRTime
 aAttributeValue
@@ -1801,7 +1801,7 @@ nsIOutputStream
 aOutput
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 nsresult
@@ -1998,7 +1998,7 @@ nsIOutputStream
 aOutput
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 nsresult
@@ -2069,7 +2069,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 folderId
 ;
 rv
@@ -2187,7 +2187,7 @@ rv
 )
 ;
 }
-PRInt64
+int64_t
 placesRoot
 ;
 rv
@@ -2207,7 +2207,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 bookmarksMenuFolder
 ;
 rv
@@ -2227,7 +2227,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 toolbarFolder
 ;
 rv
@@ -2247,7 +2247,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 unfiledBookmarksFolder
 ;
 rv
@@ -2500,7 +2500,7 @@ nsIOutputStream
 aOutput
 )
 {
-PRUint32
+uint32_t
 type
 =
 0
@@ -2573,7 +2573,7 @@ if
 escapedTitle
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 rv
@@ -2617,9 +2617,9 @@ nsPlacesExportService
 :
 WriteDescription
 (
-PRInt64
+int64_t
 aItemId
-PRInt32
+int32_t
 aType
 nsIOutputStream
 *
@@ -2701,7 +2701,7 @@ if
 escapedDesc
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 rv
@@ -2913,7 +2913,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 dummy
 ;
 if
@@ -3155,7 +3155,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 itemId
 ;
 rv
@@ -3764,7 +3764,7 @@ nsIOutputStream
 aOutput
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 nsresult
@@ -3835,7 +3835,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 folderId
 ;
 rv
@@ -4146,7 +4146,7 @@ nsIOutputStream
 aOutput
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 nsresult
@@ -4217,7 +4217,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 itemId
 ;
 rv
@@ -4307,7 +4307,7 @@ if
 escapedTitle
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 rv
@@ -4436,7 +4436,7 @@ escaped
 aString
 )
 ;
-PRInt32
+int32_t
 offset
 ;
 while
@@ -4482,7 +4482,7 @@ offset
 )
 ;
 }
-PRUint32
+uint32_t
 dummy
 ;
 return
@@ -4537,7 +4537,7 @@ Append
 kIndent
 )
 ;
-PRInt64
+int64_t
 folderId
 ;
 nsresult
@@ -4593,7 +4593,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 0
@@ -4609,7 +4609,7 @@ childCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4649,7 +4649,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 type
 =
 0
@@ -4682,7 +4682,7 @@ nsINavHistoryResultNode
 RESULT_TYPE_FOLDER
 )
 {
-PRInt64
+int64_t
 childFolderId
 ;
 rv
@@ -4992,7 +4992,7 @@ nsINavHistoryResult
 >
 result
 ;
-PRInt64
+int64_t
 bookmarksMenuFolder
 ;
 rv
@@ -5076,7 +5076,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 dummy
 ;
 rv
@@ -5232,7 +5232,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 toolbarFolder
 ;
 rv
@@ -5326,7 +5326,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 0
@@ -5388,7 +5388,7 @@ rv
 )
 ;
 }
-PRInt64
+int64_t
 unfiledBookmarksFolder
 ;
 rv

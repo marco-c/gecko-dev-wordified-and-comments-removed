@@ -29,7 +29,7 @@ nsISelectControlFrame
 NS_IMETHOD
 AddOption
 (
-PRInt32
+int32_t
 index
 )
 =
@@ -38,7 +38,7 @@ index
 NS_IMETHOD
 RemoveOption
 (
-PRInt32
+int32_t
 index
 )
 =
@@ -56,7 +56,7 @@ aIsDone
 NS_IMETHOD
 OnOptionSelected
 (
-PRInt32
+int32_t
 aIndex
 bool
 aSelected
@@ -67,9 +67,9 @@ aSelected
 NS_IMETHOD
 OnSetSelectedIndex
 (
-PRInt32
+int32_t
 aOldIndex
-PRInt32
+int32_t
 aNewIndex
 )
 =

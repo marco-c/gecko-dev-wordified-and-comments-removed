@@ -230,7 +230,7 @@ nsPaintRequestList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -254,7 +254,7 @@ nsPaintRequestList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMPaintRequest
 *
@@ -287,7 +287,7 @@ nsPaintRequestList
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

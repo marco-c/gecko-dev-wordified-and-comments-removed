@@ -125,7 +125,7 @@ native
 const_octet_ptr
 (
 const
-PRUint8
+uint8_t
 )
 ;
 /

@@ -112,13 +112,13 @@ process
 nsCString
 path
 ;
-PRInt32
+int32_t
 kind
 ;
-PRInt32
+int32_t
 units
 ;
-PRInt64
+int64_t
 amount
 ;
 nsCString

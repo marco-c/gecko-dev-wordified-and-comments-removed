@@ -314,7 +314,7 @@ JumpListBuilder
 :
 GetAvailable
 (
-PRInt16
+int16_t
 *
 aAvailable
 )
@@ -363,7 +363,7 @@ JumpListBuilder
 :
 GetMaxListItems
 (
-PRInt16
+int16_t
 *
 aMaxItems
 )
@@ -571,7 +571,7 @@ items
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 length
 ;
 items
@@ -585,7 +585,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -620,7 +620,7 @@ item
 continue
 ;
 }
-PRInt16
+int16_t
 type
 ;
 if
@@ -932,7 +932,7 @@ path
 )
 continue
 ;
-PRInt32
+int32_t
 len
 =
 path
@@ -1006,7 +1006,7 @@ JumpListBuilder
 :
 AddListToBuild
 (
-PRInt16
+int16_t
 aCatType
 nsIArray
 *
@@ -1086,7 +1086,7 @@ hr
 return
 NS_ERROR_UNEXPECTED
 ;
-PRUint32
+uint32_t
 length
 ;
 items
@@ -1100,7 +1100,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1391,7 +1391,7 @@ hr
 return
 NS_ERROR_UNEXPECTED
 ;
-PRUint32
+uint32_t
 length
 ;
 items
@@ -1405,7 +1405,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1438,7 +1438,7 @@ item
 )
 continue
 ;
-PRInt16
+int16_t
 type
 ;
 if
@@ -1849,7 +1849,7 @@ nsIJumpListItem
 item
 )
 {
-PRInt16
+int16_t
 type
 ;
 item
@@ -1922,7 +1922,7 @@ removedItems
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -1944,7 +1944,7 @@ item
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0

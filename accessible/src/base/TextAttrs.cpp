@@ -81,10 +81,10 @@ GetAttributes
 nsIPersistentProperties
 *
 aAttributes
-PRInt32
+int32_t
 *
 aStartHTOffset
-PRInt32
+int32_t
 *
 aEndHTOffset
 )
@@ -164,7 +164,7 @@ mOffsetAcc
 {
 for
 (
-PRInt32
+int32_t
 childIdx
 =
 mOffsetAccIdx
@@ -214,7 +214,7 @@ aStartHTOffset
 -
 ;
 }
-PRUint32
+uint32_t
 childCount
 =
 mHyperTextAcc
@@ -226,7 +226,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 mOffsetAccIdx
@@ -476,7 +476,7 @@ aAttributes
 {
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -532,19 +532,19 @@ TextAttr
 aAttrArray
 [
 ]
-PRUint32
+uint32_t
 aAttrArrayLen
-PRInt32
+int32_t
 *
 aStartHTOffset
-PRInt32
+int32_t
 *
 aEndHTOffset
 )
 {
 for
 (
-PRInt32
+int32_t
 childIdx
 =
 mOffsetAccIdx
@@ -592,7 +592,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 attrIdx
 =
 0
@@ -656,7 +656,7 @@ currAcc
 )
 ;
 }
-PRUint32
+uint32_t
 childLen
 =
 mHyperTextAcc
@@ -668,7 +668,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 mOffsetAccIdx
@@ -715,7 +715,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 attrIdx
 =
 0
@@ -2032,7 +2032,7 @@ aFrame
 :
 TTextAttr
 <
-PRInt32
+int32_t
 >
 (
 !
@@ -2080,7 +2080,7 @@ GetValueFor
 Accessible
 *
 aAccessible
-PRInt32
+int32_t
 *
 aValue
 )
@@ -2147,7 +2147,7 @@ nsIPersistentProperties
 *
 aAttributes
 const
-PRInt32
+int32_t
 &
 aValue
 )
@@ -2176,7 +2176,7 @@ formattedValue
 )
 ;
 }
-PRInt32
+int32_t
 TextAttrsMgr
 :
 :

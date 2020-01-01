@@ -374,7 +374,7 @@ MenuClosed
 (
 )
 ;
-PRUint32
+uint32_t
 itemCount
 =
 aMenu
@@ -386,7 +386,7 @@ GetItemCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1033,7 +1033,7 @@ visible
 =
 0
 ;
-PRUint32
+uint32_t
 length
 =
 currentMenu

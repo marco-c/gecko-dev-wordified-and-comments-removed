@@ -208,7 +208,7 @@ mStackTop
 mMarkLength
 )
 {
-PRUint32
+uint32_t
 newLength
 =
 mStackTop

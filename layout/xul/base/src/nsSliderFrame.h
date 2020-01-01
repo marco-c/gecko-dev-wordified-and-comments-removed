@@ -298,12 +298,12 @@ aLists
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -362,7 +362,7 @@ aEvent
 )
 ;
 static
-PRInt32
+int32_t
 GetCurrentPosition
 (
 nsIContent
@@ -371,7 +371,7 @@ content
 )
 ;
 static
-PRInt32
+int32_t
 GetMinPosition
 (
 nsIContent
@@ -380,7 +380,7 @@ content
 )
 ;
 static
-PRInt32
+int32_t
 GetMaxPosition
 (
 nsIContent
@@ -389,7 +389,7 @@ content
 )
 ;
 static
-PRInt32
+int32_t
 GetIncrement
 (
 nsIContent
@@ -398,7 +398,7 @@ content
 )
 ;
 static
-PRInt32
+int32_t
 GetPageIncrement
 (
 nsIContent
@@ -407,7 +407,7 @@ content
 )
 ;
 static
-PRInt32
+int32_t
 GetIntegerAttribute
 (
 nsIContent
@@ -416,7 +416,7 @@ content
 nsIAtom
 *
 atom
-PRInt32
+int32_t
 defaultValue
 )
 ;
@@ -533,7 +533,7 @@ SetCurrentPosition
 nsIContent
 *
 aScrollbar
-PRInt32
+int32_t
 aNewPos
 bool
 aIsSmooth
@@ -547,7 +547,7 @@ SetCurrentPositionInternal
 nsIContent
 *
 aScrollbar
-PRInt32
+int32_t
 pos
 bool
 aIsSmooth
@@ -676,7 +676,7 @@ mDragStart
 nscoord
 mThumbStart
 ;
-PRInt32
+int32_t
 mCurPos
 ;
 nscoord
@@ -690,7 +690,7 @@ bool
 gMiddlePref
 ;
 static
-PRInt32
+int32_t
 gSnapMultiplier
 ;
 }

@@ -822,7 +822,7 @@ nsTypeAheadFind
 :
 SetSelectionModeAndRepaint
 (
-PRInt16
+int16_t
 aToggle
 )
 {
@@ -1157,7 +1157,7 @@ bool
 aIsFirstVisiblePreferred
 bool
 aFindPrev
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -1596,7 +1596,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt16
+int16_t
 rangeCompareResult
 =
 0
@@ -2893,7 +2893,7 @@ rootNode
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 childCount
 =
 rootContent
@@ -3019,7 +3019,7 @@ nullptr
 }
 else
 {
-PRInt32
+int32_t
 startOffset
 ;
 nsCOMPtr
@@ -3192,7 +3192,7 @@ startNode
 )
 )
 ;
-PRInt32
+int32_t
 startOffset
 ;
 aRange
@@ -3295,7 +3295,7 @@ textFrag
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -3551,7 +3551,7 @@ bool
 aFindBackwards
 bool
 aLinksOnly
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -3595,7 +3595,7 @@ nsAString
 aSearchString
 bool
 aLinksOnly
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -3948,7 +3948,7 @@ nullptr
 ;
 #
 endif
-PRInt32
+int32_t
 bufferLength
 =
 mTypeAheadBuffer
@@ -4498,7 +4498,7 @@ aMustBeInViewPort
 return
 true
 ;
-PRInt32
+int32_t
 startRangeOffset
 startFrameOffset
 endFrameOffset
@@ -4558,7 +4558,7 @@ break
 ;
 }
 const
-PRUint16
+uint16_t
 kMinPixels
 =
 12

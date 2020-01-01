@@ -1522,7 +1522,7 @@ accessible
 /
 readonly
 attribute
-PRUint8
+uint8_t
 actionCount
 ;
 /
@@ -1548,7 +1548,7 @@ AString
 getActionName
 (
 in
-PRUint8
+uint8_t
 index
 )
 ;
@@ -1575,7 +1575,7 @@ AString
 getActionDescription
 (
 in
-PRUint8
+uint8_t
 aIndex
 )
 ;
@@ -1608,7 +1608,7 @@ void
 doAction
 (
 in
-PRUint8
+uint8_t
 index
 )
 ;

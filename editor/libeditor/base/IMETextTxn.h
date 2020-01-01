@@ -126,9 +126,9 @@ Init
 nsIDOMCharacterData
 *
 aElement
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aReplaceLength
 nsIPrivateTextRangeList
 *
@@ -208,10 +208,10 @@ nsIDOMCharacterData
 >
 mElement
 ;
-PRUint32
+uint32_t
 mOffset
 ;
-PRUint32
+uint32_t
 mReplaceLength
 ;
 nsString

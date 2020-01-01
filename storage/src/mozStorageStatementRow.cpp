@@ -160,7 +160,7 @@ ptr
 )
 )
 ;
-PRUint32
+uint32_t
 idx
 ;
 nsresult
@@ -182,7 +182,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 type
 ;
 rv
@@ -267,7 +267,7 @@ mozIStorageValueArray
 VALUE_TYPE_TEXT
 )
 {
-PRUint32
+uint32_t
 bytes
 ;
 const
@@ -351,11 +351,11 @@ mozIStorageValueArray
 VALUE_TYPE_BLOB
 )
 {
-PRUint32
+uint32_t
 length
 ;
 const
-PRUint8
+uint8_t
 *
 blob
 =
@@ -414,7 +414,7 @@ obj
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -524,7 +524,7 @@ JSObject
 aScopeObj
 jsid
 aId
-PRUint32
+uint32_t
 aFlags
 JSObject
 *
@@ -579,7 +579,7 @@ ptr
 )
 )
 ;
-PRUint32
+uint32_t
 idx
 ;
 nsresult

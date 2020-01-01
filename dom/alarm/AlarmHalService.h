@@ -159,7 +159,7 @@ nsITimezoneChangedCb
 >
 mTimezoneChangedCb
 ;
-PRInt32
+int32_t
 GetTimezoneOffset
 (
 bool

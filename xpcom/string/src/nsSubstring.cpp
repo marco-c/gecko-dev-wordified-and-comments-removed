@@ -327,22 +327,22 @@ n
 )
 ;
 }
-PRInt32
+int32_t
 mAllocCount
 ;
-PRInt32
+int32_t
 mReallocCount
 ;
-PRInt32
+int32_t
 mFreeCount
 ;
-PRInt32
+int32_t
 mShareCount
 ;
-PRInt32
+int32_t
 mAdoptCount
 ;
-PRInt32
+int32_t
 mAdoptFreeCount
 ;
 }
@@ -387,7 +387,7 @@ ReleaseData
 void
 *
 data
-PRUint32
+uint32_t
 flags
 )
 {
@@ -490,7 +490,7 @@ return
 mLength
 ;
 }
-PRUint32
+uint32_t
 flags
 (
 )
@@ -508,7 +508,7 @@ char_type
 data
 size_type
 len
-PRUint32
+uint32_t
 flags
 )
 {
@@ -568,7 +568,7 @@ return
 mLength
 ;
 }
-PRUint32
+uint32_t
 flags
 (
 )
@@ -586,7 +586,7 @@ char_type
 data
 size_type
 len
-PRUint32
+uint32_t
 flags
 )
 {
@@ -653,7 +653,7 @@ Release
 (
 )
 {
-PRInt32
+int32_t
 count
 =
 PR_ATOMIC_DECREMENT
@@ -729,7 +729,7 @@ size
 =
 size_t
 (
-PRUint32
+uint32_t
 (
 -
 1
@@ -859,7 +859,7 @@ size
 =
 size_t
 (
-PRUint32
+uint32_t
 (
 -
 1
@@ -1087,7 +1087,7 @@ nsStringBuffer
 :
 ToString
 (
-PRUint32
+uint32_t
 len
 nsAString
 &
@@ -1146,7 +1146,7 @@ terminated
 "
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 accessor
@@ -1202,7 +1202,7 @@ nsStringBuffer
 :
 ToString
 (
-PRUint32
+uint32_t
 len
 nsACString
 &
@@ -1261,7 +1261,7 @@ terminated
 "
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 accessor

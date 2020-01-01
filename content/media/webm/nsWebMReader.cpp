@@ -305,7 +305,7 @@ aLength
 0
 )
 {
-PRUint32
+uint32_t
 bytes
 =
 0
@@ -1016,7 +1016,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 track
 =
 0
@@ -1434,7 +1434,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-PRUint32
+uint32_t
 header
 =
 0
@@ -1646,7 +1646,7 @@ bool
 aBOS
 bool
 aEOS
-PRInt64
+int64_t
 aGranulepos
 )
 {
@@ -1704,7 +1704,7 @@ DecodeAudioPacket
 nestegg_packet
 *
 aPacket
-PRInt64
+int64_t
 aOffset
 )
 {
@@ -1787,7 +1787,7 @@ false
 ;
 }
 const
-PRUint32
+uint32_t
 rate
 =
 mVorbisDsp
@@ -1797,7 +1797,7 @@ vi
 >
 rate
 ;
-PRUint64
+uint64_t
 tstamp_usecs
 =
 tstamp
@@ -2000,14 +2000,14 @@ mAudioFrames
 0
 ;
 }
-PRInt32
+int32_t
 total_frames
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2110,7 +2110,7 @@ pcm
 =
 0
 ;
-PRInt32
+int32_t
 frames
 =
 0
@@ -2149,7 +2149,7 @@ mChannels
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -2174,14 +2174,14 @@ j
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
 ;
 i
 <
-PRUint32
+uint32_t
 (
 frames
 )
@@ -2443,7 +2443,7 @@ mHasAudio
 :
 mHasVideo
 ;
-PRUint32
+uint32_t
 ourTrack
 =
 aTrackType
@@ -2455,7 +2455,7 @@ mVideoTrack
 :
 mAudioTrack
 ;
-PRUint32
+uint32_t
 otherTrack
 =
 aTrackType
@@ -2531,7 +2531,7 @@ NesteggPacketHolder
 )
 ;
 }
-PRInt64
+int64_t
 offset
 =
 mDecoder
@@ -2722,7 +2722,7 @@ DecodeVideoFrame
 bool
 &
 aKeyframeSkip
-PRInt64
+int64_t
 aTimeThreshold
 )
 {
@@ -2744,7 +2744,7 @@ thread
 "
 )
 ;
-PRUint32
+uint32_t
 parsed
 =
 0
@@ -2975,7 +2975,7 @@ GetStateMachine
 )
 )
 ;
-PRInt64
+int64_t
 endTime
 =
 s
@@ -3006,7 +3006,7 @@ NS_PER_USEC
 ;
 }
 }
-PRInt64
+int64_t
 tstamp_usecs
 =
 tstamp
@@ -3015,7 +3015,7 @@ NS_PER_USEC
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3501,7 +3501,7 @@ d_w
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mInitialFrame
@@ -3518,7 +3518,7 @@ d_h
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mInitialFrame
@@ -3697,13 +3697,13 @@ nsWebMReader
 :
 Seek
 (
-PRInt64
+int64_t
 aTarget
-PRInt64
+int64_t
 aStartTime
-PRInt64
+int64_t
 aEndTime
-PRInt64
+int64_t
 aCurrentTime
 )
 {
@@ -3762,7 +3762,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 trackToSeek
 =
 mHasVideo
@@ -3811,7 +3811,7 @@ GetBuffered
 nsTimeRanges
 *
 aBuffered
-PRInt64
+int64_t
 aStartTime
 )
 {
@@ -3898,7 +3898,7 @@ NS_PER_S
 ;
 }
 }
-PRUint32
+uint32_t
 bufferedLength
 =
 0
@@ -3958,7 +3958,7 @@ res
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3976,7 +3976,7 @@ index
 +
 )
 {
-PRUint64
+uint64_t
 start
 end
 ;
@@ -4101,9 +4101,9 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
-PRInt64
+int64_t
 aOffset
 )
 {

@@ -268,7 +268,7 @@ nsHttpNegotiateAuth
 :
 GetAuthFlags
 (
-PRUint32
+uint32_t
 *
 flags
 )
@@ -367,7 +367,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 req_flags
 =
 nsIAuthModule
@@ -755,7 +755,7 @@ nsISupports
 *
 *
 continuationState
-PRUint32
+uint32_t
 *
 flags
 char
@@ -858,7 +858,7 @@ inToken
 *
 outToken
 ;
-PRUint32
+uint32_t
 inTokenLen
 outTokenLen
 ;
@@ -1326,7 +1326,7 @@ nsCAutoString
 scheme
 host
 ;
-PRInt32
+int32_t
 port
 ;
 if
@@ -1533,7 +1533,7 @@ const
 nsCSubstring
 &
 matchHost
-PRInt32
+int32_t
 matchPort
 const
 char
@@ -1635,7 +1635,7 @@ matchPort
 !
 =
 (
-PRInt32
+int32_t
 )
 port
 )
@@ -1658,7 +1658,7 @@ hostEnd
 return
 true
 ;
-PRUint32
+uint32_t
 hostLen
 =
 hostEnd

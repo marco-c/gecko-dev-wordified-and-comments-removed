@@ -155,10 +155,10 @@ paths
 struct
 StatStorageResponse
 {
-PRInt64
+int64_t
 totalBytes
 ;
-PRInt64
+int64_t
 freeBytes
 ;
 nsString

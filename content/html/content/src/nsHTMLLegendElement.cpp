@@ -275,7 +275,7 @@ nsHTMLLegendElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -340,7 +340,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -385,7 +385,7 @@ nsHTMLLegendElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -421,7 +421,7 @@ nsHTMLLegendElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -520,7 +520,7 @@ frame
 return
 NS_OK
 ;
-PRInt32
+int32_t
 tabIndex
 ;
 if

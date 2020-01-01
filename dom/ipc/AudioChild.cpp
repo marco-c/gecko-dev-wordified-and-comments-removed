@@ -109,11 +109,11 @@ AudioChild
 RecvPositionInFramesUpdate
 (
 const
-PRInt64
+int64_t
 &
 position
 const
-PRInt64
+int64_t
 &
 time
 )
@@ -158,7 +158,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 AudioChild
 :
 :
@@ -202,7 +202,7 @@ AudioChild
 RecvMinWriteSizeDone
 (
 const
-PRInt32
+int32_t
 &
 minFrames
 )
@@ -301,7 +301,7 @@ mon
 mAudioReentrantMonitor
 )
 ;
-PRUint64
+uint64_t
 writeCounter
 =
 mWriteCounter
@@ -325,7 +325,7 @@ Wait
 ;
 }
 }
-PRInt64
+int64_t
 AudioChild
 :
 :
@@ -337,7 +337,7 @@ return
 mLastPosition
 ;
 }
-PRInt64
+int64_t
 AudioChild
 :
 :

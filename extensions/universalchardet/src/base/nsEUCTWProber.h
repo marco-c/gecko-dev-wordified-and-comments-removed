@@ -76,7 +76,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -124,7 +124,7 @@ protected
 void
 GetDistribution
 (
-PRUint32
+uint32_t
 aCharLen
 const
 char

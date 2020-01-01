@@ -249,7 +249,7 @@ nsIVariant
 aValue
 )
 {
-PRUint16
+uint16_t
 dataType
 ;
 nsresult
@@ -360,7 +360,7 @@ stringData
 =
 nullptr
 ;
-PRUint32
+uint32_t
 stringLen
 =
 0
@@ -437,7 +437,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -550,7 +550,7 @@ aCx
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 aArgc
 jsval
 *

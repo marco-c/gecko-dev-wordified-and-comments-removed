@@ -107,7 +107,7 @@ SetExprResult
 txAExprResult
 *
 aExprResult
-PRUint16
+uint16_t
 aResultType
 nsINode
 *
@@ -196,7 +196,7 @@ SetExprResult
 txAExprResult
 *
 aExprResult
-PRUint16
+uint16_t
 aResultType
 nsINode
 *
@@ -232,7 +232,7 @@ static
 bool
 isSnapshot
 (
-PRUint16
+uint16_t
 aResultType
 )
 {
@@ -253,7 +253,7 @@ static
 bool
 isIterator
 (
-PRUint16
+uint16_t
 aResultType
 )
 {
@@ -274,7 +274,7 @@ static
 bool
 isNode
 (
-PRUint16
+uint16_t
 aResultType
 )
 {
@@ -357,10 +357,10 @@ nsIDocument
 >
 mDocument
 ;
-PRUint32
+uint32_t
 mCurrentPos
 ;
-PRUint16
+uint16_t
 mResultType
 ;
 nsWeakPtr

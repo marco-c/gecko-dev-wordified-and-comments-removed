@@ -78,7 +78,7 @@ nsIURL
 >
 mIconURL
 ;
-PRUint32
+uint32_t
 mSize
 ;
 nsCString
@@ -90,10 +90,10 @@ mFileName
 nsCString
 mStockIcon
 ;
-PRInt32
+int32_t
 mIconSize
 ;
-PRInt32
+int32_t
 mIconState
 ;
 }

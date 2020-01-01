@@ -25,7 +25,7 @@ c
 (
 (
 (
-PRUint8
+uint8_t
 )
 (
 a
@@ -33,7 +33,7 @@ a
 <
 =
 (
-PRUint8
+uint8_t
 )
 (
 b
@@ -43,7 +43,7 @@ b
 &
 (
 (
-PRUint8
+uint8_t
 )
 (
 b
@@ -51,7 +51,7 @@ b
 <
 =
 (
-PRUint8
+uint8_t
 )
 (
 c

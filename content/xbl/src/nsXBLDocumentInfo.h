@@ -195,7 +195,7 @@ GetScriptGlobalObject
 void
 MarkInCCGeneration
 (
-PRUint32
+uint32_t
 aGeneration
 )
 ;

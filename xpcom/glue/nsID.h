@@ -30,16 +30,16 @@ NSID_LENGTH
 struct
 nsID
 {
-PRUint32
+uint32_t
 m0
 ;
-PRUint16
+uint16_t
 m1
 ;
-PRUint16
+uint16_t
 m2
 ;
-PRUint8
+uint8_t
 m3
 [
 8
@@ -61,7 +61,7 @@ return
 (
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -74,7 +74,7 @@ m0
 =
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -91,7 +91,7 @@ m0
 (
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -104,7 +104,7 @@ m0
 =
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -121,7 +121,7 @@ m0
 (
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -134,7 +134,7 @@ m0
 =
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -151,7 +151,7 @@ m0
 (
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -164,7 +164,7 @@ m0
 =
 (
 (
-PRUint32
+uint32_t
 *
 )
 &

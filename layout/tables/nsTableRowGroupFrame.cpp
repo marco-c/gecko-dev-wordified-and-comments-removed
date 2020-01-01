@@ -156,7 +156,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsContainerFrame
 )
-PRInt32
+int32_t
 nsTableRowGroupFrame
 :
 :
@@ -252,7 +252,7 @@ GetLength
 )
 ;
 }
-PRInt32
+int32_t
 nsTableRowGroupFrame
 :
 :
@@ -260,7 +260,7 @@ GetStartRowIndex
 (
 )
 {
-PRInt32
+int32_t
 result
 =
 -
@@ -362,9 +362,9 @@ nsTableRowGroupFrame
 :
 AdjustRowIndices
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 anAdjustment
 )
 {
@@ -407,7 +407,7 @@ GetStyleDisplay
 mDisplay
 )
 {
-PRInt32
+int32_t
 index
 =
 (
@@ -576,7 +576,7 @@ content
 "
 )
 ;
-PRInt32
+int32_t
 colIndex
 ;
 originalCellFrame
@@ -2458,7 +2458,7 @@ GetCellSpacingY
 (
 )
 ;
-PRInt32
+int32_t
 numEffCols
 =
 tableFrame
@@ -2468,7 +2468,7 @@ GetEffectiveColCount
 (
 )
 ;
-PRInt32
+int32_t
 startRowIndex
 =
 GetStartRowIndex
@@ -2502,7 +2502,7 @@ GetPosition
 .
 y
 ;
-PRInt32
+int32_t
 numRows
 =
 GetRowCount
@@ -2574,7 +2574,7 @@ GetHeightBasis
 aReflowState
 )
 ;
-PRInt32
+int32_t
 rowIndex
 ;
 nsTableRowFrame
@@ -2773,7 +2773,7 @@ while
 cellFrame
 )
 {
-PRInt32
+int32_t
 rowSpan
 =
 tableFrame
@@ -2911,7 +2911,7 @@ while
 cellFrame
 )
 {
-PRInt32
+int32_t
 rowSpan
 =
 tableFrame
@@ -2971,7 +2971,7 @@ cellSpacingTotal
 =
 0
 ;
-PRInt32
+int32_t
 spanX
 ;
 for
@@ -4541,7 +4541,7 @@ IsBorderCollapse
 (
 )
 ;
-PRInt32
+int32_t
 lastRowIndex
 =
 aLastRow
@@ -4592,7 +4592,7 @@ row
 aLastRow
 )
 ;
-PRInt32
+int32_t
 rowIndex
 =
 row
@@ -4637,7 +4637,7 @@ GetNextCell
 )
 )
 {
-PRInt32
+int32_t
 rowSpan
 =
 aTable
@@ -4923,7 +4923,7 @@ nsIFrame
 contCell
 )
 ;
-PRInt32
+int32_t
 colIndex
 ;
 cell
@@ -6796,7 +6796,7 @@ rowFrame
 ;
 }
 }
-PRInt32
+int32_t
 rowIndex
 =
 GetRowCount
@@ -7079,7 +7079,7 @@ true
 }
 }
 }
-PRInt32
+int32_t
 startRowIndex
 =
 GetStartRowIndex
@@ -7095,7 +7095,7 @@ aPrevFrame
 aFrameList
 )
 ;
-PRInt32
+int32_t
 numRows
 =
 rows
@@ -7132,7 +7132,7 @@ nsGkAtoms
 tableRowFrame
 )
 ;
-PRInt32
+int32_t
 rowIndex
 =
 (
@@ -7583,7 +7583,7 @@ if
 rowFrame
 )
 {
-PRInt32
+int32_t
 rowIndex
 =
 rowFrame
@@ -7593,7 +7593,7 @@ GetRowIndex
 (
 )
 ;
-PRInt32
+int32_t
 numEffCols
 =
 aTableFrame
@@ -7919,7 +7919,7 @@ nsTableRowGroupFrame
 :
 SetContinuousBCBorderWidth
 (
-PRUint8
+uint8_t
 aForSide
 BCPixelSize
 aPixelValue
@@ -7970,7 +7970,7 @@ argument
 ;
 }
 }
-PRInt32
+int32_t
 nsTableRowGroupFrame
 :
 :
@@ -8027,19 +8027,19 @@ nsTableRowGroupFrame
 :
 GetLine
 (
-PRInt32
+int32_t
 aLineNumber
 nsIFrame
 *
 *
 aFirstFrameOnLine
-PRInt32
+int32_t
 *
 aNumFramesOnLine
 nsRect
 &
 aLineBounds
-PRUint32
+uint32_t
 *
 aLineFlags
 )
@@ -8161,7 +8161,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 colCount
 =
 table
@@ -8173,7 +8173,7 @@ GetColCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -8268,7 +8268,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 nsTableRowGroupFrame
 :
 :
@@ -8277,7 +8277,7 @@ FindLineContaining
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aStartLine
 )
 {
@@ -8313,7 +8313,7 @@ row
 "
 )
 ;
-PRInt32
+int32_t
 rowIndexInGroup
 =
 rowFrame
@@ -8348,7 +8348,7 @@ nsTableRowGroupFrame
 :
 CheckLineOrder
 (
-PRInt32
+int32_t
 aLine
 bool
 *
@@ -8390,7 +8390,7 @@ nsTableRowGroupFrame
 :
 FindFrameAt
 (
-PRInt32
+int32_t
 aLineNumber
 nscoord
 aX
@@ -8451,7 +8451,7 @@ GetStartRowIndex
 (
 )
 ;
-PRInt32
+int32_t
 numCells
 =
 cellMap
@@ -8480,7 +8480,7 @@ frame
 =
 nullptr
 ;
-PRInt32
+int32_t
 colCount
 =
 table
@@ -8492,7 +8492,7 @@ GetColCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -8589,7 +8589,7 @@ closestFromRight
 =
 nullptr
 ;
-PRInt32
+int32_t
 n
 =
 numCells
@@ -8877,7 +8877,7 @@ nsIFrame
 *
 &
 aFrame
-PRInt32
+int32_t
 aLineNumber
 )
 {
@@ -9000,7 +9000,7 @@ FirstChild
 (
 )
 ;
-PRInt32
+int32_t
 count
 ;
 for
@@ -9129,7 +9129,7 @@ RowCursorProperty
 )
 )
 ;
-PRUint32
+uint32_t
 cursorIndex
 =
 property
@@ -9137,7 +9137,7 @@ property
 >
 mCursorIndex
 ;
-PRUint32
+uint32_t
 frameCount
 =
 property

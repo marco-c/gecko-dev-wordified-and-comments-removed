@@ -76,7 +76,7 @@ NodeToParentOffset
 nsINode
 *
 aNode
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -130,12 +130,12 @@ aIsPreMode
 nsINode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsINode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -210,7 +210,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 indx
 =
 parent
@@ -364,7 +364,7 @@ nsINode
 aRoot
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -381,7 +381,7 @@ nsIContent
 aRoot
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -398,7 +398,7 @@ nsINode
 aRoot
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -415,7 +415,7 @@ nsIContent
 aRoot
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -432,7 +432,7 @@ nsINode
 aNode
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -449,7 +449,7 @@ nsINode
 aNode
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -466,7 +466,7 @@ nsINode
 aNode
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -483,7 +483,7 @@ nsINode
 aNode
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -527,12 +527,12 @@ mCommonParent
 ;
 nsAutoTArray
 <
-PRInt32
+int32_t
 8
 >
 mIndexes
 ;
-PRInt32
+int32_t
 mCachedIndex
 ;
 bool
@@ -810,7 +810,7 @@ mCommonParent
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 startIndx
 =
 range
@@ -837,7 +837,7 @@ startNode
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 endIndx
 =
 range
@@ -1222,7 +1222,7 @@ AsContent
 }
 else
 {
-PRInt32
+int32_t
 indx
 =
 endIndx
@@ -1484,7 +1484,7 @@ nsINode
 aRoot
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -1548,7 +1548,7 @@ nsIContent
 aRoot
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -1630,7 +1630,7 @@ nsINode
 aRoot
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -1701,7 +1701,7 @@ nsIContent
 aRoot
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -1723,7 +1723,7 @@ node
 =
 aRoot
 ;
-PRInt32
+int32_t
 numChildren
 =
 node
@@ -1796,7 +1796,7 @@ nsINode
 aNode
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -1833,7 +1833,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 indx
 =
 0
@@ -2055,7 +2055,7 @@ nsINode
 aNode
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -2092,7 +2092,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 indx
 =
 0
@@ -2312,7 +2312,7 @@ nsINode
 aNode
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -2400,7 +2400,7 @@ sibling
 =
 nullptr
 ;
-PRInt32
+int32_t
 indx
 =
 0
@@ -2623,7 +2623,7 @@ nsINode
 aNode
 nsTArray
 <
-PRInt32
+int32_t
 >
 *
 aIndexes
@@ -2657,7 +2657,7 @@ sibling
 =
 nullptr
 ;
-PRInt32
+int32_t
 indx
 =
 0
@@ -2867,7 +2867,7 @@ return
 parent
 ;
 }
-PRInt32
+int32_t
 numChildren
 =
 node
@@ -3208,7 +3208,7 @@ lastNode
 =
 mLast
 ;
-PRInt32
+int32_t
 firstOffset
 =
 0
@@ -3272,7 +3272,7 @@ lastOffset
 }
 else
 {
-PRUint32
+uint32_t
 numChildren
 =
 firstNode
@@ -3373,7 +3373,7 @@ oldParentStack
 ;
 nsAutoTArray
 <
-PRInt32
+int32_t
 8
 >
 newIndexes
@@ -3401,7 +3401,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 mIndexes
@@ -3520,7 +3520,7 @@ parent
 break
 ;
 }
-PRInt32
+int32_t
 indx
 =
 parent
@@ -3556,7 +3556,7 @@ indx
 0
 )
 {
-PRInt32
+int32_t
 numToDrop
 =
 oldParentStack
@@ -3783,7 +3783,7 @@ mEndNodes
 ;
 nsAutoTArray
 <
-PRInt32
+int32_t
 8
 >
 mEndOffsets
@@ -3926,7 +3926,7 @@ GetStartParent
 (
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 mRange
@@ -3947,7 +3947,7 @@ GetEndParent
 (
 )
 ;
-PRInt32
+int32_t
 endOffset
 =
 mRange
@@ -3970,7 +3970,7 @@ endParent
 ;
 MOZ_ASSERT
 (
-PRUint32
+uint32_t
 (
 startOffset
 )
@@ -3984,7 +3984,7 @@ Length
 )
 &
 &
-PRUint32
+uint32_t
 (
 endOffset
 )
@@ -4068,7 +4068,7 @@ lastCandidate
 =
 nullptr
 ;
-PRInt32
+int32_t
 offset
 =
 mRange
@@ -4221,7 +4221,7 @@ EndOffset
 (
 )
 ;
-PRInt32
+int32_t
 numChildren
 =
 endParent
@@ -4475,7 +4475,7 @@ deadlock
 "
 )
 ;
-PRInt32
+int32_t
 i
 =
 mEndNodes

@@ -32,7 +32,7 @@ public
 :
 nsEscCharSetProber
 (
-PRUint32
+uint32_t
 aLanguageFilter
 )
 ;
@@ -50,7 +50,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -101,7 +101,7 @@ protected
 void
 GetDistribution
 (
-PRUint32
+uint32_t
 aCharLen
 const
 char
@@ -116,7 +116,7 @@ mCodingSM
 NUM_OF_ESC_CHARSETS
 ]
 ;
-PRUint32
+uint32_t
 mActiveSM
 ;
 nsProbingState

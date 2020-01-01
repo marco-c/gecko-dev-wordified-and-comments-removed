@@ -49,8 +49,8 @@ char_type
 const
 char_type
 *
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 )
 const
 =
@@ -87,8 +87,8 @@ char_type
 const
 char_type
 *
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 )
 const
 ;
@@ -178,11 +178,11 @@ char_type
 const_char_iterator
 ;
 typedef
-PRUint32
+uint32_t
 size_type
 ;
 typedef
-PRUint32
+uint32_t
 index_type
 ;
 public
@@ -774,7 +774,7 @@ char_type
 )
 const
 ;
-PRInt32
+int32_t
 NS_FASTCALL
 FindChar
 (
@@ -1635,7 +1635,7 @@ format
 void
 AppendInt
 (
-PRInt32
+int32_t
 aInteger
 )
 {
@@ -1652,7 +1652,7 @@ aInteger
 void
 AppendInt
 (
-PRInt32
+int32_t
 aInteger
 int
 aRadix
@@ -1698,7 +1698,7 @@ aInteger
 void
 AppendInt
 (
-PRUint32
+uint32_t
 aInteger
 )
 {
@@ -1715,7 +1715,7 @@ aInteger
 void
 AppendInt
 (
-PRUint32
+uint32_t
 aInteger
 int
 aRadix
@@ -1761,7 +1761,7 @@ aInteger
 void
 AppendInt
 (
-PRInt64
+int64_t
 aInteger
 )
 {
@@ -1778,7 +1778,7 @@ aInteger
 void
 AppendInt
 (
-PRInt64
+int64_t
 aInteger
 int
 aRadix
@@ -1824,7 +1824,7 @@ aInteger
 void
 AppendInt
 (
-PRUint64
+uint64_t
 aInteger
 )
 {
@@ -1841,7 +1841,7 @@ aInteger
 void
 AppendInt
 (
-PRUint64
+uint64_t
 aInteger
 int
 aRadix
@@ -2378,7 +2378,7 @@ StripChar
 (
 char_type
 aChar
-PRInt32
+int32_t
 aOffset
 =
 0
@@ -2391,7 +2391,7 @@ const
 char_type
 *
 aChars
-PRUint32
+uint32_t
 aOffset
 =
 0
@@ -2480,7 +2480,7 @@ char_type
 data
 size_type
 length
-PRUint32
+uint32_t
 flags
 )
 ;
@@ -2496,7 +2496,7 @@ char_type
 data
 size_type
 length
-PRUint32
+uint32_t
 flags
 )
 :
@@ -2569,7 +2569,7 @@ mData
 size_type
 mLength
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 nsTSubstring_CharT
@@ -2596,7 +2596,7 @@ F_TERMINATED
 explicit
 nsTSubstring_CharT
 (
-PRUint32
+uint32_t
 flags
 )
 :
@@ -2656,7 +2656,7 @@ char_type
 *
 *
 old_data
-PRUint32
+uint32_t
 *
 old_flags
 )
@@ -2683,7 +2683,7 @@ mLength
 cutStart
 )
 ;
-PRUint32
+uint32_t
 newTotalLen
 =
 mLength
@@ -2812,7 +2812,7 @@ mData
 void
 SetDataFlags
 (
-PRUint32
+uint32_t
 dataFlags
 )
 {
@@ -2854,7 +2854,7 @@ const
 char
 *
 s
-PRUint32
+uint32_t
 len
 )
 ;

@@ -78,9 +78,9 @@ AddFontsFromTextRun
 gfxTextRun
 *
 aTextRun
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 nsIFrame
 *

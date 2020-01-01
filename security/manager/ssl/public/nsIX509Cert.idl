@@ -1034,10 +1034,10 @@ in
 boolean
 localOnly
 out
-PRUint32
+uint32_t
 verified
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -1119,7 +1119,7 @@ in
 boolean
 localOnly
 out
-PRUint32
+uint32_t
 verified
 out
 AString

@@ -107,7 +107,7 @@ char
 *
 *
 aFilename
-PRUint32
+uint32_t
 *
 aLineno
 )
@@ -427,7 +427,7 @@ aContext
 )
 ;
 }
-PRUint64
+uint64_t
 nsJSUtils
 :
 :
@@ -446,7 +446,7 @@ aContext
 return
 0
 ;
-PRUint64
+uint64_t
 innerWindowID
 =
 0

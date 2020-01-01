@@ -40,7 +40,7 @@ gfxASurface
 *
 *
 aSurfaces
-PRInt32
+int32_t
 aSurfaceCount
 )
 {
@@ -84,7 +84,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 1
@@ -167,7 +167,7 @@ aSurfaces
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0

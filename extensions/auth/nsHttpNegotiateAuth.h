@@ -86,7 +86,7 @@ const
 nsCSubstring
 &
 host
-PRInt32
+int32_t
 port
 const
 char

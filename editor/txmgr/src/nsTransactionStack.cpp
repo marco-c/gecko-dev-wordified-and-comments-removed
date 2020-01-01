@@ -225,7 +225,7 @@ nsTransactionStack
 :
 GetItem
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -327,7 +327,7 @@ cb
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0

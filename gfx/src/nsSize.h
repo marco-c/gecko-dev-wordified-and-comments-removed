@@ -109,9 +109,9 @@ inline
 nsSize
 ConvertAppUnits
 (
-PRInt32
+int32_t
 aFromAPP
-PRInt32
+int32_t
 aToAPP
 )
 const
@@ -130,7 +130,7 @@ gfx
 :
 BaseSize
 <
-PRInt32
+int32_t
 nsIntSize
 >
 {
@@ -143,7 +143,7 @@ gfx
 :
 BaseSize
 <
-PRInt32
+int32_t
 nsIntSize
 >
 Super
@@ -159,9 +159,9 @@ Super
 }
 nsIntSize
 (
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 :
@@ -257,9 +257,9 @@ nsSize
 :
 ConvertAppUnits
 (
-PRInt32
+int32_t
 aFromAPP
-PRInt32
+int32_t
 aToAPP
 )
 const

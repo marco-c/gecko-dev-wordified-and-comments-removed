@@ -60,7 +60,7 @@ TX_XSLTFunctionAvailable
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNameSpaceID
 )
 ;
@@ -132,11 +132,11 @@ mMappings
 ;
 nsTArray
 <
-PRInt32
+int32_t
 >
 mInstructionNamespaces
 ;
-PRInt32
+int32_t
 mDepth
 ;
 }
@@ -476,7 +476,7 @@ resolveNamespacePrefix
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 &
 aID
 )
@@ -487,7 +487,7 @@ resolveFunctionCall
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aID
 FunctionCall
 *
@@ -515,7 +515,7 @@ mForwardsCompatibleParsing
 void
 SetErrorOffset
 (
-PRUint32
+uint32_t
 aOffset
 )
 ;
@@ -635,7 +635,7 @@ mGotoTargetPointers
 struct
 txStylesheetAttr
 {
-PRInt32
+int32_t
 mNamespaceID
 ;
 nsCOMPtr
@@ -676,7 +676,7 @@ TX_XSLTFunctionAvailable
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNameSpaceID
 )
 ;
@@ -720,7 +720,7 @@ aBaseURI
 nsresult
 startElement
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -731,7 +731,7 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
 )
 ;
@@ -747,9 +747,9 @@ PRUnichar
 *
 *
 aAtts
-PRInt32
+int32_t
 aAttrCount
-PRInt32
+int32_t
 aIDOffset
 )
 ;
@@ -807,7 +807,7 @@ private
 nsresult
 startElementInternal
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -818,9 +818,9 @@ aPrefix
 txStylesheetAttr
 *
 aAttributes
-PRInt32
+int32_t
 aAttrCount
-PRInt32
+int32_t
 aIDOffset
 =
 -
@@ -876,7 +876,7 @@ mLevel
 txExpandedName
 mName
 ;
-PRInt32
+int32_t
 mLevel
 ;
 }

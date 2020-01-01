@@ -164,11 +164,11 @@ range
 7
 *
 /
-PRInt32
+int32_t
 GetInt
 (
 in
-PRInt32
+int32_t
 inIndex
 )
 ;
@@ -176,10 +176,10 @@ void
 SetInt
 (
 in
-PRInt32
+int32_t
 inIndex
 in
-PRInt32
+int32_t
 inInt
 )
 ;
@@ -223,7 +223,7 @@ void
 SetNumberStrings
 (
 in
-PRInt32
+int32_t
 inNumStrings
 )
 ;
@@ -249,7 +249,7 @@ wstring
 GetString
 (
 in
-PRInt32
+int32_t
 inIndex
 )
 ;
@@ -257,7 +257,7 @@ void
 SetString
 (
 in
-PRInt32
+int32_t
 inIndex
 in
 wstring

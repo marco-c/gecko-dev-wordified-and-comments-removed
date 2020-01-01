@@ -45,13 +45,13 @@ MarItem_
 *
 next
 ;
-PRUint32
+uint32_t
 offset
 ;
-PRUint32
+uint32_t
 length
 ;
-PRUint32
+uint32_t
 flags
 ;
 char
@@ -227,7 +227,7 @@ const
 char
 *
 certData
-PRUint32
+uint32_t
 sizeOfCertData
 )
 ;

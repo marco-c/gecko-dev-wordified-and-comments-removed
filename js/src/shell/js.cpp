@@ -452,7 +452,7 @@ DEFAULT_MAX_STACK_SIZE
 ifdef
 JS_THREADSAFE
 static
-PRUintn
+unsigned
 gStackBaseThreadIndex
 ;
 #

@@ -199,7 +199,7 @@ available
 *
 /
 const
-PRUint32
+uint32_t
 WANT_PRECREATE
 =
 1
@@ -208,7 +208,7 @@ WANT_PRECREATE
 0
 ;
 const
-PRUint32
+uint32_t
 WANT_CREATE
 =
 1
@@ -217,7 +217,7 @@ WANT_CREATE
 1
 ;
 const
-PRUint32
+uint32_t
 WANT_POSTCREATE
 =
 1
@@ -226,7 +226,7 @@ WANT_POSTCREATE
 2
 ;
 const
-PRUint32
+uint32_t
 WANT_ADDPROPERTY
 =
 1
@@ -235,7 +235,7 @@ WANT_ADDPROPERTY
 3
 ;
 const
-PRUint32
+uint32_t
 WANT_DELPROPERTY
 =
 1
@@ -244,7 +244,7 @@ WANT_DELPROPERTY
 4
 ;
 const
-PRUint32
+uint32_t
 WANT_GETPROPERTY
 =
 1
@@ -253,7 +253,7 @@ WANT_GETPROPERTY
 5
 ;
 const
-PRUint32
+uint32_t
 WANT_SETPROPERTY
 =
 1
@@ -262,7 +262,7 @@ WANT_SETPROPERTY
 6
 ;
 const
-PRUint32
+uint32_t
 WANT_ENUMERATE
 =
 1
@@ -271,7 +271,7 @@ WANT_ENUMERATE
 7
 ;
 const
-PRUint32
+uint32_t
 WANT_NEWENUMERATE
 =
 1
@@ -280,7 +280,7 @@ WANT_NEWENUMERATE
 8
 ;
 const
-PRUint32
+uint32_t
 WANT_NEWRESOLVE
 =
 1
@@ -289,7 +289,7 @@ WANT_NEWRESOLVE
 9
 ;
 const
-PRUint32
+uint32_t
 WANT_CONVERT
 =
 1
@@ -298,7 +298,7 @@ WANT_CONVERT
 10
 ;
 const
-PRUint32
+uint32_t
 WANT_FINALIZE
 =
 1
@@ -307,7 +307,7 @@ WANT_FINALIZE
 11
 ;
 const
-PRUint32
+uint32_t
 WANT_CHECKACCESS
 =
 1
@@ -316,7 +316,7 @@ WANT_CHECKACCESS
 12
 ;
 const
-PRUint32
+uint32_t
 WANT_CALL
 =
 1
@@ -325,7 +325,7 @@ WANT_CALL
 13
 ;
 const
-PRUint32
+uint32_t
 WANT_CONSTRUCT
 =
 1
@@ -334,7 +334,7 @@ WANT_CONSTRUCT
 14
 ;
 const
-PRUint32
+uint32_t
 WANT_HASINSTANCE
 =
 1
@@ -349,7 +349,7 @@ bit
 here
 !
 const
-PRUint32
+uint32_t
 USE_JSSTUB_FOR_ADDPROPERTY
 =
 1
@@ -358,7 +358,7 @@ USE_JSSTUB_FOR_ADDPROPERTY
 17
 ;
 const
-PRUint32
+uint32_t
 USE_JSSTUB_FOR_DELPROPERTY
 =
 1
@@ -367,7 +367,7 @@ USE_JSSTUB_FOR_DELPROPERTY
 18
 ;
 const
-PRUint32
+uint32_t
 USE_JSSTUB_FOR_SETPROPERTY
 =
 1
@@ -376,7 +376,7 @@ USE_JSSTUB_FOR_SETPROPERTY
 19
 ;
 const
-PRUint32
+uint32_t
 DONT_ENUM_STATIC_PROPS
 =
 1
@@ -385,7 +385,7 @@ DONT_ENUM_STATIC_PROPS
 20
 ;
 const
-PRUint32
+uint32_t
 DONT_ENUM_QUERY_INTERFACE
 =
 1
@@ -394,7 +394,7 @@ DONT_ENUM_QUERY_INTERFACE
 21
 ;
 const
-PRUint32
+uint32_t
 DONT_ASK_INSTANCE_FOR_SCRIPTABLE
 =
 1
@@ -403,7 +403,7 @@ DONT_ASK_INSTANCE_FOR_SCRIPTABLE
 22
 ;
 const
-PRUint32
+uint32_t
 CLASSINFO_INTERFACES_ONLY
 =
 1
@@ -412,7 +412,7 @@ CLASSINFO_INTERFACES_ONLY
 23
 ;
 const
-PRUint32
+uint32_t
 ALLOW_PROP_MODS_DURING_RESOLVE
 =
 1
@@ -421,7 +421,7 @@ ALLOW_PROP_MODS_DURING_RESOLVE
 24
 ;
 const
-PRUint32
+uint32_t
 ALLOW_PROP_MODS_TO_PROTOTYPE
 =
 1
@@ -430,7 +430,7 @@ ALLOW_PROP_MODS_TO_PROTOTYPE
 25
 ;
 const
-PRUint32
+uint32_t
 IS_GLOBAL_OBJECT
 =
 1
@@ -439,7 +439,7 @@ IS_GLOBAL_OBJECT
 26
 ;
 const
-PRUint32
+uint32_t
 DONT_REFLECT_INTERFACE_NAMES
 =
 1
@@ -448,7 +448,7 @@ DONT_REFLECT_INTERFACE_NAMES
 27
 ;
 const
-PRUint32
+uint32_t
 WANT_EQUALITY
 =
 1
@@ -457,7 +457,7 @@ WANT_EQUALITY
 28
 ;
 const
-PRUint32
+uint32_t
 WANT_OUTER_OBJECT
 =
 1
@@ -466,7 +466,7 @@ WANT_OUTER_OBJECT
 29
 ;
 const
-PRUint32
+uint32_t
 USE_STUB_EQUALITY_HOOK
 =
 1
@@ -507,7 +507,7 @@ bit
 set
 .
 const
-PRUint32
+uint32_t
 RESERVED
 =
 1
@@ -524,7 +524,7 @@ className
 notxpcom
 nostdcall
 ]
-PRUint32
+uint32_t
 getScriptableFlags
 (
 )
@@ -778,7 +778,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 enum_op
 in
 JSValPtr
@@ -804,7 +804,7 @@ in
 jsid
 id
 in
-PRUint32
+uint32_t
 flags
 out
 JSObjectPtr
@@ -824,7 +824,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 type
 in
 JSValPtr
@@ -861,7 +861,7 @@ in
 jsid
 id
 in
-PRUint32
+uint32_t
 mode
 in
 JSValPtr
@@ -881,7 +881,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -904,7 +904,7 @@ in
 JSObjectPtr
 obj
 in
-PRUint32
+uint32_t
 argc
 in
 JSValPtr
@@ -1057,7 +1057,7 @@ aNative
 0
 ;
 virtual
-PRUint32
+uint32_t
 GetInterfacesBitmap
 (
 )

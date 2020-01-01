@@ -247,7 +247,7 @@ in
 nsIFile
 profileDir
 in
-PRInt32
+int32_t
 quota
 )
 ;

@@ -75,7 +75,7 @@ const
 nsACString
 &
 aASCIIOrigin
-PRUint64
+uint64_t
 aRequestedVersion
 bool
 aForDeletion
@@ -387,7 +387,7 @@ mName
 nsCString
 mASCIIOrigin
 ;
-PRUint64
+uint64_t
 mRequestedVersion
 ;
 bool
@@ -421,16 +421,16 @@ ObjectStoreInfo
 >
 mObjectStores
 ;
-PRUint64
+uint64_t
 mCurrentVersion
 ;
 nsString
 mDatabaseFilePath
 ;
-PRInt64
+int64_t
 mLastObjectStoreId
 ;
-PRInt64
+int64_t
 mLastIndexId
 ;
 nsRefPtr

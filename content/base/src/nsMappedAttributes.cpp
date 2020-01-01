@@ -112,7 +112,7 @@ attributes
 "
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -176,7 +176,7 @@ this
 )
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -219,7 +219,7 @@ bool
 aWillAddAttr
 )
 {
-PRUint32
+uint32_t
 extra
 =
 aWillAddAttr
@@ -252,7 +252,7 @@ new
 (
 size_t
 aSize
-PRUint32
+uint32_t
 aAttrCount
 )
 CPP_THROW_NEW
@@ -350,7 +350,7 @@ name
 "
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -569,7 +569,7 @@ name
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -634,7 +634,7 @@ const
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -736,7 +736,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -817,7 +817,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 nsMappedAttributes
 :
 :
@@ -826,7 +826,7 @@ HashValue
 )
 const
 {
-PRUint32
+uint32_t
 hash
 =
 HashGeneric
@@ -834,7 +834,7 @@ HashGeneric
 mRuleMapper
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -957,7 +957,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -965,7 +965,7 @@ const
 nsAutoString
 buffer
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -983,7 +983,7 @@ mAttrCount
 i
 )
 {
-PRInt32
+int32_t
 indent
 ;
 for
@@ -1080,7 +1080,7 @@ nsMappedAttributes
 :
 RemoveAttrAt
 (
-PRUint32
+uint32_t
 aPos
 nsAttrValue
 &
@@ -1165,7 +1165,7 @@ aName
 )
 const
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1276,7 +1276,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 nsMappedAttributes
 :
 :
@@ -1288,7 +1288,7 @@ aLocalName
 )
 const
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1374,7 +1374,7 @@ this
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0

@@ -48,7 +48,7 @@ nsTraversal
 nsINode
 *
 aRoot
-PRUint32
+uint32_t
 aWhatToShow
 nsIDOMNodeFilter
 *
@@ -105,7 +105,7 @@ TestNode
 nsINode
 *
 aNode
-PRInt16
+int16_t
 *
 _filtered
 )
@@ -128,7 +128,7 @@ nsIDOMNodeFilter
 :
 FILTER_SKIP
 ;
-PRUint16
+uint16_t
 nodeType
 =
 aNode

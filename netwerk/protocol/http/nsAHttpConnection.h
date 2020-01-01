@@ -175,7 +175,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 length
 )
 =
@@ -225,7 +225,7 @@ Transport
 0
 ;
 virtual
-PRUint32
+uint32_t
 CancelPipeline
 (
 nsresult
@@ -259,7 +259,7 @@ newclass
 0
 ;
 virtual
-PRInt64
+int64_t
 BytesWritten
 (
 )
@@ -340,7 +340,7 @@ PushBack
 const
 char
 *
-PRUint32
+uint32_t
 )
 ;
 \
@@ -351,7 +351,7 @@ TakeHttpConnection
 )
 ;
 \
-PRUint32
+uint32_t
 CancelPipeline
 (
 nsresult
@@ -674,7 +674,7 @@ newclass
 \
 }
 \
-PRInt64
+int64_t
 BytesWritten
 (
 )

@@ -76,14 +76,14 @@ static
 void
 HexDump
 (
-PRUint32
+uint32_t
 *
 state
 const
 char
 *
 buf
-PRInt32
+int32_t
 n
 nsCString
 &
@@ -146,7 +146,7 @@ char
 )
 buf
 ;
-PRInt32
+int32_t
 i
 row_max
 =
@@ -459,7 +459,7 @@ GetURIFlags
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 *
 result
 )
@@ -503,7 +503,7 @@ nsIOutputStream
 >
 outputStream
 ;
-PRUint32
+uint32_t
 n
 ;
 nsCString
@@ -532,7 +532,7 @@ rv
 NS_NewStorageStream
 (
 256
-PRUint32
+uint32_t
 (
 -
 1
@@ -829,7 +829,7 @@ nsIInputStream
 >
 inStr
 ;
-PRUint32
+uint32_t
 size
 ;
 rv
@@ -1017,7 +1017,7 @@ static
 PRTime
 SecondsToPRTime
 (
-PRUint32
+uint32_t
 t_sec
 )
 {
@@ -1055,9 +1055,9 @@ PrintTimeString
 char
 *
 buf
-PRUint32
+uint32_t
 bufsize
-PRUint32
+uint32_t
 t_sec
 )
 {
@@ -1220,7 +1220,7 @@ rv
 nsCString
 buffer
 ;
-PRUint32
+uint32_t
 n
 ;
 nsCAutoString
@@ -1490,12 +1490,12 @@ timeBuf
 255
 ]
 ;
-PRUint32
+uint32_t
 u
 =
 0
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -1692,7 +1692,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 dataSize
 ;
 descriptor
@@ -1709,7 +1709,7 @@ s
 AppendInt
 (
 (
-PRInt32
+int32_t
 )
 dataSize
 )
@@ -2013,7 +2013,7 @@ pre
 "
 )
 ;
-PRUint32
+uint32_t
 hexDumpState
 =
 0
@@ -2134,7 +2134,7 @@ nsIOutputStream
 outputStream
 )
 {
-PRUint32
+uint32_t
 n
 ;
 NS_NAMED_LITERAL_CSTRING

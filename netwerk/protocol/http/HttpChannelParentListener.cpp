@@ -336,9 +336,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -499,7 +499,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 redirectFlags
 nsIAsyncVerifyRedirectCallback
 *

@@ -339,7 +339,7 @@ aObservers
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -395,7 +395,7 @@ i
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -953,7 +953,7 @@ OfflineCacheUpdateChild
 :
 GetStatus
 (
-PRUint16
+uint16_t
 *
 aStatus
 )
@@ -1251,7 +1251,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1305,7 +1305,7 @@ NS_OK
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1356,7 +1356,7 @@ OfflineCacheUpdateChild
 :
 GetByteProgress
 (
-PRUint64
+uint64_t
 *
 _result
 )
@@ -1788,7 +1788,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1827,11 +1827,11 @@ OfflineCacheUpdateChild
 RecvNotifyStateEvent
 (
 const
-PRUint32
+uint32_t
 &
 event
 const
-PRUint64
+uint64_t
 &
 byteProgress
 )
@@ -1913,7 +1913,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

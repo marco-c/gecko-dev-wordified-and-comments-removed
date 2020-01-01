@@ -178,11 +178,11 @@ SpanningCellSorter
 :
 AddCell
 (
-PRInt32
+int32_t
 aColSpan
-PRInt32
+int32_t
 aRow
-PRInt32
+int32_t
 aCol
 )
 {
@@ -271,7 +271,7 @@ aColSpan
 )
 )
 {
-PRInt32
+int32_t
 index
 =
 SpanToIndex
@@ -469,7 +469,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -534,7 +534,7 @@ void
 closure
 )
 {
-PRInt32
+int32_t
 spanA
 =
 (
@@ -554,7 +554,7 @@ a
 >
 mColSpan
 ;
-PRInt32
+int32_t
 spanB
 =
 (
@@ -608,7 +608,7 @@ SpanningCellSorter
 :
 GetNext
 (
-PRInt32
+int32_t
 *
 aColSpan
 )

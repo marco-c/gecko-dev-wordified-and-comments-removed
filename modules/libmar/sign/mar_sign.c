@@ -171,7 +171,7 @@ CERTCertificate
 *
 *
 cert
-PRUint32
+uint32_t
 *
 signatureLength
 )
@@ -479,7 +479,7 @@ fpDest
 void
 *
 buffer
-PRUint32
+uint32_t
 size
 SGNContext
 *
@@ -590,13 +590,13 @@ AdjustIndexContentOffsets
 char
 *
 indexBuf
-PRUint32
+uint32_t
 indexLength
-PRUint32
+uint32_t
 offsetAmount
 )
 {
-PRUint32
+uint32_t
 *
 offsetToContent
 ;
@@ -621,7 +621,7 @@ indexLength
 offsetToContent
 =
 (
-PRUint32
+uint32_t
 *
 )
 indexBufLoc
@@ -657,7 +657,7 @@ indexBufLoc
 *
 sizeof
 (
-PRUint32
+uint32_t
 )
 ;
 indexBufLoc
@@ -684,7 +684,7 @@ fpDest
 void
 *
 buffer
-PRUint32
+uint32_t
 size
 SGNContext
 *
@@ -764,7 +764,7 @@ fpDest
 void
 *
 buffer
-PRUint32
+uint32_t
 size
 const
 char
@@ -871,7 +871,7 @@ char
 dest
 )
 {
-PRUint32
+uint32_t
 offsetToIndex
 dstOffsetToIndex
 indexLength
@@ -880,12 +880,12 @@ numSignatures
 0
 leftOver
 ;
-PRInt32
+int32_t
 stripAmount
 =
 0
 ;
-PRInt64
+int64_t
 oldPos
 sizeOfEntireMAR
 =
@@ -1358,7 +1358,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 signatureLen
 ;
 if
@@ -1368,7 +1368,7 @@ fseeko
 fpSrc
 sizeof
 (
-PRUint32
+uint32_t
 )
 SEEK_CUR
 )
@@ -1401,7 +1401,7 @@ fread
 signatureLen
 sizeof
 (
-PRUint32
+uint32_t
 )
 1
 fpSrc
@@ -1473,12 +1473,12 @@ stripAmount
 =
 sizeof
 (
-PRUint32
+uint32_t
 )
 +
 sizeof
 (
-PRUint32
+uint32_t
 )
 +
 signatureLen
@@ -1500,7 +1500,7 @@ if
 (
 (
 (
-PRInt64
+int64_t
 )
 offsetToIndex
 )
@@ -1745,7 +1745,7 @@ fpSrc
 >
 (
 (
-PRInt64
+int64_t
 )
 offsetToIndex
 )
@@ -1776,7 +1776,7 @@ numBytesToCopy
 =
 (
 (
-PRInt64
+int64_t
 )
 offsetToIndex
 )
@@ -2081,7 +2081,7 @@ char
 dest
 )
 {
-PRUint32
+uint32_t
 offsetToIndex
 dstOffsetToIndex
 indexLength
@@ -2093,7 +2093,7 @@ leftOver
 signatureAlgorithmID
 signatureSectionLength
 ;
-PRInt64
+int64_t
 oldPos
 sizeOfEntireMAR
 =
@@ -2688,7 +2688,7 @@ if
 (
 (
 (
-PRInt64
+int64_t
 )
 offsetToIndex
 )
@@ -3039,7 +3039,7 @@ fpSrc
 >
 (
 (
-PRInt64
+int64_t
 )
 offsetToIndex
 )
@@ -3070,7 +3070,7 @@ numBytesToCopy
 =
 (
 (
-PRInt64
+int64_t
 )
 offsetToIndex
 )

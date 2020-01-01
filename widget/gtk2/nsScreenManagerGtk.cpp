@@ -733,13 +733,13 @@ nsScreenManagerGtk
 :
 ScreenForRect
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 nsIScreen
 *
@@ -783,7 +783,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 which
 =
 0
@@ -799,7 +799,7 @@ Count
 1
 )
 {
-PRUint32
+uint32_t
 area
 =
 0
@@ -815,7 +815,7 @@ aHeight
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -836,7 +836,7 @@ i_end
 i
 )
 {
-PRInt32
+int32_t
 x
 y
 width
@@ -887,7 +887,7 @@ screenRect
 windowRect
 )
 ;
-PRUint32
+uint32_t
 tempArea
 =
 screenRect
@@ -1011,7 +1011,7 @@ nsScreenManagerGtk
 :
 GetNumberOfScreens
 (
-PRUint32
+uint32_t
 *
 aNumberOfScreens
 )

@@ -67,7 +67,7 @@ NativeRole
 )
 ;
 virtual
-PRUint32
+uint32_t
 AnchorCount
 (
 )
@@ -77,7 +77,7 @@ Accessible
 *
 AnchorAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 ;
@@ -88,7 +88,7 @@ nsIURI
 >
 AnchorURIAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 ;
@@ -159,9 +159,9 @@ Accessible
 *
 ChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 EWhichChildAtPoint
 aWhichChild
@@ -181,13 +181,13 @@ aBoundingFrame
 )
 ;
 virtual
-PRUint32
+uint32_t
 StartOffset
 (
 )
 ;
 virtual
-PRUint32
+uint32_t
 EndOffset
 (
 )

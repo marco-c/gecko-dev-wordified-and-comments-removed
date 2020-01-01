@@ -626,7 +626,7 @@ WriteParam
 aMsg
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 aParam
@@ -669,7 +669,7 @@ paramType
 aResult
 )
 {
-PRInt32
+int32_t
 scrollType
 =
 0
@@ -910,7 +910,7 @@ WriteParam
 (
 aMsg
 (
-PRUint8
+uint8_t
 )
 aParam
 .
@@ -921,7 +921,7 @@ WriteParam
 (
 aMsg
 (
-PRUint8
+uint8_t
 )
 aParam
 .
@@ -932,7 +932,7 @@ WriteParam
 (
 aMsg
 (
-PRUint8
+uint8_t
 )
 aParam
 .
@@ -968,7 +968,7 @@ aResult
 bool
 rv
 ;
-PRUint8
+uint8_t
 reason
 =
 0
@@ -1320,7 +1320,7 @@ numTouches
 i
 )
 {
-PRInt32
+int32_t
 identifier
 ;
 nsIntPoint
@@ -1936,7 +1936,7 @@ rangeCount
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2099,7 +2099,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

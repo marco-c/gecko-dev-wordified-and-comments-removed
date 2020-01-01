@@ -281,13 +281,13 @@ static
 nsresult
 KeyedHash
 (
-PRUint32
+uint32_t
 aPref
-PRUint32
+uint32_t
 aHostKey
-PRUint32
+uint32_t
 aUserKey
-PRUint32
+uint32_t
 *
 aOut
 bool
@@ -350,7 +350,7 @@ GetPrefixes
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aAddPrefixes
@@ -388,7 +388,7 @@ const
 Completion
 &
 aHostkey
-PRUint32
+uint32_t
 aHashKey
 bool
 *

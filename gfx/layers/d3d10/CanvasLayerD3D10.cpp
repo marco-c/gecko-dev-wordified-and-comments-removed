@@ -740,7 +740,7 @@ width
 *
 4
 ;
-PRUint8
+uint8_t
 *
 destination
 ;
@@ -775,7 +775,7 @@ DiscardTempBlob
 destination
 =
 (
-PRUint8
+uint8_t
 *
 )
 map
@@ -859,7 +859,7 @@ y
 memcpy
 (
 (
-PRUint8
+uint8_t
 *
 )
 map
@@ -1110,7 +1110,7 @@ SetEffectTransformAndOpacity
 (
 )
 ;
-PRUint8
+uint8_t
 shaderFlags
 =
 0

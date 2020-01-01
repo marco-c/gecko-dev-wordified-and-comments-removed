@@ -372,7 +372,7 @@ mParserCreated
 void
 SetScriptLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -381,7 +381,7 @@ mLineNumber
 aLineNumber
 ;
 }
-PRUint32
+uint32_t
 GetScriptLineNumber
 (
 )
@@ -707,7 +707,7 @@ MaybeProcessScript
 =
 0
 ;
-PRUint32
+uint32_t
 mLineNumber
 ;
 bool

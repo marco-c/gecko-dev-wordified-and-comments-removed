@@ -73,7 +73,7 @@ h
 undef
 CSS_KEY
 static
-PRInt32
+int32_t
 gTableRefCount
 ;
 static
@@ -128,7 +128,7 @@ gKeywordTable
 ifdef
 DEBUG
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -425,7 +425,7 @@ gKeywordTable
 >
 GetStringValue
 (
-PRInt32
+int32_t
 (
 aKeyword
 )

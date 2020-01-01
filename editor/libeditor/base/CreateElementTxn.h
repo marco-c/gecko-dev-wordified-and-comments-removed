@@ -92,7 +92,7 @@ aTag
 nsIDOMNode
 *
 aParent
-PRUint32
+uint32_t
 aOffsetInParent
 )
 ;
@@ -136,7 +136,7 @@ nsIDOMNode
 >
 mParent
 ;
-PRUint32
+uint32_t
 mOffsetInParent
 ;
 nsCOMPtr

@@ -58,13 +58,13 @@ SHM_KEY
 struct
 SharedImageInfo
 {
-PRInt32
+int32_t
 width
 ;
-PRInt32
+int32_t
 height
 ;
-PRInt32
+int32_t
 format
 ;
 }

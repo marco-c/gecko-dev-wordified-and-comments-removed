@@ -51,7 +51,7 @@ AccGroupInfo
 )
 ;
 }
-PRInt32
+int32_t
 PosInSet
 (
 )
@@ -61,7 +61,7 @@ return
 mPosInSet
 ;
 }
-PRUint32
+uint32_t
 SetSize
 (
 )
@@ -491,10 +491,10 @@ role
 aParentRole
 )
 ;
-PRUint32
+uint32_t
 mPosInSet
 ;
-PRUint32
+uint32_t
 mSetSize
 ;
 Accessible

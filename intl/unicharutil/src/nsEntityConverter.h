@@ -51,7 +51,7 @@ NULL
 )
 {
 }
-PRUint32
+uint32_t
 mVersion
 ;
 PRUnichar
@@ -92,9 +92,9 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 ConvertUTF32ToEntity
 (
-PRUint32
+uint32_t
 character
-PRUint32
+uint32_t
 entityVersion
 char
 *
@@ -107,7 +107,7 @@ ConvertToEntity
 (
 PRUnichar
 character
-PRUint32
+uint32_t
 entityVersion
 char
 *
@@ -122,7 +122,7 @@ const
 PRUnichar
 *
 inString
-PRUint32
+uint32_t
 entityVersion
 PRUnichar
 *
@@ -142,7 +142,7 @@ PRUnichar
 *
 GetVersionName
 (
-PRUint32
+uint32_t
 versionNumber
 )
 ;
@@ -150,7 +150,7 @@ nsIStringBundle
 *
 GetVersionBundleInstance
 (
-PRUint32
+uint32_t
 versionNumber
 )
 ;
@@ -160,7 +160,7 @@ nsIStringBundle
 >
 LoadEntityBundle
 (
-PRUint32
+uint32_t
 version
 )
 ;
@@ -168,7 +168,7 @@ nsEntityVersionList
 *
 mVersionList
 ;
-PRUint32
+uint32_t
 mVersionListLength
 ;
 }

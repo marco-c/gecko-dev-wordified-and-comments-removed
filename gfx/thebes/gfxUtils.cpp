@@ -85,7 +85,7 @@ mozilla
 gfx
 ;
 static
-PRUint8
+uint8_t
 sUnpremultiplyTable
 [
 256
@@ -94,7 +94,7 @@ sUnpremultiplyTable
 ]
 ;
 static
-PRUint8
+uint8_t
 sPremultiplyTable
 [
 256
@@ -110,12 +110,12 @@ false
 ;
 static
 const
-PRUint8
+uint8_t
 PremultiplyValue
 (
-PRUint8
+uint8_t
 a
-PRUint8
+uint8_t
 v
 )
 {
@@ -132,12 +132,12 @@ v
 }
 static
 const
-PRUint8
+uint8_t
 UnpremultiplyValue
 (
-PRUint8
+uint8_t
 a
-PRUint8
+uint8_t
 v
 )
 {
@@ -160,7 +160,7 @@ CalculateTables
 {
 for
 (
-PRUint32
+uint32_t
 c
 =
 0
@@ -227,7 +227,7 @@ c
 ]
 =
 (
-PRUint8
+uint8_t
 )
 (
 (
@@ -498,7 +498,7 @@ CalculateTables
 (
 )
 ;
-PRUint8
+uint8_t
 *
 src
 =
@@ -509,7 +509,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 dst
 =
@@ -520,7 +520,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 dim
 =
 aSourceSurface
@@ -539,7 +539,7 @@ Height
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -556,7 +556,7 @@ i
 #
 ifdef
 IS_LITTLE_ENDIAN
-PRUint8
+uint8_t
 b
 =
 *
@@ -564,7 +564,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 g
 =
 *
@@ -572,7 +572,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 r
 =
 *
@@ -580,7 +580,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 a
 =
 *
@@ -630,7 +630,7 @@ a
 ;
 #
 else
-PRUint8
+uint8_t
 a
 =
 *
@@ -638,7 +638,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 r
 =
 *
@@ -646,7 +646,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 g
 =
 *
@@ -654,7 +654,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 b
 =
 *
@@ -903,7 +903,7 @@ CalculateTables
 (
 )
 ;
-PRUint8
+uint8_t
 *
 src
 =
@@ -914,7 +914,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 dst
 =
@@ -925,7 +925,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 dim
 =
 aSourceSurface
@@ -944,7 +944,7 @@ Height
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -961,7 +961,7 @@ i
 #
 ifdef
 IS_LITTLE_ENDIAN
-PRUint8
+uint8_t
 b
 =
 *
@@ -969,7 +969,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 g
 =
 *
@@ -977,7 +977,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 r
 =
 *
@@ -985,7 +985,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 a
 =
 *
@@ -1035,7 +1035,7 @@ a
 ;
 #
 else
-PRUint8
+uint8_t
 a
 =
 *
@@ -1043,7 +1043,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 r
 =
 *
@@ -1051,7 +1051,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 g
 =
 *
@@ -1059,7 +1059,7 @@ src
 +
 +
 ;
-PRUint8
+uint8_t
 b
 =
 *
@@ -1264,7 +1264,7 @@ ARGB32
 "
 )
 ;
-PRUint8
+uint8_t
 *
 src
 =
@@ -1275,7 +1275,7 @@ Data
 (
 )
 ;
-PRUint8
+uint8_t
 *
 dst
 =
@@ -1286,7 +1286,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 dim
 =
 aSourceSurface
@@ -1303,7 +1303,7 @@ Height
 (
 )
 ;
-PRUint8
+uint8_t
 *
 srcEnd
 =
@@ -1321,7 +1321,7 @@ src
 dst
 )
 {
-PRUint8
+uint8_t
 buffer
 [
 4
@@ -1656,7 +1656,7 @@ nullptr
 gfxIntSize
 size
 (
-PRInt32
+int32_t
 (
 needed
 .
@@ -1664,7 +1664,7 @@ Width
 (
 )
 )
-PRInt32
+int32_t
 (
 needed
 .
@@ -2381,7 +2381,7 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
-PRUint32
+uint32_t
 aImageFlags
 )
 {
@@ -3077,7 +3077,7 @@ aOut
 =
 nsIntRect
 (
-PRInt32
+int32_t
 (
 aIn
 .
@@ -3085,7 +3085,7 @@ X
 (
 )
 )
-PRInt32
+int32_t
 (
 aIn
 .
@@ -3093,7 +3093,7 @@ Y
 (
 )
 )
-PRInt32
+int32_t
 (
 aIn
 .
@@ -3101,7 +3101,7 @@ Width
 (
 )
 )
-PRInt32
+int32_t
 (
 aIn
 .
@@ -3423,7 +3423,7 @@ unsigned
 char
 *
 aDestBuffer
-PRInt32
+int32_t
 aStride
 )
 {

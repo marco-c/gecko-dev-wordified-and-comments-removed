@@ -169,7 +169,7 @@ const
 nsAString
 &
 aMIMEType
-PRUint32
+uint32_t
 *
 aLen
 nsISharingHandlerApp

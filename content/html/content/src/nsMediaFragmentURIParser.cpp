@@ -405,13 +405,13 @@ aChar
 ;
 }
 static
-PRUint32
+uint32_t
 FirstNonDigit
 (
 nsDependentSubstring
 &
 aString
-PRUint32
+uint32_t
 aStart
 )
 {
@@ -480,7 +480,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 index
 =
 FirstNonDigit
@@ -512,7 +512,7 @@ index
 nsresult
 ec
 ;
-PRInt32
+int32_t
 s
 =
 PromiseFlatString
@@ -605,12 +605,12 @@ original
 aString
 )
 ;
-PRUint32
+uint32_t
 mm
 =
 0
 ;
-PRUint32
+uint32_t
 ss
 =
 0
@@ -787,7 +787,7 @@ aString
 '
 )
 {
-PRUint32
+uint32_t
 index
 =
 FirstNonDigit
@@ -877,7 +877,7 @@ original
 aString
 )
 ;
-PRUint32
+uint32_t
 hh
 =
 0
@@ -988,7 +988,7 @@ ParseNPTHH
 nsDependentSubstring
 &
 aString
-PRUint32
+uint32_t
 &
 aHour
 )
@@ -1009,7 +1009,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 index
 =
 FirstNonDigit
@@ -1041,7 +1041,7 @@ index
 nsresult
 ec
 ;
-PRInt32
+int32_t
 u
 =
 PromiseFlatString
@@ -1092,7 +1092,7 @@ ParseNPTMM
 nsDependentSubstring
 &
 aString
-PRUint32
+uint32_t
 &
 aMinute
 )
@@ -1114,7 +1114,7 @@ ParseNPTSS
 nsDependentSubstring
 &
 aString
-PRUint32
+uint32_t
 &
 aSecond
 )
@@ -1165,7 +1165,7 @@ aString
 nsresult
 ec
 ;
-PRInt32
+int32_t
 u
 =
 PromiseFlatString
@@ -1258,7 +1258,7 @@ nextToken
 (
 )
 ;
-PRInt32
+int32_t
 index
 =
 nv
@@ -1357,7 +1357,7 @@ GetStartTime
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1375,7 +1375,7 @@ Length
 i
 )
 {
-PRUint32
+uint32_t
 index
 =
 mFragments
@@ -1461,7 +1461,7 @@ GetEndTime
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1479,7 +1479,7 @@ Length
 i
 )
 {
-PRUint32
+uint32_t
 index
 =
 mFragments

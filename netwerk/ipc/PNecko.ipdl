@@ -267,7 +267,7 @@ HTMLDNSPrefetch
 (
 nsString
 hostname
-PRUint16
+uint16_t
 flags
 )
 ;
@@ -275,7 +275,7 @@ CancelHTMLDNSPrefetch
 (
 nsString
 hostname
-PRUint16
+uint16_t
 flags
 nsresult
 reason

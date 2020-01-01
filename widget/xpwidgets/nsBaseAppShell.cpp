@@ -217,7 +217,7 @@ NativeEventCallback
 (
 )
 {
-PRInt32
+int32_t
 hasPending
 =
 PR_ATOMIC_SET
@@ -352,7 +352,7 @@ DoProcessNextNativeEvent
 (
 bool
 mayWait
-PRUint32
+uint32_t
 recursionDepth
 )
 {
@@ -494,7 +494,7 @@ FavorPerformanceHint
 (
 bool
 favorPerfOverStarvation
-PRUint32
+uint32_t
 starvationDelay
 )
 {
@@ -588,7 +588,7 @@ nsBaseAppShell
 :
 GetEventloopNestingLevel
 (
-PRUint32
+uint32_t
 *
 aNestingLevelResult
 )
@@ -625,7 +625,7 @@ mBlockNativeEvent
 return
 NS_OK
 ;
-PRInt32
+int32_t
 lastVal
 =
 PR_ATOMIC_SET
@@ -664,7 +664,7 @@ nsIThreadInternal
 thr
 bool
 mayWait
-PRUint32
+uint32_t
 recursionDepth
 )
 {
@@ -957,7 +957,7 @@ RunSyncSectionsInternal
 (
 bool
 aStable
-PRUint32
+uint32_t
 aThreadRecursionLevel
 )
 {
@@ -997,7 +997,7 @@ pendingSyncSections
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1195,7 +1195,7 @@ fail
 "
 )
 ;
-PRUint32
+uint32_t
 recursionLevel
 ;
 if
@@ -1272,7 +1272,7 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 thr
-PRUint32
+uint32_t
 recursionDepth
 )
 {

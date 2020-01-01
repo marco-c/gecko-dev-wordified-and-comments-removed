@@ -16,7 +16,7 @@ nsAuthInformationHolder
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )

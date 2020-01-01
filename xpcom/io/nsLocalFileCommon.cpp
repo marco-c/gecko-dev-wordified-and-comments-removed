@@ -184,9 +184,9 @@ nsLocalFile
 :
 CreateUnique
 (
-PRUint32
+uint32_t
 type
-PRUint32
+uint32_t
 attributes
 )
 {
@@ -299,7 +299,7 @@ return
 rv
 ;
 const
-PRInt32
+int32_t
 lastDot
 =
 leafName
@@ -334,7 +334,7 @@ return
 rv
 ;
 const
-PRInt32
+int32_t
 lastDot
 =
 leafName
@@ -386,7 +386,7 @@ if
 longName
 )
 {
-PRInt32
+int32_t
 maxRootLength
 =
 (
@@ -675,7 +675,7 @@ platform
 #
 endif
 static
-PRInt32
+int32_t
 SplitPath
 (
 PRUnichar
@@ -685,7 +685,7 @@ PRUnichar
 *
 *
 nodeArray
-PRInt32
+int32_t
 arrayLen
 )
 {
@@ -819,7 +819,7 @@ fromFile
 )
 ;
 const
-PRInt32
+int32_t
 kMaxNodesInPath
 =
 32
@@ -850,7 +850,7 @@ fromNodes
 kMaxNodesInPath
 ]
 ;
-PRInt32
+int32_t
 thisNodeCnt
 fromNodeCnt
 nodeIndex
@@ -1009,7 +1009,7 @@ break
 #
 endif
 }
-PRInt32
+int32_t
 branchIndex
 =
 nodeIndex

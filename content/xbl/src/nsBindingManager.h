@@ -239,7 +239,7 @@ ResolveTag
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 *
 aNameSpaceID
 )
@@ -348,7 +348,7 @@ const
 nsIContent
 *
 aChild
-PRUint32
+uint32_t
 *
 aIndex
 )
@@ -360,7 +360,7 @@ GetSingleInsertionPoint
 nsIContent
 *
 aParent
-PRUint32
+uint32_t
 *
 aIndex
 bool
@@ -443,7 +443,7 @@ aBinding
 void
 ProcessAttachedQueue
 (
-PRUint32
+uint32_t
 aSkipSize
 =
 0
@@ -666,7 +666,7 @@ aContainer
 nsIContent
 *
 aChild
-PRUint32
+uint32_t
 aIndexInContainer
 bool
 aAppend
@@ -682,11 +682,11 @@ aContainer
 nsIContent
 *
 aInsertionParent
-PRUint32
+uint32_t
 aIndexInContainer
-PRInt32
+int32_t
 aAppend
-PRInt32
+int32_t
 *
 aInsertionIndex
 )
@@ -753,7 +753,7 @@ mProcessingAttachedStack
 bool
 mDestroyed
 ;
-PRUint32
+uint32_t
 mAttachedStackSizeOnOutermost
 ;
 friend

@@ -157,7 +157,7 @@ nsIGfxInfoDebug
 endif
 static
 const
-PRUint32
+uint32_t
 allWindowsVersions
 =
 0xffffffff
@@ -332,7 +332,7 @@ GetCleartypeParams
 clearTypeParams
 )
 ;
-PRUint32
+uint32_t
 d
 numDisplays
 =
@@ -808,7 +808,7 @@ destString
 .
 AppendInt
 (
-PRInt32
+int32_t
 (
 dValue
 )
@@ -1019,7 +1019,7 @@ ToUpperCase
 driverid
 )
 ;
-PRInt32
+int32_t
 rev
 =
 driverid
@@ -1058,7 +1058,7 @@ Length
 ;
 }
 }
-PRUint32
+uint32_t
 ParseIDFromDeviceID
 (
 const
@@ -1084,7 +1084,7 @@ ToUpperCase
 id
 )
 ;
-PRInt32
+int32_t
 start
 =
 id
@@ -1704,10 +1704,10 @@ driverVersion2
 nsAutoString
 driverDate2
 ;
-PRUint32
+uint32_t
 adapterVendorID2
 ;
-PRUint32
+uint32_t
 adapterDeviceID2
 ;
 NS_NAMED_LITERAL_STRING
@@ -2300,7 +2300,7 @@ dllFileName
 dllVersion
 )
 ;
-PRUint64
+uint64_t
 dllNumericVersion
 =
 0
@@ -3255,7 +3255,7 @@ static
 OperatingSystem
 WindowsVersionToOperatingSystem
 (
-PRInt32
+int32_t
 aWindowsVersion
 )
 {
@@ -4069,9 +4069,9 @@ GfxInfo
 :
 GetFeatureStatusImpl
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 *
 aStatus
 nsAString
@@ -4305,7 +4305,7 @@ return
 NS_OK
 ;
 }
-PRUint64
+uint64_t
 driverVersion
 ;
 if
@@ -4550,7 +4550,7 @@ GfxInfo
 :
 SpoofOSVersion
 (
-PRUint32
+uint32_t
 aVersion
 )
 {

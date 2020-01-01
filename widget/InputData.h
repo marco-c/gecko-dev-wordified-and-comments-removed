@@ -101,7 +101,7 @@ public
 InputType
 mInputType
 ;
-PRUint32
+uint32_t
 mTime
 ;
 INPUTDATA_AS_CHILD_TYPE
@@ -125,7 +125,7 @@ InputData
 (
 InputType
 aInputType
-PRUint32
+uint32_t
 aTime
 )
 :
@@ -148,7 +148,7 @@ public
 :
 SingleTouchData
 (
-PRInt32
+int32_t
 aIdentifier
 nsIntPoint
 aScreenPoint
@@ -182,7 +182,7 @@ aForce
 )
 {
 }
-PRInt32
+int32_t
 mIdentifier
 ;
 nsIntPoint
@@ -222,7 +222,7 @@ MultiTouchInput
 (
 MultiTouchType
 aType
-PRUint32
+uint32_t
 aTime
 )
 :
@@ -393,7 +393,7 @@ get
 )
 )
 ;
-PRInt32
+int32_t
 identifier
 radiusX
 radiusY
@@ -624,7 +624,7 @@ PinchGestureInput
 (
 PinchGestureType
 aType
-PRUint32
+uint32_t
 aTime
 const
 nsIntPoint
@@ -695,7 +695,7 @@ TapGestureInput
 (
 TapGestureType
 aType
-PRUint32
+uint32_t
 aTime
 const
 nsIntPoint

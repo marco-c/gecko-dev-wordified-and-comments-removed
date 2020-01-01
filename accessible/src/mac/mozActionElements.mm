@@ -641,7 +641,7 @@ int
 )
 isChecked
 {
-PRUint64
+uint64_t
 state
 =
 mGeckoAccessible

@@ -39,7 +39,7 @@ u2BytesGRPrefix8EA7Charset
 ;
 static
 const
-PRUint16
+uint16_t
 *
 g_EUCTWMappingTableSet
 [

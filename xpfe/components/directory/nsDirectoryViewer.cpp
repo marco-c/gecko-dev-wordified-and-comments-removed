@@ -1506,9 +1506,9 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1660,7 +1660,7 @@ Append
 filename
 )
 ;
-PRUint32
+uint32_t
 type
 ;
 rv
@@ -1921,7 +1921,7 @@ rv
 return
 rv
 ;
-PRInt64
+int64_t
 size
 ;
 rv
@@ -1945,7 +1945,7 @@ rv
 return
 rv
 ;
-PRInt64
+int64_t
 minus1
 =
 LL_MAXUINT
@@ -1959,7 +1959,7 @@ minus1
 )
 )
 {
-PRInt32
+int32_t
 intSize
 ;
 LL_L2I
@@ -2093,7 +2093,7 @@ true
 )
 ;
 }
-PRUint32
+uint32_t
 type
 ;
 rv
@@ -3711,7 +3711,7 @@ doNetworkRequest
 mConnectionList
 )
 {
-PRInt32
+int32_t
 connectionIndex
 =
 mConnectionList
@@ -3992,7 +3992,7 @@ httpIndex
 )
 return
 ;
-PRUint32
+uint32_t
 numItems
 =
 0
@@ -4039,7 +4039,7 @@ mConnectionList
 GetElementAt
 (
 (
-PRUint32
+uint32_t
 )
 0
 getter_AddRefs
@@ -4057,7 +4057,7 @@ mConnectionList
 RemoveElementAt
 (
 (
-PRUint32
+uint32_t
 )
 0
 )
@@ -4252,7 +4252,7 @@ numItems
 =
 10
 ;
-PRInt32
+int32_t
 loop
 ;
 for
@@ -4264,7 +4264,7 @@ loop
 loop
 <
 (
-PRInt32
+int32_t
 )
 numItems
 ;
@@ -4288,7 +4288,7 @@ mNodeList
 GetElementAt
 (
 (
-PRUint32
+uint32_t
 )
 0
 getter_AddRefs
@@ -4306,7 +4306,7 @@ mNodeList
 RemoveElementAt
 (
 (
-PRUint32
+uint32_t
 )
 0
 )
@@ -4337,7 +4337,7 @@ mNodeList
 GetElementAt
 (
 (
-PRUint32
+uint32_t
 )
 0
 getter_AddRefs
@@ -4355,7 +4355,7 @@ mNodeList
 RemoveElementAt
 (
 (
-PRUint32
+uint32_t
 )
 0
 )
@@ -4386,7 +4386,7 @@ mNodeList
 GetElementAt
 (
 (
-PRUint32
+uint32_t
 )
 0
 getter_AddRefs
@@ -4404,7 +4404,7 @@ mNodeList
 RemoveElementAt
 (
 (
-PRUint32
+uint32_t
 )
 0
 )

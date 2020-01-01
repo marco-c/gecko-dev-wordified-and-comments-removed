@@ -25,7 +25,7 @@ EnsureSubtreeFor
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
 )
 {
@@ -86,9 +86,9 @@ const
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
-PRInt32
+int32_t
 *
 aSubtreeSize
 )
@@ -171,7 +171,7 @@ RemoveSubtreeFor
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
 )
 {
@@ -224,7 +224,7 @@ row
 mSubtree
 )
 {
-PRInt32
+int32_t
 subtreeSize
 =
 row
@@ -336,7 +336,7 @@ current
 &
 mRoot
 ;
-PRInt32
+int32_t
 count
 =
 current
@@ -348,7 +348,7 @@ Count
 ;
 do
 {
-PRInt32
+int32_t
 last
 =
 count
@@ -436,11 +436,11 @@ operator
 [
 ]
 (
-PRInt32
+int32_t
 aRow
 )
 {
-PRInt32
+int32_t
 last
 =
 mLastRow
@@ -509,7 +509,7 @@ current
 &
 mRoot
 ;
-PRInt32
+int32_t
 index
 =
 0
@@ -523,7 +523,7 @@ aRow
 ;
 do
 {
-PRInt32
+int32_t
 subtreeSize
 ;
 Subtree
@@ -894,7 +894,7 @@ Clear
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mCount
@@ -951,7 +951,7 @@ InsertRowAt
 nsTemplateMatch
 *
 aMatch
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -969,7 +969,7 @@ aIndex
 mCapacity
 )
 {
-PRInt32
+int32_t
 newCapacity
 =
 NS_MAX
@@ -1004,7 +1004,7 @@ iterator
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mCount
@@ -1046,7 +1046,7 @@ newCapacity
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 mCount
@@ -1123,7 +1123,7 @@ nullptr
 +
 mCount
 ;
-PRInt32
+int32_t
 rowIndex
 =
 0
@@ -1210,7 +1210,7 @@ parent
 )
 break
 ;
-PRInt32
+int32_t
 count
 =
 parent
@@ -1333,7 +1333,7 @@ Subtree
 :
 RemoveRowAt
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -1372,7 +1372,7 @@ Count
 )
 return
 ;
-PRInt32
+int32_t
 subtreeSize
 =
 mRows
@@ -1410,7 +1410,7 @@ mSubtree
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aIndex
@@ -1547,7 +1547,7 @@ Append
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
 )
 {
@@ -1604,7 +1604,7 @@ Push
 Subtree
 *
 aParent
-PRInt32
+int32_t
 aChildIndex
 )
 {
@@ -1801,7 +1801,7 @@ Count
 1
 )
 {
-PRInt32
+int32_t
 unfinished
 ;
 for
@@ -1943,7 +1943,7 @@ mChildIndex
 0
 )
 {
-PRInt32
+int32_t
 unfinished
 ;
 for
@@ -2020,7 +2020,7 @@ GetParent
 (
 )
 ;
-PRInt32
+int32_t
 index
 =
 GetTop

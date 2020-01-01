@@ -799,7 +799,7 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -887,7 +887,7 @@ AttributeFilter
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1132,7 +1132,7 @@ RemoveClones
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1268,7 +1268,7 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1352,7 +1352,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -1599,11 +1599,11 @@ mCallback
 bool
 mWaitingForRun
 ;
-PRUint64
+uint64_t
 mId
 ;
 static
-PRUint64
+uint64_t
 sCount
 ;
 static
@@ -1620,7 +1620,7 @@ nsIDOMMutationObserver
 sCurrentObserver
 ;
 static
-PRUint32
+uint32_t
 sMutationLevel
 ;
 static
@@ -1880,7 +1880,7 @@ bool
 aWantsChildList
 )
 {
-PRUint32
+uint32_t
 l
 =
 sCurrentBatch
@@ -1894,7 +1894,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2011,7 +2011,7 @@ sCurrentBatch
 mRemovalDone
 )
 {
-PRUint32
+uint32_t
 len
 =
 sCurrentBatch

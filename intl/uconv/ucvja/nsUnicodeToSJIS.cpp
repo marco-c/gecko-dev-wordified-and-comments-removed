@@ -14,7 +14,7 @@ h
 "
 static
 const
-PRUint16
+uint16_t
 g_SJISMappingTable
 [
 ]
@@ -31,7 +31,7 @@ uf
 ;
 static
 const
-PRInt16
+int16_t
 g_SJISShiftOutTable
 [
 ]

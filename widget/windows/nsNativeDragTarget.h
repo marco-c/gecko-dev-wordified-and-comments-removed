@@ -167,7 +167,7 @@ DWORD
 grfKeyState
 LPDWORD
 pdwEffect
-PRUint32
+uint32_t
 *
 aGeckoAction
 )
@@ -175,7 +175,7 @@ aGeckoAction
 void
 ProcessDrag
 (
-PRUint32
+uint32_t
 aEventType
 DWORD
 grfKeyState
@@ -189,7 +189,7 @@ pdwEffect
 void
 DispatchDragDropEvent
 (
-PRUint32
+uint32_t
 aType
 POINTL
 pt

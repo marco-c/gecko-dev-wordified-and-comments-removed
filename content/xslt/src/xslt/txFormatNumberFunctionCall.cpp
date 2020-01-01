@@ -441,12 +441,12 @@ groupSize
 -
 1
 ;
-PRUint32
+uint32_t
 pos
 =
 0
 ;
-PRUint32
+uint32_t
 formatLen
 =
 formatStr
@@ -1241,7 +1241,7 @@ intDigits
 groupSize
 )
 ;
-PRInt32
+int32_t
 i
 =
 bufIntDigits
@@ -1291,7 +1291,7 @@ hasFraction
 =
 false
 ;
-PRUint32
+uint32_t
 resPos
 =
 res

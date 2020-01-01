@@ -24,7 +24,7 @@ mTracksKnownTime
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -107,7 +107,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -203,7 +203,7 @@ forget
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

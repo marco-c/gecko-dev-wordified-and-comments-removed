@@ -494,11 +494,11 @@ DecodeVideoFrame
 bool
 &
 aKeyframeSkip
-PRInt64
+int64_t
 aTimeThreshold
 )
 {
-PRUint32
+uint32_t
 parsed
 =
 0
@@ -676,7 +676,7 @@ mData
 =
 static_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -773,7 +773,7 @@ mData
 =
 static_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -870,7 +870,7 @@ mData
 =
 static_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -1068,7 +1068,7 @@ mInitialFrame
 height
 ;
 }
-PRInt64
+int64_t
 pos
 =
 mDecoder
@@ -1244,7 +1244,7 @@ thread
 "
 )
 ;
-PRInt64
+int64_t
 pos
 =
 mDecoder
@@ -1339,7 +1339,7 @@ frame
 mSize
 )
 ;
-PRUint32
+uint32_t
 frames
 =
 frame
@@ -1417,13 +1417,13 @@ nsMediaPluginReader
 :
 Seek
 (
-PRInt64
+int64_t
 aTarget
-PRInt64
+int64_t
 aStartTime
-PRInt64
+int64_t
 aEndTime
-PRInt64
+int64_t
 aCurrentTime
 )
 {
@@ -1530,7 +1530,7 @@ GetBuffered
 nsTimeRanges
 *
 aBuffered
-PRInt64
+int64_t
 aStartTime
 )
 {
@@ -1621,7 +1621,7 @@ totalBytes
 return
 NS_OK
 ;
-PRInt64
+int64_t
 startOffset
 =
 stream
@@ -1640,7 +1640,7 @@ startOffset
 0
 )
 {
-PRInt64
+int64_t
 endOffset
 =
 stream

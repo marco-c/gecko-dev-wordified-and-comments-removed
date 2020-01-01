@@ -306,13 +306,13 @@ OK
 return
 ;
 }
-PRUint8
+uint8_t
 *
 yChannel
 =
 static_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -336,7 +336,7 @@ mYSize
 height
 )
 ;
-PRInt32
+int32_t
 yStride
 =
 graphicBuffer
@@ -346,7 +346,7 @@ getStride
 (
 )
 ;
-PRUint8
+uint8_t
 *
 vChannel
 =
@@ -377,7 +377,7 @@ height
 2
 )
 ;
-PRInt32
+int32_t
 uvStride
 =
 (
@@ -393,7 +393,7 @@ yStride
 ~
 0x0F
 ;
-PRUint8
+uint8_t
 *
 uChannel
 =

@@ -97,7 +97,7 @@ mozIStorageResultSet
 NS_IMETHOD
 HandleCompletion
 (
-PRUint16
+uint16_t
 )
 ;
 class
@@ -112,7 +112,7 @@ Bind
 mozIStorageStatement
 *
 statement
-PRInt32
+int32_t
 index
 nsIURI
 *
@@ -126,7 +126,7 @@ Bind
 mozIStorageStatement
 *
 statement
-PRInt32
+int32_t
 index
 const
 nsACString
@@ -174,7 +174,7 @@ Bind
 mozIStorageBindingParams
 *
 aParams
-PRInt32
+int32_t
 index
 nsIURI
 *
@@ -188,7 +188,7 @@ Bind
 mozIStorageBindingParams
 *
 aParams
-PRInt32
+int32_t
 index
 const
 nsACString
@@ -406,7 +406,7 @@ GetHiddenState
 (
 bool
 aIsRedirect
-PRUint32
+uint32_t
 aTransitionType
 )
 ;
@@ -468,7 +468,7 @@ aTopic
 NS_IMETHOD
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 ;
@@ -520,7 +520,7 @@ aStart
 NS_IMETHOD
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 ;

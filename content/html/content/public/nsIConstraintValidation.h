@@ -70,7 +70,7 @@ nsDOMValidityState
 ;
 static
 const
-PRUint16
+uint16_t
 sContentSpecifiedMaxLengthMessage
 ;
 virtual
@@ -219,7 +219,7 @@ NS_OK
 }
 private
 :
-PRInt8
+int8_t
 mValidityBitField
 ;
 nsRefPtr

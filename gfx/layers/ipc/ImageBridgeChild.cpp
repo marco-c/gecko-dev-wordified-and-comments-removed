@@ -906,7 +906,7 @@ ImageBridgeChild
 :
 AllocPImageContainer
 (
-PRUint64
+uint64_t
 *
 id
 )
@@ -1137,7 +1137,7 @@ ImageContainerChild
 (
 )
 ;
-PRUint64
+uint64_t
 id
 =
 0

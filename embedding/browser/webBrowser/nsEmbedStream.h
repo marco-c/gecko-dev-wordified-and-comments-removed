@@ -74,10 +74,10 @@ NS_METHOD
 AppendToStream
 (
 const
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aLen
 )
 ;

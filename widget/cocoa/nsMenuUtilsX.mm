@@ -472,7 +472,7 @@ Length
 NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
-PRUint8
+uint8_t
 nsMenuUtilsX
 :
 :
@@ -484,7 +484,7 @@ nsString
 modifiersAttribute
 )
 {
-PRUint8
+uint8_t
 modifiers
 =
 knsMenuItemNoModifier
@@ -648,7 +648,7 @@ nsMenuUtilsX
 :
 MacModifiersForGeckoModifiers
 (
-PRUint8
+uint8_t
 geckoModifiers
 )
 {
@@ -1363,7 +1363,7 @@ nsMenuBarX
 aParent
 )
 ;
-PRUint32
+uint32_t
 numMenus
 =
 menubarParent
@@ -1375,7 +1375,7 @@ GetMenuCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1493,7 +1493,7 @@ GetMenuXObject
 (
 )
 ;
-PRUint32
+uint32_t
 numItems
 =
 menuParent
@@ -1505,7 +1505,7 @@ GetItemCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

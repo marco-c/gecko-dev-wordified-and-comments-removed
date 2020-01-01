@@ -178,7 +178,7 @@ cx
 JSObject
 *
 obj
-PRUint16
+uint16_t
 argNum
 unsigned
 argc
@@ -239,7 +239,7 @@ cx
 JSObject
 *
 obj
-PRUint16
+uint16_t
 argNum
 unsigned
 argc

@@ -111,7 +111,7 @@ struct
 nsRect
 rect
 ;
-PRInt64
+int64_t
 expectedArea
 ;
 }
@@ -320,7 +320,7 @@ true
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -461,7 +461,7 @@ nsRect
 rect1
 rect2
 ;
-PRInt64
+int64_t
 expectedArea
 ;
 }
@@ -548,7 +548,7 @@ true
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

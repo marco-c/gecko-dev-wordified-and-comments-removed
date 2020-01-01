@@ -192,7 +192,7 @@ mLocale
 nsString
 mAppLocale
 ;
-PRUint32
+uint32_t
 mLCID
 ;
 }

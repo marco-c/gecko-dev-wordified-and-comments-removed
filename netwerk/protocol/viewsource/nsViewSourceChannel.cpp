@@ -800,7 +800,7 @@ nsViewSourceChannel
 :
 GetLoadFlags
 (
-PRUint32
+uint32_t
 *
 aLoadFlags
 )
@@ -857,7 +857,7 @@ nsViewSourceChannel
 :
 SetLoadFlags
 (
-PRUint32
+uint32_t
 aLoadFlags
 )
 {
@@ -1089,7 +1089,7 @@ nsViewSourceChannel
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -1170,7 +1170,7 @@ nsViewSourceChannel
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 aContentLength
 )
@@ -1197,7 +1197,7 @@ nsViewSourceChannel
 :
 SetContentLength
 (
-PRInt32
+int32_t
 aContentLength
 )
 {
@@ -1639,9 +1639,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -1927,7 +1927,7 @@ nsViewSourceChannel
 :
 GetRedirectionLimit
 (
-PRUint32
+uint32_t
 *
 aRedirectionLimit
 )
@@ -1953,7 +1953,7 @@ nsViewSourceChannel
 :
 SetRedirectionLimit
 (
-PRUint32
+uint32_t
 aRedirectionLimit
 )
 {
@@ -1978,7 +1978,7 @@ nsViewSourceChannel
 :
 GetResponseStatus
 (
-PRUint32
+uint32_t
 *
 aResponseStatus
 )

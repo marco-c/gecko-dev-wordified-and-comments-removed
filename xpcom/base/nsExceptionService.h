@@ -146,7 +146,7 @@ Mutex
 sLock
 ;
 static
-PRUintn
+unsigned
 tlsIndex
 ;
 static
@@ -162,7 +162,7 @@ data
 ifdef
 DEBUG
 static
-PRInt32
+int32_t
 totalInstances
 ;
 #

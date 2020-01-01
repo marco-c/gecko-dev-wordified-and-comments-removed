@@ -86,7 +86,7 @@ MOZ_VISUAL_EVENT_TRACER
 namespace
 {
 const
-PRUint32
+uint32_t
 kBatchSize
 =
 0x1000
@@ -200,7 +200,7 @@ Record
 )
 ;
 }
-PRUint32
+uint32_t
 mType
 ;
 double
@@ -744,7 +744,7 @@ gFlushingThread
 =
 nullptr
 ;
-PRUintn
+unsigned
 gThreadPrivateIndex
 ;
 mozilla
@@ -796,7 +796,7 @@ false
 return
 ;
 }
-PRInt32
+int32_t
 rv
 ;
 bool
@@ -1055,7 +1055,7 @@ ioError
 record
 )
 {
-PRUint32
+uint32_t
 type
 =
 record
@@ -1065,7 +1065,7 @@ mType
 &
 0xffffUL
 ;
-PRUint32
+uint32_t
 flags
 =
 record
@@ -1320,7 +1320,7 @@ gLogFilePath
 bool
 CheckEventFilters
 (
-PRUint32
+uint32_t
 aType
 void
 *
@@ -1631,7 +1631,7 @@ endif
 void
 Mark
 (
-PRUint32
+uint32_t
 aType
 void
 *

@@ -603,11 +603,11 @@ CoalesceEvents
 void
 ApplyToSiblings
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aEnd
-PRUint32
+uint32_t
 aEventType
 nsINode
 *
@@ -628,7 +628,7 @@ aTailEvent
 AccSelChangeEvent
 *
 aThisEvent
-PRInt32
+int32_t
 aThisIndex
 )
 ;

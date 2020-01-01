@@ -74,7 +74,7 @@ PImageContainerParent
 *
 AllocPImageContainer
 (
-PRUint64
+uint64_t
 *
 aID
 )

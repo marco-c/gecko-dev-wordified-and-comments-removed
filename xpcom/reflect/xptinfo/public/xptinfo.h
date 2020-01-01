@@ -62,14 +62,14 @@ prefix
 nsXPTType
 (
 const
-PRUint8
+uint8_t
 &
 prefix
 )
 {
 *
 (
-PRUint8
+uint8_t
 *
 )
 this
@@ -82,7 +82,7 @@ nsXPTType
 operator
 =
 (
-PRUint8
+uint8_t
 val
 )
 {
@@ -118,7 +118,7 @@ this
 ;
 }
 operator
-PRUint8
+uint8_t
 (
 )
 const
@@ -240,7 +240,7 @@ true
 ;
 }
 }
-PRUint8
+uint8_t
 TagPart
 (
 )
@@ -248,7 +248,7 @@ const
 {
 return
 (
-PRUint8
+uint8_t
 )
 (
 flags
@@ -690,7 +690,7 @@ return
 name
 ;
 }
-PRUint8
+uint8_t
 GetParamCount
 (
 )
@@ -704,7 +704,7 @@ const
 nsXPTParamInfo
 GetParam
 (
-PRUint8
+uint8_t
 idx
 )
 const

@@ -472,7 +472,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 rangeCount
 ;
 res
@@ -1351,7 +1351,7 @@ aCancel
 bool
 *
 aHandled
-PRInt32
+int32_t
 aMaxLength
 )
 {
@@ -1563,7 +1563,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 selOffset
 ;
 nsCOMPtr
@@ -1616,7 +1616,7 @@ nodeAsText
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 length
 ;
 res
@@ -1641,7 +1641,7 @@ if
 selOffset
 !
 =
-PRInt32
+int32_t
 (
 length
 )
@@ -1649,7 +1649,7 @@ length
 return
 NS_OK
 ;
-PRInt32
+int32_t
 parentOffset
 ;
 nsCOMPtr
@@ -1771,7 +1771,7 @@ nsEditor
 editor
 )
 {
-PRInt32
+int32_t
 selOffset
 ;
 nsCOMPtr
@@ -1908,7 +1908,7 @@ IsPasswordEditor
 )
 {
 \
-PRInt32
+int32_t
 txtLen
 ;
 \
@@ -1931,7 +1931,7 @@ Length
 )
 =
 =
-PRUint32
+uint32_t
 (
 txtLen
 )
@@ -1968,7 +1968,7 @@ HandleNewLines
 nsString
 &
 aString
-PRInt32
+int32_t
 aNewlineHandling
 )
 {
@@ -1979,7 +1979,7 @@ aNewlineHandling
 0
 )
 {
-PRInt32
+int32_t
 caretStyle
 ;
 nsPlaintextEditor
@@ -2047,7 +2047,7 @@ eNewlinesPasteToFirst
 default
 :
 {
-PRInt32
+int32_t
 firstCRLF
 =
 aString
@@ -2057,7 +2057,7 @@ FindCharInSet
 CRLF
 )
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -2148,7 +2148,7 @@ nsIPlaintextEditor
 eNewlinesStripSurroundingWhitespace
 :
 {
-PRInt32
+int32_t
 firstCRLF
 =
 aString
@@ -2166,7 +2166,7 @@ firstCRLF
 0
 )
 {
-PRUint32
+uint32_t
 wsBegin
 =
 firstCRLF
@@ -2286,7 +2286,7 @@ inString
 nsAString
 *
 outString
-PRInt32
+int32_t
 aMaxLength
 )
 {
@@ -2406,12 +2406,12 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 start
 =
 0
 ;
-PRInt32
+int32_t
 end
 =
 0
@@ -2695,7 +2695,7 @@ nsIDOMNode
 >
 selNode
 ;
-PRInt32
+int32_t
 selOffset
 ;
 res
@@ -2815,7 +2815,7 @@ curNode
 =
 selNode
 ;
-PRInt32
+int32_t
 curOffset
 =
 selOffset
@@ -3160,7 +3160,7 @@ res
 res
 )
 ;
-PRInt32
+int32_t
 start
 end
 ;
@@ -3295,7 +3295,7 @@ nsIDOMNode
 >
 startNode
 ;
-PRInt32
+int32_t
 startOffset
 ;
 res
@@ -3454,7 +3454,7 @@ nsIDOMNode
 >
 startNode
 ;
-PRInt32
+int32_t
 startOffset
 ;
 nsresult
@@ -3508,7 +3508,7 @@ do_QueryInterface
 startNode
 )
 ;
-PRUint32
+uint32_t
 strLength
 ;
 res
@@ -3872,7 +3872,7 @@ if
 nodeList
 )
 {
-PRUint32
+uint32_t
 len
 ;
 nodeList
@@ -4140,7 +4140,7 @@ body
 return
 NS_ERROR_NULL_POINTER
 ;
-PRUint32
+uint32_t
 childCount
 =
 body
@@ -4675,7 +4675,7 @@ aInString
 nsAString
 *
 aOutString
-PRInt32
+int32_t
 aMaxLength
 bool
 *
@@ -4747,7 +4747,7 @@ IsIMEComposing
 )
 )
 {
-PRInt32
+int32_t
 docLength
 ;
 res
@@ -4773,7 +4773,7 @@ return
 res
 ;
 }
-PRInt32
+int32_t
 start
 end
 ;
@@ -4793,7 +4793,7 @@ start
 end
 )
 ;
-PRInt32
+int32_t
 oldCompStrLength
 =
 mEditor
@@ -4804,7 +4804,7 @@ GetIMEBufferLength
 )
 ;
 const
-PRInt32
+int32_t
 selectionLength
 =
 end
@@ -4812,7 +4812,7 @@ end
 start
 ;
 const
-PRInt32
+int32_t
 resultingDocLength
 =
 docLength
@@ -4850,7 +4850,7 @@ true
 }
 else
 {
-PRInt32
+int32_t
 inCount
 =
 aOutString
@@ -4918,7 +4918,7 @@ nsTextEditRules
 :
 RemoveIMETextFromPWBuf
 (
-PRInt32
+int32_t
 &
 aStart
 nsAString
@@ -5050,7 +5050,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 start
 end
 ;
@@ -5154,7 +5154,7 @@ FillBufWithPWChars
 nsAString
 *
 aOutString
-PRInt32
+int32_t
 aLength
 )
 {
@@ -5173,7 +5173,7 @@ GetPasswordCharacter
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 aOutString
@@ -5215,7 +5215,7 @@ CreateMozBR
 nsIDOMNode
 *
 inParent
-PRInt32
+int32_t
 inOffset
 nsIDOMNode
 *

@@ -133,7 +133,7 @@ char
 *
 *
 o_Result
-PRInt32
+int32_t
 urlFactory
 =
 URL_FACTORY_DEFAULT
@@ -315,7 +315,7 @@ pURL
 nsCAutoString
 temp
 ;
-PRInt32
+int32_t
 port
 ;
 nsresult
@@ -653,7 +653,7 @@ const
 char
 *
 i_pURL
-PRInt32
+int32_t
 urlFactory
 =
 URL_FACTORY_DEFAULT
@@ -714,7 +714,7 @@ const
 char
 *
 i_pURL
-PRInt32
+int32_t
 urlFactory
 =
 URL_FACTORY_DEFAULT
@@ -905,7 +905,7 @@ n
 ;
 else
 {
-PRInt32
+int32_t
 res
 ;
 printf
@@ -3537,7 +3537,7 @@ n
 "
 )
 ;
-PRInt32
+int32_t
 urlFactory
 =
 URL_FACTORY_DEFAULT
@@ -3799,7 +3799,7 @@ micros
 n
 "
 (
-PRInt32
+int32_t
 )
 (
 endTime

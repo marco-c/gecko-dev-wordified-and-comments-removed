@@ -316,7 +316,7 @@ Jan
 /
 readonly
 attribute
-PRUint64
+uint64_t
 expires
 ;
 /

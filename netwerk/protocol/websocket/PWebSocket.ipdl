@@ -191,7 +191,7 @@ loadContext
 ;
 Close
 (
-PRUint16
+uint16_t
 code
 nsCString
 reason
@@ -213,7 +213,7 @@ SendBinaryStream
 (
 InputStream
 aStream
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -260,13 +260,13 @@ aMsg
 ;
 OnAcknowledge
 (
-PRUint32
+uint32_t
 aSize
 )
 ;
 OnServerClose
 (
-PRUint16
+uint16_t
 code
 nsCString
 aReason

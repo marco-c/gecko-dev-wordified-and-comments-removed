@@ -29,10 +29,10 @@ nsXPTCStubBase
 self
 int
 methodIndex
-PRUint32
+uint32_t
 *
 data
-PRUint32
+uint32_t
 *
 intRegParams
 float
@@ -82,10 +82,10 @@ nsXPTMethodInfo
 *
 info
 ;
-PRUint8
+uint8_t
 paramCount
 ;
-PRUint8
+uint8_t
 i
 ;
 NS_ASSERTION
@@ -121,7 +121,7 @@ iface_info
 >
 GetMethodInfo
 (
-PRUint16
+uint16_t
 (
 methodIndex
 )
@@ -275,7 +275,7 @@ i64
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 intRegParams
@@ -304,7 +304,7 @@ i64
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 data
@@ -520,7 +520,7 @@ self
 CallMethod
 (
 (
-PRUint16
+uint16_t
 )
 methodIndex
 info

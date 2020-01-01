@@ -723,7 +723,7 @@ kThisPtrOffsetsSID
 NS_THISPTROFFSETS_SID
 )
 ;
-PRInt32
+int32_t
 nsIContent
 :
 :
@@ -739,7 +739,7 @@ sTabFocusModelAppliesToXUL
 =
 false
 ;
-PRUint32
+uint32_t
 nsMutationGuard
 :
 :
@@ -1607,7 +1607,7 @@ elem
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 baseAttrs
@@ -1621,7 +1621,7 @@ Length
 i
 !
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -1900,7 +1900,7 @@ nsChildContentList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -1929,7 +1929,7 @@ nsChildContentList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -1976,7 +1976,7 @@ nsChildContentList
 :
 GetNodeAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1999,7 +1999,7 @@ return
 nullptr
 ;
 }
-PRInt32
+int32_t
 nsChildContentList
 :
 :
@@ -2910,7 +2910,7 @@ FragmentOrElement
 :
 GetNodeType
 (
-PRUint16
+uint16_t
 *
 aNodeType
 )
@@ -3634,7 +3634,7 @@ FragmentOrElement
 :
 GetChildren
 (
-PRUint32
+uint32_t
 aFilter
 )
 {
@@ -3781,7 +3781,7 @@ if
 childList
 )
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -3797,7 +3797,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -4750,7 +4750,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -4781,7 +4781,7 @@ FragmentOrElement
 :
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -4928,7 +4928,7 @@ this
 this
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -4975,7 +4975,7 @@ SaveSubtreeState
 (
 )
 {
-PRUint32
+uint32_t
 i
 count
 =
@@ -5037,7 +5037,7 @@ nsIContent
 aNodes
 )
 {
-PRUint32
+uint32_t
 count
 =
 aNodes
@@ -5048,7 +5048,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5227,7 +5227,7 @@ FragmentOrElement
 aNode
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 container
@@ -5308,7 +5308,7 @@ Run
 nsAutoScriptBlocker
 scriptBlocker
 ;
-PRUint32
+uint32_t
 len
 =
 mSubtreeRoots
@@ -5331,7 +5331,7 @@ PR_Now
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5369,7 +5369,7 @@ Telemetry
 :
 :
 CYCLE_COLLECTOR_CONTENT_UNBIND
-PRUint32
+uint32_t
 (
 PR_Now
 (
@@ -5755,7 +5755,7 @@ nsCCUncollectableMarker
 sGeneration
 )
 {
-PRUint32
+uint32_t
 childCount
 =
 tmp
@@ -5969,13 +5969,13 @@ void
 aData
 )
 {
-PRUint32
+uint32_t
 *
 gen
 =
 static_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -6238,7 +6238,7 @@ gCCBlackMarkedNodes
 return
 ;
 }
-PRUint32
+uint32_t
 len
 =
 gCCBlackMarkedNodes
@@ -6250,7 +6250,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6680,7 +6680,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6727,7 +6727,7 @@ grayNodes
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6811,7 +6811,7 @@ if
 gPurpleRoots
 )
 {
-PRUint32
+uint32_t
 len
 =
 gPurpleRoots
@@ -6823,7 +6823,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6871,7 +6871,7 @@ if
 gNodesToUnbind
 )
 {
-PRUint32
+uint32_t
 len
 =
 gNodesToUnbind
@@ -6883,7 +6883,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7508,7 +7508,7 @@ root
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7634,7 +7634,7 @@ currentDoc
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7946,7 +7946,7 @@ name
 512
 ]
 ;
-PRUint32
+uint32_t
 nsid
 =
 tmp
@@ -8478,10 +8478,10 @@ property
 }
 }
 {
-PRUint32
+uint32_t
 i
 ;
-PRUint32
+uint32_t
 attrs
 =
 tmp
@@ -8564,7 +8564,7 @@ NodeInfo
 ;
 }
 }
-PRUint32
+uint32_t
 kids
 =
 tmp
@@ -8788,7 +8788,7 @@ FragmentOrElement
 aDst
 )
 {
-PRUint32
+uint32_t
 i
 count
 =
@@ -8903,7 +8903,7 @@ return
 nullptr
 ;
 }
-PRUint32
+uint32_t
 FragmentOrElement
 :
 :
@@ -8937,7 +8937,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aNotify
@@ -8968,7 +8968,7 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aNotify
@@ -9024,7 +9024,7 @@ TextLength
 )
 ;
 }
-PRUint32
+uint32_t
 FragmentOrElement
 :
 :
@@ -9048,7 +9048,7 @@ FragmentOrElement
 :
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -9071,7 +9071,7 @@ FragmentOrElement
 :
 GetChildArray
 (
-PRUint32
+uint32_t
 *
 aChildCount
 )
@@ -9086,7 +9086,7 @@ aChildCount
 )
 ;
 }
-PRInt32
+int32_t
 FragmentOrElement
 :
 :
@@ -9609,7 +9609,7 @@ elements
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0

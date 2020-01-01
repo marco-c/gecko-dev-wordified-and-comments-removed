@@ -443,7 +443,7 @@ nsString
 &
 hostname
 const
-PRUint16
+uint16_t
 &
 flags
 )
@@ -472,7 +472,7 @@ nsString
 &
 hostname
 const
-PRUint16
+uint16_t
 &
 flags
 const

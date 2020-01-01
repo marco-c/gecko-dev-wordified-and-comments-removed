@@ -420,7 +420,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 /
 *
 unused
@@ -499,12 +499,12 @@ dom
 Element
 *
 aContent
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -524,12 +524,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -581,7 +581,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -736,7 +736,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 /
 *
 unused
@@ -1057,7 +1057,7 @@ by
 the
 client
 .
-PRUint32
+uint32_t
 nsMenuGroupOwnerX
 :
 :
@@ -1190,7 +1190,7 @@ nsMenuGroupOwnerX
 :
 UnregisterCommand
 (
-PRUint32
+uint32_t
 inCommandID
 )
 {
@@ -1209,7 +1209,7 @@ nsMenuGroupOwnerX
 :
 GetMenuItemForCommandID
 (
-PRUint32
+uint32_t
 inCommandID
 )
 {

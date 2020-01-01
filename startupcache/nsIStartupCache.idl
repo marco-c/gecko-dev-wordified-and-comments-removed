@@ -176,7 +176,7 @@ file
 .
 *
 /
-PRUint32
+uint32_t
 getBuffer
 (
 in
@@ -197,7 +197,7 @@ in
 string
 aBuffer
 in
-PRUint32
+uint32_t
 aLength
 )
 ;

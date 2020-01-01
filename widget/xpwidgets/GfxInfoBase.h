@@ -107,9 +107,9 @@ NS_DECL_NSIOBSERVER
 NS_IMETHOD
 GetFeatureStatus
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 *
 _retval
 )
@@ -117,7 +117,7 @@ _retval
 NS_IMETHOD
 GetFeatureSuggestedDriverVersion
 (
-PRInt32
+int32_t
 aFeature
 nsAString
 &
@@ -139,7 +139,7 @@ _retval
 NS_IMETHOD
 GetFailures
 (
-PRUint32
+uint32_t
 *
 failureCount
 char
@@ -221,9 +221,9 @@ virtual
 nsresult
 GetFeatureStatusImpl
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 *
 aStatus
 nsAString
@@ -259,7 +259,7 @@ GetGfxDriverInfo
 private
 :
 virtual
-PRInt32
+int32_t
 FindBlocklistedDeviceInList
 (
 const
@@ -272,7 +272,7 @@ aDriverInfo
 nsAString
 &
 aSuggestedVersion
-PRInt32
+int32_t
 aFeature
 OperatingSystem
 os
@@ -295,7 +295,7 @@ mFailures
 9
 ]
 ;
-PRUint32
+uint32_t
 mFailureCount
 ;
 }

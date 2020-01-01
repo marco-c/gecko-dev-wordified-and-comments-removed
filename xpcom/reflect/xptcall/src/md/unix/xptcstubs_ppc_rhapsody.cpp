@@ -22,12 +22,12 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-PRUint32
+uint32_t
 methodIndex
-PRUint32
+uint32_t
 *
 argsStack
-PRUint32
+uint32_t
 *
 argsGPR
 double
@@ -64,10 +64,10 @@ nsXPTMethodInfo
 *
 methodInfo
 ;
-PRUint8
+uint8_t
 paramCount
 ;
-PRUint8
+uint8_t
 i
 ;
 nsresult
@@ -75,12 +75,12 @@ result
 =
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 argIndex
 =
 0
 ;
-PRUint32
+uint32_t
 fprIndex
 =
 0
@@ -88,10 +88,10 @@ fprIndex
 typedef
 struct
 {
-PRUint32
+uint32_t
 hi
 ;
-PRUint32
+uint32_t
 lo
 ;
 }
@@ -114,7 +114,7 @@ mEntry
 >
 GetMethodInfo
 (
-PRUint16
+uint16_t
 (
 methodIndex
 )
@@ -227,7 +227,7 @@ dispatchParams
 i
 ]
 ;
-PRUint32
+uint32_t
 theParam
 ;
 if
@@ -301,7 +301,7 @@ val
 i8
 =
 (
-PRInt8
+int8_t
 )
 theParam
 ;
@@ -321,7 +321,7 @@ val
 i16
 =
 (
-PRInt16
+int16_t
 )
 theParam
 ;
@@ -341,7 +341,7 @@ val
 i32
 =
 (
-PRInt32
+int32_t
 )
 theParam
 ;
@@ -361,7 +361,7 @@ val
 u8
 =
 (
-PRUint8
+uint8_t
 )
 theParam
 ;
@@ -381,7 +381,7 @@ val
 u16
 =
 (
-PRUint16
+uint16_t
 )
 theParam
 ;
@@ -401,7 +401,7 @@ val
 u32
 =
 (
-PRUint32
+uint32_t
 )
 theParam
 ;
@@ -431,7 +431,7 @@ dp
 hi
 =
 (
-PRUint32
+uint32_t
 )
 theParam
 ;
@@ -455,7 +455,7 @@ dp
 lo
 =
 (
-PRUint32
+uint32_t
 )
 argsGPR
 [
@@ -475,7 +475,7 @@ dp
 lo
 =
 (
-PRUint32
+uint32_t
 )
 argsStack
 [
@@ -671,7 +671,7 @@ mOuter
 CallMethod
 (
 (
-PRUint16
+uint16_t
 )
 methodIndex
 methodInfo

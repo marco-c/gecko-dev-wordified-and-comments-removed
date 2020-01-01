@@ -184,10 +184,10 @@ mSearchString
 nsString
 mErrorDescription
 ;
-PRInt32
+int32_t
 mDefaultIndex
 ;
-PRUint32
+uint32_t
 mSearchResult
 ;
 bool

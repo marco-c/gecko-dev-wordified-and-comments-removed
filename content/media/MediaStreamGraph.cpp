@@ -194,7 +194,7 @@ SCHEDULE_SAFETY_MARGIN_MS
 struct
 StreamUpdate
 {
-PRInt64
+int64_t
 mGraphUpdateIndex
 ;
 nsRefPtr
@@ -560,7 +560,7 @@ MediaStream
 aStream
 StreamTime
 aTime
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -639,7 +639,7 @@ mPortCount
 0
 ;
 }
-PRInt64
+int64_t
 GetProcessingGraphUpdateIndex
 (
 )
@@ -699,10 +699,10 @@ mInitialTimeStamp
 TimeStamp
 mCurrentTimeStamp
 ;
-PRInt64
+int64_t
 mProcessingGraphUpdateIndex
 ;
-PRInt32
+int32_t
 mPortCount
 ;
 Monitor
@@ -726,7 +726,7 @@ mUpdateRunnables
 struct
 MessageBlock
 {
-PRInt64
+int64_t
 mGraphUpdateIndex
 ;
 nsTArray
@@ -967,7 +967,7 @@ mMonitor
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1088,7 +1088,7 @@ state
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1172,7 +1172,7 @@ mPullEnabled
 {
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1256,7 +1256,7 @@ mUpdateFinished
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aStream
@@ -1298,7 +1298,7 @@ i
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1459,14 +1459,14 @@ data
 -
 >
 mRate
-PRInt64
+int64_t
 (
 data
 -
 >
 mStart
 )
-PRInt64
+int64_t
 (
 segment
 -
@@ -1588,7 +1588,7 @@ data
 -
 >
 mID
-PRInt64
+int64_t
 (
 dest
 -
@@ -1597,7 +1597,7 @@ GetDuration
 (
 )
 )
-PRInt64
+int64_t
 (
 dest
 -
@@ -1740,7 +1740,7 @@ mMutex
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1888,7 +1888,7 @@ mDispatchWhenNotEnough
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2069,7 +2069,7 @@ MediaStream
 aStream
 StreamTime
 aTime
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2288,7 +2288,7 @@ return
 mCurrentTime
 ;
 }
-PRInt64
+int64_t
 positionInFrames
 =
 aStream
@@ -2437,7 +2437,7 @@ nextCurrentTime
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2560,7 +2560,7 @@ advance
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2662,7 +2662,7 @@ wasBlocked
 {
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -2755,7 +2755,7 @@ prevCurrentTime
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2838,7 +2838,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -3153,7 +3153,7 @@ return
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3270,7 +3270,7 @@ mIsOnOrderingStack
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 aStack
@@ -3380,7 +3380,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3515,7 +3515,7 @@ mStreams
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3605,7 +3605,7 @@ stack
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3693,7 +3693,7 @@ mStateComputedTime
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3908,7 +3908,7 @@ aStream
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3990,7 +3990,7 @@ ps
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4085,7 +4085,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4159,7 +4159,7 @@ ps
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4242,7 +4242,7 @@ aEnd
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4279,7 +4279,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4533,7 +4533,7 @@ advance
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4598,7 +4598,7 @@ audioOutputStreamsFound
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4674,7 +4674,7 @@ Next
 )
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -4863,7 +4863,7 @@ GetID
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 audioOutputStreamsFound
@@ -4960,7 +4960,7 @@ volume
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4997,7 +4997,7 @@ mVolume
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5643,7 +5643,7 @@ mCurrentTime
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5744,7 +5744,7 @@ AssertCurrentThreadOwns
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6015,7 +6015,7 @@ UpdateCurrentTime
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6061,7 +6061,7 @@ mMessages
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -6101,7 +6101,7 @@ UpdateStreamOrder
 (
 )
 ;
-PRInt32
+int32_t
 writeAudioUpTo
 =
 AUDIO_TARGET_MS
@@ -6123,7 +6123,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6185,7 +6185,7 @@ RecomputeBlocking
 endBlockingDecisions
 )
 ;
-PRUint32
+uint32_t
 audioStreamsActive
 =
 0
@@ -6197,7 +6197,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6460,12 +6460,12 @@ if
 mNeedAnotherIteration
 )
 {
-PRInt64
+int64_t
 timeoutMS
 =
 MEDIA_GRAPH_TARGET_PERIOD_MS
 -
-PRInt64
+int64_t
 (
 (
 now
@@ -6482,13 +6482,13 @@ timeoutMS
 =
 NS_MAX
 <
-PRInt64
+int64_t
 >
 (
 0
 NS_MIN
 <
-PRInt64
+int64_t
 >
 (
 timeoutMS
@@ -6502,7 +6502,7 @@ timeout
 =
 PR_MillisecondsToInterval
 (
-PRUint32
+uint32_t
 (
 timeoutMS
 )
@@ -6691,7 +6691,7 @@ mNextMainThreadFinished
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 stream
@@ -7130,7 +7130,7 @@ mUpdateRunnables
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7192,7 +7192,7 @@ mForceShutDown
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7469,7 +7469,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7500,7 +7500,7 @@ Run
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7905,7 +7905,7 @@ DestroyImpl
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mConsumers
@@ -7939,7 +7939,7 @@ Disconnect
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8160,7 +8160,7 @@ aVolume
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8318,7 +8318,7 @@ aKey
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8614,7 +8614,7 @@ MediaStream
 :
 ChangeExplicitBlockerCount
 (
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -8631,7 +8631,7 @@ Message
 MediaStream
 *
 aStream
-PRInt32
+int32_t
 aDelta
 )
 :
@@ -8669,7 +8669,7 @@ mDelta
 )
 ;
 }
-PRInt32
+int32_t
 mDelta
 ;
 }
@@ -9793,7 +9793,7 @@ AllocateInputPort
 MediaStream
 *
 aStream
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -10036,7 +10036,7 @@ DestroyImpl
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mInputs
@@ -10078,7 +10078,7 @@ DestroyImpl
 }
 static
 const
-PRInt32
+int32_t
 INITIAL_CURRENT_TIME
 =
 1

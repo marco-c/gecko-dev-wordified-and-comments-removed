@@ -301,7 +301,7 @@ GetStartParent
 (
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 mRange
@@ -324,7 +324,7 @@ GetEndParent
 (
 )
 ;
-PRInt32
+int32_t
 endOffset
 =
 mRange
@@ -573,9 +573,9 @@ CreateTxnsToDeleteBetween
 nsINode
 *
 aNode
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -604,7 +604,7 @@ DeleteTextTxn
 (
 )
 ;
-PRInt32
+int32_t
 numToDel
 ;
 if
@@ -696,7 +696,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aStartOffset
@@ -776,7 +776,7 @@ CreateTxnsToDeleteContent
 nsINode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsIEditor
 :
@@ -799,7 +799,7 @@ eDATA_NODE
 )
 )
 {
-PRUint32
+uint32_t
 start
 numToDelete
 ;

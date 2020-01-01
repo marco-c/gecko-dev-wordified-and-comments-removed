@@ -360,7 +360,7 @@ nsIWidget
 aParent
 )
 ;
-PRUint32
+uint32_t
 GetMenuCount
 (
 )
@@ -374,7 +374,7 @@ nsMenuX
 *
 GetMenuAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
@@ -431,14 +431,14 @@ InsertMenuAtIndex
 nsMenuX
 *
 aMenu
-PRUint32
+uint32_t
 aIndex
 )
 ;
 void
 RemoveMenuAtIndex
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;

@@ -1697,7 +1697,7 @@ nsProfileLock
 :
 GetReplacedLockTime
 (
-PRInt64
+int64_t
 *
 aResult
 )
@@ -1951,7 +1951,7 @@ fd
 =
 nullptr
 ;
-PRInt32
+int32_t
 ioBytes
 ;
 ProcessInfoRec

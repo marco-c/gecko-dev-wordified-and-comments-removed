@@ -39,7 +39,7 @@ nsIFrame
 aStart
 nsIteratorType
 aType
-PRUint32
+uint32_t
 aFlags
 )
 :

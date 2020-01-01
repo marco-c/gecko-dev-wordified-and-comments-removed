@@ -675,7 +675,7 @@ nsSmartCardEvent
 :
 GetEventPhase
 (
-PRUint16
+uint16_t
 *
 aEventPhase
 )

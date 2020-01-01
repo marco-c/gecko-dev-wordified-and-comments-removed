@@ -125,7 +125,7 @@ aComparator
 bool
 result
 ;
-PRUint32
+uint32_t
 selectorLen
 =
 aSelectorValue
@@ -134,7 +134,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 attributeLen
 =
 aAttributeValue
@@ -730,11 +730,11 @@ AppendBitmaskCSSValue
 (
 nsCSSProperty
 aProperty
-PRInt32
+int32_t
 aMaskedValue
-PRInt32
+int32_t
 aFirstMask
-PRInt32
+int32_t
 aLastMask
 nsAString
 &
@@ -743,7 +743,7 @@ aResult
 {
 for
 (
-PRInt32
+int32_t
 mask
 =
 aFirstMask
@@ -841,7 +841,7 @@ aResult
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1138,7 +1138,7 @@ nsStyleUtil
 :
 ColorComponentToFloat
 (
-PRUint8
+uint8_t
 aAlpha
 )
 {

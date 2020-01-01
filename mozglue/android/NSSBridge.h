@@ -112,7 +112,7 @@ char
 const
 char
 *
-PRUint32
+uint32_t
 )
 NSS_WRAPPER
 (
@@ -181,7 +181,7 @@ char
 const
 char
 *
-PRUint32
+uint32_t
 char
 *
 )
@@ -193,7 +193,7 @@ char
 const
 char
 *
-PRUint32
+uint32_t
 char
 *
 )
@@ -269,7 +269,7 @@ unsigned
 char
 *
 data
-PRInt32
+int32_t
 dataLen
 char
 *
@@ -289,7 +289,7 @@ char
 *
 *
 result
-PRInt32
+int32_t
 *
 _retval
 )

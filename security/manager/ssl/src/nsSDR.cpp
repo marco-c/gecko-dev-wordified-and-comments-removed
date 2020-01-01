@@ -169,14 +169,14 @@ unsigned
 char
 *
 data
-PRInt32
+int32_t
 dataLen
 unsigned
 char
 *
 *
 result
-PRInt32
+int32_t
 *
 _retval
 )
@@ -396,14 +396,14 @@ unsigned
 char
 *
 data
-PRInt32
+int32_t
 dataLen
 unsigned
 char
 *
 *
 result
-PRInt32
+int32_t
 *
 _retval
 )
@@ -615,7 +615,7 @@ encrypted
 =
 0
 ;
-PRInt32
+int32_t
 eLen
 ;
 if
@@ -733,7 +733,7 @@ decoded
 =
 0
 ;
-PRInt32
+int32_t
 decodedLen
 ;
 unsigned
@@ -743,7 +743,7 @@ decrypted
 =
 0
 ;
-PRInt32
+int32_t
 decryptedLen
 ;
 if
@@ -1206,7 +1206,7 @@ unsigned
 char
 *
 data
-PRInt32
+int32_t
 dataLen
 char
 *
@@ -1298,7 +1298,7 @@ char
 *
 *
 result
-PRInt32
+int32_t
 *
 _retval
 )
@@ -1308,7 +1308,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 len
 =
 PL_strlen

@@ -110,7 +110,7 @@ expirationTime
 /
 readonly
 attribute
-PRUint32
+uint32_t
 cacheTokenExpirationTime
 ;
 /

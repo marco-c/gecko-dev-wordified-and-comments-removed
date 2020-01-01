@@ -144,7 +144,7 @@ mConfig
 lastModified
 ;
 }
-PRUint64
+uint64_t
 Size
 (
 )
@@ -154,7 +154,7 @@ return
 mSize
 ;
 }
-PRInt64
+int64_t
 LastModified
 (
 )
@@ -169,10 +169,10 @@ private
 DOMFileMetadataParameters
 mConfig
 ;
-PRUint64
+uint64_t
 mSize
 ;
-PRInt64
+int64_t
 mLastModified
 ;
 }

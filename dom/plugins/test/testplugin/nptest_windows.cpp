@@ -1415,7 +1415,7 @@ BI_BITFIELDS
 0xFF000000
 }
 ;
-PRUint32
+uint32_t
 *
 pixelData
 ;
@@ -1459,7 +1459,7 @@ offscreenBitmap
 )
 return
 ;
-PRUint32
+uint32_t
 rgba
 =
 instanceData
@@ -1564,7 +1564,7 @@ b
 0xFF
 )
 ;
-PRUint32
+uint32_t
 premultiplied
 =
 (
@@ -1592,7 +1592,7 @@ b
 ;
 for
 (
-PRUint32
+uint32_t
 *
 lastPixel
 =
@@ -3637,7 +3637,7 @@ NULL
 rtView
 )
 ;
-PRUint32
+uint32_t
 rgba
 =
 id

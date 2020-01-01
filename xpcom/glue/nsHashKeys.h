@@ -90,7 +90,7 @@ namespace
 mozilla
 {
 inline
-PRUint32
+uint32_t
 HashString
 (
 const
@@ -116,7 +116,7 @@ Length
 ;
 }
 inline
-PRUint32
+uint32_t
 HashString
 (
 const
@@ -567,13 +567,13 @@ public
 :
 typedef
 const
-PRUint32
+uint32_t
 &
 KeyType
 ;
 typedef
 const
-PRUint32
+uint32_t
 *
 KeyTypePointer
 ;
@@ -674,7 +674,7 @@ true
 private
 :
 const
-PRUint32
+uint32_t
 mValue
 ;
 }
@@ -689,13 +689,13 @@ public
 :
 typedef
 const
-PRUint64
+uint64_t
 &
 KeyType
 ;
 typedef
 const
-PRUint64
+uint64_t
 *
 KeyTypePointer
 ;
@@ -799,7 +799,7 @@ true
 private
 :
 const
-PRUint64
+uint64_t
 mValue
 ;
 }
@@ -2024,7 +2024,7 @@ nsIHashable
 aKey
 )
 {
-PRUint32
+uint32_t
 code
 =
 8888

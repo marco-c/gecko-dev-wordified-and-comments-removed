@@ -49,7 +49,7 @@ FrameMetrics
 public
 :
 typedef
-PRUint64
+uint64_t
 ViewID
 ;
 static

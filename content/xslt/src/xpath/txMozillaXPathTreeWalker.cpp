@@ -145,10 +145,10 @@ StandardInteger
 h
 "
 const
-PRUint32
+uint32_t
 kUnknownIndex
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -539,7 +539,7 @@ txXPathTreeWalker
 :
 moveToValidAttribute
 (
-PRUint32
+uint32_t
 aStartIndex
 )
 {
@@ -561,7 +561,7 @@ attrs
 "
 )
 ;
-PRUint32
+uint32_t
 total
 =
 mPosition
@@ -587,7 +587,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 index
 ;
 for
@@ -659,7 +659,7 @@ moveToNamedAttribute
 nsIAtom
 *
 aLocalName
-PRInt32
+int32_t
 aNSID
 )
 {
@@ -682,7 +682,7 @@ nsAttrName
 *
 name
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -977,7 +977,7 @@ are
 "
 )
 ;
-PRUint32
+uint32_t
 total
 =
 mPosition
@@ -1171,7 +1171,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 count
 =
 mDescendants
@@ -1250,7 +1250,7 @@ txXPathTreeWalker
 :
 moveToSibling
 (
-PRInt32
+int32_t
 aDir
 )
 {
@@ -1316,7 +1316,7 @@ mNode
 )
 ;
 }
-PRUint32
+uint32_t
 newIndex
 =
 mCurrentIndex
@@ -1454,7 +1454,7 @@ aNode
 nsIAtom
 *
 aLocalName
-PRInt32
+int32_t
 aNSID
 nsAString
 &
@@ -2039,7 +2039,7 @@ aName
 )
 ;
 }
-PRInt32
+int32_t
 txXPathNodeUtils
 :
 :
@@ -2140,7 +2140,7 @@ aURI
 )
 ;
 }
-PRUint16
+uint16_t
 txXPathNodeUtils
 :
 :
@@ -2939,7 +2939,7 @@ GetNodeParent
 )
 ;
 }
-PRInt32
+int32_t
 total
 =
 parents
@@ -2950,7 +2950,7 @@ Length
 -
 1
 ;
-PRInt32
+int32_t
 otherTotal
 =
 otherParents
@@ -2979,7 +2979,7 @@ parents
 "
 )
 ;
-PRInt32
+int32_t
 lastIndex
 =
 NS_MIN
@@ -2988,7 +2988,7 @@ total
 otherTotal
 )
 ;
-PRInt32
+int32_t
 i
 ;
 parent
@@ -3073,7 +3073,7 @@ otherNode
 1
 ;
 }
-PRInt32
+int32_t
 index
 =
 parent
@@ -3084,7 +3084,7 @@ IndexOf
 node
 )
 ;
-PRInt32
+int32_t
 otherIndex
 =
 parent
@@ -3205,7 +3205,7 @@ bool
 aKeepRootAlive
 )
 {
-PRUint16
+uint16_t
 nodeType
 ;
 aNode
@@ -3299,7 +3299,7 @@ parent
 :
 nullptr
 ;
-PRUint32
+uint32_t
 i
 total
 =
@@ -3402,7 +3402,7 @@ do_QueryInterface
 aNode
 )
 ;
-PRUint32
+uint32_t
 index
 ;
 nsINode

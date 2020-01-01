@@ -1067,7 +1067,7 @@ mItemFlags
 NS_ORIGINAL_CHECKED_VALUE
 )
 ;
-PRUint8
+uint8_t
 oldType
 =
 NS_MENUITEM_TYPE
@@ -1203,7 +1203,7 @@ nsHTMLMenuItemElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1382,7 +1382,7 @@ nsHTMLMenuItemElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

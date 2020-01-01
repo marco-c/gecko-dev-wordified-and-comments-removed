@@ -189,7 +189,7 @@ aRangeList
 nsACString
 &
 string
-PRInt32
+int32_t
 *
 numRequests
 )
@@ -281,7 +281,7 @@ rangeList
 nsresult
 GetLength
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -299,7 +299,7 @@ result
 nsresult
 GetLastModified
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -324,7 +324,7 @@ result
 nsresult
 GetStreamOffset
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -332,7 +332,7 @@ result
 nsresult
 SetStreamOffset
 (
-PRInt32
+int32_t
 value
 )
 ;
@@ -363,7 +363,7 @@ nsIRequest
 newRequest
 )
 {
-PRInt32
+int32_t
 i
 =
 mRequests
@@ -442,7 +442,7 @@ mRequests
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -487,7 +487,7 @@ mRequests
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -531,7 +531,7 @@ mRequests
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -623,10 +623,10 @@ mStartBinding
 bool
 mHaveFiredOnStartRequest
 ;
-PRUint32
+uint32_t
 mLength
 ;
-PRInt32
+int32_t
 mStreamType
 ;
 nsRefPtr
@@ -651,7 +651,7 @@ mContentType
 bool
 mSeekable
 ;
-PRUint32
+uint32_t
 mModified
 ;
 nsRefPtr
@@ -660,7 +660,7 @@ nsNPAPIPluginInstance
 >
 mPluginInstance
 ;
-PRInt32
+int32_t
 mStreamOffset
 ;
 bool
@@ -671,7 +671,7 @@ public
 bool
 mAbort
 ;
-PRInt32
+int32_t
 mPendingRequests
 ;
 nsWeakPtr

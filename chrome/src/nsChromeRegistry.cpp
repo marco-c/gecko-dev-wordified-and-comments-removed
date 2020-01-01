@@ -303,9 +303,9 @@ LogMessageWithContext
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
-PRUint32
+uint32_t
 flags
 const
 char
@@ -730,7 +730,7 @@ slash
 "
 )
 ;
-PRInt32
+int32_t
 slash
 =
 path
@@ -796,7 +796,7 @@ slash
 =
 =
 (
-PRInt32
+int32_t
 )
 path
 .
@@ -1285,7 +1285,7 @@ provider
 path
 )
 ;
-PRUint32
+uint32_t
 flags
 ;
 rv
@@ -1815,7 +1815,7 @@ frames
 )
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 frames
@@ -1827,7 +1827,7 @@ GetLength
 length
 )
 ;
-PRUint32
+uint32_t
 j
 ;
 for
@@ -1964,7 +1964,7 @@ newAgentSheets
 ;
 for
 (
-PRInt32
+int32_t
 l
 =
 0
@@ -2127,7 +2127,7 @@ nsIStyleSheet
 >
 newSheets
 ;
-PRInt32
+int32_t
 count
 =
 document
@@ -2137,7 +2137,7 @@ GetNumberOfStyleSheets
 (
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -2779,7 +2779,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 flags
 ;
 rv
@@ -2906,7 +2906,7 @@ rv
 return
 false
 ;
-PRUint32
+uint32_t
 flags
 ;
 rv

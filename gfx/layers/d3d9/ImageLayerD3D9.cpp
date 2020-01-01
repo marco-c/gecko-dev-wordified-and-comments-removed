@@ -354,7 +354,7 @@ NULL
 )
 ;
 }
-PRUint32
+uint32_t
 width
 =
 aSize
@@ -645,11 +645,11 @@ lockrectCb
 D3DLOCKED_RECT
 lockrectCr
 ;
-PRUint8
+uint8_t
 *
 src
 ;
-PRUint8
+uint8_t
 *
 dest
 ;
@@ -1282,7 +1282,7 @@ mYChannel
 dest
 =
 (
-PRUint8
+uint8_t
 *
 )
 lockrectY
@@ -1348,7 +1348,7 @@ mCbChannel
 dest
 =
 (
-PRUint8
+uint8_t
 *
 )
 lockrectCb
@@ -1414,7 +1414,7 @@ mCrChannel
 dest
 =
 (
-PRUint8
+uint8_t
 *
 )
 lockrectCr

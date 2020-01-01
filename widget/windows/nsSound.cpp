@@ -523,10 +523,10 @@ nsISupports
 context
 nsresult
 aStatus
-PRUint32
+uint32_t
 dataLen
 const
-PRUint8
+uint8_t
 *
 data
 )
@@ -678,7 +678,7 @@ SND_NODEFAULT
 mLastSound
 =
 (
-PRUint8
+uint8_t
 *
 )
 malloc
@@ -927,7 +927,7 @@ instead
 "
 )
 ;
-PRUint32
+uint32_t
 eventId
 ;
 if
@@ -1016,7 +1016,7 @@ nsSound
 :
 PlayEventSound
 (
-PRUint32
+uint32_t
 aEventId
 )
 {

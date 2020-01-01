@@ -115,7 +115,7 @@ PRTime
 t1
 t2
 ;
-PRUint32
+uint32_t
 bytesRead
 totalRead
 ;

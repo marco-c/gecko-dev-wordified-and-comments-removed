@@ -119,7 +119,7 @@ nsTransactionManager
 :
 nsTransactionManager
 (
-PRInt32
+int32_t
 aMaxTransactionCount
 )
 :
@@ -930,7 +930,7 @@ nsTransactionManager
 :
 GetNumberOfUndoItems
 (
-PRInt32
+int32_t
 *
 aNumItems
 )
@@ -954,7 +954,7 @@ nsTransactionManager
 :
 GetNumberOfRedoItems
 (
-PRInt32
+int32_t
 *
 aNumItems
 )
@@ -978,7 +978,7 @@ nsTransactionManager
 :
 GetMaxTransactionCount
 (
-PRInt32
+int32_t
 *
 aMaxCount
 )
@@ -1004,11 +1004,11 @@ nsTransactionManager
 :
 SetMaxTransactionCount
 (
-PRInt32
+int32_t
 aMaxCount
 )
 {
-PRInt32
+int32_t
 numUndoItems
 =
 0
@@ -1546,7 +1546,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1632,7 +1632,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1715,7 +1715,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1801,7 +1801,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1884,7 +1884,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1970,7 +1970,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2050,7 +2050,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2132,7 +2132,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2211,7 +2211,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2293,7 +2293,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2378,7 +2378,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2470,7 +2470,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2664,7 +2664,7 @@ if
 tint
 )
 {
-PRInt32
+int32_t
 nc
 =
 0
@@ -2895,7 +2895,7 @@ result
 }
 }
 }
-PRInt32
+int32_t
 sz
 =
 mUndoStack

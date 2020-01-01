@@ -298,7 +298,7 @@ length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -382,7 +382,7 @@ length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

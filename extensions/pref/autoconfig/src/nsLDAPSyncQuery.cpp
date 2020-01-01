@@ -114,7 +114,7 @@ nsILDAPMessage
 aMessage
 )
 {
-PRInt32
+int32_t
 messageType
 ;
 if
@@ -418,7 +418,7 @@ nsILDAPMessage
 aMessage
 )
 {
-PRInt32
+int32_t
 errCode
 ;
 mOperation
@@ -517,7 +517,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -536,7 +536,7 @@ PRUnichar
 *
 vals
 ;
-PRUint32
+uint32_t
 valueCount
 ;
 rv
@@ -598,7 +598,7 @@ rv
 }
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -958,7 +958,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-PRInt32
+int32_t
 scope
 ;
 rv
@@ -1314,7 +1314,7 @@ GetQueryResults
 nsILDAPURL
 *
 aServerURL
-PRUint32
+uint32_t
 aProtocolVersion
 PRUnichar
 *

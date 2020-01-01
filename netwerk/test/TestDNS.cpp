@@ -125,7 +125,7 @@ const
 char
 *
 host
-PRInt32
+int32_t
 index
 )
 :
@@ -299,7 +299,7 @@ private
 nsCString
 mHost
 ;
-PRInt32
+int32_t
 mIndex
 ;
 }

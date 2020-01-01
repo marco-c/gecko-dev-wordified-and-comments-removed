@@ -23,10 +23,10 @@ nsITableCellLayout
 NS_IMETHOD
 GetCellIndexes
 (
-PRInt32
+int32_t
 &
 aRowIndex
-PRInt32
+int32_t
 &
 aColIndex
 )
@@ -37,7 +37,7 @@ virtual
 nsresult
 GetRowIndex
 (
-PRInt32
+int32_t
 &
 aRowIndex
 )
@@ -49,7 +49,7 @@ virtual
 nsresult
 GetColIndex
 (
-PRInt32
+int32_t
 &
 aColIndex
 )

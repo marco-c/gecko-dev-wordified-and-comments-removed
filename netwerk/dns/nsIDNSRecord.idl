@@ -263,7 +263,7 @@ PRNetAddr
 getNextAddr
 (
 in
-PRUint16
+uint16_t
 aPort
 )
 ;
@@ -434,7 +434,7 @@ void
 reportUnusable
 (
 in
-PRUint16
+uint16_t
 aPort
 )
 ;

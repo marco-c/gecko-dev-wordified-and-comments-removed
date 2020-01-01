@@ -210,7 +210,7 @@ Redirect
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 redirectFlags
 bool
 openNewChannel
@@ -327,7 +327,7 @@ info
 bool
 HasLoadFlag
 (
-PRUint32
+uint32_t
 flag
 )
 {
@@ -358,11 +358,11 @@ mWaitingOnAsyncRedirect
 void
 SetContentLength64
 (
-PRInt64
+int64_t
 len
 )
 ;
-PRInt64
+int64_t
 ContentLength64
 (
 )
@@ -660,7 +660,7 @@ mContentType
 nsCString
 mContentCharset
 ;
-PRUint32
+uint32_t
 mLoadFlags
 ;
 bool
@@ -678,7 +678,7 @@ mWaitingOnAsyncRedirect
 bool
 mOpenRedirectChannel
 ;
-PRUint32
+uint32_t
 mRedirectFlags
 ;
 protected

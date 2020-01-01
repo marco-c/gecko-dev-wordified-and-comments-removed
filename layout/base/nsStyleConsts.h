@@ -158,7 +158,7 @@ var_
 )
 for
 (
-PRInt32
+int32_t
 var_
 =
 0
@@ -211,7 +211,7 @@ var_
 )
 for
 (
-PRInt32
+int32_t
 var_
 =
 0
@@ -2559,7 +2559,7 @@ NS_STYLE_TABLE_COLS_NONE
 #
 define
 NS_STYLE_TABLE_COLS_ALL
-PRInt32
+int32_t
 (
 1
 <

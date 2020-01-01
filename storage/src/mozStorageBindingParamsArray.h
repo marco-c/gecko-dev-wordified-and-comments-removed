@@ -116,7 +116,7 @@ iterator
 BindingParamsArray
 *
 aArray
-PRUint32
+uint32_t
 aIndex
 )
 :
@@ -246,7 +246,7 @@ BindingParamsArray
 *
 mArray
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 }

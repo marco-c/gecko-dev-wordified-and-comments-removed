@@ -79,7 +79,7 @@ mozIStorageBaseStatement
 *
 *
 aStmts
-PRUint32
+uint32_t
 aStmtsLen
 bool
 aTransactionExpected
@@ -194,7 +194,7 @@ commit
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1129,7 +1129,7 @@ paramsArray
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1279,7 +1279,7 @@ paramsArray
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1477,7 +1477,7 @@ paramsArray
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1675,7 +1675,7 @@ paramsArray
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

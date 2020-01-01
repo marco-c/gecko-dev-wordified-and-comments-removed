@@ -290,7 +290,7 @@ const
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -328,7 +328,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 DOMSVGTests
 :
 :
@@ -345,7 +345,7 @@ const
 nsDefaultStringComparator
 defaultComparator
 ;
-PRInt32
+int32_t
 lowestRank
 =
 -
@@ -373,7 +373,7 @@ lowestRank
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -400,7 +400,7 @@ aAcceptLangs
 '
 )
 ;
-PRInt32
+int32_t
 index
 =
 0
@@ -616,7 +616,7 @@ this
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -699,7 +699,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -846,7 +846,7 @@ defaultComparator
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -939,7 +939,7 @@ aResult
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1037,7 +1037,7 @@ aAttribute
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1139,7 +1139,7 @@ DOMSVGTests
 :
 GetStringListAttribute
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 const
@@ -1196,7 +1196,7 @@ DOMSVGTests
 :
 GetOrCreateStringListAttribute
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 const
@@ -1331,7 +1331,7 @@ DOMSVGTests
 :
 GetAttrName
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 const
@@ -1350,7 +1350,7 @@ DOMSVGTests
 :
 GetAttrValue
 (
-PRUint8
+uint8_t
 aAttrEnum
 nsAttrValue
 &

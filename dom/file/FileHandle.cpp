@@ -259,7 +259,7 @@ const
 nsAString
 &
 aMode
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIDOMLockedFile
 *
@@ -563,7 +563,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-PRInt64
+int64_t
 )
 FileHandle
 :

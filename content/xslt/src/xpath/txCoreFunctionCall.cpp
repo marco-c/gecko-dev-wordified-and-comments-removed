@@ -93,10 +93,10 @@ mozilla
 struct
 txCoreFunctionDescriptor
 {
-PRInt8
+int8_t
 mMinParams
 ;
-PRInt8
+int8_t
 mMaxParams
 ;
 Expr
@@ -691,7 +691,7 @@ exprResult
 )
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -1248,7 +1248,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 i
 len
 =
@@ -1520,7 +1520,7 @@ Length
 PRUnichar
 c
 ;
-PRUint32
+uint32_t
 src
 ;
 for
@@ -2176,11 +2176,11 @@ Substring
 (
 src
 (
-PRUint32
+uint32_t
 )
 start
 (
-PRUint32
+uint32_t
 )
 (
 end
@@ -2267,7 +2267,7 @@ aResult
 )
 ;
 }
-PRInt32
+int32_t
 idx
 =
 arg1
@@ -2411,7 +2411,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 idx
 =
 arg1
@@ -2607,14 +2607,14 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 i
 ;
-PRInt32
+int32_t
 newCharsLength
 =
 (
-PRInt32
+int32_t
 )
 newChars
 .
@@ -2641,7 +2641,7 @@ i
 +
 )
 {
-PRInt32
+int32_t
 idx
 =
 oldChars
@@ -2682,7 +2682,7 @@ newChars
 CharAt
 (
 (
-PRUint32
+uint32_t
 )
 idx
 )
@@ -3106,7 +3106,7 @@ res
 =
 0
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -3727,7 +3727,7 @@ eType
 aType
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for

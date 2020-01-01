@@ -131,7 +131,7 @@ char
 *
 mSurfaceData
 ;
-PRInt32
+int32_t
 mReadCount
 ;
 }

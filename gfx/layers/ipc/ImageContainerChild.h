@@ -80,7 +80,7 @@ aImage
 )
 ;
 const
-PRUint64
+uint64_t
 &
 GetID
 (
@@ -198,7 +198,7 @@ inline
 void
 SetID
 (
-PRUint64
+uint64_t
 id
 )
 {
@@ -269,7 +269,7 @@ aImage
 ;
 private
 :
-PRUint64
+uint64_t
 mImageContainerID
 ;
 nsTArray

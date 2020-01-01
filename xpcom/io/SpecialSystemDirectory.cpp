@@ -1555,7 +1555,7 @@ VIDEOS
 ;
 static
 const
-PRUint8
+uint8_t
 xdg_user_dir_offsets
 [
 ]
@@ -1990,7 +1990,7 @@ defined
 XP_WIN
 )
 {
-PRInt32
+int32_t
 len
 =
 :
@@ -2418,7 +2418,7 @@ case
 Win_SystemDirectory
 :
 {
-PRInt32
+int32_t
 len
 =
 :
@@ -2484,7 +2484,7 @@ case
 Win_WindowsDirectory
 :
 {
-PRInt32
+int32_t
 len
 =
 :
@@ -2581,7 +2581,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 len
 ;
 if

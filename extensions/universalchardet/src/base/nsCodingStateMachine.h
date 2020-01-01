@@ -54,14 +54,14 @@ struct
 nsPkgInt
 classTable
 ;
-PRUint32
+uint32_t
 classFactor
 ;
 nsPkgInt
 stateTable
 ;
 const
-PRUint32
+uint32_t
 *
 charLenTable
 ;
@@ -103,7 +103,7 @@ char
 c
 )
 {
-PRUint32
+uint32_t
 byteCls
 =
 GETCLASS
@@ -165,7 +165,7 @@ return
 mCurrentState
 ;
 }
-PRUint32
+uint32_t
 GetCurrentCharLen
 (
 void
@@ -205,10 +205,10 @@ protected
 nsSMState
 mCurrentState
 ;
-PRUint32
+uint32_t
 mCurrentCharLen
 ;
-PRUint32
+uint32_t
 mCurrentBytePos
 ;
 const

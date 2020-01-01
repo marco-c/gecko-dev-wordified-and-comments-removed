@@ -69,7 +69,7 @@ VisitsArray
 ;
 PlaceInfo
 (
-PRInt64
+int64_t
 aId
 const
 nsCString
@@ -84,7 +84,7 @@ const
 nsString
 &
 aTitle
-PRInt64
+int64_t
 aFrecency
 const
 VisitsArray
@@ -95,7 +95,7 @@ aVisits
 private
 :
 const
-PRInt64
+int64_t
 mId
 ;
 const
@@ -113,7 +113,7 @@ nsString
 mTitle
 ;
 const
-PRInt64
+int64_t
 mFrecency
 ;
 const

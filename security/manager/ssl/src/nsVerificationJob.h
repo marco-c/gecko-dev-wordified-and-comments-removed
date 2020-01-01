@@ -113,10 +113,10 @@ private
 nsresult
 mRV
 ;
-PRUint32
+uint32_t
 mVerified
 ;
-PRUint32
+uint32_t
 mCount
 ;
 PRUnichar
@@ -179,7 +179,7 @@ char
 *
 digest_data
 ;
-PRUint32
+uint32_t
 digest_len
 ;
 void

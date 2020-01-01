@@ -435,7 +435,7 @@ aDataSource
 )
 ;
 static
-PRInt32
+int32_t
 gRefCnt
 ;
 static
@@ -541,7 +541,7 @@ const
 PRUnichar
 *
 aText
-PRInt32
+int32_t
 aLength
 )
 ;
@@ -654,7 +654,7 @@ aAttributes
 nsIRDFResource
 *
 aSubject
-PRInt32
+int32_t
 *
 aCount
 =
@@ -675,10 +675,10 @@ PRUnichar
 *
 mText
 ;
-PRInt32
+int32_t
 mTextLength
 ;
-PRInt32
+int32_t
 mTextSize
 ;
 void
@@ -754,7 +754,7 @@ mState
 RDFContentSinkParseMode
 mParseMode
 ;
-PRInt32
+int32_t
 PushContext
 (
 nsIRDFResource
@@ -785,7 +785,7 @@ nsIRDFResource
 *
 GetContextElement
 (
-PRInt32
+int32_t
 ancestor
 =
 0
@@ -822,7 +822,7 @@ mDocumentURL
 ;
 }
 ;
-PRInt32
+int32_t
 RDFContentSinkImpl
 :
 :
@@ -1262,7 +1262,7 @@ tag
 )
 )
 ;
-PRInt32
+int32_t
 i
 =
 mContextStack
@@ -1562,11 +1562,11 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
-PRInt32
+int32_t
 aIndex
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -1903,7 +1903,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -1960,7 +1960,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -2010,7 +2010,7 @@ const
 PRUnichar
 *
 aEncoding
-PRInt32
+int32_t
 aStandalone
 )
 {
@@ -2392,13 +2392,13 @@ rdf_IsDataInBuffer
 PRUnichar
 *
 buffer
-PRInt32
+int32_t
 length
 )
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2574,7 +2574,7 @@ eRDFContentSinkParseMode_Int
 nsresult
 err
 ;
-PRInt32
+int32_t
 i
 =
 value
@@ -2824,7 +2824,7 @@ const
 PRUnichar
 *
 aText
-PRInt32
+int32_t
 aLength
 )
 {
@@ -2867,7 +2867,7 @@ mTextSize
 4096
 ;
 }
-PRInt32
+int32_t
 amount
 =
 mTextSize
@@ -2881,7 +2881,7 @@ amount
 aLength
 )
 {
-PRInt32
+int32_t
 newSize
 =
 (
@@ -3624,7 +3624,7 @@ aAttributes
 nsIRDFResource
 *
 aSubject
-PRInt32
+int32_t
 *
 aCount
 )
@@ -4456,7 +4456,7 @@ if
 target
 )
 {
-PRInt32
+int32_t
 count
 ;
 rv
@@ -5421,7 +5421,7 @@ RDFContentSinkImpl
 :
 GetContextElement
 (
-PRInt32
+int32_t
 ancestor
 )
 {
@@ -5436,7 +5436,7 @@ mContextStack
 |
 |
 (
-PRUint32
+uint32_t
 (
 ancestor
 )
@@ -5476,7 +5476,7 @@ ancestor
 mResource
 ;
 }
-PRInt32
+int32_t
 RDFContentSinkImpl
 :
 :
@@ -5613,7 +5613,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-PRUint32
+uint32_t
 i
 =
 mContextStack

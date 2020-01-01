@@ -118,7 +118,7 @@ const
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -140,7 +140,7 @@ error
 "
 )
 ;
-PRUint32
+uint32_t
 bytesToRead
 =
 0
@@ -175,7 +175,7 @@ iconStateStart
 mWidth
 =
 (
-PRUint8
+uint8_t
 )
 *
 aBuffer
@@ -200,7 +200,7 @@ iconStateHaveHeight
 mHeight
 =
 (
-PRUint8
+uint8_t
 )
 *
 aBuffer

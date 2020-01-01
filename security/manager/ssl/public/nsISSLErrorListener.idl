@@ -230,7 +230,7 @@ in
 nsIInterfaceRequestor
 socketInfo
 in
-PRInt32
+int32_t
 error
 in
 AUTF8String

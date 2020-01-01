@@ -426,7 +426,7 @@ aTag
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 )
 ;
@@ -443,7 +443,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 nsresult
 aResult
@@ -458,7 +458,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 )
 ;
@@ -471,7 +471,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 nsresult
 aResult
@@ -501,7 +501,7 @@ WillSplitNode
 nsIDOMNode
 *
 aExistingRightNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -511,7 +511,7 @@ DidSplitNode
 nsIDOMNode
 *
 aExistingRightNode
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
@@ -556,7 +556,7 @@ WillInsertText
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 const
 nsAString
@@ -570,7 +570,7 @@ DidInsertText
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 const
 nsAString
@@ -586,9 +586,9 @@ WillDeleteText
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aLength
 )
 ;
@@ -598,9 +598,9 @@ DidDeleteText
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aLength
 nsresult
 aResult
@@ -673,7 +673,7 @@ inString
 nsAString
 *
 outString
-PRInt32
+int32_t
 aMaxLength
 )
 ;
@@ -711,7 +711,7 @@ StandardBreakImpl
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsISelection
 *
@@ -808,7 +808,7 @@ nsIDOMNode
 >
 *
 outSelNode
-PRInt32
+int32_t
 *
 outSelOffset
 )
@@ -842,9 +842,9 @@ aLeft
 nsIDOMNode
 *
 aRight
-PRInt32
+int32_t
 aLeftOffset
-PRInt32
+int32_t
 aRightOffset
 )
 ;
@@ -857,7 +857,7 @@ aSource
 nsIDOMNode
 *
 aDest
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -871,7 +871,7 @@ aSource
 nsIDOMNode
 *
 aDest
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -1068,7 +1068,7 @@ mozilla
 Selection
 *
 aSelection
-PRInt32
+int32_t
 aChange
 bool
 *
@@ -1215,7 +1215,7 @@ nsIDOMNode
 >
 &
 outArrayOfNodes
-PRInt32
+int32_t
 *
 aIndex
 bool
@@ -1260,7 +1260,7 @@ aHeader
 nsIDOMNode
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1276,7 +1276,7 @@ aHeader
 nsIDOMNode
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 bool
 *
@@ -1304,7 +1304,7 @@ nsIDOMNode
 >
 *
 aSelNode
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -1321,7 +1321,7 @@ aHeader
 nsIDOMNode
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -1545,7 +1545,7 @@ nsIDOMNode
 >
 *
 outBRNode
-PRInt32
+int32_t
 aOffset
 =
 0
@@ -1591,7 +1591,7 @@ aWhere
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 EditAction
 actionID
@@ -1601,7 +1601,7 @@ nsIDOMNode
 >
 *
 outNode
-PRInt32
+int32_t
 *
 outOffset
 )
@@ -1869,7 +1869,7 @@ nsIDOMNode
 >
 *
 inOutParent
-PRInt32
+int32_t
 *
 inOutOffset
 )
@@ -1897,7 +1897,7 @@ nsIDOMNode
 >
 *
 aOutMergeParent
-PRInt32
+int32_t
 *
 aOutMergeOffset
 )
@@ -2007,7 +2007,7 @@ FindNearSelectableNode
 nsIDOMNode
 *
 aSelNode
-PRInt32
+int32_t
 aSelOffset
 nsIEditor
 :
@@ -2145,7 +2145,7 @@ RelativeChangeIndentationOfElementNode
 nsIDOMNode
 *
 aNode
-PRInt8
+int8_t
 aRelativeChange
 )
 ;
@@ -2187,7 +2187,7 @@ nsRange
 >
 mUtilRange
 ;
-PRUint32
+uint32_t
 mJoinOffset
 ;
 nsCOMPtr

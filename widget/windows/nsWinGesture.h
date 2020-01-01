@@ -595,7 +595,7 @@ GetTouchInputInfo
 (
 HTOUCHINPUT
 hTouchInput
-PRUint32
+uint32_t
 cInputs
 PTOUCHINPUT
 pInputs
@@ -664,7 +664,7 @@ UpdatePanFeedbackX
 (
 HWND
 hWnd
-PRInt32
+int32_t
 scrollOverflow
 bool
 &
@@ -676,7 +676,7 @@ UpdatePanFeedbackY
 (
 HWND
 hWnd
-PRInt32
+int32_t
 scrollOverflow
 bool
 &
@@ -940,11 +940,11 @@ GetTouchInputInfoPtr
 (
 HTOUCHINPUT
 hTouchInput
-PRUint32
+uint32_t
 cInputs
 PTOUCHINPUT
 pInputs
-PRInt32
+int32_t
 cbSize
 )
 ;

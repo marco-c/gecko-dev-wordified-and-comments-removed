@@ -121,7 +121,7 @@ IsEmpty
 )
 ;
 }
-PRUint32
+uint32_t
 Length
 (
 )
@@ -142,7 +142,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -216,7 +216,7 @@ SVGPoint
 bool
 SetCapacity
 (
-PRUint32
+uint32_t
 aSize
 )
 {
@@ -258,7 +258,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -272,7 +272,7 @@ aIndex
 bool
 SetLength
 (
-PRUint32
+uint32_t
 aNumberOfItems
 )
 {
@@ -311,7 +311,7 @@ Clear
 bool
 InsertItem
 (
-PRUint32
+uint32_t
 aIndex
 const
 SVGPoint
@@ -355,7 +355,7 @@ aPoint
 void
 ReplaceItem
 (
-PRUint32
+uint32_t
 aIndex
 const
 SVGPoint
@@ -394,7 +394,7 @@ aPoint
 void
 RemoveItem
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -594,7 +594,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -617,7 +617,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -636,7 +636,7 @@ aIndex
 bool
 SetLength
 (
-PRUint32
+uint32_t
 aNumberOfItems
 )
 {

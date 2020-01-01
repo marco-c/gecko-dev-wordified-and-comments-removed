@@ -751,7 +751,7 @@ nsResProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -772,7 +772,7 @@ nsResProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -1223,7 +1223,7 @@ nsResProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char

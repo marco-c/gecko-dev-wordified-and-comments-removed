@@ -12,7 +12,7 @@ prtypes
 h
 "
 typedef
-PRInt64
+int64_t
 nsSMILTime
 ;
 #

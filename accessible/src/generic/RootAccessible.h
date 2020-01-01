@@ -115,7 +115,7 @@ virtual
 Relation
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 ;
@@ -132,7 +132,7 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -215,7 +215,7 @@ XULTreeAccessible
 aAccessible
 )
 ;
-PRUint32
+uint32_t
 GetChromeFlags
 (
 )

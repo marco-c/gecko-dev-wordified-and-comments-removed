@@ -1256,7 +1256,7 @@ ifdef
 DEBUG
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1317,13 +1317,13 @@ const
 PRUnichar
 *
 str
-PRUint32
+uint32_t
 len
 )
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1401,7 +1401,7 @@ string
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1513,7 +1513,7 @@ XPCCallContext
 :
 GetCalleeMethodIndex
 (
-PRUint16
+uint16_t
 *
 aCalleeMethodIndex
 )
@@ -1672,7 +1672,7 @@ XPCCallContext
 :
 GetArgc
 (
-PRUint32
+uint32_t
 *
 aArgc
 )
@@ -1681,7 +1681,7 @@ aArgc
 aArgc
 =
 (
-PRUint32
+uint32_t
 )
 mArgc
 ;
@@ -1744,7 +1744,7 @@ XPCCallContext
 :
 GetLanguage
 (
-PRUint16
+uint16_t
 *
 aResult
 )

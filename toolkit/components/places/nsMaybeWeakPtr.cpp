@@ -217,7 +217,7 @@ nsISupports
 aElement
 )
 {
-PRUint32
+uint32_t
 index
 =
 aArray

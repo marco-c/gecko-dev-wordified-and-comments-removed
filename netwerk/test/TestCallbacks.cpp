@@ -152,7 +152,7 @@ gError
 false
 ;
 static
-PRInt32
+int32_t
 gKeepRunning
 =
 0
@@ -316,7 +316,7 @@ mOnStart
 bool
 mOnStop
 ;
-PRInt32
+int32_t
 mOnDataCount
 ;
 nsCOMPtr
@@ -608,9 +608,9 @@ aContext
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 )
 {

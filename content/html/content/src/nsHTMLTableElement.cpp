@@ -461,7 +461,7 @@ nsINode
 _node
 ;
 \
-PRUint32
+uint32_t
 _tbodyIndex
 =
 0
@@ -642,7 +642,7 @@ while
 0
 )
 static
-PRUint32
+uint32_t
 CountRowsInRowGroup
 (
 nsIDOMHTMLCollection
@@ -650,7 +650,7 @@ nsIDOMHTMLCollection
 rows
 )
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -680,7 +680,7 @@ TableRowsCollection
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -715,9 +715,9 @@ GetItemOrCountInRowGroup
 nsIDOMHTMLCollection
 *
 rows
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 *
 aCount
 )
@@ -781,13 +781,13 @@ TableRowsCollection
 :
 GetNodeAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
 DO_FOR_EACH_ROWGROUP
 (
-PRUint32
+uint32_t
 count
 ;
 nsIContent
@@ -841,7 +841,7 @@ TableRowsCollection
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMNode
 *
@@ -2424,7 +2424,7 @@ nsHTMLTableElement
 :
 InsertRow
 (
-PRInt32
+int32_t
 aIndex
 nsIDOMHTMLElement
 *
@@ -2463,7 +2463,7 @@ rows
 )
 )
 ;
-PRUint32
+uint32_t
 rowCount
 ;
 rows
@@ -2478,7 +2478,7 @@ rowCount
 if
 (
 (
-PRUint32
+uint32_t
 )
 aIndex
 >
@@ -2496,11 +2496,11 @@ return
 NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 }
-PRUint32
+uint32_t
 refIndex
 =
 (
-PRUint32
+uint32_t
 )
 aIndex
 ;
@@ -2640,7 +2640,7 @@ aIndex
 1
 |
 |
-PRUint32
+uint32_t
 (
 aIndex
 )
@@ -3057,7 +3057,7 @@ nsHTMLTableElement
 :
 DeleteRow
 (
-PRInt32
+int32_t
 aValue
 )
 {
@@ -3090,7 +3090,7 @@ rows
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 refIndex
 ;
 if
@@ -3141,7 +3141,7 @@ else
 refIndex
 =
 (
-PRUint32
+uint32_t
 )
 aValue
 ;
@@ -3375,7 +3375,7 @@ nsHTMLTableElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -4798,7 +4798,7 @@ if
 borderValue
 )
 {
-PRInt32
+int32_t
 borderThickness
 =
 1
@@ -5605,7 +5605,7 @@ nsHTMLTableElement
 :
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -5659,7 +5659,7 @@ nsHTMLTableElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

@@ -82,7 +82,7 @@ nsTimeRanges
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -106,7 +106,7 @@ nsTimeRanges
 :
 Start
 (
-PRUint32
+uint32_t
 aIndex
 double
 *
@@ -147,7 +147,7 @@ nsTimeRanges
 :
 End
 (
-PRUint32
+uint32_t
 aIndex
 double
 *
@@ -284,7 +284,7 @@ mRanges
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1

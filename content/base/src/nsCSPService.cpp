@@ -226,7 +226,7 @@ CSPService
 :
 ShouldLoad
 (
-PRUint32
+uint32_t
 aContentType
 nsIURI
 *
@@ -247,7 +247,7 @@ aExtra
 nsIPrincipal
 *
 aRequestPrincipal
-PRInt16
+int16_t
 *
 aDecision
 )
@@ -480,7 +480,7 @@ CSPService
 :
 ShouldProcess
 (
-PRUint32
+uint32_t
 aContentType
 nsIURI
 *
@@ -501,7 +501,7 @@ aExtra
 nsIPrincipal
 *
 aRequestPrincipal
-PRInt16
+int16_t
 *
 aDecision
 )
@@ -701,7 +701,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 flags
 nsIAsyncVerifyRedirectCallback
 *
@@ -793,7 +793,7 @@ csp
 )
 )
 ;
-PRUint32
+uint32_t
 loadType
 ;
 channelPolicy
@@ -847,7 +847,7 @@ originalUri
 )
 )
 ;
-PRInt16
+int16_t
 aDecision
 =
 nsIContentPolicy

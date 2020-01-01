@@ -105,7 +105,7 @@ const
 nsString
 &
 aErrorMsg
-PRUint64
+uint64_t
 aWindowID
 )
 :
@@ -180,7 +180,7 @@ const
 nsString
 mErrorMsg
 ;
-PRUint64
+uint64_t
 mWindowID
 ;
 }
@@ -201,7 +201,7 @@ aSuccess
 nsIDOMFile
 *
 aFile
-PRUint64
+uint64_t
 aWindowID
 )
 :
@@ -278,7 +278,7 @@ nsIDOMFile
 >
 mFile
 ;
-PRUint64
+uint64_t
 mWindowID
 ;
 }
@@ -302,7 +302,7 @@ aSource
 StreamListeners
 *
 aListeners
-PRUint64
+uint64_t
 aWindowID
 TrackID
 aTrackID
@@ -496,7 +496,7 @@ StreamListeners
 *
 mListeners
 ;
-PRUint64
+uint64_t
 mWindowID
 ;
 TrackID
@@ -529,7 +529,7 @@ aError
 StreamListeners
 *
 aListeners
-PRUint64
+uint64_t
 aWindowID
 )
 :
@@ -878,7 +878,7 @@ EnumerateVideoDevices
 videoSources
 )
 ;
-PRUint32
+uint32_t
 count
 =
 videoSources
@@ -956,7 +956,7 @@ EnumerateVideoDevices
 videoSources
 )
 ;
-PRUint32
+uint32_t
 count
 =
 videoSources
@@ -1034,7 +1034,7 @@ EnumerateAudioDevices
 audioSources
 )
 ;
-PRUint32
+uint32_t
 count
 =
 audioSources
@@ -1111,7 +1111,7 @@ StreamListeners
 *
 mListeners
 ;
-PRUint64
+uint64_t
 mWindowID
 ;
 MediaManager
@@ -1239,7 +1239,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 permission
 ;
 nsCOMPtr
@@ -1375,7 +1375,7 @@ rv
 rv
 )
 ;
-PRUint64
+uint64_t
 windowID
 =
 aWindow
@@ -1534,7 +1534,7 @@ MediaManager
 :
 OnNavigation
 (
-PRUint64
+uint64_t
 aWindowID
 )
 {
@@ -1558,7 +1558,7 @@ listeners
 return
 ;
 }
-PRUint32
+uint32_t
 length
 =
 listeners
@@ -1570,7 +1570,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

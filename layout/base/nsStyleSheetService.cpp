@@ -198,7 +198,7 @@ aCategory
 nsISimpleEnumerator
 *
 aEnumerator
-PRUint32
+uint32_t
 aSheetType
 )
 {
@@ -336,7 +336,7 @@ aSheetType
 ;
 }
 }
-PRInt32
+int32_t
 nsStyleSheetService
 :
 :
@@ -356,7 +356,7 @@ sheetURI
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 sheets
@@ -534,7 +534,7 @@ LoadAndRegisterSheet
 nsIURI
 *
 aSheetURI
-PRUint32
+uint32_t
 aSheetType
 )
 {
@@ -651,7 +651,7 @@ LoadAndRegisterSheetInternal
 nsIURI
 *
 aSheetURI
-PRUint32
+uint32_t
 aSheetType
 )
 {
@@ -761,7 +761,7 @@ SheetRegistered
 nsIURI
 *
 sheetURI
-PRUint32
+uint32_t
 aSheetType
 bool
 *
@@ -827,7 +827,7 @@ UnregisterSheet
 nsIURI
 *
 sheetURI
-PRUint32
+uint32_t
 aSheetType
 )
 {
@@ -850,7 +850,7 @@ NS_ENSURE_ARG_POINTER
 sheetURI
 )
 ;
-PRInt32
+int32_t
 foundIndex
 =
 FindSheetByURI

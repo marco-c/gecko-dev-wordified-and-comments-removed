@@ -90,7 +90,7 @@ if
 path
 )
 {
-PRInt32
+int32_t
 i
 =
 mPath
@@ -185,7 +185,7 @@ char
 *
 p
 ;
-PRUint32
+uint32_t
 len
 =
 pathStr
@@ -685,7 +685,7 @@ Data
 :
 GetSize
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -721,7 +721,7 @@ fileInfo
 .
 size
 >
-PRInt64
+int64_t
 (
 PR_UINT32_MAX
 )
@@ -776,7 +776,7 @@ Copy
 char
 *
 buf
-PRUint32
+uint32_t
 len
 )
 {
@@ -787,7 +787,7 @@ mFd
 {
 for
 (
-PRUint32
+uint32_t
 totalRead
 =
 0
@@ -798,7 +798,7 @@ len
 ;
 )
 {
-PRInt32
+int32_t
 read
 =
 PR_Read
@@ -812,7 +812,7 @@ NS_MIN
 len
 -
 totalRead
-PRUint32
+uint32_t
 (
 PR_INT32_MAX
 )
@@ -853,7 +853,7 @@ mItem
 mZip
 reinterpret_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -863,7 +863,7 @@ len
 true
 )
 ;
-PRUint32
+uint32_t
 readLen
 ;
 cursor

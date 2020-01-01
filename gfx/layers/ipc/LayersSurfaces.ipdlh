@@ -286,7 +286,7 @@ external
 struct
 SharedImageID
 {
-PRUint64
+uint64_t
 id
 ;
 }

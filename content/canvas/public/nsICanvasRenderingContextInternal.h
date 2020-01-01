@@ -174,9 +174,9 @@ mCanvasElement
 NS_IMETHOD
 SetDimensions
 (
-PRInt32
+int32_t
 width
-PRInt32
+int32_t
 height
 )
 =
@@ -191,9 +191,9 @@ docShell
 gfxASurface
 *
 surface
-PRInt32
+int32_t
 width
-PRInt32
+int32_t
 height
 )
 =
@@ -210,7 +210,7 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
-PRUint32
+uint32_t
 aFlags
 =
 RenderFlagPremultAlpha

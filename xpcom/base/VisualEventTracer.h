@@ -422,7 +422,7 @@ eThreadConcurrent
 void
 Mark
 (
-PRUint32
+uint32_t
 aType
 void
 *
@@ -450,9 +450,9 @@ AutoEventTracer
 void
 *
 aInstance
-PRUint32
+uint32_t
 aTypeOn
-PRUint32
+uint32_t
 aTypeOff
 const
 char
@@ -545,10 +545,10 @@ char
 *
 mName2
 ;
-PRUint32
+uint32_t
 mTypeOn
 ;
-PRUint32
+uint32_t
 mTypeOff
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER

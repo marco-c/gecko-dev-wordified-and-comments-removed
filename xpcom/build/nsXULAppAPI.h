@@ -142,7 +142,7 @@ const
 nsXREAppData
 *
 aAppData
-PRUint32
+uint32_t
 aFlags
 )
 )
@@ -411,13 +411,13 @@ XRE_API
 bool
 XRE_TakeMinidumpForChild
 (
-PRUint32
+uint32_t
 aChildPid
 nsIFile
 *
 *
 aDump
-PRUint32
+uint32_t
 *
 aSequence
 )
@@ -641,7 +641,7 @@ XRE_TelemetryAccumulate
 (
 int
 aID
-PRUint32
+uint32_t
 aSample
 )
 )

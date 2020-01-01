@@ -77,7 +77,7 @@ RandomUpdate
 void
 *
 new_entropy
-PRInt32
+int32_t
 bufLen
 )
 {
@@ -130,13 +130,13 @@ mEntropyCache
 +
 entropy_buffer_size
 ;
-PRInt32
+int32_t
 bytes_wanted
 =
 NS_MIN
 (
 bufLen
-PRInt32
+int32_t
 (
 entropy_buffer_size
 )
@@ -146,7 +146,7 @@ mBytesCollected
 =
 NS_MIN
 (
-PRInt32
+int32_t
 (
 entropy_buffer_size
 )
@@ -163,7 +163,7 @@ bytes_wanted
 )
 {
 const
-PRInt32
+int32_t
 space_to_end
 =
 PastEndPointer
@@ -171,7 +171,7 @@ PastEndPointer
 mWritePointer
 ;
 const
-PRInt32
+int32_t
 this_time
 =
 NS_MIN
@@ -182,7 +182,7 @@ bytes_wanted
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

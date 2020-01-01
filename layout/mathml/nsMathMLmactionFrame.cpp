@@ -181,7 +181,7 @@ NS_MATHML_ACTION_TYPE_CLASS_IGNORE_SELECTION
 }
 ;
 static
-PRInt32
+int32_t
 GetActionType
 (
 nsIContent
@@ -470,7 +470,7 @@ nsMathMLmactionFrame
 :
 ChildListChanged
 (
-PRInt32
+int32_t
 aModType
 )
 {
@@ -513,7 +513,7 @@ GetSelectedFrame
 nsAutoString
 value
 ;
-PRInt32
+int32_t
 selection
 ;
 if
@@ -658,7 +658,7 @@ return
 mSelectedFrame
 ;
 }
-PRInt32
+int32_t
 count
 =
 0
@@ -852,12 +852,12 @@ nsMathMLmactionFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -877,7 +877,7 @@ nsGkAtoms
 actiontype_
 )
 {
-PRInt32
+int32_t
 oldActionType
 =
 mActionType
@@ -1775,7 +1775,7 @@ mChildCount
 1
 )
 {
-PRInt32
+int32_t
 selection
 =
 (

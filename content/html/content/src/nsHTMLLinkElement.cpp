@@ -260,7 +260,7 @@ aEventName
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -288,7 +288,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -308,7 +308,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1062,7 +1062,7 @@ nsHTMLLinkElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1203,7 +1203,7 @@ GetStyleSheet
 )
 )
 {
-PRUint32
+uint32_t
 linkTypes
 =
 nsStyleLinkElement
@@ -1270,7 +1270,7 @@ nsHTMLLinkElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1631,7 +1631,7 @@ rel
 rel
 )
 ;
-PRUint32
+uint32_t
 linkTypes
 =
 nsStyleLinkElement

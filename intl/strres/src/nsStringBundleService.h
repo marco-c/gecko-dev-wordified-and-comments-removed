@@ -130,7 +130,7 @@ nsIStringBundle
 bundle
 nsresult
 aStatus
-PRUint32
+uint32_t
 argCount
 PRUnichar
 *

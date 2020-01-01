@@ -131,7 +131,7 @@ aCx
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 aArgc
 JS
 :
@@ -347,7 +347,7 @@ ArchiveReader
 :
 GetSize
 (
-PRUint64
+uint64_t
 *
 aSize
 )
@@ -487,7 +487,7 @@ aStatus
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -701,7 +701,7 @@ fileList
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

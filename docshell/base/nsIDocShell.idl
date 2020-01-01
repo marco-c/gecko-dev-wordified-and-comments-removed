@@ -919,7 +919,7 @@ in
 nsISupports
 aOwner
 in
-PRUint32
+uint32_t
 aFlags
 in
 wstring
@@ -3575,7 +3575,7 @@ nsIParser
 *
 /
 attribute
-PRInt32
+int32_t
 parentCharsetSource
 ;
 /

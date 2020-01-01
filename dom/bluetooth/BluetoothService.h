@@ -261,7 +261,7 @@ aAttributeId
 virtual
 nsTArray
 <
-PRUint32
+uint32_t
 >
 AddReservedServicesInternal
 (
@@ -272,7 +272,7 @@ aAdapterPath
 const
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aServices
@@ -291,7 +291,7 @@ aAdapterPath
 const
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aServiceHandles
@@ -363,7 +363,7 @@ const
 nsAString
 &
 aDeviceAddress
-PRUint32
+uint32_t
 aPasskey
 )
 =

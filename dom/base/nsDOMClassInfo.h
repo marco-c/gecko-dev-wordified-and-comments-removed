@@ -210,17 +210,17 @@ nsIID
 *
 mInterfaces
 ;
-PRUint32
+uint32_t
 mScriptableFlags
 :
 31
 ;
-PRUint32
+uint32_t
 mHasClassInterface
 :
 1
 ;
-PRUint32
+uint32_t
 mInterfacesBitmap
 ;
 bool
@@ -232,7 +232,7 @@ mDisabled
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 mDebugID
 ;
 #
@@ -428,7 +428,7 @@ aNative
 {
 }
 virtual
-PRUint32
+uint32_t
 GetInterfacesBitmap
 (
 )
@@ -450,7 +450,7 @@ static
 nsresult
 RegisterClassProtos
 (
-PRInt32
+int32_t
 aDOMClassInfoID
 )
 ;
@@ -476,7 +476,7 @@ objp
 )
 ;
 static
-PRInt32
+int32_t
 GetArrayIndexFromId
 (
 JSContext
@@ -1283,7 +1283,7 @@ NS_OK
 ;
 }
 virtual
-PRUint32
+uint32_t
 GetScriptableFlags
 (
 )
@@ -1357,7 +1357,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -1555,7 +1555,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 mode
 jsval
 *
@@ -1665,7 +1665,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -1982,7 +1982,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -1996,7 +1996,7 @@ _retval
 NS_IMETHOD
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -2170,7 +2170,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -2211,7 +2211,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 *
 length
 )
@@ -2272,7 +2272,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -2365,7 +2365,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -2473,7 +2473,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -2571,7 +2571,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -2770,7 +2770,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -2784,7 +2784,7 @@ _retval
 NS_IMETHOD
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -3007,7 +3007,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -3123,7 +3123,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -3168,7 +3168,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -3245,7 +3245,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -3310,7 +3310,7 @@ cx
 jsval
 *
 vp
-PRUint32
+uint32_t
 aIndex
 nsIDOMHTMLOptionsCollection
 *
@@ -3420,7 +3420,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -3533,7 +3533,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -3617,7 +3617,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -3707,7 +3707,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -3797,7 +3797,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -3886,7 +3886,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -3956,7 +3956,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -4060,7 +4060,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -4124,7 +4124,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -4189,7 +4189,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -4258,7 +4258,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -4326,7 +4326,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -4409,7 +4409,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -4478,7 +4478,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -4550,7 +4550,7 @@ GetItemAt
 nsISupports
 *
 aNative
-PRUint32
+uint32_t
 aIndex
 nsWrapperCache
 *
@@ -4648,7 +4648,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -4737,7 +4737,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 enum_op
 jsval
 *
@@ -4890,7 +4890,7 @@ JSObject
 obj
 jsid
 id
-PRUint32
+uint32_t
 flags
 JSObject
 *
@@ -4913,7 +4913,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -4938,7 +4938,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -5028,7 +5028,7 @@ public
 NS_IMETHOD
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -5086,7 +5086,7 @@ public
 NS_IMETHOD
 GetFlags
 (
-PRUint32
+uint32_t
 *
 aFlags
 )
@@ -5146,7 +5146,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &
@@ -5210,7 +5210,7 @@ GetStringAt
 nsISupports
 *
 aNative
-PRInt32
+int32_t
 aIndex
 nsAString
 &

@@ -78,12 +78,12 @@ GetUnitString
 nsAString
 &
 unit
-PRUint16
+uint16_t
 unitType
 )
 ;
 static
-PRUint16
+uint16_t
 GetUnitTypeForString
 (
 const
@@ -181,7 +181,7 @@ aValue
 float
 tmpValue
 ;
-PRUint16
+uint16_t
 tmpUnit
 ;
 NS_ConvertUTF16toUTF8
@@ -399,7 +399,7 @@ static
 bool
 IsAbsoluteUnit
 (
-PRUint8
+uint8_t
 aUnit
 )
 {
@@ -427,9 +427,9 @@ static
 float
 GetAbsUnitsPerAbsUnit
 (
-PRUint8
+uint8_t
 aUnits
-PRUint8
+uint8_t
 aPerUnit
 )
 {
@@ -580,13 +580,13 @@ SVGLength
 :
 GetValueInSpecifiedUnit
 (
-PRUint8
+uint8_t
 aUnit
 const
 nsSVGElement
 *
 aElement
-PRUint8
+uint8_t
 aAxis
 )
 const
@@ -801,7 +801,7 @@ const
 nsSVGElement
 *
 aElement
-PRUint8
+uint8_t
 aAxis
 )
 const
@@ -997,7 +997,7 @@ const
 nsSVGElement
 *
 aElement
-PRUint8
+uint8_t
 aAxis
 )
 {
@@ -1131,7 +1131,7 @@ GetUnitString
 nsAString
 &
 unit
-PRUint16
+uint16_t
 unitType
 )
 {
@@ -1185,7 +1185,7 @@ return
 ;
 }
 static
-PRUint16
+uint16_t
 GetUnitTypeForString
 (
 const
@@ -1228,7 +1228,7 @@ unitStr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1

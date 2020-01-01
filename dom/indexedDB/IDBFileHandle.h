@@ -68,7 +68,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIIDBFILEHANDLE
 NS_IMETHOD_
 (
-PRInt64
+int64_t
 )
 GetFileId
 (
@@ -154,7 +154,7 @@ file
 LockedFile
 *
 aLockedFile
-PRUint32
+uint32_t
 aFileSize
 )
 ;

@@ -147,7 +147,7 @@ mRealChannels
 ParentChannelHashtable
 mParentChannels
 ;
-PRUint32
+uint32_t
 mId
 ;
 }

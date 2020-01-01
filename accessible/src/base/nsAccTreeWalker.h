@@ -94,7 +94,7 @@ DocAccessible
 *
 mDoc
 ;
-PRInt32
+int32_t
 mChildFilter
 ;
 bool

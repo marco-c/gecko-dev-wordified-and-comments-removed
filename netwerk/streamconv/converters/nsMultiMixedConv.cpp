@@ -90,7 +90,7 @@ nsIStreamConverterService
 h
 "
 static
-PRUint32
+uint32_t
 LengthToToken
 (
 const
@@ -103,7 +103,7 @@ char
 token
 )
 {
-PRUint32
+uint32_t
 len
 =
 token
@@ -168,7 +168,7 @@ nsPartChannel
 nsIChannel
 *
 aMultipartChannel
-PRUint32
+uint32_t
 aPartID
 nsIStreamListener
 *
@@ -252,9 +252,9 @@ nsPartChannel
 :
 InitializeByteRange
 (
-PRInt64
+int64_t
 aStart
-PRInt64
+int64_t
 aEnd
 )
 {
@@ -305,9 +305,9 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -959,7 +959,7 @@ nsPartChannel
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 aContentLength
 )
@@ -979,7 +979,7 @@ nsPartChannel
 :
 SetContentLength
 (
-PRInt32
+int32_t
 aContentLength
 )
 {
@@ -997,7 +997,7 @@ nsPartChannel
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -1088,7 +1088,7 @@ nsPartChannel
 :
 GetPartID
 (
-PRUint32
+uint32_t
 *
 aPartID
 )
@@ -1148,7 +1148,7 @@ nsPartChannel
 :
 GetStartRange
 (
-PRInt64
+int64_t
 *
 aStartRange
 )
@@ -1168,7 +1168,7 @@ nsPartChannel
 :
 GetEndRange
 (
-PRInt64
+int64_t
 *
 aEndRange
 )
@@ -1393,9 +1393,9 @@ context
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 sourceOffset
-PRUint32
+uint32_t
 count
 )
 {
@@ -1420,7 +1420,7 @@ buffer
 =
 nullptr
 ;
-PRUint32
+uint32_t
 bufLen
 =
 0
@@ -1797,7 +1797,7 @@ rv
 ;
 }
 }
-PRInt32
+int32_t
 tokenLinefeed
 =
 1
@@ -2077,7 +2077,7 @@ token
 ;
 }
 }
-PRUint32
+uint32_t
 bufAmt
 =
 0
@@ -2680,7 +2680,7 @@ BufferData
 char
 *
 aData
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -3127,7 +3127,7 @@ SendData
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -3155,7 +3155,7 @@ LL_MAXUINT
 if
 (
 (
-PRUint64
+uint64_t
 (
 aLen
 )
@@ -3182,7 +3182,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 offset
 =
 mTotalSent
@@ -3288,7 +3288,7 @@ aLen
 )
 ;
 }
-PRInt32
+int32_t
 nsMultiMixedConv
 :
 :
@@ -3298,12 +3298,12 @@ char
 *
 &
 aPtr
-PRUint32
+uint32_t
 &
 aLen
 )
 {
-PRInt32
+int32_t
 chars
 =
 0
@@ -3397,7 +3397,7 @@ char
 *
 &
 aPtr
-PRUint32
+uint32_t
 &
 aLen
 bool
@@ -3420,7 +3420,7 @@ newLine
 =
 nullptr
 ;
-PRUint32
+uint32_t
 cursorLen
 =
 aLen
@@ -3430,7 +3430,7 @@ done
 =
 false
 ;
-PRUint32
+uint32_t
 lineFeedIncrement
 =
 1
@@ -3893,15 +3893,15 @@ LL_MAXUINT
 )
 mContentLength
 =
-PRUint64
+uint64_t
 (
-PRInt64
+int64_t
 (
 mByteRangeEnd
 -
 mByteRangeStart
 +
-PRInt64
+int64_t
 (
 1
 )
@@ -3961,7 +3961,7 @@ FindToken
 char
 *
 aCursor
-PRUint32
+uint32_t
 aLen
 )
 {

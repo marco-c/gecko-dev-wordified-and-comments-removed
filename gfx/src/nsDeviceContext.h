@@ -99,7 +99,7 @@ aContext
 )
 ;
 static
-PRInt32
+int32_t
 AppUnitsPerCSSPixel
 (
 )
@@ -108,7 +108,7 @@ return
 60
 ;
 }
-PRUint32
+uint32_t
 AppUnitsPerDevPixel
 (
 )
@@ -159,7 +159,7 @@ AppUnitsPerDevPixel
 )
 ;
 }
-PRInt32
+int32_t
 AppUnitsPerPhysicalInch
 (
 )
@@ -170,7 +170,7 @@ mAppUnitsPerPhysicalInch
 ;
 }
 static
-PRInt32
+int32_t
 AppUnitsPerCSSInch
 (
 )
@@ -183,7 +183,7 @@ AppUnitsPerCSSPixel
 )
 ;
 }
-PRInt32
+int32_t
 UnscaledAppUnitsPerDevPixel
 (
 )
@@ -229,7 +229,7 @@ FlushFontCache
 nsresult
 GetDepth
 (
-PRUint32
+uint32_t
 &
 aDepth
 )
@@ -270,9 +270,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-PRInt32
+int32_t
 aStartPage
-PRInt32
+int32_t
 aEndPage
 )
 ;
@@ -361,16 +361,16 @@ mWidth
 nscoord
 mHeight
 ;
-PRUint32
+uint32_t
 mDepth
 ;
-PRUint32
+uint32_t
 mAppUnitsPerDevPixel
 ;
-PRInt32
+int32_t
 mAppUnitsPerDevNotScaledPixel
 ;
-PRInt32
+int32_t
 mAppUnitsPerPhysicalInch
 ;
 float

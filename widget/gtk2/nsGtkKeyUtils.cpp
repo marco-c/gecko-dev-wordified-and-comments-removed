@@ -103,7 +103,7 @@ widget
 struct
 KeyPair
 {
-PRUint32
+uint32_t
 DOMKeyCode
 ;
 guint
@@ -920,7 +920,7 @@ aHardwareKeycode
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1488,7 +1488,7 @@ mod
 5
 ]
 ;
-PRInt32
+int32_t
 foundLevel
 [
 5
@@ -1496,7 +1496,7 @@ foundLevel
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1529,7 +1529,7 @@ PR_INT32_MAX
 ;
 }
 const
-PRUint32
+uint32_t
 map_size
 =
 8
@@ -1541,7 +1541,7 @@ max_keypermod
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1660,7 +1660,7 @@ min_keycode
 keysyms_per_keycode
 ;
 const
-PRUint32
+uint32_t
 bit
 =
 i
@@ -1692,7 +1692,7 @@ continue
 ;
 }
 const
-PRInt32
+int32_t
 modIndex
 =
 bit
@@ -1701,7 +1701,7 @@ bit
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -1873,7 +1873,7 @@ break
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1977,7 +1977,7 @@ break
 }
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -2267,7 +2267,7 @@ GetInstance
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2938,7 +2938,7 @@ e5thButtonFlag
 )
 ;
 }
-PRUint32
+uint32_t
 KeymapWrapper
 :
 :
@@ -2987,7 +2987,7 @@ keyval
 keyvalWithoutModifier
 ;
 }
-PRUint32
+uint32_t
 DOMKeyCode
 =
 GetDOMKeyCodeFromKeyPairs
@@ -3014,7 +3014,7 @@ return
 DOMKeyCode
 ;
 }
-PRUint32
+uint32_t
 charCode
 =
 GetCharCodeFor
@@ -3036,7 +3036,7 @@ GetGDKKeyvalWithoutModifier
 aGdkKeyEvent
 )
 ;
-PRUint32
+uint32_t
 DOMKeyCode
 =
 GetDOMKeyCodeFromKeyPairs
@@ -3190,7 +3190,7 @@ NUM_LOCK
 )
 )
 ;
-PRUint32
+uint32_t
 unmodifiedChar
 =
 keymapWrapper
@@ -3251,7 +3251,7 @@ SHIFT
 )
 )
 ;
-PRUint32
+uint32_t
 shiftedChar
 =
 keymapWrapper
@@ -3330,7 +3330,7 @@ minGroup
 0
 )
 {
-PRUint32
+uint32_t
 unmodCharLatin
 =
 keymapWrapper
@@ -3361,7 +3361,7 @@ unmodCharLatin
 )
 ;
 }
-PRUint32
+uint32_t
 shiftedCharLatin
 =
 keymapWrapper
@@ -3428,7 +3428,7 @@ KeymapWrapper
 :
 GuessGDKKeyval
 (
-PRUint32
+uint32_t
 aDOMKeyCode
 )
 {
@@ -3774,7 +3774,7 @@ GDK_apostrophe
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4357,7 +4357,7 @@ aGdkKeyEvent
 time
 ;
 }
-PRUint32
+uint32_t
 KeymapWrapper
 :
 :
@@ -4593,7 +4593,7 @@ return
 0
 ;
 }
-PRUint32
+uint32_t
 KeymapWrapper
 :
 :
@@ -4962,7 +4962,7 @@ KeymapWrapper
 :
 IsBasicLatinLetterOrNumeral
 (
-PRUint32
+uint32_t
 aCharCode
 )
 {
@@ -5099,7 +5099,7 @@ return
 keyval
 ;
 }
-PRUint32
+uint32_t
 KeymapWrapper
 :
 :
@@ -5111,7 +5111,7 @@ aGdkKeyval
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5153,7 +5153,7 @@ DOMKeyCode
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5754,7 +5754,7 @@ altLatinCharCodes
 0
 )
 ;
-PRUint32
+uint32_t
 unmodifiedCh
 =
 aKeyEvent
@@ -5771,7 +5771,7 @@ altCharCodes
 .
 mUnshiftedCharCode
 ;
-PRUint32
+uint32_t
 ch
 =
 GetCharCodeFor

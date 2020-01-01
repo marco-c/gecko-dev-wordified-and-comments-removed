@@ -73,7 +73,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 nsIEditor
 *
@@ -109,7 +109,7 @@ nsIEditor
 *
 mEditor
 ;
-PRInt32
+int32_t
 mOffset
 ;
 }

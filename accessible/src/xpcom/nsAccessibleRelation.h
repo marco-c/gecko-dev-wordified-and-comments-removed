@@ -54,7 +54,7 @@ public
 :
 nsAccessibleRelation
 (
-PRUint32
+uint32_t
 aType
 Relation
 *
@@ -86,7 +86,7 @@ nsAccessibleRelation
 &
 )
 ;
-PRUint32
+uint32_t
 mType
 ;
 nsCOMPtr

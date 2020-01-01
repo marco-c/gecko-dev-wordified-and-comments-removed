@@ -455,7 +455,7 @@ hash
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -529,7 +529,7 @@ LayersBackend
 mBackend
 ;
 mutable
-PRUint32
+uint32_t
 mLayerCount
 ;
 nsTArray

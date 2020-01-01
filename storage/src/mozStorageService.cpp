@@ -311,7 +311,7 @@ filename
 zFilename
 )
 ;
-PRInt64
+int64_t
 newLimit
 ;
 if
@@ -405,7 +405,7 @@ namespace
 storage
 {
 static
-PRInt64
+int64_t
 GetStorageSQLiteMemoryUsed
 (
 )
@@ -618,7 +618,7 @@ connections
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -810,7 +810,7 @@ rv
 ;
 }
 }
-PRInt64
+int64_t
 other
 =
 :
@@ -880,7 +880,7 @@ NS_OK
 NS_IMETHOD
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 aAmount
 )
@@ -1009,7 +1009,7 @@ nsIMemoryReporter
 :
 :
 UNITS_BYTES
-PRInt64
+int64_t
 (
 curr
 )
@@ -1060,7 +1060,7 @@ nsIXPConnect
 *
 *
 aXPConnectPtr
-PRInt32
+int32_t
 *
 aSynchronousPrefValPtr
 )
@@ -1188,7 +1188,7 @@ GetCID
 mXPConnectPtr
 )
 ;
-PRInt32
+int32_t
 synchronous
 =
 Preferences
@@ -1275,7 +1275,7 @@ nsIXPConnect
 *
 mXPConnectPtr
 ;
-PRInt32
+int32_t
 *
 mSynchronousPrefValPtr
 ;
@@ -1564,13 +1564,13 @@ forget
 )
 ;
 }
-PRInt32
+int32_t
 Service
 :
 :
 sSynchronousPref
 ;
-PRInt32
+int32_t
 Service
 :
 :
@@ -2273,7 +2273,7 @@ const
 nsAString
 &
 aStr2
-PRInt32
+int32_t
 aComparisonStrength
 )
 {
@@ -2312,7 +2312,7 @@ return
 0
 ;
 }
-PRInt32
+int32_t
 res
 ;
 nsresult
@@ -3203,7 +3203,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3297,7 +3297,7 @@ connections
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3477,7 +3477,7 @@ const
 nsACString
 &
 aPattern
-PRInt64
+int64_t
 aSizeLimit
 mozIStorageQuotaCallback
 *

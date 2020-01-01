@@ -45,7 +45,7 @@ XPTArena
 )
 XPT_NewArena
 (
-PRUint32
+uint32_t
 block_size
 size_t
 alignment
@@ -362,7 +362,7 @@ const
 char
 *
 file
-PRUint32
+uint32_t
 lineno
 )
 ;

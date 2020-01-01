@@ -102,13 +102,13 @@ mTrailingSpace
 }
 ;
 static
-PRInt32
+int32_t
 gTableRefCount
 =
 0
 ;
 static
-PRUint32
+uint32_t
 gOperatorCount
 =
 0
@@ -666,7 +666,7 @@ nsString
 aAttributes
 )
 {
-PRInt32
+int32_t
 i
 =
 0
@@ -675,7 +675,7 @@ nsAutoString
 name
 value
 ;
-PRInt32
+int32_t
 len
 =
 aOperator
@@ -694,7 +694,7 @@ i
 +
 ]
 ;
-PRUint32
+uint32_t
 state
 =
 0
@@ -1363,7 +1363,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1422,7 +1422,7 @@ value
 }
 for
 (
-PRInt32
+int32_t
 pass
 =
 1
@@ -1473,7 +1473,7 @@ iterator
 bool
 more
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -1594,7 +1594,7 @@ Cut
 9
 )
 ;
-PRInt32
+int32_t
 len
 =
 name
@@ -2077,7 +2077,7 @@ OperatorData
 *
 found
 ;
-PRInt32
+int32_t
 form
 =
 NS_MATHML_OPERATOR_GET_FORM
@@ -2692,7 +2692,7 @@ gInvariantCharArray
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 gInvariantCharArray
@@ -2825,7 +2825,7 @@ ElementAt
 aVariant
 )
 ;
-PRInt32
+int32_t
 index
 =
 list
@@ -2867,7 +2867,7 @@ index
 +
 index
 ;
-PRUint32
+uint32_t
 len
 =
 NS_IS_HIGH_SURROGATE

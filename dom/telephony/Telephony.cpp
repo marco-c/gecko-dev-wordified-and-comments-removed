@@ -286,7 +286,7 @@ valArray
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -909,7 +909,7 @@ IsEmpty
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1035,7 +1035,7 @@ aNumber
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1124,7 +1124,7 @@ callschanged
 )
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1769,9 +1769,9 @@ Telephony
 :
 CallStateChanged
 (
-PRUint32
+uint32_t
 aCallIndex
-PRUint16
+uint16_t
 aCallState
 const
 nsAString
@@ -1810,7 +1810,7 @@ outgoingCall
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2155,9 +2155,9 @@ Telephony
 :
 EnumerateCallState
 (
-PRUint32
+uint32_t
 aCallIndex
-PRUint16
+uint16_t
 aCallState
 const
 nsAString
@@ -2175,7 +2175,7 @@ ifdef
 DEBUG
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2308,7 +2308,7 @@ Telephony
 :
 NotifyError
 (
-PRInt32
+int32_t
 aCallIndex
 const
 nsAString
@@ -2359,7 +2359,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2577,7 +2577,7 @@ permMgr
 NS_ERROR_UNEXPECTED
 )
 ;
-PRUint32
+uint32_t
 permission
 ;
 nsresult

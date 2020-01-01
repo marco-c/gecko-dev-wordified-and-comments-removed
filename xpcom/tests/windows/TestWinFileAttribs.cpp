@@ -335,7 +335,7 @@ filePath
 dwAttrs
 )
 ;
-PRUint32
+uint32_t
 attribs
 =
 0

@@ -210,7 +210,7 @@ IDataObject
 aDataObj
 )
 ;
-PRInt32
+int32_t
 GetNumDataObjects
 (
 )
@@ -227,7 +227,7 @@ nsDataObj
 *
 GetDataObjectAt
 (
-PRUint32
+uint32_t
 aItem
 )
 {

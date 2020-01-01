@@ -168,7 +168,7 @@ CacheResultArray
 aResults
 )
 ;
-PRUint32
+uint32_t
 GetHashKey
 (
 void
@@ -182,7 +182,7 @@ mHashKey
 void
 SetFreshTime
 (
-PRUint32
+uint32_t
 aTime
 )
 {
@@ -216,7 +216,7 @@ const
 nsACString
 &
 aTableName
-PRInt32
+int32_t
 aCount
 PrefixArray
 *
@@ -309,17 +309,17 @@ nsCString
 >
 mActiveTablesCache
 ;
-PRUint32
+uint32_t
 mHashKey
 ;
 nsDataHashtable
 <
 nsCStringHashKey
-PRInt64
+int64_t
 >
 mTableFreshness
 ;
-PRUint32
+uint32_t
 mFreshTime
 ;
 bool

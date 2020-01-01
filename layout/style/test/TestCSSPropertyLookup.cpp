@@ -159,7 +159,7 @@ index
 =
 nsCSSProperty
 (
-PRInt32
+int32_t
 (
 index
 )
@@ -628,7 +628,7 @@ index
 =
 nsCSSKeyword
 (
-PRInt32
+int32_t
 (
 index
 )

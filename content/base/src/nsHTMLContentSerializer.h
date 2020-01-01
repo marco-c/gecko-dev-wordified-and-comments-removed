@@ -125,7 +125,7 @@ aTagNamespaceURI
 nsIAtom
 *
 aTagName
-PRInt32
+int32_t
 aNamespace
 nsAString
 &

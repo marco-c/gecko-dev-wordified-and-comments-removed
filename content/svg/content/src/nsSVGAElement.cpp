@@ -509,7 +509,7 @@ nsSVGAElement
 :
 IsFocusable
 (
-PRInt32
+int32_t
 *
 aTabIndex
 bool
@@ -936,7 +936,7 @@ nsSVGAElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1005,7 +1005,7 @@ nsSVGAElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

@@ -21,13 +21,13 @@ nsXPTCStubBase
 self
 uint32
 methodIndex
-PRUint64
+uint64_t
 *
 a_gpr
-PRUint64
+uint64_t
 *
 a_fpr
-PRUint64
+uint64_t
 *
 a_ov
 )
@@ -53,10 +53,10 @@ nsXPTMethodInfo
 *
 info
 ;
-PRUint8
+uint8_t
 paramCount
 ;
-PRUint8
+uint8_t
 i
 ;
 nsresult
@@ -81,7 +81,7 @@ mEntry
 >
 GetMethodInfo
 (
-PRUint16
+uint16_t
 (
 methodIndex
 )
@@ -137,7 +137,7 @@ params
 "
 )
 ;
-PRUint32
+uint32_t
 gpr
 =
 1
@@ -283,7 +283,7 @@ i8
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 a_gpr
@@ -306,7 +306,7 @@ i8
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 a_ov
@@ -339,7 +339,7 @@ i16
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 a_gpr
@@ -362,7 +362,7 @@ i16
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 a_ov
@@ -395,7 +395,7 @@ i32
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 a_gpr
@@ -418,7 +418,7 @@ i32
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 a_ov
@@ -451,7 +451,7 @@ i64
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 a_gpr
@@ -474,7 +474,7 @@ i64
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 a_ov
@@ -507,7 +507,7 @@ u8
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_gpr
@@ -530,7 +530,7 @@ u8
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_ov
@@ -563,7 +563,7 @@ u16
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_gpr
@@ -586,7 +586,7 @@ u16
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_ov
@@ -619,7 +619,7 @@ u32
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_gpr
@@ -642,7 +642,7 @@ u32
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_ov
@@ -675,7 +675,7 @@ u64
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_gpr
@@ -698,7 +698,7 @@ u64
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_ov
@@ -847,7 +847,7 @@ b
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_gpr
@@ -870,7 +870,7 @@ b
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_ov
@@ -903,7 +903,7 @@ c
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_gpr
@@ -926,7 +926,7 @@ c
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_ov
@@ -959,7 +959,7 @@ wc
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_gpr
@@ -982,7 +982,7 @@ wc
 *
 (
 (
-PRUint64
+uint64_t
 *
 )
 a_ov
@@ -1018,7 +1018,7 @@ mOuter
 CallMethod
 (
 (
-PRUint16
+uint16_t
 )
 methodIndex
 info
@@ -1061,21 +1061,21 @@ n
 \
 {
 \
-PRUint64
+uint64_t
 a_gpr
 [
 4
 ]
 ;
 \
-PRUint64
+uint64_t
 a_fpr
 [
 4
 ]
 ;
 \
-PRUint64
+uint64_t
 *
 a_ov
 ;

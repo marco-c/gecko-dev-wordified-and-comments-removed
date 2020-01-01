@@ -58,9 +58,9 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -91,9 +91,9 @@ WriteFrom
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -113,9 +113,9 @@ aReader
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )

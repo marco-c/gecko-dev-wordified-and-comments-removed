@@ -98,7 +98,7 @@ nsIdleServiceX
 :
 PollIdleTime
 (
-PRUint32
+uint32_t
 *
 aIdleTime
 )
@@ -377,7 +377,7 @@ aIdleTime
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 time

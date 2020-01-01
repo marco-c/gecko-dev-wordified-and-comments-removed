@@ -143,7 +143,7 @@ SetZIndex
 (
 bool
 aAuto
-PRInt32
+int32_t
 aZIndex
 bool
 aTopMost
@@ -281,7 +281,7 @@ return
 mViewManager
 ;
 }
-PRInt32
+int32_t
 GetZIndex
 (
 )
@@ -432,7 +432,7 @@ mNextSibling
 aSibling
 ;
 }
-PRUint32
+uint32_t
 GetViewFlags
 (
 )
@@ -445,7 +445,7 @@ mVFlags
 void
 SetViewFlags
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -546,9 +546,9 @@ WindowMoved
 nsIWidget
 *
 aWidget
-PRInt32
+int32_t
 x
-PRInt32
+int32_t
 y
 )
 ;
@@ -558,9 +558,9 @@ WindowResized
 nsIWidget
 *
 aWidget
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 ;
@@ -645,7 +645,7 @@ nsView
 *
 aOther
 const
-PRInt32
+int32_t
 aAPD
 )
 const
@@ -658,7 +658,7 @@ nsPoint
 *
 aOffset
 const
-PRInt32
+int32_t
 aAPD
 )
 const

@@ -280,7 +280,7 @@ mCArray
 }
 ;
 inline
-PRUint32
+uint32_t
 Count
 (
 )
@@ -303,7 +303,7 @@ Length
 )
 ;
 }
-PRUint32
+uint32_t
 mIndex
 ;
 nsCOMPtr

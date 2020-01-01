@@ -225,9 +225,9 @@ virtual
 nsresult
 GetFeatureStatusImpl
 (
-PRInt32
+int32_t
 aFeature
-PRInt32
+int32_t
 *
 aStatus
 nsAString
@@ -294,13 +294,13 @@ mAdapterVendorID
 nsString
 mAdapterDeviceID
 ;
-PRUint32
+uint32_t
 mRendererIDs
 [
 16
 ]
 ;
-PRUint32
+uint32_t
 mOSXVersion
 ;
 }

@@ -75,11 +75,11 @@ DOMSVGNumber
 >
 &
 aItemsArray
-PRUint32
+uint32_t
 aStartingIndex
 )
 {
-PRUint32
+uint32_t
 length
 =
 aItemsArray
@@ -90,7 +90,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 aStartingIndex
@@ -285,7 +285,7 @@ DOMSVGNumberList
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -337,11 +337,11 @@ DOMSVGNumberList
 :
 InternalListLengthWillChange
 (
-PRUint32
+uint32_t
 aNewLength
 )
 {
-PRUint32
+uint32_t
 oldLength
 =
 mItems
@@ -392,7 +392,7 @@ this
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 aNewLength
@@ -448,7 +448,7 @@ return
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 oldLength
@@ -526,7 +526,7 @@ DOMSVGNumberList
 :
 GetNumberOfItems
 (
-PRUint32
+uint32_t
 *
 aNumberOfItems
 )
@@ -755,7 +755,7 @@ DOMSVGNumberList
 :
 GetItem
 (
-PRUint32
+uint32_t
 index
 nsIDOMSVGNumber
 *
@@ -801,7 +801,7 @@ InsertItemBefore
 nsIDOMSVGNumber
 *
 newItem
-PRUint32
+uint32_t
 index
 nsIDOMSVGNumber
 *
@@ -1056,7 +1056,7 @@ ReplaceItem
 nsIDOMSVGNumber
 *
 newItem
-PRUint32
+uint32_t
 index
 nsIDOMSVGNumber
 *
@@ -1260,7 +1260,7 @@ DOMSVGNumberList
 :
 RemoveItem
 (
-PRUint32
+uint32_t
 index
 nsIDOMSVGNumber
 *
@@ -1435,7 +1435,7 @@ DOMSVGNumberList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aNumberOfItems
 )
@@ -1453,7 +1453,7 @@ DOMSVGNumberList
 :
 EnsureItemAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1492,7 +1492,7 @@ DOMSVGNumberList
 :
 MaybeInsertNullInAnimValListAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1600,7 +1600,7 @@ DOMSVGNumberList
 :
 MaybeRemoveItemFromAnimValListAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

@@ -164,7 +164,7 @@ data
 isCopy
 )
 ;
-PRUint32
+uint32_t
 length
 =
 env
@@ -216,7 +216,7 @@ CameraStreamImpl
 :
 GetInstance
 (
-PRUint32
+uint32_t
 aCamera
 )
 {
@@ -289,7 +289,7 @@ CameraStreamImpl
 :
 CameraStreamImpl
 (
-PRUint32
+uint32_t
 aCamera
 )
 :
@@ -360,15 +360,15 @@ nsCString
 &
 contentType
 const
-PRUint32
+uint32_t
 &
 camera
 const
-PRUint32
+uint32_t
 &
 width
 const
-PRUint32
+uint32_t
 &
 height
 FrameCallback

@@ -454,7 +454,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 val
 ;
 rv
@@ -479,7 +479,7 @@ rv
 mDataQoSBits
 =
 (
-PRUint8
+uint8_t
 )
 clamped
 (
@@ -532,7 +532,7 @@ rv
 mControlQoSBits
 =
 (
-PRUint8
+uint8_t
 )
 clamped
 (
@@ -660,7 +660,7 @@ nsFtpProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -680,7 +680,7 @@ nsFtpProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -753,7 +753,7 @@ BeginWriting
 (
 )
 ;
-PRInt32
+int32_t
 len
 =
 NS_UnescapeURL
@@ -974,7 +974,7 @@ nsFtpProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char
@@ -1159,7 +1159,7 @@ ts
 =
 nullptr
 ;
-PRUint32
+uint32_t
 i
 ;
 bool
@@ -1479,7 +1479,7 @@ Length
 IDLE_CONNECTION_LIMIT
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1662,7 +1662,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-PRInt32
+int32_t
 val
 ;
 nsresult
@@ -1711,7 +1711,7 @@ rv
 mDataQoSBits
 =
 (
-PRUint8
+uint8_t
 )
 clamped
 (
@@ -1742,7 +1742,7 @@ rv
 mControlQoSBits
 =
 (
-PRUint8
+uint8_t
 )
 clamped
 (
@@ -1831,7 +1831,7 @@ ClearAllConnections
 (
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for

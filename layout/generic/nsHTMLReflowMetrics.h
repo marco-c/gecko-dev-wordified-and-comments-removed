@@ -735,7 +735,7 @@ height
 nscoord
 ascent
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 enum
@@ -826,7 +826,7 @@ UnionOverflowAreasWithDesiredBounds
 ;
 nsHTMLReflowMetrics
 (
-PRUint32
+uint32_t
 aFlags
 =
 0

@@ -721,12 +721,12 @@ aEvent
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -849,7 +849,7 @@ nsITimer
 >
 mBlinkTimer
 ;
-PRUint8
+uint8_t
 mBlinkState
 ;
 nsRefPtr

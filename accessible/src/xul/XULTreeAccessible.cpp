@@ -319,7 +319,7 @@ NS_IMPL_RELEASE_INHERITED
 XULTreeAccessible
 Accessible
 )
-PRUint64
+uint64_t
 XULTreeAccessible
 :
 :
@@ -327,7 +327,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 Accessible
@@ -464,7 +464,7 @@ selection
 )
 return
 ;
-PRInt32
+int32_t
 currentIndex
 ;
 nsCOMPtr
@@ -636,9 +636,9 @@ XULTreeAccessible
 :
 ChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 EWhichChildAtPoint
 aWhichChild
@@ -709,7 +709,7 @@ GetScreenRect
 (
 )
 ;
-PRInt32
+int32_t
 clientX
 =
 presContext
@@ -724,7 +724,7 @@ rootRect
 .
 x
 ;
-PRInt32
+int32_t
 clientY
 =
 presContext
@@ -739,7 +739,7 @@ rootRect
 .
 y
 ;
-PRInt32
+int32_t
 row
 =
 -
@@ -900,7 +900,7 @@ if
 selection
 )
 {
-PRInt32
+int32_t
 currentIndex
 =
 -
@@ -1020,7 +1020,7 @@ selectedItems
 return
 nullptr
 ;
-PRInt32
+int32_t
 rangeCount
 =
 0
@@ -1036,7 +1036,7 @@ rangeCount
 ;
 for
 (
-PRInt32
+int32_t
 rangeIdx
 =
 0
@@ -1050,7 +1050,7 @@ rangeIdx
 +
 )
 {
-PRInt32
+int32_t
 firstIdx
 =
 0
@@ -1073,7 +1073,7 @@ lastIdx
 ;
 for
 (
-PRInt32
+int32_t
 rowIdx
 =
 firstIdx
@@ -1130,7 +1130,7 @@ return
 items
 ;
 }
-PRUint32
+uint32_t
 XULTreeAccessible
 :
 :
@@ -1168,7 +1168,7 @@ if
 selection
 )
 {
-PRInt32
+int32_t
 count
 =
 0
@@ -1196,7 +1196,7 @@ XULTreeAccessible
 :
 AddItemToSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1272,7 +1272,7 @@ XULTreeAccessible
 :
 RemoveItemFromSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1347,7 +1347,7 @@ XULTreeAccessible
 :
 IsItemSelected
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1463,7 +1463,7 @@ XULTreeAccessible
 :
 GetSelectedItem
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1500,12 +1500,12 @@ selection
 return
 nullptr
 ;
-PRUint32
+uint32_t
 selCount
 =
 0
 ;
-PRInt32
+int32_t
 rangeCount
 =
 0
@@ -1521,7 +1521,7 @@ rangeCount
 ;
 for
 (
-PRInt32
+int32_t
 rangeIdx
 =
 0
@@ -1535,7 +1535,7 @@ rangeIdx
 +
 )
 {
-PRInt32
+int32_t
 firstIdx
 =
 0
@@ -1558,7 +1558,7 @@ lastIdx
 ;
 for
 (
-PRInt32
+int32_t
 rowIdx
 =
 firstIdx
@@ -1677,11 +1677,11 @@ XULTreeAccessible
 :
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
-PRUint32
+uint32_t
 childCount
 =
 Accessible
@@ -1715,7 +1715,7 @@ childCount
 )
 ;
 }
-PRUint32
+uint32_t
 XULTreeAccessible
 :
 :
@@ -1724,7 +1724,7 @@ ChildCount
 )
 const
 {
-PRUint32
+uint32_t
 childCount
 =
 Accessible
@@ -1742,7 +1742,7 @@ mTreeView
 return
 childCount
 ;
-PRInt32
+int32_t
 rowCount
 =
 0
@@ -2021,7 +2021,7 @@ XULTreeAccessible
 :
 GetTreeItemAccessible
 (
-PRInt32
+int32_t
 aRow
 )
 {
@@ -2043,7 +2043,7 @@ mTreeView
 return
 nullptr
 ;
-PRInt32
+int32_t
 rowCount
 =
 0
@@ -2165,9 +2165,9 @@ XULTreeAccessible
 :
 InvalidateCache
 (
-PRInt32
+int32_t
 aRow
-PRInt32
+int32_t
 aCount
 )
 {
@@ -2211,7 +2211,7 @@ Document
 ;
 for
 (
-PRInt32
+int32_t
 rowIdx
 =
 aRow
@@ -2297,7 +2297,7 @@ key
 ;
 }
 }
-PRInt32
+int32_t
 newRowCount
 =
 0
@@ -2323,7 +2323,7 @@ rv
 )
 return
 ;
-PRInt32
+int32_t
 oldRowCount
 =
 newRowCount
@@ -2332,7 +2332,7 @@ aCount
 ;
 for
 (
-PRInt32
+int32_t
 rowIdx
 =
 newRowCount
@@ -2399,13 +2399,13 @@ XULTreeAccessible
 :
 TreeViewInvalidated
 (
-PRInt32
+int32_t
 aStartRow
-PRInt32
+int32_t
 aEndRow
-PRInt32
+int32_t
 aStartCol
-PRInt32
+int32_t
 aEndCol
 )
 {
@@ -2431,7 +2431,7 @@ mAccessibleCache
 return
 ;
 }
-PRInt32
+int32_t
 endRow
 =
 aEndRow
@@ -2448,7 +2448,7 @@ endRow
 1
 )
 {
-PRInt32
+int32_t
 rowCount
 =
 0
@@ -2504,7 +2504,7 @@ treeColumns
 )
 return
 ;
-PRInt32
+int32_t
 endCol
 =
 aEndCol
@@ -2518,7 +2518,7 @@ endCol
 1
 )
 {
-PRInt32
+int32_t
 colCount
 =
 0
@@ -2552,7 +2552,7 @@ colCount
 }
 for
 (
-PRInt32
+int32_t
 rowIdx
 =
 aStartRow
@@ -2706,7 +2706,7 @@ XULTreeAccessible
 :
 CreateTreeItemAccessible
 (
-PRInt32
+int32_t
 aRow
 )
 {
@@ -2755,7 +2755,7 @@ aTree
 nsITreeView
 *
 aTreeView
-PRInt32
+int32_t
 aRow
 )
 :
@@ -2862,16 +2862,16 @@ XULTreeItemAccessibleBase
 :
 GetBounds
 (
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
-PRInt32
+int32_t
 *
 aWidth
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -2958,7 +2958,7 @@ GetFirstSensibleColumn
 mTree
 )
 ;
-PRInt32
+int32_t
 x
 =
 0
@@ -3010,7 +3010,7 @@ GetWidth
 width
 )
 ;
-PRInt32
+int32_t
 tcX
 =
 0
@@ -3247,7 +3247,7 @@ XULTreeItemAccessibleBase
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -3276,7 +3276,7 @@ Relation
 (
 )
 ;
-PRInt32
+int32_t
 parentIndex
 =
 -
@@ -3341,7 +3341,7 @@ parentIndex
 )
 ;
 }
-PRUint8
+uint8_t
 XULTreeItemAccessibleBase
 :
 :
@@ -3365,7 +3365,7 @@ XULTreeItemAccessibleBase
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -3465,7 +3465,7 @@ XULTreeItemAccessibleBase
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -3565,7 +3565,7 @@ GroupPosition
 GroupPos
 groupPos
 ;
-PRInt32
+int32_t
 level
 ;
 nsresult
@@ -3587,14 +3587,14 @@ rv
 groupPos
 )
 ;
-PRInt32
+int32_t
 topCount
 =
 1
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 mRow
@@ -3611,7 +3611,7 @@ index
 -
 )
 {
-PRInt32
+int32_t
 lvl
 =
 -
@@ -3654,7 +3654,7 @@ topCount
 ;
 }
 }
-PRInt32
+int32_t
 rowCount
 =
 0
@@ -3676,14 +3676,14 @@ rv
 groupPos
 )
 ;
-PRInt32
+int32_t
 bottomCount
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 mRow
@@ -3699,7 +3699,7 @@ index
 +
 )
 {
-PRInt32
+int32_t
 lvl
 =
 -
@@ -3768,7 +3768,7 @@ return
 groupPos
 ;
 }
-PRUint64
+uint64_t
 XULTreeItemAccessibleBase
 :
 :
@@ -3787,7 +3787,7 @@ states
 :
 DEFUNCT
 ;
-PRUint64
+uint64_t
 state
 =
 NativeInteractiveState
@@ -3898,7 +3898,7 @@ states
 :
 FOCUSED
 ;
-PRInt32
+int32_t
 firstVisibleRow
 lastVisibleRow
 ;
@@ -3943,7 +3943,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 XULTreeItemAccessibleBase
 :
 :
@@ -3964,7 +3964,7 @@ states
 SELECTABLE
 ;
 }
-PRInt32
+int32_t
 XULTreeItemAccessibleBase
 :
 :
@@ -4012,7 +4012,7 @@ DispatchClickEvent
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aActionIndex
 )
 {
@@ -4123,7 +4123,7 @@ XULTreeItemAccessibleBase
 :
 GetSiblingAtOffset
 (
-PRInt32
+int32_t
 aOffset
 nsresult
 *
@@ -4344,7 +4344,7 @@ aTree
 nsITreeView
 *
 aTreeView
-PRInt32
+int32_t
 aRow
 )
 :
@@ -4568,9 +4568,9 @@ XULTreeItemAccessible
 :
 RowInvalidated
 (
-PRInt32
+int32_t
 aStartColIdx
-PRInt32
+int32_t
 aEndColIdx
 )
 {
@@ -4644,7 +4644,7 @@ XULTreeColumAccessible
 :
 GetSiblingAtOffset
 (
-PRInt32
+int32_t
 aOffset
 nsresult
 *
@@ -4718,7 +4718,7 @@ if
 treeView
 )
 {
-PRInt32
+int32_t
 rowCount
 =
 0

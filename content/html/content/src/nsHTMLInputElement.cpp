@@ -573,7 +573,7 @@ NS_ORIGINAL_INDETERMINATE_VALUE
 )
 )
 static
-PRInt32
+int32_t
 gSelectTextFieldOnFocus
 ;
 UploadLastDir
@@ -706,21 +706,21 @@ kInputTypeTable
 ;
 static
 const
-PRUint8
+uint8_t
 NS_INPUT_AUTOCOMPLETE_OFF
 =
 0
 ;
 static
 const
-PRUint8
+uint8_t
 NS_INPUT_AUTOCOMPLETE_ON
 =
 1
 ;
 static
 const
-PRUint8
+uint8_t
 NS_INPUT_AUTOCOMPLETE_DEFAULT
 =
 2
@@ -1029,7 +1029,7 @@ nsFilePickerShownCallback
 :
 Done
 (
-PRInt16
+int16_t
 aResult
 )
 {
@@ -1523,7 +1523,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 permission
 ;
 pm
@@ -1658,7 +1658,7 @@ multi
 ?
 static_cast
 <
-PRInt16
+int16_t
 >
 (
 nsIFilePicker
@@ -1669,7 +1669,7 @@ modeOpenMultiple
 :
 static_cast
 <
-PRInt16
+int16_t
 >
 (
 nsIFilePicker
@@ -3152,7 +3152,7 @@ nsHTMLInputElement
 :
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -3309,7 +3309,7 @@ nsHTMLInputElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -3996,7 +3996,7 @@ nsHTMLInputElement
 :
 GetHeight
 (
-PRUint32
+uint32_t
 *
 aHeight
 )
@@ -4021,7 +4021,7 @@ nsHTMLInputElement
 :
 SetHeight
 (
-PRUint32
+uint32_t
 aHeight
 )
 {
@@ -4133,7 +4133,7 @@ nsHTMLInputElement
 :
 GetWidth
 (
-PRUint32
+uint32_t
 *
 aWidth
 )
@@ -4158,7 +4158,7 @@ nsHTMLInputElement
 :
 SetWidth
 (
-PRUint32
+uint32_t
 aWidth
 )
 {
@@ -4939,7 +4939,7 @@ nsHTMLInputElement
 :
 ApplyStep
 (
-PRInt32
+int32_t
 aStep
 )
 {
@@ -5267,9 +5267,9 @@ nsHTMLInputElement
 :
 StepDown
 (
-PRInt32
+int32_t
 n
-PRUint8
+uint8_t
 optional_argc
 )
 {
@@ -5292,9 +5292,9 @@ nsHTMLInputElement
 :
 StepUp
 (
-PRInt32
+int32_t
 n
-PRUint8
+uint8_t
 optional_argc
 )
 {
@@ -5315,7 +5315,7 @@ nsHTMLInputElement
 :
 MozGetFileNameArray
 (
-PRUint32
+uint32_t
 *
 aLength
 PRUnichar
@@ -5389,7 +5389,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -5456,7 +5456,7 @@ PRUnichar
 *
 *
 aFileNames
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -5483,7 +5483,7 @@ files
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6171,7 +6171,7 @@ Truncate
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6297,7 +6297,7 @@ if
 aFiles
 )
 {
-PRUint32
+uint32_t
 listLength
 ;
 aFiles
@@ -6311,7 +6311,7 @@ listLength
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6543,7 +6543,7 @@ GetFiles
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -8500,7 +8500,7 @@ if
 gSelectTextFieldOnFocus
 )
 {
-PRInt32
+int32_t
 selectTextfieldsOnKeyFocus
 =
 -
@@ -8754,7 +8754,7 @@ mItemFlags
 NS_NO_CONTENT_DISPATCH
 )
 ;
-PRUint8
+uint8_t
 oldType
 =
 NS_CONTROL_TYPE
@@ -9220,7 +9220,7 @@ if
 document
 )
 {
-PRUint32
+uint32_t
 lastFocusMethod
 ;
 fm
@@ -10360,7 +10360,7 @@ nsHTMLInputElement
 :
 HandleTypeChange
 (
-PRUint8
+uint8_t
 aNewType
 )
 {
@@ -10774,7 +10774,7 @@ nsHTMLInputElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -10807,7 +10807,7 @@ nsGkAtoms
 type
 )
 {
-PRInt32
+int32_t
 newType
 ;
 bool
@@ -11254,7 +11254,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -11621,7 +11621,7 @@ nsHTMLInputElement
 :
 GetTextLength
 (
-PRInt32
+int32_t
 *
 aTextLength
 )
@@ -11656,9 +11656,9 @@ nsHTMLInputElement
 :
 SetSelectionRange
 (
-PRInt32
+int32_t
 aSelectionStart
-PRInt32
+int32_t
 aSelectionEnd
 const
 nsAString
@@ -11772,7 +11772,7 @@ nsHTMLInputElement
 :
 GetSelectionStart
 (
-PRInt32
+int32_t
 *
 aSelectionStart
 )
@@ -11782,7 +11782,7 @@ NS_ENSURE_ARG_POINTER
 aSelectionStart
 )
 ;
-PRInt32
+int32_t
 selEnd
 ;
 nsresult
@@ -11851,7 +11851,7 @@ nsHTMLInputElement
 :
 SetSelectionStart
 (
-PRInt32
+int32_t
 aSelectionStart
 )
 {
@@ -11908,7 +11908,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 start
 end
 ;
@@ -11959,7 +11959,7 @@ nsHTMLInputElement
 :
 GetSelectionEnd
 (
-PRInt32
+int32_t
 *
 aSelectionEnd
 )
@@ -11969,7 +11969,7 @@ NS_ENSURE_ARG_POINTER
 aSelectionEnd
 )
 ;
-PRInt32
+int32_t
 selStart
 ;
 nsresult
@@ -12038,7 +12038,7 @@ nsHTMLInputElement
 :
 SetSelectionEnd
 (
-PRInt32
+int32_t
 aSelectionEnd
 )
 {
@@ -12095,7 +12095,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 start
 end
 ;
@@ -12221,10 +12221,10 @@ nsHTMLInputElement
 :
 GetSelectionRange
 (
-PRInt32
+int32_t
 *
 aSelectionStart
-PRInt32
+int32_t
 *
 aSelectionEnd
 )
@@ -12600,7 +12600,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 start
 end
 ;
@@ -13014,7 +13014,7 @@ imageClickedPoint
 )
 )
 ;
-PRInt32
+int32_t
 x
 y
 ;
@@ -13252,7 +13252,7 @@ GetFiles
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -14497,7 +14497,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -15458,7 +15458,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 maxLength
 =
 -
@@ -15483,7 +15483,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 textLength
 =
 -
@@ -16544,13 +16544,13 @@ VALIDITY_STATE_TOO_LONG
 nsXPIDLString
 message
 ;
-PRInt32
+int32_t
 maxLength
 =
 -
 1
 ;
-PRInt32
+int32_t
 textLength
 =
 -
@@ -17366,12 +17366,12 @@ NS_ConvertUTF16toUTF8
 aValue
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
 ;
-PRUint32
+uint32_t
 length
 =
 value
@@ -17913,7 +17913,7 @@ NS_FORM_INPUT_PASSWORD
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsHTMLInputElement
 :
@@ -17954,7 +17954,7 @@ nsAttrValue
 eInteger
 )
 {
-PRInt32
+int32_t
 cols
 =
 attr
@@ -17982,7 +17982,7 @@ DEFAULT_COLS
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsHTMLInputElement
 :
@@ -17998,7 +17998,7 @@ return
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsHTMLInputElement
 :
@@ -18498,7 +18498,7 @@ IsEmpty
 continue
 ;
 }
-PRInt32
+int32_t
 filterMask
 =
 0
@@ -18935,7 +18935,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -19030,7 +19030,7 @@ SetFilterIndex
 ;
 }
 }
-PRInt32
+int32_t
 nsHTMLInputElement
 :
 :
@@ -19067,7 +19067,7 @@ attribute
 "
 )
 ;
-PRInt32
+int32_t
 filter
 =
 0
@@ -19112,7 +19112,7 @@ nextToken
 (
 )
 ;
-PRInt32
+int32_t
 tokenFilter
 =
 0

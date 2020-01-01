@@ -543,7 +543,7 @@ win1250HungarianCharToOrderMap
 ;
 static
 const
-PRUint8
+uint8_t
 HungarianLangModel
 [
 ]

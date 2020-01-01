@@ -98,7 +98,7 @@ nsB2GProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -119,7 +119,7 @@ nsB2GProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -318,7 +318,7 @@ nsB2GProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char

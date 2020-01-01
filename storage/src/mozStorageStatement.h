@@ -160,10 +160,10 @@ sqlite3_stmt
 *
 mDBStatement
 ;
-PRUint32
+uint32_t
 mParamCount
 ;
-PRUint32
+uint32_t
 mResultColumnCount
 ;
 nsTArray

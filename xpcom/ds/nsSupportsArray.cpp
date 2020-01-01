@@ -552,14 +552,14 @@ status
 }
 static
 const
-PRInt32
+int32_t
 kGrowArrayBy
 =
 8
 ;
 static
 const
-PRInt32
+int32_t
 kLinearThreshold
 =
 16
@@ -643,7 +643,7 @@ nsSupportsArray
 :
 GrowArrayBy
 (
-PRInt32
+int32_t
 aGrowBy
 )
 {
@@ -657,14 +657,14 @@ aGrowBy
 =
 kGrowArrayBy
 ;
-PRUint32
+uint32_t
 newCount
 =
 mArraySize
 +
 aGrowBy
 ;
-PRUint32
+uint32_t
 newSize
 =
 sizeof
@@ -683,7 +683,7 @@ newSize
 >
 =
 (
-PRUint32
+uint32_t
 )
 kLinearThreshold
 )
@@ -943,7 +943,7 @@ aStream
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 newArraySize
 ;
 rv
@@ -1085,7 +1085,7 @@ mArraySize
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1185,7 +1185,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1290,7 +1290,7 @@ if
 aOther
 )
 {
-PRUint32
+uint32_t
 countOther
 ;
 nsISupportsArray
@@ -1336,7 +1336,7 @@ mCount
 countOther
 )
 {
-PRUint32
+uint32_t
 index
 =
 mCount
@@ -1407,7 +1407,7 @@ nsSupportsArray
 :
 ElementAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1442,7 +1442,7 @@ return
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsSupportsArray
 :
@@ -1465,7 +1465,7 @@ aPossibleElement
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsSupportsArray
 :
@@ -1476,7 +1476,7 @@ const
 nsISupports
 *
 aPossibleElement
-PRUint32
+uint32_t
 aStartIndex
 )
 {
@@ -1562,7 +1562,7 @@ return
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsSupportsArray
 :
@@ -1654,7 +1654,7 @@ InsertElementAt
 nsISupports
 *
 aElement
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1683,7 +1683,7 @@ GrowArrayBy
 )
 ;
 }
-PRUint32
+uint32_t
 slide
 =
 (
@@ -1750,7 +1750,7 @@ mMaxCount
 mCount
 <
 (
-PRInt32
+int32_t
 )
 (
 sizeof
@@ -1809,7 +1809,7 @@ InsertElementsAt
 nsISupportsArray
 *
 aElements
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1823,7 +1823,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 countElements
 ;
 if
@@ -1868,7 +1868,7 @@ countElements
 )
 ;
 }
-PRUint32
+uint32_t
 slide
 =
 (
@@ -1908,7 +1908,7 @@ nsISupports
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1960,7 +1960,7 @@ mMaxCount
 mCount
 <
 (
-PRInt32
+int32_t
 )
 (
 sizeof
@@ -2019,7 +2019,7 @@ ReplaceElementAt
 nsISupports
 *
 aElement
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2067,9 +2067,9 @@ nsSupportsArray
 :
 RemoveElementsAt
 (
-PRUint32
+uint32_t
 aIndex
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -2085,7 +2085,7 @@ mCount
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2113,7 +2113,7 @@ mCount
 =
 aCount
 ;
-PRInt32
+int32_t
 slide
 =
 (
@@ -2172,11 +2172,11 @@ const
 nsISupports
 *
 aElement
-PRUint32
+uint32_t
 aStartIndex
 )
 {
-PRInt32
+int32_t
 theIndex
 =
 IndexOfStartingAt
@@ -2217,7 +2217,7 @@ nsISupports
 aElement
 )
 {
-PRInt32
+int32_t
 theIndex
 =
 LastIndexOf
@@ -2251,9 +2251,9 @@ nsSupportsArray
 :
 MoveElement
 (
-PRInt32
+int32_t
 aFrom
-PRInt32
+int32_t
 aTo
 )
 {
@@ -2284,7 +2284,7 @@ aFrom
 |
 |
 (
-PRUint32
+uint32_t
 )
 aTo
 >
@@ -2293,7 +2293,7 @@ mCount
 |
 |
 (
-PRUint32
+uint32_t
 )
 aFrom
 >
@@ -2451,7 +2451,7 @@ void
 #
 if
 DEBUG_SUPPORTSARRAY
-PRUint32
+uint32_t
 oldArraySize
 =
 mArraySize
@@ -2620,14 +2620,14 @@ nsSupportsArray
 :
 SizeTo
 (
-PRInt32
+int32_t
 aSize
 )
 {
 #
 if
 DEBUG_SUPPORTSARRAY
-PRUint32
+uint32_t
 oldArraySize
 =
 mArraySize
@@ -2653,13 +2653,13 @@ mArraySize
 =
 =
 (
-PRUint32
+uint32_t
 )
 aSize
 |
 |
 (
-PRUint32
+uint32_t
 )
 aSize
 <
@@ -2678,7 +2678,7 @@ mArray
 if
 (
 (
-PRUint32
+uint32_t
 )
 aSize
 <
@@ -2829,7 +2829,7 @@ void
 aData
 )
 {
-PRInt32
+int32_t
 aIndex
 =
 -
@@ -2851,7 +2851,7 @@ running
 aIndex
 <
 (
-PRInt32
+int32_t
 )
 mCount
 )
@@ -2892,7 +2892,7 @@ void
 aData
 )
 {
-PRUint32
+uint32_t
 aIndex
 =
 mCount
@@ -3158,7 +3158,7 @@ nsISupportsArray
 *
 mValueArray
 ;
-PRInt32
+int32_t
 mIndex
 ;
 }
@@ -3254,7 +3254,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 cnt
 ;
 nsresult
@@ -3286,7 +3286,7 @@ aResult
 mIndex
 <
 (
-PRInt32
+int32_t
 )
 cnt
 )
@@ -3342,7 +3342,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 cnt
 ;
 nsresult
@@ -3373,7 +3373,7 @@ mIndex
 >
 =
 (
-PRInt32
+int32_t
 )
 cnt
 )

@@ -62,7 +62,7 @@ PurgeLastSound
 ;
 private
 :
-PRUint8
+uint8_t
 *
 mLastSound
 ;

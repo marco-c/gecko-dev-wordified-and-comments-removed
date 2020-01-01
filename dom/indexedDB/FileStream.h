@@ -110,7 +110,7 @@ Close
 NS_IMETHOD
 Available
 (
-PRUint64
+uint64_t
 *
 _retval
 )
@@ -121,9 +121,9 @@ Read
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -136,9 +136,9 @@ aWriter
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -163,9 +163,9 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -176,9 +176,9 @@ WriteFrom
 nsIInputStream
 *
 aFromStream
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -191,9 +191,9 @@ aReader
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -249,7 +249,7 @@ mFilePath
 nsString
 mMode
 ;
-PRInt32
+int32_t
 mFlags
 ;
 bool

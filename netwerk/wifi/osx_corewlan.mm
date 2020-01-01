@@ -160,7 +160,7 @@ UsingSnowLeopard
 )
 {
 static
-PRInt32
+int32_t
 gOSXVersion
 =
 0x0

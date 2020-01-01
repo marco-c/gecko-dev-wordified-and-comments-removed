@@ -38,7 +38,7 @@ nsChannelPolicy
 :
 GetLoadType
 (
-PRUint32
+uint32_t
 *
 aLoadType
 )
@@ -58,7 +58,7 @@ nsChannelPolicy
 :
 SetLoadType
 (
-PRUint32
+uint32_t
 aLoadType
 )
 {

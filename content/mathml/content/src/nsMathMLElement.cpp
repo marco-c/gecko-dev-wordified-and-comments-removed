@@ -358,7 +358,7 @@ nsMathMLElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -999,11 +999,11 @@ aString
 nsCSSValue
 &
 aCSSValue
-PRUint32
+uint32_t
 aFlags
 )
 {
-PRInt32
+int32_t
 i
 =
 0
@@ -1319,7 +1319,7 @@ aString
 nsCSSValue
 &
 aCSSValue
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1335,7 +1335,7 @@ CompressWhitespace
 (
 )
 ;
-PRInt32
+int32_t
 stringLength
 =
 str
@@ -1370,7 +1370,7 @@ nsAutoString
 number
 unit
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -2070,7 +2070,7 @@ Length
 nsresult
 errorCode
 ;
-PRInt32
+int32_t
 intValue
 =
 str
@@ -2276,7 +2276,7 @@ big
 ;
 static
 const
-PRInt32
+int32_t
 values
 [
 NS_ARRAY_LENGTH
@@ -2299,7 +2299,7 @@ CompressWhitespace
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2803,7 +2803,7 @@ nsMathMLElement
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -2866,7 +2866,7 @@ nsMathMLElement
 :
 IsFocusable
 (
-PRInt32
+int32_t
 *
 aTabIndex
 bool
@@ -3422,7 +3422,7 @@ nsMathMLElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -3499,7 +3499,7 @@ nsMathMLElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

@@ -1419,13 +1419,13 @@ gEntropyCollector
 nullptr
 ;
 static
-PRInt32
+int32_t
 gRefCnt
 =
 0
 ;
 static
-PRInt32
+int32_t
 gOpenPopupSpamCount
 =
 0
@@ -1437,7 +1437,7 @@ gPopupControlState
 openAbused
 ;
 static
-PRInt32
+int32_t
 gRunningTimeoutDepth
 =
 0
@@ -1462,19 +1462,19 @@ gDumpFile
 nullptr
 ;
 static
-PRUint64
+uint64_t
 gNextWindowID
 =
 0
 ;
 static
-PRUint32
+uint32_t
 gSerialCounter
 =
 0
 ;
 static
-PRUint32
+uint32_t
 gTimeoutsRecentlySet
 =
 0
@@ -1494,7 +1494,7 @@ PR_MSEC_PER_SEC
 #
 ifdef
 DEBUG_jst
-PRInt32
+int32_t
 gTimeoutCnt
 =
 0
@@ -1568,15 +1568,15 @@ DEFAULT_MIN_BACKGROUND_TIMEOUT_VALUE
 /
 1000ms
 static
-PRInt32
+int32_t
 gMinTimeoutValue
 ;
 static
-PRInt32
+int32_t
 gMinBackgroundTimeoutValue
 ;
 inline
-PRInt32
+int32_t
 nsGlobalWindow
 :
 :
@@ -4955,7 +4955,7 @@ if
 mControllers
 )
 {
-PRUint32
+uint32_t
 count
 ;
 mControllers
@@ -5850,7 +5850,7 @@ mPendingStorageEvents
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6630,7 +6630,7 @@ if
 treeItem
 )
 {
-PRInt32
+int32_t
 itemType
 =
 nsIDocShellTreeItem
@@ -7353,7 +7353,7 @@ XPConnect
 (
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 aIsChrome
@@ -9198,7 +9198,7 @@ mDocShell
 )
 )
 ;
-PRInt32
+int32_t
 itemType
 =
 nsIDocShellTreeItem
@@ -10527,12 +10527,12 @@ window
 )
 ;
 static
-PRUint32
+uint32_t
 count
 =
 0
 ;
-PRUint32
+uint32_t
 msg
 =
 aVisitor
@@ -10579,7 +10579,7 @@ count
 0
 )
 {
-PRInt16
+int16_t
 myCoord
 [
 2
@@ -10649,7 +10649,7 @@ time
 )
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 ;
@@ -11497,7 +11497,7 @@ GetDocShell
 )
 )
 ;
-PRInt32
+int32_t
 itemType
 =
 nsIDocShellTreeItem
@@ -14080,7 +14080,7 @@ if
 openerRootDocShell
 )
 {
-PRUint32
+uint32_t
 appType
 ;
 nsresult
@@ -14519,13 +14519,13 @@ return
 result
 ;
 }
-PRInt32
+int32_t
 nsGlobalWindow
 :
 :
 DevToCSSIntPixels
 (
-PRInt32
+int32_t
 px
 )
 {
@@ -14572,13 +14572,13 @@ px
 )
 ;
 }
-PRInt32
+int32_t
 nsGlobalWindow
 :
 :
 CSSToDevIntPixels
 (
-PRInt32
+int32_t
 px
 )
 {
@@ -14765,7 +14765,7 @@ nsGlobalWindow
 :
 GetInnerWidth
 (
-PRInt32
+int32_t
 *
 aInnerWidth
 )
@@ -14852,7 +14852,7 @@ nsGlobalWindow
 :
 SetInnerWidth
 (
-PRInt32
+int32_t
 aInnerWidth
 )
 {
@@ -14989,12 +14989,12 @@ height
 }
 else
 {
-PRInt32
+int32_t
 height
 =
 0
 ;
-PRInt32
+int32_t
 width
 =
 0
@@ -15044,7 +15044,7 @@ nsGlobalWindow
 :
 GetInnerHeight
 (
-PRInt32
+int32_t
 *
 aInnerHeight
 )
@@ -15131,7 +15131,7 @@ nsGlobalWindow
 :
 SetInnerHeight
 (
-PRInt32
+int32_t
 aInnerHeight
 )
 {
@@ -15268,12 +15268,12 @@ height
 }
 else
 {
-PRInt32
+int32_t
 height
 =
 0
 ;
-PRInt32
+int32_t
 width
 =
 0
@@ -15417,7 +15417,7 @@ nsGlobalWindow
 :
 GetOuterWidth
 (
-PRInt32
+int32_t
 *
 aOuterWidth
 )
@@ -15466,7 +15466,7 @@ nsGlobalWindow
 :
 GetOuterHeight
 (
-PRInt32
+int32_t
 *
 aOuterHeight
 )
@@ -15515,7 +15515,7 @@ nsGlobalWindow
 :
 SetOuterSize
 (
-PRInt32
+int32_t
 aLengthCSSPixels
 bool
 aIsWidth
@@ -15578,7 +15578,7 @@ aLengthCSSPixels
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 width
 height
 ;
@@ -15597,7 +15597,7 @@ height
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 lengthDevPixels
 =
 CSSToDevIntPixels
@@ -15640,7 +15640,7 @@ nsGlobalWindow
 :
 SetOuterWidth
 (
-PRInt32
+int32_t
 aOuterWidth
 )
 {
@@ -15667,7 +15667,7 @@ nsGlobalWindow
 :
 SetOuterHeight
 (
-PRInt32
+int32_t
 aOuterHeight
 )
 {
@@ -15694,7 +15694,7 @@ nsGlobalWindow
 :
 GetScreenX
 (
-PRInt32
+int32_t
 *
 aScreenX
 )
@@ -15728,7 +15728,7 @@ treeOwnerAsWin
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 x
 y
 ;
@@ -15957,7 +15957,7 @@ nsGlobalWindow
 :
 GetMozPaintCount
 (
-PRUint64
+uint64_t
 *
 aResult
 )
@@ -16032,7 +16032,7 @@ MozRequestAnimationFrame
 nsIFrameRequestCallback
 *
 aCallback
-PRInt32
+int32_t
 *
 aHandle
 )
@@ -16107,7 +16107,7 @@ nsGlobalWindow
 :
 MozCancelRequestAnimationFrame
 (
-PRInt32
+int32_t
 aHandle
 )
 {
@@ -16124,7 +16124,7 @@ nsGlobalWindow
 :
 MozCancelAnimationFrame
 (
-PRInt32
+int32_t
 aHandle
 )
 {
@@ -16165,7 +16165,7 @@ nsGlobalWindow
 :
 GetMozAnimationStartTime
 (
-PRInt64
+int64_t
 *
 aTime
 )
@@ -16352,7 +16352,7 @@ nsGlobalWindow
 :
 SetScreenX
 (
-PRInt32
+int32_t
 aScreenX
 )
 {
@@ -16413,7 +16413,7 @@ nullptr
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 x
 y
 ;
@@ -16462,7 +16462,7 @@ nsGlobalWindow
 :
 GetScreenY
 (
-PRInt32
+int32_t
 *
 aScreenY
 )
@@ -16496,7 +16496,7 @@ treeOwnerAsWin
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 x
 y
 ;
@@ -16533,7 +16533,7 @@ nsGlobalWindow
 :
 SetScreenY
 (
-PRInt32
+int32_t
 aScreenY
 )
 {
@@ -16594,7 +16594,7 @@ aScreenY
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 x
 y
 ;
@@ -16643,10 +16643,10 @@ nsGlobalWindow
 :
 CheckSecurityWidthAndHeight
 (
-PRInt32
+int32_t
 *
 aWidth
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -16769,9 +16769,9 @@ nsGlobalWindow
 :
 SetDocShellWidthAndHeight
 (
-PRInt32
+int32_t
 aInnerWidth
-PRInt32
+int32_t
 aInnerHeight
 )
 {
@@ -16903,10 +16903,10 @@ nsGlobalWindow
 :
 CheckSecurityLeftAndTop
 (
-PRInt32
+int32_t
 *
 aLeft
-PRInt32
+int32_t
 *
 aTop
 )
@@ -17012,13 +17012,13 @@ treeOwner
 screen
 )
 {
-PRInt32
+int32_t
 screenLeft
 screenTop
 screenWidth
 screenHeight
 ;
-PRInt32
+int32_t
 winLeft
 winTop
 winWidth
@@ -17231,7 +17231,7 @@ nsGlobalWindow
 :
 GetPageXOffset
 (
-PRInt32
+int32_t
 *
 aPageXOffset
 )
@@ -17249,7 +17249,7 @@ nsGlobalWindow
 :
 GetPageYOffset
 (
-PRInt32
+int32_t
 *
 aPageYOffset
 )
@@ -17267,10 +17267,10 @@ nsGlobalWindow
 :
 GetScrollMaxXY
 (
-PRInt32
+int32_t
 *
 aScrollMaxX
-PRInt32
+int32_t
 *
 aScrollMaxY
 )
@@ -17327,7 +17327,7 @@ NS_MAX
 (
 0
 (
-PRInt32
+int32_t
 )
 floor
 (
@@ -17356,7 +17356,7 @@ NS_MAX
 (
 0
 (
-PRInt32
+int32_t
 )
 floor
 (
@@ -17384,7 +17384,7 @@ nsGlobalWindow
 :
 GetScrollMaxX
 (
-PRInt32
+int32_t
 *
 aScrollMaxX
 )
@@ -17413,7 +17413,7 @@ nsGlobalWindow
 :
 GetScrollMaxY
 (
-PRInt32
+int32_t
 *
 aScrollMaxY
 )
@@ -17442,10 +17442,10 @@ nsGlobalWindow
 :
 GetScrollXY
 (
-PRInt32
+int32_t
 *
 aScrollX
-PRInt32
+int32_t
 *
 aScrollY
 bool
@@ -17578,7 +17578,7 @@ nsGlobalWindow
 :
 GetScrollX
 (
-PRInt32
+int32_t
 *
 aScrollX
 )
@@ -17608,7 +17608,7 @@ nsGlobalWindow
 :
 GetScrollY
 (
-PRInt32
+int32_t
 *
 aScrollY
 )
@@ -17638,7 +17638,7 @@ nsGlobalWindow
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -18234,7 +18234,7 @@ aFullScreen
 aRequireTrust
 )
 ;
-PRInt32
+int32_t
 itemType
 ;
 treeItem
@@ -19330,7 +19330,7 @@ if
 treeOwner
 )
 {
-PRUint32
+uint32_t
 itemCount
 ;
 if
@@ -20681,7 +20681,7 @@ lookForPresShell
 =
 true
 ;
-PRInt32
+int32_t
 itemType
 =
 nsIDocShellTreeItem
@@ -20901,7 +20901,7 @@ if
 frameElement
 )
 {
-PRUint32
+uint32_t
 flags
 =
 nsIFocusManager
@@ -21284,7 +21284,7 @@ homeURL
 ifdef
 MOZ_PHOENIX
 {
-PRInt32
+int32_t
 firstPipe
 =
 homeURL
@@ -21782,9 +21782,9 @@ nsGlobalWindow
 :
 MoveTo
 (
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 )
 {
@@ -21887,9 +21887,9 @@ nsGlobalWindow
 :
 MoveBy
 (
-PRInt32
+int32_t
 aXDif
-PRInt32
+int32_t
 aYDif
 )
 {
@@ -21940,7 +21940,7 @@ treeOwnerAsWin
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 x
 y
 ;
@@ -22038,9 +22038,9 @@ nsGlobalWindow
 :
 ResizeTo
 (
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 {
@@ -22144,9 +22144,9 @@ nsGlobalWindow
 :
 ResizeBy
 (
-PRInt32
+int32_t
 aWidthDif
-PRInt32
+int32_t
 aHeightDif
 )
 {
@@ -22197,7 +22197,7 @@ treeOwnerAsWin
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 width
 height
 ;
@@ -22482,9 +22482,9 @@ nsGlobalWindow
 :
 Scroll
 (
-PRInt32
+int32_t
 aXScroll
-PRInt32
+int32_t
 aYScroll
 )
 {
@@ -22502,9 +22502,9 @@ nsGlobalWindow
 :
 ScrollTo
 (
-PRInt32
+int32_t
 aXScroll
-PRInt32
+int32_t
 aYScroll
 )
 {
@@ -22527,7 +22527,7 @@ sf
 )
 {
 const
-PRInt32
+int32_t
 maxpx
 =
 nsPresContext
@@ -22587,9 +22587,9 @@ nsGlobalWindow
 :
 ScrollBy
 (
-PRInt32
+int32_t
 aXScrollDif
-PRInt32
+int32_t
 aYScrollDif
 )
 {
@@ -22659,7 +22659,7 @@ nsGlobalWindow
 :
 ScrollByLines
 (
-PRInt32
+int32_t
 numLines
 )
 {
@@ -22712,7 +22712,7 @@ nsGlobalWindow
 :
 ScrollByPages
 (
-PRInt32
+int32_t
 numPages
 )
 {
@@ -22765,7 +22765,7 @@ nsGlobalWindow
 :
 ClearTimeout
 (
-PRInt32
+int32_t
 aHandle
 )
 {
@@ -22794,7 +22794,7 @@ nsGlobalWindow
 :
 ClearInterval
 (
-PRInt32
+int32_t
 aHandle
 )
 {
@@ -22823,7 +22823,7 @@ nsGlobalWindow
 :
 SetTimeout
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -22842,7 +22842,7 @@ nsGlobalWindow
 :
 SetInterval
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -22926,7 +22926,7 @@ nsGlobalWindow
 :
 CaptureEvents
 (
-PRInt32
+int32_t
 aEventFlags
 )
 {
@@ -22948,7 +22948,7 @@ nsGlobalWindow
 :
 ReleaseEvents
 (
-PRInt32
+int32_t
 aEventFlags
 )
 {
@@ -23063,7 +23063,7 @@ if
 doc
 )
 {
-PRUint32
+uint32_t
 permission
 =
 nsIPopupWindowManager
@@ -23442,7 +23442,7 @@ nsIDocShellTreeItem
 "
 )
 ;
-PRInt32
+int32_t
 type
 =
 nsIDocShellTreeItem
@@ -23537,7 +23537,7 @@ abuse
 openControlled
 )
 {
-PRInt32
+int32_t
 popupMax
 =
 Preferences
@@ -24104,7 +24104,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 argc
 ;
 jsval
@@ -24131,7 +24131,7 @@ GetArgvPtr
 argv
 )
 ;
-PRUint32
+uint32_t
 argOffset
 =
 argc
@@ -24870,7 +24870,7 @@ if
 wrappedNative
 )
 {
-PRUint32
+uint32_t
 scTag
 =
 0
@@ -27143,7 +27143,7 @@ frames
 return
 ;
 }
-PRUint32
+uint32_t
 i
 length
 ;
@@ -27646,7 +27646,7 @@ WindowDestroyedEvent
 nsPIDOMWindow
 *
 aWindow
-PRUint64
+uint64_t
 aID
 const
 char
@@ -27907,7 +27907,7 @@ NS_OK
 }
 private
 :
-PRUint64
+uint64_t
 mID
 ;
 nsCString
@@ -29271,7 +29271,7 @@ EnterModalState
 (
 )
 ;
-PRUint32
+uint32_t
 oldMicroTaskLevel
 =
 nsContentUtils
@@ -30348,7 +30348,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 aOptionalArgc
 )
 {
@@ -30494,7 +30494,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-PRUint8
+uint8_t
 aOptionalArgc
 )
 {
@@ -31701,7 +31701,7 @@ SetFocusedNode
 nsIContent
 *
 aNode
-PRUint32
+uint32_t
 aFocusMethod
 bool
 aNeedsFocus
@@ -31880,7 +31880,7 @@ mNeedsFocus
 aNeedsFocus
 ;
 }
-PRUint32
+uint32_t
 nsGlobalWindow
 :
 :
@@ -32000,7 +32000,7 @@ if
 node
 )
 {
-PRInt32
+int32_t
 childCount
 =
 0
@@ -32016,7 +32016,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -32184,7 +32184,7 @@ TakeFocus
 (
 bool
 aFocus
-PRUint32
+uint32_t
 aFocusMethod
 )
 {
@@ -34830,7 +34830,7 @@ NotifyIdleObserverRunnable
 nsIIdleObserver
 *
 aIdleObserver
-PRUint32
+uint32_t
 aTimeInS
 bool
 aCallOnidle
@@ -34904,7 +34904,7 @@ nsIIdleObserver
 >
 mIdleObserver
 ;
-PRUint32
+uint32_t
 mTimeInS
 ;
 nsRefPtr
@@ -35001,7 +35001,7 @@ ContainsIdleObserver
 nsIIdleObserver
 *
 aIdleObserver
-PRUint32
+uint32_t
 aTimeInS
 )
 {
@@ -35206,7 +35206,7 @@ MOZ_ASSERT
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mIdleCallbackIndex
@@ -35319,7 +35319,7 @@ mIdleCallbackIndex
 |
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mIdleCallbackIndex
@@ -35348,7 +35348,7 @@ ElementAt
 mIdleCallbackIndex
 )
 ;
-PRUint32
+uint32_t
 userIdleTimeMS
 =
 0
@@ -35371,7 +35371,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 callbackTimeMS
 =
 0
@@ -35435,7 +35435,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsGlobalWindow
 :
 :
@@ -35467,12 +35467,12 @@ return
 0
 ;
 }
-PRUint32
+uint32_t
 randNum
 =
 MAX_IDLE_FUZZ_TIME_MS
 ;
-PRSize
+size_t
 nbytes
 =
 PR_GetRandomNoise
@@ -35583,7 +35583,7 @@ Cancel
 (
 )
 ;
-PRUint32
+uint32_t
 fuzzFactorInMS
 =
 GetFuzzTimeMS
@@ -35740,7 +35740,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsGlobalWindow
 :
 :
@@ -35763,7 +35763,7 @@ instantiated
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -36013,7 +36013,7 @@ mTimeInS
 MIN_IDLE_NOTIFICATION_TIME_S
 )
 ;
-PRUint32
+uint32_t
 insertAtIndex
 =
 FindInsertionIndex
@@ -36114,7 +36114,7 @@ if
 (
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 insertAtIndex
@@ -36153,7 +36153,7 @@ if
 (
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 insertAtIndex
@@ -36196,7 +36196,7 @@ FindIndexOfElementToRemove
 nsIIdleObserver
 *
 aIdleObserver
-PRInt32
+int32_t
 *
 aRemoveElementIndex
 )
@@ -36246,7 +36246,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 aIdleObserverTimeInS
 ;
 nsresult
@@ -36336,7 +36336,7 @@ aRemoveElementIndex
 return
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 *
@@ -36381,7 +36381,7 @@ window
 "
 )
 ;
-PRInt32
+int32_t
 removeElementIndex
 ;
 nsresult
@@ -36536,7 +36536,7 @@ if
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 mIdleCallbackIndex
@@ -37412,7 +37412,7 @@ NS_ERROR_UNEXPECTED
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -37531,7 +37531,7 @@ if
 node
 )
 {
-PRInt32
+int32_t
 childCount
 =
 0
@@ -37547,7 +37547,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -37805,7 +37805,7 @@ NS_ERROR_NOT_INITIALIZED
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 argc
 =
 0
@@ -38620,7 +38620,7 @@ globalWin
 )
 ;
 }
-PRUint32
+uint32_t
 sNestingLevel
 ;
 nsresult
@@ -38632,11 +38632,11 @@ SetTimeoutOrInterval
 nsIScriptTimeoutHandler
 *
 aHandler
-PRInt32
+int32_t
 interval
 bool
 aIsInterval
-PRInt32
+int32_t
 *
 aReturn
 )
@@ -38675,7 +38675,7 @@ aIsInterval
 interval
 )
 ;
-PRUint32
+uint32_t
 maxTimeoutMs
 =
 PR_IntervalToMilliseconds
@@ -38687,7 +38687,7 @@ if
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 interval
@@ -38733,14 +38733,14 @@ mScriptHandler
 =
 aHandler
 ;
-PRUint32
+uint32_t
 nestingLevel
 =
 sNestingLevel
 +
 1
 ;
-PRInt32
+int32_t
 realInterval
 =
 interval
@@ -39030,7 +39030,7 @@ gPopupControlState
 openAbused
 )
 {
-PRInt32
+int32_t
 delay
 =
 Preferences
@@ -39096,7 +39096,7 @@ SetTimeoutOrInterval
 (
 bool
 aIsInterval
-PRInt32
+int32_t
 *
 aReturn
 )
@@ -39165,7 +39165,7 @@ NS_ERROR_NOT_INITIALIZED
 )
 ;
 }
-PRInt32
+int32_t
 interval
 =
 0
@@ -39298,7 +39298,7 @@ timeout
 >
 mIsInterval
 ;
-PRUint32
+uint32_t
 nestingLevel
 ;
 if
@@ -39381,7 +39381,7 @@ filename
 =
 nullptr
 ;
-PRUint32
+uint32_t
 lineNo
 =
 0
@@ -39607,7 +39607,7 @@ aTimeout
 -
 >
 mInterval
-PRUint32
+uint32_t
 (
 DOMMinTimeoutValue
 (
@@ -39882,7 +39882,7 @@ last_insertion_point
 nsTimeout
 dummy_timeout
 ;
-PRUint32
+uint32_t
 firingDepth
 =
 mTimeoutFiringDepth
@@ -40049,7 +40049,7 @@ gLastRecordedRecentTimeouts
 recordingInterval
 )
 {
-PRUint32
+uint32_t
 count
 =
 gTimeoutsRecentlySet
@@ -40366,7 +40366,7 @@ nsGlobalWindow
 :
 ClearTimeoutOrInterval
 (
-PRInt32
+int32_t
 aTimerID
 )
 {
@@ -40379,11 +40379,11 @@ aTimerID
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-PRUint32
+uint32_t
 public_id
 =
 (
-PRUint32
+uint32_t
 )
 aTimerID
 ;
@@ -40621,7 +40621,7 @@ timeout
 -
 >
 mInterval
-PRUint32
+uint32_t
 (
 DOMMinTimeoutValue
 (
@@ -40630,7 +40630,7 @@ DOMMinTimeoutValue
 )
 )
 ;
-PRUint32
+uint32_t
 oldIntervalMillisecs
 =
 0
@@ -40757,7 +40757,7 @@ PR_REMOVE_LINK
 timeout
 )
 ;
-PRUint32
+uint32_t
 firingDepth
 =
 timeout
@@ -42138,7 +42138,7 @@ nsGlobalWindow
 :
 SuspendTimeouts
 (
-PRUint32
+uint32_t
 aIncrease
 bool
 aFreezeChildren
@@ -42192,7 +42192,7 @@ ac
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -42381,7 +42381,7 @@ if
 node
 )
 {
-PRInt32
+int32_t
 childCount
 =
 0
@@ -42397,7 +42397,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -42644,7 +42644,7 @@ ac
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -42793,12 +42793,12 @@ endif
 continue
 ;
 }
-PRUint32
+uint32_t
 delay
 =
 NS_MAX
 (
-PRInt32
+int32_t
 (
 t
 -
@@ -42910,7 +42910,7 @@ if
 node
 )
 {
-PRInt32
+int32_t
 childCount
 =
 0
@@ -42926,7 +42926,7 @@ childCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -43113,7 +43113,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsGlobalWindow
 :
 :
@@ -43139,7 +43139,7 @@ nsGlobalWindow
 :
 EnableDeviceSensor
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -43150,7 +43150,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -43235,24 +43235,24 @@ nsGlobalWindow
 :
 DisableDeviceSensor
 (
-PRUint32
+uint32_t
 aType
 )
 {
-PRInt32
+int32_t
 doomedElement
 =
 -
 1
 ;
-PRInt32
+int32_t
 listenerCount
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -43654,7 +43654,7 @@ nsGlobalChromeWindow
 :
 GetWindowState
 (
-PRUint16
+uint16_t
 *
 aWindowState
 )
@@ -43677,7 +43677,7 @@ GetMainWidget
 (
 )
 ;
-PRInt32
+int32_t
 aMode
 =
 0
@@ -43934,7 +43934,7 @@ nsGlobalChromeWindow
 :
 GetAttentionWithCycleCount
 (
-PRInt32
+int32_t
 aCycleCount
 )
 {
@@ -44175,7 +44175,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 cursor
 ;
 NS_ConvertUTF16toUTF8

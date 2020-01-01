@@ -83,7 +83,7 @@ dom
 {
 extern
 const
-PRUint64
+uint64_t
 kUnknownSize
 ;
 class
@@ -111,7 +111,7 @@ Abort
 NS_METHOD
 GetReadyState
 (
-PRUint16
+uint16_t
 *
 aReadyState
 )
@@ -204,9 +204,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 =
@@ -265,13 +265,13 @@ nsIChannel
 >
 mChannel
 ;
-PRUint16
+uint16_t
 mReadyState
 ;
-PRUint64
+uint64_t
 mTotal
 ;
-PRUint64
+uint64_t
 mTransferred
 ;
 }

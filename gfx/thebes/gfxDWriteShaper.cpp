@@ -174,7 +174,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 appUnitsPerDevPixel
 =
 aShapedWord
@@ -685,7 +685,7 @@ c
 +
 )
 {
-PRUint32
+uint32_t
 k
 =
 clusters
@@ -693,7 +693,7 @@ clusters
 c
 ]
 ;
-PRUint32
+uint32_t
 absC
 =
 c
@@ -744,14 +744,14 @@ nullptr
 continue
 ;
 }
-PRUint32
+uint32_t
 glyphCount
 =
 actualGlyphs
 -
 k
 ;
-PRUint32
+uint32_t
 nextClusterOffset
 ;
 for
@@ -794,11 +794,11 @@ break
 ;
 }
 }
-PRInt32
+int32_t
 advance
 =
 (
-PRInt32
+int32_t
 )
 (
 advances
@@ -978,7 +978,7 @@ z
 mAdvance
 =
 (
-PRInt32
+int32_t
 )
 (
 advances

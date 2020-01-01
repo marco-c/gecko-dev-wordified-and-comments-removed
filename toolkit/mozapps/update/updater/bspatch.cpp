@@ -294,7 +294,7 @@ header
 extralen
 !
 =
-PRUint32
+uint32_t
 (
 hs
 .
@@ -651,7 +651,7 @@ end
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -683,7 +683,7 @@ i
 if
 (
 (
-PRUint32
+uint32_t
 )
 fwrite
 (
@@ -750,7 +750,7 @@ end
 if
 (
 (
-PRUint32
+uint32_t
 )
 fwrite
 (

@@ -214,7 +214,7 @@ const
 nsSize
 &
 aAvailableSpace
-PRUint32
+uint32_t
 aFlags
 )
 :
@@ -855,7 +855,7 @@ ComputeWidthValue
 (
 nscoord
 aContainingBlockWidth
-PRUint8
+uint8_t
 aBoxSizing
 const
 nsStyleCoord
@@ -936,7 +936,7 @@ ComputeHeightValue
 (
 nscoord
 aContainingBlockHeight
-PRUint8
+uint8_t
 aBoxSizing
 const
 nsStyleCoord
@@ -3055,7 +3055,7 @@ nsHTMLReflowState
 :
 ComputeRelativeOffsets
 (
-PRUint8
+uint8_t
 aCBDirection
 nsIFrame
 *
@@ -5606,7 +5606,7 @@ GetUnit
 (
 )
 ;
-PRUint32
+uint32_t
 computeSizeFlags
 =
 0
@@ -7229,7 +7229,7 @@ sNormalLineHeightControl
 eUninitialized
 )
 {
-PRInt32
+int32_t
 val
 =
 Preferences
@@ -7289,7 +7289,7 @@ NS_STYLE_DISPLAY_TABLE_CAPTION
 return
 false
 ;
-PRUint8
+uint8_t
 captionSide
 =
 aFrame
@@ -7720,7 +7720,7 @@ frame
 )
 )
 {
-PRUint8
+uint8_t
 direction
 =
 NS_STYLE_DIRECTION_LTR
@@ -8092,7 +8092,7 @@ NS_FRAME_GET_TYPE
 mFrameType
 )
 ;
-PRUint32
+uint32_t
 computeSizeFlags
 =
 isBlock

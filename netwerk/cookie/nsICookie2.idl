@@ -286,7 +286,7 @@ semantics
 /
 readonly
 attribute
-PRInt64
+int64_t
 expiry
 ;
 /
@@ -340,7 +340,7 @@ UTC
 /
 readonly
 attribute
-PRInt64
+int64_t
 creationTime
 ;
 /
@@ -399,7 +399,7 @@ approximate
 /
 readonly
 attribute
-PRInt64
+int64_t
 lastAccessed
 ;
 }

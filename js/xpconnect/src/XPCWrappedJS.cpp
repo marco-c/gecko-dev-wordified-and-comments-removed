@@ -1076,7 +1076,7 @@ if
 ci
 )
 {
-PRUint32
+uint32_t
 flags
 ;
 if
@@ -2450,7 +2450,7 @@ nsXPCWrappedJS
 :
 CallMethod
 (
-PRUint16
+uint16_t
 methodIndex
 const
 XPTMethodDescriptor
@@ -2769,7 +2769,7 @@ nsXPCWrappedJS
 :
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 {

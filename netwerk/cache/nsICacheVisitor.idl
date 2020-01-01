@@ -566,7 +566,7 @@ Epoch
 /
 readonly
 attribute
-PRUint32
+uint32_t
 lastFetched
 ;
 /
@@ -594,7 +594,7 @@ Epoch
 /
 readonly
 attribute
-PRUint32
+uint32_t
 lastModified
 ;
 /
@@ -621,7 +621,7 @@ Epoch
 /
 readonly
 attribute
-PRUint32
+uint32_t
 expirationTime
 ;
 /

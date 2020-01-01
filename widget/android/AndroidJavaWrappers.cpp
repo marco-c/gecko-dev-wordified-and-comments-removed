@@ -2533,7 +2533,7 @@ JNIEnv
 jenv
 jfieldID
 field
-PRInt32
+int32_t
 count
 )
 {
@@ -2554,7 +2554,7 @@ field
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2628,7 +2628,7 @@ JNIEnv
 jenv
 jfieldID
 field
-PRInt32
+int32_t
 count
 )
 {
@@ -2662,7 +2662,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2715,7 +2715,7 @@ JNIEnv
 jenv
 jfieldID
 field
-PRInt32
+int32_t
 count
 )
 {
@@ -2749,7 +2749,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

@@ -123,12 +123,12 @@ nsISupports
 {
 readonly
 attribute
-PRUint32
+uint32_t
 position
 ;
 readonly
 attribute
-PRUint32
+uint32_t
 size
 ;
 readonly

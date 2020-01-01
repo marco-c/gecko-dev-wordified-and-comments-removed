@@ -1922,7 +1922,7 @@ in
 AUTF8String
 aName
 out
-PRInt32
+int32_t
 aFlags
 out
 unsigned
@@ -2028,7 +2028,7 @@ not
 set
 *
 /
-PRUint16
+uint16_t
 getPageAnnotationType
 (
 in
@@ -2039,7 +2039,7 @@ AUTF8String
 aName
 )
 ;
-PRUint16
+uint16_t
 getItemAnnotationType
 (
 in

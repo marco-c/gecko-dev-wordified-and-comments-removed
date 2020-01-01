@@ -5,7 +5,7 @@ nsHtml5UTF16Buffer
 PRUnichar
 *
 aBuffer
-PRInt32
+int32_t
 aEnd
 )
 ;

@@ -107,7 +107,7 @@ gl
 #
 ifdef
 DEBUG
-PRUintn
+unsigned
 GLContext
 :
 :
@@ -118,7 +118,7 @@ sCurrentGLContextTLS
 ;
 #
 endif
-PRUint32
+uint32_t
 GLContext
 :
 :
@@ -7432,7 +7432,7 @@ mCurrentImage
 0
 ;
 }
-PRUint32
+uint32_t
 TiledTextureImage
 :
 :
@@ -9864,7 +9864,7 @@ return
 NULL
 ;
 }
-PRUint32
+uint32_t
 currentPackAlignment
 =
 0
@@ -12365,7 +12365,7 @@ format
 GLenum
 type
 ;
-PRInt32
+int32_t
 pixelSize
 =
 gfxASurface
@@ -12507,7 +12507,7 @@ ShaderProgramType
 )
 ;
 }
-PRInt32
+int32_t
 stride
 =
 imageSurface
@@ -15787,7 +15787,7 @@ continue
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15997,7 +15997,7 @@ aArray
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -16157,7 +16157,7 @@ NULL
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

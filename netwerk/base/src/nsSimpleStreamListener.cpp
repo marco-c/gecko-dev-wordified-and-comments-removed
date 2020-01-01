@@ -88,13 +88,13 @@ aContext
 nsIInputStream
 *
 aSource
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
-PRUint32
+uint32_t
 writeCount
 ;
 nsresult

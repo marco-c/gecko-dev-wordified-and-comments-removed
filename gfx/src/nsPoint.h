@@ -137,9 +137,9 @@ inline
 nsPoint
 ConvertAppUnits
 (
-PRInt32
+int32_t
 aFromAPP
-PRInt32
+int32_t
 aToAPP
 )
 const
@@ -158,7 +158,7 @@ gfx
 :
 BasePoint
 <
-PRInt32
+int32_t
 nsIntPoint
 >
 {
@@ -171,7 +171,7 @@ gfx
 :
 BasePoint
 <
-PRInt32
+int32_t
 nsIntPoint
 >
 Super
@@ -201,9 +201,9 @@ aPoint
 }
 nsIntPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 :
@@ -299,9 +299,9 @@ nsPoint
 :
 ConvertAppUnits
 (
-PRInt32
+int32_t
 aFromAPP
-PRInt32
+int32_t
 aToAPP
 )
 const

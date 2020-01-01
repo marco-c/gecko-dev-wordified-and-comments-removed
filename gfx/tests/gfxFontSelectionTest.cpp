@@ -702,7 +702,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -962,7 +962,7 @@ n
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1084,7 +1084,7 @@ test
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1140,7 +1140,7 @@ get
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -1267,7 +1267,7 @@ nullptr
 60
 }
 ;
-PRUint32
+uint32_t
 flags
 =
 gfxTextRunFactory
@@ -1292,7 +1292,7 @@ gfxTextRunFactory
 TEXT_IS_RTL
 ;
 }
-PRUint32
+uint32_t
 length
 ;
 if
@@ -1339,7 +1339,7 @@ MakeTextRun
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (

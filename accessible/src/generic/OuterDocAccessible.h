@@ -45,7 +45,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -55,7 +55,7 @@ aName
 NS_IMETHOD
 GetActionDescription
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -65,7 +65,7 @@ aDescription
 NS_IMETHOD
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 ;
@@ -101,9 +101,9 @@ Accessible
 *
 ChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 EWhichChildAtPoint
 aWhichChild
@@ -134,7 +134,7 @@ aAccessible
 )
 ;
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )

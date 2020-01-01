@@ -117,7 +117,7 @@ IsEmpty
 )
 ;
 }
-PRUint32
+uint32_t
 Length
 (
 )
@@ -138,7 +138,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -174,7 +174,7 @@ mStrings
 bool
 SetCapacity
 (
-PRUint32
+uint32_t
 size
 )
 {
@@ -226,7 +226,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -240,7 +240,7 @@ aIndex
 bool
 SetLength
 (
-PRUint32
+uint32_t
 aStringOfItems
 )
 {
@@ -258,7 +258,7 @@ private
 bool
 InsertItem
 (
-PRUint32
+uint32_t
 aIndex
 const
 nsAString
@@ -313,7 +313,7 @@ false
 void
 ReplaceItem
 (
-PRUint32
+uint32_t
 aIndex
 const
 nsAString
@@ -352,7 +352,7 @@ aString
 void
 RemoveItem
 (
-PRUint32
+uint32_t
 aIndex
 )
 {

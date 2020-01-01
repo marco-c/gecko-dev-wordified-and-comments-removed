@@ -122,10 +122,10 @@ void
 StartProfiler
 (
 in
-PRUint32
+uint32_t
 aEntries
 in
-PRUint32
+uint32_t
 aInterval
 [
 array
@@ -138,7 +138,7 @@ in
 string
 aFeatures
 in
-PRUint32
+uint32_t
 aFeatureCount
 )
 ;
@@ -169,7 +169,7 @@ void
 GetResponsivenessTimes
 (
 out
-PRUint32
+uint32_t
 aCount
 [
 retval
@@ -188,7 +188,7 @@ void
 GetFeatures
 (
 out
-PRUint32
+uint32_t
 aCount
 [
 retval

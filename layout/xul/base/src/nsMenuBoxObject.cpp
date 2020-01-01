@@ -429,7 +429,7 @@ popupFrame
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 keyCode
 ;
 aKeyEvent

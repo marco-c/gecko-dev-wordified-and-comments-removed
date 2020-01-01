@@ -987,7 +987,7 @@ nsDOMAttribute
 :
 GetNodeType
 (
-PRUint16
+uint16_t
 *
 aNodeType
 )
@@ -1014,7 +1014,7 @@ eNodeType
 aNodeType
 =
 (
-PRUint16
+uint16_t
 )
 nsIDOMNode
 :
@@ -1619,7 +1619,7 @@ CloneNode
 (
 bool
 aDeep
-PRUint8
+uint8_t
 aOptionalArgc
 nsIDOMNode
 *
@@ -1906,7 +1906,7 @@ CompareDocumentPosition
 nsIDOMNode
 *
 other
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -2268,7 +2268,7 @@ nsDOMAttribute
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -2283,7 +2283,7 @@ eATTRIBUTE
 )
 ;
 }
-PRUint32
+uint32_t
 nsDOMAttribute
 :
 :
@@ -2303,7 +2303,7 @@ nsDOMAttribute
 :
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -2321,7 +2321,7 @@ nsDOMAttribute
 :
 GetChildArray
 (
-PRUint32
+uint32_t
 *
 aChildCount
 )
@@ -2336,7 +2336,7 @@ return
 NULL
 ;
 }
-PRInt32
+int32_t
 nsDOMAttribute
 :
 :
@@ -2362,7 +2362,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -2395,7 +2395,7 @@ nsDOMAttribute
 :
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify

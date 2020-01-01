@@ -574,7 +574,7 @@ IDBKeyRange
 *
 aKeyRange
 const
-PRUint32
+uint32_t
 aLimit
 )
 :
@@ -647,7 +647,7 @@ MOZ_OVERRIDE
 protected
 :
 const
-PRUint32
+uint32_t
 mLimit
 ;
 nsTArray
@@ -681,7 +681,7 @@ IDBKeyRange
 *
 aKeyRange
 const
-PRUint32
+uint32_t
 aLimit
 )
 :
@@ -705,7 +705,7 @@ GetAllHelper
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -801,7 +801,7 @@ MOZ_OVERRIDE
 protected
 :
 const
-PRUint32
+uint32_t
 mLimit
 ;
 nsTArray
@@ -1190,7 +1190,7 @@ IDBKeyRange
 >
 mKeyRange
 ;
-PRUint64
+uint64_t
 mCount
 ;
 }
@@ -1889,7 +1889,7 @@ GetAllInternal
 IDBKeyRange
 *
 aKeyRange
-PRUint32
+uint32_t
 aLimit
 JSContext
 *
@@ -2008,7 +2008,7 @@ GetAllKeysInternal
 IDBKeyRange
 *
 aKeyRange
-PRUint32
+uint32_t
 aLimit
 JSContext
 *
@@ -3440,12 +3440,12 @@ const
 jsval
 &
 aKey
-PRUint32
+uint32_t
 aLimit
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBRequest
 *
@@ -3591,12 +3591,12 @@ const
 jsval
 &
 aKey
-PRUint32
+uint32_t
 aLimit
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBRequest
 *
@@ -3749,7 +3749,7 @@ aDirection
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBRequest
 *
@@ -3946,7 +3946,7 @@ aDirection
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBRequest
 *
@@ -4115,7 +4115,7 @@ aKey
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aOptionalArgCount
 nsIIDBRequest
 *
@@ -6869,7 +6869,7 @@ aVal
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -6919,7 +6919,7 @@ ReleaseMainThreadObjects
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -7198,7 +7198,7 @@ null
 "
 )
 ;
-PRUint32
+uint32_t
 length
 =
 mCloneReadInfos
@@ -7249,7 +7249,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -7495,7 +7495,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

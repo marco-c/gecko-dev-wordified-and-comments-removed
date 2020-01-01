@@ -232,7 +232,7 @@ InvalidateCanvas
 (
 )
 ;
-PRInt32
+int32_t
 CountContexts
 (
 )
@@ -241,7 +241,7 @@ nsICanvasRenderingContextInternal
 *
 GetContextAtIndex
 (
-PRInt32
+int32_t
 index
 )
 ;
@@ -269,7 +269,7 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
-PRUint32
+uint32_t
 aFlags
 =
 RenderFlagPremultAlpha
@@ -279,7 +279,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -300,7 +300,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -308,7 +308,7 @@ const
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -336,7 +336,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

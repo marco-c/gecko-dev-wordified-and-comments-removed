@@ -48,7 +48,7 @@ AccCollector
 (
 )
 ;
-PRUint32
+uint32_t
 Count
 (
 )
@@ -57,12 +57,12 @@ Accessible
 *
 GetAccessibleAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
 virtual
-PRInt32
+int32_t
 GetIndexAt
 (
 Accessible
@@ -76,11 +76,11 @@ Accessible
 *
 EnsureNGetObject
 (
-PRUint32
+uint32_t
 aIndex
 )
 ;
-PRInt32
+int32_t
 EnsureNGetIndex
 (
 Accessible
@@ -107,7 +107,7 @@ Accessible
 *
 mRoot
 ;
-PRUint32
+uint32_t
 mRootChildIdx
 ;
 nsTArray
@@ -161,7 +161,7 @@ EmbeddedObjCollector
 public
 :
 virtual
-PRInt32
+int32_t
 GetIndexAt
 (
 Accessible

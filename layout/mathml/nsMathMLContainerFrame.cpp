@@ -490,7 +490,7 @@ errorMsg
 get
 (
 )
-PRUint32
+uint32_t
 (
 errorMsg
 .
@@ -827,7 +827,7 @@ GetPreferredStretchSize
 nsRenderingContext
 &
 aRenderingContext
-PRUint32
+uint32_t
 aOptions
 nsStretchDirection
 aStretchDirection
@@ -2110,9 +2110,9 @@ PropagatePresentationDataFor
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aFlagsValues
-PRUint32
+uint32_t
 aFlagsToUpdate
 )
 {
@@ -2209,13 +2209,13 @@ PropagatePresentationDataFromChildAt
 nsIFrame
 *
 aParentFrame
-PRInt32
+int32_t
 aFirstChildIndex
-PRInt32
+int32_t
 aLastChildIndex
-PRUint32
+uint32_t
 aFlagsValues
-PRUint32
+uint32_t
 aFlagsToUpdate
 )
 {
@@ -2230,7 +2230,7 @@ aFlagsToUpdate
 )
 return
 ;
-PRInt32
+int32_t
 index
 =
 0
@@ -2740,7 +2740,7 @@ nsMathMLContainerFrame
 :
 ChildListChanged
 (
-PRInt32
+int32_t
 aModType
 )
 {
@@ -2960,12 +2960,12 @@ nsMathMLContainerFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -3854,7 +3854,7 @@ aDesiredSize
 ;
 }
 static
-PRInt32
+int32_t
 kInterFrameSpacingTable
 [
 eMathMLFrameType_COUNT
@@ -4010,7 +4010,7 @@ static
 nscoord
 GetInterFrameSpacing
 (
-PRInt32
+int32_t
 aScriptLevel
 eMathMLFrameType
 aFirstFrameType
@@ -4019,7 +4019,7 @@ aSecondFrameType
 eMathMLFrameType
 *
 aFromFrameType
-PRInt32
+int32_t
 *
 aCarrySpace
 )
@@ -4034,7 +4034,7 @@ secondType
 =
 aSecondFrameType
 ;
-PRInt32
+int32_t
 space
 ;
 GET_INTERSPACE
@@ -4492,7 +4492,7 @@ mItalicCorrection
 eMathMLFrameType
 mChildFrameType
 ;
-PRInt32
+int32_t
 mCarrySpace
 ;
 eMathMLFrameType
@@ -4879,7 +4879,7 @@ nsMathMLContainerFrame
 :
 SetIncrementScriptLevel
 (
-PRInt32
+int32_t
 aChildIndex
 bool
 aIncrement
@@ -4985,7 +4985,7 @@ static
 nscoord
 GetInterFrameSpacingFor
 (
-PRInt32
+int32_t
 aScriptLevel
 nsIFrame
 *
@@ -5020,7 +5020,7 @@ childFrame
 return
 0
 ;
-PRInt32
+int32_t
 carrySpace
 =
 0
@@ -5694,7 +5694,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aFlags
 )
 {

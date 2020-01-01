@@ -461,7 +461,7 @@ nsDOMCSSDeclaration
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -542,7 +542,7 @@ nsDOMCSSDeclaration
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &

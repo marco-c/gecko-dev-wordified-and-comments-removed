@@ -136,7 +136,7 @@ nsRuleData
 :
 nsRuleData
 (
-PRUint32
+uint32_t
 aSIDs
 nsCSSValue
 *

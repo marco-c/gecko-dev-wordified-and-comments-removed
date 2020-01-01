@@ -201,7 +201,7 @@ nsIRunnable
 initialEvent
 =
 nullptr
-PRUint32
+uint32_t
 stackSize
 =
 nsIThreadManager
@@ -237,7 +237,7 @@ nsIRunnable
 initialEvent
 =
 nullptr
-PRUint32
+uint32_t
 stackSize
 =
 nsIThreadManager
@@ -380,7 +380,7 @@ NS_DispatchToMainThread
 nsIRunnable
 *
 event
-PRUint32
+uint32_t
 dispatchFlags
 =
 NS_DISPATCH_NORMAL
@@ -1188,7 +1188,7 @@ nullptr
 private
 :
 volatile
-PRUint32
+uint32_t
 mCounter
 ;
 nsThreadPoolNaming

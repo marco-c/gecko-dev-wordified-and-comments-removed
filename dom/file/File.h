@@ -50,7 +50,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 nsIFile
 *
@@ -115,7 +115,7 @@ const
 nsAString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 nsIFile
 *
@@ -205,9 +205,9 @@ const
 File
 *
 aOther
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -229,9 +229,9 @@ nsIDOMBlob
 >
 CreateSlice
 (
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString

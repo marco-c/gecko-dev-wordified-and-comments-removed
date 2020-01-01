@@ -226,7 +226,7 @@ virtual
 bool
 IsFocusable
 (
-PRInt32
+int32_t
 *
 aTabIndex
 =
@@ -284,7 +284,7 @@ const
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -312,7 +312,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -332,7 +332,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

@@ -975,7 +975,7 @@ kThemeMediumIndeterminateBar
 kThemeMediumProgressBar
 ;
 }
-PRInt32
+int32_t
 stepsPerSecond
 =
 mIsIndeterminate
@@ -984,7 +984,7 @@ mIsIndeterminate
 :
 30
 ;
-PRInt32
+int32_t
 milliSecondsPerStep
 =
 1000
@@ -1715,7 +1715,7 @@ static
 NSControlSize
 CocoaSizeForEnum
 (
-PRInt32
+int32_t
 enumControlSize
 )
 {
@@ -4077,7 +4077,7 @@ tolerance
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 miniControlSize
@@ -4119,7 +4119,7 @@ value
 .
 for
 (
-PRUint32
+uint32_t
 j
 =
 i
@@ -4914,7 +4914,7 @@ GetStyleTextReset
 >
 mVerticalAlign
 ;
-PRUint8
+uint8_t
 intval
 =
 (
@@ -7163,7 +7163,7 @@ HIRect
 inBoxRect
 nsEventStates
 inState
-PRUint8
+uint8_t
 aWidgetType
 nsIFrame
 *
@@ -8994,11 +8994,11 @@ bool
 inIsVertical
 bool
 inIsReverse
-PRInt32
+int32_t
 inCurrentValue
-PRInt32
+int32_t
 inMinValue
-PRInt32
+int32_t
 inMaxValue
 nsIFrame
 *
@@ -9972,7 +9972,7 @@ childContent
 )
 continue
 ;
-PRInt32
+int32_t
 attrIndex
 =
 childContent
@@ -10124,7 +10124,7 @@ aShouldGetButtonStates
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-PRInt32
+int32_t
 curpos
 =
 CheckIntAttr
@@ -10137,7 +10137,7 @@ curpos
 0
 )
 ;
-PRInt32
+int32_t
 minpos
 =
 CheckIntAttr
@@ -10150,7 +10150,7 @@ minpos
 0
 )
 ;
-PRInt32
+int32_t
 maxpos
 =
 CheckIntAttr
@@ -10163,7 +10163,7 @@ maxpos
 100
 )
 ;
-PRInt32
+int32_t
 thumbSize
 =
 CheckIntAttr
@@ -10373,11 +10373,11 @@ bug
 .
 *
 /
-PRInt32
+int32_t
 longSideLength
 =
 (
-PRInt32
+int32_t
 )
 (
 isHorizontal
@@ -11493,7 +11493,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 const
 nsRect
@@ -11516,7 +11516,7 @@ into
 the
 correct
 port
-PRInt32
+int32_t
 p2a
 =
 aContext
@@ -13481,7 +13481,7 @@ case
 NS_THEME_SCALE_VERTICAL
 :
 {
-PRInt32
+int32_t
 curpos
 =
 CheckIntAttr
@@ -13494,7 +13494,7 @@ curpos
 0
 )
 ;
-PRInt32
+int32_t
 minpos
 =
 CheckIntAttr
@@ -13507,7 +13507,7 @@ minpos
 0
 )
 ;
-PRInt32
+int32_t
 maxpos
 =
 CheckIntAttr
@@ -14413,7 +14413,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -14843,7 +14843,7 @@ is
 partially
 concave
 .
-PRInt32
+int32_t
 endcapSize
 =
 isSmall
@@ -14977,7 +14977,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntMargin
 *
@@ -15086,14 +15086,14 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsRect
 *
 aOverflowRect
 )
 {
-PRInt32
+int32_t
 p2a
 =
 aContext
@@ -15278,14 +15278,14 @@ false
 }
 static
 const
-PRInt32
+int32_t
 kRegularScrollbarThumbMinSize
 =
 22
 ;
 static
 const
-PRInt32
+int32_t
 kSmallScrollbarThumbMinSize
 =
 19
@@ -15302,7 +15302,7 @@ aContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIntSize
 *
@@ -15870,7 +15870,7 @@ aWidgetType
 NS_THEME_SCROLLBAR_THUMB_HORIZONTAL
 )
 ;
-PRInt32
+int32_t
 &
 minSize
 =
@@ -15975,7 +15975,7 @@ scrollbarFrame
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 themeMetric
 =
 (
@@ -16077,7 +16077,7 @@ style
 it
 has
 .
-PRInt32
+int32_t
 themeMetric
 =
 (
@@ -16275,7 +16275,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 nsIAtom
 *
@@ -16602,7 +16602,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -17051,7 +17051,7 @@ nsNativeThemeCocoa
 :
 WidgetIsContainer
 (
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -17105,7 +17105,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {
@@ -17171,7 +17171,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 {

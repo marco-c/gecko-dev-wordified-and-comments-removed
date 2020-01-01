@@ -105,11 +105,11 @@ const
 size_t
 *
 aBucketSizes
-PRInt32
+int32_t
 aNumBuckets
-PRInt32
+int32_t
 aInitialSize
-PRInt32
+int32_t
 aAlign
 )
 {
@@ -144,7 +144,7 @@ PL_FinishArenaPool
 mPool
 )
 ;
-PRInt32
+int32_t
 bucketspace
 =
 aNumBuckets
@@ -171,7 +171,7 @@ nullptr
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

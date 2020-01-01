@@ -97,9 +97,9 @@ const
 char_type
 *
 rhs
-PRUint32
+uint32_t
 lLength
-PRUint32
+uint32_t
 rLength
 )
 const
@@ -123,10 +123,10 @@ rLength
 -
 1
 ;
-PRInt32
+int32_t
 result
 =
-PRInt32
+int32_t
 (
 PL_strncasecmp
 (

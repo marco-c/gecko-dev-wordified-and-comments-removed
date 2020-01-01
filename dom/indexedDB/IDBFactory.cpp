@@ -305,7 +305,7 @@ nullptr
 )
 {
 }
-PRInt64
+int64_t
 id
 ;
 ObjectStoreInfo
@@ -1564,7 +1564,7 @@ aConnection
 nsIAtom
 *
 aDatabaseId
-PRUint64
+uint64_t
 *
 aVersion
 ObjectStoreInfoArray
@@ -1734,7 +1734,7 @@ AsInt64
 1
 )
 ;
-PRInt32
+int32_t
 columnType
 ;
 nsresult
@@ -1950,7 +1950,7 @@ hasResult
 hasResult
 )
 {
-PRInt64
+int64_t
 objectStoreId
 =
 stmt
@@ -1969,7 +1969,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2225,7 +2225,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-PRInt64
+int64_t
 version
 =
 0
@@ -2247,7 +2247,7 @@ aVersion
 =
 NS_MAX
 <
-PRInt64
+int64_t
 >
 (
 version
@@ -2267,7 +2267,7 @@ SetDatabaseMetadata
 DatabaseInfo
 *
 aDatabaseInfo
-PRUint64
+uint64_t
 aVersion
 ObjectStoreInfoArray
 &
@@ -2352,7 +2352,7 @@ aVersion
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2523,7 +2523,7 @@ const
 nsAString
 &
 aName
-PRInt64
+int64_t
 aVersion
 bool
 aDeleting
@@ -2861,12 +2861,12 @@ const
 nsAString
 &
 aName
-PRInt64
+int64_t
 aVersion
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aArgc
 nsIIDBOpenDBRequest
 *
@@ -3000,7 +3000,7 @@ aSecond
 JSContext
 *
 aCx
-PRInt16
+int16_t
 *
 _retval
 )

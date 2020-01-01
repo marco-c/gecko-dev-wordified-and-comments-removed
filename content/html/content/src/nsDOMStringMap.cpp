@@ -697,7 +697,7 @@ nsString
 aResult
 )
 {
-PRUint32
+uint32_t
 attrCount
 =
 mElement
@@ -709,7 +709,7 @@ GetAttrCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

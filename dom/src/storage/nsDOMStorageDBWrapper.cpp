@@ -556,11 +556,11 @@ nsAString
 aValue
 bool
 aSecure
-PRInt32
+int32_t
 aQuota
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 *
 aNewUsage
 )
@@ -624,7 +624,7 @@ nsAString
 aKey
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 aKeyUsage
 )
 {
@@ -895,7 +895,7 @@ DOMStorageImpl
 aStorage
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 *
 aUsage
 )
@@ -923,7 +923,7 @@ nsACString
 aDomain
 bool
 aIncludeSubDomains
-PRInt32
+int32_t
 *
 aUsage
 bool
@@ -1054,7 +1054,7 @@ Append
 scheme
 )
 ;
-PRInt32
+int32_t
 port
 =
 NS_GetRealPort

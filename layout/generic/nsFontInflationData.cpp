@@ -576,7 +576,7 @@ result
 =
 aKnownCommonAncestor
 ;
-PRUint32
+uint32_t
 i1
 =
 ancestors1
@@ -725,7 +725,7 @@ f
 )
 ;
 }
-PRUint32
+uint32_t
 len
 =
 frames
@@ -768,7 +768,7 @@ PresContext
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -912,7 +912,7 @@ ComputedWidth
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 len
@@ -1119,7 +1119,7 @@ PresShell
 (
 )
 ;
-PRUint32
+uint32_t
 lineThreshold
 =
 presShell
@@ -1224,7 +1224,7 @@ lists
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1379,7 +1379,7 @@ GetPrimaryFrame
 )
 )
 {
-PRUint32
+uint32_t
 len
 =
 nsTextFrameUtils
@@ -1468,7 +1468,7 @@ mTextThreshold
 ;
 }
 static
-PRUint32
+uint32_t
 DoCharCountOfLargestOption
 (
 nsIFrame
@@ -1476,7 +1476,7 @@ nsIFrame
 aContainer
 )
 {
-PRUint32
+uint32_t
 result
 =
 0
@@ -1506,7 +1506,7 @@ GetNextSibling
 )
 )
 {
-PRUint32
+uint32_t
 optionResult
 ;
 if
@@ -1626,7 +1626,7 @@ result
 ;
 }
 static
-PRUint32
+uint32_t
 CharCountOfLargestOption
 (
 nsIFrame
@@ -1794,7 +1794,7 @@ GetPrimaryFrame
 )
 )
 {
-PRUint32
+uint32_t
 len
 =
 nsTextFrameUtils
@@ -1879,7 +1879,7 @@ mFont
 .
 size
 ;
-PRInt32
+int32_t
 charCount
 =
 static_cast
@@ -1931,7 +1931,7 @@ mFont
 .
 size
 ;
-PRInt32
+int32_t
 charCount
 =
 CharCountOfLargestOption
@@ -1986,7 +1986,7 @@ mFont
 .
 size
 ;
-PRInt32
+int32_t
 charCount
 =
 CharCountOfLargestOption

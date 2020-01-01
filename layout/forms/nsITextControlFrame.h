@@ -57,7 +57,7 @@ aEditor
 NS_IMETHOD
 GetTextLength
 (
-PRInt32
+int32_t
 *
 aTextLength
 )
@@ -67,7 +67,7 @@ aTextLength
 NS_IMETHOD
 SetSelectionStart
 (
-PRInt32
+int32_t
 aSelectionStart
 )
 =
@@ -76,7 +76,7 @@ aSelectionStart
 NS_IMETHOD
 SetSelectionEnd
 (
-PRInt32
+int32_t
 aSelectionEnd
 )
 =
@@ -85,9 +85,9 @@ aSelectionEnd
 NS_IMETHOD
 SetSelectionRange
 (
-PRInt32
+int32_t
 aSelectionStart
-PRInt32
+int32_t
 aSelectionEnd
 SelectionDirection
 aDirection
@@ -100,10 +100,10 @@ eNone
 NS_IMETHOD
 GetSelectionRange
 (
-PRInt32
+int32_t
 *
 aSelectionStart
-PRInt32
+int32_t
 *
 aSelectionEnd
 SelectionDirection

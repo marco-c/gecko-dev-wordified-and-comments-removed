@@ -119,7 +119,7 @@ mType
 bool
 entryVerified
 ;
-PRInt16
+int16_t
 status
 ;
 nsCString
@@ -1494,7 +1494,7 @@ JAR_NO_MANIFEST
 return
 NS_OK
 ;
-PRInt16
+int16_t
 requestedStatus
 ;
 if
@@ -1552,7 +1552,7 @@ entryVerified
 nsXPIDLCString
 entryData
 ;
-PRUint32
+uint32_t
 entryDataLen
 ;
 rv
@@ -1648,7 +1648,7 @@ nsJAR
 :
 GetManifestEntriesCount
 (
-PRUint32
+uint32_t
 *
 count
 )
@@ -1702,7 +1702,7 @@ char
 *
 *
 aBuf
-PRUint32
+uint32_t
 *
 aBufLen
 )
@@ -1741,7 +1741,7 @@ char
 *
 buf
 ;
-PRUint64
+uint64_t
 len64
 ;
 rv
@@ -1773,11 +1773,11 @@ PR_UINT32_MAX
 NS_ERROR_FILE_CORRUPTED
 )
 ;
-PRUint32
+uint32_t
 len
 =
 (
-PRUint32
+uint32_t
 )
 len64
 ;
@@ -1802,7 +1802,7 @@ buf
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 bytesRead
 ;
 rv
@@ -1874,7 +1874,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsJAR
 :
 :
@@ -1887,7 +1887,7 @@ char
 src
 )
 {
-PRInt32
+int32_t
 length
 ;
 char
@@ -2240,7 +2240,7 @@ NS_ERROR_FILE_CORRUPTED
 nsXPIDLCString
 manifestBuffer
 ;
-PRUint32
+uint32_t
 manifestLen
 ;
 rv
@@ -2405,7 +2405,7 @@ sigFilename
 manifestFilename
 )
 ;
-PRInt32
+int32_t
 extension
 =
 sigFilename
@@ -2450,7 +2450,7 @@ extension
 nsXPIDLCString
 sigBuffer
 ;
-PRUint32
+uint32_t
 sigLen
 ;
 {
@@ -2575,7 +2575,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 verifyError
 ;
 rv
@@ -2665,7 +2665,7 @@ const
 char
 *
 filebuf
-PRInt16
+int16_t
 aFileType
 )
 {
@@ -2679,7 +2679,7 @@ filebuf
 nsCAutoString
 curLine
 ;
-PRInt32
+int32_t
 linelen
 ;
 linelen
@@ -2963,7 +2963,7 @@ curItemMF
 ;
 else
 {
-PRUint32
+uint32_t
 sectionLength
 =
 curPos
@@ -3190,7 +3190,7 @@ curPos
 =
 nextLineStart
 ;
-PRInt32
+int32_t
 continuationLen
 =
 ReadLine
@@ -3221,7 +3221,7 @@ linelen
 continuationLen
 ;
 }
-PRInt32
+int32_t
 colonPos
 =
 curLine
@@ -3402,7 +3402,7 @@ const
 char
 *
 aEntryData
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -3512,7 +3512,7 @@ const
 nsACString
 &
 aFilename
-PRInt16
+int16_t
 errorCode
 )
 {
@@ -3856,7 +3856,7 @@ const
 char
 *
 aInBuf
-PRUint32
+uint32_t
 aLen
 nsCString
 &
@@ -3931,7 +3931,7 @@ Update
 (
 (
 const
-PRUint8
+uint8_t
 *
 )
 aInBuf
@@ -4184,7 +4184,7 @@ nsJARItem
 :
 GetCompression
 (
-PRUint16
+uint16_t
 *
 aCompression
 )
@@ -4209,7 +4209,7 @@ nsJARItem
 :
 GetSize
 (
-PRUint32
+uint32_t
 *
 aSize
 )
@@ -4234,7 +4234,7 @@ nsJARItem
 :
 GetRealSize
 (
-PRUint32
+uint32_t
 *
 aRealsize
 )
@@ -4259,7 +4259,7 @@ nsJARItem
 :
 GetCRC32
 (
-PRUint32
+uint32_t
 *
 aCrc32
 )
@@ -4408,7 +4408,7 @@ nsZipReaderCache
 :
 Init
 (
-PRUint32
+uint32_t
 cacheSize
 )
 {

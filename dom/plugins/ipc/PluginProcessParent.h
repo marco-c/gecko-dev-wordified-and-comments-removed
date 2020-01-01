@@ -111,7 +111,7 @@ PluginProcessParent
 bool
 Launch
 (
-PRInt32
+int32_t
 timeoutMs
 )
 ;

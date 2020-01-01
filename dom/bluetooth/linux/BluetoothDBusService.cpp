@@ -6418,7 +6418,7 @@ DBusMessage
 aReply
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aOutHandles
@@ -6519,7 +6519,7 @@ err
 }
 nsTArray
 <
-PRUint32
+uint32_t
 >
 BluetoothDBusService
 :
@@ -6533,7 +6533,7 @@ aAdapterPath
 const
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aServices
@@ -6549,7 +6549,7 @@ NS_IsMainThread
 ;
 nsTArray
 <
-PRUint32
+uint32_t
 >
 ret
 ;
@@ -6664,7 +6664,7 @@ aAdapterPath
 const
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aServiceHandles
@@ -7203,7 +7203,7 @@ const
 nsAString
 &
 aDeviceAddress
-PRUint32
+uint32_t
 aPasskey
 )
 {

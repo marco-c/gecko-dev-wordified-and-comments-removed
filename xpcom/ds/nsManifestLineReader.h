@@ -45,7 +45,7 @@ Init
 char
 *
 base
-PRUint32
+uint32_t
 flen
 )
 {
@@ -311,7 +311,7 @@ return
 mCur
 ;
 }
-PRUint32
+uint32_t
 LineLength
 (
 )
@@ -352,7 +352,7 @@ char
 *
 mCur
 ;
-PRUint32
+uint32_t
 mLength
 ;
 char

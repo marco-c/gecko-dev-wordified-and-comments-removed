@@ -155,7 +155,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRUint64
+uint64_t
 state
 =
 acc
@@ -177,7 +177,7 @@ INVISIBLE
 return
 S_OK
 ;
-PRInt32
+int32_t
 x
 =
 0
@@ -253,7 +253,7 @@ return
 S_OK
 ;
 }
-PRInt32
+int32_t
 parentx
 =
 0

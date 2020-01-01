@@ -1683,7 +1683,7 @@ NS_IsMainThread
 )
 )
 ;
-PRUint8
+uint8_t
 P
 [
 ]
@@ -1819,7 +1819,7 @@ P
 0x17
 }
 ;
-PRUint8
+uint8_t
 Q
 [
 ]
@@ -1847,7 +1847,7 @@ Q
 0xC3
 }
 ;
-PRUint8
+uint8_t
 G
 [
 ]
@@ -2390,7 +2390,7 @@ PR_GetError
 }
 else
 {
-PRUint8
+uint8_t
 hash
 [
 32
@@ -2437,14 +2437,14 @@ hashAlg
 hash
 const_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (

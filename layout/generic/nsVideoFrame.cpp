@@ -485,7 +485,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-PRUint32
+uint32_t
 aFliter
 )
 {
@@ -888,7 +888,7 @@ scaleHint
 (
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 r
@@ -899,7 +899,7 @@ Width
 )
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 r
@@ -1311,7 +1311,7 @@ aMetrics
 height
 )
 ;
-PRUint32
+uint32_t
 posterHeight
 posterWidth
 ;
@@ -1489,7 +1489,7 @@ CSSPixelsToAppUnits
 (
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 scaledRatio
@@ -2281,7 +2281,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2525,7 +2525,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 status
 =
 0
@@ -2844,12 +2844,12 @@ nsVideoFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {

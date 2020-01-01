@@ -315,7 +315,7 @@ in
 nsIVariant
 aValue
 in
-PRInt32
+int32_t
 aExpiration
 )
 ;
@@ -1273,7 +1273,7 @@ window
 /
 readonly
 attribute
-PRInt32
+int32_t
 index
 ;
 /

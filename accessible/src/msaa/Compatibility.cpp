@@ -188,7 +188,7 @@ aMinor
 )
 ;
 }
-PRUint32
+uint32_t
 Compatibility
 :
 :
@@ -433,7 +433,7 @@ Compatibility
 :
 UNKNOWN
 ;
-PRUint32
+uint32_t
 temp
 =
 sConsumers

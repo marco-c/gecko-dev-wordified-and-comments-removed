@@ -616,7 +616,7 @@ mSettings
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -839,7 +839,7 @@ const
 nsACString
 &
 aKey
-PRInt32
+int32_t
 aValue
 )
 {
@@ -1078,7 +1078,7 @@ const
 nsACString
 &
 aKey
-PRInt32
+int32_t
 *
 aResult
 )
@@ -1455,7 +1455,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1580,7 +1580,7 @@ g_settings_list_schemas
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

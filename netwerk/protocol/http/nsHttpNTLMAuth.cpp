@@ -215,7 +215,7 @@ const
 nsCSubstring
 &
 matchHost
-PRInt32
+int32_t
 matchPort
 const
 char
@@ -317,7 +317,7 @@ matchPort
 !
 =
 (
-PRInt32
+int32_t
 )
 port
 )
@@ -340,7 +340,7 @@ hostEnd
 return
 true
 ;
-PRUint32
+uint32_t
 hostLen
 =
 hostEnd
@@ -537,7 +537,7 @@ nsCAutoString
 scheme
 host
 ;
-PRInt32
+int32_t
 port
 ;
 if
@@ -1370,7 +1370,7 @@ nsISupports
 *
 *
 continuationState
-PRUint32
+uint32_t
 *
 aFlags
 char
@@ -1446,7 +1446,7 @@ inBuf
 *
 outBuf
 ;
-PRUint32
+uint32_t
 inBufLen
 outBufLen
 ;
@@ -1670,10 +1670,10 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 length
 ;
-PRUint8
+uint8_t
 *
 certArray
 ;
@@ -1964,7 +1964,7 @@ nsHttpNTLMAuth
 :
 GetAuthFlags
 (
-PRUint32
+uint32_t
 *
 flags
 )

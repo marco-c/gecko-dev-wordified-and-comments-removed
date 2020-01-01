@@ -256,7 +256,7 @@ in
 nsIWebBrowserChrome
 parent
 in
-PRUint32
+uint32_t
 chromeFlags
 )
 ;

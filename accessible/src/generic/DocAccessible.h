@@ -129,7 +129,7 @@ class
 nsAccessiblePivot
 ;
 const
-PRUint32
+uint32_t
 kDefaultCacheSize
 =
 256
@@ -310,13 +310,13 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeInteractiveState
 (
 )
@@ -333,7 +333,7 @@ virtual
 void
 ApplyARIAState
 (
-PRUint64
+uint64_t
 *
 aState
 )
@@ -490,7 +490,7 @@ mLoadState
 &
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aState
@@ -500,7 +500,7 @@ aState
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aState
@@ -535,7 +535,7 @@ Document
 nullptr
 ;
 }
-PRUint32
+uint32_t
 ChildDocumentCount
 (
 )
@@ -553,7 +553,7 @@ DocAccessible
 *
 GetChildDocumentAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -571,7 +571,7 @@ nullptr
 nsresult
 FireDelayedAccessibleEvent
 (
-PRUint32
+uint32_t
 aEventType
 nsINode
 *
@@ -874,7 +874,7 @@ RemoveEventListeners
 void
 NotifyOfLoad
 (
-PRUint32
+uint32_t
 aLoadEventType
 )
 {
@@ -1002,7 +1002,7 @@ AttributeChangedImpl
 nsIContent
 *
 aContent
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1086,7 +1086,7 @@ eAlertAccessible
 2
 }
 ;
-PRUint32
+uint32_t
 UpdateTreeInternal
 (
 Accessible
@@ -1167,13 +1167,13 @@ nsITimer
 >
 mScrollWatchTimer
 ;
-PRUint16
+uint16_t
 mScrollPositionChangedTicks
 ;
-PRUint32
+uint32_t
 mLoadState
 ;
-PRUint32
+uint32_t
 mLoadEventType
 ;
 nsCOMPtr

@@ -131,7 +131,7 @@ ref
 native
 PRUint32Ref
 (
-PRUint32
+uint32_t
 )
 ;
 [
@@ -140,7 +140,7 @@ ref
 native
 PRUint16Ref
 (
-PRUint16
+uint16_t
 )
 ;
 [

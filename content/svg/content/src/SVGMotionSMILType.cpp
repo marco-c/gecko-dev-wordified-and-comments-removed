@@ -835,7 +835,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 length
 =
 leftArr
@@ -846,7 +846,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -969,7 +969,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-PRUint32
+uint32_t
 aCount
 )
 const
@@ -2157,7 +2157,7 @@ aSMILVal
 gfxMatrix
 matrix
 ;
-PRUint32
+uint32_t
 length
 =
 arr
@@ -2168,7 +2168,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

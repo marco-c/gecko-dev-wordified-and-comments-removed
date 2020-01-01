@@ -259,7 +259,7 @@ NS_UnescapeURL
 flatComponent
 )
 ;
-PRInt32
+int32_t
 foundIndex
 =
 gVolumeList

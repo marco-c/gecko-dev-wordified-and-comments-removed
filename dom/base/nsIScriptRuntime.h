@@ -108,7 +108,7 @@ aRuntime
 nsresult
 NS_GetScriptRuntimeByID
 (
-PRUint32
+uint32_t
 aLanguageID
 nsIScriptRuntime
 *

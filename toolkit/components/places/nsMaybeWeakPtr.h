@@ -301,7 +301,7 @@ method
 \
 for
 (
-PRUint32
+uint32_t
 array_idx
 =
 0

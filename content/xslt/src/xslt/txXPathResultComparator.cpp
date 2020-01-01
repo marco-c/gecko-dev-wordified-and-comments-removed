@@ -552,7 +552,7 @@ kAscending
 nsresult
 rv
 ;
-PRInt32
+int32_t
 result
 =
 -
@@ -672,7 +672,7 @@ kCollationCaseSensitive
 *
 caseString
 (
-PRUint8
+uint8_t
 *
 *
 )
@@ -770,7 +770,7 @@ kCollationCaseSensitive
 *
 caseString
 (
-PRUint8
+uint8_t
 *
 *
 )
@@ -825,7 +825,7 @@ mCollation
 CompareRawSortKey
 (
 (
-PRUint8
+uint8_t
 *
 )
 strval1
@@ -837,7 +837,7 @@ strval1
 >
 mCaseLength
 (
-PRUint8
+uint8_t
 *
 )
 strval2
@@ -948,7 +948,7 @@ mCaseLength
 PR_Free
 (
 (
-PRUint8
+uint8_t
 *
 )
 mCaseKey

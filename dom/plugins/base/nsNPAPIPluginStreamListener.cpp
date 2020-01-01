@@ -378,9 +378,9 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -431,9 +431,9 @@ WriteFrom
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -460,9 +460,9 @@ reader
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -1276,7 +1276,7 @@ char
 *
 contentType
 ;
-PRUint16
+uint16_t
 streamType
 =
 NP_NORMAL
@@ -1304,7 +1304,7 @@ streamPeer
 GetLength
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -1324,7 +1324,7 @@ streamPeer
 GetLastModified
 (
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -1796,7 +1796,7 @@ streamPeer
 nsIInputStream
 *
 input
-PRUint32
+uint32_t
 length
 )
 {
@@ -1887,7 +1887,7 @@ if
 mStreamBuffer
 )
 {
-PRUint32
+uint32_t
 contentLength
 ;
 streamPeer
@@ -1912,7 +1912,7 @@ mStreamBufferSize
 NS_MIN
 (
 mStreamBufferSize
-PRUint32
+uint32_t
 (
 MAX_PLUGIN_NECKO_BUFFER
 )
@@ -1950,7 +1950,7 @@ GetNPP
 npp
 )
 ;
-PRInt32
+int32_t
 streamPosition
 ;
 streamPeer
@@ -1962,7 +1962,7 @@ GetStreamOffset
 streamPosition
 )
 ;
-PRInt32
+int32_t
 streamOffset
 =
 streamPosition
@@ -1988,7 +1988,7 @@ streamOffset
 if
 (
 (
-PRInt32
+int32_t
 )
 mNPStreamWrapper
 -
@@ -2080,7 +2080,7 @@ mStreamBuffer
 buf
 ;
 }
-PRUint32
+uint32_t
 bytesToRead
 =
 NS_MIN
@@ -2091,7 +2091,7 @@ mStreamBufferSize
 mStreamBufferByteCount
 )
 ;
-PRUint32
+uint32_t
 amountRead
 =
 0
@@ -2177,7 +2177,7 @@ ptrStreamBuffer
 =
 mStreamBuffer
 ;
-PRInt32
+int32_t
 zeroBytesWriteCount
 =
 0
@@ -2189,7 +2189,7 @@ mStreamBufferByteCount
 0
 )
 {
-PRInt32
+int32_t
 numtowrite
 ;
 if
@@ -2337,7 +2337,7 @@ nppPusher
 npp
 )
 ;
-PRInt32
+int32_t
 writeCount
 =
 0
@@ -2601,7 +2601,7 @@ streamPosition
 streamOffset
 )
 {
-PRInt32
+int32_t
 postWriteStreamPosition
 ;
 streamPeer
@@ -2918,7 +2918,7 @@ nsNPAPIPluginStreamListener
 :
 GetStreamType
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -2957,7 +2957,7 @@ timer
 "
 )
 ;
-PRInt32
+int32_t
 oldStreamBufferByteCount
 =
 mStreamBufferByteCount
@@ -3252,7 +3252,7 @@ mNPStream
 notifyData
 )
 {
-PRUint32
+uint32_t
 status
 ;
 if

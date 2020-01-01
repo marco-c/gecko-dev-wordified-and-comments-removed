@@ -329,7 +329,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -483,7 +483,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -499,7 +499,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -536,7 +536,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -784,12 +784,12 @@ aStatus
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -1106,7 +1106,7 @@ aFromLine
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aCount
 )
 {
@@ -1320,7 +1320,7 @@ DoRemoveFrame
 nsIFrame
 *
 aDeletedFrame
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -1394,7 +1394,7 @@ nsReflowStatus
 aStatus
 )
 ;
-PRUint8
+uint8_t
 FindTrailingClear
 (
 )
@@ -1815,10 +1815,10 @@ aPresContext
 nsBlockFrame
 *
 aBlockFrame
-PRInt32
+int32_t
 *
 aOrdinal
-PRInt32
+int32_t
 aDepth
 )
 ;
@@ -1832,10 +1832,10 @@ aPresContext
 nsIFrame
 *
 aKid
-PRInt32
+int32_t
 *
 aOrdinal
-PRInt32
+int32_t
 aDepth
 )
 ;
@@ -2095,7 +2095,7 @@ VerifyOverflowSituation
 (
 )
 ;
-PRInt32
+int32_t
 GetDepth
 (
 )
@@ -2167,7 +2167,7 @@ bool
 gDisableResizeOpt
 ;
 static
-PRInt32
+int32_t
 gNoiseIndent
 ;
 static

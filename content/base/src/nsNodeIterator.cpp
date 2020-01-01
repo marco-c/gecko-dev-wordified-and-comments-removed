@@ -457,7 +457,7 @@ nsNodeIterator
 nsINode
 *
 aRoot
-PRUint32
+uint32_t
 aWhatToShow
 nsIDOMNodeFilter
 *
@@ -642,7 +642,7 @@ nsNodeIterator
 :
 GetWhatToShow
 (
-PRUint32
+uint32_t
 *
 aWhatToShow
 )
@@ -773,7 +773,7 @@ _retval
 nsresult
 rv
 ;
-PRInt16
+int16_t
 filtered
 ;
 *
@@ -1019,7 +1019,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *

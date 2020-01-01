@@ -1427,7 +1427,7 @@ GetLength
 0
 ;
 const
-PRUint32
+uint32_t
 numPoints
 =
 aPointDistances
@@ -1438,7 +1438,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1627,7 +1627,7 @@ SVGMotionSMILAnimationFunction
 :
 CheckValueListDependentAttrs
 (
-PRUint32
+uint32_t
 aNumValues
 )
 {
@@ -1964,7 +1964,7 @@ GetBaseValInSpecifiedUnits
 (
 )
 ;
-PRUint8
+uint8_t
 angleUnit
 =
 svgAngle

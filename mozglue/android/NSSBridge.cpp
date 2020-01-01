@@ -1102,7 +1102,7 @@ request
 .
 data
 (
-PRInt32
+int32_t
 *
 )
 &
@@ -1238,7 +1238,7 @@ unsigned
 char
 *
 data
-PRInt32
+int32_t
 dataLen
 char
 *
@@ -1346,7 +1346,7 @@ char
 *
 *
 result
-PRInt32
+int32_t
 *
 length
 )
@@ -1356,7 +1356,7 @@ rv
 =
 SECSuccess
 ;
-PRUint32
+uint32_t
 len
 =
 strlen

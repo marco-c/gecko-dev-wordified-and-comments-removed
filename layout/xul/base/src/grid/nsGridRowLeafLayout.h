@@ -101,10 +101,10 @@ CountRowsColumns
 nsIFrame
 *
 aBox
-PRInt32
+int32_t
 &
 aRowCount
-PRInt32
+int32_t
 &
 aComputedColumnCount
 )
@@ -122,7 +122,7 @@ aState
 )
 ;
 virtual
-PRInt32
+int32_t
 BuildRows
 (
 nsIFrame
@@ -165,7 +165,7 @@ aMinSize
 nscoord
 &
 aMaxSize
-PRInt32
+int32_t
 &
 aFlexes
 )

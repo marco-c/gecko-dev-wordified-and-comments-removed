@@ -92,7 +92,7 @@ aList
 nsSVGElement
 *
 aElement
-PRUint8
+uint8_t
 aAttrEnum
 )
 ;
@@ -137,7 +137,7 @@ DOMSVGAnimatedNumberList
 nsSVGElement
 *
 aElement
-PRUint8
+uint8_t
 aAttrEnum
 )
 :
@@ -192,7 +192,7 @@ nsSVGElement
 >
 mElement
 ;
-PRUint8
+uint8_t
 mAttrEnum
 ;
 }

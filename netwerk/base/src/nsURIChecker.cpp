@@ -241,7 +241,7 @@ httpChannel
 return
 NS_BINDING_SUCCEEDED
 ;
-PRUint32
+uint32_t
 responseStatus
 ;
 rv
@@ -314,7 +314,7 @@ nsIURI
 >
 uri
 ;
-PRUint32
+uint32_t
 loadFlags
 ;
 rv
@@ -1019,9 +1019,9 @@ aCtxt
 nsIInputStream
 *
 aInput
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1117,7 +1117,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *

@@ -549,7 +549,7 @@ nsWindowInfo
 inInfo
 )
 {
-PRUint32
+uint32_t
 index
 =
 0
@@ -1161,7 +1161,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRInt32
+int32_t
 nsWindowMediator
 :
 :
@@ -1184,7 +1184,7 @@ inEnumerator
 nullptr
 ;
 }
-PRInt32
+int32_t
 nsWindowMediator
 :
 :
@@ -1321,7 +1321,7 @@ PRUnichar
 inType
 )
 {
-PRInt32
+int32_t
 lastTimeStamp
 =
 -
@@ -1551,12 +1551,12 @@ CalculateZPosition
 nsIXULWindow
 *
 inWindow
-PRUint32
+uint32_t
 inPosition
 nsIWidget
 *
 inBelow
-PRUint32
+uint32_t
 *
 outPosition
 nsIWidget
@@ -1682,7 +1682,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 inZ
 ;
 GetZLevel
@@ -2151,7 +2151,7 @@ SetZPosition
 nsIXULWindow
 *
 inWindow
-PRUint32
+uint32_t
 inPosition
 nsIXULWindow
 *
@@ -2389,7 +2389,7 @@ GetZLevel
 nsIXULWindow
 *
 aWindow
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -2458,7 +2458,7 @@ SetZLevel
 nsIXULWindow
 *
 aWindow
-PRUint32
+uint32_t
 aZLevel
 )
 {
@@ -2606,7 +2606,7 @@ scan
 lowest
 )
 {
-PRUint32
+uint32_t
 scanZ
 =
 scan
@@ -2860,7 +2860,7 @@ scan
 mTopmostWindow
 )
 {
-PRUint32
+uint32_t
 scanZ
 =
 scan

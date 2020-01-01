@@ -379,7 +379,7 @@ sSystemMetrics
 #
 ifdef
 XP_WIN
-PRUint8
+uint8_t
 nsCSSRuleProcessor
 :
 :
@@ -481,7 +481,7 @@ const
 RuleSelectorPair
 &
 aRuleSelectorPair
-PRInt32
+int32_t
 aIndex
 bool
 aQuirksMode
@@ -502,7 +502,7 @@ aQuirksMode
 )
 ;
 }
-PRInt32
+int32_t
 mIndex
 ;
 uint32_t
@@ -1865,7 +1865,7 @@ RuleSelectorPair
 aRuleInfo
 )
 ;
-PRInt32
+int32_t
 mRuleCount
 ;
 PLDHashTable
@@ -1902,7 +1902,7 @@ EnumData
 *
 mEnumList
 ;
-PRInt32
+int32_t
 mEnumListSize
 ;
 bool
@@ -1947,37 +1947,37 @@ data
 #
 ifdef
 RULE_HASH_STATS
-PRUint32
+uint32_t
 mUniversalSelectors
 ;
-PRUint32
+uint32_t
 mNameSpaceSelectors
 ;
-PRUint32
+uint32_t
 mTagSelectors
 ;
-PRUint32
+uint32_t
 mClassSelectors
 ;
-PRUint32
+uint32_t
 mIdSelectors
 ;
-PRUint32
+uint32_t
 mElementsMatched
 ;
-PRUint32
+uint32_t
 mElementUniversalCalls
 ;
-PRUint32
+uint32_t
 mElementNameSpaceCalls
 ;
-PRUint32
+uint32_t
 mElementTagCalls
 ;
-PRUint32
+uint32_t
 mElementClassCalls
 ;
-PRUint32
+uint32_t
 mElementIdCalls
 ;
 #
@@ -2245,7 +2245,7 @@ n
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2278,7 +2278,7 @@ i
 nsAutoString
 selectorText
 ;
-PRUint32
+uint32_t
 lineNumber
 =
 value
@@ -2969,7 +2969,7 @@ NodeMatchContext
 aNodeContext
 )
 {
-PRInt32
+int32_t
 nameSpace
 =
 aElement
@@ -3028,7 +3028,7 @@ tag
 "
 )
 ;
-PRInt32
+int32_t
 classCount
 =
 classList
@@ -3042,7 +3042,7 @@ GetAtomCount
 :
 0
 ;
-PRInt32
+int32_t
 testCount
 =
 classCount
@@ -3078,7 +3078,7 @@ mEnumListSize
 ]
 ;
 }
-PRInt32
+int32_t
 valueCount
 =
 0
@@ -3320,7 +3320,7 @@ ops
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -3466,12 +3466,12 @@ valueCount
 1
 )
 {
-PRInt32
+int32_t
 valueIndex
 =
 0
 ;
-PRInt32
+int32_t
 lowestRuleIndex
 =
 mEnumList
@@ -3486,7 +3486,7 @@ mIndex
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 1
@@ -3500,7 +3500,7 @@ valueCount
 index
 )
 {
-PRInt32
+int32_t
 ruleIndex
 =
 mEnumList
@@ -4274,7 +4274,7 @@ mXULTreeRules
 endif
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4474,7 +4474,7 @@ aMallocSizeOf
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4687,7 +4687,7 @@ const
 sheet_array_type
 &
 aSheets
-PRUint8
+uint8_t
 aSheetType
 )
 :
@@ -4859,7 +4859,7 @@ sSystemMetrics
 false
 )
 ;
-PRInt32
+int32_t
 metricResult
 =
 LookAndFeel
@@ -5383,7 +5383,7 @@ SetWindowsThemeIdentifier
 (
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 metricResult
@@ -5611,7 +5611,7 @@ NoIndex
 #
 ifdef
 XP_WIN
-PRUint8
+uint8_t
 nsCSSRuleProcessor
 :
 :
@@ -6552,7 +6552,7 @@ NODE_HAS_SLOW_SELECTOR_LATER_SIBLINGS
 ;
 }
 const
-PRInt32
+int32_t
 index
 =
 aTreeMatchContext
@@ -6580,7 +6580,7 @@ false
 ;
 }
 const
-PRInt32
+int32_t
 a
 =
 pseudoClass
@@ -6594,7 +6594,7 @@ mNumbers
 ]
 ;
 const
-PRInt32
+int32_t
 b
 =
 pseudoClass
@@ -6623,7 +6623,7 @@ index
 ;
 }
 const
-PRInt32
+int32_t
 n
 =
 (
@@ -6786,7 +6786,7 @@ child
 =
 nullptr
 ;
-PRInt32
+int32_t
 index
 =
 -
@@ -7535,7 +7535,7 @@ child
 =
 nullptr
 ;
-PRInt32
+int32_t
 index
 =
 -
@@ -7781,12 +7781,12 @@ StripWhitespace
 (
 )
 ;
-PRInt32
+int32_t
 begin
 =
 0
 ;
-PRInt32
+int32_t
 len
 =
 language
@@ -7802,7 +7802,7 @@ begin
 len
 )
 {
-PRInt32
+int32_t
 end
 =
 language
@@ -8097,7 +8097,7 @@ SetFlags
 NODE_HAS_EDGE_CHILD_SELECTOR
 )
 ;
-PRInt32
+int32_t
 index
 =
 -
@@ -8215,7 +8215,7 @@ SetFlags
 NODE_HAS_EDGE_CHILD_SELECTOR
 )
 ;
-PRUint32
+uint32_t
 index
 =
 parent
@@ -8479,7 +8479,7 @@ child
 =
 nullptr
 ;
-PRInt32
+int32_t
 index
 =
 -
@@ -9285,7 +9285,7 @@ aSelector
 mAttrList
 )
 {
-PRUint32
+uint32_t
 attrCount
 =
 aElement
@@ -9376,7 +9376,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9879,7 +9879,7 @@ SetFlags
 NODE_HAS_SLOW_SELECTOR_LATER_SIBLINGS
 )
 ;
-PRInt32
+int32_t
 index
 =
 parent
@@ -11604,7 +11604,7 @@ if
 elementClasses
 )
 {
-PRInt32
+int32_t
 atomCount
 =
 elementClasses
@@ -11616,7 +11616,7 @@ GetAtomCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -13296,7 +13296,7 @@ mRuleSelectorPairs
 )
 {
 }
-PRInt32
+int32_t
 mWeight
 ;
 PerWeightDataListItem
@@ -13468,7 +13468,7 @@ aKeyframesRules
 nsMediaQueryResultCacheKey
 &
 aKey
-PRUint8
+uint8_t
 aSheetType
 )
 :
@@ -13580,7 +13580,7 @@ mArena
 PLDHashTable
 mRulesByWeight
 ;
-PRUint8
+uint8_t
 mSheetType
 ;
 }
@@ -13610,7 +13610,7 @@ CascadeEnumData
 )
 aData
 ;
-PRInt32
+int32_t
 type
 =
 aRule
@@ -13676,7 +13676,7 @@ sel
 mNext
 )
 {
-PRInt32
+int32_t
 weight
 =
 sel
@@ -14169,7 +14169,7 @@ aArrayData
 )
 {
 }
-PRInt32
+int32_t
 mIndex
 ;
 PerWeightData
@@ -14188,7 +14188,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -14431,7 +14431,7 @@ return
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14467,7 +14467,7 @@ data
 return
 ;
 }
-PRUint32
+uint32_t
 weightCount
 =
 data
@@ -14520,7 +14520,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14862,7 +14862,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 ancestors
@@ -14907,7 +14907,7 @@ MOZ_ASSERT
 mFilter
 )
 ;
-PRUint32
+uint32_t
 oldLength
 =
 mHashes
@@ -14998,7 +14998,7 @@ if
 classes
 )
 {
-PRUint32
+uint32_t
 classCount
 =
 classes
@@ -15010,7 +15010,7 @@ GetAtomCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15044,7 +15044,7 @@ hash
 ;
 }
 }
-PRUint32
+uint32_t
 newLength
 =
 mHashes
@@ -15055,7 +15055,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 oldLength
@@ -15116,7 +15116,7 @@ Length
 )
 )
 ;
-PRUint32
+uint32_t
 popTargetLength
 =
 mPopTargets
@@ -15125,7 +15125,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 newLength
 =
 mPopTargets
@@ -15158,7 +15158,7 @@ popTargetLength
 ;
 #
 endif
-PRUint32
+uint32_t
 oldLength
 =
 mHashes
@@ -15169,7 +15169,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 newLength

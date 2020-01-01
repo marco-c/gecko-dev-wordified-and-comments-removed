@@ -812,7 +812,7 @@ GetIntImpl
 (
 IntID
 aID
-PRInt32
+int32_t
 &
 aResult
 )

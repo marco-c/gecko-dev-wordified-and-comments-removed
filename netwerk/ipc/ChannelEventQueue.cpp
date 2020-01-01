@@ -43,7 +43,7 @@ mFlushing
 =
 true
 ;
-PRUint32
+uint32_t
 i
 ;
 for

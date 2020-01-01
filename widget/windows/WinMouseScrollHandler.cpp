@@ -975,13 +975,13 @@ const
 nsIntPoint
 &
 aPoint
-PRUint32
+uint32_t
 aNativeMessage
-PRInt32
+int32_t
 aDelta
-PRUint32
+uint32_t
 aModifierFlags
-PRUint32
+uint32_t
 aAdditionalFlags
 )
 {
@@ -1215,7 +1215,7 @@ aModifierFlags
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1233,7 +1233,7 @@ Length
 i
 )
 {
-PRUint8
+uint8_t
 key
 =
 keySequence
@@ -1243,7 +1243,7 @@ i
 .
 mGeneral
 ;
-PRUint8
+uint8_t
 keySpecific
 =
 keySequence
@@ -3107,7 +3107,7 @@ wheelEvent
 .
 deltaX
 ;
-PRInt32
+int32_t
 &
 lineOrPageDelta
 =
@@ -3530,7 +3530,7 @@ mDelta
 )
 ;
 }
-PRInt32
+int32_t
 MouseScrollHandler
 :
 :
@@ -3581,7 +3581,7 @@ EventInfo
 aNewEvent
 )
 {
-PRInt32
+int32_t
 timeout
 =
 MouseScrollHandler
@@ -3776,7 +3776,7 @@ Now
 )
 ;
 }
-PRInt32
+int32_t
 MouseScrollHandler
 :
 :
@@ -3798,7 +3798,7 @@ aDelta
 )
 ?
 (
-PRInt32
+int32_t
 )
 floor
 (
@@ -3806,7 +3806,7 @@ aDelta
 )
 :
 (
-PRInt32
+int32_t
 )
 ceil
 (
@@ -3858,7 +3858,7 @@ InitInputEvent
 aWheelEvent
 )
 ;
-PRInt32
+int32_t
 orienter
 =
 mIsVertical
@@ -3898,7 +3898,7 @@ aWheelEvent
 .
 deltaX
 ;
-PRInt32
+int32_t
 &
 lineOrPageDelta
 =
@@ -4973,7 +4973,7 @@ return
 aValueIfAutomatic
 ;
 }
-PRInt32
+int32_t
 lHackValue
 =
 0
@@ -5203,7 +5203,7 @@ Init
 (
 )
 {
-PRInt32
+int32_t
 version
 =
 GetDriverMajorVersion
@@ -5298,7 +5298,7 @@ sUsePinchHack
 )
 ;
 }
-PRInt32
+int32_t
 MouseScrollHandler
 :
 :

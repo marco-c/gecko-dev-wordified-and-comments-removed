@@ -126,7 +126,7 @@ colon
 )
 )
 ;
-PRInt32
+int32_t
 namespaceID
 =
 aResolver
@@ -223,7 +223,7 @@ nsIAtom
 *
 *
 aLocalName
-PRInt32
+int32_t
 *
 aNameSpaceID
 )
@@ -567,7 +567,7 @@ nsAString
 src
 )
 {
-PRInt32
+int32_t
 idx
 =
 src
@@ -717,7 +717,7 @@ origValue
 piValue
 )
 ;
-PRUint32
+uint32_t
 origLength
 =
 origValue
@@ -726,7 +726,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 conversionLoop
 =
 0

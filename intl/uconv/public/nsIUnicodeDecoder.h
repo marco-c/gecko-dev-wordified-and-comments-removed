@@ -82,13 +82,13 @@ const
 char
 *
 aSrc
-PRInt32
+int32_t
 *
 aSrcLength
 PRUnichar
 *
 aDest
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -102,9 +102,9 @@ const
 char
 *
 aSrc
-PRInt32
+int32_t
 aSrcLength
-PRInt32
+int32_t
 *
 aDestLength
 )
@@ -122,7 +122,7 @@ virtual
 void
 SetInputErrorBehavior
 (
-PRInt32
+int32_t
 aBehavior
 )
 =

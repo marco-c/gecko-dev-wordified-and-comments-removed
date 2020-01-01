@@ -216,7 +216,7 @@ aLoadId
 nsIPrincipal
 *
 aLoadingPrincipal
-PRInt32
+int32_t
 aCORSMode
 )
 ;
@@ -247,7 +247,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 len
 )
 ;
@@ -277,7 +277,7 @@ inline
 void
 SetInnerWindowID
 (
-PRUint64
+uint64_t
 aInnerWindowId
 )
 {
@@ -287,7 +287,7 @@ aInnerWindowId
 ;
 }
 inline
-PRUint64
+uint64_t
 InnerWindowID
 (
 )
@@ -319,7 +319,7 @@ return
 mIsMultiPartChannel
 ;
 }
-PRInt32
+int32_t
 GetCORSMode
 (
 )
@@ -485,7 +485,7 @@ aProxyToIgnore
 )
 const
 ;
-PRInt32
+int32_t
 Priority
 (
 )
@@ -497,7 +497,7 @@ AdjustPriority
 imgRequestProxy
 *
 aProxy
-PRInt32
+int32_t
 aDelta
 )
 ;
@@ -658,10 +658,10 @@ nsIChannel
 >
 mNewRedirectChannel
 ;
-PRUint64
+uint64_t
 mInnerWindowId
 ;
-PRInt32
+int32_t
 mCORSMode
 ;
 bool

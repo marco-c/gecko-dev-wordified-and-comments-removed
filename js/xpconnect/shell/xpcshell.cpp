@@ -1268,7 +1268,7 @@ prev
 prev
 )
 {
-PRUint16
+uint16_t
 lang
 ;
 if
@@ -6376,7 +6376,7 @@ FullTrustSecMan
 :
 CanAccess
 (
-PRUint32
+uint32_t
 aAction
 nsAXPCNativeCallContext
 *
@@ -6423,7 +6423,7 @@ char
 aClassName
 jsid
 aProperty
-PRUint32
+uint32_t
 aAction
 )
 {
@@ -6461,7 +6461,7 @@ aPrincipal
 nsIURI
 *
 uri
-PRUint32
+uint32_t
 flags
 )
 {
@@ -6482,7 +6482,7 @@ const
 nsACString
 &
 uri
-PRUint32
+uint32_t
 flags
 )
 {
@@ -6706,7 +6706,7 @@ GetAppCodebasePrincipal
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -6763,7 +6763,7 @@ const
 char
 *
 capability
-PRInt16
+int16_t
 *
 _retval
 )
@@ -7060,7 +7060,7 @@ GetExtendedOrigin
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -7246,7 +7246,7 @@ aInitialThis
 nsIInterfaceInfo
 *
 aInterfaceInfo
-PRUint16
+uint16_t
 aMethodIndex
 bool
 *

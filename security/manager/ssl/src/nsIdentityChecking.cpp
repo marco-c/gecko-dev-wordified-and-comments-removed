@@ -4410,7 +4410,7 @@ First
 continue
 ;
 }
-PRInt32
+int32_t
 seperatorIndex
 =
 buffer
@@ -6466,7 +6466,7 @@ preferedRevMethods
 cert_revocation_method_ocsp
 }
 ;
-PRUint64
+uint64_t
 revMethodFlags
 =
 CERT_REV_M_TEST_USING_THIS_METHOD
@@ -6481,14 +6481,14 @@ CERT_REV_M_IGNORE_MISSING_FRESH_INFO
 |
 CERT_REV_M_STOP_TESTING_ON_FRESH_INFO
 ;
-PRUint64
+uint64_t
 revMethodIndependentFlags
 =
 CERT_REV_MI_TEST_ALL_LOCAL_INFORMATION_FIRST
 |
 CERT_REV_MI_REQUIRE_SOME_FRESH_INFO_AVAILABLE
 ;
-PRUint64
+uint64_t
 methodFlags
 [
 2

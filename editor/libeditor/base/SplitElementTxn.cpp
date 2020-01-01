@@ -160,7 +160,7 @@ aEditor
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -999,7 +999,7 @@ child
 )
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for

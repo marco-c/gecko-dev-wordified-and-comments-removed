@@ -354,7 +354,7 @@ static
 bool
 gHasWarnedUploadChannel2
 ;
-PRInt16
+int16_t
 gBadPortList
 [
 ]
@@ -470,7 +470,7 @@ do
 change
 "
 ;
-PRUint32
+uint32_t
 nsIOService
 :
 :
@@ -478,7 +478,7 @@ gDefaultSegmentSize
 =
 4096
 ;
-PRUint32
+uint32_t
 nsIOService
 :
 :
@@ -1140,7 +1140,7 @@ oldChan
 nsIChannel
 *
 newChan
-PRUint32
+uint32_t
 flags
 nsAsyncRedirectVerifyHelper
 *
@@ -1202,7 +1202,7 @@ GetEntries
 (
 )
 ;
-PRInt32
+int32_t
 len
 =
 entries
@@ -1213,7 +1213,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1414,13 +1414,13 @@ nsIProtocolHandler
 *
 *
 result
-PRUint32
+uint32_t
 start
-PRUint32
+uint32_t
 end
 )
 {
-PRUint32
+uint32_t
 len
 =
 end
@@ -1930,7 +1930,7 @@ const
 char
 *
 scheme
-PRUint32
+uint32_t
 *
 flags
 )
@@ -1984,7 +1984,7 @@ public
 :
 AutoIncrement
 (
-PRUint32
+uint32_t
 *
 var
 )
@@ -2013,7 +2013,7 @@ mVar
 }
 private
 :
-PRUint32
+uint32_t
 *
 mVar
 ;
@@ -2054,7 +2054,7 @@ thread
 )
 ;
 static
-PRUint32
+uint32_t
 recursionCount
 =
 0
@@ -2293,7 +2293,7 @@ aURI
 nsIURI
 *
 aProxyURI
-PRUint32
+uint32_t
 aProxyFlags
 nsCString
 *
@@ -2400,7 +2400,7 @@ aURI
 nsIURI
 *
 aProxyURI
-PRUint32
+uint32_t
 aProxyFlags
 nsIChannel
 *
@@ -2470,7 +2470,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 protoFlags
 ;
 rv
@@ -3239,7 +3239,7 @@ nsIOService
 :
 AllowPort
 (
-PRInt32
+int32_t
 inPort
 const
 char
@@ -3250,7 +3250,7 @@ bool
 _retval
 )
 {
-PRInt16
+int16_t
 port
 =
 inPort
@@ -3273,7 +3273,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 badPortListCnt
 =
 mRestrictedPortList
@@ -3578,7 +3578,7 @@ NECKO_BUFFER_CACHE_COUNT_PREF
 0
 )
 {
-PRInt32
+int32_t
 count
 ;
 if
@@ -3623,7 +3623,7 @@ NECKO_BUFFER_CACHE_SIZE_PREF
 0
 )
 {
-PRInt32
+int32_t
 size
 ;
 if
@@ -3739,7 +3739,7 @@ portList
 portListArray
 )
 ;
-PRUint32
+uint32_t
 index
 ;
 for
@@ -3770,7 +3770,7 @@ StripWhitespace
 (
 )
 ;
-PRInt32
+int32_t
 portBegin
 portEnd
 ;
@@ -3819,7 +3819,7 @@ portEnd
 )
 )
 {
-PRInt32
+int32_t
 curPort
 ;
 if
@@ -3882,7 +3882,7 @@ else
 nsresult
 aErrorCode
 ;
-PRInt32
+int32_t
 port
 =
 portListArray
@@ -4221,7 +4221,7 @@ ProtocolHasFlags
 nsIURI
 *
 uri
-PRUint32
+uint32_t
 flags
 bool
 *
@@ -4258,7 +4258,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 protocolFlags
 ;
 rv
@@ -4308,7 +4308,7 @@ URIChainHasFlags
 nsIURI
 *
 uri
-PRUint32
+uint32_t
 flags
 bool
 *
@@ -4757,7 +4757,7 @@ const
 nsACString
 &
 aString
-PRUint32
+uint32_t
 aEscapeType
 nsACString
 &
@@ -4816,7 +4816,7 @@ const
 nsACString
 &
 aStr
-PRUint32
+uint32_t
 aFlags
 nsACString
 &
@@ -4861,7 +4861,7 @@ const
 nsACString
 &
 aStr
-PRUint32
+uint32_t
 aFlags
 nsACString
 &
@@ -4909,10 +4909,10 @@ aTypeHeader
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 *
 aCharsetStart
-PRInt32
+int32_t
 *
 aCharsetEnd
 bool

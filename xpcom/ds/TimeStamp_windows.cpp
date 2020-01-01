@@ -593,7 +593,7 @@ LONGLONG
 ticksPerGetTickCountResolution
 =
 (
-PRInt64
+int64_t
 (
 timeIncrement
 )
@@ -607,7 +607,7 @@ LONGLONG
 ticksPerGetTickCountResolutionCeiling
 =
 (
-PRInt64
+int64_t
 (
 timeIncrementCeil
 )
@@ -1353,7 +1353,7 @@ TimeDuration
 :
 FromTicks
 (
-PRInt64
+int64_t
 (
 ms2mt
 (
@@ -1384,7 +1384,7 @@ TimeDuration
 :
 FromTicks
 (
-PRInt64
+int64_t
 (
 sResolution
 )
@@ -1580,7 +1580,7 @@ Now
 return
 TimeStamp
 (
-PRUint64
+uint64_t
 (
 CalibratedPerformanceCounter
 (

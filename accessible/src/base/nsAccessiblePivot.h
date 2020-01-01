@@ -111,9 +111,9 @@ NotifyOfPivotChange
 Accessible
 *
 aOldAccessible
-PRInt32
+int32_t
 aOldStart
-PRInt32
+int32_t
 aOldEnd
 PivotMoveReason
 aReason
@@ -183,10 +183,10 @@ Accessible
 >
 mPosition
 ;
-PRInt32
+int32_t
 mStartOffset
 ;
-PRInt32
+int32_t
 mEndOffset
 ;
 nsTObserverArray

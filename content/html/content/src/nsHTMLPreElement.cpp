@@ -107,7 +107,7 @@ nsGenericHTMLElement
 NS_IMETHOD
 GetWidth
 (
-PRInt32
+int32_t
 *
 aWidth
 )
@@ -115,7 +115,7 @@ aWidth
 NS_IMETHOD
 SetWidth
 (
-PRInt32
+int32_t
 aWidth
 )
 ;
@@ -123,7 +123,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -271,7 +271,7 @@ nsHTMLPreElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

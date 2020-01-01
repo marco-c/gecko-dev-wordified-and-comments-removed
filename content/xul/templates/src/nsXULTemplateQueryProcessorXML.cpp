@@ -166,7 +166,7 @@ bool
 aResult
 )
 {
-PRUint32
+uint32_t
 length
 ;
 if
@@ -507,7 +507,7 @@ false
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 length
 ;
 aDataSources
@@ -1722,9 +1722,9 @@ aRight
 nsIAtom
 *
 aVar
-PRUint32
+uint32_t
 aSortHints
-PRInt32
+int32_t
 *
 aResult
 )

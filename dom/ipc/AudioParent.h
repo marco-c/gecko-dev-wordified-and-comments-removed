@@ -56,7 +56,7 @@ nsCString
 &
 data
 const
-PRUint32
+uint32_t
 &
 count
 )
@@ -105,7 +105,7 @@ virtual
 bool
 SendMinWriteSizeDone
 (
-PRInt32
+int32_t
 minFrames
 )
 ;
@@ -123,11 +123,11 @@ SendWriteDone
 ;
 AudioParent
 (
-PRInt32
+int32_t
 aNumChannels
-PRInt32
+int32_t
 aRate
-PRInt32
+int32_t
 aFormat
 )
 ;

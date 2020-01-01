@@ -1715,7 +1715,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 keyCode
 =
 0
@@ -1828,7 +1828,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 keyCode
 =
 0
@@ -2180,11 +2180,11 @@ ForceCompositionEnd
 (
 )
 ;
-PRUint16
+uint16_t
 button
 =
 (
-PRUint16
+uint16_t
 )
 -
 1
@@ -2247,7 +2247,7 @@ parent
 return
 NS_ERROR_NULL_POINTER
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -2334,7 +2334,7 @@ do_QueryObject
 mEditor
 )
 ;
-PRInt32
+int32_t
 clipboard
 =
 nsIClipboard
@@ -2768,7 +2768,7 @@ if
 mCaret
 )
 {
-PRInt32
+int32_t
 offset
 =
 0
@@ -3408,7 +3408,7 @@ parent
 return
 false
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -3430,7 +3430,7 @@ rv
 false
 )
 ;
-PRInt32
+int32_t
 rangeCount
 ;
 rv
@@ -3452,7 +3452,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4092,7 +4092,7 @@ SpellCheckIfNeeded
 (
 )
 {
-PRUint32
+uint32_t
 currentFlags
 =
 0

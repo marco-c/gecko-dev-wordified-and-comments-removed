@@ -234,7 +234,7 @@ res
 =
 nullptr
 ;
-PRUint32
+uint32_t
 i
 len
 =
@@ -830,7 +830,7 @@ PathExpr
 :
 getSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 )
 {
@@ -863,7 +863,7 @@ PathExpr
 :
 setSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 Expr
 *
@@ -971,7 +971,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 i
 len
 =
@@ -1108,7 +1108,7 @@ dest
 )
 ;
 }
-PRUint32
+uint32_t
 i
 len
 =

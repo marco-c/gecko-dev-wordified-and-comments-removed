@@ -197,7 +197,7 @@ InsertChildAt
 nsIContent
 *
 aKid
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -239,7 +239,7 @@ nsSVGSwitchElement
 :
 RemoveChildAt
 (
-PRUint32
+uint32_t
 aIndex
 bool
 aNotify
@@ -369,7 +369,7 @@ IsEmpty
 )
 )
 {
-PRInt32
+int32_t
 bestLanguagePreferenceRank
 =
 -
@@ -451,7 +451,7 @@ kIgnoreSystemLanguage
 )
 )
 {
-PRInt32
+int32_t
 languagePreferenceRank
 =
 tests

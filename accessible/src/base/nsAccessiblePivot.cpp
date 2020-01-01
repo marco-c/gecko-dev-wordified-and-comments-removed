@@ -116,7 +116,7 @@ ApplyFilter
 Accessible
 *
 aAccessible
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -129,14 +129,14 @@ nsIAccessibleTraversalRule
 >
 mRule
 ;
-PRUint32
+uint32_t
 *
 mAcceptRoles
 ;
-PRUint32
+uint32_t
 mAcceptRolesLength
 ;
-PRUint32
+uint32_t
 mPreFilter
 ;
 }
@@ -201,7 +201,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR_AMBIGUOUS
 mPosition
 nsIAccessible
 )
-PRUint32
+uint32_t
 i
 length
 =
@@ -404,7 +404,7 @@ swap
 secondPosition
 )
 ;
-PRInt32
+int32_t
 oldStart
 =
 mStartOffset
@@ -440,7 +440,7 @@ nsAccessiblePivot
 :
 GetStartOffset
 (
-PRInt32
+int32_t
 *
 aStartOffset
 )
@@ -465,7 +465,7 @@ nsAccessiblePivot
 :
 GetEndOffset
 (
-PRInt32
+int32_t
 *
 aEndOffset
 )
@@ -493,9 +493,9 @@ SetTextRange
 nsIAccessibleText
 *
 aTextAccessible
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -583,7 +583,7 @@ newPosition
 return
 NS_ERROR_INVALID_ARG
 ;
-PRInt32
+int32_t
 charCount
 =
 newPosition
@@ -602,7 +602,7 @@ charCount
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 oldStart
 =
 mStartOffset
@@ -663,7 +663,7 @@ nsIAccessible
 aAnchor
 bool
 aIncludeStart
-PRUint8
+uint8_t
 aArgc
 bool
 *
@@ -794,7 +794,7 @@ nsIAccessible
 aAnchor
 bool
 aIncludeStart
-PRUint8
+uint8_t
 aArgc
 bool
 *
@@ -1173,9 +1173,9 @@ MoveToPoint
 nsIAccessibleTraversalRule
 *
 aRule
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 bool
 aIgnoreNoMatch
@@ -1254,7 +1254,7 @@ mRoot
 child
 )
 {
-PRUint16
+uint16_t
 filtered
 =
 nsIAccessibleTraversalRule
@@ -1309,7 +1309,7 @@ FILTER_MATCH
 match
 )
 {
-PRInt32
+int32_t
 childX
 childY
 childWidth
@@ -1545,7 +1545,7 @@ mPosition
 =
 aPosition
 ;
-PRInt32
+int32_t
 oldStart
 =
 mStartOffset
@@ -1615,7 +1615,7 @@ accessible
 =
 aAccessible
 ;
-PRUint16
+uint16_t
 filtered
 =
 nsIAccessibleTraversalRule
@@ -1679,7 +1679,7 @@ Parent
 (
 )
 ;
-PRInt32
+int32_t
 idxInParent
 =
 accessible
@@ -1910,7 +1910,7 @@ cache
 aRule
 )
 ;
-PRUint16
+uint16_t
 filtered
 =
 nsIAccessibleTraversalRule
@@ -2135,11 +2135,11 @@ NotifyOfPivotChange
 Accessible
 *
 aOldPosition
-PRInt32
+int32_t
 aOldStart
-PRInt32
+int32_t
 aOldEnd
-PRInt16
+int16_t
 aReason
 )
 {
@@ -2225,7 +2225,7 @@ ApplyFilter
 Accessible
 *
 aAccessible
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -2287,7 +2287,7 @@ if
 mPreFilter
 )
 {
-PRUint64
+uint64_t
 state
 =
 aAccessible
@@ -2378,7 +2378,7 @@ mAcceptRolesLength
 0
 )
 {
-PRUint32
+uint32_t
 accessibleRole
 =
 aAccessible
@@ -2395,7 +2395,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0

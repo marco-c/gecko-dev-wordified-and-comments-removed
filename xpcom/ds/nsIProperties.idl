@@ -299,7 +299,7 @@ void
 getKeys
 (
 out
-PRUint32
+uint32_t
 count
 [
 array

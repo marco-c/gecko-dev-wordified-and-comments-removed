@@ -152,7 +152,7 @@ nsIDOMXPathExpression
 aExpr
 )
 ;
-PRInt32
+int32_t
 LookupTargetIndex
 (
 nsIAtom
@@ -229,7 +229,7 @@ mBindings
 aBindings
 ;
 }
-PRInt32
+int32_t
 LookupTargetIndex
 (
 nsIAtom
@@ -266,9 +266,9 @@ aResult
 nsXMLBinding
 *
 aBinding
-PRInt32
+int32_t
 idx
-PRUint16
+uint16_t
 type
 nsIDOMXPathResult
 *
@@ -285,7 +285,7 @@ aResult
 nsXMLBinding
 *
 aBinding
-PRInt32
+int32_t
 idx
 nsIDOMNode
 *
@@ -302,7 +302,7 @@ aResult
 nsXMLBinding
 *
 aBinding
-PRInt32
+int32_t
 idx
 nsAString
 &

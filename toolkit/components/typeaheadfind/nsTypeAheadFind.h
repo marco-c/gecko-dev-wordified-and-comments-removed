@@ -236,7 +236,7 @@ bool
 aIsFirstVisiblePreferred
 bool
 aFindPrev
-PRUint16
+uint16_t
 *
 aResult
 )
@@ -305,7 +305,7 @@ nsIDOMWindow
 >
 mCurrentWindow
 ;
-PRUint32
+uint32_t
 mLastFindLength
 ;
 nsCOMPtr

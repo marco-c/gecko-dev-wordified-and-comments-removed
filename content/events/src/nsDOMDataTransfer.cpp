@@ -346,7 +346,7 @@ nsDOMDataTransfer
 :
 nsDOMDataTransfer
 (
-PRUint32
+uint32_t
 aEventType
 )
 :
@@ -407,10 +407,10 @@ nsDOMDataTransfer
 :
 nsDOMDataTransfer
 (
-PRUint32
+uint32_t
 aEventType
 const
-PRUint32
+uint32_t
 aEffectAllowed
 bool
 aCursorState
@@ -432,9 +432,9 @@ aItems
 nsIDOMElement
 *
 aDragImage
-PRUint32
+uint32_t
 aDragImageX
-PRUint32
+uint32_t
 aDragImageY
 )
 :
@@ -552,7 +552,7 @@ aDropEffect
 {
 for
 (
-PRUint32
+uint32_t
 e
 =
 0
@@ -738,7 +738,7 @@ DRAGDROP_ACTION_LINK
 ;
 for
 (
-PRUint32
+uint32_t
 e
 =
 0
@@ -786,7 +786,7 @@ nsDOMDataTransfer
 :
 GetDropEffectInt
 (
-PRUint32
+uint32_t
 *
 aDropEffect
 )
@@ -806,7 +806,7 @@ nsDOMDataTransfer
 :
 SetDropEffectInt
 (
-PRUint32
+uint32_t
 aDropEffect
 )
 {
@@ -824,7 +824,7 @@ nsDOMDataTransfer
 :
 GetEffectAllowedInt
 (
-PRUint32
+uint32_t
 *
 aEffectAllowed
 )
@@ -844,7 +844,7 @@ nsDOMDataTransfer
 :
 SetEffectAllowedInt
 (
-PRUint32
+uint32_t
 aEffectAllowed
 )
 {
@@ -936,7 +936,7 @@ mFiles
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mItems
@@ -947,7 +947,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1142,7 +1142,7 @@ mItems
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1358,13 +1358,13 @@ url
 )
 )
 {
-PRInt32
+int32_t
 lastidx
 =
 0
 idx
 ;
-PRInt32
+int32_t
 length
 =
 stringdata
@@ -1584,7 +1584,7 @@ nsDOMDataTransfer
 :
 GetMozItemCount
 (
-PRUint32
+uint32_t
 *
 aCount
 )
@@ -1761,7 +1761,7 @@ nsDOMDataTransfer
 :
 MozTypesAt
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMDOMStringList
 *
@@ -1816,7 +1816,7 @@ aIndex
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1872,7 +1872,7 @@ const
 nsAString
 &
 aFormat
-PRUint32
+uint32_t
 aIndex
 nsIVariant
 *
@@ -1985,7 +1985,7 @@ rv
 )
 ;
 }
-PRUint32
+uint32_t
 count
 =
 item
@@ -1996,7 +1996,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2269,7 +2269,7 @@ aFormat
 nsIVariant
 *
 aData
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2402,7 +2402,7 @@ const
 nsAString
 &
 aFormat
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -2480,7 +2480,7 @@ aIndex
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 item
@@ -2607,9 +2607,9 @@ SetDragImage
 nsIDOMElement
 *
 aImage
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -2723,7 +2723,7 @@ nsDOMDataTransfer
 :
 Clone
 (
-PRUint32
+uint32_t
 aEventType
 bool
 aUserCancelled
@@ -2880,7 +2880,7 @@ added
 =
 false
 ;
-PRUint32
+uint32_t
 count
 =
 mItems
@@ -2891,7 +2891,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2917,7 +2917,7 @@ mItems
 i
 ]
 ;
-PRUint32
+uint32_t
 count
 =
 item
@@ -2971,7 +2971,7 @@ loadContext
 ;
 for
 (
-PRUint32
+uint32_t
 f
 =
 0
@@ -3003,7 +3003,7 @@ mData
 )
 continue
 ;
-PRUint32
+uint32_t
 length
 ;
 nsCOMPtr
@@ -3166,7 +3166,7 @@ nsISupports
 *
 *
 aSupports
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -3181,7 +3181,7 @@ aLength
 =
 0
 ;
-PRUint16
+uint16_t
 type
 ;
 aVariant
@@ -3326,7 +3326,7 @@ PRUnichar
 *
 chrs
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -3449,7 +3449,7 @@ aFormat
 nsIVariant
 *
 aData
-PRUint32
+uint32_t
 aIndex
 nsIPrincipal
 *
@@ -3492,7 +3492,7 @@ mItems
 aIndex
 ]
 ;
-PRUint32
+uint32_t
 count
 =
 item
@@ -3503,7 +3503,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3921,7 +3921,7 @@ kURLDataMime
 kUnicodeMime
 }
 ;
-PRUint32
+uint32_t
 count
 ;
 dragSession
@@ -3935,7 +3935,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 c
 =
 0
@@ -3951,7 +3951,7 @@ c
 {
 for
 (
-PRUint32
+uint32_t
 f
 =
 0
@@ -4081,7 +4081,7 @@ FillInExternalDragData
 TransferItem
 &
 aItem
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -4274,7 +4274,7 @@ trans
 aIndex
 )
 ;
-PRUint32
+uint32_t
 length
 =
 0

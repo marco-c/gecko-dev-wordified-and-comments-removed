@@ -820,7 +820,7 @@ nsIMM32Handler
 :
 EnsureClauseArray
 (
-PRInt32
+int32_t
 aCount
 )
 {
@@ -880,7 +880,7 @@ nsIMM32Handler
 :
 EnsureAttributeArray
 (
-PRInt32
+int32_t
 aCount
 )
 {
@@ -5204,7 +5204,7 @@ clauseArrayLength
 =
 sizeof
 (
-PRUint32
+uint32_t
 )
 ;
 if
@@ -5295,7 +5295,7 @@ Capacity
 *
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 :
@@ -5322,7 +5322,7 @@ Capacity
 *
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 ;
@@ -5331,7 +5331,7 @@ clauseArrayLength2
 =
 sizeof
 (
-PRUint32
+uint32_t
 )
 ;
 if
@@ -5400,7 +5400,7 @@ compANSIStr
 )
 )
 {
-PRUint32
+uint32_t
 maxlen
 =
 compANSIStr
@@ -5418,7 +5418,7 @@ mClauseArray
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 1
@@ -5432,7 +5432,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 len
 =
 NS_MIN
@@ -5535,7 +5535,7 @@ attrArrayLength
 =
 sizeof
 (
-PRUint8
+uint8_t
 )
 ;
 if
@@ -5584,7 +5584,7 @@ Capacity
 *
 sizeof
 (
-PRUint8
+uint8_t
 )
 )
 ;
@@ -6109,7 +6109,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 len
 =
 selection
@@ -6122,7 +6122,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 needSize
 =
 sizeof
@@ -6389,7 +6389,7 @@ LRESULT
 oResult
 )
 {
-PRUint32
+uint32_t
 len
 =
 mIsComposing
@@ -6775,7 +6775,7 @@ ShouldDrawCompositionStringOurselves
 (
 )
 ;
-PRInt32
+int32_t
 targetOffset
 targetLength
 ;
@@ -6845,7 +6845,7 @@ false
 }
 targetOffset
 =
-PRInt32
+int32_t
 (
 selection
 .
@@ -6856,7 +6856,7 @@ mOffset
 ;
 targetLength
 =
-PRInt32
+int32_t
 (
 selection
 .
@@ -6874,14 +6874,14 @@ else
 {
 targetOffset
 =
-PRInt32
+int32_t
 (
 mCompositionStart
 )
 ;
 targetLength
 =
-PRInt32
+int32_t
 (
 mCompositionString
 .
@@ -7018,7 +7018,7 @@ if
 (
 targetOffset
 >
-PRInt32
+int32_t
 (
 str
 .
@@ -7055,7 +7055,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 paragraphStart
 =
 str
@@ -7074,7 +7074,7 @@ targetOffset
 +
 1
 ;
-PRInt32
+int32_t
 paragraphEnd
 =
 str
@@ -7119,7 +7119,7 @@ paragraphEnd
 paragraphStart
 )
 ;
-PRUint32
+uint32_t
 len
 =
 paragraph
@@ -7128,7 +7128,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 needSize
 =
 sizeof
@@ -7278,7 +7278,7 @@ sizeof
 WCHAR
 )
 ;
-PRUint32
+uint32_t
 offset
 length
 ;
@@ -7569,10 +7569,10 @@ mIsComposingOnPlugin
 ;
 }
 static
-PRUint32
+uint32_t
 PlatformToNSAttr
 (
-PRUint8
+uint8_t
 aAttr
 )
 {
@@ -7633,7 +7633,7 @@ char
 *
 GetRangeTypeName
 (
-PRUint32
+uint32_t
 aRangeType
 )
 {
@@ -8055,14 +8055,14 @@ n
 }
 else
 {
-PRUint32
+uint32_t
 lastOffset
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8082,7 +8082,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 current
 =
 mClauseArray
@@ -8150,7 +8150,7 @@ Length
 ;
 current
 =
-PRInt32
+int32_t
 (
 mCompositionString
 .
@@ -8270,14 +8270,14 @@ n
 return
 ;
 }
-PRInt32
+int32_t
 cursor
 =
 mCursorPosition
 ;
 if
 (
-PRUint32
+uint32_t
 (
 cursor
 )
@@ -8538,10 +8538,10 @@ nsIMM32Handler
 :
 GetTargetClauseRange
 (
-PRUint32
+uint32_t
 *
 aOffset
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -8578,7 +8578,7 @@ mCompositionStart
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8660,7 +8660,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 offsetInComposition
 =
 *
@@ -8681,7 +8681,7 @@ offsetInComposition
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 offsetInComposition
@@ -8865,7 +8865,7 @@ GetCharacterRectOfSelectedTextAt
 nsWindow
 *
 aWindow
-PRUint32
+uint32_t
 aOffset
 nsIntRect
 &
@@ -8942,7 +8942,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 offset
 =
 selection
@@ -8999,12 +8999,12 @@ mCursorPosition
 NO_IME_CARET
 )
 {
-PRUint32
+uint32_t
 cursorPosition
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 mCursorPosition
@@ -9255,7 +9255,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 offset
 =
 selection
@@ -9610,7 +9610,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 offset
 ;
 if
@@ -10071,7 +10071,7 @@ false
 cursorInTopLevel
 )
 ;
-PRInt32
+int32_t
 cursorXInChar
 =
 cursorInTopLevel

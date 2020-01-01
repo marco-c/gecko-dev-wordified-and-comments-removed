@@ -44,7 +44,7 @@ public
 :
 ArgValueArray
 (
-PRInt32
+int32_t
 aArgc
 sqlite3_value
 *
@@ -56,7 +56,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_MOZISTORAGEVALUEARRAY
 private
 :
-PRUint32
+uint32_t
 mArgc
 ;
 sqlite3_value

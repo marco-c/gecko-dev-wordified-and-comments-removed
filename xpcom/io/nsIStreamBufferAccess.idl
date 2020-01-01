@@ -418,12 +418,12 @@ g
 or
 sizeof
 (
-PRUint32
+uint32_t
 )
 -
 1
 for
-PRUint32
+uint32_t
 alignment
 )
 .
@@ -484,10 +484,10 @@ charPtr
 getBuffer
 (
 in
-PRUint32
+uint32_t
 aLength
 in
-PRUint32
+uint32_t
 aAlignMask
 )
 ;
@@ -590,7 +590,7 @@ in
 charPtr
 aBuffer
 in
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -1321,7 +1321,7 @@ p
 (
 *
 (
-PRUint8
+uint8_t
 *
 )
 (
@@ -1338,7 +1338,7 @@ NS_SWAP16
 (
 *
 (
-PRUint16
+uint16_t
 *
 )
 (
@@ -1355,7 +1355,7 @@ NS_SWAP32
 (
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -1372,7 +1372,7 @@ NS_SWAP64
 (
 *
 (
-PRUint64
+uint64_t
 *
 )
 (
@@ -1393,7 +1393,7 @@ NS_SWAP32
 (
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -1415,7 +1415,7 @@ NS_SWAP64
 (
 *
 (
-PRUint64
+uint64_t
 *
 )
 (
@@ -1433,7 +1433,7 @@ x
 (
 *
 (
-PRUint8
+uint8_t
 *
 )
 (
@@ -1454,7 +1454,7 @@ x
 (
 *
 (
-PRUint16
+uint16_t
 *
 )
 (
@@ -1476,7 +1476,7 @@ x
 (
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -1498,7 +1498,7 @@ x
 (
 *
 (
-PRUint64
+uint64_t
 *
 )
 (
@@ -1520,7 +1520,7 @@ x
 (
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -1531,7 +1531,7 @@ NS_SWAP32
 (
 *
 (
-PRUint32
+uint32_t
 *
 )
 &
@@ -1550,7 +1550,7 @@ x
 (
 *
 (
-PRUint64
+uint64_t
 *
 )
 (
@@ -1561,7 +1561,7 @@ NS_SWAP64
 (
 *
 (
-PRUint64
+uint64_t
 *
 )
 &

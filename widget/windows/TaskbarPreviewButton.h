@@ -70,7 +70,7 @@ TaskbarPreviewButton
 TaskbarWindowPreview
 *
 preview
-PRUint32
+uint32_t
 index
 )
 ;
@@ -101,7 +101,7 @@ TaskbarWindowPreview
 >
 mPreview
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 nsString

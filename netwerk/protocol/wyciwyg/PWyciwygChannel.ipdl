@@ -180,7 +180,7 @@ AsyncOpen
 (
 URI
 originalURI
-PRUint32
+uint32_t
 loadFlags
 SerializedLoadContext
 loadContext
@@ -208,7 +208,7 @@ reason
 ;
 SetCharsetAndSource
 (
-PRInt32
+int32_t
 source
 nsCString
 charset
@@ -232,9 +232,9 @@ OnStartRequest
 (
 nsresult
 statusCode
-PRInt32
+int32_t
 contentLength
-PRInt32
+int32_t
 source
 nsCString
 charset
@@ -246,7 +246,7 @@ OnDataAvailable
 (
 nsCString
 data
-PRUint32
+uint32_t
 offset
 )
 ;

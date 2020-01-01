@@ -286,7 +286,7 @@ IsEmpty
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -984,7 +984,7 @@ nullptr
 ;
 #
 endif
-PRUint32
+uint32_t
 index
 =
 0
@@ -1222,7 +1222,7 @@ lockedFiles
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1411,7 +1411,7 @@ thread
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1609,7 +1609,7 @@ LockedFile
 PARALLEL
 )
 {
-PRInt32
+int32_t
 index
 =
 mQueue
@@ -1819,7 +1819,7 @@ LockedFile
 aLockedFile
 )
 {
-PRUint32
+uint32_t
 count
 =
 mLockedFileQueues
@@ -1830,7 +1830,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1890,7 +1890,7 @@ LockedFile
 aLockedFile
 )
 {
-PRUint32
+uint32_t
 lockedFileCount
 =
 mLockedFileQueues
@@ -1913,7 +1913,7 @@ Clear
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2089,7 +2089,7 @@ mDelayedEnqueueInfos
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2163,7 +2163,7 @@ aFileStorage
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2290,7 +2290,7 @@ aLockedFiles
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2345,7 +2345,7 @@ lockedFile
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

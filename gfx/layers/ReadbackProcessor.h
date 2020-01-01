@@ -53,7 +53,7 @@ mLayer
 nsIntRect
 mUpdateRect
 ;
-PRUint64
+uint64_t
 mSequenceCounter
 ;
 }

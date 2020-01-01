@@ -2400,7 +2400,7 @@ else
 if
 (
 (
-PRInt32
+int32_t
 )
 0xdeadbeef
 =

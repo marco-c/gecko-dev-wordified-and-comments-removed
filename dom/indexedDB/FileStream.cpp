@@ -71,9 +71,9 @@ FileStream
 :
 Seek
 (
-PRInt32
+int32_t
 aWhence
-PRInt64
+int64_t
 aOffset
 )
 {
@@ -206,7 +206,7 @@ FileStream
 :
 Tell
 (
-PRInt64
+int64_t
 *
 aResult
 )
@@ -286,7 +286,7 @@ SetEOF
 (
 )
 {
-PRInt64
+int64_t
 pos
 ;
 nsresult
@@ -411,7 +411,7 @@ FileStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 aResult
 )
@@ -492,9 +492,9 @@ Read
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -588,9 +588,9 @@ aWriter
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -641,9 +641,9 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aResult
 )
@@ -800,9 +800,9 @@ WriteFrom
 nsIInputStream
 *
 inStr
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -822,9 +822,9 @@ reader
 void
 *
 closure
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -858,7 +858,7 @@ const
 nsAString
 &
 aMode
-PRInt32
+int32_t
 aFlags
 )
 {
@@ -932,7 +932,7 @@ FileStream
 :
 GetSize
 (
-PRInt64
+int64_t
 *
 _retval
 )
@@ -978,7 +978,7 @@ thread
 "
 )
 ;
-PRInt64
+int64_t
 rc
 =
 sqlite3_quota_file_truesize
@@ -1019,7 +1019,7 @@ FileStream
 :
 GetLastModified
 (
-PRInt64
+int64_t
 *
 _retval
 )

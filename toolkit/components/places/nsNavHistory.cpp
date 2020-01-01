@@ -552,7 +552,7 @@ define
 RENEW_CACHED_NOW_TIMEOUT
 (
 (
-PRInt32
+int32_t
 )
 3
 *
@@ -560,7 +560,7 @@ PR_MSEC_PER_SEC
 )
 static
 const
-PRInt64
+int64_t
 USECS_PER_DAY
 =
 LL_INIT
@@ -599,7 +599,7 @@ NS_MIN
 (
 6
 (
-PRInt32
+int32_t
 )
 ceilf
 (
@@ -785,7 +785,7 @@ nsIBrowserHistory
 namespace
 {
 static
-PRInt64
+int64_t
 GetSimpleBookmarksQueryFolder
 (
 const
@@ -826,7 +826,7 @@ aTerms
 void
 GetTagsSqlFragment
 (
-PRInt64
+int64_t
 aTagsFolder
 const
 nsACString
@@ -993,7 +993,7 @@ mNavHistory
 ;
 }
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1002,7 +1002,7 @@ kGetInfoIndex_PageID
 0
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1011,7 +1011,7 @@ kGetInfoIndex_URL
 1
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1020,7 +1020,7 @@ kGetInfoIndex_Title
 2
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1029,7 +1029,7 @@ kGetInfoIndex_RevHost
 3
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1038,7 +1038,7 @@ kGetInfoIndex_VisitCount
 4
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1047,7 +1047,7 @@ kGetInfoIndex_VisitDate
 5
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1056,7 +1056,7 @@ kGetInfoIndex_FaviconURL
 6
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1065,7 +1065,7 @@ kGetInfoIndex_SessionId
 7
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1074,7 +1074,7 @@ kGetInfoIndex_ItemId
 8
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1083,7 +1083,7 @@ kGetInfoIndex_ItemDateAdded
 9
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1092,7 +1092,7 @@ kGetInfoIndex_ItemLastModified
 10
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1101,7 +1101,7 @@ kGetInfoIndex_ItemParentId
 11
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1110,7 +1110,7 @@ kGetInfoIndex_ItemTags
 12
 ;
 const
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -1397,7 +1397,7 @@ nsNavHistory
 :
 GetDatabaseStatus
 (
-PRUint16
+uint16_t
 *
 aDatabaseStatus
 )
@@ -1421,7 +1421,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 nsNavHistory
 :
 :
@@ -1432,7 +1432,7 @@ nsIURI
 aURI
 )
 {
-PRUint32
+uint32_t
 result
 =
 0
@@ -1532,7 +1532,7 @@ GetIdForPage
 nsIURI
 *
 aURI
-PRInt64
+int64_t
 *
 _pageId
 nsCString
@@ -1688,7 +1688,7 @@ GetOrCreateIdForPage
 nsIURI
 *
 aURI
-PRInt64
+int64_t
 *
 _pageId
 nsCString
@@ -1773,11 +1773,11 @@ bool
 aHidden
 bool
 aTyped
-PRInt32
+int32_t
 aVisitCount
 bool
 aCalculateFrecency
-PRInt64
+int64_t
 *
 aPageID
 nsACString
@@ -2095,7 +2095,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 pageId
 =
 0
@@ -2273,17 +2273,17 @@ nsNavHistory
 :
 InternalAddVisit
 (
-PRInt64
+int64_t
 aPageID
-PRInt64
+int64_t
 aReferringVisit
-PRInt64
+int64_t
 aSessionID
 PRTime
 aTime
-PRInt32
+int32_t
 aTransitionType
-PRInt64
+int64_t
 *
 visitID
 )
@@ -2660,13 +2660,13 @@ FindLastVisit
 nsIURI
 *
 aURI
-PRInt64
+int64_t
 *
 aVisitID
 PRTime
 *
 aTime
-PRInt64
+int64_t
 *
 aSessionID
 )
@@ -2947,7 +2947,7 @@ LoadPrefs
 (
 )
 {
-PRInt32
+int32_t
 oldDaysPref
 =
 Preferences
@@ -3172,7 +3172,7 @@ PREF_FREC_DEFAULT_BUCKET_WEIGHT
 undef
 FRECENCY_PREF
 }
-PRInt64
+int64_t
 nsNavHistory
 :
 :
@@ -3297,15 +3297,15 @@ NotifyOnVisit
 nsIURI
 *
 aURI
-PRInt64
+int64_t
 aVisitID
 PRTime
 aTime
-PRInt64
+int64_t
 aSessionID
-PRInt64
+int64_t
 referringVisitID
-PRInt32
+int32_t
 aTransitionType
 const
 nsACString
@@ -3313,7 +3313,7 @@ nsACString
 aGUID
 )
 {
-PRUint32
+uint32_t
 added
 =
 0
@@ -3397,7 +3397,7 @@ aGUID
 )
 ;
 }
-PRInt32
+int32_t
 nsNavHistory
 :
 :
@@ -3485,7 +3485,7 @@ scoper
 stmt
 )
 ;
-PRInt32
+int32_t
 daysOfHistory
 =
 0
@@ -3688,7 +3688,7 @@ nsNavHistory
 :
 NormalizeTime
 (
-PRUint32
+uint32_t
 aRelative
 PRTime
 aOffset
@@ -3763,7 +3763,7 @@ ref
 aOffset
 ;
 }
-PRUint32
+uint32_t
 nsNavHistory
 :
 :
@@ -3808,7 +3808,7 @@ aHasSearchTerms
 =
 false
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -4121,7 +4121,7 @@ nodeUri
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -5076,7 +5076,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 unusedEventTime
 ;
 if
@@ -5395,13 +5395,13 @@ aTime
 nsIURI
 *
 aReferringURI
-PRInt32
+int32_t
 aTransitionType
 bool
 aIsRedirect
-PRInt64
+int64_t
 aSessionID
-PRInt64
+int64_t
 *
 aVisitID
 )
@@ -5598,15 +5598,15 @@ rv
 nsCAutoString
 guid
 ;
-PRInt64
+int64_t
 pageID
 =
 0
 ;
-PRInt32
+int32_t
 hidden
 ;
-PRInt32
+int32_t
 typed
 ;
 bool
@@ -5637,7 +5637,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 oldVisitCount
 =
 0
@@ -5660,7 +5660,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 oldTypedState
 =
 0
@@ -5683,7 +5683,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 oldHiddenState
 =
 0
@@ -5772,7 +5772,7 @@ hidden
 typed
 =
 (
-PRInt32
+int32_t
 )
 (
 oldTypedState
@@ -5950,7 +5950,7 @@ Abandon
 hidden
 =
 (
-PRInt32
+int32_t
 )
 (
 aTransitionType
@@ -5971,7 +5971,7 @@ aIsRedirect
 typed
 =
 (
-PRInt32
+int32_t
 )
 (
 aTransitionType
@@ -6018,12 +6018,12 @@ rv
 )
 ;
 }
-PRInt64
+int64_t
 referringVisitID
 =
 0
 ;
-PRInt64
+int64_t
 referringSessionID
 ;
 PRTime
@@ -6396,7 +6396,7 @@ nsINavHistoryQuery
 *
 *
 aQueries
-PRUint32
+uint32_t
 aQueryCount
 nsINavHistoryQueryOptions
 *
@@ -6473,7 +6473,7 @@ queries
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6523,7 +6523,7 @@ nsNavHistoryContainerResultNode
 >
 rootNode
 ;
-PRInt64
+int64_t
 folderId
 =
 GetSimpleBookmarksQueryFolder
@@ -6701,7 +6701,7 @@ aQueries
 nsNavHistoryQueryOptions
 *
 aOptions
-PRUint16
+uint16_t
 aSortMode
 )
 {
@@ -7059,7 +7059,7 @@ nsNavHistoryQueryOptions
 aOptions
 )
 {
-PRUint16
+uint16_t
 resultType
 =
 aOptions
@@ -7168,28 +7168,28 @@ Limit
 void
 OrderByColumnIndexAsc
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
 void
 OrderByColumnIndexDesc
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
 void
 OrderByTextColumnIndexAsc
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
 void
 OrderByTextColumnIndexDesc
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -7204,19 +7204,19 @@ mUseLimit
 bool
 mHasSearchTerms
 ;
-PRUint16
+uint16_t
 mResultType
 ;
-PRUint16
+uint16_t
 mQueryType
 ;
 bool
 mIncludeHidden
 ;
-PRUint16
+uint16_t
 mSortingMode
 ;
-PRUint32
+uint32_t
 mMaxResults
 ;
 nsCString
@@ -8300,7 +8300,7 @@ mSkipOrderBy
 =
 true
 ;
-PRUint16
+uint16_t
 sortingMode
 =
 nsINavHistoryQueryOptions
@@ -8331,7 +8331,7 @@ sortingMode
 =
 mSortingMode
 ;
-PRUint16
+uint16_t
 resultType
 =
 mResultType
@@ -8343,7 +8343,7 @@ nsINavHistoryQueryOptions
 RESULTS_AS_DATE_QUERY
 ?
 (
-PRUint16
+uint16_t
 )
 nsINavHistoryQueryOptions
 :
@@ -8351,7 +8351,7 @@ nsINavHistoryQueryOptions
 RESULTS_AS_URI
 :
 (
-PRUint16
+uint16_t
 )
 nsINavHistoryQueryOptions
 :
@@ -8433,7 +8433,7 @@ NS_ENSURE_STATE
 history
 )
 ;
-PRInt32
+int32_t
 daysOfHistory
 =
 history
@@ -8445,7 +8445,7 @@ GetDaysOfHistory
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -9088,7 +9088,7 @@ sqlFragmentContainerEndTime
 break
 ;
 }
-PRInt32
+int32_t
 MonthIndex
 =
 i
@@ -9108,7 +9108,7 @@ PR_LocalTimeParameters
 tm
 )
 ;
-PRUint16
+uint16_t
 currentYear
 =
 tm
@@ -10671,7 +10671,7 @@ PlacesSQLQueryBuilder
 :
 OrderByColumnIndexAsc
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -10699,7 +10699,7 @@ PlacesSQLQueryBuilder
 :
 OrderByColumnIndexDesc
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -10727,7 +10727,7 @@ PlacesSQLQueryBuilder
 :
 OrderByTextColumnIndexAsc
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -10757,7 +10757,7 @@ PlacesSQLQueryBuilder
 :
 OrderByTextColumnIndexDesc
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -10866,7 +10866,7 @@ aParamsPresent
 =
 false
 ;
-PRInt32
+int32_t
 sortingMode
 =
 aOptions
@@ -10912,7 +10912,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -11227,7 +11227,7 @@ conditions
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -11564,7 +11564,7 @@ GetLastErrorString
 lastErrorString
 )
 ;
-PRInt32
+int32_t
 lastError
 =
 0
@@ -11648,7 +11648,7 @@ if
 paramsPresent
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -12346,7 +12346,7 @@ hasMore
 hasMore
 )
 {
-PRInt64
+int64_t
 placeId
 ;
 nsresult
@@ -12396,7 +12396,7 @@ GetUTF8String
 guid
 )
 ;
-PRInt32
+int32_t
 wholeEntry
 ;
 rv
@@ -12576,7 +12576,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -12632,7 +12632,7 @@ nsIURI
 *
 *
 aURIs
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -12667,7 +12667,7 @@ deletePlaceIdsQueryString
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -12681,7 +12681,7 @@ i
 +
 )
 {
-PRInt64
+int64_t
 placeId
 ;
 nsCAutoString
@@ -12802,7 +12802,7 @@ NS_ENSURE_ARG
 aURI
 )
 ;
-PRInt64
+int64_t
 placeId
 ;
 nsCAutoString
@@ -13203,7 +13203,7 @@ AppendLiteral
 "
 )
 ;
-PRInt64
+int64_t
 placeId
 ;
 rv
@@ -13437,7 +13437,7 @@ hasMore
 hasMore
 )
 {
-PRInt64
+int64_t
 placeId
 ;
 rv
@@ -13693,7 +13693,7 @@ hasMore
 hasMore
 )
 {
-PRInt64
+int64_t
 placeId
 ;
 rv
@@ -14074,7 +14074,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 unusedEventTime
 ;
 if
@@ -14188,7 +14188,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 unusedEventTime
 ;
 if
@@ -14589,12 +14589,12 @@ MainConn
 false
 )
 ;
-PRInt64
+int64_t
 visitID
 =
 0
 ;
-PRInt64
+int64_t
 sessionID
 =
 0
@@ -14647,10 +14647,10 @@ aIsRedirect
 nsIURI
 *
 aReferrerURI
-PRInt64
+int64_t
 *
 aVisitID
-PRInt64
+int64_t
 *
 aSessionID
 )
@@ -14698,7 +14698,7 @@ mRecentLink
 spec
 )
 ;
-PRUint32
+uint32_t
 transitionType
 =
 0
@@ -14711,7 +14711,7 @@ aReferrerURI
 PRTime
 lastVisitTime
 ;
-PRInt64
+int64_t
 referringVisitId
 ;
 bool
@@ -15319,7 +15319,7 @@ nsNavHistory
 :
 GetExpectedDatabasePageSize
 (
-PRInt32
+int32_t
 *
 _expectedPageSize
 )
@@ -15427,7 +15427,7 @@ nsINavHistoryQuery
 *
 *
 aQueries
-PRUint32
+uint32_t
 aQueryCount
 nsINavHistoryQueryOptions
 *
@@ -15487,7 +15487,7 @@ queries
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -15642,7 +15642,7 @@ GetLastErrorString
 lastErrorString
 )
 ;
-PRInt32
+int32_t
 lastError
 =
 0
@@ -15721,7 +15721,7 @@ if
 paramsPresent
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -15814,7 +15814,7 @@ const
 nsACString
 &
 aGUID
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -16077,7 +16077,7 @@ open
 return
 NS_OK
 ;
-PRInt32
+int32_t
 selectedIndex
 ;
 rv
@@ -16421,7 +16421,7 @@ public
 :
 ConditionBuilder
 (
-PRInt32
+int32_t
 aQueryIndex
 )
 :
@@ -16581,7 +16581,7 @@ mClause
 }
 private
 :
-PRInt32
+int32_t
 mQueryIndex
 ;
 nsCString
@@ -16601,7 +16601,7 @@ aQuery
 nsNavHistoryQueryOptions
 *
 aOptions
-PRInt32
+int32_t
 aQueryIndex
 nsCString
 *
@@ -17411,7 +17411,7 @@ IN
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -17533,7 +17533,7 @@ Str
 const
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 transitions
@@ -17547,7 +17547,7 @@ Transitions
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -17624,7 +17624,7 @@ LIMIT
 const
 nsTArray
 <
-PRInt64
+int64_t
 >
 &
 folders
@@ -17649,7 +17649,7 @@ Length
 {
 nsTArray
 <
-PRInt64
+int64_t
 >
 includeFolders
 ;
@@ -17680,7 +17680,7 @@ for
 (
 nsTArray
 <
-PRInt64
+int64_t
 >
 :
 :
@@ -17704,7 +17704,7 @@ i
 {
 nsTArray
 <
-PRInt64
+int64_t
 >
 subFolders
 ;
@@ -17752,7 +17752,7 @@ for
 (
 nsTArray
 <
-PRInt64
+int64_t
 >
 :
 :
@@ -17877,7 +17877,7 @@ BindQueryClauseParameters
 mozIStorageBaseStatement
 *
 statement
-PRInt32
+int32_t
 aQueryIndex
 nsNavHistoryQuery
 *
@@ -18081,7 +18081,7 @@ rv
 )
 ;
 }
-PRInt32
+int32_t
 visits
 =
 aQuery
@@ -18514,7 +18514,7 @@ Length
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -18572,7 +18572,7 @@ rv
 )
 ;
 }
-PRInt64
+int64_t
 tagsFolder
 =
 GetTagsFolder
@@ -18647,7 +18647,7 @@ rv
 const
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 transitions
@@ -18672,7 +18672,7 @@ Length
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -18832,7 +18832,7 @@ NS_OK
 ;
 }
 const
-PRInt64
+int64_t
 UNDEFINED_URN_VALUE
 =
 -
@@ -18844,7 +18844,7 @@ CreatePlacesPersistURN
 nsNavHistoryQueryResultNode
 *
 aResultNode
-PRInt64
+int64_t
 aValue
 const
 nsCString
@@ -18976,7 +18976,7 @@ return
 NS_OK
 ;
 }
-PRInt64
+int64_t
 nsNavHistory
 :
 :
@@ -19103,7 +19103,7 @@ aQueries
 terms
 )
 ;
-PRUint16
+uint16_t
 resultType
 =
 aOptions
@@ -19115,7 +19115,7 @@ ResultType
 ;
 for
 (
-PRInt32
+int32_t
 nodeIndex
 =
 0
@@ -19228,7 +19228,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 queryIndex
 =
 0
@@ -19303,7 +19303,7 @@ true
 ;
 for
 (
-PRInt32
+int32_t
 termIndex
 =
 terms
@@ -19416,7 +19416,7 @@ MaxResults
 &
 &
 (
-PRUint32
+uint32_t
 )
 aFiltered
 -
@@ -19438,7 +19438,7 @@ break
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -19476,7 +19476,7 @@ registerEmbedVisit
 nsIURI
 *
 aURI
-PRInt64
+int64_t
 aTime
 )
 {
@@ -19681,7 +19681,7 @@ nsCStringHashKey
 :
 KeyType
 aKey
-PRInt64
+int64_t
 &
 aData
 void
@@ -19689,13 +19689,13 @@ void
 userArg
 )
 {
-PRInt64
+int64_t
 *
 threshold
 =
 reinterpret_cast
 <
-PRInt64
+int64_t
 *
 >
 (
@@ -19727,7 +19727,7 @@ RecentEventHash
 hashTable
 )
 {
-PRInt64
+int64_t
 threshold
 =
 GetNow
@@ -19835,7 +19835,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 accessCount
 =
 aRow
@@ -19877,7 +19877,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 itemId
 =
 aRow
@@ -19888,7 +19888,7 @@ AsInt64
 kGetInfoIndex_ItemId
 )
 ;
-PRInt64
+int64_t
 parentId
 =
 -
@@ -19910,7 +19910,7 @@ itemId
 }
 else
 {
-PRInt64
+int64_t
 itemParentId
 =
 aRow
@@ -20255,7 +20255,7 @@ return
 NS_OK
 ;
 }
-PRInt64
+int64_t
 session
 =
 aRow
@@ -20361,7 +20361,7 @@ nsNavHistory
 :
 QueryRowToResult
 (
-PRInt64
+int64_t
 itemId
 const
 nsACString
@@ -20371,7 +20371,7 @@ const
 nsACString
 &
 aTitle
-PRUint32
+uint32_t
 aAccessCount
 PRTime
 aTime
@@ -20419,7 +20419,7 @@ rv
 )
 )
 {
-PRInt64
+int64_t
 folderId
 =
 GetSimpleBookmarksQueryFolder
@@ -20626,7 +20626,7 @@ nsNavHistory
 :
 VisitIdToResultNode
 (
-PRInt64
+int64_t
 visitId
 nsNavHistoryQueryOptions
 *
@@ -21009,7 +21009,7 @@ nsNavHistory
 :
 BookmarkIdToResultNode
 (
-PRInt64
+int64_t
 aBookmarkId
 nsNavHistoryQueryOptions
 *
@@ -21509,7 +21509,7 @@ SendPageChangedNotification
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aChangedAttribute
 const
 nsAString
@@ -21601,7 +21601,7 @@ nsNavHistory
 :
 GetAgeInDaysString
 (
-PRInt32
+int32_t
 aInt
 const
 PRUnichar
@@ -21779,7 +21779,7 @@ nsNavHistory
 :
 GetMonthName
 (
-PRInt32
+int32_t
 aIndex
 nsACString
 &
@@ -21878,9 +21878,9 @@ nsNavHistory
 :
 GetMonthYear
 (
-PRInt32
+int32_t
 aMonth
-PRInt32
+int32_t
 aYear
 nsACString
 &
@@ -22359,7 +22359,7 @@ NS_OK
 namespace
 {
 static
-PRInt64
+int64_t
 GetSimpleBookmarksQueryFolder
 (
 const
@@ -22602,7 +22602,7 @@ nsString
 aTerms
 )
 {
-PRInt32
+int32_t
 lastBegin
 =
 -
@@ -22610,7 +22610,7 @@ lastBegin
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -22684,7 +22684,7 @@ SearchTerms
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -22807,7 +22807,7 @@ nsNavHistory
 :
 UpdateFrecency
 (
-PRInt64
+int64_t
 aPlaceId
 )
 {
@@ -23097,7 +23097,7 @@ nsNavHistory
 :
 AutoCompleteFeedback
 (
-PRInt32
+int32_t
 aIndex
 nsIAutoCompleteController
 *

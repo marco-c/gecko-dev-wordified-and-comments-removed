@@ -116,7 +116,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -126,7 +126,7 @@ const
 #
 endif
 virtual
-PRInt32
+int32_t
 GetType
 (
 )

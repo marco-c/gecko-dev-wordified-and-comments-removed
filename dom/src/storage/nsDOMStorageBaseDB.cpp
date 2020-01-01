@@ -12,7 +12,7 @@ nsDOMStorage
 .
 h
 "
-PRUint64
+uint64_t
 nsDOMStorageBaseDB
 :
 :
@@ -95,7 +95,7 @@ aStorage
 )
 ;
 }
-PRUint64
+uint64_t
 nsDOMStorageBaseDB
 :
 :
@@ -122,7 +122,7 @@ return
 sGlobalVersion
 ;
 }
-PRUint64
+uint64_t
 nsDOMStorageBaseDB
 :
 :
@@ -133,7 +133,7 @@ DOMStorageImpl
 aStorage
 )
 {
-PRUint64
+uint64_t
 currentVersion
 ;
 if
@@ -183,7 +183,7 @@ DOMStorageImpl
 aStorage
 )
 {
-PRUint64
+uint64_t
 nextVersion
 =
 NextGlobalVersion

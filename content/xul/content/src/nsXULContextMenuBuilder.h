@@ -116,7 +116,7 @@ nsIContent
 >
 mCurrentNode
 ;
-PRInt32
+int32_t
 mCurrentGeneratedItemId
 ;
 nsCOMArray

@@ -956,7 +956,7 @@ have
 a
 type
 of
-PRUint32
+uint32_t
 so
 C
 +

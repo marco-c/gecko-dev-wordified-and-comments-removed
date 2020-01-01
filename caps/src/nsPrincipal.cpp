@@ -224,7 +224,7 @@ isMutable
 isMutable
 ;
 }
-PRInt32
+int32_t
 nsBasePrincipal
 :
 :
@@ -258,7 +258,7 @@ AddRef
 {
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 refcount
 )
@@ -664,7 +664,7 @@ const
 char
 *
 capability
-PRInt16
+int16_t
 *
 result
 )
@@ -844,7 +844,7 @@ start
 '
 )
 ;
-PRInt32
+int32_t
 len
 =
 space
@@ -871,13 +871,13 @@ key
 capString
 )
 ;
-PRInt16
+int16_t
 value
 =
 mCapabilities
 ?
 (
-PRInt16
+int16_t
 )
 NS_PTR_TO_INT32
 (
@@ -962,7 +962,7 @@ const
 char
 *
 capability
-PRInt16
+int16_t
 canEnable
 )
 {
@@ -1838,11 +1838,11 @@ CapabilityList
 )
 capListPtr
 ;
-PRInt16
+int16_t
 value
 =
 (
-PRInt16
+int16_t
 )
 NS_PTR_TO_INT32
 (
@@ -2522,7 +2522,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 value
 ;
 rv
@@ -2737,7 +2737,7 @@ aCert
 nsIURI
 *
 aCodebase
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -2957,7 +2957,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-PRInt32
+int32_t
 port
 ;
 if
@@ -3958,7 +3958,7 @@ nsPrincipal
 :
 GetHashValue
 (
-PRUint32
+uint32_t
 *
 aValue
 )
@@ -4231,7 +4231,7 @@ bool
 aIsCert
 bool
 aTrusted
-PRUint32
+uint32_t
 aAppId
 bool
 aInMozBrowser
@@ -4530,7 +4530,7 @@ nsPrincipal
 :
 GetAppStatus
 (
-PRUint16
+uint16_t
 *
 aAppStatus
 )
@@ -4563,7 +4563,7 @@ nsPrincipal
 :
 GetAppId
 (
-PRUint32
+uint32_t
 *
 aAppId
 )
@@ -4952,7 +4952,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 appId
 ;
 rv
@@ -5055,7 +5055,7 @@ void
 aData
 )
 {
-PRUint32
+uint32_t
 value
 =
 NS_PTR_TO_INT32
@@ -5421,7 +5421,7 @@ return
 NS_OK
 ;
 }
-PRUint16
+uint16_t
 nsPrincipal
 :
 :
@@ -6121,7 +6121,7 @@ nsExpandedPrincipal
 :
 GetHashValue
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -6218,7 +6218,7 @@ nsExpandedPrincipal
 :
 GetAppStatus
 (
-PRUint16
+uint16_t
 *
 aAppStatus
 )
@@ -6233,7 +6233,7 @@ nsExpandedPrincipal
 :
 GetAppId
 (
-PRUint32
+uint32_t
 *
 aAppId
 )

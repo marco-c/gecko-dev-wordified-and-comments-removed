@@ -288,7 +288,7 @@ ReceiveFrame
 char
 *
 frame
-PRUint32
+uint32_t
 length
 )
 {
@@ -390,14 +390,14 @@ codecID
 =
 0x595556
 ;
-PRUint32
+uint32_t
 yFrameSize
 =
 mWidth
 *
 mHeight
 ;
-PRUint32
+uint32_t
 uvFrameSize
 =
 yFrameSize
@@ -444,7 +444,7 @@ yFrameSize
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -524,7 +524,7 @@ AndroidCameraInputStream
 :
 Available
 (
-PRUint64
+uint64_t
 *
 aAvailable
 )
@@ -576,9 +576,9 @@ Read
 char
 *
 aBuffer
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aRead
 )
@@ -604,9 +604,9 @@ aWriter
 void
 *
 aClosure
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aRead
 )
@@ -839,7 +839,7 @@ mFrameSize
 )
 )
 {
-PRUint32
+uint32_t
 readThisTime
 =
 0
@@ -1105,9 +1105,9 @@ AsyncWait
 nsIInputStreamCallback
 *
 aCallback
-PRUint32
+uint32_t
 aFlags
-PRUint32
+uint32_t
 aRequestedCount
 nsIEventTarget
 *
@@ -1156,7 +1156,7 @@ AndroidCameraInputStream
 :
 CloseWithStatus
 (
-PRUint32
+uint32_t
 status
 )
 {

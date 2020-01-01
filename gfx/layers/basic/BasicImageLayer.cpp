@@ -1140,7 +1140,7 @@ IsAsync
 )
 )
 {
-PRUint32
+uint32_t
 containerID
 =
 mContainer

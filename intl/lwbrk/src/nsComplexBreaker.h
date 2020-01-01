@@ -18,9 +18,9 @@ const
 PRUnichar
 *
 aText
-PRUint32
+uint32_t
 aLength
-PRUint8
+uint8_t
 *
 aBreakBefore
 )

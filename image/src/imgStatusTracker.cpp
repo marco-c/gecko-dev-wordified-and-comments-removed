@@ -58,7 +58,7 @@ static
 nsresult
 GetResultFromImageStatus
 (
-PRUint32
+uint32_t
 aStatus
 )
 {
@@ -217,7 +217,7 @@ stateRequestStopped
 )
 ;
 }
-PRUint32
+uint32_t
 imgStatusTracker
 :
 :
@@ -279,7 +279,7 @@ GetStatusTracker
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -829,7 +829,7 @@ if
 mImage
 )
 {
-PRInt16
+int16_t
 imageType
 =
 mImage
@@ -867,7 +867,7 @@ GetNumFrames
 0
 )
 {
-PRUint32
+uint32_t
 frame
 =
 (
@@ -1397,7 +1397,7 @@ imgStatusTracker
 :
 RecordStartFrame
 (
-PRUint32
+uint32_t
 aFrame
 )
 {
@@ -1425,7 +1425,7 @@ SendStartFrame
 imgRequestProxy
 *
 aProxy
-PRUint32
+uint32_t
 aFrame
 )
 {
@@ -1520,7 +1520,7 @@ imgStatusTracker
 :
 RecordStopFrame
 (
-PRUint32
+uint32_t
 aFrame
 )
 {
@@ -1561,7 +1561,7 @@ SendStopFrame
 imgRequestProxy
 *
 aProxy
-PRUint32
+uint32_t
 aFrame
 )
 {
@@ -1740,7 +1740,7 @@ Image
 "
 )
 ;
-PRUint32
+uint32_t
 stateBitsToClear
 =
 stateDecodeStarted
@@ -1753,7 +1753,7 @@ mState
 ~
 stateBitsToClear
 ;
-PRUint32
+uint32_t
 statusBitsToClear
 =
 imgIRequest

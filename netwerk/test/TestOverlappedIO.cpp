@@ -284,9 +284,9 @@ context
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -322,7 +322,7 @@ buf
 1025
 ]
 ;
-PRUint32
+uint32_t
 amt
 ;
 while
@@ -449,13 +449,13 @@ char
 *
 mData
 ;
-PRUint32
+uint32_t
 mOffset
 ;
-PRUint32
+uint32_t
 mDataLen
 ;
-PRUint32
+uint32_t
 mRequestCount
 ;
 }
@@ -638,9 +638,9 @@ context
 nsIOutputStream
 *
 output
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
 )
 {
@@ -680,7 +680,7 @@ mRequestCount
 return
 NS_BASE_STREAM_CLOSED
 ;
-PRUint32
+uint32_t
 writeCount
 amount
 ;
@@ -802,7 +802,7 @@ request
 )
 )
 ;
-PRUint32
+uint32_t
 n
 ;
 return
@@ -829,7 +829,7 @@ nsIInputStream
 is
 )
 {
-PRUint32
+uint32_t
 bytesRead
 ;
 char
@@ -1468,7 +1468,7 @@ d
 n
 "
 (
-PRInt32
+int32_t
 )
 (
 endTime

@@ -86,7 +86,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_IPARSERSERVICE_IID
 )
 virtual
-PRInt32
+int32_t
 HTMLAtomTagToId
 (
 nsIAtom
@@ -98,7 +98,7 @@ const
 0
 ;
 virtual
-PRInt32
+int32_t
 HTMLCaseSensitiveAtomTagToId
 (
 nsIAtom
@@ -110,7 +110,7 @@ const
 0
 ;
 virtual
-PRInt32
+int32_t
 HTMLStringTagToId
 (
 const
@@ -128,7 +128,7 @@ PRUnichar
 *
 HTMLIdToStringTag
 (
-PRInt32
+int32_t
 aId
 )
 const
@@ -140,7 +140,7 @@ nsIAtom
 *
 HTMLIdToAtomTag
 (
-PRInt32
+int32_t
 aId
 )
 const
@@ -154,7 +154,7 @@ const
 nsAString
 &
 aEntity
-PRInt32
+int32_t
 *
 aUnicode
 )
@@ -165,7 +165,7 @@ const
 NS_IMETHOD
 HTMLConvertUnicodeToEntity
 (
-PRInt32
+int32_t
 aUnicode
 nsCString
 &
@@ -178,7 +178,7 @@ const
 NS_IMETHOD
 IsContainer
 (
-PRInt32
+int32_t
 aId
 bool
 &
@@ -191,7 +191,7 @@ const
 NS_IMETHOD
 IsBlock
 (
-PRInt32
+int32_t
 aId
 bool
 &

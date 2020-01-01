@@ -217,7 +217,7 @@ if
 gfxInfo
 )
 {
-PRInt32
+int32_t
 status
 ;
 if
@@ -1136,7 +1136,7 @@ msg
 .
 AppendInt
 (
-PRUint32
+uint32_t
 (
 aCode
 )

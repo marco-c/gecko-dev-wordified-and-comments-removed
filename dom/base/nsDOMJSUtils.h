@@ -139,7 +139,7 @@ NS_CreateJSArgv
 JSContext
 *
 aContext
-PRUint32
+uint32_t
 aArgc
 void
 *

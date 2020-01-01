@@ -83,7 +83,7 @@ mozilla
 ;
 static
 const
-PRUint32
+uint32_t
 kDelayBeforeLoadingCmaps
 =
 8
@@ -92,14 +92,14 @@ kDelayBeforeLoadingCmaps
 ;
 static
 const
-PRUint32
+uint32_t
 kIntervalBetweenLoadingCmaps
 =
 150
 ;
 static
 const
-PRUint32
+uint32_t
 kNumFontsPerSlice
 =
 10
@@ -541,7 +541,7 @@ MemoryReporter
 :
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 aAmount
 )
@@ -1052,7 +1052,7 @@ list
 preloadFonts
 )
 ;
-PRUint32
+uint32_t
 numFonts
 =
 preloadFonts
@@ -1063,7 +1063,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1168,7 +1168,7 @@ GetFontList
 (
 )
 ;
-PRUint32
+uint32_t
 i
 numFonts
 =
@@ -1235,7 +1235,7 @@ underline_offset
 blacklist
 )
 ;
-PRUint32
+uint32_t
 numFonts
 =
 blacklist
@@ -1246,7 +1246,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1713,9 +1713,9 @@ gfxPlatformFontList
 SystemFindFontForChar
 (
 const
-PRUint32
+uint32_t
 aCh
-PRInt32
+int32_t
 aRunScript
 const
 gfxFontStyle
@@ -1813,7 +1813,7 @@ aRunScript
 aStyle
 )
 ;
-PRUint32
+uint32_t
 cmapCount
 =
 0
@@ -1874,7 +1874,7 @@ log
 )
 )
 {
-PRUint32
+uint32_t
 charRange
 =
 gfxFontUtils
@@ -1885,7 +1885,7 @@ CharRangeBit
 aCh
 )
 ;
-PRUint32
+uint32_t
 unicodeRange
 =
 FindCharUnicodeRange
@@ -1893,7 +1893,7 @@ FindCharUnicodeRange
 aCh
 )
 ;
-PRInt32
+int32_t
 script
 =
 mozilla
@@ -2005,7 +2005,7 @@ none
 >
 "
 )
-PRInt32
+int32_t
 (
 elapsed
 .
@@ -2062,10 +2062,10 @@ first
 =
 true
 ;
-PRInt32
+int32_t
 intElapsed
 =
-PRInt32
+int32_t
 (
 first
 ?
@@ -2185,9 +2185,9 @@ gfxPlatformFontList
 CommonFontFallback
 (
 const
-PRUint32
+uint32_t
 aCh
-PRInt32
+int32_t
 aRunScript
 const
 gfxFontStyle
@@ -2204,7 +2204,7 @@ NUM_FALLBACK_FONTS
 >
 defaultFallbacks
 ;
-PRUint32
+uint32_t
 i
 numFallbacks
 ;
@@ -2340,15 +2340,15 @@ gfxPlatformFontList
 GlobalFontFallback
 (
 const
-PRUint32
+uint32_t
 aCh
-PRInt32
+int32_t
 aRunScript
 const
 gfxFontStyle
 *
 aMatchStyle
-PRUint32
+uint32_t
 &
 aCmapCount
 )
@@ -2663,7 +2663,7 @@ mPrefFonts
 .
 Get
 (
-PRUint32
+uint32_t
 (
 aLangGroup
 )
@@ -2694,7 +2694,7 @@ mPrefFonts
 .
 Put
 (
-PRUint32
+uint32_t
 (
 aLangGroup
 )
@@ -3209,7 +3209,7 @@ RunLoader
 (
 )
 {
-PRUint32
+uint32_t
 i
 endIndex
 =
@@ -3512,7 +3512,7 @@ size_t
 SizeOfPrefFontEntryExcludingThis
 (
 const
-PRUint32
+uint32_t
 &
 aKey
 const
@@ -3596,7 +3596,7 @@ FontListSizes
 aUserArg
 )
 ;
-PRUint32
+uint32_t
 size
 =
 aHashEntry

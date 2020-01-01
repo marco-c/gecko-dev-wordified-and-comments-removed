@@ -152,7 +152,7 @@ buf
 24
 ]
 ;
-PRUint32
+uint32_t
 last
 =
 mNumbers
@@ -165,7 +165,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

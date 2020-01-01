@@ -391,7 +391,7 @@ in
 AString
 scriptSample
 in
-PRInt32
+int32_t
 lineNum
 )
 ;
@@ -504,7 +504,7 @@ in
 AString
 scriptSample
 in
-PRInt32
+int32_t
 lineNum
 )
 ;

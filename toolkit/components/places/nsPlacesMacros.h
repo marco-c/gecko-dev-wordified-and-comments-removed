@@ -41,7 +41,7 @@ GetEntries
 \
 for
 (
-PRInt32
+int32_t
 idx
 =
 0

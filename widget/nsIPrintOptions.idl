@@ -275,7 +275,7 @@ integer
 pref
 *
 /
-PRInt32
+int32_t
 getPrinterPrefInt
 (
 in

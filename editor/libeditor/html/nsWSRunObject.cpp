@@ -195,7 +195,7 @@ aEd
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 :
@@ -306,7 +306,7 @@ nsIDOMNode
 aBlock
 BlockBoundary
 aBoundary
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -409,7 +409,7 @@ aHTMLEd
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 aHTMLEd
@@ -462,7 +462,7 @@ nsIDOMNode
 >
 *
 aStartNode
-PRInt32
+int32_t
 *
 aStartOffset
 nsCOMPtr
@@ -471,7 +471,7 @@ nsIDOMNode
 >
 *
 aEndNode
-PRInt32
+int32_t
 *
 aEndOffset
 )
@@ -577,7 +577,7 @@ aHTMLEd
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -639,7 +639,7 @@ nsIDOMNode
 >
 *
 aSplitNode
-PRInt32
+int32_t
 *
 aSplitOffset
 )
@@ -701,7 +701,7 @@ nsIDOMNode
 >
 *
 aInOutParent
-PRInt32
+int32_t
 *
 aInOutOffset
 nsCOMPtr
@@ -1048,7 +1048,7 @@ nsIDOMNode
 >
 *
 aInOutParent
-PRInt32
+int32_t
 *
 aInOutOffset
 nsIDOMDocument
@@ -1448,7 +1448,7 @@ nbsp
 }
 }
 }
-PRUint32
+uint32_t
 lastCharIndex
 =
 theString
@@ -1577,7 +1577,7 @@ lastCharIndex
 }
 }
 }
-PRUint32
+uint32_t
 j
 ;
 bool
@@ -1736,14 +1736,14 @@ mTextNode
 )
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 point
 .
 mOffset
 ;
-PRInt32
+int32_t
 endOffset
 =
 point
@@ -1792,7 +1792,7 @@ mTextNode
 )
 )
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -1882,14 +1882,14 @@ mTextNode
 )
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 point
 .
 mOffset
 ;
-PRInt32
+int32_t
 endOffset
 =
 point
@@ -2012,14 +2012,14 @@ mTextNode
 )
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 point
 .
 mOffset
 ;
-PRInt32
+int32_t
 endOffset
 =
 point
@@ -2068,7 +2068,7 @@ mTextNode
 )
 )
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -2158,14 +2158,14 @@ mTextNode
 )
 )
 ;
-PRInt32
+int32_t
 startOffset
 =
 point
 .
 mOffset
 ;
-PRInt32
+int32_t
 endOffset
 =
 point
@@ -2225,7 +2225,7 @@ PriorVisibleNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsCOMPtr
 <
@@ -2233,7 +2233,7 @@ nsIDOMNode
 >
 *
 outVisNode
-PRInt32
+int32_t
 *
 outVisOffset
 WSType
@@ -2428,7 +2428,7 @@ NextVisibleNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsCOMPtr
 <
@@ -2436,7 +2436,7 @@ nsIDOMNode
 >
 *
 outVisNode
-PRInt32
+int32_t
 *
 outVisOffset
 WSType
@@ -2854,7 +2854,7 @@ if
 mOffset
 )
 {
-PRInt32
+int32_t
 pos
 ;
 for
@@ -2877,7 +2877,7 @@ pos
 {
 if
 (
-PRUint32
+uint32_t
 (
 pos
 )
@@ -3124,7 +3124,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-PRUint32
+uint32_t
 len
 =
 textNode
@@ -3152,7 +3152,7 @@ priorNode
 }
 else
 {
-PRInt32
+int32_t
 pos
 ;
 for
@@ -3175,7 +3175,7 @@ pos
 {
 if
 (
-PRUint32
+uint32_t
 (
 pos
 )
@@ -3393,7 +3393,7 @@ GetText
 (
 )
 ;
-PRUint32
+uint32_t
 len
 =
 textNode
@@ -3405,7 +3405,7 @@ TextLength
 ;
 if
 (
-PRUint16
+uint16_t
 (
 mOffset
 )
@@ -3413,7 +3413,7 @@ mOffset
 len
 )
 {
-PRInt32
+int32_t
 pos
 ;
 for
@@ -3422,7 +3422,7 @@ pos
 =
 mOffset
 ;
-PRUint32
+uint32_t
 (
 pos
 )
@@ -3444,7 +3444,7 @@ pos
 |
 |
 (
-PRUint32
+uint32_t
 (
 pos
 )
@@ -3692,7 +3692,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-PRUint32
+uint32_t
 len
 =
 textNode
@@ -3720,7 +3720,7 @@ nextNode
 }
 else
 {
-PRInt32
+int32_t
 pos
 ;
 for
@@ -3729,7 +3729,7 @@ pos
 =
 0
 ;
-PRUint32
+uint32_t
 (
 pos
 )
@@ -3743,7 +3743,7 @@ pos
 {
 if
 (
-PRUint32
+uint32_t
 (
 pos
 )
@@ -5027,7 +5027,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 aPoint
@@ -5057,7 +5057,7 @@ GetPreviousWSNode
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
@@ -5472,7 +5472,7 @@ nsIDOMNode
 >
 node
 ;
-PRInt32
+int32_t
 offset
 ;
 aPoint
@@ -5502,7 +5502,7 @@ GetNextWSNode
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
@@ -6078,7 +6078,7 @@ nsIDOMNode
 wsStartNode
 wsEndNode
 ;
-PRInt32
+int32_t
 wsStartOffset
 wsEndOffset
 ;
@@ -6308,7 +6308,7 @@ nsIDOMNode
 wsStartNode
 wsEndNode
 ;
-PRInt32
+int32_t
 wsStartOffset
 wsEndOffset
 ;
@@ -6398,12 +6398,12 @@ DeleteChars
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 AreaRestriction
 aAR
@@ -6499,7 +6499,7 @@ res
 =
 NS_OK
 ;
-PRInt32
+int32_t
 idx
 =
 mNodeArray
@@ -6567,11 +6567,11 @@ DeleteText
 (
 textnode
 (
-PRUint32
+uint32_t
 )
 aStartOffset
 (
-PRUint32
+uint32_t
 )
 (
 aEndOffset
@@ -6582,7 +6582,7 @@ aStartOffset
 ;
 }
 }
-PRInt32
+int32_t
 count
 =
 mNodeArray
@@ -6627,7 +6627,7 @@ do_QueryInterface
 node
 )
 ;
-PRUint32
+uint32_t
 len
 ;
 textnode
@@ -6641,7 +6641,7 @@ len
 ;
 if
 (
-PRUint32
+uint32_t
 (
 aStartOffset
 )
@@ -6658,7 +6658,7 @@ DeleteText
 (
 textnode
 (
-PRUint32
+uint32_t
 )
 aStartOffset
 len
@@ -6705,7 +6705,7 @@ DeleteText
 textnode
 0
 (
-PRUint32
+uint32_t
 )
 aEndOffset
 )
@@ -6875,7 +6875,7 @@ GetCharAfter
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -6884,7 +6884,7 @@ MOZ_ASSERT
 aNode
 )
 ;
-PRInt32
+int32_t
 idx
 =
 mNodeArray
@@ -6941,7 +6941,7 @@ GetCharBefore
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -6950,7 +6950,7 @@ MOZ_ASSERT
 aNode
 )
 ;
-PRInt32
+int32_t
 idx
 =
 mNodeArray
@@ -7052,7 +7052,7 @@ mTextNode
 )
 )
 ;
-PRInt32
+int32_t
 idx
 =
 mNodeArray
@@ -7075,7 +7075,7 @@ return
 outPoint
 ;
 }
-PRInt32
+int32_t
 numNodes
 =
 mNodeArray
@@ -7086,7 +7086,7 @@ Count
 ;
 if
 (
-PRUint16
+uint16_t
 (
 aPoint
 .
@@ -7133,7 +7133,7 @@ idx
 1
 <
 (
-PRInt32
+int32_t
 )
 numNodes
 )
@@ -7267,7 +7267,7 @@ mTextNode
 )
 )
 ;
-PRInt32
+int32_t
 idx
 =
 mNodeArray
@@ -7361,7 +7361,7 @@ do_QueryInterface
 node
 )
 ;
-PRUint32
+uint32_t
 len
 =
 outPoint
@@ -7548,7 +7548,7 @@ nsIDOMNode
 startNode
 endNode
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -7605,12 +7605,12 @@ nsWSRunObject
 :
 GetAsciiWSBounds
 (
-PRInt16
+int16_t
 aDir
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 nsCOMPtr
 <
@@ -7618,7 +7618,7 @@ nsIDOMNode
 >
 *
 outStartNode
-PRInt32
+int32_t
 *
 outStartOffset
 nsCOMPtr
@@ -7627,7 +7627,7 @@ nsIDOMNode
 >
 *
 outEndNode
-PRInt32
+int32_t
 *
 outEndOffset
 )
@@ -7650,7 +7650,7 @@ nsIDOMNode
 startNode
 endNode
 ;
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -7893,7 +7893,7 @@ FindRun
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 WSFragment
 *
@@ -7927,7 +7927,7 @@ while
 run
 )
 {
-PRInt16
+int16_t
 comp
 =
 nsContentUtils
@@ -8094,7 +8094,7 @@ GetCharAt
 nsIContent
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -8104,10 +8104,10 @@ aTextNode
 0
 )
 ;
-PRInt32
+int32_t
 len
 =
-PRInt32
+int32_t
 (
 aTextNode
 -
@@ -8159,11 +8159,11 @@ GetWSPointAfter
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
-PRInt32
+int32_t
 numNodes
 firstNum
 curNum
@@ -8204,7 +8204,7 @@ lastNum
 =
 numNodes
 ;
-PRInt16
+int16_t
 cmp
 =
 0
@@ -8386,11 +8386,11 @@ GetWSPointBefore
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
-PRInt32
+int32_t
 numNodes
 firstNum
 curNum
@@ -8431,7 +8431,7 @@ lastNum
 =
 numNodes
 ;
-PRInt16
+int16_t
 cmp
 =
 0
@@ -9048,7 +9048,7 @@ mTextNode
 )
 )
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -9172,7 +9172,7 @@ aRun
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -9405,7 +9405,7 @@ aRun
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -9671,7 +9671,7 @@ aHTMLEd
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 offset
 =
 0
@@ -9684,7 +9684,7 @@ aBoundary
 kBlockEnd
 )
 {
-PRUint32
+uint32_t
 uOffset
 ;
 aHTMLEd

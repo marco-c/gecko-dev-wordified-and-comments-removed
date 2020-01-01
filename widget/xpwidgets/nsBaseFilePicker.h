@@ -74,7 +74,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 ;
@@ -89,14 +89,14 @@ aCallback
 NS_IMETHOD
 AppendFilters
 (
-PRInt32
+int32_t
 filterMask
 )
 ;
 NS_IMETHOD
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -104,7 +104,7 @@ aFilterIndex
 NS_IMETHOD
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 ;
@@ -167,7 +167,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 =

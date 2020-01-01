@@ -105,7 +105,7 @@ nsIDOMPlugin
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -222,7 +222,7 @@ nsIPluginHost
 >
 mPluginHost
 ;
-PRUint32
+uint32_t
 mPluginCount
 ;
 nsIDOMPlugin
@@ -262,7 +262,7 @@ nsIDOMMimeType
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -355,7 +355,7 @@ nsIDOMPlugin
 *
 mPlugin
 ;
-PRUint32
+uint32_t
 mMimeTypeCount
 ;
 nsIDOMMimeType

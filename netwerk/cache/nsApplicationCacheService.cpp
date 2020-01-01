@@ -151,7 +151,7 @@ group
 nsIFile
 *
 profileDir
-PRInt32
+int32_t
 quota
 nsIApplicationCache
 *
@@ -511,7 +511,7 @@ nsApplicationCacheService
 :
 GetGroups
 (
-PRUint32
+uint32_t
 *
 count
 char
@@ -572,7 +572,7 @@ nsApplicationCacheService
 :
 GetGroupsTimeOrdered
 (
-PRUint32
+uint32_t
 *
 count
 char

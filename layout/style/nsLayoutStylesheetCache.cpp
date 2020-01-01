@@ -93,7 +93,7 @@ cache
 "
 )
 static
-PRInt64
+int64_t
 GetStylesheetCacheSize
 (
 )

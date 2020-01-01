@@ -169,7 +169,7 @@ nsWifiAccessPoint
 :
 GetSignal
 (
-PRInt32
+int32_t
 *
 aSignal
 )
@@ -242,7 +242,7 @@ false
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -290,7 +290,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -457,7 +457,7 @@ Clear
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

@@ -1508,7 +1508,7 @@ settings
 valueData
 )
 ;
-PRInt32
+int32_t
 offset
 =
 valueData
@@ -2084,7 +2084,7 @@ oldValueOpen
 OLD_VAL_OPEN
 )
 ;
-PRInt32
+int32_t
 offset
 =
 oldValueOpen
@@ -2758,7 +2758,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 width
 =
 image
@@ -2768,7 +2768,7 @@ Width
 (
 )
 ;
-PRInt32
+int32_t
 height
 =
 image
@@ -2778,7 +2778,7 @@ Height
 (
 )
 ;
-PRUint8
+uint8_t
 *
 bits
 =
@@ -2789,7 +2789,7 @@ Data
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 image
@@ -2799,10 +2799,10 @@ GetDataSize
 (
 )
 ;
-PRUint32
+uint32_t
 bpr
 =
-PRUint32
+uint32_t
 (
 image
 -
@@ -2812,7 +2812,7 @@ Stride
 )
 )
 ;
-PRInt32
+int32_t
 bitCount
 =
 bpr
@@ -2975,7 +2975,7 @@ if
 stream
 )
 {
-PRUint32
+uint32_t
 written
 ;
 stream
@@ -3040,7 +3040,7 @@ BITMAPINFOHEADER
 )
 )
 {
-PRUint32
+uint32_t
 i
 =
 length
@@ -3126,7 +3126,7 @@ SetDesktopBackground
 nsIDOMElement
 *
 aElement
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -3669,7 +3669,7 @@ nsWindowsShellService
 :
 OpenApplication
 (
-PRInt32
+int32_t
 aApplication
 )
 {
@@ -3926,7 +3926,7 @@ path
 buf
 )
 ;
-PRInt32
+int32_t
 end
 =
 path
@@ -3935,7 +3935,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 cursor
 =
 0
@@ -4140,12 +4140,12 @@ nsWindowsShellService
 :
 GetDesktopBackgroundColor
 (
-PRUint32
+uint32_t
 *
 aColor
 )
 {
-PRUint32
+uint32_t
 color
 =
 :
@@ -4193,7 +4193,7 @@ nsWindowsShellService
 :
 SetDesktopBackgroundColor
 (
-PRUint32
+uint32_t
 aColor
 )
 {

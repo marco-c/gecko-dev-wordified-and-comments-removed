@@ -80,7 +80,7 @@ showAgainName
 bool
 aAsync
 const
-PRUint32
+uint32_t
 aBucket
 )
 ;
@@ -103,7 +103,7 @@ PRUnichar
 *
 showAgainName
 const
-PRUint32
+uint32_t
 aBucket
 bool
 *

@@ -283,10 +283,10 @@ nsPrefetchNode
 >
 mCurrentNode
 ;
-PRInt32
+int32_t
 mStopCount
 ;
-PRInt32
+int32_t
 mHaveProcessed
 ;
 bool
@@ -394,10 +394,10 @@ nsIChannel
 >
 mRedirectChannel
 ;
-PRUint16
+uint16_t
 mState
 ;
-PRInt32
+int32_t
 mBytesRead
 ;
 }

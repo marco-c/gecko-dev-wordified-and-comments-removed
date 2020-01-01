@@ -158,7 +158,7 @@ nsString
 >
 mSuggestedWordList
 ;
-PRInt32
+int32_t
 mSuggestedWordIndex
 ;
 nsTArray
@@ -167,7 +167,7 @@ nsString
 >
 mDictionaryList
 ;
-PRInt32
+int32_t
 mDictionaryIndex
 ;
 nsresult

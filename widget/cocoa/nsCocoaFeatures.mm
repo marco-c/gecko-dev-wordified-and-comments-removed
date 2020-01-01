@@ -166,7 +166,7 @@ Cocoa
 .
 h
 >
-PRInt32
+int32_t
 nsCocoaFeatures
 :
 :
@@ -179,7 +179,7 @@ mOSXVersion
 static
 *
 /
-PRInt32
+int32_t
 nsCocoaFeatures
 :
 :

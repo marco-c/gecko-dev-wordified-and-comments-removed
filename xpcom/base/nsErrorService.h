@@ -39,7 +39,7 @@ nsInt2StrHashtable
 nsresult
 Put
 (
-PRUint32
+uint32_t
 key
 const
 char
@@ -51,14 +51,14 @@ char
 *
 Get
 (
-PRUint32
+uint32_t
 key
 )
 ;
 nsresult
 Remove
 (
-PRUint32
+uint32_t
 key
 )
 ;

@@ -93,7 +93,7 @@ gMediaStreamGraphLog
 #
 endif
 typedef
-PRInt64
+int64_t
 GraphTime
 ;
 const
@@ -214,7 +214,7 @@ TrackRate
 aTrackRate
 TrackTicks
 aTrackOffset
-PRUint32
+uint32_t
 aTrackEvents
 const
 MediaSegment
@@ -385,7 +385,7 @@ aContainer
 void
 ChangeExplicitBlockerCount
 (
-PRInt32
+int32_t
 aDelta
 )
 ;
@@ -671,7 +671,7 @@ ChangeExplicitBlockerCountImpl
 (
 StreamTime
 aTime
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -896,7 +896,7 @@ mLastPlayedVideoFrame
 TimeVarying
 <
 GraphTime
-PRUint32
+uint32_t
 >
 mExplicitBlockerCount
 ;
@@ -928,7 +928,7 @@ mBlocked
 TimeVarying
 <
 GraphTime
-PRInt64
+int64_t
 >
 mGraphUpdateIndices
 ;
@@ -1217,7 +1217,7 @@ mRate
 TrackTicks
 mStart
 ;
-PRUint32
+uint32_t
 mCommands
 ;
 nsAutoPtr
@@ -1249,7 +1249,7 @@ aID
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1359,7 +1359,7 @@ aSource
 ProcessedMediaStream
 *
 aDest
-PRUint32
+uint32_t
 aFlags
 )
 :
@@ -1471,7 +1471,7 @@ ProcessedMediaStream
 *
 mDest
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 }
@@ -1512,7 +1512,7 @@ AllocateInputPort
 MediaStream
 *
 aStream
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -1673,7 +1673,7 @@ nsDOMMediaStream
 aWrapper
 )
 ;
-PRInt64
+int64_t
 GetCurrentGraphUpdateIndex
 (
 )
@@ -1735,7 +1735,7 @@ nsIRunnable
 >
 mPendingUpdateRunnables
 ;
-PRInt64
+int64_t
 mGraphUpdatesSent
 ;
 }

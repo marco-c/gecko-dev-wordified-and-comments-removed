@@ -104,7 +104,7 @@ aCmdLine
 nsresult
 rv
 ;
-PRInt32
+int32_t
 idx
 ;
 rv
@@ -140,7 +140,7 @@ idx
 return
 NS_OK
 ;
-PRInt32
+int32_t
 length
 ;
 aCmdLine

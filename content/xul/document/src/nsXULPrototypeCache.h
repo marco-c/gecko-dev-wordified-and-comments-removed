@@ -339,7 +339,7 @@ sInstance
 void
 MarkInCCGeneration
 (
-PRUint32
+uint32_t
 aGeneration
 )
 ;
@@ -416,7 +416,7 @@ mXBLDocTable
 nsDataHashtable
 <
 nsURIHashKey
-PRUint32
+uint32_t
 >
 mCacheURITable
 ;

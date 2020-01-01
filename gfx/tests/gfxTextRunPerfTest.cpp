@@ -316,7 +316,7 @@ gfxTextRun
 >
 textRun
 ;
-PRUint32
+uint32_t
 i
 ;
 bool
@@ -377,7 +377,7 @@ nullptr
 60
 }
 ;
-PRUint32
+uint32_t
 flags
 =
 gfxTextRunFactory
@@ -385,7 +385,7 @@ gfxTextRunFactory
 :
 TEXT_IS_PERSISTENT
 ;
-PRUint32
+uint32_t
 length
 ;
 if
@@ -426,7 +426,7 @@ MakeTextRun
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (
@@ -494,7 +494,7 @@ nullptr
 )
 ;
 }
-PRUint32
+uint32_t
 iterations
 =
 20
@@ -596,7 +596,7 @@ PR_IntervalNow
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

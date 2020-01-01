@@ -351,7 +351,7 @@ CreateHiddenWindow
 nsresult
 rv
 ;
-PRInt32
+int32_t
 initialHeight
 =
 100
@@ -362,7 +362,7 @@ initialWidth
 #
 ifdef
 XP_MACOSX
-PRUint32
+uint32_t
 chromeMask
 =
 0
@@ -424,7 +424,7 @@ hiddenWindowURL
 =
 DEFAULT_HIDDENWINDOW_URL
 ;
-PRUint32
+uint32_t
 chromeMask
 =
 nsIWebBrowserChrome
@@ -537,11 +537,11 @@ aParent
 nsIURI
 *
 aUrl
-PRUint32
+uint32_t
 aChromeMask
-PRInt32
+int32_t
 aInitialWidth
-PRInt32
+int32_t
 aInitialHeight
 nsIXULWindow
 *
@@ -641,7 +641,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 nsAppShellService
 :
 :
@@ -650,11 +650,11 @@ CalculateWindowZLevel
 nsIXULWindow
 *
 aParent
-PRUint32
+uint32_t
 aChromeMask
 )
 {
-PRUint32
+uint32_t
 zLevel
 ;
 zLevel
@@ -700,7 +700,7 @@ loweredZ
 #
 ifdef
 XP_MACOSX
-PRUint32
+uint32_t
 modalDepMask
 =
 nsIWebBrowserChrome
@@ -883,7 +883,7 @@ if
 baseWin
 )
 {
-PRInt32
+int32_t
 sizeMode
 ;
 nsCOMPtr
@@ -951,11 +951,11 @@ aParent
 nsIURI
 *
 aUrl
-PRUint32
+uint32_t
 aChromeMask
-PRInt32
+int32_t
 aInitialWidth
-PRInt32
+int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
@@ -1097,7 +1097,7 @@ true
 #
 ifdef
 XP_MACOSX
-PRUint32
+uint32_t
 sheetMask
 =
 nsIWebBrowserChrome

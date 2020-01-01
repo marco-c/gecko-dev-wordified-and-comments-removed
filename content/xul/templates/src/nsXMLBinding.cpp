@@ -225,7 +225,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsXMLBindingSet
 :
 :
@@ -240,7 +240,7 @@ nsXMLBinding
 aBinding
 )
 {
-PRInt32
+int32_t
 idx
 =
 0
@@ -310,9 +310,9 @@ aResult
 nsXMLBinding
 *
 aBinding
-PRInt32
+int32_t
 aIndex
-PRUint16
+uint16_t
 aType
 nsIDOMXPathResult
 *
@@ -432,7 +432,7 @@ aResult
 nsXMLBinding
 *
 aBinding
-PRInt32
+int32_t
 aIndex
 nsIDOMNode
 *
@@ -492,7 +492,7 @@ aResult
 nsXMLBinding
 *
 aBinding
-PRInt32
+int32_t
 aIndex
 nsAString
 &

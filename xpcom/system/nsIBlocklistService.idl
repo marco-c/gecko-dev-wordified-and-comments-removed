@@ -967,7 +967,7 @@ aAddons
 optional
 ]
 in
-PRUint32
+uint32_t
 aCount
 )
 ;

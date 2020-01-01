@@ -337,7 +337,7 @@ mCurrentIdx
 void
 SetIndex
 (
-PRUint32
+uint32_t
 aIdx
 )
 ;

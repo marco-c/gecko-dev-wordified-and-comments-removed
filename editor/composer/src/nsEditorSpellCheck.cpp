@@ -1162,7 +1162,7 @@ selection
 NS_ERROR_FAILURE
 )
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -1426,7 +1426,7 @@ if
 (
 mSuggestedWordIndex
 <
-PRInt32
+int32_t
 (
 mSuggestedWordList
 .
@@ -1670,7 +1670,7 @@ if
 (
 mDictionaryIndex
 <
-PRInt32
+int32_t
 (
 mDictionaryList
 .
@@ -1786,7 +1786,7 @@ PRUnichar
 *
 *
 aDictionaryList
-PRUint32
+uint32_t
 *
 aCount
 )
@@ -1947,7 +1947,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -2049,7 +2049,7 @@ comparator
 nsAutoString
 langCode
 ;
-PRInt32
+int32_t
 dashIdx
 =
 aDictionary
@@ -2682,7 +2682,7 @@ rv
 nsAutoString
 langCode
 ;
-PRInt32
+int32_t
 dashIdx
 =
 dictName
@@ -2835,7 +2835,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 i
 count
 =
@@ -2990,7 +2990,7 @@ NS_ConvertUTF8toUTF16
 env_lang
 )
 ;
-PRInt32
+int32_t
 dot_pos
 =
 lang

@@ -4714,7 +4714,7 @@ if
 positionedElement
 )
 {
-PRInt32
+int32_t
 z
 ;
 nsresult

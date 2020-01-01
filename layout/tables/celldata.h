@@ -118,7 +118,7 @@ bool
 aIsZero
 )
 ;
-PRUint32
+uint32_t
 GetRowSpanOffset
 (
 )
@@ -127,7 +127,7 @@ const
 void
 SetRowSpanOffset
 (
-PRUint32
+uint32_t
 aSpan
 )
 ;
@@ -150,7 +150,7 @@ bool
 aIsZero
 )
 ;
-PRUint32
+uint32_t
 GetColSpanOffset
 (
 )
@@ -159,7 +159,7 @@ const
 void
 SetColSpanOffset
 (
-PRUint32
+uint32_t
 aSpan
 )
 ;
@@ -260,7 +260,7 @@ eAjaCellOwner
 }
 ;
 typedef
-PRUint16
+uint16_t
 BCPixelSize
 ;
 #
@@ -283,9 +283,9 @@ inline
 nscoord
 BC_BORDER_TOP_HALF_COORD
 (
-PRInt32
+int32_t
 p2t
-PRUint16
+uint16_t
 px
 )
 {
@@ -306,9 +306,9 @@ inline
 nscoord
 BC_BORDER_RIGHT_HALF_COORD
 (
-PRInt32
+int32_t
 p2t
-PRUint16
+uint16_t
 px
 )
 {
@@ -327,9 +327,9 @@ inline
 nscoord
 BC_BORDER_BOTTOM_HALF_COORD
 (
-PRInt32
+int32_t
 p2t
-PRUint16
+uint16_t
 px
 )
 {
@@ -348,9 +348,9 @@ inline
 nscoord
 BC_BORDER_LEFT_HALF_COORD
 (
-PRInt32
+int32_t
 p2t
-PRUint16
+uint16_t
 px
 )
 {
@@ -987,7 +987,7 @@ ROW_SPAN_0
 }
 }
 inline
-PRUint32
+uint32_t
 CellData
 :
 :
@@ -1026,7 +1026,7 @@ mBits
 {
 return
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -1051,7 +1051,7 @@ CellData
 :
 SetRowSpanOffset
 (
-PRUint32
+uint32_t
 aSpan
 )
 {
@@ -1210,7 +1210,7 @@ COL_SPAN_0
 }
 }
 inline
-PRUint32
+uint32_t
 CellData
 :
 :
@@ -1249,7 +1249,7 @@ mBits
 {
 return
 (
-PRUint32
+uint32_t
 )
 (
 (
@@ -1274,7 +1274,7 @@ CellData
 :
 SetColSpanOffset
 (
-PRUint32
+uint32_t
 aSpan
 )
 {

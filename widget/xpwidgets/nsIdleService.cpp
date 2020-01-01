@@ -378,7 +378,7 @@ GetEntries
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -425,12 +425,12 @@ this
 DAILY_SIGNIFICANT_IDLE_SERVICE_SEC
 )
 ;
-PRInt32
+int32_t
 nowSec
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 PR_Now
@@ -565,12 +565,12 @@ Init
 (
 )
 {
-PRInt32
+int32_t
 nowSec
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 PR_Now
@@ -580,7 +580,7 @@ PR_Now
 PR_USEC_PER_SEC
 )
 ;
-PRInt32
+int32_t
 lastDaily
 =
 Preferences
@@ -1125,7 +1125,7 @@ AddIdleObserver
 nsIObserver
 *
 aObserver
-PRUint32
+uint32_t
 aIdleTimeInS
 )
 {
@@ -1327,7 +1327,7 @@ RemoveIdleObserver
 nsIObserver
 *
 aObserver
-PRUint32
+uint32_t
 aTimeInS
 )
 {
@@ -1482,7 +1482,7 @@ nsIdleService
 :
 ResetIdleTimeOut
 (
-PRUint32
+uint32_t
 idleDeltaInMS
 )
 {
@@ -1574,7 +1574,7 @@ PR_UINT32_MAX
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1645,7 +1645,7 @@ ReconfigureTimer
 (
 )
 ;
-PRInt32
+int32_t
 numberOfPendingNotifications
 =
 notifyList
@@ -1684,7 +1684,7 @@ timeStr
 AppendInt
 (
 (
-PRInt32
+int32_t
 )
 (
 idleDeltaInMS
@@ -1785,7 +1785,7 @@ nsIdleService
 :
 GetIdleTime
 (
-PRUint32
+uint32_t
 *
 idleTime
 )
@@ -1800,7 +1800,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-PRUint32
+uint32_t
 polledIdleTimeMS
 ;
 bool
@@ -1838,7 +1838,7 @@ polledIdleTimeIsValid
 )
 )
 ;
-PRUint32
+uint32_t
 timeSinceResetInMS
 =
 (
@@ -1934,7 +1934,7 @@ nsIdleService
 :
 PollIdleTime
 (
-PRUint32
+uint32_t
 *
 )
 {
@@ -1950,7 +1950,7 @@ UsePollMode
 (
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 return
@@ -2003,7 +2003,7 @@ mCurrentlySetToTimeoutAtInPR
 =
 0
 ;
-PRUint32
+uint32_t
 currentIdleTimeInMS
 ;
 if
@@ -2138,7 +2138,7 @@ currentIdleTimeInMS
 )
 ;
 }
-PRUint32
+uint32_t
 currentIdleTimeInS
 =
 currentIdleTimeInMS
@@ -2183,7 +2183,7 @@ notifyList
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2269,7 +2269,7 @@ ReconfigureTimer
 (
 )
 ;
-PRInt32
+int32_t
 numberOfPendingNotifications
 =
 notifyList
@@ -2707,7 +2707,7 @@ now
 "
 nextTimeoutAtInPR
 (
-PRUint32
+uint32_t
 )
 (
 (

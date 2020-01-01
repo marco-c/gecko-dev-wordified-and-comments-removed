@@ -143,7 +143,7 @@ h
 define
 RECENT_BACKUP_TIME_MICROSEC
 (
-PRInt64
+int64_t
 )
 86400
 *
@@ -416,7 +416,7 @@ Length
 1
 )
 {
-PRInt64
+int64_t
 lastMod
 =
 0
@@ -1061,7 +1061,7 @@ NS_IsMainThread
 )
 ;
 static
-PRInt32
+int32_t
 itemPosition
 =
 0
@@ -2382,12 +2382,12 @@ JOURNAL_WAL
 )
 )
 {
-PRInt32
+int32_t
 checkpointPages
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 DATABASE_MAX_WAL_SIZE_IN_KIBIBYTES
@@ -2525,7 +2525,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 currentSchemaVersion
 ;
 rv
@@ -3813,7 +3813,7 @@ MOZ_ASSERT
 hasResult
 )
 ;
-PRInt32
+int32_t
 bookmarkCount
 =
 0
@@ -3840,7 +3840,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 rootCount
 =
 0
@@ -3867,7 +3867,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 positionSum
 =
 0
@@ -4332,7 +4332,7 @@ UnsortedBookmarksFolderTitle
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4704,7 +4704,7 @@ hasResult
 hasResult
 )
 {
-PRInt64
+int64_t
 itemId
 ;
 rv
@@ -5099,7 +5099,7 @@ hasResult
 hasResult
 )
 {
-PRInt64
+int64_t
 placeId
 ;
 rv

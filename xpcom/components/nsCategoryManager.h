@@ -180,7 +180,7 @@ Clear
 )
 ;
 }
-PRUint32
+uint32_t
 Count
 (
 )
@@ -194,7 +194,7 @@ lock
 mLock
 )
 ;
-PRUint32
+uint32_t
 tCount
 =
 mTable

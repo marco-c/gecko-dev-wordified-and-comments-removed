@@ -31,9 +31,9 @@ h
 CheckedInt64
 FramesToUsecs
 (
-PRInt64
+int64_t
 aFrames
-PRUint32
+uint32_t
 aRate
 )
 {
@@ -53,9 +53,9 @@ aRate
 CheckedInt64
 UsecsToFrames
 (
-PRInt64
+int64_t
 aUsecs
-PRUint32
+uint32_t
 aRate
 )
 {
@@ -73,7 +73,7 @@ USECS_PER_S
 ;
 }
 static
-PRInt32
+int32_t
 ConditionDimension
 (
 float
@@ -95,7 +95,7 @@ aValue
 PR_INT32_MAX
 )
 return
-PRInt32
+int32_t
 (
 NS_round
 (

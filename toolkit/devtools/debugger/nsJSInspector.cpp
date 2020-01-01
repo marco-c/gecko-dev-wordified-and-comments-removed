@@ -152,7 +152,7 @@ nsJSInspector
 :
 EnterNestedEventLoop
 (
-PRUint32
+uint32_t
 *
 out
 )
@@ -191,7 +191,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 nestLevel
 =
 +
@@ -314,7 +314,7 @@ nsJSInspector
 :
 ExitNestedEventLoop
 (
-PRUint32
+uint32_t
 *
 out
 )
@@ -352,7 +352,7 @@ nsJSInspector
 :
 GetEventLoopNestLevel
 (
-PRUint32
+uint32_t
 *
 out
 )

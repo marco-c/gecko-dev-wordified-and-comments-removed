@@ -243,7 +243,7 @@ CheckPolicy
 (
 CPMethod
 policyMethod
-PRUint32
+uint32_t
 contentType
 nsIURI
 *
@@ -264,7 +264,7 @@ extra
 nsIPrincipal
 *
 requestPrincipal
-PRInt16
+int16_t
 *
 decision
 )
@@ -438,7 +438,7 @@ GetEntries
 (
 )
 ;
-PRInt32
+int32_t
 count
 =
 entries
@@ -449,7 +449,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -706,7 +706,7 @@ nsContentPolicy
 :
 ShouldLoad
 (
-PRUint32
+uint32_t
 contentType
 nsIURI
 *
@@ -727,7 +727,7 @@ extra
 nsIPrincipal
 *
 requestPrincipal
-PRInt16
+int16_t
 *
 decision
 )
@@ -780,7 +780,7 @@ nsContentPolicy
 :
 ShouldProcess
 (
-PRUint32
+uint32_t
 contentType
 nsIURI
 *
@@ -801,7 +801,7 @@ extra
 nsIPrincipal
 *
 requestPrincipal
-PRInt16
+int16_t
 *
 decision
 )

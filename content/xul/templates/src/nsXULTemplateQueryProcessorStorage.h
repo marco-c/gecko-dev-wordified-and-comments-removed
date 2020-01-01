@@ -104,7 +104,7 @@ mozIStorageStatement
 aStatement
 )
 ;
-PRInt32
+int32_t
 GetColumnIndex
 (
 nsIAtom

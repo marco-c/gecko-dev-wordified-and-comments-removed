@@ -1572,14 +1572,14 @@ vp
 }
 static
 const
-PRUint32
+uint32_t
 sNextIdIndexSlot
 =
 0
 ;
 static
 const
-PRUint32
+uint32_t
 sNumNewEnumerateStateSlots
 =
 1
@@ -2546,7 +2546,7 @@ false
 AutoJSArgs
 args
 ;
-PRUint32
+uint32_t
 argc
 =
 argv
@@ -2584,7 +2584,7 @@ jsargs
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2709,7 +2709,7 @@ status
 AutoJSArgs
 args
 ;
-PRUint32
+uint32_t
 argc
 =
 argv
@@ -2747,7 +2747,7 @@ jsargs
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

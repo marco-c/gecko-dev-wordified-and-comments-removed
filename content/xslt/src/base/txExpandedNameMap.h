@@ -109,7 +109,7 @@ aMap
 )
 mCurrentPos
 (
-PRUint32
+uint32_t
 (
 -
 1
@@ -233,7 +233,7 @@ txExpandedNameMap_base
 &
 mMap
 ;
-PRUint32
+uint32_t
 mCurrentPos
 ;
 }
@@ -249,7 +249,7 @@ txMapItemComparator
 struct
 MapItem
 {
-PRInt32
+int32_t
 mNamespaceID
 ;
 nsCOMPtr
@@ -561,7 +561,7 @@ clear
 (
 )
 {
-PRUint32
+uint32_t
 i
 len
 =

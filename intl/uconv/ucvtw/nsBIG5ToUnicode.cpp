@@ -33,7 +33,7 @@ u2BytesCharset
 ;
 static
 const
-PRUint16
+uint16_t
 *
 g_BIG5MappingTableSet
 [

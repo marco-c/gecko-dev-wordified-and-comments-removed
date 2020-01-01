@@ -498,7 +498,7 @@ Document
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -745,7 +745,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -919,7 +919,7 @@ mStyleBits
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -976,7 +976,7 @@ nsCSSCompressedDataBlock
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1086,7 +1086,7 @@ this
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1327,7 +1327,7 @@ aImportant
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1550,10 +1550,10 @@ nsCSSExpandedDataBlock
 :
 ComputeNumProps
 (
-PRUint32
+uint32_t
 *
 aNumPropsNormal
-PRUint32
+uint32_t
 *
 aNumPropsImportant
 )
@@ -1737,7 +1737,7 @@ nsCSSCompressedDataBlock
 result_normal
 result_important
 ;
-PRUint32
+uint32_t
 i_normal
 =
 0
@@ -1745,7 +1745,7 @@ i_important
 =
 0
 ;
-PRUint32
+uint32_t
 numPropsNormal
 numPropsImportant
 ;
@@ -1908,7 +1908,7 @@ result_important
 :
 result_normal
 ;
-PRUint32
+uint32_t
 *
 ip
 =
@@ -2580,7 +2580,7 @@ state
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

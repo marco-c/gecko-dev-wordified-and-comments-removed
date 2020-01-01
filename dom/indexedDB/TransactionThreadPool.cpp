@@ -57,19 +57,19 @@ USING_INDEXEDDB_NAMESPACE
 namespace
 {
 const
-PRUint32
+uint32_t
 kThreadLimit
 =
 20
 ;
 const
-PRUint32
+uint32_t
 kIdleThreadLimit
 =
 5
 ;
 const
-PRUint32
+uint32_t
 kIdleThreadTimeoutMs
 =
 30000
@@ -109,7 +109,7 @@ bool
 aStoresOverlap
 )
 {
-PRUint32
+uint32_t
 length
 =
 aObjectStores
@@ -125,7 +125,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -644,7 +644,7 @@ IsEmpty
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -804,7 +804,7 @@ dbTransactionInfo
 >
 transactions
 ;
-PRUint32
+uint32_t
 transactionCount
 =
 transactionsInProgress
@@ -896,7 +896,7 @@ Remove
 databaseId
 )
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -951,7 +951,7 @@ storesReading
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1204,7 +1204,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1332,7 +1332,7 @@ aTransaction
 mObjectStoreNames
 ;
 const
-PRUint16
+uint16_t
 mode
 =
 aTransaction
@@ -1383,7 +1383,7 @@ dbTransactionInfo
 >
 transactions
 ;
-PRUint32
+uint32_t
 transactionCount
 =
 transactionsInProgress
@@ -1406,7 +1406,7 @@ be
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2275,7 +2275,7 @@ dbTransactionInfo
 >
 transactions
 ;
-PRUint32
+uint32_t
 transactionCount
 =
 transactionsInProgress
@@ -2298,7 +2298,7 @@ be
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2347,7 +2347,7 @@ transaction
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2400,7 +2400,7 @@ transaction
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2501,7 +2501,7 @@ dbTransactionInfo
 >
 transactions
 ;
-PRUint32
+uint32_t
 transactionCount
 =
 transactionsInProgress
@@ -2524,7 +2524,7 @@ be
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2590,7 +2590,7 @@ thread
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -2938,7 +2938,7 @@ true
 ;
 }
 }
-PRUint32
+uint32_t
 count
 =
 queue
@@ -2949,7 +2949,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

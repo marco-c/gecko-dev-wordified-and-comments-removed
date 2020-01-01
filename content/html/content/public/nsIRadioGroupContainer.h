@@ -151,7 +151,7 @@ aRadio
 0
 ;
 virtual
-PRUint32
+uint32_t
 GetRequiredRadioCount
 (
 const

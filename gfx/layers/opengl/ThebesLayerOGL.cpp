@@ -116,7 +116,7 @@ WrapMode
 GLContext
 *
 aGl
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -182,7 +182,7 @@ TextureImage
 :
 ContentType
 aContentType
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -338,7 +338,7 @@ BeginPaint
 (
 ContentType
 aContentType
-PRUint32
+uint32_t
 aFlags
 )
 =
@@ -354,7 +354,7 @@ aOffset
 LayerManagerOGL
 *
 aManager
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -512,7 +512,7 @@ aOffset
 LayerManagerOGL
 *
 aManager
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -595,7 +595,7 @@ surf
 }
 #
 endif
-PRInt32
+int32_t
 passes
 =
 mTexImageOnWhite
@@ -606,7 +606,7 @@ mTexImageOnWhite
 ;
 for
 (
-PRInt32
+int32_t
 pass
 =
 1
@@ -1532,7 +1532,7 @@ BeginPaint
 (
 ContentType
 aContentType
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1561,7 +1561,7 @@ const
 nsIntSize
 &
 aSize
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1677,7 +1677,7 @@ BeginPaint
 (
 ContentType
 aContentType
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -1736,10 +1736,10 @@ static
 void
 WrapRotationAxis
 (
-PRInt32
+int32_t
 *
 aRotationPoint
-PRInt32
+int32_t
 aSize
 )
 {
@@ -1918,7 +1918,7 @@ BeginPaint
 (
 ContentType
 aContentType
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -2391,7 +2391,7 @@ TextureImage
 >
 destBufferOnWhite
 ;
-PRUint32
+uint32_t
 bufferFlags
 =
 canHaveRotation
@@ -2488,7 +2488,7 @@ bounds
 "
 )
 ;
-PRInt32
+int32_t
 xBoundary
 =
 destBufferRect
@@ -2501,7 +2501,7 @@ newRotation
 .
 x
 ;
-PRInt32
+int32_t
 yBoundary
 =
 destBufferRect
@@ -3230,7 +3230,7 @@ mRegionToInvalidate
 invalidate
 )
 ;
-PRInt32
+int32_t
 xBoundary
 =
 mBufferRect
@@ -3243,7 +3243,7 @@ mBufferRotation
 .
 x
 ;
-PRInt32
+int32_t
 yBoundary
 =
 mBufferRect
@@ -3977,7 +3977,7 @@ gfxASurface
 :
 CONTENT_COLOR_ALPHA
 ;
-PRUint32
+uint32_t
 flags
 =
 0
@@ -4295,7 +4295,7 @@ BeginPaint
 (
 ContentType
 aContentType
-PRUint32
+uint32_t
 )
 {
 NS_RUNTIMEABORT

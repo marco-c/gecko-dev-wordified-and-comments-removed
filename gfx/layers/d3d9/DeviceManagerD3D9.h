@@ -290,7 +290,7 @@ return
 mDeviceWasRemoved
 ;
 }
-PRUint32
+uint32_t
 GetDeviceResetCount
 (
 )
@@ -306,7 +306,7 @@ LayerD3D9
 >
 mLayersWithResources
 ;
-PRInt32
+int32_t
 GetMaxTextureSize
 (
 )
@@ -481,10 +481,10 @@ mFocusWnd
 HMONITOR
 mDeviceMonitor
 ;
-PRUint32
+uint32_t
 mDeviceResetCount
 ;
-PRUint32
+uint32_t
 mMaxTextureSize
 ;
 bool

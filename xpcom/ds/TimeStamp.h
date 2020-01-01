@@ -443,7 +443,7 @@ static
 TimeDuration
 FromTicks
 (
-PRInt64
+int64_t
 aTicks
 )
 {
@@ -512,14 +512,14 @@ TimeDuration
 :
 FromTicks
 (
-PRInt64
+int64_t
 (
 aTicks
 )
 )
 ;
 }
-PRInt64
+int64_t
 mValue
 ;
 }
@@ -611,10 +611,10 @@ LL_MAXINT
 LL_MININT
 )
 ;
-PRInt64
+int64_t
 ticks
 =
-PRInt64
+int64_t
 (
 mValue
 -
@@ -1189,7 +1189,7 @@ TimeStamp
 ;
 TimeStamp
 (
-PRUint64
+uint64_t
 aValue
 )
 :
@@ -1199,7 +1199,7 @@ aValue
 )
 {
 }
-PRUint64
+uint64_t
 mValue
 ;
 }

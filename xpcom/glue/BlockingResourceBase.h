@@ -384,7 +384,7 @@ PRCallOnceType
 sCallOnce
 ;
 static
-PRUintn
+unsigned
 sResourceAcqnChainFrontTPI
 ;
 static

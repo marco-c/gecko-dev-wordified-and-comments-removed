@@ -35,7 +35,7 @@ h
 "
 static
 const
-PRUint32
+uint32_t
 kGrowArrayBy
 =
 10
@@ -90,7 +90,7 @@ nsStyleChangeList
 :
 ChangeAt
 (
-PRInt32
+int32_t
 aIndex
 nsIFrame
 *
@@ -164,7 +164,7 @@ nsStyleChangeList
 :
 ChangeAt
 (
-PRInt32
+int32_t
 aIndex
 const
 nsStyleChangeData
@@ -338,7 +338,7 @@ aContent
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 mCount
@@ -419,7 +419,7 @@ nsStyleChangeData
 }
 }
 }
-PRInt32
+int32_t
 last
 =
 mCount
@@ -473,7 +473,7 @@ mCount
 mArraySize
 )
 {
-PRInt32
+int32_t
 newSize
 =
 mArraySize
@@ -596,7 +596,7 @@ Clear
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 mCount

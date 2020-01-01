@@ -41,7 +41,7 @@ STREAM_TIME_MAX
 MEDIA_TIME_MAX
 ;
 typedef
-PRInt32
+int32_t
 TrackRate
 ;
 const
@@ -54,7 +54,7 @@ TRACK_RATE_MAX
 MEDIA_TIME_FRAC_BITS
 ;
 typedef
-PRInt32
+int32_t
 TrackID
 ;
 const
@@ -1329,7 +1329,7 @@ Track
 *
 mBuffer
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 MediaSegment

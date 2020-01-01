@@ -1352,9 +1352,9 @@ const
 nsIntRect
 &
 aSrc
-PRUint8
+uint8_t
 aHFill
-PRUint8
+uint8_t
 aVFill
 const
 nsSize
@@ -1364,7 +1364,7 @@ const
 nsStyleBorder
 &
 aStyleBorder
-PRUint8
+uint8_t
 aIndex
 )
 ;
@@ -1380,7 +1380,7 @@ css
 :
 Side
 whichSide
-PRUint8
+uint8_t
 style
 nscolor
 aBackgroundColor
@@ -1450,7 +1450,7 @@ css
 :
 Side
 whichSide
-PRUint8
+uint8_t
 style
 nscolor
 aBackgroundColor
@@ -2344,7 +2344,7 @@ twipsPerPixel
 borderRadii
 )
 ;
-PRUint8
+uint8_t
 borderStyles
 [
 4
@@ -2971,7 +2971,7 @@ twipsPerPixel
 outlineRadii
 )
 ;
-PRUint8
+uint8_t
 outlineStyle
 =
 ourOutline
@@ -2981,7 +2981,7 @@ GetOutlineStyle
 (
 )
 ;
-PRUint8
+uint8_t
 outlineStyles
 [
 4
@@ -3219,7 +3219,7 @@ oneDevPixel
 )
 }
 ;
-PRUint8
+uint8_t
 focusStyles
 [
 4
@@ -4348,7 +4348,7 @@ height
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 shadows
@@ -5133,7 +5133,7 @@ innerRadii
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 shadows
@@ -5750,7 +5750,7 @@ const
 nsRect
 &
 aBorderArea
-PRUint32
+uint32_t
 aFlags
 nsRect
 *
@@ -6159,7 +6159,7 @@ GetBackgroundClip
 gfxContext
 *
 aCtx
-PRUint8
+uint8_t
 aBackgroundClip
 nsIFrame
 *
@@ -7025,7 +7025,7 @@ nsStyleCoord
 aCoord
 gfxFloat
 aFillLength
-PRInt32
+int32_t
 aAppUnitsPerPixel
 )
 {
@@ -7443,7 +7443,7 @@ aLineEnd
 }
 else
 {
-PRInt32
+int32_t
 appUnitsPerPixel
 =
 aPresContext
@@ -7610,7 +7610,7 @@ height
 }
 else
 {
-PRInt32
+int32_t
 appUnitsPerPixel
 =
 aPresContext
@@ -7928,7 +7928,7 @@ case
 NS_STYLE_GRADIENT_SIZE_EXPLICIT_SIZE
 :
 {
-PRInt32
+int32_t
 appUnitsPerPixel
 =
 aPresContext
@@ -8405,7 +8405,7 @@ ColorStop
 >
 stops
 ;
-PRInt32
+int32_t
 firstUnsetPosition
 =
 -
@@ -8413,7 +8413,7 @@ firstUnsetPosition
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8673,7 +8673,7 @@ firstUnsetPosition
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 firstUnsetPosition
@@ -8798,7 +8798,7 @@ stopDelta
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8833,7 +8833,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9470,7 +9470,7 @@ else
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9919,7 +9919,7 @@ const
 nsStyleBorder
 &
 aBorder
-PRUint32
+uint32_t
 aFlags
 nsRect
 *
@@ -10216,7 +10216,7 @@ GetStyleBackground
 BackgroundClipState
 clipState
 ;
-PRUint8
+uint8_t
 currentBackgroundClip
 ;
 bool
@@ -10507,7 +10507,7 @@ if
 aBGClipRect
 )
 {
-PRUint8
+uint8_t
 newBackgroundClip
 =
 layer
@@ -10727,7 +10727,7 @@ aPresContext
 nsIFrame
 *
 aForFrame
-PRUint32
+uint32_t
 aFlags
 const
 nsRect
@@ -10750,7 +10750,7 @@ Layer
 aLayer
 )
 {
-PRUint32
+uint32_t
 irFlags
 =
 0
@@ -11721,7 +11721,7 @@ Get
 s
 )
 ;
-PRInt32
+int32_t
 imgDimension
 =
 NS_SIDE_IS_VERTICAL
@@ -12269,7 +12269,7 @@ bottom
 }
 ;
 const
-PRInt32
+int32_t
 sliceX
 [
 3
@@ -12290,7 +12290,7 @@ right
 }
 ;
 const
-PRInt32
+int32_t
 sliceY
 [
 3
@@ -12311,7 +12311,7 @@ bottom
 }
 ;
 const
-PRInt32
+int32_t
 sliceWidth
 [
 3
@@ -12342,7 +12342,7 @@ right
 }
 ;
 const
-PRInt32
+int32_t
 sliceHeight
 [
 3
@@ -12448,7 +12448,7 @@ j
 ]
 )
 ;
-PRUint8
+uint8_t
 fillStyleH
 fillStyleV
 ;
@@ -12925,9 +12925,9 @@ const
 nsIntRect
 &
 aSrc
-PRUint8
+uint8_t
 aHFill
-PRUint8
+uint8_t
 aVFill
 const
 nsSize
@@ -12937,7 +12937,7 @@ const
 nsStyleBorder
 &
 aStyleBorder
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -13608,7 +13608,7 @@ nsRect
 aRect
 nscoord
 aTwipsPerPixel
-PRUint8
+uint8_t
 aStartBevelSide
 =
 0
@@ -13616,7 +13616,7 @@ nscoord
 aStartBevelOffset
 =
 0
-PRUint8
+uint8_t
 aEndBevelSide
 =
 0
@@ -13945,7 +13945,7 @@ nscoord
 aDashLength
 nscoord
 aTwipsPerPixel
-PRInt32
+int32_t
 &
 aNumDashSpaces
 nscoord
@@ -14064,7 +14064,7 @@ DrawTableBorderSegment
 nsRenderingContext
 &
 aContext
-PRUint8
+uint8_t
 aBorderStyle
 nscolor
 aBorderColor
@@ -14076,13 +14076,13 @@ const
 nsRect
 &
 aBorder
-PRInt32
+int32_t
 aAppUnitsPerCSSPixel
-PRUint8
+uint8_t
 aStartBevelSide
 nscoord
 aStartBevelOffset
-PRUint8
+uint8_t
 aEndBevelSide
 nscoord
 aEndBevelOffset
@@ -14124,7 +14124,7 @@ NSIntPixelsToAppUnits
 aAppUnitsPerCSSPixel
 )
 ;
-PRUint8
+uint8_t
 ridgeGroove
 =
 NS_STYLE_BORDER_STYLE_RIDGE
@@ -14350,7 +14350,7 @@ twipsPerPixel
 ;
 for
 (
-PRInt32
+int32_t
 spaceX
 =
 0
@@ -14441,7 +14441,7 @@ twipsPerPixel
 ;
 for
 (
-PRInt32
+int32_t
 spaceY
 =
 0
@@ -15510,7 +15510,7 @@ nsIFrame
 *
 aFrame
 const
-PRUint8
+uint8_t
 aStyle
 const
 gfxRect
@@ -15664,10 +15664,10 @@ AppUnitsToGfxUnits
 frameXInBlockAppUnits
 )
 ;
-PRInt32
+int32_t
 rectXInBlock
 =
-PRInt32
+int32_t
 (
 NS_round
 (
@@ -15677,7 +15677,7 @@ aXInFrame
 )
 )
 ;
-PRInt32
+int32_t
 extraLeft
 =
 rectXInBlock
@@ -15685,7 +15685,7 @@ rectXInBlock
 (
 rectXInBlock
 /
-PRInt32
+int32_t
 (
 aCycleLength
 )
@@ -15754,10 +15754,10 @@ const
 gfxFloat
 aOffset
 const
-PRUint8
+uint8_t
 aDecoration
 const
-PRUint8
+uint8_t
 aStyle
 const
 gfxFloat
@@ -16452,7 +16452,7 @@ aXInFrame
 cycleLength
 )
 ;
-PRInt32
+int32_t
 skipCycles
 =
 floor
@@ -16609,7 +16609,7 @@ goDown
 =
 true
 ;
-PRUint32
+uint32_t
 iter
 =
 0
@@ -16802,10 +16802,10 @@ const
 gfxFloat
 aOffset
 const
-PRUint8
+uint8_t
 aDecoration
 const
-PRUint8
+uint8_t
 aStyle
 const
 gfxFloat
@@ -16994,10 +16994,10 @@ const
 gfxFloat
 aOffset
 const
-PRUint8
+uint8_t
 aDecoration
 const
-PRUint8
+uint8_t
 aStyle
 const
 gfxFloat
@@ -17137,10 +17137,10 @@ const
 gfxFloat
 aOffset
 const
-PRUint8
+uint8_t
 aDecoration
 const
-PRUint8
+uint8_t
 aStyle
 const
 gfxFloat
@@ -17617,7 +17617,7 @@ const
 nsStyleImage
 *
 aImage
-PRUint32
+uint32_t
 aFlags
 )
 :
@@ -17908,7 +17908,7 @@ imgIContainer
 >
 subImage
 ;
-PRUint32
+uint32_t
 aExtractFlags
 =
 (
@@ -17918,7 +17918,7 @@ FLAG_SYNC_DECODE_IMAGES
 )
 ?
 (
-PRUint32
+uint32_t
 )
 imgIContainer
 :
@@ -17926,7 +17926,7 @@ imgIContainer
 FLAG_SYNC_DECODE
 :
 (
-PRUint32
+uint32_t
 )
 imgIContainer
 :
@@ -18506,7 +18506,7 @@ aBgPositioningArea
 }
 else
 {
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 mForFrame
@@ -19537,7 +19537,7 @@ case
 eStyleImageType_Image
 :
 {
-PRUint32
+uint32_t
 drawFlags
 =
 (
@@ -19547,7 +19547,7 @@ FLAG_SYNC_DECODE_IMAGES
 )
 ?
 (
-PRUint32
+uint32_t
 )
 imgIContainer
 :
@@ -19555,7 +19555,7 @@ imgIContainer
 FLAG_SYNC_DECODE
 :
 (
-PRUint32
+uint32_t
 )
 imgIContainer
 :
@@ -19892,7 +19892,7 @@ ComputeBlurRadius
 (
 nscoord
 aBlurRadius
-PRInt32
+int32_t
 aAppUnitsPerDevPixel
 gfxFloat
 aScaleX
@@ -19985,7 +19985,7 @@ nscoord
 aSpreadRadius
 nscoord
 aBlurRadius
-PRInt32
+int32_t
 aAppUnitsPerDevPixel
 gfxContext
 *
@@ -19998,7 +19998,7 @@ const
 gfxRect
 *
 aSkipRect
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -20108,7 +20108,7 @@ gfxIntSize
 (
 NS_MIN
 (
-PRInt32
+int32_t
 (
 aSpreadRadius
 *
@@ -20116,14 +20116,14 @@ scaleX
 /
 aAppUnitsPerDevPixel
 )
-PRInt32
+int32_t
 (
 MAX_SPREAD_RADIUS
 )
 )
 NS_MIN
 (
-PRInt32
+int32_t
 (
 aSpreadRadius
 *
@@ -20131,7 +20131,7 @@ scaleY
 /
 aAppUnitsPerDevPixel
 )
-PRInt32
+int32_t
 (
 MAX_SPREAD_RADIUS
 )
@@ -20381,7 +20381,7 @@ GetBlurRadiusMargin
 (
 nscoord
 aBlurRadius
-PRInt32
+int32_t
 aAppUnitsPerDevPixel
 )
 {

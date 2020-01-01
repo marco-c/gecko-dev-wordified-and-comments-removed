@@ -83,7 +83,7 @@ eSecond
 void
 Init
 (
-PRUint8
+uint8_t
 aAttrEnum
 =
 0xff
@@ -287,7 +287,7 @@ mBaseVal
 2
 ]
 ;
-PRUint8
+uint8_t
 mAttrEnum
 ;
 bool

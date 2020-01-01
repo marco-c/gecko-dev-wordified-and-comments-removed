@@ -131,7 +131,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -370,7 +370,7 @@ nsHTMLTableSectionElement
 :
 InsertRow
 (
-PRInt32
+int32_t
 aIndex
 nsIDOMHTMLElement
 *
@@ -409,7 +409,7 @@ rows
 )
 )
 ;
-PRUint32
+uint32_t
 rowCount
 ;
 rows
@@ -426,7 +426,7 @@ if
 aIndex
 >
 (
-PRInt32
+int32_t
 )
 rowCount
 )
@@ -441,7 +441,7 @@ doInsert
 (
 aIndex
 <
-PRInt32
+int32_t
 (
 rowCount
 )
@@ -619,7 +619,7 @@ nsHTMLTableSectionElement
 :
 DeleteRow
 (
-PRInt32
+int32_t
 aValue
 )
 {
@@ -652,7 +652,7 @@ rows
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 refIndex
 ;
 if
@@ -703,7 +703,7 @@ else
 refIndex
 =
 (
-PRUint32
+uint32_t
 )
 aValue
 ;
@@ -767,7 +767,7 @@ nsHTMLTableSectionElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

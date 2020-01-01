@@ -768,7 +768,7 @@ return
 false
 ;
 const
-PRInt32
+int32_t
 n
 =
 PR_Read
@@ -1053,7 +1053,7 @@ buf
 ]
 ;
 const
-PRInt32
+int32_t
 n
 =
 PR_Read
@@ -2114,7 +2114,7 @@ pid
 AppendInt
 (
 (
-PRInt32
+int32_t
 )
 getpid
 (
@@ -2981,7 +2981,7 @@ pid
 AppendInt
 (
 (
-PRInt32
+int32_t
 )
 getpid
 (
@@ -3384,7 +3384,7 @@ pt
 ;
 #
 else
-PRInt32
+int32_t
 exitCode
 ;
 PR_WaitProcess

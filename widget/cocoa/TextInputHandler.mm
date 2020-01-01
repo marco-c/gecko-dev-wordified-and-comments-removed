@@ -1347,7 +1347,7 @@ escapedStr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1626,7 +1626,7 @@ char
 *
 GetRangeTypeName
 (
-PRUint32
+uint32_t
 aRangeType
 )
 {
@@ -1916,7 +1916,7 @@ endif
 ifdef
 PR_LOGGING
 static
-PRUint32
+uint32_t
 gHandlerInstanceCount
 =
 0
@@ -2528,7 +2528,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 TISInputSourceWrapper
 :
 :
@@ -2574,7 +2574,7 @@ return
 return
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 str
@@ -4250,7 +4250,7 @@ shiftKey
 :
 0
 ;
-PRUint32
+uint32_t
 uncmdedChar
 =
 TranslateToChar
@@ -4260,7 +4260,7 @@ numLockState
 kbType
 )
 ;
-PRUint32
+uint32_t
 cmdedChar
 =
 TranslateToChar
@@ -4315,7 +4315,7 @@ corrects
 for
 CapsLock
 .
-PRUint32
+uint32_t
 ch
 =
 0
@@ -4374,7 +4374,7 @@ US
 "
 )
 ;
-PRUint32
+uint32_t
 uncmdedUSChar
 =
 USLayout
@@ -5187,7 +5187,7 @@ str
 /
 normal
 chars
-PRUint32
+uint32_t
 unshiftedChar
 =
 TranslateToChar
@@ -5204,7 +5204,7 @@ shiftKey
 |
 lockState
 ;
-PRUint32
+uint32_t
 shiftedChar
 =
 TranslateToChar
@@ -5270,7 +5270,7 @@ only
 num
 lock
 state
-PRUint32
+uint32_t
 uncmdedChar
 =
 TranslateToChar
@@ -5287,7 +5287,7 @@ numState
 |
 shiftKey
 ;
-PRUint32
+uint32_t
 uncmdedShiftChar
 =
 TranslateToChar
@@ -5297,7 +5297,7 @@ shiftNumMod
 aKbType
 )
 ;
-PRUint32
+uint32_t
 uncmdedUSChar
 =
 USLayout
@@ -5316,7 +5316,7 @@ cmdKey
 |
 numState
 ;
-PRUint32
+uint32_t
 cmdedChar
 =
 TranslateToChar
@@ -5333,7 +5333,7 @@ shiftKey
 |
 cmdNumMod
 ;
-PRUint32
+uint32_t
 cmdedShiftChar
 =
 TranslateToChar
@@ -5794,7 +5794,7 @@ uncmdedShiftChar
 =
 cmdedShiftChar
 ;
-PRUint32
+uint32_t
 originalCmdedShiftChar
 =
 cmdedShiftChar
@@ -5919,7 +5919,7 @@ Command
 is
 down
 .
-PRUint32
+uint32_t
 ch
 =
 USLayout
@@ -6221,7 +6221,7 @@ originalCmdedShiftChar
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK
 }
-PRUint32
+uint32_t
 TISInputSourceWrapper
 :
 :
@@ -6825,7 +6825,7 @@ cmdKey
 :
 0
 ;
-PRUint32
+uint32_t
 charCode
 =
 TranslateToChar
@@ -6908,7 +6908,7 @@ return
 NS_VK_BACK_SLASH
 ;
 }
-PRUint32
+uint32_t
 keyCode
 =
 WidgetUtils
@@ -9404,7 +9404,7 @@ NSCommandKeyMask
 }
 ;
 const
-PRUint32
+uint32_t
 kModifierCount
 =
 ArrayLength
@@ -9414,7 +9414,7 @@ kModifierMaskTable
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9641,7 +9641,7 @@ IsIMEComposing
 return
 ;
 }
-PRUint32
+uint32_t
 message
 =
 aDispatchKeyDown
@@ -12860,7 +12860,7 @@ event
 return
 ;
 }
-PRUint32
+uint32_t
 pendingMethods
 =
 mPendingMethods
@@ -13105,13 +13105,13 @@ handlers
 *
 *
 /
-PRUint32
+uint32_t
 IMEInputHandler
 :
 :
 ConvertToTextRangeType
 (
-PRUint32
+uint32_t
 aUnderlineStyle
 NSRange
 &
@@ -13257,7 +13257,7 @@ NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
 ;
 }
 }
-PRUint32
+uint32_t
 IMEInputHandler
 :
 :
@@ -13291,7 +13291,7 @@ as
 we
 go
 .
-PRUint32
+uint32_t
 count
 =
 0
@@ -13495,7 +13495,7 @@ length
 ]
 )
 ;
-PRUint32
+uint32_t
 rangeCount
 =
 GetRangeCount
@@ -13505,7 +13505,7 @@ aAttrString
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -20060,7 +20060,7 @@ aKeyEvent
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -20133,7 +20133,7 @@ keydownEvent
 cocoaModifiers
 )
 ;
-PRUint32
+uint32_t
 keyCode
 =
 currentKeyboardLayout
@@ -20153,7 +20153,7 @@ IsMeta
 )
 )
 ;
-PRUint32
+uint32_t
 charCode
 (
 charCodes
@@ -22831,11 +22831,11 @@ TextInputHandlerBase
 :
 SynthesizeNativeKeyEvent
 (
-PRInt32
+int32_t
 aNativeKeyboardLayout
-PRInt32
+int32_t
 aNativeKeyCode
-PRUint32
+uint32_t
 aModifierFlags
 const
 nsAString
@@ -22851,7 +22851,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
 static
 const
-PRUint32
+uint32_t
 sModifierFlagMap
 [
 ]
@@ -22946,14 +22946,14 @@ NSFunctionKeyMask
 }
 }
 ;
-PRUint32
+uint32_t
 modifierFlags
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

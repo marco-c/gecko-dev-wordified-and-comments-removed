@@ -77,7 +77,7 @@ aPort
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mTrackMap
@@ -160,7 +160,7 @@ mappedTracksWithMatchingInputTracks
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -200,7 +200,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -285,7 +285,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -406,7 +406,7 @@ trackFinished
 =
 false
 ;
-PRUint32
+uint32_t
 mapIndex
 =
 AddTrack
@@ -451,7 +451,7 @@ true
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 mTrackMap
@@ -566,7 +566,7 @@ mSegment
 ;
 }
 ;
-PRUint32
+uint32_t
 AddTrack
 (
 MediaInputPort
@@ -646,7 +646,7 @@ CreateEmptyClone
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -831,7 +831,7 @@ Length
 void
 EndTrack
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -862,7 +862,7 @@ return
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -965,7 +965,7 @@ SetEnded
 void
 CopyTrackData
 (
-PRUint32
+uint32_t
 aMapIndex
 GraphTime
 aFrom
@@ -1413,7 +1413,7 @@ GetID
 }
 for
 (
-PRUint32
+uint32_t
 j
 =
 0

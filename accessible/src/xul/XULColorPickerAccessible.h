@@ -54,13 +54,13 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeInteractiveState
 (
 )
@@ -104,7 +104,7 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )

@@ -134,7 +134,7 @@ roles
 IMAGE_MAP
 ;
 }
-PRUint32
+uint32_t
 HTMLImageMapAccessible
 :
 :
@@ -155,7 +155,7 @@ HTMLImageMapAccessible
 :
 AnchorAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 {
@@ -175,7 +175,7 @@ HTMLImageMapAccessible
 :
 AnchorURIAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 {
@@ -269,7 +269,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 childIdx
 =
 mChildren
@@ -359,7 +359,7 @@ area
 )
 ;
 }
-PRUint32
+uint32_t
 areaElmCount
 =
 imageMapObj
@@ -371,7 +371,7 @@ AreaCount
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -710,9 +710,9 @@ HTMLAreaAccessible
 :
 ChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 EWhichChildAtPoint
 aWhichChild
@@ -722,7 +722,7 @@ return
 this
 ;
 }
-PRUint32
+uint32_t
 HTMLAreaAccessible
 :
 :
@@ -736,7 +736,7 @@ IndexInParent
 )
 ;
 }
-PRUint32
+uint32_t
 HTMLAreaAccessible
 :
 :

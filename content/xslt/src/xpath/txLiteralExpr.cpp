@@ -103,7 +103,7 @@ txLiteralExpr
 :
 getSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 )
 {
@@ -117,7 +117,7 @@ txLiteralExpr
 :
 setSubExprAt
 (
-PRUint32
+uint32_t
 aPos
 Expr
 *

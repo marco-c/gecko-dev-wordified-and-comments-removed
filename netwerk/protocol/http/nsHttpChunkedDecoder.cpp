@@ -21,12 +21,12 @@ HandleChunkedContent
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 contentRead
-PRUint32
+uint32_t
 *
 contentRemaining
 )
@@ -67,7 +67,7 @@ if
 mChunkRemaining
 )
 {
-PRUint32
+uint32_t
 amt
 =
 NS_MIN
@@ -107,7 +107,7 @@ break
 ;
 else
 {
-PRUint32
+uint32_t
 bytesConsumed
 =
 0
@@ -173,9 +173,9 @@ ParseChunkRemaining
 char
 *
 buf
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 bytesConsumed
 )

@@ -105,7 +105,7 @@ const
 nsAString
 &
 aOldText
-PRUint32
+uint32_t
 aSkipStart
 )
 ;
@@ -143,7 +143,7 @@ const
 nsAString
 &
 aStr2
-PRUint32
+uint32_t
 *
 aEntries
 nsTArray
@@ -165,7 +165,7 @@ const
 nsAString
 &
 aText
-PRUint32
+uint32_t
 aAddlOffset
 nsTArray
 <
@@ -211,7 +211,7 @@ const
 nsAString
 &
 aText
-PRUint32
+uint32_t
 aAddlOffset
 nsTArray
 <
@@ -251,7 +251,7 @@ event
 }
 const
 static
-PRUint32
+uint32_t
 kMaxStrLen
 =
 1
@@ -273,7 +273,7 @@ HyperTextAccessible
 *
 mHyperText
 ;
-PRInt32
+int32_t
 mTextOffset
 ;
 }

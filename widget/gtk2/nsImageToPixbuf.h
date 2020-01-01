@@ -69,9 +69,9 @@ SurfaceToPixbuf
 gfxASurface
 *
 aSurface
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 ;
@@ -85,9 +85,9 @@ ImgSurfaceToPixbuf
 gfxImageSurface
 *
 aImgSurface
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 )
 ;

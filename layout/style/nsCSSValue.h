@@ -572,7 +572,7 @@ unit
 }
 nsCSSValue
 (
-PRInt32
+int32_t
 aValue
 nsCSSUnit
 aUnit
@@ -898,7 +898,7 @@ mUnit
 eCSSUnit_Calc_Divided
 ;
 }
-PRInt32
+int32_t
 GetIntValue
 (
 )
@@ -1055,7 +1055,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 len
 =
 NS_strlen
@@ -1492,7 +1492,7 @@ public
 void
 SetIntValue
 (
-PRInt32
+int32_t
 aValue
 nsCSSUnit
 aUnit
@@ -1717,7 +1717,7 @@ InitFunction
 (
 nsCSSKeyword
 aFunctionId
-PRUint32
+uint32_t
 aNumArgs
 )
 ;
@@ -1972,7 +1972,7 @@ mUnit
 ;
 union
 {
-PRInt32
+int32_t
 mInt
 ;
 float
@@ -4601,7 +4601,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4728,7 +4728,7 @@ const
 &
 GetCorner
 (
-PRUint32
+uint32_t
 aCorner
 )
 const
@@ -4748,7 +4748,7 @@ nsCSSValue
 &
 GetCorner
 (
-PRUint32
+uint32_t
 aCorner
 )
 {

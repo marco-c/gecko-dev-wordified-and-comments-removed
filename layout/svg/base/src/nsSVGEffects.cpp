@@ -639,12 +639,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -668,7 +668,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 )
 {
 DoUpdate
@@ -691,7 +691,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 )
 {
 DoUpdate
@@ -714,7 +714,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -2398,7 +2398,7 @@ observers
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2455,7 +2455,7 @@ observers
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

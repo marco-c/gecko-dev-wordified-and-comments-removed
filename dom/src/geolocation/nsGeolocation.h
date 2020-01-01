@@ -301,7 +301,7 @@ private
 void
 NotifyError
 (
-PRInt16
+int16_t
 errorCode
 )
 ;

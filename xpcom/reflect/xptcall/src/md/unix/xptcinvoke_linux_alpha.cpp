@@ -9,10 +9,10 @@ static
 void
 invoke_copy_to_stack
 (
-PRUint64
+uint64_t
 *
 d
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -35,10 +35,10 @@ static
 void
 invoke_copy_to_stack
 (
-PRUint64
+uint64_t
 *
 d
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -46,7 +46,7 @@ s
 )
 {
 const
-PRUint8
+uint8_t
 NUM_ARG_REGS
 =
 6
@@ -55,7 +55,7 @@ NUM_ARG_REGS
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -89,7 +89,7 @@ IsPtrData
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -117,7 +117,7 @@ T_I8
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -138,7 +138,7 @@ T_I16
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -159,7 +159,7 @@ T_I32
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -180,7 +180,7 @@ T_I64
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -201,7 +201,7 @@ T_U8
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -222,7 +222,7 @@ T_U16
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -243,7 +243,7 @@ T_U32
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -264,7 +264,7 @@ T_U64
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -290,7 +290,7 @@ NUM_ARG_REGS
 {
 union
 {
-PRUint64
+uint64_t
 u64
 ;
 double
@@ -326,7 +326,7 @@ else
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -347,7 +347,7 @@ T_DOUBLE
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -368,7 +368,7 @@ T_BOOL
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -389,7 +389,7 @@ T_CHAR
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -410,7 +410,7 @@ T_WCHAR
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -
@@ -427,7 +427,7 @@ default
 d
 =
 (
-PRUint64
+uint64_t
 )
 s
 -

@@ -69,7 +69,7 @@ NS_IMPL_ISUPPORTS1
 nsParserService
 nsIParserService
 )
-PRInt32
+int32_t
 nsParserService
 :
 :
@@ -94,7 +94,7 @@ aAtom
 )
 ;
 }
-PRInt32
+int32_t
 nsParserService
 :
 :
@@ -116,7 +116,7 @@ aAtom
 )
 ;
 }
-PRInt32
+int32_t
 nsParserService
 :
 :
@@ -147,7 +147,7 @@ nsParserService
 :
 HTMLIdToStringTag
 (
-PRInt32
+int32_t
 aId
 )
 const
@@ -172,7 +172,7 @@ nsParserService
 :
 HTMLIdToAtomTag
 (
-PRInt32
+int32_t
 aId
 )
 const
@@ -200,7 +200,7 @@ const
 nsAString
 &
 aEntity
-PRInt32
+int32_t
 *
 aUnicode
 )
@@ -227,7 +227,7 @@ nsParserService
 :
 HTMLConvertUnicodeToEntity
 (
-PRInt32
+int32_t
 aUnicode
 nsCString
 &
@@ -271,7 +271,7 @@ nsParserService
 :
 IsContainer
 (
-PRInt32
+int32_t
 aId
 bool
 &
@@ -302,7 +302,7 @@ nsParserService
 :
 IsBlock
 (
-PRInt32
+int32_t
 aId
 bool
 &

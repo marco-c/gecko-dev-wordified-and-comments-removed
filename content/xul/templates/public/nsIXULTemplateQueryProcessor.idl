@@ -2261,7 +2261,7 @@ if
 greater
 *
 /
-PRInt32
+int32_t
 compareResults
 (
 in

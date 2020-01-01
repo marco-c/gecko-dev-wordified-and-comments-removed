@@ -33,7 +33,7 @@ const
 nsStaticAtom
 *
 aInfo
-PRUint32
+uint32_t
 aInfoCount
 )
 ;

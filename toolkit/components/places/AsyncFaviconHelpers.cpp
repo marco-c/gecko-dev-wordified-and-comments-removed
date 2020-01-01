@@ -1201,11 +1201,11 @@ if
 isNull
 )
 {
-PRUint8
+uint8_t
 *
 data
 ;
-PRUint32
+uint32_t
 dataLen
 =
 0
@@ -1752,7 +1752,7 @@ do_QueryInterface
 cacheToken
 )
 ;
-PRUint32
+uint32_t
 seconds
 ;
 rv
@@ -2760,9 +2760,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -2846,7 +2846,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 flags
 nsIAsyncVerifyRedirectCallback
 *

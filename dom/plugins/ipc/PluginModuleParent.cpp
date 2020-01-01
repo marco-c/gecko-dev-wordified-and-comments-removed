@@ -389,7 +389,7 @@ aFilePath
 {
 PLUGIN_LOG_DEBUG_FUNCTION
 ;
-PRInt32
+int32_t
 prefSecs
 =
 Preferences
@@ -995,7 +995,7 @@ ifdef
 MOZ_CRASHREPORTER_INJECTOR
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -1100,7 +1100,7 @@ kChildTimeoutPref
 )
 )
 {
-PRInt32
+int32_t
 timeoutSecs
 =
 Preferences
@@ -1159,7 +1159,7 @@ kParentTimeoutPref
 )
 )
 {
-PRInt32
+int32_t
 timeoutSecs
 =
 Preferences
@@ -1222,7 +1222,7 @@ ifdef
 XP_WIN
 namespace
 {
-PRUint64
+uint64_t
 FileTimeToUTC
 (
 const
@@ -1259,13 +1259,13 @@ QuadPart
 struct
 CpuUsageSamples
 {
-PRUint64
+uint64_t
 sampleTimes
 [
 2
 ]
 ;
-PRUint64
+uint64_t
 cpuTimes
 [
 2
@@ -1319,7 +1319,7 @@ res
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1434,7 +1434,7 @@ Sleep
 )
 ;
 const
-PRInt32
+int32_t
 numberOfProcessors
 =
 PR_GetNumberOfProcessors
@@ -1443,7 +1443,7 @@ PR_GetNumberOfProcessors
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1546,7 +1546,7 @@ userTime
 )
 ;
 const
-PRUint64
+uint64_t
 deltaSampleTime
 =
 samples
@@ -1570,7 +1570,7 @@ sampleTimes
 ]
 ;
 const
-PRUint64
+uint64_t
 deltaCpuTime
 =
 samples
@@ -2051,7 +2051,7 @@ notes
 return
 ;
 }
-PRUint32
+uint32_t
 sequence
 =
 PR_UINT32_MAX
@@ -2084,7 +2084,7 @@ nsIFile
 >
 childDumpFile
 ;
-PRUint32
+uint32_t
 childSequence
 ;
 if
@@ -5556,7 +5556,7 @@ dom
 NativeThreadId
 *
 id
-PRUint32
+uint32_t
 *
 processType
 )
@@ -6222,7 +6222,7 @@ ToUpperCase
 path
 )
 ;
-PRInt32
+int32_t
 lastSlash
 =
 path

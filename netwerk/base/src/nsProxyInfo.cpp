@@ -43,7 +43,7 @@ nsProxyInfo
 :
 GetPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -82,7 +82,7 @@ nsProxyInfo
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -102,7 +102,7 @@ nsProxyInfo
 :
 GetResolveFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -122,7 +122,7 @@ nsProxyInfo
 :
 GetFailoverTimeout
 (
-PRUint32
+uint32_t
 *
 result
 )

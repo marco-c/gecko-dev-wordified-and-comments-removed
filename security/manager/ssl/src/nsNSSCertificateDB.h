@@ -116,9 +116,9 @@ getCertNames
 CERTCertList
 *
 certList
-PRUint32
+uint32_t
 type
-PRUint32
+uint32_t
 *
 _count
 PRUnichar
@@ -135,10 +135,10 @@ getCertsFromPackage
 PRArenaPool
 *
 arena
-PRUint8
+uint8_t
 *
 data
-PRUint32
+uint32_t
 length
 )
 ;

@@ -106,7 +106,7 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -209,7 +209,7 @@ virtual
 Relation
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 ;

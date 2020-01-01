@@ -79,7 +79,7 @@ result
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 1
@@ -197,7 +197,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 last
 =
 mItems
@@ -210,7 +210,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

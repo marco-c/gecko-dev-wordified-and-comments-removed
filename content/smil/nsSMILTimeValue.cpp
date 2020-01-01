@@ -15,12 +15,12 @@ LL_MAXINT
 ;
 static
 inline
-PRInt8
+int8_t
 Cmp
 (
-PRInt64
+int64_t
 aA
-PRInt64
+int64_t
 aB
 )
 {
@@ -44,7 +44,7 @@ aB
 )
 ;
 }
-PRInt8
+int8_t
 nsSMILTimeValue
 :
 :
@@ -57,7 +57,7 @@ aOther
 )
 const
 {
-PRInt8
+int8_t
 result
 ;
 if

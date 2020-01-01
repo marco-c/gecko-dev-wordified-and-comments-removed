@@ -143,7 +143,7 @@ DOMSVGTransform
 DOMSVGTransformList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem
@@ -324,7 +324,7 @@ DOMSVGTransform
 :
 GetType
 (
-PRUint16
+uint16_t
 *
 aType
 )
@@ -972,7 +972,7 @@ InsertingIntoList
 DOMSVGTransformList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem

@@ -65,7 +65,7 @@ RefCnt
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 ID
 (
@@ -91,7 +91,7 @@ public
 :
 Foo
 (
-PRInt32
+int32_t
 aID
 )
 ;
@@ -115,7 +115,7 @@ mRefCnt
 }
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 ID
 (
@@ -126,15 +126,15 @@ mID
 ;
 }
 static
-PRInt32
+int32_t
 gCount
 ;
-PRInt32
+int32_t
 mID
 ;
 }
 ;
-PRInt32
+int32_t
 Foo
 :
 :
@@ -147,7 +147,7 @@ Foo
 :
 Foo
 (
-PRInt32
+int32_t
 aID
 )
 {
@@ -251,7 +251,7 @@ Bar
 ;
 NS_DECL_ISUPPORTS
 static
-PRInt32
+int32_t
 sReleaseCalled
 ;
 private
@@ -265,7 +265,7 @@ mArray
 ;
 }
 ;
-PRInt32
+int32_t
 Bar
 :
 :
@@ -454,7 +454,7 @@ arr
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -621,7 +621,7 @@ rv
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -669,7 +669,7 @@ break
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 10
@@ -713,7 +713,7 @@ break
 ;
 }
 }
-PRInt32
+int32_t
 base
 ;
 {
@@ -732,7 +732,7 @@ ninthObject
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1057,7 +1057,7 @@ objects
 }
 for
 (
-PRInt32
+int32_t
 j
 =
 0
@@ -1262,7 +1262,7 @@ arr2
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

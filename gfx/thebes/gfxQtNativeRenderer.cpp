@@ -30,7 +30,7 @@ gfxContext
 ctx
 nsIntSize
 size
-PRUint32
+uint32_t
 flags
 Screen
 *

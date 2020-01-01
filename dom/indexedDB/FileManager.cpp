@@ -68,7 +68,7 @@ PLDHashOperator
 EnumerateToTArray
 (
 const
-PRUint64
+uint64_t
 &
 aKey
 FileInfo
@@ -428,7 +428,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 flag
 =
 stmt
@@ -679,7 +679,7 @@ hasResult
 hasResult
 )
 {
-PRInt64
+int64_t
 id
 ;
 rv
@@ -700,7 +700,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 refcount
 ;
 rv
@@ -877,7 +877,7 @@ fileInfos
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -980,7 +980,7 @@ FileManager
 :
 GetFileInfo
 (
-PRInt64
+int64_t
 aId
 )
 {
@@ -1113,7 +1113,7 @@ FileMutex
 )
 )
 ;
-PRInt64
+int64_t
 id
 =
 mLastFileId
@@ -1176,7 +1176,7 @@ GetFileForId
 nsIFile
 *
 aDirectory
-PRInt64
+int64_t
 aId
 )
 {

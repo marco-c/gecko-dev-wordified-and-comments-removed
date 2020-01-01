@@ -10,7 +10,7 @@ nsCString
 mCharset
 ;
 inline
-PRInt32
+int32_t
 read
 (
 )

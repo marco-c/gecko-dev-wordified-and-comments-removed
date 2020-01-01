@@ -110,7 +110,7 @@ fallocate
 PRFileDesc
 *
 aFD
-PRInt64
+int64_t
 aLength
 )
 {
@@ -142,7 +142,7 @@ defined
 (
 XP_WIN
 )
-PROffset64
+int64_t
 oldpos
 =
 PR_Seek64
@@ -230,7 +230,7 @@ PR_FileDesc2NativeHandle
 aFD
 )
 (
-PRUint32
+uint32_t
 )
 aLength
 )
@@ -323,7 +323,7 @@ defined
 (
 XP_UNIX
 )
-PROffset64
+int64_t
 oldpos
 =
 PR_Seek64
@@ -410,7 +410,7 @@ false
 int
 nWrite
 ;
-PRInt64
+int64_t
 iWrite
 =
 (

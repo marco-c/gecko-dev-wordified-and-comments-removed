@@ -208,7 +208,7 @@ void
 setLangFromBidiLevel
 (
 in
-PRUint8
+uint8_t
 aLevel
 )
 ;

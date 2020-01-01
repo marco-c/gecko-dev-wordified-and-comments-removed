@@ -154,7 +154,7 @@ roles
 LIST
 ;
 }
-PRUint64
+uint64_t
 XULColumAccessible
 :
 :
@@ -204,7 +204,7 @@ roles
 COLUMNHEADER
 ;
 }
-PRUint64
+uint64_t
 XULColumnItemAccessible
 :
 :
@@ -219,7 +219,7 @@ states
 READONLY
 ;
 }
-PRUint8
+uint8_t
 XULColumnItemAccessible
 :
 :
@@ -237,7 +237,7 @@ XULColumnItemAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -273,7 +273,7 @@ XULColumnItemAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -470,7 +470,7 @@ IsMulticolumn
 (
 )
 {
-PRInt32
+int32_t
 numColumns
 =
 0
@@ -500,7 +500,7 @@ numColumns
 1
 ;
 }
-PRUint64
+uint64_t
 XULListboxAccessible
 :
 :
@@ -508,7 +508,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 states
 =
 Accessible
@@ -671,7 +671,7 @@ roles
 LISTBOX
 ;
 }
-PRUint32
+uint32_t
 XULListboxAccessible
 :
 :
@@ -744,7 +744,7 @@ headContent
 return
 0
 ;
-PRUint32
+uint32_t
 columnCount
 =
 0
@@ -804,7 +804,7 @@ return
 columnCount
 ;
 }
-PRUint32
+uint32_t
 XULListboxAccessible
 :
 :
@@ -824,7 +824,7 @@ mContent
 )
 )
 ;
-PRUint32
+uint32_t
 itemCount
 =
 0
@@ -853,9 +853,9 @@ XULListboxAccessible
 :
 CellAt
 (
-PRUint32
+uint32_t
 aRowIndex
-PRUint32
+uint32_t
 aColumnIndex
 )
 {
@@ -956,7 +956,7 @@ XULListboxAccessible
 :
 IsColSelected
 (
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -984,7 +984,7 @@ nsIDOMXULMultiSelectControlElement
 "
 )
 ;
-PRInt32
+int32_t
 selectedrowCount
 =
 0
@@ -1022,7 +1022,7 @@ XULListboxAccessible
 :
 IsRowSelected
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -1101,9 +1101,9 @@ XULListboxAccessible
 :
 IsCellSelected
 (
-PRUint32
+uint32_t
 aRowIdx
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -1114,7 +1114,7 @@ aRowIdx
 )
 ;
 }
-PRUint32
+uint32_t
 XULListboxAccessible
 :
 :
@@ -1171,7 +1171,7 @@ selectedItems
 return
 0
 ;
-PRUint32
+uint32_t
 selectedItemsCount
 =
 0
@@ -1202,7 +1202,7 @@ ColCount
 )
 ;
 }
-PRUint32
+uint32_t
 XULListboxAccessible
 :
 :
@@ -1234,7 +1234,7 @@ nsIDOMXULMultiSelectControlElement
 "
 )
 ;
-PRInt32
+int32_t
 selectedRowCount
 =
 0
@@ -1277,7 +1277,7 @@ ColCount
 0
 ;
 }
-PRUint32
+uint32_t
 XULListboxAccessible
 :
 :
@@ -1309,7 +1309,7 @@ nsIDOMXULMultiSelectControlElement
 "
 )
 ;
-PRInt32
+int32_t
 selectedRowCount
 =
 0
@@ -1406,7 +1406,7 @@ selectedItems
 )
 return
 ;
-PRUint32
+uint32_t
 selectedItemsCount
 =
 0
@@ -1443,7 +1443,7 @@ fail
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -1504,7 +1504,7 @@ if
 item
 )
 {
-PRUint32
+uint32_t
 cellCount
 =
 item
@@ -1516,7 +1516,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 cellIdx
 =
 0
@@ -1574,7 +1574,7 @@ SelectedCellIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aCells
@@ -1628,7 +1628,7 @@ selectedItems
 )
 return
 ;
-PRUint32
+uint32_t
 selectedItemsCount
 =
 0
@@ -1663,7 +1663,7 @@ fail
 "
 )
 ;
-PRUint32
+uint32_t
 colCount
 =
 ColCount
@@ -1692,7 +1692,7 @@ colCount
 ;
 for
 (
-PRUint32
+uint32_t
 selItemsIdx
 =
 0
@@ -1743,7 +1743,7 @@ if
 item
 )
 {
-PRInt32
+int32_t
 itemIdx
 =
 -
@@ -1768,7 +1768,7 @@ itemIdx
 )
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -1809,13 +1809,13 @@ SelectedColIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aCols
 )
 {
-PRUint32
+uint32_t
 selColCount
 =
 SelectedColCount
@@ -1832,7 +1832,7 @@ selColCount
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -1862,7 +1862,7 @@ SelectedRowIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aRows
@@ -1916,7 +1916,7 @@ selectedItems
 )
 return
 ;
-PRUint32
+uint32_t
 rowCount
 =
 0
@@ -1976,7 +1976,7 @@ rowCount
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -2024,7 +2024,7 @@ if
 item
 )
 {
-PRInt32
+int32_t
 itemIdx
 =
 -
@@ -2066,7 +2066,7 @@ XULListboxAccessible
 :
 SelectRow
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -2127,7 +2127,7 @@ XULListboxAccessible
 :
 UnselectRow
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -2755,7 +2755,7 @@ roles
 RICH_OPTION
 ;
 }
-PRUint64
+uint64_t
 XULListitemAccessible
 :
 :
@@ -2775,7 +2775,7 @@ NativeState
 (
 )
 ;
-PRUint64
+uint64_t
 states
 =
 NativeInteractiveState
@@ -2847,7 +2847,7 @@ return
 states
 ;
 }
-PRUint64
+uint64_t
 XULListitemAccessible
 :
 :
@@ -2896,7 +2896,7 @@ XULListitemAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -2914,7 +2914,7 @@ eAction_Click
 mIsCheckbox
 )
 {
-PRUint64
+uint64_t
 states
 =
 NativeState
@@ -3125,7 +3125,7 @@ XULListCellAccessible
 :
 GetColumnIndex
 (
-PRInt32
+int32_t
 *
 aColumnIndex
 )
@@ -3171,7 +3171,7 @@ aColumnIndex
 =
 0
 ;
-PRInt32
+int32_t
 indexInRow
 =
 IndexInParent
@@ -3180,7 +3180,7 @@ IndexInParent
 ;
 for
 (
-PRInt32
+int32_t
 idx
 =
 0
@@ -3274,7 +3274,7 @@ XULListCellAccessible
 :
 GetRowIndex
 (
-PRInt32
+int32_t
 *
 aRowIndex
 )
@@ -3339,7 +3339,7 @@ aRowIndex
 =
 0
 ;
-PRInt32
+int32_t
 indexInTable
 =
 row
@@ -3351,7 +3351,7 @@ IndexInParent
 ;
 for
 (
-PRInt32
+int32_t
 idx
 =
 0
@@ -3408,7 +3408,7 @@ XULListCellAccessible
 :
 GetColumnExtent
 (
-PRInt32
+int32_t
 *
 aExtentCount
 )
@@ -3447,7 +3447,7 @@ XULListCellAccessible
 :
 GetRowExtent
 (
-PRInt32
+int32_t
 *
 aExtentCount
 )
@@ -3548,7 +3548,7 @@ table
 )
 )
 ;
-PRUint32
+uint32_t
 tableChildCount
 =
 tableAcc
@@ -3560,7 +3560,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -3615,7 +3615,7 @@ if
 list
 )
 {
-PRInt32
+int32_t
 colIdx
 =
 -
@@ -3821,7 +3821,7 @@ NS_ENSURE_STATE
 table
 )
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -3923,7 +3923,7 @@ NS_ENSURE_STATE
 table
 )
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -3935,7 +3935,7 @@ GetRowIndex
 rowIdx
 )
 ;
-PRInt32
+int32_t
 colIdx
 =
 -
@@ -3947,7 +3947,7 @@ GetColumnIndex
 colIdx
 )
 ;
-PRInt32
+int32_t
 cellIdx
 =
 -

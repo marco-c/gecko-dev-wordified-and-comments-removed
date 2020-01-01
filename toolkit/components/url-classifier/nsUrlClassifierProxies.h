@@ -686,7 +686,7 @@ nsIUrlClassifierUpdateObserver
 aTarget
 nsresult
 aStatus
-PRUint32
+uint32_t
 aDelay
 )
 :
@@ -716,7 +716,7 @@ mTarget
 nsresult
 mStatus
 ;
-PRUint32
+uint32_t
 mDelay
 ;
 }
@@ -775,7 +775,7 @@ UpdateSuccessRunnable
 nsIUrlClassifierUpdateObserver
 *
 aTarget
-PRUint32
+uint32_t
 aRequestedTimeout
 )
 :
@@ -798,7 +798,7 @@ nsIUrlClassifierUpdateObserver
 >
 mTarget
 ;
-PRUint32
+uint32_t
 mRequestedTimeout
 ;
 }

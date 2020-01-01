@@ -283,7 +283,7 @@ DrawTarget
 >
 mDrawTarget
 ;
-PRUint32
+uint32_t
 mCanvasFramebuffer
 ;
 bool

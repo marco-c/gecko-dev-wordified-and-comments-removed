@@ -134,7 +134,7 @@ child
 :
 __delete__
 (
-PRInt32
+int32_t
 [
 ]
 aIntParams

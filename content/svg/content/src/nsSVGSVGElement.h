@@ -665,7 +665,7 @@ const
 float
 GetLength
 (
-PRUint8
+uint8_t
 mCtxType
 )
 ;
@@ -899,11 +899,11 @@ ClearViewBoxProperty
 bool
 SetZoomAndPanProperty
 (
-PRUint16
+uint16_t
 aValue
 )
 ;
-PRUint16
+uint16_t
 GetZoomAndPanProperty
 (
 )

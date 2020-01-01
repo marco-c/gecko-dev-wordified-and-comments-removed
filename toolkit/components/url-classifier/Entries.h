@@ -483,7 +483,7 @@ len
 }
 #
 endif
-PRUint32
+uint32_t
 ToUint32
 (
 )
@@ -503,7 +503,7 @@ buf
 void
 FromUint32
 (
-PRUint32
+uint32_t
 aHash
 )
 {
@@ -531,11 +531,11 @@ int
 Compare
 (
 const
-PRUint8
+uint8_t
 *
 a
 const
-PRUint8
+uint8_t
 *
 b
 )
@@ -623,11 +623,11 @@ int
 Compare
 (
 const
-PRUint8
+uint8_t
 *
 a
 const
-PRUint8
+uint8_t
 *
 b
 )
@@ -1340,7 +1340,7 @@ T
 >
 *
 aArray
-PRUint32
+uint32_t
 aNumElements
 )
 {
@@ -1416,7 +1416,7 @@ T
 aArray
 )
 {
-PRUint32
+uint32_t
 written
 ;
 return

@@ -211,7 +211,7 @@ volName
 nsString
 mountPoint
 ;
-PRInt32
+int32_t
 volState
 ;
 vol
@@ -305,10 +305,10 @@ rv
 )
 )
 {
-PRInt64
+int64_t
 totalBytes
 ;
-PRInt64
+int64_t
 freeBytes
 ;
 stat

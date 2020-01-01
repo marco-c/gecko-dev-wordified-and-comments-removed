@@ -445,7 +445,7 @@ PRUnichar
 0
 )
 ;
-PRInt32
+int32_t
 pos
 =
 aFileExtension
@@ -1160,7 +1160,7 @@ nsString
 aPath
 )
 {
-PRInt32
+int32_t
 lastCommaPos
 =
 aPath
@@ -1193,7 +1193,7 @@ AppendLiteral
 "
 )
 ;
-PRUint32
+uint32_t
 index
 =
 aPath
@@ -1301,7 +1301,7 @@ rundll32
 "
 )
 ;
-PRInt32
+int32_t
 strLen
 =
 rundllSegment
@@ -1310,7 +1310,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 index
 =
 aCommandString
@@ -1356,7 +1356,7 @@ index
 kNotFound
 )
 {
-PRUint32
+uint32_t
 rundllSegmentLength
 =
 index
@@ -1390,7 +1390,7 @@ handlerCommand
 aCommandHandler
 )
 ;
-PRUint32
+uint32_t
 bufLength
 =
 :

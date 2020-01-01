@@ -158,7 +158,7 @@ const
 PRUnichar
 *
 sp
-PRUint32
+uint32_t
 len
 )
 ;
@@ -170,7 +170,7 @@ PRUnichar
 *
 cur
 ;
-PRUint32
+uint32_t
 maxlen
 ;
 void
@@ -1126,7 +1126,7 @@ cvt_ll
 SprintfState
 *
 ss
-PRInt64
+int64_t
 num
 int
 width
@@ -1157,7 +1157,7 @@ cvt
 int
 digits
 ;
-PRInt64
+int64_t
 rad
 ;
 if
@@ -1214,10 +1214,10 @@ num
 )
 )
 {
-PRInt32
+int32_t
 digit
 ;
-PRInt64
+int64_t
 quot
 rem
 ;
@@ -3146,7 +3146,7 @@ void
 =
 sizeof
 (
-PRInt32
+int32_t
 )
 )
 {
@@ -3172,7 +3172,7 @@ void
 =
 sizeof
 (
-PRInt64
+int64_t
 )
 )
 {
@@ -3447,7 +3447,7 @@ void
 va_arg
 (
 ap
-PRInt32
+int32_t
 )
 ;
 break
@@ -3461,7 +3461,7 @@ void
 va_arg
 (
 ap
-PRUint32
+uint32_t
 )
 ;
 break
@@ -3475,7 +3475,7 @@ void
 va_arg
 (
 ap
-PRInt64
+int64_t
 )
 ;
 break
@@ -3489,7 +3489,7 @@ void
 va_arg
 (
 ap
-PRUint64
+uint64_t
 )
 ;
 break
@@ -3624,7 +3624,7 @@ i
 long
 l
 ;
-PRInt64
+int64_t
 ll
 ;
 double
@@ -4609,7 +4609,7 @@ l
 va_arg
 (
 ap
-PRInt32
+int32_t
 )
 ;
 if
@@ -4652,7 +4652,7 @@ long
 va_arg
 (
 ap
-PRUint32
+uint32_t
 )
 ;
 do_long
@@ -4696,7 +4696,7 @@ ll
 va_arg
 (
 ap
-PRInt64
+int64_t
 )
 ;
 if
@@ -4739,7 +4739,7 @@ ll
 va_arg
 (
 ap
-PRUint64
+uint64_t
 )
 ;
 do_longlong
@@ -4995,7 +4995,7 @@ void
 =
 sizeof
 (
-PRInt32
+int32_t
 )
 )
 {
@@ -5016,7 +5016,7 @@ void
 =
 sizeof
 (
-PRInt64
+int64_t
 )
 )
 {
@@ -5341,7 +5341,7 @@ const
 PRUnichar
 *
 sp
-PRUint32
+uint32_t
 len
 )
 {
@@ -5436,7 +5436,7 @@ const
 PRUnichar
 *
 sp
-PRUint32
+uint32_t
 len
 )
 {
@@ -5447,7 +5447,7 @@ PRUnichar
 *
 newbase
 ;
-PRUint32
+uint32_t
 newlen
 ;
 off
@@ -5612,7 +5612,7 @@ sp
 PR_ASSERT
 (
 (
-PRUint32
+uint32_t
 )
 (
 ss
@@ -5686,7 +5686,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 nsTextFormatter
 :
 :
@@ -5707,7 +5707,7 @@ fmt
 va_list
 ap
 ;
-PRUint32
+uint32_t
 rv
 ;
 va_start
@@ -5737,7 +5737,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 nsTextFormatter
 :
 :
@@ -5913,11 +5913,11 @@ const
 PRUnichar
 *
 sp
-PRUint32
+uint32_t
 len
 )
 {
-PRUint32
+uint32_t
 limit
 =
 ss
@@ -5976,7 +5976,7 @@ return
 0
 ;
 }
-PRUint32
+uint32_t
 nsTextFormatter
 :
 :
@@ -5985,7 +5985,7 @@ snprintf
 PRUnichar
 *
 out
-PRUint32
+uint32_t
 outlen
 const
 PRUnichar
@@ -5999,13 +5999,13 @@ fmt
 va_list
 ap
 ;
-PRUint32
+uint32_t
 rv
 ;
 PR_ASSERT
 (
 (
-PRInt32
+int32_t
 )
 outlen
 >
@@ -6015,7 +6015,7 @@ outlen
 if
 (
 (
-PRInt32
+int32_t
 )
 outlen
 <
@@ -6055,7 +6055,7 @@ return
 rv
 ;
 }
-PRUint32
+uint32_t
 nsTextFormatter
 :
 :
@@ -6064,7 +6064,7 @@ vsnprintf
 PRUnichar
 *
 out
-PRUint32
+uint32_t
 outlen
 const
 PRUnichar
@@ -6077,13 +6077,13 @@ ap
 SprintfState
 ss
 ;
-PRUint32
+uint32_t
 n
 ;
 PR_ASSERT
 (
 (
-PRInt32
+int32_t
 )
 outlen
 >
@@ -6093,7 +6093,7 @@ outlen
 if
 (
 (
-PRInt32
+int32_t
 )
 outlen
 <

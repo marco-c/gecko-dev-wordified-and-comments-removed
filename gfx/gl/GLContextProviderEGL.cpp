@@ -8195,7 +8195,7 @@ CreateConfig
 EGLConfig
 *
 aConfig
-PRInt32
+int32_t
 depth
 )
 {
@@ -8489,7 +8489,7 @@ EGLConfig
 aConfig
 )
 {
-PRInt32
+int32_t
 depth
 =
 gfxPlatform
@@ -8779,7 +8779,7 @@ HasGLContext
 currentContext
 )
 {
-PRInt32
+int32_t
 depth
 =
 gfxPlatform

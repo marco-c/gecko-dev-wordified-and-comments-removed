@@ -55,7 +55,7 @@ StorageType
 aStorage
 )
 {
-PRUint32
+uint32_t
 length
 =
 aStorage
@@ -66,7 +66,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -82,7 +82,7 @@ index
 +
 )
 {
-PRUint32
+uint32_t
 reverseIndex
 =
 length
@@ -199,7 +199,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 index
 =
 aStorage

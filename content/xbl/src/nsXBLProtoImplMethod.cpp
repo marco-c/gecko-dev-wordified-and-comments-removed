@@ -337,7 +337,7 @@ nsXBLProtoImplMethod
 :
 SetLineNumber
 (
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -716,7 +716,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 paramCount
 =
 uncompiledMethod
@@ -757,7 +757,7 @@ args
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRInt32
+int32_t
 argPos
 =
 0
@@ -838,7 +838,7 @@ functionUri
 aClassStr
 )
 ;
-PRInt32
+int32_t
 hash
 =
 functionUri

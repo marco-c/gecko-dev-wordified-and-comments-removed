@@ -56,7 +56,7 @@ nsAString
 &
 aMountPoint
 const
-PRInt32
+int32_t
 &
 aState
 )
@@ -229,7 +229,7 @@ get
 )
 ;
 }
-PRInt32
+int32_t
 State
 (
 )
@@ -280,7 +280,7 @@ mName
 nsString
 mMountPoint
 ;
-PRInt32
+int32_t
 mState
 ;
 }

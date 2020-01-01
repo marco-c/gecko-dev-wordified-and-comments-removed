@@ -50,7 +50,7 @@ CreateChromeWindow
 nsIWebBrowserChrome
 *
 parent
-PRUint32
+uint32_t
 chromeFlags
 nsIWebBrowserChrome
 *
@@ -68,7 +68,7 @@ AppCallbacks
 :
 CreateBrowserWindow
 (
-PRInt32
+int32_t
 (
 chromeFlags
 )

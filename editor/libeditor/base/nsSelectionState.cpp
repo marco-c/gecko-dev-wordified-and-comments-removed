@@ -156,7 +156,7 @@ cb
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -254,7 +254,7 @@ MOZ_ASSERT
 aSel
 )
 ;
-PRInt32
+int32_t
 arrayCount
 =
 mArray
@@ -263,7 +263,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 rangeCount
 =
 aSel
@@ -282,7 +282,7 @@ rangeCount
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 arrayCount
@@ -324,7 +324,7 @@ rangeCount
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 arrayCount
@@ -352,7 +352,7 @@ i
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -405,7 +405,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 res
 ;
-PRUint32
+uint32_t
 i
 arrayCount
 =
@@ -571,7 +571,7 @@ aSelState
 false
 )
 ;
-PRUint32
+uint32_t
 i
 myCount
 =
@@ -672,7 +672,7 @@ itsRange
 false
 )
 ;
-PRInt16
+int16_t
 compResult
 ;
 nsresult
@@ -886,7 +886,7 @@ nsSelectionState
 aSelState
 )
 {
-PRUint32
+uint32_t
 i
 theCount
 =
@@ -948,7 +948,7 @@ nsSelectionState
 aSelState
 )
 {
-PRUint32
+uint32_t
 i
 theCount
 =
@@ -1008,7 +1008,7 @@ SelAdjCreateNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -1025,7 +1025,7 @@ aParent
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -1157,7 +1157,7 @@ SelAdjInsertNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -1193,7 +1193,7 @@ MOZ_ASSERT
 aNode
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -1212,7 +1212,7 @@ count
 return
 ;
 }
-PRInt32
+int32_t
 offset
 =
 0
@@ -1477,7 +1477,7 @@ SelAdjSplitNode
 nsIDOMNode
 *
 aOldRightNode
-PRInt32
+int32_t
 aOffset
 nsIDOMNode
 *
@@ -1500,7 +1500,7 @@ aNewLeftNode
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -1520,7 +1520,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 offset
 ;
 nsCOMPtr
@@ -1698,9 +1698,9 @@ aRightNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aOldLeftNodeLength
 )
 {
@@ -1723,7 +1723,7 @@ aParent
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -2009,7 +2009,7 @@ SelAdjInsertText
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
 const
 nsAString
@@ -2024,7 +2024,7 @@ mLock
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 count
 =
 mArray
@@ -2061,7 +2061,7 @@ node
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 len
 =
 aString
@@ -2185,9 +2185,9 @@ SelAdjDeleteText
 nsIDOMCharacterData
 *
 aTextNode
-PRInt32
+int32_t
 aOffset
-PRInt32
+int32_t
 aLength
 )
 {
@@ -2198,7 +2198,7 @@ mLock
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -2433,7 +2433,7 @@ aNewNode
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -2567,9 +2567,9 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
-PRUint32
+uint32_t
 aNodeOrigLen
 )
 {
@@ -2592,7 +2592,7 @@ aParent
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -2709,7 +2709,7 @@ startOffset
 +
 =
 (
-PRInt32
+int32_t
 )
 aNodeOrigLen
 -
@@ -2780,7 +2780,7 @@ endOffset
 +
 =
 (
-PRInt32
+int32_t
 )
 aNodeOrigLen
 -
@@ -2868,12 +2868,12 @@ DidMoveNode
 nsIDOMNode
 *
 aOldParent
-PRInt32
+int32_t
 aOldOffset
 nsIDOMNode
 *
 aNewParent
-PRInt32
+int32_t
 aNewOffset
 )
 {
@@ -2896,7 +2896,7 @@ aNewParent
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =

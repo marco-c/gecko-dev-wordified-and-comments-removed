@@ -20,7 +20,7 @@ nsXBLInsertionPoint
 nsIContent
 *
 aParentElement
-PRUint32
+uint32_t
 aIndex
 nsIContent
 *
@@ -193,7 +193,7 @@ nsXBLInsertionPoint
 :
 ChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -215,7 +215,7 @@ Matches
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -236,7 +236,7 @@ mIndex
 &
 (
 (
-PRInt32
+int32_t
 )
 aIndex
 )

@@ -191,7 +191,7 @@ FileInfo
 >
 GetFileInfo
 (
-PRInt64
+int64_t
 aId
 )
 ;
@@ -213,7 +213,7 @@ GetFileForId
 nsIFile
 *
 aDirectory
-PRInt64
+int64_t
 aId
 )
 ;
@@ -228,7 +228,7 @@ mDatabaseName
 nsString
 mDirectoryPath
 ;
-PRInt64
+int64_t
 mLastFileId
 ;
 nsDataHashtable

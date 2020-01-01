@@ -98,14 +98,14 @@ nsDNSService
 ;
 private
 :
-PRUint16
+uint16_t
 GetAFForLookup
 (
 const
 nsACString
 &
 host
-PRUint32
+uint32_t
 flags
 )
 ;

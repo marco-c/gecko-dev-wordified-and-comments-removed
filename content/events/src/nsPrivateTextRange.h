@@ -62,7 +62,7 @@ void
 NS_IMETHOD
 GetRangeStart
 (
-PRUint16
+uint16_t
 *
 aRangeStart
 )
@@ -70,7 +70,7 @@ aRangeStart
 NS_IMETHOD
 GetRangeEnd
 (
-PRUint16
+uint16_t
 *
 aRangeEnd
 )
@@ -78,7 +78,7 @@ aRangeEnd
 NS_IMETHOD
 GetRangeType
 (
-PRUint16
+uint16_t
 *
 aRangeType
 )
@@ -93,13 +93,13 @@ aRangeStyle
 ;
 protected
 :
-PRUint16
+uint16_t
 mRangeStart
 ;
-PRUint16
+uint16_t
 mRangeEnd
 ;
-PRUint16
+uint16_t
 mRangeType
 ;
 nsTextRangeStyle
@@ -119,7 +119,7 @@ public
 :
 nsPrivateTextRangeList
 (
-PRUint16
+uint16_t
 aLength
 )
 :
@@ -142,7 +142,7 @@ aRange
 ;
 NS_IMETHOD_
 (
-PRUint16
+uint16_t
 )
 GetLength
 (
@@ -157,7 +157,7 @@ nsIPrivateTextRange
 )
 Item
 (
-PRUint16
+uint16_t
 aIndex
 )
 ;

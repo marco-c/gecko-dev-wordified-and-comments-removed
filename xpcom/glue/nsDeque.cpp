@@ -475,7 +475,7 @@ GrowCapacity
 (
 )
 {
-PRInt32
+int32_t
 theNewSize
 =
 mCapacity
@@ -767,7 +767,7 @@ mSize
 -
 mSize
 ;
-PRInt32
+int32_t
 offset
 =
 modulus
@@ -968,7 +968,7 @@ nsDeque
 :
 ObjectAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -1021,7 +1021,7 @@ nsDeque
 :
 RemoveObjectAt
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -1063,7 +1063,7 @@ mCapacity
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 aIndex
@@ -1182,7 +1182,7 @@ const
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1222,7 +1222,7 @@ const
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0

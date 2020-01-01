@@ -110,7 +110,7 @@ nsCategoryImp
 :
 Get
 (
-PRUint32
+uint32_t
 aChar
 )
 {

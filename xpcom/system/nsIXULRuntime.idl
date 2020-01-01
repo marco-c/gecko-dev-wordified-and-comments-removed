@@ -580,7 +580,7 @@ lock
 /
 readonly
 attribute
-PRInt64
+int64_t
 replacedLockTime
 ;
 /

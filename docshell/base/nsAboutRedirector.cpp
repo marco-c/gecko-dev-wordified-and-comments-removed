@@ -51,7 +51,7 @@ char
 *
 url
 ;
-PRUint32
+uint32_t
 flags
 ;
 }
@@ -672,7 +672,7 @@ GetURIFlags
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 *
 result
 )

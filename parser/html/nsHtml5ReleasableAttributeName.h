@@ -34,7 +34,7 @@ public
 :
 nsHtml5ReleasableAttributeName
 (
-PRInt32
+int32_t
 *
 uri
 nsIAtom

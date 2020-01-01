@@ -98,7 +98,7 @@ Create
 FileManager
 *
 aFileManager
-PRInt64
+int64_t
 aId
 )
 ;
@@ -187,7 +187,7 @@ mRefCnt
 void
 UpdateDBRefs
 (
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -214,7 +214,7 @@ true
 void
 UpdateSliceRefs
 (
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -228,13 +228,13 @@ aDelta
 void
 GetReferences
 (
-PRInt32
+int32_t
 *
 aRefCnt
-PRInt32
+int32_t
 *
 aDBRefCnt
-PRInt32
+int32_t
 *
 aSliceRefCnt
 )
@@ -251,7 +251,7 @@ mFileManager
 ;
 }
 virtual
-PRInt64
+int64_t
 Id
 (
 )
@@ -267,7 +267,7 @@ UpdateReferences
 nsAutoRefCnt
 &
 aRefCount
-PRInt32
+int32_t
 aDelta
 bool
 aClear
@@ -348,7 +348,7 @@ aId
 \
 \
 virtual
-PRInt64
+int64_t
 Id
 (
 )

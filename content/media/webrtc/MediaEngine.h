@@ -148,7 +148,7 @@ virtual
 nsresult
 Snapshot
 (
-PRUint32
+uint32_t
 aDuration
 nsIDOMFile
 *
@@ -179,13 +179,13 @@ kVideoCodecI420
 struct
 MediaEngineVideoOptions
 {
-PRUint32
+uint32_t
 mWidth
 ;
-PRUint32
+uint32_t
 mHeight
 ;
-PRUint32
+uint32_t
 mMaxFPS
 ;
 MediaEngineVideoCodecType

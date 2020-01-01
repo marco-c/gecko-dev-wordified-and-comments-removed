@@ -82,10 +82,10 @@ nsScreenManagerOS2
 :
 ScreenForRect
 (
-PRInt32
-PRInt32
-PRInt32
-PRInt32
+int32_t
+int32_t
+int32_t
+int32_t
 nsIScreen
 *
 *
@@ -130,7 +130,7 @@ nsScreenManagerOS2
 :
 GetNumberOfScreens
 (
-PRUint32
+uint32_t
 *
 aNumberOfScreens
 )

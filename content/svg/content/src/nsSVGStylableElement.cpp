@@ -98,7 +98,7 @@ nsSVGStylableElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -168,7 +168,7 @@ nsSVGStylableElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -378,7 +378,7 @@ nsSVGStylableElement
 :
 GetAnimatedAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *

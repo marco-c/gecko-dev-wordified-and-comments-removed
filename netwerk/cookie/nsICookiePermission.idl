@@ -572,7 +572,7 @@ inout
 boolean
 aIsSession
 inout
-PRInt64
+int64_t
 aExpiry
 )
 ;

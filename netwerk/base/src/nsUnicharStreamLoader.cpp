@@ -400,9 +400,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -452,7 +452,7 @@ if
 mDecoder
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 aInputStream
@@ -470,7 +470,7 @@ dummy
 }
 else
 {
-PRUint32
+uint32_t
 haveRead
 =
 mRawData
@@ -479,7 +479,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 toRead
 =
 NS_MIN
@@ -490,7 +490,7 @@ haveRead
 aCount
 )
 ;
-PRUint32
+uint32_t
 n
 ;
 char
@@ -561,7 +561,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 dummy
 ;
 aInputStream
@@ -723,7 +723,7 @@ rv
 return
 rv
 ;
-PRUint32
+uint32_t
 dummy
 ;
 rv
@@ -772,10 +772,10 @@ const
 char
 *
 aSegment
-PRUint32
-PRUint32
+uint32_t
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -793,7 +793,7 @@ nsUnicharStreamLoader
 aClosure
 )
 ;
-PRUint32
+uint32_t
 haveRead
 =
 self
@@ -805,7 +805,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 consumed
 =
 0
@@ -815,14 +815,14 @@ rv
 ;
 do
 {
-PRInt32
+int32_t
 srcLen
 =
 aCount
 -
 consumed
 ;
-PRInt32
+int32_t
 dstLen
 ;
 self
@@ -841,7 +841,7 @@ srcLen
 dstLen
 )
 ;
-PRUint32
+uint32_t
 capacity
 =
 haveRead
@@ -967,7 +967,7 @@ consumed
 =
 NS_MAX
 <
-PRUint32
+uint32_t
 >
 (
 consumed

@@ -43,7 +43,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDIRINDEX
 protected
 :
-PRUint32
+uint32_t
 mType
 ;
 nsXPIDLCString
@@ -55,10 +55,10 @@ mLocation
 nsString
 mDescription
 ;
-PRInt64
+int64_t
 mSize
 ;
-PRInt64
+int64_t
 mLastModified
 ;
 }

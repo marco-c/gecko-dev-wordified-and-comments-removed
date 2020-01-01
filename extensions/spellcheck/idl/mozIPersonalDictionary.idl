@@ -409,7 +409,7 @@ out
 wstring
 words
 out
-PRUint32
+uint32_t
 count
 )
 ;

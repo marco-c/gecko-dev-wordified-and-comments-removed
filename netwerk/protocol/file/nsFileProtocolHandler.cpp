@@ -519,7 +519,7 @@ rv
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-PRInt64
+int64_t
 fileSize
 ;
 os2File
@@ -555,7 +555,7 @@ if
 buffer
 )
 {
-PRInt32
+int32_t
 cnt
 =
 PR_Read
@@ -820,7 +820,7 @@ nsFileProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -841,7 +841,7 @@ nsFileProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -1058,7 +1058,7 @@ nsFileProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char

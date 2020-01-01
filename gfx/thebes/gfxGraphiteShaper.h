@@ -83,7 +83,7 @@ void
 *
 GetTable
 (
-PRUint32
+uint32_t
 aTag
 size_t
 *
@@ -125,7 +125,7 @@ void
 *
 mData
 ;
-PRUint32
+uint32_t
 mLength
 ;
 }
@@ -165,7 +165,7 @@ bool
 mUseFontGlyphWidths
 ;
 static
-PRUint32
+uint32_t
 GetGraphiteTagForLang
 (
 const

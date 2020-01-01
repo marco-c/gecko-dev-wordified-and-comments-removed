@@ -105,10 +105,10 @@ StackMark
 *
 mMarks
 ;
-PRUint32
+uint32_t
 mStackTop
 ;
-PRUint32
+uint32_t
 mMarkLength
 ;
 }

@@ -556,9 +556,9 @@ FileRequest
 :
 FireProgressEvent
 (
-PRUint64
+uint64_t
 aLoaded
-PRUint64
+uint64_t
 aTotal
 )
 {

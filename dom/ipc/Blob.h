@@ -526,7 +526,7 @@ const
 nsString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 ;
@@ -537,7 +537,7 @@ const
 nsString
 &
 aContentType
-PRUint64
+uint64_t
 aLength
 )
 ;

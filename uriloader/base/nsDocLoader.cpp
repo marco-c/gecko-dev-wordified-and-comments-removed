@@ -363,10 +363,10 @@ void
 *
 mKey
 ;
-PRInt64
+int64_t
 mCurrentProgress
 ;
-PRInt64
+int64_t
 mMaxProgress
 ;
 bool
@@ -1030,7 +1030,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 count
 i
 ;
@@ -1230,7 +1230,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 count
 i
 ;
@@ -1402,7 +1402,7 @@ ClearRequestInfoHash
 (
 )
 ;
-PRInt32
+int32_t
 count
 =
 mListenerInfoList
@@ -1413,7 +1413,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1490,7 +1490,7 @@ DestroyChildren
 (
 )
 {
-PRInt32
+int32_t
 i
 count
 ;
@@ -1592,7 +1592,7 @@ GetName
 name
 )
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -1872,7 +1872,7 @@ GetName
 name
 )
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -1975,7 +1975,7 @@ mLastStatus
 =
 nullptr
 ;
-PRInt64
+int64_t
 oldMax
 =
 info
@@ -1998,7 +1998,7 @@ if
 (
 oldMax
 <
-PRInt64
+int64_t
 (
 0
 )
@@ -2008,7 +2008,7 @@ PRInt64
 (
 mMaxSelfProgress
 <
-PRInt64
+int64_t
 (
 0
 )
@@ -2096,7 +2096,7 @@ aStatus
 NS_BINDING_RETARGETED
 )
 {
-PRUint32
+uint32_t
 lf
 ;
 channel
@@ -2135,7 +2135,7 @@ if
 httpChannel
 )
 {
-PRUint32
+uint32_t
 responseCode
 ;
 rv
@@ -2173,7 +2173,7 @@ if
 bFireTransferring
 )
 {
-PRInt32
+int32_t
 flags
 ;
 flags
@@ -3094,7 +3094,7 @@ GatherAncestorWebProgresses
 list
 )
 ;
-PRInt32
+int32_t
 flags
 =
 nsIWebProgressListener
@@ -3109,7 +3109,7 @@ STATE_IS_DOCUMENT
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3161,7 +3161,7 @@ STATE_IS_NETWORK
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3204,7 +3204,7 @@ AddProgressListener
 nsIWebProgressListener
 *
 aListener
-PRUint32
+uint32_t
 aNotifyMask
 )
 {
@@ -3379,7 +3379,7 @@ return
 NS_OK
 ;
 }
-PRInt64
+int64_t
 nsDocLoader
 :
 :
@@ -3387,12 +3387,12 @@ GetMaxTotalProgress
 (
 )
 {
-PRInt64
+int64_t
 newMaxTotal
 =
 0
 ;
-PRInt32
+int32_t
 count
 =
 mChildList
@@ -3409,7 +3409,7 @@ webProgress
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3423,7 +3423,7 @@ i
 +
 )
 {
-PRInt64
+int64_t
 individualProgress
 =
 0
@@ -3462,7 +3462,7 @@ if
 (
 individualProgress
 <
-PRInt64
+int64_t
 (
 0
 )
@@ -3470,7 +3470,7 @@ PRInt64
 {
 newMaxTotal
 =
-PRInt64
+int64_t
 (
 -
 1
@@ -3486,7 +3486,7 @@ newMaxTotal
 individualProgress
 ;
 }
-PRInt64
+int64_t
 progress
 =
 -
@@ -3497,7 +3497,7 @@ if
 mMaxSelfProgress
 >
 =
-PRInt64
+int64_t
 (
 0
 )
@@ -3506,7 +3506,7 @@ PRInt64
 newMaxTotal
 >
 =
-PRInt64
+int64_t
 (
 0
 )
@@ -3533,9 +3533,9 @@ aRequest
 nsISupports
 *
 ctxt
-PRUint64
+uint64_t
 aProgress
-PRUint64
+uint64_t
 aProgressMax
 )
 {
@@ -3543,7 +3543,7 @@ nsRequestInfo
 *
 info
 ;
-PRInt64
+int64_t
 progressDelta
 =
 0
@@ -3570,7 +3570,7 @@ mUploading
 &
 &
 (
-PRInt64
+int64_t
 (
 0
 )
@@ -3584,7 +3584,7 @@ mCurrentProgress
 &
 &
 (
-PRInt64
+int64_t
 (
 0
 )
@@ -3664,7 +3664,7 @@ NS_OK
 }
 if
 (
-PRUint64
+uint64_t
 (
 aProgressMax
 )
@@ -3676,7 +3676,7 @@ LL_MAXUINT
 mMaxSelfProgress
 +
 =
-PRInt64
+int64_t
 (
 aProgressMax
 )
@@ -3686,7 +3686,7 @@ info
 >
 mMaxProgress
 =
-PRInt64
+int64_t
 (
 aProgressMax
 )
@@ -3696,7 +3696,7 @@ else
 {
 mMaxSelfProgress
 =
-PRInt64
+int64_t
 (
 -
 1
@@ -3707,14 +3707,14 @@ info
 >
 mMaxProgress
 =
-PRInt64
+int64_t
 (
 -
 1
 )
 ;
 }
-PRInt32
+int32_t
 flags
 ;
 flags
@@ -3766,7 +3766,7 @@ NS_OK
 }
 progressDelta
 =
-PRInt64
+int64_t
 (
 aProgress
 )
@@ -3786,7 +3786,7 @@ info
 >
 mCurrentProgress
 =
-PRInt64
+int64_t
 (
 aProgress
 )
@@ -4150,15 +4150,15 @@ aLoadInitiator
 nsIRequest
 *
 request
-PRInt64
+int64_t
 aProgress
-PRInt64
+int64_t
 aProgressMax
-PRInt64
+int64_t
 aProgressDelta
-PRInt64
+int64_t
 aTotalProgress
-PRInt64
+int64_t
 aMaxTotalProgress
 )
 {
@@ -4258,7 +4258,7 @@ nsIWebProgressListener
 >
 listener
 ;
-PRInt32
+int32_t
 count
 =
 mListenerInfoList
@@ -4356,19 +4356,19 @@ OnProgressChange
 (
 aLoadInitiator
 request
-PRInt32
+int32_t
 (
 aProgress
 )
-PRInt32
+int32_t
 (
 aProgressMax
 )
-PRInt32
+int32_t
 (
 aTotalProgress
 )
-PRInt32
+int32_t
 (
 aMaxTotalProgress
 )
@@ -4452,7 +4452,7 @@ aProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 aStateFlags
 nsresult
 aStatus
@@ -4468,7 +4468,7 @@ list
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4516,7 +4516,7 @@ nsIRequest
 *
 const
 aRequest
-PRInt32
+int32_t
 &
 aStateFlags
 const
@@ -4646,7 +4646,7 @@ nsIWebProgressListener
 >
 listener
 ;
-PRInt32
+int32_t
 count
 =
 mListenerInfoList
@@ -4655,7 +4655,7 @@ Count
 (
 )
 ;
-PRInt32
+int32_t
 notifyMask
 =
 (
@@ -4783,7 +4783,7 @@ aRequest
 nsIURI
 *
 aUri
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -4793,7 +4793,7 @@ nsIWebProgressListener
 >
 listener
 ;
-PRInt32
+int32_t
 count
 =
 mListenerInfoList
@@ -4973,7 +4973,7 @@ nsIWebProgressListener
 >
 listener
 ;
-PRInt32
+int32_t
 count
 =
 mListenerInfoList
@@ -5112,7 +5112,7 @@ aWebProgress
 nsIURI
 *
 aURI
-PRInt32
+int32_t
 aDelay
 bool
 aSameURI
@@ -5123,7 +5123,7 @@ allowRefresh
 =
 true
 ;
-PRInt32
+int32_t
 count
 =
 mListenerInfoList
@@ -5319,7 +5319,7 @@ nsIWebProgressListener
 aListener
 )
 {
-PRInt32
+int32_t
 i
 count
 ;
@@ -5537,7 +5537,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -5593,7 +5593,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -5615,13 +5615,13 @@ nsRequestInfo
 hdr
 )
 ;
-PRInt64
+int64_t
 *
 max
 =
 static_cast
 <
-PRInt64
+int64_t
 *
 >
 (
@@ -5644,7 +5644,7 @@ mCurrentProgress
 *
 max
 =
-PRInt64
+int64_t
 (
 -
 1
@@ -5667,7 +5667,7 @@ return
 PL_DHASH_NEXT
 ;
 }
-PRInt64
+int64_t
 nsDocLoader
 :
 :
@@ -5675,7 +5675,7 @@ CalculateMaxProgress
 (
 )
 {
-PRInt64
+int64_t
 max
 =
 mCompletedTotalProgress
@@ -5705,7 +5705,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -5722,7 +5722,7 @@ loadFlags
 =
 0
 ;
-PRInt32
+int32_t
 stateFlags
 =
 nsIWebProgressListener
@@ -5834,7 +5834,7 @@ OnSecurityChange
 nsISupports
 *
 aContext
-PRUint32
+uint32_t
 aState
 )
 {
@@ -5868,7 +5868,7 @@ nsIWebProgressListener
 >
 listener
 ;
-PRInt32
+int32_t
 count
 =
 mListenerInfoList
@@ -6001,7 +6001,7 @@ nsDocLoader
 :
 GetPriority
 (
-PRInt32
+int32_t
 *
 aPriority
 )
@@ -6045,7 +6045,7 @@ nsDocLoader
 :
 SetPriority
 (
-PRInt32
+int32_t
 aPriority
 )
 {
@@ -6097,7 +6097,7 @@ SetPriority
 aPriority
 )
 ;
-PRInt32
+int32_t
 count
 =
 mChildList
@@ -6112,7 +6112,7 @@ loader
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6165,7 +6165,7 @@ nsDocLoader
 :
 AdjustPriority
 (
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -6217,7 +6217,7 @@ AdjustPriority
 aDelta
 )
 ;
-PRInt32
+int32_t
 count
 =
 mChildList
@@ -6232,7 +6232,7 @@ loader
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -6294,11 +6294,11 @@ nsChannelInfo
 *
 info
 ;
-PRInt32
+int32_t
 i
 count
 ;
-PRInt32
+int32_t
 current
 =
 0

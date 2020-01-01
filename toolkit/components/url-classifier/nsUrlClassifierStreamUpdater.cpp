@@ -373,7 +373,7 @@ aServerMAC
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 loadFlags
 =
 nsIChannel
@@ -1269,7 +1269,7 @@ StreamFinished
 (
 nsresult
 status
-PRUint32
+uint32_t
 requestedDelay
 )
 {
@@ -1405,7 +1405,7 @@ nsUrlClassifierStreamUpdater
 :
 UpdateSuccess
 (
-PRUint32
+uint32_t
 requestedTimeout
 )
 {
@@ -1561,7 +1561,7 @@ AppendInt
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 result
@@ -1866,7 +1866,7 @@ code
 )
 )
 ;
-PRUint32
+uint32_t
 requestStatus
 ;
 rv
@@ -1984,9 +1984,9 @@ context
 nsIInputStream
 *
 aIStream
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -2291,7 +2291,7 @@ NotifySSLError
 nsIInterfaceRequestor
 *
 socketInfo
-PRInt32
+int32_t
 error
 const
 nsACString

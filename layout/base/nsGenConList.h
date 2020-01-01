@@ -53,7 +53,7 @@ nsIFrame
 mPseudoFrame
 ;
 const
-PRInt32
+int32_t
 mContentIndex
 ;
 nsCOMPtr
@@ -64,7 +64,7 @@ mText
 ;
 nsGenConNode
 (
-PRInt32
+int32_t
 aContentIndex
 )
 :
@@ -123,7 +123,7 @@ NS_ASSERTION
 (
 mContentIndex
 <
-PRInt32
+int32_t
 (
 mPseudoFrame
 -
@@ -242,7 +242,7 @@ nsGenConNode
 *
 mFirstNode
 ;
-PRUint32
+uint32_t
 mSize
 ;
 public

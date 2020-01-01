@@ -69,7 +69,7 @@ protected
 NS_IMETHOD
 SetNativeClipboardData
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 =
@@ -81,7 +81,7 @@ GetNativeClipboardData
 nsITransferable
 *
 aTransferable
-PRInt32
+int32_t
 aWhichClipboard
 )
 =

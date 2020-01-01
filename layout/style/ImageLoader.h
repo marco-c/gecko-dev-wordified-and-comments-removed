@@ -144,7 +144,7 @@ OnStopFrame
 imgIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aFrame
 )
 ;
@@ -231,7 +231,7 @@ aFrame
 void
 SetAnimationMode
 (
-PRUint16
+uint16_t
 aMode
 )
 ;

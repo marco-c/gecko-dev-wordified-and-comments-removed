@@ -51,7 +51,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -61,7 +61,7 @@ aName
 NS_IMETHOD
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 ;
@@ -85,7 +85,7 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
@@ -100,7 +100,7 @@ aAttributes
 )
 ;
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )
@@ -140,7 +140,7 @@ inline
 bool
 IsLongDescIndex
 (
-PRUint8
+uint8_t
 aIndex
 )
 ;

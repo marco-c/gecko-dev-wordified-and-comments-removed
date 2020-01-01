@@ -295,7 +295,7 @@ TryChannelCharset
 nsIChannel
 *
 aChannel
-PRInt32
+int32_t
 &
 aCharsetSource
 nsACString

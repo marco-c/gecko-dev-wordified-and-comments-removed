@@ -169,14 +169,14 @@ aResult
 ;
 static
 const
-PRInt8
+int8_t
 kClockValueAllowSign
 =
 1
 ;
 static
 const
-PRInt8
+int8_t
 kClockValueAllowIndefinite
 =
 2
@@ -192,7 +192,7 @@ aSpec
 nsSMILTimeValue
 *
 aResult
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -204,7 +204,7 @@ nullptr
 )
 ;
 static
-PRInt32
+int32_t
 CheckForNegativeNumber
 (
 const

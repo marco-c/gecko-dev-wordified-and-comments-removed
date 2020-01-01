@@ -278,7 +278,7 @@ public
 nsresult
 GetSize
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -289,7 +289,7 @@ Copy
 char
 *
 buf
-PRUint32
+uint32_t
 len
 )
 ;

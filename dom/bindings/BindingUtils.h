@@ -3404,7 +3404,7 @@ nsDependentString
 size_type
 mLength
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 class

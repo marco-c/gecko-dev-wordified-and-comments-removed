@@ -499,7 +499,7 @@ nsStringBundle
 :
 GetStringFromID
 (
-PRInt32
+int32_t
 aID
 nsAString
 &
@@ -792,14 +792,14 @@ nsStringBundle
 :
 FormatStringFromID
 (
-PRInt32
+int32_t
 aID
 const
 PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aLength
 PRUnichar
 *
@@ -847,7 +847,7 @@ PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aLength
 PRUnichar
 *
@@ -955,7 +955,7 @@ nsStringBundle
 :
 GetStringFromID
 (
-PRInt32
+int32_t
 aID
 PRUnichar
 *
@@ -1532,7 +1532,7 @@ PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aLength
 PRUnichar
 *
@@ -1956,7 +1956,7 @@ nsExtensibleStringBundle
 :
 GetStringFromID
 (
-PRInt32
+int32_t
 aID
 PRUnichar
 *
@@ -1968,7 +1968,7 @@ nsresult
 rv
 ;
 const
-PRUint32
+uint32_t
 size
 =
 mBundles
@@ -1979,7 +1979,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2054,7 +2054,7 @@ nsresult
 rv
 ;
 const
-PRUint32
+uint32_t
 size
 =
 mBundles
@@ -2065,7 +2065,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2126,14 +2126,14 @@ nsExtensibleStringBundle
 :
 FormatStringFromID
 (
-PRInt32
+int32_t
 aID
 const
 PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aLength
 PRUnichar
 *
@@ -2181,7 +2181,7 @@ PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aLength
 PRUnichar
 *
@@ -3253,7 +3253,7 @@ nsIStringBundle
 bundle
 nsresult
 aStatus
-PRUint32
+uint32_t
 argCount
 PRUnichar
 *
@@ -3328,7 +3328,7 @@ rv
 )
 )
 {
-PRUint16
+uint16_t
 code
 =
 NS_ERROR_GET_CODE
@@ -3373,7 +3373,7 @@ AppendInt
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aStatus
@@ -3400,7 +3400,7 @@ get
 (
 )
 ;
-PRUint16
+uint16_t
 code
 =
 NS_ERROR_GET_CODE
@@ -3447,7 +3447,7 @@ result
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 i
 argCount
 =
@@ -3574,7 +3574,7 @@ argCount
 1
 )
 {
-PRInt32
+int32_t
 offset
 =
 0
@@ -3594,7 +3594,7 @@ i
 +
 )
 {
-PRInt32
+int32_t
 pos
 =
 args

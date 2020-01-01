@@ -1198,7 +1198,7 @@ aEvent
 )
 ;
 static
-PRInt32
+int32_t
 GetChildIDFor
 (
 Accessible

@@ -145,7 +145,7 @@ Truncate
 PRFileDesc
 *
 fd
-PRUint32
+uint32_t
 newEOF
 )
 ;

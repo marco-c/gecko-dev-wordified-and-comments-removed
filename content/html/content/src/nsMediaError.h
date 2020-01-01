@@ -32,7 +32,7 @@ public
 :
 nsMediaError
 (
-PRUint16
+uint16_t
 aCode
 )
 ;
@@ -40,7 +40,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMEDIAERROR
 private
 :
-PRUint16
+uint16_t
 mCode
 ;
 }

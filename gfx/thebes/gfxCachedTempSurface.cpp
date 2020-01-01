@@ -341,7 +341,7 @@ mSize
 =
 gfxIntSize
 (
-PRInt32
+int32_t
 (
 ceil
 (
@@ -350,7 +350,7 @@ aRect
 width
 )
 )
-PRInt32
+int32_t
 (
 ceil
 (

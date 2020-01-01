@@ -393,7 +393,7 @@ nsWindowInfo
 nsIXULWindow
 *
 inWindow
-PRInt32
+int32_t
 inTimeStamp
 )
 :

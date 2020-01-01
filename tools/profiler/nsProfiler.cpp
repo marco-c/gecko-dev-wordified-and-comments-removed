@@ -89,16 +89,16 @@ nsProfiler
 :
 StartProfiler
 (
-PRUint32
+uint32_t
 aEntries
-PRUint32
+uint32_t
 aInterval
 const
 char
 *
 *
 aFeatures
-PRUint32
+uint32_t
 aFeatureCount
 )
 {
@@ -167,7 +167,7 @@ if
 profile
 )
 {
-PRUint32
+uint32_t
 len
 =
 strlen
@@ -640,7 +640,7 @@ nsProfiler
 :
 GetResponsivenessTimes
 (
-PRUint32
+uint32_t
 *
 aCount
 double
@@ -729,7 +729,7 @@ nsProfiler
 :
 GetFeatures
 (
-PRUint32
+uint32_t
 *
 aCount
 char
@@ -739,7 +739,7 @@ char
 aFeatures
 )
 {
-PRUint32
+uint32_t
 len
 =
 0
@@ -830,7 +830,7 @@ i
 +
 )
 {
-PRUint32
+uint32_t
 strLen
 =
 strlen

@@ -55,7 +55,7 @@ nsISupportsArray
 *
 mArray
 ;
-PRInt32
+int32_t
 mCursor
 ;
 }

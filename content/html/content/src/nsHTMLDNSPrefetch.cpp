@@ -484,7 +484,7 @@ Prefetch
 Link
 *
 aElement
-PRUint16
+uint16_t
 flags
 )
 {
@@ -591,7 +591,7 @@ const
 nsAString
 &
 hostname
-PRUint16
+uint16_t
 flags
 )
 {
@@ -763,7 +763,7 @@ CancelPrefetch
 Link
 *
 aElement
-PRUint16
+uint16_t
 flags
 nsresult
 aReason
@@ -827,7 +827,7 @@ const
 nsAString
 &
 hostname
-PRUint16
+uint16_t
 flags
 nsresult
 aReason
@@ -1134,7 +1134,7 @@ nsDeferrals
 :
 Add
 (
-PRUint16
+uint16_t
 flags
 Link
 *
@@ -1676,7 +1676,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 progressStateFlags
 nsresult
 aStatus
@@ -1763,13 +1763,13 @@ aProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 curSelfProgress
-PRInt32
+int32_t
 maxSelfProgress
-PRInt32
+int32_t
 curTotalProgress
-PRInt32
+int32_t
 maxTotalProgress
 )
 {
@@ -1795,7 +1795,7 @@ aRequest
 nsIURI
 *
 location
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1845,7 +1845,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 state
 )
 {

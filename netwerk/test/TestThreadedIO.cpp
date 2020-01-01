@@ -616,9 +616,9 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 aLength
 )
 {

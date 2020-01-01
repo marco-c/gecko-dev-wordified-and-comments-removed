@@ -167,7 +167,7 @@ nsAString
 stringOut
 )
 {
-PRInt32
+int32_t
 aLength
 =
 stringIn
@@ -402,7 +402,7 @@ get
 (
 )
 ;
-PRInt32
+int32_t
 unicharLength
 =
 src
@@ -411,7 +411,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 dstLength
 ;
 res
@@ -435,7 +435,7 @@ res
 )
 )
 {
-PRInt32
+int32_t
 bufLength
 =
 dstLength
@@ -503,7 +503,7 @@ res
 )
 )
 {
-PRInt32
+int32_t
 finishLength
 =
 bufLength

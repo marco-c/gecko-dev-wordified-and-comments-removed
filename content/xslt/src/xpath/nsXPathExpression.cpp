@@ -157,7 +157,7 @@ Evaluate
 nsIDOMNode
 *
 aContextNode
-PRUint16
+uint16_t
 aType
 nsISupports
 *
@@ -189,11 +189,11 @@ EvaluateWithContext
 nsIDOMNode
 *
 aContextNode
-PRUint32
+uint32_t
 aContextPosition
-PRUint32
+uint32_t
 aContextSize
-PRUint16
+uint16_t
 aType
 nsISupports
 *
@@ -284,7 +284,7 @@ NS_ERROR_DOM_WRONG_DOCUMENT_ERR
 ;
 }
 }
-PRUint16
+uint16_t
 nodeType
 =
 context
@@ -336,7 +336,7 @@ if
 textNode
 )
 {
-PRUint32
+uint32_t
 textLength
 ;
 textNode
@@ -494,7 +494,7 @@ rv
 rv
 )
 ;
-PRUint16
+uint16_t
 resultType
 =
 aType
@@ -676,7 +676,7 @@ EvalContextImpl
 :
 getVariable
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *
@@ -785,7 +785,7 @@ return
 mContextNode
 ;
 }
-PRUint32
+uint32_t
 nsXPathExpression
 :
 :
@@ -800,7 +800,7 @@ return
 mContextSize
 ;
 }
-PRUint32
+uint32_t
 nsXPathExpression
 :
 :

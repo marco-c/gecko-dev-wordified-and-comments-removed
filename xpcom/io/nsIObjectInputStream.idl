@@ -255,10 +255,10 @@ charPtr
 getBuffer
 (
 in
-PRUint32
+uint32_t
 aLength
 in
-PRUint32
+uint32_t
 aAlignMask
 )
 ;
@@ -272,7 +272,7 @@ in
 charPtr
 aBuffer
 in
-PRUint32
+uint32_t
 aLength
 )
 ;

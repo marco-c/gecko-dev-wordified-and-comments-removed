@@ -106,7 +106,7 @@ roles
 LINK
 ;
 }
-PRUint64
+uint64_t
 HTMLLinkAccessible
 :
 :
@@ -129,7 +129,7 @@ states
 READONLY
 ;
 }
-PRUint64
+uint64_t
 HTMLLinkAccessible
 :
 :
@@ -205,7 +205,7 @@ LINKED
 0
 ;
 }
-PRUint64
+uint64_t
 HTMLLinkAccessible
 :
 :
@@ -214,7 +214,7 @@ NativeInteractiveState
 )
 const
 {
-PRUint64
+uint64_t
 state
 =
 HyperTextAccessibleWrap
@@ -298,7 +298,7 @@ aValue
 )
 ;
 }
-PRUint8
+uint8_t
 HTMLLinkAccessible
 :
 :
@@ -327,7 +327,7 @@ HTMLLinkAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -386,7 +386,7 @@ HTMLLinkAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -454,7 +454,7 @@ HTMLLinkAccessible
 :
 AnchorURIAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 {

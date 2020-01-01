@@ -95,7 +95,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 CallMethod
 (
-PRUint16
+uint16_t
 methodIndex
 const
 XPTMethodDescriptor
@@ -340,7 +340,7 @@ nsXTFWeakTearoff
 :
 CallMethod
 (
-PRUint16
+uint16_t
 methodIndex
 const
 XPTMethodDescriptor

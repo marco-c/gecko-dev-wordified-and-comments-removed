@@ -80,7 +80,7 @@ nsQueryContentEventResult
 :
 GetOffset
 (
-PRUint32
+uint32_t
 *
 aOffset
 )
@@ -123,7 +123,7 @@ static
 bool
 IsRectEnabled
 (
-PRUint32
+uint32_t
 aEventID
 )
 {
@@ -193,7 +193,7 @@ nsQueryContentEventResult
 :
 GetLeft
 (
-PRInt32
+int32_t
 *
 aLeft
 )
@@ -230,7 +230,7 @@ nsQueryContentEventResult
 :
 GetWidth
 (
-PRInt32
+int32_t
 *
 aWidth
 )
@@ -267,7 +267,7 @@ nsQueryContentEventResult
 :
 GetTop
 (
-PRInt32
+int32_t
 *
 aTop
 )
@@ -304,7 +304,7 @@ nsQueryContentEventResult
 :
 GetHeight
 (
-PRInt32
+int32_t
 *
 aHeight
 )

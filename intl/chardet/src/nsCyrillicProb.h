@@ -5,7 +5,7 @@ nsCyrillicProb_h___h__
 define
 nsCyrillicProb_h___h__
 const
-PRUint16
+uint16_t
 gCyrillicProb
 [
 33

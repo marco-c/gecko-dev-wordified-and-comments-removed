@@ -356,13 +356,13 @@ ParseAttribute
 nsString
 &
 aString
-PRInt32
+int32_t
 &
 aSign
 nsCSSValue
 &
 aCSSValue
-PRInt32
+int32_t
 &
 aPseudoUnit
 )
@@ -387,7 +387,7 @@ CompressWhitespace
 (
 )
 ;
-PRInt32
+int32_t
 stringLength
 =
 aString
@@ -408,7 +408,7 @@ nsAutoString
 number
 unit
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -923,9 +923,9 @@ nsMathMLmpaddedFrame
 :
 UpdateValue
 (
-PRInt32
+int32_t
 aSign
-PRInt32
+int32_t
 aPseudoUnit
 const
 nsCSSValue
@@ -1260,7 +1260,7 @@ voffset
 =
 0
 ;
-PRInt32
+int32_t
 pseudoUnit
 ;
 nscoord

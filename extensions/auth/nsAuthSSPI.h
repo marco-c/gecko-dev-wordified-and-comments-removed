@@ -98,10 +98,10 @@ mCtxt
 nsCString
 mServiceName
 ;
-PRUint32
+uint32_t
 mServiceFlags
 ;
-PRUint32
+uint32_t
 mMaxTokenLen
 ;
 pType
@@ -123,7 +123,7 @@ void
 *
 mCertDERData
 ;
-PRUint32
+uint32_t
 mCertDERLength
 ;
 }

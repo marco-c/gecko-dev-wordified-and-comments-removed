@@ -147,7 +147,7 @@ Statement
 *
 mOwningStatement
 ;
-PRUint32
+uint32_t
 mParamCount
 ;
 }
@@ -175,7 +175,7 @@ aValue
 NS_IMETHOD
 BindByIndex
 (
-PRUint32
+uint32_t
 aIndex
 nsIVariant
 *

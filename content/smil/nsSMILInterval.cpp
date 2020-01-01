@@ -163,7 +163,7 @@ aFiltered
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mDependentTimes

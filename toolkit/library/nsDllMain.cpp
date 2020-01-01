@@ -114,7 +114,7 @@ IsWin8OrHigher
 )
 {
 static
-PRInt32
+int32_t
 version
 =
 0

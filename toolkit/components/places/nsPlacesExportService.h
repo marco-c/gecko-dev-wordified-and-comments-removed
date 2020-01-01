@@ -249,9 +249,9 @@ aOutput
 nsresult
 WriteDescription
 (
-PRInt64
+int64_t
 aId
-PRInt32
+int32_t
 aType
 nsIOutputStream
 *

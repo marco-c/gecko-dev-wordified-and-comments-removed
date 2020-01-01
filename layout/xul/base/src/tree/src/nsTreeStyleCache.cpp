@@ -57,7 +57,7 @@ nsISupportsArray
 aInputWord
 )
 {
-PRUint32
+uint32_t
 count
 ;
 aInputWord
@@ -161,7 +161,7 @@ currState
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

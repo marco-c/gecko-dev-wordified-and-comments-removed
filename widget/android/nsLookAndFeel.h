@@ -53,7 +53,7 @@ GetIntImpl
 (
 IntID
 aID
-PRInt32
+int32_t
 &
 aResult
 )
@@ -90,7 +90,7 @@ GetEchoPasswordImpl
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetPasswordMaskDelayImpl
 (
 )

@@ -115,7 +115,7 @@ nsCSSStyleSheet
 struct
 InsertionItem
 {
-PRUint32
+uint32_t
 insertionIndex
 ;
 nsIAtom
@@ -128,7 +128,7 @@ defaultContent
 ;
 InsertionItem
 (
-PRUint32
+uint32_t
 aInsertionIndex
 nsIAtom
 *
@@ -610,7 +610,7 @@ AttributeChanged
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aNameSpaceID
 bool
 aRemoveFlag
@@ -753,7 +753,7 @@ const
 nsIContent
 *
 aChild
-PRUint32
+uint32_t
 *
 aIndex
 )
@@ -768,7 +768,7 @@ aBoundElement
 nsIContent
 *
 aCopyRoot
-PRUint32
+uint32_t
 *
 aIndex
 bool
@@ -780,7 +780,7 @@ nsIAtom
 *
 GetBaseTag
 (
-PRInt32
+int32_t
 *
 aNamespaceID
 )
@@ -788,7 +788,7 @@ aNamespaceID
 void
 SetBaseTag
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -863,7 +863,7 @@ aDocInfo
 nsIDocument
 *
 aDocument
-PRUint8
+uint8_t
 aFlags
 )
 ;
@@ -913,7 +913,7 @@ ReadNamespace
 nsIObjectInputStream
 *
 aStream
-PRInt32
+int32_t
 &
 aNameSpaceID
 )
@@ -924,7 +924,7 @@ WriteNamespace
 nsIObjectOutputStream
 *
 aStream
-PRInt32
+int32_t
 aNameSpaceID
 )
 ;
@@ -984,7 +984,7 @@ aClosure
 const
 ;
 static
-PRUint32
+uint32_t
 gRefCnt
 ;
 static
@@ -1031,12 +1031,12 @@ EnsureAttributeTable
 void
 AddToAttributeTable
 (
-PRInt32
+int32_t
 aSourceNamespaceID
 nsIAtom
 *
 aSourceTag
-PRInt32
+int32_t
 aDestNamespaceID
 nsIAtom
 *
@@ -1068,7 +1068,7 @@ GetNestedChildren
 nsIAtom
 *
 aTag
-PRInt32
+int32_t
 aNamespace
 nsIContent
 *
@@ -1155,7 +1155,7 @@ nsSupportsHashtable
 *
 mInterfaceTable
 ;
-PRInt32
+int32_t
 mBaseNameSpaceID
 ;
 nsCOMPtr

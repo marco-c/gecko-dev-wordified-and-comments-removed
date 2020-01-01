@@ -117,7 +117,7 @@ return
 -
 1
 ;
-PRUint32
+uint32_t
 n
 ;
 rv

@@ -384,7 +384,7 @@ aContainer
 void
 OnStartFrame
 (
-PRUint32
+uint32_t
 aFrame
 )
 ;
@@ -402,7 +402,7 @@ aRect
 void
 OnStopFrame
 (
-PRUint32
+uint32_t
 aFrame
 )
 ;
@@ -576,10 +576,10 @@ mLoadGroup
 nsLoadFlags
 mLoadFlags
 ;
-PRUint32
+uint32_t
 mLockCount
 ;
-PRUint32
+uint32_t
 mAnimationConsumers
 ;
 bool

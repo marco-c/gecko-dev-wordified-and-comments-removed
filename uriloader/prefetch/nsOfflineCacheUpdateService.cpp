@@ -343,7 +343,7 @@ public
 :
 AutoFreeArray
 (
-PRUint32
+uint32_t
 count
 char
 *
@@ -376,7 +376,7 @@ mValues
 }
 private
 :
-PRUint32
+uint32_t
 mCount
 ;
 char
@@ -482,13 +482,13 @@ aProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 curSelfProgress
-PRInt32
+int32_t
 maxSelfProgress
-PRInt32
+int32_t
 curTotalProgress
-PRInt32
+int32_t
 maxTotalProgress
 )
 {
@@ -523,7 +523,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 progressStateFlags
 nsresult
 aStatus
@@ -728,7 +728,7 @@ aRequest
 nsIURI
 *
 location
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -802,7 +802,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 state
 )
 {
@@ -1420,7 +1420,7 @@ nsOfflineCacheUpdateService
 :
 GetNumUpdates
 (
-PRUint32
+uint32_t
 *
 aNumUpdates
 )
@@ -1461,7 +1461,7 @@ nsOfflineCacheUpdateService
 :
 GetUpdate
 (
-PRUint32
+uint32_t
 aIndex
 nsIOfflineCacheUpdate
 *
@@ -1553,7 +1553,7 @@ update
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2089,7 +2089,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 perm
 ;
 const

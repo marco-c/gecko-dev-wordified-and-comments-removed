@@ -1244,7 +1244,7 @@ aKey
 )
 const
 {
-PRUint32
+uint32_t
 len
 =
 mStrings
@@ -1267,7 +1267,7 @@ Unset
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1429,7 +1429,7 @@ nullptr
 ;
 }
 const
-PRUint32
+uint32_t
 len
 =
 mStrings
@@ -1471,7 +1471,7 @@ value
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1735,7 +1735,7 @@ IsArray
 )
 )
 {
-PRUint32
+uint32_t
 len
 =
 mStrings
@@ -1746,7 +1746,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1924,7 +1924,7 @@ IsArray
 )
 )
 {
-PRUint32
+uint32_t
 len
 =
 mStrings
@@ -1967,7 +1967,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

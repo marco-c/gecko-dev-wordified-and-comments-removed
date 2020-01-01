@@ -32,7 +32,7 @@ EncodeToCString
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aLength
 nsACString
 &
@@ -59,7 +59,7 @@ EncodeToString
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aLength
 nsAString
 &

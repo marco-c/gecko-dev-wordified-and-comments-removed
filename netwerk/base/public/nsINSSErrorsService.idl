@@ -151,7 +151,7 @@ boolean
 isNSSErrorCode
 (
 in
-PRInt32
+int32_t
 aNSPRCode
 )
 ;
@@ -199,7 +199,7 @@ nsresult
 getXPCOMFromNSSError
 (
 in
-PRInt32
+int32_t
 aNSPRCode
 )
 ;
@@ -277,7 +277,7 @@ return
 the
 *
 /
-PRUint32
+uint32_t
 getErrorClass
 (
 in

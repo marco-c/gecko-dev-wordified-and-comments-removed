@@ -768,7 +768,7 @@ postXScale
 float
 postYScale
 ;
-PRUint32
+uint32_t
 contentFlags
 ;
 float

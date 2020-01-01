@@ -131,11 +131,11 @@ const
 size_t
 *
 aBucketSizes
-PRInt32
+int32_t
 aNumBuckets
-PRInt32
+int32_t
 aInitialSize
-PRInt32
+int32_t
 aAlign
 =
 0

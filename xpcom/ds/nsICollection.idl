@@ -125,7 +125,7 @@ nsICollection
 :
 nsISerializable
 {
-PRUint32
+uint32_t
 Count
 (
 )
@@ -134,7 +134,7 @@ nsISupports
 GetElementAt
 (
 in
-PRUint32
+uint32_t
 index
 )
 ;
@@ -142,7 +142,7 @@ void
 QueryElementAt
 (
 in
-PRUint32
+uint32_t
 index
 in
 nsIIDRef
@@ -163,7 +163,7 @@ void
 SetElementAt
 (
 in
-PRUint32
+uint32_t
 index
 in
 nsISupports
@@ -228,7 +228,7 @@ nsQueryElementAt
 nsICollection
 *
 aCollection
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -279,7 +279,7 @@ nsICollection
 *
 mCollection
 ;
-PRUint32
+uint32_t
 mIndex
 ;
 nsresult
@@ -296,7 +296,7 @@ do_QueryElementAt
 nsICollection
 *
 aCollection
-PRUint32
+uint32_t
 aIndex
 nsresult
 *

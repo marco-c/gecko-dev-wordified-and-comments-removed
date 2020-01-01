@@ -40,7 +40,7 @@ SpanningCellSorter
 struct
 Item
 {
-PRInt32
+int32_t
 row
 col
 ;
@@ -53,11 +53,11 @@ next
 bool
 AddCell
 (
-PRInt32
+int32_t
 aColSpan
-PRInt32
+int32_t
 aRow
-PRInt32
+int32_t
 aCol
 )
 ;
@@ -65,7 +65,7 @@ Item
 *
 GetNext
 (
-PRInt32
+int32_t
 *
 aColSpan
 )
@@ -105,10 +105,10 @@ mArray
 ARRAY_SIZE
 ]
 ;
-PRInt32
+int32_t
 SpanToIndex
 (
-PRInt32
+int32_t
 aSpan
 )
 {
@@ -118,10 +118,10 @@ aSpan
 ARRAY_BASE
 ;
 }
-PRInt32
+int32_t
 IndexToSpan
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -134,7 +134,7 @@ ARRAY_BASE
 bool
 UseArrayForSpan
 (
-PRInt32
+int32_t
 aSpan
 )
 {
@@ -172,7 +172,7 @@ HashTableEntry
 public
 PLDHashEntryHdr
 {
-PRInt32
+int32_t
 mColSpan
 ;
 Item
@@ -225,7 +225,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -249,7 +249,7 @@ void
 closure
 )
 ;
-PRUint32
+uint32_t
 mEnumerationIndex
 ;
 HashTableEntry

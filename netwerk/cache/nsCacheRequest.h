@@ -678,7 +678,7 @@ Notify
 nsCString
 mKey
 ;
-PRUint32
+uint32_t
 mInfo
 ;
 nsICacheListener

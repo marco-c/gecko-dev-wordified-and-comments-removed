@@ -96,9 +96,9 @@ aVisitor
 void
 OnProgress
 (
-PRUint64
+uint64_t
 aProgress
-PRUint64
+uint64_t
 aProgressMax
 )
 {
@@ -134,9 +134,9 @@ FileRequest
 void
 FireProgressEvent
 (
-PRUint64
+uint64_t
 aLoaded
-PRUint64
+uint64_t
 aTotal
 )
 ;

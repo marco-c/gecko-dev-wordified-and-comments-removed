@@ -306,7 +306,7 @@ SizeRequested
 )
 )
 {
-PRInt64
+int64_t
 size
 ;
 rv
@@ -340,7 +340,7 @@ mParams
 >
 mSize
 =
-PRUint64
+uint64_t
 (
 size
 )
@@ -356,7 +356,7 @@ LastModifiedRequested
 )
 )
 {
-PRInt64
+int64_t
 lastModified
 ;
 rv

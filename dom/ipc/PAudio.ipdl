@@ -133,7 +133,7 @@ Write
 (
 nsCString
 data
-PRUint32
+uint32_t
 frames
 )
 ;
@@ -171,15 +171,15 @@ __delete__
 ;
 PositionInFramesUpdate
 (
-PRInt64
+int64_t
 position
-PRInt64
+int64_t
 time
 )
 ;
 MinWriteSizeDone
 (
-PRInt32
+int32_t
 frameCount
 )
 ;

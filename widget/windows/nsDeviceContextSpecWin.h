@@ -89,9 +89,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-PRInt32
+int32_t
 aStartPage
-PRInt32
+int32_t
 aEndPage
 )
 {

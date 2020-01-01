@@ -389,9 +389,9 @@ aContext
 nsIInputStream
 *
 iStr
-PRUint32
+uint32_t
 aSourceOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -400,7 +400,7 @@ rv
 =
 NS_ERROR_INVALID_CONTENT_ENCODING
 ;
-PRUint32
+uint32_t
 streamLen
 =
 aCount
@@ -434,7 +434,7 @@ if
 mStreamEnded
 )
 {
-PRUint32
+uint32_t
 n
 ;
 return
@@ -634,7 +634,7 @@ NULL
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRUint32
+uint32_t
 unused
 ;
 iStr
@@ -1347,13 +1347,13 @@ request
 nsISupports
 *
 context
-PRUint32
+uint32_t
 offset
 const
 char
 *
 buffer
-PRUint32
+uint32_t
 count
 )
 {
@@ -1518,7 +1518,7 @@ gz_magic
 0x8b
 }
 ;
-PRUint32
+uint32_t
 nsHTTPCompressConv
 :
 :
@@ -1527,7 +1527,7 @@ check_header
 nsIInputStream
 *
 iStr
-PRUint32
+uint32_t
 streamLen
 nsresult
 *
@@ -1576,7 +1576,7 @@ hMode
 case
 GZIP_INIT
 :
-PRUint32
+uint32_t
 unused
 ;
 iStr

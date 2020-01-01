@@ -74,7 +74,7 @@ txStripSpaceItem
 (
 )
 {
-PRInt32
+int32_t
 i
 count
 =

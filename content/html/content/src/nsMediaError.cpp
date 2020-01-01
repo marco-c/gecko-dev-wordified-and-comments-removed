@@ -47,7 +47,7 @@ nsMediaError
 :
 nsMediaError
 (
-PRUint16
+uint16_t
 aCode
 )
 :
@@ -63,7 +63,7 @@ nsMediaError
 :
 GetCode
 (
-PRUint16
+uint16_t
 *
 aCode
 )

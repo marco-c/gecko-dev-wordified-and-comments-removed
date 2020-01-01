@@ -185,7 +185,7 @@ SavedState
 {
 private
 :
-PRUint32
+uint32_t
 mFloatInfoCount
 ;
 nscoord
@@ -457,9 +457,9 @@ ClearFloats
 (
 nscoord
 aY
-PRUint8
+uint8_t
 aBreakType
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -469,7 +469,7 @@ const
 bool
 ClearContinues
 (
-PRUint8
+uint8_t
 aBreakType
 )
 const
@@ -650,7 +650,7 @@ bool
 mSplitRightFloatAcrossBreak
 ;
 static
-PRInt32
+int32_t
 sCachedFloatManagerCount
 ;
 static

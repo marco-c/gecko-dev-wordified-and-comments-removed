@@ -383,7 +383,7 @@ PROCESS_ERROR
 mProcessState
 ;
 static
-PRInt32
+int32_t
 mChildCounter
 ;
 void

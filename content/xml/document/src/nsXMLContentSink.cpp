@@ -666,7 +666,7 @@ mDocElement
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1901,12 +1901,12 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
 nsINodeInfo
 *
 aNodeInfo
-PRUint32
+uint32_t
 aLineNumber
 nsIContent
 *
@@ -2775,7 +2775,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 linkTypes
 =
 nsStyleLinkElement
@@ -3286,7 +3286,7 @@ rv
 NS_OK
 )
 ;
-PRInt16
+int16_t
 decision
 =
 nsIContentPolicy
@@ -3655,7 +3655,7 @@ GetCurrentStackNode
 (
 )
 {
-PRInt32
+int32_t
 count
 =
 mContentStack
@@ -3746,7 +3746,7 @@ PopContent
 (
 )
 {
-PRInt32
+int32_t
 count
 =
 mContentStack
@@ -3794,7 +3794,7 @@ HaveNotifiedForCurrentContent
 )
 const
 {
-PRUint32
+uint32_t
 stackLength
 =
 mContentStack
@@ -3884,7 +3884,7 @@ nsXMLContentSink
 :
 SetDocElement
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -4063,11 +4063,11 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
-PRInt32
+int32_t
 aIndex
-PRUint32
+uint32_t
 aLineNumber
 )
 {
@@ -4098,11 +4098,11 @@ PRUnichar
 *
 *
 aAtts
-PRUint32
+uint32_t
 aAttsCount
-PRInt32
+int32_t
 aIndex
-PRUint32
+uint32_t
 aLineNumber
 bool
 aInterruptable
@@ -4176,7 +4176,7 @@ mState
 =
 eXMLContentSinkState_InDocumentElement
 ;
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsCOMPtr
@@ -4675,7 +4675,7 @@ swap
 content
 )
 ;
-PRUint32
+uint32_t
 numFlushed
 =
 sn
@@ -4708,7 +4708,7 @@ nsIAtom
 debugNameSpacePrefix
 debugTagAtom
 ;
-PRInt32
+int32_t
 debugNameSpaceID
 ;
 nsContentUtils
@@ -4792,7 +4792,7 @@ false
 )
 ;
 }
-PRInt32
+int32_t
 stackLen
 =
 mContentStack
@@ -4996,7 +4996,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -5376,7 +5376,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -5399,7 +5399,7 @@ const
 PRUnichar
 *
 aData
-PRUint32
+uint32_t
 aLength
 bool
 aInterruptable
@@ -5874,7 +5874,7 @@ const
 PRUnichar
 *
 aEncoding
-PRInt32
+int32_t
 aStandalone
 )
 {
@@ -6196,7 +6196,7 @@ noAtts
 -
 1
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -6266,7 +6266,7 @@ noAtts
 -
 1
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -6370,7 +6370,7 @@ while
 aAtts
 )
 {
-PRInt32
+int32_t
 nameSpaceID
 ;
 nsContentUtils
@@ -6436,7 +6436,7 @@ const
 PRUnichar
 *
 aText
-PRInt32
+int32_t
 aLength
 )
 {
@@ -6481,7 +6481,7 @@ mTextSize
 NS_ACCUMULATION_BUFFER_SIZE
 ;
 }
-PRInt32
+int32_t
 offset
 =
 0
@@ -6494,7 +6494,7 @@ while
 aLength
 )
 {
-PRInt32
+int32_t
 amount
 =
 mTextSize
@@ -6718,7 +6718,7 @@ oldBeganUpdate
 =
 mBeganUpdate
 ;
-PRUint32
+uint32_t
 oldUpdates
 =
 mUpdatesInNotification
@@ -6749,10 +6749,10 @@ FlushText
 false
 )
 ;
-PRInt32
+int32_t
 stackPos
 ;
-PRInt32
+int32_t
 stackLen
 =
 mContentStack
@@ -6766,7 +6766,7 @@ flushed
 =
 false
 ;
-PRUint32
+uint32_t
 childCount
 ;
 nsIContent
@@ -6893,7 +6893,7 @@ UpdateChildCounts
 (
 )
 {
-PRInt32
+int32_t
 stackLen
 =
 mContentStack
@@ -6902,7 +6902,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 stackPos
 =
 stackLen

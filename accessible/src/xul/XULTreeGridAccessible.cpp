@@ -119,7 +119,7 @@ XULTreeGridAccessible
 XULTreeAccessible
 nsIAccessibleTable
 )
-PRUint32
+uint32_t
 XULTreeGridAccessible
 :
 :
@@ -137,7 +137,7 @@ mTree
 )
 ;
 }
-PRUint32
+uint32_t
 XULTreeGridAccessible
 :
 :
@@ -153,7 +153,7 @@ mTreeView
 return
 0
 ;
-PRInt32
+int32_t
 rowCount
 =
 0
@@ -178,7 +178,7 @@ rowCount
 0
 ;
 }
-PRUint32
+uint32_t
 XULTreeGridAccessible
 :
 :
@@ -196,7 +196,7 @@ ColCount
 )
 ;
 }
-PRUint32
+uint32_t
 XULTreeGridAccessible
 :
 :
@@ -204,7 +204,7 @@ SelectedColCount
 (
 )
 {
-PRInt32
+int32_t
 selectedRowCount
 =
 0
@@ -244,7 +244,7 @@ ColCount
 0
 ;
 }
-PRUint32
+uint32_t
 XULTreeGridAccessible
 :
 :
@@ -252,7 +252,7 @@ SelectedRowCount
 (
 )
 {
-PRInt32
+int32_t
 selectedRowCount
 =
 0
@@ -298,7 +298,7 @@ Accessible
 aCells
 )
 {
-PRUint32
+uint32_t
 colCount
 =
 ColCount
@@ -312,7 +312,7 @@ RowCount
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -336,7 +336,7 @@ rowIdx
 {
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -380,13 +380,13 @@ SelectedCellIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aCells
 )
 {
-PRUint32
+uint32_t
 colCount
 =
 ColCount
@@ -400,7 +400,7 @@ RowCount
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -422,7 +422,7 @@ rowIdx
 )
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -456,7 +456,7 @@ SelectedColIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aCols
@@ -475,7 +475,7 @@ SelectedRowCount
 )
 return
 ;
-PRUint32
+uint32_t
 colCount
 =
 ColCount
@@ -492,7 +492,7 @@ colCount
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -522,13 +522,13 @@ SelectedRowIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aRows
 )
 {
-PRUint32
+uint32_t
 rowCount
 =
 RowCount
@@ -537,7 +537,7 @@ RowCount
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -573,9 +573,9 @@ XULTreeGridAccessible
 :
 CellAt
 (
-PRUint32
+uint32_t
 aRowIndex
-PRUint32
+uint32_t
 aColumnIndex
 )
 {
@@ -654,7 +654,7 @@ XULTreeGridAccessible
 :
 ColDescription
 (
-PRUint32
+uint32_t
 aColIdx
 nsString
 &
@@ -727,11 +727,11 @@ XULTreeGridAccessible
 :
 IsColSelected
 (
-PRUint32
+uint32_t
 aColIdx
 )
 {
-PRInt32
+int32_t
 selectedrowCount
 =
 0
@@ -766,7 +766,7 @@ XULTreeGridAccessible
 :
 IsRowSelected
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -829,9 +829,9 @@ XULTreeGridAccessible
 :
 IsCellSelected
 (
-PRUint32
+uint32_t
 aRowIdx
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -848,7 +848,7 @@ XULTreeGridAccessible
 :
 SelectRow
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -906,7 +906,7 @@ XULTreeGridAccessible
 :
 UnselectRow
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -1058,7 +1058,7 @@ XULTreeGridAccessible
 :
 CreateTreeItemAccessible
 (
-PRInt32
+int32_t
 aRow
 )
 {
@@ -1107,7 +1107,7 @@ aTree
 nsITreeView
 *
 aTreeView
-PRInt32
+int32_t
 aRow
 )
 :
@@ -1312,9 +1312,9 @@ XULTreeGridRowAccessible
 :
 ChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 EWhichChildAtPoint
 aWhichChild
@@ -1385,7 +1385,7 @@ GetScreenRect
 (
 )
 ;
-PRInt32
+int32_t
 clientX
 =
 presContext
@@ -1400,7 +1400,7 @@ rootRect
 .
 x
 ;
-PRInt32
+int32_t
 clientY
 =
 presContext
@@ -1415,7 +1415,7 @@ rootRect
 .
 y
 ;
-PRInt32
+int32_t
 row
 =
 -
@@ -1474,7 +1474,7 @@ XULTreeGridRowAccessible
 :
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -1517,7 +1517,7 @@ column
 )
 ;
 }
-PRUint32
+uint32_t
 XULTreeGridRowAccessible
 :
 :
@@ -1655,9 +1655,9 @@ XULTreeGridRowAccessible
 :
 RowInvalidated
 (
-PRInt32
+int32_t
 aStartColIdx
-PRInt32
+int32_t
 aEndColIdx
 )
 {
@@ -1687,7 +1687,7 @@ return
 ;
 for
 (
-PRInt32
+int32_t
 colIdx
 =
 aStartColIdx
@@ -1800,7 +1800,7 @@ aTree
 nsITreeView
 *
 aTreeView
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -1990,16 +1990,16 @@ XULTreeGridCellAccessible
 :
 GetBounds
 (
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
-PRInt32
+int32_t
 *
 aWidth
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -2072,7 +2072,7 @@ NS_ENSURE_STATE
 boxObj
 )
 ;
-PRInt32
+int32_t
 x
 =
 0
@@ -2118,7 +2118,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 tcX
 =
 0
@@ -2213,7 +2213,7 @@ return
 NS_OK
 ;
 }
-PRUint8
+uint8_t
 XULTreeGridCellAccessible
 :
 :
@@ -2242,7 +2242,7 @@ isCycler
 return
 1
 ;
-PRInt16
+int16_t
 type
 ;
 mColumn
@@ -2282,7 +2282,7 @@ XULTreeGridCellAccessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -2350,7 +2350,7 @@ return
 NS_OK
 ;
 }
-PRInt16
+int16_t
 type
 ;
 mColumn
@@ -2435,7 +2435,7 @@ XULTreeGridCellAccessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -2485,7 +2485,7 @@ return
 NS_OK
 ;
 }
-PRInt16
+int16_t
 type
 ;
 mColumn
@@ -2587,7 +2587,7 @@ XULTreeGridCellAccessible
 :
 GetColumnIndex
 (
-PRInt32
+int32_t
 *
 aColumnIndex
 )
@@ -2629,7 +2629,7 @@ XULTreeGridCellAccessible
 :
 GetRowIndex
 (
-PRInt32
+int32_t
 *
 aRowIndex
 )
@@ -2669,7 +2669,7 @@ XULTreeGridCellAccessible
 :
 GetColumnExtent
 (
-PRInt32
+int32_t
 *
 aExtentCount
 )
@@ -2694,7 +2694,7 @@ XULTreeGridCellAccessible
 :
 GetRowExtent
 (
-PRInt32
+int32_t
 *
 aExtentCount
 )
@@ -3008,7 +3008,7 @@ null
 "
 )
 ;
-PRInt16
+int16_t
 type
 ;
 mColumn
@@ -3128,14 +3128,14 @@ tableAccessible
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 colIdx
 =
 GetColumnIndex
 (
 )
 ;
-PRInt32
+int32_t
 cellIdx
 =
 -
@@ -3239,7 +3239,7 @@ roles
 GRID_CELL
 ;
 }
-PRUint64
+uint64_t
 XULTreeGridCellAccessible
 :
 :
@@ -3258,7 +3258,7 @@ states
 :
 DEFUNCT
 ;
-PRUint64
+uint64_t
 states
 =
 states
@@ -3316,7 +3316,7 @@ states
 SELECTED
 ;
 }
-PRInt16
+int16_t
 type
 ;
 mColumn
@@ -3384,7 +3384,7 @@ return
 states
 ;
 }
-PRUint64
+uint64_t
 XULTreeGridCellAccessible
 :
 :
@@ -3400,7 +3400,7 @@ states
 SELECTABLE
 ;
 }
-PRInt32
+int32_t
 XULTreeGridCellAccessible
 :
 :
@@ -3421,7 +3421,7 @@ XULTreeGridCellAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -3431,7 +3431,7 @@ Relation
 )
 ;
 }
-PRInt32
+int32_t
 XULTreeGridCellAccessible
 :
 :
@@ -3440,7 +3440,7 @@ GetColumnIndex
 )
 const
 {
-PRInt32
+int32_t
 index
 =
 0
@@ -3502,7 +3502,7 @@ return
 nsAutoString
 textEquiv
 ;
-PRInt16
+int16_t
 type
 ;
 mColumn
@@ -3631,7 +3631,7 @@ XULTreeGridCellAccessible
 :
 GetSiblingAtOffset
 (
-PRInt32
+int32_t
 aOffset
 nsresult
 *
@@ -3667,7 +3667,7 @@ aOffset
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 aOffset
@@ -3707,7 +3707,7 @@ else
 {
 for
 (
-PRInt32
+int32_t
 index
 =
 aOffset
@@ -3783,7 +3783,7 @@ DispatchClickEvent
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aActionIndex
 )
 {

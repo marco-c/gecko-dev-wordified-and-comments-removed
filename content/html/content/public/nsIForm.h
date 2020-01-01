@@ -86,7 +86,7 @@ nsIFormControl
 )
 GetElementAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -95,7 +95,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetElementCount
 (
@@ -123,7 +123,7 @@ aName
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 IndexOfControl
 (

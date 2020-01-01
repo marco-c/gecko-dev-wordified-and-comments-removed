@@ -158,7 +158,7 @@ SOCKET_LIMIT_TARGET
 define
 SOCKET_LIMIT_MIN
 50U
-PRUint32
+uint32_t
 nsSocketTransportService
 :
 :
@@ -435,7 +435,7 @@ Dispatch
 nsIRunnable
 *
 event
-PRUint32
+uint32_t
 flags
 )
 {
@@ -866,7 +866,7 @@ NS_ABORT_IF_FALSE
 (
 (
 (
-PRUint32
+uint32_t
 )
 (
 sock
@@ -1065,7 +1065,7 @@ mHandler
 )
 )
 ;
-PRUint32
+uint32_t
 index
 =
 sock
@@ -1180,7 +1180,7 @@ NS_ABORT_IF_FALSE
 (
 (
 (
-PRUint32
+uint32_t
 )
 (
 sock
@@ -1343,7 +1343,7 @@ mHandler
 )
 )
 ;
-PRUint32
+uint32_t
 index
 =
 sock
@@ -1496,7 +1496,7 @@ GrowActiveList
 (
 )
 {
-PRInt32
+int32_t
 toAdd
 =
 gMaxCount
@@ -1577,7 +1577,7 @@ GrowIdleList
 (
 )
 {
-PRInt32
+int32_t
 toAdd
 =
 gMaxCount
@@ -1647,14 +1647,14 @@ mActiveCount
 return
 NS_SOCKET_POLL_TIMEOUT
 ;
-PRUint32
+uint32_t
 minR
 =
 PR_UINT16_MAX
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1678,7 +1678,7 @@ mActiveList
 i
 ]
 ;
-PRUint32
+uint32_t
 r
 =
 (
@@ -1741,7 +1741,7 @@ minR
 )
 ;
 }
-PRInt32
+int32_t
 nsSocketTransportService
 :
 :
@@ -1749,7 +1749,7 @@ Poll
 (
 bool
 wait
-PRUint32
+uint32_t
 *
 interval
 )
@@ -1758,7 +1758,7 @@ PRPollDesc
 *
 pollList
 ;
-PRUint32
+uint32_t
 pollCount
 ;
 PRIntervalTime
@@ -1866,7 +1866,7 @@ pollTimeout
 )
 )
 ;
-PRInt32
+int32_t
 rv
 =
 PR_Poll
@@ -2270,13 +2270,13 @@ char
 *
 *
 types
-PRUint32
+uint32_t
 typeCount
 const
 nsACString
 &
 host
-PRInt32
+int32_t
 port
 nsIProxyInfo
 *
@@ -2450,7 +2450,7 @@ nsIThreadInternal
 thread
 bool
 mayWait
-PRUint32
+uint32_t
 depth
 )
 {
@@ -2467,7 +2467,7 @@ AfterProcessNextEvent
 nsIThreadInternal
 *
 thread
-PRUint32
+uint32_t
 depth
 )
 {
@@ -2679,7 +2679,7 @@ n
 )
 )
 ;
-PRInt32
+int32_t
 i
 ;
 for
@@ -2797,7 +2797,7 @@ wait
 )
 )
 ;
-PRInt32
+int32_t
 i
 count
 ;
@@ -2904,7 +2904,7 @@ i
 ;
 else
 {
-PRUint16
+uint16_t
 in_flags
 =
 mActiveList
@@ -3131,10 +3131,10 @@ ProbeMaxCount
 ;
 #
 endif
-PRUint32
+uint32_t
 pollInterval
 ;
-PRInt32
+int32_t
 n
 =
 Poll
@@ -3181,7 +3181,7 @@ i
 ;
 i
 <
-PRInt32
+int32_t
 (
 mActiveCount
 )
@@ -3289,7 +3289,7 @@ s
 mElapsedTime
 +
 =
-PRUint16
+uint16_t
 (
 pollInterval
 )
@@ -3519,7 +3519,7 @@ if
 tmpPrefService
 )
 {
-PRInt32
+int32_t
 bufferSize
 ;
 nsresult
@@ -3600,7 +3600,7 @@ nsSocketTransportService
 :
 GetSendBufferSize
 (
-PRInt32
+int32_t
 *
 value
 )
@@ -3703,7 +3703,7 @@ mProbedMaxCount
 =
 true
 ;
-PRInt32
+int32_t
 startedMaxCount
 =
 gMaxCount
@@ -3715,14 +3715,14 @@ pfd
 SOCKET_LIMIT_TARGET
 ]
 ;
-PRUint32
+uint32_t
 numAllocated
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3838,7 +3838,7 @@ gMaxCount
 numAllocated
 )
 {
-PRInt32
+int32_t
 rv
 =
 PR_Poll
@@ -3940,7 +3940,7 @@ break
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4074,7 +4074,7 @@ return
 PR_SUCCESS
 ;
 }
-PRInt32
+int32_t
 maxallowed
 =
 rlimitData
@@ -4101,7 +4101,7 @@ else
 if
 (
 (
-PRUint32
+uint32_t
 )
 maxallowed
 <
@@ -4118,7 +4118,7 @@ else
 if
 (
 (
-PRUint32
+uint32_t
 )
 maxallowed
 >

@@ -255,7 +255,7 @@ mRefPoint
 bool
 mChanged
 ;
-PRUint32
+uint32_t
 mMessage
 ;
 %

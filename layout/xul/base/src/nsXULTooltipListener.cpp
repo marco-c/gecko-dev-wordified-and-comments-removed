@@ -522,7 +522,7 @@ mouseEvent
 )
 return
 ;
-PRInt32
+int32_t
 newMouseX
 newMouseY
 ;
@@ -1167,7 +1167,7 @@ sShowTooltips
 =
 false
 ;
-PRUint32
+uint32_t
 nsXULTooltipListener
 :
 :
@@ -1425,7 +1425,7 @@ bx
 obx
 )
 {
-PRInt32
+int32_t
 x
 y
 ;
@@ -1447,7 +1447,7 @@ GetScreenY
 y
 )
 ;
-PRInt32
+int32_t
 row
 ;
 nsCOMPtr
@@ -1459,7 +1459,7 @@ col
 nsCAutoString
 obj
 ;
-PRInt32
+int32_t
 boxX
 boxY
 ;
@@ -1842,20 +1842,20 @@ aTreeBox
 nsIContent
 *
 aSourceNode
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
 aCol
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
 )
 {
-PRInt32
+int32_t
 junk
 ;
 aTreeBox
@@ -1905,7 +1905,7 @@ bx
 )
 )
 ;
-PRInt32
+int32_t
 myX
 myY
 ;
@@ -1952,7 +1952,7 @@ aTreeBox
 nsIContent
 *
 aTooltip
-PRInt32
+int32_t
 aRow
 nsITreeColumn
 *
@@ -2307,7 +2307,7 @@ aResult
 =
 nullptr
 ;
-PRUint32
+uint32_t
 childCount
 =
 aContent
@@ -2319,7 +2319,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

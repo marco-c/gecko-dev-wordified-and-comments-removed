@@ -40,10 +40,10 @@ nsHTMLEditorLog
 *
 mEditorLog
 ;
-PRInt32
+int32_t
 mIndentLevel
 ;
-PRInt32
+int32_t
 mBatchCount
 ;
 public
@@ -70,7 +70,7 @@ private
 nsresult
 PrintIndent
 (
-PRInt32
+int32_t
 aIndentLevel
 )
 ;
@@ -86,7 +86,7 @@ aBuffer
 nsresult
 WriteInt
 (
-PRInt32
+int32_t
 aInt
 )
 ;

@@ -59,7 +59,7 @@ SharedDIB
 nsresult
 Create
 (
-PRUint32
+uint32_t
 aSize
 )
 ;
@@ -78,7 +78,7 @@ Attach
 (
 Handle
 aHandle
-PRUint32
+uint32_t
 aSize
 )
 ;

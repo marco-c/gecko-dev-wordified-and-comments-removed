@@ -322,7 +322,7 @@ in
 nsIURI
 aUrl
 in
-PRUint32
+uint32_t
 aChromeMask
 in
 long

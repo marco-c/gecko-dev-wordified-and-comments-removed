@@ -91,7 +91,7 @@ roles
 WHITESPACE
 ;
 }
-PRUint64
+uint64_t
 HTMLBRAccessible
 :
 :
@@ -187,7 +187,7 @@ HTMLOutputAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {

@@ -336,7 +336,7 @@ nsIStreamLoader
 aStreamLoader
 )
 {
-PRInt32
+int32_t
 loadTimeout
 =
 Preferences
@@ -481,10 +481,10 @@ gfxProxyFontEntry
 LOADING_STARTED
 )
 {
-PRInt32
+int32_t
 contentLength
 ;
-PRUint32
+uint32_t
 numBytesRead
 ;
 if
@@ -531,7 +531,7 @@ numBytesRead
 3
 *
 (
-PRUint32
+uint32_t
 (
 contentLength
 )
@@ -551,7 +551,7 @@ gfxProxyFontEntry
 :
 LOADING_ALMOST_DONE
 ;
-PRUint32
+uint32_t
 delay
 ;
 loader
@@ -743,10 +743,10 @@ nsISupports
 aContext
 nsresult
 aStatus
-PRUint32
+uint32_t
 aStringLen
 const
-PRUint8
+uint8_t
 *
 aString
 )
@@ -1179,7 +1179,7 @@ return
 rv
 ;
 }
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -1968,7 +1968,7 @@ Clear
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2139,7 +2139,7 @@ InsertRule
 nsCSSFontFaceRule
 *
 aRule
-PRUint8
+uint8_t
 aSheetType
 nsTArray
 <
@@ -2190,7 +2190,7 @@ fontfamily
 nsCSSValue
 val
 ;
-PRUint32
+uint32_t
 unit
 ;
 aRule
@@ -2261,7 +2261,7 @@ return
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2349,17 +2349,17 @@ return
 ;
 }
 }
-PRUint32
+uint32_t
 weight
 =
 NS_STYLE_FONT_WEIGHT_NORMAL
 ;
-PRUint32
+uint32_t
 stretch
 =
 NS_STYLE_FONT_STRETCH_NORMAL
 ;
-PRUint32
+uint32_t
 italicStyle
 =
 NS_STYLE_FONT_STYLE_NORMAL
@@ -3329,7 +3329,7 @@ aFontEntry
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3421,7 +3421,7 @@ aFontEntry
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3481,7 +3481,7 @@ const
 char
 *
 aMessage
-PRUint32
+uint32_t
 aFlags
 nsresult
 aStatus
@@ -3850,7 +3850,7 @@ AppendInt
 (
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aStatus
@@ -4017,7 +4017,7 @@ rv
 rv
 )
 ;
-PRUint64
+uint64_t
 innerWindowID
 =
 GetPresContext
@@ -4299,11 +4299,11 @@ const
 gfxFontFaceSrc
 *
 aFontFaceSrc
-PRUint8
+uint8_t
 *
 &
 aBuffer
-PRUint32
+uint32_t
 &
 aBufferLength
 )
@@ -4463,7 +4463,7 @@ rv
 rv
 )
 ;
-PRUint64
+uint64_t
 bufferLength64
 ;
 rv
@@ -4510,7 +4510,7 @@ aBufferLength
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 bufferLength64
@@ -4520,7 +4520,7 @@ aBuffer
 =
 static_cast
 <
-PRUint8
+uint8_t
 *
 >
 (
@@ -4528,7 +4528,7 @@ NS_Alloc
 (
 sizeof
 (
-PRUint8
+uint8_t
 )
 *
 aBufferLength
@@ -4549,7 +4549,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 numRead
 totalRead
 =

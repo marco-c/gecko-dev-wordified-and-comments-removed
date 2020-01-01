@@ -1580,13 +1580,13 @@ aCursorImage
 hotSpotX
 :
 (
-PRUint32
+uint32_t
 )
 aHotspotX
 hotSpotY
 :
 (
-PRUint32
+uint32_t
 )
 aHotspotY
 {
@@ -1638,7 +1638,7 @@ currentCursor
 set
 ]
 ;
-PRInt32
+int32_t
 width
 =
 0
@@ -1739,7 +1739,7 @@ aHotspotX
 aHotspotX
 >
 (
-PRUint32
+uint32_t
 )
 width
 -
@@ -1756,7 +1756,7 @@ aHotspotY
 aHotspotY
 >
 (
-PRUint32
+uint32_t
 )
 height
 -

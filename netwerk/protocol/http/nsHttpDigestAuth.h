@@ -122,7 +122,7 @@ const
 nsAFlatCString
 &
 nonce
-PRUint16
+uint16_t
 qop
 const
 char
@@ -152,7 +152,7 @@ const
 nsAFlatCString
 &
 realm
-PRUint16
+uint16_t
 algorithm
 const
 nsAFlatCString
@@ -178,7 +178,7 @@ const
 nsAFlatCString
 &
 http_uri_path
-PRUint16
+uint16_t
 qop
 const
 char
@@ -211,10 +211,10 @@ opaque
 bool
 *
 stale
-PRUint16
+uint16_t
 *
 algorithm
-PRUint16
+uint16_t
 *
 qop
 )
@@ -226,7 +226,7 @@ const
 char
 *
 buf
-PRUint32
+uint32_t
 len
 )
 ;

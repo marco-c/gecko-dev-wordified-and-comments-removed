@@ -143,7 +143,7 @@ test_basic_array
 ElementType
 *
 data
-PRUint32
+uint32_t
 dataLen
 const
 ElementType
@@ -196,7 +196,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -318,7 +318,7 @@ Sort
 (
 )
 ;
-PRUint32
+uint32_t
 j
 =
 0
@@ -513,7 +513,7 @@ NoIndex
 return
 false
 ;
-PRUint32
+uint32_t
 oldLen
 =
 ary
@@ -565,7 +565,7 @@ ary
 return
 false
 ;
-PRUint32
+uint32_t
 index
 =
 ary
@@ -758,7 +758,7 @@ copy
 return
 false
 ;
-PRUint32
+uint32_t
 cap
 =
 ary
@@ -1102,7 +1102,7 @@ test_int64_array
 (
 )
 {
-PRInt64
+int64_t
 data
 [
 ]
@@ -1127,7 +1127,7 @@ ArrayLength
 (
 data
 )
-PRInt64
+int64_t
 (
 14
 )
@@ -1178,7 +1178,7 @@ test_uint32_array
 (
 )
 {
-PRUint32
+uint32_t
 data
 [
 ]
@@ -1203,7 +1203,7 @@ ArrayLength
 (
 data
 )
-PRUint32
+uint32_t
 (
 14
 )
@@ -1231,7 +1231,7 @@ const
 char
 *
 str
-PRUint32
+uint32_t
 num
 )
 :
@@ -1370,7 +1370,7 @@ get
 )
 ;
 }
-PRUint32
+uint32_t
 Num
 (
 )
@@ -1385,7 +1385,7 @@ private
 nsCString
 mStr
 ;
-PRUint32
+uint32_t
 mNum
 ;
 }
@@ -1413,7 +1413,7 @@ hello
 world
 "
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1624,7 +1624,7 @@ world
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1707,7 +1707,7 @@ forget
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1796,7 +1796,7 @@ hello
 world
 "
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1895,7 +1895,7 @@ foo
 bar
 "
 ;
-PRUint32
+uint32_t
 oldLen
 =
 strArray
@@ -2256,7 +2256,7 @@ FilePointer
 >
 fileArray
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -2419,7 +2419,7 @@ RefcountedObject
 }
 private
 :
-PRInt32
+int32_t
 rc
 ;
 }
@@ -2562,7 +2562,7 @@ test_ptrarray
 {
 nsTArray
 <
-PRUint32
+uint32_t
 *
 >
 ary
@@ -2597,7 +2597,7 @@ nullptr
 return
 false
 ;
-PRUint32
+uint32_t
 a
 =
 10
@@ -2643,7 +2643,7 @@ false
 nsTArray
 <
 const
-PRUint32
+uint32_t
 *
 >
 cary
@@ -2679,7 +2679,7 @@ return
 false
 ;
 const
-PRUint32
+uint32_t
 b
 =
 14
@@ -2765,7 +2765,7 @@ test_autoarray
 (
 )
 {
-PRUint32
+uint32_t
 data
 [
 ]
@@ -2784,7 +2784,7 @@ data
 ;
 nsAutoTArray
 <
-PRUint32
+uint32_t
 NS_ARRAY_LENGTH
 (
 data
@@ -2809,7 +2809,7 @@ hdr
 =
 nsTArray
 <
-PRUint32
+uint32_t
 >
 (
 )
@@ -2828,7 +2828,7 @@ hdr
 =
 nsAutoTArray
 <
-PRUint32
+uint32_t
 NS_ARRAY_LENGTH
 (
 data
@@ -2971,7 +2971,7 @@ false
 ;
 nsTArray
 <
-PRUint32
+uint32_t
 >
 array2
 ;
@@ -3020,7 +3020,7 @@ DebugGetHeader
 return
 false
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -3087,7 +3087,7 @@ data
 )
 )
 ;
-PRUint32
+uint32_t
 data3
 [
 ]
@@ -3100,7 +3100,7 @@ data3
 ;
 nsAutoTArray
 <
-PRUint32
+uint32_t
 NS_ARRAY_LENGTH
 (
 data3
@@ -3263,11 +3263,11 @@ const
 Array
 &
 ary
-PRUint32
+uint32_t
 len
 )
 {
-PRUint32
+uint32_t
 index
 =
 1
@@ -3443,7 +3443,7 @@ expected_data
 3
 }
 ;
-PRUint32
+uint32_t
 index
 ;
 for
@@ -3814,7 +3814,7 @@ Length
 (
 )
 (
-PRUint32
+uint32_t
 )
 ArrayLength
 (
@@ -3825,7 +3825,7 @@ data
 \
 for
 (
-PRUint32
+uint32_t
 _i
 =
 0
@@ -4459,7 +4459,7 @@ Capacity
 0
 )
 ;
-PRUint32
+uint32_t
 bCapacity
 =
 b
@@ -4797,7 +4797,7 @@ numArrays
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

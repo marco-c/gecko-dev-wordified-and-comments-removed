@@ -36,7 +36,7 @@ u2BytesCharset
 ;
 static
 const
-PRUint16
+uint16_t
 g_utCP949NoKSCHangulMapping
 [
 ]
@@ -83,7 +83,7 @@ g_CP949Ranges
 ;
 static
 const
-PRUint16
+uint16_t
 *
 g_CP949MappingTableSet
 [

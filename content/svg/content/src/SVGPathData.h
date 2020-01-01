@@ -144,7 +144,7 @@ IsEmpty
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 CountItems
 (
 )
@@ -152,7 +152,7 @@ const
 ;
 #
 endif
-PRUint32
+uint32_t
 Length
 (
 )
@@ -173,7 +173,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 const
@@ -247,7 +247,7 @@ float
 bool
 SetCapacity
 (
-PRUint32
+uint32_t
 aSize
 )
 {
@@ -278,7 +278,7 @@ GetPathLength
 )
 const
 ;
-PRUint32
+uint32_t
 GetPathSegAtLength
 (
 float
@@ -400,7 +400,7 @@ operator
 [
 ]
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -414,7 +414,7 @@ aIndex
 bool
 SetLength
 (
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -451,7 +451,7 @@ Clear
 nsresult
 AppendSeg
 (
-PRUint32
+uint32_t
 aType
 .
 .

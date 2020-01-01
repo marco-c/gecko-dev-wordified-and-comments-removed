@@ -33,7 +33,7 @@ public
 :
 nsFallbackCameraControl
 (
-PRUint32
+uint32_t
 aCameraId
 nsIThread
 *
@@ -56,21 +56,21 @@ char
 *
 GetParameterConstChar
 (
-PRUint32
+uint32_t
 aKey
 )
 ;
 double
 GetParameterDouble
 (
-PRUint32
+uint32_t
 aKey
 )
 ;
 void
 GetParameter
 (
-PRUint32
+uint32_t
 aKey
 nsTArray
 <
@@ -99,7 +99,7 @@ aValue
 void
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 const
 char
@@ -110,7 +110,7 @@ aValue
 void
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 double
 aValue
@@ -119,7 +119,7 @@ aValue
 void
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 const
 nsTArray
@@ -229,7 +229,7 @@ nsFallbackCameraControl
 :
 nsFallbackCameraControl
 (
-PRUint32
+uint32_t
 aCameraId
 nsIThread
 *
@@ -278,7 +278,7 @@ nsFallbackCameraControl
 :
 GetParameterConstChar
 (
-PRUint32
+uint32_t
 aKey
 )
 {
@@ -292,7 +292,7 @@ nsFallbackCameraControl
 :
 GetParameterDouble
 (
-PRUint32
+uint32_t
 aKey
 )
 {
@@ -306,7 +306,7 @@ nsFallbackCameraControl
 :
 GetParameter
 (
-PRUint32
+uint32_t
 aKey
 nsTArray
 <
@@ -343,7 +343,7 @@ nsFallbackCameraControl
 :
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 const
 char
@@ -358,7 +358,7 @@ nsFallbackCameraControl
 :
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 double
 aValue
@@ -371,7 +371,7 @@ nsFallbackCameraControl
 :
 SetParameter
 (
-PRUint32
+uint32_t
 aKey
 const
 nsTArray

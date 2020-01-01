@@ -285,7 +285,7 @@ GetMaxFocusAreas
 JSContext
 *
 cx
-PRInt32
+int32_t
 *
 aMaxFocusAreas
 )
@@ -357,7 +357,7 @@ GetMaxMeteringAreas
 JSContext
 *
 cx
-PRInt32
+int32_t
 *
 aMaxMeteringAreas
 )

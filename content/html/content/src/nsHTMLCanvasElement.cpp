@@ -439,7 +439,7 @@ nsHTMLCanvasElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -679,7 +679,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -752,7 +752,7 @@ nsHTMLCanvasElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -829,7 +829,7 @@ aType
 nsIVariant
 *
 aParams
-PRUint8
+uint8_t
 optional_argc
 nsAString
 &
@@ -1400,7 +1400,7 @@ jpeg
 )
 )
 {
-PRUint16
+uint16_t
 vartype
 ;
 if
@@ -1679,7 +1679,7 @@ base64
 "
 )
 ;
-PRUint64
+uint64_t
 count
 ;
 rv
@@ -1714,7 +1714,7 @@ Base64EncodeInputStream
 stream
 aDataURL
 (
-PRUint32
+uint32_t
 )
 count
 aDataURL
@@ -1739,7 +1739,7 @@ const
 nsAString
 &
 aType
-PRUint8
+uint8_t
 optional_argc
 nsIDOMFile
 *
@@ -1852,7 +1852,7 @@ png
 )
 ;
 }
-PRUint64
+uint64_t
 imgSize
 ;
 rv
@@ -1895,7 +1895,7 @@ stream
 &
 imgData
 (
-PRUint32
+uint32_t
 )
 imgSize
 )
@@ -1917,7 +1917,7 @@ nsDOMMemoryFile
 (
 imgData
 (
-PRUint32
+uint32_t
 )
 imgSize
 aName
@@ -1966,7 +1966,7 @@ aContextId
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3331,7 +3331,7 @@ GetPosition
 )
 ;
 }
-PRInt32
+int32_t
 nsHTMLCanvasElement
 :
 :
@@ -3357,7 +3357,7 @@ nsHTMLCanvasElement
 :
 GetContextAtIndex
 (
-PRInt32
+int32_t
 index
 )
 {
@@ -3516,7 +3516,7 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
-PRUint32
+uint32_t
 aFlags
 )
 {

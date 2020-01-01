@@ -70,7 +70,7 @@ SmsCursor
 ;
 SmsCursor
 (
-PRInt32
+int32_t
 aListId
 nsIDOMMozSmsRequest
 *
@@ -97,7 +97,7 @@ Disconnect
 ;
 private
 :
-PRInt32
+int32_t
 mListId
 ;
 nsCOMPtr

@@ -156,7 +156,7 @@ PRUnichar
 *
 aCData
 const
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -193,7 +193,7 @@ const
 PRUnichar
 *
 aEncoding
-PRInt32
+int32_t
 aStandalone
 )
 ;
@@ -205,7 +205,7 @@ PRUnichar
 *
 aData
 const
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -352,11 +352,11 @@ const
 PRUnichar
 *
 aBuffer
-PRUint32
+uint32_t
 aLength
 bool
 aIsFinal
-PRUint32
+uint32_t
 *
 aConsumed
 )
@@ -430,7 +430,7 @@ mIsFinalChunk
 nsresult
 mInternalState
 ;
-PRUint32
+uint32_t
 mExpatBuffered
 ;
 nsCOMPtr
@@ -459,7 +459,7 @@ mCatalogData
 nsString
 mURISpec
 ;
-PRUint64
+uint64_t
 mInnerWindowID
 ;
 }

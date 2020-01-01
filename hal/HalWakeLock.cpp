@@ -113,10 +113,10 @@ namespace
 struct
 LockCount
 {
-PRUint32
+uint32_t
 numLocks
 ;
-PRUint32
+uint32_t
 numHidden
 ;
 }

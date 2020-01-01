@@ -277,9 +277,9 @@ nsXMLContentSerializer
 :
 Init
 (
-PRUint32
+uint32_t
 aFlags
-PRUint32
+uint32_t
 aWrapColumn
 const
 char
@@ -510,9 +510,9 @@ AppendTextData
 nsIContent
 *
 aNode
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -555,7 +555,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRInt32
+int32_t
 endoffset
 =
 (
@@ -575,7 +575,7 @@ GetLength
 :
 aEndOffset
 ;
-PRInt32
+int32_t
 length
 =
 endoffset
@@ -752,9 +752,9 @@ AppendText
 nsIContent
 *
 aText
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -858,9 +858,9 @@ AppendCDATASection
 nsIContent
 *
 aCDATASection
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -995,9 +995,9 @@ AppendProcessingInstruction
 nsIContent
 *
 aPI
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -1210,9 +1210,9 @@ AppendComment
 nsIContent
 *
 aComment
-PRInt32
+int32_t
 aStartOffset
-PRInt32
+int32_t
 aEndOffset
 nsAString
 &
@@ -1275,7 +1275,7 @@ aEndOffset
 )
 )
 {
-PRInt32
+int32_t
 length
 =
 (
@@ -1951,7 +1951,7 @@ nsIContent
 aOwner
 )
 {
-PRInt32
+int32_t
 index
 count
 ;
@@ -2131,7 +2131,7 @@ haveSeenOurPrefix
 =
 false
 ;
-PRInt32
+int32_t
 count
 =
 mNameSpaceStack
@@ -2140,7 +2140,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 index
 =
 count
@@ -2302,7 +2302,7 @@ prefixOK
 =
 true
 ;
-PRInt32
+int32_t
 index2
 ;
 for
@@ -2663,7 +2663,7 @@ const_iterator
 iCurr
 iEnd
 ;
-PRUint32
+uint32_t
 uiSize
 i
 ;
@@ -2966,7 +2966,7 @@ aStr
 ;
 }
 }
-PRUint32
+uint32_t
 nsXMLContentSerializer
 :
 :
@@ -2984,7 +2984,7 @@ nsAString
 aTagNamespaceURI
 )
 {
-PRUint32
+uint32_t
 index
 count
 ;
@@ -3001,7 +3001,7 @@ GetAttrCount
 (
 )
 ;
-PRUint32
+uint32_t
 skipAttr
 =
 count
@@ -3034,7 +3034,7 @@ GetAttrNameAt
 index
 )
 ;
-PRInt32
+int32_t
 namespaceID
 =
 name
@@ -3167,7 +3167,7 @@ aContent
 nsIAtom
 *
 aAttrNameAtom
-PRInt32
+int32_t
 aAttrNamespaceID
 const
 nsAString
@@ -3255,7 +3255,7 @@ kJavaScript
 javascript
 "
 ;
-PRInt32
+int32_t
 pos
 =
 aValueString
@@ -3272,7 +3272,7 @@ if
 pos
 <
 (
-PRInt32
+int32_t
 )
 (
 sizeof
@@ -3416,7 +3416,7 @@ aTagName
 nsAString
 &
 aStr
-PRUint32
+uint32_t
 aSkipAttr
 bool
 aAddNSAttr
@@ -3437,7 +3437,7 @@ AssignLiteral
 kXMLNS
 )
 ;
-PRUint32
+uint32_t
 index
 count
 ;
@@ -3535,7 +3535,7 @@ GetAttrNameAt
 index
 )
 ;
-PRInt32
+int32_t
 namespaceID
 =
 name
@@ -3835,7 +3835,7 @@ GetNamespaceURI
 tagNamespaceURI
 )
 ;
-PRUint32
+uint32_t
 skipAttr
 =
 ScanNamespaceDeclarations
@@ -4143,7 +4143,7 @@ aOriginalElement
 nsIAtom
 *
 aName
-PRInt32
+int32_t
 aNamespaceID
 nsAString
 &
@@ -4880,7 +4880,7 @@ aStr
 }
 static
 const
-PRUint16
+uint16_t
 kGTVal
 =
 62
@@ -5208,7 +5208,7 @@ EndReading
 done_reading
 )
 ;
-PRUint32
+uint32_t
 advanceLength
 =
 0
@@ -5249,14 +5249,14 @@ iter
 .
 advance
 (
-PRInt32
+int32_t
 (
 advanceLength
 )
 )
 )
 {
-PRUint32
+uint32_t
 fragmentLength
 =
 iter
@@ -5655,7 +5655,7 @@ Length
 )
 >
 =
-PRUint32
+uint32_t
 (
 mMaxColumn
 )
@@ -5714,7 +5714,7 @@ nsXMLContentSerializer
 :
 LineBreakBeforeOpen
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -5731,7 +5731,7 @@ nsXMLContentSerializer
 :
 LineBreakAfterOpen
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -5748,7 +5748,7 @@ nsXMLContentSerializer
 :
 LineBreakBeforeClose
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -5765,7 +5765,7 @@ nsXMLContentSerializer
 :
 LineBreakAfterClose
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -5817,12 +5817,12 @@ aOutputStr
 }
 else
 {
-PRUint32
+uint32_t
 start
 =
 0
 ;
-PRUint32
+uint32_t
 theLen
 =
 aStr
@@ -5838,7 +5838,7 @@ start
 theLen
 )
 {
-PRInt32
+int32_t
 eol
 =
 aStr
@@ -6166,7 +6166,7 @@ false
 bool
 foundWhitespaceInLoop
 ;
-PRUint32
+uint32_t
 length
 colPos
 ;
@@ -6442,7 +6442,7 @@ foundWrapPosition
 =
 false
 ;
-PRInt32
+int32_t
 wrapPosition
 ;
 nsILineBreaker
@@ -6825,7 +6825,7 @@ mIsIndentationAddedOnCurrentLine
 sequenceStartAfterAWhitespace
 &
 &
-PRUint32
+uint32_t
 (
 mColPos
 )

@@ -1529,7 +1529,7 @@ PLDHashOperator
 GetWindows
 (
 const
-PRUint64
+uint64_t
 &
 aId
 nsGlobalWindow
@@ -1683,7 +1683,7 @@ NULL
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2572,7 +2572,7 @@ nsWindowMemoryReporter
 :
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 aAmount
 )
@@ -2590,7 +2590,7 @@ aAmount
 )
 ;
 }
-PRUint32
+uint32_t
 nsWindowMemoryReporter
 :
 :
@@ -2901,7 +2901,7 @@ nsIEffectiveTLDService
 *
 tldService
 ;
-PRUint32
+uint32_t
 ghostTimeout
 ;
 TimeStamp
@@ -3167,7 +3167,7 @@ PLDHashOperator
 GetNonDetachedWindowDomainsEnumerator
 (
 const
-PRUint64
+uint64_t
 &
 aId
 nsGlobalWindow
@@ -3466,7 +3466,7 @@ GhostURLsReporter
 :
 GetExplicitNonHeap
 (
-PRInt64
+int64_t
 *
 aOut
 )
@@ -3837,7 +3837,7 @@ NumGhostsReporter
 :
 GetKind
 (
-PRInt32
+int32_t
 *
 aKind
 )
@@ -3860,7 +3860,7 @@ NumGhostsReporter
 :
 GetUnits
 (
-PRInt32
+int32_t
 *
 aUnits
 )
@@ -4035,7 +4035,7 @@ NumGhostsReporter
 :
 GetAmount
 (
-PRInt64
+int64_t
 *
 aAmount
 )

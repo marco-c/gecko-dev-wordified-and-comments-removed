@@ -124,7 +124,7 @@ mozilla
 #
 ifdef
 DEBUG_LAYOUT
-PRInt32
+int32_t
 gIndent
 =
 0
@@ -141,7 +141,7 @@ nsBoxAddIndents
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -329,7 +329,7 @@ namedMap
 )
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 namedMap
@@ -349,7 +349,7 @@ attribute
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -949,7 +949,7 @@ rect
 mRect
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 0
@@ -959,7 +959,7 @@ GetLayoutFlags
 flags
 )
 ;
-PRUint32
+uint32_t
 stateFlags
 =
 aState
@@ -1072,7 +1072,7 @@ nsBox
 :
 GetLayoutFlags
 (
-PRUint32
+uint32_t
 &
 aFlags
 )
@@ -1918,7 +1918,7 @@ return
 flex
 ;
 }
-PRUint32
+uint32_t
 nsIFrame
 :
 :
@@ -1929,7 +1929,7 @@ nsBoxLayoutState
 aState
 )
 {
-PRUint32
+uint32_t
 ordinal
 =
 GetStyleXUL
@@ -2234,7 +2234,7 @@ PresContext
 (
 )
 ;
-PRUint32
+uint32_t
 flags
 =
 0
@@ -2244,7 +2244,7 @@ GetLayoutFlags
 flags
 )
 ;
-PRUint32
+uint32_t
 stateFlags
 =
 aState

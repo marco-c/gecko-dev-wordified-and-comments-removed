@@ -3981,7 +3981,7 @@ vol
 #
 ifdef
 XP_WIN
-PRInt32
+int32_t
 driveType
 ;
 PRUnichar
@@ -3990,7 +3990,7 @@ drive
 32
 ]
 ;
-PRInt32
+int32_t
 volNum
 ;
 char
@@ -5033,7 +5033,7 @@ escLeafStr
 =
 nullptr
 ;
-PRInt32
+int32_t
 aOffset
 ;
 while
@@ -5060,7 +5060,7 @@ leaf
 Cut
 (
 (
-PRUint32
+uint32_t
 )
 aOffset
 1
@@ -5075,7 +5075,7 @@ Insert
 2F
 "
 (
-PRUint32
+uint32_t
 )
 aOffset
 )
@@ -5325,7 +5325,7 @@ SetFollowLinks
 false
 )
 ;
-PRInt64
+int64_t
 lastModDate
 ;
 if
@@ -5575,7 +5575,7 @@ return
 NS_RDF_NO_VALUE
 )
 ;
-PRInt64
+int64_t
 aFileSize64
 ;
 if
@@ -5599,7 +5599,7 @@ return
 rv
 )
 ;
-PRInt32
+int32_t
 aFileSize32
 =
 0
@@ -5818,7 +5818,7 @@ NS_ERROR_UNEXPECTED
 #
 ifdef
 XP_WIN
-PRInt32
+int32_t
 nameLen
 =
 name
@@ -6000,7 +6000,7 @@ filename
 unicodeLeafName
 )
 ;
-PRInt32
+int32_t
 lastDot
 =
 filename

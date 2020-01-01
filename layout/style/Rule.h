@@ -173,7 +173,7 @@ SUPPORTS_RULE
 }
 ;
 virtual
-PRInt32
+int32_t
 GetType
 (
 )

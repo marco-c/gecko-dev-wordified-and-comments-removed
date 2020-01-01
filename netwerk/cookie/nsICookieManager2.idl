@@ -450,7 +450,7 @@ in
 boolean
 aIsSession
 in
-PRInt64
+int64_t
 aExpiry
 )
 ;

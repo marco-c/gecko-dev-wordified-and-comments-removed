@@ -229,7 +229,7 @@ t
 >
 suppress_tracing
 ;
-PRUint32
+uint32_t
 start
 =
 PR_IntervalNow
@@ -251,7 +251,7 @@ getMallocHooker
 size
 )
 ;
-PRUint32
+uint32_t
 end
 =
 PR_IntervalNow
@@ -341,7 +341,7 @@ t
 >
 suppress_tracing
 ;
-PRUint32
+uint32_t
 start
 =
 PR_IntervalNow
@@ -364,7 +364,7 @@ count
 size
 )
 ;
-PRUint32
+uint32_t
 end
 =
 PR_IntervalNow
@@ -452,7 +452,7 @@ t
 >
 suppress_tracing
 ;
-PRUint32
+uint32_t
 start
 =
 PR_IntervalNow
@@ -470,7 +470,7 @@ getFreeHooker
 p
 )
 ;
-PRUint32
+uint32_t
 end
 =
 PR_IntervalNow
@@ -558,7 +558,7 @@ t
 >
 suppress_tracing
 ;
-PRUint32
+uint32_t
 start
 =
 PR_IntervalNow
@@ -581,7 +581,7 @@ pin
 size
 )
 ;
-PRUint32
+uint32_t
 end
 =
 PR_IntervalNow
@@ -673,7 +673,7 @@ t
 >
 suppress_tracing
 ;
-PRUint32
+uint32_t
 start
 =
 PR_IntervalNow
@@ -695,7 +695,7 @@ getNewHooker
 size
 )
 ;
-PRUint32
+uint32_t
 end
 =
 PR_IntervalNow
@@ -786,7 +786,7 @@ t
 >
 suppress_tracing
 ;
-PRUint32
+uint32_t
 start
 =
 PR_IntervalNow
@@ -804,7 +804,7 @@ getDeleteHooker
 p
 )
 ;
-PRUint32
+uint32_t
 end
 =
 PR_IntervalNow
@@ -891,7 +891,7 @@ t
 >
 suppress_tracing
 ;
-PRUint32
+uint32_t
 start
 =
 PR_IntervalNow
@@ -913,7 +913,7 @@ getVecNewHooker
 size
 )
 ;
-PRUint32
+uint32_t
 end
 =
 PR_IntervalNow
@@ -1004,7 +1004,7 @@ t
 >
 suppress_tracing
 ;
-PRUint32
+uint32_t
 start
 =
 PR_IntervalNow
@@ -1022,7 +1022,7 @@ getVecDeleteHooker
 p
 )
 ;
-PRUint32
+uint32_t
 end
 =
 PR_IntervalNow

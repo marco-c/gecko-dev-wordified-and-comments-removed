@@ -45,7 +45,7 @@ nsUniversalDetector
 :
 nsUniversalDetector
 (
-PRUint32
+uint32_t
 aLanguageFilter
 )
 {
@@ -93,7 +93,7 @@ mLanguageFilter
 =
 aLanguageFilter
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -128,7 +128,7 @@ nsUniversalDetector
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -206,7 +206,7 @@ Reset
 (
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -269,7 +269,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -431,7 +431,7 @@ NS_OK
 ;
 }
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -878,14 +878,14 @@ float
 .
 0
 ;
-PRInt32
+int32_t
 maxProber
 =
 0
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

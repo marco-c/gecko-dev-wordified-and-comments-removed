@@ -120,7 +120,7 @@ JUMPLIST_ITEM_EMPTY
 }
 JumpListItem
 (
-PRInt32
+int32_t
 type
 )
 :
@@ -189,7 +189,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetType
 (
-PRInt16
+int16_t
 *
 aType
 )
@@ -267,7 +267,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetType
 (
-PRInt16
+int16_t
 *
 aType
 )
@@ -379,7 +379,7 @@ JumpListItem
 NS_IMETHOD
 GetType
 (
-PRInt16
+int16_t
 *
 aType
 )
@@ -464,7 +464,7 @@ aICOFile
 ;
 protected
 :
-PRInt32
+int32_t
 mIconIndex
 ;
 nsCOMPtr

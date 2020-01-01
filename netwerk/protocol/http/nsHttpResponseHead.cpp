@@ -129,7 +129,7 @@ nsHttpResponseHead
 :
 SetContentLength
 (
-PRInt64
+int64_t
 len
 )
 {
@@ -247,7 +247,7 @@ nsPrintfCString
 %
 u
 "
-PRUintn
+unsigned
 (
 mStatus
 )
@@ -289,7 +289,7 @@ false
 return
 ;
 }
-PRUint32
+uint32_t
 i
 count
 =
@@ -639,7 +639,7 @@ else
 mStatus
 =
 (
-PRUint16
+uint16_t
 )
 atoi
 (
@@ -764,11 +764,11 @@ s
 \
 n
 "
-PRUintn
+unsigned
 (
 mVersion
 )
-PRUintn
+unsigned
 (
 mStatus
 )
@@ -841,7 +841,7 @@ nsHttp
 Content_Length
 )
 {
-PRInt64
+int64_t
 len
 ;
 const
@@ -979,20 +979,20 @@ nsHttpResponseHead
 :
 ComputeCurrentAge
 (
-PRUint32
+uint32_t
 now
-PRUint32
+uint32_t
 requestTime
-PRUint32
+uint32_t
 *
 result
 )
 const
 {
-PRUint32
+uint32_t
 dateValue
 ;
-PRUint32
+uint32_t
 ageValue
 ;
 *
@@ -1113,7 +1113,7 @@ nsHttpResponseHead
 :
 ComputeFreshnessLifetime
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -1142,7 +1142,7 @@ result
 =
 0
 ;
-PRUint32
+uint32_t
 date
 =
 0
@@ -1294,7 +1294,7 @@ mStatus
 *
 result
 =
-PRUint32
+uint32_t
 (
 -
 1
@@ -1651,7 +1651,7 @@ ExpiresInPast
 )
 const
 {
-PRUint32
+uint32_t
 maxAgeVal
 expiresVal
 dateVal
@@ -1731,7 +1731,7 @@ this
 )
 )
 ;
-PRUint32
+uint32_t
 i
 count
 =
@@ -2074,7 +2074,7 @@ ParseDateHeader
 (
 nsHttpAtom
 header
-PRUint32
+uint32_t
 *
 result
 )
@@ -2140,7 +2140,7 @@ nsHttpResponseHead
 :
 GetAgeValue
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -2171,7 +2171,7 @@ NS_ERROR_NOT_AVAILABLE
 result
 =
 (
-PRUint32
+uint32_t
 )
 atoi
 (
@@ -2188,7 +2188,7 @@ nsHttpResponseHead
 :
 GetMaxAgeValue
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -2262,7 +2262,7 @@ maxAgeValue
 *
 result
 =
-PRUint32
+uint32_t
 (
 maxAgeValue
 )
@@ -2277,7 +2277,7 @@ nsHttpResponseHead
 :
 GetExpiresValue
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -2364,7 +2364,7 @@ return
 NS_OK
 ;
 }
-PRInt64
+int64_t
 nsHttpResponseHead
 :
 :
@@ -2436,7 +2436,7 @@ return
 -
 1
 ;
-PRInt64
+int64_t
 size
 ;
 if

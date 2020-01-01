@@ -223,10 +223,10 @@ void
 mozSetup
 (
 in
-PRUint32
+uint32_t
 channels
 in
-PRUint32
+uint32_t
 rate
 )
 ;

@@ -85,12 +85,12 @@ nsISupports
 {
 readonly
 attribute
-PRUint64
+uint64_t
 totalBytes
 ;
 readonly
 attribute
-PRUint64
+uint64_t
 freeBytes
 ;
 /

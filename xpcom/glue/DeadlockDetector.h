@@ -490,7 +490,7 @@ void
 PLHashEntry
 *
 entry
-PRUintn
+unsigned
 flag
 )
 {
@@ -836,12 +836,12 @@ public
 :
 static
 const
-PRUint32
+uint32_t
 kDefaultNumBuckets
 ;
 DeadlockDetector
 (
-PRUint32
+uint32_t
 aNumResourcesGuess
 =
 kDefaultNumBuckets
@@ -1522,7 +1522,7 @@ typename
 T
 >
 const
-PRUint32
+uint32_t
 DeadlockDetector
 <
 T

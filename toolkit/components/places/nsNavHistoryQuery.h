@@ -51,7 +51,7 @@ NS_NAVHISTORYQUERY_IID
 )
 NS_DECL_ISUPPORTS
 NS_DECL_NSINAVHISTORYQUERY
-PRInt32
+int32_t
 MinVisits
 (
 )
@@ -60,7 +60,7 @@ return
 mMinVisits
 ;
 }
-PRInt32
+int32_t
 MaxVisits
 (
 )
@@ -78,7 +78,7 @@ return
 mBeginTime
 ;
 }
-PRUint32
+uint32_t
 BeginTimeReference
 (
 )
@@ -96,7 +96,7 @@ return
 mEndTime
 ;
 }
-PRUint32
+uint32_t
 EndTimeReference
 (
 )
@@ -187,7 +187,7 @@ mAnnotation
 const
 nsTArray
 <
-PRInt64
+int64_t
 >
 &
 Folders
@@ -261,7 +261,7 @@ mTagsAreNot
 const
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 Transitions
@@ -279,7 +279,7 @@ SetTransitions
 const
 nsTArray
 <
-PRUint32
+uint32_t
 >
 &
 aTransitions
@@ -318,22 +318,22 @@ nsNavHistoryQuery
 }
 protected
 :
-PRInt32
+int32_t
 mMinVisits
 ;
-PRInt32
+int32_t
 mMaxVisits
 ;
 PRTime
 mBeginTime
 ;
-PRUint32
+uint32_t
 mBeginTimeReference
 ;
 PRTime
 mEndTime
 ;
-PRUint32
+uint32_t
 mEndTimeReference
 ;
 nsString
@@ -365,7 +365,7 @@ mAnnotation
 ;
 nsTArray
 <
-PRInt64
+int64_t
 >
 mFolders
 ;
@@ -380,7 +380,7 @@ mTagsAreNot
 ;
 nsTArray
 <
-PRUint32
+uint32_t
 >
 mTransitions
 ;
@@ -474,7 +474,7 @@ NS_NAVHISTORYQUERYOPTIONS_IID
 )
 NS_DECL_ISUPPORTS
 NS_DECL_NSINAVHISTORYQUERYOPTIONS
-PRUint16
+uint16_t
 SortingMode
 (
 )
@@ -484,7 +484,7 @@ return
 mSort
 ;
 }
-PRUint16
+uint16_t
 ResultType
 (
 )
@@ -544,7 +544,7 @@ return
 mIncludeHidden
 ;
 }
-PRUint32
+uint32_t
 MaxResults
 (
 )
@@ -554,7 +554,7 @@ return
 mMaxResults
 ;
 }
-PRUint16
+uint16_t
 QueryType
 (
 )
@@ -594,7 +594,7 @@ other
 )
 {
 }
-PRUint16
+uint16_t
 mSort
 ;
 nsCString
@@ -603,7 +603,7 @@ mSortingAnnotation
 nsCString
 mParentAnnotationToExclude
 ;
-PRUint16
+uint16_t
 mResultType
 ;
 bool
@@ -621,10 +621,10 @@ mExpandQueries
 bool
 mIncludeHidden
 ;
-PRUint32
+uint32_t
 mMaxResults
 ;
-PRUint16
+uint16_t
 mQueryType
 ;
 bool

@@ -418,7 +418,7 @@ delegate
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-PRUint32
+uint32_t
 ind
 =
 0

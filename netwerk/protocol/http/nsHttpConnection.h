@@ -158,7 +158,7 @@ Init
 nsHttpConnectionInfo
 *
 info
-PRUint16
+uint16_t
 maxHangTime
 nsISocketTransport
 *
@@ -178,9 +178,9 @@ Activate
 (
 nsAHttpTransaction
 *
-PRUint8
+uint8_t
 caps
-PRInt32
+int32_t
 pri
 )
 ;
@@ -223,7 +223,7 @@ CanDirectlyActivate
 (
 )
 ;
-PRUint32
+uint32_t
 TimeToLive
 (
 )
@@ -389,7 +389,7 @@ IsReused
 void
 SetIsReusedAfter
 (
-PRUint32
+uint32_t
 afterMilliseconds
 )
 ;
@@ -412,7 +412,7 @@ const
 char
 *
 data
-PRUint32
+uint32_t
 length
 )
 ;
@@ -426,7 +426,7 @@ ResumeRecv
 (
 )
 ;
-PRInt64
+int64_t
 MaxBytesRead
 (
 )
@@ -446,9 +446,9 @@ void
 const
 char
 *
-PRUint32
-PRUint32
-PRUint32
+uint32_t
+uint32_t
+uint32_t
 *
 )
 ;
@@ -530,7 +530,7 @@ ReadTimeoutTick
 (
 )
 ;
-PRInt64
+int64_t
 BytesWritten
 (
 )
@@ -601,7 +601,7 @@ EnsureNPNComplete
 void
 SetupNPN
 (
-PRUint8
+uint8_t
 caps
 )
 ;
@@ -615,7 +615,7 @@ nsHttpResponseHead
 void
 StartSpdy
 (
-PRUint8
+uint8_t
 versionLevel
 )
 ;
@@ -624,7 +624,7 @@ AddTransaction
 (
 nsAHttpTransaction
 *
-PRInt32
+int32_t
 )
 ;
 private
@@ -704,16 +704,16 @@ mConsiderReusedAfterInterval
 PRIntervalTime
 mConsiderReusedAfterEpoch
 ;
-PRInt64
+int64_t
 mCurrentBytesRead
 ;
-PRInt64
+int64_t
 mMaxBytesRead
 ;
-PRInt64
+int64_t
 mTotalBytesRead
 ;
-PRInt64
+int64_t
 mTotalBytesWritten
 ;
 nsRefPtr
@@ -752,10 +752,10 @@ mIdleMonitoring
 bool
 mProxyConnectInProgress
 ;
-PRUint32
+uint32_t
 mHttp1xTransactionCount
 ;
-PRUint32
+uint32_t
 mRemainingConnectionUses
 ;
 nsAHttpTransaction
@@ -770,7 +770,7 @@ mNPNComplete
 bool
 mSetupNPNCalled
 ;
-PRUint8
+uint8_t
 mUsingSpdyVersion
 ;
 nsRefPtr
@@ -785,7 +785,7 @@ ASpdySession
 >
 mSpdySession
 ;
-PRInt32
+int32_t
 mPriority
 ;
 bool

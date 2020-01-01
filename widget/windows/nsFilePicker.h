@@ -150,7 +150,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 ;
@@ -203,7 +203,7 @@ aDefaultExtension
 NS_IMETHOD
 GetFilterIndex
 (
-PRInt32
+int32_t
 *
 aFilterIndex
 )
@@ -211,7 +211,7 @@ aFilterIndex
 NS_IMETHOD
 SetFilterIndex
 (
-PRInt32
+int32_t
 aFilterIndex
 )
 ;
@@ -245,7 +245,7 @@ aFiles
 NS_IMETHOD
 Show
 (
-PRInt16
+int16_t
 *
 aReturnVal
 )
@@ -253,7 +253,7 @@ aReturnVal
 NS_IMETHOD
 ShowW
 (
-PRInt16
+int16_t
 *
 aReturnVal
 )
@@ -369,7 +369,7 @@ const
 nsAString
 &
 aTitle
-PRInt16
+int16_t
 aMode
 )
 ;
@@ -550,7 +550,7 @@ mParentWidget
 nsString
 mTitle
 ;
-PRInt16
+int16_t
 mMode
 ;
 nsCString
@@ -568,7 +568,7 @@ mDefaultExtension
 nsString
 mFilterList
 ;
-PRInt16
+int16_t
 mSelectedType
 ;
 nsCOMArray
@@ -611,7 +611,7 @@ ComDlgFilterSpec
 {
 }
 const
-PRUint32
+uint32_t
 Length
 (
 )

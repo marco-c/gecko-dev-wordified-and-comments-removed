@@ -410,7 +410,7 @@ desired
 *
 /
 const
-PRUint32
+uint32_t
 ROLLUP_DEFAULT
 =
 0
@@ -424,7 +424,7 @@ default
 *
 /
 const
-PRUint32
+uint32_t
 ROLLUP_CONSUME
 =
 1
@@ -438,7 +438,7 @@ event
 *
 /
 const
-PRUint32
+uint32_t
 ROLLUP_NO_CONSUME
 =
 2
@@ -458,7 +458,7 @@ void
 setConsumeRollupEvent
 (
 in
-PRUint32
+uint32_t
 consume
 )
 ;

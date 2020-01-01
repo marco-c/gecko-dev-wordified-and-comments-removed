@@ -413,7 +413,7 @@ email
 )
 )
 {
-PRInt32
+int32_t
 index
 =
 email

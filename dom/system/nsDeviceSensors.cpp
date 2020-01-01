@@ -251,7 +251,7 @@ nsDeviceSensorData
 :
 GetType
 (
-PRUint32
+uint32_t
 *
 aType
 )
@@ -509,9 +509,9 @@ nsDeviceSensors
 :
 ListenerCount
 (
-PRUint32
+uint32_t
 aType
-PRInt32
+int32_t
 *
 aRetVal
 )
@@ -554,7 +554,7 @@ nsDeviceSensors
 :
 AddWindowListener
 (
-PRUint32
+uint32_t
 aType
 nsIDOMWindow
 *
@@ -628,7 +628,7 @@ nsDeviceSensors
 :
 RemoveWindowListener
 (
-PRUint32
+uint32_t
 aType
 nsIDOMWindow
 *
@@ -752,7 +752,7 @@ SensorData
 aSensorData
 )
 {
-PRUint32
+uint32_t
 type
 =
 aSensorData
@@ -840,7 +840,7 @@ windowListeners
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -881,7 +881,7 @@ i
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 windowListeners
@@ -1465,7 +1465,7 @@ domdoc
 nsIDOMEventTarget
 *
 target
-PRUint32
+uint32_t
 type
 double
 x

@@ -216,7 +216,7 @@ in
 jsid
 aProperty
 in
-PRUint32
+uint32_t
 aAction
 )
 ;

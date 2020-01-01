@@ -654,10 +654,10 @@ Now
 (
 )
 ;
-PRUint32
+uint32_t
 delayMS
 =
-PRUint32
+uint32_t
 (
 delay
 .

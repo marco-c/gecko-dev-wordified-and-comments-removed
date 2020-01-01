@@ -130,9 +130,9 @@ const
 txXPathNode
 &
 aContextNode
-PRUint32
+uint32_t
 aContextPosition
-PRUint32
+uint32_t
 aContextSize
 txResultRecycler
 *
@@ -179,10 +179,10 @@ txXPathNode
 &
 mContextNode
 ;
-PRUint32
+uint32_t
 mContextPosition
 ;
-PRUint32
+uint32_t
 mContextSize
 ;
 nsresult

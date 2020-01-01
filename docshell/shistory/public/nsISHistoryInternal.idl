@@ -191,7 +191,7 @@ nsDocshellIDArray
 (
 nsTArray
 <
-PRUint64
+uint64_t
 nsTArrayDefaultAllocator
 >
 )

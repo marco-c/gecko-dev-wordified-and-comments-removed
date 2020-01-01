@@ -1412,7 +1412,7 @@ Complete
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1572,7 +1572,7 @@ AsyncExecuteStatements
 :
 notifyError
 (
-PRInt32
+int32_t
 aErrorCode
 const
 char
@@ -1779,7 +1779,7 @@ statementsNeedTransaction
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1953,7 +1953,7 @@ TRANSACTION_IMMEDIATE
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

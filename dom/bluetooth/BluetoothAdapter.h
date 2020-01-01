@@ -229,13 +229,13 @@ mPairable
 bool
 mPowered
 ;
-PRUint32
+uint32_t
 mPairableTimeout
 ;
-PRUint32
+uint32_t
 mDiscoverableTimeout
 ;
-PRUint32
+uint32_t
 mClass
 ;
 nsTArray

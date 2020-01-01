@@ -1303,7 +1303,7 @@ sDisplayTable
 >
 mDisplays
 ;
-PRUint32
+uint32_t
 d
 =
 displays
@@ -1394,7 +1394,7 @@ mColormapEntries
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

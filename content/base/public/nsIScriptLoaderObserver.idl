@@ -273,7 +273,7 @@ in
 nsIURI
 aURI
 in
-PRInt32
+int32_t
 aLineNo
 )
 ;

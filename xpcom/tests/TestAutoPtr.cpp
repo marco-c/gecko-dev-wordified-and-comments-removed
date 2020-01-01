@@ -353,7 +353,7 @@ mRefCount
 }
 protected
 :
-PRUint32
+uint32_t
 mRefCount
 ;
 }

@@ -31,9 +31,9 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-PRUint32
+uint32_t
 methodIndex
-PRUint32
+uint32_t
 *
 args
 )
@@ -63,10 +63,10 @@ nsXPTMethodInfo
 *
 info
 ;
-PRUint8
+uint8_t
 paramCount
 ;
-PRUint8
+uint8_t
 i
 ;
 nsresult
@@ -91,7 +91,7 @@ mEntry
 >
 GetMethodInfo
 (
-PRUint16
+uint16_t
 (
 methodIndex
 )
@@ -148,7 +148,7 @@ params
 "
 )
 ;
-PRUint32
+uint32_t
 *
 ap
 =
@@ -274,7 +274,7 @@ i64
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 ap
@@ -315,7 +315,7 @@ u64
 *
 (
 (
-PRInt64
+int64_t
 *
 )
 ap
@@ -405,7 +405,7 @@ val
 i8
 =
 (
-PRInt8
+int8_t
 )
 *
 ap
@@ -426,7 +426,7 @@ val
 i16
 =
 (
-PRInt16
+int16_t
 )
 *
 ap
@@ -447,7 +447,7 @@ val
 i32
 =
 (
-PRInt32
+int32_t
 )
 *
 ap
@@ -468,7 +468,7 @@ val
 u8
 =
 (
-PRUint8
+uint8_t
 )
 *
 ap
@@ -489,7 +489,7 @@ val
 u16
 =
 (
-PRUint16
+uint16_t
 )
 *
 ap
@@ -510,7 +510,7 @@ val
 u32
 =
 (
-PRUint32
+uint32_t
 )
 *
 ap
@@ -630,7 +630,7 @@ mOuter
 CallMethod
 (
 (
-PRUint16
+uint16_t
 )
 methodIndex
 info

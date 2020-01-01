@@ -505,7 +505,7 @@ nsISupportsPRUint8
 nsISupportsPrimitive
 {
 attribute
-PRUint8
+uint8_t
 data
 ;
 string
@@ -550,7 +550,7 @@ nsISupportsPRUint16
 nsISupportsPrimitive
 {
 attribute
-PRUint16
+uint16_t
 data
 ;
 string
@@ -595,7 +595,7 @@ nsISupportsPRUint32
 nsISupportsPrimitive
 {
 attribute
-PRUint32
+uint32_t
 data
 ;
 string
@@ -639,7 +639,7 @@ nsISupportsPRUint64
 nsISupportsPrimitive
 {
 attribute
-PRUint64
+uint64_t
 data
 ;
 string
@@ -781,7 +781,7 @@ nsISupportsPRInt16
 nsISupportsPrimitive
 {
 attribute
-PRInt16
+int16_t
 data
 ;
 string
@@ -825,7 +825,7 @@ nsISupportsPRInt32
 nsISupportsPrimitive
 {
 attribute
-PRInt32
+int32_t
 data
 ;
 string
@@ -869,7 +869,7 @@ nsISupportsPRInt64
 nsISupportsPrimitive
 {
 attribute
-PRInt64
+int64_t
 data
 ;
 string

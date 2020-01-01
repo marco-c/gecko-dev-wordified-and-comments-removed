@@ -252,7 +252,7 @@ mNext
 )
 ;
 }
-PRInt32
+int32_t
 AddRef
 (
 )
@@ -263,12 +263,12 @@ return
 mRefCnt
 ;
 }
-PRInt32
+int32_t
 Release
 (
 )
 {
-PRInt32
+int32_t
 refcnt
 =
 -
@@ -293,7 +293,7 @@ MemoryElement
 *
 mElement
 ;
-PRInt32
+int32_t
 mRefCnt
 ;
 List
@@ -926,7 +926,7 @@ mNext
 )
 ;
 }
-PRInt32
+int32_t
 AddRef
 (
 )
@@ -937,12 +937,12 @@ return
 mRefCnt
 ;
 }
-PRInt32
+int32_t
 Release
 (
 )
 {
-PRInt32
+int32_t
 refcnt
 =
 -
@@ -966,7 +966,7 @@ refcnt
 nsAssignment
 mAssignment
 ;
-PRInt32
+int32_t
 mRefCnt
 ;
 List
@@ -1414,7 +1414,7 @@ aValue
 )
 const
 ;
-PRInt32
+int32_t
 Count
 (
 )
@@ -2808,7 +2808,7 @@ mCount
 )
 ;
 }
-PRInt32
+int32_t
 Count
 (
 )
@@ -2825,10 +2825,10 @@ ReteNode
 *
 mNodes
 ;
-PRInt32
+int32_t
 mCount
 ;
-PRInt32
+int32_t
 mCapacity
 ;
 }

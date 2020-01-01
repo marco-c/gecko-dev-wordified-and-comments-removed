@@ -382,7 +382,7 @@ deleteTempFileOnExit
 "
 static
 const
-PRInt64
+int64_t
 gUpdateInterval
 =
 400
@@ -639,7 +639,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mCurrentDownloads
@@ -743,7 +743,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mCurrentDownloads
@@ -838,7 +838,7 @@ NS_OK
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mCurrentDownloads
@@ -992,7 +992,7 @@ false
 ;
 nsAutoTArray
 <
-PRInt64
+int64_t
 4
 >
 downloads
@@ -1015,7 +1015,7 @@ hasMore
 hasMore
 )
 {
-PRInt64
+int64_t
 downloadId
 ;
 rv
@@ -1046,7 +1046,7 @@ downloadId
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 downloads
@@ -1587,7 +1587,7 @@ mDBType
 =
 DATABASE_DISK
 ;
-PRInt32
+int32_t
 schemaVersion
 ;
 rv
@@ -3268,7 +3268,7 @@ return
 retVal
 ;
 }
-PRInt64
+int64_t
 nsDownloadManager
 :
 :
@@ -3290,9 +3290,9 @@ const
 nsAString
 &
 aTempPath
-PRInt64
+int64_t
 aStartTime
-PRInt64
+int64_t
 aEndTime
 const
 nsACString
@@ -3626,7 +3626,7 @@ rv
 0
 )
 ;
-PRInt64
+int64_t
 id
 =
 0
@@ -4300,7 +4300,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsDownloadManager
 :
 :
@@ -4330,7 +4330,7 @@ rv
 0
 )
 ;
-PRInt32
+int32_t
 val
 ;
 rv
@@ -4438,7 +4438,7 @@ rv
 QUIT_AND_RESUME
 )
 ;
-PRInt32
+int32_t
 val
 ;
 rv
@@ -4489,7 +4489,7 @@ nsDownloadManager
 :
 GetDownloadFromDB
 (
-PRUint32
+uint32_t
 aID
 nsDownload
 *
@@ -4654,7 +4654,7 @@ dl
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -4914,7 +4914,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 currBytes
 =
 stmt
@@ -4927,7 +4927,7 @@ i
 +
 )
 ;
-PRInt64
+int64_t
 maxBytes
 =
 stmt
@@ -5303,7 +5303,7 @@ nsDownloadManager
 :
 GetActiveDownloadCount
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -5484,7 +5484,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 version
 ;
 NS_NAMED_LITERAL_STRING
@@ -5915,7 +5915,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 val
 ;
 rv
@@ -6554,7 +6554,7 @@ nsIDownloadManager
 :
 DOWNLOAD_QUEUED
 ;
-PRInt64
+int64_t
 id
 =
 AddDownloadToDB
@@ -6825,7 +6825,7 @@ nsDownloadManager
 :
 GetDownload
 (
-PRUint32
+uint32_t
 aID
 nsIDownload
 *
@@ -6900,13 +6900,13 @@ nsDownloadManager
 :
 FindDownload
 (
-PRUint32
+uint32_t
 aID
 )
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mCurrentDownloads
@@ -6960,7 +6960,7 @@ nsDownloadManager
 :
 CancelDownload
 (
-PRUint32
+uint32_t
 aID
 )
 {
@@ -7150,7 +7150,7 @@ nsDownloadManager
 :
 RetryDownload
 (
-PRUint32
+uint32_t
 aID
 )
 {
@@ -7470,7 +7470,7 @@ nsDownloadManager
 :
 RemoveDownload
 (
-PRUint32
+uint32_t
 aID
 )
 {
@@ -7648,9 +7648,9 @@ nsDownloadManager
 :
 RemoveDownloadsByTimeframe
 (
-PRInt64
+int64_t
 aStartTime
-PRInt64
+int64_t
 aEndTime
 )
 {
@@ -7984,7 +7984,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8183,7 +8183,7 @@ NS_OK
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8241,7 +8241,7 @@ rv
 NS_OK
 )
 ;
-PRInt32
+int32_t
 count
 ;
 rv
@@ -8283,7 +8283,7 @@ nsDownloadManager
 :
 PauseDownload
 (
-PRUint32
+uint32_t
 aID
 )
 {
@@ -8319,7 +8319,7 @@ nsDownloadManager
 :
 ResumeDownload
 (
-PRUint32
+uint32_t
 aID
 )
 {
@@ -8423,7 +8423,7 @@ nsDownloadManager
 :
 NotifyListenersOnDownloadStateChange
 (
-PRInt16
+int16_t
 aOldState
 nsIDownload
 *
@@ -8432,7 +8432,7 @@ aDownload
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mListeners
@@ -8477,13 +8477,13 @@ aProgress
 nsIRequest
 *
 aRequest
-PRInt64
+int64_t
 aCurSelfProgress
-PRInt64
+int64_t
 aMaxSelfProgress
-PRInt64
+int64_t
 aCurTotalProgress
-PRInt64
+int64_t
 aMaxTotalProgress
 nsIDownload
 *
@@ -8492,7 +8492,7 @@ aDownload
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mListeners
@@ -8542,7 +8542,7 @@ aProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 nsresult
 aStatus
@@ -8553,7 +8553,7 @@ aDownload
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mListeners
@@ -8766,21 +8766,21 @@ OnVisit
 nsIURI
 *
 aURI
-PRInt64
+int64_t
 aVisitID
 PRTime
 aTime
-PRInt64
+int64_t
 aSessionID
-PRInt64
+int64_t
 aReferringID
-PRUint32
+uint32_t
 aTransitionType
 const
 nsACString
 &
 aGUID
-PRUint32
+uint32_t
 *
 aAdded
 )
@@ -8825,7 +8825,7 @@ const
 nsACString
 &
 aGUID
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -8846,7 +8846,7 @@ const
 nsACString
 &
 aGUID
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -8880,7 +8880,7 @@ OnPageChanged
 nsIURI
 *
 aURI
-PRUint32
+uint32_t
 aChangedAttribute
 const
 nsAString
@@ -8911,7 +8911,7 @@ const
 nsACString
 &
 aGUID
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -8938,7 +8938,7 @@ PRUnichar
 aData
 )
 {
-PRInt32
+int32_t
 currDownloadCount
 =
 mCurrentDownloads
@@ -8958,7 +8958,7 @@ QUIT_AND_CANCEL
 )
 for
 (
-PRInt32
+int32_t
 i
 =
 currDownloadCount
@@ -9026,7 +9026,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 id
 ;
 dl
@@ -9590,7 +9590,7 @@ wake_notification
 0
 )
 {
-PRInt32
+int32_t
 resumeOnWakeDelay
 =
 10000
@@ -9970,7 +9970,7 @@ nsDownloadManager
 :
 ConfirmCancelDownloads
 (
-PRInt32
+int32_t
 aCount
 nsISupportsPRBool
 *
@@ -10213,7 +10213,7 @@ if
 prompter
 )
 {
-PRInt32
+int32_t
 flags
 =
 (
@@ -10245,7 +10245,7 @@ nothing
 =
 false
 ;
-PRInt32
+int32_t
 button
 ;
 prompter
@@ -10345,7 +10345,7 @@ PR_Now
 )
 -
 (
-PRUint32
+uint32_t
 )
 gUpdateInterval
 )
@@ -10411,7 +10411,7 @@ to
 "
 )
 ;
-PRInt16
+int16_t
 oldState
 =
 mDownloadState
@@ -10643,7 +10643,7 @@ if
 showTaskbarAlert
 )
 {
-PRInt32
+int32_t
 alertInterval
 =
 2000
@@ -10662,14 +10662,14 @@ PREF_BDM_SHOWALERTINTERVAL
 alertInterval
 )
 ;
-PRInt64
+int64_t
 alertIntervalUSec
 =
 alertInterval
 *
 PR_USEC_PER_MSEC
 ;
-PRInt64
+int64_t
 goat
 =
 PR_Now
@@ -10684,7 +10684,7 @@ goat
 >
 alertIntervalUSec
 ;
-PRInt32
+int32_t
 size
 =
 mDownloadManager
@@ -11471,13 +11471,13 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRInt64
+int64_t
 aCurSelfProgress
-PRInt64
+int64_t
 aMaxSelfProgress
-PRInt64
+int64_t
 aCurTotalProgress
-PRInt64
+int64_t
 aMaxTotalProgress
 )
 {
@@ -11728,7 +11728,7 @@ aCurTotalProgress
 aMaxTotalProgress
 )
 ;
-PRInt64
+int64_t
 currBytes
 maxBytes
 ;
@@ -11791,7 +11791,7 @@ aWebProgress
 nsIURI
 *
 aUri
-PRInt32
+int32_t
 aDelay
 bool
 aSameUri
@@ -11821,13 +11821,13 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 aCurSelfProgress
-PRInt32
+int32_t
 aMaxSelfProgress
-PRInt32
+int32_t
 aCurTotalProgress
-PRInt32
+int32_t
 aMaxTotalProgress
 )
 {
@@ -11858,7 +11858,7 @@ aRequest
 nsIURI
 *
 aLocation
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -11916,7 +11916,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 nsresult
 aStatus
@@ -11970,7 +11970,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 status
 ;
 rv
@@ -12049,7 +12049,7 @@ aStatus
 )
 )
 {
-PRInt64
+int64_t
 fileSize
 ;
 nsCOMPtr
@@ -12285,7 +12285,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aState
 )
 {
@@ -12349,7 +12349,7 @@ nsDownload
 :
 GetState
 (
-PRInt16
+int16_t
 *
 aState
 )
@@ -12469,7 +12469,7 @@ nsDownload
 :
 GetStartTime
 (
-PRInt64
+int64_t
 *
 aStartTime
 )
@@ -12489,7 +12489,7 @@ nsDownload
 :
 GetPercentComplete
 (
-PRInt32
+int32_t
 *
 aPercentComplete
 )
@@ -12509,7 +12509,7 @@ nsDownload
 :
 GetAmountTransferred
 (
-PRInt64
+int64_t
 *
 aAmountTransferred
 )
@@ -12539,7 +12539,7 @@ nsDownload
 :
 GetSize
 (
-PRInt64
+int64_t
 *
 aSize
 )
@@ -12699,7 +12699,7 @@ nsDownload
 :
 GetId
 (
-PRUint32
+uint32_t
 *
 aId
 )
@@ -13253,7 +13253,7 @@ nsDownload
 :
 SetStartTime
 (
-PRInt64
+int64_t
 aStartTime
 )
 {
@@ -13272,9 +13272,9 @@ nsDownload
 :
 SetProgressBytes
 (
-PRInt64
+int64_t
 aCurrBytes
-PRInt64
+int64_t
 aMaxBytes
 )
 {
@@ -13286,7 +13286,7 @@ mMaxBytes
 =
 aMaxBytes
 ;
-PRInt64
+int64_t
 currBytes
 maxBytes
 ;
@@ -13336,7 +13336,7 @@ else
 mPercentComplete
 =
 (
-PRInt32
+int32_t
 )
 (
 (
@@ -13583,7 +13583,7 @@ rv
 )
 ;
 }
-PRInt64
+int64_t
 fileSize
 ;
 nsCOMPtr
@@ -13662,7 +13662,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 maxBytes
 ;
 GetSize
@@ -14153,7 +14153,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 currBytes
 ;
 (
@@ -14187,7 +14187,7 @@ rv
 rv
 )
 ;
-PRInt64
+int64_t
 maxBytes
 ;
 (

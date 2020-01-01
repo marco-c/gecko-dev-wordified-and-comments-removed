@@ -360,7 +360,7 @@ nsDOMMozWifiConnectionInfoEvent
 :
 GetSignalStrength
 (
-PRInt16
+int16_t
 *
 aSignalStrength
 )
@@ -380,7 +380,7 @@ nsDOMMozWifiConnectionInfoEvent
 :
 GetRelSignalStrength
 (
-PRInt16
+int16_t
 *
 aRelSignalStrength
 )
@@ -400,7 +400,7 @@ nsDOMMozWifiConnectionInfoEvent
 :
 GetLinkSpeed
 (
-PRInt32
+int32_t
 *
 aLinkSpeed
 )
@@ -431,11 +431,11 @@ aCancelable
 nsIVariant
 *
 aNetwork
-PRInt16
+int16_t
 aSignalStrength
-PRInt16
+int16_t
 aRelSignalStrength
-PRInt32
+int32_t
 aLinkSpeed
 )
 {

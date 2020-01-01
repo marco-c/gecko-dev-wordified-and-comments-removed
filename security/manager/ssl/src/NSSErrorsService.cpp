@@ -213,7 +213,7 @@ NSSErrorsService
 :
 IsNSSErrorCode
 (
-PRInt32
+int32_t
 aNSPRCode
 bool
 *
@@ -252,7 +252,7 @@ NSSErrorsService
 :
 GetXPCOMFromNSSError
 (
-PRInt32
+int32_t
 aNSPRCode
 nsresult
 *
@@ -312,7 +312,7 @@ GetErrorClass
 (
 nsresult
 aXPCOMErrorCode
-PRUint32
+uint32_t
 *
 aErrorClass
 )
@@ -344,7 +344,7 @@ NS_ERROR_SEVERITY_ERROR
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 aNSPRCode
 =
 -
@@ -461,7 +461,7 @@ NS_ERROR_SEVERITY_ERROR
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 aNSPRCode
 =
 -

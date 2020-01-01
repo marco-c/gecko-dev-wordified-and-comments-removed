@@ -288,7 +288,7 @@ if
 anonymousChildren
 )
 {
-PRUint32
+uint32_t
 length
 ;
 anonymousChildren
@@ -302,7 +302,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

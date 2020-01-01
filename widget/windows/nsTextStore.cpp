@@ -1329,7 +1329,7 @@ aLength
 ;
 }
 static
-PRUint32
+uint32_t
 GetGeckoSelectionValue
 (
 TF_DISPLAYATTRIBUTE
@@ -1337,7 +1337,7 @@ TF_DISPLAYATTRIBUTE
 aDisplayAttr
 )
 {
-PRUint32
+uint32_t
 result
 ;
 switch
@@ -1444,7 +1444,7 @@ nIndex
 %
 08X
 "
-PRInt32
+int32_t
 (
 aColor
 .
@@ -1475,7 +1475,7 @@ cr
 %
 08X
 "
-PRInt32
+int32_t
 (
 aColor
 .
@@ -1504,7 +1504,7 @@ Unknown
 08X
 )
 "
-PRInt32
+int32_t
 (
 aColor
 .
@@ -1606,7 +1606,7 @@ Unknown
 08X
 )
 "
-PRInt32
+int32_t
 (
 aLineStyle
 )
@@ -1727,7 +1727,7 @@ Unknown
 08X
 )
 "
-PRInt32
+int32_t
 (
 aAttr
 )
@@ -2895,7 +2895,7 @@ GetLineStyle
 (
 TF_DA_LINESTYLE
 aTSFLineStyle
-PRUint8
+uint8_t
 &
 aTextRangeLineStyle
 )
@@ -3217,7 +3217,7 @@ newRange
 .
 mStartOffset
 =
-PRUint32
+uint32_t
 (
 start
 -
@@ -3589,7 +3589,7 @@ caretRange
 .
 mEndOffset
 =
-PRUint32
+uint32_t
 (
 caretPosition
 )
@@ -3931,7 +3931,7 @@ event
 .
 mLength
 =
-PRUint32
+uint32_t
 (
 pSelection
 -
@@ -4218,7 +4218,7 @@ type
 TS_RT_PLAIN
 ;
 }
-PRUint32
+uint32_t
 length
 =
 -
@@ -4229,7 +4229,7 @@ acpEnd
 ?
 PR_UINT32_MAX
 :
-PRUint32
+uint32_t
 (
 acpEnd
 -
@@ -4359,7 +4359,7 @@ n
 ;
 length
 =
-PRUint32
+uint32_t
 (
 LONG
 (
@@ -4393,7 +4393,7 @@ event
 .
 InitForQueryTextContent
 (
-PRUint32
+uint32_t
 (
 acpStart
 )
@@ -4473,7 +4473,7 @@ mCompositionStart
 ;
 length
 =
-PRUint32
+uint32_t
 (
 LONG
 (
@@ -5869,7 +5869,7 @@ mCompositionString
 .
 Replace
 (
-PRUint32
+uint32_t
 (
 sel
 .
@@ -6322,7 +6322,7 @@ selEvent
 .
 mOffset
 =
-PRUint32
+uint32_t
 (
 mCompositionStart
 )
@@ -6331,7 +6331,7 @@ selEvent
 .
 mLength
 =
-PRUint32
+uint32_t
 (
 mCompositionLength
 )
@@ -6467,13 +6467,13 @@ S_OK
 ;
 }
 static
-PRUint32
+uint32_t
 GetLayoutChangeIntervalTime
 (
 )
 {
 static
-PRInt32
+int32_t
 sTime
 =
 -
@@ -6486,7 +6486,7 @@ sTime
 0
 )
 return
-PRUint32
+uint32_t
 (
 sTime
 )
@@ -6513,7 +6513,7 @@ on_layout_change_interval
 )
 ;
 return
-PRUint32
+uint32_t
 (
 sTime
 )
@@ -7103,11 +7103,11 @@ nsTextStore
 :
 OnTextChangeInternal
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aOldEnd
-PRUint32
+uint32_t
 aNewEnd
 )
 {
@@ -7758,7 +7758,7 @@ n
 "
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 aState

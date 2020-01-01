@@ -775,7 +775,7 @@ indent
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1351,7 +1351,7 @@ config
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1893,10 +1893,10 @@ ConstrainPosition
 (
 bool
 aAllowSlop
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
 )
@@ -1961,9 +1961,9 @@ nsWindow
 :
 Move
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -1997,9 +1997,9 @@ nsWindow
 :
 Resize
 (
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 bool
 aRepaint
@@ -2026,13 +2026,13 @@ nsWindow
 :
 Resize
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 bool
 aRepaint
@@ -2163,7 +2163,7 @@ nsWindow
 :
 SetZIndex
 (
-PRInt32
+int32_t
 aZIndex
 )
 {
@@ -2219,7 +2219,7 @@ nsWindow
 :
 SetSizeMode
 (
-PRInt32
+int32_t
 aMode
 )
 {
@@ -3356,7 +3356,7 @@ height
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3641,7 +3641,7 @@ cplist
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4597,7 +4597,7 @@ mBounds
 height
 )
 ;
-PRInt32
+int32_t
 coveringChildIndex
 =
 -
@@ -4605,7 +4605,7 @@ coveringChildIndex
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4657,7 +4657,7 @@ boundsRect
 {
 coveringChildIndex
 =
-PRInt32
+int32_t
 (
 i
 )
@@ -4869,7 +4869,7 @@ GetDeviceOffset
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 coveringChildIndex
@@ -6322,7 +6322,7 @@ nsWindow
 :
 GetNativeData
 (
-PRUint32
+uint32_t
 aDataType
 )
 {
@@ -6363,10 +6363,10 @@ AndroidGeckoEvent
 ae
 )
 {
-PRUint32
+uint32_t
 msg
 ;
-PRInt16
+int16_t
 buttons
 =
 nsMouseEvent
@@ -7184,7 +7184,7 @@ AndroidGeckoEvent
 ae
 )
 {
-PRUint32
+uint32_t
 msg
 =
 0
@@ -7467,7 +7467,7 @@ swipeDistance
 mSwipeMinDistance
 )
 {
-PRUint32
+uint32_t
 direction
 =
 0
@@ -7614,9 +7614,9 @@ nsWindow
 :
 DispatchGestureEvent
 (
-PRUint32
+uint32_t
 msg
-PRUint32
+uint32_t
 direction
 double
 delta
@@ -7624,7 +7624,7 @@ const
 nsIntPoint
 &
 refPoint
-PRUint64
+uint64_t
 time
 )
 {
@@ -8448,7 +8448,7 @@ KeyCode
 (
 )
 ;
-PRUint32
+uint32_t
 domKeyCode
 =
 ConvertAndroidKeyCodeToDOMKeyCode
@@ -8605,7 +8605,7 @@ KeyCode
 (
 )
 ;
-PRUint32
+uint32_t
 domKeyCode
 =
 ConvertAndroidKeyCodeToDOMKeyCode
@@ -8879,7 +8879,7 @@ doCommand
 =
 false
 ;
-PRUint32
+uint32_t
 keyCode
 =
 ae
@@ -9139,7 +9139,7 @@ kungFuDeathGrip
 this
 )
 ;
-PRUint32
+uint32_t
 msg
 ;
 switch
@@ -10395,7 +10395,7 @@ selEvent
 .
 mOffset
 =
-PRUint32
+uint32_t
 (
 ae
 -
@@ -10433,7 +10433,7 @@ selEvent
 .
 mLength
 =
-PRUint32
+uint32_t
 (
 NS_ABS
 (
@@ -10655,7 +10655,7 @@ y
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11237,11 +11237,11 @@ nsWindow
 :
 OnIMETextChange
 (
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aOldEnd
-PRUint32
+uint32_t
 aNewEnd
 )
 {

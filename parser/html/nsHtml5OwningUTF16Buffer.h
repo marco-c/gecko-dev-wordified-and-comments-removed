@@ -57,7 +57,7 @@ nsHtml5OwningUTF16Buffer
 >
 FalliblyCreate
 (
-PRInt32
+int32_t
 aLength
 )
 ;

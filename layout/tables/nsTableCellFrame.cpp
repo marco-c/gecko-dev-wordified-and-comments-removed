@@ -353,7 +353,7 @@ nsTableCellFrame
 )
 aPrevInFlow
 ;
-PRInt32
+int32_t
 colIndex
 ;
 cellFrame
@@ -661,7 +661,7 @@ nsTableCellFrame
 :
 GetRowIndex
 (
-PRInt32
+int32_t
 &
 aRowIndex
 )
@@ -725,7 +725,7 @@ nsTableCellFrame
 :
 GetColIndex
 (
-PRInt32
+int32_t
 &
 aColIndex
 )
@@ -773,12 +773,12 @@ nsTableCellFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -919,7 +919,7 @@ GetStyleContext
 )
 )
 {
-PRInt32
+int32_t
 colIndex
 rowIndex
 ;
@@ -1054,7 +1054,7 @@ nsTableCellFrame
 :
 SetColIndex
 (
-PRInt32
+int32_t
 aColIndex
 )
 {
@@ -1164,7 +1164,7 @@ cells
 "
 )
 ;
-PRInt16
+int16_t
 displaySelection
 ;
 nsPresContext
@@ -1483,7 +1483,7 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1527,7 +1527,7 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1814,7 +1814,7 @@ GetTableFrame
 this
 )
 ;
-PRInt32
+int32_t
 emptyCellStyle
 =
 GetContentEmpty
@@ -2361,7 +2361,7 @@ borderPadding
 .
 bottom
 ;
-PRUint8
+uint8_t
 verticalAlignFlags
 =
 GetVerticalAlign
@@ -2703,7 +2703,7 @@ GetSize
 )
 ;
 }
-PRUint8
+uint8_t
 nsTableCellFrame
 :
 :
@@ -2736,7 +2736,7 @@ GetUnit
 eStyleUnit_Enumerated
 )
 {
-PRUint8
+uint8_t
 value
 =
 verticalAlign
@@ -2999,7 +2999,7 @@ y
 borderPadding
 ;
 }
-PRInt32
+int32_t
 nsTableCellFrame
 :
 :
@@ -3007,7 +3007,7 @@ GetRowSpan
 (
 )
 {
-PRInt32
+int32_t
 rowSpan
 =
 1
@@ -3090,7 +3090,7 @@ return
 rowSpan
 ;
 }
-PRInt32
+int32_t
 nsTableCellFrame
 :
 :
@@ -3098,7 +3098,7 @@ GetColSpan
 (
 )
 {
-PRInt32
+int32_t
 colSpan
 =
 1
@@ -3409,7 +3409,7 @@ void
 (
 aChild
 )
-PRInt32
+int32_t
 (
 aMet
 .
@@ -3503,7 +3503,7 @@ GetParent
 )
 )
 ;
-PRInt32
+int32_t
 rowIndex
 ;
 firstCellInFlow
@@ -3514,7 +3514,7 @@ GetRowIndex
 rowIndex
 )
 ;
-PRInt32
+int32_t
 rowSpan
 =
 aTableFrame
@@ -3550,7 +3550,7 @@ cellSpacing
 -
 aVerticalBorderPadding
 ;
-PRInt32
+int32_t
 rowX
 ;
 for
@@ -4447,10 +4447,10 @@ nsTableCellFrame
 :
 GetCellIndexes
 (
-PRInt32
+int32_t
 &
 aRowIndex
-PRInt32
+int32_t
 &
 aColIndex
 )
@@ -4754,7 +4754,7 @@ aBorder
 )
 const
 {
-PRInt32
+int32_t
 aPixelsToTwips
 =
 nsPresContext
@@ -4937,7 +4937,7 @@ GetBorderOverflow
 nsMargin
 halfBorder
 ;
-PRInt32
+int32_t
 p2t
 =
 nsPresContext
@@ -5006,7 +5006,7 @@ nsRect
 aDirtyRect
 nsPoint
 aPt
-PRUint32
+uint32_t
 aFlags
 )
 {

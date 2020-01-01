@@ -353,7 +353,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-PRUint32
+uint32_t
 aCount
 )
 const
@@ -523,7 +523,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -670,7 +670,7 @@ paddibility
 "
 )
 ;
-PRUint32
+uint32_t
 i
 =
 dest
@@ -738,7 +738,7 @@ GetUnit
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1121,7 +1121,7 @@ total
 .
 0
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -1625,7 +1625,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRUint32
+uint32_t
 i
 =
 0

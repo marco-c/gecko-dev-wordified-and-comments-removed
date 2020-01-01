@@ -389,7 +389,7 @@ const
 Key
 &
 aKey
-PRInt32
+int32_t
 aCount
 )
 ;

@@ -55,7 +55,7 @@ closure
 ;
 do
 {
-PRUint32
+uint32_t
 wrote
 =
 0

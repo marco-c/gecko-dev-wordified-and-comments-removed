@@ -54,7 +54,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -145,7 +145,7 @@ char
 c
 )
 ;
-PRInt32
+int32_t
 mFinalCharLogicalScore
 mFinalCharVisualScore
 ;

@@ -169,7 +169,7 @@ do_check_true
 stmt
 )
 ;
-PRInt32
+int32_t
 state
 ;
 do_check_success
@@ -287,7 +287,7 @@ FinalizeStatements
 (
 )
 ;
-PRInt32
+int32_t
 state
 ;
 do_check_success
@@ -377,7 +377,7 @@ do_check_true
 stmt
 )
 ;
-PRInt32
+int32_t
 state
 ;
 do_check_success
@@ -495,7 +495,7 @@ FinalizeStatements
 (
 )
 ;
-PRInt32
+int32_t
 state
 ;
 do_check_success

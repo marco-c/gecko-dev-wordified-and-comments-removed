@@ -1375,7 +1375,7 @@ LOCAL_GL_PIXEL_UNPACK_BUFFER
 mPixelBuffer
 )
 ;
-PRInt32
+int32_t
 length
 =
 size
@@ -1678,7 +1678,7 @@ false
 GLuint
 mPixelBuffer
 ;
-PRInt32
+int32_t
 mPixelBufferSize
 ;
 bool

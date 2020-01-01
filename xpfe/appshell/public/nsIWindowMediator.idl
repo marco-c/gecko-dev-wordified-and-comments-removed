@@ -1216,7 +1216,7 @@ level
 [
 noscript
 ]
-PRUint32
+uint32_t
 getZLevel
 (
 in
@@ -1314,7 +1314,7 @@ in
 nsIXULWindow
 aWindow
 in
-PRUint32
+uint32_t
 aZLevel
 )
 ;

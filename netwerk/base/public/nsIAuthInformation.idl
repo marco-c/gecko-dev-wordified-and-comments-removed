@@ -189,7 +189,7 @@ host
 *
 /
 const
-PRUint32
+uint32_t
 AUTH_HOST
 =
 1
@@ -208,7 +208,7 @@ proxy
 *
 /
 const
-PRUint32
+uint32_t
 AUTH_PROXY
 =
 2
@@ -244,7 +244,7 @@ value
 *
 /
 const
-PRUint32
+uint32_t
 NEED_DOMAIN
 =
 4
@@ -337,7 +337,7 @@ NEED_DOMAIN
 *
 /
 const
-PRUint32
+uint32_t
 ONLY_PASSWORD
 =
 8
@@ -399,7 +399,7 @@ Section
 *
 /
 const
-PRUint32
+uint32_t
 PREVIOUS_FAILED
 =
 16

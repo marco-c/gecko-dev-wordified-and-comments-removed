@@ -19,7 +19,7 @@ FramePointerStackWalk
 (
 NS_WalkStackCallback
 aCallback
-PRUint32
+uint32_t
 aSkipFrames
 void
 *

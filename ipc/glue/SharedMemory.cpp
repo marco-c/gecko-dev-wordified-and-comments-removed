@@ -37,15 +37,15 @@ namespace
 ipc
 {
 static
-PRInt64
+int64_t
 gShmemAllocated
 ;
 static
-PRInt64
+int64_t
 gShmemMapped
 ;
 static
-PRInt64
+int64_t
 GetShmemAllocated
 (
 )
@@ -55,7 +55,7 @@ gShmemAllocated
 ;
 }
 static
-PRInt64
+int64_t
 GetShmemMapped
 (
 )
@@ -267,7 +267,7 @@ NS_ABORT_IF_FALSE
 gShmemMapped
 >
 =
-PRInt64
+int64_t
 (
 mMappedSize
 )
@@ -305,7 +305,7 @@ NS_ABORT_IF_FALSE
 gShmemAllocated
 >
 =
-PRInt64
+int64_t
 (
 mAllocSize
 )

@@ -110,14 +110,14 @@ JSObject
 proto
 unsigned
 extraFlags
-PRUint32
+uint32_t
 ifacec
 const
 nsIID
 *
 *
 interfaces
-PRUint32
+uint32_t
 tableSize
 const
 xpc_qsHashEntry
@@ -288,7 +288,7 @@ xpc_qsInt64ToJsval
 JSContext
 *
 cx
-PRInt64
+int64_t
 i
 jsval
 *
@@ -320,7 +320,7 @@ xpc_qsUint64ToJsval
 JSContext
 *
 cx
-PRUint64
+uint64_t
 u
 jsval
 *
@@ -617,7 +617,7 @@ traits
 :
 :
 sEmptyBuffer
-PRUint32
+uint32_t
 (
 0
 )
@@ -1083,7 +1083,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 interfaceBit
 nsISupports
 *
@@ -1560,7 +1560,7 @@ JSContext
 cx
 jsval
 v
-PRUint32
+uint32_t
 bit
 nsISupports
 *
@@ -1741,9 +1741,9 @@ inline
 bool
 xpc_qsSameResult
 (
-PRInt32
+int32_t
 result1
-PRInt32
+int32_t
 result2
 )
 {

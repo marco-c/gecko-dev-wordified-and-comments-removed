@@ -170,7 +170,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -389,7 +389,7 @@ rv
 1
 ;
 }
-PRUint8
+uint8_t
 r
 =
 NS_GET_R
@@ -397,7 +397,7 @@ NS_GET_R
 rgb
 )
 ;
-PRUint8
+uint8_t
 g
 =
 NS_GET_G
@@ -405,7 +405,7 @@ NS_GET_G
 rgb
 )
 ;
-PRUint8
+uint8_t
 b
 =
 NS_GET_B
@@ -413,7 +413,7 @@ NS_GET_B
 rgb
 )
 ;
-PRUint8
+uint8_t
 a
 =
 NS_GET_A
@@ -535,7 +535,7 @@ rv
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

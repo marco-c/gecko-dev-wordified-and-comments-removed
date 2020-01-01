@@ -33,10 +33,10 @@ PR_UINT16_MAX
 nsresult
 mCondition
 ;
-PRUint16
+uint16_t
 mPollFlags
 ;
-PRUint16
+uint16_t
 mPollTimeout
 ;
 virtual
@@ -46,7 +46,7 @@ OnSocketReady
 PRFileDesc
 *
 fd
-PRInt16
+int16_t
 outFlags
 )
 =

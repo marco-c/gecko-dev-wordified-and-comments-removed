@@ -43,7 +43,7 @@ CToken
 :
 CToken
 (
-PRInt32
+int32_t
 aTag
 )
 {
@@ -146,7 +146,7 @@ aChar
 nsScanner
 &
 aScanner
-PRInt32
+int32_t
 aMode
 )
 {
@@ -201,7 +201,7 @@ GetStringValue
 )
 ;
 }
-PRInt32
+int32_t
 CToken
 :
 :
@@ -214,7 +214,7 @@ return
 mTypeID
 ;
 }
-PRInt16
+int16_t
 CToken
 :
 :
@@ -227,7 +227,7 @@ return
 mAttrCount
 ;
 }
-PRInt32
+int32_t
 CToken
 :
 :

@@ -624,7 +624,7 @@ scheme
 "
 )
 ;
-PRInt32
+int32_t
 i
 =
 mURI

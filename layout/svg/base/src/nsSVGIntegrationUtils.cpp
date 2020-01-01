@@ -2135,7 +2135,7 @@ nsIFrame
 aNonSVGFrame
 )
 {
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 aNonSVGFrame
@@ -2373,7 +2373,7 @@ Invert
 )
 )
 ;
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 mFrame
@@ -2851,7 +2851,7 @@ IsEmpty
 )
 return
 ;
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 aTarget

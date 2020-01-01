@@ -312,7 +312,7 @@ aInstalls
 optional
 ]
 in
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -415,7 +415,7 @@ aInstalls
 optional
 ]
 in
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -514,7 +514,7 @@ aInstalls
 optional
 ]
 in
-PRUint32
+uint32_t
 aCount
 )
 ;
@@ -653,7 +653,7 @@ aInstalls
 optional
 ]
 in
-PRUint32
+uint32_t
 aCount
 )
 ;

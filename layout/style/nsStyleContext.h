@@ -699,7 +699,7 @@ void
 AddStyleBit
 (
 const
-PRUint32
+uint32_t
 &
 aBit
 )
@@ -876,7 +876,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 ;
@@ -1206,10 +1206,10 @@ mCachedResetData
 nsInheritedStyleData
 mCachedInheritedData
 ;
-PRUint32
+uint32_t
 mBits
 ;
-PRUint32
+uint32_t
 mRefCnt
 ;
 }

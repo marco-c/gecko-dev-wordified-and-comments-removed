@@ -223,7 +223,7 @@ GetSingleton
 )
 ;
 }
-PRUint16
+uint16_t
 GetDatabaseStatus
 (
 )
@@ -621,14 +621,14 @@ mutable
 StatementCache
 mAsyncThreadStatements
 ;
-PRInt32
+int32_t
 mDBPageSize
 ;
 enum
 JournalMode
 mCurrentJournalMode
 ;
-PRUint16
+uint16_t
 mDatabaseStatus
 ;
 bool

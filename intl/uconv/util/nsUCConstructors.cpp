@@ -61,7 +61,7 @@ rv
 NS_METHOD
 CreateMultiTableDecoder
 (
-PRInt32
+int32_t
 aTableCount
 const
 uRange
@@ -74,7 +74,7 @@ uMappingTable
 *
 *
 aMappingTable
-PRUint32
+uint32_t
 aMaxLengthFactor
 nsISupports
 *
@@ -128,7 +128,7 @@ aResult
 NS_METHOD
 CreateMultiTableEncoder
 (
-PRInt32
+int32_t
 aTableCount
 uScanClassID
 *
@@ -141,7 +141,7 @@ uMappingTable
 *
 *
 aMappingTable
-PRUint32
+uint32_t
 aMaxLengthFactor
 nsISupports
 *
@@ -195,7 +195,7 @@ aResult
 NS_METHOD
 CreateMultiTableEncoder
 (
-PRInt32
+int32_t
 aTableCount
 uScanClassID
 *
@@ -204,7 +204,7 @@ uMappingTable
 *
 *
 aMappingTable
-PRUint32
+uint32_t
 aMaxLengthFactor
 nsISupports
 *
@@ -242,7 +242,7 @@ aShiftOutTable
 uMappingTable
 *
 aMappingTable
-PRUint32
+uint32_t
 aMaxLengthFactor
 nsISupports
 *
@@ -300,7 +300,7 @@ aScanClass
 uMappingTable
 *
 aMappingTable
-PRUint32
+uint32_t
 aMaxLengthFactor
 nsISupports
 *
@@ -337,7 +337,7 @@ aShiftInTable
 uMappingTable
 *
 aMappingTable
-PRUint32
+uint32_t
 aMaxLengthFactor
 nsISupports
 *

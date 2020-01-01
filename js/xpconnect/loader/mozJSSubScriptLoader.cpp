@@ -504,7 +504,7 @@ LOAD_ERROR_NOSTREAM
 )
 ;
 }
-PRInt32
+int32_t
 len
 =
 -
@@ -647,7 +647,7 @@ nullptr
 reinterpret_cast
 <
 const
-PRUint8
+uint8_t
 *
 >
 (

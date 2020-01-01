@@ -147,7 +147,7 @@ Invalidate
 void
 AddCell
 (
-PRInt32
+int32_t
 aIndex
 nsITreeColumn
 *
@@ -193,7 +193,7 @@ protected
 void
 AddRow
 (
-PRInt32
+int32_t
 aIndex
 )
 ;
@@ -211,7 +211,7 @@ get
 )
 ;
 }
-PRInt32
+int32_t
 GetMin
 (
 )
@@ -220,7 +220,7 @@ return
 mMin
 ;
 }
-PRInt32
+int32_t
 GetMax
 (
 )
@@ -260,10 +260,10 @@ nsITreeColumn
 >
 mCol
 ;
-PRInt32
+int32_t
 mMin
 ;
-PRInt32
+int32_t
 mMax
 ;
 InvalidationArea

@@ -284,12 +284,12 @@ Init
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 )
 ;
@@ -359,7 +359,7 @@ nsIDOMNode
 >
 mStartNode
 ;
-PRInt32
+int32_t
 mStartOffset
 ;
 nsCOMPtr
@@ -368,7 +368,7 @@ nsIDOMNode
 >
 mEndNode
 ;
-PRInt32
+int32_t
 mEndOffset
 ;
 nsCOMPtr
@@ -420,12 +420,12 @@ Init
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -1201,7 +1201,7 @@ editor
 )
 return
 ;
-PRUint32
+uint32_t
 editorFlags
 =
 0
@@ -1725,12 +1725,12 @@ InitIterator
 nsIDOMNode
 *
 aStartNode
-PRInt32
+int32_t
 aStartOffset
 nsIDOMNode
 *
 aEndNode
-PRInt32
+int32_t
 aEndOffset
 )
 {
@@ -2050,7 +2050,7 @@ nsIDOMNode
 >
 endNode
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -2763,7 +2763,7 @@ nsIDOMNode
 aNode
 )
 {
-PRUint16
+uint16_t
 nodeType
 ;
 aNode
@@ -3449,7 +3449,7 @@ get
 (
 )
 ;
-PRInt32
+int32_t
 patLen
 =
 patAutoStr
@@ -3460,7 +3460,7 @@ Length
 -
 1
 ;
-PRInt32
+int32_t
 pindex
 =
 (
@@ -3471,7 +3471,7 @@ patLen
 0
 )
 ;
-PRInt32
+int32_t
 findex
 =
 0
@@ -3501,7 +3501,7 @@ frag
 =
 nullptr
 ;
-PRInt32
+int32_t
 fragLen
 =
 0
@@ -3531,7 +3531,7 @@ nsIDOMNode
 >
 matchAnchorNode
 ;
-PRInt32
+int32_t
 matchAnchorOffset
 =
 0
@@ -3542,7 +3542,7 @@ nsIDOMNode
 >
 endNode
 ;
-PRInt32
+int32_t
 endOffset
 ;
 aEndPoint
@@ -4393,7 +4393,7 @@ prevChar
 )
 )
 {
-PRInt32
+int32_t
 nindex
 =
 findex
@@ -4584,11 +4584,11 @@ if
 range
 )
 {
-PRInt32
+int32_t
 matchStartOffset
 matchEndOffset
 ;
-PRInt32
+int32_t
 mao
 =
 matchAnchorOffset

@@ -287,7 +287,7 @@ mEvent
 mDetail
 =
 (
-PRInt32
+int32_t
 )
 scrollEvent
 -
@@ -649,7 +649,7 @@ nsDOMUIEvent
 :
 GetDetail
 (
-PRInt32
+int32_t
 *
 aDetail
 )
@@ -680,7 +680,7 @@ cancelableArg
 nsIDOMWindow
 *
 viewArg
-PRInt32
+int32_t
 detailArg
 )
 {
@@ -889,7 +889,7 @@ nsDOMUIEvent
 :
 GetPageX
 (
-PRInt32
+int32_t
 *
 aPageX
 )
@@ -944,7 +944,7 @@ nsDOMUIEvent
 :
 GetPageY
 (
-PRInt32
+int32_t
 *
 aPageY
 )
@@ -999,7 +999,7 @@ nsDOMUIEvent
 :
 GetWhich
 (
-PRUint32
+uint32_t
 *
 aWhich
 )
@@ -1139,7 +1139,7 @@ nsDOMUIEvent
 :
 GetRangeOffset
 (
-PRInt32
+int32_t
 *
 aRangeOffset
 )
@@ -1472,7 +1472,7 @@ nsDOMUIEvent
 :
 GetLayerX
 (
-PRInt32
+int32_t
 *
 aLayerX
 )
@@ -1501,7 +1501,7 @@ nsDOMUIEvent
 :
 GetLayerY
 (
-PRInt32
+int32_t
 *
 aLayerY
 )
@@ -1741,7 +1741,7 @@ aMsg
 false
 )
 ;
-PRInt32
+int32_t
 detail
 =
 0
@@ -1981,7 +1981,7 @@ listEnd
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

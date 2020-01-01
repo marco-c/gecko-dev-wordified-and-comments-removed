@@ -859,7 +859,7 @@ nsIContent
 *
 Rollup
 (
-PRUint32
+uint32_t
 aCount
 bool
 aGetLastRolledUp
@@ -880,7 +880,7 @@ ShouldRollupOnMouseActivate
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetSubmenuWidgetChain
 (
 nsTArray
@@ -992,7 +992,7 @@ nsIDOMNode
 *
 *
 aNode
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -1022,9 +1022,9 @@ const
 nsAString
 &
 aPosition
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 bool
 aIsContextMenu
@@ -1043,9 +1043,9 @@ ShowPopupAtScreen
 nsIContent
 *
 aPopup
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 bool
 aIsContextMenu
@@ -1063,9 +1063,9 @@ aPopup
 nsIContent
 *
 aTriggerContent
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 )
 ;
@@ -1084,9 +1084,9 @@ aAnchor
 nsAString
 &
 aAlign
-PRInt32
+int32_t
 aXPos
-PRInt32
+int32_t
 aYPos
 bool
 aIsContextMenu
@@ -1296,7 +1296,7 @@ aFrame
 bool
 HandleKeyboardNavigation
 (
-PRUint32
+uint32_t
 aKeyCode
 )
 ;
@@ -1566,7 +1566,7 @@ nsIDOMNode
 >
 mRangeParent
 ;
-PRInt32
+int32_t
 mRangeOffset
 ;
 nsIntPoint

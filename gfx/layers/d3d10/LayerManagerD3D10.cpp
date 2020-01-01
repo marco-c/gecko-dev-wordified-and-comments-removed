@@ -4082,7 +4082,7 @@ msg
 .
 AppendInt
 (
-PRUint32
+uint32_t
 (
 aCode
 )
@@ -4129,7 +4129,7 @@ LayerD3D10
 :
 SelectShader
 (
-PRUint8
+uint8_t
 aFlags
 )
 {
@@ -4586,7 +4586,7 @@ nullptr
 ;
 }
 }
-PRUint8
+uint8_t
 LayerD3D10
 :
 :

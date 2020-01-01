@@ -276,7 +276,7 @@ nsITimer
 >
 mRepeatTimer
 ;
-PRInt32
+int32_t
 mDelta
 ;
 nsListBoxBodyFrame
@@ -745,7 +745,7 @@ this
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -802,12 +802,12 @@ nsListBoxBodyFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1182,7 +1182,7 @@ GetPrefSize
 aBoxLayoutState
 )
 ;
-PRInt32
+int32_t
 size
 =
 GetFixedRowSize
@@ -1275,9 +1275,9 @@ PositionChanged
 nsScrollbarFrame
 *
 aScrollbar
-PRInt32
+int32_t
 aOldIndex
-PRInt32
+int32_t
 &
 aNewIndex
 )
@@ -1315,7 +1315,7 @@ CSSPixelsToAppUnits
 aNewIndex
 )
 ;
-PRInt32
+int32_t
 twipDelta
 =
 newTwipIndex
@@ -1330,14 +1330,14 @@ oldTwipIndex
 -
 newTwipIndex
 ;
-PRInt32
+int32_t
 rowDelta
 =
 twipDelta
 /
 mRowHeight
 ;
-PRInt32
+int32_t
 remainder
 =
 twipDelta
@@ -1368,7 +1368,7 @@ rowDelta
 return
 NS_OK
 ;
-PRInt32
+int32_t
 newIndex
 =
 newTwipIndex
@@ -1503,7 +1503,7 @@ mRowHeight
 return
 NS_OK
 ;
-PRInt32
+int32_t
 lastPageTopRow
 =
 GetRowCount
@@ -1528,7 +1528,7 @@ lastPageTopRow
 =
 0
 ;
-PRInt32
+int32_t
 delta
 =
 mCurrentIndex
@@ -1566,9 +1566,9 @@ ScrollbarButtonPressed
 nsScrollbarFrame
 *
 aScrollbar
-PRInt32
+int32_t
 aOldIndex
-PRInt32
+int32_t
 aNewIndex
 )
 {
@@ -1679,7 +1679,7 @@ eStyleChange
 NS_FRAME_IS_DIRTY
 )
 ;
-PRInt32
+int32_t
 pos
 =
 mCurrentIndex
@@ -1729,7 +1729,7 @@ nsListBoxBodyFrame
 :
 GetRowCount
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -1751,7 +1751,7 @@ nsListBoxBodyFrame
 :
 GetNumberOfVisibleRows
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -1779,7 +1779,7 @@ nsListBoxBodyFrame
 :
 GetIndexOfFirstVisibleRow
 (
-PRInt32
+int32_t
 *
 aResult
 )
@@ -1799,7 +1799,7 @@ nsListBoxBodyFrame
 :
 EnsureIndexIsVisible
 (
-PRInt32
+int32_t
 aRowIndex
 )
 {
@@ -1812,7 +1812,7 @@ aRowIndex
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
-PRInt32
+int32_t
 rows
 =
 0
@@ -1840,7 +1840,7 @@ rows
 =
 1
 ;
-PRInt32
+int32_t
 bottomIndex
 =
 mCurrentIndex
@@ -1862,7 +1862,7 @@ bottomIndex
 return
 NS_OK
 ;
-PRInt32
+int32_t
 delta
 ;
 bool
@@ -1934,11 +1934,11 @@ nsListBoxBodyFrame
 :
 ScrollByLines
 (
-PRInt32
+int32_t
 aNumLines
 )
 {
-PRInt32
+int32_t
 scrollIndex
 visibleRows
 ;
@@ -1971,14 +1971,14 @@ scrollIndex
 ;
 else
 {
-PRInt32
+int32_t
 numRows
 =
 GetRowCount
 (
 )
 ;
-PRInt32
+int32_t
 lastPageTopRow
 =
 numRows
@@ -2014,7 +2014,7 @@ GetIndexOfItem
 nsIDOMElement
 *
 aItem
-PRInt32
+int32_t
 *
 _retval
 )
@@ -2130,7 +2130,7 @@ nsListBoxBodyFrame
 :
 GetItemAtIndex
 (
-PRInt32
+int32_t
 aIndex
 nsIDOMElement
 *
@@ -2152,7 +2152,7 @@ aIndex
 return
 NS_OK
 ;
-PRInt32
+int32_t
 itemCount
 =
 0
@@ -2236,7 +2236,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 nsListBoxBodyFrame
 :
 :
@@ -2258,7 +2258,7 @@ return
 mRowCount
 ;
 }
-PRInt32
+int32_t
 nsListBoxBodyFrame
 :
 :
@@ -2449,7 +2449,7 @@ largestWidth
 =
 0
 ;
-PRInt32
+int32_t
 index
 =
 0
@@ -2608,7 +2608,7 @@ ChildIterator
 iter
 last
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -2688,7 +2688,7 @@ rendContext
 nsAutoString
 value
 ;
-PRUint32
+uint32_t
 textCount
 =
 child
@@ -2700,7 +2700,7 @@ GetChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -2933,7 +2933,7 @@ nsListBoxBodyFrame
 :
 ScrollToIndex
 (
-PRInt32
+int32_t
 aRowIndex
 )
 {
@@ -2956,12 +2956,12 @@ mRowHeight
 return
 NS_OK
 ;
-PRInt32
+int32_t
 newIndex
 =
 aRowIndex
 ;
-PRInt32
+int32_t
 delta
 =
 mCurrentIndex
@@ -2983,7 +2983,7 @@ newIndex
 <
 mCurrentIndex
 ;
-PRInt32
+int32_t
 lastPageTopRow
 =
 GetRowCount
@@ -3148,7 +3148,7 @@ InternalPositionChanged
 (
 bool
 aUp
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -3218,7 +3218,7 @@ DoInternalPositionChangedSync
 (
 bool
 aUp
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -3246,7 +3246,7 @@ mPendingPositionChangeEvents
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3325,7 +3325,7 @@ DoInternalPositionChanged
 (
 bool
 aUp
-PRInt32
+int32_t
 aDelta
 )
 {
@@ -3400,7 +3400,7 @@ NS_OK
 nsAutoScriptBlocker
 scriptBlocker
 ;
-PRInt32
+int32_t
 visibleRows
 =
 0
@@ -3424,7 +3424,7 @@ aDelta
 visibleRows
 )
 {
-PRInt32
+int32_t
 loseRows
 =
 aDelta
@@ -3634,7 +3634,7 @@ end
 start
 )
 ;
-PRInt32
+int32_t
 newTime
 ;
 LL_L2I
@@ -3711,7 +3711,7 @@ nsListBoxBodyFrame
 :
 VerticalScroll
 (
-PRInt32
+int32_t
 aPosition
 )
 {
@@ -3966,7 +3966,7 @@ nsListBoxBodyFrame
 :
 DestroyRows
 (
-PRInt32
+int32_t
 &
 aRowsToLose
 )
@@ -4084,7 +4084,7 @@ nsListBoxBodyFrame
 :
 ReverseDestroyRows
 (
-PRInt32
+int32_t
 &
 aRowsToLose
 )
@@ -4295,7 +4295,7 @@ nsListBoxBodyFrame
 :
 GetFirstItemBox
 (
-PRInt32
+int32_t
 aOffset
 bool
 *
@@ -4405,7 +4405,7 @@ GetParent
 (
 )
 ;
-PRInt32
+int32_t
 contentIndex
 =
 topParent
@@ -4620,7 +4620,7 @@ GetNextItemBox
 nsIFrame
 *
 aBox
-PRInt32
+int32_t
 aOffset
 bool
 *
@@ -4686,7 +4686,7 @@ GetParent
 (
 )
 ;
-PRInt32
+int32_t
 i
 =
 parentContent
@@ -4697,7 +4697,7 @@ IndexOf
 prevContent
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 parentContent
@@ -4711,7 +4711,7 @@ if
 (
 (
 (
-PRUint32
+uint32_t
 )
 i
 +
@@ -5307,7 +5307,7 @@ childFrame
 )
 return
 ;
-PRInt32
+int32_t
 siblingIndex
 ;
 nsCOMPtr
@@ -5472,7 +5472,7 @@ if
 aChildFrame
 )
 {
-PRInt32
+int32_t
 siblingIndex
 =
 -
@@ -5698,7 +5698,7 @@ nsListBoxBodyFrame
 :
 GetListItemContentAt
 (
-PRInt32
+int32_t
 aIndex
 nsIContent
 *
@@ -5711,7 +5711,7 @@ aContent
 =
 nullptr
 ;
-PRInt32
+int32_t
 itemsFound
 =
 0
@@ -5813,7 +5813,7 @@ nsIContent
 *
 *
 aContent
-PRInt32
+int32_t
 &
 aSiblingIndex
 )

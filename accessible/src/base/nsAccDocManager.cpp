@@ -411,7 +411,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aStateFlags
 nsresult
 aStatus
@@ -554,7 +554,7 @@ aStateFlags
 ;
 #
 endif
-PRUint32
+uint32_t
 eventType
 =
 nsIAccessibleEvent
@@ -591,7 +591,7 @@ if
 aRequest
 )
 {
-PRUint32
+uint32_t
 loadFlags
 =
 0
@@ -715,7 +715,7 @@ isReloading
 =
 false
 ;
-PRUint32
+uint32_t
 loadType
 ;
 docShell
@@ -782,13 +782,13 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRInt32
+int32_t
 aCurSelfProgress
-PRInt32
+int32_t
 aMaxSelfProgress
-PRInt32
+int32_t
 aCurTotalProgress
-PRInt32
+int32_t
 aMaxTotalProgress
 )
 {
@@ -826,7 +826,7 @@ aRequest
 nsIURI
 *
 aLocation
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -900,7 +900,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-PRUint32
+uint32_t
 aState
 )
 {
@@ -1156,7 +1156,7 @@ HandleDOMDocumentLoad
 nsIDocument
 *
 aDocument
-PRUint32
+uint32_t
 aLoadEventType
 )
 {

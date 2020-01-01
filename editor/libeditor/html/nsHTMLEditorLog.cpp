@@ -822,7 +822,7 @@ nsHTMLEditorLog
 :
 Undo
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -889,7 +889,7 @@ nsHTMLEditorLog
 :
 Redo
 (
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1335,7 +1335,7 @@ nsHTMLEditorLog
 :
 Paste
 (
-PRInt32
+int32_t
 aClipboardType
 )
 {
@@ -1406,7 +1406,7 @@ nsHTMLEditorLog
 :
 PasteAsQuotation
 (
-PRInt32
+int32_t
 aClipboardType
 )
 {
@@ -1477,7 +1477,7 @@ nsHTMLEditorLog
 :
 PasteAsPlaintextQuotation
 (
-PRInt32
+int32_t
 aClipboardType
 )
 {
@@ -1552,7 +1552,7 @@ const
 nsAString
 &
 aCitation
-PRInt32
+int32_t
 aClipboardType
 )
 {
@@ -2098,7 +2098,7 @@ nsHTMLEditorLog
 :
 InsertTableCell
 (
-PRInt32
+int32_t
 aNumber
 bool
 aAfter
@@ -2187,7 +2187,7 @@ nsHTMLEditorLog
 :
 InsertTableColumn
 (
-PRInt32
+int32_t
 aNumber
 bool
 aAfter
@@ -2276,7 +2276,7 @@ nsHTMLEditorLog
 :
 InsertTableRow
 (
-PRInt32
+int32_t
 aNumber
 bool
 aAfter
@@ -2418,7 +2418,7 @@ nsHTMLEditorLog
 :
 DeleteTableCell
 (
-PRInt32
+int32_t
 aNumber
 )
 {
@@ -2538,7 +2538,7 @@ nsHTMLEditorLog
 :
 DeleteTableColumn
 (
-PRInt32
+int32_t
 aNumber
 )
 {
@@ -2605,7 +2605,7 @@ nsHTMLEditorLog
 :
 DeleteTableRow
 (
-PRInt32
+int32_t
 aNumber
 )
 {
@@ -3699,7 +3699,7 @@ aBuffer
 NS_ERROR_NULL_POINTER
 )
 ;
-PRInt32
+int32_t
 len
 =
 strlen
@@ -3712,7 +3712,7 @@ if
 mFileStream
 )
 {
-PRUint32
+uint32_t
 retval
 ;
 result
@@ -3774,7 +3774,7 @@ nsHTMLEditorLog
 :
 WriteInt
 (
-PRInt32
+int32_t
 aInt
 )
 {
@@ -3992,7 +3992,7 @@ selection
 nsresult
 result
 ;
-PRInt32
+int32_t
 rangeCount
 ;
 result
@@ -4037,7 +4037,7 @@ selRanges
 "
 )
 ;
-PRInt32
+int32_t
 i
 j
 ;
@@ -4059,7 +4059,7 @@ nsIDOMNode
 >
 endNode
 ;
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -4182,13 +4182,13 @@ result
 result
 )
 ;
-PRInt32
+int32_t
 *
 offsetArray
 =
 0
 ;
-PRInt32
+int32_t
 arrayLength
 =
 0
@@ -4433,7 +4433,7 @@ PrintElementNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aDepth
 )
 {
@@ -4555,7 +4555,7 @@ map
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint32
+uint32_t
 i
 len
 ;
@@ -4659,7 +4659,7 @@ PrintAttributeNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aDepth
 )
 {
@@ -4853,7 +4853,7 @@ PrintNodeChildren
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aDepth
 )
 {
@@ -4901,7 +4901,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 i
 len
 ;
@@ -5032,7 +5032,7 @@ PrintTextNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aDepth
 )
 {
@@ -5134,7 +5134,7 @@ PrintNode
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aDepth
 )
 {
@@ -5149,7 +5149,7 @@ aNode
 NS_ERROR_NULL_POINTER
 )
 ;
-PRUint16
+uint16_t
 nodeType
 ;
 result
@@ -5292,11 +5292,11 @@ GetNodeTreeOffsets
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 *
 *
 aResult
-PRInt32
+int32_t
 *
 aLength
 )
@@ -5332,7 +5332,7 @@ parent
 =
 aNode
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -5372,7 +5372,7 @@ i
 aResult
 =
 new
-PRInt32
+int32_t
 [
 i
 ]
@@ -5398,7 +5398,7 @@ i
 0
 )
 {
-PRInt32
+int32_t
 offset
 =
 0

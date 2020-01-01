@@ -111,7 +111,7 @@ output
 return
 false
 ;
-PRUint32
+uint32_t
 n
 =
 0

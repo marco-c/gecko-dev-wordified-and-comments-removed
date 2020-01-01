@@ -138,15 +138,15 @@ PRUnichar
 *
 buffer
 ;
-PRInt32
+int32_t
 start
 ;
-PRInt32
+int32_t
 end
 ;
 public
 :
-PRInt32
+int32_t
 getStart
 (
 )
@@ -154,7 +154,7 @@ getStart
 void
 setStart
 (
-PRInt32
+int32_t
 start
 )
 ;
@@ -164,7 +164,7 @@ getBuffer
 (
 )
 ;
-PRInt32
+int32_t
 getEnd
 (
 )
@@ -184,7 +184,7 @@ lastWasCR
 void
 setEnd
 (
-PRInt32
+int32_t
 end
 )
 ;

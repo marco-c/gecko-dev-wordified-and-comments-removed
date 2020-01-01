@@ -273,7 +273,7 @@ false
 nsresult
 SetModDate
 (
-PRInt64
+int64_t
 aLastModifiedTime
 const
 PRUnichar

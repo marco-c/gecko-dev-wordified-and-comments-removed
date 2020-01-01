@@ -70,7 +70,7 @@ static
 char
 int_to_hex_digit
 (
-PRInt32
+int32_t
 i
 )
 {
@@ -280,7 +280,7 @@ allCharsAsString
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 1
@@ -661,7 +661,7 @@ noenc
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 33
@@ -725,7 +725,7 @@ yesExpectedString
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 1
@@ -1647,7 +1647,7 @@ const
 char
 *
 in
-PRUint32
+uint32_t
 bytes
 bool
 allowOctal

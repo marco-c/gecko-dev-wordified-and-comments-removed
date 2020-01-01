@@ -653,7 +653,7 @@ nsEventSource
 :
 GetReadyState
 (
-PRInt32
+int32_t
 *
 aReadyState
 )
@@ -1431,7 +1431,7 @@ aContext
 JSObject
 *
 aObject
-PRUint32
+uint32_t
 aArgc
 jsval
 *
@@ -2140,11 +2140,11 @@ const
 char
 *
 aFromRawSegment
-PRUint32
+uint32_t
 aToOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )
@@ -2197,7 +2197,7 @@ aWriteCount
 =
 0
 ;
-PRInt32
+int32_t
 srcCount
 outCount
 ;
@@ -2310,7 +2310,7 @@ else
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2420,9 +2420,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -2445,7 +2445,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 totalRead
 ;
 return
@@ -2796,7 +2796,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -4452,7 +4452,7 @@ PRUnichar
 *
 *
 aFormatStrings
-PRUint32
+uint32_t
 aFormatStringsLen
 )
 {
@@ -5095,7 +5095,7 @@ srcToTest
 false
 )
 ;
-PRUint32
+uint32_t
 aCheckURIFlags
 =
 nsIScriptSecurityManager
@@ -5169,7 +5169,7 @@ rv
 false
 )
 ;
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -5717,7 +5717,7 @@ mLastEventID
 )
 ;
 }
-PRInt32
+int32_t
 sizeBefore
 =
 mMessagesToDispatch
@@ -6346,12 +6346,12 @@ retry
 )
 )
 {
-PRUint32
+uint32_t
 newValue
 =
 0
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -6428,7 +6428,7 @@ newValue
 (
 (
 (
-PRUint32
+uint32_t
 )
 mLastFieldValue
 .
@@ -6440,7 +6440,7 @@ i
 -
 (
 (
-PRUint32
+uint32_t
 )
 (
 (

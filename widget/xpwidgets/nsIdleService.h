@@ -71,7 +71,7 @@ nsIObserver
 >
 observer
 ;
-PRUint32
+uint32_t
 reqIdleTime
 ;
 bool
@@ -82,7 +82,7 @@ IdleListener
 nsIObserver
 *
 obs
-PRUint32
+uint32_t
 reqIT
 bool
 aIsIdle
@@ -219,7 +219,7 @@ virtual
 bool
 PollIdleTime
 (
-PRUint32
+uint32_t
 *
 aIdleTime
 )
@@ -263,7 +263,7 @@ mDailyIdle
 bool
 mAnyObserverIdle
 ;
-PRUint32
+uint32_t
 mDeltaToNextIdleSwitchInS
 ;
 PRTime

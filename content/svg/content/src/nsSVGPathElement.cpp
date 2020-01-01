@@ -377,7 +377,7 @@ GetPathSegAtLength
 (
 float
 distance
-PRUint32
+uint32_t
 *
 _retval
 )

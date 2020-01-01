@@ -432,7 +432,7 @@ BUTTON_TITLE_NO
 BUTTON_POS_1
 )
 ;
-PRInt32
+int32_t
 confirmEx
 (
 in
@@ -535,7 +535,7 @@ in
 wstring
 text
 in
-PRUint32
+uint32_t
 count
 [
 array

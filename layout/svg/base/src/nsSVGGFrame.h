@@ -116,12 +116,12 @@ endif
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -129,7 +129,7 @@ virtual
 void
 NotifySVGChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -137,7 +137,7 @@ virtual
 gfxMatrix
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 ;

@@ -198,13 +198,13 @@ void
 startRedirect
 (
 in
-PRUint32
+uint32_t
 newChannelId
 in
 nsIChannel
 newChannel
 in
-PRUint32
+uint32_t
 redirectFlags
 in
 nsIAsyncVerifyRedirectCallback

@@ -270,7 +270,7 @@ nsDOMTimeEvent
 :
 GetDetail
 (
-PRInt32
+int32_t
 *
 aDetail
 )
@@ -297,7 +297,7 @@ aTypeArg
 nsIDOMWindow
 *
 aViewArg
-PRInt32
+int32_t
 aDetailArg
 )
 {

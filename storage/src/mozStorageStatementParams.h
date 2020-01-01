@@ -66,7 +66,7 @@ mozIStorageStatement
 *
 mStatement
 ;
-PRUint32
+uint32_t
 mParamCount
 ;
 friend

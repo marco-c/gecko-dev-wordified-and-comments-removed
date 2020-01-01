@@ -71,7 +71,7 @@ nsWebBrowserContentPolicy
 :
 ShouldLoad
 (
-PRUint32
+uint32_t
 contentType
 nsIURI
 *
@@ -92,7 +92,7 @@ extra
 nsIPrincipal
 *
 requestPrincipal
-PRInt16
+int16_t
 *
 shouldLoad
 )
@@ -265,7 +265,7 @@ nsWebBrowserContentPolicy
 :
 ShouldProcess
 (
-PRUint32
+uint32_t
 contentType
 nsIURI
 *
@@ -286,7 +286,7 @@ extra
 nsIPrincipal
 *
 requestPrincipal
-PRInt16
+int16_t
 *
 shouldProcess
 )

@@ -182,7 +182,7 @@ redirected
 .
 *
 /
-PRUint32
+uint32_t
 registerChannel
 (
 in
@@ -287,7 +287,7 @@ nsIChannel
 linkChannels
 (
 in
-PRUint32
+uint32_t
 id
 in
 nsIParentChannel
@@ -344,7 +344,7 @@ nsIChannel
 getRegisteredChannel
 (
 in
-PRUint32
+uint32_t
 id
 )
 ;
@@ -415,7 +415,7 @@ nsIParentChannel
 getParentChannel
 (
 in
-PRUint32
+uint32_t
 id
 )
 ;
@@ -479,7 +479,7 @@ void
 deregisterChannels
 (
 in
-PRUint32
+uint32_t
 id
 )
 ;

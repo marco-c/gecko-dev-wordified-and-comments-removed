@@ -44,7 +44,7 @@ aPrefix
 nsIAtom
 *
 aLocalName
-PRInt32
+int32_t
 aNSID
 )
 :

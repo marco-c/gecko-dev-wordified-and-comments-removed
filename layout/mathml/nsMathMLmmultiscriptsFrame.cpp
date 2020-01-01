@@ -119,7 +119,7 @@ NS_MATHML_DISPLAYSTYLE
 NS_MATHML_DISPLAYSTYLE
 )
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -224,7 +224,7 @@ GetNextSibling
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 subScriptFrames
@@ -706,7 +706,7 @@ maxSupScriptShift
 =
 supScriptShift
 ;
-PRInt32
+int32_t
 count
 =
 0

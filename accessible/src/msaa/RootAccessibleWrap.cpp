@@ -115,7 +115,7 @@ GetDocumentNode
 )
 )
 {
-PRUint32
+uint32_t
 count
 =
 mChildDocuments
@@ -126,7 +126,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0

@@ -52,7 +52,7 @@ aDoc
 NS_IMETHOD
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -62,7 +62,7 @@ aName
 NS_IMETHOD
 DoAction
 (
-PRUint8
+uint8_t
 index
 )
 ;
@@ -76,13 +76,13 @@ NativeRole
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeState
 (
 )
 ;
 virtual
-PRUint64
+uint64_t
 NativeInteractiveState
 (
 )
@@ -92,12 +92,12 @@ virtual
 Relation
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 ;
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )
@@ -150,7 +150,7 @@ NativeRole
 )
 ;
 virtual
-PRUint8
+uint8_t
 ActionCount
 (
 )
@@ -229,7 +229,7 @@ virtual
 Relation
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 ;

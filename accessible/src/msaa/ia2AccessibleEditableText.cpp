@@ -235,7 +235,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRUint32
+uint32_t
 length
 =
 :
@@ -522,7 +522,7 @@ GetHRESULT
 rv
 )
 ;
-PRUint32
+uint32_t
 length
 =
 :

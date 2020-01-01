@@ -134,7 +134,7 @@ const
 PRUnichar
 *
 selectedNickname
-PRInt32
+int32_t
 certUsage
 bool
 allowInvalid
@@ -152,7 +152,7 @@ _retval
 nsNSSShutDownPreventionLock
 locker
 ;
-PRInt32
+int32_t
 selectedIndex
 =
 -
@@ -359,7 +359,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-PRInt32
+int32_t
 CertsToUse
 ;
 for
@@ -627,7 +627,7 @@ dialogs
 ;
 }
 }
-PRInt32
+int32_t
 i
 ;
 for

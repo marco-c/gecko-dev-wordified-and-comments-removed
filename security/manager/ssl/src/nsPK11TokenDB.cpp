@@ -1034,7 +1034,7 @@ nsPK11Token
 :
 GetMinimumPasswordLength
 (
-PRInt32
+int32_t
 *
 aMinimumPasswordLength
 )
@@ -1128,7 +1128,7 @@ NS_ERROR_NOT_AVAILABLE
 SECStatus
 srv
 ;
-PRInt32
+int32_t
 prerr
 ;
 NS_ConvertUTF16toUTF8
@@ -1287,7 +1287,7 @@ nsPK11Token
 :
 GetAskPasswordTimes
 (
-PRInt32
+int32_t
 *
 rvAskTimes
 )
@@ -1332,7 +1332,7 @@ nsPK11Token
 :
 GetAskPasswordTimeout
 (
-PRInt32
+int32_t
 *
 rvAskTimeout
 )
@@ -1378,10 +1378,10 @@ nsPK11Token
 SetAskPasswordDefaults
 (
 const
-PRInt32
+int32_t
 askTimes
 const
-PRInt32
+int32_t
 askTimeout
 )
 {

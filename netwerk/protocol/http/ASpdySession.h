@@ -55,7 +55,7 @@ AddStream
 (
 nsAHttpTransaction
 *
-PRInt32
+int32_t
 )
 =
 0
@@ -107,13 +107,13 @@ ASpdySession
 *
 NewSpdySession
 (
-PRUint32
+uint32_t
 version
 nsAHttpTransaction
 *
 nsISocketTransport
 *
-PRInt32
+int32_t
 )
 ;
 virtual
@@ -129,7 +129,7 @@ log
 ;
 const
 static
-PRUint32
+uint32_t
 kSendingChunkSize
 =
 4096
@@ -154,7 +154,7 @@ SpdyInformation
 bool
 ProtocolEnabled
 (
-PRUint32
+uint32_t
 index
 )
 ;
@@ -165,7 +165,7 @@ const
 nsACString
 &
 npnString
-PRUint8
+uint8_t
 *
 result
 )
@@ -177,7 +177,7 @@ const
 char
 *
 val
-PRUint8
+uint8_t
 *
 result
 )
@@ -192,7 +192,7 @@ SPDY_VERSION_3
 3
 }
 ;
-PRUint8
+uint8_t
 Version
 [
 2

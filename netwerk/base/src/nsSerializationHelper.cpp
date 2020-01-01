@@ -186,7 +186,7 @@ nsISupports
 obj
 )
 {
-PRUint32
+uint32_t
 size
 =
 str

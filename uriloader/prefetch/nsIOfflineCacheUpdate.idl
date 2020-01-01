@@ -249,7 +249,7 @@ in
 nsIOfflineCacheUpdate
 aUpdate
 in
-PRUint32
+uint32_t
 state
 )
 ;
@@ -923,7 +923,7 @@ far
 /
 readonly
 attribute
-PRUint64
+uint64_t
 byteProgress
 ;
 }

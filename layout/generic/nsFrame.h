@@ -524,7 +524,7 @@ nsStyleContext
 *
 GetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 )
 const
@@ -533,7 +533,7 @@ virtual
 void
 SetAdditionalStyleContext
 (
-PRInt32
+int32_t
 aIndex
 nsStyleContext
 *
@@ -624,7 +624,7 @@ aCursor
 NS_IMETHOD
 GetPointFromOffset
 (
-PRInt32
+int32_t
 inOffset
 nsPoint
 *
@@ -634,11 +634,11 @@ outPoint
 NS_IMETHOD
 GetChildFrameContainingOffset
 (
-PRInt32
+int32_t
 inContentOffset
 bool
 inHint
-PRInt32
+int32_t
 *
 outFrameContentOffset
 nsIFrame
@@ -660,9 +660,9 @@ aPos
 nsIFrame
 *
 aBlockFrame
-PRInt32
+int32_t
 aLineStart
-PRInt8
+int8_t
 aOutSideLimit
 )
 ;
@@ -677,12 +677,12 @@ aInfo
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -780,7 +780,7 @@ IsSelectable
 bool
 *
 aIsSelectable
-PRUint8
+uint8_t
 *
 aSelectStyle
 )
@@ -804,7 +804,7 @@ PeekOffsetNoAmount
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 )
@@ -815,7 +815,7 @@ PeekOffsetCharacter
 (
 bool
 aForward
-PRInt32
+int32_t
 *
 aOffset
 bool
@@ -834,7 +834,7 @@ bool
 aWordSelectEatSpace
 bool
 aIsKeyboardSelect
-PRInt32
+int32_t
 *
 aOffset
 PeekWordState
@@ -865,9 +865,9 @@ CheckVisibility
 nsPresContext
 *
 aContext
-PRInt32
+int32_t
 aStartIndex
-PRInt32
+int32_t
 aEndIndex
 bool
 aRecurse
@@ -882,10 +882,10 @@ _retval
 NS_IMETHOD
 GetOffsets
 (
-PRInt32
+int32_t
 &
 aStart
-PRInt32
+int32_t
 &
 aEnd
 )
@@ -1033,7 +1033,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 MOZ_OVERRIDE
@@ -1240,7 +1240,7 @@ nsSelectionAmount
 aAmountBack
 nsSelectionAmount
 aAmountForward
-PRInt32
+int32_t
 aStartPos
 nsPresContext
 *
@@ -1409,7 +1409,7 @@ aFrameList
 )
 ;
 static
-PRInt32
+int32_t
 ContentIndexInContainer
 (
 const
@@ -1425,7 +1425,7 @@ IndentBy
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 {
@@ -1537,7 +1537,7 @@ aPresContext
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 ;
@@ -1622,7 +1622,7 @@ aFrame
 nsHTMLReflowMetrics
 &
 aMetrics
-PRUint32
+uint32_t
 aStatus
 void
 *
@@ -1792,7 +1792,7 @@ aBuilder
 nsDisplayList
 *
 aList
-PRUint16
+uint16_t
 aContentType
 =
 nsISelectionDisplay
@@ -1801,7 +1801,7 @@ nsISelectionDisplay
 DISPLAY_FRAMES
 )
 ;
-PRInt16
+int16_t
 DisplaySelection
 (
 nsPresContext
@@ -1851,7 +1851,7 @@ aFrame
 )
 ;
 static
-PRInt32
+int32_t
 GetLineNumber
 (
 nsIFrame
@@ -2071,10 +2071,10 @@ nsIContent
 *
 *
 aParentContent
-PRInt32
+int32_t
 *
 aContentOffset
-PRInt32
+int32_t
 *
 aTarget
 )
@@ -2202,7 +2202,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -2217,7 +2217,7 @@ aPresContext
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 ;
@@ -2257,7 +2257,7 @@ aPresContext
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 ;

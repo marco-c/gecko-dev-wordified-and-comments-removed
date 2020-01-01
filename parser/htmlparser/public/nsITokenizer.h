@@ -154,7 +154,7 @@ CToken
 )
 GetTokenAt
 (
-PRInt32
+int32_t
 anIndex
 )
 =
@@ -162,7 +162,7 @@ anIndex
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetCount
 (
@@ -303,14 +303,14 @@ CToken
 )
 GetTokenAt
 (
-PRInt32
+int32_t
 anIndex
 )
 ;
 \
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetCount
 (

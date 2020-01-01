@@ -739,7 +739,7 @@ mReadyState
 Mode
 mMode
 ;
-PRUint32
+uint32_t
 mPendingRequests
 ;
 NS_DECL_EVENT_HANDLER
@@ -773,7 +773,7 @@ mozIStorageConnection
 >
 mConnection
 ;
-PRUint32
+uint32_t
 mSavepointCount
 ;
 nsTArray
@@ -1128,7 +1128,7 @@ FileInfo
 >
 mFileInfo
 ;
-PRInt32
+int32_t
 mDelta
 ;
 }
@@ -1165,9 +1165,9 @@ NS_OK
 bool
 Update
 (
-PRInt64
+int64_t
 aId
-PRInt32
+int32_t
 aDelta
 )
 ;
@@ -1185,9 +1185,9 @@ private
 nsresult
 UpdateInternal
 (
-PRInt64
+int64_t
 aId
-PRInt32
+int32_t
 aDelta
 )
 ;
@@ -1220,7 +1220,7 @@ ProcessValue
 mozIStorageValueArray
 *
 aValues
-PRInt32
+int32_t
 aIndex
 UpdateType
 aUpdateType
@@ -1231,7 +1231,7 @@ PLDHashOperator
 DatabaseUpdateCallback
 (
 const
-PRUint64
+uint64_t
 &
 aKey
 FileInfoEntry
@@ -1247,7 +1247,7 @@ PLDHashOperator
 FileInfoUpdateCallback
 (
 const
-PRUint64
+uint64_t
 &
 aKey
 FileInfoEntry

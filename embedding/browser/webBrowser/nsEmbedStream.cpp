@@ -232,10 +232,10 @@ nsEmbedStream
 AppendToStream
 (
 const
-PRUint8
+uint8_t
 *
 aData
-PRUint32
+uint32_t
 aLen
 )
 {
@@ -247,7 +247,7 @@ NS_ENSURE_STATE
 mOutputStream
 )
 ;
-PRUint32
+uint32_t
 bytesWritten
 =
 0

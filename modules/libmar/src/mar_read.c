@@ -66,7 +66,7 @@ h
 #
 endif
 static
-PRUint32
+uint32_t
 mar_hash_name
 (
 const
@@ -75,7 +75,7 @@ char
 name
 )
 {
-PRUint32
+uint32_t
 val
 =
 0
@@ -131,11 +131,11 @@ char
 name
 int
 namelen
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 length
-PRUint32
+uint32_t
 flags
 )
 {
@@ -145,7 +145,7 @@ item
 *
 root
 ;
-PRUint32
+uint32_t
 hash
 ;
 item
@@ -292,13 +292,13 @@ char
 buf_end
 )
 {
-PRUint32
+uint32_t
 offset
 ;
-PRUint32
+uint32_t
 length
 ;
-PRUint32
+uint32_t
 flags
 ;
 const
@@ -326,7 +326,7 @@ int
 *
 sizeof
 (
-PRUint32
+uint32_t
 )
 +
 2
@@ -513,7 +513,7 @@ bufptr
 *
 bufend
 ;
-PRUint32
+uint32_t
 offset_to_index
 size_of_index
 ;
@@ -561,7 +561,7 @@ fread
 offset_to_index
 sizeof
 (
-PRUint32
+uint32_t
 )
 1
 mar
@@ -608,7 +608,7 @@ fread
 size_of_index
 sizeof
 (
-PRUint32
+uint32_t
 )
 1
 mar
@@ -1000,7 +1000,7 @@ int
 numAdditionalBlocks
 )
 {
-PRUint32
+uint32_t
 offsetToIndex
 offsetToContent
 signatureCount
@@ -1079,7 +1079,7 @@ fseek
 fp
 sizeof
 (
-PRUint64
+uint64_t
 )
 SEEK_CUR
 )
@@ -1145,7 +1145,7 @@ fseek
 fp
 sizeof
 (
-PRUint32
+uint32_t
 )
 SEEK_CUR
 )
@@ -1200,7 +1200,7 @@ MAR_ID_SIZE
 +
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 {
@@ -1308,7 +1308,7 @@ fseek
 fp
 sizeof
 (
-PRUint32
+uint32_t
 )
 SEEK_CUR
 )
@@ -1327,7 +1327,7 @@ fread
 signatureLen
 sizeof
 (
-PRUint32
+uint32_t
 )
 1
 fp
@@ -1401,7 +1401,7 @@ fread
 numAdditionalBlocks
 sizeof
 (
-PRUint32
+uint32_t
 )
 1
 fp
@@ -1456,7 +1456,7 @@ fp
 +
 sizeof
 (
-PRUint32
+uint32_t
 )
 ;
 }
@@ -1886,7 +1886,7 @@ char
 name
 )
 {
-PRUint32
+uint32_t
 hash
 ;
 const

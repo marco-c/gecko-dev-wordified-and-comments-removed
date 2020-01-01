@@ -78,7 +78,7 @@ mEventSymbol
 bool
 mSyncBegin
 ;
-PRUint32
+uint32_t
 mRepeatIterationOrAccessKey
 ;
 }

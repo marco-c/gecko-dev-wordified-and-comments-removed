@@ -1311,13 +1311,13 @@ mGeckoAccessible
 GetDeepestChildAtPoint
 (
 (
-PRInt32
+int32_t
 )
 geckoPoint
 .
 x
 (
-PRInt32
+int32_t
 )
 geckoPoint
 .
@@ -1830,7 +1830,7 @@ each
 native
 accessible
 .
-PRUint32
+uint32_t
 totalCount
 =
 childrenArray
@@ -1841,7 +1841,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -1980,7 +1980,7 @@ position
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
-PRInt32
+int32_t
 x
 y
 width
@@ -2148,7 +2148,7 @@ size
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
-PRInt32
+int32_t
 x
 y
 width

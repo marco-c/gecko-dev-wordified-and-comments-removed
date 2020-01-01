@@ -118,12 +118,12 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 SCRIPT_ITEM
 *
 aItem
-PRUint32
+uint32_t
 aIVS
 )
 :
@@ -448,7 +448,7 @@ if
 mIVS
 )
 {
-PRUint32
+uint32_t
 lastChar
 =
 str
@@ -491,7 +491,7 @@ lastChar
 )
 ;
 }
-PRUint16
+uint16_t
 glyphId
 =
 mShaper
@@ -603,7 +603,7 @@ IsGlyphMissing
 SCRIPT_FONTPROPERTIES
 *
 aSFP
-PRUint32
+uint32_t
 aGlyphIndex
 )
 {
@@ -833,7 +833,7 @@ gfxShapedWord
 aShapedWord
 )
 {
-PRUint32
+uint32_t
 offsetInRun
 =
 mScriptItem
@@ -850,7 +850,7 @@ ScriptFontProperties
 sfp
 )
 ;
-PRUint32
+uint32_t
 offset
 =
 0
@@ -872,7 +872,7 @@ CompressedGlyph
 g
 ;
 const
-PRUint32
+uint32_t
 appUnitsPerDevUnit
 =
 aShapedWord
@@ -889,7 +889,7 @@ offset
 mItemLength
 )
 {
-PRUint32
+uint32_t
 runOffset
 =
 offsetInRun
@@ -950,7 +950,7 @@ nullptr
 }
 else
 {
-PRUint32
+uint32_t
 k
 =
 mClusters
@@ -958,14 +958,14 @@ mClusters
 offset
 ]
 ;
-PRUint32
+uint32_t
 glyphCount
 =
 mNumGlyphs
 -
 k
 ;
-PRUint32
+uint32_t
 nextClusterOffset
 ;
 bool
@@ -1018,7 +1018,7 @@ break
 ;
 }
 }
-PRUint32
+uint32_t
 j
 ;
 for
@@ -1054,7 +1054,7 @@ true
 ;
 }
 }
-PRInt32
+int32_t
 advance
 =
 mAdvances
@@ -1288,7 +1288,7 @@ Length
 return
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -1564,7 +1564,7 @@ PRUnichar
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1639,7 +1639,7 @@ PRUnichar
 mItemString
 ;
 const
-PRUint32
+uint32_t
 mItemLength
 ;
 private
@@ -1655,7 +1655,7 @@ AVERAGE_ITEM_LENGTH
 nsAutoTArray
 <
 WORD
-PRUint32
+uint32_t
 (
 ESTIMATE_MAX_GLYPHS
 (
@@ -1677,7 +1677,7 @@ mClusters
 nsAutoTArray
 <
 SCRIPT_VISATTR
-PRUint32
+uint32_t
 (
 ESTIMATE_MAX_GLYPHS
 (
@@ -1714,7 +1714,7 @@ mMaxGlyphs
 int
 mNumGlyphs
 ;
-PRUint32
+uint32_t
 mIVS
 ;
 bool
@@ -1901,7 +1901,7 @@ SCRIPT_ITEM
 *
 ScriptItem
 (
-PRUint32
+uint32_t
 i
 )
 {
@@ -1911,7 +1911,7 @@ i
 <
 =
 (
-PRUint32
+uint32_t
 )
 mNumItems
 "
@@ -2009,7 +2009,7 @@ Itemize
 (
 )
 ;
-PRUint32
+uint32_t
 length
 =
 aShapedWord
@@ -2024,7 +2024,7 @@ SaveDC
 aDC
 )
 ;
-PRUint32
+uint32_t
 ivs
 =
 0
@@ -2128,7 +2128,7 @@ kUnicodeVS17
 )
 &
 &
-PRUint32
+uint32_t
 (
 aString
 [

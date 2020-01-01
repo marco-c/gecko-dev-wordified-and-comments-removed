@@ -298,7 +298,7 @@ pruneProxyHeaders
 false
 )
 ;
-PRUint32
+uint32_t
 Count
 (
 )
@@ -317,7 +317,7 @@ char
 *
 PeekHeaderAt
 (
-PRUint32
+uint32_t
 i
 nsHttpAtom
 &
@@ -377,7 +377,7 @@ header
 ;
 private
 :
-PRInt32
+int32_t
 LookupEntry
 (
 nsHttpAtom
@@ -389,7 +389,7 @@ nsEntry
 )
 const
 ;
-PRInt32
+int32_t
 LookupEntry
 (
 nsHttpAtom
@@ -453,7 +453,7 @@ nsHttpHeaderArray
 }
 ;
 inline
-PRInt32
+int32_t
 nsHttpHeaderArray
 :
 :
@@ -469,7 +469,7 @@ entry
 )
 const
 {
-PRUint32
+uint32_t
 index
 =
 mHeaders
@@ -507,7 +507,7 @@ index
 ;
 }
 inline
-PRInt32
+int32_t
 nsHttpHeaderArray
 :
 :
@@ -521,7 +521,7 @@ nsEntry
 entry
 )
 {
-PRUint32
+uint32_t
 index
 =
 mHeaders

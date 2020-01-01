@@ -184,7 +184,7 @@ nsAboutProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -205,7 +205,7 @@ nsAboutProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -329,7 +329,7 @@ rv
 )
 )
 {
-PRUint32
+uint32_t
 flags
 ;
 rv
@@ -652,7 +652,7 @@ nsAboutProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char
@@ -711,7 +711,7 @@ nsSafeAboutProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -732,7 +732,7 @@ nsSafeAboutProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -873,7 +873,7 @@ nsSafeAboutProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char

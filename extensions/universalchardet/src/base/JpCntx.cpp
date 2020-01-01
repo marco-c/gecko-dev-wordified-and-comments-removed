@@ -13,7 +13,7 @@ JpCntx
 h
 "
 const
-PRUint8
+uint8_t
 jp2CharContext
 [
 83
@@ -7094,17 +7094,17 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 {
-PRUint32
+uint32_t
 charLen
 ;
-PRInt32
+int32_t
 order
 ;
-PRUint32
+uint32_t
 i
 ;
 if
@@ -7235,7 +7235,7 @@ mTotalRel
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7325,7 +7325,7 @@ float
 DONT_KNOW
 ;
 }
-PRInt32
+int32_t
 SJISContextAnalysis
 :
 :
@@ -7335,7 +7335,7 @@ const
 char
 *
 str
-PRUint32
+uint32_t
 *
 charLen
 )
@@ -7488,7 +7488,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 EUCJPContextAnalysis
 :
 :
@@ -7498,7 +7498,7 @@ const
 char
 *
 str
-PRUint32
+uint32_t
 *
 charLen
 )

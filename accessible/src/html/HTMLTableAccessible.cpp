@@ -293,7 +293,7 @@ roles
 CELL
 ;
 }
-PRUint64
+uint64_t
 HTMLTableCellAccessible
 :
 :
@@ -301,7 +301,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 HyperTextAccessibleWrap
@@ -360,7 +360,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 HTMLTableCellAccessible
 :
 :
@@ -439,7 +439,7 @@ tableAcc
 return
 NS_OK
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -463,7 +463,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 idx
 =
 -
@@ -708,7 +708,7 @@ HTMLTableCellAccessible
 :
 GetColumnIndex
 (
-PRInt32
+int32_t
 *
 aColumnIndex
 )
@@ -763,7 +763,7 @@ HTMLTableCellAccessible
 :
 GetRowIndex
 (
-PRInt32
+int32_t
 *
 aRowIndex
 )
@@ -818,7 +818,7 @@ HTMLTableCellAccessible
 :
 GetColumnExtent
 (
-PRInt32
+int32_t
 *
 aExtentCount
 )
@@ -833,7 +833,7 @@ aExtentCount
 =
 1
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -882,7 +882,7 @@ HTMLTableCellAccessible
 :
 GetRowExtent
 (
-PRInt32
+int32_t
 *
 aExtentCount
 )
@@ -897,7 +897,7 @@ aExtentCount
 =
 1
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -1054,7 +1054,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -1247,10 +1247,10 @@ HTMLTableCellAccessible
 :
 GetCellIndexes
 (
-PRInt32
+int32_t
 &
 aRowIndex
-PRInt32
+int32_t
 &
 aColIndex
 )
@@ -1285,7 +1285,7 @@ HTMLTableCellAccessible
 :
 GetHeaderCells
 (
-PRInt32
+int32_t
 aRowOrColumnHeaderCell
 nsIArray
 *
@@ -1550,7 +1550,7 @@ row
 nullptr
 }
 ;
-PRInt32
+int32_t
 valueIdx
 =
 mContent
@@ -1899,7 +1899,7 @@ roles
 TABLE
 ;
 }
-PRUint64
+uint64_t
 HTMLTableAccessible
 :
 :
@@ -2094,7 +2094,7 @@ HTMLTableAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -2211,7 +2211,7 @@ aSummary
 )
 ;
 }
-PRUint32
+uint32_t
 HTMLTableAccessible
 :
 :
@@ -2235,7 +2235,7 @@ tableLayout
 return
 0
 ;
-PRInt32
+int32_t
 rowCount
 =
 0
@@ -2256,7 +2256,7 @@ return
 colCount
 ;
 }
-PRUint32
+uint32_t
 HTMLTableAccessible
 :
 :
@@ -2280,7 +2280,7 @@ tableLayout
 return
 0
 ;
-PRInt32
+int32_t
 rowCount
 =
 0
@@ -2301,7 +2301,7 @@ return
 rowCount
 ;
 }
-PRUint32
+uint32_t
 HTMLTableAccessible
 :
 :
@@ -2325,7 +2325,7 @@ tableLayout
 return
 0
 ;
-PRUint32
+uint32_t
 count
 =
 0
@@ -2346,7 +2346,7 @@ nsIDOMElement
 >
 domElement
 ;
-PRInt32
+int32_t
 startRowIndex
 =
 0
@@ -2365,7 +2365,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -2381,7 +2381,7 @@ rowIdx
 {
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -2451,7 +2451,7 @@ return
 count
 ;
 }
-PRUint32
+uint32_t
 HTMLTableAccessible
 :
 :
@@ -2459,7 +2459,7 @@ SelectedColCount
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -2471,7 +2471,7 @@ ColCount
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -2499,7 +2499,7 @@ return
 count
 ;
 }
-PRUint32
+uint32_t
 HTMLTableAccessible
 :
 :
@@ -2507,7 +2507,7 @@ SelectedRowCount
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -2519,7 +2519,7 @@ RowCount
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -2562,7 +2562,7 @@ Accessible
 aCells
 )
 {
-PRUint32
+uint32_t
 rowCount
 =
 RowCount
@@ -2595,7 +2595,7 @@ nsIDOMElement
 >
 cellElement
 ;
-PRInt32
+int32_t
 startRowIndex
 =
 0
@@ -2614,7 +2614,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -2630,7 +2630,7 @@ rowIdx
 {
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -2735,7 +2735,7 @@ SelectedCellIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aCells
@@ -2756,7 +2756,7 @@ tableLayout
 )
 return
 ;
-PRUint32
+uint32_t
 rowCount
 =
 RowCount
@@ -2774,7 +2774,7 @@ nsIDOMElement
 >
 domElement
 ;
-PRInt32
+int32_t
 startRowIndex
 =
 0
@@ -2793,7 +2793,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -2809,7 +2809,7 @@ rowIdx
 {
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -2892,13 +2892,13 @@ SelectedColIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aCols
 )
 {
-PRUint32
+uint32_t
 colCount
 =
 ColCount
@@ -2907,7 +2907,7 @@ ColCount
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -2944,13 +2944,13 @@ SelectedRowIndices
 (
 nsTArray
 <
-PRUint32
+uint32_t
 >
 *
 aRows
 )
 {
-PRUint32
+uint32_t
 rowCount
 =
 RowCount
@@ -2959,7 +2959,7 @@ RowCount
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -2995,9 +2995,9 @@ HTMLTableAccessible
 :
 CellAt
 (
-PRUint32
+uint32_t
 aRowIndex
-PRUint32
+uint32_t
 aColumnIndex
 )
 {
@@ -3069,15 +3069,15 @@ nullptr
 cell
 ;
 }
-PRInt32
+int32_t
 HTMLTableAccessible
 :
 :
 CellIndexAt
 (
-PRUint32
+uint32_t
 aRowIdx
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -3089,7 +3089,7 @@ GetTableLayout
 (
 )
 ;
-PRInt32
+int32_t
 index
 =
 -
@@ -3110,13 +3110,13 @@ return
 index
 ;
 }
-PRInt32
+int32_t
 HTMLTableAccessible
 :
 :
 ColIndexAt
 (
-PRUint32
+uint32_t
 aCellIdx
 )
 {
@@ -3137,7 +3137,7 @@ return
 -
 1
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -3163,13 +3163,13 @@ return
 colIdx
 ;
 }
-PRInt32
+int32_t
 HTMLTableAccessible
 :
 :
 RowIndexAt
 (
-PRUint32
+uint32_t
 aCellIdx
 )
 {
@@ -3190,7 +3190,7 @@ return
 -
 1
 ;
-PRInt32
+int32_t
 rowIdx
 =
 -
@@ -3222,12 +3222,12 @@ HTMLTableAccessible
 :
 RowAndColIndicesAt
 (
-PRUint32
+uint32_t
 aCellIdx
-PRInt32
+int32_t
 *
 aRowIdx
-PRInt32
+int32_t
 *
 aColIdx
 )
@@ -3255,15 +3255,15 @@ aColIdx
 )
 ;
 }
-PRUint32
+uint32_t
 HTMLTableAccessible
 :
 :
 ColExtentAt
 (
-PRUint32
+uint32_t
 aRowIdx
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -3289,7 +3289,7 @@ nsIDOMElement
 >
 domElement
 ;
-PRInt32
+int32_t
 startRowIndex
 startColIndex
 rowSpan
@@ -3299,7 +3299,7 @@ actualRowSpan
 bool
 isSelected
 ;
-PRInt32
+int32_t
 columnExtent
 =
 0
@@ -3350,15 +3350,15 @@ return
 columnExtent
 ;
 }
-PRUint32
+uint32_t
 HTMLTableAccessible
 :
 :
 RowExtentAt
 (
-PRUint32
+uint32_t
 aRowIdx
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -3384,7 +3384,7 @@ nsIDOMElement
 >
 domElement
 ;
-PRInt32
+int32_t
 startRowIndex
 startColIndex
 rowSpan
@@ -3394,7 +3394,7 @@ actualColSpan
 bool
 isSelected
 ;
-PRInt32
+int32_t
 rowExtent
 =
 0
@@ -3451,7 +3451,7 @@ HTMLTableAccessible
 :
 IsColSelected
 (
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -3460,7 +3460,7 @@ isSelected
 =
 false
 ;
-PRUint32
+uint32_t
 rowCount
 =
 RowCount
@@ -3469,7 +3469,7 @@ RowCount
 ;
 for
 (
-PRUint32
+uint32_t
 rowIdx
 =
 0
@@ -3510,7 +3510,7 @@ HTMLTableAccessible
 :
 IsRowSelected
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -3519,7 +3519,7 @@ isSelected
 =
 false
 ;
-PRUint32
+uint32_t
 colCount
 =
 ColCount
@@ -3528,7 +3528,7 @@ ColCount
 ;
 for
 (
-PRUint32
+uint32_t
 colIdx
 =
 0
@@ -3569,9 +3569,9 @@ HTMLTableAccessible
 :
 IsCellSelected
 (
-PRUint32
+uint32_t
 aRowIdx
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -3597,7 +3597,7 @@ nsIDOMElement
 >
 domElement
 ;
-PRInt32
+int32_t
 startRowIndex
 =
 0
@@ -3645,7 +3645,7 @@ HTMLTableAccessible
 :
 SelectRow
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -3696,7 +3696,7 @@ HTMLTableAccessible
 :
 SelectCol
 (
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -3747,7 +3747,7 @@ HTMLTableAccessible
 :
 UnselectRow
 (
-PRUint32
+uint32_t
 aRowIdx
 )
 {
@@ -3768,7 +3768,7 @@ HTMLTableAccessible
 :
 UnselectCol
 (
-PRUint32
+uint32_t
 aColIdx
 )
 {
@@ -3789,9 +3789,9 @@ HTMLTableAccessible
 :
 AddRowOrColumnToSelection
 (
-PRInt32
+int32_t
 aIndex
-PRUint32
+uint32_t
 aTarget
 )
 {
@@ -3827,7 +3827,7 @@ nsIDOMElement
 >
 cellElm
 ;
-PRInt32
+int32_t
 startRowIdx
 startColIdx
 rowSpan
@@ -3845,7 +3845,7 @@ rv
 =
 NS_OK
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -3911,7 +3911,7 @@ ConstFrameSelection
 ;
 for
 (
-PRInt32
+int32_t
 idx
 =
 0
@@ -3925,7 +3925,7 @@ idx
 +
 )
 {
-PRInt32
+int32_t
 rowIdx
 =
 doSelectRow
@@ -3934,7 +3934,7 @@ aIndex
 :
 idx
 ;
-PRInt32
+int32_t
 colIdx
 =
 doSelectRow
@@ -4018,9 +4018,9 @@ HTMLTableAccessible
 :
 RemoveRowsOrColumnsFromSelection
 (
-PRInt32
+int32_t
 aIndex
-PRUint32
+uint32_t
 aTarget
 bool
 aIsOuter
@@ -4084,7 +4084,7 @@ nsISelectionPrivate
 TABLESELECTION_ROW
 )
 ;
-PRInt32
+int32_t
 count
 =
 0
@@ -4112,7 +4112,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 startRowIdx
 =
 doUnselectRow
@@ -4121,7 +4121,7 @@ aIndex
 :
 0
 ;
-PRInt32
+int32_t
 endRowIdx
 =
 doUnselectRow
@@ -4132,7 +4132,7 @@ count
 -
 1
 ;
-PRInt32
+int32_t
 startColIdx
 =
 doUnselectRow
@@ -4141,7 +4141,7 @@ doUnselectRow
 :
 aIndex
 ;
-PRInt32
+int32_t
 endColIdx
 =
 doUnselectRow
@@ -4230,9 +4230,9 @@ HTMLTableAccessible
 :
 GetCellAt
 (
-PRInt32
+int32_t
 aRowIndex
-PRInt32
+int32_t
 aColIndex
 nsIDOMElement
 *
@@ -4240,7 +4240,7 @@ nsIDOMElement
 aCell
 )
 {
-PRInt32
+int32_t
 startRowIndex
 =
 0
@@ -4696,7 +4696,7 @@ if
 docAccessible
 )
 {
-PRUint64
+uint64_t
 docState
 =
 docAccessible
@@ -5338,7 +5338,7 @@ it
 )
 ;
 }
-PRInt32
+int32_t
 columns
 rows
 ;
@@ -5538,7 +5538,7 @@ cell
 )
 ;
 }
-PRUint32
+uint32_t
 childCount
 =
 ChildCount
@@ -5555,7 +5555,7 @@ prevRowColor
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -5652,7 +5652,7 @@ bordered
 }
 }
 const
-PRInt32
+int32_t
 kMaxLayoutRows
 =
 20
@@ -5726,7 +5726,7 @@ GetSize
 (
 )
 ;
-PRInt32
+int32_t
 percentageOfDocWidth
 =
 (
@@ -5888,7 +5888,7 @@ HTMLCaptionAccessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {

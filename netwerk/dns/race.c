@@ -52,14 +52,14 @@ const
 char
 *
 from
-PRUint16
+uint16_t
 *
 buf
 size_t
 buflen
 )
 {
-PRUint16
+uint16_t
 *
 p
 =
@@ -326,7 +326,7 @@ j
 }
 else
 {
-PRUint16
+uint16_t
 c
 =
 buf
@@ -488,7 +488,7 @@ idn_result_t
 race_compress_encode
 (
 const
-PRUint16
+uint16_t
 *
 p
 int
@@ -500,7 +500,7 @@ size_t
 tolen
 )
 {
-PRUint32
+uint32_t
 bitbuf
 =
 *
@@ -807,7 +807,7 @@ idn_success
 int
 get_compress_mode
 (
-PRUint16
+uint16_t
 *
 p
 )
@@ -823,7 +823,7 @@ upper
 =
 0
 ;
-PRUint16
+uint16_t
 *
 modepos
 =

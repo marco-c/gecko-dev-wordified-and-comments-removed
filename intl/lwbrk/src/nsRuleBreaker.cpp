@@ -22,9 +22,9 @@ const
 PRUnichar
 *
 aText
-PRUint32
+uint32_t
 aLength
-PRUint8
+uint8_t
 *
 aBreakBefore
 )
@@ -44,7 +44,7 @@ null
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

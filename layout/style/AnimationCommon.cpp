@@ -516,7 +516,7 @@ return
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -652,7 +652,7 @@ List
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 )
 const
@@ -731,7 +731,7 @@ inline
 double
 StepEnd
 (
-PRUint32
+uint32_t
 aSteps
 double
 aPortion
@@ -760,10 +760,10 @@ range
 "
 )
 ;
-PRUint32
+uint32_t
 step
 =
-PRUint32
+uint32_t
 (
 aPortion
 *

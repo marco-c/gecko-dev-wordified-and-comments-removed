@@ -78,7 +78,7 @@ nsAString
 nsISupports
 *
 *
-PRInt32
+int32_t
 *
 )
 )
@@ -385,7 +385,7 @@ nsISupports
 >
 resultInterface
 ;
-PRInt32
+int32_t
 resultType
 ;
 rv
@@ -1610,13 +1610,13 @@ cx
 )
 )
 ;
-PRUint8
+uint8_t
 *
 data
 =
 reinterpret_cast
 <
-PRUint8
+uint8_t
 *
 >
 (

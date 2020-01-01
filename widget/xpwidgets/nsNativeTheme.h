@@ -135,7 +135,7 @@ GetContentState
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 ;
@@ -148,7 +148,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-PRUint8
+uint8_t
 aWidgetType
 )
 ;
@@ -248,7 +248,7 @@ focused
 )
 ;
 }
-PRInt32
+int32_t
 GetScrollbarButtonType
 (
 nsIFrame
@@ -281,7 +281,7 @@ IsNextToSelectedTab
 nsIFrame
 *
 aFrame
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -564,7 +564,7 @@ nsIFrame
 aFrame
 )
 ;
-PRInt32
+int32_t
 CheckIntAttr
 (
 nsIFrame
@@ -573,7 +573,7 @@ aFrame
 nsIAtom
 *
 aAtom
-PRInt32
+int32_t
 defaultValue
 )
 ;
@@ -612,7 +612,7 @@ QueueAnimatedContentForRefresh
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aMinimumFrameRate
 )
 ;
@@ -629,7 +629,7 @@ aNextSibling
 ;
 private
 :
-PRUint32
+uint32_t
 mAnimatedContentTimeout
 ;
 nsCOMPtr

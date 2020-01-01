@@ -670,7 +670,7 @@ ActorDestroy
 ActorDestroyReason
 )
 {
-PRInt32
+int32_t
 count
 =
 mRunnables
@@ -681,7 +681,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -880,7 +880,7 @@ aParent
 DeviceStorageFile
 *
 aFile
-PRUint32
+uint32_t
 aLength
 nsACString
 &
@@ -1464,7 +1464,7 @@ nsIRunnable
 >
 r
 ;
-PRUint64
+uint64_t
 diskUsage
 =
 DeviceStorageFile
@@ -1478,7 +1478,7 @@ mFile
 mFile
 )
 ;
-PRInt64
+int64_t
 freeSpace
 =
 0
@@ -1699,7 +1699,7 @@ return
 NS_OK
 ;
 }
-PRInt64
+int64_t
 fileSize
 ;
 nsresult
@@ -1777,7 +1777,7 @@ aParent
 DeviceStorageFile
 *
 aFile
-PRUint64
+uint64_t
 aSince
 )
 :
@@ -1902,7 +1902,7 @@ DeviceStorageFileValue
 >
 values
 ;
-PRUint32
+uint32_t
 count
 =
 files
@@ -1913,7 +1913,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2075,9 +2075,9 @@ PostStatResultEvent
 DeviceStorageRequestParent
 *
 aParent
-PRInt64
+int64_t
 aFreeBytes
-PRInt64
+int64_t
 aTotalBytes
 )
 :

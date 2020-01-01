@@ -34,7 +34,7 @@ mPosition
 )
 ;
 }
-PRUint32
+uint32_t
 txNodeSetContext
 :
 :
@@ -44,7 +44,7 @@ size
 {
 return
 (
-PRUint32
+uint32_t
 )
 mContextSet
 -
@@ -54,7 +54,7 @@ size
 )
 ;
 }
-PRUint32
+uint32_t
 txNodeSetContext
 :
 :
@@ -88,7 +88,7 @@ txNodeSetContext
 :
 getVariable
 (
-PRInt32
+int32_t
 aNamespace
 nsIAtom
 *

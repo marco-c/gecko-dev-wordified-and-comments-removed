@@ -390,10 +390,10 @@ in
 nsIWebBrowserChrome
 parent
 in
-PRUint32
+uint32_t
 chromeFlags
 in
-PRUint32
+uint32_t
 contextFlags
 in
 nsIURI

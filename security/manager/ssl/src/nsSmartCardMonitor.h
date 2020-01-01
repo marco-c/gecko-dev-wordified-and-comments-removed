@@ -140,7 +140,7 @@ const
 char
 *
 tokenName
-PRUint32
+uint32_t
 series
 )
 ;
@@ -153,7 +153,7 @@ CK_SLOT_ID
 slotid
 )
 ;
-PRUint32
+uint32_t
 GetTokenSeries
 (
 CK_SLOT_ID

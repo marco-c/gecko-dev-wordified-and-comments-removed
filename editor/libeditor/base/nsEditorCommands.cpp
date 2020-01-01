@@ -4053,7 +4053,7 @@ editor
 mailEditor
 )
 {
-PRUint32
+uint32_t
 flags
 ;
 editor

@@ -233,10 +233,10 @@ gfxProxyFontEntry
 *
 aProxyEntry
 const
-PRUint8
+uint8_t
 *
 aFontData
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -247,7 +247,7 @@ IsFontFormatSupported
 nsIURI
 *
 aFontURI
-PRUint32
+uint32_t
 aFormatFlags
 )
 ;
@@ -286,7 +286,7 @@ gfxFont
 >
 FindFontForChar
 (
-PRUint32
+uint32_t
 aCh
 gfxFont
 *
@@ -375,7 +375,7 @@ rmode
 ;
 }
 static
-PRInt32
+int32_t
 GetDPI
 (
 )

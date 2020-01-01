@@ -429,7 +429,7 @@ nsSVGSVGElement
 root
 )
 {
-PRUint16
+uint16_t
 oldZoomAndPan
 =
 root
@@ -557,7 +557,7 @@ zoomAndPanParams
 =
 nullptr
 ;
-PRInt32
+int32_t
 bracketPos
 =
 aViewSpec

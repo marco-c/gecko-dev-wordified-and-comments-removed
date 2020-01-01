@@ -157,7 +157,7 @@ void
 EnumerateAllFonts
 (
 out
-PRUint32
+uint32_t
 aCount
 [
 retval
@@ -245,7 +245,7 @@ in
 string
 aGeneric
 out
-PRUint32
+uint32_t
 aCount
 [
 retval

@@ -198,7 +198,7 @@ protected
 :
 FrameChildListIDs
 (
-PRUint32
+uint32_t
 aIDs
 )
 :
@@ -208,7 +208,7 @@ aIDs
 )
 {
 }
-PRUint32
+uint32_t
 mIDs
 ;
 }
@@ -393,7 +393,7 @@ FrameChildList
 &
 mLists
 ;
-PRUint32
+uint32_t
 mCurrentIndex
 ;
 }

@@ -13,11 +13,11 @@ md4
 h
 "
 typedef
-PRUint32
+uint32_t
 Uint32
 ;
 typedef
-PRUint8
+uint8_t
 Uint8
 ;
 #

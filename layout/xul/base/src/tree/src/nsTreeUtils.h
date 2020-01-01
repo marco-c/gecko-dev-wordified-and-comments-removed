@@ -89,7 +89,7 @@ GetColumnIndex
 nsIContent
 *
 aColumn
-PRInt32
+int32_t
 *
 aResult
 )

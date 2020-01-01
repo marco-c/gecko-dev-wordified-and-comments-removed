@@ -425,7 +425,7 @@ cx
 \
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -467,24 +467,24 @@ PR_END_MACRO
 namespace
 {
 const
-PRUint32
+uint32_t
 kNoIndex
 =
-PRUint32
+uint32_t
 (
 -
 1
 )
 ;
 const
-PRUint32
+uint32_t
 kRequiredJSContextOptions
 =
 JSOPTION_DONT_REPORT_UNCAUGHT
 |
 JSOPTION_NO_SCRIPT_RVAL
 ;
-PRUint32
+uint32_t
 gMaxWorkersPerDomain
 =
 MAX_WORKERS_PER_DOMAIN
@@ -730,7 +730,7 @@ PREF_mem_max
 )
 )
 {
-PRInt32
+int32_t
 pref
 =
 Preferences
@@ -743,7 +743,7 @@ aPrefName
 1
 )
 ;
-PRUint32
+uint32_t
 maxBytes
 =
 (
@@ -759,13 +759,13 @@ pref
 0x1000
 )
 ?
-PRUint32
+uint32_t
 (
 -
 1
 )
 :
-PRUint32
+uint32_t
 (
 pref
 )
@@ -803,7 +803,7 @@ jsOptionStr
 )
 )
 {
-PRUint32
+uint32_t
 newOptions
 =
 kRequiredJSContextOptions
@@ -981,7 +981,7 @@ PREF_gczeal
 )
 )
 {
-PRInt32
+int32_t
 gczeal
 =
 Preferences
@@ -1000,7 +1000,7 @@ RuntimeService
 :
 SetDefaultGCZeal
 (
-PRUint8
+uint8_t
 (
 clamped
 (
@@ -1267,7 +1267,7 @@ GetJSContextOptions
 ifdef
 JS_GC_ZEAL
 {
-PRUint8
+uint8_t
 zeal
 =
 aWorkerPrivate
@@ -1291,7 +1291,7 @@ value
 "
 )
 ;
-PRUint32
+uint32_t
 frequency
 =
 zeal
@@ -1569,7 +1569,7 @@ gStringIDs
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1646,7 +1646,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2190,7 +2190,7 @@ true
 ;
 }
 END_WORKERS_NAMESPACE
-PRUint32
+uint32_t
 RuntimeService
 :
 :
@@ -2198,7 +2198,7 @@ sDefaultJSContextOptions
 =
 kRequiredJSContextOptions
 ;
-PRUint32
+uint32_t
 RuntimeService
 :
 :
@@ -2206,7 +2206,7 @@ sDefaultJSRuntimeHeapSize
 =
 WORKER_DEFAULT_RUNTIME_HEAPSIZE
 ;
-PRInt32
+int32_t
 RuntimeService
 :
 :
@@ -2217,7 +2217,7 @@ MAX_SCRIPT_RUN_TIME_SEC
 #
 ifdef
 JS_GC_ZEAL
-PRUint8
+uint8_t
 RuntimeService
 :
 :
@@ -2962,7 +2962,7 @@ domain
 )
 ;
 }
-PRUint32
+uint32_t
 index
 =
 domainInfo
@@ -3373,7 +3373,7 @@ IsEmpty
 )
 )
 {
-PRUint32
+uint32_t
 index
 =
 mIdleThreadArray
@@ -3671,7 +3671,7 @@ mMutex
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3810,7 +3810,7 @@ down
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -3879,7 +3879,7 @@ Now
 (
 )
 ;
-PRUint32
+uint32_t
 delay
 (
 delta
@@ -4075,7 +4075,7 @@ notifications
 }
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4166,7 +4166,7 @@ cache
 )
 ;
 }
-PRInt32
+int32_t
 maxPerDomain
 =
 Preferences
@@ -4442,7 +4442,7 @@ cx
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4509,7 +4509,7 @@ nsIThread
 >
 idleThreads
 ;
-PRUint32
+uint32_t
 idleThreadCount
 =
 mIdleThreadArray
@@ -4527,7 +4527,7 @@ idleThreadCount
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4586,7 +4586,7 @@ mMutex
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4706,7 +4706,7 @@ mObserved
 {
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4872,7 +4872,7 @@ ifdef
 DEBUG
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -4938,7 +4938,7 @@ mActiveWorkers
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -5134,7 +5134,7 @@ aCx
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -5232,7 +5232,7 @@ aCx
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0
@@ -5330,7 +5330,7 @@ aCx
 ;
 for
 (
-PRUint32
+uint32_t
 index
 =
 0

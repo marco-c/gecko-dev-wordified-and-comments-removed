@@ -215,7 +215,7 @@ IsHyperText
 return
 nil
 ;
-PRUint32
+uint32_t
 level
 =
 mGeckoAccessible

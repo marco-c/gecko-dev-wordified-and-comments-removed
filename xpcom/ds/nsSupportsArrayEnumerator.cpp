@@ -78,7 +78,7 @@ mCursor
 =
 0
 ;
-PRUint32
+uint32_t
 cnt
 ;
 nsresult
@@ -103,11 +103,11 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 end
 =
 (
-PRInt32
+int32_t
 )
 cnt
 ;
@@ -133,7 +133,7 @@ Next
 (
 )
 {
-PRUint32
+uint32_t
 cnt
 ;
 nsresult
@@ -158,11 +158,11 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 end
 =
 (
-PRInt32
+int32_t
 )
 cnt
 ;
@@ -212,7 +212,7 @@ parameter
 "
 )
 ;
-PRUint32
+uint32_t
 cnt
 ;
 nsresult
@@ -248,7 +248,7 @@ mCursor
 mCursor
 <
 (
-PRInt32
+int32_t
 )
 cnt
 )
@@ -280,7 +280,7 @@ IsDone
 (
 )
 {
-PRUint32
+uint32_t
 cnt
 ;
 nsresult
@@ -316,7 +316,7 @@ mCursor
 mCursor
 <
 (
-PRInt32
+int32_t
 )
 cnt
 )
@@ -337,7 +337,7 @@ Last
 (
 )
 {
-PRUint32
+uint32_t
 cnt
 ;
 nsresult

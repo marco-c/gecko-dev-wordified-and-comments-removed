@@ -257,7 +257,7 @@ NS_OK
 NS_IMETHOD
 HandleCompletion
 (
-PRUint16
+uint16_t
 aReason
 )
 {
@@ -400,7 +400,7 @@ stmt
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

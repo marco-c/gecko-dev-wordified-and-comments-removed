@@ -105,7 +105,7 @@ nsDragService
 :
 SetDropActionType
 (
-PRUint32
+uint32_t
 aActionType
 )
 {
@@ -177,11 +177,11 @@ SetupDragSession
 nsISupportsArray
 *
 aTransferables
-PRUint32
+uint32_t
 aActionType
 )
 {
-PRUint32
+uint32_t
 itemCount
 =
 0
@@ -316,7 +316,7 @@ if
 flavorList
 )
 {
-PRUint32
+uint32_t
 flavorCount
 ;
 flavorList
@@ -330,7 +330,7 @@ flavorCount
 ;
 for
 (
-PRUint32
+uint32_t
 flavor
 =
 0
@@ -386,7 +386,7 @@ nsISupports
 >
 data
 ;
-PRUint32
+uint32_t
 dataLen
 =
 0
@@ -634,7 +634,7 @@ aTransferables
 nsIScriptableRegion
 *
 aRegion
-PRUint32
+uint32_t
 aActionType
 )
 {
@@ -713,14 +713,14 @@ aTransferables
 nsIScriptableRegion
 *
 aRegion
-PRUint32
+uint32_t
 aActionType
 nsIDOMNode
 *
 aImage
-PRInt32
+int32_t
 aImageX
-PRInt32
+int32_t
 aImageY
 nsIDOMDragEvent
 *
@@ -788,7 +788,7 @@ aSelection
 nsISupportsArray
 *
 aTransferableArray
-PRUint32
+uint32_t
 aActionType
 nsIDOMDragEvent
 *
@@ -881,7 +881,7 @@ nsDragService
 :
 FireDragEventAtSource
 (
-PRUint32
+uint32_t
 aMsg
 )
 {
@@ -935,9 +935,9 @@ nsDragService
 :
 DragMoved
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {

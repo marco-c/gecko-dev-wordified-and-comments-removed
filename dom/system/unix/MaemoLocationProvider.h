@@ -328,13 +328,13 @@ mPrevLong
 bool
 mIgnoreBigHErr
 ;
-PRInt32
+int32_t
 mMaxHErr
 ;
 bool
 mIgnoreBigVErr
 ;
-PRInt32
+int32_t
 mMaxVErr
 ;
 }

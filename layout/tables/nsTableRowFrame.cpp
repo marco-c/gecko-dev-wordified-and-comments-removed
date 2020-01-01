@@ -1117,7 +1117,7 @@ childFrame
 )
 ;
 }
-PRInt32
+int32_t
 colIndex
 =
 -
@@ -1232,7 +1232,7 @@ if
 cellFrame
 )
 {
-PRInt32
+int32_t
 colIndex
 ;
 cellFrame
@@ -1390,7 +1390,7 @@ GetCellSpacingY
 (
 )
 ;
-PRInt32
+int32_t
 rowSpan
 =
 aTableFrame
@@ -1417,7 +1417,7 @@ GetNextSibling
 ;
 for
 (
-PRInt32
+int32_t
 rowX
 =
 1
@@ -2068,7 +2068,7 @@ GetHeight
 aHeight
 )
 {
-PRInt32
+int32_t
 rowSpan
 =
 aTableFrame
@@ -2139,7 +2139,7 @@ mMaxCellDescent
 aDescent
 )
 {
-PRInt32
+int32_t
 rowSpan
 =
 aTableFrame
@@ -2774,7 +2774,7 @@ GetTableFrame
 this
 )
 ;
-PRInt32
+int32_t
 rowSpan
 =
 tableFrame
@@ -2967,7 +2967,7 @@ cellAvailWidth
 =
 0
 ;
-PRInt32
+int32_t
 colIndex
 ;
 aCellFrame
@@ -2977,7 +2977,7 @@ GetColIndex
 colIndex
 )
 ;
-PRInt32
+int32_t
 colspan
 =
 aTableFrame
@@ -3003,7 +3003,7 @@ positive
 ;
 for
 (
-PRInt32
+int32_t
 spanX
 =
 0
@@ -3060,11 +3060,11 @@ cellAvailWidth
 nscoord
 GetSpaceBetween
 (
-PRInt32
+int32_t
 aPrevColIndex
-PRInt32
+int32_t
 aColIndex
-PRInt32
+int32_t
 aColSpan
 nsTableFrame
 &
@@ -3082,7 +3082,7 @@ space
 =
 0
 ;
-PRInt32
+int32_t
 colX
 ;
 if
@@ -3250,7 +3250,7 @@ aCellSpacingX
 }
 else
 {
-PRInt32
+int32_t
 lastCol
 =
 aColIndex
@@ -3584,7 +3584,7 @@ GetCellSpacingX
 (
 )
 ;
-PRInt32
+int32_t
 cellColSpan
 =
 1
@@ -3596,7 +3596,7 @@ iter
 this
 )
 ;
-PRInt32
+int32_t
 firstPrevColIndex
 =
 (
@@ -3616,7 +3616,7 @@ GetColCount
 (
 )
 ;
-PRInt32
+int32_t
 prevColIndex
 =
 firstPrevColIndex
@@ -3847,7 +3847,7 @@ continue
 ;
 }
 }
-PRInt32
+int32_t
 cellColIndex
 ;
 cellFrame
@@ -4307,7 +4307,7 @@ desiredSize
 height
 )
 ;
-PRInt32
+int32_t
 rowSpan
 =
 aTableFrame
@@ -5267,7 +5267,7 @@ iter
 this
 )
 ;
-PRInt32
+int32_t
 firstPrevColIndex
 =
 (
@@ -5288,7 +5288,7 @@ GetColCount
 (
 )
 ;
-PRInt32
+int32_t
 prevColIndex
 =
 firstPrevColIndex
@@ -5298,7 +5298,7 @@ x
 =
 0
 ;
-PRInt32
+int32_t
 colIncrement
 =
 iter
@@ -5341,7 +5341,7 @@ if
 cellFrame
 )
 {
-PRInt32
+int32_t
 cellColIndex
 ;
 cellFrame
@@ -5352,7 +5352,7 @@ GetColIndex
 cellColIndex
 )
 ;
-PRInt32
+int32_t
 cellColSpan
 =
 tableFrame
@@ -5458,7 +5458,7 @@ cellColSpan
 :
 cellColIndex
 ;
-PRInt32
+int32_t
 startIndex
 =
 (
@@ -5479,7 +5479,7 @@ cellColSpan
 1
 )
 ;
-PRInt32
+int32_t
 actualColSpan
 =
 cellColSpan
@@ -5491,7 +5491,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 colX
 =
 startIndex
@@ -5699,7 +5699,7 @@ x
 =
 cellSpacingX
 ;
-PRInt32
+int32_t
 actualRowSpan
 =
 tableFrame
@@ -6008,7 +6008,7 @@ InsertCellFrame
 nsTableCellFrame
 *
 aFrame
-PRInt32
+int32_t
 aColIndex
 )
 {
@@ -6056,7 +6056,7 @@ if
 cellFrame
 )
 {
-PRInt32
+int32_t
 colIndex
 ;
 cellFrame
@@ -6283,7 +6283,7 @@ nsTableRowFrame
 :
 SetContinuousBCBorderWidth
 (
-PRUint8
+uint8_t
 aForSide
 BCPixelSize
 aPixelValue

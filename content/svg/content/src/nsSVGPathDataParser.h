@@ -543,7 +543,7 @@ to
 ;
 protected
 :
-PRInt32
+int32_t
 mNumSegs
 mSegIndex
 ;

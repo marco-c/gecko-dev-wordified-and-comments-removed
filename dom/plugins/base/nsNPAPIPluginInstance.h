@@ -325,7 +325,7 @@ HandleEvent
 void
 *
 event
-PRInt16
+int16_t
 *
 result
 )
@@ -343,7 +343,7 @@ value
 nsresult
 GetDrawingModel
 (
-PRInt32
+int32_t
 *
 aModel
 )
@@ -479,7 +479,7 @@ PopPopupsEnabledState
 nsresult
 GetPluginAPIVersion
 (
-PRUint16
+uint16_t
 *
 version
 )
@@ -693,7 +693,7 @@ return
 mOnScreen
 ;
 }
-PRUint32
+uint32_t
 GetANPDrawingModel
 (
 )
@@ -705,7 +705,7 @@ mANPDrawingModel
 void
 SetANPDrawingModel
 (
-PRUint32
+uint32_t
 aModel
 )
 ;
@@ -723,7 +723,7 @@ void
 event
 )
 ;
-PRUint32
+uint32_t
 FullScreenOrientation
 (
 )
@@ -735,7 +735,7 @@ mFullScreenOrientation
 void
 SetFullScreenOrientation
 (
-PRUint32
+uint32_t
 orientation
 )
 ;
@@ -789,9 +789,9 @@ TextureInfo
 (
 GLuint
 aTexture
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 GLuint
 aInternalFormat
@@ -818,10 +818,10 @@ aInternalFormat
 GLuint
 mTexture
 ;
-PRInt32
+int32_t
 mWidth
 ;
-PRInt32
+int32_t
 mHeight
 ;
 GLuint
@@ -1070,7 +1070,7 @@ TimerWithID
 (
 uint32_t
 id
-PRUint32
+uint32_t
 *
 index
 )
@@ -1220,7 +1220,7 @@ result
 nsresult
 GetAttributes
 (
-PRUint16
+uint16_t
 &
 n
 const
@@ -1242,7 +1242,7 @@ values
 nsresult
 GetParameters
 (
-PRUint16
+uint16_t
 &
 n
 const
@@ -1264,7 +1264,7 @@ values
 nsresult
 GetMode
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -1278,7 +1278,7 @@ mDrawingModel
 #
 ifdef
 MOZ_WIDGET_ANDROID
-PRUint32
+uint32_t
 mANPDrawingModel
 ;
 friend
@@ -1307,7 +1307,7 @@ OnSurfaceTextureFrameAvailable
 (
 )
 ;
-PRUint32
+uint32_t
 mFullScreenOrientation
 ;
 bool

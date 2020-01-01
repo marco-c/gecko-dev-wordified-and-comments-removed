@@ -262,7 +262,7 @@ short
 SelectionType
 ;
 typedef
-PRUint64
+uint64_t
 nsFrameState
 ;
 namespace
@@ -429,7 +429,7 @@ STATE_IGNORING_VIEWPORT_SCROLLING
 }
 ;
 typedef
-PRUint8
+uint8_t
 RenderFlags
 ;
 public
@@ -1385,7 +1385,7 @@ typedef
 struct
 ScrollAxis
 {
-PRInt16
+int16_t
 mWhereToScroll
 ;
 WhenToScroll
@@ -1395,7 +1395,7 @@ mWhenToScroll
 ;
 ScrollAxis
 (
-PRInt16
+int16_t
 aWhere
 =
 SCROLL_MINIMUM
@@ -1432,7 +1432,7 @@ ScrollAxis
 aVertical
 ScrollAxis
 aHorizontal
-PRUint32
+uint32_t
 aFlags
 )
 =
@@ -1466,7 +1466,7 @@ ScrollAxis
 aVertical
 ScrollAxis
 aHorizontal
-PRUint32
+uint32_t
 aFlags
 )
 =
@@ -1565,13 +1565,13 @@ RestoreCaret
 NS_IMETHOD
 SetSelectionFlags
 (
-PRInt16
+int16_t
 aInEnable
 )
 =
 0
 ;
-PRInt16
+int16_t
 GetSelectionFlags
 (
 )
@@ -1924,7 +1924,7 @@ const
 nsPoint
 &
 aOffset
-PRUint32
+uint32_t
 aColor
 )
 =
@@ -1966,7 +1966,7 @@ aRootFrame
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -1981,7 +1981,7 @@ ListStyleSheets
 FILE
 *
 out
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -2097,7 +2097,7 @@ const
 nsRect
 &
 aRect
-PRUint32
+uint32_t
 aFlags
 nscolor
 aBackgroundColor
@@ -2328,7 +2328,7 @@ NS_RGBA
 0
 0
 )
-PRUint32
+uint32_t
 aFlags
 =
 0
@@ -2431,7 +2431,7 @@ SetCapturingContent
 nsIContent
 *
 aContent
-PRUint8
+uint8_t
 aFlags
 )
 ;
@@ -2480,7 +2480,7 @@ gCaptureInfo
 mContent
 ;
 }
-PRUint64
+uint64_t
 GetPaintCount
 (
 )
@@ -2753,7 +2753,7 @@ aPresContextSize
 =
 0
 ;
-PRUint32
+uint32_t
 FontSizeInflationEmPerLine
 (
 )
@@ -2763,7 +2763,7 @@ return
 mFontSizeInflationEmPerLine
 ;
 }
-PRUint32
+uint32_t
 FontSizeInflationMinTwips
 (
 )
@@ -2773,7 +2773,7 @@ return
 mFontSizeInflationMinTwips
 ;
 }
-PRUint32
+uint32_t
 FontSizeInflationLineThreshold
 (
 )
@@ -3037,12 +3037,12 @@ nsIFrame
 *
 mDrawEventTargetFrame
 ;
-PRUint32
+uint32_t
 mPresArenaAllocCount
 ;
 #
 endif
-PRUint64
+uint64_t
 mPaintCount
 ;
 nsSize
@@ -3061,7 +3061,7 @@ mXResolution
 float
 mYResolution
 ;
-PRInt16
+int16_t
 mSelectionFlags
 ;
 RenderFlags
@@ -3137,13 +3137,13 @@ nsIContent
 *
 gKeyDownTarget
 ;
-PRUint32
+uint32_t
 mFontSizeInflationEmPerLine
 ;
-PRUint32
+uint32_t
 mFontSizeInflationMinTwips
 ;
-PRUint32
+uint32_t
 mFontSizeInflationLineThreshold
 ;
 }

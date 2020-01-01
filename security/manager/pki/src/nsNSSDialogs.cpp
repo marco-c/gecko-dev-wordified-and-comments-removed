@@ -374,7 +374,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 status
 ;
 rv
@@ -532,7 +532,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 status
 ;
 rv
@@ -696,7 +696,7 @@ ctx
 nsIX509Cert
 *
 cert
-PRUint32
+uint32_t
 *
 _trust
 bool
@@ -797,10 +797,10 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 status
 ;
-PRInt32
+int32_t
 ssl
 email
 objsign
@@ -1078,9 +1078,9 @@ PRUnichar
 *
 *
 certDetailsList
-PRUint32
+uint32_t
 count
-PRInt32
+int32_t
 *
 selectedIndex
 bool
@@ -1091,7 +1091,7 @@ canceled
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 i
 ;
 *
@@ -1345,7 +1345,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 status
 ;
 rv
@@ -1386,7 +1386,7 @@ if
 extraResult
 )
 {
-PRInt32
+int32_t
 rememberSelection
 ;
 rv
@@ -1478,9 +1478,9 @@ PRUnichar
 *
 *
 certDetailsList
-PRUint32
+uint32_t
 count
-PRInt32
+int32_t
 *
 selectedIndex
 bool
@@ -1491,7 +1491,7 @@ canceled
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 i
 ;
 *
@@ -1700,7 +1700,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 status
 ;
 rv
@@ -1851,7 +1851,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 status
 ;
 rv
@@ -2027,7 +2027,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 status
 ;
 rv
@@ -2281,7 +2281,7 @@ PRUnichar
 *
 *
 aTokenList
-PRUint32
+uint32_t
 aCount
 PRUnichar
 *
@@ -2295,7 +2295,7 @@ aCanceled
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 i
 ;
 *
@@ -2436,7 +2436,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 status
 ;
 rv
@@ -2594,7 +2594,7 @@ rv
 return
 rv
 ;
-PRInt32
+int32_t
 status
 =
 0
@@ -2797,7 +2797,7 @@ const
 nsACString
 &
 hostName
-PRUint32
+uint32_t
 portNumber
 )
 {

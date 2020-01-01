@@ -242,7 +242,7 @@ mIdleCount
 <
 =
 (
-PRUint32
+uint32_t
 )
 mThreads
 .
@@ -269,7 +269,7 @@ Count
 )
 <
 (
-PRInt32
+int32_t
 )
 mThreadLimit
 )
@@ -376,7 +376,7 @@ Count
 )
 <
 (
-PRInt32
+int32_t
 )
 mThreadLimit
 )
@@ -945,7 +945,7 @@ Dispatch
 nsIRunnable
 *
 event
-PRUint32
+uint32_t
 flags
 )
 {
@@ -1166,7 +1166,7 @@ listener
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1203,7 +1203,7 @@ nsThreadPool
 :
 GetThreadLimit
 (
-PRUint32
+uint32_t
 *
 value
 )
@@ -1223,7 +1223,7 @@ nsThreadPool
 :
 SetThreadLimit
 (
-PRUint32
+uint32_t
 value
 )
 {
@@ -1267,7 +1267,7 @@ nsThreadPool
 :
 GetIdleThreadLimit
 (
-PRUint32
+uint32_t
 *
 value
 )
@@ -1287,7 +1287,7 @@ nsThreadPool
 :
 SetIdleThreadLimit
 (
-PRUint32
+uint32_t
 value
 )
 {
@@ -1331,7 +1331,7 @@ nsThreadPool
 :
 GetIdleThreadTimeout
 (
-PRUint32
+uint32_t
 *
 value
 )
@@ -1351,7 +1351,7 @@ nsThreadPool
 :
 SetIdleThreadTimeout
 (
-PRUint32
+uint32_t
 value
 )
 {

@@ -83,7 +83,7 @@ static
 bool
 IsMoveto
 (
-PRUint16
+uint16_t
 aSegType
 )
 {
@@ -178,7 +178,7 @@ Length
 return
 ;
 }
-PRUint32
+uint32_t
 i
 =
 0
@@ -306,14 +306,14 @@ SVGPathData
 :
 AppendSeg
 (
-PRUint32
+uint32_t
 aType
 .
 .
 .
 )
 {
-PRUint32
+uint32_t
 oldLength
 =
 mData
@@ -322,7 +322,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 newLength
 =
 oldLength
@@ -376,7 +376,7 @@ aType
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 oldLength
@@ -428,7 +428,7 @@ const
 SVGPathTraversalState
 state
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -503,7 +503,7 @@ length
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 SVGPathData
 :
 :
@@ -512,7 +512,7 @@ CountItems
 )
 const
 {
-PRUint32
+uint32_t
 i
 =
 0
@@ -603,7 +603,7 @@ Clear
 SVGPathTraversalState
 state
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -731,7 +731,7 @@ Clear
 (
 )
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -747,7 +747,7 @@ Length
 )
 )
 {
-PRUint32
+uint32_t
 segType
 =
 SVGPathSegUtils
@@ -860,7 +860,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 SVGPathData
 :
 :
@@ -871,7 +871,7 @@ aDistance
 )
 const
 {
-PRUint32
+uint32_t
 i
 =
 0
@@ -1174,7 +1174,7 @@ subpathContainsNonArc
 =
 false
 ;
-PRUint32
+uint32_t
 segType
 prevSegType
 =
@@ -1216,7 +1216,7 @@ gfxPoint
 tcp1
 tcp2
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -1247,7 +1247,7 @@ i
 ]
 )
 ;
-PRUint32
+uint32_t
 argCount
 =
 SVGPathSegUtils
@@ -2923,7 +2923,7 @@ pathStartAngle
 .
 0f
 ;
-PRUint16
+uint16_t
 prevSegType
 =
 nsIDOMSVGPathSeg
@@ -2952,7 +2952,7 @@ prevSegEndAngle
 gfxPoint
 prevCP
 ;
-PRUint32
+uint32_t
 i
 =
 0
@@ -2968,7 +2968,7 @@ Length
 )
 )
 {
-PRUint16
+uint16_t
 segType
 =
 SVGPathSegUtils

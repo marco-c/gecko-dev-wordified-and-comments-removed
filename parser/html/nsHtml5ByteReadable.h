@@ -19,11 +19,11 @@ public
 nsHtml5ByteReadable
 (
 const
-PRUint8
+uint8_t
 *
 current
 const
-PRUint8
+uint8_t
 *
 end
 )
@@ -39,7 +39,7 @@ end
 {
 }
 inline
-PRInt32
+int32_t
 read
 (
 )
@@ -71,12 +71,12 @@ return
 private
 :
 const
-PRUint8
+uint8_t
 *
 current
 ;
 const
-PRUint8
+uint8_t
 *
 end
 ;

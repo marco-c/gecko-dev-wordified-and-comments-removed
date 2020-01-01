@@ -114,7 +114,7 @@ XPT_Do64
 XPTCursor
 *
 cursor
-PRInt64
+int64_t
 *
 u64p
 )
@@ -129,7 +129,7 @@ XPT_Do32
 XPTCursor
 *
 cursor
-PRUint32
+uint32_t
 *
 u32p
 )
@@ -144,7 +144,7 @@ XPT_Do16
 XPTCursor
 *
 cursor
-PRUint16
+uint16_t
 *
 u16p
 )
@@ -159,7 +159,7 @@ XPT_Do8
 XPTCursor
 *
 cursor
-PRUint8
+uint8_t
 *
 u8p
 )
@@ -181,7 +181,7 @@ XPTHeader
 *
 *
 headerp
-PRUint32
+uint32_t
 *
 ide_offset
 )
@@ -231,10 +231,10 @@ XPTState
 XPTMode
 mode
 ;
-PRUint32
+uint32_t
 data_offset
 ;
-PRUint32
+uint32_t
 next_cursor
 [
 2
@@ -261,10 +261,10 @@ char
 *
 data
 ;
-PRUint32
+uint32_t
 count
 ;
-PRUint32
+uint32_t
 allocated
 ;
 }
@@ -279,10 +279,10 @@ state
 XPTPool
 pool
 ;
-PRUint32
+uint32_t
 offset
 ;
-PRUint8
+uint8_t
 bits
 ;
 }
@@ -300,7 +300,7 @@ mode
 char
 *
 data
-PRUint32
+uint32_t
 len
 )
 ;
@@ -316,7 +316,7 @@ XPTState
 state
 XPTPool
 pool
-PRUint32
+uint32_t
 len
 XPTCursor
 *
@@ -333,7 +333,7 @@ XPT_SeekTo
 XPTCursor
 *
 cursor
-PRUint32
+uint32_t
 offset
 )
 ;
@@ -373,7 +373,7 @@ XPTState
 state
 XPTPool
 pool
-PRUint32
+uint32_t
 *
 len
 )
@@ -394,7 +394,7 @@ char
 *
 *
 data
-PRUint32
+uint32_t
 *
 len
 )
@@ -409,7 +409,7 @@ XPT_DataOffset
 XPTState
 *
 state
-PRUint32
+uint32_t
 *
 data_offsetp
 )
@@ -424,14 +424,14 @@ XPT_SetDataOffset
 XPTState
 *
 state
-PRUint32
+uint32_t
 data_offset
 )
 ;
 extern
 XPT_PUBLIC_API
 (
-PRUint32
+uint32_t
 )
 XPT_GetOffsetForAddr
 (
@@ -456,7 +456,7 @@ cursor
 void
 *
 addr
-PRUint32
+uint32_t
 offset
 )
 ;
@@ -470,7 +470,7 @@ XPT_SetAddrForOffset
 XPTCursor
 *
 cursor
-PRUint32
+uint32_t
 offset
 void
 *
@@ -488,7 +488,7 @@ XPT_GetAddrForOffset
 XPTCursor
 *
 cursor
-PRUint32
+uint32_t
 offset
 )
 ;

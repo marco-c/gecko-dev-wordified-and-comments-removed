@@ -153,7 +153,7 @@ aType
 nsIWebNavigation
 *
 aWebNav
-PRUint32
+uint32_t
 *
 aIsTypeSupported
 )
@@ -269,7 +269,7 @@ const
 nsCString
 &
 aType
-PRUint32
+uint32_t
 *
 aIsSupported
 )

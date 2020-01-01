@@ -45,7 +45,7 @@ inline
 void
 A11yConsumers
 (
-PRUint32
+uint32_t
 aConsumer
 )
 {

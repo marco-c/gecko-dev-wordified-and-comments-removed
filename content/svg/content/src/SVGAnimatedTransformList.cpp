@@ -605,7 +605,7 @@ params
 f
 }
 ;
-PRInt32
+int32_t
 numParsed
 =
 ParseParameterList
@@ -615,7 +615,7 @@ params
 3
 )
 ;
-PRUint16
+uint16_t
 transformType
 ;
 if
@@ -888,7 +888,7 @@ aIter
 ;
 }
 }
-PRInt32
+int32_t
 SVGAnimatedTransformList
 :
 :
@@ -904,7 +904,7 @@ aSpec
 float
 *
 aVars
-PRInt32
+int32_t
 aNVars
 )
 {

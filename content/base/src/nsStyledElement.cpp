@@ -250,7 +250,7 @@ nsStyledElementNotElementCSSInlineStyle
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -401,7 +401,7 @@ nsStyledElementNotElementCSSInlineStyle
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -453,7 +453,7 @@ nsStyledElementNotElementCSSInlineStyle
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -620,14 +620,14 @@ aStyleRule
 aSerialized
 )
 ;
-PRUint8
+uint8_t
 modType
 =
 modification
 ?
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 nsIDOMMutationEvent
@@ -638,7 +638,7 @@ MODIFICATION
 :
 static_cast
 <
-PRUint8
+uint8_t
 >
 (
 nsIDOMMutationEvent

@@ -166,7 +166,7 @@ aProperty
 )
 const
 ;
-PRUint32
+uint32_t
 Count
 (
 )
@@ -183,7 +183,7 @@ Length
 void
 GetNthProperty
 (
-PRUint32
+uint32_t
 aIndex
 nsAString
 &
@@ -646,7 +646,7 @@ FILE
 out
 =
 stdout
-PRInt32
+int32_t
 aIndent
 =
 0
@@ -723,7 +723,7 @@ public
 nsCSSProperty
 OrderValueAt
 (
-PRUint32
+uint32_t
 aValue
 )
 const
@@ -752,7 +752,7 @@ private
 :
 nsAutoTArray
 <
-PRUint8
+uint8_t
 8
 >
 mOrder

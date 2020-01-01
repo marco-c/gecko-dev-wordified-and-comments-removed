@@ -59,7 +59,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_INODELIST_IID
 )
 virtual
-PRInt32
+int32_t
 IndexOf
 (
 nsIContent

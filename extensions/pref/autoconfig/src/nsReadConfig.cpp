@@ -579,7 +579,7 @@ lockFileName
 nsXPIDLCString
 lockVendor
 ;
-PRUint32
+uint32_t
 fileNameLen
 =
 0
@@ -793,7 +793,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 obscureValue
 =
 0
@@ -1072,7 +1072,7 @@ const
 char
 *
 aFileName
-PRInt32
+int32_t
 obscureValue
 bool
 isEncoded
@@ -1298,10 +1298,10 @@ return
 rv
 ;
 }
-PRUint64
+uint64_t
 fs64
 ;
-PRUint32
+uint32_t
 amt
 =
 0
@@ -1336,11 +1336,11 @@ PR_UINT32_MAX
 return
 NS_ERROR_FILE_TOO_BIG
 ;
-PRUint32
+uint32_t
 fs
 =
 (
-PRUint32
+uint32_t
 )
 fs64
 ;
@@ -1379,7 +1379,7 @@ Read
 (
 buf
 (
-PRUint32
+uint32_t
 )
 fs
 &
@@ -1424,7 +1424,7 @@ obscureValue
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

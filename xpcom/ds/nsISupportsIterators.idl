@@ -1607,7 +1607,7 @@ nsISupports
 getElementAt
 (
 in
-PRInt32
+int32_t
 anOffset
 )
 ;
@@ -1864,7 +1864,7 @@ void
 putElementAt
 (
 in
-PRInt32
+int32_t
 anOffset
 in
 nsISupports
@@ -1977,7 +1977,7 @@ void
 stepForwardBy
 (
 in
-PRInt32
+int32_t
 anOffset
 )
 ;
@@ -2105,7 +2105,7 @@ void
 stepBackwardBy
 (
 in
-PRInt32
+int32_t
 anOffset
 )
 ;

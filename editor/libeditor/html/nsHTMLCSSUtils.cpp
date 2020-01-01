@@ -1098,7 +1098,7 @@ if
 aInputString
 )
 {
-PRInt32
+int32_t
 size
 =
 nsContentUtils
@@ -2260,7 +2260,7 @@ return
 true
 ;
 }
-PRInt32
+int32_t
 size
 =
 nsContentUtils
@@ -3062,7 +3062,7 @@ aElement
 nsIAtom
 *
 aProperty
-PRInt32
+int32_t
 aIntValue
 bool
 aSuppressTransaction
@@ -4021,12 +4021,12 @@ value
 =
 0
 ;
-PRInt8
+int8_t
 sign
 =
 1
 ;
-PRInt32
+int32_t
 i
 =
 0
@@ -4700,7 +4700,7 @@ lowerCasedValue
 )
 ;
 }
-PRInt8
+int8_t
 index
 =
 0
@@ -5387,7 +5387,7 @@ aGetOrRemoveRequest
 ;
 }
 }
-PRInt32
+int32_t
 nsHTMLCSSUtils
 :
 :
@@ -5428,7 +5428,7 @@ aAttribute
 aValue
 )
 ;
-PRInt32
+int32_t
 count
 ;
 nsresult
@@ -5492,7 +5492,7 @@ const
 nsAString
 *
 aValue
-PRInt32
+int32_t
 *
 aCount
 bool
@@ -5584,7 +5584,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -5719,7 +5719,7 @@ do_QueryInterface
 element
 )
 ;
-PRInt32
+int32_t
 count
 =
 cssPropertyArray
@@ -5730,7 +5730,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -5866,7 +5866,7 @@ cssValueArray
 true
 )
 ;
-PRInt32
+int32_t
 count
 =
 cssPropertyArray
@@ -5877,7 +5877,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 index
 =
 0
@@ -6192,7 +6192,7 @@ bold
 }
 else
 {
-PRInt32
+int32_t
 weight
 =
 0
@@ -6881,7 +6881,7 @@ true
 }
 else
 {
-PRInt32
+int32_t
 size
 =
 nsContentUtils
@@ -7435,7 +7435,7 @@ nsIDOMCSSStyleDeclaration
 firstCSSDecl
 secondCSSDecl
 ;
-PRUint32
+uint32_t
 firstLength
 secondLength
 ;
@@ -7518,7 +7518,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 nsAutoString
@@ -7661,7 +7661,7 @@ nsIDOMCSSStyleDeclaration
 *
 *
 aCssDecl
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -7900,7 +7900,7 @@ nsIDOMCSSStyleDeclaration
 >
 cssDecl
 ;
-PRUint32
+uint32_t
 length
 ;
 nsresult
@@ -7958,7 +7958,7 @@ const
 nsAString
 &
 aProperty
-PRInt32
+int32_t
 aIntValue
 )
 {

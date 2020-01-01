@@ -64,7 +64,7 @@ mozIStorageRow
 aTuple
 )
 ;
-PRInt32
+int32_t
 rows
 (
 )
@@ -80,7 +80,7 @@ Count
 }
 private
 :
-PRInt32
+int32_t
 mCurrentIndex
 ;
 nsCOMArray

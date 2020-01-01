@@ -940,7 +940,7 @@ nsHTMLLabelElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -976,7 +976,7 @@ nsHTMLLabelElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *

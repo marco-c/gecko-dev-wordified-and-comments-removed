@@ -271,7 +271,7 @@ body
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -340,7 +340,7 @@ OutputFormatDelSp
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -379,7 +379,7 @@ n
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

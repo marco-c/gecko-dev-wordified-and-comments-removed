@@ -642,7 +642,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -743,7 +743,7 @@ nsDOMFileReader
 :
 GetReadyState
 (
-PRUint16
+uint16_t
 *
 aReadyState
 )
@@ -1069,11 +1069,11 @@ const
 char
 *
 fromRawSegment
-PRUint32
+uint32_t
 toOffset
-PRUint32
+uint32_t
 count
-PRUint32
+uint32_t
 *
 writeCount
 )
@@ -1162,9 +1162,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1193,7 +1193,7 @@ length
 "
 )
 ;
-PRUint32
+uint32_t
 oldLen
 =
 mResult
@@ -1228,7 +1228,7 @@ buf
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint32
+uint32_t
 bytesRead
 =
 0
@@ -1271,7 +1271,7 @@ mDataFormat
 FILE_AS_ARRAYBUFFER
 )
 {
-PRUint32
+uint32_t
 bytesRead
 =
 0
@@ -1334,7 +1334,7 @@ mFileData
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-PRUint32
+uint32_t
 bytesRead
 =
 0
@@ -1732,7 +1732,7 @@ const
 char
 *
 aFileData
-PRUint32
+uint32_t
 aDataLen
 nsAString
 &
@@ -1832,7 +1832,7 @@ const
 char
 *
 aFileData
-PRUint32
+uint32_t
 aDataLen
 nsAString
 &
@@ -1915,7 +1915,7 @@ base64
 "
 )
 ;
-PRUint32
+uint32_t
 totalRead
 =
 0
@@ -1927,12 +1927,12 @@ aDataLen
 totalRead
 )
 {
-PRUint32
+uint32_t
 numEncode
 =
 4096
 ;
-PRUint32
+uint32_t
 amtRemaining
 =
 aDataLen
@@ -1956,7 +1956,7 @@ numEncode
 3
 )
 {
-PRUint32
+uint32_t
 leftOver
 =
 numEncode
@@ -2016,7 +2016,7 @@ const
 char
 *
 aFileData
-PRUint32
+uint32_t
 aDataLen
 const
 char
@@ -2075,7 +2075,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 destLength
 ;
 rv
@@ -2113,7 +2113,7 @@ fallible_t
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRInt32
+int32_t
 srcLength
 =
 aDataLen

@@ -73,7 +73,7 @@ aTable
 NS_IMETHOD
 GetColumnIndex
 (
-PRInt32
+int32_t
 *
 aColumnIndex
 )
@@ -82,7 +82,7 @@ aColumnIndex
 NS_IMETHOD
 GetRowIndex
 (
-PRInt32
+int32_t
 *
 aRowIndex
 )
@@ -91,7 +91,7 @@ aRowIndex
 NS_IMETHOD
 GetColumnExtent
 (
-PRInt32
+int32_t
 *
 aColumnExtent
 )
@@ -100,7 +100,7 @@ aColumnExtent
 NS_IMETHOD
 GetRowExtent
 (
-PRInt32
+int32_t
 *
 aRowExtent
 )

@@ -111,7 +111,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -157,7 +157,7 @@ return
 this
 ;
 }
-PRUint8
+uint8_t
 GetType
 (
 )
@@ -206,7 +206,7 @@ aContent
 nsIMenuBuilder
 *
 aBuilder
-PRInt8
+int8_t
 &
 aSeparator
 )
@@ -217,12 +217,12 @@ AddSeparator
 nsIMenuBuilder
 *
 aBuilder
-PRInt8
+int8_t
 &
 aSeparator
 )
 ;
-PRUint8
+uint8_t
 mType
 ;
 }

@@ -67,10 +67,10 @@ nsIDOMFontFaceList
 struct
 FindByIndexData
 {
-PRUint32
+uint32_t
 mTarget
 ;
-PRUint32
+uint32_t
 mCurrent
 ;
 nsIDOMFontFace
@@ -149,7 +149,7 @@ nsFontFaceList
 :
 Item
 (
-PRUint32
+uint32_t
 index
 nsIDOMFontFace
 *
@@ -236,7 +236,7 @@ nsFontFaceList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -263,9 +263,9 @@ AddFontsFromTextRun
 gfxTextRun
 *
 aTextRun
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aLength
 nsIFrame
 *

@@ -166,7 +166,7 @@ nullptr
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -233,7 +233,7 @@ nsPluginArray
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -327,7 +327,7 @@ nsPluginArray
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -395,7 +395,7 @@ nsPluginArray
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMPlugin
 *
@@ -483,7 +483,7 @@ nullptr
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -775,7 +775,7 @@ nullptr
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -931,7 +931,7 @@ rv
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1030,7 +1030,7 @@ nullptr
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1206,7 +1206,7 @@ nsPluginElement
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -1228,7 +1228,7 @@ nsPluginElement
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -1297,7 +1297,7 @@ nsPluginElement
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMMimeType
 *
@@ -1375,7 +1375,7 @@ NS_OK
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1517,7 +1517,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

@@ -2029,7 +2029,7 @@ aPresContext
 nsEvent
 *
 aEvent
-PRUint32
+uint32_t
 aEventType
 =
 0
@@ -2053,7 +2053,7 @@ aPresContext
 nsEvent
 *
 aEvent
-PRUint32
+uint32_t
 aEventType
 =
 0
@@ -2062,7 +2062,7 @@ float
 aFrameBuffer
 =
 nullptr
-PRUint32
+uint32_t
 aFrameBufferLength
 =
 0

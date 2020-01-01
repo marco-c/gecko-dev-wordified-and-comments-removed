@@ -224,9 +224,9 @@ const
 nsAString
 &
 aType
-PRUint64
+uint64_t
 aOldVersion
-PRUint64
+uint64_t
 aNewVersion
 )
 {
@@ -320,9 +320,9 @@ const
 nsAString
 &
 aType
-PRUint64
+uint64_t
 aOldVersion
-PRUint64
+uint64_t
 aNewVersion
 nsIDOMEventTarget
 *
@@ -407,7 +407,7 @@ IDBVersionChangeEvent
 :
 GetOldVersion
 (
-PRUint64
+uint64_t
 *
 aOldVersion
 )

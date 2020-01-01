@@ -217,7 +217,7 @@ disabled
 /
 readonly
 attribute
-PRUint32
+uint32_t
 framesNotified
 ;
 }

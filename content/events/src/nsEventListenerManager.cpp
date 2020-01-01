@@ -400,7 +400,7 @@ NS_DOM_SCRIPT_OBJECT_FACTORY_CID
 ;
 static
 const
-PRUint32
+uint32_t
 kAllMutationBits
 =
 NS_EVENT_BITS_MUTATION_SUBTREEMODIFIED
@@ -418,10 +418,10 @@ NS_EVENT_BITS_MUTATION_ATTRMODIFIED
 NS_EVENT_BITS_MUTATION_CHARACTERDATAMODIFIED
 ;
 static
-PRUint32
+uint32_t
 MutationBitForEventType
 (
-PRUint32
+uint32_t
 aEventType
 )
 {
@@ -481,7 +481,7 @@ return
 0
 ;
 }
-PRUint32
+uint32_t
 nsEventListenerManager
 :
 :
@@ -626,7 +626,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NATIVE_BEGIN
 (
 nsEventListenerManager
 )
-PRUint32
+uint32_t
 count
 =
 tmp
@@ -640,7 +640,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -792,12 +792,12 @@ AddEventListener
 nsIDOMEventListener
 *
 aListener
-PRUint32
+uint32_t
 aType
 nsIAtom
 *
 aTypeAtom
-PRInt32
+int32_t
 aFlags
 )
 {
@@ -834,7 +834,7 @@ nsListenerStruct
 *
 ls
 ;
-PRUint32
+uint32_t
 count
 =
 mListeners
@@ -845,7 +845,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1485,7 +1485,7 @@ nsEventListenerManager
 :
 IsDeviceType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1527,7 +1527,7 @@ nsEventListenerManager
 :
 EnableDevice
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1670,7 +1670,7 @@ nsEventListenerManager
 :
 DisableDevice
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -1816,12 +1816,12 @@ RemoveEventListener
 nsIDOMEventListener
 *
 aListener
-PRUint32
+uint32_t
 aType
 nsIAtom
 *
 aUserType
-PRInt32
+int32_t
 aFlags
 )
 {
@@ -1848,7 +1848,7 @@ aFlags
 ~
 NS_PRIV_EVENT_UNTRUSTED_PERMITTED
 ;
-PRUint32
+uint32_t
 count
 =
 mListeners
@@ -1857,7 +1857,7 @@ Length
 (
 )
 ;
-PRUint32
+uint32_t
 typeCount
 =
 0
@@ -1872,7 +1872,7 @@ aType
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2058,7 +2058,7 @@ const
 nsAString
 &
 aType
-PRInt32
+int32_t
 aFlags
 )
 {
@@ -2080,7 +2080,7 @@ on
 aType
 )
 ;
-PRUint32
+uint32_t
 type
 =
 nsContentUtils
@@ -2113,7 +2113,7 @@ const
 nsAString
 &
 aType
-PRInt32
+int32_t
 aFlags
 )
 {
@@ -2135,7 +2135,7 @@ on
 aType
 )
 ;
-PRUint32
+uint32_t
 type
 =
 nsContentUtils
@@ -2162,7 +2162,7 @@ nsEventListenerManager
 :
 FindJSEventListener
 (
-PRUint32
+uint32_t
 aEventType
 nsIAtom
 *
@@ -2173,7 +2173,7 @@ nsListenerStruct
 *
 ls
 ;
-PRUint32
+uint32_t
 count
 =
 mListeners
@@ -2184,7 +2184,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2269,7 +2269,7 @@ rv
 =
 NS_OK
 ;
-PRUint32
+uint32_t
 eventType
 =
 nsContentUtils
@@ -2425,7 +2425,7 @@ const
 nsAString
 &
 aBody
-PRUint32
+uint32_t
 aLanguage
 bool
 aDeferCompilation
@@ -2951,7 +2951,7 @@ nsIAtom
 aName
 )
 {
-PRUint32
+uint32_t
 eventType
 =
 nsContentUtils
@@ -2981,7 +2981,7 @@ mListeners
 .
 RemoveElementAt
 (
-PRUint32
+uint32_t
 (
 ls
 -
@@ -3398,7 +3398,7 @@ body
 handlerBody
 ;
 }
-PRUint32
+uint32_t
 lineNo
 =
 0
@@ -3537,7 +3537,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRUint32
+uint32_t
 argCount
 ;
 const
@@ -3699,7 +3699,7 @@ aDOMEvent
 nsIDOMEventTarget
 *
 aCurrentTarget
-PRUint32
+uint32_t
 aPhaseFlags
 nsCxPusher
 *
@@ -3809,7 +3809,7 @@ aDOMEvent
 nsIDOMEventTarget
 *
 aCurrentTarget
-PRUint32
+uint32_t
 aFlags
 nsEventStatus
 *
@@ -4182,7 +4182,7 @@ bool
 aWantsUntrusted
 )
 {
-PRInt32
+int32_t
 flags
 =
 aUseCapture
@@ -4228,7 +4228,7 @@ bool
 aUseCapture
 )
 {
-PRInt32
+int32_t
 flags
 =
 aUseCapture
@@ -4258,7 +4258,7 @@ if
 mMayHaveMutationListeners
 )
 {
-PRUint32
+uint32_t
 count
 =
 mListeners
@@ -4269,7 +4269,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4325,7 +4325,7 @@ return
 false
 ;
 }
-PRUint32
+uint32_t
 nsEventListenerManager
 :
 :
@@ -4333,7 +4333,7 @@ MutationListenerBits
 (
 )
 {
-PRUint32
+uint32_t
 bits
 =
 0
@@ -4343,7 +4343,7 @@ if
 mMayHaveMutationListeners
 )
 {
-PRUint32
+uint32_t
 count
 =
 mListeners
@@ -4354,7 +4354,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4463,7 +4463,7 @@ on
 aEventName
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mListeners
@@ -4474,7 +4474,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4574,7 +4574,7 @@ Clear
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mListeners
@@ -4585,7 +4585,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4744,7 +4744,7 @@ HasUnloadListeners
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 mListeners
@@ -4755,7 +4755,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4981,7 +4981,7 @@ jsval
 vp
 )
 {
-PRUint32
+uint32_t
 eventType
 =
 nsContentUtils
@@ -5086,7 +5086,7 @@ SizeOfExcludingThis
 aMallocSizeOf
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mListeners
@@ -5097,7 +5097,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5156,7 +5156,7 @@ UnmarkGrayJSListeners
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 mListeners
@@ -5167,7 +5167,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

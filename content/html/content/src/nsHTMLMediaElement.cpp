@@ -646,7 +646,7 @@ nsHTMLMediaElement
 >
 mElement
 ;
-PRUint32
+uint32_t
 mLoadID
 ;
 }
@@ -882,7 +882,7 @@ nsIStreamListener
 >
 mNextListener
 ;
-PRUint32
+uint32_t
 mLoadID
 ;
 }
@@ -952,7 +952,7 @@ PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aParamCount
 )
 {
@@ -1133,7 +1133,7 @@ NotifyLoadError
 (
 )
 ;
-PRUint32
+uint32_t
 responseStatus
 =
 0
@@ -1351,9 +1351,9 @@ aContext
 nsIInputStream
 *
 aStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -1414,7 +1414,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -1542,7 +1542,7 @@ mSourceLoadCandidate
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1614,7 +1614,7 @@ mSourceLoadCandidate
 )
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2059,7 +2059,7 @@ nsHTMLMediaElement
 :
 GetNetworkState
 (
-PRUint16
+uint16_t
 *
 aNetworkState
 )
@@ -2085,7 +2085,7 @@ aChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3194,7 +3194,7 @@ NotifyAudioAvailable
 float
 *
 aFrameBuffer
-PRUint32
+uint32_t
 aFrameBufferLength
 float
 aTime
@@ -4005,7 +4005,7 @@ preload
 kNameSpaceID_None
 )
 ;
-PRUint32
+uint32_t
 preloadDefault
 =
 Preferences
@@ -4026,7 +4026,7 @@ nsHTMLMediaElement
 PRELOAD_ATTR_METADATA
 )
 ;
-PRUint32
+uint32_t
 preloadAuto
 =
 Preferences
@@ -4357,7 +4357,7 @@ return
 rv
 ;
 }
-PRInt16
+int16_t
 shouldLoad
 =
 nsIContentPolicy
@@ -4956,7 +4956,7 @@ nsHTMLMediaElement
 :
 GetReadyState
 (
-PRUint16
+uint16_t
 *
 aReadyState
 )
@@ -5526,7 +5526,7 @@ aPlayed
 ranges
 )
 ;
-PRUint32
+uint32_t
 timeRangeCount
 =
 0
@@ -5541,7 +5541,7 @@ timeRangeCount
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5903,7 +5903,7 @@ nsHTMLMediaElement
 :
 GetMozChannels
 (
-PRUint32
+uint32_t
 *
 aMozChannels
 )
@@ -5937,7 +5937,7 @@ nsHTMLMediaElement
 :
 GetMozSampleRate
 (
-PRUint32
+uint32_t
 *
 aMozSampleRate
 )
@@ -6187,7 +6187,7 @@ nsHTMLMediaElement
 :
 GetMozFrameBufferLength
 (
-PRUint32
+uint32_t
 *
 aMozFrameBufferLength
 )
@@ -6222,7 +6222,7 @@ nsHTMLMediaElement
 :
 SetMozFrameBufferLength
 (
-PRUint32
+uint32_t
 aMozFrameBufferLength
 )
 {
@@ -6679,14 +6679,14 @@ return
 0
 ;
 }
-PRUint32
+uint32_t
 count
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7074,7 +7074,7 @@ nullptr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -7929,7 +7929,7 @@ nsHTMLMediaElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -8103,7 +8103,7 @@ nsHTMLMediaElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -8245,7 +8245,7 @@ nsHTMLMediaElement
 :
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -8556,7 +8556,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8762,7 +8762,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -8917,7 +8917,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9064,7 +9064,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9237,7 +9237,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9357,7 +9357,7 @@ mp4
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -9719,7 +9719,7 @@ aCodec
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -10823,7 +10823,7 @@ mVolume
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -11876,9 +11876,9 @@ nsHTMLMediaElement
 :
 MetadataLoaded
 (
-PRUint32
+uint32_t
 aChannels
-PRUint32
+uint32_t
 aRate
 bool
 aHasAudio
@@ -12305,7 +12305,7 @@ nsHTMLMediaElement
 :
 Error
 (
-PRUint16
+uint16_t
 aErrorCode
 )
 {
@@ -13412,7 +13412,7 @@ DispatchAudioAvailableEvent
 float
 *
 aFrameBuffer
-PRUint32
+uint32_t
 aFrameBufferLength
 float
 aTime
@@ -13711,7 +13711,7 @@ events
 "
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mPendingEvents
@@ -13722,7 +13722,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -13891,7 +13891,7 @@ NotifyDecoderPrincipalChanged
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -14344,7 +14344,7 @@ nsHTMLMediaElement
 :
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -14598,7 +14598,7 @@ children
 ;
 #
 endif
-PRInt32
+int32_t
 startOffset
 =
 0
@@ -14622,7 +14622,7 @@ nullptr
 ;
 if
 (
-PRUint32
+uint32_t
 (
 startOffset
 )

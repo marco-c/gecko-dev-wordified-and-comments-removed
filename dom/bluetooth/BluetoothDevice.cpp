@@ -962,7 +962,7 @@ BluetoothDevice
 :
 GetDeviceClass
 (
-PRUint32
+uint32_t
 *
 aClass
 )

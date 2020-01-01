@@ -110,7 +110,7 @@ sCurrentObserver
 =
 nullptr
 ;
-PRUint32
+uint32_t
 nsDOMMutationObserver
 :
 :
@@ -118,7 +118,7 @@ sMutationLevel
 =
 0
 ;
-PRUint64
+uint64_t
 nsDOMMutationObserver
 :
 :
@@ -686,12 +686,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1080,7 +1080,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 aNewIndexInContainer
 )
 {
@@ -1309,7 +1309,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 )
 {
@@ -1499,7 +1499,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -1723,7 +1723,7 @@ else
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1994,7 +1994,7 @@ mOwner
 )
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2108,7 +2108,7 @@ nullptr
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2288,7 +2288,7 @@ Count
 )
 =
 =
-PRInt32
+int32_t
 (
 aReceivers
 .
@@ -2328,7 +2328,7 @@ transientReceivers
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2410,7 +2410,7 @@ Count
 )
 =
 =
-PRInt32
+int32_t
 (
 aReceivers
 .
@@ -2499,7 +2499,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2848,7 +2848,7 @@ ifdef
 DEBUG
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2906,7 +2906,7 @@ Disconnect
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3015,7 +3015,7 @@ variant
 "
 )
 ;
-PRInt32
+int32_t
 len
 =
 mPendingMutations
@@ -3054,7 +3054,7 @@ len
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3150,7 +3150,7 @@ cx
 JSObject
 *
 obj
-PRUint32
+uint32_t
 argc
 jsval
 *
@@ -3326,7 +3326,7 @@ false
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3587,7 +3587,7 @@ nullptr
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3694,7 +3694,7 @@ suppressedObservers
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3799,7 +3799,7 @@ nullptr
 )
 ;
 }
-PRUint32
+uint32_t
 last
 =
 sMutationLevel
@@ -3883,7 +3883,7 @@ nsDOMMutationObserver
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3969,7 +3969,7 @@ sMutationLevel
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4117,7 +4117,7 @@ Length
 )
 ;
 }
-PRUint32
+uint32_t
 last
 =
 sMutationLevel
@@ -4231,7 +4231,7 @@ LeaveMutationHandling
 return
 ;
 }
-PRUint32
+uint32_t
 len
 =
 mObservers
@@ -4242,7 +4242,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4313,7 +4313,7 @@ mBatchTarget
 allObservers
 )
 ;
-PRInt32
+int32_t
 j
 =
 mFromFirstToLast
@@ -4328,7 +4328,7 @@ Length
 -
 1
 ;
-PRInt32
+int32_t
 end
 =
 mFromFirstToLast
@@ -4446,7 +4446,7 @@ transientReceivers
 }
 for
 (
-PRUint32
+uint32_t
 k
 =
 0
@@ -4560,7 +4560,7 @@ mBatchTarget
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

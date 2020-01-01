@@ -37,7 +37,7 @@ nsCollation
 *
 mCollation
 ;
-PRUint32
+uint32_t
 mLCID
 ;
 public

@@ -160,7 +160,7 @@ aOptions
 JSContext
 *
 aCx
-PRUint8
+uint8_t
 aArgc
 bool
 aEditable
@@ -170,7 +170,7 @@ nsIDOMDeviceStorageCursor
 aRetval
 )
 ;
-PRInt32
+int32_t
 mStorageType
 ;
 nsCOMPtr

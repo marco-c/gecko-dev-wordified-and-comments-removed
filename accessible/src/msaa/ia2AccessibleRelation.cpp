@@ -45,7 +45,7 @@ ia2AccessibleRelation
 :
 ia2AccessibleRelation
 (
-PRUint32
+uint32_t
 aType
 Relation
 *
@@ -776,7 +776,7 @@ aNTargets
 =
 0
 ;
-PRUint32
+uint32_t
 maxTargets
 =
 mTargets
@@ -797,7 +797,7 @@ aMaxTargets
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0

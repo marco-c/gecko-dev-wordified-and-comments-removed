@@ -90,7 +90,7 @@ new_test_uri
 )
 {
 static
-PRInt32
+int32_t
 specNumber
 =
 0

@@ -175,7 +175,7 @@ SUBTABLE_SIZE
 16
 static
 const
-PRUint8
+uint8_t
 gUnicodeSubrangeTable
 [
 NUM_OF_SUBTABLES
@@ -399,7 +399,7 @@ TERTIARY_TABLE_SIZE
 )
 static
 const
-PRUint8
+uint8_t
 gUnicodeTertiaryRangeTable
 [
 TERTIARY_TABLE_SIZE
@@ -440,14 +440,14 @@ kRangeCanadian
 kRangeOghamRunic
 }
 ;
-PRUint32
+uint32_t
 FindCharUnicodeRange
 (
-PRUint32
+uint32_t
 ch
 )
 {
-PRUint32
+uint32_t
 range
 ;
 if
@@ -457,7 +457,7 @@ ch
 0xFFFF
 )
 {
-PRUint32
+uint32_t
 p
 =
 (
@@ -588,7 +588,7 @@ nsIAtom
 *
 LangGroupFromUnicodeRange
 (
-PRUint8
+uint8_t
 unicodeRange
 )
 {

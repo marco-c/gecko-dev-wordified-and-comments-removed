@@ -877,7 +877,7 @@ V
 ;
 }
 }
-PRUintn
+unsigned
 _executionHook
 (
 JSDContext
@@ -886,7 +886,7 @@ jsdc
 JSDThreadState
 *
 jsdstate
-PRUintn
+unsigned
 type
 void
 *
@@ -1366,7 +1366,7 @@ return
 JSD_HOOK_RETURN_CONTINUE
 ;
 }
-PRUintn
+unsigned
 _errorReporter
 (
 JSDContext
@@ -1784,7 +1784,7 @@ JSDScript
 *
 jsdscript
 ;
-PRUintn
+unsigned
 pc
 ;
 ExecEnv
@@ -1870,7 +1870,7 @@ return
 pc
 =
 (
-PRUintn
+unsigned
 )
 execute_java_dynamic_method
 (
@@ -2224,7 +2224,7 @@ long
 line
 )
 {
-PRUintn
+unsigned
 pc
 ;
 JSDScript

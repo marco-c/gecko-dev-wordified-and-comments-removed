@@ -318,7 +318,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -373,7 +373,7 @@ value
 )
 )
 ;
-PRUint32
+uint32_t
 len
 =
 value
@@ -452,7 +452,7 @@ nsEntityConverter
 :
 LoadEntityBundle
 (
-PRUint32
+uint32_t
 version
 )
 {
@@ -584,13 +584,13 @@ nsEntityConverter
 :
 GetVersionName
 (
-PRUint32
+uint32_t
 versionNumber
 )
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -636,7 +636,7 @@ nsEntityConverter
 :
 GetVersionBundleInstance
 (
-PRUint32
+uint32_t
 versionNumber
 )
 {
@@ -666,7 +666,7 @@ return
 NULL
 ;
 }
-PRUint32
+uint32_t
 i
 ;
 for
@@ -766,7 +766,7 @@ ConvertToEntity
 (
 PRUnichar
 character
-PRUint32
+uint32_t
 entityVersion
 char
 *
@@ -778,7 +778,7 @@ return
 ConvertUTF32ToEntity
 (
 (
-PRUint32
+uint32_t
 )
 character
 entityVersion
@@ -792,9 +792,9 @@ nsEntityConverter
 :
 ConvertUTF32ToEntity
 (
-PRUint32
+uint32_t
 character
-PRUint32
+uint32_t
 entityVersion
 char
 *
@@ -830,7 +830,7 @@ NULL
 ;
 for
 (
-PRUint32
+uint32_t
 mask
 =
 1
@@ -995,7 +995,7 @@ const
 PRUnichar
 *
 inString
-PRUint32
+uint32_t
 entityVersion
 PRUnichar
 *
@@ -1060,7 +1060,7 @@ NULL
 nsString
 outString
 ;
-PRUint32
+uint32_t
 len
 =
 NS_strlen
@@ -1070,7 +1070,7 @@ inString
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1173,7 +1173,7 @@ NULL
 ;
 for
 (
-PRUint32
+uint32_t
 mask
 =
 1

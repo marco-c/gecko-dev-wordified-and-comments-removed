@@ -151,7 +151,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -469,7 +469,7 @@ nsHTMLTableCellElement
 :
 GetCellIndex
 (
-PRInt32
+int32_t
 *
 aCellIndex
 )
@@ -527,7 +527,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 numCells
 ;
 cells
@@ -541,7 +541,7 @@ numCells
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -880,7 +880,7 @@ nsHTMLTableCellElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -951,7 +951,7 @@ if
 res
 )
 {
-PRInt32
+int32_t
 val
 =
 aResult
@@ -1030,7 +1030,7 @@ if
 res
 )
 {
-PRInt32
+int32_t
 val
 =
 aResult

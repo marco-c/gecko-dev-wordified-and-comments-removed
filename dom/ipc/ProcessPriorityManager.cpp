@@ -747,7 +747,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -927,7 +927,7 @@ aPriority
 PROCESS_PRIORITY_BACKGROUND
 )
 {
-PRUint32
+uint32_t
 gracePeriodMS
 =
 Preferences

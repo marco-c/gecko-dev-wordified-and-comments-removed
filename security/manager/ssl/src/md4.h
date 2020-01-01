@@ -25,12 +25,12 @@ void
 md4sum
 (
 const
-PRUint8
+uint8_t
 *
 input
-PRUint32
+uint32_t
 inputLen
-PRUint8
+uint8_t
 *
 result
 )

@@ -157,7 +157,7 @@ screen
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -252,13 +252,13 @@ nsScreenManagerCocoa
 :
 ScreenForRect
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 nsIScreen
 *
@@ -483,7 +483,7 @@ nsScreenManagerCocoa
 :
 GetNumberOfScreens
 (
-PRUint32
+uint32_t
 *
 aNumberOfScreens
 )

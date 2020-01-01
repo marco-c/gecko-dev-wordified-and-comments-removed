@@ -28,7 +28,7 @@ public
 :
 nsAuthInformationHolder
 (
-PRUint32
+uint32_t
 aFlags
 const
 nsString
@@ -124,7 +124,7 @@ mPassword
 nsString
 mDomain
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 nsString

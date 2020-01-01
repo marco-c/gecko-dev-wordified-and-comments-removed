@@ -841,7 +841,7 @@ static
 void
 GetColorsFromRGBA
 (
-PRUint32
+uint32_t
 rgba
 float
 *

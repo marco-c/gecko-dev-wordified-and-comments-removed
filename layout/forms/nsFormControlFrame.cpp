@@ -47,7 +47,7 @@ namespace
 mozilla
 ;
 const
-PRInt32
+int32_t
 kSizeNotSet
 =
 -
@@ -467,7 +467,7 @@ RegisterAccessKey
 (
 content
 (
-PRUint32
+uint32_t
 )
 accessKey
 .
@@ -486,7 +486,7 @@ UnregisterAccessKey
 (
 content
 (
-PRUint32
+uint32_t
 )
 accessKey
 .
@@ -683,7 +683,7 @@ DeviceContext
 (
 )
 ;
-PRInt32
+int32_t
 dropdownCanOverlapOSBar
 =
 LookAndFeel

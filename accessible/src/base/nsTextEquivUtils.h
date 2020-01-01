@@ -202,7 +202,7 @@ aChar
 )
 ;
 static
-PRUint32
+uint32_t
 GetRoleRule
 (
 mozilla

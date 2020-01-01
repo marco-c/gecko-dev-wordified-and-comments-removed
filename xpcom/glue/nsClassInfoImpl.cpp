@@ -53,7 +53,7 @@ GenericClassInfo
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 countp
 nsIID
@@ -80,7 +80,7 @@ GenericClassInfo
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 language
 nsISupports
 *
@@ -196,7 +196,7 @@ GenericClassInfo
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 language
 )
@@ -219,7 +219,7 @@ GenericClassInfo
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 flags
 )

@@ -280,13 +280,13 @@ char
 *
 mArray
 ;
-PRUint32
+uint32_t
 mCount
 ;
-PRUint32
+uint32_t
 mSimpleCurItem
 ;
-PRUint32
+uint32_t
 mStringCurItem
 ;
 }
@@ -1216,7 +1216,7 @@ value
 =
 =
 (
-PRUint32
+uint32_t
 )
 -
 1

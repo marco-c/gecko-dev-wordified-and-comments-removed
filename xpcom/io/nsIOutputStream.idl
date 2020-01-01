@@ -274,11 +274,11 @@ aClosure
 char
 *
 aToSegment
-PRUint32
+uint32_t
 aFromOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aReadCount
 )

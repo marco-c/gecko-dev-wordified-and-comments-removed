@@ -241,12 +241,12 @@ nsSVGTSpanFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -328,7 +328,7 @@ nsSVGTSpanFrame
 :
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 {
@@ -409,7 +409,7 @@ aFor
 )
 ;
 }
-PRUint32
+uint32_t
 nsSVGTSpanFrame
 :
 :
@@ -449,9 +449,9 @@ nsSVGTSpanFrame
 :
 GetSubStringLength
 (
-PRUint32
+uint32_t
 charnum
-PRUint32
+uint32_t
 nchars
 )
 {
@@ -466,7 +466,7 @@ nchars
 )
 ;
 }
-PRInt32
+int32_t
 nsSVGTSpanFrame
 :
 :

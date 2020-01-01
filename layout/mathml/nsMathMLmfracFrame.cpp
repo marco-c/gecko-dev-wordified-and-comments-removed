@@ -2064,13 +2064,13 @@ nsMathMLmfracFrame
 :
 UpdatePresentationDataFromChildAt
 (
-PRInt32
+int32_t
 aFirstIndex
-PRInt32
+int32_t
 aLastIndex
-PRUint32
+uint32_t
 aFlagsValues
-PRUint32
+uint32_t
 aFlagsToUpdate
 )
 {

@@ -80,11 +80,11 @@ Shutdown
 (
 )
 ;
-PRUint8
+uint8_t
 *
 mInitialMessage
 ;
-PRUint32
+uint32_t
 mInitialMessageLen
 ;
 PRProcess

@@ -318,7 +318,7 @@ here
 *
 /
 attribute
-PRInt32
+int32_t
 hintCharacterSetSource
 ;
 /
@@ -343,7 +343,7 @@ in
 wstring
 hintCharset
 in
-PRInt32
+int32_t
 charsetSource
 )
 ;
@@ -619,7 +619,7 @@ operation
 *
 /
 attribute
-PRUint32
+uint32_t
 bidiOptions
 ;
 /

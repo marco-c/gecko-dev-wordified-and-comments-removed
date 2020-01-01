@@ -286,7 +286,7 @@ nsIView
 aView
 bool
 aAutoZIndex
-PRInt32
+int32_t
 aZindex
 bool
 aTopMost
@@ -466,7 +466,7 @@ aIsPainting
 NS_IMETHOD
 GetLastUserEventTime
 (
-PRUint32
+uint32_t
 &
 aTime
 )

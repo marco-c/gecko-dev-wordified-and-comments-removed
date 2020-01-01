@@ -172,14 +172,14 @@ nsIFormControl
 )
 GetElementAt
 (
-PRInt32
+int32_t
 aIndex
 )
 const
 ;
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetElementCount
 (
@@ -203,7 +203,7 @@ aName
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 IndexOfControl
 (
@@ -302,7 +302,7 @@ aRadio
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetRequiredRadioCount
 (
 const
@@ -359,7 +359,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -434,7 +434,7 @@ true
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -462,7 +462,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -482,7 +482,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -715,7 +715,7 @@ DoSubmitOrReset
 nsEvent
 *
 aEvent
-PRInt32
+int32_t
 aMessage
 )
 ;
@@ -830,7 +830,7 @@ mSelectedRadioButtons
 nsDataHashtable
 <
 nsStringCaseInsensitiveHashKey
-PRUint32
+uint32_t
 >
 mRequiredRadioButtonCounts
 ;
@@ -892,7 +892,7 @@ nsGenericHTMLFormElement
 *
 mFirstSubmitNotInElements
 ;
-PRInt32
+int32_t
 mInvalidElementsCount
 ;
 bool

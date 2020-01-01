@@ -119,7 +119,7 @@ nsHashtable
 &
 mHashTable
 ;
-PRInt32
+int32_t
 mIndex
 ;
 char
@@ -544,7 +544,7 @@ char
 *
 mGroupArray
 ;
-PRInt32
+int32_t
 mIndex
 ;
 }
@@ -604,7 +604,7 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-PRInt32
+int32_t
 arrayLen
 =
 mGroupArray
@@ -667,7 +667,7 @@ if
 mIndex
 >
 =
-PRInt32
+int32_t
 (
 mGroupArray
 -
@@ -999,7 +999,7 @@ commandList
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 numEntries
 =
 commandList
@@ -1011,7 +1011,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1141,7 +1141,7 @@ commandList
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 numEntries
 =
 commandList
@@ -1153,7 +1153,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1386,7 +1386,7 @@ if
 commandList
 )
 {
-PRUint32
+uint32_t
 numEntries
 =
 commandList
@@ -1398,7 +1398,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

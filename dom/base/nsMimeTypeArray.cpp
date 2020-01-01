@@ -134,7 +134,7 @@ nsMimeTypeArray
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -169,7 +169,7 @@ mPluginMimeTypeCount
 <
 =
 (
-PRUint32
+uint32_t
 )
 mMimeTypeArray
 .
@@ -216,7 +216,7 @@ nsMimeTypeArray
 :
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *
@@ -254,7 +254,7 @@ mPluginMimeTypeCount
 <
 =
 (
-PRUint32
+uint32_t
 )
 mMimeTypeArray
 .
@@ -320,7 +320,7 @@ nsMimeTypeArray
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMMimeType
 *
@@ -395,7 +395,7 @@ mPluginMimeTypeCount
 <
 =
 (
-PRUint32
+uint32_t
 )
 mMimeTypeArray
 .
@@ -436,7 +436,7 @@ type
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -834,12 +834,12 @@ rv
 NS_OK
 )
 {
-PRUint32
+uint32_t
 pluginMimeTypeCount
 =
 0
 ;
-PRUint32
+uint32_t
 pluginCount
 =
 0
@@ -863,7 +863,7 @@ rv
 NS_OK
 )
 {
-PRUint32
+uint32_t
 i
 ;
 for
@@ -908,7 +908,7 @@ plugin
 plugin
 )
 {
-PRUint32
+uint32_t
 mimeTypeCount
 =
 0
@@ -955,7 +955,7 @@ mInited
 =
 true
 ;
-PRUint32
+uint32_t
 k
 ;
 for
@@ -1000,7 +1000,7 @@ plugin
 plugin
 )
 {
-PRUint32
+uint32_t
 mimeTypeCount
 =
 0
@@ -1028,7 +1028,7 @@ item
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0

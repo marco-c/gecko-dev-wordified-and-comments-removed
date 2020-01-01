@@ -198,12 +198,12 @@ dom
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -1244,7 +1244,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -1841,7 +1841,7 @@ ComputedHeight
 )
 )
 ;
-PRUint32
+uint32_t
 changeBits
 =
 0
@@ -2627,12 +2627,12 @@ nsSVGOuterSVGFrame
 :
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -3057,7 +3057,7 @@ nsSVGOuterSVGFrame
 :
 NotifyViewportOrTransformChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3321,7 +3321,7 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
+uint32_t
 aFlags
 )
 {
@@ -3395,7 +3395,7 @@ nsSVGOuterSVGFrame
 :
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 {

@@ -947,7 +947,7 @@ return
 ;
 }
 {
-PRUint32
+uint32_t
 flags
 =
 0
@@ -1204,7 +1204,7 @@ aMaskLayer
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

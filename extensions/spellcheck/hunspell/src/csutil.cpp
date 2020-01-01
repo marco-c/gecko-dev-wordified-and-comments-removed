@@ -28749,7 +28749,7 @@ PRUnichar
 uni
 uniCased
 ;
-PRInt32
+int32_t
 charLength
 =
 1

@@ -160,7 +160,7 @@ h
 .
 .
 const
-PRUint16
+uint16_t
 VTYPE_INT8
 =
 0
@@ -171,7 +171,7 @@ TD_INT8
 =
 0
 const
-PRUint16
+uint16_t
 VTYPE_INT16
 =
 1
@@ -182,7 +182,7 @@ TD_INT16
 =
 1
 const
-PRUint16
+uint16_t
 VTYPE_INT32
 =
 2
@@ -193,7 +193,7 @@ TD_INT32
 =
 2
 const
-PRUint16
+uint16_t
 VTYPE_INT64
 =
 3
@@ -204,7 +204,7 @@ TD_INT64
 =
 3
 const
-PRUint16
+uint16_t
 VTYPE_UINT8
 =
 4
@@ -215,7 +215,7 @@ TD_UINT8
 =
 4
 const
-PRUint16
+uint16_t
 VTYPE_UINT16
 =
 5
@@ -226,7 +226,7 @@ TD_UINT16
 =
 5
 const
-PRUint16
+uint16_t
 VTYPE_UINT32
 =
 6
@@ -237,7 +237,7 @@ TD_UINT32
 =
 6
 const
-PRUint16
+uint16_t
 VTYPE_UINT64
 =
 7
@@ -248,7 +248,7 @@ TD_UINT64
 =
 7
 const
-PRUint16
+uint16_t
 VTYPE_FLOAT
 =
 8
@@ -259,7 +259,7 @@ TD_FLOAT
 =
 8
 const
-PRUint16
+uint16_t
 VTYPE_DOUBLE
 =
 9
@@ -270,7 +270,7 @@ TD_DOUBLE
 =
 9
 const
-PRUint16
+uint16_t
 VTYPE_BOOL
 =
 10
@@ -281,7 +281,7 @@ TD_BOOL
 =
 10
 const
-PRUint16
+uint16_t
 VTYPE_CHAR
 =
 11
@@ -292,7 +292,7 @@ TD_CHAR
 =
 11
 const
-PRUint16
+uint16_t
 VTYPE_WCHAR
 =
 12
@@ -303,7 +303,7 @@ TD_WCHAR
 =
 12
 const
-PRUint16
+uint16_t
 VTYPE_VOID
 =
 13
@@ -314,7 +314,7 @@ TD_VOID
 =
 13
 const
-PRUint16
+uint16_t
 VTYPE_ID
 =
 14
@@ -325,7 +325,7 @@ TD_PNSIID
 =
 14
 const
-PRUint16
+uint16_t
 VTYPE_DOMSTRING
 =
 15
@@ -336,7 +336,7 @@ TD_DOMSTRING
 =
 15
 const
-PRUint16
+uint16_t
 VTYPE_CHAR_STR
 =
 16
@@ -347,7 +347,7 @@ TD_PSTRING
 =
 16
 const
-PRUint16
+uint16_t
 VTYPE_WCHAR_STR
 =
 17
@@ -358,7 +358,7 @@ TD_PWSTRING
 =
 17
 const
-PRUint16
+uint16_t
 VTYPE_INTERFACE
 =
 18
@@ -369,7 +369,7 @@ TD_INTERFACE_TYPE
 =
 18
 const
-PRUint16
+uint16_t
 VTYPE_INTERFACE_IS
 =
 19
@@ -380,7 +380,7 @@ TD_INTERFACE_IS_TYPE
 =
 19
 const
-PRUint16
+uint16_t
 VTYPE_ARRAY
 =
 20
@@ -391,7 +391,7 @@ TD_ARRAY
 =
 20
 const
-PRUint16
+uint16_t
 VTYPE_STRING_SIZE_IS
 =
 21
@@ -402,7 +402,7 @@ TD_PSTRING_SIZE_IS
 =
 21
 const
-PRUint16
+uint16_t
 VTYPE_WSTRING_SIZE_IS
 =
 22
@@ -413,7 +413,7 @@ TD_PWSTRING_SIZE_IS
 =
 22
 const
-PRUint16
+uint16_t
 VTYPE_UTF8STRING
 =
 23
@@ -424,7 +424,7 @@ TD_UTF8STRING
 =
 23
 const
-PRUint16
+uint16_t
 VTYPE_CSTRING
 =
 24
@@ -435,7 +435,7 @@ TD_CSTRING
 =
 24
 const
-PRUint16
+uint16_t
 VTYPE_ASTRING
 =
 25
@@ -446,13 +446,13 @@ TD_ASTRING
 =
 25
 const
-PRUint16
+uint16_t
 VTYPE_EMPTY_ARRAY
 =
 254
 ;
 const
-PRUint16
+uint16_t
 VTYPE_EMPTY
 =
 255
@@ -550,13 +550,13 @@ noscript
 ]
 readonly
 attribute
-PRUint16
+uint16_t
 dataType
 ;
 [
 noscript
 ]
-PRUint8
+uint8_t
 getAsInt8
 (
 )
@@ -564,7 +564,7 @@ getAsInt8
 [
 noscript
 ]
-PRInt16
+int16_t
 getAsInt16
 (
 )
@@ -572,7 +572,7 @@ getAsInt16
 [
 noscript
 ]
-PRInt32
+int32_t
 getAsInt32
 (
 )
@@ -580,7 +580,7 @@ getAsInt32
 [
 noscript
 ]
-PRInt64
+int64_t
 getAsInt64
 (
 )
@@ -588,7 +588,7 @@ getAsInt64
 [
 noscript
 ]
-PRUint8
+uint8_t
 getAsUint8
 (
 )
@@ -596,7 +596,7 @@ getAsUint8
 [
 noscript
 ]
-PRUint16
+uint16_t
 getAsUint16
 (
 )
@@ -604,7 +604,7 @@ getAsUint16
 [
 noscript
 ]
-PRUint32
+uint32_t
 getAsUint32
 (
 )
@@ -612,7 +612,7 @@ getAsUint32
 [
 noscript
 ]
-PRUint64
+uint64_t
 getAsUint64
 (
 )
@@ -760,13 +760,13 @@ nsresult
 getAsArray
 (
 out
-PRUint16
+uint16_t
 type
 out
 nsIID
 iid
 out
-PRUint32
+uint32_t
 count
 out
 voidPtr
@@ -780,7 +780,7 @@ void
 getAsStringWithSize
 (
 out
-PRUint32
+uint32_t
 size
 [
 size_is
@@ -801,7 +801,7 @@ void
 getAsWStringWithSize
 (
 out
-PRUint32
+uint32_t
 size
 [
 size_is
@@ -908,7 +908,7 @@ void
 setAsInt8
 (
 in
-PRUint8
+uint8_t
 aValue
 )
 ;
@@ -916,7 +916,7 @@ void
 setAsInt16
 (
 in
-PRInt16
+int16_t
 aValue
 )
 ;
@@ -924,7 +924,7 @@ void
 setAsInt32
 (
 in
-PRInt32
+int32_t
 aValue
 )
 ;
@@ -932,7 +932,7 @@ void
 setAsInt64
 (
 in
-PRInt64
+int64_t
 aValue
 )
 ;
@@ -940,7 +940,7 @@ void
 setAsUint8
 (
 in
-PRUint8
+uint8_t
 aValue
 )
 ;
@@ -948,7 +948,7 @@ void
 setAsUint16
 (
 in
-PRUint16
+uint16_t
 aValue
 )
 ;
@@ -956,7 +956,7 @@ void
 setAsUint32
 (
 in
-PRUint32
+uint32_t
 aValue
 )
 ;
@@ -964,7 +964,7 @@ void
 setAsUint64
 (
 in
-PRUint64
+uint64_t
 aValue
 )
 ;
@@ -1096,13 +1096,13 @@ void
 setAsArray
 (
 in
-PRUint16
+uint16_t
 type
 in
 nsIIDPtr
 iid
 in
-PRUint32
+uint32_t
 count
 in
 voidPtr
@@ -1113,7 +1113,7 @@ void
 setAsStringWithSize
 (
 in
-PRUint32
+uint32_t
 size
 [
 size_is
@@ -1130,7 +1130,7 @@ void
 setAsWStringWithSize
 (
 in
-PRUint32
+uint32_t
 size
 [
 size_is

@@ -109,12 +109,12 @@ aDestructRoot
 NS_IMETHOD
 AttributeChanged
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 ;
@@ -192,7 +192,7 @@ virtual
 bool
 IsFrameOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
@@ -235,7 +235,7 @@ aY
 nsIFrame
 *
 aForChild
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -322,7 +322,7 @@ virtual
 void
 NotifySVGChanged
 (
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -334,7 +334,7 @@ const
 gfxMatrix
 &
 aToBBoxUserspace
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -353,7 +353,7 @@ true
 gfxMatrix
 GetCanvasTM
 (
-PRUint32
+uint32_t
 aFor
 )
 ;
@@ -381,7 +381,7 @@ const
 nsRect
 &
 aRect
-PRUint32
+uint32_t
 aFlags
 bool
 aDuringReflowSVG
@@ -390,7 +390,7 @@ aDuringReflowSVG
 void
 FlushDirtyRegion
 (
-PRUint32
+uint32_t
 aFlags
 bool
 aDuringReflowSVG

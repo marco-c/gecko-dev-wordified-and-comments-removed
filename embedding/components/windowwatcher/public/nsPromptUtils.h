@@ -28,7 +28,7 @@ nsString
 password
 )
 {
-PRUint32
+uint32_t
 flags
 ;
 aAuthInfo
@@ -50,7 +50,7 @@ nsIAuthInformation
 NEED_DOMAIN
 )
 {
-PRInt32
+int32_t
 idx
 =
 user
@@ -149,7 +149,7 @@ machineProcessing
 nsCString
 &
 host
-PRInt32
+int32_t
 *
 port
 )
@@ -183,7 +183,7 @@ rv
 )
 return
 ;
-PRUint32
+uint32_t
 flags
 ;
 aAuthInfo
@@ -431,7 +431,7 @@ return
 nsCString
 host
 ;
-PRInt32
+int32_t
 port
 =
 -

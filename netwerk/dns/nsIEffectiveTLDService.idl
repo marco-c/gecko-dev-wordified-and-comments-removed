@@ -731,7 +731,7 @@ aURI
 optional
 ]
 in
-PRUint32
+uint32_t
 aAdditionalParts
 )
 ;
@@ -985,7 +985,7 @@ aHost
 optional
 ]
 in
-PRUint32
+uint32_t
 aAdditionalParts
 )
 ;

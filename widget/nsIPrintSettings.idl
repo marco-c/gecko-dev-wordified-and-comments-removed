@@ -146,7 +146,7 @@ IntegerArray
 (
 nsTArray
 <
-PRInt32
+int32_t
 >
 )
 ;
@@ -704,7 +704,7 @@ void
 SetPrintOptions
 (
 in
-PRInt32
+int32_t
 aType
 in
 boolean
@@ -723,7 +723,7 @@ boolean
 GetPrintOptions
 (
 in
-PRInt32
+int32_t
 aType
 )
 ;
@@ -737,7 +737,7 @@ Bit
 field
 *
 /
-PRInt32
+int32_t
 GetPrintOptionsBits
 (
 )

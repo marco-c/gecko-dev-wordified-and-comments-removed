@@ -127,7 +127,7 @@ nsIContent
 aContent
 )
 ;
-PRUint32
+uint32_t
 RegisterForCommand
 (
 nsMenuItemX
@@ -138,7 +138,7 @@ aItem
 void
 UnregisterCommand
 (
-PRUint32
+uint32_t
 aCommandID
 )
 ;
@@ -146,7 +146,7 @@ nsMenuItemX
 *
 GetMenuItemForCommandID
 (
-PRUint32
+uint32_t
 inCommandID
 )
 ;
@@ -163,7 +163,7 @@ nsIContent
 aContent
 )
 ;
-PRUint32
+uint32_t
 mCurrentCommandID
 ;
 nsIDocument

@@ -366,13 +366,13 @@ sVibratorEnabled
 false
 ;
 static
-PRUint32
+uint32_t
 sMaxVibrateMS
 =
 0
 ;
 static
-PRUint32
+uint32_t
 sMaxVibrateListLen
 =
 0
@@ -801,7 +801,7 @@ nullptr
 }
 #
 endif
-PRUint32
+uint32_t
 len
 =
 mDeviceStorageStores
@@ -812,7 +812,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1115,7 +1115,7 @@ aLanguage
 '
 )
 ;
-PRInt32
+int32_t
 pos
 =
 0
@@ -1964,7 +1964,7 @@ RefreshMIMEArray
 (
 )
 ;
-PRUint32
+uint32_t
 count
 ;
 mMimeTypes
@@ -1978,7 +1978,7 @@ count
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2533,7 +2533,7 @@ principal
 )
 )
 {
-PRUint16
+uint16_t
 appStatus
 =
 nsIPrincipal
@@ -2833,7 +2833,7 @@ JSVAL_TO_OBJECT
 aPattern
 )
 ;
-PRUint32
+uint32_t
 length
 ;
 if
@@ -2866,7 +2866,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3357,7 +3357,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 loadFlags
 =
 nsIChannel
@@ -5008,7 +5008,7 @@ permMgr
 NS_OK
 )
 ;
-PRUint32
+uint32_t
 permission
 =
 nsIPermissionManager

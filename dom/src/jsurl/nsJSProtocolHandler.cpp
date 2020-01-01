@@ -325,7 +325,7 @@ nsIChannel
 aChannel
 PopupControlState
 aPopupState
-PRUint32
+uint32_t
 aExecutionPolicy
 nsPIDOMWindow
 *
@@ -592,7 +592,7 @@ nsIChannel
 aChannel
 PopupControlState
 aPopupState
-PRUint32
+uint32_t
 aExecutionPolicy
 nsPIDOMWindow
 *
@@ -1443,7 +1443,7 @@ char
 *
 bytes
 ;
-PRUint32
+uint32_t
 bytesLen
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -1679,7 +1679,7 @@ mIOThunk
 PopupControlState
 mPopupState
 ;
-PRUint32
+uint32_t
 mExecutionPolicy
 ;
 bool
@@ -3453,7 +3453,7 @@ nsJSChannel
 :
 GetContentDisposition
 (
-PRUint32
+uint32_t
 *
 aContentDisposition
 )
@@ -3516,7 +3516,7 @@ nsJSChannel
 :
 GetContentLength
 (
-PRInt32
+int32_t
 *
 aContentLength
 )
@@ -3537,7 +3537,7 @@ nsJSChannel
 :
 SetContentLength
 (
-PRInt32
+int32_t
 aContentLength
 )
 {
@@ -3600,9 +3600,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
@@ -3739,7 +3739,7 @@ nsJSChannel
 :
 SetExecutionPolicy
 (
-PRUint32
+uint32_t
 aPolicy
 )
 {
@@ -3765,7 +3765,7 @@ nsJSChannel
 :
 GetExecutionPolicy
 (
-PRUint32
+uint32_t
 *
 aPolicy
 )
@@ -4082,7 +4082,7 @@ nsJSProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -4103,7 +4103,7 @@ nsJSProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -4368,7 +4368,7 @@ nsJSProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char

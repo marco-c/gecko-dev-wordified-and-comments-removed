@@ -187,7 +187,7 @@ aName
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -248,7 +248,7 @@ aName
 {
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -347,7 +347,7 @@ Argument
 >
 mAttributes
 ;
-PRUint32
+uint32_t
 mTextureCount
 ;
 bool

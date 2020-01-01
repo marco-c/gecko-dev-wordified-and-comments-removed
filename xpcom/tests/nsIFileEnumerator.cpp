@@ -371,7 +371,7 @@ return
 1
 ;
 }
-PRInt32
+int32_t
 startTime
 =
 PR_IntervalNow
@@ -383,7 +383,7 @@ LoopInDir
 topDir
 )
 ;
-PRInt32
+int32_t
 endTime
 =
 PR_IntervalNow

@@ -57,9 +57,9 @@ const
 nsAString
 &
 aInString
-PRUint32
+uint32_t
 aWrapCol
-PRUint32
+uint32_t
 aFirstLineOffset
 bool
 aRespectNewlines
@@ -83,7 +83,7 @@ nsAString
 aOutString
 bool
 aLinebreaksToo
-PRInt32
+int32_t
 *
 aCiteLevel
 )

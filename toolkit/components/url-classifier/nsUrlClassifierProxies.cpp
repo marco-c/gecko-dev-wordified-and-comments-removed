@@ -877,7 +877,7 @@ StreamFinished
 (
 nsresult
 aStatus
-PRUint32
+uint32_t
 aDelay
 )
 {
@@ -985,7 +985,7 @@ UrlClassifierUpdateObserverProxy
 :
 UpdateSuccess
 (
-PRUint32
+uint32_t
 aRequestedTimeout
 )
 {

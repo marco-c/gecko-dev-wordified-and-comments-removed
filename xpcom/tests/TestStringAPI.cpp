@@ -413,7 +413,7 @@ Length
 )
 )
 ;
-PRUint32
+uint32_t
 len
 =
 s
@@ -734,7 +734,7 @@ world
 "
 )
 ;
-PRInt32
+int32_t
 ret
 =
 0
@@ -1172,7 +1172,7 @@ testRFind
 (
 )
 {
-PRInt32
+int32_t
 ret
 =
 0
@@ -1635,7 +1635,7 @@ testCompressWhitespace
 (
 )
 {
-PRInt32
+int32_t
 ret
 =
 0

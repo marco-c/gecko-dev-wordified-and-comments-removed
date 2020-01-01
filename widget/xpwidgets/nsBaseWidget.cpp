@@ -243,7 +243,7 @@ endif
 ifdef
 NOISY_WIDGET_LEAKS
 static
-PRInt32
+int32_t
 gNumWidgets
 ;
 #
@@ -1499,7 +1499,7 @@ nsBaseWidget
 :
 SetZIndex
 (
-PRInt32
+int32_t
 aZIndex
 )
 {
@@ -1570,7 +1570,7 @@ GetNextSibling
 )
 )
 {
-PRInt32
+int32_t
 childZIndex
 ;
 if
@@ -1700,7 +1700,7 @@ nsBaseWidget
 :
 GetZIndex
 (
-PRInt32
+int32_t
 *
 aZIndex
 )
@@ -1739,7 +1739,7 @@ nsBaseWidget
 :
 SetSizeMode
 (
-PRInt32
+int32_t
 aMode
 )
 {
@@ -1790,7 +1790,7 @@ nsBaseWidget
 :
 GetSizeMode
 (
-PRInt32
+int32_t
 *
 aMode
 )
@@ -1909,9 +1909,9 @@ SetCursor
 imgIContainer
 *
 aCursor
-PRUint32
+uint32_t
 aHotspotX
-PRUint32
+uint32_t
 aHotspotY
 )
 {
@@ -2116,7 +2116,7 @@ nsBaseWidget
 :
 SetWindowShadowStyle
 (
-PRInt32
+int32_t
 aMode
 )
 {
@@ -2254,7 +2254,7 @@ if
 screen
 )
 {
-PRInt32
+int32_t
 left
 top
 width
@@ -2877,7 +2877,7 @@ GetData
 (
 )
 ;
-PRInt32
+int32_t
 status
 ;
 if
@@ -3114,7 +3114,7 @@ childMessageLoop
 childSide
 )
 ;
-PRInt32
+int32_t
 maxTextureSize
 ;
 PLayersChild
@@ -3536,9 +3536,9 @@ nsBaseWidget
 :
 MoveClient
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -3578,9 +3578,9 @@ nsBaseWidget
 :
 ResizeClient
 (
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 bool
 aRepaint
@@ -3671,13 +3671,13 @@ nsBaseWidget
 :
 ResizeClient
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
-PRInt32
+int32_t
 aWidth
-PRInt32
+int32_t
 aHeight
 bool
 aRepaint
@@ -3941,7 +3941,7 @@ nsBaseWidget
 :
 GetAttention
 (
-PRInt32
+int32_t
 aCycleCount
 )
 {
@@ -4170,11 +4170,11 @@ nsBaseWidget
 :
 OverrideSystemMouseScrollSpeed
 (
-PRInt32
+int32_t
 aOriginalDelta
 bool
 aIsHorizontal
-PRInt32
+int32_t
 &
 aOverriddenDelta
 )
@@ -4267,7 +4267,7 @@ factor
 "
 )
 ;
-PRInt32
+int32_t
 iFactor
 =
 Preferences
@@ -4307,7 +4307,7 @@ iFactor
 ;
 aOverriddenDelta
 =
-PRInt32
+int32_t
 (
 NS_round
 (
@@ -4605,9 +4605,9 @@ BeginResizeDrag
 nsGUIEvent
 *
 aEvent
-PRInt32
+int32_t
 aHorizontal
-PRInt32
+int32_t
 aVertical
 )
 {
@@ -4630,7 +4630,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-PRUint32
+uint32_t
 nsBaseWidget
 :
 :
@@ -5561,7 +5561,7 @@ null
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5639,7 +5639,7 @@ null
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5813,7 +5813,7 @@ Debug_PrefObserver
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -5874,13 +5874,13 @@ name
 }
 }
 static
-PRInt32
+int32_t
 _GetPrintCount
 (
 )
 {
 static
-PRInt32
+int32_t
 sCount
 =
 0
@@ -5931,7 +5931,7 @@ const
 nsCAutoString
 &
 aWidgetName
-PRInt32
+int32_t
 aWindowID
 )
 {
@@ -6126,7 +6126,7 @@ const
 nsCAutoString
 &
 aWidgetName
-PRInt32
+int32_t
 aWindowID
 )
 {
@@ -6282,7 +6282,7 @@ const
 nsCAutoString
 &
 aWidgetName
-PRInt32
+int32_t
 aWindowID
 )
 {

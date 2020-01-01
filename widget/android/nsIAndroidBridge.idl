@@ -126,7 +126,7 @@ nsIBrowserTab
 getBrowserTab
 (
 in
-PRInt32
+int32_t
 tabId
 )
 ;

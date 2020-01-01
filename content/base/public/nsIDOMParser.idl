@@ -371,7 +371,7 @@ in
 octet
 buf
 in
-PRUint32
+uint32_t
 bufLen
 in
 string

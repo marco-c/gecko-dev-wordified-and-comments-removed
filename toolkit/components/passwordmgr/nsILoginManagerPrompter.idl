@@ -417,7 +417,7 @@ in
 nsILoginInfo
 logins
 in
-PRUint32
+uint32_t
 count
 in
 nsILoginInfo

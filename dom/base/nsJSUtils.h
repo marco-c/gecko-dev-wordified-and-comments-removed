@@ -63,7 +63,7 @@ char
 *
 *
 aFilename
-PRUint32
+uint32_t
 *
 aLineno
 )
@@ -115,7 +115,7 @@ aContext
 )
 ;
 static
-PRUint64
+uint64_t
 GetCurrentlyRunningCodeInnerWindowID
 (
 JSContext

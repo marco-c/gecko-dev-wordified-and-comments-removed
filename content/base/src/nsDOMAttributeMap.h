@@ -67,7 +67,7 @@ nsAttrKey
 {
 public
 :
-PRInt32
+int32_t
 mNamespaceID
 ;
 nsIAtom
@@ -76,7 +76,7 @@ mLocalName
 ;
 nsAttrKey
 (
-PRInt32
+int32_t
 aNs
 nsIAtom
 *
@@ -332,14 +332,14 @@ aDocument
 void
 DropAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
 aLocalName
 )
 ;
-PRUint32
+uint32_t
 Count
 (
 )
@@ -353,7 +353,7 @@ nsDOMAttribute
 >
 AttrCache
 ;
-PRUint32
+uint32_t
 Enumerate
 (
 AttrCache
@@ -371,7 +371,7 @@ nsDOMAttribute
 *
 GetItemAt
 (
-PRUint32
+uint32_t
 aIndex
 nsresult
 *

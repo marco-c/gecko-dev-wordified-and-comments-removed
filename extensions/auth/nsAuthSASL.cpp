@@ -90,7 +90,7 @@ const
 char
 *
 serviceName
-PRUint32
+uint32_t
 serviceFlags
 const
 PRUnichar
@@ -247,13 +247,13 @@ const
 void
 *
 inToken
-PRUint32
+uint32_t
 inTokenLen
 void
 *
 *
 outToken
-PRUint32
+uint32_t
 *
 outTokenLen
 )
@@ -269,7 +269,7 @@ char
 *
 message
 ;
-PRUint32
+uint32_t
 unwrappedTokenLen
 messageLen
 ;
@@ -523,13 +523,13 @@ const
 void
 *
 inToken
-PRUint32
+uint32_t
 inTokenLen
 void
 *
 *
 outToken
-PRUint32
+uint32_t
 *
 outTokenLen
 )
@@ -548,7 +548,7 @@ const
 void
 *
 inToken
-PRUint32
+uint32_t
 inTokenLen
 bool
 confidential
@@ -556,7 +556,7 @@ void
 *
 *
 outToken
-PRUint32
+uint32_t
 *
 outTokenLen
 )
@@ -571,7 +571,7 @@ nsAuthSASL
 :
 GetModuleProperties
 (
-PRUint32
+uint32_t
 *
 flags
 )

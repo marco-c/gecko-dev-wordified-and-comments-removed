@@ -226,9 +226,9 @@ child
 :
 NotifyStateEvent
 (
-PRUint32
+uint32_t
 stateEvent
-PRUint64
+uint64_t
 byteProgress
 )
 ;

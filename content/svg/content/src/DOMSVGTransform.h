@@ -137,7 +137,7 @@ DOMSVGTransform
 DOMSVGTransformList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem
@@ -265,14 +265,14 @@ InsertingIntoList
 DOMSVGTransformList
 *
 aList
-PRUint32
+uint32_t
 aListIndex
 bool
 aIsAnimValItem
 )
 ;
 static
-PRUint32
+uint32_t
 MaxListIndex
 (
 )
@@ -291,7 +291,7 @@ MOZ_SVG_LIST_INDEX_BIT_COUNT
 void
 UpdateListIndex
 (
-PRUint32
+uint32_t
 aListIndex
 )
 {
@@ -471,7 +471,7 @@ DOMSVGTransformList
 >
 mList
 ;
-PRUint32
+uint32_t
 mListIndex
 :
 MOZ_SVG_LIST_INDEX_BIT_COUNT

@@ -129,7 +129,7 @@ nsDOMCSSValueList
 :
 GetLength
 (
-PRUint32
+uint32_t
 *
 aLength
 )
@@ -153,7 +153,7 @@ nsDOMCSSValueList
 :
 Item
 (
-PRUint32
+uint32_t
 aIndex
 nsIDOMCSSValue
 *
@@ -198,7 +198,7 @@ Truncate
 (
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mCSSValues
@@ -249,7 +249,7 @@ tmpStr
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -410,7 +410,7 @@ nsDOMCSSValueList
 :
 GetCssValueType
 (
-PRUint16
+uint16_t
 *
 aValueType
 )

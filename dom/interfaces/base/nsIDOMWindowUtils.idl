@@ -1968,7 +1968,7 @@ count
 )
 ]
 in
-PRUint32
+uint32_t
 aIdentifiers
 [
 array
@@ -1978,7 +1978,7 @@ count
 )
 ]
 in
-PRInt32
+int32_t
 aXs
 [
 array
@@ -1988,7 +1988,7 @@ count
 )
 ]
 in
-PRInt32
+int32_t
 aYs
 [
 array
@@ -1998,7 +1998,7 @@ count
 )
 ]
 in
-PRUint32
+uint32_t
 aRxs
 [
 array
@@ -2008,7 +2008,7 @@ count
 )
 ]
 in
-PRUint32
+uint32_t
 aRys
 [
 array
@@ -2031,7 +2031,7 @@ in
 float
 aForces
 in
-PRUint32
+uint32_t
 count
 in
 long
@@ -3913,7 +3913,7 @@ privileges
 .
 *
 /
-PRUint32
+uint32_t
 compareCanvases
 (
 in
@@ -6595,7 +6595,7 @@ in
 nsConstRect
 aRect
 in
-PRUint32
+uint32_t
 aFlags
 in
 nscolor

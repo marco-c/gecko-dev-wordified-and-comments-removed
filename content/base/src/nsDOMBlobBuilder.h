@@ -146,7 +146,7 @@ aCx
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 aArgc
 jsval
 *
@@ -173,7 +173,7 @@ InitInternal
 JSContext
 *
 aCx
-PRUint32
+uint32_t
 aArgc
 jsval
 *
@@ -188,9 +188,9 @@ nsIDOMBlob
 >
 CreateSlice
 (
-PRUint64
+uint64_t
 aStart
-PRUint64
+uint64_t
 aLength
 const
 nsAString
@@ -201,7 +201,7 @@ aContentType
 NS_IMETHOD
 GetSize
 (
-PRUint64
+uint64_t
 *
 )
 ;
@@ -300,7 +300,7 @@ const
 void
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 ;
@@ -376,7 +376,7 @@ protected
 bool
 ExpandBufferSize
 (
-PRUint64
+uint64_t
 aSize
 )
 {
@@ -404,7 +404,7 @@ bufferLen
 =
 NS_MAX
 <
-PRUint32
+uint32_t
 >
 (
 mDataBufferLen
@@ -553,10 +553,10 @@ void
 *
 mData
 ;
-PRUint64
+uint64_t
 mDataLen
 ;
-PRUint64
+uint64_t
 mDataBufferLen
 ;
 }
@@ -590,7 +590,7 @@ const
 void
 *
 aData
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -631,7 +631,7 @@ aCx
 JSObject
 *
 aObj
-PRUint32
+uint32_t
 aArgc
 jsval
 *

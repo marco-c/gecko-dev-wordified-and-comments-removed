@@ -113,7 +113,7 @@ Accumulate
 (
 ID
 id
-PRUint32
+uint32_t
 sample
 )
 ;
@@ -211,7 +211,7 @@ public
 :
 AutoCounter
 (
-PRUint32
+uint32_t
 counterStart
 =
 0
@@ -267,7 +267,7 @@ increment
 }
 private
 :
-PRUint32
+uint32_t
 counter
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
@@ -289,12 +289,12 @@ const
 nsACString
 &
 dbName
-PRUint32
+uint32_t
 delay
 )
 ;
 const
-PRUint32
+uint32_t
 kSlowStatementThreshold
 =
 100
@@ -311,7 +311,7 @@ MOZ_ENABLE_PROFILER_SPS
 void
 RecordChromeHang
 (
-PRUint32
+uint32_t
 duration
 ProcessedStack
 &

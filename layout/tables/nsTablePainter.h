@@ -68,7 +68,7 @@ const
 nsPoint
 &
 aPt
-PRUint32
+uint32_t
 aBGPaintFlags
 )
 ;
@@ -344,7 +344,7 @@ ColData
 *
 mCols
 ;
-PRUint32
+uint32_t
 mNumCols
 ;
 TableBackgroundData
@@ -359,7 +359,7 @@ mCellRect
 nsStyleBorder
 mZeroBorder
 ;
-PRUint32
+uint32_t
 mBGPaintFlags
 ;
 }

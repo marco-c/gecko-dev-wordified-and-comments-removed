@@ -279,11 +279,11 @@ const
 PRUnichar
 *
 aFromSegment
-PRUint32
+uint32_t
 aToOffset
-PRUint32
+uint32_t
 aCount
-PRUint32
+uint32_t
 *
 aWriteCount
 )

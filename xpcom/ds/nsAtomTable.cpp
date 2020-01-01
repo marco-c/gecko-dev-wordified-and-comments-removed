@@ -176,7 +176,7 @@ AtomImpl
 nsStringBuffer
 *
 aData
-PRUint32
+uint32_t
 aLength
 PLDHashNumber
 aKeyHash
@@ -315,7 +315,7 @@ PermanentAtomImpl
 nsStringBuffer
 *
 aData
-PRUint32
+uint32_t
 aLength
 PLDHashNumber
 aKeyHash
@@ -417,7 +417,7 @@ const
 PRUnichar
 *
 aUTF16String
-PRUint32
+uint32_t
 aLength
 )
 :
@@ -441,7 +441,7 @@ const
 char
 *
 aUTF8String
-PRUint32
+uint32_t
 aLength
 )
 :
@@ -469,7 +469,7 @@ char
 *
 mUTF8String
 ;
-PRUint32
+uint32_t
 mLength
 ;
 }
@@ -513,7 +513,7 @@ mUTF8String
 bool
 err
 ;
-PRUint32
+uint32_t
 hash
 =
 HashUTF8AsUTF16
@@ -672,7 +672,7 @@ mAtom
 0
 ;
 }
-PRUint32
+uint32_t
 length
 =
 he
@@ -841,7 +841,7 @@ table
 PLDHashEntryHdr
 *
 he
-PRUint32
+uint32_t
 index
 void
 *
@@ -886,7 +886,7 @@ IsPermanent
 *
 static_cast
 <
-PRUint32
+uint32_t
 *
 >
 (
@@ -1026,7 +1026,7 @@ dumpAtomLeaks
 dumpAtomLeaks
 )
 {
-PRUint32
+uint32_t
 leaked
 =
 0
@@ -1313,7 +1313,7 @@ AtomImpl
 nsStringBuffer
 *
 aStringBuffer
-PRUint32
+uint32_t
 aLength
 PLDHashNumber
 aKeyHash
@@ -1994,7 +1994,7 @@ const
 char
 *
 aString
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -2056,7 +2056,7 @@ const
 PRUnichar
 *
 aString
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -2244,7 +2244,7 @@ const
 nsStaticAtom
 *
 aAtoms
-PRUint32
+uint32_t
 aAtomCount
 )
 {
@@ -2297,7 +2297,7 @@ Init
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2347,7 +2347,7 @@ ASCII
 "
 )
 ;
-PRUint32
+uint32_t
 stringLen
 =
 aAtoms
@@ -2532,7 +2532,7 @@ ASCII
 "
 )
 ;
-PRUint32
+uint32_t
 stringLen
 =
 aAtoms

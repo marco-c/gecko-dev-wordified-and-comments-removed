@@ -268,7 +268,7 @@ class
 nsIDOMEventTarget
 *
 target
-PRUint32
+uint32_t
 type
 double
 x
@@ -285,7 +285,7 @@ inline
 bool
 IsSensorEnabled
 (
-PRUint32
+uint32_t
 aType
 )
 {

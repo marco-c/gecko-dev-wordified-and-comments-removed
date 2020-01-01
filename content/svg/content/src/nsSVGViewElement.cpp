@@ -171,7 +171,7 @@ nsSVGViewElement
 :
 GetZoomAndPan
 (
-PRUint16
+uint16_t
 *
 aZoomAndPan
 )
@@ -198,7 +198,7 @@ nsSVGViewElement
 :
 SetZoomAndPan
 (
-PRUint16
+uint16_t
 aZoomAndPan
 )
 {

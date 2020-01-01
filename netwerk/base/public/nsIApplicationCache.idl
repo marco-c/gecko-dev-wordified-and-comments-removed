@@ -1164,7 +1164,7 @@ void
 gatherEntries
 (
 in
-PRUint32
+uint32_t
 typeBits
 out
 unsigned

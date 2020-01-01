@@ -557,7 +557,7 @@ BaseWebSocketChannel
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 aDefaultPort
 )
@@ -606,7 +606,7 @@ BaseWebSocketChannel
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 aProtocolFlags
 )
@@ -691,7 +691,7 @@ this
 )
 )
 ;
-PRInt32
+int32_t
 port
 ;
 nsresult
@@ -807,7 +807,7 @@ BaseWebSocketChannel
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char

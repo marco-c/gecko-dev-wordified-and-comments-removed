@@ -215,7 +215,7 @@ in
 nsIChannel
 aChannel
 in
-PRUint32
+uint32_t
 level
 in
 nsIAuthInformation
@@ -244,7 +244,7 @@ in
 nsISupports
 aContext
 in
-PRUint32
+uint32_t
 level
 in
 nsIAuthInformation

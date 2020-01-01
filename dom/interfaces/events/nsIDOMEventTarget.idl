@@ -2084,7 +2084,7 @@ NS_OK
 \
 }
 \
-PRUint32
+uint32_t
 flags
 =
 NS_EVENT_FLAG_SYSTEM_EVENT

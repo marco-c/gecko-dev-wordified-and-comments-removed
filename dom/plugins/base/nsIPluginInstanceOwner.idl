@@ -290,7 +290,7 @@ instance
 /
 readonly
 attribute
-PRInt32
+int32_t
 mode
 ;
 /
@@ -396,7 +396,7 @@ aPostStream
 void
 *
 aHeadersData
-PRUint32
+uint32_t
 aHeadersDataLen
 )
 =
@@ -631,7 +631,7 @@ void
 setEventModel
 (
 in
-PRInt32
+int32_t
 eventModel
 )
 ;

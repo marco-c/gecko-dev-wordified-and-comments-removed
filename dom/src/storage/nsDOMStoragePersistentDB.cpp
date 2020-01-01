@@ -2000,7 +2000,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 secureInt
 =
 0
@@ -2253,7 +2253,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 secureInt
 =
 0
@@ -2336,11 +2336,11 @@ nsAString
 aValue
 bool
 aSecure
-PRInt32
+int32_t
 aQuota
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 *
 aNewUsage
 )
@@ -2361,7 +2361,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 usage
 =
 0
@@ -2902,7 +2902,7 @@ nsAString
 aKey
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 aKeyUsage
 )
 {
@@ -3438,7 +3438,7 @@ IN
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3582,7 +3582,7 @@ rv
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -3807,7 +3807,7 @@ DOMStorageImpl
 aStorage
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 *
 aUsage
 )
@@ -3840,7 +3840,7 @@ nsACString
 aDomain
 bool
 aIncludeSubDomains
-PRInt32
+int32_t
 *
 aUsage
 )
@@ -3891,7 +3891,7 @@ nsACString
 aQuotaDomainDBKey
 bool
 aExcludeOfflineFromUsage
-PRInt32
+int32_t
 *
 aUsage
 )

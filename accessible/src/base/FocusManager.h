@@ -303,7 +303,7 @@ PR_IntervalNow
 )
 ;
 \
-PRUint32
+uint32_t
 mins
 =
 (
@@ -318,7 +318,7 @@ time
 60
 ;
 \
-PRUint32
+uint32_t
 secs
 =
 PR_IntervalToSeconds
@@ -329,7 +329,7 @@ time
 60
 ;
 \
-PRUint32
+uint32_t
 msecs
 =
 PR_IntervalToMilliseconds

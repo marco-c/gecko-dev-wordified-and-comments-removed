@@ -18,7 +18,7 @@ char_type
 data
 size_type
 length
-PRUint32
+uint32_t
 flags
 )
 :
@@ -101,7 +101,7 @@ char_type
 *
 *
 oldData
-PRUint32
+uint32_t
 *
 oldFlags
 )
@@ -363,7 +363,7 @@ char_type
 *
 newData
 ;
-PRUint32
+uint32_t
 newDataFlags
 ;
 if
@@ -507,7 +507,7 @@ char_type
 *
 oldData
 ;
-PRUint32
+uint32_t
 oldFlags
 ;
 if
@@ -571,7 +571,7 @@ mLength
 -
 from
 ;
-PRUint32
+uint32_t
 to
 =
 cutStart
@@ -619,21 +619,21 @@ cutLen
 mLength
 )
 {
-PRUint32
+uint32_t
 from
 =
 cutStart
 +
 cutLen
 ;
-PRUint32
+uint32_t
 fromLen
 =
 mLength
 -
 from
 ;
-PRUint32
+uint32_t
 to
 =
 cutStart
@@ -1436,7 +1436,7 @@ char_type
 *
 oldData
 ;
-PRUint32
+uint32_t
 oldFlags
 ;
 if
@@ -2016,7 +2016,7 @@ char_type
 *
 oldData
 ;
-PRUint32
+uint32_t
 oldFlags
 ;
 if
@@ -2570,7 +2570,7 @@ c
 )
 ;
 }
-PRInt32
+int32_t
 nsTSubstring_CharT
 :
 :
@@ -2632,7 +2632,7 @@ StripChar
 (
 char_type
 aChar
-PRInt32
+int32_t
 aOffset
 )
 {
@@ -2647,7 +2647,7 @@ mLength
 aOffset
 >
 =
-PRInt32
+int32_t
 (
 mLength
 )
@@ -2747,7 +2747,7 @@ const
 char_type
 *
 aChars
-PRUint32
+uint32_t
 aOffset
 )
 {
@@ -2756,7 +2756,7 @@ if
 aOffset
 >
 =
-PRUint32
+uint32_t
 (
 mLength
 )
@@ -2885,7 +2885,7 @@ const
 char
 *
 s
-PRUint32
+uint32_t
 len
 )
 {
@@ -2963,7 +2963,7 @@ ap
 format
 )
 ;
-PRUint32
+uint32_t
 r
 =
 PR_vsxprintf
@@ -2980,7 +2980,7 @@ r
 =
 =
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -3017,7 +3017,7 @@ va_list
 ap
 )
 {
-PRUint32
+uint32_t
 r
 =
 PR_vsxprintf
@@ -3034,7 +3034,7 @@ r
 =
 =
 (
-PRUint32
+uint32_t
 )
 -
 1

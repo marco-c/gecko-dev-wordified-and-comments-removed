@@ -392,7 +392,7 @@ fpTime
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -610,7 +610,7 @@ if
 sUseRws
 )
 {
-PRUint32
+uint32_t
 appHandle
 ;
 GetDefaultAppHandle
@@ -1035,7 +1035,7 @@ nsMIMEInfoOS2
 :
 GetDefaultAppHandle
 (
-PRUint32
+uint32_t
 *
 aHandle
 )
@@ -1077,7 +1077,7 @@ nsMIMEInfoOS2
 :
 SetDefaultAppHandle
 (
-PRUint32
+uint32_t
 aHandle
 )
 {
@@ -1301,7 +1301,7 @@ nsCAutoString
 uEmail
 uGroup
 ;
-PRInt32
+int32_t
 iPort
 ;
 aURL
@@ -1585,7 +1585,7 @@ Append
 prefString
 )
 ;
-PRInt32
+int32_t
 pos
 =
 parameters
@@ -2049,7 +2049,7 @@ get
 ;
 #
 endif
-PRInt32
+int32_t
 pos
 ;
 pos
@@ -2468,7 +2468,7 @@ params
 ;
 #
 endif
-PRInt32
+int32_t
 numParams
 =
 1

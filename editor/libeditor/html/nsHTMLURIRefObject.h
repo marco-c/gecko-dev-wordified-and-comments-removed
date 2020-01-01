@@ -116,10 +116,10 @@ nsIDOMNamedNodeMap
 >
 mAttributes
 ;
-PRUint32
+uint32_t
 mCurAttrIndex
 ;
-PRUint32
+uint32_t
 mAttributeCnt
 ;
 }

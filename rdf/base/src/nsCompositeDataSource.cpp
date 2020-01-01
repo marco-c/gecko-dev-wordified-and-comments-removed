@@ -233,7 +233,7 @@ mAllowNegativeAssertions
 bool
 mCoalesceDuplicateArcs
 ;
-PRInt32
+int32_t
 mUpdateBatchNest
 ;
 nsFixedSizeAllocator
@@ -339,7 +339,7 @@ nsIRDFNode
 *
 mResult
 ;
-PRInt32
+int32_t
 mNext
 ;
 nsAutoTArray
@@ -592,7 +592,7 @@ continue
 }
 do
 {
-PRInt32
+int32_t
 i
 ;
 bool
@@ -1797,7 +1797,7 @@ CompositeArcsInOutEnumeratorImpl
 ;
 static
 const
-PRInt32
+int32_t
 kNumBuckets
 =
 sizeof
@@ -1812,7 +1812,7 @@ size_t
 ;
 static
 const
-PRInt32
+int32_t
 kInitialSize
 =
 256
@@ -1859,7 +1859,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 CompositeDataSourceImpl
 )
-PRUint32
+uint32_t
 i
 count
 =
@@ -2024,7 +2024,7 @@ return
 NS_RDF_NO_VALUE
 )
 ;
-PRInt32
+int32_t
 count
 =
 mDataSources
@@ -2035,7 +2035,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2355,7 +2355,7 @@ return
 NS_RDF_NO_VALUE
 )
 ;
-PRInt32
+int32_t
 count
 =
 mDataSources
@@ -2366,7 +2366,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -2484,7 +2484,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 m
 =
 0
@@ -2770,7 +2770,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mDataSources
@@ -2917,10 +2917,10 @@ unasserted
 =
 true
 ;
-PRInt32
+int32_t
 i
 ;
-PRInt32
+int32_t
 count
 =
 mDataSources
@@ -3193,7 +3193,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mDataSources
@@ -3360,7 +3360,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mDataSources
@@ -3528,7 +3528,7 @@ NS_OK
 nsresult
 rv
 ;
-PRInt32
+int32_t
 count
 =
 mDataSources
@@ -3539,7 +3539,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3762,7 +3762,7 @@ result
 =
 false
 ;
-PRInt32
+int32_t
 count
 =
 mDataSources
@@ -3773,7 +3773,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -3850,7 +3850,7 @@ result
 =
 false
 ;
-PRInt32
+int32_t
 count
 =
 mDataSources
@@ -3861,7 +3861,7 @@ Count
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4181,7 +4181,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -4337,7 +4337,7 @@ rv
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 mDataSources
@@ -4450,7 +4450,7 @@ aArguments
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mDataSources
@@ -4526,7 +4526,7 @@ BeginUpdateBatch
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mDataSources
@@ -4572,7 +4572,7 @@ EndUpdateBatch
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mDataSources
@@ -4894,7 +4894,7 @@ NS_OK
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers
@@ -4997,7 +4997,7 @@ NS_OK
 }
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers
@@ -5062,7 +5062,7 @@ aNewTarget
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers
@@ -5128,7 +5128,7 @@ aTarget
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers
@@ -5192,7 +5192,7 @@ mUpdateBatchNest
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers
@@ -5266,7 +5266,7 @@ mUpdateBatchNest
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 mObservers

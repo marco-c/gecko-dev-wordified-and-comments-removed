@@ -490,7 +490,7 @@ const
 char
 *
 tokenName
-PRUint32
+uint32_t
 series
 )
 {
@@ -528,7 +528,7 @@ len
 +
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 ;
@@ -544,7 +544,7 @@ entry
 series
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 ;
@@ -555,7 +555,7 @@ entry
 [
 sizeof
 (
-PRUint32
+uint32_t
 )
 ]
 tokenName
@@ -650,7 +650,7 @@ entry
 [
 sizeof
 (
-PRUint32
+uint32_t
 )
 ]
 ;
@@ -660,7 +660,7 @@ return
 tokenName
 ;
 }
-PRUint32
+uint32_t
 SmartCardMonitoringThread
 :
 :
@@ -670,7 +670,7 @@ CK_SLOT_ID
 slotid
 )
 {
-PRUint32
+uint32_t
 series
 =
 0
@@ -714,7 +714,7 @@ series
 entry
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 ;
@@ -920,7 +920,7 @@ PK11_GetSlotID
 slot
 )
 ;
-PRUint32
+uint32_t
 series
 =
 PK11_GetSlotSeries

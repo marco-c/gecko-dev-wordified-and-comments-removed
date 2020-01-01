@@ -1197,7 +1197,7 @@ void
 \
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -1359,7 +1359,7 @@ void
 \
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -1505,7 +1505,7 @@ void
 \
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -1769,7 +1769,7 @@ void
 \
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -1966,7 +1966,7 @@ nsIID
 *
 iid
 ;
-PROffset32
+int32_t
 offset
 ;
 }
@@ -2069,7 +2069,7 @@ int
 :
 kIID
 \
-PROffset32
+int32_t
 (
 reinterpret_cast
 <
@@ -2130,7 +2130,7 @@ int
 :
 kIID
 \
-PROffset32
+int32_t
 (
 reinterpret_cast
 <
@@ -5965,7 +5965,7 @@ void
 \
 NS_PRECONDITION
 (
-PRInt32
+int32_t
 (
 mRefCnt
 )
@@ -6556,7 +6556,7 @@ _class
 :
 GetInterfaces
 (
-PRUint32
+uint32_t
 *
 _count
 nsIID
@@ -6589,7 +6589,7 @@ _class
 :
 GetHelperForLanguage
 (
-PRUint32
+uint32_t
 _language
 nsISupports
 *
@@ -6703,7 +6703,7 @@ _class
 :
 GetImplementationLanguage
 (
-PRUint32
+uint32_t
 *
 _language
 )
@@ -6733,7 +6733,7 @@ _class
 :
 GetFlags
 (
-PRUint32
+uint32_t
 *
 _flags
 )

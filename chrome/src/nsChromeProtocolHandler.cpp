@@ -216,7 +216,7 @@ nsChromeProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -237,7 +237,7 @@ nsChromeProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char
@@ -263,7 +263,7 @@ nsChromeProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )

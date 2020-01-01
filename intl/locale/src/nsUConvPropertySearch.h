@@ -29,7 +29,7 @@ aProperties
 [
 3
 ]
-PRInt32
+int32_t
 aNumberOfProperties
 const
 nsACString

@@ -48,7 +48,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -108,7 +108,7 @@ mState
 char
 mLastCharClass
 ;
-PRUint32
+uint32_t
 mFreqCounter
 [
 FREQ_CAT_NUM

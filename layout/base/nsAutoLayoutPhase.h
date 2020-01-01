@@ -387,7 +387,7 @@ mPresContext
 nsLayoutPhase
 mPhase
 ;
-PRUint32
+uint32_t
 mCount
 ;
 }

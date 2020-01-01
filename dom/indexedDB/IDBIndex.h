@@ -122,7 +122,7 @@ mObjectStore
 ;
 }
 const
-PRInt64
+int64_t
 Id
 (
 )
@@ -300,7 +300,7 @@ GetAllInternal
 IDBKeyRange
 *
 aKeyRange
-PRUint32
+uint32_t
 aLimit
 JSContext
 *
@@ -317,7 +317,7 @@ GetAllKeysInternal
 IDBKeyRange
 *
 aKeyRange
-PRUint32
+uint32_t
 aLimit
 JSContext
 *
@@ -448,7 +448,7 @@ IDBObjectStore
 >
 mObjectStore
 ;
-PRInt64
+int64_t
 mId
 ;
 nsString

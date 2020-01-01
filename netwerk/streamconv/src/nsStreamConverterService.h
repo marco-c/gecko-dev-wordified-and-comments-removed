@@ -139,7 +139,7 @@ BFSState
 BFScolors
 color
 ;
-PRInt32
+int32_t
 distance
 ;
 nsCStringKey

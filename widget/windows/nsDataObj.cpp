@@ -384,13 +384,13 @@ aContext
 nsIInputStream
 *
 aInputStream
-PRUint32
+uint32_t
 aOffset
-PRUint32
+uint32_t
 aCount
 )
 {
-PRUint8
+uint8_t
 *
 buffer
 =
@@ -441,14 +441,14 @@ buffer
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 odaBytesReadTotal
 =
 0
 ;
 do
 {
-PRUint32
+uint32_t
 bytesReadByCall
 =
 0
@@ -1008,7 +1008,7 @@ wideFileName
 strFileName
 )
 ;
-PRUint32
+uint32_t
 nMaxNameLength
 =
 (
@@ -1453,7 +1453,7 @@ Release
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -1808,7 +1808,7 @@ mTransferable
 return
 DV_E_FORMATETC
 ;
-PRUint32
+uint32_t
 dfInx
 =
 0
@@ -2436,7 +2436,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0
@@ -3061,7 +3061,7 @@ result
 =
 E_FAIL
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -3489,7 +3489,7 @@ true
 true
 )
 ;
-PRUint32
+uint32_t
 nameLen
 ;
 for
@@ -3514,7 +3514,7 @@ n
 nameLen
 =
 (
-PRUint32
+uint32_t
 )
 strlen
 (
@@ -3592,7 +3592,7 @@ aExtension
 char
 *
 aFilename
-PRUint32
+uint32_t
 aFilenameLen
 )
 {
@@ -3742,7 +3742,7 @@ aExtension
 wchar_t
 *
 aFilename
-PRUint32
+uint32_t
 aFilenameLen
 )
 {
@@ -4732,7 +4732,7 @@ flavorList
 false
 )
 ;
-PRUint32
+uint32_t
 cnt
 ;
 flavorList
@@ -4746,7 +4746,7 @@ cnt
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -4951,7 +4951,7 @@ data
 =
 NULL
 ;
-PRUint32
+uint32_t
 len
 ;
 const
@@ -5097,7 +5097,7 @@ PRUnichar
 data
 )
 ;
-PRInt32
+int32_t
 plainTextLen
 =
 0
@@ -5372,7 +5372,7 @@ STGMEDIUM
 aSTG
 )
 {
-PRUint32
+uint32_t
 dfInx
 =
 0
@@ -5500,7 +5500,7 @@ aSTG
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -5614,7 +5614,7 @@ rv
 return
 E_FAIL
 ;
-PRUint32
+uint32_t
 allocLen
 =
 path
@@ -5807,7 +5807,7 @@ if
 mCachedTempFile
 )
 {
-PRUint32
+uint32_t
 len
 =
 0
@@ -5921,7 +5921,7 @@ bits
 return
 E_FAIL
 ;
-PRUint32
+uint32_t
 bitmapSize
 =
 GlobalSize
@@ -6191,7 +6191,7 @@ bmpHdr
 biSize
 )
 ;
-PRUint32
+uint32_t
 writeCount
 =
 0
@@ -6301,7 +6301,7 @@ hGlobalMemory
 =
 NULL
 ;
-PRUint32
+uint32_t
 allocLen
 =
 path
@@ -6666,7 +6666,7 @@ readCount
 =
 0
 ;
-PRUint32
+uint32_t
 writeCount
 =
 0
@@ -6773,7 +6773,7 @@ rv
 return
 E_FAIL
 ;
-PRUint32
+uint32_t
 allocLen
 =
 path
@@ -7148,7 +7148,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -7211,7 +7211,7 @@ outURL
 =
 url
 ;
-PRInt32
+int32_t
 lineIndex
 =
 outURL
@@ -7383,7 +7383,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 len
 =
 0
@@ -7442,7 +7442,7 @@ GetData
 url
 )
 ;
-PRInt32
+int32_t
 lineIndex
 =
 url
@@ -7672,7 +7672,7 @@ mSourceURL
 ;
 }
 const
-PRInt32
+int32_t
 kSourceURLLength
 =
 mSourceURL
@@ -7682,7 +7682,7 @@ Length
 )
 ;
 const
-PRInt32
+int32_t
 kNumberLength
 =
 strlen
@@ -7691,7 +7691,7 @@ numPlaceholder
 )
 ;
 const
-PRInt32
+int32_t
 kTotalHeaderLen
 =
 strlen
@@ -7807,12 +7807,12 @@ html
 "
 )
 ;
-PRInt32
+int32_t
 startHTMLOffset
 =
 kTotalHeaderLen
 ;
-PRInt32
+int32_t
 startFragOffset
 =
 startHTMLOffset
@@ -7829,7 +7829,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 endFragOffset
 =
 startFragOffset
@@ -7840,7 +7840,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 endHTMLOffset
 =
 endFragOffset
@@ -8391,7 +8391,7 @@ nsISupports
 >
 urlPrimitive
 ;
-PRUint32
+uint32_t
 dataSize
 =
 0

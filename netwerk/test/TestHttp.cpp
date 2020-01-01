@@ -232,9 +232,9 @@ ctxt
 nsIInputStream
 *
 stream
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
 )
 {
@@ -266,7 +266,7 @@ buf
 nsresult
 rv
 ;
-PRUint32
+uint32_t
 bytesRead
 =
 0
@@ -276,12 +276,12 @@ while
 count
 )
 {
-PRUint32
+uint32_t
 amount
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 count
@@ -462,9 +462,9 @@ req
 nsISupports
 *
 ctx
-PRUint64
+uint64_t
 progress
-PRUint64
+uint64_t
 progressMax
 )
 {

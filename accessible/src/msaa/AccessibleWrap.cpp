@@ -243,7 +243,7 @@ mozilla
 a11y
 ;
 const
-PRUint32
+uint32_t
 USE_ROLE_STRING
 =
 0
@@ -281,7 +281,7 @@ CLSID_Accessible
 ;
 static
 const
-PRInt32
+int32_t
 kIEnumVariantDisconnected
 =
 -
@@ -1554,7 +1554,7 @@ Role
 (
 )
 ;
-PRUint32
+uint32_t
 msaaRole
 =
 0
@@ -1949,7 +1949,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRUint32
+uint32_t
 msaaState
 =
 0
@@ -2502,7 +2502,7 @@ nsIArray
 >
 mArray
 ;
-PRUint32
+uint32_t
 mCurIndex
 ;
 nsAutoRefCnt
@@ -2684,7 +2684,7 @@ pceltFetched
 {
 __try
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -2725,7 +2725,7 @@ mCurIndex
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2911,7 +2911,7 @@ celt
 {
 __try
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -3438,7 +3438,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRInt32
+int32_t
 x
 y
 width
@@ -3586,7 +3586,7 @@ navAccessible
 =
 nullptr
 ;
-PRUint32
+uint32_t
 xpRelation
 =
 0
@@ -4250,7 +4250,7 @@ CO_E_OBJNOTCONNECTED
 ;
 for
 (
-PRUint32
+uint32_t
 relType
 =
 nsIAccessibleRelation
@@ -4360,14 +4360,14 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRUint32
+uint32_t
 relIdx
 =
 0
 ;
 for
 (
-PRUint32
+uint32_t
 relType
 =
 nsIAccessibleRelation
@@ -4519,7 +4519,7 @@ CO_E_OBJNOTCONNECTED
 ;
 for
 (
-PRUint32
+uint32_t
 relType
 =
 nsIAccessibleRelation
@@ -4880,7 +4880,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-PRUint32
+uint32_t
 geckoCoordType
 =
 (
@@ -5057,7 +5057,7 @@ aStates
 =
 0
 ;
-PRUint64
+uint64_t
 state
 =
 State
@@ -5776,7 +5776,7 @@ Language
 lang
 )
 ;
-PRInt32
+int32_t
 offset
 =
 lang
@@ -6356,7 +6356,7 @@ AccEvent
 aEvent
 )
 {
-PRUint32
+uint32_t
 eventType
 =
 aEvent
@@ -6382,7 +6382,7 @@ EVENT_LAST_ENTRY
 NS_ERROR_FAILURE
 )
 ;
-PRUint32
+uint32_t
 winLastEntry
 =
 gWinEventMap
@@ -6407,7 +6407,7 @@ skewed
 "
 )
 ;
-PRUint32
+uint32_t
 winEvent
 =
 gWinEventMap
@@ -6476,7 +6476,7 @@ UpdateSystemCaret
 )
 ;
 }
-PRInt32
+int32_t
 childID
 =
 GetChildIDFor
@@ -6700,7 +6700,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 AccessibleWrap
 :
 :
@@ -7039,7 +7039,7 @@ name
 return
 E_FAIL
 ;
-PRUint32
+uint32_t
 offset
 =
 0

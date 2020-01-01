@@ -33,7 +33,7 @@ namespace
 struct
 NameMap
 {
-PRUint16
+uint16_t
 code
 ;
 const

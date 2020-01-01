@@ -698,7 +698,7 @@ mVal
 >
 SetAnimValue
 (
-PRUint16
+uint16_t
 (
 aValue
 .

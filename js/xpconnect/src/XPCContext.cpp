@@ -189,7 +189,7 @@ XPCContext
 :
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 {

@@ -86,7 +86,7 @@ nsSupportsWeakReference
 {
 private
 :
-PRInt32
+int32_t
 mMaxTransactionCount
 ;
 nsTransactionStack
@@ -108,7 +108,7 @@ public
 :
 nsTransactionManager
 (
-PRInt32
+int32_t
 aMaxTransactionCount
 =
 -

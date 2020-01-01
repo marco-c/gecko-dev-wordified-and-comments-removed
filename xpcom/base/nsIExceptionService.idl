@@ -481,7 +481,7 @@ in
 nsIExceptionProvider
 provider
 in
-PRUint32
+uint32_t
 moduleCode
 )
 ;
@@ -492,7 +492,7 @@ in
 nsIExceptionProvider
 provider
 in
-PRUint32
+uint32_t
 moduleCode
 )
 ;

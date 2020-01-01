@@ -113,7 +113,7 @@ nsIDOMNode
 >
 mRightNode
 ;
-PRUint32
+uint32_t
 mOffset
 ;
 nsCOMPtr

@@ -1652,7 +1652,7 @@ content
 }
 for
 (
-PRInt32
+int32_t
 u
 =
 0
@@ -1859,7 +1859,7 @@ EqualsLiteral
 return
 true
 ;
-PRInt32
+int32_t
 indx
 =
 aList

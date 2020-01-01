@@ -75,7 +75,7 @@ DeleteControllers
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 mControllers
@@ -86,7 +86,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -221,7 +221,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 nsXULControllers
 )
 {
-PRUint32
+uint32_t
 i
 count
 =
@@ -341,7 +341,7 @@ _retval
 =
 nullptr
 ;
-PRUint32
+uint32_t
 count
 =
 mControllers
@@ -352,7 +352,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -450,7 +450,7 @@ nsXULControllers
 :
 InsertControllerAt
 (
-PRUint32
+uint32_t
 aIndex
 nsIController
 *
@@ -520,7 +520,7 @@ nsXULControllers
 :
 RemoveControllerAt
 (
-PRUint32
+uint32_t
 aIndex
 nsIController
 *
@@ -585,7 +585,7 @@ nsXULControllers
 :
 GetControllerAt
 (
-PRUint32
+uint32_t
 aIndex
 nsIController
 *
@@ -721,7 +721,7 @@ controller
 )
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mControllers
@@ -732,7 +732,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -828,7 +828,7 @@ GetControllerId
 nsIController
 *
 controller
-PRUint32
+uint32_t
 *
 _retval
 )
@@ -838,7 +838,7 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mControllers
@@ -849,7 +849,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -934,7 +934,7 @@ nsXULControllers
 :
 GetControllerById
 (
-PRUint32
+uint32_t
 controllerID
 nsIController
 *
@@ -947,7 +947,7 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-PRUint32
+uint32_t
 count
 =
 mControllers
@@ -958,7 +958,7 @@ Length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1020,7 +1020,7 @@ nsXULControllers
 :
 GetControllerCount
 (
-PRUint32
+uint32_t
 *
 _retval
 )

@@ -688,7 +688,7 @@ Monitor
 gMon3
 ;
 static
-PRInt32
+int32_t
 gMonFirst
 ;
 static
@@ -804,7 +804,7 @@ syncsanity
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -872,7 +872,7 @@ CondVar
 gCv1
 ;
 static
-PRInt32
+int32_t
 gCvFirst
 ;
 static
@@ -969,7 +969,7 @@ cvlock1
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

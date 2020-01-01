@@ -116,7 +116,7 @@ AsDouble
 0
 )
 ;
-PRUint32
+uint32_t
 len
 =
 100
@@ -323,7 +323,7 @@ AsDouble
 0
 )
 ;
-PRUint32
+uint32_t
 len
 =
 100

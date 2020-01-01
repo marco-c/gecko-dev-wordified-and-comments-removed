@@ -669,11 +669,11 @@ nsIWindowCreator2
 *
 /
 attribute
-PRUint32
+uint32_t
 contextFlags
 ;
 attribute
-PRUint32
+uint32_t
 chromeFlags
 ;
 /
@@ -741,7 +741,7 @@ nsIXULWindow
 createNewWindow
 (
 in
-PRInt32
+int32_t
 aChromeFlags
 )
 ;

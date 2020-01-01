@@ -117,9 +117,9 @@ PRUnichar
 *
 *
 aCertDetailsList
-PRUint32
+uint32_t
 aCount
-PRInt32
+int32_t
 *
 aSelectedIndex
 nsAString
@@ -228,7 +228,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 i
 ;
 for
@@ -346,7 +346,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 status
 ;
 rv

@@ -14,10 +14,10 @@ h
 struct
 gfxFontFeature
 {
-PRUint32
+uint32_t
 mTag
 ;
-PRUint32
+uint32_t
 mValue
 ;
 }

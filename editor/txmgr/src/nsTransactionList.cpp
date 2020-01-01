@@ -180,7 +180,7 @@ nsTransactionList
 :
 GetNumItems
 (
-PRInt32
+int32_t
 *
 aNumItems
 )
@@ -257,7 +257,7 @@ nsTransactionList
 :
 ItemIsBatch
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -364,7 +364,7 @@ nsTransactionList
 :
 GetItem
 (
-PRInt32
+int32_t
 aIndex
 nsITransaction
 *
@@ -480,9 +480,9 @@ nsTransactionList
 :
 GetNumChildrenForItem
 (
-PRInt32
+int32_t
 aIndex
-PRInt32
+int32_t
 *
 aNumChildren
 )
@@ -587,7 +587,7 @@ nsTransactionList
 :
 GetChildListForItem
 (
-PRInt32
+int32_t
 aIndex
 nsITransactionList
 *

@@ -120,9 +120,9 @@ aName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
-PRUint16
+uint16_t
 aNodeType
 nsIAtom
 *
@@ -141,9 +141,9 @@ aName
 nsIAtom
 *
 aPrefix
-PRInt32
+int32_t
 aNamespaceID
-PRUint16
+uint16_t
 aNodeType
 nsINodeInfo
 *
@@ -165,7 +165,7 @@ const
 nsAString
 &
 aNamespaceURI
-PRUint16
+uint16_t
 aNodeType
 nsINodeInfo
 *
@@ -339,7 +339,7 @@ nsIDocument
 *
 mDocument
 ;
-PRUint32
+uint32_t
 mNonDocumentNodeInfos
 ;
 nsIPrincipal

@@ -317,9 +317,9 @@ LogMessageWithContext
 nsIURI
 *
 aURL
-PRUint32
+uint32_t
 aLineNumber
-PRUint32
+uint32_t
 flags
 const
 char
@@ -359,7 +359,7 @@ const
 nsCString
 &
 aPackage
-PRUint32
+uint32_t
 *
 aFlags
 )

@@ -1145,7 +1145,7 @@ aKey
 char
 *
 aResult
-PRUint32
+uint32_t
 aResultLen
 )
 {

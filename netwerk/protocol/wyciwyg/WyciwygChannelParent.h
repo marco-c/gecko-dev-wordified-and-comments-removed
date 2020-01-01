@@ -113,7 +113,7 @@ URI
 &
 original
 const
-PRUint32
+uint32_t
 &
 loadFlags
 const
@@ -150,7 +150,7 @@ bool
 RecvSetCharsetAndSource
 (
 const
-PRInt32
+int32_t
 &
 source
 const

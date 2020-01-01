@@ -72,7 +72,7 @@ mozilla
 SVGStringList
 SVGStringList
 ;
-PRInt32
+int32_t
 GetBestLanguagePreferenceRank
 (
 const
@@ -139,7 +139,7 @@ nsIAtom
 *
 GetAttrName
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 const
@@ -148,7 +148,7 @@ SVGStringList
 *
 GetStringListAttribute
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 const
@@ -157,7 +157,7 @@ SVGStringList
 *
 GetOrCreateStringListAttribute
 (
-PRUint8
+uint8_t
 aAttrEnum
 )
 const
@@ -165,7 +165,7 @@ const
 void
 GetAttrValue
 (
-PRUint8
+uint8_t
 aAttrEnum
 nsAttrValue
 &

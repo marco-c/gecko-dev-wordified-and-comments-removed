@@ -333,7 +333,7 @@ failure
 /
 readonly
 attribute
-PRUint32
+uint32_t
 lastShutdownDuration
 ;
 /
@@ -455,7 +455,7 @@ void
 restartInSafeMode
 (
 in
-PRUint32
+uint32_t
 aQuitMode
 )
 ;
@@ -619,7 +619,7 @@ closed
 *
 /
 const
-PRUint32
+uint32_t
 eConsiderQuit
 =
 0x01
@@ -641,7 +641,7 @@ successful
 *
 /
 const
-PRUint32
+uint32_t
 eAttemptQuit
 =
 0x02
@@ -656,7 +656,7 @@ damnit
 *
 /
 const
-PRUint32
+uint32_t
 eForceQuit
 =
 0x03
@@ -690,7 +690,7 @@ line
 *
 /
 const
-PRUint32
+uint32_t
 eRestart
 =
 0x10
@@ -718,7 +718,7 @@ OSX
 *
 /
 const
-PRUint32
+uint32_t
 eRestarti386
 =
 0x20
@@ -746,7 +746,7 @@ OSX
 *
 /
 const
-PRUint32
+uint32_t
 eRestartx86_64
 =
 0x40
@@ -795,7 +795,7 @@ void
 quit
 (
 in
-PRUint32
+uint32_t
 aMode
 )
 ;

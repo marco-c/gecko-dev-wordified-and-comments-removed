@@ -98,7 +98,7 @@ table_
 (
 *
 (
-PRUint32
+uint32_t
 *
 )
 (
@@ -125,7 +125,7 @@ define
 IMMUTABLE_RECURSION_LEVEL
 (
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -161,7 +161,7 @@ define
 ENTRY_STORE_EXTRA
 sizeof
 (
-PRUint32
+uint32_t
 )
 #
 define
@@ -278,7 +278,7 @@ PL_DHashAllocTable
 PLDHashTable
 *
 table
-PRUint32
+uint32_t
 nbytes
 )
 {
@@ -611,9 +611,9 @@ ops
 void
 *
 data
-PRUint32
+uint32_t
 entrySize
-PRUint32
+uint32_t
 capacity
 )
 {
@@ -700,16 +700,16 @@ ops
 void
 *
 data
-PRUint32
+uint32_t
 entrySize
-PRUint32
+uint32_t
 capacity
 )
 {
 int
 log2
 ;
-PRUint32
+uint32_t
 nbytes
 ;
 #
@@ -835,7 +835,7 @@ table
 maxAlphaFrac
 =
 (
-PRUint8
+uint8_t
 )
 (
 0x100
@@ -849,7 +849,7 @@ table
 minAlphaFrac
 =
 (
-PRUint8
+uint8_t
 )
 (
 0x100
@@ -1024,7 +1024,7 @@ float
 minAlpha
 )
 {
-PRUint32
+uint32_t
 size
 ;
 NS_ASSERTION
@@ -1209,7 +1209,7 @@ table
 maxAlphaFrac
 =
 (
-PRUint8
+uint8_t
 )
 (
 maxAlpha
@@ -1223,7 +1223,7 @@ table
 minAlphaFrac
 =
 (
-PRUint8
+uint8_t
 )
 (
 minAlpha
@@ -1441,7 +1441,7 @@ entryAddr
 *
 entryLimit
 ;
-PRUint32
+uint32_t
 entrySize
 ;
 PLDHashEntryHdr
@@ -1681,7 +1681,7 @@ firstRemoved
 PLDHashMatchEntry
 matchEntry
 ;
-PRUint32
+uint32_t
 sizeMask
 ;
 METER
@@ -2007,7 +2007,7 @@ PLDHashEntryHdr
 *
 entry
 ;
-PRUint32
+uint32_t
 sizeMask
 ;
 METER
@@ -2216,7 +2216,7 @@ int
 oldLog2
 newLog2
 ;
-PRUint32
+uint32_t
 oldCapacity
 newCapacity
 ;
@@ -2228,7 +2228,7 @@ oldEntryStore
 *
 oldEntryAddr
 ;
-PRUint32
+uint32_t
 entrySize
 i
 nbytes
@@ -2245,7 +2245,7 @@ moveEntry
 #
 ifdef
 DEBUG
-PRUint32
+uint32_t
 recursionLevel
 ;
 #
@@ -2538,7 +2538,7 @@ PLDHashEntryHdr
 *
 entry
 ;
-PRUint32
+uint32_t
 size
 ;
 int
@@ -3159,7 +3159,7 @@ entryCount
 -
 ;
 }
-PRUint32
+uint32_t
 PL_DHashTableEnumerate
 (
 PLDHashTable
@@ -3178,7 +3178,7 @@ entryAddr
 *
 entryLimit
 ;
-PRUint32
+uint32_t
 i
 capacity
 entrySize
@@ -3483,7 +3483,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-PRUint32
+uint32_t
 number
 void
 *
@@ -3679,7 +3679,7 @@ char
 *
 entryAddr
 ;
-PRUint32
+uint32_t
 entrySize
 entryCount
 ;
@@ -3687,7 +3687,7 @@ int
 hashShift
 sizeLog2
 ;
-PRUint32
+uint32_t
 i
 tableSize
 sizeMask

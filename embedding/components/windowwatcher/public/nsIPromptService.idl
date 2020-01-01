@@ -1505,7 +1505,7 @@ titles
 .
 *
 /
-PRInt32
+int32_t
 confirmEx
 (
 in
@@ -2312,7 +2312,7 @@ in
 wstring
 aText
 in
-PRUint32
+uint32_t
 aCount
 [
 array

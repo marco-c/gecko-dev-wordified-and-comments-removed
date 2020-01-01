@@ -2978,12 +2978,12 @@ instanceData
 >
 npp
 ;
-PRUint32
+uint32_t
 *
 pixelData
 =
 (
-PRUint32
+uint32_t
 *
 )
 instanceData
@@ -2996,7 +2996,7 @@ bitmap
 .
 data
 ;
-PRUint32
+uint32_t
 rgba
 =
 instanceData
@@ -3070,7 +3070,7 @@ subpixels
 0
 ]
 =
-PRUint8
+uint8_t
 (
 float
 (
@@ -3093,7 +3093,7 @@ subpixels
 1
 ]
 =
-PRUint8
+uint8_t
 (
 float
 (
@@ -3116,7 +3116,7 @@ subpixels
 2
 ]
 =
-PRUint8
+uint8_t
 (
 float
 (
@@ -3134,7 +3134,7 @@ subpixels
 0xFF
 )
 ;
-PRUint32
+uint32_t
 premultiplied
 ;
 memcpy
@@ -3150,7 +3150,7 @@ premultiplied
 ;
 for
 (
-PRUint32
+uint32_t
 *
 lastPixel
 =

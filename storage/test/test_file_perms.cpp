@@ -48,7 +48,7 @@ dbFile
 )
 )
 ;
-PRUint32
+uint32_t
 perms
 =
 0

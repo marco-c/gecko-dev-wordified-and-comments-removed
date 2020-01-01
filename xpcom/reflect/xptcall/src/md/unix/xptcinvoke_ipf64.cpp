@@ -29,7 +29,7 @@ uint64_t
 *
 floc
 const
-PRUint32
+uint32_t
 paramCount
 nsXPTCVariant
 *
@@ -42,7 +42,7 @@ dest
 =
 mloc
 ;
-PRUint32
+uint32_t
 len
 =
 paramCount
@@ -53,10 +53,10 @@ source
 =
 s
 ;
-PRUint32
+uint32_t
 indx
 ;
-PRUint32
+uint32_t
 endlen
 ;
 endlen

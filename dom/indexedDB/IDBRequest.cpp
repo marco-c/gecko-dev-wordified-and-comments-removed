@@ -911,7 +911,7 @@ filename
 =
 nullptr
 ;
-PRUint32
+uint32_t
 lineNo
 =
 0

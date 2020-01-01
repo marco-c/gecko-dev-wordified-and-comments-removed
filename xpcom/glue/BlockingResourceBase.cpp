@@ -81,14 +81,14 @@ BlockingResourceBase
 :
 sCallOnce
 ;
-PRUintn
+unsigned
 BlockingResourceBase
 :
 :
 sResourceAcqnChainFrontTPI
 =
 (
-PRUintn
+unsigned
 )
 -
 1
@@ -1432,7 +1432,7 @@ AssertCurrentThreadIn
 (
 )
 ;
-PRInt32
+int32_t
 savedEntryCount
 =
 mEntryCount

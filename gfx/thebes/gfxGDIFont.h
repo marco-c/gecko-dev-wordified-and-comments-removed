@@ -138,7 +138,7 @@ GetMetrics
 )
 ;
 virtual
-PRUint32
+uint32_t
 GetSpaceGlyph
 (
 )
@@ -159,9 +159,9 @@ Measure
 gfxTextRun
 *
 aTextRun
-PRUint32
+uint32_t
 aStart
-PRUint32
+uint32_t
 aEnd
 BoundingBoxType
 aBoundingBoxType
@@ -193,13 +193,13 @@ true
 ;
 }
 virtual
-PRInt32
+int32_t
 GetGlyphWidth
 (
 gfxContext
 *
 aCtx
-PRUint16
+uint16_t
 aGID
 )
 ;
@@ -300,7 +300,7 @@ Metrics
 *
 mMetrics
 ;
-PRUint32
+uint32_t
 mSpaceGlyph
 ;
 bool
@@ -309,7 +309,7 @@ mNeedsBold
 nsDataHashtable
 <
 nsUint32HashKey
-PRInt32
+int32_t
 >
 mGlyphWidths
 ;

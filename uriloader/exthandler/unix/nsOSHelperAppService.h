@@ -166,7 +166,7 @@ aFile
 ;
 private
 :
-PRUint32
+uint32_t
 mPermissions
 ;
 static

@@ -164,7 +164,7 @@ NS_DECL_NSITIMERCALLBACK
 void
 AdvanceTimeAndRefresh
 (
-PRInt64
+int64_t
 aMilliseconds
 )
 ;
@@ -182,7 +182,7 @@ MostRecentRefresh
 )
 const
 ;
-PRInt64
+int64_t
 MostRecentRefreshEpochTime
 (
 )
@@ -473,7 +473,7 @@ aFlushType
 #
 endif
 static
-PRInt32
+int32_t
 DefaultInterval
 (
 )
@@ -507,13 +507,13 @@ StopTimer
 (
 )
 ;
-PRUint32
+uint32_t
 ObserverCount
 (
 )
 const
 ;
-PRUint32
+uint32_t
 ImageRequestCount
 (
 )
@@ -549,13 +549,13 @@ DoRefresh
 (
 )
 ;
-PRInt32
+int32_t
 GetRefreshTimerInterval
 (
 )
 const
 ;
-PRInt32
+int32_t
 GetRefreshTimerType
 (
 )
@@ -590,7 +590,7 @@ mozilla
 TimeStamp
 mMostRecentRefresh
 ;
-PRInt64
+int64_t
 mMostRecentRefreshEpochTime
 ;
 nsPresContext
@@ -645,7 +645,7 @@ nsIDocument
 mFrameRequestCallbackDocs
 ;
 mutable
-PRInt32
+int32_t
 mLastTimerInterval
 ;
 struct

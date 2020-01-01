@@ -73,7 +73,7 @@ aEditor
 nsIDOMNode
 *
 aNode
-PRInt32
+int32_t
 aOffset
 )
 ;
@@ -111,7 +111,7 @@ nsIDOMNode
 >
 mExistingRightNode
 ;
-PRInt32
+int32_t
 mOffset
 ;
 nsCOMPtr

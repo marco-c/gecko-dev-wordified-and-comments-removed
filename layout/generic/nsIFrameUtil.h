@@ -58,7 +58,7 @@ aFile1
 FILE
 *
 aFile2
-PRInt32
+int32_t
 aRegressionOutput
 )
 =

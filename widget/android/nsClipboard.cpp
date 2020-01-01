@@ -89,7 +89,7 @@ aTransferable
 nsIClipboardOwner
 *
 anOwner
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -109,7 +109,7 @@ nsISupports
 >
 tmp
 ;
-PRUint32
+uint32_t
 len
 ;
 nsresult
@@ -245,7 +245,7 @@ GetData
 nsITransferable
 *
 aTransferable
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -417,7 +417,7 @@ nsClipboard
 :
 EmptyClipboard
 (
-PRInt32
+int32_t
 aWhichClipboard
 )
 {
@@ -493,9 +493,9 @@ char
 *
 *
 aFlavorList
-PRUint32
+uint32_t
 aLength
-PRInt32
+int32_t
 aWhichClipboard
 bool
 *

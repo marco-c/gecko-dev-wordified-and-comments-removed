@@ -195,7 +195,7 @@ const
 char
 *
 aURL
-PRUint32
+uint32_t
 aLineNo
 JSVersion
 aVersion
@@ -225,9 +225,9 @@ const
 char
 *
 aURL
-PRUint32
+uint32_t
 aLineNo
-PRUint32
+uint32_t
 aVersion
 JS
 :
@@ -248,7 +248,7 @@ const
 PRUnichar
 *
 aText
-PRInt32
+int32_t
 aTextLength
 nsIPrincipal
 *
@@ -257,9 +257,9 @@ const
 char
 *
 aURL
-PRUint32
+uint32_t
 aLineNo
-PRUint32
+uint32_t
 aVersion
 nsScriptObjectHolder
 <
@@ -298,7 +298,7 @@ CompileEventHandler
 nsIAtom
 *
 aName
-PRUint32
+uint32_t
 aArgCount
 const
 char
@@ -313,9 +313,9 @@ const
 char
 *
 aURL
-PRUint32
+uint32_t
 aLineNo
-PRUint32
+uint32_t
 aVersion
 nsScriptObjectHolder
 <
@@ -379,7 +379,7 @@ const
 nsACString
 &
 aName
-PRUint32
+uint32_t
 aArgCount
 const
 char
@@ -394,9 +394,9 @@ const
 char
 *
 aURL
-PRUint32
+uint32_t
 aLineNo
-PRUint32
+uint32_t
 aVersion
 bool
 aShared
@@ -687,7 +687,7 @@ nsICycleCollectorListener
 aListener
 =
 nullptr
-PRInt32
+int32_t
 aExtraForgetSkippableCalls
 =
 0
@@ -772,7 +772,7 @@ aReason
 )
 ;
 static
-PRUint32
+uint32_t
 CleanupsSinceLastGC
 (
 )
@@ -820,7 +820,7 @@ aArgs
 JSObject
 *
 aScope
-PRUint32
+uint32_t
 *
 aArgc
 jsval
@@ -1059,10 +1059,10 @@ mGCOnDestruction
 bool
 mProcessingScriptTag
 ;
-PRUint32
+uint32_t
 mExecuteDepth
 ;
-PRUint32
+uint32_t
 mDefaultJSOptions
 ;
 PRTime
@@ -1071,7 +1071,7 @@ mOperationCallbackTime
 PRTime
 mModalStateTime
 ;
-PRUint32
+uint32_t
 mModalStateDepth
 ;
 nsJSContext
@@ -1223,7 +1223,7 @@ virtual
 nsresult
 GetArgs
 (
-PRUint32
+uint32_t
 *
 argc
 void

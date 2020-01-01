@@ -311,7 +311,7 @@ void
 getInterfaces
 (
 out
-PRUint32
+uint32_t
 count
 [
 array
@@ -424,7 +424,7 @@ nsISupports
 getHelperForLanguage
 (
 in
-PRUint32
+uint32_t
 language
 )
 ;
@@ -546,7 +546,7 @@ nsIProgrammingLanguage
 /
 readonly
 attribute
-PRUint32
+uint32_t
 implementationLanguage
 ;
 /
@@ -563,7 +563,7 @@ attribute
 *
 /
 const
-PRUint32
+uint32_t
 SINGLETON
 =
 1
@@ -572,7 +572,7 @@ SINGLETON
 0
 ;
 const
-PRUint32
+uint32_t
 THREADSAFE
 =
 1
@@ -581,7 +581,7 @@ THREADSAFE
 1
 ;
 const
-PRUint32
+uint32_t
 MAIN_THREAD_ONLY
 =
 1
@@ -590,7 +590,7 @@ MAIN_THREAD_ONLY
 2
 ;
 const
-PRUint32
+uint32_t
 DOM_OBJECT
 =
 1
@@ -599,7 +599,7 @@ DOM_OBJECT
 3
 ;
 const
-PRUint32
+uint32_t
 PLUGIN_OBJECT
 =
 1
@@ -608,7 +608,7 @@ PLUGIN_OBJECT
 4
 ;
 const
-PRUint32
+uint32_t
 SINGLETON_CLASSINFO
 =
 1
@@ -638,7 +638,7 @@ nsIContent
 *
 /
 const
-PRUint32
+uint32_t
 CONTENT_NODE
 =
 1
@@ -679,7 +679,7 @@ bit
 set
 .
 const
-PRUint32
+uint32_t
 RESERVED
 =
 1
@@ -689,7 +689,7 @@ RESERVED
 ;
 readonly
 attribute
-PRUint32
+uint32_t
 flags
 ;
 /

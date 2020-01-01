@@ -249,7 +249,7 @@ nsCString
 quotaDomainDBKey
 nsCString
 quotaETLDplus1DomainDBKey
-PRUint32
+uint32_t
 storageType
 )
 ;
@@ -277,7 +277,7 @@ sessionOnly
 )
 returns
 (
-PRUint32
+uint32_t
 length
 nsresult
 rv
@@ -290,7 +290,7 @@ bool
 callerSecure
 bool
 sessionOnly
-PRUint32
+uint32_t
 index
 )
 returns
@@ -367,7 +367,7 @@ sessionOnly
 )
 returns
 (
-PRInt32
+int32_t
 oldCount
 nsresult
 rv

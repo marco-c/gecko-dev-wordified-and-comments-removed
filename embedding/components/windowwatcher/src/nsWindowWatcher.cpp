@@ -1319,7 +1319,7 @@ if
 array
 )
 {
-PRUint32
+uint32_t
 argc
 =
 0
@@ -1367,7 +1367,7 @@ if
 supArray
 )
 {
-PRUint32
+uint32_t
 argc
 =
 0
@@ -1412,7 +1412,7 @@ NULL
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1554,7 +1554,7 @@ ConvertArgsToArray
 aArguments
 )
 ;
-PRUint32
+uint32_t
 argc
 =
 0
@@ -1640,22 +1640,22 @@ false
 )
 {
 }
-PRInt32
+int32_t
 mLeft
 ;
-PRInt32
+int32_t
 mTop
 ;
-PRInt32
+int32_t
 mOuterWidth
 ;
-PRInt32
+int32_t
 mOuterHeight
 ;
-PRInt32
+int32_t
 mInnerWidth
 ;
-PRInt32
+int32_t
 mInnerHeight
 ;
 bool
@@ -1763,7 +1763,7 @@ ConvertArgsToArray
 aArguments
 )
 ;
-PRUint32
+uint32_t
 argc
 =
 0
@@ -1879,7 +1879,7 @@ windowIsModalContentDialog
 =
 false
 ;
-PRUint32
+uint32_t
 chromeFlags
 ;
 nsAutoString
@@ -2738,7 +2738,7 @@ if
 windowCreator2
 )
 {
-PRUint32
+uint32_t
 contextFlags
 =
 0
@@ -3481,7 +3481,7 @@ rv
 isSystem
 )
 {
-PRInt32
+int32_t
 itemType
 ;
 rv
@@ -3790,7 +3790,7 @@ windowIsNew
 ?
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 nsIWebNavigation
@@ -3801,7 +3801,7 @@ LOAD_FLAGS_FIRST_LOAD
 :
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 nsIWebNavigation
@@ -5133,7 +5133,7 @@ nsWatcherWindowEntry
 inInfo
 )
 {
-PRUint32
+uint32_t
 ctr
 count
 =
@@ -5791,7 +5791,7 @@ flag
 ;
 \
 }
-PRUint32
+uint32_t
 nsWindowWatcher
 :
 :
@@ -5852,7 +5852,7 @@ nsIWebBrowserChrome
 CHROME_ALL
 ;
 }
-PRUint32
+uint32_t
 chromeFlags
 =
 0
@@ -6652,7 +6652,7 @@ return
 chromeFlags
 ;
 }
-PRInt32
+int32_t
 nsWindowWatcher
 :
 :
@@ -6666,7 +6666,7 @@ const
 char
 *
 aName
-PRInt32
+int32_t
 aDefault
 bool
 *
@@ -6687,7 +6687,7 @@ comma
 *
 equal
 ;
-PRInt32
+int32_t
 found
 =
 0
@@ -7593,7 +7593,7 @@ aResult
 bool
 present
 ;
-PRInt32
+int32_t
 temp
 ;
 present
@@ -7965,7 +7965,7 @@ SizeSpec
 aSizeSpec
 )
 {
-PRInt32
+int32_t
 left
 =
 0
@@ -7979,7 +7979,7 @@ height
 =
 100
 ;
-PRInt32
+int32_t
 chromeWidth
 =
 0
@@ -8157,7 +8157,7 @@ if
 shellWindow
 )
 {
-PRInt32
+int32_t
 cox
 coy
 ;
@@ -8493,7 +8493,7 @@ if
 enabled
 )
 {
-PRInt32
+int32_t
 oldTop
 =
 top
@@ -8553,13 +8553,13 @@ if
 screen
 )
 {
-PRInt32
+int32_t
 screenLeft
 screenTop
 screenWidth
 screenHeight
 ;
-PRInt32
+int32_t
 winWidth
 =
 width

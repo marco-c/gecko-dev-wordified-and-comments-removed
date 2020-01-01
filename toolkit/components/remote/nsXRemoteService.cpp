@@ -951,7 +951,7 @@ TO_LITTLE_ENDIAN32
 *
 reinterpret_cast
 <
-PRInt32
+int32_t
 *
 >
 (
@@ -1076,7 +1076,7 @@ aCommand
 nsIDOMWindow
 *
 aWindow
-PRUint32
+uint32_t
 aTimestamp
 )
 {
@@ -1129,7 +1129,7 @@ command
 aCommand
 )
 ;
-PRInt32
+int32_t
 p1
 p2
 ;
@@ -1381,7 +1381,7 @@ aBuffer
 nsIDOMWindow
 *
 aWindow
-PRUint32
+uint32_t
 aTimestamp
 )
 {
@@ -1428,7 +1428,7 @@ internal
 error
 "
 ;
-PRInt32
+int32_t
 argc
 =
 TO_LITTLE_ENDIAN32
@@ -1436,7 +1436,7 @@ TO_LITTLE_ENDIAN32
 *
 reinterpret_cast
 <
-PRInt32
+int32_t
 *
 >
 (
@@ -1459,7 +1459,7 @@ argc
 *
 sizeof
 (
-PRInt32
+int32_t
 )
 )
 ;
@@ -1534,13 +1534,13 @@ internal
 error
 "
 ;
-PRInt32
+int32_t
 *
 offset
 =
 reinterpret_cast
 <
-PRInt32
+int32_t
 *
 >
 (

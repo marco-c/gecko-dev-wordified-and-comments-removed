@@ -742,7 +742,7 @@ nsISupports
 *
 *
 aData
-PRUint32
+uint32_t
 *
 aDataLen
 )
@@ -793,7 +793,7 @@ nsISupports
 >
 tmp
 ;
-PRUint32
+uint32_t
 dataSize
 =
 0
@@ -1646,7 +1646,7 @@ if
 dsti
 )
 {
-PRInt32
+int32_t
 type
 =
 -
@@ -2637,7 +2637,7 @@ nsISupportsString
 >
 data
 ;
-PRUint32
+uint32_t
 dataSize
 ;
 rv
@@ -3416,7 +3416,7 @@ if
 hasChildren
 )
 {
-PRInt32
+int32_t
 anchorOffset
 focusOffset
 ;
@@ -3467,7 +3467,7 @@ if
 selStartContent
 )
 {
-PRInt32
+int32_t
 childOffset
 =
 (
@@ -3637,7 +3637,7 @@ outLinkNode
 return
 ;
 }
-PRInt32
+int32_t
 startOffset
 endOffset
 ;
@@ -3770,7 +3770,7 @@ startOffset
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 nodeStr

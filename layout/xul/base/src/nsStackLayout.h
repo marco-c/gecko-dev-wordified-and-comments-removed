@@ -135,7 +135,7 @@ aBoxLayoutState
 )
 ;
 static
-PRUint8
+uint8_t
 GetOffset
 (
 nsBoxLayoutState

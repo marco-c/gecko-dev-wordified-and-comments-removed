@@ -394,7 +394,7 @@ out
 wstring
 dictionaries
 out
-PRUint32
+uint32_t
 count
 )
 ;
@@ -495,7 +495,7 @@ out
 wstring
 suggestions
 out
-PRUint32
+uint32_t
 count
 )
 ;

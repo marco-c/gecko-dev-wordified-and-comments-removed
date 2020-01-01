@@ -185,7 +185,7 @@ pw
 PW_GECOS
 )
 ;
-PRInt32
+int32_t
 index
 ;
 if

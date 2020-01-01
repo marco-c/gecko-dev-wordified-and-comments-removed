@@ -45,7 +45,7 @@ Error
 :
 GetResult
 (
-PRInt32
+int32_t
 *
 _result
 )

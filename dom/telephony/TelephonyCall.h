@@ -103,10 +103,10 @@ nsIDOMDOMError
 >
 mError
 ;
-PRUint32
+uint32_t
 mCallIndex
 ;
-PRUint16
+uint16_t
 mCallState
 ;
 bool
@@ -144,9 +144,9 @@ const
 nsAString
 &
 aNumber
-PRUint16
+uint16_t
 aCallState
-PRUint32
+uint32_t
 aCallIndex
 =
 kOutgoingPlaceholderCallIndex
@@ -193,7 +193,7 @@ ToIDOMEventTarget
 void
 ChangeState
 (
-PRUint16
+uint16_t
 aCallState
 )
 {
@@ -204,7 +204,7 @@ true
 )
 ;
 }
-PRUint32
+uint32_t
 CallIndex
 (
 )
@@ -217,7 +217,7 @@ mCallIndex
 void
 UpdateCallIndex
 (
-PRUint32
+uint32_t
 aCallIndex
 )
 {
@@ -243,7 +243,7 @@ mCallIndex
 aCallIndex
 ;
 }
-PRUint16
+uint16_t
 CallState
 (
 )
@@ -308,7 +308,7 @@ TelephonyCall
 void
 ChangeStateInternal
 (
-PRUint16
+uint16_t
 aCallState
 bool
 aFireEvents

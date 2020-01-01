@@ -716,7 +716,7 @@ if
 rdfcontainer
 )
 {
-PRInt32
+int32_t
 index
 ;
 rv

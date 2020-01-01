@@ -196,7 +196,7 @@ nsIScriptElement
 >
 mScriptElements
 ;
-PRUint32
+uint32_t
 mPendingStylesheetCount
 ;
 bool
@@ -255,7 +255,7 @@ const
 nsSubstring
 &
 aName
-PRInt32
+int32_t
 aNsID
 nsIDOMDocument
 *
@@ -320,7 +320,7 @@ aPrefix
 nsIAtom
 *
 aLocalName
-PRInt32
+int32_t
 aNsID
 const
 nsString
@@ -337,7 +337,7 @@ aPrefix
 nsIAtom
 *
 aLocalName
-PRInt32
+int32_t
 aNsID
 )
 ;
@@ -383,7 +383,7 @@ txTransformNotifier
 >
 mNotifier
 ;
-PRUint32
+uint32_t
 mTreeDepth
 mBadChildLevel
 ;

@@ -227,7 +227,7 @@ pBuf
 =
 buf
 ;
-PRInt32
+int32_t
 ulen
 =
 NS_strlen
@@ -235,7 +235,7 @@ NS_strlen
 text
 )
 ;
-PRInt32
+int32_t
 outlen
 =
 0
@@ -298,7 +298,7 @@ pBuf
 buf
 ;
 }
-PRInt32
+int32_t
 bufLen
 =
 outlen
@@ -324,7 +324,7 @@ outlen
 )
 )
 {
-PRInt32
+int32_t
 finLen
 =
 bufLen
@@ -565,7 +565,7 @@ pBuf
 =
 nullptr
 ;
-PRInt32
+int32_t
 len
 =
 strlen
@@ -573,7 +573,7 @@ strlen
 unescaped
 )
 ;
-PRInt32
+int32_t
 outlen
 =
 0
@@ -914,7 +914,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 srcLen
 =
 aURI
@@ -923,7 +923,7 @@ Length
 (
 )
 ;
-PRInt32
+int32_t
 dstLen
 ;
 rv

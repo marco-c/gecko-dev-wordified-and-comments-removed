@@ -496,7 +496,7 @@ get
 )
 )
 ;
-PRUint32
+uint32_t
 i
 length
 =
@@ -1709,7 +1709,7 @@ AccessKey
 )
 const
 {
-PRUint32
+uint32_t
 key
 =
 nsCoreUtils
@@ -1999,7 +1999,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-PRInt32
+int32_t
 itemType
 =
 0
@@ -2354,7 +2354,7 @@ Accessible
 :
 GetChildAt
 (
-PRInt32
+int32_t
 aChildIndex
 nsIAccessible
 *
@@ -2479,7 +2479,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 childCount
 =
 ChildCount
@@ -2488,7 +2488,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -2551,7 +2551,7 @@ Accessible
 :
 GetChildCount
 (
-PRInt32
+int32_t
 *
 aChildCount
 )
@@ -2587,7 +2587,7 @@ Accessible
 :
 GetIndexInParent
 (
-PRInt32
+int32_t
 *
 aIndexInParent
 )
@@ -2728,7 +2728,7 @@ xsValue
 )
 ;
 }
-PRUint64
+uint64_t
 Accessible
 :
 :
@@ -2736,7 +2736,7 @@ VisibilityState
 (
 )
 {
-PRUint64
+uint64_t
 vstates
 =
 states
@@ -2786,7 +2786,7 @@ return
 vstates
 ;
 const
-PRUint16
+uint16_t
 kMinPixels
 =
 12
@@ -2943,7 +2943,7 @@ states
 INVISIBLE
 ;
 }
-PRUint64
+uint64_t
 Accessible
 :
 :
@@ -2951,7 +2951,7 @@ NativeState
 (
 )
 {
-PRUint64
+uint64_t
 state
 =
 0
@@ -3237,7 +3237,7 @@ return
 state
 ;
 }
-PRUint64
+uint64_t
 Accessible
 :
 :
@@ -3301,7 +3301,7 @@ return
 0
 ;
 }
-PRUint64
+uint64_t
 Accessible
 :
 :
@@ -3486,15 +3486,15 @@ Accessible
 :
 ChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 EWhichChildAtPoint
 aWhichChild
 )
 {
-PRInt32
+int32_t
 x
 =
 0
@@ -3825,7 +3825,7 @@ child
 parent
 ;
 }
-PRUint32
+uint32_t
 childCount
 =
 accessible
@@ -3837,7 +3837,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 childIdx
 =
 0
@@ -3863,7 +3863,7 @@ GetChildAt
 childIdx
 )
 ;
-PRInt32
+int32_t
 childX
 childY
 childWidth
@@ -3963,9 +3963,9 @@ Accessible
 :
 GetChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 nsIAccessible
 *
@@ -4015,9 +4015,9 @@ Accessible
 :
 GetDeepestChildAtPoint
 (
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 nsIAccessible
 *
@@ -4124,16 +4124,16 @@ Accessible
 :
 GetBounds
 (
-PRInt32
+int32_t
 *
 aX
-PRInt32
+int32_t
 *
 aY
-PRInt32
+int32_t
 *
 aWidth
-PRInt32
+int32_t
 *
 aHeight
 )
@@ -5250,7 +5250,7 @@ Accessible
 :
 GetRole
 (
-PRUint32
+uint32_t
 *
 aRole
 )
@@ -6199,7 +6199,7 @@ level
 0
 )
 {
-PRInt32
+int32_t
 level
 =
 GetLevelInternal
@@ -6238,7 +6238,7 @@ setSize
 0
 )
 {
-PRInt32
+int32_t
 posInSet
 =
 0
@@ -6310,13 +6310,13 @@ Accessible
 :
 GroupPosition
 (
-PRInt32
+int32_t
 *
 aGroupLevel
-PRInt32
+int32_t
 *
 aSimilarItemsInGroup
-PRInt32
+int32_t
 *
 aPositionInGroup
 )
@@ -6398,10 +6398,10 @@ Accessible
 :
 GetState
 (
-PRUint32
+uint32_t
 *
 aState
-PRUint32
+uint32_t
 *
 aExtraState
 )
@@ -6427,7 +6427,7 @@ return
 NS_OK
 ;
 }
-PRUint64
+uint64_t
 Accessible
 :
 :
@@ -6447,7 +6447,7 @@ states
 :
 DEFUNCT
 ;
-PRUint64
+uint64_t
 state
 =
 NativeState
@@ -6657,7 +6657,7 @@ SELECTED
 }
 }
 const
-PRUint32
+uint32_t
 kExpandCollapseStates
 =
 states
@@ -6853,7 +6853,7 @@ Accessible
 :
 ApplyARIAState
 (
-PRUint64
+uint64_t
 *
 aState
 )
@@ -7385,7 +7385,7 @@ return
 NS_OK_NO_ARIA_VALUE
 ;
 const
-PRUint32
+uint32_t
 kValueCannotChange
 =
 states
@@ -7773,7 +7773,7 @@ Accessible
 :
 GetActionCount
 (
-PRUint8
+uint8_t
 *
 aActionCount
 )
@@ -7808,7 +7808,7 @@ return
 NS_OK
 ;
 }
-PRUint8
+uint8_t
 Accessible
 :
 :
@@ -7835,7 +7835,7 @@ Accessible
 :
 GetActionName
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -7867,7 +7867,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-PRUint32
+uint32_t
 actionRule
 =
 GetActionRule
@@ -7928,7 +7928,7 @@ case
 eCheckUncheckAction
 :
 {
-PRUint64
+uint64_t
 state
 =
 State
@@ -8129,7 +8129,7 @@ Accessible
 :
 GetActionDescription
 (
-PRUint8
+uint8_t
 aIndex
 nsAString
 &
@@ -8170,7 +8170,7 @@ Accessible
 :
 DoAction
 (
-PRUint8
+uint8_t
 aIndex
 )
 {
@@ -8298,7 +8298,7 @@ Accessible
 :
 GetRelationByType
 (
-PRUint32
+uint32_t
 aType
 nsIAccessibleRelation
 *
@@ -8362,7 +8362,7 @@ Accessible
 :
 RelationByType
 (
-PRUint32
+uint32_t
 aType
 )
 {
@@ -9045,7 +9045,7 @@ if
 possibleDefaultButtons
 )
 {
-PRUint32
+uint32_t
 length
 ;
 possibleDefaultButtons
@@ -9065,7 +9065,7 @@ possibleButton
 ;
 for
 (
-PRUint32
+uint32_t
 count
 =
 0
@@ -9301,7 +9301,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-PRUint32
+uint32_t
 relType
 =
 nsIAccessibleRelation
@@ -9350,7 +9350,7 @@ rv
 relation
 )
 {
-PRUint32
+uint32_t
 targets
 =
 0
@@ -9428,7 +9428,7 @@ DoCommand
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aActionIndex
 )
 {
@@ -9464,7 +9464,7 @@ DispatchClickEvent
 nsIContent
 *
 aContent
-PRUint32
+uint32_t
 aActionIndex
 )
 {
@@ -9548,7 +9548,7 @@ Accessible
 :
 ScrollTo
 (
-PRUint32
+uint32_t
 aHow
 )
 {
@@ -9586,11 +9586,11 @@ Accessible
 :
 ScrollToPoint
 (
-PRUint32
+uint32_t
 aCoordinateType
-PRInt32
+int32_t
 aX
-PRInt32
+int32_t
 aY
 )
 {
@@ -9720,7 +9720,7 @@ if
 items
 )
 {
-PRUint32
+uint32_t
 length
 =
 0
@@ -9757,7 +9757,7 @@ Accessible
 :
 RefSelection
 (
-PRInt32
+int32_t
 aIndex
 nsIAccessible
 *
@@ -9835,7 +9835,7 @@ Accessible
 :
 GetSelectionCount
 (
-PRInt32
+int32_t
 *
 aSelectionCount
 )
@@ -9882,7 +9882,7 @@ Accessible
 :
 AddChildToSelection
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -9924,7 +9924,7 @@ Accessible
 :
 RemoveChildFromSelection
 (
-PRInt32
+int32_t
 aIndex
 )
 {
@@ -9966,7 +9966,7 @@ Accessible
 :
 IsChildSelected
 (
-PRInt32
+int32_t
 aIndex
 bool
 *
@@ -10103,7 +10103,7 @@ Accessible
 :
 GetAnchorCount
 (
-PRInt32
+int32_t
 *
 aAnchorCount
 )
@@ -10144,7 +10144,7 @@ Accessible
 :
 GetStartIndex
 (
-PRInt32
+int32_t
 *
 aStartIndex
 )
@@ -10185,7 +10185,7 @@ Accessible
 :
 GetEndIndex
 (
-PRInt32
+int32_t
 *
 aEndIndex
 )
@@ -10226,7 +10226,7 @@ Accessible
 :
 GetURI
 (
-PRInt32
+int32_t
 aIndex
 nsIURI
 *
@@ -10260,7 +10260,7 @@ aIndex
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 AnchorCount
@@ -10297,7 +10297,7 @@ Accessible
 :
 GetAnchor
 (
-PRInt32
+int32_t
 aIndex
 nsIAccessible
 *
@@ -10336,7 +10336,7 @@ aIndex
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 AnchorCount
@@ -10453,9 +10453,9 @@ AppendTextTo
 nsAString
 &
 aText
-PRUint32
+uint32_t
 aStartOffset
-PRUint32
+uint32_t
 aLength
 )
 {
@@ -10738,7 +10738,7 @@ BindToParent
 Accessible
 *
 aParent
-PRUint32
+uint32_t
 aIndexInParent
 )
 {
@@ -10853,7 +10853,7 @@ InvalidateChildren
 (
 )
 {
-PRInt32
+int32_t
 childCount
 =
 mChildren
@@ -10864,7 +10864,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 childIdx
 =
 0
@@ -10986,7 +10986,7 @@ Accessible
 :
 InsertChildAt
 (
-PRUint32
+uint32_t
 aIndex
 Accessible
 *
@@ -11017,7 +11017,7 @@ false
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 aIndex
@@ -11147,12 +11147,12 @@ mIndexInParent
 return
 false
 ;
-PRUint32
+uint32_t
 index
 =
 static_cast
 <
-PRUint32
+uint32_t
 >
 (
 aChild
@@ -11217,7 +11217,7 @@ false
 }
 for
 (
-PRUint32
+uint32_t
 idx
 =
 index
@@ -11302,7 +11302,7 @@ Accessible
 :
 GetChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -11367,7 +11367,7 @@ return
 child
 ;
 }
-PRUint32
+uint32_t
 Accessible
 :
 :
@@ -11384,7 +11384,7 @@ Length
 )
 ;
 }
-PRInt32
+int32_t
 Accessible
 :
 :
@@ -11417,7 +11417,7 @@ IndexInParent
 )
 ;
 }
-PRInt32
+int32_t
 Accessible
 :
 :
@@ -11430,7 +11430,7 @@ return
 mIndexInParent
 ;
 }
-PRUint32
+uint32_t
 Accessible
 :
 :
@@ -11481,7 +11481,7 @@ Accessible
 :
 GetEmbeddedChildAt
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -11527,7 +11527,7 @@ aIndex
 )
 ;
 }
-PRInt32
+int32_t
 Accessible
 :
 :
@@ -11610,7 +11610,7 @@ this
 )
 ;
 }
-PRUint32
+uint32_t
 Accessible
 :
 :
@@ -11664,7 +11664,7 @@ this
 0
 ;
 }
-PRUint32
+uint32_t
 Accessible
 :
 :
@@ -11764,7 +11764,7 @@ this
 )
 ;
 }
-PRUint32
+uint32_t
 Accessible
 :
 :
@@ -11800,7 +11800,7 @@ Accessible
 :
 AnchorAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 {
@@ -11841,7 +11841,7 @@ Accessible
 :
 AnchorURIAt
 (
-PRUint32
+uint32_t
 aAnchorIndex
 )
 {
@@ -12100,7 +12100,7 @@ return
 items
 ;
 }
-PRUint32
+uint32_t
 Accessible
 :
 :
@@ -12108,7 +12108,7 @@ SelectedItemCount
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -12160,7 +12160,7 @@ Accessible
 :
 GetSelectedItem
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
@@ -12184,7 +12184,7 @@ selected
 =
 nullptr
 ;
-PRUint32
+uint32_t
 index
 =
 0
@@ -12220,11 +12220,11 @@ Accessible
 :
 IsItemSelected
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
-PRUint32
+uint32_t
 index
 =
 0
@@ -12293,11 +12293,11 @@ Accessible
 :
 AddItemToSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
-PRUint32
+uint32_t
 index
 =
 0
@@ -12371,11 +12371,11 @@ Accessible
 :
 RemoveItemFromSelection
 (
-PRUint32
+uint32_t
 aIndex
 )
 {
-PRUint32
+uint32_t
 index
 =
 0
@@ -12940,7 +12940,7 @@ const
 #
 ifdef
 DEBUG
-PRInt32
+int32_t
 childCount
 =
 mChildren
@@ -12983,7 +12983,7 @@ nullptr
 ;
 for
 (
-PRInt32
+int32_t
 childIdx
 =
 0
@@ -13096,7 +13096,7 @@ Accessible
 :
 GetSiblingAtOffset
 (
-PRInt32
+int32_t
 aOffset
 nsresult
 *
@@ -13142,7 +13142,7 @@ aOffset
 =
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 mParent
@@ -13481,7 +13481,7 @@ return
 NS_OK
 ;
 }
-PRUint32
+uint32_t
 Accessible
 :
 :
@@ -13636,10 +13636,10 @@ Accessible
 :
 GetPositionAndSizeInternal
 (
-PRInt32
+int32_t
 *
 aPosInSet
-PRInt32
+int32_t
 *
 aSetSize
 )
@@ -13679,7 +13679,7 @@ SetSize
 ;
 }
 }
-PRInt32
+int32_t
 Accessible
 :
 :
@@ -13687,7 +13687,7 @@ GetLevelInternal
 (
 )
 {
-PRInt32
+int32_t
 level
 =
 nsAccUtils
@@ -13885,7 +13885,7 @@ Parent
 (
 )
 ;
-PRUint32
+uint32_t
 siblingCount
 =
 parent
@@ -13897,7 +13897,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 siblingIdx
 =
 0

@@ -155,7 +155,7 @@ virtual
 void
 CheckValueListDependentAttrs
 (
-PRUint32
+uint32_t
 aNumValues
 )
 MOZ_OVERRIDE

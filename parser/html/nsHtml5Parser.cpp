@@ -390,7 +390,7 @@ const
 nsACString
 &
 aCharset
-PRInt32
+int32_t
 aCharsetSource
 )
 {
@@ -1317,7 +1317,7 @@ hasMore
 )
 )
 {
-PRInt32
+int32_t
 lineNumberSave
 ;
 bool
@@ -2769,7 +2769,7 @@ InitializeDocWriteParserState
 nsAHtml5TreeBuilderState
 *
 aState
-PRInt32
+int32_t
 aLine
 )
 {

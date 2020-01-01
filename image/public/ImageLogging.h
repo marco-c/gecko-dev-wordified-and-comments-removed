@@ -346,7 +346,7 @@ const
 nsDependentCString
 &
 paramName
-PRInt32
+int32_t
 paramValue
 )
 :
@@ -431,7 +431,7 @@ const
 nsDependentCString
 &
 paramName
-PRUint32
+uint32_t
 paramValue
 )
 :
@@ -764,7 +764,7 @@ const
 nsDependentCString
 &
 paramName
-PRUint32
+uint32_t
 paramValue
 )
 {

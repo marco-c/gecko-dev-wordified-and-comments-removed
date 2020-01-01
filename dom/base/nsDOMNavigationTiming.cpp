@@ -224,7 +224,7 @@ mNavigationStart
 +
 static_cast
 <
-PRInt32
+int32_t
 >
 (
 duration
@@ -868,7 +868,7 @@ true
 ;
 }
 }
-PRUint16
+uint16_t
 nsDOMNavigationTiming
 :
 :

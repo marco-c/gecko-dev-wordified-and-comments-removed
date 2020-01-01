@@ -183,7 +183,7 @@ nsCString
 &
 aQuotaETLDplus1DomainDBKey
 const
-PRUint32
+uint32_t
 &
 aStorageType
 )
@@ -295,7 +295,7 @@ const
 bool
 &
 aSessionOnly
-PRUint32
+uint32_t
 *
 aLength
 nsresult
@@ -342,7 +342,7 @@ bool
 &
 aSessionOnly
 const
-PRUint32
+uint32_t
 &
 aIndex
 nsString
@@ -646,7 +646,7 @@ const
 bool
 &
 aSessionOnly
-PRInt32
+int32_t
 *
 aOldCount
 nsresult

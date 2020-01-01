@@ -167,7 +167,7 @@ aNode
 nsIDOMNode
 *
 aParent
-PRInt32
+int32_t
 aOffset
 nsIEditor
 *
@@ -396,7 +396,7 @@ NS_ENSURE_STATE
 parent
 )
 ;
-PRUint32
+uint32_t
 count
 =
 parent
@@ -410,7 +410,7 @@ if
 (
 mOffset
 >
-PRInt32
+int32_t
 (
 count
 )

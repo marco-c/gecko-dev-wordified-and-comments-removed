@@ -23,9 +23,9 @@ nsRandomGenerator
 :
 GenerateRandomBytes
 (
-PRUint32
+uint32_t
 aLength
-PRUint8
+uint8_t
 *
 *
 aBuffer
@@ -36,13 +36,13 @@ NS_ENSURE_ARG_POINTER
 aBuffer
 )
 ;
-PRUint8
+uint8_t
 *
 buf
 =
 reinterpret_cast
 <
-PRUint8
+uint8_t
 *
 >
 (

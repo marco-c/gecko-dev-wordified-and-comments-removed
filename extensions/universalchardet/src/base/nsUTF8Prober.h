@@ -65,7 +65,7 @@ const
 char
 *
 aBuf
-PRUint32
+uint32_t
 aLen
 )
 ;
@@ -115,7 +115,7 @@ mCodingSM
 nsProbingState
 mState
 ;
-PRUint32
+uint32_t
 mNumOfMBChar
 ;
 }

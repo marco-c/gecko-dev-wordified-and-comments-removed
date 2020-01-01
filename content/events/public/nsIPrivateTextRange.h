@@ -86,7 +86,7 @@ TEXTRANGE_SELECTEDCONVERTEDTEXT
 NS_IMETHOD
 GetRangeStart
 (
-PRUint16
+uint16_t
 *
 aRangeStart
 )
@@ -96,7 +96,7 @@ aRangeStart
 NS_IMETHOD
 GetRangeEnd
 (
-PRUint16
+uint16_t
 *
 aRangeEnd
 )
@@ -106,7 +106,7 @@ aRangeEnd
 NS_IMETHOD
 GetRangeType
 (
-PRUint16
+uint16_t
 *
 aRangeType
 )
@@ -164,7 +164,7 @@ NS_IPRIVATETEXTRANGELIST_IID
 )
 NS_IMETHOD_
 (
-PRUint16
+uint16_t
 )
 GetLength
 (
@@ -181,7 +181,7 @@ nsIPrivateTextRange
 )
 Item
 (
-PRUint16
+uint16_t
 aIndex
 )
 =

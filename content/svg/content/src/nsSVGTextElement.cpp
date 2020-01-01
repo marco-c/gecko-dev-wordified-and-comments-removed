@@ -619,7 +619,7 @@ nsSVGTextElement
 :
 GetNumberOfChars
 (
-PRInt32
+int32_t
 *
 _retval
 )
@@ -705,9 +705,9 @@ nsSVGTextElement
 :
 GetSubStringLength
 (
-PRUint32
+uint32_t
 charnum
-PRUint32
+uint32_t
 nchars
 float
 *
@@ -737,7 +737,7 @@ metrics
 return
 NS_OK
 ;
-PRUint32
+uint32_t
 charcount
 =
 metrics
@@ -796,7 +796,7 @@ nsSVGTextElement
 :
 GetStartPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -842,7 +842,7 @@ nsSVGTextElement
 :
 GetEndPositionOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGPoint
 *
@@ -888,7 +888,7 @@ nsSVGTextElement
 :
 GetExtentOfChar
 (
-PRUint32
+uint32_t
 charnum
 nsIDOMSVGRect
 *
@@ -934,7 +934,7 @@ nsSVGTextElement
 :
 GetRotationOfChar
 (
-PRUint32
+uint32_t
 charnum
 float
 *
@@ -984,7 +984,7 @@ GetCharNumAtPosition
 nsIDOMSVGPoint
 *
 point
-PRInt32
+int32_t
 *
 _retval
 )
@@ -1047,9 +1047,9 @@ nsSVGTextElement
 :
 SelectSubString
 (
-PRUint32
+uint32_t
 charnum
-PRUint32
+uint32_t
 nchars
 )
 {

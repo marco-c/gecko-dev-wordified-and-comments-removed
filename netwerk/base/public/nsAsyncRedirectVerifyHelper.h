@@ -102,7 +102,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-PRUint32
+uint32_t
 flags
 )
 ;
@@ -115,7 +115,7 @@ oldChan
 nsIChannel
 *
 newChan
-PRUint32
+uint32_t
 flags
 bool
 synchronize
@@ -137,7 +137,7 @@ nsIChannel
 >
 mNewChan
 ;
-PRUint32
+uint32_t
 mFlags
 ;
 bool
@@ -152,7 +152,7 @@ mCallbackThread
 bool
 mCallbackInitiated
 ;
-PRInt32
+int32_t
 mExpectedCallbacks
 ;
 nsresult

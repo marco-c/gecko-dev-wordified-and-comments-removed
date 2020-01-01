@@ -27,7 +27,7 @@ nsTSubstring_CharT
 base_string_type
 ;
 typedef
-PRUint32
+uint32_t
 size_type
 ;
 public
@@ -97,7 +97,7 @@ WriteTo
 char_type
 *
 buf
-PRUint32
+uint32_t
 bufLen
 )
 const

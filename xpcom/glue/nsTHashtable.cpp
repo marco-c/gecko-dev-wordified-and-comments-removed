@@ -14,7 +14,7 @@ table
 PLDHashEntryHdr
 *
 entry
-PRUint32
+uint32_t
 ordinal
 void
 *

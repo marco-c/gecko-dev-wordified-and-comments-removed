@@ -2067,7 +2067,7 @@ nsIClassInfo
 )
 )
 ;
-PRUint32
+uint32_t
 classInfoFlags
 ;
 bool
@@ -5148,7 +5148,7 @@ sciProto
 ifdef
 DEBUG_slimwrappers
 static
-PRUint32
+uint32_t
 sMorphedSlimWrappers
 ;
 #
@@ -6040,7 +6040,7 @@ this
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -9896,7 +9896,7 @@ const
 mArgv
 ;
 const
-PRUint32
+uint32_t
 mArgc
 ;
 JS_ALWAYS_INLINE
@@ -10313,10 +10313,10 @@ GetWrapper
 mode
 )
 ;
-PRUint32
+uint32_t
 secFlag
 ;
-PRUint32
+uint32_t
 secAction
 ;
 switch
@@ -12284,7 +12284,7 @@ u8
 =
 NS_MIN
 <
-PRUint32
+uint32_t
 >
 (
 mArgc
@@ -13649,7 +13649,7 @@ Invoke
 (
 )
 {
-PRUint32
+uint32_t
 argc
 =
 mDispatchParams
@@ -14195,7 +14195,7 @@ XPCWrappedNative
 :
 DebugDump
 (
-PRInt16
+int16_t
 depth
 )
 {
@@ -14396,7 +14396,7 @@ of
 x
 "
 (
-PRUint32
+uint32_t
 )
 mScriptableInfo
 -
@@ -14615,7 +14615,7 @@ GetInterfaceArray
 (
 )
 ;
-PRUint16
+uint16_t
 count
 =
 set
@@ -14701,7 +14701,7 @@ else
 {
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -14928,7 +14928,7 @@ GetSet
 (
 )
 ;
-PRUint16
+uint16_t
 count
 =
 set
@@ -14940,7 +14940,7 @@ GetInterfaceCount
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -15441,7 +15441,7 @@ n
 "
 )
 ;
-PRUint16
+uint16_t
 count
 =
 set
@@ -15453,7 +15453,7 @@ GetInterfaceCount
 ;
 for
 (
-PRUint16
+uint16_t
 i
 =
 0
@@ -15796,12 +15796,12 @@ MembersAreTheSame
 XPCNativeInterface
 *
 iface1
-PRUint16
+uint16_t
 memberIndex1
 XPCNativeInterface
 *
 iface2
-PRUint16
+uint16_t
 memberIndex2
 )
 {
@@ -15851,7 +15851,7 @@ GetMemberAt
 memberIndex2
 )
 ;
-PRUint16
+uint16_t
 index1
 =
 member1
@@ -15861,7 +15861,7 @@ GetIndex
 (
 )
 ;
-PRUint16
+uint16_t
 index2
 =
 member2
@@ -16518,7 +16518,7 @@ XPCJSRuntime
 IDX_QUERY_INTERFACE
 )
 ;
-PRUint16
+uint16_t
 ifaceCount
 =
 set
@@ -16528,7 +16528,7 @@ GetInterfaceCount
 (
 )
 ;
-PRUint16
+uint16_t
 i
 j
 k
@@ -16658,7 +16658,7 @@ GetName
 (
 )
 ;
-PRUint16
+uint16_t
 memberCountOuter
 =
 ifaceOuter
@@ -16799,7 +16799,7 @@ memberOuterName
 )
 ;
 }
-PRUint16
+uint16_t
 memberCountInner
 =
 ifaceInner
@@ -17223,7 +17223,7 @@ rv
 ifdef
 DEBUG_slimwrappers
 static
-PRUint32
+uint32_t
 sSlimWrappers
 ;
 #
@@ -17520,7 +17520,7 @@ return
 true
 ;
 }
-PRUint32
+uint32_t
 interfacesBitmap
 =
 classInfoHelper

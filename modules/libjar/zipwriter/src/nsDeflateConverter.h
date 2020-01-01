@@ -101,7 +101,7 @@ mLevel
 }
 nsDeflateConverter
 (
-PRInt32
+int32_t
 level
 )
 {
@@ -129,10 +129,10 @@ WRAP_NONE
 WrapMode
 mWrapMode
 ;
-PRUint32
+uint32_t
 mOffset
 ;
-PRInt32
+int32_t
 mLevel
 ;
 nsCOMPtr

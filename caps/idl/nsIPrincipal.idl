@@ -1919,12 +1919,12 @@ appStatus
 C
 +
 +
-PRUint16
+uint16_t
 GetAppStatus
 (
 )
 {
-PRUint16
+uint16_t
 appStatus
 ;
 nsresult

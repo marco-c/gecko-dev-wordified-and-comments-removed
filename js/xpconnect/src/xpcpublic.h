@@ -125,7 +125,7 @@ define
 BAD_TLS_INDEX
 (
 (
-PRUint32
+uint32_t
 )
 -
 1
@@ -857,7 +857,7 @@ xpc_MarkInCCGeneration
 nsISupports
 *
 aVariant
-PRUint32
+uint32_t
 aGeneration
 )
 ;
@@ -1019,9 +1019,9 @@ cx
 JSObject
 *
 proto
-PRUint32
+uint32_t
 flags
-PRUint32
+uint32_t
 interfaceCount
 const
 nsIID

@@ -129,7 +129,7 @@ const
 nsAString
 &
 aAlertCookie
-PRUint32
+uint32_t
 aAlertListenerKey
 )
 :
@@ -169,10 +169,10 @@ nsISupports
 aContext
 nsresult
 aStatus
-PRUint32
+uint32_t
 aLength
 const
-PRUint8
+uint8_t
 *
 aResult
 )

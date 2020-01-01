@@ -608,7 +608,7 @@ false
 ;
 }
 virtual
-PRInt32
+int32_t
 GetMaxTextureSize
 (
 )
@@ -782,7 +782,7 @@ this
 ;
 }
 virtual
-PRInt32
+int32_t
 GetMaxTextureSize
 (
 )

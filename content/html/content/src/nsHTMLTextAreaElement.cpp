@@ -385,7 +385,7 @@ Click
 NS_IMETHOD
 GetTabIndex
 (
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -393,7 +393,7 @@ aTabIndex
 NS_IMETHOD
 SetTabIndex
 (
-PRInt32
+int32_t
 aTabIndex
 )
 ;
@@ -497,7 +497,7 @@ aInput
 ;
 NS_IMETHOD_
 (
-PRUint32
+uint32_t
 )
 GetType
 (
@@ -595,7 +595,7 @@ const
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetCols
 (
@@ -603,7 +603,7 @@ GetCols
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetWrapCols
 (
@@ -611,7 +611,7 @@ GetWrapCols
 ;
 NS_IMETHOD_
 (
-PRInt32
+int32_t
 )
 GetRows
 (
@@ -802,7 +802,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -831,7 +831,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -876,7 +876,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -921,7 +921,7 @@ virtual
 nsresult
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -1076,10 +1076,10 @@ aUserInput
 nsresult
 GetSelectionRange
 (
-PRInt32
+int32_t
 *
 aSelectionStart
-PRInt32
+int32_t
 *
 aSelectionEnd
 )
@@ -1096,7 +1096,7 @@ virtual
 nsresult
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -1577,7 +1577,7 @@ aWithMouse
 bool
 *
 aIsFocusable
-PRInt32
+int32_t
 *
 aTabIndex
 )
@@ -2197,7 +2197,7 @@ nsHTMLTextAreaElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -2325,7 +2325,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -3048,7 +3048,7 @@ nsHTMLTextAreaElement
 :
 GetTextLength
 (
-PRInt32
+int32_t
 *
 aTextLength
 )
@@ -3088,7 +3088,7 @@ nsHTMLTextAreaElement
 :
 GetSelectionStart
 (
-PRInt32
+int32_t
 *
 aSelectionStart
 )
@@ -3098,7 +3098,7 @@ NS_ENSURE_ARG_POINTER
 aSelectionStart
 )
 ;
-PRInt32
+int32_t
 selEnd
 ;
 nsresult
@@ -3151,7 +3151,7 @@ nsHTMLTextAreaElement
 :
 SetSelectionStart
 (
-PRInt32
+int32_t
 aSelectionStart
 )
 {
@@ -3195,7 +3195,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 start
 end
 ;
@@ -3246,7 +3246,7 @@ nsHTMLTextAreaElement
 :
 GetSelectionEnd
 (
-PRInt32
+int32_t
 *
 aSelectionEnd
 )
@@ -3256,7 +3256,7 @@ NS_ENSURE_ARG_POINTER
 aSelectionEnd
 )
 ;
-PRInt32
+int32_t
 selStart
 ;
 nsresult
@@ -3309,7 +3309,7 @@ nsHTMLTextAreaElement
 :
 SetSelectionEnd
 (
-PRInt32
+int32_t
 aSelectionEnd
 )
 {
@@ -3353,7 +3353,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 start
 end
 ;
@@ -3404,10 +3404,10 @@ nsHTMLTextAreaElement
 :
 GetSelectionRange
 (
-PRInt32
+int32_t
 *
 aSelectionStart
-PRInt32
+int32_t
 *
 aSelectionEnd
 )
@@ -3757,7 +3757,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+int32_t
 start
 end
 ;
@@ -3800,9 +3800,9 @@ nsHTMLTextAreaElement
 :
 SetSelectionRange
 (
-PRInt32
+int32_t
 aSelectionStart
-PRInt32
+int32_t
 aSelectionEnd
 const
 nsAString
@@ -4569,7 +4569,7 @@ nsHTMLTextAreaElement
 :
 BeforeSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -4658,7 +4658,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
+int32_t
 )
 {
 ContentChanged
@@ -4682,7 +4682,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 )
 {
 ContentChanged
@@ -4706,7 +4706,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -4770,7 +4770,7 @@ nsHTMLTextAreaElement
 :
 AfterSetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -5071,7 +5071,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 maxLength
 =
 -
@@ -5096,7 +5096,7 @@ return
 false
 ;
 }
-PRInt32
+int32_t
 textLength
 =
 -
@@ -5247,13 +5247,13 @@ VALIDITY_STATE_TOO_LONG
 nsXPIDLString
 message
 ;
-PRInt32
+int32_t
 maxLength
 =
 -
 1
 ;
-PRInt32
+int32_t
 textLength
 =
 -
@@ -5451,7 +5451,7 @@ false
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsHTMLTextAreaElement
 :
@@ -5478,7 +5478,7 @@ if
 attr
 )
 {
-PRInt32
+int32_t
 cols
 =
 attr
@@ -5522,7 +5522,7 @@ DEFAULT_COLS
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsHTMLTextAreaElement
 :
@@ -5567,7 +5567,7 @@ GetCols
 }
 NS_IMETHODIMP_
 (
-PRInt32
+int32_t
 )
 nsHTMLTextAreaElement
 :
@@ -5608,7 +5608,7 @@ nsAttrValue
 eInteger
 )
 {
-PRInt32
+int32_t
 rows
 =
 attr

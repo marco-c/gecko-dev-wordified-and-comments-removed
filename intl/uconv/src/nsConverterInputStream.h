@@ -156,7 +156,7 @@ Close
 }
 private
 :
-PRUint32
+uint32_t
 Fill
 (
 nsresult
@@ -191,13 +191,13 @@ mInput
 nsresult
 mLastErrorCode
 ;
-PRUint32
+uint32_t
 mLeftOverBytes
 ;
-PRUint32
+uint32_t
 mUnicharDataOffset
 ;
-PRUint32
+uint32_t
 mUnicharDataLength
 ;
 PRUnichar

@@ -60,11 +60,11 @@ AppendTextTo
 nsAString
 &
 aText
-PRUint32
+uint32_t
 aStartOffset
 =
 0
-PRUint32
+uint32_t
 aLength
 =
 PR_UINT32_MAX

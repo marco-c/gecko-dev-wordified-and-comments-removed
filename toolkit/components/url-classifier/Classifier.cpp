@@ -277,7 +277,7 @@ NS_ENSURE_STATE
 rg
 )
 ;
-PRUint8
+uint8_t
 *
 temp
 ;
@@ -347,7 +347,7 @@ rv
 rv
 )
 ;
-PRUint32
+uint32_t
 written
 ;
 rv
@@ -368,7 +368,7 @@ mHashKey
 )
 sizeof
 (
-PRUint32
+uint32_t
 )
 &
 written
@@ -500,7 +500,7 @@ inputStream
 buffer
 sizeof
 (
-PRUint32
+uint32_t
 )
 )
 ;
@@ -1160,7 +1160,7 @@ cacheArray
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1212,7 +1212,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1330,7 +1330,7 @@ ToUint32
 endif
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1411,7 +1411,7 @@ result
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRInt64
+int64_t
 age
 ;
 bool
@@ -1448,7 +1448,7 @@ age
 }
 else
 {
-PRInt64
+int64_t
 now
 =
 (
@@ -2248,7 +2248,7 @@ sbstore
 )
 )
 ;
-PRInt32
+int32_t
 dot
 =
 leafName
@@ -2548,7 +2548,7 @@ NS_ERROR_FAILURE
 }
 nsTArray
 <
-PRUint32
+uint32_t
 >
 AddPrefixHashes
 ;
@@ -3223,7 +3223,7 @@ if
 updateFreshness
 )
 {
-PRInt64
+int64_t
 now
 =
 (
@@ -3426,7 +3426,7 @@ const
 nsACString
 &
 aTableName
-PRInt32
+int32_t
 aCount
 PrefixArray
 *
@@ -3454,7 +3454,7 @@ NS_ERROR_FAILURE
 }
 nsTArray
 <
-PRUint32
+uint32_t
 >
 prefixes
 ;
@@ -3476,7 +3476,7 @@ rv
 rv
 )
 ;
-PRInt32
+int32_t
 idx
 =
 prefixes
@@ -3497,7 +3497,7 @@ idx
 =
 nsTArray
 <
-PRUint32
+uint32_t
 >
 :
 :
@@ -3532,7 +3532,7 @@ aCount
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0

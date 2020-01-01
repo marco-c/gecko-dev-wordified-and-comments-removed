@@ -788,7 +788,7 @@ aIsFinal
 {
 for
 (
-PRInt32
+int32_t
 q
 =
 mQuerySets
@@ -1079,7 +1079,7 @@ mPool
 }
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1202,7 +1202,7 @@ cb
 )
 ;
 {
-PRUint32
+uint32_t
 i
 count
 =
@@ -1262,7 +1262,7 @@ set
 mCompiledQuery
 )
 ;
-PRUint16
+uint16_t
 j
 rulesCount
 =
@@ -1534,7 +1534,7 @@ aFilter
 return
 NS_ERROR_NULL_POINTER
 ;
-PRInt32
+int32_t
 count
 =
 mQuerySets
@@ -1545,7 +1545,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 q
 =
 0
@@ -1568,7 +1568,7 @@ mQuerySets
 q
 ]
 ;
-PRInt16
+int16_t
 rulecount
 =
 queryset
@@ -1580,7 +1580,7 @@ RuleCount
 ;
 for
 (
-PRInt16
+int16_t
 r
 =
 0
@@ -1657,7 +1657,7 @@ Rebuild
 (
 )
 {
-PRInt32
+int32_t
 i
 ;
 for
@@ -2324,7 +2324,7 @@ do_QueryInterface
 aQueryNode
 )
 ;
-PRInt32
+int32_t
 count
 =
 mQuerySets
@@ -2335,7 +2335,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 q
 =
 0
@@ -2391,7 +2391,7 @@ if
 insertionPoints
 )
 {
-PRUint32
+uint32_t
 count
 =
 insertionPoints
@@ -2403,7 +2403,7 @@ Count
 ;
 for
 (
-PRUint32
+uint32_t
 t
 =
 0
@@ -2511,7 +2511,7 @@ rv
 =
 NS_OK
 ;
-PRInt16
+int16_t
 ruleindex
 ;
 nsTemplateRule
@@ -2849,7 +2849,7 @@ Tag
 return
 NS_OK
 ;
-PRInt32
+int32_t
 findpriority
 =
 aQuerySet
@@ -2918,7 +2918,7 @@ while
 oldmatch
 )
 {
-PRInt32
+int32_t
 priority
 =
 oldmatch
@@ -3936,12 +3936,12 @@ aDocument
 Element
 *
 aElement
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 {
@@ -4031,7 +4031,7 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
+int32_t
 aIndexInContainer
 nsIContent
 *
@@ -4625,7 +4625,7 @@ datasources
 aDataSources
 )
 ;
-PRUint32
+uint32_t
 first
 =
 0
@@ -4676,7 +4676,7 @@ Length
 )
 break
 ;
-PRUint32
+uint32_t
 last
 =
 first
@@ -5355,12 +5355,12 @@ nsTemplateRule
 *
 *
 aMatchedRule
-PRInt16
+int16_t
 *
 aRuleIndex
 )
 {
-PRInt16
+int16_t
 count
 =
 aQuerySet
@@ -5372,7 +5372,7 @@ RuleCount
 ;
 for
 (
-PRInt16
+int16_t
 r
 =
 0
@@ -6431,7 +6431,7 @@ if
 kids
 )
 {
-PRUint32
+uint32_t
 length
 ;
 kids
@@ -6445,7 +6445,7 @@ length
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -6843,7 +6843,7 @@ canUseTemplate
 =
 false
 ;
-PRInt32
+int32_t
 priority
 =
 0
@@ -6875,7 +6875,7 @@ canUseTemplate
 {
 for
 (
-PRInt32
+int32_t
 q
 =
 mQuerySets
@@ -6938,7 +6938,7 @@ nsTemplateQuerySet
 aQuerySet
 bool
 aIsQuerySet
-PRInt32
+int32_t
 *
 aPriority
 bool
@@ -9359,7 +9359,7 @@ Length
 )
 )
 {
-PRUint32
+uint32_t
 i
 =
 elements
@@ -9386,7 +9386,7 @@ RemoveElementAt
 i
 )
 ;
-PRUint32
+uint32_t
 count
 =
 element
@@ -9608,7 +9608,7 @@ Assign
 Substring
 (
 aVariable
-PRUint32
+uint32_t
 (
 4
 )
@@ -9839,7 +9839,7 @@ bool
 aIsNew
 )
 {
-PRInt32
+int32_t
 priority
 =
 aMatch
@@ -9851,7 +9851,7 @@ QuerySetPriority
 +
 1
 ;
-PRInt32
+int32_t
 activePriority
 =
 -

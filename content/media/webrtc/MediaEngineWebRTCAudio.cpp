@@ -620,7 +620,7 @@ MediaEngineWebRTCAudioSource
 :
 Snapshot
 (
-PRUint32
+uint32_t
 aDuration
 nsIDOMFile
 *

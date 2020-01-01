@@ -106,7 +106,7 @@ return
 mSize
 ;
 }
-PRInt32
+int32_t
 Width
 (
 )
@@ -118,7 +118,7 @@ mSize
 width
 ;
 }
-PRInt32
+int32_t
 Height
 (
 )
@@ -130,7 +130,7 @@ mSize
 height
 ;
 }
-PRInt32
+int32_t
 Stride
 (
 )
@@ -152,7 +152,7 @@ return
 mData
 ;
 }
-PRInt32
+int32_t
 GetDataSize
 (
 )

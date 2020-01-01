@@ -132,11 +132,11 @@ nsTimeRanges
 h
 "
 typedef
-PRUint16
+uint16_t
 nsMediaNetworkState
 ;
 typedef
-PRUint16
+uint16_t
 nsMediaReadyState
 ;
 namespace
@@ -261,7 +261,7 @@ virtual
 bool
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -278,7 +278,7 @@ aResult
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -306,7 +306,7 @@ virtual
 nsresult
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -326,7 +326,7 @@ virtual
 nsresult
 UnsetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -380,9 +380,9 @@ NotifyOwnerDocumentActivityChanged
 void
 MetadataLoaded
 (
-PRUint32
+uint32_t
 aChannels
-PRUint32
+uint32_t
 aRate
 bool
 aHasAudio
@@ -538,7 +538,7 @@ DispatchAudioAvailableEvent
 float
 *
 aFrameBuffer
-PRUint32
+uint32_t
 aFrameBufferLength
 float
 aTime
@@ -887,7 +887,7 @@ NotifyAudioAvailable
 float
 *
 aFrameBuffer
-PRUint32
+uint32_t
 aFrameBufferLength
 float
 aTime
@@ -897,12 +897,12 @@ virtual
 bool
 IsNodeOfType
 (
-PRUint32
+uint32_t
 aFlags
 )
 const
 ;
-PRUint32
+uint32_t
 GetCurrentLoadID
 (
 )
@@ -1017,7 +1017,7 @@ PRUnichar
 aParams
 =
 nullptr
-PRUint32
+uint32_t
 aParamCount
 =
 0
@@ -1204,7 +1204,7 @@ aChannel
 nsIChannel
 *
 aNewChannel
-PRUint32
+uint32_t
 aFlags
 )
 ;
@@ -1272,7 +1272,7 @@ aSourceElement
 void
 Error
 (
-PRUint16
+uint16_t
 aErrorCode
 )
 ;
@@ -1349,7 +1349,7 @@ nsIDOMMediaError
 >
 mError
 ;
-PRUint32
+uint32_t
 mCurrentLoadID
 ;
 nsCOMPtr
@@ -1389,10 +1389,10 @@ mLoadWaitStatus
 double
 mVolume
 ;
-PRUint32
+uint32_t
 mChannels
 ;
-PRUint32
+uint32_t
 mRate
 ;
 static

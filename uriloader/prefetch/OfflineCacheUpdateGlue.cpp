@@ -531,7 +531,7 @@ UpdateStateChanged
 nsIOfflineCacheUpdate
 *
 aUpdate
-PRUint32
+uint32_t
 state
 )
 {

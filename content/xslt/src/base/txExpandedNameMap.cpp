@@ -72,7 +72,7 @@ void
 aValue
 )
 {
-PRUint32
+uint32_t
 pos
 =
 mItems
@@ -169,7 +169,7 @@ aOldValue
 =
 nullptr
 ;
-PRUint32
+uint32_t
 pos
 =
 mItems
@@ -275,7 +275,7 @@ aKey
 )
 const
 {
-PRUint32
+uint32_t
 pos
 =
 mItems
@@ -331,7 +331,7 @@ value
 =
 nullptr
 ;
-PRUint32
+uint32_t
 pos
 =
 mItems

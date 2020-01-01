@@ -110,7 +110,7 @@ nsHTMLFrameSetElement
 :
 SetAttr
 (
-PRInt32
+int32_t
 aNameSpaceID
 nsIAtom
 *
@@ -146,7 +146,7 @@ aNameSpaceID
 kNameSpaceID_None
 )
 {
-PRInt32
+int32_t
 oldRows
 =
 mNumRows
@@ -193,7 +193,7 @@ aNameSpaceID
 kNameSpaceID_None
 )
 {
-PRInt32
+int32_t
 oldCols
 =
 mNumCols
@@ -250,7 +250,7 @@ nsHTMLFrameSetElement
 :
 GetRowSpec
 (
-PRInt32
+int32_t
 *
 aNumValues
 const
@@ -437,7 +437,7 @@ nsHTMLFrameSetElement
 :
 GetColSpec
 (
-PRInt32
+int32_t
 *
 aNumValues
 const
@@ -624,7 +624,7 @@ nsHTMLFrameSetElement
 :
 ParseAttribute
 (
-PRInt32
+int32_t
 aNamespaceID
 nsIAtom
 *
@@ -734,7 +734,7 @@ const
 nsIAtom
 *
 aAttribute
-PRInt32
+int32_t
 aModType
 )
 const
@@ -792,7 +792,7 @@ const
 nsAString
 &
 aValue
-PRInt32
+int32_t
 &
 aNumSpecs
 nsFramesetSpec
@@ -901,7 +901,7 @@ nsFramesetSpec
 )
 )
 ;
-PRInt32
+int32_t
 commaX
 =
 spec
@@ -911,7 +911,7 @@ FindChar
 sComma
 )
 ;
-PRInt32
+int32_t
 count
 =
 1
@@ -985,12 +985,12 @@ OwnerDoc
 )
 )
 ;
-PRInt32
+int32_t
 start
 =
 0
 ;
-PRInt32
+int32_t
 specLen
 =
 spec
@@ -1001,7 +1001,7 @@ Length
 ;
 for
 (
-PRInt32
+int32_t
 i
 =
 0
@@ -1048,7 +1048,7 @@ somehow
 "
 )
 ;
-PRInt32
+int32_t
 end
 =
 (
@@ -1087,7 +1087,7 @@ end
 start
 )
 {
-PRInt32
+int32_t
 numberEnd
 =
 end

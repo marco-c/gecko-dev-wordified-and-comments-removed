@@ -354,13 +354,13 @@ in
 ACString
 aHostName
 in
-PRInt32
+int32_t
 aPort
 in
 nsIX509Cert
 aCert
 in
-PRUint32
+uint32_t
 aOverrideBits
 in
 boolean
@@ -513,13 +513,13 @@ in
 ACString
 aHostName
 in
-PRInt32
+int32_t
 aPort
 in
 nsIX509Cert
 aCert
 out
-PRUint32
+uint32_t
 aOverrideBits
 out
 boolean
@@ -642,7 +642,7 @@ in
 ACString
 aHostName
 in
-PRInt32
+int32_t
 aPort
 out
 ACString
@@ -651,7 +651,7 @@ out
 ACString
 aFingerprint
 out
-PRUint32
+uint32_t
 aOverrideBits
 out
 boolean
@@ -745,7 +745,7 @@ in
 ACString
 aHostName
 in
-PRInt32
+int32_t
 aPort
 )
 ;
@@ -796,7 +796,7 @@ void
 getAllOverrideHostsWithPorts
 (
 out
-PRUint32
+uint32_t
 aCount
 [
 array
@@ -850,7 +850,7 @@ given
 certificate
 *
 /
-PRUint32
+uint32_t
 isCertUsedForOverrides
 (
 in

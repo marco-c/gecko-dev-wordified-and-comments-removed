@@ -173,7 +173,7 @@ AsyncOpen
 (
 URI
 uri
-PRUint64
+uint64_t
 startPos
 nsCString
 entityID
@@ -185,7 +185,7 @@ loadContext
 ;
 ConnectChannel
 (
-PRUint32
+uint32_t
 channelId
 )
 ;
@@ -207,7 +207,7 @@ child
 :
 OnStartRequest
 (
-PRInt32
+int32_t
 aContentLength
 nsCString
 aContentType
@@ -223,9 +223,9 @@ OnDataAvailable
 (
 nsCString
 data
-PRUint32
+uint32_t
 offset
-PRUint32
+uint32_t
 count
 )
 ;
