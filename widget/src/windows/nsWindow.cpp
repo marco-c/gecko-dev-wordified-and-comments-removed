@@ -20073,6 +20073,10 @@ WM_KILLFOCUS
 if
 (
 sJustGotDeactivate
+|
+|
+!
+wParam
 )
 {
 result
