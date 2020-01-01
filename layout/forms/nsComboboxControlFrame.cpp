@@ -2586,9 +2586,13 @@ aRenderingContext
 ;
 }
 dropdownContentWidth
--
 =
+NSCoordSaturatingSubtract
+(
+dropdownContentWidth
 scrollbarWidth
+nscoord_MAX
+)
 ;
 displayWidth
 =
