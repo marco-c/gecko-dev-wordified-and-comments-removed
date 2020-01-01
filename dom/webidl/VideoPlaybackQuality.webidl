@@ -172,11 +172,6 @@ VideoPlaybackQuality
 {
 readonly
 attribute
-DOMHighResTimeStamp
-creationTime
-;
-readonly
-attribute
 unsigned
 long
 totalVideoFrames
