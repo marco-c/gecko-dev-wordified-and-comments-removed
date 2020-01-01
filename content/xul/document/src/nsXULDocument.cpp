@@ -17387,6 +17387,14 @@ GetDocument
 )
 )
 ;
+if
+(
+!
+domDocument
+)
+return
+NS_ERROR_FAILURE
+;
 nsCOMPtr
 <
 nsIDOMElement
