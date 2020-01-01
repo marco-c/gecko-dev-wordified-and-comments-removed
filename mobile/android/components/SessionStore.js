@@ -1361,7 +1361,7 @@ restoreLastSession
 (
 data
 .
-restoringOOM
+normalRestore
 data
 .
 sessionString
@@ -5732,7 +5732,7 @@ restoreLastSession
 function
 ss_restoreLastSession
 (
-aRestoringOOM
+aNormalRestore
 aSessionString
 )
 {
@@ -5805,7 +5805,7 @@ try
 if
 (
 !
-aRestoringOOM
+aNormalRestore
 &
 &
 !
