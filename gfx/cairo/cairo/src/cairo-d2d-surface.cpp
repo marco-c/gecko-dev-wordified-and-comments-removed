@@ -2030,6 +2030,7 @@ i
 (
 FLOAT
 )
+(
 style
 -
 >
@@ -2037,6 +2038,12 @@ dash
 [
 i
 ]
+/
+style
+-
+>
+line_width
+)
 ;
 }
 }
