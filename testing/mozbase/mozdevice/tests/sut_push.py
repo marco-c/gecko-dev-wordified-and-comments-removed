@@ -88,10 +88,19 @@ sdcard
 foobar
 %
 s
+\
+r
+\
+n
+%
+s
 "
 %
+(
 len
 (
+pushfile
+)
 pushfile
 )
             
@@ -368,6 +377,12 @@ baz
 s
 %
 s
+\
+r
+\
+n
+%
+s
 "
 %
                                   
@@ -386,6 +401,8 @@ len
 (
 pushfile
 )
+                                   
+pushfile
 )
                                   
 expectedFileResponse
@@ -452,6 +469,12 @@ baz
 s
 %
 s
+\
+r
+\
+n
+%
+s
 "
 %
                                   
@@ -470,6 +493,8 @@ len
 (
 pushfile
 )
+                                   
+pushfile
 )
                                   
 "
