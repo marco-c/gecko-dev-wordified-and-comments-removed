@@ -6274,13 +6274,6 @@ npprint
 ;
 :
 :
-CGContextSaveGState
-(
-cgContext
-)
-;
-:
-:
 CGContextTranslateCTM
 (
 cgContext
@@ -6381,13 +6374,6 @@ image
 CGImageRelease
 (
 image
-)
-;
-:
-:
-CGContextRestoreGState
-(
-cgContext
 )
 ;
 :
