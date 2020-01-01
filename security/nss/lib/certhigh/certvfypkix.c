@@ -397,10 +397,6 @@ certUsageSSLServer
 ekuIndexSSLServer
 }
 {
-certUsageSSLServerWithStepUp
-ekuIndexSSLServer
-}
-{
 certUsageSSLCA
 ekuIndexSSLServer
 }
@@ -438,10 +434,6 @@ ekuIndexUnknown
 }
 }
 ;
-#
-define
-CERT_USAGE_EKU_STRING_MAPS_TOTAL
-12
 static
 PKIX_Error
 *
@@ -520,7 +512,10 @@ for
 ;
 i
 <
-CERT_USAGE_EKU_STRING_MAPS_TOTAL
+PR_ARRAY_SIZE
+(
+certUsageEkuStringMap
+)
 ;
 i
 +

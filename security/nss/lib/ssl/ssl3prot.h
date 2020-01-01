@@ -316,6 +316,9 @@ client_key_exchange
 finished
 =
 20
+next_proto
+=
+67
 }
 SSL3HandshakeType
 ;

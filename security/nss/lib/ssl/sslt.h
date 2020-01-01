@@ -378,6 +378,9 @@ endif
 ssl_session_ticket_xtn
 =
 35
+ssl_next_proto_neg_xtn
+=
+13172
 ssl_renegotiation_info_xtn
 =
 0xff01
@@ -387,6 +390,6 @@ SSLExtensionType
 #
 define
 SSL_MAX_EXTENSIONS
-5
+6
 #
 endif
