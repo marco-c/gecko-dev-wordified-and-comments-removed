@@ -129,6 +129,10 @@ protocol
 PSms
 ;
 include
+protocol
+PBlob
+;
+include
 SmsTypes
 ;
 namespace

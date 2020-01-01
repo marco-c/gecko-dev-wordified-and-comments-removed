@@ -129,6 +129,10 @@ protocol
 PSms
 ;
 include
+protocol
+PBlob
+;
+include
 SmsTypes
 ;
 namespace
@@ -173,7 +177,7 @@ response
 struct
 ReplyMessageSend
 {
-SmsMessageData
+MobileMessageData
 messageData
 ;
 }
@@ -189,7 +193,7 @@ error
 struct
 ReplyGetMessage
 {
-SmsMessageData
+MobileMessageData
 messageData
 ;
 }
