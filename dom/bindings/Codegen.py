@@ -4123,7 +4123,7 @@ add
 (
 parentDesc
 .
-headerFile
+jsImplParentHeader
 )
         
 def
@@ -62183,7 +62183,7 @@ identifier
 name
 )
 .
-nativeType
+jsImplParent
             
 baseClasses
 =
