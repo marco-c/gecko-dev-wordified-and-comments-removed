@@ -365,18 +365,6 @@ JS_ASSERT
 inCall_
 )
 ;
-if
-(
-stackAdjust_
->
-=
-sizeof
-(
-void
-*
-)
-)
-{
 enoughMemory_
 &
 =
@@ -415,7 +403,6 @@ finish
 (
 )
 ;
-}
 #
 ifdef
 DEBUG
