@@ -18,7 +18,7 @@ utf
 ?
 >
 <
-LinearLayout
+RelativeLayout
 xmlns
 :
 android
@@ -205,6 +205,16 @@ layout_weight
 "
 1
 "
+android
+:
+layout_below
+=
+"
++
+id
+/
+webapp_titlebar
+"
 >
 <
 include
@@ -373,5 +383,5 @@ RelativeLayout
 >
 <
 /
-LinearLayout
+RelativeLayout
 >
