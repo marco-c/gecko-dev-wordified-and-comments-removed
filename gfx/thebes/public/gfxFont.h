@@ -1757,6 +1757,17 @@ gfxGlyphExtents
 >
 mGlyphExtentsArray
 ;
+void
+SanitizeMetrics
+(
+gfxFont
+:
+:
+Metrics
+*
+aMetrics
+)
+;
 }
 ;
 class
