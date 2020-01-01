@@ -522,6 +522,20 @@ xulrunner
 BIN_SUFFIX
 )
 else
+ifeq
+(
+(
+OS_ARCH
+)
+BeOS
+)
+PROGRAM
+=
+xulrunner
+(
+BIN_SUFFIX
+)
+else
 PROGRAM
 =
 xulrunner
@@ -530,6 +544,7 @@ bin
 (
 BIN_SUFFIX
 )
+endif
 endif
 DEFINES
 +
@@ -1150,6 +1165,7 @@ out
 OS2
 WINNT
 Darwin
+BeOS
 (
 OS_ARCH
 )
