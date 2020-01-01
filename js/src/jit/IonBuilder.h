@@ -1561,6 +1561,17 @@ types
 )
 ;
 bool
+needsToMonitorMissingProperties
+(
+types
+:
+:
+StackTypeSet
+*
+types
+)
+;
+bool
 setPropTryCommonSetter
 (
 bool
