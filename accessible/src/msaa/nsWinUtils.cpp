@@ -603,6 +603,14 @@ GetModuleHandleW
 kModuleHandle
 )
 :
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Content
+|
+|
 :
 :
 GetModuleHandleW
