@@ -135,7 +135,7 @@ wchar_t
 void
 "
 "
-reserved
+nsIID
 "
 "
 reserved
