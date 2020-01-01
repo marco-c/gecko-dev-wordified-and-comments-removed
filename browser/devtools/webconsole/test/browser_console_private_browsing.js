@@ -99,6 +99,11 @@ hud
 expectedMessages
 nonPrivateMessage
 ;
+requestLongerTimeout
+(
+2
+)
+;
 start
 (
 )
