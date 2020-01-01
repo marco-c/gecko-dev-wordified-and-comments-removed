@@ -414,6 +414,13 @@ url_bar_text_highlight
 "
 android
 :
+textCursorDrawable
+=
+"
+null
+"
+android
+:
 inputType
 =
 "
