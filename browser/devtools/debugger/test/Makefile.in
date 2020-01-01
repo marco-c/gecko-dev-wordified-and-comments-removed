@@ -211,12 +211,6 @@ edit
 .
 js
 \
-browser_dbg_propertyview
--
-edit2
-.
-js
-\
 browser_dbg_panesize
 .
 js

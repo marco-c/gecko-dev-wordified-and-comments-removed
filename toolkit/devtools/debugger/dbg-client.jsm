@@ -629,6 +629,13 @@ DebugProtocolTypes
 =
 {
 "
+assign
+"
+:
+"
+assign
+"
+"
 attach
 "
 :
