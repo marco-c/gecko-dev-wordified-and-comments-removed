@@ -120,6 +120,11 @@ gfxSharedImageSurface
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+gfxSharedImageSurface
+)
+;
 }
 PRBool
 gfxSharedImageSurface
@@ -179,6 +184,11 @@ Shmem
 aShmem
 )
 {
+MOZ_COUNT_CTOR
+(
+gfxSharedImageSurface
+)
+;
 mSize
 =
 aSize
