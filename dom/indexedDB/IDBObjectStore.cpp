@@ -6231,8 +6231,14 @@ aCx
 JSStructuredCloneWriter
 *
 aWriter
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aObj
 void
 *

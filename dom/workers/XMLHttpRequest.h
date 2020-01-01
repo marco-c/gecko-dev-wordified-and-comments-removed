@@ -930,8 +930,14 @@ aRv
 void
 DispatchPrematureAbortEvent
 (
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aTarget
 uint8_t
 aEventType
