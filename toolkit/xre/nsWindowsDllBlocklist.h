@@ -133,6 +133,14 @@ MAKE_VERSION
 }
 {
 "
+hook
+.
+dll
+"
+ALL_VERSIONS
+}
+{
+"
 mozdllblockingtest
 .
 dll
