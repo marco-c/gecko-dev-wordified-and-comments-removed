@@ -850,6 +850,15 @@ GetRoot
 (
 )
 ;
+if
+(
+!
+root
+)
+{
+return
+;
+}
 #
 ifdef
 MOZ_WIDGET_ANDROID
