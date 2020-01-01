@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIDOMTouchEvent
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -64,7 +71,7 @@ nsDOMTouchList
 MOZ_FINAL
 :
 public
-nsISupports
+nsIDOMTouchList
 public
 nsWrapperCache
 {
@@ -85,6 +92,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsDOMTouchList
 )
+NS_DECL_NSIDOMTOUCHLIST
 nsDOMTouchList
 (
 nsISupports
