@@ -4129,16 +4129,6 @@ sniffers
 "
 #
 define
-NS_DATA_SNIFFER_CATEGORY
-"
-content
--
-sniffing
--
-services
-"
-#
-define
 NS_NSS_ERRORS_SERVICE_CONTRACTID
 "
 mozilla

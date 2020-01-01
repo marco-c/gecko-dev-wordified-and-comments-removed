@@ -140,6 +140,14 @@ aRequest
 )
 ;
 bool
+TryContentSniffers
+(
+nsIRequest
+*
+aRequest
+)
+;
+bool
 SniffForHTML
 (
 nsIRequest
