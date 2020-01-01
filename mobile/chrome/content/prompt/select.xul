@@ -178,6 +178,13 @@ button
 -
 box
 "
+class
+=
+"
+prompt
+-
+buttons
+"
 >
 <
 button
