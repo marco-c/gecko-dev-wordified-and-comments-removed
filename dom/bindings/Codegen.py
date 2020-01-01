@@ -37850,6 +37850,19 @@ to
 private
 .
     
+explicit
+should
+be
+True
+if
+the
+constructor
+should
+be
+marked
+explicit
+.
+    
 baseConstructors
 is
 a
@@ -37903,9 +37916,13 @@ visibility
 "
 private
 "
+explicit
+=
+False
 baseConstructors
 =
 None
+                 
 body
 =
 None
@@ -37931,6 +37948,12 @@ self
 bodyInHeader
 =
 bodyInHeader
+        
+self
+.
+explicit
+=
+explicit
         
 self
 .
@@ -37965,6 +37988,21 @@ decorators
 =
 [
 ]
+        
+if
+self
+.
+explicit
+:
+            
+decorators
+.
+append
+(
+'
+explicit
+'
+)
         
 if
 self
@@ -56700,6 +56738,10 @@ visibility
 "
 public
 "
+            
+explicit
+=
+True
             
 baseConstructors
 =
