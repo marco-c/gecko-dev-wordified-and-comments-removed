@@ -303,3 +303,11 @@ expiration
 ;
 }
 ;
+dictionary
+ConnStatusDict
+{
+DOMString
+status
+;
+}
+;
