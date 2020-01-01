@@ -534,6 +534,16 @@ DeserializeURI
 aURI
 )
 ;
+if
+(
+!
+uri
+)
+{
+return
+false
+;
+}
 nsCOMPtr
 <
 nsIURI
