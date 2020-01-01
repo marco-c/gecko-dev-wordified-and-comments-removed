@@ -203,9 +203,6 @@ removeAttribute
 "
 checked
 "
-"
-true
-"
 )
 ;
 }
