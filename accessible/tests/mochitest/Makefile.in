@@ -478,10 +478,14 @@ test_groupattrs
 .
 xul
 \
-#
+(
+warning
 test_table_indexes
 .
 html
+temporarily
+disabled
+)
 \
 test_nsIAccessible_name
 .
