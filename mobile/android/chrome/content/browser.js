@@ -2512,6 +2512,9 @@ url
 :
 learnMoreUrl
 }
+persistence
+:
+1
 }
 ;
 NativeWindow
