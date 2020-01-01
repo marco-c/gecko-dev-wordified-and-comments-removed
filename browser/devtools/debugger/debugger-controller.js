@@ -5573,6 +5573,15 @@ getScriptByLocation
 aScriptUrl
 )
 ;
+if
+(
+!
+element
+)
+{
+return
+;
+}
 let
 script
 =
