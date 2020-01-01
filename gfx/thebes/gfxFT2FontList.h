@@ -214,6 +214,11 @@ PRUint8
 aBuffer
 )
 ;
+void
+CheckForBrokenFont
+(
+)
+;
 virtual
 void
 SizeOfExcludingThis
