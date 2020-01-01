@@ -4302,6 +4302,9 @@ mPageWidth
 PRInt32
 mPageHeight
 ;
+PRInt32
+mComputedScrollAmount
+;
 }
 mReply
 ;
