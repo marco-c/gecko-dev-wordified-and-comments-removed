@@ -6075,6 +6075,19 @@ CHROME_WINDOW_POPUP
 if
 (
 !
+(
+chromeFlags
+&
+nsIWebBrowserChrome
+:
+:
+CHROME_WINDOW_POPUP
+)
+)
+{
+if
+(
+!
 PL_strcasestr
 (
 aFeatures
@@ -6110,6 +6123,7 @@ nsIWebBrowserChrome
 :
 CHROME_WINDOW_CLOSE
 ;
+}
 if
 (
 aDialog
