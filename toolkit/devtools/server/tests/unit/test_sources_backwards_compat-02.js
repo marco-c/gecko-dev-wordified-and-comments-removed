@@ -104,10 +104,6 @@ request
 )
 )
 ;
-gc
-(
-)
-;
 gClient
 .
 connect
