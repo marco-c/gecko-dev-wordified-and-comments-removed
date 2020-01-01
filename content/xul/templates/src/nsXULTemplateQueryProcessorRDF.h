@@ -664,9 +664,12 @@ RDFBindingSet
 >
 mRuleToBindingsMap
 ;
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsITemplateRDFQuery
+>
 >
 mQueries
 ;
