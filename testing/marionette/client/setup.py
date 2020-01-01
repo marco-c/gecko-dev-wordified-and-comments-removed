@@ -116,6 +116,15 @@ moznetwork
 .
 21
 '
+        
+'
+mozcrash
+>
+=
+0
+.
+5
+'
 ]
 setup
 (
