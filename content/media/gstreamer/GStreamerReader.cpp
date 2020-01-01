@@ -74,6 +74,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+GStreamerLoader
+.
+h
+"
 namespace
 mozilla
 {
@@ -151,6 +158,7 @@ aCrPlane
 ;
 static
 const
+unsigned
 int
 MAX_CHANNELS
 =

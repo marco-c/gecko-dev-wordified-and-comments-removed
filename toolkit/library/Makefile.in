@@ -2652,6 +2652,13 @@ MOZ_QT_LDFLAGS
 XEXT_LIBS
 )
 endif
+ifeq
+(
+cocoa
+(
+MOZ_WIDGET_TOOLKIT
+)
+)
 ifdef
 MOZ_GSTREAMER
 EXTRA_DSO_LDOPTS
@@ -2660,6 +2667,7 @@ EXTRA_DSO_LDOPTS
 (
 GSTREAMER_LIBS
 )
+endif
 endif
 #
 Generate

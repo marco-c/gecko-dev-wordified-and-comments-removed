@@ -33,6 +33,9 @@ nsXPCOMStrings
 .
 h
 "
+namespace
+mozilla
+{
 class
 GStreamerFormatHelper
 {
@@ -161,6 +164,10 @@ mCodecs
 2
 ]
 ;
+static
+bool
+sLoadOK
+;
 GstCaps
 *
 mSupportedContainerCaps
@@ -178,5 +185,6 @@ mCookie
 ;
 }
 ;
+}
 #
 endif
