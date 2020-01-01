@@ -47050,6 +47050,13 @@ greater
 if
 test
 -
+n
+"
+COMPILE_ENVIRONMENT
+"
+-
+a
+-
 z
 "
 YASM
@@ -47133,6 +47140,13 @@ details
 )
 elif
 test
+-
+n
+"
+COMPILE_ENVIRONMENT
+"
+-
+a
 "
 _YASM_MAJOR_VERSION
 "
