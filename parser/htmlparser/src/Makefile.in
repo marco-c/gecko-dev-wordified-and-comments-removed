@@ -550,10 +550,6 @@ nsParserMsgUtils
 .
 cpp
 \
-nsViewSourceHTML
-.
-cpp
-\
 (
 NULL
 )

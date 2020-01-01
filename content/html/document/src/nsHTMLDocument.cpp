@@ -750,10 +750,6 @@ kBackward
 ;
 #
 define
-NS_USE_NEW_VIEW_SOURCE
-1
-#
-define
 NS_USE_NEW_PLAIN_TEXT
 1
 static
@@ -2594,9 +2590,6 @@ view
 source
 "
 )
-&
-&
-NS_USE_NEW_VIEW_SOURCE
 ;
 bool
 plainText
