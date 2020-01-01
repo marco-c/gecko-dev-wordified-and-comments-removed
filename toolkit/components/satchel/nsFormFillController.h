@@ -102,6 +102,14 @@ nsIMutationObserver
 .
 h
 "
+#
+ifdef
+KeyPress
+#
+undef
+KeyPress
+#
+endif
 class
 nsFormHistory
 ;
