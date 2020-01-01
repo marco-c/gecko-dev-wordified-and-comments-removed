@@ -454,6 +454,10 @@ mozIAsyncHistory
 .
 idl
 \
+mozIAsyncFavicons
+.
+idl
+\
 mozIPlacesAutoComplete
 .
 idl
