@@ -1281,6 +1281,14 @@ nsIntRect
 aRect
 )
 ;
+NS_IMETHOD
+GetClientBounds
+(
+nsIntRect
+&
+aRect
+)
+;
 CGFloat
 BackingScaleFactor
 (
