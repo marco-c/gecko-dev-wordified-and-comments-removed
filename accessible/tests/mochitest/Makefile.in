@@ -740,6 +740,10 @@ test_relations
 .
 xul
 \
+test_relations_table
+.
+html
+\
 test_role_nsHyperTextAcc
 .
 html
