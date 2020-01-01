@@ -1065,6 +1065,11 @@ MessagePort
 webidl
 '
 '
+MessagePortList
+.
+webidl
+'
+'
 MimeType
 .
 webidl

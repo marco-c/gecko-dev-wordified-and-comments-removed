@@ -335,6 +335,11 @@ MessagePort
 h
 '
 '
+MessagePortList
+.
+h
+'
+'
 ScreenOrientation
 .
 h
@@ -396,6 +401,11 @@ cpp
 '
 '
 MessagePort
+.
+cpp
+'
+'
+MessagePortList
 .
 cpp
 '

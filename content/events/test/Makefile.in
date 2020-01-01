@@ -445,6 +445,10 @@ test_all_synthetic_events
 .
 html
 \
+test_messageEvent
+.
+html
+\
 (
 NULL
 )
