@@ -446,6 +446,16 @@ aJSON
 )
 ;
 virtual
+bool
+RecvQueryContentResult
+(
+const
+nsQueryContentEvent
+&
+event
+)
+;
+virtual
 PContentDialogParent
 *
 AllocPContentDialog
