@@ -188,11 +188,6 @@ nsDeviceContextAndroid
 cpp
 '
 '
-nsFilePicker
-.
-cpp
-'
-'
 nsIMEPicker
 .
 cpp
