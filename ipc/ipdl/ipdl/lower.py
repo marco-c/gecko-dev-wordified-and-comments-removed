@@ -3030,10 +3030,25 @@ Type
 '
 )
         
+tenum
+.
+addId
+(
+enumvs
+[
+0
+]
+1
+)
+        
 for
 enumv
 in
 enumvs
+[
+1
+:
+]
 :
             
 tenum
