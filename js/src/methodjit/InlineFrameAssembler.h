@@ -285,10 +285,15 @@ funObjReg
 )
 ;
 }
+inline
+void
+assemble
+(
+)
+{
 struct
 AdjustedFrame
 {
-inline
 AdjustedFrame
 (
 uint32
@@ -304,7 +309,6 @@ baseOffset
 uint32
 baseOffset
 ;
-inline
 Address
 addrOf
 (
@@ -324,12 +328,6 @@ offset
 }
 }
 ;
-inline
-void
-assemble
-(
-)
-{
 RegisterID
 t0
 =
