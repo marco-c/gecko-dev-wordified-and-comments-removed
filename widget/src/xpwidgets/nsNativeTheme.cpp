@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -815,7 +808,7 @@ indeterminate
 }
 nsCOMPtr
 <
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 >
 inputElt
 =

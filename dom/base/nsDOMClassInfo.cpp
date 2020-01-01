@@ -1423,13 +1423,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLIsIndexElement
 .
 h
@@ -10466,10 +10459,6 @@ nsIDOMHTMLInputElement
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMHTMLInputElement
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMNSHTMLInputElement
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END

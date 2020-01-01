@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIDOMHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsXPCOM
 .
 h
@@ -253,7 +246,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 .
 h
 "
@@ -1921,7 +1914,7 @@ GetContent
 ;
 nsCOMPtr
 <
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 >
 inputElem
 =
@@ -2329,7 +2322,7 @@ GetContent
 ;
 nsCOMPtr
 <
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 >
 inputElem
 =

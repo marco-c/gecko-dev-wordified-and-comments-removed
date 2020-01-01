@@ -714,10 +714,6 @@ nsIDOMNSHTMLHRElement
 .
 idl
 \
-nsIDOMNSHTMLInputElement
-.
-idl
-\
 nsIDOMNSHTMLOptionCollectn
 .
 idl

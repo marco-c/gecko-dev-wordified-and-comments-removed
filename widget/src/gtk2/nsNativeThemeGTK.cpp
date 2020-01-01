@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsWidgetAtoms
 .
 h

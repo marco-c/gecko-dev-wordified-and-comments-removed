@@ -85,7 +85,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 .
 h
 "
@@ -2566,7 +2566,7 @@ controllers
 ;
 nsCOMPtr
 <
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 >
 input
 =
@@ -4195,7 +4195,7 @@ controllers
 ;
 nsCOMPtr
 <
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 >
 inputElement
 =
@@ -4871,7 +4871,7 @@ controllers
 ;
 nsCOMPtr
 <
-nsIDOMNSHTMLInputElement
+nsIDOMHTMLInputElement
 >
 inputElement
 =

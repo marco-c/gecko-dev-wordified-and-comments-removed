@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsITextControlElement
 .
 h
@@ -211,8 +204,6 @@ nsImageLoadingContent
 public
 nsIDOMHTMLInputElement
 public
-nsIDOMNSHTMLInputElement
-public
 nsITextControlElement
 public
 nsIPhonetic
@@ -260,7 +251,6 @@ nsGenericHTMLFormElement
 :
 )
 NS_DECL_NSIDOMHTMLINPUTELEMENT
-NS_DECL_NSIDOMNSHTMLINPUTELEMENT
 NS_DECL_NSIPHONETIC
 NS_IMETHOD
 GetEditor
