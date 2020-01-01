@@ -257,6 +257,16 @@ mLastTransactionExpectedNoContent
 val
 ;
 }
+nsISocketTransport
+*
+Transport
+(
+)
+{
+return
+mSocketTransport
+;
+}
 nsAHttpTransaction
 *
 Transaction
