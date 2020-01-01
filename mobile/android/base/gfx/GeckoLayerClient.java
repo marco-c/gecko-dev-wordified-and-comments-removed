@@ -410,6 +410,13 @@ mView
 =
 view
 ;
+mView
+.
+setListener
+(
+this
+)
+;
 }
 public
 void
@@ -448,13 +455,6 @@ mView
 .
 getRenderer
 (
-)
-;
-mView
-.
-setListener
-(
-this
 )
 ;
 sendResizeEventIfNecessary
