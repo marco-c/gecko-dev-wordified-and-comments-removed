@@ -2057,7 +2057,7 @@ Init
 ;
 #
 ifndef
-NP_NO_CARBON
+__LP64__
 TextInputHandler
 :
 :
@@ -5795,7 +5795,7 @@ NULL
 ;
 #
 ifndef
-NP_NO_CARBON
+__LP64__
 TextInputHandler
 :
 :
