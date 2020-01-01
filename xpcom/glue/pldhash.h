@@ -7,6 +7,15 @@ pldhash_h___
 #
 include
 "
+mozilla
+/
+Types
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
