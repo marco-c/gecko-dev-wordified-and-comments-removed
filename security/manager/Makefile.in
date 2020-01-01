@@ -1117,6 +1117,15 @@ MOZ_MEMORY
 export
 DLLFLAGS
 endif
+#
+To
+get
+debug
+symbols
+from
+NSS
+export
+MOZ_DEBUG_SYMBOLS
 ifdef
 .
 PYMAKE
@@ -1367,8 +1376,6 @@ USE_DEBUG_RTL
 1
 endif
 endif
-export
-MOZ_DEBUG_SYMBOLS
 endif
 #
 WINNT
