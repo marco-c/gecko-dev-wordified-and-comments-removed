@@ -4394,7 +4394,7 @@ information
 -
 >
 <
-vbox
+arrowbox
 id
 =
 "
@@ -4410,9 +4410,6 @@ true
 class
 =
 "
-panel
--
-dark
 window
 -
 width
@@ -4421,6 +4418,16 @@ mode
 =
 "
 unknownIdentity
+"
+offset
+=
+"
+18
+"
+flex
+=
+"
+1
 "
 >
 <
@@ -4922,7 +4929,7 @@ hbox
 >
 <
 /
-vbox
+arrowbox
 >
 <
 vbox
