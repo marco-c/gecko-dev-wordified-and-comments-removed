@@ -4761,14 +4761,6 @@ PRInt32
 aVertical
 )
 {
-#
-ifdef
-WINCE
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-else
 NS_ENSURE_ARG_POINTER
 (
 aEvent
@@ -4991,8 +4983,6 @@ refPoint
 return
 NS_OK
 ;
-#
-endif
 }
 NS_METHOD
 nsWindow
