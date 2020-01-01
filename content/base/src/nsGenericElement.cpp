@@ -20009,13 +20009,7 @@ void
 aData
 )
 {
-nsCOMPtr
-<
-nsIXPConnectWrappedJS
->
-wjs
-=
-do_QueryInterface
+xpc_TryUnmarkWrappedGrayObject
 (
 static_cast
 <
@@ -20025,11 +20019,6 @@ nsISupports
 (
 aChild
 )
-)
-;
-xpc_UnmarkGrayObject
-(
-wjs
 )
 ;
 }
