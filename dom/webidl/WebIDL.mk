@@ -95,6 +95,10 @@ AudioNode
 .
 webidl
 \
+AudioParam
+.
+webidl
+\
 AudioSourceNode
 .
 webidl
