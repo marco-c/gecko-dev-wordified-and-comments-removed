@@ -45,9 +45,6 @@ gxv_morx_subtable_type4_validate
 gxv_morx_subtable_type5_validate
 }
 ;
-GXV_Validate_Func
-func
-;
 FT_UShort
 i
 ;
@@ -76,6 +73,9 @@ i
 +
 )
 {
+GXV_Validate_Func
+func
+;
 FT_ULong
 length
 ;

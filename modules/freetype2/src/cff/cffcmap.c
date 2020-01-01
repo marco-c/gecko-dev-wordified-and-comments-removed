@@ -1,5 +1,15 @@
 #
 include
+<
+ft2build
+.
+h
+>
+#
+include
+FT_INTERNAL_DEBUG_H
+#
+include
 "
 cffcmap
 .
@@ -385,7 +395,10 @@ charset
 sids
 )
 return
-CFF_Err_No_Unicode_Glyph_Name
+FT_THROW
+(
+No_Unicode_Glyph_Name
+)
 ;
 return
 psnames

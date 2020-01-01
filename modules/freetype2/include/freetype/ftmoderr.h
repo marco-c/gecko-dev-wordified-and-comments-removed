@@ -285,6 +285,16 @@ FNT
 module
 "
 )
+FT_MODERRDEF
+(
+GXvalid
+0x1600
+"
+GX
+validation
+module
+"
+)
 #
 ifdef
 FT_MODERR_END_LIST

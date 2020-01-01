@@ -17,7 +17,7 @@ FT_INTERNAL_POSTSCRIPT_AUX_H
 FT_BEGIN_HEADER
 FT_LOCAL
 (
-FT_Int
+FT_Long
 )
 PS_Conv_Strtol
 (
@@ -28,13 +28,13 @@ cursor
 FT_Byte
 *
 limit
-FT_Int
+FT_Long
 base
 )
 ;
 FT_LOCAL
 (
-FT_Int
+FT_Long
 )
 PS_Conv_ToInt
 (
@@ -60,7 +60,7 @@ cursor
 FT_Byte
 *
 limit
-FT_Int
+FT_Long
 power_ten
 )
 ;

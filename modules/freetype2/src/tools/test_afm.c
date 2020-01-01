@@ -612,7 +612,10 @@ argc
 2
 )
 return
-FT_Err_Invalid_Argument
+FT_ERR
+(
+Invalid_Argument
+)
 ;
 error
 =

@@ -1239,7 +1239,7 @@ aformat
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 FT_Byte
 flags
@@ -1658,7 +1658,10 @@ Too_Short
 :
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 FT_ERROR
 (
@@ -1701,7 +1704,7 @@ target
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 PFR_BitWriterRec
 writer
@@ -1795,7 +1798,10 @@ n
 ;
 error
 =
-PFR_Err_Invalid_File_Format
+FT_THROW
+(
+Invalid_File_Format
+)
 ;
 }
 }
@@ -1954,7 +1960,10 @@ strike
 ;
 }
 return
-PFR_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 }
 Found_Strike
@@ -2080,7 +2089,10 @@ gps_size
 {
 error
 =
-PFR_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit
@@ -2290,7 +2302,10 @@ ypos
 ;
 error
 =
-PFR_Err_Invalid_Pixel_Size
+FT_THROW
+(
+Invalid_Pixel_Size
+)
 ;
 }
 if

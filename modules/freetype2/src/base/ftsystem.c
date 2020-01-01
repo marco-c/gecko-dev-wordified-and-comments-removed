@@ -281,7 +281,10 @@ if
 stream
 )
 return
-FT_Err_Invalid_Stream_Handle
+FT_THROW
+(
+Invalid_Stream_Handle
+)
 ;
 stream
 -
@@ -371,7 +374,10 @@ filepathname
 )
 ;
 return
-FT_Err_Cannot_Open_Resource
+FT_THROW
+(
+Cannot_Open_Resource
+)
 ;
 }
 ft_fseek
@@ -435,7 +441,10 @@ file
 )
 ;
 return
-FT_Err_Cannot_Open_Stream
+FT_THROW
+(
+Cannot_Open_Stream
+)
 ;
 }
 ft_fseek

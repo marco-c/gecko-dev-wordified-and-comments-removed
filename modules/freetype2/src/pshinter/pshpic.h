@@ -13,7 +13,7 @@ ifndef
 FT_CONFIG_OPTION_PIC
 #
 define
-FTPSHINTER_INTERFACE_GET
+PSHINTER_INTERFACE_GET
 pshinter_interface
 #
 else
@@ -49,12 +49,12 @@ lib
 >
 pic_container
 .
-autofit
+pshinter
 )
 )
 #
 define
-FTPSHINTER_INTERFACE_GET
+PSHINTER_INTERFACE_GET
 (
 GET_PIC
 (

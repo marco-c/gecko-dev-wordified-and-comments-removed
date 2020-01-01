@@ -168,11 +168,13 @@ pic_container
 FT_Error
 error
 =
-TT_Err_Ok
+FT_Err_Ok
 ;
 TTModulePIC
 *
 container
+=
+NULL
 ;
 FT_Memory
 memory

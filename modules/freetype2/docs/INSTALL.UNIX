@@ -187,7 +187,7 @@ if
 you
 use
 the
-GNUMAKE
+MAKE
 variable
 as
 described
@@ -481,7 +481,7 @@ GNU
 Make
 use
 the
-GNUMAKE
+MAKE
 variable
 .
 For
@@ -501,7 +501,7 @@ do
 something
 like
 :
-GNUMAKE
+MAKE
 =
 gmake
 .
@@ -668,10 +668,9 @@ install
 -
 Copyright
 2003
-2004
-2005
-2006
+-
 2007
+2013
 by
 David
 Turner

@@ -37,6 +37,9 @@ FT_Glyph_Class
 clazz
 )
 ;
+#
+ifdef
+FT_CONFIG_OPTION_MAC_FONTS
 void
 FT_Init_Table_raccess_guess_table
 (
@@ -45,6 +48,8 @@ ft_raccess_guess_rec
 record
 )
 ;
+#
+endif
 FT_Error
 ft_create_default_module_classes
 (
@@ -139,6 +144,8 @@ FT_Err_Ok
 BasePIC
 *
 container
+=
+NULL
 ;
 FT_Memory
 memory
@@ -213,6 +220,9 @@ container
 ft_bitmap_glyph_class
 )
 ;
+#
+ifdef
+FT_CONFIG_OPTION_MAC_FONTS
 FT_Init_Table_raccess_guess_table
 (
 (
@@ -226,6 +236,8 @@ container
 ft_raccess_guess_table
 )
 ;
+#
+endif
 Exit
 :
 if

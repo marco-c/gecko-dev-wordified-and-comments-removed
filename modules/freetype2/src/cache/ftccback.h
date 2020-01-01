@@ -201,9 +201,6 @@ FTC_Cache
 cache
 )
 ;
-#
-ifndef
-FT_CONFIG_OPTION_OLD_INTERNALS
 FT_LOCAL
 (
 void
@@ -216,7 +213,5 @@ FTC_Manager
 manager
 )
 ;
-#
-endif
 #
 endif

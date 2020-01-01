@@ -72,7 +72,7 @@ item_data
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 FT_Byte
 *
@@ -236,7 +236,10 @@ n
 ;
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 goto
 Exit
@@ -600,7 +603,10 @@ idx
 num_log_fonts
 )
 return
-PFR_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 if
 (
@@ -1002,7 +1008,10 @@ n
 ;
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 goto
 Fail
@@ -1046,7 +1055,7 @@ size1
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 PFR_CHECK
 (
@@ -1361,7 +1370,10 @@ Too_Short
 :
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 FT_ERROR
 (
@@ -1404,7 +1416,7 @@ phy_font
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 FT_Memory
 memory
@@ -1506,7 +1518,7 @@ NULL
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 FT_Memory
 memory
@@ -1631,7 +1643,10 @@ Too_Short
 :
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 FT_ERROR
 (
@@ -1679,7 +1694,7 @@ NULL
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 FT_Memory
 memory
@@ -2061,7 +2076,10 @@ item
 ;
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 FT_ERROR
 (
@@ -2147,7 +2165,7 @@ astring
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 FT_String
 *
@@ -3366,7 +3384,10 @@ Too_Short
 :
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 FT_ERROR
 (

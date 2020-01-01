@@ -513,6 +513,9 @@ FT_String
 *
 ordering
 ;
+FT_Generic
+cf2_instance
+;
 }
 CFF_FontRec
 *

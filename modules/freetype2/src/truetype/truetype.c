@@ -54,6 +54,13 @@ ttinterp
 c
 "
 #
+include
+"
+ttsubpix
+.
+c
+"
+#
 endif
 #
 ifdef

@@ -101,6 +101,7 @@ base
 #
 define
 FT_OUTLINE_GLYPH_CLASS_GET
+\
 (
 &
 GET_PIC
@@ -114,6 +115,7 @@ ft_outline_glyph_class
 #
 define
 FT_BITMAP_GLYPH_CLASS_GET
+\
 (
 &
 GET_PIC
@@ -127,6 +129,7 @@ ft_bitmap_glyph_class
 #
 define
 FT_DEFAULT_MODULES_GET
+\
 (
 GET_PIC
 (
@@ -142,6 +145,7 @@ FT_CONFIG_OPTION_GUESSING_EMBEDDED_RFORK
 #
 define
 FT_RACCESS_GUESS_TABLE_GET
+\
 (
 GET_PIC
 (

@@ -81,7 +81,7 @@ type1
 FT_Error
 error
 =
-T1_Err_Ok
+FT_Err_Ok
 ;
 #
 ifdef
@@ -713,7 +713,7 @@ decoder
 )
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_LOCAL_DEF
@@ -801,7 +801,7 @@ nn
 0
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 error
@@ -965,7 +965,7 @@ nn
 ;
 }
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_LOCAL_DEF
@@ -1117,7 +1117,10 @@ endif
 {
 error
 =
-T1_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit

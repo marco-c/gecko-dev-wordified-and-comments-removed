@@ -158,7 +158,7 @@ metrics_resolution
 ;
 }
 return
-PFR_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_CALLBACK_DEF
@@ -187,7 +187,10 @@ pfrface
 FT_Error
 error
 =
-PFR_Err_Invalid_Argument
+FT_ERR
+(
+Invalid_Argument
+)
 ;
 *
 anadvance
@@ -245,7 +248,7 @@ advance
 ;
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 }
 }
@@ -403,7 +406,7 @@ ametrics_y_scale
 y_scale
 ;
 return
-PFR_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_CALLBACK_TABLE_DEF
@@ -509,13 +512,6 @@ pfr_face_done
 0
 pfr_slot_init
 pfr_slot_done
-#
-ifdef
-FT_CONFIG_OPTION_OLD_INTERNALS
-ft_stub_set_char_sizes
-ft_stub_set_pixel_sizes
-#
-endif
 pfr_slot_load
 pfr_get_kerning
 0

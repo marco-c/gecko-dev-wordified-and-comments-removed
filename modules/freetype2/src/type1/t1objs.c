@@ -236,7 +236,7 @@ t1size
 FT_Error
 error
 =
-T1_Err_Ok
+FT_Err_Ok
 ;
 PSH_Globals_Funcs
 funcs
@@ -398,7 +398,7 @@ y_scale
 )
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_LOCAL_DEF
@@ -1005,7 +1005,10 @@ n
 ;
 error
 =
-T1_Err_Missing_Module
+FT_THROW
+(
+Missing_Module
+)
 ;
 goto
 Exit
@@ -1087,7 +1090,10 @@ n
 ;
 error
 =
-T1_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit
@@ -1709,7 +1715,7 @@ max_advance
 else
 error
 =
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 root
@@ -1821,10 +1827,11 @@ if
 error
 &
 &
-FT_Err_No_Unicode_Glyph_Name
-!
-=
+FT_ERR_NEQ
+(
 error
+No_Unicode_Glyph_Name
+)
 )
 goto
 Exit
@@ -2015,7 +2022,7 @@ driver
 )
 ;
 return
-T1_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_LOCAL_DEF

@@ -20,10 +20,7 @@ GXV_Err_
 #
 define
 FT_ERR_BASE
-FT_Mod_Err_GXV
-#
-define
-FT_KEEP_ERR_PREFIX
+FT_Mod_Err_GXvalid
 #
 include
 FT_ERRORS_H

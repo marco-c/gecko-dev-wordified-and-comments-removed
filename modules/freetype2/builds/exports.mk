@@ -356,9 +356,15 @@ APINAMES_SRC
 CCexe
 )
 (
+CCexe_CFLAGS
+)
+(
 TE
 )
 <
+(
+CCexe_LDFLAGS
+)
 .
 PHONY
 :

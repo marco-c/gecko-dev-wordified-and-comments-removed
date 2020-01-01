@@ -97,7 +97,7 @@ cid_stream
 FT_Error
 error
 =
-CID_Err_Ok
+FT_Err_Ok
 ;
 FT_Byte
 *
@@ -448,7 +448,10 @@ num_dicts
 {
 error
 =
-CID_Err_Invalid_Offset
+FT_THROW
+(
+Invalid_Offset
+)
 ;
 goto
 Exit
@@ -944,7 +947,7 @@ decoder
 )
 ;
 return
-CID_Err_Ok
+FT_Err_Ok
 ;
 }
 #
@@ -1028,7 +1031,10 @@ num_glyphs
 {
 error
 =
-CID_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit

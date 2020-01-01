@@ -402,6 +402,8 @@ gcc
 .
 /
 configure
+#
+BAD
 or
 env
 CC
@@ -423,6 +425,8 @@ gcc
 .
 /
 configure
+#
+BAD
 doesn
 '
 t
@@ -908,6 +912,7 @@ tested
 Copyright
 2006
 2008
+2012
 by
 suzuki
 toshiya

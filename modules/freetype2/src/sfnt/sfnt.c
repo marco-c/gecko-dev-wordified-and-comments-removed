@@ -63,6 +63,13 @@ TT_CONFIG_OPTION_EMBEDDED_BITMAPS
 #
 include
 "
+pngshim
+.
+c
+"
+#
+include
+"
 ttsbit
 .
 c

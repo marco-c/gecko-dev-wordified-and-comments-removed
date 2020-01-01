@@ -110,7 +110,7 @@ data
 table
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 #
@@ -221,7 +221,7 @@ FT_INVALID_GLYPH_ID
 }
 }
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_CALLBACK_DEF
@@ -389,7 +389,7 @@ p
 )
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_DEFINE_TT_CMAP
@@ -817,7 +817,7 @@ FT_INVALID_GLYPH_ID
 }
 }
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -1431,7 +1431,7 @@ p
 )
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_DEFINE_TT_CMAP
@@ -1577,7 +1577,7 @@ cur_gindex
 0
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -2164,7 +2164,7 @@ num_segs
 FT_Error
 error
 =
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -4286,7 +4286,7 @@ p
 )
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_DEFINE_TT_CMAP
@@ -4462,7 +4462,7 @@ FT_INVALID_GLYPH_ID
 }
 }
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_CALLBACK_DEF
@@ -4753,7 +4753,7 @@ p
 )
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_DEFINE_TT_CMAP
@@ -5203,7 +5203,7 @@ end
 }
 }
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_CALLBACK_DEF
@@ -5528,7 +5528,7 @@ p
 )
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_DEFINE_TT_CMAP
@@ -5707,7 +5707,7 @@ FT_INVALID_GLYPH_ID
 }
 }
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_CALLBACK_DEF
@@ -5975,7 +5975,7 @@ p
 )
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_DEFINE_TT_CMAP
@@ -6093,7 +6093,7 @@ valid
 0
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_CALLBACK_DEF
@@ -6288,7 +6288,7 @@ end
 }
 }
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -6946,7 +6946,7 @@ p
 )
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_DEFINE_TT_CMAP
@@ -7064,7 +7064,7 @@ valid
 0
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_CALLBACK_DEF
@@ -7255,7 +7255,7 @@ end
 }
 }
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -7885,7 +7885,7 @@ p
 )
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_DEFINE_TT_CMAP
@@ -8029,7 +8029,7 @@ max_results
 FT_Error
 error
 =
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -8127,7 +8127,7 @@ results
 NULL
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_CALLBACK_DEF
@@ -8506,7 +8506,7 @@ FT_INVALID_GLYPH_ID
 }
 }
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_CALLBACK_DEF
@@ -8595,7 +8595,7 @@ language
 0xFFFFFFFFUL
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -10481,6 +10481,8 @@ output_class
 TT_CMap_Class
 *
 clazz
+=
+NULL
 ;
 TT_CMap_ClassRec
 *
@@ -10555,14 +10557,11 @@ TT_CMap_ClassRec
 )
 (
 (
-(
 char
 *
 )
 clazz
-)
 +
-(
 sizeof
 (
 *
@@ -10573,7 +10572,6 @@ clazz
 i
 +
 1
-)
 )
 )
 ;
@@ -10640,7 +10638,7 @@ output_class
 clazz
 ;
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 #
@@ -10712,7 +10710,10 @@ p
 limit
 )
 return
-SFNT_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 if
 (
@@ -10757,7 +10758,10 @@ p
 )
 ;
 return
-SFNT_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 }
 num_cmaps
@@ -10790,6 +10794,8 @@ subtables
 %
 d
 )
+\
+n
 "
 "
 subtable
@@ -10797,9 +10803,11 @@ subtable
 %
 d
 and
-later
+higher
 are
 loaded
+"
+"
 but
 cannot
 be
@@ -10922,7 +10930,7 @@ TT_CMap_Class
 volatile
 pclazz
 =
-FT_TT_CMAP_CLASSES_GET
+TT_CMAP_CLASSES_GET
 ;
 TT_CMap_Class
 volatile
@@ -10963,7 +10971,7 @@ volatile
 FT_Error
 error
 =
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 ft_validator_init
 (
@@ -10995,13 +11003,6 @@ if
 (
 ft_setjmp
 (
-*
-(
-(
-ft_jmp_buf
-*
-)
-&
 FT_VALIDATOR
 (
 &
@@ -11010,7 +11011,6 @@ valid
 -
 >
 jump_buffer
-)
 )
 =
 =
@@ -11142,7 +11142,7 @@ n
 }
 }
 return
-SFNT_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_LOCAL

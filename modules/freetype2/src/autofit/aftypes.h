@@ -84,12 +84,15 @@ FT_LOCAL
 (
 void
 )
-af_sort_widths
+af_sort_and_quantize_widths
 (
 FT_UInt
+*
 count
 AF_Width
 widths
+FT_Pos
+threshold
 )
 ;
 typedef
@@ -349,7 +352,7 @@ typedef
 enum
 AF_Script_
 {
-AF_SCRIPT_NONE
+AF_SCRIPT_DUMMY
 =
 0
 AF_SCRIPT_LATIN
@@ -365,6 +368,8 @@ AF_SCRIPT_INDIC
 ifdef
 FT_OPTION_AUTOFIT2
 AF_SCRIPT_LATIN2
+=
+4
 #
 endif
 AF_SCRIPT_MAX
@@ -380,6 +385,12 @@ AF_ScriptClass
 ;
 typedef
 struct
+AF_FaceGlobalsRec_
+*
+AF_FaceGlobals
+;
+typedef
+struct
 AF_ScriptMetricsRec_
 {
 AF_ScriptClass
@@ -390,6 +401,9 @@ scaler
 ;
 FT_Bool
 digits_have_same_width
+;
+AF_FaceGlobals
+globals
 ;
 }
 AF_ScriptMetricsRec
@@ -512,6 +526,9 @@ script
 AF_Script_UniRange
 script_uni_ranges
 ;
+FT_UInt32
+standard_char
+;
 FT_Offset
 script_metrics_size
 ;
@@ -556,6 +573,8 @@ AF_DEFINE_SCRIPT_CLASS
 script_class
 script_
 ranges
+def_char
+\
 m_size
 \
 m_init
@@ -568,7 +587,6 @@ h_apply
 FT_CALLBACK_TABLE_DEF
 const
 AF_ScriptClassRec
-\
 script_class
 =
 \
@@ -577,6 +595,8 @@ script_class
 script_
 \
 ranges
+\
+def_char
 \
 \
 m_size
@@ -626,6 +646,8 @@ AF_DEFINE_SCRIPT_CLASS
 script_class
 script_
 ranges
+def_char
+\
 m_size
 \
 m_init
@@ -666,6 +688,14 @@ ac
 script_uni_ranges
 =
 ranges
+;
+\
+ac
+-
+>
+default_char
+=
+def_char
 ;
 \
 \

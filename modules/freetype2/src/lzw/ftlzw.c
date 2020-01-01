@@ -163,7 +163,10 @@ head
 )
 error
 =
-LZW_Err_Invalid_File_Format
+FT_THROW
+(
+Invalid_File_Format
+)
 ;
 Exit
 :
@@ -194,8 +197,6 @@ lzw
 ;
 FT_Error
 error
-=
-LZW_Err_Ok
 ;
 zip
 -
@@ -409,7 +410,7 @@ count
 FT_Error
 error
 =
-LZW_Err_Ok
+FT_Err_Ok
 ;
 zip
 -
@@ -454,7 +455,10 @@ count
 )
 error
 =
-LZW_Err_Invalid_Stream_Operation
+FT_THROW
+(
+Invalid_Stream_Operation
+)
 ;
 return
 error
@@ -473,7 +477,7 @@ count
 FT_Error
 error
 =
-LZW_Err_Ok
+FT_Err_Ok
 ;
 {
 FT_ULong
@@ -574,7 +578,10 @@ delta
 {
 error
 =
-LZW_Err_Invalid_Stream_Operation
+FT_THROW
+(
+Invalid_Stream_Operation
+)
 ;
 break
 ;
@@ -1109,7 +1116,10 @@ source
 )
 ;
 return
-LZW_Err_Unimplemented_Feature
+FT_THROW
+(
+Unimplemented_Feature
+)
 ;
 }
 #

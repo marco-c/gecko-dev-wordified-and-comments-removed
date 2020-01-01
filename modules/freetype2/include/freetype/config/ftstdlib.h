@@ -212,7 +212,7 @@ setjmp
 (
 *
 (
-jmp_buf
+ft_jmp_buf
 *
 )
 &

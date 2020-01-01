@@ -315,7 +315,10 @@ index
 )
 ;
 return
-FTC_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 }
 sbit
@@ -744,10 +747,11 @@ if
 error
 &
 &
+FT_ERR_NEQ
+(
 error
-!
-=
-FTC_Err_Out_Of_Memory
+Out_Of_Memory
+)
 )
 {
 BadGlyph
@@ -775,7 +779,7 @@ NULL
 ;
 error
 =
-FTC_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -882,7 +886,10 @@ total
 {
 error
 =
-FTC_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit

@@ -339,7 +339,7 @@ cidsize
 FT_Error
 error
 =
-CID_Err_Ok
+FT_Err_Ok
 ;
 PSH_Globals_Funcs
 funcs
@@ -504,7 +504,7 @@ y_scale
 )
 ;
 return
-CID_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_LOCAL_DEF
@@ -866,7 +866,10 @@ n
 ;
 error
 =
-CID_Err_Missing_Module
+FT_THROW
+(
+Missing_Module
+)
 ;
 goto
 Exit
@@ -991,7 +994,10 @@ n
 ;
 error
 =
-CID_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit
@@ -1546,7 +1552,7 @@ driver
 )
 ;
 return
-CID_Err_Ok
+FT_Err_Ok
 ;
 }
 FT_LOCAL_DEF

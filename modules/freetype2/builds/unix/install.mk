@@ -16,6 +16,7 @@ Copyright
 2002
 2003
 2006
+2013
 by
 #
 David
@@ -198,19 +199,6 @@ freetype2
 freetype
 /
 config
-\
-(
-DESTDIR
-)
-(
-includedir
-)
-/
-freetype2
-/
-freetype
-/
-cache
 \
 (
 DESTDIR

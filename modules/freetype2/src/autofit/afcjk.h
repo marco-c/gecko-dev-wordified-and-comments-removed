@@ -159,6 +159,9 @@ AF_CJKMetricsRec
 *
 AF_CJKMetrics
 ;
+#
+ifdef
+AF_CONFIG_OPTION_CJK
 FT_LOCAL
 (
 FT_Error
@@ -232,10 +235,10 @@ AF_CJKMetrics
 metrics
 FT_Face
 face
-FT_ULong
-charcode
 )
 ;
+#
+endif
 FT_END_HEADER
 #
 endif

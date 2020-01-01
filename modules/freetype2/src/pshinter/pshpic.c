@@ -108,11 +108,13 @@ pic_container
 FT_Error
 error
 =
-PSH_Err_Ok
+FT_Err_Ok
 ;
 PSHinterPIC
 *
 container
+=
+NULL
 ;
 FT_Memory
 memory

@@ -132,7 +132,7 @@ cid
 font_info
 ;
 return
-CID_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -160,7 +160,7 @@ face
 font_extra
 ;
 return
-CID_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -258,7 +258,7 @@ cid
 supplement
 ;
 return
-CID_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -275,7 +275,7 @@ is_cid
 FT_Error
 error
 =
-CID_Err_Ok
+FT_Err_Ok
 ;
 FT_UNUSED
 (
@@ -311,7 +311,7 @@ cid
 FT_Error
 error
 =
-CID_Err_Ok
+FT_Err_Ok
 ;
 FT_UNUSED
 (
@@ -455,13 +455,6 @@ cid_size_init
 cid_size_done
 cid_slot_init
 cid_slot_done
-#
-ifdef
-FT_CONFIG_OPTION_OLD_INTERNALS
-ft_stub_set_char_sizes
-ft_stub_set_pixel_sizes
-#
-endif
 cid_slot_load_glyph
 0
 0

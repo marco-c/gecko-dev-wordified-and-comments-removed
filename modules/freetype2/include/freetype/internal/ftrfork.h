@@ -123,6 +123,7 @@ raccess_guess_
 #
 #
 func_suffix
+\
 FT_RFork_Rule_
 #
 #
@@ -144,6 +145,7 @@ type
 )
 \
 void
+\
 FT_Init_
 #
 #
@@ -153,6 +155,7 @@ type
 *
 storage
 )
+\
 {
 \
 type
@@ -161,6 +164,8 @@ local
 =
 storage
 ;
+\
+\
 \
 int
 i

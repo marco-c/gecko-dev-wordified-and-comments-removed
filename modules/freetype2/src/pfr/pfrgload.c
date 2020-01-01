@@ -413,7 +413,10 @@ path_begun
 {
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 FT_ERROR
 (
@@ -543,7 +546,10 @@ path_begun
 {
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 FT_ERROR
 (
@@ -779,7 +785,7 @@ limit
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 FT_Memory
 memory
@@ -1997,7 +2003,10 @@ Too_Short
 :
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 FT_ERROR
 (
@@ -2035,7 +2044,7 @@ limit
 FT_Error
 error
 =
-PFR_Err_Ok
+FT_Err_Ok
 ;
 FT_GlyphLoader
 loader
@@ -2165,7 +2174,10 @@ new_max
 {
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 FT_ERROR
 (
@@ -2544,7 +2556,10 @@ Too_Short
 :
 error
 =
-PFR_Err_Invalid_Table
+FT_THROW
+(
+Invalid_Table
+)
 ;
 FT_ERROR
 (

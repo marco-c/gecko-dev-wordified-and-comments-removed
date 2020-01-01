@@ -97,7 +97,6 @@ af_cjk_metrics_init_widths
 (
 metrics
 face
-0x7530
 )
 ;
 #
@@ -126,7 +125,7 @@ oldmap
 )
 ;
 return
-AF_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -251,6 +250,9 @@ AF_DEFINE_SCRIPT_CLASS
 af_indic_script_class
 AF_SCRIPT_INDIC
 af_indic_uniranges
+'
+o
+'
 sizeof
 (
 AF_CJKMetricsRec
@@ -297,6 +299,7 @@ AF_DEFINE_SCRIPT_CLASS
 af_indic_script_class
 AF_SCRIPT_INDIC
 af_indic_uniranges
+0
 sizeof
 (
 AF_CJKMetricsRec

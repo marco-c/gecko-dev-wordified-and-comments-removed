@@ -90,13 +90,14 @@ table_len
 ;
 if
 (
+FT_ERR_EQ
+(
 error
-=
-=
-OTV_Err_Table_Missing
+Table_Missing
+)
 )
 return
-OTV_Err_Ok
+FT_Err_Ok
 ;
 if
 (
@@ -165,7 +166,7 @@ ot_jstf
 FT_Error
 error
 =
-OTV_Err_Ok
+FT_Err_Ok
 ;
 FT_Byte
 *

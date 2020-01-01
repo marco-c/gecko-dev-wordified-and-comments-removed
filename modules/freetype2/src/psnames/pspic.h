@@ -13,11 +13,11 @@ ifndef
 FT_CONFIG_OPTION_PIC
 #
 define
-FT_PSCMAPS_SERVICES_GET
+PSCMAPS_SERVICES_GET
 pscmaps_services
 #
 define
-FT_PSCMAPS_INTERFACE_GET
+PSCMAPS_INTERFACE_GET
 pscmaps_interface
 #
 else
@@ -44,6 +44,7 @@ GET_PIC
 (
 lib
 )
+\
 (
 (
 PSModulePIC
@@ -62,7 +63,7 @@ psnames
 )
 #
 define
-FT_PSCMAPS_SERVICES_GET
+PSCMAPS_SERVICES_GET
 (
 GET_PIC
 (
@@ -74,7 +75,7 @@ pscmaps_services
 )
 #
 define
-FT_PSCMAPS_INTERFACE_GET
+PSCMAPS_INTERFACE_GET
 (
 GET_PIC
 (

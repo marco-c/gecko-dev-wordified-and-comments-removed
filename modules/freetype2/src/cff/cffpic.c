@@ -253,11 +253,13 @@ pic_container
 FT_Error
 error
 =
-CFF_Err_Ok
+FT_Err_Ok
 ;
 CffModulePIC
 *
 container
+=
+NULL
 ;
 FT_Memory
 memory

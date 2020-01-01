@@ -18,9 +18,10 @@ Copyright
 -
 2000
 2002
-2003
+-
 2004
 2006
+2013
 by
 #
 David
@@ -460,6 +461,13 @@ OBJ_DIR
 /
 Makefile
 )
+CONFIG_SHELL
+?
+=
+/
+bin
+/
+sh
 setup
 :
 std_setup
@@ -482,6 +490,9 @@ the
 src
 tree
 (
+CONFIG_SHELL
+)
+(
 TOP_DIR
 )
 /
@@ -500,6 +511,9 @@ builds
 /
 unix
 ;
+(
+CONFIG_SHELL
+)
 .
 /
 configure

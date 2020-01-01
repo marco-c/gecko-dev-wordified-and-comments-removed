@@ -431,7 +431,7 @@ win32
 \
 vc2005
 \
-freetype249
+freetype250
 .
 lib
 "
@@ -837,7 +837,7 @@ win32
 \
 vc2005
 \
-freetype249MT
+freetype250MT
 .
 lib
 "
@@ -1243,7 +1243,7 @@ win32
 \
 vc2005
 \
-freetype249ST
+freetype250ST
 .
 lib
 "
@@ -1637,7 +1637,7 @@ win32
 \
 vc2005
 \
-freetype249_D
+freetype250_D
 .
 lib
 "
@@ -2037,7 +2037,7 @@ win32
 \
 vc2005
 \
-freetype249ST_D
+freetype250ST_D
 .
 lib
 "
@@ -2444,7 +2444,7 @@ win32
 \
 vc2005
 \
-freetype249MT_D
+freetype250MT_D
 .
 lib
 "

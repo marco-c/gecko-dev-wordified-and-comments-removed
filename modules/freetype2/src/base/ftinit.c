@@ -381,6 +381,8 @@ FT_Module_Class
 *
 *
 classes
+=
+NULL
 ;
 FT_Module_Class
 *
@@ -645,7 +647,10 @@ n
 )
 ;
 return
-FT_Err_Unimplemented_Feature
+FT_THROW
+(
+Unimplemented_Feature
+)
 ;
 }
 error

@@ -243,8 +243,6 @@ AF_LatinMetrics
 metrics
 FT_Face
 face
-FT_ULong
-charcode
 )
 ;
 FT_LOCAL

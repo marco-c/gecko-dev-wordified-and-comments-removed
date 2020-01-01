@@ -7,6 +7,9 @@ h
 >
 #
 include
+FT_INTERNAL_DEBUG_H
+#
+include
 FT_INTERNAL_OBJECTS_H
 #
 include
@@ -55,7 +58,10 @@ face
 {
 error
 =
-FT_Err_Invalid_Face_Handle
+FT_THROW
+(
+Invalid_Face_Handle
+)
 ;
 goto
 Exit
@@ -83,7 +89,10 @@ JSTF_table
 {
 error
 =
-FT_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 goto
 Exit
@@ -119,7 +128,10 @@ JSTF_table
 else
 error
 =
-FT_Err_Unimplemented_Feature
+FT_THROW
+(
+Unimplemented_Feature
+)
 ;
 Exit
 :

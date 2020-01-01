@@ -7,6 +7,9 @@ h
 >
 #
 include
+FT_INTERNAL_DEBUG_H
+#
+include
 FT_INTERNAL_OBJECTS_H
 #
 include
@@ -75,7 +78,10 @@ if
 face
 )
 return
-FT_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 service
 =
@@ -193,7 +199,10 @@ y_scale
 ;
 error
 =
-FT_Err_Unknown_File_Format
+FT_THROW
+(
+Unknown_File_Format
+)
 ;
 }
 return
@@ -229,7 +238,10 @@ if
 face
 )
 return
-FT_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 service
 =
@@ -320,7 +332,10 @@ aadvance
 else
 error
 =
-FT_Err_Invalid_Argument
+FT_THROW
+(
+Invalid_Argument
+)
 ;
 return
 error

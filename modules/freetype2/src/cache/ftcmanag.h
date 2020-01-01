@@ -66,10 +66,10 @@ memory
 FTC_Node
 nodes_list
 ;
-FT_ULong
+FT_Offset
 max_weight
 ;
-FT_ULong
+FT_Offset
 cur_weight
 ;
 FT_UInt

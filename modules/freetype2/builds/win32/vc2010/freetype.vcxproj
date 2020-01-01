@@ -1713,7 +1713,7 @@ Win32
 '
 "
 >
-freetype249_D
+freetype250_D
 <
 /
 TargetName
@@ -1742,7 +1742,7 @@ Win32
 '
 "
 >
-freetype249MT_D
+freetype250MT_D
 <
 /
 TargetName
@@ -1771,7 +1771,7 @@ Win32
 '
 "
 >
-freetype249ST_D
+freetype250ST_D
 <
 /
 TargetName
@@ -1799,7 +1799,7 @@ Win32
 '
 "
 >
-freetype249
+freetype250
 <
 /
 TargetName
@@ -1828,7 +1828,7 @@ Win32
 '
 "
 >
-freetype249MT
+freetype250MT
 <
 /
 TargetName
@@ -1857,7 +1857,7 @@ Win32
 '
 "
 >
-freetype249ST
+freetype250ST
 <
 /
 TargetName

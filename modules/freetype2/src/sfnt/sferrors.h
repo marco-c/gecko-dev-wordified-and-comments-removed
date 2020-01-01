@@ -22,9 +22,6 @@ define
 FT_ERR_BASE
 FT_Mod_Err_SFNT
 #
-define
-FT_KEEP_ERR_PREFIX
-#
 include
 FT_ERRORS_H
 #

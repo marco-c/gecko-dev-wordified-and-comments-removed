@@ -403,10 +403,13 @@ FT_CONFIG_OPTION_PIC
 define
 FT_DEFINE_PSHINTER_INTERFACE
 (
+\
 class_
+\
 get_globals_funcs_
 \
 get_t1_funcs_
+\
 get_t2_funcs_
 )
 \
@@ -419,7 +422,9 @@ class_
 {
 \
 get_globals_funcs_
+\
 get_t1_funcs_
+\
 get_t2_funcs_
 \
 }
@@ -430,10 +435,13 @@ else
 define
 FT_DEFINE_PSHINTER_INTERFACE
 (
+\
 class_
+\
 get_globals_funcs_
 \
 get_t1_funcs_
+\
 get_t2_funcs_
 )
 \
@@ -459,6 +467,7 @@ FT_UNUSED
 library
 )
 ;
+\
 \
 clazz
 -

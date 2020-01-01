@@ -36,6 +36,7 @@ GET_PIC
 (
 lib
 )
+\
 (
 (
 RasterPIC

@@ -276,7 +276,7 @@ pshinter
 0x10000L
 0x20000L
 &
-FTPSHINTER_INTERFACE_GET
+PSHINTER_INTERFACE_GET
 (
 FT_Module_Constructor
 )
@@ -288,5 +288,5 @@ ps_hinter_done
 (
 FT_Module_Requester
 )
-0
+NULL
 )

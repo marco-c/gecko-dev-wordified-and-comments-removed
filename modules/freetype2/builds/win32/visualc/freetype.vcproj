@@ -420,7 +420,7 @@ OutputFile
 \
 objs
 \
-freetype249
+freetype250
 .
 lib
 "
@@ -820,7 +820,7 @@ OutputFile
 \
 objs
 \
-freetype249MT
+freetype250MT
 .
 lib
 "
@@ -1220,7 +1220,7 @@ OutputFile
 \
 objs
 \
-freetype249ST
+freetype250ST
 .
 lib
 "
@@ -1608,7 +1608,7 @@ OutputFile
 \
 objs
 \
-freetype249_D
+freetype250_D
 .
 lib
 "
@@ -2002,7 +2002,7 @@ OutputFile
 \
 objs
 \
-freetype249ST_D
+freetype250ST_D
 .
 lib
 "
@@ -2403,7 +2403,7 @@ OutputFile
 \
 objs
 \
-freetype249MT_D
+freetype250MT_D
 .
 lib
 "

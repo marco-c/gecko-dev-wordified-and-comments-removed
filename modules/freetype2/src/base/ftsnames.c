@@ -69,7 +69,10 @@ aname
 FT_Error
 error
 =
-FT_Err_Invalid_Argument
+FT_ERR
+(
+Invalid_Argument
+)
 ;
 if
 (

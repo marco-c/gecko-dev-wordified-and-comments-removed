@@ -162,11 +162,13 @@ pic_container
 FT_Error
 error
 =
-PSnames_Err_Ok
+FT_Err_Ok
 ;
 PSModulePIC
 *
 container
+=
+NULL
 ;
 FT_Memory
 memory

@@ -71,7 +71,7 @@ buffer_max
 )
 ;
 return
-T42_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -87,10 +87,6 @@ glyph_name
 {
 FT_Int
 i
-;
-FT_String
-*
-gname
 ;
 for
 (
@@ -112,6 +108,8 @@ i
 +
 )
 {
+FT_String
+*
 gname
 =
 face
@@ -251,7 +249,7 @@ type1
 font_info
 ;
 return
-T42_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -281,7 +279,7 @@ type1
 font_extra
 ;
 return
-T42_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -328,7 +326,7 @@ type1
 private_dict
 ;
 return
-T42_Err_Ok
+FT_Err_Ok
 ;
 }
 static
@@ -470,13 +468,6 @@ T42_Size_Init
 T42_Size_Done
 T42_GlyphSlot_Init
 T42_GlyphSlot_Done
-#
-ifdef
-FT_CONFIG_OPTION_OLD_INTERNALS
-ft_stub_set_char_sizes
-ft_stub_set_pixel_sizes
-#
-endif
 T42_GlyphSlot_Load
 0
 0
