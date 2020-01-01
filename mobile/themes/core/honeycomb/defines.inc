@@ -139,6 +139,11 @@ color_text_panelrow
 222222
 %
 define
+color_text_toolbutton_inverse
+#
+666666
+%
+define
 color_background_highlight
 #
 a7c5f4
