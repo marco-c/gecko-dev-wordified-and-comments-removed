@@ -405,7 +405,7 @@ TableRowsCollection
 )
 NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
 (
-HTMLGenericCollection
+HTMLCollection
 )
 NS_INTERFACE_MAP_END
 nsresult

@@ -722,10 +722,6 @@ nsIDOMNSHTMLElement
 .
 idl
 \
-nsIDOMNSHTMLFormControlList
-.
-idl
-\
 nsIDOMNSHTMLFormElement
 .
 idl
