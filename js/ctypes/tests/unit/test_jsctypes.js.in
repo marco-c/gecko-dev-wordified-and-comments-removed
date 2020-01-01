@@ -2211,9 +2211,6 @@ Types
 UINT64
 )
 ;
-#
-ifndef
-XP_WIN
 do_check_eq
 (
 test_ui64_ui64
@@ -2223,8 +2220,6 @@ test_ui64_ui64
 0xfffffffffffff000
 )
 ;
-#
-endif
 do_check_throws
 (
 function
