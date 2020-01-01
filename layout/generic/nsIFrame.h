@@ -4036,13 +4036,6 @@ const
 0
 ;
 virtual
-bool
-AreAncestorViewsVisible
-(
-)
-const
-;
-virtual
 nsIWidget
 *
 GetNearestWidget
