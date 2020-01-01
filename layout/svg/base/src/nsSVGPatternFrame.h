@@ -396,6 +396,9 @@ aCTM
 nsIDOMSVGRect
 *
 bbox
+nsIDOMSVGRect
+*
+callerBBox
 nsIDOMSVGMatrix
 *
 callerCTM
