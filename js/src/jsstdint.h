@@ -51,6 +51,9 @@ JSUint64
 uint64_t
 ;
 #
+define
+_STDINT_H
+#
 if
 !
 defined

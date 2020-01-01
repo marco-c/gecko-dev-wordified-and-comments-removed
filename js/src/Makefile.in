@@ -1210,6 +1210,10 @@ nanojit
 .
 h
 \
+VMPI
+.
+h
+\
 (
 NULL
 )
@@ -1261,6 +1265,10 @@ NANOJIT_ARCH
 cpp
 \
 jsbuiltins
+.
+cpp
+\
+VMPI
 .
 cpp
 \
