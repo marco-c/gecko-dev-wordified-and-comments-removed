@@ -5973,7 +5973,7 @@ NodePrincipal
 (
 )
 scriptHandlingObject
-false
+DocumentFlavorLegacyGuess
 aReturn
 )
 ;
@@ -6103,7 +6103,7 @@ NodePrincipal
 (
 )
 scriptHandlingObject
-false
+DocumentFlavorLegacyGuess
 getter_AddRefs
 (
 document
@@ -18380,10 +18380,21 @@ rv
 rv
 )
 ;
+PRInt32
+ns
+=
+nodeInfo
+-
+>
+NamespaceID
+(
+)
+;
 return
 NS_NewElement
 (
 aReturn
+ns
 nodeInfo
 .
 forget
@@ -28144,6 +28155,7 @@ return
 NS_NewElement
 (
 aResult
+aNamespaceID
 nodeInfo
 .
 forget

@@ -15818,8 +15818,8 @@ aPrincipal
 nsIScriptGlobalObject
 *
 aEventObject
-bool
-aSVGDocument
+DocumentFlavor
+aFlavor
 nsIDOMDocument
 *
 *
@@ -15840,7 +15840,7 @@ aBaseURI
 aPrincipal
 true
 aEventObject
-aSVGDocument
+aFlavor
 )
 ;
 NS_ENSURE_SUCCESS

@@ -321,6 +321,10 @@ aDTDMode
 {
 NS_ASSERTION
 (
+!
+mDocShell
+|
+|
 GetDocument
 (
 )
@@ -568,6 +572,16 @@ true
 mPreventScriptExecution
 =
 aPreventScriptExecution
+;
+}
+void
+PreventScriptExecution
+(
+)
+{
+mPreventScriptExecution
+=
+true
 ;
 }
 bool
