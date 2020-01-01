@@ -92,7 +92,7 @@ Shutdown
 )
 ;
 static
-nsIFocusManager
+nsFocusManager
 *
 GetFocusManager
 (
@@ -100,6 +100,16 @@ GetFocusManager
 {
 return
 sInstance
+;
+}
+nsIContent
+*
+GetFocusedContent
+(
+)
+{
+return
+mFocusedContent
 ;
 }
 static
@@ -527,7 +537,7 @@ nsDelayedBlurOrFocusEvent
 mDelayedBlurFocusEvents
 ;
 static
-nsIFocusManager
+nsFocusManager
 *
 sInstance
 ;
