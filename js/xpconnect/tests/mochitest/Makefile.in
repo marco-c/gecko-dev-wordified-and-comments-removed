@@ -315,6 +315,10 @@ file_bug795275
 .
 xml
 \
+file_bug799348
+.
+html
+\
 file_nodelists
 .
 html
