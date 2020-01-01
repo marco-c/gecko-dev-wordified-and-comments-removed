@@ -415,7 +415,6 @@ DIRS
 =
 include
 src
-standalone
 include
 (
 topsrcdir

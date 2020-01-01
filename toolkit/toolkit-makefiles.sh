@@ -2062,13 +2062,6 @@ libreg
 src
 /
 Makefile
-modules
-/
-libreg
-/
-standalone
-/
-Makefile
 "
 MAKEFILES_libpref
 =
