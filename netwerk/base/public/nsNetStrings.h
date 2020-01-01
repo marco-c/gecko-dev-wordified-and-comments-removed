@@ -22,6 +22,10 @@ nsNetStrings
 ;
 const
 nsLiteralString
+kContentLength
+;
+const
+nsLiteralString
 kContentDisposition
 ;
 const

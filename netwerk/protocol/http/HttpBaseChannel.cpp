@@ -1159,11 +1159,16 @@ HttpBaseChannel
 :
 GetContentLength
 (
-PRInt64
+PRInt32
 *
 aContentLength
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aContentLength
+)
+;
 if
 (
 !
@@ -1192,7 +1197,7 @@ HttpBaseChannel
 :
 SetContentLength
 (
-PRInt64
+PRInt32
 value
 )
 {
