@@ -427,6 +427,12 @@ ref
 .
 html
 fails
+-
+if
+(
+!
+azureQuartz
+)
 =
 =
 canvas
