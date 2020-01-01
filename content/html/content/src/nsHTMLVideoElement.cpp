@@ -553,9 +553,3 @@ return
 MapAttributesIntoRule
 ;
 }
-NS_IMPL_URI_ATTR
-(
-nsHTMLVideoElement
-Poster
-poster
-)
