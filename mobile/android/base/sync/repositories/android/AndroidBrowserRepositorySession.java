@@ -2317,9 +2317,11 @@ record
 {
 dbHelper
 .
-delete
+purgeGuid
 (
 record
+.
+guid
 )
 ;
 delegate

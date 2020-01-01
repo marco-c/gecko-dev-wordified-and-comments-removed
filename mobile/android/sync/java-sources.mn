@@ -730,15 +730,6 @@ repositories
 /
 android
 /
-PasswordColumns
-.
-java
-sync
-/
-repositories
-/
-android
-/
 RepoUtils
 .
 java
