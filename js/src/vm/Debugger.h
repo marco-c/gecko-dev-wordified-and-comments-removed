@@ -319,9 +319,10 @@ unwrapDebuggeeArgument
 JSContext
 *
 cx
+const
 Value
-*
-vp
+&
+v
 )
 ;
 static
@@ -381,9 +382,10 @@ fromThisValue
 JSContext
 *
 cx
-Value
-*
-vp
+const
+CallArgs
+&
+ca
 const
 char
 *
