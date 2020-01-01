@@ -158,8 +158,6 @@ protected
 void
 GetGeckoDragAction
 (
-LPDATAOBJECT
-pData
 DWORD
 grfKeyState
 LPDWORD
@@ -172,8 +170,6 @@ aGeckoAction
 void
 ProcessDrag
 (
-LPDATAOBJECT
-pData
 PRUint32
 aEventType
 DWORD
@@ -200,8 +196,8 @@ m_cRef
 HWND
 mHWnd
 ;
-PRBool
-mCanMove
+DWORD
+mEffect
 ;
 PRBool
 mMovePreferred
