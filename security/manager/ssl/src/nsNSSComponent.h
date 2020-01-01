@@ -1248,7 +1248,10 @@ mCertVerificationThread
 nsNSSHttpInterface
 mHttpForNSS
 ;
+nsRefPtr
+<
 nsClientAuthRememberService
+>
 mClientAuthRememberService
 ;
 static

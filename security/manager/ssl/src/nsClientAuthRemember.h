@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 prmon
 .
 h
@@ -293,6 +300,8 @@ nsClientAuthRememberService
 :
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :

@@ -122,10 +122,11 @@ NSSCleanupAutoPtrClass
 CERTCertificate
 CERT_DestroyCertificate
 )
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_THREADSAFE_ISUPPORTS2
 (
 nsClientAuthRememberService
 nsIObserver
+nsISupportsWeakReference
 )
 nsClientAuthRememberService
 :

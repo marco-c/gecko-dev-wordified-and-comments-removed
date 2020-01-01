@@ -10320,11 +10320,11 @@ rv
 )
 )
 ;
+nsRefPtr
+<
 nsClientAuthRememberService
-*
+>
 cars
-=
-nsnull
 ;
 if
 (
@@ -10336,8 +10336,10 @@ nssComponent
 >
 GetClientAuthRememberService
 (
-&
+getter_AddRefs
+(
 cars
+)
 )
 ;
 }
