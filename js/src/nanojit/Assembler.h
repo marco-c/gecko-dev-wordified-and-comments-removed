@@ -660,6 +660,8 @@ allow
 Register
 getBaseReg
 (
+LOpcode
+op
 LIns
 *
 i
