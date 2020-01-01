@@ -924,10 +924,6 @@ CrashReporter
 GetChildNotificationPipe
 (
 )
-.
-BeginReading
-(
-)
 )
 )
 ;
