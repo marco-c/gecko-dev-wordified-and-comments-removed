@@ -82,7 +82,6 @@ eContainerType_Noncontainer
 1
 eContainerType_Container
 =
--
 2
 }
 ;
@@ -97,7 +96,6 @@ eContainerState_Open
 1
 eContainerState_Closed
 =
--
 2
 }
 ;
@@ -112,7 +110,6 @@ eContainerFill_Empty
 1
 eContainerFill_Nonempty
 =
--
 2
 }
 ;
@@ -129,17 +126,17 @@ mMatch
 ContainerType
 mContainerType
 :
-2
+4
 ;
 ContainerState
 mContainerState
 :
-2
+4
 ;
 ContainerFill
 mContainerFill
 :
-2
+4
 ;
 Subtree
 *
