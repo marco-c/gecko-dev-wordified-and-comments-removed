@@ -1877,6 +1877,8 @@ this
 .
 useWin
 this
+.
+useWin
 )
 ;
 return
