@@ -298,6 +298,10 @@ HTMLTableSectionElement
 .
 h
 \
+HTMLTextAreaElement
+.
+h
+\
 HTMLTitleElement
 .
 h
@@ -544,7 +548,7 @@ HTMLTableSectionElement
 .
 cpp
 \
-nsHTMLTextAreaElement
+HTMLTextAreaElement
 .
 cpp
 \
