@@ -376,3 +376,15 @@ variable
 environment
 .
 js
+script
+strict
+-
+this
+-
+is
+-
+not
+-
+truthy
+.
+js
