@@ -27305,11 +27305,14 @@ vp
 )
 ;
 }
-JS_ASSERT
+if
 (
-TypeHasProperty
-(
+!
 cx
+-
+>
+addTypePropertyId
+(
 obj
 -
 >
@@ -27324,6 +27327,8 @@ id
 vp
 )
 )
+return
+false
 ;
 return
 true

@@ -19491,15 +19491,6 @@ GlobalScopeElementReference
 "
 )
 ;
-JS_AddTypePropertyId
-(
-cx
-obj
-id
-*
-vp
-)
-;
 return
 JS_TRUE
 ;
