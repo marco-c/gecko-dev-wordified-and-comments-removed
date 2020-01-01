@@ -1840,6 +1840,16 @@ local
 >
 flags
 &
+CAIRO_WIN32_SURFACE_IS_DISPLAY
+)
+&
+&
+(
+local
+-
+>
+flags
+&
 CAIRO_WIN32_SURFACE_CAN_BITBLT
 )
 &
