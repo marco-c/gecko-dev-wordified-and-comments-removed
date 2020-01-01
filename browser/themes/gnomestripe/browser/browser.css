@@ -113,10 +113,13 @@ searchbar
 .
 searchbar
 -
-dropmarker
-menuseparator
-+
-menuitem
+popup
+.
+open
+-
+engine
+-
+manager
 {
 -
 moz
