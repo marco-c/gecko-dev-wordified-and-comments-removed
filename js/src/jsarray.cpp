@@ -1616,16 +1616,10 @@ if
 aobj
 -
 >
-getProperty
+getElement
 (
 cx
-INT_TO_JSID
-(
-jsint
-(
 i
-)
-)
 &
 vp
 [
