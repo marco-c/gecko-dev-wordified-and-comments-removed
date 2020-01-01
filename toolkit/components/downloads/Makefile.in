@@ -553,9 +553,3 @@ config
 rules
 .
 mk
-CXXFLAGS
-+
-=
-(
-TK_CFLAGS
-)
