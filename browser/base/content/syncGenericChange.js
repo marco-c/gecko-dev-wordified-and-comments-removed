@@ -505,7 +505,7 @@ document
 getElementById
 (
 "
-generatePassphraseButton
+passphraseBackupButtons
 "
 )
 .
