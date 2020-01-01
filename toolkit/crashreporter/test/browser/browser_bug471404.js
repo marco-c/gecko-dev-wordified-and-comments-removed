@@ -44,7 +44,6 @@ loadSubScript
 rootDir
 +
 "
-/
 aboutcrashes_utils
 .
 js

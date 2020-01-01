@@ -115,13 +115,9 @@ mochikit
 /
 content
 /
-chrome
+tests
 /
-docshell
-/
-test
-/
-chrome
+SimpleTest
 /
 docshell_helpers
 .
