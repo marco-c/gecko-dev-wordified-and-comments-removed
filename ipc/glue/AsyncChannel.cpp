@@ -840,12 +840,8 @@ Quit
 ;
 #
 else
-NS_DebugBreak
+_exit
 (
-NS_DEBUG_ABORT
-nsnull
-nsnull
-nsnull
 0
 )
 ;
