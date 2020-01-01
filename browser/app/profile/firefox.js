@@ -8020,7 +8020,7 @@ plugins
 .
 enabled
 "
-true
+false
 )
 ;
 #
