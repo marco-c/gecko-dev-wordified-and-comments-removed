@@ -1243,6 +1243,8 @@ tailfiles
 >
 testdir
 /
+target_dir
+/
 target_js
 .
 log
