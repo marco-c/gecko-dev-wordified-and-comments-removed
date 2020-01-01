@@ -4101,9 +4101,11 @@ nsXPCClassInfo
 GetClassInfo
 (
 )
-=
-0
+{
+return
+nullptr
 ;
+}
 void
 BindObject
 (
