@@ -968,6 +968,7 @@ string
 )
 new_pubkey
 =
+yield
 PubKeys
 .
 get
