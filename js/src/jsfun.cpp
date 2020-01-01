@@ -5160,15 +5160,6 @@ ts
 cx
 principals
 originPrincipals
-)
-;
-if
-(
-!
-ts
-.
-init
-(
 collected_args
 args_length
 filename
@@ -5180,9 +5171,6 @@ findVersion
 (
 )
 )
-)
-return
-false
 ;
 TokenKind
 tt
