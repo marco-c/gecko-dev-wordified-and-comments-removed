@@ -267,7 +267,15 @@ browser_gcli_js
 .
 js
 \
-browser_gcli_keyboard
+browser_gcli_keyboard1
+.
+js
+\
+browser_gcli_keyboard2
+.
+js
+\
+browser_gcli_keyboard3
 .
 js
 \
