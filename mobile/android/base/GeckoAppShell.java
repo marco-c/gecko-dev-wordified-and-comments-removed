@@ -1472,14 +1472,6 @@ public
 static
 native
 void
-schedulePauseComposition
-(
-)
-;
-public
-static
-native
-void
 scheduleResumeComposition
 (
 int
