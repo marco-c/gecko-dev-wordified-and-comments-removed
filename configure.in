@@ -62210,11 +62210,7 @@ LCMS_CFLAGS
 if
 test
 "
-OS_ARCH
-"
-=
-"
-WINNT
+_WIN32_MSVC
 "
 ;
 then
