@@ -306,16 +306,6 @@ classic
 /
 global
 /
-webConsole_networkPanel
-.
-css
-+
-skin
-/
-classic
-/
-global
-/
 alerts
 /
 alert
