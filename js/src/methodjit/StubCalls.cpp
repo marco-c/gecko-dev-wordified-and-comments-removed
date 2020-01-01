@@ -14620,6 +14620,17 @@ script
 (
 )
 ;
+if
+(
+!
+fp
+-
+>
+isConstructing
+(
+)
+)
+{
 Type
 type
 =
@@ -14673,6 +14684,7 @@ type
 )
 )
 ;
+}
 for
 (
 unsigned
@@ -14692,6 +14704,7 @@ i
 +
 )
 {
+Type
 type
 =
 GetValueType
