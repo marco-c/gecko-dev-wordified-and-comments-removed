@@ -89,6 +89,13 @@ js
 include
 app
 /
+infoitems
+.
+js
+#
+include
+app
+/
 ui
 .
 js
