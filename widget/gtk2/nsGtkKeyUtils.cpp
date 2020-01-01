@@ -5304,6 +5304,14 @@ aKeyEvent
 IsMeta
 (
 )
+&
+&
+!
+aKeyEvent
+.
+IsOS
+(
+)
 )
 {
 PR_LOG
