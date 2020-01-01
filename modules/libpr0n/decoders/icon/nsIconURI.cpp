@@ -1934,6 +1934,9 @@ aState
 if
 (
 mIconState
+>
+=
+0
 )
 aState
 =
