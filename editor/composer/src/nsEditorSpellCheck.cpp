@@ -2001,6 +2001,14 @@ mSpellChecker
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+nsRefPtr
+<
+nsEditorSpellCheck
+>
+kungFuDeathGrip
+=
+this
+;
 return
 mSpellChecker
 -
