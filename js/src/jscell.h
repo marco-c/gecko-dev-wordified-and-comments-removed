@@ -80,6 +80,13 @@ BLACK
 =
 0
 ;
+static
+const
+uint32
+GRAY
+=
+1
+;
 struct
 Cell
 {

@@ -5846,10 +5846,6 @@ uint32
 newColor
 )
 {
-drainMarkStack
-(
-)
-;
 color
 =
 newColor
@@ -5910,10 +5906,7 @@ isEmpty
 )
 ;
 }
-JS_FRIEND_API
-(
 void
-)
 drainMarkStack
 (
 )
