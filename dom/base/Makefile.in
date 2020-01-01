@@ -538,6 +538,10 @@ nsWrapperCache
 .
 h
 \
+nsContentPermissionHelper
+.
+h
+\
 (
 NULL
 )
@@ -621,6 +625,10 @@ nsDOMScriptObjectFactory
 cpp
 \
 nsQueryContentEventResult
+.
+cpp
+\
+nsContentPermissionHelper
 .
 cpp
 \
