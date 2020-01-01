@@ -106,10 +106,7 @@ android
 layout_width
 =
 "
-?
-attr
-/
-doorhangerWidth
+fill_parent
 "
 android
 :
@@ -220,7 +217,7 @@ android
 textSize
 =
 "
-14sp
+12sp
 "
 android
 :
@@ -298,7 +295,7 @@ android
 textSize
 =
 "
-14sp
+12sp
 "
 android
 :
@@ -393,7 +390,7 @@ android
 textSize
 =
 "
-14sp
+12sp
 "
 android
 :

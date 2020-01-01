@@ -194,9 +194,8 @@ android
 color
 =
 "
-color
-/
-text_color_secondary
+#
+FF666666
 "
 /
 >

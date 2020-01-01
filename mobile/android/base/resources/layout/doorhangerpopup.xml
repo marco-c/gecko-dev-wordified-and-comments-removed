@@ -123,10 +123,7 @@ android
 layout_width
 =
 "
-?
-attr
-/
-doorhangerWidth
+fill_parent
 "
 android
 :

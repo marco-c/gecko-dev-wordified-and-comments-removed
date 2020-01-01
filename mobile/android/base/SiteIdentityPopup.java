@@ -917,7 +917,7 @@ R
 .
 dimen
 .
-doorhanger_width
+popup_width
 )
 ;
 offset
