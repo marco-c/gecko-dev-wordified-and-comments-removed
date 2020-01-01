@@ -19,7 +19,10 @@ BEGIN_TEST
 testIntString_bug515273
 )
 {
-jsvalRoot
+JS
+:
+:
+RootedValue
 v
 (
 cx
@@ -35,7 +38,7 @@ EVAL
 "
 v
 .
-addr
+address
 (
 )
 )
@@ -47,10 +50,6 @@ str
 JSVAL_TO_STRING
 (
 v
-.
-value
-(
-)
 )
 ;
 CHECK
@@ -86,7 +85,7 @@ EVAL
 "
 v
 .
-addr
+address
 (
 )
 )
@@ -96,10 +95,6 @@ str
 JSVAL_TO_STRING
 (
 v
-.
-value
-(
-)
 )
 ;
 CHECK
@@ -135,7 +130,7 @@ EVAL
 "
 v
 .
-addr
+address
 (
 )
 )
@@ -145,10 +140,6 @@ str
 JSVAL_TO_STRING
 (
 v
-.
-value
-(
-)
 )
 ;
 CHECK
@@ -184,7 +175,7 @@ a
 "
 v
 .
-addr
+address
 (
 )
 )
@@ -194,10 +185,6 @@ str
 JSVAL_TO_STRING
 (
 v
-.
-value
-(
-)
 )
 ;
 CHECK
@@ -233,7 +220,7 @@ bc
 "
 v
 .
-addr
+address
 (
 )
 )
@@ -243,10 +230,6 @@ str
 JSVAL_TO_STRING
 (
 v
-.
-value
-(
-)
 )
 ;
 CHECK

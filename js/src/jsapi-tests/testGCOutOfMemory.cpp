@@ -50,7 +50,10 @@ cx
 ErrorCounter
 )
 ;
-jsvalRoot
+JS
+:
+:
+RootedValue
 root
 (
 cx
@@ -142,7 +145,7 @@ source
 1
 root
 .
-addr
+address
 (
 )
 )
@@ -237,7 +240,7 @@ push
 "
 root
 .
-addr
+address
 (
 )
 )

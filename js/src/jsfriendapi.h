@@ -83,8 +83,7 @@ JS_FindCompilationScope
 JSContext
 *
 cx
-JSObject
-*
+JSRawObject
 obj
 )
 ;
@@ -96,8 +95,7 @@ JSFunction
 )
 JS_GetObjectFunction
 (
-JSObject
-*
+JSRawObject
 obj
 )
 ;
@@ -161,8 +159,7 @@ uint32_t
 )
 JS_ObjectCountDynamicSlots
 (
-JSObject
-*
+JSHandleObject
 obj
 )
 ;
@@ -809,8 +806,7 @@ AutoSwitchCompartment
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 target
 JS_GUARD_OBJECT_NOTIFIER_PARAM
 )
@@ -1343,9 +1339,7 @@ Class
 *
 GetObjectClass
 (
-const
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -1378,9 +1372,7 @@ JSClass
 *
 GetObjectJSClass
 (
-const
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -1403,8 +1395,7 @@ bool
 )
 IsScopeObject
 (
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -1413,8 +1404,7 @@ JSObject
 *
 GetObjectParent
 (
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -1457,8 +1447,7 @@ JSObject
 )
 GetObjectParentMaybeScope
 (
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -1469,8 +1458,7 @@ JSObject
 )
 GetGlobalForObjectCrossCompartment
 (
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -1480,8 +1468,7 @@ void
 )
 NotifyAnimationActivity
 (
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -1614,8 +1601,7 @@ Value
 )
 GetFunctionNativeReserved
 (
-JSObject
-*
+RawObject
 fun
 size_t
 which
@@ -1627,8 +1613,7 @@ void
 )
 SetFunctionNativeReserved
 (
-JSObject
-*
+RawObject
 fun
 size_t
 which
@@ -1643,8 +1628,7 @@ JSObject
 *
 GetObjectProto
 (
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -1674,8 +1658,7 @@ void
 *
 GetObjectPrivate
 (
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -1740,9 +1723,7 @@ Value
 &
 GetReservedSlot
 (
-const
-JSObject
-*
+RawObject
 obj
 size_t
 slot
@@ -1788,8 +1769,7 @@ void
 )
 SetReservedSlotWithBarrier
 (
-JSObject
-*
+RawObject
 obj
 size_t
 slot
@@ -1803,8 +1783,7 @@ inline
 void
 SetReservedSlot
 (
-JSObject
-*
+RawObject
 obj
 size_t
 slot
@@ -1885,8 +1864,7 @@ uint32_t
 )
 GetObjectSlotSpan
 (
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -1896,8 +1874,7 @@ Value
 &
 GetObjectSlot
 (
-JSObject
-*
+RawObject
 obj
 size_t
 slot
@@ -1939,8 +1916,7 @@ Shape
 *
 GetObjectShape
 (
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -2035,8 +2011,7 @@ js
 PropertyOp
 CastAsJSPropertyOp
 (
-JSObject
-*
+RawObject
 object
 )
 {
@@ -2059,8 +2034,7 @@ js
 StrictPropertyOp
 CastAsJSStrictPropertyOp
 (
-JSObject
-*
+RawObject
 object
 )
 {
@@ -2084,8 +2058,7 @@ GetPropertyNames
 JSContext
 *
 cx
-JSObject
-*
+RawObject
 obj
 unsigned
 flags
@@ -2152,9 +2125,7 @@ bool
 )
 IsObjectInContextCompartment
 (
-const
-JSObject
-*
+RawObject
 obj
 const
 JSContext
@@ -3113,8 +3084,7 @@ bool
 )
 IsIncrementalBarrierNeededOnObject
 (
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -3623,8 +3593,7 @@ js_DateGetMsecSinceEpoch
 JSContext
 *
 cx
-JSObject
-*
+JSRawObject
 obj
 )
 ;

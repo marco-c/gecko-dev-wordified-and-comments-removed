@@ -1075,8 +1075,7 @@ Snapshot
 JSContext
 *
 cx
-JSObject
-*
+RawObject
 obj_
 unsigned
 flags
@@ -5192,11 +5191,8 @@ js_ValueToObjectOrNull
 (
 cx
 vp
+&
 obj
-.
-address
-(
-)
 )
 )
 return

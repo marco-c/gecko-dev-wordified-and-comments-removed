@@ -1293,9 +1293,7 @@ nchars
 bool
 codeFunction
 (
-JSObject
-*
-*
+JSMutableHandleObject
 objp
 )
 ;

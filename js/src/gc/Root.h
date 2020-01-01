@@ -741,6 +741,11 @@ Value
 >
 MutableHandleValue
 ;
+typedef
+JSObject
+*
+RawObject
+;
 template
 <
 typename

@@ -174,10 +174,7 @@ CHECK
 JS_InitClass
 (
 cx
-JS_GetGlobalObject
-(
-cx
-)
+global
 NULL
 &
 ptestClass
@@ -244,7 +241,10 @@ i
 +
 )
 {
-jsvalRoot
+JS
+:
+:
+RootedValue
 rval
 (
 cx
@@ -263,7 +263,7 @@ check
 NULL
 rval
 .
-addr
+address
 (
 )
 )

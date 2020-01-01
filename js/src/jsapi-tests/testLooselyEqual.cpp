@@ -138,7 +138,10 @@ obj
 =
 OBJECT_TO_JSVAL
 (
-global
+JS_GetGlobalObject
+(
+cx
+)
 )
 ;
 poszero

@@ -210,7 +210,10 @@ i
 +
 )
 {
-jsvalRoot
+JS
+:
+:
+RootedValue
 rval
 (
 cx
@@ -229,7 +232,7 @@ main
 NULL
 rval
 .
-addr
+address
 (
 )
 )

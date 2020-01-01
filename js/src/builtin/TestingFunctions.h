@@ -13,8 +13,7 @@ DefineTestingFunctions
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 obj
 )
 ;

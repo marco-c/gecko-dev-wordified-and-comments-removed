@@ -563,9 +563,7 @@ mode
 :
 codeFunction
 (
-JSObject
-*
-*
+JSMutableHandleObject
 objp
 )
 {
@@ -576,10 +574,12 @@ mode
 =
 XDR_DECODE
 )
-*
 objp
-=
+.
+set
+(
 NULL
+)
 ;
 if
 (
