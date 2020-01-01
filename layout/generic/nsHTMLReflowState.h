@@ -644,14 +644,6 @@ mTableIsSplittable
 }
 mFlags
 ;
-#
-ifdef
-IBMBIDI
-nscoord
-mRightEdge
-;
-#
-endif
 nsHTMLReflowState
 (
 nsPresContext
