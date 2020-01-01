@@ -908,17 +908,9 @@ CompartmentPrivate
 (
 )
 {
-if
-(
-waiverWrapperMap
-)
 delete
 waiverWrapperMap
 ;
-if
-(
-expandoMap
-)
 delete
 expandoMap
 ;
