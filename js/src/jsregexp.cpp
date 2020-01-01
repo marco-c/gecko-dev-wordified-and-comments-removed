@@ -16653,11 +16653,11 @@ lirbuf
 rp
 )
 ;
-:
-:
+assm
+-
+>
 compile
 (
-assm
 fragment
 tempAlloc
 true

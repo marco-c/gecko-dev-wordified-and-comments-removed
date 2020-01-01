@@ -24298,12 +24298,11 @@ nanojit
 None
 )
 ;
-nanojit
-:
-:
+assm
+-
+>
 compile
 (
-assm
 fragment
 tempAlloc
 (
