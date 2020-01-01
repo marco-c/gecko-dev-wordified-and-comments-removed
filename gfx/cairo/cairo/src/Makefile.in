@@ -1433,6 +1433,12 @@ xlib
 xrender
 .
 h
+OS_INCLUDES
++
+=
+(
+XCFLAGS
+)
 endif
 ifdef
 MOZ_ENABLE_CAIRO_FT
