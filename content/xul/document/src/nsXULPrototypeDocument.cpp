@@ -2896,7 +2896,10 @@ GetGlobalJSObject
 )
 {
 return
+xpc_UnmarkGrayObject
+(
 mJSObject
+)
 ;
 }
 void
