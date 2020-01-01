@@ -1394,8 +1394,8 @@ properly
 synthesizeMouseExpectEvent
 (
 element
-6
-6
+10
+10
 {
 }
 element
@@ -1446,7 +1446,7 @@ rect
 .
 left
 -
-6
+10
 rect
 .
 bottom
@@ -1455,7 +1455,7 @@ rect
 .
 top
 -
-6
+10
 {
 }
 element
