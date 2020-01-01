@@ -676,6 +676,10 @@ nsLayoutUtils
 .
 cpp
 \
+nsPresArena
+.
+cpp
+\
 nsPresContext
 .
 cpp
