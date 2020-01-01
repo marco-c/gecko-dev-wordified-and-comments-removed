@@ -125,6 +125,10 @@ nsIDOMWindow
 aWindow
 )
 ;
+DOMRequest
+(
+)
+;
 virtual
 ~
 DOMRequest
@@ -167,6 +171,14 @@ virtual
 void
 UnrootResultVal
 (
+)
+;
+void
+Init
+(
+nsIDOMWindow
+*
+aWindow
 )
 ;
 }

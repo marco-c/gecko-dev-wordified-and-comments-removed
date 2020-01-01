@@ -82,6 +82,7 @@ mk
 PARALLEL_DIRS
 =
 interfaces
+src
 include
 (
 topsrcdir

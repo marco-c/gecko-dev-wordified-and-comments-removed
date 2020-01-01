@@ -277,6 +277,13 @@ interfaces
 Makefile
 dom
 /
+activities
+/
+src
+/
+Makefile
+dom
+/
 alarm
 /
 Makefile
