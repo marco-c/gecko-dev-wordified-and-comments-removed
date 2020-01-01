@@ -595,14 +595,11 @@ bool
 aDoSetAttr
 )
 ;
-virtual
 void
 DidChangeEnum
 (
 PRUint8
 aAttrEnum
-bool
-aDoSetAttr
 )
 ;
 virtual
