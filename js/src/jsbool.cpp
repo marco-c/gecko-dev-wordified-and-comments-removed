@@ -136,10 +136,7 @@ js
 types
 ;
 Class
-js
-:
-:
-BooleanClass
+js_BooleanClass
 =
 {
 "
@@ -476,7 +473,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-BooleanClass
+js_BooleanClass
 )
 ;
 if
@@ -545,7 +542,7 @@ cx
 obj
 NULL
 &
-BooleanClass
+js_BooleanClass
 Boolean
 1
 NULL

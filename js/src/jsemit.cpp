@@ -9357,7 +9357,7 @@ base
 JSSLOT_FREE
 (
 &
-BlockClass
+js_BlockClass
 )
 ;
 for
@@ -22810,7 +22810,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+js_ObjectClass
 kind
 )
 ;
@@ -32589,7 +32589,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+js_ObjectClass
 kind
 )
 ;

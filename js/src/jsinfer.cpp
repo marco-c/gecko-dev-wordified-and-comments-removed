@@ -21925,7 +21925,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+js_ObjectClass
 gc
 :
 :

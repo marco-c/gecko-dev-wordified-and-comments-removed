@@ -9131,10 +9131,7 @@ jsClass
 =
 =
 &
-js
-:
-:
-FunctionClass
+js_FunctionClass
 )
 {
 aObj
@@ -9169,10 +9166,7 @@ jsClass
 =
 =
 &
-js
-:
-:
-CallClass
+js_CallClass
 )
 {
 aObj

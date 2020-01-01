@@ -41,6 +41,13 @@ define
 JSON_PARSER_BUFSIZE
 1024
 extern
+js
+:
+:
+Class
+js_JSONClass
+;
+extern
 JSObject
 *
 js_InitJSONClass
