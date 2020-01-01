@@ -314,10 +314,10 @@ GetBoundsForString
 nsIFrame
 *
 aFrame
-PRInt32
-aStartContentOffset
-PRInt32
-aEndContentOffset
+PRUint32
+aStartRenderedOffset
+PRUint32
+aEndRenderedOffset
 )
 ;
 virtual
