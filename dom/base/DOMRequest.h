@@ -100,6 +100,9 @@ FireSuccess
 (
 jsval
 aResult
+bool
+*
+aDefaultActionEnabled
 )
 ;
 void
@@ -109,6 +112,9 @@ const
 nsAString
 &
 aError
+bool
+*
+aDefaultActionEnabled
 )
 ;
 void
@@ -116,6 +122,9 @@ FireError
 (
 nsresult
 aError
+bool
+*
+aDefaultActionEnabled
 )
 ;
 DOMRequest
@@ -159,6 +168,9 @@ bool
 aBubble
 bool
 aCancelable
+bool
+*
+aDefaultActionEnabled
 )
 ;
 virtual

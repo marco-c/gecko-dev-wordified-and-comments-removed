@@ -274,11 +274,18 @@ NS_FAILED
 rv
 )
 )
+{
+bool
+allowDefault
+;
 FireError
 (
 rv
+&
+allowDefault
 )
 ;
+}
 }
 void
 ArchiveRequest
@@ -333,6 +340,9 @@ nsresult
 aStatus
 )
 {
+bool
+allowDefault
+;
 if
 (
 aStatus
@@ -344,6 +354,8 @@ NS_OK
 FireError
 (
 aStatus
+&
+allowDefault
 )
 ;
 return
@@ -526,6 +538,8 @@ rv
 FireSuccess
 (
 result
+&
+allowDefault
 )
 ;
 }
@@ -534,6 +548,8 @@ else
 FireError
 (
 rv
+&
+allowDefault
 )
 ;
 }
