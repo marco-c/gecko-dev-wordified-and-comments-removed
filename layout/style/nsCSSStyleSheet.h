@@ -94,13 +94,11 @@ nsCSSStyleSheet
 aPrimarySheet
 )
 ;
-virtual
 ~
 nsCSSStyleSheetInner
 (
 )
 ;
-virtual
 nsCSSStyleSheetInner
 *
 CloneFor
@@ -110,7 +108,6 @@ nsCSSStyleSheet
 aPrimarySheet
 )
 ;
-virtual
 void
 AddSheet
 (
@@ -119,7 +116,6 @@ nsICSSStyleSheet
 aSheet
 )
 ;
-virtual
 void
 RemoveSheet
 (
@@ -128,7 +124,6 @@ nsICSSStyleSheet
 aSheet
 )
 ;
-virtual
 void
 RebuildNameSpaces
 (
