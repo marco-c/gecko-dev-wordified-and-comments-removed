@@ -770,7 +770,6 @@ filter
 gtk2
 beos
 photon
-qt
 (
 MOZ_WIDGET_TOOLKIT
 )

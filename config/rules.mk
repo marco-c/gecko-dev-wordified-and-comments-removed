@@ -1919,15 +1919,6 @@ such
 -
 file
 ifdef
-QTDIR
-GARBAGE
-+
-=
-(
-MOCSRCS
-)
-endif
-ifdef
 SIMPLE_PROGRAMS
 GARBAGE
 +

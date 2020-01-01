@@ -420,7 +420,6 @@ ifneq
 filter
 gtk2
 photon
-qt
 beos
 (
 MOZ_WIDGET_TOOLKIT

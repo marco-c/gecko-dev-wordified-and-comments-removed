@@ -540,7 +540,6 @@ filter
 beos
 os2
 mac
-qt
 cocoa
 windows
 (
@@ -563,7 +562,6 @@ beos
 gtk2
 os2
 mac
-qt
 cocoa
 photon
 windows
@@ -590,7 +588,6 @@ ifneq
 (
 filter
 gtk2
-qt
 windows
 mac
 cocoa
