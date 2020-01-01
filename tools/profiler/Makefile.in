@@ -585,6 +585,14 @@ CPPSRCS
 +
 =
 \
+shared
+-
+libraries
+-
+macos
+.
+cc
+\
 platform
 -
 macos
