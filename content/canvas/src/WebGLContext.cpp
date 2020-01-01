@@ -4696,7 +4696,7 @@ true
 break
 ;
 case
-WebGL_WEBKIT_lose_context
+WebGL_WEBGL_EXT_lose_context
 :
 isSupported
 =
@@ -4814,7 +4814,7 @@ aName
 EqualsLiteral
 (
 "
-WEBKIT_lose_context
+WEBGL_EXT_lose_context
 "
 )
 )
@@ -4823,12 +4823,12 @@ if
 (
 IsExtensionSupported
 (
-WebGL_WEBKIT_lose_context
+WebGL_WEBGL_EXT_lose_context
 )
 )
 ei
 =
-WebGL_WEBKIT_lose_context
+WebGL_WEBGL_EXT_lose_context
 ;
 }
 if
@@ -4870,7 +4870,7 @@ this
 break
 ;
 case
-WebGL_WEBKIT_lose_context
+WebGL_WEBGL_EXT_lose_context
 :
 mEnabledExtensions
 [
@@ -6378,7 +6378,7 @@ if
 (
 IsExtensionSupported
 (
-WebGL_WEBKIT_lose_context
+WebGL_WEBGL_EXT_lose_context
 )
 )
 extList
@@ -6391,7 +6391,7 @@ Length
 (
 )
 "
-WEBKIT_lose_context
+WEBGL_EXT_lose_context
 "
 )
 ;

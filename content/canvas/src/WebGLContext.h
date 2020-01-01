@@ -1991,7 +1991,7 @@ WebGLExtensionID
 {
 WebGL_OES_texture_float
 WebGL_OES_standard_derivatives
-WebGL_WEBKIT_lose_context
+WebGL_WEBGL_EXT_lose_context
 WebGLExtensionID_Max
 }
 ;
