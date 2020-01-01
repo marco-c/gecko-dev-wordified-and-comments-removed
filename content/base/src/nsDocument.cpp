@@ -14741,6 +14741,9 @@ window
 }
 #
 endif
+#
+ifdef
+MOZ_SMIL
 NS_ABORT_IF_FALSE
 (
 aScriptGlobalObject
@@ -14776,6 +14779,8 @@ unpaused
 "
 )
 ;
+#
+endif
 if
 (
 mScriptGlobalObject
