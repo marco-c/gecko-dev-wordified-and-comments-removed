@@ -913,7 +913,7 @@ bool
 aRestyleDescendants
 )
 ;
-nsresult
+void
 InitAndRestoreFrame
 (
 const
