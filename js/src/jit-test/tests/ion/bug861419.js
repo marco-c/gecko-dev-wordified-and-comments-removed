@@ -1,3 +1,8 @@
+arguments
+=
+[
+]
+;
 try
 {
 arguments
