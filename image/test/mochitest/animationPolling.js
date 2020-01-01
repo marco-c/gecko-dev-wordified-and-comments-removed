@@ -6,6 +6,11 @@ gIsRefImageLoaded
 =
 false
 ;
+const
+gShouldOutputDebugInfo
+=
+false
+;
 function
 pollForSuccess
 (
@@ -417,6 +422,15 @@ id
 dataUri
 )
 {
+if
+(
+!
+gShouldOutputDebugInfo
+)
+{
+return
+;
+}
 var
 debugElement
 =
