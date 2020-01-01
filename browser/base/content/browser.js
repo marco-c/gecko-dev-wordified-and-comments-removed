@@ -7347,7 +7347,6 @@ DeveloperToolbar
 .
 show
 (
-false
 )
 ;
 }
@@ -13828,6 +13827,9 @@ removeNotification
 previousNotification
 )
 ;
+let
+notification
+=
 notificationBox
 .
 appendNotification
@@ -13854,6 +13856,13 @@ notificationBox
 PRIORITY_CRITICAL_HIGH
 buttons
 )
+;
+notification
+.
+persistence
+=
+-
+1
 ;
 }
 }
