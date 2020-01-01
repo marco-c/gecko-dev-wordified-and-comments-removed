@@ -173,11 +173,6 @@ nsEventQueue
 h
 '
 '
-nsMemoryPressure
-.
-h
-'
-'
 nsProcess
 .
 h
@@ -236,11 +231,6 @@ cpp
 '
 '
 nsEventQueue
-.
-cpp
-'
-'
-nsMemoryPressure
 .
 cpp
 '
