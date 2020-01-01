@@ -3331,7 +3331,7 @@ rect
 #
 bookmarksToolbarFolderMenu
 #
-BMB_bookmarksToolbarFolderMenu
+BMB_bookmarksToolbar
 {
 list
 -
@@ -3360,7 +3360,7 @@ png
 ;
 }
 #
-unsortedBookmarksFolderMenu
+BMB_unsortedBookmarks
 {
 list
 -
