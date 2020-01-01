@@ -83,6 +83,11 @@ char
 *
 profile
 ;
+const
+char
+*
+UAName
+;
 }
 ;
 #
