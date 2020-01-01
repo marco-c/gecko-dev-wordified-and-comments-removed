@@ -236,9 +236,6 @@ XP_MACOSX
 BINPATH
 /
 XUL
-BINPATH
-/
-MOZ_CHILD_PROCESS_NAME
 #
 else
 BINPATH
@@ -246,6 +243,8 @@ BINPATH
 DLL_PREFIX
 xul
 DLL_SUFFIX
+#
+endif
 #
 ifdef
 MOZ_IPC
@@ -263,8 +262,6 @@ else
 BINPATH
 /
 MOZ_CHILD_PROCESS_NAME
-#
-endif
 #
 endif
 #
