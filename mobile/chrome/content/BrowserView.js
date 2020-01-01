@@ -1161,7 +1161,7 @@ md
 &
 md
 .
-minScale
+minZoom
 )
 bounded
 =
@@ -1172,7 +1172,7 @@ max
 bounded
 md
 .
-minScale
+minZoom
 )
 ;
 if
@@ -1182,7 +1182,7 @@ md
 &
 md
 .
-maxScale
+maxZoom
 )
 bounded
 =
@@ -1193,7 +1193,7 @@ min
 bounded
 md
 .
-maxScale
+maxZoom
 )
 ;
 }
@@ -2716,7 +2716,7 @@ md
 &
 md
 .
-scale
+defaultZoom
 )
 pageZoom
 =
@@ -2727,7 +2727,7 @@ max
 pageZoom
 md
 .
-scale
+defaultZoom
 )
 ;
 return

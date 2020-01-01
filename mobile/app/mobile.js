@@ -173,6 +173,16 @@ zoomValues
 pref
 (
 "
+zoom
+.
+dpiScale
+"
+150
+)
+;
+pref
+(
+"
 ui
 .
 use_native_popup_windows
