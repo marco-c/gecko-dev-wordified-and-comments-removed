@@ -363,7 +363,7 @@ GetBool
 "
 device
 .
-motion
+sensors
 .
 enabled
 "
@@ -499,6 +499,14 @@ nsIDOMWindow
 aWindow
 )
 {
+if
+(
+!
+mEnabled
+)
+return
+NS_OK
+;
 if
 (
 mWindowListeners
@@ -682,13 +690,6 @@ SensorData
 aSensorData
 )
 {
-if
-(
-!
-mEnabled
-)
-return
-;
 PRUint32
 type
 =
