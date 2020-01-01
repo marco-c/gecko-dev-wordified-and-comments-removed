@@ -489,6 +489,15 @@ shape
 >
 slot
 )
+&
+&
+!
+cx
+-
+>
+typeInferenceEnabled
+(
+)
 )
 {
 const
