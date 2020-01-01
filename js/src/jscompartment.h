@@ -1004,7 +1004,7 @@ bool
 hold
 ;
 bool
-systemGCChunks
+isSystemCompartment
 ;
 #
 ifdef

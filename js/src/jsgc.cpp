@@ -2213,7 +2213,7 @@ cx
 runtime
 ;
 bool
-systemGCChunks
+isSystemCompartment
 =
 cx
 -
@@ -2221,7 +2221,7 @@ cx
 compartment
 -
 >
-systemGCChunks
+isSystemCompartment
 ;
 GCChunkSet
 :
@@ -2229,7 +2229,7 @@ GCChunkSet
 Range
 r
 (
-systemGCChunks
+isSystemCompartment
 ?
 rt
 -
@@ -2243,7 +2243,7 @@ all
 rt
 -
 >
-gcChunkSet
+gcUserChunkSet
 .
 all
 (
@@ -2319,12 +2319,12 @@ GCChunkSet
 Enum
 e
 (
-systemGCChunks
+isSystemCompartment
 ?
 rt
 -
 >
-gcChunkSet
+gcUserChunkSet
 :
 rt
 -
@@ -2399,7 +2399,7 @@ GCChunkSet
 AddPtr
 p
 =
-systemGCChunks
+isSystemCompartment
 ?
 rt
 -
@@ -2414,7 +2414,7 @@ chunk
 rt
 -
 >
-gcChunkSet
+gcUserChunkSet
 .
 lookupForAdd
 (
@@ -2429,7 +2429,7 @@ p
 ;
 if
 (
-systemGCChunks
+isSystemCompartment
 )
 {
 if
@@ -2466,7 +2466,7 @@ if
 rt
 -
 >
-gcChunkSet
+gcUserChunkSet
 .
 add
 (
@@ -2557,7 +2557,7 @@ e
 rt
 -
 >
-gcChunkSet
+gcUserChunkSet
 )
 ;
 !
@@ -2951,7 +2951,7 @@ if
 rt
 -
 >
-gcChunkSet
+gcUserChunkSet
 .
 init
 (
@@ -3515,7 +3515,7 @@ context
 runtime
 -
 >
-gcChunkSet
+gcUserChunkSet
 .
 has
 (
@@ -4556,7 +4556,7 @@ r
 rt
 -
 >
-gcChunkSet
+gcUserChunkSet
 .
 all
 (
@@ -4630,7 +4630,7 @@ front
 rt
 -
 >
-gcChunkSet
+gcUserChunkSet
 .
 clear
 (
@@ -11454,7 +11454,7 @@ r
 rt
 -
 >
-gcChunkSet
+gcUserChunkSet
 .
 all
 (
@@ -13995,7 +13995,7 @@ init
 compartment
 -
 >
-systemGCChunks
+isSystemCompartment
 =
 principals
 &
