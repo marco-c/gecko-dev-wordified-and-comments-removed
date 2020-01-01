@@ -5201,6 +5201,13 @@ peek
 1
 )
 ;
+frame
+.
+forgetMismatchedObject
+(
+obj
+)
+;
 if
 (
 !
@@ -9331,6 +9338,13 @@ peek
 (
 -
 1
+)
+;
+frame
+.
+forgetMismatchedObject
+(
+obj
 )
 ;
 if

@@ -1293,7 +1293,7 @@ JS_ASSERT
 obj
 -
 >
-isDenseArray
+isArray
 (
 )
 )
@@ -1403,7 +1403,7 @@ JS_ASSERT
 obj
 -
 >
-isDenseArray
+isArray
 (
 )
 )
@@ -1482,7 +1482,7 @@ JS_ASSERT
 obj
 -
 >
-isDenseArray
+isArray
 (
 )
 )
@@ -1592,7 +1592,7 @@ JS_ASSERT
 obj1
 -
 >
-isDenseArray
+isArray
 (
 )
 )
@@ -1602,7 +1602,7 @@ JS_ASSERT
 obj2
 -
 >
-isDenseArray
+isArray
 (
 )
 )
@@ -1613,7 +1613,7 @@ res
 res
 -
 >
-isDenseArray
+isArray
 (
 )
 )
@@ -2189,8 +2189,11 @@ FetchElementId
 cx
 obj
 key
-&
 id
+.
+address
+(
+)
 &
 dummy
 )

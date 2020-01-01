@@ -5018,7 +5018,7 @@ sp
 >
 setMagic
 (
-JS_ARRAY_HOLE
+JS_ELEMENTS_HOLE
 )
 #
 define
@@ -8601,8 +8601,11 @@ ValueToId
 cx
 obj
 idval_
-&
 id
+.
+address
+(
+)
 )
 )
 \
@@ -15886,7 +15889,7 @@ JS_ASSERT
 obj
 -
 >
-isDenseArray
+isArray
 (
 )
 )
@@ -20823,8 +20826,11 @@ FetchElementId
 cx
 obj
 indexval
-&
 id
+.
+address
+(
+)
 &
 indexval
 )

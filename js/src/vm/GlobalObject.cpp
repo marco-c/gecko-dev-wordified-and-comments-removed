@@ -2352,6 +2352,10 @@ v
 set
 (
 this
+HeapSlot
+:
+:
+Slot
 RUNTIME_CODEGEN_ENABLED
 BooleanValue
 (

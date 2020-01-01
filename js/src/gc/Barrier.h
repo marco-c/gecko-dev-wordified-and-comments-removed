@@ -1891,6 +1891,13 @@ MOZ_DELETE
 ;
 public
 :
+enum
+Kind
+{
+Slot
+Element
+}
+;
 explicit
 inline
 HeapSlot
@@ -1905,6 +1912,8 @@ HeapSlot
 JSObject
 *
 obj
+Kind
+kind
 uint32_t
 slot
 const
@@ -1920,6 +1929,8 @@ HeapSlot
 JSObject
 *
 obj
+Kind
+kind
 uint32_t
 slot
 const
@@ -1941,6 +1952,8 @@ init
 JSObject
 *
 owner
+Kind
+kind
 uint32_t
 slot
 const
@@ -1959,6 +1972,8 @@ comp
 JSObject
 *
 owner
+Kind
+kind
 uint32_t
 slot
 const
@@ -1974,6 +1989,8 @@ set
 JSObject
 *
 owner
+Kind
+kind
 uint32_t
 slot
 const
@@ -1992,6 +2009,8 @@ comp
 JSObject
 *
 owner
+Kind
+kind
 uint32_t
 slot
 const
@@ -2007,6 +2026,8 @@ setCrossCompartment
 JSObject
 *
 owner
+Kind
+kind
 uint32_t
 slot
 const
@@ -2026,6 +2047,8 @@ writeBarrierPost
 JSObject
 *
 obj
+Kind
+kind
 uint32_t
 slot
 )
@@ -2041,6 +2064,8 @@ comp
 JSObject
 *
 obj
+Kind
+kind
 uint32_t
 slot
 )
@@ -2054,6 +2079,8 @@ post
 JSObject
 *
 owner
+Kind
+kind
 uint32_t
 slot
 )
@@ -2068,6 +2095,8 @@ comp
 JSObject
 *
 owner
+Kind
+kind
 uint32_t
 slot
 )

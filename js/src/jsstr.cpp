@@ -9273,7 +9273,7 @@ RootedObject
 obj
 (
 cx
-NewSlowEmptyArray
+NewDenseEmptyArray
 (
 cx
 )

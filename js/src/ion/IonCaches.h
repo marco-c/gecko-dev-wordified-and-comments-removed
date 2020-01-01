@@ -235,7 +235,7 @@ allowGetters
 1
 ;
 bool
-hasDenseArrayLengthStub
+hasArrayLengthStub
 :
 1
 ;
@@ -282,7 +282,7 @@ monitoredResult
 1
 ;
 bool
-hasDenseArrayStub
+hasDenseStub
 :
 1
 ;
@@ -870,7 +870,7 @@ u
 .
 getprop
 .
-hasDenseArrayLengthStub
+hasArrayLengthStub
 =
 false
 ;
@@ -945,7 +945,7 @@ allowGetters
 ;
 }
 bool
-hasDenseArrayLengthStub
+hasArrayLengthStub
 (
 )
 const
@@ -955,7 +955,7 @@ u
 .
 getprop
 .
-hasDenseArrayLengthStub
+hasArrayLengthStub
 ;
 }
 bool
@@ -1018,7 +1018,7 @@ returnAddr
 )
 ;
 bool
-attachDenseArrayLength
+attachArrayLength
 (
 JSContext
 *
@@ -1321,7 +1321,7 @@ u
 .
 getelem
 .
-hasDenseArrayStub
+hasDenseStub
 =
 false
 ;
@@ -1391,7 +1391,7 @@ monitoredResult
 ;
 }
 bool
-hasDenseArrayStub
+hasDenseStub
 (
 )
 const
@@ -1401,18 +1401,18 @@ u
 .
 getelem
 .
-hasDenseArrayStub
+hasDenseStub
 ;
 }
 void
-setHasDenseArrayStub
+setHasDenseStub
 (
 )
 {
 JS_ASSERT
 (
 !
-hasDenseArrayStub
+hasDenseStub
 (
 )
 )
@@ -1421,7 +1421,7 @@ u
 .
 getelem
 .
-hasDenseArrayStub
+hasDenseStub
 =
 true
 ;
@@ -1447,7 +1447,7 @@ name
 )
 ;
 bool
-attachDenseArray
+attachDenseElement
 (
 JSContext
 *

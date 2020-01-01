@@ -2045,7 +2045,7 @@ if
 templateObject
 -
 >
-isDenseArray
+isArray
 (
 )
 )
@@ -2056,7 +2056,7 @@ JS_ASSERT
 templateObject
 -
 >
-getDenseArrayInitializedLength
+getDenseInitializedLength
 (
 )
 )
@@ -2115,7 +2115,7 @@ Imm32
 templateObject
 -
 >
-getDenseArrayCapacity
+getDenseCapacity
 (
 )
 )
@@ -2140,7 +2140,7 @@ Imm32
 templateObject
 -
 >
-getDenseArrayInitializedLength
+getDenseInitializedLength
 (
 )
 )
