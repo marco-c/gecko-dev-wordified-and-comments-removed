@@ -337,11 +337,17 @@ fm
 activeWindow
 )
 {
+executeSoon
+(
+function
+(
+)
 ss
 .
 setBrowserState
 (
 oldState
+)
 )
 ;
 }
