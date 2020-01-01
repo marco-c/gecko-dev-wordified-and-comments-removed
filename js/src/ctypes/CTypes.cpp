@@ -16009,14 +16009,6 @@ cx
 vp
 )
 ;
-if
-(
-argc
->
-=
-1
-)
-{
 JSObject
 *
 baseObj
@@ -16174,7 +16166,6 @@ function
 return
 JS_FALSE
 ;
-}
 }
 return
 ExplicitConvert
