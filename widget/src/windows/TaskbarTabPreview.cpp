@@ -389,7 +389,7 @@ imgIContainer
 icon
 )
 {
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 icon
