@@ -111,6 +111,10 @@ browser_pdfjs_main
 .
 js
 \
+browser_pdfjs_savedialog
+.
+js
+\
 file_pdfjs_test
 .
 pdf
