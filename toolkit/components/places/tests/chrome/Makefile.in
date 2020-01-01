@@ -487,6 +487,10 @@ test_381357
 .
 xul
 \
+test_favicon_annotations
+.
+xul
+\
 (
 NULL
 )
