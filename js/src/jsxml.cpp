@@ -31948,7 +31948,7 @@ argc
 {
 haveIndex
 =
-true
+false
 ;
 }
 else
