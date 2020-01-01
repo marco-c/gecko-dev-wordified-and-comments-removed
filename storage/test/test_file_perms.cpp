@@ -23,9 +23,9 @@ nsIFile
 >
 profDir
 ;
-nsresult
-rv
-=
+(
+void
+)
 NS_GetSpecialDirectory
 (
 NS_APP_USER_PROFILE_50_DIR
