@@ -510,7 +510,7 @@ virtual
 nsresult
 SetProperty
 (
-void
+JSObject
 *
 aTarget
 const
