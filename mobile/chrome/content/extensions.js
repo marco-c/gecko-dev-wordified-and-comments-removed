@@ -5338,6 +5338,14 @@ aInstall
 addon
 .
 isCompatible
+|
+|
+!
+aInstall
+.
+addon
+.
+isPlatformCompatible
 )
 error
 +
