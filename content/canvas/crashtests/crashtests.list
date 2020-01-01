@@ -31,6 +31,10 @@ font
 .
 html
 load
+texImage2D
+.
+html
+load
 729116
 .
 html
