@@ -532,6 +532,14 @@ browser_computedview_bug_703643_context_menu_copy
 .
 js
 \
+browser_ruleview_734259_style_editor_link
+.
+js
+\
+browser_computedview_734259_style_editor_link
+.
+js
+\
 head
 .
 js
