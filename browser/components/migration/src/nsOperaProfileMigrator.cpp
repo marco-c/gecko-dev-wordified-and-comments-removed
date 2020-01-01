@@ -6203,7 +6203,7 @@ index
 '
 )
 {
-nameStr
+name
 .
 Cut
 (
