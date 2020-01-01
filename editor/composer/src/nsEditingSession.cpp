@@ -933,7 +933,7 @@ xul
 +
 xml
 "
-NULL
+nullptr
 }
 ;
 bool
@@ -3628,7 +3628,7 @@ Cancel
 ;
 mLoadBlankDocTimer
 =
-NULL
+nullptr
 ;
 }
 mLoadBlankDocTimer

@@ -232,7 +232,7 @@ EditTxn
 )
 mEditor
 (
-NULL
+nullptr
 )
 {
 }
@@ -389,7 +389,7 @@ EditTxn
 )
 mEditor
 (
-NULL
+nullptr
 )
 {
 }

@@ -9334,7 +9334,7 @@ res
 }
 cell
 =
-NULL
+nullptr
 ;
 NS_ENSURE_STATE
 (

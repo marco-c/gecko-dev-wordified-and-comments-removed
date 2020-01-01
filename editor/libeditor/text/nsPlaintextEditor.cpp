@@ -3795,7 +3795,7 @@ aTextRangeList
 must
 not
 be
-NULL
+nullptr
 "
 )
 ;

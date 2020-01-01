@@ -501,7 +501,7 @@ IsPropSet
 (
 aProp
 aAttr
-NULL
+nullptr
 index
 )
 )
@@ -636,7 +636,7 @@ count
 )
 {
 return
-NULL
+nullptr
 ;
 }
 -
@@ -688,7 +688,7 @@ count
 )
 {
 return
-NULL
+nullptr
 ;
 }
 count

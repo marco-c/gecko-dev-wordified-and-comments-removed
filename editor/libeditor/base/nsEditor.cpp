@@ -2352,7 +2352,7 @@ mDocWeak
 NS_ENSURE_TRUE
 (
 doc
-NULL
+nullptr
 )
 ;
 nsCOMPtr
@@ -3001,7 +3001,7 @@ aTxnManager
 *
 aTxnManager
 =
-NULL
+nullptr
 ;
 NS_ENSURE_TRUE
 (

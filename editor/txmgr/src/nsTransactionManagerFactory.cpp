@@ -78,11 +78,11 @@ kTxMgrCIDs
 &
 kNS_TRANSACTIONMANAGER_CID
 false
-NULL
+nullptr
 nsTransactionManagerConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -106,7 +106,7 @@ NS_TRANSACTIONMANAGER_CONTRACTID
 kNS_TRANSACTIONMANAGER_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;

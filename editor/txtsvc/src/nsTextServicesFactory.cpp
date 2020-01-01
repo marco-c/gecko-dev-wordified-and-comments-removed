@@ -32,7 +32,7 @@ components
 =
 {
 {
-NULL
+nullptr
 NS_TEXTSERVICESDOCUMENT_CID
 "
 mozilla
