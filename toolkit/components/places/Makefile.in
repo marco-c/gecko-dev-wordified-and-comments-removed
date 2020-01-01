@@ -260,6 +260,10 @@ ClusterLib
 .
 js
 \
+BookmarkJSONUtils
+.
+jsm
+\
 (
 NULL
 )
