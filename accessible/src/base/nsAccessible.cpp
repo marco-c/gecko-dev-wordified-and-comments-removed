@@ -13889,6 +13889,10 @@ this
 aIsValid
 =
 (
+0
+=
+=
+(
 state
 &
 nsIAccessibleStates
@@ -13896,9 +13900,7 @@ nsIAccessibleStates
 :
 STATE_INVALID
 )
-!
-=
-0
+)
 ;
 return
 NS_OK
