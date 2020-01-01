@@ -141,9 +141,9 @@ StoreLastUsedDirectory
 nsIDocument
 *
 aDoc
-nsIFile
+nsIDOMFile
 *
-aFile
+aDomFile
 )
 ;
 }

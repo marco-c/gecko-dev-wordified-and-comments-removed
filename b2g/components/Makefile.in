@@ -109,6 +109,10 @@ DirectoryProvider
 .
 js
 \
+FilePicker
+.
+js
+\
 MailtoProtocolHandler
 .
 js
