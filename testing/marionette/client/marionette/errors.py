@@ -66,9 +66,12 @@ s
 '
 %
 (
+str
+(
 self
 .
 message
+)
                 
 '
 '
@@ -108,9 +111,12 @@ else
 :
             
 return
+str
+(
 self
 .
 message
+)
 class
 TimeoutException
 (
