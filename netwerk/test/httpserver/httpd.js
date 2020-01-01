@@ -49,7 +49,7 @@ pow
 var
 DEBUG
 =
-true
+false
 ;
 var
 gGlobalObject
