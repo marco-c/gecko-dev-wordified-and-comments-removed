@@ -92,7 +92,7 @@ nsWrapperCache
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 PreservingWrapper
@@ -138,7 +138,7 @@ JSObject
 aWrapper
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 PreservingWrapper
@@ -153,7 +153,7 @@ wrapper
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aWrapper
 "
@@ -174,7 +174,7 @@ ClearWrapper
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 PreservingWrapper
@@ -216,7 +216,7 @@ SetIsDOMBinding
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mWrapperPtrBits
@@ -244,7 +244,7 @@ ClearIsDOMBinding
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mWrapperPtrBits
