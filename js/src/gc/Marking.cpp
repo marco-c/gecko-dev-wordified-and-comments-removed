@@ -269,7 +269,8 @@ MarkChildren
 JSTracer
 *
 trc
-RawBaseShape
+BaseShape
+*
 base
 )
 ;
@@ -2006,7 +2007,8 @@ MarkInternal
 trc
 reinterpret_cast
 <
-RawBaseShape
+BaseShape
+*
 *
 >
 (
@@ -4349,7 +4351,8 @@ ScanBaseShape
 GCMarker
 *
 gcmarker
-RawBaseShape
+BaseShape
+*
 base
 )
 ;
@@ -4360,7 +4363,8 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-RawBaseShape
+BaseShape
+*
 thing
 )
 {
@@ -4521,7 +4525,8 @@ ScanBaseShape
 GCMarker
 *
 gcmarker
-RawBaseShape
+BaseShape
+*
 base
 )
 {
@@ -5318,7 +5323,8 @@ MarkChildren
 JSTracer
 *
 trc
-RawBaseShape
+BaseShape
+*
 base
 )
 {
@@ -5339,7 +5345,8 @@ MarkCycleCollectorChildren
 JSTracer
 *
 trc
-RawBaseShape
+BaseShape
+*
 base
 JSObject
 *
@@ -8142,7 +8149,8 @@ MarkChildren
 trc
 static_cast
 <
-RawBaseShape
+BaseShape
+*
 >
 (
 thing

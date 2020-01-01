@@ -381,11 +381,6 @@ UnownedBaseShape
 ;
 ForwardDeclare
 (
-BaseShape
-)
-;
-ForwardDeclare
-(
 Shape
 )
 ;
@@ -944,7 +939,8 @@ inline
 void
 writeBarrierPre
 (
-RawBaseShape
+BaseShape
+*
 shape
 )
 ;
@@ -953,7 +949,8 @@ inline
 void
 writeBarrierPost
 (
-RawBaseShape
+BaseShape
+*
 shape
 void
 *
@@ -965,7 +962,8 @@ inline
 void
 readBarrier
 (
-RawBaseShape
+BaseShape
+*
 shape
 )
 ;
@@ -1140,7 +1138,8 @@ compartment
 explicit
 StackBaseShape
 (
-RawBaseShape
+BaseShape
+*
 base
 )
 :
@@ -2660,7 +2659,8 @@ inline
 bool
 matchesParamsAfterId
 (
-RawBaseShape
+BaseShape
+*
 base
 uint32_t
 aslot
@@ -2707,7 +2707,8 @@ MutableHandleValue
 vp
 )
 ;
-RawBaseShape
+BaseShape
+*
 base
 (
 )

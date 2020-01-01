@@ -362,7 +362,8 @@ compartment
 )
 )
 ;
-RawBaseShape
+BaseShape
+*
 nbase
 =
 js_NewGCBaseShape
@@ -479,7 +480,8 @@ isOwned
 )
 )
 ;
-RawBaseShape
+BaseShape
+*
 nbase
 =
 base
@@ -4174,7 +4176,8 @@ setter
 )
 )
 ;
-RawBaseShape
+BaseShape
+*
 nbase
 =
 BaseShape
@@ -6042,7 +6045,8 @@ cx
 base
 )
 ;
-RawBaseShape
+BaseShape
+*
 nbase_
 =
 js_NewGCBaseShape

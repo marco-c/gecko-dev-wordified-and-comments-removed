@@ -1477,7 +1477,8 @@ Shape
 :
 matchesParamsAfterId
 (
-RawBaseShape
+BaseShape
+*
 base
 uint32_t
 aslot
@@ -2535,7 +2536,8 @@ BaseShape
 :
 writeBarrierPre
 (
-RawBaseShape
+BaseShape
+*
 base
 )
 {
@@ -2587,7 +2589,8 @@ needsBarrier
 )
 )
 {
-RawBaseShape
+BaseShape
+*
 tmp
 =
 base
@@ -2627,7 +2630,8 @@ BaseShape
 :
 writeBarrierPost
 (
-RawBaseShape
+BaseShape
+*
 shape
 void
 *
@@ -2642,7 +2646,8 @@ BaseShape
 :
 readBarrier
 (
-RawBaseShape
+BaseShape
+*
 base
 )
 {
@@ -2673,7 +2678,8 @@ needsBarrier
 )
 )
 {
-RawBaseShape
+BaseShape
+*
 tmp
 =
 base
