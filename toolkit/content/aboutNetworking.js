@@ -1168,6 +1168,16 @@ if
 e
 .
 target
+&
+&
+e
+.
+target
+.
+parentNode
+=
+=
+menu
 )
 show
 (
