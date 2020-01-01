@@ -584,6 +584,11 @@ xpc_qsSelfRef
 xpc_qsSelfRef
 (
 )
+:
+ptr
+(
+nsnull
+)
 {
 }
 explicit
