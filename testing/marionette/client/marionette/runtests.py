@@ -376,12 +376,18 @@ testcase
 loglines
 :
                 
-print
+self
+.
+stream
+.
+writeln
+(
 '
 START
 LOG
 :
 '
+)
                 
 for
 line
@@ -391,7 +397,12 @@ testcase
 loglines
 :
                     
-print
+self
+.
+stream
+.
+writeln
+(
 '
 '
 .
@@ -399,13 +410,20 @@ join
 (
 line
 )
+)
                 
-print
+self
+.
+stream
+.
+writeln
+(
 '
 END
 LOG
 :
 '
+)
     
 def
 getPerfData
