@@ -634,6 +634,14 @@ PR_TRUE
 )
 ;
 static
+PRBool
+IsPunctuationMark
+(
+PRUnichar
+aChar
+)
+;
+static
 void
 Shutdown
 (
