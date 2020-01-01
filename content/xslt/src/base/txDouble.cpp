@@ -1007,7 +1007,7 @@ dest
 int
 firstlen
 =
-PR_MIN
+NS_MIN
 (
 intDigits
 endp

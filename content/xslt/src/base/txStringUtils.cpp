@@ -386,7 +386,7 @@ aSourceLength
 PRUint32
 len
 =
-PR_MIN
+NS_MIN
 (
 PRUint32
 (
