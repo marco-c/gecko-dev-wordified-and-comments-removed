@@ -573,7 +573,6 @@ nsIPresShell
 aPresShell
 )
 ;
-virtual
 void
 RecreateAccessible
 (
