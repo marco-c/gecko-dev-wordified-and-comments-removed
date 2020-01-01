@@ -483,10 +483,6 @@ nsIXPCScriptNotify
 .
 idl
 \
-nsIScriptableInterfaces
-.
-idl
-\
 xpcIJSWeakReference
 .
 idl
