@@ -15833,15 +15833,7 @@ NODE_IS_EDITABLE
 )
 {
 return
-this
-=
-=
-document
--
->
-GetRootContent
-(
-)
+PR_FALSE
 ;
 }
 if
