@@ -78,7 +78,7 @@ GeoPositionOptions
 mozilla
 :
 :
-dom
+idl
 :
 :
 GeoPositionOptions
@@ -93,7 +93,7 @@ namespace
 mozilla
 {
 namespace
-dom
+idl
 {
 class
 GeoPositionOptions
