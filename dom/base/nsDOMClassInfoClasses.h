@@ -533,10 +533,6 @@ ChromeWindow
 )
 DOMCI_CLASS
 (
-CSSRGBColor
-)
-DOMCI_CLASS
-(
 ContentList
 )
 DOMCI_CLASS
