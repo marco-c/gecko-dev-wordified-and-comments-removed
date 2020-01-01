@@ -6607,9 +6607,9 @@ getLayerMarginsAnimator
 (
 )
 .
-showMargins
+setMarginsPinned
 (
-false
+true
 )
 ;
 mLayerView
@@ -6618,9 +6618,9 @@ getLayerMarginsAnimator
 (
 )
 .
-setMarginsPinned
+showMargins
 (
-true
+false
 )
 ;
 }
