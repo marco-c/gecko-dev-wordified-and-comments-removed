@@ -7974,7 +7974,7 @@ aResult
 .
 top
 =
-1
+0
 ;
 (
 *
@@ -7983,8 +7983,6 @@ aResult
 .
 bottom
 =
-3
-;
 (
 *
 aResult

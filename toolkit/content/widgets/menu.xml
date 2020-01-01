@@ -2194,6 +2194,15 @@ center
 xul
 :
 image
+class
+=
+"
+menu
+-
+iconic
+-
+icon
+"
 xbl
 :
 inherits
