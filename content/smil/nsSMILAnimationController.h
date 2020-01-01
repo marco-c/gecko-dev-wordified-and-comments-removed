@@ -587,6 +587,9 @@ mozilla
 TimeStamp
 mStartTime
 ;
+nsSMILTime
+mAvgTimeBetweenSamples
+;
 PRPackedBool
 mResampleNeeded
 ;
