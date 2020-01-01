@@ -484,6 +484,9 @@ bmih
 bV5Height
 =
 -
+(
+PRInt32
+)
 bmHeight
 ;
 bmih
