@@ -4244,6 +4244,14 @@ uniqueness
 '
         
 assert
+not
+isinstance
+(
+case
+str
+)
+        
+assert
 (
 isinstance
 (
