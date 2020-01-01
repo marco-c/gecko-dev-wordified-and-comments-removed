@@ -5012,3 +5012,17 @@ XML
 value
 "
 )
+MSG_DEF
+(
+JSMSG_UNNAMED_FUNCTION_STMT
+273
+0
+JSEXN_SYNTAXERR
+"
+function
+statement
+requires
+a
+name
+"
+)

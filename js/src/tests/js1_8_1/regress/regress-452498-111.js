@@ -52,13 +52,6 @@ printStatus
 summary
 )
 ;
-options
-(
-"
-anonfunfix
-"
-)
-;
 new
 Function
 (
