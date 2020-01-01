@@ -320,12 +320,6 @@ aOffset
 )
 {
 }
-void
-NotifyDataExhausted
-(
-)
-{
-}
 private
 :
 void
