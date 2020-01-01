@@ -1314,6 +1314,15 @@ InitMemDB
 #
 endif
 nsresult
+RemovePagesInternal
+(
+const
+nsCString
+&
+aPlaceIdsQueryString
+)
+;
+nsresult
 AddURIInternal
 (
 nsIURI
