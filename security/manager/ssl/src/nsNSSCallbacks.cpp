@@ -3021,7 +3021,6 @@ nsSSLIOLayerHelpers
 :
 rememberTolerantSite
 (
-fd
 infoObject
 )
 ;
