@@ -46,9 +46,11 @@ JS_PARALLEL_COMPILATION
 struct
 WorkerThread
 ;
-struct
+class
 WorkerThreadState
 {
+public
+:
 WorkerThread
 *
 threads
