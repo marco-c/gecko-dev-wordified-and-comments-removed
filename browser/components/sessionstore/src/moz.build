@@ -129,6 +129,11 @@ DocumentUtils
 jsm
 '
 '
+PrivacyLevel
+.
+jsm
+'
+'
 SessionCookies
 .
 jsm
