@@ -61,7 +61,7 @@ box
 className
 gIdentityHandler
 .
-IDENTITY_MODE_MIXED_CONTENT
+IDENTITY_MODE_MIXED_DISPLAY_LOADED
 "
 identity
 box
