@@ -79,6 +79,9 @@ class
 DelayNode
 ;
 class
+DynamicsCompressorNode
+;
+class
 GainNode
 ;
 class
@@ -227,6 +230,14 @@ already_AddRefed
 PannerNode
 >
 CreatePanner
+(
+)
+;
+already_AddRefed
+<
+DynamicsCompressorNode
+>
+CreateDynamicsCompressor
 (
 )
 ;

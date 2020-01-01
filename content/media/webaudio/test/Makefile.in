@@ -111,6 +111,10 @@ test_delayNode
 .
 html
 \
+test_dynamicsCompressorNode
+.
+html
+\
 test_gainNode
 .
 html

@@ -143,6 +143,10 @@ DOMStringMap
 .
 webidl
 \
+DynamicsCompressorNode
+.
+webidl
+\
 Function
 .
 webidl

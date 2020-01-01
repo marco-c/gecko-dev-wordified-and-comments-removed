@@ -135,6 +135,10 @@ DelayNode
 .
 cpp
 \
+DynamicsCompressorNode
+.
+cpp
+\
 EnableWebAudioCheck
 .
 cpp
@@ -191,6 +195,10 @@ AudioSourceNode
 h
 \
 DelayNode
+.
+h
+\
+DynamicsCompressorNode
 .
 h
 \
