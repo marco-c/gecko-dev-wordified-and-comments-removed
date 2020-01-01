@@ -1434,6 +1434,13 @@ defined
 (
 __cplusplus
 )
+extern
+"
+C
++
++
+"
+{
 static
 JS_ALWAYS_INLINE
 bool
@@ -1485,6 +1492,7 @@ JSID_BITS
 rhs
 )
 ;
+}
 }
 #
 endif
