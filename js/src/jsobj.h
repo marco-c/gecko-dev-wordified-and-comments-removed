@@ -3083,17 +3083,6 @@ name
 )
 ;
 inline
-js
-:
-:
-Wrapper
-*
-getWrapperHandler
-(
-)
-const
-;
-inline
 bool
 isCallable
 (
