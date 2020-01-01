@@ -75,6 +75,13 @@ nsPlatformCharset
 .
 h
 "
+#
+include
+"
+nsEncoderDecoderUtils
+.
+h
+"
 static
 const
 char
@@ -240,6 +247,9 @@ windows
 1252
 "
 )
+;
+return
+NS_SUCCESS_USING_FALLBACK_LOCALE
 ;
 }
 return
