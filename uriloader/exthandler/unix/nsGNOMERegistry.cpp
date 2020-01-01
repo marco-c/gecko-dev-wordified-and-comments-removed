@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsMIMEInfoImpl
+nsMIMEInfoUnix
 .
 h
 "
@@ -1206,12 +1206,12 @@ nsnull
 ;
 nsRefPtr
 <
-nsMIMEInfoImpl
+nsMIMEInfoUnix
 >
 mimeInfo
 =
 new
-nsMIMEInfoImpl
+nsMIMEInfoUnix
 (
 aMIMEType
 )
