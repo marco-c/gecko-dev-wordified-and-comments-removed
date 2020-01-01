@@ -23601,13 +23601,13 @@ case
 eCSSProperty_background_attachment
 :
 case
-eCSSProperty__moz_background_clip
+eCSSProperty_background_clip
 :
 case
 eCSSProperty_background_image
 :
 case
-eCSSProperty__moz_background_origin
+eCSSProperty_background_origin
 :
 case
 eCSSProperty_background_repeat
@@ -24966,7 +24966,7 @@ kBackgroundAttachmentKTable
 )
 ;
 case
-eCSSProperty__moz_background_clip
+eCSSProperty_background_clip
 :
 return
 ParseVariant
@@ -25020,7 +25020,7 @@ kBackgroundInlinePolicyKTable
 )
 ;
 case
-eCSSProperty__moz_background_origin
+eCSSProperty_background_origin
 :
 return
 ParseVariant
@@ -27572,7 +27572,7 @@ BackgroundItem
 :
 :
 mClip
-eCSSProperty__moz_background_clip
+eCSSProperty_background_clip
 }
 {
 &
@@ -27580,7 +27580,7 @@ BackgroundItem
 :
 :
 mOrigin
-eCSSProperty__moz_background_origin
+eCSSProperty_background_origin
 }
 }
 ;
@@ -28006,14 +28006,14 @@ mTempData
 .
 SetPropertyBit
 (
-eCSSProperty__moz_background_clip
+eCSSProperty_background_clip
 )
 ;
 mTempData
 .
 SetPropertyBit
 (
-eCSSProperty__moz_background_origin
+eCSSProperty_background_origin
 )
 ;
 mTempData
@@ -28642,7 +28642,7 @@ ParseSingleValueProperty
 aItem
 .
 mOrigin
-eCSSProperty__moz_background_origin
+eCSSProperty_background_origin
 )
 )
 {

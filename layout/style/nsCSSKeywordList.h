@@ -1162,11 +1162,6 @@ bolder
 CSS_KEY
 (
 border
-border
-)
-CSS_KEY
-(
-border
 -
 box
 border_box
@@ -1335,11 +1330,6 @@ CSS_KEY
 (
 contain
 contain
-)
-CSS_KEY
-(
-content
-content
 )
 CSS_KEY
 (
@@ -2125,11 +2115,6 @@ CSS_KEY
 (
 overline
 overline
-)
-CSS_KEY
-(
-padding
-padding
 )
 CSS_KEY
 (

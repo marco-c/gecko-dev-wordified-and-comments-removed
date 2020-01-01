@@ -516,7 +516,7 @@ on
 setting
 attribute
 DOMString
-MozBackgroundClip
+backgroundClip
 ;
 /
 /
@@ -540,7 +540,7 @@ on
 setting
 attribute
 DOMString
-MozBackgroundOrigin
+backgroundOrigin
 ;
 /
 /

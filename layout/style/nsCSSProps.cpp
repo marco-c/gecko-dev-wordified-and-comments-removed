@@ -2106,11 +2106,11 @@ kBackgroundOriginKTable
 ]
 =
 {
-eCSSKeyword_border
+eCSSKeyword_border_box
 NS_STYLE_BG_ORIGIN_BORDER
-eCSSKeyword_padding
+eCSSKeyword_padding_box
 NS_STYLE_BG_ORIGIN_PADDING
-eCSSKeyword_content
+eCSSKeyword_content_box
 NS_STYLE_BG_ORIGIN_CONTENT
 eCSSKeyword_UNKNOWN
 -
@@ -5280,8 +5280,8 @@ eCSSProperty_background_image
 eCSSProperty_background_repeat
 eCSSProperty_background_attachment
 eCSSProperty_background_position
-eCSSProperty__moz_background_clip
-eCSSProperty__moz_background_origin
+eCSSProperty_background_clip
+eCSSProperty_background_origin
 eCSSProperty__moz_background_size
 eCSSProperty_UNKNOWN
 }
