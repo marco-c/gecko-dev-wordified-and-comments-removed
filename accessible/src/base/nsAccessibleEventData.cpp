@@ -414,6 +414,15 @@ PRBool
 aForceIsFromUserInput
 )
 {
+if
+(
+!
+aEventNode
+)
+{
+return
+;
+}
 gLastEventNodeWeak
 =
 aEventNode

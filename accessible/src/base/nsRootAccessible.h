@@ -353,7 +353,7 @@ mCaretAccessible
 ;
 nsCOMPtr
 <
-nsIAccessible
+nsIDOMNode
 >
 mCurrentARIAMenubar
 ;
