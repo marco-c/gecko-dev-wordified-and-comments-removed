@@ -74,6 +74,12 @@ using
 mozilla
 :
 :
+IsNaN
+;
+using
+mozilla
+:
+:
 LittleEndian
 ;
 using
@@ -5305,7 +5311,7 @@ false
 if
 (
 !
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 d
 )

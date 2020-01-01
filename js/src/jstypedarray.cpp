@@ -227,6 +227,12 @@ using
 mozilla
 :
 :
+IsNaN
+;
+using
+mozilla
+:
+:
 PodCopy
 ;
 static
@@ -310,7 +316,7 @@ toDouble
 ;
 if
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 d
 )
@@ -11260,7 +11266,7 @@ ArrayTypeIsFloatingPoint
 &
 JS_UNLIKELY
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 d
 )

@@ -219,7 +219,10 @@ aValue
 MOZ_ASSERT
 (
 !
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 mValue
 .
@@ -525,7 +528,10 @@ mFloat
 MOZ_ASSERT
 (
 !
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 mValue
 .
@@ -1985,7 +1991,10 @@ aValue
 MOZ_ASSERT
 (
 !
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 mValue
 .
@@ -2045,7 +2054,10 @@ aValue
 MOZ_ASSERT
 (
 !
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 mValue
 .

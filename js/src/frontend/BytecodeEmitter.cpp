@@ -286,6 +286,12 @@ using
 mozilla
 :
 :
+DoubleIsInt32
+;
+using
+mozilla
+:
+:
 PodCopy
 ;
 static
@@ -10302,7 +10308,7 @@ pc
 ;
 if
 (
-MOZ_DOUBLE_IS_INT32
+DoubleIsInt32
 (
 dval
 &
@@ -11084,7 +11090,7 @@ i
 if
 (
 !
-MOZ_DOUBLE_IS_INT32
+DoubleIsInt32
 (
 pn4
 -

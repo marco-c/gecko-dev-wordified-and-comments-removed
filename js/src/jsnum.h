@@ -481,7 +481,10 @@ isDouble
 )
 &
 &
-MOZ_DOUBLE_IS_INT32
+mozilla
+:
+:
+DoubleIsInt32
 (
 v
 .
@@ -550,7 +553,10 @@ isDouble
 )
 &
 &
-MOZ_DOUBLE_IS_INT32
+mozilla
+:
+:
+DoubleIsInt32
 (
 v
 .

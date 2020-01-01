@@ -472,7 +472,10 @@ mBuffer
 )
 {
 return
-MOZ_DOUBLE_NaN
+mozilla
+:
+:
+UnspecifiedNaN
 (
 )
 ;
@@ -582,7 +585,10 @@ aDest
 {
 if
 (
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 aValue
 )
@@ -602,7 +608,10 @@ return
 }
 if
 (
-MOZ_DOUBLE_IS_INFINITE
+mozilla
+:
+:
+IsInfinite
 (
 aValue
 )

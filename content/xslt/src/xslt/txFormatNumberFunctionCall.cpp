@@ -306,7 +306,10 @@ NS_ERROR_XPATH_INVALID_ARG
 }
 if
 (
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 value
 )
@@ -336,7 +339,10 @@ if
 value
 =
 =
-MOZ_DOUBLE_POSITIVE_INFINITY
+mozilla
+:
+:
+PositiveInfinity
 (
 )
 )
@@ -365,7 +371,10 @@ if
 value
 =
 =
-MOZ_DOUBLE_NEGATIVE_INFINITY
+mozilla
+:
+:
+NegativeInfinity
 (
 )
 )
@@ -464,7 +473,10 @@ false
 ;
 if
 (
-MOZ_DOUBLE_IS_NEGATIVE
+mozilla
+:
+:
+IsNegative
 (
 value
 )

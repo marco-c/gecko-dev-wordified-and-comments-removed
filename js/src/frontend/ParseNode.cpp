@@ -76,6 +76,12 @@ js
 :
 frontend
 ;
+using
+mozilla
+:
+:
+IsFinite
+;
 #
 define
 pn_offsetof
@@ -3009,7 +3015,7 @@ pn_dval
 if
 (
 !
-MOZ_DOUBLE_IS_FINITE
+IsFinite
 (
 pn_dval
 )

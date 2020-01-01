@@ -9218,7 +9218,7 @@ Date
 :
 mMsecSinceEpoch
 (
-MOZ_DOUBLE_NaN
+UnspecifiedNaN
 (
 )
 )
@@ -9234,7 +9234,7 @@ IsUndefined
 const
 {
 return
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 mMsecSinceEpoch
 )

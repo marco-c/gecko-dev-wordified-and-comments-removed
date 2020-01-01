@@ -2610,7 +2610,10 @@ ip
 )
 {
 return
-MOZ_DOUBLE_IS_INT32
+mozilla
+:
+:
+DoubleIsInt32
 (
 d
 ip
@@ -2892,7 +2895,10 @@ false
 }
 if
 (
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 d
 )

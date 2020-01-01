@@ -8520,7 +8520,10 @@ val
 *
 result
 =
-MOZ_DOUBLE_IS_FINITE
+mozilla
+:
+:
+IsFinite
 (
 d
 )

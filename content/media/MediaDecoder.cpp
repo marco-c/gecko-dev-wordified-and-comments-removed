@@ -5007,7 +5007,10 @@ NS_IsMainThread
 ;
 if
 (
-MOZ_DOUBLE_IS_INFINITE
+mozilla
+:
+:
+IsInfinite
 (
 aDuration
 )
@@ -5022,7 +5025,7 @@ true
 else
 if
 (
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 aDuration
 )

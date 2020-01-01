@@ -92,7 +92,10 @@ txUnionPattern
 )
 ;
 return
-MOZ_DOUBLE_NaN
+mozilla
+:
+:
+UnspecifiedNaN
 (
 )
 ;

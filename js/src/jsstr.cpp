@@ -321,6 +321,18 @@ using
 mozilla
 :
 :
+IsNaN
+;
+using
+mozilla
+:
+:
+IsNegativeZero
+;
+using
+mozilla
+:
+:
 PodCopy
 ;
 using
@@ -7000,7 +7012,7 @@ false
 if
 (
 !
-MOZ_DOUBLE_IS_NaN
+IsNaN
 (
 d
 )
@@ -19962,7 +19974,7 @@ isDouble
 )
 &
 &
-MOZ_DOUBLE_IS_NEGATIVE_ZERO
+IsNegativeZero
 (
 v
 .

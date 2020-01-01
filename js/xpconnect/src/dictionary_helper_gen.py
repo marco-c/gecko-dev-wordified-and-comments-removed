@@ -1930,7 +1930,10 @@ Infinity
             
 return
 "
-MOZ_DOUBLE_POSITIVE_INFINITY
+mozilla
+:
+:
+PositiveInfinity
 (
 )
 "
@@ -1958,7 +1961,10 @@ Infinity
             
 return
 "
-MOZ_DOUBLE_NEGATIVE_INFINITY
+mozilla
+:
+:
+NegativeInfinity
 (
 )
 "

@@ -3759,7 +3759,10 @@ i
 ;
 if
 (
-MOZ_DOUBLE_IS_INT32
+mozilla
+:
+:
+DoubleIsInt32
 (
 d
 &
@@ -3776,8 +3779,6 @@ return
 true
 ;
 }
-else
-{
 setDouble
 (
 d
@@ -3786,7 +3787,6 @@ d
 return
 false
 ;
-}
 }
 void
 setObjectOrNull

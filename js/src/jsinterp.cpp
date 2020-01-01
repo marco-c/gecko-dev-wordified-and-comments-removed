@@ -3912,7 +3912,10 @@ isDouble
 )
 &
 &
-MOZ_DOUBLE_IS_NEGATIVE_ZERO
+mozilla
+:
+:
+IsNegativeZero
 (
 v
 .
@@ -3941,7 +3944,10 @@ isDouble
 )
 &
 &
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 v
 .

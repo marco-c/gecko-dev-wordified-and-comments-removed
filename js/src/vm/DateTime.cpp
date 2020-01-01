@@ -19,6 +19,12 @@ jsutil
 .
 h
 "
+using
+mozilla
+:
+:
+UnspecifiedNaN
+;
 static
 bool
 ComputeLocalTime
@@ -417,7 +423,7 @@ DateTimeInfo
 {
 localTZA_
 =
-MOZ_DOUBLE_NaN
+UnspecifiedNaN
 (
 )
 ;

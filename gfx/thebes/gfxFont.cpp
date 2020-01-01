@@ -23320,7 +23320,10 @@ aStyle
 MOZ_ASSERT
 (
 !
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 size
 )
@@ -23329,7 +23332,10 @@ size
 MOZ_ASSERT
 (
 !
-MOZ_DOUBLE_IS_NaN
+mozilla
+:
+:
+IsNaN
 (
 sizeAdjust
 )

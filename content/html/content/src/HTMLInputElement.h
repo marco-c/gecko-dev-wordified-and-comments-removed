@@ -1977,7 +1977,7 @@ toDouble
 (
 )
 :
-MOZ_DOUBLE_NaN
+UnspecifiedNaN
 (
 )
 ;
