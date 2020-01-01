@@ -949,7 +949,7 @@ ok
 =
 #
 endif
-js_InflateStringToBuffer
+InflateStringToBuffer
 (
 context
 (

@@ -23407,7 +23407,7 @@ jschar
 *
 chars
 =
-js_InflateString
+InflateString
 (
 cx
 bytes
@@ -23560,19 +23560,19 @@ bytes_are_utf8
 )
 chars
 =
-js_InflateString
+InflateString
 (
 cx
 bytes
 &
 length
-JS_TRUE
+CESU8Encoding
 )
 ;
 else
 chars
 =
-js_InflateString
+InflateString
 (
 cx
 bytes
@@ -25083,7 +25083,7 @@ jschar
 *
 chars
 =
-js_InflateString
+InflateString
 (
 cx
 bytes
@@ -26016,7 +26016,7 @@ jschar
 *
 chars
 =
-js_InflateString
+InflateString
 (
 cx
 bytes
@@ -27169,7 +27169,7 @@ s
 ;
 js
 =
-js_InflateString
+InflateString
 (
 cx
 s
@@ -28253,7 +28253,7 @@ dst
 {
 n
 =
-js_GetDeflatedStringLength
+GetDeflatedStringLength
 (
 cx
 src
@@ -28291,7 +28291,7 @@ JS_TRUE
 ;
 }
 return
-js_DeflateStringToBuffer
+DeflateStringToBuffer
 (
 cx
 src
@@ -28325,7 +28325,7 @@ dstlenp
 )
 {
 return
-js_InflateStringToBuffer
+InflateStringToBuffer
 (
 cx
 src
@@ -28359,7 +28359,7 @@ dstlenp
 )
 {
 return
-js_InflateUTF8StringToBuffer
+InflateUTF8StringToBuffer
 (
 cx
 src
@@ -28406,7 +28406,7 @@ return
 NULL
 ;
 return
-js_DeflateString
+DeflateString
 (
 cx
 chars
@@ -28459,7 +28459,7 @@ size_t
 )
 ;
 return
-js_GetDeflatedStringLength
+GetDeflatedStringLength
 (
 cx
 chars
@@ -28520,7 +28520,7 @@ size_t
 ;
 if
 (
-js_DeflateStringToBuffer
+DeflateStringToBuffer
 (
 NULL
 chars
@@ -28559,7 +28559,7 @@ length
 size_t
 necessaryLength
 =
-js_GetDeflatedStringLength
+GetDeflatedStringLength
 (
 NULL
 chars
@@ -29734,7 +29734,7 @@ jschar
 *
 chars
 =
-js_InflateString
+InflateString
 (
 cx
 bytes
@@ -30080,7 +30080,7 @@ jschar
 *
 chars
 =
-js_InflateString
+InflateString
 (
 cx
 bytes
@@ -31006,7 +31006,7 @@ id
 if
 (
 !
-js_InitContextThread
+js_InitContextThreadAndLockGC
 (
 cx
 )

@@ -770,7 +770,7 @@ data
 extern
 JSThread
 *
-js_CurrentThread
+js_CurrentThreadAndLockGC
 (
 JSRuntime
 *
@@ -779,7 +779,7 @@ rt
 ;
 extern
 JSBool
-js_InitContextThread
+js_InitContextThreadAndLockGC
 (
 JSContext
 *
@@ -1716,7 +1716,7 @@ mjitDataSize
 ;
 #
 endif
-bool
+int32
 inOOMReport
 ;
 #
