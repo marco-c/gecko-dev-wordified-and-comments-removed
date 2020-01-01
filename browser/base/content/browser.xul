@@ -5945,6 +5945,11 @@ iconic
 -
 text
 "
+hidden
+=
+"
+true
+"
 ondblclick
 =
 "
