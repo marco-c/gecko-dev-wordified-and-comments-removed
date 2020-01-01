@@ -137,7 +137,7 @@ aObserver
 )
 ;
 }
-nsresult
+bool
 ProcessScriptElement
 (
 nsIScriptElement
