@@ -1290,6 +1290,11 @@ maybeFixedNode
 =
 aNode
 ;
+if
+(
+mIsCopying
+)
+{
 nsCOMPtr
 <
 nsIContent
@@ -1345,6 +1350,7 @@ aDontSerializeRoot
 =
 PR_TRUE
 ;
+}
 }
 }
 }
