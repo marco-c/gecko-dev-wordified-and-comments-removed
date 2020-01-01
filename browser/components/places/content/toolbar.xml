@@ -6738,7 +6738,7 @@ FlavourSet
 var
 types
 =
-PlacesUIUtils
+PlacesUtils
 .
 GENERIC_VIEW_DROP_TYPES
 ;
@@ -7161,7 +7161,7 @@ return
 var
 label
 =
-PlacesUIUtils
+PlacesUtils
 .
 getString
 (
@@ -7273,7 +7273,7 @@ CDATA
 var
 element
 =
-PlacesUIUtils
+PlacesUtils
 .
 createMenuItemForNode
 (
