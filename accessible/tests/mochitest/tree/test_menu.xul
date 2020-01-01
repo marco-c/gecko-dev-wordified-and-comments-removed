@@ -325,6 +325,9 @@ doTest
 if
 (
 LINUX
+|
+|
+SOLARIS
 )
 {
 /
@@ -339,7 +342,9 @@ false
 "
 Failure
 on
-linux
+Linux
+and
+Solaris
 .
 "
 )
