@@ -698,6 +698,8 @@ pos
 GetPosition
 (
 )
+-
+mWavePCMOffset
 ;
 PRInt64
 len
