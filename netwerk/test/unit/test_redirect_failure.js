@@ -152,6 +152,18 @@ buffer
 {
 do_check_eq
 (
+request
+.
+status
+Components
+.
+results
+.
+NS_ERROR_UNKNOWN_PROTOCOL
+)
+;
+do_check_eq
+(
 buffer
 "
 "
@@ -208,6 +220,8 @@ new
 ChannelListener
 (
 finish_test
+null
+CL_EXPECT_FAILURE
 )
 null
 )
