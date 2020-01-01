@@ -3623,7 +3623,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-classPtr
 )
 ;
 }
@@ -3773,9 +3772,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-Class
-(
-)
 )
 ;
 if
@@ -3833,9 +3829,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-Class
-(
-)
 )
 ;
 if
@@ -4193,7 +4186,6 @@ DedicatedWorkerGlobalScope
 >
 (
 aObj
-classPtr
 )
 ;
 }

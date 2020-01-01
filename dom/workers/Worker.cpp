@@ -934,9 +934,6 @@ WorkerPrivate
 >
 (
 aObj
-Class
-(
-)
 )
 ;
 if
@@ -989,9 +986,6 @@ WorkerPrivate
 >
 (
 aObj
-Class
-(
-)
 )
 ;
 if
@@ -1569,9 +1563,6 @@ WorkerPrivate
 >
 (
 aObj
-Class
-(
-)
 )
 ;
 }
@@ -1650,9 +1641,6 @@ WorkerPrivate
 >
 (
 aObj
-Class
-(
-)
 )
 ;
 if
@@ -1705,9 +1693,6 @@ WorkerPrivate
 >
 (
 aObj
-Class
-(
-)
 )
 ;
 if
@@ -1865,7 +1850,6 @@ WorkerPrivate
 >
 (
 aObj
-classPtr
 )
 ;
 }

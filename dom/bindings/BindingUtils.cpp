@@ -1627,6 +1627,19 @@ IsDOMClass
 (
 clasp
 )
+|
+|
+!
+DOMJSClass
+:
+:
+FromJSClass
+(
+clasp
+)
+-
+>
+mDOMObjectIsISupports
 )
 {
 return
@@ -1650,7 +1663,6 @@ nsISupports
 >
 (
 obj
-clasp
 )
 ;
 if
