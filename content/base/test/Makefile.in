@@ -2217,6 +2217,10 @@ bug466080
 .
 sjs
 \
+test_bug625722
+.
+html
+\
 (
 NULL
 )
