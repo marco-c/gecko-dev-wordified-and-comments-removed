@@ -500,14 +500,14 @@ char
 *
 tempptr
 =
-strstr
+strchr
 (
 filedlg
 .
 szFullFile
-"
+'
 ^
-"
+'
 )
 ;
 if
