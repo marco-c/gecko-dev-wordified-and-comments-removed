@@ -153,7 +153,7 @@ template
 int
 N
 >
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 already_AddRefed
 <
 StatementType

@@ -125,7 +125,7 @@ const_char_iterator
 const_char_iterator
 ;
 static
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 const_char_iterator
 nextWordBoundary
 (
@@ -239,7 +239,7 @@ eFindAnywhere
 }
 ;
 static
-NS_ALWAYS_INLINE
+MOZ_ALWAYS_INLINE
 bool
 findInString
 (
