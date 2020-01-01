@@ -31,11 +31,17 @@ size
 )
 {
 }
+JITCode
+(
+)
+{
+}
 void
 *
 start
 (
 )
+const
 {
 return
 m_start
@@ -45,6 +51,7 @@ size_t
 size
 (
 )
+const
 {
 return
 m_size
