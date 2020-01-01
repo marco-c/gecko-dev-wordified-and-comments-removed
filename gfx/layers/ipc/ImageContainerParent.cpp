@@ -49,9 +49,6 @@ ImageContainerParent
 :
 ImageContainerParent
 (
-ImageBridgeParent
-*
-aBridge
 PRUint32
 aHandle
 )
@@ -59,10 +56,6 @@ aHandle
 mID
 (
 aHandle
-)
-mBridge
-(
-aBridge
 )
 mStop
 (

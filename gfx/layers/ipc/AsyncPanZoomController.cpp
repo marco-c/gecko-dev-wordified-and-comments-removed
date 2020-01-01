@@ -2220,15 +2220,6 @@ MultiTouchInput
 aEvent
 )
 {
-SingleTouchData
-&
-touch
-=
-GetFirstSingleTouch
-(
-aEvent
-)
-;
 float
 dx
 =

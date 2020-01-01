@@ -299,7 +299,6 @@ return
 new
 ImageContainerParent
 (
-this
 id
 )
 ;
