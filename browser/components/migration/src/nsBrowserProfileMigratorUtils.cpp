@@ -1461,11 +1461,8 @@ ImportHTMLFromFileToFolder
 (
 localFile
 folder
-PR_TRUE
+PR_FALSE
 )
-;
-return
-rv
 ;
 #
 else
