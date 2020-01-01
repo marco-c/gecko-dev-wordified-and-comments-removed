@@ -6,6 +6,8 @@ LO
 bool
 JSObject
 *
+1
+1
 )
 BUILTIN1
 (
@@ -14,6 +16,8 @@ F
 LO
 uint64
 jsdouble
+1
+1
 )
 BUILTIN1
 (
@@ -22,6 +26,8 @@ Q
 LO
 bool
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -30,6 +36,8 @@ Q
 LO
 bool
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -38,6 +46,8 @@ Q
 LO
 bool
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -46,6 +56,8 @@ Q
 LO
 bool
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -54,6 +66,8 @@ Q
 LO
 bool
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -62,6 +76,8 @@ Q
 LO
 bool
 Box
+1
+1
 )
 BUILTIN2
 (
@@ -72,6 +88,8 @@ LO
 bool
 Box
 Box
+1
+1
 )
 BUILTIN2
 (
@@ -82,6 +100,8 @@ LO
 bool
 Box
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -90,6 +110,8 @@ LO
 Q
 Box
 bool
+1
+1
 )
 BUILTIN1
 (
@@ -99,6 +121,8 @@ Q
 Box
 JSString
 *
+1
+1
 )
 BUILTIN1
 (
@@ -108,6 +132,8 @@ Q
 Box
 JSObject
 *
+1
+1
 )
 BUILTIN1
 (
@@ -116,6 +142,8 @@ LO
 Q
 Box
 jsid
+1
+1
 )
 BUILTIN1
 (
@@ -124,6 +152,8 @@ LO
 Q
 Box
 jsint
+1
+1
 )
 BUILTIN1
 (
@@ -132,6 +162,8 @@ F
 Q
 Box
 jsdouble
+1
+1
 )
 BUILTIN1
 (
@@ -140,6 +172,8 @@ LO
 Q
 Box
 uint32
+1
+1
 )
 BUILTIN1
 (
@@ -148,6 +182,8 @@ Q
 LO
 bool
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -157,6 +193,8 @@ LO
 JSString
 *
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -166,6 +204,8 @@ LO
 JSObject
 *
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -174,6 +214,8 @@ Q
 LO
 jsint
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -182,6 +224,8 @@ Q
 F
 jsdouble
 Box
+1
+1
 )
 BUILTIN2
 (
@@ -192,6 +236,8 @@ F
 jsdouble
 jsdouble
 jsdouble
+1
+1
 )
 BUILTIN2
 (
@@ -203,6 +249,8 @@ jsint
 JSContext
 *
 Box
+1
+1
 )
 BUILTIN2
 (
@@ -214,6 +262,8 @@ uint32
 JSContext
 *
 Box
+1
+1
 )
 BUILTIN1
 (
@@ -222,6 +272,8 @@ Q
 LO
 bool
 Box
+1
+1
 )
 BUILTIN2
 (
@@ -234,6 +286,8 @@ JSObject
 JSContext
 *
 Box
+1
+1
 )
 BUILTIN2
 (
@@ -245,6 +299,8 @@ jsdouble
 JSContext
 *
 Box
+1
+1
 )
 BUILTIN3
 (
@@ -260,6 +316,8 @@ JSObject
 *
 JSType
 hint
+1
+1
 )
 BUILTIN2
 (
@@ -272,4 +330,6 @@ JSString
 *
 JSString
 *
+1
+1
 )
