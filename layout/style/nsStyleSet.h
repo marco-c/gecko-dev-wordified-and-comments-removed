@@ -1105,6 +1105,7 @@ nsEmptyStyleRule
 >
 mFirstLineRule
 mFirstLetterRule
+mPlaceholderRule
 ;
 nsRefPtr
 <

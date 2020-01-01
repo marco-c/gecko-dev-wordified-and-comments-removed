@@ -268,6 +268,15 @@ CSS_PROPERTY_IS_ALIAS
 <
 17
 )
+#
+define
+CSS_PROPERTY_APPLIES_TO_PLACEHOLDER
+(
+1
+<
+<
+18
+)
 enum
 nsStyleAnimType
 {
