@@ -255,6 +255,8 @@ self
 id
 )
     
+property
+    
 def
 text
 (

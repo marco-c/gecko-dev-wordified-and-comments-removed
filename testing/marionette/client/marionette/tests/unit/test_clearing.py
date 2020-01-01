@@ -446,8 +446,6 @@ assertEqual
 element
 .
 text
-(
-)
 )
     
 def
