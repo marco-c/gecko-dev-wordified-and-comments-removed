@@ -423,6 +423,13 @@ config
 autoconf
 .
 mk
+ifdef
+ENABLE_TESTS
+DIRS
++
+=
+bug649134
+endif
 include
 (
 topsrcdir
@@ -1398,6 +1405,10 @@ test_bug583514
 html
 \
 test_bug514437
+.
+html
+\
+test_bug649134
 .
 html
 \
