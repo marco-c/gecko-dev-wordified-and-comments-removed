@@ -4325,6 +4325,7 @@ if
 (
 j
 =
+=
 mStreamsResetting
 .
 Length
