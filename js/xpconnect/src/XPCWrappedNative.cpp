@@ -525,6 +525,16 @@ obj
 )
 ;
 }
+if
+(
+tmp
+-
+>
+MightHaveExpandoObject
+(
+)
+)
+{
 XPCJSRuntime
 *
 rt
@@ -574,6 +584,7 @@ TraverseExpandoObjects
 closure
 )
 ;
+}
 NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
 (
 cb
