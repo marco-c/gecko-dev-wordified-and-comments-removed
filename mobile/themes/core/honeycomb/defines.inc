@@ -136,7 +136,7 @@ color_text_placeholder
 define
 color_text_as_link
 #
-febc2b
+69f
 %
 define
 color_background_panelrow
