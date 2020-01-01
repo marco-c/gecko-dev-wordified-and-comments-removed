@@ -160,6 +160,12 @@ bidi
 ref
 .
 html
+random
+-
+if
+(
+layersGPUAccelerated
+)
 =
 =
 visualmarquee
@@ -170,6 +176,12 @@ marquee
 ref
 .
 html
+random
+-
+if
+(
+layersGPUAccelerated
+)
 =
 =
 logicalmarquee

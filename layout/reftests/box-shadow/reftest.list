@@ -170,6 +170,12 @@ basic
 ref
 .
 svg
+random
+-
+if
+(
+layersGPUAccelerated
+)
 =
 =
 boxshadow
