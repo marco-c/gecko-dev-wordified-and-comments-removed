@@ -6298,7 +6298,7 @@ ins
 LUse
 obj
 =
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -6306,6 +6306,20 @@ ins
 obj
 (
 )
+)
+;
+LDefinition
+slots
+=
+tempCopy
+(
+ins
+-
+>
+obj
+(
+)
+0
 )
 ;
 LInstruction
@@ -6336,6 +6350,7 @@ new
 LSetPropertyCacheV
 (
 obj
+slots
 )
 ;
 if
@@ -6381,6 +6396,7 @@ new
 LSetPropertyCacheT
 (
 obj
+slots
 value
 ins
 -
