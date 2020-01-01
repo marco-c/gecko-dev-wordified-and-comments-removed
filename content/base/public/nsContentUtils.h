@@ -188,6 +188,9 @@ class
 imgILoader
 ;
 class
+imgICache
+;
+class
 nsIPrefBranch
 ;
 class
@@ -1352,6 +1355,15 @@ imgIRequest
 *
 *
 aRequest
+)
+;
+static
+PRBool
+IsImageInCache
+(
+nsIURI
+*
+aURI
 )
 ;
 static
@@ -2921,6 +2933,11 @@ static
 imgILoader
 *
 sImgLoader
+;
+static
+imgICache
+*
+sImgCache
 ;
 static
 nsIConsoleService
