@@ -456,6 +456,8 @@ config
 rules
 .
 mk
+ifdef
+ENABLE_TESTS
 #
 Install
 bloaturls
@@ -536,3 +538,4 @@ DIST
 bin
 /
 res
+endif
