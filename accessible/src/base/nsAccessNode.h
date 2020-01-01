@@ -475,12 +475,7 @@ PRBool
 IsDefunct
 (
 )
-{
-return
-!
-mDOMNode
 ;
-}
 virtual
 nsresult
 Init
