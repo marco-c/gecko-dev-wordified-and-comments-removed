@@ -163,6 +163,12 @@ getStencilbuffer
 (
 )
 ;
+Renderbuffer
+*
+getNullColorbuffer
+(
+)
+;
 GLenum
 getColorbufferType
 (
@@ -237,6 +243,12 @@ BindingPointer
 Renderbuffer
 >
 mStencilbufferPointer
+;
+BindingPointer
+<
+Renderbuffer
+>
+mNullColorbufferPointer
 ;
 private
 :

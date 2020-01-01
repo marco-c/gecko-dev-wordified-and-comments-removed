@@ -28,4 +28,16 @@ TypeName
 &
 )
 #
+if
+defined
+(
+_MSC_VER
+)
+#
+define
+snprintf
+_snprintf
+#
+endif
+#
 endif

@@ -167,6 +167,7 @@ char
 void
 StoreStr
 (
+const
 char
 *
 )

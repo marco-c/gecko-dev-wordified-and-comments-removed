@@ -21,6 +21,15 @@ include
 "
 compiler
 /
+InitializeParseContext
+.
+h
+"
+#
+include
+"
+compiler
+/
 ParseHelper
 .
 h

@@ -12,6 +12,15 @@ include
 "
 compiler
 /
+InitializeParseContext
+.
+h
+"
+#
+include
+"
+compiler
+/
 OutputHLSL
 .
 h

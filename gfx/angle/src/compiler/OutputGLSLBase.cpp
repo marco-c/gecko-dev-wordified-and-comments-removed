@@ -12,7 +12,7 @@ include
 "
 compiler
 /
-compilerdebug
+debug
 .
 h
 "

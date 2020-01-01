@@ -4,7 +4,7 @@ changeset
 patch
 #
 Parent
-6ccfe6b908da8ade8b37e772ed8a9f3c494d8ef9
+93033f21b121382b50e5bc9787edf704d6906508
 diff
 -
 -
@@ -52,10 +52,10 @@ Makefile
 .
 in
 -
-127
+129
 16
 +
-127
+129
 18
 CSRCS
 =
@@ -103,7 +103,7 @@ MOZALLOC_LIB
 )
 +
 ifdef
-MOZ_ANGLE_RENDERER
+MOZ_ANGLE
 #
 libEGL
 depends

@@ -339,6 +339,10 @@ glDrawArraysInstancedANGLE
 173
 glDrawElementsInstancedANGLE
 174
+glProgramBinaryOES
+175
+glGetProgramBinaryOES
+176
 ;
 EGL
 dependencies

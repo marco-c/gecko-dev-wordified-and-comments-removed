@@ -82,11 +82,17 @@ wt
 "
 )
 ;
+if
+(
+debug
+)
+{
 fclose
 (
 debug
 )
 ;
+}
 }
 #
 endif
