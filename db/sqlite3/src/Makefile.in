@@ -472,7 +472,7 @@ GNU_CC
 MODULE_OPTIMIZE_FLAGS
 =
 -
-O3
+O2
 else
 ifeq
 (
@@ -496,7 +496,7 @@ WINNT
 MODULE_OPTIMIZE_FLAGS
 =
 -
-Ox
+O2
 endif
 endif
 EXPORTS
