@@ -12000,7 +12000,7 @@ a
 b
 )
 {
-findRegFor2b
+findRegFor2
 (
 GpRegs
 a
@@ -12612,7 +12612,7 @@ Register
 ra
 rb
 ;
-findRegFor2b
+findRegFor2
 (
 FpRegs
 a
@@ -12637,8 +12637,6 @@ asm_restore
 LIns
 *
 ins
-Reservation
-*
 Register
 r
 )
@@ -13848,8 +13846,6 @@ Assembler
 :
 asm_prep_fcall
 (
-Reservation
-*
 LIns
 *
 ins
