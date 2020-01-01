@@ -2555,6 +2555,15 @@ PrepareForNativeAppModalDialog
 ;
 if
 (
+mFilters
+.
+Length
+(
+)
+>
+1
+&
+&
 nsToolkit
 :
 :
