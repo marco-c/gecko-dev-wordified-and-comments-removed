@@ -146,6 +146,18 @@ allowMetaRedirects
 =
 false
 ;
+browser
+.
+reload
+(
+)
+;
+yield
+whenBrowserLoaded
+(
+browser
+)
+;
 let
 disallowedState
 =
@@ -358,6 +370,7 @@ not
 allowed
 "
 )
+;
 state
 =
 JSON
