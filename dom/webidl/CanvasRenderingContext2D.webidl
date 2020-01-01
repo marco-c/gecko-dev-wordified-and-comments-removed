@@ -175,9 +175,6 @@ interface
 HTMLVideoElement
 ;
 interface
-ImageData
-;
-interface
 TextMetrics
 ;
 interface

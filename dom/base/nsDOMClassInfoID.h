@@ -123,14 +123,6 @@ nsIContent
 9
 _extra
 )
-\
-DOMCI_CASTABLE_INTERFACE
-(
-nsIDOMImageData
-nsIDOMImageData
-12
-_extra
-)
 #
 undef
 DOMCI_CASTABLE_NAMESPACED_INTERFACE

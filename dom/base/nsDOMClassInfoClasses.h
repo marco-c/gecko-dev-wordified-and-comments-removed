@@ -1075,10 +1075,6 @@ TextMetrics
 )
 DOMCI_CLASS
 (
-ImageData
-)
-DOMCI_CLASS
-(
 MozCanvasPrintState
 )
 DOMCI_CLASS

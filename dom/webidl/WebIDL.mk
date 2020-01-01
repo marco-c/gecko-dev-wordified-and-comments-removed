@@ -163,6 +163,10 @@ HTMLPropertiesCollection
 .
 webidl
 \
+ImageData
+.
+webidl
+\
 NodeList
 .
 webidl
