@@ -193,6 +193,10 @@ CRASH
 "
 )
 ;
+SetNodeIsContent
+(
+)
+;
 }
 #
 endif
