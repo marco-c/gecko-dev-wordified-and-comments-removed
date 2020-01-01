@@ -603,6 +603,7 @@ aError
 =
 nsnull
 )
+const
 ;
 PRBool
 IsExpandable
@@ -755,6 +756,7 @@ aError
 =
 nsnull
 )
+const
 ;
 }
 ;

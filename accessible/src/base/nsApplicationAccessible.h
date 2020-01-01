@@ -452,6 +452,7 @@ aError
 =
 nsnull
 )
+const
 ;
 private
 :
