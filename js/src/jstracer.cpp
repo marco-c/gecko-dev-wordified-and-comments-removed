@@ -44393,11 +44393,6 @@ v1
 ;
 break
 ;
-#
-if
-!
-defined
-NANOJIT_ARM
 case
 LIR_fmul
 :
@@ -44421,8 +44416,6 @@ out
 ;
 break
 ;
-#
-endif
 #
 if
 defined
