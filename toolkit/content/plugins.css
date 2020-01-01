@@ -53,7 +53,6 @@ right
 %
 ;
 }
-div
 #
 plugs
 {
@@ -78,7 +77,6 @@ weight
 bold
 ;
 }
-div
 #
 noplugs
 {
@@ -108,7 +106,6 @@ top
 2em
 ;
 }
-div
 .
 plugname
 {
@@ -202,6 +199,18 @@ spacing
 ;
 }
 th
+td
+{
+border
+:
+none
+;
+padding
+:
+3px
+;
+}
+th
 {
 text
 -
@@ -251,14 +260,6 @@ top
 1px
 dotted
 ThreeDShadow
-;
-}
-th
-td
-{
-padding
-:
-3px
 ;
 }
 th
