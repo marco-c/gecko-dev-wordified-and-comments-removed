@@ -2215,6 +2215,17 @@ moz_gtk_images_in_menus
 ;
 break
 ;
+case
+eMetric_ImagesInButtons
+:
+aMetric
+=
+moz_gtk_images_in_buttons
+(
+)
+;
+break
+;
 default
 :
 aMetric

@@ -207,6 +207,7 @@ eMetric_IMEConvertedTextUnderlineStyle
 eMetric_IMESelectedConvertedTextUnderline
 eMetric_SpellCheckerUnderlineStyle
 eMetric_ImagesInMenus
+eMetric_ImagesInButtons
 }
 nsMetricID
 ;

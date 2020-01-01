@@ -494,6 +494,12 @@ moz_gtk_images_in_menus
 void
 )
 ;
+gboolean
+moz_gtk_images_in_buttons
+(
+void
+)
+;
 #
 ifdef
 __cplusplus
