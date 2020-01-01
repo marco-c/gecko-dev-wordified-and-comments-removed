@@ -1953,15 +1953,9 @@ size
 ;
 position_
 =
-detail
-:
-:
-AlignPtr
-(
 position_
 +
 size
-)
 ;
 }
 template
