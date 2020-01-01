@@ -103,6 +103,7 @@ regress
 03
 .
 js
+skip
 script
 regress
 -

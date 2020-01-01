@@ -341,6 +341,7 @@ script
 1
 .
 js
+skip
 script
 trapflatclosure
 .
