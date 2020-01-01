@@ -167,7 +167,7 @@ AwesomeBarList
 /
 >
 <
-ExpandableListView
+ListView
 android
 :
 id
@@ -184,17 +184,6 @@ style
 style
 /
 AwesomeBarList
-"
-android
-:
-groupIndicator
-=
-"
-android
-:
-color
-/
-transparent
 "
 /
 >
