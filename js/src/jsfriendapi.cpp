@@ -3330,6 +3330,8 @@ formatJSON
 JSRuntime
 *
 rt
+uint64_t
+timestamp
 )
 const
 {
@@ -3341,6 +3343,7 @@ gcStats
 .
 formatJSON
 (
+timestamp
 )
 ;
 }
