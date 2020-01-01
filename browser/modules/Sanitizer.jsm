@@ -929,6 +929,8 @@ interfaces
 nsIPrefBranch2
 )
 ;
+try
+{
 prefs
 .
 clearUserPref
@@ -942,6 +944,13 @@ last_url
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 get
 canClear
