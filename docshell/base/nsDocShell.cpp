@@ -3176,10 +3176,6 @@ mBusyFlags
 (
 BUSY_FLAGS_NONE
 )
-mFrameType
-(
-eFrameTypeRegular
-)
 mAppType
 (
 nsIDocShell
@@ -3332,6 +3328,10 @@ false
 )
 #
 endif
+mFrameType
+(
+eFrameTypeRegular
+)
 mOwnOrContainingAppId
 (
 nsIScriptSecurityManager
