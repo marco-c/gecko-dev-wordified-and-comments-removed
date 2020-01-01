@@ -9246,11 +9246,12 @@ return
 at
 ;
 }
-void
+NIns
+*
 Assembler
 :
 :
-asm_branch_xov
+asm_branch_ov
 (
 LOpcode
 op
@@ -9278,6 +9279,9 @@ B_cond
 cc
 target
 )
+;
+return
+_nIns
 ;
 }
 void
