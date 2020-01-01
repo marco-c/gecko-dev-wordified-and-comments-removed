@@ -27734,14 +27734,6 @@ marked
 true
 ;
 }
-obj
--
->
-traceProtoAndParent
-(
-trc
-)
-;
 uint32
 nslots
 =
