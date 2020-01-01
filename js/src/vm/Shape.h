@@ -4815,10 +4815,13 @@ uintptr_t
 shape
 )
 |
+uintptr_t
+(
 SHAPE_HAD_COLLISION
 (
 *
 spp
+)
 )
 )
 ;
