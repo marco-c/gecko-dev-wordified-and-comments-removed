@@ -6358,6 +6358,9 @@ int
 mAlreadyGeneratedWarnings
 ;
 bool
+mAlreadyWarnedAboutFakeVertexAttrib0
+;
+bool
 ShouldGenerateWarnings
 (
 )

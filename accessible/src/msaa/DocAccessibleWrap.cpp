@@ -1103,7 +1103,7 @@ mozilla
 WindowsHandle
 nativeData
 =
-nsnull
+NULL
 ;
 if
 (

@@ -3603,6 +3603,13 @@ killProcess
 procName
 )
     
+print
+dm
+.
+getInfo
+(
+)
+    
 logcat
 =
 [
@@ -3704,6 +3711,13 @@ logcat
 -
 1
 ]
+)
+    
+print
+dm
+.
+getInfo
+(
 )
     
 return

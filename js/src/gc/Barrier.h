@@ -1532,7 +1532,6 @@ Value
 v
 )
 ;
-explicit
 inline
 RelocatableValue
 (

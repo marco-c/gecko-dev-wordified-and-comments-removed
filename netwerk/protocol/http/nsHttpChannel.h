@@ -294,6 +294,14 @@ userCancel
 )
 ;
 NS_IMETHOD
+GetAsciiHostForAuth
+(
+nsACString
+&
+aHost
+)
+;
+NS_IMETHOD
 GetLoadFlags
 (
 nsLoadFlags

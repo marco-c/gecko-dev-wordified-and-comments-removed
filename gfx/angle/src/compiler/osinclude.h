@@ -70,6 +70,13 @@ defined
 (
 __GNU__
 )
+|
+|
+\
+defined
+(
+__QNX__
+)
 #
 define
 ANGLE_OS_POSIX

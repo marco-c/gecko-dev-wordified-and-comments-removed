@@ -1584,6 +1584,11 @@ endif
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
+typedef
+JSObject
+*
+RawObject
+;
 #
 ifdef
 DEBUG

@@ -787,6 +787,10 @@ shuttingDown
 =
 false
 ;
+{
+nsAutoLowPriorityIO
+autoLowPriority
+;
 for
 (
 PRInt32
@@ -828,6 +832,7 @@ i
 shuttingDown
 )
 ;
+}
 }
 {
 MutexAutoLock

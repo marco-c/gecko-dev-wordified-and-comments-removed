@@ -75,7 +75,7 @@ nsNativeDragTarget
 (
 nsIWidget
 *
-aWnd
+aWidget
 )
 ;
 ~
@@ -219,7 +219,7 @@ mTookOwnRef
 ;
 nsIWidget
 *
-mWindow
+mWidget
 ;
 nsIDragService
 *

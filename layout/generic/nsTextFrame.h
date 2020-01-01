@@ -746,6 +746,14 @@ GetFontSizeInflation
 const
 ;
 bool
+IsCurrentFontInflation
+(
+float
+aInflation
+)
+const
+;
+bool
 HasFontSizeInflation
 (
 )

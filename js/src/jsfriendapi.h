@@ -2676,6 +2676,11 @@ D
 TRANSPLANT
 )
 \
+D
+(
+RESET
+)
+\
 \
 /
 *
