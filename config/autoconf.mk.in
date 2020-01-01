@@ -815,6 +815,11 @@ JAR
 TAR
 =
 TAR
+RM
+=
+rm
+-
+f
 #
 The
 MOZ_UI_LOCALE

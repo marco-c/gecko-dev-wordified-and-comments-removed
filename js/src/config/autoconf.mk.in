@@ -621,6 +621,11 @@ JS_ULTRASPARC_OPTS
 TAR
 =
 TAR
+RM
+=
+rm
+-
+f
 #
 The
 MOZ_UI_LOCALE
