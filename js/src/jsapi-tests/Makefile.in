@@ -541,6 +541,10 @@ testSameValue
 .
 cpp
 \
+testScriptInfo
+.
+cpp
+\
 testScriptObject
 .
 cpp

@@ -2528,7 +2528,7 @@ d
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 *
@@ -8182,7 +8182,7 @@ cmp
 if
 (
 !
-ValueToNumber
+ToNumber
 (
 cx
 session
