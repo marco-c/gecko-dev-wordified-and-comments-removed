@@ -598,6 +598,10 @@ file_empty
 .
 html
 \
+test_sizetocontent_clamp
+.
+html
+\
 (
 NULL
 )
