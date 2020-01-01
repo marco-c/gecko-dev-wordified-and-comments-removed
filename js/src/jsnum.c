@@ -771,9 +771,8 @@ return
 JS_TRUE
 ;
 }
-OBJ_SET_SLOT
+STOBJ_SET_SLOT
 (
-cx
 obj
 JSSLOT_PRIVATE
 v
@@ -3043,9 +3042,8 @@ proto
 return
 NULL
 ;
-OBJ_SET_SLOT
+STOBJ_SET_SLOT
 (
-cx
 proto
 JSSLOT_PRIVATE
 JSVAL_ZERO

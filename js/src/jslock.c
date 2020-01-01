@@ -67,6 +67,13 @@ h
 #
 include
 "
+jsfun
+.
+h
+"
+#
+include
+"
 jslock
 .
 h
@@ -2395,8 +2402,9 @@ cx
 )
 )
 {
-STOBJ_SET_SLOT
+LOCKED_OBJ_WRITE_BARRIER
 (
+cx
 obj
 slot
 v
@@ -2456,8 +2464,9 @@ obj
 )
 )
 {
-STOBJ_SET_SLOT
+LOCKED_OBJ_WRITE_BARRIER
 (
+cx
 obj
 slot
 v
@@ -2554,8 +2563,9 @@ owner
 me
 )
 {
-STOBJ_SET_SLOT
+LOCKED_OBJ_WRITE_BARRIER
 (
+cx
 obj
 slot
 v
@@ -2572,8 +2582,9 @@ cx
 obj
 )
 ;
-STOBJ_SET_SLOT
+LOCKED_OBJ_WRITE_BARRIER
 (
+cx
 obj
 slot
 v

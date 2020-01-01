@@ -250,6 +250,11 @@ JSParseNode
 ;
 typedef
 struct
+JSPropCacheEntry
+JSPropCacheEntry
+;
+typedef
+struct
 JSSharpObjectMap
 JSSharpObjectMap
 ;
