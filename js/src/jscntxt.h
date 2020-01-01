@@ -5057,7 +5057,10 @@ message
 JSErrorReport
 *
 reportp
-bool
+JSBool
+*
+warningp
+JSBool
 charArgs
 va_list
 ap
