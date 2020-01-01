@@ -648,6 +648,10 @@ browser_webconsole_bug_597103_deactivateHUDForContext_unfocused_window
 .
 js
 \
+browser_webconsole_bug_594497_history_arrow_keys
+.
+js
+\
 browser_webconsole_bug_588342_document_focus
 .
 js
