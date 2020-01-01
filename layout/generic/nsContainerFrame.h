@@ -894,7 +894,7 @@ FramePropertyDescriptor
 aProperty
 )
 ;
-nsresult
+void
 SetPropTableFrames
 (
 nsPresContext
