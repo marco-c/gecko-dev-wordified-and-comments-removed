@@ -12,15 +12,6 @@ SourceSurfaceCairo
 .
 h
 "
-#
-include
-"
-cairo
-/
-cairo
-.
-h
-"
 namespace
 mozilla
 {

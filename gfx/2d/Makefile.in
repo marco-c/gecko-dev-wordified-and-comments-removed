@@ -622,3 +622,9 @@ config
 rules
 .
 mk
+CXXFLAGS
++
+=
+(
+MOZ_CAIRO_CFLAGS
+)
