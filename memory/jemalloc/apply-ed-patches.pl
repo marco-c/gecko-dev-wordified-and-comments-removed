@@ -467,6 +467,7 @@ print
 "
 ed
 -
+s
 target_file
 <
 patch_file
@@ -478,6 +479,7 @@ system
 "
 ed
 -
+s
 target_file
 <
 patch_file
