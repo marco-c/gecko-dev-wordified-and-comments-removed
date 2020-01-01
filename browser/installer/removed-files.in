@@ -4507,6 +4507,9 @@ fonts
 mathfontPUA
 .
 properties
+#
+ifndef
+XP_WIN
 res
 /
 fonts
@@ -4514,6 +4517,8 @@ fonts
 mathfontSymbol
 .
 properties
+#
+endif
 res
 /
 fonts
