@@ -36423,6 +36423,16 @@ canDrop
 canDrop
 )
 {
+[
+self
+doDragAction
+:
+NS_DRAGDROP_EXIT
+sender
+:
+aSender
+]
+;
 nsCOMPtr
 <
 nsIDOMNode

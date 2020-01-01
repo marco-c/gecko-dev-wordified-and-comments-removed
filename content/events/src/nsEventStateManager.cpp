@@ -5704,9 +5704,6 @@ break
 #
 endif
 case
-NS_DRAGDROP_DROP
-:
-case
 NS_DRAGDROP_OVER
 :
 GenerateDragDropEnterExit
@@ -15712,9 +15709,6 @@ mCurrentTarget
 }
 break
 ;
-case
-NS_DRAGDROP_DROP
-:
 case
 NS_DRAGDROP_EXIT
 :
