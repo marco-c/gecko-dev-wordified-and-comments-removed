@@ -14398,6 +14398,9 @@ lockFocus
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
+#
+ifndef
+NP_NO_QUICKDRAW
 /
 /
 Set
@@ -14470,6 +14473,8 @@ in
 the
 hierarchy
 !
+#
+endif
 [
 super
 lockFocus
