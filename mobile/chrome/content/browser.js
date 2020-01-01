@@ -4926,6 +4926,7 @@ e
 _handleContentCommand
 :
 function
+_handleContentCommand
 (
 aEvent
 )
@@ -9563,6 +9564,7 @@ nsIPermissionManager
 onUpdatePageReport
 :
 function
+onUpdatePageReport
 (
 aEvent
 )
@@ -9859,6 +9861,7 @@ true
 toggleAllowPopupsForSite
 :
 function
+toggleAllowPopupsForSite
 (
 aEvent
 )
@@ -9926,6 +9929,7 @@ removeCurrentNotification
 dontShowMessage
 :
 function
+dontShowMessage
 (
 )
 {
@@ -9980,6 +9984,7 @@ gXPInstallObserver
 observe
 :
 function
+xpi_observer
 (
 aSubject
 aTopic
