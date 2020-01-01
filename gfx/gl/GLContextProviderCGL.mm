@@ -469,6 +469,15 @@ mTempTextureName
 0
 )
 {
+SetProfileVersion
+(
+ContextProfile
+:
+:
+OpenGLCompatibility
+210
+)
+;
 }
 ~
 GLContextCGL

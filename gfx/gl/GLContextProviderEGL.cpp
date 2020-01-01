@@ -1088,9 +1088,13 @@ mTemporaryEGLImageTexture
 0
 )
 {
-SetIsGLES2
+SetProfileVersion
 (
-true
+ContextProfile
+:
+:
+OpenGLES
+200
 )
 ;
 #
