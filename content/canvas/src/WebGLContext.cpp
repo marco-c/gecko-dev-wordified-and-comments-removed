@@ -2982,14 +2982,14 @@ WebGLContext
 *
 oldestContext
 =
-nsnull
+nullptr
 ;
 const
 WebGLContext
 *
 oldestContextThisPrincipal
 =
-nsnull
+nullptr
 ;
 size_t
 numContexts

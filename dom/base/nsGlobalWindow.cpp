@@ -37411,8 +37411,8 @@ getter_AddRefs
 (
 domEvent
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 aEvent
