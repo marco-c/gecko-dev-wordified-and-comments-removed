@@ -1186,6 +1186,9 @@ aNameSpaceID
 1
 =
 =
+(
+PRInt32
+)
 mURIArray
 .
 Length
