@@ -125,7 +125,7 @@ class
 nsIMarkupDocumentViewer
 ;
 class
-nsIDocumentCharsetInfo
+nsIDocShell
 ;
 class
 nsICachingChannel
@@ -898,9 +898,9 @@ TryUserForcedCharset
 nsIMarkupDocumentViewer
 *
 aMarkupDV
-nsIDocumentCharsetInfo
+nsIDocShell
 *
-aDocInfo
+aDocShell
 PRInt32
 &
 aCharsetSource
@@ -927,9 +927,9 @@ aCharset
 bool
 TryParentCharset
 (
-nsIDocumentCharsetInfo
+nsIDocShell
 *
-aDocInfo
+aDocShell
 nsIDocument
 *
 aParentDocument
