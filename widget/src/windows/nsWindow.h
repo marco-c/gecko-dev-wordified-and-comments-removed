@@ -1830,13 +1830,9 @@ LRESULT
 aResult
 )
 ;
-static
 void
 IPCWindowProcHandler
 (
-HWND
-&
-hWnd
 UINT
 &
 msg
