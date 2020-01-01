@@ -387,6 +387,10 @@ Function
 .
 webidl
 \
+Future
+.
+webidl
+\
 GainNode
 .
 webidl
