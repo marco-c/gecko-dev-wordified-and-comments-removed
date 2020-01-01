@@ -369,11 +369,6 @@ nsIDOMEventTarget
 *
 mTarget
 ;
-private
-:
-PRBool
-mCaretWasVisible
-;
 }
 ;
 #

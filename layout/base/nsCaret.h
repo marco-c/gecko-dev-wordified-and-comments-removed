@@ -286,6 +286,11 @@ PRInt32
 aReturnOffset
 )
 ;
+NS_IMETHOD
+CheckCaretDrawingState
+(
+)
+;
 protected
 :
 void
@@ -351,6 +356,8 @@ aInvalidate
 PRBool
 MustDrawCaret
 (
+PRBool
+aIgnoreDrawnState
 )
 ;
 void
@@ -437,6 +444,11 @@ already_AddRefed
 nsFrameSelection
 >
 GetFrameSelection
+(
+)
+;
+PRBool
+IsMenuPopupHidingCaret
 (
 )
 ;
