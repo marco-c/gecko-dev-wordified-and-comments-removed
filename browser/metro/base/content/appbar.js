@@ -466,9 +466,9 @@ typesArray
 if
 (
 !
-StartUI
+BrowserUI
 .
-isVisible
+isStartTabVisible
 )
 typesArray
 .
