@@ -546,11 +546,6 @@ dom
 workers
 /
 Makefile
-dom
-/
-time
-/
-Makefile
 "
 MAKEFILES_editor
 =

@@ -134,10 +134,6 @@ dom
 /
 workers
 \
-dom
-/
-time
-\
 content
 /
 xbl

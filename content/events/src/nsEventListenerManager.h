@@ -701,16 +701,6 @@ PRUint32
 aType
 )
 ;
-void
-EnableTimeChangeNotifications
-(
-)
-;
-void
-DisableTimeChangeNotifications
-(
-)
-;
 public
 :
 nsresult

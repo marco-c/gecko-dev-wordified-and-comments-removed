@@ -648,9 +648,6 @@ userproximity
 "
 devicelight
 "
-"
-moztimechange
-"
 }
 ;
 static
