@@ -601,6 +601,12 @@ RequestBackoff
 60
 *
 1000
+4
+60
+*
+60
+*
+1000
 60
 *
 60
@@ -1952,6 +1958,14 @@ url
 return
 ;
 }
+this
+.
+requestBackoff_
+.
+noteRequest
+(
+)
+;
 if
 (
 !
