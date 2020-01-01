@@ -139,7 +139,7 @@ android
 layout_width
 =
 "
-fill_parent
+200dip
 "
 android
 :
