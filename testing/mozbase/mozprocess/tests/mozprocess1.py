@@ -98,16 +98,6 @@ C
 iniparser
 "
 ]
-stdout
-=
-subprocess
-.
-PIPE
-stderr
-=
-subprocess
-.
-PIPE
 cwd
 =
 aDir
@@ -124,16 +114,6 @@ call
 make
 "
 ]
-stdout
-=
-subprocess
-.
-PIPE
-stderr
-=
-subprocess
-.
-PIPE
 cwd
 =
 aDir
@@ -532,7 +512,13 @@ run
         
 p
 .
-wait
+processOutput
+(
+)
+        
+p
+.
+waitForFinish
 (
 )
         
@@ -620,6 +606,12 @@ p
 .
 run
 (
+)
+        
+p
+.
+processOutput
+(
 timeout
 =
 10
@@ -627,7 +619,7 @@ timeout
         
 p
 .
-wait
+waitForFinish
 (
 )
         
@@ -717,6 +709,12 @@ here
 p
 .
 run
+(
+)
+        
+p
+.
+processOutput
 (
 )
         

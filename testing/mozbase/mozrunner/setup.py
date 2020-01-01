@@ -6,6 +6,7 @@ from
 setuptools
 import
 setup
+find_packages
 PACKAGE_NAME
 =
 "
@@ -16,7 +17,7 @@ PACKAGE_VERSION
 '
 5
 .
-12
+8
 '
 desc
 =
@@ -114,7 +115,7 @@ mozprocess
 =
 0
 .
-7
+4
 '
         
 '
@@ -261,7 +262,7 @@ lists
 .
 mozilla
 .
-org
+com
 '
       
 url
@@ -271,19 +272,19 @@ https
 :
 /
 /
-wiki
+github
 .
+com
+/
 mozilla
-.
-org
 /
-Auto
--
-tools
+mozbase
 /
-Projects
+tree
 /
-MozBase
+master
+/
+mozrunner
 '
       
 license
@@ -297,11 +298,16 @@ MPL
       
 packages
 =
+find_packages
+(
+exclude
+=
 [
 '
-mozrunner
+legacy
 '
 ]
+)
       
 zip_safe
 =

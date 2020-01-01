@@ -4,6 +4,7 @@ from
 setuptools
 import
 setup
+find_packages
 try
 :
     
@@ -230,19 +231,13 @@ https
 :
 /
 /
-wiki
+github
 .
+com
+/
 mozilla
-.
-org
 /
-Auto
--
-tools
-/
-Projects
-/
-MozBase
+mozbase
 '
       
 license
@@ -256,11 +251,16 @@ MPL
       
 packages
 =
+find_packages
+(
+exclude
+=
 [
 '
-mozinstall
+legacy
 '
 ]
+)
       
 include_package_data
 =

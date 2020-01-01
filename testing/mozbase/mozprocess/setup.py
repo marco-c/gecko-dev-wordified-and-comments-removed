@@ -4,12 +4,13 @@ from
 setuptools
 import
 setup
+find_packages
 PACKAGE_VERSION
 =
 '
 0
 .
-7
+4
 '
 here
 =
@@ -196,7 +197,7 @@ lists
 .
 mozilla
 .
-org
+com
 '
       
 url
@@ -206,19 +207,19 @@ https
 :
 /
 /
-wiki
+github
 .
+com
+/
 mozilla
-.
-org
 /
-Auto
--
-tools
+mozbase
 /
-Projects
+tree
 /
-MozBase
+master
+/
+mozprocess
 '
       
 license
@@ -232,11 +233,22 @@ MPL
       
 packages
 =
+find_packages
+(
+exclude
+=
 [
 '
-mozprocess
+ez_setup
+'
+'
+examples
+'
+'
+tests
 '
 ]
+)
       
 include_package_data
 =

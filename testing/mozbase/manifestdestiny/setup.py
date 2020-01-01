@@ -2,6 +2,7 @@ from
 setuptools
 import
 setup
+find_packages
 import
 sys
 import
@@ -66,13 +67,13 @@ ManifestDestiny
 "
 PACKAGE_VERSION
 =
-'
+"
 0
 .
 5
 .
-5
-'
+4
+"
 setup
 (
 name
@@ -113,22 +114,17 @@ manifests
 author
 =
 '
-Mozilla
-Automation
-and
-Testing
-Team
+Jeff
+Hammel
 '
       
 author_email
 =
 '
-tools
-lists
-.
+jhammel
 mozilla
 .
-org
+com
 '
       
 url
@@ -138,19 +134,19 @@ https
 :
 /
 /
-wiki
+github
 .
+com
+/
 mozilla
-.
-org
 /
-Auto
--
-tools
+mozbase
 /
-Projects
+tree
 /
-MozBase
+master
+/
+manifestdestiny
 '
       
 license
@@ -165,15 +161,21 @@ False
       
 packages
 =
+find_packages
+(
+exclude
+=
 [
 '
-manifestparser
+legacy
 '
 ]
+)
       
 install_requires
 =
 [
+      
 ]
       
 entry_points
@@ -188,8 +190,6 @@ console_scripts
       
 manifestparser
 =
-manifestparser
-.
 manifestparser
 :
 main
