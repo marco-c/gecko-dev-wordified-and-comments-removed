@@ -75,14 +75,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-public
-src
-TEST_DIRS
-+
-=
-tests
 include
 (
 topsrcdir

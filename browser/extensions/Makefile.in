@@ -86,12 +86,6 @@ config
 autoconf
 .
 mk
-TEST_DIRS
-+
-=
-pdfjs
-/
-test
 ifdef
 MOZ_METRO
 GENERATED_DIRS

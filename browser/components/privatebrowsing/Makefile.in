@@ -78,10 +78,6 @@ mk
 MODULE
 =
 privatebrowsing
-TEST_DIRS
-+
-=
-test
 include
 (
 topsrcdir

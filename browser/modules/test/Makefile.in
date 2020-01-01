@@ -68,14 +68,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-DIRS
-=
-\
-chrome
-\
-(
-NULL
-)
 include
 (
 DEPTH

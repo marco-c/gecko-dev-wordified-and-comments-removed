@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -102,9 +101,6 @@ jsm
 (
 NULL
 )
-TEST_DIRS
-=
-test
 include
 (
 topsrcdir

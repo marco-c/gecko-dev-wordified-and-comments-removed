@@ -85,10 +85,6 @@ config
 config
 .
 mk
-TEST_DIRS
-+
-=
-test
 EXTRA_JS_MODULES
 =
 \

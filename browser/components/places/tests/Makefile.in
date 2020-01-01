@@ -85,10 +85,6 @@ test_browser_places
 XPCSHELL_TESTS
 =
 unit
-DIRS
-=
-browser
-chrome
 include
 (
 topsrcdir

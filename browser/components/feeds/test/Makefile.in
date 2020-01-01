@@ -84,14 +84,6 @@ test_browser_feeds
 XPCSHELL_TESTS
 =
 unit
-DIRS
-=
-\
-chrome
-\
-(
-NULL
-)
 MOCHITEST_FILES
 =
 bug408328

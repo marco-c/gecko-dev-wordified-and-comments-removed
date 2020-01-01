@@ -111,12 +111,6 @@ app
 license
 .
 html
-TEST_DIRS
-+
-=
-content
-/
-test
 include
 (
 topsrcdir

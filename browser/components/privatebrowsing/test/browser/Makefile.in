@@ -81,10 +81,6 @@ mk
 MODULE
 =
 test_privatebrowsing
-DIRS
-+
-=
-perwindow
 include
 (
 topsrcdir
