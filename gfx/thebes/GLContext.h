@@ -727,16 +727,6 @@ return
 mWrapMode
 ;
 }
-bool
-IsRGB
-(
-)
-const
-{
-return
-mIsRGBFormat
-;
-}
 void
 SetFilter
 (
@@ -786,10 +776,6 @@ mContentType
 (
 aContentType
 )
-mIsRGBFormat
-(
-aIsRGB
-)
 {
 }
 virtual
@@ -808,9 +794,6 @@ mWrapMode
 ;
 ContentType
 mContentType
-;
-bool
-mIsRGBFormat
 ;
 ShaderProgramType
 mShaderType

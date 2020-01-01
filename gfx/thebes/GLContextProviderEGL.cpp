@@ -5529,10 +5529,6 @@ return
 mUpdateSurface
 ;
 }
-mIsRGBFormat
-=
-PR_FALSE
-;
 mUpdateSurface
 =
 new
