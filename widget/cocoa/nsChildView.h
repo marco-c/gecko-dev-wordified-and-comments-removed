@@ -1408,8 +1408,6 @@ nsIRollupListener
 aListener
 bool
 aDoCapture
-bool
-aConsumeRollupEvent
 )
 ;
 NS_IMETHOD

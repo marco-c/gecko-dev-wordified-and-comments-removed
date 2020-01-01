@@ -422,8 +422,6 @@ nsIRollupListener
 aListener
 bool
 aDoCapture
-bool
-aConsumeRollupEvent
 )
 {
 return
