@@ -22952,6 +22952,7 @@ line
 MarkLineDirty
 (
 prevSibLine
+lineList
 )
 ;
 line
@@ -23285,6 +23286,7 @@ newFrame
 MarkLineDirty
 (
 prevSibLine
+lineList
 )
 ;
 }
