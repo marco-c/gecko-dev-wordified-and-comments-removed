@@ -695,6 +695,8 @@ CURDIR
 elfhack
 -
 b
+-
+f
 #
 Fail
 if

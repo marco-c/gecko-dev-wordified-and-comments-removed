@@ -2293,13 +2293,6 @@ getAlign
 )
 {
 return
-type
-=
-=
-PT_LOAD
-?
-0x1000
-:
 align
 ;
 }
