@@ -120,7 +120,7 @@ drawable
 "
 drawable
 /
-tabs_button_contracted
+tabs_crop_button_contracted
 "
 /
 >
@@ -138,9 +138,11 @@ android
 drawable
 =
 "
-drawable
+android
+:
+color
 /
-tabs_button_expanded
+transparent
 "
 /
 >

@@ -118,7 +118,7 @@ drawable
 "
 drawable
 /
-tabs_pressed
+tabs_full_pressed
 "
 /
 >
@@ -131,7 +131,7 @@ drawable
 "
 drawable
 /
-tabs_normal
+tabs_full_normal
 "
 /
 >
