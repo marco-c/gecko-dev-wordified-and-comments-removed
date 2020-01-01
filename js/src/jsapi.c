@@ -2469,9 +2469,12 @@ JSTYPE_BOOLEAN
 *
 vp
 =
+BOOLEAN_TO_JSVAL
+(
 js_ValueToBoolean
 (
 v
+)
 )
 ;
 return
