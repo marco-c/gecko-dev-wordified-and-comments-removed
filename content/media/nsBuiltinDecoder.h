@@ -835,8 +835,6 @@ PRUint32
 aLength
 )
 ;
-public
-:
 PlayState
 GetState
 (
@@ -1006,8 +1004,6 @@ NotifyAudioAvailableListener
 (
 )
 ;
-public
-:
 void
 DecodeError
 (
