@@ -742,6 +742,15 @@ PRBool
 aNotify
 )
 ;
+private
+:
+nsPoint
+GetCSSTransformTranslation
+(
+)
+;
+protected
+:
 nsFrameList
 mPopupFrames
 ;
