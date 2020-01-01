@@ -570,6 +570,13 @@ aClassIID
 )
 ;
 void
+NotifyEffectiveVisibilityChanged
+(
+PRBool
+aEffectivelyVisible
+)
+;
+void
 InvalidateHierarchy
 (
 nsViewManager
@@ -625,6 +632,11 @@ CalcWidgetBounds
 (
 nsWindowType
 aType
+)
+;
+PRBool
+IsEffectivelyVisible
+(
 )
 ;
 protected
