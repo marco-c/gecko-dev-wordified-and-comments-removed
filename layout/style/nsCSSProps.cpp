@@ -5491,7 +5491,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozOutlineRadiusSubpropTable
+gOutlineRadiusSubpropTable
 [
 ]
 =
@@ -5630,7 +5630,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozBorderEndColorSubpropTable
+gBorderEndColorSubpropTable
 [
 ]
 =
@@ -5672,7 +5672,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozBorderStartColorSubpropTable
+gBorderStartColorSubpropTable
 [
 ]
 =
@@ -5686,7 +5686,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozBorderEndSubpropTable
+gBorderEndSubpropTable
 [
 ]
 =
@@ -5746,7 +5746,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozBorderStartSubpropTable
+gBorderStartSubpropTable
 [
 ]
 =
@@ -5813,7 +5813,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozBorderStartStyleSubpropTable
+gBorderStartStyleSubpropTable
 [
 ]
 =
@@ -5827,7 +5827,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozBorderEndStyleSubpropTable
+gBorderEndStyleSubpropTable
 [
 ]
 =
@@ -5902,7 +5902,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozBorderStartWidthSubpropTable
+gBorderStartWidthSubpropTable
 [
 ]
 =
@@ -5916,7 +5916,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozBorderEndWidthSubpropTable
+gBorderEndWidthSubpropTable
 [
 ]
 =
@@ -6026,7 +6026,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozMarginStartSubpropTable
+gMarginStartSubpropTable
 [
 ]
 =
@@ -6040,7 +6040,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozMarginEndSubpropTable
+gMarginEndSubpropTable
 [
 ]
 =
@@ -6068,7 +6068,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozColumnRuleSubpropTable
+gColumnRuleSubpropTable
 [
 ]
 =
@@ -6142,7 +6142,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozPaddingStartSubpropTable
+gPaddingStartSubpropTable
 [
 ]
 =
@@ -6156,7 +6156,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozPaddingEndSubpropTable
+gPaddingEndSubpropTable
 [
 ]
 =
@@ -6183,7 +6183,7 @@ eCSSProperty_UNKNOWN
 static
 const
 nsCSSProperty
-gMozTransitionSubpropTable
+gTransitionSubpropTable
 [
 ]
 =
@@ -6230,9 +6230,6 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 prop_
 )
-Moz
-#
-#
 prop_
 #
 define
