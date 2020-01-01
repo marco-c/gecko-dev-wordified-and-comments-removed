@@ -390,6 +390,14 @@ nsRefreshDriver
 aRefreshDriver
 )
 ;
+void
+MaybeStartSampling
+(
+nsRefreshDriver
+*
+aRefreshDriver
+)
+;
 virtual
 void
 DoSample
