@@ -2050,8 +2050,8 @@ createViewportEvent
 (
 ViewportMetrics
 viewport
-Rect
-displayPortMargins
+RectF
+displayPort
 )
 {
 GeckoEvent
@@ -2158,7 +2158,7 @@ append
 "
 \
 "
-displayPortMargins
+displayPort
 \
 "
 :
@@ -2171,7 +2171,7 @@ RectUtils
 .
 toJSON
 (
-displayPortMargins
+displayPort
 )
 )
 .

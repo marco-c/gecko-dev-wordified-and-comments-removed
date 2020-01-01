@@ -157,7 +157,7 @@ static
 String
 toJSON
 (
-Rect
+RectF
 rect
 )
 {
