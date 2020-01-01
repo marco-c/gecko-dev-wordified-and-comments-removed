@@ -948,6 +948,16 @@ mIMERanges
 bool
 mIMEUpdatingContext
 ;
+nsAutoTArray
+<
+mozilla
+:
+:
+AndroidGeckoEvent
+8
+>
+mIMEKeyEvents
+;
 struct
 IMEChange
 {

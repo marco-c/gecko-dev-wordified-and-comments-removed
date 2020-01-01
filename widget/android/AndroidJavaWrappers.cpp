@@ -3617,6 +3617,9 @@ break
 case
 KEY_EVENT
 :
+case
+IME_KEY_EVENT
+:
 mTime
 =
 jenv
