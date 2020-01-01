@@ -7183,12 +7183,14 @@ this
 .
 _dbStmts
 )
+{
 stmt
 .
 finalize
 (
 )
 ;
+}
 this
 .
 _dbStmts
