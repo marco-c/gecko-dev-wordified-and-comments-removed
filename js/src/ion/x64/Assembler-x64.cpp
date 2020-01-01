@@ -580,6 +580,7 @@ i
 SizeOfJumpTableEntry
 )
 <
+=
 size
 (
 )
@@ -797,6 +798,7 @@ target
 +
 SizeOfJumpTableEntry
 <
+=
 code
 -
 >
