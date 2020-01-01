@@ -2066,12 +2066,7 @@ textbox
 type
 =
 "
-timed
-"
-timeout
-=
-"
-500
+search
 "
 id
 =
