@@ -7339,12 +7339,12 @@ v
 )
 {
 return
-JS_ValueToECMAInt32
+JS_ValueToECMAUint32
 (
 cx
 v
 (
-int32_t
+uint32_t
 *
 )
 &
