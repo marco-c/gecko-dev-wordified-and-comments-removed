@@ -6699,11 +6699,10 @@ GetFirstArgumentAsObject
 JSContext
 *
 cx
-unsigned
-argc
-Value
-*
-vp
+const
+CallArgs
+&
+args
 const
 char
 *
