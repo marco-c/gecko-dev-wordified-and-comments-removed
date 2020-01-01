@@ -357,7 +357,6 @@ this
 _setProvider
 (
 val
-true
 )
 ;
 }
@@ -366,7 +365,6 @@ _setProvider
 function
 (
 provider
-notify
 )
 {
 if
@@ -464,11 +462,6 @@ enabled
 )
 ;
 }
-if
-(
-notify
-)
-{
 let
 origin
 =
@@ -500,7 +493,6 @@ set
 origin
 )
 ;
-}
 }
 get
 defaultProvider
@@ -550,7 +542,6 @@ init
 function
 Social_init
 (
-callback
 )
 {
 this
@@ -575,11 +566,6 @@ this
 providers
 )
 {
-schedule
-(
-callback
-)
-;
 return
 ;
 }
@@ -597,11 +583,6 @@ this
 _updateProviderCache
 (
 providers
-false
-)
-;
-callback
-(
 )
 ;
 }
@@ -650,7 +631,6 @@ this
 _updateProviderCache
 (
 data
-true
 )
 ;
 Services
@@ -685,7 +665,6 @@ _updateProviderCache
 function
 (
 providers
-notifyProviderChange
 )
 {
 this
@@ -710,7 +689,6 @@ _setProvider
 this
 .
 defaultProvider
-notifyProviderChange
 )
 ;
 }
