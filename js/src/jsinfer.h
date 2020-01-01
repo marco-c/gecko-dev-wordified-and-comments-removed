@@ -1551,9 +1551,6 @@ inferenceEnabled
 unsigned
 inferenceDepth
 ;
-uint64_t
-inferenceStartTime
-;
 JSArenaPool
 pool
 ;
@@ -1645,9 +1642,6 @@ pendingCapacity
 ;
 bool
 resolving
-;
-uint64_t
-analysisTime
 ;
 static
 const

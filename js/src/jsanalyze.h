@@ -1307,6 +1307,9 @@ unknownModset
 bool
 hasSafePoints
 ;
+bool
+hasCallsLoops
+;
 types
 :
 :
