@@ -510,9 +510,7 @@ env
 None
 cwd
 =
-'
-.
-'
+None
 )
 :
         
@@ -585,9 +583,7 @@ env
 None
 cwd
 =
-'
-.
-'
+None
 )
 :
             

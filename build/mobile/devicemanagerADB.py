@@ -438,9 +438,10 @@ arg
     
 cmdline
 =
-subprocess
+"
+"
 .
-list2cmdline
+join
 (
 cmd
 )
