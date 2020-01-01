@@ -2039,7 +2039,9 @@ base
 -
 with
 -
-l10nbase
+l10n
+-
+base
 =
 DIR
 path
