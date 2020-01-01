@@ -1315,15 +1315,6 @@ Tab
 <
 !
 ENTITY
-synced_tabs
-"
-Synced
-Tabs
-"
->
-<
-!
-ENTITY
 close_all_tabs
 "
 Close
