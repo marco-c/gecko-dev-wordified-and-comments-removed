@@ -27410,6 +27410,13 @@ return
 NS_OK
 ;
 }
+{
+nsAutoTxnsConserveSelection
+dontSpazMySelection
+(
+mHTMLEditor
+)
+;
 res
 =
 GetNodesFromSelection
@@ -27426,6 +27433,7 @@ res
 res
 )
 ;
+}
 PRInt32
 listCount
 =
