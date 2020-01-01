@@ -4255,7 +4255,6 @@ ccx
 >
 SetDestroyJSContextInDestructor
 (
-true
 )
 ;
 return
