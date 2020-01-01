@@ -4360,6 +4360,14 @@ AliasSet
 Any
 )
 ;
+JS_ASSERT
+(
+specialization_
+<
+=
+MIRType_Object
+)
+;
 return
 AliasSet
 :
