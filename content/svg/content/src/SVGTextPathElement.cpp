@@ -245,14 +245,6 @@ true
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGTextPathElement
-SVGTextPathElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGTextPathElement
 :
 :

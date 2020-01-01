@@ -141,14 +141,6 @@ SVG_ZOOMANDPAN_MAGNIFY
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGViewElement
-SVGViewElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGViewElement
 :
 :

@@ -57,14 +57,6 @@ this
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGDefsElement
-SVGGraphicsElement
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGDefsElement
 :
 :

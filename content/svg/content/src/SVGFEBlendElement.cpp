@@ -185,14 +185,6 @@ true
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGFEBlendElement
-SVGFEBlendElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 NS_IMPL_ELEMENT_CLONE_WITH_INIT
 (
 SVGFEBlendElement

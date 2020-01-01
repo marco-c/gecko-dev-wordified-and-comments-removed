@@ -319,14 +319,6 @@ NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 SVGAnimatedEnumeration
 )
 NS_INTERFACE_MAP_END
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGMarkerElement
-SVGMarkerElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 nsresult
 nsSVGOrientType
 :

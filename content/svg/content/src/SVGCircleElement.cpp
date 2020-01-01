@@ -134,14 +134,6 @@ XY
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGCircleElement
-SVGCircleElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGCircleElement
 :
 :

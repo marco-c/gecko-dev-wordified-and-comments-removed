@@ -347,7 +347,6 @@ aNodeInfo
 }
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 int32_t
 GetChannel
@@ -454,7 +453,6 @@ aNodeInfo
 }
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 int32_t
 GetChannel
@@ -561,7 +559,6 @@ aNodeInfo
 }
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 int32_t
 GetChannel
@@ -668,7 +665,6 @@ aNodeInfo
 }
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 int32_t
 GetChannel

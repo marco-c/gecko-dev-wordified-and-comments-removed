@@ -194,14 +194,6 @@ SVG_UNIT_TYPE_USERSPACEONUSE
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGMaskElement
-SVGMaskElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGMaskElement
 :
 :

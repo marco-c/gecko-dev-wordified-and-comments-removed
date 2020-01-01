@@ -76,14 +76,6 @@ offset
 true
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGStopElement
-SVGStopElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGStopElement
 :
 :

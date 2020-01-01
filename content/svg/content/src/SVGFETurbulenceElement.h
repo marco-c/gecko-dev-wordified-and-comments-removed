@@ -131,7 +131,6 @@ return
 false
 ;
 }
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
 Filter

@@ -126,14 +126,6 @@ pathLength
 false
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGPathElement
-SVGPathElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGPathElement
 :
 :

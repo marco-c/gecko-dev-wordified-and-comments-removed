@@ -73,7 +73,6 @@ SVGTransformableElement
 )
 {
 }
-NS_DECL_ISUPPORTS_INHERITED
 already_AddRefed
 <
 DOMSVGAnimatedTransformList

@@ -88,14 +88,6 @@ false
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGAltGlyphElement
-SVGAltGlyphElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGAltGlyphElement
 :
 :

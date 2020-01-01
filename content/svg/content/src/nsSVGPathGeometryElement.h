@@ -86,7 +86,6 @@ nsINodeInfo
 aNodeInfo
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 bool
 AttributeDefinesGeometry

@@ -143,14 +143,6 @@ Y
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGLineElement
-SVGLineElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGLineElement
 :
 :

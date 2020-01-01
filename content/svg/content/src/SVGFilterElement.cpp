@@ -248,14 +248,6 @@ true
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGFilterElement
-SVGFilterElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGFilterElement
 :
 :

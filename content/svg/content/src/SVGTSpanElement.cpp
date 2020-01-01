@@ -64,14 +64,6 @@ this
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGTSpanElement
-SVGTSpanElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGTSpanElement
 :
 :

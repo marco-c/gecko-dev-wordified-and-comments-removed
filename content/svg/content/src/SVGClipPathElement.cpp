@@ -97,14 +97,6 @@ SVG_UNIT_TYPE_USERSPACEONUSE
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGClipPathElement
-SVGClipPathElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGClipPathElement
 :
 :

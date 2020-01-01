@@ -143,14 +143,6 @@ Y
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGEllipseElement
-SVGEllipseElementBase
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGEllipseElement
 :
 :

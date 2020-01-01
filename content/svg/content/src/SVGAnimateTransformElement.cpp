@@ -57,14 +57,6 @@ this
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGAnimateTransformElement
-SVGAnimationElement
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGAnimateTransformElement
 :
 :

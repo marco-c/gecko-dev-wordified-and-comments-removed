@@ -162,7 +162,6 @@ MOZ_OVERRIDE
 ;
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD_
 (
 bool
@@ -361,7 +360,6 @@ MOZ_OVERRIDE
 ;
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
 Clone
@@ -501,7 +499,6 @@ MOZ_OVERRIDE
 ;
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
 Clone

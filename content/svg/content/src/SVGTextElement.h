@@ -92,7 +92,6 @@ aNodeInfo
 ;
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD_
 (
 bool

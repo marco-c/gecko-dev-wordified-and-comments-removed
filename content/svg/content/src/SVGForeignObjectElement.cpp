@@ -152,14 +152,6 @@ Y
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
-(
-SVGForeignObjectElement
-SVGGraphicsElement
-nsIDOMNode
-nsIDOMElement
-nsIDOMSVGElement
-)
 SVGForeignObjectElement
 :
 :
