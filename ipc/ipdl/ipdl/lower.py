@@ -4432,6 +4432,18 @@ pure
 =
 True
                 
+actordecl
+=
+cxx
+.
+Decl
+(
+objtype
+'
+__a
+'
+)
+                
 if
 md
 .
@@ -4452,18 +4464,6 @@ objtype
                 
 else
 :
-                    
-actordecl
-=
-cxx
-.
-Decl
-(
-objtype
-'
-__a
-'
-)
                     
 meth
 .
@@ -4493,17 +4493,6 @@ self
 receivesMessage
 (
 md
-)
-and
-not
-md
-.
-decl
-.
-type
-.
-isCtor
-(
 )
 :
                 
@@ -4554,6 +4543,16 @@ meth
 name
                 
 if
+md
+.
+decl
+.
+type
+.
+isCtor
+(
+)
+or
 md
 .
 decl
@@ -10081,26 +10080,13 @@ addstmt
 failif
 )
             
-if
-not
-md
-.
-decl
-.
-type
-.
-isCtor
-(
-)
-:
-                
 callimpl
 =
 cxx
 .
 ExprCall
 (
-                    
+                
 cxx
 .
 ExprVar
@@ -10116,8 +10102,18 @@ progname
 [
 ]
 )
-                
+            
 if
+md
+.
+decl
+.
+type
+.
+isCtor
+(
+)
+or
 md
 .
 decl
@@ -10128,7 +10124,7 @@ isDtor
 (
 )
 :
-                    
+                
 callimpl
 .
 args
@@ -10137,7 +10133,7 @@ args
 [
 objvar
 ]
-                
+            
 callimpl
 .
 args
@@ -10161,7 +10157,7 @@ _cxx
 .
 params
 ]
-                
+            
 callimpl
 .
 args
@@ -10181,7 +10177,7 @@ r
 name
 )
 )
-                                   
+                               
 for
 r
 in
@@ -10191,7 +10187,7 @@ _cxx
 .
 returns
 ]
-                
+            
 errhandle
 =
 cxx
@@ -10202,7 +10198,7 @@ cxx
 .
 ExprCall
 (
-                        
+                
 cxx
 .
 ExprVar
@@ -10216,7 +10212,7 @@ callimpl
 ]
 )
 )
-                
+            
 errhandle
 .
 ifb
@@ -10227,7 +10223,7 @@ cxx
 .
 StmtReturn
 (
-                        
+                
 cxx
 .
 ExprVar
@@ -10238,7 +10234,7 @@ MsgValueError
 )
 )
 )
-                
+            
 block
 .
 addstmt
