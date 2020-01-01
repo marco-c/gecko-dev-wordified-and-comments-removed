@@ -10046,7 +10046,10 @@ profile
 >
 Lock
 (
-nullptr
+getter_AddRefs
+(
+unlocker
+)
 aResult
 )
 ;
