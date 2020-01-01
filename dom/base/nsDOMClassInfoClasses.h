@@ -1601,6 +1601,15 @@ MozStkCommandEvent
 endif
 #
 ifdef
+MOZ_B2G_FM
+DOMCI_CLASS
+(
+FMRadio
+)
+#
+endif
+#
+ifdef
 MOZ_B2G_BT
 DOMCI_CLASS
 (

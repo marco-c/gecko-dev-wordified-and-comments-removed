@@ -449,6 +449,14 @@ DEFINES
 -
 DMOZ_B2G_RIL
 endif
+ifdef
+MOZ_B2G_FM
+DEFINES
++
+=
+-
+DMOZ_B2G_FM
+endif
 include
 (
 topsrcdir
