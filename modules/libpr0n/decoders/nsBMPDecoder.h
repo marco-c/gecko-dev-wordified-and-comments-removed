@@ -501,9 +501,6 @@ mState
 PRUint32
 mStateData
 ;
-PRBool
-mError
-;
 void
 ProcessFileHeader
 (

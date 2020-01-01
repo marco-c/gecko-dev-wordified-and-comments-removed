@@ -211,9 +211,6 @@ mIsCursor
 PRPackedBool
 mDecodingAndMask
 ;
-PRPackedBool
-mError
-;
 }
 ;
 }
