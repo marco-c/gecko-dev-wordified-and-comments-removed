@@ -416,7 +416,7 @@ obs
 >
 AddObserver
 (
-sInstance
+this
 MOZSETTINGS_CHANGED_ID
 false
 )
