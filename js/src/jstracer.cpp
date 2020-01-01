@@ -80915,13 +80915,6 @@ stack
 cond_ins
 )
 ;
-stack
-(
--
-1
-iterobj_ins
-)
-;
 return
 ARECORD_CONTINUE
 ;
