@@ -469,8 +469,8 @@ EventOccurred
 )
 const
 ;
-bool
-MaybeProcessDeferredIncall
+void
+MaybeUndeferIncall
 (
 )
 ;
