@@ -444,6 +444,7 @@ leakLogFile
 :
       
 return
+None
     
 leaks
 =
@@ -470,7 +471,6 @@ close
 )
     
 if
-not
 "
 0
 TOTAL
@@ -479,8 +479,6 @@ in
 leakReport
 :
       
-return
-    
 print
 leakReport
 .
@@ -491,6 +489,9 @@ rstrip
 n
 "
 )
+    
+return
+leakReport
   
 if
 xrePath
@@ -1233,9 +1234,60 @@ passed
 %
 test
       
+leakReport
+=
 processLeakLog
 (
 leakLogFile
+)
+      
+try
+:
+        
+f
+=
+open
+(
+test
++
+'
+.
+log
+'
+'
+w
+'
+)
+        
+f
+.
+write
+(
+stdout
+)
+        
+if
+leakReport
+:
+          
+f
+.
+write
+(
+leakReport
+)
+      
+finally
+:
+        
+if
+f
+:
+          
+f
+.
+close
+(
 )
       
 if
