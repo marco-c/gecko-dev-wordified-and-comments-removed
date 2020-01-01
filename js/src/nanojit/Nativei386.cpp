@@ -3698,10 +3698,10 @@ EDX
 prepResultReg
 (
 ins
-1
-<
-<
+rmask
+(
 EDX
+)
 )
 ;
 evictIfActive
@@ -3771,10 +3771,10 @@ EDX
 ;
 allow
 =
-1
-<
-<
+rmask
+(
 EAX
+)
 ;
 evictIfActive
 (

@@ -211,13 +211,9 @@ priority
 ;
 verbose_only
 (
-static
 void
 formatRegisters
 (
-RegAlloc
-&
-regs
 char
 *
 s
