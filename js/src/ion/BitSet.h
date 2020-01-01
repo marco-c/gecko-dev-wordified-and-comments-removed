@@ -175,6 +175,12 @@ value
 )
 const
 ;
+bool
+empty
+(
+)
+const
+;
 void
 insert
 (
