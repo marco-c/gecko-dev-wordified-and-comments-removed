@@ -9867,6 +9867,10 @@ Destroy
 (
 )
 ;
+mIsStopping
+=
+false
+;
 }
 NS_IMETHODIMP
 nsObjectLoadingContent
