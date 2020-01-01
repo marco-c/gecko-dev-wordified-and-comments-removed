@@ -559,6 +559,10 @@ nsDOMMutationObserver
 .
 cpp
 \
+nsMixedContentBlocker
+.
+cpp
+\
 (
 NULL
 )
