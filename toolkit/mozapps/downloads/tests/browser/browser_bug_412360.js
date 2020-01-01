@@ -24,6 +24,9 @@ didFail
 =
 false
 ;
+var
+file
+;
 let
 promptService
 =
@@ -59,6 +62,13 @@ showed
 a
 message
 "
+)
+;
+file
+.
+remove
+(
+false
 )
 ;
 finish
@@ -241,7 +251,6 @@ javascript
 "
 )
 ;
-let
 file
 =
 Cc

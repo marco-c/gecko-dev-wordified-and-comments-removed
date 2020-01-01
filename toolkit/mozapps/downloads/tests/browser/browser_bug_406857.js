@@ -312,6 +312,13 @@ removeListener
 listener
 )
 ;
+file
+.
+remove
+(
+false
+)
+;
 finish
 (
 )
