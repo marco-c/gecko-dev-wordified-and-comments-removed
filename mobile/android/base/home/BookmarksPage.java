@@ -2913,10 +2913,6 @@ Thumbnail
 (
 Favicons
 .
-getInstance
-(
-)
-.
 scaleImage
 (
 bitmap

@@ -2559,10 +2559,6 @@ params
 return
 Favicons
 .
-getInstance
-(
-)
-.
 getFaviconUrlForPageUrl
 (
 url
@@ -7320,10 +7316,6 @@ this
 ;
 Favicons
 .
-getInstance
-(
-)
-.
 attachToContext
 (
 this
@@ -11990,6 +11982,12 @@ close
 )
 ;
 }
+Favicons
+.
+close
+(
+)
+;
 super
 .
 onDestroy

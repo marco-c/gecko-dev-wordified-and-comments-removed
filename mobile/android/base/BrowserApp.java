@@ -3712,15 +3712,6 @@ true
 ;
 }
 Favicons
-favicons
-=
-Favicons
-.
-getInstance
-(
-)
-;
-favicons
 .
 loadFavicon
 (
@@ -7231,10 +7222,6 @@ id
 =
 Favicons
 .
-getInstance
-(
-)
-.
 loadFavicon
 (
 tab
@@ -7364,10 +7351,6 @@ NOT_LOADING
 return
 ;
 Favicons
-.
-getInstance
-(
-)
 .
 cancelFaviconLoad
 (

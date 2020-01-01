@@ -640,10 +640,6 @@ setBackgroundColor
 (
 Favicons
 .
-getInstance
-(
-)
-.
 getFaviconColor
 (
 favicon

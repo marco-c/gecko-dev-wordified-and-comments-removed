@@ -1239,10 +1239,6 @@ params
 return
 Favicons
 .
-getInstance
-(
-)
-.
 getFaviconUrlForPageUrl
 (
 mUrl
@@ -1296,10 +1292,6 @@ favicon
 }
 ;
 Favicons
-.
-getInstance
-(
-)
 .
 loadFavicon
 (

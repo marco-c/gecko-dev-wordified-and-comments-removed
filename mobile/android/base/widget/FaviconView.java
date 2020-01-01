@@ -156,10 +156,6 @@ if
 (
 Favicons
 .
-getInstance
-(
-)
-.
 isLargeFavicon
 (
 bitmap
@@ -188,10 +184,6 @@ int
 color
 =
 Favicons
-.
-getInstance
-(
-)
 .
 getFaviconColor
 (
