@@ -533,6 +533,16 @@ Length
 !
 =
 0
+|
+|
+mTextHash
+.
+Count
+(
+)
+!
+=
+0
 ;
 }
 void
