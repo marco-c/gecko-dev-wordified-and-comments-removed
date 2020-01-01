@@ -950,8 +950,6 @@ testing
 mozbase
 ifdef
 MOZ_WEBRTC
-ifdef
-MOZ_WEBRTC_TESTS
 tier_platform_dirs
 +
 =
@@ -970,6 +968,5 @@ media
 mtransport
 /
 test
-endif
 endif
 endif

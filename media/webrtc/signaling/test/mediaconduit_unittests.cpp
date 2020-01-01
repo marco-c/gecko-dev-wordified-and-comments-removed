@@ -5069,6 +5069,12 @@ char
 argv
 )
 {
+CHECK_ENVIRONMENT_FLAG
+(
+"
+MOZ_WEBRTC_TESTS
+"
+)
 test_utils
 =
 new
