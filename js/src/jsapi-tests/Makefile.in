@@ -473,6 +473,10 @@ testSameValue
 .
 cpp
 \
+testSeal
+.
+cpp
+\
 testXDR
 .
 cpp
