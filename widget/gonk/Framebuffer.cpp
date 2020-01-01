@@ -539,12 +539,9 @@ yres
 long
 stride
 =
-sScreenSize
--
->
-width
-*
-bytesPerPixel
+fi
+.
+line_length
 ;
 size_t
 numFrameBytes
