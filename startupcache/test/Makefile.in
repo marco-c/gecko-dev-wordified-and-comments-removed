@@ -81,10 +81,6 @@ CPP_UNIT_TESTS
 TestStartupCache
 .
 cpp
-EXTRA_DSO_LIBS
-+
-=
-xul
 LIBS
 +
 =

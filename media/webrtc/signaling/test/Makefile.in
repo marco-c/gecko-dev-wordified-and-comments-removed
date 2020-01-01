@@ -81,10 +81,6 @@ LIBS
 =
 \
 (
-EXTRA_DSO_LIBS
-)
-\
-(
 XPCOM_LIBS
 )
 \

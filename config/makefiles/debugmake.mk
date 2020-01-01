@@ -596,14 +596,6 @@ SHARED_LIBS
 "
 echo
 "
-EXTRA_DSO_LIBS
-=
-(
-EXTRA_DSO_LIBS
-)
-"
-echo
-"
 EXTRA_DSO_LDOPTS
 =
 (

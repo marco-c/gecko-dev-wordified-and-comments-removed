@@ -163,10 +163,6 @@ src
 (
 NULL
 )
-EXTRA_DSO_LIBS
-+
-=
-xpcom
 EXTRA_DSO_LDOPTS
 +
 =
