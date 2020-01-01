@@ -276,9 +276,9 @@ GLExtensionGroup
 extensionGroup
 )
 {
-MOZ_ASSERT
+static_assert
 (
-ArrayLength
+MOZ_ARRAY_LENGTH
 (
 sExtensionGroupInfoArr
 )
