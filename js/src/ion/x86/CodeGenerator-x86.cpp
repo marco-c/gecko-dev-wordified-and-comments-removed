@@ -3427,6 +3427,7 @@ isFloat
 (
 )
 )
+{
 masm
 .
 movsd
@@ -3445,6 +3446,7 @@ fpu
 )
 )
 ;
+}
 else
 {
 Register
