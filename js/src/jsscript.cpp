@@ -6177,7 +6177,7 @@ return
 true
 ;
 }
-JSFixedString
+JSFlatString
 *
 JSScript
 :
@@ -6211,7 +6211,7 @@ sourceEnd
 )
 ;
 }
-JSFixedString
+JSStableString
 *
 SourceDataCache
 :
@@ -6266,7 +6266,7 @@ put
 ScriptSource
 *
 ss
-JSFixedString
+JSStableString
 *
 str
 )
@@ -6343,7 +6343,7 @@ map_
 NULL
 ;
 }
-JSFixedString
+JSFlatString
 *
 ScriptSource
 :
@@ -6376,7 +6376,7 @@ if
 USE_ZLIB
 Rooted
 <
-JSFixedString
+JSStableString
 *
 >
 cached
@@ -6542,9 +6542,8 @@ chars
 cached
 -
 >
-getChars
+chars
 (
-cx
 )
 ;
 JS_ASSERT

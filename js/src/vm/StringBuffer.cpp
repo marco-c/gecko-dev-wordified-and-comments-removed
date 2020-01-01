@@ -164,7 +164,7 @@ return
 buf
 ;
 }
-JSFixedString
+JSFlatString
 *
 StringBuffer
 :
@@ -290,7 +290,7 @@ buf
 return
 NULL
 ;
-JSFixedString
+JSFlatString
 *
 str
 =

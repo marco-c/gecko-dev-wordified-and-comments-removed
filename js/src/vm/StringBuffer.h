@@ -456,7 +456,7 @@ length
 )
 ;
 }
-JSFixedString
+JSFlatString
 *
 finishString
 (

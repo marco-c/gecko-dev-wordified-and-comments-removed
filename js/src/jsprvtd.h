@@ -159,9 +159,6 @@ class
 JSLinearString
 ;
 class
-JSFixedString
-;
-class
 JSRope
 ;
 class

@@ -28,13 +28,6 @@ h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 jslock
 .
 h
@@ -64,6 +57,12 @@ Unicode
 .
 h
 "
+class
+JSFlatString
+;
+class
+JSStableString
+;
 namespace
 js
 {
@@ -326,7 +325,7 @@ js_encodeURIComponent_str
 ]
 ;
 extern
-JSFixedString
+JSStableString
 *
 js_NewString
 (
@@ -358,7 +357,7 @@ length
 )
 ;
 extern
-JSFixedString
+JSFlatString
 *
 js_NewStringCopyN
 (
@@ -374,7 +373,7 @@ n
 )
 ;
 extern
-JSFixedString
+JSFlatString
 *
 js_NewStringCopyN
 (
@@ -390,7 +389,7 @@ n
 )
 ;
 extern
-JSFixedString
+JSFlatString
 *
 js_NewStringCopyZ
 (
@@ -404,7 +403,7 @@ s
 )
 ;
 extern
-JSFixedString
+JSFlatString
 *
 js_NewStringCopyZ
 (

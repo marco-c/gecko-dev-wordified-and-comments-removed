@@ -552,7 +552,7 @@ HashMap
 <
 ScriptSource
 *
-JSFixedString
+JSStableString
 *
 DefaultHasher
 <
@@ -579,7 +579,7 @@ NULL
 )
 {
 }
-JSFixedString
+JSStableString
 *
 lookup
 (
@@ -594,7 +594,7 @@ put
 ScriptSource
 *
 ss
-JSFixedString
+JSStableString
 *
 )
 ;

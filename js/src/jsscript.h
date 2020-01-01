@@ -1634,7 +1634,7 @@ JSFunction
 fun
 )
 ;
-JSFixedString
+JSFlatString
 *
 sourceData
 (
@@ -3988,7 +3988,7 @@ return
 argumentsNotIncluded_
 ;
 }
-JSFixedString
+JSFlatString
 *
 substring
 (
