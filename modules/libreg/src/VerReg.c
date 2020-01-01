@@ -116,7 +116,9 @@ XP_MACOSX
 #
 include
 <
-Folders
+Carbon
+/
+Carbon
 .
 h
 >

@@ -130,7 +130,9 @@ XP_MACOSX
 #
 include
 <
-CFURL
+CoreFoundation
+/
+CoreFoundation
 .
 h
 >

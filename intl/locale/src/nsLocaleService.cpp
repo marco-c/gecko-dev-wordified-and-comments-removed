@@ -117,13 +117,6 @@ XP_MACOSX
 #
 include
 <
-Script
-.
-h
->
-#
-include
-<
 Carbon
 /
 Carbon

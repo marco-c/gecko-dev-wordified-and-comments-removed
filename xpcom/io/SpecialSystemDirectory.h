@@ -24,7 +24,9 @@ XP_MACOSX
 #
 include
 <
-Types
+Carbon
+/
+Carbon
 .
 h
 >
