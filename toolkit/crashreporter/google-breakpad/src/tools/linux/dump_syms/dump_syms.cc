@@ -1,12 +1,14 @@
 #
 include
 <
-string
+stdio
+.
+h
 >
 #
 include
 <
-cstdio
+string
 >
 #
 include

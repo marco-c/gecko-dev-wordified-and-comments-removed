@@ -81,7 +81,9 @@ __sparc__
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include

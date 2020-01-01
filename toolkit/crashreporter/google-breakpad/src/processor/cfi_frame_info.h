@@ -142,6 +142,12 @@ caller_registers
 )
 const
 ;
+string
+Serialize
+(
+)
+const
+;
 private
 :
 typedef

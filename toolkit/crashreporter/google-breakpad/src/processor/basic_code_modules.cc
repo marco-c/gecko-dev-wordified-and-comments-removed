@@ -1,10 +1,5 @@
 #
 include
-<
-cassert
->
-#
-include
 "
 processor
 /
@@ -12,6 +7,13 @@ basic_code_modules
 .
 h
 "
+#
+include
+<
+assert
+.
+h
+>
 #
 include
 "

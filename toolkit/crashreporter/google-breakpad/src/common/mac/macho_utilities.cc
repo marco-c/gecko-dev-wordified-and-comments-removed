@@ -5,6 +5,17 @@ common
 /
 mac
 /
+byteswap
+.
+h
+"
+#
+include
+"
+common
+/
+mac
+/
 macho_utilities
 .
 h
@@ -26,7 +37,7 @@ uc
 >
 cmd
 =
-NXSwapLong
+ByteSwap
 (
 uc
 -
@@ -39,7 +50,7 @@ uc
 >
 cmdsize
 =
-NXSwapLong
+ByteSwap
 (
 uc
 -
@@ -65,7 +76,7 @@ sg
 >
 cmd
 =
-NXSwapLong
+ByteSwap
 (
 sg
 -
@@ -78,7 +89,7 @@ sg
 >
 cmdsize
 =
-NXSwapLong
+ByteSwap
 (
 sg
 -
@@ -91,7 +102,7 @@ sg
 >
 vmaddr
 =
-NXSwapLongLong
+ByteSwap
 (
 sg
 -
@@ -104,7 +115,7 @@ sg
 >
 vmsize
 =
-NXSwapLongLong
+ByteSwap
 (
 sg
 -
@@ -117,7 +128,7 @@ sg
 >
 fileoff
 =
-NXSwapLongLong
+ByteSwap
 (
 sg
 -
@@ -130,7 +141,7 @@ sg
 >
 filesize
 =
-NXSwapLongLong
+ByteSwap
 (
 sg
 -
@@ -143,7 +154,7 @@ sg
 >
 maxprot
 =
-NXSwapLong
+ByteSwap
 (
 sg
 -
@@ -156,7 +167,7 @@ sg
 >
 initprot
 =
-NXSwapLong
+ByteSwap
 (
 sg
 -
@@ -169,7 +180,7 @@ sg
 >
 nsects
 =
-NXSwapLong
+ByteSwap
 (
 sg
 -
@@ -182,7 +193,7 @@ sg
 >
 flags
 =
-NXSwapLong
+ByteSwap
 (
 sg
 -
@@ -208,7 +219,7 @@ mh
 >
 magic
 =
-NXSwapLong
+ByteSwap
 (
 mh
 -
@@ -221,7 +232,7 @@ mh
 >
 cputype
 =
-NXSwapLong
+ByteSwap
 (
 mh
 -
@@ -234,7 +245,7 @@ mh
 >
 cpusubtype
 =
-NXSwapLong
+ByteSwap
 (
 mh
 -
@@ -247,7 +258,7 @@ mh
 >
 filetype
 =
-NXSwapLong
+ByteSwap
 (
 mh
 -
@@ -260,7 +271,7 @@ mh
 >
 ncmds
 =
-NXSwapLong
+ByteSwap
 (
 mh
 -
@@ -273,7 +284,7 @@ mh
 >
 sizeofcmds
 =
-NXSwapLong
+ByteSwap
 (
 mh
 -
@@ -286,7 +297,7 @@ mh
 >
 flags
 =
-NXSwapLong
+ByteSwap
 (
 mh
 -
@@ -299,7 +310,7 @@ mh
 >
 reserved
 =
-NXSwapLong
+ByteSwap
 (
 mh
 -
@@ -345,7 +356,7 @@ i
 .
 addr
 =
-NXSwapLongLong
+ByteSwap
 (
 s
 [
@@ -362,7 +373,7 @@ i
 .
 size
 =
-NXSwapLongLong
+ByteSwap
 (
 s
 [
@@ -379,7 +390,7 @@ i
 .
 offset
 =
-NXSwapLong
+ByteSwap
 (
 s
 [
@@ -396,7 +407,7 @@ i
 .
 align
 =
-NXSwapLong
+ByteSwap
 (
 s
 [
@@ -413,7 +424,7 @@ i
 .
 reloff
 =
-NXSwapLong
+ByteSwap
 (
 s
 [
@@ -430,7 +441,7 @@ i
 .
 nreloc
 =
-NXSwapLong
+ByteSwap
 (
 s
 [
@@ -447,7 +458,7 @@ i
 .
 flags
 =
-NXSwapLong
+ByteSwap
 (
 s
 [
@@ -464,7 +475,7 @@ i
 .
 reserved1
 =
-NXSwapLong
+ByteSwap
 (
 s
 [
@@ -481,7 +492,7 @@ i
 .
 reserved2
 =
-NXSwapLong
+ByteSwap
 (
 s
 [

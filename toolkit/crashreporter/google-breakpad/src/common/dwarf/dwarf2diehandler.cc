@@ -1,10 +1,5 @@
 #
 include
-<
-cassert
->
-#
-include
 "
 common
 /
@@ -14,6 +9,13 @@ dwarf2diehandler
 .
 h
 "
+#
+include
+<
+assert
+.
+h
+>
 namespace
 dwarf2reader
 {

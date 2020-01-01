@@ -6,11 +6,6 @@ define
 PROCESSOR_CONTAINED_RANGE_MAP_INL_H__
 #
 include
-<
-cassert
->
-#
-include
 "
 processor
 /
@@ -18,6 +13,13 @@ contained_range_map
 .
 h
 "
+#
+include
+<
+assert
+.
+h
+>
 #
 include
 "
