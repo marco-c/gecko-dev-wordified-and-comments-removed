@@ -203,12 +203,6 @@ mObservers
 nsCString
 mPrefRoot
 ;
-nsTArray
-<
-nsCString
->
-mObserverDomains
-;
 PRBool
 mIsDefault
 ;
