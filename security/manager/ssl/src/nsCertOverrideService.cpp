@@ -141,6 +141,13 @@ h
 #
 include
 "
+ssl
+.
+h
+"
+#
+include
+"
 nsNSSCleaner
 .
 h
@@ -2808,6 +2815,10 @@ Write
 )
 ;
 }
+SSL_ClearSessionCache
+(
+)
+;
 return
 NS_OK
 ;
