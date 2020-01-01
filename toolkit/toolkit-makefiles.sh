@@ -684,6 +684,8 @@ dom
 /
 plugins
 /
+ipc
+/
 Makefile
 js
 /
