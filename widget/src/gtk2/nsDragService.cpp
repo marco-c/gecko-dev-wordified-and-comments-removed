@@ -2949,10 +2949,7 @@ next
 GdkAtom
 atom
 =
-(
-GdkAtom
-)
-GPOINTER_TO_INT
+GDK_POINTER_TO_ATOM
 (
 tmp
 -
@@ -3635,10 +3632,7 @@ next
 GdkAtom
 atom
 =
-(
-GdkAtom
-)
-GPOINTER_TO_INT
+GDK_POINTER_TO_ATOM
 (
 tmp
 -
@@ -3986,7 +3980,7 @@ listTarget
 >
 info
 =
-GPOINTER_TO_UINT
+NS_PTR_TO_UINT32
 (
 listAtom
 )
@@ -4215,7 +4209,7 @@ listTarget
 >
 info
 =
-GPOINTER_TO_UINT
+NS_PTR_TO_UINT32
 (
 listAtom
 )
@@ -4451,7 +4445,7 @@ target
 >
 info
 =
-GPOINTER_TO_UINT
+NS_PTR_TO_UINT32
 (
 atom
 )
@@ -4547,7 +4541,7 @@ plainTarget
 >
 info
 =
-GPOINTER_TO_UINT
+NS_PTR_TO_UINT32
 (
 plainAtom
 )
@@ -4646,7 +4640,7 @@ urlTarget
 >
 info
 =
-GPOINTER_TO_UINT
+NS_PTR_TO_UINT32
 (
 urlAtom
 )
