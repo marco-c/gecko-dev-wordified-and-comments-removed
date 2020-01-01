@@ -212,6 +212,16 @@ nativeFrameSize
 )
 const
 ;
+uint32
+calldepth
+(
+)
+const
+{
+return
+depth
+;
+}
 }
 ;
 class
