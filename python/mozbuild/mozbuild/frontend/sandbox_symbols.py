@@ -73,7 +73,12 @@ mozbuild
 .
 util
 import
+(
+    
 HierarchicalStringList
+    
+StrictOrderingOnAppendList
+)
 def
 doc_to_paragraphs
 (
@@ -261,7 +266,7 @@ ASFILES
 '
 :
 (
-list
+StrictOrderingOnAppendList
 list
 [
 ]
@@ -907,7 +912,7 @@ CONFIGURE_SUBST_FILES
 '
 :
 (
-list
+StrictOrderingOnAppendList
 list
 [
 ]
@@ -1295,7 +1300,7 @@ XPIDL_SOURCES
 '
 :
 (
-list
+StrictOrderingOnAppendList
 list
 [
 ]
@@ -1473,7 +1478,7 @@ XPCSHELL_TESTS_MANIFESTS
 '
 :
 (
-list
+StrictOrderingOnAppendList
 list
 [
 ]

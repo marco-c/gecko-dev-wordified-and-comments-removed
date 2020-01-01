@@ -2261,10 +2261,10 @@ CONFIGURE_SUBST_FILES
 =
 [
 "
-foo
-"
-"
 bar
+"
+"
+foo
 "
 ]
 '
@@ -2288,10 +2288,10 @@ CONFIGURE_SUBST_FILES
 ]
 [
 '
-foo
-'
-'
 bar
+'
+'
+foo
 '
 ]
 )

@@ -98,14 +98,14 @@ XPCSHELL_TESTS_MANIFESTS
 =
 [
 '
-foo
+bar
 /
 xpcshell
 .
 ini
 '
 '
-bar
+foo
 /
 xpcshell
 .
