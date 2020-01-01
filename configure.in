@@ -47200,6 +47200,13 @@ x86_64
 -
 linux
 *
+|
+arm
+-
+*
+-
+linux
+*
 )
 MOZ_CRASHREPORTER
 =
