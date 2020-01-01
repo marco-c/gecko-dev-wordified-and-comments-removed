@@ -5725,7 +5725,7 @@ mNetworkState
 nsIDOMHTMLMediaElement
 :
 :
-NETWORK_LOADED
+NETWORK_IDLE
 ;
 ChangeReadyState
 (
@@ -5735,12 +5735,12 @@ nsIDOMHTMLMediaElement
 HAVE_ENOUGH_DATA
 )
 ;
-DispatchAsyncProgressEvent
+DispatchAsyncSimpleEvent
 (
 NS_LITERAL_STRING
 (
 "
-load
+suspend
 "
 )
 )
