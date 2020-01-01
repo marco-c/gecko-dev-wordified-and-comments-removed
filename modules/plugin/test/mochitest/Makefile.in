@@ -537,10 +537,6 @@ test_pluginstream_newstream
 .
 html
 \
-test_pluginstream_seek_close
-.
-html
-\
 test_fullpage
 .
 html
