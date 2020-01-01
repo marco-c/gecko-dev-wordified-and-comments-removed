@@ -3206,7 +3206,7 @@ obj
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 origObj
 )
@@ -6178,7 +6178,7 @@ proxy
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 proxy
 )
@@ -7999,7 +7999,7 @@ aObject
 js
 :
 :
-UnwrapObjectChecked
+CheckedUnwrap
 (
 aObject
 false
@@ -8237,7 +8237,7 @@ GetDOMClass
 js
 :
 :
-UnwrapObject
+UncheckedUnwrap
 (
 instance
 )
