@@ -338,9 +338,11 @@ rp
 if
 defined
 DEBUG
-static
 JS_REQUIRES_STACK
 void
+TraceRecorder
+:
+:
 AssertDownFrameIsConsistent
 (
 JSContext

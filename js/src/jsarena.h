@@ -967,7 +967,7 @@ a
 )
 ;
 \
-free
+js_free
 (
 a
 )
