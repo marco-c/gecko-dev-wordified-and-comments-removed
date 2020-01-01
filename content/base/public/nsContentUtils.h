@@ -3631,6 +3631,16 @@ sIsIdleObserverAPIEnabled
 }
 static
 bool
+IsPerformanceTimingEnabled
+(
+)
+{
+return
+sIsPerformanceTimingEnabled
+;
+}
+static
+bool
 HasPluginWithUncontrolledEventDispatch
 (
 nsIDocument
@@ -4510,6 +4520,10 @@ sHandlingInputTimeout
 static
 bool
 sIsIdleObserverAPIEnabled
+;
+static
+bool
+sIsPerformanceTimingEnabled
 ;
 static
 nsHtml5StringParser
