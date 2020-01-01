@@ -200,17 +200,6 @@ never
 "
 ;
 const
-PREF_APP_UPDATE_NOTIFIEDUNSUPPORTED
-=
-"
-app
-.
-update
-.
-notifiedUnsupported
-"
-;
-const
 PREF_APP_UPDATE_PROMPTWAITTIME
 =
 "
