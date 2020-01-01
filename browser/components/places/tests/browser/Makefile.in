@@ -467,6 +467,10 @@ browser_library_open_leak
 .
 js
 \
+browser_library_panel_leak
+.
+js
+\
 (
 NULL
 )
