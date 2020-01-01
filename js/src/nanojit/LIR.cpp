@@ -11140,6 +11140,10 @@ alloc
 (
 alloc
 )
+suspended
+(
+false
+)
 {
 m_findNL
 [
@@ -12405,6 +12409,12 @@ uint32_t
 k
 )
 {
+if
+(
+suspended
+)
+return
+;
 NanoAssert
 (
 !
@@ -12476,6 +12486,12 @@ uint32_t
 k
 )
 {
+if
+(
+suspended
+)
+return
+;
 CseAcc
 cseAcc
 =
@@ -14247,6 +14263,10 @@ op
 =
 =
 LIR_label
+&
+&
+!
+suspended
 )
 clearAll
 (
