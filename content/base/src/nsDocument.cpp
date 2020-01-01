@@ -28714,6 +28714,10 @@ LinkAdded
 }
 }
 }
+mIsShowing
+=
+PR_TRUE
+;
 nsPageTransitionEvent
 event
 (
@@ -28837,6 +28841,10 @@ LinkRemoved
 }
 }
 }
+mIsShowing
+=
+PR_FALSE
+;
 nsPageTransitionEvent
 event
 (
