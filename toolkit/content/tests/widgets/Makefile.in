@@ -663,6 +663,10 @@ test_tabindex
 .
 xul
 \
+test_contextmenu_list
+.
+xul
+\
 (
 NULL
 )
