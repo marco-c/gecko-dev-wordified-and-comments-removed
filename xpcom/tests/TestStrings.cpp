@@ -3879,9 +3879,7 @@ str
 int64_t
 max
 =
-LL_MaxInt
-(
-)
+INT64_MAX
 ;
 static
 const
@@ -3897,9 +3895,7 @@ max_expected
 int64_t
 min
 =
-LL_MinInt
-(
-)
+INT64_MIN
 ;
 static
 const
@@ -3979,9 +3975,7 @@ stderr
 "
 Error
 appending
-LL_MaxInt
-(
-)
+INT64_MAX
 :
 Got
 %
@@ -4030,9 +4024,7 @@ stderr
 "
 Error
 appending
-LL_MinInt
-(
-)
+INT64_MIN
 :
 Got
 %
@@ -4082,9 +4074,7 @@ stderr
 "
 Error
 appending
-LL_MinInt
-(
-)
+INT64_MIN
 (
 oct
 )
