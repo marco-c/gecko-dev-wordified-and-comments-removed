@@ -2054,8 +2054,11 @@ js_GetUnitString
 JSContext
 *
 cx
-jschar
-c
+JSString
+*
+str
+size_t
+index
 )
 ;
 extern

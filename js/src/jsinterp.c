@@ -21671,13 +21671,11 @@ str
 js_GetUnitString
 (
 cx
-JSSTRING_CHARS
-(
 str
+(
+size_t
 )
-[
 i
-]
 )
 ;
 if
