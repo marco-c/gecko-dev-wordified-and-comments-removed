@@ -622,6 +622,10 @@ MOZ_CAIRO_CFLAGS
 )
 \
 (
+MOZ_PIXMAN_CFLAGS
+)
+\
+(
 NULL
 )
 ifdef
