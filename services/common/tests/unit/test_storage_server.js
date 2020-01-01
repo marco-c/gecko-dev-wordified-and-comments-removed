@@ -79,11 +79,6 @@ js
 )
 ;
 const
-PORT
-=
-8080
-;
-const
 DEFAULT_USER
 =
 "
@@ -100,6 +95,7 @@ password
 function
 localRequest
 (
+server
 path
 user
 =
@@ -120,24 +116,38 @@ path
 )
 ;
 let
+identity
+=
+server
+.
+server
+.
+identity
+;
+let
 url
 =
+identity
+.
+primaryScheme
++
 "
-http
 :
 /
 /
-127
+"
++
+identity
 .
-0
-.
-0
-.
-1
+primaryHost
++
+"
 :
 "
 +
-PORT
+identity
+.
+primaryPort
 +
 path
 ;
@@ -584,7 +594,8 @@ server
 .
 start
 (
-PORT
+-
+1
 function
 (
 )
@@ -599,14 +610,6 @@ on
 server
 .
 port
-)
-;
-do_check_eq
-(
-server
-.
-port
-PORT
 )
 ;
 server
@@ -653,7 +656,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 server
@@ -1078,7 +1080,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 _
@@ -1106,6 +1107,7 @@ req
 =
 localRequest
 (
+server
 "
 /
 2
@@ -1197,7 +1199,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -1238,6 +1239,7 @@ request
 =
 localRequest
 (
+server
 path
 "
 123
@@ -1320,6 +1322,7 @@ request
 =
 localRequest
 (
+server
 path
 "
 123
@@ -1473,7 +1476,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -1500,6 +1502,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -1699,7 +1702,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -1758,6 +1760,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -1905,7 +1908,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -1913,6 +1915,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -2055,7 +2058,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -2109,6 +2111,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -2198,6 +2201,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -2376,7 +2380,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -2435,6 +2438,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -2555,6 +2559,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -2666,6 +2671,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -2821,7 +2827,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 server
@@ -2858,6 +2863,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -2976,7 +2982,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -3076,6 +3081,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -3163,6 +3169,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -3257,7 +3264,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 server
@@ -3356,6 +3362,7 @@ request
 =
 localRequest
 (
+server
 path
 "
 123
@@ -3456,6 +3463,7 @@ request
 =
 localRequest
 (
+server
 path
 "
 123
@@ -3579,7 +3587,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -3629,6 +3636,7 @@ request1
 =
 localRequest
 (
+server
 "
 /
 2
@@ -3693,6 +3701,7 @@ request2
 =
 localRequest
 (
+server
 "
 /
 2
@@ -3810,7 +3819,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -3863,6 +3871,7 @@ request1
 =
 localRequest
 (
+server
 "
 /
 2
@@ -3929,6 +3938,7 @@ request2
 =
 localRequest
 (
+server
 "
 /
 2
@@ -4047,7 +4057,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -4055,6 +4064,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -4173,7 +4183,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -4181,6 +4190,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -4350,7 +4360,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -4358,6 +4367,7 @@ request
 =
 localRequest
 (
+server
 "
 /
 2
@@ -4489,7 +4499,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -4497,6 +4506,7 @@ bso
 =
 localRequest
 (
+server
 "
 /
 2
@@ -4544,6 +4554,7 @@ col
 =
 localRequest
 (
+server
 "
 /
 2
@@ -4677,7 +4688,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 _
@@ -4699,6 +4709,7 @@ request1
 =
 localRequest
 (
+server
 "
 /
 2
@@ -4797,6 +4808,7 @@ request2
 =
 localRequest
 (
+server
 "
 /
 2
@@ -4878,6 +4890,7 @@ request3
 =
 localRequest
 (
+server
 "
 /
 2
@@ -4980,6 +4993,7 @@ request4
 =
 localRequest
 (
+server
 "
 /
 2
@@ -5103,7 +5117,6 @@ server
 .
 startSynchronous
 (
-PORT
 )
 ;
 let
@@ -5182,6 +5195,7 @@ newer
 return
 localRequest
 (
+server
 "
 /
 2
