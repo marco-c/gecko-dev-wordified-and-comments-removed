@@ -32,6 +32,10 @@ MODULE
 thebes
 EXPORTS
 =
+gfx3DMatrix
+.
+h
+\
 gfxASurface
 .
 h
