@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIPluginInstancePeer
-.
-h
-"
-#
-include
-"
 nsIPluginTagInfo
 .
 h

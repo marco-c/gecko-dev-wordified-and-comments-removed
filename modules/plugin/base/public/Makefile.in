@@ -491,10 +491,6 @@ nsIPluginStreamInfo
 .
 idl
 \
-nsIPluginInstancePeer
-.
-idl
-\
 nsIPluginInstanceOwner
 .
 idl
@@ -532,10 +528,6 @@ nsIPluginInstance
 idl
 \
 nsPIPluginHost
-.
-idl
-\
-nsPIPluginInstancePeer
 .
 idl
 \

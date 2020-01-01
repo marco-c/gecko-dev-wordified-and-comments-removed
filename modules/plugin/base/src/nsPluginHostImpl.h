@@ -627,10 +627,6 @@ char
 *
 mURL
 ;
-nsIPluginInstancePeer
-*
-mPeer
-;
 nsRefPtr
 <
 nsPluginTag
@@ -673,9 +669,6 @@ char
 url
 PRBool
 aDefaultPlugin
-nsIPluginInstancePeer
-*
-peer
 )
 ;
 ~
@@ -1243,9 +1236,6 @@ nsIURI
 aURL
 PRBool
 aDefaultPlugin
-nsIPluginInstancePeer
-*
-peer
 )
 ;
 nsresult

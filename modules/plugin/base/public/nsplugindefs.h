@@ -300,14 +300,6 @@ nsPluginManagerVariable_SupportsXEmbed
 }
 ;
 enum
-nsPluginInstancePeerVariable
-{
-nsPluginInstancePeerVariable_NetscapeWindow
-=
-3
-}
-;
-enum
 nsPluginInstanceVariable
 {
 nsPluginInstanceVariable_WindowlessBool
@@ -798,9 +790,6 @@ nsIPlugin
 ;
 class
 nsIPluginInstance
-;
-class
-nsIPluginInstancePeer
 ;
 class
 nsIPluginTagInfo

@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsIPluginInstancePeer
-.
-h
-"
-#
-include
-"
 nsIPluginInstanceInternal
 .
 h

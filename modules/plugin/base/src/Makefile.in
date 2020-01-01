@@ -523,10 +523,6 @@ nsPluginModule
 .
 cpp
 \
-nsPluginInstancePeer
-.
-cpp
-\
 nsJSNPRuntime
 .
 cpp
