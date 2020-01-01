@@ -351,8 +351,10 @@ bold
 #
 textbox
 {
+max
+-
 width
 :
-20em
+35em
 ;
 }
