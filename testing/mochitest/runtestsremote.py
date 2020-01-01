@@ -4442,6 +4442,12 @@ robocop
 "
 :
         
+dm
+.
+default_timeout
+=
+320
+        
 mp
 =
 manifestparser
