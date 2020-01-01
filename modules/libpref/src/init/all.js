@@ -27558,3 +27558,13 @@ enable
 false
 )
 ;
+pref
+(
+"
+html5
+.
+offmainthread
+"
+true
+)
+;
