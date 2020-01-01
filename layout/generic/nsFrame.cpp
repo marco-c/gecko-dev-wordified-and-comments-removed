@@ -35483,6 +35483,10 @@ size
 width
 NS_UNCONSTRAINEDSIZE
 )
+nsHTMLReflowState
+:
+:
+DUMMY_PARENT_REFLOW_STATE
 )
 ;
 nsReflowStatus
@@ -35875,6 +35879,10 @@ aPresContext
 parentFrame
 aRenderingContext
 parentSize
+nsHTMLReflowState
+:
+:
+DUMMY_PARENT_REFLOW_STATE
 )
 ;
 parentFrame
@@ -35996,6 +36004,10 @@ aPresContext
 this
 aRenderingContext
 availSize
+nsHTMLReflowState
+:
+:
+DUMMY_PARENT_REFLOW_STATE
 )
 ;
 const
