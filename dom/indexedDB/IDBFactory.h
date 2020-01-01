@@ -13,7 +13,7 @@ dom
 /
 indexedDB
 /
-IDBRequest
+IndexedDatabase
 .
 h
 "
@@ -35,11 +35,6 @@ BEGIN_INDEXEDDB_NAMESPACE
 class
 IDBFactory
 :
-public
-IDBRequest
-:
-:
-Generator
 public
 nsIIDBFactory
 {
@@ -69,8 +64,14 @@ nsAString
 aDatabaseFilePath
 )
 ;
-protected
+private
 :
+IDBFactory
+(
+)
+{
+}
+~
 IDBFactory
 (
 )
