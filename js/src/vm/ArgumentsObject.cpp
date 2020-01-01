@@ -872,9 +872,16 @@ if
 !
 obj
 )
+{
+js_free
+(
+data
+)
+;
 return
 NULL
 ;
+}
 obj
 -
 >
