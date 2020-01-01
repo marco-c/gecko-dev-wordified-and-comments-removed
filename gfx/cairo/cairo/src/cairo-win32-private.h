@@ -404,5 +404,13 @@ cairo_scaled_font_t
 scaled_font
 )
 ;
+cairo_bool_t
+_cairo_win32_scaled_font_is_bitmap
+(
+cairo_scaled_font_t
+*
+scaled_font
+)
+;
 #
 endif
