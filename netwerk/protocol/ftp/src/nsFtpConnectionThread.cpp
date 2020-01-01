@@ -8247,6 +8247,13 @@ nsnull
 status
 progress
 mFileSize
+-
+mChannel
+-
+>
+StartPos
+(
+)
 )
 ;
 return
