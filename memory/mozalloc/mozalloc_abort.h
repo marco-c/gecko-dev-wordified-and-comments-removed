@@ -5,6 +5,15 @@ mozilla_mozalloc_abort_h
 define
 mozilla_mozalloc_abort_h
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -64,6 +73,7 @@ define
 MOZALLOC_EXPORT
 #
 endif
+MOZ_NORETURN
 MOZALLOC_EXPORT
 void
 mozalloc_abort
@@ -74,7 +84,6 @@ char
 const
 msg
 )
-NS_NORETURN
 ;
 #
 endif

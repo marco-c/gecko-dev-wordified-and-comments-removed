@@ -478,6 +478,8 @@ build
 \
 probes
 \
+mfbt
+\
 (
 NULL
 )
