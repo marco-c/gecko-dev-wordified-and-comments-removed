@@ -83,5 +83,11 @@ CRASH_PURE_VIRTUAL_CALL
 =
 1
 ;
+const
+short
+CRASH_RUNTIMEABORT
+=
+2
+;
 }
 ;
