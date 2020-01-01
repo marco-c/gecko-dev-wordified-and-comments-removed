@@ -13542,6 +13542,11 @@ NPN_ReleaseVariantValue
 arg
 )
 ;
+NPN_ReleaseObject
+(
+windowObject
+)
+;
 break
 ;
 }
