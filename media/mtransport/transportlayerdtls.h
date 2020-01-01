@@ -233,7 +233,7 @@ VERIFY_DIGEST
 ;
 const
 static
-int
+size_t
 kMaxDigestLength
 =
 HASH_LENGTH_MAX
