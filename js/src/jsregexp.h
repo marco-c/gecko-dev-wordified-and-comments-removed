@@ -545,8 +545,6 @@ obj
 JSObject
 *
 proto
-=
-NULL
 )
 ;
 const

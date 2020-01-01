@@ -57500,10 +57500,7 @@ js_GetClassPrototype
 (
 cx
 globalObj
-INT_TO_JSID
-(
 key
-)
 &
 proto
 )
@@ -79247,8 +79244,8 @@ obj_ins
 }
 else
 {
-jsint
-i
+JSProtoKey
+protoKey
 ;
 debug_only_stmt
 (
@@ -79268,7 +79265,7 @@ l
 )
 )
 {
-i
+protoKey
 =
 JSProto_String
 ;
@@ -79293,7 +79290,7 @@ l
 )
 )
 {
-i
+protoKey
 =
 JSProto_Number
 ;
@@ -79356,7 +79353,7 @@ JSVAL_VOID
 MISMATCH_EXIT
 )
 ;
-i
+protoKey
 =
 JSProto_Boolean
 ;
@@ -79407,10 +79404,7 @@ js_GetClassPrototype
 (
 cx
 NULL
-INT_TO_JSID
-(
-i
-)
+protoKey
 &
 obj
 )

@@ -8518,10 +8518,7 @@ js_FindClassObject
 (
 cx
 NULL
-INT_TO_JSID
-(
 JSProto_XML
-)
 &
 v
 )
@@ -23077,10 +23074,7 @@ js_GetClassPrototype
 (
 cx
 NULL
-INT_TO_JSID
-(
 JSProto_String
-)
 &
 tvr
 .
@@ -38413,10 +38407,7 @@ js_GetClassPrototype
 (
 cx
 NULL
-INT_TO_JSID
-(
 JSProto_String
-)
 &
 tvr
 .

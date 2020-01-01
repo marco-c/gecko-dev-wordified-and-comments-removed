@@ -441,7 +441,7 @@ fun
 ;
 funobj
 =
-js_CloneFunctionObject
+CloneFunctionObject
 (
 cx
 fun
