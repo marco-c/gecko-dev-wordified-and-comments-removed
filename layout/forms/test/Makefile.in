@@ -430,6 +430,10 @@ rules
 mk
 _TEST_FILES
 =
+test_bug231389
+.
+html
+\
 test_bug287446
 .
 html
