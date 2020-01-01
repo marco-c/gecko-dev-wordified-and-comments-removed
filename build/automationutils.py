@@ -1087,6 +1087,10 @@ filename
 d
 )
       
+topFrame
+=
+None
+      
 if
 symbolsPath
 and
