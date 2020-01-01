@@ -26067,7 +26067,7 @@ Flush_Style
 )
 parentType
 =
-PR_MAX
+NS_MAX
 (
 Flush_Layout
 aType

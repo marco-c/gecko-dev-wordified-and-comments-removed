@@ -7094,7 +7094,7 @@ for
 (
 len
 =
-PR_MIN
+NS_MIN
 (
 pos1
 pos2
@@ -7628,7 +7628,7 @@ for
 (
 len
 =
-PR_MIN
+NS_MIN
 (
 pos1
 pos2
@@ -7955,7 +7955,7 @@ for
 (
 len
 =
-PR_MIN
+NS_MIN
 (
 pos1
 pos2
@@ -18845,7 +18845,7 @@ ellipsis
 PRUint32
 len
 =
-PR_MIN
+NS_MIN
 (
 tmp
 .

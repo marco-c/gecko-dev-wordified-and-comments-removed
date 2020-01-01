@@ -1618,9 +1618,12 @@ chunkSize
 }
 chunkSize
 =
-PR_MIN
+NS_MIN
+(
+PRInt32
 (
 PR_UINT16_MAX
+)
 chunkSize
 )
 ;

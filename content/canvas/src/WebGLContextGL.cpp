@@ -3828,7 +3828,7 @@ i
 )
 maxindex
 =
-PR_MAX
+NS_MAX
 (
 maxindex
 *

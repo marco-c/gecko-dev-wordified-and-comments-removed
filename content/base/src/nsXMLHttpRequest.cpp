@@ -1495,10 +1495,10 @@ iter
 ;
 age
 =
-PR_MIN
+NS_MIN
 (
 age
-86400
+86400U
 )
 ;
 +
