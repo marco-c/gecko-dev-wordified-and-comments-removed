@@ -25058,6 +25058,16 @@ newFrecency
 =
 =
 oldFrecency
+|
+|
+oldFrecency
+&
+&
+newFrecency
+=
+=
+-
+1
 )
 return
 NS_OK
