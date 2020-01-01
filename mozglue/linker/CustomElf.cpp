@@ -2679,6 +2679,11 @@ next_page
 =
 (
 file_end
++
+PAGE_SIZE
+-
+1
+)
 &
 ~
 (
@@ -2686,9 +2691,6 @@ PAGE_SIZE
 -
 1
 )
-)
-+
-PAGE_SIZE
 ;
 if
 (
