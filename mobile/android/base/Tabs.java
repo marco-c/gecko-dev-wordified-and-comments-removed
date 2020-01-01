@@ -594,6 +594,12 @@ tab
 =
 =
 null
+|
+|
+nextTab
+=
+=
+null
 )
 return
 ;
