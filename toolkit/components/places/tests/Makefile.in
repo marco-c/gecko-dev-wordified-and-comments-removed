@@ -492,12 +492,6 @@ test_bug_411966
 .
 html
 \
-mochitest
-/
-test_bug_461710
-.
-html
-\
 (
 NULL
 )
@@ -509,10 +503,6 @@ chrome
 mochitest
 /
 bug_411966
-\
-mochitest
-/
-bug_461710
 \
 browser
 \
