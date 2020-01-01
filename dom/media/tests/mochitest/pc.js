@@ -1487,6 +1487,10 @@ index
 ;
 }
 unexpectedCallbackAndFinish
+(
+new
+Error
+)
 )
 ;
 }
@@ -1578,6 +1582,10 @@ offer
 ;
 }
 unexpectedCallbackAndFinish
+(
+new
+Error
+)
 this
 .
 offerConstraints
@@ -1645,6 +1653,10 @@ answer
 ;
 }
 unexpectedCallbackAndFinish
+(
+new
+Error
+)
 )
 ;
 }
@@ -1695,6 +1707,10 @@ onSuccess
 ;
 }
 unexpectedCallbackAndFinish
+(
+new
+Error
+)
 )
 ;
 }
@@ -1744,6 +1760,10 @@ onSuccess
 ;
 }
 unexpectedCallbackAndFinish
+(
+new
+Error
+)
 )
 ;
 }
