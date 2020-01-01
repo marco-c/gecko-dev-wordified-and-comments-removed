@@ -110,6 +110,10 @@ failing_tests_windows
 .
 txt
 \
+skipped_tests_winxp
+.
+txt
+\
 failing_tests_mac
 .
 txt
