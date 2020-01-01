@@ -7841,7 +7841,7 @@ list
 pass
     
 def
-extendedAttribute
+getExtendedAttribute
 (
 self
 name
