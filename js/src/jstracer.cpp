@@ -1574,6 +1574,7 @@ i
 ORACLE_MASK
 ;
 }
+JS_REQUIRES_STACK
 static
 inline
 int
@@ -1640,6 +1641,7 @@ h
 )
 ;
 }
+JS_REQUIRES_STACK
 static
 inline
 int
@@ -1735,6 +1737,7 @@ h
 )
 ;
 }
+JS_REQUIRES_STACK
 void
 Oracle
 :
@@ -1762,6 +1765,7 @@ slot
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 Oracle
 :
@@ -1789,6 +1793,7 @@ slot
 )
 ;
 }
+JS_REQUIRES_STACK
 void
 Oracle
 :
@@ -1816,6 +1821,7 @@ slot
 )
 ;
 }
+JS_REQUIRES_STACK
 bool
 Oracle
 :
@@ -26229,6 +26235,7 @@ n
 )
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -26627,6 +26634,7 @@ return
 x
 ;
 }
+JS_REQUIRES_STACK
 LIns
 *
 TraceRecorder
@@ -26741,6 +26749,7 @@ return
 v_ins
 ;
 }
+JS_REQUIRES_STACK
 bool
 TraceRecorder
 :
