@@ -2357,6 +2357,9 @@ receiveContactsList
 (
 message
 .
+errorMsg
+message
+.
 contactType
 message
 .
