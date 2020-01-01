@@ -5674,6 +5674,9 @@ mWnd
 ;
 if
 (
+aRaise
+&
+&
 :
 :
 IsIconic
@@ -5681,6 +5684,7 @@ IsIconic
 toplevelWnd
 )
 )
+{
 :
 :
 ShowWindow
@@ -5689,6 +5693,7 @@ toplevelWnd
 SW_RESTORE
 )
 ;
+}
 :
 :
 SetFocus
