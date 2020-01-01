@@ -26958,14 +26958,11 @@ nsIScrollableFrame
 *
 rootScrollFrame
 =
-do_QueryFrame
-(
 shell
 -
 >
-GetRootScrollFrame
+GetRootScrollFrameAsScrollableExternal
 (
-)
 )
 ;
 if
