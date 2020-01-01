@@ -913,6 +913,11 @@ include
 landing
 .
 xul
+#
+include
+main
+.
+xul
 <
 /
 prefpane
