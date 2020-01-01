@@ -2661,6 +2661,7 @@ zoomIn
 :
 function
 (
+isNewBlankTab
 )
 {
 var
@@ -2890,6 +2891,18 @@ self
 GroupItems
 .
 updateTabBar
+(
+)
+;
+if
+(
+isNewBlankTab
+)
+gWindow
+.
+gURLBar
+.
+focus
 (
 )
 ;
