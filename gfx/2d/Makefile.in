@@ -449,6 +449,10 @@ BasePoint3D
 .
 h
 \
+BasePoint4D
+.
+h
+\
 BaseMargin
 .
 h
