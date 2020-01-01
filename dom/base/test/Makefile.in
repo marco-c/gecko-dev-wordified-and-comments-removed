@@ -201,6 +201,14 @@ test_messageChannel_start
 .
 html
 \
+test_messageChannel_pingpong
+.
+html
+\
+iframe_messageChannel_pingpong
+.
+html
+\
 (
 NULL
 )
