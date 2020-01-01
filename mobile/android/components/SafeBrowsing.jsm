@@ -421,14 +421,12 @@ ffox
 ;
 #
 else
+#
+expand
 let
 clientID
 =
-Services
-.
-appinfo
-.
-name
+__MOZ_APP_UA_NAME__
 ;
 #
 endif
