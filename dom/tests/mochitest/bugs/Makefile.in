@@ -876,6 +876,10 @@ devicemotion_inner
 .
 html
 \
+test_bug698061
+.
+html
+\
 (
 NULL
 )
