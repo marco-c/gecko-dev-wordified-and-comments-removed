@@ -5874,6 +5874,11 @@ Get
 (
 )
 ;
+if
+(
+manager
+)
+{
 manager
 -
 >
@@ -5887,6 +5892,7 @@ WindowID
 )
 )
 ;
+}
 #
 endif
 if

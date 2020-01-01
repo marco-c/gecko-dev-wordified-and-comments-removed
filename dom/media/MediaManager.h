@@ -1426,6 +1426,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+obs
+)
+{
 obs
 -
 >
@@ -1486,6 +1491,7 @@ revoke
 false
 )
 ;
+}
 }
 return
 sSingleton
