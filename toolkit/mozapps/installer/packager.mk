@@ -1844,6 +1844,8 @@ defaults
 \
 modules
 \
+hyphenation
+\
 res
 \
 lib
