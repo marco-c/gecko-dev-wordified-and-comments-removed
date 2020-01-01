@@ -163,10 +163,6 @@ nsDOMJSUtils
 .
 h
 \
-nsDOMScriptObjectHolder
-.
-h
-\
 nsDOMString
 .
 h

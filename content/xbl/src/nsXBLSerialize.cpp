@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsDOMScriptObjectHolder
+nsIXPConnect
 .
 h
 "
