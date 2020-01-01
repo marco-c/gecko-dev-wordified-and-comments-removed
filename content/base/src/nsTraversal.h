@@ -59,8 +59,11 @@ nsIDOMNodeFilter
 >
 mFilter
 ;
-PRBool
+PRPackedBool
 mExpandEntityReferences
+;
+PRPackedBool
+mInAcceptNode
 ;
 nsresult
 TestNode
