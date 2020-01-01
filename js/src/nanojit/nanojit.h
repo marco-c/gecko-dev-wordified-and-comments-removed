@@ -946,4 +946,11 @@ Native
 h
 "
 #
+include
+"
+LIR
+.
+h
+"
+#
 endif
