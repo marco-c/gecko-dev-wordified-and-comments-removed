@@ -1410,6 +1410,12 @@ MIRType_String
 return
 JSVAL_TYPE_STRING
 ;
+case
+MIRType_Magic
+:
+return
+JSVAL_TYPE_MAGIC
+;
 default
 :
 JS_ASSERT
