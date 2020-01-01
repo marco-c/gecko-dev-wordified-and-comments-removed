@@ -815,7 +815,6 @@ PSB_onItemAdded
 aItemId
 aFolderId
 aIndex
-aItemType
 )
 {
 var
@@ -927,7 +926,6 @@ PSB_onItemRemoved
 aItemId
 aFolder
 aIndex
-aItemType
 )
 {
 var
@@ -1026,7 +1024,6 @@ aOldFolderId
 aOldIndex
 aNewFolderId
 aNewIndex
-aItemType
 )
 {
 var
@@ -1167,6 +1164,10 @@ onItemChanged
 function
 PSB_onItemChanged
 (
+aItemId
+aProperty
+aIsAnnotationProperty
+aValue
 )
 {
 }
@@ -1357,7 +1358,6 @@ showPopup
 popup
 )
 ;
-var
 foundNode
 =
 findNode
@@ -1528,7 +1528,6 @@ open
 =
 true
 ;
-var
 foundNode
 =
 findNode

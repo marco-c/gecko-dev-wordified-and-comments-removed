@@ -302,16 +302,6 @@ PRInt32
 aDelta
 )
 ;
-NS_HIDDEN_
-(
-nsresult
-)
-RemoveFolder
-(
-PRInt64
-aFolderId
-)
-;
 nsresult
 FolderCount
 (

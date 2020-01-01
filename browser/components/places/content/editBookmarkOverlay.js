@@ -5958,8 +5958,6 @@ aItemId
 aProperty
 aIsAnnotationProperty
 aValue
-aLastModified
-aItemType
 )
 {
 if
@@ -6424,7 +6422,6 @@ aOldParent
 aOldIndex
 aNewParent
 aNewIndex
-aItemType
 )
 {
 if
@@ -6475,7 +6472,6 @@ EIO_onItemAdded
 aItemId
 aFolder
 aIndex
-aItemType
 )
 {
 this

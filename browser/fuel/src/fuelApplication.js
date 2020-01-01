@@ -2621,7 +2621,7 @@ Utilities
 .
 bookmarks
 .
-removeItem
+removeFolder
 (
 this
 .

@@ -2693,7 +2693,7 @@ PlacesUtils
 .
 bookmarks
 .
-removeItem
+removeFolder
 (
 this
 .

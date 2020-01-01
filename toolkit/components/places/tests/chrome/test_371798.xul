@@ -557,6 +557,10 @@ onItemAdded
 :
 function
 (
+bookmarkId
+bookmark
+folder
+index
 )
 {
 }
@@ -564,6 +568,7 @@ onBeforeItemRemoved
 :
 function
 (
+bookmarkId
 )
 {
 }
@@ -571,6 +576,10 @@ onItemRemoved
 :
 function
 (
+bookmarkId
+bookmark
+folder
+index
 )
 {
 }
@@ -582,8 +591,6 @@ bookmarkId
 property
 isAnnotationProperty
 value
-lastModified
-itemType
 )
 {
 runTest
@@ -602,6 +609,10 @@ onItemVisited
 :
 function
 (
+bookmarkId
+bookmark
+aVisitID
+time
 )
 {
 }
@@ -609,6 +620,11 @@ onItemMoved
 :
 function
 (
+itemId
+oldParent
+oldIndex
+newParent
+newIndex
 )
 {
 }

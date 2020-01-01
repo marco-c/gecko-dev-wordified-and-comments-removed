@@ -846,7 +846,6 @@ function
 aItemId
 aParentId
 aIndex
-aItemType
 )
 {
 if
@@ -857,7 +856,14 @@ this
 _inBatchMode
 &
 &
-aItemType
+this
+.
+_bs
+.
+getItemType
+(
+aItemId
+)
 =
 =
 this
@@ -884,9 +890,7 @@ DBFlush_onItemChanged
 aItemId
 aProperty
 aIsAnnotationProperty
-aNewValue
-aLastModified
-aItemType
+aValue
 )
 {
 if

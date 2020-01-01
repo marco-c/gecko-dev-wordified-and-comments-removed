@@ -468,7 +468,6 @@ function
 itemId
 folder
 index
-itemType
 )
 {
 var
@@ -523,6 +522,7 @@ onBeforeItemRemoved
 :
 function
 (
+itemId
 )
 {
 }
@@ -530,6 +530,9 @@ onItemRemoved
 :
 function
 (
+itemId
+folder
+index
 )
 {
 }
@@ -537,6 +540,10 @@ onItemChanged
 :
 function
 (
+itemId
+property
+isAnnotationProperty
+value
 )
 {
 }
@@ -544,6 +551,9 @@ onItemVisited
 :
 function
 (
+itemId
+aVisitID
+time
 )
 {
 }
@@ -551,6 +561,11 @@ onItemMoved
 :
 function
 (
+itemId
+oldParent
+oldIndex
+newParent
+newIndex
 )
 {
 }

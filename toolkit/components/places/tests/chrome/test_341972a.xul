@@ -541,7 +541,7 @@ this
 ;
 bmsvc
 .
-removeItem
+removeFolder
 (
 gLivemarkId
 )

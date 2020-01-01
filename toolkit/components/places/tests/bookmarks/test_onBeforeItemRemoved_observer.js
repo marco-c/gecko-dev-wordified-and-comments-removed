@@ -42,12 +42,6 @@ prototype
 checked
 :
 false
-onItemMovedCalled
-:
-false
-onItemRemovedCalled
-:
-false
 onBeginUpdateBatch
 :
 function
@@ -112,7 +106,7 @@ id
 ;
 this
 .
-onItemRemovedCalled
+checked
 =
 true
 ;
@@ -149,12 +143,6 @@ newParent
 newIndex
 )
 {
-this
-.
-onItemMovedCalled
-=
-true
-;
 }
 QueryInterface
 :
@@ -260,7 +248,7 @@ do_check_true
 (
 observer
 .
-onItemRemovedCalled
+checked
 )
 ;
 bs
@@ -322,7 +310,7 @@ do_check_true
 (
 observer
 .
-onItemRemovedCalled
+checked
 )
 ;
 bs
@@ -412,7 +400,7 @@ do_check_true
 (
 observer
 .
-onItemRemovedCalled
+checked
 )
 ;
 bs
@@ -514,7 +502,7 @@ do_check_true
 (
 observer
 .
-onItemMovedCalled
+checked
 )
 ;
 bs

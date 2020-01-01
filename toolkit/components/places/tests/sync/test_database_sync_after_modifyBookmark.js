@@ -150,7 +150,6 @@ function
 aItemId
 aNewParent
 aNewIndex
-aItemType
 )
 {
 observer
@@ -166,9 +165,7 @@ function
 (
 aItemId
 aProperty
-aNewValue
-aLastModified
-aItemType
+aValue
 )
 {
 if
