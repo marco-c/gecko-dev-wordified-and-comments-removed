@@ -806,8 +806,10 @@ nsFrameLoader
 >
 mFrameLoader
 ;
+nsCOMPtr
+<
 nsIRunnable
-*
+>
 mPendingInstantiateEvent
 ;
 nsCString

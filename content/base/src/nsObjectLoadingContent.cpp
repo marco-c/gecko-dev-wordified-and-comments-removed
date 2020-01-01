@@ -10081,6 +10081,9 @@ AsyncStartPluginInstance
 if
 (
 mInstanceOwner
+|
+|
+mPendingInstantiateEvent
 )
 {
 return
