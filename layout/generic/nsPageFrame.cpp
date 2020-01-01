@@ -2676,10 +2676,12 @@ backgroundRect
 =
 nsRect
 (
-nsPoint
+aBuilder
+-
+>
+ToReferenceFrame
 (
-0
-0
+child
 )
 child
 -
