@@ -1490,6 +1490,13 @@ bin
 /
 components
 /
+aboutSessionRestore
+.
+js
+bin
+/
+components
+/
 sessionstore
 .
 xpt

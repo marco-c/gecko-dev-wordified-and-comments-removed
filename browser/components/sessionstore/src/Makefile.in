@@ -407,6 +407,10 @@ nsSessionStartup
 .
 js
 \
+aboutSessionRestore
+.
+js
+\
 (
 NULL
 )
