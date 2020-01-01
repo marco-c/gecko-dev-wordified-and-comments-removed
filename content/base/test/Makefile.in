@@ -1109,6 +1109,10 @@ file_bug391728_2
 .
 html
 \
+test_bug368972
+.
+html
+\
 (
 NULL
 )
