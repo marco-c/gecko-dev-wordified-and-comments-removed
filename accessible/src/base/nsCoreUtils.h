@@ -88,15 +88,11 @@ public
 :
 static
 PRBool
-HasListener
+HasClickListener
 (
 nsIContent
 *
 aContent
-const
-nsAString
-&
-aEventType
 )
 ;
 static
