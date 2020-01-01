@@ -1520,6 +1520,16 @@ allowCallSyntax
 )
 ;
 Node
+objectLiteral
+(
+)
+;
+Node
+arrayInitializer
+(
+)
+;
+Node
 primaryExpr
 (
 TokenKind
