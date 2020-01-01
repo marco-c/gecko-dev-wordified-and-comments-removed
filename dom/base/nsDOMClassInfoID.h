@@ -323,7 +323,6 @@ eDOMClassInfo_XULCommandEvent_id
 eDOMClassInfo_CommandEvent_id
 eDOMClassInfo_OfflineResourceList_id
 eDOMClassInfo_LoadStatus_id
-eDOMClassInfo_LoadStatusEvent_id
 eDOMClassInfo_FileList_id
 eDOMClassInfo_File_id
 eDOMClassInfo_FileException_id

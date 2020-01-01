@@ -430,10 +430,6 @@ nsIDOMLoadStatus
 .
 idl
 \
-nsIDOMLoadStatusEvent
-.
-idl
-\
 (
 NULL
 )
