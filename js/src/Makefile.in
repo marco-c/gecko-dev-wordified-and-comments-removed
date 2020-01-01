@@ -2142,6 +2142,7 @@ ifeq
 filter
 arm
 %
+%
 86
 x86_64
 (
