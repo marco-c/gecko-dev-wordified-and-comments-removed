@@ -7005,7 +7005,6 @@ Void
 Boolean
 >
 (
-mMainHandler
 GeckoAppShell
 .
 getHandler
@@ -7209,7 +7208,6 @@ Void
 String
 >
 (
-mMainHandler
 GeckoAppShell
 .
 getHandler

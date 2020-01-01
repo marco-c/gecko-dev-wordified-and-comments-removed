@@ -960,9 +960,6 @@ Type
 >
 >
 (
-getHandler
-(
-)
 GeckoAppShell
 .
 getHandler

@@ -2390,9 +2390,6 @@ Void
 Cursor
 >
 (
-getHandler
-(
-)
 GeckoAppShell
 .
 getHandler
@@ -4071,9 +4068,6 @@ getContext
 )
 NUMBER_OF_REMOTE_TABS
 this
-getHandler
-(
-)
 )
 ;
 }
@@ -5700,9 +5694,6 @@ Void
 Void
 >
 (
-getHandler
-(
-)
 GeckoAppShell
 .
 getHandler
@@ -5826,9 +5817,6 @@ Void
 Void
 >
 (
-getHandler
-(
-)
 GeckoAppShell
 .
 getHandler
@@ -6140,9 +6128,6 @@ Void
 Bitmap
 >
 (
-getHandler
-(
-)
 GeckoAppShell
 .
 getHandler

@@ -4638,11 +4638,6 @@ Cursor
 (
 GeckoAppShell
 .
-getMainHandler
-(
-)
-GeckoAppShell
-.
 getHandler
 (
 )

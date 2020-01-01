@@ -3164,11 +3164,6 @@ Void
 Void
 >
 (
-mAwesomeTabs
-.
-getHandler
-(
-)
 GeckoAppShell
 .
 getHandler
@@ -3451,11 +3446,6 @@ Void
 Void
 >
 (
-mAwesomeTabs
-.
-getHandler
-(
-)
 GeckoAppShell
 .
 getHandler
@@ -3608,11 +3598,6 @@ Void
 Void
 >
 (
-mAwesomeTabs
-.
-getHandler
-(
-)
 GeckoAppShell
 .
 getHandler

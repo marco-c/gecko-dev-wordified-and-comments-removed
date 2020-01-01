@@ -297,9 +297,6 @@ getTabs
 (
 mContext
 this
-getHandler
-(
-)
 )
 ;
 }
