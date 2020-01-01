@@ -68,8 +68,6 @@ include
 "
 common
 /
-linux
-/
 md5
 .
 h

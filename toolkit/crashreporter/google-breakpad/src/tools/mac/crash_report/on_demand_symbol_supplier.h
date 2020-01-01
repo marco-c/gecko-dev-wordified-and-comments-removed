@@ -57,6 +57,10 @@ const
 string
 &
 search_dir
+const
+string
+&
+symbol_search_dir
 )
 ;
 virtual
@@ -87,6 +91,9 @@ protected
 :
 string
 search_dir_
+;
+string
+symbol_search_dir_
 ;
 map
 <

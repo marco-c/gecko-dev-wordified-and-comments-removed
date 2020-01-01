@@ -245,6 +245,16 @@ void
 callback_context
 )
 ;
+DWORD
+get_requesting_thread_id
+(
+)
+const
+{
+return
+requesting_thread_id_
+;
+}
 private
 :
 friend

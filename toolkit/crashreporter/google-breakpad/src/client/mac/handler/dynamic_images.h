@@ -467,7 +467,7 @@ IsValid
 )
 {
 return
-GetVMAddr
+GetVMSize
 (
 )
 !

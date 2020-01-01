@@ -1,3 +1,8 @@
+extern
+"
+C
+"
+{
 #
 include
 <
@@ -59,6 +64,7 @@ unistd
 .
 h
 >
+}
 #
 include
 "

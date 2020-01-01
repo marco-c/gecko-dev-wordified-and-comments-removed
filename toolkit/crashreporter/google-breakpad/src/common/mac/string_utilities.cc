@@ -230,6 +230,14 @@ end
 start
 )
 ;
+if
+(
+found
+=
+=
+idx
+)
+{
 result
 =
 atoi
@@ -241,6 +249,7 @@ c_str
 )
 )
 ;
+}
 start
 =
 str

@@ -183,7 +183,7 @@ lower_bound
 high
 )
 ;
-MapConstIterator
+MapIterator
 iterator_end
 =
 map_

@@ -498,6 +498,9 @@ size
 4
 )
 ;
+std
+:
+:
 transform
 (
 debug_file_extension

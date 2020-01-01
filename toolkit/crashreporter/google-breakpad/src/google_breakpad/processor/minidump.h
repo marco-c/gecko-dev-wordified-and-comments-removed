@@ -203,6 +203,14 @@ GetContextPPC
 )
 const
 ;
+const
+MDRawContextSPARC
+*
+GetContextSPARC
+(
+)
+const
+;
 void
 Print
 (
@@ -258,6 +266,10 @@ x86
 MDRawContextPPC
 *
 ppc
+;
+MDRawContextSPARC
+*
+ctx_sparc
 ;
 }
 context_
