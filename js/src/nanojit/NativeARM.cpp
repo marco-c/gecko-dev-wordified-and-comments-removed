@@ -465,7 +465,7 @@ fromfrag
 endif
 LDi
 (
-R0
+R2
 int
 (
 lr
@@ -485,6 +485,12 @@ genEpilogue
 BX
 (
 LR
+)
+;
+MR
+(
+R0
+R2
 )
 ;
 RegisterMask
