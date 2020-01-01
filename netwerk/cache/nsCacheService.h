@@ -130,6 +130,9 @@ class
 nsITimer
 ;
 class
+mozIStorageService
+;
+class
 nsNotifyDoomListener
 :
 public
@@ -968,6 +971,12 @@ static
 nsCacheService
 *
 gService
+;
+nsCOMPtr
+<
+mozIStorageService
+>
+mStorageService
 ;
 nsCacheProfilePrefObserver
 *

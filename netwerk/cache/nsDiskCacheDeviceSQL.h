@@ -111,6 +111,9 @@ class
 nsOfflineCacheDevice
 ;
 class
+mozIStorageService
+;
+class
 nsApplicationCacheNamespace
 MOZ_FINAL
 :
@@ -218,6 +221,14 @@ virtual
 nsresult
 Init
 (
+)
+;
+nsresult
+InitWithSqlite
+(
+mozIStorageService
+*
+ss
 )
 ;
 virtual
