@@ -824,12 +824,6 @@ InstallField
 (
 context
 thisObj
-xblNode
--
->
-NodePrincipal
-(
-)
 protoBinding
 -
 >
