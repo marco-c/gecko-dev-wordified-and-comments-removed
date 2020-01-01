@@ -1367,13 +1367,13 @@ gcMallocBytes
 ;
 JSGCArenaInfo
 *
-gcUntracedArenaStackTop
+gcUnmarkedArenaStackTop
 ;
 #
 ifdef
 DEBUG
 size_t
-gcTraceLaterCount
+gcMarkLaterCount
 ;
 #
 endif
