@@ -473,6 +473,10 @@ nsIUnicharStreamListener
 .
 idl
 \
+nsITraceableChannel
+.
+idl
+\
 (
 NULL
 )

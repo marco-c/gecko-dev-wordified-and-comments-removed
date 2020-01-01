@@ -270,6 +270,13 @@ nsIProxiedChannel
 .
 h
 "
+#
+include
+"
+nsITraceableChannel
+.
+h
+"
 class
 nsHttpResponseHead
 ;
@@ -311,6 +318,8 @@ public
 nsIProtocolProxyCallback
 public
 nsIProxiedChannel
+public
+nsITraceableChannel
 {
 public
 :
@@ -330,6 +339,7 @@ NS_DECL_NSIRESUMABLECHANNEL
 NS_DECL_NSISUPPORTSPRIORITY
 NS_DECL_NSIPROTOCOLPROXYCALLBACK
 NS_DECL_NSIPROXIEDCHANNEL
+NS_DECL_NSITRACEABLECHANNEL
 nsHttpChannel
 (
 )
@@ -1151,6 +1161,11 @@ mInitedCacheEntry
 ;
 PRUint32
 mCacheForOfflineUse
+:
+1
+;
+PRUint32
+mTracingEnabled
 :
 1
 ;
