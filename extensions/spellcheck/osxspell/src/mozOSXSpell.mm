@@ -848,6 +848,7 @@ aLanguage
 ;
 }
 else
+{
 *
 aLanguage
 =
@@ -856,6 +857,7 @@ ToNewUnicode
 mLanguage
 )
 ;
+}
 return
 *
 aLanguage
@@ -1748,6 +1750,14 @@ sizeof
 PRUnichar
 )
 )
+;
+if
+(
+!
+retStr
+)
+return
+NULL
 ;
 [
 self
