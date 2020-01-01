@@ -220,7 +220,7 @@ array
 }
 ;
 class
-GCConstList
+CGConstList
 {
 Vector
 <
@@ -230,7 +230,7 @@ list
 ;
 public
 :
-GCConstList
+CGConstList
 (
 JSContext
 *
@@ -414,7 +414,7 @@ arrayCompDepth
 unsigned
 emitLevel
 ;
-GCConstList
+CGConstList
 constList
 ;
 CGObjectList
