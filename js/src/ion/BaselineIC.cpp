@@ -4914,7 +4914,7 @@ rhs
 script
 -
 >
-strictModeCode
+strict
 )
 )
 return
