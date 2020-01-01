@@ -365,6 +365,12 @@ METER
 (
 x
 )
+(
+(
+void
+)
+0
+)
 #
 endif
 bool
