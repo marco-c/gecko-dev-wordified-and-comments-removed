@@ -14314,6 +14314,9 @@ debugging
 #
 format
 )
+MOZ_MEMORY
+=
+1
 case
 "
 {
