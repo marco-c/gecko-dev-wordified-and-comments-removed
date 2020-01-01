@@ -288,6 +288,12 @@ reserved
 ;
 #
 endif
+static
+void
+HandlePureVirtualCall
+(
+)
+;
 bool
 WriteMinidumpOnHandlerThread
 (
@@ -374,6 +380,9 @@ previous_iph_
 ;
 #
 endif
+_purecall_handler
+previous_pch_
+;
 HANDLE
 handler_thread_
 ;
