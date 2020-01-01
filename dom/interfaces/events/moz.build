@@ -288,6 +288,16 @@ nsIDOMSmartCardEvent
 idl
 '
 '
+nsIDOMStyleSheetAddedEvent
+.
+idl
+'
+'
+nsIDOMStyleSheetRemovedEvent
+.
+idl
+'
+'
 nsIDOMTouchEvent
 .
 idl
