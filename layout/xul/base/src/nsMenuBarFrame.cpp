@@ -2420,13 +2420,6 @@ NS_OK
 )
 ;
 }
-nsMenuDismissalListener
-:
-:
-Shutdown
-(
-)
-;
 return
 NS_OK
 ;
