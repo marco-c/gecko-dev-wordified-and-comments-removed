@@ -1382,6 +1382,14 @@ ATTR_VALTOKEN
 nsAccessibilityAtoms
 :
 :
+aria_label
+ATTR_BYPASSOBJ
+}
+{
+&
+nsAccessibilityAtoms
+:
+:
 aria_labelledby
 ATTR_BYPASSOBJ
 }
