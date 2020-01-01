@@ -63,6 +63,17 @@ fd
 =
 0
 ;
+virtual
+void
+IsLocal
+(
+bool
+*
+aIsLocal
+)
+=
+0
+;
 }
 ;
 #

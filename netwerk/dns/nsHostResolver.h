@@ -428,6 +428,12 @@ RES_SPECULATE
 <
 <
 4
+RES_OFFLINE
+=
+1
+<
+<
+6
 }
 ;
 private

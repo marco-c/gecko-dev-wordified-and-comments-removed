@@ -378,6 +378,14 @@ PRFileDesc
 )
 ;
 void
+IsLocal
+(
+bool
+*
+aIsLocal
+)
+;
+void
 OnSocketEvent
 (
 uint32_t

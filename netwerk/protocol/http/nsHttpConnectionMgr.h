@@ -1166,7 +1166,7 @@ nsHttpTransaction
 )
 ;
 nsresult
-EnsureSocketThreadTargetIfOnline
+EnsureSocketThreadTarget
 (
 )
 ;
