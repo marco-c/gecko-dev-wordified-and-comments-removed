@@ -75,6 +75,16 @@ nsLineBox
 aLine
 )
 ;
+nsDisplayList
+&
+GetMarkers
+(
+)
+{
+return
+mMarkerList
+;
+}
 static
 bool
 CanHaveTextOverflow
@@ -445,7 +455,6 @@ nsRect
 &
 aInsideMarkersArea
 )
-const
 ;
 nsRect
 mContentArea
@@ -463,7 +472,6 @@ nsIScrollableFrame
 mScrollableFrame
 ;
 nsDisplayList
-*
 mMarkerList
 ;
 bool
