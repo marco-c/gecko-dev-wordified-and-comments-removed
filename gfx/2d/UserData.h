@@ -16,7 +16,7 @@ include
 "
 mozilla
 /
-mozalloc
+Assertions
 .
 h
 "
@@ -86,7 +86,7 @@ Entry
 *
 >
 (
-moz_xrealloc
+realloc
 (
 entries
 sizeof
@@ -102,6 +102,17 @@ count
 )
 )
 ;
+if
+(
+!
+entries
+)
+{
+MOZ_CRASH
+(
+)
+;
+}
 entries
 [
 count
