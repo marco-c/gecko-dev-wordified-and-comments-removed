@@ -1112,7 +1112,6 @@ TryRemoteBrowser
 (
 )
 ;
-}
 if
 (
 !
@@ -1137,6 +1136,7 @@ iframe
 return
 NS_ERROR_FAILURE
 ;
+}
 }
 mRemoteBrowser
 -
@@ -2400,7 +2400,7 @@ if
 mDocShell
 )
 return
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -2424,7 +2424,7 @@ if
 presShell
 )
 return
-true
+PR_TRUE
 ;
 mDocShell
 -
@@ -2744,7 +2744,6 @@ TryRemoteBrowser
 (
 )
 ;
-}
 if
 (
 !
@@ -2767,6 +2766,7 @@ process
 return
 false
 ;
+}
 }
 if
 (
