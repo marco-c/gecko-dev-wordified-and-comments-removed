@@ -12,7 +12,7 @@ js
 var
 BUGNUMBER
 =
-577536
+583925
 ;
 var
 summary
@@ -26,10 +26,19 @@ leading
 zero
 inputs
 as
-decimal
-in
+octal
+regardless
+of
+whether
+caller
+is
 strict
+or
+laissez
+-
+faire
 mode
+code
 "
 ;
 print
@@ -102,7 +111,7 @@ strictParseInt
 08
 "
 )
-8
+0
 )
 ;
 assertEq
@@ -113,7 +122,7 @@ strictParseInt
 09
 "
 )
-9
+0
 )
 ;
 assertEq
@@ -124,7 +133,7 @@ strictParseInt
 014
 "
 )
-14
+12
 )
 ;
 if
