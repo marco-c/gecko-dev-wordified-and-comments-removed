@@ -14216,7 +14216,9 @@ isComplete
             
 type
 =
-returnType
+self
+.
+_returnType
 .
 complete
 (
