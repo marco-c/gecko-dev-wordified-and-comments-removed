@@ -9360,11 +9360,6 @@ mScrolledFrame
 kid
 -
 >
-GetStyleDisplay
-(
-)
--
->
 IsPositioned
 (
 )

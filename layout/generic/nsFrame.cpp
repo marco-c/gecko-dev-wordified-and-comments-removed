@@ -2240,6 +2240,7 @@ disp
 >
 IsAbsolutelyPositioned
 (
+this
 )
 )
 {
@@ -7048,6 +7049,7 @@ aDisp
 >
 IsAbsolutelyPositioned
 (
+this
 )
 |
 |
@@ -9950,6 +9952,7 @@ disp
 >
 IsPositioned
 (
+child
 )
 ;
 if
@@ -22933,13 +22936,13 @@ if
 aDisplay
 |
 |
-NS_STYLE_POSITION_RELATIVE
-=
-=
 aDisplay
 -
 >
-mPosition
+IsRelativelyPositioned
+(
+this
+)
 )
 {
 nsPoint
@@ -24094,11 +24097,6 @@ const
 {
 if
 (
-GetStyleDisplay
-(
-)
--
->
 IsAbsolutelyPositioned
 (
 )
@@ -45007,7 +45005,7 @@ flow
 ;
 if
 (
-disp
+aFrame
 -
 >
 IsAbsolutelyPositioned

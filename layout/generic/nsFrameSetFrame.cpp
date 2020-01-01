@@ -7761,7 +7761,7 @@ NS_ASSERTION
 disp
 -
 >
-IsAbsolutelyPositioned
+IsAbsolutelyPositionedStyle
 (
 )
 &

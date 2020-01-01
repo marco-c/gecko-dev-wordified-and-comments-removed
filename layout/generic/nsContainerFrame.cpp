@@ -3226,12 +3226,7 @@ nsViewVisibility_kHide
 bool
 isPositioned
 =
-aStyleContext
--
->
-GetStyleDisplay
-(
-)
+aFrame
 -
 >
 IsPositioned
