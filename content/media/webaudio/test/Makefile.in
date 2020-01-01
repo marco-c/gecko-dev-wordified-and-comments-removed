@@ -147,6 +147,14 @@ test_AudioParam
 .
 html
 \
+test_audioParamExponentialRamp
+.
+html
+\
+test_audioParamLinearRamp
+.
+html
+\
 test_audioBufferSourceNode
 .
 html
