@@ -3747,6 +3747,10 @@ aContextNode
 )
 ;
 }
+mPrevRegisteredMilestone
+=
+sMaxMilestone
+;
 RegisterMilestone
 (
 )
