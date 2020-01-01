@@ -469,17 +469,6 @@ Run
 (
 )
 {
-if
-(
-!
-mExecutor
--
->
-isInList
-(
-)
-)
-{
 mExecutor
 -
 >
@@ -487,7 +476,6 @@ RunFlushLoop
 (
 )
 ;
-}
 return
 NS_OK
 ;
