@@ -308,13 +308,14 @@ uint64_t
 aLayersId
 MockContentController
 *
-mcc
+aMcc
 )
 :
 AsyncPanZoomController
 (
 aLayersId
-mcc
+nullptr
+aMcc
 )
 {
 }
