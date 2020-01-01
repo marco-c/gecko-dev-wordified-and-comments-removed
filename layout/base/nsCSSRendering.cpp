@@ -5549,18 +5549,6 @@ nsStyleBackground
 color
 ;
 const
-nsStylePadding
-*
-padding
-=
-aForFrame
--
->
-GetStylePadding
-(
-)
-;
-const
 nsStyleBorder
 *
 border
@@ -5658,8 +5646,6 @@ aBorderArea
 color
 *
 border
-*
-padding
 aUsePrintSettings
 aBGClipRect
 )
@@ -5810,8 +5796,6 @@ aBorderArea
 canvasColor
 *
 border
-*
-padding
 aUsePrintSettings
 aBGClipRect
 )
@@ -6424,10 +6408,6 @@ const
 nsStyleBorder
 &
 aBorder
-const
-nsStylePadding
-&
-aPadding
 PRBool
 aUsePrintSettings
 nsRect
@@ -6694,7 +6674,6 @@ aForFrame
 bgClipArea
 aColor
 aBorder
-aPadding
 canDrawBackgroundColor
 )
 ;
@@ -6773,7 +6752,6 @@ aForFrame
 bgClipArea
 aColor
 aBorder
-aPadding
 canDrawBackgroundColor
 )
 ;
@@ -7266,7 +7244,6 @@ aForFrame
 bgClipArea
 aColor
 aBorder
-aPadding
 canDrawBackgroundColor
 )
 ;
@@ -10829,10 +10806,6 @@ const
 nsStyleBorder
 &
 aBorder
-const
-nsStylePadding
-&
-aPadding
 PRBool
 aCanPaintNonWhite
 )

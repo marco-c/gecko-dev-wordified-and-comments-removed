@@ -364,9 +364,6 @@ mCellRect
 nsStyleBorder
 mZeroBorder
 ;
-nsStylePadding
-mZeroPadding
-;
 }
 ;
 #

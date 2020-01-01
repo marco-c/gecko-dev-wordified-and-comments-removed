@@ -865,18 +865,6 @@ aDirtyRect
 )
 {
 const
-nsStylePadding
-*
-myPadding
-=
-mCheckButtonFaceStyle
--
->
-GetStylePadding
-(
-)
-;
-const
 nsStylePosition
 *
 myPosition
@@ -1038,8 +1026,6 @@ rect
 myBackground
 *
 myBorder
-*
-myPadding
 PR_FALSE
 )
 ;

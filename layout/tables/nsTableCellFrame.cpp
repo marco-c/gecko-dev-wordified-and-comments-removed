@@ -5184,10 +5184,6 @@ GetStyleBackground
 (
 )
 myBorder
-*
-GetStylePadding
-(
-)
 PR_TRUE
 nsnull
 )
