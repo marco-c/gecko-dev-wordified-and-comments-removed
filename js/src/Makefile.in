@@ -994,6 +994,10 @@ Stack
 .
 cpp
 \
+String
+.
+cpp
+\
 (
 NULL
 )
@@ -1380,6 +1384,10 @@ Stack
 .
 h
 \
+String
+.
+h
+\
 StringObject
 .
 h
@@ -1474,6 +1482,10 @@ EXPORTS_mozilla
 =
 \
 RangedPtr
+.
+h
+\
+RefPtr
 .
 h
 \
@@ -3600,8 +3612,7 @@ h
 "
 \
 )
--
-not
+!
 -
 path
 "
@@ -3611,8 +3622,7 @@ dist
 /
 *
 "
--
-not
+!
 -
 path
 "
@@ -3845,7 +3855,7 @@ py
 OffTheBooks
 :
 :
-53
+54
 \
 "
 in
