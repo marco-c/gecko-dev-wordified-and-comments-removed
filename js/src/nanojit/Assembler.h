@@ -831,6 +831,8 @@ LIns
 ins
 RegisterMask
 allow
+RegisterMask
+prefer
 )
 ;
 Register
@@ -1063,9 +1065,7 @@ hint
 (
 LIns
 *
-i
-RegisterMask
-allow
+ins
 )
 ;
 void

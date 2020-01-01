@@ -16352,12 +16352,11 @@ hint
 (
 LIns
 *
-RegisterMask
-allow
+ins
 )
 {
 return
-allow
+0
 ;
 }
 void
