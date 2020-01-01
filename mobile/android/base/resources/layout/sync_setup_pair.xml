@@ -344,6 +344,8 @@ imeOptions
 =
 "
 actionDone
+|
+flagNoExtractUi
 "
 /
 >

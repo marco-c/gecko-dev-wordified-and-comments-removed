@@ -20,13 +20,6 @@ sync_app_name
 "
 android
 :
-screenOrientation
-=
-"
-portrait
-"
-android
-:
 configChanges
 =
 "
