@@ -109,10 +109,7 @@ aGraphicOpacity
 public
 :
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )

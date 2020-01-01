@@ -18,6 +18,13 @@ gfxPattern
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 class
 gfxContext
 ;
@@ -224,10 +231,7 @@ PRPackedBool
 mInUse
 ;
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )

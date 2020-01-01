@@ -11,6 +11,13 @@ nsSVGContainerFrame
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 class
 gfxContext
 ;
@@ -187,10 +194,7 @@ mY
 mAngle
 ;
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )

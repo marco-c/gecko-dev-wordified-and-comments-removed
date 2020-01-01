@@ -11,6 +11,13 @@ nsSVGContainerFrame
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 typedef
 nsSVGContainerFrame
 nsSVGClipPathFrameBase
@@ -225,10 +232,7 @@ PRPackedBool
 mInUse
 ;
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )

@@ -32,6 +32,13 @@ nsGkAtoms
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 typedef
 nsSVGDisplayContainerFrame
 nsSVGGenericContainerFrameBase
@@ -120,10 +127,7 @@ aResult
 #
 endif
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )

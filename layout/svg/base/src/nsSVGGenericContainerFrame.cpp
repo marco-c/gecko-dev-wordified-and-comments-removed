@@ -113,10 +113,7 @@ nsGkAtoms
 svgGenericContainerFrame
 ;
 }
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 nsSVGGenericContainerFrame
 :
 :
@@ -133,10 +130,7 @@ parent
 "
 )
 ;
-nsSVGContainerFrame
-*
-containerFrame
-=
+return
 static_cast
 <
 nsSVGContainerFrame
@@ -145,9 +139,6 @@ nsSVGContainerFrame
 (
 mParent
 )
-;
-return
-containerFrame
 -
 >
 GetCanvasTM

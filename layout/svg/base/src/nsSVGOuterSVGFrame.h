@@ -32,6 +32,13 @@ nsIDOMSVGNumber
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 class
 nsSVGForeignObjectFrame
 ;
@@ -335,10 +342,7 @@ NotifyViewportChange
 )
 ;
 virtual
-already_AddRefed
-<
-nsIDOMSVGMatrix
->
+gfxMatrix
 GetCanvasTM
 (
 )

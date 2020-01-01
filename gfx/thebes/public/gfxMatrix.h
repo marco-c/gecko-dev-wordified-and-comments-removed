@@ -235,6 +235,17 @@ gfxMatrix
 m
 )
 ;
+const
+gfxMatrix
+&
+PreMultiply
+(
+const
+gfxMatrix
+&
+m
+)
+;
 gfxPoint
 Transform
 (
