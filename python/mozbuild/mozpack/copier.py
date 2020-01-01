@@ -1038,6 +1038,9 @@ destination
 skip_if_older
 =
 True
+remove_unaccounted
+=
+True
 )
 :
         
@@ -1117,10 +1120,11 @@ file
 .
 copy
 )
-and
-files
+.
         
-existing
+By
+default
+files
 in
 the
 destination
@@ -1130,9 +1134,26 @@ aren
 '
 t
 registered
-are
         
+are
 removed
+and
+empty
+directories
+are
+deleted
+.
+To
+disable
+removing
+of
+        
+unregistered
+files
+pass
+remove_unaccounted
+=
+False
 .
         
 Returns
@@ -1314,6 +1335,10 @@ f
 )
 )
         
+if
+remove_unaccounted
+:
+            
 for
 f
 in
@@ -1321,7 +1346,7 @@ actual_dest_files
 -
 dest_files
 :
-            
+                
 if
 os
 .
@@ -1343,7 +1368,7 @@ os
 W_OK
 )
 :
-                
+                    
 os
 .
 chmod
@@ -1351,14 +1376,14 @@ chmod
 f
 0600
 )
-            
+                
 os
 .
 remove
 (
 f
 )
-            
+                
 result
 .
 removed_files
