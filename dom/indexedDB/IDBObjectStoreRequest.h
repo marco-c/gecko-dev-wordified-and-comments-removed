@@ -753,6 +753,7 @@ bool
 TransactionIsOpen
 (
 )
+const
 {
 return
 mTransaction
@@ -777,6 +778,7 @@ bool
 IsWriteAllowed
 (
 )
+const
 {
 return
 mTransaction
@@ -795,6 +797,18 @@ const
 {
 return
 mId
+;
+}
+const
+nsString
+&
+KeyPath
+(
+)
+const
+{
+return
+mKeyPath
 ;
 }
 IDBTransactionRequest
