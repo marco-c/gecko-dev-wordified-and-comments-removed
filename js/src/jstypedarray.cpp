@@ -2362,8 +2362,7 @@ obj_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -5591,8 +5590,7 @@ obj_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {

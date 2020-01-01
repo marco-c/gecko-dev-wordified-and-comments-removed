@@ -33,9 +33,9 @@ static
 void
 resc_finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -59,7 +59,7 @@ getPrivate
 )
 )
 ;
-cx
+fop
 -
 >
 delete_
@@ -75,8 +75,7 @@ resc_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {
@@ -129,6 +128,8 @@ RegExpStaticsClass
 RegExpStatics
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -137,8 +138,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 resc_finalize
-NULL
-NULL
 NULL
 NULL
 NULL

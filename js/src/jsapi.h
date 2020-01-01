@@ -6543,8 +6543,7 @@ JSTraceOp
 JSTracer
 *
 trc
-JSObject
-*
+JSRawObject
 obj
 )
 ;

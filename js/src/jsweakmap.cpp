@@ -1643,8 +1643,7 @@ WeakMap_mark
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {

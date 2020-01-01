@@ -22392,8 +22392,7 @@ prop_iter_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {

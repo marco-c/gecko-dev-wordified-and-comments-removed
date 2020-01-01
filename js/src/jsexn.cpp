@@ -239,8 +239,7 @@ exn_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -1782,8 +1781,7 @@ exn_trace
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 {

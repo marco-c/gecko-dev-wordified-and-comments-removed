@@ -390,8 +390,7 @@ mark
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -651,8 +650,7 @@ mark
 JSTracer
 *
 trc
-JSObject
-*
+RawObject
 obj
 )
 ;
