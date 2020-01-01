@@ -5379,7 +5379,17 @@ deltaY
 =
 0
 )
+{
+let
+view
+=
 browser
+.
+getRootView
+(
+)
+;
+view
 .
 scrollBy
 (
@@ -5387,6 +5397,7 @@ deltaX
 deltaY
 )
 ;
+}
 }
 _zoomStart
 :
