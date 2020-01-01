@@ -4200,6 +4200,9 @@ mDOMNode
 aRelationType
 !
 =
+nsIAccessibleRelation
+:
+:
 RELATION_EMBEDS
 )
 {

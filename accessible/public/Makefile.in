@@ -449,6 +449,10 @@ nsIAccessible
 .
 idl
 \
+nsIAccessibleRelation
+.
+idl
+\
 nsIAccessibleRole
 .
 idl

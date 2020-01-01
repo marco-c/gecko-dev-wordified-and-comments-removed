@@ -515,6 +515,10 @@ nsAccessible
 .
 cpp
 \
+nsAccessibleRelation
+.
+cpp
+\
 nsAccessibleTreeWalker
 .
 cpp
