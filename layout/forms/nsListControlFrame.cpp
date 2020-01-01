@@ -645,7 +645,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsListControlFrame
 :
 :
@@ -674,7 +674,6 @@ IsBackgroundOnly
 )
 )
 return
-NS_OK
 ;
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
@@ -743,7 +742,6 @@ mLastDropdownBackstopColor
 )
 ;
 }
-return
 nsHTMLScrollFrame
 :
 :

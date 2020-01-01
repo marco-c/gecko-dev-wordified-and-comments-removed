@@ -311,7 +311,8 @@ defined
 MOZ_REFLOW_PERF
 )
 )
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder

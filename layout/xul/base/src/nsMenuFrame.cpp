@@ -1699,7 +1699,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsMenuFrame
 :
 :
@@ -1728,7 +1728,7 @@ IsForEventDelivery
 (
 )
 )
-return
+{
 nsBoxFrame
 :
 :
@@ -1739,12 +1739,12 @@ aDirtyRect
 aLists
 )
 ;
+return
+;
+}
 nsDisplayListCollection
 set
 ;
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -1755,13 +1755,6 @@ aDirtyRect
 set
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
-return
 WrapListsInRedirector
 (
 aBuilder

@@ -1043,7 +1043,7 @@ mVisibleRect
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsBulletFrame
 :
 :
@@ -1071,7 +1071,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
@@ -1099,9 +1098,6 @@ aBuilder
 this
 )
 )
-;
-return
-NS_OK
 ;
 }
 void

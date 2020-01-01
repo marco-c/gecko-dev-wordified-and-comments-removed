@@ -36,7 +36,8 @@ nsFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -51,6 +52,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 {
 DO_GLOBAL_REFLOW_COUNT_DSP
 (
@@ -64,9 +66,6 @@ DisplayBorderBackgroundOutline
 aBuilder
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 virtual

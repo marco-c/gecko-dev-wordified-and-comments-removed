@@ -48,7 +48,8 @@ nsStyleContext
 aContext
 )
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayListForChildren
 (
 nsDisplayListBuilder
@@ -63,6 +64,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize

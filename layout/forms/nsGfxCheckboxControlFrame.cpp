@@ -450,7 +450,7 @@ eHTMLCheckboxType
 }
 #
 endif
-NS_IMETHODIMP
+void
 nsGfxCheckboxControlFrame
 :
 :
@@ -502,7 +502,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 if
 (
@@ -511,7 +510,6 @@ IsThemed
 )
 )
 return
-NS_OK
 ;
 aLists
 .
@@ -546,9 +544,6 @@ nsDisplayItem
 TYPE_CHECKED_CHECKBOX
 )
 )
-;
-return
-NS_OK
 ;
 }
 bool

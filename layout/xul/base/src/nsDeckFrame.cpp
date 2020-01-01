@@ -487,7 +487,7 @@ mIndex
 nullptr
 ;
 }
-NS_IMETHODIMP
+void
 nsDeckFrame
 :
 :
@@ -517,9 +517,7 @@ GetStyleVisibility
 mVisible
 )
 return
-NS_OK
 ;
-return
 nsBoxFrame
 :
 :
@@ -531,7 +529,7 @@ aLists
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsDeckFrame
 :
 :
@@ -564,7 +562,6 @@ if
 box
 )
 return
-NS_OK
 ;
 nsDisplayListSet
 set
@@ -584,9 +581,6 @@ box
 aDirtyRect
 set
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

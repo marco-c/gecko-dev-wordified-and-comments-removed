@@ -7793,7 +7793,7 @@ nsIPopupBoxObject
 ROLLUP_DEFAULT
 ;
 }
-nsresult
+void
 nsMenuPopupFrame
 :
 :
@@ -7826,10 +7826,8 @@ mIsDragPopup
 )
 {
 return
-NS_OK
 ;
 }
-return
 nsBoxFrame
 :
 :

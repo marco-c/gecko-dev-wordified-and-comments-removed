@@ -158,7 +158,8 @@ aStatus
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -173,10 +174,8 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 {
-return
-NS_OK
-;
 }
 virtual
 nsIAtom
