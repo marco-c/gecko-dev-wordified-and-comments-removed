@@ -1348,6 +1348,14 @@ kRadioDisabledError
 =
 6
 ;
+public
+final
+static
+int
+kInvalidAddressError
+=
+7
+;
 private
 final
 static
