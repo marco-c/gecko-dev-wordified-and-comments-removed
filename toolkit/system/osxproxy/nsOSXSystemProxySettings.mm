@@ -393,7 +393,7 @@ aMainThreadOnly
 *
 aMainThreadOnly
 =
-false
+true
 ;
 return
 NS_OK
