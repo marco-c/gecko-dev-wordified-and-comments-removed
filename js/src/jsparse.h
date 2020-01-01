@@ -156,6 +156,9 @@ right
 jsval
 val
 ;
+uintN
+iflags
+;
 }
 binary
 ;
@@ -363,6 +366,14 @@ pn_u
 binary
 .
 val
+#
+define
+pn_iflags
+pn_u
+.
+binary
+.
+iflags
 #
 define
 pn_kid
