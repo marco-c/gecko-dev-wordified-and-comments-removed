@@ -1440,7 +1440,7 @@ key
 string
 >
 %
-APP_VERSION
+MAC_BUNDLE_VERSION
 %
 <
 /
