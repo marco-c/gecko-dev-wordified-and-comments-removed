@@ -1,0 +1,8 @@
+[
+console_scripts
+]
+virtualenv
+=
+virtualenv
+:
+main
