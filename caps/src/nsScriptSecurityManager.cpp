@@ -1710,7 +1710,6 @@ nsIChannelEventSink
 nsIObserver
 )
 JSBool
-JS_DLL_CALLBACK
 nsScriptSecurityManager
 :
 :

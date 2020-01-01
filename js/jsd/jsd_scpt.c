@@ -779,10 +779,8 @@ script
 }
 #
 endif
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSHashNumber
-)
 jsd_hash_script
 (
 const
@@ -803,11 +801,9 @@ key
 2
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
 *
-)
 jsd_alloc_script_table
 (
 void
@@ -824,10 +820,8 @@ size
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 jsd_free_script_table
 (
 void
@@ -844,11 +838,9 @@ item
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSHashEntry
 *
-)
 jsd_alloc_script_entry
 (
 void
@@ -874,10 +866,8 @@ JSHashEntry
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 jsd_free_script_entry
 (
 void
@@ -2085,7 +2075,6 @@ JS_TRUE
 ;
 }
 void
-JS_DLL_CALLBACK
 jsd_NewScriptHookProc
 (
 JSContext
@@ -2264,7 +2253,6 @@ hookData
 ;
 }
 void
-JS_DLL_CALLBACK
 jsd_DestroyScriptHookProc
 (
 JSContext
@@ -2657,7 +2645,6 @@ JS_FALSE
 ;
 }
 JSTrapStatus
-JS_DLL_CALLBACK
 jsd_TrapHandler
 (
 JSContext

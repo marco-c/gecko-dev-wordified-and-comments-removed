@@ -305,10 +305,8 @@ mLock
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 xpctools_JSNewScriptHook
 (
 JSContext
@@ -512,10 +510,8 @@ mLock
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 xpctools_JSDestroyScriptHook
 (
 JSContext
@@ -573,11 +569,9 @@ mLock
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
 *
-)
 xpctools_InterpreterHook
 (
 JSContext

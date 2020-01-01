@@ -14,7 +14,6 @@ h
 "
 static
 JSDHashNumber
-JS_DLL_CALLBACK
 HashIIDPtrKey
 (
 JSDHashTable
@@ -39,7 +38,6 @@ key
 }
 static
 JSBool
-JS_DLL_CALLBACK
 MatchIIDPtrKey
 (
 JSDHashTable
@@ -91,7 +89,6 @@ key
 }
 static
 JSDHashNumber
-JS_DLL_CALLBACK
 HashNativeKey
 (
 JSDHashTable
@@ -982,7 +979,6 @@ mTable
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 NativeSetMap
 :
 :
@@ -1505,7 +1501,6 @@ mTable
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 IID2ThisTranslatorMap
 :
 :
@@ -1554,7 +1549,6 @@ key
 ;
 }
 void
-JS_DLL_CALLBACK
 IID2ThisTranslatorMap
 :
 :
@@ -1703,7 +1697,6 @@ mTable
 ;
 }
 JSDHashNumber
-JS_DLL_CALLBACK
 XPCNativeScriptableSharedMap
 :
 :
@@ -1801,7 +1794,6 @@ h
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 XPCNativeScriptableSharedMap
 :
 :

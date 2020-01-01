@@ -289,7 +289,6 @@ aIsInterval
 }
 ;
 JSBool
-JS_DLL_CALLBACK
 nsDOMWorkerFunctions
 :
 :
@@ -368,7 +367,6 @@ JS_TRUE
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsDOMWorkerFunctions
 :
 :
@@ -415,7 +413,6 @@ JS_TRUE
 endif
 }
 JSBool
-JS_DLL_CALLBACK
 nsDOMWorkerFunctions
 :
 :
@@ -580,7 +577,6 @@ JS_TRUE
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsDOMWorkerFunctions
 :
 :
@@ -719,7 +715,6 @@ JS_TRUE
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsDOMWorkerFunctions
 :
 :

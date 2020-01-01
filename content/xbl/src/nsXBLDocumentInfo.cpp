@@ -756,7 +756,6 @@ nsXBLDocGlobalObject
 nsIScriptGlobalObject
 )
 void
-JS_DLL_CALLBACK
 XBL_ProtoErrorReporter
 (
 JSContext

@@ -21,7 +21,6 @@ sDOMStringFinalizerIndex
 ;
 static
 void
-JS_DLL_CALLBACK
 DOMStringFinalizer
 (
 JSContext

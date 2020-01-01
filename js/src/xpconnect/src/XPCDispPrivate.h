@@ -531,7 +531,6 @@ err
 }
 ;
 JSBool
-JS_DLL_CALLBACK
 XPC_IDispatch_CallMethod
 (
 JSContext
@@ -551,7 +550,6 @@ vp
 )
 ;
 JSBool
-JS_DLL_CALLBACK
 XPC_IDispatch_GetterSetter
 (
 JSContext

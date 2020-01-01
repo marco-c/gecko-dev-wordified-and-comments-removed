@@ -1228,7 +1228,6 @@ PR_FALSE
 }
 static
 JSBool
-JS_DLL_CALLBACK
 AddEventListenerHelper
 (
 JSContext
@@ -1716,7 +1715,6 @@ _retval
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 GlobalScopePolluterNewResolve
 (
 JSContext
@@ -1737,7 +1735,6 @@ objp
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 GlobalScopePolluterGetProperty
 (
 JSContext
@@ -1755,7 +1752,6 @@ vp
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 SecurityCheckOnSetProp
 (
 JSContext
@@ -3065,7 +3061,6 @@ result
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 DocumentOpen
 (
 JSContext
@@ -3107,7 +3102,6 @@ public
 :
 static
 JSBool
-JS_DLL_CALLBACK
 DocumentAllGetProperty
 (
 JSContext
@@ -3125,7 +3119,6 @@ vp
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 DocumentAllNewResolve
 (
 JSContext
@@ -3146,7 +3139,6 @@ objp
 ;
 static
 void
-JS_DLL_CALLBACK
 ReleaseDocument
 (
 JSContext
@@ -3159,7 +3151,6 @@ obj
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 CallToGetPropMapper
 (
 JSContext
@@ -3180,7 +3171,6 @@ rval
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 DocumentAllHelperGetProperty
 (
 JSContext
@@ -3198,7 +3188,6 @@ vp
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 DocumentAllHelperNewResolve
 (
 JSContext
@@ -3219,7 +3208,6 @@ objp
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 DocumentAllTagsNewResolve
 (
 JSContext
@@ -3335,7 +3323,6 @@ nsHTMLElementSH
 }
 static
 JSBool
-JS_DLL_CALLBACK
 ScrollIntoView
 (
 JSContext
@@ -3912,7 +3899,6 @@ nsHTMLOptionsCollectionSH
 }
 static
 JSBool
-JS_DLL_CALLBACK
 Add
 (
 JSContext

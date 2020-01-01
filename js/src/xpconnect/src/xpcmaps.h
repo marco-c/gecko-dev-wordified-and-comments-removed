@@ -1810,7 +1810,6 @@ key_value
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 Match
 (
 JSDHashTable
@@ -2103,7 +2102,6 @@ value
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 Match
 (
 JSDHashTable
@@ -2121,7 +2119,6 @@ key
 ;
 static
 void
-JS_DLL_CALLBACK
 Clear
 (
 JSDHashTable
@@ -2349,7 +2346,6 @@ key
 ;
 static
 JSDHashNumber
-JS_DLL_CALLBACK
 Hash
 (
 JSDHashTable
@@ -2363,7 +2359,6 @@ key
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 Match
 (
 JSDHashTable

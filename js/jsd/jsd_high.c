@@ -1187,10 +1187,8 @@ return
 jsdc
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 jsd_DebugErrorHook
 (
 JSContext

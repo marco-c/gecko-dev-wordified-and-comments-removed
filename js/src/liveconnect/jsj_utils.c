@@ -27,7 +27,6 @@ jsjava
 h
 "
 JSJHashNumber
-JS_DLL_CALLBACK
 jsj_HashJavaObject
 (
 const
@@ -136,7 +135,6 @@ hash_code
 ;
 }
 intN
-JS_DLL_CALLBACK
 jsj_JavaObjectComparator
 (
 const

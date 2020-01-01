@@ -652,10 +652,8 @@ return
 JS_FALSE
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 FinalizeXPCOMUCString
 (
 JSContext
@@ -7205,7 +7203,6 @@ nsnull
 }
 ;
 JSBool
-JS_DLL_CALLBACK
 XPC_JSArgumentFormatter
 (
 JSContext

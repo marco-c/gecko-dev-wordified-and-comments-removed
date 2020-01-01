@@ -1230,7 +1230,6 @@ nsScriptSecurityManager
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 CheckObjectAccess
 (
 JSContext

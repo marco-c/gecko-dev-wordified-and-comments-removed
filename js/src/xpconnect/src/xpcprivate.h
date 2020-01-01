@@ -2417,7 +2417,6 @@ index
 }
 static
 void
-JS_DLL_CALLBACK
 TraceJS
 (
 JSTracer
@@ -2449,7 +2448,6 @@ cb
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 GCCallback
 (
 JSContext
@@ -4200,7 +4198,6 @@ XPC_WN_NoHelper_Proto_JSClass
 extern
 JSObjectOps
 *
-JS_DLL_CALLBACK
 XPC_WN_GetObjectOpsNoCall
 (
 JSContext
@@ -4214,7 +4211,6 @@ clazz
 extern
 JSObjectOps
 *
-JS_DLL_CALLBACK
 XPC_WN_GetObjectOpsWithCall
 (
 JSContext
@@ -4228,7 +4224,6 @@ clazz
 extern
 JSObjectOps
 *
-JS_DLL_CALLBACK
 XPC_WN_Proto_GetObjectOps
 (
 JSContext
@@ -4241,7 +4236,6 @@ clazz
 ;
 extern
 JSBool
-JS_DLL_CALLBACK
 XPC_WN_CallMethod
 (
 JSContext
@@ -4262,7 +4256,6 @@ vp
 ;
 extern
 JSBool
-JS_DLL_CALLBACK
 XPC_WN_GetterSetter
 (
 JSContext
@@ -10822,7 +10815,6 @@ XPCStringConvert
 ;
 extern
 JSBool
-JS_DLL_CALLBACK
 XPC_JSArgumentFormatter
 (
 JSContext

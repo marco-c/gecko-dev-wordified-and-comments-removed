@@ -1755,10 +1755,8 @@ SPROP_MARK
 |
 SPROP_FLAG_SHAPE_REGEN
 )
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSDHashNumber
-)
 js_HashScopeProperty
 (
 JSDHashTable
@@ -2118,10 +2116,8 @@ shortid
 ashortid
 )
 )
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 js_MatchScopeProperty
 (
 JSDHashTable
@@ -7242,10 +7238,8 @@ nkids
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSDHashOperator
-)
 js_MeterPropertyTree
 (
 JSDHashTable

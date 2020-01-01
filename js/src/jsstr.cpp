@@ -12145,10 +12145,8 @@ js_str_fromCharCode
 JS_FS_END
 }
 ;
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSHashNumber
-)
 js_hash_string_pointer
 (
 const

@@ -6,7 +6,6 @@ jsd
 h
 "
 JSTrapStatus
-JS_DLL_CALLBACK
 jsd_InterruptHandler
 (
 JSContext
@@ -162,7 +161,6 @@ rval
 ;
 }
 JSTrapStatus
-JS_DLL_CALLBACK
 jsd_DebuggerHandler
 (
 JSContext
@@ -297,7 +295,6 @@ rval
 ;
 }
 JSTrapStatus
-JS_DLL_CALLBACK
 jsd_ThrowHandler
 (
 JSContext

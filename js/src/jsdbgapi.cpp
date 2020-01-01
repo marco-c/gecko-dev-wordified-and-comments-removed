@@ -2560,7 +2560,6 @@ setter
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 js_watch_set
 (
 JSContext
@@ -3334,7 +3333,6 @@ JS_TRUE
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 js_watch_set_wrapper
 (
 JSContext

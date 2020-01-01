@@ -32,10 +32,8 @@ obj
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 XPC_PP_GetProperty
 (
 JSContext
@@ -115,10 +113,8 @@ vp
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 XPC_PP_SetProperty
 (
 JSContext
@@ -274,10 +270,8 @@ return
 JS_FALSE
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 XPC_PP_Finalize
 (
 JSContext
@@ -296,10 +290,8 @@ obj
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 XPC_PP_Trace
 (
 JSTracer

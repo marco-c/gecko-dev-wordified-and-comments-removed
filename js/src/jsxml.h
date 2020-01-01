@@ -79,7 +79,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSIdentityOp
 )
 (

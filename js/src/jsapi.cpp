@@ -19667,10 +19667,8 @@ js_FunctionClass
 ;
 }
 JS_BEGIN_EXTERN_C
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 js_generic_fast_native_method_dispatcher
 (
 JSContext
@@ -19842,10 +19840,8 @@ vp
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 js_generic_native_method_dispatcher
 (
 JSContext

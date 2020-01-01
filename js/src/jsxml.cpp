@@ -29381,10 +29381,8 @@ JSTRACE_OBJECT
 }
 }
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 trace_temp_ns_array
 (
 JSTracer

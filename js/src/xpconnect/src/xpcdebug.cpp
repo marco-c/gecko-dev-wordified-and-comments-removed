@@ -1414,10 +1414,8 @@ return
 JS_TRUE
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 xpcDumpEvalErrorReporter
 (
 JSContext
@@ -1692,7 +1690,6 @@ JS_TRUE
 ;
 }
 JSTrapStatus
-JS_DLL_CALLBACK
 xpc_DebuggerKeywordHandler
 (
 JSContext

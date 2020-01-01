@@ -1762,10 +1762,8 @@ local_time
 #
 ifdef
 NS_HAVE_INVALID_PARAMETER_HANDLER
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 PRMJ_InvalidParameterHandler
 (
 const

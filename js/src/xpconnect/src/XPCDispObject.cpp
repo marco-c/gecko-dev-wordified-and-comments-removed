@@ -1919,7 +1919,6 @@ JS_FALSE
 \
 PR_END_MACRO
 JSBool
-JS_DLL_CALLBACK
 XPC_IDispatch_CallMethod
 (
 JSContext
@@ -2070,7 +2069,6 @@ CALL_METHOD
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 XPC_IDispatch_GetterSetter
 (
 JSContext

@@ -402,10 +402,8 @@ nsJSUtils
 .
 h
 "
-JS_STATIC_DLL_CALLBACK
-(
+static
 void
-)
 XBLFinalize
 (
 JSContext
@@ -467,10 +465,8 @@ Drop
 )
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 XBLResolve
 (
 JSContext

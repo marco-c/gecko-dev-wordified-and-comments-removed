@@ -124,7 +124,6 @@ the_global_js_obj
 }
 static
 JSBool
-JS_DLL_CALLBACK
 default_create_java_vm
 (
 SystemJavaVM
@@ -296,7 +295,6 @@ err
 }
 static
 JSBool
-JS_DLL_CALLBACK
 default_destroy_java_vm
 (
 SystemJavaVM
@@ -341,7 +339,6 @@ err
 static
 JNIEnv
 *
-JS_DLL_CALLBACK
 default_attach_current_thread
 (
 SystemJavaVM
@@ -385,7 +382,6 @@ env
 }
 static
 JSBool
-JS_DLL_CALLBACK
 default_detach_current_thread
 (
 SystemJavaVM
@@ -430,7 +426,6 @@ err
 static
 SystemJavaVM
 *
-JS_DLL_CALLBACK
 default_get_java_vm
 (
 JNIEnv

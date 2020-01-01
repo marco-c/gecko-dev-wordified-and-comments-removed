@@ -926,7 +926,6 @@ data
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 DOMOperationCallback
 (
 JSContext
@@ -1116,7 +1115,6 @@ aRuntime
 )
 ;
 void
-JS_DLL_CALLBACK
 NS_ScriptErrorReporter
 (
 JSContext

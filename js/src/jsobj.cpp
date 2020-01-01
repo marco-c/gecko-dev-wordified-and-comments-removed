@@ -1228,10 +1228,8 @@ return
 JS_TRUE
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSHashNumber
-)
 js_hash_object
 (
 const
@@ -2369,10 +2367,8 @@ NULL
 }
 }
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 intN
-)
 gc_sharp_table_entry_marker
 (
 JSHashEntry
@@ -11819,11 +11815,9 @@ NULL
 ;
 }
 JS_BEGIN_EXTERN_C
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSObject
 *
-)
 js_InitNullClass
 (
 JSContext

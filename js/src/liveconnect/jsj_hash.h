@@ -48,7 +48,6 @@ typedef
 JSJHashNumber
 (
 *
-JS_DLL_CALLBACK
 JSJHashFunction
 )
 (
@@ -65,7 +64,6 @@ typedef
 JSIntn
 (
 *
-JS_DLL_CALLBACK
 JSJHashComparator
 )
 (
@@ -86,7 +84,6 @@ typedef
 JSIntn
 (
 *
-JS_DLL_CALLBACK
 JSJHashEnumerator
 )
 (

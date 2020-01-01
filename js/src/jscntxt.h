@@ -530,7 +530,6 @@ scriptsToGC
 )
 extern
 void
-JS_DLL_CALLBACK
 js_ThreadDestructorCB
 (
 void
@@ -2489,7 +2488,6 @@ js_InitThreadPrivateIndex
 (
 void
 (
-JS_DLL_CALLBACK
 *
 ptr
 )

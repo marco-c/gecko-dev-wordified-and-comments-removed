@@ -330,7 +330,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSPropertyOp
 )
 (
@@ -351,7 +350,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSNewEnumerateOp
 )
 (
@@ -375,7 +373,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSEnumerateOp
 )
 (
@@ -391,7 +388,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSResolveOp
 )
 (
@@ -409,7 +405,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSNewResolveOp
 )
 (
@@ -433,7 +428,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSConvertOp
 )
 (
@@ -454,7 +448,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSFinalizeOp
 )
 (
@@ -470,7 +463,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSStringFinalizeOp
 )
 (
@@ -487,7 +479,6 @@ JSObjectOps
 *
 (
 *
-JS_DLL_CALLBACK
 JSGetObjectOps
 )
 (
@@ -503,7 +494,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSCheckAccessOp
 )
 (
@@ -526,7 +516,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSXDRObjectOp
 )
 (
@@ -543,7 +532,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSHasInstanceOp
 )
 (
@@ -564,7 +552,6 @@ typedef
 uint32
 (
 *
-JS_DLL_CALLBACK
 JSMarkOp
 )
 (
@@ -583,7 +570,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSTraceOp
 )
 (
@@ -667,7 +653,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSTraceCallback
 )
 (
@@ -688,7 +673,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSTraceNamePrinter
 )
 (
@@ -708,7 +692,6 @@ typedef
 uint32
 (
 *
-JS_DLL_CALLBACK
 JSReserveSlotsOp
 )
 (
@@ -725,7 +708,6 @@ JSObjectMap
 *
 (
 *
-JS_DLL_CALLBACK
 JSNewObjectMapOp
 )
 (
@@ -749,7 +731,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSObjectMapOp
 )
 (
@@ -765,7 +746,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSLookupPropOp
 )
 (
@@ -791,7 +771,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSDefinePropOp
 )
 (
@@ -821,7 +800,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSPropertyIdOp
 )
 (
@@ -842,7 +820,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSAttributesOp
 )
 (
@@ -866,7 +843,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSCheckAccessIdOp
 )
 (
@@ -893,7 +869,6 @@ JSObject
 *
 (
 *
-JS_DLL_CALLBACK
 JSObjectOp
 )
 (
@@ -910,7 +885,6 @@ JSObject
 *
 (
 *
-JS_DLL_CALLBACK
 JSIteratorOp
 )
 (
@@ -928,7 +902,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSPropertyRefOp
 )
 (
@@ -947,7 +920,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSSetObjectSlotOp
 )
 (
@@ -968,7 +940,6 @@ typedef
 jsval
 (
 *
-JS_DLL_CALLBACK
 JSGetRequiredSlotOp
 )
 (
@@ -986,7 +957,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSSetRequiredSlotOp
 )
 (
@@ -1007,7 +977,6 @@ JSObject
 *
 (
 *
-JS_DLL_CALLBACK
 JSGetMethodOp
 )
 (
@@ -1028,7 +997,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSSetMethodOp
 )
 (
@@ -1049,7 +1017,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSEnumerateValuesOp
 )
 (
@@ -1076,7 +1043,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSEqualityOp
 )
 (
@@ -1097,7 +1063,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSConcatenateOp
 )
 (
@@ -1118,7 +1083,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSNative
 )
 (
@@ -1142,7 +1106,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSFastNative
 )
 (
@@ -1169,7 +1132,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSContextCallback
 )
 (
@@ -1195,7 +1157,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSGCCallback
 )
 (
@@ -1210,7 +1171,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSTraceDataOp
 )
 (
@@ -1226,7 +1186,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSOperationCallback
 )
 (
@@ -1239,7 +1198,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSBranchCallback
 )
 (
@@ -1255,7 +1213,6 @@ typedef
 void
 (
 *
-JS_DLL_CALLBACK
 JSErrorReporter
 )
 (
@@ -1315,7 +1272,6 @@ JSErrorFormatString
 *
 (
 *
-JS_DLL_CALLBACK
 JSErrorCallback
 )
 (
@@ -1342,7 +1298,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSArgumentFormatter
 )
 (
@@ -1370,7 +1325,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSLocaleToUpperCase
 )
 (
@@ -1389,7 +1343,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSLocaleToLowerCase
 )
 (
@@ -1408,7 +1361,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSLocaleCompare
 )
 (
@@ -1430,7 +1382,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSLocaleToUnicode
 )
 (
@@ -1454,7 +1405,6 @@ typedef
 JSBool
 (
 *
-JS_DLL_CALLBACK
 JSPrincipalsTranscoder
 )
 (
@@ -1472,7 +1422,6 @@ JSPrincipals
 *
 (
 *
-JS_DLL_CALLBACK
 JSObjectPrincipalsFinder
 )
 (

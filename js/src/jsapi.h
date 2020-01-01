@@ -3174,7 +3174,6 @@ typedef
 intN
 (
 *
-JS_DLL_CALLBACK
 JSGCRootMapFun
 )
 (
@@ -6585,7 +6584,6 @@ void
 *
 (
 *
-JS_DLL_CALLBACK
 getPrincipalArray
 )
 (
@@ -6599,7 +6597,6 @@ JSPrincipals
 JSBool
 (
 *
-JS_DLL_CALLBACK
 globalPrivilegesEnabled
 )
 (
@@ -6616,7 +6613,6 @@ refcount
 void
 (
 *
-JS_DLL_CALLBACK
 destroy
 )
 (
@@ -6630,7 +6626,6 @@ JSPrincipals
 JSBool
 (
 *
-JS_DLL_CALLBACK
 subsume
 )
 (

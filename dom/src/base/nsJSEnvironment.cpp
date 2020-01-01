@@ -1426,7 +1426,6 @@ called
 ;
 }
 void
-JS_DLL_CALLBACK
 NS_ScriptErrorReporter
 (
 JSContext
@@ -2356,10 +2355,8 @@ n
 #
 endif
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSBool
-)
 LocaleToUnicode
 (
 JSContext
@@ -2818,7 +2815,6 @@ JS_TRUE
 }
 static
 JSBool
-JS_DLL_CALLBACK
 LocaleToUpperCase
 (
 JSContext
@@ -2844,7 +2840,6 @@ ToUpperCase
 }
 static
 JSBool
-JS_DLL_CALLBACK
 LocaleToLowerCase
 (
 JSContext
@@ -2870,7 +2865,6 @@ ToLowerCase
 }
 static
 JSBool
-JS_DLL_CALLBACK
 LocaleCompare
 (
 JSContext
@@ -3606,7 +3600,6 @@ prompt
 ;
 }
 JSBool
-JS_DLL_CALLBACK
 nsJSContext
 :
 :
@@ -11721,7 +11714,6 @@ JSPROP_PERMANENT
 ;
 static
 JSBool
-JS_DLL_CALLBACK
 GetOptionsProperty
 (
 JSContext
@@ -11800,7 +11792,6 @@ JS_TRUE
 }
 static
 JSBool
-JS_DLL_CALLBACK
 SetOptionsProperty
 (
 JSContext
@@ -14401,7 +14392,6 @@ PR_FALSE
 }
 static
 JSBool
-JS_DLL_CALLBACK
 DOMGCCallback
 (
 JSContext
@@ -15087,11 +15077,9 @@ return
 0
 ;
 }
-JS_STATIC_DLL_CALLBACK
-(
+static
 JSPrincipals
 *
-)
 ObjectPrincipalFinder
 (
 JSContext
