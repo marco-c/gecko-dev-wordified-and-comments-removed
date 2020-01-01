@@ -1040,6 +1040,9 @@ p
 )
 const
 {
+#
+ifdef
+JS_ALIGN_OF_POINTER
 JS_ASSERT
 (
 (
@@ -1057,6 +1060,8 @@ headerBaseMask
 0
 )
 ;
+#
+endif
 return
 (
 JSArena
