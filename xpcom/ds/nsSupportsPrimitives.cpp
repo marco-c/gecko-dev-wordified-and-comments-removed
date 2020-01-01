@@ -519,7 +519,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsSupportsPRBoolImpl
 nsISupportsPRBool
@@ -2709,7 +2709,7 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsSupportsVoidImpl
 nsISupportsVoid
@@ -2874,7 +2874,7 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsSupportsInterfacePointerImpl
 nsISupportsInterfacePointer

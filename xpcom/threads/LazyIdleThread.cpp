@@ -1416,7 +1416,7 @@ delete
 this
 ;
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 LazyIdleThread
 )
@@ -1434,10 +1434,9 @@ Release
 nsrefcnt
 count
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (
@@ -1520,7 +1519,7 @@ return
 count
 ;
 }
-NS_IMPL_THREADSAFE_QUERY_INTERFACE5
+NS_IMPL_QUERY_INTERFACE5
 (
 LazyIdleThread
 nsIThread

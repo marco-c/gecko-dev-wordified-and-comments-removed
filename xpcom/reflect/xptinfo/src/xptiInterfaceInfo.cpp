@@ -2322,10 +2322,9 @@ void
 nsrefcnt
 cnt
 =
-NS_AtomicIncrementRefcnt
-(
++
++
 mRefCnt
-)
 ;
 NS_LOG_ADDREF
 (
@@ -2363,10 +2362,9 @@ mEntry
 nsrefcnt
 cnt
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (

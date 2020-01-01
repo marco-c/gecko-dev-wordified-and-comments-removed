@@ -328,7 +328,7 @@ nsIFactory
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 Factory
 (
 )
@@ -371,7 +371,7 @@ mFirstComponentCreated
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 Factory
 nsIFactory
@@ -385,7 +385,7 @@ nsISupports
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 Component1
 (
 )
@@ -417,11 +417,11 @@ created
 }
 }
 ;
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 Component1
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 Component1
 )
@@ -447,7 +447,7 @@ nsISupports
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 Component2
 (
 )
@@ -479,11 +479,11 @@ created
 }
 }
 ;
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 Component2
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 Component2
 )

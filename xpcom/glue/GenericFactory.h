@@ -41,7 +41,7 @@ Module
 ConstructorProcPtr
 ConstructorProcPtr
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIFACTORY
 GenericFactory
 (

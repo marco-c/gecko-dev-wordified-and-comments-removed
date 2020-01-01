@@ -55,7 +55,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_IMETHOD
 Run
 (
@@ -159,7 +159,7 @@ mNum
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsRunner
 nsIRunnable
@@ -322,7 +322,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_IMETHOD
 Run
 (
@@ -449,7 +449,7 @@ gNum
 =
 0
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsStressRunner
 nsIRunnable

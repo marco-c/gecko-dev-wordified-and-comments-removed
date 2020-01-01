@@ -718,12 +718,12 @@ entry
 ;
 }
 }
-NS_IMPL_THREADSAFE_QUERY_INTERFACE1
+NS_IMPL_QUERY_INTERFACE1
 (
 nsTimerImpl
 nsITimer
 )
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsTimerImpl
 )
@@ -758,10 +758,9 @@ release
 ;
 count
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (

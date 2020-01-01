@@ -3655,7 +3655,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS4
+NS_IMPL_ISUPPORTS4
 (
 nsLocalFile
 nsILocalFile

@@ -5,7 +5,7 @@ nsAtomService
 .
 h
 "
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsAtomService
 nsIAtomService

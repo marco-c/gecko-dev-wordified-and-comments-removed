@@ -471,7 +471,7 @@ MapsReporter
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_IMETHOD
 GetName
 (
@@ -586,7 +586,7 @@ mMozillaLibraries
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 MapsReporter
 nsIMemoryMultiReporter
