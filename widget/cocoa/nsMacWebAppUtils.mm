@@ -375,7 +375,10 @@ Length
 ]
 options
 :
-nil
+(
+NSWorkspaceLaunchOptions
+)
+0
 additionalEventParamDescriptor
 :
 nil
