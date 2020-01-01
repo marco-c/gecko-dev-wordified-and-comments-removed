@@ -225,7 +225,8 @@ AudioBuffer
 ?
 buffer
 ;
-readonly
+/
+/
 attribute
 AudioParam
 playbackRate
