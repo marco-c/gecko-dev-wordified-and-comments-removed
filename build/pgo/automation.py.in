@@ -1306,6 +1306,16 @@ cmd
 env
 =
 env
+stdout
+=
+subprocess
+.
+PIPE
+stderr
+=
+subprocess
+.
+STDOUT
 )
 self
 .
