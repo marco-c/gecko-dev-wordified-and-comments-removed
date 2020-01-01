@@ -3796,6 +3796,10 @@ void
 *
 content
 ;
+uint8_t
+*
+data
+;
 if
 (
 !
@@ -3807,6 +3811,8 @@ context
 obj
 &
 content
+&
+data
 )
 )
 return
