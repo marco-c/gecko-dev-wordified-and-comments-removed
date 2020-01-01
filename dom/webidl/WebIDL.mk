@@ -759,6 +759,10 @@ SVGDescElement
 .
 webidl
 \
+SVGDocument
+.
+webidl
+\
 SVGElement
 .
 webidl
