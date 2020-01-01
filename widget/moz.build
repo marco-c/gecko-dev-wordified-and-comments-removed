@@ -456,6 +456,11 @@ nsIClipboardOwner
 idl
 '
 '
+nsIColorPicker
+.
+idl
+'
+'
 nsIDragService
 .
 idl
