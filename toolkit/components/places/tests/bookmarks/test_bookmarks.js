@@ -448,15 +448,6 @@ bookmarksRoot
 0
 )
 ;
-do_check_true
-(
-bmsvc
-.
-toolbarFolder
->
-0
-)
-;
 var
 testRoot
 =
