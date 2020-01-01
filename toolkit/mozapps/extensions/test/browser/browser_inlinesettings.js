@@ -21,7 +21,7 @@ MockFilePicker
 ;
 MockFilePicker
 .
-reset
+init
 (
 )
 ;
@@ -583,7 +583,7 @@ menulist
 ;
 MockFilePicker
 .
-reset
+cleanup
 (
 )
 ;

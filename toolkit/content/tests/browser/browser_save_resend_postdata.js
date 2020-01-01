@@ -7,7 +7,7 @@ MockFilePicker
 ;
 MockFilePicker
 .
-reset
+init
 (
 )
 ;
@@ -303,7 +303,7 @@ unregister
 ;
 MockFilePicker
 .
-reset
+cleanup
 (
 )
 ;

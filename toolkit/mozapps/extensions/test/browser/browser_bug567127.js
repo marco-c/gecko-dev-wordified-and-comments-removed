@@ -7,7 +7,7 @@ MockFilePicker
 ;
 MockFilePicker
 .
-reset
+init
 (
 )
 ;
@@ -590,7 +590,7 @@ notification
 ;
 MockFilePicker
 .
-reset
+cleanup
 (
 )
 ;
