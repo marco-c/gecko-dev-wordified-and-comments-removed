@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "
@@ -472,7 +476,7 @@ aGlobal
 const
 Optional
 <
-nsHTMLFormElement
+HTMLFormElement
 *
 >
 &

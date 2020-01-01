@@ -37,7 +37,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "

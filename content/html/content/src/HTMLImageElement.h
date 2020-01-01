@@ -877,7 +877,7 @@ aNotify
 )
 MOZ_OVERRIDE
 ;
-nsHTMLFormElement
+HTMLFormElement
 *
 mForm
 ;

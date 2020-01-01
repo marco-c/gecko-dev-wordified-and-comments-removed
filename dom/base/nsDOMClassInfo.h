@@ -2318,14 +2318,14 @@ vp
 }
 ;
 class
-nsHTMLFormElementSH
+HTMLFormElementSH
 :
 public
 nsElementSH
 {
 protected
 :
-nsHTMLFormElementSH
+HTMLFormElementSH
 (
 nsDOMClassInfoData
 *
@@ -2340,7 +2340,7 @@ aData
 }
 virtual
 ~
-nsHTMLFormElementSH
+HTMLFormElementSH
 (
 )
 {
@@ -2434,7 +2434,7 @@ aData
 {
 return
 new
-nsHTMLFormElementSH
+HTMLFormElementSH
 (
 aData
 )

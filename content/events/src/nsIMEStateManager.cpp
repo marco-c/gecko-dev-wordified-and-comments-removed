@@ -192,7 +192,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "
@@ -2119,7 +2123,10 @@ IsHTML
 &
 static_cast
 <
-nsHTMLFormElement
+dom
+:
+:
+HTMLFormElement
 *
 >
 (

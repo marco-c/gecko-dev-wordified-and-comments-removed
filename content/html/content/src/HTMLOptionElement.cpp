@@ -270,7 +270,13 @@ return
 NS_OK
 ;
 }
-nsHTMLFormElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLFormElement
 *
 HTMLOptionElement
 :

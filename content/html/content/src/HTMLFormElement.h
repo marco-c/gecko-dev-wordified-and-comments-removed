@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTMLFormElement_h__
+mozilla_dom_HTMLFormElement_h
 #
 define
-nsHTMLFormElement_h__
+mozilla_dom_HTMLFormElement_h
 #
 include
 "
@@ -118,9 +118,6 @@ endif
 #
 endif
 class
-nsFormControlList
-;
-class
 nsIMutableArray
 ;
 class
@@ -137,8 +134,17 @@ HTMLImageElement
 ;
 }
 }
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
-nsHTMLFormElement
+nsFormControlList
+;
+class
+HTMLFormElement
 :
 public
 nsGenericHTMLElement
@@ -153,7 +159,7 @@ nsIRadioGroupContainer
 {
 public
 :
-nsHTMLFormElement
+HTMLFormElement
 (
 already_AddRefed
 <
@@ -164,7 +170,7 @@ aNodeInfo
 ;
 virtual
 ~
-nsHTMLFormElement
+HTMLFormElement
 (
 )
 ;
@@ -538,7 +544,7 @@ MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-nsHTMLFormElement
+HTMLFormElement
 nsGenericHTMLElement
 )
 nsresult
@@ -795,7 +801,7 @@ public
 :
 FormPasswordEvent
 (
-nsHTMLFormElement
+HTMLFormElement
 *
 aEventNode
 const
@@ -821,7 +827,7 @@ MOZ_OVERRIDE
 {
 static_cast
 <
-nsHTMLFormElement
+HTMLFormElement
 *
 >
 (
@@ -871,7 +877,7 @@ public
 :
 RemoveElementRunnable
 (
-nsHTMLFormElement
+HTMLFormElement
 *
 aForm
 )
@@ -903,7 +909,7 @@ private
 :
 nsRefPtr
 <
-nsHTMLFormElement
+HTMLFormElement
 >
 mForm
 ;
@@ -1154,5 +1160,7 @@ gPasswordManagerInitialized
 ;
 }
 ;
+}
+}
 #
 endif

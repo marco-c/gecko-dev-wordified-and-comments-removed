@@ -570,7 +570,7 @@ rv
 }
 already_AddRefed
 <
-nsHTMLFormElement
+HTMLFormElement
 >
 HTMLLegendElement
 :
@@ -604,13 +604,13 @@ form
 ;
 nsRefPtr
 <
-nsHTMLFormElement
+HTMLFormElement
 >
 ret
 =
 static_cast
 <
-nsHTMLFormElement
+HTMLFormElement
 *
 >
 (

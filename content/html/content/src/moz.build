@@ -182,6 +182,11 @@ HTMLFontElement
 h
 '
 '
+HTMLFormElement
+.
+h
+'
+'
 HTMLFrameElement
 .
 h
@@ -787,7 +792,7 @@ nsHTMLDNSPrefetch
 cpp
 '
 '
-nsHTMLFormElement
+HTMLFormElement
 .
 cpp
 '

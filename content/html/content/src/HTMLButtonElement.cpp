@@ -184,7 +184,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "
@@ -1598,7 +1602,7 @@ CheckValidFormSubmission
 {
 nsRefPtr
 <
-nsHTMLFormElement
+HTMLFormElement
 >
 form
 (

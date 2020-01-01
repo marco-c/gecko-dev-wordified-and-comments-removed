@@ -30,7 +30,11 @@ h
 #
 include
 "
-nsHTMLFormElement
+mozilla
+/
+dom
+/
+HTMLFormElement
 .
 h
 "
@@ -295,7 +299,7 @@ this
 }
 already_AddRefed
 <
-nsHTMLFormElement
+HTMLFormElement
 >
 GetForm
 (
