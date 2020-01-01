@@ -131,6 +131,12 @@ aDescription
 endif
 protected
 :
+virtual
+void
+CacheChildren
+(
+)
+;
 nsresult
 GetTableNode
 (
@@ -169,6 +175,9 @@ char
 *
 aTagName
 )
+;
+PRBool
+mHasCaption
 ;
 #
 ifdef
