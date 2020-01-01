@@ -18,13 +18,6 @@ peer_connection_types
 .
 h
 "
-#
-include
-"
-fsmdef_states
-.
-h
-"
 cc_lineid_t
 CCAPI_CallInfo_getLine
 (
@@ -34,13 +27,6 @@ handle
 ;
 cc_call_state_t
 CCAPI_CallInfo_getCallState
-(
-cc_callinfo_ref_t
-handle
-)
-;
-fsmdef_states_t
-CCAPI_CallInfo_getFsmState
 (
 cc_callinfo_ref_t
 handle
