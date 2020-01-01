@@ -1037,6 +1037,10 @@ test_source_write
 .
 html
 \
+test_source_null
+.
+html
+\
 test_standalone
 .
 html

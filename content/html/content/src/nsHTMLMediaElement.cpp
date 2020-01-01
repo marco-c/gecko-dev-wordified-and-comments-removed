@@ -1779,9 +1779,10 @@ aParams
 {
 if
 (
-JSVAL_IS_OBJECT
-(
 aParams
+.
+isObject
+(
 )
 )
 {
