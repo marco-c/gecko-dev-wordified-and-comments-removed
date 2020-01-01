@@ -7,7 +7,7 @@ nsDOMString_h___
 #
 include
 "
-nsAString
+nsStringGlue
 .
 h
 "
