@@ -46,13 +46,6 @@ nsWeakReference
 .
 h
 "
-#
-include
-"
-nsCycleCollectionParticipant
-.
-h
-"
 class
 nsPIDOMWindow
 ;

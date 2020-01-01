@@ -48,14 +48,7 @@ h
 #
 include
 "
-nsIDOMNavigatorUserMedia
-.
-h
-"
-#
-include
-"
-nsITimer
+MediaManager
 .
 h
 "

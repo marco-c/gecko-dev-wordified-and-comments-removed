@@ -164,13 +164,6 @@ h
 #
 include
 "
-nsIPermissionManager
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h
