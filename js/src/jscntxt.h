@@ -416,6 +416,9 @@ uint32
 gcMaxMallocBytes
 ;
 uint32
+gcStackPoolLifespan
+;
+uint32
 gcLevel
 ;
 uint32
