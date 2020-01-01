@@ -72369,11 +72369,9 @@ if
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 -
 >
 isEmpty

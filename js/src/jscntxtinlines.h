@@ -3100,17 +3100,6 @@ script
 if
 (
 script
-&
-&
-script
-!
-=
-JSScript
-:
-:
-emptyScript
-(
-)
 )
 {
 check
