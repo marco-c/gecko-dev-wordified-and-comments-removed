@@ -1145,6 +1145,16 @@ LogControl
 public
 :
 virtual
+~
+LogControl
+(
+)
+{
+}
+#
+ifdef
+NJ_VERBOSE
+virtual
 void
 printf
 (
@@ -1162,6 +1172,8 @@ PRINTF_CHECK
 3
 )
 ;
+#
+endif
 uint32_t
 lcbits
 ;
