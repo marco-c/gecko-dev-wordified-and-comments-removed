@@ -515,6 +515,10 @@ TestPipe
 .
 cpp
 \
+TestPipes
+.
+cpp
+\
 TestRacingServiceManager
 .
 cpp
@@ -573,10 +577,6 @@ TestEncoding
 cpp
 \
 TestPermanentAtoms
-.
-cpp
-\
-TestPipes
 .
 cpp
 \
