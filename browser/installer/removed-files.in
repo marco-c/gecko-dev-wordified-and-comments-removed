@@ -5023,14 +5023,10 @@ mozcrt19
 dll
 #
 endif
-xpicleanup
-.
-exe
-#
-else
-xpicleanup
 #
 endif
+xpicleanup
+BIN_SUFFIX
 chrome
 .
 manifest
