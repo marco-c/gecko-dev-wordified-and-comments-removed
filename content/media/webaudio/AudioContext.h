@@ -675,6 +675,12 @@ UpdatePannerSource
 (
 )
 ;
+uint32_t
+MaxChannelCount
+(
+)
+const
+;
 JSContext
 *
 GetJSContext
@@ -757,6 +763,9 @@ ScriptProcessorNode
 >
 >
 mScriptProcessorNodes
+;
+uint32_t
+mNumberOfChannels
 ;
 bool
 mIsOffline
