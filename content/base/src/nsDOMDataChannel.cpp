@@ -82,6 +82,13 @@ h
 #
 include
 "
+nsIDOMRTCPeerConnection
+.
+h
+"
+#
+include
+"
 nsIDOMMessageEvent
 .
 h
@@ -377,6 +384,11 @@ DOMCI_DATA
 (
 DataChannel
 nsDOMDataChannel
+)
+DOMCI_DATA
+(
+RTCPeerConnection
+nsIDOMRTCPeerConnection
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (

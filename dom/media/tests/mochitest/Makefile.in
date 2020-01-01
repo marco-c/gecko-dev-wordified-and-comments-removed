@@ -153,6 +153,10 @@ test_peerConnection_basicVideo
 .
 html
 \
+test_peerConnection_bug822674
+.
+html
+\
 test_peerConnection_bug827843
 .
 html
