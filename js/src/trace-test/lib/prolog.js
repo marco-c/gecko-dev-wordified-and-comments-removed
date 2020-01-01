@@ -45,6 +45,8 @@ function
 stats
 )
 {
+return
+;
 function
 jit
 (

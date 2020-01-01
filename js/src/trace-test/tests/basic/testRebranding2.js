@@ -63,16 +63,6 @@ g
 h
 ]
 ;
-assertEq
-(
-arr
-.
-length
->
-RUNLOOP
-true
-)
-;
 for
 (
 var
