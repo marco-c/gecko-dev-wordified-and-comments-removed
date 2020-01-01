@@ -1324,6 +1324,10 @@ WebGLUniformLocation
 )
 DOMCI_CLASS
 (
+WebGLActiveInfo
+)
+DOMCI_CLASS
+(
 PaintRequest
 )
 DOMCI_CLASS

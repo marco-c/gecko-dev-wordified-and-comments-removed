@@ -39568,6 +39568,7 @@ MOZ_WIDGET_TOOLKIT
 android
 MOZ_WEBGL
 =
+1
 ;
 ;
 esac

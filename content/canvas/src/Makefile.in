@@ -511,10 +511,6 @@ WebGLContextValidate
 .
 cpp
 \
-NativeJSContext
-.
-cpp
-\
 (
 NULL
 )

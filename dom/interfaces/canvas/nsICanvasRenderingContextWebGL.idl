@@ -4393,7 +4393,7 @@ DOMString
 name
 )
 ;
-void
+nsIVariant
 getVertexAttrib
 (
 in
