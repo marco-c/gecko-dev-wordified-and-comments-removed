@@ -1420,6 +1420,11 @@ doStop
 (
 )
 ;
+setProgressVisibility
+(
+false
+)
+;
 }
 }
 )
