@@ -22079,7 +22079,11 @@ metadata
 defaultZoom
 |
 |
-0
+this
+.
+metadata
+.
+scaleRatio
 minZoom
 :
 this
