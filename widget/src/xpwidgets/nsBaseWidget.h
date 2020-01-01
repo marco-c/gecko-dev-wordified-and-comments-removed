@@ -549,6 +549,16 @@ nsAString
 anIconSpec
 )
 ;
+NS_IMETHOD
+BeginSecureKeyboardInput
+(
+)
+;
+NS_IMETHOD
+EndSecureKeyboardInput
+(
+)
+;
 virtual
 void
 ConvertToDeviceCoordinates

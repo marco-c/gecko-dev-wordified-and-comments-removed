@@ -656,6 +656,16 @@ ShutDown
 (
 )
 ;
+nsresult
+MaybeBeginSecureKeyboardInput
+(
+)
+;
+void
+MaybeEndSecureKeyboardInput
+(
+)
+;
 protected
 :
 PRBool
@@ -800,6 +810,9 @@ mDidPreDestroy
 ;
 PRPackedBool
 mFireChangeEventState
+;
+PRPackedBool
+mInSecureKeyboardInputMode
 ;
 nsCOMPtr
 <

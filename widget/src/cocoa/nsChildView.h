@@ -1130,6 +1130,16 @@ GetThebesSurface
 (
 )
 ;
+NS_IMETHOD
+BeginSecureKeyboardInput
+(
+)
+;
+NS_IMETHOD
+EndSecureKeyboardInput
+(
+)
+;
 protected
 :
 PRBool
