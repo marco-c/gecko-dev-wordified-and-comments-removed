@@ -30,6 +30,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 nsOfflineCacheUpdate
 .
 h
@@ -519,6 +528,9 @@ GetByteProgress
 byteProgress
 )
 ;
+unused
+<
+<
 SendNotifyStateEvent
 (
 state
@@ -560,6 +572,9 @@ GetSucceeded
 succeeded
 )
 ;
+unused
+<
+<
 SendFinish
 (
 succeeded
@@ -616,6 +631,9 @@ GetGroupID
 cacheGroupId
 )
 ;
+unused
+<
+<
 SendAssociateDocuments
 (
 cacheGroupId
