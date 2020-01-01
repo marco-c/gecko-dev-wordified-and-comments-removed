@@ -9356,6 +9356,13 @@ ComboboxDisplayFrame
 )
 GK_ATOM
 (
+deckFrame
+"
+DeckFrame
+"
+)
+GK_ATOM
+(
 directionalFrame
 "
 DirectionalFrame
