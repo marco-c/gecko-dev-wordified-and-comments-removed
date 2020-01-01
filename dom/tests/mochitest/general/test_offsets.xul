@@ -365,12 +365,12 @@ green
 maxwidth
 =
 "
-60
+66
 "
 maxheight
 =
 "
-50
+56
 "
 >
 <
@@ -455,7 +455,7 @@ border
 vbox
 >
 <
-scrollbar
+vbox
 id
 =
 "
@@ -463,6 +463,9 @@ scrollbox
 -
 test
 "
+>
+<
+scrollbar
 orient
 =
 "
@@ -482,8 +485,13 @@ border
 padding
 :
 0
+;
 "
 /
+>
+<
+/
+vbox
 >
 <
 /
