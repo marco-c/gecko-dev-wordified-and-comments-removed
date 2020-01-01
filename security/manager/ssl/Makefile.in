@@ -418,6 +418,9 @@ DIRS
 resources
 src
 public
+XPCSHELL_TESTS
+=
+tests
 include
 (
 topsrcdir
