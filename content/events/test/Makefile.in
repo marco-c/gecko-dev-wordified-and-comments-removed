@@ -456,6 +456,10 @@ test_bug812744
 .
 html
 \
+test_addEventListenerExtraArg
+.
+html
+\
 (
 NULL
 )
