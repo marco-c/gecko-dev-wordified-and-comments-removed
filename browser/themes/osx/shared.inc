@@ -60,9 +60,6 @@ b5b5b5
 ;
 background
 :
--
-moz
--
 linear
 -
 gradient
