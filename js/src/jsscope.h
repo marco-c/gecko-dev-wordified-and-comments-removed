@@ -211,7 +211,13 @@ PropertyTable
 (
 )
 {
-js_free
+js
+:
+:
+UnwantedForeground
+:
+:
+free
 (
 entries
 )

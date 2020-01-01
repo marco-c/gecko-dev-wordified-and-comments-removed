@@ -64,7 +64,10 @@ T
 ptr
 )
 {
-js_delete
+UnwantedForeground
+:
+:
+delete_
 (
 ptr
 )
@@ -91,7 +94,10 @@ T
 ptr
 )
 {
-js_array_delete
+UnwantedForeground
+:
+:
+array_delete
 (
 ptr
 )

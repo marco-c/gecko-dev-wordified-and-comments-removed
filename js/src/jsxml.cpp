@@ -4099,7 +4099,10 @@ vector
 )
 ;
 else
-js_free
+Foreground
+:
+:
+free
 (
 vector
 )
@@ -4154,7 +4157,10 @@ void
 *
 *
 )
-js_realloc
+OffTheBooks
+:
+:
+realloc
 (
 vector
 newCapacity
@@ -4534,7 +4540,10 @@ void
 *
 *
 )
-js_realloc
+cx
+-
+>
+realloc
 (
 array
 -
@@ -5008,7 +5017,10 @@ void
 *
 *
 )
-js_realloc
+cx
+-
+>
+realloc
 (
 array
 -
@@ -24219,7 +24231,7 @@ cursor
 cx
 -
 >
-create
+new_
 <
 JSXMLArrayCursor
 >
@@ -24377,7 +24389,7 @@ cursor
 cx
 -
 >
-destroy
+delete_
 (
 cursor
 )
@@ -38267,7 +38279,7 @@ return
 cx
 -
 >
-destroy
+delete_
 (
 filter
 )
@@ -38518,7 +38530,7 @@ filter
 cx
 -
 >
-create
+new_
 <
 JSXMLFilter
 >

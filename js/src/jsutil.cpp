@@ -1501,7 +1501,10 @@ site
 JSCallsite
 *
 )
-js_malloc
+OffTheBooks
+:
+:
+malloc
 (
 sizeof
 (

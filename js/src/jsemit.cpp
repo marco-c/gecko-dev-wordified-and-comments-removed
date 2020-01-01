@@ -10589,7 +10589,10 @@ vector
 UpvarCookie
 *
 )
-js_realloc
+cx
+-
+>
+realloc
 (
 vector
 length

@@ -8883,7 +8883,10 @@ graph
 Edge
 *
 )
-js_calloc
+OffTheBooks
+:
+:
+calloc
 (
 nedges
 *
@@ -9194,7 +9197,10 @@ style
 )
 ;
 }
-js_free
+cx
+-
+>
+free
 (
 graph
 )

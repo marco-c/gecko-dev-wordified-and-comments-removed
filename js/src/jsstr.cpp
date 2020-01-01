@@ -963,7 +963,10 @@ return
 jschar
 *
 )
-js_malloc
+OffTheBooks
+:
+:
+malloc
 (
 bytes
 )
@@ -16548,7 +16551,10 @@ if
 retstr
 )
 {
-js_free
+Foreground
+:
+:
+free
 (
 (
 char
@@ -22095,7 +22101,10 @@ nbytes
 1
 )
 :
-js_malloc
+OffTheBooks
+:
+:
+malloc
 (
 nbytes
 +
@@ -22159,7 +22168,10 @@ nbytes
 1
 )
 :
-js_malloc
+OffTheBooks
+:
+:
+malloc
 (
 nbytes
 +

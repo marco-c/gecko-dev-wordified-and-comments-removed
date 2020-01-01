@@ -172,10 +172,7 @@ getPrivate
 cx
 -
 >
-destroy
-<
-RegExpStatics
->
+delete_
 (
 res
 )

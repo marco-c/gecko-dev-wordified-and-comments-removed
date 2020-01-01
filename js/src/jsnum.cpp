@@ -3036,7 +3036,10 @@ if
 (
 dbuf
 )
-js_free
+UnwantedForeground
+:
+:
+free
 (
 dbuf
 )
