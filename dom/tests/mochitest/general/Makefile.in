@@ -82,6 +82,10 @@ mk
 MOCHITEST_FILES
 =
 \
+test__content
+.
+html
+\
 file_MozEnteredDomFullscreen
 .
 html
