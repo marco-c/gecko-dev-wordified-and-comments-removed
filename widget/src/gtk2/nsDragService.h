@@ -269,6 +269,10 @@ GtkWidget
 *
 mHiddenWidget
 ;
+GtkWidget
+*
+mGrabWidget
+;
 nsCOMPtr
 <
 nsISupportsArray
