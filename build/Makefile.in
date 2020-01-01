@@ -444,6 +444,8 @@ DIRS
 +
 =
 pgo
+ifdef
+ENABLE_TESTS
 ifeq
 (
 Android
@@ -487,6 +489,7 @@ fencp
 (
 NULL
 )
+endif
 endif
 include
 (
