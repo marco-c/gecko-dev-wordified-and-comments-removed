@@ -80,7 +80,7 @@ OS_ARCH
 )
 )
 )
-PROGRAM
+program
 =
 (
 MOZ_APP_NAME
@@ -89,7 +89,7 @@ MOZ_APP_NAME
 BIN_SUFFIX
 )
 else
-PROGRAM
+program
 =
 (
 MOZ_APP_NAME
@@ -152,7 +152,7 @@ Contents
 MacOS
 /
 (
-PROGRAM
+program
 )
 else
 browser_path
@@ -164,7 +164,7 @@ TARGET_DIST
 bin
 /
 (
-PROGRAM
+program
 )
 endif
 endif
