@@ -14479,10 +14479,6 @@ identity
 -
 box
 {
-cursor
-:
-help
-;
 background
 -
 color
@@ -14590,10 +14586,6 @@ padding
 margin
 :
 0
-;
-cursor
-:
-inherit
 ;
 }
 .
