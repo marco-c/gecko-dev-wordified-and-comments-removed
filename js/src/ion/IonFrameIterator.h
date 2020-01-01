@@ -1111,6 +1111,7 @@ thisObject
 const
 ;
 InlineFrameIterator
+&
 operator
 +
 +

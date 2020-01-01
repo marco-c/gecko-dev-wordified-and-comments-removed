@@ -4743,7 +4743,7 @@ NULL
 if
 (
 !
-EliminateRedundantBoundsChecks
+EliminateRedundantChecks
 (
 graph
 )
@@ -5737,6 +5737,9 @@ executionMode
 )
 )
 ;
+if
+(
+!
 enterCompiler
 .
 init
@@ -5745,6 +5748,9 @@ script
 false
 0
 )
+)
+return
+false
 ;
 AutoTempAllocatorRooter
 root
