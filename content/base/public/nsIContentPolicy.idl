@@ -891,6 +891,9 @@ for
 document
 .
 load
+and
+for
+EventSource
 .
 *
 /
@@ -901,6 +904,16 @@ TYPE_XMLHTTPREQUEST
 =
 11
 ;
+const
+unsigned
+long
+TYPE_DATAREQUEST
+=
+11
+;
+/
+/
+alias
 /
 *
 *
