@@ -42,6 +42,15 @@ include
 "
 vm
 /
+MethodGuard
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 .
 h

@@ -874,6 +874,10 @@ GlobalObject
 .
 cpp
 \
+MethodGuard
+.
+cpp
+\
 Stack
 .
 cpp

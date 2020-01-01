@@ -200,7 +200,7 @@ include
 "
 vm
 /
-ScopeObject
+Debugger
 .
 h
 "
@@ -209,7 +209,16 @@ include
 "
 vm
 /
-Debugger
+MethodGuard
+.
+h
+"
+#
+include
+"
+vm
+/
+ScopeObject
 .
 h
 "
@@ -291,7 +300,7 @@ include
 "
 vm
 /
-ScopeObject
+ArgumentsObject
 -
 inl
 .
@@ -302,7 +311,7 @@ include
 "
 vm
 /
-ArgumentsObject
+ScopeObject
 -
 inl
 .

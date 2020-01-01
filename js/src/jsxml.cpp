@@ -201,6 +201,15 @@ h
 #
 include
 "
+vm
+/
+MethodGuard
+.
+h
+"
+#
+include
+"
 jsatominlines
 .
 h

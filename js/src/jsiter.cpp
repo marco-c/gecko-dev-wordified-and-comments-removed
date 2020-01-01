@@ -212,6 +212,17 @@ include
 "
 vm
 /
+MethodGuard
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Stack
 -
 inl

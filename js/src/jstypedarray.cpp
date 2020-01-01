@@ -177,6 +177,17 @@ jstypedarrayinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+MethodGuard
+-
+inl
+.
+h
+"
 using
 namespace
 mozilla
