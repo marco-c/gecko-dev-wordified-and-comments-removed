@@ -79,6 +79,13 @@ nsIPermissionManager
 .
 h
 "
+#
+include
+"
+nsIDOMGeoPositionCallback
+.
+h
+"
 namespace
 mozilla
 {
@@ -104,6 +111,8 @@ public
 nsIObserver
 public
 nsIThreadObserver
+public
+nsIDOMGeoPositionCallback
 {
 private
 :
@@ -155,6 +164,7 @@ endif
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITHREADOBSERVER
+NS_DECL_NSIDOMGEOPOSITIONCALLBACK
 TabParent
 *
 CreateTab
@@ -672,6 +682,9 @@ mMonitor
 GeckoChildProcessHost
 *
 mSubprocess
+;
+PRInt32
+mGeolocationWatchID
 ;
 int
 mRunToCompletionDepth
