@@ -771,6 +771,10 @@ nsTreeWalker
 .
 cpp
 \
+nsWebSocket
+.
+cpp
+\
 nsXHTMLContentSerializer
 .
 cpp

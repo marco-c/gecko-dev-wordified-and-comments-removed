@@ -1330,3 +1330,7 @@ DOMCI_CLASS
 (
 FormData
 )
+DOMCI_CLASS
+(
+WebSocket
+)

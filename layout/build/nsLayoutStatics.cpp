@@ -309,6 +309,13 @@ h
 #
 include
 "
+nsWebSocket
+.
+h
+"
+#
+include
+"
 nsDOMThreadService
 .
 h
@@ -1688,6 +1695,13 @@ nsXMLHttpRequest
 :
 :
 ShutdownACCache
+(
+)
+;
+nsWebSocket
+:
+:
+ReleaseGlobals
 (
 )
 ;

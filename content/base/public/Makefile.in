@@ -709,6 +709,10 @@ nsIFrameMessageManager
 .
 idl
 \
+nsIWebSocket
+.
+idl
+\
 (
 NULL
 )
