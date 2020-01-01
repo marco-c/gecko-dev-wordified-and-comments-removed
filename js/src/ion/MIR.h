@@ -9817,7 +9817,7 @@ right
 )
 implicitTruncate_
 (
-false
+0
 )
 {
 setResultType
@@ -10258,7 +10258,7 @@ true
 )
 implicitTruncate_
 (
-false
+0
 )
 {
 if
