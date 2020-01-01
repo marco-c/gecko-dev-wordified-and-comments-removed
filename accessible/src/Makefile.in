@@ -471,6 +471,8 @@ DIRS
 \
 base
 \
+generic
+\
 html
 \
 xpcom

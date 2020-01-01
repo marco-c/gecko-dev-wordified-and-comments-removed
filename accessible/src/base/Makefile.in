@@ -480,10 +480,6 @@ nsDocAccessible
 .
 cpp
 \
-nsOuterDocAccessible
-.
-cpp
-\
 nsCoreUtils
 .
 cpp
