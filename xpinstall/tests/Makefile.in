@@ -584,6 +584,10 @@ browser_navigateaway2
 .
 js
 \
+browser_bug540558
+.
+js
+\
 unsigned
 .
 xpi
@@ -655,6 +659,10 @@ sjs
 cookieRedirect
 .
 sjs
+\
+bug540558
+.
+html
 \
 (
 NULL
