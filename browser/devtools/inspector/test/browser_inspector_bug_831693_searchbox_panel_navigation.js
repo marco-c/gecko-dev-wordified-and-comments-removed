@@ -24,6 +24,7 @@ panelOpeningStates
 [
 0
 3
+9
 14
 17
 ]
@@ -33,6 +34,7 @@ panelClosingStates
 =
 [
 2
+8
 13
 16
 ]
