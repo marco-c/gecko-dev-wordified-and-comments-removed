@@ -404,6 +404,11 @@ ArrayPopShift
 \
 _
 (
+ArrayPush
+)
+\
+_
+(
 LoadTypedArrayElement
 )
 \

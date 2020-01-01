@@ -281,6 +281,11 @@ dest
 )
 ;
 }
+template
+<
+typename
+T
+>
 void
 storeValue
 (
@@ -288,7 +293,9 @@ JSValueType
 type
 Register
 reg
-Address
+const
+T
+&
 dest
 )
 {
@@ -318,6 +325,11 @@ dest
 )
 ;
 }
+template
+<
+typename
+T
+>
 void
 storeValue
 (
@@ -325,7 +337,9 @@ const
 Value
 &
 val
-Address
+const
+T
+&
 dest
 )
 {

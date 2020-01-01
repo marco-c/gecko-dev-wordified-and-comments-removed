@@ -799,6 +799,14 @@ ins
 )
 ;
 bool
+visitArrayPush
+(
+MArrayPush
+*
+ins
+)
+;
+bool
 visitLoadTypedArrayElement
 (
 MLoadTypedArrayElement
