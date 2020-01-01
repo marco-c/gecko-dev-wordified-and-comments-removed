@@ -8260,7 +8260,7 @@ sPrefsInitialized
 false
 ;
 static
-int32_t
+uint32_t
 sOnloadDecodeLimit
 =
 0
@@ -8304,7 +8304,7 @@ true
 Preferences
 :
 :
-AddIntVarCache
+AddUintVarCache
 (
 &
 sOnloadDecodeLimit
