@@ -2265,6 +2265,8 @@ i
 ]
 .
 setter
+.
+op
 ;
 desc
 -
@@ -2277,6 +2279,8 @@ i
 ]
 .
 getter
+.
+op
 ;
 return
 true
