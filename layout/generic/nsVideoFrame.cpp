@@ -290,10 +290,6 @@ nsGkAtoms
 img
 nsnull
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
@@ -409,10 +405,6 @@ nsGkAtoms
 videocontrols
 nsnull
 kNameSpaceID_XUL
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE

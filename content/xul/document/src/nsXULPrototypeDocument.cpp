@@ -1050,7 +1050,6 @@ GetNodeInfo
 localName
 prefix
 namespaceURI
-PR_UINT16_MAX
 getter_AddRefs
 (
 nodeInfo
@@ -1357,10 +1356,6 @@ Atom
 )
 nsnull
 kNameSpaceID_None
-nsIDOMNode
-:
-:
-ATTRIBUTE_NODE
 )
 ;
 NS_ENSURE_TRUE

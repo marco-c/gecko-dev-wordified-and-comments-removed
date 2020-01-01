@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsIDOM3Node
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -57,7 +64,7 @@ private
 :
 nsCOMPtr
 <
-nsIDOMNode
+nsIDOM3Node
 >
 mNode
 ;

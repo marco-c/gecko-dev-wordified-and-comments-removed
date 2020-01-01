@@ -1313,10 +1313,6 @@ nsGkAtoms
 svg
 nsnull
 kNameSpaceID_SVG
-nsIDOMNode
-:
-:
-ELEMENT_NODE
 )
 ;
 if

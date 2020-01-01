@@ -232,6 +232,13 @@ h
 #
 include
 "
+nsIDOM3Node
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

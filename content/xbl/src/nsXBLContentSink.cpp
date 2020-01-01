@@ -4312,10 +4312,6 @@ GetNodeInfo
 localName
 prefix
 nameSpaceID
-nsIDOMNode
-:
-:
-ATTRIBUTE_NODE
 )
 ;
 attrs
