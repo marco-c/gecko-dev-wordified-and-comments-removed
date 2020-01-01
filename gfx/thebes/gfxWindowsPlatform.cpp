@@ -2968,7 +2968,7 @@ forget
 )
 ;
 }
-RefPtr
+TemporaryRef
 <
 ScaledFont
 >

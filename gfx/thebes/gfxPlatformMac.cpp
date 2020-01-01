@@ -563,7 +563,7 @@ forget
 )
 ;
 }
-RefPtr
+TemporaryRef
 <
 ScaledFont
 >
@@ -599,6 +599,7 @@ font
 >
 GetScaledFont
 (
+aTarget
 )
 ;
 }

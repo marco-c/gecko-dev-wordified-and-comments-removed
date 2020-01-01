@@ -670,7 +670,7 @@ aLength
 )
 ;
 }
-RefPtr
+TemporaryRef
 <
 ScaledFont
 >

@@ -146,7 +146,7 @@ format
 mozilla
 :
 :
-RefPtr
+TemporaryRef
 <
 mozilla
 :
