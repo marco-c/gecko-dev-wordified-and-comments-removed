@@ -3699,6 +3699,9 @@ key
 JSObject
 *
 cobj
+JSObject
+*
+prototype
 )
 ;
 extern
