@@ -1518,6 +1518,8 @@ bool
 noScriptRval
 JSVersion
 version
+unsigned
+staticLevel
 )
 ;
 bool

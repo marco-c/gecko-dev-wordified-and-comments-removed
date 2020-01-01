@@ -444,6 +444,7 @@ NULL
 false
 true
 JSVERSION_DEFAULT
+0
 )
 ;
 if

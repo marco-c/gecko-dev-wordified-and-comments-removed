@@ -506,7 +506,6 @@ cx
 scopeChain
 NULL
 NULL
-staticLevel
 )
 ;
 TreeContext
@@ -516,6 +515,7 @@ tc
 parser
 &
 sc
+staticLevel
 )
 ;
 if
@@ -570,6 +570,7 @@ originPrincipals
 compileAndGo
 noScriptRval
 version
+staticLevel
 )
 ;
 if
@@ -1207,8 +1208,12 @@ cx
 NULL
 fun
 NULL
-0
 )
+;
+unsigned
+staticLevel
+=
+0
 ;
 TreeContext
 funtc
@@ -1217,6 +1222,7 @@ funtc
 parser
 &
 funsc
+staticLevel
 )
 ;
 if
@@ -1255,6 +1261,7 @@ originPrincipals
 false
 false
 version
+staticLevel
 )
 ;
 if

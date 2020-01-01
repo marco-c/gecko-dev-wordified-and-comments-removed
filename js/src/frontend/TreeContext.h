@@ -222,10 +222,6 @@ scopeChain_
 ;
 public
 :
-const
-unsigned
-staticLevel
-;
 Bindings
 bindings
 ;
@@ -253,8 +249,6 @@ fun
 FunctionBox
 *
 funbox
-unsigned
-staticLevel
 )
 ;
 #
@@ -591,6 +585,10 @@ SharedContext
 *
 sc
 ;
+const
+unsigned
+staticLevel
+;
 uint32_t
 parenDepth
 ;
@@ -673,6 +671,8 @@ prs
 SharedContext
 *
 sc
+unsigned
+staticLevel
 )
 ;
 inline

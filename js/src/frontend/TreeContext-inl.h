@@ -54,8 +54,6 @@ fun
 FunctionBox
 *
 funbox
-unsigned
-staticLevel
 )
 :
 context
@@ -95,10 +93,6 @@ scopeChain_
 (
 cx
 scopeChain
-)
-staticLevel
-(
-staticLevel
 )
 bindings
 (
@@ -277,11 +271,17 @@ prs
 SharedContext
 *
 sc
+unsigned
+staticLevel
 )
 :
 sc
 (
 sc
+)
+staticLevel
+(
+staticLevel
 )
 parenDepth
 (
