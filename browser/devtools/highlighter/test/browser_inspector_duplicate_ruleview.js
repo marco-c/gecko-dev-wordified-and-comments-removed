@@ -589,7 +589,7 @@ documentElement
 children
 .
 length
-1
+2
 "
 RuleView
 elements
@@ -597,7 +597,7 @@ elements
 length
 =
 =
-1
+2
 "
 )
 ;
