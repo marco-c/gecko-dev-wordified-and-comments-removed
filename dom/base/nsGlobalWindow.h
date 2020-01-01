@@ -2603,12 +2603,6 @@ nsIWeakReference
 >
 mWindowUtils
 ;
-nsRefPtr
-<
-nsLocation
->
-mLocation
-;
 nsString
 mStatus
 ;
@@ -2667,6 +2661,12 @@ mTimeoutPublicIdCounter
 ;
 PRUint32
 mTimeoutFiringDepth
+;
+nsRefPtr
+<
+nsLocation
+>
+mLocation
 ;
 nsRefPtr
 <
