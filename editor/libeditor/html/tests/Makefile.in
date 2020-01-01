@@ -615,6 +615,10 @@ test_bug607584
 .
 xul
 \
+test_bug616590
+.
+xul
+\
 green
 .
 png
