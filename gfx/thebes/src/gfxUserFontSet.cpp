@@ -1113,9 +1113,15 @@ status
 =
 STATUS_LOADED
 )
+{
+IncrementGeneration
+(
+)
+;
 return
 PR_TRUE
 ;
+}
 return
 PR_FALSE
 ;
