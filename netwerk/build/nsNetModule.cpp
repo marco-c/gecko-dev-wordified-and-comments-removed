@@ -228,6 +228,13 @@ h
 #
 include
 "
+nsIThreadPool
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net

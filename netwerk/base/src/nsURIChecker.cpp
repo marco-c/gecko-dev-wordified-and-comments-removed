@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIAuthPrompt
 .
 h

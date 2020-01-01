@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 prtypes
 .
 h
@@ -53,13 +46,6 @@ h
 include
 "
 nsCRT
-.
-h
-"
-#
-include
-"
-netCore
 .
 h
 "

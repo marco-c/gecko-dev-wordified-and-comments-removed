@@ -20,14 +20,7 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
-nsString
+nsStringFwd
 .
 h
 "
@@ -38,6 +31,9 @@ nsRect
 .
 h
 "
+class
+nsIURI
+;
 namespace
 mozilla
 {

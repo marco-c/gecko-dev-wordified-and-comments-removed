@@ -21,6 +21,13 @@ h
 "
 #
 include
+"
+nsIURI
+.
+h
+"
+#
+include
 <
 utility
 >

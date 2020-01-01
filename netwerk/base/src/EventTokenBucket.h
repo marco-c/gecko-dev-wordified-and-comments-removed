@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsICancelable
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h
@@ -41,6 +34,9 @@ TimeStamp
 .
 h
 "
+class
+nsICancelable
+;
 namespace
 mozilla
 {

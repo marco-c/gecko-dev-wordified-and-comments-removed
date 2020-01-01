@@ -30,9 +30,6 @@ h
 class
 nsISerializable
 ;
-class
-nsISupports
-;
 nsresult
 NS_SerializeToString
 (

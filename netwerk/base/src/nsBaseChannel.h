@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIInputStream
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
@@ -123,6 +116,9 @@ nsNetUtil
 .
 h
 "
+class
+nsIInputStream
+;
 class
 nsBaseChannel
 :

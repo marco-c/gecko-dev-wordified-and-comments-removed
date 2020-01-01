@@ -15,13 +15,6 @@ h
 #
 include
 "
-prnetdb
-.
-h
-"
-#
-include
-"
 mozilla
 /
 net

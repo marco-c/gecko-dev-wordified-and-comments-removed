@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsChannelProperties
-.
-h
-"
-#
-include
-"
 nsURLHelper
 .
 h
@@ -30,13 +23,6 @@ h
 include
 "
 nsMimeTypes
-.
-h
-"
-#
-include
-"
-nsIOService
 .
 h
 "
