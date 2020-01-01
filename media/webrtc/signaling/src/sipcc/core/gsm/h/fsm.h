@@ -443,6 +443,9 @@ candidate_ct
 boolean
 rtcp_mux
 ;
+sdp_setup_type_e
+setup
+;
 uint16_t
 local_datachannel_port
 ;
