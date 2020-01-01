@@ -12103,6 +12103,13 @@ invalid_values
 :
 [
 "
+0
+"
+"
+-
+1
+"
+"
 0px
 "
 "
@@ -14950,6 +14957,13 @@ other_values
 invalid_values
 :
 [
+"
+0
+"
+"
+-
+1
+"
 "
 0px
 "
