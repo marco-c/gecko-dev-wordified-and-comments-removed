@@ -1048,7 +1048,7 @@ AssignLiteral
 rv
 :
 "
-MOZILLA_UAVERSION
+MOZILLA_VERSION
 )
 ;
 nsCOMPtr
@@ -1437,7 +1437,7 @@ mProductSub
 .
 AssignLiteral
 (
-MOZILLA_UAVERSION
+MOZILLA_VERSION
 )
 ;
 NS_CreateServicesFromCategory
