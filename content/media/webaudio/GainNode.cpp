@@ -292,8 +292,6 @@ aStream
 GetCurrentPosition
 (
 )
-+
-counter
 ;
 computedGain
 [
@@ -303,11 +301,9 @@ counter
 mGain
 .
 GetValueAtTime
-<
-TrackTicks
->
 (
 tick
+counter
 )
 *
 aInput

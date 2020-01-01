@@ -877,12 +877,8 @@ double
 mDelay
 .
 GetValueAtTime
-<
-TrackTicks
->
 (
 tick
-+
 counter
 )
 )

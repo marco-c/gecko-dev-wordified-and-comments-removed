@@ -1408,9 +1408,6 @@ mPlaybackRate
 mPlaybackRateTimeline
 .
 GetValueAtTime
-<
-TrackTicks
->
 (
 aStream
 -
