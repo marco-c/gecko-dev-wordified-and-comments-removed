@@ -129,9 +129,11 @@ android
 drawable
 =
 "
-drawable
+android
+:
+color
 /
-tabs_tray_bg_repeat
+transparent
 "
 /
 >
