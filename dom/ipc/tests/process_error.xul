@@ -237,6 +237,11 @@ dumpID
 dumpID
 is
 present
+and
+not
+an
+empty
+string
 "
 )
 ;
