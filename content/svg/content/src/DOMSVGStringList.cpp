@@ -384,7 +384,7 @@ IsEmpty
 )
 {
 return
-NS_ERROR_DOM_SVG_INVALID_VALUE_ERR
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 index
@@ -493,7 +493,7 @@ IsEmpty
 )
 {
 return
-NS_ERROR_DOM_SVG_INVALID_VALUE_ERR
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 if
