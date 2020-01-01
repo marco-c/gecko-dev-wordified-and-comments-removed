@@ -1,9 +1,5 @@
 assertEq
 (
-"
-length
-"
-in
 Object
 .
 getOwnPropertyNames
@@ -12,6 +8,16 @@ Array
 .
 prototype
 )
+.
+indexOf
+(
+"
+length
+"
+)
+>
+=
+0
 true
 )
 ;
