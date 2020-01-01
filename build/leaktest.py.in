@@ -727,6 +727,11 @@ browserEnv
 appPath
 PROFILE_DIRECTORY
 extraArgs
+timeout
+=
+330
+.
+0
 )
 sys
 .
