@@ -45,7 +45,6 @@ ptr
 offset
 )
 class
-NS_GFX
 PRTQUEUE
 {
 public
@@ -1693,10 +1692,7 @@ return
 rc
 ;
 }
-NS_GFX_
-(
 HDC
-)
 PrnOpenDC
 (
 PRTQUEUE
@@ -1968,10 +1964,7 @@ return
 hdc
 ;
 }
-NS_GFX_
-(
 BOOL
-)
 PrnQueryHardcopyCaps
 (
 HDC
@@ -2092,10 +2085,7 @@ return
 rc
 ;
 }
-NS_GFX_
-(
 BOOL
-)
 PrnInitialize
 (
 HMODULE
@@ -2110,10 +2100,7 @@ return
 TRUE
 ;
 }
-NS_GFX_
-(
 BOOL
-)
 PrnTerminate
 (
 )
@@ -2122,10 +2109,7 @@ return
 TRUE
 ;
 }
-NS_GFX_
-(
 BOOL
-)
 PrnClosePrinter
 (
 PRTQUEUE
