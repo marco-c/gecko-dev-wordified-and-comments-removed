@@ -1768,14 +1768,9 @@ IsInitialized
 )
 )
 {
-#
-ifdef
-DEBUG
 PRUint32
 count
 =
-#
-endif
 mForeignObjectHash
 .
 EnumerateEntries
