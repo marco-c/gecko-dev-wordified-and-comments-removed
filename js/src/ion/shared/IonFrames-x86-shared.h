@@ -312,7 +312,7 @@ class
 IonBailedRectifierFrameLayout
 :
 public
-IonJSFrameLayout
+IonRectifierFrameLayout
 {
 public
 :
@@ -327,12 +327,6 @@ return
 sizeof
 (
 IonBailedRectifierFrameLayout
-)
-+
-sizeof
-(
-void
-*
 )
 ;
 }
