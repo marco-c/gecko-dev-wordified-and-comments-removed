@@ -1575,7 +1575,7 @@ iter
 GetDocAccessible
 (
 )
-mContent
+this
 HTMLLabelIterator
 :
 :
@@ -4776,7 +4776,7 @@ iter
 GetDocAccessible
 (
 )
-mContent
+this
 )
 ;
 while
@@ -8753,7 +8753,7 @@ HTMLLabelIterator
 GetDocAccessible
 (
 )
-mContent
+this
 )
 )
 ;
