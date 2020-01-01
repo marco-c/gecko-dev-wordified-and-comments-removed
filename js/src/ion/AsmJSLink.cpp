@@ -3553,7 +3553,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 allocKind
 )
 )

@@ -17034,7 +17034,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 kind
 MaybeSingletonObject
 )
@@ -25794,7 +25797,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 kind
 )
 ;

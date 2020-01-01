@@ -6436,7 +6436,10 @@ getClass
 =
 =
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 ;
 JS_ASSERT
@@ -6510,7 +6513,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 allocKind
 newKind
 )

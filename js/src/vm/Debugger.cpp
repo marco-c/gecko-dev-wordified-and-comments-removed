@@ -4002,7 +4002,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 )
 ;
@@ -4295,7 +4298,10 @@ okResumption
 obj
 -
 >
-isObject
+is
+<
+JSObject
+>
 (
 )
 ;
@@ -17131,7 +17137,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 )
 ;
@@ -22550,7 +22559,10 @@ NewObjectWithGivenProto
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 NULL
 env
 )

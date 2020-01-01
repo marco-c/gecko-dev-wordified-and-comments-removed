@@ -1590,7 +1590,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 )
 ;
@@ -3188,7 +3191,10 @@ NewBuiltinClassInstance
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 )
 ;
@@ -16743,7 +16749,10 @@ NewObjectWithClassProto
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 NULL
 obj
 SingletonObject

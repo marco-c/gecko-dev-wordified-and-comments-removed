@@ -1559,8 +1559,9 @@ js
 :
 :
 Class
+*
 )
-ObjectClass
+ObjectClassPtr
 ;
 inline
 js

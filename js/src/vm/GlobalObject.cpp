@@ -930,7 +930,10 @@ NewObjectWithGivenProto
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 NULL
 self
 SingletonObject
@@ -951,7 +954,10 @@ setNewTypeUnknown
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 objectProto
 )
 )
@@ -1846,7 +1852,10 @@ NewObjectWithClassProto
 (
 cx
 &
-ObjectClass
+JSObject
+:
+:
+class_
 NULL
 self
 TenuredObject
@@ -2509,7 +2518,10 @@ clasp
 !
 =
 &
-ObjectClass
+JSObject
+:
+:
+class_
 )
 ;
 JS_ASSERT

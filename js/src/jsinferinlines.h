@@ -1868,7 +1868,10 @@ JSProto_Object
 :
 return
 &
-ObjectClass
+JSObject
+:
+:
+class_
 ;
 case
 JSProto_Array

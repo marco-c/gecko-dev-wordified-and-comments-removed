@@ -76,10 +76,10 @@ js
 Jsvalify
 (
 &
-js
+JSObject
 :
 :
-ObjectClass
+class_
 )
 vp
 )
