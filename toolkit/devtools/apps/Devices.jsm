@@ -77,7 +77,9 @@ emit
 "
 addon
 -
-installed
+status
+-
+updated
 "
 v
 )
