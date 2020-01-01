@@ -534,17 +534,6 @@ DWINCE
 =
 1
 endif
-PREF_JS_EXPORTS
-=
-(
-srcdir
-)
-/
-init
-/
-all
-.
-js
 EXTRA_DSO_LDOPTS
 =
 \
@@ -585,9 +574,6 @@ defaults
 pref
 /
 \
-all
-.
-js
 mailnews
 .
 js
