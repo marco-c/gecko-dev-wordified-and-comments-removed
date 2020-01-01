@@ -9498,11 +9498,7 @@ gtkXtBinHolder
 =
 gtk_xtbin_new
 (
-(
-GdkWindow
-*
-)
-GDK_ROOT_WINDOW
+gdk_get_default_root_window
 (
 )
 0

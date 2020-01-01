@@ -751,9 +751,9 @@ object_class
 ;
 parent_class
 =
-g_type_class_ref
+g_type_class_peek_parent
 (
-GTK_TYPE_SOCKET
+klass
 )
 ;
 widget_class
