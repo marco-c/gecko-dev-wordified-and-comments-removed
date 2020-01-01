@@ -513,6 +513,10 @@ nsNSSIOLayer
 .
 cpp
 \
+SSLServerCertVerification
+.
+cpp
+\
 nsSSLStatus
 .
 cpp
