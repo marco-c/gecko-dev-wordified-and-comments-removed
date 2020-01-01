@@ -78,6 +78,16 @@ config
 autoconf
 .
 mk
+MOCHITEST_CHROME_FILES
+=
+\
+test_system_principal
+.
+xul
+\
+(
+NULL
+)
 MOCHITEST_FILES
 =
 \
