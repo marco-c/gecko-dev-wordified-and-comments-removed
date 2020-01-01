@@ -4534,7 +4534,9 @@ Failed
 to
 open
 database
+:
 "
++
 e
 )
 ;
@@ -6828,7 +6830,6 @@ create
 database
 schema
 "
-e
 )
 ;
 this
