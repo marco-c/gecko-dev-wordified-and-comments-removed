@@ -1192,6 +1192,7 @@ GetLabelAddress
 findfirst
 goto
 call
+;
 DetailPrint
 '
 Search
@@ -2241,6 +2242,7 @@ StrCpy
 6
 '
 '
+;
 DetailPrint
 '
 8
