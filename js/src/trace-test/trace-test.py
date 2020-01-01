@@ -621,6 +621,18 @@ dir
 )
 :
         
+dirnames
+.
+sort
+(
+)
+        
+filenames
+.
+sort
+(
+)
+        
 if
 dirpath
 =
