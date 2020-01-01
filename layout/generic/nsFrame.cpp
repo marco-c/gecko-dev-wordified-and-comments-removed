@@ -15723,7 +15723,7 @@ return
 nsRect
 :
 :
-ToOutsidePixels
+ToNearestPixels
 (
 GetScreenRectInAppUnits
 (
