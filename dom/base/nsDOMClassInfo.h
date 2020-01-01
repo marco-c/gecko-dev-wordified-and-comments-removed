@@ -298,8 +298,6 @@ const
 nsIID
 *
 aIID
-PRBool
-aAllowWrapping
 jsval
 *
 vp
@@ -324,8 +322,6 @@ scope
 nsISupports
 *
 native
-PRBool
-aAllowWrapping
 jsval
 *
 vp
@@ -344,7 +340,6 @@ cx
 scope
 native
 nsnull
-aAllowWrapping
 vp
 aHolder
 )
