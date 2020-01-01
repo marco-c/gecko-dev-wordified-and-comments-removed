@@ -1244,8 +1244,8 @@ argv
 0
 ]
 )
-&
-&
+|
+|
 !
 JSVAL_IS_STRING
 (
