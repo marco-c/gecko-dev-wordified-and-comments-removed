@@ -8742,11 +8742,6 @@ nsRect
 aRect
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 nscoord
 oneDevPixel
 =
@@ -10072,11 +10067,6 @@ nsRect
 aRect
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 nscoord
 oneDevPixel
 =

@@ -186,9 +186,6 @@ nsHTMLReflowMetrics
 aDesiredSize
 )
 {
-nsresult
-rv
-;
 mEmbellishData
 .
 flags

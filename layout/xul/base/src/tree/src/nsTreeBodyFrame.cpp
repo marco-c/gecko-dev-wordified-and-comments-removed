@@ -5549,7 +5549,7 @@ height
 fm
 -
 >
-GetHeight
+GetMaxHeight
 (
 height
 )
@@ -16329,7 +16329,7 @@ baseline
 fontMet
 -
 >
-GetHeight
+GetMaxHeight
 (
 height
 )

@@ -2615,7 +2615,7 @@ fontMet
 fontMet
 -
 >
-GetHeight
+GetMaxHeight
 (
 visibleHeight
 )

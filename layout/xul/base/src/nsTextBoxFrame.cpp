@@ -4150,7 +4150,7 @@ fontMet
 fontMet
 -
 >
-GetHeight
+GetMaxHeight
 (
 aSize
 .

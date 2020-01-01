@@ -4124,7 +4124,7 @@ maxDescent
 fm
 -
 >
-GetHeight
+GetMaxHeight
 (
 height
 )
@@ -4790,9 +4790,6 @@ if
 iconUsed
 )
 {
-nscolor
-oldColor
-;
 nscoord
 iconXPos
 =

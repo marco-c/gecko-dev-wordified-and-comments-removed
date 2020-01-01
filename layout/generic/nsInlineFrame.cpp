@@ -2650,7 +2650,7 @@ ascent
 fm
 -
 >
-GetHeight
+GetMaxHeight
 (
 aMetrics
 .

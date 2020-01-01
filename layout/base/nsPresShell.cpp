@@ -38351,7 +38351,7 @@ width
 fm
 -
 >
-GetHeight
+GetMaxHeight
 (
 height
 )

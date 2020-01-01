@@ -5781,7 +5781,7 @@ text
 fm
 -
 >
-GetHeight
+GetMaxHeight
 (
 aMetrics
 .

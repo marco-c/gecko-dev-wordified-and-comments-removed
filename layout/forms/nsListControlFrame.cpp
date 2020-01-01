@@ -6729,7 +6729,7 @@ fontMet
 fontMet
 -
 >
-GetHeight
+GetMaxHeight
 (
 rowHeight
 )

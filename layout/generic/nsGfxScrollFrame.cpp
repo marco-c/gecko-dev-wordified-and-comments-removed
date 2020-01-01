@@ -9577,7 +9577,7 @@ fm
 fm
 -
 >
-GetHeight
+GetMaxHeight
 (
 fontHeight
 )
