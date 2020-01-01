@@ -5189,7 +5189,7 @@ nullptr
 }
 if
 (
-mCx
+mGlobal
 )
 {
 DestroyCx
@@ -6591,7 +6591,7 @@ aFrameMetrics
 if
 (
 !
-mCx
+mGlobal
 |
 |
 !
@@ -7328,7 +7328,7 @@ aPoint
 if
 (
 !
-mCx
+mGlobal
 |
 |
 !
@@ -7425,7 +7425,7 @@ aPoint
 if
 (
 !
-mCx
+mGlobal
 |
 |
 !
@@ -7515,7 +7515,7 @@ aPoint
 if
 (
 !
-mCx
+mGlobal
 |
 |
 !
@@ -9229,7 +9229,7 @@ aURL
 if
 (
 !
-mCx
+mGlobal
 &
 &
 !
@@ -9656,7 +9656,7 @@ aScriptLoading
 if
 (
 !
-mCx
+mGlobal
 &
 &
 !
