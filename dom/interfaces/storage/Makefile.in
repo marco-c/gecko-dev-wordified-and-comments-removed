@@ -480,6 +480,10 @@ nsIDOMStorageWindow
 .
 idl
 \
+nsIIndexedDatabaseRequest
+.
+idl
+\
 (
 NULL
 )
