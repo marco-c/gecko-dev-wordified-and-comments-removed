@@ -1528,13 +1528,12 @@ aNode
 &
 this
 .
-livemarks
+_annotations
 .
-isLivemark
+itemHasAnnotation
 (
 aNode
-.
-itemId
+LMANNO_FEEDURI
 )
 ;
 }
