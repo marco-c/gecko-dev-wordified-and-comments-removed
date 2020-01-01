@@ -2074,7 +2074,7 @@ aScope
 this
 ;
 let
-argument
+args
 =
 aArguments
 |
@@ -2141,7 +2141,7 @@ aCallback
 apply
 (
 scope
-arguments
+args
 )
 ;
 }
