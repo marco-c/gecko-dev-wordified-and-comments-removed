@@ -568,6 +568,9 @@ aMimeGuess
 nsISupports
 *
 aExtra
+nsIPrincipal
+*
+aRequestPrincipal
 PRInt16
 *
 aDecision
@@ -841,6 +844,7 @@ aRequestingLocation
 aRequestingContext
 aMimeGuess
 aExtra
+aRequestPrincipal
 aDecision
 )
 ;
@@ -869,6 +873,9 @@ aMimeGuess
 nsISupports
 *
 aExtra
+nsIPrincipal
+*
+aRequestPrincipal
 PRInt16
 *
 aDecision
@@ -938,6 +945,7 @@ aRequestingLocation
 aRequestingContext
 aMimeGuess
 aExtra
+aRequestPrincipal
 aDecision
 )
 ;

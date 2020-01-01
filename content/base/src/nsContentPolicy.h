@@ -66,6 +66,8 @@ nsACString
 &
 nsISupports
 *
+nsIPrincipal
+*
 PRInt16
 *
 )
@@ -94,6 +96,9 @@ mimeGuess
 nsISupports
 *
 extra
+nsIPrincipal
+*
+requestPrincipal
 PRInt16
 *
 decision

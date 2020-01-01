@@ -275,6 +275,9 @@ mimeGuess
 nsISupports
 *
 extra
+nsIPrincipal
+*
+requestPrincipal
 PRInt16
 *
 shouldLoad
@@ -313,6 +316,9 @@ mimeGuess
 nsISupports
 *
 extra
+nsIPrincipal
+*
+requestPrincipal
 PRInt16
 *
 shouldProcess
