@@ -1731,7 +1731,6 @@ numTestFiles
 1
             
 assert
-(
 len
 (
 test_list
@@ -1739,7 +1738,6 @@ test_list
 =
 =
 1
-)
             
 line
 =
@@ -2684,6 +2682,21 @@ user
 .
 js
 '
+'
+test402
+-
+browser
+.
+js
+'
+'
+test402
+-
+shell
+.
+js
+'
+                    
 '
 js
 -
