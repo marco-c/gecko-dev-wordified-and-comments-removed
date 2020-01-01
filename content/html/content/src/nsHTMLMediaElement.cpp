@@ -1042,7 +1042,7 @@ nsHTMLMediaElement
 :
 GetPaused
 (
-PRUint16
+PRBool
 *
 aPaused
 )

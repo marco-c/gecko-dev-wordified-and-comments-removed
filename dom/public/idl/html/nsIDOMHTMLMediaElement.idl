@@ -722,8 +722,7 @@ duration
 ;
 readonly
 attribute
-unsigned
-short
+boolean
 paused
 ;
 attribute
