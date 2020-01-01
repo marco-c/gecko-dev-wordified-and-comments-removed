@@ -3980,9 +3980,6 @@ altFeedbackSize
 (
 0
 0
-2
-*
-(
 nsPresContext
 :
 :
@@ -3990,14 +3987,14 @@ CSSPixelsToAppUnits
 (
 ICON_SIZE
 +
+2
+*
+(
 ICON_PADDING
 +
 ALT_BORDER_WIDTH
 )
 )
-2
-*
-(
 nsPresContext
 :
 :
@@ -4005,6 +4002,9 @@ CSSPixelsToAppUnits
 (
 ICON_SIZE
 +
+2
+*
+(
 ICON_PADDING
 +
 ALT_BORDER_WIDTH
