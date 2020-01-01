@@ -1632,6 +1632,15 @@ NSSSSL_GetVersion
 void
 )
 ;
+SSL_IMPORT
+SECStatus
+SSL_RestartHandshakeAfterAuthCertificate
+(
+PRFileDesc
+*
+fd
+)
+;
 SEC_END_PROTOS
 #
 endif

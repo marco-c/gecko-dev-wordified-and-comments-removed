@@ -1123,6 +1123,8 @@ SSL_SetNextProtoNego
 ;
 SSL_GetNextProto
 ;
+SSL_RestartHandshakeAfterAuthCertificate
+;
 ;
 +
 local
