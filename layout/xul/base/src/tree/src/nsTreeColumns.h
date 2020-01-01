@@ -88,6 +88,14 @@ nsTreeBodyFrame
 aBodyFrame
 )
 ;
+PRBool
+IsLastVisible
+(
+nsTreeBodyFrame
+*
+aBodyFrame
+)
+;
 nsresult
 GetRect
 (
