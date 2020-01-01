@@ -1851,7 +1851,7 @@ asserts
 if
 (
 winWidget
-18
+3
 -
 108
 )
@@ -1872,6 +1872,9 @@ plus
 bug
 570436
 on
+some
+versions
+of
 windows
 load
 501535
