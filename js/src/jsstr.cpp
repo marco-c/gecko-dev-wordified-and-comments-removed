@@ -10604,6 +10604,8 @@ res
 }
 }
 ;
+namespace
+{
 struct
 ReplaceData
 {
@@ -10711,6 +10713,7 @@ sb
 ;
 }
 ;
+}
 static
 bool
 ReplaceRegExp
