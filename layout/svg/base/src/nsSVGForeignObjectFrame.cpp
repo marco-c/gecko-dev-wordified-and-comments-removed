@@ -1049,7 +1049,6 @@ aContext
 >
 GetRenderingContext
 (
-this
 )
 ;
 if
