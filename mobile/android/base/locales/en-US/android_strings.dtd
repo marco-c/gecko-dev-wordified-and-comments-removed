@@ -1140,10 +1140,10 @@ data
 <
 !
 ENTITY
-pref_private_data_siteSettings
+pref_private_data_siteSettings2
 "
 Site
-preferences
+settings
 "
 >
 <
