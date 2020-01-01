@@ -425,17 +425,6 @@ shutdown
 )
 ;
 "
-onclose
-=
-"
-return
-Browser
-.
-closing
-(
-)
-;
-"
 windowtype
 =
 "
