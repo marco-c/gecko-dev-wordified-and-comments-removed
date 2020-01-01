@@ -4708,15 +4708,6 @@ lib
 LIB_SUFFIX
 )
 )
-#
-Include
-internal
-ply
-only
-if
-needed
-ifndef
-MOZ_SYSTEM_PLY
 PLY_INCLUDE
 =
 -
@@ -4730,7 +4721,6 @@ other
 licenses
 /
 ply
-endif
 export
 CL_INCLUDES_PREFIX
 ifeq

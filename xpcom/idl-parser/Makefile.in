@@ -103,8 +103,6 @@ SDK_BINARY_TARGET
 xpidl
 -
 parser
-ifndef
-MOZ_SYSTEM_PLY
 PLY_FILES
 =
 \
@@ -175,7 +173,6 @@ PLY_TARGET
 xpidl
 -
 parser
-endif
 include
 (
 topsrcdir
