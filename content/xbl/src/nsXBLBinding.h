@@ -132,6 +132,7 @@ nsXBLPrototypeBinding
 PrototypeBinding
 (
 )
+const
 {
 return
 mPrototypeBinding
@@ -162,6 +163,7 @@ nsXBLBinding
 GetBaseBinding
 (
 )
+const
 {
 return
 mNextBinding

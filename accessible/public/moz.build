@@ -177,11 +177,6 @@ nsIAccessiblePivot
 idl
 '
 '
-nsIAccessibleProvider
-.
-idl
-'
-'
 nsIAccessibleRelation
 .
 idl
