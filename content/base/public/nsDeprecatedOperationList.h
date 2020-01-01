@@ -86,3 +86,7 @@ DEPRECATED_OPERATION
 (
 MozAudioData
 )
+DEPRECATED_OPERATION
+(
+LenientThis
+)
