@@ -191,6 +191,10 @@ nsTreeSanitizer
 .
 h
 \
+nsViewportInfo
+.
+h
+\
 nsXMLNameSpaceMap
 .
 h

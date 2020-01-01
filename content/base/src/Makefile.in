@@ -491,6 +491,10 @@ nsTreeWalker
 .
 cpp
 \
+nsViewportInfo
+.
+cpp
+\
 WebSocket
 .
 cpp
