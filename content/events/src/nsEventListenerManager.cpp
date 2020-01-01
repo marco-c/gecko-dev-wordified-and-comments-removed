@@ -17,6 +17,9 @@ HalSensor
 h
 "
 #
+undef
+CreateEvent
+#
 include
 "
 nsISupports

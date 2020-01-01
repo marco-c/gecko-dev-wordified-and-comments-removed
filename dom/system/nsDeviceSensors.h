@@ -183,16 +183,6 @@ nsIDOMWindow
 >
 mWindowListeners
 ;
-nsDataHashtable
-<
-nsUint32HashKey
-nsTArray
-<
-PRUint32
->
->
-mSensorsEnabled
-;
 void
 FireDOMOrientationEvent
 (
