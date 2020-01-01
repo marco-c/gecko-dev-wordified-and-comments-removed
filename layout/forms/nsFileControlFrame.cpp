@@ -2673,7 +2673,7 @@ return
 NS_OK
 ;
 }
-void
+NS_IMETHODIMP
 nsFileControlFrame
 :
 :
@@ -2861,6 +2861,9 @@ Content
 (
 )
 )
+;
+return
+NS_OK
 ;
 }
 #

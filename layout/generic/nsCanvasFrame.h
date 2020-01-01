@@ -216,8 +216,7 @@ bool
 aHasFocus
 )
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder

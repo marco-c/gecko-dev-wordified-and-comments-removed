@@ -7147,7 +7147,7 @@ styleContext
 }
 #
 endif
-void
+nsresult
 nsMathMLChar
 :
 :
@@ -7214,6 +7214,7 @@ IsVisible
 )
 )
 return
+NS_OK
 ;
 if
 (
@@ -7386,6 +7387,9 @@ IsEmpty
 )
 )
 )
+;
+return
+NS_OK
 ;
 }
 void

@@ -52,8 +52,7 @@ nsStyleContext
 aContext
 )
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayListForChildren
 (
 nsDisplayListBuilder

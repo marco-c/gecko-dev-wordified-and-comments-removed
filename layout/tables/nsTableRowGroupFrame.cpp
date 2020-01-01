@@ -780,7 +780,7 @@ mFrame
 ;
 }
 static
-void
+nsresult
 DisplayRows
 (
 nsDisplayListBuilder
@@ -895,6 +895,7 @@ GetNextSibling
 ;
 }
 return
+NS_OK
 ;
 }
 nsTableRowGroupFrame
@@ -961,6 +962,7 @@ ClearRowCursor
 )
 ;
 return
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
@@ -987,8 +989,11 @@ FinishBuildingCursor
 )
 ;
 }
+return
+NS_OK
+;
 }
-void
+NS_IMETHODIMP
 nsTableRowGroupFrame
 :
 :
@@ -1074,6 +1079,9 @@ aLists
 item
 DisplayRows
 )
+;
+return
+NS_OK
 ;
 }
 int

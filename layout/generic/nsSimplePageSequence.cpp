@@ -3734,7 +3734,7 @@ scale
 )
 ;
 }
-void
+NS_IMETHODIMP
 nsSimplePageSequenceFrame
 :
 :
@@ -3833,6 +3833,9 @@ AppendToTop
 &
 content
 )
+;
+return
+NS_OK
 ;
 }
 nsIAtom

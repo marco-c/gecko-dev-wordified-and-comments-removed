@@ -135,7 +135,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsButtonBoxFrame
 )
-void
+NS_IMETHODIMP
 nsButtonBoxFrame
 :
 :
@@ -164,7 +164,9 @@ IsForEventDelivery
 )
 )
 return
+NS_OK
 ;
+return
 nsBoxFrame
 :
 :

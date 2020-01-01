@@ -430,7 +430,7 @@ aEventStatus
 )
 ;
 }
-void
+NS_IMETHODIMP
 nsHTMLButtonControlFrame
 :
 :
@@ -614,6 +614,9 @@ Content
 (
 )
 )
+;
+return
+NS_OK
 ;
 }
 nscoord

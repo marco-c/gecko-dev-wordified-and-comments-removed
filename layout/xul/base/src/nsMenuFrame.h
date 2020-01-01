@@ -297,8 +297,7 @@ nsIFrame
 aDestructRoot
 )
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayListForChildren
 (
 nsDisplayListBuilder

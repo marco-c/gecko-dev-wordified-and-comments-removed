@@ -985,7 +985,7 @@ return
 NS_OK
 ;
 }
-void
+NS_IMETHODIMP
 nsMathMLmactionFrame
 :
 :
@@ -1025,6 +1025,7 @@ aLists
 )
 ;
 return
+NS_OK
 ;
 }
 DisplayBorderBackgroundOutline
@@ -1089,6 +1090,9 @@ aLists
 ;
 #
 endif
+return
+NS_OK
+;
 }
 NS_IMETHODIMP
 nsMathMLmactionFrame

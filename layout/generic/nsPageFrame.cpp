@@ -2502,7 +2502,7 @@ scale
 )
 ;
 }
-void
+NS_IMETHODIMP
 nsPageFrame
 :
 :
@@ -2913,6 +2913,9 @@ MoveTo
 (
 aLists
 )
+;
+return
+NS_OK
 ;
 }
 void

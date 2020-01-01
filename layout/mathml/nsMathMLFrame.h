@@ -1269,7 +1269,7 @@ aLists
 ;
 #
 endif
-void
+nsresult
 DisplayBar
 (
 nsDisplayListBuilder

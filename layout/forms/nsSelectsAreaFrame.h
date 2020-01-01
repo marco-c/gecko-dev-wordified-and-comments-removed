@@ -44,8 +44,7 @@ uint32_t
 aFlags
 )
 ;
-virtual
-void
+NS_IMETHOD
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -62,7 +61,7 @@ aLists
 )
 MOZ_OVERRIDE
 ;
-void
+nsresult
 BuildDisplayListInternal
 (
 nsDisplayListBuilder
