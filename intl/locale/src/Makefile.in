@@ -425,8 +425,6 @@ REQUIRES
 =
 xpcom
 \
-gfx
-\
 string
 \
 uconv

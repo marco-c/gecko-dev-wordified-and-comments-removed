@@ -442,8 +442,6 @@ toolkitcomps
 \
 appshell
 \
-appstartup
-\
 chrome
 \
 content
@@ -451,8 +449,6 @@ content
 docshell
 \
 dom
-\
-layout
 \
 embed_base
 \
@@ -476,8 +472,6 @@ string
 \
 uriloader
 \
-layout
-\
 widget
 \
 windowwatcher
@@ -487,8 +481,6 @@ xpcom
 xpconnect
 \
 xpinstall
-\
-xremoteservice
 \
 (
 NULL

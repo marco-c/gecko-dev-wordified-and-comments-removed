@@ -449,8 +449,6 @@ webshell
 \
 necko
 \
-nkcache
-\
 mimetype
 \
 exthandler
@@ -495,11 +493,16 @@ appshell
 \
 shistory
 \
-accessibility
-\
 (
 NULL
 )
+ifdef
+ACCESSIBILITY
+REQUIRES
++
+=
+accessibility
+endif
 EXPORTS
 =
 \

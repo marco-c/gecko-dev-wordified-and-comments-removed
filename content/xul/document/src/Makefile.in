@@ -460,11 +460,7 @@ view
 \
 necko
 \
-uriloader
-\
 htmlparser
-\
-lwbrk
 \
 docshell
 \

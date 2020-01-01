@@ -452,10 +452,6 @@ webshell
 \
 imglib2
 \
-intl
-\
-windowwatcher
-\
 js
 \
 xpconnect

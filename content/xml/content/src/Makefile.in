@@ -444,15 +444,9 @@ widget
 \
 necko
 \
-caps
-\
 webshell
 \
 docshell
-\
-htmlparser
-\
-xpconnect
 \
 unicharutil
 \

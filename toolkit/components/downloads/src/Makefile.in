@@ -454,8 +454,6 @@ necko
 \
 pref
 \
-progressDlg
-\
 intl
 \
 windowwatcher
@@ -471,8 +469,6 @@ embed_base
 alerts
 \
 storage
-\
-xulapp
 \
 exthandler
 \
@@ -506,6 +502,10 @@ CPPSRCS
 nsDownloadScanner
 .
 cpp
+REQUIRES
++
+=
+xulapp
 endif
 endif
 EXTRA_COMPONENTS

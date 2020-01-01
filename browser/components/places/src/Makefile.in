@@ -450,8 +450,6 @@ xpcom
 \
 string
 \
-docshell
-\
 necko
 \
 browsercomps

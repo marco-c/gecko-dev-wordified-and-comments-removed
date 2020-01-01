@@ -444,10 +444,6 @@ necko
 \
 dom
 \
-widget
-\
-content
-\
 pref
 \
 windowwatcher

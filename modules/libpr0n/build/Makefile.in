@@ -453,10 +453,6 @@ gfx
 \
 caps
 \
-xpconnect
-\
-js
-\
 (
 JPEG_REQUIRES
 )

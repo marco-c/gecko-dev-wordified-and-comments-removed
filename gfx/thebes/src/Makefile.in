@@ -44,8 +44,6 @@ REQUIRES
 \
 cairo
 \
-libpixman
-\
 string
 \
 pref

@@ -436,11 +436,7 @@ string
 \
 content
 \
-caps
-\
 js
-\
-locale
 \
 layout
 \
@@ -449,8 +445,6 @@ necko
 pref
 \
 uconv
-\
-unicharutil
 \
 widget
 \

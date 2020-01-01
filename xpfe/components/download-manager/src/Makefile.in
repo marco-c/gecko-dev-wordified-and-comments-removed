@@ -450,8 +450,6 @@ mimetype
 \
 necko
 \
-progressDlg
-\
 intl
 \
 windowwatcher
@@ -467,8 +465,6 @@ profile
 widget
 \
 pref
-\
-appcomps
 \
 embed_base
 \

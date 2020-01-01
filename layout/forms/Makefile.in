@@ -456,10 +456,6 @@ webshell
 \
 editor
 \
-txtsvc
-\
-intl
-\
 uconv
 \
 txmgr
@@ -467,8 +463,6 @@ txmgr
 xuldoc
 \
 imglib2
-\
-accessibility
 \
 unicharutil
 \
@@ -485,6 +479,13 @@ docshell
 (
 NULL
 )
+ifdef
+ACCESSIBILITY
+REQUIRES
++
+=
+accessibility
+endif
 EXPORTS
 =
 \

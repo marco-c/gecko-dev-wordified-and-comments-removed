@@ -480,8 +480,6 @@ xpcom
 \
 string
 \
-uconv
-\
 (
 NULL
 )

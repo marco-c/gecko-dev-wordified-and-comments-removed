@@ -459,8 +459,6 @@ pref
 \
 locale
 \
-lwbrk
-\
 xuldoc
 \
 xultmpl
@@ -468,8 +466,6 @@ xultmpl
 webshell
 \
 view
-\
-docshell
 \
 htmlparser
 \

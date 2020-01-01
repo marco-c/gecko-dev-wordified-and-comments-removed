@@ -455,8 +455,6 @@ layout
 \
 view
 \
-xul
-\
 necko
 \
 locale
@@ -470,8 +468,6 @@ exthandler
 appshell
 \
 thebes
-\
-cairo
 \
 js
 \

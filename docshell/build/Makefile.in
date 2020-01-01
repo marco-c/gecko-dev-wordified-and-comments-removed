@@ -451,8 +451,6 @@ string
 \
 dom
 \
-js
-\
 shistory
 \
 necko
@@ -473,8 +471,6 @@ widget
 \
 pref
 \
-view
-\
 intl
 \
 htmlparser
@@ -494,8 +490,6 @@ uriloader
 exthandler
 \
 mimetype
-\
-rdf
 \
 prefetch
 \

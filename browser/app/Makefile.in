@@ -727,8 +727,6 @@ xpcom
 \
 string
 \
-xulapp
-\
 (
 NULL
 )

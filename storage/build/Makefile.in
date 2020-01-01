@@ -450,8 +450,6 @@ LIBXUL_LIBRARY
 REQUIRES
 =
 \
-storage
-\
 sqlite3
 \
 xpcom
@@ -461,8 +459,6 @@ string
 js
 \
 xpconnect
-\
-intl
 \
 (
 NULL

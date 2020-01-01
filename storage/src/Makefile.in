@@ -439,10 +439,6 @@ REQUIRES
 =
 xpcom
 \
-intl
-\
-necko
-\
 string
 \
 sqlite3

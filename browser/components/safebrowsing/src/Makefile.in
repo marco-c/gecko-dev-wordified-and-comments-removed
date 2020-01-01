@@ -431,8 +431,6 @@ REQUIRES
 \
 necko
 \
-safebrowsing
-\
 string
 \
 uriloader

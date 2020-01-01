@@ -453,8 +453,6 @@ REQUIRES
 =
 xpcom
 \
-xpcom_obsolete
-\
 string
 \
 intl
@@ -476,6 +474,13 @@ profilesharingsetup
 (
 NULL
 )
+endif
+ifndef
+MOZ_NO_XPCOM_OBSOLETE
+REQUIRES
++
+=
+xpcom_obsolete
 endif
 include
 (

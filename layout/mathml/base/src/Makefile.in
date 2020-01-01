@@ -472,8 +472,6 @@ webshell
 \
 locale
 \
-intl
-\
 unicharutil
 \
 necko
@@ -481,8 +479,6 @@ necko
 docshell
 \
 webbrwsr
-\
-windowwatcher
 \
 pref
 \

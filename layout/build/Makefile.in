@@ -516,8 +516,6 @@ js
 \
 xpconnect
 \
-uriloader
-\
 caps
 \
 rdf
@@ -529,8 +527,6 @@ imglib2
 pref
 \
 unicharutil
-\
-xul
 \
 xultmpl
 \

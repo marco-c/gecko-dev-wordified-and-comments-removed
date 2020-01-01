@@ -459,10 +459,6 @@ mimetype
 \
 webshell
 \
-docshell
-\
-htmlparser
-\
 uconv
 \
 xuldoc

@@ -439,13 +439,9 @@ REQUIRES
 =
 xpcom
 \
-necko
-\
 string
 \
 mimetype
-\
-pref
 \
 intl
 \

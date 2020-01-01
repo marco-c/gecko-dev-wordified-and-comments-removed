@@ -425,7 +425,6 @@ LIBXUL_LIBRARY
 1
 REQUIRES
 =
-content
 \
 layout
 \
@@ -445,8 +444,6 @@ webshell
 \
 htmlparser
 \
-lwbrk
-\
 necko
 \
 pref
@@ -456,10 +453,6 @@ js
 caps
 \
 locale
-\
-view
-\
-xpconnect
 \
 (
 NULL

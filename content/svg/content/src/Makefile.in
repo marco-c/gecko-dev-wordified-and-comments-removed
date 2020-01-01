@@ -445,8 +445,6 @@ string
 \
 layout
 \
-content
-\
 widget
 \
 gfx
@@ -456,10 +454,6 @@ dom
 js
 \
 locale
-\
-htmlparser
-\
-view
 \
 pref
 \

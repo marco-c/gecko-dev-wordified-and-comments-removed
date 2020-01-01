@@ -429,8 +429,6 @@ content
 \
 widget
 \
-necko
-\
 xuldoc
 \
 caps
@@ -438,8 +436,6 @@ caps
 xpconnect
 \
 js
-\
-layout
 \
 (
 NULL

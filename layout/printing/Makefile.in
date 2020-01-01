@@ -463,8 +463,6 @@ htmlparser
 \
 js
 \
-xpconnect
-\
 pref
 \
 (

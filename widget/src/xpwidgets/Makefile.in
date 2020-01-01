@@ -456,8 +456,6 @@ lcms
 \
 thebes
 \
-cairo
-\
 (
 NULL
 )

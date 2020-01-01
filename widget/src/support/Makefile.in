@@ -424,8 +424,6 @@ REQUIRES
 =
 xpcom
 \
-string
-\
 gfx
 \
 (

@@ -461,9 +461,14 @@ BIN_SUFFIX
 )
 REQUIRES
 =
+\
 libmar
+\
 libbz2
-string
+\
+(
+NULL
+)
 LIBS
 +
 =
@@ -904,4 +909,8 @@ topsrcdir
 toolkit
 /
 xre
+REQUIRES
++
+=
+string
 endif

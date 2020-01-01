@@ -464,15 +464,9 @@ uconv
 \
 pref
 \
-uriloader
-\
-rdf
-\
 chardet
 \
 nkcache
-\
-lwbrk
 \
 imglib2
 \

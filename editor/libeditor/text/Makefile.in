@@ -439,8 +439,6 @@ txmgr
 \
 txtsvc
 \
-htmlparser
-\
 necko
 \
 pref

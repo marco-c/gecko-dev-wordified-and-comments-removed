@@ -432,8 +432,6 @@ REQUIRES
 =
 xpcom
 \
-gfx
-\
 string
 \
 imglib2
