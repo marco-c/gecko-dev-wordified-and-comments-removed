@@ -7847,7 +7847,7 @@ other_values
 1em
 "
 "
-27px
+47px
 "
 ]
 invalid_values
