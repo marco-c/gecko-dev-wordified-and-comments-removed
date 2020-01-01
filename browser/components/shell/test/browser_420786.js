@@ -576,12 +576,6 @@ test
 (
 )
 {
-finish
-(
-)
-;
-return
-;
 var
 osString
 =
