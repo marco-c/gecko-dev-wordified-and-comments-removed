@@ -52,3 +52,16 @@ textarea
 reftest
 .
 list
+#
+default
+:
+invalid
+style
+include
+default
+-
+style
+/
+reftest
+.
+list
