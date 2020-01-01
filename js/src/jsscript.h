@@ -25,7 +25,6 @@ jsdbgapi
 .
 h
 "
-JS_BEGIN_EXTERN_C
 typedef
 enum
 JSTryNoteKind
@@ -1265,6 +1264,5 @@ JSBool
 hasMagic
 )
 ;
-JS_END_EXTERN_C
 #
 endif
