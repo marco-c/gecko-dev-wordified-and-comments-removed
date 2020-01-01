@@ -2499,7 +2499,7 @@ stkd
 ;
 #
 endif
-STR_preindex
+STR
 (
 IP
 SP
@@ -2517,7 +2517,7 @@ d
 4
 )
 ;
-STR_preindex
+STR
 (
 IP
 SP
