@@ -784,6 +784,9 @@ dhwEnumerateLoadedModules
 GetCurrentProcess
 (
 )
+(
+PENUMLOADED_MODULES_CALLBACK
+)
 ModuleEnumCallback
 this
 )
