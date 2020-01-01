@@ -18,13 +18,7 @@ utf
 ?
 >
 <
-org
-.
-mozilla
-.
-gecko
-.
-BrowserToolbar
+LinearLayout
 xmlns
 :
 android
@@ -650,11 +644,5 @@ RelativeLayout
 >
 <
 /
-org
-.
-mozilla
-.
-gecko
-.
-BrowserToolbar
+LinearLayout
 >
