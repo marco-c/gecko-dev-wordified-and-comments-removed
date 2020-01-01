@@ -6922,7 +6922,9 @@ this
 return
 fun
 ?
-callobj
+maybeCallObj
+(
+)
 :
 seg
 -
@@ -6965,7 +6967,9 @@ this
 return
 fun
 ?
-callobj
+maybeCallObj
+(
+)
 :
 cx
 -
