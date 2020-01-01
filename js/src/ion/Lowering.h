@@ -1421,14 +1421,6 @@ ins
 )
 ;
 bool
-visitRunOncePrologue
-(
-MRunOncePrologue
-*
-ins
-)
-;
-bool
 visitRest
 (
 MRest

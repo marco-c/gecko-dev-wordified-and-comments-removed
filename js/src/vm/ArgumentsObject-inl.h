@@ -410,9 +410,6 @@ ArgumentsObject
 :
 setElement
 (
-JSContext
-*
-cx
 uint32_t
 i
 const
@@ -509,14 +506,7 @@ callobj
 .
 setAliasedVar
 (
-cx
 fi
-fi
--
->
-name
-(
-)
 v
 )
 ;

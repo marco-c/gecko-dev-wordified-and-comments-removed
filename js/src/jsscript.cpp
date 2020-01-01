@@ -15478,16 +15478,7 @@ asScope
 .
 setAliasedVar
 (
-cx
 pc
-cx
--
->
-names
-(
-)
-.
-arguments
 ObjectValue
 (
 *

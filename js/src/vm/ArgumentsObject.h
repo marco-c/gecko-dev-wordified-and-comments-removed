@@ -283,9 +283,6 @@ inline
 void
 setElement
 (
-JSContext
-*
-cx
 uint32_t
 i
 const
