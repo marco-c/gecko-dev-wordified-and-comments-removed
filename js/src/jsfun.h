@@ -1014,7 +1014,7 @@ fp
 )
 ;
 extern
-JSBool
+void
 js_PutCallObject
 (
 JSContext
@@ -1190,7 +1190,7 @@ fp
 )
 ;
 extern
-JSBool
+void
 js_PutArgsObject
 (
 JSContext

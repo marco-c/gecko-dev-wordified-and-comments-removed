@@ -1020,4 +1020,15 @@ js_CStringsAreUTF8
 #
 endif
 #
+define
+JS_ARGS_LENGTH_MAX
+(
+JS_BIT
+(
+24
+)
+-
+1
+)
+#
 endif

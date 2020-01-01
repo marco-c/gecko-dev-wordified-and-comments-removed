@@ -3361,9 +3361,6 @@ if
 injectFrame
 )
 {
-ok
-&
-=
 frame
 .
 putActivationObjects

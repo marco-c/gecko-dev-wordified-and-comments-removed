@@ -4851,6 +4851,14 @@ hookData
 ;
 JS_ASSERT
 (
+argc
+<
+=
+JS_ARGS_LENGTH_MAX
+)
+;
+JS_ASSERT
+(
 (
 jsval
 *
@@ -6207,9 +6215,6 @@ hookData
 )
 ;
 }
-ok
-&
-=
 frame
 .
 putActivationObjects

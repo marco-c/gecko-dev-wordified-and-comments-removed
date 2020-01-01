@@ -10886,8 +10886,7 @@ if
 (
 length
 >
-=
-ARRAY_INIT_LIMIT
+JS_ARGS_LENGTH_MAX
 )
 {
 JS_ReportErrorNumberUC

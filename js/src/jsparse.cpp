@@ -35538,7 +35538,7 @@ if
 index
 =
 =
-ARRAY_INIT_LIMIT
+JS_ARGS_LENGTH_MAX
 )
 {
 js_ReportCompileErrorNumber
