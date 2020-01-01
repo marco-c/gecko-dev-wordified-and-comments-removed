@@ -17541,6 +17541,9 @@ true
 }
 }
 ;
+#
+if
+0
 static
 JS_REQUIRES_STACK
 void
@@ -17599,6 +17602,8 @@ n
 )
 ;
 }
+#
+endif
 class
 FlushNativeGlobalFrameVisitor
 :
@@ -65945,6 +65950,9 @@ stackval
 )
 ;
 }
+#
+if
+0
 static
 bool
 SafeLookup
@@ -66066,6 +66074,8 @@ return
 true
 ;
 }
+#
+endif
 JS_REQUIRES_STACK
 RecordingStatus
 TraceRecorder
