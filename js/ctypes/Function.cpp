@@ -455,7 +455,7 @@ true
 if
 defined
 (
-XP_WIN32
+_WIN32
 )
 case
 nsIForeignLibrary
