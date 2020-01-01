@@ -113,7 +113,13 @@ Trace
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 *
 p
 const
@@ -293,7 +299,13 @@ Trace
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 *
 p
 const

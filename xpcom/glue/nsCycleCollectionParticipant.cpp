@@ -278,7 +278,13 @@ Trace
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 *
 p
 const
@@ -295,8 +301,12 @@ mCallback
 (
 JSVAL_TO_TRACEABLE
 (
-*
 p
+-
+>
+get
+(
+)
 )
 name
 closure

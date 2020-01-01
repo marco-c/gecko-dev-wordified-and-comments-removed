@@ -938,7 +938,13 @@ mKeyPath
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 mCachedKeyPath
 ;
 bool

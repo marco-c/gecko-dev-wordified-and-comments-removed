@@ -75,7 +75,13 @@ protected
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 mResult
 ;
 nsRefPtr

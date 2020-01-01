@@ -318,7 +318,16 @@ IDBTransaction
 >
 mTransaction
 ;
-jsval
+JS
+:
+:
+Heap
+<
+JS
+:
+:
+Value
+>
 mResultVal
 ;
 nsRefPtr

@@ -1714,7 +1714,6 @@ Lower
 ToJSVal
 (
 aCx
-&
 mCachedLowerVal
 )
 ;
@@ -1797,7 +1796,6 @@ Upper
 ToJSVal
 (
 aCx
-&
 mCachedUpperVal
 )
 ;

@@ -2143,7 +2143,13 @@ Trace
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 *
 p
 const
@@ -2157,7 +2163,7 @@ closure
 const
 MOZ_OVERRIDE
 {
-JS_CallValueTracer
+JS_CallHeapValueTracer
 (
 static_cast
 <

@@ -2467,7 +2467,13 @@ mNewRedirectChannel
 JS
 :
 :
+Heap
+<
+JS
+:
+:
 Value
+>
 mResultJSON
 ;
 js
