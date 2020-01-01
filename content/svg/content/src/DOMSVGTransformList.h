@@ -109,7 +109,10 @@ DOMSVGTransformList
 )
 DOMSVGTransformList
 (
-DOMSVGAnimatedTransformList
+dom
+:
+:
+SVGAnimatedTransformList
 *
 aAList
 const
@@ -617,7 +620,10 @@ mItems
 ;
 nsRefPtr
 <
-DOMSVGAnimatedTransformList
+dom
+:
+:
+SVGAnimatedTransformList
 >
 mAList
 ;

@@ -49,7 +49,7 @@ h
 #
 include
 "
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 .
 h
 "
@@ -73,12 +73,12 @@ aNodeInfo
 namespace
 mozilla
 {
-class
-DOMSVGAnimatedTransformList
-;
 namespace
 dom
 {
+class
+SVGAnimatedTransformList
+;
 typedef
 nsSVGElement
 SVGPatternElementBase
@@ -187,7 +187,7 @@ virtual
 mozilla
 :
 :
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (
@@ -246,7 +246,7 @@ PatternContentUnits
 ;
 already_AddRefed
 <
-DOMSVGAnimatedTransformList
+SVGAnimatedTransformList
 >
 PatternTransform
 (
@@ -371,7 +371,7 @@ nsAutoPtr
 mozilla
 :
 :
-SVGAnimatedTransformList
+nsSVGAnimatedTransformList
 >
 mPatternTransform
 ;
