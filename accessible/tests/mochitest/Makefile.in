@@ -506,6 +506,10 @@ role
 .
 js
 \
+test_accessnode_invalidation
+.
+html
+\
 test_actions_aria
 .
 html
@@ -737,10 +741,6 @@ js
 treeview
 .
 js
-\
-test_bug434464
-.
-html
 \
 z_states_frame
 .
