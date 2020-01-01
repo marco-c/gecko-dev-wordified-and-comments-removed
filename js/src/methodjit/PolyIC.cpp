@@ -15350,7 +15350,7 @@ dataReg
 }
 masm
 .
-loadPayload
+loadPrivate
 (
 Address
 (
