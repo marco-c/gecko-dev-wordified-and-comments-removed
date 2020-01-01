@@ -7,6 +7,9 @@ CLIENT_LINUX_CRASH_GENERATION_CLIENT_INFO_H_
 namespace
 google_breakpad
 {
+class
+CrashGenerationServer
+;
 struct
 ClientInfo
 {
