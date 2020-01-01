@@ -3409,7 +3409,7 @@ NULL
 }
 parent
 =
-JS_GetParent
+JS_GetParentOrScopeChain
 (
 jsdc
 -
