@@ -1,0 +1,14 @@
+foo
+(
+)
+;
+function
+foo
+(
+)
+{
+this
+(
+)
+;
+}
