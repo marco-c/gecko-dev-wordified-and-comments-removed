@@ -2453,7 +2453,7 @@ suggest
 .
 enabled
 "
-true
+false
 )
 ;
 pref
