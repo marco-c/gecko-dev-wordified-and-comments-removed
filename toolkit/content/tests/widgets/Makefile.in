@@ -451,6 +451,10 @@ test_colorpicker_popup
 .
 xul
 \
+test_menulist_keynav
+.
+xul
+\
 test_popup_coords
 .
 xul
