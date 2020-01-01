@@ -237,6 +237,10 @@ AcceptNode
 *
 aNode
 aResult
+CallbackObject
+:
+:
+eRethrowExceptions
 )
 ;
 }

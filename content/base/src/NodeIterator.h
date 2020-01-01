@@ -46,6 +46,7 @@ dom
 {
 class
 NodeIterator
+MOZ_FINAL
 :
 public
 nsIDOMNodeIterator
@@ -191,6 +192,18 @@ aResult
 )
 ;
 }
+JSObject
+*
+WrapObject
+(
+JSContext
+*
+cx
+JSObject
+*
+scope
+)
+;
 private
 :
 struct

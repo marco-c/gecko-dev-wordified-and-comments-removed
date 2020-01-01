@@ -53,6 +53,7 @@ dom
 {
 class
 TreeWalker
+MOZ_FINAL
 :
 public
 nsIDOMTreeWalker
@@ -220,6 +221,18 @@ NextNode
 ErrorResult
 &
 aResult
+)
+;
+JSObject
+*
+WrapObject
+(
+JSContext
+*
+cx
+JSObject
+*
+scope
 )
 ;
 private
