@@ -7946,8 +7946,16 @@ if
 hidden
 &
 &
+(
 !
 aIsRedirect
+|
+|
+aTransitionType
+=
+=
+TRANSITION_TYPED
+)
 &
 &
 aTransitionType
