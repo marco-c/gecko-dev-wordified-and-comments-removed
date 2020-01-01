@@ -2589,6 +2589,9 @@ _showRightsNotification
 (
 )
 ;
+#
+ifdef
+MOZ_TELEMETRY_REPORTING
 }
 else
 {
@@ -2598,6 +2601,8 @@ _showTelemetryNotification
 (
 )
 ;
+#
+endif
 }
 if
 (
@@ -4513,6 +4518,9 @@ e
 {
 }
 }
+#
+ifdef
+MOZ_TELEMETRY_REPORTING
 _showTelemetryNotification
 :
 function
@@ -4995,6 +5003,8 @@ link
 )
 ;
 }
+#
+endif
 _showPluginUpdatePage
 :
 function
