@@ -146,6 +146,10 @@ Accessible2
 .
 idl
 \
+Accessible2_2
+.
+idl
+\
 AccessibleAction
 .
 idl
@@ -158,6 +162,10 @@ AccessibleComponent
 .
 idl
 \
+AccessibleDocument
+.
+idl
+\
 AccessibleEditableText
 .
 idl
@@ -167,6 +175,10 @@ AccessibleHyperlink
 idl
 \
 AccessibleHypertext
+.
+idl
+\
+AccessibleHypertext2
 .
 idl
 \
@@ -191,6 +203,10 @@ AccessibleTableCell
 idl
 \
 AccessibleText
+.
+idl
+\
+AccessibleText2
 .
 idl
 \
