@@ -2858,12 +2858,6 @@ actualFormat
 aFormat
 )
 ;
-actualFormat
-.
-samples
-=
-0
-;
 nsRefPtr
 <
 GLContextCGL
