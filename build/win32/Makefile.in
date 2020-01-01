@@ -468,6 +468,8 @@ crashinject
 .
 cpp
 endif
+#
+ENABLE_TESTS
 include
 (
 topsrcdir
@@ -478,6 +480,8 @@ config
 rules
 .
 mk
+ifndef
+MOZ_MEMORY
 ifdef
 WIN32_REDIST_DIR
 ifeq
@@ -570,7 +574,6 @@ dll
 NULL
 )
 endif
-endif
 ifdef
 REDIST_FILES
 libs
@@ -608,3 +611,10 @@ f
 FINAL_TARGET
 )
 endif
+endif
+#
+WIN32_REDIST_DIR
+endif
+#
+!
+MOZ_MEMORY
