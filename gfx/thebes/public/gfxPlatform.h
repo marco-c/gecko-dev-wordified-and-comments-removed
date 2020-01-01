@@ -54,6 +54,9 @@ class
 gfxImageSurface
 ;
 class
+gfxFont
+;
+class
 gfxFontGroup
 ;
 struct
