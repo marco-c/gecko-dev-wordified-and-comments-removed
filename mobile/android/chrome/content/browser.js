@@ -3572,7 +3572,7 @@ getComplexValue
 prefName
 Ci
 .
-nsISupportsString
+nsIPrefLocalizedString
 )
 .
 data
