@@ -14794,7 +14794,6 @@ unsigned
 long
 u
 )
-;
 #
 endif
 LSS_INLINE
@@ -14907,7 +14906,6 @@ void
 *
 unused
 )
-;
 #
 endif
 #
