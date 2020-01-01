@@ -10,6 +10,8 @@ waitForExplicitFinish
 newWindowWithTabView
 (
 onTabViewShown
+null
+850
 )
 ;
 }
