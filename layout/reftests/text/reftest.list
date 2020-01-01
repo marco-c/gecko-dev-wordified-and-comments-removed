@@ -44,12 +44,6 @@ lang
 ref
 .
 html
-fails
--
-if
-(
-gtk2Widget
-)
 HTTP
 (
 .
@@ -77,12 +71,6 @@ generic
 ref
 .
 html
-#
-reviewed
-patch
-in
-bug
-546315
 fails
 -
 if
