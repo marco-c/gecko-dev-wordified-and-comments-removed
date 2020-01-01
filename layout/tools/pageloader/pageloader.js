@@ -658,17 +658,6 @@ getBrowser
 (
 )
 ;
-content
-.
-addEventListener
-(
-'
-load
-'
-plLoadHandler
-true
-)
-;
 setTimeout
 (
 plLoadPage
