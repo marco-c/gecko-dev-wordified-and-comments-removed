@@ -66,6 +66,7 @@ cx
 RegExpStatics
 *
 res
+const
 RegExpMatcher
 &
 matcher
