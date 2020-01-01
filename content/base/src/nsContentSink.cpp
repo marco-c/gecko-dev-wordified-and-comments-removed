@@ -931,6 +931,7 @@ ontimer
 "
 &
 sNotifyOnTimer
+PR_TRUE
 )
 ;
 nsContentUtils
