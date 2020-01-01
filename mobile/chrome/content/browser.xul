@@ -3725,7 +3725,7 @@ enabled
 title
 ;
 "
-onsyncfrompreference
+onsynctopreference
 =
 "
 Browser
