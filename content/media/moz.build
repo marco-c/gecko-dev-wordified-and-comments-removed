@@ -338,11 +338,6 @@ AudioNodeEngine
 h
 '
 '
-AudioNodeExternalInputStream
-.
-h
-'
-'
 AudioNodeStream
 .
 h
@@ -543,11 +538,6 @@ cpp
 '
 '
 AudioNodeEngine
-.
-cpp
-'
-'
-AudioNodeExternalInputStream
 .
 cpp
 '
