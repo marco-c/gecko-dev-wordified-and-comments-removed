@@ -825,6 +825,10 @@ DisconnectFromPresShell
 (
 )
 {
+StopAutoScrollTimer
+(
+)
+;
 mShell
 =
 nsnull
