@@ -100,6 +100,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ClearOnShutdown
 .
 h
@@ -315,7 +324,7 @@ return
 hidden
 ;
 }
-nsAutoPtr
+StaticAutoPtr
 <
 WindowIdentifier
 :

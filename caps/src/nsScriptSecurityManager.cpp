@@ -402,6 +402,15 @@ ClearOnShutdown
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
 using
 namespace
 mozilla
@@ -12119,7 +12128,7 @@ NS_OK
 ;
 }
 static
-nsRefPtr
+StaticRefPtr
 <
 nsScriptSecurityManager
 >

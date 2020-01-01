@@ -67,7 +67,7 @@ NS_IMPL_ISUPPORTS1
 PowerManagerService
 nsIPowerManagerService
 )
-nsRefPtr
+StaticRefPtr
 <
 PowerManagerService
 >

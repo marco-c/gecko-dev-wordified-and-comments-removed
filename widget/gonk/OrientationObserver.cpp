@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Hal
 .
 h
@@ -525,7 +534,7 @@ NS_ERROR_ILLEGAL_VALUE
 ;
 }
 static
-nsAutoPtr
+StaticAutoPtr
 <
 OrientationObserver
 >

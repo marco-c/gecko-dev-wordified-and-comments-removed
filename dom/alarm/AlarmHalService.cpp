@@ -58,7 +58,7 @@ UnregisterTheOneAlarmObserver
 ;
 }
 }
-nsRefPtr
+StaticRefPtr
 <
 AlarmHalService
 >

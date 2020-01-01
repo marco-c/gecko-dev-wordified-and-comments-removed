@@ -109,6 +109,15 @@ LinkedList
 h
 "
 #
+include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -896,7 +905,7 @@ Run
 private
 :
 static
-nsRefPtr
+StaticRefPtr
 <
 DecodeWorker
 >

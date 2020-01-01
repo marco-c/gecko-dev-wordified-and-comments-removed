@@ -55,6 +55,15 @@ Types
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -125,7 +134,7 @@ aState
 )
 ;
 static
-nsRefPtr
+StaticRefPtr
 <
 PowerManagerService
 >

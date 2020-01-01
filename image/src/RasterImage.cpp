@@ -542,7 +542,7 @@ mozilla
 namespace
 image
 {
-nsRefPtr
+StaticRefPtr
 <
 RasterImage
 :
