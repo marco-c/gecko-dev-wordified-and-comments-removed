@@ -167,3 +167,15 @@ frame
 handling
 )
 .
+bug518169
+.
+patch
+:
+Fix
+bug
+518169
+fix
+faster_seek
+.
+patch
+.
