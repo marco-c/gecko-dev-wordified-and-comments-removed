@@ -1002,7 +1002,7 @@ hr
 :
 SHGetSpecialFolderLocation
 (
-NULL
+nullptr
 aFolder
 &
 idList
@@ -1913,7 +1913,7 @@ NS_ERROR_NOT_AVAILABLE
 HICON
 hIcon
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -2002,7 +2002,7 @@ hDC
 =
 CreateCompatibleDC
 (
-NULL
+nullptr
 )
 ;
 BITMAPINFOHEADER
@@ -2039,7 +2039,7 @@ iconInfo
 hbmMask
 0
 0
-NULL
+nullptr
 (
 BITMAPINFO
 *
@@ -2058,7 +2058,7 @@ iconInfo
 hbmColor
 0
 0
-NULL
+nullptr
 (
 BITMAPINFO
 *

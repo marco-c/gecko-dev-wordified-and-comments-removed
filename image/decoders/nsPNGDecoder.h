@@ -162,9 +162,9 @@ png_height
 png_bit_depth
 &
 png_color_type
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 )
 {

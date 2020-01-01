@@ -4051,7 +4051,7 @@ gfxASurface
 :
 :
 MEMORY_IN_PROCESS_NONHEAP
-NULL
+nullptr
 )
 ;
 }
@@ -4071,7 +4071,7 @@ gfxASurface
 :
 :
 MEMORY_OUT_OF_PROCESS
-NULL
+nullptr
 )
 ;
 }

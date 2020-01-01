@@ -137,7 +137,7 @@ DiscardTracker
 :
 sAllocationLock
 =
-NULL
+nullptr
 ;
 NS_IMETHODIMP
 DiscardTracker
@@ -390,7 +390,7 @@ Cancel
 ;
 sTimer
 =
-NULL
+nullptr
 ;
 }
 DiscardAll

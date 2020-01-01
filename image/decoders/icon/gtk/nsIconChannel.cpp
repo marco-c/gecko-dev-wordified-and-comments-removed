@@ -1425,7 +1425,7 @@ gtk_icon_size_lookup
 icon_size
 &
 size
-NULL
+nullptr
 )
 ;
 return
@@ -1712,9 +1712,9 @@ get
 "
 1
 empty
-NULL
+nullptr
 0
-NULL
+nullptr
 )
 ;
 }
@@ -1983,13 +1983,13 @@ name
 _gnome_icon_lookup
 (
 gIconTheme
-NULL
+nullptr
 spec
 .
 get
 (
 )
-NULL
+nullptr
 &
 fileInfo
 type
@@ -1998,7 +1998,7 @@ get
 (
 )
 GNOME_ICON_LOOKUP_FLAGS_NONE
-NULL
+nullptr
 )
 ;
 _gnome_vfs_file_info_clear
@@ -2141,7 +2141,7 @@ GIcon
 *
 icon
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -2222,8 +2222,8 @@ g_file_query_info
 file
 G_FILE_ATTRIBUTE_STANDARD_ICON
 G_FILE_QUERY_INFO_NONE
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 g_object_unref
@@ -2337,7 +2337,7 @@ char
 *
 ctype
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2392,7 +2392,7 @@ GtkIconInfo
 *
 iconInfo
 =
-NULL
+nullptr
 ;
 int32_t
 iconSize
@@ -2465,7 +2465,7 @@ buf
 gtk_icon_info_load_icon
 (
 iconInfo
-NULL
+nullptr
 )
 ;
 gtk_icon_info_free
@@ -2841,7 +2841,7 @@ GtkIconSet
 *
 icon_set
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2920,7 +2920,7 @@ direction
 state
 icon_size
 gStockImageWidget
-NULL
+nullptr
 )
 ;
 if

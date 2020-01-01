@@ -80,11 +80,11 @@ kIconCIDs
 &
 kNS_ICONPROTOCOL_CID
 false
-NULL
+nullptr
 nsIconProtocolHandlerConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -113,7 +113,7 @@ icon
 kNS_ICONPROTOCOL_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -132,7 +132,7 @@ kIconCategories
 =
 {
 {
-NULL
+nullptr
 }
 }
 ;
@@ -174,8 +174,8 @@ kVersion
 kIconCIDs
 kIconContracts
 kIconCategories
-NULL
-NULL
+nullptr
+nullptr
 IconDecoderModuleDtor
 }
 ;

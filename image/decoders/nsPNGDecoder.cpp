@@ -507,8 +507,8 @@ mInfo
 &
 mInfo
 :
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -1024,7 +1024,7 @@ mPNG
 png_create_read_struct
 (
 PNG_LIBPNG_VER_STRING
-NULL
+nullptr
 nsPNGDecoder
 :
 :
@@ -1071,8 +1071,8 @@ png_destroy_read_struct
 (
 &
 mPNG
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 return
@@ -1410,7 +1410,7 @@ png_destroy_read_struct
 mPNG
 &
 mInfo
-NULL
+nullptr
 )
 ;
 return
@@ -2015,7 +2015,7 @@ channels
 png_bytep
 trans
 =
-NULL
+nullptr
 ;
 int
 num_trans
@@ -2660,7 +2660,7 @@ nsPNGDecoder
 :
 :
 frame_info_callback
-NULL
+nullptr
 )
 ;
 if
