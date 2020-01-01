@@ -138,10 +138,6 @@ thumbnails_background
 .
 sjs
 \
-thumbnails_crash_content_helper
-.
-js
-\
 thumbnails_update
 .
 sjs
