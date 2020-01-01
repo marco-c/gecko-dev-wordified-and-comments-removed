@@ -4371,7 +4371,7 @@ test_os2
 cmd
 "
 (
-LIBXUL_DIST
+DIST
 )
 "
 else
@@ -4385,7 +4385,7 @@ OS_ARCH
 RUN_TEST_PROGRAM
 =
 (
-LIBXUL_DIST
+DIST
 )
 /
 bin
