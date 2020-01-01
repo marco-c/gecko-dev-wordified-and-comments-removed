@@ -146,6 +146,11 @@ int
 aHeight
 )
 ;
+void
+NotifyDOMTouchListenerAdded
+(
+)
+;
 bool
 SampleContentTransformForFrame
 (
@@ -487,6 +492,9 @@ mDPI
 ;
 ContentPainterStatus
 mContentPainterStatus
+;
+bool
+mMayHaveTouchListeners
 ;
 friend
 class
