@@ -112,6 +112,8 @@ genForContext
 (
 context
 )
+.
+output
 ;
 isDeeply
 (
