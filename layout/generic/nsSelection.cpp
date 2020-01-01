@@ -15819,7 +15819,7 @@ nsRange
 *
 aRange
 bool
-aFlags
+aSelect
 )
 {
 if
@@ -16074,7 +16074,7 @@ SetSelectedRange
 (
 startOffset
 endOffset
-aFlags
+aSelect
 mType
 )
 ;
@@ -16138,7 +16138,7 @@ SelectAllFramesForContent
 (
 inneriter
 content
-aFlags
+aSelect
 )
 ;
 }
@@ -16258,7 +16258,7 @@ aRange
 EndOffset
 (
 )
-aFlags
+aSelect
 mType
 )
 ;
