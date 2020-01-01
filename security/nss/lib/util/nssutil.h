@@ -27,7 +27,6 @@ NSSUTIL_VERSION
 9
 .
 0
-Beta
 "
 #
 define
@@ -48,6 +47,6 @@ NSSUTIL_VBUILD
 #
 define
 NSSUTIL_BETA
-PR_TRUE
+PR_FALSE
 #
 endif
