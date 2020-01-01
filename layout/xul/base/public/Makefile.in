@@ -113,10 +113,6 @@ nsIScrollBoxObject
 .
 idl
 \
-nsIScrollBoxObject
-.
-idl
-\
 nsIPopupBoxObject
 .
 idl

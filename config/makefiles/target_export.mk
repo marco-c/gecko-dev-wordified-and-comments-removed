@@ -229,15 +229,6 @@ SUBMAKEFILES
 MAKE_DIRS
 )
 (
-if
-(
-XPIDLSRCS
-)
-(
-IDL_DIR
-)
-)
-(
 LOOP_OVER_DIRS
 )
 (
