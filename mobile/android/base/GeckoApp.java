@@ -9907,6 +9907,7 @@ getInstance
 .
 init
 (
+this
 )
 ;
 GeckoNetworkManager
