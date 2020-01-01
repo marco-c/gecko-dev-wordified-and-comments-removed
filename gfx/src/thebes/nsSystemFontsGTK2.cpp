@@ -745,7 +745,7 @@ size
 =
 float
 (
-gfxPlatform
+gfxPlatformGtk
 :
 :
 GetDPI
