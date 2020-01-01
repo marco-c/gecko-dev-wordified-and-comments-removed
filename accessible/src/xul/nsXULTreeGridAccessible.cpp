@@ -4576,6 +4576,10 @@ IsDefunct
 nsnull
 :
 mParent
+.
+get
+(
+)
 ;
 }
 PRInt32

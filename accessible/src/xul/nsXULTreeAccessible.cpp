@@ -4169,6 +4169,10 @@ IsDefunct
 nsnull
 :
 mParent
+.
+get
+(
+)
 ;
 }
 void
