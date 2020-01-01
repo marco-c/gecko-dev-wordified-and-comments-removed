@@ -3149,15 +3149,10 @@ azure
 ;
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 azure
 )
 {
+nsresult
 rv
 =
 NS_NewCanvasRenderingContext2DAzure
