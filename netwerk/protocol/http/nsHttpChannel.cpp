@@ -17539,6 +17539,10 @@ mChannelCreationTime
 +
 \
 (
+PRTime
+)
+(
+(
 stamp
 -
 mChannelCreationTimestamp
@@ -17549,6 +17553,7 @@ ToSeconds
 )
 *
 1e6
+)
 ;
 \
 return
