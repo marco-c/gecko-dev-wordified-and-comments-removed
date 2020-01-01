@@ -167,6 +167,13 @@ padding
 0px
 4px
 ;
+color
+:
+-
+moz
+-
+menubartext
+;
 }
 menubar
 >
@@ -183,7 +190,10 @@ true
 {
 color
 :
-MenuText
+-
+moz
+-
+menubartext
 ;
 }
 menubar
@@ -198,7 +208,7 @@ color
 -
 moz
 -
-menuhovertext
+menubarhovertext
 ;
 background
 -

@@ -447,6 +447,9 @@ break
 case
 eColor_menutext
 :
+case
+eColor__moz_menubartext
+:
 idx
 =
 SYSCLR_MENUTEXT

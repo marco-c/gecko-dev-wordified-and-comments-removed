@@ -2587,6 +2587,11 @@ nsILookAndFeel
 :
 :
 eColor__moz_menuhovertext
+eCSSKeyword__moz_menubartext
+nsILookAndFeel
+:
+:
+eColor__moz_menubartext
 eCSSKeyword__moz_menubarhovertext
 nsILookAndFeel
 :

@@ -809,6 +809,14 @@ CSS_KEY
 -
 moz
 -
+menubartext
+_moz_menubartext
+)
+CSS_KEY
+(
+-
+moz
+-
 menubarhovertext
 _moz_menubarhovertext
 )
