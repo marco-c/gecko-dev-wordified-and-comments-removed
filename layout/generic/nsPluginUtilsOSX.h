@@ -95,6 +95,11 @@ NPCoordinateSpace
 destSpace
 )
 ;
+CGColorSpaceRef
+CreateSystemColorSpace
+(
+)
+;
 struct
 _CGLPBufferObject
 ;
