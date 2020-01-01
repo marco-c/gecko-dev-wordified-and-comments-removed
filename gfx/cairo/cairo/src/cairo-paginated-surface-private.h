@@ -36,12 +36,6 @@ target
 cairo_content_t
 content
 ;
-int
-width
-;
-int
-height
-;
 const
 cairo_paginated_surface_backend_t
 *
@@ -49,7 +43,7 @@ backend
 ;
 cairo_surface_t
 *
-meta
+recording_surface
 ;
 int
 page_num

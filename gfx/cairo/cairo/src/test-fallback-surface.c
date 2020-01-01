@@ -367,8 +367,6 @@ abstract_surface
 cairo_surface_t
 *
 src
-cairo_content_t
-content
 int
 src_x
 int
@@ -438,7 +436,7 @@ CAIRO_INT_STATUS_UNSUPPORTED
 ;
 }
 static
-cairo_int_status_t
+cairo_bool_t
 _test_fallback_surface_get_extents
 (
 void
@@ -480,8 +478,6 @@ _test_fallback_surface_release_source_image
 _test_fallback_surface_acquire_dest_image
 _test_fallback_surface_release_dest_image
 _test_fallback_surface_clone_similar
-NULL
-NULL
 NULL
 NULL
 NULL
