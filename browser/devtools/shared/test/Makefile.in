@@ -82,6 +82,14 @@ mk
 MOCHITEST_BROWSER_FILES
 =
 \
+browser_telemetry_toolboxtabs
+.
+js
+\
+browser_telemetry_buttonsandsidebar
+.
+js
+\
 browser_require_basic
 .
 js
