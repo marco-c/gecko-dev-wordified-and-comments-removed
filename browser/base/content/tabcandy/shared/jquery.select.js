@@ -370,6 +370,12 @@ container
 "
 html
 "
+fill
+:
+false
+strokeWidth
+:
+3
 }
 )
 ;
