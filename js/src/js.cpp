@@ -6847,6 +6847,16 @@ str
 return
 JS_FALSE
 ;
+argv
+[
+0
+]
+=
+STRING_TO_JSVAL
+(
+str
+)
+;
 filename
 =
 JS_GetStringBytes
