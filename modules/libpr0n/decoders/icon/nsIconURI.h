@@ -74,9 +74,9 @@ protected
 :
 nsCOMPtr
 <
-nsIURI
+nsIURL
 >
-mFileIcon
+mIconURL
 ;
 PRUint32
 mSize
@@ -85,7 +85,7 @@ nsCString
 mContentType
 ;
 nsCString
-mDummyFilePath
+mFileName
 ;
 nsCString
 mStockIcon
