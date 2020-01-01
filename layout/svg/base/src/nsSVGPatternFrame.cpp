@@ -2330,6 +2330,7 @@ GetContent
 }
 NS_ASSERTION
 (
+*
 aTargetContent
 "
 Caller
@@ -2345,6 +2346,7 @@ content
 if
 (
 !
+*
 aTargetContent
 )
 return
