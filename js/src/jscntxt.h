@@ -3285,17 +3285,6 @@ cx
 }
 ;
 struct
-JSGCTracer
-:
-public
-JSTracer
-{
-uint32
-color
-;
-}
-;
-struct
 JSRuntime
 {
 JSCompartment
@@ -3383,7 +3372,7 @@ gcEmptyArenaPoolLifespan
 uint32
 gcNumber
 ;
-JSGCTracer
+JSTracer
 *
 gcMarkingTracer
 ;
@@ -4526,6 +4515,9 @@ resolvingTable
 ;
 JSPackedBool
 generatingError
+;
+JSPackedBool
+insideGCMarkCallback
 ;
 JSPackedBool
 throwing
