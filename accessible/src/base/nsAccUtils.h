@@ -67,13 +67,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h
