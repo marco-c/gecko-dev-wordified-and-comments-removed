@@ -1155,6 +1155,10 @@ native
 void
 scheduleResumeComposition
 (
+int
+width
+int
+height
 )
 ;
 private

@@ -830,6 +830,10 @@ static
 void
 ScheduleResumeComposition
 (
+int
+width
+int
+height
 )
 ;
 virtual

@@ -1652,12 +1652,18 @@ public
 void
 compositionResumeRequested
 (
+int
+width
+int
+height
 )
 {
 GeckoAppShell
 .
 scheduleResumeComposition
 (
+width
+height
 )
 ;
 GeckoAppShell
@@ -1696,6 +1702,8 @@ height
 ;
 compositionResumeRequested
 (
+width
+height
 )
 ;
 renderRequested

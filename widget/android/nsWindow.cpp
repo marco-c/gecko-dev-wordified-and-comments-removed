@@ -11745,6 +11745,10 @@ nsWindow
 :
 ScheduleResumeComposition
 (
+int
+width
+int
+height
 )
 {
 if
@@ -11757,6 +11761,8 @@ sCompositorParent
 >
 ScheduleResumeOnCompositorThread
 (
+width
+height
 )
 ;
 }
