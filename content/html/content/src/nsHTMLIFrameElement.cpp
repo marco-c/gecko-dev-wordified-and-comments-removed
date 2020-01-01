@@ -348,6 +348,12 @@ nsHTMLIFrameElement
 Width
 width
 )
+NS_IMPL_BOOL_ATTR
+(
+nsHTMLIFrameElement
+MozAllowFullScreen
+mozallowfullscreen
+)
 NS_IMETHODIMP
 nsHTMLIFrameElement
 :
