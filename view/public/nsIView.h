@@ -271,6 +271,15 @@ return
 mDimBounds
 ;
 }
+void
+SetInvalidationDimensions
+(
+const
+nsRect
+*
+aRect
+)
+;
 nsPoint
 GetOffsetTo
 (
