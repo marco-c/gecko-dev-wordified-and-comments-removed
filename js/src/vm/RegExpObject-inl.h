@@ -395,9 +395,6 @@ enabled
 )
 ;
 }
-#
-if
-ENABLE_YARR_JIT
 inline
 bool
 detail
@@ -439,8 +436,6 @@ true
 #
 endif
 }
-#
-endif
 inline
 bool
 RegExpToShared
