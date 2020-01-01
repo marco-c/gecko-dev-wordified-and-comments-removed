@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIDOM3Attr
-.
-h
-"
-#
-include
-"
 nsDOMAttributeMap
 .
 h
@@ -96,8 +89,6 @@ nsIAttribute
 public
 nsIDOMAttr
 public
-nsIDOM3Attr
-public
 nsStubMutationObserver
 {
 public
@@ -129,7 +120,6 @@ nsDOMAttribute
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMNODE
 NS_DECL_NSIDOMATTR
-NS_DECL_NSIDOM3ATTR
 virtual
 nsresult
 PreHandleEvent

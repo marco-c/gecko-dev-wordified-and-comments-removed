@@ -490,10 +490,6 @@ NULL
 XPIDLSRCS
 =
 \
-nsIDOM3Attr
-.
-idl
-\
 nsIDOMDOMStringList
 .
 idl

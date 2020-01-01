@@ -577,13 +577,6 @@ h
 #
 include
 "
-nsIDOM3Attr
-.
-h
-"
-#
-include
-"
 nsIDOMNodeList
 .
 h
@@ -11105,10 +11098,6 @@ nsIDOMAttr
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMAttr
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOM3Attr
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
