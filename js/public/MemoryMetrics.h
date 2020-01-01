@@ -242,10 +242,6 @@ gcHeapChunkAdmin
 (
 0
 )
-gcHeapFragmentationPercentage
-(
-0
-)
 totalObjects
 (
 0
@@ -342,9 +338,6 @@ gcHeapArenaUnused
 ;
 size_t
 gcHeapChunkAdmin
-;
-size_t
-gcHeapFragmentationPercentage
 ;
 size_t
 totalObjects

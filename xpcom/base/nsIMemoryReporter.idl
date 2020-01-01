@@ -1850,6 +1850,16 @@ be
 1234
 .
 *
+*
+Values
+greater
+than
+100
+%
+are
+allowed
+.
+*
 /
 const
 PRInt32
