@@ -285,13 +285,6 @@ libs
 :
 :
 (
-call
-mkdir_deps
-(
-FINAL_TARGET
-)
-)
-(
 PYTHON
 )
 (

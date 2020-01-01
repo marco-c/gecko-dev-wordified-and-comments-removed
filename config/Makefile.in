@@ -901,12 +901,6 @@ writemozinfo
 .
 py
 \
-unit
--
-mozunit
-.
-py
-\
 (
 NULL
 )

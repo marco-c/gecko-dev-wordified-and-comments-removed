@@ -101,13 +101,3 @@ python
 blessings
 :
 develop
-mozilla
-.
-pth
-:
-build
-mozilla
-.
-pth
-:
-config
