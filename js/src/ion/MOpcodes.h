@@ -44,6 +44,11 @@ Test
 \
 _
 (
+Compare
+)
+\
+_
+(
 Phi
 )
 \
