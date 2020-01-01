@@ -3373,12 +3373,6 @@ aData
 NS_ASSERTION
 (
 aIndex
->
-=
-0
-&
-&
-aIndex
 <
 uint32_t
 (
@@ -15817,12 +15811,6 @@ NS_ERROR_FAILURE
 }
 NS_ASSERTION
 (
-index
->
-=
-0
-&
-&
 index
 <
 uint32_t
