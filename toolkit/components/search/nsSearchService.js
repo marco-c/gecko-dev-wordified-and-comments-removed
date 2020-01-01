@@ -9264,6 +9264,7 @@ quoteStart
 .
 length
 ;
+let
 valueEnd
 =
 lLine
@@ -9325,6 +9326,7 @@ n
 aLines
 )
 ;
+let
 lines
 =
 aLines
