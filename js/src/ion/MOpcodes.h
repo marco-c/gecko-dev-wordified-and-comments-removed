@@ -59,6 +59,11 @@ OsrValue
 \
 _
 (
+CheckOverRecursed
+)
+\
+_
+(
 PrepareCall
 )
 \
