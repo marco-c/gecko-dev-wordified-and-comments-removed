@@ -686,8 +686,6 @@ inline
 void
 Mark
 (
-JSContext
-*
 )
 ;
 JSBool
