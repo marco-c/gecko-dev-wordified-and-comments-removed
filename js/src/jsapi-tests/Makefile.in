@@ -541,6 +541,10 @@ testOps
 .
 cpp
 \
+testOriginPrincipals
+.
+cpp
+\
 testParseJSON
 .
 cpp
