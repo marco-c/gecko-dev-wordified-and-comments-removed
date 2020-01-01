@@ -198,9 +198,9 @@ nsUrlClassifierDBService
 nsresult
 LookupURI
 (
-nsIURI
+nsIPrincipal
 *
-uri
+aPrincipal
 nsIUrlClassifierCallback
 *
 c
