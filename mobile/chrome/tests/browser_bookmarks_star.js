@@ -467,7 +467,7 @@ star
 "
 )
 ;
-var
+let
 starbutton
 =
 document
@@ -523,7 +523,7 @@ function
 (
 )
 {
-var
+let
 contentarea
 =
 document
@@ -531,9 +531,7 @@ document
 getElementById
 (
 "
-tile
--
-container
+browsers
 "
 )
 ;
