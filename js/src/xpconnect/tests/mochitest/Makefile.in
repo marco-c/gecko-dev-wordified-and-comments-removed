@@ -444,6 +444,10 @@ test_bug390488
 .
 html
 \
+test_xow
+.
+html
+\
 (
 NULL
 )
