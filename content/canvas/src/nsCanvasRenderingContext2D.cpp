@@ -8876,6 +8876,16 @@ GetLength
 (
 )
 mDoMeasureBoundingBox
+?
+gfxFont
+:
+:
+TIGHT_INK_EXTENTS
+:
+gfxFont
+:
+:
+LOOSE_INK_EXTENTS
 mThebes
 nsnull
 )

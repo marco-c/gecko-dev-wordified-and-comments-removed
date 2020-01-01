@@ -1729,7 +1729,10 @@ MeasureText
 (
 aStart
 aLength
-PR_TRUE
+gfxFont
+:
+:
+TIGHT_HINTED_OUTLINE_EXTENTS
 aContext
 -
 >
