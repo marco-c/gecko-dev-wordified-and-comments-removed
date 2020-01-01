@@ -1559,6 +1559,12 @@ endif
 endif
 #
 }
+OS_CXXFLAGS
++
+=
+(
+TK_CFLAGS
+)
 include
 (
 topsrcdir
