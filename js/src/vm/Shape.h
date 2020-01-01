@@ -1,9 +1,9 @@
 #
 ifndef
-jsscope_h___
+Shape_h___
 #
 define
-jsscope_h___
+Shape_h___
 #
 include
 "
