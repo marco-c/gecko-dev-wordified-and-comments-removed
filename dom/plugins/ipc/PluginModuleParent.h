@@ -1341,6 +1341,14 @@ mHangID
 ;
 #
 ifdef
+XP_WIN
+float
+mPluginCpuUsageOnHang
+;
+#
+endif
+#
+ifdef
 MOZ_X11
 ScopedClose
 mPluginXSocketFdDup
