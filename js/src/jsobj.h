@@ -2156,6 +2156,9 @@ const
 void
 rollbackProperties
 (
+JSContext
+*
+cx
 uint32
 slotSpan
 )
