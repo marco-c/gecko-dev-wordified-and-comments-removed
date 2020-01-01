@@ -1734,12 +1734,6 @@ nsIDOMStorage
 >
 mStorages
 ;
-PRInt32
-mPreviousTransIndex
-;
-PRInt32
-mLoadedTransIndex
-;
 nsAutoPtr
 <
 nsDocShellEditorData
