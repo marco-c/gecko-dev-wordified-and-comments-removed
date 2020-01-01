@@ -5,9 +5,22 @@ re
 import
 histogram_tools
 import
-simplejson
-as
 json
+try
+:
+    
+from
+collections
+import
+OrderedDict
+except
+ImportError
+:
+    
+from
+simplejson
+import
+OrderedDict
 startup_histogram_re
 =
 re
@@ -42,8 +55,6 @@ argv
     
 all_histograms
 =
-json
-.
 OrderedDict
 (
 )
@@ -69,8 +80,6 @@ name
         
 parameters
 =
-json
-.
 OrderedDict
 (
 )
