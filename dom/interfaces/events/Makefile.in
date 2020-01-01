@@ -250,6 +250,10 @@ nsIDOMCompositionEvent
 .
 idl
 \
+nsIDOMWheelEvent
+.
+idl
+\
 nsIWifiEventInits
 .
 idl

@@ -128,6 +128,10 @@ MouseScrollEvent
 )
 DOMCI_CLASS
 (
+WheelEvent
+)
+DOMCI_CLASS
+(
 DragEvent
 )
 DOMCI_CLASS

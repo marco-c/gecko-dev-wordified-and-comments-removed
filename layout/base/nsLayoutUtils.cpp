@@ -4978,6 +4978,15 @@ aEvent
 eventStructType
 !
 =
+NS_WHEEL_EVENT
+&
+&
+aEvent
+-
+>
+eventStructType
+!
+=
 NS_DRAG_EVENT
 &
 &

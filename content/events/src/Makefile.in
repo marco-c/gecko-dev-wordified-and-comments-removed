@@ -270,6 +270,10 @@ nsDOMCompositionEvent
 .
 cpp
 \
+DOMWheelEvent
+.
+cpp
+\
 (
 NULL
 )

@@ -153,6 +153,9 @@ mozilla
 namespace
 widget
 {
+class
+WheelEvent
+;
 enum
 Modifier
 {

@@ -390,6 +390,10 @@ test_dom_mouse_event
 .
 html
 \
+test_dom_wheel_event
+.
+html
+\
 test_bug603008
 .
 html
