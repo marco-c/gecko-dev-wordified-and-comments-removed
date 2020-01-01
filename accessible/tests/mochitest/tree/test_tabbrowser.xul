@@ -507,11 +507,7 @@ differ
 .
 if
 (
-"
-restoreTab
-"
-in
-tabBrowser
+SEAMONKEY
 )
 {
 SimpleTest
