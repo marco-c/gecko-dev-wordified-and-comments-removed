@@ -570,6 +570,16 @@ NrIceCtx
 >
 SignalCompleted
 ;
+sigslot
+:
+:
+signal1
+<
+NrIceCtx
+*
+>
+SignalFailed
+;
 nsCOMPtr
 <
 nsIEventTarget
