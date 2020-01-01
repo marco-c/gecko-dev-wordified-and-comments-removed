@@ -2609,6 +2609,10 @@ return
 [
 scrollbox
 qinterface
+(
+elem
+?
+(
 elem
 .
 customDragger
@@ -2617,6 +2621,10 @@ customDragger
 this
 .
 _defaultDragger
+)
+:
+null
+)
 ]
 ;
 }
