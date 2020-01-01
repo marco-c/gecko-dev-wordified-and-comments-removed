@@ -271,7 +271,7 @@ Shutdown
 (
 )
 ;
-nsresult
+NS_IMETHOD
 GetState
 (
 PRUint32
