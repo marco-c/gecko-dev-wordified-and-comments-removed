@@ -5775,7 +5775,7 @@ browserBundle
 formatStringFromName
 (
 "
-telemetryPrompt
+telemetryOptInPrompt
 "
 [
 productName
