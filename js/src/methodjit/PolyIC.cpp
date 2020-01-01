@@ -12065,10 +12065,10 @@ sp
 .
 setString
 (
-pic
--
->
-atom
+JSID_TO_STRING
+(
+id
+)
 )
 ;
 if
