@@ -7485,6 +7485,15 @@ this
 ;
 #
 endif
+#
+ifdef
+DEBUG
+mFlags
+=
+0xFFFFFFFF
+;
+#
+endif
 NS_RELEASE
 (
 mFontGroup
