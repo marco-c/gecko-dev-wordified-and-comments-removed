@@ -3202,6 +3202,13 @@ command
 "
 cmd_showTabs
 "
+anchorPosX
+=
+"
+0
+.
+3
+"
 /
 >
 <
