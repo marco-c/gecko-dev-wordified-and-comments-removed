@@ -62,13 +62,6 @@ nsCSSFrameConstructor
 h
 "
 #
-include
-"
-gfxUtils
-.
-h
-"
-#
 ifdef
 DEBUG
 #
@@ -2356,8 +2349,9 @@ visibleRect
 ;
 if
 (
-!
-gfxUtils
+NS_FAILED
+(
+nsLayoutUtils
 :
 :
 GfxRectToIntRect
@@ -2365,6 +2359,7 @@ GfxRectToIntRect
 layerVisible
 &
 visibleRect
+)
 )
 )
 {

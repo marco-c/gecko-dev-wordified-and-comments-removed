@@ -401,13 +401,6 @@ nsIDOMSVGNumberList
 .
 h
 "
-#
-include
-"
-gfxUtils
-.
-h
-"
 using
 namespace
 mozilla
@@ -3611,8 +3604,9 @@ r
 ;
 if
 (
-!
-gfxUtils
+NS_SUCCEEDED
+(
+nsLayoutUtils
 :
 :
 GfxRectToIntRect
@@ -3620,6 +3614,7 @@ GfxRectToIntRect
 bounds
 &
 r
+)
 )
 )
 {
@@ -5219,7 +5214,9 @@ RoundOut
 ;
 if
 (
-gfxUtils
+NS_SUCCEEDED
+(
+nsLayoutUtils
 :
 :
 GfxRectToIntRect
@@ -5227,6 +5224,7 @@ GfxRectToIntRect
 dirtyBounds
 &
 tmpDirtyRect
+)
 )
 )
 {

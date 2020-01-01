@@ -131,6 +131,10 @@ gfxTextRunWordCache
 .
 h
 \
+gfxThebesUtils
+.
+h
+\
 gfxUtils
 .
 h
@@ -612,6 +616,10 @@ gfxTextRunCache
 cpp
 \
 gfxTextRunWordCache
+.
+cpp
+\
+gfxThebesUtils
 .
 cpp
 \
