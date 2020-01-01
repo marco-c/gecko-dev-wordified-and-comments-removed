@@ -252,6 +252,7 @@ endif
 #
 ifdef
 JEMALLOC_MUTEX_INIT_CB
+JEMALLOC_EXPORT
 int
 _pthread_mutex_init_calloc_cb
 (

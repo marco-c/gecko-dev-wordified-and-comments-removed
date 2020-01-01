@@ -37,6 +37,9 @@ addr
 size_t
 size
 ;
+bool
+zeroed
+;
 }
 ;
 typedef
