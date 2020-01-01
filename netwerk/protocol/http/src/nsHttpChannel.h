@@ -642,6 +642,11 @@ InstallOfflineCacheListener
 (
 )
 ;
+void
+ClearBogusContentEncodingIfNeeded
+(
+)
+;
 nsresult
 SetupByteRangeRequest
 (
