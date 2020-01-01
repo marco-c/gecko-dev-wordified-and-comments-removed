@@ -7037,13 +7037,6 @@ PLUGIN_LOGGING
 nsCAutoString
 urlSpec
 ;
-if
-(
-aURL
-!
-=
-nsnull
-)
 (
 void
 )
