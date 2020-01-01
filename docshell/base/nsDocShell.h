@@ -698,6 +698,9 @@ CreateAboutBlankContentViewer
 nsIPrincipal
 *
 aPrincipal
+nsIURI
+*
+aBaseURI
 )
 ;
 NS_IMETHOD
