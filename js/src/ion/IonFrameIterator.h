@@ -42,6 +42,7 @@ FrameType
 {
 IonFrame_OptimizedJS
 IonFrame_BaselineJS
+IonFrame_BaselineStub
 IonFrame_Entry
 IonFrame_Rectifier
 IonFrame_Bailed_JS
@@ -300,6 +301,19 @@ type_
 =
 =
 IonFrame_OptimizedJS
+;
+}
+bool
+isBaselineStub
+(
+)
+const
+{
+return
+type_
+=
+=
+IonFrame_BaselineStub
 ;
 }
 bool
