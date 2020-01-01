@@ -110,15 +110,3 @@ config
 rules
 .
 mk
-XPIDL_FLAGS
-+
-=
--
-I
-(
-topsrcdir
-)
-/
-browser
-/
-components

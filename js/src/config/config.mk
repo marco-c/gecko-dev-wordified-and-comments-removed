@@ -3042,6 +3042,7 @@ DIST
 /
 idl
 XPIDL_FLAGS
++
 =
 -
 I

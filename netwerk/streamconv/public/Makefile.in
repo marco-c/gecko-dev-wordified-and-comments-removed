@@ -101,17 +101,3 @@ DEFINES
 =
 -
 DIMPL_NS_NET
-XPIDL_FLAGS
-+
-=
--
-I
-(
-topsrcdir
-)
-/
-netwerk
-/
-base
-/
-public
