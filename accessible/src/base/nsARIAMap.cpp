@@ -1563,6 +1563,7 @@ nsIAccessibleStates
 :
 STATE_CHECKABLE
 }
+kEndEntry
 }
 }
 ;
