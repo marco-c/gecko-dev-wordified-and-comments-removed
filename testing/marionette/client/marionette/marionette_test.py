@@ -864,11 +864,7 @@ self
 )
 :
         
-self
-.
-_deleteSession
-(
-)
+pass
     
 def
 cleanTest
@@ -927,6 +923,9 @@ not
 None
 :
                 
+try
+:
+                    
 self
 .
 loglines
@@ -938,6 +937,30 @@ marionette
 get_logs
 (
 )
+                
+except
+Exception
+inst
+:
+                    
+self
+.
+loglines
+=
+[
+[
+'
+Error
+getting
+log
+:
+%
+s
+'
+%
+inst
+]
+]
                 
 self
 .
