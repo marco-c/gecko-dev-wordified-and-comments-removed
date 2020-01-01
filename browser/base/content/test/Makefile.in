@@ -700,6 +700,10 @@ browser_NetworkPrioritizer
 .
 js
 \
+browser_addon_bar
+.
+js
+\
 browser_allTabsPanel
 .
 js
