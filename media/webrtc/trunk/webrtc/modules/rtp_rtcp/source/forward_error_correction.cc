@@ -24,6 +24,11 @@ cassert
 #
 include
 <
+cstdlib
+>
+#
+include
+<
 cstring
 >
 #
