@@ -1097,6 +1097,11 @@ DestroyNativeWindow
 (
 )
 ;
+void
+AdjustWindowShadow
+(
+)
+;
 nsIWidget
 *
 mParent
@@ -1122,6 +1127,9 @@ mSheetWindowParent
 nsChildView
 *
 mPopupContentView
+;
+PRInt32
+mShadowStyle
 ;
 PRPackedBool
 mIsResizing

@@ -5213,6 +5213,15 @@ other_values
 "
 none
 "
+"
+menu
+"
+"
+tooltip
+"
+"
+sheet
+"
 ]
 invalid_values
 :
