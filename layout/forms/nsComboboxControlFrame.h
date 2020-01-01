@@ -379,7 +379,9 @@ aChildList
 )
 ;
 virtual
+const
 nsFrameList
+&
 GetChildList
 (
 ChildListID

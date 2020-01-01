@@ -2816,7 +2816,9 @@ bp
 top
 ;
 }
+const
 nsFrameList
+&
 nsBlockFrame
 :
 :

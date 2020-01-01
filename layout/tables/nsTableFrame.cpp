@@ -4823,7 +4823,9 @@ true
 #
 endif
 }
+const
 nsFrameList
+&
 nsTableFrame
 :
 :

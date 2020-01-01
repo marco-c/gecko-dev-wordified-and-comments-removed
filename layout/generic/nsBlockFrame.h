@@ -385,7 +385,9 @@ aOldFrame
 )
 ;
 virtual
+const
 nsFrameList
+&
 GetChildList
 (
 ChildListID

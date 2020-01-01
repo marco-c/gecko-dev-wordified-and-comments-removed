@@ -245,7 +245,9 @@ aDebug
 #
 endif
 virtual
+const
 nsFrameList
+&
 GetChildList
 (
 ChildListID
