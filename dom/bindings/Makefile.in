@@ -599,16 +599,6 @@ I
 topsrcdir
 )
 /
-js
-/
-ipc
-\
--
-I
-(
-topsrcdir
-)
-/
 content
 /
 canvas
