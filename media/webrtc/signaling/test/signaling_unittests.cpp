@@ -2369,7 +2369,7 @@ sdp
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -3942,7 +3942,7 @@ GetStreams
 ;
 for
 (
-int
+size_t
 i
 =
 0
