@@ -59,6 +59,10 @@ const
 gfxIntSize
 &
 aBlurRadius
+const
+gfxRect
+*
+aDirtyRect
 )
 ;
 gfxContext
@@ -126,6 +130,12 @@ nsRefPtr
 gfxImageSurface
 >
 mImageSurface
+;
+gfxRect
+mDirtyRect
+;
+PRBool
+mHasDirtyRect
 ;
 }
 ;
