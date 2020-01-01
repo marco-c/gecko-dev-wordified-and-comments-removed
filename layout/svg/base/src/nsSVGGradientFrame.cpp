@@ -166,7 +166,7 @@ aOldStyleContext
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )
@@ -235,7 +235,7 @@ spreadMethod
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )
@@ -280,7 +280,7 @@ false
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )
@@ -1842,7 +1842,7 @@ y2
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )
@@ -2266,7 +2266,7 @@ fy
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )

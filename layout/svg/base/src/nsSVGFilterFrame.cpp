@@ -1716,7 +1716,7 @@ primitiveUnits
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )
@@ -1761,7 +1761,7 @@ false
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )
