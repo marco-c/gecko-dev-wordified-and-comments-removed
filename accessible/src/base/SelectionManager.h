@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsISelectionListener
 .
 h
@@ -132,11 +139,8 @@ aSelection
 ;
 private
 :
-nsCOMPtr
-<
-nsIContent
->
-mCurrentControl
+nsWeakFrame
+mCurrCtrlFrame
 ;
 nsCOMPtr
 <
