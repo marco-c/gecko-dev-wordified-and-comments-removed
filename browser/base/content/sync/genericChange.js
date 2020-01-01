@@ -543,9 +543,9 @@ pp
 =
 Weave
 .
-Service
+Identity
 .
-passphrase
+syncKey
 ;
 if
 (
@@ -1256,9 +1256,9 @@ _updatingPassphrase
 {
 Weave
 .
-Service
+Identity
 .
-passphrase
+syncKey
 =
 pp
 ;
@@ -1412,9 +1412,9 @@ _currentPasswordInvalid
 {
 Weave
 .
-Service
+Identity
 .
-password
+basicPassword
 =
 this
 .

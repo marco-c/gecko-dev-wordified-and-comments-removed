@@ -483,7 +483,7 @@ e
 }
 Weave
 .
-Service
+Identity
 .
 account
 =
@@ -502,9 +502,9 @@ username
 ;
 Weave
 .
-Service
+Identity
 .
-password
+basicPassword
 =
 prefs
 .
@@ -521,9 +521,9 @@ password
 ;
 Weave
 .
-Service
+Identity
 .
-passphrase
+syncKey
 =
 prefs
 .

@@ -103,6 +103,11 @@ jpakeclient
 js
 "
 "
+keys
+.
+js
+"
+"
 log4moz
 .
 js

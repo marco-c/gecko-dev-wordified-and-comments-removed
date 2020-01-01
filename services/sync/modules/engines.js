@@ -2333,14 +2333,7 @@ SYNC_API_VERSION
 /
 "
 +
-ID
-.
-get
-(
-"
-WeaveID
-"
-)
+Identity
 .
 username
 +
