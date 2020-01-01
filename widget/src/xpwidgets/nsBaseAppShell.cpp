@@ -223,8 +223,6 @@ nsBaseAppShell
 :
 NativeEventCallback
 (
-PRBool
-aAlwaysBlockNative
 )
 {
 PRInt32
@@ -274,17 +272,6 @@ prevBlockNativeEvent
 =
 mBlockNativeEvent
 ;
-if
-(
-aAlwaysBlockNative
-)
-{
-mBlockNativeEvent
-=
-PR_TRUE
-;
-}
-else
 if
 (
 mEventloopNestingState
