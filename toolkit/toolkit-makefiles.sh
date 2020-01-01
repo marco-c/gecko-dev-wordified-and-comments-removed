@@ -3781,13 +3781,6 @@ embedding
 /
 tests
 /
-cocoaEmbed
-/
-Makefile
-embedding
-/
-tests
-/
 winEmbed
 /
 Makefile
