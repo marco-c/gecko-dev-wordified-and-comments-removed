@@ -2500,6 +2500,18 @@ Transitions
     
 p
 [
+3
+]
+.
+start
+=
+p
+[
+1
+]
+    
+p
+[
 0
 ]
 =
@@ -2538,7 +2550,20 @@ START
 "
 "
     
-pass
+p
+[
+0
+]
+=
+(
+len
+(
+p
+)
+=
+=
+2
+)
 def
 p_Transitions
 (
