@@ -777,6 +777,10 @@ nsLayoutStylesheetCache
 .
 cpp
 \
+nsMediaFeatures
+.
+cpp
+\
 nsROCSSPrimitiveValue
 .
 cpp

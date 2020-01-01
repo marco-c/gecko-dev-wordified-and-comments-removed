@@ -452,6 +452,8 @@ aResult
 )
 const
 ;
+public
+:
 static
 PRBool
 AppendCSSValueToString
@@ -467,6 +469,8 @@ nsAString
 aResult
 )
 ;
+private
+:
 nsresult
 GetValueOrImportantValue
 (
