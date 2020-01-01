@@ -686,12 +686,6 @@ DEFINES
 =
 -
 DDEBUG_WIDGETS
-#
-DEFINES
-+
-=
--
-DQT_XLIB_SURFACE
 ifeq
 (
 (
