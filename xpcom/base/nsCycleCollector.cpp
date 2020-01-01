@@ -2152,17 +2152,6 @@ aMallocSizeOf
 }
 }
 ;
-typedef
-nsTHashtable
-<
-nsPtrHashKey
-<
-const
-void
->
->
-PointerSet
-;
 static
 nsISupports
 *
