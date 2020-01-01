@@ -581,6 +581,7 @@ docwalker
 _documentWalker
 (
 node
+window
 )
 ;
 let
