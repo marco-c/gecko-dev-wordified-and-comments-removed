@@ -122,6 +122,12 @@ length
 *
 2
 )
++
+(
+ZIP_EXTENDED_TIMESTAMP_SIZE
+*
+2
+)
 ;
 do_check_eq
 (
