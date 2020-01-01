@@ -81,6 +81,8 @@ browser
 content
 /
 firstrun
+/
+firstrun
 .
 xhtml
 "
