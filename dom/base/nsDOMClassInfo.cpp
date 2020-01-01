@@ -30353,7 +30353,7 @@ nsCOMPtr
 <
 nsIDOMEventTarget
 >
-piTarget
+target
 =
 do_QueryWrappedNative
 (
@@ -30364,7 +30364,7 @@ obj
 if
 (
 !
-piTarget
+target
 )
 {
 NS_WARNING
@@ -30388,7 +30388,7 @@ nsIEventListenerManager
 *
 manager
 =
-piTarget
+target
 -
 >
 GetListenerManager
@@ -30452,7 +30452,7 @@ CompileScriptEventListener
 (
 script_cx
 scope
-piTarget
+target
 atom
 did_define
 )
@@ -30486,7 +30486,7 @@ RegisterScriptEventListener
 (
 script_cx
 scope
-piTarget
+target
 atom
 )
 ;

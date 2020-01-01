@@ -53,13 +53,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

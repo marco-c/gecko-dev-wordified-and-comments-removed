@@ -306,13 +306,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIEnumerator
 .
 h

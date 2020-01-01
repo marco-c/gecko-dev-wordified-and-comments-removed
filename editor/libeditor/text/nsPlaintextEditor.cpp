@@ -7389,7 +7389,7 @@ nsIDOMEventTarget
 nsPlaintextEditor
 :
 :
-GetPIDOMEventTarget
+GetDOMEventTarget
 (
 )
 {

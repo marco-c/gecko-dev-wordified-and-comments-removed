@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -142,10 +135,9 @@ nsDOMEventTargetHelper
 {
 }
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+NS_DECL_CYCLE_COLLECTION_CLASS
 (
 nsDOMEventTargetHelper
-nsIDOMEventTarget
 )
 NS_DECL_NSIDOMEVENTTARGET
 PRBool

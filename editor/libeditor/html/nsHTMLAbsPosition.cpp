@@ -1600,7 +1600,7 @@ nsIDOMEventTarget
 >
 piTarget
 =
-GetPIDOMEventTarget
+GetDOMEventTarget
 (
 )
 ;
@@ -1740,7 +1740,7 @@ nsIDOMEventTarget
 >
 piTarget
 =
-GetPIDOMEventTarget
+GetDOMEventTarget
 (
 )
 ;
