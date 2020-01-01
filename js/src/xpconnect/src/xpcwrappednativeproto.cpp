@@ -43,6 +43,9 @@ ClassInfoFlags
 XPCNativeSet
 *
 Set
+QITableEntry
+*
+offsets
 )
 :
 mScope
@@ -72,6 +75,10 @@ nsnull
 mScriptableInfo
 (
 nsnull
+)
+mOffsets
+(
+offsets
 )
 {
 MOZ_COUNT_CTOR
@@ -566,6 +573,9 @@ JSBool
 ForceNoSharing
 JSBool
 isGlobal
+QITableEntry
+*
+offsets
 )
 {
 NS_ASSERTION
@@ -785,6 +795,7 @@ Scope
 ClassInfo
 ciFlags
 set
+offsets
 )
 ;
 if

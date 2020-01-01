@@ -626,12 +626,11 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLImageElement
 nsGenericElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE_HEAD
+NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLImageElement
-nsGenericHTMLElement
 )
-NS_INTERFACE_TABLE_INHERITED6
+NS_HTML_CONTENT_INTERFACE_TABLE6
 (
 nsHTMLImageElement
 nsIDOMHTMLImageElement
@@ -640,6 +639,11 @@ nsIJSNativeInitializer
 imgIDecoderObserver
 nsIImageLoadingContent
 imgIContainerObserver
+)
+NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
+(
+nsHTMLImageElement
+nsGenericHTMLElement
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TAIL_CLASSINFO
 (
