@@ -62026,15 +62026,6 @@ get
 l
 )
 ;
-JSScope
-*
-scope
-=
-OBJ_SCOPE
-(
-obj
-)
-;
 JS_ASSERT_IF
 (
 entry
@@ -62043,7 +62034,10 @@ entry
 directHit
 (
 )
-scope
+OBJ_SCOPE
+(
+obj
+)
 -
 >
 hasProperty
@@ -62142,6 +62136,8 @@ getProto
 (
 )
 ;
+JSScope
+*
 scope
 =
 OBJ_SCOPE
