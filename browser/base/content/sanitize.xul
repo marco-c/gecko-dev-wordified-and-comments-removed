@@ -1764,6 +1764,11 @@ expander
 -
 down
 "
+persist
+=
+"
+class
+"
 oncommand
 =
 "
@@ -1828,6 +1833,11 @@ collapsed
 =
 "
 true
+"
+persist
+=
+"
+collapsed
 "
 >
 <
