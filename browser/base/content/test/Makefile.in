@@ -1278,6 +1278,10 @@ browser_addon_bar_close_button
 .
 js
 \
+browser_addon_bar_shortcut
+.
+js
+\
 (
 NULL
 )
