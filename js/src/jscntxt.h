@@ -392,13 +392,11 @@ fcache
 JS_FRAGMENT_CACHE_SIZE
 ]
 ;
-jsdouble
-*
+jsval
 *
 recoveryDoublePool
 ;
-jsdouble
-*
+jsval
 *
 recoveryDoublePoolPtr
 ;
