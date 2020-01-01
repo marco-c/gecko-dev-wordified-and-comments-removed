@@ -247,7 +247,7 @@ innerHTML
       
 self
 .
-assertIn
+assertTrue
 (
 "
 button3
@@ -256,6 +256,7 @@ touchstart
 -
 touchend
 "
+in
 self
 .
 marionette
@@ -497,7 +498,7 @@ innerHTML
       
 self
 .
-assertIn
+assertTrue
 (
 "
 button3
@@ -506,6 +507,7 @@ touchstart
 -
 touchend
 "
+in
 self
 .
 marionette
@@ -860,7 +862,7 @@ innerHTML
       
 self
 .
-assertIn
+assertTrue
 (
 "
 button3
@@ -869,12 +871,13 @@ touchstart
 -
 touchend
 "
+in
 button3_text
 )
       
 self
 .
-assertIn
+assertTrue
 (
 "
 button4
@@ -883,6 +886,7 @@ touchstart
 -
 touchend
 "
+in
 button4_text
 )
       
