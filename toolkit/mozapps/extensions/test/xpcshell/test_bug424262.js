@@ -195,7 +195,7 @@ XPCShell
 "
 )
 ;
-startupEM
+startupManager
 (
 )
 ;
@@ -228,7 +228,9 @@ start
 4444
 )
 ;
-gPrefs
+Services
+.
+prefs
 .
 setCharPref
 (
