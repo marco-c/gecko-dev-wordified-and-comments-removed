@@ -2050,9 +2050,11 @@ suspectGUID
 victimGUID
 )
 ;
-Utils
+Svc
 .
-anno
+Annos
+.
+setItemAnnotation
 (
 suspect
 SYNC_GUID_ANNO
@@ -2062,6 +2064,12 @@ GUIDForId
 (
 victim
 )
+0
+Svc
+.
+Annos
+.
+EXPIRE_NEVER
 )
 ;
 _

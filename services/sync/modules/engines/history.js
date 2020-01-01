@@ -1101,12 +1101,8 @@ uri
 ;
 if
 (
-arguments
-.
-length
-=
-=
-1
+!
+guid
 )
 guid
 =
