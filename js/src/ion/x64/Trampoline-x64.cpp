@@ -30,14 +30,11 @@ IonCode
 IonCompartment
 :
 :
-GenerateTrampoline
+generateEnterJIT
 (
-JSC
-:
-:
-ExecutableAllocator
+JSContext
 *
-execAlloc
+cx
 )
 {
 return
