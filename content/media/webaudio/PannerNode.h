@@ -110,12 +110,6 @@ AudioContext
 aContext
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
-(
-PannerNode
-AudioNode
-)
 virtual
 JSObject
 *
