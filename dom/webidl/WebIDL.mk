@@ -695,6 +695,10 @@ Screen
 .
 webidl
 \
+ScrollAreaEvent
+.
+webidl
+\
 StyleSheet
 .
 webidl
