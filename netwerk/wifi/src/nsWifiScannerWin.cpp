@@ -29,6 +29,13 @@ h
 #
 include
 "
+stdlib
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
