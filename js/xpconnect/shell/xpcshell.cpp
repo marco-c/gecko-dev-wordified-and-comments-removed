@@ -7774,15 +7774,6 @@ stdout
 ;
 #
 endif
-#
-ifdef
-XRE_HAS_DLL_BLOCKLIST
-XRE_SetupDllBlocklist
-(
-)
-;
-#
-endif
 gErrFile
 =
 stderr
