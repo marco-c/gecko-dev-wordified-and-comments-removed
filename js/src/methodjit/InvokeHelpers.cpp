@@ -894,6 +894,8 @@ f
 uint32
 nvals
 =
+VALUES_PER_STACK_FRAME
++
 f
 .
 fp
@@ -908,12 +910,10 @@ script
 >
 nslots
 +
-VALUES_PER_STACK_FRAME
-+
 StackSpace
 :
 :
-STACK_EXTRA
+STACK_JIT_EXTRA
 ;
 if
 (

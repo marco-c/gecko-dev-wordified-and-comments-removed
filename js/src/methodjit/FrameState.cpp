@@ -329,7 +329,7 @@ nfixed
 StackSpace
 :
 :
-STACK_EXTRA
+STACK_JIT_EXTRA
 -
 VALUES_PER_STACK_FRAME
 ;
