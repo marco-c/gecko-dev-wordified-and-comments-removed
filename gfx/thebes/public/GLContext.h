@@ -404,6 +404,15 @@ PRBool
 trygl
 )
 ;
+PRBool
+IsExtensionSupported
+(
+const
+char
+*
+extension
+)
+;
 public
 :
 typedef

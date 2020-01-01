@@ -24,6 +24,10 @@ mInitialized
 (
 PR_FALSE
 )
+mOGLLibrary
+(
+nsnull
+)
 {
 }
 typedef
