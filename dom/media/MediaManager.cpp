@@ -3648,7 +3648,6 @@ permission
 ;
 if
 (
-(
 permission
 =
 =
@@ -3656,7 +3655,6 @@ nsIPopupWindowManager
 :
 :
 DENY_POPUP
-)
 )
 {
 nsCOMPtr
