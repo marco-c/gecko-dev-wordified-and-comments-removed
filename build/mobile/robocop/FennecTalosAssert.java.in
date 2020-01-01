@@ -184,7 +184,7 @@ testName
 }
 public
 void
-finalize
+endTest
 (
 )
 {
