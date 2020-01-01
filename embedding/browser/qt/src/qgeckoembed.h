@@ -233,6 +233,16 @@ relativepath
 )
 const
 ;
+NS_VISIBILITY_DEFAULT
+bool
+zoom
+(
+const
+float
+&
+zoomFactor
+)
+;
 public
 NS_SLOTS
 :

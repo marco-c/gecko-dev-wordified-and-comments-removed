@@ -73,6 +73,16 @@ mainQuit
 (
 )
 ;
+void
+zoomIn
+(
+)
+;
+void
+zoomOut
+(
+)
+;
 public
 :
 QGeckoEmbed
@@ -104,6 +114,9 @@ private
 QLineEdit
 *
 location
+;
+float
+zoomFactor
 ;
 }
 ;
