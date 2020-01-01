@@ -139,6 +139,11 @@ mMutex
 =
 aHandle
 ;
+MOZ_COUNT_CTOR
+(
+CrossProcessMutex
+)
+;
 }
 CrossProcessMutex
 :
