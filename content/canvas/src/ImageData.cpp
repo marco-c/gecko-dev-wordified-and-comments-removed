@@ -26,17 +26,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-CanvasRenderingContext2DBinding
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
