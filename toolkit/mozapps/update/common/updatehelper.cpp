@@ -1316,11 +1316,7 @@ commandLineBuffer
 =
 MakeCommandLine
 (
-min
-(
 argc
-4
-)
 argv
 )
 ;
