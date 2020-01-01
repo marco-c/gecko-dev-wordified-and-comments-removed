@@ -392,7 +392,6 @@ enhancedContrast
 }
 ;
 class
-THEBES_API
 gfxWindowsPlatform
 :
 public

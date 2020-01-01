@@ -241,7 +241,6 @@ value
 ;
 }
 class
-THEBES_API
 gfxFontFeatureValueSet
 {
 public

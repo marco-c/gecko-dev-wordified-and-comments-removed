@@ -53,7 +53,6 @@ MacIOSurface
 h
 "
 CGColorSpaceRef
-THEBES_API
 CreateSystemColorSpace
 (
 )

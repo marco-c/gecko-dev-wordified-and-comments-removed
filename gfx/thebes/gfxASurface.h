@@ -79,7 +79,6 @@ struct
 nsIntRect
 ;
 class
-THEBES_API
 gfxASurface
 {
 public
@@ -878,7 +877,6 @@ mAllowUseAsSource
 }
 ;
 class
-THEBES_API
 gfxUnknownSurface
 :
 public

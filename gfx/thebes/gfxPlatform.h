@@ -437,7 +437,6 @@ switch
 ;
 }
 class
-THEBES_API
 gfxPlatform
 {
 public

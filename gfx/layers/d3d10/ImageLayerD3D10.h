@@ -39,7 +39,6 @@ namespace
 layers
 {
 class
-THEBES_API
 ImageLayerD3D10
 :
 public

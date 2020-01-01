@@ -786,7 +786,6 @@ aValue
 ;
 }
 void
-THEBES_API
 MarkDestroyed
 (
 )
@@ -2493,7 +2492,6 @@ aShader
 )
 ;
 void
-THEBES_API
 ReadPixelsIntoImageSurface
 (
 gfxImageSurface
@@ -10628,7 +10626,6 @@ ASSERT_SYMBOL_PRESENT
 ifdef
 DEBUG
 void
-THEBES_API
 CreatedProgram
 (
 GLContext
@@ -10639,7 +10636,6 @@ aName
 )
 ;
 void
-THEBES_API
 CreatedShader
 (
 GLContext
@@ -10650,7 +10646,6 @@ aName
 )
 ;
 void
-THEBES_API
 CreatedBuffers
 (
 GLContext
@@ -10664,7 +10659,6 @@ aNames
 )
 ;
 void
-THEBES_API
 CreatedQueries
 (
 GLContext
@@ -10678,7 +10672,6 @@ aNames
 )
 ;
 void
-THEBES_API
 CreatedTextures
 (
 GLContext
@@ -10692,7 +10685,6 @@ aNames
 )
 ;
 void
-THEBES_API
 CreatedFramebuffers
 (
 GLContext
@@ -10706,7 +10698,6 @@ aNames
 )
 ;
 void
-THEBES_API
 CreatedRenderbuffers
 (
 GLContext
@@ -10720,7 +10711,6 @@ aNames
 )
 ;
 void
-THEBES_API
 DeletedProgram
 (
 GLContext
@@ -10731,7 +10721,6 @@ aName
 )
 ;
 void
-THEBES_API
 DeletedShader
 (
 GLContext
@@ -10742,7 +10731,6 @@ aName
 )
 ;
 void
-THEBES_API
 DeletedBuffers
 (
 GLContext
@@ -10756,7 +10744,6 @@ aNames
 )
 ;
 void
-THEBES_API
 DeletedQueries
 (
 GLContext
@@ -10770,7 +10757,6 @@ aNames
 )
 ;
 void
-THEBES_API
 DeletedTextures
 (
 GLContext
@@ -10784,7 +10770,6 @@ aNames
 )
 ;
 void
-THEBES_API
 DeletedFramebuffers
 (
 GLContext
@@ -10798,7 +10783,6 @@ aNames
 )
 ;
 void
-THEBES_API
 DeletedRenderbuffers
 (
 GLContext

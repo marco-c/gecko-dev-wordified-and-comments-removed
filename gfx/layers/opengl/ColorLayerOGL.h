@@ -40,7 +40,6 @@ namespace
 layers
 {
 class
-THEBES_API
 ColorLayerOGL
 :
 public

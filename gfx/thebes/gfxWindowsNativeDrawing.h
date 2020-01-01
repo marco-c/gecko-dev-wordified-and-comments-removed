@@ -26,7 +26,6 @@ gfxWindowsSurface
 h
 "
 class
-THEBES_API
 gfxWindowsNativeDrawing
 {
 public

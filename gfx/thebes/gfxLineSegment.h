@@ -19,7 +19,6 @@ gfxPoint
 h
 "
 struct
-THEBES_API
 gfxLineSegment
 {
 gfxLineSegment

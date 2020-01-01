@@ -15,9 +15,6 @@ typedef
 double
 gfxFloat
 ;
-#
-define
-THEBES_API
 enum
 gfxBreakPriority
 {

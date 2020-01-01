@@ -26,7 +26,6 @@ gfxTypes
 h
 "
 class
-THEBES_API
 gfxSkipCharsBuilder
 {
 public
@@ -224,7 +223,6 @@ mInErrorState
 }
 ;
 class
-THEBES_API
 gfxSkipChars
 {
 public
@@ -557,7 +555,6 @@ mCharCount
 }
 ;
 class
-THEBES_API
 gfxSkipCharsIterator
 {
 public

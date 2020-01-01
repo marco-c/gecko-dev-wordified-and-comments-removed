@@ -35,7 +35,6 @@ nsRect
 h
 "
 class
-THEBES_API
 gfxAlphaRecovery
 {
 public

@@ -22,7 +22,6 @@ class
 gfxContext
 ;
 class
-THEBES_API
 gfxCachedTempSurface
 {
 public

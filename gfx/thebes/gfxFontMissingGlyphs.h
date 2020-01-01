@@ -26,7 +26,6 @@ gfxRect
 h
 "
 class
-THEBES_API
 gfxFontMissingGlyphs
 {
 public

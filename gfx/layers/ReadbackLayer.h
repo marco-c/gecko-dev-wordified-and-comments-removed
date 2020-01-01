@@ -21,7 +21,6 @@ class
 ReadbackProcessor
 ;
 class
-THEBES_API
 ReadbackSink
 {
 public
@@ -83,7 +82,6 @@ aRect
 }
 ;
 class
-THEBES_API
 ReadbackLayer
 :
 public

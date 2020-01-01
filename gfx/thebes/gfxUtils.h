@@ -60,7 +60,6 @@ struct
 nsIntRect
 ;
 class
-THEBES_API
 gfxUtils
 {
 public

@@ -96,7 +96,6 @@ class
 PaintLayerContext
 ;
 class
-THEBES_API
 BasicLayerManager
 :
 public

@@ -37,7 +37,6 @@ AlphaBoxBlur
 }
 }
 class
-THEBES_API
 gfxAlphaBoxBlur
 {
 public

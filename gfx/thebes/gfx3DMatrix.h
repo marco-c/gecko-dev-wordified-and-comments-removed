@@ -40,7 +40,6 @@ gfxQuad
 h
 >
 class
-THEBES_API
 gfx3DMatrix
 {
 public

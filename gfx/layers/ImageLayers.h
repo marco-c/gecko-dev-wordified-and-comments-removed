@@ -42,7 +42,6 @@ class
 ImageContainer
 ;
 class
-THEBES_API
 ImageLayer
 :
 public

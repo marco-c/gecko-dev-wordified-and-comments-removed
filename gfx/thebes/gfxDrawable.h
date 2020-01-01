@@ -60,7 +60,6 @@ class
 gfxContext
 ;
 class
-THEBES_API
 gfxDrawable
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -140,7 +139,6 @@ mSize
 }
 ;
 class
-THEBES_API
 gfxSurfaceDrawable
 :
 public
@@ -217,7 +215,6 @@ mTransform
 }
 ;
 class
-THEBES_API
 gfxDrawingCallback
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -268,7 +265,6 @@ gfxMatrix
 }
 ;
 class
-THEBES_API
 gfxCallbackDrawable
 :
 public
@@ -359,7 +355,6 @@ mSurfaceDrawable
 }
 ;
 class
-THEBES_API
 gfxPatternDrawable
 :
 public

@@ -39,7 +39,6 @@ class
 gfxContext
 ;
 class
-THEBES_API
 gfxGdkNativeRenderer
 #
 ifdef

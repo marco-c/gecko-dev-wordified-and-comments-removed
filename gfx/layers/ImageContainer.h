@@ -124,7 +124,6 @@ ImageBackendData
 }
 ;
 class
-THEBES_API
 Image
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -437,7 +436,6 @@ CompositionNotifySink
 }
 ;
 class
-THEBES_API
 ImageFactory
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -543,7 +541,6 @@ endif
 }
 ;
 class
-THEBES_API
 ImageContainer
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -1149,7 +1146,6 @@ mSize
 }
 ;
 class
-THEBES_API
 PlanarYCbCrImage
 :
 public
@@ -1493,7 +1489,6 @@ mRecycleBin
 }
 ;
 class
-THEBES_API
 CairoImage
 :
 public

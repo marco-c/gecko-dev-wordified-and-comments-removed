@@ -19,7 +19,6 @@ nsTArray
 h
 "
 class
-THEBES_API
 gfxTeeSurface
 :
 public

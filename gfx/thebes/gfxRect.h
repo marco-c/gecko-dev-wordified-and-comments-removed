@@ -326,7 +326,6 @@ corner
 ;
 }
 struct
-THEBES_API
 gfxRect
 :
 public
@@ -808,7 +807,6 @@ k
 }
 ;
 struct
-THEBES_API
 gfxCornerSizes
 {
 gfxSize

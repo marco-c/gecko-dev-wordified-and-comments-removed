@@ -501,7 +501,6 @@ class
 gfxProxyFontEntry
 ;
 class
-THEBES_API
 gfxUserFontSet
 {
 public

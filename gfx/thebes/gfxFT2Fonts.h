@@ -338,7 +338,6 @@ mCharGlyphCache
 ifndef
 ANDROID
 class
-THEBES_API
 gfxFT2FontGroup
 :
 public

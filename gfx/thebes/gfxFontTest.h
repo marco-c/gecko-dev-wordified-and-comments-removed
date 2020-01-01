@@ -40,7 +40,6 @@ gfxUserFontSet
 h
 "
 struct
-THEBES_API
 gfxFontTestItem
 {
 gfxFontTestItem
@@ -153,7 +152,6 @@ num_glyphs
 }
 ;
 class
-THEBES_API
 gfxFontTestStore
 {
 public

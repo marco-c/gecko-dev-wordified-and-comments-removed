@@ -480,7 +480,6 @@ a
 }
 }
 struct
-THEBES_API
 gfxRGBA
 {
 gfxFloat

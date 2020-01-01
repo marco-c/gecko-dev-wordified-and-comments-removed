@@ -136,7 +136,6 @@ struct
 FPSState
 ;
 class
-THEBES_API
 LayerManagerOGL
 :
 public

@@ -115,7 +115,6 @@ cairo_user_data_key_t
 gKeyD3D10Texture
 ;
 class
-THEBES_API
 LayerManagerD3D10
 :
 public

@@ -33,7 +33,6 @@ nsMathUtils
 h
 "
 struct
-THEBES_API
 gfxMatrix
 {
 double

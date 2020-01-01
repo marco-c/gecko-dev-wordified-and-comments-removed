@@ -31,7 +31,6 @@ class
 gfxContext
 ;
 class
-THEBES_API
 gfxQuartzSurface
 :
 public

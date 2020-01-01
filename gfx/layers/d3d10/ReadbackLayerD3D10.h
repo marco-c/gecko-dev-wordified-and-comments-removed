@@ -25,7 +25,6 @@ namespace
 layers
 {
 class
-THEBES_API
 ReadbackLayerD3D10
 :
 public

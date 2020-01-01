@@ -19,7 +19,6 @@ gfxImageSurface
 h
 "
 class
-THEBES_API
 gfxQuartzImageSurface
 :
 public

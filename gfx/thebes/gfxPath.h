@@ -30,7 +30,6 @@ cairo_path
 cairo_path_t
 ;
 class
-THEBES_API
 gfxPath
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -67,7 +66,6 @@ mPath
 }
 ;
 class
-THEBES_API
 gfxFlattenedPath
 :
 public

@@ -33,7 +33,6 @@ SourceSurface
 }
 }
 class
-THEBES_API
 gfxImageSurface
 :
 public
@@ -359,7 +358,6 @@ mStride
 }
 ;
 class
-THEBES_API
 gfxSubimageSurface
 :
 public

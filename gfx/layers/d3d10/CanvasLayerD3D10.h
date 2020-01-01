@@ -41,7 +41,6 @@ namespace
 layers
 {
 class
-THEBES_API
 CanvasLayerD3D10
 :
 public

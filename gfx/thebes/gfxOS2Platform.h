@@ -46,7 +46,6 @@ class
 gfxFontconfigUtils
 ;
 class
-THEBES_API
 gfxOS2Platform
 :
 public

@@ -43,7 +43,6 @@ namespace
 layers
 {
 struct
-THEBES_API
 FrameMetrics
 {
 public

@@ -59,7 +59,6 @@ nsIntSize
 gfxIntSize
 ;
 struct
-THEBES_API
 gfxSize
 :
 public
@@ -135,7 +134,6 @@ height
 }
 ;
 struct
-THEBES_API
 gfxPoint
 :
 public

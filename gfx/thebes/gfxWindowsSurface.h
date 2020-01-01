@@ -32,7 +32,6 @@ class
 gfxContext
 ;
 class
-THEBES_API
 gfxWindowsSurface
 :
 public

@@ -70,7 +70,6 @@ FontEntry
 #
 endif
 class
-THEBES_API
 gfxQtPlatform
 :
 public

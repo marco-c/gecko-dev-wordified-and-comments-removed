@@ -41,7 +41,6 @@ namespace
 layers
 {
 class
-THEBES_API
 GrallocPlanarYCbCrImage
 :
 public

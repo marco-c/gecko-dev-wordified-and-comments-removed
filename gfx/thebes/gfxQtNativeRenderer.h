@@ -43,7 +43,6 @@ class
 QRect
 ;
 class
-THEBES_API
 gfxQtNativeRenderer
 {
 public

@@ -284,7 +284,6 @@ e
 ;
 }
 class
-THEBES_API
 LayerUserData
 {
 public
@@ -319,7 +318,6 @@ data
 ;
 }
 class
-THEBES_API
 LayerManager
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -1351,7 +1349,6 @@ mFunctions
 }
 ;
 class
-THEBES_API
 Layer
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -3253,7 +3250,6 @@ mAnimationGeneration
 }
 ;
 class
-THEBES_API
 ThebesLayer
 :
 public
@@ -3551,7 +3547,6 @@ mAllowResidualTranslation
 }
 ;
 class
-THEBES_API
 ContainerLayer
 :
 public
@@ -4081,7 +4076,6 @@ mMayHaveReadbackChild
 }
 ;
 class
-THEBES_API
 ColorLayer
 :
 public
@@ -4253,7 +4247,6 @@ mColor
 }
 ;
 class
-THEBES_API
 CanvasLayer
 :
 public
@@ -4687,7 +4680,6 @@ mDirty
 }
 ;
 class
-THEBES_API
 RefLayer
 :
 public

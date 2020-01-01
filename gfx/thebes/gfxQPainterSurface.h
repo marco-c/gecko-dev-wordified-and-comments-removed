@@ -37,7 +37,6 @@ class
 QImage
 ;
 class
-THEBES_API
 gfxQPainterSurface
 :
 public

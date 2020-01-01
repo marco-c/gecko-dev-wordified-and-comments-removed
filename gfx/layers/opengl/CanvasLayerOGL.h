@@ -65,7 +65,6 @@ namespace
 layers
 {
 class
-THEBES_API
 CanvasLayerOGL
 :
 public

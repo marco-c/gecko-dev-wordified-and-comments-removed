@@ -33,7 +33,6 @@ nsIOutputStream
 h
 "
 class
-THEBES_API
 gfxPDFSurface
 :
 public

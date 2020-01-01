@@ -102,7 +102,6 @@ class
 FallibleTArray
 ;
 class
-THEBES_API
 gfxContext
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -1636,7 +1635,6 @@ mOriginalDT
 }
 ;
 class
-THEBES_API
 gfxContextAutoSaveRestore
 {
 public
@@ -1784,7 +1782,6 @@ mContext
 }
 ;
 class
-THEBES_API
 gfxContextPathAutoSaveRestore
 {
 public
@@ -1930,7 +1927,6 @@ mPath
 }
 ;
 class
-THEBES_API
 gfxContextMatrixAutoSaveRestore
 {
 public
@@ -1994,7 +1990,6 @@ mMatrix
 }
 ;
 class
-THEBES_API
 gfxContextAutoDisableSubpixelAntialiasing
 {
 public

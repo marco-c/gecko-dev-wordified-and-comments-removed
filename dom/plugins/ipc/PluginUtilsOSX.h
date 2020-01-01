@@ -129,7 +129,6 @@ aProcessName
 )
 ;
 class
-THEBES_API
 nsDoubleBufferCARenderer
 {
 public

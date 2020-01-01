@@ -94,7 +94,6 @@ CBfLayerOpacity
 0
 ;
 class
-THEBES_API
 SwapChainD3D9
 {
 NS_INLINE_DECL_REFCOUNTING
@@ -165,7 +164,6 @@ mWnd
 }
 ;
 class
-THEBES_API
 DeviceManagerD3D9
 MOZ_FINAL
 {
