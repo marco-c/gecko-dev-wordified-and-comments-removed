@@ -593,7 +593,13 @@ InitWithFuncCallback
 (
 aFunc
 this
+static_cast
+<
+uint32_t
+>
+(
 delay
+)
 nsITimer
 :
 :

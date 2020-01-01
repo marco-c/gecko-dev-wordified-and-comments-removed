@@ -479,7 +479,13 @@ NS_MAX
 uint32_t
 >
 (
+static_cast
+<
+uint32_t
+>
+(
 mDataBufferLen
+)
 1
 )
 ;
