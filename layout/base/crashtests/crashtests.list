@@ -258,14 +258,9 @@ load
 html
 asserts
 (
-10
-)
-asserts
--
-if
-(
-winWidget
 8
+-
+10
 )
 load
 265986
