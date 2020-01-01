@@ -167,6 +167,16 @@ return
 pheader
 parentheader
 childheader
+_NULL_ACTOR_ID
+=
+ExprLiteral
+.
+ZERO
+_FREED_ACTOR_ID
+=
+ExprLiteral
+.
+ONE
 class
 _struct
 :
@@ -383,25 +393,6 @@ int32
 '
 )
 def
-_safeActorId
-(
-actor
-)
-:
-    
-return
-ExprConditional
-(
-actor
-_actorId
-(
-actor
-)
-ExprLiteral
-.
-ZERO
-)
-def
 _actorId
 (
 actor
@@ -482,7 +473,7 @@ _getActorId
 actorexpr
 outid
 actortype
-errcode
+errfn
 )
 :
     
@@ -505,11 +496,22 @@ nullable
         
 ifnull
 .
-addifstmt
+addifstmts
 (
-StmtReturn
+            
+errfn
 (
-errcode
+"
+NULL
+actor
+value
+passed
+to
+non
+-
+nullable
+param
+"
 )
 )
     
@@ -532,7 +534,49 @@ ZERO
 )
 )
     
+iffreed
+=
+StmtIf
+(
+ExprBinary
+(
+_FREED_ACTOR_ID
+'
+=
+=
+'
+_actorId
+(
+actorexpr
+)
+)
+)
+    
 ifnull
+.
+addelsestmt
+(
+iffreed
+)
+    
+iffreed
+.
+addifstmt
+(
+_runtimeAbort
+(
+"
+actor
+has
+been
+delete
+'
+d
+"
+)
+)
+    
+iffreed
 .
 addelsestmt
 (
@@ -558,7 +602,7 @@ idexpr
 outactor
 actortype
 cxxactortype
-errcode
+errfn
 )
 :
     
@@ -568,9 +612,7 @@ StmtIf
 (
 ExprBinary
 (
-ExprLiteral
-.
-ZERO
+_NULL_ACTOR_ID
 '
 =
 =
@@ -588,11 +630,20 @@ nullable
         
 ifzero
 .
-addifstmt
+addifstmts
 (
-StmtReturn
+errfn
 (
-errcode
+"
+NULL
+actor
+ID
+for
+non
+-
+nullable
+param
+"
 )
 )
     
@@ -615,44 +666,54 @@ NULL
 )
 )
     
-ifnotactor
+iffreed
 =
 StmtIf
 (
-ExprNot
+ExprBinary
 (
-outactor
-)
-)
-    
-ifnotactor
-.
-addifstmts
-(
-[
-        
-_printErrorMessage
-(
+_FREED_ACTOR_ID
 '
-invalid
-actor
-ID
-!
+=
+=
 '
+idexpr
 )
-        
-StmtReturn
-(
-errcode
-)
-]
 )
     
 ifzero
 .
-addelsestmts
+addelsestmt
 (
-[
+iffreed
+)
+    
+iffreed
+.
+addifstmts
+(
+errfn
+(
+"
+received
+FREED
+actor
+ID
+evidence
+that
+the
+other
+side
+is
+malfunctioning
+"
+)
+)
+    
+iffreed
+.
+addelsestmt
+(
         
 StmtExpr
 (
@@ -674,10 +735,44 @@ static
 )
 )
 )
-        
-ifnotactor
+)
     
-]
+ifnotactor
+=
+StmtIf
+(
+ExprNot
+(
+outactor
+)
+)
+    
+ifnotactor
+.
+addifstmts
+(
+errfn
+(
+"
+invalid
+actor
+ID
+evidence
+that
+the
+other
+side
+is
+malfunctioning
+"
+)
+)
+    
+iffreed
+.
+addelsestmt
+(
+ifnotactor
 )
     
 return
@@ -689,7 +784,7 @@ handle
 outactor
 actortype
 cxxactortype
-errcode
+errfn
 )
 :
     
@@ -704,7 +799,7 @@ outactor
 actortype
 cxxactortype
                         
-errcode
+errfn
 )
 def
 _lookupListener
@@ -1757,6 +1852,23 @@ msg
 )
 :
     
+if
+isinstance
+(
+msg
+str
+)
+:
+        
+msg
+=
+ExprLiteral
+.
+String
+(
+msg
+)
+    
 return
 StmtExpr
 (
@@ -1772,6 +1884,32 @@ NS_ERROR
 args
 =
 [
+msg
+]
+)
+)
+def
+_fatalError
+(
+msg
+)
+:
+    
+return
+StmtExpr
+(
+        
+ExprCall
+(
+ExprVar
+(
+'
+FatalError
+'
+)
+args
+=
+[
 ExprLiteral
 .
 String
@@ -1781,6 +1919,181 @@ msg
 ]
 )
 )
+def
+_killProcess
+(
+pid
+)
+:
+    
+return
+ExprCall
+(
+        
+ExprVar
+(
+'
+base
+:
+:
+KillProcess
+'
+)
+        
+args
+=
+[
+pid
+               
+ExprVar
+(
+'
+base
+:
+:
+PROCESS_END_KILLED_BY_USER
+'
+)
+               
+ExprLiteral
+.
+FALSE
+]
+)
+class
+_Result
+:
+    
+Type
+=
+Type
+(
+'
+Result
+'
+)
+    
+Processed
+=
+ExprVar
+(
+'
+MsgProcessed
+'
+)
+    
+NotKnown
+=
+ExprVar
+(
+'
+MsgNotKnown
+'
+)
+    
+NotAllowed
+=
+ExprVar
+(
+'
+MsgNotAllowed
+'
+)
+    
+PayloadError
+=
+ExprVar
+(
+'
+MsgPayloadError
+'
+)
+    
+RouteError
+=
+ExprVar
+(
+'
+MsgRouteError
+'
+)
+    
+ValuError
+=
+ExprVar
+(
+'
+MsgValueError
+'
+)
+def
+errfnSend
+(
+msg
+errcode
+=
+ExprLiteral
+.
+FALSE
+)
+:
+    
+return
+[
+        
+_fatalError
+(
+msg
+)
+        
+StmtReturn
+(
+errcode
+)
+    
+]
+def
+errfnSendCtor
+(
+msg
+)
+:
+return
+errfnSend
+(
+msg
+errcode
+=
+ExprLiteral
+.
+NULL
+)
+def
+errfnRecv
+(
+msg
+errcode
+=
+_Result
+.
+ValuError
+)
+:
+    
+return
+[
+        
+_fatalError
+(
+msg
+)
+        
+StmtReturn
+(
+errcode
+)
+    
+]
 class
 _ConvertToCxxType
 (
@@ -2821,7 +3134,7 @@ serialize
 self
 expr
 side
-errcode
+errfn
 )
 :
         
@@ -2855,7 +3168,7 @@ self
 ipdltype
 expr
 side
-errcode
+errfn
 )
         
 return
@@ -2869,7 +3182,7 @@ self
 etype
 expr
 side
-errcode
+errfn
 )
 :
         
@@ -2927,7 +3240,7 @@ _serializeActor
 (
 etype
 expr
-errcode
+errfn
 )
         
 elif
@@ -2946,7 +3259,7 @@ _serializeArray
 etype
 expr
 side
-errcode
+errfn
 )
         
 elif
@@ -2965,7 +3278,7 @@ _serializeUnion
 etype
 expr
 side
-errcode
+errfn
 )
         
 elif
@@ -2990,7 +3303,7 @@ _serializeShmem
 etype
 expr
 side
-errcode
+errfn
 )
         
 else
@@ -3031,7 +3344,7 @@ _serializeActor
 self
 actortype
 expr
-errcode
+errfn
 )
 :
         
@@ -3097,7 +3410,7 @@ _actorHId
 actorhandlevar
 )
 actortype
-errcode
+errfn
 )
             
 Whitespace
@@ -3118,7 +3431,7 @@ self
 arraytype
 expr
 side
-errcode
+errfn
 )
 :
         
@@ -3240,7 +3553,7 @@ arraytype
 basetype
 ithOldElt
 side
-errcode
+errfn
 )
         
 forloop
@@ -3351,7 +3664,7 @@ self
 uniontype
 expr
 side
-errcode
+errfn
 )
 :
         
@@ -3400,7 +3713,7 @@ _getActorId
 actor
 idvar
 actortype
-errcode
+errfn
 )
                 
 ]
@@ -3877,7 +4190,7 @@ ct
 getvalue
 side
                                                      
-errcode
+errfn
 )
                 
 case
@@ -4006,7 +4319,7 @@ self
 shmemtype
 expr
 side
-errcode
+errfn
 )
 :
         
@@ -4235,7 +4548,7 @@ self
 expr
 side
 sems
-errcode
+errfn
 )
 :
         
@@ -4328,7 +4641,7 @@ self
 ipdltype
 toexpr
 side
-errcode
+errfn
 )
         
 return
@@ -4342,7 +4655,7 @@ pipeExpr
 targetType
 targetExpr
 side
-errcode
+errfn
 )
 :
         
@@ -4379,7 +4692,7 @@ pipeExpr
 targetType
 targetExpr
 side
-errcode
+errfn
 )
         
 elif
@@ -4400,7 +4713,7 @@ pipeExpr
 targetType
 targetExpr
 side
-errcode
+errfn
 )
         
 elif
@@ -4421,7 +4734,7 @@ pipeExpr
 targetType
 targetExpr
 side
-errcode
+errfn
 )
         
 elif
@@ -4442,7 +4755,7 @@ pipeExpr
 targetType
 targetExpr
 side
-errcode
+errfn
 )
         
 else
@@ -4459,7 +4772,7 @@ actortype
 outactor
 side
                           
-errcode
+errfn
 )
 :
         
@@ -4504,7 +4817,7 @@ outactor
 actortype
 cxxtype
                                  
-errcode
+errfn
 )
             
 ]
@@ -4519,7 +4832,7 @@ arraytype
 outarray
 side
                           
-errcode
+errfn
 )
 :
         
@@ -4706,7 +5019,7 @@ arraytype
 basetype
 ithNewElt
 side
-errcode
+errfn
 )
         
 forloop
@@ -4736,7 +5049,7 @@ uniontype
 outunion
 side
                           
-errcode
+errfn
 )
 :
         
@@ -4969,7 +5282,7 @@ outactorvar
 ct
 actorcxxtype
                                      
-errcode
+errfn
 )
                         
 StmtExpr
@@ -5178,7 +5491,7 @@ ithElt
 actortype
 actorcxxtype
                                      
-errcode
+errfn
 )
                     
 ]
@@ -5245,7 +5558,7 @@ getvalue
 ct
 tempvar
 side
-errcode
+errfn
 )
                 
 case
@@ -5379,7 +5692,7 @@ shmemtype
 outshmem
 side
                           
-errcode
+errfn
 )
 :
         
@@ -8139,6 +8452,11 @@ op
 -
 '
         
+else
+:
+assert
+0
+        
 return
 ExprPrefixUnop
 (
@@ -8149,6 +8467,50 @@ lastActorIdVar
 )
 op
 )
+    
+def
+actorIdInit
+(
+self
+side
+)
+:
+        
+assert
+self
+.
+decl
+.
+type
+.
+isToplevel
+(
+)
+        
+if
+side
+is
+'
+parent
+'
+:
+return
+_FREED_ACTOR_ID
+        
+elif
+side
+is
+'
+child
+'
+:
+return
+_NULL_ACTOR_ID
+        
+else
+:
+assert
+0
     
 def
 lastActorIdVar
@@ -14787,55 +15149,21 @@ mytype
 =
 ptype
         
-toplevel
-=
-self
-.
-findToplevel
-(
-ptype
-)
-        
 self
 .
 walkDownTheProtocolTree
 (
+ptype
+.
 toplevel
+(
+)
 )
         
 return
 self
 .
 friends
-    
-def
-findToplevel
-(
-self
-ptype
-)
-:
-        
-if
-ptype
-.
-isToplevel
-(
-)
-:
-            
-return
-ptype
-        
-return
-self
-.
-findToplevel
-(
-ptype
-.
-manager
-)
     
 def
 walkDownTheProtocolTree
@@ -15011,72 +15339,6 @@ type
                 
 yield
 actor
-class
-_Result
-:
-    
-Type
-=
-Type
-(
-'
-Result
-'
-)
-    
-Processed
-=
-ExprVar
-(
-'
-MsgProcessed
-'
-)
-    
-NotKnown
-=
-ExprVar
-(
-'
-MsgNotKnown
-'
-)
-    
-NotAllowed
-=
-ExprVar
-(
-'
-MsgNotAllowed
-'
-)
-    
-PayloadError
-=
-ExprVar
-(
-'
-MsgPayloadError
-'
-)
-    
-RouteError
-=
-ExprVar
-(
-'
-MsgRouteError
-'
-)
-    
-ValuError
-=
-ExprVar
-(
-'
-MsgValueError
-'
-)
 class
 _GenerateProtocolActorHeader
 (
@@ -16333,10 +16595,16 @@ p
 lastActorIdVar
 (
 )
+                               
 [
-ExprLiteral
+p
 .
-ZERO
+actorIdInit
+(
+self
+.
+side
+)
 ]
 )
             
@@ -17455,13 +17723,240 @@ self
 .
 cls
 .
-addstmts
+addstmt
 (
-[
 Label
 .
 PRIVATE
-                            
+)
+        
+msgvar
+=
+ExprVar
+(
+'
+msg
+'
+)
+        
+fatalerror
+=
+MethodDefn
+(
+MethodDecl
+(
+            
+'
+FatalError
+'
+            
+params
+=
+[
+Decl
+(
+Type
+(
+'
+char
+'
+const
+=
+1
+ptrconst
+=
+1
+)
+msgvar
+.
+name
+)
+]
+            
+const
+=
+1
+)
+)
+        
+fatalerror
+.
+addstmts
+(
+[
+            
+_printErrorMessage
+(
+'
+IPDL
+error
+:
+'
+)
+            
+_printErrorMessage
+(
+msgvar
+)
+            
+Whitespace
+.
+NL
+        
+]
+)
+        
+actorname
+=
+_actorName
+(
+p
+.
+name
+self
+.
+side
+)
+        
+if
+self
+.
+side
+is
+'
+parent
+'
+:
+            
+fatalerror
+.
+addstmts
+(
+[
+                
+_printErrorMessage
+(
+                    
+'
+[
+'
++
+actorname
++
+'
+]
+killing
+child
+side
+as
+a
+result
+'
+)
+                
+Whitespace
+.
+NL
+            
+]
+)
+            
+ifkill
+=
+StmtIf
+(
+ExprNot
+(
+                
+_killProcess
+(
+ExprCall
+(
+p
+.
+otherProcessMethod
+(
+)
+)
+)
+)
+)
+            
+ifkill
+.
+addifstmt
+(
+                
+_printErrorMessage
+(
+"
+may
+have
+failed
+to
+kill
+child
+!
+"
+)
+)
+            
+fatalerror
+.
+addstmt
+(
+ifkill
+)
+        
+else
+:
+            
+fatalerror
+.
+addstmt
+(
+                
+_runtimeAbort
+(
+'
+[
+'
++
+actorname
++
+'
+]
+abort
+(
+)
+ing
+as
+a
+result
+'
+)
+)
+        
+self
+.
+cls
+.
+addstmts
+(
+[
+fatalerror
+Whitespace
+.
+NL
+]
+)
+        
+self
+.
+cls
+.
+addstmt
+(
 StmtDecl
 (
 Decl
@@ -17476,7 +17971,6 @@ mChannel
 '
 )
 )
-]
 )
         
 if
@@ -18001,6 +18495,10 @@ Type
 ProcessHandle
 '
 )
+            
+const
+=
+1
             
 virtual
 =
@@ -19929,6 +20427,7 @@ self
 makeMessage
 (
 md
+errfnSendCtor
 )
         
 sendok
@@ -20067,6 +20566,7 @@ self
 makeMessage
 (
 md
+errfnSendCtor
 )
         
 replyvar
@@ -20149,6 +20649,7 @@ replyvar
 self
 .
 side
+errfnSendCtor
 )
         
 method
@@ -20191,7 +20692,7 @@ ctorPrologue
 (
 self
 md
-errcode
+errfn
 =
 ExprLiteral
 .
@@ -20270,7 +20771,7 @@ self
 failIfNullActor
 (
 actorvar
-errcode
+errfn
 )
             
 StmtExpr
@@ -20516,6 +21017,7 @@ self
 makeMessage
 (
 md
+errfnSend
 )
         
 sendok
@@ -20661,6 +21163,7 @@ self
 makeMessage
 (
 md
+errfnSend
 )
         
 replyvar
@@ -20731,6 +21234,7 @@ replyvar
 self
 .
 side
+errfnSend
 )
         
 ifsendok
@@ -20896,6 +21400,7 @@ self
 makeMessage
 (
 md
+errfnSend
 )
         
 sendok
@@ -20965,6 +21470,7 @@ self
 makeMessage
 (
 md
+errfnSend
 )
         
 replyvar
@@ -21023,6 +21529,7 @@ replyvar
 self
 .
 side
+errfnSend
 )
         
 method
@@ -21131,6 +21638,8 @@ md
 self
 .
 side
+                                                             
+errfnRecv
 )
         
 failif
@@ -21232,7 +21741,7 @@ self
 ctorPrologue
 (
 md
-errcode
+errfn
 =
 _Result
 .
@@ -21267,6 +21776,7 @@ self
 makeReply
 (
 md
+errfnRecv
 )
             
 +
@@ -21324,6 +21834,7 @@ md
 self
 .
 side
+errfnRecv
 )
         
 failif
@@ -21438,6 +21949,7 @@ self
 makeReply
 (
 md
+errfnRecv
 )
             
 +
@@ -21495,6 +22007,9 @@ md
 self
 .
 side
+errfn
+=
+errfnRecv
 )
         
 failif
@@ -21587,6 +22102,7 @@ self
 makeReply
 (
 md
+errfnRecv
 )
             
 +
@@ -21672,6 +22188,18 @@ actorexpr
 ]
 )
 )
+                 
+StmtExpr
+(
+ExprAssn
+(
+_actorId
+(
+actorexpr
+)
+_FREED_ACTOR_ID
+)
+)
 ]
     
 def
@@ -21679,6 +22207,7 @@ makeMessage
 (
 self
 md
+errfn
 )
 :
         
@@ -21745,10 +22274,7 @@ var
 self
 .
 side
-                                          
-ExprLiteral
-.
-FALSE
+errfn
 )
             
 msgCtorArgs
@@ -21818,6 +22344,7 @@ makeReply
 (
 self
 md
+errfn
 )
 :
         
@@ -21876,10 +22403,7 @@ var
 self
 .
 side
-                                        
-_Result
-.
-ValuError
+errfn
 )
             
 replyCtorArgs
@@ -22123,6 +22647,7 @@ deserializeMessage
 self
 md
 side
+errfn
 )
 :
         
@@ -22357,11 +22882,9 @@ sems
 in
 '
                                               
-errcode
+errfn
 =
-_Result
-.
-ValuError
+errfn
 )
 )
         
@@ -22411,6 +22934,7 @@ self
 md
 replyexpr
 side
+errfn
 )
 :
         
@@ -22600,11 +23124,9 @@ sems
 out
 '
                 
-errcode
+errfn
 =
-ExprLiteral
-.
-FALSE
+errfn
 )
 )
         
