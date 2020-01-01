@@ -1039,6 +1039,16 @@ parentNode
 .
 parentNode
 .
+selectedTab
+=
+this
+.
+parentNode
+.
+parentNode
+.
+parentNode
+.
 addTab
 (
 )
