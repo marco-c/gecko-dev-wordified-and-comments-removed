@@ -1758,15 +1758,6 @@ aNode2
 ;
 static
 bool
-IsTextOrElementNode
-(
-nsIDOMNode
-*
-aNode
-)
-;
-static
-bool
 IsTextNode
 (
 nsIDOMNode
