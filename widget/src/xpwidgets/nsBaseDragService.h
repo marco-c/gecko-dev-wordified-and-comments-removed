@@ -54,17 +54,12 @@ nsIRenderingContext
 h
 "
 #
-ifdef
-MOZ_CAIRO_GFX
-#
 include
 "
 gfxImageSurface
 .
 h
 "
-#
-endif
 #
 define
 DRAG_TRANSLUCENCY
@@ -108,9 +103,6 @@ NS_DECL_NSIDRAGSERVICE
 NS_DECL_NSIDRAGSESSION
 protected
 :
-#
-ifdef
-MOZ_CAIRO_GFX
 nsresult
 DrawDrag
 (
@@ -155,8 +147,6 @@ gfxASurface
 aSurface
 )
 ;
-#
-endif
 PRPackedBool
 mCanDrop
 ;
