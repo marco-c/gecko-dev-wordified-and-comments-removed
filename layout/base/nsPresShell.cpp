@@ -7343,6 +7343,7 @@ mPrefStyleSheet
 SetURIs
 (
 uri
+nsnull
 uri
 )
 ;

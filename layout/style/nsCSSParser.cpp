@@ -2809,6 +2809,7 @@ mSheet
 SetURIs
 (
 aSheetURI
+aSheetURI
 aBaseURI
 )
 ;

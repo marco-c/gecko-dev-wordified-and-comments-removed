@@ -141,6 +141,12 @@ nsCOMPtr
 <
 nsIURI
 >
+mOriginalSheetURI
+;
+nsCOMPtr
+<
+nsIURI
+>
 mBaseURI
 ;
 nsCOMPtr
@@ -498,6 +504,9 @@ SetURIs
 nsIURI
 *
 aSheetURI
+nsIURI
+*
+aOriginalSheetURI
 nsIURI
 *
 aBaseURI
