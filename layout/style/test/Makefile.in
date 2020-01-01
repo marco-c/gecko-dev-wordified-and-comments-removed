@@ -991,6 +991,10 @@ test_flexbox_align_self_auto
 .
 html
 \
+test_flexbox_flex_grow_and_shrink
+.
+html
+\
 (
 NULL
 )

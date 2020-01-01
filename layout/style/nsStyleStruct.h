@@ -4219,6 +4219,12 @@ mJustifyContent
 PRInt32
 mOrder
 ;
+float
+mFlexGrow
+;
+float
+mFlexShrink
+;
 #
 endif
 nsStyleCoord
