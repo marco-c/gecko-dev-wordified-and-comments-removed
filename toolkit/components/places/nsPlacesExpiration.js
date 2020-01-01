@@ -463,6 +463,7 @@ expiration_notify
 (
 v_id
 url
+guid
 visit_date
 expected_results
 )
@@ -476,6 +477,9 @@ id
 h
 .
 url
+h
+.
+guid
 v
 .
 visit_date
@@ -612,6 +616,7 @@ expiration_notify
 (
 p_id
 url
+guid
 visit_date
 expected_results
 )
@@ -625,6 +630,9 @@ id
 h
 .
 url
+h
+.
+guid
 h
 .
 last_visit_date
@@ -1676,6 +1684,7 @@ sql
 "
 SELECT
 url
+guid
 MAX
 (
 visit_date
@@ -1961,6 +1970,13 @@ INTEGER
 +
 "
 url
+TEXT
+NOT
+NULL
+"
++
+"
+guid
 TEXT
 NOT
 NULL
@@ -2868,6 +2884,18 @@ null
 )
 ;
 let
+guid
+=
+row
+.
+getResultByName
+(
+"
+guid
+"
+)
+;
+let
 visitDate
 =
 row
@@ -2900,6 +2928,7 @@ notifyOnPageExpired
 uri
 visitDate
 wholeEntry
+guid
 )
 ;
 }

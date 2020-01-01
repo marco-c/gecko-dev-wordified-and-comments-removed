@@ -1521,6 +1521,9 @@ visitId
 mPlace
 .
 transitionType
+mPlace
+.
+guid
 )
 ;
 }
@@ -2878,6 +2881,15 @@ rv
 if
 (
 mCallback
+|
+|
+aPlace
+.
+guid
+.
+IsEmpty
+(
+)
 )
 {
 bool
