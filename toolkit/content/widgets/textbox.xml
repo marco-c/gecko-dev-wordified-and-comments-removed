@@ -1388,6 +1388,11 @@ newlines
 if
 (
 str
+&
+&
+this
+.
+editor
 )
 {
 const
