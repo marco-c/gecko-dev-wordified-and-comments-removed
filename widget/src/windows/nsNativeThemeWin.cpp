@@ -6243,6 +6243,7 @@ return
 PR_TRUE
 ;
 }
+}
 if
 (
 IsHTMLContent
@@ -6286,7 +6287,6 @@ right
 return
 PR_TRUE
 ;
-}
 }
 }
 PRInt32
