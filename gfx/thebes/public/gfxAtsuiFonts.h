@@ -149,6 +149,11 @@ return
 mSpaceGlyph
 ;
 }
+PRBool
+HasMirroringInfo
+(
+)
+;
 protected
 :
 const
@@ -161,6 +166,12 @@ mATSUFontID
 ;
 ATSUStyle
 mATSUStyle
+;
+PRBool
+mHasMirroring
+;
+PRBool
+mHasMirroringLookedUp
 ;
 nsString
 mUniqueName
