@@ -829,14 +829,6 @@ test_bug851485
 .
 html
 \
-test_bug851445
-.
-html
-\
-bug851445_helper
-.
-html
-\
 (
 NULL
 )
