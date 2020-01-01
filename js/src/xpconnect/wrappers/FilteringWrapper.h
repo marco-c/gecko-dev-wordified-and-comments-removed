@@ -128,8 +128,11 @@ JSObject
 wrapper
 jsid
 id
-bool
-set
+JSWrapper
+:
+:
+Action
+act
 )
 ;
 static

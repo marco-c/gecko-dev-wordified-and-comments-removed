@@ -87,8 +87,8 @@ JSObject
 wrapper
 jsid
 id
-bool
-set
+Action
+act
 )
 {
 nsIScriptSecurityManager
