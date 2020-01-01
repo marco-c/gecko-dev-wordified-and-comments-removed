@@ -136,12 +136,14 @@ bool
 Initialize
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 Destroy
 (
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -178,6 +180,7 @@ gfxContext
 *
 aTarget
 )
+MOZ_OVERRIDE
 {
 mTarget
 =
@@ -193,6 +196,7 @@ aFlags
 =
 0
 )
+MOZ_OVERRIDE
 {
 }
 virtual
