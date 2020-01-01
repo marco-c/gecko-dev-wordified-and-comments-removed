@@ -163,7 +163,6 @@ aRow
 |
 aRow
 >
-=
 this
 .
 _visibleElements
