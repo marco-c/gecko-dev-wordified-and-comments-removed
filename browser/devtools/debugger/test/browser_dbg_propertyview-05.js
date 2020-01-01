@@ -303,10 +303,7 @@ value
 "
 )
 "
-[
-object
 Window
-]
 "
 "
 The

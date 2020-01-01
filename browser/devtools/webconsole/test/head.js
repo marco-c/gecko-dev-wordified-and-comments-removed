@@ -2478,10 +2478,7 @@ displayValue
 =
 =
 "
-[
-object
 Generator
-]
 "
 ;
 if
@@ -2667,10 +2664,7 @@ displayValue
 =
 =
 "
-[
-object
 Iterator
-]
 "
 )
 {

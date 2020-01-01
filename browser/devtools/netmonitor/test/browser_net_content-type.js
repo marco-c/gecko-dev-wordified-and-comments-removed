@@ -1592,10 +1592,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 The

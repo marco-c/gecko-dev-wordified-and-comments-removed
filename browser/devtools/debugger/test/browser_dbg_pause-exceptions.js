@@ -613,10 +613,7 @@ value
 "
 )
 "
-[
-object
 Error
-]
 "
 "
 Should

@@ -543,10 +543,7 @@ body
 value
 :
 "
-[
-object
 HTMLBodyElement
-]
 "
 }
 ]

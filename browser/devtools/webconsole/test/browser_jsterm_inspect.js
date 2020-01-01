@@ -151,10 +151,7 @@ document
 value
 :
 "
-[
-object
 HTMLDocument
-]
 "
 }
 ]

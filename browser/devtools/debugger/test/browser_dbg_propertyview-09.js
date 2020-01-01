@@ -335,10 +335,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 Should
@@ -440,10 +437,7 @@ value
 "
 )
 "
-[
-object
 HTMLDocument
-]
 "
 "
 Should
@@ -530,10 +524,7 @@ value
 "
 )
 "
-[
-object
 Window
-]
 "
 "
 Should

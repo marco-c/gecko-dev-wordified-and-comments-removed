@@ -716,10 +716,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 The
@@ -875,10 +872,7 @@ value
 "
 )
 "
-[
-object
 Object
-]
 "
 "
 The
