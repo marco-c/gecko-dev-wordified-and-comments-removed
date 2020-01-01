@@ -93,6 +93,14 @@ test_device_store
 .
 html
 \
+test_projects_store
+.
+html
+\
+hosted_app
+.
+manifest
+\
 (
 NULL
 )
