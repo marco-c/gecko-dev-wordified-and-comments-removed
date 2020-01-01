@@ -2327,17 +2327,13 @@ config
 =
 MockConfig
 (
-)
-        
-config
-.
-substs
-[
+extra_substs
+=
+{
 '
 BAD_UTF8
 '
-]
-=
+:
 b
 '
 \
@@ -2351,6 +2347,8 @@ x82
 \
 x3A
 '
+}
+)
         
 sandbox
 =

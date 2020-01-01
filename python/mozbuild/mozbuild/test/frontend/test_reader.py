@@ -104,6 +104,9 @@ config
 (
 self
 name
+*
+*
+kwargs
 )
 :
         
@@ -123,6 +126,9 @@ return
 MockConfig
 (
 path
+*
+*
+kwargs
 )
     
 def
@@ -136,22 +142,16 @@ False
 )
 :
         
-config
+extra
 =
-self
-.
-config
-(
-name
-)
+{
+}
         
 if
 enable_tests
 :
             
-config
-.
-substs
+extra
 [
 '
 ENABLE_TESTS
@@ -161,6 +161,18 @@ ENABLE_TESTS
 '
 1
 '
+        
+config
+=
+self
+.
+config
+(
+name
+extra_substs
+=
+extra
+)
         
 return
 BuildReader
