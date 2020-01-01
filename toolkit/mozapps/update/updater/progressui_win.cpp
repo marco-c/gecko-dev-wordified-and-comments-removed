@@ -845,6 +845,11 @@ hWndInfo
 hDCInfo
 )
 ;
+CenterDialog
+(
+hDlg
+)
+;
 SetTimer
 (
 hDlg
