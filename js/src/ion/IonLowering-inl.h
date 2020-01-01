@@ -370,7 +370,7 @@ if
 mir
 -
 >
-emitAtUses
+isEmittedAtUses
 (
 )
 )

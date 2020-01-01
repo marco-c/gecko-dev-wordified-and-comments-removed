@@ -96,7 +96,7 @@ if
 ins
 -
 >
-emitAtUses
+isEmittedAtUses
 (
 )
 )
@@ -153,7 +153,7 @@ isConstant
 box
 -
 >
-emitAtUses
+isEmittedAtUses
 (
 )
 )

@@ -283,7 +283,7 @@ if
 def
 -
 >
-inWorklist
+isInWorklist
 (
 )
 |
