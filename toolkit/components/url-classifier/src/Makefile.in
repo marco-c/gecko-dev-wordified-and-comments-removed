@@ -112,6 +112,10 @@ srcdir
 build
 \
 (
+SQLITE_CFLAGS
+)
+\
+(
 NULL
 )
 #
