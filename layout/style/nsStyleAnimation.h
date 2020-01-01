@@ -264,6 +264,7 @@ eUnit_Coord
 eUnit_Percent
 eUnit_Float
 eUnit_Color
+eUnit_Dasharray
 eUnit_Shadow
 }
 ;
@@ -695,6 +696,12 @@ aUnit
 )
 {
 return
+aUnit
+=
+=
+eUnit_Dasharray
+|
+|
 aUnit
 =
 =

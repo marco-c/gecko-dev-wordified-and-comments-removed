@@ -5714,7 +5714,7 @@ mStrokeDasharray
 eCSSType_ValueList
 nsnull
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_SVG
 (
