@@ -239,6 +239,13 @@ README
 cp
 1
 /
+COPYING
+.
+/
+COPYING
+cp
+1
+/
 src
 /
 liboggplay
