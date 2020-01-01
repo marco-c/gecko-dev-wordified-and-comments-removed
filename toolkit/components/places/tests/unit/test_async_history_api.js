@@ -323,6 +323,7 @@ function
 VisitObserver
 (
 aURI
+aGUID
 aCallback
 )
 {
@@ -331,6 +332,12 @@ this
 uri
 =
 aURI
+;
+this
+.
+guid
+=
+aGUID
 ;
 this
 .
@@ -359,6 +366,7 @@ aTime
 aSessionId
 aReferringId
 aTransitionType
+aGUID
 )
 {
 do_log_info
@@ -398,6 +406,11 @@ aReferringId
 aTransitionType
 +
 "
+"
++
+aGUID
++
+"
 )
 "
 )
@@ -413,6 +426,14 @@ equals
 (
 aURI
 )
+|
+|
+this
+.
+guid
+!
+=
+aGUID
 )
 {
 return
@@ -5835,6 +5856,11 @@ let
 place
 =
 {
+guid
+:
+"
+abcdefghijkl
+"
 uri
 :
 NetUtil
@@ -5907,6 +5933,9 @@ VisitObserver
 place
 .
 uri
+place
+.
+guid
 function
 (
 aVisitDate
