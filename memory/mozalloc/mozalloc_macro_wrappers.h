@@ -84,12 +84,6 @@ defined
 (
 HAVE_POSIX_MEMALIGN
 )
-|
-|
-defined
-(
-HAVE_JEMALLOC_POSIX_MEMALIGN
-)
 #
 define
 posix_memalign
@@ -111,12 +105,6 @@ if
 defined
 (
 HAVE_MEMALIGN
-)
-|
-|
-defined
-(
-HAVE_JEMALLOC_MEMALIGN
 )
 #
 define
