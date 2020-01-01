@@ -4657,6 +4657,8 @@ json
 value
 )
 ;
+return
+;
 }
 switch
 (
@@ -4742,6 +4744,7 @@ type
 bool
 "
 )
+{
 Services
 .
 prefs
@@ -4756,6 +4759,7 @@ json
 value
 )
 ;
+}
 else
 if
 (
@@ -4768,6 +4772,7 @@ type
 int
 "
 )
+{
 Services
 .
 prefs
@@ -4782,6 +4787,7 @@ json
 value
 )
 ;
+}
 else
 {
 let
