@@ -5054,7 +5054,7 @@ JSStackFrame
 )
 masm
 .
-load32
+loadPayload
 (
 Address
 (
@@ -7060,7 +7060,7 @@ JSStackFrame
 )
 masm
 .
-load32
+loadPayload
 (
 Address
 (
