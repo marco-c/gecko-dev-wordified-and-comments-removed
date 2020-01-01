@@ -57,6 +57,15 @@ mSizeClient
 nsSize
 mSizeBorder
 ;
+PRBool
+mNeedActivation
+;
+virtual
+void
+ActivateTopLevelWidget
+(
+)
+;
 virtual
 void
 RealDoCreate
