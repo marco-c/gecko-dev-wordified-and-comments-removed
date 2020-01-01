@@ -57,6 +57,13 @@ defined
 (
 ANDROID
 )
+&
+&
+!
+defined
+(
+__OpenBSD__
+)
 typedef
 PRInt8
 int8_t
