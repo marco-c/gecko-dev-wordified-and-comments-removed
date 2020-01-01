@@ -511,6 +511,9 @@ char
 argv
 )
 {
+#
+ifndef
+XP_WIN
 ScopedXPCOM
 xpcom
 (
@@ -891,6 +894,8 @@ match
 )
 ;
 }
+#
+endif
 return
 0
 ;
