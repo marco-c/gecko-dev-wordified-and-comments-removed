@@ -827,13 +827,10 @@ unregister
 self
 )
 ;
-Trenches
-.
-unregister
-(
 self
 .
-container
+removeTrenches
+(
 )
 ;
 }
