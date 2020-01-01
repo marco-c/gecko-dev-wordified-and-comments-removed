@@ -1107,10 +1107,6 @@ mLastEndTime
 =
 0
 ;
-mState
-=
-kStarted
-;
 error
 =
 mViERender
@@ -1187,6 +1183,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+mState
+=
+kStarted
+;
 return
 NS_OK
 ;
