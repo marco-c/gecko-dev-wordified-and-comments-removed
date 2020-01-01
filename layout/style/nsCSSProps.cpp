@@ -1760,10 +1760,6 @@ eCSSKeyword_progresschunk_vertical
 NS_THEME_PROGRESSBAR_CHUNK_VERTICAL
 eCSSKeyword_tab
 NS_THEME_TAB
-eCSSKeyword_tab_left_edge
-NS_THEME_TAB_LEFT_EDGE
-eCSSKeyword_tab_right_edge
-NS_THEME_TAB_RIGHT_EDGE
 eCSSKeyword_tabpanels
 NS_THEME_TAB_PANELS
 eCSSKeyword_tabpanel
