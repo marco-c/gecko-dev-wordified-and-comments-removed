@@ -43,6 +43,9 @@ RestyleTracker
 ;
 }
 }
+struct
+TreeMatchContext
+;
 class
 nsFrameManager
 :
@@ -525,6 +528,9 @@ nsIContent
 >
 &
 aVisibleKidsOfHiddenElement
+TreeMatchContext
+&
+aTreeMatchContext
 )
 ;
 }
