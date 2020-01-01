@@ -55,5 +55,10 @@ _
 (
 PowHalfD
 )
+\
+_
+(
+UInt32ToDouble
+)
 #
 endif

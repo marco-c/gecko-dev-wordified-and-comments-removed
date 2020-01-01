@@ -748,6 +748,12 @@ left
 ParseNode
 *
 right
+ParseContext
+<
+FullParseHandler
+>
+*
+pc
 JSOp
 op
 =
@@ -765,6 +771,7 @@ op
 left
 right
 this
+pc
 foldConstants
 )
 ;

@@ -27,4 +27,7 @@ LEGACY
 undef
 THIS
 #
+undef
+PASSTHROUGH
+#
 endif

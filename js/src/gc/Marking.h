@@ -350,6 +350,11 @@ ScopeObject
 )
 DeclMarker
 (
+Object
+ArrayBufferObject
+)
+DeclMarker
+(
 Script
 JSScript
 )

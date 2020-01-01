@@ -110,6 +110,9 @@ bool
 uce
 ;
 bool
+eaa
+;
+bool
 parallelCompilation
 ;
 uint32_t
@@ -215,6 +218,10 @@ rangeAnalysis
 true
 )
 uce
+(
+true
+)
+eaa
 (
 true
 )
@@ -635,6 +642,11 @@ CompileBackEnd
 MIRGenerator
 *
 mir
+MacroAssembler
+*
+maybeMasm
+=
+NULL
 )
 ;
 void

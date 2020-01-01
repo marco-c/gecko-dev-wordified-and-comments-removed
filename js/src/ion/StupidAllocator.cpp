@@ -92,15 +92,9 @@ output
 )
 -
 >
-kind
+isArgument
 (
 )
-=
-=
-LAllocation
-:
-:
-ARGUMENT
 )
 return
 def

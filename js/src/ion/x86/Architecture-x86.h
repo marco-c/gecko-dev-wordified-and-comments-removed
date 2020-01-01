@@ -44,6 +44,13 @@ ION_FRAME_SLACK_SIZE
 ;
 static
 const
+uint32_t
+ShadowStackSpace
+=
+0
+;
+static
+const
 int32_t
 INVALID_STACK_SLOT
 =

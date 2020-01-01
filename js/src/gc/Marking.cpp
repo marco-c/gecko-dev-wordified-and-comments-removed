@@ -1677,6 +1677,11 @@ ScopeObject
 )
 DeclMarkerImpl
 (
+Object
+ArrayBufferObject
+)
+DeclMarkerImpl
+(
 Script
 JSScript
 )

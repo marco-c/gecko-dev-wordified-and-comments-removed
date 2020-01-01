@@ -248,6 +248,7 @@ CodeKind
 JAEGER_CODE
 ION_CODE
 REGEXP_CODE
+ASMJS_CODE
 }
 ;
 class
@@ -303,6 +304,9 @@ m_jaegerCodeBytes
 ;
 size_t
 m_ionCodeBytes
+;
+size_t
+m_asmJSCodeBytes
 ;
 size_t
 m_regexpCodeBytes
@@ -387,6 +391,10 @@ m_jaegerCodeBytes
 0
 )
 m_ionCodeBytes
+(
+0
+)
+m_asmJSCodeBytes
 (
 0
 )
@@ -476,6 +484,16 @@ case
 ION_CODE
 :
 m_ionCodeBytes
++
+=
+n
+;
+break
+;
+case
+ASMJS_CODE
+:
+m_asmJSCodeBytes
 +
 =
 n
@@ -866,6 +884,9 @@ jaeger
 size_t
 *
 ion
+size_t
+*
+asmJS
 size_t
 *
 regexp

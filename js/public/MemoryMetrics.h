@@ -424,6 +424,9 @@ size_t
 ionCode
 ;
 size_t
+asmJSCode
+;
+size_t
 regexpCode
 ;
 size_t
