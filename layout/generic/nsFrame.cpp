@@ -16796,6 +16796,15 @@ mBoxShadow
 if
 (
 boxShadows
+&
+&
+!
+aFrame
+-
+>
+IsThemed
+(
+)
 )
 {
 nsRect
