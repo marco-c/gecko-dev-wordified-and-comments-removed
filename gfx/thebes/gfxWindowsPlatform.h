@@ -625,6 +625,7 @@ static
 void
 GetDLLVersion
 (
+const
 PRUnichar
 *
 aDLLPath

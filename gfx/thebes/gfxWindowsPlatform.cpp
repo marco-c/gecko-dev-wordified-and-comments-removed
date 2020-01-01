@@ -2520,6 +2520,7 @@ gfxWindowsPlatform
 :
 GetDLLVersion
 (
+const
 PRUnichar
 *
 aDLLPath
@@ -2595,7 +2596,7 @@ if
 GetFileVersionInfoW
 (
 aDLLPath
-NULL
+0
 versInfoSize
 LPBYTE
 (
