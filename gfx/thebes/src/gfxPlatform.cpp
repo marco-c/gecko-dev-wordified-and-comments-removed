@@ -1674,6 +1674,16 @@ PRUint32
 )
 eFontPrefLang_Korean
 )
+|
+(
+1
+<
+<
+(
+PRUint32
+)
+eFontPrefLang_CJKSet
+)
 ;
 PRBool
 gfxPlatform
