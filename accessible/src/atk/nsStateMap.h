@@ -274,6 +274,10 @@ kMapDirectly
 }
 {
 kNone
+kMapDirectly
+}
+{
+kNone
 kNoSuchState
 }
 }

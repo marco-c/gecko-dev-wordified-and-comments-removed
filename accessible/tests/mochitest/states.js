@@ -216,6 +216,13 @@ nsIAccessibleStates
 EXT_STATE_MULTI_LINE
 ;
 const
+EXT_STATE_PINNED
+=
+nsIAccessibleStates
+.
+EXT_STATE_PINNED
+;
+const
 EXT_STATE_SENSITIVE
 =
 nsIAccessibleStates
