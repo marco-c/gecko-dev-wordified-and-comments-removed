@@ -1935,6 +1935,10 @@ SkFontHost_gamma
 .
 cpp
 \
+FontHostConfiguration_android
+.
+cpp
+\
 SkMMapStream
 .
 cpp
@@ -1993,6 +1997,10 @@ CPPSRCS
 =
 \
 SkFontHost_win
+.
+cpp
+\
+SkFontHost_sandbox_none
 .
 cpp
 \
