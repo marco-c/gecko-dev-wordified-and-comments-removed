@@ -313,6 +313,10 @@ page_blank
 .
 html
 \
+test_localStorageQuotaPrivateBrowsing_perwindowpb
+.
+html
+\
 (
 NULL
 )
