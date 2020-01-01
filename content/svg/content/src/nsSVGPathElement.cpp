@@ -1771,9 +1771,7 @@ matrix
 =
 PrependLocalTransformTo
 (
-gfxMatrix
-(
-)
+matrix
 )
 ;
 }
