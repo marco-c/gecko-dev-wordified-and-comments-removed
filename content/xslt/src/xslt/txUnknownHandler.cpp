@@ -213,7 +213,7 @@ htmlRoot
 aNsID
 =
 =
-kNameSpaceID_None
+kNameSpaceID_XHTML
 &
 &
 !
