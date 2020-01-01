@@ -4510,6 +4510,12 @@ width
 metrics
 .
 slider_width
++
+2
+*
+metrics
+.
+trough_border
 ;
 else
 aResult
@@ -4520,6 +4526,12 @@ height
 metrics
 .
 slider_width
++
+2
+*
+metrics
+.
+trough_border
 ;
 *
 aIsOverridable
