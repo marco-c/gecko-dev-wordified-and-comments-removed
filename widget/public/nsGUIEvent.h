@@ -1828,7 +1828,7 @@ widget
 (
 w
 )
-nativeMsg
+pluginEvent
 (
 nsnull
 )
@@ -1857,7 +1857,7 @@ widget
 (
 w
 )
-nativeMsg
+pluginEvent
 (
 nsnull
 )
@@ -1871,7 +1871,7 @@ widget
 ;
 void
 *
-nativeMsg
+pluginEvent
 ;
 }
 ;

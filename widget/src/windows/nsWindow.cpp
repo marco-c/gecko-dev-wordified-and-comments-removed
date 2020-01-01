@@ -11367,7 +11367,7 @@ lParam
 ;
 event
 .
-nativeMsg
+pluginEvent
 =
 (
 void
@@ -11764,7 +11764,7 @@ lParam
 ;
 event
 .
-nativeMsg
+pluginEvent
 =
 (
 void
@@ -12560,7 +12560,7 @@ lParam
 ;
 event
 .
-nativeMsg
+pluginEvent
 =
 (
 void
@@ -13089,7 +13089,7 @@ break
 }
 event
 .
-nativeMsg
+pluginEvent
 =
 (
 void

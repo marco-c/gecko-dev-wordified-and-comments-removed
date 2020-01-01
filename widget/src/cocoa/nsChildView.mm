@@ -17520,7 +17520,7 @@ GetCurrentKeyModifiers
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -17668,7 +17668,7 @@ deltaZ
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 cocoaEvent
@@ -17863,7 +17863,7 @@ GetCurrentKeyModifiers
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -18014,7 +18014,7 @@ deltaZ
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 cocoaEvent
@@ -18246,7 +18246,7 @@ GetCurrentKeyModifiers
 ;
 event
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -18372,7 +18372,7 @@ deltaZ
 ;
 event
 .
-nativeMsg
+pluginEvent
 =
 &
 cocoaEvent
@@ -18567,7 +18567,7 @@ GetCurrentKeyModifiers
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -18715,7 +18715,7 @@ deltaZ
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 cocoaEvent
@@ -18849,7 +18849,7 @@ GetCurrentKeyModifiers
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -19000,7 +19000,7 @@ deltaZ
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 cocoaEvent
@@ -19229,7 +19229,7 @@ menu
 click
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -19380,7 +19380,7 @@ deltaZ
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 cocoaEvent
@@ -19559,7 +19559,7 @@ menu
 click
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -19710,7 +19710,7 @@ deltaZ
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 cocoaEvent
@@ -20718,7 +20718,7 @@ deltaZ
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 cocoaEvent
@@ -27694,7 +27694,7 @@ PR_IntervalNow
 ;
 keyDownEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 eventRec
@@ -28547,7 +28547,7 @@ carbonEvent
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -28559,7 +28559,7 @@ endif
 {
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 NULL
 ;
@@ -31135,7 +31135,7 @@ carbonEvent
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -31162,7 +31162,7 @@ cocoaEvent
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 cocoaEvent
@@ -31509,7 +31509,7 @@ carbonEvent
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -31521,7 +31521,7 @@ endif
 {
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 NULL
 ;
@@ -31803,7 +31803,7 @@ carbonEvent
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -31815,7 +31815,7 @@ endif
 {
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 NULL
 ;
@@ -32778,7 +32778,7 @@ pluginEvent
 ;
 keyUpEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 pluginEvent
@@ -33065,7 +33065,7 @@ macKeyUpEvent
 ;
 keyUpEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 macKeyUpEvent
@@ -33299,7 +33299,7 @@ event
 here
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 NULL
 ;
@@ -33459,7 +33459,7 @@ event
 here
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 NULL
 ;
@@ -33516,7 +33516,7 @@ event
 here
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 NULL
 ;
@@ -34907,7 +34907,7 @@ message
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 carbonEvent
@@ -34935,7 +34935,7 @@ message
 ;
 geckoEvent
 .
-nativeMsg
+pluginEvent
 =
 &
 cocoaEvent

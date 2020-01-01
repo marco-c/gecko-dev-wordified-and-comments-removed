@@ -15958,7 +15958,7 @@ EventRecord
 guiEvent
 -
 >
-nativeMsg
+pluginEvent
 )
 ;
 if
@@ -17982,7 +17982,7 @@ if
 (
 anEvent
 .
-nativeMsg
+pluginEvent
 )
 {
 XKeyEvent
@@ -18026,7 +18026,7 @@ GdkEventKey
 (
 anEvent
 .
-nativeMsg
+pluginEvent
 )
 ;
 event
@@ -18550,7 +18550,7 @@ event
 =
 anEvent
 .
-nativeMsg
+pluginEvent
 ;
 if
 (
@@ -19118,7 +19118,7 @@ NPEvent
 )
 anEvent
 .
-nativeMsg
+pluginEvent
 ;
 NPEvent
 pluginEvent
@@ -20187,7 +20187,7 @@ if
 (
 anEvent
 .
-nativeMsg
+pluginEvent
 )
 {
 XKeyEvent
@@ -20231,7 +20231,7 @@ GdkEventKey
 (
 anEvent
 .
-nativeMsg
+pluginEvent
 )
 ;
 event

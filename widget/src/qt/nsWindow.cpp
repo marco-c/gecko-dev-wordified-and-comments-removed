@@ -547,7 +547,7 @@ time
 ;
 aEvent
 .
-nativeMsg
+pluginEvent
 =
 (
 void

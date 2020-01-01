@@ -2069,7 +2069,7 @@ PR_FALSE
 ;
 aEvent
 .
-nativeMsg
+pluginEvent
 =
 (
 void
