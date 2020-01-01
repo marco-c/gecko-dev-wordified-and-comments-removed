@@ -4021,9 +4021,6 @@ tooltip
 "
 /
 >
-#
-ifndef
-MOZ_PLACES_BOOKMARKS
 <
 toolbarbutton
 id
@@ -4097,8 +4094,6 @@ bookmarksButtonObserver
 "
 /
 >
-#
-endif
 <
 toolbarbutton
 id
