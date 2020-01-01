@@ -886,6 +886,11 @@ FinishLoader
 (
 )
 ;
+void
+GetPrefsAndStartLoader
+(
+)
+;
 static
 size_t
 SizeOfFamilyNameEntryExcludingThis
