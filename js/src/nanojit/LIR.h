@@ -7531,11 +7531,9 @@ funccounts
 CountMap
 <
 Str
-&
 StrHash
 <
 Str
-&
 >
 >
 namecounts
