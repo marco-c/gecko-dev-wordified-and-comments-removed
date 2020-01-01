@@ -562,7 +562,10 @@ const
 nsIntPoint
 &
 const
+nsTArray
+<
 nsIntRect
+>
 &
 const
 nsTArray
