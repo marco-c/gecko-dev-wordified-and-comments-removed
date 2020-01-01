@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-MemoryReporting
+dom
+/
+HTMLAreaElement
 .
 h
 "
@@ -12,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-HTMLAreaElement
+MemoryReporting
 .
 h
 "

@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-MemoryReporting
+dom
+/
+HTMLAnchorElement
 .
 h
 "
@@ -12,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-HTMLAnchorElement
+MemoryReporting
 .
 h
 "

@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-MemoryReporting
+css
+/
+StyleRule
 .
 h
 "
@@ -12,9 +14,7 @@ include
 "
 mozilla
 /
-css
-/
-StyleRule
+MemoryReporting
 .
 h
 "
