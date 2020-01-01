@@ -267,6 +267,11 @@ nsDOMDesktopNotification
 (
 )
 ;
+void
+Init
+(
+)
+;
 nsresult
 PostDesktopNotification
 (
