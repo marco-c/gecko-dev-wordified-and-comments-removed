@@ -653,6 +653,10 @@ test_arrowpanel
 .
 xul
 \
+test_menuitem_commands
+.
+xul
+\
 (
 NULL
 )
