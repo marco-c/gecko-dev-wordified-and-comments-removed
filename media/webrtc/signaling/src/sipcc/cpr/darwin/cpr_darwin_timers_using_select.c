@@ -602,11 +602,11 @@ n
 __FUNCTION__
 )
 ;
-#
-endif
 return
 CPR_SUCCESS
 ;
+#
+endif
 }
 static
 cprRC_t

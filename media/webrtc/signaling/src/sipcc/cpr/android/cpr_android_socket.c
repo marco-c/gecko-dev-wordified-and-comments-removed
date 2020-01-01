@@ -1209,10 +1209,6 @@ AF_LOCAL
 ;
 snprintf
 (
-(
-char
-*
-)
 addr
 -
 >
@@ -1224,12 +1220,6 @@ addr
 >
 sun_path
 )
-"
-%
-s_
-%
-d
-"
 name
 pid
 )
