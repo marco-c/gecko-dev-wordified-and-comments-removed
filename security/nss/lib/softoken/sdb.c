@@ -754,6 +754,15 @@ implemented
 "
 #
 endif
+#
+ifndef
+SQLITE_FCNTL_TEMPFILENAME
+#
+define
+SQLITE_FCNTL_TEMPFILENAME
+16
+#
+endif
 static
 char
 *

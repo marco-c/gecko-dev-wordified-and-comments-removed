@@ -16,9 +16,6 @@ RSA_BlockPrivate
 RSA_BlockPublic
 =
 2
-RSA_BlockOAEP
-=
-3
 RSA_BlockRaw
 =
 4

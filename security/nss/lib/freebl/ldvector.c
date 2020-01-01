@@ -24,6 +24,13 @@ alghmac
 .
 h
 "
+#
+include
+"
+hmacct
+.
+h
+"
 static
 const
 struct
@@ -224,6 +231,8 @@ SHA224_Clone
 BLAPI_SHVerifyFile
 PQG_ParamGenV2
 PRNGTEST_RunHealthTests
+HMAC_ConstantTime
+SSLv3_MAC_ConstantTime
 }
 ;
 const

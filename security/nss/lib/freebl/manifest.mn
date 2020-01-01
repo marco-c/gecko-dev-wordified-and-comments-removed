@@ -264,6 +264,10 @@ blapi
 .
 h
 \
+hmacct
+.
+h
+\
 secmpi
 .
 h
@@ -517,6 +521,10 @@ ctr
 c
 \
 gcm
+.
+c
+\
+hmacct
 .
 c
 \
