@@ -1,3 +1,9 @@
+let
+downloadModule
+=
+{
+}
+;
 Cu
 .
 import
@@ -15,6 +21,7 @@ DownloadLastDir
 .
 jsm
 "
+downloadModule
 )
 ;
 Cu
@@ -53,6 +60,17 @@ Services
 .
 jsm
 "
+)
+;
+let
+gDownloadLastDir
+=
+new
+downloadModule
+.
+DownloadLastDir
+(
+window
 )
 ;
 let
@@ -220,9 +238,6 @@ cleanupPrivateFile
 ;
 delete
 FileUtils
-;
-delete
-gDownloadLastDir
 ;
 }
 )

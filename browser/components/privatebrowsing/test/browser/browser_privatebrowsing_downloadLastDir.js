@@ -1,3 +1,9 @@
+let
+downloadModule
+=
+{
+}
+;
 Cu
 .
 import
@@ -53,6 +59,7 @@ DownloadLastDir
 .
 jsm
 "
+downloadModule
 )
 ;
 Cu
@@ -140,6 +147,17 @@ getService
 Ci
 .
 nsIPrivateBrowsingService
+)
+;
+let
+gDownloadLastDir
+=
+new
+downloadModule
+.
+DownloadLastDir
+(
+window
 )
 ;
 MockFilePicker
@@ -428,9 +446,6 @@ cleanupPrivateFile
 ;
 delete
 FileUtils
-;
-delete
-gDownloadLastDir
 ;
 }
 )
