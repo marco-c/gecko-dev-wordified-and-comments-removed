@@ -678,6 +678,11 @@ rv
 rv
 )
 ;
+PRUint32
+count
+=
+0
+;
 if
 (
 mOpenChar
@@ -693,6 +698,9 @@ Display
 aBuilder
 this
 aLists
+count
++
++
 )
 ;
 NS_ENSURE_SUCCESS
@@ -717,6 +725,9 @@ Display
 aBuilder
 this
 aLists
+count
++
++
 )
 ;
 NS_ENSURE_SUCCESS
@@ -754,6 +765,9 @@ Display
 aBuilder
 this
 aLists
+count
++
++
 )
 ;
 NS_ENSURE_SUCCESS
