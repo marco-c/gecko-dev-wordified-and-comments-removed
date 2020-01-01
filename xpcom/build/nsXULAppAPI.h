@@ -54,6 +54,15 @@ nsXREAppData
 h
 "
 #
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
+#
 define
 XRE_USER_APP_DATA_DIR
 "
@@ -333,7 +342,7 @@ ipdlunittest
 "
 }
 ;
-PR_STATIC_ASSERT
+MOZ_STATIC_ASSERT
 (
 sizeof
 (
@@ -350,6 +359,11 @@ kGeckoProcessTypeString
 =
 =
 GeckoProcessType_End
+"
+Array
+length
+mismatch
+"
 )
 ;
 XRE_API

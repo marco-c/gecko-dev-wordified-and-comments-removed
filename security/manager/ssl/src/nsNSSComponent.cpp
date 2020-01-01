@@ -7024,7 +7024,7 @@ n
 )
 )
 ;
-PR_STATIC_ASSERT
+MOZ_STATIC_ASSERT
 (
 nsINSSErrorsService
 :
@@ -7060,6 +7060,17 @@ NSS_SSL_ERROR_LIMIT
 =
 =
 SSL_ERROR_LIMIT
+"
+You
+must
+update
+the
+values
+in
+nsINSSErrorsService
+.
+idl
+"
 )
 ;
 enum
