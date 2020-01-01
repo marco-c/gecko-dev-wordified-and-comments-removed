@@ -2097,7 +2097,7 @@ content
 ;
 cwu
 .
-setDisplayport
+setDisplayPort
 (
 displayport
 .
