@@ -97,6 +97,10 @@ browser_privatebrowsing_concurrent_page
 .
 html
 \
+browser_privatebrowsing_cookieacceptdialog
+.
+js
+\
 browser_privatebrowsing_lastpbcontextexited
 .
 js
