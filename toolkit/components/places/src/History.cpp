@@ -205,11 +205,9 @@ rv
 ;
 rv
 =
-stmt
--
->
-BindUTF8StringParameter
+BindStatementURLCString
 (
+stmt
 0
 spec
 )
