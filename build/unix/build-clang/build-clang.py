@@ -1,7 +1,7 @@
 llvm_revision
 =
 "
-160176
+160227
 "
 moz_version
 =
