@@ -6468,6 +6468,9 @@ XPConnectJSStringData
 )
 )
 ;
+#
+ifdef
+JS_METHODJIT
 NS_RegisterMemoryReporter
 (
 new
@@ -6486,6 +6489,11 @@ XPConnectJSMjitData
 )
 )
 ;
+#
+endif
+#
+ifdef
+JS_TRACER
 NS_RegisterMemoryReporter
 (
 new
@@ -6513,6 +6521,8 @@ XPConnectJSTjitDataAllocatorsReserve
 )
 )
 ;
+#
+endif
 }
 if
 (
