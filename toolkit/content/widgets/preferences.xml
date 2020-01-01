@@ -8310,9 +8310,7 @@ CDATA
 var
 helpButton
 =
-document
-.
-documentElement
+this
 .
 getButton
 (
