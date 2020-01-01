@@ -206,6 +206,12 @@ nsHTMLSourceElement
 Media
 media
 )
+NS_IMPL_FLOAT_ATTR
+(
+nsHTMLSourceElement
+PixelRatio
+pixelratio
+)
 PRBool
 nsHTMLSourceElement
 :

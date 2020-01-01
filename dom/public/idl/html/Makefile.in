@@ -672,6 +672,10 @@ nsIDOMHTMLTimeRanges
 .
 idl
 \
+nsIDOMHTMLByteRanges
+.
+idl
+\
 nsIDOMHTMLMediaElement
 .
 idl

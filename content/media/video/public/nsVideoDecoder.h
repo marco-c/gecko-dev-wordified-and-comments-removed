@@ -312,6 +312,11 @@ double
 aFramerate
 )
 ;
+void
+StopInvalidating
+(
+)
+;
 nsresult
 StartProgress
 (

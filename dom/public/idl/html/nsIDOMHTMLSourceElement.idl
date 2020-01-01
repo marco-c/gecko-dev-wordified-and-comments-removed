@@ -547,5 +547,9 @@ attribute
 DOMString
 media
 ;
+attribute
+float
+pixelRatio
+;
 }
 ;
