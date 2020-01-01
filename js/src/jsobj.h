@@ -1607,7 +1607,12 @@ Shape
 shape
 )
 ;
-bool
+const
+js
+:
+:
+Shape
+*
 methodShapeChange
 (
 JSContext
@@ -1743,7 +1748,12 @@ Value
 vp
 )
 ;
-bool
+const
+js
+:
+:
+Shape
+*
 methodWriteBarrier
 (
 JSContext

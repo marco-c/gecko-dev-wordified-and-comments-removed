@@ -787,7 +787,12 @@ prevObj
 ;
 }
 inline
-bool
+const
+js
+:
+:
+Shape
+*
 JSObject
 :
 :
@@ -867,7 +872,8 @@ shape
 }
 }
 return
-true
+&
+shape
 ;
 }
 inline
