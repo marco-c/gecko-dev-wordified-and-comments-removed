@@ -167,7 +167,6 @@ aTransparent
 long
 stride
 =
--
 long
 (
 aWidth
@@ -193,17 +192,6 @@ GetBits
 (
 )
 )
-;
-data
--
-=
-(
-aHeight
--
-1
-)
-*
-stride
 ;
 gfxImageFormat
 format

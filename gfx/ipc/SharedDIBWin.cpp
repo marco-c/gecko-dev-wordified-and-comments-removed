@@ -345,7 +345,11 @@ aHeader
 >
 bV4Height
 =
+-
+LONG
+(
 aHeight
+)
 ;
 aHeader
 -
@@ -408,6 +412,7 @@ BITMAPV4HEADER
 )
 +
 (
+-
 aHeader
 -
 >
