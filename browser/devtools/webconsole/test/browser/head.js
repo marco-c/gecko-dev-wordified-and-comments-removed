@@ -109,13 +109,6 @@ filterBox
 outputNode
 cs
 ;
-let
-win
-=
-gBrowser
-.
-selectedBrowser
-;
 function
 addTab
 (

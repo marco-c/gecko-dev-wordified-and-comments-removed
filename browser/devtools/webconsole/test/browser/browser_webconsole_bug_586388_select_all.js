@@ -142,7 +142,7 @@ commandController
 =
 window
 .
-commandController
+webConsoleCommandController
 ;
 ok
 (
