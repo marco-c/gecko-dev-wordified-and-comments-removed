@@ -3855,9 +3855,6 @@ asmJSMachExceptionHandler
 ;
 #
 endif
-size_t
-sizeOfNonHeapAsmJSArrays_
-;
 #
 ifdef
 JS_THREADSAFE
@@ -4436,11 +4433,6 @@ JS
 RuntimeSizes
 *
 runtime
-)
-;
-size_t
-sizeOfExplicitNonHeap
-(
 )
 ;
 private
