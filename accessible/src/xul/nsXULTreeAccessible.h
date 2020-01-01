@@ -325,6 +325,9 @@ aEndCol
 void
 TreeViewChanged
 (
+nsITreeView
+*
+aView
 )
 ;
 protected
