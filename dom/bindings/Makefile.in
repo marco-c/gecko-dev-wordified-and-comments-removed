@@ -322,6 +322,10 @@ binding_include_path
 )
 =
 \
+BindingDeclarations
+.
+h
+\
 BindingUtils
 .
 h

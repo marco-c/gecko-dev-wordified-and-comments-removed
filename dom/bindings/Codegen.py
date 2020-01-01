@@ -3673,6 +3673,21 @@ CallbackFunction
 h
 "
 )
+            
+declareIncludes
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+BindingUtils
+.
+h
+"
+)
         
 def
 _includeString
@@ -53296,7 +53311,15 @@ mozilla
 /
 dom
 /
-BindingUtils
+BindingDeclarations
+.
+h
+'
+                          
+'
+mozilla
+/
+ErrorResult
 .
 h
 '
@@ -53323,6 +53346,16 @@ h
 ]
                          
 [
+'
+mozilla
+/
+dom
+/
+BindingUtils
+.
+h
+'
+                          
 '
 mozilla
 /

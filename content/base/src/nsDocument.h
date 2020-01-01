@@ -4315,6 +4315,12 @@ friend
 class
 nsUnblockOnloadEvent
 ;
+mozilla
+:
+:
+dom
+:
+:
 VisibilityState
 GetVisibilityState
 (
