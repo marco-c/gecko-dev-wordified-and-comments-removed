@@ -526,6 +526,10 @@ nsSMILValue
 .
 cpp
 \
+SMILEnumType
+.
+cpp
+\
 (
 NULL
 )
