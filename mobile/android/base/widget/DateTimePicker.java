@@ -118,15 +118,6 @@ android
 .
 widget
 .
-FrameLayout
-.
-LayoutParams
-;
-import
-android
-.
-widget
-.
 LinearLayout
 ;
 import

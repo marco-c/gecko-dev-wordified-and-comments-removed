@@ -19,13 +19,6 @@ BrowserDB
 import
 android
 .
-content
-.
-ContentResolver
-;
-import
-android
-.
 database
 .
 Cursor

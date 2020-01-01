@@ -139,13 +139,6 @@ json
 .
 JSONException
 ;
-import
-org
-.
-json
-.
-JSONObject
-;
 public
 final
 class

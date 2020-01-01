@@ -14,15 +14,6 @@ mozilla
 .
 gecko
 .
-OnInterceptTouchListener
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 Tab
 ;
 import

@@ -67,13 +67,6 @@ android
 .
 widget
 .
-TabHost
-;
-import
-android
-.
-widget
-.
 TabWidget
 ;
 import

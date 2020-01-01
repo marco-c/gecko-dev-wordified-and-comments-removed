@@ -213,15 +213,6 @@ view
 .
 animation
 .
-AnimationUtils
-;
-import
-android
-.
-view
-.
-animation
-.
 Animation
 ;
 import

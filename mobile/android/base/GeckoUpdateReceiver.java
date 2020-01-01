@@ -23,13 +23,6 @@ content
 .
 *
 ;
-import
-android
-.
-net
-.
-*
-;
 public
 class
 GeckoUpdateReceiver

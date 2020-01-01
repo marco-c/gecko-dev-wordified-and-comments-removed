@@ -47,13 +47,6 @@ AttributeSet
 import
 android
 .
-util
-.
-Log
-;
-import
-android
-.
 widget
 .
 ImageView
