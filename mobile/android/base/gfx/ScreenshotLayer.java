@@ -577,6 +577,7 @@ mBuffer
 =
 null
 )
+{
 GeckoAppShell
 .
 freeDirectBuffer
@@ -584,6 +585,11 @@ freeDirectBuffer
 mBuffer
 )
 ;
+mBuffer
+=
+null
+;
+}
 }
 finally
 {

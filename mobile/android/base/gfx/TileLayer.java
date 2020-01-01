@@ -241,6 +241,8 @@ finalize
 throws
 Throwable
 {
+try
+{
 if
 (
 mTextureIDs
@@ -259,6 +261,16 @@ add
 mTextureIDs
 )
 ;
+}
+finally
+{
+super
+.
+finalize
+(
+)
+;
+}
 }
 public
 void

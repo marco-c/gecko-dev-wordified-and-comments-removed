@@ -597,6 +597,10 @@ freeDirectBuffer
 mBuffer
 )
 ;
+mBuffer
+=
+null
+;
 }
 }
 finally

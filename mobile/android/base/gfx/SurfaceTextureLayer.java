@@ -704,6 +704,8 @@ finalize
 throws
 Throwable
 {
+try
+{
 if
 (
 mSurfaceTexture
@@ -821,6 +823,16 @@ add
 mTextureId
 )
 ;
+}
+finally
+{
+super
+.
+finalize
+(
+)
+;
+}
 }
 Override
 protected
