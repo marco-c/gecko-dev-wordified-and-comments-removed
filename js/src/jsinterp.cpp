@@ -21891,9 +21891,7 @@ obj
 isNative
 (
 )
-&
-&
-!
+)
 obj
 -
 >
@@ -21901,9 +21899,6 @@ unbrand
 (
 cx
 )
-)
-goto
-error
 ;
 }
 }
@@ -23205,9 +23200,6 @@ slots
 1
 )
 ;
-if
-(
-!
 regs
 .
 sp
@@ -23224,9 +23216,6 @@ unbrand
 (
 cx
 )
-)
-goto
-error
 ;
 END_CASE
 (
