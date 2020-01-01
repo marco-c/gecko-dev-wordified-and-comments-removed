@@ -1654,7 +1654,7 @@ label
 =
 "
 &
-showTabView2
+viewTabGroups
 .
 label
 ;
@@ -1663,7 +1663,7 @@ accesskey
 =
 "
 &
-showTabView2
+viewTabGroups
 .
 accesskey
 ;

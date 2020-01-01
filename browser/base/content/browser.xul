@@ -10457,7 +10457,7 @@ label
 =
 "
 &
-tabViewButton2
+tabGroupsButton
 .
 label
 ;
@@ -10473,7 +10473,7 @@ tooltiptext
 =
 "
 &
-tabViewButton2
+tabGroupsButton
 .
 tooltip
 ;
