@@ -155,10 +155,6 @@ HTMLInputElement
 )
 DOMCI_CLASS
 (
-HTMLSelectElement
-)
-DOMCI_CLASS
-(
 ValidityState
 )
 DOMCI_CLASS

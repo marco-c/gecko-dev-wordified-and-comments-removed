@@ -539,6 +539,10 @@ HTMLScriptElement
 .
 webidl
 \
+HTMLSelectElement
+.
+webidl
+\
 HTMLSourceElement
 .
 webidl
