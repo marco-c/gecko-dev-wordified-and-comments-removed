@@ -637,7 +637,7 @@ id
 +
 id
 /
-enter_guest_mode
+new_guest_session
 "
 android
 :
@@ -653,7 +653,7 @@ title
 "
 string
 /
-enter_guest_mode
+new_guest_session
 "
 /
 >
@@ -667,7 +667,7 @@ id
 +
 id
 /
-exit_guest_mode
+exit_guest_session
 "
 android
 :
@@ -683,7 +683,7 @@ title
 "
 string
 /
-exit_guest_mode
+exit_guest_session
 "
 /
 >

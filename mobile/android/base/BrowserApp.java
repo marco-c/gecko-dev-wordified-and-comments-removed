@@ -8927,7 +8927,7 @@ R
 .
 id
 .
-enter_guest_mode
+new_guest_session
 )
 ;
 MenuItem
@@ -8941,7 +8941,7 @@ R
 .
 id
 .
-exit_guest_mode
+exit_guest_session
 )
 ;
 aMenu
@@ -10030,7 +10030,7 @@ R
 .
 id
 .
-enter_guest_mode
+new_guest_session
 :
 showGuestModeDialog
 (
@@ -10047,7 +10047,7 @@ R
 .
 id
 .
-exit_guest_mode
+exit_guest_session
 :
 showGuestModeDialog
 (
@@ -10234,7 +10234,7 @@ R
 .
 string
 .
-guest_mode_dialog_continue
+guest_session_dialog_continue
 )
 res
 .
@@ -10244,7 +10244,7 @@ R
 .
 string
 .
-guest_mode_dialog_cancel
+guest_session_dialog_cancel
 )
 }
 )
@@ -10275,7 +10275,7 @@ R
 .
 string
 .
-guest_mode_enter_title
+new_guest_session_title
 ;
 msgString
 =
@@ -10283,7 +10283,7 @@ R
 .
 string
 .
-guest_mode_enter_text
+new_guest_session_text
 ;
 }
 else
@@ -10294,7 +10294,7 @@ R
 .
 string
 .
-guest_mode_leave_title
+exit_guest_session_title
 ;
 msgString
 =
@@ -10302,7 +10302,7 @@ R
 .
 string
 .
-guest_mode_leave_text
+exit_guest_session_text
 ;
 }
 ps
