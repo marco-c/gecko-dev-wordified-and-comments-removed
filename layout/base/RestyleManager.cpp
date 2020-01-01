@@ -10155,6 +10155,14 @@ GetContent
 if
 (
 checkUndisplayed
+&
+&
+!
+(
+mHintsHandled
+&
+nsChangeHint_ReconstructFrame
+)
 )
 {
 UndisplayedNode
