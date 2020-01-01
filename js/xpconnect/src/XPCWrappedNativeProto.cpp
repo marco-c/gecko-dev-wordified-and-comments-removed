@@ -54,9 +54,6 @@ ClassInfoFlags
 XPCNativeSet
 *
 Set
-QITableEntry
-*
-offsets
 )
 :
 mScope
@@ -86,10 +83,6 @@ nullptr
 mScriptableInfo
 (
 nullptr
-)
-mOffsets
-(
-offsets
 )
 {
 MOZ_COUNT_CTOR
@@ -655,9 +648,6 @@ const
 XPCNativeScriptableCreateInfo
 *
 scriptableCreateInfo
-QITableEntry
-*
-offsets
 bool
 callPostCreatePrototype
 )
@@ -822,7 +812,6 @@ scope
 classInfo
 ciFlags
 set
-offsets
 )
 ;
 if
