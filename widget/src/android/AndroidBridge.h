@@ -369,6 +369,14 @@ aAction
 EmptyString
 (
 )
+const
+nsAString
+&
+aTitle
+=
+EmptyString
+(
+)
 )
 ;
 void
