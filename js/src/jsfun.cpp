@@ -3944,6 +3944,15 @@ obj
 js_CallClass
 )
 ;
+JS_ASSERT
+(
+!
+STOBJ_GET_PROTO
+(
+obj
+)
+)
+;
 if
 (
 !
@@ -4141,6 +4150,7 @@ int16
 )
 slot
 NULL
+JSDNP_DONT_PURGE
 )
 )
 {
@@ -4193,6 +4203,7 @@ JSPROP_SHARED
 0
 0
 NULL
+JSDNP_DONT_PURGE
 )
 )
 {
