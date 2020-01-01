@@ -442,6 +442,12 @@ DOM
 Parsing
 and
 Serialization
+[
+binaryname
+(
+DOMInnerHTML
+)
+]
 attribute
 DOMString
 innerHTML
