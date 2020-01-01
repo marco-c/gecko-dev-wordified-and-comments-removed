@@ -1436,12 +1436,10 @@ mUpdateSurface
 =
 nsnull
 ;
-mClippedRect
+mUpdateOffset
 =
-nsIntRect
+nsIntPoint
 (
-0
-0
 0
 0
 )
