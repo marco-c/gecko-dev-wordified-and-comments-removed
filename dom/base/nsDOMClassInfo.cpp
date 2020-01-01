@@ -19249,12 +19249,10 @@ objp
 {
 if
 (
+(
 flags
 &
-(
 JSRESOLVE_ASSIGNING
-|
-JSRESOLVE_QUALIFIED
 )
 |
 |
