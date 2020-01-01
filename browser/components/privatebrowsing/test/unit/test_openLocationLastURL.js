@@ -33,7 +33,6 @@ resource
 :
 /
 /
-app
 /
 modules
 /
