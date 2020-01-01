@@ -279,9 +279,6 @@ mInPrivateBrowsing
 }
 ;
 class
-nsIRadioGroupContainer
-;
-class
 nsIRadioVisitor
 ;
 class
@@ -1047,6 +1044,13 @@ nsAString
 aValidationMessage
 ValidityStateType
 aType
+)
+;
+void
+UpdateValueMissingValidityStateForRadio
+(
+bool
+aIgnoreSelf
 )
 ;
 PRInt32
