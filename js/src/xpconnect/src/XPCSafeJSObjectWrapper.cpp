@@ -1707,6 +1707,7 @@ XPCWrapper
 AddProperty
 (
 cx
+obj
 unsafeObj
 id
 vp
