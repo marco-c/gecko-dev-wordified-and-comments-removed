@@ -216,6 +216,9 @@ writer
 nsresult
 DecodeInternal
 (
+JSContext
+*
+cx
 nsIInputStream
 *
 aStream
@@ -223,6 +226,12 @@ PRInt32
 aContentLength
 bool
 aNeedsConverter
+JS
+:
+:
+Value
+*
+aRetVal
 DecodingMode
 mode
 =
