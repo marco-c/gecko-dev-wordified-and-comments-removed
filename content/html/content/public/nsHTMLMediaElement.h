@@ -163,6 +163,12 @@ PRBool
 aHaveNotified
 )
 ;
+virtual
+void
+DestroyContent
+(
+)
+;
 void
 MetadataLoaded
 (
