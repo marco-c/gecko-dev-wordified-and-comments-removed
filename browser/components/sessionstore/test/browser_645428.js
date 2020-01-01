@@ -76,7 +76,6 @@ removeObserver
 (
 observe
 NOTIFICATION
-false
 )
 ;
 }

@@ -706,7 +706,6 @@ state
 -
 restored
 "
-false
 )
 ;
 document
@@ -1041,7 +1040,6 @@ close
 -
 granted
 "
-false
 )
 ;
 gotLastWindowClosedTopic

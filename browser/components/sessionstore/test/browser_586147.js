@@ -24,6 +24,7 @@ obs
 addObserver
 (
 function
+onRestore
 (
 )
 {
@@ -33,11 +34,8 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+onRestore
 topic
-false
 )
 ;
 callback

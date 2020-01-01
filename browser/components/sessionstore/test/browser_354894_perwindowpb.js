@@ -413,7 +413,6 @@ removeObserver
 (
 observer
 o
-false
 )
 ;
 [

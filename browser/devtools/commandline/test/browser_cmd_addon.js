@@ -119,7 +119,6 @@ onGatReadyInterjection
 "
 gcli_addon_commands_ready
 "
-false
 )
 ;
 info

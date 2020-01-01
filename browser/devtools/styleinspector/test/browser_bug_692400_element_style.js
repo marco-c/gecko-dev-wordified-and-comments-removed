@@ -160,7 +160,6 @@ StyleInspector
 -
 populated
 "
-false
 )
 ;
 let

@@ -483,7 +483,6 @@ StyleInspector
 -
 populated
 "
-false
 )
 ;
 info
