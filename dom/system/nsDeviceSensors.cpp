@@ -1280,13 +1280,6 @@ do_QueryInterface
 event
 )
 ;
-privateEvent
-=
-do_QueryInterface
-(
-event
-)
-;
 if
 (
 privateEvent
