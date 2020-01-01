@@ -14419,6 +14419,17 @@ return
 NS_OK
 ;
 }
+if
+(
+!
+gl
+-
+>
+IsGLES2
+(
+)
+)
+{
 s
 =
 ShGetObjectCode
@@ -14426,6 +14437,7 @@ ShGetObjectCode
 compiler
 )
 ;
+}
 gl
 -
 >
