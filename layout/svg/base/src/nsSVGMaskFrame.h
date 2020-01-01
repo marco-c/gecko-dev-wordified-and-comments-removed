@@ -72,6 +72,11 @@ mInUse
 false
 )
 {
+AddStateBits
+(
+NS_STATE_SVG_NONDISPLAY_CHILD
+)
+;
 }
 public
 :
