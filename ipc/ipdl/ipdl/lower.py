@@ -11085,6 +11085,14 @@ name
 :
 '
 )
+                                      
+md
+.
+decl
+.
+type
+.
+compress
 )
                 
 Whitespace
@@ -11135,6 +11143,14 @@ name
 :
 '
 )
+                        
+md
+.
+decl
+.
+type
+.
+compress
 )
                     
 Whitespace
@@ -12473,6 +12489,7 @@ clsname
 msgid
 typedefs
 prettyName
+compress
 )
 :
     
@@ -12566,6 +12583,31 @@ idenum
 )
 )
     
+if
+compress
+:
+        
+compression
+=
+ExprVar
+(
+'
+COMPRESSION_ENABLED
+'
+)
+    
+else
+:
+        
+compression
+=
+ExprVar
+(
+'
+COMPRESSION_NONE
+'
+)
+    
 ctor
 =
 ConstructorDefn
@@ -12612,6 +12654,8 @@ ExprVar
 PRIORITY_NORMAL
 '
 )
+                                       
+compression
                                        
 ExprLiteral
 .
