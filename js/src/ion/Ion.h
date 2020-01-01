@@ -423,6 +423,8 @@ AbstractFramePtr
 fp
 bool
 isConstructing
+bool
+newType
 )
 ;
 MethodStatus
