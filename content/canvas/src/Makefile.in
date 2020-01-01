@@ -142,7 +142,7 @@ CanvasUtils
 .
 cpp
 \
-nsCanvasRenderingContext2DAzure
+CanvasRenderingContext2D
 .
 cpp
 \
