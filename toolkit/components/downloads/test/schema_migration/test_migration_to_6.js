@@ -344,7 +344,7 @@ getInt64
 ;
 stmt
 .
-reset
+finalize
 (
 )
 ;
