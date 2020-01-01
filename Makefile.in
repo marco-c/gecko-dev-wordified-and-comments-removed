@@ -1325,10 +1325,13 @@ symbols
 zip
 -
 r9D
+"
 .
 .
 /
-"
+(
+PKG_PATH
+)
 (
 SYMBOL_ARCHIVE_BASENAME
 )
@@ -1364,6 +1367,9 @@ sh
 DIST
 )
 /
+(
+PKG_PATH
+)
 (
 SYMBOL_ARCHIVE_BASENAME
 )
