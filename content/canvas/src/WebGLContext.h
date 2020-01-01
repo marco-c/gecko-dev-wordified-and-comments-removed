@@ -5912,7 +5912,14 @@ IsContextStable
 (
 )
 const
+{
+return
+mContextStatus
+=
+=
+ContextStable
 ;
+}
 void
 ForceLoseContext
 (
