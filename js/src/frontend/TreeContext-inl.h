@@ -108,10 +108,6 @@ cx
 &
 bindings
 )
-inForInit
-(
-false
-)
 cxFlags
 (
 cx
@@ -347,6 +343,10 @@ hasReturnExpr
 false
 )
 hasReturnVoid
+(
+false
+)
+inForInit
 (
 false
 )

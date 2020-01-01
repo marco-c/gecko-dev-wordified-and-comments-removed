@@ -421,6 +421,11 @@ hasSingletons
 :
 1
 ;
+bool
+inForInit
+:
+1
+;
 BytecodeEmitter
 (
 Parser

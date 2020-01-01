@@ -234,11 +234,6 @@ Bindings
 AutoRooter
 bindingsRoot
 ;
-bool
-inForInit
-:
-1
-;
 ContextFlags
 cxFlags
 ;
@@ -645,6 +640,11 @@ hasReturnExpr
 ;
 bool
 hasReturnVoid
+:
+1
+;
+bool
+inForInit
 :
 1
 ;
