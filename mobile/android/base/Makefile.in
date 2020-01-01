@@ -777,10 +777,6 @@ AlertNotification
 .
 java
 \
-AutoCompletePopup
-.
-java
-\
 AwesomeBar
 .
 java
@@ -838,6 +834,10 @@ Favicons
 java
 \
 FloatUtils
+.
+java
+\
+FormAssistPopup
 .
 java
 \

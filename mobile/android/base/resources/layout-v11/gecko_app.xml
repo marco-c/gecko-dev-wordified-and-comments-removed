@@ -138,7 +138,7 @@ mozilla
 .
 gecko
 .
-AutoCompletePopup
+FormAssistPopup
 android
 :
 id
@@ -147,7 +147,7 @@ id
 +
 id
 /
-autocomplete_popup
+form_assist_popup
 "
 style
 =

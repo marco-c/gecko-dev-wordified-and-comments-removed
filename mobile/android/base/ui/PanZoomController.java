@@ -1214,7 +1214,7 @@ false
 ;
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -1233,7 +1233,7 @@ PANNING_HOLD_LOCKED
 :
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -1261,7 +1261,7 @@ PANNING_HOLD
 :
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -3310,7 +3310,7 @@ false
 ;
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -3847,7 +3847,7 @@ motionEvent
 {
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
@@ -3930,7 +3930,7 @@ zoomToRect
 {
 GeckoApp
 .
-mAutoCompletePopup
+mFormAssistPopup
 .
 hide
 (
