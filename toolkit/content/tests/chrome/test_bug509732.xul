@@ -254,14 +254,6 @@ javascript
 [
 CDATA
 [
-SimpleTest
-.
-expectAssertions
-(
-0
-7
-)
-;
 var
 gNotificationBox
 ;

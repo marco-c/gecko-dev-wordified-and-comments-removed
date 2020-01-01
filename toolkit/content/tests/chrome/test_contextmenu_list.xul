@@ -747,6 +747,7 @@ CDATA
 [
 if
 (
+!
 navigator
 .
 platform
@@ -764,18 +765,7 @@ SimpleTest
 expectAssertions
 (
 0
-5
-)
-;
-}
-else
-{
-SimpleTest
-.
-expectAssertions
-(
-0
-7
+2
 )
 ;
 }

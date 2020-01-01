@@ -965,14 +965,6 @@ javascript
 [
 CDATA
 [
-SimpleTest
-.
-expectAssertions
-(
-0
-2
-)
-;
 /
 *
 *

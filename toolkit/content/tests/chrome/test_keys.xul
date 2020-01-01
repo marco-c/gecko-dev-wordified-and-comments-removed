@@ -147,14 +147,6 @@ script
 >
 SimpleTest
 .
-expectAssertions
-(
-0
-3
-)
-;
-SimpleTest
-.
 waitForExplicitFinish
 (
 )
