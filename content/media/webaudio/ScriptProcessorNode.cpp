@@ -1167,6 +1167,15 @@ if
 (
 !
 node
+|
+|
+!
+node
+-
+>
+Context
+(
+)
 )
 {
 return
