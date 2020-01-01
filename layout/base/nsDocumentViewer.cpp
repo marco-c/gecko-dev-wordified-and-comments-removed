@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
-.
-h
-"
-#
-include
-"
 nsIPrivateDOMEvent
 .
 h
@@ -3815,9 +3808,9 @@ unsafe
 ;
 nsCOMPtr
 <
-nsIDOMDocumentEvent
+nsIDOMDocument
 >
-docEvent
+domDoc
 =
 do_QueryInterface
 (
@@ -3830,7 +3823,7 @@ nsIDOMEvent
 >
 event
 ;
-docEvent
+domDoc
 -
 >
 CreateEvent

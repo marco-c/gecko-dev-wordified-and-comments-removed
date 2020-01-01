@@ -183,13 +183,6 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
-.
-h
-"
-#
-include
-"
 nsIDOMProgressEvent
 .
 h

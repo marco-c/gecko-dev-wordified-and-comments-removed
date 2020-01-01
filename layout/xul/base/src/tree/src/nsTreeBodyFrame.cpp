@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h
@@ -20430,9 +20423,9 @@ return
 ;
 nsCOMPtr
 <
-nsIDOMDocumentEvent
+nsIDOMDocument
 >
-domEventDoc
+domDoc
 =
 do_QueryInterface
 (
@@ -20447,7 +20440,7 @@ GetOwnerDoc
 if
 (
 !
-domEventDoc
+domDoc
 )
 return
 ;
@@ -20457,7 +20450,7 @@ nsIDOMEvent
 >
 event
 ;
-domEventDoc
+domDoc
 -
 >
 CreateEvent
@@ -20699,9 +20692,9 @@ return
 ;
 nsCOMPtr
 <
-nsIDOMDocumentEvent
+nsIDOMDocument
 >
-domEventDoc
+domDoc
 =
 do_QueryInterface
 (
@@ -20716,7 +20709,7 @@ GetOwnerDoc
 if
 (
 !
-domEventDoc
+domDoc
 )
 return
 ;
@@ -20726,7 +20719,7 @@ nsIDOMEvent
 >
 event
 ;
-domEventDoc
+domDoc
 -
 >
 CreateEvent

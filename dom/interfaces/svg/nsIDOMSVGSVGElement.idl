@@ -589,14 +589,6 @@ events
 :
 :
 nsIDOMEventTarget
-events
-:
-:
-nsIDOMDocumentEvent
-css
-:
-:
-nsIDOMViewCSS
 css
 :
 :

@@ -1024,13 +1024,6 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
-.
-h
-"
-#
-include
-"
 nsDOMAttribute
 .
 h
@@ -10321,11 +10314,6 @@ DOM_CLASSINFO_DOCUMENT_MAP_ENTRIES
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMNSDocument
-)
-\
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMDocumentEvent
 )
 \
 DOM_CLASSINFO_MAP_ENTRY

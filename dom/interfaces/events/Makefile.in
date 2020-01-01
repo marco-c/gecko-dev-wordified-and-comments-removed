@@ -424,10 +424,6 @@ GRE_MODULE
 SDK_XPIDLSRCS
 =
 \
-nsIDOMDocumentEvent
-.
-idl
-\
 nsIDOMEvent
 .
 idl

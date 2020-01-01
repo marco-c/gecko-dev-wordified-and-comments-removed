@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
-.
-h
-"
-#
-include
-"
 nsIDOMEvent
 .
 h

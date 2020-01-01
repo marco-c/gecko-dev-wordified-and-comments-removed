@@ -836,6 +836,11 @@ nsIDOMDocument
 createNodeIterator
 '
 '
+nsIDOMDocument
+.
+createEvent
+'
+'
 nsIDOMElement
 .
 removeAttributeNS
@@ -1198,11 +1203,6 @@ removeEventListener
 nsIDOMNSEventTarget
 .
 addEventListener
-'
-'
-nsIDOMDocumentEvent
-.
-*
 '
 '
 nsIDOMEvent

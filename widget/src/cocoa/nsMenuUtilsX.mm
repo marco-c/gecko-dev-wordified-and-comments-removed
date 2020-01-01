@@ -502,7 +502,7 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
+nsIDOMDocument
 .
 h
 "
@@ -567,9 +567,9 @@ GetOwnerDoc
 ;
 nsCOMPtr
 <
-nsIDOMDocumentEvent
+nsIDOMDocument
 >
-docEvent
+domDoc
 =
 do_QueryInterface
 (
@@ -589,7 +589,7 @@ aTargetContent
 ;
 if
 (
-docEvent
+domDoc
 &
 &
 target
@@ -601,7 +601,7 @@ nsIDOMEvent
 >
 event
 ;
-docEvent
+domDoc
 -
 >
 CreateEvent

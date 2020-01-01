@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
-.
-h
-"
-#
-include
-"
 nsIDOMMessageEvent
 .
 h

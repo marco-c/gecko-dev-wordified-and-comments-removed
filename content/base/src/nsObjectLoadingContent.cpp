@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
+nsIDOMDocument
 .
 h
 "
@@ -989,9 +989,9 @@ get
 ;
 nsCOMPtr
 <
-nsIDOMDocumentEvent
+nsIDOMDocument
 >
-domEventDoc
+domDoc
 =
 do_QueryInterface
 (
@@ -1006,7 +1006,7 @@ GetDocument
 if
 (
 !
-domEventDoc
+domDoc
 )
 {
 NS_WARNING
@@ -1034,7 +1034,7 @@ nsIDOMEvent
 >
 event
 ;
-domEventDoc
+domDoc
 -
 >
 CreateEvent

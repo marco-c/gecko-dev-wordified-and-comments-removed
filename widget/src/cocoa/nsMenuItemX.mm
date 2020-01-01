@@ -542,13 +542,6 @@ h
 #
 include
 "
-nsIDOMDocumentEvent
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -1352,9 +1345,9 @@ owner
 document
 nsCOMPtr
 <
-nsIDOMDocumentEvent
+nsIDOMDocument
 >
-DOMEventFactory
+domDoc
 =
 do_QueryInterface
 (
@@ -1364,7 +1357,7 @@ parentDoc
 if
 (
 !
-DOMEventFactory
+domDoc
 )
 {
 NS_WARNING
@@ -1376,7 +1369,7 @@ QI
 parent
 nsIDocument
 to
-nsIDOMDocumentEvent
+nsIDOMDocument
 "
 )
 ;
@@ -1398,7 +1391,7 @@ event
 nsresult
 rv
 =
-DOMEventFactory
+domDoc
 -
 >
 CreateEvent
