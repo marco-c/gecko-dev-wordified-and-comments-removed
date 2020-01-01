@@ -6068,6 +6068,12 @@ allowZoom
 autozoomEnabled
 )
 {
+this
+.
+_currentElementRect
+=
+aElementRect
+;
 zoomRect
 =
 Browser
