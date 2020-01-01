@@ -269,7 +269,7 @@ int
 device_handle
 )
 {
-CSFLogDebugS
+CSFLogDebug
 (
 logTag
 "
@@ -301,7 +301,7 @@ pPhone
 NULL
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -364,7 +364,7 @@ int
 device_handle
 )
 {
-CSFLogDebugS
+CSFLogDebug
 (
 logTag
 "
@@ -385,7 +385,7 @@ configParserError
 void
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -418,7 +418,7 @@ cc_boolean
 ppid
 )
 {
-CSFLogDebugS
+CSFLogDebug
 (
 logTag
 "
@@ -434,7 +434,7 @@ platGetIPAddr
 (
 )
 {
-CSFLogDebugS
+CSFLogDebug
 (
 logTag
 "
@@ -468,7 +468,7 @@ pPhone
 NULL
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -942,7 +942,7 @@ CC_SUCCESS
 )
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -991,7 +991,7 @@ CCAPI_Service_destroy
 CC_FAILURE
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -1378,7 +1378,7 @@ CC_SUCCESS
 )
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -1414,7 +1414,7 @@ devicePtr
 NULL
 )
 {
-CSFLogWarnS
+CSFLogWarn
 (
 logTag
 "
@@ -1433,7 +1433,7 @@ return
 false
 ;
 }
-CSFLogDebugS
+CSFLogDebug
 (
 logTag
 "
@@ -1479,7 +1479,7 @@ CCAPI_Service_stop
 CC_FAILURE
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -2139,7 +2139,7 @@ _self
 NULL
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -2348,7 +2348,7 @@ _self
 NULL
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -2566,7 +2566,7 @@ _self
 NULL
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -2799,7 +2799,7 @@ _self
 NULL
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -3064,7 +3064,7 @@ observer
 NULL
 )
 {
-CSFLogErrorS
+CSFLogError
 (
 logTag
 "
@@ -3789,7 +3789,7 @@ break
 }
 else
 {
-CSFLogWarnS
+CSFLogWarn
 (
 logTag
 "
@@ -4028,7 +4028,7 @@ int
 stream
 )
 {
-CSFLogDebugS
+CSFLogDebug
 (
 logTag
 "
@@ -4377,7 +4377,7 @@ n
 )
 )
 {
-CSFLogWarnS
+CSFLogWarn
 (
 logTag
 "
@@ -4396,7 +4396,7 @@ break
 }
 else
 {
-CSFLogWarnS
+CSFLogWarn
 (
 logTag
 "
