@@ -48,6 +48,13 @@ defined
 #
 endif
 #
+include
+"
+BaseAssembler
+.
+h
+"
+#
 ifdef
 DEBUG
 #
