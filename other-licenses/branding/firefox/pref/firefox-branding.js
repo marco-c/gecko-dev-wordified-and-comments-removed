@@ -249,15 +249,3 @@ D3_g
 "
 )
 ;
-pref
-(
-"
-browser
-.
-EULA
-.
-override
-"
-false
-)
-;

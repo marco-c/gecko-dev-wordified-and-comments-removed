@@ -1609,6 +1609,13 @@ bin
 /
 components
 /
+aboutRights
+.
+js
+bin
+/
+components
+/
 aboutRobots
 .
 js
