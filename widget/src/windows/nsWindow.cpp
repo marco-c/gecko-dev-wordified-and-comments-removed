@@ -17249,7 +17249,7 @@ fontInternalChange
 }
 static
 PRBool
-CleartypeSettingChanged
+ClearTypeSettingChanged
 (
 )
 {
@@ -18469,7 +18469,7 @@ WM_PAINT
 :
 if
 (
-CleartypeSettingChanged
+ClearTypeSettingChanged
 (
 )
 )
