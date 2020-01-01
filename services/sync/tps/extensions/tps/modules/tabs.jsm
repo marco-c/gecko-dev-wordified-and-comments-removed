@@ -35,7 +35,7 @@ services
 -
 sync
 /
-service
+main
 .
 js
 "
@@ -166,6 +166,8 @@ profile
 let
 engine
 =
+Weave
+.
 Service
 .
 engineManager
