@@ -740,6 +740,14 @@ len
 #
 endif
 #
+ifndef
+ZLIB_DEBUG
+#
+undef
+DEBUG
+#
+endif
+#
 ifdef
 DEBUG
 #
