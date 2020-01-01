@@ -456,6 +456,10 @@ browser_HUDServiceTestsAll
 .
 js
 \
+browser_webconsole_netlogging
+.
+js
+\
 (
 NULL
 )
@@ -471,6 +475,14 @@ html
 test
 -
 network
+.
+html
+\
+test
+-
+network
+-
+request
 .
 html
 \
