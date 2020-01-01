@@ -176,6 +176,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a1
@@ -276,14 +278,16 @@ a2
 null
 )
 ;
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }
 )
 ;
 }
+)
 )
 ;
 }

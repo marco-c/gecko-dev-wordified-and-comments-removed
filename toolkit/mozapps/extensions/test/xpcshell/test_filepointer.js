@@ -847,7 +847,10 @@ onInstallStarted
 onInstallEnded
 "
 ]
+callback_soon
+(
 check_test_2
+)
 )
 ;
 install
@@ -1068,6 +1071,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a1
@@ -1134,6 +1139,7 @@ run_test_4
 )
 ;
 }
+)
 )
 ;
 }
@@ -1313,6 +1319,8 @@ getAddonByID
 addon1
 .
 id
+callback_soon
+(
 function
 (
 a1
@@ -1455,6 +1463,7 @@ run_test_6
 ;
 }
 )
+)
 ;
 }
 function
@@ -1499,6 +1508,8 @@ getAddonByID
 addon1
 .
 id
+callback_soon
+(
 function
 (
 a1
@@ -1584,6 +1595,7 @@ run_test_7
 ;
 }
 )
+)
 ;
 }
 function
@@ -1614,6 +1626,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a1
@@ -1713,10 +1727,6 @@ uninstall
 (
 )
 ;
-restartManager
-(
-)
-;
 do_execute_soon
 (
 run_test_8
@@ -1727,6 +1737,7 @@ run_test_8
 ;
 }
 )
+)
 ;
 }
 function
@@ -1734,6 +1745,10 @@ run_test_8
 (
 )
 {
+restartManager
+(
+)
+;
 writePointer
 (
 addon1
@@ -1757,6 +1772,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a1
@@ -1831,10 +1848,6 @@ uninstall
 (
 )
 ;
-restartManager
-(
-)
-;
 do_execute_soon
 (
 run_test_9
@@ -1845,6 +1858,7 @@ run_test_9
 ;
 }
 )
+)
 ;
 }
 function
@@ -1852,6 +1866,10 @@ run_test_9
 (
 )
 {
+restartManager
+(
+)
+;
 var
 dest
 =
@@ -1879,6 +1897,8 @@ getAddonByID
 addon1
 .
 id
+callback_soon
+(
 function
 (
 a1
@@ -1967,6 +1987,7 @@ run_test_10
 )
 ;
 }
+)
 )
 ;
 }

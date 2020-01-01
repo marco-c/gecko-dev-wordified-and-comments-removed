@@ -1032,6 +1032,8 @@ gPluginIDs
 [
 0
 ]
+callback_soon
+(
 function
 (
 p
@@ -1136,14 +1138,16 @@ plugin
 "
 )
 ;
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }
 )
 ;
 }
+)
 )
 ;
 }

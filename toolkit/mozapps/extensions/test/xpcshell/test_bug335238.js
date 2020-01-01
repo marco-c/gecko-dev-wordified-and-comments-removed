@@ -994,6 +994,8 @@ ADDONS
 ]
 .
 id
+callback_soon
+(
 function
 (
 addon
@@ -1071,6 +1073,7 @@ UPDATE_WHEN_USER_REQUESTED
 )
 ;
 }
+)
 )
 ;
 }

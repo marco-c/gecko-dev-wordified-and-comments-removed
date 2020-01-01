@@ -243,8 +243,9 @@ addon
 isActive
 )
 ;
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }

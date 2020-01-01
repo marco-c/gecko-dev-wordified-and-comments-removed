@@ -121,6 +121,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 olda1
@@ -208,14 +210,16 @@ addon1
 version
 )
 ;
-run_test_1
+do_execute_soon
 (
+run_test_1
 )
 ;
 }
 )
 ;
 }
+)
 )
 ;
 }
@@ -224,8 +228,9 @@ end_test
 (
 )
 {
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }

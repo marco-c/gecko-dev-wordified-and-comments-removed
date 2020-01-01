@@ -2110,7 +2110,7 @@ parent
 url
 name
 features
-arguments
+openArgs
 )
 {
 do_check_eq
@@ -2122,7 +2122,7 @@ URI_EXTENSION_BLOCKLIST_DIALOG
 var
 list
 =
-arguments
+openArgs
 .
 wrappedJSObject
 .
@@ -10351,6 +10351,8 @@ AddonManager
 getAddonsByIDs
 (
 ADDON_IDS
+callback_soon
+(
 function
 (
 [
@@ -10524,6 +10526,8 @@ AddonManager
 getAddonsByIDs
 (
 ADDON_IDS
+callback_soon
+(
 function
 (
 [
@@ -10773,11 +10777,13 @@ run_next_test
 ;
 }
 )
+)
 ;
 }
 )
 ;
 }
+)
 )
 ;
 }

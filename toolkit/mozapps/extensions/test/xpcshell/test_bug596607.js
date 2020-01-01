@@ -805,8 +805,9 @@ a3
 null
 )
 ;
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }
