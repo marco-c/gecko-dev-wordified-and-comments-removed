@@ -150,6 +150,7 @@ frame
 to
 pass
 .
+random
 =
 =
 delaytest
@@ -168,3 +169,11 @@ animation
 finalframe
 .
 gif
+#
+incorrect
+timing
+dependence
+(
+bug
+558678
+)
