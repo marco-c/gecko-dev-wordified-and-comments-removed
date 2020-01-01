@@ -977,7 +977,7 @@ nb
 if
 (
 !
-ts
+buf
 )
 {
 js_ReportOutOfScriptQuota
