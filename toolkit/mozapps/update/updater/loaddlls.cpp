@@ -12,6 +12,13 @@ AutoLoadSystemDependencies
 (
 )
 {
+SetDllDirectory
+(
+L
+"
+"
+)
+;
 static
 LPCWSTR
 delayDLLs
