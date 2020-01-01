@@ -829,6 +829,16 @@ WIN_VK_OEM_3
 0xC0
 ;
 const
+WIN_VK_ABNT_C1
+=
+0xC1
+;
+const
+WIN_VK_ABNT_C2
+=
+0xC2
+;
+const
 WIN_VK_OEM_4
 =
 0xDB
