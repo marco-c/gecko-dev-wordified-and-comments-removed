@@ -901,6 +901,11 @@ aResult
 {
 if
 (
+browser
+.
+currentURI
+&
+&
 aURI
 .
 equals
