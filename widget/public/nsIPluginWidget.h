@@ -106,6 +106,15 @@ outEventModel
 0
 ;
 NS_IMETHOD
+SetPluginDrawingModel
+(
+int
+inDrawingModel
+)
+=
+0
+;
+NS_IMETHOD
 StartComplexTextInputForCurrentEvent
 (
 )

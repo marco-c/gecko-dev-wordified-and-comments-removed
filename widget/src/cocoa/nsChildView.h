@@ -234,6 +234,9 @@ mIsPluginView
 NPEventModel
 mPluginEventModel
 ;
+NPDrawingModel
+mPluginDrawingModel
+;
 NSEvent
 *
 mCurKeyEvent
@@ -695,12 +698,6 @@ GetDPI
 (
 )
 ;
-LayerManager
-*
-GetLayerManager
-(
-)
-;
 NS_IMETHOD
 ConstrainPosition
 (
@@ -1037,6 +1034,13 @@ outEventModel
 )
 ;
 NS_IMETHOD
+SetPluginDrawingModel
+(
+int
+inDrawingModel
+)
+;
+NS_IMETHOD
 StartComplexTextInputForCurrentEvent
 (
 )
@@ -1328,9 +1332,6 @@ mDrawing
 ;
 PRPackedBool
 mPluginDrawing
-;
-PRPackedBool
-mPluginIsCG
 ;
 PRPackedBool
 mIsDispatchPaint
