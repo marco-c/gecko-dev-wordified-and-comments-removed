@@ -345,6 +345,12 @@ eDOMClassInfo_NodeIterator_id
 eDOMClassInfo_DataTransfer_id
 eDOMClassInfo_NotifyPaintEvent_id
 eDOMClassInfo_SimpleGestureEvent_id
+#
+ifdef
+MOZ_MATHML
+eDOMClassInfo_MathMLElement_id
+#
+endif
 eDOMClassInfoIDCount
 }
 ;
