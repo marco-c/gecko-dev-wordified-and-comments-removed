@@ -149,6 +149,8 @@ nsIPrincipal
 aPrincipal
 PRBool
 forceWriteOnly
+PRBool
+CORSUsed
 )
 ;
 void

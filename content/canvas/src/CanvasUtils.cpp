@@ -138,6 +138,8 @@ nsIPrincipal
 aPrincipal
 PRBool
 forceWriteOnly
+PRBool
+CORSUsed
 )
 {
 if
@@ -193,6 +195,12 @@ aPrincipal
 =
 =
 nsnull
+)
+return
+;
+if
+(
+CORSUsed
 )
 return
 ;

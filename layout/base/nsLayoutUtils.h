@@ -2401,6 +2401,10 @@ mIsStillLoading
 (
 PR_FALSE
 )
+mCORSUsed
+(
+PR_FALSE
+)
 {
 }
 nsRefPtr
@@ -2429,6 +2433,9 @@ mIsWriteOnly
 ;
 PRPackedBool
 mIsStillLoading
+;
+PRPackedBool
+mCORSUsed
 ;
 }
 ;
