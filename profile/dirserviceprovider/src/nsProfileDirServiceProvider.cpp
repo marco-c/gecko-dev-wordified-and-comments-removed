@@ -1734,13 +1734,6 @@ return
 rv
 ;
 }
-#
-if
-!
-defined
-(
-WINCE
-)
 rv
 =
 profileDir
@@ -1761,8 +1754,6 @@ rv
 return
 rv
 ;
-#
-endif
 }
 else
 {

@@ -51,12 +51,6 @@ defined
 (
 XP_MAC
 )
-|
-|
-defined
-(
-WINCE
-)
 #
 define
 MAX_REFLOW_DEPTH

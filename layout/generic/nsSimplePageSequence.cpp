@@ -1608,9 +1608,6 @@ do_CreateInstance
 NS_DATETIMEFORMAT_CONTRACTID
 )
 ;
-#
-ifndef
-WINCE
 NS_ENSURE_TRUE
 (
 mDateFormatter
@@ -1662,8 +1659,6 @@ uStr
 )
 ;
 }
-#
-endif
 aDesiredSize
 .
 height
