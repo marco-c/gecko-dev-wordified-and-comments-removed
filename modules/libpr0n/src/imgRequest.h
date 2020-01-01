@@ -70,6 +70,13 @@ h
 #
 include
 "
+nsITimedChannel
+.
+h
+"
+#
+include
+"
 nsCategoryCache
 .
 h
@@ -567,6 +574,12 @@ imgRequestProxy
 *
 >
 mObservers
+;
+nsCOMPtr
+<
+nsITimedChannel
+>
+mTimedChannel
 ;
 nsCString
 mContentType
