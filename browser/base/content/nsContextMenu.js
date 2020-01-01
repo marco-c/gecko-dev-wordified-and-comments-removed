@@ -6653,6 +6653,10 @@ CM_bookmarkThisPage
 (
 )
 {
+window
+.
+top
+.
 PlacesCommandHook
 .
 bookmarkPage
@@ -6664,12 +6668,6 @@ PlacesUtils
 .
 bookmarksRootId
 true
-this
-.
-browser
-"
-overlap
-"
 )
 ;
 }
@@ -6680,6 +6678,10 @@ CM_bookmarkLink
 (
 )
 {
+window
+.
+top
+.
 PlacesCommandHook
 .
 bookmarkLink
@@ -6810,6 +6812,10 @@ uri
 )
 ;
 }
+window
+.
+top
+.
 PlacesCommandHook
 .
 showEditBookmarkPopup

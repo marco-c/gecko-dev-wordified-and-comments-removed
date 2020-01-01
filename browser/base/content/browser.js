@@ -1444,12 +1444,6 @@ PlacesUtils
 .
 bookmarksRootId
 true
-getBrowser
-(
-)
-"
-overlap
-"
 )
 ;
 }
