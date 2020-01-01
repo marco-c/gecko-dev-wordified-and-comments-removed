@@ -4406,6 +4406,16 @@ GetAccessibleWrap
 atkObj
 )
 ;
+if
+(
+!
+accWrap
+)
+{
+return
+NS_OK
+;
+}
 AtkTableChange
 *
 pAtkTableChange
