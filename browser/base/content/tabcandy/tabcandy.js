@@ -82,13 +82,6 @@ tabitems
 js
 #
 include
-core
-/
-mirror
-.
-js
-#
-include
 app
 /
 drag
