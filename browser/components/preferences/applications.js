@@ -3293,7 +3293,7 @@ PREF_SHOW_PLUGINS_IN_LIST
 )
 ;
 var
-hideTypesWithoutExtensions
+hidePluginsWithoutExtensions
 =
 this
 .
@@ -3326,7 +3326,12 @@ type
 ;
 if
 (
-hideTypesWithoutExtensions
+hidePluginsWithoutExtensions
+&
+&
+handlerInfo
+.
+handledOnlyByPlugin
 &
 &
 handlerInfo
