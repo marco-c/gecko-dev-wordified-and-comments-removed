@@ -2107,6 +2107,15 @@ this
 MIMEInfo
 .
 preferredApplicationHandler
+&
+&
+this
+.
+MIMEInfo
+.
+preferredApplicationHandler
+.
+executable
 )
 {
 var
@@ -2117,6 +2126,8 @@ this
 MIMEInfo
 .
 preferredApplicationHandler
+.
+executable
 .
 leafName
 ;

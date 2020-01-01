@@ -1228,6 +1228,8 @@ aMIMEInfo
 .
 preferredApplicationHandler
 .
+executable
+.
 path
 ;
 entry
@@ -1236,7 +1238,9 @@ appDisplayName
 =
 aMIMEInfo
 .
-applicationDescription
+preferredApplicationHandler
+.
+name
 ;
 }
 entry

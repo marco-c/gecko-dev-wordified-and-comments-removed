@@ -411,10 +411,10 @@ if
 mimeInfo
 )
 {
-nsMIMEInfoHandleAction
+nsHandlerInfoAction
 action
 =
-nsIMIMEInfo
+nsIHandlerInfo
 :
 :
 saveToDisk
@@ -461,7 +461,7 @@ hasHelper
 {
 nsCOMPtr
 <
-nsIFile
+nsIHandlerApp
 >
 helper
 ;

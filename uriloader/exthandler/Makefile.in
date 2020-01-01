@@ -724,6 +724,10 @@ nsMIMEInfoImpl
 .
 cpp
 \
+nsHandlerAppImpl
+.
+cpp
+\
 (
 OSHELPER
 )
