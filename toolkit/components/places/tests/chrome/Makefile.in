@@ -517,6 +517,14 @@ test_381357
 .
 xul
 \
+test_history_post
+.
+xul
+\
+history_post
+.
+sjs
+\
 test_reloadLivemarks
 .
 xul
