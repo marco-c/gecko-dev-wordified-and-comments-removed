@@ -3687,9 +3687,6 @@ password
 value
 )
 ;
-return
-true
-;
 }
 let
 ok
