@@ -142,9 +142,6 @@ apply
 interface
 SVGAnimatedString
 ;
-[
-PrefControlled
-]
 interface
 SVGElement
 :

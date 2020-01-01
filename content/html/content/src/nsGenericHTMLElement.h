@@ -2362,8 +2362,12 @@ const
 ;
 static
 bool
-PrefEnabled
+TouchEventsEnabled
 (
+JSContext
+*
+JSObject
+*
 )
 ;
 protected
