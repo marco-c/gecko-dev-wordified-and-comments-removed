@@ -1808,7 +1808,7 @@ NS_ERROR_XPC_COM_UNKNOWN
 Unknown
 COM
 error
-occured
+occurred
 "
 )
 XPC_MSG_DEF

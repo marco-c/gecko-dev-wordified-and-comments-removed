@@ -103,10 +103,10 @@ aRes
 ;
 virtual
 void
-supressWarnings
+suppressWarnings
 (
 MBool
-supress
+suppress
 )
 ;
 private

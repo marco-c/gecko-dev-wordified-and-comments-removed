@@ -1213,7 +1213,7 @@ NS_NewPipe2
 *
 This
 function
-supercedes
+supersedes
 NS_NewPipe
 .
 It

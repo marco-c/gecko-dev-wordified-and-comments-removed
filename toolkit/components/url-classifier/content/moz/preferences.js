@@ -992,7 +992,7 @@ Tried
 to
 unregister
 a
-nonexistant
+nonexistent
 observer
 "
 )

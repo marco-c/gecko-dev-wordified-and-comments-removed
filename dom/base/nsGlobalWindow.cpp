@@ -2682,7 +2682,7 @@ mShowFocusRingForContent
 (
 PR_FALSE
 )
-mFocusByKeyOccured
+mFocusByKeyOccurred
 (
 PR_FALSE
 )
@@ -27477,7 +27477,7 @@ nsIFocusManager
 FLAG_BYKEY
 )
 {
-mFocusByKeyOccured
+mFocusByKeyOccurred
 =
 PR_TRUE
 ;
@@ -27564,7 +27564,7 @@ mShowFocusRings
 mShowFocusRingForContent
 |
 |
-mFocusByKeyOccured
+mFocusByKeyOccurred
 ;
 }
 void

@@ -73,7 +73,7 @@ directories
 where
 changes
 have
-occured
+occurred
 since
 the
 #

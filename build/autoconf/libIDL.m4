@@ -1866,7 +1866,7 @@ echo
 exact
 error
 that
-occured
+occurred
 .
 This
 usually

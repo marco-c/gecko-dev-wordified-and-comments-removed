@@ -378,7 +378,7 @@ string
 =
 "
 Error
-occured
+occurred
 "
 ;
 DrawText

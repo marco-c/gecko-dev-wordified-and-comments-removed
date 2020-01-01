@@ -512,7 +512,7 @@ else
 echo
 "
 error
-occured
+occurred
 during
 build
 .

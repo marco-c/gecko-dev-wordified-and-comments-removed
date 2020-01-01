@@ -328,7 +328,7 @@ gExpectedFocus
 "
 ;
 function
-blurOccured
+blurOccurred
 (
 event
 )
@@ -361,7 +361,7 @@ localName
 ;
 }
 function
-focusOccured
+focusOccurred
 (
 event
 )
@@ -403,7 +403,7 @@ addEventListener
 "
 focus
 "
-focusOccured
+focusOccurred
 true
 )
 ;
@@ -412,7 +412,7 @@ addEventListener
 "
 blur
 "
-blurOccured
+blurOccurred
 true
 )
 ;

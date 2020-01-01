@@ -279,7 +279,7 @@ obj
 COMObject
 (
 "
-dwbnonexistantobject
+dwbnonexistentobject
 "
 )
 ;
@@ -292,7 +292,7 @@ obj
 COMObject
 (
 '
-dwbnonexistantobject
+dwbnonexistentobject
 '
 )
 ;
@@ -318,7 +318,7 @@ obj
 COMObject
 (
 "
-dwbnonexistantobject
+dwbnonexistentobject
 "
 )
 ;
@@ -330,7 +330,7 @@ obj
 COMObject
 (
 '
-dwbnonexistantobject
+dwbnonexistentobject
 '
 )
 ;
@@ -419,7 +419,7 @@ reportFailure
 "
 Unhandled
 exception
-occured
+occurred
 :
 "
 +

@@ -265,7 +265,7 @@ outerpopup
 onpopupshowing
 =
 "
-popupShowingEventOccured
+popupShowingEventOccurred
 (
 event
 )
@@ -274,7 +274,7 @@ event
 onpopupshown
 =
 "
-eventOccured
+eventOccurred
 (
 event
 )
@@ -289,7 +289,7 @@ inner
 onpopuphiding
 =
 "
-eventOccured
+eventOccurred
 (
 event
 )
@@ -298,7 +298,7 @@ event
 onpopuphidden
 =
 "
-eventOccured
+eventOccurred
 (
 event
 )
@@ -372,7 +372,7 @@ innerpopup
 onpopupshowing
 =
 "
-popupShowingEventOccured
+popupShowingEventOccurred
 (
 event
 )
@@ -381,7 +381,7 @@ event
 onpopupshown
 =
 "
-eventOccured
+eventOccurred
 (
 event
 )
@@ -398,7 +398,7 @@ hidePopup
 onpopuphiding
 =
 "
-eventOccured
+eventOccurred
 (
 event
 )
@@ -407,7 +407,7 @@ event
 onpopuphidden
 =
 "
-eventOccured
+eventOccurred
 (
 event
 )
@@ -519,7 +519,7 @@ trigger
 ;
 }
 function
-eventOccured
+eventOccurred
 (
 event
 )
@@ -613,7 +613,7 @@ rangeOffset
 ;
 }
 function
-popupShowingEventOccured
+popupShowingEventOccurred
 (
 event
 )

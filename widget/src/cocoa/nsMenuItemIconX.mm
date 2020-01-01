@@ -1012,7 +1012,7 @@ item
 as
 an
 error
-occured
+occurred
 while
 loading
 it

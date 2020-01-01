@@ -2408,7 +2408,7 @@ mShowFocusRingForContent
 1
 ;
 PRPackedBool
-mFocusByKeyOccured
+mFocusByKeyOccurred
 :
 1
 ;

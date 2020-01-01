@@ -1537,7 +1537,7 @@ only
 check
 for
 their
-existance
+existence
 if
 the
 suite

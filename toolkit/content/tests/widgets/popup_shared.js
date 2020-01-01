@@ -54,7 +54,7 @@ addEventListener
 "
 popupshowing
 "
-eventOccured
+eventOccurred
 false
 )
 ;
@@ -65,7 +65,7 @@ addEventListener
 "
 popupshown
 "
-eventOccured
+eventOccurred
 false
 )
 ;
@@ -76,7 +76,7 @@ addEventListener
 "
 popuphiding
 "
-eventOccured
+eventOccurred
 false
 )
 ;
@@ -87,7 +87,7 @@ addEventListener
 "
 popuphidden
 "
-eventOccured
+eventOccurred
 false
 )
 ;
@@ -98,7 +98,7 @@ addEventListener
 "
 command
 "
-eventOccured
+eventOccurred
 false
 )
 ;
@@ -109,7 +109,7 @@ addEventListener
 "
 DOMMenuItemActive
 "
-eventOccured
+eventOccurred
 false
 )
 ;
@@ -120,7 +120,7 @@ addEventListener
 "
 DOMMenuItemInactive
 "
-eventOccured
+eventOccurred
 false
 )
 ;
@@ -131,7 +131,7 @@ addEventListener
 "
 DOMMenuInactive
 "
-eventOccured
+eventOccurred
 false
 )
 ;
@@ -142,7 +142,7 @@ addEventListener
 "
 DOMMenuBarActive
 "
-eventOccured
+eventOccurred
 false
 )
 ;
@@ -153,7 +153,7 @@ addEventListener
 "
 DOMMenuBarInactive
 "
-eventOccured
+eventOccurred
 false
 )
 ;
@@ -329,7 +329,7 @@ aDisable
 ;
 }
 function
-eventOccured
+eventOccurred
 (
 event
 )

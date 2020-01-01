@@ -96,7 +96,7 @@ Append
 "
 An
 error
-occured
+occurred
 while
 executing
 an
