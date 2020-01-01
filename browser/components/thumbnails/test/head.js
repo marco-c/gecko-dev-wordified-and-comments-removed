@@ -170,6 +170,7 @@ function
 addTab
 (
 aURI
+aCallback
 )
 {
 let
@@ -191,6 +192,7 @@ whenLoaded
 tab
 .
 linkedBrowser
+aCallback
 )
 ;
 }
