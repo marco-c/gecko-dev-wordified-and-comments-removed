@@ -466,6 +466,13 @@ DEPTH
 memory
 /
 jemalloc
+(
+DEPTH
+)
+/
+memory
+/
+mozalloc
 wince
 /
 shunt
@@ -476,6 +483,13 @@ DIRS
 wince
 /
 tools
+(
+DEPTH
+)
+/
+memory
+/
+mozalloc
 wince
 /
 shunt
