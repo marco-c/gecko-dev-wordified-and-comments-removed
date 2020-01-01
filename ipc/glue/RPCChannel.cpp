@@ -225,6 +225,10 @@ dtors
 "
 )
 ;
+Clear
+(
+)
+;
 }
 void
 RPCChannel
