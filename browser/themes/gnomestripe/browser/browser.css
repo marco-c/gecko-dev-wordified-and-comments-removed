@@ -463,6 +463,9 @@ visibility
 hidden
 ;
 }
+%
+ifdef
+MOZ_PLACES
 toolbarpaletteitem
 [
 place
@@ -483,6 +486,8 @@ display
 none
 ;
 }
+%
+endif
 menu
 .
 bookmark
@@ -6658,6 +6663,9 @@ gif
 )
 ;
 }
+%
+ifdef
+MOZ_PLACES
 #
 places
 -
@@ -7053,3 +7061,5 @@ colors
 000000
 ;
 }
+%
+endif
