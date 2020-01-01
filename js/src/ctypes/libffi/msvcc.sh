@@ -440,8 +440,6 @@ args
 "
 -
 nologo
--
-W3
 "
 md
 =
