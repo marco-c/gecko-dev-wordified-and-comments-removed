@@ -232,7 +232,7 @@ MotionEvent
 ;
 private
 boolean
-sendTouchEvents
+touchEventsEnabled
 =
 false
 ;
@@ -482,7 +482,7 @@ touchEventsPrefName
 )
 )
 {
-sendTouchEvents
+touchEventsEnabled
 =
 jPref
 .
@@ -618,7 +618,7 @@ event
 {
 if
 (
-sendTouchEvents
+touchEventsEnabled
 &
 &
 mController
