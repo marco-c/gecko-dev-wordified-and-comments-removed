@@ -741,7 +741,7 @@ isHeavyweight
 (
 )
 ;
-isCompileable
+isJaegerCompileable
 =
 true
 ;
@@ -1274,7 +1274,7 @@ JSOP_QNAMEPART
 case
 JSOP_QNAMECONST
 :
-isCompileable
+isJaegerCompileable
 =
 false
 ;
@@ -1389,7 +1389,7 @@ addsScopeObjects_
 =
 true
 ;
-isCompileable
+isJaegerCompileable
 =
 isInlineable
 =
@@ -2352,7 +2352,7 @@ format
 JOF_DECOMPOSE
 )
 )
-isCompileable
+isJaegerCompileable
 =
 isInlineable
 =
