@@ -18062,7 +18062,7 @@ PRBool
 aIsRedirect
 nsIURI
 *
-aReferrer
+aReferrerURI
 PRInt64
 *
 aVisitID
@@ -18088,6 +18088,14 @@ PRTime
 visitTime
 =
 0
+;
+nsCOMPtr
+<
+nsIURI
+>
+fromVisitURI
+=
+aReferrerURI
 ;
 nsCAutoString
 spec
@@ -18202,7 +18210,7 @@ aTime
 1
 aToplevel
 PR_TRUE
-aReferrer
+aReferrerURI
 &
 referringVisit
 aSessionID
@@ -18229,11 +18237,15 @@ nsINavHistoryService
 TRANSITION_EMBED
 ;
 }
+fromVisitURI
+=
+redirectURI
+;
 }
 else
 if
 (
-aReferrer
+aReferrerURI
 )
 {
 PRBool
@@ -18248,7 +18260,7 @@ aURI
 >
 Equals
 (
-aReferrer
+aReferrerURI
 &
 referrerIsSame
 )
@@ -18290,7 +18302,7 @@ if
 !
 FindLastVisit
 (
-aReferrer
+aReferrerURI
 &
 referringVisit
 aSessionID
@@ -18380,7 +18392,7 @@ AddVisit
 (
 aURI
 visitTime
-aReferrer
+fromVisitURI
 transitionType
 aIsRedirect
 *
