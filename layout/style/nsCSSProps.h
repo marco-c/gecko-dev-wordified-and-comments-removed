@@ -1024,7 +1024,14 @@ kBorderColorKTable
 static
 const
 PRInt32
-kBorderImageKTable
+kBorderImageRepeatKTable
+[
+]
+;
+static
+const
+PRInt32
+kBorderImageSliceKTable
 [
 ]
 ;
