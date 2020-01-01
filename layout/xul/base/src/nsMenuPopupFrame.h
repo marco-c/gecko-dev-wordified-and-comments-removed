@@ -347,6 +347,11 @@ IsNoAutoHide
 (
 )
 ;
+PRBool
+IsTopMost
+(
+)
+;
 void
 EnsureWidget
 (
@@ -866,6 +871,10 @@ mIncrementalString
 ;
 nsSize
 mPrefSize
+;
+static
+PRInt8
+sDefaultLevelParent
 ;
 }
 ;

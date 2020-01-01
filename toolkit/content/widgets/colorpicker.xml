@@ -4172,6 +4172,11 @@ noautofocus
 "
 true
 "
+level
+=
+"
+top
+"
 onmousedown
 =
 "
