@@ -265,6 +265,7 @@ getPropertyDescriptor
 cx
 proxy
 id
+false
 &
 desc
 )
@@ -327,6 +328,7 @@ getOwnPropertyDescriptor
 cx
 proxy
 id
+false
 &
 desc
 )
@@ -392,6 +394,7 @@ getPropertyDescriptor
 cx
 proxy
 id
+false
 &
 desc
 )
@@ -578,6 +581,7 @@ getOwnPropertyDescriptor
 cx
 proxy
 id
+true
 &
 desc
 )
@@ -713,6 +717,7 @@ getPropertyDescriptor
 cx
 proxy
 id
+true
 &
 desc
 )
@@ -980,6 +985,7 @@ getOwnPropertyDescriptor
 cx
 proxy
 id
+false
 &
 desc
 )
@@ -2331,6 +2337,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -2348,6 +2356,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -2675,6 +2685,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -2775,6 +2787,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -4096,6 +4110,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -4122,6 +4138,7 @@ getPropertyDescriptor
 cx
 proxy
 id
+set
 desc
 )
 ;
@@ -4140,6 +4157,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 Value
 *
 vp
@@ -4167,6 +4186,7 @@ getPropertyDescriptor
 cx
 proxy
 id
+set
 &
 desc
 )
@@ -4196,6 +4216,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -4222,6 +4244,7 @@ getOwnPropertyDescriptor
 cx
 proxy
 id
+set
 desc
 )
 ;
@@ -4240,6 +4263,8 @@ JSObject
 proxy
 jsid
 id
+bool
+set
 Value
 *
 vp
@@ -4267,6 +4292,7 @@ getOwnPropertyDescriptor
 cx
 proxy
 id
+set
 &
 desc
 )
@@ -5283,6 +5309,7 @@ getOwnPropertyDescriptor
 cx
 obj
 id
+false
 &
 desc
 )
@@ -5335,6 +5362,7 @@ getOwnPropertyDescriptor
 cx
 obj
 id
+true
 &
 desc
 )

@@ -1511,6 +1511,8 @@ JSObject
 wrapper
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc_in
@@ -1606,6 +1608,7 @@ getPropertyDescriptor
 cx
 wrapper
 id
+set
 desc_in
 )
 )
@@ -1663,6 +1666,8 @@ JSObject
 wrapper
 jsid
 id
+bool
+set
 PropertyDescriptor
 *
 desc
@@ -1674,6 +1679,7 @@ getPropertyDescriptor
 cx
 wrapper
 id
+set
 desc
 )
 ;
