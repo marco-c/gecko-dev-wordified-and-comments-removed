@@ -547,6 +547,14 @@ relativeLoad_import
 .
 js
 \
+test_scopeOnerror
+.
+html
+\
+scopeOnerror_worker
+.
+js
+\
 test_simpleThread
 .
 html
