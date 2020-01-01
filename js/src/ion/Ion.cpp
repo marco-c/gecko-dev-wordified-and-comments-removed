@@ -1053,6 +1053,10 @@ runtime
 ionJSContext
 )
 {
+if
+(
+fp
+)
 fp
 -
 >
@@ -1125,6 +1129,10 @@ JS_ASSERT
 bailout_
 )
 ;
+if
+(
+entryfp_
+)
 entryfp_
 -
 >

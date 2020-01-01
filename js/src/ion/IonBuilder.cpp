@@ -1052,7 +1052,13 @@ due
 to
 oracle
 veto
+%
+d
 "
+script
+-
+>
+lineno
 )
 ;
 return
