@@ -1898,9 +1898,7 @@ nsAccUtils
 :
 Role
 (
-GetParent
-(
-)
+mParent
 )
 =
 =
@@ -2554,17 +2552,9 @@ PRUint32
 aRole
 )
 {
-nsAccessible
-*
-parent
-=
-GetParent
-(
-)
-;
 if
 (
-parent
+mParent
 )
 {
 PRUint32
@@ -2575,7 +2565,7 @@ nsAccUtils
 :
 Role
 (
-parent
+mParent
 )
 ;
 if
@@ -2626,7 +2616,7 @@ nsAccessible
 *
 grandParent
 =
-parent
+mParent
 -
 >
 GetParent
