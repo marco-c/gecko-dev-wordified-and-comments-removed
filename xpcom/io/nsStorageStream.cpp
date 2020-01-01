@@ -1831,12 +1831,10 @@ mStatus
 return
 mStatus
 ;
-LL_UI2L
-(
 *
 aResult
+=
 mLogicalCursor
-)
 ;
 return
 NS_OK

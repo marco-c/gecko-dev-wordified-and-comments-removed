@@ -1176,14 +1176,12 @@ int64_t
 aResult
 )
 {
-LL_UI2L
-(
 *
 aResult
+=
 mData
 .
 cursor
-)
 ;
 return
 NS_OK

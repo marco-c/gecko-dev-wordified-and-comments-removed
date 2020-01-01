@@ -178,12 +178,8 @@ seconds
 {
 int64_t
 intermediateResult
-;
-LL_UI2L
-(
-intermediateResult
+=
 seconds
-)
 ;
 PRTime
 prTime

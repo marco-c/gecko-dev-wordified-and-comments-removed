@@ -3304,16 +3304,14 @@ nsIDataType
 :
 VTYPE_UINT32
 :
-LL_UI2L
-(
 *
 _retval
+=
 tempData
 .
 u
 .
 mUint32Value
-)
 ;
 return
 rv
