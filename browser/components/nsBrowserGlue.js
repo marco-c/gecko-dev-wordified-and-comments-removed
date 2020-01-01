@@ -3698,8 +3698,7 @@ nsIPrefBranch
 var
 smartBookmarksCurrentVersion
 =
--
-1
+0
 ;
 try
 {
