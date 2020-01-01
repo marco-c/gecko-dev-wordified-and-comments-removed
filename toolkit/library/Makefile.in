@@ -1328,14 +1328,6 @@ lsensorservice
 (
 NULL
 )
-ifdef
-MOZ_B2G_BT
-OS_LIBS
-+
-=
--
-lbluedroid
-endif
 endif
 EXTRA_DEPS
 +
