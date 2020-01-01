@@ -527,11 +527,11 @@ nsContentCreatorFunctions
 .
 h
 \
-nsLineBreaker
+nsDOMFile
 .
 h
 \
-nsXMLNameSpaceMap
+nsLineBreaker
 .
 h
 \
@@ -539,7 +539,11 @@ nsPresShellIterator
 .
 h
 \
-nsDOMFile
+nsReferencedElement
+.
+h
+\
+nsXMLNameSpaceMap
 .
 h
 \

@@ -752,6 +752,10 @@ nsRange
 .
 cpp
 \
+nsReferencedElement
+.
+cpp
+\
 nsScriptElement
 .
 cpp
