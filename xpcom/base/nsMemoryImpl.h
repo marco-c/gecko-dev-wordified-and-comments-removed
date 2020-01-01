@@ -65,6 +65,15 @@ return
 }
 NS_DECL_NSIMEMORY
 static
+NS_HIDDEN_
+(
+nsresult
+)
+InitFlusher
+(
+)
+;
+static
 NS_METHOD
 Create
 (
