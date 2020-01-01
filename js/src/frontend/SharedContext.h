@@ -407,13 +407,6 @@ toFunction
 )
 ;
 }
-void
-recursivelySetStrictMode
-(
-StrictMode
-strictness
-)
-;
 bool
 isGenerator
 (
