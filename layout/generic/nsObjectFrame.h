@@ -625,6 +625,15 @@ nsIDOMClientRect
 clip
 )
 ;
+void
+NotifyPluginEventObservers
+(
+const
+PRUnichar
+*
+eventType
+)
+;
 friend
 class
 nsPluginInstanceOwner
