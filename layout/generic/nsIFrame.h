@@ -2964,17 +2964,6 @@ nsIView
 aView
 )
 ;
-virtual
-nsIView
-*
-GetParentViewForChildFrame
-(
-nsIFrame
-*
-aFrame
-)
-const
-;
 nsIView
 *
 GetClosestView

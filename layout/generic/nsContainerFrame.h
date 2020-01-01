@@ -308,15 +308,6 @@ aFlags
 0
 )
 ;
-static
-PRBool
-FrameNeedsView
-(
-nsIFrame
-*
-aFrame
-)
-;
 void
 DoInlineIntrinsicWidth
 (
