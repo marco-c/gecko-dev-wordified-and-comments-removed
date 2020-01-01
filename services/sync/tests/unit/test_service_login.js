@@ -223,6 +223,10 @@ DumpAppender
 )
 )
 ;
+do_test_pending
+(
+)
+;
 let
 server
 =
@@ -811,11 +815,7 @@ server
 .
 stop
 (
-function
-(
-)
-{
-}
+do_test_finished
 )
 ;
 }

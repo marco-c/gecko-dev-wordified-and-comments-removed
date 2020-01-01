@@ -281,6 +281,10 @@ Forbidden
 }
 )
 ;
+do_test_pending
+(
+)
+;
 res
 =
 Weave
@@ -562,11 +566,7 @@ server
 .
 stop
 (
-function
-(
-)
-{
-}
+do_test_finished
 )
 ;
 }
