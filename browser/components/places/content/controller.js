@@ -2372,6 +2372,7 @@ item
 .
 hidden
 =
+(
 item
 .
 getAttribute
@@ -2385,6 +2386,10 @@ hideifnoinsetionpoint
 "
 true
 "
+&
+&
+noIp
+)
 |
 |
 !
