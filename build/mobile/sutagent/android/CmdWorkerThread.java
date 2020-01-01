@@ -4,6 +4,8 @@ com
 mozilla
 .
 SUTAgentAndroid
+.
+service
 ;
 import
 java
@@ -388,11 +390,6 @@ run
 {
 try
 {
-while
-(
-bListening
-)
-{
 OutputStream
 cmdOut
 =
@@ -440,6 +437,9 @@ dc
 new
 DoCommand
 (
+theParent
+.
+svc
 )
 ;
 int
@@ -712,7 +712,6 @@ close
 (
 )
 ;
-}
 }
 catch
 (
