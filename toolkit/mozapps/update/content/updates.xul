@@ -1715,6 +1715,11 @@ flex
 "
 1
 "
+remotetype
+=
+"
+billboard
+"
 /
 >
 <
@@ -1848,6 +1853,11 @@ flex
 =
 "
 1
+"
+remotetype
+=
+"
+license
 "
 /
 >

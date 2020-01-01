@@ -503,6 +503,14 @@ test_0052_check_no_updates
 .
 xul
 \
+test_0053_check_billboard_license_noAttr
+.
+xul
+\
+test_0054_check_billboard_license_404
+.
+xul
+\
 test_0081_error_patchApplyFailure_partial_only
 .
 xul
