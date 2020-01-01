@@ -180,6 +180,8 @@ lower
 (
 )
             
+str
+(
 self
 .
 os
@@ -188,6 +190,11 @@ os
 "
 Android
 "
+)
+.
+lower
+(
+)
 )
     
 classmethod

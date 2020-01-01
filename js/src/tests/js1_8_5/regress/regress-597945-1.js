@@ -1,3 +1,6 @@
+var
+arguments
+;
 function
 b
 (

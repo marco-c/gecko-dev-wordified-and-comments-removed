@@ -443,6 +443,10 @@ jsworkers
 .
 cpp
 \
+jsoptparse
+.
+cpp
+\
 (
 NULL
 )
