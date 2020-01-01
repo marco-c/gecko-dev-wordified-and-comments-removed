@@ -29,6 +29,7 @@ eTreeOpDoneCreatingElement
 eTreeOpUpdateStyleSheet
 eTreeOpProcessBase
 eTreeOpProcessMeta
+eTreeOpProcessOfflineManifest
 eTreeOpStartLayout
 }
 ;

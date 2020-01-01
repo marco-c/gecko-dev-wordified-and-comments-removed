@@ -629,6 +629,8 @@ CacheSelectionAction
 aAction
 )
 ;
+public
+:
 void
 ProcessOfflineManifest
 (
@@ -637,6 +639,8 @@ nsIContent
 aElement
 )
 ;
+protected
+:
 void
 ScrollToRef
 (
