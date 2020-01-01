@@ -26,9 +26,12 @@ nsChangeHint_SyncFrameView
 nsChangeHint_UpdateCursor
 =
 0x08
-nsChangeHint_ReconstructFrame
+nsChangeHint_UpdateEffects
 =
 0x10
+nsChangeHint_ReconstructFrame
+=
+0x20
 }
 ;
 #

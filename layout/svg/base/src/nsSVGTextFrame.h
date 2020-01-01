@@ -78,11 +78,6 @@ PRInt32
 aModType
 )
 ;
-NS_IMETHOD
-DidSetStyleContext
-(
-)
-;
 virtual
 nsIAtom
 *

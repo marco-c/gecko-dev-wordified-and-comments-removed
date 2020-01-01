@@ -778,7 +778,7 @@ aFrame
 ;
 static
 void
-StyleEffects
+UpdateEffects
 (
 nsIFrame
 *

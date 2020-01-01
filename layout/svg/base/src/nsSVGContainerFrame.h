@@ -233,12 +233,6 @@ return
 }
 public
 :
-virtual
-void
-Destroy
-(
-)
-;
 NS_IMETHOD
 InsertFrames
 (

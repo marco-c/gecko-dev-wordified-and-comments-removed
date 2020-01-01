@@ -94,11 +94,6 @@ aResult
 #
 endif
 NS_IMETHOD
-DidSetStyleContext
-(
-)
-;
-NS_IMETHOD
 AttributeChanged
 (
 PRInt32
