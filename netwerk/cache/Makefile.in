@@ -130,6 +130,10 @@ nsCacheSession
 .
 cpp
 \
+nsCacheUtils
+.
+cpp
+\
 nsMemoryCacheDevice
 .
 cpp
