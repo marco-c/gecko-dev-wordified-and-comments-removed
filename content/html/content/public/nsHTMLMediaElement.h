@@ -1267,6 +1267,15 @@ bool
 aMuted
 )
 ;
+void
+SuspendOrResumeElement
+(
+bool
+aPauseElement
+bool
+aSuspendEvents
+)
+;
 virtual
 nsHTMLMediaElement
 *
@@ -1540,7 +1549,10 @@ bool
 mPlayingBeforeSeek
 ;
 bool
-mPausedForInactiveDocument
+mPausedForInactiveDocumentOrChannel
+;
+bool
+mEventDeliveryPaused
 ;
 bool
 mWaitingFired
@@ -1606,7 +1618,7 @@ AudioChannelType
 mAudioChannelType
 ;
 bool
-mChannelMuted
+mChannelSuspended
 ;
 bool
 mPlayingThroughTheAudioChannel
