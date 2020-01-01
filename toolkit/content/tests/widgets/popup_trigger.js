@@ -918,6 +918,9 @@ end_before
 end_after
 "
 "
+after_pointer
+"
+"
 overlap
 "
 ]
@@ -1015,6 +1018,9 @@ end_before
 "
 "
 end_after
+"
+"
+after_pointer
 "
 "
 overlap
@@ -1219,6 +1225,9 @@ end_before
 end_after
 "
 "
+after_pointer
+"
+"
 overlap
 "
 ]
@@ -1419,6 +1428,9 @@ end_before
 "
 "
 end_after
+"
+"
+after_pointer
 "
 "
 overlap
