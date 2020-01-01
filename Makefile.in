@@ -1259,6 +1259,11 @@ Linux
 MAKE_SYM_STORE_ARGS
 :
 =
+-
+-
+vcs
+-
+info
 DUMP_SYMS_BIN
 :
 =
