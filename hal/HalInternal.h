@@ -51,12 +51,12 @@ DisableNetworkNotifications
 )
 ;
 void
-EnableScreenOrientationNotifications
+EnableScreenConfigurationNotifications
 (
 )
 ;
 void
-DisableScreenOrientationNotifications
+DisableScreenConfigurationNotifications
 (
 )
 ;
