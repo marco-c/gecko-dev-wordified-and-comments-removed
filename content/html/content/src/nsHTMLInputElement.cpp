@@ -3894,6 +3894,11 @@ NS_EVENT_STATE_INVALID
 else
 if
 (
+MaxLengthApplies
+(
+)
+&
+&
 aName
 =
 =
@@ -14500,6 +14505,12 @@ IsTooLong
 {
 if
 (
+!
+MaxLengthApplies
+(
+)
+|
+|
 !
 HasAttr
 (
