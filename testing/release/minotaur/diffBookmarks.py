@@ -10,6 +10,9 @@ from
 logAppender
 import
 LogAppender
+stderrCatcher
+import
+sys
 def
 main
 (
@@ -24,6 +27,15 @@ lw
 LogAppender
 (
 log
+)
+  
+sys
+.
+stderr
+=
+stderrCatcher
+(
+lw
 )
   
 leftParser
