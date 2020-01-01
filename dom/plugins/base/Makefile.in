@@ -441,6 +441,16 @@ I
 topsrcdir
 )
 /
+widget
+/
+xpwidgets
+\
+-
+I
+(
+topsrcdir
+)
+/
 xpcom
 /
 base
