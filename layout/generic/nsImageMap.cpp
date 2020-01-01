@@ -3544,7 +3544,7 @@ area
 mArea
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -3562,7 +3562,7 @@ area
 mArea
 -
 >
-RemoveEventListener
+RemoveSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -4040,7 +4040,7 @@ NS_ERROR_OUT_OF_MEMORY
 aArea
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
@@ -4056,7 +4056,7 @@ false
 aArea
 -
 >
-AddEventListener
+AddSystemEventListener
 (
 NS_LITERAL_STRING
 (
