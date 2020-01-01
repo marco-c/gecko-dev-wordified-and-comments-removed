@@ -625,6 +625,10 @@ nsSVGUseFrame
 )
 FRAME_ID
 (
+SVGViewFrame
+)
+FRAME_ID
+(
 nsTableCaptionFrame
 )
 FRAME_ID
