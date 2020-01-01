@@ -70,17 +70,11 @@ nsIFrame
 mRootFrame
 ;
 PLDHashTable
-mPrimaryFrameMap
-;
-PLDHashTable
 mPlaceholderMap
 ;
 UndisplayedMap
 *
 mUndisplayedMap
-;
-PRPackedBool
-mIsDestroying
 ;
 PRPackedBool
 mIsDestroyingFrames
