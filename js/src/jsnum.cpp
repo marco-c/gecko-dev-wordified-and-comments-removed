@@ -3984,11 +3984,8 @@ localeToUnicode
 (
 cx
 buf
+&
 v
-.
-address
-(
-)
 )
 ;
 if
