@@ -315,6 +315,9 @@ eDOMClassInfo_OfflineResourceList_id
 eDOMClassInfo_LoadStatusList_id
 eDOMClassInfo_LoadStatus_id
 eDOMClassInfo_LoadStatusEvent_id
+eDOMClassInfo_FileList_id
+eDOMClassInfo_File_id
+eDOMClassInfo_FileException_id
 eDOMClassInfoIDCount
 }
 ;

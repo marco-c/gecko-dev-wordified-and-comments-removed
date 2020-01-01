@@ -472,6 +472,8 @@ mimetype
 \
 exthandler
 \
+chardet
+\
 uconv
 \
 intl

@@ -453,6 +453,10 @@ nkcache
 \
 mimetype
 \
+exthandler
+\
+chardet
+\
 caps
 \
 lwbrk
@@ -616,6 +620,10 @@ nsDOMAttributeMap
 cpp
 \
 nsDOMDocumentType
+.
+cpp
+\
+nsDOMFile
 .
 cpp
 \
