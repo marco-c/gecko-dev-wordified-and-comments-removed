@@ -1906,6 +1906,11 @@ return
 TRUE
 ;
 }
+PathQuoteSpaces
+(
+newServiceBinaryPath
+)
+;
 schService
 .
 own
