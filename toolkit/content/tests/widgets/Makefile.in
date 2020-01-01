@@ -246,6 +246,10 @@ videomask
 .
 css
 \
+test_bug898940
+.
+html
+\
 (
 NULL
 )
