@@ -696,10 +696,17 @@ WaitOnWriteThread
 (
 )
 ;
+if
+(
+!
+mArchive
+)
+{
 WriteToDisk
 (
 )
 ;
+}
 gStartupCache
 =
 nullptr
