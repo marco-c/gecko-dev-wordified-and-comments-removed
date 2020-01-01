@@ -110,12 +110,6 @@ nr_ice_turn_server_
 nr_ice_stun_server
 turn_server
 ;
-UINT4
-bandwidth_kbps
-;
-UINT4
-lifetime_secs
-;
 char
 *
 username

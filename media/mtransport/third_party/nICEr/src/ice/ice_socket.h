@@ -56,8 +56,17 @@ nr_stun_server_ctx
 *
 server
 ;
+struct
+{
 nr_turn_client_ctx
 *
+turn_client
+;
+nr_socket
+*
+turn_sock
+;
+}
 turn_client
 ;
 }
@@ -199,6 +208,9 @@ sock
 nr_turn_client_ctx
 *
 srv
+nr_socket
+*
+turn_socket
 void
 *
 *

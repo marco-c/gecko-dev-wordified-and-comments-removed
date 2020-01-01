@@ -559,6 +559,7 @@ r_strdup
 (
 str
 )
+const
 char
 *
 str

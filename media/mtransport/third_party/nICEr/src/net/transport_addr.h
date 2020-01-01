@@ -156,6 +156,7 @@ addr
 int
 nr_ip4_str_port_to_transport_addr
 (
+const
 char
 *
 ip4
@@ -250,6 +251,17 @@ addr
 ;
 int
 nr_transport_addr_copy
+(
+nr_transport_addr
+*
+to
+nr_transport_addr
+*
+from
+)
+;
+int
+nr_transport_addr_copy_keep_ifname
 (
 nr_transport_addr
 *

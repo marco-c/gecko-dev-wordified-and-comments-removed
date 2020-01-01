@@ -61,6 +61,7 @@ char
 *
 r_strdup
 (
+const
 char
 *
 str

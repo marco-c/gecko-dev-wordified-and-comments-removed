@@ -55,6 +55,9 @@ nr_stun_process_error_response
 nr_stun_message
 *
 res
+UINT2
+*
+error_code
 )
 ;
 int

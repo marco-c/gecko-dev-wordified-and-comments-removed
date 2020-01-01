@@ -181,6 +181,10 @@ nr_stun_attr_codec_xor_mapped_address
 ;
 extern
 nr_stun_attr_codec
+nr_stun_attr_codec_xor_peer_address
+;
+extern
+nr_stun_attr_codec
 nr_stun_attr_codec_old_xor_mapped_address
 ;
 int

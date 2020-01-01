@@ -72,6 +72,7 @@ Data
 *
 dp
 ;
+const
 UCHAR
 *
 d
@@ -358,6 +359,7 @@ Data
 *
 dp
 ;
+const
 UCHAR
 *
 d
