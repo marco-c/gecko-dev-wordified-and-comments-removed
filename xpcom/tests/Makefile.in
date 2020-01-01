@@ -1036,7 +1036,7 @@ srcdir
 pwd
 )
 ifdef
-CROSS_COMPILE
+WINCE
 DM_RM
 =
 (

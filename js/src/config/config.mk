@@ -4569,7 +4569,7 @@ US
 endif
 endif
 ifdef
-CROSS_COMPILE
+WINCE
 RUN_TEST_PROGRAM
 =
 (

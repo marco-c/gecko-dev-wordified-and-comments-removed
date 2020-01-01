@@ -604,7 +604,7 @@ mozconfig
 .
 out
 ifdef
-CROSS_COMPILE
+WINCE
 check
 :
 :
