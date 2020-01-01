@@ -50,6 +50,11 @@ nsHTMLContainerFrame
 {
 public
 :
+NS_DECLARE_FRAME_ACCESSOR
+(
+nsTableRowFrame
+)
+NS_DECL_QUERYFRAME
 virtual
 ~
 nsTableRowFrame
