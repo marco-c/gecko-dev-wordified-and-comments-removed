@@ -23965,9 +23965,6 @@ fails
 if
 (
 winWidget
-&
-&
-layersGPUAccelerated
 )
 =
 =
