@@ -25035,7 +25035,7 @@ if
 ident
 -
 >
-LowerCaseEqualsLiteral
+LowerCaseEqualsASCII
 (
 sv
 -
