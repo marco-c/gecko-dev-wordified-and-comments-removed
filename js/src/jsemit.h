@@ -1973,7 +1973,7 @@ pn
 ;
 extern
 JSBool
-js_EmitFunctionBytecode
+js_EmitFunctionScript
 (
 JSContext
 *
