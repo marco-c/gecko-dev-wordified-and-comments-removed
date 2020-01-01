@@ -157,7 +157,7 @@ public
 class
 testHistoryTab
 extends
-BaseTest
+PixelTest
 {
 private
 static
@@ -289,7 +289,7 @@ html
 "
 )
 ;
-loadUrl
+loadAndPaint
 (
 url
 )
@@ -308,17 +308,9 @@ html
 "
 )
 ;
-loadUrl
+loadAndPaint
 (
 url
-)
-;
-getInstrumentation
-(
-)
-.
-waitForIdleSync
-(
 )
 ;
 mActions
