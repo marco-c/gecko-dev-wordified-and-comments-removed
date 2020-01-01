@@ -27350,6 +27350,11 @@ aCallerWin
 )
 )
 ;
+if
+(
+sgo
+)
+{
 nsIScriptContext
 *
 scx
@@ -27372,6 +27377,7 @@ LeaveModalState
 (
 )
 ;
+}
 }
 if
 (
