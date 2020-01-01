@@ -227,15 +227,6 @@ String
 suggestion
 )
 ;
-public
-void
-switchToTab
-(
-final
-int
-tabId
-)
-;
 }
 private
 class
