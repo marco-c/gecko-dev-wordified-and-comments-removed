@@ -13,6 +13,13 @@ svg
 assertion
 test
 load
+bug337408
+.
+xul
+#
+crash
+test
+load
 bug367368
 .
 xhtml
