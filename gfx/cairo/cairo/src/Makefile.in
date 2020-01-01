@@ -1017,10 +1017,6 @@ surface
 c
 ifdef
 NS_PRINTING
-DEFINES
-+
-=
-CAIRO_OMIT_WIN32_PRINTING
 CSRCS
 +
 =
@@ -1033,6 +1029,11 @@ printing
 surface
 .
 c
+else
+DEFINES
++
+=
+CAIRO_OMIT_WIN32_PRINTING
 endif
 EXPORTS
 +
