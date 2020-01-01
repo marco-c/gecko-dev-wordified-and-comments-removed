@@ -434,6 +434,9 @@ branding
 configure
 .
 sh
+MOZ_CHROME_FILE_FORMAT
+=
+omni
 MOZ_SERVICES_SYNC
 =
 1
