@@ -267,6 +267,17 @@ Label
 fail
 )
 ;
+Operand
+createArraySlotOperand
+(
+Register
+slots
+const
+LAllocation
+*
+index
+)
+;
 enum
 NaNCond
 {
