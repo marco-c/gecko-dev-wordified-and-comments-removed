@@ -1378,7 +1378,9 @@ true
 ]
 menubar
 [
-_moz_collapsed
+moz
+-
+collapsed
 =
 "
 true
@@ -1399,6 +1401,12 @@ height
 :
 0
 %
+;
+max
+-
+height
+:
+0px
 ;
 display
 :
