@@ -441,10 +441,6 @@ nsICookieService
 .
 idl
 \
-nsICookieServiceInternal
-.
-idl
-\
 nsICookie2
 .
 idl
