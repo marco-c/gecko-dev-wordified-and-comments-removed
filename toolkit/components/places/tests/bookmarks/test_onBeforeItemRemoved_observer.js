@@ -69,6 +69,8 @@ function
 id
 folder
 index
+itemType
+uri
 )
 {
 }

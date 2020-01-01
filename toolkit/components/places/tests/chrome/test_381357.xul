@@ -469,6 +469,7 @@ itemId
 folder
 index
 itemType
+uri
 )
 {
 var

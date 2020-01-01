@@ -1636,6 +1636,7 @@ aItemId
 aFolderId
 aIndex
 aItemType
+aURI
 )
 {
 if

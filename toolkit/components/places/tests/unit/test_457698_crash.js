@@ -130,6 +130,7 @@ id
 folder
 index
 itemType
+uri
 )
 {
 do_check_true

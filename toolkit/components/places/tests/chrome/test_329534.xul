@@ -632,6 +632,7 @@ bookmarkId
 folderId
 index
 itemType
+uri
 )
 {
 if

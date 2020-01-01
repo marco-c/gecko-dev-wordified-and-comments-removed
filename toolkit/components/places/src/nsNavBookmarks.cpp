@@ -4628,6 +4628,7 @@ aNewBookmarkId
 aFolder
 index
 TYPE_BOOKMARK
+aURI
 )
 )
 ;
@@ -5810,6 +5811,7 @@ aNewFolder
 aParent
 index
 containerType
+nsnull
 )
 )
 ;
@@ -5993,6 +5995,7 @@ aNewItemId
 aParent
 index
 TYPE_SEPARATOR
+nsnull
 )
 )
 ;

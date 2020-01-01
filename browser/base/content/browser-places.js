@@ -5226,6 +5226,7 @@ aItemId
 aFolder
 aIndex
 aItemType
+aURI
 )
 {
 if

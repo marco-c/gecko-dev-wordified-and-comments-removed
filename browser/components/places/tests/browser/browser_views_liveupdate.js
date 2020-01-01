@@ -1021,6 +1021,7 @@ aItemId
 aFolderId
 aIndex
 aItemType
+aURI
 )
 {
 var

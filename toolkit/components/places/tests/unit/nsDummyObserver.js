@@ -210,6 +210,7 @@ aItemId
 aParentId
 aIndex
 aItemType
+aURI
 )
 {
 let

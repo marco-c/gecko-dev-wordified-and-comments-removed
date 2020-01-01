@@ -598,6 +598,7 @@ aItemId
 aParentId
 aIndex
 aItemType
+aURI
 )
 {
 if
