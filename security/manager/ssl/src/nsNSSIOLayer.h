@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsISocketTransport
-.
-h
-"
-#
-include
-"
 mozilla
 /
 TimeStamp
