@@ -457,6 +457,10 @@ Sidebar
 .
 js
 \
+SessionStore
+.
+js
+\
 (
 NULL
 )
@@ -504,10 +508,6 @@ AutoCompleteCache
 js
 \
 AddonUpdateService
-.
-js
-\
-SessionStore
 .
 js
 \
