@@ -54,11 +54,6 @@ test_modules
 =
 [
 "
-aitcserver
-.
-js
-"
-"
 bagheeraserver
 .
 js
