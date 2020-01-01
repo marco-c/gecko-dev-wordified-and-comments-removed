@@ -663,11 +663,6 @@ localStorage
 '
 nsIDOMWindow
 .
-globalStorage
-'
-'
-nsIDOMWindow
-.
 onmouseenter
 '
 '
