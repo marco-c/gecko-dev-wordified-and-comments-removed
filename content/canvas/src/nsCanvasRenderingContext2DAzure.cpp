@@ -1576,7 +1576,7 @@ mCtx
 mTarget
 -
 >
-CreateSimilarDrawTarget
+CreateShadowDrawTarget
 (
 IntSize
 (
