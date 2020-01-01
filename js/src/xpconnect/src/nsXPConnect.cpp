@@ -3972,9 +3972,6 @@ CompartmentPrivate
 (
 priv_key
 wantXrays
-NS_IsMainThread
-(
-)
 )
 ;
 if
@@ -4130,9 +4127,6 @@ CompartmentPrivate
 (
 ptr
 false
-NS_IsMainThread
-(
-)
 )
 ;
 if
