@@ -981,6 +981,7 @@ Length
 ;
 if
 (
+(
 mPathBuilder
 |
 |
@@ -988,6 +989,11 @@ mPath
 |
 |
 mPathIsRect
+)
+&
+&
+!
+mTransformChanged
 )
 {
 mTransformChanged
