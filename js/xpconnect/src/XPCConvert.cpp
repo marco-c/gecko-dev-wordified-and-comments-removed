@@ -4348,12 +4348,8 @@ XPCWrappedNativeScope
 *
 xpcscope
 =
-XPCWrappedNativeScope
-:
-:
-FindInJSObjectScope
+ObjectScope
 (
-cx
 jsscope
 )
 ;
