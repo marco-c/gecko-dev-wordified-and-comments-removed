@@ -537,10 +537,6 @@ WebGLExtensionLoseContext
 .
 cpp
 \
-WebGLTexelConversions
-.
-cpp
-\
 (
 NULL
 )
