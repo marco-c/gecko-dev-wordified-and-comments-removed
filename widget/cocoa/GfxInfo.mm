@@ -151,6 +151,11 @@ Preferences
 h
 "
 #
+include
+<
+algorithm
+>
+#
 import
 <
 Foundation
@@ -618,7 +623,10 @@ rendererCount
 (
 GLint
 )
-NS_MIN
+std
+:
+:
+min
 (
 rendererCount
 (

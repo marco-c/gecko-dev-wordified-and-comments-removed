@@ -58,6 +58,11 @@ StandardInteger
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -2319,7 +2324,10 @@ mTime
 int64_t
 startTime
 =
-NS_MIN
+std
+:
+:
+min
 (
 videoStartTime
 audioStartTime

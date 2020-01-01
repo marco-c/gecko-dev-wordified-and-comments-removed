@@ -15,6 +15,11 @@ h
 #
 include
 NEW_H
+#
+include
+<
+algorithm
+>
 nsIntervalSet
 :
 :
@@ -285,7 +290,10 @@ newInterval
 >
 mBegin
 =
-NS_MIN
+std
+:
+:
+min
 (
 newInterval
 -
@@ -302,7 +310,10 @@ newInterval
 >
 mEnd
 =
-NS_MAX
+std
+:
+:
+max
 (
 newInterval
 -

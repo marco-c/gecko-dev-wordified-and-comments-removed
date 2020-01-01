@@ -205,6 +205,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsIURI
 .
@@ -2353,7 +2358,10 @@ LeftRight
 ;
 result
 =
-NS_MAX
+std
+:
+:
+max
 (
 result
 0
@@ -2422,7 +2430,10 @@ LeftRight
 ;
 result
 =
-NS_MAX
+std
+:
+:
+max
 (
 result
 0

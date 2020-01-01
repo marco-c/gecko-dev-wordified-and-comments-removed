@@ -182,6 +182,11 @@ nsIClassInfoImpl
 h
 "
 #
+include
+<
+algorithm
+>
+#
 if
 defined
 (
@@ -8077,7 +8082,10 @@ type
 (
 uint16_t
 )
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >
@@ -8879,7 +8887,10 @@ int32_t
 i
 row_max
 =
-NS_MIN
+std
+:
+:
+min
 (
 16
 n

@@ -48,6 +48,11 @@ Util
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 mozilla
 :
@@ -4387,7 +4392,10 @@ mInteger
 =
 int32_t
 (
-NS_MIN
+std
+:
+:
+min
 (
 intPart
 double
@@ -4406,7 +4414,10 @@ mInteger
 =
 int32_t
 (
-NS_MAX
+std
+:
+:
+max
 (
 -
 intPart

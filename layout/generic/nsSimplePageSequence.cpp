@@ -146,6 +146,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsDateTimeFormatCID
 .
@@ -635,7 +640,10 @@ aDesiredSize
 .
 width
 =
-NS_MAX
+std
+:
+:
+max
 (
 aReflowState
 .
@@ -659,7 +667,10 @@ aDesiredSize
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 aReflowState
 .
@@ -1236,7 +1247,10 @@ bottom
 ;
 maxXMost
 =
-NS_MAX
+std
+:
+:
+max
 (
 maxXMost
 x

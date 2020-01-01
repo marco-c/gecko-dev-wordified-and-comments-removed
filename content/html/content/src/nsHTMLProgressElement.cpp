@@ -33,6 +33,11 @@ nsEventStateManager
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -452,7 +457,10 @@ max
 *
 aValue
 =
-NS_MIN
+std
+:
+:
+min
 (
 *
 aValue

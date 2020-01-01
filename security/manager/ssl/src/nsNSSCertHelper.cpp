@@ -105,6 +105,11 @@ nsDateTimeFormatCID
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -936,7 +941,10 @@ unsigned
 long
 one
 =
-NS_MIN
+std
+:
+:
+min
 (
 val
 /

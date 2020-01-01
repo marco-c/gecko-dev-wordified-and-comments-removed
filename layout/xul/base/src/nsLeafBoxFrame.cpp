@@ -89,6 +89,11 @@ nsDisplayList
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsIFrame
 *
 NS_NewLeafBoxFrame
@@ -1136,7 +1141,10 @@ computedSize
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 computedSize

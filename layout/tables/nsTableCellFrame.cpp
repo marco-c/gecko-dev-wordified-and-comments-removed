@@ -182,6 +182,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsFrameSelection
 .
@@ -950,7 +955,10 @@ rowIndex
 GetColSpan
 (
 )
-NS_MIN
+std
+:
+:
+min
 (
 GetRowSpan
 (
@@ -2574,7 +2582,10 @@ topInset
 }
 kidYTop
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 kidYTop

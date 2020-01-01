@@ -189,6 +189,11 @@ StructuredCloneUtils
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 ANDROID
 #
@@ -4332,7 +4337,10 @@ avail
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 avail64
 (

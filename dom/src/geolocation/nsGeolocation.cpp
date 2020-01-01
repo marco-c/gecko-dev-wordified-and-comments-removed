@@ -273,6 +273,11 @@ math
 h
 >
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_MAEMO_LIBLOCATION
 #
@@ -3694,7 +3699,10 @@ radius
 double
 max_accuracy
 =
-NS_MAX
+std
+:
+:
+max
 (
 oldAccuracy
 newAccuracy

@@ -43,6 +43,11 @@ CheckedInt
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -643,7 +648,10 @@ aMaxLevelWithCustomImages
 {
 mMaxLevelWithCustomImages
 =
-NS_MAX
+std
+:
+:
+max
 (
 mMaxLevelWithCustomImages
 aMaxLevelWithCustomImages

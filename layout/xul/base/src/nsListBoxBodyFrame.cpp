@@ -209,6 +209,11 @@ nsRenderingContext
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 ACCESSIBILITY
 #
@@ -1007,7 +1012,10 @@ o
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 o
 .

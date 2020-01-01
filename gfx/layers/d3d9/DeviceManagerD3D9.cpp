@@ -54,6 +54,11 @@ plstr
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -3412,7 +3417,10 @@ false
 }
 mMaxTextureSize
 =
-NS_MIN
+std
+:
+:
+min
 (
 caps
 .

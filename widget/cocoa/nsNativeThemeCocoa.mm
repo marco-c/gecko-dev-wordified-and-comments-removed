@@ -280,6 +280,11 @@ gfxQuartzNativeDrawing
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 DRAW_IN_FRAME_DEBUG
 0
@@ -2651,7 +2656,10 @@ ctm
 float
 maxScale
 =
-NS_MAX
+std
+:
+:
+max
 (
 fabs
 (
@@ -5422,7 +5430,10 @@ square
 float
 length
 =
-NS_MIN
+std
+:
+:
+min
 (
 inBoxRect
 .
@@ -17671,7 +17682,10 @@ return
 (
 double
 )
-NS_MAX
+std
+:
+:
+max
 (
 CheckIntAttr
 (

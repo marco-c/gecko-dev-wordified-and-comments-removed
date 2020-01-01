@@ -76,6 +76,11 @@ IndexedDatabaseInlines
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 JOURNAL_DIRECTORY_NAME
 "
@@ -606,7 +611,10 @@ fileInfo
 ;
 mLastFileId
 =
-NS_MAX
+std
+:
+:
+max
 (
 id
 mLastFileId

@@ -128,6 +128,11 @@ SVGSVGElement
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -1797,7 +1802,10 @@ mRestrictedRegion
 .
 width
 =
-NS_MAX
+std
+:
+:
+max
 (
 aRegion
 .
@@ -1812,7 +1820,10 @@ mRestrictedRegion
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 aRegion
 .

@@ -330,6 +330,11 @@ nscore
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -744,7 +749,10 @@ res
 ;
 zIndex
 =
-NS_MAX
+std
+:
+:
+max
 (
 zIndex
 +

@@ -198,6 +198,11 @@ LookAndFeel
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -1553,7 +1558,10 @@ scrollbar
 ;
 maxPos
 =
-NS_MAX
+std
+:
+:
+max
 (
 minPos
 maxPos
@@ -1643,7 +1651,10 @@ pageIncrement
 ;
 thumbLength
 =
-NS_MAX
+std
+:
+:
+max
 (
 thumbLength
 NSToCoordRound
@@ -2920,7 +2931,10 @@ scrollbar
 ;
 maxPos
 =
-NS_MAX
+std
+:
+:
+max
 (
 minPos
 maxPos

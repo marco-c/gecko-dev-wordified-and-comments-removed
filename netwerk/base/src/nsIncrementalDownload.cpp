@@ -134,6 +134,11 @@ prprf
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 DEFAULT_CHUNK_SIZE
 (
@@ -2469,7 +2474,10 @@ uint32_t
 n
 len
 =
-NS_MIN
+std
+:
+:
+min
 (
 space
 count

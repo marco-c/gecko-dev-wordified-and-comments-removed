@@ -223,6 +223,11 @@ OSFileConstants
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -4856,7 +4861,10 @@ MAX_WORKERS_PER_DOMAIN
 ;
 gMaxWorkersPerDomain
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 maxPerDomain

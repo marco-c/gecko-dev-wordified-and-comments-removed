@@ -65,6 +65,11 @@ MediaDecoderReader
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -2642,7 +2647,10 @@ else
 ogg_int64_t
 k
 =
-NS_MAX
+std
+:
+:
+max
 (
 frame
 -
@@ -4134,7 +4142,10 @@ last
 ;
 mPrevVorbisBlockSize
 =
-NS_MAX
+std
+:
+:
+max
 (
 static_cast
 <
@@ -4704,7 +4715,10 @@ static_cast
 int32_t
 >
 (
-NS_MIN
+std
+:
+:
+min
 (
 65536
 *

@@ -47,6 +47,11 @@ nsMathMLmfencedFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsIFrame
 *
 NS_NewMathMLmfencedFrame
@@ -1216,7 +1221,10 @@ containerSize
 nscoord
 delta
 =
-NS_MAX
+std
+:
+:
+max
 (
 containerSize
 .

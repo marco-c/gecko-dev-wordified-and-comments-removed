@@ -29,6 +29,11 @@ SSE
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 UNICODE_BYTE_ORDER_MARK
 0xFEFF
@@ -852,7 +857,10 @@ c
 int32_t
 max_loops
 =
-NS_MIN
+std
+:
+:
+min
 (
 inend
 -

@@ -33,6 +33,11 @@ nsStyleConsts
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 {
 class
@@ -798,7 +803,10 @@ size
 )
 ;
 return
-NS_MAX
+std
+:
+:
+max
 (
 minDescent
 aMetrics
@@ -1101,7 +1109,10 @@ x
 )
 ;
 return
-NS_MAX
+std
+:
+:
+max
 (
 1
 len

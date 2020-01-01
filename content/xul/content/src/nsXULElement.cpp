@@ -517,6 +517,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsIDOMXULDocument
 .
@@ -3472,7 +3477,10 @@ treeRows
 {
 newCurrentIndex
 =
-NS_MIN
+std
+:
+:
+min
 (
 (
 treeRows

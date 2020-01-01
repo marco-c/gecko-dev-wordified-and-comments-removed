@@ -55,6 +55,11 @@ nsStyleStruct
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 UNICODE_ZWSP
 0x200B
@@ -1392,7 +1397,10 @@ length
 ;
 mRunLength
 =
-NS_MIN
+std
+:
+:
+min
 (
 length
 mRemainingLength

@@ -144,6 +144,11 @@ StandardInteger
 .
 h
 "
+#
+include
+<
+algorithm
+>
 const
 uint32_t
 kUnknownIndex
@@ -2982,7 +2987,10 @@ parents
 int32_t
 lastIndex
 =
-NS_MIN
+std
+:
+:
+min
 (
 total
 otherTotal

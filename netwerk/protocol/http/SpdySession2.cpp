@@ -66,6 +66,11 @@ prprf
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 DEBUG
 extern
@@ -8865,7 +8870,10 @@ trash
 uint32_t
 count
 =
-NS_MIN
+std
+:
+:
+min
 (
 4096U
 mInputFrameDataSize
@@ -9850,7 +9858,10 @@ NS_BASE_STREAM_CLOSED
 }
 count
 =
-NS_MIN
+std
+:
+:
+min
 (
 count
 mInputFrameDataSize
@@ -9966,7 +9977,10 @@ NS_BASE_STREAM_CLOSED
 }
 count
 =
-NS_MIN
+std
+:
+:
+min
 (
 count
 mFlatHTTPResponseHeaders

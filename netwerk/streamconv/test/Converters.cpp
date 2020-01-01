@@ -33,6 +33,11 @@ stdio
 .
 h
 >
+#
+include
+<
+algorithm
+>
 NS_IMPL_ISUPPORTS3
 (
 TestConverter
@@ -324,7 +329,10 @@ return
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 aValue
 (

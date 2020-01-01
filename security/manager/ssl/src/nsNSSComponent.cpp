@@ -463,6 +463,11 @@ nsXULAppAPI
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 XP_WIN
 #
@@ -11281,7 +11286,10 @@ readLimit
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 <
 uint64_t
 >
@@ -11939,7 +11947,10 @@ readLimit
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 <
 uint64_t
 >

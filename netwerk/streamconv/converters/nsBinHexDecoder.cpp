@@ -97,6 +97,11 @@ nsMimeTypes
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 CR
 '
@@ -883,7 +888,10 @@ aStream
 Read
 (
 mDataBuffer
-NS_MIN
+std
+:
+:
+min
 (
 aCount
 nsIOService

@@ -122,6 +122,11 @@ DASHDecoder
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -4572,7 +4577,10 @@ toDecoderIdx
 {
 toDecoderIdx
 =
-NS_MIN
+std
+:
+:
+min
 (
 toDecoderIdx
 +

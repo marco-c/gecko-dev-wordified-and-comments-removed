@@ -445,6 +445,11 @@ include
 cmath
 >
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_OGG
 #
@@ -5497,7 +5502,10 @@ NS_ERROR_FAILURE
 double
 clampedTime
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 .
@@ -5525,7 +5533,10 @@ duration
 {
 clampedTime
 =
-NS_MIN
+std
+:
+:
+min
 (
 clampedTime
 duration

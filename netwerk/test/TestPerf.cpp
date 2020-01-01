@@ -47,6 +47,11 @@ nsISupportsArray
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 TestPerf
 {
@@ -368,7 +373,10 @@ count
 {
 n
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

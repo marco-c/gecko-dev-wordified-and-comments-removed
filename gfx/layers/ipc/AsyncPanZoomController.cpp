@@ -112,6 +112,11 @@ AnimationCommon
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -4823,7 +4828,10 @@ accelerationFactor
 =
 clamped
 (
-NS_MAX
+std
+:
+:
+max
 (
 mX
 .
@@ -5978,7 +5986,10 @@ newHeight
 gfxFloat
 targetResolution
 =
-NS_MIN
+std
+:
+:
+min
 (
 compositionBounds
 .
@@ -6027,7 +6038,10 @@ cssPageRect
 ;
 targetResolution
 =
-NS_MAX
+std
+:
+:
+max
 (
 compositionBounds
 .

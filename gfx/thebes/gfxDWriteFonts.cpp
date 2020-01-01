@@ -20,6 +20,11 @@ gfxHarfBuzzShaper
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_GRAPHITE
 #
@@ -1092,7 +1097,10 @@ mMetrics
 >
 internalLeading
 =
-NS_MAX
+std
+:
+:
+max
 (
 mMetrics
 -

@@ -132,6 +132,11 @@ prlog
 h
 "
 #
+include
+<
+algorithm
+>
+#
 if
 defined
 (
@@ -285,7 +290,10 @@ uint32_t
 n
 amt
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

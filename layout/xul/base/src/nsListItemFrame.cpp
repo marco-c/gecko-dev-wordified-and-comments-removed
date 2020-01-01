@@ -40,6 +40,11 @@ nsBoxLayout
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsListItemFrame
 :
 :
@@ -108,7 +113,10 @@ size
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 mRect
 .

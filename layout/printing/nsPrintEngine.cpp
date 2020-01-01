@@ -100,6 +100,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsIPrintSettings
 .
@@ -12178,7 +12183,10 @@ startRect
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 startRect
@@ -12208,7 +12216,10 @@ endRect
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 endRect

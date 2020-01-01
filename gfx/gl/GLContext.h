@@ -12,6 +12,11 @@ stdio
 h
 >
 #
+include
+<
+algorithm
+>
+#
 if
 defined
 (
@@ -4702,7 +4707,10 @@ const
 int32_t
 biggerDimension
 =
-NS_MAX
+std
+:
+:
+max
 (
 aSize
 .
@@ -4715,7 +4723,10 @@ height
 int32_t
 maxAllowed
 =
-NS_MIN
+std
+:
+:
+min
 (
 mMaxRenderbufferSize
 mMaxTextureSize

@@ -68,6 +68,11 @@ TimeStamp
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 kMaxBufferSize
 (
@@ -2803,7 +2808,10 @@ mozilla
 fallocate
 (
 mFD
-NS_MIN
+std
+:
+:
+min
 <
 int64_t
 >

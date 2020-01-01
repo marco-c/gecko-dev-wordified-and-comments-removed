@@ -89,6 +89,11 @@ nsIStreamConverterService
 .
 h
 "
+#
+include
+<
+algorithm
+>
 static
 uint32_t
 LengthToToken
@@ -2150,7 +2155,10 @@ LF
 )
 bufAmt
 =
-NS_MIN
+std
+:
+:
+min
 (
 mTokenLen
 -

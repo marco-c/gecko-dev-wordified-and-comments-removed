@@ -425,6 +425,11 @@ nsNSSCertHelper
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -1788,7 +1793,10 @@ name
 "
 curve
 "
-NS_MIN
+std
+:
+:
+min
 (
 name_len
 5
@@ -1817,7 +1825,10 @@ name
 "
 popcert
 "
-NS_MIN
+std
+:
+:
+min
 (
 name_len
 7

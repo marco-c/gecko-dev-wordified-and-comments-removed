@@ -11,6 +11,11 @@ nsCoord
 .
 h
 "
+#
+include
+<
+algorithm
+>
 struct
 nsBoundingMetrics
 {
@@ -145,7 +150,10 @@ descent
 ;
 leftBearing
 =
-NS_MIN
+std
+:
+:
+min
 (
 leftBearing
 width
@@ -157,7 +165,10 @@ leftBearing
 ;
 rightBearing
 =
-NS_MAX
+std
+:
+:
+max
 (
 rightBearing
 width

@@ -121,6 +121,11 @@ include
 cmath
 >
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_WMF
 #
@@ -3782,7 +3787,10 @@ reliable
 {
 rate
 =
-NS_MAX
+std
+:
+:
+max
 (
 rate
 1u
@@ -3793,7 +3801,10 @@ else
 {
 rate
 =
-NS_MAX
+std
+:
+:
+max
 (
 rate
 10000u
@@ -5514,7 +5525,10 @@ GetReentrantMonitor
 ;
 mPlaybackPosition
 =
-NS_MAX
+std
+:
+:
+max
 (
 aOffset
 mPlaybackPosition

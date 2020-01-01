@@ -48,6 +48,11 @@ nsMathMLmpaddedFrame
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 NS_MATHML_SIGN_INVALID
 -
@@ -1380,7 +1385,10 @@ width
 ;
 width
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 width
@@ -1410,7 +1418,10 @@ height
 ;
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 height
@@ -1440,7 +1451,10 @@ depth
 ;
 depth
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 depth

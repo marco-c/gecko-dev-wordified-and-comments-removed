@@ -26,6 +26,11 @@ nsTableCellFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 FixedTableLayoutStrategy
 :
 :
@@ -1234,7 +1239,10 @@ tableWidth
 nscoord
 reduce
 =
-NS_MIN
+std
+:
+:
+min
 (
 pctUsed
 -

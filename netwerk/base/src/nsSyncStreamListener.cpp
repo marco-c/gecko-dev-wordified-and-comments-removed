@@ -19,6 +19,11 @@ nsIPipe
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsresult
 nsSyncStreamListener
 :
@@ -404,7 +409,10 @@ avail
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 avail64
 (
@@ -487,7 +495,10 @@ avail
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 avail64
 (

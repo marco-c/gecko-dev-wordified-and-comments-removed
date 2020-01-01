@@ -258,6 +258,11 @@ IndexedDBChild
 .
 h
 "
+#
+include
+<
+algorithm
+>
 USING_INDEXEDDB_NAMESPACE
 using
 mozilla
@@ -2319,7 +2324,10 @@ version
 *
 aVersion
 =
-NS_MAX
+std
+:
+:
+max
 <
 int64_t
 >

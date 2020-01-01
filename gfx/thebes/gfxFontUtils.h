@@ -112,6 +112,11 @@ zlib
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 __MINGW32__
 #
@@ -656,7 +661,10 @@ aStart
 ;
 end
 =
-NS_MIN
+std
+:
+:
+min
 (
 aEnd
 (
@@ -1228,7 +1236,10 @@ const
 uint32_t
 end
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >
@@ -1528,7 +1539,10 @@ const
 uint32_t
 end
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

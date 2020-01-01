@@ -102,6 +102,11 @@ nsReadLine
 .
 h
 "
+#
+include
+<
+algorithm
+>
 class
 nsFileStreamBase
 :
@@ -589,7 +594,10 @@ aSize
 )
 {
 return
-NS_MIN
+std
+:
+:
+min
 <
 uint64_t
 >

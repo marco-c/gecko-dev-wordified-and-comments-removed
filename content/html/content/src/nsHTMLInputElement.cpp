@@ -359,6 +359,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsIRadioGroupContainer
 .
@@ -6769,7 +6774,10 @@ min
 {
 value
 =
-NS_MAX
+std
+:
+:
+max
 (
 value
 min
@@ -6792,7 +6800,10 @@ max
 {
 value
 =
-NS_MIN
+std
+:
+:
+min
 (
 value
 max

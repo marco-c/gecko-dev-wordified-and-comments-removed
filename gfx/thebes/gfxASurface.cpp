@@ -75,6 +75,11 @@ cairo
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 CAIRO_HAS_WIN32_SURFACE
 #
@@ -3196,7 +3201,10 @@ encoder
 int32_t
 w
 =
-NS_MIN
+std
+:
+:
+min
 (
 size
 .
@@ -3207,7 +3215,10 @@ width
 int32_t
 h
 =
-NS_MIN
+std
+:
+:
+min
 (
 size
 .

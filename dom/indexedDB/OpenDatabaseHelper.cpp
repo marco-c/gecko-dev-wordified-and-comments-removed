@@ -101,6 +101,11 @@ IndexedDatabaseManager
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -8040,7 +8045,10 @@ j
 ;
 mLastIndexId
 =
-NS_MAX
+std
+:
+:
+max
 (
 indexInfo
 .
@@ -8051,7 +8059,10 @@ mLastIndexId
 }
 mLastObjectStoreId
 =
-NS_MAX
+std
+:
+:
+max
 (
 objectStoreInfo
 -

@@ -26,6 +26,11 @@ nsAlgorithm
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -205,7 +210,10 @@ _retval
 uint32_t
 toRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 mLen
 aCount
@@ -294,7 +302,10 @@ aCount
 uint32_t
 toRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 mLen
 aCount

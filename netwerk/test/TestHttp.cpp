@@ -48,6 +48,11 @@ nsIProgressEventSink
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 RETURN_IF_FAILED
 (
@@ -279,7 +284,10 @@ count
 uint32_t
 amount
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

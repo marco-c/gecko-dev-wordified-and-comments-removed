@@ -26,6 +26,11 @@ nsTextFragmentImpl
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -124,7 +129,10 @@ i
 int32_t
 alignLen
 =
-NS_MIN
+std
+:
+:
+min
 (
 len
 int32_t

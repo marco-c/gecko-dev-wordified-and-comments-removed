@@ -808,7 +808,10 @@ dest_subset_size
 float
 clamped_scale
 =
-NS_MIN
+std
+:
+:
+min
 (
 1
 .
@@ -891,7 +894,10 @@ inv_scale
 int
 src_begin
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 FloorInt
@@ -905,7 +911,10 @@ src_support
 int
 src_end
 =
-NS_MIN
+std
+:
+:
+min
 (
 src_size
 -

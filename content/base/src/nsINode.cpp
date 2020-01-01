@@ -675,6 +675,11 @@ DocumentType
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -3933,7 +3938,10 @@ for
 (
 len
 =
-NS_MIN
+std
+:
+:
+min
 (
 pos1
 pos2

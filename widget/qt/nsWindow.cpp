@@ -113,6 +113,11 @@ QtCore
 QVariant
 >
 #
+include
+<
+algorithm
+>
+#
 if
 (
 QT_VERSION
@@ -1332,7 +1337,10 @@ gBufferMaxSize
 .
 width
 =
-NS_MAX
+std
+:
+:
+max
 (
 gBufferMaxSize
 .
@@ -1346,7 +1354,10 @@ gBufferMaxSize
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 gBufferMaxSize
 .

@@ -104,6 +104,11 @@ nspr
 .
 h
 "
+#
+include
+<
+algorithm
+>
 PRLogModuleInfo
 *
 MCD
@@ -376,7 +381,10 @@ aLength
 {
 size
 =
-NS_MIN
+std
+:
+:
+min
 <
 size_t
 >

@@ -168,6 +168,11 @@ nsParserConstants
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -1668,7 +1673,10 @@ tokenizer
 ;
 ac
 =
-NS_MIN
+std
+:
+:
+min
 (
 ac
 aTokenizer

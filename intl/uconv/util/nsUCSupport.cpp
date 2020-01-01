@@ -41,6 +41,11 @@ nsUnicodeEncodeHelper
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 DEFAULT_BUFFER_CAPACITY
 16
@@ -200,7 +205,10 @@ aSrcLength
 int32_t
 bcr
 =
-NS_MIN
+std
+:
+:
+min
 (
 mBufferCapacity
 -

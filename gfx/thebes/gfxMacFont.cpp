@@ -20,6 +20,11 @@ gfxHarfBuzzShaper
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_GRAPHITE
 #
@@ -935,7 +940,10 @@ return
 }
 mAdjustedSize
 =
-NS_MAX
+std
+:
+:
+max
 (
 mStyle
 .

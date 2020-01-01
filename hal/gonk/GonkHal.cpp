@@ -314,6 +314,11 @@ UeventPoller
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 LOG
 (
@@ -2083,7 +2088,10 @@ false
 }
 buf
 [
-NS_MIN
+std
+:
+:
+min
 (
 numRead
 n

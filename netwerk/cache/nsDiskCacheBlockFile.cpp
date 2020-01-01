@@ -28,6 +28,11 @@ FileUtils
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -1726,7 +1731,10 @@ maxPreallocate
 }
 mFileSize
 =
-NS_MIN
+std
+:
+:
+min
 (
 mFileSize
 maxFileSize

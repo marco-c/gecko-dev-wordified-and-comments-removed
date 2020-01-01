@@ -116,6 +116,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsIDOMHTMLFormElement
 .
@@ -2018,7 +2023,10 @@ LIST_UP_TO_DATE
 )
 PopulateSelf
 (
-NS_MIN
+std
+:
+:
+min
 (
 aIndex
 UINT32_MAX

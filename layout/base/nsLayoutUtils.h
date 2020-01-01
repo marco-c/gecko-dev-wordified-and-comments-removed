@@ -156,6 +156,11 @@ include
 <
 limits
 >
+#
+include
+<
+algorithm
+>
 class
 nsBlockFrame
 ;
@@ -1641,7 +1646,10 @@ aContainingBlockHeight
 )
 ;
 return
-NS_MAX
+std
+:
+:
+max
 (
 0
 result
@@ -4030,7 +4038,10 @@ else
 {
 xDistance
 =
-NS_MIN
+std
+:
+:
+min
 (
 abs
 (
@@ -4124,7 +4135,10 @@ else
 {
 yDistance
 =
-NS_MIN
+std
+:
+:
+min
 (
 abs
 (

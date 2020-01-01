@@ -22,6 +22,11 @@ gdkkeysyms
 h
 >
 #
+include
+<
+algorithm
+>
+#
 ifndef
 GDK_Sleep
 #
@@ -1900,7 +1905,10 @@ mod
 modIndex
 ]
 =
-NS_MIN
+std
+:
+:
+min
 (
 modifier
 mod

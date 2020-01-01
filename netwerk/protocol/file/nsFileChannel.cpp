@@ -103,6 +103,11 @@ nsIMIMEService
 .
 h
 "
+#
+include
+<
+algorithm
+>
 class
 nsFileCopyEvent
 :
@@ -312,7 +317,10 @@ break
 int32_t
 num
 =
-NS_MIN
+std
+:
+:
+min
 (
 (
 int32_t

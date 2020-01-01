@@ -201,6 +201,11 @@ Preferences
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_XUL
 #
@@ -591,7 +596,10 @@ _daysFromOldestVisit
 HISTORY_ADDITIONAL_DATE_CONT_NUM
 +
 \
-NS_MIN
+std
+:
+:
+min
 (
 6
 (

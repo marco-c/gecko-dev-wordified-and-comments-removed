@@ -433,6 +433,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 nsIScriptGlobalObject
 .
@@ -2393,7 +2398,10 @@ aMetrics
 .
 height
 =
-NS_MIN
+std
+:
+:
+min
 (
 aPresContext
 -
@@ -2411,7 +2419,10 @@ aMetrics
 .
 width
 =
-NS_MIN
+std
+:
+:
+min
 (
 aPresContext
 -

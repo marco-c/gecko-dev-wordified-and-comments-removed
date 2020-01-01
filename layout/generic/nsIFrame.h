@@ -126,6 +126,11 @@ Attributes
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 ACCESSIBILITY
 #
@@ -3232,7 +3237,10 @@ StartOffset
 )
 {
 return
-NS_MIN
+std
+:
+:
+min
 (
 offset
 secondaryOffset
@@ -3245,7 +3253,10 @@ EndOffset
 )
 {
 return
-NS_MAX
+std
+:
+:
+max
 (
 offset
 secondaryOffset

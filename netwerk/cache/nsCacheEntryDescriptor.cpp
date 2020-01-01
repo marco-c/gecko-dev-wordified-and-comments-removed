@@ -62,6 +62,11 @@ nsThreadUtils
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 kMinDecompressReadBufLen
 1024
@@ -3696,7 +3701,10 @@ count
 uint32_t
 newBufLen
 =
-NS_MAX
+std
+:
+:
+max
 (
 count
 (
@@ -5276,7 +5284,10 @@ mWriteBuffer
 {
 mWriteBufferLen
 =
-NS_MAX
+std
+:
+:
+max
 (
 count
 *

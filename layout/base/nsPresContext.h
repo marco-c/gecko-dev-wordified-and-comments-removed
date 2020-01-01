@@ -127,6 +127,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 gfxRect
 .
@@ -1554,7 +1559,10 @@ aLanguage
 )
 ;
 return
-NS_MAX
+std
+:
+:
+max
 (
 mMinFontSize
 prefs

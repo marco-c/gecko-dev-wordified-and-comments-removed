@@ -36,6 +36,11 @@ nsIServiceManager
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 SNIFFING_BUFFER_SIZE
 512
@@ -489,7 +494,10 @@ Length
 uint32_t
 toRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 SNIFFING_BUFFER_SIZE
 -

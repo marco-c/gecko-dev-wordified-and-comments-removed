@@ -110,6 +110,11 @@ math
 .
 h
 >
+#
+include
+<
+algorithm
+>
 nsAttrValue
 :
 :
@@ -2348,7 +2353,10 @@ negative
 ;
 curIntervalDist
 =
-NS_MAX
+std
+:
+:
+max
 (
 curIntervalDist
 0
@@ -2575,7 +2583,10 @@ negative
 ;
 tmpDist
 =
-NS_MAX
+std
+:
+:
+max
 (
 tmpDist
 0

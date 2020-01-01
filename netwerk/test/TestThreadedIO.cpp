@@ -47,6 +47,11 @@ nsNetUtil
 .
 h
 "
+#
+include
+<
+algorithm
+>
 static
 nsCOMPtr
 <
@@ -674,7 +679,10 @@ aStream
 Read
 (
 buffer
-NS_MIN
+std
+:
+:
+min
 (
 sizeof
 (

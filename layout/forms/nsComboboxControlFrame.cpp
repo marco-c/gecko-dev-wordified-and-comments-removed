@@ -373,6 +373,11 @@ Likely
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -2140,7 +2145,10 @@ kidReflowState
 .
 SetComputedWidth
 (
-NS_MAX
+std
+:
+:
+max
 (
 kidReflowState
 .
@@ -3075,7 +3083,10 @@ GetSize
 nscoord
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 above
 below
@@ -3562,7 +3573,10 @@ nscoord_MAX
 ;
 displayWidth
 =
-NS_MAX
+std
+:
+:
+max
 (
 dropdownContentWidth
 displayWidth

@@ -255,6 +255,11 @@ nsIFrame
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -2900,7 +2905,10 @@ ifdef
 DEBUG
 rootLocation
 =
-NS_MAX
+std
+:
+:
+max
 (
 rootLocation
 j

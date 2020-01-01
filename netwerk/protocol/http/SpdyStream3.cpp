@@ -71,6 +71,11 @@ nsHttpHandler
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 DEBUG
 extern
@@ -6490,7 +6495,10 @@ false
 ;
 dataLength
 =
-NS_MIN
+std
+:
+:
+min
 (
 count
 mChunkSize

@@ -156,6 +156,11 @@ nsCharSeparatedTokenizer
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -7084,7 +7089,10 @@ result
 .
 SetMillis
 (
-NS_MIN
+std
+:
+:
+min
 (
 result
 .
@@ -7208,7 +7216,10 @@ result
 .
 SetMillis
 (
-NS_MIN
+std
+:
+:
+min
 (
 activeDur
 mRepeatDur
@@ -8553,7 +8564,10 @@ GetMillis
 nsSMILTimeValue
 nextMilestone
 =
-NS_MIN
+std
+:
+:
+min
 (
 mCurrentInterval
 -

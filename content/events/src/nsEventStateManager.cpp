@@ -227,6 +227,11 @@ nsIContentViewer
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_XUL
 #

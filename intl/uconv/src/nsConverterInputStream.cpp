@@ -34,6 +34,11 @@ nsReadLine
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 CONVERTER_BUFFER_SIZE
 8192
@@ -988,7 +993,10 @@ srcConsumed
 ;
 srcConsumed
 =
-NS_MAX
+std
+:
+:
+max
 <
 uint32_t
 >

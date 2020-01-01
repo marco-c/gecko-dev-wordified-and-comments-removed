@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 gfxContext
 .
@@ -5569,7 +5574,10 @@ surfaceSize
 .
 width
 =
-NS_MIN
+std
+:
+:
+min
 (
 NS_SVG_OFFSCREEN_MAX_DIMENSION
 surfaceSize
@@ -5581,7 +5589,10 @@ surfaceSize
 .
 height
 =
-NS_MIN
+std
+:
+:
+min
 (
 NS_SVG_OFFSCREEN_MAX_DIMENSION
 surfaceSize

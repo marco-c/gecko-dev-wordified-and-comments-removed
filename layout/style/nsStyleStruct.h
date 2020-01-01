@@ -146,6 +146,11 @@ gfxRect
 .
 h
 "
+#
+include
+<
+algorithm
+>
 class
 nsIFrame
 ;
@@ -2680,7 +2685,10 @@ l
 ?
 0
 :
-NS_MAX
+std
+:
+:
+max
 (
 (
 tpp
@@ -2726,7 +2734,10 @@ l
 0
 )
 ?
-NS_MAX
+std
+:
+:
+max
 (
 (
 tpp
@@ -2755,7 +2766,10 @@ tpp
 )
 :
 \
-NS_MIN
+std
+:
+:
+min
 (
 -
 (

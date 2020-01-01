@@ -40,6 +40,11 @@ nsCRT
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsresult
 nsHttpResponseHead
 :
@@ -1071,7 +1076,10 @@ ageValue
 *
 result
 =
-NS_MAX
+std
+:
+:
+max
 (
 *
 result

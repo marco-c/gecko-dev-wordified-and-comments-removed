@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 gfxPattern
 .
@@ -2969,7 +2974,10 @@ cy
 double
 dMax
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 .

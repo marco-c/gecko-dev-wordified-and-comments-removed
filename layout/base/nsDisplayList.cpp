@@ -257,6 +257,11 @@ StandardInteger
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -3030,7 +3035,10 @@ mPool
 displayListArena
 "
 1024
-NS_MAX
+std
+:
+:
+max
 (
 NS_ALIGNMENT_OF
 (

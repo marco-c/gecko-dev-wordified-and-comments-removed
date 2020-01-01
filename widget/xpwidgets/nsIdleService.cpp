@@ -82,6 +82,11 @@ Telemetry
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 ANDROID
 #
@@ -1935,7 +1940,10 @@ false
 }
 mDeltaToNextIdleSwitchInS
 =
-NS_MIN
+std
+:
+:
+min
 (
 mDeltaToNextIdleSwitchInS
 curListener
@@ -2233,7 +2241,10 @@ NS_OK
 *
 idleTime
 =
-NS_MIN
+std
+:
+:
+min
 (
 timeSinceResetInMS
 polledIdleTimeMS
@@ -2585,7 +2596,10 @@ else
 {
 mDeltaToNextIdleSwitchInS
 =
-NS_MIN
+std
+:
+:
+min
 (
 mDeltaToNextIdleSwitchInS
 curListener

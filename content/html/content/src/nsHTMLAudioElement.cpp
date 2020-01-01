@@ -75,6 +75,11 @@ AudioChannelCommon
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -621,7 +626,10 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 uint32_t
 writeLen
 =
-NS_MIN
+std
+:
+:
+min
 (
 mAudioStream
 -

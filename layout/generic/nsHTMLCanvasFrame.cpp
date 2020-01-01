@@ -79,6 +79,11 @@ gfxContext
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -887,7 +892,10 @@ aMetrics
 .
 height
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 aMetrics
@@ -1611,7 +1619,10 @@ top
 ;
 offset
 =
-NS_MAX
+std
+:
+:
+max
 (
 0
 offset

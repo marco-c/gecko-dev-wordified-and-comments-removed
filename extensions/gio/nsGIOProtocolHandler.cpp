@@ -89,6 +89,11 @@ gio
 h
 >
 #
+include
+<
+algorithm
+>
+#
 define
 MOZ_GIO_SCHEME
 "
@@ -1638,7 +1643,10 @@ bufLen
 uint32_t
 n
 =
-NS_MIN
+std
+:
+:
+min
 (
 bufLen
 aCount

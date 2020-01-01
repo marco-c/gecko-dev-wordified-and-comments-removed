@@ -121,6 +121,11 @@ Likely
 .
 h
 "
+#
+include
+<
+algorithm
+>
 static
 const
 char
@@ -1176,7 +1181,10 @@ rv
 NS_CreateJSArgv
 (
 cx
-NS_MAX
+std
+:
+:
+max
 (
 argc
 2u

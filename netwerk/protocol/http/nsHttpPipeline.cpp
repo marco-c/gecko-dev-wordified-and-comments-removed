@@ -76,6 +76,11 @@ nsComponentManagerUtils
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 DEBUG
 #
@@ -3312,7 +3317,10 @@ this
 (
 uint32_t
 )
-NS_MIN
+std
+:
+:
+min
 (
 avail
 (

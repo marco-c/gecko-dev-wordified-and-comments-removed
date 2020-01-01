@@ -33,6 +33,11 @@ math
 .
 h
 >
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -1605,7 +1610,10 @@ result
 .
 SetLength
 (
-NS_MAX
+std
+:
+:
+max
 (
 start
 .

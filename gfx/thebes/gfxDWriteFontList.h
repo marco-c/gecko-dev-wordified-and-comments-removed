@@ -48,6 +48,11 @@ gfxPlatform
 .
 h
 "
+#
+include
+<
+algorithm
+>
 class
 gfxDWriteFontEntry
 ;
@@ -245,7 +250,10 @@ GetWeight
 ;
 weight
 =
-NS_MAX
+std
+:
+:
+max
 <
 uint16_t
 >
@@ -256,7 +264,10 @@ weight
 ;
 weight
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint16_t
 >

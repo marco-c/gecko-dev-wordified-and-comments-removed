@@ -43,6 +43,11 @@ stdlib
 h
 >
 #
+include
+<
+algorithm
+>
+#
 ifdef
 WIN32
 #
@@ -846,7 +851,10 @@ dest
 int
 firstlen
 =
-NS_MIN
+std
+:
+:
+min
 <
 size_t
 >

@@ -64,6 +64,11 @@ nsTextFragmentImpl
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 TEXTFRAG_WHITE_AFTER_NEWLINE
 50
@@ -615,7 +620,10 @@ i
 int32_t
 alignLen
 =
-NS_MIN
+std
+:
+:
+min
 (
 len
 int32_t

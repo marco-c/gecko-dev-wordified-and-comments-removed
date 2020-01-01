@@ -58,6 +58,11 @@ SVGNumberListBinding
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -768,7 +773,10 @@ nullptr
 }
 index
 =
-NS_MIN
+std
+:
+:
+min
 (
 index
 LengthNoFlush

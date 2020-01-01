@@ -171,6 +171,11 @@ nsHostObjectProtocolHandler
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 PR_LOGGING
 PRLogModuleInfo
@@ -5385,7 +5390,10 @@ EnsureSizeInitialized
 )
 ;
 return
-NS_MAX
+std
+:
+:
+max
 (
 aOffset
 mSize

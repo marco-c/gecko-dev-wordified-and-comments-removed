@@ -224,6 +224,11 @@ gfxPlatform
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -2413,7 +2418,10 @@ maxWidth
 )
 scale
 =
-NS_MIN
+std
+:
+:
+min
 (
 scale
 float
@@ -2436,7 +2444,10 @@ maxHeight
 )
 scale
 =
-NS_MIN
+std
+:
+:
+min
 (
 scale
 float

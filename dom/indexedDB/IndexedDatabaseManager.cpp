@@ -296,6 +296,11 @@ IndexedDatabaseInlines
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 DEFAULT_THREAD_TIMEOUT_MS
 30000
@@ -4275,7 +4280,10 @@ GetIndexedDBQuotaMB
 return
 uint32_t
 (
-NS_MAX
+std
+:
+:
+max
 (
 gIndexedDBQuotaMB
 0

@@ -27,6 +27,11 @@ txXPathTreeWalker
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 NS_BUILD_REFCNT_LOGGING
 #
@@ -1930,7 +1935,10 @@ true
 int32_t
 newLength
 =
-NS_MAX
+std
+:
+:
+max
 (
 oldLength
 kTxNodeSetMinSize

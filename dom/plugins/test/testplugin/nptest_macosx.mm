@@ -338,6 +338,11 @@ CoreServices
 .
 h
 >
+#
+include
+<
+algorithm
+>
 using
 namespace
 std
@@ -1106,7 +1111,10 @@ CGRectMake
 10
 .
 0
-NS_MAX
+std
+:
+:
+max
 (
 0
 .
@@ -1117,7 +1125,10 @@ windowWidth
 .
 0
 )
-NS_MAX
+std
+:
+:
+max
 (
 0
 .

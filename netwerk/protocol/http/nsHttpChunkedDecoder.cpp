@@ -12,6 +12,11 @@ nsHttp
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsresult
 nsHttpChunkedDecoder
 :
@@ -70,7 +75,10 @@ mChunkRemaining
 uint32_t
 amt
 =
-NS_MIN
+std
+:
+:
+min
 (
 mChunkRemaining
 count

@@ -23,6 +23,11 @@ WebGLRenderingContextBinding
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -416,7 +421,10 @@ expected
 .
 mWidth
 =
-NS_MAX
+std
+:
+:
+max
 (
 1
 expected
@@ -431,7 +439,10 @@ expected
 .
 mHeight
 =
-NS_MAX
+std
+:
+:
+max
 (
 1
 expected
@@ -775,7 +786,10 @@ it
 WebGLsizei
 size
 =
-NS_MAX
+std
+:
+:
+max
 (
 imageInfo
 .

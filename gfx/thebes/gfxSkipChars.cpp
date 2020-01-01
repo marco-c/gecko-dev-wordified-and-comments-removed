@@ -13,6 +13,11 @@ stdlib
 h
 >
 #
+include
+<
+algorithm
+>
+#
 define
 SHORTCUT_FREQUENCY
 256
@@ -877,7 +882,10 @@ for
 uint32_t
 chars
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

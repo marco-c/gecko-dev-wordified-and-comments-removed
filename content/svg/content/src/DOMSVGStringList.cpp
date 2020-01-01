@@ -33,6 +33,11 @@ nsSVGAttrTearoffTable
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -390,7 +395,10 @@ NS_ERROR_DOM_SYNTAX_ERR
 }
 index
 =
-NS_MIN
+std
+:
+:
+min
 (
 index
 InternalList

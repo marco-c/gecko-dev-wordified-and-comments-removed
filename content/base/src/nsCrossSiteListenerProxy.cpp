@@ -165,6 +165,11 @@ Preferences
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -3938,7 +3943,10 @@ iter
 ;
 age
 =
-NS_MIN
+std
+:
+:
+min
 (
 age
 86400U

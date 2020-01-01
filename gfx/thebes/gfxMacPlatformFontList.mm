@@ -440,6 +440,11 @@ Carbon
 h
 >
 #
+include
+<
+algorithm
+>
+#
 import
 <
 AppKit
@@ -4906,7 +4911,10 @@ qdname
 0
 ]
 =
-NS_MAX
+std
+:
+:
+max
 <
 size_t
 >

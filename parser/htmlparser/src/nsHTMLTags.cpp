@@ -58,6 +58,11 @@ HashFunctions
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -4177,7 +4182,10 @@ i
 ;
 maxTagNameLength
 =
-NS_MAX
+std
+:
+:
+max
 (
 len
 maxTagNameLength

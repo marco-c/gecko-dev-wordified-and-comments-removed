@@ -37,6 +37,11 @@ gfx2DGlue
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -825,7 +830,10 @@ else
 int
 lineSize
 =
-NS_MIN
+std
+:
+:
+min
 (
 aDestStride
 aSrcStride

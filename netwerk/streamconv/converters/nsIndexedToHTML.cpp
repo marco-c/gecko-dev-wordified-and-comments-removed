@@ -110,6 +110,11 @@ nsIChromeRegistry
 .
 h
 "
+#
+include
+<
+algorithm
+>
 NS_IMPL_ISUPPORTS4
 (
 nsIndexedToHTML
@@ -5834,7 +5839,10 @@ description
 .
 Truncate
 (
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

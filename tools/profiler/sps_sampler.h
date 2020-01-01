@@ -61,6 +61,11 @@ nsAlgorithm
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_WIDGET_QT
 #
@@ -1488,7 +1493,10 @@ stackSize
 const
 {
 return
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

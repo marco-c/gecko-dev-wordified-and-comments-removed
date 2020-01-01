@@ -44,6 +44,11 @@ utils
 .
 h
 >
+#
+include
+<
+algorithm
+>
 }
 #
 include
@@ -1877,7 +1882,10 @@ bufLen
 uint32_t
 n
 =
-NS_MIN
+std
+:
+:
+min
 (
 bufLen
 aCount

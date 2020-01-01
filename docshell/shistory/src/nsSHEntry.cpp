@@ -89,6 +89,11 @@ nsIStructuredCloneContainer
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 dom
 =
@@ -2026,7 +2031,10 @@ Count
 int32_t
 start
 =
-NS_MIN
+std
+:
+:
+min
 (
 mChildren
 .

@@ -121,6 +121,11 @@ nsContentList
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsIFrame
 *
 NS_NewProgressFrame
@@ -885,7 +890,10 @@ TopBottom
 ;
 size
 =
-NS_MAX
+std
+:
+:
+max
 (
 size
 0
@@ -922,7 +930,10 @@ LeftRight
 ;
 size
 =
-NS_MAX
+std
+:
+:
+max
 (
 size
 0

@@ -40,6 +40,11 @@ nsError
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {
@@ -292,7 +297,10 @@ iconStateReadPixels
 :
 bytesToRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 aCount
 mPixBytesTotal

@@ -6,6 +6,11 @@ TestCommon
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 WIN32
 #
@@ -212,7 +217,10 @@ aLength
 {
 size
 =
-NS_MIN
+std
+:
+:
+min
 <
 uint32_t
 >

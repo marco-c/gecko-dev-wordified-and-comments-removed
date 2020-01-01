@@ -184,6 +184,11 @@ LazyIdleThread
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -722,7 +727,10 @@ mStreamRead
 *
 nBytesRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 bytesLeft
 nBytesToRead
@@ -3648,7 +3656,10 @@ textLen
 (
 int
 )
-NS_MIN
+std
+:
+:
+min
 (
 aText
 .

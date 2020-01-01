@@ -227,6 +227,11 @@ Element
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 DEBUG
 #
@@ -3540,7 +3545,10 @@ aData
 currentLine
 +
 =
-NS_MAX
+std
+:
+:
+max
 (
 GetCoord
 (
@@ -3753,7 +3761,10 @@ aData
 currentLine
 +
 =
-NS_MAX
+std
+:
+:
+max
 (
 GetCoord
 (

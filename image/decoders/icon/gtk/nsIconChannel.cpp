@@ -22,6 +22,11 @@ DebugOnly
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_ENABLE_GNOMEUI
 extern
@@ -2774,7 +2779,10 @@ height
 gint
 size
 =
-NS_MIN
+std
+:
+:
+min
 (
 width
 height

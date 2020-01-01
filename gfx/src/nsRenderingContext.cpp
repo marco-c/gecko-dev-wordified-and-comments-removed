@@ -20,6 +20,11 @@ nsRegion
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 FROM_TWIPS
 (
@@ -210,7 +215,10 @@ aMaxChunkLength
 )
 {
 return
-NS_MIN
+std
+:
+:
+min
 (
 aLength
 aMaxChunkLength
@@ -1811,7 +1819,10 @@ return
 1
 ;
 return
-NS_MIN
+std
+:
+:
+min
 (
 mFontMetrics
 -

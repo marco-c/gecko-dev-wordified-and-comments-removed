@@ -210,6 +210,11 @@ sampler
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -9031,7 +9036,10 @@ GetIsPaletted
 int32_t
 width
 =
-NS_MIN
+std
+:
+:
+min
 (
 aSrcRect
 .
@@ -9048,7 +9056,10 @@ x
 int32_t
 height
 =
-NS_MIN
+std
+:
+:
+min
 (
 aSrcRect
 .
@@ -12460,7 +12471,10 @@ NS_OK
 uint32_t
 bytesToDecode
 =
-NS_MIN
+std
+:
+:
+min
 (
 aMaxBytes
 mSourceData

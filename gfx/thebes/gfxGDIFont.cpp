@@ -27,6 +27,11 @@ gfxHarfBuzzShaper
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifdef
 MOZ_GRAPHITE
 #
@@ -1861,7 +1866,10 @@ mMetrics
 >
 aveCharWidth
 =
-NS_MAX
+std
+:
+:
+max
 <
 gfxFloat
 >

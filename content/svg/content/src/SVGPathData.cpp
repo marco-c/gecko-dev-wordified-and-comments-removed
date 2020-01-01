@@ -68,6 +68,11 @@ SVGPathSegUtils
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -943,7 +948,10 @@ corrupt
 )
 ;
 return
-NS_MAX
+std
+:
+:
+max
 (
 0U
 segIndex

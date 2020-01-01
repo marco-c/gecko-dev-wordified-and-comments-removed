@@ -262,6 +262,11 @@ zlib
 h
 "
 #
+include
+<
+algorithm
+>
+#
 define
 CLOSE_GOING_AWAY
 1001
@@ -389,7 +394,10 @@ Now
 ;
 mNextDelay
 =
-NS_MIN
+std
+:
+:
+min
 <
 double
 >
@@ -14784,7 +14792,10 @@ NS_BASE_STREAM_CLOSED
 ;
 maxRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 2048U
 aCount
@@ -14920,7 +14931,10 @@ NS_BASE_STREAM_CLOSED
 ;
 maxRead
 =
-NS_MIN
+std
+:
+:
+min
 (
 2048U
 aCount

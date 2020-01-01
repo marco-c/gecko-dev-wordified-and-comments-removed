@@ -25,6 +25,11 @@ prclist
 .
 h
 "
+#
+include
+<
+algorithm
+>
 class
 nsScannerIterator
 ;
@@ -1362,7 +1367,10 @@ n
 difference_type
 one_hop
 =
-NS_MIN
+std
+:
+:
+min
 (
 n
 size_forward
@@ -1424,7 +1432,10 @@ normalize_backward
 difference_type
 one_hop
 =
-NS_MAX
+std
+:
+:
+max
 (
 n
 -

@@ -6046,7 +6046,10 @@ Length
   
 slice
 =
-NS_MIN
+std
+:
+:
+min
 (
 oldLen
 slice
@@ -30631,7 +30634,10 @@ CGGeneric
 unsigned
 argcount
 =
-NS_MIN
+std
+:
+:
+min
 (
 argc
 %

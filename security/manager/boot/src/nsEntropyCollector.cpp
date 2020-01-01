@@ -19,6 +19,11 @@ nsAlgorithm
 .
 h
 "
+#
+include
+<
+algorithm
+>
 nsEntropyCollector
 :
 :
@@ -126,7 +131,10 @@ entropy_buffer_size
 int32_t
 bytes_wanted
 =
-NS_MIN
+std
+:
+:
+min
 (
 bufLen
 int32_t
@@ -137,7 +145,10 @@ entropy_buffer_size
 ;
 mBytesCollected
 =
-NS_MIN
+std
+:
+:
+min
 (
 int32_t
 (
@@ -167,7 +178,10 @@ const
 int32_t
 this_time
 =
-NS_MIN
+std
+:
+:
+min
 (
 space_to_end
 bytes_wanted

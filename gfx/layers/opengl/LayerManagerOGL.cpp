@@ -18,6 +18,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 mozilla
 /
@@ -729,7 +734,10 @@ numFramesDrawnInWindow
 ;
 earliestFrameInWindow
 =
-NS_MIN
+std
+:
+:
+min
 (
 earliestFrameInWindow
 frame

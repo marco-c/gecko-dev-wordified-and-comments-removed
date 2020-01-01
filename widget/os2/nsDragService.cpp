@@ -124,6 +124,11 @@ nsISelection
 h
 "
 #
+include
+<
+algorithm
+>
+#
 ifndef
 DC_PREPAREITEM
 #
@@ -2804,7 +2809,10 @@ Length
 uint32_t
 strLth
 =
-NS_MIN
+std
+:
+:
+min
 (
 (
 int

@@ -65,6 +65,11 @@ SVGPointListBinding
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 {
 using
@@ -953,7 +958,10 @@ nullptr
 }
 aIndex
 =
-NS_MIN
+std
+:
+:
+min
 (
 aIndex
 LengthNoFlush

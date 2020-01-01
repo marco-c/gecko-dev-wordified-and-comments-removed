@@ -62,6 +62,11 @@ nsError
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 {
 void
@@ -746,7 +751,10 @@ nullptr
 }
 index
 =
-NS_MIN
+std
+:
+:
+min
 (
 index
 LengthNoFlush

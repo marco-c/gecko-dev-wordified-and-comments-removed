@@ -163,6 +163,11 @@ Element
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
@@ -974,7 +979,10 @@ const
 uint32_t
 length
 =
-NS_MIN
+std
+:
+:
+min
 (
 aXPLength
 text
@@ -1294,7 +1302,10 @@ return
 uint32_t
 length
 =
-NS_MIN
+std
+:
+:
+min
 (
 text
 -
@@ -5835,7 +5846,10 @@ node
 *
 aOffset
 =
-NS_MAX
+std
+:
+:
+max
 (
 offset
 0
