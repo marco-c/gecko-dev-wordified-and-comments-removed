@@ -7761,13 +7761,10 @@ FloatRegister
 dest
 )
 {
-ma_vstr
+ma_vmov
 (
 src
-Operand
-(
 dest
-)
 )
 ;
 }
