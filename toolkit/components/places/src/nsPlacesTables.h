@@ -548,6 +548,11 @@ INTEGER
 "
 \
 "
+guid
+TEXT
+"
+\
+"
 )
 "
 \
