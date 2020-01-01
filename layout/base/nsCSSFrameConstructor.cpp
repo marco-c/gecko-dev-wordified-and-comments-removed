@@ -33508,6 +33508,11 @@ break
 SetFrameIsSpecial
 (
 parentFrame
+-
+>
+GetFirstContinuation
+(
+)
 newInlineSibling
 )
 ;
