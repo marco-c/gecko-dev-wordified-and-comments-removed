@@ -175,6 +175,14 @@ target
 )
 CSS_PSEUDO_CLASS
 (
+indeterminate
+"
+:
+indeterminate
+"
+)
+CSS_PSEUDO_CLASS
+(
 firstChild
 "
 :
