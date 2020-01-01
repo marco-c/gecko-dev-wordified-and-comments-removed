@@ -220,7 +220,8 @@ attributes
 .
 if
 (
-mIsExpired
+!
+mGeckoAccessible
 )
 return
 [

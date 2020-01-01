@@ -220,7 +220,8 @@ attributes
 .
 if
 (
-mIsExpired
+!
+mGeckoAccessible
 )
 return
 [
@@ -323,7 +324,8 @@ attributes
 .
 if
 (
-mIsExpired
+!
+mGeckoAccessible
 )
 return
 [

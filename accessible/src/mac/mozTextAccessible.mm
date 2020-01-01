@@ -374,7 +374,8 @@ BOOL
 accessibilityIsIgnored
 {
 return
-mIsExpired
+!
+mGeckoAccessible
 ;
 }
 -

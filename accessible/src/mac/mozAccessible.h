@@ -106,9 +106,6 @@ mozAccessible
 *
 mParent
 ;
-BOOL
-mIsExpired
-;
 mozilla
 :
 :

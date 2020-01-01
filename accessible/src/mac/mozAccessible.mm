@@ -522,10 +522,6 @@ mGeckoAccessible
 =
 geckoAccessible
 ;
-mIsExpired
-=
-NO
-;
 mRole
 =
 geckoAccessible
@@ -598,7 +594,8 @@ expired
 elements
 .
 return
-mIsExpired
+!
+mGeckoAccessible
 |
 |
 [
@@ -643,7 +640,8 @@ attributes
 .
 if
 (
-mIsExpired
+!
+mGeckoAccessible
 )
 return
 [
@@ -737,7 +735,8 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
 if
 (
-mIsExpired
+!
+mGeckoAccessible
 )
 return
 nil
@@ -1235,7 +1234,8 @@ point
 {
 if
 (
-mIsExpired
+!
+mGeckoAccessible
 )
 return
 nil
@@ -1450,7 +1450,8 @@ accessibilityFocusedUIElement
 {
 if
 (
-mIsExpired
+!
+mGeckoAccessible
 )
 return
 nil
@@ -2178,7 +2179,8 @@ role
 {
 if
 (
-mIsExpired
+!
+mGeckoAccessible
 )
 return
 nil
@@ -2824,6 +2826,10 @@ canBeFocused
 {
 return
 mGeckoAccessible
+&
+&
+(
+mGeckoAccessible
 -
 >
 InteractiveState
@@ -2834,6 +2840,7 @@ states
 :
 :
 FOCUSABLE
+)
 ;
 }
 -
@@ -2842,6 +2849,14 @@ BOOL
 )
 focus
 {
+if
+(
+!
+mGeckoAccessible
+)
+return
+NO
+;
 nsresult
 rv
 =
@@ -2866,6 +2881,10 @@ BOOL
 isEnabled
 {
 return
+mGeckoAccessible
+&
+&
+(
 (
 mGeckoAccessible
 -
@@ -2882,6 +2901,7 @@ UNAVAILABLE
 =
 =
 0
+)
 ;
 }
 /
@@ -3155,10 +3175,6 @@ self
 invalidateChildren
 ]
 ;
-mIsExpired
-=
-YES
-;
 mGeckoAccessible
 =
 nsnull
@@ -3173,7 +3189,8 @@ BOOL
 isExpired
 {
 return
-mIsExpired
+!
+mGeckoAccessible
 ;
 }
 #
