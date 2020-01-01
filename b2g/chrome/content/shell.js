@@ -455,6 +455,10 @@ shell_reportCrash
 {
 let
 crashID
+;
+try
+{
+crashID
 =
 Cc
 [
@@ -482,6 +486,13 @@ nsIXULRuntime
 .
 lastRunCrashID
 ;
+}
+catch
+(
+e
+)
+{
+}
 if
 (
 Services
