@@ -617,9 +617,16 @@ NS_FAILED
 rv
 )
 )
+{
+*
+_objp
+=
+NULL
+;
 return
 NS_OK
 ;
+}
 *
 _retval
 =
