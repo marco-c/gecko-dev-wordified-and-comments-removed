@@ -7565,13 +7565,10 @@ ifdef
 JSGC_INCREMENTAL
 if
 (
+IsIncrementalGCInProgress
+(
 rt
--
->
-gcIncrementalState
-!
-=
-NO_INCREMENTAL
+)
 &
 &
 rt
