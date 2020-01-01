@@ -236,9 +236,7 @@ duplicateTab
 (
 {
 }
-getBrowser
-(
-)
+gBrowser
 .
 selectedTab
 )
@@ -475,9 +473,7 @@ ss
 .
 deleteTabValue
 (
-getBrowser
-(
-)
+gBrowser
 .
 selectedTab
 Date

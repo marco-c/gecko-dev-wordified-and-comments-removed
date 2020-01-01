@@ -53,13 +53,6 @@ Ci
 nsIObserverService
 )
 ;
-let
-tabbrowser
-=
-getBrowser
-(
-)
-;
 waitForExplicitFinish
 (
 )
@@ -92,7 +85,7 @@ now
 var
 tab
 =
-tabbrowser
+gBrowser
 .
 addTab
 (
@@ -349,7 +342,7 @@ value
 "
 )
 ;
-tabbrowser
+gBrowser
 .
 removeTab
 (

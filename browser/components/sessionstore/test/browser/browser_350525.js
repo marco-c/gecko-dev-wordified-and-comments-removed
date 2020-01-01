@@ -33,9 +33,7 @@ false
 let
 tabbrowser
 =
-getBrowser
-(
-)
+gBrowser
 ;
 waitForExplicitFinish
 (

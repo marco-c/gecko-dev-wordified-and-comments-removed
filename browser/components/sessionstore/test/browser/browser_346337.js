@@ -508,9 +508,7 @@ selected
 let
 tabbrowser
 =
-getBrowser
-(
-)
+gBrowser
 ;
 waitForExplicitFinish
 (
