@@ -2617,6 +2617,15 @@ reportCrashes
 )
 ;
 }
+Services
+.
+prefs
+.
+savePrefFile
+(
+null
+)
+;
 }
 )
 ;
