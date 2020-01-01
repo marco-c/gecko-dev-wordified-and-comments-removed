@@ -455,6 +455,10 @@ test_bug336682
 .
 js
 \
+test_bug350471
+.
+xul
+\
 test_bug367781
 .
 html

@@ -7580,6 +7580,16 @@ pref
 "
 mousewheel
 .
+enable_pixel_scrolling
+"
+true
+)
+;
+pref
+(
+"
+mousewheel
+.
 withnokey
 .
 action

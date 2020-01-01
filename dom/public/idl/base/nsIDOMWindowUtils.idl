@@ -1116,6 +1116,8 @@ are
 *
 DOMMouseScroll
 *
+MozMousePixelScroll
+*
 *
 Events
 are
@@ -1212,12 +1214,9 @@ pixels
 *
 depending
 on
-whether
-kIsPixels
-is
-set
-in
-aScrollFlags
+the
+event
+type
 )
 *
 param

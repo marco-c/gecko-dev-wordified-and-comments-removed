@@ -965,6 +965,14 @@ NS_MOUSE_SCROLL_START
 )
 #
 define
+NS_MOUSE_PIXEL_SCROLL
+(
+NS_MOUSE_SCROLL_START
++
+1
+)
+#
+define
 NS_SCROLLPORT_START
 1700
 #
@@ -2804,7 +2812,7 @@ kIsHorizontal
 <
 <
 2
-kIsPixels
+kHasPixels
 =
 1
 <

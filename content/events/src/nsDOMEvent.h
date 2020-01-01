@@ -167,6 +167,7 @@ eDOMEvents_DOMFocusOut
 eDOMEvents_pageshow
 eDOMEvents_pagehide
 eDOMEvents_DOMMouseScroll
+eDOMEvents_MozMousePixelScroll
 eDOMEvents_offline
 eDOMEvents_online
 eDOMEvents_copy
