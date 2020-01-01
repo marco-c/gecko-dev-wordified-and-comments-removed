@@ -2074,6 +2074,18 @@ onCreate
 "
 )
 ;
+if
+(
+Build
+.
+VERSION
+.
+SDK_INT
+>
+=
+9
+)
+{
 StrictMode
 .
 setThreadPolicy
@@ -2130,6 +2142,7 @@ build
 )
 )
 ;
+}
 super
 .
 onCreate
