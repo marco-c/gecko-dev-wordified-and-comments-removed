@@ -59,8 +59,7 @@ automation
 from
 automationutils
 import
-addCommonOptions
-processLeakLog
+*
 from
 optparse
 import
@@ -811,6 +810,24 @@ options
 utilityPath
 )
   
+debuggerInfo
+=
+getDebuggerInfo
+(
+oldcwd
+options
+.
+debugger
+options
+.
+debuggerArgs
+     
+options
+.
+debuggerInteractive
+)
+;
+  
 profileDir
 =
 None
@@ -1059,6 +1076,10 @@ xrePath
 options
 .
 xrePath
+                               
+debuggerInfo
+=
+debuggerInfo
                                
 symbolsPath
 =
