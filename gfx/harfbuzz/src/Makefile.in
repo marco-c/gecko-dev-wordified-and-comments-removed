@@ -554,6 +554,8 @@ DHAVE_OT
 1
 -
 DHB_NO_MT
+-
+DHB_NO_UNICODE_FUNCS
 #
 Cancel
 the
