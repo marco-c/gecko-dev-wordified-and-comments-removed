@@ -142,9 +142,9 @@ push
 r4
 lr
 }
-ldr
+adr
 r12
-_bifilter4_coeff_
+bifilter4_coeff
 ldr
 r4
 [
@@ -926,9 +926,6 @@ filter_coeff
 .
 .
 .
-_bifilter4_coeff_
-DCD
-bifilter4_coeff
 bifilter4_coeff
 DCD
 128

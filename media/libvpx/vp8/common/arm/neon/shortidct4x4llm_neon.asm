@@ -359,9 +359,9 @@ IDCT
 vp8_short_idct4x4llm_neon
 |
 PROC
-ldr
+adr
 r12
-_idct_coeff_
+idct_coeff
 vld1
 .
 16
@@ -843,9 +843,6 @@ filter_coeff
 .
 .
 .
-_idct_coeff_
-DCD
-idct_coeff
 idct_coeff
 DCD
 0x4e7b4e7b

@@ -249,7 +249,7 @@ sp
 ]
 ;
 stride
-ldr
+adr
 r12
 _CONSTANTS_
 vmul
@@ -681,7 +681,7 @@ vp8_dequant_idct_add_neon
 Constant
 Pool
 _CONSTANTS_
-DCD
+EQU
 cospi8sqrt2minus1
 cospi8sqrt2minus1
 DCD

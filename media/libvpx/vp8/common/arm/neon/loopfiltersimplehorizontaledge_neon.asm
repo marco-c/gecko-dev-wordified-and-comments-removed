@@ -212,9 +212,9 @@ down
 by
 2
 lines
-ldr
+adr
 r12
-_lfhy_coeff_
+lfhy_coeff
 vld1
 .
 u8
@@ -967,9 +967,6 @@ filter_coeff
 .
 .
 .
-_lfhy_coeff_
-DCD
-lfhy_coeff
 lfhy_coeff
 DCD
 0x80808080

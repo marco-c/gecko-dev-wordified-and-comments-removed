@@ -147,9 +147,9 @@ r4
 r5
 lr
 }
-ldr
+adrl
 r12
-_filter8_coeff_
+filter8_coeff
 ldr
 r4
 [
@@ -3586,9 +3586,6 @@ filter_coeff
 .
 .
 .
-_filter8_coeff_
-DCD
-filter8_coeff
 filter8_coeff
 DCD
 0

@@ -336,7 +336,7 @@ d31
 [
 r12
 ]
-ldr
+adr
 r2
 _CONSTANTS_
 ldrh
@@ -1392,7 +1392,7 @@ idct_dequant_dc_full_2x_neon
 Constant
 Pool
 _CONSTANTS_
-DCD
+EQU
 cospi8sqrt2minus1
 cospi8sqrt2minus1
 DCD

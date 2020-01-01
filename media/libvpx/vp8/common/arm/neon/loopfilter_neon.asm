@@ -2721,9 +2721,9 @@ q3
 vp8_loop_filter_neon
 |
 PROC
-ldr
+adr
 r12
-_lf_coeff_
+lf_coeff
 ;
 vp8_filter_mask
 vabd
@@ -3380,9 +3380,6 @@ AREA
 loopfilter_dat
 DATA
 READONLY
-_lf_coeff_
-DCD
-lf_coeff
 lf_coeff
 DCD
 0x80808080

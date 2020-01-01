@@ -144,9 +144,9 @@ r4
 r5
 lr
 }
-ldr
+adr
 r12
-_bifilter16_coeff_
+bifilter16_coeff
 ldr
 r4
 [
@@ -2420,9 +2420,6 @@ filter_coeff
 .
 .
 .
-_bifilter16_coeff_
-DCD
-bifilter16_coeff
 bifilter16_coeff
 DCD
 128

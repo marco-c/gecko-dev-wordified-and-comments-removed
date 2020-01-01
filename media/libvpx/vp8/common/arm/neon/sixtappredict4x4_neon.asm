@@ -145,9 +145,9 @@ push
 r4
 lr
 }
-ldr
+adrl
 r12
-_filter4_coeff_
+filter4_coeff
 ldr
 r4
 [
@@ -3361,9 +3361,6 @@ filter_coeff
 .
 .
 .
-_filter4_coeff_
-DCD
-filter4_coeff
 filter4_coeff
 DCD
 0

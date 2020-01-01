@@ -295,9 +295,9 @@ d9
 r0
 ]
 r1
-ldr
+adr
 r12
-_vlfy_coeff_
+vlfy_coeff
 vld4
 .
 8
@@ -1617,9 +1617,6 @@ filter_coeff
 .
 .
 .
-_vlfy_coeff_
-DCD
-vlfy_coeff
 vlfy_coeff
 DCD
 0x80808080

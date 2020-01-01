@@ -322,9 +322,9 @@ first
 -
 pass
 filter
-ldr
+adr
 r12
-_filter8_coeff_
+filter8_coeff
 sub
 r0
 r0
@@ -796,9 +796,9 @@ r3
 0
 beq
 skip_secondpass_filter
-ldr
+adr
 r12
-_filter8_coeff_
+filter8_coeff
 add
 lr
 r12
@@ -1466,9 +1466,6 @@ filter_coeff
 .
 .
 .
-_filter8_coeff_
-DCD
-filter8_coeff
 filter8_coeff
 DCD
 0x00000000
