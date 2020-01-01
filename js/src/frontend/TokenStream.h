@@ -60,13 +60,6 @@ h
 #
 include
 "
-jsversion
-.
-h
-"
-#
-include
-"
 js
 /
 Vector

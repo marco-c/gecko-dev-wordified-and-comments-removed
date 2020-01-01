@@ -38,10 +38,10 @@ edit
 /
 #
 ifndef
-_JS_CONFDEFS_H_
+js_confdefs_h
 #
 define
-_JS_CONFDEFS_H_
+js_confdefs_h
 ALLDEFINES
 #
 include
@@ -56,6 +56,6 @@ h
 endif
 /
 *
-_JS_CONFDEFS_H_
+js_confdefs_h
 *
 /

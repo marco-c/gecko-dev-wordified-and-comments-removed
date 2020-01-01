@@ -106,10 +106,10 @@ MPL
 /
 #
 ifndef
-js_config_h___
+js_config_h
 #
 define
-js_config_h___
+js_config_h
 /
 *
 Definitions
@@ -332,6 +332,6 @@ MOZJS_MINOR_VERSION
 endif
 /
 *
-js_config_h___
+js_config_h
 *
 /

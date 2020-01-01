@@ -12,13 +12,6 @@ jsprototypes
 h
 "
 #
-include
-"
-jsversion
-.
-h
-"
-#
 define
 FOR_EACH_COMMON_PROPERTYNAME
 (

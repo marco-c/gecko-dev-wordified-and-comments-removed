@@ -142,13 +142,6 @@ h
 #
 include
 "
-jsversion
-.
-h
-"
-#
-include
-"
 builtin
 /
 RegExp
