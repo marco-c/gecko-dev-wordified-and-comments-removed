@@ -18623,15 +18623,9 @@ after_start
 0
 )
 ;
-return
-sheetFrame
-.
-contentWindow
-;
 }
 else
 {
-return
 window
 .
 openDialog
