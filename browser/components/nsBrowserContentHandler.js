@@ -2733,7 +2733,7 @@ overridePage
 "
 ;
 var
-startpage
+startPage
 =
 "
 "
@@ -2810,6 +2810,15 @@ catch
 e
 )
 {
+Components
+.
+utils
+.
+reportError
+(
+e
+)
+;
 }
 if
 (
