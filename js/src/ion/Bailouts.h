@@ -489,6 +489,14 @@ CachedShapeGuardFailure
 (
 )
 ;
+uint32_t
+FinishBailoutToBaseline
+(
+BaselineBailoutInfo
+*
+bailoutInfo
+)
+;
 }
 }
 #
