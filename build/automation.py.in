@@ -5845,7 +5845,6 @@ killPid
 (
 processPID
 )
-if
 checkForCrashes
 (
 os
@@ -5861,11 +5860,6 @@ minidumps
 )
 symbolsPath
 )
-:
-status
-=
--
-1
 if
 os
 .

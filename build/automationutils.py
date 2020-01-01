@@ -450,11 +450,9 @@ log
 info
 (
 "
-TEST
+PROCESS
 -
-UNEXPECTED
--
-FAIL
+CRASH
 |
 %
 s
