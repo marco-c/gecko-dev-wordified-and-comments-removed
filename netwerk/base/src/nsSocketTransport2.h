@@ -398,6 +398,15 @@ NetAddr
 addr
 )
 ;
+nsresult
+InitWithFilename
+(
+const
+char
+*
+filename
+)
+;
 void
 OnSocketReady
 (
