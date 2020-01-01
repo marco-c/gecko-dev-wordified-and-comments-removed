@@ -219,6 +219,10 @@ W
 (
 native_topsrcdir
 )
+\
+dist
+\
+stage
 else
 extensiondir
 =
@@ -227,6 +231,10 @@ pwd
 (
 topsrcdir
 )
+/
+dist
+/
+stage
 endif
 #
 A
