@@ -12220,6 +12220,12 @@ nsISupports
 *
 mOuter
 ;
+nsCOMPtr
+<
+nsIThread
+>
+mThread
+;
 }
 ;
 class
