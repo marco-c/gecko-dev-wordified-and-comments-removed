@@ -459,6 +459,10 @@ AboutRedirector
 .
 js
 \
+BrowserCLH
+.
+js
+\
 DirectoryProvider
 .
 js
@@ -502,10 +506,6 @@ HelperAppDialog
 js
 \
 PromptService
-.
-js
-\
-BrowserCLH
 .
 js
 \
