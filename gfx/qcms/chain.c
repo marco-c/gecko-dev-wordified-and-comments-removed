@@ -6414,8 +6414,7 @@ new_src
 dest
 ;
 const
-void
-*
+transform_module_fn_t
 transform_fn
 =
 transform
