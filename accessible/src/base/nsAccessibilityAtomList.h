@@ -750,6 +750,13 @@ longdesc
 )
 ACCESSIBILITY_ATOM
 (
+max
+"
+max
+"
+)
+ACCESSIBILITY_ATOM
+(
 maxpos
 "
 maxpos
