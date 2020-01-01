@@ -1525,6 +1525,11 @@ mPlaced
 private
 :
 void
+DestroyChildWindows
+(
+)
+;
+void
 GetToplevelWidget
 (
 GtkWidget
