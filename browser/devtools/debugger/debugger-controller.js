@@ -2000,7 +2000,6 @@ empty
 (
 )
 ;
-}
 DebuggerController
 .
 dispatchEvent
@@ -2012,6 +2011,7 @@ AfterFramesCleared
 "
 )
 ;
+}
 }
 updateEditorLocation
 :
