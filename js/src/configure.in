@@ -37822,8 +37822,12 @@ _objdir
 intl
 /
 icu
-;
-\
+MOZ_SUBCONFIGURE_WRAP
+(
+[
+.
+]
+[
 CC
 =
 "
@@ -37914,6 +37918,8 @@ no
 |
 exit
 1
+]
+)
 )
 |
 |
