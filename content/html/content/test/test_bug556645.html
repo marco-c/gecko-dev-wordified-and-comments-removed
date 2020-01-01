@@ -125,13 +125,6 @@ head
 >
 <
 body
-onload
-=
-"
-runTest
-(
-)
-"
 >
 <
 script
@@ -140,6 +133,11 @@ SimpleTest
 .
 waitForExplicitFinish
 (
+)
+;
+addLoadEvent
+(
+runTest
 )
 ;
 function

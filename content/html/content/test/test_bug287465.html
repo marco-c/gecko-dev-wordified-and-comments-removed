@@ -104,13 +104,6 @@ head
 >
 <
 body
-onload
-=
-"
-doTest
-(
-)
-"
 >
 <
 a
@@ -356,6 +349,11 @@ SimpleTest
 .
 waitForExplicitFinish
 (
+)
+;
+addLoadEvent
+(
+doTest
 )
 ;
 function
