@@ -47114,6 +47114,13 @@ privateWindow
 return
 window
 .
+QueryInterface
+(
+Ci
+.
+nsIInterfaceRequestor
+)
+.
 getInterface
 (
 Ci
@@ -47164,6 +47171,13 @@ val
 {
 return
 window
+.
+QueryInterface
+(
+Ci
+.
+nsIInterfaceRequestor
+)
 .
 getInterface
 (
