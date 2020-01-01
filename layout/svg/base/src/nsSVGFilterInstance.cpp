@@ -349,6 +349,12 @@ mFE
 ;
 gfxRect
 defaultFilterSubregion
+(
+0
+0
+0
+0
+)
 ;
 if
 (
