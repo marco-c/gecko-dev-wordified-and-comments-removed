@@ -51,7 +51,7 @@ CancelableTask
 aTask
 )
 ;
-void
+bool
 TaskComplete
 (
 )
