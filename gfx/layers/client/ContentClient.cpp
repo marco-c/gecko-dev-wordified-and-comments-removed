@@ -123,6 +123,12 @@ LAYERS_OPENGL
 backend
 !
 =
+LAYERS_D3D9
+&
+&
+backend
+!
+=
 LAYERS_D3D11
 &
 &

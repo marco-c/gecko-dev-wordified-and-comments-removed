@@ -607,6 +607,12 @@ case
 SurfaceDescriptor
 :
 :
+TSurfaceDescriptorD3D9
+:
+case
+SurfaceDescriptor
+:
+:
 TSurfaceDescriptorD3D10
 :
 break
