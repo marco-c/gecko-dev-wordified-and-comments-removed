@@ -17303,9 +17303,6 @@ mTransitionTimingFunctionCount
 }
 }
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 static
 const
 TransitionPropInfo
@@ -17381,8 +17378,6 @@ mAnimationIterationCountCount
 }
 }
 ;
-#
-endif
 struct
 TransitionPropData
 {
@@ -19042,9 +19037,6 @@ GetListValue
 }
 }
 }
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 TransitionPropData
 animationPropData
 [
@@ -20909,8 +20901,6 @@ GetListValue
 }
 }
 }
-#
-endif
 SetFactor
 (
 *

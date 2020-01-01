@@ -73,17 +73,12 @@ nsIDOMCSSStyleSheet
 h
 "
 #
-ifdef
-MOZ_CSS_ANIMATIONS
-#
 include
 "
 nsAnimationManager
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -20041,9 +20036,6 @@ ProcessPendingRestyles
 )
 ;
 }
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 if
 (
 !
@@ -20063,8 +20055,6 @@ DispatchEvents
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -21229,9 +21219,6 @@ RebuildUserFontSet
 (
 )
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 mPresContext
 -
 >
@@ -21244,8 +21231,6 @@ KeyframesListIsDirty
 (
 )
 ;
-#
-endif
 }
 Element
 *

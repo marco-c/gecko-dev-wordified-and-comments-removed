@@ -6819,9 +6819,6 @@ aDescID
 ]
 ;
 }
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 nsCSSKeyframeStyleDeclaration
 :
 :
@@ -8326,5 +8323,3 @@ return
 PR_FALSE
 ;
 }
-#
-endif

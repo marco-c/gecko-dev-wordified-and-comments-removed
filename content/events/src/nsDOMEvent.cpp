@@ -550,9 +550,6 @@ MozScrolledAreaChanged
 "
 transitionend
 "
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 "
 animationstart
 "
@@ -562,8 +559,6 @@ animationend
 "
 animationiteration
 "
-#
-endif
 }
 ;
 static
@@ -3790,9 +3785,6 @@ NS_ERROR_OUT_OF_MEMORY
 break
 ;
 }
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 case
 NS_ANIMATION_EVENT
 :
@@ -3836,8 +3828,6 @@ NS_ERROR_OUT_OF_MEMORY
 break
 ;
 }
-#
-endif
 case
 NS_MOZTOUCH_EVENT
 :
@@ -6084,9 +6074,6 @@ sEventNames
 eDOMEvents_transitionend
 ]
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 case
 NS_ANIMATION_START
 :
@@ -6114,8 +6101,6 @@ sEventNames
 eDOMEvents_animationiteration
 ]
 ;
-#
-endif
 default
 :
 break

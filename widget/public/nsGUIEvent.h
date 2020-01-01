@@ -267,14 +267,9 @@ define
 NS_TRANSITION_EVENT
 26
 #
-ifdef
-MOZ_CSS_ANIMATIONS
-#
 define
 NS_ANIMATION_EVENT
 27
-#
-endif
 #
 define
 NS_UI_EVENT
@@ -1812,9 +1807,6 @@ NS_TRANSITION_END
 NS_TRANSITION_EVENT_START
 )
 #
-ifdef
-MOZ_CSS_ANIMATIONS
-#
 define
 NS_ANIMATION_EVENT_START
 4250
@@ -1840,8 +1832,6 @@ NS_ANIMATION_EVENT_START
 +
 2
 )
-#
-endif
 #
 ifdef
 MOZ_SMIL
@@ -4790,9 +4780,6 @@ elapsedTime
 ;
 }
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 class
 nsAnimationEvent
 :
@@ -4839,8 +4826,6 @@ elapsedTime
 ;
 }
 ;
-#
-endif
 class
 nsUIStateChangeEvent
 :

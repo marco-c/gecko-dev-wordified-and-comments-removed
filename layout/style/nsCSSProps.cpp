@@ -2046,9 +2046,6 @@ return
 eCSSProperty_UNKNOWN
 ;
 }
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 const
 PRInt32
 nsCSSProps
@@ -2127,8 +2124,6 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-#
-endif
 const
 PRInt32
 nsCSSProps
@@ -5409,9 +5404,6 @@ undef
 CSS_PROP_SHORTHAND
 }
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 static
 const
 nsCSSProperty
@@ -5430,8 +5422,6 @@ eCSSProperty_animation_name
 eCSSProperty_UNKNOWN
 }
 ;
-#
-endif
 static
 const
 nsCSSProperty

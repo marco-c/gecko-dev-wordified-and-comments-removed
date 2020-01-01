@@ -80,14 +80,9 @@ nsIURI
 class
 nsCSSFontFaceRule
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 class
 nsCSSKeyframesRule
 ;
-#
-endif
 class
 nsRuleWalker
 ;
@@ -408,9 +403,6 @@ nsFontFaceRuleContainer
 aArray
 )
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 PRBool
 AppendKeyframesRules
 (
@@ -426,8 +418,6 @@ nsCSSKeyframesRule
 aArray
 )
 ;
-#
-endif
 void
 BeginShutdown
 (
@@ -564,12 +554,7 @@ ePresHintSheet
 eDocSheet
 eStyleAttrSheet
 eOverrideSheet
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 eAnimationSheet
-#
-endif
 eTransitionSheet
 eSheetTypeCount
 }

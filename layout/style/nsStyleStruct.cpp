@@ -8794,9 +8794,6 @@ aUnknownProperty
 )
 ;
 }
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 nsAnimation
 :
 :
@@ -8910,8 +8907,6 @@ mIterationCount
 0f
 ;
 }
-#
-endif
 nsStyleDisplay
 :
 :
@@ -9072,9 +9067,6 @@ mTransitionPropertyCount
 =
 1
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 mAnimations
 .
 AppendElement
@@ -9143,8 +9135,6 @@ mAnimationIterationCountCount
 =
 1
 ;
-#
-endif
 }
 nsStyleDisplay
 :
@@ -9187,9 +9177,6 @@ aSource
 .
 mTransitionPropertyCount
 )
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 mAnimations
 (
 aSource
@@ -9244,8 +9231,6 @@ aSource
 .
 mAnimationIterationCountCount
 )
-#
-endif
 {
 MOZ_COUNT_CTOR
 (

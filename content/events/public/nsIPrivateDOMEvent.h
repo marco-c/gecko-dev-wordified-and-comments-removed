@@ -595,9 +595,6 @@ nsTransitionEvent
 aEvent
 )
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 nsresult
 NS_NewDOMAnimationEvent
 (
@@ -614,8 +611,6 @@ nsAnimationEvent
 aEvent
 )
 ;
-#
-endif
 nsresult
 NS_NewDOMCloseEvent
 (

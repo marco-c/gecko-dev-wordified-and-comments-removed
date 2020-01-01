@@ -586,6 +586,10 @@ nsDOMTransitionEvent
 .
 cpp
 \
+nsDOMAnimationEvent
+.
+cpp
+\
 nsDOMPopStateEvent
 .
 cpp
@@ -609,15 +613,6 @@ cpp
 (
 NULL
 )
-ifdef
-MOZ_CSS_ANIMATIONS
-CPPSRCS
-+
-=
-nsDOMAnimationEvent
-.
-cpp
-endif
 #
 we
 don

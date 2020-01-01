@@ -3598,9 +3598,6 @@ nsFontFaceRuleContainer
 >
 mFontFaceRules
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 nsTArray
 <
 nsCSSKeyframesRule
@@ -3608,8 +3605,6 @@ nsCSSKeyframesRule
 >
 mKeyframesRules
 ;
-#
-endif
 nsTArray
 <
 nsCSSSelector
@@ -11036,9 +11031,6 @@ return
 PR_TRUE
 ;
 }
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 PRBool
 nsCSSRuleProcessor
 :
@@ -11092,8 +11084,6 @@ return
 PR_TRUE
 ;
 }
-#
-endif
 nsresult
 nsCSSRuleProcessor
 :
@@ -12390,9 +12380,6 @@ nsFontFaceRuleContainer
 >
 &
 aFontFaceRules
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 nsTArray
 <
 nsCSSKeyframesRule
@@ -12400,8 +12387,6 @@ nsCSSKeyframesRule
 >
 &
 aKeyframesRules
-#
-endif
 nsMediaQueryResultCacheKey
 &
 aKey
@@ -12420,15 +12405,10 @@ mFontFaceRules
 (
 aFontFaceRules
 )
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 mKeyframesRules
 (
 aKeyframesRules
 )
-#
-endif
 mCacheKey
 (
 aKey
@@ -12495,9 +12475,6 @@ nsFontFaceRuleContainer
 &
 mFontFaceRules
 ;
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 nsTArray
 <
 nsCSSKeyframesRule
@@ -12506,8 +12483,6 @@ nsCSSKeyframesRule
 &
 mKeyframesRules
 ;
-#
-endif
 nsMediaQueryResultCacheKey
 &
 mCacheKey
@@ -12832,9 +12807,6 @@ data
 mSheetType
 ;
 }
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 else
 if
 (
@@ -12882,8 +12854,6 @@ PR_FALSE
 ;
 }
 }
-#
-endif
 return
 PR_TRUE
 ;
@@ -13307,15 +13277,10 @@ newCascade
 -
 >
 mFontFaceRules
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 newCascade
 -
 >
 mKeyframesRules
-#
-endif
 newCascade
 -
 >

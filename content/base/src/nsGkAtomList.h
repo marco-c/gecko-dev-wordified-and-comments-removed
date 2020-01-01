@@ -4155,9 +4155,6 @@ onafterscriptexecute
 onafterscriptexecute
 "
 )
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 GK_ATOM
 (
 onanimationend
@@ -4179,8 +4176,6 @@ onanimationstart
 onanimationstart
 "
 )
-#
-endif
 GK_ATOM
 (
 onbeforecopy
@@ -12598,9 +12593,6 @@ volumechange
 )
 #
 endif
-#
-ifdef
-MOZ_CSS_ANIMATIONS
 GK_ATOM
 (
 animationsProperty
@@ -12622,8 +12614,6 @@ animationsOfAfterProperty
 AnimationsOfAfterProperty
 "
 )
-#
-endif
 GK_ATOM
 (
 transitionsProperty
