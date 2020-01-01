@@ -3504,6 +3504,17 @@ which
 ]
 ;
 }
+operator
+void
+*
+(
+)
+const
+{
+return
+counts
+;
+}
 }
 ;
 }
