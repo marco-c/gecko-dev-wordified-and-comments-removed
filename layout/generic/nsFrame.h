@@ -1284,6 +1284,9 @@ aReflowState
 nsHTMLReflowMetrics
 &
 aMetrics
+nsReflowStatus
+&
+aStatus
 )
 ;
 nsresult
