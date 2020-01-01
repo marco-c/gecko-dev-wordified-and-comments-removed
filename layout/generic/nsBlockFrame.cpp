@@ -5068,7 +5068,6 @@ NS_OK
 ;
 DrainOverflowLines
 (
-state
 )
 ;
 nsOverflowAreas
@@ -20279,9 +20278,6 @@ nsBlockFrame
 :
 DrainOverflowLines
 (
-nsBlockReflowState
-&
-aState
 )
 {
 #

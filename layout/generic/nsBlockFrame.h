@@ -1182,9 +1182,6 @@ protected
 bool
 DrainOverflowLines
 (
-nsBlockReflowState
-&
-aState
 )
 ;
 void
