@@ -7282,6 +7282,13 @@ didSanitizeDomain
 ;
 gPrefService
 .
+QueryInterface
+(
+Ci
+.
+nsIPrefService
+)
+.
 savePrefFile
 (
 null
