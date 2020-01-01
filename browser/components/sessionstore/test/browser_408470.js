@@ -102,12 +102,12 @@ gPageStyleMenu
 .
 switchStyleSheet
 (
+ssTitle
 tab
 .
 linkedBrowser
 .
 contentWindow
-ssTitle
 )
 ;
 let

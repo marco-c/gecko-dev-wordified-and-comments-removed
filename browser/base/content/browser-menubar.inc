@@ -2341,9 +2341,6 @@ gPageStyleMenu
 .
 switchStyleSheet
 (
-window
-.
-content
 event
 .
 target
