@@ -16059,7 +16059,7 @@ mDidForceRefreshOpenGL
 layerManager
 -
 >
-AsShadowManager
+AsManagerComposite
 (
 )
 )
