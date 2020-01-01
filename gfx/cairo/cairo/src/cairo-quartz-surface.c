@@ -816,7 +816,7 @@ format
 CAIRO_FORMAT_A1
 )
 {
-float
+CGFloat
 decode
 [
 ]
