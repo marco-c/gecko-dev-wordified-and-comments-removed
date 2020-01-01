@@ -838,6 +838,15 @@ return
 false
 ;
 }
+get
+mode
+(
+)
+{
+return
+mMode
+;
+}
 mFilesEnumerator
 :
 undefined
