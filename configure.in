@@ -31122,7 +31122,7 @@ I
 LIBXUL_DIST
 )
 /
-public
+include
 /
 nss
 '
