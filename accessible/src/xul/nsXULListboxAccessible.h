@@ -400,6 +400,13 @@ NativeState
 )
 ;
 virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
+virtual
 bool
 CanHaveAnonChildren
 (
@@ -432,7 +439,7 @@ class
 nsXULListCellAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 public
 nsIAccessibleTableCell
 {

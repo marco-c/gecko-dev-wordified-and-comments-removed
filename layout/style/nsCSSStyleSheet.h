@@ -902,6 +902,15 @@ aKey
 )
 const
 ;
+nsresult
+ParseSheet
+(
+const
+nsAString
+&
+aInput
+)
+;
 NS_DECL_NSIDOMSTYLESHEET
 NS_DECL_NSIDOMCSSSTYLESHEET
 static

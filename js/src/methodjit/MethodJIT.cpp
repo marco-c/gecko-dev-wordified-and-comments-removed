@@ -8160,6 +8160,16 @@ JITScriptHandle
 jith
 )
 {
+if
+(
+jith
+-
+>
+isValid
+(
+)
+)
+{
 JITScript
 *
 jit
@@ -8194,6 +8204,7 @@ setEmpty
 (
 )
 ;
+}
 }
 #
 ifdef

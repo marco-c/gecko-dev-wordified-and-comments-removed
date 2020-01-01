@@ -22,7 +22,7 @@ c
 #
 include
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -135,7 +135,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -253,7 +253,7 @@ NULL
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -402,7 +402,7 @@ aOffset
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -543,7 +543,7 @@ aHeight
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -699,7 +699,7 @@ aNSelections
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -810,7 +810,7 @@ aOffset
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -947,7 +947,7 @@ aEndOffset
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -1066,7 +1066,7 @@ NULL
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -1220,7 +1220,7 @@ NULL
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -1456,7 +1456,7 @@ NULL
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -1692,7 +1692,7 @@ NULL
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -1901,7 +1901,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -1978,7 +1978,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -2059,7 +2059,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -2144,7 +2144,7 @@ aNCharacters
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -2222,7 +2222,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (
@@ -2310,7 +2310,7 @@ __try
 {
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 textAcc
 (

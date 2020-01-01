@@ -391,6 +391,9 @@ aDocumentURI
 nsIDOMDocument
 *
 aDocument
+nsILocalFile
+*
+aCustomProfileDir
 )
 ;
 NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER

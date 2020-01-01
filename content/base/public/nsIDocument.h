@@ -3596,6 +3596,10 @@ WarnOnceAbout
 (
 DeprecatedOperations
 aOperation
+bool
+asError
+=
+false
 )
 ;
 virtual

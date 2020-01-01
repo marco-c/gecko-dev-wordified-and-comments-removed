@@ -57,6 +57,13 @@ NativeState
 )
 ;
 virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
+virtual
 Accessible
 *
 ContainerWidget

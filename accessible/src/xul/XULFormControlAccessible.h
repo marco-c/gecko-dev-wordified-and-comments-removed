@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 .
 h
 "
@@ -375,6 +375,13 @@ NativeState
 )
 ;
 virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
+virtual
 Accessible
 *
 ContainerWidget
@@ -416,9 +423,10 @@ NativeRole
 ;
 virtual
 PRUint64
-NativeState
+NativeInteractiveState
 (
 )
+const
 ;
 virtual
 bool
@@ -599,7 +607,7 @@ class
 XULTextFieldAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :

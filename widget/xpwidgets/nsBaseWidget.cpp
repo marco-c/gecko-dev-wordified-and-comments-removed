@@ -3268,10 +3268,10 @@ lm
 }
 else
 {
-NS_WARNING
+NS_RUNTIMEABORT
 (
 "
-fail
+failed
 to
 construct
 LayersChild

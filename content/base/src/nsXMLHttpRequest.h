@@ -290,6 +290,13 @@ GetOn
 #
 _lowercase
 (
+JSContext
+*
+/
+*
+unused
+*
+/
 )
 \
 {
@@ -2475,7 +2482,7 @@ mResponseBlob
 ;
 nsRefPtr
 <
-nsDOMFileBase
+nsDOMFile
 >
 mDOMFile
 ;

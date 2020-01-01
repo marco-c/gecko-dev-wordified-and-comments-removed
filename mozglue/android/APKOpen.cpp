@@ -2419,6 +2419,12 @@ SHELL_WRAPPER1
 onFullScreenPluginHidden
 jobject
 )
+SHELL_WRAPPER1_WITH_RETURN
+(
+getNextMessageFromQueue
+jobject
+jobject
+)
 static
 void
 *
@@ -4845,6 +4851,11 @@ getSurfaceBits
 GETFUNC
 (
 onFullScreenPluginHidden
+)
+;
+GETFUNC
+(
+getNextMessageFromQueue
 )
 ;
 #

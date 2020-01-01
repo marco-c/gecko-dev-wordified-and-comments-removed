@@ -5366,6 +5366,9 @@ systime
 screen
 '
 '
+rotation
+'
+'
 memory
 '
 '

@@ -239,7 +239,7 @@ wrapper
 class
 JS_FRIEND_API
 (
-Wrapper
+DirectWrapper
 )
 :
 public
@@ -248,7 +248,7 @@ AbstractWrapper
 public
 :
 explicit
-Wrapper
+DirectWrapper
 (
 unsigned
 flags
@@ -265,7 +265,7 @@ Permission
 ;
 virtual
 ~
-Wrapper
+DirectWrapper
 (
 )
 ;
@@ -499,7 +499,7 @@ AbstractWrapper
 Action
 ;
 static
-Wrapper
+DirectWrapper
 singleton
 ;
 static
@@ -519,7 +519,7 @@ proto
 JSObject
 *
 parent
-Wrapper
+DirectWrapper
 *
 handler
 )
@@ -558,6 +558,10 @@ getWrapperFamily
 ;
 }
 ;
+typedef
+DirectWrapper
+Wrapper
+;
 class
 JS_FRIEND_API
 (
@@ -565,7 +569,7 @@ CrossCompartmentWrapper
 )
 :
 public
-Wrapper
+DirectWrapper
 {
 public
 :
@@ -1029,7 +1033,7 @@ MOZ_OVERRIDE
 typedef
 SecurityWrapper
 <
-Wrapper
+DirectWrapper
 >
 SameCompartmentSecurityWrapper
 ;
@@ -1184,7 +1188,10 @@ JSObject
 obj
 )
 ;
+JS_FRIEND_API
+(
 bool
+)
 IsCrossCompartmentWrapper
 (
 const

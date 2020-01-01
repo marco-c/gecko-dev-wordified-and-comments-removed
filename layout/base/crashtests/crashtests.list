@@ -2227,6 +2227,16 @@ load
 727601
 .
 html
+skip
+-
+if
+(
+Android
+&
+&
+!
+browserIsRemote
+)
 asserts
 (
 0
@@ -2250,6 +2260,10 @@ assertion
 is
 bug
 735966
+for
+android
+bug
+760271
 asserts
 (
 0

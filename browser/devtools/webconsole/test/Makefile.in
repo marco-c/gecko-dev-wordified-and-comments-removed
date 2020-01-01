@@ -491,6 +491,10 @@ browser_cached_messages
 .
 js
 \
+browser_bug664688_sandbox_update_after_navigation
+.
+js
+\
 head
 .
 js

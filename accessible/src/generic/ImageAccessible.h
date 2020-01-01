@@ -7,7 +7,7 @@ mozilla_a11y_ImageAccessible_h__
 #
 include
 "
-BaseAccessibles
+nsBaseWidgetAccessible
 .
 h
 "
@@ -31,7 +31,7 @@ class
 ImageAccessible
 :
 public
-LinkableAccessible
+nsLinkableAccessible
 public
 nsIAccessibleImage
 {
@@ -51,7 +51,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetActionName
 (
-uint8_t
+PRUint8
 aIndex
 nsAString
 &
@@ -61,7 +61,7 @@ aName
 NS_IMETHOD
 DoAction
 (
-uint8_t
+PRUint8
 index
 )
 ;
@@ -85,7 +85,7 @@ NativeRole
 )
 ;
 virtual
-uint64_t
+PRUint64
 NativeState
 (
 )
@@ -100,7 +100,7 @@ aAttributes
 )
 ;
 virtual
-uint8_t
+PRUint8
 ActionCount
 (
 )
@@ -140,7 +140,7 @@ inline
 bool
 IsLongDescIndex
 (
-uint8_t
+PRUint8
 aIndex
 )
 ;
@@ -184,7 +184,7 @@ ImageAccessible
 this
 )
 :
-nullptr
+nsnull
 ;
 }
 #

@@ -1488,6 +1488,9 @@ vp
 nsISupports
 *
 argRef
+=
+*
+ppArgRef
 ;
 nsresult
 rv

@@ -2746,6 +2746,8 @@ GLContextProviderCGL
 :
 GetGlobalContext
 (
+const
+ContextFlags
 )
 {
 if

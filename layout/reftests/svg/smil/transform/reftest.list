@@ -151,6 +151,16 @@ skew
 ref
 .
 svg
+random
+-
+if
+(
+Android
+&
+&
+!
+browserIsRemote
+)
 =
 =
 translate
@@ -163,6 +173,9 @@ svg
 lime
 .
 svg
+#
+bug
+760266
 fails
 -
 if

@@ -632,13 +632,19 @@ Parser
 parser
 )
 {
-SharedContext
+TreeContext
 *
-sc
+tc
 =
 parser
 -
 >
+tc
+;
+SharedContext
+*
+sc
+=
 tc
 -
 >
@@ -647,7 +653,7 @@ sc
 if
 (
 !
-sc
+tc
 -
 >
 functionList
@@ -664,7 +670,7 @@ sc
 -
 >
 context
-sc
+tc
 -
 >
 functionList
@@ -691,7 +697,7 @@ false
 ;
 SetFunctionKinds
 (
-sc
+tc
 -
 >
 functionList
@@ -701,6 +707,8 @@ sc
 -
 >
 inFunction
+(
+)
 isDirectEval
 )
 ;

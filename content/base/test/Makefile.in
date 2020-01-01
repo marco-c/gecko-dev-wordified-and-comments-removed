@@ -1134,6 +1134,10 @@ mutationobserver_dialog
 .
 html
 \
+test_bug744830
+.
+html
+\
 (
 NULL
 )

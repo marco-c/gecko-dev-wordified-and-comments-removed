@@ -319,6 +319,15 @@ SVGAnimatedPreserveAspectRatio
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 using
 namespace
 mozilla
@@ -9074,6 +9083,9 @@ x
 +
 )
 {
+unused
+<
+<
 fwrite
 (
 data
@@ -9092,6 +9104,9 @@ GFX_ARGB32_OFFSET_R
 f
 )
 ;
+unused
+<
+<
 fwrite
 (
 data
@@ -9110,6 +9125,9 @@ GFX_ARGB32_OFFSET_G
 f
 )
 ;
+unused
+<
+<
 fwrite
 (
 data

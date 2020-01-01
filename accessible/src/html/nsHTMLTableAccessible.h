@@ -7,7 +7,7 @@ _nsHTMLTableAccessible_H_
 #
 include
 "
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 .
 h
 "
@@ -42,7 +42,7 @@ class
 nsHTMLTableCellAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 public
 nsIAccessibleTableCell
 {
@@ -77,6 +77,13 @@ PRUint64
 NativeState
 (
 )
+;
+virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
 ;
 virtual
 nsresult
@@ -432,7 +439,7 @@ class
 nsHTMLCaptionAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -446,7 +453,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc

@@ -7,7 +7,7 @@ _nsHTMLLinkAccessible_H_
 #
 include
 "
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 .
 h
 "
@@ -15,7 +15,7 @@ class
 nsHTMLLinkAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -77,6 +77,13 @@ NativeState
 virtual
 PRUint64
 NativeLinkState
+(
+)
+const
+;
+virtual
+PRUint64
+NativeInteractiveState
 (
 )
 const

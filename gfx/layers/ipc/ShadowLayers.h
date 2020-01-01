@@ -293,6 +293,14 @@ EditReply
 aReplies
 )
 ;
+bool
+ShadowDrawToTarget
+(
+gfxContext
+*
+aTarget
+)
+;
 void
 SetShadowManager
 (

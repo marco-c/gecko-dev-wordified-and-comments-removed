@@ -291,6 +291,7 @@ aAspectRatio
 ;
 #
 if
+(
 defined
 (
 XP_WIN
@@ -306,6 +307,15 @@ XP_MACOSX
 defined
 (
 LINUX
+)
+)
+&
+&
+\
+!
+defined
+(
+MOZ_ASAN
 )
 #
 define

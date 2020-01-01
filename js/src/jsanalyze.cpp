@@ -2349,6 +2349,9 @@ case
 JSOP_LOOPENTRY
 :
 case
+JSOP_ACTUALSFILLED
+:
+case
 JSOP_NOTEARG
 :
 break

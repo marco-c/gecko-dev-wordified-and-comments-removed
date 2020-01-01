@@ -583,6 +583,14 @@ rstReason
 )
 ;
 void
+CloseStream
+(
+SpdyStream3
+*
+nsresult
+)
+;
+void
 GenerateSettings
 (
 )

@@ -102,7 +102,7 @@ DocAccessible
 aDoc
 )
 :
-nsHTMLImageAccessibleWrap
+ImageAccessibleWrap
 (
 aContent
 aDoc
@@ -117,7 +117,7 @@ eImageMapAccessible
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsHTMLImageMapAccessible
-nsHTMLImageAccessible
+ImageAccessible
 )
 role
 nsHTMLImageMapAccessible
