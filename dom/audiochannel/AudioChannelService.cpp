@@ -626,6 +626,16 @@ aChildID
 )
 ;
 }
+if
+(
+!
+aElementHidden
+)
+{
+return
+false
+;
+}
 bool
 muted
 =
