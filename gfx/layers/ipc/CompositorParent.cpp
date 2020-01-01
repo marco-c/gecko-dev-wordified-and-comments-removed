@@ -3534,7 +3534,7 @@ wantNextFrame
 =
 SampleAnimations
 (
-layer
+root
 mLastCompose
 )
 ;
