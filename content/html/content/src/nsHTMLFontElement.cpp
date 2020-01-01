@@ -806,12 +806,6 @@ GetStringValue
 eCSSUnit_Families
 )
 ;
-font
-.
-mFamilyFromHTML
-=
-PR_TRUE
-;
 }
 }
 if

@@ -326,9 +326,6 @@ nsRuleDataFont
 public
 nsCSSFont
 {
-PRBool
-mFamilyFromHTML
-;
 nsRuleDataFont
 (
 )
