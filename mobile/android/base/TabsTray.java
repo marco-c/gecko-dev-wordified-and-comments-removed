@@ -891,7 +891,7 @@ Tab
 (
 )
 ;
-ArrayList
+Iterable
 <
 Tab
 >
@@ -907,14 +907,6 @@ getTabsInOrder
 (
 )
 ;
-if
-(
-tabs
-!
-=
-null
-)
-{
 for
 (
 Tab
@@ -930,7 +922,6 @@ add
 tab
 )
 ;
-}
 }
 notifyDataSetChanged
 (
