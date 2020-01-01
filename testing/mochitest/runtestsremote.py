@@ -1033,19 +1033,6 @@ getDeviceRoot
         
 options
 .
-utilityPath
-=
-options
-.
-remoteTestRoot
-+
-"
-/
-bin
-"
-        
-options
-.
 certPath
 =
 options
@@ -1064,7 +1051,9 @@ remoteWebServer
 =
 =
 None
-and
+:
+          
+if
 os
 .
 name
@@ -1074,7 +1063,7 @@ name
 nt
 "
 :
-          
+            
 options
 .
 remoteWebServer
@@ -1082,18 +1071,10 @@ remoteWebServer
 get_lan_ip
 (
 )
-        
-elif
-os
-.
-name
-=
-=
-"
-nt
-"
-:
           
+else
+:
+            
 print
 "
 ERROR
@@ -1108,7 +1089,7 @@ address
 \
 n
 "
-          
+            
 return
 None
         
@@ -1190,6 +1171,17 @@ automation
 .
 _product
         
+if
+(
+options
+.
+utilityPath
+=
+=
+None
+)
+:
+          
 options
 .
 utilityPath
@@ -1211,7 +1203,7 @@ app
 None
 )
 :
-             
+          
 options
 .
 app
@@ -1249,7 +1241,7 @@ fennec
 "
 )
 :
-              
+            
 options
 .
 xrePath
@@ -1263,7 +1255,7 @@ xulrunner
           
 else
 :
-              
+            
 options
 .
 xrePath
