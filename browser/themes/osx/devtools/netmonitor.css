@@ -90,10 +90,6 @@ start
 :
 4px
 ;
-height
-:
-32px
-;
 }
 .
 requests
@@ -2306,6 +2302,8 @@ menu
 -
 toolbar
 {
+min
+-
 height
 :
 24px
