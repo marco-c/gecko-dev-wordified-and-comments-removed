@@ -872,6 +872,11 @@ parallelCompilation
 )
 JS_ASSERT_IF
 (
+MaybeGetIonContext
+(
+)
+&
+&
 !
 GetIonContext
 (
