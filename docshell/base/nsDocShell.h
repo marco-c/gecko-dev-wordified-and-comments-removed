@@ -2116,9 +2116,6 @@ bool
 mInPrivateBrowsing
 ;
 bool
-mDeviceSizeIsPageSize
-;
-bool
 mFiredUnloadEvent
 ;
 bool
