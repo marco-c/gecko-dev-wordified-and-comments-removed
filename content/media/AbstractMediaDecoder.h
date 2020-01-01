@@ -191,7 +191,7 @@ aDuration
 ;
 virtual
 void
-UpdateMediaDuration
+UpdateEstimatedMediaDuration
 (
 int64_t
 aDuration

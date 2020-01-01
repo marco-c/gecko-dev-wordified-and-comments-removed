@@ -206,7 +206,7 @@ aEndTime
 )
 ;
 void
-UpdateDuration
+UpdateEstimatedDuration
 (
 int64_t
 aDuration

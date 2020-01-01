@@ -722,7 +722,7 @@ aDuration
 MOZ_OVERRIDE
 ;
 void
-UpdateMediaDuration
+UpdateEstimatedMediaDuration
 (
 int64_t
 aDuration
