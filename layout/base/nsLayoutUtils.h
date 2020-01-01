@@ -232,6 +232,15 @@ nsIAtom
 aPseudoElement
 )
 ;
+#
+ifdef
+DEBUG
+static
+bool
+gPreventAssertInCompareTreePosition
+;
+#
+endif
 static
 PRInt32
 CompareTreePosition
