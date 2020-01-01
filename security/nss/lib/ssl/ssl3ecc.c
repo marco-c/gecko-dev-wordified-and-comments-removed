@@ -1186,7 +1186,10 @@ ec
 DEREncodedParams
 &
 pubKey
-NULL
+ss
+-
+>
+pkcs11PinArg
 )
 ;
 if

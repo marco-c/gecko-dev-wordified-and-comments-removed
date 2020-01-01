@@ -4468,11 +4468,13 @@ desc
 ;
 extern
 SECStatus
-ssl3_RestartHandshakeAfterAuthCertificate
+ssl3_AuthCertificateComplete
 (
 sslSocket
 *
 ss
+PRErrorCode
+status
 )
 ;
 extern

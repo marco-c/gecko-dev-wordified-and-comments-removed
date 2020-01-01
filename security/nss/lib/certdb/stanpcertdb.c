@@ -2662,6 +2662,8 @@ ct
 CERTCertificate
 *
 cert
+=
+NULL
 ;
 NSSUsage
 usage

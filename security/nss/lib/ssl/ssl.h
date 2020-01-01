@@ -1634,11 +1634,13 @@ void
 ;
 SSL_IMPORT
 SECStatus
-SSL_RestartHandshakeAfterAuthCertificate
+SSL_AuthCertificateComplete
 (
 PRFileDesc
 *
 fd
+PRErrorCode
+status
 )
 ;
 SEC_END_PROTOS
