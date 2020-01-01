@@ -660,6 +660,10 @@ browser_webconsole_bug_597103_deactivateHUDForContext_unfocused_window
 .
 js
 \
+browser_webconsole_bug_595350_multiple_windows_and_tabs
+.
+js
+\
 browser_webconsole_bug_594497_history_arrow_keys
 .
 js
