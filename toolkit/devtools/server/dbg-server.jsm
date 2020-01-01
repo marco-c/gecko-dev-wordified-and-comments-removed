@@ -32,6 +32,9 @@ EXPORTED_SYMBOLS
 "
 DebuggerServer
 "
+"
+ActorPool
+"
 ]
 ;
 var
@@ -285,4 +288,12 @@ DebuggerServer
 gGlobal
 .
 DebuggerServer
+;
+this
+.
+ActorPool
+=
+gGlobal
+.
+ActorPool
 ;
