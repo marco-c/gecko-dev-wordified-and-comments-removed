@@ -45,6 +45,13 @@ nsExceptionHandler
 h
 "
 #
+include
+"
+nsDataHashtable
+.
+h
+"
+#
 endif
 namespace
 mozilla
