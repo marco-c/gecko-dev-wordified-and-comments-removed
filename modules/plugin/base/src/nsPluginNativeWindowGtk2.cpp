@@ -1839,6 +1839,12 @@ XFree
 children
 )
 ;
+XSync
+(
+display
+False
+)
+;
 gdk_error_trap_pop
 (
 )
