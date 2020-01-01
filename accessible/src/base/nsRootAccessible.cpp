@@ -1504,6 +1504,8 @@ PRBool
 aForceEvent
 PRBool
 aIsAsynch
+EIsFromUserInput
+aIsFromUserInput
 )
 {
 if
@@ -1885,6 +1887,8 @@ nsIAccessibleEvent
 :
 EVENT_MENU_START
 menuBarAccessible
+PR_FALSE
+aIsFromUserInput
 )
 ;
 }
@@ -1913,6 +1917,7 @@ nsIAccessibleEvent
 EVENT_MENU_END
 mCurrentARIAMenubar
 PR_FALSE
+aIsFromUserInput
 nsAccEvent
 :
 :
@@ -2122,6 +2127,7 @@ nsAccEvent
 :
 eRemoveDupes
 aIsAsynch
+aIsFromUserInput
 )
 ;
 return
@@ -3738,15 +3744,6 @@ if
 fireFocus
 )
 {
-nsAccEvent
-:
-:
-PrepareForEvent
-(
-aTargetNode
-PR_TRUE
-)
-;
 FireAccessibleFocusEvent
 (
 accessible
@@ -3754,6 +3751,7 @@ aTargetNode
 aEvent
 PR_TRUE
 PR_TRUE
+eFromUserInput
 )
 ;
 }
@@ -3771,15 +3769,6 @@ DOMMenuBarActive
 )
 )
 {
-nsAccEvent
-:
-:
-PrepareForEvent
-(
-aTargetNode
-PR_TRUE
-)
-;
 nsEventShell
 :
 :
@@ -3791,6 +3780,7 @@ nsIAccessibleEvent
 EVENT_MENU_START
 accessible
 PR_TRUE
+eFromUserInput
 )
 ;
 }
@@ -3807,15 +3797,6 @@ DOMMenuBarInactive
 )
 )
 {
-nsAccEvent
-:
-:
-PrepareForEvent
-(
-aTargetNode
-PR_TRUE
-)
-;
 nsEventShell
 :
 :
@@ -3827,6 +3808,7 @@ nsIAccessibleEvent
 EVENT_MENU_END
 accessible
 PR_TRUE
+eFromUserInput
 )
 ;
 FireCurrentFocusEvent

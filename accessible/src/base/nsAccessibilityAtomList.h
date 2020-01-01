@@ -948,6 +948,17 @@ display
 )
 ACCESSIBILITY_ATOM
 (
+eventFromInput
+"
+event
+-
+from
+-
+input
+"
+)
+ACCESSIBILITY_ATOM
+(
 textAlign
 "
 text
