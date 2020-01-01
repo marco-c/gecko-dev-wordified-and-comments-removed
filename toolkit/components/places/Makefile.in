@@ -470,10 +470,6 @@ nsIBrowserHistory
 .
 idl
 \
-nsIDynamicContainer
-.
-idl
-\
 nsIFaviconService
 .
 idl

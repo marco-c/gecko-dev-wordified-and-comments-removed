@@ -678,10 +678,6 @@ values
 [
 0
 ]
-/
-SensorManager
-.
-GRAVITY_EARTH
 ;
 mY
 =
@@ -691,10 +687,6 @@ values
 [
 1
 ]
-/
-SensorManager
-.
-GRAVITY_EARTH
 ;
 mZ
 =
@@ -704,10 +696,6 @@ values
 [
 2
 ]
-/
-SensorManager
-.
-GRAVITY_EARTH
 ;
 }
 else
