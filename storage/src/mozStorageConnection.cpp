@@ -207,7 +207,8 @@ storage
 .
 synchronous
 "
-static
+namespace
+{
 int
 sqlite3_T_int
 (
@@ -230,7 +231,6 @@ return
 SQLITE_OK
 ;
 }
-static
 int
 sqlite3_T_int64
 (
@@ -253,7 +253,6 @@ return
 SQLITE_OK
 ;
 }
-static
 int
 sqlite3_T_double
 (
@@ -276,7 +275,6 @@ return
 SQLITE_OK
 ;
 }
-static
 int
 sqlite3_T_text
 (
@@ -311,7 +309,6 @@ return
 SQLITE_OK
 ;
 }
-static
 int
 sqlite3_T_text16
 (
@@ -348,7 +345,6 @@ return
 SQLITE_OK
 ;
 }
-static
 int
 sqlite3_T_null
 (
@@ -368,7 +364,6 @@ return
 SQLITE_OK
 ;
 }
-static
 int
 sqlite3_T_blob
 (
@@ -404,8 +399,6 @@ variantToSQLiteT_impl
 .
 h
 "
-namespace
-{
 #
 ifdef
 PR_LOGGING

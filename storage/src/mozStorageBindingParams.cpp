@@ -86,8 +86,6 @@ column
 ;
 }
 ;
-}
-static
 int
 sqlite3_T_int
 (
@@ -114,7 +112,6 @@ aValue
 )
 ;
 }
-static
 int
 sqlite3_T_int64
 (
@@ -141,7 +138,6 @@ aValue
 )
 ;
 }
-static
 int
 sqlite3_T_double
 (
@@ -168,7 +164,6 @@ aValue
 )
 ;
 }
-static
 int
 sqlite3_T_text
 (
@@ -207,7 +202,6 @@ SQLITE_TRANSIENT
 )
 ;
 }
-static
 int
 sqlite3_T_text16
 (
@@ -248,7 +242,6 @@ SQLITE_TRANSIENT
 )
 ;
 }
-static
 int
 sqlite3_T_null
 (
@@ -272,7 +265,6 @@ column
 )
 ;
 }
-static
 int
 sqlite3_T_blob
 (
@@ -312,6 +304,7 @@ variantToSQLiteT_impl
 .
 h
 "
+}
 BindingParams
 :
 :
