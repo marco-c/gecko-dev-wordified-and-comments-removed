@@ -599,6 +599,14 @@ eAnywhere
 eOutsideUserSelectAll
 }
 ;
+already_AddRefed
+<
+nsIDOMNode
+>
+GetWSBoundingParent
+(
+)
+;
 nsresult
 GetWSNodes
 (
