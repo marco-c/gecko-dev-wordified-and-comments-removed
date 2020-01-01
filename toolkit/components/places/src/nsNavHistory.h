@@ -1665,9 +1665,6 @@ nsNavHistoryQuery
 >
 &
 aQueries
-nsNavHistoryQueryOptions
-*
-aOptions
 )
 ;
 nsMaybeWeakPtrArray
