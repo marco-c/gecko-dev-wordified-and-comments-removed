@@ -4424,8 +4424,14 @@ nsIPrincipal
 >
 mDocumentPrincipal
 ;
+JS
+:
+:
+TenuredHeap
+<
 JSObject
 *
+>
 mJSObject
 ;
 typedef
