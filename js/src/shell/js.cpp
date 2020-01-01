@@ -11003,9 +11003,16 @@ if
 !
 vobj
 )
+{
+*
+vp
+=
+JSVAL_VOID
+;
 return
 JS_TRUE
 ;
+}
 aobj
 =
 JS_NewArrayObject
@@ -11068,6 +11075,9 @@ pda
 length
 ;
 i
++
++
+pd
 +
 +
 )
