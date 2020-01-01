@@ -16436,8 +16436,8 @@ JSVAL_TYPE_DOUBLE
 )
 {
 v
-.
-setNumber
+=
+NumberValue
 (
 *
 slot
@@ -20532,6 +20532,7 @@ numSlots
 MAX_GLOBAL_SLOTS
 )
 ;
+const
 Value
 *
 vp
@@ -20540,7 +20541,7 @@ vp
 globalObj
 -
 >
-getSlotRef
+getSlot
 (
 slot
 )
@@ -20758,6 +20759,7 @@ MAX_GLOBAL_SLOTS
 return
 false
 ;
+const
 Value
 *
 vp
@@ -20766,7 +20768,7 @@ vp
 globalObj
 -
 >
-getSlotRef
+getSlot
 (
 slot
 )
@@ -20919,6 +20921,7 @@ TraceRecorder
 :
 setImpl
 (
+const
 void
 *
 p
@@ -21219,6 +21222,7 @@ TraceRecorder
 :
 set
 (
+const
 Value
 *
 p
@@ -21835,12 +21839,14 @@ n
 "
 )
 ;
+const
 Value
 *
 src
 =
 global_slots
 ;
+const
 Value
 *
 dst
@@ -29132,6 +29138,7 @@ gslots
 i
 ]
 ;
+const
 Value
 *
 vp
@@ -29140,7 +29147,7 @@ vp
 globalObj
 -
 >
-getSlotRef
+getSlot
 (
 slot
 )
@@ -43183,6 +43190,7 @@ scopeChainProp
 JSObject
 *
 chainHead
+const
 Value
 *
 &
@@ -43493,7 +43501,7 @@ vp
 obj
 -
 >
-getSlotRef
+getSlot
 (
 shape
 -
@@ -43590,6 +43598,7 @@ JSProperty
 prop
 jsid
 id
+const
 Value
 *
 &
@@ -47643,6 +47652,7 @@ slot
 "
 )
 ;
+const
 Value
 &
 v
@@ -47650,7 +47660,7 @@ v
 obj
 -
 >
-getSlotRef
+getSlot
 (
 slot
 )
@@ -47723,6 +47733,7 @@ stackval
 2
 )
 ;
+const
 Value
 *
 vp
@@ -65452,6 +65463,7 @@ bool
 pre
 )
 {
+const
 Value
 *
 vp
@@ -71452,6 +71464,7 @@ isDenseArray
 )
 )
 {
+const
 Value
 *
 vp
@@ -73667,6 +73680,7 @@ scopeObj
 globalObj
 )
 {
+const
 Value
 *
 vp
@@ -76696,6 +76710,7 @@ TraceRecorder
 :
 name
 (
+const
 Value
 *
 &
@@ -77941,6 +77956,7 @@ oval
 Value
 &
 ival
+const
 Value
 *
 &
@@ -78130,13 +78146,13 @@ vp
 obj
 -
 >
-slots
-[
+getSlot
+(
 jsuint
 (
 idx
 )
-]
+)
 ;
 JS_ASSERT
 (
@@ -78820,6 +78836,7 @@ record_JSOP_NAME
 (
 )
 {
+const
 Value
 *
 vp
@@ -86321,6 +86338,7 @@ GETXPROP
 "
 )
 ;
+const
 Value
 *
 vp
@@ -87944,6 +87962,7 @@ failed
 "
 )
 ;
+const
 Value
 &
 v
@@ -87951,7 +87970,7 @@ v
 globalObj
 -
 >
-getSlotRef
+getSlot
 (
 slot
 )
