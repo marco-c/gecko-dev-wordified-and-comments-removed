@@ -3849,6 +3849,16 @@ printarray
 "
 )
 ;
+printarray
+(
+"
+17
+"
+"
+7
+"
+)
+;
 #
 print
 %
