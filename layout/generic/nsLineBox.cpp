@@ -543,8 +543,6 @@ fprintf
 (
 out
 "
-%
-s
 region
 =
 {
