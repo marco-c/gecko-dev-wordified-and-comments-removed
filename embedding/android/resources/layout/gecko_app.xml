@@ -74,11 +74,9 @@ id
 =
 "
 +
-android
-:
 id
 /
-browserToolbar
+browser_toolbar
 "
 style
 =
