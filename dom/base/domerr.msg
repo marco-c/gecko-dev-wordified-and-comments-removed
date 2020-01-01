@@ -1658,15 +1658,6 @@ be
 read
 "
 )
-DOM_MSG_DEF
-(
-NS_ERROR_DOM_UNSPECIFIED_EVENT_TYPE_ERR
-"
-Unspecified
-event
-type
-"
-)
 /
 *
 common

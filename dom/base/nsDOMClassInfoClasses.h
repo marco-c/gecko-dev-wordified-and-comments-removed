@@ -1453,10 +1453,6 @@ IDBDatabaseException
 )
 DOMCI_CLASS
 (
-EventException
-)
-DOMCI_CLASS
-(
 Touch
 )
 DOMCI_CLASS

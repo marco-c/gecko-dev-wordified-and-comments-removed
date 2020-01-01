@@ -558,10 +558,6 @@ nsIDOMCloseEvent
 .
 idl
 \
-nsIDOMEventException
-.
-idl
-\
 nsIDOMTouchEvent
 .
 idl

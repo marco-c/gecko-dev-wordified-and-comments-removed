@@ -1519,17 +1519,6 @@ aDefaultException
 _retval
 )
 ;
-case
-NS_ERROR_MODULE_DOM_EVENTS
-:
-return
-NS_NewEventException
-(
-result
-aDefaultException
-_retval
-)
-;
 default
 :
 return
