@@ -10931,11 +10931,6 @@ nsISupports
 aCOMObj
 )
 ;
-bool
-IsOrphan
-(
-)
-;
 nsresult
 RescueOrphans
 (
