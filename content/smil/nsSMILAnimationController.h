@@ -362,6 +362,12 @@ void
 aArg
 )
 ;
+nsRefreshDriver
+*
+GetRefreshDriver
+(
+)
+;
 void
 StartSampling
 (
