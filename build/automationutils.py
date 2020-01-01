@@ -3170,7 +3170,7 @@ statistics
   
 MAX_LEAK_COUNT
 =
-120
+130
   
 def
 __init__
@@ -3368,7 +3368,7 @@ currentTest
 windows
 "
 ]
-and
+or
 self
 .
 currentTest
