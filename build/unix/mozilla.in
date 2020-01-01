@@ -565,6 +565,16 @@ dirname
 "
 progname
 "
+#
+Resolve
+symlink
+of
+dirname
+cd
+/
+bin
+/
+pwd
 progname
 =
 /
@@ -643,6 +653,9 @@ curdir
 "
 dist_bin
 =
+/
+bin
+/
 pwd
 run_moz
 =
