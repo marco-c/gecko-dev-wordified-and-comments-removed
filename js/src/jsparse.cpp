@@ -9757,9 +9757,16 @@ init
 functionCount
 )
 )
+{
+js_ReportOutOfMemory
+(
+context
+)
+;
 return
 false
 ;
+}
 FindFunArgs
 (
 funbox
