@@ -19436,7 +19436,8 @@ scrollEvent
 .
 delta
 )
-break
+return
+PR_FALSE
 ;
 scrollEvent
 .
