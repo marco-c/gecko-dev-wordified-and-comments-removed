@@ -1705,7 +1705,7 @@ BINPATH
 /
 components
 /
-nsExtensionManager
+addonManager
 .
 js
 BINPATH
