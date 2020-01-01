@@ -2630,7 +2630,10 @@ onsyncfrompreference
 rv
 =
 f
+.
+call
 (
+aElement
 event
 )
 ;
@@ -2998,7 +3001,10 @@ var
 rv
 =
 f
+.
+call
 (
+aElement
 event
 )
 ;
