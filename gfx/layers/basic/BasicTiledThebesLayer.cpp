@@ -1791,12 +1791,14 @@ lastRect
 ;
 while
 (
+(
 lastRect
 =
 it
 .
 Next
 (
+)
 )
 )
 {
