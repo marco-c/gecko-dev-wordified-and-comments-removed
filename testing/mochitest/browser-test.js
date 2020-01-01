@@ -482,7 +482,7 @@ SimpleTest
 :
 {
 }
-loops
+repeat
 :
 0
 checker
@@ -551,11 +551,11 @@ readConfig
 ;
 this
 .
-loops
+repeat
 =
 gConfig
 .
-loops
+repeat
 ;
 this
 .
@@ -1006,7 +1006,7 @@ if
 (
 this
 .
-loops
+repeat
 >
 0
 )
@@ -1015,7 +1015,7 @@ loops
 -
 this
 .
-loops
+repeat
 ;
 this
 .
