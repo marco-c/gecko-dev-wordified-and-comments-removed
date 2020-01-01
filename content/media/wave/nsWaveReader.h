@@ -121,6 +121,16 @@ PRInt64
 aStartTime
 )
 ;
+virtual
+bool
+IsSeekableInBufferedRanges
+(
+)
+{
+return
+true
+;
+}
 private
 :
 bool

@@ -352,6 +352,14 @@ aBuffered
 0
 ;
 virtual
+bool
+IsSeekableInBufferedRanges
+(
+)
+=
+0
+;
+virtual
 PRInt64
 VideoQueueMemoryInUse
 (
