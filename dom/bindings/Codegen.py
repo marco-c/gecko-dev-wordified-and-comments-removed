@@ -17264,6 +17264,10 @@ None
 allowTreatNonCallableAsNull
 =
 False
+                                    
+isCallbackReturnValue
+=
+False
 )
 :
     
@@ -17678,6 +17682,47 @@ functions
 will
 be
 honored
+.
+    
+If
+isCallbackReturnValue
+is
+true
+then
+the
+declType
+may
+be
+adjusted
+to
+make
+    
+it
+easier
+to
+return
+from
+a
+callback
+.
+Since
+that
+type
+is
+never
+directly
+    
+observable
+by
+any
+consumers
+of
+the
+callback
+code
+this
+is
+OK
 .
     
 The
@@ -18705,6 +18750,8 @@ or
 isOptional
 or
 nullable
+or
+isCallbackReturnValue
 :
             
 sequenceClass
@@ -18745,6 +18792,10 @@ exceptionCode
 lenientFloatCode
 =
 lenientFloatCode
+            
+isCallbackReturnValue
+=
+isCallbackReturnValue
 )
         
 if
@@ -18860,10 +18911,13 @@ typeName
         
 if
 not
+(
 isOptional
-and
-not
+or
 isMember
+or
+isCallbackReturnValue
+)
 :
             
 typeName
@@ -21059,6 +21113,8 @@ type
 nullable
 (
 )
+or
+isCallbackReturnValue
 :
                     
 declType
@@ -21125,6 +21181,8 @@ type
 nullable
 (
 )
+or
+isCallbackReturnValue
 :
                     
 declType
@@ -21267,6 +21325,7 @@ isOptional
         
 argIsPointer
 =
+(
 type
 .
 nullable
@@ -21283,6 +21342,10 @@ inner
 .
 isExternal
 (
+)
+or
+                        
+isCallbackReturnValue
 )
         
 forceOwningType
@@ -60163,10 +60226,6 @@ NS_ADDREF
 {
 declName
 }
-.
-Ptr
-(
-)
 )
 ;
 \
@@ -60178,10 +60237,6 @@ return
 {
 declName
 }
-.
-Ptr
-(
-)
 ;
 "
 )
@@ -60416,26 +60471,6 @@ not
 isMember
             
 if
-not
-type
-.
-unroll
-(
-)
-.
-isPrimitive
-(
-)
-:
-                
-return
-"
-void
-"
-"
-"
-            
-if
 type
 .
 nullable
@@ -60487,13 +60522,16 @@ retval
 SetValue
 (
 )
-=
+.
+SwapElements
+(
 {
 declName
 }
 .
 Value
 (
+)
 )
 ;
 \
@@ -60512,10 +60550,13 @@ returnCode
 =
 "
 retval
-=
+.
+SwapElements
+(
 {
 declName
 }
+)
 ;
 "
             
@@ -66899,6 +66940,10 @@ exceptionCode
 self
 .
 exceptionCode
+                                            
+isCallbackReturnValue
+=
+True
 )
             
 replacements
