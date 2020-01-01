@@ -40,6 +40,9 @@ nsHtml5SpeculativeLoader
 >
 mSpeculativeLoader
 ;
+PRBool
+mCurrentHtmlScriptIsAsyncOrDefer
+;
 #
 ifdef
 DEBUG

@@ -55,6 +55,7 @@ eTreeOpAppendComment
 eTreeOpAppendCommentToDocument
 eTreeOpAppendDoctypeToDocument
 eTreeOpRunScript
+eTreeOpRunScriptAsyncDefer
 eTreeOpDoneAddingChildren
 eTreeOpDoneCreatingElement
 eTreeOpFlushPendingAppendNotifications
