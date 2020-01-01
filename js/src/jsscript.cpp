@@ -9194,7 +9194,8 @@ trc
 )
 ;
 }
-JSBool
+JSObject
+*
 js_NewScriptObject
 (
 JSContext
@@ -9248,7 +9249,7 @@ if
 obj
 )
 return
-JS_FALSE
+NULL
 ;
 obj
 -
@@ -9287,7 +9288,7 @@ NULL
 #
 endif
 return
-JS_TRUE
+obj
 ;
 }
 typedef
@@ -10490,11 +10491,12 @@ cx
 if
 (
 !
-JS_XDRScript
+js_XDRScript
 (
 w
 &
 script
+NULL
 )
 )
 {

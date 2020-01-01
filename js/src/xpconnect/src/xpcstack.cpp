@@ -442,7 +442,10 @@ script
 pc
 )
 {
-JSAutoEnterCompartment
+JS
+:
+:
+AutoEnterScriptCompartment
 ac
 ;
 if
