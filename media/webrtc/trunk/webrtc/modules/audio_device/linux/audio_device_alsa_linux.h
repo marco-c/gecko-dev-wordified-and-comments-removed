@@ -763,6 +763,16 @@ WebRtc_Word32
 ednLen
 =
 0
+char
+*
+enumDeviceID
+=
+NULL
+const
+WebRtc_Word32
+ediLen
+=
+0
 )
 const
 ;

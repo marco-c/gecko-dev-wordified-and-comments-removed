@@ -465,6 +465,16 @@ cflags
 msse2
 '
 ]
+'
+cflags_mozilla
+'
+:
+[
+'
+-
+msse2
+'
+]
 }
 ]
 [

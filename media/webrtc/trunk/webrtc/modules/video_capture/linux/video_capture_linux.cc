@@ -72,11 +72,6 @@ h
 #
 include
 <
-iostream
->
-#
-include
-<
 new
 >
 #

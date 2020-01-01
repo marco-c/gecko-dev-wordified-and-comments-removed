@@ -458,7 +458,7 @@ webrtc
 /
 trunk
 /
-src
+webrtc
 \
 (
 NULL

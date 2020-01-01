@@ -176,17 +176,6 @@ audio_coding
 /
 codecs
 /
-opus
-/
-opus
-.
-gypi
-'
-'
-audio_coding
-/
-codecs
-/
 pcm16b
 /
 pcm16b
