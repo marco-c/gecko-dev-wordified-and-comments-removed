@@ -4,16 +4,6 @@ nsHtml5Parser
 *
 mParser
 ;
-PRUnichar
-*
-mCharBuffer
-;
-PRInt32
-mCharBufferFillLength
-;
-PRInt32
-mCharBufferAllocLength
-;
 PRBool
 mHasProcessedBase
 ;
