@@ -172,6 +172,10 @@ NSSDialogService
 .
 js
 \
+SiteSpecificUserAgent
+.
+js
+\
 (
 NULL
 )

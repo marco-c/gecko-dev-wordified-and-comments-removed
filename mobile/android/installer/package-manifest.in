@@ -3451,6 +3451,13 @@ components
 Sidebar
 .
 js
+BINPATH
+/
+components
+/
+SiteSpecificUserAgent
+.
+js
 #
 ifdef
 MOZ_SAFE_BROWSING
