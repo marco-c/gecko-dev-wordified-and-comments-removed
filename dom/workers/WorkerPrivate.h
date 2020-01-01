@@ -2851,6 +2851,11 @@ JSContext
 aCx
 )
 ;
+bool
+IsCurrentThreadRunningChromeWorker
+(
+)
+;
 enum
 WorkerStructuredDataType
 {

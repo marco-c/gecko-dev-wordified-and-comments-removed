@@ -576,6 +576,12 @@ IsCallerChrome
 ;
 static
 bool
+ThreadsafeIsCallerChrome
+(
+)
+;
+static
+bool
 IsCallerXBL
 (
 )
