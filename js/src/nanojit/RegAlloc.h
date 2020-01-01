@@ -144,7 +144,7 @@ LIns
 *
 active
 [
-NJ_MAX_REGISTERS
+32
 ]
 ;
 RegisterMask

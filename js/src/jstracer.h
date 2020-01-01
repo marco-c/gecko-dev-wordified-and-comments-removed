@@ -780,7 +780,7 @@ func_filter
 ;
 #
 ifdef
-NANOJIT_ARM
+NJ_SOFTFLOAT
 nanojit
 :
 :
