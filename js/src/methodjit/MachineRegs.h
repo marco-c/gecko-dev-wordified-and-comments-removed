@@ -2068,6 +2068,18 @@ defined
 (
 JS_CPU_X64
 )
+#
+ifdef
+_WIN64
+static
+const
+uint32
+TotalFPRegisters
+=
+6
+;
+#
+else
 static
 const
 uint32
@@ -2075,6 +2087,8 @@ TotalFPRegisters
 =
 8
 ;
+#
+endif
 static
 const
 uint32
@@ -2157,6 +2171,9 @@ X86Registers
 :
 xmm5
 )
+#
+ifndef
+_WIN64
 |
 (
 1
@@ -2183,6 +2200,8 @@ X86Registers
 :
 xmm7
 )
+#
+endif
 ;
 static
 const
