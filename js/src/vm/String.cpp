@@ -1571,7 +1571,7 @@ isAtom
 left
 -
 >
-compartment
+zone
 (
 )
 =
@@ -1579,7 +1579,9 @@ compartment
 cx
 -
 >
-compartment
+zone
+(
+)
 )
 ;
 JS_ASSERT_IF
@@ -1594,7 +1596,7 @@ isAtom
 right
 -
 >
-compartment
+zone
 (
 )
 =
@@ -1602,7 +1604,9 @@ compartment
 cx
 -
 >
-compartment
+zone
+(
+)
 )
 ;
 size_t
