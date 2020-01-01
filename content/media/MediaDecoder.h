@@ -1007,11 +1007,13 @@ FireTimeUpdate
 (
 )
 ;
+virtual
 void
 StopProgressUpdates
 (
 )
 ;
+virtual
 void
 StartProgressUpdates
 (
@@ -1159,6 +1161,12 @@ aTags
 ;
 void
 FirstFrameLoaded
+(
+)
+;
+virtual
+bool
+IsDataCachedToEndOfResource
 (
 )
 ;
@@ -1688,7 +1696,7 @@ PlayState
 mNextState
 ;
 bool
-mResourceLoaded
+mCalledResourceLoaded
 ;
 bool
 mIgnoreProgressData
