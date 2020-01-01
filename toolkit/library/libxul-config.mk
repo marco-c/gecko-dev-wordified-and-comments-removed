@@ -1248,8 +1248,6 @@ COMPONENT_LIBS
 =
 gkdebug
 endif
-ifdef
-MOZ_ENABLE_CANVAS3D
 ifeq
 (
 (
@@ -1263,5 +1261,4 @@ EXTRA_DSO_LDOPTS
 -
 framework
 OpenGL
-endif
 endif

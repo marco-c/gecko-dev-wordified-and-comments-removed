@@ -2465,18 +2465,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_ENABLE_CANVAS
-#
 include
 "
 nsIDOMCanvasRenderingContext2D
 .
 h
 "
-#
-ifdef
-MOZ_ENABLE_CANVAS3D
 #
 include
 "
@@ -2491,10 +2485,6 @@ WebGLArray
 .
 h
 "
-#
-endif
-#
-endif
 #
 include
 "
@@ -4542,9 +4532,6 @@ HTMLCanvasElement
 nsHTMLElementSH
 ELEMENT_SCRIPTABLE_FLAGS
 )
-#
-ifdef
-MOZ_ENABLE_CANVAS
 NS_DEFINE_CLASSINFO_DATA
 (
 CanvasRenderingContext2D
@@ -4569,8 +4556,6 @@ TextMetrics
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
-#
-endif
 NS_DEFINE_CLASSINFO_DATA
 (
 SmartCardEvent
@@ -4944,9 +4929,6 @@ Worker
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
-#
-ifdef
-MOZ_ENABLE_CANVAS3D
 NS_DEFINE_CLASSINFO_DATA
 (
 CanvasRenderingContextWebGL
@@ -5031,8 +5013,6 @@ WebGLUnsignedIntArray
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
-#
-endif
 }
 ;
 struct
@@ -5160,9 +5140,6 @@ nsDOMWorker
 :
 NewWorker
 )
-#
-ifdef
-MOZ_ENABLE_CANVAS3D
 NS_DEFINE_CONSTRUCTOR_FUNC_DATA
 (
 WebGLFloatArray
@@ -5198,8 +5175,6 @@ NS_DEFINE_CONSTRUCTOR_FUNC_DATA
 WebGLUnsignedIntArray
 NS_NewCanvasUnsignedIntArray
 )
-#
-endif
 }
 ;
 nsIXPConnect
@@ -12165,9 +12140,6 @@ nsIDOMHTMLCanvasElement
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
-#
-ifdef
-MOZ_ENABLE_CANVAS
 DOM_CLASSINFO_MAP_BEGIN
 (
 CanvasRenderingContext2D
@@ -12208,8 +12180,6 @@ DOM_CLASSINFO_MAP_ENTRY
 nsIDOMTextMetrics
 )
 DOM_CLASSINFO_MAP_END
-#
-endif
 DOM_CLASSINFO_MAP_BEGIN
 (
 XSLTProcessor
@@ -12811,9 +12781,6 @@ DOM_CLASSINFO_MAP_ENTRY
 nsIDOMEventTarget
 )
 DOM_CLASSINFO_MAP_END
-#
-ifdef
-MOZ_ENABLE_CANVAS3D
 DOM_CLASSINFO_MAP_BEGIN
 (
 CanvasRenderingContextWebGL
@@ -12954,8 +12921,6 @@ DOM_CLASSINFO_MAP_ENTRY
 nsIWebGLUnsignedIntArray
 )
 DOM_CLASSINFO_MAP_END
-#
-endif
 #
 ifdef
 NS_DEBUG

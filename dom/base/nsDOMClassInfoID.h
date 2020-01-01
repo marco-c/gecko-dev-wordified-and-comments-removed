@@ -284,15 +284,10 @@ eDOMClassInfo_SVGZoomEvent_id
 #
 endif
 eDOMClassInfo_HTMLCanvasElement_id
-#
-ifdef
-MOZ_ENABLE_CANVAS
 eDOMClassInfo_CanvasRenderingContext2D_id
 eDOMClassInfo_CanvasGradient_id
 eDOMClassInfo_CanvasPattern_id
 eDOMClassInfo_TextMetrics_id
-#
-endif
 eDOMClassInfo_SmartCardEvent_id
 eDOMClassInfo_PageTransitionEvent_id
 eDOMClassInfo_WindowUtils_id
@@ -353,9 +348,6 @@ eDOMClassInfo_MathMLElement_id
 #
 endif
 eDOMClassInfo_Worker_id
-#
-ifdef
-MOZ_ENABLE_CANVAS3D
 eDOMClassInfo_CanvasRenderingContextWebGL_id
 eDOMClassInfo_WebGLBuffer_id
 eDOMClassInfo_WebGLTexture_id
@@ -370,8 +362,6 @@ eDOMClassInfo_WebGLShortArray_id
 eDOMClassInfo_WebGLUnsignedShortArray_id
 eDOMClassInfo_WebGLIntArray_id
 eDOMClassInfo_WebGLUnsignedIntArray_id
-#
-endif
 eDOMClassInfoIDCount
 }
 ;

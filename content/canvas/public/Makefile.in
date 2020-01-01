@@ -419,6 +419,9 @@ mk
 MODULE
 =
 content
+XPIDL_MODULE
+=
+content_canvas
 EXPORTS
 =
 \
@@ -437,11 +440,6 @@ h
 (
 NULL
 )
-ifdef
-MOZ_ENABLE_CANVAS3D
-XPIDL_MODULE
-=
-content_canvas
 XPIDLSRCS
 =
 \
@@ -452,7 +450,6 @@ idl
 (
 NULL
 )
-endif
 include
 (
 topsrcdir
