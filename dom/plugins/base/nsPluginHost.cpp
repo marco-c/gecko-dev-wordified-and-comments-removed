@@ -1086,7 +1086,7 @@ max_num_cached_plugins
 #
 define
 DEFAULT_NUMBER_OF_STOPPED_INSTANCES
-10
+50
 #
 ifdef
 CALL_SAFETY_ON
