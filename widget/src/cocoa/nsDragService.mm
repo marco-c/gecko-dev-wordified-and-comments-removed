@@ -698,7 +698,7 @@ MozillaWildcard
 NSString
 *
 const
-kCorePasteboardFlavorType_url
+kCorePboardType_url
 =
 "
 CorePasteboardFlavorType
@@ -714,7 +714,7 @@ url
 NSString
 *
 const
-kCorePasteboardFlavorType_urln
+kCorePboardType_urln
 =
 "
 CorePasteboardFlavorType
@@ -1037,13 +1037,13 @@ NSStringPboardType
 currentKey
 =
 =
-kCorePasteboardFlavorType_url
+kCorePboardType_url
 |
 |
 currentKey
 =
 =
-kCorePasteboardFlavorType_urln
+kCorePboardType_urln
 )
 {
 [

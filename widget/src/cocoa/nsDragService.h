@@ -30,13 +30,13 @@ extern
 NSString
 *
 const
-kCorePasteboardFlavorType_url
+kCorePboardType_url
 ;
 extern
 NSString
 *
 const
-kCorePasteboardFlavorType_urln
+kCorePboardType_urln
 ;
 class
 nsDragService

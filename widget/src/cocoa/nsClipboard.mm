@@ -3295,7 +3295,7 @@ precomposedStringWithCanonicalMapping
 ]
 forKey
 :
-kCorePasteboardFlavorType_urln
+kCorePboardType_urln
 ]
 ;
 [
@@ -3421,7 +3421,7 @@ setObject
 nativeURL
 forKey
 :
-kCorePasteboardFlavorType_url
+kCorePboardType_url
 ]
 ;
 }
