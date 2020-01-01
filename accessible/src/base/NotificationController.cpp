@@ -54,6 +54,17 @@ TextUpdater
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 NotificationController
 :
 :

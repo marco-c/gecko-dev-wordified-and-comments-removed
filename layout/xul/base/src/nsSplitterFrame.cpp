@@ -201,6 +201,17 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 class
 nsSplitterInfo
 {

@@ -451,6 +451,17 @@ Preferences
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
+#
 define
 NS_ERROR_EDITOR_NO_SELECTION
 NS_ERROR_GENERATE_FAILURE

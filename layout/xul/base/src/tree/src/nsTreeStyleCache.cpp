@@ -19,6 +19,17 @@ nsStyleSet
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 nsStyleContext
 *
 nsTreeStyleCache
