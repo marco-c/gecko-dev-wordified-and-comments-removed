@@ -657,9 +657,6 @@ ViewToWidget
 nsView
 *
 aView
-nsView
-*
-aWidgetView
 const
 nsRect
 &
