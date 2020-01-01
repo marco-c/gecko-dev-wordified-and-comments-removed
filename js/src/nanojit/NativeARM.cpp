@@ -197,7 +197,13 @@ AvmCore
 *
 )
 {
-has_cmov
+avmplus
+:
+:
+AvmCore
+:
+:
+cmov_available
 =
 true
 ;
