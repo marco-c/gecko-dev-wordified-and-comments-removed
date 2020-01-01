@@ -2694,6 +2694,10 @@ file_mixed_content_frameNavigation_secure_grandchild
 .
 html
 \
+file_mixed_content_frameNavigation_blankTarget
+.
+html
+\
 test_bug789856
 .
 html
