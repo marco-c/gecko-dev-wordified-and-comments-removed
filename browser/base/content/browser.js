@@ -35560,12 +35560,6 @@ aIndex
 )
 )
 {
-TabView
-.
-prepareUndoCloseTab
-(
-)
-;
 tab
 =
 ss
