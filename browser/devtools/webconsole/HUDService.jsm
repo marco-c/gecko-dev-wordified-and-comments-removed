@@ -13865,6 +13865,9 @@ full
 "
 )
 ;
+#
+ifdef
+XP_MAC
 this
 .
 makeCloseButton
@@ -13872,6 +13875,8 @@ makeCloseButton
 toolbar
 )
 ;
+#
+endif
 for
 (
 let
@@ -13943,6 +13948,18 @@ makeClearConsoleButton
 toolbar
 )
 ;
+#
+ifndef
+XP_MAC
+this
+.
+makeCloseButton
+(
+toolbar
+)
+;
+#
+endif
 return
 toolbar
 ;
