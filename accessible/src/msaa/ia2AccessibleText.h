@@ -26,7 +26,7 @@ AccessibleText
 h
 "
 class
-CAccessibleText
+ia2AccessibleText
 :
 public
 IAccessibleText

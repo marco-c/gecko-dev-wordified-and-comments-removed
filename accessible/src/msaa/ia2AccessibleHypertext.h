@@ -14,7 +14,7 @@ h
 #
 include
 "
-CAccessibleText
+ia2AccessibleText
 .
 h
 "
@@ -29,7 +29,7 @@ class
 ia2AccessibleHypertext
 :
 public
-CAccessibleText
+ia2AccessibleText
 public
 IAccessibleHypertext
 {
@@ -46,7 +46,7 @@ void
 ;
 FORWARD_IACCESSIBLETEXT
 (
-CAccessibleText
+ia2AccessibleText
 )
 virtual
 HRESULT
