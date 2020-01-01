@@ -4377,7 +4377,10 @@ l
 )
 {
 return
-JS_HashString
+mozilla
+:
+:
+HashString
 (
 l
 )

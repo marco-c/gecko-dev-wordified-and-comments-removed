@@ -93,7 +93,12 @@ DIRS
 idl
 CPPSRCS
 =
+\
 jsd_xpc
+.
+cpp
+\
+jshash
 .
 cpp
 IS_COMPONENT
