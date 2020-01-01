@@ -191,7 +191,6 @@ svg
 pass
 .
 svg
-fails
 =
 =
 dynamic
@@ -214,9 +213,6 @@ contents
 ref
 .
 svg
-#
-bug
-471631
 =
 =
 dynamic
