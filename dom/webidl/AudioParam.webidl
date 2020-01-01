@@ -299,6 +299,9 @@ equal
 to
 startTime
 .
+[
+Throws
+]
 void
 cancelScheduledValues
 (
