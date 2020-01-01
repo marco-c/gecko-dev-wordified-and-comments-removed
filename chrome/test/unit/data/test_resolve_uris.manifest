@@ -1,15 +1,6 @@
 resource
 foo
-resource
-:
-/
-/
-foo
-/
-foo
--
-resource
-/
+.
 content
 foo
 resource
