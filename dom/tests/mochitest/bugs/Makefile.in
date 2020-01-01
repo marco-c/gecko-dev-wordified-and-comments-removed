@@ -708,6 +708,10 @@ utils_bug260264
 .
 js
 \
+test_bug529328
+.
+html
+\
 test_bug531176
 .
 html
