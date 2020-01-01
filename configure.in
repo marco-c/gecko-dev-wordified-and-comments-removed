@@ -3025,6 +3025,17 @@ base
 include
 STLPORT_CPPFLAGS
 CPPFLAGS
+-
+I
+gonkdir
+/
+frameworks
+/
+base
+/
+services
+/
+sensorservice
 "
 CFLAGS
 =
