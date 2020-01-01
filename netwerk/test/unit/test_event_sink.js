@@ -97,11 +97,6 @@ event
 sinks
 "
 ;
-const
-NS_BINDING_ABORTED
-=
-0x804b0002
-;
 var
 eventsink
 =
@@ -225,6 +220,10 @@ called
 true
 ;
 throw
+Components
+.
+results
+.
 NS_BINDING_ABORTED
 ;
 }

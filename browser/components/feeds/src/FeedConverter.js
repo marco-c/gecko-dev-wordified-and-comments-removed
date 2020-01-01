@@ -1195,7 +1195,9 @@ request
 .
 cancel
 (
-0x804b0002
+Cr
+.
+NS_BINDING_ABORTED
 )
 ;
 return
