@@ -474,7 +474,7 @@ idx
 ;
 idx
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 attrArray
 )
@@ -500,11 +500,10 @@ if
 (
 mOffsetAcc
 )
-{
 GetRange
 (
 attrArray
-NS_ARRAY_LENGTH
+ArrayLength
 (
 attrArray
 )
@@ -512,7 +511,6 @@ aStartHTOffset
 aEndHTOffset
 )
 ;
-}
 }
 void
 TextAttrsMgr
