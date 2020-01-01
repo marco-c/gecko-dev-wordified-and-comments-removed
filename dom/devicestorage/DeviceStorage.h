@@ -701,15 +701,9 @@ nsresult
 GetInternal
 (
 const
-JS
-:
-:
-Value
+nsAString
 &
 aName
-JSContext
-*
-aCx
 nsIDOMDOMRequest
 *
 *
