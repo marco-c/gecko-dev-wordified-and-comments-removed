@@ -525,6 +525,9 @@ case
 NS_FORM_INPUT_RADIO
 :
 case
+NS_FORM_INPUT_SEARCH
+:
+case
 NS_FORM_INPUT_SUBMIT
 :
 case

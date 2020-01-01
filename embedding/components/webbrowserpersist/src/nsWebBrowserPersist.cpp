@@ -13119,6 +13119,9 @@ GetType
 )
 {
 case
+NS_FORM_INPUT_SEARCH
+:
+case
 NS_FORM_INPUT_TEXT
 :
 case
