@@ -1996,6 +1996,8 @@ CanSkip
 nsINode
 *
 aNode
+bool
+aRemovingAllowed
 )
 ;
 static
