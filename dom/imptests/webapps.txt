@@ -17,6 +17,11 @@ DOMCore
 /
 tests
 /
+approved
+DOMCore
+/
+tests
+/
 submissions
 /
 Opera

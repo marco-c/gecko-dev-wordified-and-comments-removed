@@ -8,6 +8,14 @@ DOMCore
 /
 tests
 /
+approved
+\
+webapps
+/
+DOMCore
+/
+tests
+/
 submissions
 /
 Opera
