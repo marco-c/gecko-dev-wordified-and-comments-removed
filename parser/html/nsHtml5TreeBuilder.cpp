@@ -4669,6 +4669,11 @@ case
 NS_HTML5TREE_BUILDER_INPUT
 :
 {
+errStartTagInTable
+(
+name
+)
+;
 if
 (
 !

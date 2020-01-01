@@ -8573,6 +8573,11 @@ starttagloop
 case
 INPUT
 :
+errStartTagInTable
+(
+name
+)
+;
 if
 (
 !
