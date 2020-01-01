@@ -4546,6 +4546,7 @@ Init
 (
 aURI
 loadGroup
+newChannel
 entry
 cacheId
 aCX
@@ -4581,7 +4582,7 @@ pl
 request
 -
 >
-Cancel
+CancelAndAbort
 (
 NS_ERROR_OUT_OF_MEMORY
 )
@@ -4696,7 +4697,7 @@ openRes
 request
 -
 >
-Cancel
+CancelAndAbort
 (
 openRes
 )
@@ -5120,14 +5121,6 @@ nsnull
 }
 else
 {
-nsIThread
-*
-thread
-=
-NS_GetCurrentThread
-(
-)
-;
 NewRequestAndEntry
 (
 uri
@@ -5165,8 +5158,11 @@ Init
 (
 originalURI
 channel
+channel
 entry
-thread
+NS_GetCurrentThread
+(
+)
 aCX
 )
 ;
@@ -6430,6 +6426,7 @@ request
 Init
 (
 originalURI
+channel
 channel
 entry
 NS_GetCurrentThread
