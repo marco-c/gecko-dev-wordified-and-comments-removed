@@ -162,7 +162,6 @@ svg
 pass
 .
 svg
-#
 skip
 -
 if
@@ -273,7 +272,6 @@ svg
 pass
 .
 svg
-#
 skip
 -
 if
