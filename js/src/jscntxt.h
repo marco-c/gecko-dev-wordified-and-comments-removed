@@ -261,6 +261,9 @@ Fragment
 class
 Fragmento
 ;
+class
+LirBuffer
+;
 }
 class
 TraceRecorder
@@ -355,6 +358,15 @@ recoveryDoublePool
 jsval
 *
 recoveryDoublePoolPtr
+;
+CLS
+(
+nanojit
+:
+:
+LirBuffer
+)
+reLirBuf
 ;
 CLS
 (
