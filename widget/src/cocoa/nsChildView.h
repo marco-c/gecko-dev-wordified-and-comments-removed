@@ -1043,6 +1043,11 @@ indexString
 )
 ;
 NS_IMETHOD
+ForceNativeMenuReload
+(
+)
+;
+NS_IMETHOD
 ResetInputState
 (
 )
