@@ -61,6 +61,13 @@ nsDebug
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsresult
 NS_NewSVGAElement
 (
@@ -199,7 +206,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 ;
@@ -383,7 +390,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 ;
@@ -950,7 +957,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {

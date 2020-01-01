@@ -302,7 +302,13 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+mozilla
+:
+:
+dom
+:
+:
+FromParser
 aFromParser
 )
 ;

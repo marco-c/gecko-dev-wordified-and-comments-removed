@@ -218,7 +218,13 @@ aResult
 PRBool
 *
 aAppendContent
-PRUint32
+mozilla
+:
+:
+dom
+:
+:
+FromParser
 aFromParser
 )
 ;

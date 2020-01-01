@@ -464,7 +464,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 :
@@ -500,7 +500,7 @@ mInhibitStateRestoration
 (
 aFromParser
 &
-NS_FROM_PARSER_FRAGMENT
+FROM_PARSER_FRAGMENT
 )
 )
 mNonOptionChildren

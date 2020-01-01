@@ -173,6 +173,13 @@ mozAutoDocUpdate
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsGenericHTMLElement
 *
 NS_NewHTMLOptionElement
@@ -182,7 +189,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {

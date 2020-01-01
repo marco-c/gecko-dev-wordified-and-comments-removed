@@ -1682,7 +1682,7 @@ nsINodeInfo
 >
 aNodeInfo
 \
-PRUint32
+FromParser
 aFromParser
 )
 \

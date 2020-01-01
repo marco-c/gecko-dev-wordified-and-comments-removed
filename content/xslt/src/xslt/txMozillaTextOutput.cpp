@@ -131,6 +131,13 @@ nsGkAtoms
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 txMozillaTextOutput
 :
 :
@@ -1072,7 +1079,7 @@ ni
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 }

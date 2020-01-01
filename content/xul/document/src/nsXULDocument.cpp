@@ -14590,7 +14590,7 @@ newNodeInfo
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 if

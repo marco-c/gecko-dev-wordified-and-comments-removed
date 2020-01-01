@@ -250,6 +250,13 @@ nsLayoutUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 class
 nsHTMLImageElement
 :
@@ -541,7 +548,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {

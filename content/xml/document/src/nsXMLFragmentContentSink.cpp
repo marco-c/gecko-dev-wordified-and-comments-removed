@@ -180,6 +180,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 class
 nsXMLFragmentContentSink
 :
@@ -389,7 +396,13 @@ aResult
 PRBool
 *
 aAppendContent
-PRUint32
+mozilla
+:
+:
+dom
+:
+:
+FromParser
 aFromParser
 )
 ;
@@ -818,8 +831,7 @@ aResult
 PRBool
 *
 aAppendContent
-PRUint32
-aFromParser
+FromParser
 )
 {
 nsresult
@@ -836,7 +848,7 @@ aNodeInfo
 aLineNumber
 aResult
 aAppendContent
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 if

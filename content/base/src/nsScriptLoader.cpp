@@ -2483,7 +2483,7 @@ GetParserCreated
 )
 =
 =
-NS_FROM_PARSER_NETWORK
+FROM_PARSER_NETWORK
 )
 {
 return
@@ -2729,7 +2729,7 @@ GetParserCreated
 )
 =
 =
-NS_NOT_FROM_PARSER
+NOT_FROM_PARSER
 )
 {
 NS_ASSERTION
@@ -2784,7 +2784,7 @@ GetParserCreated
 )
 =
 =
-NS_FROM_PARSER_NETWORK
+FROM_PARSER_NETWORK
 &
 &
 !

@@ -18165,7 +18165,7 @@ nodeInfo
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 NS_ENSURE_SUCCESS
@@ -28410,7 +28410,7 @@ nodeInfo
 forget
 (
 )
-PR_FALSE
+NOT_FROM_PARSER
 )
 ;
 }

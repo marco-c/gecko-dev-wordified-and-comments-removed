@@ -187,6 +187,13 @@ nsMediaError
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 NS_IMPL_NS_NEW_HTML_ELEMENT_CHECK_PARSER
 (
 Video
@@ -315,7 +322,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 :

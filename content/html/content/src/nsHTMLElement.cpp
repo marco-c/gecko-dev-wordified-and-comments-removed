@@ -12,6 +12,13 @@ nsIDOMHTMLElement
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 class
 nsHTMLElement
 :
@@ -96,7 +103,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-PRUint32
+FromParser
 aFromParser
 )
 {

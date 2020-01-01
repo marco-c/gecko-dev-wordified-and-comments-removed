@@ -434,6 +434,13 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsresult
 NS_NewXMLContentSink
 (
@@ -1985,7 +1992,7 @@ aResult
 PRBool
 *
 aAppendContent
-PRUint32
+FromParser
 aFromParser
 )
 {
@@ -4238,7 +4245,7 @@ content
 )
 &
 appendContent
-PR_TRUE
+FROM_PARSER_NETWORK
 )
 ;
 NS_ENSURE_SUCCESS
