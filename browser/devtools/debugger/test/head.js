@@ -674,8 +674,13 @@ debug_remote
 (
 aURL
 aOnDebugging
+aBeforeTabAdded
 )
 {
+aBeforeTabAdded
+(
+)
+;
 let
 tab
 =
