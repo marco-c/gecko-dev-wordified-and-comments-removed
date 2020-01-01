@@ -5720,9 +5720,7 @@ scaleFactor
 (
 heightMM
 /
-25
-.
-4f
+MM_PER_INCH_FLOAT
 )
 ;
 }

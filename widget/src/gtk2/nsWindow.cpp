@@ -3157,9 +3157,7 @@ dpy
 defaultScreen
 )
 /
-25
-.
-4
+MM_PER_INCH_FLOAT
 ;
 if
 (
