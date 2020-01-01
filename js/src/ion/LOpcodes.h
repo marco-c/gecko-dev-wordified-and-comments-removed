@@ -290,6 +290,16 @@ _
 (
 LoadPropertyGeneric
 )
+\
+_
+(
+ArrayLength
+)
+\
+_
+(
+StringLength
+)
 #
 if
 defined

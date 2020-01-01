@@ -224,6 +224,11 @@ GuardClass
 \
 _
 (
+ArrayLength
+)
+\
+_
+(
 InitializedLength
 )
 \
@@ -245,6 +250,11 @@ StoreElement
 _
 (
 LoadProperty
+)
+\
+_
+(
+StringLength
 )
 #
 define
