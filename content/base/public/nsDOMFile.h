@@ -708,6 +708,9 @@ mContentType
 nsString
 mName
 ;
+nsString
+mPath
+;
 uint64_t
 mStart
 ;
@@ -1410,6 +1413,15 @@ nsIInputStream
 *
 )
 MOZ_OVERRIDE
+;
+void
+SetPath
+(
+const
+nsAString
+&
+aFullPath
+)
 ;
 protected
 :
