@@ -99,17 +99,6 @@ NS_THEMERENDERER_CID
 0x5
 }
 }
-enum
-nsTransparencyMode
-{
-eTransparencyOpaque
-=
-0
-eTransparencyTransparent
-eTransparencyGlass
-eTransparencyBorderlessGlass
-}
-;
 class
 nsITheme
 :

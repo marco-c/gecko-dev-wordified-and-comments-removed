@@ -149,6 +149,13 @@ include
 algorithm
 >
 #
+include
+"
+nsITheme
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
