@@ -7533,7 +7533,7 @@ window
 mOpenDBRequest
 -
 >
-GetOwner
+Owner
 (
 )
 ;
@@ -9927,6 +9927,17 @@ IDBDatabase
 Create
 (
 mOpenDBRequest
+-
+>
+ScriptContext
+(
+)
+mOpenDBRequest
+-
+>
+Owner
+(
+)
 dbInfo
 .
 forget
