@@ -502,9 +502,6 @@ GENERATOR_INTERVAL
 const
 MICSUM_NS
 =
-new
-Namespace
-(
 "
 http
 :
@@ -522,14 +519,10 @@ microsummaries
 .
 1
 "
-)
 ;
 const
 XSLT_NS
 =
-new
-Namespace
-(
 "
 http
 :
@@ -547,7 +540,6 @@ XSL
 /
 Transform
 "
-)
 ;
 const
 ANNO_MICSUM_GEN_URI
