@@ -1118,6 +1118,17 @@ GetEnd
 )
 const
 ;
+#
+ifdef
+DEBUG
+void
+DumpTrackInfo
+(
+)
+const
+;
+#
+endif
 Track
 *
 FindTrack

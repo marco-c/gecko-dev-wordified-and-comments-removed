@@ -3437,8 +3437,11 @@ MediaManager
 (
 )
 ;
-NS_NewThread
+NS_NewNamedThread
 (
+"
+MediaManager
+"
 getter_AddRefs
 (
 sSingleton
