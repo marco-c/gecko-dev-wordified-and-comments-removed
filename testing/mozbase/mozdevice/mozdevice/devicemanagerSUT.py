@@ -2274,6 +2274,9 @@ destname
 retryLimit
 =
 None
+createDir
+=
+True
 )
 :
         
@@ -2285,6 +2288,10 @@ self
 .
 retryLimit
         
+if
+createDir
+:
+            
 self
 .
 mkDirs
@@ -2658,6 +2665,9 @@ remoteName
 retryLimit
 =
 retryLimit
+createDir
+=
+False
 )
     
 def
@@ -3901,9 +3911,6 @@ uread
 (
 to_recv
 error_msg
-timeout
-=
-None
 )
 :
             
@@ -3916,27 +3923,13 @@ read
 "
 "
             
-timer
-=
-0
-            
-select_timeout
-=
-1
-            
-if
-not
-timeout
-:
-                
-timeout
-=
-self
-.
-default_timeout
-            
 try
 :
+                
+data
+=
+"
+"
                 
 if
 select
@@ -3952,7 +3945,9 @@ _sock
 ]
 [
 ]
-select_timeout
+self
+.
+default_timeout
 )
 [
 0
@@ -3968,33 +3963,6 @@ _sock
 recv
 (
 to_recv
-)
-                    
-timer
-=
-0
-                
-timer
-+
-=
-select_timeout
-                
-if
-timer
->
-timeout
-:
-                    
-err
-(
-'
-timeout
-in
-uread
-while
-retrieving
-file
-'
 )
                 
 if
@@ -4046,10 +4014,7 @@ rest
             
 while
 not
-'
-\
-n
-'
+c
 in
 buf
 :
