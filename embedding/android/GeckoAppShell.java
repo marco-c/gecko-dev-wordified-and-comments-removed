@@ -543,15 +543,6 @@ System
 loadLibrary
 (
 "
-mozjs
-"
-)
-;
-System
-.
-loadLibrary
-(
-"
 xul
 "
 )
