@@ -700,7 +700,7 @@ RET
 (
 )
 ;
-POP
+POPr
 (
 FP
 )
@@ -740,13 +740,13 @@ i
 )
 )
 {
-POP
+POPr
 (
 i
 )
 ;
 }
-POP
+POPr
 (
 FP
 )
