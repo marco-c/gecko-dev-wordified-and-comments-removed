@@ -1320,6 +1320,9 @@ start
 uint32
 end
 ;
+uint32
+savedEnd
+;
 bool
 loopTail
 ;
@@ -1334,6 +1337,8 @@ Lifetime
 (
 uint32
 offset
+uint32
+savedEnd
 Lifetime
 *
 next
@@ -1346,6 +1351,10 @@ offset
 end
 (
 offset
+)
+savedEnd
+(
+savedEnd
 )
 loopTail
 (
