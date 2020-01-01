@@ -475,10 +475,6 @@ NULL
 EXPORTS
 =
 \
-nsThread
-.
-h
-\
 nsProcess
 .
 h
