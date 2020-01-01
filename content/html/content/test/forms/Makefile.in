@@ -258,6 +258,10 @@ test_stepup_stepdown
 .
 html
 \
+test_valueasnumber_attribute
+.
+html
+\
 (
 NULL
 )
