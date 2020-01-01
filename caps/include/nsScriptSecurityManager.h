@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -1466,11 +1459,6 @@ static
 nsIXPConnect
 *
 sXPConnect
-;
-static
-nsIThreadJSContextStack
-*
-sJSContextStack
 ;
 static
 nsIStringBundle
