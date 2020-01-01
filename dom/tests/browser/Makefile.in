@@ -467,10 +467,6 @@ browser_autofocus_preference
 .
 js
 \
-browser_popup_blocker_save_open_panel
-.
-js
-\
 browser_bug396843
 .
 js
