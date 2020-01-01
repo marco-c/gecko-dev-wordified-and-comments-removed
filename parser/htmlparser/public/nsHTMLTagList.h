@@ -358,6 +358,11 @@ Meta
 )
 HTML_TAG
 (
+meter
+Meter
+)
+HTML_TAG
+(
 multicol
 Span
 )

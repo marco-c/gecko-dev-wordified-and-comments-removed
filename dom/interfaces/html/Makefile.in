@@ -239,6 +239,10 @@ nsIDOMHTMLMetaElement
 .
 idl
 \
+nsIDOMHTMLMeterElement
+.
+idl
+\
 nsIDOMHTMLModElement
 .
 idl

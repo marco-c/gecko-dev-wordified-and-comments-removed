@@ -259,6 +259,10 @@ nsHTMLMetaElement
 .
 cpp
 \
+nsHTMLMeterElement
+.
+cpp
+\
 nsHTMLModElement
 .
 cpp
