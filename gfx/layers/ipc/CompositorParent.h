@@ -259,6 +259,16 @@ isFirstPaint
 MOZ_OVERRIDE
 ;
 void
+ForceIsFirstPaint
+(
+)
+{
+mIsFirstPaint
+=
+true
+;
+}
+void
 Destroy
 (
 )
