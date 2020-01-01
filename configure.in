@@ -32558,7 +32558,7 @@ EXPAND_LIBNAME_PATH
 mozz
 '
 "
-_objdir
+MOZ_BUILD_ROOT
 "
 '
 /
