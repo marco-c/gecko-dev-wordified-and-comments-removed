@@ -455,6 +455,10 @@ browser_nsIDownloadManagerUI
 .
 js
 \
+browser_bug414214
+.
+js
+\
 (
 NULL
 )
