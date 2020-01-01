@@ -3592,7 +3592,7 @@ get
 (
 cx
 wrapper
-receiver
+wrapper
 id
 vp
 )
@@ -3642,7 +3642,7 @@ set
 (
 cx
 wrapper
-receiver
+wrapper
 id
 vp
 )
