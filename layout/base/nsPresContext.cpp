@@ -796,10 +796,6 @@ mPPScale
 .
 0f
 )
-mMinFontSize
-(
-0
-)
 mViewportStyleOverflow
 (
 NS_STYLE_OVERFLOW_AUTO
@@ -1977,7 +1973,7 @@ unit
 eUnit_px
 )
 {
-mMinimumFontSizePref
+mMinimumFontSize
 =
 CSSPixelsToAppUnits
 (
@@ -1994,7 +1990,7 @@ unit
 eUnit_pt
 )
 {
-mMinimumFontSizePref
+mMinimumFontSize
 =
 CSSPointsToAppUnits
 (
@@ -4688,13 +4684,6 @@ get
 (
 )
 ;
-#
-if
-!
-defined
-(
-XP_BEOS
-)
 if
 (
 mLanguage
@@ -4724,8 +4713,6 @@ GetLocaleLanguage
 )
 ;
 }
-#
-endif
 GetFontPreferences
 (
 )

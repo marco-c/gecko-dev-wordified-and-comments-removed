@@ -215,15 +215,6 @@ endif
 elif
 defined
 (
-__BEOS__
-)
-#
-define
-CFRONT_STYLE_THIS_ADJUST
-#
-elif
-defined
-(
 __sun__
 )
 |

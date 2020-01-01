@@ -2339,12 +2339,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 if
 (
 aIn

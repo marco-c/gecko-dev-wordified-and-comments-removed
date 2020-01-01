@@ -559,9 +559,6 @@ defs
 .
 h
 \
-dependencies
-.
-beos
 config
 /
 autoconf

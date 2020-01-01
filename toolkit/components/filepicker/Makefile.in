@@ -419,7 +419,6 @@ ifeq
 filter
 android
 qt
-beos
 os2
 cocoa
 windows

@@ -987,7 +987,6 @@ ifeq
 filter
 android
 qt
-beos
 os2
 cocoa
 windows
@@ -1111,7 +1110,6 @@ ifneq
 (
 (
 filter
-beos
 windows
 os2
 mac
@@ -1169,18 +1167,6 @@ COMPONENT_LIBS
 +
 =
 gkwidget
-endif
-ifeq
-(
-beos
-(
-MOZ_WIDGET_TOOLKIT
-)
-)
-COMPONENT_LIBS
-+
-=
-widget_beos
 endif
 ifeq
 (

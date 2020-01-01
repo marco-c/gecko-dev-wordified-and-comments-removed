@@ -74,12 +74,6 @@ XP_MACOSX
 |
 defined
 (
-XP_BEOS
-)
-|
-|
-defined
-(
 ANDROID
 )
 return

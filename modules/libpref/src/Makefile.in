@@ -592,9 +592,6 @@ js
 aix
 .
 js
-beos
-.
-js
 unix
 .
 js

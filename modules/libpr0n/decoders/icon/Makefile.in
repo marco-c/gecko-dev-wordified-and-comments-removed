@@ -512,17 +512,6 @@ PLATFORM
 =
 mac
 endif
-ifeq
-(
-(
-OS_ARCH
-)
-BeOS
-)
-PLATFORM
-=
-beos
-endif
 CPPSRCS
 =
 \

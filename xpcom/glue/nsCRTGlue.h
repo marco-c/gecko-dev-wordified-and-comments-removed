@@ -360,12 +360,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 #
 define
 FILE_PATH_SEPARATOR

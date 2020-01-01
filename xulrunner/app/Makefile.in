@@ -512,7 +512,6 @@ ifneq
 (
 (
 filter
-BeOS
 OS2
 WINCE
 WINNT
@@ -979,19 +978,6 @@ ifeq
 (
 OS_ARCH
 )
-BeOS
-)
-OS_LIBS
-+
-=
--
-ltracker
-endif
-ifeq
-(
-(
-OS_ARCH
-)
 OS2
 )
 RESFILE
@@ -1234,7 +1220,6 @@ out
 OS2
 WINCE
 WINNT
-BeOS
 (
 OS_ARCH
 )

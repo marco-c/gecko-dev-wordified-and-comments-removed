@@ -11,12 +11,6 @@ defined
 (
 XP_UNIX
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 #
 include
 <
@@ -1452,12 +1446,6 @@ if
 defined
 (
 XP_UNIX
-)
-|
-|
-defined
-(
-XP_BEOS
 )
 if
 (

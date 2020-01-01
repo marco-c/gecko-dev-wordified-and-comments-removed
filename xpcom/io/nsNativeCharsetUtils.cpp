@@ -11,12 +11,6 @@ h
 if
 defined
 (
-XP_BEOS
-)
-|
-|
-defined
-(
 XP_MACOSX
 )
 |

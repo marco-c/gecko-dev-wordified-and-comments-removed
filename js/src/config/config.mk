@@ -1001,17 +1001,6 @@ CC
 )
 endif
 endif
-ifeq
-(
-(
-OS_ARCH
-)
-BeOS
-)
-BEOS_ADDON_WORKAROUND
-=
-1
-endif
 #
 #
 Strip

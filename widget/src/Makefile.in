@@ -419,7 +419,6 @@ ifneq
 (
 (
 filter
-beos
 os2
 cocoa
 qt

@@ -4682,12 +4682,6 @@ defined
 (
 MOZ_X11
 )
-|
-|
-defined
-(
-XP_BEOS
-)
 NS_IMETHODIMP
 nsThebesRenderingContext
 :
@@ -6096,12 +6090,6 @@ XP_OS2
 defined
 (
 MOZ_X11
-)
-|
-|
-defined
-(
-XP_BEOS
 )
 |
 |
