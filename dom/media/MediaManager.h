@@ -293,6 +293,11 @@ aThread
 nsDOMMediaStream
 *
 aStream
+already_AddRefed
+<
+MediaInputPort
+>
+aPort
 MediaEngineSource
 *
 aAudioSource
@@ -316,6 +321,10 @@ aVideoSource
 mStream
 (
 aStream
+)
+mPort
+(
+aPort
 )
 mSourceStream
 (
@@ -530,6 +539,12 @@ nsRefPtr
 nsDOMMediaStream
 >
 mStream
+;
+nsRefPtr
+<
+MediaInputPort
+>
+mPort
 ;
 SourceMediaStream
 *

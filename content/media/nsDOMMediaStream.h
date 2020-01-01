@@ -184,6 +184,10 @@ nsDOMMediaStream
 >
 CreateTrackUnionStream
 (
+uint32_t
+aHintContents
+=
+0
 )
 ;
 protected
@@ -256,6 +260,10 @@ nsDOMLocalMediaStream
 >
 CreateTrackUnionStream
 (
+uint32_t
+aHintContents
+=
+0
 )
 ;
 }
