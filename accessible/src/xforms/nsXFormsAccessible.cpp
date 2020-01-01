@@ -831,7 +831,7 @@ bool
 nsXFormsAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {
@@ -878,7 +878,7 @@ bool
 nsXFormsContainerAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {

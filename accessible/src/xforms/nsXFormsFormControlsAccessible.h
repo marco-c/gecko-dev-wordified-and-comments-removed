@@ -669,7 +669,7 @@ NativeState
 ;
 virtual
 bool
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 ;

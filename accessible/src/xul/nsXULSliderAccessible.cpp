@@ -519,7 +519,7 @@ bool
 nsXULSliderAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {

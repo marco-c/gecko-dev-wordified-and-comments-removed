@@ -2780,7 +2780,7 @@ bool
 nsAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {
@@ -13457,7 +13457,7 @@ walker
 (
 mWeakShell
 mContent
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 )

@@ -1720,7 +1720,7 @@ bool
 nsXFormsSelectComboboxAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {

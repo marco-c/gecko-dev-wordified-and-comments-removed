@@ -2683,7 +2683,7 @@ bool
 nsXULTextFieldAccessible
 :
 :
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 {

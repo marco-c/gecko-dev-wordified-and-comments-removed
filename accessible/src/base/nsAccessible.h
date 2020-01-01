@@ -819,7 +819,7 @@ aAccEvent
 ;
 virtual
 bool
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 ;

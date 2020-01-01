@@ -5894,7 +5894,7 @@ mDocument
 GetRootElement
 (
 )
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 )
@@ -7351,7 +7351,7 @@ aChildNode
 aContainer
 -
 >
-GetAllowsAnonChildAccessibles
+CanHaveAnonChildren
 (
 )
 true
