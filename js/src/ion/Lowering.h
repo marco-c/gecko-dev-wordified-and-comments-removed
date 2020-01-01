@@ -188,6 +188,14 @@ test
 )
 ;
 bool
+visitCompare
+(
+MCompare
+*
+comp
+)
+;
+bool
 visitBitNot
 (
 MBitNot
