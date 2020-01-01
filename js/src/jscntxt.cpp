@@ -1269,6 +1269,16 @@ jsuword
 ;
 #
 endif
+cx
+-
+>
+iterValue
+.
+setMagic
+(
+JS_NO_ITER_VALUE
+)
+;
 JS_STATIC_ASSERT
 (
 JSVERSION_DEFAULT

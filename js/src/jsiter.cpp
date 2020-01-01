@@ -4731,6 +4731,13 @@ return
 true
 ;
 }
+JS_CHECK_RECURSION
+(
+cx
+return
+false
+)
+;
 if
 (
 !
