@@ -212,6 +212,13 @@ stateUnspecified
 |
 adjustResize
 "
+android
+:
+launchMode
+=
+"
+singleInstance
+"
 >
 <
 intent
