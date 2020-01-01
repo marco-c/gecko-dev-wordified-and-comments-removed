@@ -1487,6 +1487,10 @@ mFlags
 (
 aFlags
 )
+mGraph
+(
+nullptr
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -1573,6 +1577,14 @@ Graph
 (
 )
 ;
+void
+SetGraphImpl
+(
+MediaStreamGraphImpl
+*
+aGraph
+)
+;
 protected
 :
 friend
@@ -1597,6 +1609,10 @@ mDest
 ;
 uint32_t
 mFlags
+;
+MediaStreamGraphImpl
+*
+mGraph
 ;
 }
 ;
