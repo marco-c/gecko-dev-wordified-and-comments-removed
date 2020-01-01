@@ -2542,7 +2542,7 @@ rv
 pluginHost
 -
 >
-DoInstantiateEmbeddedPlugin
+InstantiateEmbeddedPlugin
 (
 aContentType
 .
