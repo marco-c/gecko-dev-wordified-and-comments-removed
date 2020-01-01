@@ -4005,6 +4005,16 @@ emptyText
 (
 )
 ;
+DebuggerView
+.
+editor
+.
+setText
+(
+"
+"
+)
+;
 }
 _setEditorMode
 :
