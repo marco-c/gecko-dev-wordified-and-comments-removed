@@ -486,6 +486,14 @@ NPEventX11
 .
 h
 \
+PluginIdentifierChild
+.
+h
+\
+PluginIdentifierParent
+.
+h
+\
 PluginInstanceChild
 .
 h

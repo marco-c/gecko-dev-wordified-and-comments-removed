@@ -110,14 +110,6 @@ null_t
 }
 ;
 namespace
-ipc
-{
-typedef
-intptr_t
-NPRemoteIdentifier
-;
-}
-namespace
 plugins
 {
 enum

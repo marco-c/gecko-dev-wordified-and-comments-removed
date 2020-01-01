@@ -391,6 +391,10 @@ PPluginModule
 .
 ipdl
 \
+PPluginIdentifier
+.
+ipdl
+\
 PPluginInstance
 .
 ipdl
