@@ -155,6 +155,7 @@ namespace
 {
 class
 ClearHashtableOnShutdown
+MOZ_FINAL
 :
 public
 nsIObserver
