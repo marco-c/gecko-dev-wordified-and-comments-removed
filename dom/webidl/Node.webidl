@@ -317,7 +317,7 @@ hasChildNodes
 )
 ;
 [
-Constant
+SameObject
 ]
 readonly
 attribute

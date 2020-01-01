@@ -291,7 +291,7 @@ DOMTokenList
 classList
 ;
 [
-Constant
+SameObject
 ]
 readonly
 attribute

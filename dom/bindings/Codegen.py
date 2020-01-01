@@ -43925,6 +43925,19 @@ True
             
 getterconst
 =
+(
+self
+.
+member
+.
+getExtendedAttribute
+(
+"
+SameObject
+"
+)
+or
+                           
 self
 .
 member
@@ -43934,6 +43947,7 @@ getExtendedAttribute
 "
 Constant
 "
+)
 )
             
 getterpure
