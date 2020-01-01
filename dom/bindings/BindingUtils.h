@@ -31,6 +31,15 @@ h
 #
 include
 "
+mozilla
+/
+ErrorResult
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -160,7 +169,9 @@ ThrowMethodFailedWithDetails
 JSContext
 *
 cx
-nsresult
+const
+ErrorResult
+&
 rv
 const
 char
@@ -178,6 +189,10 @@ mainThread
 (
 cx
 rv
+.
+ErrorCode
+(
+)
 )
 ;
 }

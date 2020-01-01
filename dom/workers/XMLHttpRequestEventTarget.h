@@ -85,7 +85,7 @@ GetOn
 #
 _type
 (
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -117,7 +117,7 @@ _type
 JSObject
 *
 aListener
-nsresult
+ErrorResult
 &
 aRv
 )
