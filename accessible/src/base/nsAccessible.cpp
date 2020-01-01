@@ -10967,6 +10967,11 @@ Shutdown
 (
 )
 {
+mFlags
+|
+=
+eIsDefunct
+;
 InvalidateChildren
 (
 )

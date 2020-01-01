@@ -195,13 +195,6 @@ Shutdown
 )
 ;
 virtual
-bool
-IsDefunct
-(
-)
-const
-;
-virtual
 nsIFrame
 *
 GetFrame

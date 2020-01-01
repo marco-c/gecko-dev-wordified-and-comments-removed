@@ -245,13 +245,6 @@ aIndex
 NS_DECL_NSIACCESSIBLEAPPLICATION
 virtual
 bool
-IsDefunct
-(
-)
-const
-;
-virtual
-bool
 Init
 (
 )
