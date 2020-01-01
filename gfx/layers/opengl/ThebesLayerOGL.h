@@ -285,10 +285,8 @@ return
 mBufferRotation
 ;
 }
-nsRefPtr
-<
 gfxASurface
->
+*
 Buffer
 (
 )
