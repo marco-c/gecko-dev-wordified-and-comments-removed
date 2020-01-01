@@ -2273,20 +2273,36 @@ time
 )
 )
   
+utils
+.
+stamped_msg
+(
+title
+"
+Started
+"
+)
+  
 for
 test
 in
 tests
 :
     
-print
+utils
+.
+stamped_msg
+(
 "
 Running
 test
-:
 "
 +
 test
+"
+Started
+"
+)
     
 res
 browser_dump
@@ -2307,6 +2323,20 @@ if
 not
 res
 :
+      
+utils
+.
+stamped_msg
+(
+"
+Failed
+"
++
+test
+"
+Stopped
+"
+)
       
 print
 '
@@ -2338,14 +2368,30 @@ browser_dump
 counter_dump
 ]
     
-print
+utils
+.
+stamped_msg
+(
 "
 Completed
 test
-:
 "
 +
 test
+"
+Stopped
+"
+)
+  
+utils
+.
+stamped_msg
+(
+title
+"
+Stopped
+"
+)
   
 if
 (
