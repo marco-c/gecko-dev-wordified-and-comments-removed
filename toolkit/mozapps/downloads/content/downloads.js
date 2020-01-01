@@ -3832,6 +3832,9 @@ setSearchboxFocus
 (
 )
 {
+var
+searchbox
+=
 document
 .
 getElementById
@@ -3840,8 +3843,16 @@ getElementById
 searchbox
 "
 )
+;
+searchbox
 .
 focus
+(
+)
+;
+searchbox
+.
+select
 (
 )
 ;
