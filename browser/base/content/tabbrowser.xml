@@ -9475,13 +9475,13 @@ tabsToClose
 "
 tabs
 .
-closeWarningOne
+closeWarningOneTab
 "
 :
 "
 tabs
 .
-closeWarningMultiple
+closeWarningMultipleTabs
 "
 ;
 var
