@@ -742,6 +742,17 @@ AP__updateSize
 (
 )
 {
+if
+(
+!
+this
+.
+_panel
+)
+{
+return
+;
+}
 this
 .
 _list
