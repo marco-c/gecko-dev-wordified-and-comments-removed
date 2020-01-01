@@ -598,6 +598,9 @@ b
 (
 bool
 )
+(
+uint8_t
+)
 value
 ;
 break
