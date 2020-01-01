@@ -1199,7 +1199,6 @@ else
 undef
 NSPR_LOCK
 extern
-JS_INLINE
 void
 js_Lock
 (
@@ -1211,7 +1210,6 @@ me
 )
 ;
 extern
-JS_INLINE
 void
 js_Unlock
 (
