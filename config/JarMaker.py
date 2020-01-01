@@ -2365,7 +2365,14 @@ chromebasepath
 s
 '
 +
+os
+.
+path
+.
+basename
+(
 jarfile
+)
     
 if
 self
