@@ -22934,6 +22934,8 @@ cx
 {
 if
 (
+!
+(
 cx
 -
 >
@@ -22947,6 +22949,7 @@ cx
 options
 &
 JSOPTION_METHODJIT
+)
 )
 )
 return
