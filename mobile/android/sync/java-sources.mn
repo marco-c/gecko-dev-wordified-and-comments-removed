@@ -74,6 +74,13 @@ NoKeyBundleException
 java
 sync
 /
+crypto
+/
+PersistedCrypto5Keys
+.
+java
+sync
+/
 CryptoRecord
 .
 java
@@ -571,6 +578,11 @@ java
 sync
 /
 NullClusterURLException
+.
+java
+sync
+/
+PersistedMetaGlobal
 .
 java
 sync
@@ -1250,7 +1262,7 @@ sync
 /
 stage
 /
-EnsureKeysStage
+EnsureCrypto5KeysStage
 .
 java
 sync

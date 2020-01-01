@@ -73,10 +73,4 @@ Exception
 e
 )
 ;
-public
-MetaGlobalDelegate
-deferred
-(
-)
-;
 }

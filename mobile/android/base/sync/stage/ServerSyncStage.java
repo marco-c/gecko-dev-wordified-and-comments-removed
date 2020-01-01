@@ -325,7 +325,7 @@ collectionKey
 =
 session
 .
-keyForCollection
+keyBundleForCollection
 (
 collection
 )

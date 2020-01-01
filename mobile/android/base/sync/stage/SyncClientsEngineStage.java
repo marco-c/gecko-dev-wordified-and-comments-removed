@@ -867,7 +867,7 @@ try
 return
 session
 .
-keyForCollection
+keyBundleForCollection
 (
 COLLECTION_NAME
 )
@@ -1251,7 +1251,7 @@ try
 return
 session
 .
-keyForCollection
+keyBundleForCollection
 (
 COLLECTION_NAME
 )
