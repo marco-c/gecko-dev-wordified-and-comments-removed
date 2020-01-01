@@ -3105,6 +3105,8 @@ a
 .
 join
 (
+"
+"
 )
 ;
 }
@@ -3113,6 +3115,7 @@ nonEmptyStack1
 (
 )
 {
+return
 nonEmptyStack1Helper
 (
 {
@@ -3147,7 +3150,7 @@ hi
 )
 ;
 }
-nonEmptyStack2
+nonEmptyStack1
 .
 expected
 =
@@ -3157,7 +3160,7 @@ abcdefgh
 ;
 test
 (
-nonEmptyStack2
+nonEmptyStack1
 )
 ;
 function
