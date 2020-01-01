@@ -117,6 +117,12 @@ UpdRootD
 "
 #
 define
+XRE_UPDATE_ARCHIVE_DIR
+"
+UpdArchD
+"
+#
+define
 XRE_OS_UPDATE_APPLY_TO_DIR
 "
 OSUpdApplyToD
