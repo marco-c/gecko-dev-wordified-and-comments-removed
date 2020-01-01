@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsReadLine
+nsAutoPtr
 .
 h
 "
@@ -58,6 +58,13 @@ h
 include
 "
 nsIUnicharBuffer
+.
+h
+"
+#
+include
+"
+nsReadLine
 .
 h
 "
@@ -203,11 +210,13 @@ mUnicharDataLength
 PRUnichar
 mReplacementChar
 ;
+nsAutoPtr
+<
 nsLineBuffer
 <
 PRUnichar
 >
-*
+>
 mLineBuffer
 ;
 }
