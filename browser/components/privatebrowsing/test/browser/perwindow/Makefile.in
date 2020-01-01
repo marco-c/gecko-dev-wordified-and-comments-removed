@@ -153,6 +153,10 @@ browser_privatebrowsing_openlocation
 .
 js
 \
+browser_privatebrowsing_openLocationLastURL
+.
+js
+\
 browser_privatebrowsing_popupblocker
 .
 js
