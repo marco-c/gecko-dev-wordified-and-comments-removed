@@ -1820,14 +1820,10 @@ generateIV
 (
 )
 ;
-yield
 meta
 .
 addUnwrappedKey
 (
-self
-.
-cb
 pubkey
 symkey
 )
