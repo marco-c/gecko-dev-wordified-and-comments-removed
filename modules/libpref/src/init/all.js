@@ -5753,6 +5753,16 @@ pref
 "
 dom
 .
+xbl_scopes
+"
+false
+)
+;
+pref
+(
+"
+dom
+.
 experimental_forms
 "
 false
