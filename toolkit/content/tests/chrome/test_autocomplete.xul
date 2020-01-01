@@ -235,11 +235,6 @@ javascript
 [
 CDATA
 [
-var
-gDone
-=
-false
-;
 SimpleTest
 .
 waitForExplicitFinish
