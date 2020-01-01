@@ -1012,6 +1012,11 @@ ValidityStateType
 aType
 )
 ;
+PRInt32
+GetFiltersFromAccept
+(
+)
+;
 protected
 :
 using

@@ -249,12 +249,6 @@ CreateAccessible
 ;
 #
 endif
-PRInt32
-GetFileFilterFromAccept
-(
-)
-const
-;
 typedef
 PRBool
 (
