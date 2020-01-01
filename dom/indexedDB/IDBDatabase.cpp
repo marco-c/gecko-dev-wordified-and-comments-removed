@@ -1102,6 +1102,10 @@ if
 mClosed
 )
 {
+mClosed
+=
+true
+;
 {
 nsRefPtr
 <
@@ -1199,10 +1203,6 @@ aIsDead
 )
 ;
 }
-mClosed
-=
-true
-;
 }
 }
 bool
