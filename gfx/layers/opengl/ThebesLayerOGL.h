@@ -146,6 +146,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 ;
 private
@@ -276,6 +282,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 ;
 private

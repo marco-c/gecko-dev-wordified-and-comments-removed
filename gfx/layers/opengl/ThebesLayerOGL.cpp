@@ -419,6 +419,12 @@ aOffset
 LayerManagerOGL
 *
 aManager
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 ;
 nsIntSize
@@ -501,6 +507,12 @@ aOffset
 LayerManagerOGL
 *
 aManager
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 {
 if
@@ -657,6 +669,8 @@ mLayer
 GetOpacity
 (
 )
+*
+aOpacity
 )
 ;
 program
@@ -670,6 +684,8 @@ mLayer
 GetEffectiveTransform
 (
 )
+*
+aMatrix
 )
 ;
 program
@@ -2169,6 +2185,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 {
 if
@@ -2353,6 +2375,8 @@ RenderTo
 (
 aOffset
 mOGLManager
+aOpacity
+aMatrix
 )
 ;
 DEBUG_GL_ERROR_CHECK
@@ -3006,6 +3030,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 {
 if
@@ -3071,6 +3101,8 @@ RenderTo
 (
 aOffset
 mOGLManager
+aOpacity
+aMatrix
 )
 ;
 DEBUG_GL_ERROR_CHECK

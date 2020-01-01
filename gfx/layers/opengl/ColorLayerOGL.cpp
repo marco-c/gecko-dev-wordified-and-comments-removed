@@ -25,6 +25,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 {
 aManager
@@ -57,6 +63,8 @@ aLayer
 GetOpacity
 (
 )
+*
+aOpacity
 ;
 gfxRGBA
 color
@@ -134,6 +142,8 @@ aLayer
 GetEffectiveTransform
 (
 )
+*
+aMatrix
 )
 ;
 program
@@ -182,6 +192,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 {
 return
@@ -190,6 +206,8 @@ RenderColorLayer
 this
 mOGLManager
 aOffset
+aOpacity
+aMatrix
 )
 ;
 }
@@ -207,6 +225,12 @@ const
 nsIntPoint
 &
 aOffset
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aMatrix
 )
 {
 return
@@ -215,6 +239,8 @@ RenderColorLayer
 this
 mOGLManager
 aOffset
+aOpacity
+aMatrix
 )
 ;
 }

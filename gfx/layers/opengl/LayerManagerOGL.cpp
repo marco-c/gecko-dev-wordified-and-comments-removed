@@ -2368,6 +2368,12 @@ nsIntPoint
 0
 0
 )
+1
+.
+0
+gfx3DMatrix
+(
+)
 )
 ;
 DEBUG_GL_ERROR_CHECK
