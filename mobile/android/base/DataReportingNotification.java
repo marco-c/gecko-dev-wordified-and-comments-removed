@@ -311,7 +311,7 @@ setResourceToOpen
 (
 prefIntent
 "
-preferences_datareporting
+preferences_vendor
 "
 )
 ;

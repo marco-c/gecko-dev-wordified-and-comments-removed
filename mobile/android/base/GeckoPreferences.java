@@ -840,7 +840,7 @@ putString
 (
 INTENT_EXTRA_RESOURCES
 "
-preferences_general
+preferences_customize_tablet
 "
 )
 ;
