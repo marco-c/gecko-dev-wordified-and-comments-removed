@@ -549,6 +549,10 @@ test_getCTM
 .
 html
 \
+test_getElementById
+.
+xhtml
+\
 test_getSubStringLength
 .
 xhtml
