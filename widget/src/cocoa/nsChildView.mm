@@ -10753,6 +10753,8 @@ nsCOMPtr
 nsIWidget
 >
 kungFuDeathGrip
+=
+do_QueryInterface
 (
 mParentWidget
 ?
