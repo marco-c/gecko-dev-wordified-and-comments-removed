@@ -490,6 +490,10 @@ nsIPlacesImportExportService
 .
 idl
 \
+mozIAsyncHistory
+.
+idl
+\
 (
 NULL
 )
