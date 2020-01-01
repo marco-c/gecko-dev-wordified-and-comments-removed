@@ -10787,6 +10787,13 @@ type
 =
 =
 type
+&
+&
+!
+barrier
+-
+>
+singleton
 )
 return
 ;
