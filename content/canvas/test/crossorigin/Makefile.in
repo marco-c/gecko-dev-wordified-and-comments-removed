@@ -486,6 +486,14 @@ test_webgl_crossorigin_textures
 .
 html
 \
+video
+.
+sjs
+\
+test_video_crossorigin
+.
+html
+\
 (
 NULL
 )
