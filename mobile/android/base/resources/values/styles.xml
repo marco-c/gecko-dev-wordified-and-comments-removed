@@ -1322,9 +1322,11 @@ android
 background
 "
 >
-drawable
+android
+:
+color
 /
-action_bar_button
+transparent
 <
 /
 item
