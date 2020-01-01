@@ -3250,6 +3250,12 @@ true
 ;
 DebuggerServer
 .
+addBrowserActors
+(
+)
+;
+DebuggerServer
+.
 addActors
 (
 '

@@ -35195,6 +35195,12 @@ _allowConnection
 ;
 DebuggerServer
 .
+addBrowserActors
+(
+)
+;
+DebuggerServer
+.
 addActors
 (
 "
