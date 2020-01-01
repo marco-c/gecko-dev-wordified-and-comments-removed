@@ -13,7 +13,7 @@ nsIStackFrame
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSISTACKFRAME
 static
 nsresult
@@ -250,7 +250,7 @@ mFunname
 )
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 XPCJSStackFrame
 nsIStackFrame

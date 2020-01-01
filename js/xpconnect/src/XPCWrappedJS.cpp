@@ -627,10 +627,9 @@ MOZ_CRASH
 nsrefcnt
 cnt
 =
-NS_AtomicIncrementRefcnt
-(
++
++
 mRefCnt
-)
 ;
 NS_LOG_ADDREF
 (
@@ -810,10 +809,9 @@ do_decrement
 nsrefcnt
 cnt
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 NS_LOG_RELEASE
 (
