@@ -714,7 +714,7 @@ return
 bytes
 -
 >
-encode
+encodeLatin1
 (
 cx
 atom

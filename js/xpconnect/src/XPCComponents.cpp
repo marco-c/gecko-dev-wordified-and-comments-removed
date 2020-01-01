@@ -1335,7 +1335,7 @@ id
 &
 name
 .
-encode
+encodeLatin1
 (
 cx
 JSID_TO_STRING
@@ -3657,7 +3657,7 @@ id
 &
 name
 .
-encode
+encodeLatin1
 (
 cx
 JSID_TO_STRING
@@ -4706,7 +4706,7 @@ id
 &
 name
 .
-encode
+encodeLatin1
 (
 cx
 JSID_TO_STRING
@@ -5603,7 +5603,7 @@ id
 &
 name
 .
-encode
+encodeLatin1
 (
 cx
 JSID_TO_STRING
@@ -6432,7 +6432,7 @@ argv
 !
 bytes
 .
-encode
+encodeLatin1
 (
 cx
 jsstr
@@ -7321,7 +7321,7 @@ eMsg
 =
 messageBytes
 .
-encode
+encodeLatin1
 (
 cx
 str
@@ -9853,7 +9853,7 @@ cInitializer
 =
 cInitializerBytes
 .
-encode
+encodeLatin1
 (
 cx
 str
@@ -15896,7 +15896,7 @@ if
 !
 filenameBytes
 .
-encode
+encodeLatin1
 (
 cx
 filenameStr

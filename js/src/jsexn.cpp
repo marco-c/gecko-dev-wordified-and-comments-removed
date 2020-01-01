@@ -5736,7 +5736,7 @@ tmp
 )
 filename
 .
-encode
+encodeLatin1
 (
 cx
 tmp
@@ -5919,7 +5919,7 @@ bytes
 =
 bytesStorage
 .
-encode
+encodeLatin1
 (
 cx
 str

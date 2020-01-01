@@ -616,7 +616,7 @@ Unknown
 :
 bytes
 .
-encode
+encodeLatin1
 (
 ccx
 JSID_TO_STRING

@@ -3982,7 +3982,7 @@ if
 !
 fileNameBytes
 .
-encode
+encodeLatin1
 (
 cx
 str

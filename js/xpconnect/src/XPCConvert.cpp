@@ -6003,7 +6003,7 @@ s
 )
 message
 .
-encode
+encodeLatin1
 (
 cx
 str

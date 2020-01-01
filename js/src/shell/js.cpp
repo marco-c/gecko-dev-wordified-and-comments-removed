@@ -988,7 +988,7 @@ ptr
 |
 mBytes
 .
-encode
+encodeLatin1
 (
 cx
 mStr
@@ -4188,7 +4188,7 @@ fileName
 =
 fileNameBytes
 .
-encode
+encodeLatin1
 (
 cx
 s
@@ -6347,7 +6347,7 @@ if
 bytes
 -
 >
-encode
+encodeLatin1
 (
 cx
 str
@@ -10614,7 +10614,7 @@ if
 !
 fileNameBytes
 .
-encode
+encodeLatin1
 (
 cx
 str

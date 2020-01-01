@@ -15853,7 +15853,7 @@ bytes
 }
 char
 *
-encode
+encodeLatin1
 (
 JSContext
 *
