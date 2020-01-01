@@ -3931,13 +3931,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsDocument
 )
-tmp
--
->
-DestroyLinkMap
-(
-)
-;
 for
 (
 PRInt32
