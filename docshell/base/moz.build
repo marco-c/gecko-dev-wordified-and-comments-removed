@@ -193,11 +193,6 @@ nsIPrivacyTransitionObserver
 idl
 '
 '
-nsIReflowObserver
-.
-idl
-'
-'
 nsIRefreshURI
 .
 idl

@@ -2913,11 +2913,6 @@ GetDefaultBackgroundColorToDraw
 (
 )
 ;
-DOMHighResTimeStamp
-GetPerformanceNow
-(
-)
-;
 static
 void
 sPaintSuppressionCallback
@@ -3188,9 +3183,6 @@ nsCOMPtr
 nsITimer
 >
 mReflowContinueTimer
-;
-DOMHighResTimeStamp
-mLastReflowStart
 ;
 nsCOMPtr
 <
