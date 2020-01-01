@@ -224,7 +224,6 @@ other
 ;
 class
 APZCTreeManager
-MOZ_FINAL
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -236,6 +235,13 @@ APZCTreeManager
 (
 )
 ;
+virtual
+~
+APZCTreeManager
+(
+)
+{
+}
 void
 UpdatePanZoomControllerTree
 (
@@ -369,7 +375,15 @@ ClearTree
 (
 )
 ;
-private
+protected
+:
+virtual
+void
+AssertOnCompositorThread
+(
+)
+;
+public
 :
 already_AddRefed
 <
@@ -395,6 +409,8 @@ ScreenPoint
 aPoint
 )
 ;
+private
+:
 AsyncPanZoomController
 *
 FindTargetAPZC
