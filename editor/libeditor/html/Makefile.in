@@ -291,6 +291,16 @@ base
 /
 src
 \
+-
+I
+(
+topsrcdir
+)
+/
+layout
+/
+style
+\
 (
 NULL
 )
