@@ -5106,9 +5106,6 @@ lock_sparcv9
 .
 il
 (
-REPORT_BUILD
-)
-(
 MAKE_DEPS_AUTO_CXX
 )
 ifeq
@@ -5212,9 +5209,6 @@ Makefile
 .
 in
 (
-REPORT_BUILD
-)
-(
 MAKE_DEPS_AUTO_CXX
 )
 (
@@ -5246,9 +5240,6 @@ cpp
 Makefile
 .
 in
-(
-REPORT_BUILD
-)
 (
 MAKE_DEPS_AUTO_CXX
 )

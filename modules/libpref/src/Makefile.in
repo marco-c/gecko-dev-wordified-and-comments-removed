@@ -611,9 +611,6 @@ nsPrefService
 .
 cpp
 (
-REPORT_BUILD
-)
-(
 MAKE_DEPS_AUTO_CXX
 )
 (
