@@ -3760,7 +3760,7 @@ if
 aSize
 .
 width
-=
+<
 =
 0
 |
@@ -3768,7 +3768,7 @@ width
 aSize
 .
 height
-=
+<
 =
 0
 |
