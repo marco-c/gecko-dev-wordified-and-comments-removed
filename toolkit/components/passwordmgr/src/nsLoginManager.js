@@ -1011,11 +1011,13 @@ document
 if
 (
 !
+(
 domDoc
 instanceof
 Ci
 .
 nsIDOMHTMLDocument
+)
 )
 return
 ;
