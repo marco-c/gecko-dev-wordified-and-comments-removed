@@ -1473,6 +1473,12 @@ frame
 continue
 ;
 }
+nsIFrame
+*
+primaryFrame
+=
+frame
+;
 if
 (
 IsText
@@ -1675,7 +1681,7 @@ UnionRect
 aBoundsRect
 GetBoundsForString
 (
-frame
+primaryFrame
 startOffset
 substringEndOffset
 )
