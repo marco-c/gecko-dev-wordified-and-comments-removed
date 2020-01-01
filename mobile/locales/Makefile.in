@@ -589,15 +589,6 @@ architecture
 -
 qDEB_BUILD_ARCH
 )
-EN_US_BINARY_URL
-?
-=
-(
-error
-EN_US_BINARY_URL
-not
-defined
-)
 WGET
 ?
 =
