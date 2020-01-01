@@ -690,6 +690,10 @@ browser_keywordSearch
 .
 js
 \
+browser_NetworkPrioritizer
+.
+js
+\
 browser_allTabsPanel
 .
 js
@@ -999,6 +1003,10 @@ browser_bug655584
 js
 \
 browser_bug664672
+.
+js
+\
+browser_bug710878
 .
 js
 \
