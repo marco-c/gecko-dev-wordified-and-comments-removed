@@ -8701,6 +8701,9 @@ flags
 =
 OBJECT_FLAG_UNKNOWN_MASK
 ;
+#
+ifndef
+JS_CPU_ARM
 if
 (
 cx
@@ -8719,6 +8722,8 @@ inferenceEnabled
 =
 true
 ;
+#
+endif
 }
 TypeObject
 *
