@@ -148,6 +148,10 @@ browser_newtab_bug723102
 .
 js
 \
+browser_newtab_bug723121
+.
+js
+\
 head
 .
 js
