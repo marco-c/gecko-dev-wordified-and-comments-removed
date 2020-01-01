@@ -1699,6 +1699,9 @@ mTexImage
 GetShaderProgramType
 (
 )
+GetMaskLayer
+(
+)
 )
 ;
 gfx3DMatrix
@@ -1814,6 +1817,16 @@ program
 SetTextureUnit
 (
 0
+)
+;
+program
+-
+>
+LoadMask
+(
+GetMaskLayer
+(
+)
 )
 ;
 mTexImage

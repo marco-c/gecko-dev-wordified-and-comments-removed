@@ -894,6 +894,9 @@ const
 nsIntPoint
 &
 aRenderOffset
+Layer
+*
+aMaskLayer
 )
 {
 for
@@ -1137,6 +1140,7 @@ tile
 mTileRegion
 tileOffset
 textureSize
+aMaskLayer
 )
 ;
 }

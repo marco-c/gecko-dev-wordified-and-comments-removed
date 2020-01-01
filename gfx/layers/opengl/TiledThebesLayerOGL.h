@@ -525,6 +525,9 @@ nsIntPoint
 aTextureOffset
 nsIntSize
 aTextureBounds
+Layer
+*
+aMaskLayer
 )
 ;
 private

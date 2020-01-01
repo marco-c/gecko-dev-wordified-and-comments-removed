@@ -95,17 +95,6 @@ aReadback
 {
 }
 virtual
-ShadowableLayer
-*
-AsShadowableLayer
-(
-)
-{
-return
-nsnull
-;
-}
-virtual
 bool
 MustRetainContent
 (
