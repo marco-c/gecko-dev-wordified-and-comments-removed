@@ -31258,6 +31258,9 @@ cg
 tryBase
 =
 =
+(
+ptrdiff_t
+)
 array
 -
 >
