@@ -12551,6 +12551,15 @@ return
 JS_FALSE
 ;
 }
+JS_SetOptions
+(
+scx
+JS_GetOptions
+(
+cx
+)
+)
+;
 #
 ifdef
 JS_THREADSAFE
