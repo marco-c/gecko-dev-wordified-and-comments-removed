@@ -6868,12 +6868,7 @@ browser
 ?
 browser
 .
-QueryInterface
-(
-Ci
-.
-nsIFrameLoaderOwner
-)
+contentWindow
 :
 null
 ;
