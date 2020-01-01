@@ -1,5 +1,12 @@
 #
 include
+<
+signal
+.
+h
+>
+#
+include
 "
 nanojit
 .
