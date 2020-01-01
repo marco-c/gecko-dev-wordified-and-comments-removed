@@ -2033,6 +2033,11 @@ isDOMClass
 (
 )
 ;
+bool
+maybeCallable
+(
+)
+;
 JSObject
 *
 getSingleton
