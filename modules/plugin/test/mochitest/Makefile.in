@@ -447,6 +447,10 @@ test_privatemode
 .
 xul
 \
+test_wmode
+.
+xul
+\
 (
 NULL
 )

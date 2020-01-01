@@ -81,8 +81,15 @@ TestNPObject
 *
 scriptableObject
 ;
-NPBool
+void
+*
+platformData
+;
+bool
 lastReportedPrivateModeState
+;
+bool
+hasWidget
 ;
 }
 InstanceData
