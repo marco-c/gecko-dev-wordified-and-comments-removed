@@ -212,6 +212,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h

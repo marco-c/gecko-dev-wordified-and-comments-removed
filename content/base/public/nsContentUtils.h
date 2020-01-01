@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIDOMEvent
 .
 h
@@ -175,6 +168,9 @@ imgIContainer
 ;
 class
 imgINotificationObserver
+;
+class
+imgIRequest
 ;
 class
 imgLoader

@@ -57,6 +57,9 @@ class
 nsIContent
 ;
 class
+nsIObjectOutputStream
+;
+class
 nsIScriptContext
 ;
 struct

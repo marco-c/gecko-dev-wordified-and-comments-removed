@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h

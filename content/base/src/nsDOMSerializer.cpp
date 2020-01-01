@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIDocumentEncoder
 .
 h

@@ -1520,6 +1520,16 @@ ownerElement
 ;
 }
 ;
+%
+{
+C
++
++
+class
+nsFrameLoader
+;
+%
+}
 native
 alreadyAddRefed_nsFrameLoader
 (
