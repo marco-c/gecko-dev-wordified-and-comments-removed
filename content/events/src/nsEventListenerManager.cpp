@@ -4030,11 +4030,6 @@ setVersion
 (
 SCRIPTVERSION_DEFAULT
 )
-.
-setUserBit
-(
-true
-)
 ;
 js
 :
