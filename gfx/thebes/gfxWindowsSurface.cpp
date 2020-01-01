@@ -544,7 +544,7 @@ gfxImageSurface
 gfxWindowsSurface
 :
 :
-GetImageSurface
+GetAsImageSurface
 (
 )
 {
