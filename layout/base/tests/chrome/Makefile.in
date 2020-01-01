@@ -559,6 +559,10 @@ printpreview_bug482976_helper
 .
 xul
 \
+test_transformed_scrolling_repaints
+.
+html
+\
 (
 NULL
 )
