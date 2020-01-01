@@ -214,7 +214,7 @@ aMimeInfo
 )
 ;
 return
-PR_TRUE
+PR_FALSE
 ;
 }
 nsIHandlerApp
