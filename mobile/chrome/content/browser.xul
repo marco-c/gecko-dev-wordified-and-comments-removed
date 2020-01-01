@@ -4056,6 +4056,9 @@ textbox
 class
 =
 "
+search
+-
+bar
 content
 -
 navigator
@@ -4105,6 +4108,9 @@ textbox
 class
 =
 "
+search
+-
+bar
 content
 -
 navigator
@@ -5704,6 +5710,13 @@ addons
 search
 -
 text
+"
+class
+=
+"
+search
+-
+bar
 "
 placeholder
 =
