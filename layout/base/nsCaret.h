@@ -529,6 +529,9 @@ PRPackedBool
 mDrawn
 ;
 PRPackedBool
+mPendingDraw
+;
+PRPackedBool
 mReadOnly
 ;
 PRPackedBool
