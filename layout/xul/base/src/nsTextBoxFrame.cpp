@@ -3585,11 +3585,6 @@ InsertSeparatorBeforeAccessKey
 )
 &
 &
-offset
->
-0
-&
-&
 !
 NS_IS_SPACE
 (
