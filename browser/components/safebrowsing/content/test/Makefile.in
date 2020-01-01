@@ -134,6 +134,10 @@ js
 endif
 _BROWSER_FILES
 =
+head
+.
+js
+\
 browser_bug400731
 .
 js
