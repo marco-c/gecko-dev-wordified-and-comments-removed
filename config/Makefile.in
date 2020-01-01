@@ -1157,9 +1157,15 @@ USE_EXTENSION_MANIFEST
 ifneq
 (
 (
+filter
+-
+out
+WINNT
+OS2
+(
 OS_ARCH
 )
-WINNT
+)
 )
 make
 -
