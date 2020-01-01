@@ -223,10 +223,6 @@ GetEventListenerManager
 Element
 *
 aElement
-nsIDOMEventGroup
-*
-*
-aSystemGroup
 )
 ;
 void
