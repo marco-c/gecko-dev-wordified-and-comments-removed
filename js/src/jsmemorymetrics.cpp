@@ -536,7 +536,7 @@ debuggeesSet
 &
 cStats
 .
-baselineOptimizedStubs
+baselineStubsOptimized
 )
 ;
 }
@@ -1409,7 +1409,7 @@ size_t
 baselineData
 =
 0
-baselineFallbackStubs
+baselineStubsFallback
 =
 0
 ;
@@ -1426,7 +1426,7 @@ mallocSizeOf_
 &
 baselineData
 &
-baselineFallbackStubs
+baselineStubsFallback
 )
 ;
 cStats
@@ -1440,10 +1440,10 @@ baselineData
 cStats
 -
 >
-baselineFallbackStubs
+baselineStubsFallback
 +
 =
-baselineFallbackStubs
+baselineStubsFallback
 ;
 cStats
 -
