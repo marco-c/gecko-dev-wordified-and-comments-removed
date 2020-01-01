@@ -458,13 +458,6 @@ DIRS
 =
 shared
 ifdef
-MOZ_ENABLE_FREETYPE2
-DIRS
-+
-=
-freetype
-endif
-ifdef
 MOZ_ENABLE_POSTSCRIPT
 DIRS
 +
