@@ -25203,6 +25203,10 @@ mLoadingURI
 =
 nsnull
 ;
+Stop
+(
+)
+;
 (
 void
 )
