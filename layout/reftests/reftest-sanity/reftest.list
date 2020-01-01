@@ -1749,7 +1749,15 @@ reftest
 syntax
 :
 fuzzy
+(
+maxPixelDifference
+maxNumberDifferingPixels
+)
 fuzzy
+(
+1
+250000
+)
 =
 =
 fuzzy
@@ -1761,6 +1769,10 @@ ref
 .
 html
 fuzzy
+(
+1
+250000
+)
 !
 =
 too
@@ -1778,6 +1790,8 @@ fuzzy
 if
 (
 true
+1
+250000
 )
 =
 =
@@ -1794,6 +1808,8 @@ fuzzy
 if
 (
 false
+2
+1
 )
 =
 =
@@ -1830,6 +1846,8 @@ fuzzy
 if
 (
 false
+2
+1
 )
 random
 -
