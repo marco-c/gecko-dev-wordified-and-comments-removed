@@ -6901,6 +6901,14 @@ Compiler
 stubCompiler
 (
 cx
+JSOp
+(
+*
+pc
+)
+=
+=
+JSOP_NEW
 )
 ;
 if
