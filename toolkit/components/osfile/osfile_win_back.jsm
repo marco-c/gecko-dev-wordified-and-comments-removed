@@ -1198,9 +1198,7 @@ Types
 HANDLE
 Types
 .
-char
-.
-out_ptr
+voidptr_t
 Types
 .
 DWORD
@@ -1327,9 +1325,7 @@ Types
 HANDLE
 Types
 .
-char
-.
-in_ptr
+voidptr_t
 Types
 .
 DWORD
