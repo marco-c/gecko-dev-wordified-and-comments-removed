@@ -575,11 +575,8 @@ i
 .
 start
 =
-size_t
-(
 -
 1
-)
 ;
 pairs_
 [
@@ -588,11 +585,8 @@ i
 .
 limit
 =
-size_t
-(
 -
 1
-)
 ;
 }
 return
