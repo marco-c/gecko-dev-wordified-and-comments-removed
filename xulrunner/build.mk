@@ -574,3 +574,16 @@ xulrunner
 /
 installer
 install
+sdk
+:
+(
+MAKE
+)
+-
+C
+xulrunner
+/
+installer
+make
+-
+sdk
