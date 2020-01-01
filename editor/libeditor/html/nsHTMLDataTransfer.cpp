@@ -1219,6 +1219,7 @@ aDestNode
 aDestOffset
 aDeleteSelection
 true
+false
 )
 ;
 }
@@ -1256,6 +1257,8 @@ bool
 aDeleteSelection
 bool
 aTrustedInput
+bool
+aClearStyle
 )
 {
 NS_ENSURE_TRUE
@@ -1685,6 +1688,11 @@ rv
 rv
 )
 ;
+if
+(
+aClearStyle
+)
+{
 nsCOMPtr
 <
 nsIDOMNode
@@ -1731,6 +1739,7 @@ rv
 rv
 )
 ;
+}
 }
 else
 {

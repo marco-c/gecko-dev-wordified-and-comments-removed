@@ -3169,6 +3169,10 @@ bool
 aDeleteSelection
 bool
 aTrustedInput
+bool
+aClearStyle
+=
+true
 )
 ;
 nsresult
