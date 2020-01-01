@@ -294,7 +294,7 @@ profileName
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 #
 ifdef
@@ -320,7 +320,7 @@ js_StartPerf
 )
 ok
 =
-JS_FALSE
+false
 ;
 #
 endif
@@ -343,7 +343,7 @@ profileName
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 #
 ifdef
@@ -387,7 +387,7 @@ js_StopPerf
 )
 ok
 =
-JS_FALSE
+false
 ;
 #
 endif
@@ -406,7 +406,7 @@ toState
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -526,7 +526,7 @@ Callgrind
 ;
 ok
 =
-JS_FALSE
+false
 ;
 }
 #
@@ -597,7 +597,7 @@ Callgrind
 ;
 ok
 =
-JS_FALSE
+false
 ;
 }
 #
@@ -671,7 +671,7 @@ profileName
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 #
 ifdef

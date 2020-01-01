@@ -2294,7 +2294,7 @@ ignoreCase
 JSBool
 result
 =
-JS_FALSE
+false
 ;
 while
 (
@@ -2394,7 +2394,7 @@ count
 {
 result
 =
-JS_TRUE
+true
 ;
 }
 return
@@ -2514,7 +2514,7 @@ d
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2531,7 +2531,7 @@ rval
 js_NaN
 ;
 return
-JS_TRUE
+true
 ;
 }
 array
@@ -2642,7 +2642,7 @@ rval
 msec_time
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -2986,7 +2986,7 @@ i
 init
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -3110,7 +3110,7 @@ frac
 bool
 isLocalTime
 =
-JS_FALSE
+false
 ;
 size_t
 tzHour
@@ -3558,7 +3558,7 @@ else
 {
 isLocalTime
 =
-JS_TRUE
+true
 ;
 }
 done
@@ -3755,7 +3755,7 @@ result
 msec
 ;
 return
-JS_TRUE
+true
 ;
 syntax
 :
@@ -3765,7 +3765,7 @@ result
 0
 ;
 return
-JS_FALSE
+false
 ;
 #
 undef
@@ -3873,7 +3873,7 @@ prevc
 JSBool
 seenplusminus
 =
-JS_FALSE
+false
 ;
 int
 temp
@@ -3881,7 +3881,7 @@ temp
 JSBool
 seenmonthname
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -3893,7 +3893,7 @@ dtInfo
 )
 )
 return
-JS_TRUE
+true
 ;
 s
 =
@@ -4171,7 +4171,7 @@ prevc
 {
 seenplusminus
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -4839,7 +4839,7 @@ syntax
 }
 seenmonthname
 =
-JS_TRUE
+true
 ;
 temp
 =
@@ -5206,7 +5206,7 @@ result
 msec
 ;
 return
-JS_TRUE
+true
 ;
 syntax
 :
@@ -5216,7 +5216,7 @@ result
 0
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -12749,7 +12749,7 @@ split
 {
 usetz
 =
-JS_TRUE
+true
 ;
 tzlen
 =
@@ -12767,7 +12767,7 @@ tzlen
 {
 usetz
 =
-JS_FALSE
+false
 ;
 }
 else
@@ -12842,7 +12842,7 @@ c
 {
 usetz
 =
-JS_FALSE
+false
 ;
 }
 }
@@ -12872,13 +12872,13 @@ tzbuf
 )
 usetz
 =
-JS_FALSE
+false
 ;
 }
 else
 usetz
 =
-JS_FALSE
+false
 ;
 switch
 (

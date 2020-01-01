@@ -955,7 +955,7 @@ init
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_ASSERT
 (
@@ -1067,7 +1067,7 @@ if
 argsobj
 )
 return
-JS_FALSE
+false
 ;
 args
 [
@@ -10927,7 +10927,7 @@ COND
 =
 equal
 OP
-JS_TRUE
+true
 ;
 \
 regs

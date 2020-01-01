@@ -621,7 +621,7 @@ jsdthreadstate
 ;
 hookanswer
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -713,7 +713,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -750,7 +750,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -789,7 +789,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -816,7 +816,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -855,7 +855,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -882,7 +882,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -921,7 +921,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -948,7 +948,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -987,7 +987,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -1014,7 +1014,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -1053,7 +1053,7 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -1080,6 +1080,6 @@ JSD_UNLOCK
 )
 ;
 return
-JS_TRUE
+true
 ;
 }

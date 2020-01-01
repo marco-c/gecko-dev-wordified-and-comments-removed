@@ -1605,7 +1605,7 @@ thisObject
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 if
 (

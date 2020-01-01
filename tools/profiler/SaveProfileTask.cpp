@@ -66,7 +66,7 @@ Data
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsresult

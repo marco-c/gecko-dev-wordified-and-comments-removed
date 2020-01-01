@@ -1490,7 +1490,7 @@ r5
 GenerateReturn
 (
 masm
-JS_TRUE
+true
 )
 ;
 Linker

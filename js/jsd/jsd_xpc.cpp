@@ -2555,7 +2555,7 @@ if
 hook
 )
 return
-JS_TRUE
+true
 ;
 if
 (
@@ -2567,7 +2567,7 @@ jsdthreadstate
 )
 )
 return
-JS_FALSE
+false
 ;
 JSDStackFrameInfo
 *
@@ -2633,7 +2633,7 @@ InvalidateAll
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static

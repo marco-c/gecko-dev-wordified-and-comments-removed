@@ -1133,7 +1133,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 return
 script
@@ -1518,7 +1518,7 @@ interruptHookData
 0
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -2141,7 +2141,7 @@ if
 lines
 )
 return
-JS_FALSE
+false
 ;
 jsbytecode
 *
@@ -2172,7 +2172,7 @@ lines
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 unsigned
@@ -2353,7 +2353,7 @@ pcs
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -3442,7 +3442,7 @@ alias
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -4212,7 +4212,7 @@ debuggerHandlerData
 closure
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -4250,7 +4250,7 @@ sourceHandlerData
 closure
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -4288,7 +4288,7 @@ executeHookData
 closure
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -4326,7 +4326,7 @@ callHookData
 closure
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -4364,7 +4364,7 @@ throwHookData
 closure
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -4402,7 +4402,7 @@ debugErrorHookData
 closure
 ;
 return
-JS_TRUE
+true
 ;
 }
 JS_PUBLIC_API
@@ -5199,7 +5199,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 case
 JSTRAP_THROW
@@ -5211,7 +5211,7 @@ rval
 )
 ;
 return
-JS_FALSE
+false
 ;
 case
 JSTRAP_RETURN
@@ -5222,7 +5222,7 @@ JSTRAP_CONTINUE
 default
 :
 return
-JS_TRUE
+true
 ;
 }
 }

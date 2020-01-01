@@ -206,7 +206,7 @@ XPConnect
 will
 return
 *
-JS_FALSE
+false
 to
 the
 js

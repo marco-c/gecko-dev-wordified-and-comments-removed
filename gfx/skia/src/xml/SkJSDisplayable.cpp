@@ -449,7 +449,7 @@ maker
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSFunctionSpec
@@ -559,7 +559,7 @@ jsDisplayable
 ;
 \
 return
-JS_TRUE
+true
 ;
 \
 }
@@ -1237,7 +1237,7 @@ id
 0
 )
 return
-JS_TRUE
+true
 ;
 SkJSDisplayable
 *
@@ -1650,7 +1650,7 @@ SkASSERT
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -1683,7 +1683,7 @@ id
 0
 )
 return
-JS_TRUE
+true
 ;
 SkJSDisplayable
 *
@@ -2105,7 +2105,7 @@ SkASSERT
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 void

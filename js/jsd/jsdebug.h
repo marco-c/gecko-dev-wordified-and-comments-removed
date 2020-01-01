@@ -2794,7 +2794,7 @@ JSPD_ERROR
 native
 getter
 returned
-JS_FALSE
+false
 *
 /
 #

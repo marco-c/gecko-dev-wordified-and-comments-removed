@@ -9651,11 +9651,11 @@ rv
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -9929,7 +9929,7 @@ id
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 nsIXPConnect
@@ -10105,7 +10105,7 @@ proto
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 JSBool
@@ -10134,7 +10134,7 @@ hasProp
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -10285,7 +10285,7 @@ holder
 NS_ENSURE_SUCCESS
 (
 rv
-JS_FALSE
+false
 )
 ;
 if
@@ -10316,7 +10316,7 @@ JS_StrictPropertyStub
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 objp
@@ -10328,7 +10328,7 @@ obj
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -10399,7 +10399,7 @@ proto
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -10451,7 +10451,7 @@ proto_proto
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 :
@@ -10472,7 +10472,7 @@ proto
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 nsresult
@@ -13302,7 +13302,7 @@ class_name_struct
 *
 bp
 =
-JS_TRUE
+true
 ;
 return
 NS_OK
@@ -13554,7 +13554,7 @@ else
 *
 bp
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -13802,7 +13802,7 @@ class_interface
 *
 bp
 =
-JS_TRUE
+true
 ;
 return
 NS_OK
@@ -17200,11 +17200,11 @@ rv
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -17978,12 +17978,12 @@ obj
 JSBool
 did_resolve
 =
-JS_FALSE
+false
 ;
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 JS
 :
@@ -18081,7 +18081,7 @@ exn
 *
 _retval
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -18899,7 +18899,7 @@ proto
 *
 _retval
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -18962,7 +18962,7 @@ val
 *
 _retval
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -19031,7 +19031,7 @@ JSPROP_ENUMERATE
 *
 _retval
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -20766,7 +20766,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -20851,7 +20851,7 @@ id
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 JS
@@ -20898,7 +20898,7 @@ proto
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -20919,7 +20919,7 @@ lies
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 obj
@@ -20990,7 +20990,7 @@ nodeList
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 uint32_t
@@ -21025,7 +21025,7 @@ rv
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 vp
@@ -21039,7 +21039,7 @@ length
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsDependentJSString
@@ -21080,7 +21080,7 @@ rv
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -21124,7 +21124,7 @@ nodeList
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 nsIContent
@@ -21203,7 +21203,7 @@ rv
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -21217,7 +21217,7 @@ setUndefined
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -21350,14 +21350,14 @@ v
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 }
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 if
 (

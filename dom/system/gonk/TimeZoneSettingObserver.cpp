@@ -934,10 +934,8 @@ match
 )
 |
 |
-match
 !
-=
-JS_TRUE
+match
 )
 {
 return

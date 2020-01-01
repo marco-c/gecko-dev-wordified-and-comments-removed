@@ -556,14 +556,14 @@ JSBool
 ;
 #
 define
-JS_TRUE
+JS_TRUE_DEPRECATED
 (
 int
 )
 1
 #
 define
-JS_FALSE
+JS_FALSE_DEPRECATED
 (
 int
 )

@@ -8287,8 +8287,8 @@ js_TrimString
 (
 cx
 vp
-JS_TRUE
-JS_TRUE
+true
+true
 )
 ;
 }
@@ -8311,8 +8311,8 @@ js_TrimString
 (
 cx
 vp
-JS_TRUE
-JS_FALSE
+true
+false
 )
 ;
 }
@@ -8335,8 +8335,8 @@ js_TrimString
 (
 cx
 vp
-JS_FALSE
-JS_TRUE
+false
+true
 )
 ;
 }
@@ -18883,7 +18883,7 @@ code
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -18921,7 +18921,7 @@ code
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 args
@@ -18962,7 +18962,7 @@ if
 chars
 )
 return
-JS_FALSE
+false
 ;
 for
 (
@@ -19008,7 +19008,7 @@ chars
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 chars
@@ -19063,7 +19063,7 @@ chars
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 args
@@ -19078,7 +19078,7 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -21553,7 +21553,7 @@ JSMSG_BUFFER_TOO_SMALL
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 for
@@ -21590,7 +21590,7 @@ dstlenp
 srclen
 ;
 return
-JS_TRUE
+true
 ;
 }
 bool
@@ -21684,7 +21684,7 @@ JSMSG_BUFFER_TOO_SMALL
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 for
@@ -21723,7 +21723,7 @@ dstlenp
 srclen
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -23351,7 +23351,7 @@ H
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -23399,7 +23399,7 @@ start
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -23415,7 +23415,7 @@ c
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -23432,7 +23432,7 @@ c
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }

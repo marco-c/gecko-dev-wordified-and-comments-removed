@@ -2430,7 +2430,7 @@ attrs
 )
 )
 return
-JS_FALSE
+false
 ;
 objp
 .

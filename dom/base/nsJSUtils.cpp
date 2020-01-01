@@ -151,7 +151,7 @@ lineno
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -171,7 +171,7 @@ aLineno
 lineno
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsIScriptGlobalObject

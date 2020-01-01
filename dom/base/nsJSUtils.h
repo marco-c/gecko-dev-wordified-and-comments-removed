@@ -269,7 +269,7 @@ if
 chars
 )
 return
-JS_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -303,7 +303,7 @@ length
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool

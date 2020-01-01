@@ -16039,7 +16039,7 @@ s
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedString
@@ -16065,7 +16065,7 @@ if
 src
 )
 return
-JS_FALSE
+false
 ;
 ScopedJSFreePtr
 <
@@ -16140,7 +16140,7 @@ NULL
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -16205,7 +16205,7 @@ prop
 )
 )
 return
-JS_FALSE
+false
 ;
 loc
 =
@@ -16262,7 +16262,7 @@ prop
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -16294,7 +16294,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 size_t
 length
@@ -16325,7 +16325,7 @@ if
 chars
 )
 return
-JS_FALSE
+false
 ;
 TwoByteChars
 tbchars
@@ -16352,7 +16352,7 @@ if
 filename
 )
 return
-JS_FALSE
+false
 ;
 }
 RootedId
@@ -16410,7 +16410,7 @@ lineno
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -16457,7 +16457,7 @@ prop
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -16498,7 +16498,7 @@ NULL
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 builder
@@ -16532,7 +16532,7 @@ builder
 )
 )
 return
-JS_FALSE
+false
 ;
 JSStableString
 *
@@ -16552,7 +16552,7 @@ if
 stable
 )
 return
-JS_FALSE
+false
 ;
 const
 StableCharPtr
@@ -16647,7 +16647,7 @@ if
 pn
 )
 return
-JS_FALSE
+false
 ;
 RootedValue
 val
@@ -16679,7 +16679,7 @@ setNull
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 args
@@ -16694,7 +16694,7 @@ val
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static

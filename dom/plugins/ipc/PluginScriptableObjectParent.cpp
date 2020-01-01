@@ -6279,7 +6279,7 @@ object
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 StackIdentifier
@@ -6298,7 +6298,7 @@ identifier
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 bool
@@ -6327,7 +6327,7 @@ success
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -6337,7 +6337,7 @@ success
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -6366,7 +6366,7 @@ result
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -6380,6 +6380,6 @@ aHasMethod
 hasMethod
 ;
 return
-JS_TRUE
+true
 ;
 }

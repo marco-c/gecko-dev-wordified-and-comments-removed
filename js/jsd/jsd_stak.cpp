@@ -1413,7 +1413,7 @@ jsdframe
 JSBool
 rv
 =
-JS_TRUE
+true
 ;
 JSD_LOCK_THREADSTATES
 (
@@ -1468,7 +1468,7 @@ jsdframe
 JSBool
 rv
 =
-JS_TRUE
+true
 ;
 JSD_LOCK_THREADSTATES
 (
@@ -1585,7 +1585,7 @@ if
 valid
 )
 return
-JS_FALSE
+false
 ;
 AutoPushJSContext
 cx
@@ -1743,7 +1743,7 @@ if
 valid
 )
 return
-JS_FALSE
+false
 ;
 AutoPushJSContext
 cx
@@ -1987,11 +1987,11 @@ cur
 jsdthreadstate
 )
 return
-JS_TRUE
+true
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 JSBool
@@ -2026,7 +2026,7 @@ jsdthreadstate
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2039,7 +2039,7 @@ jsdthreadstate
 jsdthreadstate
 )
 return
-JS_FALSE
+false
 ;
 JSD_ASSERT_VALID_THREAD_STATE
 (
@@ -2052,7 +2052,7 @@ jsdframe
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -2190,7 +2190,7 @@ jsdthreadstate
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2213,6 +2213,6 @@ cx
 )
 ;
 return
-JS_TRUE
+true
 ;
 }

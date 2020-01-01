@@ -42,7 +42,7 @@ g_counter
 +
 ;
 return
-JS_TRUE
+true
 ;
 }
 static

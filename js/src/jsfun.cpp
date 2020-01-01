@@ -4747,7 +4747,7 @@ argc
 )
 )
 return
-JS_FALSE
+false
 ;
 args
 .

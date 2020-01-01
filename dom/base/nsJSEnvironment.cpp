@@ -3155,7 +3155,7 @@ ctx
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 PRTime
@@ -3211,7 +3211,7 @@ mOperationCallbackTime
 now
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -3223,7 +3223,7 @@ mModalStateDepth
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 PRTime
@@ -3284,7 +3284,7 @@ sMaxScriptRunTime
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -3312,7 +3312,7 @@ terminated
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -3329,7 +3329,7 @@ ctx
 NS_ENSURE_TRUE
 (
 prompt
-JS_FALSE
+false
 )
 ;
 JS
@@ -3746,7 +3746,7 @@ strings
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -4028,7 +4028,7 @@ PR_Now
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 else
@@ -4058,7 +4058,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 void
@@ -14558,7 +14558,7 @@ NS_ERROR_DOM_DATA_CLONE_ERR
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 uint32_t

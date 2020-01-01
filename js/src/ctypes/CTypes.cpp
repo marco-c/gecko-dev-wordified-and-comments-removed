@@ -6851,9 +6851,6 @@ JSVAL_TO_BOOLEAN
 (
 val
 )
-!
-=
-JS_FALSE
 ;
 return
 true
@@ -10162,7 +10159,7 @@ CDataFinalizer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -12249,7 +12246,7 @@ buffer
 result
 !
 =
-JS_FALSE
+false
 ;
 break
 ;
@@ -14891,7 +14888,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -14919,7 +14916,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -14954,7 +14951,7 @@ result
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 args
@@ -14970,7 +14967,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -17078,7 +17075,7 @@ CTypeProto
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 unsigned
@@ -17129,7 +17126,7 @@ vp
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -17172,7 +17169,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSString
@@ -17194,7 +17191,7 @@ if
 name
 )
 return
-JS_FALSE
+false
 ;
 vp
 .
@@ -17204,7 +17201,7 @@ name
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -17247,7 +17244,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 vp
@@ -17276,7 +17273,7 @@ vp
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -17319,7 +17316,7 @@ CType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -17341,7 +17338,7 @@ if
 pointerType
 )
 return
-JS_FALSE
+false
 ;
 vp
 .
@@ -17352,7 +17349,7 @@ pointerType
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 bool
@@ -17942,7 +17939,7 @@ prototype
 *
 bp
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -17952,7 +17949,7 @@ v
 )
 )
 return
-JS_TRUE
+true
 ;
 RootedObject
 proto
@@ -17984,7 +17981,7 @@ proto
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -18004,14 +18001,14 @@ prototype
 *
 bp
 =
-JS_TRUE
+true
 ;
 break
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -18703,7 +18700,7 @@ PointerType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -18733,7 +18730,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -18761,7 +18758,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -18787,7 +18784,7 @@ length
 0
 )
 return
-JS_TRUE
+true
 ;
 RootedObject
 baseObj
@@ -18873,7 +18870,7 @@ function
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -18977,7 +18974,7 @@ address
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -19140,7 +19137,7 @@ PointerType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 vp
@@ -19164,7 +19161,7 @@ isObject
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 bool
@@ -19352,7 +19349,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -19377,7 +19374,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -19418,7 +19415,7 @@ PointerType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -19460,7 +19457,7 @@ size
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 size_t
@@ -19537,7 +19534,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -19552,7 +19549,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 bool
@@ -19664,7 +19661,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -19704,7 +19701,7 @@ PointerType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -19743,7 +19740,7 @@ size
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 void
@@ -19789,7 +19786,7 @@ pointer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedValue
@@ -19819,7 +19816,7 @@ address
 )
 )
 return
-JS_FALSE
+false
 ;
 vp
 .
@@ -19829,7 +19826,7 @@ result
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -19874,7 +19871,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -19914,7 +19911,7 @@ PointerType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -19952,7 +19949,7 @@ size
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 void
@@ -19998,7 +19995,7 @@ pointer
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -20531,7 +20528,7 @@ ArrayType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 bool
@@ -20582,7 +20579,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -20612,7 +20609,7 @@ argument
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -20724,7 +20721,7 @@ length
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -20882,7 +20879,7 @@ length
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 obj
@@ -20901,7 +20898,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -20928,7 +20925,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -20968,11 +20965,11 @@ result
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -21528,7 +21525,7 @@ ArrayType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 vp
@@ -21552,7 +21549,7 @@ vp
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -21633,7 +21630,7 @@ ArrayType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 vp
@@ -21664,7 +21661,7 @@ isUndefined
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -21707,7 +21704,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -21736,7 +21733,7 @@ typeObj
 TYPE_array
 )
 return
-JS_TRUE
+true
 ;
 size_t
 index
@@ -21790,7 +21787,7 @@ dummy
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -21815,7 +21812,7 @@ index
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -21921,7 +21918,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -21950,7 +21947,7 @@ typeObj
 TYPE_array
 )
 return
-JS_TRUE
+true
 ;
 size_t
 index
@@ -22004,7 +22001,7 @@ dummy
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -22029,7 +22026,7 @@ index
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -23218,7 +23215,7 @@ if
 dataProto
 )
 return
-JS_FALSE
+false
 ;
 RootedObject
 prototype
@@ -23240,7 +23237,7 @@ if
 prototype
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -23264,7 +23261,7 @@ JSPROP_PERMANENT
 )
 )
 return
-JS_FALSE
+false
 ;
 AutoPtr
 <
@@ -23322,7 +23319,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 js
@@ -23399,7 +23396,7 @@ item
 )
 )
 return
-JS_FALSE
+false
 ;
 RootedObject
 fieldType
@@ -23429,7 +23426,7 @@ if
 flat
 )
 return
-JS_FALSE
+false
 ;
 Rooted
 <
@@ -23454,7 +23451,7 @@ if
 name
 )
 return
-JS_FALSE
+false
 ;
 fieldRootsArray
 [
@@ -23499,7 +23496,7 @@ names
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -23542,7 +23539,7 @@ JSPROP_PERMANENT
 )
 )
 return
-JS_FALSE
+false
 ;
 size_t
 fieldSize
@@ -23594,7 +23591,7 @@ overflow
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 FieldInfo
@@ -23686,7 +23683,7 @@ overflow
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 structSize
@@ -23726,7 +23723,7 @@ address
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_SetReservedSlot
 (
@@ -23770,7 +23767,7 @@ prototype
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 ffi_type
@@ -24477,7 +24474,7 @@ StructType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -24505,7 +24502,7 @@ StructType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -24532,7 +24529,7 @@ if
 result
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -24558,7 +24555,7 @@ length
 0
 )
 return
-JS_TRUE
+true
 ;
 char
 *
@@ -24615,7 +24612,7 @@ buffer
 )
 )
 return
-JS_TRUE
+true
 ;
 if
 (
@@ -24630,7 +24627,7 @@ count
 1
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -24641,7 +24638,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_ClearPendingException
 (
@@ -24747,11 +24744,11 @@ NULL
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JS_ReportError
@@ -24776,7 +24773,7 @@ count
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 const
@@ -25241,7 +25238,7 @@ StructType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 vp
@@ -25276,7 +25273,7 @@ vp
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -25303,7 +25300,7 @@ if
 fields
 )
 return
-JS_FALSE
+false
 ;
 JS_SetReservedSlot
 (
@@ -25344,7 +25341,7 @@ vp
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -25387,7 +25384,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -25427,7 +25424,7 @@ StructType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 const
@@ -25451,7 +25448,7 @@ if
 field
 )
 return
-JS_FALSE
+false
 ;
 char
 *
@@ -25546,7 +25543,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -25586,7 +25583,7 @@ StructType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 const
@@ -25610,7 +25607,7 @@ if
 field
 )
 return
-JS_FALSE
+false
 ;
 char
 *
@@ -27901,7 +27898,7 @@ function
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -27943,7 +27940,7 @@ instead
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -27970,7 +27967,7 @@ if
 closureObj
 )
 return
-JS_FALSE
+false
 ;
 JS_SetReservedSlot
 (
@@ -29235,11 +29232,11 @@ FunctionType
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -29269,7 +29266,7 @@ obj
 )
 )
 return
-JS_FALSE
+false
 ;
 vp
 .
@@ -29291,7 +29288,7 @@ vp
 )
 )
 return
-JS_TRUE
+true
 ;
 FunctionInfo
 *
@@ -29332,7 +29329,7 @@ len
 )
 )
 return
-JS_FALSE
+false
 ;
 for
 (
@@ -29387,7 +29384,7 @@ if
 argTypes
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -29399,7 +29396,7 @@ argTypes
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_SetReservedSlot
 (
@@ -29420,7 +29417,7 @@ argTypes
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -29450,7 +29447,7 @@ obj
 )
 )
 return
-JS_FALSE
+false
 ;
 vp
 .
@@ -29467,7 +29464,7 @@ mReturnType
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -29497,7 +29494,7 @@ obj
 )
 )
 return
-JS_FALSE
+false
 ;
 vp
 .
@@ -29514,7 +29511,7 @@ mABI
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -29544,7 +29541,7 @@ obj
 )
 )
 return
-JS_FALSE
+false
 ;
 vp
 .
@@ -29560,7 +29557,7 @@ mIsVariadic
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -31622,7 +31619,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 RootedObject
@@ -31659,10 +31656,10 @@ address
 )
 )
 return
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -31704,7 +31701,7 @@ CData
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -33264,7 +33261,7 @@ ctypes
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 vp
@@ -33279,7 +33276,7 @@ SLOT_ERRNO
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -33325,7 +33322,7 @@ ctypes
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 vp
@@ -33340,7 +33337,7 @@ SLOT_LASTERROR
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #

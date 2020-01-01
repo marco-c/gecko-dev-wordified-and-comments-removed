@@ -1744,7 +1744,7 @@ if
 ssm
 )
 return
-JS_FALSE
+false
 ;
 nsresult
 rv
@@ -1790,7 +1790,7 @@ rv
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -1798,7 +1798,7 @@ if
 subjectPrincipal
 )
 return
-JS_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -1844,7 +1844,7 @@ if
 csp
 )
 return
-JS_TRUE
+true
 ;
 bool
 evalOK
@@ -1890,7 +1890,7 @@ allowsEval
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -2055,7 +2055,7 @@ if
 ssm
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -2125,10 +2125,10 @@ rv
 )
 )
 return
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 NS_IMETHODIMP

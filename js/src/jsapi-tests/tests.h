@@ -1463,7 +1463,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 char
 *
@@ -1481,7 +1481,7 @@ if
 bytes
 )
 return
-JS_FALSE
+false
 ;
 printf
 (
@@ -1529,7 +1529,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 bool

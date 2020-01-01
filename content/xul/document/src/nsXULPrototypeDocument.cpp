@@ -427,7 +427,7 @@ id
 JSBool
 did_resolve
 =
-JS_FALSE
+false
 ;
 return
 JS_ResolveStandardClass

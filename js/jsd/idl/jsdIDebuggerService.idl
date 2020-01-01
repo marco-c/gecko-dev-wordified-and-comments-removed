@@ -7506,7 +7506,7 @@ FLAG_EXCEPTION
 native
 getter
 returned
-JS_FALSE
+false
 without
 throwing
 an

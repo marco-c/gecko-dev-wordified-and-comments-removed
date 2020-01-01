@@ -221,7 +221,7 @@ CHECK
 JS_SetDebugMode
 (
 cx
-JS_TRUE
+true
 )
 )
 ;

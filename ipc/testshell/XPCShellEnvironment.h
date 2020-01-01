@@ -181,7 +181,7 @@ SetIsQuitting
 {
 mQuitting
 =
-JS_TRUE
+true
 ;
 }
 JSBool

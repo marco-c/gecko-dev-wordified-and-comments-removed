@@ -2219,7 +2219,7 @@ if
 len
 )
 return
-JS_FALSE
+false
 ;
 next
 +
@@ -2228,7 +2228,7 @@ len
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -2297,7 +2297,7 @@ init
 )
 )
 return
-JS_FALSE
+false
 ;
 ScriptFrameIter
 iter
@@ -2394,7 +2394,7 @@ init
 )
 )
 return
-JS_FALSE
+false
 ;
 RootedScript
 script
@@ -2478,7 +2478,7 @@ init
 )
 )
 return
-JS_FALSE
+false
 ;
 RootedScript
 script

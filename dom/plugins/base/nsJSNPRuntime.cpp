@@ -2039,7 +2039,7 @@ ex
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 ThrowJSException
@@ -2049,7 +2049,7 @@ nullptr
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 nsJSObjWrapper
@@ -2749,7 +2749,7 @@ v
 cx
 )
 ;
-JSBool
+bool
 ok
 ;
 {
@@ -2840,14 +2840,14 @@ newObj
 ;
 ok
 =
-JS_TRUE
+true
 ;
 }
 else
 {
 ok
 =
-JS_FALSE
+false
 ;
 }
 }
@@ -2904,9 +2904,6 @@ result
 ;
 return
 ok
-=
-=
-JS_TRUE
 ;
 }
 bool
@@ -3068,7 +3065,7 @@ JSBool
 found
 ok
 =
-JS_FALSE
+false
 ;
 nsCxPusher
 pusher
@@ -3375,10 +3372,10 @@ nsJSObjWrapper
 )
 npobj
 ;
-JSBool
+bool
 ok
 =
-JS_FALSE
+false
 ;
 nsCxPusher
 pusher
@@ -3473,9 +3470,6 @@ v
 ;
 return
 ok
-=
-=
-JS_TRUE
 ;
 }
 bool
@@ -3558,7 +3552,7 @@ npobj
 JSBool
 ok
 =
-JS_FALSE
+false
 ;
 nsCxPusher
 pusher
@@ -4845,7 +4839,7 @@ data
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -4857,7 +4851,7 @@ npobj
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 PluginDestructionGuard
@@ -4901,14 +4895,14 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
 hasProperty
 )
 return
-JS_TRUE
+true
 ;
 JSBool
 hasMethod
@@ -4934,7 +4928,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -4958,11 +4952,11 @@ NPObject
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -5051,7 +5045,7 @@ data
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 PluginDestructionGuard
@@ -5104,7 +5098,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -5118,7 +5112,7 @@ succeeded
 true
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -5245,7 +5239,7 @@ data
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 NPP
@@ -5276,7 +5270,7 @@ NPObject
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 PluginDestructionGuard
@@ -5326,7 +5320,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -5350,7 +5344,7 @@ NPObject
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -5384,7 +5378,7 @@ NPVariant
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSBool
@@ -5419,7 +5413,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -5441,11 +5435,11 @@ NPObject
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -5552,7 +5546,7 @@ data
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 NPP
@@ -5583,7 +5577,7 @@ NPObject
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 PluginDestructionGuard
@@ -5642,7 +5636,7 @@ if
 actor
 )
 return
-JS_FALSE
+false
 ;
 JSBool
 success
@@ -5681,7 +5675,7 @@ npv
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -5746,12 +5740,12 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 hasProperty
@@ -5777,7 +5771,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 hasMethod
 =
@@ -5802,7 +5796,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -5876,11 +5870,11 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -5954,7 +5948,7 @@ data
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 NPP
@@ -5985,7 +5979,7 @@ NPObject
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 PluginDestructionGuard
@@ -6057,7 +6051,7 @@ memory
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -6124,7 +6118,7 @@ npargs
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -6213,7 +6207,7 @@ else
 {
 ok
 =
-JS_FALSE
+false
 ;
 msg
 =
@@ -6312,7 +6306,7 @@ else
 {
 ok
 =
-JS_FALSE
+false
 ;
 msg
 =
@@ -6368,7 +6362,7 @@ else
 {
 ok
 =
-JS_FALSE
+false
 ;
 msg
 =
@@ -6449,7 +6443,7 @@ msg
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -6627,7 +6621,7 @@ data
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 PluginDestructionGuard
@@ -6693,7 +6687,7 @@ NPObjectEnumerateState
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -6776,7 +6770,7 @@ object
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 state
@@ -6881,7 +6875,7 @@ index
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 case
@@ -6926,7 +6920,7 @@ break
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -7023,7 +7017,7 @@ data
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 PluginDestructionGuard
@@ -7067,7 +7061,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -7120,7 +7114,7 @@ JSPROP_SHARED
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 objp
@@ -7131,7 +7125,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 bool
@@ -7158,7 +7152,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -7222,7 +7216,7 @@ nullptr
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -8645,7 +8639,7 @@ vp
 NS_ENSURE_TRUE
 (
 vp
-JS_FALSE
+false
 )
 ;
 if
@@ -8691,7 +8685,7 @@ NPObject
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 NPObjectMemberPrivate
@@ -8716,7 +8710,7 @@ if
 memberPrivate
 )
 return
-JS_FALSE
+false
 ;
 memset
 (
@@ -8755,7 +8749,7 @@ memberPrivate
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 *
@@ -8865,7 +8859,7 @@ vp
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -8883,7 +8877,7 @@ vp
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -8942,7 +8936,7 @@ vp
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -9014,7 +9008,7 @@ data
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 switch
@@ -9068,7 +9062,7 @@ address
 ;
 }
 return
-JS_TRUE
+true
 ;
 case
 JSTYPE_BOOLEAN
@@ -9087,13 +9081,13 @@ fieldValue
 )
 ;
 return
-JS_TRUE
+true
 ;
 case
 JSTYPE_FUNCTION
 :
 return
-JS_TRUE
+true
 ;
 default
 :
@@ -9110,7 +9104,7 @@ object
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }

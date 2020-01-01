@@ -44,7 +44,7 @@ INT_TO_JSVAL
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 BEGIN_TEST

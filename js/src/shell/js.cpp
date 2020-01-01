@@ -27149,7 +27149,7 @@ w
 )
 reportWarnings
 =
-JS_TRUE
+true
 ;
 else
 if
@@ -27166,7 +27166,7 @@ W
 )
 reportWarnings
 =
-JS_FALSE
+false
 ;
 if
 (

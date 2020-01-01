@@ -90,7 +90,7 @@ jsdc
 jsd_DebuggerPause
 (
 jsdc
-JS_FALSE
+false
 )
 ;
 }
@@ -2777,7 +2777,7 @@ bytes
 length
 filename
 lineno
-JS_TRUE
+true
 rval
 )
 ;
@@ -2846,7 +2846,7 @@ bytes
 length
 filename
 lineno
-JS_FALSE
+false
 rval
 )
 ;
@@ -2915,7 +2915,7 @@ bytes
 length
 filename
 lineno
-JS_TRUE
+true
 rval
 )
 ;
@@ -2984,7 +2984,7 @@ bytes
 length
 filename
 lineno
-JS_FALSE
+false
 rval
 )
 ;
@@ -3158,12 +3158,12 @@ JSD_IsLockingAndThreadIdSupported
 ifdef
 JSD_THREADSAFE
 return
-JS_TRUE
+true
 ;
 #
 else
 return
-JS_FALSE
+false
 ;
 #
 endif
@@ -3273,7 +3273,7 @@ lock
 #
 else
 return
-JS_TRUE
+true
 ;
 #
 endif
@@ -3311,7 +3311,7 @@ lock
 #
 else
 return
-JS_TRUE
+true
 ;
 #
 endif

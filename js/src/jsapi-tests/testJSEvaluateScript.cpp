@@ -100,7 +100,7 @@ address
 JSBool
 hasProp
 =
-JS_TRUE
+true
 ;
 CHECK
 (
@@ -124,7 +124,7 @@ hasProp
 ;
 hasProp
 =
-JS_FALSE
+false
 ;
 CHECK
 (
@@ -194,7 +194,7 @@ address
 ;
 hasProp
 =
-JS_FALSE
+false
 ;
 CHECK
 (
@@ -217,7 +217,7 @@ hasProp
 ;
 hasProp
 =
-JS_TRUE
+true
 ;
 CHECK
 (
