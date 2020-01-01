@@ -1187,6 +1187,11 @@ jsop_typeof
 )
 ;
 bool
+jsop_toid
+(
+)
+;
+bool
 jsop_iter
 (
 uint8
