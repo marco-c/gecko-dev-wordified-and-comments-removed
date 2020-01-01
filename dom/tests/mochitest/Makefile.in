@@ -439,6 +439,10 @@ html
 \
 ajax
 \
+browser
+-
+frame
+\
 bugs
 \
 chrome
@@ -453,13 +457,11 @@ localstorage
 \
 orientation
 \
+pointerlock
+\
 sessionstorage
 \
 storageevent
-\
-browser
--
-frame
 \
 (
 NULL
