@@ -429,10 +429,6 @@ HUDService
 .
 jsm
 \
-PropertyPanel
-.
-jsm
-\
 (
 NULL
 )
