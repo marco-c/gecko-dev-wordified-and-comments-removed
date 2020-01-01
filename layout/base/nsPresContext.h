@@ -2269,6 +2269,16 @@ IsChrome
 (
 )
 ;
+virtual
+PRBool
+HasAuthorSpecifiedBorderOrBackground
+(
+nsIFrame
+*
+aFrame
+)
+const
+;
 protected
 :
 friend

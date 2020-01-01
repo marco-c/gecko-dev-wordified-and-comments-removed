@@ -107,6 +107,9 @@ eCSSUnit_Normal
 eCSSUnit_System_Font
 =
 6
+eCSSUnit_Dummy
+=
+7
 eCSSUnit_String
 =
 10
@@ -1145,6 +1148,14 @@ NS_HIDDEN_
 void
 )
 SetSystemFontValue
+(
+)
+;
+NS_HIDDEN_
+(
+void
+)
+SetDummyValue
 (
 )
 ;

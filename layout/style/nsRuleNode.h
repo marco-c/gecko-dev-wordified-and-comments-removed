@@ -2800,6 +2800,15 @@ Sweep
 (
 )
 ;
+static
+PRBool
+HasAuthorSpecifiedBorderOrBackground
+(
+nsStyleContext
+*
+aStyleContext
+)
+;
 }
 ;
 #
