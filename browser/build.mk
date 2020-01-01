@@ -468,6 +468,7 @@ browser
 installer
 install
 :
+:
 (
 MAKE
 )
