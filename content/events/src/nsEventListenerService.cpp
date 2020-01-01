@@ -266,7 +266,10 @@ JSAutoCompartment
 >
 &
 aAc
-jsval
+JS
+:
+:
+Value
 *
 aJSVal
 )
@@ -483,7 +486,10 @@ JSAutoCompartment
 >
 ac
 ;
-jsval
+JS
+:
+:
+Value
 v
 =
 JSVAL_NULL
@@ -694,7 +700,10 @@ JSAutoCompartment
 >
 ac
 ;
-jsval
+JS
+:
+:
+Value
 v
 =
 JSVAL_NULL

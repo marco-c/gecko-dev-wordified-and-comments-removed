@@ -241,7 +241,10 @@ aSource
 }
 private
 :
-jsval
+JS
+:
+:
+Value
 mData
 ;
 bool

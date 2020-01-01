@@ -76,7 +76,10 @@ aType
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aVal
 )

@@ -224,7 +224,10 @@ GetFrameBuffer
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aResult
 )

@@ -234,7 +234,10 @@ GetData
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aData
 )
@@ -337,7 +340,10 @@ aCanBubble
 bool
 aCancelable
 const
-jsval
+JS
+:
+:
+Value
 &
 aData
 const
