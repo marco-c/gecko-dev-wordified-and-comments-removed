@@ -265,6 +265,15 @@ return
 false
 ;
 }
+bool
+GetStayActive
+(
+)
+{
+return
+mStayActive
+;
+}
 void
 SetStayActive
 (
