@@ -104,3 +104,15 @@ height
 5em
 ;
 }
+textbox
+[
+disabled
+]
+{
+text
+-
+style
+:
+italic
+;
+}
