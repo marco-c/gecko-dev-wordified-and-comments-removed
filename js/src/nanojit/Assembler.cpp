@@ -6640,6 +6640,13 @@ break
 ;
 }
 case
+LIR_xbarrier
+:
+{
+break
+;
+}
+case
 LIR_xt
 :
 case
