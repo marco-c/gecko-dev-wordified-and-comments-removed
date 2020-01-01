@@ -838,6 +838,10 @@ GeckoUpdateReceiver
 .
 java
 \
+ReferrerReceiver
+.
+java
+\
 (
 NULL
 )
