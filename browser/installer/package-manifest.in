@@ -1939,6 +1939,13 @@ components
 nsINIProcessor
 .
 js
+BINPATH
+/
+components
+/
+nsPrompter
+.
+js
 ;
 Modules
 BINPATH
