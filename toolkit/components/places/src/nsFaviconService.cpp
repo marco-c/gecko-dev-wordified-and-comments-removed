@@ -1403,6 +1403,16 @@ PRBool
 aForceReload
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aPage
+)
+;
+NS_ENSURE_ARG_POINTER
+(
+aFavicon
+)
+;
 #
 ifdef
 LAZY_ADD
