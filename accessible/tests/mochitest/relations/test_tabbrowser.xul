@@ -713,6 +713,10 @@ gQueue
 =
 null
 ;
+gA11yEventDumpToConsole
+=
+true
+;
 function
 doTest
 (
