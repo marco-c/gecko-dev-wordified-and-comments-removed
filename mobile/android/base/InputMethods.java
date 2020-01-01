@@ -492,11 +492,11 @@ SDK_INT
 17
 &
 &
-inputMethod
+METHOD_STOCK_LATINIME
 .
 equals
 (
-METHOD_STOCK_LATINIME
+inputMethod
 )
 ;
 }
