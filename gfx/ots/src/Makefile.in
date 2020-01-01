@@ -224,11 +224,6 @@ config
 autoconf
 .
 mk
-ifndef
-MOZ_ENABLE_LIBXUL
-VISIBILITY_FLAGS
-=
-endif
 MODULE
 =
 ots
