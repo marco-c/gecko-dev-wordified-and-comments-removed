@@ -4604,10 +4604,8 @@ return
 NPERR_INVALID_PARAM
 ;
 }
-nsRefPtr
-<
 nsNPAPIPluginStreamListener
->
+*
 listener
 =
 streamWrapper

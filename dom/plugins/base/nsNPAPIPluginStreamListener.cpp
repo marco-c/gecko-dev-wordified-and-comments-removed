@@ -766,6 +766,15 @@ rv
 =
 NS_ERROR_FAILURE
 ;
+nsRefPtr
+<
+nsNPAPIPluginStreamListener
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 mStreamCleanedUp
@@ -2888,11 +2897,6 @@ CanFireNotifications
 return
 NS_ERROR_FAILURE
 ;
-nsresult
-rv
-=
-NS_OK
-;
 NPReason
 reason
 =
@@ -2937,8 +2941,7 @@ status
 )
 )
 {
-rv
-=
+return
 CleanUpStream
 (
 reason
@@ -2946,7 +2949,7 @@ reason
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 nsresult
