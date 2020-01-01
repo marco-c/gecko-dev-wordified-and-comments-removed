@@ -1541,7 +1541,7 @@ org
 LOCALE
 %
 /
-mobile
+android
 /
 recommended
 /
@@ -1576,7 +1576,7 @@ org
 LOCALE
 %
 /
-mobile
+android
 /
 api
 /
@@ -1630,7 +1630,7 @@ org
 LOCALE
 %
 /
-mobile
+android
 /
 search
 ?
@@ -1670,7 +1670,7 @@ org
 LOCALE
 %
 /
-mobile
+android
 /
 api
 /
@@ -1728,7 +1728,7 @@ org
 LOCALE
 %
 /
-mobile
+android
 /
 "
 )
@@ -1761,7 +1761,7 @@ org
 LOCALE
 %
 /
-mobile
+android
 /
 api
 /
@@ -1823,7 +1823,7 @@ org
 LOCALE
 %
 /
-mobile
+android
 /
 api
 /
