@@ -9277,6 +9277,7 @@ NULL
 }
 if
 (
+(
 rt
 -
 >
@@ -9293,12 +9294,12 @@ rt
 -
 >
 gcPoke
+)
 #
 ifdef
 JS_GC_ZEAL
-&
-&
-(
+|
+|
 rt
 -
 >
@@ -9322,7 +9323,6 @@ rt
 -
 >
 gcPoke
-)
 )
 #
 endif
