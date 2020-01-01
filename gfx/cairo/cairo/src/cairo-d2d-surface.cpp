@@ -2166,8 +2166,10 @@ surface
 bufferTexture
 )
 {
+RefPtr
+<
 IDXGISurface
-*
+>
 surf
 ;
 DXGI_SURFACE_DESC
