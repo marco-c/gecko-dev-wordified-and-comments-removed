@@ -6518,7 +6518,7 @@ void
 nsTextControlFrame
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &

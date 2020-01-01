@@ -219,7 +219,7 @@ aElements
 ;
 virtual
 void
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &
@@ -543,7 +543,7 @@ void
 nsDocElementBoxFrame
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &

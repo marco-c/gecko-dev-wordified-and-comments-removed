@@ -188,7 +188,7 @@ aElements
 ;
 virtual
 void
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &
@@ -507,7 +507,7 @@ void
 nsSVGUseFrame
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &

@@ -1118,7 +1118,7 @@ void
 nsFileControlFrame
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &

@@ -175,7 +175,7 @@ aElements
 )
 ;
 void
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &
@@ -1304,7 +1304,7 @@ aElements
 ;
 virtual
 void
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &
@@ -2083,7 +2083,7 @@ aElements
 ;
 virtual
 void
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &

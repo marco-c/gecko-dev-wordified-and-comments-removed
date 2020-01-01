@@ -958,7 +958,7 @@ void
 nsIsIndexFrame
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &

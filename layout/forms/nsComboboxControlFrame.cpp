@@ -4109,7 +4109,7 @@ void
 nsComboboxControlFrame
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &

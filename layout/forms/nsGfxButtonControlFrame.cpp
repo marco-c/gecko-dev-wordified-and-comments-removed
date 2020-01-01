@@ -387,7 +387,7 @@ void
 nsGfxButtonControlFrame
 :
 :
-GetAnonymousContent
+AppendAnonymousContentTo
 (
 nsBaseContentList
 &
