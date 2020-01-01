@@ -1471,8 +1471,7 @@ mInfo
 .
 mDataOffset
 =
--
-1
+0
 ;
 }
 else
