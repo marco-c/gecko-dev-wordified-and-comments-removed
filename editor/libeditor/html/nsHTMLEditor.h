@@ -1516,6 +1516,13 @@ RemoveEventListeners
 (
 )
 ;
+void
+UpdateCSSAwareForFlags
+(
+PRUint32
+aFlags
+)
+;
 NS_IMETHOD
 GetLayoutObject
 (
