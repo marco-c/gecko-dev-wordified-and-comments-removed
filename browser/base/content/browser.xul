@@ -10972,6 +10972,11 @@ browser
 -
 bottombox
 "
+layer
+=
+"
+true
+"
 >
 <
 statusbar
