@@ -200,13 +200,6 @@ h
 #
 include
 "
-jscompartment
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h
@@ -3198,10 +3191,10 @@ cx
 this
 )
 ;
-js
+JS
 :
 :
-PreserveCompartment
+AutoPreserveCompartment
 pc
 (
 cx

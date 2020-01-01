@@ -134,13 +134,6 @@ nsIJSContextStack
 h
 "
 #
-include
-"
-jscompartment
-.
-h
-"
-#
 undef
 CAUTIOUS_SCRIPTHOOK
 #
