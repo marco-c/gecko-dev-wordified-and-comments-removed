@@ -191,6 +191,10 @@ ImageData
 .
 webidl
 \
+Node
+.
+webidl
+\
 NodeList
 .
 webidl

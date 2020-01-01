@@ -95,6 +95,17 @@ func_index
 uint16_t
 n_funcs
 ;
+const
+mozilla
+:
+:
+dom
+:
+:
+NativeProperties
+*
+newBindingProperties
+;
 uint16_t
 parentInterface
 ;
