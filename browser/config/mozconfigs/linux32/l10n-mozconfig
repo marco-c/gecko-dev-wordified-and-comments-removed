@@ -64,6 +64,10 @@ unix
 mozconfig
 .
 linux
+export
+MOZILLA_OFFICIAL
+=
+1
 .
 "
 topsrcdir

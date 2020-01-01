@@ -48,6 +48,10 @@ base
 l10n
 -
 central
+export
+MOZILLA_OFFICIAL
+=
+1
 if
 test
 "
