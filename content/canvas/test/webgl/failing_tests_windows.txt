@@ -1,14 +1,5 @@
 conformance
 /
-buffer
--
-offscreen
--
-test
-.
-html
-conformance
-/
 drawingbuffer
 -
 static
