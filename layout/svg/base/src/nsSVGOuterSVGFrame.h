@@ -416,7 +416,7 @@ gfxMatrix
 >
 mCanvasTM
 ;
-PRUint32
+PRInt32
 mRedrawSuspendCount
 ;
 float
