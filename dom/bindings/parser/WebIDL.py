@@ -3107,7 +3107,7 @@ self
 .
 namedConstructors
 =
-set
+list
 (
 )
         
@@ -5331,7 +5331,7 @@ self
 .
 namedConstructors
 .
-add
+append
 (
 method
 )
