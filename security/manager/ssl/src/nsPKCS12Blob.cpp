@@ -1154,6 +1154,9 @@ NULL
 {
 isExtractable
 =
+!
+!
+(
 *
 (
 CK_BBOOL
@@ -1162,6 +1165,7 @@ CK_BBOOL
 value
 .
 data
+)
 ;
 }
 SECITEM_FreeItem
@@ -3192,7 +3196,7 @@ return
 PR_TRUE
 ;
 }
-PRBool
+void
 nsPKCS12Blob
 :
 :
@@ -3215,16 +3219,10 @@ isUIForbidden
 )
 {
 return
-PR_FALSE
 ;
 }
 nsresult
 rv
-;
-PRBool
-keepGoing
-=
-PR_FALSE
 ;
 int
 prerr
@@ -3295,7 +3293,6 @@ rv
 )
 )
 return
-PR_FALSE
 ;
 nsCOMPtr
 <
@@ -3364,20 +3361,17 @@ if
 proxyPrompt
 )
 return
-PR_FALSE
 ;
 }
 else
 {
 return
-PR_FALSE
 ;
 }
 }
 else
 {
 return
-PR_FALSE
 ;
 }
 nsAutoString
@@ -3412,7 +3406,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3428,7 +3421,6 @@ get
 )
 ;
 return
-PR_TRUE
 ;
 case
 PIP_PKCS12_BACKUP_OK
@@ -3454,7 +3446,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3470,13 +3461,11 @@ get
 )
 ;
 return
-PR_TRUE
 ;
 case
 PIP_PKCS12_USER_CANCELED
 :
 return
-PR_TRUE
 ;
 case
 PIP_PKCS12_NOSMARTCARD_EXPORT
@@ -3502,7 +3491,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3518,7 +3506,6 @@ get
 )
 ;
 return
-PR_TRUE
 ;
 case
 PIP_PKCS12_RESTORE_FAILED
@@ -3544,7 +3531,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3560,7 +3546,6 @@ get
 )
 ;
 return
-PR_TRUE
 ;
 case
 PIP_PKCS12_BACKUP_FAILED
@@ -3586,7 +3571,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3602,7 +3586,6 @@ get
 )
 ;
 return
-PR_TRUE
 ;
 case
 PIP_PKCS12_NSS_ERROR
@@ -3647,7 +3630,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3690,7 +3672,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3737,7 +3718,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3778,7 +3758,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3818,7 +3797,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3862,7 +3840,6 @@ rv
 )
 )
 return
-rv
 ;
 errPrompt
 -
@@ -3880,17 +3857,4 @@ get
 break
 ;
 }
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
-;
-return
-keepGoing
-;
 }
