@@ -347,6 +347,15 @@ f
 ;
 void
 JS_FASTCALL
+Ursh
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 Add
 (
 VMFrame
