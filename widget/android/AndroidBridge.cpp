@@ -1012,7 +1012,8 @@ nullptr
 ;
 mThread
 =
-nullptr
+-
+1
 ;
 mGLControllerObj
 =
@@ -1255,8 +1256,7 @@ AndroidBridge
 :
 SetMainThread
 (
-void
-*
+pthread_t
 thr
 )
 {
@@ -1307,7 +1307,8 @@ nullptr
 ;
 mThread
 =
-nullptr
+-
+1
 ;
 return
 true
@@ -3959,8 +3960,7 @@ true
 bool
 mozilla_AndroidBridge_SetMainThread
 (
-void
-*
+pthread_t
 thr
 )
 {
