@@ -1155,6 +1155,12 @@ progress
 )
 ;
 }
+MonitorAutoEnter
+mon
+(
+mMonitor
+)
+;
 PRBool
 resourceIsLoaded
 =
@@ -1190,12 +1196,6 @@ resourceIsLoaded
 )
 ;
 }
-MonitorAutoEnter
-mon
-(
-mMonitor
-)
-;
 if
 (
 mPlayState
