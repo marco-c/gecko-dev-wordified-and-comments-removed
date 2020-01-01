@@ -19,7 +19,7 @@ h
 #
 include
 "
-jspubtd
+jsapi
 .
 h
 "
@@ -316,6 +316,15 @@ T
 ptr
 ;
 }
+;
+template
+<
+>
+class
+Handle
+<
+Value
+>
 ;
 typedef
 Handle

@@ -1181,7 +1181,6 @@ EncapsulatedValue
 }
 public
 :
-inline
 bool
 operator
 =
@@ -1203,7 +1202,6 @@ v
 value
 ;
 }
-inline
 bool
 operator
 !
