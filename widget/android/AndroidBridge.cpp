@@ -11858,6 +11858,8 @@ nsPresContext
 CSSPixelsToAppUnits
 (
 srcX
+/
+scale
 )
 nsPresContext
 :
@@ -11865,6 +11867,8 @@ nsPresContext
 CSSPixelsToAppUnits
 (
 srcY
+/
+scale
 )
 nsPresContext
 :
@@ -11872,6 +11876,8 @@ nsPresContext
 CSSPixelsToAppUnits
 (
 srcW
+/
+scale
 )
 nsPresContext
 :
@@ -11879,6 +11885,8 @@ nsPresContext
 CSSPixelsToAppUnits
 (
 srcH
+/
+scale
 )
 )
 ;
