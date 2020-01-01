@@ -3817,7 +3817,9 @@ if
 !
 code
 )
-continue
+op
+=
+JSOP_NOP
 ;
 bool
 finishChunk
