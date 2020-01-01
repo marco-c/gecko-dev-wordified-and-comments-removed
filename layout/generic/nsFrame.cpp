@@ -24505,9 +24505,8 @@ result
 lastFrame
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 should
 not

@@ -1288,9 +1288,8 @@ break
 ;
 }
 }
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 unable
 to

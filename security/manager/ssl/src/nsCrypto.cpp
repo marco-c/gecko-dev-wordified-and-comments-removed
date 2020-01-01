@@ -7713,9 +7713,8 @@ if
 filePicker
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Could
 not
@@ -11596,9 +11595,8 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Bogus
 return

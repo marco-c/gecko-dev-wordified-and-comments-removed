@@ -224,9 +224,8 @@ counter
 =
 0
 ;
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 about
 to
@@ -282,9 +281,8 @@ counter
 =
 0
 ;
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 about
 to

@@ -456,9 +456,8 @@ NS_OK
 ;
 }
 }
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 unable
 to
@@ -720,9 +719,8 @@ res
 return
 res
 ;
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 unable
 to
@@ -1138,9 +1136,8 @@ res
 }
 }
 }
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 unable
 to
@@ -1286,9 +1283,8 @@ return
 res
 ;
 }
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 unable
 to
@@ -1390,9 +1386,8 @@ res
 )
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 failed
 to
@@ -1437,9 +1432,8 @@ res
 )
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 failed
 to

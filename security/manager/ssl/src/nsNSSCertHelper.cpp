@@ -374,9 +374,8 @@ srv
 SECSuccess
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Could
 not
@@ -569,9 +568,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Bad
 value

@@ -44711,9 +44711,8 @@ if
 isReflowing
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Atemptted
 to

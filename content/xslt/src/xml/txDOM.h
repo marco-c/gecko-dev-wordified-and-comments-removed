@@ -1149,9 +1149,8 @@ aURI
 )
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Out
 of

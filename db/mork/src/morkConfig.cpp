@@ -55,9 +55,8 @@ defined
 (
 MORK_MAC
 )
-NS_ASSERTION
+NS_ERROR
 (
-0
 inMessage
 )
 ;

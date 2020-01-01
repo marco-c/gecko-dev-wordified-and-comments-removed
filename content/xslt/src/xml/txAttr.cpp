@@ -82,9 +82,8 @@ Node
 newChild
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 not
 implemented

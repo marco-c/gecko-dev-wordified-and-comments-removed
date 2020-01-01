@@ -1047,9 +1047,8 @@ gRootPort
 MACH_PORT_NULL
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 IORegisterForSystemPower
 failed

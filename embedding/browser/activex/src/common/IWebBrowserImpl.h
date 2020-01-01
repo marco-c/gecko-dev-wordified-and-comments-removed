@@ -122,9 +122,8 @@ BrowserIsValid
 \
 {
 \
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Browser
 is
@@ -187,9 +186,8 @@ rv
 \
 {
 \
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Cannot
 get
@@ -833,9 +831,8 @@ URL
 NULL
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 No
 URL
@@ -917,9 +914,8 @@ Flags
 S_OK
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Flags
 param
@@ -1433,9 +1429,8 @@ rv
 stream
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 cannot
 create
@@ -1622,9 +1617,8 @@ rv
 headersStream
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 cannot
 create
@@ -1814,9 +1808,8 @@ Level
 S_OK
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Cannot
 change
@@ -1901,9 +1894,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Unknown
 refresh

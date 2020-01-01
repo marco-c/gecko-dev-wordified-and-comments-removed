@@ -1618,9 +1618,8 @@ xpc_ThreadDataDtorCB
 )
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 PR_NewThreadPrivateIndex
 failed
@@ -1677,9 +1676,8 @@ IsValid
 )
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 new
 XPCPerThreadData
@@ -1713,9 +1711,8 @@ data
 )
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 PR_SetThreadPrivate
 failed

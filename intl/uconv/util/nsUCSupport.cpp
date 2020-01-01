@@ -481,9 +481,8 @@ defined
 (
 DEBUG_ftang
 )
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 This
 should
@@ -536,9 +535,8 @@ defined
 (
 DEBUG_ftang
 )
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 This
 should

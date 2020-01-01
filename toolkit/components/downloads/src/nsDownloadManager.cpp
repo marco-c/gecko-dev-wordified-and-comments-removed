@@ -3452,9 +3452,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Unexpected
 value

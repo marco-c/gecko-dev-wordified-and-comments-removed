@@ -5431,9 +5431,8 @@ curPos
 startFragment
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 StartFragment
 byte

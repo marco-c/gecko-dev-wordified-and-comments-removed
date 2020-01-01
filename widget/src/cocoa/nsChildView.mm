@@ -4825,9 +4825,8 @@ break
 case
 NS_NATIVE_GRAPHIC
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Requesting
 NS_NATIVE_GRAPHIC

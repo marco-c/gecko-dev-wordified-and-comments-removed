@@ -2841,9 +2841,8 @@ PL_strdup
 }
 else
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Somehow
 got
@@ -7230,9 +7229,8 @@ cert
 nsnull
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Somehow
 got
@@ -7257,9 +7255,8 @@ mCertList
 nsnull
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Somehow
 got
@@ -7331,9 +7328,8 @@ cert
 nsnull
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Somehow
 got
@@ -7358,9 +7354,8 @@ mCertList
 nsnull
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Somehow
 got

@@ -3149,9 +3149,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 unknown
 border
@@ -3249,9 +3248,8 @@ WS_EX_TOOLWINDOW
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 unknown
 border

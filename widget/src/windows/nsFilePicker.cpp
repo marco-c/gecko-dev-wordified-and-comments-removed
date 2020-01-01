@@ -1106,9 +1106,8 @@ ofn
 endif
 else
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 unsupported
 mode

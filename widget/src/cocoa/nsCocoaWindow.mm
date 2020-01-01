@@ -3574,9 +3574,8 @@ just
 return
 nsnull
 .
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Requesting
 NS_NATIVE_GRAPHIC

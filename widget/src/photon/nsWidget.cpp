@@ -709,9 +709,8 @@ rid
 1
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 nsWidget
 :
@@ -1654,9 +1653,8 @@ break
 ;
 default
 :
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 Invalid
 cursor

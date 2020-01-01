@@ -1602,9 +1602,8 @@ StartDragSession
 (
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 OS
 /
@@ -1636,9 +1635,8 @@ PRBool
 aDragDone
 )
 {
-NS_ASSERTION
+NS_ERROR
 (
-0
 "
 OS
 /
