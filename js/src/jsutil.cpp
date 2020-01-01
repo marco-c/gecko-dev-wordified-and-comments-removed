@@ -67,7 +67,11 @@ JSUint32
 )
 OOM_maxAllocations
 =
-UINT32_MAX
+(
+JSUint32
+)
+-
+1
 ;
 JS_PUBLIC_DATA
 (
