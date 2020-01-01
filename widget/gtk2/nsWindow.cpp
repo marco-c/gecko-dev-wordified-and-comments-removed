@@ -584,9 +584,6 @@ static
 bool
 check_for_rollup
 (
-GdkWindow
-*
-aWindow
 gdouble
 aMouseX
 gdouble
@@ -9198,10 +9195,6 @@ y
 {
 check_for_rollup
 (
-aEvent
--
->
-window
 0
 0
 false
@@ -10927,10 +10920,6 @@ check_for_rollup
 aEvent
 -
 >
-window
-aEvent
--
->
 x_root
 aEvent
 -
@@ -11754,10 +11743,6 @@ shouldRollup
 {
 check_for_rollup
 (
-aEvent
--
->
-window
 0
 0
 false
@@ -13358,10 +13343,6 @@ rolledUp
 =
 check_for_rollup
 (
-aEvent
--
->
-window
 aEvent
 -
 >
@@ -21672,9 +21653,6 @@ static
 bool
 check_for_rollup
 (
-GdkWindow
-*
-aWindow
 gdouble
 aMouseX
 gdouble
