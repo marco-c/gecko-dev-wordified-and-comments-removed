@@ -226,6 +226,10 @@ test_notifications
 .
 html
 \
+test_notifications_popup
+.
+html
+\
 test_privbrowsing
 .
 html
@@ -323,6 +327,14 @@ subtst_notifications_9
 html
 \
 subtst_notifications_10
+.
+html
+\
+subtst_notifications_11
+.
+html
+\
+subtst_notifications_11_popup
 .
 html
 \
