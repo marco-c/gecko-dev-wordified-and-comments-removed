@@ -102,12 +102,12 @@ MOZ_WIDGET_TOOLKIT
 '
 ]
 if
-toolkit
-=
-=
+CONFIG
+[
 '
-gtk2
+MOZ_ENABLE_GTK
 '
+]
 :
 DIRS
 +

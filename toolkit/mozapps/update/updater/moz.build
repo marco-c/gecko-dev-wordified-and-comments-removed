@@ -161,7 +161,7 @@ if
 CONFIG
 [
 '
-MOZ_ENABLE_GTK2
+MOZ_ENABLE_GTK
 '
 ]
 :

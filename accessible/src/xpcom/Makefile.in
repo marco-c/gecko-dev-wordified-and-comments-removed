@@ -149,13 +149,8 @@ generic
 (
 NULL
 )
-ifeq
-(
-(
-MOZ_WIDGET_TOOLKIT
-)
-gtk2
-)
+ifdef
+MOZ_ENABLE_GTK
 LOCAL_INCLUDES
 +
 =

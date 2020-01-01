@@ -137,6 +137,7 @@ filter
 -
 out
 gtk2
+gtk3
 qt
 (
 MOZ_WIDGET_TOOLKIT

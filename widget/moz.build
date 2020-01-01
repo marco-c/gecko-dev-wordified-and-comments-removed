@@ -155,6 +155,9 @@ gonk
 '
 gtk2
 '
+'
+gtk3
+'
 )
 :
 EXPORTS
@@ -380,7 +383,7 @@ if
 CONFIG
 [
 '
-MOZ_ENABLE_GTK2
+MOZ_ENABLE_GTK
 '
 ]
 :

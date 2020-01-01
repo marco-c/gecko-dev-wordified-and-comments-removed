@@ -609,8 +609,11 @@ rv
 #
 endif
 #
-ifdef
-MOZ_WIDGET_GTK2
+if
+defined
+(
+MOZ_WIDGET_GTK
+)
 char
 *
 gtkver

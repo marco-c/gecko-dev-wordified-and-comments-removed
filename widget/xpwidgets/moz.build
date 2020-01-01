@@ -282,6 +282,9 @@ qt
 gtk2
 '
 '
+gtk3
+'
+'
 os2
 '
 '
@@ -322,6 +325,9 @@ qt
 '
 '
 gtk2
+'
+'
+gtk3
 '
 '
 windows
