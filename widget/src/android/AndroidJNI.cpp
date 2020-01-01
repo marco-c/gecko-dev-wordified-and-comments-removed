@@ -262,6 +262,7 @@ jenv
 jclass
 jdouble
 jboolean
+jdouble
 )
 ;
 }
@@ -793,6 +794,8 @@ jdouble
 aLevel
 jboolean
 aCharging
+jdouble
+aRemainingTime
 )
 {
 class
@@ -809,6 +812,8 @@ double
 aLevel
 bool
 aCharging
+double
+aRemainingTime
 )
 :
 mLevel
@@ -818,6 +823,10 @@ aLevel
 mCharging
 (
 aCharging
+)
+mRemainingTime
+(
+aRemainingTime
 )
 {
 }
@@ -838,10 +847,7 @@ BatteryInformation
 (
 mLevel
 mCharging
--
-1
-.
-0
+mRemainingTime
 )
 )
 ;
@@ -857,6 +863,9 @@ mLevel
 bool
 mCharging
 ;
+double
+mRemainingTime
+;
 }
 ;
 nsCOMPtr
@@ -870,6 +879,7 @@ NotifyBatteryChangeRunnable
 (
 aLevel
 aCharging
+aRemainingTime
 )
 ;
 NS_DispatchToMainThread
