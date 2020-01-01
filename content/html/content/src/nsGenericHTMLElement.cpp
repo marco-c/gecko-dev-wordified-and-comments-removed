@@ -16259,12 +16259,14 @@ aVisitor
 {
 if
 (
-NS_IS_TRUSTED_EVENT
-(
 aVisitor
 .
 mEvent
-)
+-
+>
+mFlags
+.
+mIsTrusted
 )
 {
 switch

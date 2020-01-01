@@ -674,10 +674,12 @@ DispatchXULCommand
 mContent
 aEvent
 ?
-NS_IS_TRUSTED_EVENT
-(
 aEvent
-)
+-
+>
+mFlags
+.
+mIsTrusted
 :
 aTrustEvent
 nullptr

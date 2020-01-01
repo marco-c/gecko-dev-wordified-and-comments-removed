@@ -136,6 +136,9 @@ mozilla
 namespace
 widget
 {
+struct
+EventFlags
+;
 class
 WheelEvent
 ;

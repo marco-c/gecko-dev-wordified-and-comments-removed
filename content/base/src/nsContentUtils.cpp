@@ -24113,10 +24113,12 @@ dataTransfer
 |
 |
 !
-NS_IS_TRUSTED_EVENT
-(
 aDragEvent
-)
+-
+>
+mFlags
+.
+mIsTrusted
 )
 return
 NS_OK
