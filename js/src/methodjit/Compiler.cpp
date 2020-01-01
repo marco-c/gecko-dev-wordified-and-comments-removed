@@ -15837,11 +15837,12 @@ isString
 )
 )
 {
-int
+int32
 cmp
-=
-js_CompareStrings
+;
+CompareStrings
 (
+cx
 lhs
 .
 toString
@@ -15852,6 +15853,8 @@ rhs
 toString
 (
 )
+&
+cmp
 )
 ;
 switch

@@ -2907,6 +2907,9 @@ cx
 JSString
 *
 str
+JSBool
+*
+ok
 )
 ;
 extern
@@ -3234,7 +3237,7 @@ js_String_tn
 )
 JS_DECLARE_CALLINFO
 (
-js_CompareStrings
+js_CompareStringsOnTrace
 )
 JS_DECLARE_CALLINFO
 (
@@ -3242,7 +3245,7 @@ js_ConcatStrings
 )
 JS_DECLARE_CALLINFO
 (
-js_EqualStrings
+js_EqualStringsOnTrace
 )
 JS_DECLARE_CALLINFO
 (

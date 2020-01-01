@@ -76,7 +76,7 @@ MatchPairs
 MatchPairs
 matchPairs
 ;
-JSString
+JSLinearString
 *
 matchPairsInput
 ;
@@ -649,7 +649,7 @@ updateFromMatch
 JSContext
 *
 cx
-JSString
+JSLinearString
 *
 input
 int

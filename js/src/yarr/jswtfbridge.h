@@ -41,7 +41,7 @@ jschar
 UChar
 ;
 typedef
-JSString
+JSLinearString
 UString
 ;
 template

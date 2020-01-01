@@ -2015,7 +2015,7 @@ extern
 JSBool
 js_IsIdentifier
 (
-JSString
+JSLinearString
 *
 str
 )
