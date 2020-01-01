@@ -12483,6 +12483,19 @@ container
 "
 )
 ;
+if
+(
+layer
+-
+>
+GetPrevSibling
+(
+)
+!
+=
+prevChild
+)
+{
 mContainerLayer
 -
 >
@@ -12492,6 +12505,7 @@ layer
 prevChild
 )
 ;
+}
 }
 if
 (
