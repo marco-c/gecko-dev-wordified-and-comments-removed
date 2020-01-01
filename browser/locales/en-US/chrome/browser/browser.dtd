@@ -1890,6 +1890,16 @@ Workspace
 ENTITY
 workspace
 .
+accesskey
+"
+O
+"
+>
+<
+!
+ENTITY
+workspace
+.
 keycode
 "
 VK_F4

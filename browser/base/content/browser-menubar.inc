@@ -4274,6 +4274,15 @@ workspace
 label
 ;
 "
+accesskey
+=
+"
+&
+workspace
+.
+accesskey
+;
+"
 key
 =
 "
