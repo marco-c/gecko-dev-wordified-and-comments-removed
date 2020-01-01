@@ -1296,7 +1296,7 @@ gIsATI
 serverVendor
 &
 &
-DoesStringMatch
+DoesVendorStringMatch
 (
 serverVendor
 "
@@ -1310,7 +1310,7 @@ gIsChromium
 serverVendor
 &
 &
-DoesStringMatch
+DoesVendorStringMatch
 (
 serverVendor
 "
@@ -1324,7 +1324,7 @@ Chromium
 serverVersionStr
 &
 &
-DoesStringMatch
+DoesVendorStringMatch
 (
 serverVersionStr
 "
