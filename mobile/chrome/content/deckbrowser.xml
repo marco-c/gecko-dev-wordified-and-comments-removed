@@ -6713,11 +6713,13 @@ aEvent
 if
 (
 !
+(
 aEvent
 .
 type
 in
 this
+)
 )
 {
 Components
