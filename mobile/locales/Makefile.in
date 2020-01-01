@@ -1600,10 +1600,6 @@ DATASTAGE
 (
 installdir
 )
-/
-(
-MOZ_APP_NAME
-)
 #
 XXX
 hack
@@ -1625,10 +1621,6 @@ DATASTAGE
 installdir
 )
 /
-(
-MOZ_APP_NAME
-)
-/
 chrome
 /
 ?
@@ -1644,10 +1636,6 @@ DATASTAGE
 /
 (
 installdir
-)
-/
-(
-MOZ_APP_NAME
 )
 /
 chrome
@@ -1736,10 +1724,6 @@ DATASTAGE
 (
 installdir
 )
-/
-(
-MOZ_APP_NAME
-)
 &
 &
 tar
@@ -1795,10 +1779,6 @@ DATASTAGE
 /
 (
 installdir
-)
-/
-(
-MOZ_APP_NAME
 )
 cd
 (
