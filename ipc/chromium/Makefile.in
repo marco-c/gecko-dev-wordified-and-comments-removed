@@ -845,6 +845,10 @@ task_queue
 .
 cc
 \
+sha512
+.
+cc
+\
 (
 NULL
 )
@@ -998,10 +1002,6 @@ OS_POSIX
 CPPSRCS
 +
 =
-\
-sha512
-.
-cc
 \
 condition_variable_posix
 .
