@@ -139,6 +139,13 @@ start
 )
 ;
 "
+windowtype
+=
+"
+navigator
+:
+localepicker
+"
 width
 =
 "
