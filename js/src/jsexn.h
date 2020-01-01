@@ -71,7 +71,10 @@ JSErrorFormatString
 *
 js_GetLocalizedErrorMessage
 (
-JSContext
+js
+:
+:
+ExclusiveContext
 *
 cx
 void

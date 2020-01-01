@@ -939,10 +939,6 @@ decimalPoint
 struct
 CompileError
 {
-JSContext
-*
-cx
-;
 JSErrorReport
 report
 ;
@@ -955,15 +951,8 @@ argumentsType
 ;
 CompileError
 (
-JSContext
-*
-cx
 )
 :
-cx
-(
-cx
-)
 message
 (
 NULL
@@ -991,6 +980,9 @@ CompileError
 void
 throwError
 (
+JSContext
+*
+cx
 )
 ;
 }

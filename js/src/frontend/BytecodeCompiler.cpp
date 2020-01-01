@@ -1464,6 +1464,9 @@ ref
 .
 init
 (
+parser
+.
+tokenStream
 )
 )
 return
@@ -1791,6 +1794,9 @@ ref
 .
 init
 (
+parser
+.
+tokenStream
 )
 )
 return

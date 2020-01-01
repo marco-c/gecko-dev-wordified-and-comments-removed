@@ -207,6 +207,9 @@ ParseHandler
 bool
 GenerateBlockId
 (
+TokenStream
+&
+ts
 ParseContext
 <
 ParseHandler
@@ -697,6 +700,9 @@ ParseContext
 bool
 init
 (
+TokenStream
+&
+ts
 )
 ;
 unsigned
