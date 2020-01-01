@@ -20586,10 +20586,9 @@ aNotify
 document
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 this
-nsnull
 stateMask
 )
 ;
@@ -21772,10 +21771,9 @@ aNotify
 document
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 this
-nsnull
 stateMask
 )
 ;

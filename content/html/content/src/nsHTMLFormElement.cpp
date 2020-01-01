@@ -1223,7 +1223,7 @@ i
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 mControls
 -
@@ -1232,7 +1232,6 @@ mElements
 [
 i
 ]
-nsnull
 NS_EVENT_STATE_MOZ_UI_VALID
 |
 NS_EVENT_STATE_MOZ_UI_INVALID
@@ -1268,7 +1267,7 @@ i
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 mControls
 -
@@ -1277,7 +1276,6 @@ mNotInElements
 [
 i
 ]
-nsnull
 NS_EVENT_STATE_MOZ_UI_VALID
 |
 NS_EVENT_STATE_MOZ_UI_INVALID
@@ -1860,10 +1858,9 @@ doc
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 node
-nsnull
 states
 )
 ;
@@ -4355,10 +4352,9 @@ oldDefaultSubmit
 document
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 oldElement
-nsnull
 NS_EVENT_STATE_DEFAULT
 )
 ;
@@ -4869,10 +4865,9 @@ PR_TRUE
 document
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 mDefaultSubmitElement
-nsnull
 NS_EVENT_STATE_DEFAULT
 )
 ;
@@ -6330,7 +6325,7 @@ true
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 mControls
 -
@@ -6339,7 +6334,6 @@ mElements
 [
 i
 ]
-nsnull
 NS_EVENT_STATE_MOZ_UI_VALID
 |
 NS_EVENT_STATE_MOZ_UI_INVALID
@@ -6375,7 +6369,7 @@ i
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 mControls
 -
@@ -6384,7 +6378,6 @@ mNotInElements
 [
 i
 ]
-nsnull
 NS_EVENT_STATE_MOZ_UI_VALID
 |
 NS_EVENT_STATE_MOZ_UI_INVALID
@@ -6634,7 +6627,7 @@ IsSubmitControl
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 mControls
 -
@@ -6643,7 +6636,6 @@ mElements
 [
 i
 ]
-nsnull
 NS_EVENT_STATE_MOZ_SUBMITINVALID
 )
 ;
@@ -6696,7 +6688,7 @@ IsSubmitControl
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 mControls
 -
@@ -6705,7 +6697,6 @@ mNotInElements
 [
 i
 ]
-nsnull
 NS_EVENT_STATE_MOZ_SUBMITINVALID
 )
 ;

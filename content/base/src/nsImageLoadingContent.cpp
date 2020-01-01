@@ -2883,10 +2883,9 @@ PR_TRUE
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 thisContent
-nsnull
 changedBits
 )
 ;

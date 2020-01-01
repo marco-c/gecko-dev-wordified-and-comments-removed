@@ -6125,10 +6125,9 @@ aNotify
 doc
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 this
-nsnull
 stateMask
 )
 ;

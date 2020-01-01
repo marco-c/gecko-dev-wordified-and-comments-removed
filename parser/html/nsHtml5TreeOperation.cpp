@@ -1801,10 +1801,9 @@ PR_TRUE
 document
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 node
-nsnull
 stateMask
 )
 ;

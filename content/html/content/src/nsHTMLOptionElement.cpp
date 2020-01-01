@@ -452,10 +452,9 @@ aNotify
 document
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 this
-nsnull
 NS_EVENT_STATE_CHECKED
 )
 ;

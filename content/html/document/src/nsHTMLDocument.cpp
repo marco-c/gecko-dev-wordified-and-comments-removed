@@ -12477,10 +12477,9 @@ aEditable
 aDocument
 -
 >
-ContentStatesChanged
+ContentStateChanged
 (
 child
-nsnull
 NS_EVENT_STATE_MOZ_READONLY
 |
 NS_EVENT_STATE_MOZ_READWRITE
