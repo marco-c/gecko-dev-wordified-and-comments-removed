@@ -223,15 +223,13 @@ nsReStyleHint
 aResult
 )
 ;
-NS_IMETHOD
+virtual
+nsReStyleHint
 HasAttributeDependentStyle
 (
 AttributeRuleProcessorData
 *
 aData
-nsReStyleHint
-*
-aResult
 )
 ;
 NS_IMETHOD

@@ -10611,7 +10611,7 @@ possibleChange
 ;
 }
 }
-NS_IMETHODIMP
+nsReStyleHint
 nsCSSRuleProcessor
 :
 :
@@ -10620,9 +10620,6 @@ HasAttributeDependentStyle
 AttributeRuleProcessorData
 *
 aData
-nsReStyleHint
-*
-aResult
 )
 {
 NS_PRECONDITION
@@ -11109,15 +11106,10 @@ data
 }
 }
 }
-*
-aResult
-=
+return
 data
 .
 change
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
