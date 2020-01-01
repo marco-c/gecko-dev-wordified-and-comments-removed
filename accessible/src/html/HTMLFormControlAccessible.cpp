@@ -1647,6 +1647,11 @@ states
 :
 :
 SUPPORTS_AUTOCOMPLETION
+|
+states
+:
+:
+HASPOPUP
 ;
 if
 (
