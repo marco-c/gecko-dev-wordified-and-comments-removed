@@ -276,9 +276,8 @@ html
 category
 :
 "
-DOM
+Web
 Worker
-javascript
 "
 matchString
 :
