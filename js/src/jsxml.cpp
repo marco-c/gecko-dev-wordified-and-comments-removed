@@ -26150,7 +26150,8 @@ atom
 else
 if
 (
-JSVAL_IS_OBJECT
+!
+JSVAL_IS_PRIMITIVE
 (
 v
 )

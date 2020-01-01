@@ -3443,9 +3443,13 @@ NativeIterator
 *
 ni
 =
-keysOnly
+(
+flags
+&
+JSITER_FOREACH
+)
 ?
-SnapshotKeys
+SnapshotValues
 (
 cx
 obj
@@ -3463,7 +3467,7 @@ length
 key
 )
 :
-SnapshotValues
+SnapshotKeys
 (
 cx
 obj

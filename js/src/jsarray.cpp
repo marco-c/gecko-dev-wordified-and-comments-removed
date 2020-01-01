@@ -958,7 +958,7 @@ JS_ASSERT
 (
 index
 >
-JSVAL_INT_MAX
+JSID_INT_MAX
 )
 ;
 start
