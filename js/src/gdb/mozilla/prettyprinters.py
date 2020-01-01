@@ -772,6 +772,9 @@ objfile
 filename
 )
 )
+        
+return
+None
     
 def
 lookup
