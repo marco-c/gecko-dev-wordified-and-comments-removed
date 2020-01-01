@@ -505,6 +505,14 @@ errno
 .
 cpp
 \
+jsctypes
+-
+test
+-
+finalizer
+.
+cpp
+\
 (
 NULL
 )
