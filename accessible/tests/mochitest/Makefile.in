@@ -440,6 +440,8 @@ hypertext
 \
 name
 \
+pivot
+\
 relations
 \
 selectable
@@ -547,6 +549,10 @@ layout
 js
 \
 name
+.
+js
+\
+pivot
 .
 js
 \

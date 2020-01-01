@@ -385,6 +385,7 @@ mData
 ;
 class
 ImageCache
+MOZ_FINAL
 :
 public
 nsExpirationTracker
@@ -481,6 +482,7 @@ nsnull
 ;
 class
 CanvasImageCacheShutdownObserver
+MOZ_FINAL
 :
 public
 nsIObserver

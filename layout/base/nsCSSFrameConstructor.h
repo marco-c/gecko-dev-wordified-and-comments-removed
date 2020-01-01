@@ -90,6 +90,13 @@ nsIAnonymousContentCreator
 .
 h
 "
+#
+include
+"
+nsFrameManager
+.
+h
+"
 class
 nsIDocument
 ;
@@ -110,9 +117,6 @@ nsStyleDisplay
 ;
 class
 nsIPresShell
-;
-class
-nsFrameManager
 ;
 class
 nsIDOMHTMLSelectElement
@@ -152,6 +156,9 @@ nsFrameConstructorSaveState
 ;
 class
 nsCSSFrameConstructor
+:
+public
+nsFrameManager
 {
 friend
 class
@@ -1116,7 +1123,7 @@ aItems
 )
 ;
 nsresult
-AppendFrames
+AppendFramesToParent
 (
 nsFrameConstructorState
 &
@@ -3904,9 +3911,6 @@ aPresContext
 nsIPresShell
 *
 aPresShell
-nsFrameManager
-*
-aFrameManager
 nsIFrame
 *
 aBlockFrame
@@ -3921,9 +3925,6 @@ aPresContext
 nsIPresShell
 *
 aPresShell
-nsFrameManager
-*
-aFrameManager
 nsIFrame
 *
 aFrame
@@ -3944,9 +3945,6 @@ aPresContext
 nsIPresShell
 *
 aPresShell
-nsFrameManager
-*
-aFrameManager
 nsIFrame
 *
 aBlockFrame
@@ -4208,10 +4206,6 @@ private
 nsIDocument
 *
 mDocument
-;
-nsIPresShell
-*
-mPresShell
 ;
 nsIFrame
 *

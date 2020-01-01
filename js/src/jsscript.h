@@ -42,6 +42,13 @@ h
 #
 include
 "
+jsopcode
+.
+h
+"
+#
+include
+"
 jsscope
 .
 h

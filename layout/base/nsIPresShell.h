@@ -635,7 +635,6 @@ nsFrameManager
 *
 >
 (
-&
 const_cast
 <
 nsIPresShell
@@ -875,7 +874,8 @@ ifdef
 _IMPL_NS_LAYOUT
 return
 mFrameManager
-.
+-
+>
 GetRootFrame
 (
 )
@@ -2610,6 +2610,7 @@ nsFrameSelection
 mSelection
 ;
 nsFrameManagerBase
+*
 mFrameManager
 ;
 nsWeakPtr

@@ -1206,8 +1206,15 @@ break
 str
 =
 valueEnd
+;
+if
+(
+*
+valueEnd
+)
+str
 +
-1
++
 ;
 }
 if

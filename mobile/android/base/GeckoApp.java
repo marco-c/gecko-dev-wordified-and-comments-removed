@@ -5168,6 +5168,15 @@ remove
 item
 )
 ;
+if
+(
+sMenu
+=
+=
+null
+)
+return
+;
 MenuItem
 menu
 =
@@ -5191,8 +5200,6 @@ removeItem
 (
 id
 )
-;
-return
 ;
 }
 }

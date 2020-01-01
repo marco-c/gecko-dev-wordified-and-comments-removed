@@ -180,6 +180,13 @@ nsIAccessibleEvent
 .
 EVENT_VALUE_CHANGE
 ;
+const
+EVENT_VIRTUALCURSOR_CHANGED
+=
+nsIAccessibleEvent
+.
+EVENT_VIRTUALCURSOR_CHANGED
+;
 Components
 .
 utils
