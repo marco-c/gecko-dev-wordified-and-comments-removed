@@ -5303,3 +5303,17 @@ enabled
 false
 )
 ;
+pref
+(
+"
+b2g
+.
+adb
+.
+timeout
+-
+hours
+"
+12
+)
+;
