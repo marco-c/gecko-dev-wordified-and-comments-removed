@@ -856,6 +856,10 @@ bug514856_iframe
 .
 html
 \
+test_bug518122
+.
+html
+\
 test_bug519987
 .
 html

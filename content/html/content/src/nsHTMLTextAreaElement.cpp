@@ -2872,6 +2872,13 @@ if
 formControlFrame
 )
 {
+SetValue
+(
+EmptyString
+(
+)
+)
+;
 nsAutoString
 resetVal
 ;
