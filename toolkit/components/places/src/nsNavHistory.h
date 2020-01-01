@@ -1993,6 +1993,9 @@ DoneSearching
 PRInt32
 mExpireDays
 ;
+PRInt32
+mExpireVisits
+;
 nsresult
 TokensToQueries
 (

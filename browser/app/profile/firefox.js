@@ -1987,6 +1987,16 @@ pref
 "
 browser
 .
+history_expire_visits
+"
+20000
+)
+;
+pref
+(
+"
+browser
+.
 link
 .
 open_external
