@@ -25707,6 +25707,16 @@ fp
 -
 >
 regs
+|
+|
+!
+fp
+-
+>
+regs
+-
+>
+sp
 )
 goto
 do_fallback
