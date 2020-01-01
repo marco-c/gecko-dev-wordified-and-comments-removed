@@ -23608,8 +23608,13 @@ CheckDiskSpace
 insertmacro
 GetLongPath
 !
+ifndef
+NO_INSTDIR_FROM_REG
+!
 insertmacro
 GetSingleInstallPath
+!
+endif
 !
 verbose
 push
@@ -23630,6 +23635,9 @@ Function
 PreDirectoryCommon
 Push
 R9
+!
+ifndef
+NO_INSTDIR_FROM_REG
 SetShellVarContext
 all
 ;
@@ -23698,6 +23706,8 @@ INSTDIR
 "
 R9
 "
+!
+endif
 IfFileExists
 "
 INSTDIR
