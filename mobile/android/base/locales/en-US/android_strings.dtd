@@ -2293,7 +2293,7 @@ notifications
 <
 !
 ENTITY
-updater_start_title
+updater_start_title2
 "
 Update
 available
@@ -2306,7 +2306,7 @@ brandShortName
 <
 !
 ENTITY
-updater_start_select
+updater_start_select2
 "
 Touch
 to
@@ -2316,7 +2316,7 @@ download
 <
 !
 ENTITY
-updater_downloading_title
+updater_downloading_title2
 "
 Downloading
 &
@@ -2327,7 +2327,7 @@ brandShortName
 <
 !
 ENTITY
-updater_downloading_title_failed
+updater_downloading_title_failed2
 "
 Download
 failed
@@ -2336,7 +2336,7 @@ failed
 <
 !
 ENTITY
-updater_downloading_select
+updater_downloading_select2
 "
 Touch
 to
@@ -2349,7 +2349,7 @@ downloaded
 <
 !
 ENTITY
-updater_downloading_retry
+updater_downloading_retry2
 "
 Touch
 to
@@ -2359,7 +2359,7 @@ retry
 <
 !
 ENTITY
-updater_apply_title
+updater_apply_title2
 "
 Update
 available
@@ -2372,7 +2372,7 @@ brandShortName
 <
 !
 ENTITY
-updater_apply_select
+updater_apply_select2
 "
 Touch
 to
