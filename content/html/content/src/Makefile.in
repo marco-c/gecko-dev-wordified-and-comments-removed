@@ -134,6 +134,10 @@ EXPORTS_mozilla
 dom
 =
 \
+HTMLAnchorElement
+.
+h
+\
 HTMLBodyElement
 .
 h
@@ -208,7 +212,7 @@ HTMLElement
 .
 cpp
 \
-nsHTMLAnchorElement
+HTMLAnchorElement
 .
 cpp
 \
