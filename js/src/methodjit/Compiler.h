@@ -2201,9 +2201,6 @@ updatePCCounts
 jsbytecode
 *
 pc
-Label
-*
-start
 bool
 *
 updated
