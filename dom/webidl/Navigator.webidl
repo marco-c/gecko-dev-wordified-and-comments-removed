@@ -1983,6 +1983,12 @@ MOZ_GAMEPAD
 #
 ifdef
 MOZ_B2G_BT
+/
+/
+nsIDOMNavigatorBluetooth
+interface
+MozBluetoothManager
+;
 partial
 interface
 Navigator
@@ -2000,7 +2006,7 @@ HasBluetoothSupport
 ]
 readonly
 attribute
-BluetoothManager
+MozBluetoothManager
 mozBluetooth
 ;
 }

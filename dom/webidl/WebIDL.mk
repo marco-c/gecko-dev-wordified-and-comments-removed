@@ -1869,10 +1869,6 @@ BluetoothDeviceEvent
 .
 webidl
 \
-BluetoothManager
-.
-webidl
-\
 BluetoothStatusChangedEvent
 .
 webidl
