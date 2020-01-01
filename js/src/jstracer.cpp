@@ -3766,9 +3766,8 @@ nativeFrameSlots
 (
 unsigned
 ngslots
-JSStackFrame
-*
-entryFrame
+unsigned
+callDepth
 JSStackFrame
 *
 fp
@@ -3828,10 +3827,12 @@ nvars
 ;
 if
 (
-fp
+callDepth
+-
+-
 =
 =
-entryFrame
+0
 )
 return
 slots
@@ -5522,7 +5523,7 @@ treeInfo
 -
 >
 ngslots
-entryFrame
+callDepth
 cx
 -
 >
@@ -7384,10 +7385,7 @@ ti
 -
 >
 ngslots
-cx
--
->
-fp
+0
 cx
 -
 >
