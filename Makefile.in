@@ -1509,3 +1509,15 @@ PASSED
 ;
 fi
 endif
+js
+/
+src
+/
+Makefile
+:
+subsrcdir
+:
+=
+js
+/
+src
