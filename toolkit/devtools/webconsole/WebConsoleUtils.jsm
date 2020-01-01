@@ -2190,7 +2190,7 @@ OPEN_CLOSE_BODY
 const
 MAX_COMPLETIONS
 =
-256
+1500
 ;
 function
 findCompletionBeginning

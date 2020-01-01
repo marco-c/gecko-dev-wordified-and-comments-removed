@@ -615,6 +615,10 @@ browser_webconsole_bug_686937_autocomplete_JSTerm_helpers
 .
 js
 \
+browser_webconsole_cached_autocomplete
+.
+js
+\
 head
 .
 js
