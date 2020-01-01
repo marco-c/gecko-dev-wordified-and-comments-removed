@@ -2883,6 +2883,8 @@ aFunc
 RuleProcessorData
 *
 aData
+PRBool
+aWalkAllXBLStylesheets
 )
 {
 NS_PRECONDITION
@@ -3022,6 +3024,23 @@ if
 mBindingManager
 )
 {
+if
+(
+aWalkAllXBLStylesheets
+)
+{
+mBindingManager
+-
+>
+WalkAllRules
+(
+aFunc
+aData
+)
+;
+}
+else
+{
 mBindingManager
 -
 >
@@ -3033,6 +3052,7 @@ aData
 cutOffInheritance
 )
 ;
+}
 }
 if
 (
@@ -4977,6 +4997,7 @@ WalkRuleProcessors
 SheetHasDocumentStateStyle
 &
 data
+PR_TRUE
 )
 ;
 return
@@ -5091,6 +5112,7 @@ WalkRuleProcessors
 SheetHasStatefulStyle
 &
 data
+PR_FALSE
 )
 ;
 result
@@ -5259,6 +5281,7 @@ WalkRuleProcessors
 SheetHasAttributeStyle
 &
 data
+PR_FALSE
 )
 ;
 result
