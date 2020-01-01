@@ -173,13 +173,6 @@ lang
 .
 Math
 ;
-import
-java
-.
-util
-.
-ArrayList
-;
 public
 class
 LayerController
