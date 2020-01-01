@@ -480,12 +480,6 @@ ownerDocument
 ;
 gToolbox
 .
-customizing
-=
-true
-;
-gToolbox
-.
 addEventListener
 (
 "
@@ -538,12 +532,6 @@ finishToolbarCustomization
 (
 )
 {
-gToolbox
-.
-customizing
-=
-false
-;
 removeToolboxListeners
 (
 )
