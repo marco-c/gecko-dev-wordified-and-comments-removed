@@ -5035,6 +5035,11 @@ oprnd2
 (
 )
 ;
+#
+if
+!
+defined
+NANOJIT_64BIT
 NanoAssert
 (
 !
@@ -5055,6 +5060,8 @@ isQuad
 )
 )
 ;
+#
+endif
 const
 Register
 rr
