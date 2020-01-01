@@ -1491,6 +1491,8 @@ global
 /
 skin
 /
+media
+/
 TopLevelImageDocument
 .
 css
