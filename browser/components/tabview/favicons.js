@@ -347,9 +347,12 @@ callback
 let
 tabImage
 =
-tab
+gBrowser
 .
-image
+getIcon
+(
+tab
+)
 ;
 if
 (
