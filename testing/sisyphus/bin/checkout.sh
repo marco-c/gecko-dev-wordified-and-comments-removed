@@ -701,6 +701,8 @@ hg
 pull
 hg
 update
+-
+C
 hg
 update
 -
@@ -1324,6 +1326,8 @@ hg
 pull
 hg
 update
+-
+C
 #
 XXX
 need
