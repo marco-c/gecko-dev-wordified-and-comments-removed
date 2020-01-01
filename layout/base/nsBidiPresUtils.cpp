@@ -3950,7 +3950,7 @@ aBpd
 >
 mParagraphDepth
 >
-1
+0
 )
 {
 nsIFrame
