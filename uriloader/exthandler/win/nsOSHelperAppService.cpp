@@ -1998,6 +1998,13 @@ Type
 temp
 )
 )
+|
+|
+temp
+.
+IsEmpty
+(
+)
 )
 {
 return
