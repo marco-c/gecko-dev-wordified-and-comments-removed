@@ -11,6 +11,13 @@ qwidget
 .
 h
 >
+#
+include
+"
+nsIWidget
+.
+h
+"
 class
 QEvent
 ;
@@ -46,6 +53,13 @@ void
 setModal
 (
 bool
+)
+;
+bool
+SetCursor
+(
+nsCursor
+aCursor
 )
 ;
 void

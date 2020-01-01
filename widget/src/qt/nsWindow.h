@@ -57,6 +57,9 @@ QX11Info
 #
 endif
 class
+QEvent
+;
+class
 nsWindow
 :
 public
