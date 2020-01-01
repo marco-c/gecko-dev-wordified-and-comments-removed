@@ -20,6 +20,17 @@ jswtfbridge
 .
 h
 "
+#
+include
+"
+yarr
+/
+yarr
+/
+RegexCommon
+.
+h
+"
 namespace
 JSC
 {

@@ -1969,6 +1969,9 @@ matchLimit
 int
 othercase
 ;
+bool
+minSatisfied
+;
 MatchStack
 stack
 (
@@ -2321,7 +2324,6 @@ atOptionalBracket
 ;
 do
 {
-bool
 minSatisfied
 =
 stack
@@ -11510,7 +11512,6 @@ atOptionalBracket
 ;
 do
 {
-bool
 minSatisfied
 =
 stack
@@ -12732,12 +12733,6 @@ returnCode
 =
 =
 JSRegExpErrorHitLimit
-|
-|
-returnCode
-=
-=
-JSRegExpErrorNoMemory
 )
 ;
 DPRINTF
@@ -12815,6 +12810,14 @@ matchBlock
 startSubject
 ;
 }
+JS_ASSERT
+(
+returnCode
+>
+=
+0
+)
+;
 DPRINTF
 (
 (
