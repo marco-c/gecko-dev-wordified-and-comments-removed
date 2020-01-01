@@ -22123,7 +22123,7 @@ wchar
 option
 ac_cv_have_usable_wchar_option_v2
 [
-AC_TRY_COMPILE
+AC_TRY_LINK
 (
 [
 #
