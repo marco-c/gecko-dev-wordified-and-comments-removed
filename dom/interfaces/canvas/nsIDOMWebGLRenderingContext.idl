@@ -5982,5 +5982,10 @@ getSupportedExtensions
 (
 )
 ;
+WebGLboolean
+isContextLost
+(
+)
+;
 }
 ;
