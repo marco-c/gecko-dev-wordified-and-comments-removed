@@ -1822,6 +1822,8 @@ i
 )
 ;
 }
+public
+:
 struct
 Iter
 {
@@ -1919,6 +1921,8 @@ i
 ;
 }
 ;
+private
+:
 protected
 :
 USHORT
@@ -2457,6 +2461,8 @@ glyphs
 )
 ;
 }
+public
+:
 struct
 Iter
 {
@@ -2617,6 +2623,8 @@ coverage
 ;
 }
 ;
+private
+:
 protected
 :
 USHORT

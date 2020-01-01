@@ -13,17 +13,6 @@ private
 .
 hh
 "
-#
-include
-"
-hb
--
-shape
--
-plan
-.
-h
-"
 typedef
 hb_bool_t
 hb_shape_func_t

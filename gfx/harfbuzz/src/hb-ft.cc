@@ -787,6 +787,16 @@ if
 (
 !
 ret
+|
+|
+(
+size
+&
+&
+!
+*
+name
+)
 )
 snprintf
 (

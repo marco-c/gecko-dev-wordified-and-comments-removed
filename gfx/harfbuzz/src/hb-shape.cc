@@ -928,7 +928,7 @@ start
 feature
 -
 >
-start
+end
 !
 =
 (
@@ -1382,7 +1382,7 @@ HB_BUFFER_CONTENT_TYPE_UNICODE
 buffer
 -
 >
-guess_properties
+guess_segment_properties
 (
 )
 ;

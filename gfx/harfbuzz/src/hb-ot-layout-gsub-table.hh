@@ -7273,6 +7273,16 @@ c
 buffer
 -
 >
+remove_output
+(
+)
+;
+c
+-
+>
+buffer
+-
+>
 idx
 =
 c

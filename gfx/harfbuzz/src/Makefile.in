@@ -305,6 +305,18 @@ shape
 -
 complex
 -
+default
+.
+cc
+\
+hb
+-
+ot
+-
+shape
+-
+complex
+-
 indic
 .
 cc
@@ -317,7 +329,7 @@ shape
 -
 complex
 -
-misc
+thai
 .
 cc
 \
