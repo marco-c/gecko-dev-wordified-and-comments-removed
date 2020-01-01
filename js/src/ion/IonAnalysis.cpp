@@ -2345,9 +2345,10 @@ MBasicBlock
 *
 pred
 =
-graph
-.
-getBlock
+block
+-
+>
+getPredecessor
 (
 i
 )
