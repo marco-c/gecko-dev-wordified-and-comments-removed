@@ -36,7 +36,14 @@ h
 #
 include
 <
-NetCon
+ole2
+.
+h
+>
+#
+include
+<
+netcon
 .
 h
 >
