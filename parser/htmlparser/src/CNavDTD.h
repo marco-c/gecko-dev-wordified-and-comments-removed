@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsTime
+.
+h
+"
+#
+include
+"
 nsDTDUtils
 .
 h
