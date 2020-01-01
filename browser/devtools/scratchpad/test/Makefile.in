@@ -522,6 +522,10 @@ browser_scratchpad_bug714942_goto_line_ui
 .
 js
 \
+browser_scratchpad_bug_650760_help_key
+.
+js
+\
 head
 .
 js
