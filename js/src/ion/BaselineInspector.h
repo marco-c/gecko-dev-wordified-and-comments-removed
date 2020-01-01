@@ -134,6 +134,12 @@ icEntry
 {
 }
 bool
+sawOOBDenseWrite
+(
+)
+const
+;
+bool
 sawOOBTypedArrayWrite
 (
 )
