@@ -4395,7 +4395,6 @@ eventCallback
 =
 function
 (
-aNotification
 aEvent
 )
 {
@@ -4410,16 +4409,12 @@ removed
 )
 return
 ;
-aNotification
-.
 options
 .
 contentWindow
 =
 null
 ;
-aNotification
-.
 options
 .
 sourceURI
