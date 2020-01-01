@@ -109,16 +109,6 @@ Phrase
 <
 !
 ENTITY
-disconnected
-.
-label
-"
-Disconnected
-"
->
-<
-!
-ENTITY
 connect
 .
 label
