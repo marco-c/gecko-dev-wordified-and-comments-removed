@@ -11139,6 +11139,16 @@ scheme
 EqualsLiteral
 (
 "
+resource
+"
+)
+|
+|
+scheme
+.
+EqualsLiteral
+(
+"
 data
 "
 )
