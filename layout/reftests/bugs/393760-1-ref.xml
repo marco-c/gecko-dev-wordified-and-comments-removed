@@ -226,6 +226,13 @@ p
 >
 <
 span
+style
+=
+"
+color
+:
+green
+"
 >
 <
 m
@@ -505,6 +512,11 @@ math
 m
 :
 mstyle
+mathbackground
+=
+"
+lightgreen
+"
 >
 <
 m
