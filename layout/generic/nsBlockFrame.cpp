@@ -19230,8 +19230,6 @@ NotEmpty
 )
 )
 {
-if
-(
 aState
 .
 PlaceBelowCurrentLineFloats
@@ -19240,8 +19238,7 @@ aState
 .
 mBelowCurrentLineFloats
 )
-)
-{
+;
 aLine
 -
 >
@@ -19252,18 +19249,6 @@ aState
 mBelowCurrentLineFloats
 )
 ;
-}
-else
-{
-PushTruncatedPlaceholderLine
-(
-aState
-aLine
-*
-aKeepReflowGoing
-)
-;
-}
 }
 if
 (

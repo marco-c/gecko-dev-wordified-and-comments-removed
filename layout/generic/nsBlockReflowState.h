@@ -241,7 +241,7 @@ aFloat
 ;
 public
 :
-PRBool
+void
 PlaceBelowCurrentLineFloats
 (
 nsFloatCacheFreeList
