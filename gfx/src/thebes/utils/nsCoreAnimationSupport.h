@@ -153,9 +153,9 @@ int
 aX
 int
 aY
-int
+uint32_t
 aWidth
-int
+uint32_t
 aHeight
 )
 ;
