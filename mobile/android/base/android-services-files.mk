@@ -1703,6 +1703,13 @@ sync
 /
 stage
 /
+AbstractSessionManagingSyncStage
+.
+java
+sync
+/
+stage
+/
 AndroidBrowserBookmarksServerSyncStage
 .
 java

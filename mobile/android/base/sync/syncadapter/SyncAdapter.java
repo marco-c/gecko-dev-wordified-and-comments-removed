@@ -1107,7 +1107,7 @@ private
 SyncResult
 syncResult
 ;
-public
+protected
 Account
 localAccount
 ;
@@ -1117,7 +1117,7 @@ thisSyncIsForced
 =
 false
 ;
-public
+protected
 SharedPreferences
 accountSharedPreferences
 ;
