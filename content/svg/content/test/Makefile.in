@@ -503,6 +503,16 @@ test_bbox
 .
 xhtml
 \
+test_bbox
+-
+with
+-
+invalid
+-
+viewBox
+.
+xhtml
+\
 bbox
 -
 helper
