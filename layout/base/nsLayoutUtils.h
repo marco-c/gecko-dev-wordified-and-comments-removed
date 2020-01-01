@@ -3178,6 +3178,16 @@ sFontSizeInflationMappingIntercept
 ;
 }
 static
+bool
+InvalidationDebuggingIsEnabled
+(
+)
+{
+return
+sInvalidationDebuggingIsEnabled
+;
+}
+static
 void
 Initialize
 (
@@ -3394,6 +3404,10 @@ sFontSizeInflationForceEnabled
 static
 bool
 sFontSizeInflationDisabledInMasterProcess
+;
+static
+bool
+sInvalidationDebuggingIsEnabled
 ;
 }
 ;
