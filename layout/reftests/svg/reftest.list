@@ -543,6 +543,16 @@ ref
 svg
 =
 =
+use
+-
+children
+.
+svg
+pass
+.
+svg
+=
+=
 fallback
 -
 color
