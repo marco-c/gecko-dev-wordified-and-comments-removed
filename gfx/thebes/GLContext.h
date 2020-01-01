@@ -1851,6 +1851,13 @@ PR_FALSE
 ;
 }
 virtual
+void
+WaitForDrawing
+(
+)
+{
+}
+virtual
 PRBool
 BindTexImage
 (
