@@ -180,6 +180,16 @@ pageFrame
 ;
 }
 static
+nsIFrame
+*
+GetStyleFrame
+(
+nsIFrame
+*
+aPrimaryFrame
+)
+;
+static
 PRBool
 IsGeneratedContentFor
 (

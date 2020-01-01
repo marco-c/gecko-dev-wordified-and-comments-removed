@@ -244,7 +244,7 @@ aFillArea
 static
 nsIFrame
 *
-FindRootFrame
+FindBackgroundStyleFrame
 (
 nsIFrame
 *
