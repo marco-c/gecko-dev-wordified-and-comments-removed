@@ -39,6 +39,9 @@ defined
 (
 EVENT_DEBUG_OUTPUT
 )
+|
+|
+1
 void
 PrintEvent
 (
@@ -77,10 +80,14 @@ DISPLAY_NMM_PRT
 (
 _arg
 )
-printf
+PR_LOG
+(
+gWindowsLog
+PR_LOG_ALWAYS
 (
 (
 _arg
+)
 )
 )
 ;
