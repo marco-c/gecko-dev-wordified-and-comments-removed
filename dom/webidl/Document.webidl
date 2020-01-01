@@ -325,6 +325,9 @@ interface
 Comment
 ;
 interface
+NodeIterator
+;
+interface
 Range
 ;
 interface
@@ -335,6 +338,9 @@ Touch
 ;
 interface
 TouchList
+;
+interface
+TreeWalker
 ;
 interface
 WindowProxy

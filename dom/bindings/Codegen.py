@@ -39200,11 +39200,49 @@ templateVars
 if
 type
 .
-isObject
+isString
 (
 )
 :
             
+prepend
+=
+"
+nsString
+mutableStr
+(
+%
+s
+)
+;
+\
+n
+"
+%
+val
+            
+val
+=
+"
+mutableStr
+"
+        
+else
+:
+            
+prepend
+=
+"
+"
+            
+if
+type
+.
+isObject
+(
+)
+:
+                
 val
 =
 "
@@ -39217,7 +39255,7 @@ get
 "
 %
 val
-        
+            
 elif
 type
 .
@@ -39225,7 +39263,7 @@ isSpiderMonkeyInterface
 (
 )
 :
-            
+                
 val
 =
 "
@@ -39246,6 +39284,8 @@ val
         
 wrapCode
 =
+prepend
++
 wrapForType
 (
             

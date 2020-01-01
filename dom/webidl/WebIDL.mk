@@ -523,10 +523,6 @@ NodeFilter
 .
 webidl
 \
-NodeIterator
-.
-webidl
-\
 NodeList
 .
 webidl
@@ -884,10 +880,6 @@ TextDecoder
 webidl
 \
 TextEncoder
-.
-webidl
-\
-TreeWalker
 .
 webidl
 \

@@ -221,15 +221,7 @@ Link
 .
 h
 \
-NodeIterator
-.
-h
-\
 Text
-.
-h
-\
-TreeWalker
 .
 h
 \
@@ -447,7 +439,7 @@ nsNodeInfoManager
 .
 cpp
 \
-NodeIterator
+nsNodeIterator
 .
 cpp
 \
@@ -523,7 +515,7 @@ nsTreeSanitizer
 .
 cpp
 \
-TreeWalker
+nsTreeWalker
 .
 cpp
 \
