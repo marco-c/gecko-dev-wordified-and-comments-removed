@@ -18,6 +18,15 @@ string
 h
 >
 #
+include
+<
+sys
+/
+types
+.
+h
+>
+#
 if
 defined
 (
