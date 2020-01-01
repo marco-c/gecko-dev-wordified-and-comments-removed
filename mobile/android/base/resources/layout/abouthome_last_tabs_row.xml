@@ -170,6 +170,13 @@ favicon_bg
 "
 android
 :
+layout_marginBottom
+=
+"
+6dip
+"
+android
+:
 layout_marginLeft
 =
 "
