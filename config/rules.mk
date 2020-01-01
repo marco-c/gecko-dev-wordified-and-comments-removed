@@ -12835,6 +12835,9 @@ m
 java
 -
 w
+(
+XPIDL_FLAGS
+)
 -
 I
 (
