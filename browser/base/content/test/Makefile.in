@@ -916,6 +916,10 @@ browser_inspector_iframeTest
 .
 js
 \
+browser_inspector_scrolling
+.
+js
+\
 browser_pageInfo
 .
 js
