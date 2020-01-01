@@ -120,6 +120,13 @@ h
 #
 include
 "
+nsDOMClassInfo
+.
+h
+"
+#
+include
+"
 prlog
 .
 h

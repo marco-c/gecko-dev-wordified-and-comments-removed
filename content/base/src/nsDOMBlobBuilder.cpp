@@ -92,6 +92,13 @@ h
 "
 #
 include
+"
+nsIXPConnect
+.
+h
+"
+#
+include
 <
 algorithm
 >
