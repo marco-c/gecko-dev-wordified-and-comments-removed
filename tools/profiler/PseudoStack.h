@@ -37,6 +37,11 @@ stdlib
 h
 >
 #
+include
+<
+algorithm
+>
+#
 if
 defined
 (
