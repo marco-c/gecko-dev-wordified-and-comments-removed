@@ -518,6 +518,13 @@ i
 )
 ;
 bool
+jsIf
+(
+bool
+sense
+)
+;
+bool
 inc
 (
 jsval
