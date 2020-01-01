@@ -849,7 +849,7 @@ m_Runtime
 nsXPConnect
 :
 :
-GetRuntime
+GetRuntimeInstance
 (
 )
 )
@@ -865,7 +865,7 @@ m_Runtime
 nsXPConnect
 :
 :
-GetRuntime
+GetRuntimeInstance
 (
 )
 returned

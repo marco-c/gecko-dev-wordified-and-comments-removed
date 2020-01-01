@@ -74,9 +74,6 @@ class
 IID2WrappedJSClassMap
 ;
 class
-JSContext2XPCContextMap
-;
-class
 IID2NativeInterfaceMap
 ;
 class

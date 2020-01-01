@@ -459,7 +459,7 @@ XPCTraceableVariant
 nsXPConnect
 :
 :
-GetRuntime
+GetRuntimeInstance
 (
 )
 v

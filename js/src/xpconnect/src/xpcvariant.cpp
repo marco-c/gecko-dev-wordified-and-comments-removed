@@ -121,7 +121,7 @@ RemoveFromRootSet
 nsXPConnect
 :
 :
-GetRuntime
+GetRuntimeInstance
 (
 )
 -
@@ -335,7 +335,7 @@ RemoveFromRootSet
 nsXPConnect
 :
 :
-GetRuntime
+GetRuntimeInstance
 (
 )
 -

@@ -2134,6 +2134,10 @@ void
 *
 data
 ;
+void
+*
+data2
+;
 JSStackFrame
 *
 dormantFrameChain

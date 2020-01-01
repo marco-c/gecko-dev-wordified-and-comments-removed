@@ -4257,13 +4257,6 @@ jscontext
 xpc
 -
 >
-SyncJSContexts
-(
-)
-;
-xpc
--
->
 DebugDump
 (
 4

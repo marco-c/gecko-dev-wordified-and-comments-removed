@@ -15091,7 +15091,7 @@ rt
 nsXPConnect
 :
 :
-GetRuntime
+GetRuntimeInstance
 (
 )
 ;
@@ -15237,10 +15237,10 @@ XPCContext
 *
 xpcc
 =
-nsXPConnect
+XPCContext
 :
 :
-GetContext
+GetXPCContext
 (
 cx
 )
@@ -15399,10 +15399,10 @@ XPCContext
 *
 xpcc
 =
-nsXPConnect
+XPCContext
 :
 :
-GetContext
+GetXPCContext
 (
 cx
 )

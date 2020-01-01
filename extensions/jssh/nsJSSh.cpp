@@ -2712,13 +2712,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-xpc
--
->
-SyncJSContexts
-(
-)
-;
 nsCOMPtr
 <
 nsIJSRuntimeService
@@ -3109,13 +3102,6 @@ mJSContext
 JS_DestroyContext
 (
 mJSContext
-)
-;
-xpc
--
->
-SyncJSContexts
-(
 )
 ;
 return
