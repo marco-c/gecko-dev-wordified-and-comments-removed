@@ -47,10 +47,11 @@ nsNetUtil
 .
 h
 "
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS2
 (
 nsMIMEInfoAndroid
 nsIMIMEInfo
+nsIHandlerInfo
 )
 NS_IMETHODIMP
 nsMIMEInfoAndroid
