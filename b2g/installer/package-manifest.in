@@ -4281,6 +4281,13 @@ BINPATH
 /
 components
 /
+WebappsUpdateTimer
+.
+js
+BINPATH
+/
+components
+/
 MozKeyboard
 .
 js

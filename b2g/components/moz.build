@@ -181,6 +181,11 @@ TelProtocolHandler
 js
 '
 '
+WebappsUpdateTimer
+.
+js
+'
+'
 YoutubeProtocolHandler
 .
 js
@@ -245,6 +250,11 @@ jsm
 '
 '
 TelURIParser
+.
+jsm
+'
+'
+WebappsUpdater
 .
 jsm
 '
