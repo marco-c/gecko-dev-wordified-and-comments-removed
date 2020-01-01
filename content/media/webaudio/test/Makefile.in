@@ -91,6 +91,12 @@ webaudio
 .
 js
 \
+layouttest
+-
+glue
+.
+js
+\
 test_bug808374
 .
 html
@@ -308,6 +314,10 @@ test_offlineDestinationChannelCountMore
 html
 \
 test_pannerNode
+.
+html
+\
+test_pannerNode_equalPower
 .
 html
 \

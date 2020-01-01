@@ -1,7 +1,7 @@
 var
 sampleRate
 =
-44100
+48000
 .
 0
 ;
