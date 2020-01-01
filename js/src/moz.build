@@ -656,7 +656,7 @@ ArgumentsObject
 cpp
 '
 '
-TypedObject
+Barrier
 .
 cpp
 '
@@ -937,6 +937,11 @@ cpp
 '
 '
 TypedArrayObject
+.
+cpp
+'
+'
+TypedObject
 .
 cpp
 '
