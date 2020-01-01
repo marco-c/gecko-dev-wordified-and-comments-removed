@@ -899,6 +899,11 @@ gfx
 qcms
 /
 Makefile
+gfx
+/
+angle
+/
+Makefile
 "
 MAKEFILES_htmlparser
 =

@@ -469,7 +469,6 @@ getAsUniformMap
 ;
 }
 int
-__fastcall
 ShFinalize
 (
 )
