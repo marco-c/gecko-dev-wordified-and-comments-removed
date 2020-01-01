@@ -211,6 +211,11 @@ ChannelSplitterNode
 h
 '
 '
+ConvolverNode
+.
+h
+'
+'
 DelayNode
 .
 h
@@ -317,6 +322,11 @@ cpp
 '
 '
 ChannelSplitterNode
+.
+cpp
+'
+'
+ConvolverNode
 .
 cpp
 '

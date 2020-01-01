@@ -211,6 +211,10 @@ CompositionEvent
 .
 webidl
 \
+ConvolverNode
+.
+webidl
+\
 Coordinates
 .
 webidl

@@ -333,6 +333,14 @@ createPanner
 ;
 [
 Creator
+]
+ConvolverNode
+createConvolver
+(
+)
+;
+[
+Creator
 Throws
 ]
 ChannelSplitterNode
