@@ -450,6 +450,9 @@ LIBRARY_NAME
 )
 .
 mm
+plugin_child_quirks
+.
+mm
 EXTRA_DSO_LDOPTS
 +
 =

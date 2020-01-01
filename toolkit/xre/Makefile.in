@@ -598,6 +598,11 @@ CMMSRCS
 nsNativeAppSupportCocoa
 .
 mm
+EXPORTS
+=
+MacQuirks
+.
+h
 else
 ifeq
 (
