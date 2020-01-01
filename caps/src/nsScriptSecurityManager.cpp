@@ -441,6 +441,10 @@ JSEqualityOp
 sXPCWrappedNativeEqualityOps
 ;
 static
+JSEqualityOp
+sXPCSlimWrapperEqualityOps
+;
+static
 inline
 const
 PRUnichar
@@ -8934,6 +8938,12 @@ op
 =
 =
 sXPCWrappedNativeEqualityOps
+|
+|
+op
+=
+=
+sXPCSlimWrapperEqualityOps
 )
 {
 result
@@ -13612,6 +13622,8 @@ GetXPCWrappedNativeJSClassInfo
 (
 &
 sXPCWrappedNativeEqualityOps
+&
+sXPCSlimWrapperEqualityOps
 )
 ;
 return
