@@ -1041,11 +1041,7 @@ vbox
 id
 =
 "
-add
--
-device
--
-throbber
+pairDeviceThrobber
 "
 align
 =
