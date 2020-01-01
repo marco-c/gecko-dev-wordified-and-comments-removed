@@ -727,7 +727,7 @@ contextmenus
 "
 >
 <
-popup
+menupopup
 id
 =
 "
@@ -961,7 +961,7 @@ all
 >
 <
 /
-popup
+menupopup
 >
 <
 /
