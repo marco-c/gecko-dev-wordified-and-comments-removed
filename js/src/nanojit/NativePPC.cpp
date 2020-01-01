@@ -1395,7 +1395,7 @@ NanoAssert
 value
 -
 >
-isN64
+isQorD
 (
 )
 )
@@ -2793,7 +2793,7 @@ cr
 RegisterMask
 allow
 =
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -2820,7 +2820,7 @@ if
 b
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -2831,7 +2831,7 @@ d
 b
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -2845,7 +2845,7 @@ d
 {
 if
 (
-isSICmpOpcode
+isCmpSIOpcode
 (
 condop
 )
@@ -2867,7 +2867,7 @@ defined
 NANOJIT_64BIT
 if
 (
-isSQCmpOpcode
+isCmpSQOpcode
 (
 condop
 )
@@ -2901,7 +2901,7 @@ d
 {
 if
 (
-isUICmpOpcode
+isCmpUIOpcode
 (
 condop
 )
@@ -2923,7 +2923,7 @@ defined
 NANOJIT_64BIT
 if
 (
-isUQCmpOpcode
+isCmpUQOpcode
 (
 condop
 )
@@ -2974,7 +2974,7 @@ ra
 ;
 if
 (
-isSICmpOpcode
+isCmpSIOpcode
 (
 condop
 )
@@ -2991,7 +2991,7 @@ rb
 else
 if
 (
-isUICmpOpcode
+isCmpUIOpcode
 (
 condop
 )
@@ -3012,7 +3012,7 @@ NANOJIT_64BIT
 else
 if
 (
-isSQCmpOpcode
+isCmpSQOpcode
 (
 condop
 )
@@ -3029,7 +3029,7 @@ rb
 else
 if
 (
-isUQCmpOpcode
+isCmpUQOpcode
 (
 condop
 )
@@ -3048,7 +3048,7 @@ endif
 else
 if
 (
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -3276,7 +3276,7 @@ if
 i
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -3287,7 +3287,7 @@ r
 i
 -
 >
-imm32
+immI
 (
 )
 )
@@ -3315,7 +3315,7 @@ NanoAssert
 i
 -
 >
-isN64
+isQorD
 (
 )
 )
@@ -3334,7 +3334,7 @@ if
 i
 -
 >
-isN64
+isQorD
 (
 )
 )
@@ -3362,7 +3362,7 @@ NanoAssert
 i
 -
 >
-isI32
+isI
 (
 )
 )
@@ -3411,7 +3411,7 @@ rr
 ins
 -
 >
-imm32
+immI
 (
 )
 )
@@ -3774,7 +3774,7 @@ if
 ty
 !
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 {
 if
@@ -3931,7 +3931,7 @@ if
 ty
 !
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 {
 #
@@ -3958,7 +3958,7 @@ if
 ty
 =
 =
-ARGTYPE_U
+ARGTYPE_UI
 )
 {
 CLRLDI
@@ -3976,7 +3976,7 @@ if
 p
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -3987,7 +3987,7 @@ r
 p
 -
 >
-imm32
+immI
 (
 )
 )
@@ -4057,7 +4057,7 @@ if
 p
 -
 >
-isN64
+isQorD
 (
 )
 )
@@ -4347,7 +4347,7 @@ if
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -4358,7 +4358,7 @@ rhsc
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -5487,7 +5487,7 @@ d
 ins
 -
 >
-imm64f
+immD
 (
 )
 ;
@@ -5537,7 +5537,7 @@ q
 ins
 -
 >
-imm64
+immQ
 (
 )
 ;
@@ -5697,7 +5697,7 @@ d
 ins
 -
 >
-imm64f
+immD
 (
 )
 ;
@@ -5747,7 +5747,7 @@ q
 ins
 -
 >
-imm64
+immQ
 (
 )
 ;
@@ -6279,7 +6279,7 @@ LIR_cmov
 iftrue
 -
 >
-isI32
+isI
 (
 )
 &
@@ -6287,7 +6287,7 @@ isI32
 iffalse
 -
 >
-isI32
+isI
 (
 )
 )
@@ -6308,7 +6308,7 @@ LIR_qcmov
 iftrue
 -
 >
-isI64
+isQ
 (
 )
 &
@@ -6316,7 +6316,7 @@ isI64
 iffalse
 -
 >
-isI64
+isQ
 (
 )
 )
@@ -6341,7 +6341,7 @@ LIR_cmov
 iftrue
 -
 >
-isI32
+isI
 (
 )
 &
@@ -6349,7 +6349,7 @@ isI32
 iffalse
 -
 >
-isI32
+isI
 (
 )
 )

@@ -10051,7 +10051,7 @@ returnType
 )
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 fpu_push
 (
@@ -10120,7 +10120,7 @@ returnType
 )
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 fpu_push
 (
@@ -10915,7 +10915,7 @@ max_regs
 ty
 !
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 {
 r
@@ -11503,7 +11503,7 @@ if
 ins
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -11615,7 +11615,7 @@ if
 ins
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -11626,7 +11626,7 @@ r
 ins
 -
 >
-imm32
+immI
 (
 )
 false
@@ -11639,7 +11639,7 @@ if
 ins
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -11650,13 +11650,13 @@ r
 ins
 -
 >
-imm64
+immQ
 (
 )
 ins
 -
 >
-imm64f
+immD
 (
 )
 false
@@ -11753,7 +11753,7 @@ if
 ins
 -
 >
-isI32
+isI
 (
 )
 )
@@ -11783,7 +11783,7 @@ NanoAssert
 ins
 -
 >
-isF64
+isD
 (
 )
 )
@@ -11851,7 +11851,7 @@ if
 value
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -11872,7 +11872,7 @@ c
 value
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -11983,7 +11983,7 @@ if
 base
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -11998,7 +11998,7 @@ dr
 base
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -12568,7 +12568,7 @@ if
 value
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -12582,7 +12582,7 @@ dr
 value
 -
 >
-imm64_1
+immQorDhi
 (
 )
 )
@@ -12594,7 +12594,7 @@ dr
 value
 -
 >
-imm64_0
+immQorDlo
 (
 )
 )
@@ -12870,7 +12870,7 @@ isCmp
 ;
 if
 (
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -13247,7 +13247,7 @@ NanoAssert
 lhs
 -
 >
-isI32
+isI
 (
 )
 &
@@ -13255,7 +13255,7 @@ isI32
 rhs
 -
 >
-isI32
+isI
 (
 )
 )
@@ -13265,7 +13265,7 @@ if
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -13276,7 +13276,7 @@ c
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -13739,7 +13739,7 @@ LIR_alloc
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -13764,7 +13764,7 @@ lhs
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -13897,7 +13897,7 @@ isConstRhs
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 ;
@@ -13934,7 +13934,7 @@ isConstRhs
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 ;
@@ -14162,7 +14162,7 @@ c
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -14701,7 +14701,7 @@ if
 base
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -14712,7 +14712,7 @@ addr
 base
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -14866,7 +14866,7 @@ oprnd2
 )
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -14881,7 +14881,7 @@ oprnd2
 )
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -15360,7 +15360,7 @@ LIR_cmov
 iftrue
 -
 >
-isI32
+isI
 (
 )
 &
@@ -15368,7 +15368,7 @@ isI32
 iffalse
 -
 >
-isI32
+isI
 (
 )
 )
@@ -15763,7 +15763,7 @@ rr
 ins
 -
 >
-imm32
+immI
 (
 )
 true
@@ -15910,7 +15910,7 @@ uint64_t
 *
 p
 =
-findQuadConstant
+findImmDFromPool
 (
 q
 )
@@ -15974,7 +15974,7 @@ uint64_t
 *
 p
 =
-findQuadConstant
+findImmDFromPool
 (
 q
 )
@@ -16007,7 +16007,7 @@ NanoAssert
 ins
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -16048,13 +16048,13 @@ rr
 ins
 -
 >
-imm64
+immQ
 (
 )
 ins
 -
 >
-imm64f
+immD
 (
 )
 true
@@ -16399,7 +16399,7 @@ ARGTYPE_I
 ty
 =
 =
-ARGTYPE_U
+ARGTYPE_UI
 )
 {
 if
@@ -16415,7 +16415,7 @@ if
 ins
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -16426,7 +16426,7 @@ r
 ins
 -
 >
-imm32
+immI
 (
 )
 true
@@ -16564,7 +16564,7 @@ NanoAssert
 ty
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 ;
 asm_farg
@@ -16599,7 +16599,7 @@ isUsed
 ins
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -16609,7 +16609,7 @@ PUSHi
 ins
 -
 >
-imm32
+immI
 (
 )
 )
@@ -16723,7 +16723,7 @@ isUsed
 ins
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -16735,7 +16735,7 @@ stkd
 ins
 -
 >
-imm32
+immI
 (
 )
 )
@@ -16823,7 +16823,7 @@ NanoAssert
 ins
 -
 >
-isF64
+isD
 (
 )
 )
@@ -17276,7 +17276,7 @@ if
 rhs
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -17286,12 +17286,12 @@ uint64_t
 *
 p
 =
-findQuadConstant
+findImmDFromPool
 (
 rhs
 -
 >
-imm64
+immQ
 (
 )
 )
@@ -18156,7 +18156,7 @@ opcode
 ;
 NanoAssert
 (
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -18189,7 +18189,7 @@ NanoAssert
 lhs
 -
 >
-isF64
+isD
 (
 )
 &
@@ -18197,7 +18197,7 @@ isF64
 rhs
 -
 >
-isF64
+isD
 (
 )
 )
@@ -18541,7 +18541,7 @@ if
 rhs
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -18551,12 +18551,12 @@ uint64_t
 *
 p
 =
-findQuadConstant
+findImmDFromPool
 (
 rhs
 -
 >
-imm64
+immQ
 (
 )
 )

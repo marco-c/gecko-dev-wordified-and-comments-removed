@@ -849,7 +849,7 @@ LIMM_Q
 LIR_quad
 CL___
 (
-LIMM_F
+LIMM_D
 3
 )
 /
@@ -882,7 +882,7 @@ none
 )
 CL___
 (
-LOP_F_F
+LOP_D_D
 2
 )
 /
@@ -932,7 +932,7 @@ LIR_qirsh
 LIR_qursh
 CL___
 (
-LOP_F_FF
+LOP_D_DD
 0
 )
 /
@@ -1004,7 +1004,7 @@ LIR_qlt
 etc
 CL___
 (
-LOP_B_FF
+LOP_B_DD
 3
 )
 /
@@ -1027,7 +1027,7 @@ LIR_i2q
 LIR_u2q
 CL___
 (
-LOP_F_I
+LOP_D_I
 2
 )
 /
@@ -1048,7 +1048,7 @@ LOP_I_Q
 LIR_q2i
 CL___
 (
-LOP_I_F
+LOP_I_D
 1
 )
 /
@@ -1060,7 +1060,7 @@ LIR_qhi
 LIR_f2i
 CL___
 (
-LOP_F_II
+LOP_D_II
 1
 )
 /
@@ -1098,7 +1098,7 @@ LIR_ldq
 LIR_ldqc
 CL___
 (
-LLD_F
+LLD_D
 3
 )
 /
@@ -1129,7 +1129,7 @@ LST_Q
 LIR_stqi
 CL___
 (
-LST_F
+LST_D
 5
 )
 /
@@ -1179,7 +1179,7 @@ LCALL_Q_Q7
 LIR_qcall
 CL___
 (
-LCALL_F_F3
+LCALL_D_D3
 1
 )
 /
@@ -1189,7 +1189,7 @@ LCALL_F_F3
 LIR_fcall
 CL___
 (
-LCALL_F_F8
+LCALL_D_D8
 1
 )
 /
@@ -1199,7 +1199,7 @@ LCALL_F_F8
 LIR_fcall
 CL_64
 (
-LCALL_V_IQF
+LCALL_V_IQD
 1
 )
 /

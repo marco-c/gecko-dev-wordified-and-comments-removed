@@ -977,7 +977,7 @@ if
 ty
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 {
 Register
@@ -1422,7 +1422,7 @@ if
 i
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -1433,7 +1433,7 @@ v
 i
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -1563,7 +1563,7 @@ if
 value
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -1584,7 +1584,7 @@ c
 value
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -1636,7 +1636,7 @@ if
 base
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -1647,7 +1647,7 @@ dr
 base
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -2047,7 +2047,7 @@ if
 value
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -2075,7 +2075,7 @@ SET32
 value
 -
 >
-imm64_0
+immQorDlo
 (
 )
 L2
@@ -2093,7 +2093,7 @@ SET32
 value
 -
 >
-imm64_1
+immQorDhi
 (
 )
 L2
@@ -2356,7 +2356,7 @@ isCmp
 ;
 if
 (
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -2829,7 +2829,7 @@ NanoAssert
 lhs
 -
 >
-isI32
+isI
 (
 )
 &
@@ -2837,7 +2837,7 @@ isI32
 rhs
 -
 >
-isI32
+isI
 (
 )
 )
@@ -2847,7 +2847,7 @@ if
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -2858,7 +2858,7 @@ c
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -2974,7 +2974,7 @@ opcode
 ;
 NanoAssert
 (
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -3337,7 +3337,7 @@ LIR_mulxov
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -3416,7 +3416,7 @@ LIR_alloc
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -3441,7 +3441,7 @@ lhs
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -3680,7 +3680,7 @@ c
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -4181,7 +4181,7 @@ LIR_cmov
 iftrue
 -
 >
-isI32
+isI
 (
 )
 &
@@ -4189,7 +4189,7 @@ isI32
 iffalse
 -
 >
-isI32
+isI
 (
 )
 )
@@ -4463,7 +4463,7 @@ val
 ins
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -4604,7 +4604,7 @@ SET32
 ins
 -
 >
-imm64_0
+immQorDlo
 (
 )
 L2
@@ -4622,7 +4622,7 @@ SET32
 ins
 -
 >
-imm64_1
+immQorDhi
 (
 )
 L2
@@ -5157,7 +5157,7 @@ opcode
 ;
 NanoAssert
 (
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )

@@ -265,7 +265,7 @@ retType
 )
 {
 case
-LTy_I32
+LTy_I
 :
 n
 =
@@ -275,11 +275,11 @@ break
 ;
 CASE64
 (
-LTy_I64
+LTy_Q
 :
 )
 case
-LTy_F64
+LTy_D
 :
 n
 =
@@ -288,7 +288,7 @@ n
 break
 ;
 case
-LTy_Void
+LTy_V
 :
 NanoAssert
 (
@@ -401,7 +401,7 @@ NInsMap
 ;
 #
 if
-NJ_USES_QUAD_CONSTANTS
+NJ_USES_IMMD_POOL
 typedef
 HashMap
 <
@@ -409,7 +409,7 @@ uint64_t
 uint64_t
 *
 >
-QuadConstantMap
+ImmDPoolMap
 ;
 #
 endif
@@ -947,11 +947,11 @@ d
 ;
 #
 if
-NJ_USES_QUAD_CONSTANTS
+NJ_USES_IMMD_POOL
 const
 uint64_t
 *
-findQuadConstant
+findImmDFromPool
 (
 uint64_t
 q
@@ -1149,9 +1149,9 @@ _labels
 ;
 #
 if
-NJ_USES_QUAD_CONSTANTS
-QuadConstantMap
-_quadConstants
+NJ_USES_IMMD_POOL
+ImmDPoolMap
+_immDPool
 ;
 #
 endif

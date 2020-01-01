@@ -1707,7 +1707,7 @@ if
 ty
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 {
 asm_arg_64
@@ -1731,7 +1731,7 @@ ARGTYPE_I
 ty
 =
 =
-ARGTYPE_U
+ARGTYPE_UI
 )
 ;
 if
@@ -2161,7 +2161,7 @@ ARGTYPE_I
 ty
 =
 =
-ARGTYPE_U
+ARGTYPE_UI
 )
 {
 if
@@ -2169,7 +2169,7 @@ if
 p
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -2180,7 +2180,7 @@ r
 p
 -
 >
-imm32
+immI
 (
 )
 )
@@ -2281,7 +2281,7 @@ NanoAssert
 ty
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 ;
 NanoAssert
@@ -2309,7 +2309,7 @@ isF64
 arg
 -
 >
-isF64
+isD
 (
 )
 ;
@@ -2647,7 +2647,7 @@ returnType
 )
 =
 =
-ARGTYPE_F
+ARGTYPE_D
 )
 {
 Register
@@ -4364,7 +4364,7 @@ if
 i
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -4375,7 +4375,7 @@ r
 i
 -
 >
-imm32
+immI
 (
 )
 )
@@ -4670,7 +4670,7 @@ NanoAssert
 ins
 -
 >
-isF64
+isD
 (
 )
 )
@@ -5072,7 +5072,7 @@ if
 value
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -5099,7 +5099,7 @@ IP
 value
 -
 >
-imm64_0
+immQorDlo
 (
 )
 false
@@ -5120,7 +5120,7 @@ IP
 value
 -
 >
-imm64_1
+immQorDhi
 (
 )
 false
@@ -5211,7 +5211,7 @@ if
 value
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -5229,13 +5229,13 @@ rv
 value
 -
 >
-imm64_0
+immQorDlo
 (
 )
 value
 -
 >
-imm64_1
+immQorDhi
 (
 )
 )
@@ -5296,7 +5296,7 @@ if
 value
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -5323,7 +5323,7 @@ IP
 value
 -
 >
-imm64_0
+immQorDlo
 (
 )
 false
@@ -5344,7 +5344,7 @@ IP
 value
 -
 >
-imm64_1
+immQorDhi
 (
 )
 false
@@ -5441,7 +5441,7 @@ if
 value
 -
 >
-isconstf
+isImmD
 (
 )
 )
@@ -5459,13 +5459,13 @@ rv
 value
 -
 >
-imm64_0
+immQorDlo
 (
 )
 value
 -
 >
-imm64_1
+immQorDhi
 (
 )
 )
@@ -5522,9 +5522,9 @@ asm_immf_nochk
 Register
 rr
 int32_t
-imm64_0
+immQorDlo
 int32_t
-imm64_1
+immQorDhi
 )
 {
 FLDD
@@ -5545,7 +5545,7 @@ _nIns
 (
 NIns
 )
-imm64_1
+immQorDhi
 ;
 *
 (
@@ -5557,7 +5557,7 @@ _nIns
 (
 NIns
 )
-imm64_0
+immQorDlo
 ;
 B_nochk
 (
@@ -5638,13 +5638,13 @@ rr
 ins
 -
 >
-imm64_0
+immQorDlo
 (
 )
 ins
 -
 >
-imm64_1
+immQorDhi
 (
 )
 )
@@ -5672,7 +5672,7 @@ IP
 ins
 -
 >
-imm64_1
+immQorDhi
 (
 )
 )
@@ -5690,7 +5690,7 @@ IP
 ins
 -
 >
-imm64_0
+immQorDlo
 (
 )
 )
@@ -8175,7 +8175,7 @@ opcode
 ;
 NanoAssert
 (
-isFCmpOpcode
+isCmpDOpcode
 (
 op
 )
@@ -8261,7 +8261,7 @@ arm_vfp
 |
 |
 !
-isFCmpOpcode
+isCmpDOpcode
 (
 condop
 )
@@ -8621,7 +8621,7 @@ NanoAssert
 lhs
 -
 >
-isI32
+isI
 (
 )
 &
@@ -8629,7 +8629,7 @@ isI32
 rhs
 -
 >
-isI32
+isI
 (
 )
 )
@@ -8639,7 +8639,7 @@ if
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 )
@@ -8650,7 +8650,7 @@ c
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -9181,7 +9181,7 @@ if
 rhs
 -
 >
-isconst
+isImmI
 (
 )
 &
@@ -9243,7 +9243,7 @@ lhs
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -9264,12 +9264,12 @@ d
 ;
 }
 int32_t
-imm32
+immI
 =
 rhs
 -
 >
-imm32
+immI
 (
 )
 ;
@@ -9285,7 +9285,7 @@ asm_add_imm
 (
 rr
 ra
-imm32
+immI
 )
 ;
 break
@@ -9297,7 +9297,7 @@ asm_add_imm
 (
 rr
 ra
-imm32
+immI
 1
 )
 ;
@@ -9310,7 +9310,7 @@ asm_sub_imm
 (
 rr
 ra
-imm32
+immI
 )
 ;
 break
@@ -9322,7 +9322,7 @@ asm_sub_imm
 (
 rr
 ra
-imm32
+immI
 1
 )
 ;
@@ -9335,7 +9335,7 @@ asm_and_imm
 (
 rr
 ra
-imm32
+immI
 )
 ;
 break
@@ -9347,7 +9347,7 @@ asm_orr_imm
 (
 rr
 ra
-imm32
+immI
 )
 ;
 break
@@ -9359,7 +9359,7 @@ asm_eor_imm
 (
 rr
 ra
-imm32
+immI
 )
 ;
 break
@@ -9371,7 +9371,7 @@ LSLi
 (
 rr
 ra
-imm32
+immI
 )
 ;
 break
@@ -9383,7 +9383,7 @@ ASRi
 (
 rr
 ra
-imm32
+immI
 )
 ;
 break
@@ -9395,7 +9395,7 @@ LSRi
 (
 rr
 ra
-imm32
+immI
 )
 ;
 break
@@ -10267,7 +10267,7 @@ LIR_cmov
 iftrue
 -
 >
-isI32
+isI
 (
 )
 &
@@ -10275,7 +10275,7 @@ isI32
 iffalse
 -
 >
-isI32
+isI
 (
 )
 )
@@ -10706,7 +10706,7 @@ rr
 ins
 -
 >
-imm32
+immI
 (
 )
 )
