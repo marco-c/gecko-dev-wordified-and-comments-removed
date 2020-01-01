@@ -41,11 +41,11 @@ class
 SmsManager
 :
 public
+nsDOMEventTargetHelper
+public
 nsIDOMMozSmsManager
 public
 nsIObserver
-public
-nsDOMEventTargetHelper
 {
 public
 :
