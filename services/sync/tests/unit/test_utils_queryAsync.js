@@ -91,7 +91,9 @@ isAsync
 =
 false
 ;
-setTimeout
+Utils
+.
+delay
 (
 function
 (
