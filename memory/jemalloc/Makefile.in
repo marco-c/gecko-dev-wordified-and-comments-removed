@@ -1929,26 +1929,6 @@ shutdown
 libs
 :
 :
-(
-DIST
-)
-/
-lib
-/
-mozcrt
-.
-lib
-(
-DIST
-)
-/
-lib
-/
-mozcrt
-.
-lib
-:
-:
 mozcrt
 .
 lib
@@ -2001,7 +1981,6 @@ mozcrt
 .
 lib
 :
-:
 (
 IMPORT_LIBRARY
 )
@@ -2025,7 +2004,6 @@ msvc_modified
 .
 lib
 :
-:
 msvc_removed
 .
 lib
@@ -2045,7 +2023,6 @@ file
 crtdll_fixed
 .
 obj
-:
 :
 crtdll
 .
@@ -2108,7 +2085,6 @@ msvc_removed
 .
 lib
 :
-:
 msvc_combined
 .
 lib
@@ -2143,7 +2119,6 @@ crtdll
 .
 obj
 :
-:
 msvc_combined
 .
 lib
@@ -2175,7 +2150,6 @@ things
 msvc_combined
 .
 lib
-:
 :
 lib
 -
