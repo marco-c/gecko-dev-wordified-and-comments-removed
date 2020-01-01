@@ -105,6 +105,10 @@ imgRequestProxy
 .
 h
 \
+ImageOps
+.
+h
+\
 (
 NULL
 )
@@ -120,6 +124,10 @@ ImageFactory
 cpp
 \
 ImageMetadata
+.
+cpp
+\
+ImageOps
 .
 cpp
 \
