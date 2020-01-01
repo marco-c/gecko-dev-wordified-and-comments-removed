@@ -5307,6 +5307,14 @@ aFrameList
 ;
 }
 }
+NS_IMPL_ADDREF
+(
+nsCSSFrameConstructor
+)
+NS_IMPL_RELEASE
+(
+nsCSSFrameConstructor
+)
 nsCSSFrameConstructor
 :
 :
