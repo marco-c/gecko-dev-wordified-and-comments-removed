@@ -12,13 +12,6 @@ xptiprivate
 .
 h
 "
-#
-include
-"
-xptc_platforms_unixish_x86
-.
-h
-"
 nsresult
 PrepareAndDispatch
 (
