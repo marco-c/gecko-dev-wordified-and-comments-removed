@@ -2825,6 +2825,14 @@ res
 /
 drawable
 /
+awesomebar_row_favicon_bg
+.
+xml
+\
+res
+/
+drawable
+/
 awesomebar_tab_center
 .
 9
