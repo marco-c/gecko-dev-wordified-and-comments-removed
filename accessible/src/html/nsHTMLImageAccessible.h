@@ -104,6 +104,11 @@ PRInt32
 height
 )
 ;
+NS_IMETHOD
+Shutdown
+(
+)
+;
 protected
 :
 virtual
@@ -116,10 +121,10 @@ already_AddRefed
 <
 nsIAccessible
 >
-CreateAreaAccessible
+GetAreaAccessible
 (
 PRInt32
-areaNum
+aAreaNum
 )
 ;
 nsCOMPtr
@@ -127,6 +132,10 @@ nsCOMPtr
 nsIDOMHTMLMapElement
 >
 mMapElement
+;
+nsAccessNodeHashtable
+*
+mAccessNodeCache
 ;
 }
 ;
