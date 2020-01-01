@@ -1044,6 +1044,12 @@ isPrivate
 =
 =
 mIsPrivate
+&
+&
+mTabs
+!
+=
+null
 )
 {
 mTabs
