@@ -185,6 +185,12 @@ AwesomeBar
 .
 java
 \
+awesomebar
+/
+AwesomeBarTab
+.
+java
+\
 AwesomeBarTabs
 .
 java
