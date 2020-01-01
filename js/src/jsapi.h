@@ -12390,7 +12390,7 @@ JS_PUBLIC_API
 JSObject
 *
 )
-JS_GetObjectFromScript
+JS_GetGlobalFromScript
 (
 JSScript
 *

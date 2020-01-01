@@ -690,14 +690,6 @@ script_
 =
 script
 ;
-script
--
->
-setOwnerObject
-(
-this
-)
-;
 }
 JSScript
 *
