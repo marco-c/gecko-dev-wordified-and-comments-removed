@@ -2087,6 +2087,16 @@ removed
 <
 !
 ENTITY
+bookmark_add
+"
+Add
+a
+bookmark
+"
+>
+<
+!
+ENTITY
 bookmark_edit_title
 "
 Edit
