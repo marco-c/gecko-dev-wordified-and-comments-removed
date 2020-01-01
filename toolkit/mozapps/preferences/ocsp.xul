@@ -823,7 +823,7 @@ label
 =
 "
 &
-certOCSP
+certOCSP2
 .
 label
 ;
@@ -832,7 +832,7 @@ accesskey
 =
 "
 &
-certOCSP
+certOCSP2
 .
 accesskey
 ;
@@ -855,7 +855,7 @@ label
 =
 "
 &
-proxyOCSP
+proxyOCSP2
 .
 label
 ;
@@ -864,7 +864,7 @@ accesskey
 =
 "
 &
-proxyOCSP
+proxyOCSP2
 .
 accesskey
 ;

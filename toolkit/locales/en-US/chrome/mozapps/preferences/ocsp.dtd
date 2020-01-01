@@ -47,7 +47,7 @@ U
 <
 !
 ENTITY
-certOCSP
+certOCSP2
 .
 label
 "
@@ -65,7 +65,7 @@ server
 <
 !
 ENTITY
-certOCSP
+certOCSP2
 .
 accesskey
 "
@@ -75,7 +75,7 @@ V
 <
 !
 ENTITY
-proxyOCSP
+proxyOCSP2
 .
 label
 "
@@ -93,7 +93,7 @@ server
 <
 !
 ENTITY
-proxyOCSP
+proxyOCSP2
 .
 accesskey
 "
