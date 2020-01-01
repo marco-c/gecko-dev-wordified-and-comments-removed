@@ -501,6 +501,14 @@ nullptr
 )
 ;
 }
+doc
+-
+>
+FlushPendingNotifications
+(
+Flush_Layout
+)
+;
 result
 -
 >
