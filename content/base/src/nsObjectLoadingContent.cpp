@@ -8288,6 +8288,15 @@ return
 NS_ERROR_FAILURE
 ;
 }
+nsCOMPtr
+<
+nsIURI
+>
+kungFuURIGrip
+(
+mURI
+)
+;
 return
 InstantiatePluginInstance
 (
