@@ -152,7 +152,7 @@ OrganizerQuery
 const
 ORGANIZER_LEFTPANE_VERSION
 =
-3
+4
 ;
 #
 ifdef
@@ -4999,6 +4999,16 @@ placesRootId
 "
 -
 1
+)
+;
+PlacesUtils
+.
+bookmarks
+.
+setFolderReadonly
+(
+leftPaneRoot
+true
 )
 ;
 let
