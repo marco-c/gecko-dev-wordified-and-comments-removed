@@ -65,10 +65,9 @@ Util
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 #
 ifdef
 PR_LOGGING
@@ -7956,4 +7955,5 @@ true
 return
 false
 ;
+}
 }

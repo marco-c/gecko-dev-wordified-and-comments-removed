@@ -43,6 +43,9 @@ AudioSampleFormat
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsAudioStream
 :
@@ -241,5 +244,6 @@ mChannels
 ;
 }
 ;
+}
 #
 endif

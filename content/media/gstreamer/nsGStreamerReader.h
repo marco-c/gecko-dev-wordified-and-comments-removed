@@ -58,10 +58,13 @@ nsBuiltinDecoderReader
 h
 "
 class
-nsBuiltinDecoder
-;
-class
 nsTimeRanges
+;
+namespace
+mozilla
+{
+class
+nsBuiltinDecoder
 ;
 class
 nsGStreamerReader
@@ -463,5 +466,6 @@ fpsDen
 ;
 }
 ;
+}
 #
 endif

@@ -113,14 +113,13 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 layers
 ;
+namespace
+mozilla
+{
 static
 const
 uint32_t
@@ -141,10 +140,6 @@ int64_t
 CAN_PLAY_THROUGH_MARGIN
 =
 10
-;
-using
-namespace
-mozilla
 ;
 #
 ifdef
@@ -177,9 +172,6 @@ msg
 )
 #
 endif
-namespace
-mozilla
-{
 class
 MediaMemoryReporter
 {
@@ -438,7 +430,6 @@ result
 }
 }
 ;
-}
 NS_IMPL_THREADSAFE_ISUPPORTS1
 (
 nsBuiltinDecoder
@@ -6757,9 +6748,6 @@ enabled
 }
 #
 endif
-namespace
-mozilla
-{
 MediaMemoryReporter
 *
 MediaMemoryReporter

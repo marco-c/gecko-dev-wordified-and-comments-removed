@@ -19,6 +19,9 @@ nsWebMDecoder
 .
 h
 "
+namespace
+mozilla
+{
 nsBuiltinDecoderStateMachine
 *
 nsWebMDecoder
@@ -40,4 +43,5 @@ this
 )
 )
 ;
+}
 }

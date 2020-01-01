@@ -152,6 +152,9 @@ map
 >
 #
 endif
+namespace
+mozilla
+{
 class
 OggPacketDeallocator
 :
@@ -1489,6 +1492,7 @@ mIndex
 ;
 }
 ;
+}
 template
 <
 >
@@ -1515,6 +1519,9 @@ ogg_packet
 aPacket
 )
 {
+mozilla
+:
+:
 nsOggCodecState
 :
 :

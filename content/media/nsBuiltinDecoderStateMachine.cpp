@@ -116,15 +116,11 @@ Util
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 using
 namespace
-mozilla
-:
-:
 layers
 ;
 #
@@ -13086,6 +13082,7 @@ mTimer
 >
 InitWithFuncCallback
 (
+mozilla
 :
 :
 TimeoutExpired
@@ -13194,4 +13191,5 @@ GetState
 =
 DECODER_STATE_SHUTDOWN
 ;
+}
 }

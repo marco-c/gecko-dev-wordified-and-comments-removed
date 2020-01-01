@@ -52,6 +52,9 @@ MPAPI
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsMediaOmxReader
 :
@@ -206,5 +209,6 @@ true
 }
 }
 ;
+}
 #
 endif

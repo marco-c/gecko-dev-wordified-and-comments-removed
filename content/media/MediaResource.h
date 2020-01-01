@@ -116,12 +116,12 @@ HTTP_REQUESTED_RANGE_NOT_SATISFIABLE_CODE
 =
 416
 ;
-class
-nsBuiltinDecoder
-;
 namespace
 mozilla
 {
+class
+nsBuiltinDecoder
+;
 class
 MediaChannelStatistics
 {

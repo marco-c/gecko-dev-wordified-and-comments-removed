@@ -19,6 +19,9 @@ nsOggDecoder
 .
 h
 "
+namespace
+mozilla
+{
 nsBuiltinDecoderStateMachine
 *
 nsOggDecoder
@@ -40,4 +43,5 @@ this
 )
 )
 ;
+}
 }

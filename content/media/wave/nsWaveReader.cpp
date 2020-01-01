@@ -56,10 +56,9 @@ StandardInteger
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 #
 ifdef
 PR_LOGGING
@@ -2855,4 +2854,5 @@ Tell
 (
 )
 ;
+}
 }

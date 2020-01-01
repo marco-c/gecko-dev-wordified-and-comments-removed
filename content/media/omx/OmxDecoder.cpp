@@ -152,6 +152,10 @@ using
 namespace
 MPAPI
 ;
+using
+namespace
+mozilla
+;
 namespace
 mozilla
 {

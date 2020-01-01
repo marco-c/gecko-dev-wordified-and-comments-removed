@@ -15,6 +15,9 @@ nsBuiltinDecoder
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsGStreamerDecoder
 :
@@ -46,5 +49,6 @@ CreateStateMachine
 ;
 }
 ;
+}
 #
 endif

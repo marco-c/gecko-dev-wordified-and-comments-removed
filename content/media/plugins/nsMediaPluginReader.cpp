@@ -56,10 +56,9 @@ nsBuiltinDecoderStateMachine
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 nsMediaPluginReader
 :
 :
@@ -1539,4 +1538,5 @@ aBuffered
 return
 NS_OK
 ;
+}
 }

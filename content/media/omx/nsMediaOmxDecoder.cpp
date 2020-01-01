@@ -19,6 +19,9 @@ nsBuiltinDecoderStateMachine
 .
 h
 "
+namespace
+mozilla
+{
 nsMediaOmxDecoder
 :
 :
@@ -77,4 +80,5 @@ nsMediaOmxDecoder
 (
 )
 {
+}
 }

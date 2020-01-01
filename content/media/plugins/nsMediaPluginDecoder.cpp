@@ -19,6 +19,9 @@ nsMediaPluginReader
 .
 h
 "
+namespace
+mozilla
+{
 nsMediaPluginDecoder
 :
 :
@@ -57,4 +60,5 @@ this
 )
 )
 ;
+}
 }

@@ -15,6 +15,9 @@ nsBuiltinDecoderReader
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsDASHReader
 :
@@ -23,13 +26,6 @@ nsBuiltinDecoderReader
 {
 public
 :
-typedef
-mozilla
-:
-:
-MediaResource
-MediaResource
-;
 nsDASHReader
 (
 nsBuiltinDecoder
@@ -1016,5 +1012,6 @@ mVideoReaders
 ;
 }
 ;
+}
 #
 endif

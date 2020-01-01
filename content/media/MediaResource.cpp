@@ -260,10 +260,9 @@ HTTP_PARTIAL_RESPONSE_CODE
 =
 206
 ;
-using
 namespace
 mozilla
-;
+{
 ChannelMediaResource
 :
 :
@@ -6674,5 +6673,6 @@ failed
 "
 )
 ;
+}
 }
 }

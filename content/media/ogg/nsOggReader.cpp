@@ -94,10 +94,9 @@ VorbisUtils
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 #
 ifdef
 MOZ_WIDGET_GONK
@@ -8984,4 +8983,5 @@ true
 return
 false
 ;
+}
 }

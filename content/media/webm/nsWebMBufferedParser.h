@@ -34,12 +34,9 @@ h
 class
 nsTimeRanges
 ;
-using
+namespace
 mozilla
-:
-:
-ReentrantMonitor
-;
+{
 struct
 nsWebMTimeDataOffset
 {
@@ -326,5 +323,6 @@ mRangeParsers
 ;
 }
 ;
+}
 #
 endif

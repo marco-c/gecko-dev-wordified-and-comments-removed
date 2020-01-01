@@ -19,6 +19,9 @@ nsRawDecoder
 .
 h
 "
+namespace
+mozilla
+{
 nsBuiltinDecoderStateMachine
 *
 nsRawDecoder
@@ -41,4 +44,5 @@ this
 true
 )
 ;
+}
 }

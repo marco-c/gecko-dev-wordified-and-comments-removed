@@ -84,6 +84,9 @@ h
 "
 #
 endif
+namespace
+mozilla
+{
 class
 nsWebMBufferedState
 ;
@@ -354,13 +357,6 @@ nsBuiltinDecoderReader
 {
 public
 :
-typedef
-mozilla
-:
-:
-MediaByteRange
-MediaByteRange
-;
 nsWebMReader
 (
 nsBuiltinDecoder
@@ -691,5 +687,6 @@ mClusterByteRanges
 ;
 }
 ;
+}
 #
 endif

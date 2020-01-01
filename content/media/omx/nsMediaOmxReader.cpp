@@ -53,10 +53,9 @@ using
 namespace
 android
 ;
-using
 namespace
 mozilla
-;
+{
 nsMediaOmxReader
 :
 :
@@ -1812,4 +1811,5 @@ endOffset
 return
 NS_OK
 ;
+}
 }

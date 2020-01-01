@@ -50,9 +50,6 @@ nsDASHReader
 .
 h
 "
-class
-nsDASHRepDecoder
-;
 namespace
 mozilla
 {
@@ -69,7 +66,9 @@ class
 Representation
 ;
 }
-}
+class
+nsDASHRepDecoder
+;
 class
 nsDASHDecoder
 :
@@ -355,5 +354,6 @@ mVideoRepDecoders
 ;
 }
 ;
+}
 #
 endif

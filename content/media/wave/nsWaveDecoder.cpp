@@ -19,6 +19,9 @@ nsWaveDecoder
 .
 h
 "
+namespace
+mozilla
+{
 nsBuiltinDecoderStateMachine
 *
 nsWaveDecoder
@@ -40,4 +43,5 @@ this
 )
 )
 ;
+}
 }

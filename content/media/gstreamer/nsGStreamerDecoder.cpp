@@ -19,6 +19,9 @@ nsGStreamerDecoder
 .
 h
 "
+namespace
+mozilla
+{
 nsBuiltinDecoderStateMachine
 *
 nsGStreamerDecoder
@@ -40,4 +43,5 @@ this
 )
 )
 ;
+}
 }

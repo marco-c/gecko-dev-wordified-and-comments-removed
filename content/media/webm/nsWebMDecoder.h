@@ -15,6 +15,9 @@ nsBuiltinDecoder
 .
 h
 "
+namespace
+mozilla
+{
 class
 nsWebMDecoder
 :
@@ -58,5 +61,6 @@ CreateStateMachine
 ;
 }
 ;
+}
 #
 endif

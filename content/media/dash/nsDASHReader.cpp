@@ -26,6 +26,9 @@ nsDASHReader
 .
 h
 "
+namespace
+mozilla
+{
 #
 ifdef
 PR_LOGGING
@@ -1589,4 +1592,5 @@ IsSeekableInBufferedRanges
 )
 )
 ;
+}
 }
