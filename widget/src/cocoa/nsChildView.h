@@ -689,6 +689,12 @@ GetParent
 void
 )
 ;
+virtual
+float
+GetDPI
+(
+)
+;
 LayerManager
 *
 GetLayerManager
