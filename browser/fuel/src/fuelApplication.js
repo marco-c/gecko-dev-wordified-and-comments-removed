@@ -1259,11 +1259,15 @@ type
 =
 this
 .
+branch
+.
 _prefs
 .
 getPrefType
 (
-name
+this
+.
+_name
 )
 ;
 switch
