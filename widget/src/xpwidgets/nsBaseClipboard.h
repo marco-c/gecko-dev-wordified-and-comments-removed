@@ -18,13 +18,6 @@ nsITransferable
 .
 h
 "
-#
-include
-"
-nsClipboardPrivacyHandler
-.
-h
-"
 class
 nsITransferable
 ;
@@ -90,9 +83,6 @@ mClipboardOwner
 nsITransferable
 *
 mTransferable
-;
-nsClipboardPrivacyHandler
-mPrivacyHandler
 ;
 }
 ;

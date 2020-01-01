@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsClipboardPrivacyHandler
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -117,9 +110,6 @@ nsCOMPtr
 nsITransferable
 >
 mGlobalTransferable
-;
-nsClipboardPrivacyHandler
-mPrivacyHandler
 ;
 }
 ;

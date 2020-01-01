@@ -521,10 +521,6 @@ nsIdleService
 .
 cpp
 \
-nsClipboardPrivacyHandler
-.
-cpp
-\
 (
 NULL
 )
