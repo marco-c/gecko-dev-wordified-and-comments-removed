@@ -714,6 +714,12 @@ script
 )
 )
 ;
+JS_DestroyScript
+(
+cx
+script
+)
+;
 JS_XDRDestroy
 (
 r
