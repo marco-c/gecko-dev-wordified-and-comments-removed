@@ -469,6 +469,10 @@ head
 .
 js
 \
+browser_about
+.
+js
+\
 browser_bug557943
 .
 js
@@ -624,6 +628,10 @@ NULL
 )
 _TEST_RESOURCES
 =
+\
+addon_about
+.
+xul
 \
 addon_prefs
 .
