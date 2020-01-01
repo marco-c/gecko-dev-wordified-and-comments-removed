@@ -14,7 +14,7 @@ h
 #
 include
 "
-imgIDecoderObserver
+imgINotificationObserver
 .
 h
 "
@@ -43,7 +43,7 @@ class
 nsMenuItemIconX
 :
 public
-imgIDecoderObserver
+imgINotificationObserver
 {
 public
 :
@@ -71,8 +71,7 @@ nsMenuItemIconX
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_IMGICONTAINEROBSERVER
-NS_DECL_IMGIDECODEROBSERVER
+NS_DECL_IMGINOTIFICATIONOBSERVER
 nsresult
 SetupIcon
 (
@@ -102,6 +101,14 @@ Destroy
 ;
 protected
 :
+nsresult
+OnStopFrame
+(
+imgIRequest
+*
+aRequest
+)
+;
 nsCOMPtr
 <
 nsIContent
