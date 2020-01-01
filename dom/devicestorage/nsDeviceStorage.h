@@ -145,6 +145,13 @@ h
 #
 include
 "
+prtime
+.
+h
+"
+#
+include
+"
 DeviceStorage
 .
 h
@@ -339,7 +346,7 @@ DeviceStorageFile
 >
 &
 aFiles
-uint64_t
+PRTime
 aSince
 =
 0
@@ -357,7 +364,7 @@ DeviceStorageFile
 >
 &
 aFiles
-uint64_t
+PRTime
 aSince
 nsAString
 &
@@ -465,7 +472,7 @@ aPrincipal
 DeviceStorageFile
 *
 aFile
-uint64_t
+PRTime
 aSince
 )
 ;
@@ -481,7 +488,7 @@ mFiles
 bool
 mOkToCallContinue
 ;
-uint64_t
+PRTime
 mSince
 ;
 virtual
