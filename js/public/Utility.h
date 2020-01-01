@@ -703,7 +703,11 @@ p
 }
 #
 endif
-JS_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 #
 if
 defined
@@ -1359,7 +1363,7 @@ SUPPORTED
 "
 #
 endif
-JS_END_EXTERN_C
+}
 #
 define
 JS_CEILING_LOG2W

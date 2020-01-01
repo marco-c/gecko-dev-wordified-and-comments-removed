@@ -846,7 +846,11 @@ errorNumber
 #
 ifdef
 EDITLINE
-JS_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 extern
 JS_EXPORT_API
 (
@@ -873,7 +877,7 @@ char
 line
 )
 ;
-JS_END_EXTERN_C
+}
 #
 endif
 static
