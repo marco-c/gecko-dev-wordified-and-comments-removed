@@ -9359,7 +9359,11 @@ funbox
 >
 tcflags
 &
+(
 TCF_FUN_HEAVYWEIGHT
+|
+TCF_FUN_IS_GENERATOR
+)
 )
 {
 fn
