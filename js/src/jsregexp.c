@@ -229,7 +229,6 @@ endif
 #
 ifdef
 __GNUC__
-inline
 static
 int
 re_debug
@@ -259,7 +258,6 @@ endif
 #
 ifdef
 REGEXP_DEBUG
-inline
 static
 int
 re_debug
@@ -302,7 +300,6 @@ return
 retval
 ;
 }
-inline
 static
 void
 re_debug_chars
@@ -364,7 +361,6 @@ printf
 }
 #
 else
-inline
 static
 int
 re_debug
@@ -382,7 +378,6 @@ return
 0
 ;
 }
-inline
 static
 void
 re_debug_chars
