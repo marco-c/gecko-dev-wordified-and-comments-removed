@@ -174,6 +174,10 @@ mWantsWillHandleEvent
 (
 PR_FALSE
 )
+mMayHaveListenerManager
+(
+PR_TRUE
+)
 mParentTarget
 (
 nsnull
@@ -209,6 +213,10 @@ mWantsWillHandleEvent
 =
 PR_FALSE
 ;
+mMayHaveListenerManager
+=
+PR_TRUE
+;
 mParentTarget
 =
 nsnull
@@ -232,6 +240,9 @@ mOriginalTargetIsInAnon
 ;
 PRPackedBool
 mWantsWillHandleEvent
+;
+PRPackedBool
+mMayHaveListenerManager
 ;
 nsPIDOMEventTarget
 *
