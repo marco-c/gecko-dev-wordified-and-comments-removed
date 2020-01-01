@@ -4457,8 +4457,6 @@ gcreason
 :
 :
 DOM_UTILS
-nsGCNormal
-true
 )
 ;
 nsJSContext
@@ -4483,8 +4481,6 @@ gcreason
 :
 :
 DOM_UTILS
-nsGCNormal
-true
 )
 ;
 return
