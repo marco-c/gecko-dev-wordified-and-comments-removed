@@ -497,11 +497,15 @@ nsGlueLinkingOSX
 .
 cpp
 endif
-ifeq
+ifneq
 (
+(
+filter
 WINNT
+WINCE
 (
 OS_ARCH
+)
 )
 )
 LINKSRC

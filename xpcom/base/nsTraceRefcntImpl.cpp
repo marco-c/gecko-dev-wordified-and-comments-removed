@@ -242,14 +242,6 @@ define
 NS_IMPL_REFCNT_LOGGING
 #
 ifdef
-WINCE
-#
-undef
-NS_IMPL_REFCNT_LOGGING
-#
-endif
-#
-ifdef
 NS_IMPL_REFCNT_LOGGING
 #
 include

@@ -10409,6 +10409,18 @@ IsEmpty
 )
 return
 ;
+#
+ifdef
+WINCE
+mShortWorkingPath
+.
+Assign
+(
+mWorkingPath
+)
+;
+#
+else
 WCHAR
 thisshort
 [
@@ -10464,6 +10476,8 @@ Assign
 mWorkingPath
 )
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsLocalFile
