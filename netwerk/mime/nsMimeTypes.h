@@ -1048,6 +1048,14 @@ webm
 "
 #
 define
+VIDEO_3GPP
+"
+video
+/
+3gpp
+"
+#
+define
 APPLICATION_OGG
 "
 application

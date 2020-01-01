@@ -2167,6 +2167,17 @@ Waveform
 Audio
 "
 }
+{
+VIDEO_3GPP
+"
+3gpp
+3gp
+"
+"
+3GPP
+Video
+"
+}
 }
 ;
 #
