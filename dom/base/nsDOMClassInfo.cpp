@@ -1297,13 +1297,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLButtonElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLCanvasElement
 .
 h
@@ -10233,10 +10226,6 @@ nsIDOMHTMLButtonElement
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMHTMLButtonElement
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMNSHTMLButtonElement
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END

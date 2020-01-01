@@ -702,10 +702,6 @@ nsIDOMNSHTMLAnchorElement2
 .
 idl
 \
-nsIDOMNSHTMLButtonElement
-.
-idl
-\
 nsIDOMNSHTMLDocument
 .
 idl
