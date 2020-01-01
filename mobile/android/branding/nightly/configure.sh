@@ -53,16 +53,8 @@ MPL
 0
 /
 .
-ANDROID_PACKAGE_NAME
-=
-org
-.
-mozilla
-.
-fennec_fig
 MOZ_APP_DISPLAYNAME
 =
-Fig
 Nightly
 MOZ_UPDATER
 =
