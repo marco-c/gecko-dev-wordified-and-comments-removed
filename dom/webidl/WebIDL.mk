@@ -151,6 +151,10 @@ Blob
 .
 webidl
 \
+CameraManager
+.
+webidl
+\
 CanvasRenderingContext2D
 .
 webidl
@@ -192,10 +196,6 @@ ClientRectList
 webidl
 \
 ClipboardEvent
-.
-webidl
-\
-CameraManager
 .
 webidl
 \
