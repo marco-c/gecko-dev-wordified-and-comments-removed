@@ -911,10 +911,11 @@ buf
 length
 )
 ;
-glXDestroyContext
+glXMakeCurrent
 (
 dpy
-context
+None
+NULL
 )
 ;
 glXDestroyPixmap
