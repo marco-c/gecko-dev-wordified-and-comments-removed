@@ -325,8 +325,6 @@ Update
 nsIDOMGeoPosition
 *
 aPosition
-bool
-aIsBetter
 )
 ;
 void
@@ -599,14 +597,6 @@ GetCachedPosition
 (
 )
 ;
-bool
-IsBetterPosition
-(
-nsIDOMGeoPosition
-*
-aSomewhere
-)
-;
 nsresult
 StartDevice
 (
@@ -652,11 +642,11 @@ nsITimer
 >
 mDisconnectTimer
 ;
-nsCOMArray
+nsCOMPtr
 <
 nsIGeolocationProvider
 >
-mProviders
+mProvider
 ;
 nsTArray
 <
@@ -788,8 +778,6 @@ Update
 nsIDOMGeoPosition
 *
 aPosition
-bool
-aIsBetter
 )
 ;
 void
