@@ -252,16 +252,6 @@ public
 static
 final
 String
-DEFAULT_PROFILE
-=
-"
-default
-"
-;
-public
-static
-final
-String
 PARAM_PROFILE
 =
 "
