@@ -6945,14 +6945,6 @@ return
 JS_TRUE
 ;
 }
-#
-define
-LET_DECL
-1
-#
-define
-VAR_DECL
-2
 JSStmtInfo
 *
 js_LexicalLookup
@@ -6966,8 +6958,6 @@ atom
 jsint
 *
 slotp
-uintN
-declType
 )
 {
 JSStmtInfo
@@ -7018,19 +7008,8 @@ type
 =
 STMT_WITH
 )
-{
-if
-(
-declType
-=
-=
-LET_DECL
-)
-continue
-;
 break
 ;
-}
 if
 (
 !
@@ -7284,7 +7263,6 @@ cg
 treeContext
 atom
 NULL
-0
 )
 ;
 if
@@ -8169,8 +8147,6 @@ cg
 JSParseNode
 *
 pn
-uintN
-declType
 )
 {
 JSTreeContext
@@ -8280,7 +8256,6 @@ tc
 atom
 &
 slot
-declType
 )
 )
 )
@@ -9378,7 +9353,6 @@ BindNameToSlot
 cx
 cg
 pn2
-0
 )
 )
 return
@@ -9591,7 +9565,6 @@ BindNameToSlot
 cx
 cg
 pn
-0
 )
 )
 return
@@ -9658,7 +9631,6 @@ BindNameToSlot
 cx
 cg
 pn2
-0
 )
 )
 return
@@ -9767,7 +9739,6 @@ BindNameToSlot
 cx
 cg
 pn
-0
 )
 )
 return
@@ -10214,7 +10185,6 @@ BindNameToSlot
 cx
 cg
 pn2
-0
 )
 )
 return
@@ -10746,7 +10716,6 @@ BindNameToSlot
 cx
 cg
 left
-0
 )
 )
 return
@@ -11144,7 +11113,6 @@ BindNameToSlot
 cx
 cg
 left
-0
 )
 )
 return
@@ -14617,9 +14585,6 @@ JSParseNode
 pn
 )
 {
-JSOp
-declType
-;
 JS_ASSERT
 (
 pn
@@ -14631,24 +14596,6 @@ pn_type
 TOK_NAME
 )
 ;
-declType
-=
-(
-JSOp
-)
-(
-(
-prologOp
-=
-=
-JSOP_NOP
-)
-?
-LET_DECL
-:
-VAR_DECL
-)
-;
 if
 (
 !
@@ -14657,7 +14604,6 @@ BindNameToSlot
 cx
 cg
 pn
-declType
 )
 )
 return
@@ -14977,7 +14923,6 @@ BindNameToSlot
 cx
 cg
 pn
-0
 )
 )
 return
@@ -16664,11 +16609,6 @@ BindNameToSlot
 cx
 cg
 pn2
-let
-?
-LET_DECL
-:
-VAR_DECL
 )
 )
 return
@@ -19345,7 +19285,6 @@ BindNameToSlot
 cx
 cg
 pn3
-0
 )
 )
 return
@@ -23363,7 +23302,6 @@ BindNameToSlot
 cx
 cg
 pn2
-0
 )
 )
 return
@@ -25200,7 +25138,6 @@ BindNameToSlot
 cx
 cg
 pn2
-0
 )
 )
 return
@@ -25490,7 +25427,6 @@ BindNameToSlot
 cx
 cg
 pn2
-0
 )
 )
 return
