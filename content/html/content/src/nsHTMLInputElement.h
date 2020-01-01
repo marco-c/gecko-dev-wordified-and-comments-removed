@@ -1354,15 +1354,7 @@ PlaceholderApplies
 (
 )
 const
-{
-return
-IsSingleLineTextControl
-(
-false
-mType
-)
 ;
-}
 nsresult
 SetDefaultValueAsValue
 (

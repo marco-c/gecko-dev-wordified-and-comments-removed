@@ -1499,11 +1499,6 @@ typeLowerCase
 {
 case
 "
-date
-"
-:
-case
-"
 time
 "
 :
