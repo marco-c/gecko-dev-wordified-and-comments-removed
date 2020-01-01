@@ -144,7 +144,9 @@ TransmitAutomaticData
 )
 {
 return
-NS_OK
+TransmitAutomaticDataForMrowLikeElement
+(
+)
 ;
 }
 NS_IMETHODIMP

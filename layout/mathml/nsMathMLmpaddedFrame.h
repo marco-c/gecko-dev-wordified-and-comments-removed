@@ -49,6 +49,17 @@ aParent
 )
 ;
 NS_IMETHOD
+TransmitAutomaticData
+(
+)
+{
+return
+TransmitAutomaticDataForMrowLikeElement
+(
+)
+;
+}
+NS_IMETHOD
 Reflow
 (
 nsPresContext

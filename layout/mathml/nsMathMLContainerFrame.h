@@ -442,6 +442,11 @@ nsBoundingMetrics
 aPreferredStretchSize
 )
 ;
+nsresult
+TransmitAutomaticDataForMrowLikeElement
+(
+)
+;
 public
 :
 nsresult
