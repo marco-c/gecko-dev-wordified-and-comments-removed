@@ -589,6 +589,10 @@ mEvent
 -
 >
 message
+dragEvent
+-
+>
+userCancelled
 getter_AddRefs
 (
 dragEvent

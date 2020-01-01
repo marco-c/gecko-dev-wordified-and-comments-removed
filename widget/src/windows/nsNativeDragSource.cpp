@@ -30,6 +30,10 @@ m_cRef
 (
 0
 )
+mUserCancelled
+(
+PR_FALSE
+)
 {
 }
 nsNativeDragSource
@@ -214,6 +218,10 @@ ifdef
 DEBUG
 #
 endif
+mUserCancelled
+=
+PR_TRUE
+;
 return
 ResultFromScode
 (

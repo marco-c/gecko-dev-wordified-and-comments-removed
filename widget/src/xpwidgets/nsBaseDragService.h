@@ -187,6 +187,9 @@ mDoingDrag
 PRPackedBool
 mHasImage
 ;
+PRPackedBool
+mUserCancelled
+;
 PRUint32
 mDragAction
 ;

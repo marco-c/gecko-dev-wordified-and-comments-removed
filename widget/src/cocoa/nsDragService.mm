@@ -667,6 +667,10 @@ NSEvent
 *
 gLastDragEvent
 ;
+extern
+PRBool
+gUserCancelledDrag
+;
 /
 /
 This
@@ -2211,6 +2215,10 @@ gLastDragEvent
 retain
 ]
 ;
+gUserCancelledDrag
+=
+PR_FALSE
+;
 [
 mNativeDragView
 dragImage
@@ -2244,6 +2252,10 @@ slideBack
 :
 YES
 ]
+;
+gUserCancelledDrag
+=
+PR_FALSE
 ;
 if
 (
@@ -3763,6 +3775,10 @@ mNativeDragEvent
 nil
 ;
 }
+mUserCancelled
+=
+gUserCancelledDrag
+;
 nsresult
 rv
 =

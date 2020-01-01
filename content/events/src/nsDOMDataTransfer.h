@@ -132,6 +132,8 @@ PRUint32
 aEffectAllowed
 PRBool
 aIsExternal
+PRBool
+aUserCancelled
 nsTArray
 <
 nsTArray
@@ -315,6 +317,9 @@ mReadOnly
 ;
 PRPackedBool
 mIsExternal
+;
+PRPackedBool
+mUserCancelled
 ;
 nsTArray
 <
