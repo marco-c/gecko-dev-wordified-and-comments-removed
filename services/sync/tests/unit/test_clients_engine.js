@@ -449,8 +449,6 @@ ilovejane
 passphrase
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -563,8 +561,6 @@ resetClient
 (
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -730,8 +726,6 @@ resetClient
 (
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -871,8 +865,6 @@ count
 )
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -934,8 +926,6 @@ count
 )
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -997,8 +987,6 @@ resetClient
 (
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -1244,8 +1232,6 @@ foo
 "
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )

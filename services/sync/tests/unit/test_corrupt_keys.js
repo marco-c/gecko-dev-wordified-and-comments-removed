@@ -868,8 +868,6 @@ meta_global
 )
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -987,7 +985,7 @@ coll_modified
 =
 CollectionKeys
 .
-_lastModified
+lastModified
 ;
 let
 liveKeys

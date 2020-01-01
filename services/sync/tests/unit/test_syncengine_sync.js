@@ -1539,8 +1539,6 @@ foo
 "
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -6793,8 +6791,6 @@ do_test_pending
 (
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -8752,8 +8748,6 @@ do_test_pending
 (
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -9388,8 +9382,6 @@ foo
 "
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -9530,8 +9522,6 @@ DISABLE_TESTS_BUG_604565
 )
 return
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )

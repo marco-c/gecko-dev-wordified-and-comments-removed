@@ -369,8 +369,6 @@ test_startOver_clears_keys
 (
 )
 {
-CollectionKeys
-.
 generateNewKeys
 (
 )

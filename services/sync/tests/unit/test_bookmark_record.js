@@ -164,8 +164,6 @@ keyStr
 abcdeabcdeabcdeabcdeabcdea
 "
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )

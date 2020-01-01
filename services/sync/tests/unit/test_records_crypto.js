@@ -776,8 +776,6 @@ foo
 "
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -880,8 +878,6 @@ here
 "
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 [

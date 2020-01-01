@@ -1908,8 +1908,6 @@ wboName
 collWBO
 )
 {
-CollectionKeys
-.
 generateNewKeys
 (
 )
@@ -2070,8 +2068,6 @@ bulk
 "
 )
 ;
-CollectionKeys
-.
 generateNewKeys
 (
 )
