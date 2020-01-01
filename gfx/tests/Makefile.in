@@ -426,6 +426,10 @@ TestRect
 .
 cpp
 \
+TestRegion
+.
+cpp
+\
 (
 NULL
 )
