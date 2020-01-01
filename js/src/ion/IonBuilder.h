@@ -703,8 +703,6 @@ v
 bool
 jsop_bitnot
 (
-JSOp
-op
 )
 ;
 bool
