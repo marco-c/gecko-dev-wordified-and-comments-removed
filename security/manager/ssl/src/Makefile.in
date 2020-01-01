@@ -107,6 +107,10 @@ CryptoTask
 .
 cpp
 \
+JARSignatureVerification
+.
+cpp
+\
 nsCERTValInParamWrapper
 .
 cpp
