@@ -257,6 +257,10 @@ UnionTypes
 .
 h
 \
+UnionTypes
+.
+cpp
+\
 UnionConversions
 .
 h
