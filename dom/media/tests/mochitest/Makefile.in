@@ -136,6 +136,10 @@ test_getUserMedia_stopVideoAudioStream
 .
 html
 \
+test_getUserMedia_constraints
+.
+html
+\
 test_peerConnection_basicAudio
 .
 html
