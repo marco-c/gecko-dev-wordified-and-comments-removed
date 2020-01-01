@@ -174,9 +174,9 @@ else
 ifeq
 (
 (
-OS_ARCH
+MOZ_WIDGET_TOOLKIT
 )
-Linux
+gtk2
 )
 DIRS
 +
