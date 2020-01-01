@@ -1,4 +1,4 @@
-classic
+browser
 .
 jar
 :
@@ -1587,7 +1587,7 @@ png
 #
 ifdef
 XP_WIN
-classic
+browser
 .
 jar
 :
