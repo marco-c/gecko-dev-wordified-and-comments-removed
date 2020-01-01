@@ -313,6 +313,14 @@ PRUint32
 aChar
 )
 ;
+PRBool
+HasRTLChars
+(
+nsAString
+&
+aString
+)
+;
 #
 define
 IBMBIDI_TEXTDIRECTION_STR
