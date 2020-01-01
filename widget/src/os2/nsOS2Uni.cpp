@@ -227,13 +227,6 @@ nsnull
 }
 }
 ;
-static
-NS_DEFINE_CID
-(
-kCharsetConverterManagerCID
-NS_ICHARSETCONVERTERMANAGER_CID
-)
-;
 nsISupports
 *
 OS2Uni
@@ -257,7 +250,7 @@ nsnull
 {
 CallGetService
 (
-kCharsetConverterManagerCID
+NS_CHARSETCONVERTERMANAGER_CONTRACTID
 &
 gCharsetManager
 )
