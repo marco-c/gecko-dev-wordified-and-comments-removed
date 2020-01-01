@@ -852,10 +852,6 @@ thisv
 JSBool
 ok
 ;
-ok
-=
-JS_TRUE
-;
 if
 (
 inlineCallCount
@@ -863,6 +859,10 @@ inlineCallCount
 inline_return
 :
 {
+ok
+=
+JS_TRUE
+;
 JS_ASSERT
 (
 !
@@ -22736,6 +22736,8 @@ getParent
 Value
 *
 vp
+=
+NULL
 ;
 if
 (

@@ -11891,6 +11891,9 @@ isMagic
 )
 ;
 }
+#
+ifdef
+DEBUG
 JSWhyMagic
 whyMagic
 (
@@ -11911,6 +11914,8 @@ data
 why
 ;
 }
+#
+endif
 int32
 traceKind
 (
