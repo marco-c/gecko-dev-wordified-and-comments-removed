@@ -302,12 +302,6 @@ _boundFocus
 false
 )
 ;
-this
-.
-_onSelect
-(
-)
-;
 }
 MarkupView
 .
