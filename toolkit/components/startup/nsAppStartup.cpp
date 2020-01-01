@@ -1269,13 +1269,6 @@ mShuttingDown
 return
 NS_OK
 ;
-mozilla
-:
-:
-RecordShutdownStartTimeStamp
-(
-)
-;
 if
 (
 ferocity
@@ -1605,6 +1598,13 @@ SAMPLE_MARKER
 Shutdown
 start
 "
+)
+;
+mozilla
+:
+:
+RecordShutdownStartTimeStamp
+(
 )
 ;
 mShuttingDown
