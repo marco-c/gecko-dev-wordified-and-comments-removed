@@ -709,13 +709,6 @@ All
 ;
 regs
 .
-take
-(
-JSReturnOperand
-)
-;
-regs
-.
 takeUnchecked
 (
 OsrFrameReg
@@ -733,6 +726,13 @@ regs
 take
 (
 reg_code
+)
+;
+regs
+.
+takeUnchecked
+(
+JSReturnOperand
 )
 ;
 Register
