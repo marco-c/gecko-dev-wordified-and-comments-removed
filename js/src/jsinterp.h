@@ -851,6 +851,10 @@ empty
 #
 ifdef
 JS_PROPERTY_CACHE_METERING
+JSPropCacheEntry
+*
+pctestentry
+;
 uint32
 fills
 ;
@@ -865,6 +869,9 @@ disfills
 ;
 uint32
 oddfills
+;
+uint32
+modfills
 ;
 uint32
 brandfills
@@ -1226,8 +1233,6 @@ cx
 JSObject
 *
 obj
-jsuword
-kshape
 uintN
 scopeIndex
 uintN
@@ -1238,6 +1243,8 @@ pobj
 JSScopeProperty
 *
 sprop
+JSBool
+addedSprop
 )
 ;
 #
@@ -1298,6 +1305,17 @@ pc
 kshape_
 )
 ]
+;
+\
+PCMETER
+(
+cache_
+-
+>
+pctestentry
+=
+entry
+)
 ;
 \
 PCMETER

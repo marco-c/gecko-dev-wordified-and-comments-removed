@@ -36267,10 +36267,6 @@ js_FillPropertyCache
 (
 cx
 aobj
-OBJ_SHAPE
-(
-aobj
-)
 0
 protoIndex
 obj2
@@ -36279,6 +36275,7 @@ JSScopeProperty
 *
 )
 prop
+false
 )
 ;
 JS_ASSERT
