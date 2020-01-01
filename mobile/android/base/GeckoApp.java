@@ -8348,11 +8348,8 @@ run
 {
 mLayerView
 .
-setVisibility
+show
 (
-View
-.
-VISIBLE
 )
 ;
 }
@@ -15251,11 +15248,8 @@ run
 {
 mLayerView
 .
-setVisibility
+hide
 (
-View
-.
-INVISIBLE
 )
 ;
 }
