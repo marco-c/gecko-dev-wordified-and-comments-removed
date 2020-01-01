@@ -684,10 +684,6 @@ EXPORTS
 +
 =
 \
-nsIDragSessionGTK
-.
-h
-\
 nsIPrintDialogService
 .
 h
