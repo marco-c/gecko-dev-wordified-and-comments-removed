@@ -2954,6 +2954,16 @@ fullname
 fullname
 )
         
+p
+.
+decl
+.
+type
+.
+_p
+=
+p
+        
 for
 pinc
 in

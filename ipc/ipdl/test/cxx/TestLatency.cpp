@@ -43,7 +43,7 @@ h
 #
 define
 NR_TRIALS
-100000
+10000
 namespace
 mozilla
 {
