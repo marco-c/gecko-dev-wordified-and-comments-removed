@@ -69,16 +69,6 @@ scan
 .
 WindowsMediaPlayer
 "
-#
-define
-NS_WIN_4DOTX_SCAN_KEY
-"
-plugin
-.
-scan
-.
-4xPluginFolder
-"
 class
 nsPluginDirServiceProvider
 :
