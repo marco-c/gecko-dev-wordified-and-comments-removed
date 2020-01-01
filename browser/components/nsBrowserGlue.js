@@ -3112,7 +3112,7 @@ chrome
 :
 /
 /
-browser
+global
 /
 locale
 /
