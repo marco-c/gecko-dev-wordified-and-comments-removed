@@ -529,6 +529,11 @@ height
 "
 500
 "
+disablefastfind
+=
+"
+true
+"
 onunload
 =
 "

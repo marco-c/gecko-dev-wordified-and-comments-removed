@@ -803,6 +803,10 @@ browser_bug563588
 .
 js
 \
+browser_bug569342
+.
+js
+\
 browser_contextSearchTabPosition
 .
 js

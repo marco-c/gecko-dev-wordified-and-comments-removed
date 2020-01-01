@@ -541,6 +541,11 @@ only
 .
 xul
 "
+disablefastfind
+=
+"
+true
+"
 id
 =
 "
