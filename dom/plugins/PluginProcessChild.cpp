@@ -96,7 +96,7 @@ ifdef
 XP_WIN
 :
 :
-CoInitialize
+OleInitialize
 (
 NULL
 )
@@ -280,7 +280,7 @@ ifdef
 XP_WIN
 :
 :
-CoUninitialize
+OleUninitialize
 (
 )
 ;
