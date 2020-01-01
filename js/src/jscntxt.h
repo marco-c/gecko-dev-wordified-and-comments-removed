@@ -2204,6 +2204,9 @@ staticStrings
 JSWrapObjectCallback
 wrapObjectCallback
 ;
+JSSameCompartmentWrapObjectCallback
+sameCompartmentWrapObjectCallback
+;
 JSPreWrapCallback
 preWrapObjectCallback
 ;

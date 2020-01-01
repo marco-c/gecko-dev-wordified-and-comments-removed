@@ -10879,6 +10879,7 @@ WrapperFactory
 :
 :
 Rewrap
+NULL
 xpc
 :
 :
