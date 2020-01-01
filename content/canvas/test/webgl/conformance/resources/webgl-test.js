@@ -3762,13 +3762,13 @@ ctx
 .
 TEXTURE_2D
 0
-gl
+ctx
 .
 RGBA
-gl
+ctx
 .
 RGBA
-gl
+ctx
 .
 UNSIGNED_BYTE
 image
