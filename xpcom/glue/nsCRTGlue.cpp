@@ -255,7 +255,7 @@ str
 NULL
 ;
 return
-ret
+NULL
 ;
 }
 PRUint32

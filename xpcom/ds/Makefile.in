@@ -807,6 +807,16 @@ nsWindowsRegKey
 .
 h
 endif
+EXTRA_COMPONENTS
+=
+\
+nsINIProcessor
+.
+js
+\
+(
+NULL
+)
 #
 we
 don
