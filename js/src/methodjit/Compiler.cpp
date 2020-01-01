@@ -27607,7 +27607,7 @@ length
 TypedArray
 :
 :
-getLength
+length
 (
 obj
 )

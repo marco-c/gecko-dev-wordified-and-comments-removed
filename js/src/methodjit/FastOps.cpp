@@ -8552,7 +8552,7 @@ int32_t
 TypedArray
 :
 :
-getLength
+length
 (
 array
 )
@@ -8564,7 +8564,7 @@ data
 TypedArray
 :
 :
-getDataOffset
+viewData
 (
 array
 )
@@ -12030,7 +12030,7 @@ int32_t
 TypedArray
 :
 :
-getLength
+length
 (
 array
 )
@@ -12042,7 +12042,7 @@ data
 TypedArray
 :
 :
-getDataOffset
+viewData
 (
 array
 )
