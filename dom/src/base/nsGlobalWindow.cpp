@@ -23063,6 +23063,11 @@ options
 NS_LITERAL_STRING
 (
 "
+-
+moz
+-
+internal
+-
 modal
 =
 1
