@@ -9383,12 +9383,7 @@ GetGlobalJSObject
 {
 options
 .
-zoneSpec
-=
-JS
-:
-:
-SameZoneAs
+setSameZoneAs
 (
 top
 -
