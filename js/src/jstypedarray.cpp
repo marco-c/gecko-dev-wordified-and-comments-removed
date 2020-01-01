@@ -6813,7 +6813,7 @@ typename
 NativeType
 >
 class
-TypedArrayTemplate
+TypedArrayObjectTemplate
 ;
 template
 <
@@ -6839,7 +6839,7 @@ typename
 NativeType
 >
 class
-TypedArrayTemplate
+TypedArrayObjectTemplate
 :
 public
 TypedArrayObject
@@ -6851,11 +6851,11 @@ NativeType
 ThisType
 ;
 typedef
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 NativeType
 >
-ThisTypeArray
+ThisTypedArrayObject
 ;
 static
 const
@@ -9491,11 +9491,11 @@ vp
 return
 CallNonGenericMethod
 <
-ThisTypeArray
+ThisTypedArrayObject
 :
 :
 IsThisClass
-ThisTypeArray
+ThisTypedArrayObject
 :
 :
 GetterImpl
@@ -9934,11 +9934,11 @@ vp
 return
 CallNonGenericMethod
 <
-ThisTypeArray
+ThisTypedArrayObject
 :
 :
 IsThisClass
-ThisTypeArray
+ThisTypedArrayObject
 :
 :
 fun_subarray_impl
@@ -10304,11 +10304,11 @@ vp
 return
 CallNonGenericMethod
 <
-ThisTypeArray
+ThisTypedArrayObject
 :
 :
 IsThisClass
-ThisTypeArray
+ThisTypedArrayObject
 :
 :
 fun_move_impl
@@ -10650,11 +10650,11 @@ vp
 return
 CallNonGenericMethod
 <
-ThisTypeArray
+ThisTypedArrayObject
 :
 :
 IsThisClass
-ThisTypeArray
+ThisTypedArrayObject
 :
 :
 fun_set_impl
@@ -13263,7 +13263,7 @@ class
 Int8Array
 :
 public
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 int8_t
 >
@@ -13297,7 +13297,7 @@ class
 Uint8Array
 :
 public
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 uint8_t
 >
@@ -13331,7 +13331,7 @@ class
 Int16Array
 :
 public
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 int16_t
 >
@@ -13365,7 +13365,7 @@ class
 Uint16Array
 :
 public
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 uint16_t
 >
@@ -13399,7 +13399,7 @@ class
 Int32Array
 :
 public
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 int32_t
 >
@@ -13433,7 +13433,7 @@ class
 Uint32Array
 :
 public
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 uint32_t
 >
@@ -13467,7 +13467,7 @@ class
 Float32Array
 :
 public
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 float
 >
@@ -13501,7 +13501,7 @@ class
 Float64Array
 :
 public
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 double
 >
@@ -13535,7 +13535,7 @@ class
 Uint8ClampedArray
 :
 public
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 uint8_clamped
 >
@@ -13584,7 +13584,7 @@ args
 )
 {
 typedef
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 T
 >
@@ -13801,7 +13801,7 @@ typename
 NativeType
 >
 void
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 NativeType
 >
@@ -13844,7 +13844,7 @@ template
 <
 >
 void
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 int32_t
 >
@@ -13882,7 +13882,7 @@ template
 <
 >
 void
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 uint32_t
 >
@@ -13920,7 +13920,7 @@ template
 <
 >
 void
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 float
 >
@@ -13966,7 +13966,7 @@ template
 <
 >
 void
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 double
 >
@@ -17958,7 +17958,7 @@ nelements
 {
 \
 return
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 NativeType
 >
@@ -18009,7 +18009,7 @@ other_
 ;
 \
 return
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 NativeType
 >
@@ -18077,7 +18077,7 @@ NULL
 ;
 \
 return
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 NativeType
 >
@@ -18088,8 +18088,8 @@ fromBuffer
 cx
 arrayBuffer
 byteOffset
-length
 \
+length
 proto
 )
 ;
@@ -18155,7 +18155,7 @@ TypedArrayObject
 :
 classes
 [
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 NativeType
 >
@@ -18293,7 +18293,7 @@ TypedArrayObject
 :
 classes
 [
-TypedArrayTemplate
+TypedArrayObjectTemplate
 <
 InternalType
 >
