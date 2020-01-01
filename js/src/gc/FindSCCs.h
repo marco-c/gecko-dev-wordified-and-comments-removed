@@ -154,7 +154,7 @@ getResultsList
 ;
 static
 void
-mergeCompartmentGroups
+mergeGroups
 (
 Node
 *

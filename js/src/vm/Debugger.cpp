@@ -8073,9 +8073,9 @@ Debugger
 :
 findCompartmentEdges
 (
-JSCompartment
+Zone
 *
-comp
+zone
 js
 :
 :
@@ -8084,7 +8084,7 @@ gc
 :
 ComponentFinder
 <
-JSCompartment
+Zone
 >
 &
 finder
@@ -8096,7 +8096,7 @@ Debugger
 *
 dbg
 =
-comp
+zone
 -
 >
 rt
@@ -8120,7 +8120,7 @@ getNext
 )
 )
 {
-JSCompartment
+Zone
 *
 w
 =
@@ -8130,7 +8130,7 @@ dbg
 object
 -
 >
-compartment
+zone
 (
 )
 ;
@@ -8139,7 +8139,7 @@ if
 w
 =
 =
-comp
+zone
 |
 |
 !
@@ -8159,9 +8159,9 @@ dbg
 >
 scripts
 .
-hasKeyInCompartment
+hasKeyInZone
 (
-comp
+zone
 )
 |
 |
@@ -8170,9 +8170,9 @@ dbg
 >
 objects
 .
-hasKeyInCompartment
+hasKeyInZone
 (
-comp
+zone
 )
 |
 |
@@ -8181,9 +8181,9 @@ dbg
 >
 environments
 .
-hasKeyInCompartment
+hasKeyInZone
 (
-comp
+zone
 )
 )
 {

@@ -542,7 +542,7 @@ Node
 >
 :
 :
-mergeCompartmentGroups
+mergeGroups
 (
 Node
 *
