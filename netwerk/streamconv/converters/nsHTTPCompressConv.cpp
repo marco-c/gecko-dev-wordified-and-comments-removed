@@ -634,6 +634,9 @@ NULL
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+PRUint32
+unused
+;
 iStr
 -
 >
@@ -646,18 +649,8 @@ char
 mInpBuffer
 streamLen
 &
-rv
+unused
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 if
 (
@@ -1541,9 +1534,6 @@ nsresult
 rs
 )
 {
-nsresult
-rv
-;
 enum
 {
 GZIP_INIT
@@ -1586,6 +1576,9 @@ hMode
 case
 GZIP_INIT
 :
+PRUint32
+unused
+;
 iStr
 -
 >
@@ -1595,7 +1588,7 @@ Read
 c
 1
 &
-rv
+unused
 )
 ;
 streamLen
@@ -1758,7 +1751,7 @@ Read
 c
 1
 &
-rv
+unused
 )
 ;
 streamLen
@@ -1801,7 +1794,7 @@ Read
 c
 1
 &
-rv
+unused
 )
 ;
 streamLen
@@ -1841,7 +1834,7 @@ Read
 c
 1
 &
-rv
+unused
 )
 ;
 streamLen
@@ -1897,7 +1890,7 @@ Read
 c
 1
 &
-rv
+unused
 )
 ;
 streamLen
@@ -1930,7 +1923,7 @@ Read
 c
 1
 &
-rv
+unused
 )
 ;
 streamLen
@@ -1975,7 +1968,7 @@ Read
 c
 1
 &
-rv
+unused
 )
 ;
 streamLen
@@ -2032,7 +2025,7 @@ Read
 c
 1
 &
-rv
+unused
 )
 ;
 streamLen
