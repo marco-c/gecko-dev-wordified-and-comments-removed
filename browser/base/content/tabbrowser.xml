@@ -4161,13 +4161,9 @@ menuItems
 i
 ]
 .
-setAttribute
-(
-"
 disabled
-"
+=
 disabled
-)
 ;
 ]
 ]
