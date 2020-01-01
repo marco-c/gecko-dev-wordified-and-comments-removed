@@ -579,8 +579,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -710,8 +709,7 @@ this
 method
 must
 have
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -1006,8 +1004,7 @@ this
 method
 must
 have
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -1393,8 +1390,7 @@ this
 method
 must
 have
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -1475,7 +1471,7 @@ only
 be
 accessed
 with
-UniversalXPConnect
+chrome
 privileges
 .
 *
@@ -1753,8 +1749,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -1988,8 +1983,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -2394,8 +2388,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -2711,8 +2704,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -2938,8 +2930,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -3024,8 +3015,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -3094,8 +3084,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -3330,8 +3319,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -3377,8 +3365,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -3457,8 +3444,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -3528,10 +3514,10 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 in
+*
 non
 -
 debug
@@ -3653,10 +3639,10 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 in
+*
 non
 -
 debug
@@ -3814,7 +3800,7 @@ if
 called
 *
 without
-UniversalXPConnect
+chrome
 privileges
 .
 *
@@ -4199,7 +4185,7 @@ different
 This
 method
 requires
-UniversalXPConnect
+chrome
 privileges
 .
 *
@@ -4272,10 +4258,10 @@ NS_ERROR_DOM_SECURITY_ERR
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 and
+*
 NS_ERROR_FAILURE
 if
 window
@@ -4344,8 +4330,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -4894,7 +4879,7 @@ if
 called
 *
 without
-UniversalXPConnect
+chrome
 privileges
 .
 *
@@ -5007,8 +4992,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -5117,8 +5101,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -5233,8 +5216,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -8105,8 +8087,7 @@ error
 if
 called
 without
-UniversalXPConnect
-*
+chrome
 privileges
 .
 *
@@ -8163,7 +8144,7 @@ this
 method
 must
 have
-UniversalXPConnect
+chrome
 privileges
 .
 *
