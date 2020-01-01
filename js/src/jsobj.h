@@ -2870,6 +2870,13 @@ const
 ;
 inline
 bool
+isXMLId
+(
+)
+const
+;
+inline
+bool
 isNamespace
 (
 )
