@@ -1549,6 +1549,10 @@ test_sync_xhr_timer
 .
 xhtml
 \
+test_bug498240
+.
+html
+\
 file_htmlserializer_ipv6
 .
 html
