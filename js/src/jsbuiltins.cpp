@@ -973,7 +973,9 @@ SPROP_INVALID_SLOT
 sprop
 -
 >
-attrs
+attributes
+(
+)
 sprop
 -
 >
