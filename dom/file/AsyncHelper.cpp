@@ -64,6 +64,7 @@ getter_AddRefs
 mObserver
 )
 aObserver
+aCtxt
 )
 ;
 NS_ENSURE_SUCCESS
@@ -73,10 +74,6 @@ rv
 )
 ;
 }
-mCtxt
-=
-aCtxt
-;
 FileService
 *
 service
@@ -158,7 +155,7 @@ mObserver
 OnStartRequest
 (
 this
-mCtxt
+nullptr
 )
 ;
 }
@@ -180,7 +177,7 @@ mObserver
 OnStopRequest
 (
 this
-mCtxt
+nullptr
 mStatus
 )
 ;

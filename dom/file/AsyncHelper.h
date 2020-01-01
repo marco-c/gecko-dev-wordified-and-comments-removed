@@ -104,12 +104,6 @@ nsIRequestObserver
 >
 mObserver
 ;
-nsCOMPtr
-<
-nsISupports
->
-mCtxt
-;
 nsresult
 mStatus
 ;

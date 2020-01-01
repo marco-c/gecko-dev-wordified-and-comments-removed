@@ -282,15 +282,7 @@ observer
 =
 mObserver
 ;
-ctx
-=
-mObserverContext
-;
 mObserver
-=
-nullptr
-;
-mObserverContext
 =
 nullptr
 ;
@@ -824,6 +816,7 @@ getter_AddRefs
 mObserver
 )
 observer
+ctx
 )
 ;
 if
@@ -841,10 +834,6 @@ mIsPending
 =
 true
 ;
-mObserverContext
-=
-ctx
-;
 if
 (
 mObserver
@@ -858,7 +847,7 @@ mObserver
 OnStartRequest
 (
 this
-mObserverContext
+nullptr
 )
 ;
 if
