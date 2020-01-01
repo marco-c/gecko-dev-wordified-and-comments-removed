@@ -685,6 +685,10 @@ test_font_face_parser
 .
 html
 \
+test_hover
+.
+html
+\
 test_inherit_computation
 .
 html

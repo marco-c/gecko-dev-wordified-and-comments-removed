@@ -382,6 +382,16 @@ WillDestroyFrameTree
 (
 )
 ;
+PRUint32
+GetHoverGeneration
+(
+)
+const
+{
+return
+mHoverGeneration
+;
+}
 nsresult
 ProcessRestyledFrames
 (
@@ -3020,6 +3030,9 @@ PRPackedBool
 mHasRootAbsPosContainingBlock
 :
 1
+;
+PRUint32
+mHoverGeneration
 ;
 nsRevocableEventPtr
 <
