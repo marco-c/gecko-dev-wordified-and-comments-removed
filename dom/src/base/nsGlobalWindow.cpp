@@ -30631,13 +30631,6 @@ PR_REMOVE_LINK
 timeout
 )
 ;
-timeout
--
->
-Release
-(
-)
-;
 if
 (
 isInterval
@@ -30649,6 +30642,13 @@ timeout
 )
 ;
 }
+timeout
+-
+>
+Release
+(
+)
+;
 }
 PR_REMOVE_LINK
 (
