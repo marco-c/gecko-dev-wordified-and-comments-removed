@@ -861,6 +861,10 @@ test_bug495300
 .
 html
 \
+test_bug686942
+.
+html
+\
 test_can_play_type
 .
 html
