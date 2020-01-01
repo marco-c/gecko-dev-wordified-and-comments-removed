@@ -30,17 +30,3 @@ MOZ_MAKE_FLAGS
 =
 -
 j1
-.
-topsrcdir
-/
-browser
-/
-config
-/
-mozconfigs
-/
-win32
-/
-vs2010
--
-mozconfig

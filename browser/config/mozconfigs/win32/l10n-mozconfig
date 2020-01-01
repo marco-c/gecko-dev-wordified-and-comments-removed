@@ -44,17 +44,3 @@ base
 l10n
 -
 central
-.
-topsrcdir
-/
-browser
-/
-config
-/
-mozconfigs
-/
-win32
-/
-vs2010
--
-mozconfig
