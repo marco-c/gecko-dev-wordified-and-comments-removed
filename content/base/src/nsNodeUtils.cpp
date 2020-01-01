@@ -1198,9 +1198,10 @@ manager
 nsContentUtils
 :
 :
-GetExistingListenerManagerForNode
+GetListenerManager
 (
 aNode
+false
 )
 ;
 if
@@ -2528,8 +2529,9 @@ elm
 aNode
 -
 >
-GetExistingListenerManager
+GetListenerManager
 (
+false
 )
 ;
 if

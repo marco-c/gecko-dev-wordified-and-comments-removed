@@ -751,8 +751,9 @@ elm
 aEventTarget
 -
 >
-GetExistingListenerManager
+GetListenerManager
 (
+false
 )
 ;
 if
@@ -1057,8 +1058,9 @@ elm
 aEventTarget
 -
 >
-GetExistingListenerManager
+GetListenerManager
 (
+false
 )
 ;
 *
@@ -1124,8 +1126,9 @@ manager
 aTarget
 -
 >
-ListenerManager
+GetListenerManager
 (
+true
 )
 ;
 NS_ENSURE_STATE
@@ -1205,8 +1208,9 @@ manager
 aTarget
 -
 >
-GetExistingListenerManager
+GetListenerManager
 (
+false
 )
 ;
 if
@@ -1277,8 +1281,9 @@ manager
 aTarget
 -
 >
-ListenerManager
+GetListenerManager
 (
+true
 )
 ;
 NS_ENSURE_STATE
@@ -1334,8 +1339,9 @@ manager
 aTarget
 -
 >
-GetExistingListenerManager
+GetListenerManager
 (
+false
 )
 ;
 if

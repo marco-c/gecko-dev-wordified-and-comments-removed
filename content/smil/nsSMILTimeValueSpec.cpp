@@ -1554,8 +1554,9 @@ return
 target
 -
 >
-ListenerManager
+GetListenerManager
 (
+true
 )
 ;
 }

@@ -834,8 +834,9 @@ elm
 et
 -
 >
-GetExistingListenerManager
+GetListenerManager
 (
+false
 )
 ;
 if
@@ -1067,8 +1068,9 @@ elm
 doc
 -
 >
-GetExistingListenerManager
+GetListenerManager
 (
+false
 )
 ;
 if
@@ -1110,8 +1112,9 @@ elm
 win
 -
 >
-GetExistingListenerManager
+GetListenerManager
 (
+false
 )
 ;
 if
