@@ -281,15 +281,10 @@ testAudio
 '
 )
 ;
-navigator
-.
-mozGetUserMedia
+getUserMedia
 (
 {
 audio
-:
-true
-fake
 :
 true
 }
@@ -302,7 +297,7 @@ var
 playback
 =
 new
-MediaStreamPlayback
+LocalMediaStreamPlayback
 (
 testAudio
 aStream
@@ -312,7 +307,7 @@ playback
 .
 playMedia
 (
-10000
+false
 function
 (
 )
