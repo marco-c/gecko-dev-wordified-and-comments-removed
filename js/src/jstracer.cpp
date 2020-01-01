@@ -52653,7 +52653,7 @@ SPROP_HAS_VALID_SLOT
 sprop
 OBJ_SCOPE
 (
-obj
+obj2
 )
 )
 )
