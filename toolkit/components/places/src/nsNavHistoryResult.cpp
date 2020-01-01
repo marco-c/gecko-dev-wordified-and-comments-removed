@@ -13244,7 +13244,7 @@ mHistoryObservers
 NoIndex
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 Attempting
