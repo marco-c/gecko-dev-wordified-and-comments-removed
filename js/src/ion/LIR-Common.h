@@ -17071,7 +17071,7 @@ getOperand
 )
 ;
 }
-MRest
+MRestPar
 *
 mir
 (
@@ -17082,7 +17082,7 @@ return
 mir_
 -
 >
-toRest
+toRestPar
 (
 )
 ;

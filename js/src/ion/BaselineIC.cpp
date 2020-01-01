@@ -44651,6 +44651,15 @@ obj
 return
 false
 ;
+types
+:
+:
+FixRestArgumentsType
+(
+cx
+obj
+)
+;
 res
 .
 setObject
