@@ -6256,10 +6256,11 @@ getBrowser
 .
 contentDocument
 .
-getElementsByTagName
+querySelectorAll
 (
 "
 iframe
+frame
 "
 )
 ;
