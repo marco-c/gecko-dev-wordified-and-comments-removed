@@ -4346,6 +4346,13 @@ other
 mDecoder
 )
 ;
+mMimeType
+=
+other
+-
+>
+mMimeType
+;
 if
 (
 NS_SUCCEEDED
