@@ -357,8 +357,6 @@ const
 cc_media_constraints_t
 *
 constraints
-cc_string_t
-offersdp
 )
 {
 return
@@ -366,7 +364,6 @@ CC_CallFeature_CreateAnswer
 (
 handle
 constraints
-offersdp
 )
 ;
 }

@@ -426,13 +426,6 @@ const
 cc_media_constraints_t
 *
 constraints
-const
-std
-:
-:
-string
-&
-offersdp
 )
 =
 0

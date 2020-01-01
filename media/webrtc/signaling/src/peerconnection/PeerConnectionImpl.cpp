@@ -3556,11 +3556,6 @@ MOZ_ASSERT
 constraints
 )
 ;
-MOZ_ASSERT
-(
-aOffer
-)
-;
 CheckIceState
 (
 )
@@ -3575,7 +3570,6 @@ aconstraints
 CreateAnswer
 (
 aconstraints
-aOffer
 )
 ;
 return
@@ -3591,10 +3585,6 @@ CreateAnswer
 MediaConstraints
 &
 constraints
-const
-char
-*
-offer
 )
 {
 cc_media_constraints_t
@@ -3617,7 +3607,6 @@ mCall
 createAnswer
 (
 cc_constraints
-offer
 )
 ;
 return
