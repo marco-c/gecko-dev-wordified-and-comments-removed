@@ -582,6 +582,9 @@ endif
 ifdef
 XP_WIN
 #
+ifndef
+WINCE
+#
 include
 <
 process
@@ -595,6 +598,8 @@ shlobj
 .
 h
 >
+#
+endif
 #
 include
 "
@@ -11183,12 +11188,17 @@ expr
 }
 #
 endif
+#
+ifndef
+WINCE
 setbuf
 (
 stdout
 0
 )
 ;
+#
+endif
 #
 if
 defined

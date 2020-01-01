@@ -4470,6 +4470,18 @@ MAXPATHLEN
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
+#
+ifdef
+WINCE
+longPath
+.
+Assign
+(
+appPath
+)
+;
+#
+else
 DWORD
 len
 =
@@ -4512,6 +4524,8 @@ SetLength
 len
 )
 ;
+#
+endif
 nsAutoString
 programFiles
 ;
