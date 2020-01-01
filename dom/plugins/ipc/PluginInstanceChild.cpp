@@ -12672,7 +12672,9 @@ deviceOffset
 -
 targetRect
 .
-pos
+TopLeft
+(
+)
 ;
 whiteImage
 =
@@ -12751,7 +12753,9 @@ gfxPoint
 )
 targetRect
 .
-size
+Size
+(
+)
 )
 ;
 nsRefPtr

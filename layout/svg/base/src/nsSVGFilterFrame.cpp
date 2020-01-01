@@ -550,7 +550,9 @@ ConvertToSurfaceSize
 (
 filterRegion
 .
-size
+Size
+(
+)
 *
 scale
 &

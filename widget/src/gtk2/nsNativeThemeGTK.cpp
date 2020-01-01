@@ -3251,7 +3251,9 @@ MoveBy
 -
 rect
 .
-pos
+TopLeft
+(
+)
 )
 ;
 dirtyRect
@@ -3466,7 +3468,9 @@ Translate
 (
 rect
 .
-pos
+TopLeft
+(
+)
 +
 gfxPoint
 (

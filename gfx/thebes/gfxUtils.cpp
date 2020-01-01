@@ -1353,7 +1353,9 @@ needed
 -
 needed
 .
-pos
+TopLeft
+(
+)
 PR_TRUE
 gfxPattern
 :
@@ -1367,7 +1369,9 @@ Translate
 (
 needed
 .
-pos
+TopLeft
+(
+)
 )
 )
 ;
@@ -1411,7 +1415,9 @@ Translate
 -
 needed
 .
-pos
+TopLeft
+(
+)
 )
 )
 ;

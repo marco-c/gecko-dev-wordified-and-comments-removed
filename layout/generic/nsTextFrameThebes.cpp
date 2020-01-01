@@ -24374,7 +24374,9 @@ DeviceToUser
 (
 putativeRect
 .
-pos
+TopLeft
+(
+)
 )
 .
 y

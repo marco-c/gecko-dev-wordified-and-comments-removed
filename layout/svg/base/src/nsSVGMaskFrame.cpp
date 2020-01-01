@@ -400,7 +400,9 @@ SetDeviceOffset
 -
 clipExtents
 .
-pos
+TopLeft
+(
+)
 )
 ;
 nsSVGRenderState

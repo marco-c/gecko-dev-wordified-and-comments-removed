@@ -335,7 +335,9 @@ gfxQuartzSurface
 (
 mNativeRect
 .
-size
+Size
+(
+)
 gfxASurface
 :
 :
@@ -466,7 +468,9 @@ DrawSurface
 mQuartzSurface
 mNativeRect
 .
-size
+Size
+(
+)
 )
 ;
 }
