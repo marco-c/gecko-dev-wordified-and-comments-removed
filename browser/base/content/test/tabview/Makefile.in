@@ -472,10 +472,6 @@ browser_tabview_undo_group
 .
 js
 \
-browser_tabview_undo_window
-.
-js
-\
 browser_tabview_exit_button
 .
 js

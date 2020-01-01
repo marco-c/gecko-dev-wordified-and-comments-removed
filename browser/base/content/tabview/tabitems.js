@@ -4689,12 +4689,14 @@ item
 ;
 if
 (
-!
 item
 .
 tab
+=
+=
+gBrowser
 .
-hidden
+selectedTab
 )
 GroupItems
 .
