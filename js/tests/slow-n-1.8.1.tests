@@ -111,6 +111,15 @@ extensions
 /
 regress
 -
+335700
+.
+js
+js1_5
+/
+extensions
+/
+regress
+-
 342960
 .
 js

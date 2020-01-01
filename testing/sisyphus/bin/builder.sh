@@ -584,6 +584,7 @@ one
 or
 more
 of
+js
 firefox
 thunderbird
 fennec
@@ -616,6 +617,11 @@ of
 9
 .
 1
+1
+.
+9
+.
+2
 -
 B
 buildcommands
@@ -869,6 +875,9 @@ in
 branches
 ;
 do
+checkProductBranch
+product
+branch
 for
 buildtype
 in
@@ -1025,6 +1034,9 @@ in
 branches
 ;
 do
+checkProductBranch
+product
+branch
 for
 buildtype
 in
@@ -1177,6 +1189,9 @@ in
 branches
 ;
 do
+checkProductBranch
+product
+branch
 TEST_DATE
 =
 date
@@ -1323,6 +1338,9 @@ in
 buildtypes
 ;
 do
+checkProductBranch
+product
+branch
 TEST_DATE
 =
 date

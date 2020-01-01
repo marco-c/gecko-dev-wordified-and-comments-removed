@@ -32,7 +32,7 @@ fennec
 -
 1
 .
-0a1
+0a2
 .
 en
 -
@@ -113,6 +113,12 @@ mozilla
 .
 org
 /
+releases
+/
 mozilla
 -
-central
+1
+.
+9
+.
+1

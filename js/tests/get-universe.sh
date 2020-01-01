@@ -618,6 +618,12 @@ TEST_TIMEZONE
 ^
 ]
 *
+TEST_OPTIONS
+=
+[
+^
+]
+*
 \
 )
 .
