@@ -3060,9 +3060,7 @@ if
 !
 evt
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 this
 .
@@ -3322,9 +3320,7 @@ if
 !
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 this
 .

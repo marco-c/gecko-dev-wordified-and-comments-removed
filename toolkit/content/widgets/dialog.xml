@@ -3013,9 +3013,7 @@ if
 (
 evt
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 ;
@@ -3145,9 +3143,7 @@ if
 !
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 this
 .

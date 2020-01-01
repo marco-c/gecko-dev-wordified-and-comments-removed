@@ -16144,9 +16144,7 @@ metaKey
 !
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 {
 let

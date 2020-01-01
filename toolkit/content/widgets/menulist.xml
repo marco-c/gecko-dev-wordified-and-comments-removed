@@ -495,9 +495,7 @@ if
 !
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 &
 &
 (

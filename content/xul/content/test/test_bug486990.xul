@@ -562,9 +562,7 @@ prevented
 =
 evt
 .
-getPreventDefault
-(
-)
+defaultPrevented
 ;
 +
 +

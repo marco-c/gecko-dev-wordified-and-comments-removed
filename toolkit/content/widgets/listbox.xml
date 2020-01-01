@@ -3335,9 +3335,7 @@ if
 !
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 {
 this

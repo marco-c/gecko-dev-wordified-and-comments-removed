@@ -2148,9 +2148,7 @@ disabled
 |
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 ;

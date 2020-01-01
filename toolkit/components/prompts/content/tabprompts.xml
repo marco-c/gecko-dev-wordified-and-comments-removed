@@ -2195,9 +2195,7 @@ if
 (
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 ;

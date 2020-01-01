@@ -250,9 +250,7 @@ mouseScrolled
 =
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 ;
 "
 >

@@ -2055,9 +2055,7 @@ preventDefault
 :
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 }
 ;
 sendAsyncMessage
@@ -5246,9 +5244,7 @@ if
 (
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 ;

@@ -627,9 +627,7 @@ if
 (
 touchEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 &
 &
 canPreventMouseEvents
@@ -839,9 +837,7 @@ if
 !
 evt
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 ;

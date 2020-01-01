@@ -923,9 +923,7 @@ if
 (
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 {
 break

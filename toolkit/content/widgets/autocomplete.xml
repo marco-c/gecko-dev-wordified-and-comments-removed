@@ -3972,9 +3972,7 @@ if
 (
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 false

@@ -9417,9 +9417,7 @@ metaKey
 |
 aEvent
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 false

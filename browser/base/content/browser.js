@@ -30486,9 +30486,7 @@ isTrusted
 |
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 |
 |
 event

@@ -8237,9 +8237,7 @@ if
 (
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 |
 |
 !
@@ -8613,9 +8611,7 @@ droppedLinkHandler
 |
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 ;
@@ -8809,9 +8805,7 @@ droppedLinkHandler
 |
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 )
 return
 ;

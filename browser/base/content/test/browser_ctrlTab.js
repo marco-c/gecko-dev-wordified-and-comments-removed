@@ -467,9 +467,7 @@ eventConsumed
 =
 event
 .
-getPreventDefault
-(
-)
+defaultPrevented
 ;
 }
 ;
