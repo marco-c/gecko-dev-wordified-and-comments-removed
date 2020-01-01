@@ -4444,6 +4444,10 @@ if
 aOverwrite
 &
 &
+!
+mAutoIncrement
+&
+&
 key
 .
 IsUnset
@@ -7753,7 +7757,7 @@ autoIncrement
 &
 &
 !
-mOverwrite
+mayOverwrite
 )
 {
 #
