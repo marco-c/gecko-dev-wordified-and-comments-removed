@@ -1885,7 +1885,6 @@ nativeEmpty
 )
 const
 ;
-const
 js
 :
 :
@@ -1928,7 +1927,6 @@ Shape
 shape
 )
 ;
-const
 js
 :
 :
@@ -4274,7 +4272,6 @@ Shape
 child
 )
 ;
-const
 js
 :
 :
@@ -4359,7 +4356,6 @@ reserved
 ;
 public
 :
-const
 js
 :
 :
@@ -4390,7 +4386,6 @@ allowDictionary
 true
 )
 ;
-const
 js
 :
 :
@@ -4437,7 +4432,6 @@ attrs
 )
 ;
 }
-const
 js
 :
 :
@@ -4464,7 +4458,6 @@ intN
 shortid
 )
 ;
-const
 js
 :
 :
@@ -4475,7 +4468,6 @@ changeProperty
 JSContext
 *
 cx
-const
 js
 :
 :
@@ -6987,7 +6979,6 @@ id
 )
 ;
 extern
-const
 js
 :
 :
@@ -7018,7 +7009,6 @@ shortid
 )
 ;
 extern
-const
 js
 :
 :
@@ -7032,7 +7022,6 @@ cx
 JSObject
 *
 obj
-const
 js
 :
 :

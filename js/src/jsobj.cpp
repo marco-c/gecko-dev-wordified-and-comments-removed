@@ -14131,12 +14131,18 @@ Shape
 *
 shape
 =
-GetInitialShapeForObject
+EmptyShape
+:
+:
+lookupInitialShape
 (
 cx
 clasp
-parent
 type
+-
+>
+proto
+parent
 kind
 )
 ;
@@ -17610,7 +17616,7 @@ Shape
 *
 emptyWithShape
 =
-BaseShape
+EmptyShape
 :
 :
 lookupInitialShape
@@ -17618,6 +17624,7 @@ lookupInitialShape
 cx
 &
 WithClass
+proto
 parent
 -
 >
@@ -17776,7 +17783,7 @@ Shape
 *
 emptyBlockShape
 =
-BaseShape
+EmptyShape
 :
 :
 lookupInitialShape
@@ -17784,6 +17791,7 @@ lookupInitialShape
 cx
 &
 BlockClass
+NULL
 NULL
 FINALIZE_OBJECT4
 )
@@ -19750,7 +19758,7 @@ reserved
 .
 newbshape
 =
-BaseShape
+EmptyShape
 :
 :
 lookupInitialShape
@@ -19760,6 +19768,12 @@ a
 -
 >
 getClass
+(
+)
+a
+-
+>
+getProto
 (
 )
 a
@@ -19818,7 +19832,7 @@ reserved
 .
 newashape
 =
-BaseShape
+EmptyShape
 :
 :
 lookupInitialShape
@@ -19828,6 +19842,12 @@ b
 -
 >
 getClass
+(
+)
+b
+-
+>
+getProto
 (
 )
 b
@@ -26186,7 +26206,6 @@ return
 true
 ;
 }
-const
 Shape
 *
 js_AddNativeProperty
@@ -26263,7 +26282,6 @@ shortid
 )
 ;
 }
-const
 Shape
 *
 js_ChangeNativePropertyAttrs
@@ -26274,7 +26292,6 @@ cx
 JSObject
 *
 obj
-const
 Shape
 *
 shape
@@ -26629,7 +26646,6 @@ js_CheckForStringIndex
 id
 )
 ;
-const
 Shape
 *
 shape
@@ -26709,7 +26725,6 @@ obj
 shape
 =
 (
-const
 Shape
 *
 )

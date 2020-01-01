@@ -16105,7 +16105,6 @@ str_fromCharCode_trcinfo
 JS_FS_END
 }
 ;
-const
 Shape
 *
 StringObject

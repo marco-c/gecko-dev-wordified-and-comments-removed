@@ -198,10 +198,6 @@ JSObject
 global
 )
 ;
-const
-js
-:
-:
 Shape
 *
 assignInitialShape

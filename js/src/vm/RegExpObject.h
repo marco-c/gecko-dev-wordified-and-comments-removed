@@ -680,7 +680,6 @@ RegExpPrivate
 >
 )
 ;
-const
 Shape
 *
 assignInitialShape

@@ -2283,6 +2283,11 @@ sweepBaseShapeTable
 cx
 )
 ;
+sweepInitialShapeTable
+(
+cx
+)
+;
 sweepNewTypeObjectTable
 (
 cx

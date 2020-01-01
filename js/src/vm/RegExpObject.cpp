@@ -1001,7 +1001,6 @@ output
 )
 ;
 }
-const
 Shape
 *
 RegExpObject
