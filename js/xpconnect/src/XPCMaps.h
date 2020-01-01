@@ -323,9 +323,6 @@ dying
 void
 ShutdownMarker
 (
-JSRuntime
-*
-rt
 )
 ;
 size_t

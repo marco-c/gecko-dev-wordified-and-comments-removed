@@ -258,6 +258,11 @@ CycleCollectedJSRuntime
 (
 )
 ;
+void
+DestroyRuntime
+(
+)
+;
 size_t
 SizeOfExcludingThis
 (

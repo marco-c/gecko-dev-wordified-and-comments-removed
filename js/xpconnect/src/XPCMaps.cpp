@@ -488,9 +488,6 @@ JSObject2WrappedJSMap
 :
 ShutdownMarker
 (
-JSRuntime
-*
-rt
 )
 {
 for
@@ -569,7 +566,6 @@ wrapper
 >
 SystemIsBeingShutDown
 (
-rt
 )
 ;
 }

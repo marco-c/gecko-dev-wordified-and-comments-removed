@@ -10580,9 +10580,6 @@ nullptr
 void
 SystemIsBeingShutDown
 (
-JSRuntime
-*
-rt
 )
 ;
 bool
