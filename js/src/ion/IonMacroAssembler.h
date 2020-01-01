@@ -422,7 +422,7 @@ size
 ;
 }
 void
-propagateOOM
+reportMemory
 (
 bool
 success
