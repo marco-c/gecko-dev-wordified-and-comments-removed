@@ -36,6 +36,13 @@ h
 #
 include
 "
+imgIDecoder
+.
+h
+"
+#
+include
+"
 imgIEncoder
 .
 h

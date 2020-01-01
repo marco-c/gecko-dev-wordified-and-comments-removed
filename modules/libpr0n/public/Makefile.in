@@ -440,6 +440,10 @@ imgIContainerObserver
 .
 idl
 \
+imgIDecoder
+.
+idl
+\
 imgIDecoderObserver
 .
 idl

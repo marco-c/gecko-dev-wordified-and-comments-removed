@@ -491,6 +491,16 @@ support
 for
 reading
 PNGs
+ifneq
+(
+(
+filter
+png
+(
+MOZ_IMG_DECODERS
+)
+)
+)
 CSRCS
 +
 =
@@ -523,6 +533,7 @@ DEFINES
 =
 -
 DMOZ_PNG_READ
+endif
 #
 These
 files
