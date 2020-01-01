@@ -4824,10 +4824,8 @@ JSDOUBLE_IS_NaN
 d
 )
 )
-{
 break
 ;
-}
 *
 vp
 =
@@ -4864,8 +4862,6 @@ return
 0
 ;
 }
-else
-{
 *
 vp
 =
@@ -4876,7 +4872,6 @@ return
 .
 0
 ;
-}
 }
 if
 (
