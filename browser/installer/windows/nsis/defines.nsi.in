@@ -71,7 +71,7 @@ Firefox
 "
 !
 define
-MinUnsupportedVer
+MinSupportedVer
 "
 Microsoft
 Windows

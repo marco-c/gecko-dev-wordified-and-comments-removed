@@ -5836,7 +5836,7 @@ InstallOnInitCommon
 }
 "
 (
-WARN_UNSUPPORTED_MSG
+WARN_MIN_SUPPORTED_OS_MSG
 )
 "
 !
