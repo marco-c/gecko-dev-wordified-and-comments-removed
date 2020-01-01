@@ -271,6 +271,16 @@ aAction
 =
 0
 ;
+virtual
+nsSize
+GetSafeWindowSize
+(
+nsSize
+aSize
+)
+=
+0
+;
 NS_IMETHOD
 Show
 (

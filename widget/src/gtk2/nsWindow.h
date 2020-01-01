@@ -948,6 +948,14 @@ PRBool
 aAction
 )
 ;
+virtual
+nsSize
+GetSafeWindowSize
+(
+nsSize
+aSize
+)
+;
 void
 EnsureGrabs
 (
