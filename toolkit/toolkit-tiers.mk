@@ -642,7 +642,7 @@ tier_gecko_dirs
 storage
 endif
 ifdef
-MOZ_XUL
+MOZ_RDF
 tier_gecko_dirs
 +
 =
