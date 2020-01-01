@@ -112,6 +112,11 @@ xpcAccessibleTable
 this
 )
 {
+mFlags
+|
+=
+eTableAccessible
+;
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
@@ -1121,6 +1126,11 @@ aTreeView
 aRow
 )
 {
+mFlags
+|
+=
+eTableRowAccessible
+;
 mAccessibleCache
 .
 Init
