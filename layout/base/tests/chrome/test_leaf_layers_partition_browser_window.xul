@@ -516,15 +516,6 @@ interfaces
 .
 nsIDOMWindowUtils
 )
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIDOMWindowUtils_MOZILLA_2_0_BRANCH
-)
 ;
 ok
 (

@@ -32365,17 +32365,6 @@ NS_GET_IID
 nsIDOMWindowUtils
 )
 )
-|
-|
-aIID
-.
-Equals
-(
-NS_GET_IID
-(
-nsIDOMWindowUtils_MOZILLA_2_0_BRANCH
-)
-)
 )
 {
 FORWARD_TO_OUTER

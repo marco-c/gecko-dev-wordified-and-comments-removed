@@ -1992,7 +1992,7 @@ getInterface
 (
 Ci
 .
-nsIDOMWindowUtils_MOZILLA_2_0_BRANCH
+nsIDOMWindowUtils
 )
 ;
 let
