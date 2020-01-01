@@ -158,7 +158,7 @@ pointers
 /
 if
 (
-malloc_init
+malloc_init_hard
 (
 )
 )
@@ -172,7 +172,7 @@ heap
 101a
 extern
 BOOL
-malloc_init
+malloc_init_hard
 (
 void
 )
@@ -316,7 +316,7 @@ pointers
 /
 if
 (
-malloc_init
+malloc_init_hard
 (
 )
 )
@@ -330,7 +330,7 @@ heap
 43a
 extern
 BOOL
-malloc_init
+malloc_init_hard
 (
 void
 )
