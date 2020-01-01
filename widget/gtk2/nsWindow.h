@@ -596,13 +596,6 @@ const
 nsIntRect
 &
 aRect
-bool
-aIsSynchronous
-)
-;
-NS_IMETHOD
-Update
-(
 )
 ;
 virtual

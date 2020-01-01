@@ -2539,7 +2539,6 @@ invalidRect
 >
 top
 )
-false
 )
 ;
 return
