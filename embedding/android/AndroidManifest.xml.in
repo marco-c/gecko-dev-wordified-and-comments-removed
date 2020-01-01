@@ -46,11 +46,7 @@ android
 package
 =
 "
-org
-.
-mozilla
-.
-MOZ_APP_NAME
+ANDROID_PACKAGE_NAME
 "
 android
 :
@@ -805,7 +801,6 @@ mozilla
 gecko
 .
 restart
-MOZ_APP_NAME
 "
 android
 :
