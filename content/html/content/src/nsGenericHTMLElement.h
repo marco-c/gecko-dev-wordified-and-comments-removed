@@ -2149,6 +2149,17 @@ void
 aData
 )
 ;
+virtual
+PRBool
+IsElementDisabledForEvents
+(
+PRUint32
+aMessage
+nsIFrame
+*
+aFrame
+)
+;
 enum
 FocusTristate
 {
