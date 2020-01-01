@@ -439,7 +439,15 @@ test_unique_index_update
 .
 html
 \
-test_webapp_clearBrowserData
+test_webapp_clearBrowserData_inproc_oop
+.
+html
+\
+test_webapp_clearBrowserData_oop_inproc
+.
+html
+\
+test_webapp_clearBrowserData_inproc_inproc
 .
 html
 \
@@ -458,6 +466,10 @@ html
 test_app_isolation_oop
 .
 html
+\
+webapp_clearBrowserData
+.
+js
 \
 webapp_clearBrowserData_appFrame
 .
