@@ -3743,6 +3743,16 @@ getContentEditableText
 element
 )
 {
+if
+(
+!
+element
+)
+{
+return
+null
+;
+}
 let
 doc
 =
