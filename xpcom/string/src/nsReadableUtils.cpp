@@ -4634,16 +4634,7 @@ NextChar
 &
 u16
 u16end
-&
-err
 )
-;
-if
-(
-err
-)
-return
-PR_INT32_MIN
 ;
 if
 (
