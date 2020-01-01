@@ -16084,6 +16084,16 @@ Sanity
 check
 for
 WINCE_WINDOWS_MOBILE
+#
+XXX
+disabled
+until
+we
+can
+fix
+the
+mobile
+tinderbox
 if
 test
 "
@@ -16091,6 +16101,8 @@ WINCE_WINDOWS_MOBILE
 "
 ;
 then
+#
+#
 AC_CHECK_HEADER
 (
 tpcshell
@@ -16098,6 +16110,8 @@ tpcshell
 h
 [
 ]
+#
+#
 AC_MSG_ERROR
 (
 [
@@ -16124,7 +16138,7 @@ need
 -
 disable
 -
-windos
+windows
 -
 mobile
 -
