@@ -441,6 +441,15 @@ AsyncCall
 (
 nsAsyncCallback
 funcPtr
+nsRunnableMethod
+<
+nsHttpChannel
+>
+*
+*
+retval
+=
+nsnull
 )
 ;
 PRBool
@@ -701,6 +710,11 @@ MaybeInvalidateCacheEntryForSubsequentGet
 ;
 nsCacheStoragePolicy
 DetermineStoragePolicy
+(
+)
+;
+void
+AsyncOnExamineCachedResponse
 (
 )
 ;
