@@ -630,6 +630,10 @@ test_bug539565
 .
 html
 \
+test_enumerate
+.
+html
+\
 (
 NULL
 )
