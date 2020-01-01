@@ -1613,6 +1613,13 @@ url_bar_bg_shadow_repeat
 "
 android
 :
+contentDescription
+=
+"
+null
+"
+android
+:
 visibility
 =
 "
