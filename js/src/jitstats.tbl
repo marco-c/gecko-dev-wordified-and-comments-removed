@@ -437,7 +437,7 @@ synced
 with
 jitstatHandler
 in
-trace
+jit
 -
 test
 .

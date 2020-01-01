@@ -14456,7 +14456,7 @@ trace
 /
 math
 -
-trace
+jit
 -
 tests
 .
@@ -14472,7 +14472,7 @@ js1_8_1
 /
 trace
 /
-trace
+jit
 -
 test
 .
