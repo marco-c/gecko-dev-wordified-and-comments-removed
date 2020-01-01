@@ -123,12 +123,6 @@ defined
 (
 __MWERKS__
 )
-|
-|
-defined
-(
-__GNUC__
-)
 #
 define
 MOZ_IMPORT_API
