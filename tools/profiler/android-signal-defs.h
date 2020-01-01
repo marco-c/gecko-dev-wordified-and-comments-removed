@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_android_signal_defs_h__
+#
+define
+mozilla_android_signal_defs_h__
+#
 include
 <
 android
@@ -100,5 +106,7 @@ uc_sigmask
 }
 ucontext_t
 ;
+#
+endif
 #
 endif
