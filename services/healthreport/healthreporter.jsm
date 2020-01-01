@@ -1542,12 +1542,7 @@ _shutdownInitiated
 =
 true
 ;
-if
-(
-this
-.
-_initialized
-)
+try
 {
 Services
 .
@@ -1563,6 +1558,12 @@ daily
 "
 )
 ;
+}
+catch
+(
+ex
+)
+{
 }
 if
 (
