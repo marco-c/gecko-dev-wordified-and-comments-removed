@@ -287,11 +287,6 @@ mCacheId
 )
 ;
 }
-nsresult
-GetNetworkStatus
-(
-)
-;
 void
 CancelAndAbort
 (
@@ -544,9 +539,6 @@ mProcessing
 ;
 PRPackedBool
 mHadLastPart
-;
-PRUint32
-mNetworkStatus
 ;
 PRUint32
 mImageStatus
