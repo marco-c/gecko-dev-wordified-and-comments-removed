@@ -1228,6 +1228,8 @@ used
 /
 storage
 /
+sqlite
+/
 "
 )
 ;
