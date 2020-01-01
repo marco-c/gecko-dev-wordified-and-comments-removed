@@ -21,7 +21,6 @@ silent
 ]
 get
 length
-getLength
 (
 )
 {

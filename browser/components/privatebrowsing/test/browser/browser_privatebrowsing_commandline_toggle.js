@@ -57,7 +57,6 @@ toggle
 ]
 get
 length
-getLength
 (
 )
 {
