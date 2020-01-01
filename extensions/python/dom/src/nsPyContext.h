@@ -903,12 +903,6 @@ void
 object
 )
 ;
-virtual
-void
-ReportPendingException
-(
-)
-;
 NS_DECL_NSITIMERCALLBACK
 PyObject
 *

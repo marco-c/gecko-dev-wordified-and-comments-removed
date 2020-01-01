@@ -603,12 +603,6 @@ void
 object
 )
 ;
-virtual
-void
-ReportPendingException
-(
-)
-;
 NS_DECL_NSIXPCSCRIPTNOTIFY
 NS_DECL_NSITIMERCALLBACK
 static
@@ -711,6 +705,13 @@ JSObject
 *
 *
 aRet
+)
+;
+void
+ReportPendingException
+(
+PRBool
+aSetAsideFrameChain
 )
 ;
 private
