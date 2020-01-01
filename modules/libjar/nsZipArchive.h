@@ -468,8 +468,11 @@ nsZipHandle
 >
 mFd
 ;
-nsCString
-mURI
+mozilla
+:
+:
+AutoFDClose
+mLog
 ;
 private
 :

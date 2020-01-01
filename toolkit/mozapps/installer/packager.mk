@@ -574,7 +574,7 @@ DEPTH
 jarlog
 /
 )
-JARLOG_FILE_AB_CD
+JARLOG_DIR_AB_CD
 =
 (
 JARLOG_DIR
@@ -583,8 +583,6 @@ JARLOG_DIR
 (
 AB_CD
 )
-.
-log
 TAR_CREATE_FLAGS
 :
 =
@@ -4383,17 +4381,11 @@ if
 (
 JARLOG_DIR
 )
-(
-addprefix
 -
 -
-jarlog
+jarlogs
 (
-wildcard
-(
-JARLOG_FILE_AB_CD
-)
-)
+JARLOG_DIR_AB_CD
 )
 )
 \

@@ -88,7 +88,7 @@ pgoprofile
 "
 )
 )
-MOZ_JAR_LOG_FILE
+MOZ_JAR_LOG_DIR
 =
 os
 .
@@ -101,7 +101,7 @@ os
 getenv
 (
 "
-JARLOG_FILE
+JARLOG_DIR
 "
 )
 )
@@ -261,11 +261,11 @@ warn
 browserEnv
 [
 "
-MOZ_JAR_LOG_FILE
+MOZ_JAR_LOG_DIR
 "
 ]
 =
-MOZ_JAR_LOG_FILE
+MOZ_JAR_LOG_DIR
   
 url
 =
