@@ -35,6 +35,13 @@ stddef
 .
 h
 >
+#
+include
+<
+stdint
+.
+h
+>
 typedef
 unsigned
 int
@@ -114,11 +121,11 @@ GLchar
 ifndef
 __gl2_h_
 typedef
-ptrdiff_t
+intptr_t
 GLsizeiptr
 ;
 typedef
-ptrdiff_t
+intptr_t
 GLintptr
 ;
 #
