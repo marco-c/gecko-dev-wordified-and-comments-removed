@@ -245,7 +245,7 @@ nsHTMLBodyElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -411,7 +411,7 @@ virtual
 nsresult
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -1593,7 +1593,7 @@ nsHTMLBodyElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

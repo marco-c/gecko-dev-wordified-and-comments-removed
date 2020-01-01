@@ -572,7 +572,7 @@ nsThreadUtils
 h
 "
 class
-nsNodeInfo
+nsINodeInfo
 ;
 class
 nsIDOMNodeList
@@ -590,7 +590,7 @@ sGEUS_ElementCounts
 void
 GEUS_ElementCreated
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 )
@@ -750,7 +750,7 @@ nsGenericHTMLElement
 :
 Init
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 )
@@ -3661,9 +3661,9 @@ element
 "
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 info
 =
@@ -11641,7 +11641,7 @@ nsGenericHTMLFormElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

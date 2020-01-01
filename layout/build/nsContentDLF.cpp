@@ -1358,9 +1358,9 @@ NodeInfoManager
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 htmlNodeInfo
 ;

@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsNodeInfo
+nsINodeInfo
 .
 h
 "
@@ -117,7 +117,7 @@ nsDocumentFragment
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -268,7 +268,7 @@ protected
 nsresult
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -297,9 +297,9 @@ NS_ENSURE_ARG
 aNodeInfoManager
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;
@@ -371,7 +371,7 @@ nsDocumentFragment
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

@@ -149,7 +149,7 @@ nsIContent
 aResult
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -158,7 +158,7 @@ nsSVGTextElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -204,7 +204,7 @@ virtual
 nsresult
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -341,7 +341,7 @@ nsSVGTextElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

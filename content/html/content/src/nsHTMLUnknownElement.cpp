@@ -26,7 +26,7 @@ nsHTMLUnknownElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -60,7 +60,7 @@ virtual
 nsresult
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -90,7 +90,7 @@ nsHTMLUnknownElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

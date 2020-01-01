@@ -983,9 +983,9 @@ zero
 false
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

@@ -74,7 +74,7 @@ nsHTMLFrameElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 mozilla
@@ -162,7 +162,7 @@ virtual
 nsresult
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -192,7 +192,7 @@ nsHTMLFrameElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 FromParser

@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsINodeInfo
+.
+h
+"
+#
+include
+"
 nsIURL
 .
 h

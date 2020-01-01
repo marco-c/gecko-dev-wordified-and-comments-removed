@@ -1062,7 +1062,7 @@ h
 #
 include
 "
-nsNodeInfo
+nsINodeInfo
 .
 h
 "
@@ -6144,9 +6144,9 @@ return
 nsnull
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;
@@ -6858,9 +6858,9 @@ pseudoStyleContext
 )
 return
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

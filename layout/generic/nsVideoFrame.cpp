@@ -257,9 +257,9 @@ NodeInfoManager
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

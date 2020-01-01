@@ -47,6 +47,13 @@ nsGkAtoms
 .
 h
 "
+#
+include
+"
+nsINodeInfo
+.
+h
+"
 nsresult
 nsTreeUtils
 :

@@ -4337,7 +4337,7 @@ documentURI
 )
 ;
 }
-nsNodeInfo
+nsINodeInfo
 *
 ni
 =

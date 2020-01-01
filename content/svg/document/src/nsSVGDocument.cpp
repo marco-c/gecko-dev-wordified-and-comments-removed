@@ -280,7 +280,7 @@ nsSVGDocument
 :
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode

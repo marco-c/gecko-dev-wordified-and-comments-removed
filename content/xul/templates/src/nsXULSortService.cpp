@@ -1571,7 +1571,7 @@ GetNextSibling
 )
 )
 {
-nsNodeInfo
+nsINodeInfo
 *
 ni
 =

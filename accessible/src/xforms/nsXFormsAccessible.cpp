@@ -2181,7 +2181,7 @@ GetContent
 (
 )
 ;
-nsNodeInfo
+nsINodeInfo
 *
 nodeInfo
 =
@@ -2419,9 +2419,9 @@ content
 return
 false
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeinfo
 =

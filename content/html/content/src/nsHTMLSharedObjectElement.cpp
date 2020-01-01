@@ -129,7 +129,7 @@ nsHTMLSharedObjectElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 mozilla
@@ -463,7 +463,7 @@ virtual
 nsresult
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -644,7 +644,7 @@ nsHTMLSharedObjectElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 FromParser

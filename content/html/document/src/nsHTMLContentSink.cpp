@@ -94,7 +94,7 @@ h
 #
 include
 "
-nsNodeInfo
+nsINodeInfo
 .
 h
 "
@@ -505,7 +505,7 @@ contentCreatorCallback
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 FromParser
 aFromParser
@@ -517,7 +517,7 @@ NS_NewHTMLNOTUSEDElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 FromParser
@@ -942,7 +942,7 @@ unused
 :
 6
 ;
-nsNodeInfo
+nsINodeInfo
 *
 mNodeInfoCache
 [
@@ -1655,9 +1655,9 @@ nsHTMLTag
 aNodeType
 )
 {
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;
@@ -1837,7 +1837,7 @@ nsIContent
 aResult
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 FromParser
@@ -1849,9 +1849,9 @@ aResult
 =
 nsnull
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 =
@@ -1955,7 +1955,7 @@ PRUint32
 aNodeType
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 FromParser
@@ -5226,7 +5226,7 @@ i
 ;
 cb
 .
-NoteNativeChild
+NoteXPCOMChild
 (
 tmp
 -
@@ -5235,11 +5235,6 @@ mNodeInfoCache
 [
 i
 ]
-&
-NS_CYCLE_COLLECTION_NAME
-(
-nsNodeInfo
-)
 )
 ;
 }
@@ -5562,9 +5557,9 @@ maxtextrun
 8191
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

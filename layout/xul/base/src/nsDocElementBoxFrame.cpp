@@ -92,6 +92,13 @@ h
 #
 include
 "
+nsINodeInfo
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
@@ -372,9 +379,9 @@ NodeInfoManager
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

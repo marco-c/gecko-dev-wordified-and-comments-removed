@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsNodeInfo
+nsINodeInfo
 .
 h
 "
@@ -2458,7 +2458,7 @@ mValue
 ;
 }
 }
-nsNodeInfo
+nsINodeInfo
 *
 ni
 =

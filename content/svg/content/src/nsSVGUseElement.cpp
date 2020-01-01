@@ -343,7 +343,7 @@ nsSVGUseElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -388,7 +388,7 @@ nsSVGUseElement
 :
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -403,9 +403,9 @@ aResult
 =
 nsnull
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 =
@@ -1273,9 +1273,9 @@ nodeInfoManager
 return
 nsnull
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

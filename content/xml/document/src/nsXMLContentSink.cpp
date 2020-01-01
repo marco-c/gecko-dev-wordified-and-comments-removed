@@ -1900,7 +1900,7 @@ PRUnichar
 aAtts
 PRUint32
 aAttsCount
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 PRUint32
@@ -1945,9 +1945,9 @@ rv
 =
 NS_OK
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 =
@@ -2265,7 +2265,7 @@ close
 "
 )
 ;
-nsNodeInfo
+nsINodeInfo
 *
 nodeInfo
 =
@@ -4218,9 +4218,9 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;
@@ -6960,7 +6960,7 @@ nsXMLContentSink
 :
 IsMonolithicContainer
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 )

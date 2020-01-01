@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsINodeInfo
+.
+h
+"
+#
+include
+"
 nsHashtable
 .
 h
@@ -2479,7 +2486,7 @@ virtual
 nsresult
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode

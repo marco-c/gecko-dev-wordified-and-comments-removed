@@ -479,6 +479,10 @@ nsINode
 .
 h
 \
+nsINodeInfo
+.
+h
+\
 nsINodeList
 .
 h

@@ -21,7 +21,7 @@ nsIContent
 aInstancePtrResult
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -273,7 +273,7 @@ nsXMLElement
 :
 NodeInfoChanged
 (
-nsNodeInfo
+nsINodeInfo
 *
 aOldNodeInfo
 )

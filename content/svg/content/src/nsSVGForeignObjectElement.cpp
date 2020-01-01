@@ -151,7 +151,7 @@ nsSVGForeignObjectElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

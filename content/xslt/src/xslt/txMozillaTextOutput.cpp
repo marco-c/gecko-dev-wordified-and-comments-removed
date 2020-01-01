@@ -972,9 +972,9 @@ aResult
 =
 nsnull
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 ;

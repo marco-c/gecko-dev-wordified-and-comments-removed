@@ -112,9 +112,9 @@ aInstancePtrResult
 =
 nsnull
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 ;
@@ -188,7 +188,7 @@ nsXMLProcessingInstruction
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 const
@@ -392,7 +392,7 @@ nsXMLProcessingInstruction
 :
 CloneDataNode
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 bool
@@ -411,9 +411,9 @@ GetData
 data
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 =

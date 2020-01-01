@@ -1753,9 +1753,9 @@ nsIContent
 >
 newContent
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 =
@@ -1984,9 +1984,9 @@ theAttribute
 false
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 optionNodeInfo
 =
@@ -2038,9 +2038,9 @@ nsIContent
 >
 optionElt
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 ni
 =

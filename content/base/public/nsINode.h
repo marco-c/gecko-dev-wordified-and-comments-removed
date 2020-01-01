@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsNodeInfo
+nsINodeInfo
 .
 h
 "
@@ -43,13 +43,6 @@ h
 include
 "
 nsCOMPtr
-.
-h
-"
-#
-include
-"
-nsAutoPtr
 .
 h
 "
@@ -573,7 +566,7 @@ nsINode
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )
@@ -1535,7 +1528,7 @@ virtual
 nsresult
 Clone
 (
-nsNodeInfo
+nsINodeInfo
 *
 aNodeInfo
 nsINode
@@ -3814,9 +3807,9 @@ nsINode
 tmp
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 mNodeInfo
 ;

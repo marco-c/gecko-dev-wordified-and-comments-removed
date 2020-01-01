@@ -326,7 +326,7 @@ aValue
 nsresult
 SetAndTakeAttr
 (
-nsNodeInfo
+nsINodeInfo
 *
 aName
 nsAttrValue

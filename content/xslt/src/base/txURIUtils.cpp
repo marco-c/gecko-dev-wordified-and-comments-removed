@@ -54,6 +54,13 @@ nsIPrincipal
 .
 h
 "
+#
+include
+"
+nsINodeInfo
+.
+h
+"
 void
 URIUtils
 :

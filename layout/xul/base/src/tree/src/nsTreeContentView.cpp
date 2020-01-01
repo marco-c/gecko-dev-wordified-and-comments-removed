@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsINodeInfo
+.
+h
+"
+#
+include
+"
 nsIXULSortService
 .
 h

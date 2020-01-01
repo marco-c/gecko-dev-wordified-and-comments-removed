@@ -61,7 +61,7 @@ nsSVGTextPositioningElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

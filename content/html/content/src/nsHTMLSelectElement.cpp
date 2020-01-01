@@ -421,7 +421,7 @@ nsHTMLSelectElement
 (
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 FromParser
@@ -2683,9 +2683,9 @@ return
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 }
-nsRefPtr
+nsCOMPtr
 <
-nsNodeInfo
+nsINodeInfo
 >
 nodeInfo
 ;

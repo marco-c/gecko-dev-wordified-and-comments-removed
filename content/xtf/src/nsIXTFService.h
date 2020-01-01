@@ -15,7 +15,7 @@ class
 nsIContent
 ;
 class
-nsNodeInfo
+nsINodeInfo
 ;
 #
 define
@@ -59,7 +59,7 @@ nsIContent
 aResult
 already_AddRefed
 <
-nsNodeInfo
+nsINodeInfo
 >
 aNodeInfo
 )

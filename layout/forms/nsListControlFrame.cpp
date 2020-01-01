@@ -237,6 +237,13 @@ nsIServiceManager
 h
 "
 #
+include
+"
+nsINodeInfo
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
