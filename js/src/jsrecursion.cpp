@@ -150,6 +150,7 @@ lirbuf
 >
 sp
 retOffset
+ACC_STACK
 )
 ;
 }
@@ -224,6 +225,7 @@ tree
 -
 >
 nativeStackBase
+ACC_STACK
 )
 ;
 lirbuf
@@ -277,6 +279,7 @@ offsetof
 InterpState
 sp
 )
+ACC_OTHER
 )
 ;
 lirbuf
@@ -329,6 +332,7 @@ offsetof
 InterpState
 rp
 )
+ACC_OTHER
 )
 ;
 }
@@ -1473,6 +1477,7 @@ offsetof
 InterpState
 sor
 )
+ACC_OTHER
 )
 INS_CONSTWORD
 (
@@ -1554,6 +1559,7 @@ FrameInfo
 *
 )
 )
+ACC_RSTACK
 )
 ;
 guard
@@ -2011,6 +2017,7 @@ offsetof
 JSContext
 fp
 )
+ACC_OTHER
 )
 "
 fp
@@ -2048,6 +2055,7 @@ offsetof
 JSStackFrame
 down
 )
+ACC_OTHER
 )
 "
 downFp
@@ -2077,6 +2085,7 @@ offsetof
 JSStackFrame
 argv
 )
+ACC_OTHER
 )
 "
 argv
@@ -2147,6 +2156,7 @@ offsetof
 JSStackFrame
 script
 )
+ACC_OTHER
 )
 "
 script
@@ -2199,6 +2209,7 @@ offsetof
 JSStackFrame
 regs
 )
+ACC_OTHER
 )
 "
 regs
@@ -2209,6 +2220,7 @@ offsetof
 JSFrameRegs
 pc
 )
+ACC_OTHER
 )
 INS_CONSTPTR
 (
@@ -2241,6 +2253,7 @@ offsetof
 JSStackFrame
 argc
 )
+ACC_OTHER
 )
 "
 argc
@@ -2332,6 +2345,7 @@ offsetof
 JSStackFrame
 argv
 )
+ACC_OTHER
 )
 "
 argv
@@ -2798,6 +2812,7 @@ lirbuf
 >
 sp
 offset
+ACC_STACK
 )
 ;
 }
@@ -2830,6 +2845,7 @@ lirbuf
 >
 sp
 offset
+ACC_STACK
 )
 ;
 break
@@ -2850,6 +2866,7 @@ lirbuf
 >
 sp
 offset
+ACC_STACK
 )
 ;
 break
@@ -2879,6 +2896,7 @@ lirbuf
 >
 sp
 offset
+ACC_STACK
 )
 ;
 break
@@ -2967,6 +2985,7 @@ sizeof
 jsval
 )
 )
+ACC_OTHER
 )
 &
 fp
@@ -3000,6 +3019,7 @@ sizeof
 jsval
 )
 )
+ACC_OTHER
 )
 &
 fp
@@ -3057,6 +3077,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 &
 fp
@@ -3086,6 +3107,7 @@ offsetof
 JSStackFrame
 argsobj
 )
+ACC_OTHER
 )
 "
 argsobj
@@ -3116,6 +3138,7 @@ offsetof
 JSStackFrame
 scopeChain
 )
+ACC_OTHER
 )
 "
 scopeChain
@@ -3148,6 +3171,7 @@ offsetof
 JSStackFrame
 slots
 )
+ACC_OTHER
 )
 "
 slots
@@ -3190,6 +3214,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 &
 fp
@@ -3331,6 +3356,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 &
 stack
@@ -3948,6 +3974,7 @@ offsetof
 InterpState
 sp
 )
+ACC_OTHER
 )
 ;
 lirbuf
@@ -3996,6 +4023,7 @@ offsetof
 InterpState
 rp
 )
+ACC_OTHER
 )
 ;
 -
@@ -4246,6 +4274,7 @@ insLoad
 LIR_ld
 space
 0
+ACC_OTHER
 )
 ;
 return
@@ -4666,6 +4695,7 @@ offsetof
 JSObject
 classword
 )
+ACC_OTHER
 )
 INS_CONSTWORD
 (
@@ -4769,6 +4799,7 @@ offsetof
 JSObject
 classword
 )
+ACC_OTHER
 )
 INS_CONSTWORD
 (
@@ -5081,6 +5112,7 @@ sizeof
 (
 double
 )
+ACC_STACK
 )
 ;
 info

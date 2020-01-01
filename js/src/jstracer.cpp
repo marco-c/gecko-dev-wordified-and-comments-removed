@@ -4673,6 +4673,7 @@ double
 )
 *
 i
+ACC_OTHER
 )
 ;
 }
@@ -12440,7 +12441,13 @@ config
 #
 ifdef
 DEBUG
+ValidateWriter
+*
+validate2
+;
 lir
+=
+validate2
 =
 new
 (
@@ -12451,6 +12458,10 @@ tempAlloc
 ValidateWriter
 (
 lir
+lirbuf
+-
+>
+printer
 "
 end
 of
@@ -12583,7 +12594,13 @@ lir
 #
 ifdef
 DEBUG
+ValidateWriter
+*
+validate1
+;
 lir
+=
+validate1
 =
 new
 (
@@ -12594,6 +12611,10 @@ tempAlloc
 ValidateWriter
 (
 lir
+lirbuf
+-
+>
+printer
 "
 start
 of
@@ -12811,6 +12832,7 @@ offsetof
 InterpState
 sp
 )
+ACC_OTHER
 )
 "
 sp
@@ -12839,6 +12861,7 @@ offsetof
 InterpState
 rp
 )
+ACC_OTHER
 )
 "
 rp
@@ -12867,6 +12890,7 @@ offsetof
 InterpState
 cx
 )
+ACC_OTHER
 )
 "
 cx
@@ -12895,6 +12919,7 @@ offsetof
 InterpState
 eos
 )
+ACC_OTHER
 )
 "
 eos
@@ -12923,12 +12948,62 @@ offsetof
 InterpState
 eor
 )
+ACC_OTHER
 )
 "
 eor
 "
 )
 ;
+#
+ifdef
+DEBUG
+validate1
+-
+>
+setSp
+(
+lirbuf
+-
+>
+sp
+)
+;
+validate2
+-
+>
+setSp
+(
+lirbuf
+-
+>
+sp
+)
+;
+validate1
+-
+>
+setRp
+(
+lirbuf
+-
+>
+rp
+)
+;
+validate2
+-
+>
+setRp
+(
+lirbuf
+-
+>
+rp
+)
+;
+#
+endif
 if
 (
 tree
@@ -13010,6 +13085,7 @@ offsetof
 JSContext
 operationCallbackFlag
 )
+ACC_LOAD_ANY
 )
 ;
 guard
@@ -13064,6 +13140,7 @@ offsetof
 InterpState
 outermostTreeExitGuard
 )
+ACC_OTHER
 )
 "
 outermostTreeExitGuard
@@ -17471,6 +17548,7 @@ offsetof
 JSStackFrame
 argc
 )
+ACC_OTHER
 )
 ;
 return
@@ -18021,6 +18099,21 @@ LIns
 *
 ins
 ;
+AccSet
+accSet
+=
+base
+=
+=
+lirbuf
+-
+>
+sp
+?
+ACC_STACK
+:
+ACC_OTHER
+;
 if
 (
 t
@@ -18048,6 +18141,7 @@ insLoad
 LIR_ld
 base
 offset
+accSet
 )
 ;
 ins
@@ -18103,6 +18197,7 @@ insLoad
 LIR_ldf
 base
 offset
+accSet
 )
 ;
 }
@@ -18125,6 +18220,7 @@ insLoad
 LIR_ld
 base
 offset
+accSet
 )
 ;
 }
@@ -18156,6 +18252,7 @@ insLoad
 LIR_ldp
 base
 offset
+accSet
 )
 ;
 }
@@ -19357,6 +19454,19 @@ insStorei
 i
 base
 offset
+(
+base
+=
+=
+lirbuf
+-
+>
+sp
+)
+?
+ACC_STACK
+:
+ACC_OTHER
 )
 ;
 }
@@ -20390,6 +20500,7 @@ nativeGlobalOffset
 (
 vp
 )
+ACC_OTHER
 )
 ;
 oracle
@@ -20596,6 +20707,7 @@ nativespOffset
 (
 vp
 )
+ACC_STACK
 )
 ;
 oracle
@@ -26947,6 +27059,7 @@ offsetof
 InterpState
 sp
 )
+ACC_OTHER
 )
 ;
 lir
@@ -26978,6 +27091,7 @@ offsetof
 InterpState
 rp
 )
+ACC_OTHER
 )
 ;
 }
@@ -27269,6 +27383,7 @@ offsetof
 GuardRecord
 exit
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -27299,6 +27414,7 @@ offsetof
 VMSideExit
 exitType
 )
+ACC_OTHER
 )
 NESTED_EXIT
 )
@@ -27320,6 +27436,7 @@ offsetof
 InterpState
 lastTreeExitGuard
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -27380,6 +27497,7 @@ offsetof
 InterpState
 lastTreeCallGuard
 )
+ACC_OTHER
 )
 )
 NULL
@@ -27400,6 +27518,7 @@ offsetof
 InterpState
 lastTreeCallGuard
 )
+ACC_OTHER
 )
 ;
 lir
@@ -27428,6 +27547,7 @@ offsetof
 InterpState
 rp
 )
+ACC_OTHER
 )
 lir
 -
@@ -27452,6 +27572,7 @@ offsetof
 VMSideExit
 calldepth
 )
+ACC_OTHER
 )
 sizeof
 (
@@ -27477,6 +27598,7 @@ offsetof
 InterpState
 rpAtLastTreeCall
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -27522,6 +27644,7 @@ offsetof
 InterpState
 outermostTreeExitGuard
 )
+ACC_OTHER
 )
 ;
 #
@@ -27846,6 +27969,7 @@ offsetof
 InterpState
 sp
 )
+ACC_OTHER
 )
 ;
 lir
@@ -27866,6 +27990,7 @@ offsetof
 InterpState
 rp
 )
+ACC_OTHER
 )
 ;
 }
@@ -41827,12 +41952,14 @@ offsetof
 JSContext
 fp
 )
+ACC_OTHER
 )
 offsetof
 (
 JSStackFrame
 scopeChain
 )
+ACC_OTHER
 )
 ;
 }
@@ -42959,6 +43086,7 @@ offsetof
 JSObject
 dslots
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -42978,6 +43106,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 ins
@@ -43204,6 +43333,7 @@ ins
 stackLoad
 (
 outp
+ACC_OTHER
 type
 )
 ;
@@ -45231,6 +45361,7 @@ offsetof
 JSString
 mLength
 )
+ACC_OTHER
 )
 ;
 }
@@ -45600,6 +45731,7 @@ si
 index
 )
 0
+ACC_OTHER
 )
 ;
 VMSideExit
@@ -46325,6 +46457,7 @@ get
 &
 l
 )
+MISMATCH_EXIT
 )
 )
 {
@@ -46377,6 +46510,7 @@ v_ins
 )
 addr_ins
 0
+ACC_OTHER
 )
 ;
 return
@@ -49315,6 +49449,7 @@ offsetof
 JSScope
 shape
 )
+ACC_OTHER
 )
 "
 shape
@@ -49501,6 +49636,7 @@ offsetof
 JSObject
 map
 )
+ACC_OTHER
 )
 "
 map
@@ -50500,6 +50636,7 @@ offsetof
 JSRuntime
 protoHazardShape
 )
+ACC_OTHER
 )
 "
 protoHazardShape
@@ -50694,6 +50831,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 }
@@ -50736,6 +50874,7 @@ offsetof
 JSObject
 dslots
 )
+ACC_OTHER
 )
 ;
 lir
@@ -50751,6 +50890,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 }
@@ -50844,6 +50984,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 }
@@ -50929,6 +51070,7 @@ offsetof
 JSObject
 dslots
 )
+ACC_OTHER
 )
 ;
 return
@@ -50945,6 +51087,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 }
@@ -51517,6 +51660,7 @@ offsetof
 JSObject
 classword
 )
+ACC_OTHER
 )
 INS_CONSTWORD
 (
@@ -51685,6 +51829,7 @@ snapshot
 (
 MISMATCH_EXIT
 )
+ACC_OTHER
 )
 )
 {
@@ -51854,6 +51999,7 @@ snapshot
 (
 BRANCH_EXIT
 )
+ACC_OTHER
 )
 ;
 JS_ASSERT
@@ -52146,6 +52292,7 @@ snapshot
 (
 exitType
 )
+ACC_OTHER
 )
 ;
 }
@@ -52175,6 +52322,7 @@ obj_ins
 &
 js_ArrayClass
 exit
+ACC_OTHER
 )
 ;
 }
@@ -52850,6 +52998,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 }
@@ -53014,6 +53163,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 }
@@ -54272,6 +54422,7 @@ offsetof
 JSContext
 fp
 )
+ACC_OTHER
 )
 ;
 lir
@@ -54286,6 +54437,7 @@ offsetof
 JSStackFrame
 rval
 )
+ACC_OTHER
 )
 ;
 return
@@ -54987,6 +55139,7 @@ insStorei
 a_ins
 mem_ins
 0
+ACC_OTHER
 )
 ;
 LIns
@@ -55040,6 +55193,7 @@ insStorei
 call_ins
 mem_ins
 0
+ACC_OTHER
 )
 ;
 LIns
@@ -55072,6 +55226,7 @@ insLoad
 LIR_ldp
 mem_ins
 0
+ACC_OTHER
 )
 ;
 }
@@ -56038,6 +56193,7 @@ offsetof
 JSString
 mLength
 )
+ACC_OTHER
 )
 )
 )
@@ -57499,6 +57655,7 @@ offsetof
 InterpState
 builtinStatus
 )
+ACC_OTHER
 )
 ;
 }
@@ -57601,6 +57758,7 @@ offsetof
 InterpState
 nativeVp
 )
+ACC_OTHER
 )
 ;
 lir
@@ -57621,6 +57779,7 @@ offsetof
 InterpState
 nativeVpLen
 )
+ACC_OTHER
 )
 ;
 if
@@ -57635,6 +57794,7 @@ insStorei
 boxed_ins
 vp_ins
 0
+ACC_OTHER
 )
 ;
 CallInfo
@@ -57809,6 +57969,7 @@ offsetof
 InterpState
 nativeVp
 )
+ACC_OTHER
 )
 ;
 leaveDeepBailCall
@@ -57837,6 +57998,7 @@ offsetof
 InterpState
 builtinStatus
 )
+ACC_OTHER
 )
 ;
 propagateFailureToBuiltinStatus
@@ -58010,6 +58172,7 @@ offsetof
 InterpState
 nativeVp
 )
+ACC_OTHER
 )
 ;
 rval_ins
@@ -59424,6 +59587,7 @@ funobj
 )
 invokevp_ins
 0
+ACC_OTHER
 )
 ;
 LIns
@@ -59707,7 +59871,7 @@ else
 {
 if
 (
-guardConstClass
+guardClass
 (
 JSVAL_TO_OBJECT
 (
@@ -59723,6 +59887,7 @@ snapshot
 (
 MISMATCH_EXIT
 )
+ACC_READONLY
 )
 )
 RETURN_STOP
@@ -59801,6 +59966,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 for
@@ -59854,6 +60020,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 if
@@ -59924,6 +60091,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 if
@@ -60320,6 +60488,7 @@ offsetof
 InterpState
 nativeVpLen
 )
+ACC_OTHER
 )
 ;
 lir
@@ -60337,6 +60506,7 @@ offsetof
 InterpState
 nativeVp
 )
+ACC_OTHER
 )
 ;
 return
@@ -62654,6 +62824,7 @@ offsetof
 JSObject
 dslots
 )
+ACC_OTHER
 )
 ;
 lir
@@ -62673,6 +62844,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 ;
 return
@@ -62751,6 +62923,7 @@ offsetof
 JSContext
 fp
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -62769,6 +62942,7 @@ offsetof
 JSStackFrame
 callobj
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -62884,6 +63058,7 @@ offsetof
 InterpState
 callstackBase
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -62898,6 +63073,7 @@ insLoad
 LIR_ldp
 callstackBase_ins
 0
+ACC_OTHER
 )
 ;
 LIns
@@ -63028,6 +63204,7 @@ offsetof
 InterpState
 stackBase
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -63069,6 +63246,7 @@ offset_ins
 )
 )
 0
+ACC_STORE_ANY
 )
 ;
 LIns
@@ -63330,6 +63508,7 @@ offsetof
 JSContext
 bailExit
 )
+ACC_OTHER
 )
 ;
 GuardRecord
@@ -63382,6 +63561,7 @@ offsetof
 JSContext
 bailExit
 )
+ACC_OTHER
 )
 ;
 }
@@ -63418,6 +63598,7 @@ insLoad
 LIR_ldp
 vp_ins
 0
+ACC_OTHER
 )
 ;
 set
@@ -63837,6 +64018,9 @@ insLoad
 LIR_ldp
 idvalp_ins
 0
+ACC_STACK
+|
+ACC_OTHER
 )
 )
 ;
@@ -65185,6 +65369,7 @@ sizeof
 FrameInfo
 *
 )
+ACC_RSTACK
 )
 ;
 typemap_ins
@@ -65393,6 +65578,7 @@ v_ins
 stackLoad
 (
 argi_addr_ins
+ACC_LOAD_ANY
 type
 )
 ;
@@ -65518,7 +65704,7 @@ LIns
 *
 addr_ins
 ;
-guardConstClass
+guardClass
 (
 obj
 obj_ins
@@ -65532,6 +65718,7 @@ snapshot
 (
 BRANCH_EXIT
 )
+ACC_READONLY
 )
 ;
 CHECK_STATUS_A
@@ -65884,6 +66071,7 @@ insStorei
 rval_ins
 vp_ins
 0
+ACC_OTHER
 )
 ;
 LIns
@@ -66227,6 +66415,7 @@ insStorei
 rval_ins
 vp_ins
 0
+ACC_OTHER
 )
 ;
 LIns
@@ -66468,7 +66657,7 @@ obj
 )
 )
 {
-guardConstClass
+guardClass
 (
 obj
 obj_ins
@@ -66482,6 +66671,7 @@ snapshot
 (
 BRANCH_EXIT
 )
+ACC_READONLY
 )
 ;
 js
@@ -66999,6 +67189,7 @@ LIR_stb
 v_ins
 addr_ins
 0
+ACC_OTHER
 )
 ;
 break
@@ -67050,6 +67241,7 @@ LIR_sts
 v_ins
 addr_ins
 0
+ACC_OTHER
 )
 ;
 break
@@ -67101,6 +67293,7 @@ LIR_sti
 v_ins
 addr_ins
 0
+ACC_OTHER
 )
 ;
 break
@@ -67143,6 +67336,7 @@ LIR_st32f
 v_ins
 addr_ins
 0
+ACC_OTHER
 )
 ;
 break
@@ -67185,6 +67379,7 @@ LIR_stfi
 v_ins
 addr_ins
 0
+ACC_OTHER
 )
 ;
 break
@@ -67942,6 +68137,7 @@ return
 stackLoad
 (
 outp
+ACC_OTHER
 type
 )
 ;
@@ -67956,6 +68152,8 @@ stackLoad
 LIns
 *
 base
+AccSet
+accSet
 uint8
 type
 )
@@ -68046,6 +68244,7 @@ insLoad
 loadOp
 base
 0
+accSet
 )
 ;
 if
@@ -68266,6 +68465,7 @@ offsetof
 JSObject
 dslots
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -68602,13 +68802,14 @@ snapshot
 MISMATCH_EXIT
 )
 ;
-guardConstClass
+guardClass
 (
 obj
 obj_ins
 &
 js_ArgumentsClass
 exit
+ACC_READONLY
 )
 ;
 LIns
@@ -69077,6 +69278,7 @@ sizeof
 FrameInfo
 *
 )
+ACC_RSTACK
 )
 ;
 #
@@ -69667,6 +69869,7 @@ guardDenseArray
 (
 aobj
 aobj_ins
+MISMATCH_EXIT
 )
 ;
 length
@@ -70048,6 +70251,7 @@ offsetof
 JSContext
 bailExit
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -70072,6 +70276,7 @@ offsetof
 InterpState
 builtinStatus
 )
+ACC_OTHER
 )
 ;
 if
@@ -70143,6 +70348,7 @@ insLoad
 LIR_ldp
 native_rval_ins
 0
+ACC_OTHER
 )
 ;
 if
@@ -70862,6 +71068,7 @@ snapshot
 (
 MISMATCH_EXIT
 )
+ACC_OTHER
 )
 ;
 VMSideExit
@@ -71610,6 +71817,7 @@ offsetof
 JSObject
 dslots
 )
+ACC_OTHER
 )
 ;
 jsuint
@@ -71787,6 +71995,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 )
 NULL
@@ -71978,6 +72187,7 @@ sizeof
 (
 jsval
 )
+ACC_OTHER
 )
 )
 exit
@@ -72043,6 +72253,7 @@ insLoad
 LIR_ldp
 addr_ins
 0
+ACC_OTHER
 )
 exit
 )
@@ -72418,6 +72629,7 @@ insLoad
 LIR_ldsb
 addr_ins
 0
+ACC_OTHER
 )
 )
 ;
@@ -72469,6 +72681,7 @@ insLoad
 LIR_ldzb
 addr_ins
 0
+ACC_OTHER
 )
 )
 ;
@@ -72519,6 +72732,7 @@ insLoad
 LIR_ldss
 addr_ins
 0
+ACC_OTHER
 )
 )
 ;
@@ -72569,6 +72783,7 @@ insLoad
 LIR_ldzs
 addr_ins
 0
+ACC_OTHER
 )
 )
 ;
@@ -72619,6 +72834,7 @@ insLoad
 LIR_ld
 addr_ins
 0
+ACC_OTHER
 )
 )
 ;
@@ -72669,6 +72885,7 @@ insLoad
 LIR_ld
 addr_ins
 0
+ACC_OTHER
 )
 )
 ;
@@ -72713,6 +72930,7 @@ insLoad
 LIR_ld32f
 addr_ins
 0
+ACC_OTHER
 )
 ;
 break
@@ -72756,6 +72974,7 @@ insLoad
 LIR_ldf
 addr_ins
 0
+ACC_OTHER
 )
 ;
 break
@@ -74391,6 +74610,7 @@ snapshot
 (
 BRANCH_EXIT
 )
+ACC_OTHER
 )
 ;
 if
@@ -74901,6 +75121,7 @@ offsetof
 JSScope
 shape
 )
+ACC_OTHER
 )
 "
 obj_shape
@@ -75951,6 +76172,7 @@ offsetof
 InterpState
 builtinStatus
 )
+ACC_OTHER
 )
 ;
 pendingGuardCondition
@@ -80865,6 +81087,7 @@ offsetof
 JSString
 mLength
 )
+ACC_OTHER
 )
 )
 )
@@ -81083,6 +81306,7 @@ snapshot
 (
 BRANCH_EXIT
 )
+ACC_OTHER
 )
 )
 RETURN_STOP_A
@@ -81134,7 +81358,7 @@ obj
 )
 )
 {
-guardConstClass
+guardClass
 (
 obj
 obj_ins
@@ -81148,6 +81372,7 @@ snapshot
 (
 BRANCH_EXIT
 )
+ACC_OTHER
 )
 ;
 v_ins
@@ -81683,6 +81908,7 @@ vp
 )
 buf_ins
 d
+ACC_OTHER
 )
 ;
 }
