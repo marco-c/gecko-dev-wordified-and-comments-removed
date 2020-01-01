@@ -601,6 +601,15 @@ gfxASurface
 aSurface
 )
 ;
+static
+void
+ClearSourceSurfaceForSurface
+(
+gfxASurface
+*
+aSurface
+)
+;
 virtual
 mozilla
 :
