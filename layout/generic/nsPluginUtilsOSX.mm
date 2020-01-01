@@ -844,6 +844,9 @@ NPCocoaEventMouseDragged
 {
 cocoaEventType
 =
+(
+NSEventType
+)
 event
 -
 >
