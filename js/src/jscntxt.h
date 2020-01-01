@@ -3087,6 +3087,10 @@ volatile
 bool
 gcIsNeeded
 ;
+JSObject
+*
+gcWeakMapList
+;
 JSCompartment
 *
 gcTriggerCompartment

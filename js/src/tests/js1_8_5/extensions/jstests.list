@@ -461,3 +461,7 @@ is
 generator
 .
 js
+script
+weakmap
+.
+js
