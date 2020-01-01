@@ -605,9 +605,6 @@ mozBackgroundRequest
 [
 ChromeOnly
 GetterInfallible
-SetterInfallible
-=
-MainThread
 ]
 readonly
 attribute
