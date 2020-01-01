@@ -3688,6 +3688,17 @@ MOZ_WEBAPP_RUNTIME
 [
 WebappRuntime
 ]
+#
+ifdef
+XP_WIN
+BINPATH
+/
+webapp
+-
+uninstaller
+BIN_SUFFIX
+#
+endif
 BINPATH
 /
 webapprt
