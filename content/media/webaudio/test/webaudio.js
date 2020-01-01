@@ -562,6 +562,19 @@ i
 length
 ;
 }
+if
+(
+gTest
+.
+length
+&
+&
+!
+gTest
+.
+createExpectedBuffers
+)
+{
 is
 (
 expectedFrames
@@ -577,6 +590,7 @@ frames
 "
 )
 ;
+}
 if
 (
 gTest
