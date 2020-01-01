@@ -10856,6 +10856,8 @@ return
 define
 STRING_BUFFER_UNITS
 1020
+namespace
+{
 class
 StringBuilder
 {
@@ -12184,6 +12186,7 @@ mLength
 ;
 }
 ;
+}
 static
 void
 AppendEncodedCharacters
