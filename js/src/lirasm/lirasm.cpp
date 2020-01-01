@@ -5053,7 +5053,7 @@ case
 LIR_xtbl
 :
 case
-LIR_ji
+LIR_jtbl
 :
 nyi
 (
@@ -8531,6 +8531,7 @@ verbose
 mAssm
 (
 mCodeAlloc
+mAlloc
 mAlloc
 &
 mCore
