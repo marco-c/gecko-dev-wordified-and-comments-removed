@@ -2689,12 +2689,6 @@ init
 (
 )
 ;
-ExternalApps
-.
-init
-(
-)
-;
 Distribution
 .
 init
@@ -2904,6 +2898,12 @@ initContextMenu
 )
 ;
 }
+ExternalApps
+.
+init
+(
+)
+;
 Services
 .
 io
