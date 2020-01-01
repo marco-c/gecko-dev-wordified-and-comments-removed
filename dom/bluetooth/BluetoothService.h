@@ -683,10 +683,6 @@ mSettingsCheckInProgress
 (
 false
 )
-mRegisteredForLocalAgent
-(
-false
-)
 #
 ifdef
 DEBUG
@@ -818,9 +814,6 @@ mEnabled
 ;
 bool
 mSettingsCheckInProgress
-;
-bool
-mRegisteredForLocalAgent
 ;
 #
 ifdef
