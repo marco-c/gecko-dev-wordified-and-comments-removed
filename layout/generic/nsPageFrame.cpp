@@ -3028,6 +3028,10 @@ NS_RGBA
 0
 0
 )
+nsLayoutUtils
+:
+:
+PAINT_SYNC_DECODE_IMAGES
 )
 ;
 aRenderingContext

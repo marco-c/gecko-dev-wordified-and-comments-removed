@@ -104,6 +104,13 @@ gfxPattern
 .
 h
 "
+#
+include
+"
+imgIContainer
+.
+h
+"
 class
 nsBlockFrame
 ;
@@ -715,6 +722,9 @@ enum
 PAINT_IN_TRANSFORM
 =
 0x01
+PAINT_SYNC_DECODE_IMAGES
+=
+0x02
 }
 ;
 static
@@ -1343,6 +1353,8 @@ const
 nsRect
 &
 aDirty
+PRUint32
+aImageFlags
 )
 ;
 static
@@ -1363,6 +1375,8 @@ const
 nsRect
 &
 aDirty
+PRUint32
+aImageFlags
 const
 nsRect
 *
@@ -1394,6 +1408,8 @@ const
 nsRect
 &
 aDirty
+PRUint32
+aImageFlags
 const
 nsRect
 *
@@ -1633,6 +1649,12 @@ SFE_WANT_IMAGE_SURFACE
 <
 <
 1
+SFE_WANT_FIRST_FRAME
+=
+1
+<
+<
+2
 }
 ;
 struct

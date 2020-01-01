@@ -878,8 +878,16 @@ mImageContainer
 mImageContainer
 -
 >
-GetCurrentFrame
+GetFrame
 (
+imgIContainer
+:
+:
+FRAME_CURRENT
+imgIContainer
+:
+:
+FLAG_SYNC_DECODE
 getter_AddRefs
 (
 currentFrame

@@ -15722,6 +15722,10 @@ aRenderingContext
 image
 pt
 aDirtyRect
+imgIContainer
+:
+:
+FLAG_NONE
 &
 imageSize
 )
@@ -16179,6 +16183,10 @@ TopLeft
 (
 )
 aDirtyRect
+imgIContainer
+:
+:
+FLAG_NONE
 )
 ;
 }
@@ -17044,6 +17052,10 @@ aRenderingContext
 image
 pt
 aDirtyRect
+imgIContainer
+:
+:
+FLAG_NONE
 &
 imageSize
 )
@@ -17389,6 +17401,10 @@ TopLeft
 (
 )
 aDirtyRect
+imgIContainer
+:
+:
+FLAG_NONE
 )
 ;
 }
@@ -17524,6 +17540,10 @@ TopLeft
 (
 )
 aDirtyRect
+imgIContainer
+:
+:
+FLAG_NONE
 )
 ;
 }

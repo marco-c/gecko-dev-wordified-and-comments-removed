@@ -709,6 +709,11 @@ nsnull
 )
 const
 ;
+nsresult
+RequestDecode
+(
+)
+;
 PRBool
 IsOpaque
 (
@@ -2787,6 +2792,12 @@ IsBorderImageLoaded
 (
 )
 const
+;
+inline
+nsresult
+RequestDecode
+(
+)
 ;
 void
 GetBorderColor

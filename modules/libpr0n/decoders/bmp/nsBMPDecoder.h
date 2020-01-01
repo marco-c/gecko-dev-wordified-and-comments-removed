@@ -509,6 +509,9 @@ imgIContainer
 mImage
 ;
 PRUint32
+mFlags
+;
+PRUint32
 mPos
 ;
 BMPFILEHEADER
@@ -561,6 +564,9 @@ mState
 ;
 PRUint32
 mStateData
+;
+PRBool
+mError
 ;
 void
 ProcessFileHeader

@@ -315,6 +315,11 @@ statusArg
 )
 ;
 void
+OnDiscard
+(
+)
+;
+void
 FrameChanged
 (
 imgIContainer
@@ -410,6 +415,12 @@ mIsInLoadGroup
 ;
 PRPackedBool
 mListenerIsStrongRef
+;
+PRPackedBool
+mShouldRequestDecode
+;
+PRPackedBool
+mLockHeld
 ;
 }
 ;

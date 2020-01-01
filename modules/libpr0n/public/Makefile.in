@@ -452,10 +452,6 @@ imgIEncoder
 .
 idl
 \
-imgILoad
-.
-idl
-\
 imgILoader
 .
 idl

@@ -435,6 +435,10 @@ rules
 mk
 _TEST_FILES
 =
+imgutils
+.
+js
+\
 test_bug399925
 .
 html

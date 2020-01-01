@@ -290,7 +290,7 @@ mDataSize
 =
 aDataSize
 ;
-TouchWithSize
+UpdateCache
 (
 mDataSize
 -
@@ -452,10 +452,12 @@ PR_TRUE
 )
 ;
 void
-TouchWithSize
+UpdateCache
 (
 PRInt32
 diff
+=
+0
 )
 ;
 void
