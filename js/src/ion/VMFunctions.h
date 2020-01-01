@@ -2745,6 +2745,14 @@ JSString
 str
 )
 ;
+uint32_t
+GetIndexFromString
+(
+JSString
+*
+str
+)
+;
 }
 }
 #
