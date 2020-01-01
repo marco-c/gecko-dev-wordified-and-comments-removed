@@ -465,6 +465,10 @@ browser_bug683672
 .
 js
 \
+browser_styleinspector_bug_672746_default_styles
+.
+js
+\
 head
 .
 js
