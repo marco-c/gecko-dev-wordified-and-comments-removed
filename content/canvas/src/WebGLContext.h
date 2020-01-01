@@ -2878,7 +2878,10 @@ dstTexelSize
 nsresult
 DOMElementToImageSurface
 (
-nsIDOMElement
+dom
+:
+:
+Element
 *
 imageOrCanvas
 gfxImageSurface
