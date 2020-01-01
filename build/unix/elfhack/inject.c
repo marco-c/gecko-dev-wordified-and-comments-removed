@@ -103,7 +103,7 @@ hidden
 Elf_Ehdr
 elf_header
 ;
-void
+int
 init
 (
 int
@@ -207,4 +207,7 @@ env
 ;
 #
 endif
+return
+0
+;
 }
