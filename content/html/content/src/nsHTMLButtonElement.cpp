@@ -494,7 +494,7 @@ return
 PR_TRUE
 ;
 }
-PRUInt8
+PRUint8
 mType
 ;
 PRPackedBool
