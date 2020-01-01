@@ -258,7 +258,13 @@ prmjtime
 h
 "
 #
-ifdef
+if
+!
+defined
+JS_THREADSAFE
+&
+&
+defined
 JS_TRACER
 #
 include
@@ -3964,7 +3970,7 @@ JS_THREADSAFE
 &
 defined
 JS_TRACER
-js_DestroyJIT
+js_FinishJIT
 (
 &
 rt

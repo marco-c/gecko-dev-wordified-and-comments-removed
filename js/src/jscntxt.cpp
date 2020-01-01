@@ -301,7 +301,7 @@ gsnCache
 if
 defined
 JS_TRACER
-js_DestroyJIT
+js_FinishJIT
 (
 &
 thread
