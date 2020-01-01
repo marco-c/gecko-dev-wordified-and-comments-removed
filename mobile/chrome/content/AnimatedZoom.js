@@ -735,7 +735,9 @@ inc
 .
 0
 /
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -780,7 +782,9 @@ interval
 =
 1000
 /
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (

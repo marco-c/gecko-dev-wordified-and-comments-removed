@@ -778,7 +778,9 @@ onget
 =
 "
 return
-gIOService
+Services
+.
+io
 .
 newURI
 (
@@ -1073,7 +1075,9 @@ icon
 let
 iconURI
 =
-gIOService
+Services
+.
+io
 .
 newURI
 (
@@ -2343,7 +2347,9 @@ json
 windowId
 popupWindowURI
 :
-gIOService
+Services
+.
+io
 .
 newURI
 (

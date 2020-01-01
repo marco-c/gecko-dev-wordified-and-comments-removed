@@ -226,7 +226,9 @@ this
 .
 _enabled
 =
-gPrefService
+Services
+.
+prefs
 .
 getBoolPref
 (

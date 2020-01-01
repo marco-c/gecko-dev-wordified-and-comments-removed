@@ -354,7 +354,9 @@ try
 {
 cacheSize
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
@@ -2425,7 +2427,9 @@ getPageZoomLevel
 let
 granularity
 =
-gPrefService
+Services
+.
+prefs
 .
 getIntPref
 (
