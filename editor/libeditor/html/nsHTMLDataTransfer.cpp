@@ -5746,7 +5746,7 @@ data
 ;
 AppendUTF8toUTF16
 (
-aType
+type
 stuffToPaste
 )
 ;
