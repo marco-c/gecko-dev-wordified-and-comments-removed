@@ -445,7 +445,9 @@ classes
 libs
 :
 :
-make
+(
+MAKE
+)
 -
 C
 src
@@ -455,7 +457,9 @@ libs
 install
 :
 :
-make
+(
+MAKE
+)
 -
 C
 src

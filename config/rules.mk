@@ -5053,7 +5053,9 @@ dir
 (
 STATIC_DIRS
 )
-make
+(
+MAKE
+)
 -
 C
 (
