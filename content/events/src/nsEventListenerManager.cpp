@@ -2754,9 +2754,6 @@ aContext
 void
 *
 aScopeObject
-nsISupports
-*
-aObject
 nsIAtom
 *
 aName
@@ -2810,7 +2807,7 @@ NS_NewJSEventListener
 (
 aContext
 aScopeObject
-aObject
+mTarget
 aName
 getter_AddRefs
 (
@@ -2890,9 +2887,6 @@ nsEventListenerManager
 :
 AddScriptEventListener
 (
-nsISupports
-*
-aObject
 nsIAtom
 *
 aName
@@ -2977,7 +2971,7 @@ node
 (
 do_QueryInterface
 (
-aObject
+mTarget
 )
 )
 ;
@@ -2986,12 +2980,6 @@ nsCOMPtr
 nsIDocument
 >
 doc
-;
-nsISupports
-*
-objiSupp
-=
-aObject
 ;
 nsCOMPtr
 <
@@ -3037,7 +3025,7 @@ win
 (
 do_QueryInterface
 (
-aObject
+mTarget
 )
 )
 ;
@@ -3103,7 +3091,7 @@ global
 =
 do_QueryInterface
 (
-aObject
+mTarget
 )
 ;
 }
@@ -3244,7 +3232,7 @@ domNode
 (
 do_QueryInterface
 (
-aObject
+mTarget
 )
 )
 ;
@@ -3387,7 +3375,7 @@ handlerOwner
 =
 do_QueryInterface
 (
-aObject
+mTarget
 )
 ;
 nsScriptObjectHolder
@@ -3435,7 +3423,7 @@ context
 >
 BindCompiledEventHandler
 (
-aObject
+mTarget
 scope
 aName
 handler
@@ -3536,7 +3524,7 @@ handlerOwner
 CompileEventHandler
 (
 context
-aObject
+mTarget
 aName
 aBody
 url
@@ -3741,7 +3729,7 @@ context
 >
 BindCompiledEventHandler
 (
-aObject
+mTarget
 scope
 aName
 handler
@@ -3765,7 +3753,6 @@ SetJSEventListener
 (
 context
 scope
-objiSupp
 aName
 aDeferCompilation
 aPermitUntrustedEvents
@@ -3857,9 +3844,6 @@ aContext
 void
 *
 aScope
-nsISupports
-*
-aObject
 nsIAtom
 *
 aName
@@ -4000,7 +3984,7 @@ JSObject
 *
 )
 aScope
-aObject
+mTarget
 &
 v
 getter_AddRefs
@@ -4076,7 +4060,6 @@ SetJSEventListener
 (
 aContext
 aScope
-aObject
 aName
 PR_FALSE
 !
@@ -4101,9 +4084,6 @@ aContext
 void
 *
 aScope
-nsISupports
-*
-aObject
 nsIAtom
 *
 aName
@@ -4167,7 +4147,7 @@ CompileEventHandlerInternal
 (
 aContext
 aScope
-aObject
+mTarget
 aName
 ls
 nsnull

@@ -262,9 +262,6 @@ aFlags
 nsresult
 AddScriptEventListener
 (
-nsISupports
-*
-aObject
 nsIAtom
 *
 aName
@@ -289,9 +286,6 @@ aContext
 void
 *
 aScopeObject
-nsISupports
-*
-aObject
 nsIAtom
 *
 aName
@@ -314,9 +308,6 @@ aContext
 void
 *
 aScopeObject
-nsISupports
-*
-aObject
 nsIAtom
 *
 aName
@@ -629,9 +620,6 @@ aContext
 void
 *
 aScopeGlobal
-nsISupports
-*
-aObject
 nsIAtom
 *
 aName
