@@ -212,26 +212,6 @@ endif
 if
 !
 ENABLE_INTL_API
-#
-ifdef
-__GNUC__
-#
-define
-SUPPRESS_UNUSED_WARNING
-__attribute__
-(
-(
-unused
-)
-)
-#
-else
-#
-define
-SUPPRESS_UNUSED_WARNING
-#
-endif
-SUPPRESS_UNUSED_WARNING
 static
 int32_t
 u_strlen
@@ -668,7 +648,6 @@ UNumberFormatTextAttribute
 UNUM_CURRENCY_CODE
 }
 ;
-SUPPRESS_UNUSED_WARNING
 static
 int32_t
 unum_countAvailable
@@ -691,7 +670,6 @@ return
 0
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -717,7 +695,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 UNumberFormat
 *
@@ -763,7 +740,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 void
 unum_setAttribute
@@ -789,7 +765,6 @@ disabled
 )
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 int32_t
 unum_formatDouble
@@ -833,7 +808,6 @@ return
 0
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 void
 unum_close
@@ -855,7 +829,6 @@ disabled
 )
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 void
 unum_setTextAttribute
@@ -1073,7 +1046,6 @@ UCAL_TRADITIONAL
 UCAL_GREGORIAN
 }
 ;
-SUPPRESS_UNUSED_WARNING
 static
 UCalendar
 *
@@ -1116,7 +1088,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -1152,7 +1123,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 UEnumeration
 *
@@ -1193,7 +1163,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 void
 ucal_close
@@ -1220,7 +1189,6 @@ void
 *
 UDateTimePatternGenerator
 ;
-SUPPRESS_UNUSED_WARNING
 static
 UDateTimePatternGenerator
 *
@@ -1255,7 +1223,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 int32_t
 udatpg_getBestPattern
@@ -1299,7 +1266,6 @@ return
 0
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 void
 udatpg_close
@@ -1343,7 +1309,6 @@ UDAT_IGNORE
 UDAT_PATTERN
 }
 ;
-SUPPRESS_UNUSED_WARNING
 static
 int32_t
 udat_countAvailable
@@ -1366,7 +1331,6 @@ return
 0
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -1392,7 +1356,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 UDateFormat
 *
@@ -1443,7 +1406,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 const
 UCalendar
@@ -1471,7 +1433,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 void
 ucal_setGregorianChange
@@ -1503,7 +1464,6 @@ pErrorCode
 U_UNSUPPORTED_ERROR
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 int32_t
 udat_format
@@ -1547,7 +1507,6 @@ return
 0
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 void
 udat_close
@@ -1736,7 +1695,6 @@ int32_t
 localeIndex
 )
 ;
-SUPPRESS_UNUSED_WARNING
 static
 bool
 intl_availableLocales
@@ -1931,7 +1889,6 @@ return
 true
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 bool
 GetInternals
@@ -2106,7 +2063,6 @@ s2
 )
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 bool
 equal
@@ -2133,7 +2089,6 @@ s2
 )
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -6963,6 +6918,19 @@ return
 false
 ;
 }
+if
+(
+!
+chars
+.
+resize
+(
+size
+)
+)
+return
+false
+;
 RootedString
 str
 (
@@ -9493,6 +9461,19 @@ return
 false
 ;
 }
+if
+(
+!
+chars
+.
+resize
+(
+size
+)
+)
+return
+false
+;
 RootedString
 str
 (
