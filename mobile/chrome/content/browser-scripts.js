@@ -195,6 +195,11 @@ ContextHelper
 ]
 [
 "
+SelectionHelper
+"
+]
+[
+"
 FormHelperUI
 "
 ]
