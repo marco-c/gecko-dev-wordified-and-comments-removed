@@ -479,6 +479,11 @@ cpp
 (
 NULL
 )
+DEFINES
++
+=
+-
+DIMPL_XREAPI
 GARBAGE
 +
 =
