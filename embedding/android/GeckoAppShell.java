@@ -3773,7 +3773,10 @@ aTitle
 +
 "
 ]
+>
 "
++
+aType
 )
 ;
 Intent
@@ -3787,11 +3790,13 @@ Intent
 if
 (
 aType
-=
-=
+.
+equalsIgnoreCase
+(
 "
 webapp
 "
+)
 )
 {
 shortcutIntent
