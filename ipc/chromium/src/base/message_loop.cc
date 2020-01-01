@@ -337,6 +337,10 @@ state_
 (
 NULL
 )
+run_depth_base_
+(
+1
+)
 #
 ifdef
 OS_WIN
@@ -427,6 +431,10 @@ ipc
 MessagePumpForChildProcess
 (
 )
+;
+run_depth_base_
+=
+2
 ;
 return
 ;
@@ -879,9 +887,8 @@ state_
 -
 >
 run_depth
-!
-=
-1
+>
+run_depth_base_
 )
 return
 false
@@ -1382,9 +1389,9 @@ state_
 -
 >
 run_depth
+>
 =
-=
-1
+run_depth_base_
 )
 {
 RunTask
