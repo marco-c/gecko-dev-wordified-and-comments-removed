@@ -1239,9 +1239,14 @@ if
 setFocusToChrome
 )
 {
-BrowserSearch
+document
 .
-searchBar
+getElementById
+(
+"
+urlbar
+"
+)
 .
 focus
 (
