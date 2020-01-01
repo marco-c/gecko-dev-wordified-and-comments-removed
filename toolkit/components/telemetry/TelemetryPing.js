@@ -2175,7 +2175,6 @@ isGPU2Active
 "
 "
 D2DEnabled
-;
 "
 "
 DWriteEnabled
