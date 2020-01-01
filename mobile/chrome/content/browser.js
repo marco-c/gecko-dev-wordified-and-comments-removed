@@ -8506,7 +8506,15 @@ browser
 .
 appIcon
 =
+{
+href
+:
 null
+size
+:
+-
+1
+}
 ;
 #
 ifdef

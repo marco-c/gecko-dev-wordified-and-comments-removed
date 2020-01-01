@@ -10167,6 +10167,8 @@ icon
 browser
 .
 appIcon
+.
+href
 ;
 if
 (
