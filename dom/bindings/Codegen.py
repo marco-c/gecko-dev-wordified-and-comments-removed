@@ -14707,6 +14707,13 @@ is
 None
 )
     
+assert
+not
+isDefinitelyObject
+or
+not
+isNullOrUndefined
+    
 def
 onFailureNotAnObject
 (
@@ -14959,15 +14966,33 @@ def
 wrapObjectTemplate
 (
 templateBody
-isDefinitelyObject
 type
-                           
 codeToSetNull
 failureCode
 =
 None
 )
 :
+        
+if
+isNullOrUndefined
+:
+            
+assert
+type
+.
+nullable
+(
+)
+            
+return
+"
+%
+s
+;
+"
+%
+codeToSetNull
         
 if
 not
@@ -15670,8 +15695,6 @@ templateBody
 wrapObjectTemplate
 (
 templateBody
-isDefinitelyObject
-                                          
 type
                                           
 "
@@ -18288,9 +18311,8 @@ templateBody
 wrapObjectTemplate
 (
 templateBody
-isDefinitelyObject
-                                          
 type
+                                          
 "
 {
 declName
@@ -18748,7 +18770,6 @@ template
 wrapObjectTemplate
 (
 template
-isDefinitelyObject
 type
                                       
 "
@@ -19865,7 +19886,6 @@ define
 (
 )
                 
-isDefinitelyObject
 type
                 
 "
@@ -20044,7 +20064,6 @@ toObject
 ;
 "
                                       
-isDefinitelyObject
 type
                                       
 "
