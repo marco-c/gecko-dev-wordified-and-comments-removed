@@ -1265,6 +1265,16 @@ aMadeChanges
 )
 ;
 nsresult
+InitTempTables
+(
+)
+;
+nsresult
+InitViews
+(
+)
+;
+nsresult
 InitFunctions
 (
 )
