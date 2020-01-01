@@ -475,6 +475,10 @@ NULL
 EXPORTS
 =
 \
+ARIAGridAccessibleWrap
+.
+h
+\
 nsAccessNodeWrap
 .
 h
@@ -484,10 +488,6 @@ nsTextAccessibleWrap
 h
 \
 nsAccessibleWrap
-.
-h
-\
-nsARIAGridAccessibleWrap
 .
 h
 \

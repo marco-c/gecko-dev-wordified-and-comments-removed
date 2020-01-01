@@ -443,7 +443,7 @@ nsHTMLWin32ObjectAccessible
 .
 cpp
 \
-nsARIAGridAccessibleWrap
+ARIAGridAccessibleWrap
 .
 cpp
 \
@@ -537,6 +537,10 @@ NULL
 EXPORTS
 =
 \
+ARIAGridAccessibleWrap
+.
+h
+\
 nsAccessNodeWrap
 .
 h
@@ -558,10 +562,6 @@ nsRootAccessibleWrap
 h
 \
 nsHTMLWin32ObjectAccessible
-.
-h
-\
-nsARIAGridAccessibleWrap
 .
 h
 \

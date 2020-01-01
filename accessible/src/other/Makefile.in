@@ -441,11 +441,11 @@ NULL
 EXPORTS
 =
 \
-nsAccessNodeWrap
+ARIAGridAccessibleWrap
 .
 h
 \
-nsARIAGridAccessibleWrap
+nsAccessNodeWrap
 .
 h
 \
