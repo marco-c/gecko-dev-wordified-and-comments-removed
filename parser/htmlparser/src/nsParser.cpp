@@ -5925,7 +5925,7 @@ IsInsertionPointDefined
 )
 {
 return
-true
+false
 ;
 }
 void
