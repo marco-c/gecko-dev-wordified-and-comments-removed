@@ -8,9 +8,9 @@ const
 substring_type
 &
 str
-uint32_t
+PRUint32
 startPos
-uint32_t
+PRUint32
 length
 )
 {

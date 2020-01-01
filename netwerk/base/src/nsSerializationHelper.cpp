@@ -186,7 +186,7 @@ nsISupports
 obj
 )
 {
-uint32_t
+PRUint32
 size
 =
 str
@@ -276,7 +276,7 @@ str
 Length
 (
 )
-nullptr
+nsnull
 )
 ;
 if
@@ -383,6 +383,7 @@ serializable
 nsACString
 &
 _retval
+NS_OUTPARAM
 )
 {
 return
@@ -407,6 +408,7 @@ nsISupports
 *
 *
 _retval
+NS_OUTPARAM
 )
 {
 return

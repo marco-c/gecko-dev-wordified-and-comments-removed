@@ -18,9 +18,9 @@ Rebind
 const
 substring_type
 &
-uint32_t
+PRUint32
 startPos
-uint32_t
+PRUint32
 length
 =
 size_type
@@ -72,9 +72,9 @@ const
 substring_type
 &
 str
-uint32_t
+PRUint32
 startPos
-uint32_t
+PRUint32
 length
 =
 size_type
@@ -143,7 +143,7 @@ char_type
 (
 start
 )
-uint32_t
+PRUint32
 (
 end
 -
@@ -179,7 +179,7 @@ get
 (
 )
 )
-uint32_t
+PRUint32
 (
 end
 .
@@ -228,12 +228,12 @@ const
 nsTSubstring_CharT
 &
 str
-uint32_t
+PRUint32
 startPos
-uint32_t
+PRUint32
 length
 =
-uint32_t
+PRUint32
 (
 -
 1
@@ -295,7 +295,7 @@ const
 CharT
 *
 data
-uint32_t
+PRUint32
 length
 )
 {
@@ -339,7 +339,7 @@ const
 nsTSubstring_CharT
 &
 str
-uint32_t
+PRUint32
 count
 )
 {
@@ -361,7 +361,7 @@ const
 nsTSubstring_CharT
 &
 str
-uint32_t
+PRUint32
 count
 )
 {
