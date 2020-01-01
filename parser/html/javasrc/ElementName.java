@@ -176,6 +176,19 @@ HTML_INTEGRATION_POINT
 public
 static
 final
+int
+OPTIONAL_END_TAG
+=
+(
+1
+<
+<
+23
+)
+;
+public
+static
+final
 ElementName
 NULL_ELEMENT_NAME
 =
@@ -643,6 +656,8 @@ TreeBuilder
 P
 |
 SPECIAL
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -787,6 +802,8 @@ TreeBuilder
 DD_OR_DT
 |
 SPECIAL
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -831,6 +848,8 @@ TreeBuilder
 DD_OR_DT
 |
 SPECIAL
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -1107,6 +1126,8 @@ TreeBuilder
 LI
 |
 SPECIAL
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -1317,6 +1338,8 @@ rp
 TreeBuilder
 .
 RT_OR_RP
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -1337,6 +1360,8 @@ rt
 TreeBuilder
 .
 RT_OR_RP
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -1361,6 +1386,8 @@ TD_OR_TH
 SPECIAL
 |
 SCOPING
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -1385,6 +1412,8 @@ TD_OR_TH
 SPECIAL
 |
 SCOPING
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -1409,6 +1438,8 @@ TR
 SPECIAL
 |
 FOSTER_PARENTING
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -2511,6 +2542,8 @@ TreeBuilder
 BODY
 |
 SPECIAL
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -2797,6 +2830,8 @@ TreeBuilder
 HEAD
 |
 SPECIAL
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -2821,6 +2856,8 @@ HTML
 SPECIAL
 |
 SCOPING
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -4167,6 +4204,8 @@ TBODY_OR_THEAD_OR_TFOOT
 SPECIAL
 |
 FOSTER_PARENTING
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -4301,6 +4340,8 @@ TBODY_OR_THEAD_OR_TFOOT
 SPECIAL
 |
 FOSTER_PARENTING
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -4325,6 +4366,8 @@ TBODY_OR_THEAD_OR_TFOOT
 SPECIAL
 |
 FOSTER_PARENTING
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -5185,6 +5228,8 @@ option
 TreeBuilder
 .
 OPTION
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -6545,6 +6590,8 @@ TreeBuilder
 COLGROUP
 |
 SPECIAL
+|
+OPTIONAL_END_TAG
 )
 ;
 public
@@ -6895,6 +6942,8 @@ TreeBuilder
 OPTGROUP
 |
 SPECIAL
+|
+OPTIONAL_END_TAG
 )
 ;
 public
