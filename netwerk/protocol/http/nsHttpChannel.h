@@ -166,8 +166,6 @@ public
 nsIApplicationCacheChannel
 public
 nsIAsyncVerifyRedirectCallback
-public
-nsIHttpChannelParentInternal
 {
 public
 :
@@ -184,7 +182,6 @@ NS_DECL_NSITRACEABLECHANNEL
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSIAPPLICATIONCACHECHANNEL
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
-NS_DECL_NSIHTTPCHANNELPARENTINTERNAL
 NS_IMETHOD
 GetIsSSL
 (
@@ -1135,11 +1132,6 @@ mFallingBack
 ;
 PRUint32
 mWaitingForRedirectCallback
-:
-1
-;
-PRUint32
-mRemoteChannel
 :
 1
 ;
