@@ -1632,7 +1632,6 @@ AsmJSActivation
 JSContext
 *
 cx
-const
 AsmJSModule
 &
 module
@@ -1895,7 +1894,6 @@ toObject
 )
 )
 ;
-const
 AsmJSModule
 &
 module

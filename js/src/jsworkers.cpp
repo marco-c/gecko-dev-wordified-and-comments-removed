@@ -1666,7 +1666,7 @@ noteAsmJSFailure
 asmData
 -
 >
-funcNum
+func
 )
 ;
 state
