@@ -527,15 +527,6 @@ BuildModel
 void
 )
 ;
-NS_IMETHOD_
-(
-nsDTDMode
-)
-GetParseMode
-(
-void
-)
-;
 NS_IMETHODIMP
 CancelParsingEvents
 (
@@ -597,6 +588,8 @@ WillParse
 NS_IMETHOD
 WillBuildModel
 (
+nsDTDMode
+aDTDMode
 )
 ;
 NS_IMETHOD

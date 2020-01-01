@@ -287,15 +287,6 @@ nsIParserFilter
 aFilter
 )
 ;
-NS_IMETHOD_
-(
-nsDTDMode
-)
-GetParseMode
-(
-void
-)
-;
 NS_IMETHOD
 Parse
 (

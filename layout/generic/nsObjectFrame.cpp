@@ -2268,13 +2268,6 @@ kWidgetCID
 NS_CHILD_CID
 )
 ;
-static
-NS_DEFINE_CID
-(
-kCPluginManagerCID
-NS_PLUGINMANAGER_CID
-)
-;
 NS_IMETHODIMP
 nsObjectFrame
 :
@@ -7392,7 +7385,7 @@ pluginHost
 (
 do_GetService
 (
-kCPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 &
 rv
 )
@@ -7597,7 +7590,7 @@ pluginHost
 (
 do_GetService
 (
-kCPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 &
 rv
 )
@@ -8236,7 +8229,7 @@ pluginHost
 =
 do_GetService
 (
-kCPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 )
 ;
 if
@@ -9123,7 +9116,7 @@ ph
 =
 do_GetService
 (
-kCPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 )
 ;
 nsCOMPtr
@@ -9416,7 +9409,7 @@ ph
 =
 do_GetService
 (
-kCPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 )
 ;
 nsCOMPtr
