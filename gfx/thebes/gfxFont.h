@@ -116,6 +116,11 @@ nsISupportsImpl
 .
 h
 "
+typedef
+struct
+_cairo_scaled_font
+cairo_scaled_font_t
+;
 #
 ifdef
 DEBUG
@@ -3199,6 +3204,10 @@ protected
 nsAutoRefCnt
 mRefCnt
 ;
+cairo_scaled_font_t
+*
+mScaledFont
+;
 void
 NotifyReleased
 (
@@ -3249,6 +3258,11 @@ AntialiasOption
 anAAOption
 =
 kAntialiasDefault
+cairo_scaled_font_t
+*
+aScaledFont
+=
+nsnull
 )
 ;
 public

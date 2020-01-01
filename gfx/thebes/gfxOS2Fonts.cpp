@@ -83,10 +83,6 @@ mFontFace
 (
 nsnull
 )
-mScaledFont
-(
-nsnull
-)
 mMetrics
 (
 nsnull
