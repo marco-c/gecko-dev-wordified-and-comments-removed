@@ -294,7 +294,6 @@ styleTags
 kATSUFontTag
 kATSUSizeTag
 kATSUFontMatrixTag
-kATSUKerningInhibitFactorTag
 }
 ;
 ByteCount
@@ -371,16 +370,6 @@ CGAffineTransformMakeScale
 1
 )
 ;
-Fract
-inhibitKerningFactor
-=
-FloatToFract
-(
-1
-.
-0
-)
-;
 ATSUAttributeValuePtr
 styleArgs
 [
@@ -393,8 +382,6 @@ fid
 fSize
 &
 transform
-&
-inhibitKerningFactor
 }
 ;
 if
