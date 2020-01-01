@@ -449,13 +449,6 @@ browser
 /
 components
 /
-history
-/
-Makefile
-browser
-/
-components
-/
 migration
 /
 Makefile
