@@ -533,6 +533,7 @@ objp
 extern
 JSObject
 *
+JS_FASTCALL
 js_CloneRegExpObject
 (
 JSContext
@@ -541,9 +542,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-parent
 )
 ;
 const

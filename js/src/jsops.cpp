@@ -12943,7 +12943,6 @@ getRegExp
 (
 index
 )
-NULL
 )
 ;
 if
