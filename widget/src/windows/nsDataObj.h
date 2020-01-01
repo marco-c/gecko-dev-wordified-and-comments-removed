@@ -82,14 +82,7 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
-nsVoidArray
+nsTPtrArray
 .
 h
 "
@@ -938,7 +931,10 @@ const
 ULONG
 m_cRef
 ;
-nsVoidArray
+nsTPtrArray
+<
+nsCString
+>
 mDataFlavors
 ;
 nsITransferable
