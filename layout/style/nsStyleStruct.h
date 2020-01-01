@@ -5460,6 +5460,9 @@ mVisible
 uint8_t
 mPointerEvents
 ;
+uint8_t
+mWritingMode
+;
 bool
 IsVisible
 (
