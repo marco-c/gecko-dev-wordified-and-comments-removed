@@ -327,6 +327,15 @@ ForceNativeMenuReload
 (
 )
 ;
+static
+char
+GetLocalizedAccelKey
+(
+char
+*
+shortcutID
+)
+;
 protected
 :
 void
