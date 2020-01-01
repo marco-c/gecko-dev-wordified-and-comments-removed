@@ -410,7 +410,7 @@ widget
 WinTaskbar
 :
 :
-SetAppUserModelID
+RegisterAppUserModelID
 (
 )
 ;
