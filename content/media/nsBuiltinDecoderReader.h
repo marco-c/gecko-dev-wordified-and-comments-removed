@@ -1188,8 +1188,6 @@ FindEndTime
 PRInt64
 aEndOffset
 )
-=
-0
 ;
 virtual
 nsresult
