@@ -112,7 +112,7 @@ buf
 =
 0
 ;
-uint32_t
+float
 xdpi
 ;
 uint32_t
