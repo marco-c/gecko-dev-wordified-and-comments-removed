@@ -1398,8 +1398,10 @@ URIParams
 manifestURI
 URIParams
 documentURI
-nsCString
-clientID
+bool
+isInBrowserElement
+uint32_t
+appId
 bool
 stickDocument
 )

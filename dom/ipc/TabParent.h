@@ -820,9 +820,13 @@ URIParams
 &
 aDocumentURI
 const
-nsCString
+bool
 &
-aClientID
+isInBrowserElement
+const
+uint32_t
+&
+appId
 const
 bool
 &

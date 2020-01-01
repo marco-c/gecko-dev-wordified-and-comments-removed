@@ -5631,9 +5631,13 @@ URIParams
 &
 documentURI
 const
-nsCString
+bool
 &
-clientID
+isInBrowserElement
+const
+uint32_t
+&
+appId
 const
 bool
 &

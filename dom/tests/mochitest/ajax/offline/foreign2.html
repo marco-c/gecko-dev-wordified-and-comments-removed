@@ -237,6 +237,11 @@ foreign2
 .
 html
 "
+OfflineTest
+.
+loadContext
+(
+)
 )
 ;
 OfflineTest
@@ -263,7 +268,9 @@ is
 (
 foreign2cache
 .
-groupID
+manifestURI
+.
+asciiSpec
 "
 http
 :
@@ -295,7 +302,7 @@ cacheManifest
 var
 foreign1cache
 =
-appCacheService
+OfflineTest
 .
 getActiveCache
 (
@@ -403,7 +410,7 @@ nsIApplicationCacheService
 var
 foreign1cache
 =
-appCacheService
+OfflineTest
 .
 getActiveCache
 (
@@ -452,7 +459,7 @@ loaded
 var
 foreign2cache
 =
-appCacheService
+OfflineTest
 .
 getActiveCache
 (
@@ -533,6 +540,11 @@ foreign2
 .
 html
 "
+OfflineTest
+.
+loadContext
+(
+)
 )
 ;
 OfflineTest

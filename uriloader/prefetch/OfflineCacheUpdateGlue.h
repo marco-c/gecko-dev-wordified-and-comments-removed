@@ -391,6 +391,9 @@ aDocument
 nsIFile
 *
 aCustomProfileDir
+nsILoadContext
+*
+aLoadContext
 )
 ;
 NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER
