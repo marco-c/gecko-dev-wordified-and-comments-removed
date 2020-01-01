@@ -18285,6 +18285,7 @@ isconstq
 (
 )
 )
+{
 guard
 (
 d
@@ -18317,6 +18318,7 @@ u64
 BRANCH_EXIT
 )
 ;
+}
 }
 else
 if
