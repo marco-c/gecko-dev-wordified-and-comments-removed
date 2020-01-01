@@ -41,6 +41,9 @@ h
 >
 #
 ifndef
+WINCE
+#
+ifndef
 IDropTargetHelper
 #
 include
@@ -49,6 +52,8 @@ shobjidl
 .
 h
 >
+#
+endif
 #
 endif
 class
@@ -211,10 +216,15 @@ nsIDragService
 *
 mDragService
 ;
+#
+ifndef
+WINCE
 IDropTargetHelper
 *
 mDropTargetHelper
 ;
+#
+endif
 }
 ;
 #
