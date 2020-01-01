@@ -158,6 +158,12 @@ aLauncher
 MIMEInfo
 .
 hasDefaultHandler
+&
+&
+!
+aLauncher
+.
+targetFileIsExecutable
 )
 {
 aLauncher
@@ -1250,7 +1256,7 @@ bundle
 GetStringFromName
 (
 "
-alertCantOpenDownload
+alertTapToSave
 "
 )
 true
