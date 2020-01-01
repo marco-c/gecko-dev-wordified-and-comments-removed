@@ -254,6 +254,17 @@ close
 (
 )
 ;
+gBrowser
+.
+removeEventListener
+(
+"
+pageshow
+"
+onPageShow
+false
+)
+;
 finish
 (
 )

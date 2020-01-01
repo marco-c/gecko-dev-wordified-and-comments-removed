@@ -178,6 +178,17 @@ handleLoad
 (
 )
 {
+this
+.
+removeEventListener
+(
+"
+load
+"
+handleLoad
+true
+)
+;
 pageInfo
 =
 BrowserPageInfo

@@ -69,6 +69,17 @@ checkPageStyleMenu
 (
 )
 {
+this
+.
+removeEventListener
+(
+"
+load
+"
+checkPageStyleMenu
+true
+)
+;
 var
 menupopup
 =
