@@ -2093,6 +2093,8 @@ alldep
 preflight
 postflight
 maybe_clobber_profiledbuild
+upload
+sdk
 :
 :
 set
@@ -2914,6 +2916,8 @@ realclean
 distclean
 alldep
 maybe_clobber_profiledbuild
+upload
+sdk
 :
 :
 (
