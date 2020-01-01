@@ -1436,7 +1436,7 @@ message
 ;
 }
 function
-valuatePhis
+evaluatePhis
 (
 n
 v
@@ -1501,7 +1501,7 @@ v
 =
 v
 ;
-valuatePhis
+evaluatePhis
 (
 ps
 [
@@ -5173,7 +5173,7 @@ v
 v
 ;
 }
-valuatePhis
+evaluatePhis
 (
 n
 v
