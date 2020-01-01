@@ -4969,8 +4969,11 @@ GetMouseThrough
 (
 )
 const
-=
-0
+{
+return
+PR_FALSE
+;
+}
 ;
 #
 ifdef
