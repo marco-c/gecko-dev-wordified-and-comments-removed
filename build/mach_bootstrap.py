@@ -287,6 +287,14 @@ mozbase
 /
 mozinfo
 '
+    
+'
+xpcom
+/
+idl
+-
+parser
+'
 ]
 MACH_MODULES
 =
