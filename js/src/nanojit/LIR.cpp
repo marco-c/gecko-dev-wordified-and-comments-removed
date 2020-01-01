@@ -12703,6 +12703,17 @@ triggerFrag
 regMap
 )
 ;
+if
+(
+assm
+-
+>
+error
+(
+)
+)
+return
+;
 Fragment
 *
 root
