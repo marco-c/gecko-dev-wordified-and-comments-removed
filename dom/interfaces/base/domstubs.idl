@@ -139,9 +139,6 @@ interface
 nsIDOMComment
 ;
 interface
-nsIDOMDOMImplementation
-;
-interface
 nsIDOMDocument
 ;
 interface
