@@ -9323,7 +9323,7 @@ origin
 =
 metrics
 .
-getDisplayportOrigin
+getOrigin
 (
 )
 ;
@@ -16939,7 +16939,7 @@ origin
 =
 aViewport
 .
-getDisplayportOrigin
+getOrigin
 (
 )
 ;
@@ -17081,7 +17081,7 @@ targetOrigin
 =
 viewport
 .
-getDisplayportOrigin
+getOrigin
 (
 )
 ;
@@ -17090,7 +17090,7 @@ originalOrigin
 =
 mOriginalViewport
 .
-getDisplayportOrigin
+getOrigin
 (
 )
 ;
