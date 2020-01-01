@@ -159,6 +159,13 @@ PRUint32
 aFlags
 )
 ;
+enum
+{
+ALLOW_REPEAT
+=
+0x01
+}
+;
 virtual
 already_AddRefed
 <
@@ -172,6 +179,8 @@ const
 nsIntSize
 &
 aSize
+PRUint32
+aFlags
 )
 =
 0

@@ -1169,6 +1169,8 @@ const
 nsIntSize
 &
 aSize
+PRUint32
+aFlags
 )
 ;
 void
@@ -3016,6 +3018,8 @@ const
 nsIntSize
 &
 aSize
+PRUint32
+aFlags
 )
 {
 return
