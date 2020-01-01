@@ -235,7 +235,7 @@ The
 icon
 is
 showing
-th
+the
 default
 fav
 icon

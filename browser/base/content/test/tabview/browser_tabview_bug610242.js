@@ -644,7 +644,7 @@ about
 :
 mozilla
 "
-false
+true
 )
 ;
 check
