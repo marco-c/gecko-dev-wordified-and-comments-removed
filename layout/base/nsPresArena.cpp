@@ -295,8 +295,7 @@ return
 mmap
 (
 (
-void
-*
+caddr_t
 )
 region
 size
@@ -323,6 +322,9 @@ size
 {
 munmap
 (
+(
+caddr_t
+)
 region
 size
 )
@@ -343,8 +345,7 @@ if
 madvise
 (
 (
-void
-*
+caddr_t
 )
 region
 size
