@@ -654,14 +654,6 @@ historyframes
 .
 html
 \
-test_bug570341
-.
-html
-\
-bug570341_recordevents
-.
-html
-\
 (
 NULL
 )
