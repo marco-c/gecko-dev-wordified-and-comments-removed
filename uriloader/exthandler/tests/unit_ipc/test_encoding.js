@@ -961,7 +961,11 @@ uriloader
 openURI
 (
 channel
-true
+Ci
+.
+nsIURILoader
+.
+IS_CONTENT_PREFERRED
 new
 WindowContext
 (
