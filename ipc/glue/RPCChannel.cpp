@@ -2651,7 +2651,6 @@ AssertIOThread
 (
 )
 ;
-{
 MutexAutoLock
 lock
 (
@@ -2686,11 +2685,7 @@ NotifyWorkerThread
 (
 )
 ;
-}
-AsyncChannel
-:
-:
-OnChannelError
+PostErrorNotifyTask
 (
 )
 ;

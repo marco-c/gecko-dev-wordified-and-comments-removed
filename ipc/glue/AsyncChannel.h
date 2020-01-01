@@ -476,6 +476,11 @@ OnCloseChannel
 (
 )
 ;
+void
+PostErrorNotifyTask
+(
+)
+;
 bool
 MaybeInterceptSpecialIOMessage
 (
