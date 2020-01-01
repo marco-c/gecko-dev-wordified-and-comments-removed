@@ -2750,6 +2750,14 @@ file_mixed_content_frameNavigation_blankTarget
 .
 html
 \
+file_bug902350
+.
+html
+\
+file_bug902350_frame
+.
+html
+\
 test_bug789856
 .
 html
@@ -3148,6 +3156,10 @@ MOCHITEST_BROWSER_FILES
 =
 \
 browser_bug593387
+.
+js
+\
+browser_bug902350
 .
 js
 \
