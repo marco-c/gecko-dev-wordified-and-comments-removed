@@ -64,6 +64,9 @@ virtual
 nsresult
 ResumeSend
 (
+nsAHttpTransaction
+*
+caller
 )
 =
 0
@@ -72,6 +75,9 @@ virtual
 nsresult
 ResumeRecv
 (
+nsAHttpTransaction
+*
+caller
 )
 =
 0
@@ -217,12 +223,16 @@ reset
 nsresult
 ResumeSend
 (
+nsAHttpTransaction
+*
 )
 ;
 \
 nsresult
 ResumeRecv
 (
+nsAHttpTransaction
+*
 )
 ;
 \

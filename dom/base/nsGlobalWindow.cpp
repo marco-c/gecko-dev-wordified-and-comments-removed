@@ -15513,6 +15513,16 @@ return
 NS_OK
 ;
 }
+if
+(
+!
+aCallback
+)
+{
+return
+NS_ERROR_XPC_BAD_CONVERT_JS
+;
+}
 mDoc
 -
 >
@@ -41095,6 +41105,8 @@ menuPopupFrame
 NS_OK
 )
 ;
+widget
+=
 (
 static_cast
 <
@@ -41109,10 +41121,6 @@ frame
 >
 GetWidget
 (
-getter_AddRefs
-(
-widget
-)
 )
 ;
 }

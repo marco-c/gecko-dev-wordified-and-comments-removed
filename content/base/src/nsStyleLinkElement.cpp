@@ -545,10 +545,10 @@ bool
 inString
 =
 !
-nsCRT
+nsContentUtils
 :
 :
-IsAsciiSpace
+IsHTMLWhitespace
 (
 *
 current
@@ -567,10 +567,10 @@ done
 {
 if
 (
-nsCRT
+nsContentUtils
 :
 :
-IsAsciiSpace
+IsHTMLWhitespace
 (
 *
 current

@@ -11022,7 +11022,7 @@ param_iid
 return
 false
 ;
-uintN
+nsresult
 err
 ;
 if

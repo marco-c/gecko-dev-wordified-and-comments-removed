@@ -387,16 +387,6 @@ _retval
 =
 false
 ;
-nsAutoString
-fromFlavor
-;
-fromFlavor
-.
-AssignWithConversion
-(
-aFromDataFlavor
-)
-;
 if
 (
 !

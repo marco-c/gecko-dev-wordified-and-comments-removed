@@ -24,13 +24,6 @@ JSScript
 namespace
 js
 {
-struct
-VMFunction
-;
-}
-namespace
-js
-{
 namespace
 ion
 {
@@ -229,6 +222,8 @@ finalize
 JSContext
 *
 cx
+bool
+background
 )
 ;
 template
@@ -883,6 +878,9 @@ hf
 ;
 }
 ;
+struct
+VMFunction
+;
 }
 namespace
 gc
@@ -894,6 +892,9 @@ IsMarked
 JSContext
 *
 const
+ion
+:
+:
 VMFunction
 *
 )

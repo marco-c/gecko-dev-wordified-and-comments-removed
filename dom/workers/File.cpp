@@ -636,6 +636,16 @@ aCx
 aVp
 )
 ;
+if
+(
+!
+obj
+)
+{
+return
+false
+;
+}
 nsIDOMBlob
 *
 blob

@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsStringAPI
 .
 h
@@ -50,6 +43,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+nsIMutableArray
 .
 h
 "
@@ -460,7 +460,7 @@ mOperaProfile
 ;
 nsCOMPtr
 <
-nsISupportsArray
+nsIMutableArray
 >
 mProfiles
 ;

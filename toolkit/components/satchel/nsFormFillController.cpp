@@ -1924,9 +1924,10 @@ formHistoryResult
 ;
 if
 (
+!
 mFocusedInput
-&
-&
+|
+|
 nsContentUtils
 :
 :

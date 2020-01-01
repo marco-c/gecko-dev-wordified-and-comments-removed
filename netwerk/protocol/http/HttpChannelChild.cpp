@@ -3929,6 +3929,7 @@ mStartPos
 mEntityID
 mChooseApplicationCache
 appCacheClientId
+mAllowSpdy
 )
 ;
 return

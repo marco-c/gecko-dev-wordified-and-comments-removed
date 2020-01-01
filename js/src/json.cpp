@@ -4338,13 +4338,7 @@ JSObject
 *
 JSON
 =
-NewNonFunction
-<
-WithProto
-:
-:
-Class
->
+NewObjectWithClassProto
 (
 cx
 &

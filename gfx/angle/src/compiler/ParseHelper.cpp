@@ -2975,6 +2975,10 @@ type
 isMatrix
 (
 )
+|
+|
+!
+matrixInMatrix
 )
 {
 if

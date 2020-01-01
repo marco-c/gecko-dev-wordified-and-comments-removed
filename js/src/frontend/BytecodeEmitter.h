@@ -685,10 +685,6 @@ TCF_STRICT_MODE_CODE
 0x20000
 #
 define
-TCF_FUN_UNBRAND_THIS
-0x100000
-#
-define
 TCF_FUN_MODULE_PATTERN
 0x200000
 #
@@ -2219,9 +2215,6 @@ SlotVector
 closedVars
 ;
 uint16
-traceIndex
-;
-uint16
 typesetCount
 ;
 BytecodeEmitter
@@ -3113,7 +3106,7 @@ SRC_FOR
 SRC_WHILE
 =
 4
-SRC_TRACE
+SRC_LOOPHEAD
 =
 4
 SRC_CONTINUE

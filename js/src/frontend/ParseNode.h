@@ -3630,16 +3630,6 @@ scopeIsExtensible
 )
 const
 ;
-bool
-shouldUnbrand
-(
-uintN
-methods
-uintN
-slowMethods
-)
-const
-;
 }
 ;
 struct

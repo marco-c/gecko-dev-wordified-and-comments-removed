@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsISupportsArray
+nsIMutableArray
 .
 h
 "
@@ -426,13 +426,13 @@ NS_WINDOWWATCHER_CONTRACTID
 ;
 nsCOMPtr
 <
-nsISupportsArray
+nsIMutableArray
 >
 params
 =
 do_CreateInstance
 (
-NS_SUPPORTSARRAY_CONTRACTID
+NS_ARRAY_CONTRACTID
 )
 ;
 if
@@ -453,6 +453,7 @@ params
 AppendElement
 (
 cstr
+false
 )
 ;
 params
@@ -461,6 +462,7 @@ params
 AppendElement
 (
 bpm
+false
 )
 ;
 params
@@ -469,6 +471,7 @@ params
 AppendElement
 (
 aStartup
+false
 )
 ;
 nsCOMPtr

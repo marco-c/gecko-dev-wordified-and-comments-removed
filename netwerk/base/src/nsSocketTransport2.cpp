@@ -1904,6 +1904,9 @@ count
 =
 =
 0
+&
+&
+mByteCount
 )
 return
 NS_OK

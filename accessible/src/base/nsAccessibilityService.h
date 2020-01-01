@@ -1286,6 +1286,9 @@ object
 "
 note
 "
+"
+figure
+"
 }
 ;
 static
