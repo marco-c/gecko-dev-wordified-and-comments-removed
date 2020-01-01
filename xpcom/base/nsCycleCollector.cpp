@@ -291,6 +291,15 @@ Telemetry
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ThreadLocal
+.
+h
+"
 using
 namespace
 mozilla
