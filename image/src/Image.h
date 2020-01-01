@@ -259,7 +259,9 @@ nsISupports
 *
 aContext
 nsresult
-status
+aStatus
+bool
+aLastPart
 )
 =
 0

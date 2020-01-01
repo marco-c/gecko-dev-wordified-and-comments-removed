@@ -543,7 +543,9 @@ nsISupports
 *
 aContext
 nsresult
-aResult
+aStatus
+bool
+aLastPart
 )
 MOZ_OVERRIDE
 ;
@@ -1152,6 +1154,11 @@ paletteData
 uint32_t
 *
 paletteLength
+)
+;
+nsresult
+DoImageDataComplete
+(
 )
 ;
 bool
