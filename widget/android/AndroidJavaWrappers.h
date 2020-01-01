@@ -463,6 +463,8 @@ const
 nsAString
 &
 aMetadata
+bool
+aHasDirectTexture
 )
 ;
 private

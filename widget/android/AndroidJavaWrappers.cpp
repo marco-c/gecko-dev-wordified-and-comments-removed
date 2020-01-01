@@ -2361,6 +2361,7 @@ lang
 /
 String
 ;
+Z
 )
 V
 "
@@ -3902,6 +3903,8 @@ const
 nsAString
 &
 aMetadata
+bool
+aHasDirectTexture
 )
 {
 NS_ASSERTION
@@ -3980,6 +3983,7 @@ aRect
 .
 height
 jMetadata
+aHasDirectTexture
 )
 ;
 }

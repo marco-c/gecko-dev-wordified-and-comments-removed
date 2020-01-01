@@ -148,6 +148,12 @@ Bind
 (
 )
 ;
+static
+bool
+IsBlacklisted
+(
+)
+;
 private
 :
 PRUint32
