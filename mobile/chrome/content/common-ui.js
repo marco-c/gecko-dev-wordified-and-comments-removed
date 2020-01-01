@@ -295,7 +295,8 @@ iconURI
 .
 spec
 :
-null
+"
+"
 )
 ;
 list
