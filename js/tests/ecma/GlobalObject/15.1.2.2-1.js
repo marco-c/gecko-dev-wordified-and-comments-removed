@@ -156,7 +156,6 @@ p
 PROPS
 "
 "
-prototype
 "
 eval
 (

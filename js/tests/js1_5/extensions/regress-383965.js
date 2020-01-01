@@ -64,10 +64,6 @@ aaa
 aaa
 :
 {
-prototype
-:
-{
-}
 }
 }
 )
