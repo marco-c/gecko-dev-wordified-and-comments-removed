@@ -14,7 +14,8 @@ let
 originalValue
 =
 "
-blue
+#
+00F
 "
 ;
 let
@@ -298,6 +299,7 @@ should
 be
 the
 value
+span
 .
 "
 )

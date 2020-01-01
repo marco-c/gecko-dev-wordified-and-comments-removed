@@ -57,6 +57,10 @@ MOCHITEST_BROWSER_FILES
 :
 =
 \
+browser_inspector_markup_colorconversion
+.
+js
+\
 browser_inspector_markup_navigation
 .
 html

@@ -57,6 +57,10 @@ MPL
 MOCHITEST_BROWSER_FILES
 =
 \
+browser_css_color
+.
+js
+\
 browser_eventemitter_basic
 .
 js
