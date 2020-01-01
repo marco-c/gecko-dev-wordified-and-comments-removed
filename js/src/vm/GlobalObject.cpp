@@ -1066,7 +1066,6 @@ compartment
 >
 addDebuggee
 (
-cx
 this
 )
 )
@@ -1092,7 +1091,6 @@ compartment
 >
 removeDebuggee
 (
-cx
 this
 )
 ;

@@ -939,8 +939,6 @@ compartment
 -
 >
 debugMode
-(
-)
 )
 ;
 JS_ASSERT

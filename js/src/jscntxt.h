@@ -1289,7 +1289,7 @@ contextList
 JSDebugHooks
 globalDebugHooks
 ;
-bool
+JSBool
 debugMode
 ;
 #
