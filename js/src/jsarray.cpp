@@ -8686,7 +8686,7 @@ tvr
 JSBool
 hole
 ;
-bool
+JSBool
 ok
 ;
 size_t

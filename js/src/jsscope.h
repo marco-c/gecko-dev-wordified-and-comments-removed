@@ -895,7 +895,7 @@ setter
 static
 JS_INLINE
 JSBool
-SPROP_GET
+js_GetSprop
 (
 JSContext
 *
@@ -906,9 +906,6 @@ sprop
 JSObject
 *
 obj
-JSObject
-*
-obj2
 jsval
 *
 vp
@@ -980,7 +977,7 @@ vp
 static
 JS_INLINE
 JSBool
-SPROP_SET
+js_SetSprop
 (
 JSContext
 *
@@ -991,9 +988,6 @@ sprop
 JSObject
 *
 obj
-JSObject
-*
-obj2
 jsval
 *
 vp
