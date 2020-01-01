@@ -649,6 +649,17 @@ dombindings_s
 NULL
 )
 ifdef
+MOZ_CONTENT_SANDBOX
+#
+{
+STATIC_LIBS
++
+=
+sandbox_s
+endif
+#
+}
+ifdef
 MOZ_B2G_RIL
 #
 {
