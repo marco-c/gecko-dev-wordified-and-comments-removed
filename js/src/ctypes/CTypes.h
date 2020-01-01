@@ -64,8 +64,10 @@ T
 ptr
 )
 {
-delete
+js_delete
+(
 ptr
+)
 ;
 }
 }
@@ -89,10 +91,10 @@ T
 ptr
 )
 {
-delete
-[
-]
+js_array_delete
+(
 ptr
+)
 ;
 }
 }

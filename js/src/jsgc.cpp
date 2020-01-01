@@ -4329,8 +4329,10 @@ finishArenaLists
 (
 )
 ;
-delete
+js_delete
+(
 comp
+)
 ;
 }
 rt
@@ -11957,8 +11959,10 @@ compartment
 principals
 )
 ;
-delete
+js_delete
+(
 compartment
+)
 ;
 }
 else
@@ -14337,8 +14341,10 @@ JSCompartment
 *
 compartment
 =
-new
+js_new
+<
 JSCompartment
+>
 (
 rt
 )
@@ -14358,8 +14364,10 @@ init
 )
 )
 {
-delete
+js_delete
+(
 compartment
+)
 ;
 JS_ReportOutOfMemory
 (

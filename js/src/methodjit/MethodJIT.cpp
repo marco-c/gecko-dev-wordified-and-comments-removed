@@ -3468,8 +3468,10 @@ release
 trampolines
 )
 ;
-delete
+js_delete
+(
 execAlloc
+)
 ;
 #
 ifdef

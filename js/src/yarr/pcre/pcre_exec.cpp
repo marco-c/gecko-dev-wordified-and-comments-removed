@@ -1504,8 +1504,12 @@ MatchFrame
 *
 frame
 =
-new
+js_new
+<
 MatchFrame
+>
+(
+)
 ;
 frame
 -
@@ -1646,8 +1650,10 @@ size
 >
 numFramesOnStack
 )
-delete
+js_delete
+(
 oldFrame
+)
 ;
 size
 -

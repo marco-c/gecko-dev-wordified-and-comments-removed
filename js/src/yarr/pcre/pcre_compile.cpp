@@ -8753,11 +8753,13 @@ JSRegExp
 *
 >
 (
-new
+js_array_new
+<
 char
-[
+>
+(
 size
-]
+)
 )
 ;
 if
@@ -9040,9 +9042,8 @@ errorcode
 ERR0
 )
 {
-delete
-[
-]
+js_array_delete
+(
 reinterpret_cast
 <
 char
@@ -9050,6 +9051,7 @@ char
 >
 (
 re
+)
 )
 ;
 return
@@ -9330,9 +9332,8 @@ JSRegExp
 re
 )
 {
-delete
-[
-]
+js_array_delete
+(
 reinterpret_cast
 <
 char
@@ -9340,6 +9341,7 @@ char
 >
 (
 re
+)
 )
 ;
 }
