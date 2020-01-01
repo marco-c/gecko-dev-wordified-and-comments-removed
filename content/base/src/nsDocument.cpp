@@ -16378,8 +16378,9 @@ aSheet
 )
 )
 {
-NS_NOTREACHED
+NS_ASSERTION
 (
+mInUnlinkOrDeletion
 "
 stylesheet
 not
