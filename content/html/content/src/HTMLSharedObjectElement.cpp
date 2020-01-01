@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMSVGDocument
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h

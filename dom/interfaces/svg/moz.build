@@ -123,11 +123,6 @@ nsIDOMSVGAnimatedString
 idl
 '
 '
-nsIDOMSVGDocument
-.
-idl
-'
-'
 nsIDOMSVGElement
 .
 idl
