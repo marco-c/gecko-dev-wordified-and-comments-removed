@@ -13730,7 +13730,7 @@ _internal_id
 ;
 return
 [
-copyRowProperties
+copyProperties
 (
 row
 [
