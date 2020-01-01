@@ -485,6 +485,10 @@ mk
 CPPSRCS
 =
 \
+nsDeviceMotionSystem
+.
+cpp
+\
 nsHapticFeedback
 .
 cpp

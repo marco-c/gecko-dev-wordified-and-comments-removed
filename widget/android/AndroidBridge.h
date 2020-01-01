@@ -509,6 +509,13 @@ AcknowledgeEventSync
 )
 ;
 void
+EnableDeviceMotion
+(
+bool
+aEnable
+)
+;
+void
 EnableLocation
 (
 bool
