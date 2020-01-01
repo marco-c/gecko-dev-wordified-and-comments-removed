@@ -12264,6 +12264,17 @@ then
 if
 test
 -
+z
+"
+STLPORT_CPPFLAGS
+STLPORT_LDFLAGS
+STLPORT_LIBS
+"
+;
+then
+if
+test
+-
 n
 "
 MOZ_ANDROID_LIBSTDCXX
@@ -12595,6 +12606,7 @@ android
 ndk
 ]
 )
+fi
 fi
 CXXFLAGS
 =
