@@ -174,7 +174,7 @@ const
 PRInt32
 DEFAULT_CHROME_HANG_INTERVAL
 =
-10
+5
 ;
 #
 endif
