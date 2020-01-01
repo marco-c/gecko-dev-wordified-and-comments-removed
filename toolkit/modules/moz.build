@@ -196,6 +196,16 @@ RemoteWebProgress
 jsm
 '
 '
+SelectContentHelper
+.
+jsm
+'
+'
+SelectParentHelper
+.
+jsm
+'
+'
 Sqlite
 .
 jsm
