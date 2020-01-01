@@ -380,6 +380,16 @@ return
 PR_FALSE
 ;
 }
+virtual
+PRBool
+SwapBuffers
+(
+)
+{
+return
+PR_FALSE
+;
+}
 protected
 :
 PRBool
