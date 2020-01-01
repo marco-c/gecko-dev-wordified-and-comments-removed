@@ -3183,10 +3183,6 @@ viewer
 \
 TestGtkEmbed
 \
-bloaturls
-.
-txt
-\
 codesighs
 *
 \
