@@ -27631,6 +27631,7 @@ IS_TRUE_OVERFLOW_CONTAINER
 this
 )
 )
+{
 return
 (
 1
@@ -27646,6 +27647,7 @@ NS_SIDE_TOP
 NS_SIDE_BOTTOM
 )
 ;
+}
 int
 skip
 =
