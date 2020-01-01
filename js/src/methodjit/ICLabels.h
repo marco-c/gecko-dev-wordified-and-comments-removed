@@ -611,7 +611,7 @@ const
 int32
 INLINE_TYPE_JUMP
 =
-12
+9
 ;
 #
 elif
