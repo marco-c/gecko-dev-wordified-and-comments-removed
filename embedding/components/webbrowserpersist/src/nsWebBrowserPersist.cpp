@@ -5910,6 +5910,16 @@ aDocument
 )
 )
 ;
+if
+(
+!
+doc
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 mURI
 =
 doc
