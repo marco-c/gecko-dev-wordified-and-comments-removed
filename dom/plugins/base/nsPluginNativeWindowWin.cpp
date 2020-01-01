@@ -1638,13 +1638,6 @@ HookSetWindowLongPtr
 (
 )
 {
-#
-ifdef
-_WIN64
-return
-;
-#
-endif
 sUser32Intercept
 .
 Init

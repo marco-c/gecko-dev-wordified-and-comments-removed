@@ -6500,13 +6500,6 @@ HookSetWindowLongPtr
 (
 )
 {
-#
-ifdef
-_WIN64
-return
-;
-#
-endif
 if
 (
 !
