@@ -235,8 +235,10 @@ js_InitMathClass
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 )
 ;

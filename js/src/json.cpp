@@ -4422,8 +4422,7 @@ js_InitJSONClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

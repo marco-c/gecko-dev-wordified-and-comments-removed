@@ -19,8 +19,10 @@ js_InitExceptionClasses
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 )
 ;

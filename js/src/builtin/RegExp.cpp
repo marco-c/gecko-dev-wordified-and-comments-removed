@@ -2572,8 +2572,7 @@ js_InitRegExpClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

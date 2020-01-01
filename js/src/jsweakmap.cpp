@@ -1882,8 +1882,7 @@ js_InitWeakMapClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

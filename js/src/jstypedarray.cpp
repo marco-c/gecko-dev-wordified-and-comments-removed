@@ -18409,8 +18409,7 @@ js_InitTypedArrayClasses
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

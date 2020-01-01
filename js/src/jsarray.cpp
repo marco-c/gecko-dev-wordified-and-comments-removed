@@ -16879,8 +16879,7 @@ js_InitArrayClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

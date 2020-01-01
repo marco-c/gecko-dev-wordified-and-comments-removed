@@ -155,8 +155,7 @@ js_InitObjectClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
@@ -191,8 +190,7 @@ js_InitFunctionClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

@@ -15398,8 +15398,7 @@ js_InitDateClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

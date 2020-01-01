@@ -37324,8 +37324,7 @@ js_InitNamespaceClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
@@ -37509,8 +37508,7 @@ js_InitQNameClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
@@ -37691,8 +37689,7 @@ js_InitXMLClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
@@ -38015,8 +38012,7 @@ js_InitXMLClasses
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

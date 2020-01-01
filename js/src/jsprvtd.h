@@ -973,8 +973,7 @@ JSClassInitializerOp
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 obj
 )
 ;

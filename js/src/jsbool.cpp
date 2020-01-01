@@ -764,8 +764,7 @@ js_InitBooleanClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

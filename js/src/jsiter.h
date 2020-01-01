@@ -1052,8 +1052,10 @@ js_InitIteratorClasses
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 )
 ;

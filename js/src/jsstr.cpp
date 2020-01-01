@@ -17026,8 +17026,7 @@ js_InitStringClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {

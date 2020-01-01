@@ -5784,8 +5784,7 @@ js_InitMapClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
@@ -7716,8 +7715,7 @@ js_InitSetClass
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 )
 {
