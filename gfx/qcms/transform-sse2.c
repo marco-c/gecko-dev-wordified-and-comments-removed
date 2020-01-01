@@ -519,7 +519,7 @@ src
 ;
 dest
 [
-0
+OUTPUT_R_INDEX
 ]
 =
 otdata_r
@@ -532,7 +532,7 @@ output
 ;
 dest
 [
-1
+OUTPUT_G_INDEX
 ]
 =
 otdata_g
@@ -545,7 +545,7 @@ output
 ;
 dest
 [
-2
+OUTPUT_B_INDEX
 ]
 =
 otdata_b
@@ -559,7 +559,7 @@ output
 dest
 +
 =
-3
+RGB_OUTPUT_COMPONENTS
 ;
 }
 vec_r
@@ -664,7 +664,7 @@ result
 ;
 dest
 [
-0
+OUTPUT_R_INDEX
 ]
 =
 otdata_r
@@ -677,7 +677,7 @@ output
 ;
 dest
 [
-1
+OUTPUT_G_INDEX
 ]
 =
 otdata_g
@@ -690,7 +690,7 @@ output
 ;
 dest
 [
-2
+OUTPUT_B_INDEX
 ]
 =
 otdata_b
@@ -1066,7 +1066,7 @@ mat2
 ;
 dest
 [
-3
+OUTPUT_A_INDEX
 ]
 =
 alpha
@@ -1176,7 +1176,7 @@ src
 ;
 dest
 [
-0
+OUTPUT_R_INDEX
 ]
 =
 otdata_r
@@ -1189,7 +1189,7 @@ output
 ;
 dest
 [
-1
+OUTPUT_G_INDEX
 ]
 =
 otdata_g
@@ -1202,7 +1202,7 @@ output
 ;
 dest
 [
-2
+OUTPUT_B_INDEX
 ]
 =
 otdata_b
@@ -1216,7 +1216,7 @@ output
 dest
 +
 =
-4
+RGBA_OUTPUT_COMPONENTS
 ;
 }
 vec_r
@@ -1272,7 +1272,7 @@ mat2
 ;
 dest
 [
-3
+OUTPUT_A_INDEX
 ]
 =
 alpha
@@ -1328,7 +1328,7 @@ result
 ;
 dest
 [
-0
+OUTPUT_R_INDEX
 ]
 =
 otdata_r
@@ -1341,7 +1341,7 @@ output
 ;
 dest
 [
-1
+OUTPUT_G_INDEX
 ]
 =
 otdata_g
@@ -1354,7 +1354,7 @@ output
 ;
 dest
 [
-2
+OUTPUT_B_INDEX
 ]
 =
 otdata_b
