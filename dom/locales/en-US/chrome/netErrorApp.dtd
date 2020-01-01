@@ -60,7 +60,7 @@ exception
 ENTITY
 securityOverride
 .
-warningContent
+warningText
 "
 <
 p
