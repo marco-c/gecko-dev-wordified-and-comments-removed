@@ -1409,6 +1409,13 @@ SyncClientsEngineStage
 java
 sync
 /
+stage
+/
+UploadMetaGlobalStage
+.
+java
+sync
+/
 StubActivity
 .
 java
@@ -1535,11 +1542,6 @@ java
 sync
 /
 SynchronizerConfiguration
-.
-java
-sync
-/
-SynchronizerConfigurations
 .
 java
 sync

@@ -95,6 +95,7 @@ syncFormHistory
 forms
 "
 )
+uploadMetaGlobal
 completed
 ;
 private
