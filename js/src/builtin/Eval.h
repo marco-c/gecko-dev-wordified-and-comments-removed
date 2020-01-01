@@ -58,6 +58,9 @@ HandleValue
 thisValue
 HandleString
 str
+jsbytecode
+*
+pc
 MutableHandleValue
 vp
 )
