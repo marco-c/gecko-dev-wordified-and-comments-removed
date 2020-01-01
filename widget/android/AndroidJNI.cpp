@@ -289,7 +289,7 @@ jclass
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_setSoftwareLayerClient
+Java_org_mozilla_gecko_GeckoAppShell_setLayerClient
 (
 JNIEnv
 *
@@ -297,6 +297,8 @@ jenv
 jclass
 jobject
 sv
+jint
+type
 )
 ;
 NS_EXPORT
@@ -762,7 +764,7 @@ obj
 NS_EXPORT
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_setSoftwareLayerClient
+Java_org_mozilla_gecko_GeckoAppShell_setLayerClient
 (
 JNIEnv
 *
@@ -770,6 +772,8 @@ jenv
 jclass
 jobject
 obj
+jint
+type
 )
 {
 AndroidBridge
@@ -780,7 +784,7 @@ Bridge
 )
 -
 >
-SetSoftwareLayerClient
+SetLayerClient
 (
 jenv
 -
@@ -789,6 +793,7 @@ NewGlobalRef
 (
 obj
 )
+type
 )
 ;
 }
