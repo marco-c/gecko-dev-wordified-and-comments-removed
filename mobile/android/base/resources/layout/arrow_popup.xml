@@ -106,7 +106,10 @@ android
 layout_width
 =
 "
-fill_parent
+?
+attr
+/
+doorhangerWidth
 "
 android
 :
@@ -162,7 +165,7 @@ id
 +
 id
 /
-doorhanger_container
+content
 "
 android
 :
@@ -201,7 +204,7 @@ id
 +
 id
 /
-doorhanger_arrow
+arrow
 "
 android
 :
