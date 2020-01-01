@@ -9559,7 +9559,7 @@ GpRegs
 Register
 tmp
 =
-registerAllocTmp
+registerAlloc
 (
 GpRegs
 &
@@ -9568,6 +9568,13 @@ rmask
 (
 indexreg
 )
+)
+;
+_allocator
+.
+addFree
+(
+tmp
 )
 ;
 LDR_scaled
