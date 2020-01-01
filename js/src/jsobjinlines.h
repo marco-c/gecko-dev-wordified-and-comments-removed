@@ -1509,7 +1509,7 @@ return
 uint32
 )
 (
-size_t
+uintptr_t
 )
 getPrivate
 (
@@ -1541,7 +1541,7 @@ void
 *
 )
 (
-size_t
+uintptr_t
 )
 length
 )
