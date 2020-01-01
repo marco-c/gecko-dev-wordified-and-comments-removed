@@ -541,6 +541,9 @@ WrapObject
 JSContext
 *
 cx
+XPCWrappedNativeScope
+*
+scope
 )
 ;
 NS_DECL_NSIDOMHTMLCOLLECTION

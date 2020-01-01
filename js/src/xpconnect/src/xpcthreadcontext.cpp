@@ -699,11 +699,7 @@ global_class
 "
 global_for_XPCJSContextStack_SafeJSContext
 "
-JSCLASS_HAS_PRIVATE
-|
-JSCLASS_PRIVATE_IS_NSISUPPORTS
-|
-JSCLASS_GLOBAL_FLAGS
+XPCONNECT_GLOBAL_FLAGS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub

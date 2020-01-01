@@ -6811,6 +6811,9 @@ WrapObject
 JSContext
 *
 cx
+XPCWrappedNativeScope
+*
+scope
 )
 {
 return
@@ -6826,6 +6829,7 @@ NodeListBase
 create
 (
 cx
+scope
 this
 )
 ;

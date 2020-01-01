@@ -5143,7 +5143,7 @@ jsclazz
 flags
 |
 =
-JSCLASS_GLOBAL_FLAGS
+XPCONNECT_GLOBAL_FLAGS
 ;
 }
 else

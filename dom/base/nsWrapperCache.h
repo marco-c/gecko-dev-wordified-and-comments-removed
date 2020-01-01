@@ -20,6 +20,9 @@ JSContext
 class
 nsContentUtils
 ;
+class
+XPCWrappedNativeScope
+;
 typedef
 PRUptrdiff
 PtrBits
@@ -235,6 +238,9 @@ WrapObject
 JSContext
 *
 cx
+XPCWrappedNativeScope
+*
+scope
 )
 {
 return
