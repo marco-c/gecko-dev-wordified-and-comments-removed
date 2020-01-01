@@ -521,6 +521,7 @@ elapsedTime
 ;
 }
 else
+{
 if
 (
 elapsedTime
@@ -556,8 +557,6 @@ elapsedTime
 mAvgTimeBetweenSamples
 ;
 }
-else
-{
 mAvgTimeBetweenSamples
 =
 (
