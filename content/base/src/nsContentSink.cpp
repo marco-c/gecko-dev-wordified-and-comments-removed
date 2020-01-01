@@ -3499,7 +3499,7 @@ vm
 >
 EnableRefresh
 (
-NS_VMREFRESH_NO_SYNC
+NS_VMREFRESH_IMMEDIATE
 )
 ;
 }
@@ -3547,10 +3547,6 @@ return
 mDeferredLayoutStart
 =
 PR_FALSE
-;
-FlushTags
-(
-)
 ;
 mLayoutStarted
 =
