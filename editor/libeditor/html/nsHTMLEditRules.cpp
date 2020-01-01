@@ -1020,11 +1020,10 @@ NS_IMPL_RELEASE_INHERITED
 nsHTMLEditRules
 nsTextEditRules
 )
-NS_IMPL_QUERY_INTERFACE_INHERITED2
+NS_IMPL_QUERY_INTERFACE_INHERITED1
 (
 nsHTMLEditRules
 nsTextEditRules
-nsIHTMLEditRules
 nsIEditActionListener
 )
 NS_IMETHODIMP
@@ -3254,7 +3253,7 @@ aResult
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditRules
 :
 :
@@ -3565,7 +3564,7 @@ return
 res
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditRules
 :
 :
@@ -3846,7 +3845,7 @@ return
 res
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditRules
 :
 :
@@ -4653,7 +4652,7 @@ nsEditProperty
 cssMarginLeft
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditRules
 :
 :
@@ -5126,7 +5125,7 @@ return
 res
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditRules
 :
 :
@@ -39433,7 +39432,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLEditRules
 :
 :
