@@ -905,6 +905,11 @@ NOTHING
 case
 NOTHING
 :
+synchronized
+(
+mController
+)
+{
 mController
 .
 setViewportMetrics
@@ -920,6 +925,7 @@ notifyLayerClientOfGeometryChange
 (
 )
 ;
+}
 break
 ;
 }
@@ -938,6 +944,11 @@ mState
 PanZoomState
 .
 NOTHING
+)
+{
+synchronized
+(
+mController
 )
 {
 ViewportMetrics
@@ -981,6 +992,7 @@ notifyLayerClientOfGeometryChange
 (
 )
 ;
+}
 }
 }
 }
