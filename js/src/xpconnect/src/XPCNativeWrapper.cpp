@@ -15,6 +15,13 @@ h
 #
 include
 "
+XPCWrapper
+.
+h
+"
+#
+include
+"
 jsdbgapi
 .
 h
@@ -22,7 +29,7 @@ h
 #
 include
 "
-XPCWrapper
+jsscope
 .
 h
 "
