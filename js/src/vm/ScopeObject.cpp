@@ -5210,7 +5210,10 @@ if
 cur_
 -
 >
-isNestedScope
+is
+<
+NestedScopeObject
+>
 (
 )
 )
@@ -5241,7 +5244,10 @@ stackDepth
 cur_
 -
 >
-asNestedScope
+as
+<
+NestedScopeObject
+>
 (
 )
 .
