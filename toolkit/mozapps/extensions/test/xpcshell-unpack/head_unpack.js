@@ -12,3 +12,7 @@ alwaysUnpack
 true
 )
 ;
+TEST_UNPACKED
+=
+true
+;
