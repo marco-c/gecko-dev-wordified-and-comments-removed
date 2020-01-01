@@ -4721,7 +4721,7 @@ interfaces
 [
 Ci
 .
-nsIRadioWorker
+nsIWorkerHolder
 Ci
 .
 nsIWifi
@@ -4737,7 +4737,7 @@ generateQI
 [
 Ci
 .
-nsIRadioWorker
+nsIWorkerHolder
 Ci
 .
 nsIWifi

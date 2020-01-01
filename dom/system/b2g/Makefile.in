@@ -452,7 +452,7 @@ mk
 CPPSRCS
 =
 \
-RadioManager
+SystemWorkerManager
 .
 cpp
 \
@@ -480,7 +480,7 @@ nsIAudioManager
 .
 idl
 \
-nsIRadioWorker
+nsIWorkerHolder
 .
 idl
 \
