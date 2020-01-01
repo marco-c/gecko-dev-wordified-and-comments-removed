@@ -749,6 +749,14 @@ NIns
 ;
 \
 void
+BranchWithLink
+(
+NIns
+*
+)
+;
+\
+void
 JMP_far
 (
 NIns
