@@ -10155,7 +10155,7 @@ rdata
 .
 cb
 .
-growBy
+growByUninitialized
 (
 growth
 )
