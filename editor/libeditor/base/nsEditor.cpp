@@ -16018,7 +16018,7 @@ elementStyle
 nsComputedDOMStyle
 :
 :
-GetStyleContextForElement
+GetStyleContextForElementNoFlush
 (
 content
 -
