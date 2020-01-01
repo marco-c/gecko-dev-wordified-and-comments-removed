@@ -3334,7 +3334,6 @@ return
 JS_TRUE
 ;
 }
-JS_REQUIRES_STACK
 JSBool
 js_watch_set_wrapper
 (

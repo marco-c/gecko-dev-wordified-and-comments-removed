@@ -318,7 +318,6 @@ sprop
 )
 ;
 extern
-JS_REQUIRES_STACK
 JSBool
 js_watch_set
 (
@@ -336,7 +335,6 @@ vp
 )
 ;
 extern
-JS_REQUIRES_STACK
 JSBool
 js_watch_set_wrapper
 (
