@@ -1372,7 +1372,7 @@ system
 -
 font
 _x_system_font
-X
+MozSystemFont
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Font
 mSystemFont
@@ -1730,7 +1730,7 @@ color
 -
 value
 border_end_color_value
-X
+BorderEndColorValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderEndColor
@@ -1767,7 +1767,7 @@ style
 -
 value
 border_end_style_value
-X
+BorderEndStyleValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderEndStyle
@@ -1804,7 +1804,7 @@ width
 -
 value
 border_end_width_value
-X
+BorderEndWidthValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderEndWidth
@@ -1868,7 +1868,7 @@ color
 -
 value
 border_left_color_value
-X
+BorderLeftColorValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
@@ -1894,7 +1894,7 @@ ltr
 -
 source
 border_left_color_ltr_source
-X
+BorderLeftColorLTRSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -1918,7 +1918,7 @@ rtl
 -
 source
 border_left_color_rtl_source
-X
+BorderLeftColorRTLSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -1979,7 +1979,7 @@ style
 -
 value
 border_left_style_value
-X
+BorderLeftStyleValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
@@ -2003,7 +2003,7 @@ ltr
 -
 source
 border_left_style_ltr_source
-X
+BorderLeftStyleLTRSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -2025,7 +2025,7 @@ rtl
 -
 source
 border_left_style_rtl_source
-X
+BorderLeftStyleRTLSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -2061,7 +2061,7 @@ width
 -
 value
 border_left_width_value
-X
+BorderLeftWidthValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
@@ -2085,7 +2085,7 @@ ltr
 -
 source
 border_left_width_ltr_source
-X
+BorderLeftWidthLTRSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -2107,7 +2107,7 @@ rtl
 -
 source
 border_left_width_rtl_source
-X
+BorderLeftWidthRTLSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -2152,7 +2152,7 @@ color
 -
 value
 border_right_color_value
-X
+BorderRightColorValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
@@ -2178,7 +2178,7 @@ ltr
 -
 source
 border_right_color_ltr_source
-X
+BorderRightColorLTRSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -2202,7 +2202,7 @@ rtl
 -
 source
 border_right_color_rtl_source
-X
+BorderRightColorRTLSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -2263,7 +2263,7 @@ style
 -
 value
 border_right_style_value
-X
+BorderRightStyleValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
@@ -2287,7 +2287,7 @@ ltr
 -
 source
 border_right_style_ltr_source
-X
+BorderRightStyleLTRSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -2309,7 +2309,7 @@ rtl
 -
 source
 border_right_style_rtl_source
-X
+BorderRightStyleRTLSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -2345,7 +2345,7 @@ width
 -
 value
 border_right_width_value
-X
+BorderRightWidthValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
@@ -2369,7 +2369,7 @@ ltr
 -
 source
 border_right_width_ltr_source
-X
+BorderRightWidthLTRSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -2391,7 +2391,7 @@ rtl
 -
 source
 border_right_width_rtl_source
-X
+BorderRightWidthRTLSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -2456,7 +2456,7 @@ color
 -
 value
 border_start_color_value
-X
+BorderStartColorValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderStartColor
@@ -2493,7 +2493,7 @@ style
 -
 value
 border_start_style_value
-X
+BorderStartStyleValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderStartStyle
@@ -2530,7 +2530,7 @@ width
 -
 value
 border_start_width_value
-X
+BorderStartWidthValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 Margin
 mBorderStartWidth
@@ -3590,7 +3590,7 @@ end
 -
 value
 margin_end_value
-X
+MarginEndValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
@@ -3622,7 +3622,7 @@ left
 -
 value
 margin_left_value
-X
+MarginLeftValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
@@ -3650,7 +3650,7 @@ ltr
 -
 source
 margin_left_ltr_source
-X
+MarginLeftLTRSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -3670,7 +3670,7 @@ rtl
 -
 source
 margin_left_rtl_source
-X
+MarginLeftRTLSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -3702,7 +3702,7 @@ right
 -
 value
 margin_right_value
-X
+MarginRightValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
@@ -3730,7 +3730,7 @@ ltr
 -
 source
 margin_right_ltr_source
-X
+MarginRightLTRSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -3750,7 +3750,7 @@ rtl
 -
 source
 margin_right_rtl_source
-X
+MarginRightRTLSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -3785,7 +3785,7 @@ start
 -
 value
 margin_start_value
-X
+MarginStartValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
@@ -4103,7 +4103,7 @@ end
 -
 value
 padding_end_value
-X
+PaddingEndValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
@@ -4135,7 +4135,7 @@ left
 -
 value
 padding_left_value
-X
+PaddingLeftValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
@@ -4163,7 +4163,7 @@ ltr
 -
 source
 padding_left_ltr_source
-X
+PaddingLeftLTRSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -4183,7 +4183,7 @@ rtl
 -
 source
 padding_left_rtl_source
-X
+PaddingLeftRTLSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -4215,7 +4215,7 @@ right
 -
 value
 padding_right_value
-X
+PaddingRightValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
@@ -4243,7 +4243,7 @@ ltr
 -
 source
 padding_right_ltr_source
-X
+PaddingRightLTRSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -4263,7 +4263,7 @@ rtl
 -
 source
 padding_right_rtl_source
-X
+PaddingRightRTLSource
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_DIRECTIONAL_SOURCE
@@ -4298,7 +4298,7 @@ start
 -
 value
 padding_start_value
-X
+PaddingStartValue
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_STORES_CALC
@@ -5792,7 +5792,7 @@ CSS_PROP_VISIBILITY
 (
 X
 X
-X
+Lang
 0
 Display
 mLang
@@ -5804,7 +5804,7 @@ CSS_PROP_TABLE
 (
 X
 X
-X
+Cols
 0
 Table
 mCols
@@ -5816,7 +5816,7 @@ CSS_PROP_TABLE
 (
 X
 X
-X
+Span
 0
 Table
 mSpan
