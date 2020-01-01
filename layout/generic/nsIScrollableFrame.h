@@ -95,6 +95,12 @@ const
 =
 0
 ;
+uint32_t
+GetPerceivedScrollingDirections
+(
+)
+const
+;
 virtual
 nsMargin
 GetActualScrollbarSizes
