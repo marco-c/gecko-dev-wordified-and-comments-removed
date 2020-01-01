@@ -142,6 +142,8 @@ JSObject
 prototype
 (
 aCx
+)
+;
 document
 -
 >
@@ -150,7 +152,8 @@ GetCustomPrototype
 LocalName
 (
 )
-)
+&
+prototype
 )
 ;
 if
