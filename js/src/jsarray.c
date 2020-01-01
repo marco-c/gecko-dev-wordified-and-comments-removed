@@ -11355,6 +11355,15 @@ OBJ_IS_DENSE_ARRAY
 cx
 obj
 )
+&
+&
+end
+<
+=
+ARRAY_DENSE_LENGTH
+(
+obj
+)
 )
 {
 nobj
