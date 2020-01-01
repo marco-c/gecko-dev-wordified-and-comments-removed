@@ -417,10 +417,13 @@ public
 src
 ifdef
 ENABLE_TESTS
-DIRS
+ifndef
+MOZ_ENABLE_LIBXUL
+TOOL_DIRS
 +
 =
 tests
+endif
 endif
 include
 (
