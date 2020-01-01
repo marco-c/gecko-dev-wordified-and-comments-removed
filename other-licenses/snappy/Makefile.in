@@ -464,12 +464,6 @@ internal
 .
 cc
 \
-(
-NULL
-)
-CSRCS
-=
-\
 snappy
 -
 c
