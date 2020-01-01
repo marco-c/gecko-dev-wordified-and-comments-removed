@@ -534,7 +534,9 @@ ss
 (
 do_QueryInterface
 (
-mStyleSheet
+GetStyleSheet
+(
+)
 )
 )
 ;
@@ -589,7 +591,9 @@ ss
 (
 do_QueryInterface
 (
-mStyleSheet
+GetStyleSheet
+(
+)
 )
 )
 ;
@@ -1077,7 +1081,9 @@ nsGkAtoms
 rel
 &
 &
-mStyleSheet
+GetStyleSheet
+(
+)
 )
 {
 nsAutoTArray

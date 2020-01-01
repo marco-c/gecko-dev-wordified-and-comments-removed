@@ -399,7 +399,9 @@ NS_OK
 ;
 if
 (
-mStyleSheet
+GetStyleSheet
+(
+)
 )
 {
 nsCOMPtr
@@ -410,7 +412,9 @@ ss
 (
 do_QueryInterface
 (
-mStyleSheet
+GetStyleSheet
+(
+)
 )
 )
 ;
@@ -460,7 +464,9 @@ NS_OK
 ;
 if
 (
-mStyleSheet
+GetStyleSheet
+(
+)
 )
 {
 nsCOMPtr
@@ -471,7 +477,9 @@ ss
 (
 do_QueryInterface
 (
-mStyleSheet
+GetStyleSheet
+(
+)
 )
 )
 ;
