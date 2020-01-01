@@ -9063,10 +9063,7 @@ StackDescription
 *
 desc
 =
-cx
--
->
-new_
+js_new
 <
 StackDescription
 >
@@ -9124,10 +9121,7 @@ StackDescription
 desc
 )
 {
-cx
--
->
-free_
+js_delete
 (
 desc
 -
@@ -9135,10 +9129,7 @@ desc
 frames
 )
 ;
-cx
--
->
-free_
+js_delete
 (
 desc
 )

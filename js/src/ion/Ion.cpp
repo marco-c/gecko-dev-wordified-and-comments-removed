@@ -681,10 +681,7 @@ ion
 NULL
 ;
 }
-Foreground
-:
-:
-delete_
+js_delete
 (
 builder
 -
@@ -1213,10 +1210,7 @@ IonCompartment
 (
 )
 {
-Foreground
-:
-:
-delete_
+js_delete
 (
 functionWrappers_
 )
@@ -4302,10 +4296,7 @@ if
 (
 alloc
 )
-Foreground
-:
-:
-delete_
+js_delete
 (
 alloc
 )

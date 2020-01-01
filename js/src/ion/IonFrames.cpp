@@ -1465,10 +1465,7 @@ exception
 "
 )
 ;
-cx
--
->
-delete_
+js_delete
 (
 cx
 -
