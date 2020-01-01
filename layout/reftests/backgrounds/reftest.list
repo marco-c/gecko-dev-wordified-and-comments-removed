@@ -2953,12 +2953,6 @@ border
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 HTTP
 =
 =
