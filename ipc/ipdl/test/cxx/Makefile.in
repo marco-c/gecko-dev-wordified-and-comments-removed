@@ -726,13 +726,6 @@ check
 full
 -
 -
-error
--
-exitcode
-=
-1
--
--
 trace
 -
 children
