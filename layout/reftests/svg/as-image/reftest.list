@@ -823,6 +823,7 @@ lime100x100
 ref
 .
 html
+random
 =
 =
 img
@@ -839,6 +840,11 @@ lime100x100
 ref
 .
 html
+#
+investigating
+on
+bug
+596765
 fails
 -
 if
