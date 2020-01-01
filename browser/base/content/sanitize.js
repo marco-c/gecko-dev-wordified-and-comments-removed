@@ -2569,9 +2569,6 @@ showUI
 aParentWindow
 )
 ;
-return
-null
-;
 }
 ;
 Sanitizer

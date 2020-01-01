@@ -1940,9 +1940,6 @@ glue
 sanitize
 (
 window
-|
-|
-null
 )
 ;
 if

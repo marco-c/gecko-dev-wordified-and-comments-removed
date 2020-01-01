@@ -1651,9 +1651,6 @@ nsIBrowserGlue
 sanitize
 (
 window
-|
-|
-null
 )
 ;
 "
