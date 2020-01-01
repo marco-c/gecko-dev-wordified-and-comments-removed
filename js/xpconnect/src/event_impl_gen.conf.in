@@ -152,16 +152,10 @@ MozApplicationEvent
 ifdef
 MOZ_B2G_BT
 '
-BluetoothAuthorizeEvent
-'
-'
 BluetoothDeviceEvent
 '
 '
 BluetoothDeviceAddressEvent
-'
-'
-BluetoothPairingEvent
 '
 #
 endif
