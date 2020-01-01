@@ -1092,6 +1092,13 @@ eResize
 NS_FRAME_IS_DIRTY
 )
 ;
+Invalidate
+(
+GetVisualOverflowRectRelativeToSelf
+(
+)
+)
+;
 }
 return
 nsHTMLContainerFrame
