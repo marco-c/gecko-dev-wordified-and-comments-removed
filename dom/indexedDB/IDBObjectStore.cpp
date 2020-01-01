@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIOutputStream
 .
 h
