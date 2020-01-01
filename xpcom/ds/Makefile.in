@@ -630,10 +630,6 @@ nsSupportsPrimitives
 .
 h
 \
-nsTime
-.
-h
-\
 nsVariant
 .
 h
