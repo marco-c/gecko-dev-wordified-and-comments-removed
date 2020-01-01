@@ -655,7 +655,7 @@ status
 RM
 )
 -
-rf
+r
 (
 DIST
 )
@@ -665,7 +665,7 @@ sdk
 RM
 )
 -
-rf
+r
 (
 DIST
 )
@@ -675,7 +675,7 @@ include
 RM
 )
 -
-rf
+r
 (
 DIST
 )
@@ -685,7 +685,7 @@ private
 RM
 )
 -
-rf
+r
 (
 DIST
 )
@@ -695,7 +695,7 @@ public
 RM
 )
 -
-rf
+r
 (
 DIST
 )
@@ -707,7 +707,7 @@ components
 RM
 )
 -
-rf
+r
 _tests
 (
 topsrcdir
@@ -863,7 +863,7 @@ export
 RM
 )
 -
-rf
+r
 (
 DIST
 )
@@ -926,9 +926,9 @@ XARGS
 rm
 -
 f
-rm
--
-f
+(
+RM
+)
 unallmakefiles
 (
 DIST_GARBAGE
@@ -1219,7 +1219,7 @@ store
 RM
 )
 -
-rf
+r
 (
 DIST
 )
@@ -1230,8 +1230,6 @@ symbols
 (
 RM
 )
--
-f
 "
 (
 DIST
@@ -1455,7 +1453,7 @@ exe
 RM
 )
 -
-rf
+r
 (
 DIST
 )
@@ -1464,8 +1462,6 @@ symbols
 (
 RM
 )
--
-f
 "
 (
 DIST
