@@ -1763,6 +1763,16 @@ return
 JS_TRUE
 ;
 }
+JS_DEFINE_CALLINFO_2
+(
+FRIEND
+BOOL
+js_CloseIterator
+CONTEXT
+JSVAL
+0
+0
+)
 static
 JSBool
 CallEnumeratorNext

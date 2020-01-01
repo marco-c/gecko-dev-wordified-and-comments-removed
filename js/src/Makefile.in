@@ -467,6 +467,15 @@ LIBS
 NSPR_LIBS
 )
 ifdef
+WINCE
+EXTRA_LIBS
++
+=
+(
+JEMALLOC_LIBS
+)
+endif
+ifdef
 GNU_CXX
 ifdef
 INTEL_CXX
@@ -1099,10 +1108,6 @@ nanojit
 INSTALLED_HEADERS
 +
 =
-\
-builtins
-.
-tbl
 \
 jsbuiltins
 .
@@ -3608,9 +3613,6 @@ SYSINSTALL
 )
 ^
 (
-DESTDIR
-)
-(
 includedir
 )
 /
@@ -3627,9 +3629,6 @@ SCRIPTS
 SYSINSTALL
 )
 ^
-(
-DESTDIR
-)
 (
 bindir
 )
@@ -3658,9 +3657,6 @@ SYSINSTALL
 LIBRARY
 )
 (
-DESTDIR
-)
-(
 libdir
 )
 endif
@@ -3677,9 +3673,6 @@ SYSINSTALL
 SHARED_LIBRARY
 )
 (
-DESTDIR
-)
-(
 libdir
 )
 endif
@@ -3694,9 +3687,6 @@ SYSINSTALL
 )
 (
 IMPORT_LIBRARY
-)
-(
-DESTDIR
 )
 (
 libdir
