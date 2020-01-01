@@ -2222,10 +2222,6 @@ relimit
 ;
 attribute
 boolean
-tracejit
-;
-attribute
-boolean
 methodjit
 ;
 attribute
