@@ -161,6 +161,10 @@ test_named_frames
 .
 html
 \
+test_Image_constructor
+.
+html
+\
 (
 NULL
 )
