@@ -378,7 +378,7 @@ tracejit
 .
 chrome
 "
-true
+false
 )
 ;
 user_pref
@@ -392,7 +392,7 @@ tracejit
 .
 content
 "
-true
+false
 )
 ;
 user_pref

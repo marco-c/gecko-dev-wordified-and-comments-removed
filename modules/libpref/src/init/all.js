@@ -5264,7 +5264,7 @@ tracejit
 .
 content
 "
-true
+false
 )
 ;
 pref
@@ -5278,7 +5278,7 @@ tracejit
 .
 chrome
 "
-true
+false
 )
 ;
 pref
