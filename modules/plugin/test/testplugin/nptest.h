@@ -81,6 +81,7 @@ FunctionTable
 TestFunction
 funcId
 ;
+const
 char
 *
 funcName
@@ -149,7 +150,7 @@ PlatformData
 *
 platformData
 ;
-uint32_t
+int32_t
 instanceCountWatchGeneration
 ;
 bool
