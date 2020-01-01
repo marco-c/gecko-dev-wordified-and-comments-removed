@@ -234,6 +234,13 @@ h
 #
 include
 "
+jscompartmentinlines
+.
+h
+"
+#
+include
+"
 jsfuninlines
 .
 h
