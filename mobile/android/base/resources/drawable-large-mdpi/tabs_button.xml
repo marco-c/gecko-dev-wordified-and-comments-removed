@@ -138,11 +138,9 @@ android
 drawable
 =
 "
-android
-:
-color
+drawable
 /
-transparent
+tabs_button_expanded
 "
 /
 >
