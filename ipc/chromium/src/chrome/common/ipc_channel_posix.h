@@ -394,9 +394,6 @@ waiting_connect_
 bool
 processing_incoming_
 ;
-bool
-closed_
-;
 ScopedRunnableMethodFactory
 <
 ChannelImpl
