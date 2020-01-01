@@ -3887,6 +3887,7 @@ str
 (
 function
 (
+arguments
 )
 {
 "
@@ -3950,6 +3951,7 @@ message
 }
 )
 (
+arguments
 )
 "
 )
