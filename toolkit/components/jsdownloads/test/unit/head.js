@@ -1744,6 +1744,12 @@ dontLoad
 =
 true
 ;
+DownloadIntegration
+.
+dontCheckParentalControls
+=
+true
+;
 }
 )
 ;
