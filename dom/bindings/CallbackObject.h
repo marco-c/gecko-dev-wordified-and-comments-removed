@@ -385,6 +385,9 @@ mCtx
 nsAutoMicroTask
 mMt
 ;
+nsCxPusher
+mCxPusher
+;
 Maybe
 <
 JS
@@ -397,9 +400,6 @@ JSObject
 >
 >
 mRootedCallable
-;
-nsCxPusher
-mCxPusher
 ;
 Maybe
 <
