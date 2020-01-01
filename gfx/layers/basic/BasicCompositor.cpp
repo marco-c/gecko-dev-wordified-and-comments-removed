@@ -372,6 +372,15 @@ SurfaceDescriptor
 :
 :
 TShmem
+|
+|
+aDescriptorType
+=
+=
+SurfaceDescriptor
+:
+:
+TMemoryImage
 "
 We
 can
