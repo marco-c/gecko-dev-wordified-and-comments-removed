@@ -1728,7 +1728,7 @@ break
 case
 NAME
 :
-element
+elements
 =
 startNode
 .
@@ -1740,9 +1740,6 @@ getElementsByName
 (
 value
 )
-[
-0
-]
 :
 this
 .
@@ -1907,11 +1904,16 @@ SELECTOR
 :
 elements
 =
+Array
+.
+slice
+(
 rootNode
 .
 querySelectorAll
 (
 value
+)
 )
 ;
 break
