@@ -328,9 +328,6 @@ interface
 NodeIterator
 ;
 interface
-ProcessingInstruction
-;
-interface
 Range
 ;
 interface

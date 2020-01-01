@@ -415,6 +415,10 @@ PerformanceTiming
 .
 webidl
 \
+ProcessingInstruction
+.
+webidl
+\
 Rect
 .
 webidl
