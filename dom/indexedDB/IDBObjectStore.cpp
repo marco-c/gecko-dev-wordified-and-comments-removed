@@ -3340,7 +3340,7 @@ if
 mTransaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -3904,7 +3904,7 @@ if
 mTransaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -4046,7 +4046,7 @@ if
 mTransaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -4409,7 +4409,7 @@ if
 mTransaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -4555,7 +4555,7 @@ if
 mTransaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -4672,7 +4672,7 @@ if
 mTransaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -5156,7 +5156,7 @@ NS_ASSERTION
 mTransaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 "
@@ -5464,7 +5464,7 @@ if
 mTransaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 )
@@ -5806,7 +5806,7 @@ NS_ASSERTION
 mTransaction
 -
 >
-TransactionIsOpen
+IsOpen
 (
 )
 "

@@ -599,6 +599,10 @@ test_request_readyState
 .
 html
 \
+test_success_events_after_abort
+.
+html
+\
 test_transaction_abort
 .
 html
