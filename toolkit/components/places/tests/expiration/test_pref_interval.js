@@ -1,15 +1,4 @@
 const
-TOPIC_EXPIRATION_FINISHED
-=
-"
-places
--
-expiration
--
-finished
-"
-;
-const
 MAX_WAIT_SECONDS
 =
 4

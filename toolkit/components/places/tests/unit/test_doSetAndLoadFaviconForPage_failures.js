@@ -137,9 +137,7 @@ favicons
 {
 uri
 :
-iosvc
-.
-newFileURI
+uri
 (
 do_get_file
 (
@@ -181,9 +179,7 @@ size
 {
 uri
 :
-iosvc
-.
-newFileURI
+uri
 (
 do_get_file
 (
@@ -680,9 +676,9 @@ bar
 let
 stmt
 =
+PlacesServices
+.
 DBConn
-(
-)
 .
 createStatement
 (

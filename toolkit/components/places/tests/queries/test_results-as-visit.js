@@ -288,7 +288,9 @@ testData
 var
 query
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQuery
 (
@@ -311,7 +313,9 @@ minVisits
 var
 options
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQueryOptions
 (
@@ -336,7 +340,9 @@ RESULTS_AS_VISIT
 var
 result
 =
-histsvc
+PlacesUtils
+.
+history
 .
 executeQuery
 (
@@ -697,7 +703,9 @@ batchchange
 }
 }
 ;
-histsvc
+PlacesUtils
+.
+history
 .
 runInBatchMode
 (

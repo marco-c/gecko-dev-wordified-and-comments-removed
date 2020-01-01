@@ -375,7 +375,9 @@ do_test_finished
 }
 if
 (
-hs
+PlacesUtils
+.
+history
 .
 QueryInterface
 (
@@ -403,12 +405,6 @@ dbConn
 =
 DBConn
 (
-)
-;
-do_check_neq
-(
-dbConn
-null
 )
 ;
 do_check_true
@@ -456,9 +452,7 @@ finalize
 ;
 stmt
 =
-DBConn
-(
-)
+dbConn
 .
 createStatement
 (
@@ -516,9 +510,7 @@ finalize
 ;
 stmt
 =
-DBConn
-(
-)
+dbConn
 .
 createStatement
 (

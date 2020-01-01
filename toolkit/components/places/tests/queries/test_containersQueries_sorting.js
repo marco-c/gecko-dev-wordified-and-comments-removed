@@ -688,7 +688,9 @@ SORT_BY_NONE
 var
 query
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQuery
 (
@@ -697,7 +699,9 @@ getNewQuery
 var
 options
 =
-histsvc
+PlacesUtils
+.
+history
 .
 getNewQueryOptions
 (
@@ -722,7 +726,9 @@ value
 var
 result
 =
-histsvc
+PlacesUtils
+.
+history
 .
 executeQuery
 (
