@@ -474,7 +474,7 @@ GetLayerTreeId
 )
 const
 ;
-ContainerLayer
+Layer
 *
 GetRootLayer
 (

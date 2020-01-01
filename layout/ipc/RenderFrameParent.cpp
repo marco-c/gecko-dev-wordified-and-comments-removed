@@ -2127,7 +2127,7 @@ BuildBackgroundPatternFor
 ContainerLayer
 *
 aContainer
-ContainerLayer
+Layer
 *
 aShadowRoot
 const
@@ -3530,7 +3530,7 @@ SetInheritedScale
 )
 ;
 }
-ContainerLayer
+Layer
 *
 shadowRoot
 =
@@ -4280,7 +4280,7 @@ return
 mLayersId
 ;
 }
-ContainerLayer
+Layer
 *
 RenderFrameParent
 :
@@ -4377,7 +4377,7 @@ ClipContentDescendants
 bounds
 )
 ;
-ContainerLayer
+Layer
 *
 container
 =

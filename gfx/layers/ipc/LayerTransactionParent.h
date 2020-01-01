@@ -138,7 +138,7 @@ return
 mId
 ;
 }
-ContainerLayer
+Layer
 *
 GetRoot
 (
@@ -413,7 +413,7 @@ mShadowLayersManager
 ;
 nsRefPtr
 <
-ContainerLayer
+Layer
 >
 mRoot
 ;
