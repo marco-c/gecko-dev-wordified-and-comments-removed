@@ -2648,12 +2648,6 @@ self
 expr
 =
 expr
-        
-self
-.
-nr_cases
-=
-0
     
 def
 addcase
@@ -2694,13 +2688,6 @@ addstmt
 (
 block
 )
-        
-self
-.
-nr_cases
-+
-=
-1
 class
 StmtExpr
 (
