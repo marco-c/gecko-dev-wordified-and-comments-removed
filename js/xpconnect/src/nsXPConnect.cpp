@@ -8017,6 +8017,9 @@ aHolder
 )
 ;
 }
+#
+ifdef
+DEBUG
 bool
 nsXPConnect
 :
@@ -8028,9 +8031,6 @@ void
 aHolder
 )
 {
-#
-ifdef
-DEBUG
 return
 mRuntime
 -
@@ -8040,14 +8040,9 @@ TestJSHolder
 aHolder
 )
 ;
-#
-else
-return
-false
-;
+}
 #
 endif
-}
 NS_IMETHODIMP
 nsXPConnect
 :
