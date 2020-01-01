@@ -68,6 +68,15 @@ nsDataHashtable
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 ZIPWRITER_CONTRACTID
 "
@@ -155,6 +164,7 @@ mPermissions
 ;
 class
 nsZipWriter
+MOZ_FINAL
 :
 public
 nsIZipWriter
