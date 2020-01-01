@@ -3370,7 +3370,7 @@ multiSelect
 nsAccUtils
 :
 :
-GetMultiSelectFor
+GetMultiSelectableContainer
 (
 optionNode
 )
