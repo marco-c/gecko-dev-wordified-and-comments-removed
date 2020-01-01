@@ -470,6 +470,10 @@ IDBEvents
 .
 cpp
 \
+IDBIndexRequest
+.
+cpp
+\
 IDBKeyRange
 .
 cpp
@@ -498,10 +502,6 @@ TransactionThreadPool
 .
 cpp
 \
-IDBIndexRequest
-.
-cpp
-\
 (
 NULL
 )
@@ -521,6 +521,10 @@ IDBDatabaseRequest
 h
 \
 IDBEvents
+.
+h
+\
+IDBIndexRequest
 .
 h
 \

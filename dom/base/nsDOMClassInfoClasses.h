@@ -1358,3 +1358,7 @@ DOMCI_CLASS
 (
 IDBKeyRange
 )
+DOMCI_CLASS
+(
+IDBIndexRequest
+)
