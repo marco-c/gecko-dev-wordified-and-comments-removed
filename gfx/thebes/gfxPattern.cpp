@@ -229,6 +229,10 @@ mTransform
 (
 aTransform
 )
+mExtend
+(
+EXTEND_NONE
+)
 {
 }
 gfxPattern
@@ -1502,10 +1506,7 @@ else
 {
 mExtend
 =
-ToExtendMode
-(
 extend
-)
 ;
 }
 }
@@ -1621,10 +1622,7 @@ mPattern
 else
 {
 return
-ThebesExtend
-(
 mExtend
-)
 ;
 }
 }
