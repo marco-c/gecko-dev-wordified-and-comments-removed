@@ -3575,14 +3575,12 @@ mTransform
 ;
 gfxSize
 newSize
-=
-size
 ;
 newSize
 .
 width
 =
-newSize
+size
 .
 width
 *
@@ -3590,7 +3588,7 @@ matrix
 .
 _11
 +
-newSize
+size
 .
 height
 *
@@ -3602,7 +3600,7 @@ newSize
 .
 height
 =
-newSize
+size
 .
 width
 *
@@ -3610,7 +3608,7 @@ matrix
 .
 _21
 +
-newSize
+size
 .
 height
 *
