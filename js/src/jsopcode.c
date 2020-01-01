@@ -11938,6 +11938,10 @@ todo
 break
 ;
 }
+sn
+=
+NULL
+;
 break
 ;
 case
@@ -15701,6 +15705,10 @@ JSOP_ENUMCONSTELEM
 atom
 =
 NULL
+;
+op
+=
+JSOP_NOP
 ;
 xval
 =
