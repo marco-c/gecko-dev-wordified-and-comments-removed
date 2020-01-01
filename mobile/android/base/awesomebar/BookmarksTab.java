@@ -623,7 +623,7 @@ return
 mCursorAdapter
 ;
 }
-LinearLayout
+TextView
 headerView
 =
 mCursorAdapter
@@ -643,7 +643,7 @@ null
 headerView
 =
 (
-LinearLayout
+TextView
 )
 getInflater
 (
@@ -730,21 +730,7 @@ true
 )
 ;
 }
-(
-(
-TextView
-)
 headerView
-.
-findViewById
-(
-R
-.
-id
-.
-title
-)
-)
 .
 setText
 (
@@ -1039,7 +1025,7 @@ String
 mParentStack
 ;
 private
-LinearLayout
+TextView
 mBookmarksTitleView
 ;
 public
@@ -1790,7 +1776,7 @@ convertView
 ;
 }
 public
-LinearLayout
+TextView
 getHeaderView
 (
 )
@@ -1803,7 +1789,7 @@ public
 void
 setHeaderView
 (
-LinearLayout
+TextView
 titleView
 )
 {
