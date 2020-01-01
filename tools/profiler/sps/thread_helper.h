@@ -108,7 +108,7 @@ template
 typename
 T
 >
-static
+inline
 T
 *
 get
@@ -133,7 +133,7 @@ template
 typename
 T
 >
-static
+inline
 bool
 set
 (
@@ -160,7 +160,6 @@ value
 )
 ;
 }
-static
 inline
 bool
 create
@@ -213,7 +212,7 @@ template
 typename
 T
 >
-static
+inline
 T
 *
 get
@@ -238,7 +237,7 @@ template
 typename
 T
 >
-static
+inline
 bool
 set
 (
@@ -259,7 +258,7 @@ value
 )
 ;
 }
-static
+inline
 bool
 create
 (
