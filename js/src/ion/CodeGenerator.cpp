@@ -19241,6 +19241,11 @@ ool
 return
 false
 ;
+#
+if
+0
+#
+endif
 CodeOffsetJump
 jump
 =
@@ -24290,6 +24295,10 @@ ool
 )
 return
 false
+;
+ensureOsiSpace
+(
+)
 ;
 CodeOffsetJump
 jump
