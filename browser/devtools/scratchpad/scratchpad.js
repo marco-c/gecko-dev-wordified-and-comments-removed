@@ -3928,7 +3928,7 @@ strings
 formatStringFromName
 (
 "
-scratchpadIntro
+scratchpadIntro1
 "
 [
 SP_Pretty_Key
