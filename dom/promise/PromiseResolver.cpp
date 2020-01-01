@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 PromiseCallback
 .
 h

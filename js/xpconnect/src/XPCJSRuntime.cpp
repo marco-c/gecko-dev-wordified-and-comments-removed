@@ -123,6 +123,13 @@ h
 #
 include
 "
+nsLayoutStatics
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
