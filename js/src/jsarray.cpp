@@ -7358,6 +7358,13 @@ JS_TRUE
 ;
 if
 (
+OBJ_IS_DENSE_ARRAY
+(
+cx
+obj
+)
+&
+&
 !
 ENSURE_SLOW_ARRAY
 (
@@ -7462,7 +7469,7 @@ addr
 |
 |
 !
-js_SetProperty
+OBJ_SET_PROPERTY
 (
 cx
 obj
