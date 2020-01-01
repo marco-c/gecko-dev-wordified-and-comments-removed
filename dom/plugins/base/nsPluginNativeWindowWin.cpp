@@ -456,9 +456,6 @@ aPluginInstance
 ;
 private
 :
-#
-ifndef
-WINCE
 nsresult
 SubclassAndAssociateWindow
 (
@@ -469,8 +466,6 @@ UndoSubclassAndAssociateWindow
 (
 )
 ;
-#
-endif
 public
 :
 WNDPROC
@@ -949,9 +944,6 @@ PR_TRUE
 ;
 break
 ;
-#
-ifndef
-WINCE
 case
 WM_MOUSEACTIVATE
 :
@@ -1099,8 +1091,6 @@ PR_FALSE
 break
 ;
 }
-#
-endif
 }
 if
 (
@@ -2241,9 +2231,6 @@ nsPluginType_Other
 ;
 }
 }
-#
-ifndef
-WINCE
 if
 (
 window
@@ -2341,8 +2328,6 @@ GWLP_WNDPROC
 }
 }
 }
-#
-endif
 nsPluginNativeWindow
 :
 :
@@ -2351,9 +2336,6 @@ CallSetWindow
 aPluginInstance
 )
 ;
-#
-ifndef
-WINCE
 SubclassAndAssociateWindow
 (
 )
@@ -2388,15 +2370,10 @@ HookSetWindowLongPtr
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
 }
-#
-ifndef
-WINCE
 nsresult
 nsPluginNativeWindowWin
 :
@@ -2800,8 +2777,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 nsresult
 PLUG_NewPluginNativeWindow
 (
