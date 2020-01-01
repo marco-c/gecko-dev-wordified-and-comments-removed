@@ -1459,6 +1459,10 @@ browser_lastAccessedTab
 .
 js
 \
+browser_bug734076
+.
+js
+\
 (
 NULL
 )
