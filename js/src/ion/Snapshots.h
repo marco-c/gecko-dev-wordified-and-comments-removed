@@ -902,9 +902,8 @@ ref
 remainingFrameCount
 (
 )
-!
-=
-0
+>
+1
 ;
 }
 uint32

@@ -936,12 +936,6 @@ AddValues
 JSContext
 *
 cx
-JSScript
-*
-script
-jsbytecode
-*
-pc
 const
 Value
 &
