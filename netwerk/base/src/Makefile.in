@@ -301,10 +301,6 @@ ProxyAutoConfig
 .
 cpp
 \
-NetworkActivityMonitor
-.
-cpp
-\
 (
 NULL
 )
