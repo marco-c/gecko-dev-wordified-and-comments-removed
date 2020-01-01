@@ -5773,6 +5773,16 @@ pref
 "
 dom
 .
+experimental_forms_range
+"
+false
+)
+;
+pref
+(
+"
+dom
+.
 workers
 .
 mem
