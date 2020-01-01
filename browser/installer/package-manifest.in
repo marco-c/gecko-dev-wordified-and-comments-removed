@@ -1274,6 +1274,9 @@ components
 necko_viewsource
 .
 xpt
+#
+ifdef
+NECKO_WIFI
 BINPATH
 /
 components
@@ -1281,6 +1284,8 @@ components
 necko_wifi
 .
 xpt
+#
+endif
 BINPATH
 /
 components
