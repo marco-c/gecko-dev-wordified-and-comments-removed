@@ -4476,6 +4476,17 @@ DictContainingSequence
 )
 MOZ_DELETE
 ;
+void
+PassNullableEnum
+(
+Nullable
+<
+TestEnum
+>
+&
+)
+MOZ_DELETE
+;
 }
 ;
 class
