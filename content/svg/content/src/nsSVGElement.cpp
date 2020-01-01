@@ -5601,13 +5601,13 @@ doc
 >
 PropertyTable
 (
+SMIL_MAPPED_ATTR_ANIMVAL
 )
 -
 >
 Enumerate
 (
 this
-SMIL_MAPPED_ATTR_ANIMVAL
 ParseMappedAttrAnimValueCallback
 &
 mappedAttrParser
