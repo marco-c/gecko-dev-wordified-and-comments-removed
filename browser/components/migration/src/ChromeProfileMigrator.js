@@ -2021,10 +2021,8 @@ return
 result
 ;
 }
+get
 sourceExists
-:
-function
-Chrome_sourceExists
 (
 )
 {
@@ -2052,10 +2050,8 @@ false
 sourceProfiles
 :
 null
+get
 sourceHomePageURL
-:
-function
-Chrome_sourceHomePageURL
 (
 )
 {
