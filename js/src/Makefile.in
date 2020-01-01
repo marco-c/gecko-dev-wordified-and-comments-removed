@@ -3776,7 +3776,7 @@ py
 OffTheBooks
 :
 :
-53
+57
 \
 "
 in
@@ -3821,7 +3821,7 @@ py
 UnwantedForeground
 :
 :
-34
+36
 \
 "
 in
@@ -3862,6 +3862,7 @@ on
 Windows
 too
 .
+#
 check
 :
 :
@@ -3872,6 +3873,17 @@ malloc
 function
 -
 usage
+FIXME
+:
+disable
+on
+JM
+until
+closer
+to
+merge
+time
+.
 endif
 JITFLAGS
 =
