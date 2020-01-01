@@ -365,6 +365,11 @@ jsval
 value
 )
 ;
+void
+removeFocus
+(
+)
+;
 attribute
 nsIDOMEventListener
 onfocuschange
