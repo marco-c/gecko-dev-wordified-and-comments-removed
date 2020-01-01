@@ -1254,10 +1254,6 @@ browser_visibleTabs_tabPreview
 .
 js
 \
-browser_webdev_menu
-.
-js
-\
 bug592338
 .
 html
