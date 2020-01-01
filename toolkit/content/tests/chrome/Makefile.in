@@ -687,13 +687,6 @@ window_panel
 .
 xul
 \
-(
-NULL
-)
-_TEST_FILES
-+
-=
-\
 test_bug360220
 .
 xul
@@ -727,6 +720,10 @@ test_bug557987
 xul
 \
 test_bug562554
+.
+xul
+\
+test_bug585946
 .
 xul
 \
