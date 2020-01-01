@@ -7,17 +7,6 @@ waitForExplicitFinish
 (
 )
 ;
-waitForFocus
-(
-continue_test
-)
-;
-}
-function
-continue_test
-(
-)
-{
 let
 charsToDelete
 deletedURLTab
