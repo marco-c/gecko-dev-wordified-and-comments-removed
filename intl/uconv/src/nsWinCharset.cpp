@@ -116,6 +116,12 @@ nsPlatformCharset
 "
 )
 ;
+PR_AtomicIncrement
+(
+&
+gCnt
+)
+;
 nsAutoString
 acpKey
 (
@@ -219,12 +225,6 @@ InitInfo
 (
 )
 {
-PR_AtomicIncrement
-(
-&
-gCnt
-)
-;
 if
 (
 gInfo
