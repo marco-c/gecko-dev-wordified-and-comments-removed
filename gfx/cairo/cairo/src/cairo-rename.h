@@ -1368,6 +1368,10 @@ cairo_win32_surface_create
 _moz_cairo_win32_surface_create
 #
 define
+cairo_win32_surface_create_with_d3dsurface9
+_moz_cairo_win32_surface_create_with_d3dsurface9
+#
+define
 cairo_win32_surface_create_with_ddb
 _moz_cairo_win32_surface_create_with_ddb
 #
