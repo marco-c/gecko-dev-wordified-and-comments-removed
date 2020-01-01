@@ -698,6 +698,16 @@ nsCString
 charset
 )
 ;
+SetResponseHeader
+(
+nsCString
+header
+nsCString
+value
+bool
+merge
+)
+;
 UpdateAssociatedContentSecurity
 (
 PRInt32
