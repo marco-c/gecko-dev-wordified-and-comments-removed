@@ -17630,7 +17630,10 @@ pusher
 Push
 (
 cx
-false
+nsCxPusher
+:
+:
+ALWAYS_PUSH
 )
 )
 ;
@@ -33998,6 +34001,10 @@ cxPusher
 Push
 (
 cx
+nsCxPusher
+:
+:
+REQUIRE_SCRIPT_CONTEXT
 )
 )
 {

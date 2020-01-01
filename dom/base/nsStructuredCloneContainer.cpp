@@ -198,6 +198,10 @@ cxPusher
 Push
 (
 aCx
+nsCxPusher
+:
+:
+REQUIRE_SCRIPT_CONTEXT
 )
 ;
 uint64_t
