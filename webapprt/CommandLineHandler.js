@@ -196,6 +196,12 @@ inTestMode
 }
 else
 {
+DOMApplicationRegistry
+.
+allAppsLaunchable
+=
+true
+;
 Services
 .
 obs
