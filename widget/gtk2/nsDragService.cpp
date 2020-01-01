@@ -1045,6 +1045,13 @@ InvokeDragSession
 )
 )
 ;
+if
+(
+mSourceNode
+)
+return
+NS_ERROR_NOT_AVAILABLE
+;
 nsresult
 rv
 =
