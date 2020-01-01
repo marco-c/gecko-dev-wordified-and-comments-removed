@@ -948,14 +948,6 @@ designmode
 .
 css
 \
-TopLevelImageDocument
-.
-css
-\
-TopLevelVideoDocument
-.
-css
-\
 (
 NULL
 )
