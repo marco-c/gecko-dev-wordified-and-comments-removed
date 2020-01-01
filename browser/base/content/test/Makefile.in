@@ -1207,6 +1207,10 @@ browser_bug734076
 .
 js
 \
+browser_social
+.
+js
+\
 browser_social_toolbar
 .
 js
