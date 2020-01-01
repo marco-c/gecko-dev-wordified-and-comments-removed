@@ -82,6 +82,10 @@ mk
 MOCHITEST_FILES
 =
 \
+frameAppIsolation
+.
+html
+\
 frameBug624047
 .
 html
@@ -141,6 +145,10 @@ js
 pbSwitch
 .
 js
+\
+test_appIsolation
+.
+html
 \
 test_brokenUTF
 -
