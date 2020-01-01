@@ -8944,7 +8944,7 @@ if
 obj
 -
 >
-isProxy
+isFunctionProxy
 (
 )
 )
