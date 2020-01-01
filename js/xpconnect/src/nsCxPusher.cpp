@@ -400,17 +400,6 @@ JSContext
 cx
 )
 {
-nsXPConnect
-*
-xpc
-=
-nsXPConnect
-:
-:
-XPConnect
-(
-)
-;
 if
 (
 cx
