@@ -18304,12 +18304,6 @@ dom
 use_xbl_scopes_for_remote_xul
 true
 )
-fails
--
-if
-(
-Android
-)
 !
 =
 449149
@@ -18328,12 +18322,6 @@ dom
 .
 use_xbl_scopes_for_remote_xul
 true
-)
-fails
--
-if
-(
-Android
 )
 !
 =
