@@ -1485,8 +1485,6 @@ obs
 notifyObservers
 (
 null
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 UNHIGHLIGHTING
