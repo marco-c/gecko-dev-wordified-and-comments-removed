@@ -379,6 +379,11 @@ void
 )
 aEchoOn
 ;
+(
+void
+)
+mEchoCancel
+;
 #
 endif
 if
