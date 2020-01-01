@@ -988,3 +988,10 @@ p0
 bug498770
 .
 patch
+patch
+-
+p3
+<
+bug504613
+.
+patch

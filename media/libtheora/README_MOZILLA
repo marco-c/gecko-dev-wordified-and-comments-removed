@@ -176,3 +176,16 @@ libtheora
 thusnelda
 branch
 .
+bug504613
+.
+patch
+:
+Fix
+for
+this
+bug
+from
+libtheora
+svn
+r16557
+.
