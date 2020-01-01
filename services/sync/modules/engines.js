@@ -480,6 +480,13 @@ subclasses
 ;
 }
 get
+snapshot
+(
+)
+this
+.
+_snapshot
+get
 _remote
 (
 )
