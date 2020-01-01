@@ -4024,15 +4024,6 @@ xpfe
 /
 components
 /
-bookmarks
-/
-resources
-/
-Makefile
-xpfe
-/
-components
-/
 directory
 /
 Makefile
