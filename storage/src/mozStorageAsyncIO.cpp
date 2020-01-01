@@ -4708,12 +4708,6 @@ Free
 message
 )
 ;
-sqlite3ApiExit
-(
-nsnull
-0
-)
-;
 }
 #
 ifdef

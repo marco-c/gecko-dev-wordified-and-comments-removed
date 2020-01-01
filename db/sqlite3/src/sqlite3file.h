@@ -47,15 +47,6 @@ endif
 struct
 sqlite3
 ;
-int
-sqlite3ApiExit
-(
-sqlite3
-*
-db
-int
-)
-;
 typedef
 struct
 OsFile
