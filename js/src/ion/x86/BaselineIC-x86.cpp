@@ -203,7 +203,7 @@ payloadReg
 ;
 masm
 .
-boxNonDouble
+tagValue
 (
 JSVAL_TYPE_BOOLEAN
 R0
@@ -363,7 +363,7 @@ failure
 ;
 masm
 .
-boxNonDouble
+tagValue
 (
 JSVAL_TYPE_INT32
 scratchReg
