@@ -641,7 +641,7 @@ SUTAgentAndroid
 Version
 0
 .
-93
+94
 "
 ;
 public
@@ -12330,6 +12330,14 @@ temp
 null
 )
 {
+if
+(
+temp
+.
+length
+>
+1
+)
 sRet
 =
 temp

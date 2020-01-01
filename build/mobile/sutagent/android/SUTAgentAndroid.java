@@ -232,6 +232,13 @@ android
 .
 os
 .
+Debug
+;
+import
+android
+.
+os
+.
 PowerManager
 ;
 import
@@ -447,11 +454,6 @@ null
 private
 BroadcastReceiver
 battReceiver
-=
-null
-;
-IWatcherService
-mService
 =
 null
 ;
