@@ -7745,7 +7745,7 @@ NS_IMETHODIMP
 nsScriptSecurityManager
 :
 :
-GetCodebasePrincipal
+GetSimpleCodebasePrincipal
 (
 nsIURI
 *

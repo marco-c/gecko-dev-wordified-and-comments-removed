@@ -48,7 +48,7 @@ principal
 =
 secman
 .
-getCodebasePrincipal
+getSimpleCodebasePrincipal
 (
 exampleUri
 )

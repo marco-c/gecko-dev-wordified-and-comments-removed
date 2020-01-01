@@ -502,7 +502,7 @@ nodePrincipal
 :
 secMan
 .
-getCodebasePrincipal
+getSimpleCodebasePrincipal
 (
 ioService
 .

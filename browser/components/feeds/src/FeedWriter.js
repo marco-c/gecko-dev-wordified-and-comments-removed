@@ -6193,7 +6193,7 @@ _feedPrincipal
 =
 secman
 .
-getCodebasePrincipal
+getSimpleCodebasePrincipal
 (
 this
 .

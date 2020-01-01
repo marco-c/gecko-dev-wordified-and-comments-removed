@@ -1175,7 +1175,7 @@ UNKNOWN_APP_ID
 *
 /
 nsIPrincipal
-getCodebasePrincipal
+getSimpleCodebasePrincipal
 (
 in
 nsIURI
