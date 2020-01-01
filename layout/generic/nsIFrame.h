@@ -3240,6 +3240,10 @@ aDisp
 nsRect
 *
 aRect
+const
+nsSize
+&
+aSize
 )
 ;
 virtual

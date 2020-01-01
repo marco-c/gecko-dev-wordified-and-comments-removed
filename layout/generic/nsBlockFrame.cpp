@@ -2308,6 +2308,9 @@ GetAbsPosClipRect
 disp
 &
 absPosClipRect
+GetSize
+(
+)
 )
 )
 {
