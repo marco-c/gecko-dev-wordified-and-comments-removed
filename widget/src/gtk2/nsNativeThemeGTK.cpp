@@ -5696,6 +5696,9 @@ NS_THEME_WINDOW
 case
 NS_THEME_DIALOG
 :
+case
+NS_THEME_TOOLTIP
+:
 return
 eOpaque
 ;
