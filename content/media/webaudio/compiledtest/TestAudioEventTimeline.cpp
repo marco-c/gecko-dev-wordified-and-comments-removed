@@ -371,7 +371,7 @@ ErrorResultMock
 rv
 ;
 const
-float
+double
 t0
 =
 0
@@ -563,7 +563,7 @@ GetValueAtTime
 (
 0
 .
-0f
+0
 )
 0
 .
@@ -582,7 +582,7 @@ GetValueAtTime
 (
 0
 .
-05f
+05
 )
 0
 .
@@ -601,7 +601,7 @@ GetValueAtTime
 (
 0
 .
-1f
+1
 )
 0
 .
@@ -620,7 +620,7 @@ GetValueAtTime
 (
 0
 .
-15f
+15
 )
 0
 .
@@ -639,7 +639,7 @@ GetValueAtTime
 (
 0
 .
-2f
+2
 )
 0
 .
@@ -658,7 +658,7 @@ GetValueAtTime
 (
 0
 .
-25f
+25
 )
 (
 0
@@ -685,7 +685,7 @@ GetValueAtTime
 (
 0
 .
-3f
+3
 )
 1
 .
@@ -704,7 +704,7 @@ GetValueAtTime
 (
 0
 .
-35f
+35
 )
 (
 1
@@ -731,7 +731,7 @@ GetValueAtTime
 (
 0
 .
-4f
+4
 )
 0
 .
@@ -750,7 +750,7 @@ GetValueAtTime
 (
 0
 .
-45f
+45
 )
 (
 0
@@ -789,7 +789,7 @@ GetValueAtTime
 (
 0
 .
-5f
+5
 )
 (
 0
@@ -824,7 +824,7 @@ GetValueAtTime
 (
 0
 .
-55f
+55
 )
 (
 0
@@ -863,7 +863,7 @@ GetValueAtTime
 (
 0
 .
-6f
+6
 )
 0
 .
@@ -882,7 +882,7 @@ GetValueAtTime
 (
 0
 .
-65f
+65
 )
 (
 0
@@ -917,7 +917,7 @@ GetValueAtTime
 (
 0
 .
-7f
+7
 )
 0
 .
@@ -936,7 +936,7 @@ GetValueAtTime
 (
 1
 .
-0f
+0
 )
 0
 .
@@ -1513,7 +1513,7 @@ GetValueAtTime
 (
 0
 .
-1f
+1
 )
 20
 .
@@ -1580,7 +1580,7 @@ GetValueAtTime
 (
 0
 .
-1f
+1
 )
 30
 .
@@ -1805,7 +1805,7 @@ GetValueAtTime
 (
 0
 .
-5f
+5
 )
 10
 .
@@ -1860,7 +1860,7 @@ GetValueAtTime
 (
 1
 .
-5f
+5
 )
 20
 .
@@ -1919,7 +1919,6 @@ GetValueAtTime
 (
 10
 .
-f
 )
 (
 20
@@ -2014,7 +2013,6 @@ GetValueAtTime
 (
 10
 .
-f
 )
 (
 20
@@ -2229,7 +2227,7 @@ GetValueAtTime
 (
 0
 .
-0f
+0
 )
 20
 .
@@ -2289,7 +2287,7 @@ GetValueAtTime
 (
 0
 .
-0f
+0
 )
 20
 .
@@ -2362,7 +2360,7 @@ GetValueAtTime
 (
 1
 .
-0f
+0
 )
 20
 .
@@ -2432,7 +2430,7 @@ GetValueAtTime
 (
 1
 .
-0f
+0
 )
 20
 .
@@ -2492,7 +2490,6 @@ GetValueAtTime
 (
 10
 .
-f
 )
 20
 .
