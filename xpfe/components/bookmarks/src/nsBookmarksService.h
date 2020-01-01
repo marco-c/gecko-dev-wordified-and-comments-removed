@@ -84,7 +84,7 @@ h
 #
 include
 "
-nsString
+nsStringGlue
 .
 h
 "
@@ -277,10 +277,10 @@ htmlSize
 PRInt32
 mUpdateBatchNest
 ;
-nsXPIDLString
+nsString
 mPersonalToolbarName
 ;
-nsXPIDLString
+nsString
 mBookmarksRootName
 ;
 PRBool
