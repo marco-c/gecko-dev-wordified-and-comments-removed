@@ -6360,6 +6360,15 @@ this
 .
 _browserView
 ;
+if
+(
+!
+bv
+.
+allowZoom
+)
+return
+;
 let
 zoomLevel
 =
@@ -6521,9 +6530,7 @@ getVisibleRect
 )
 ;
 return
-BrowserView
-.
-Util
+bv
 .
 clampZoomLevel
 (
