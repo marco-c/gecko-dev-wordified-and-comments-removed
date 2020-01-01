@@ -388,8 +388,7 @@ isResumePoint
 (
 )
 )
-return
-false
+continue
 ;
 MDefinition
 *
