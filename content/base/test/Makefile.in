@@ -782,6 +782,14 @@ test_bug398243
 .
 html
 \
+test_bug419132
+.
+html
+\
+bug419132
+.
+html
+\
 formReset
 .
 html
