@@ -771,6 +771,8 @@ NPCocoaEvent
 event
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 !
@@ -1150,6 +1152,11 @@ cocoaView
 ;
 return
 NPERR_NO_ERROR
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NPERR_GENERIC_ERROR
+)
 ;
 }
 NPBool
