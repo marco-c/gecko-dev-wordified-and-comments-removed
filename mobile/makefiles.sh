@@ -453,13 +453,6 @@ installer
 /
 debian
 /
-control
-mobile
-/
-installer
-/
-debian
-/
 fennec
 .
 desktop
