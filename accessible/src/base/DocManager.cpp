@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
@@ -171,6 +164,13 @@ mozilla
 :
 :
 a11y
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 DocAccessible
 *
@@ -1232,7 +1232,7 @@ GetWindow
 (
 )
 ;
-nsIDOMEventTarget
+EventTarget
 *
 target
 =
@@ -1395,7 +1395,7 @@ window
 )
 return
 ;
-nsIDOMEventTarget
+EventTarget
 *
 target
 =

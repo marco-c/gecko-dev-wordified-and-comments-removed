@@ -449,7 +449,7 @@ NS_ProxyRelease
 mainThread
 static_cast
 <
-nsIDOMEventTarget
+EventTarget
 *
 >
 (

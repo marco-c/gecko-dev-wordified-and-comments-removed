@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsBoxFrame
 .
 h

@@ -2904,7 +2904,7 @@ NS_FORM_INPUT_TIME
 bool
 ShouldPreventDOMActivateDispatch
 (
-nsIDOMEventTarget
+EventTarget
 *
 aOriginalTarget
 )
