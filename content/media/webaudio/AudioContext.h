@@ -271,12 +271,6 @@ IdealAudioRate
 )
 ;
 }
-double
-CurrentTime
-(
-)
-const
-;
 AudioListener
 *
 Listener

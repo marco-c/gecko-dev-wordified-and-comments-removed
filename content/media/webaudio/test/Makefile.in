@@ -127,10 +127,6 @@ test_biquadFilterNode
 .
 html
 \
-test_currentTime
-.
-html
-\
 test_delayNode
 .
 html
