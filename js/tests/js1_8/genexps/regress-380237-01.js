@@ -1420,6 +1420,13 @@ hard
 )
 )
 )
+delete
+Object
+.
+prototype
+.
+copy
+;
 reportCompare
 (
 expect
