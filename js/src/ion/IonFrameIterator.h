@@ -36,6 +36,7 @@ FrameType
 IonFrame_JS
 IonFrame_Entry
 IonFrame_Rectifier
+IonFrame_Bailed_Rectifier
 IonFrame_Exit
 }
 ;
