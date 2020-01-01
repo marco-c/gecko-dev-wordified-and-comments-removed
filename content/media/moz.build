@@ -371,6 +371,11 @@ AudioStream
 h
 '
 '
+BufferDecoder
+.
+h
+'
+'
 BufferMediaResource
 .
 h
@@ -576,6 +581,11 @@ cpp
 '
 '
 AudioStreamTrack
+.
+cpp
+'
+'
+BufferDecoder
 .
 cpp
 '
