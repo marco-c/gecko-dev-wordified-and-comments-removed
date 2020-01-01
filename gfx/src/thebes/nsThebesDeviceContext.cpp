@@ -1228,6 +1228,11 @@ this
 surface
 )
 ;
+else
+rv
+=
+NS_ERROR_FAILURE
+;
 if
 (
 NS_SUCCEEDED
