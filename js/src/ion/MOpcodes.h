@@ -324,6 +324,11 @@ CallGetNameTypeOf
 \
 _
 (
+CallGetElement
+)
+\
+_
+(
 GenericSetProperty
 )
 \
