@@ -20341,12 +20341,6 @@ _SAVE_LDFLAGS
 ]
 )
 fi
-WARNINGS_AS_ERRORS
-=
-'
--
-Werror
-'
 MOZ_OPTIMIZE_FLAGS
 =
 "
@@ -20794,6 +20788,12 @@ DSO_LDOPTS
 '
 -
 shared
+'
+WARNINGS_AS_ERRORS
+=
+'
+-
+Werror
 '
 _WARNINGS_CFLAGS
 =
