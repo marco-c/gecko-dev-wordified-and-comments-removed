@@ -315,6 +315,14 @@ Equals
 (
 spec
 )
+|
+|
+mNormalPACURISpec
+.
+Equals
+(
+spec
+)
 ;
 }
 bool
@@ -495,6 +503,9 @@ mPACURISpec
 ;
 nsCString
 mPACURIRedirectSpec
+;
+nsCString
+mNormalPACURISpec
 ;
 nsCOMPtr
 <

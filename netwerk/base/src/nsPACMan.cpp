@@ -1325,6 +1325,12 @@ Truncate
 (
 )
 ;
+mNormalPACURISpec
+.
+Truncate
+(
+)
+;
 mLoadFailureCount
 =
 0
@@ -1432,6 +1438,14 @@ if
 pacURI
 )
 {
+pacURI
+-
+>
+GetSpec
+(
+mNormalPACURISpec
+)
+;
 ios
 -
 >
