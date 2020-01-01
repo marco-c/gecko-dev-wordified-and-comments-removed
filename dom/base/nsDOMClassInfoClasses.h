@@ -1211,6 +1211,10 @@ GeoPositionCoords
 )
 DOMCI_CLASS
 (
+GeoPositionAddress
+)
+DOMCI_CLASS
+(
 GeoPositionError
 )
 DOMCI_CLASS
