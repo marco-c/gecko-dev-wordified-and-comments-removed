@@ -3834,16 +3834,6 @@ GetDocument
 (
 )
 ;
-PRBool
-allowScripts
-=
-docInfo
--
->
-GetScriptAccess
-(
-)
-;
 nsXBLPrototypeBinding
 *
 protoBinding
