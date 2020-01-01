@@ -652,7 +652,7 @@ __proto__
 DummyProvider
 .
 prototype
-constantOnly
+pullOnly
 :
 true
 }

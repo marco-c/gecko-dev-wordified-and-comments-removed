@@ -941,7 +941,7 @@ measurementTypes
 [
 ProfileMetadataMeasurement
 ]
-constantOnly
+pullOnly
 :
 true
 getProfileCreationDays

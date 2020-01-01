@@ -1290,7 +1290,7 @@ Object
 freeze
 (
 {
-constantOnly
+pullOnly
 :
 false
 getMeasurement

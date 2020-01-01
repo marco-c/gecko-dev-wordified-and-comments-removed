@@ -606,14 +606,14 @@ null
 ;
 this
 .
-_constantOnlyProviders
+_pullOnlyProviders
 =
 {
 }
 ;
 this
 .
-_constantOnlyProvidersRegistered
+_pullOnlyProvidersRegistered
 =
 false
 ;
@@ -2093,7 +2093,7 @@ if
 (
 proto
 .
-constantOnly
+pullOnly
 )
 {
 this
@@ -2105,7 +2105,7 @@ info
 "
 Provider
 is
-constant
+pull
 -
 only
 .
@@ -2121,7 +2121,7 @@ name
 ;
 this
 .
-_constantOnlyProviders
+_pullOnlyProviders
 [
 proto
 .
@@ -2429,7 +2429,7 @@ return
 provider
 ;
 }
-ensureConstantOnlyProvidersRegistered
+ensurePullOnlyProvidersRegistered
 :
 function
 (
@@ -2439,7 +2439,7 @@ if
 (
 this
 .
-_constantOnlyProvidersRegistered
+_pullOnlyProvidersRegistered
 )
 {
 return
@@ -2459,7 +2459,7 @@ function
 {
 this
 .
-_constantOnlyProvidersRegistered
+_pullOnlyProvidersRegistered
 =
 true
 ;
@@ -2483,7 +2483,7 @@ Task
 spawn
 (
 function
-registerConstantProviders
+registerPullProviders
 (
 )
 {
@@ -2495,7 +2495,7 @@ providerType
 in
 this
 .
-_constantOnlyProviders
+_pullOnlyProviders
 )
 {
 try
@@ -2533,7 +2533,7 @@ warn
 "
 Error
 registering
-constant
+pull
 -
 only
 provider
@@ -2565,7 +2565,7 @@ onFinished
 )
 ;
 }
-ensureConstantOnlyProvidersUnregistered
+ensurePullOnlyProvidersUnregistered
 :
 function
 (
@@ -2576,7 +2576,7 @@ if
 !
 this
 .
-_constantOnlyProvidersRegistered
+_pullOnlyProvidersRegistered
 )
 {
 return
@@ -2596,7 +2596,7 @@ function
 {
 this
 .
-_constantOnlyProvidersRegistered
+_pullOnlyProvidersRegistered
 =
 false
 ;
@@ -2620,7 +2620,7 @@ Task
 spawn
 (
 function
-unregisterConstantProviders
+unregisterPullProviders
 (
 )
 {
@@ -2641,7 +2641,7 @@ if
 !
 provider
 .
-constantOnly
+pullOnly
 )
 {
 continue
@@ -2656,7 +2656,7 @@ info
 "
 Shutting
 down
-constant
+pull
 -
 only
 provider
@@ -2953,7 +2953,7 @@ collectAndObtain
 yield
 this
 .
-ensureConstantOnlyProvidersRegistered
+ensurePullOnlyProvidersRegistered
 (
 )
 ;
@@ -3024,7 +3024,7 @@ finally
 yield
 this
 .
-ensureConstantOnlyProvidersUnregistered
+ensurePullOnlyProvidersUnregistered
 (
 )
 ;
@@ -4535,7 +4535,7 @@ doUpload
 yield
 this
 .
-ensureConstantOnlyProvidersRegistered
+ensurePullOnlyProvidersRegistered
 (
 )
 ;
@@ -4578,7 +4578,7 @@ finally
 yield
 this
 .
-ensureConstantOnlyProvidersUnregistered
+ensurePullOnlyProvidersUnregistered
 (
 )
 ;

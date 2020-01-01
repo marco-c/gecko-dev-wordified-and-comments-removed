@@ -1062,7 +1062,7 @@ _shutdown
 add_task
 (
 function
-test_constant_only_providers
+test_pull_only_providers
 (
 )
 {
@@ -1257,7 +1257,7 @@ DummyConstantProvider
 yield
 reporter
 .
-ensureConstantOnlyProvidersRegistered
+ensurePullOnlyProvidersRegistered
 (
 )
 ;
@@ -1271,7 +1271,7 @@ collectMeasurements
 yield
 reporter
 .
-ensureConstantOnlyProvidersUnregistered
+ensurePullOnlyProvidersUnregistered
 (
 )
 ;
