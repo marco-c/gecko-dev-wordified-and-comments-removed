@@ -467,10 +467,6 @@ test_bug551654
 .
 html
 \
-test_exslt_regex
-.
-html
-\
 (
 NULL
 )
