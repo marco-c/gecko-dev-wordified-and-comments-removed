@@ -10777,7 +10777,7 @@ audio
 .
 frequency
 =
-32000
+48000
 ;
 payload_info
 -
