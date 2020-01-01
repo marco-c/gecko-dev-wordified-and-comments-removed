@@ -92,6 +92,10 @@ NULL
 EXTRA_JS_MODULES
 =
 \
+PageThumbsWorker
+.
+js
+\
 PageThumbs
 .
 jsm
