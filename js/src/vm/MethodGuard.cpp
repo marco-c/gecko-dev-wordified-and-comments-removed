@@ -210,16 +210,14 @@ JSFunction
 *
 fun
 =
-js_ValueToFunction
+ReportIfNotFunction
 (
 cx
-&
 call
 .
 calleev
 (
 )
-0
 )
 )
 {

@@ -15333,7 +15333,7 @@ RootedObject
 callable
 (
 cx
-js_ValueToCallableObject
+ValueToCallable
 (
 cx
 &
@@ -15341,7 +15341,6 @@ args
 [
 0
 ]
-JSV2F_SEARCH_STACK
 )
 )
 ;
@@ -15758,7 +15757,7 @@ RootedObject
 callable
 (
 cx
-js_ValueToCallableObject
+ValueToCallable
 (
 cx
 &
@@ -15766,7 +15765,6 @@ args
 [
 0
 ]
-JSV2F_SEARCH_STACK
 )
 )
 ;
@@ -16120,7 +16118,7 @@ RootedObject
 callable
 (
 cx
-js_ValueToCallableObject
+ValueToCallable
 (
 cx
 &
@@ -16128,7 +16126,6 @@ args
 [
 0
 ]
-JSV2F_SEARCH_STACK
 )
 )
 ;
@@ -16577,7 +16574,7 @@ JSObject
 *
 callable
 =
-js_ValueToCallableObject
+ValueToCallable
 (
 cx
 &
@@ -16585,7 +16582,6 @@ args
 [
 0
 ]
-JSV2F_SEARCH_STACK
 )
 ;
 if
