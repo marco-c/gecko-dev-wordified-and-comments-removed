@@ -1102,6 +1102,12 @@ PeerConnectionMedia
 >
 mMedia
 ;
+int
+mNumAudioStreams
+;
+int
+mNumVideoStreams
+;
 public
 :
 unsigned
