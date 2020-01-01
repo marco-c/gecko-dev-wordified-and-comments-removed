@@ -371,6 +371,10 @@ GetTextValue
 newValue
 )
 ;
+mTree
+=
+nsnull
+;
 mSearchString
 =
 newValue
