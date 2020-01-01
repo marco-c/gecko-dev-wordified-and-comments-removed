@@ -458,7 +458,7 @@ modified
 define
 BrandFullNameInternal
 "
-Minefield
+Nightly
 "
 !
 define
