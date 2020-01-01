@@ -534,7 +534,6 @@ else
 USE_MMX
 =
 1
-#
 USE_SSE2
 =
 1
