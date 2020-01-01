@@ -1457,6 +1457,12 @@ workerAPI
 =
 null
 ;
+this
+.
+profile
+=
+undefined
+;
 }
 getWorkerPort
 :
