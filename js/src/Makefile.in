@@ -73,6 +73,10 @@ top_srcdir
 srcdir
 =
 srcdir
+TOPLEVEL_BUILD
+:
+=
+1
 run_for_side_effects
 :
 =
