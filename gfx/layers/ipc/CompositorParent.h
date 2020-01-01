@@ -350,6 +350,9 @@ mYScale
 nsIntPoint
 mScrollOffset
 ;
+nsIntSize
+mContentSize
+;
 bool
 mIsFirstPaint
 ;
