@@ -198,6 +198,11 @@ height
 "
 768
 "
+fullscreenbutton
+=
+"
+true
+"
 persist
 =
 "
