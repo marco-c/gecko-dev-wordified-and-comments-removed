@@ -357,6 +357,10 @@ test_oscillatorNode
 .
 html
 \
+test_oscillatorNodeStart
+.
+html
+\
 test_pannerNode
 .
 html
