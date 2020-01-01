@@ -1934,7 +1934,7 @@ nsChangeHint_UpdateTransformLayer
 |
 nsChangeHint_UpdateOpacityLayer
 |
-nsChangeHint_UpdateOverflow
+NS_STYLE_HINT_UPDATE_OVERFLOW
 )
 ;
 DO_STRUCT_DIFFERENCE
@@ -1962,7 +1962,7 @@ nsChangeHint
 (
 NS_STYLE_HINT_FRAMECHANGE
 |
-nsChangeHint_UpdateOverflow
+NS_STYLE_HINT_UPDATE_OVERFLOW
 |
 nsChangeHint_UpdateCursor
 )
@@ -2042,7 +2042,7 @@ nsChangeHint
 (
 NS_STYLE_HINT_REFLOW
 |
-nsChangeHint_UpdateOverflow
+NS_STYLE_HINT_UPDATE_OVERFLOW
 )
 ;
 DO_STRUCT_DIFFERENCE
@@ -2090,12 +2090,7 @@ TextReset
 ;
 maxHint
 =
-nsChangeHint
-(
-nsChangeHint_RepaintFrame
-|
-nsChangeHint_UpdateOverflow
-)
+NS_STYLE_HINT_UPDATE_OVERFLOW
 ;
 DO_STRUCT_DIFFERENCE
 (
