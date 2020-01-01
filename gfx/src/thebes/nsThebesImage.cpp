@@ -3117,5 +3117,9 @@ mFormatChanged
 =
 PR_TRUE
 ;
+mAlphaDepth
+=
+0
+;
 }
 }
