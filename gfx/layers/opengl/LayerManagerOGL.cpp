@@ -769,11 +769,16 @@ while
 (
 0
 )
+#
+ifdef
+DEBUG
 GLint
 programIndex
 =
 0
 ;
+#
+endif
 SHADER_PROGRAM
 (
 RGBALayerProgramType

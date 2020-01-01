@@ -4570,6 +4570,10 @@ PR_TRUE
 ;
 gfxSize
 size
+(
+0
+0
+)
 ;
 switch
 (
