@@ -2960,6 +2960,8 @@ LICENSE
 DIST
 )
 /
+bin
+/
 LICENSE
 else
 (
