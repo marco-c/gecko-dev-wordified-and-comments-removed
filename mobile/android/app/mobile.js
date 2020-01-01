@@ -5896,3 +5896,13 @@ default
 "
 )
 ;
+pref
+(
+"
+memory
+.
+free_dirty_pages
+"
+true
+)
+;
