@@ -1500,9 +1500,13 @@ oldChar
 PRBool
 isXML
 =
+!
+!
+(
 mFlags
 &
 NS_IPARSER_FLAG_XML
+)
 ;
 if
 (
@@ -1654,9 +1658,13 @@ default
 PRBool
 isXML
 =
+!
+!
+(
 mFlags
 &
 NS_IPARSER_FLAG_XML
+)
 ;
 if
 (
