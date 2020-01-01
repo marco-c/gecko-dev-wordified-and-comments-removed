@@ -245,6 +245,15 @@ WHILE_LOOP_COND
 case
 WHILE_LOOP_BODY
 :
+case
+FOR_LOOP_COND
+:
+case
+FOR_LOOP_BODY
+:
+case
+FOR_LOOP_UPDATE
+:
 return
 true
 ;
