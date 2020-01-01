@@ -9,6 +9,11 @@ components
 nsTryToClose
 .
 js
+components
+/
+CapturePicker
+.
+js
 #
 if
 MOZ_UPDATE_CHANNEL
