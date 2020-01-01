@@ -365,6 +365,15 @@ browser
 /
 preferences
 /
+sanitize
+.
+js
+content
+/
+browser
+/
+preferences
+/
 security
 .
 xul
