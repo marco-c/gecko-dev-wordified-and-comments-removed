@@ -160,7 +160,7 @@ mozilla
 :
 TrackTicks
 aTrackOffset
-PRUint32
+uint32_t
 aTrackEvents
 const
 mozilla
@@ -590,7 +590,7 @@ Fake_nsDOMMediaStream
 >
 CreateInputStream
 (
-PRUint32
+uint32_t
 aHintContents
 )
 {
@@ -652,7 +652,7 @@ HINT_CONTENTS_VIDEO
 0x00000002U
 }
 ;
-PRUint32
+uint32_t
 GetHintContents
 (
 )
@@ -665,7 +665,7 @@ mHintContents
 void
 SetHintContents
 (
-PRUint32
+uint32_t
 aHintContents
 )
 {
@@ -680,7 +680,7 @@ Fake_MediaStream
 *
 mMediaStream
 ;
-PRUint32
+uint32_t
 mHintContents
 ;
 }

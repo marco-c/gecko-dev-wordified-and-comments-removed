@@ -359,7 +359,7 @@ std
 :
 vector
 <
-PRUint16
+uint16_t
 >
 ciphers
 ;

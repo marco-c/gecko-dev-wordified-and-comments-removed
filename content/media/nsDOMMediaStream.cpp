@@ -132,7 +132,7 @@ nsDOMMediaStream
 :
 CreateInputStream
 (
-PRUint32
+uint32_t
 aHintContents
 )
 {

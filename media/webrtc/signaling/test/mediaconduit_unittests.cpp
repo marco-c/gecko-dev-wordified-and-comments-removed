@@ -242,12 +242,12 @@ height
 2
 )
 ;
-PRUint8
+uint8_t
 *
 frame
 =
 (
-PRUint8
+uint8_t
 *
 )
 PR_MALLOC
