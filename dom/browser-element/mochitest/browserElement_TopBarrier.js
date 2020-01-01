@@ -3,14 +3,14 @@ use
 strict
 "
 ;
-browserFrameHelpers
+browserElementTestHelpers
 .
 setEnabledPref
 (
 true
 )
 ;
-browserFrameHelpers
+browserElementTestHelpers
 .
 addToWhitelist
 (

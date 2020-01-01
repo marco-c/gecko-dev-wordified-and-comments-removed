@@ -105,7 +105,7 @@ mk
 #
 Note
 :
-browserFrameHelpers
+browserElementTestHelpers
 .
 js
 looks
@@ -153,7 +153,7 @@ file_focus
 .
 html
 \
-browserFrameHelpers
+browserElementTestHelpers
 .
 js
 \
