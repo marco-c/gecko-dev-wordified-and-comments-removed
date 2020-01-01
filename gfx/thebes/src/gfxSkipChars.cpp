@@ -117,6 +117,7 @@ originalCharOffset
 +
 len
 >
+=
 (
 nextShortcutIndex
 +
