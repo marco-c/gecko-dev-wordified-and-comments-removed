@@ -261,7 +261,7 @@ loadURI
 "
 about
 :
-robots
+mozilla
 "
 )
 ;

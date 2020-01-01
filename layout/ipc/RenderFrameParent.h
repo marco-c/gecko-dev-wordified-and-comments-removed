@@ -288,6 +288,9 @@ LayerManager
 LayersBackend
 *
 aBackendType
+int
+*
+aMaxTextureSize
 )
 ;
 NS_OVERRIDE

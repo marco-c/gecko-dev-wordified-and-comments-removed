@@ -1630,10 +1630,11 @@ nsAutoPtr
 TextureD3D9BackendData
 >
 dat
-=
+(
 new
 TextureD3D9BackendData
 (
+)
 )
 ;
 dat
@@ -1763,10 +1764,11 @@ nsAutoPtr
 TextureD3D9BackendData
 >
 dat
-=
+(
 new
 TextureD3D9BackendData
 (
+)
 )
 ;
 dat

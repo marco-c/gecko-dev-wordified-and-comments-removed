@@ -218,6 +218,11 @@ universal
 /
 endif
 endif
+PACKAGE_BASE_DIR
+=
+(
+_ABS_DIST
+)
 PACKAGE
 =
 (
@@ -4403,7 +4408,7 @@ MOZ_MACBUNDLE_NAME
 &
 cd
 (
-_ABS_DIST
+PACKAGE_BASE_DIR
 )
 \
 &

@@ -228,6 +228,9 @@ UseNearestFilter
 NeedsYFlip
 =
 0x2
+ForceSingleTile
+=
+0x4
 }
 ;
 typedef

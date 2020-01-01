@@ -7688,6 +7688,12 @@ mContext
 CreateNativeGlobalForInner
 (
 sgo
+aDocument
+-
+>
+GetDocumentURI
+(
+)
 isChrome
 aDocument
 -

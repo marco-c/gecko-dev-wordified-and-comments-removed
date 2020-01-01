@@ -17090,13 +17090,6 @@ mObjectFrame
 return
 nsnull
 ;
-NPDrawingModel
-drawingModel
-=
-GetDrawingModel
-(
-)
-;
 NPEventModel
 eventModel
 =
@@ -17250,6 +17243,13 @@ widgetVisible
 #
 ifndef
 NP_NO_QUICKDRAW
+NPDrawingModel
+drawingModel
+=
+GetDrawingModel
+(
+)
+;
 if
 (
 drawingModel

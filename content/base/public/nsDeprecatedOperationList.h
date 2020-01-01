@@ -150,3 +150,7 @@ DEPRECATED_OPERATION
 (
 DOMExceptionCode
 )
+DEPRECATED_OPERATION
+(
+MutationEvent
+)

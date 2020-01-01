@@ -459,6 +459,9 @@ ImageLayerAttributes
 GraphicsFilterType
 filter
 ;
+bool
+forceSingleTile
+;
 }
 ;
 union

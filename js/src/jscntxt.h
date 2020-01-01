@@ -1665,6 +1665,9 @@ gcJitReleaseTime
 JSGCMode
 gcMode
 ;
+bool
+gcShouldCleanUpEverything
+;
 volatile
 uintptr_t
 gcIsNeeded
