@@ -3009,6 +3009,13 @@ below
 0
 )
 {
+if
+(
+IsDroppedDown
+(
+)
+)
+{
 nsIView
 *
 view
@@ -3043,6 +3050,7 @@ this
 )
 )
 ;
+}
 return
 eDropDownPositionSuppressed
 ;
