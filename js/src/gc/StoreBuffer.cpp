@@ -39,12 +39,13 @@ inl
 .
 h
 "
+using
 namespace
 js
-{
-namespace
+:
+:
 gc
-{
+;
 template
 <
 typename
@@ -1249,7 +1250,5 @@ StoreBuffer
 CellPtrEdge
 >
 ;
-}
-}
 #
 endif
