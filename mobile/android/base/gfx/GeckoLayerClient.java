@@ -318,6 +318,13 @@ setListener
 this
 )
 ;
+view
+.
+setLayerRenderer
+(
+mLayerRenderer
+)
+;
 layerController
 .
 setRoot
