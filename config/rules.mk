@@ -10930,9 +10930,13 @@ ifndef
 NO_DIST_INSTALL
 ifdef
 XPI_NAME
+ifdef
+XPI_ROOT_APPID
 #
 For
-langpack
+add
+-
+on
 packaging
 we
 may
@@ -10962,8 +10966,6 @@ id
 MAKE_JARS_FLAGS
 +
 =
-(
-addprefix
 -
 -
 root
@@ -10974,10 +10976,12 @@ entry
 -
 appid
 =
+"
 (
 XPI_ROOT_APPID
 )
-)
+"
+endif
 #
 if
 DIST_SUBDIR
