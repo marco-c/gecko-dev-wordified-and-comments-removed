@@ -168,9 +168,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -181,6 +181,7 @@ moz_embed_signals
 [
 DOM_KEY_DOWN
 ]
+0
 (
 void
 *
@@ -251,9 +252,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -264,6 +265,7 @@ moz_embed_signals
 [
 DOM_KEY_UP
 ]
+0
 (
 void
 *
@@ -334,9 +336,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -347,6 +349,7 @@ moz_embed_signals
 [
 DOM_KEY_PRESS
 ]
+0
 (
 void
 *
@@ -417,9 +420,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -430,6 +433,7 @@ moz_embed_signals
 [
 DOM_MOUSE_DOWN
 ]
+0
 (
 void
 *
@@ -500,9 +504,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -513,6 +517,7 @@ moz_embed_signals
 [
 DOM_MOUSE_UP
 ]
+0
 (
 void
 *
@@ -583,9 +588,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -596,6 +601,7 @@ moz_embed_signals
 [
 DOM_MOUSE_CLICK
 ]
+0
 (
 void
 *
@@ -666,9 +672,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -679,6 +685,7 @@ moz_embed_signals
 [
 DOM_MOUSE_DBL_CLICK
 ]
+0
 (
 void
 *
@@ -749,9 +756,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -762,6 +769,7 @@ moz_embed_signals
 [
 DOM_MOUSE_OVER
 ]
+0
 (
 void
 *
@@ -832,9 +840,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -845,6 +853,7 @@ moz_embed_signals
 [
 DOM_MOUSE_OUT
 ]
+0
 (
 void
 *
@@ -913,9 +922,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -926,6 +935,7 @@ moz_embed_signals
 [
 DOM_ACTIVATE
 ]
+0
 (
 void
 *
@@ -994,9 +1004,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -1007,6 +1017,7 @@ moz_embed_signals
 [
 DOM_FOCUS_IN
 ]
+0
 (
 void
 *
@@ -1075,9 +1086,9 @@ return_val
 =
 FALSE
 ;
-gtk_signal_emit
+g_signal_emit
 (
-GTK_OBJECT
+G_OBJECT
 (
 mOwner
 -
@@ -1088,6 +1099,7 @@ moz_embed_signals
 [
 DOM_FOCUS_OUT
 ]
+0
 (
 void
 *
