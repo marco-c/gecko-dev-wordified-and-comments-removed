@@ -992,7 +992,7 @@ LoadPlugin
 (
 PRLibrary
 *
-&
+*
 outLibrary
 )
 {
@@ -1140,7 +1140,6 @@ plugin
 >
 Load
 (
-&
 outLibrary
 )
 ;
@@ -1151,6 +1150,7 @@ NS_FAILED
 rv
 )
 )
+*
 outLibrary
 =
 NULL
@@ -1198,8 +1198,17 @@ GetPluginInfo
 nsPluginInfo
 &
 info
+PRLibrary
+*
+*
+outLibrary
 )
 {
+*
+outLibrary
+=
+nsnull
+;
 nsresult
 rv
 =

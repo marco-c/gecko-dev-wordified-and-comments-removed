@@ -362,7 +362,7 @@ LoadPlugin
 (
 PRLibrary
 *
-&
+*
 outLibrary
 )
 {
@@ -394,6 +394,7 @@ rv
 }
 pLibrary
 =
+*
 outLibrary
 =
 PR_LoadLibrary
@@ -455,8 +456,17 @@ GetPluginInfo
 nsPluginInfo
 &
 info
+PRLibrary
+*
+*
+outLibrary
 )
 {
+*
+outLibrary
+=
+nsnull
+;
 info
 .
 fVersion
