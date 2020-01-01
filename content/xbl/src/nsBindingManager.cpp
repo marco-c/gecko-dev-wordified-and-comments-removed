@@ -943,14 +943,7 @@ cb
 >
 NoteXPCOMChild
 (
-static_cast
-<
-nsIScriptGlobalObjectOwner
-*
->
-(
 di
-)
 )
 ;
 return
