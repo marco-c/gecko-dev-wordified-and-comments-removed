@@ -447,7 +447,7 @@ C
 +
 #
 ifdef
-WINCE
+ERROR
 #
 undef
 ERROR
