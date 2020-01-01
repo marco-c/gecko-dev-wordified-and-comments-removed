@@ -402,7 +402,7 @@ nsPIDOMEventTarget
 >
 mEventTarget
 ;
-nsString
+nsCString
 mURI
 ;
 static

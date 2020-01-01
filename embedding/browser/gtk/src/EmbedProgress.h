@@ -64,9 +64,8 @@ RequestToURIString
 nsIRequest
 *
 aRequest
-char
-*
-*
+nsACString
+&
 aString
 )
 ;
