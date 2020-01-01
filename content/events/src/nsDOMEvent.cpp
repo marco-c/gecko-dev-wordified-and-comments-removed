@@ -2011,10 +2011,12 @@ aCancelableArg
 NS_ENSURE_TRUE
 (
 !
-NS_IS_EVENT_IN_DISPATCH
-(
 mEvent
-)
+-
+>
+mFlags
+.
+mIsBeingDispatched
 NS_OK
 )
 ;

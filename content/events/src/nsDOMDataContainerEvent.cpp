@@ -182,12 +182,12 @@ aData
 NS_ENSURE_STATE
 (
 !
-(
-NS_IS_EVENT_IN_DISPATCH
-(
 mEvent
-)
-)
+-
+>
+mFlags
+.
+mIsBeingDispatched
 )
 ;
 NS_ENSURE_STATE
