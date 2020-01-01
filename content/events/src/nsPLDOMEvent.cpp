@@ -234,11 +234,6 @@ OwnerDoc
 ;
 if
 (
-doc
-)
-{
-if
-(
 mDispatchChromeOnly
 )
 {
@@ -269,7 +264,6 @@ mBubbles
 false
 )
 ;
-}
 }
 }
 return

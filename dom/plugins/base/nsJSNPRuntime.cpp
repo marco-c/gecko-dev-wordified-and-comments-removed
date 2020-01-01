@@ -8402,15 +8402,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-!
-doc
-)
-{
-return
-;
-}
 nsIScriptGlobalObject
 *
 sgo

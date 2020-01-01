@@ -712,11 +712,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-doc
-)
-{
 nsContentUtils
 :
 :
@@ -736,7 +731,6 @@ GetDocumentURI
 )
 )
 ;
-}
 if
 (
 !

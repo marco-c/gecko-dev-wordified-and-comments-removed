@@ -2437,9 +2437,9 @@ if
 content
 )
 {
-nsIDocument
+nsIPresShell
 *
-document
+shell
 =
 content
 -
@@ -2447,17 +2447,6 @@ content
 OwnerDoc
 (
 )
-;
-if
-(
-document
-)
-{
-nsIPresShell
-*
-shell
-=
-document
 -
 >
 GetShell
@@ -2522,7 +2511,6 @@ NS_NATIVE_SHAREABLE_WINDOW
 return
 true
 ;
-}
 }
 }
 }

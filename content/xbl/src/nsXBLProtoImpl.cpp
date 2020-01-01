@@ -186,14 +186,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-!
-document
-)
-return
-NS_OK
-;
 nsIScriptGlobalObject
 *
 global
@@ -417,10 +409,6 @@ sgo
 ;
 if
 (
-!
-ownerDoc
-|
-|
 !
 (
 sgo

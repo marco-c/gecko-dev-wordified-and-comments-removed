@@ -1602,13 +1602,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-!
-doc
-)
-return
-;
 const
 PRUnichar
 *
@@ -2256,13 +2249,6 @@ content
 OwnerDoc
 (
 )
-;
-if
-(
-!
-doc
-)
-return
 ;
 nsCOMPtr
 <

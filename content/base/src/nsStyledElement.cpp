@@ -1072,10 +1072,6 @@ OwnerDoc
 ;
 if
 (
-doc
-&
-&
-(
 aForceInDataDoc
 |
 |
@@ -1093,7 +1089,6 @@ doc
 >
 IsStaticDocument
 (
-)
 )
 )
 {

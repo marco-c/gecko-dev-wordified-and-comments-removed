@@ -1720,11 +1720,6 @@ if
 OwnerDoc
 (
 )
-&
-&
-OwnerDoc
-(
-)
 -
 >
 FindImageMap

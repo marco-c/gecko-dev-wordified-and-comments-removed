@@ -1202,14 +1202,6 @@ OwnerDoc
 (
 )
 ;
-if
-(
-!
-boundDocument
-)
-return
-NS_OK
-;
 }
 boundGlobal
 =

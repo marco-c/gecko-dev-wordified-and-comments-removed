@@ -544,10 +544,6 @@ sgo
 if
 (
 !
-ownerDoc
-|
-|
-!
 (
 sgo
 =
