@@ -13962,6 +13962,16 @@ false
 pref
 (
 "
+intl
+.
+enable_tsf_support
+"
+false
+)
+;
+pref
+(
+"
 ui
 .
 panel
