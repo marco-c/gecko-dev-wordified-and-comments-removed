@@ -14304,14 +14304,8 @@ pos
 tokenHandler
 -
 >
-characters
+zeroOriginatingReplacementCharacter
 (
-nsHtml5Tokenizer
-:
-:
-REPLACEMENT_CHARACTER
-0
-1
 )
 ;
 cstart
