@@ -16559,16 +16559,6 @@ realMode
 )
 ;
 #
-ifdef
-DEBUG
-_set_sbh_threshold
-(
-0
-)
-;
-#
-endif
-#
 endif
 #
 ifndef
