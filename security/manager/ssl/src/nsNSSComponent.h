@@ -871,9 +871,6 @@ class
 nsNSSShutDownList
 ;
 class
-nsSSLThread
-;
-class
 nsCertVerificationThread
 ;
 class
@@ -1414,10 +1411,6 @@ void
 createBackgroundThreads
 (
 )
-;
-nsSSLThread
-*
-mSSLThread
 ;
 nsCertVerificationThread
 *

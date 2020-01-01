@@ -485,10 +485,6 @@ nsPSMBackgroundThread
 .
 cpp
 \
-nsSSLThread
-.
-cpp
-\
 nsCertVerificationThread
 .
 cpp
