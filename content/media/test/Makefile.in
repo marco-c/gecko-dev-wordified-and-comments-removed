@@ -753,10 +753,6 @@ test_streams_srcObject
 .
 html
 \
-test_reset_src
-.
-html
-\
 (
 filter
 disabled
