@@ -124,6 +124,7 @@ GET
 CALL
 SET
 NAME
+BIND
 }
 ;
 union
@@ -172,7 +173,7 @@ u
 Kind
 kind
 :
-2
+3
 ;
 bool
 shapeRegHasBaseShape
@@ -577,6 +578,17 @@ index
 void
 JS_FASTCALL
 Name
+(
+VMFrame
+&
+f
+uint32
+index
+)
+;
+void
+JS_FASTCALL
+BindName
 (
 VMFrame
 &
