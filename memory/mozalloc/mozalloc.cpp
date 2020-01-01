@@ -310,6 +310,16 @@ b
 c
 )
 #
+define
+malloc_usable_size
+(
+a
+)
+je_malloc_usable_size
+(
+a
+)
+#
 endif
 void
 moz_free
