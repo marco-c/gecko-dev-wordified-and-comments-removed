@@ -4810,6 +4810,7 @@ nsGkAtoms
 overridePreserveAspectRatio
 pAROverridePtr
 ReleasePreserveAspectRatioPropertyValue
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -5233,6 +5234,7 @@ nsGkAtoms
 viewBox
 pViewBoxOverridePtr
 ReleaseViewBoxPropertyValue
+true
 )
 ;
 NS_ABORT_IF_FALSE
@@ -5384,6 +5386,8 @@ void
 (
 aValue
 )
+nsnull
+true
 )
 ;
 NS_ABORT_IF_FALSE
