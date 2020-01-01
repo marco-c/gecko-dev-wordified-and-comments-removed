@@ -2215,12 +2215,6 @@ CCC
 (
 CXX
 )
-PURIFY
-=
-purify
-(
-PURIFYOPTIONS
-)
 QUANTIFY
 =
 quantify
