@@ -241,7 +241,7 @@ isPrivate
 add_task
 (
 function
-test_startDirect_uri_file_arguments
+test_simpleDownload_uri_file_arguments
 (
 )
 {
@@ -256,7 +256,7 @@ TEST_TARGET_FILE_NAME
 yield
 Downloads
 .
-startDirect
+simpleDownload
 (
 NetUtil
 .
@@ -289,7 +289,7 @@ TEST_DATA_SHORT
 add_task
 (
 function
-test_startDirect_object_arguments
+test_simpleDownload_object_arguments
 (
 )
 {
@@ -306,7 +306,7 @@ path
 yield
 Downloads
 .
-startDirect
+simpleDownload
 (
 {
 url
@@ -340,7 +340,7 @@ TEST_DATA_SHORT
 add_task
 (
 function
-test_startDirect_string_arguments
+test_simpleDownload_string_arguments
 (
 )
 {
@@ -357,7 +357,7 @@ path
 yield
 Downloads
 .
-startDirect
+simpleDownload
 (
 httpUrl
 (
@@ -389,7 +389,7 @@ path
 yield
 Downloads
 .
-startDirect
+simpleDownload
 (
 new
 String

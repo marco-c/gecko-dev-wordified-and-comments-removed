@@ -347,7 +347,6 @@ refresh
 }
 finally
 {
-yield
 this
 .
 list

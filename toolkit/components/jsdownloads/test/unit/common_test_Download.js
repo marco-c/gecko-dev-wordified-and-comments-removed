@@ -4926,7 +4926,7 @@ TEST_TARGET_FILE_NAME
 yield
 Downloads
 .
-startDirect
+simpleDownload
 (
 sourceUrl
 targetFile
@@ -4935,7 +4935,7 @@ targetFile
 yield
 Downloads
 .
-startDirect
+simpleDownload
 (
 sourceUrl
 targetFile
