@@ -231,9 +231,6 @@ HTMLVideoElement
 interface
 ImageData
 ;
-interface
-WebGLContextAttributes
-;
 typedef
 unsigned
 long
@@ -349,8 +346,6 @@ typedef
 float
 GLclampf
 ;
-/
-*
 dictionary
 WebGLContextAttributes
 {
@@ -386,8 +381,6 @@ false
 ;
 }
 ;
-*
-/
 interface
 WebGLBuffer
 {
@@ -2645,7 +2638,6 @@ drawingBufferHeight
 ;
 [
 WebGLHandlesContextLoss
-Throws
 ]
 WebGLContextAttributes
 getContextAttributes
