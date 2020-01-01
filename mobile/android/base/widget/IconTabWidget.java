@@ -107,7 +107,7 @@ context
 ;
 }
 public
-void
+ImageButton
 addTab
 (
 int
@@ -170,6 +170,9 @@ setOnFocusChangeListener
 (
 this
 )
+;
+return
+button
 ;
 }
 public
