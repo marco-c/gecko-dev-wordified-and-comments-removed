@@ -197,7 +197,14 @@ Kew
 #
 DEPTH
 =
-DEPTH
+.
+.
+/
+.
+.
+/
+.
+.
 topsrcdir
 =
 top_srcdir

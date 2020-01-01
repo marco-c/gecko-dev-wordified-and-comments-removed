@@ -55,7 +55,11 @@ MPL
 .
 DEPTH
 =
-DEPTH
+.
+.
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -67,7 +71,9 @@ VPATH
 srcdir
 relativesrcdir
 =
-relativesrcdir
+netwerk
+/
+locales
 include
 (
 DEPTH

@@ -306,7 +306,11 @@ locale
 #
 DEPTH
 =
-DEPTH
+.
+.
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -318,7 +322,9 @@ VPATH
 srcdir
 relativesrcdir
 =
-relativesrcdir
+mobile
+/
+locales
 include
 (
 DEPTH

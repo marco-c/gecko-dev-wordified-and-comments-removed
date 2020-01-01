@@ -56,7 +56,8 @@ MPL
 .
 DEPTH
 =
-DEPTH
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -588,7 +589,8 @@ _leaktest
 /
 TARGET_DEPTH
 =
-DEPTH
+.
+.
 include
 (
 srcdir

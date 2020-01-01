@@ -59,7 +59,11 @@ MPL
 .
 DEPTH
 =
-DEPTH
+.
+.
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -73,7 +77,9 @@ srcdir
 )
 relativesrcdir
 =
-relativesrcdir
+tools
+/
+profiler
 XPCSHELL_TESTS
 =
 tests

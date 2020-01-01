@@ -1,6 +1,13 @@
 DEPTH
 =
-DEPTH
+.
+.
+/
+.
+.
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -12,7 +19,11 @@ VPATH
 srcdir
 relativesrcdir
 =
-relativesrcdir
+dom
+/
+system
+/
+tests
 MODULE
 =
 test_domsystem

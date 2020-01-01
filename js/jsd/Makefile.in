@@ -59,7 +59,11 @@ MPL
 .
 DEPTH
 =
-DEPTH
+.
+.
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -71,7 +75,9 @@ srcdir
 srcdir
 relativesrcdir
 =
-relativesrcdir
+js
+/
+jsd
 include
 (
 DEPTH

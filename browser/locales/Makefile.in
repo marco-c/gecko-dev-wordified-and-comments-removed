@@ -70,7 +70,11 @@ MPL
 .
 DEPTH
 =
-DEPTH
+.
+.
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -82,7 +86,9 @@ VPATH
 srcdir
 relativesrcdir
 =
-relativesrcdir
+browser
+/
+locales
 include
 (
 DEPTH

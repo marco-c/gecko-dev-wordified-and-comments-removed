@@ -56,7 +56,11 @@ MPL
 .
 DEPTH
 =
-DEPTH
+.
+.
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -68,7 +72,9 @@ VPATH
 srcdir
 relativesrcdir
 =
-relativesrcdir
+gfx
+/
+tests
 include
 (
 DEPTH
