@@ -101,15 +101,7 @@ GuardRecord
 {
 void
 *
-jmpToStub
-;
-void
-*
-stubEntry
-;
-void
-*
-jmpToTarget
+jmp
 ;
 GuardRecord
 *
