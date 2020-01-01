@@ -497,8 +497,11 @@ rv
 mImage
 -
 >
-AppendPalettedFrame
+EnsureFrame
 (
+mGIFStruct
+.
+images_decoded
 mGIFStruct
 .
 x_offset
@@ -531,8 +534,11 @@ rv
 mImage
 -
 >
-AppendFrame
+EnsureFrame
 (
+mGIFStruct
+.
+images_decoded
 mGIFStruct
 .
 x_offset

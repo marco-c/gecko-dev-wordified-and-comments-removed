@@ -972,8 +972,9 @@ rv
 mImage
 -
 >
-AppendFrame
+EnsureFrame
 (
+0
 0
 0
 mBIH
@@ -1040,8 +1041,9 @@ rv
 mImage
 -
 >
-AppendFrame
+EnsureFrame
 (
+0
 0
 0
 mBIH

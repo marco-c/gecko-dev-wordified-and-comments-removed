@@ -1053,8 +1053,9 @@ rv
 mImage
 -
 >
-AppendFrame
+EnsureFrame
 (
+0
 0
 0
 mDirEntry

@@ -328,8 +328,11 @@ rv
 mImage
 -
 >
-AppendFrame
+EnsureFrame
 (
+GetFrameCount
+(
+)
 x_offset
 y_offset
 width

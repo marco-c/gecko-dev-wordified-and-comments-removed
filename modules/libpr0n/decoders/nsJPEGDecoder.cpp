@@ -1360,7 +1360,7 @@ NS_FAILED
 mImage
 -
 >
-EnsureCleanFrame
+EnsureFrame
 (
 0
 0
