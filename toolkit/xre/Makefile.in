@@ -1374,16 +1374,6 @@ srcdir
 -
 I
 (
-topsrcdir
-)
-/
-xpfe
-/
-bootstrap
-\
--
-I
-(
 srcdir
 )
 /
@@ -1523,9 +1513,6 @@ bootstrap
 /
 (
 SHAREDCPPSRCS
-)
-(
-SHAREDCMMSRCS
 )
 )
 (
