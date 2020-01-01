@@ -751,15 +751,6 @@ return
 ;
 NanoAssertMsg
 (
-_inExit
-?
-containsPtr
-(
-exitStart
-exitEnd
-_nIns
-)
-:
 containsPtr
 (
 codeStart
@@ -2876,7 +2867,7 @@ releaseRegisters
 (
 )
 ;
-swapptrs
+swapCodeChunks
 (
 )
 ;
@@ -2924,7 +2915,7 @@ jmpTarget
 =
 _nIns
 ;
-swapptrs
+swapCodeChunks
 (
 )
 ;
@@ -3691,6 +3682,12 @@ i
 ;
 }
 )
+NanoAssert
+(
+!
+_inExit
+)
+;
 #
 ifdef
 NANOJIT_ARM
