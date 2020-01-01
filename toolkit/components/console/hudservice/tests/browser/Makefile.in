@@ -712,6 +712,10 @@ browser_webconsole_bug_601177_log_levels
 .
 js
 \
+browser_webconsole_bug_587615_lastTimestamp
+.
+js
+\
 head
 .
 js
