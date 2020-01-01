@@ -67,6 +67,15 @@ flags
 16
 )
 )
+#
+define
+EXTRA_LOAD_FLAGS
+(
+LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
+|
+\
+LOAD_FLAGS_FIRST_LOAD
+)
 enum
 LoadType
 {
