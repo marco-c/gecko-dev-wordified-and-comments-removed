@@ -670,6 +670,12 @@ LDFLAGS
 (
 XLDFLAGS
 )
+LDFLAGS
++
+=
+(
+OS_LDFLAGS
+)
 ifdef
 MOZ_SHARK
 DEFINES
@@ -2024,6 +2030,9 @@ o
 (
 CXX
 )
+(
+OS_LDFLAGS
+)
 -
 o
 (
@@ -2072,11 +2081,11 @@ files
 DEPENDENCIES
 =
 (
-CFILES
+CPPFILES
 :
 %
 .
-c
+cpp
 =
 (
 OBJDIR

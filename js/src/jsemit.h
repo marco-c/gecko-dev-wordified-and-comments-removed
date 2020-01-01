@@ -1994,7 +1994,7 @@ jsint
 *
 slotp
 uintN
-decltype
+declType
 )
 ;
 extern

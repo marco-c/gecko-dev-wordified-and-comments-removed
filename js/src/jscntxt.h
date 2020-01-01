@@ -107,9 +107,9 @@ typedef
 struct
 JSGSNCache
 {
-JSScript
+jsbytecode
 *
-script
+code
 ;
 JSDHashTable
 table
@@ -174,7 +174,7 @@ cache
 )
 -
 >
-script
+code
 =
 NULL
 ;
