@@ -8006,7 +8006,7 @@ obj_hasOwnProperty
 3
 (
 static
-INT32
+BOOL_FAIL
 Object_p_hasOwnProperty
 CONTEXT
 THIS
@@ -8023,7 +8023,7 @@ obj_propertyIsEnumerable
 3
 (
 static
-INT32
+BOOL_FAIL
 Object_p_propertyIsEnumerable
 CONTEXT
 THIS
