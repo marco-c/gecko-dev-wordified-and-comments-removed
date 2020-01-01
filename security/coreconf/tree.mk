@@ -549,10 +549,6 @@ See
 WIN32
 .
 mk
-or
-WIN16
-.
-mk
 .
 ifndef
 RELEASE_TREE

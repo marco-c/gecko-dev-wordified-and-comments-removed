@@ -1261,6 +1261,8 @@ p
 IOPR_DOWNLOAD_PORT
 \
 -
+v
+-
 w
 {
 R_PWFILE
@@ -1284,6 +1286,8 @@ host
 p
 IOPR_DOWNLOAD_PORT
 \
+-
+v
 -
 w
 {

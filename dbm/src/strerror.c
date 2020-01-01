@@ -41,13 +41,6 @@ Berkeley
 endif
 #
 include
-"
-watcomfx
-.
-h
-"
-#
-include
 <
 string
 .

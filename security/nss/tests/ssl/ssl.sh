@@ -1822,6 +1822,8 @@ d
 {
 P_R_CLIENTDIR
 }
+-
+v
 <
 {
 REQUEST_FILE
@@ -1853,6 +1855,8 @@ d
 {
 P_R_CLIENTDIR
 }
+-
+v
 <
 {
 REQUEST_FILE
@@ -1906,6 +1910,8 @@ d
 {
 P_R_CLIENTDIR
 }
+-
+v
 <
 {
 REQUEST_FILE
@@ -1937,6 +1943,8 @@ d
 {
 P_R_CLIENTDIR
 }
+-
+v
 <
 {
 REQUEST_FILE
@@ -3789,6 +3797,8 @@ d
 P_R_CLIENTDIR
 }
 -
+v
+-
 w
 nss
 <
@@ -3848,6 +3858,8 @@ d
 {
 P_R_CLIENTDIR
 }
+-
+v
 -
 w
 nss
@@ -4257,6 +4269,8 @@ d
 {
 P_R_CLIENTDIR
 }
+-
+v
 {
 CLIENT_OPTIONS
 }
@@ -4320,6 +4334,8 @@ d
 {
 P_R_CLIENTDIR
 }
+-
+v
 <
 {
 REQUEST_FILE
@@ -5582,6 +5598,8 @@ d
 {
 R_CLIENTDIR
 }
+-
+v
 \
 \
 "
@@ -5639,6 +5657,8 @@ d
 {
 R_CLIENTDIR
 }
+-
+v
 <
 {
 REQUEST_FILE
@@ -6441,6 +6461,8 @@ d
 {
 R_CLIENTDIR
 }
+-
+v
 \
 \
 "
@@ -6524,6 +6546,8 @@ d
 {
 R_CLIENTDIR
 }
+-
+v
 -
 w
 nss
@@ -7248,6 +7272,8 @@ d
 {
 R_CLIENTDIR
 }
+-
+v
 \
 \
 "
@@ -7305,6 +7331,8 @@ d
 {
 R_CLIENTDIR
 }
+-
+v
 <
 {
 REQUEST_FILE

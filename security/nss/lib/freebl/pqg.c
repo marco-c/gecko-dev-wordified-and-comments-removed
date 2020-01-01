@@ -76,7 +76,7 @@ h
 #
 define
 MAX_ITERATIONS
-600
+1000
 /
 *
 Maximum

@@ -515,13 +515,6 @@ sslt
 .
 h
 "
-#
-include
-"
-watcomfx
-.
-h
-"
 int
 main
 (

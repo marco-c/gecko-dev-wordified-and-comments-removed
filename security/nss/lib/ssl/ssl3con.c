@@ -3976,6 +3976,15 @@ sha
 if
 (
 isTLS
+|
+|
+buf
+-
+>
+len
+!
+=
+DSA_SIGNATURE_LEN
 )
 {
 signature

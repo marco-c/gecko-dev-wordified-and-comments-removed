@@ -986,6 +986,8 @@ OpenBSD
 OpenVMS
 AIX
 RISCOS
+WINNT
+WIN95
 WINCE
 ifeq
 (

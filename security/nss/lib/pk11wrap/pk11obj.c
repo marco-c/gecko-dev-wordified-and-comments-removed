@@ -1721,6 +1721,9 @@ slot
 C_CreateObject
 (
 rwsession
+(
+CK_ATTRIBUTE_PTR
+)
 theTemplate
 count
 objectID

@@ -3270,6 +3270,10 @@ global
 :
 CERT_CompareCerts
 ;
+CERT_RegisterAlternateOCSPAIAInfoCallBack
+;
+PK11_GetSymKeyHandle
+;
 ;
 +
 local

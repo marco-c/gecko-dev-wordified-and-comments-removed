@@ -409,3 +409,4 @@ PROGRAM
 pk11mode
 REQUIRES
 =
+seccmd

@@ -418,9 +418,6 @@ CSRCS
 pk11util
 .
 c
-pk11table
-.
-c
 #
 CSRCS
 =

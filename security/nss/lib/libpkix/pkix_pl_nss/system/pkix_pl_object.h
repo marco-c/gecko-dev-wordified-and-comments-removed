@@ -24,7 +24,7 @@ endif
 struct
 PKIX_PL_ObjectStruct
 {
-PKIX_UInt32
+PRUint64
 magicHeader
 ;
 PKIX_UInt32

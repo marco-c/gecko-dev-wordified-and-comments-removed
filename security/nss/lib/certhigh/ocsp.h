@@ -303,6 +303,17 @@ cert
 ;
 extern
 SECStatus
+CERT_RegisterAlternateOCSPAIAInfoCallBack
+(
+CERT_StringFromCertFcn
+newCallback
+CERT_StringFromCertFcn
+*
+oldCallback
+)
+;
+extern
+SECStatus
 CERT_ParseURL
 (
 const

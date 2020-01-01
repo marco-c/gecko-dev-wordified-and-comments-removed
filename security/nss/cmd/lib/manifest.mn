@@ -433,6 +433,10 @@ SSLerrs
 .
 h
 \
+pk11table
+.
+h
+\
 (
 NULL
 )
@@ -463,6 +467,10 @@ secerror
 c
 \
 ffs
+.
+c
+\
+pk11table
 .
 c
 \

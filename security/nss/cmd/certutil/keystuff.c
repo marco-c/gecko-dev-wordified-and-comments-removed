@@ -2900,11 +2900,6 @@ keytype
 )
 {
 case
-rsaKey
-:
-break
-;
-case
 dsaKey
 :
 if
@@ -2938,6 +2933,10 @@ break
 ;
 #
 endif
+default
+:
+break
+;
 }
 return
 privKey

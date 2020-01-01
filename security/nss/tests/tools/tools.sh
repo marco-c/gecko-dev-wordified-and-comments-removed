@@ -3,7 +3,7 @@
 /
 bin
 /
-sh
+bash
 #
 #
 *
@@ -644,7 +644,9 @@ PKCS
 V2
 PBE
 With
-Sha1
+SHA
+-
+1
 and
 128
 Bit
@@ -661,7 +663,9 @@ PKCS
 V2
 PBE
 With
-Sha1
+SHA
+-
+1
 and
 40
 Bit
@@ -678,10 +682,13 @@ PKCS
 V2
 PBE
 With
-Sha1
+SHA
+-
+1
 and
 Triple
 DES
+-
 CBC
 "
 export
@@ -695,7 +702,9 @@ PKCS
 V2
 PBE
 With
-Sha1
+SHA
+-
+1
 and
 128
 Bit
@@ -713,7 +722,9 @@ PKCS
 V2
 PBE
 With
-Sha1
+SHA
+-
+1
 and
 40
 Bit
@@ -735,6 +746,7 @@ with
 MD2
 and
 DES
+-
 CBC
 "
 export
@@ -752,6 +764,7 @@ with
 MD5
 and
 DES
+-
 CBC
 "
 export
@@ -766,9 +779,12 @@ Password
 Based
 Encryption
 with
-SHA1
+SHA
+-
+1
 and
 DES
+-
 CBC
 "
 export
@@ -786,6 +802,7 @@ with
 MD2
 and
 DES
+-
 CBC
 "
 export
@@ -803,6 +820,7 @@ with
 MD5
 and
 DES
+-
 CBC
 "
 export
@@ -817,9 +835,12 @@ Password
 Based
 Encryption
 with
-SHA1
+SHA
+-
+1
 and
 DES
+-
 CBC
 "
 #
@@ -3085,7 +3106,6 @@ encryption
 cipher
 if
 [
-[
 "
 {
 1
@@ -3094,9 +3114,10 @@ if
 !
 =
 "
+DEFAULT
 "
-&
-&
+-
+a
 "
 {
 2
@@ -3105,8 +3126,8 @@ if
 !
 =
 "
+DEFAULT
 "
-]
 ]
 ;
 then
@@ -3123,7 +3144,6 @@ export_with_both_key_and_cert_cipher
 "
 elif
 [
-[
 "
 {
 1
@@ -3132,9 +3152,10 @@ elif
 !
 =
 "
+DEFAULT
 "
-&
-&
+-
+a
 "
 {
 2
@@ -3142,8 +3163,8 @@ elif
 "
 =
 "
+DEFAULT
 "
-]
 ]
 ;
 then
@@ -3155,7 +3176,6 @@ export_with_key_cipher
 "
 elif
 [
-[
 "
 {
 1
@@ -3163,9 +3183,10 @@ elif
 "
 =
 "
+DEFAULT
 "
-&
-&
+-
+a
 "
 {
 2
@@ -3174,8 +3195,8 @@ elif
 !
 =
 "
+DEFAULT
 "
-]
 ]
 ;
 then
@@ -3399,6 +3420,7 @@ pkcs5pbeWithSha1AndDEScbc
 "
 \
 "
+DEFAULT
 "
 ;
 do
@@ -3424,6 +3446,7 @@ pkcs5pbeWithSha1AndDEScbc
 "
 \
 "
+DEFAULT
 "
 \
 "
@@ -4217,6 +4240,7 @@ pkcs12v2pbeWithSha1AndDESCBC
 \
 #
 "
+DEFAULT
 "
 ;
 do
@@ -4297,6 +4321,7 @@ in
 key_cipher
 =
 "
+DEFAULT
 "
 for
 cert_cipher
@@ -4350,6 +4375,7 @@ pkcs12v2pbeWithSha1AndDESCBC
 "
 \
 "
+DEFAULT
 "
 \
 "
@@ -4962,8 +4988,10 @@ ciphers
 "
 export_list_import
 "
+DEFAULT
 "
 "
+DEFAULT
 "
 if
 [

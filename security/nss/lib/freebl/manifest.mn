@@ -846,10 +846,6 @@ ldvector
 .
 c
 \
-prng_fips1861
-.
-c
-\
 sysrand
 .
 c
@@ -895,6 +891,10 @@ desblapi
 c
 \
 des
+.
+c
+\
+drbg
 .
 c
 \

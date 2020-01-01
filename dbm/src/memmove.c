@@ -53,13 +53,6 @@ Berkeley
 #
 endif
 #
-include
-"
-watcomfx
-.
-h
-"
-#
 ifdef
 HAVE_SYS_CDEFS_H
 #

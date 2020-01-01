@@ -1688,7 +1688,7 @@ after
 empty
 DB
 Init
-looses
+loses
 key
 ret
 "
@@ -1748,7 +1748,7 @@ Dbtest
 password
 DB
 Init
-looses
+loses
 needlogin
 state
 ret

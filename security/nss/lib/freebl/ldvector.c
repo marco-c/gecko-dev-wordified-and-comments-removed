@@ -198,6 +198,10 @@ SEED_Encrypt
 SEED_Decrypt
 BL_Init
 BL_SetForkState
+PRNGTEST_Instantiate
+PRNGTEST_Reseed
+PRNGTEST_Generate
+PRNGTEST_Uninstantiate
 }
 ;
 const

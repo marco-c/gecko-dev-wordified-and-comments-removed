@@ -70,9 +70,6 @@ NSS_VERSION
 3
 "
 _NSS_ECC_STRING
-"
-Beta
-"
 _NSS_CUSTOMIZED
 #
 define
@@ -89,7 +86,7 @@ NSS_VPATCH
 #
 define
 NSS_BETA
-PR_TRUE
+PR_FALSE
 #
 ifndef
 RC_INVOKED

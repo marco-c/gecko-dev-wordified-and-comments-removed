@@ -3,13 +3,6 @@ ifndef
 HAVE_SNPRINTF
 #
 include
-"
-watcomfx
-.
-h
-"
-#
-include
 <
 sys
 /

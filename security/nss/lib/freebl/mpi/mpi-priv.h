@@ -1228,8 +1228,7 @@ c
 \
 (
 (
-unsigned
-long
+mp_digit
 *
 )
 c
@@ -1257,8 +1256,7 @@ c
 \
 (
 (
-unsigned
-long
+mp_digit
 *
 )
 c

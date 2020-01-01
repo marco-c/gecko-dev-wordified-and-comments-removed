@@ -70,13 +70,6 @@ Berkeley
 #
 endif
 #
-include
-"
-watcomfx
-.
-h
-"
-#
 ifndef
 macintosh
 #

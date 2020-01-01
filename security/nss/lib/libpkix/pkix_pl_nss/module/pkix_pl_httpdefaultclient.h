@@ -127,7 +127,6 @@ char
 *
 path
 ;
-const
 char
 *
 rcvContentType

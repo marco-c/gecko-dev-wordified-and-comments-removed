@@ -1197,6 +1197,10 @@ release
 +
 global
 :
+NSS_GetAlgorithmPolicy
+;
+NSS_SetAlgorithmPolicy
+;
 SECITEM_ReallocItem
 ;
 UTIL_SetForkState

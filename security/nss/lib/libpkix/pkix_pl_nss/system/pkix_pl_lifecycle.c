@@ -43,14 +43,12 @@ PKIX_Alloc_Error_ObjectStruct
 PKIX_Alloc_Error_Object
 ;
 static
+const
 PKIX_Alloc_Error_Object
 pkix_Alloc_Error_Data
 =
 {
 {
-(
-PKIX_UInt32
-)
 PKIX_MAGIC_HEADER
 (
 PKIX_UInt32
@@ -113,6 +111,10 @@ void
 )
 {
 return
+(
+PKIX_Error
+*
+)
 &
 pkix_Alloc_Error_Data
 .

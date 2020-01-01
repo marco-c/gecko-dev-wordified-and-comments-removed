@@ -1027,6 +1027,13 @@ OPTIONAL
 #
 #
 #
+include
+.
+.
+/
+platlibs
+.
+mk
 ifeq
 (
 (
@@ -1583,3 +1590,10 @@ OPTIONAL
 #
 #
 #
+include
+.
+.
+/
+platrules
+.
+mk

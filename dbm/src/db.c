@@ -40,13 +40,6 @@ Berkeley
 #
 endif
 #
-include
-"
-watcomfx
-.
-h
-"
-#
 ifndef
 __DBINTERFACE_PRIVATE
 #

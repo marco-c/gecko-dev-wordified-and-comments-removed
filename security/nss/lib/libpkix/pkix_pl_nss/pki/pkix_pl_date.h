@@ -24,7 +24,7 @@ endif
 struct
 PKIX_PL_DateStruct
 {
-SECItem
+PRTime
 nssTime
 ;
 }

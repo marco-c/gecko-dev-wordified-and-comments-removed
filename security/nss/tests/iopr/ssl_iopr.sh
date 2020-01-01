@@ -1414,6 +1414,8 @@ echo
 n
 testUser
 -
+v
+-
 w
 nss
 {
@@ -1444,9 +1446,6 @@ BINDIR
 /
 tstclnt
 -
-w
-nss
--
 p
 {
 sslPort
@@ -1473,6 +1472,8 @@ f
 -
 n
 testUser
+-
+v
 -
 w
 nss
@@ -1953,6 +1954,8 @@ d
 {
 dbDir
 }
+-
+v
 <
 {
 SSL_REQ_FILE
@@ -2005,6 +2008,8 @@ d
 {
 dbDir
 }
+-
+v
 <
 {
 SSL_REQ_FILE
@@ -2483,6 +2488,8 @@ d
 {
 dbDir
 }
+-
+v
 {
 cparam
 }
@@ -2540,6 +2547,8 @@ d
 {
 dbDir
 }
+-
+v
 <
 {
 SSL_REQ_FILE
@@ -3187,6 +3196,8 @@ tstclnt
 d
 serDbDir
 -
+v
+-
 w
 {
 R_PWFILE
@@ -3216,6 +3227,8 @@ tstclnt
 -
 d
 serDbDir
+-
+v
 -
 w
 {
@@ -3958,6 +3971,8 @@ tstclnt
 d
 serDbDir
 -
+v
+-
 w
 {
 R_PWFILE
@@ -3987,6 +4002,8 @@ tstclnt
 -
 d
 serDbDir
+-
+v
 -
 w
 {
@@ -4672,6 +4689,8 @@ tstclnt
 d
 serDbDir
 -
+v
+-
 w
 {
 R_PWFILE
@@ -4703,6 +4722,8 @@ tstclnt
 -
 d
 serDbDir
+-
+v
 -
 w
 {

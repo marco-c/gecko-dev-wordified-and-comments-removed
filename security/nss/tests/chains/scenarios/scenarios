@@ -43,3 +43,6 @@ cfg
 revoc
 .
 cfg
+ocsp
+.
+cfg
