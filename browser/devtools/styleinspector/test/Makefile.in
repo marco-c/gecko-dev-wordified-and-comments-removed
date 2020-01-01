@@ -524,6 +524,14 @@ browser_bug_592743_specificity
 .
 js
 \
+browser_ruleview_bug_703643_context_menu_copy
+.
+js
+\
+browser_computedview_bug_703643_context_menu_copy
+.
+js
+\
 head
 .
 js
