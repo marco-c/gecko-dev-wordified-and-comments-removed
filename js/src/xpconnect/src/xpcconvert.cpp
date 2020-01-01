@@ -5930,7 +5930,7 @@ flat
 wrapper
 -
 >
-GetFlatJSObjectAndMark
+GetFlatJSObject
 (
 )
 ;

@@ -554,7 +554,7 @@ mFlattenedJSObject
 mWrapper
 -
 >
-GetFlatJSObjectAndMark
+GetFlatJSObject
 (
 )
 ;

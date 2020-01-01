@@ -1629,7 +1629,7 @@ cur
 wrapper
 -
 >
-GetFlatJSObjectAndMark
+GetFlatJSObject
 (
 )
 ;

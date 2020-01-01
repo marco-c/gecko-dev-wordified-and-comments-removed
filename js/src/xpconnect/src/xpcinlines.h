@@ -3011,7 +3011,7 @@ mFlattenedJSObject
 mWrapper
 -
 >
-GetFlatJSObjectAndMark
+GetFlatJSObject
 (
 )
 ;
