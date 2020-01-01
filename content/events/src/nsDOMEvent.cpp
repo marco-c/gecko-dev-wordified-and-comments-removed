@@ -1086,7 +1086,10 @@ aOriginalTarget
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+void
+)
 nsDOMEvent
 :
 :
@@ -1104,9 +1107,6 @@ mFlags
 mIsTrusted
 =
 aTrusted
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

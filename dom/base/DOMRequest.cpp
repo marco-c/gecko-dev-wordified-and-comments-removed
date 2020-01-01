@@ -721,8 +721,6 @@ rv
 return
 ;
 }
-rv
-=
 event
 -
 >
@@ -731,17 +729,6 @@ SetTrusted
 true
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-;
-}
 bool
 dummy
 ;
