@@ -1255,9 +1255,11 @@ CanvasLayer
 *
 >
 (
-GetLayerBuilderForManager
+aBuilder
+-
+>
+LayerBuilder
 (
-aManager
 )
 -
 >
