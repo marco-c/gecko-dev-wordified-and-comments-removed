@@ -701,3 +701,17 @@ JSString
 1
 1
 )
+BUILTIN2
+(
+StringToInt32
+LO
+LO
+LO
+jsint
+JSContext
+*
+JSString
+*
+1
+1
+)
