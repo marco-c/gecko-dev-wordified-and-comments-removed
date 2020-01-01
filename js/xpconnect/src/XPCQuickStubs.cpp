@@ -17,7 +17,14 @@ h
 #
 include
 "
-jscntxt
+jsatom
+.
+h
+"
+#
+include
+"
+jsfriendapi
 .
 h
 "
