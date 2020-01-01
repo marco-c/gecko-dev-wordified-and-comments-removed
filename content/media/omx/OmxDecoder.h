@@ -212,6 +212,9 @@ mozilla
 AbstractMediaDecoder
 AbstractMediaDecoder
 ;
+Mutex
+mLock
+;
 nsRefPtr
 <
 MediaResource
