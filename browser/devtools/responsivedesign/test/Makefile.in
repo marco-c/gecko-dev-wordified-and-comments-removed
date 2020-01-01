@@ -102,6 +102,10 @@ browser_responsivecomputedview
 .
 js
 \
+browser_responsive_devicewidth
+.
+js
+\
 head
 .
 js
