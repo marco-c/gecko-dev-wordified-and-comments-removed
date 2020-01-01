@@ -444,14 +444,6 @@ struct
 JSXMLArrayCursor
 JSXMLArrayCursor
 ;
-template
-<
-class
-T
->
-class
-JSTempVector
-;
 typedef
 enum
 JSTrapStatus
