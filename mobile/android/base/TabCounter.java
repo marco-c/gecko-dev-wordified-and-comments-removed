@@ -6,6 +6,17 @@ mozilla
 gecko
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+animation
+.
+Rotate3DAnimation
+;
+import
 android
 .
 content

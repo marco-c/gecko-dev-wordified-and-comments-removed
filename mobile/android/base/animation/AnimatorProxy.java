@@ -4,6 +4,8 @@ org
 mozilla
 .
 gecko
+.
+animation
 ;
 import
 android
@@ -83,7 +85,6 @@ util
 .
 WeakHashMap
 ;
-public
 class
 AnimatorProxy
 {

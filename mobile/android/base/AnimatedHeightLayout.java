@@ -6,6 +6,17 @@ mozilla
 gecko
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+animation
+.
+HeightChangeAnimation
+;
+import
 android
 .
 content
