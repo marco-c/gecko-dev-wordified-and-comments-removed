@@ -406,7 +406,7 @@ methodjit
 .
 chrome
 "
-false
+true
 )
 ;
 user_pref
@@ -434,7 +434,7 @@ jitprofiling
 .
 chrome
 "
-false
+true
 )
 ;
 user_pref
