@@ -2580,6 +2580,13 @@ searchbutton
 "
 true
 "
+cocoa
+-
+size
+=
+"
+small
+"
 oncommand
 =
 "

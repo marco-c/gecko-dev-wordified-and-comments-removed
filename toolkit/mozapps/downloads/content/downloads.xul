@@ -2073,6 +2073,13 @@ id
 "
 searchbox
 "
+cocoa
+-
+size
+=
+"
+small
+"
 oncommand
 =
 "

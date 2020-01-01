@@ -815,6 +815,13 @@ type
 "
 search
 "
+cocoa
+-
+size
+=
+"
+small
+"
 oncommand
 =
 "
