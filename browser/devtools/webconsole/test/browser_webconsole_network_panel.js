@@ -20,7 +20,6 @@ webconsole
 /
 test
 /
-/
 test
 -
 console
@@ -50,7 +49,6 @@ webconsole
 /
 test
 /
-/
 test
 -
 image
@@ -79,7 +77,6 @@ devtools
 webconsole
 /
 test
-/
 /
 test
 -

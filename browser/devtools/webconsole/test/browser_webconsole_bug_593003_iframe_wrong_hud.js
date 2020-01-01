@@ -20,7 +20,6 @@ webconsole
 /
 test
 /
-/
 test
 -
 bug
@@ -57,7 +56,6 @@ devtools
 webconsole
 /
 test
-/
 /
 test
 -
@@ -97,7 +95,6 @@ devtools
 webconsole
 /
 test
-/
 /
 test
 -
