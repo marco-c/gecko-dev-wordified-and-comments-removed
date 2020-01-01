@@ -3052,10 +3052,12 @@ activateMgr
 ;
 if
 (
-!
+FAILED
+(
 PrepareActivationManager
 (
 activateMgr
+)
 )
 )
 {
