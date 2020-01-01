@@ -791,7 +791,7 @@ kDateFormatYearMonth
 CFSTR
 (
 "
-yy
+yyyy
 /
 MM
 "

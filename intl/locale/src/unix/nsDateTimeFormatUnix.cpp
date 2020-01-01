@@ -901,7 +901,7 @@ PL_strncpy
 fmtD
 "
 %
-y
+Y
 /
 %
 m
