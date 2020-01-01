@@ -475,10 +475,6 @@ browser_inspector_treePanel_result
 .
 html
 \
-browser_inspector_registertools
-.
-js
-\
 browser_inspector_bug_665880
 .
 js
@@ -532,10 +528,6 @@ browser_inspector_changes
 js
 \
 browser_inspector_ruleviewstore
-.
-js
-\
-browser_inspector_duplicate_ruleview
 .
 js
 \
