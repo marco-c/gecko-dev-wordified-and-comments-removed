@@ -110,6 +110,8 @@ PluginProcessParent
 bool
 Launch
 (
+PRInt32
+timeoutMs
 )
 ;
 void
