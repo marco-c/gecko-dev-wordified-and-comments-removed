@@ -3343,6 +3343,11 @@ n
 gOutFile
 )
 ;
+fflush
+(
+gOutFile
+)
+;
 return
 JS_TRUE
 ;
@@ -12501,6 +12506,9 @@ fp
 >
 script
 fp
+-
+>
+regs
 -
 >
 pc
