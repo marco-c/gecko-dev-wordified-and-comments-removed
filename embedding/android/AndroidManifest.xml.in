@@ -74,9 +74,7 @@ android
 sharedUserId
 =
 "
-org
-.
-mozilla
+ANDROID_PACKAGE_NAME
 .
 sharedID
 "
