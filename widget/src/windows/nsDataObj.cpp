@@ -8804,7 +8804,7 @@ aSTG
 .
 pUnkForRelease
 =
-pStream
+NULL
 ;
 return
 S_OK
