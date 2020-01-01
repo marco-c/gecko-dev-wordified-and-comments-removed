@@ -2525,6 +2525,7 @@ global
 tabbox
 .
 css
+*
 skin
 /
 classic
@@ -2536,6 +2537,13 @@ global
 textbox
 .
 css
+(
+textbox
+-
+aero
+.
+css
+)
 skin
 /
 classic
