@@ -582,6 +582,10 @@ taskbar_previews
 .
 xul
 \
+window_state_windows
+.
+xul
+\
 taskbar_progress
 .
 xul
