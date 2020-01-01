@@ -835,6 +835,17 @@ return
 mUnicodeDecoder
 ;
 }
+void
+ReadyToCallDidBuildModel
+(
+)
+{
+ReadyToCallDidBuildModelImpl
+(
+mTerminated
+)
+;
+}
 private
 :
 void
