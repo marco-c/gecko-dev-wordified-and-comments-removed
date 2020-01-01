@@ -372,10 +372,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-!
-layersGPUAccelerated
 102
 580
 )
@@ -428,10 +424,6 @@ fuzzy
 if
 (
 winWidget
-&
-&
-!
-layersGPUAccelerated
 102
 580
 )
