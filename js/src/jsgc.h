@@ -1269,7 +1269,7 @@ namespace
 js
 {
 void
-MarkRaw
+Mark
 (
 JSTracer
 *
@@ -1306,7 +1306,7 @@ trc
 name
 )
 ;
-MarkRaw
+Mark
 (
 trc
 thing
@@ -1337,7 +1337,7 @@ trc
 name
 )
 ;
-MarkRaw
+Mark
 (
 trc
 str
@@ -1461,7 +1461,7 @@ trc
 name
 )
 ;
-MarkRaw
+Mark
 (
 trc
 obj
@@ -1551,7 +1551,7 @@ isMarkable
 )
 )
 return
-MarkRaw
+Mark
 (
 trc
 v
@@ -1820,7 +1820,7 @@ name
 ;
 }
 void
-MarkGCThingRaw
+MarkGCThing
 (
 JSTracer
 *
@@ -1853,7 +1853,7 @@ trc
 name
 )
 ;
-MarkGCThingRaw
+MarkGCThing
 (
 trc
 thing
@@ -1886,7 +1886,7 @@ name
 index
 )
 ;
-MarkGCThingRaw
+MarkGCThing
 (
 trc
 thing

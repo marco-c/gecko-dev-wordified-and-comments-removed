@@ -273,11 +273,11 @@ XP_WIN
 )
 #
 include
-"
-jswin
+<
+windows
 .
 h
-"
+>
 #
 endif
 #
@@ -8253,7 +8253,7 @@ namespace
 js
 {
 void
-MarkRaw
+Mark
 (
 JSTracer
 *
@@ -8576,7 +8576,7 @@ return
 ;
 }
 void
-MarkGCThingRaw
+MarkGCThing
 (
 JSTracer
 *
@@ -8614,7 +8614,7 @@ js_GetGCThingTraceKind
 thing
 )
 ;
-MarkRaw
+Mark
 (
 trc
 thing
@@ -8962,7 +8962,7 @@ type
 =
 JS_GC_ROOT_GCTHING_PTR
 )
-MarkGCThingRaw
+MarkGCThing
 (
 trc
 *
