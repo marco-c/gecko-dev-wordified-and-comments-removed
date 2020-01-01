@@ -4965,7 +4965,7 @@ nsQueryFrame
 :
 :
 FrameIID
-aCode
+aID
 void
 *
 aPtr
@@ -4990,9 +4990,9 @@ mIsDestroying
 )
 mFrameArena
 .
-FreeByCode
+FreeByFrameID
 (
-aCode
+aID
 aPtr
 )
 ;
@@ -5008,7 +5008,7 @@ nsQueryFrame
 :
 :
 FrameIID
-aCode
+aID
 size_t
 aSize
 )
@@ -5028,9 +5028,9 @@ result
 =
 mFrameArena
 .
-AllocateByCode
+AllocateByFrameID
 (
-aCode
+aID
 aSize
 )
 ;
