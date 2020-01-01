@@ -58,7 +58,7 @@ js
 {
 static
 inline
-JSObject
+GlobalObject
 *
 GetGlobalForScopeChain
 (
@@ -132,6 +132,11 @@ scope
 ;
 return
 scope
+-
+>
+asGlobal
+(
+)
 ;
 }
 }
