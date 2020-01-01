@@ -158,10 +158,10 @@ alwaysAsk
 "
 #
 define
-NC_RDF_EXTERNALAPPLICATION
+NC_RDF_POSSIBLEAPPLICATION
 NC_NAMESPACE_URI
 "
-externalApplication
+possibleApplication
 "
 #
 define
