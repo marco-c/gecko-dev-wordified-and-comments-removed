@@ -7518,7 +7518,7 @@ codeAlloc
 (
 exitStart
 exitEnd
-_nExitIns
+_nIns
 )
 ;
 else
@@ -7590,7 +7590,7 @@ codeAlloc
 (
 exitStart
 exitEnd
-_nExitIns
+_nIns
 )
 ;
 else
