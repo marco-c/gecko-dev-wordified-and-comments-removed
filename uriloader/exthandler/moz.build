@@ -260,6 +260,11 @@ nsOSHelperAppService
 .
 h
 '
+]
+EXPORTS
++
+=
+[
 '
 nsExternalHelperAppService
 .

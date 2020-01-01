@@ -126,12 +126,12 @@ EXPORTS
 =
 [
 '
-GeckoProfilerImpl
+GeckoProfilerFunc
 .
 h
 '
 '
-GeckoProfilerFunc
+GeckoProfilerImpl
 .
 h
 '

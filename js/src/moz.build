@@ -309,11 +309,6 @@ config
 h
 '
 '
-jscpucfg
-.
-h
-'
-'
 js
 .
 msg
@@ -335,6 +330,11 @@ h
 '
 '
 jsclist
+.
+h
+'
+'
+jscpucfg
 .
 h
 '
@@ -364,7 +364,7 @@ json
 h
 '
 '
-jsproxy
+jsperf
 .
 h
 '
@@ -375,6 +375,11 @@ h
 '
 '
 jsprototypes
+.
+h
+'
+'
+jsproxy
 .
 h
 '
@@ -405,11 +410,6 @@ h
 '
 '
 jswrapper
-.
-h
-'
-'
-jsperf
 .
 h
 '

@@ -107,12 +107,12 @@ dom
 =
 [
 '
-Notification
+DesktopNotification
 .
 h
 '
 '
-DesktopNotification
+Notification
 .
 h
 '

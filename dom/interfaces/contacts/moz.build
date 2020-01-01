@@ -98,12 +98,12 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMContactManager
+nsIContactProperties
 .
 idl
 '
 '
-nsIContactProperties
+nsIDOMContactManager
 .
 idl
 '

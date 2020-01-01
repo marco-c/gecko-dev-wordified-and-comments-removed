@@ -443,6 +443,8 @@ cairo
 cairo
 -
 xlib
+-
+xrender
 .
 h
 '
@@ -450,8 +452,6 @@ h
 cairo
 -
 xlib
--
-xrender
 .
 h
 '

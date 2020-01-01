@@ -468,12 +468,12 @@ EXPORTS
 =
 [
 '
-gfxXlibSurface
+gfxXlibNativeRenderer
 .
 h
 '
 '
-gfxXlibNativeRenderer
+gfxXlibSurface
 .
 h
 '
