@@ -1132,6 +1132,16 @@ decl
 }
 #
 define
+CSS_PROP_DOMPROP_PREFIXED
+(
+prop_
+)
+Moz
+#
+#
+prop_
+#
+define
 CSS_PROP
 (
 name_
@@ -1337,3 +1347,6 @@ CSS_PROP_LIST_EXCLUDE_INTERNAL
 #
 undef
 CSS_PROP
+#
+undef
+CSS_PROP_DOMPROP_PREFIXED
