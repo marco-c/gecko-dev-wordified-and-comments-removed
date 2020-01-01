@@ -3797,6 +3797,10 @@ aMsg
 aWidget
 NS_SELECTION_EVENT
 )
+mExpandToClusterBoundary
+(
+PR_TRUE
+)
 mSucceeded
 (
 PR_FALSE
@@ -3811,6 +3815,9 @@ mLength
 ;
 PRPackedBool
 mReversed
+;
+PRPackedBool
+mExpandToClusterBoundary
 ;
 PRPackedBool
 mSucceeded
