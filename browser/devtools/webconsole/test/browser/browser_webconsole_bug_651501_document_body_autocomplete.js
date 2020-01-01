@@ -7,7 +7,6 @@ resource
 :
 /
 /
-gre
 /
 modules
 /
