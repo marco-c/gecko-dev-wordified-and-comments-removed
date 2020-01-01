@@ -189,6 +189,8 @@ SetTextStyle
 void
 SetQuotes
 (
+PRBool
+aNotify
 )
 ;
 }
