@@ -1277,6 +1277,9 @@ endif
 /
 vbox
 >
+#
+ifdef
+MOZ_UPDATER
 <
 description
 class
@@ -1319,6 +1322,8 @@ end
 /
 description
 >
+#
+endif
 <
 description
 class

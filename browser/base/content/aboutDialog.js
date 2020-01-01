@@ -777,8 +777,6 @@ appUpdater
 (
 )
 ;
-#
-endif
 let
 defaults
 =
@@ -821,6 +819,8 @@ channel
 "
 )
 ;
+#
+endif
 #
 ifdef
 XP_MACOSX
