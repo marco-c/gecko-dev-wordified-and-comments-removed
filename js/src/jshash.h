@@ -362,6 +362,9 @@ void
 key
 )
 ;
+#
+ifdef
+__cplusplus
 extern
 JS_PUBLIC_API
 (
@@ -389,6 +392,8 @@ void
 value
 )
 ;
+#
+endif
 extern
 JS_PUBLIC_API
 (
