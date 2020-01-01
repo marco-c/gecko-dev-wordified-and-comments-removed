@@ -1966,7 +1966,7 @@ if
 (
 mFlags
 &
-GZIP_COMMENT
+COMMENT
 )
 {
 iStr
