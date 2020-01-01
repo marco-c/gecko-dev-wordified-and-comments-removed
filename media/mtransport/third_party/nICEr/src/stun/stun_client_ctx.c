@@ -3519,6 +3519,11 @@ ctx
 *
 ctxp
 ;
+*
+ctxp
+=
+0
+;
 nr_stun_client_reset
 (
 ctx
