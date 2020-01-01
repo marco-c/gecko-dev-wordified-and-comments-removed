@@ -16914,11 +16914,6 @@ NS_ERROR_FAILURE
 }
 if
 (
-res
-.
-mPrincipal
-&
-&
 !
 res
 .
