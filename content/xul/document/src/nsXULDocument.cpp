@@ -2536,9 +2536,13 @@ aAttr
 {
 if
 (
-mUpdateNestLevel
->
-0
+!
+nsContentUtils
+:
+:
+IsSafeToRunScript
+(
+)
 )
 {
 nsDelayedBroadcastUpdate
@@ -2554,6 +2558,10 @@ mDelayedBroadcasters
 AppendElement
 (
 delayedUpdate
+)
+;
+MaybeBroadcast
+(
 )
 ;
 return
