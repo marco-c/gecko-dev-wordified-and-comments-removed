@@ -48,6 +48,8 @@ fun
 jsbytecode
 *
 osrPc
+bool
+constructing
 )
 :
 script_
@@ -61,6 +63,10 @@ fun
 osrPc_
 (
 osrPc
+)
+constructing_
+(
+constructing
 )
 {
 JS_ASSERT_IF
@@ -109,6 +115,16 @@ const
 {
 return
 fun_
+;
+}
+bool
+constructing
+(
+)
+const
+{
+return
+constructing_
 ;
 }
 jsbytecode
@@ -608,6 +624,9 @@ nslots_
 jsbytecode
 *
 osrPc_
+;
+bool
+constructing_
 ;
 }
 ;

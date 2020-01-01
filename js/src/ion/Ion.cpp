@@ -4102,6 +4102,12 @@ CompileInfo
 script
 fun
 osrPc
+fp
+-
+>
+isConstructing
+(
+)
 )
 ;
 if
