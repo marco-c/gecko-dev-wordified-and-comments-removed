@@ -196,10 +196,6 @@ testMatchedSelectors
 (
 )
 ;
-testUnmatchedSelectors
-(
-)
-;
 info
 (
 "
