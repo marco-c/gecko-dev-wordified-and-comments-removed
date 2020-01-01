@@ -335,16 +335,6 @@ ons
 <
 !
 ENTITY
-addonsUpdate
-.
-label
-"
-Update
-"
->
-<
-!
-ENTITY
 addonsRepo
 .
 label

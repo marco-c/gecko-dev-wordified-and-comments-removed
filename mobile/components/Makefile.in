@@ -503,6 +503,10 @@ AutoCompleteCache
 .
 js
 \
+AddonUpdateService
+.
+js
+\
 (
 NULL
 )
