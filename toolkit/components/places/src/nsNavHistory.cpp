@@ -8159,6 +8159,16 @@ mExpireDaysMin
 ;
 if
 (
+mExpireDaysMax
+<
+mExpireDaysMin
+)
+mExpireDaysMax
+=
+mExpireDaysMin
+;
+if
+(
 NS_FAILED
 (
 mPrefBranch
