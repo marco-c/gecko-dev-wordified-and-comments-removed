@@ -511,10 +511,6 @@ gfxFT2FontBase
 .
 h
 \
-gfxDDrawSurface
-.
-h
-\
 (
 NULL
 )
@@ -855,10 +851,6 @@ gfxFT2FontBase
 cpp
 \
 gfxFT2Utils
-.
-cpp
-\
-gfxDDrawSurface
 .
 cpp
 \

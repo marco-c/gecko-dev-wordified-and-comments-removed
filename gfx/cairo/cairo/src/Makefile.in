@@ -1164,16 +1164,6 @@ font
 .
 c
 else
-CSRCS
-+
-=
-cairo
--
-ddraw
--
-surface
-.
-c
 EXPORTS_cairo
 +
 =
