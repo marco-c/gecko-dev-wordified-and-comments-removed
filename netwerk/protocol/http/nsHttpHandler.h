@@ -133,7 +133,7 @@ h
 #
 include
 "
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 .
 h
 "
@@ -850,9 +850,9 @@ GetCookieService
 (
 )
 ;
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 *
-GetSTSService
+GetSSService
 (
 )
 ;
@@ -1215,9 +1215,9 @@ mCookieService
 ;
 nsCOMPtr
 <
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 >
-mSTSService
+mSSService
 ;
 nsHttpAuthCache
 mAuthCache

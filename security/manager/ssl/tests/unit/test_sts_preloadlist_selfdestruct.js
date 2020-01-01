@@ -4,7 +4,7 @@ run_test
 )
 {
 let
-STSService
+SSService
 =
 Cc
 [
@@ -13,7 +13,7 @@ mozilla
 .
 org
 /
-stsservice
+ssservice
 ;
 1
 "
@@ -23,12 +23,12 @@ getService
 (
 Ci
 .
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 )
 ;
 do_check_true
 (
-STSService
+SSService
 .
 isStsHost
 (
@@ -72,7 +72,7 @@ offsetSeconds
 ;
 do_check_false
 (
-STSService
+SSService
 .
 isStsHost
 (
@@ -102,7 +102,7 @@ currentTimeOffsetSeconds
 ;
 do_check_true
 (
-STSService
+SSService
 .
 isStsHost
 (
