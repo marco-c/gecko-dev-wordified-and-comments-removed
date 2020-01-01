@@ -82,7 +82,12 @@ aPos
 )
 ;
 void
-StopTouch
+EndTouch
+(
+)
+;
+void
+CancelTouch
 (
 )
 ;
