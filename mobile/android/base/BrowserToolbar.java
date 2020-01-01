@@ -994,7 +994,7 @@ GeckoApp
 .
 mAppContext
 .
-onEditRequested
+onSearchRequested
 (
 )
 ;
