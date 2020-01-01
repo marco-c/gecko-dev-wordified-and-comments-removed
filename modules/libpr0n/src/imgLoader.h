@@ -132,6 +132,8 @@ imgCacheEntry
 imgRequest
 *
 request
+bool
+aForcePrincipalCheck
 )
 ;
 ~
@@ -452,6 +454,16 @@ return
 mHasNoProxies
 ;
 }
+bool
+ForcePrincipalCheck
+(
+)
+const
+{
+return
+mForcePrincipalCheck
+;
+}
 private
 :
 friend
@@ -542,6 +554,11 @@ mEvicted
 ;
 PRPackedBool
 mHasNoProxies
+:
+1
+;
+PRPackedBool
+mForcePrincipalCheck
 :
 1
 ;
@@ -1337,6 +1354,8 @@ request
 void
 *
 aContext
+bool
+forcePrincipalCheckForCacheEntry
 )
 ;
 virtual
