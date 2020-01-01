@@ -32,6 +32,13 @@ true
 static
 const
 double
+kDefaultRemainingTime
+=
+0
+;
+static
+const
+double
 kUnknownRemainingTime
 =
 -
