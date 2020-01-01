@@ -1436,6 +1436,12 @@ this
 .
 panel
 ;
+panel
+.
+hidePopup
+(
+)
+;
 if
 (
 !
