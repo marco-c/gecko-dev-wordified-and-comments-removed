@@ -369,13 +369,13 @@ CHECK
 savedCopy
 -
 >
-newType
+initializedLength
 =
 =
 obj
 -
 >
-newType
+initializedLength
 )
 ;
 CHECK

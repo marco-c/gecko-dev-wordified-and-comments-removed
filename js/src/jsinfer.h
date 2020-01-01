@@ -2320,10 +2320,6 @@ proto
 }
 ;
 extern
-TypeObject
-emptyTypeObject
-;
-extern
 void
 MarkArgumentsCreated
 (
