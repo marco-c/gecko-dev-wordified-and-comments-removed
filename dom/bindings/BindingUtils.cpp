@@ -2168,6 +2168,8 @@ i
 ]
 .
 call
+.
+op
 methodSpecs
 [
 i

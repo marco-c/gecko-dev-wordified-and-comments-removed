@@ -3879,6 +3879,8 @@ name
 spec
 .
 call
+.
+op
 spec
 .
 nargs
