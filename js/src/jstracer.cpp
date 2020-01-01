@@ -4535,7 +4535,7 @@ GET_ARG
 (
 )
 ;
-DumpObject
+js_DumpObject
 (
 u
 .
@@ -4716,7 +4716,7 @@ i
 .
 lo
 ;
-DumpValue
+js_DumpValue
 (
 *
 v
