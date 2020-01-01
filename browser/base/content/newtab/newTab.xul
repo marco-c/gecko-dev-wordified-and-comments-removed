@@ -245,15 +245,11 @@ only
 .
 xul
 "
-xul
-:
 disablefastfind
 =
 "
 true
 "
-xul
-:
 title
 =
 "
