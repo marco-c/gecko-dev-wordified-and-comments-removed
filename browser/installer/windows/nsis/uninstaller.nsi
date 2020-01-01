@@ -762,6 +762,9 @@ insertmacro
 RegCleanUninstall
 !
 insertmacro
+SetBrandNameVars
+!
+insertmacro
 UnloadUAC
 !
 insertmacro
