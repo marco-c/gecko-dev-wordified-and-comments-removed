@@ -230,8 +230,7 @@ func
 to
 record
 at
-basic
-block
+function
 granularity
 \
 n
