@@ -559,10 +559,6 @@ nsFrame
 .
 cpp
 \
-nsFrameFrame
-.
-cpp
-\
 nsFrameList
 .
 cpp
@@ -648,6 +644,10 @@ nsSimplePageSequence
 cpp
 \
 nsSplittableFrame
+.
+cpp
+\
+nsSubDocumentFrame
 .
 cpp
 \

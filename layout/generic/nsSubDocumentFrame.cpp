@@ -3175,7 +3175,7 @@ return
 mFrameLoader
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSubDocumentFrame
 :
 :
@@ -3209,7 +3209,7 @@ aDocShell
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsSubDocumentFrame
 :
 :
