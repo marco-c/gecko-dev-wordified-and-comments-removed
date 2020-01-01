@@ -2180,7 +2180,7 @@ rootLayer
 =
 mView
 .
-getController
+getLayerClient
 (
 )
 .
@@ -2535,7 +2535,7 @@ mBackgroundColor
 =
 mView
 .
-getController
+getLayerClient
 (
 )
 .
@@ -2665,7 +2665,7 @@ if
 (
 mView
 .
-getController
+getLayerClient
 (
 )
 .
@@ -2681,7 +2681,7 @@ getMaskForLayer
 (
 mView
 .
-getController
+getLayerClient
 (
 )
 .
@@ -2720,7 +2720,7 @@ rootLayer
 =
 mView
 .
-getController
+getLayerClient
 (
 )
 .
@@ -2854,7 +2854,7 @@ rootLayer
 =
 mView
 .
-getController
+getLayerClient
 (
 )
 .

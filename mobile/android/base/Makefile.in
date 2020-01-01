@@ -613,12 +613,6 @@ java
 \
 gfx
 /
-LayerController
-.
-java
-\
-gfx
-/
 LayerRenderer
 .
 java
