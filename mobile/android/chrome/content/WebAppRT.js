@@ -507,8 +507,7 @@ return
 }
 aCallback
 (
-"
-"
+aUrl
 )
 ;
 }
@@ -523,8 +522,7 @@ function
 {
 aCallback
 (
-"
-"
+aUrl
 )
 ;
 }
