@@ -109,6 +109,7 @@ eStyleAnimType_Sides_Right
 eStyleAnimType_Sides_Bottom
 eStyleAnimType_Sides_Left
 eStyleAnimType_nscoord
+eStyleAnimType_EnumU8
 eStyleAnimType_float
 eStyleAnimType_Color
 eStyleAnimType_PaintServer
