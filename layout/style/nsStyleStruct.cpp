@@ -1522,6 +1522,8 @@ side
 side
 )
 =
+NS_MAX
+(
 CalcCoord
 (
 mPadding
@@ -1531,6 +1533,8 @@ Get
 side
 )
 nsnull
+0
+)
 0
 )
 ;

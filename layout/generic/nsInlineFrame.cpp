@@ -248,7 +248,7 @@ eStyleUnit_Auto
 nsLayoutUtils
 :
 :
-IsPaddingZero
+IsMarginZero
 (
 aCoord
 )

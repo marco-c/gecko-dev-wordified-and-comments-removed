@@ -2460,6 +2460,8 @@ aData
 currentLine
 +
 =
+NS_MAX
+(
 GetCoord
 (
 stylePadding
@@ -2470,6 +2472,8 @@ mPadding
 Get
 (
 startSide
+)
+0
 )
 0
 )
@@ -2669,6 +2673,8 @@ aData
 currentLine
 +
 =
+NS_MAX
+(
 GetCoord
 (
 stylePadding
@@ -2679,6 +2685,8 @@ mPadding
 Get
 (
 endSide
+)
+0
 )
 0
 )
