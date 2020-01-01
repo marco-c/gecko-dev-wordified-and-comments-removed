@@ -62,18 +62,6 @@ Shape
 shape
 )
 {
-JSOp
-op
-;
-const
-JSCodeSpec
-*
-cs
-;
-PropertyCacheEntry
-*
-entry
-;
 JS_ASSERT
 (
 this
@@ -290,6 +278,7 @@ currentScript
 pc
 )
 ;
+JSOp
 op
 =
 JSOp
@@ -298,6 +287,9 @@ JSOp
 pc
 )
 ;
+const
+JSCodeSpec
+*
 cs
 =
 &
@@ -427,6 +419,8 @@ JS_NO_PROP_CACHE_FILL
 ;
 }
 }
+PropertyCacheEntry
+*
 entry
 =
 &
