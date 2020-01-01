@@ -2279,10 +2279,8 @@ nsIContent
 *
 sibling
 =
-GetSibling
+GetPreviousSibling
 (
--
-1
 )
 ;
 return
@@ -2318,9 +2316,8 @@ nsIContent
 *
 sibling
 =
-GetSibling
+GetNextSibling
 (
-1
 )
 ;
 return

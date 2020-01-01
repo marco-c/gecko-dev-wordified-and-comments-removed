@@ -3186,9 +3186,8 @@ result
 self
 -
 >
-GetSibling
+GetNextSibling
 (
-1
 )
 ;
 '
@@ -3222,9 +3221,8 @@ result
 self
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 '
@@ -3276,10 +3274,8 @@ result
 self
 -
 >
-GetSibling
+GetPreviousSibling
 (
--
-1
 )
 ;
 '
