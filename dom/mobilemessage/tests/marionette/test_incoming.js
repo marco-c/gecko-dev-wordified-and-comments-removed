@@ -158,6 +158,17 @@ MozSmsMessage
 "
 )
 ;
+ok
+(
+message
+.
+threadId
+"
+thread
+id
+"
+)
+;
 is
 (
 message

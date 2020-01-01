@@ -195,6 +195,17 @@ smsId
 "
 )
 ;
+ok
+(
+sentSms
+.
+threadId
+"
+thread
+id
+"
+)
+;
 is
 (
 sentSms

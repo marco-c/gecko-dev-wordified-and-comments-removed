@@ -218,6 +218,17 @@ id
 "
 )
 ;
+ok
+(
+incomingSms
+.
+threadId
+"
+thread
+id
+"
+)
+;
 is
 (
 incomingSms
