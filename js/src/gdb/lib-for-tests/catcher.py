@@ -1,4 +1,6 @@
 import
+os
+import
 sys
 import
 traceback
@@ -7,13 +9,18 @@ try
     
 execfile
 (
-sys
+os
 .
-argv
+path
 .
-pop
+join
 (
-0
+testlibdir
+'
+prolog
+.
+py
+'
 )
 )
 except
