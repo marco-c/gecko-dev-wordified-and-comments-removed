@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsQueryFrame
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -68,10 +61,6 @@ mod_die
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ISVGVALUE_IID
-)
-NS_DECLARE_FRAME_ACCESSOR
-(
-nsISVGValue
 )
 NS_IMETHOD
 SetValueString
