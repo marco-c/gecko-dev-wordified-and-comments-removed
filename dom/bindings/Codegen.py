@@ -16244,6 +16244,19 @@ temp
 s
   
 }
+  
+%
+s
+&
+slot
+=
+*
+arr
+.
+AppendElement
+(
+)
+;
 "
 "
 "
@@ -16295,6 +16308,12 @@ exceptionCodeIndented
 define
 (
 )
+       
+elementDeclType
+.
+define
+(
+)
 )
 )
         
@@ -16340,14 +16359,15 @@ declName
 "
 :
 "
-(
-*
-arr
-.
-AppendElement
-(
-)
-)
+slot
+"
+                        
+"
+holderName
+"
+:
+"
+tempHolder
 "
                         
 "
@@ -18939,6 +18959,9 @@ n
 if
 not
 isDefinitelyObject
+and
+not
+forceOwningType
 :
                 
 templateBody
