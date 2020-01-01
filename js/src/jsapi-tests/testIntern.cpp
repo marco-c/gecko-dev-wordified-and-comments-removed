@@ -132,7 +132,7 @@ if
 status
 =
 =
-JSFINALIZE_START
+JSFINALIZE_GROUP_START
 )
 sw
 .
