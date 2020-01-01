@@ -32,16 +32,16 @@ char
 *
 mCalibrate
 ;
-nsAccelerometerSystemDriver
+nsDeviceMotionSystemDriver
 mToken
 ;
 }
-Accelerometer
+DeviceMotion
 ;
 static
 const
-Accelerometer
-gAccelerometers
+DeviceMotion
+gDeviceMotions
 [
 ]
 =
@@ -835,7 +835,7 @@ i
 <
 NS_ARRAY_LENGTH
 (
-gAccelerometers
+gDeviceMotions
 )
 ;
 i
@@ -851,7 +851,7 @@ mPositionFile
 =
 fopen
 (
-gAccelerometers
+gDeviceMotions
 [
 i
 ]
@@ -867,7 +867,7 @@ continue
 ;
 mType
 =
-gAccelerometers
+gDeviceMotions
 [
 i
 ]
@@ -876,7 +876,7 @@ mToken
 ;
 if
 (
-gAccelerometers
+gDeviceMotions
 [
 i
 ]
@@ -888,7 +888,7 @@ mCalibrateFile
 =
 fopen
 (
-gAccelerometers
+gDeviceMotions
 [
 i
 ]
