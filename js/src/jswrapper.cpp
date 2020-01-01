@@ -791,14 +791,6 @@ id
 desc
 flags
 )
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
-?
-SET
-:
 GET
 )
 ;
