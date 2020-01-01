@@ -6268,6 +6268,12 @@ defined
 (
 XP_MACOSX
 )
+SetupMacCommandLine
+(
+gRestartArgc
+gRestartArgv
+)
+;
 LaunchChildMac
 (
 gRestartArgc
