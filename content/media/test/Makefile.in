@@ -1177,6 +1177,10 @@ file_access_controls
 .
 html
 \
+test_access_control
+.
+html
+\
 test_bug448534
 .
 html
@@ -1389,10 +1393,6 @@ _TEST_FILES
 =
 \
 test_timeupdate3
-.
-html
-\
-test_access_control
 .
 html
 \
