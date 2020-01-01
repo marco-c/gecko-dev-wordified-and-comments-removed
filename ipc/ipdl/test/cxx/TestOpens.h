@@ -43,7 +43,7 @@ include
 "
 mozilla
 /
-_ipdltest
+_ipdltest2
 /
 PTestOpensOpenedParent
 .
@@ -54,7 +54,7 @@ include
 "
 mozilla
 /
-_ipdltest
+_ipdltest2
 /
 PTestOpensOpenedChild
 .
@@ -137,6 +137,10 @@ why
 ;
 }
 ;
+}
+namespace
+_ipdltest2
+{
 class
 TestOpensOpenedParent
 :
@@ -203,6 +207,10 @@ mTransport
 ;
 }
 ;
+}
+namespace
+_ipdltest
+{
 class
 TestOpensChild
 :
@@ -255,6 +263,10 @@ why
 ;
 }
 ;
+}
+namespace
+_ipdltest2
+{
 class
 TestOpensOpenedChild
 :

@@ -2,7 +2,7 @@ namespace
 mozilla
 {
 namespace
-_ipdltest
+_ipdltest2
 {
 /
 /
@@ -114,4 +114,4 @@ mozilla
 /
 /
 namespace
-_ipdltest
+_ipdltest2

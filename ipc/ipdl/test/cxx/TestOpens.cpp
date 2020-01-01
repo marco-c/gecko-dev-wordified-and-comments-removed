@@ -79,7 +79,7 @@ RunnableMethodTraits
 mozilla
 :
 :
-_ipdltest
+_ipdltest2
 :
 :
 TestOpensOpenedChild
@@ -92,7 +92,7 @@ RetainCallee
 mozilla
 :
 :
-_ipdltest
+_ipdltest2
 :
 :
 TestOpensOpenedChild
@@ -108,7 +108,7 @@ ReleaseCallee
 mozilla
 :
 :
-_ipdltest
+_ipdltest2
 :
 :
 TestOpensOpenedChild
@@ -133,9 +133,14 @@ ipc
 namespace
 mozilla
 {
+using
 namespace
 _ipdltest
-{
+;
+using
+namespace
+_ipdltest2
+;
 static
 MessageLoop
 *
@@ -994,6 +999,5 @@ mTransport
 )
 )
 ;
-}
 }
 }
