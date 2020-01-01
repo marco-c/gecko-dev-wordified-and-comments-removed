@@ -79,6 +79,10 @@ const
 nsACString
 &
 type
+const
+nsACString
+&
+access
 nsIDOMElement
 *
 element
@@ -117,6 +121,9 @@ mProxy
 ;
 nsCString
 mType
+;
+nsCString
+mAccess
 ;
 private
 :
@@ -163,6 +170,10 @@ const
 nsACString
 &
 type
+const
+nsACString
+&
+access
 mozilla
 :
 :
@@ -195,6 +206,9 @@ mParent
 ;
 nsCString
 mType
+;
+nsCString
+mAccess
 ;
 }
 ;

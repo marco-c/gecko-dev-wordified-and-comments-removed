@@ -1439,6 +1439,10 @@ nsCString
 &
 type
 const
+nsCString
+&
+access
+const
 IPC
 :
 :
@@ -1452,6 +1456,7 @@ new
 ContentPermissionRequestParent
 (
 type
+access
 mFrameElement
 principal
 )
