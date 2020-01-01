@@ -281,7 +281,7 @@ CallEventHandler
 nsISupports
 *
 aTarget
-void
+JSObject
 *
 aScope
 void

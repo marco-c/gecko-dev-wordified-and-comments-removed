@@ -7638,7 +7638,7 @@ CallEventHandler
 nsISupports
 *
 aTarget
-void
+JSObject
 *
 aScope
 void
@@ -7807,14 +7807,7 @@ rv
 JSObjectFromInterface
 (
 aTarget
-static_cast
-<
-JSObject
-*
->
-(
 aScope
-)
 &
 target
 )
