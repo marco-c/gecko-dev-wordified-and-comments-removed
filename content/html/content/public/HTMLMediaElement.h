@@ -233,9 +233,6 @@ class
 MediaError
 ;
 class
-MediaSource
-;
-class
 HTMLMediaElement
 :
 public
@@ -866,14 +863,6 @@ SetRequestHeaders
 nsIHttpChannel
 *
 aChannel
-)
-;
-void
-RunInStableState
-(
-nsIRunnable
-*
-aRunnable
 )
 ;
 virtual
@@ -2077,12 +2066,6 @@ StreamListener
 >
 mSrcStreamListener
 ;
-nsRefPtr
-<
-MediaSource
->
-mMediaSource
-;
 nsCOMPtr
 <
 nsIChannel
@@ -2324,9 +2307,6 @@ mAudioChannelType
 ;
 bool
 mPlayingThroughTheAudioChannel
-;
-bool
-mWasInDocument
 ;
 nsCOMPtr
 <

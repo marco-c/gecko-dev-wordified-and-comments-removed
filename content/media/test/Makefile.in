@@ -761,10 +761,6 @@ test_streams_tracks
 .
 html
 \
-test_paused_after_removed
-.
-html
-\
 (
 filter
 disabled
@@ -785,10 +781,6 @@ html
 )
 \
 test_texttrack
-.
-html
-\
-test_texttrackcue
 .
 html
 \
@@ -1434,10 +1426,6 @@ mp3
 id3tags
 .
 mp3
-\
-basic
-.
-vtt
 \
 (
 NULL
