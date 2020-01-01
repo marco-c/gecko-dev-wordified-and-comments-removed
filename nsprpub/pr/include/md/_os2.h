@@ -1764,7 +1764,7 @@ x
 )
 #
 define
-OutputDebugString
+OutputDebugStringA
 (
 x
 )

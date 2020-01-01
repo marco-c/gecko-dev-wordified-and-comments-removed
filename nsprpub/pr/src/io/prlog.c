@@ -2033,6 +2033,9 @@ newLogFile
 return
 PR_FALSE
 ;
+#
+ifndef
+WINCE
 setvbuf
 (
 newLogFile
@@ -2041,6 +2044,8 @@ _IONBF
 0
 )
 ;
+#
+endif
 }
 if
 (
