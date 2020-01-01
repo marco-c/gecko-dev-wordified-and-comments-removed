@@ -3115,7 +3115,7 @@ mInitialBreaks
 uint32_t
 mInitialBreakCount
 ;
-uint32_t
+int32_t
 mAppUnitsPerDevUnit
 ;
 }
@@ -3137,7 +3137,7 @@ public
 :
 gfxGlyphExtents
 (
-uint32_t
+int32_t
 aAppUnitsPerDevUnit
 )
 :
@@ -3283,7 +3283,7 @@ gfxRect
 aExtentsAppUnits
 )
 ;
-uint32_t
+int32_t
 GetAppUnitsPerDevUnit
 (
 )
@@ -3652,7 +3652,7 @@ HashEntry
 >
 mTightGlyphExtents
 ;
-uint32_t
+int32_t
 mAppUnitsPerDevUnit
 ;
 }
@@ -4467,7 +4467,7 @@ gfxGlyphExtents
 *
 GetOrCreateGlyphExtents
 (
-uint32_t
+int32_t
 aAppUnitsPerDevUnit
 )
 ;
@@ -5427,7 +5427,7 @@ uint32_t
 aLength
 uint32_t
 aFlags
-uint32_t
+int32_t
 aAppUnitsPerDevUnit
 )
 :
@@ -6633,7 +6633,7 @@ TEXT_IS_8BIT
 0
 ;
 }
-uint32_t
+int32_t
 GetAppUnitsPerDevUnit
 (
 )
@@ -7182,7 +7182,7 @@ mLength
 uint32_t
 mFlags
 ;
-uint32_t
+int32_t
 mAppUnitsPerDevUnit
 ;
 }
@@ -9995,7 +9995,7 @@ aLength
 gfxContext
 *
 aRefContext
-uint32_t
+int32_t
 aAppUnitsPerDevUnit
 uint32_t
 aFlags

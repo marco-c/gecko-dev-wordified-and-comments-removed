@@ -8213,7 +8213,7 @@ GetCharacterGlyphs
 )
 ;
 const
-uint32_t
+int32_t
 appUnitsPerDevUnit
 =
 aTextRun
@@ -10650,7 +10650,7 @@ aSpacing
 }
 }
 const
-uint32_t
+int32_t
 appUnitsPerDevUnit
 =
 aTextRun
@@ -13298,7 +13298,7 @@ gfxFont
 :
 GetOrCreateGlyphExtents
 (
-uint32_t
+int32_t
 aAppUnitsPerDevUnit
 )
 {
@@ -13466,7 +13466,7 @@ GetMetrics
 (
 )
 ;
-uint32_t
+int32_t
 appUnitsPerDevUnit
 =
 aExtents
@@ -22996,8 +22996,7 @@ aFontGroup
 NS_ASSERTION
 (
 mAppUnitsPerDevUnit
-!
-=
+>
 0
 "
 Invalid

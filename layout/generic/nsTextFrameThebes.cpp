@@ -9824,6 +9824,8 @@ textBreakPointsAfterTransform
 Length
 (
 )
+int32_t
+(
 firstFrame
 -
 >
@@ -9834,6 +9836,7 @@ PresContext
 >
 AppUnitsPerDevPixel
 (
+)
 )
 }
 ;

@@ -786,7 +786,7 @@ mOldFor
 }
 ;
 static
-uint32_t
+int32_t
 GetTextRunUnitsFactor
 (
 )
