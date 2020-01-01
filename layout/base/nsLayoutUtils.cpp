@@ -7573,7 +7573,7 @@ aFrame
 aFrame
 -
 >
-GetFirstInFlow
+GetFirstContinuation
 (
 )
 ;
