@@ -351,6 +351,10 @@ test_open_empty_db
 .
 html
 \
+test_open_for_principal
+.
+html
+\
 test_open_objectStore
 .
 html
