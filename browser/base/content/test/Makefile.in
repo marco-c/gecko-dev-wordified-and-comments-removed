@@ -1335,6 +1335,10 @@ plugin_test3
 .
 html
 \
+plugin_alternate_content
+.
+html
+\
 plugin_both
 .
 html
