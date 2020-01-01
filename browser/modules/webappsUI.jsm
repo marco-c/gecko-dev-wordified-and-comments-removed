@@ -749,11 +749,6 @@ if
 (
 app
 .
-appcacheDefined
-&
-&
-app
-.
 appProfile
 )
 {
