@@ -4,6 +4,13 @@ nsEventStates_h__
 #
 define
 nsEventStates_h__
+#
+include
+"
+nsDebug
+.
+h
+"
 class
 nsEventStates
 {
