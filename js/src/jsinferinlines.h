@@ -6543,6 +6543,12 @@ key
 =
 =
 JSProto_Uint8ClampedArray
+|
+|
+key
+=
+=
+JSProto_DataView
 )
 ;
 flags
