@@ -1219,10 +1219,6 @@ StartImageLoad
 nsIDocument
 *
 aDocument
-PRBool
-aIsBGImage
-=
-PR_FALSE
 )
 const
 ;
@@ -1853,10 +1849,6 @@ aOriginPrincipal
 nsIDocument
 *
 aDocument
-PRBool
-aIsBGImage
-=
-PR_FALSE
 )
 NS_HIDDEN
 ;
