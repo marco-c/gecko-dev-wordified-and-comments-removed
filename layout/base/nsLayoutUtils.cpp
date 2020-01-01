@@ -3991,7 +3991,7 @@ PRBool
 nsLayoutUtils
 :
 :
-IsInitialContainingBlock
+IsRootElementFrame
 (
 nsIFrame
 *
@@ -4020,7 +4020,7 @@ FrameConstructor
 )
 -
 >
-GetInitialContainingBlock
+GetRootElementFrame
 (
 )
 ;

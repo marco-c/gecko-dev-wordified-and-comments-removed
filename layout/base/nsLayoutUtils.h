@@ -527,7 +527,7 @@ aNewBreakType
 ;
 static
 PRBool
-IsInitialContainingBlock
+IsRootElementFrame
 (
 nsIFrame
 *
