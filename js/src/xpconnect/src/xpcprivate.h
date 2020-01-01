@@ -16406,6 +16406,8 @@ clasp
 JSObject
 *
 proto
+bool
+uniqueType
 JSObject
 *
 parent

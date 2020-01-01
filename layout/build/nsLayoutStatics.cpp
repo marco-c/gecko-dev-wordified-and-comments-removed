@@ -1150,9 +1150,6 @@ NS_SealStaticAtomTable
 (
 )
 ;
-#
-ifdef
-DOM_MEMORY_REPORTER
 nsDOMMemoryReporter
 :
 :
@@ -1160,8 +1157,6 @@ Init
 (
 )
 ;
-#
-endif
 return
 NS_OK
 ;

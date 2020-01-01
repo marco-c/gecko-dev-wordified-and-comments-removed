@@ -1077,10 +1077,6 @@ prs
 -
 >
 context
-prs
--
->
-emptyCallShape
 )
 sharpSlotBase
 (
@@ -2290,6 +2286,9 @@ closedVars
 ;
 uint16
 traceIndex
+;
+uint16
+typesetCount
 ;
 JSCodeGenerator
 (

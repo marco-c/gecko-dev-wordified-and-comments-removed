@@ -1336,7 +1336,7 @@ name
 \
 {
 (
-intptr_t
+uintptr_t
 )
 &
 name
@@ -3107,6 +3107,10 @@ NewDenseAllocatedArray
 JS_DECLARE_CALLINFO
 (
 NewDenseUnallocatedArray
+)
+JS_DECLARE_CALLINFO
+(
+NewDenseAllocatedEmptyArray
 )
 }
 JS_DECLARE_CALLINFO
