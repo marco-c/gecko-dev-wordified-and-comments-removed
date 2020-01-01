@@ -393,14 +393,10 @@ full
 =
 0
 ;
-yield
 coll
 .
 delete
 (
-self
-.
-cb
 )
 ;
 }
