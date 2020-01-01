@@ -590,6 +590,12 @@ CMMSRCS
 nsCoreAnimationSupport
 .
 mm
+OS_LIBS
++
+=
+-
+framework
+OpenGL
 else
 ifeq
 (
