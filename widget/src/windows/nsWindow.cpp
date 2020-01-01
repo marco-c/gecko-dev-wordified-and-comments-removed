@@ -7813,7 +7813,7 @@ windowStatus
 =
 reinterpret_cast
 <
-int
+LONG_PTR
 >
 (
 GetPropW
@@ -7915,6 +7915,10 @@ AddHook
 "
 GetWindowInfo
 "
+(
+void
+*
+)
 GetWindowInfoHook
 (
 void
@@ -34531,7 +34535,7 @@ nsWindow
 :
 :
 ClearResourcesCallback
-NULL
+0
 )
 ;
 }
