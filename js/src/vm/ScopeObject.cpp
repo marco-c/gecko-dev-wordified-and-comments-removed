@@ -85,6 +85,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+Stack
+-
+inl
+.
+h
+"
 using
 namespace
 js

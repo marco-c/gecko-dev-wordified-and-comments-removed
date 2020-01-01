@@ -74,7 +74,7 @@ js
 ObjectImpl
 :
 :
-isNativeSlow
+uninlinedIsNative
 (
 )
 const
@@ -92,7 +92,7 @@ js
 ObjectImpl
 :
 :
-slotSpanSlow
+uninlinedSlotSpan
 (
 )
 const
