@@ -1135,6 +1135,8 @@ type
 message
 :
 e
+.
+message
 }
 )
 ;
