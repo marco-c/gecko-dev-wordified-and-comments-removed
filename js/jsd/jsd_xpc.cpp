@@ -10821,8 +10821,10 @@ FilterRecord
 *
 rec
 =
-new
+PR_NEWZAP
+(
 FilterRecord
+)
 ;
 if
 (
@@ -10987,8 +10989,10 @@ FilterRecord
 *
 rec
 =
-new
+PR_NEWZAP
+(
 FilterRecord
+)
 ;
 if
 (
