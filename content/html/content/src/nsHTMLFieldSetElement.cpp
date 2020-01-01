@@ -544,10 +544,7 @@ else
 {
 if
 (
-PRInt32
-(
 aIndex
-)
 <
 =
 IndexOf
