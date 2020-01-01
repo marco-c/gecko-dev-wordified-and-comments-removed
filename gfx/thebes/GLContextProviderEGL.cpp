@@ -2716,6 +2716,8 @@ MakeCurrent
 (
 PRBool
 aForce
+=
+PR_FALSE
 )
 {
 PRBool
@@ -2803,18 +2805,6 @@ current
 }
 return
 succeeded
-;
-}
-PRBool
-MakeCurrent
-(
-)
-{
-return
-MakeCurrent
-(
-PR_FALSE
-)
 ;
 }
 PRBool

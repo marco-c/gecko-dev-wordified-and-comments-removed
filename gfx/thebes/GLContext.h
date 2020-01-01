@@ -951,6 +951,10 @@ virtual
 PRBool
 MakeCurrent
 (
+PRBool
+aForce
+=
+PR_FALSE
 )
 =
 0

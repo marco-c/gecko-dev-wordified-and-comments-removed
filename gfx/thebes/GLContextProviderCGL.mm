@@ -837,6 +837,10 @@ nsnull
 PRBool
 MakeCurrent
 (
+PRBool
+aForce
+=
+PR_FALSE
 )
 {
 if
