@@ -1222,6 +1222,10 @@ context
 ;
 pn
 =
+(
+ParseNode
+*
+)
 cx
 -
 >
@@ -1229,11 +1233,12 @@ tempLifoAlloc
 (
 )
 .
-new_
-<
-ParseNode
->
+alloc
 (
+sizeof
+(
+ParseNode
+)
 )
 ;
 if
