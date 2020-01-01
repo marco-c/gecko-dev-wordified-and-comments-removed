@@ -4126,6 +4126,12 @@ if
 capacity_
 >
 length_
+|
+|
+length_
+=
+=
+0
 )
 {
 if
