@@ -2711,6 +2711,13 @@ communicate
 (
 )
       
+if
+outerr
+[
+1
+]
+:
+        
 errl
 =
 outerr
@@ -2721,7 +2728,7 @@ outerr
 splitlines
 (
 )
-      
+        
 if
 (
 len
@@ -2733,7 +2740,7 @@ errl
 1
 )
 :
-        
+          
 if
 (
 (
@@ -2755,7 +2762,7 @@ denied
 -
 1
 )
-          
+            
 or
 (
 errl
@@ -2777,14 +2784,14 @@ exist
 1
 )
 )
-          
+            
 and
 self
 .
 useRunAs
 )
 :
-          
+            
 remoteTmpFile
 =
 self
@@ -2805,7 +2812,7 @@ basename
 (
 remoteFile
 )
-          
+            
 self
 .
 checkCmdAs
@@ -2831,7 +2838,7 @@ of
 remoteTmpFile
 ]
 )
-          
+            
 self
 .
 checkCmdAs
@@ -2849,7 +2856,7 @@ chmod
 remoteTmpFile
 ]
 )
-          
+            
 self
 .
 runCmd
@@ -2868,7 +2875,7 @@ stdout
 read
 (
 )
-          
+            
 self
 .
 checkCmdAs
@@ -2907,7 +2914,6 @@ close
       
 return
 ret
-;
     
 except
 :
