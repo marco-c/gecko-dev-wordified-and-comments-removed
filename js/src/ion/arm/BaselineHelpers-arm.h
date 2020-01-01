@@ -47,6 +47,13 @@ js
 namespace
 ion
 {
+static
+const
+size_t
+ICStackValueOffset
+=
+0
+;
 inline
 void
 EmitRestoreTailCallReg
