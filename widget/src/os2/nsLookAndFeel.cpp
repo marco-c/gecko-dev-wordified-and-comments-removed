@@ -1078,6 +1078,9 @@ case
 eMetric_DWMCompositor
 :
 case
+eMetric_WindowsClassic
+:
+case
 eMetric_WindowsDefaultTheme
 :
 aMetric
