@@ -578,15 +578,6 @@ clientID
 )
 ;
 nsresult
-DeactivateGroup
-(
-const
-nsCSubstring
-&
-group
-)
-;
-nsresult
 GetGroupForCache
 (
 const

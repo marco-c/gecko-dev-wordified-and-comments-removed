@@ -500,6 +500,14 @@ cacheManifest
 headers
 ^
 \
+test_obsolete
+.
+html
+\
+obsolete
+.
+html
+\
 badManifestMagic
 .
 cacheManifest
