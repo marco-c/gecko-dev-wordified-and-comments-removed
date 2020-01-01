@@ -669,7 +669,7 @@ accEvent
 .
 setClassName
 (
-LayerView
+GeckoAccessibility
 .
 class
 .
