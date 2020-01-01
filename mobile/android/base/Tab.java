@@ -1944,17 +1944,6 @@ doReload
 (
 )
 {
-if
-(
-mHistory
-.
-isEmpty
-(
-)
-)
-return
-false
-;
 GeckoEvent
 e
 =
