@@ -3311,7 +3311,7 @@ relhack_entry
 relhackcode
 -
 >
-insertBefore
+insertAfter
 (
 section
 )
