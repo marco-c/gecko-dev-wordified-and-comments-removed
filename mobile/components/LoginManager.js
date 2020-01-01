@@ -618,7 +618,7 @@ message
 function
 getPrompter
 (
-aWindow
+aBrowser
 )
 {
 var
@@ -652,7 +652,7 @@ prompterSvc
 .
 init
 (
-aWindow
+aBrowser
 )
 ;
 return
@@ -866,16 +866,11 @@ return
 ;
 }
 var
-win
+browser
 =
 message
 .
 target
-.
-contentWindow
-|
-|
-null
 ;
 var
 formLogin
@@ -974,7 +969,7 @@ prompter
 =
 getPrompter
 (
-win
+browser
 )
 ;
 if
@@ -1247,7 +1242,7 @@ prompter
 =
 getPrompter
 (
-win
+browser
 )
 ;
 prompter
@@ -1330,7 +1325,7 @@ prompter
 =
 getPrompter
 (
-win
+browser
 )
 ;
 prompter

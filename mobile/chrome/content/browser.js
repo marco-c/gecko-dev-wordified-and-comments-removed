@@ -5697,6 +5697,7 @@ getNotificationBox
 function
 getNotificationBox
 (
+aBrowser
 )
 {
 return
@@ -12261,7 +12262,7 @@ forceGC
 function
 getNotificationBox
 (
-aWindow
+aBrowser
 )
 {
 return
@@ -12269,6 +12270,7 @@ Browser
 .
 getNotificationBox
 (
+aBrowser
 )
 ;
 }

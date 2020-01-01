@@ -449,6 +449,10 @@ SessionStore
 .
 idl
 \
+LoginManagerPrompter
+.
+idl
+\
 (
 NULL
 )
@@ -526,6 +530,10 @@ FormAutoComplete
 js
 \
 LoginManager
+.
+js
+\
+LoginManagerPrompter
 .
 js
 \
