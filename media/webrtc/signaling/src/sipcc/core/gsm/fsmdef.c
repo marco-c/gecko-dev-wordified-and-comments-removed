@@ -11033,7 +11033,7 @@ cause
 gsmsdp_create_local_sdp
 (
 dcb
-FALSE
+TRUE
 has_audio
 has_video
 has_data

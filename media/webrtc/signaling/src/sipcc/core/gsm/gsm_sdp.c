@@ -449,7 +449,7 @@ CC_AUDIO_1
 .
 enabled
 =
-TRUE
+FALSE
 ;
 dcb_p
 -
@@ -464,7 +464,7 @@ CC_VIDEO_1
 .
 enabled
 =
-TRUE
+FALSE
 ;
 dcb_p
 -
