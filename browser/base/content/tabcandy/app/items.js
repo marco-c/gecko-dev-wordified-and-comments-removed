@@ -66,6 +66,12 @@ dropOptions
 =
 null
 ;
+this
+.
+isDragging
+=
+false
+;
 }
 ;
 window

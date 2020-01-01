@@ -120,6 +120,12 @@ false
 ;
 this
 .
+isDragging
+=
+false
+;
+this
+.
 _init
 (
 container
