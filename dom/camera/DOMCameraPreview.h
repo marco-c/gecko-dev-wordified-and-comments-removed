@@ -42,6 +42,13 @@ h
 #
 include
 "
+CameraPreviewMediaStream
+.
+h
+"
+#
+include
+"
 CameraCommon
 .
 h
@@ -341,7 +348,7 @@ mHeight
 uint32_t
 mFramesPerSecond
 ;
-SourceMediaStream
+CameraPreviewMediaStream
 *
 mInput
 ;

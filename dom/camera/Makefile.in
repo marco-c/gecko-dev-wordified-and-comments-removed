@@ -127,6 +127,10 @@ CameraRecorderProfiles
 .
 cpp
 \
+CameraPreviewMediaStream
+.
+cpp
+\
 (
 NULL
 )

@@ -413,6 +413,7 @@ MediaStreamGraphImpl
 aGraph
 )
 ;
+virtual
 void
 AddAudioOutput
 (
@@ -421,6 +422,7 @@ void
 aKey
 )
 ;
+virtual
 void
 SetAudioOutputVolume
 (
@@ -431,6 +433,7 @@ float
 aVolume
 )
 ;
+virtual
 void
 RemoveAudioOutput
 (
@@ -439,6 +442,7 @@ void
 aKey
 )
 ;
+virtual
 void
 AddVideoOutput
 (
@@ -447,6 +451,7 @@ VideoFrameContainer
 aContainer
 )
 ;
+virtual
 void
 RemoveVideoOutput
 (
@@ -455,6 +460,7 @@ VideoFrameContainer
 aContainer
 )
 ;
+virtual
 void
 ChangeExplicitBlockerCount
 (
@@ -462,6 +468,7 @@ int32_t
 aDelta
 )
 ;
+virtual
 void
 AddListener
 (
@@ -470,6 +477,7 @@ MediaStreamListener
 aListener
 )
 ;
+virtual
 void
 RemoveListener
 (
@@ -538,6 +546,7 @@ aListener
 )
 ;
 }
+virtual
 void
 Destroy
 (
