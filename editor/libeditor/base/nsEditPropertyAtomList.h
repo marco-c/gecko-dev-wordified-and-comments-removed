@@ -673,6 +673,13 @@ map
 )
 EDITOR_ATOM
 (
+mark
+"
+mark
+"
+)
+EDITOR_ATOM
+(
 mozdirty
 "
 _moz_dirty

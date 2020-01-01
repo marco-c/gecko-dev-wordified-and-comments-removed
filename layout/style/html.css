@@ -2158,6 +2158,17 @@ space
 nowrap
 ;
 }
+mark
+{
+background
+:
+yellow
+;
+color
+:
+black
+;
+}
 abbr
 [
 title

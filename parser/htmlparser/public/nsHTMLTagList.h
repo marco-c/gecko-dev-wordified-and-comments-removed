@@ -343,6 +343,10 @@ Map
 )
 HTML_TAG
 (
+mark
+)
+HTML_TAG
+(
 marquee
 Div
 )
