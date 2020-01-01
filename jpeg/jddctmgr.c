@@ -22,10 +22,15 @@ jdct
 .
 h
 "
+#
+ifdef
+HAVE_SSE2_INTRINSICS
 extern
 int
 SSE2Available
 ;
+#
+endif
 typedef
 struct
 {
