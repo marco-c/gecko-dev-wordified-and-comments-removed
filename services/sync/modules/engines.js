@@ -3259,6 +3259,7 @@ getAllIDs
 (
 )
 )
+{
 this
 .
 _modified
@@ -3268,6 +3269,7 @@ id
 =
 0
 ;
+}
 }
 this
 .
@@ -5820,15 +5822,19 @@ when
 )
 ;
 }
-delete
 this
 .
 _modified
+=
+{
+}
 ;
-delete
 this
 .
 _modifiedIDs
+=
+[
+]
 ;
 }
 _sync
