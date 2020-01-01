@@ -3593,9 +3593,10 @@ oldcx
 exc
 )
 ;
-JS_DestroyContextNoGC
+DestroyContext
 (
 newcx
+false
 )
 ;
 }
