@@ -1998,7 +1998,7 @@ bug
 mIconRequest
 -
 >
-RequestDecode
+StartDecoding
 (
 )
 ;

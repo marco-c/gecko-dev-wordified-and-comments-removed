@@ -10072,7 +10072,7 @@ NS_ERROR_FAILURE
 imageRequest
 -
 >
-RequestDecode
+StartDecoding
 (
 )
 ;

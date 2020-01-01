@@ -1103,7 +1103,7 @@ else
 mImageRequest
 -
 >
-RequestDecode
+StartDecoding
 (
 )
 ;
