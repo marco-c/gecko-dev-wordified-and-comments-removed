@@ -3866,7 +3866,7 @@ scx
 scx
 -
 >
-GetNativeGlobal
+GetWindowProxyPreserveColor
 (
 )
 :
