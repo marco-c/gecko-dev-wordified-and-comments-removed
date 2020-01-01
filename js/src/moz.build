@@ -772,6 +772,11 @@ PropertyKey
 cpp
 '
 '
+ProxyObject
+.
+cpp
+'
+'
 RegExp
 .
 cpp
