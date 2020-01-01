@@ -8503,7 +8503,7 @@ break
 ;
 }
 case
-eCSSProperty__moz_background_size
+eCSSProperty_background_size
 :
 {
 const

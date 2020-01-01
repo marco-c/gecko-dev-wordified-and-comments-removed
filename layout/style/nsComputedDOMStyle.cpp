@@ -20678,7 +20678,7 @@ BackgroundOrigin
 )
 COMPUTED_STYLE_MAP_ENTRY
 (
-_moz_background_size
+background_size
 MozBackgroundSize
 )
 COMPUTED_STYLE_MAP_ENTRY
