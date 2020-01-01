@@ -24,6 +24,13 @@ h
 #
 include
 "
+nsGlobalWindow
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
