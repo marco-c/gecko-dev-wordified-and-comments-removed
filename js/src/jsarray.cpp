@@ -1114,7 +1114,7 @@ atom
 *
 idp
 =
-JSID_VOID
+JSBOXEDWORD_VOID
 ;
 return
 JS_TRUE
@@ -1580,7 +1580,7 @@ if
 hole
 &
 &
-JSID_IS_VOID
+JSBOXEDWORD_IS_VOID
 (
 *
 idp
@@ -2012,7 +2012,7 @@ JS_FALSE
 JS_ASSERT
 (
 !
-JSID_IS_VOID
+JSBOXEDWORD_IS_VOID
 (
 idr
 .
@@ -2185,7 +2185,7 @@ JS_FALSE
 ;
 if
 (
-JSID_IS_VOID
+JSBOXEDWORD_IS_VOID
 (
 idr
 .
@@ -2887,7 +2887,7 @@ false
 ;
 if
 (
-JSID_IS_VOID
+JSBOXEDWORD_IS_VOID
 (
 id
 )

@@ -1562,7 +1562,7 @@ list
 {
 id
 =
-JSID_NULL
+JSBOXEDWORD_NULL
 ;
 next
 =
@@ -1597,7 +1597,7 @@ removeFree
 {
 JS_ASSERT
 (
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 id
 )
@@ -2729,7 +2729,7 @@ JS_ASSERT_IF
 (
 lastProp
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 lastProp
 -
@@ -2757,7 +2757,7 @@ sprop
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 sprop
 -
@@ -2770,7 +2770,7 @@ JS_ASSERT_IF
 (
 lastProp
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 lastProp
 -
@@ -2808,7 +2808,7 @@ lastProp
 >
 parent
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 lastProp
 -
@@ -2872,7 +2872,7 @@ childp
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 sprop
 -
@@ -2910,7 +2910,7 @@ lastProp
 =
 sprop
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 lastProp
 -
@@ -2926,7 +2926,7 @@ lastProp
 >
 parent
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 lastProp
 -
@@ -3019,7 +3019,7 @@ childp
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 sprop
 -
@@ -3071,7 +3071,7 @@ JS_ASSERT_IF
 (
 lastProp
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 lastProp
 -
@@ -3506,7 +3506,7 @@ vp
 JS_ASSERT
 (
 !
-JSID_IS_NULL
+JSBOXEDWORD_IS_NULL
 (
 this
 -
