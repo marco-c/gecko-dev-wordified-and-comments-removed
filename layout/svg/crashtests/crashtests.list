@@ -334,11 +334,3 @@ load
 1
 .
 svg
-load
-extref
--
-test
--
-1
-.
-xhtml

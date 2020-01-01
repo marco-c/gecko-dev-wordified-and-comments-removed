@@ -26829,15 +26829,6 @@ do_QueryInterface
 pcContainer
 )
 ;
-if
-(
-!
-curNode
-)
-{
-return
-;
-}
 nsCOMPtr
 <
 nsIDocShellTreeItem
