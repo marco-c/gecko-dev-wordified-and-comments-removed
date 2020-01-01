@@ -137,6 +137,9 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsIGenericFactory
 NS_IGENERICFACTORY_IID
 )
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 NS_COM_GLUE
 nsresult
 NS_NewGenericFactory
@@ -151,6 +154,8 @@ nsModuleComponentInfo
 info
 )
 ;
+#
+endif
 typedef
 NS_CALLBACK
 (
@@ -361,6 +366,9 @@ NS_MODULEINFO_VERSION
 1
 .
 5
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 NS_COM_GLUE
 nsresult
 NS_NewGenericModule2
@@ -396,6 +404,8 @@ nsIModule
 result
 )
 ;
+#
+endif
 #
 if
 defined

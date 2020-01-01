@@ -166,6 +166,9 @@ dispatchFlags
 NS_DISPATCH_NORMAL
 )
 ;
+#
+ifndef
+XPCOM_GLUE_AVOID_NSPR
 extern
 NS_COM_GLUE
 NS_METHOD
@@ -180,6 +183,8 @@ timeout
 PR_INTERVAL_NO_TIMEOUT
 )
 ;
+#
+endif
 extern
 NS_COM_GLUE
 PRBool
@@ -292,7 +297,7 @@ IMETHOD_VISIBILITY
 #
 define
 IMETHOD_VISIBILITY
-NS_VISIBILITY_DEFAULT
+NS_COM_GLUE
 class
 NS_COM_GLUE
 nsRunnable
