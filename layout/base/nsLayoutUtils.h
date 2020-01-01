@@ -2483,6 +2483,12 @@ aFontFaceList
 )
 ;
 static
+PRBool
+Are3DTransformsEnabled
+(
+)
+;
+static
 void
 Shutdown
 (

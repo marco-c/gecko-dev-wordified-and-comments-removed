@@ -31634,3 +31634,16 @@ enabled
 false
 )
 ;
+pref
+(
+"
+layout
+.
+3d
+-
+transforms
+.
+enabled
+false
+)
+;
