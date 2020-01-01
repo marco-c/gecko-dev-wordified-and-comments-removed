@@ -489,6 +489,12 @@ groupItemsData
 groupItemData
 )
 ;
+GroupItems
+.
+killNewTabGroup
+(
+)
+;
 if
 (
 firstTime
