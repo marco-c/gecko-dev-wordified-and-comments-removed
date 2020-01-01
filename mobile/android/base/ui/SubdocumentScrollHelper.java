@@ -32,6 +32,8 @@ mozilla
 .
 gecko
 .
+util
+.
 GeckoEventListener
 ;
 import

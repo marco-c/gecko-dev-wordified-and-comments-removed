@@ -516,6 +516,8 @@ mozilla
 .
 gecko
 .
+util
+.
 GeckoEventListener
 "
 )

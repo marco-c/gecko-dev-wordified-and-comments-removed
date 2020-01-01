@@ -4,6 +4,8 @@ org
 mozilla
 .
 gecko
+.
+util
 ;
 public
 interface
@@ -11,7 +13,6 @@ GeckoEventResponder
 extends
 GeckoEventListener
 {
-public
 String
 getResponse
 (
