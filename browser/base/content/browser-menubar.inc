@@ -4541,15 +4541,6 @@ accesskey
 /
 >
 <
-menuseparator
-id
-=
-"
-menu_devToolsConnectSeparator
-"
-/
->
-<
 menuitem
 id
 =

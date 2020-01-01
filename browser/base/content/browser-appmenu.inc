@@ -1276,15 +1276,6 @@ devtoolsMenuBroadcaster_ErrorConsole
 /
 >
 <
-menuseparator
-id
-=
-"
-appmenu_devToolsConnectSeparator
-"
-/
->
-<
 menuitem
 id
 =
