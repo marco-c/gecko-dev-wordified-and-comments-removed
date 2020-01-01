@@ -232,7 +232,10 @@ PR_FALSE
 )
 mSnappingEnabled
 (
-PR_TRUE
+mMode
+!
+=
+EVENT_DELIVERY
 )
 mHasDisplayPort
 (
