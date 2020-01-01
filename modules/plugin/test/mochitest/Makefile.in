@@ -433,11 +433,10 @@ rules
 mk
 _TEST_FILES
 =
-test_npruntime
+\
+test_bug479979
 .
 xul
-_TEST_FILES
-=
 \
 test_npruntime
 .
