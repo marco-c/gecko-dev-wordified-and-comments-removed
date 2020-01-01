@@ -592,3 +592,13 @@ nsContentHandlerApp
 cpp
 '
 ]
+IPDL_SOURCES
++
+=
+[
+'
+PExternalHelperApp
+.
+ipdl
+'
+]

@@ -777,3 +777,14 @@ smslib
 mm
 '
 ]
+IPDL_SOURCES
+=
+[
+'
+sandbox
+/
+PHal
+.
+ipdl
+'
+]

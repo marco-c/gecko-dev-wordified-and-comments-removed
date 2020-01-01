@@ -521,3 +521,17 @@ URIUtils
 cpp
 '
 ]
+IPDL_SOURCES
+=
+[
+'
+InputStreamParams
+.
+ipdlh
+'
+'
+URIParams
+.
+ipdlh
+'
+]

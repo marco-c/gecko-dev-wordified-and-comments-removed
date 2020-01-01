@@ -177,3 +177,13 @@ nsFtpProtocolHandler
 cpp
 '
 ]
+IPDL_SOURCES
++
+=
+[
+'
+PFTPChannel
+.
+ipdl
+'
+]

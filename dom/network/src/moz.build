@@ -229,3 +229,13 @@ NetworkStatsManager
 manifest
 '
 ]
+IPDL_SOURCES
++
+=
+[
+'
+PTCPSocket
+.
+ipdl
+'
+]

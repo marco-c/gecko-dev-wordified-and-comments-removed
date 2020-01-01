@@ -177,3 +177,13 @@ nsPrefetchService
 cpp
 '
 ]
+IPDL_SOURCES
++
+=
+[
+'
+POfflineCacheUpdate
+.
+ipdl
+'
+]

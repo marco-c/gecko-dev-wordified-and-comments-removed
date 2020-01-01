@@ -410,6 +410,16 @@ nsHttpTransaction
 cpp
 '
 ]
+IPDL_SOURCES
++
+=
+[
+'
+PHttpChannel
+.
+ipdl
+'
+]
 EXTRA_JS_MODULES
 +
 =

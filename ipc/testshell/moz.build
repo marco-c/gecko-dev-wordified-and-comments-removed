@@ -184,3 +184,17 @@ XPCShellEnvironment
 cpp
 '
 ]
+IPDL_SOURCES
+=
+[
+'
+PTestShell
+.
+ipdl
+'
+'
+PTestShellCommand
+.
+ipdl
+'
+]
