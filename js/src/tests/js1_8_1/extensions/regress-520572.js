@@ -67,7 +67,7 @@ s
 evalcx
 (
 "
-split
+lazy
 "
 )
 ;
