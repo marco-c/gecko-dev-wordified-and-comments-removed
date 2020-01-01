@@ -873,10 +873,6 @@ test_error_on_404
 .
 html
 \
-test_error_in_video_document
-.
-html
-\
 test_info_leak
 .
 html
