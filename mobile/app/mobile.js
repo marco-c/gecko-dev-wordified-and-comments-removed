@@ -4699,11 +4699,11 @@ pref
 "
 layers
 .
-accelerate
--
-all
+acceleration
+.
+disabled
 "
-false
+true
 )
 ;
 pref
