@@ -62,7 +62,7 @@ MPL
 <
 !
 ENTITY
-intro
+intro2
 .
 label
 "
@@ -71,6 +71,7 @@ have
 chosen
 to
 open
+:
 "
 >
 <
