@@ -435,6 +435,10 @@ FORCE_STATIC_LIB
 CSRCS
 =
 \
+dirac
+.
+c
+\
 metric_internal
 .
 c

@@ -33,10 +33,10 @@ FILE
 *
 file
 ;
-int
+long
 current_position
 ;
-int
+long
 size
 ;
 }
