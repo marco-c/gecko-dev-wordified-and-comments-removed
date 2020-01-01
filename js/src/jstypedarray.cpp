@@ -3617,14 +3617,6 @@ getFixedSlotOffset
 (
 FIELD_LENGTH
 )
-+
-offsetof
-(
-jsval_layout
-s
-.
-payload
-)
 ;
 }
 int
