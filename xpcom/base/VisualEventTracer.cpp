@@ -1437,11 +1437,6 @@ return
 false
 ;
 }
-bool
-gStopFlushingThread
-=
-false
-;
 EventFilter
 *
 gEventFilter
