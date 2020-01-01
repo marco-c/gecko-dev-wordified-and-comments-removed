@@ -936,6 +936,8 @@ aContent
 nsIAtom
 *
 aFrameType
+PRBool
+aShouldFlush
 )
 ;
 static

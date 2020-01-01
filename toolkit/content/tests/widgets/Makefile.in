@@ -579,6 +579,10 @@ test_popup_keys
 .
 xul
 \
+test_popuphidden
+.
+xul
+\
 (
 NULL
 )

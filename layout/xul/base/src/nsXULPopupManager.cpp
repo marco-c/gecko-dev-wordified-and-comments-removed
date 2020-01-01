@@ -782,6 +782,8 @@ aContent
 nsIAtom
 *
 aFrameType
+PRBool
+aShouldFlush
 )
 {
 nsIDocument
@@ -800,8 +802,10 @@ if
 document
 )
 {
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 document
@@ -816,6 +820,18 @@ if
 presShell
 )
 {
+if
+(
+aShouldFlush
+)
+presShell
+-
+>
+FlushPendingNotifications
+(
+Flush_Frames
+)
+;
 nsIFrame
 *
 frame
@@ -878,6 +894,7 @@ nsGkAtoms
 :
 :
 menuFrame
+PR_FALSE
 )
 )
 ;
@@ -908,6 +925,7 @@ nsGkAtoms
 :
 :
 menuPopupFrame
+PR_TRUE
 )
 )
 ;
