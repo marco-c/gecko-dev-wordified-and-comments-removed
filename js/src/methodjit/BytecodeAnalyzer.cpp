@@ -430,6 +430,9 @@ JSOP_NAMEINC
 case
 JSOP_NAMEDEC
 :
+case
+JSOP_FORNAME
+:
 usesScope
 =
 true
