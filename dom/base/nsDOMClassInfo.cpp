@@ -919,13 +919,6 @@ h
 #
 include
 "
-nsIXSLTProcessorObsolete
-.
-h
-"
-#
-include
-"
 nsIXSLTProcessorPrivate
 .
 h
@@ -14146,10 +14139,6 @@ nsIXSLTProcessor
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIXSLTProcessor
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIXSLTProcessorObsolete
 )
 DOM_CLASSINFO_MAP_ENTRY
 (

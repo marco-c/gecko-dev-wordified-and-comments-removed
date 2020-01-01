@@ -456,10 +456,6 @@ nsIXSLTProcessor
 .
 idl
 \
-nsIXSLTProcessorObsolete
-.
-idl
-\
 nsIXSLTProcessorPrivate
 .
 idl

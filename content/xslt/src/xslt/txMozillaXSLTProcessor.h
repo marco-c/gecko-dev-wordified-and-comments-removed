@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIXSLTProcessorObsolete
-.
-h
-"
-#
-include
-"
 nsIXSLTProcessorPrivate
 .
 h
@@ -157,8 +150,6 @@ txMozillaXSLTProcessor
 public
 nsIXSLTProcessor
 public
-nsIXSLTProcessorObsolete
-public
 nsIXSLTProcessorPrivate
 public
 nsIDocumentTransformer
@@ -185,7 +176,6 @@ txMozillaXSLTProcessor
 nsIXSLTProcessor
 )
 NS_DECL_NSIXSLTPROCESSOR
-NS_DECL_NSIXSLTPROCESSOROBSOLETE
 NS_DECL_NSIXSLTPROCESSORPRIVATE
 NS_IMETHOD
 Init
@@ -310,9 +300,6 @@ mSource
 nsresult
 TransformToDoc
 (
-nsIDOMDocument
-*
-aOutputDoc
 nsIDOMDocument
 *
 *
