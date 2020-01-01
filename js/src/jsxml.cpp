@@ -18474,6 +18474,9 @@ switch
 (
 vxml
 ?
+(
+JSXMLClass
+)
 vxml
 -
 >

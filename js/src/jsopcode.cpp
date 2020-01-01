@@ -48,13 +48,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jsarena
 .
 h
@@ -4735,6 +4728,9 @@ op
 JSOP_GETPROP2
 )
 ?
+(
+jsbytecode
+)
 JSOP_GETPROP
 :
 (
@@ -4744,6 +4740,9 @@ op
 JSOP_GETELEM2
 )
 ?
+(
+jsbytecode
+)
 JSOP_GETELEM
 :
 (
