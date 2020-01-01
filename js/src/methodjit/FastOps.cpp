@@ -5536,10 +5536,6 @@ uint32
 slot
 )
 {
-updateVarType
-(
-)
-;
 types
 :
 :
@@ -5711,6 +5707,10 @@ pop
 )
 ;
 }
+updateVarType
+(
+)
+;
 return
 true
 ;
@@ -5730,10 +5730,6 @@ uint32
 slot
 )
 {
-updateVarType
-(
-)
-;
 types
 :
 :
@@ -5905,6 +5901,10 @@ pop
 )
 ;
 }
+updateVarType
+(
+)
+;
 return
 true
 ;
