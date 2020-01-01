@@ -222,14 +222,14 @@ COMBINING_SPACING_MARK
 ;
 extern
 const
-uint16_t
+uint8_t
 index1
 [
 ]
 ;
 extern
 const
-uint16_t
+uint8_t
 index2
 [
 ]
@@ -251,7 +251,7 @@ jschar
 code
 )
 {
-uint16_t
+size_t
 index
 =
 index1

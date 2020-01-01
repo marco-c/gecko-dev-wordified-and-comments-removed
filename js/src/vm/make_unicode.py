@@ -1912,7 +1912,7 @@ write
 (
 '
 const
-uint16_t
+uint8_t
 '
 +
 name
@@ -1947,21 +1947,17 @@ in
 data
 :
             
+assert
+entry
+<
+256
+            
 s
 =
 str
 (
 entry
 )
-            
-assert
-len
-(
-s
-)
-<
-=
-3
             
 s
 =
