@@ -2515,17 +2515,6 @@ completely
 "
 )
 ;
-nsIDocument
-*
-docNode
-=
-aDocument
--
->
-GetDocumentNode
-(
-)
-;
 printf
 (
 "
