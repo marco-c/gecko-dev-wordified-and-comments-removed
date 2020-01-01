@@ -2482,6 +2482,10 @@ nsAString
 aName
 int64_t
 aVersion
+const
+nsACString
+&
+aASCIIOrigin
 bool
 aDeleting
 JSContext
@@ -2628,7 +2632,7 @@ OpenDatabaseHelper
 (
 request
 aName
-mASCIIOrigin
+aASCIIOrigin
 aVersion
 aDeleting
 mContentParent
@@ -2700,7 +2704,7 @@ OriginOrPatternString
 :
 FromOrigin
 (
-mASCIIOrigin
+aASCIIOrigin
 )
 openHelper
 -
@@ -2735,7 +2739,7 @@ IndexedDatabaseManager
 :
 GetDatabaseId
 (
-mASCIIOrigin
+aASCIIOrigin
 aName
 )
 ;
@@ -2865,6 +2869,7 @@ OpenCommon
 (
 aName
 aVersion
+mASCIIOrigin
 false
 aCx
 getter_AddRefs
@@ -2922,6 +2927,7 @@ OpenCommon
 (
 aName
 0
+mASCIIOrigin
 true
 aCx
 getter_AddRefs

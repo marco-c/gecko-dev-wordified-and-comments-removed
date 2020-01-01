@@ -270,6 +270,10 @@ nsAString
 aName
 int64_t
 aVersion
+const
+nsACString
+&
+aASCIIOrigin
 bool
 aDeleting
 JSContext

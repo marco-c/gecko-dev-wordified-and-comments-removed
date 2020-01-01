@@ -343,6 +343,12 @@ OpenCommon
 (
 aName
 aVersion
+mFactory
+-
+>
+GetASCIIOrigin
+(
+)
 false
 nullptr
 getter_AddRefs
@@ -434,6 +440,12 @@ OpenCommon
 (
 aName
 0
+mFactory
+-
+>
+GetASCIIOrigin
+(
+)
 true
 nullptr
 getter_AddRefs
