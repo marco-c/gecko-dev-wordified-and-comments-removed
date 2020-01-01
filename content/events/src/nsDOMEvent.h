@@ -756,13 +756,7 @@ GetPreventDefault
 (
 )
 const
-{
-return
-DefaultPrevented
-(
-)
 ;
-}
 protected
 :
 void
