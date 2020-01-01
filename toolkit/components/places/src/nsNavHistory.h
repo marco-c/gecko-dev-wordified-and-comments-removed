@@ -295,6 +295,13 @@ nsNavHistoryQuery
 h
 "
 #
+include
+"
+nsICharsetResolver
+.
+h
+"
+#
 define
 LAZY_ADD
 #
@@ -396,6 +403,8 @@ public
 nsIGlobalHistory3
 public
 nsIDownloadHistory
+public
+nsICharsetResolver
 #
 ifdef
 MOZ_XUL
@@ -1141,6 +1150,7 @@ mozIStorageStatement
 >
 mDBBookmarkToUrlResult
 ;
+NS_DECL_NSICHARSETRESOLVER
 nsresult
 RecalculateFrecencies
 (
