@@ -17,6 +17,7 @@ h
 #
 ifdef
 __alpha__
+static
 fp_except_t
 allmask
 =
@@ -32,6 +33,7 @@ FP_X_IMP
 ;
 #
 else
+static
 fp_except_t
 allmask
 =
@@ -49,6 +51,7 @@ FP_X_DNML
 ;
 #
 endif
+static
 fp_except_t
 oldmask
 =
