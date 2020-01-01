@@ -1075,7 +1075,7 @@ android
 layout_width
 =
 "
-78dip
+76dip
 "
 android
 :
@@ -1130,7 +1130,7 @@ android
 paddingLeft
 =
 "
-42dip
+40dip
 "
 android
 :
