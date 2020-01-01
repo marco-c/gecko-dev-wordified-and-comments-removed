@@ -5056,6 +5056,13 @@ Element
 aElement
 )
 {
+aElement
+-
+>
+RequestLinkStateUpdate
+(
+)
+;
 nsEventStates
 state
 =
@@ -5117,6 +5124,13 @@ Element
 aElement
 )
 {
+aElement
+-
+>
+RequestLinkStateUpdate
+(
+)
+;
 nsEventStates
 state
 =

@@ -256,6 +256,12 @@ GetLinkState
 const
 ;
 virtual
+void
+RequestLinkStateUpdate
+(
+)
+;
+virtual
 already_AddRefed
 <
 nsIURI

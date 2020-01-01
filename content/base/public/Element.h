@@ -142,6 +142,12 @@ IntrinsicState
 mState
 ;
 }
+virtual
+void
+RequestLinkStateUpdate
+(
+)
+;
 protected
 :
 virtual
@@ -150,6 +156,13 @@ IntrinsicState
 (
 )
 const
+;
+void
+UpdateLinkState
+(
+nsEventStates
+aState
+)
 ;
 private
 :
