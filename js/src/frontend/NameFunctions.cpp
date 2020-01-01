@@ -1031,7 +1031,8 @@ empty
 return
 NULL
 ;
-RawAtom
+JSAtom
+*
 atom
 =
 buf

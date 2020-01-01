@@ -133,11 +133,6 @@ ForwardDeclareJS
 FlatString
 )
 ;
-ForwardDeclareJS
-(
-Atom
-)
-;
 namespace
 js
 {

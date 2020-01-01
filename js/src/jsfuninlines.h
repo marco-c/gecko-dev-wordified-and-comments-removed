@@ -95,10 +95,8 @@ JSFunction
 :
 setGuessedAtom
 (
-js
-:
-:
-RawAtom
+JSAtom
+*
 atom
 )
 {

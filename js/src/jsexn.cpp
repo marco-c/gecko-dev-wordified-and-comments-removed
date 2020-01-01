@@ -1331,7 +1331,8 @@ isNonEvalFunctionFrame
 )
 )
 {
-RawAtom
+JSAtom
+*
 atom
 =
 i
