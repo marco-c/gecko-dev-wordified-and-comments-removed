@@ -94,10 +94,10 @@ nsIContent
 class
 nsPresContext
 ;
-class
+struct
 JSContext
 ;
-class
+struct
 JSObject
 ;
 class
