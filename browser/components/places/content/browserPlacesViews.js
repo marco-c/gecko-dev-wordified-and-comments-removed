@@ -337,7 +337,7 @@ this
 _domNodes
 =
 new
-WeakMap
+Map
 (
 )
 ;

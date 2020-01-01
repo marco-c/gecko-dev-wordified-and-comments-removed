@@ -274,7 +274,7 @@ this
 _cachedLivemarkInfoObjects
 =
 new
-WeakMap
+Map
 (
 )
 ;

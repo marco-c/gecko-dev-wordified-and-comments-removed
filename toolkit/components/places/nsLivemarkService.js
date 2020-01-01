@@ -3307,7 +3307,7 @@ this
 _resultObservers
 =
 new
-WeakMap
+Map
 (
 )
 ;
@@ -3330,7 +3330,7 @@ this
 _nodes
 =
 new
-WeakMap
+Map
 (
 )
 ;
