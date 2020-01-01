@@ -102,6 +102,14 @@ aResult
 )
 const
 ;
+NS_OVERRIDE
+virtual
+PRBool
+WillReplace
+(
+)
+const
+;
 PRBool
 IsDisallowedAttribute
 (

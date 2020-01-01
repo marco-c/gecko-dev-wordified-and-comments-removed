@@ -202,6 +202,7 @@ mIsFrozen
 )
 ;
 }
+virtual
 PRBool
 WillReplace
 (
