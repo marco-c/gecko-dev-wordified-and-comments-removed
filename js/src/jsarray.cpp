@@ -2987,6 +2987,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+receiver
 jsid
 id
 Value
@@ -3338,6 +3341,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+receiver
 jsid
 id
 Value
@@ -3509,6 +3515,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+receiver
 jsid
 id
 Value
@@ -3824,6 +3833,7 @@ return
 array_setProperty
 (
 cx
+obj
 obj
 id
 &
