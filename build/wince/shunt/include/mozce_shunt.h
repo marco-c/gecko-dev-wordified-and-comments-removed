@@ -347,6 +347,16 @@ char
 filename
 )
 ;
+int
+_wchdir
+(
+const
+unsigned
+short
+*
+path
+)
+;
 struct
 tm
 ;
