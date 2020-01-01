@@ -444,6 +444,10 @@ OnInterceptTouchListener
 .
 java
 \
+PrefsHelper
+.
+java
+\
 PrivateDataPreference
 .
 java
