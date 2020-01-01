@@ -5671,7 +5671,8 @@ nsXPCComponents_ID
 ;
 private
 :
-NS_METHOD
+static
+nsresult
 CallOrConstruct
 (
 nsIXPConnectWrappedNative
@@ -6212,7 +6213,7 @@ _retval
 )
 ;
 }
-NS_METHOD
+nsresult
 nsXPCComponents_ID
 :
 :
@@ -6495,7 +6496,8 @@ nsXPCComponents_Exception
 ;
 private
 :
-NS_METHOD
+static
+nsresult
 CallOrConstruct
 (
 nsIXPConnectWrappedNative
@@ -7036,7 +7038,7 @@ _retval
 )
 ;
 }
-NS_METHOD
+nsresult
 nsXPCComponents_Exception
 :
 :
@@ -7632,7 +7634,7 @@ nsXPCConstructor
 ;
 private
 :
-NS_METHOD
+nsresult
 CallOrConstruct
 (
 nsIXPConnectWrappedNative
@@ -8321,7 +8323,7 @@ _retval
 )
 ;
 }
-NS_METHOD
+nsresult
 nsXPCConstructor
 :
 :
@@ -8664,7 +8666,8 @@ nsXPCComponents_Constructor
 ;
 private
 :
-NS_METHOD
+static
+nsresult
 CallOrConstruct
 (
 nsIXPConnectWrappedNative
@@ -9205,7 +9208,7 @@ _retval
 )
 ;
 }
-NS_METHOD
+nsresult
 nsXPCComponents_Constructor
 :
 :
@@ -10115,7 +10118,8 @@ nsXPCComponents_utils_Sandbox
 ;
 private
 :
-NS_METHOD
+static
+nsresult
 CallOrConstruct
 (
 nsIXPConnectWrappedNative
@@ -12699,7 +12703,7 @@ _retval
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsXPCComponents_utils_Sandbox
 :
 :
