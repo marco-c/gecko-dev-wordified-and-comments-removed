@@ -411,7 +411,7 @@ enum
 {
 MAX_HEIGHT
 =
-64
+128
 }
 ;
 PropertyTree
