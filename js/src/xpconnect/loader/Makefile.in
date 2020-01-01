@@ -449,6 +449,11 @@ cpp
 mozJSSubScriptLoader
 .
 cpp
+EXTRA_PP_COMPONENTS
+=
+XPCOMUtils
+.
+jsm
 include
 (
 topsrcdir

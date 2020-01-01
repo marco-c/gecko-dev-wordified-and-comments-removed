@@ -454,6 +454,12 @@ DIRS
 =
 components
 endif
+ifdef
+ENABLE_TESTS
+XPCSHELL_TESTS
+=
+unit
+endif
 CPPSRCS
 =
 TestXPC
