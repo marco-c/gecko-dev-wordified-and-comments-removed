@@ -1015,6 +1015,9 @@ using
 namespace
 mozilla
 ;
+#
+ifdef
+MOZ_IPC
 using
 namespace
 mozilla
@@ -1022,6 +1025,8 @@ mozilla
 :
 plugins
 ;
+#
+endif
 using
 namespace
 mozilla
