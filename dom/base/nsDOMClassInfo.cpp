@@ -17299,12 +17299,6 @@ mode_type
 =
 =
 JSACC_PROTO
-|
-|
-mode_type
-=
-=
-JSACC_PARENT
 )
 &
 &
