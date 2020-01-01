@@ -372,6 +372,9 @@ status
 struct
 WakeLockInformation
 {
+nsString
+topic
+;
 uint32_t
 numLocks
 ;
@@ -382,9 +385,6 @@ uint64_t
 [
 ]
 lockingProcesses
-;
-nsString
-topic
 ;
 }
 ;
