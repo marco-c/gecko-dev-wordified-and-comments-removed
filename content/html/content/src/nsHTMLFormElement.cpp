@@ -2979,7 +2979,8 @@ nsAutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 mSubmitInitiatedFromUserInput
-PR_FALSE
+nsnull
+doc
 )
 ;
 nsCOMPtr

@@ -10388,7 +10388,13 @@ nsAutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 mUserInput
-PR_FALSE
+nsnull
+shell
+-
+>
+GetDocument
+(
+)
 )
 ;
 nsContentUtils
