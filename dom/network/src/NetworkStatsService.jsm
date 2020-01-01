@@ -502,6 +502,9 @@ new
 NetworkStatsDB
 (
 myGlobal
+this
+.
+_connectionTypes
 )
 ;
 this
