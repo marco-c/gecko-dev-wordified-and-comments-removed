@@ -865,6 +865,8 @@ from
 "
 VideoCaptureMacQTKitInfo
 "
+deviceNameUTF8
+iDeviceUniqueIdUTF8
 )
 ;
 return
