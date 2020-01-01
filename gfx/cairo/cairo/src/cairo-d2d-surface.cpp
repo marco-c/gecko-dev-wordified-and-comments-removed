@@ -8123,6 +8123,13 @@ Release
 (
 )
 ;
+d2dpath
+-
+>
+Release
+(
+)
+;
 return
 CAIRO_INT_STATUS_UNSUPPORTED
 ;
