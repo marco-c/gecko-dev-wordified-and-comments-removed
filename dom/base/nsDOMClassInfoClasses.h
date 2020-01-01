@@ -153,10 +153,6 @@ SVGNumber
 )
 DOMCI_CLASS
 (
-MozCanvasPrintState
-)
-DOMCI_CLASS
-(
 WindowUtils
 )
 DOMCI_CLASS
