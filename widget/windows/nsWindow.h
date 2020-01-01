@@ -2084,6 +2084,13 @@ LPARAM
 lParam
 )
 ;
+UINT
+MapFromNativeToDOM
+(
+UINT
+aNativeKeyCode
+)
+;
 void
 StopFlashing
 (
@@ -2227,6 +2234,9 @@ mPopupType
 ;
 nsSizeMode
 mOldSizeMode
+;
+nsSizeMode
+mLastSizeMode
 ;
 WindowHook
 mWindowHook
