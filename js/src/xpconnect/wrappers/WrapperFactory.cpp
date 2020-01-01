@@ -976,7 +976,7 @@ proxy
 dom
 :
 :
-instanceIsDOMProxy
+instanceIsProxy
 (
 obj
 )

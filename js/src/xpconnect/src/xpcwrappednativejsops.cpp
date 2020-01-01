@@ -12,6 +12,13 @@ XPCWrapper
 .
 h
 "
+#
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
 static
 JSBool
 Throw

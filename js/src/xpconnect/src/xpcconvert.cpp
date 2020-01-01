@@ -69,6 +69,13 @@ dombindings
 h
 "
 #
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
+#
 ifdef
 STRICT_CHECK_OF_UNICODE
 #

@@ -1221,6 +1221,13 @@ nsLocation
 h
 "
 #
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 static

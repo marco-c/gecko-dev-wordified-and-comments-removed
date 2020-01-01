@@ -166,7 +166,8 @@ virtual
 nsDOMEventTargetWrapperCache
 (
 )
-;
+{
+}
 }
 ;
 #
