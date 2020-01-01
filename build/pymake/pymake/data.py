@@ -27,6 +27,26 @@ from
 cStringIO
 import
 StringIO
+if
+sys
+.
+version_info
+[
+0
+]
+<
+3
+:
+    
+str_type
+=
+basestring
+else
+:
+    
+str_type
+=
+str
 _log
 =
 logging
@@ -785,7 +805,7 @@ assert
 isinstance
 (
 s
-str
+str_type
 )
         
 self
@@ -1259,7 +1279,7 @@ assert
 isinstance
 (
 s
-str
+str_type
 )
         
 if
@@ -1799,7 +1819,7 @@ assert
 isinstance
 (
 e
-str
+str_type
 )
                 
 fd
@@ -2840,7 +2860,7 @@ assert
 isinstance
 (
 value
-str
+str_type
 )
 "
 expected
@@ -2954,7 +2974,7 @@ assert
 isinstance
 (
 value
-str
+str_type
 )
         
 if
@@ -3979,7 +3999,7 @@ assert
 isinstance
 (
 replacement
-str
+str_type
 )
         
 stem
@@ -6112,7 +6132,7 @@ assert
 isinstance
 (
 target
-str
+str_type
 )
         
 self
@@ -11369,7 +11389,7 @@ assert
 isinstance
 (
 target
-str
+str_type
 )
         
 target
