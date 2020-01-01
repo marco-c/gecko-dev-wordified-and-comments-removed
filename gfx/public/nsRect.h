@@ -901,7 +901,6 @@ nsRect
 &
 ScaleRoundOut
 (
-const
 float
 aScale
 )
@@ -910,7 +909,14 @@ nsRect
 &
 ScaleRoundIn
 (
-const
+float
+aScale
+)
+;
+nsRect
+&
+ScaleRoundPreservingCenters
+(
 float
 aScale
 )
