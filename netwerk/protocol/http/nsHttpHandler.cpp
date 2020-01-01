@@ -3004,9 +3004,10 @@ service
 ;
 bool
 isTablet
-=
-false
 ;
+nsresult
+rv
+=
 infoService
 -
 >
@@ -3024,6 +3025,12 @@ isTablet
 ;
 if
 (
+NS_SUCCEEDED
+(
+rv
+)
+&
+&
 isTablet
 )
 mCompatDevice
