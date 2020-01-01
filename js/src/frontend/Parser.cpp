@@ -11898,6 +11898,10 @@ tokenStream
 .
 getToken
 (
+TokenStream
+:
+:
+KeywordIsName
 )
 ;
 if
@@ -12088,6 +12092,10 @@ tokenStream
 .
 getToken
 (
+TokenStream
+:
+:
+KeywordIsName
 )
 ;
 if

@@ -488,7 +488,7 @@ obj
 delete
 :
 function
-delete_
+delete
 (
 )
 {
@@ -2514,7 +2514,7 @@ failed
 delete
 :
 function
-delete_
+delete
 (
 options
 )

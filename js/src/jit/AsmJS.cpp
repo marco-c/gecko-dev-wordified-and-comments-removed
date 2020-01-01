@@ -27776,6 +27776,10 @@ tokenStream
 .
 getToken
 (
+TokenStream
+:
+:
+KeywordIsName
 )
 !
 =
