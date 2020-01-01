@@ -381,6 +381,17 @@ uint32
 index
 )
 ;
+void
+JS_FASTCALL
+SetProp
+(
+VMFrame
+&
+f
+uint32
+index
+)
+;
 }
 }
 }
