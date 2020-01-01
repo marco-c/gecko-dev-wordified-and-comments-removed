@@ -4581,7 +4581,7 @@ aPresContext
 nsGkAtoms
 :
 :
-overflowList
+overflowProperty
 )
 ;
 if
