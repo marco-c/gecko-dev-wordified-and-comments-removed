@@ -641,6 +641,12 @@ providers
 0
 ]
 ;
+currentProvider
+.
+active
+=
+true
+;
 }
 }
 catch
