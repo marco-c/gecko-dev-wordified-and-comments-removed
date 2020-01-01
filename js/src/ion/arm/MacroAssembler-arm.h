@@ -3066,7 +3066,10 @@ imm
 ma_b
 (
 label
+InvertCondition
+(
 cond
+)
 )
 ;
 }
@@ -3086,8 +3089,8 @@ label
 {
 ma_cmp
 (
-lhs
 rhs
+lhs
 )
 ;
 ma_b
@@ -3119,8 +3122,8 @@ ScratchRegister
 ;
 ma_cmp
 (
-lhs
 ScratchRegister
+lhs
 )
 ;
 ma_b
@@ -3158,7 +3161,10 @@ value
 ma_b
 (
 label
+InvertCondition
+(
 cond
+)
 )
 ;
 }
