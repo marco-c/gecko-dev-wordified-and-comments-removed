@@ -53,10 +53,6 @@ fragEntry
 (
 NULL
 )
-loopEntry
-(
-NULL
-)
 vmprivate
 (
 NULL

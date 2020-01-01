@@ -11873,12 +11873,6 @@ regMap
 alloc
 )
 ;
-NInsList
-loopJumps
-(
-alloc
-)
-;
 assm
 -
 >
@@ -11973,7 +11967,6 @@ assm
 assemble
 (
 frag
-loopJumps
 )
 ;
 verbose_only
@@ -12049,7 +12042,6 @@ assm
 endAssembly
 (
 frag
-loopJumps
 )
 ;
 verbose_only
@@ -12206,7 +12198,6 @@ error
 (
 )
 )
-{
 frag
 -
 >
@@ -12214,14 +12205,6 @@ fragEntry
 =
 0
 ;
-frag
--
->
-loopEntry
-=
-0
-;
-}
 verbose_only
 (
 if

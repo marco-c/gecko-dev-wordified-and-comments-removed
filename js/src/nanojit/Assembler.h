@@ -423,9 +423,6 @@ assemble
 Fragment
 *
 frag
-NInsList
-&
-loopJumps
 )
 ;
 void
@@ -434,9 +431,6 @@ endAssembly
 Fragment
 *
 frag
-NInsList
-&
-loopJumps
 )
 ;
 void
@@ -560,9 +554,6 @@ gen
 LirFilter
 *
 toCompile
-NInsList
-&
-loopJumps
 LabelStateMap
 &
 labels
