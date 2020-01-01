@@ -2014,7 +2014,7 @@ expandArgumentsForLog
 arguments
 )
 ;
-var
+let
 stack
 =
 Error
@@ -2038,8 +2038,8 @@ n
 \
 n
 /
-'
-'
+"
+"
 )
 ;
 if
@@ -2071,8 +2071,8 @@ replace
 \
 n
 /
-'
-'
+"
+"
 )
 ;
 this
@@ -2225,8 +2225,8 @@ n
 \
 n
 /
-'
-'
+"
+"
 )
 ;
 throw
@@ -2747,7 +2747,7 @@ obj
 {
 for
 (
-var
+let
 name
 in
 obj
