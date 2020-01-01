@@ -133,6 +133,13 @@ std
 :
 :
 string
+gCACertificateFile
+;
+extern
+std
+:
+:
+string
 gSendURL
 ;
 extern
