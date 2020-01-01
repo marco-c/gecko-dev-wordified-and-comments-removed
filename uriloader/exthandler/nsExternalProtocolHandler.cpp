@@ -762,7 +762,7 @@ nsExtProtocolChannel
 :
 GetContentLength
 (
-PRInt32
+PRInt64
 *
 aContentLength
 )
@@ -783,7 +783,7 @@ nsExtProtocolChannel
 :
 SetContentLength
 (
-PRInt32
+PRInt64
 aContentLength
 )
 {

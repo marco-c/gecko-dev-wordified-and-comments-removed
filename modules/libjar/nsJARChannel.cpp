@@ -298,7 +298,7 @@ mJarReader
 )
 ;
 }
-PRInt32
+PRInt64
 GetContentLength
 (
 )
@@ -344,7 +344,7 @@ mJarStream
 nsCString
 mJarEntry
 ;
-PRInt32
+PRInt64
 mContentLength
 ;
 }
@@ -514,6 +514,9 @@ return
 rv
 ;
 }
+PRUint32
+contentLength
+;
 rv
 =
 mJarStream
@@ -521,12 +524,8 @@ mJarStream
 >
 Available
 (
-(
-PRUint32
-*
-)
 &
-mContentLength
+contentLength
 )
 ;
 if
@@ -538,6 +537,10 @@ rv
 )
 return
 rv
+;
+mContentLength
+=
+contentLength
 ;
 return
 NS_OK
@@ -2199,7 +2202,7 @@ nsJARChannel
 :
 GetContentLength
 (
-PRInt32
+PRInt64
 *
 result
 )
@@ -2237,7 +2240,7 @@ nsJARChannel
 :
 SetContentLength
 (
-PRInt32
+PRInt64
 aContentLength
 )
 {
@@ -3390,10 +3393,7 @@ offset
 +
 count
 )
-PRUint64
-(
 mContentLength
-)
 )
 ;
 return

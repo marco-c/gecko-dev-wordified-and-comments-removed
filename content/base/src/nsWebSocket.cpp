@@ -10030,14 +10030,14 @@ value
 NOT_IMPLEMENTED_IF_FUNC_1
 (
 GetContentLength
-PRInt32
+PRInt64
 *
 value
 )
 NOT_IMPLEMENTED_IF_FUNC_1
 (
 SetContentLength
-PRInt32
+PRInt64
 value
 )
 NOT_IMPLEMENTED_IF_FUNC_1

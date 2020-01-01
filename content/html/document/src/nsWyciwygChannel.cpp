@@ -720,7 +720,7 @@ nsWyciwygChannel
 :
 GetContentLength
 (
-PRInt32
+PRInt64
 *
 aContentLength
 )
@@ -735,7 +735,7 @@ nsWyciwygChannel
 :
 SetContentLength
 (
-PRInt32
+PRInt64
 aContentLength
 )
 {
@@ -1724,10 +1724,7 @@ offset
 +
 count
 )
-PRUint64
-(
 mContentLength
-)
 )
 ;
 return

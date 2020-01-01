@@ -456,7 +456,7 @@ aContentCharset
 NS_IMETHOD
 GetContentLength
 (
-PRInt32
+PRInt64
 *
 aContentLength
 )
@@ -464,7 +464,7 @@ aContentLength
 NS_IMETHOD
 SetContentLength
 (
-PRInt32
+PRInt64
 aContentLength
 )
 ;

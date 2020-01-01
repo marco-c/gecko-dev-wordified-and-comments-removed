@@ -1065,7 +1065,7 @@ nsViewSourceChannel
 :
 GetContentLength
 (
-PRInt32
+PRInt64
 *
 aContentLength
 )
@@ -1092,7 +1092,7 @@ nsViewSourceChannel
 :
 SetContentLength
 (
-PRInt32
+PRInt64
 aContentLength
 )
 {

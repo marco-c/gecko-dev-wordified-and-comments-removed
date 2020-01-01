@@ -3372,7 +3372,7 @@ nsJSChannel
 :
 GetContentLength
 (
-PRInt32
+PRInt64
 *
 aContentLength
 )
@@ -3393,7 +3393,7 @@ nsJSChannel
 :
 SetContentLength
 (
-PRInt32
+PRInt64
 aContentLength
 )
 {

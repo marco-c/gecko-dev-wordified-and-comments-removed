@@ -130,7 +130,7 @@ nsIURI
 >
 mOriginalURI
 ;
-PRInt32
+PRInt64
 mContentLength
 ;
 nsCOMPtr
