@@ -101,6 +101,14 @@ test_bug391728
 .
 html
 \
+blockPluginHard
+.
+xml
+\
+blockNoPlugins
+.
+xml
+\
 file_bug391728
 .
 html

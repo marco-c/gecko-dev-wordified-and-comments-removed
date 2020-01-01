@@ -1408,6 +1408,10 @@ blockNoPlugins
 .
 xml
 \
+blockPluginHard
+.
+xml
+\
 browser_utilityOverlay
 .
 js
