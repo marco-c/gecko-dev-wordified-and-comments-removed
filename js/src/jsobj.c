@@ -5565,7 +5565,7 @@ indirectCall
 |
 OBJ_GET_PARENT
 (
-c
+cx
 obj
 )
 )
