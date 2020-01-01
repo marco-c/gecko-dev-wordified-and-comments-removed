@@ -245,6 +245,12 @@ enabled
 gEnableRemote
 )
 ;
+DebuggerServer
+.
+destroy
+(
+)
+;
 }
 )
 ;

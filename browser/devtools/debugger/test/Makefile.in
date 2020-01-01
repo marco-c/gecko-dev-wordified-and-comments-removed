@@ -131,15 +131,9 @@ browser_dbg_tabactor
 .
 js
 \
-browser_dbg_contextactor
+browser_dbg_globalactor
 -
 01
-.
-js
-\
-browser_dbg_contextactor
--
-02
 .
 js
 \

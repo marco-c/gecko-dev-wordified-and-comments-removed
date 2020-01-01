@@ -1945,12 +1945,6 @@ addBrowserActors
 }
 DebuggerServer
 .
-closeListener
-(
-)
-;
-DebuggerServer
-.
 openListener
 (
 DebuggerPreferences
@@ -2086,6 +2080,7 @@ DebuggerServer
 .
 closeListener
 (
+true
 )
 ;
 Services
