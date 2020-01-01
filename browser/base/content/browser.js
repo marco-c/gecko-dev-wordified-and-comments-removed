@@ -1865,13 +1865,6 @@ function
 )
 {
 }
-onFolderChanged
-:
-function
-(
-)
-{
-}
 }
 ;
 function

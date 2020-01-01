@@ -570,15 +570,6 @@ newIndex
 )
 {
 }
-onFolderChanged
-:
-function
-(
-folder
-property
-)
-{
-}
 /
 /
 nsIAnnotationObserver

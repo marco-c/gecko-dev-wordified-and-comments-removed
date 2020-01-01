@@ -626,15 +626,6 @@ newIndex
 )
 {
 }
-onFolderChanged
-:
-function
-(
-folder
-property
-)
-{
-}
 }
 ;
 bmsvc
