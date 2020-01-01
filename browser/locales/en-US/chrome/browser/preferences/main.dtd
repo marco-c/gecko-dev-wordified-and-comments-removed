@@ -79,7 +79,7 @@ time
 <
 !
 ENTITY
-location
+homepage
 .
 label
 "
@@ -91,11 +91,11 @@ Page
 <
 !
 ENTITY
-location
+homepage
 .
 accesskey
 "
-H
+P
 "
 >
 <
