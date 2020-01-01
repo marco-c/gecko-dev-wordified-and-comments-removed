@@ -610,15 +610,6 @@ _max_pages
 uint32_t
 _pagesGrowth
 ;
-#
-ifdef
-_DEBUG
-static
-bool
-_firstFragmentoCreated
-;
-#
-endif
 }
 ;
 enum
