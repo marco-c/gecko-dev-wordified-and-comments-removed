@@ -1246,9 +1246,8 @@ aArgv
 ]
 )
 ;
-profiler_init
-(
-)
+GeckoProfilerInitRAII
+profilerGuard
 ;
 PROFILER_LABEL
 (
