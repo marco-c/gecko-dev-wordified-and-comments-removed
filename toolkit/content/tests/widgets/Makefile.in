@@ -535,6 +535,10 @@ test_timepicker
 .
 xul
 \
+test_textbox_number
+.
+xul
+\
 xul_selectcontrol
 .
 js
