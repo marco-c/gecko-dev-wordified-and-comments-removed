@@ -1420,7 +1420,7 @@ snapshot
 JS_ASSERT
 (
 !
-snapshot_
+postSnapshot_
 )
 ;
 postSnapshot_
