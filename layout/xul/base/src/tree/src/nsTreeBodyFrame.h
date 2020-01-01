@@ -1318,6 +1318,15 @@ FireScrollEvent
 (
 )
 ;
+void
+FireRowCountChangedEvent
+(
+PRInt32
+aIndex
+PRInt32
+aCount
+)
+;
 protected
 :
 nsCOMPtr

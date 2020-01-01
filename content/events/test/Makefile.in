@@ -455,6 +455,10 @@ test_bug367781
 .
 html
 \
+test_bug368835
+.
+html
+\
 test_bug379120
 .
 html

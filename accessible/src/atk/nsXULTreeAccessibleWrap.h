@@ -60,6 +60,8 @@ PRInt32
 _retval
 )
 ;
+protected
+:
 NS_IMETHOD
 ChangeSelection
 (

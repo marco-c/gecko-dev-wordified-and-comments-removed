@@ -477,6 +477,10 @@ nsIDOMNSEvent
 .
 idl
 \
+nsIDOMDataContainerEvent
+.
+idl
+\
 nsIDOMKeyEvent
 .
 idl

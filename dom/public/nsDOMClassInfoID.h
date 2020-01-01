@@ -326,6 +326,7 @@ eDOMClassInfo_FileList_id
 eDOMClassInfo_File_id
 eDOMClassInfo_FileException_id
 eDOMClassInfo_ModalContentWindow_id
+eDOMClassInfo_DataContainerEvent_id
 eDOMClassInfoIDCount
 }
 ;
