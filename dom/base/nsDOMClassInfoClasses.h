@@ -376,10 +376,6 @@ SVGFEOffsetElement
 )
 DOMCI_CLASS
 (
-SVGFEPointLightElement
-)
-DOMCI_CLASS
-(
 SVGFESpecularLightingElement
 )
 DOMCI_CLASS
