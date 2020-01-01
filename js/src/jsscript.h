@@ -141,12 +141,6 @@ regexpsOffset
 uint8
 trynotesOffset
 ;
-uint8
-loopHeaders
-;
-uint32
-loopBase
-;
 jsbytecode
 *
 main
@@ -733,8 +727,6 @@ uint32
 nobjects
 uint32
 nregexps
-uint32
-nloops
 )
 ;
 extern
