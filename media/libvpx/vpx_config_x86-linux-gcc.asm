@@ -102,7 +102,7 @@ equ
 0
 CONFIG_PIC
 equ
-0
+1
 CONFIG_BIG_ENDIAN
 equ
 0

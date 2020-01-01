@@ -230,6 +230,7 @@ h
 Bitmap
 .
 h
+bitset
 blapi
 .
 h
@@ -358,6 +359,7 @@ endif
 dfiff
 .
 h
+exception
 ffi
 .
 h
@@ -761,6 +763,7 @@ h
 crypt
 .
 h
+cstddef
 cstdio
 cstdlib
 cstring
@@ -2001,6 +2004,11 @@ ole2
 .
 h
 oleidl
+.
+h
+OpenGL
+/
+OpenGL
 .
 h
 OpenTptInternet
