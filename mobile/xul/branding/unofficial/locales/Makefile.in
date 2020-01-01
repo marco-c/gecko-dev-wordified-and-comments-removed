@@ -67,13 +67,7 @@ VPATH
 srcdir
 relativesrcdir
 =
-mobile
-/
-branding
-/
-unofficial
-/
-locales
+relativesrcdir
 include
 (
 DEPTH

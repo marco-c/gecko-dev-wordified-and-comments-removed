@@ -67,12 +67,7 @@ VPATH
 srcdir
 relativesrcdir
 =
-dom
-/
-devicestorage
-/
-test
-/
+relativesrcdir
 include
 (
 DEPTH
