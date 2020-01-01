@@ -1049,6 +1049,7 @@ aEvent
 PRInt32
 mEnumVARIANTPosition
 ;
+static
 ITypeInfo
 *
 GetTI
@@ -1057,9 +1058,10 @@ LCID
 lcid
 )
 ;
+static
 ITypeInfo
 *
-mTypeInfo
+gTypeInfo
 ;
 enum
 navRelations
