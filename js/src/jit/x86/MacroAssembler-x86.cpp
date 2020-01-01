@@ -524,6 +524,16 @@ FloatRegister
 dest
 )
 {
+if
+(
+maybeInlineFloat
+(
+f
+dest
+)
+)
+return
+;
 Float
 *
 flt
