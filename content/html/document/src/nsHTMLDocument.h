@@ -1561,6 +1561,9 @@ sPasteInternal_id
 bool
 mDisableCookieAccess
 ;
+bool
+mPendingMaybeEditingStateChanged
+;
 }
 ;
 #
