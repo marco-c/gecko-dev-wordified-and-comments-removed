@@ -1249,7 +1249,7 @@ aNodeToKeepIsFirst
 )
 ;
 static
-nsresult
+PRInt32
 GetChildOffset
 (
 nsIDOMNode
@@ -1258,9 +1258,6 @@ aChild
 nsIDOMNode
 *
 aParent
-PRInt32
-&
-aOffset
 )
 ;
 static
