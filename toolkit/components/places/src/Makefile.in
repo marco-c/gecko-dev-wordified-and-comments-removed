@@ -488,6 +488,10 @@ SQLFunctions
 .
 cpp
 \
+Helpers
+.
+cpp
+\
 (
 NULL
 )
