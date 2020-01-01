@@ -348,6 +348,12 @@ gfxProxyFontEntry
 >
 mFontEntry
 ;
+nsRefPtr
+<
+gfxFontFamily
+>
+mFontFamily
+;
 nsCOMPtr
 <
 nsIURI

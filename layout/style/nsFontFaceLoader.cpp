@@ -283,6 +283,15 @@ mChannel
 aChannel
 )
 {
+mFontFamily
+=
+aProxy
+-
+>
+Family
+(
+)
+;
 }
 nsFontFaceLoader
 :
