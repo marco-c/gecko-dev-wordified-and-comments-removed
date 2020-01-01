@@ -9640,9 +9640,7 @@ cache
 null
 _activeType
 :
-this
-.
-TYPE_NONE
+0
 get
 _view
 (
