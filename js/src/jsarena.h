@@ -65,7 +65,7 @@ JSArena
 current
 ;
 size_t
-netsize
+arenasize
 ;
 jsuword
 mask
