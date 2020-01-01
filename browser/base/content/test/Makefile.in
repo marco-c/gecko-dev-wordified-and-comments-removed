@@ -467,6 +467,10 @@ image
 .
 png
 \
+video
+.
+ogg
+\
 test_offlineNotification
 .
 html
