@@ -13,6 +13,9 @@ jsapi
 h
 "
 class
+nsIPrincipal
+;
+class
 XPCNativeWrapper
 {
 public
@@ -40,9 +43,9 @@ cx
 XPCWrappedNative
 *
 wrapper
-JSObject
+nsIPrincipal
 *
-callee
+aObjectPrincipal
 )
 ;
 static
