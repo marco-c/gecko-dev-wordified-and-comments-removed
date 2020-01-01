@@ -214,6 +214,15 @@ Win_Downloads
 Win_Common_AppData
 =
 231
+Win_Pictures
+=
+232
+Win_Music
+=
+233
+Win_Videos
+=
+234
 Unix_LocalDirectory
 =
 301
