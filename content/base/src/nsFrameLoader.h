@@ -841,6 +841,13 @@ aContainerDoc
 )
 const
 ;
+void
+ApplySandboxFlags
+(
+uint32_t
+sandboxFlags
+)
+;
 private
 :
 void
