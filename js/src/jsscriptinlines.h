@@ -7,6 +7,13 @@ jsscriptinlines_h
 #
 include
 "
+jsscript
+.
+h
+"
+#
+include
+"
 jsautooplen
 .
 h
@@ -29,13 +36,6 @@ h
 include
 "
 jsopcode
-.
-h
-"
-#
-include
-"
-jsscript
 .
 h
 "

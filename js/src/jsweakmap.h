@@ -14,14 +14,14 @@ h
 #
 include
 "
-jsfriendapi
+jscompartment
 .
 h
 "
 #
 include
 "
-jscompartment
+jsfriendapi
 .
 h
 "
