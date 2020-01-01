@@ -447,6 +447,7 @@ org
 AB_CD
 /
 mobile
+/
 "
 "
 icon
@@ -644,7 +645,7 @@ uri
 "
 :
 "
-https
+http
 :
 /
 /
