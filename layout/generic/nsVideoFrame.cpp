@@ -2272,6 +2272,11 @@ nsGkAtoms
 :
 :
 poster
+&
+&
+HasVideoElement
+(
+)
 )
 {
 nsresult
