@@ -832,6 +832,10 @@ browser_webconsole_bug_646025_console_file_location
 .
 js
 \
+browser_webconsole_position_ui
+.
+js
+\
 head
 .
 js
