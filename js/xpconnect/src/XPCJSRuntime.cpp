@@ -2182,7 +2182,13 @@ virtual
 void
 Trace
 (
+JS
+:
+:
+Heap
+<
 jsid
+>
 *
 p
 const
@@ -2196,7 +2202,7 @@ closure
 const
 MOZ_OVERRIDE
 {
-JS_CallIdTracer
+JS_CallHeapIdTracer
 (
 static_cast
 <
@@ -2249,8 +2255,14 @@ virtual
 void
 Trace
 (
+JS
+:
+:
+Heap
+<
 JSString
 *
+>
 *
 p
 const
@@ -2264,7 +2276,7 @@ closure
 const
 MOZ_OVERRIDE
 {
-JS_CallStringTracer
+JS_CallHeapStringTracer
 (
 static_cast
 <

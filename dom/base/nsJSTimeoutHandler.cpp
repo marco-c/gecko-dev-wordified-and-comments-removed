@@ -304,8 +304,14 @@ Value
 >
 mArgs
 ;
-JSFlatString
+JS
+:
+:
+Heap
+<
+JSString
 *
+>
 mExpr
 ;
 nsRefPtr
@@ -1281,7 +1287,10 @@ nsJSScriptTimeoutHandler
 ;
 mExpr
 =
+JS_FORGET_STRING_FLATNESS
+(
 expr
+)
 ;
 const
 char
@@ -1473,7 +1482,10 @@ return
 :
 JS_GetFlatStringChars
 (
+JS_ASSERT_STRING_IS_FLAT
+(
 mExpr
+)
 )
 ;
 }
