@@ -120,11 +120,6 @@ cpp
 NULL
 )
 endif
-DEFINES
-+
-=
--
-D_IMPL_NS_GFX
 FORCE_STATIC_LIB
 =
 1
