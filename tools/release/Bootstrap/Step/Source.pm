@@ -82,7 +82,7 @@ Bootstrap
 Util
 qw
 (
-SyncNightlyDirToStaging
+SyncToStaging
 )
 ;
 ISA
@@ -916,7 +916,7 @@ stageDir
 )
 )
 ;
-SyncNightlyDirToStaging
+SyncToStaging
 (
 )
 ;

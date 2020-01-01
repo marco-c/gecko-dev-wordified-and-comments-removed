@@ -47,7 +47,7 @@ Util
 qw
 (
 CvsCatfile
-SyncNightlyDirToStaging
+SyncToStaging
 )
 ;
 ISA
@@ -1188,7 +1188,7 @@ logFile
 pushLog
 )
 ;
-SyncNightlyDirToStaging
+SyncToStaging
 (
 )
 ;

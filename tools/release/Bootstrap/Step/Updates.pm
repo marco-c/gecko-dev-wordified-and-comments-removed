@@ -48,7 +48,7 @@ Util
 qw
 (
 CvsCatfile
-SyncNightlyDirToStaging
+SyncToStaging
 GetLocaleManifest
 )
 ;
@@ -3430,7 +3430,7 @@ pushLog
 )
 ;
 }
-SyncNightlyDirToStaging
+SyncToStaging
 (
 )
 ;

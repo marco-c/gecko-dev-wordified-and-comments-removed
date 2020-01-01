@@ -39,7 +39,7 @@ Bootstrap
 Util
 qw
 (
-SyncNightlyDirToStaging
+SyncToStaging
 )
 ;
 ISA
@@ -226,7 +226,7 @@ dir
 sub
 Push
 {
-SyncNightlyDirToStaging
+SyncToStaging
 (
 )
 ;
