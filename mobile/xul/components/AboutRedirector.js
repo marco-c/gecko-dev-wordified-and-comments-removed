@@ -651,8 +651,7 @@ AboutHome
 AboutBlocked
 ]
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

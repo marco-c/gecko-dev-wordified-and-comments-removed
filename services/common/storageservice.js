@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -148,10 +147,6 @@ storageservice
 "
 )
 ;
-this
-.
-BasicStorageObject
-=
 function
 BasicStorageObject
 (
@@ -717,10 +712,6 @@ payload
 }
 }
 ;
-this
-.
-StorageServiceRequestError
-=
 function
 StorageServiceRequestError
 (
@@ -4233,10 +4224,6 @@ StorageCollectionBatchedDelete
 prototype
 )
 ;
-this
-.
-StorageServiceClient
-=
 function
 StorageServiceClient
 (

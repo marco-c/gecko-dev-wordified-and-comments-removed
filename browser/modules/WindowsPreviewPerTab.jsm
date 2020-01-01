@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -2712,8 +2711,7 @@ img
 ;
 }
 }
-this
-.
+var
 AeroPeek
 =
 {

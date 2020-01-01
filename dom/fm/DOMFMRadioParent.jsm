@@ -304,8 +304,7 @@ nsISettingsService
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -314,8 +313,7 @@ DOMFMRadioParent
 "
 ]
 ;
-this
-.
+let
 DOMFMRadioParent
 =
 {

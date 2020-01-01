@@ -90,8 +90,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -120,8 +119,7 @@ MAX_HEIGHT
 =
 10000
 ;
-this
-.
+let
 ResponsiveUIManager
 =
 {

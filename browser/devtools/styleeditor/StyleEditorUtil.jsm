@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -109,10 +108,6 @@ createBundle
 PROPERTIES_URL
 )
 ;
-this
-.
-_
-=
 function
 _
 (
@@ -166,10 +161,6 @@ length
 )
 ;
 }
-this
-.
-assert
-=
 function
 assert
 (
@@ -222,10 +213,6 @@ return
 aExpression
 ;
 }
-this
-.
-text
-=
 function
 text
 (
@@ -316,10 +303,6 @@ key
 }
 }
 }
-this
-.
-log
-=
 function
 log
 (
@@ -348,10 +331,6 @@ join
 )
 ;
 }
-this
-.
-wire
-=
 function
 wire
 (

@@ -1864,8 +1864,7 @@ component
 LoginManagerPrompter
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

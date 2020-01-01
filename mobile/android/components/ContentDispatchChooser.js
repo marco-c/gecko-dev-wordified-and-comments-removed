@@ -214,8 +214,7 @@ aWindowContext
 }
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

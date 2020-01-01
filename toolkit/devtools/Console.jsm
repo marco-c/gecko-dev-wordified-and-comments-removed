@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -1315,8 +1314,7 @@ arg
 }
 ;
 }
-this
-.
+const
 console
 =
 {

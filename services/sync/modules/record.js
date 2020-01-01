@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -157,10 +156,6 @@ js
 "
 )
 ;
-this
-.
-WBORecord
-=
 function
 WBORecord
 (
@@ -627,10 +622,6 @@ payload
 ]
 )
 ;
-this
-.
-RecordManager
-=
 function
 RecordManager
 (
@@ -957,10 +948,6 @@ url
 }
 }
 ;
-this
-.
-CryptoWrapper
-=
 function
 CryptoWrapper
 (
@@ -1557,10 +1544,6 @@ deleted
 "
 )
 ;
-this
-.
-CollectionKeyManager
-=
 function
 CollectionKeyManager
 (
@@ -2632,10 +2615,6 @@ r
 ;
 }
 }
-this
-.
-Collection
-=
 function
 Collection
 (

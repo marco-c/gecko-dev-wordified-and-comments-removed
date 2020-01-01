@@ -18,8 +18,7 @@ Cu
 =
 Components
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -107,10 +106,6 @@ js
 "
 )
 ;
-this
-.
-AITCServer10User
-=
 function
 AITCServer10User
 (
@@ -443,10 +438,6 @@ false
 }
 }
 ;
-this
-.
-AITCServer10Server
-=
 function
 AITCServer10Server
 (

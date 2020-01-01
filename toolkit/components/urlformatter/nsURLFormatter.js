@@ -941,8 +941,7 @@ format
 }
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

@@ -92,8 +92,7 @@ js
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -109,10 +108,6 @@ STORAGE_REQUEST_TIMEOUT
 *
 60
 ;
-this
-.
-SyncStorageRequest
-=
 function
 SyncStorageRequest
 (

@@ -622,8 +622,7 @@ nsIActivityProxy
 ]
 )
 }
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

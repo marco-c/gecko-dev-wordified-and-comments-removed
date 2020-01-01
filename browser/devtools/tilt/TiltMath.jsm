@@ -30,8 +30,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -55,8 +54,7 @@ quat4
 "
 ]
 ;
-this
-.
+const
 EPSILON
 =
 0
@@ -95,8 +93,7 @@ ONE_OVER_255
 /
 255
 ;
-this
-.
+let
 vec3
 =
 {
@@ -1585,8 +1582,7 @@ aVec
 }
 }
 ;
-this
-.
+let
 mat3
 =
 {
@@ -2264,8 +2260,7 @@ aMat
 }
 }
 ;
-this
-.
+let
 mat4
 =
 {
@@ -8668,8 +8663,7 @@ mat
 }
 }
 ;
-this
-.
+let
 quat4
 =
 {
@@ -10823,8 +10817,7 @@ aQuat
 }
 }
 ;
-this
-.
+let
 TiltMath
 =
 {

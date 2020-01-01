@@ -43,8 +43,7 @@ jsm
 '
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -56,8 +55,7 @@ Logger
 '
 ]
 ;
-this
-.
+var
 Utils
 =
 {
@@ -807,8 +805,7 @@ null
 }
 }
 ;
-this
-.
+var
 Logger
 =
 {

@@ -818,8 +818,7 @@ _recoverAllDownloads
 }
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

@@ -120,8 +120,7 @@ C14F
 )
 }
 ;
-this
-.
+let
 NSGetFactory
 =
 XPCOMUtils

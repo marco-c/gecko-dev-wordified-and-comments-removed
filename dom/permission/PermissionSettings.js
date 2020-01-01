@@ -583,8 +583,7 @@ DOM_OBJECT
 }
 )
 }
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

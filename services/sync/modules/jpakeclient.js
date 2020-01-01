@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -146,10 +145,6 @@ JPAKE_VERIFY_VALUE
 0123456789ABCDEF
 "
 ;
-this
-.
-JPAKEClient
-=
 function
 JPAKEClient
 (
@@ -3754,10 +3749,6 @@ this
 }
 }
 ;
-this
-.
-SendCredentialsController
-=
 function
 SendCredentialsController
 (

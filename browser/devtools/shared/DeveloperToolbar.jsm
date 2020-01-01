@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -286,10 +285,6 @@ Linux
 }
 )
 ;
-this
-.
-DeveloperToolbar
-=
 function
 DeveloperToolbar
 (

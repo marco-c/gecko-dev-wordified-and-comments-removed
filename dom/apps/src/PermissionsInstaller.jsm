@@ -74,8 +74,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -209,8 +208,7 @@ suf
 )
 ;
 }
-this
-.
+const
 PermissionsTable
 =
 {
@@ -949,10 +947,6 @@ permName
 ;
 }
 }
-this
-.
-expandPermissions
-=
 function
 expandPermissions
 (
@@ -1159,9 +1153,7 @@ return
 expandedPerms
 ;
 }
-;
-this
-.
+let
 PermissionsInstaller
 =
 {
@@ -1682,4 +1674,3 @@ false
 ;
 }
 }
-;

@@ -18,8 +18,7 @@ Cu
 =
 Components
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -88,10 +87,6 @@ WeakMap
 (
 )
 ;
-this
-.
-switchToFloatingScrollbars
-=
 function
 switchToFloatingScrollbars
 (
@@ -130,10 +125,6 @@ switchToFloating
 )
 ;
 }
-this
-.
-switchToNativeScrollbars
-=
 function
 switchToNativeScrollbars
 (

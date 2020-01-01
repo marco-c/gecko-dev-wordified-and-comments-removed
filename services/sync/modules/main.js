@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -8,8 +7,7 @@ Weave
 '
 ]
 ;
-this
-.
+let
 Weave
 =
 {

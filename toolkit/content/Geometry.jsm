@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -11,10 +10,6 @@ Rect
 "
 ]
 ;
-this
-.
-Point
-=
 function
 Point
 (
@@ -377,10 +372,6 @@ f
 (
 )
 ;
-this
-.
-Rect
-=
 function
 Rect
 (

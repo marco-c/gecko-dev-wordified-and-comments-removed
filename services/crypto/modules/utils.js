@@ -16,8 +16,7 @@ Cu
 =
 Components
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -83,8 +82,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 CryptoUtils
 =
 {

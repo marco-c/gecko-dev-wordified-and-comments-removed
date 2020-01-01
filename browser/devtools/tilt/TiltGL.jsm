@@ -92,8 +92,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -102,8 +101,7 @@ TiltGL
 "
 ]
 ;
-this
-.
+let
 TiltGL
 =
 {

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -22,8 +21,7 @@ clearTimeout
 "
 ]
 ;
-this
-.
+const
 Node
 =
 Components
@@ -32,8 +30,7 @@ interfaces
 .
 nsIDOMNode
 ;
-this
-.
+const
 HTMLElement
 =
 Components
@@ -182,8 +179,7 @@ n
 }
 }
 ;
-this
-.
+const
 setTimeout
 =
 function
@@ -254,8 +250,7 @@ timerID
 ;
 }
 ;
-this
-.
+const
 clearTimeout
 =
 function

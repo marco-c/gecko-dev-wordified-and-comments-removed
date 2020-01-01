@@ -24,8 +24,7 @@ Components
 .
 utils
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -3389,8 +3388,7 @@ return
 result
 ;
 }
-this
-.
+var
 AddonUpdateChecker
 =
 {

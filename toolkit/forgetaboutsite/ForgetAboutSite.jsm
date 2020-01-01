@@ -19,8 +19,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -133,8 +132,7 @@ Components
 .
 utils
 ;
-this
-.
+var
 ForgetAboutSite
 =
 {

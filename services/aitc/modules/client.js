@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -160,10 +159,6 @@ DEFAULT_REQUEST_FAILURE_THRESHOLD
 =
 3
 ;
-this
-.
-AitcClient
-=
 function
 AitcClient
 (

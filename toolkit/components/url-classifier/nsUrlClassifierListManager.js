@@ -323,8 +323,7 @@ iid
 }
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

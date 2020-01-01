@@ -83,8 +83,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -138,8 +137,7 @@ DBConnection
 }
 )
 ;
-this
-.
+let
 PlacesDBUtils
 =
 {

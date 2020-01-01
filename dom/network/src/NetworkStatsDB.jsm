@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -136,10 +135,6 @@ SAMPLE_RATE
 *
 24
 ;
-this
-.
-NetworkStatsDB
-=
 function
 NetworkStatsDB
 (

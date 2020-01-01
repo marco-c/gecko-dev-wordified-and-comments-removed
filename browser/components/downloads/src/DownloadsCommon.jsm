@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -253,8 +252,7 @@ initWithPath
 }
 )
 ;
-this
-.
+const
 DownloadsCommon
 =
 {

@@ -33,8 +33,7 @@ xmlhttprequest
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [

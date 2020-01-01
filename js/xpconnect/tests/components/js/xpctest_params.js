@@ -275,8 +275,7 @@ testInterfaceIsArray
 f_size_and_iid
 }
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

@@ -825,8 +825,7 @@ nsIContentPermissionPrompt
 )
 }
 ;
-this
-.
+const
 NSGetFactory
 =
 XPCOMUtils

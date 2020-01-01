@@ -19,8 +19,7 @@ Components
 .
 interfaces
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -89,10 +88,6 @@ nsIMessageListenerManager
 "
 )
 ;
-this
-.
-DOMRequestIpcHelper
-=
 function
 DOMRequestIpcHelper
 (

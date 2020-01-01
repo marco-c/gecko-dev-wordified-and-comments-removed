@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -22,8 +21,7 @@ Components
 .
 interfaces
 ;
-this
-.
+let
 OfflineAppCacheHelper
 =
 {

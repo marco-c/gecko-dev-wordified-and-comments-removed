@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -1979,8 +1978,7 @@ removeCurrentTab
 }
 }
 ;
-this
-.
+var
 helpers
 =
 {

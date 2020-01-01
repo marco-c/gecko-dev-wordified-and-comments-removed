@@ -30,8 +30,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -47,8 +46,7 @@ TiltMath
 .
 hex2rgba
 ;
-this
-.
+let
 TiltVisualizerStyle
 =
 {

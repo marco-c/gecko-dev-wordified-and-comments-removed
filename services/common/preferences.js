@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -74,10 +73,6 @@ MIN_INT
 -
 MAX_INT
 ;
-this
-.
-Preferences
-=
 function
 Preferences
 (

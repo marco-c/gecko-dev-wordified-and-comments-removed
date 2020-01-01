@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -119,8 +118,7 @@ URI
 )
 ]
 ;
-this
-.
+var
 UserAgentOverrides
 =
 {

@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -93,10 +92,6 @@ js
 "
 )
 ;
-this
-.
-ClusterManager
-=
 function
 ClusterManager
 (

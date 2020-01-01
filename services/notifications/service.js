@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -112,8 +111,7 @@ true
 }
 }
 ;
-this
-.
+let
 Service
 =
 new

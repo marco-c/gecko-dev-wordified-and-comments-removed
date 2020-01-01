@@ -808,8 +808,7 @@ gComponentsArray
 FileComponent
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

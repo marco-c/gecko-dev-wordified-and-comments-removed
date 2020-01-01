@@ -212,8 +212,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -225,10 +224,6 @@ CssSelector
 "
 ]
 ;
-this
-.
-CssLogic
-=
 function
 CssLogic
 (
@@ -4540,10 +4535,6 @@ selectorText
 }
 }
 ;
-this
-.
-CssSelector
-=
 function
 CssSelector
 (

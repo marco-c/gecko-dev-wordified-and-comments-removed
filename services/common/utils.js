@@ -16,8 +16,7 @@ Cr
 =
 Components
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -121,8 +120,7 @@ js
 "
 )
 ;
-this
-.
+let
 CommonUtils
 =
 {

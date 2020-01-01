@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -8,8 +7,7 @@ VERSION
 "
 ]
 ;
-this
-.
+var
 VERSION
 =
 2

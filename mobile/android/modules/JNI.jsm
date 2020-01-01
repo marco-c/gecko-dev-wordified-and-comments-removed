@@ -1,5 +1,4 @@
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -48,10 +47,6 @@ Services
 jsm
 "
 )
-this
-.
-JNI
-=
 function
 JNI
 (

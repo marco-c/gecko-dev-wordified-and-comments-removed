@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -110,10 +109,6 @@ jsm
 "
 )
 ;
-this
-.
-Sandbox
-=
 function
 Sandbox
 (

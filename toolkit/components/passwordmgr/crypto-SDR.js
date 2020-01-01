@@ -1042,8 +1042,7 @@ component
 LoginManagerCrypto_SDR
 ]
 ;
-this
-.
+var
 NSGetFactory
 =
 XPCOMUtils

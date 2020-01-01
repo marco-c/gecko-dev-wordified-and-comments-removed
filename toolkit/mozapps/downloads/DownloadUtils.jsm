@@ -1,5 +1,4 @@
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -289,8 +288,7 @@ gCachedLast
 [
 ]
 ;
-this
-.
+let
 DownloadUtils
 =
 {

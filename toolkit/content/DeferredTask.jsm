@@ -1,5 +1,4 @@
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -29,10 +28,6 @@ Components
 .
 interfaces
 ;
-this
-.
-DeferredTask
-=
 function
 DeferredTask
 (

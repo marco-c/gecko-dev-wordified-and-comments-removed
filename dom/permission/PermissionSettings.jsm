@@ -31,8 +31,7 @@ Components
 .
 interfaces
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -167,8 +166,7 @@ nsIAppsService
 "
 )
 ;
-this
-.
+let
 PermissionSettingsModule
 =
 {

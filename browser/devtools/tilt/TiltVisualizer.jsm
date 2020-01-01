@@ -330,8 +330,7 @@ jsm
 "
 )
 ;
-this
-.
+let
 EXPORTED_SYMBOLS
 =
 [
@@ -340,10 +339,6 @@ TiltVisualizer
 "
 ]
 ;
-this
-.
-TiltVisualizer
-=
 function
 TiltVisualizer
 (

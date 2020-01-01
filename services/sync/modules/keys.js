@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -504,10 +503,6 @@ generatedHMAC
 }
 }
 ;
-this
-.
-BulkKeyBundle
-=
 function
 BulkKeyBundle
 (
@@ -755,10 +750,6 @@ value
 }
 }
 ;
-this
-.
-SyncKeyBundle
-=
 function
 SyncKeyBundle
 (
