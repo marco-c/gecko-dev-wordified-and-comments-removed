@@ -519,6 +519,10 @@ browser_views_liveupdate
 .
 js
 \
+browser_sidebarpanels_click
+.
+js
+\
 (
 NULL
 )
