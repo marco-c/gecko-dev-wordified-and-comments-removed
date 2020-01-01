@@ -5660,7 +5660,7 @@ n
 ;
 frame
 .
-syncEntry
+ensureValueSynced
 (
 stubcc
 .
@@ -5671,7 +5671,7 @@ lvr
 ;
 frame
 .
-syncEntry
+ensureValueSynced
 (
 stubcc
 .
