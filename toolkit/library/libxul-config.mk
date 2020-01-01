@@ -1013,7 +1013,7 @@ places
 (
 NULL
 )
-else
+endif
 ifdef
 MOZ_MORK
 ifdef
@@ -1027,7 +1027,6 @@ mork
 (
 NULL
 )
-endif
 endif
 endif
 ifdef
