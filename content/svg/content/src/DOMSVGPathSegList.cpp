@@ -333,12 +333,6 @@ kungFuDeathGrip
 ;
 if
 (
-aNewValue
-.
-Length
-(
-)
-<
 length
 )
 {
