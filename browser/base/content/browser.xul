@@ -5230,6 +5230,16 @@ panel
 #
 endif
 <
+vbox
+id
+=
+"
+browser
+-
+bottombox
+"
+>
+<
 findbar
 browserid
 =
@@ -5520,6 +5530,10 @@ statusbarpanel
 <
 /
 statusbar
+>
+<
+/
+vbox
 >
 <
 /
