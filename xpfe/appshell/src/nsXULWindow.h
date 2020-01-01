@@ -502,6 +502,11 @@ PRUint32
 aDirtyFlags
 )
 ;
+PRInt32
+AppUnitsPerDevPixel
+(
+)
+;
 nsChromeTreeOwner
 *
 mChromeTreeOwner
@@ -610,6 +615,9 @@ mPersistentAttributesMask
 ;
 PRUint32
 mChromeFlags
+;
+PRUint32
+mAppPerDev
 ;
 nsString
 mTitle
