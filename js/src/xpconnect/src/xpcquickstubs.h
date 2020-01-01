@@ -1125,13 +1125,9 @@ JSContext
 cx
 jsval
 v
-jsval
+JSAutoByteString
 *
-pval
-char
-*
-*
-pstr
+bytes
 )
 ;
 JSBool

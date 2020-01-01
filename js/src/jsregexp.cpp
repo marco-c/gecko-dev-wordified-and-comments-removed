@@ -4109,12 +4109,8 @@ if
 str
 )
 {
-const
-char
-*
+JSAutoByteString
 sourceBytes
-=
-js_GetStringBytes
 (
 cx
 re
@@ -4127,6 +4123,8 @@ getSource
 ;
 if
 (
+!
+!
 sourceBytes
 )
 {
@@ -4137,6 +4135,10 @@ js_GetErrorMessage
 NULL
 JSMSG_NO_INPUT
 sourceBytes
+.
+ptr
+(
+)
 re
 -
 >
