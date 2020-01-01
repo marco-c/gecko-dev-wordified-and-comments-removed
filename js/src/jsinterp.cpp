@@ -12455,6 +12455,15 @@ advance_pc_by_one
 ;
 #
 endif
+JS_ASSERT
+(
+!
+cx
+-
+>
+runningJittedCode
+)
+;
 JS_CHECK_RECURSION
 (
 cx
