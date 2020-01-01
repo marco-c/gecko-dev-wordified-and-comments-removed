@@ -5157,7 +5157,7 @@ ClearModules
 NULL
 )
 ;
-JS_DestroyContext
+JS_DestroyContextNoGC
 (
 mContext
 )
