@@ -13312,7 +13312,7 @@ wasDeepAborted
 tr
 -
 >
-removeFragmentoReferences
+removeFragmentReferences
 (
 )
 ;

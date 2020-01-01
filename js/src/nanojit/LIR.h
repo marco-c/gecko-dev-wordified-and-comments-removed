@@ -3097,9 +3097,6 @@ operandCount
 ]
 ;
 class
-Fragmento
-;
-class
 LirWriter
 :
 public
