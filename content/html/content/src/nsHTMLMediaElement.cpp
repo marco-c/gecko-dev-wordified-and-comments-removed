@@ -723,7 +723,7 @@ NS_LITERAL_STRING
 error
 "
 )
-PR_TRUE
+PR_FALSE
 PR_TRUE
 )
 ;
@@ -9220,7 +9220,7 @@ nsIContent
 this
 )
 aName
-PR_TRUE
+PR_FALSE
 PR_TRUE
 )
 ;
