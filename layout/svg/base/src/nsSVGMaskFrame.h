@@ -47,6 +47,8 @@ nsStyleContext
 aContext
 )
 ;
+protected
+:
 nsSVGMaskFrame
 (
 nsStyleContext
