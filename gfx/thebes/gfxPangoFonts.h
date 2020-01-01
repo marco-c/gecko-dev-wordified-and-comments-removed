@@ -188,16 +188,6 @@ uint32_t
 aLength
 )
 ;
-PangoLanguage
-*
-GetPangoLanguage
-(
-)
-{
-return
-mPangoLanguage
-;
-}
 private
 :
 gfxFcFontSet
