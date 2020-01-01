@@ -1032,6 +1032,10 @@ input
 [
 i
 ]
+*
+aInput
+.
+mVolume
 ;
 }
 double

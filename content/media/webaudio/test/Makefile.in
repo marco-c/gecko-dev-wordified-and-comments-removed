@@ -159,6 +159,10 @@ test_delayNode
 .
 html
 \
+test_delayNodeWithGain
+.
+html
+\
 test_decodeAudioData
 .
 html
