@@ -12809,6 +12809,10 @@ cx
 goto
 error
 ;
+interpReturnOK
+=
+true
+;
 goto
 inline_return
 ;
