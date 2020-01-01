@@ -6265,7 +6265,7 @@ extra
 0x
 %
 "
-PRIx64
+PRIx32
 "
 \
 n
@@ -6393,6 +6393,7 @@ MinidumpMemoryRegion
 GetMemory
 (
 )
+const
 {
 if
 (
@@ -6628,6 +6629,7 @@ MinidumpMemoryRegion
 GetBase
 (
 )
+const
 {
 if
 (
@@ -6673,6 +6675,7 @@ MinidumpMemoryRegion
 GetSize
 (
 )
+const
 {
 if
 (
@@ -6739,6 +6742,7 @@ T
 *
 value
 )
+const
 {
 BPLOG_IF
 (
@@ -6982,6 +6986,7 @@ u_int8_t
 *
 value
 )
+const
 {
 return
 GetMemoryAtAddressInternal
@@ -7003,6 +7008,7 @@ u_int16_t
 *
 value
 )
+const
 {
 return
 GetMemoryAtAddressInternal
@@ -7024,6 +7030,7 @@ u_int32_t
 *
 value
 )
+const
 {
 return
 GetMemoryAtAddressInternal
@@ -7045,6 +7052,7 @@ u_int64_t
 *
 value
 )
+const
 {
 return
 GetMemoryAtAddressInternal
@@ -20529,13 +20537,7 @@ gcount
 ;
 if
 (
-static_cast
-<
-size_t
->
-(
 bytes_read
-)
 !
 =
 count
@@ -20546,8 +20548,11 @@ if
 bytes_read
 =
 =
+size_t
+(
 -
 1
+)
 )
 {
 string

@@ -117,6 +117,12 @@ StabsHandler
 *
 handler_
 ;
+size_t
+string_offset_
+;
+size_t
+next_cu_string_offset_
+;
 const
 struct
 nlist

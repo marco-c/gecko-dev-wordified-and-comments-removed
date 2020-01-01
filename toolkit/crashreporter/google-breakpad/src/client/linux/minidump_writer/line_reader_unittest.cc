@@ -216,6 +216,7 @@ char
 line
 ;
 unsigned
+int
 len
 ;
 ASSERT_TRUE
@@ -234,6 +235,10 @@ len
 ASSERT_EQ
 (
 len
+(
+unsigned
+int
+)
 1
 )
 ;
@@ -343,6 +348,9 @@ len
 ASSERT_EQ
 (
 len
+(
+unsigned
+)
 1
 )
 ;
@@ -456,6 +464,9 @@ len
 ASSERT_EQ
 (
 len
+(
+unsigned
+)
 1
 )
 ;
@@ -502,6 +513,9 @@ len
 ASSERT_EQ
 (
 len
+(
+unsigned
+)
 1
 )
 ;
@@ -613,6 +627,9 @@ len
 ASSERT_EQ
 (
 len
+(
+unsigned
+)
 1
 )
 ;
@@ -659,6 +676,9 @@ len
 ASSERT_EQ
 (
 len
+(
+unsigned
+)
 1
 )
 ;

@@ -664,7 +664,11 @@ entry_base
 iterator
 -
 >
-first
+second
+.
+base
+(
+)
 ;
 if
 (

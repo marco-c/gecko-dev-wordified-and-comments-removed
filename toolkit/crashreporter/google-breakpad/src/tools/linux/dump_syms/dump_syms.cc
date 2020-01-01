@@ -55,9 +55,9 @@ binary
 -
 with
 -
-stab
+debugging
 -
-symbol
+info
 >
 \
 n
@@ -82,14 +82,9 @@ argv
 1
 ]
 ;
-DumpSymbols
-dumper
-;
 if
 (
 !
-dumper
-.
 WriteSymbolFile
 (
 binary

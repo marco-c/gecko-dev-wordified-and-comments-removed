@@ -1,9 +1,9 @@
 #
 ifndef
-PROCESSOR_STACK_FRAME_INFO_H__
+PROCESSOR_WINDOWS_FRAME_INFO_H__
 #
 define
-PROCESSOR_STACK_FRAME_INFO_H__
+PROCESSOR_WINDOWS_FRAME_INFO_H__
 #
 include
 <
@@ -24,7 +24,7 @@ namespace
 google_breakpad
 {
 struct
-StackFrameInfo
+WindowsFrameInfo
 {
 public
 :
@@ -43,7 +43,7 @@ VALID_ALL
 1
 }
 ;
-StackFrameInfo
+WindowsFrameInfo
 (
 )
 :
@@ -84,7 +84,7 @@ program_string
 )
 {
 }
-StackFrameInfo
+WindowsFrameInfo
 (
 u_int32_t
 set_prolog_size
@@ -150,7 +150,7 @@ void
 CopyFrom
 (
 const
-StackFrameInfo
+WindowsFrameInfo
 &
 that
 )

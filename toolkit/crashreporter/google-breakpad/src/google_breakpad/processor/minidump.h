@@ -370,16 +370,19 @@ u_int8_t
 GetMemory
 (
 )
+const
 ;
 u_int64_t
 GetBase
 (
 )
+const
 ;
 u_int32_t
 GetSize
 (
 )
+const
 ;
 void
 FreeMemory
@@ -395,6 +398,7 @@ u_int8_t
 *
 value
 )
+const
 ;
 bool
 GetMemoryAtAddress
@@ -405,6 +409,7 @@ u_int16_t
 *
 value
 )
+const
 ;
 bool
 GetMemoryAtAddress
@@ -415,6 +420,7 @@ u_int32_t
 *
 value
 )
+const
 ;
 bool
 GetMemoryAtAddress
@@ -425,6 +431,7 @@ u_int64_t
 *
 value
 )
+const
 ;
 void
 Print
@@ -471,6 +478,7 @@ T
 *
 value
 )
+const
 ;
 static
 u_int32_t
@@ -480,6 +488,7 @@ MDMemoryDescriptor
 *
 descriptor_
 ;
+mutable
 vector
 <
 u_int8_t

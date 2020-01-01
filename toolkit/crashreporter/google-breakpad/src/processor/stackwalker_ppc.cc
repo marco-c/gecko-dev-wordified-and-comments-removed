@@ -259,16 +259,6 @@ const
 CallStack
 *
 stack
-const
-vector
-<
-linked_ptr
-<
-StackFrameInfo
->
->
-&
-stack_frame_info
 )
 {
 if

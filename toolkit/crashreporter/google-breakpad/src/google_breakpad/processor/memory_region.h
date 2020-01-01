@@ -35,6 +35,7 @@ u_int64_t
 GetBase
 (
 )
+const
 =
 0
 ;
@@ -43,6 +44,7 @@ u_int32_t
 GetSize
 (
 )
+const
 =
 0
 ;
@@ -56,6 +58,7 @@ u_int8_t
 *
 value
 )
+const
 =
 0
 ;
@@ -69,6 +72,7 @@ u_int16_t
 *
 value
 )
+const
 =
 0
 ;
@@ -82,6 +86,7 @@ u_int32_t
 *
 value
 )
+const
 =
 0
 ;
@@ -95,6 +100,7 @@ u_int64_t
 *
 value
 )
+const
 =
 0
 ;

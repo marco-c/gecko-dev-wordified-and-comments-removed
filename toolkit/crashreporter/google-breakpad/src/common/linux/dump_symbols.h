@@ -17,11 +17,6 @@ cstdio
 namespace
 google_breakpad
 {
-class
-DumpSymbols
-{
-public
-:
 bool
 WriteSymbolFile
 (
@@ -36,8 +31,6 @@ FILE
 *
 sym_file
 )
-;
-}
 ;
 }
 #

@@ -60,7 +60,6 @@ linux
 /
 handler
 /
-/
 exception_handler
 .
 h
@@ -504,6 +503,9 @@ sizeof
 len
 )
 )
+(
+ssize_t
+)
 sizeof
 (
 len
@@ -513,6 +515,9 @@ len
 ASSERT_LT
 (
 len
+(
+uint32_t
+)
 2048
 )
 ;
@@ -1030,7 +1035,7 @@ handler
 (
 "
 /
-tmp
+tmp1
 "
 NULL
 NULL
