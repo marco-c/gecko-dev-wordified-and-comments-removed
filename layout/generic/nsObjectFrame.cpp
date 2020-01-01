@@ -3697,6 +3697,14 @@ RegisterPluginForGeometryUpdates
 this
 )
 ;
+rpc
+-
+>
+RequestUpdatePluginGeometry
+(
+this
+)
+;
 #
 endif
 }
