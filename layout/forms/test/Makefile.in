@@ -198,10 +198,6 @@ bug564115_window
 .
 html
 \
-test_bug377624
-.
-html
-\
 test_bug571352
 .
 html
