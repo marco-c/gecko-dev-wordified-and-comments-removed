@@ -140,6 +140,16 @@ compile
 fix
 on
 win64
+angle
+-
+pool_allocator
+-
+assignable
+.
+patch
+-
+ANGLE
+r798
 In
 addition
 to
