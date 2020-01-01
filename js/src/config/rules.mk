@@ -8450,7 +8450,7 @@ ifeq
 (
 WINNT_
 (
-OS_ARCH
+HOST_OS_ARCH
 )
 _
 (
