@@ -1967,6 +1967,12 @@ JSOP_NAMEDEC
 case
 JSOP_FORNAME
 :
+case
+JSOP_QNAMEPART
+:
+case
+JSOP_QNAMECONST
+:
 checkAliasedName
 (
 cx
