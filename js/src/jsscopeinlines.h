@@ -1336,6 +1336,9 @@ other
 )
 const
 {
+AutoAssertNoGC
+nogc
+;
 return
 propid_
 .
@@ -1361,6 +1364,11 @@ other
 >
 base
 (
+)
+.
+get
+(
+nogc
 )
 other
 -
@@ -1437,8 +1445,7 @@ Shape
 :
 matchesParamsAfterId
 (
-BaseShape
-*
+RawBaseShape
 base
 uint32_t
 aslot
@@ -2500,8 +2507,7 @@ BaseShape
 :
 writeBarrierPre
 (
-BaseShape
-*
+RawBaseShape
 base
 )
 {
@@ -2536,8 +2542,7 @@ needsBarrier
 )
 )
 {
-BaseShape
-*
+RawBaseShape
 tmp
 =
 base
@@ -2577,8 +2582,7 @@ BaseShape
 :
 writeBarrierPost
 (
-BaseShape
-*
+RawBaseShape
 shape
 void
 *
@@ -2593,8 +2597,7 @@ BaseShape
 :
 readBarrier
 (
-BaseShape
-*
+RawBaseShape
 base
 )
 {
@@ -2622,8 +2625,7 @@ needsBarrier
 )
 )
 {
-BaseShape
-*
+RawBaseShape
 tmp
 =
 base

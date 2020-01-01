@@ -1127,8 +1127,7 @@ shadow
 struct
 TypeObject
 {
-JSObject
-*
+RawObject
 proto
 ;
 }
@@ -1143,8 +1142,7 @@ Class
 *
 clasp
 ;
-JSObject
-*
+RawObject
 parent
 ;
 }
@@ -1152,6 +1150,9 @@ parent
 struct
 Shape
 {
+shadow
+:
+:
 BaseShape
 *
 base
@@ -1174,10 +1175,16 @@ FIXED_SLOTS_SHIFT
 struct
 Object
 {
+shadow
+:
+:
 Shape
 *
 shape
 ;
+shadow
+:
+:
 TypeObject
 *
 type
@@ -1209,6 +1216,9 @@ shape
 slotInfo
 >
 >
+shadow
+:
+:
 Shape
 :
 :

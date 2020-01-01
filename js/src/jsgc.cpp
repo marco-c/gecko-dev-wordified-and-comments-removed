@@ -4434,8 +4434,7 @@ MarkBaseShapeRoot
 (
 trc
 (
-BaseShape
-*
+RawBaseShape
 *
 )
 addr
@@ -11075,8 +11074,7 @@ MarkBaseShapeRoot
 (
 trc
 (
-BaseShape
-*
+RawBaseShape
 *
 )
 &
