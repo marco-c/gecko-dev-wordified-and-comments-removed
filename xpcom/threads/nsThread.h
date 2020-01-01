@@ -74,6 +74,12 @@ nsThread
 (
 )
 ;
+nsThread
+(
+PRUint32
+aStackSize
+)
+;
 nsresult
 Init
 (
@@ -323,6 +329,9 @@ mThread
 ;
 PRUint32
 mRunningEvent
+;
+PRUint32
+mStackSize
 ;
 struct
 nsThreadShutdownContext

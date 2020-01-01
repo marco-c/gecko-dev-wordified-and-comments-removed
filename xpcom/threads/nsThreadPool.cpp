@@ -343,6 +343,10 @@ get
 NewThread
 (
 0
+nsIThreadManager
+:
+:
+DEFAULT_STACK_SIZE
 getter_AddRefs
 (
 thread

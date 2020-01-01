@@ -126,6 +126,13 @@ nsIRunnable
 initialEvent
 =
 nsnull
+PRUint32
+stackSize
+=
+nsIThreadManager
+:
+:
+DEFAULT_STACK_SIZE
 )
 ;
 extern

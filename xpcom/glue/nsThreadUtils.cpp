@@ -84,6 +84,8 @@ result
 nsIRunnable
 *
 event
+PRUint32
+stackSize
 )
 {
 nsCOMPtr
@@ -112,6 +114,7 @@ nsThreadManager
 NewThread
 (
 0
+stackSize
 getter_AddRefs
 (
 thread
@@ -150,6 +153,7 @@ mgr
 NewThread
 (
 0
+stackSize
 getter_AddRefs
 (
 thread
