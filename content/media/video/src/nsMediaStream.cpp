@@ -887,6 +887,14 @@ SetTotalBytes
 size
 )
 ;
+mDecoder
+-
+>
+UpdateBytesDownloaded
+(
+size
+)
+;
 }
 nsCOMPtr
 <
@@ -1836,6 +1844,7 @@ nsChannelToPipeListener
 (
 mDecoder
 PR_TRUE
+mOffset
 )
 ;
 NS_ENSURE_TRUE

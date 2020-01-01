@@ -325,6 +325,9 @@ mNotifyOnShutdown
 PRPackedBool
 mSeekable
 ;
+PRPackedBool
+mResourceLoaded
+;
 }
 ;
 #
