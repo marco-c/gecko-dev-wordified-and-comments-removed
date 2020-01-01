@@ -1613,9 +1613,9 @@ home
 "
 ;
 let
-forceRestore
+restoreMode
 =
-false
+0
 ;
 let
 pinned
@@ -1658,7 +1658,7 @@ arguments
 1
 ]
 )
-forceRestore
+restoreMode
 =
 window
 .
@@ -1808,7 +1808,7 @@ nsISessionStore
 ;
 if
 (
-forceRestore
+restoreMode
 |
 |
 ss
@@ -1978,7 +1978,10 @@ ss
 restoreLastSession
 (
 restoreToFront
-forceRestore
+restoreMode
+=
+=
+1
 )
 ;
 }
