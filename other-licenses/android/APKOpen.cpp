@@ -358,8 +358,6 @@ struct
 mapping_info
 *
 lib_mapping
-=
-NULL
 ;
 NS_EXPORT
 const
@@ -3702,6 +3700,9 @@ zip
 cdir_offset
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 lib_mapping
 =
 (
@@ -3719,9 +3720,6 @@ lib_mapping
 )
 )
 ;
-#
-ifdef
-MOZ_CRASHREPORTER
 file_ids
 =
 (
