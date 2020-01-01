@@ -1184,6 +1184,12 @@ jsuword
 )
 obj
 ;
+OBJ_SET_DELEGATE
+(
+cx
+obj
+)
+;
 }
 }
 entry
