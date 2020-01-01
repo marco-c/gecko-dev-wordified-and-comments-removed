@@ -521,7 +521,6 @@ blank
 "
 )
 charset
-base_uri
 )
 ;
 }
