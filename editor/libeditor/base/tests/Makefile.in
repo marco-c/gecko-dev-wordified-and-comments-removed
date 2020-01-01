@@ -456,6 +456,10 @@ test_bug586662
 .
 html
 \
+test_bug599983
+.
+html
+\
 (
 NULL
 )
@@ -477,6 +481,10 @@ xul
 test_dragdrop
 .
 html
+\
+test_bug599983
+.
+xul
 \
 (
 NULL
