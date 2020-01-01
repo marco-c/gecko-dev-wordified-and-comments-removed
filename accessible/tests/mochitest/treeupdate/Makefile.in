@@ -479,6 +479,10 @@ test_visibility
 .
 html
 \
+test_whitespace
+.
+html
+\
 (
 NULL
 )
