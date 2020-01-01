@@ -43916,11 +43916,6 @@ in
 -
 wince
 *
-|
-*
--
-android
-*
 )
 MOZ_IPC
 =

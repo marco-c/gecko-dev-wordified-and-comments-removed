@@ -74,6 +74,17 @@ long
 MagicWindowHandle
 ;
 #
+elif
+defined
+(
+ANDROID
+)
+typedef
+unsigned
+long
+MagicWindowHandle
+;
+#
 else
 #
 error

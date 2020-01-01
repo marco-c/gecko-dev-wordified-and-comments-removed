@@ -393,6 +393,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+ANDROID
+)
 typedef
 intptr_t
 NativeWindowHandle
