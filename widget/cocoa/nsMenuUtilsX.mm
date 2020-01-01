@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMXULCommandEvent
 .
 h

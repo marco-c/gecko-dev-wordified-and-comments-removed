@@ -48,13 +48,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

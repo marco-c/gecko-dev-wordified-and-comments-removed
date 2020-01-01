@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIExternalProtocolHandler
 .
 h

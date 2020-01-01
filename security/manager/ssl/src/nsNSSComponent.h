@@ -112,13 +112,6 @@ MOZ_DISABLE_CRYPTOLEGACY
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsSmartCardMonitor
 .
 h

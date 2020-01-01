@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

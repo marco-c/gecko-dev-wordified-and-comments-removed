@@ -201,9 +201,6 @@ class
 nsIDOMEvent
 ;
 class
-nsIDOMEventTarget
-;
-class
 nsIDOMHTMLFormElement
 ;
 class

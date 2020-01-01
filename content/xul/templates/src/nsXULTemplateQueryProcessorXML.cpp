@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMXPathNSResolver
 .
 h

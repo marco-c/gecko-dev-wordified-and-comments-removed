@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsObjectFrame
 .
 h

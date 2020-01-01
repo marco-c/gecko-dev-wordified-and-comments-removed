@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIJSContextStack
 .
 h
