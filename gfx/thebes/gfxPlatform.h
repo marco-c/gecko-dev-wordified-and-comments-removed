@@ -1191,6 +1191,11 @@ WordCacheCharLimit
 (
 )
 ;
+uint32_t
+WordCacheMaxEntries
+(
+)
+;
 bool
 UseGraphiteShaping
 (
@@ -1883,6 +1888,9 @@ mUseHarfBuzzScripts
 ;
 int32_t
 mWordCacheCharLimit
+;
+int32_t
+mWordCacheMaxEntries
 ;
 private
 :
