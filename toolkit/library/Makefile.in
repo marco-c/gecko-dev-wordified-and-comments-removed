@@ -1212,6 +1212,8 @@ EXTRA_DSO_LDOPTS
 llocation
 -
 lgpsbt
+-
+losso
 endif
 ifdef
 MOZ_ENABLE_STARTUP_NOTIFICATION
