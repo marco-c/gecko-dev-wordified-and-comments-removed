@@ -140,14 +140,6 @@ relative_import
 .
 js
 \
-browser_workerAPI
-.
-js
-\
-worker_social
-.
-js
-\
 (
 NULL
 )
