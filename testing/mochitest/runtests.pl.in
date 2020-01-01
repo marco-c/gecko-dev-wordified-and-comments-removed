@@ -891,7 +891,7 @@ constant
 SERVER_STARTUP_TIMEOUT
 =
 >
-15
+45
 ;
 my
 profile
