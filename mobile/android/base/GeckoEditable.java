@@ -2674,6 +2674,10 @@ length
 (
 )
 ;
++
++
+mGeckoUpdateSeqno
+;
 if
 (
 !
