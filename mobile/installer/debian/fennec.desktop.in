@@ -26,8 +26,6 @@ Exec
 installdir
 /
 fennec
-/
-fennec
 StartupWMClass
 =
 Navigator
