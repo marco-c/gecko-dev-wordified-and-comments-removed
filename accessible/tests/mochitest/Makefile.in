@@ -668,14 +668,9 @@ test_textboxes
 .
 html
 \
-(
-warning
 test_textboxes
 .
 xul
-temporarily
-disabled
-)
 \
 testTextboxes
 .
