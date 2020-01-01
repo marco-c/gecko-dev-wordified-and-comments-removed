@@ -200,10 +200,6 @@ HTMLDListElement
 )
 DOMCI_CLASS
 (
-HTMLDelElement
-)
-DOMCI_CLASS
-(
 HTMLDirectoryElement
 )
 DOMCI_CLASS
@@ -264,10 +260,6 @@ HTMLInputElement
 )
 DOMCI_CLASS
 (
-HTMLInsElement
-)
-DOMCI_CLASS
-(
 HTMLIsIndexElement
 )
 DOMCI_CLASS
@@ -297,6 +289,10 @@ HTMLMenuElement
 DOMCI_CLASS
 (
 HTMLMetaElement
+)
+DOMCI_CLASS
+(
+HTMLModElement
 )
 DOMCI_CLASS
 (

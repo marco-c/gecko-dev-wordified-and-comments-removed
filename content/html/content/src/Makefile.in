@@ -501,10 +501,6 @@ nsHTMLDataListElement
 .
 cpp
 \
-nsHTMLDelElement
-.
-cpp
-\
 nsHTMLDivElement
 .
 cpp
@@ -570,6 +566,10 @@ nsHTMLMapElement
 cpp
 \
 nsHTMLMetaElement
+.
+cpp
+\
+nsHTMLModElement
 .
 cpp
 \
