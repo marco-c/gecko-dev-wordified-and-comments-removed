@@ -112,6 +112,13 @@ aNodeInfo
 }
 #
 endif
+virtual
+nsEventStates
+IntrinsicState
+(
+)
+const
+;
 }
 ;
 }

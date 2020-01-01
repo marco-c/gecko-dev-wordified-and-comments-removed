@@ -231,6 +231,11 @@ GetContent
 )
 -
 >
+AsElement
+(
+)
+-
+>
 IntrinsicState
 (
 )

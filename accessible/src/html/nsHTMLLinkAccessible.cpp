@@ -124,6 +124,11 @@ state
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 IntrinsicState
 (
 )
@@ -487,6 +492,11 @@ nsEventStates
 state
 =
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 IntrinsicState

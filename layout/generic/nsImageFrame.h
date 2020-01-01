@@ -532,9 +532,15 @@ static
 PRBool
 ShouldCreateImageFrameFor
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-aContent
+aElement
 nsStyleContext
 *
 aStyleContext
