@@ -100,11 +100,6 @@ nsString
 aDatabaseName
 )
 ;
-void
-Close
-(
-)
-;
 nsresult
 GetAllKeys
 (
