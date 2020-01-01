@@ -1530,14 +1530,6 @@ this
 install
 location
 .
-MessageBox
-MB_OK
-"
-INSTDIR
-\
-n
-R1
-"
 {
 If
 }
