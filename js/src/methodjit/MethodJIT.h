@@ -1826,7 +1826,7 @@ MAGIC_TRAP_ID
 }
 ;
 void
-EnableTraceHint
+ResetTraceHint
 (
 JSScript
 *
@@ -1836,6 +1836,8 @@ jsbytecode
 pc
 uint16_t
 index
+bool
+full
 )
 ;
 uintN
