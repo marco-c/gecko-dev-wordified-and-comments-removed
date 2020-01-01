@@ -122,6 +122,10 @@ head
 .
 js
 \
+browser_advanced_update
+.
+js
+\
 browser_bug410900
 .
 js
