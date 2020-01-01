@@ -562,16 +562,6 @@ aReflowState
 )
 const
 ;
-nsMargin
-GetContentAreaOffset
-(
-const
-nsHTMLReflowState
-*
-aReflowState
-)
-const
-;
 static
 nsTableFrame
 *
