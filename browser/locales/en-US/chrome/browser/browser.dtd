@@ -2107,16 +2107,6 @@ F4
 <
 !
 ENTITY
-inspectPanelTitle
-.
-label
-"
-HTML
-"
->
-<
-!
-ENTITY
 inspectButton
 .
 label
