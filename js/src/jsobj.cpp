@@ -1,7 +1,7 @@
 #
 include
 "
-jsobjinlines
+jsobj
 .
 h
 "
