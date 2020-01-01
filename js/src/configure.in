@@ -760,7 +760,7 @@ PYTHON_VERSION
 =
 2
 .
-6
+5
 WINDRES_VERSION
 =
 2
@@ -12052,14 +12052,14 @@ need
 Python
 2
 .
-6
+5
 on
 Windows
 PYTHON_VERSION
 =
 2
 .
-6
+5
 if
 test
 -

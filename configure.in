@@ -797,7 +797,7 @@ PYTHON_VERSION_MAJOR
 2
 PYTHON_VERSION_MINOR
 =
-6
+5
 CAIRO_VERSION
 =
 1
@@ -6539,6 +6539,9 @@ python2
 python2
 .
 6
+python2
+.
+5
 python
 )
 if
@@ -15784,7 +15787,7 @@ require
 version
 2
 .
-6
+5
 or
 newer
 of
