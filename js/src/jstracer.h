@@ -1059,10 +1059,9 @@ nanojit
 LIns
 *
 obj_ins
-jsval
-*
+uint32
 &
-vp
+slot
 nanojit
 :
 :
