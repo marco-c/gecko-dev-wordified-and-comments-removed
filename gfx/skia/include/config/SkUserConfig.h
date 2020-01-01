@@ -10,6 +10,9 @@ SK_DEBUG
 #
 endif
 #
+define
+SK_DISABLE_DITHER_32BIT_GRADIENT
+#
 ifdef
 SK_SAMPLES_FOR_X
 #
