@@ -4248,6 +4248,14 @@ getProto
 (
 )
 ;
+if
+(
+!
+tempObj
+)
+return
+false
+;
 JS_ASSERT
 (
 tempObj
