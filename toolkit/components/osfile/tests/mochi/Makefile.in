@@ -48,6 +48,10 @@ worker_test_osfile_unix
 .
 js
 \
+worker_test_osfile_win
+.
+js
+\
 (
 NULL
 )
