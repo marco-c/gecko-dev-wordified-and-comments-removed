@@ -620,11 +620,6 @@ buttons
 accept
 cancel
 "
-defaultButton
-=
-"
-none
-"
 ondialogaccept
 =
 "
