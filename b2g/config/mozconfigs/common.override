@@ -60,11 +60,10 @@ is
 included
 at
 the
-top
+bottom
 of
 all
-Android
-XUL
+b2g
 mozconfigs
 .
 "
@@ -75,4 +74,6 @@ build
 mozconfig
 .
 common
+.
+override
 "

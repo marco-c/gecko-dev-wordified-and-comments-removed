@@ -58,7 +58,10 @@ This
 file
 is
 included
-by
+at
+the
+top
+of
 all
 b2g
 mozconfigs

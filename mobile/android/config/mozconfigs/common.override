@@ -60,11 +60,11 @@ is
 included
 at
 the
-top
+bottom
 of
 all
-Android
-XUL
+native
+android
 mozconfigs
 .
 "
@@ -75,4 +75,6 @@ build
 mozconfig
 .
 common
+.
+override
 "

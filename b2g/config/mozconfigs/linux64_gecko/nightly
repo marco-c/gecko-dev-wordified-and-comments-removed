@@ -236,3 +236,17 @@ CXXFLAGS
 =
 -
 DMOZ_ENABLE_JS_DUMP
+.
+"
+topsrcdir
+/
+b2g
+/
+config
+/
+mozconfigs
+/
+common
+.
+override
+"

@@ -60,7 +60,7 @@ is
 included
 at
 the
-top
+bottom
 of
 all
 Android
@@ -75,4 +75,6 @@ build
 mozconfig
 .
 common
+.
+override
 "

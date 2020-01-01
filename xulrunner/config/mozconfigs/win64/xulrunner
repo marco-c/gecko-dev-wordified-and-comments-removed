@@ -70,3 +70,17 @@ MOZ_MAKE_FLAGS
 =
 -
 j1
+.
+"
+topsrcdir
+/
+xulrunner
+/
+config
+/
+mozconfigs
+/
+common
+.
+override
+"

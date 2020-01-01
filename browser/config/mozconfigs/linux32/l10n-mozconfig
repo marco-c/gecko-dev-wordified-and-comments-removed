@@ -54,3 +54,15 @@ unix
 mozconfig
 .
 linux
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+common
+.
+override
+"
