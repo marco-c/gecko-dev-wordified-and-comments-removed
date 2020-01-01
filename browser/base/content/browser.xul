@@ -321,6 +321,15 @@ mozilla
 com
 >
 #
+Patrick
+Walton
+<
+pcwalton
+mozilla
+.
+com
+>
+#
 #
 Alternatively
 the
@@ -4651,6 +4660,11 @@ label
 >
 <
 menupopup
+id
+=
+"
+appmenu_developer_popup
+"
 >
 <
 menuitem
