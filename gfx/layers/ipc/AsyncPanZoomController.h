@@ -74,6 +74,9 @@ class
 GestureEventListener
 ;
 class
+ContainerLayer
+;
+class
 AsyncPanZoomController
 MOZ_FINAL
 {
@@ -150,11 +153,7 @@ const
 TimeStamp
 &
 aSampleTime
-const
-FrameMetrics
-&
-aFrame
-Layer
+ContainerLayer
 *
 aLayer
 gfx3DMatrix

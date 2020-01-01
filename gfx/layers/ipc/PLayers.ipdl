@@ -760,10 +760,10 @@ TransformMatrix
 transform
 ;
 float
-xScale
+postXScale
 ;
 float
-yScale
+postYScale
 ;
 PRUint32
 contentFlags
@@ -817,6 +817,12 @@ ContainerLayerAttributes
 {
 FrameMetrics
 metrics
+;
+float
+preXScale
+;
+float
+preYScale
 ;
 }
 ;
