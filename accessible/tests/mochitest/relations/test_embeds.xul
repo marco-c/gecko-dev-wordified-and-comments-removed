@@ -657,8 +657,6 @@ tab
 /
 /
 Testing
-/
-/
 gA11yEventDumpToConsole
 =
 true
@@ -688,6 +686,13 @@ currentTabDocument
 (
 )
 )
+)
+;
+enableLogging
+(
+"
+docload
+"
 )
 ;
 gQueue
@@ -735,6 +740,10 @@ function
 (
 )
 {
+disableLogging
+(
+)
+;
 closeBrowserWindow
 (
 )
