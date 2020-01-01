@@ -577,10 +577,6 @@ DOMCI_CLASS
 (
 DOMStringList
 )
-DOMCI_CLASS
-(
-NameList
-)
 #
 ifdef
 MOZ_XUL
@@ -1350,6 +1346,10 @@ WebGLActiveInfo
 DOMCI_CLASS
 (
 WebGLExtension
+)
+DOMCI_CLASS
+(
+WebGLExtensionStandardDerivatives
 )
 DOMCI_CLASS
 (

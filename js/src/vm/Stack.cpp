@@ -1026,7 +1026,7 @@ vp
 call
 -
 >
-argv
+array
 (
 )
 ;
@@ -1046,7 +1046,7 @@ vp
 calls_
 -
 >
-argv
+array
 (
 )
 ;
@@ -3168,10 +3168,7 @@ script
 (
 )
 ;
-StackFrame
-:
-:
-Flags
+uint32
 flags
 =
 ToFrameFlags
@@ -3213,8 +3210,14 @@ fun
 script
 args
 .
-argc
+length
 (
+)
+(
+StackFrame
+:
+:
+Flags
 )
 flags
 )
@@ -5117,7 +5120,7 @@ fp_
 calls_
 -
 >
-argv
+array
 (
 )
 )
