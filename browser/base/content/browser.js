@@ -13448,6 +13448,12 @@ only
 .
 xul
 "
+|
+|
+!
+tipElement
+.
+ownerDocument
 )
 return
 retVal
