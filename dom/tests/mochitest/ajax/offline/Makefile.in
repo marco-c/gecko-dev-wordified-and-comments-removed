@@ -457,6 +457,10 @@ test_missingFile
 .
 html
 \
+test_noManifest
+.
+html
+\
 test_simpleManifest
 .
 html
