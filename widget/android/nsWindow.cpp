@@ -5677,6 +5677,10 @@ kungFuDeathGrip
 this
 )
 ;
+RemoveIMEComposition
+(
+)
+;
 static
 bool
 sDefaultPreventedNotified
