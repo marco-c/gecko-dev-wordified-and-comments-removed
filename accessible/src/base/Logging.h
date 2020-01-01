@@ -176,6 +176,16 @@ aDocumentNode
 )
 ;
 void
+DocCompleteLoad
+(
+DocAccessible
+*
+aDocument
+bool
+aIsLoadEventTarget
+)
+;
+void
 DocLoadEventFired
 (
 AccEvent
