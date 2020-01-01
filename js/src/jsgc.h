@@ -4341,6 +4341,12 @@ ZealFrameVerifierPostValue
 =
 12
 ;
+const
+int
+ZealPurgeAnalysisValue
+=
+13
+;
 enum
 VerifierType
 {
