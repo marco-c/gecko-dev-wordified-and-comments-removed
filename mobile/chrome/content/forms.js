@@ -745,14 +745,6 @@ Content
 SetWindowSize
 "
 :
-if
-(
-this
-.
-_open
-)
-return
-;
 sendAsyncMessage
 (
 "
@@ -953,6 +945,12 @@ this
 _currentIndex
 =
 null
+;
+this
+.
+_open
+=
+false
 ;
 break
 ;
