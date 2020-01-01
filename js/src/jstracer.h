@@ -1165,6 +1165,9 @@ clearFrameSlotsFromCache
 ;
 public
 :
+int
+backEdgeCount
+;
 TraceRecorder
 (
 JSContext
@@ -1213,6 +1216,15 @@ return
 fragment
 ;
 }
+bool
+isLoopHeader
+(
+JSContext
+*
+cx
+)
+const
+;
 void
 closeLoop
 (
