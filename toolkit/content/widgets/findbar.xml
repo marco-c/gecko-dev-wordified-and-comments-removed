@@ -1693,6 +1693,7 @@ findbar
 find
 -
 next
+tabbable
 "
 label
 =
@@ -1765,6 +1766,7 @@ findbar
 find
 -
 previous
+tabbable
 "
 label
 =
@@ -1833,6 +1835,7 @@ class
 findbar
 -
 highlight
+tabbable
 "
 label
 =
