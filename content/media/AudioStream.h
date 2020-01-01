@@ -336,7 +336,7 @@ return
 mChannels
 ;
 }
-bool
+void
 EnsureTimeStretcherInitialized
 (
 )
