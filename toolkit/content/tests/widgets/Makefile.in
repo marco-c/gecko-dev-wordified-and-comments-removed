@@ -208,10 +208,6 @@ videocontrols_direction_test
 .
 js
 \
-use_large_cache
-.
-js
-\
 (
 topsrcdir
 )
