@@ -758,6 +758,11 @@ PRBool
 aRepaint
 )
 ;
+void
+UpdateBounds
+(
+)
+;
 NS_IMETHOD
 GetScreenBounds
 (
