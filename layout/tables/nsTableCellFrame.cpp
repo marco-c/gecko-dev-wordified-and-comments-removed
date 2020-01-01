@@ -4532,7 +4532,7 @@ GetStyleBorder
 )
 -
 >
-GetBorder
+GetActualBorder
 (
 )
 ;

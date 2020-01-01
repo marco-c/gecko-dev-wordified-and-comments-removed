@@ -2437,7 +2437,7 @@ x
 border
 -
 >
-GetBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_LEFT
 )
@@ -2450,7 +2450,7 @@ y
 border
 -
 >
-GetBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_TOP
 )

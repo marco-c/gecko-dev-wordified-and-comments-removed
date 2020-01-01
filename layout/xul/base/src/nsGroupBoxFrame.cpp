@@ -475,7 +475,7 @@ border
 borderStyleData
 -
 >
-GetBorder
+GetActualBorder
 (
 )
 ;
