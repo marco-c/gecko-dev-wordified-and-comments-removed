@@ -697,6 +697,13 @@ getUserMedia
 :
 request
 "
+"
+recording
+-
+device
+-
+events
+"
 ]
 "
 chrome

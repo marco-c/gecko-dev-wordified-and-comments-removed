@@ -1242,6 +1242,10 @@ TabsPanel
 mTabsPanel
 ;
 protected
+NotificationHelper
+mNotificationHelper
+;
+protected
 LayerView
 mLayerView
 ;
@@ -7439,6 +7443,14 @@ R
 id
 .
 tabs_panel
+)
+;
+mNotificationHelper
+=
+new
+NotificationHelper
+(
+this
 )
 ;
 mRestoreMode
