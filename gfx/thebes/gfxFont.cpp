@@ -4704,6 +4704,7 @@ NS_OK
 }
 class
 MemoryPressureObserver
+MOZ_FINAL
 :
 public
 nsIObserver

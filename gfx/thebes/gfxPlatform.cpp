@@ -284,6 +284,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIGfxInfo
 .
 h
@@ -430,6 +439,7 @@ nsnull
 endif
 class
 SRGBOverrideObserver
+MOZ_FINAL
 :
 public
 nsIObserver
@@ -615,6 +625,7 @@ nsnull
 ;
 class
 FontPrefsObserver
+MOZ_FINAL
 :
 public
 nsIObserver

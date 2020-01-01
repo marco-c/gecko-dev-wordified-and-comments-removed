@@ -24,6 +24,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxASurface
 .
 h
@@ -2380,6 +2389,7 @@ SurfaceTypeMax
 ;
 class
 SurfaceMemoryReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter

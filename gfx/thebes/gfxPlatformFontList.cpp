@@ -68,6 +68,15 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -177,6 +186,7 @@ nsnull
 ;
 class
 gfxFontListPrefObserver
+MOZ_FINAL
 :
 public
 nsIObserver

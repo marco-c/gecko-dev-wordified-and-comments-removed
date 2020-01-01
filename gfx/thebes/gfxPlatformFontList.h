@@ -62,6 +62,15 @@ FunctionTimer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 CharMapHashKey
 :
@@ -675,6 +684,7 @@ protected
 :
 class
 MemoryReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
