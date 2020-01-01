@@ -714,6 +714,11 @@ delta
 ;
 protected
 :
+void
+AddCookiesToRequest
+(
+)
+;
 template
 <
 class
@@ -834,6 +839,9 @@ mContentTypeHint
 ;
 nsCString
 mContentCharsetHint
+;
+nsCString
+mUserSetCookieHeader
 ;
 nsresult
 mStatus

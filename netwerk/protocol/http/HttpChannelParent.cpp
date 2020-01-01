@@ -357,6 +357,7 @@ httpChan
 >
 SetRemoteChannel
 (
+true
 )
 ;
 if
@@ -432,6 +433,7 @@ i
 +
 +
 )
+{
 httpChan
 -
 >
@@ -457,6 +459,7 @@ i
 mMerge
 )
 ;
+}
 httpChan
 -
 >
