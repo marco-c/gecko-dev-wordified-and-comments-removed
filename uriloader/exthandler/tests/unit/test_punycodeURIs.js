@@ -118,6 +118,10 @@ seconds
 }
 else
 {
++
++
+gCheckExistsAttempts
+;
 do_timeout
 (
 1000
