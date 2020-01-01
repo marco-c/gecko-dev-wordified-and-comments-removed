@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsIAccessibilityService
+.
+h
+"
+#
+include
+"
 nsIChromeRegistry
 .
 h
