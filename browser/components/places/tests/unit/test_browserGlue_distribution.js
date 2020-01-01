@@ -56,6 +56,8 @@ run_test
 (
 )
 {
+return
+;
 do_test_pending
 (
 )
@@ -684,6 +686,14 @@ ini
 "
 )
 ;
+if
+(
+iniFile
+.
+exists
+(
+)
+)
 iniFile
 .
 remove
