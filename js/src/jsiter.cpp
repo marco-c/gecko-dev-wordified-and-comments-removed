@@ -2711,6 +2711,12 @@ cx
 ;
 if
 (
+JS_LIKELY
+(
+obj
+)
+&
+&
 !
 Snapshot
 (
