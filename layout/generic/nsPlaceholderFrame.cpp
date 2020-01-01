@@ -492,6 +492,9 @@ nsGkAtoms
 placeholderFrame
 )
 ;
+return
+NS_OK
+;
 }
 #
 ifdef
