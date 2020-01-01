@@ -1787,6 +1787,13 @@ JSOp
 pc
 )
 ;
+frame
+.
+assertValidState
+(
+pc
+)
+;
 masm
 .
 bind
