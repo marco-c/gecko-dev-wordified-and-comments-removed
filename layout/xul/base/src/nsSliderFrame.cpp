@@ -896,9 +896,6 @@ rv
 =
 CurrentPositionChanged
 (
-PresContext
-(
-)
 )
 ;
 NS_ASSERTION
@@ -2860,9 +2857,6 @@ nsSliderFrame
 :
 CurrentPositionChanged
 (
-nsPresContext
-*
-aPresContext
 )
 {
 nsIFrame
@@ -3566,12 +3560,6 @@ frame
 >
 CurrentPositionChanged
 (
-frame
--
->
-PresContext
-(
-)
 )
 ;
 }
