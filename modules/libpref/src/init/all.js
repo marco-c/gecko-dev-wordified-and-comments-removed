@@ -194,7 +194,7 @@ offline
 .
 capacity
 "
-10240
+512000
 )
 ;
 pref
