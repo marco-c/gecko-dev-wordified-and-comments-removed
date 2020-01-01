@@ -138,10 +138,6 @@ JSGeneratorState
 struct
 JSGenerator
 {
-JSGenerator
-*
-next
-;
 JSObject
 *
 obj
