@@ -11,6 +11,3 @@ fennec_aurora
 MOZ_UPDATER
 =
 1
-MOZ_MOBILE_COMPAT
-=
-Tablets
