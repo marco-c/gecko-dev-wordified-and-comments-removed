@@ -2053,9 +2053,7 @@ object
 /
 to
 pass
-it
-'
-s
+its
 pointer
 to
 us
