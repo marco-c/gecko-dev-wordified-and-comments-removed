@@ -9216,6 +9216,15 @@ newSurf
 dxgiChain
 )
 ;
+dxgiFactory
+-
+>
+MakeWindowAssociation
+(
+wnd
+DXGI_MWA_NO_WINDOW_CHANGES
+)
+;
 if
 (
 FAILED
