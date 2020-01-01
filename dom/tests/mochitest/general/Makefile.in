@@ -218,6 +218,10 @@ test_interfaces
 .
 html
 \
+test_idleapi_permissions
+.
+html
+\
 (
 NULL
 )
