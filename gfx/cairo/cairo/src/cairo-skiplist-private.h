@@ -168,6 +168,17 @@ MAX_FREELIST_LEVEL
 int
 max_level
 ;
+struct
+pool
+*
+pool
+;
+char
+pool_embedded
+[
+1024
+]
+;
 }
 cairo_skip_list_t
 ;

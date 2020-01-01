@@ -50,6 +50,7 @@ cairo_bool_t
 cairo_hash_predicate_func_t
 )
 (
+const
 void
 *
 entry
@@ -89,7 +90,8 @@ hash_table
 )
 ;
 cairo_private
-cairo_bool_t
+void
+*
 _cairo_hash_table_lookup
 (
 cairo_hash_table_t
@@ -98,10 +100,6 @@ hash_table
 cairo_hash_entry_t
 *
 key
-cairo_hash_entry_t
-*
-*
-entry_return
 )
 ;
 cairo_private

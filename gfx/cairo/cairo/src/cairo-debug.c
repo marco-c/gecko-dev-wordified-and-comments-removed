@@ -15,7 +15,11 @@ CAIRO_MUTEX_INITIALIZE
 (
 )
 ;
-_cairo_font_face_reset_static_data
+_cairo_scaled_font_map_destroy
+(
+)
+;
+_cairo_toy_font_face_reset_static_data
 (
 )
 ;
@@ -28,6 +32,10 @@ _cairo_ft_font_reset_static_data
 ;
 #
 endif
+_cairo_intern_string_reset_static_data
+(
+)
+;
 _cairo_scaled_font_reset_static_data
 (
 )

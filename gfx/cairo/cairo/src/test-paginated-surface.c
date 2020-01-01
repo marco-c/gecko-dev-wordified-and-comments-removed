@@ -124,10 +124,13 @@ test_paginated_surface_t
 ;
 if
 (
+unlikely
+(
 surface
 =
 =
 NULL
+)
 )
 {
 cairo_surface_destroy
@@ -347,9 +350,13 @@ void
 abstract_surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
+cairo_rectangle_int_t
+*
+extents
 )
 {
 test_paginated_surface_t
@@ -380,6 +387,7 @@ surface
 target
 op
 source
+extents
 )
 ;
 }
@@ -392,12 +400,17 @@ void
 abstract_surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
+const
 cairo_pattern_t
 *
 mask
+cairo_rectangle_int_t
+*
+extents
 )
 {
 test_paginated_surface_t
@@ -429,6 +442,7 @@ target
 op
 source
 mask
+extents
 )
 ;
 }
@@ -441,6 +455,7 @@ void
 abstract_surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
@@ -460,6 +475,9 @@ double
 tolerance
 cairo_antialias_t
 antialias
+cairo_rectangle_int_t
+*
+extents
 )
 {
 test_paginated_surface_t
@@ -496,6 +514,7 @@ ctm
 ctm_inverse
 tolerance
 antialias
+extents
 )
 ;
 }
@@ -508,6 +527,7 @@ void
 abstract_surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
@@ -520,6 +540,9 @@ double
 tolerance
 cairo_antialias_t
 antialias
+cairo_rectangle_int_t
+*
+extents
 )
 {
 test_paginated_surface_t
@@ -554,6 +577,7 @@ path
 fill_rule
 tolerance
 antialias
+extents
 )
 ;
 }
@@ -591,6 +615,7 @@ void
 abstract_surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
@@ -616,6 +641,9 @@ cluster_flags
 cairo_scaled_font_t
 *
 scaled_font
+cairo_rectangle_int_t
+*
+extents
 )
 {
 test_paginated_surface_t
@@ -654,6 +682,7 @@ clusters
 num_clusters
 cluster_flags
 scaled_font
+extents
 )
 ;
 }
@@ -701,6 +730,8 @@ NULL
 NULL
 NULL
 NULL
+NULL
+NULL
 _test_paginated_surface_set_clip_region
 NULL
 _test_paginated_surface_get_extents
@@ -714,6 +745,7 @@ _test_paginated_surface_paint
 _test_paginated_surface_mask
 _test_paginated_surface_stroke
 _test_paginated_surface_fill
+NULL
 NULL
 NULL
 NULL

@@ -815,10 +815,13 @@ cairo_hull_t
 ;
 if
 (
+unlikely
+(
 hull
 =
 =
 NULL
+)
 )
 return
 _cairo_error

@@ -60,7 +60,9 @@ expr
 )
 do
 {
-if
+(
+void
+)
 (
 expr
 )

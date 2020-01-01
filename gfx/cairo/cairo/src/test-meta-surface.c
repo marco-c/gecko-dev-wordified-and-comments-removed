@@ -95,10 +95,13 @@ test_meta_surface_t
 ;
 if
 (
+unlikely
+(
 surface
 =
 =
 NULL
+)
 )
 {
 status
@@ -494,9 +497,13 @@ void
 abstract_surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
+cairo_rectangle_int_t
+*
+extents
 )
 {
 test_meta_surface_t
@@ -521,6 +528,7 @@ surface
 meta
 op
 source
+extents
 )
 ;
 }
@@ -533,12 +541,17 @@ void
 abstract_surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
+const
 cairo_pattern_t
 *
 mask
+cairo_rectangle_int_t
+*
+extents
 )
 {
 test_meta_surface_t
@@ -564,6 +577,7 @@ meta
 op
 source
 mask
+extents
 )
 ;
 }
@@ -576,6 +590,7 @@ void
 abstract_surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
@@ -595,6 +610,9 @@ double
 tolerance
 cairo_antialias_t
 antialias
+cairo_rectangle_int_t
+*
+extents
 )
 {
 test_meta_surface_t
@@ -625,6 +643,7 @@ ctm
 ctm_inverse
 tolerance
 antialias
+extents
 )
 ;
 }
@@ -637,6 +656,7 @@ void
 abstract_surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
@@ -649,6 +669,9 @@ double
 tolerance
 cairo_antialias_t
 antialias
+cairo_rectangle_int_t
+*
+extents
 )
 {
 test_meta_surface_t
@@ -677,6 +700,7 @@ path
 fill_rule
 tolerance
 antialias
+extents
 )
 ;
 }
@@ -714,6 +738,7 @@ void
 abstract_surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
@@ -739,6 +764,9 @@ cluster_flags
 cairo_scaled_font_t
 *
 scaled_font
+cairo_rectangle_int_t
+*
+extents
 )
 {
 test_meta_surface_t
@@ -771,6 +799,7 @@ clusters
 num_clusters
 cluster_flags
 scaled_font
+extents
 )
 ;
 }
@@ -818,6 +847,8 @@ NULL
 NULL
 NULL
 NULL
+NULL
+NULL
 _test_meta_surface_show_page
 NULL
 _test_meta_surface_intersect_clip_path
@@ -834,6 +865,7 @@ _test_meta_surface_stroke
 _test_meta_surface_fill
 NULL
 _test_meta_surface_snapshot
+NULL
 NULL
 NULL
 NULL

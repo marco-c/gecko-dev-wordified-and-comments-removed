@@ -20,6 +20,7 @@ cairo_surface_t
 surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
@@ -34,9 +35,11 @@ cairo_surface_t
 surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
+const
 cairo_pattern_t
 *
 mask
@@ -51,6 +54,7 @@ cairo_surface_t
 surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
@@ -81,6 +85,7 @@ cairo_surface_t
 surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
@@ -104,6 +109,7 @@ cairo_surface_t
 surface
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 source
@@ -133,9 +139,11 @@ _cairo_surface_fallback_composite
 (
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 src
+const
 cairo_pattern_t
 *
 mask
@@ -188,6 +196,7 @@ _cairo_surface_fallback_composite_trapezoids
 (
 cairo_operator_t
 op
+const
 cairo_pattern_t
 *
 pattern

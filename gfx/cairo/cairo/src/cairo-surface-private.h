@@ -61,6 +61,9 @@ finished
 cairo_user_data_array_t
 user_data
 ;
+cairo_user_data_array_t
+mime_data
+;
 cairo_matrix_t
 device_transform
 ;

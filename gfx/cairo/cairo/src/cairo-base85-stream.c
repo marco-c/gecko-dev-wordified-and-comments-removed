@@ -448,10 +448,13 @@ cairo_base85_stream_t
 ;
 if
 (
+unlikely
+(
 stream
 =
 =
 NULL
+)
 )
 {
 _cairo_error_throw
@@ -476,6 +479,7 @@ stream
 >
 base
 _cairo_base85_stream_write
+NULL
 _cairo_base85_stream_close
 )
 ;

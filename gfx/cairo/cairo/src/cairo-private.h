@@ -60,7 +60,7 @@ gstate
 cairo_gstate_t
 gstate_tail
 [
-1
+2
 ]
 ;
 cairo_gstate_t

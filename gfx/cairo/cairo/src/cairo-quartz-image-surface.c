@@ -53,6 +53,18 @@ CAIRO_STATUS_SURFACE_TYPE_MISMATCH
 )
 #
 define
+SURFACE_ERROR_INVALID_SIZE
+(
+_cairo_surface_create_in_error
+(
+_cairo_error
+(
+CAIRO_STATUS_INVALID_SIZE
+)
+)
+)
+#
+define
 SURFACE_ERROR_INVALID_FORMAT
 (
 _cairo_surface_create_in_error
@@ -450,6 +462,8 @@ NULL
 NULL
 NULL
 NULL
+NULL
+NULL
 _cairo_quartz_image_surface_get_extents
 NULL
 NULL
@@ -567,7 +581,7 @@ height
 )
 )
 return
-SURFACE_ERROR_NO_MEMORY
+SURFACE_ERROR_INVALID_SIZE
 ;
 if
 (
@@ -583,7 +597,7 @@ height
 0
 )
 return
-SURFACE_ERROR_NO_MEMORY
+SURFACE_ERROR_INVALID_SIZE
 ;
 if
 (

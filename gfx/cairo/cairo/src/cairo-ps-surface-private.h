@@ -88,6 +88,10 @@ cairo_image_surface_t
 *
 image
 ;
+cairo_image_surface_t
+*
+acquired_image
+;
 void
 *
 image_extra

@@ -75,6 +75,16 @@ cairo_scaled_font_t
 scaled_font
 )
 ;
+cairo_private
+unsigned
+int
+_cairo_ft_scaled_font_get_load_flags
+(
+cairo_scaled_font_t
+*
+scaled_font
+)
+;
 CAIRO_END_DECLS
 #
 endif

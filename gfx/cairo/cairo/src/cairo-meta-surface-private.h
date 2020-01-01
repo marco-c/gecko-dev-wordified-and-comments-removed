@@ -55,6 +55,9 @@ type
 cairo_meta_region_type_t
 region
 ;
+cairo_rectangle_int_t
+extents
+;
 }
 cairo_command_header_t
 ;
