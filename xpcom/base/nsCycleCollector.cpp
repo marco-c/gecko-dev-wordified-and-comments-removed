@@ -2418,7 +2418,7 @@ mNext
 nsPurpleBufferEntry
 mEntries
 [
-255
+1360
 ]
 ;
 Block
