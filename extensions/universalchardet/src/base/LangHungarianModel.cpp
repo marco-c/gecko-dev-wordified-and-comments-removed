@@ -5,6 +5,8 @@ nsSBCharSetProber
 .
 h
 "
+static
+const
 unsigned
 char
 Latin2_HungarianCharToOrderMap
@@ -271,6 +273,8 @@ Latin2_HungarianCharToOrderMap
 253
 }
 ;
+static
+const
 unsigned
 char
 win1250HungarianCharToOrderMap
@@ -537,6 +541,8 @@ win1250HungarianCharToOrderMap
 253
 }
 ;
+static
+const
 char
 HungarianLangModel
 [
@@ -4641,6 +4647,7 @@ HungarianLangModel
 0
 }
 ;
+const
 SequenceModel
 Latin2HungarianModel
 =
@@ -4663,6 +4670,7 @@ ISO
 "
 }
 ;
+const
 SequenceModel
 Win1250HungarianModel
 =

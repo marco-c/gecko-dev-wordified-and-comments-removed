@@ -5,6 +5,8 @@ nsSBCharSetProber
 .
 h
 "
+static
+const
 unsigned
 char
 win1255_CharToOrderMap
@@ -271,6 +273,8 @@ win1255_CharToOrderMap
 253
 }
 ;
+static
+const
 char
 HebrewLangModel
 [
@@ -4375,6 +4379,7 @@ HebrewLangModel
 0
 }
 ;
+const
 SequenceModel
 Win1255Model
 =

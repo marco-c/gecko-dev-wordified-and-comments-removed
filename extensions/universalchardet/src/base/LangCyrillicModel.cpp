@@ -5,6 +5,8 @@ nsSBCharSetProber
 .
 h
 "
+static
+const
 unsigned
 char
 KOI8R_CharToOrderMap
@@ -271,6 +273,8 @@ KOI8R_CharToOrderMap
 70
 }
 ;
+static
+const
 unsigned
 char
 win1251_CharToOrderMap
@@ -537,6 +541,8 @@ win1251_CharToOrderMap
 16
 }
 ;
+static
+const
 unsigned
 char
 latin5_CharToOrderMap
@@ -803,6 +809,8 @@ latin5_CharToOrderMap
 255
 }
 ;
+static
+const
 unsigned
 char
 macCyrillic_CharToOrderMap
@@ -1069,6 +1077,8 @@ macCyrillic_CharToOrderMap
 255
 }
 ;
+static
+const
 unsigned
 char
 IBM855_CharToOrderMap
@@ -1335,6 +1345,8 @@ IBM855_CharToOrderMap
 255
 }
 ;
+static
+const
 unsigned
 char
 IBM866_CharToOrderMap
@@ -1601,6 +1613,8 @@ IBM866_CharToOrderMap
 255
 }
 ;
+static
+const
 char
 RussianLangModel
 [
@@ -5705,6 +5719,7 @@ RussianLangModel
 0
 }
 ;
+const
 SequenceModel
 Koi8rModel
 =
@@ -5725,6 +5740,7 @@ R
 "
 }
 ;
+const
 SequenceModel
 Win1251Model
 =
@@ -5745,6 +5761,7 @@ windows
 "
 }
 ;
+const
 SequenceModel
 Latin5Model
 =
@@ -5767,6 +5784,7 @@ ISO
 "
 }
 ;
+const
 SequenceModel
 MacCyrillicModel
 =
@@ -5789,6 +5807,7 @@ cyrillic
 "
 }
 ;
+const
 SequenceModel
 Ibm866Model
 =
@@ -5807,6 +5826,7 @@ IBM866
 "
 }
 ;
+const
 SequenceModel
 Ibm855Model
 =

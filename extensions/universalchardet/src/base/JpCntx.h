@@ -24,6 +24,7 @@ define
 MAX_REL_THRESHOLD
 1000
 extern
+const
 char
 jp2CharContext
 [

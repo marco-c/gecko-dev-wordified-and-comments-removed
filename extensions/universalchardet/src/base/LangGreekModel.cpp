@@ -5,6 +5,8 @@ nsSBCharSetProber
 .
 h
 "
+static
+const
 unsigned
 char
 Latin7_CharToOrderMap
@@ -272,6 +274,8 @@ Latin7_CharToOrderMap
 253
 }
 ;
+static
+const
 unsigned
 char
 win1253_CharToOrderMap
@@ -539,6 +543,8 @@ win1253_CharToOrderMap
 253
 }
 ;
+static
+const
 char
 GreekLangModel
 [
@@ -4643,6 +4649,7 @@ GreekLangModel
 0
 }
 ;
+const
 SequenceModel
 Latin7Model
 =
@@ -4665,6 +4672,7 @@ ISO
 "
 }
 ;
+const
 SequenceModel
 Win1253Model
 =

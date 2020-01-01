@@ -5,6 +5,8 @@ nsSBCharSetProber
 .
 h
 "
+static
+const
 unsigned
 char
 TIS620CharToOrderMap
@@ -271,6 +273,8 @@ TIS620CharToOrderMap
 253
 }
 ;
+static
+const
 char
 ThaiLangModel
 [
@@ -4375,6 +4379,7 @@ ThaiLangModel
 0
 }
 ;
+const
 SequenceModel
 TIS620ThaiModel
 =

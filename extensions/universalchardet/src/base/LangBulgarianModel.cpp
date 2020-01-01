@@ -5,6 +5,8 @@ nsSBCharSetProber
 .
 h
 "
+static
+const
 unsigned
 char
 Latin5_BulgarianCharToOrderMap
@@ -271,6 +273,8 @@ Latin5_BulgarianCharToOrderMap
 253
 }
 ;
+static
+const
 unsigned
 char
 win1251BulgarianCharToOrderMap
@@ -537,6 +541,8 @@ win1251BulgarianCharToOrderMap
 16
 }
 ;
+static
+const
 char
 BulgarianLangModel
 [
@@ -4641,6 +4647,7 @@ BulgarianLangModel
 1
 }
 ;
+const
 SequenceModel
 Latin5BulgarianModel
 =
@@ -4663,6 +4670,7 @@ ISO
 "
 }
 ;
+const
 SequenceModel
 Win1251BulgarianModel
 =

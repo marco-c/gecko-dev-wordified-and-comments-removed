@@ -87,8 +87,10 @@ bitsft
 nsUnitMsk
 unitmsk
 ;
+const
 PRUint32
 *
+const
 data
 ;
 }

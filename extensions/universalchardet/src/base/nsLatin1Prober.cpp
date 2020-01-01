@@ -96,6 +96,7 @@ CLASS_NUM
 total
 classes
 static
+const
 unsigned
 char
 Latin1_CharToClass
@@ -362,6 +363,7 @@ ASO
 }
 ;
 static
+const
 unsigned
 char
 Latin1ClassModel

@@ -12,6 +12,7 @@ JpCntx
 .
 h
 "
+const
 char
 jp2CharContext
 [

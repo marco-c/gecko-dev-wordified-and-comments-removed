@@ -6,6 +6,7 @@ nsCodingStateMachine
 h
 "
 static
+const
 PRUint32
 HZ_cls
 [
@@ -370,6 +371,7 @@ PCK4BITS
 }
 ;
 static
+const
 PRUint32
 HZ_st
 [
@@ -461,6 +463,7 @@ HZCharLenTable
 0
 }
 ;
+const
 SMModel
 HZSMModel
 =
@@ -491,6 +494,7 @@ GB
 }
 ;
 static
+const
 PRUint32
 ISO2022CN_cls
 [
@@ -855,6 +859,7 @@ PCK4BITS
 }
 ;
 static
+const
 PRUint32
 ISO2022CN_st
 [
@@ -971,6 +976,7 @@ ISO2022CNCharLenTable
 0
 }
 ;
+const
 SMModel
 ISO2022CNSMModel
 =
@@ -1001,6 +1007,7 @@ CN
 }
 ;
 static
+const
 PRUint32
 ISO2022JP_cls
 [
@@ -1365,6 +1372,7 @@ PCK4BITS
 }
 ;
 static
+const
 PRUint32
 ISO2022JP_st
 [
@@ -1491,6 +1499,7 @@ ISO2022JPCharLenTable
 0
 }
 ;
+const
 SMModel
 ISO2022JPSMModel
 =
@@ -1521,6 +1530,7 @@ JP
 }
 ;
 static
+const
 PRUint32
 ISO2022KR_cls
 [
@@ -1885,6 +1895,7 @@ PCK4BITS
 }
 ;
 static
+const
 PRUint32
 ISO2022KR_st
 [
@@ -1965,6 +1976,7 @@ ISO2022KRCharLenTable
 0
 }
 ;
+const
 SMModel
 ISO2022KRSMModel
 =
