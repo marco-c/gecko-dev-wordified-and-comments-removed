@@ -700,6 +700,15 @@ repositories
 /
 android
 /
+BookmarksInsertionManager
+.
+java
+sync
+/
+repositories
+/
+android
+/
 BrowserContractHelpers
 .
 java
