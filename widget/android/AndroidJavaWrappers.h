@@ -445,6 +445,9 @@ int
 aTileWidth
 int
 aTileHeight
+nsIntRect
+&
+aDirtyRect
 const
 nsAString
 &
