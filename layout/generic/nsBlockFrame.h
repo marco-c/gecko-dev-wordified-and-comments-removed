@@ -1737,6 +1737,11 @@ aKeepReflowGoing
 )
 ;
 void
+LazyMarkLinesDirty
+(
+)
+;
+void
 MarkLineDirty
 (
 line_iterator
