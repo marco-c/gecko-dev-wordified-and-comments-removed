@@ -47,6 +47,8 @@ healthreport
 js
 -
 provider
+-
+default
 "
 "
 SearchesProvider
