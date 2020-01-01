@@ -2470,7 +2470,7 @@ types
 TypeObject
 proto
 )
-0
+ACCSET_OBJ_TYPE
 )
 "
 proto
