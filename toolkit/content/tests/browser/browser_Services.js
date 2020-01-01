@@ -349,4 +349,14 @@ Ci
 nsITelemetry
 )
 ;
+checkService
+(
+"
+sysinfo
+"
+Ci
+.
+nsIPropertyBag2
+)
+;
 }
