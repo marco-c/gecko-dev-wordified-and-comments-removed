@@ -640,10 +640,6 @@ PrivateTab
 .
 java
 \
-ProfileMigrator
-.
-java
-\
 Prompt
 .
 java
