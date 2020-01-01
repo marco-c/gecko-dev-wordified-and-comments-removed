@@ -5520,6 +5520,18 @@ PRBool
 aRepaint
 )
 {
+if
+(
+!
+mWnd
+|
+|
+mWindowType
+=
+=
+eWindowType_child
+)
+{
 mBounds
 .
 x
@@ -5544,6 +5556,7 @@ height
 =
 h
 ;
+}
 if
 (
 mWnd
