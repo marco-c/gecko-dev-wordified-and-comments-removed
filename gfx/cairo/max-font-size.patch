@@ -35,6 +35,8 @@ index
 -
 a
 /
+cairo
+/
 src
 /
 cairo
@@ -48,6 +50,8 @@ c
 +
 +
 b
+/
+cairo
 /
 src
 /
