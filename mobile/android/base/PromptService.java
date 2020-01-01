@@ -2270,7 +2270,7 @@ R
 .
 layout
 .
-select_dialog_item
+simple_list_item_1
 ;
 if
 (
