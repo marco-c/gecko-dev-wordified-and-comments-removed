@@ -659,6 +659,12 @@ aCapability
 )
 ;
 static
+bool
+IsImageSrcSetDisabled
+(
+)
+;
+static
 nsINode
 *
 GetCrossDocParentNode
