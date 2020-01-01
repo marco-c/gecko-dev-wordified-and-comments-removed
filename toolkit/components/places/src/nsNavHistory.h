@@ -2097,6 +2097,9 @@ mCurrentResultURLs
 PRInt32
 mCurrentChunkOffset
 ;
+PRInt32
+mPreviousChunkOffset
+;
 nsDataHashtable
 <
 nsTrimInt64HashKey
