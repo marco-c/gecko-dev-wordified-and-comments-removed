@@ -1,5 +1,13 @@
 #
 ifdef
+MOZ_LOGGING
+#
+define
+FORCE_PR_LOG
+#
+endif
+#
+ifdef
 MOZ_IPC
 #
 include
@@ -656,9 +664,6 @@ iter
 #
 ifdef
 MOZ_LOGGING
-#
-define
-FORCE_PR_LOG
 #
 include
 "
