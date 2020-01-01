@@ -682,6 +682,8 @@ dtoa
 =
 mallocSizeOf
 (
+mainThread
+.
 dtoaState
 )
 ;
