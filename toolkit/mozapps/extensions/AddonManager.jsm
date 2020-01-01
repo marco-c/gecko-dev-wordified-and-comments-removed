@@ -94,12 +94,14 @@ checkUpdateSecurity
 "
 ;
 const
-PREF_EM_UPDATE_URL
+PREF_EM_UPDATE_BACKGROUND_URL
 =
 "
 extensions
 .
 update
+.
+background
 .
 url
 "
@@ -3660,7 +3662,7 @@ prefs
 .
 getCharPref
 (
-PREF_EM_UPDATE_URL
+PREF_EM_UPDATE_BACKGROUND_URL
 )
 ;
 url

@@ -198,6 +198,8 @@ extensions
 .
 update
 .
+background
+.
 url
 "
 "
