@@ -171,13 +171,6 @@ jsscriptinlines
 h
 "
 #
-include
-<
-zlib
-.
-h
->
-#
 ifdef
 JS_HAS_XML_SUPPORT
 #
