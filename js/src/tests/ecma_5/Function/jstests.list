@@ -97,3 +97,11 @@ no
 prototype
 .
 js
+script
+Function
+-
+arguments
+-
+gc
+.
+js
