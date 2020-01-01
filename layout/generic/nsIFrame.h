@@ -32,6 +32,10 @@ extensions
 #
 endif
 #
+define
+MAX_REFLOW_DEPTH
+200
+#
 include
 <
 stdio

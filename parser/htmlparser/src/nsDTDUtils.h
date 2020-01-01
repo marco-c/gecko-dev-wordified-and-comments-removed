@@ -103,6 +103,13 @@ nsIHTMLContentSink
 h
 "
 #
+include
+"
+nsIFrame
+.
+h
+"
+#
 define
 IF_HOLD
 (

@@ -290,13 +290,6 @@ h
 #
 include
 "
-nsIHTMLContentSink
-.
-h
-"
-#
-include
-"
 nsCSSFrameConstructor
 .
 h
