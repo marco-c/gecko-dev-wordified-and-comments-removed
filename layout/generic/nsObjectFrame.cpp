@@ -1442,11 +1442,6 @@ Destroy
 )
 ;
 }
-SetInstanceOwner
-(
-nullptr
-)
-;
 nsObjectFrameSuper
 :
 :
