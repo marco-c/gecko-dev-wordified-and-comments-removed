@@ -733,10 +733,6 @@ test_svg_filter_animation
 .
 html
 \
-test_xultree_animation
-.
-xhtml
-\
 (
 NULL
 )
