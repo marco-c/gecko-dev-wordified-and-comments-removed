@@ -365,6 +365,16 @@ warningQuota
 50
 )
 ;
+user_pref
+(
+"
+dom
+.
+enable_performance
+"
+true
+)
+;
 pref
 (
 "
