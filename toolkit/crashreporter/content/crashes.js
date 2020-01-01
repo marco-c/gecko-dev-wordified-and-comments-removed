@@ -26,6 +26,11 @@ strings
 =
 null
 ;
+var
+myListener
+=
+null
+;
 function
 parseKeyValuePairs
 (
@@ -1222,7 +1227,6 @@ nsIWebProgressListener
 .
 STATE_STOP
 ;
-let
 myListener
 =
 {
@@ -1300,6 +1304,10 @@ removeProgressListener
 (
 myListener
 )
+;
+myListener
+=
+null
 ;
 link
 .
