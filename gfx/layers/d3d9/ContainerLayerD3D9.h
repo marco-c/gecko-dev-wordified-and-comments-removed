@@ -41,6 +41,11 @@ LayerManagerD3D9
 aManager
 )
 ;
+~
+ContainerLayerD3D9
+(
+)
+;
 const
 nsIntRect
 &
