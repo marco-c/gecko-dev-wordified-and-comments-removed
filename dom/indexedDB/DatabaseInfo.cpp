@@ -180,6 +180,10 @@ nextIndexId
 (
 1
 )
+runningVersionChange
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
