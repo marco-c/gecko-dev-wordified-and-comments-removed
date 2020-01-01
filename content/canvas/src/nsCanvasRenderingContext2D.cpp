@@ -10402,9 +10402,7 @@ PresContext
 fontStyle
 -
 >
-mFont
-.
-size
+mSize
 )
 ;
 bool

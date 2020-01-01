@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsIRangeUtils
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

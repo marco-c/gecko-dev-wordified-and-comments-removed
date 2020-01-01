@@ -4730,6 +4730,9 @@ aState
 pushPtr
 (
 var
+aState
+.
+eVariableItem
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4842,6 +4845,9 @@ aState
 .
 popPtr
 (
+aState
+.
+eVariableItem
 )
 )
 ;
@@ -6607,6 +6613,9 @@ aState
 pushPtr
 (
 copy
+aState
+.
+eCopy
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6718,6 +6727,9 @@ aState
 .
 popPtr
 (
+aState
+.
+eCopy
 )
 )
 ;
@@ -7202,6 +7214,9 @@ aState
 pushPtr
 (
 pushcontext
+aState
+.
+ePushNewContext
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7271,6 +7286,9 @@ aState
 pushPtr
 (
 instr
+aState
+.
+ePushNullTemplateRule
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7332,6 +7350,9 @@ aState
 .
 popPtr
 (
+aState
+.
+ePushNullTemplateRule
 )
 )
 ;
@@ -7384,6 +7405,9 @@ aState
 .
 popPtr
 (
+aState
+.
+ePushNewContext
 )
 )
 ;
@@ -7544,6 +7568,9 @@ aState
 pushPtr
 (
 condGoto
+aState
+.
+eConditionalGoto
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7607,6 +7634,9 @@ aState
 .
 popPtr
 (
+aState
+.
+eConditionalGoto
 )
 )
 ;
@@ -8346,6 +8376,9 @@ aState
 pushPtr
 (
 checkParam
+aState
+.
+eCheckParam
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8652,6 +8685,9 @@ aState
 .
 popPtr
 (
+aState
+.
+eCheckParam
 )
 )
 ;
@@ -9937,6 +9973,9 @@ aState
 pushPtr
 (
 condGoto
+aState
+.
+eConditionalGoto
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10077,6 +10116,9 @@ aState
 .
 popPtr
 (
+aState
+.
+eConditionalGoto
 )
 )
 ;
@@ -10632,8 +10674,8 @@ txFnEndEmbed
 {
 0
 0
-txFnStartElementIgnore
-txFnEndElementIgnore
+txFnStartEmbed
+txFnEndEmbed
 }
 txFnTextIgnore
 }
