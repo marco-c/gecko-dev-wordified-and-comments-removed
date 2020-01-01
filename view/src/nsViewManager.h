@@ -523,8 +523,6 @@ const
 nsIntRegion
 &
 aRegion
-PRUint32
-aUpdateFlags
 )
 ;
 void
@@ -943,10 +941,6 @@ PostInvalidateEvent
 ;
 }
 ;
-#
-define
-NS_VMREFRESH_DOUBLE_BUFFER
-0x0001
 class
 nsInvalidateEvent
 :
