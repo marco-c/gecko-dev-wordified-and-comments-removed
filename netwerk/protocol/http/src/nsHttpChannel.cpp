@@ -3384,6 +3384,10 @@ Cancel
 rv
 )
 ;
+CallOnStartRequest
+(
+)
+;
 return
 rv
 ;
@@ -9927,6 +9931,9 @@ NS_OK
 }
 if
 (
+mResponseHead
+&
+&
 mResponseHead
 -
 >

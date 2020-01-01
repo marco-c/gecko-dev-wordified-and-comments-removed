@@ -2697,6 +2697,9 @@ nsIDocument
 >
 mSuspendedDoc
 ;
+PRUint64
+mWindowID
+;
 friend
 class
 nsDOMScriptableHelper

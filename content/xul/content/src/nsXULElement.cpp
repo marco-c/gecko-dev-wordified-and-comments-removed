@@ -1207,7 +1207,7 @@ nsIDocument
 aDocument
 PRBool
 aIsScriptable
-nsIContent
+Element
 *
 *
 aResult
@@ -1916,14 +1916,14 @@ nsPIDOMWindow
 *
 window
 ;
-nsIContent
+Element
 *
 root
 =
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 ;
@@ -4403,7 +4403,7 @@ document
 document
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 =
@@ -5514,7 +5514,7 @@ doc
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 =
@@ -8344,7 +8344,7 @@ GetOwnerDoc
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 |
@@ -8354,7 +8354,7 @@ GetOwnerDoc
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 -
@@ -9193,11 +9193,7 @@ return
 aFlags
 &
 ~
-(
 eCONTENT
-|
-eELEMENT
-)
 )
 ;
 }
@@ -10121,7 +10117,7 @@ doc
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 !
