@@ -35,12 +35,6 @@ jstests
 .
 list
 include
-ecma_6
-/
-jstests
-.
-list
-include
 js1_1
 /
 jstests

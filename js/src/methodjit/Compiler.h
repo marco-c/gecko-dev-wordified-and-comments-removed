@@ -3028,9 +3028,9 @@ name
 void
 enterBlock
 (
-StaticBlockObject
+JSObject
 *
-block
+obj
 )
 ;
 void
