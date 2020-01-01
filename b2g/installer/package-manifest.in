@@ -670,6 +670,13 @@ BINPATH
 /
 components
 /
+content_media
+.
+xpt
+BINPATH
+/
+components
+/
 content_xslt
 .
 xpt
