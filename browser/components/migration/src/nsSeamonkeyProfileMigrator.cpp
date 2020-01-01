@@ -1817,6 +1817,15 @@ MAKESAMETYPEPREFTRANSFORM
 "
 dom
 .
+disable_window_move_resize
+"
+Bool
+)
+MAKESAMETYPEPREFTRANSFORM
+(
+"
+dom
+.
 disable_window_flip
 "
 Bool

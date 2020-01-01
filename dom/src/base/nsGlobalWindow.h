@@ -1819,12 +1819,6 @@ nsAString
 aOutTitle
 )
 ;
-static
-PRBool
-CanMoveResizeWindows
-(
-)
-;
 nsresult
 FindInternal
 (
