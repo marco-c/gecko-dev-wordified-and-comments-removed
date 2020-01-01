@@ -2217,6 +2217,16 @@ App
 >
 <
 !
+ENTITY
+searchable_description
+"
+Bookmarks
+and
+history
+"
+>
+<
+!
 -
 -
 Updater

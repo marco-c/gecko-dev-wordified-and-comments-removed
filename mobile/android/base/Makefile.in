@@ -1079,6 +1079,14 @@ xml
 \
 res
 /
+xml
+/
+searchable
+.
+xml
+\
+res
+/
 menu
 /
 browser_app_menu
