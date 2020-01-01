@@ -11119,9 +11119,10 @@ SyncJSContexts
 ;
 private
 :
-nsTArray
+nsAutoTArray
 <
 JSContextAndFrame
+16
 >
 mStack
 ;
