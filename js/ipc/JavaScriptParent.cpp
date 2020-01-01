@@ -2850,6 +2850,16 @@ objId
 OBJECT_IS_CALLABLE
 )
 ;
+RootedObject
+global
+(
+cx
+JS_GetGlobalForScopeChain
+(
+cx
+)
+)
+;
 RootedValue
 v
 (
@@ -2873,7 +2883,7 @@ CPOWProxyHandler
 singleton
 v
 NULL
-NULL
+global
 callable
 ?
 ProxyIsCallable
