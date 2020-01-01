@@ -920,6 +920,11 @@ RemoveDuplicateURIs
 (
 )
 ;
+nsresult
+UpdateSchemaVersion
+(
+)
+;
 private
 :
 ~
