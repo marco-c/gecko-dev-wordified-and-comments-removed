@@ -298,6 +298,13 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+mChannel
+=
+do_QueryInterface
+(
+request
+)
+;
 if
 (
 mInputStream
@@ -305,13 +312,6 @@ mInputStream
 {
 nsresult
 rv
-;
-mChannel
-=
-do_QueryInterface
-(
-request
-)
 ;
 PRUint32
 readCount
