@@ -179,6 +179,10 @@ PerformanceTiming
 .
 webidl
 \
+Screen
+.
+webidl
+\
 SVGLengthList
 .
 webidl
