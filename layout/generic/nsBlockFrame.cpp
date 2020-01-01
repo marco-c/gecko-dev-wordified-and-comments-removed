@@ -23382,6 +23382,10 @@ if
 currentlyInOverflowLines
 )
 {
+mInOverflowLines
+=
+nsnull
+;
 mLine
 =
 mFrame
