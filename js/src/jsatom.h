@@ -1374,6 +1374,14 @@ noSuchMethodAtom
 ;
 JSAtom
 *
+objectNullAtom
+;
+JSAtom
+*
+objectUndefinedAtom
+;
+JSAtom
+*
 protoAtom
 ;
 JSAtom

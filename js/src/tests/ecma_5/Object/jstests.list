@@ -971,6 +971,14 @@ methods
 .
 js
 script
+object
+-
+toString
+-
+01
+.
+js
+script
 vacuous
 -
 accessor
