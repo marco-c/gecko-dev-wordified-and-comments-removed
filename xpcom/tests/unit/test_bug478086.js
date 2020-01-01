@@ -81,6 +81,8 @@ initWithPath
 }
 else
 {
+return
+;
 root
 .
 initWithPath
