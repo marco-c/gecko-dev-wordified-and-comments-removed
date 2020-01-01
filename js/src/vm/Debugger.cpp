@@ -7604,7 +7604,7 @@ compartment
 )
 -
 >
-isCollecting
+isGCMarking
 (
 )
 )
