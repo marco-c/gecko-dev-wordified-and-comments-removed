@@ -21,13 +21,6 @@ h
 #
 include
 "
-gfxTextRunCache
-.
-h
-"
-#
-include
-"
 nsTextFragment
 .
 h

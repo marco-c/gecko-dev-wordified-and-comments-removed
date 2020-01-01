@@ -9956,13 +9956,11 @@ dp
 ;
 }
 }
-JS_ALWAYS_TRUE
-(
 rdata
 .
 sb
 .
-append
+infallibleAppend
 (
 cp
 repstr
@@ -9976,7 +9974,6 @@ length
 cp
 -
 bp
-)
 )
 )
 ;

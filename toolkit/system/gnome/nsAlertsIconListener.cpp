@@ -360,6 +360,9 @@ nsAlertsIconListener
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer

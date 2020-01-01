@@ -540,6 +540,9 @@ nsImageLoadingContent
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
@@ -553,6 +556,7 @@ LOOP_OVER_OBSERVERS
 (
 FrameChanged
 (
+aRequest
 aContainer
 aDirtyRect
 )

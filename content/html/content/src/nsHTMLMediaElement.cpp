@@ -939,6 +939,16 @@ UnregisterShutdownObserver
 this
 )
 ;
+if
+(
+!
+mElement
+)
+{
+return
+NS_BINDING_ABORTED
+;
+}
 nsRefPtr
 <
 nsHTMLMediaElement

@@ -2393,6 +2393,9 @@ nsMenuItemIconX
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer

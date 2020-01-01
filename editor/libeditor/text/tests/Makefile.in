@@ -568,6 +568,10 @@ endif
 _CHROME_TEST_FILES
 =
 \
+test_bug471319
+.
+html
+\
 test_bug483651
 .
 html

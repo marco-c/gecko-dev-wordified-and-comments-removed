@@ -1066,6 +1066,11 @@ char
 aPref
 )
 ;
+PRInt32
+GetBidiNumeralOption
+(
+)
+;
 gfxASurface
 *
 ScreenReferenceSurface
@@ -1146,6 +1151,9 @@ mGraphiteShapingEnabled
 ;
 #
 endif
+PRInt8
+mBidiNumeralOption
+;
 PRInt32
 mUseHarfBuzzScripts
 ;

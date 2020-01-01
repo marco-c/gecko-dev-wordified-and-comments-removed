@@ -2664,6 +2664,9 @@ nsImageBoxFrame
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
@@ -2854,6 +2857,9 @@ nsImageBoxListener
 :
 FrameChanged
 (
+imgIRequest
+*
+aRequest
 imgIContainer
 *
 aContainer
@@ -2877,6 +2883,7 @@ mFrame
 >
 FrameChanged
 (
+aRequest
 aContainer
 aDirtyRect
 )

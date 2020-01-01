@@ -6838,6 +6838,13 @@ ConsoleError
 (
 )
 ;
+mClientReasonCode
+=
+nsIWebSocketChannel
+:
+:
+CLOSE_GOING_AWAY
+;
 return
 CloseConnection
 (
