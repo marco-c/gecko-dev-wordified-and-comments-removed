@@ -357,7 +357,6 @@ up
 .
 "
 )
-;
 namespace
 mozilla
 {
