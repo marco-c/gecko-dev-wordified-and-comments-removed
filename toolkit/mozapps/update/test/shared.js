@@ -311,6 +311,15 @@ url
 "
 ;
 const
+PREF_EXTENSIONS_STRICT_COMPAT
+=
+"
+extensions
+.
+strictCompatibility
+"
+;
+const
 NS_APP_PROFILE_DIR_STARTUP
 =
 "

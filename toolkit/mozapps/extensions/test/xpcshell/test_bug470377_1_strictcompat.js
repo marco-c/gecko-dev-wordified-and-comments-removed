@@ -15,7 +15,7 @@ prefs
 setBoolPref
 (
 PREF_EM_STRICT_COMPATIBILITY
-false
+true
 )
 ;
 var
@@ -197,13 +197,13 @@ a1
 null
 )
 ;
-do_check_neq
+do_check_eq
 (
 a2
 null
 )
 ;
-do_check_neq
+do_check_eq
 (
 a3
 null

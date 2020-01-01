@@ -22,7 +22,7 @@ prefs
 setBoolPref
 (
 PREF_EM_STRICT_COMPATIBILITY
-false
+true
 )
 ;
 var
@@ -1130,7 +1130,7 @@ a5
 null
 )
 ;
-do_check_true
+do_check_false
 (
 a5
 .
@@ -1144,7 +1144,7 @@ a5
 userDisabled
 )
 ;
-do_check_false
+do_check_true
 (
 a5
 .
@@ -1539,7 +1539,7 @@ a3
 userDisabled
 )
 ;
-do_check_false
+do_check_true
 (
 a3
 .
@@ -1553,7 +1553,7 @@ a3
 pendingOperations
 AddonManager
 .
-PENDING_NONE
+PENDING_DISABLE
 )
 ;
 do_check_neq
@@ -1569,14 +1569,14 @@ a4
 isActive
 )
 ;
-do_check_true
+do_check_false
 (
 a4
 .
 userDisabled
 )
 ;
-do_check_false
+do_check_true
 (
 a4
 .
@@ -1599,7 +1599,7 @@ a5
 null
 )
 ;
-do_check_true
+do_check_false
 (
 a5
 .
@@ -1613,7 +1613,7 @@ a5
 userDisabled
 )
 ;
-do_check_false
+do_check_true
 (
 a5
 .
@@ -1955,7 +1955,7 @@ a3
 null
 )
 ;
-do_check_true
+do_check_false
 (
 a3
 .
@@ -1969,7 +1969,7 @@ a3
 userDisabled
 )
 ;
-do_check_false
+do_check_true
 (
 a3
 .
@@ -1999,14 +1999,14 @@ a4
 isActive
 )
 ;
-do_check_true
+do_check_false
 (
 a4
 .
 userDisabled
 )
 ;
-do_check_false
+do_check_true
 (
 a4
 .
@@ -2029,7 +2029,7 @@ a5
 null
 )
 ;
-do_check_true
+do_check_false
 (
 a5
 .
@@ -2043,7 +2043,7 @@ a5
 userDisabled
 )
 ;
-do_check_false
+do_check_true
 (
 a5
 .

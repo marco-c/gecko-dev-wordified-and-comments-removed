@@ -17,6 +17,16 @@ update
 xul
 "
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_STRICT_COMPAT
+true
+)
+;
 function
 test
 (
