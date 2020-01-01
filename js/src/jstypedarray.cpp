@@ -7440,7 +7440,7 @@ argc
 if
 (
 !
-NonstandardToInt32
+ToInt32
 (
 cx
 argv
@@ -7486,7 +7486,7 @@ argc
 if
 (
 !
-NonstandardToInt32
+ToInt32
 (
 cx
 argv
@@ -7815,7 +7815,7 @@ length
 if
 (
 !
-NonstandardToInt32
+ToInt32
 (
 cx
 args
