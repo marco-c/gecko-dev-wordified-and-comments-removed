@@ -5999,7 +5999,7 @@ Navigator
 :
 GetMozAudioChannelManager
 (
-nsIAudioChannelManager
+nsISupports
 *
 *
 aAudioChannelManager

@@ -225,10 +225,6 @@ nsIWorkerHolder
 .
 idl
 \
-nsIAudioChannelManager
-.
-idl
-\
 nsINavigatorAudioChannelManager
 .
 idl
