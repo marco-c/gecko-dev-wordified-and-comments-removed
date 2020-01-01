@@ -709,7 +709,7 @@ append
 "
 extensions
 .
-json
+sqlite
 "
 )
 ;
@@ -1057,7 +1057,7 @@ append
 "
 extensions
 .
-json
+sqlite
 "
 )
 ;

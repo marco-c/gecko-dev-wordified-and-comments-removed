@@ -1,4 +1,13 @@
 const
+EXTENSIONS_DB
+=
+"
+extensions
+.
+sqlite
+"
+;
+const
 profileDir
 =
 gProfD

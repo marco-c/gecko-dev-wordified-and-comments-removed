@@ -38,6 +38,15 @@ ADDON_DOWNGRADE
 =
 8
 ;
+const
+EXTENSIONS_DB
+=
+"
+extensions
+.
+sqlite
+"
+;
 Components
 .
 utils
