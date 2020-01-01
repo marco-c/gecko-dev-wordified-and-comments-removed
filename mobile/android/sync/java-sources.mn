@@ -24,13 +24,6 @@ sync
 /
 crypto
 /
-Cryptographer
-.
-java
-sync
-/
-crypto
-/
 CryptoInfo
 .
 java
