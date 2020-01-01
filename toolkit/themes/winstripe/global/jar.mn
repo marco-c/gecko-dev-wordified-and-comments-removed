@@ -466,6 +466,7 @@ global
 textbox
 .
 css
+*
 skin
 /
 classic
