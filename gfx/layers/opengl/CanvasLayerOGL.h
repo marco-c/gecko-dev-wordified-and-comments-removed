@@ -91,6 +91,13 @@ LayerOGL
 (
 aManager
 )
+mLayerProgram
+(
+gl
+:
+:
+RGBALayerProgramType
+)
 mTexture
 (
 0
