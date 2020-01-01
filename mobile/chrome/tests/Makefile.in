@@ -462,11 +462,11 @@ browser_bookmarks_star
 .
 js
 \
-browser_bookmarks_folders
+browser_bookmarks_tags
 .
 js
 \
-browser_bookmarks_tags
+browser_select
 .
 js
 \
@@ -475,6 +475,10 @@ browser_blank_01
 html
 \
 browser_blank_02
+.
+html
+\
+browser_select
 .
 html
 \
