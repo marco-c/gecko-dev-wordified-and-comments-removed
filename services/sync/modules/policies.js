@@ -1797,7 +1797,7 @@ namedTimer
 (
 this
 .
-_syncIfMPUnlocked
+syncIfMPUnlocked
 interval
 this
 "
