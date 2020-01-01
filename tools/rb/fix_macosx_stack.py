@@ -483,6 +483,13 @@ atos
 [
 '
 -
+arch
+'
+'
+x86_64
+'
+'
+-
 o
 '
 debug_file
