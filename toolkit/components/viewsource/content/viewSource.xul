@@ -2051,7 +2051,7 @@ endif
 keyset
 >
 <
-popup
+menupopup
 id
 =
 "
@@ -2186,7 +2186,7 @@ cMenu_selectAll
 >
 <
 /
-popup
+menupopup
 >
 <
 !

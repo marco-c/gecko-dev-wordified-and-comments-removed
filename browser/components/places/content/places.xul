@@ -1675,7 +1675,7 @@ placesPopupset
 "
 >
 <
-popup
+menupopup
 id
 =
 "
@@ -1684,7 +1684,7 @@ placesContext
 /
 >
 <
-popup
+menupopup
 id
 =
 "

@@ -590,7 +590,7 @@ properties
 /
 >
 <
-popup
+menupopup
 id
 =
 "
@@ -971,7 +971,7 @@ ResetSelected
 >
 <
 /
-popup
+menupopup
 >
 <
 keyset

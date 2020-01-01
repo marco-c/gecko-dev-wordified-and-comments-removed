@@ -191,7 +191,7 @@ aTooltipSet
 "
 >
 <
-popup
+tooltip
 id
 =
 "
@@ -240,7 +240,7 @@ flex
 >
 <
 /
-popup
+tooltip
 >
 <
 /

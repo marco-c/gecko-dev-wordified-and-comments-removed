@@ -933,7 +933,7 @@ ContextMenus
 "
 >
 <
-popup
+menupopup
 id
 =
 "
@@ -1068,7 +1068,7 @@ accesskey
 >
 <
 /
-popup
+menupopup
 >
 <
 /

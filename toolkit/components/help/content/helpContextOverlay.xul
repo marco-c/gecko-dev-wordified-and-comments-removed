@@ -475,7 +475,7 @@ contentAreaContextSet
 "
 >
 <
-popup
+menupopup
 id
 =
 "
@@ -805,7 +805,7 @@ this
 endif
 <
 /
-popup
+menupopup
 >
 <
 /

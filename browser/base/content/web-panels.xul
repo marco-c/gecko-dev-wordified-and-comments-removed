@@ -964,7 +964,7 @@ tooltipNode
 /
 >
 <
-popup
+menupopup
 id
 =
 "
@@ -1029,7 +1029,7 @@ context
 inc
 <
 /
-popup
+menupopup
 >
 <
 /

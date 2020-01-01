@@ -319,7 +319,7 @@ contentAreaContextSet
 "
 >
 <
-popup
+menupopup
 id
 =
 "
@@ -411,7 +411,7 @@ cmd_selectAll
 >
 <
 /
-popup
+menupopup
 >
 <
 /

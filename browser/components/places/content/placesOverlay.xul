@@ -1317,7 +1317,7 @@ placesCmd_delete
 commandset
 >
 <
-popup
+menupopup
 id
 =
 "
@@ -2434,7 +2434,7 @@ livemarkChild
 >
 <
 /
-popup
+menupopup
 >
 <
 /
