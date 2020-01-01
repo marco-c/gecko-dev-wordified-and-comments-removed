@@ -514,7 +514,7 @@ reason
 }
 }
 ;
-jClient
+JPakeClient
 .
 runOnThread
 (
