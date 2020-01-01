@@ -1716,11 +1716,8 @@ JS_ValueToObject
 (
 aCx
 listenerVal
+&
 listenerObj
-.
-address
-(
-)
 )
 )
 {

@@ -3060,9 +3060,14 @@ lineNum
 =
 0
 ;
-JSScript
-*
+JS
+:
+:
+RootedScript
 script
+(
+aCx
+)
 ;
 const
 char

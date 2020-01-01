@@ -39469,11 +39469,8 @@ hasFrame
 JS_DescribeScriptedCaller
 (
 cx
+&
 script
-.
-address
-(
-)
 &
 lineno
 )

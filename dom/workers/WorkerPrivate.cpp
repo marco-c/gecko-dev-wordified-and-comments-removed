@@ -11461,9 +11461,14 @@ parentContext
 =
 nullptr
 ;
-JSScript
-*
+JS
+:
+:
+RootedScript
 script
+(
+aCx
+)
 ;
 if
 (
