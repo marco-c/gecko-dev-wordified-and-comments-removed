@@ -177,6 +177,10 @@ browser_visituri_privatebrowsing_perwindowpb
 .
 js
 \
+browser_favicon_privatebrowsing_perwindowpb
+.
+js
+\
 (
 NULL
 )
