@@ -664,13 +664,6 @@ i
 1
 )
 {
-buffer
--
->
-invalidateStaticData
-(
-)
-;
 for
 (
 int
@@ -774,6 +767,13 @@ i
 ]
 count
 )
+)
+;
+buffer
+-
+>
+invalidateStaticData
+(
 )
 ;
 }
