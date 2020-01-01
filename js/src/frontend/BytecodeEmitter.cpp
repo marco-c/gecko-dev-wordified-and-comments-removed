@@ -21192,6 +21192,7 @@ endif
 #
 if
 JS_HAS_XML_SUPPORT
+MOZ_NEVER_INLINE
 static
 bool
 EmitXMLTag
@@ -26981,6 +26982,7 @@ return
 true
 ;
 }
+MOZ_NEVER_INLINE
 static
 bool
 EmitIncOrDec
@@ -28062,6 +28064,7 @@ beq
 )
 ;
 }
+MOZ_NEVER_INLINE
 static
 bool
 EmitObject
