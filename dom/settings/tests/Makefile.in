@@ -93,10 +93,6 @@ test_settings_onsettingchange
 .
 html
 \
-test_settings_blobs
-.
-html
-\
 (
 NULL
 )
