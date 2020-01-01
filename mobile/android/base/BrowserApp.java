@@ -1366,7 +1366,7 @@ ACTION_CANCEL
 {
 mBrowserToolbar
 .
-animateVisibility
+animateVisibilityWithVelocityBias
 (
 toolbarView
 .
@@ -1381,7 +1381,17 @@ toolbarHeight
 false
 :
 true
-0
+mLayerView
+.
+getPanZoomController
+(
+)
+.
+getVelocityVector
+(
+)
+.
+y
 )
 ;
 }
