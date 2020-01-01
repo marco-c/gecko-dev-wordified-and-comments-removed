@@ -20559,9 +20559,6 @@ ORIGIN
 .
 '
 "
-MOZ_MEMORY
-=
-1
 if
 test
 "
