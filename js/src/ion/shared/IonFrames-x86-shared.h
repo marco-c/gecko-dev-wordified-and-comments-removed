@@ -1570,7 +1570,7 @@ const
 class
 BaselineFrame
 {
-uint32_t
+size_t
 frameSize
 ;
 public

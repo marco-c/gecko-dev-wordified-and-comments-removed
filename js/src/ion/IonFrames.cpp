@@ -2319,13 +2319,13 @@ BaselineFrame
 :
 FramePointerOffset
 ;
-uint32_t
+size_t
 size
 =
 *
 reinterpret_cast
 <
-uint32_t
+size_t
 *
 >
 (
