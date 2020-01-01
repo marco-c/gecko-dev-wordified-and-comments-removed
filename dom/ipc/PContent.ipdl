@@ -180,6 +180,10 @@ PStorage
 ;
 include
 protocol
+PTelephony
+;
+include
+protocol
 PTestShell
 ;
 include
@@ -648,6 +652,9 @@ PSpeechSynthesis
 ;
 manages
 PStorage
+;
+manages
+PTelephony
 ;
 manages
 PTestShell
@@ -1494,6 +1501,10 @@ PSpeechSynthesis
 )
 ;
 PStorage
+(
+)
+;
+PTelephony
 (
 )
 ;
