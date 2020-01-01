@@ -33,6 +33,16 @@ xpcJSWeakReference
 nsresult
 Init
 (
+JSContext
+*
+cx
+const
+JS
+:
+:
+Value
+&
+object
 )
 ;
 NS_DECL_ISUPPORTS
