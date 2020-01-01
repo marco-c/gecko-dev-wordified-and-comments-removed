@@ -516,6 +516,13 @@ aValue
 )
 ;
 virtual
+nsEventStates
+IntrinsicState
+(
+)
+const
+;
+virtual
 bool
 ParseAttribute
 (
