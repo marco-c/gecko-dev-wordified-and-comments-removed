@@ -420,6 +420,11 @@ nsIDocumentEncoder
 :
 :
 OutputRaw
+|
+nsIDocumentEncoder
+:
+:
+SkipInvisibleContent
 ;
 nsCOMPtr
 <
@@ -617,7 +622,10 @@ kHTMLMime
 ;
 flags
 =
-0
+nsIDocumentEncoder
+:
+:
+SkipInvisibleContent
 ;
 rv
 =
@@ -1634,6 +1642,11 @@ PRUint32
 flags
 =
 aFlags
+|
+nsIDocumentEncoder
+:
+:
+SkipInvisibleContent
 ;
 if
 (
