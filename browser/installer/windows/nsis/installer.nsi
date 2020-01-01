@@ -1684,16 +1684,6 @@ LogUninstall
 File
 :
 \
-.
-autoreg
-"
-{
-LogUninstall
-}
-"
-File
-:
-\
 active
 -
 update
