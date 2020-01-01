@@ -815,7 +815,7 @@ QueryInterface
 (
 Ci
 .
-nsIAccessibleCursorable
+nsIAccessibleDocument
 )
 .
 virtualCursor
