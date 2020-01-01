@@ -611,6 +611,8 @@ types
 StackTypeSet
 *
 calleeTypes
+bool
+constructing
 AutoObjectVector
 &
 targets
