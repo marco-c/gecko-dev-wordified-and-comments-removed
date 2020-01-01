@@ -1013,14 +1013,13 @@ GetBool
 SMIL_PREF_STR
 )
 ;
-nsContentUtils
+Preferences
 :
 :
-RegisterPrefCallback
+RegisterCallback
 (
-SMIL_PREF_STR
 SMILPrefChanged
-nsnull
+SMIL_PREF_STR
 )
 ;
 sInitialized

@@ -6925,11 +6925,13 @@ LayoutBidi
 )
 )
 ;
-nsContentUtils
+Preferences
 :
 :
-AddBoolPrefVarCache
+AddBoolVarCache
 (
+&
+sSynthMouseMove
 "
 layout
 .
@@ -6937,8 +6939,6 @@ reflow
 .
 synthMouseMove
 "
-&
-sSynthMouseMove
 PR_TRUE
 )
 ;

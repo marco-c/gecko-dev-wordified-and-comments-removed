@@ -2358,11 +2358,12 @@ gPlugDetector
 PR_TRUE
 ;
 }
-nsContentUtils
+Preferences
 :
 :
-RegisterPrefCallback
+RegisterCallback
 (
+MyPrefChangedCallback
 "
 intl
 .
@@ -2370,8 +2371,6 @@ charset
 .
 detector
 "
-MyPrefChangedCallback
-nsnull
 )
 ;
 gInitDetector

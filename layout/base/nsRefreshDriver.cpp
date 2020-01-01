@@ -120,11 +120,13 @@ InitializeStatics
 (
 )
 {
-nsContentUtils
+Preferences
 :
 :
-AddBoolPrefVarCache
+AddBoolVarCache
 (
+&
+sPrecisePref
 "
 layout
 .
@@ -132,8 +134,6 @@ frame_rate
 .
 precise
 "
-&
-sPrecisePref
 PR_FALSE
 )
 ;
