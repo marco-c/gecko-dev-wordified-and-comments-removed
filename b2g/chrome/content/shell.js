@@ -3250,12 +3250,6 @@ true
 ;
 DebuggerServer
 .
-addBrowserActors
-(
-)
-;
-DebuggerServer
-.
 addActors
 (
 '
@@ -3690,6 +3684,7 @@ geolocationStatusTracker
 (
 )
 {
+let
 gGeolocationActiveCount
 =
 0
