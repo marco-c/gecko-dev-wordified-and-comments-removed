@@ -496,6 +496,12 @@ Legacy
 .
 js
 \
+(
+NULL
+)
+EXTRA_PP_COMPONENTS
+=
+\
 storage
 -
 mozStorage
