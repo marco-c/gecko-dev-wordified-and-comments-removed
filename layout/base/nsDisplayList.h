@@ -1142,6 +1142,7 @@ size_t
 aSize
 )
 ;
+const
 DisplayItemClip
 *
 AllocateDisplayItemClip
