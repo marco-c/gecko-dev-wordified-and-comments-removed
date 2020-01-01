@@ -14589,7 +14589,7 @@ if
 (
 B2G
 )
-fails
+random
 -
 if
 (
@@ -24962,7 +24962,7 @@ html
 ref
 .
 html
-fails
+random
 -
 if
 (
