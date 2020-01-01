@@ -935,6 +935,9 @@ mAppVersion
 nsCString
 mCompatFirefox
 ;
+nsXPIDLCString
+mCompatDevice
+;
 nsCString
 mUserAgent
 ;
