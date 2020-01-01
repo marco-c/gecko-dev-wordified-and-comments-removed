@@ -219,7 +219,9 @@ MediaEngineVideoSource
 }
 ;
 virtual
+const
 MediaEngineVideoOptions
+*
 GetOptions
 (
 )
