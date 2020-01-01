@@ -296,7 +296,7 @@ aActualError
 )
 throw
 "
-Storage
+Test
 didn
 '
 t
@@ -324,7 +324,7 @@ aActualError
 )
 throw
 "
-Storage
+Test
 threw
 (
 "
@@ -366,7 +366,7 @@ aActualError
 {
 throw
 "
-Component
+Test
 threw
 unexpected
 error
