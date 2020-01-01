@@ -508,6 +508,16 @@ test_valueLeaks
 .
 xhtml
 \
+viewport
+-
+helper
+.
+svg
+\
+test_viewport
+.
+html
+\
 (
 NULL
 )
