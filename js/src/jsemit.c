@@ -8040,6 +8040,9 @@ js_Emit2
 cx
 cg
 JSOP_ATOMBASE
+(
+JSOp
+)
 atomIndex
 )
 <

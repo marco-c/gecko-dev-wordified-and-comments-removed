@@ -7345,6 +7345,9 @@ arenaList
 >
 lastLimit
 =
+(
+uint16
+)
 offset
 ;
 *

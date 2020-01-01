@@ -7038,10 +7038,15 @@ Decompile
 ss
 pc
 -
+(
+(
+intN
+)
 ss
 -
 >
 top
+)
 JSOP_NOP
 )
 ;
@@ -8852,7 +8857,7 @@ expr
 LOCAL_ASSERT_RV
 (
 expr
-JS_FALSE
+NULL
 )
 #
 define
