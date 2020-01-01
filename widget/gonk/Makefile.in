@@ -529,6 +529,14 @@ VirtualKeyMap
 .
 cpp
 \
+PointerController
+.
+cpp
+\
+SpriteController
+.
+cpp
+\
 PropertyMap
 .
 cpp
