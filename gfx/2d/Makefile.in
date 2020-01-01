@@ -511,6 +511,10 @@ SourceSurfaceCairo
 .
 cpp
 \
+PathCairo
+.
+cpp
+\
 Blur
 .
 cpp
