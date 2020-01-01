@@ -20221,7 +20221,7 @@ lir
 >
 ins2i
 (
-LIR_or
+LIR_pior
 lir
 -
 >
@@ -20253,7 +20253,7 @@ lir
 >
 ins2
 (
-LIR_or
+LIR_pior
 v_ins
 INS_CONST
 (
@@ -20304,7 +20304,7 @@ lir
 >
 ins2
 (
-LIR_or
+LIR_pior
 lir
 -
 >
@@ -20312,7 +20312,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 JSVAL_INT
 )
@@ -20330,7 +20330,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 JSVAL_TAGMASK
 )
@@ -20385,7 +20385,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 JSVAL_TAGMASK
 )
@@ -20429,7 +20429,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 JSVAL_TAGMASK
 )
@@ -20461,7 +20461,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 JSVAL_TAGMASK
 )
@@ -20480,7 +20480,7 @@ ins2
 (
 LIR_piand
 v_ins
-INS_CONSTPTR
+INS_CONST
 (
 ~
 JSVAL_TAGMASK
@@ -20654,12 +20654,8 @@ class_ins
 lir
 -
 >
-insImmPtr
+insImm
 (
-(
-void
-*
-)
 ~
 3
 )
