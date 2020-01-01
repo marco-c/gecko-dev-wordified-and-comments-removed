@@ -183,6 +183,13 @@ h
 #
 include
 "
+mozStorageHelper
+.
+h
+"
+#
+include
+"
 nsIMutableArray
 .
 h
@@ -1250,6 +1257,13 @@ rv
 rv
 )
 ;
+mozStorageTransaction
+transaction
+(
+mDBConn
+PR_TRUE
+)
+;
 nsCOMPtr
 <
 nsIRDFContainer
@@ -1831,6 +1845,9 @@ rv
 )
 continue
 ;
+(
+void
+)
 AddDownloadToDB
 (
 name
