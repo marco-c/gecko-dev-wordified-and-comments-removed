@@ -3420,6 +3420,12 @@ STATUS_CLEANUP
 SetDetailsPrint
 none
 {
+Unless
+}
+{
+Silent
+}
+{
 MUI_INSTALLOPTIONS_READ
 }
 0
@@ -3461,6 +3467,9 @@ SetAsDefaultAppUser
 }
 {
 EndIf
+}
+{
+EndUnless
 }
 {
 LogHeader
