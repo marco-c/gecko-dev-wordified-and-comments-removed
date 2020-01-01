@@ -5425,9 +5425,6 @@ nsIFrame
 *
 AdjustAbsoluteContainingBlock
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aContainingBlockIn
@@ -5447,7 +5444,7 @@ return
 aContainingBlockIn
 -
 >
-GetFirstInFlow
+GetFirstContinuation
 (
 )
 ;
@@ -5500,7 +5497,6 @@ nsAbsoluteItems
 (
 AdjustAbsoluteContainingBlock
 (
-mPresContext
 aNewAbsoluteContainingBlock
 )
 )
@@ -33715,12 +33711,6 @@ containingBlock
 return
 AdjustAbsoluteContainingBlock
 (
-mPresShell
--
->
-GetPresContext
-(
-)
 containingBlock
 )
 ;
