@@ -2605,6 +2605,11 @@ tmp
 =
 this
 ;
+if
+(
+mFlushTimer
+)
+{
 mFlushTimer
 -
 >
@@ -2612,6 +2617,7 @@ Cancel
 (
 )
 ;
+}
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
 mFlushTimer
