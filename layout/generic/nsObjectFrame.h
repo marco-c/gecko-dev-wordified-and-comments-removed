@@ -989,6 +989,10 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+const
+nsRect
+&
+aAllowVisibleRegionExpansion
 PRBool
 &
 aContainsRootContentDocBG
