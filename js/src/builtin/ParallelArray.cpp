@@ -4429,7 +4429,10 @@ NonGenericMethod
 lengthGetter
 >
 0
-0
+JSFunction
+:
+:
+NATIVE_FUN
 global
 NullPtr
 (
@@ -4452,7 +4455,10 @@ NonGenericMethod
 dimensionsGetter
 >
 0
-0
+JSFunction
+:
+:
+NATIVE_FUN
 global
 NullPtr
 (

@@ -16493,7 +16493,10 @@ NullPtr
 )
 constructor
 nargs
-JSFUN_CONSTRUCTOR
+JSFunction
+:
+:
+NATIVE_CTOR
 obj
 atom
 ctorKind

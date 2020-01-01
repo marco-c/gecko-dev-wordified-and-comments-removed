@@ -919,7 +919,10 @@ NullPtr
 )
 bool_valueOf
 0
-0
+JSFunction
+:
+:
+NATIVE_FUN
 global
 valueOfName
 )

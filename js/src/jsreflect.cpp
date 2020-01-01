@@ -17500,9 +17500,9 @@ JS_HAS_EXPR_CLOSURES
 func
 -
 >
-flags
-&
-JSFUN_EXPR_CLOSURE
+isExprClosure
+(
+)
 ;
 #
 else

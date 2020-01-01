@@ -8259,13 +8259,11 @@ toFunction
 )
 ;
 return
-(
 fun
 -
 >
-flags
-&
-JSFUN_LAMBDA
+isLambda
+(
 )
 &
 &

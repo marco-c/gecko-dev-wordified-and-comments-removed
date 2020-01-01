@@ -7044,9 +7044,9 @@ JS_ASSERT
 fun
 -
 >
-flags
-&
-JSFUN_LAMBDA
+isLambda
+(
+)
 )
 ;
 JS_ASSERT

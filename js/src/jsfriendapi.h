@@ -5589,6 +5589,13 @@ jitinfo
 ;
 }
 static
+const
+unsigned
+JS_FUNCTION_INTERPRETED_BIT
+=
+0x1
+;
+static
 JS_ALWAYS_INLINE
 void
 SET_JITINFO
@@ -5636,7 +5643,7 @@ fun
 >
 flags
 &
-0x4000
+JS_FUNCTION_INTERPRETED_BIT
 )
 )
 ;

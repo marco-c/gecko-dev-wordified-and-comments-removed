@@ -18345,7 +18345,10 @@ NullPtr
 )
 DebuggerArguments_getArg
 0
-0
+JSFunction
+:
+:
+NATIVE_FUN
 global
 NullPtr
 (
