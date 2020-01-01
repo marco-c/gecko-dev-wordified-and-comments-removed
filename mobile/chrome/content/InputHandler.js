@@ -1178,6 +1178,13 @@ aEvent
 clientY
 )
 ;
+if
+(
+this
+.
+_dragger
+)
+{
 let
 draggable
 =
@@ -1193,12 +1200,6 @@ targetScrollInterface
 ;
 if
 (
-this
-.
-_dragger
-&
-&
-(
 draggable
 .
 x
@@ -1208,7 +1209,6 @@ draggable
 .
 y
 )
-)
 this
 .
 _doDragStart
@@ -1216,6 +1216,7 @@ _doDragStart
 aEvent
 )
 ;
+}
 if
 (
 this
