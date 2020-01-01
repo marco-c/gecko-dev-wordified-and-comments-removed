@@ -14374,6 +14374,13 @@ CGContextRef
 )
 aContext
 {
+if
+(
+!
+mGeckoChild
+)
+return
+;
 /
 /
 Title
