@@ -398,15 +398,6 @@ aShow
 )
 {
 }
-virtual
-void
-SetWindowAnimationType
-(
-WindowAnimationType
-aType
-)
-{
-}
 NS_IMETHOD
 HideWindowChrome
 (
