@@ -155,4 +155,6 @@ LIBXUL_LIBRARY
 True
 LIBRARY_NAME
 =
+'
 domfmradio_s
+'
