@@ -1,10 +1,5 @@
 #
 include
-<
-cstddef
->
-#
-include
 "
 os2
 .
