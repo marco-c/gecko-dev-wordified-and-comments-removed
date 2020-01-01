@@ -53,5 +53,12 @@ SANDBOXED_AUTOMATIC_FEATURES
 =
 0x40
 ;
+const
+unsigned
+long
+SANDBOXED_POINTER_LOCK
+=
+0x80
+;
 #
 endif
