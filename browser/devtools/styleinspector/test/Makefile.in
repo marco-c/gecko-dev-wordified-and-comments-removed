@@ -195,6 +195,10 @@ browser_ruleview_pseudoelement
 .
 js
 \
+browser_computedview_bug835808_keyboard_nav
+.
+js
+\
 head
 .
 js

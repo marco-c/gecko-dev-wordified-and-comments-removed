@@ -198,6 +198,10 @@ space
 :
 nowrap
 ;
+outline
+:
+0
+;
 }
 .
 property
@@ -274,6 +278,10 @@ padding
 left
 :
 10px
+;
+outline
+:
+0
 ;
 }
 .
