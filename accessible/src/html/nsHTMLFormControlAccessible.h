@@ -18,6 +18,13 @@ nsHyperTextAccessibleWrap
 .
 h
 "
+typedef
+ProgressMeterAccessible
+<
+1
+>
+HTMLProgressMeterAccessible
+;
 class
 nsHTMLCheckboxAccessible
 :

@@ -577,6 +577,13 @@ panel
 )
 ACCESSIBILITY_ATOM
 (
+progress
+"
+progress
+"
+)
+ACCESSIBILITY_ATOM
+(
 q
 "
 q
