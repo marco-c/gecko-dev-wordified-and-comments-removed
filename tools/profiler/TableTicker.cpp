@@ -23,7 +23,7 @@ sstream
 #
 include
 "
-sps_sampler
+GeckoProfilerImpl
 .
 h
 "
