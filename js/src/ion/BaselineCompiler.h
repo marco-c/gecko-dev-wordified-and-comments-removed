@@ -595,6 +595,11 @@ emitEpilogue
 (
 )
 ;
+bool
+emitStackCheck
+(
+)
+;
 void
 storeValue
 (
