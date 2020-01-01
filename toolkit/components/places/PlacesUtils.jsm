@@ -9568,7 +9568,6 @@ function
 PU_getCharsetForURI
 (
 aURI
-aCallback
 )
 {
 let
@@ -9619,17 +9618,6 @@ catch
 ex
 )
 {
-}
-if
-(
-aCallback
-)
-{
-aCallback
-(
-charset
-)
-;
 }
 deferred
 .
