@@ -197,10 +197,6 @@ aSourceRect
 const
 gfxRect
 &
-aSubimageRect
-const
-gfxRect
-&
 aDestRect
 )
 ;
