@@ -808,6 +808,10 @@ test_role_table_cells
 .
 html
 \
+test_selectable_tree
+.
+xul
+\
 test_states
 .
 html
