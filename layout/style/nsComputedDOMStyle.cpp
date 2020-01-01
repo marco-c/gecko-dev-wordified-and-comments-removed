@@ -4528,7 +4528,6 @@ Append
 NS_LITERAL_STRING
 (
 "
-px
 "
 )
 )
@@ -4540,18 +4539,6 @@ AppendFloat
 matrix
 .
 _42
-)
-;
-resultString
-.
-Append
-(
-NS_LITERAL_STRING
-(
-"
-px
-"
-)
 )
 ;
 if
@@ -4586,7 +4573,6 @@ Append
 NS_LITERAL_STRING
 (
 "
-px
 "
 )
 )
