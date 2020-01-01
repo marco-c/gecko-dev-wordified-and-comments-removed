@@ -16557,11 +16557,15 @@ obj
 )
 {
 return
-OBJ_IS_ARRAY
+OBJ_GET_CLASS
 (
 cx
 obj
 )
+=
+=
+&
+js_ArrayClass
 ;
 }
 JS_PUBLIC_API
