@@ -24397,6 +24397,7 @@ gKbdLayout
 OnKeyDown
 (
 virtualKeyCode
+aModKeyState
 )
 ;
 PRUint32
