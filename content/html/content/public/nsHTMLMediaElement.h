@@ -410,12 +410,6 @@ char
 *
 *
 aSupportedCodecs
-const
-char
-*
-*
-*
-aMaybeSupportedCodecs
 )
 ;
 static
