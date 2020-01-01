@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLTextAreaElement
-.
-h
-"
-#
-include
-"
 nsITextControlElement
 .
 h
@@ -337,8 +330,6 @@ nsGenericHTMLFormElement
 public
 nsIDOMHTMLTextAreaElement
 public
-nsIDOMNSHTMLTextAreaElement
-public
 nsITextControlElement
 public
 nsIDOMNSEditableElement
@@ -400,7 +391,6 @@ nsGenericHTMLFormElement
 :
 )
 NS_DECL_NSIDOMHTMLTEXTAREAELEMENT
-NS_DECL_NSIDOMNSHTMLTEXTAREAELEMENT
 NS_IMETHOD
 GetEditor
 (
@@ -1229,11 +1219,10 @@ NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLTextAreaElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE6
+NS_HTML_CONTENT_INTERFACE_TABLE5
 (
 nsHTMLTextAreaElement
 nsIDOMHTMLTextAreaElement
-nsIDOMNSHTMLTextAreaElement
 nsITextControlElement
 nsIDOMNSEditableElement
 nsIMutationObserver

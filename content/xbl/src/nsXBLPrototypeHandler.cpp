@@ -127,7 +127,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLTextAreaElement
+nsIDOMHTMLTextAreaElement
 .
 h
 "
@@ -2275,7 +2275,7 @@ controllers
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLTextAreaElement
+nsIDOMHTMLTextAreaElement
 >
 htmlTextArea
 (

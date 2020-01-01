@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLTextAreaElement
+nsIDOMHTMLTextAreaElement
 .
 h
 "
@@ -1060,7 +1060,7 @@ aResult
 endif
 nsCOMPtr
 <
-nsIDOMNSHTMLTextAreaElement
+nsIDOMHTMLTextAreaElement
 >
 htmlTextArea
 =

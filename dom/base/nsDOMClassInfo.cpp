@@ -1612,13 +1612,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLTextAreaElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLTitleElement
 .
 h
@@ -11965,10 +11958,6 @@ nsIDOMHTMLTextAreaElement
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMHTMLTextAreaElement
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMNSHTMLTextAreaElement
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END

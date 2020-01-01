@@ -395,13 +395,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLTextAreaElement
-.
-h
-"
-#
-include
-"
 nsViewsCID
 .
 h
