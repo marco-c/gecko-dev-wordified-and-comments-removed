@@ -203,8 +203,9 @@ highlighter
 container
 "
 ;
-let
-veilBox
+this
+.
+veilContainer
 =
 document
 .
@@ -215,7 +216,9 @@ vbox
 "
 )
 ;
-veilBox
+this
+.
+veilContainer
 .
 id
 =
@@ -253,7 +256,9 @@ this
 .
 buildVeil
 (
-veilBox
+this
+.
+veilContainer
 )
 ;
 this
@@ -269,7 +274,9 @@ highlighterContainer
 .
 appendChild
 (
-veilBox
+this
+.
+veilContainer
 )
 ;
 this
@@ -726,6 +733,12 @@ null
 this
 .
 veilTransparentBox
+=
+null
+;
+this
+.
+veilContainer
 =
 null
 ;
@@ -3755,7 +3768,7 @@ this
 .
 highlighter
 .
-veilTransparentBox
+veilContainer
 .
 removeAttribute
 (
@@ -3854,7 +3867,7 @@ this
 .
 highlighter
 .
-veilTransparentBox
+veilContainer
 .
 setAttribute
 (
