@@ -445,6 +445,14 @@ mk
 _TEST_FILES
 =
 \
+doc
+.
+html
+\
+test_doc
+.
+html
+\
 test_singleline
 .
 html

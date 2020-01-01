@@ -646,6 +646,12 @@ protected
 :
 virtual
 void
+CacheChildren
+(
+)
+;
+virtual
+void
 GetBoundsRect
 (
 nsRect

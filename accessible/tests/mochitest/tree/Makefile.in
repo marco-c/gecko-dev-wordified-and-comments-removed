@@ -447,6 +447,10 @@ mk
 _TEST_FILES
 =
 \
+dockids
+.
+html
+\
 (
 warning
 test_applicationacc
@@ -484,6 +488,10 @@ test_cssoverflow
 html
 \
 test_dochierarchy
+.
+html
+\
+test_dockids
 .
 html
 \
