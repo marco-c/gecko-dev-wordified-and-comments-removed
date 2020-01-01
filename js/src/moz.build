@@ -302,11 +302,6 @@ jsdbgapi
 h
 '
 '
-jsdhash
-.
-h
-'
-'
 jsfriendapi
 .
 h
@@ -871,11 +866,6 @@ cpp
 '
 '
 jsdbgapi
-.
-cpp
-'
-'
-jsdhash
 .
 cpp
 '
