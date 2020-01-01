@@ -26,7 +26,6 @@ enableLogging
 (
 "
 tree
-stack
 "
 )
 ;
