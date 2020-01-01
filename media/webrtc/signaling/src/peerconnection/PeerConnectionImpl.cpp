@@ -3129,6 +3129,9 @@ mozilla
 DataChannelConnection
 (
 this
+aLocalport
+>
+aRemoteport
 )
 ;
 if
