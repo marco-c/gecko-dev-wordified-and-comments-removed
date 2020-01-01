@@ -8316,7 +8316,9 @@ SYNC_PP_JAVA_FILES
 R
 .
 java
-jar
+(
+JAR
+)
 cMf
 jars
 /
@@ -8398,7 +8400,9 @@ srcdir
 MOZGLUE_JAVA_FILES
 )
 )
-jar
+(
+JAR
+)
 cMf
 jars
 /
@@ -8482,7 +8486,9 @@ srcdir
 UTIL_JAVA_FILES
 )
 )
-jar
+(
+JAR
+)
 cMf
 jars
 /
@@ -8560,7 +8566,9 @@ srcdir
 SYNC_THIRDPARTY_JAVA_FILES
 )
 )
-jar
+(
+JAR
+)
 cMf
 jars
 /
