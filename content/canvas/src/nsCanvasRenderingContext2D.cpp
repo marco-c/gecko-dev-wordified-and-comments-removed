@@ -6254,6 +6254,7 @@ AssignLiteral
 "
 12pt
 sans
+-
 serif
 "
 )
