@@ -2383,6 +2383,12 @@ new
 ModuleEntry
 )
 ;
+JSAutoRequest
+ar
+(
+mContext
+)
+;
 RootedValue
 dummy
 (

@@ -3439,6 +3439,17 @@ context
 NS_ERROR_FAILURE
 )
 ;
+JSAutoRequest
+ar
+(
+context
+-
+>
+GetNativeContext
+(
+)
+)
+;
 JS
 :
 :
