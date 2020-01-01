@@ -2966,7 +2966,6 @@ listener
 >
 ScrollPositionWillChange
 (
-this
 aX
 aY
 )
@@ -3082,7 +3081,6 @@ listener
 >
 ViewPositionDidChange
 (
-this
 &
 configurations
 )
@@ -3202,7 +3200,6 @@ listener
 >
 ScrollPositionDidChange
 (
-this
 aX
 aY
 )

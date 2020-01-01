@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsIScrollableView
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -344,9 +337,6 @@ nsCanvasFrame
 :
 ScrollPositionWillChange
 (
-nsIScrollableView
-*
-aScrollable
 nscoord
 aX
 nscoord
@@ -392,9 +382,6 @@ nsCanvasFrame
 :
 ScrollPositionDidChange
 (
-nsIScrollableView
-*
-aScrollable
 nscoord
 aX
 nscoord
