@@ -645,9 +645,16 @@ x
 {
 Logger
 .
-error
+logException
 (
 x
+'
+Failed
+to
+move
+virtual
+cursor
+'
 )
 ;
 }
