@@ -387,6 +387,7 @@ mUserFontSet
 OnLoadComplete
 (
 mFontEntry
+aLoader
 aString
 aStringLen
 aStatus
