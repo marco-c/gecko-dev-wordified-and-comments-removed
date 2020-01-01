@@ -596,6 +596,9 @@ DOM_VK_OPEN_BRACKET
 accel
 :
 true
+shift
+:
+true
 }
 {
 action
@@ -614,6 +617,9 @@ nsIDOMKeyEvent
 .
 DOM_VK_CLOSE_BRACKET
 accel
+:
+true
+shift
 :
 true
 }
