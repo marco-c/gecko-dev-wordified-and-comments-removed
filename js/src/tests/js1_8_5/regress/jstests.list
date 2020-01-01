@@ -17,6 +17,7 @@ js1_8_5
 /
 regress
 /
+fails
 script
 regress
 -
