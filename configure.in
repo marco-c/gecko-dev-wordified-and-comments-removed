@@ -66573,6 +66573,15 @@ OS_ARCH
 "
 OS2
 "
+-
+o
+"
+OS_TARGET
+"
+=
+"
+Android
+"
 ;
 then
 MOZ_CHROME_FILE_FORMAT
