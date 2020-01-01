@@ -45,7 +45,7 @@ public
 nsIconDecoder
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *

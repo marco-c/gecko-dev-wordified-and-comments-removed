@@ -309,7 +309,7 @@ nsJPEGDecoder
 nsJPEGDecoder
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *
@@ -1388,8 +1388,7 @@ if
 NS_FAILED
 (
 mImage
--
->
+.
 EnsureFrame
 (
 0

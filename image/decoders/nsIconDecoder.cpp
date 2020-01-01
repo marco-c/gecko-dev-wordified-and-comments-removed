@@ -59,7 +59,7 @@ nsIconDecoder
 nsIconDecoder
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *
@@ -242,8 +242,7 @@ break
 rv
 =
 mImage
--
->
+.
 EnsureFrame
 (
 0

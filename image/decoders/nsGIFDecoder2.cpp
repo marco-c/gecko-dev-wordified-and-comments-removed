@@ -126,7 +126,7 @@ nsGIFDecoder2
 nsGIFDecoder2
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *
@@ -292,8 +292,7 @@ false
 ;
 }
 mImage
--
->
+.
 SetLoopCount
 (
 mGIFStruct
@@ -506,8 +505,7 @@ images_decoded
 rv
 =
 mImage
--
->
+.
 EnsureFrame
 (
 mGIFStruct
@@ -543,8 +541,7 @@ else
 rv
 =
 mImage
--
->
+.
 EnsureFrame
 (
 mGIFStruct
@@ -581,8 +578,7 @@ return
 rv
 ;
 mImage
--
->
+.
 SetFrameDisposalMethod
 (
 mGIFStruct
@@ -618,8 +614,7 @@ PRInt32
 imgWidth
 ;
 mImage
--
->
+.
 GetWidth
 (
 &
@@ -728,8 +723,7 @@ mSawTransparency
 )
 {
 mImage
--
->
+.
 SetFrameHasNoAlpha
 (
 mGIFStruct
@@ -813,8 +807,7 @@ width
 ;
 }
 mImage
--
->
+.
 SetFrameTimeout
 (
 mGIFStruct

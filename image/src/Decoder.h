@@ -32,7 +32,7 @@ public
 Decoder
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *
@@ -337,10 +337,8 @@ nsresult
 aFailCode
 )
 ;
-nsRefPtr
-<
 RasterImage
->
+&
 mImage
 ;
 nsCOMPtr

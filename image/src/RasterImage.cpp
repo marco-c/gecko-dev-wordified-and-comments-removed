@@ -8490,6 +8490,7 @@ mDecoder
 new
 nsPNGDecoder
 (
+*
 this
 observer
 )
@@ -8504,6 +8505,7 @@ mDecoder
 new
 nsGIFDecoder2
 (
+*
 this
 observer
 )
@@ -8518,6 +8520,7 @@ mDecoder
 new
 nsJPEGDecoder
 (
+*
 this
 observer
 )
@@ -8532,6 +8535,7 @@ mDecoder
 new
 nsBMPDecoder
 (
+*
 this
 observer
 )
@@ -8546,6 +8550,7 @@ mDecoder
 new
 nsICODecoder
 (
+*
 this
 observer
 )
@@ -8560,6 +8565,7 @@ mDecoder
 new
 nsIconDecoder
 (
+*
 this
 observer
 )

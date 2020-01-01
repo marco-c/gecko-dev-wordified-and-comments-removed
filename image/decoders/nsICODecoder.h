@@ -66,7 +66,7 @@ public
 nsICODecoder
 (
 RasterImage
-*
+&
 aImage
 imgIDecoderObserver
 *
