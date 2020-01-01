@@ -1713,7 +1713,7 @@ mjitDataSize
 ;
 #
 endif
-bool
+int32
 inOOMReport
 ;
 #

@@ -3568,11 +3568,8 @@ if
 onError
 )
 {
-AutoScopedAssign
-<
-bool
->
-ss
+AutoAtomicIncrement
+incr
 (
 &
 cx
@@ -3582,7 +3579,6 @@ runtime
 -
 >
 inOOMReport
-true
 )
 ;
 onError
