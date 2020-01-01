@@ -4287,13 +4287,6 @@ maxbytes
 rt
 -
 >
-gcEmptyArenaPoolLifespan
-=
-30000
-;
-rt
--
->
 setGCLastBytes
 (
 8192

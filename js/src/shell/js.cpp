@@ -5866,12 +5866,6 @@ JSGC_MAX_MALLOC_BYTES
 }
 {
 "
-gcStackpoolLifespan
-"
-JSGC_STACKPOOL_LIFESPAN
-}
-{
-"
 gcBytes
 "
 JSGC_BYTES
