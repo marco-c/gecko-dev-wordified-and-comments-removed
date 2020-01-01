@@ -3618,9 +3618,6 @@ nsISelection
 >
 selection
 ;
-nsresult
-rv
-=
 GetSelection
 (
 getter_AddRefs

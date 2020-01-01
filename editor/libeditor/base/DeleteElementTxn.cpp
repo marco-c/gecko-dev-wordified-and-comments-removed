@@ -366,9 +366,6 @@ p
 }
 #
 endif
-nsresult
-result
-=
 mElement
 -
 >

@@ -2249,9 +2249,6 @@ PRUint32
 aLineNumber
 )
 {
-nsresult
-rv
-;
 PRInt32
 nameSpaceID
 ;

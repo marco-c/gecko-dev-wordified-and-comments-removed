@@ -537,11 +537,6 @@ res
 return
 res
 ;
-PRUint32
-encoderCount
-=
-0
-;
 PRBool
 hasMore
 ;
