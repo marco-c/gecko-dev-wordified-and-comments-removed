@@ -4815,6 +4815,12 @@ value
 "
 "
 ;
+searchbox
+.
+focus
+(
+)
+;
 retrieveRepositoryAddons
 (
 "
