@@ -2228,6 +2228,8 @@ attribute
 long
 unforgeableAttr2
 ;
+stringifier
+;
 void
 passRenamedInterface
 (
