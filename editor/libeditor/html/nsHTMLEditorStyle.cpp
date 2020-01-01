@@ -4997,6 +4997,9 @@ index
 ;
 if
 (
+aAttribute
+&
+&
 TypeInState
 :
 :
