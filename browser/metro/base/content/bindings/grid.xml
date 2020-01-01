@@ -2395,6 +2395,17 @@ containerNode
 =
 this
 .
+hasAttribute
+(
+"
+flex
+"
+)
+?
+this
+:
+this
+.
 parentNode
 ;
 /

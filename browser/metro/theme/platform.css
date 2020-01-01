@@ -3217,9 +3217,9 @@ weight
 :
 100
 ;
-visibility
+display
 :
-collapse
+none
 ;
 }
 #
@@ -3269,9 +3269,9 @@ wide
 -
 title
 {
-visibility
+display
 :
-visible
+block
 ;
 }
 appbar
