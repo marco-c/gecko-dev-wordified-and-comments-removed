@@ -1443,16 +1443,6 @@ repositories
 /
 android
 /
-FennecControlHelper
-.
-java
-\
-sync
-/
-repositories
-/
-android
-/
 FennecTabsRepository
 .
 java
