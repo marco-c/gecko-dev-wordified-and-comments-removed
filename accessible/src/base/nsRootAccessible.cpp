@@ -1869,6 +1869,16 @@ finalFocusAccessible
 )
 )
 ;
+if
+(
+!
+finalFocusAccessible
+)
+{
+return
+PR_FALSE
+;
+}
 }
 }
 if
