@@ -74,13 +74,6 @@ nsGUIEvent
 .
 h
 "
-#
-include
-"
-nsRecycled
-.
-h
-"
 class
 nsIContent
 ;
@@ -96,11 +89,6 @@ public
 nsIDOMNSEvent
 public
 nsIPrivateDOMEvent
-public
-nsRecycledSingle
-<
-nsDOMEvent
->
 {
 public
 :
