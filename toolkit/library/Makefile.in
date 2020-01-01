@@ -1801,12 +1801,6 @@ XT_LIBS
 (
 MOZ_QT_LIBS
 )
--
-lgthread
--
-2
-.
-0
 EXTRA_DSO_LDOPTS
 +
 =

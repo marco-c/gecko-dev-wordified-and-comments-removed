@@ -70493,11 +70493,6 @@ MOZ_ENABLE_GTK2
 -
 o
 "
-MOZ_ENABLE_QT
-"
--
-o
-"
 USE_ELF_DYNSTR_GC
 "
 ;
