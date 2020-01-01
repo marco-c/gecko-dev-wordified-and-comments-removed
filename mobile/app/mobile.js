@@ -938,8 +938,6 @@ xpinstall
 whitelist
 .
 add
-.
-103
 "
 "
 addons
