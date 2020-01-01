@@ -15448,6 +15448,8 @@ pcoff
 GET_ATOM_FROM_BYTECODE
 (
 script
+regs
+.
 pc
 pcoff
 atom_
@@ -15471,6 +15473,8 @@ if
 JOF_OPMODE
 (
 *
+regs
+.
 pc
 )
 =
