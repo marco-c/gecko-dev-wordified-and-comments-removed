@@ -7563,7 +7563,6 @@ aFrame
 )
 {
 return
-(
 aFrame
 -
 >
@@ -7578,6 +7577,7 @@ NS_STYLE_TEXT_ALIGN_LEFT
 aAlignment
 |
 |
+(
 (
 (
 NS_STYLE_TEXT_ALIGN_DEFAULT
@@ -25184,6 +25184,9 @@ erase
 line
 )
 ;
+#
+ifdef
+NOISY_BLOCK_INVALIDATE
 nsRect
 visOverflow
 (
@@ -25195,9 +25198,6 @@ GetVisualOverflowArea
 )
 )
 ;
-#
-ifdef
-NOISY_BLOCK_INVALIDATE
 printf
 (
 "

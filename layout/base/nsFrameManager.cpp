@@ -2052,6 +2052,7 @@ GetNextContinuation
 |
 |
 (
+(
 aPrevFrame
 -
 >
@@ -2079,6 +2080,7 @@ GetStateBits
 )
 &
 NS_FRAME_IS_OVERFLOW_CONTAINER
+)
 )
 "
 aPrevFrame

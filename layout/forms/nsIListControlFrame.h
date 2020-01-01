@@ -98,7 +98,7 @@ GetHeightOfARow
 0
 ;
 virtual
-int32_t
+uint32_t
 GetNumberOfOptions
 (
 )

@@ -416,10 +416,6 @@ mTotalPages
 -
 1
 )
-mCurrentCanvasListSetup
-(
-false
-)
 mSelectionHeight
 (
 -
@@ -430,6 +426,10 @@ mYSelOffset
 0
 )
 mCalledBeginPage
+(
+false
+)
+mCurrentCanvasListSetup
 (
 false
 )

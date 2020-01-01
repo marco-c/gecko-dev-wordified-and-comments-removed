@@ -779,6 +779,7 @@ flags
 )
 |
 |
+(
 ch
 =
 =
@@ -792,6 +793,7 @@ aCompression
 =
 =
 DISCARD_NEWLINE
+)
 )
 {
 aSkipChars

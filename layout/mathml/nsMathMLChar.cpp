@@ -351,10 +351,6 @@ nsString
 aPrimaryFontName
 )
 :
-mType
-(
-NS_TABLE_TYPE_UNICODE
-)
 mFontName
 (
 1
@@ -619,9 +615,6 @@ aChar
 uint32_t
 aPosition
 )
-;
-int32_t
-mType
 ;
 nsTArray
 <

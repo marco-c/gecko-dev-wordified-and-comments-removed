@@ -8567,6 +8567,12 @@ break
 }
 default
 :
+radiusX
+=
+radiusY
+=
+0
+;
 NS_ABORT_IF_FALSE
 (
 false
@@ -10908,7 +10914,13 @@ aLayer
 0
 &
 &
+static_cast
+<
+uint32_t
+>
+(
 aLayer
+)
 !
 =
 bg

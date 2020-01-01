@@ -446,7 +446,7 @@ GetHeightOfARow
 MOZ_OVERRIDE
 ;
 virtual
-int32_t
+uint32_t
 GetNumberOfOptions
 (
 )

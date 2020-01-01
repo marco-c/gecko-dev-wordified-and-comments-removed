@@ -2229,16 +2229,6 @@ FirstChild
 (
 )
 ;
-nsRect
-oldKidRect
-=
-kidFrame
--
->
-GetRect
-(
-)
-;
 bool
 kidDirty
 =
