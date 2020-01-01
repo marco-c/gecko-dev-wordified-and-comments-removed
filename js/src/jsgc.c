@@ -2114,7 +2114,10 @@ js_FinalizeDouble
 GCFinalizeOp
 )
 js_FinalizeString
-NULL
+(
+GCFinalizeOp
+)
+js_FinalizeFunction
 (
 GCFinalizeOp
 )
@@ -2182,7 +2185,7 @@ string
 "
 "
 newborn
-private
+function
 "
 "
 newborn
