@@ -663,7 +663,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZrowalign
+_moz_math_rowalign_
 )
 )
 {
@@ -693,7 +693,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZrowalign
+_moz_math_rowalign_
 nsDependentString
 (
 attr
@@ -720,7 +720,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZrowline
+_moz_math_rowline_
 )
 )
 {
@@ -752,7 +752,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZrowline
+_moz_math_rowline_
 nsDependentString
 (
 attr
@@ -855,7 +855,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnalign
+_moz_math_columnalign_
 )
 )
 {
@@ -904,7 +904,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnalign
+_moz_math_columnalign_
 nsDependentString
 (
 attr
@@ -931,7 +931,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnline
+_moz_math_columnline_
 )
 )
 {
@@ -963,7 +963,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnline
+_moz_math_columnline_
 nsDependentString
 (
 attr
@@ -1810,7 +1810,7 @@ MOZrowAtom
 nsGkAtoms
 :
 :
-MOZrowalign
+_moz_math_rowalign_
 ;
 else
 if
@@ -1828,7 +1828,7 @@ MOZrowAtom
 nsGkAtoms
 :
 :
-MOZrowline
+_moz_math_rowline_
 ;
 else
 if
@@ -1846,7 +1846,7 @@ MOZcolAtom
 nsGkAtoms
 :
 :
-MOZcolumnalign
+_moz_math_columnalign_
 ;
 else
 if
@@ -1864,7 +1864,7 @@ MOZcolAtom
 nsGkAtoms
 :
 :
-MOZcolumnline
+_moz_math_columnline_
 ;
 if
 (
@@ -2924,7 +2924,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZrowalign
+_moz_math_rowalign_
 PR_FALSE
 )
 ;
@@ -3025,7 +3025,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnalign
+_moz_math_columnalign_
 PR_FALSE
 )
 ;
@@ -3348,7 +3348,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-MOZcolumnalign
+_moz_math_columnalign_
 PR_FALSE
 )
 ;
