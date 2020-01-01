@@ -595,6 +595,7 @@ EXPAND_LIBNAME
 shell32
 gdi32
 comctl32
+ole32
 )
 endif
 include
