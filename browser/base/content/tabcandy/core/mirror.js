@@ -1007,6 +1007,17 @@ this
 ;
 Tabs
 .
+onOpen
+(
+function
+(
+)
+{
+}
+)
+;
+Tabs
+.
 onReady
 (
 function
