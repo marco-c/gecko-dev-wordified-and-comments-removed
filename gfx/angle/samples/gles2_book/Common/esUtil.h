@@ -23,6 +23,15 @@ egl
 h
 >
 #
+include
+<
+EGL
+/
+eglext
+.
+h
+>
+#
 ifdef
 __cplusplus
 extern
@@ -60,6 +69,10 @@ ES_WINDOW_STENCIL
 define
 ES_WINDOW_MULTISAMPLE
 8
+#
+define
+ES_WINDOW_POST_SUB_BUFFER_SUPPORTED
+16
 typedef
 struct
 {
@@ -141,6 +154,10 @@ deltaTime
 ;
 }
 ESContext
+;
+extern
+PFNEGLPOSTSUBBUFFERNVPROC
+eglPostSubBufferNV
 ;
 void
 ESUTIL_API

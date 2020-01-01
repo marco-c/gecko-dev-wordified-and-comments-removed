@@ -935,8 +935,11 @@ mType
 bool
 mDirty
 ;
-bool
-mManaged
+D3DPOOL
+mD3DPool
+;
+D3DFORMAT
+mD3DFormat
 ;
 IDirect3DSurface9
 *
@@ -974,6 +977,12 @@ isManaged
 )
 const
 ;
+D3DPOOL
+getPool
+(
+)
+const
+;
 unsigned
 int
 getTextureSerial
@@ -1005,8 +1014,8 @@ bool
 mRenderable
 ;
 const
-bool
-mManaged
+D3DPOOL
+mD3DPool
 ;
 const
 unsigned
@@ -1943,7 +1952,7 @@ IMPLEMENTATION_MAX_TEXTURE_LEVELS
 ;
 TextureStorage2D
 *
-mTexture
+mTexStorage
 ;
 egl
 :
@@ -2522,7 +2531,7 @@ IMPLEMENTATION_MAX_TEXTURE_LEVELS
 ;
 TextureStorageCubeMap
 *
-mTexture
+mTexStorage
 ;
 BindingPointer
 <
