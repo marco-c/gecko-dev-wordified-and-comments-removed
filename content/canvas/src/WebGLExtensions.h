@@ -14,11 +14,9 @@ class
 WebGLExtensionBase
 :
 public
-nsISupports
+nsWrapperCache
 public
 WebGLContextBoundObject
-public
-nsWrapperCache
 {
 public
 :
@@ -47,8 +45,11 @@ Context
 )
 ;
 }
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+(
+WebGLExtensionBase
+)
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 WebGLExtensionBase
 )

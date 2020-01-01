@@ -7,14 +7,7 @@ WEBGLACTIVEINFO_H_
 #
 include
 "
-WebGLTypes
-.
-h
-"
-#
-include
-"
-nsISupports
+WebGLObjectModel
 .
 h
 "
