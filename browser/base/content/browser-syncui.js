@@ -1435,7 +1435,7 @@ function
 (
 )
 {
-gWeaveWin
+gSyncUI
 .
 openServerStatus
 (
