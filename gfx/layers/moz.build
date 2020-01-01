@@ -304,12 +304,12 @@ EXPORTS
 =
 [
 '
-LayerManagerD3D9
+DeviceManagerD3D9
 .
 h
 '
 '
-DeviceManagerD3D9
+LayerManagerD3D9
 .
 h
 '

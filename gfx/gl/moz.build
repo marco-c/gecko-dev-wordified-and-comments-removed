@@ -224,12 +224,12 @@ EXPORTS
 =
 [
 '
-WGLLibrary
+SharedSurfaceANGLE
 .
 h
 '
 '
-SharedSurfaceANGLE
+WGLLibrary
 .
 h
 '
