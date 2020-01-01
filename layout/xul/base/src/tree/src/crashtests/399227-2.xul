@@ -157,6 +157,17 @@ currentColumn
 =
 treecolumn1
 ;
+document
+.
+documentElement
+.
+removeAttribute
+(
+"
+class
+"
+)
+;
 }
 <
 /

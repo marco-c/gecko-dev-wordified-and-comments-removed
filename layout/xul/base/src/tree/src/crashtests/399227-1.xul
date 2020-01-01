@@ -134,6 +134,17 @@ rangedSelect
 false
 )
 ;
+document
+.
+documentElement
+.
+removeAttribute
+(
+"
+class
+"
+)
+;
 }
 <
 /
