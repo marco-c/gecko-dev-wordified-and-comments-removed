@@ -675,9 +675,6 @@ aBox
 nsBoxLayoutState
 &
 aState
-bool
-*
-aNeedsRedraw
 )
 ;
 virtual
