@@ -37187,13 +37187,13 @@ const
 struct
 {
 unsigned
-char
+int
 mEAW
 :
 3
 ;
 unsigned
-char
+int
 mCategory
 :
 5
