@@ -4671,10 +4671,12 @@ tvr
 if
 (
 !
-OBJ_DEFAULT_VALUE
+obj
+-
+>
+defaultValue
 (
 cx
-obj
 JSTYPE_NUMBER
 &
 tvr
