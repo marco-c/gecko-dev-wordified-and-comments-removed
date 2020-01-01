@@ -2620,8 +2620,6 @@ shouldDisplay
 =
 false
 ;
-return
-;
 }
 this
 .
