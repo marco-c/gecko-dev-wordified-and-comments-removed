@@ -8279,10 +8279,6 @@ getItemLocation
 (
 id
 )
-.
-clone
-(
-)
 ;
 var
 parts
@@ -9662,6 +9658,10 @@ _IDToDirMap
 [
 id
 ]
+.
+clone
+(
+)
 ;
 }
 getIDForLocation
@@ -9700,10 +9700,6 @@ this
 getItemLocation
 (
 id
-)
-.
-clone
-(
 )
 ;
 var
