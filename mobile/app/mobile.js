@@ -2872,9 +2872,7 @@ css
 .
 devPixelsPerPx
 "
-"
 1
-"
 )
 ;
 #
