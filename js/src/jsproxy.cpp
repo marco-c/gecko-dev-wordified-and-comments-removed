@@ -7853,7 +7853,7 @@ proxy_DeleteElement
 proxy_DeleteSpecial
 NULL
 proxy_TypeOf
-NULL
+proxy_Fix
 NULL
 NULL
 }
