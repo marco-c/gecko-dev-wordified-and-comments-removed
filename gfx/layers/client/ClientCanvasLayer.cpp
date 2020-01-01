@@ -438,7 +438,7 @@ CanvasClient
 :
 CreateCanvasClient
 (
-GetCanvasClientType
+GetCompositableClientType
 (
 )
 ClientManager
