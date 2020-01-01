@@ -1968,14 +1968,6 @@ if
 info
 )
 {
-if
-(
-info
--
->
-mLastStatus
-)
-{
 info
 -
 >
@@ -1983,7 +1975,6 @@ mLastStatus
 =
 nsnull
 ;
-}
 PRInt64
 oldMax
 =
