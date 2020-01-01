@@ -139,7 +139,7 @@ PRLogModuleInfo
 *
 gCameraLog
 =
-PR_LOG_DEFINE
+PR_NewLogModule
 (
 "
 Camera

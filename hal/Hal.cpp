@@ -280,7 +280,7 @@ PRLogModuleInfo
 *
 sHalLog
 =
-PR_LOG_DEFINE
+PR_NewLogModule
 (
 "
 hal
