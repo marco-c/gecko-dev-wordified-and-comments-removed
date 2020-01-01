@@ -1016,6 +1016,13 @@ EXTRA_DSO_LDOPTS
 +
 =
 \
+-
+L
+(
+LIBXUL_DIST
+)
+/
+lib
 (
 MOZALLOC_LIB
 )
