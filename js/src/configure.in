@@ -16778,9 +16778,6 @@ HAVE_64BIT_OS
 "
 ;
 then
-ENABLE_YARR_JIT
-=
-1
 dnl
 ENABLE_ION
 =
@@ -16801,9 +16798,6 @@ mips
 -
 *
 )
-ENABLE_YARR_JIT
-=
-1
 AC_DEFINE
 (
 JS_CPU_MIPS
