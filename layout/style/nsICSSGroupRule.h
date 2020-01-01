@@ -100,7 +100,10 @@ nsICSSRule
 nsCOMArrayEnumFunc
 RuleEnumFunc
 ;
-NS_IMETHOD
+NS_IMETHOD_
+(
+PRBool
+)
 EnumerateRulesForwards
 (
 RuleEnumFunc

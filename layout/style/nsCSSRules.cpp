@@ -2723,7 +2723,10 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+PRBool
+)
 nsCSSGroupRule
 :
 :
@@ -2737,6 +2740,7 @@ aData
 )
 const
 {
+return
 const_cast
 <
 nsCSSGroupRule
@@ -2754,9 +2758,6 @@ EnumerateForwards
 aFunc
 aData
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

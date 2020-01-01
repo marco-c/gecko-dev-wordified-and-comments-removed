@@ -196,7 +196,10 @@ aRule
 )
 const
 ;
-NS_IMETHOD
+NS_IMETHOD_
+(
+PRBool
+)
 EnumerateRulesForwards
 (
 RuleEnumFunc
