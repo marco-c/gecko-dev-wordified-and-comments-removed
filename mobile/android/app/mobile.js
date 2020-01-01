@@ -6130,16 +6130,6 @@ age
 pref
 (
 "
-urlclassifier
-.
-updatecachemax
-"
-4194304
-)
-;
-pref
-(
-"
 browser
 .
 safebrowsing
