@@ -449,9 +449,6 @@ aContent
 nsresult
 WalkRules
 (
-nsStyleSet
-*
-aStyleSet
 nsIStyleRuleProcessor
 :
 :
@@ -463,6 +460,17 @@ aData
 PRBool
 *
 aCutOffInheritance
+)
+;
+nsresult
+MediumFeaturesChanged
+(
+nsPresContext
+*
+aPresContext
+PRBool
+*
+aRulesChanged
 )
 ;
 NS_HIDDEN_
