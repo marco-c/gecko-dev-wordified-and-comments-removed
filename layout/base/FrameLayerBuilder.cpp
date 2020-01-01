@@ -5075,6 +5075,15 @@ mItemClip
 mClipRect
 )
 ;
+clip
+.
+MoveBy
+(
+mParameters
+.
+mOffset
+)
+;
 imageLayer
 -
 >
