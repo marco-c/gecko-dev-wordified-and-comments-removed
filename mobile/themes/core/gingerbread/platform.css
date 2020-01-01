@@ -1406,6 +1406,15 @@ png
 button
 -
 checkbox
+>
+.
+button
+-
+box
+.
+button
+-
+checkbox
 :
 hover
 :
@@ -1451,7 +1460,7 @@ padding
 -
 start
 :
-margin_small
+padding_small
 ;
 -
 moz
@@ -1460,7 +1469,7 @@ padding
 -
 end
 :
-margin_small
+padding_small
 ;
 }
 radiogroup
