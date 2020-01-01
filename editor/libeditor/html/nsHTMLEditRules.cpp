@@ -19318,8 +19318,10 @@ value
 float
 f
 ;
+nsCOMPtr
+<
 nsIAtom
-*
+>
 unit
 ;
 mHTMLEditor
@@ -19333,8 +19335,10 @@ ParseLength
 value
 &
 f
-&
+getter_AddRefs
+(
 unit
+)
 )
 ;
 if
