@@ -77,6 +77,13 @@ XPCOM_MEM_BLOAT_LOG
 "
 )
 ;
+if
+(
+!
+f
+)
+return
+;
 fprintf
 (
 stderr
@@ -90,13 +97,6 @@ n
 "
 f
 )
-;
-if
-(
-!
-f
-)
-return
 ;
 std
 :
