@@ -1186,6 +1186,9 @@ const
 Range
 *
 rhs
+bool
+*
+nullRange
 )
 {
 Range
@@ -2223,6 +2226,15 @@ def
 ;
 if
 (
+!
+def
+-
+>
+earlyAbortCheck
+(
+)
+&
+&
 def
 -
 >
