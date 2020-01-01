@@ -242,8 +242,6 @@ html5
 "
 image
 .
-mem
-.
 "
 "
 javascript
