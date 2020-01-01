@@ -92,7 +92,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -592,7 +592,11 @@ nsIParser
 >
 mParser
 ;
-nsVoidArray
+nsTArray
+<
+nsIContent
+*
+>
 *
 mContentStack
 ;
@@ -789,7 +793,7 @@ indx
 mContentStack
 -
 >
-Count
+Length
 (
 )
 ;
@@ -806,10 +810,6 @@ nsIContent
 *
 content
 =
-(
-nsIContent
-*
-)
 mContentStack
 -
 >
@@ -2580,7 +2580,7 @@ indx
 mContentStack
 -
 >
-Count
+Length
 (
 )
 -
@@ -2594,10 +2594,6 @@ indx
 0
 )
 return
-(
-nsIContent
-*
-)
 mContentStack
 -
 >
@@ -2633,7 +2629,11 @@ mContentStack
 mContentStack
 =
 new
-nsVoidArray
+nsTArray
+<
+nsIContent
+*
+>
 (
 )
 ;
@@ -2643,10 +2643,6 @@ mContentStack
 >
 AppendElement
 (
-(
-void
-*
-)
 aContent
 )
 ;
@@ -2654,7 +2650,7 @@ return
 mContentStack
 -
 >
-Count
+Length
 (
 )
 ;
@@ -2688,7 +2684,7 @@ indx
 mContentStack
 -
 >
-Count
+Length
 (
 )
 -
@@ -2704,10 +2700,6 @@ indx
 {
 content
 =
-(
-nsIContent
-*
-)
 mContentStack
 -
 >
