@@ -4117,6 +4117,7 @@ getter_AddRefs
 (
 storageStream
 )
+true
 )
 ;
 NS_ENSURE_SUCCESS

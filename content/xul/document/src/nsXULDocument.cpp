@@ -1059,7 +1059,7 @@ GetInstance
 )
 -
 >
-RemoveFromFastLoadSet
+RemoveFromCacheSet
 (
 mDocumentURI
 )
