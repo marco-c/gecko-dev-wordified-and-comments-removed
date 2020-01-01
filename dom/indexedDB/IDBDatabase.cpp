@@ -979,6 +979,16 @@ thread
 "
 )
 ;
+if
+(
+IsInvalidated
+(
+)
+)
+{
+return
+;
+}
 Close
 (
 )

@@ -503,6 +503,13 @@ mTransaction
 }
 protected
 :
+void
+FireCompleteEvent
+(
+nsresult
+aRv
+)
+;
 virtual
 void
 ActorDestroy

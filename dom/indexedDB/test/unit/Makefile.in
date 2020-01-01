@@ -307,10 +307,6 @@ test_transaction_ordering
 .
 js
 \
-test_writer_starvation
-.
-js
-\
 (
 NULL
 )
