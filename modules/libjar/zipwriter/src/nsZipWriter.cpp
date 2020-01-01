@@ -240,6 +240,14 @@ nsIFile
 aFile
 )
 {
+if
+(
+!
+mFile
+)
+return
+NS_ERROR_NOT_INITIALIZED
+;
 nsCOMPtr
 <
 nsIFile
