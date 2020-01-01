@@ -664,6 +664,9 @@ group
 ref
 .
 html
+#
+bug
+424274
 fails
 =
 =
@@ -691,6 +694,9 @@ column
 ref
 .
 html
+#
+bug
+424274
 =
 =
 border
@@ -826,6 +832,9 @@ group
 ref
 .
 html
+#
+bug
+424274
 fails
 =
 =
@@ -853,6 +862,9 @@ column
 ref
 .
 html
+#
+bug
+424274
 =
 =
 border
