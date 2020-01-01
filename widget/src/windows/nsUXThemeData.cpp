@@ -1614,8 +1614,6 @@ hWnd
 CreateWindowExW
 (
 WS_EX_NOACTIVATE
-|
-WS_EX_LAYERED
 className
 .
 get
@@ -1653,7 +1651,7 @@ failed
 ShowWindow
 (
 hWnd
-SW_SHOWNOACTIVATE
+SW_SHOWMINNOACTIVE
 )
 ;
 TITLEBARINFOEX
