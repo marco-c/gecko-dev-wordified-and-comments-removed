@@ -1057,6 +1057,8 @@ eval
 MOZCONFIG_CONTENT
 )
 )
+export
+FOUND_MOZCONFIG
 #
 As
 '
