@@ -762,6 +762,9 @@ nsICharsetDetector
 >
 mChardet
 ;
+PRBool
+mFeedChardet
+;
 nsCOMPtr
 <
 nsITimer

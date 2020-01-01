@@ -1127,6 +1127,8 @@ const
 char
 *
 aEncoding
+PRInt32
+aSource
 )
 ;
 PRBool
