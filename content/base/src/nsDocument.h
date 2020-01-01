@@ -3943,6 +3943,11 @@ mLockingImages
 :
 1
 ;
+PRPackedBool
+mAnimatingImages
+:
+1
+;
 PRUint8
 mXMLDeclarationBits
 ;
@@ -4218,6 +4223,15 @@ mWillReparent
 ;
 #
 endif
+protected
+:
+void
+SetImagesNeedAnimating
+(
+PRBool
+aAnimating
+)
+;
 }
 ;
 #

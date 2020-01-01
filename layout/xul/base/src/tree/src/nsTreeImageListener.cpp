@@ -15,6 +15,13 @@ h
 #
 include
 "
+imgIRequest
+.
+h
+"
+#
+include
+"
 imgIContainer
 .
 h
@@ -76,10 +83,10 @@ imgIContainer
 aImage
 )
 {
-aImage
+aRequest
 -
 >
-StartAnimation
+IncrementAnimationConsumers
 (
 )
 ;

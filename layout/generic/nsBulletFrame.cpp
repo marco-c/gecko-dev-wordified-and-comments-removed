@@ -6019,10 +6019,10 @@ ImageAnimationMode
 )
 )
 ;
-aImage
+aRequest
 -
 >
-StartAnimation
+IncrementAnimationConsumers
 (
 )
 ;

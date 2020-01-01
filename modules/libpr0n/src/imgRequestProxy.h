@@ -276,6 +276,11 @@ Image
 aImage
 )
 ;
+void
+ClearAnimationConsumers
+(
+)
+;
 protected
 :
 friend
@@ -520,6 +525,9 @@ mLoadFlags
 ;
 PRUint32
 mLockCount
+;
+PRUint32
+mAnimationConsumers
 ;
 PRPackedBool
 mCanceled

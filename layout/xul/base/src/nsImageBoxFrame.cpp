@@ -2042,10 +2042,10 @@ NS_ENSURE_ARG_POINTER
 image
 )
 ;
-image
+request
 -
 >
-StartAnimation
+IncrementAnimationConsumers
 (
 )
 ;

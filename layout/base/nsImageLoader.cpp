@@ -407,13 +407,6 @@ ImageAnimationMode
 )
 )
 ;
-aImage
--
->
-StartAnimation
-(
-)
-;
 return
 NS_OK
 ;

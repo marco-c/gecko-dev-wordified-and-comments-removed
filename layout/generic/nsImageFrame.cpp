@@ -1016,13 +1016,6 @@ ImageAnimationMode
 )
 )
 ;
-image
--
->
-StartAnimation
-(
-)
-;
 }
 }
 return
@@ -1935,13 +1928,6 @@ presContext
 ImageAnimationMode
 (
 )
-)
-;
-aImage
--
->
-StartAnimation
-(
 )
 ;
 if
