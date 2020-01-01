@@ -200,6 +200,8 @@ const
 nsCString
 &
 aURISpec
+PRInt32
+aMatchBehavior
 nsCString
 &
 _fixedSpec
