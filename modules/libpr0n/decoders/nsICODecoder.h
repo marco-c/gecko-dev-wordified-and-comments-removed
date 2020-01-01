@@ -65,6 +65,12 @@ public
 :
 nsICODecoder
 (
+RasterImage
+*
+aImage
+imgIDecoderObserver
+*
+aObserver
 )
 ;
 virtual

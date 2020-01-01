@@ -58,6 +58,12 @@ public
 :
 nsBMPDecoder
 (
+RasterImage
+*
+aImage
+imgIDecoderObserver
+*
+aObserver
 )
 ;
 ~

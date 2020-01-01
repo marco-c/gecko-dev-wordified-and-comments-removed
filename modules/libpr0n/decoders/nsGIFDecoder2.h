@@ -51,6 +51,12 @@ public
 :
 nsGIFDecoder2
 (
+RasterImage
+*
+aImage
+imgIDecoderObserver
+*
+aObserver
 )
 ;
 ~
