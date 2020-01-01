@@ -556,6 +556,7 @@ anonymous
 ref
 .
 html
+fails
 =
 =
 unicode
@@ -578,6 +579,10 @@ basic
 ref
 .
 html
+#
+bug
+712600
+fails
 =
 =
 unicode
@@ -600,6 +605,9 @@ aharon
 ref
 .
 html
+#
+bug
+712600
 =
 =
 unicode
