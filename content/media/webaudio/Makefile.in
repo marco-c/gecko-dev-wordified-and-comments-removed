@@ -264,3 +264,15 @@ config
 rules
 .
 mk
+CFLAGS
++
+=
+(
+GSTREAMER_CFLAGS
+)
+CXXFLAGS
++
+=
+(
+GSTREAMER_CFLAGS
+)
