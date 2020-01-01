@@ -11560,8 +11560,6 @@ readSwappedNibbleBCD
 (
 1
 )
--
-1
 ;
 let
 hour
@@ -11572,8 +11570,6 @@ readSwappedNibbleBCD
 (
 1
 )
--
-1
 ;
 let
 minute
@@ -11584,8 +11580,6 @@ readSwappedNibbleBCD
 (
 1
 )
--
-1
 ;
 let
 second
@@ -11596,8 +11590,6 @@ readSwappedNibbleBCD
 (
 1
 )
--
-1
 ;
 msg
 .
