@@ -470,6 +470,10 @@ browser_select
 .
 js
 \
+browser_rect
+.
+js
+\
 browser_blank_01
 .
 html
