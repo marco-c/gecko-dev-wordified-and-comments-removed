@@ -699,6 +699,10 @@ endif
 EXTRA_JS_MODULES
 =
 \
+Services
+.
+jsm
+\
 InlineSpellChecker
 .
 jsm
