@@ -11479,10 +11479,11 @@ NS_LOAD
 ;
 event
 .
-flags
-|
+mFlags
+.
+mBubbles
 =
-NS_EVENT_FLAG_CANT_BUBBLE
+false
 ;
 nsEventDispatcher
 :
