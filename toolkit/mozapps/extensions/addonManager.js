@@ -294,13 +294,13 @@ false
 ;
 }
 let
-loadgroup
+loadGroup
 =
 null
 ;
 try
 {
-loadgroup
+loadGroup
 =
 window
 .
@@ -536,7 +536,7 @@ shift
 (
 )
 null
-loadgroup
+loadGroup
 )
 ;
 }

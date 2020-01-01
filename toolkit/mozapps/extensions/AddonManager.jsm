@@ -1080,7 +1080,7 @@ hash
 name
 iconURL
 version
-loadgroup
+loadGroup
 )
 {
 if
@@ -1161,7 +1161,7 @@ hash
 name
 iconURL
 version
-loadgroup
+loadGroup
 function
 (
 install
@@ -2469,7 +2469,7 @@ hash
 name
 iconURL
 version
-loadgroup
+loadGroup
 )
 {
 AddonManagerInternal
@@ -2483,7 +2483,7 @@ hash
 name
 iconURL
 version
-loadgroup
+loadGroup
 )
 ;
 }
