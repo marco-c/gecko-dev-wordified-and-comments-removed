@@ -11,7 +11,7 @@ assembler
 /
 assembler
 /
-X86Assembler
+MacroAssembler
 .
 h
 "
@@ -544,6 +544,16 @@ X86Registers
 :
 ecx
 )
+;
+typedef
+JSC
+:
+:
+MacroAssembler
+:
+:
+RegisterID
+RegisterID
 ;
 }
 ;

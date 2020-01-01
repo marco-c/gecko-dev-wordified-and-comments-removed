@@ -65,6 +65,9 @@ h
 #
 endif
 #
+ifndef
+JS_CPU_ARM
+#
 include
 "
 assembler
@@ -75,6 +78,8 @@ MacroAssembler
 .
 h
 "
+#
+endif
 namespace
 js
 {
@@ -96,10 +101,13 @@ Code
 Code
 ;
 typedef
-JSC
+js
 :
 :
-MacroAssembler
+ion
+:
+:
+Registers
 :
 :
 RegisterID
