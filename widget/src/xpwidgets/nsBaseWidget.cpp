@@ -2013,6 +2013,11 @@ aWidget
 gfxContext
 *
 aTarget
+BasicLayerManager
+:
+:
+BufferMode
+aDoubleBuffering
 )
 :
 mWidget
@@ -2076,6 +2081,7 @@ manager
 SetDefaultTarget
 (
 aTarget
+aDoubleBuffering
 )
 ;
 }
@@ -2147,6 +2153,10 @@ manager
 SetDefaultTarget
 (
 nsnull
+BasicLayerManager
+:
+:
+BUFFER_NONE
 )
 ;
 }

@@ -15289,6 +15289,10 @@ setupLayerManager
 (
 mGeckoChild
 targetContext
+BasicLayerManager
+:
+:
+BUFFER_NONE
 )
 ;
 painted

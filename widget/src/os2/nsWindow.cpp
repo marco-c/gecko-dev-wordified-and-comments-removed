@@ -7882,6 +7882,10 @@ setupLayerManager
 (
 this
 thebesContext
+BasicLayerManager
+:
+:
+BUFFER_NONE
 )
 ;
 if
