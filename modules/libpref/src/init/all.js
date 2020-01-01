@@ -4377,7 +4377,7 @@ disable_window_open_feature
 .
 resizable
 "
-false
+true
 )
 ;
 pref
