@@ -1432,6 +1432,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+bool
+&
+aHighAccuracy
 )
 ;
 virtual

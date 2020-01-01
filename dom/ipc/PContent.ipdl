@@ -1984,6 +1984,8 @@ AddGeolocationListener
 (
 Principal
 principal
+bool
+highAccuracy
 )
 ;
 RemoveGeolocationListener
