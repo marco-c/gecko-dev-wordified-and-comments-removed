@@ -1632,6 +1632,11 @@ flex
 >
 <
 vbox
+flex
+=
+"
+1
+"
 class
 =
 "
@@ -1649,11 +1654,6 @@ class
 =
 "
 statusIcon
-"
-flex
-=
-"
-1
 "
 /
 >
