@@ -16397,13 +16397,6 @@ jsval
 vp
 )
 {
-JSAutoResolveFlags
-rf
-(
-cx
-JSRESOLVE_QUALIFIED
-)
-;
 CHECK_REQUEST
 (
 cx
