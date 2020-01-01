@@ -11087,6 +11087,15 @@ insertValue
 )
 ;
 }
+NS_ENSURE_STATE
+(
+weakFrame
+.
+IsAlive
+(
+)
+)
+;
 if
 (
 !

@@ -42,14 +42,12 @@ load
 html
 #
 bug
-336104
-and
-others
+?
 asserts
 (
 0
 -
-2
+1
 )
 load
 432114
@@ -58,8 +56,6 @@ load
 .
 html
 #
-bug
-336104
 bug
 492165
 load
