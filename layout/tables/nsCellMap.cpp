@@ -8154,6 +8154,9 @@ zeroSpan
 ;
 if
 (
+zeroSpan
+|
+|
 rowX
 +
 rowSpan
