@@ -1638,6 +1638,13 @@ inputField
 .
 selectionEnd
 )
+{
+this
+.
+focus
+(
+)
+;
 this
 .
 editor
@@ -1646,6 +1653,7 @@ selectAll
 (
 )
 ;
+}
 ]
 ]
 >
