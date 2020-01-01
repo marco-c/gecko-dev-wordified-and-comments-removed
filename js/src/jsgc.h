@@ -2344,6 +2344,17 @@ GC_HEAP_GROWTH_FACTOR
 0f
 ;
 static
+const
+int64
+GC_IDLE_FULL_SPAN
+=
+20
+*
+1000
+*
+1000
+;
+static
 inline
 size_t
 GetFinalizableTraceKind
@@ -3902,6 +3913,9 @@ GC_NORMAL
 GC_LAST_CONTEXT
 =
 1
+GC_SHRINK
+=
+2
 }
 JSGCInvocationKind
 ;
@@ -4012,6 +4026,9 @@ sweepingDone
 ;
 bool
 shutdown
+;
+JSGCInvocationKind
+lastGCKind
 ;
 Vector
 <
@@ -4223,6 +4240,8 @@ startBackgroundSweep
 JSRuntime
 *
 rt
+JSGCInvocationKind
+gckind
 )
 ;
 void

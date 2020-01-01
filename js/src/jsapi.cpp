@@ -3312,6 +3312,7 @@ atomsCompartment
 setGCLastBytes
 (
 8192
+GC_NORMAL
 )
 ;
 if
