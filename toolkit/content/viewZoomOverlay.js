@@ -641,6 +641,13 @@ return
 this
 .
 useFullZoom
+|
+|
+aBrowser
+.
+contentDocument
+.
+mozSyntheticDocument
 ?
 markupDocumentViewer
 .
@@ -714,6 +721,13 @@ if
 this
 .
 useFullZoom
+|
+|
+aBrowser
+.
+contentDocument
+.
+mozSyntheticDocument
 )
 {
 markupDocumentViewer
