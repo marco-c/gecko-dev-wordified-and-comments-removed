@@ -431,6 +431,10 @@ RGBColor
 .
 webidl
 \
+RTCIceServer
+.
+webidl
+\
 Screen
 .
 webidl
@@ -787,10 +791,6 @@ webidl_files
 =
 \
 MediaStreamList
-.
-webidl
-\
-RTCIceServer
 .
 webidl
 \
