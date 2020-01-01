@@ -520,6 +520,9 @@ char
 prefix
 int
 index
+jsuword
+*
+localNames
 )
 ;
 void
