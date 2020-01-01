@@ -467,5 +467,14 @@ hasSupport
 (
 )
 ;
+unsigned
+short
+getNumberOfMessagesForText
+(
+in
+DOMString
+text
+)
+;
 }
 ;

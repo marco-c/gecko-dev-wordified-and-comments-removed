@@ -469,6 +469,10 @@ GeckoBatteryManager
 .
 java
 \
+GeckoSmsManager
+.
+java
+\
 (
 NULL
 )
