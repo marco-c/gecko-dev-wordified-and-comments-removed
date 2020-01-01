@@ -4141,6 +4141,9 @@ endif
 bool
 jitHardening
 ;
+bool
+jitSupportsFloatingPoint
+;
 void
 resetIonStackLimit
 (
