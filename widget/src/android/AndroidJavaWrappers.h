@@ -483,11 +483,6 @@ stride
 )
 ;
 jobject
-GetSurface
-(
-)
-;
-jobject
 GetSurfaceHolder
 (
 )
@@ -521,10 +516,6 @@ jGetSoftwareDrawBitmapMethod
 static
 jmethodID
 jGetSoftwareDrawBufferMethod
-;
-static
-jmethodID
-jGetSurfaceMethod
 ;
 static
 jmethodID
