@@ -1047,6 +1047,13 @@ rval
 const
 ;
 inline
+bool
+hasPushedSPSFrame
+(
+)
+const
+;
+inline
 void
 popBlock
 (

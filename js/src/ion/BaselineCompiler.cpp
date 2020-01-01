@@ -2621,7 +2621,7 @@ noPop
 ;
 masm
 .
-spsPopFrame
+spsPopFrameSafe
 (
 &
 cx
