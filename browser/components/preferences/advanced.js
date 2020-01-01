@@ -2045,7 +2045,7 @@ Components
 .
 interfaces
 .
-nsIApplicationUpdateService
+nsIApplicationUpdateService2
 )
 ;
 var
@@ -2083,7 +2083,7 @@ disabled
 !
 aus
 .
-canUpdate
+canCheckForUpdates
 |
 |
 enabledPref
