@@ -835,6 +835,15 @@ bar
 "
 )
 ;
+if
+(
+!
+firefoxnav
+)
+{
+return
+;
+}
 let
 curSet
 =
