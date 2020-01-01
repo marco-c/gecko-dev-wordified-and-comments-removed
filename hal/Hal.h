@@ -18,6 +18,15 @@ h
 #
 include
 "
+mozilla
+/
+HalTypes
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes
@@ -618,6 +627,9 @@ aHiddenAdjust
 uint64_t
 aProcessID
 =
+hal
+:
+:
 CONTENT_PROCESS_ID_UNKNOWN
 )
 ;
