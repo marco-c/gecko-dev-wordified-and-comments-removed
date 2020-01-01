@@ -331,6 +331,9 @@ endif
 StackSpace
 stackSpace
 ;
+bool
+waiveGCQuota
+;
 static
 const
 size_t
