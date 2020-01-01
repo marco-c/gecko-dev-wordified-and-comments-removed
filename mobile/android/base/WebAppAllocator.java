@@ -20,7 +20,6 @@ content
 SharedPreferences
 ;
 public
-final
 class
 WebAppAllocator
 {

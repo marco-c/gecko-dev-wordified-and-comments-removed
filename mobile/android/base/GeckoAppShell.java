@@ -345,7 +345,6 @@ json
 JSONObject
 ;
 public
-final
 class
 GeckoAppShell
 {
@@ -1301,7 +1300,6 @@ view
 ;
 private
 static
-final
 class
 GeckoMediaScannerClient
 implements

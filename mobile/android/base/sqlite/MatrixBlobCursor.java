@@ -36,7 +36,6 @@ util
 ArrayList
 ;
 public
-final
 class
 MatrixBlobCursor
 extends
@@ -656,7 +655,6 @@ length
 }
 }
 public
-final
 class
 RowBuilder
 {

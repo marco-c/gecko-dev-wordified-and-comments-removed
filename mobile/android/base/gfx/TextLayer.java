@@ -58,7 +58,7 @@ nio
 .
 ByteBuffer
 ;
-final
+public
 class
 TextLayer
 extends

@@ -191,7 +191,6 @@ util
 TimerTask
 ;
 public
-final
 class
 PanZoomController
 extends
@@ -2946,7 +2945,6 @@ true
 }
 }
 private
-final
 class
 BounceRunnable
 extends
@@ -3128,7 +3126,6 @@ mBounceFrame
 }
 }
 private
-final
 class
 FlingRunnable
 extends
@@ -3666,7 +3663,6 @@ viewportMetrics
 ;
 }
 private
-final
 class
 AxisX
 extends
@@ -3756,7 +3752,6 @@ width
 }
 }
 private
-final
 class
 AxisY
 extends

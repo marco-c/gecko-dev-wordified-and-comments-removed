@@ -28,7 +28,7 @@ nio
 .
 FloatBuffer
 ;
-final
+public
 class
 NinePatchTileLayer
 extends

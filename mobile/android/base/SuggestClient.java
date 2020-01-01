@@ -96,7 +96,7 @@ util
 .
 ArrayList
 ;
-final
+public
 class
 SuggestClient
 {

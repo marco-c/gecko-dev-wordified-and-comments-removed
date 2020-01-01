@@ -329,13 +329,11 @@ util
 Log
 ;
 public
-final
 class
 FormHistoryProvider
 extends
 GeckoProvider
 {
-private
 static
 final
 String
@@ -345,7 +343,6 @@ TABLE_FORM_HISTORY
 moz_formhistory
 "
 ;
-private
 static
 final
 String

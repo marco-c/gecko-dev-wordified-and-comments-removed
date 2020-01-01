@@ -26,7 +26,7 @@ content
 .
 Intent
 ;
-final
+public
 class
 GeckoMessageReceiver
 extends

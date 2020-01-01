@@ -70,7 +70,6 @@ Map
 Entry
 ;
 public
-final
 class
 SQLiteBridge
 {

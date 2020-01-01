@@ -7,7 +7,7 @@ gecko
 .
 gfx
 ;
-final
+public
 class
 VirtualLayer
 extends

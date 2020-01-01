@@ -47,6 +47,7 @@ view
 .
 View
 ;
+public
 final
 class
 GeckoViewsFactory

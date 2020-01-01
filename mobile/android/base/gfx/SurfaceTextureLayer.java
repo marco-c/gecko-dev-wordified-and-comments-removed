@@ -66,7 +66,6 @@ nio
 FloatBuffer
 ;
 public
-final
 class
 SurfaceTextureLayer
 extends

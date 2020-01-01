@@ -52,7 +52,7 @@ egl
 .
 EGLContext
 ;
-final
+public
 class
 TextureGenerator
 {

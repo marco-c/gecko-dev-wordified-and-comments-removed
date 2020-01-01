@@ -239,8 +239,8 @@ system
 .
 *
 ;
-public
 abstract
+public
 class
 BrowserApp
 extends
@@ -2368,8 +2368,7 @@ r
 )
 ;
 }
-private
-final
+public
 class
 AboutHomeRunnable
 implements

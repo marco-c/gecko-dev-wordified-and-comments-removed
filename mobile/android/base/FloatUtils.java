@@ -17,12 +17,6 @@ final
 class
 FloatUtils
 {
-private
-FloatUtils
-(
-)
-{
-}
 public
 static
 boolean

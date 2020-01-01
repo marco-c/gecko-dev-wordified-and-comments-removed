@@ -42,7 +42,7 @@ view
 .
 ViewGroup
 ;
-final
+public
 class
 FlowLayout
 extends

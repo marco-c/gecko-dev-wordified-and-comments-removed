@@ -79,7 +79,7 @@ widget
 .
 ImageView
 ;
-final
+public
 class
 MenuItemDefault
 extends

@@ -110,7 +110,6 @@ GeckoSmsManager
 ;
 #
 endif
-final
 class
 SmsManager
 {

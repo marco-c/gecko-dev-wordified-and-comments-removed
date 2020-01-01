@@ -70,7 +70,7 @@ widget
 .
 ImageButton
 ;
-final
+public
 class
 MenuItemActionBar
 extends

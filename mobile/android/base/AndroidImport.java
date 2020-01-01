@@ -103,7 +103,6 @@ util
 .
 ArrayList
 ;
-final
 class
 AndroidImport
 implements

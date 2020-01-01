@@ -95,7 +95,7 @@ json
 .
 JSONException
 ;
-final
+public
 class
 SiteIdentityPopup
 extends
@@ -206,7 +206,6 @@ false
 }
 private
 static
-final
 class
 InstanceHolder
 {

@@ -100,7 +100,6 @@ nio
 IntBuffer
 ;
 public
-final
 class
 LayerView
 extends
@@ -112,7 +111,6 @@ Callback
 {
 private
 static
-final
 String
 LOGTAG
 =

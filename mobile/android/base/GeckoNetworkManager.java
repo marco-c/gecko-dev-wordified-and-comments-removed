@@ -61,7 +61,7 @@ telephony
 .
 TelephonyManager
 ;
-final
+public
 class
 GeckoNetworkManager
 extends

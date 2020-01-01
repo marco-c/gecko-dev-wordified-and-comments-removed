@@ -14,7 +14,7 @@ graphics
 .
 Bitmap
 ;
-final
+public
 class
 CairoUtils
 {

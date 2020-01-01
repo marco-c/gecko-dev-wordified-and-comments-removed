@@ -58,7 +58,6 @@ util
 .
 Log
 ;
-final
 class
 CameraImageResultHandler
 implements

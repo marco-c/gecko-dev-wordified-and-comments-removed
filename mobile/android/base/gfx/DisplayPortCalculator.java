@@ -1358,7 +1358,6 @@ rect
 }
 private
 static
-final
 class
 NoMarginStrategy
 extends
@@ -1439,7 +1438,6 @@ NoMarginStrategy
 }
 private
 static
-final
 class
 FixedMarginStrategy
 extends
@@ -1704,7 +1702,6 @@ DANGER_ZONE_Y_MULTIPLIER
 }
 private
 static
-final
 class
 VelocityBiasStrategy
 extends
@@ -2383,7 +2380,6 @@ DANGER_ZONE_INCR_Y_MULTIPLIER
 }
 private
 static
-final
 class
 DynamicResolutionStrategy
 extends
@@ -3014,7 +3010,6 @@ DynamicResolutionStrategy
 }
 private
 static
-final
 class
 PredictionBiasStrategy
 extends

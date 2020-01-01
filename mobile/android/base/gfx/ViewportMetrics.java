@@ -61,7 +61,6 @@ json
 JSONObject
 ;
 public
-final
 class
 ViewportMetrics
 {

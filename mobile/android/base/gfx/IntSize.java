@@ -22,7 +22,6 @@ json
 JSONObject
 ;
 public
-final
 class
 IntSize
 {

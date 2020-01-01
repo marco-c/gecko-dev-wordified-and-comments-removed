@@ -81,7 +81,6 @@ egl
 EGLSurface
 ;
 public
-final
 class
 GLController
 {

@@ -33,15 +33,14 @@ util
 .
 Log
 ;
-final
 class
 AndroidImportPreference
 extends
 MultiChoicePreference
 {
-private
 static
 final
+private
 String
 LOGTAG
 =

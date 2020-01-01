@@ -2826,7 +2826,6 @@ mMenuPanel
 }
 public
 static
-final
 class
 MenuPanel
 extends
@@ -13155,8 +13154,6 @@ String
 host
 )
 ;
-private
-final
 class
 RedirectorRunnable
 implements
@@ -17930,7 +17927,6 @@ false
 ;
 }
 private
-final
 class
 FullScreenHolder
 extends
@@ -18558,7 +18554,6 @@ getName
 }
 private
 static
-final
 class
 AccessibilityCompat
 {

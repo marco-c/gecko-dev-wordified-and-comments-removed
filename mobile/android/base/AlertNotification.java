@@ -68,7 +68,7 @@ text
 .
 NumberFormat
 ;
-final
+public
 class
 AlertNotification
 extends

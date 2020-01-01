@@ -26,12 +26,6 @@ final
 class
 BitmapUtils
 {
-private
-BitmapUtils
-(
-)
-{
-}
 public
 static
 int

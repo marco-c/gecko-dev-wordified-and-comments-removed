@@ -42,7 +42,7 @@ widget
 .
 ImageView
 ;
-final
+public
 class
 SetupScreen
 extends

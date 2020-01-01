@@ -214,7 +214,6 @@ graphics
 *
 ;
 public
-final
 class
 LauncherShortcuts
 extends
@@ -754,7 +753,6 @@ finish
 ;
 }
 private
-final
 class
 FetchWebApps
 extends

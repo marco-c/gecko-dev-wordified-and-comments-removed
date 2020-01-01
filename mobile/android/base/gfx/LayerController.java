@@ -88,7 +88,6 @@ view
 GestureDetector
 ;
 public
-final
 class
 LayerController
 {

@@ -40,7 +40,6 @@ util
 .
 Log
 ;
-final
 class
 PrivateDataPreference
 extends

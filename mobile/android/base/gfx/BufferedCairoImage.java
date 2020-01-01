@@ -31,7 +31,6 @@ nio
 ByteBuffer
 ;
 public
-final
 class
 BufferedCairoImage
 extends

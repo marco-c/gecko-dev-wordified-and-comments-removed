@@ -28,6 +28,7 @@ nio
 .
 ByteBuffer
 ;
+public
 abstract
 class
 TileLayer

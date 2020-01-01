@@ -153,7 +153,6 @@ util
 HashMap
 ;
 public
-final
 class
 GeckoLayerClient
 implements
