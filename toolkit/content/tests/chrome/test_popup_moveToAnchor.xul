@@ -311,8 +311,6 @@ button1
 "
 after_start
 "
-0
-0
 )
 ;
 }
@@ -395,7 +393,6 @@ after_start
 "
 0
 8
-false
 )
 ;
 checkCoords
@@ -433,7 +430,6 @@ after_start
 6
 -
 10
-false
 )
 ;
 checkCoords
@@ -476,7 +472,6 @@ before_start
 -
 2
 0
-false
 )
 ;
 checkCoords
@@ -511,9 +506,6 @@ button2
 "
 before_start
 "
-0
-0
-false
 )
 ;
 checkCoords
@@ -545,9 +537,6 @@ button1
 "
 end_before
 "
-0
-0
-false
 )
 ;
 checkCoords
@@ -580,7 +569,6 @@ after_start
 "
 5
 4
-false
 )
 ;
 checkCoords
@@ -673,7 +661,6 @@ after_start
 "
 1
 2
-false
 )
 ;
 checkCoords
