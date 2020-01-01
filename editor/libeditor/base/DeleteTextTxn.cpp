@@ -421,13 +421,11 @@ result
 result
 )
 ;
-if
+NS_ENSURE_TRUE
 (
-!
 selection
-)
-return
 NS_ERROR_NULL_POINTER
+)
 ;
 result
 =

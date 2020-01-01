@@ -506,13 +506,11 @@ do_QueryInterface
 refCon
 )
 ;
-if
+NS_ENSURE_TRUE
 (
-!
 editor
-)
-return
 NS_ERROR_NOT_IMPLEMENTED
+)
 ;
 editor
 -
