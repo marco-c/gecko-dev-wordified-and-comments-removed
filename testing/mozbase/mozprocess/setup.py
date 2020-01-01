@@ -114,10 +114,10 @@ Team
 author_email
 =
 '
-mozmill
--
-dev
-googlegroups
+tools
+lists
+.
+mozilla
 .
 com
 '
@@ -125,7 +125,7 @@ com
 url
 =
 '
-http
+https
 :
 /
 /
@@ -133,9 +133,15 @@ github
 .
 com
 /
-mozautomation
+mozilla
 /
-mozmill
+mozbase
+/
+tree
+/
+master
+/
+mozprocess
 '
       
 license
