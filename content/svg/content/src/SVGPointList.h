@@ -456,7 +456,7 @@ aPoint
 }
 protected
 :
-nsTArray
+FallibleTArray
 <
 SVGPoint
 >

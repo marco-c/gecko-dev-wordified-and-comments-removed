@@ -390,7 +390,7 @@ aLength
 }
 protected
 :
-nsTArray
+FallibleTArray
 <
 SVGLength
 >
