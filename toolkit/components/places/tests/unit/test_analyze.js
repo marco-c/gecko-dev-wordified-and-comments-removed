@@ -83,7 +83,7 @@ function
 aReason
 )
 {
-do_check_false
+do_check_true
 (
 this
 .

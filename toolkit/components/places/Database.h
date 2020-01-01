@@ -126,6 +126,9 @@ connection
 -
 closed
 "
+class
+nsIStringBundle
+;
 namespace
 mozilla
 {
@@ -477,6 +480,11 @@ aDatabaseMigrated
 )
 ;
 nsresult
+CreateBookmarkRoots
+(
+)
+;
+nsresult
 InitFunctions
 (
 )
@@ -523,6 +531,11 @@ MigrateV14Up
 ;
 nsresult
 MigrateV15Up
+(
+)
+;
+nsresult
+UpdateBookmarkRootTitles
 (
 )
 ;
