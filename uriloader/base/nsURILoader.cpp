@@ -2137,7 +2137,6 @@ DoContent
 mContentType
 request
 m_originalContext
-PR_FALSE
 getter_AddRefs
 (
 m_targetStreamListener
