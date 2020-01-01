@@ -5609,6 +5609,7 @@ rv
 #
 ifdef
 DEBUG
+{
 nsCOMPtr
 <
 nsIInterfaceInfo
@@ -5634,8 +5635,7 @@ rv
 rv
 )
 ;
-char
-*
+nsXPIDLCString
 name
 ;
 info
@@ -5643,8 +5643,10 @@ info
 >
 GetName
 (
-&
+getter_Copies
+(
 name
+)
 )
 ;
 NS_ASSERTION
@@ -5658,6 +5660,10 @@ strcmp
 nsIXPCComponents_Utils
 "
 name
+.
+get
+(
+)
 )
 =
 =
@@ -5743,6 +5749,7 @@ method
 "
 )
 ;
+}
 #
 endif
 JSContext
