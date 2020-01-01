@@ -440,6 +440,14 @@ nsDeviceMotion
 {
 if
 (
+mStarted
+)
+Shutdown
+(
+)
+;
+if
+(
 mTimeoutTimer
 )
 mTimeoutTimer
