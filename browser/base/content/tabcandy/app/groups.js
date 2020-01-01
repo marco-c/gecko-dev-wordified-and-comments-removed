@@ -2355,7 +2355,7 @@ error
 "
 css
 -
-transforms
+transitions
 require
 Firefox
 3
