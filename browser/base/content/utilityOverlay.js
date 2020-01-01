@@ -2289,7 +2289,6 @@ tabID
 function
 openReleaseNotes
 (
-event
 )
 {
 var
@@ -2335,12 +2334,12 @@ releaseNotesURL
 "
 )
 ;
-openUILink
+openUILinkIn
 (
 relnotesURL
-event
-false
-true
+"
+tab
+"
 )
 ;
 }

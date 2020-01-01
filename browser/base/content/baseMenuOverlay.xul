@@ -987,7 +987,6 @@ oncommand
 "
 openReleaseNotes
 (
-event
 )
 "
 onclick
