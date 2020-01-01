@@ -27,6 +27,16 @@ JSObject
 class
 nsINode
 ;
+class
+nsString
+;
+template
+<
+class
+>
+class
+nsTArray
+;
 namespace
 mozilla
 {

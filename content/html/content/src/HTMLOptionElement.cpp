@@ -581,7 +581,7 @@ return
 NS_OK
 ;
 }
-nsHTMLOptionCollection
+HTMLOptionsCollection
 *
 options
 =

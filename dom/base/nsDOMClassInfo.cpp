@@ -30455,7 +30455,7 @@ obj
 )
 )
 ;
-nsHTMLOptionCollection
+HTMLOptionsCollection
 *
 options
 =
@@ -30597,7 +30597,7 @@ obj
 )
 )
 ;
-nsHTMLOptionCollection
+HTMLOptionsCollection
 *
 options
 =
