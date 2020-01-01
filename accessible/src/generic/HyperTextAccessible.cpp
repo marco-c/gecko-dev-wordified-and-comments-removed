@@ -5209,7 +5209,6 @@ boundsRect
 .
 height
 ;
-return
 nsAccUtils
 :
 :
@@ -5220,6 +5219,9 @@ aY
 aCoordType
 this
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -5274,9 +5276,6 @@ NS_ERROR_FAILURE
 }
 nsIntPoint
 coords
-;
-nsresult
-rv
 =
 nsAccUtils
 :
@@ -5287,14 +5286,6 @@ aX
 aY
 aCoordType
 this
-&
-coords
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 nsPresContext
@@ -8060,9 +8051,6 @@ NS_ERROR_FAILURE
 ;
 nsIntPoint
 coords
-;
-nsresult
-rv
 =
 nsAccUtils
 :
@@ -8073,14 +8061,6 @@ aX
 aY
 aCoordinateType
 this
-&
-coords
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 nsRefPtr
@@ -8094,6 +8074,7 @@ nsRange
 (
 )
 ;
+nsresult
 rv
 =
 HypertextOffsetsToDOMRange

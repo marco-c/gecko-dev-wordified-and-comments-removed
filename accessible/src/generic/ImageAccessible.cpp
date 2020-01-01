@@ -610,7 +610,6 @@ rv
 return
 rv
 ;
-return
 nsAccUtils
 :
 :
@@ -621,6 +620,9 @@ aY
 aCoordType
 this
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
