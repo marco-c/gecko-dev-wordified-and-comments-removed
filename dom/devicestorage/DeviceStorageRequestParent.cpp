@@ -1529,6 +1529,10 @@ mFile
 mFile
 &
 diskUsage
+mFile
+-
+>
+mStorageType
 )
 ;
 int64_t
