@@ -1942,6 +1942,7 @@ html
 ref
 .
 html
+random
 =
 =
 336736
@@ -1956,6 +1957,19 @@ html
 ref
 .
 html
+#
+something
+wrong
+with
+subpixel
+horizontal
+alignment
+(
+tracked
+in
+bug
+336736
+)
 fails
 -
 if
