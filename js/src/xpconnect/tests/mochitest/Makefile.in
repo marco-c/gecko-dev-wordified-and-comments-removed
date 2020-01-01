@@ -444,6 +444,10 @@ test_bug390488
 .
 html
 \
+test_bug393269
+.
+html
+\
 test_wrappers
 .
 html
