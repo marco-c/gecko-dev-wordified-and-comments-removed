@@ -564,6 +564,15 @@ Cookies
 <
 !
 ENTITY
+permNotifications
+"
+Show
+Notifications
+"
+>
+<
+!
+ENTITY
 permInstall
 "
 Install
