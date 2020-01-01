@@ -505,10 +505,6 @@ mShuttingDown
 =
 PR_TRUE
 ;
-StopTimeUpdate
-(
-)
-;
 if
 (
 mDecoderStateMachine
@@ -1411,10 +1407,6 @@ ResourceLoaded
 )
 ;
 }
-StartTimeUpdate
-(
-)
-;
 }
 void
 nsBuiltinDecoder
