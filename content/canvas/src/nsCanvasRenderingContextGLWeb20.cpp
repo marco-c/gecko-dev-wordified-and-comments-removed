@@ -7034,9 +7034,6 @@ gfxImageSurface
 imageOut
 )
 {
-nsresult
-rv
-;
 gfxImageSurface
 *
 surf
@@ -7074,7 +7071,7 @@ res
 mSurface
 )
 return
-rv
+NS_ERROR_FAILURE
 ;
 CanvasUtils
 :
