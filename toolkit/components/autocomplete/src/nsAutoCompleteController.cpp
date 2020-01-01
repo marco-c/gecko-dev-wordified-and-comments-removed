@@ -3771,6 +3771,16 @@ searchesFailed
 mSearchesOngoing
 ;
 }
+if
+(
+!
+mInput
+)
+{
+return
+NS_OK
+;
+}
 }
 if
 (
