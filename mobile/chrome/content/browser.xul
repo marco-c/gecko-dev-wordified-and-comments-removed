@@ -7987,6 +7987,13 @@ menulist
 -
 commands
 "
+class
+=
+"
+prompt
+-
+buttons
+"
 onclick
 =
 "

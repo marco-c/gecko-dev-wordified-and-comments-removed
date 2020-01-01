@@ -13713,6 +13713,9 @@ class
 menulist
 -
 command
+prompt
+-
+button
 "
 +
 (
