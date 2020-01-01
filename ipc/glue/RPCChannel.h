@@ -15,7 +15,7 @@ h
 #
 include
 <
-queue
+deque
 >
 #
 include
@@ -1040,7 +1040,7 @@ typedef
 std
 :
 :
-queue
+deque
 <
 Message
 >
