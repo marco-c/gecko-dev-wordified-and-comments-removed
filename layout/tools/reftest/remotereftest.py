@@ -6,6 +6,8 @@ import
 time
 import
 tempfile
+import
+traceback
 SCRIPT_DIRECTORY
 =
 os
@@ -3678,18 +3680,21 @@ except
         
 print
 "
-TEST
--
-UNEXPECTED
--
-FAIL
-|
-|
-exception
+Automation
+Error
+:
+Exception
+caught
 while
 running
-reftests
+tests
 "
+        
+traceback
+.
+print_exc
+(
+)
         
 retVal
 =
