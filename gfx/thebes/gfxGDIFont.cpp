@@ -450,6 +450,11 @@ ok
 =
 PR_FALSE
 ;
+SetupCairoFont
+(
+aContext
+)
+;
 if
 (
 mHarfBuzzShaper
