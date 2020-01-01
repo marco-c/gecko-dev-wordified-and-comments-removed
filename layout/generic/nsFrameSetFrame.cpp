@@ -225,11 +225,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
+nsIContent
 .
 h
 "
@@ -978,11 +974,6 @@ frame
 -
 >
 GetContent
-(
-)
--
->
-AsElement
 (
 )
 kNameSpaceID_None
