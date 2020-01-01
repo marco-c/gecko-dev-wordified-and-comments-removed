@@ -741,17 +741,6 @@ aFlags
 RenderFlagPremultAlpha
 )
 ;
-virtual
-uint8_t
-*
-GetImageBuffer
-(
-)
-{
-return
-nullptr
-;
-}
 NS_IMETHOD
 GetInputStream
 (
