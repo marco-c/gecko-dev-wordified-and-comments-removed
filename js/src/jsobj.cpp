@@ -17489,6 +17489,12 @@ imacpc
 else
 #
 endif
+{
+JS_ASSERT_NOT_ON_TRACE
+(
+cx
+)
+;
 if
 (
 cx
@@ -17535,6 +17541,7 @@ else
 return
 NULL
 ;
+}
 }
 return
 (

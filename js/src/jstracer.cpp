@@ -6591,6 +6591,7 @@ clength
 ;
 }
 static
+JS_REQUIRES_STACK
 void
 specializeTreesToMissingGlobals
 (
