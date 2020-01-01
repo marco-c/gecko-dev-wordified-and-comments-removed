@@ -599,7 +599,7 @@ class
 IonOOLPropertyOpExitFrameLayout
 ;
 class
-IonOOLProxyGetExitFrameLayout
+IonOOLProxyExitFrameLayout
 ;
 class
 IonDOMExitFrameLayout
@@ -814,7 +814,7 @@ ION_FRAME_OOL_PROPERTY_OP
 }
 inline
 bool
-isOOLProxyGetExit
+isOOLProxyExit
 (
 )
 {
@@ -829,7 +829,7 @@ ionCode
 )
 =
 =
-ION_FRAME_OOL_PROXY_GET
+ION_FRAME_OOL_PROXY
 ;
 }
 inline
@@ -952,15 +952,15 @@ footer
 ;
 }
 inline
-IonOOLProxyGetExitFrameLayout
+IonOOLProxyExitFrameLayout
 *
-oolProxyGetExit
+oolProxyExit
 (
 )
 {
 JS_ASSERT
 (
-isOOLProxyGetExit
+isOOLProxyExit
 (
 )
 )
@@ -968,7 +968,7 @@ isOOLProxyGetExit
 return
 reinterpret_cast
 <
-IonOOLProxyGetExitFrameLayout
+IonOOLProxyExitFrameLayout
 *
 >
 (
@@ -1342,7 +1342,7 @@ obj_
 }
 ;
 class
-IonOOLProxyGetExitFrameLayout
+IonOOLProxyExitFrameLayout
 {
 protected
 :
@@ -1385,7 +1385,7 @@ Size
 return
 sizeof
 (
-IonOOLProxyGetExitFrameLayout
+IonOOLProxyExitFrameLayout
 )
 ;
 }
@@ -1398,7 +1398,7 @@ offsetOfResult
 return
 offsetof
 (
-IonOOLProxyGetExitFrameLayout
+IonOOLProxyExitFrameLayout
 vp0_
 )
 ;

@@ -347,7 +347,7 @@ isOOLPropertyOp
 const
 ;
 bool
-isOOLProxyGet
+isOOLProxy
 (
 )
 const

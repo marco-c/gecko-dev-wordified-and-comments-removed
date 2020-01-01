@@ -6154,7 +6154,7 @@ masm
 .
 enterFakeExitFrame
 (
-ION_FRAME_OOL_PROXY_GET
+ION_FRAME_OOL_PROXY
 )
 ;
 masm
@@ -6234,7 +6234,7 @@ loadValue
 Address
 (
 StackPointer
-IonOOLProxyGetExitFrameLayout
+IonOOLProxyExitFrameLayout
 :
 :
 offsetOfResult
@@ -6255,7 +6255,7 @@ masm
 .
 adjustStack
 (
-IonOOLProxyGetExitFrameLayout
+IonOOLProxyExitFrameLayout
 :
 :
 Size

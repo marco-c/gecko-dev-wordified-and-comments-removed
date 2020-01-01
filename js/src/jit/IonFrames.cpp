@@ -701,7 +701,7 @@ bool
 IonFrameIterator
 :
 :
-isOOLProxyGet
+isOOLProxy
 (
 )
 const
@@ -732,7 +732,7 @@ ionCode
 )
 =
 =
-ION_FRAME_OOL_PROXY_GET
+ION_FRAME_OOL_PROXY
 ;
 }
 bool
@@ -5249,14 +5249,14 @@ if
 (
 frame
 .
-isOOLProxyGet
+isOOLProxy
 (
 )
 )
 {
-IonOOLProxyGetExitFrameLayout
+IonOOLProxyExitFrameLayout
 *
-oolproxyget
+oolproxy
 =
 frame
 .
@@ -5265,7 +5265,7 @@ exitFrame
 )
 -
 >
-oolProxyGetExit
+oolProxyExit
 (
 )
 ;
@@ -5275,7 +5275,7 @@ gc
 MarkIonCodeRoot
 (
 trc
-oolproxyget
+oolproxy
 -
 >
 stubCode
@@ -5288,8 +5288,6 @@ ool
 -
 proxy
 -
-get
--
 code
 "
 )
@@ -5300,7 +5298,7 @@ gc
 MarkValueRoot
 (
 trc
-oolproxyget
+oolproxy
 -
 >
 vp
@@ -5312,8 +5310,6 @@ ion
 ool
 -
 proxy
--
-get
 -
 vp
 "
@@ -5325,7 +5321,7 @@ gc
 MarkIdRoot
 (
 trc
-oolproxyget
+oolproxy
 -
 >
 id
@@ -5338,8 +5334,6 @@ ool
 -
 proxy
 -
-get
--
 id
 "
 )
@@ -5350,7 +5344,7 @@ gc
 MarkObjectRoot
 (
 trc
-oolproxyget
+oolproxy
 -
 >
 proxy
@@ -5363,8 +5357,6 @@ ool
 -
 proxy
 -
-get
--
 proxy
 "
 )
@@ -5375,7 +5367,7 @@ gc
 MarkObjectRoot
 (
 trc
-oolproxyget
+oolproxy
 -
 >
 receiver
@@ -5387,8 +5379,6 @@ ion
 ool
 -
 proxy
--
-get
 -
 receiver
 "
