@@ -653,17 +653,6 @@ aY
 )
 ;
 NS_IMETHOD
-MoveWithRepaintOption
-(
-PRInt32
-aX
-PRInt32
-aY
-PRBool
-aRepaint
-)
-;
-NS_IMETHOD
 Resize
 (
 PRInt32
