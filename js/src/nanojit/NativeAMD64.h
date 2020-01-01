@@ -6533,14 +6533,6 @@ _nIns
 AMD64_MOV_RM_IMM
 ;
 \
-if
-(
-AMD64_NEEDS_REX
-(
-r
-)
-)
-\
 *
 (
 -
@@ -6550,7 +6542,7 @@ _nIns
 =
 AMD64_REX
 (
-0
+1
 0
 r
 )
