@@ -170,10 +170,6 @@ nsComponentManagerUtils
 .
 h
 \
-nsCycleCollectionJSRuntime
-.
-h
-\
 nsCycleCollectionParticipant
 .
 h

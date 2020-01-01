@@ -1433,12 +1433,6 @@ GetJunkScope
 )
 ;
 }
-nsCycleCollectionParticipant
-*
-xpc_JSZoneParticipant
-(
-)
-;
 namespace
 mozilla
 {
