@@ -1031,10 +1031,10 @@ aScreenPixelToMillimeterX
 .
 4f
 /
-context
--
->
-AppUnitsToDevPixels
+nsPresContext
+:
+:
+AppUnitsToIntCSSPixels
 (
 context
 -
