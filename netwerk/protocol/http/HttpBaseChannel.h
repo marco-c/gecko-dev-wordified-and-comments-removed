@@ -1107,6 +1107,11 @@ mChannelIsForDownload
 :
 1
 ;
+PRUint32
+mTimingEnabled
+:
+1
+;
 nsTArray
 <
 nsCString
