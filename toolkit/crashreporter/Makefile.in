@@ -413,7 +413,7 @@ autoconf
 mk
 MODULE
 =
-airbag
+crashreporter
 LIBXUL_LIBRARY
 =
 1

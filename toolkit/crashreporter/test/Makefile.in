@@ -438,7 +438,7 @@ xpcom
 \
 string
 \
-airbag
+crashreporter
 \
 (
 NULL
