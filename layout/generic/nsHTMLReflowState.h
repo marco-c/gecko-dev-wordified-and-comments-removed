@@ -642,6 +642,11 @@ mTableIsSplittable
 :
 1
 ;
+PRUint16
+mHeightDependsOnAncestorCell
+:
+1
+;
 }
 mFlags
 ;
