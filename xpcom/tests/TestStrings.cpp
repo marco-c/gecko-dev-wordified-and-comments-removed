@@ -3923,11 +3923,10 @@ min_expected_oct
 int64_t
 maxint_plus1
 =
-LL_INIT
-(
-1
-0
-)
+1LL
+<
+<
+32
 ;
 static
 const

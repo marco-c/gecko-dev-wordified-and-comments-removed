@@ -686,13 +686,8 @@ fileSize
 ;
 int64_t
 max32
-(
-LL_INIT
-(
-0
+=
 0xFFFFFFFF
-)
-)
 ;
 cacheFile
 -
