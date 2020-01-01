@@ -595,6 +595,8 @@ aEvent
 {
 tab_A2
 .
+linkedBrowser
+.
 removeEventListener
 (
 "
