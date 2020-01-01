@@ -787,6 +787,10 @@ flags
 Tabs
 .
 LOADURL_NEW_TAB
+|
+Tabs
+.
+LOADURL_BACKGROUND
 ;
 if
 (
