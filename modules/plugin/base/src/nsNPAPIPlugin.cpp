@@ -1683,13 +1683,12 @@ if
 tag
 )
 {
-NS_RELEASE
-(
 tag
 -
 >
 mEntryPoint
-)
+=
+NULL
 ;
 }
 }
