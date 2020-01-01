@@ -6568,6 +6568,10 @@ parent
 StackBaseShape
 base
 (
+cx
+-
+>
+compartment
 clasp
 parent
 objectFlags

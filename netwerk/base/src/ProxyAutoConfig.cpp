@@ -3675,6 +3675,10 @@ mContext
 &
 sGlobalClass
 nullptr
+JS
+:
+:
+SystemZone
 )
 ;
 NS_ENSURE_TRUE

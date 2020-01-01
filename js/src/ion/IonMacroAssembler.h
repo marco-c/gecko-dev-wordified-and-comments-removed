@@ -339,10 +339,6 @@ ionContext_
 construct
 (
 cx
-cx
--
->
-compartment
 (
 js
 :
@@ -835,10 +831,7 @@ GetIonContext
 )
 -
 >
-compartment
--
->
-rt
+runtime
 )
 dest
 )
@@ -878,10 +871,7 @@ GetIonContext
 )
 -
 >
-compartment
--
->
-rt
+runtime
 )
 dest
 )

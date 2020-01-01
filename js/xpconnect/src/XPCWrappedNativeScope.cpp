@@ -936,6 +936,12 @@ proto
 =
 global
 ;
+options
+.
+sameZoneAs
+=
+global
+;
 nsCOMPtr
 <
 nsIExpandedPrincipal

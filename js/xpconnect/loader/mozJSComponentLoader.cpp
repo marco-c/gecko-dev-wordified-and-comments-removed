@@ -56,6 +56,13 @@ endif
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -3370,6 +3377,10 @@ aCx
 backstagePass
 mSystemPrincipal
 0
+JS
+:
+:
+SystemZone
 getter_AddRefs
 (
 holder

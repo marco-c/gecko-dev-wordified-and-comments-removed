@@ -4654,6 +4654,10 @@ cx
 backstagePass
 principal
 0
+JS
+:
+:
+SystemZone
 getter_AddRefs
 (
 holder
