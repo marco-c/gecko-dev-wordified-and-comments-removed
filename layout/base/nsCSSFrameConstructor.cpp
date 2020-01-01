@@ -18513,6 +18513,17 @@ NS_STYLE_DISPLAY_NONE
 )
 )
 {
+aState
+.
+mFrameManager
+-
+>
+SetUndisplayedContent
+(
+aDocElement
+styleContext
+)
+;
 mInitialContainingBlock
 =
 nsnull
