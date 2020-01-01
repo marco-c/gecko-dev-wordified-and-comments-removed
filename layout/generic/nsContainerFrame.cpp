@@ -6007,6 +6007,11 @@ mPrevOverflowCont
 =
 =
 aChild
+-
+>
+GetNextInFlow
+(
+)
 )
 {
 mPrevOverflowCont
