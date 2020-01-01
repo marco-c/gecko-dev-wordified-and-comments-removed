@@ -3342,11 +3342,13 @@ interfaces
 if
 (
 !
+(
 document
 instanceof
 CI
 .
 nsIDOMXULDocument
+)
 )
 return
 null
@@ -3368,11 +3370,13 @@ textbox
 |
 |
 !
+(
 textbox
 instanceof
 CI
 .
 nsIDOMXULTextBoxElement
+)
 )
 return
 null
