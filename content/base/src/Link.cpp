@@ -430,7 +430,7 @@ mRegistered
 =
 true
 ;
-doc
+element
 -
 >
 GetCurrentDoc
