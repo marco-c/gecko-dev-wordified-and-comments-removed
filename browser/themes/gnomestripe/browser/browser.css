@@ -6357,3 +6357,16 @@ png
 )
 ;
 }
+#
+pageReportFirstTime
+statusbarpanel
+.
+statusbar
+-
+resizerpanel
+{
+visibility
+:
+collapse
+;
+}
