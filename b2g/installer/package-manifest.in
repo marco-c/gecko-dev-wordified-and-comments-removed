@@ -1321,6 +1321,13 @@ BINPATH
 /
 components
 /
+jsdownloads
+.
+xpt
+BINPATH
+/
+components
+/
 jsdservice
 .
 xpt

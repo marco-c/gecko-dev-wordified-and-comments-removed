@@ -933,6 +933,14 @@ this
 succeeded
 )
 {
+yield
+DownloadIntegration
+.
+downloadDone
+(
+this
+)
+;
 this
 .
 _deferSucceeded
