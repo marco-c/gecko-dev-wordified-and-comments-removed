@@ -562,7 +562,7 @@ X64_jneg8
 X64_leaqrm
 =
 0x00000000808D4807LL
-X64_learm
+X64_lealrm
 =
 0x00000000808D4007LL
 X64_learip
@@ -2769,6 +2769,18 @@ Register
 r
 int32_t
 d
+)
+;
+\
+void
+LEALRM
+(
+Register
+r
+int
+d
+Register
+b
 )
 ;
 \
