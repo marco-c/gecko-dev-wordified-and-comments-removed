@@ -1033,7 +1033,7 @@ WeaveID
 '
 )
 .
-userHash
+username
 ;
 }
 get
@@ -1143,9 +1143,6 @@ username
 =
 '
 nobody
-mozilla
-.
-com
 '
 )
 {

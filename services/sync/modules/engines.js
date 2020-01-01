@@ -4058,16 +4058,6 @@ responseText
 )
 ;
 let
-hash
-=
-Utils
-.
-sha1
-(
-username
-)
-;
-let
 serverURL
 =
 Utils
@@ -4092,7 +4082,7 @@ user
 /
 "
 +
-hash
+username
 +
 "
 /
@@ -4212,7 +4202,7 @@ keys
 .
 ring
 [
-hash
+username
 ]
 =
 enckey

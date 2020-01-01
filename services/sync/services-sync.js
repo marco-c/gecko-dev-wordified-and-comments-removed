@@ -12,11 +12,15 @@ https
 :
 /
 /
-services
+sm
+-
+labs01
 .
 mozilla
 .
-com
+org
+:
+81
 /
 "
 )
@@ -32,9 +36,6 @@ username
 "
 "
 nobody
-mozilla
-.
-com
 "
 )
 ;
@@ -199,7 +200,7 @@ engine
 .
 cookies
 "
-false
+true
 )
 ;
 pref
@@ -213,7 +214,7 @@ engine
 .
 passwords
 "
-false
+true
 )
 ;
 pref
@@ -227,7 +228,7 @@ engine
 .
 forms
 "
-false
+true
 )
 ;
 pref
@@ -241,7 +242,7 @@ engine
 .
 tabs
 "
-false
+true
 )
 ;
 pref

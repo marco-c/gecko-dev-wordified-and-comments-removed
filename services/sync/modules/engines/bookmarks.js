@@ -531,16 +531,6 @@ user
 ;
 try
 {
-let
-hash
-=
-Utils
-.
-sha1
-(
-user
-)
-;
 DAV
 .
 defaultPrefix
@@ -550,7 +540,7 @@ user
 /
 "
 +
-hash
+user
 +
 "
 /

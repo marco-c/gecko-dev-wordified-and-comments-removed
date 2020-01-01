@@ -6,7 +6,9 @@ dialog
 title
 "
 Mozilla
-Services
+Labs
+-
+Weave
 Login
 "
 >
@@ -34,7 +36,8 @@ username
 .
 label
 "
-Email
+Weave
+ID
 :
 "
 >
