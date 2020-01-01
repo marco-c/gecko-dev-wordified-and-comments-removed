@@ -10104,10 +10104,7 @@ isMarkStackEmpty
 )
 ;
 }
-}
-namespace
-JS
-{
+static
 void
 MarkRuntime
 (
@@ -10498,10 +10495,6 @@ gcGrayRootsData
 ;
 }
 }
-}
-namespace
-js
-{
 void
 TriggerGC
 (
