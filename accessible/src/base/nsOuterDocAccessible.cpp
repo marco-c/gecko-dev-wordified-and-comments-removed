@@ -463,9 +463,10 @@ InvalidateChildren
 (
 )
 {
-mChildrenFlags
-=
+SetChildrenFlag
+(
 eChildrenUninitialized
+)
 ;
 }
 PRBool
