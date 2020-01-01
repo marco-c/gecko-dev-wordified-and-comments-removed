@@ -1512,3 +1512,15 @@ return
 mShowPassword
 ;
 }
+PRUint32
+nsLookAndFeel
+:
+:
+GetPasswordMaskDelayImpl
+(
+)
+{
+return
+1500
+;
+}

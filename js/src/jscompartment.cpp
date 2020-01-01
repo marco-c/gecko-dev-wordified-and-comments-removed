@@ -2845,13 +2845,6 @@ types
 =
 NULL
 ;
-script
--
->
-typesPurged
-=
-true
-;
 }
 }
 }

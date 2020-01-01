@@ -6982,6 +6982,7 @@ oneDouble
 define
 STRICT_VARIANT
 (
+script
 f
 )
 \

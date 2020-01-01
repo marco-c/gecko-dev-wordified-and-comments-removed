@@ -190,6 +190,13 @@ PropertyName
 >
 CompilerRootPropertyName
 ;
+typedef
+CompilerRoot
+<
+Value
+>
+CompilerRootValue
+;
 class
 AutoCompilerRoots
 {

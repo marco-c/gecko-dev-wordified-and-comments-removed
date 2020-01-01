@@ -1568,10 +1568,11 @@ ToOutValue
 lir
 )
 ;
-JSObject
+GlobalObject
 *
 global
 =
+&
 gen
 -
 >

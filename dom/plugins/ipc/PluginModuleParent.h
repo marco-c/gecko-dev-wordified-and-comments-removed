@@ -1248,6 +1248,11 @@ CrashReporter
 ifdef
 MOZ_CRASHREPORTER
 void
+ProcessFirstMinidump
+(
+)
+;
+void
 WriteExtraDataForMinidump
 (
 CrashReporter
@@ -1366,10 +1371,6 @@ OnCrash
 (
 DWORD
 processID
-const
-nsAString
-&
-aDumpID
 )
 ;
 DWORD

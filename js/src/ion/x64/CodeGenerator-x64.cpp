@@ -1466,6 +1466,7 @@ GlobalObject
 *
 global
 =
+&
 gen
 -
 >
