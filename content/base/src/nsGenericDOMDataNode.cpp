@@ -2304,10 +2304,11 @@ BindingManager
 )
 -
 >
-RemovedFromDocument
+ChangeDocumentFor
 (
 this
 document
+nsnull
 )
 ;
 }
@@ -4248,7 +4249,7 @@ nsIAtom
 nsGenericDOMDataNode
 :
 :
-DoGetID
+GetID
 (
 )
 const
