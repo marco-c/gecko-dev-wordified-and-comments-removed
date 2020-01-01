@@ -402,5 +402,13 @@ jsdouble
 x
 )
 ;
+extern
+jsdouble
+js_math_round_impl
+(
+jsdouble
+x
+)
+;
 #
 endif
