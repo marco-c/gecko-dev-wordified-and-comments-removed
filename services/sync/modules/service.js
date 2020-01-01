@@ -4740,14 +4740,10 @@ true
 let
 pubkey
 =
-yield
 PubKeys
 .
 getDefaultKey
 (
-self
-.
-cb
 )
 ;
 if
