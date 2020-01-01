@@ -191,6 +191,11 @@ createReftestProfile
 self
 options
 profileDir
+server
+=
+'
+localhost
+'
 )
 :
     
@@ -219,9 +224,7 @@ allowXULXBL
 :
 [
 (
-'
-localhost
-'
+server
 True
 )
 (
