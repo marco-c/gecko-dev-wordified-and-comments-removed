@@ -746,18 +746,6 @@ themes
 winstripe
 /
 Makefile
-"
-if
-test
--
-n
-"
-MOZ_BRANDING_DIRECTORY
-"
-;
-then
-add_makefiles
-"
 MOZ_BRANDING_DIRECTORY
 /
 Makefile
@@ -772,7 +760,6 @@ locales
 /
 Makefile
 "
-fi
 if
 [
 "

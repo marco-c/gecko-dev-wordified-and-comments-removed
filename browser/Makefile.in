@@ -457,16 +457,6 @@ WINNT
 )
 ifdef
 MOZ_INSTALLER
-ifdef
-MOZ_BRANDING_DIRECTORY
-DEFINES
-+
-=
--
-DOFFICIAL_BRANDING
-=
-1
-endif
 #
 For
 Windows
