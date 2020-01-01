@@ -14211,6 +14211,17 @@ __SSi
 .
 _restoring
 ;
+this
+.
+_dirtyWindows
+[
+aWindow
+.
+__SSi
+]
+=
+true
+;
 }
 if
 (
