@@ -8964,6 +8964,11 @@ gksvgrenderer
 xpt
 components
 /
+html5
+.
+xpt
+components
+/
 htmlparser
 .
 xpt
