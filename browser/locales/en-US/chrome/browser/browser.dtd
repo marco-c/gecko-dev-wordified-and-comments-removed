@@ -1711,6 +1711,16 @@ I
 <
 !
 ENTITY
+inspectPanelTitle
+.
+label
+"
+HTML
+"
+>
+<
+!
+ENTITY
 inspectButton
 .
 label
