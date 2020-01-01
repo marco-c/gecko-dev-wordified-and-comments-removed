@@ -8755,6 +8755,8 @@ aProtocolFlags
 aProtocolFlags
 =
 NS_HTTP_PROTOCOL_FLAGS
+|
+URI_SAFE_TO_LOAD_IN_SECURE_CONTEXT
 ;
 return
 NS_OK
