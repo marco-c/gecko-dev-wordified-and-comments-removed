@@ -2601,7 +2601,7 @@ imm2register
 i
 -
 >
-imm8
+paramArg
 (
 )
 )
@@ -8908,7 +8908,7 @@ a
 ins
 -
 >
-imm8
+paramArg
 (
 )
 ;
@@ -8918,7 +8918,7 @@ kind
 ins
 -
 >
-imm8b
+paramKind
 (
 )
 ;
