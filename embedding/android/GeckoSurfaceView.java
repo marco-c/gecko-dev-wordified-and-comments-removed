@@ -906,6 +906,12 @@ InputType
 .
 TYPE_TEXT_VARIATION_PASSWORD
 ;
+inputConnection
+.
+reset
+(
+)
+;
 return
 inputConnection
 ;
