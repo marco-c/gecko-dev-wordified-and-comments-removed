@@ -972,7 +972,7 @@ nsFrameConstructorState
 aState
 )
 ;
-nsresult
+void
 ConstructFrame
 (
 nsFrameConstructorState
