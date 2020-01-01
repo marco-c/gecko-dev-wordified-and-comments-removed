@@ -855,10 +855,6 @@ browser_CTPScriptPlugin
 .
 js
 \
-browser_CTP_drag_drop
-.
-js
-\
 browser_pluginplaypreview
 .
 js
