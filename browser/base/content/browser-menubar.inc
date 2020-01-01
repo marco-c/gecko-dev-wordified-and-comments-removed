@@ -4088,6 +4088,11 @@ id
 "
 historyUndoPopup
 "
+placespopup
+=
+"
+true
+"
 onpopupshowing
 =
 "
@@ -4132,6 +4137,11 @@ id
 =
 "
 historyUndoWindowPopup
+"
+placespopup
+=
+"
+true
 "
 onpopupshowing
 =
