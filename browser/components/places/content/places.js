@@ -5039,6 +5039,18 @@ filterCollection
 collectionName
 )
 {
+if
+(
+collectionName
+=
+=
+this
+.
+filterCollection
+)
+return
+collectionName
+;
 this
 .
 searchFilter
@@ -5060,6 +5072,7 @@ searchFilter
 value
 )
 return
+collectionName
 ;
 var
 newGrayText
