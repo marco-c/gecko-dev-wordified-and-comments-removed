@@ -4095,7 +4095,7 @@ x
 kidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -4362,7 +4362,7 @@ x
 kidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -4391,7 +4391,7 @@ kidFrame
 kidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -5135,7 +5135,7 @@ aRowOffset
 0
 )
 {
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -5881,7 +5881,7 @@ TopLeft
 cellFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

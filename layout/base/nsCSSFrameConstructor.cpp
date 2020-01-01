@@ -30891,7 +30891,7 @@ GetRootFrame
 rootFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

@@ -2562,7 +2562,7 @@ y
 firstKid
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -2642,7 +2642,7 @@ firstKid
 firstKid
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -4109,7 +4109,7 @@ GetStateBits
 NS_FRAME_IS_DIRTY
 )
 {
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

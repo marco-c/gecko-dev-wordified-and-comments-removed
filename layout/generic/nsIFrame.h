@@ -3766,6 +3766,11 @@ aR2
 )
 ;
 void
+InvalidateFrameSubtree
+(
+)
+;
+void
 InvalidateOverflowRect
 (
 )

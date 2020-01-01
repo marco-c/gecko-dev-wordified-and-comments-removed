@@ -2080,7 +2080,7 @@ PR_TRUE
 aOldFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

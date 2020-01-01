@@ -4093,7 +4093,7 @@ frame
 frame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -6556,7 +6556,7 @@ frame
 frame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

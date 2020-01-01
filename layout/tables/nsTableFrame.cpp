@@ -13119,7 +13119,7 @@ y
 kidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -13147,7 +13147,7 @@ kidFrame
 kidFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -14220,7 +14220,7 @@ NS_FRAME_FIRST_REFLOW
 rowFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -14249,7 +14249,7 @@ rowFrame
 rowFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -14303,7 +14303,7 @@ yOriginRG
 rgFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -14376,7 +14376,7 @@ y
 rgFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -14405,7 +14405,7 @@ rgFrame
 rgFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -14996,7 +14996,7 @@ y
 rowFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -15109,7 +15109,7 @@ y
 rowFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -15138,7 +15138,7 @@ rowFrame
 rowFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -15192,7 +15192,7 @@ yOriginRG
 rgFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -15251,7 +15251,7 @@ y
 rgFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -15280,7 +15280,7 @@ rgFrame
 rgFrame
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
