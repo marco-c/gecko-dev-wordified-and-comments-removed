@@ -1252,6 +1252,17 @@ if
 mIsPaintingToWindow
 )
 {
+mReferenceFrame
+-
+>
+AddPaintedPresShell
+(
+state
+-
+>
+mPresShell
+)
+;
 state
 -
 >
