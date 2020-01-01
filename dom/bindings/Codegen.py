@@ -17438,6 +17438,15 @@ None
         
 if
 callbackObject
+and
+callbackMemberTypes
+[
+0
+]
+.
+isCallbackInterface
+(
+)
 :
             
 callbackObject
@@ -17475,13 +17484,6 @@ n
 }
 "
 )
-        
-else
-:
-            
-callbackObject
-=
-None
         
 dictionaryMemberTypes
 =
@@ -30307,6 +30309,27 @@ in
 possibleSignatures
                               
 if
+distinguishingType
+(
+s
+)
+.
+isCallback
+(
+)
+)
+            
+objectSigs
+.
+extend
+(
+s
+for
+s
+in
+possibleSignatures
+                              
+if
 (
 distinguishingType
 (
@@ -30470,17 +30493,6 @@ distinguishingArg
 lambda
 s
 :
-(
-distinguishingType
-(
-s
-)
-.
-isCallback
-(
-)
-or
-                                          
 distinguishingType
 (
 s
@@ -30488,7 +30500,6 @@ s
 .
 isCallbackInterface
 (
-)
 )
 )
             
