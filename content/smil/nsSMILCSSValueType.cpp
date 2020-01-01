@@ -1708,6 +1708,14 @@ subStringBegin
 =
 0
 ;
+if
+(
+aPropID
+!
+=
+eCSSProperty_stroke_dasharray
+)
+{
 PRInt32
 absValuePos
 =
@@ -1737,6 +1745,7 @@ PRUint32
 )
 absValuePos
 ;
+}
 }
 nsDependentSubstring
 subString
