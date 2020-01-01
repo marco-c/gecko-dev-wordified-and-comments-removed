@@ -222,6 +222,8 @@ void
 CreateContextStackFor
 (
 eHTMLTags
+aParent
+eHTMLTags
 aChild
 )
 ;
