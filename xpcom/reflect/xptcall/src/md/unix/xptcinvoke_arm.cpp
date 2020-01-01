@@ -169,7 +169,12 @@ current
 1
 ;
 }
+#
+ifndef
+DEBUG
 static
+#
+endif
 void
 invoke_copy_to_stack
 (
