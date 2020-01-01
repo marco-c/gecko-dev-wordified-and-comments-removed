@@ -5388,10 +5388,6 @@ defaultVersion
 (
 JSVERSION_DEFAULT
 )
-hasVersionOverride
-(
-false
-)
 throwing
 (
 false
