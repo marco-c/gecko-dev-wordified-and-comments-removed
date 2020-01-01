@@ -63,14 +63,6 @@ ULLONG_MAX
 #
 endif
 #
-if
-defined
-(
-_WIN32_WCE
-)
-#
-else
-#
 include
 <
 sys
@@ -79,8 +71,6 @@ types
 .
 h
 >
-#
-endif
 #
 define
 MP_NEG

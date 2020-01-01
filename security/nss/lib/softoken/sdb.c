@@ -6989,17 +6989,12 @@ if
 create
 )
 {
-#
-ifndef
-WINCE
 chmod
 (
 dbname
 0600
 )
 ;
-#
-endif
 }
 if
 (

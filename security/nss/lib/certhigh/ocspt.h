@@ -21,11 +21,6 @@ CERTOCSPCertID
 ;
 typedef
 struct
-CERTOCSPCertStatusStr
-CERTOCSPCertStatus
-;
-typedef
-struct
 CERTOCSPSingleResponseStr
 CERTOCSPSingleResponse
 ;

@@ -240,6 +240,7 @@ SEC_PKCS7ContentInfo
 cinfo
 SECCertUsage
 certusage
+const
 SECItem
 *
 detached_digest

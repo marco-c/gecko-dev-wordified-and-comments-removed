@@ -2165,6 +2165,7 @@ ATOB_ConvertAsciiToItem
 SECItem
 *
 binary_item
+const
 char
 *
 ascii

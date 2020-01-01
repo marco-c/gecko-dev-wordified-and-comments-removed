@@ -3269,6 +3269,7 @@ PK11_HasAttributeSet
 slot
 privID
 CKA_TOKEN
+PR_FALSE
 )
 ;
 switch
@@ -3337,6 +3338,7 @@ PK11_HasAttributeSet
 slot
 privID
 CKA_PRIVATE
+PR_FALSE
 )
 ;
 if
@@ -6536,6 +6538,7 @@ PK11_HasAttributeSet
 slot
 pubID
 CKA_TOKEN
+PR_FALSE
 )
 ;
 PK11_SETATTRS

@@ -657,7 +657,6 @@ AIX
 RISCOS
 WINNT
 WIN95
-WINCE
 Linux
 ifeq
 (

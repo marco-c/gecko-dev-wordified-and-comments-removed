@@ -2544,6 +2544,7 @@ unsigned
 char
 *
 out
+const
 unsigned
 char
 *
@@ -2709,6 +2710,7 @@ int
 outlen
 int
 maxout
+const
 unsigned
 char
 *
@@ -2954,6 +2956,9 @@ context
 -
 >
 session
+(
+CK_BYTE_PTR
+)
 in
 sizeof
 (
@@ -3015,6 +3020,9 @@ context
 -
 >
 session
+(
+CK_BYTE_PTR
+)
 in
 inlen
 out
@@ -3053,6 +3061,9 @@ context
 -
 >
 session
+(
+CK_BYTE_PTR
+)
 in
 inlen
 out
