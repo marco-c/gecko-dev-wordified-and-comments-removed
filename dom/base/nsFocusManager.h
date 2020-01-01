@@ -260,6 +260,15 @@ static
 bool
 sMouseFocusesFormControl
 ;
+static
+bool
+ThemeDisplaysFocusForContent
+(
+nsIContent
+*
+aContent
+)
+;
 protected
 :
 nsFocusManager
