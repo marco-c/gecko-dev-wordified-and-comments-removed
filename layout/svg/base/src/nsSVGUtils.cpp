@@ -1,6 +1,13 @@
 #
 include
 "
+nsSVGUtils
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h
@@ -86,13 +93,6 @@ h
 include
 "
 nsIPresShell
-.
-h
-"
-#
-include
-"
-nsSVGUtils
 .
 h
 "
