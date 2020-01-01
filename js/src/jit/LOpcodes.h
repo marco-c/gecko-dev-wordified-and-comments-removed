@@ -333,11 +333,6 @@ TypeObjectDispatch
 \
 _
 (
-PolyInlineDispatch
-)
-\
-_
-(
 Compare
 )
 \
