@@ -1508,17 +1508,6 @@ freeze
 true
 )
 ;
-bool
-hasGlobalObject
-(
-JSContext
-*
-cx
-JSObject
-*
-global
-)
-;
 inline
 void
 clearObjects
