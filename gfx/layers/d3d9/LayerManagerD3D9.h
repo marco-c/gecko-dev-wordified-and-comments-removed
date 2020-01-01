@@ -420,15 +420,6 @@ CreateReadbackLayer
 virtual
 already_AddRefed
 <
-ImageContainer
->
-CreateImageContainer
-(
-)
-;
-virtual
-already_AddRefed
-<
 ShadowThebesLayer
 >
 CreateShadowThebesLayer

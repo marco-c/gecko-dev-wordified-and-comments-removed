@@ -455,9 +455,6 @@ ImageContainer
 >
 CanOptimizeImageLayer
 (
-LayerManager
-*
-aManager
 )
 ;
 nsIntRegion
@@ -3281,9 +3278,6 @@ ThebesLayerData
 :
 CanOptimizeImageLayer
 (
-LayerManager
-*
-aManager
 )
 {
 if
@@ -3312,7 +3306,6 @@ mImage
 >
 GetContainer
 (
-aManager
 )
 ;
 }
@@ -3377,7 +3370,6 @@ data
 >
 CanOptimizeImageLayer
 (
-mManager
 )
 ;
 if

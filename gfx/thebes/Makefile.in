@@ -553,6 +553,10 @@ nsCoreAnimationSupport
 .
 h
 \
+nsIOSurface
+.
+h
+\
 gfxSharedImageSurface
 .
 h

@@ -149,15 +149,6 @@ mozilla
 layers
 :
 :
-LayerManager
-*
-aManager
-mozilla
-:
-:
-layers
-:
-:
 ImageContainer
 *
 *

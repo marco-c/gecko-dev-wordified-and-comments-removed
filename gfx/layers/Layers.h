@@ -84,6 +84,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -918,7 +925,7 @@ return
 nsnull
 ;
 }
-virtual
+static
 already_AddRefed
 <
 ImageContainer
@@ -926,8 +933,6 @@ ImageContainer
 CreateImageContainer
 (
 )
-=
-0
 ;
 virtual
 LayersBackend
