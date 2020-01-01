@@ -1279,11 +1279,15 @@ _isChromeDebugger
 {
 return
 !
+(
+"
+content
+"
+in
 window
 .
 parent
-.
-content
+)
 &
 &
 !

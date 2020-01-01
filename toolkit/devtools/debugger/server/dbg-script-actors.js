@@ -2418,7 +2418,7 @@ packet
 onInterrupt
 :
 function
-TA_onScripts
+TA_onInterrupt
 (
 aRequest
 )
