@@ -454,15 +454,6 @@ tools
 /
 redit
 endif
-ifdef
-WINCE
-DIRS
-+
-=
-installer
-/
-wince
-endif
 include
 (
 topsrcdir
