@@ -405,15 +405,6 @@ MOZ_PHOENIX
 MOZ_CHROME_FILE_FORMAT
 =
 omni
-#
-always
-enabled
-for
-form
-history
-MOZ_MORKREADER
-=
-1
 MOZ_SAFE_BROWSING
 =
 1

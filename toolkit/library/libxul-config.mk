@@ -952,10 +952,13 @@ SQLITE_LIBS
 endif
 ifdef
 MOZ_PLACES
+ifdef
+MOZ_MORKREADER
 STATIC_LIBS
 +
 =
 morkreader_s
+endif
 COMPONENT_LIBS
 +
 =
