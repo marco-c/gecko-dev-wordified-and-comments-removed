@@ -180,10 +180,6 @@ aTabChild
 {
 NS_ABORT_IF_FALSE
 (
-!
-aTabChild
-|
-|
 nsIWidget
 :
 :
