@@ -3974,11 +3974,6 @@ NS_DECLARE_FRAME_PROPERTY
 EmbeddingLevelProperty
 nsnull
 )
-NS_DECLARE_FRAME_PROPERTY
-(
-CharTypeProperty
-nsnull
-)
 #
 define
 NS_GET_BASE_LEVEL
