@@ -311,6 +311,8 @@ WebGLTexture
 ;
 interface
 WebGLUniformLocation
+{
+}
 ;
 interface
 WebGLActiveInfo
@@ -3638,6 +3640,9 @@ WebGLUniformLocation
 location
 )
 ;
+[
+Creator
+]
 WebGLUniformLocation
 ?
 getUniformLocation
