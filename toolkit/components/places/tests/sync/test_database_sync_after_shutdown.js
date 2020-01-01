@@ -112,14 +112,14 @@ SYNC_INTERVAL
 600
 ;
 const
-kSyncFinished
+TOPIC_CONNECTION_CLOSED
 =
 "
 places
 -
-sync
+connection
 -
-finished
+closed
 "
 ;
 var
@@ -184,7 +184,7 @@ if
 aTopic
 =
 =
-kSyncFinished
+TOPIC_CONNECTION_CLOSED
 )
 {
 os
@@ -192,7 +192,7 @@ os
 removeObserver
 (
 this
-kSyncFinished
+aTopic
 )
 ;
 do_check_neq
@@ -222,7 +222,7 @@ os
 addObserver
 (
 observer
-kSyncFinished
+TOPIC_CONNECTION_CLOSED
 false
 )
 ;
