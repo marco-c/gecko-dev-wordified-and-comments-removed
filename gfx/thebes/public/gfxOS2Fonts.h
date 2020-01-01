@@ -184,6 +184,12 @@ mAdjustedSize
 PRUint32
 mSpaceGlyph
 ;
+int
+mHinting
+;
+PRBool
+mAntialias
+;
 }
 ;
 class
