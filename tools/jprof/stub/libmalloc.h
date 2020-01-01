@@ -42,6 +42,10 @@ unsigned
 long
 u_long
 ;
+#
+define
+JP_FIRST_AFTER_PAUSE
+1
 struct
 malloc_log_entry
 {
@@ -50,6 +54,10 @@ delTime
 ;
 u_long
 numpcs
+;
+unsigned
+int
+flags
 ;
 int
 thread
