@@ -1363,10 +1363,6 @@ cflags_mozilla
 [
 '
 -
-Werror
-'
-'
--
 Wall
 '
 '
@@ -1579,10 +1575,6 @@ cflags
 '
 :
 [
-'
--
-Werror
-'
 '
 -
 Wall
