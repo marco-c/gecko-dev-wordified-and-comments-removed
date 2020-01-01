@@ -4384,7 +4384,7 @@ innerTargetURI
 &
 NS_SUCCEEDED
 (
-originURI
+innerOriginURI
 -
 >
 SchemeIs
@@ -4400,7 +4400,7 @@ originIsFile
 &
 NS_SUCCEEDED
 (
-targetURI
+innerTargetURI
 -
 >
 SchemeIs
