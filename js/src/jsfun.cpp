@@ -3178,13 +3178,15 @@ false
 )
 &
 &
-js_SetProperty
+js_DefineProperty
 (
 cx
 obj
 id
 vp
-false
+NULL
+NULL
+JSPROP_ENUMERATE
 )
 ;
 }
