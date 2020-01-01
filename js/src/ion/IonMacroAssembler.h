@@ -2666,7 +2666,7 @@ f
 void
 enterFakeExitFrame
 (
-void
+IonCode
 *
 codeVal
 =
@@ -2724,6 +2724,14 @@ IonCode
 code
 )
 {
+JS_ASSERT
+(
+!
+oom
+(
+)
+)
+;
 if
 (
 exitCodePatch_

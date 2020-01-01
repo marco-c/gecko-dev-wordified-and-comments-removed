@@ -2861,7 +2861,7 @@ bool
 ion
 :
 :
-EnsureHasCallObject
+EnsureHasScopeObjects
 (
 JSContext
 *
@@ -2907,7 +2907,7 @@ return
 fp
 -
 >
-initCallObject
+initFunctionScopeObjects
 (
 cx
 )
@@ -3257,7 +3257,7 @@ takeBailout
 if
 (
 !
-EnsureHasCallObject
+EnsureHasScopeObjects
 (
 cx
 cx
