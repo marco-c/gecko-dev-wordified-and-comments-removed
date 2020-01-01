@@ -584,6 +584,7 @@ jschar
 maybeChars
 (
 )
+const
 ;
 inline
 const
@@ -592,6 +593,7 @@ jschar
 maybeCharsZ
 (
 )
+const
 ;
 inline
 bool
@@ -4015,6 +4017,7 @@ JSString
 maybeChars
 (
 )
+const
 {
 if
 (
@@ -4045,6 +4048,7 @@ JSString
 maybeCharsZ
 (
 )
+const
 {
 if
 (
