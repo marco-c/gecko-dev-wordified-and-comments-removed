@@ -235,10 +235,7 @@ DOMParser
 .
 parseFromString
 (
-String
-(
 xml
-)
 "
 text
 /
@@ -251,6 +248,7 @@ each
 xml
 in
 [
+'
 <
 items
 >
@@ -303,6 +301,8 @@ item
 /
 items
 >
+'
+'
 <
 xsl
 :
@@ -336,6 +336,9 @@ XSL
 Transform
 "
 >
+\
+n
+\
 <
 xsl
 :
@@ -347,6 +350,9 @@ xml
 "
 /
 >
+\
+n
+\
 <
 xsl
 :
@@ -374,12 +380,16 @@ xsl
 :
 template
 >
+\
+n
+\
 <
 /
 xsl
 :
 stylesheet
 >
+'
 ]
 )
 ]
