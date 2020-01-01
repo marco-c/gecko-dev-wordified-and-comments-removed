@@ -694,14 +694,6 @@ aOffset
 }
 public
 :
-nsHTMLMediaElement
-:
-:
-PreloadAction
-GetPreloadAction
-(
-)
-;
 PlayState
 GetState
 (
