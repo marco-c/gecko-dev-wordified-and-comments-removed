@@ -4446,6 +4446,7 @@ false
 }
 #
 endif
+}
 static
 inline
 JSCompartment
@@ -4498,7 +4499,6 @@ GetGCThingCompartment
 obj
 )
 ;
-}
 }
 void
 PurgeJITCaches
