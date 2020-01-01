@@ -28,6 +28,12 @@ defined
 (
 DEBUG
 )
+|
+|
+defined
+(
+__SUNPRO_CC
+)
 struct
 Register
 {
