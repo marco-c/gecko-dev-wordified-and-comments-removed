@@ -4947,7 +4947,7 @@ gKeyDownTarget
 gKeyDownTarget
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 =
@@ -21275,6 +21275,19 @@ aFlags
 {
 if
 (
+aBounds
+.
+IsEmpty
+(
+)
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 !
 (
 aFlags
@@ -26095,7 +26108,7 @@ eventTarget
 eventTarget
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 :
@@ -26858,7 +26871,7 @@ doc
 aTarget
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 )
@@ -27186,7 +27199,7 @@ NS_NewRunnableMethod
 mCurrentEventContent
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 &
