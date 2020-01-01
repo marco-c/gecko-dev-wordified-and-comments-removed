@@ -79,7 +79,10 @@ aMode
 0
 ;
 virtual
-nsresult
+already_AddRefed
+<
+nsISupports
+>
 ResolveName
 (
 const
@@ -89,10 +92,6 @@ aName
 nsIContent
 *
 aForm
-nsISupports
-*
-*
-aResult
 nsWrapperCache
 *
 *
