@@ -183,6 +183,11 @@ ApplyArgsGeneric
 \
 _
 (
+CallDirectEval
+)
+\
+_
+(
 StackArgT
 )
 \

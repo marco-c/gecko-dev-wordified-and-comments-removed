@@ -51,6 +51,15 @@ include
 "
 frontend
 /
+BytecodeCompiler
+.
+h
+"
+#
+include
+"
+frontend
+/
 Parser
 .
 h
@@ -351,8 +360,8 @@ Parser
 const
 parser
 ;
-AbstractFramePtr
-callerFrame
+HandleScript
+evalCaller
 ;
 StmtInfoBCE
 *
@@ -442,8 +451,8 @@ SharedContext
 sc
 HandleScript
 script
-AbstractFramePtr
-callerFrame
+HandleScript
+evalCaller
 bool
 hasGlobalScope
 unsigned

@@ -139,6 +139,11 @@ ApplyArgs
 \
 _
 (
+CallDirectEval
+)
+\
+_
+(
 BitNot
 )
 \

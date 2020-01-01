@@ -3050,6 +3050,13 @@ getCallerFunction
 )
 ;
 inline
+JSFunction
+*
+functionOrCallerFunction
+(
+)
+;
+inline
 js
 :
 :

@@ -654,6 +654,10 @@ UNSAFE_OP
 (
 ApplyArgs
 )
+UNSAFE_OP
+(
+CallDirectEval
+)
 SAFE_OP
 (
 BitNot

@@ -531,6 +531,14 @@ apply
 )
 ;
 bool
+visitCallDirectEval
+(
+LCallDirectEval
+*
+lir
+)
+;
+bool
 visitDoubleToInt32
 (
 LDoubleToInt32

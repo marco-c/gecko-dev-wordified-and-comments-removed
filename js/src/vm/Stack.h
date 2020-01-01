@@ -898,10 +898,13 @@ setPrevUpToDate
 )
 const
 ;
-inline
-AbstractFramePtr
-evalPrev
+JSObject
+*
+evalPrevScopeChain
 (
+JSRuntime
+*
+rt
 )
 const
 ;

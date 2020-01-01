@@ -25663,7 +25663,7 @@ CompileScript
 (
 cx
 obj
-NullFramePtr
+NullPtr
 (
 )
 options
@@ -27652,7 +27652,7 @@ CompileScript
 (
 cx
 obj
-NullFramePtr
+NullPtr
 (
 )
 options

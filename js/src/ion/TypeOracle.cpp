@@ -3333,16 +3333,6 @@ pc
 format
 &
 JOF_INVOKE
-&
-&
-JSOp
-(
-*
-pc
-)
-!
-=
-JSOP_EVAL
 )
 ;
 ScriptAnalysis

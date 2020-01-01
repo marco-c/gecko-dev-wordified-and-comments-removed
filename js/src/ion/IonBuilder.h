@@ -1568,6 +1568,13 @@ constructing
 )
 ;
 bool
+jsop_eval
+(
+uint32_t
+argc
+)
+;
+bool
 jsop_ifeq
 (
 JSOp

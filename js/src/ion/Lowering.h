@@ -511,6 +511,14 @@ apply
 )
 ;
 bool
+visitCallDirectEval
+(
+MCallDirectEval
+*
+ins
+)
+;
+bool
 visitTest
 (
 MTest

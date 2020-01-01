@@ -234,6 +234,11 @@ ins
 ;
 }
 ;
+template
+<
+unsigned
+Op
+>
 class
 StringPolicy
 :
