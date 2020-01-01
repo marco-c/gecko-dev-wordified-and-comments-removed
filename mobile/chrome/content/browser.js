@@ -7726,6 +7726,10 @@ aMessage
 target
 )
 ;
+if
+(
+tab
+)
 tab
 .
 updateViewportMetadata
