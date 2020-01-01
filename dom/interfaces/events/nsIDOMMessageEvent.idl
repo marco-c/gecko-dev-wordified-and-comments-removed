@@ -532,6 +532,9 @@ event
 .
 *
 /
+[
+implicit_jscontext
+]
 readonly
 attribute
 jsval
