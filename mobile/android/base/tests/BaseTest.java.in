@@ -600,7 +600,7 @@ rootPath
 =
 FennecInstrumentationTestRunner
 .
-getArguments
+getFennecArguments
 (
 )
 .

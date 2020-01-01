@@ -175,7 +175,7 @@ class
 public
 static
 Bundle
-getArguments
+getFennecArguments
 (
 )
 {
@@ -197,7 +197,7 @@ Robocop
 "
 FennecInstrumentationTestCase
 .
-getArguments
+getFennecArguments
 returns
 null
 bundle
