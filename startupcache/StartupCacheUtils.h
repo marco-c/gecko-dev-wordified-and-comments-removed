@@ -58,8 +58,6 @@ nsIStorageStream
 *
 *
 stream
-PRBool
-wantDebugStream
 )
 ;
 NS_EXPORT
