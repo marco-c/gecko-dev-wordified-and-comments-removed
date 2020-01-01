@@ -20626,6 +20626,13 @@ AppUnitsPerCSSPixel
 ;
 if
 (
+ShouldPrerenderTransformedContent
+(
+aBuilder
+mFrame
+)
+|
+|
 !
 UntransformRectMatrix
 (
