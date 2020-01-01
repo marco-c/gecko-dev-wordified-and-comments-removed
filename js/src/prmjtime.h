@@ -96,7 +96,7 @@ JS_THREADSAFE
 &
 defined
 (
-XP_WIN
+HAVE_GETSYSTEMTIMEASFILETIME
 )
 extern
 void
