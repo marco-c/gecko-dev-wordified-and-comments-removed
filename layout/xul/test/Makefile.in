@@ -434,6 +434,10 @@ test_bug372685
 .
 xul
 \
+test_bug386386
+.
+html
+\
 test_bug394800
 .
 xhtml
