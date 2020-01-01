@@ -545,6 +545,10 @@ testXDR
 .
 cpp
 \
+testCustomIterator
+.
+cpp
+\
 (
 NULL
 )
