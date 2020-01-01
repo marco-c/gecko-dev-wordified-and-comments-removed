@@ -81,6 +81,10 @@ mHasHadUpdate
 (
 false
 )
+mDownloadCancelled
+(
+false
+)
 mClosed
 (
 false
@@ -252,6 +256,11 @@ NotifyDataEnded
 (
 nsresult
 aStatus
+)
+;
+void
+NotifyDownloadCancelled
+(
 )
 ;
 void
@@ -667,6 +676,9 @@ mInitialized
 ;
 bool
 mHasHadUpdate
+;
+bool
+mDownloadCancelled
 ;
 bool
 mClosed

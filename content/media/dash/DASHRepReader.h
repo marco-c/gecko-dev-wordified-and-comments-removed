@@ -101,6 +101,16 @@ aByteRange
 0
 ;
 virtual
+int64_t
+GetSubsegmentForSeekTime
+(
+int64_t
+aSeekToTime
+)
+=
+0
+;
+virtual
 nsresult
 GetSubsegmentByteRanges
 (

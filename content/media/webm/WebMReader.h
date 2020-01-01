@@ -668,6 +668,14 @@ mCuesByteRange
 aByteRange
 ;
 }
+int64_t
+GetSubsegmentForSeekTime
+(
+int64_t
+aSeekToTime
+)
+MOZ_OVERRIDE
+;
 nsresult
 GetSubsegmentByteRanges
 (
@@ -869,7 +877,7 @@ mCuesByteRange
 ;
 nsTArray
 <
-MediaByteRange
+TimestampedMediaByteRange
 >
 mClusterByteRanges
 ;
