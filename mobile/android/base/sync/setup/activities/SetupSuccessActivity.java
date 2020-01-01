@@ -88,6 +88,12 @@ SetupSuccessActivity
 extends
 Activity
 {
+SuppressWarnings
+(
+"
+unused
+"
+)
 private
 final
 static

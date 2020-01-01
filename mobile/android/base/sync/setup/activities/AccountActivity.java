@@ -1249,6 +1249,12 @@ return
 intent
 ;
 }
+SuppressWarnings
+(
+"
+unused
+"
+)
 private
 void
 authFailure
