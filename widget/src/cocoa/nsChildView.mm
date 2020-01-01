@@ -14983,7 +14983,6 @@ mGeckoChild
 >
 GetLayerManager
 (
-nsnull
 )
 -
 >
@@ -15013,7 +15012,6 @@ mGeckoChild
 >
 GetLayerManager
 (
-nsnull
 )
 )
 ;

@@ -157,12 +157,6 @@ PRThread
 *
 mGuiThread
 ;
-nsCOMPtr
-<
-nsITimer
->
-mD3D9Timer
-;
 public
 :
 static
@@ -190,12 +184,6 @@ hModule
 static
 void
 Shutdown
-(
-)
-;
-static
-void
-StartAllowingD3D9
 (
 )
 ;

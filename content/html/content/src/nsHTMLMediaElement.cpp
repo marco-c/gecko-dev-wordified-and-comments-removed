@@ -8944,7 +8944,7 @@ manager
 nsContentUtils
 :
 :
-PersistentLayerManagerForDocument
+LayerManagerForDocument
 (
 GetOwnerDoc
 (

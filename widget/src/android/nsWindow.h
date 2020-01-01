@@ -49,12 +49,6 @@ nsBaseWidget
 {
 public
 :
-using
-nsBaseWidget
-:
-:
-GetLayerManager
-;
 nsWindow
 (
 )
@@ -702,10 +696,6 @@ LayerManager
 *
 GetLayerManager
 (
-LayerManagerPersistence
-aPersistence
-=
-LAYER_MANAGER_CURRENT
 bool
 *
 aAllowRetaining
