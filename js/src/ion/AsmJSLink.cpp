@@ -2348,6 +2348,14 @@ bufEnd_
 )
 )
 ;
+if
+(
+!
+src
+)
+return
+false
+;
 const
 jschar
 *
