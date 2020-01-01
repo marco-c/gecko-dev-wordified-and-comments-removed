@@ -2394,6 +2394,10 @@ aCell
 GetContentEmpty
 (
 )
+&
+&
+!
+mIsBorderCollapse
 )
 {
 return
