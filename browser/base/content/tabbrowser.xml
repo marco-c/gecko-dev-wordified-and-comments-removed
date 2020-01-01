@@ -6480,8 +6480,10 @@ _urlbarFocused
 &
 &
 gURLBar
-&
-&
+)
+{
+if
+(
 !
 window
 .
@@ -6497,6 +6499,7 @@ focus
 break
 ;
 }
+else
 if
 (
 isTabEmpty
@@ -6513,6 +6516,7 @@ focusAndSelectUrlBar
 ;
 break
 ;
+}
 }
 /
 /
