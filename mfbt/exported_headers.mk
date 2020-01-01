@@ -137,6 +137,10 @@ LinkedList
 .
 h
 \
+MathAlgorithms
+.
+h
+\
 MSStdInt
 .
 h
