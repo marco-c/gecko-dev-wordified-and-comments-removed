@@ -710,12 +710,6 @@ mIsInitialized
 #
 endif
 static
-void
-NotifyA11yInitOrShutdown
-(
-)
-;
-static
 nsIStringBundle
 *
 gStringBundle
