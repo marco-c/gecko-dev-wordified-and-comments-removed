@@ -1275,7 +1275,9 @@ ProfileEntry
 s
 '
 "
-XRE_Main
+(
+root
+)
 "
 0
 )
@@ -1494,7 +1496,9 @@ ProfileEntry
 s
 '
 "
-XRE_Main
+(
+root
+)
 "
 0
 )
