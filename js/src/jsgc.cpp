@@ -14168,13 +14168,6 @@ gcDoubleArenaList
 .
 head
 ;
-TIMESTAMP
-(
-gcTimer
-.
-sweepDoubleEnd
-)
-;
 }
 static
 void
@@ -14820,6 +14813,13 @@ SweepDoubles
 rt
 &
 arenaReleaser
+)
+;
+TIMESTAMP
+(
+gcTimer
+.
+sweepDoubleEnd
 )
 ;
 js
