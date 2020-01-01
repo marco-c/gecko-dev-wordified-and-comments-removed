@@ -1620,7 +1620,7 @@ offset
 }
 #
 ifdef
-DEBUG
+JS_METHODJIT_SPEW
 void
 print
 (
