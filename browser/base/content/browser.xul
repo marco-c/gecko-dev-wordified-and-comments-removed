@@ -6732,7 +6732,7 @@ titlebar
 -
 min
 "
-onclick
+oncommand
 =
 "
 window
@@ -6753,7 +6753,7 @@ titlebar
 -
 max
 "
-onclick
+oncommand
 =
 "
 onTitlebarMaxClick
@@ -6772,7 +6772,7 @@ titlebar
 -
 close
 "
-onclick
+oncommand
 =
 "
 window
