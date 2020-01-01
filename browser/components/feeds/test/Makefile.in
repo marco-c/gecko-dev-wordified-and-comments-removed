@@ -460,6 +460,10 @@ data
 .
 xml
 \
+test_registerHandler
+.
+html
+\
 (
 NULL
 )
