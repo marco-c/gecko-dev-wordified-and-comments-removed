@@ -61,13 +61,3 @@ MPL
 0
 /
 .
-DIRS
-+
-=
-[
-'
-profile
-/
-extensions
-'
-]
