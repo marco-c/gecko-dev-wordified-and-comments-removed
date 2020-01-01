@@ -1879,6 +1879,8 @@ rightNoTrJ
 ;
 thisJ
 =
+leftNoTrJ
+=
 eNJ
 ;
 rightJ
@@ -2676,6 +2678,12 @@ i
 endArabic
 beginArabic
 size
+;
+beginArabic
+=
+0
+;
+size
 =
 aSrc
 .
@@ -2956,6 +2964,12 @@ i
 beginArabic
 endArabic
 size
+;
+beginArabic
+=
+0
+;
+size
 =
 aSrc
 .
@@ -3109,6 +3123,8 @@ PR_FALSE
 PRUint32
 endNumeral
 beginNumeral
+=
+0
 ;
 for
 (
