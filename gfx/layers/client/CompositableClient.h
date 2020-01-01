@@ -63,6 +63,9 @@ class
 CompositableChild
 ;
 class
+SurfaceDescriptor
+;
+class
 CompositableClient
 :
 public
