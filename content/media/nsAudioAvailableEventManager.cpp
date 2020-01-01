@@ -233,9 +233,15 @@ known
 ;
 mSamplesPerSecond
 =
+static_cast
+<
+float
+>
+(
 aChannels
 *
 aRate
+)
 ;
 }
 void
