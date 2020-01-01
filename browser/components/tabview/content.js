@@ -103,6 +103,17 @@ WEH_onMozAfterPaint
 event
 )
 {
+if
+(
+event
+.
+clientRects
+.
+length
+>
+0
+)
+{
 sendAsyncMessage
 (
 "
@@ -112,6 +123,7 @@ MozAfterPaint
 "
 )
 ;
+}
 }
 }
 ;
