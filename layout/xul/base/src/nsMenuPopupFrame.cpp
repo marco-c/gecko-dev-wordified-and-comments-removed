@@ -1760,6 +1760,10 @@ mGeneratedChildren
 )
 return
 ;
+SchedulePaint
+(
+)
+;
 bool
 shouldPosition
 =
