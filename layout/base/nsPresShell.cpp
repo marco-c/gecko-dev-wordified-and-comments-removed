@@ -28804,11 +28804,6 @@ bool
 aTouchIsNew
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 bool
 canPrevent
 =
