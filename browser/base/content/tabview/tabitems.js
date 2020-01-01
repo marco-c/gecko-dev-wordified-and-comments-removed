@@ -2862,6 +2862,12 @@ setActiveGroupItem
 groupItem
 )
 ;
+GroupItems
+.
+updateTabBarForActiveGroupItem
+(
+)
+;
 groupItem
 .
 setActiveTab
@@ -2884,6 +2890,12 @@ GroupItems
 setActiveOrphanTab
 (
 self
+)
+;
+GroupItems
+.
+updateTabBarForActiveGroupItem
+(
 )
 ;
 }
@@ -4750,6 +4762,7 @@ gBrowser
 .
 selectedTab
 )
+{
 GroupItems
 .
 setActiveGroupItem
@@ -4759,6 +4772,13 @@ item
 parent
 )
 ;
+GroupItems
+.
+updateTabBarForActiveGroupItem
+(
+)
+;
+}
 }
 }
 if
