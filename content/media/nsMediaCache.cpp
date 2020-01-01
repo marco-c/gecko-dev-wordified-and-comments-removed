@@ -9419,15 +9419,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-if
-(
-mStreamOffset
-<
-0
-)
-return
-NS_ERROR_FAILURE
-;
 LOG
 (
 PR_LOG_DEBUG
