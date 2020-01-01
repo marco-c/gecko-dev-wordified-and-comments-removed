@@ -174,6 +174,11 @@ nsAString
 aOutputOptions
 )
 {
+NS_ENSURE_ARG
+(
+aData
+)
+;
 nsresult
 rv
 ;
