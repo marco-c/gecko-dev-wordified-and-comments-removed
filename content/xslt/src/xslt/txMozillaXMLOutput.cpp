@@ -3668,6 +3668,8 @@ aNsID
 nsIDOMDocument
 *
 aSourceDocument
+bool
+aLoadedAsData
 )
 {
 nsresult
@@ -3691,6 +3693,7 @@ getter_AddRefs
 (
 mDocument
 )
+aLoadedAsData
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3710,6 +3713,7 @@ getter_AddRefs
 (
 mDocument
 )
+aLoadedAsData
 )
 ;
 NS_ENSURE_SUCCESS

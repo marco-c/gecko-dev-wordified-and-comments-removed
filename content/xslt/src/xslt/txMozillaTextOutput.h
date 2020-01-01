@@ -86,6 +86,8 @@ createResultDocument
 nsIDOMDocument
 *
 aSourceDocument
+bool
+aLoadedAsData
 )
 ;
 private
