@@ -1985,6 +1985,17 @@ Language
 "
 }
 {
+APPLICATION_MATHML_XML
+"
+mml
+"
+"
+Mathematical
+Markup
+Language
+"
+}
+{
 APPLICATION_RDF
 "
 rdf
