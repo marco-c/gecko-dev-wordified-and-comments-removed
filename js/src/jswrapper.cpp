@@ -3323,7 +3323,7 @@ if
 (
 obj
 )
-js_CloseIterator
+CloseIterator
 (
 cx
 obj
@@ -3556,7 +3556,7 @@ clear
 if
 (
 !
-js_CloseIterator
+CloseIterator
 (
 cx
 iterObj
