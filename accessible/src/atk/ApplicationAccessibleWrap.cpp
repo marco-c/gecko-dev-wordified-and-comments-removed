@@ -289,7 +289,7 @@ G_OBJECT
 child
 )
 sQuark_gecko_acc_obj
-NULL
+nullptr
 )
 ;
 }
@@ -353,7 +353,7 @@ AtkObject
 g_object_new
 (
 MAI_TYPE_ATK_OBJECT
-NULL
+nullptr
 )
 )
 ;
@@ -446,7 +446,7 @@ eventData
 -
 >
 root_accessible
-NULL
+nullptr
 )
 ;
 g_object_unref
@@ -631,7 +631,7 @@ aChild
 atk_object_set_parent
 (
 atkAccessible
-NULL
+nullptr
 )
 ;
 g_signal_emit_by_name
@@ -645,7 +645,7 @@ remove
 "
 index
 atkAccessible
-NULL
+nullptr
 )
 ;
 return

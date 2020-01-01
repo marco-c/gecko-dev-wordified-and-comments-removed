@@ -82,7 +82,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -144,7 +144,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aDescription
 =
-NULL
+nullptr
 ;
 ImageAccessibleWrap
 *

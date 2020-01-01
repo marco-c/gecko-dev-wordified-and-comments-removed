@@ -113,7 +113,7 @@ E_FAIL
 *
 aInstancePtr
 =
-NULL
+nullptr
 ;
 if
 (

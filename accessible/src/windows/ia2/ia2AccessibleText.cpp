@@ -147,7 +147,7 @@ aEndOffset
 *
 aTextAttributes
 =
-NULL
+nullptr
 ;
 HyperTextAccessible
 *
@@ -828,7 +828,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aText
 =
-NULL
+nullptr
 ;
 HyperTextAccessible
 *
@@ -960,7 +960,7 @@ aEndOffset
 *
 aText
 =
-NULL
+nullptr
 ;
 HyperTextAccessible
 *
@@ -1174,7 +1174,7 @@ aEndOffset
 *
 aText
 =
-NULL
+nullptr
 ;
 HyperTextAccessible
 *
@@ -1388,7 +1388,7 @@ aEndOffset
 *
 aText
 =
-NULL
+nullptr
 ;
 HyperTextAccessible
 *

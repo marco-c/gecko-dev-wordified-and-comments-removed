@@ -254,7 +254,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aDomText
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1079,7 +1079,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aFontFamily
 =
-NULL
+nullptr
 ;
 nsIFrame
 *

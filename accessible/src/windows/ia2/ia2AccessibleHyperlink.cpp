@@ -50,7 +50,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -238,7 +238,7 @@ void
 *
 instancePtr
 =
-NULL
+nullptr
 ;
 HRESULT
 result

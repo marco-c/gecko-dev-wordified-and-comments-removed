@@ -125,7 +125,7 @@ E_FAIL
 *
 aInstancePtr
 =
-NULL
+nullptr
 ;
 if
 (
@@ -270,7 +270,7 @@ E_INVALIDARG
 *
 aNodeName
 =
-NULL
+nullptr
 ;
 *
 aNameSpaceID
@@ -280,7 +280,7 @@ aNameSpaceID
 *
 aNodeValue
 =
-NULL
+nullptr
 ;
 *
 aNumChildren
@@ -641,7 +641,7 @@ aAttribNames
 index
 ]
 =
-NULL
+nullptr
 ;
 nsAutoString
 attributeValue
@@ -851,7 +851,7 @@ aAttribValues
 index
 ]
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1482,7 +1482,7 @@ E_INVALIDARG
 *
 aNode
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1560,7 +1560,7 @@ E_INVALIDARG
 *
 aNode
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1638,7 +1638,7 @@ E_INVALIDARG
 *
 aNode
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1716,7 +1716,7 @@ E_INVALIDARG
 *
 aNode
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1794,7 +1794,7 @@ E_INVALIDARG
 *
 aNode
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1874,7 +1874,7 @@ E_INVALIDARG
 *
 aNode
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1951,7 +1951,7 @@ E_INVALIDARG
 *
 aInnerHTML
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2062,7 +2062,7 @@ E_INVALIDARG
 *
 aLocalInterface
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2111,7 +2111,7 @@ E_INVALIDARG
 *
 aLanguage
 =
-NULL
+nullptr
 ;
 if
 (

@@ -101,7 +101,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aHyperlink
 =
-NULL
+nullptr
 ;
 HyperTextAccessibleWrap
 *

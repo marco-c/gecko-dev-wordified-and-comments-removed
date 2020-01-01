@@ -70,7 +70,7 @@ E_INVALIDARG
 *
 aAccEx
 =
-NULL
+nullptr
 ;
 return
 mAcc
@@ -119,7 +119,7 @@ E_INVALIDARG
 *
 aAcc
 =
-NULL
+nullptr
 ;
 *
 aIdChild
@@ -306,13 +306,13 @@ E_INVALIDARG
 *
 aAccEx
 =
-NULL
+nullptr
 ;
 void
 *
 instancePtr
 =
-NULL
+nullptr
 ;
 HRESULT
 hr
@@ -410,7 +410,7 @@ E_INVALIDARG
 *
 aPatternProvider
 =
-NULL
+nullptr
 ;
 return
 S_OK
@@ -811,7 +811,7 @@ E_INVALIDARG
 *
 aRawElmProvider
 =
-NULL
+nullptr
 ;
 return
 S_OK

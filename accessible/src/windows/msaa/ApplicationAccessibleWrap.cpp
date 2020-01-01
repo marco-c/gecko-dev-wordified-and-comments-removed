@@ -169,7 +169,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -238,7 +238,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aName
 =
-NULL
+nullptr
 ;
 if
 (
@@ -328,7 +328,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aVersion
 =
-NULL
+nullptr
 ;
 if
 (
@@ -503,7 +503,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aVersion
 =
-NULL
+nullptr
 ;
 if
 (

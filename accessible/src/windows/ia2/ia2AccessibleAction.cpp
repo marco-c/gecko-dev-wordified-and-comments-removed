@@ -43,7 +43,7 @@ ppv
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -238,7 +238,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aDescription
 =
-NULL
+nullptr
 ;
 AccessibleWrap
 *
@@ -375,7 +375,7 @@ E_INVALIDARG
 *
 aKeyBinding
 =
-NULL
+nullptr
 ;
 if
 (
@@ -586,7 +586,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aName
 =
-NULL
+nullptr
 ;
 AccessibleWrap
 *
@@ -709,7 +709,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aLocalizedName
 =
-NULL
+nullptr
 ;
 return
 E_NOTIMPL

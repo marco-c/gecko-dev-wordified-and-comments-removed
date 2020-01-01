@@ -123,7 +123,7 @@ E_INVALIDARG
 *
 aInstancePtr
 =
-NULL
+nullptr
 ;
 if
 (

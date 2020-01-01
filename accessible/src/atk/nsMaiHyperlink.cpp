@@ -220,7 +220,7 @@ static
 gpointer
 parent_class
 =
-NULL
+nullptr
 ;
 static
 Accessible
@@ -263,11 +263,11 @@ MaiAtkHyperlinkClass
 (
 GBaseInitFunc
 )
-NULL
+nullptr
 (
 GBaseFinalizeFunc
 )
-NULL
+nullptr
 (
 GClassInitFunc
 )
@@ -275,8 +275,8 @@ classInitCB
 (
 GClassFinalizeFunc
 )
-NULL
-NULL
+nullptr
+nullptr
 sizeof
 (
 MaiAtkHyperlink
@@ -285,8 +285,8 @@ MaiAtkHyperlink
 (
 GInstanceInitFunc
 )
-NULL
-NULL
+nullptr
+nullptr
 }
 ;
 type
@@ -409,7 +409,7 @@ g_object_new
 mai_atk_hyperlink_get_type
 (
 )
-NULL
+nullptr
 )
 )
 ;

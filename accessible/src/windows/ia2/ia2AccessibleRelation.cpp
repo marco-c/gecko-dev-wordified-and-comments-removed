@@ -113,7 +113,7 @@ E_INVALIDARG
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -234,7 +234,7 @@ E_INVALIDARG
 *
 aRelationType
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -550,7 +550,7 @@ E_INVALIDARG
 *
 aLocalizedRelationType
 =
-NULL
+nullptr
 ;
 return
 E_NOTIMPL

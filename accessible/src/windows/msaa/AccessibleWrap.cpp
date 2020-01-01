@@ -282,7 +282,7 @@ AccessibleWrap
 :
 gTypeInfo
 =
-NULL
+nullptr
 ;
 NS_IMPL_ISUPPORTS_INHERITED0
 (
@@ -307,7 +307,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 ppv
 =
-NULL
+nullptr
 ;
 if
 (
@@ -477,7 +477,7 @@ GetNode
 }
 if
 (
-NULL
+nullptr
 =
 =
 *
@@ -509,7 +509,7 @@ hr
 }
 if
 (
-NULL
+nullptr
 =
 =
 *
@@ -541,7 +541,7 @@ hr
 }
 if
 (
-NULL
+nullptr
 =
 =
 *
@@ -573,7 +573,7 @@ hr
 }
 if
 (
-NULL
+nullptr
 =
 =
 *
@@ -622,7 +622,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 ppdispParent
 =
-NULL
+nullptr
 ;
 if
 (
@@ -836,7 +836,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 ppdispChild
 =
-NULL
+nullptr
 ;
 if
 (
@@ -907,7 +907,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 pszName
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1020,7 +1020,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 pszValue
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1151,7 +1151,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 pszDescription
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1756,7 +1756,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 pszHelp
 =
-NULL
+nullptr
 ;
 return
 S_FALSE
@@ -1785,7 +1785,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 pszHelpFile
 =
-NULL
+nullptr
 ;
 *
 pidTopic
@@ -1823,7 +1823,7 @@ E_INVALIDARG
 *
 pszKeyboardShortcut
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2248,7 +2248,7 @@ S_OK
 *
 ppvObject
 =
-NULL
+nullptr
 ;
 return
 E_NOINTERFACE
@@ -2670,7 +2670,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 pszDefaultAction
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3768,7 +3768,7 @@ E_INVALIDARG
 *
 aRelation
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4600,7 +4600,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aExtendedRole
 =
-NULL
+nullptr
 ;
 return
 E_NOTIMPL
@@ -4622,7 +4622,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aLocalizedExtendedRole
 =
-NULL
+nullptr
 ;
 return
 E_NOTIMPL
@@ -4672,7 +4672,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aExtendedStates
 =
-NULL
+nullptr
 ;
 *
 aNExtendedStates
@@ -4705,7 +4705,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aLocalizedExtendedStates
 =
-NULL
+nullptr
 ;
 *
 aNLocalizedExtendedStates
@@ -5078,7 +5078,7 @@ A11Y_TRYBLOCK_BEGIN
 *
 aAttributes
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5147,7 +5147,7 @@ ppTInfo
 *
 ppTInfo
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5945,7 +5945,7 @@ aIA2Attributes
 *
 aIA2Attributes
 =
-NULL
+nullptr
 ;
 if
 (
@@ -6275,7 +6275,7 @@ aAccessible
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 IAccessible
@@ -6596,7 +6596,7 @@ caretRect
 height
 1
 1
-NULL
+nullptr
 )
 ;
 if
@@ -6684,7 +6684,7 @@ ITypeLib
 *
 typeLib
 =
-NULL
+nullptr
 ;
 HRESULT
 hr
@@ -6707,7 +6707,7 @@ hr
 )
 )
 return
-NULL
+nullptr
 ;
 hr
 =
@@ -6736,7 +6736,7 @@ hr
 )
 )
 return
-NULL
+nullptr
 ;
 return
 gTypeInfo

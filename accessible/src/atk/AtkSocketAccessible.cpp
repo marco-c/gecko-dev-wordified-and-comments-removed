@@ -50,7 +50,7 @@ AtkSocketAccessible
 :
 g_atk_socket_embed
 =
-NULL
+nullptr
 ;
 GType
 AtkSocketAccessible
@@ -277,7 +277,7 @@ aAccWrap
 NS_ENSURE_TRUE
 (
 aAccWrap
-NULL
+nullptr
 )
 ;
 MaiAtkSocket
@@ -297,14 +297,14 @@ MaiAtkSocket
 g_object_new
 (
 MAI_TYPE_ATK_SOCKET
-NULL
+nullptr
 )
 )
 ;
 NS_ENSURE_TRUE
 (
 acc
-NULL
+nullptr
 )
 ;
 acc
