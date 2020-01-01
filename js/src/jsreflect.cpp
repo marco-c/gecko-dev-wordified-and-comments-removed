@@ -11891,6 +11891,9 @@ dst
 case
 TOK_XMLTEXT
 :
+case
+TOK_XMLSPACE
+:
 return
 builder
 .
