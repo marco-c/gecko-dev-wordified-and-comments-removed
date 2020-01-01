@@ -354,6 +354,7 @@ CDATA
 [
 if
 (
+!
 navigator
 .
 platform
@@ -361,7 +362,7 @@ platform
 startsWith
 (
 "
-Mac
+Linux
 "
 )
 )
