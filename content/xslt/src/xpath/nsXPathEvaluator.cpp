@@ -125,6 +125,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 class
 nsXPathEvaluatorParseContext
 :
@@ -960,8 +967,9 @@ nsXPathEvaluator
 :
 Constructor
 (
-nsISupports
-*
+const
+GlobalObject
+&
 aGlobal
 ErrorResult
 &

@@ -57,8 +57,9 @@ TextDecoder
 >
 Constructor
 (
-nsISupports
-*
+const
+GlobalObject
+&
 aGlobal
 const
 nsAString
@@ -83,6 +84,10 @@ new
 TextDecoder
 (
 aGlobal
+.
+Get
+(
+)
 )
 ;
 txtDecoder

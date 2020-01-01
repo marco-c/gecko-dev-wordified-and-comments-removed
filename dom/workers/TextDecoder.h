@@ -100,12 +100,10 @@ TextDecoder
 *
 Constructor
 (
-JSContext
-*
-aCx
-JSObject
-*
-aObj
+const
+WorkerGlobalObject
+&
+aGlobal
 const
 nsAString
 &

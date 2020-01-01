@@ -1526,8 +1526,15 @@ nsDOMMutationObserver
 >
 Constructor
 (
-nsISupports
-*
+const
+mozilla
+:
+:
+dom
+:
+:
+GlobalObject
+&
 aGlobal
 mozilla
 :
