@@ -591,6 +591,9 @@ AddCoords
 (
 mSpanMinCoord
 mSpanPrefCoord
+mHasSpecifiedCoord
+&
+&
 mSpanHasSpecifiedCoord
 )
 ;
