@@ -3591,7 +3591,9 @@ xbl
 inherits
 =
 "
-value
+xbl
+:
+text
 =
 label
 "
@@ -4158,7 +4160,9 @@ xbl
 inherits
 =
 "
-value
+xbl
+:
+text
 =
 label
 "
@@ -4182,7 +4186,9 @@ xbl
 inherits
 =
 "
-value
+xbl
+:
+text
 =
 description
 "
