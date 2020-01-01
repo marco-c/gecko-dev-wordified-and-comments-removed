@@ -57,9 +57,6 @@ class
 nsString
 ;
 class
-nsIScrollbarListener
-;
-class
 nsISupportsArray
 ;
 class
@@ -519,14 +516,6 @@ EnsureOrient
 (
 )
 ;
-void
-SetScrollbarListener
-(
-nsIScrollbarListener
-*
-aListener
-)
-;
 virtual
 nsIView
 *
@@ -779,10 +768,6 @@ mThumbStart
 PRInt32
 mCurPos
 ;
-nsIScrollbarListener
-*
-mScrollbarListener
-;
 nscoord
 mChange
 ;
@@ -794,6 +779,9 @@ nsRefPtr
 nsSliderMediator
 >
 mMediator
+;
+PRBool
+mUserChanged
 ;
 static
 PRBool
