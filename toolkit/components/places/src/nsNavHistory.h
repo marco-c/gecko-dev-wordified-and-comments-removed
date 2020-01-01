@@ -1659,9 +1659,12 @@ nsNavHistoryResultNode
 *
 aFiltered
 const
-nsString
+nsCOMArray
+<
+nsNavHistoryQuery
+>
 &
-aSearch
+aQueries
 )
 ;
 nsMaybeWeakPtrArray
