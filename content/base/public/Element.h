@@ -1270,7 +1270,6 @@ bool
 aNotify
 )
 ;
-virtual
 bool
 GetAttr
 (
