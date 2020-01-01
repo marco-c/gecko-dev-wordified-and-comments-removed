@@ -68,7 +68,7 @@ virtual
 nsresult
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode

@@ -124,7 +124,7 @@ nsIContent
 aResult
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -133,7 +133,7 @@ nsSVGPatternElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -186,7 +186,7 @@ virtual
 nsresult
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode

@@ -172,7 +172,7 @@ nsDOMAttributeMap
 aAttrMap
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 const
@@ -625,9 +625,9 @@ DeleteAllPropertiesFor
 this
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 newNodeInfo
 ;
@@ -1779,7 +1779,7 @@ nsDOMAttribute
 :
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode
@@ -1807,9 +1807,9 @@ GetValue
 value
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =

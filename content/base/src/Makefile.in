@@ -452,6 +452,10 @@ nsNodeInfoManager
 .
 h
 \
+nsNodeInfo
+.
+h
+\
 nsNodeUtils
 .
 h

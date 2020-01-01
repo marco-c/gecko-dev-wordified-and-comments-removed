@@ -77,7 +77,7 @@ nsIContent
 aResult
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -86,7 +86,7 @@ nsSVGCircleElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -133,7 +133,7 @@ virtual
 nsresult
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode
@@ -290,7 +290,7 @@ nsSVGCircleElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

@@ -106,7 +106,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -11424,9 +11424,9 @@ NodeInfoManager
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;
@@ -11460,9 +11460,9 @@ if
 canHaveHorizontal
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =
@@ -11538,9 +11538,9 @@ if
 canHaveVertical
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =
@@ -11616,9 +11616,9 @@ if
 isResizable
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;

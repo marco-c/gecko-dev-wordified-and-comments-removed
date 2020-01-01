@@ -453,7 +453,7 @@ nsSVGMarkerElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

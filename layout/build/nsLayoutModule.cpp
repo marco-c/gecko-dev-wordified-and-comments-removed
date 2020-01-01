@@ -194,7 +194,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -2577,9 +2577,9 @@ aOuter
 return
 NS_ERROR_NO_AGGREGATION
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 ;
@@ -2659,9 +2659,9 @@ aOuter
 return
 NS_ERROR_NO_AGGREGATION
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 ;
@@ -2744,9 +2744,9 @@ aOuter
 return
 NS_ERROR_NO_AGGREGATION
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 ;

@@ -32,9 +32,6 @@ class
 nsIDocument
 ;
 class
-nsINodeInfo
-;
-class
 nsNodeInfo
 ;
 class
@@ -101,7 +98,7 @@ DropDocumentReference
 ;
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 GetNodeInfo
 (
@@ -136,7 +133,7 @@ PRInt32
 aNamespaceID
 PRUint16
 aNodeType
-nsINodeInfo
+nsNodeInfo
 *
 *
 aNodeInfo
@@ -158,7 +155,7 @@ nsAString
 aNamespaceURI
 PRUint16
 aNodeType
-nsINodeInfo
+nsNodeInfo
 *
 *
 aNodeInfo
@@ -166,7 +163,7 @@ aNodeInfo
 ;
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 GetTextNodeInfo
 (
@@ -174,7 +171,7 @@ GetTextNodeInfo
 ;
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 GetCommentNodeInfo
 (
@@ -182,7 +179,7 @@ GetCommentNodeInfo
 ;
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 GetDocumentNodeInfo
 (
@@ -343,15 +340,15 @@ nsIPrincipal
 >
 mDefaultPrincipal
 ;
-nsINodeInfo
+nsNodeInfo
 *
 mTextNodeInfo
 ;
-nsINodeInfo
+nsNodeInfo
 *
 mCommentNodeInfo
 ;
-nsINodeInfo
+nsNodeInfo
 *
 mDocumentNodeInfo
 ;

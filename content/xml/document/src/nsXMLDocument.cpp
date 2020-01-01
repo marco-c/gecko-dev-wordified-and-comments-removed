@@ -2647,7 +2647,7 @@ nsXMLDocument
 :
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode

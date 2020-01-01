@@ -48,7 +48,7 @@ nsSVGStylableElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

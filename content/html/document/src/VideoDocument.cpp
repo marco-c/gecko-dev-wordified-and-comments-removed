@@ -353,9 +353,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;

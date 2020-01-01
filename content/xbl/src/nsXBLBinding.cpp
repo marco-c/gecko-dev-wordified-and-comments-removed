@@ -2740,7 +2740,7 @@ do_QueryInterface
 node
 )
 ;
-nsINodeInfo
+nsNodeInfo
 *
 ni
 =
@@ -3086,7 +3086,7 @@ childContent
 ;
 else
 {
-nsINodeInfo
+nsNodeInfo
 *
 ni
 =

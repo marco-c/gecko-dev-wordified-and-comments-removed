@@ -201,7 +201,7 @@ nsXTFElementWrapper
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 nsIXTFElement
@@ -2344,7 +2344,7 @@ DoneAddingChildren
 }
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 nsXTFElementWrapper
 :
@@ -2358,7 +2358,7 @@ aStr
 )
 const
 {
-nsINodeInfo
+nsNodeInfo
 *
 nodeInfo
 =
@@ -2558,7 +2558,7 @@ nsXTFElementWrapper
 :
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode
@@ -4362,7 +4362,7 @@ nsIXTFElement
 aXTFElement
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 nsIContent

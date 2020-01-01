@@ -70,7 +70,7 @@ nsIContent
 aResult
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -79,7 +79,7 @@ nsSVGStopElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -123,7 +123,7 @@ virtual
 nsresult
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode
@@ -222,7 +222,7 @@ nsSVGStopElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

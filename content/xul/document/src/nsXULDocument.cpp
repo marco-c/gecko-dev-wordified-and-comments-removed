@@ -5155,9 +5155,9 @@ tag
 PRInt32
 nameSpaceID
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =
@@ -14433,9 +14433,9 @@ rv
 }
 else
 {
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 newNodeInfo
 ;
@@ -14493,9 +14493,9 @@ nsIContent
 >
 content
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 xtfNi
 =
@@ -16793,7 +16793,7 @@ aBroadcaster
 nsresult
 rv
 ;
-nsINodeInfo
+nsNodeInfo
 *
 ni
 =

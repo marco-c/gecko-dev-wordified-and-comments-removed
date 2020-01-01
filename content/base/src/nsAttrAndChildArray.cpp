@@ -1611,7 +1611,7 @@ nsAttrAndChildArray
 :
 SetAndTakeAttr
 (
-nsINodeInfo
+nsNodeInfo
 *
 aName
 nsAttrValue

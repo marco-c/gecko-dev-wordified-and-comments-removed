@@ -762,7 +762,7 @@ nsSVGSVGElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 FromParser
@@ -836,7 +836,7 @@ nsSVGSVGElement
 :
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode
@@ -851,9 +851,9 @@ aResult
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =

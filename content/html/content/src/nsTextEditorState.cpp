@@ -5694,9 +5694,9 @@ doc
 NS_ERROR_FAILURE
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;
@@ -6080,9 +6080,9 @@ nsIContent
 >
 placeholderText
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;

@@ -881,9 +881,9 @@ aResult
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 =

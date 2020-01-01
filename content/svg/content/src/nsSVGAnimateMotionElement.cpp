@@ -53,7 +53,7 @@ nsSVGAnimateMotionElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

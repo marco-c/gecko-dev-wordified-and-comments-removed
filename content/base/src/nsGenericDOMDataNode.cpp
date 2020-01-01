@@ -191,7 +191,7 @@ nsGenericDOMDataNode
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -2525,7 +2525,7 @@ nsnull
 }
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 nsGenericDOMDataNode
 :

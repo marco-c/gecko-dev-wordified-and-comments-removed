@@ -126,7 +126,7 @@ nsGenericHTMLElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -1884,7 +1884,7 @@ nsGenericHTMLFormElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -4802,7 +4802,7 @@ Element
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 \
@@ -4845,7 +4845,7 @@ Element
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 \
@@ -4898,7 +4898,7 @@ Element
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 \
@@ -4949,7 +4949,7 @@ Element
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 \
@@ -4987,7 +4987,7 @@ NS_NewHTMLElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 mozilla

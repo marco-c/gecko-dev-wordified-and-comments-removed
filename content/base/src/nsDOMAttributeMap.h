@@ -56,7 +56,7 @@ class
 nsDOMAttribute
 ;
 class
-nsINodeInfo
+nsNodeInfo
 ;
 class
 nsIDocument
@@ -518,7 +518,7 @@ nsDOMAttribute
 *
 GetAttribute
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 bool
@@ -528,7 +528,7 @@ aNsAware
 nsresult
 RemoveAttribute
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsIDOMNode

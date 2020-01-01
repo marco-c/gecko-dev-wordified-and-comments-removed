@@ -49,7 +49,7 @@ nsMappedAttributeElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

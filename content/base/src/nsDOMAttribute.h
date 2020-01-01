@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsDOMAttributeMap
 .
 h
@@ -93,7 +86,7 @@ nsDOMAttributeMap
 aAttrMap
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 const
@@ -232,7 +225,7 @@ virtual
 nsresult
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode

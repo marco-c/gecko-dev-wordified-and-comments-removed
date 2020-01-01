@@ -2338,9 +2338,9 @@ mOpenedElementIsHTML
 =
 false
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =
@@ -4275,9 +4275,9 @@ aResult
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 ;

@@ -100,7 +100,7 @@ nsSVGClipPathElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

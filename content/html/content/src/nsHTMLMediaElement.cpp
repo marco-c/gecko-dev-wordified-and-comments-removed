@@ -5724,7 +5724,7 @@ nsHTMLMediaElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

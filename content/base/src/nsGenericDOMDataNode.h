@@ -100,7 +100,7 @@ class
 nsIDOMText
 ;
 class
-nsINodeInfo
+nsNodeInfo
 ;
 class
 nsURI
@@ -119,7 +119,7 @@ nsGenericDOMDataNode
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -688,7 +688,7 @@ const
 virtual
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 GetExistingAttrNameFromQName
 (
@@ -1103,7 +1103,7 @@ virtual
 nsresult
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode
@@ -1379,7 +1379,7 @@ nsGenericDOMDataNode
 *
 CloneDataNode
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 bool

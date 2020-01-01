@@ -42,7 +42,7 @@ nsGenericHTMLFrameElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 mozilla

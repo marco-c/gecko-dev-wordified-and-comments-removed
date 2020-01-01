@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsFormControlFrame
 .
 h

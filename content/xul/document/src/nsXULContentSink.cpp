@@ -99,7 +99,7 @@ h
 #
 include
 "
-nsINodeInfo
+nsNodeInfo
 .
 h
 "
@@ -1360,7 +1360,7 @@ nsXULPrototypeNode
 eType_Element
 )
 {
-nsINodeInfo
+nsNodeInfo
 *
 nodeInfo
 =
@@ -1610,9 +1610,9 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 ;
@@ -1655,7 +1655,7 @@ XULContentSinkImpl
 :
 CreateElement
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsXULPrototypeElement
@@ -1818,9 +1818,9 @@ localName
 nameSpaceID
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 nodeInfo
 ;
@@ -3195,7 +3195,7 @@ aAttributes
 const
 PRUint32
 aAttrLen
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 )
@@ -3459,7 +3459,7 @@ aAttrLen
 const
 PRUint32
 aLineNumber
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 )

@@ -186,7 +186,7 @@ nsSVGMpathElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

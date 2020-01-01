@@ -47,7 +47,7 @@ nsTextNode
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -91,7 +91,7 @@ nsGenericDOMDataNode
 *
 CloneDataNode
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 bool

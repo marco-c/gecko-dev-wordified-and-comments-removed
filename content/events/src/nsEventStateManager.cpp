@@ -54,13 +54,6 @@ h
 #
 include
 "
-nsINodeInfo
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

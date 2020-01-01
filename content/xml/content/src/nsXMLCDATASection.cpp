@@ -47,7 +47,7 @@ nsXMLCDATASection
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -91,7 +91,7 @@ nsGenericDOMDataNode
 *
 CloneDataNode
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 bool
@@ -166,9 +166,9 @@ aInstancePtrResult
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 ;
@@ -240,7 +240,7 @@ nsXMLCDATASection
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -351,7 +351,7 @@ nsXMLCDATASection
 :
 CloneDataNode
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 bool
@@ -359,9 +359,9 @@ aCloneText
 )
 const
 {
-nsCOMPtr
+nsRefPtr
 <
-nsINodeInfo
+nsNodeInfo
 >
 ni
 =

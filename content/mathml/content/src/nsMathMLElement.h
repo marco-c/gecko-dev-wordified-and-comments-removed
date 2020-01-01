@@ -63,7 +63,7 @@ nsMathMLElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )
@@ -222,7 +222,7 @@ aVisitor
 nsresult
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 nsINode
 *

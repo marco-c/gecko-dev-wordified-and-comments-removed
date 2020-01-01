@@ -71,7 +71,7 @@ nsXTFElementWrapper
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 nsIXTFElement
@@ -304,7 +304,7 @@ const
 virtual
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 GetExistingAttrNameFromQName
 (
@@ -494,7 +494,7 @@ aElement
 nsresult
 Clone
 (
-nsINodeInfo
+nsNodeInfo
 *
 aNodeInfo
 nsINode
@@ -519,7 +519,7 @@ virtual
 void
 NodeInfoChanged
 (
-nsINodeInfo
+nsNodeInfo
 *
 aOldNodeInfo
 )
@@ -629,7 +629,7 @@ nsIXTFElement
 aXTFElement
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 nsIContent

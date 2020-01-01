@@ -183,7 +183,7 @@ NS_NewHTMLCanvasElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 FromParser
@@ -205,7 +205,7 @@ nsHTMLCanvasElement
 (
 already_AddRefed
 <
-nsINodeInfo
+nsNodeInfo
 >
 aNodeInfo
 )

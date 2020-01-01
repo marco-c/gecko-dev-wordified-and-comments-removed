@@ -2842,7 +2842,7 @@ mXMLMatchAtom
 return
 false
 ;
-nsINodeInfo
+nsNodeInfo
 *
 ni
 =

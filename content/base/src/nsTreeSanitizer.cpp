@@ -6928,7 +6928,7 @@ AsElement
 (
 )
 ;
-nsINodeInfo
+nsNodeInfo
 *
 nodeInfo
 =
