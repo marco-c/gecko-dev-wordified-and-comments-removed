@@ -682,13 +682,13 @@ name
 ?
 store
 .
-getAll
+mozGetAll
 (
 )
 :
 store
 .
-getAll
+mozGetAll
 (
 info
 .
