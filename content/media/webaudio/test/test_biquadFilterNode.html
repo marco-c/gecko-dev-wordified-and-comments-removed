@@ -192,7 +192,9 @@ createBuffer
 (
 1
 2048
-44100
+context
+.
+sampleRate
 )
 ;
 for
@@ -235,7 +237,9 @@ PI
 *
 i
 /
-44100
+context
+.
+sampleRate
 )
 ;
 }
@@ -329,7 +333,11 @@ filter
 frequency
 .
 maxValue
-22050
+context
+.
+sampleRate
+/
+2
 "
 Correct
 max
