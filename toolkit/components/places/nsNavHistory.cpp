@@ -22308,7 +22308,7 @@ rv
 ;
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 statement
 ;
@@ -22317,7 +22317,7 @@ rv
 mDBConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 queryString
 getter_AddRefs
@@ -24738,7 +24738,7 @@ nsNavHistory
 :
 BindQueryClauseParameters
 (
-mozIStorageStatement
+mozIStorageBaseStatement
 *
 statement
 PRInt32
@@ -29907,7 +29907,7 @@ FixInvalidFrecencies
 {
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 fixInvalidFrecenciesStmt
 ;
@@ -29917,7 +29917,7 @@ rv
 mDBConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (

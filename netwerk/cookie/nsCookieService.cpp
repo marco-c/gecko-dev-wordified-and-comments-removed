@@ -7116,7 +7116,7 @@ PR_TRUE
 }
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 stmt
 ;
@@ -7129,7 +7129,7 @@ mDefaultDBState
 dbConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (
@@ -7782,7 +7782,7 @@ Read
 {
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 stmtRead
 ;
@@ -7795,7 +7795,7 @@ mDefaultDBState
 dbConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (
@@ -7856,7 +7856,7 @@ RESULT_RETRY
 ;
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 stmtDeleteNull
 ;
@@ -7868,7 +7868,7 @@ mDefaultDBState
 dbConn
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (

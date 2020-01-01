@@ -549,7 +549,7 @@ getMemoryDatabase
 ;
 nsCOMPtr
 <
-mozIStorageStatement
+mozIStorageAsyncStatement
 >
 stmt
 ;
@@ -559,7 +559,7 @@ void
 db
 -
 >
-CreateStatement
+CreateAsyncStatement
 (
 NS_LITERAL_CSTRING
 (
