@@ -1476,8 +1476,6 @@ SkipUTF8BOM
 FILE
 *
 file
-size_t
-size
 )
 {
 if
@@ -1720,7 +1718,6 @@ file
 SkipUTF8BOM
 (
 file
-size
 )
 ;
 int
