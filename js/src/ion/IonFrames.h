@@ -174,7 +174,12 @@ uint8
 *
 )
 this
--
++
+sizeof
+(
+IonFramePrefix
+)
++
 prevFrameDepth
 (
 )
