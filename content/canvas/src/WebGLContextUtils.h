@@ -145,11 +145,8 @@ WebGLObjectType
 (
 object
 )
+&
 v
-.
-address
-(
-)
 )
 )
 {
