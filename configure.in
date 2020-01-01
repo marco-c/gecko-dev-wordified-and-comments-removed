@@ -15276,8 +15276,6 @@ OUT
 '
 if
 test
--
-z
 "
 AS_BIN
 "
