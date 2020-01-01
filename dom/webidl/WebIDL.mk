@@ -847,6 +847,10 @@ SVGFEPointLightElement
 .
 webidl
 \
+SVGFESpotLightElement
+.
+webidl
+\
 SVGFETileElement
 .
 webidl
