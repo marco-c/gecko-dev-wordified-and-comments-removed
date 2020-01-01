@@ -53,7 +53,7 @@ this
 .
 tracemonkey
 .
-profiler
+adaptive
 )
 {
 jit
