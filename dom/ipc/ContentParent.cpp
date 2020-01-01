@@ -3446,10 +3446,6 @@ nsString
 &
 text
 const
-bool
-&
-isPrivateData
-const
 PRInt32
 &
 whichClipboard
@@ -3556,14 +3552,6 @@ trans
 AddDataFlavor
 (
 kUnicodeMime
-)
-;
-trans
--
->
-SetIsPrivateData
-(
-isPrivateData
 )
 ;
 nsCOMPtr

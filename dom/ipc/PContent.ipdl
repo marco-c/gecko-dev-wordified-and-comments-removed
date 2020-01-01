@@ -1158,8 +1158,6 @@ SetClipboardText
 (
 nsString
 text
-bool
-isPrivateData
 PRInt32
 whichClipboard
 )
