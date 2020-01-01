@@ -7472,10 +7472,6 @@ cellRect
 width
 )
 {
-if
-(
-aCol
-)
 *
 aCol
 =
