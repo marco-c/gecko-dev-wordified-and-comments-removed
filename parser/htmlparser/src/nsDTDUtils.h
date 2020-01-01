@@ -1537,7 +1537,7 @@ aTopic
 ;
 protected
 :
-nsAutoString
+nsString
 mTopic
 ;
 nsVoidArray
