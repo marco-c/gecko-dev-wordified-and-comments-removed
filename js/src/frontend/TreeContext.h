@@ -690,7 +690,7 @@ newDecl
 )
 ;
 bool
-generateBindings
+generateFunctionBindings
 (
 JSContext
 *
@@ -759,15 +759,6 @@ inDeclDestructuring
 :
 1
 ;
-private
-:
-bool
-hasDuplicateArgument_
-:
-1
-;
-public
-:
 inline
 TreeContext
 (

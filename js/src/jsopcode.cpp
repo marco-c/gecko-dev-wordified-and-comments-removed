@@ -5742,9 +5742,8 @@ localNames
 |
 |
 !
-GetOrderedBindings
+FillBindingVector
 (
-cx
 fun
 -
 >
@@ -9081,6 +9080,8 @@ slot
 ]
 .
 name
+(
+)
 ;
 #
 if
@@ -24934,9 +24935,8 @@ innerLocalNames
 |
 |
 !
-GetOrderedBindings
+FillBindingVector
 (
-cx
 fun
 -
 >
@@ -31995,9 +31995,8 @@ false
 if
 (
 !
-GetOrderedBindings
+FillBindingVector
 (
-cx
 script
 -
 >
@@ -32345,6 +32344,8 @@ slot
 ]
 .
 name
+(
+)
 ;
 }
 JSAtom
@@ -32395,6 +32396,8 @@ slot
 ]
 .
 name
+(
+)
 ;
 }
 bool

@@ -5920,17 +5920,6 @@ JSContext
 cx
 )
 {
-if
-(
-!
-ensureShape
-(
-cx
-)
-)
-return
-false
-;
 Shape
 *
 newShape
@@ -5941,7 +5930,7 @@ Shape
 setExtensibleParents
 (
 cx
-lastBinding
+callObjShape_
 )
 ;
 if
@@ -5952,7 +5941,7 @@ newShape
 return
 false
 ;
-lastBinding
+callObjShape_
 =
 newShape
 ;

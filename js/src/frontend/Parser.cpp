@@ -4884,7 +4884,7 @@ if
 funtc
 -
 >
-generateBindings
+generateFunctionBindings
 (
 cx
 &
