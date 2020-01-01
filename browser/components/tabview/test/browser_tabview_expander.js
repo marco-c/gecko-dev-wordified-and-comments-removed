@@ -191,9 +191,13 @@ gBrowser
 loadOneTab
 (
 '
-about
+http
 :
-blank
+/
+/
+example
+.
+com
 #
 '
 +
