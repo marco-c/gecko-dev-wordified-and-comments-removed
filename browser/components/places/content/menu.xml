@@ -6831,12 +6831,9 @@ target
 ;
 /
 /
-We
-should
-avoid
-to
-handle
-events
+Avoid
+handling
+popupshowing
 of
 inner
 views
