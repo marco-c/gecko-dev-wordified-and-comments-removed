@@ -5266,6 +5266,8 @@ OS_ARCH
 )
 )
 )
+ifndef
+NO_INSTALL_IMPORT_LIBRARY
 (
 INSTALL
 )
@@ -5280,6 +5282,7 @@ DIST
 )
 /
 lib
+endif
 else
 (
 INSTALL
