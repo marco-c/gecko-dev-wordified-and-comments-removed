@@ -227,11 +227,10 @@ promiseAsyncUpdates
 ;
 try
 {
-PlacesUtils
+yield
+BookmarkJSONUtils
 .
-backups
-.
-saveBookmarksToJSONFile
+exportToFile
 (
 jsonFile
 )
