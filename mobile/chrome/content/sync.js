@@ -2788,11 +2788,9 @@ Status
 login
 =
 =
-"
-service
+Weave
 .
-master_password_locked
-"
+MASTER_PASSWORD_LOCKED
 )
 Weave
 .
