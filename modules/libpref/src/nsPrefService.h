@@ -168,9 +168,6 @@ nsIFile
 >
 mCurrentFile
 ;
-PRPackedBool
-mDontWriteUserPrefs
-;
 }
 ;
 #
