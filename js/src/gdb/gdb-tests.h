@@ -7,13 +7,6 @@ gdb_gdb_tests_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 NamespaceImports
 .
 h

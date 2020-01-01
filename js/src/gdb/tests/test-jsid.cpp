@@ -7,6 +7,13 @@ tests
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 FRAGMENT
 (
 jsid

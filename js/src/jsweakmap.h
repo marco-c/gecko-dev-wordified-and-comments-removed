@@ -7,13 +7,6 @@ jsweakmap_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jscompartment
 .
 h

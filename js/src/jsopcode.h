@@ -7,13 +7,6 @@ jsopcode_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsbytecode
 .
 h

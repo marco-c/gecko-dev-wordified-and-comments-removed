@@ -7,13 +7,6 @@ builtin_ParallelArray_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h

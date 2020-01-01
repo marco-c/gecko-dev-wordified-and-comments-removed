@@ -7,13 +7,6 @@ builtin_MapObject_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h

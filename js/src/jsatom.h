@@ -16,6 +16,13 @@ h
 #
 include
 "
+jsalloc
+.
+h
+"
+#
+include
+"
 gc
 /
 Barrier
@@ -42,6 +49,9 @@ h
 "
 class
 JSAtom
+;
+class
+JSAutoByteString
 ;
 struct
 JSIdArray
