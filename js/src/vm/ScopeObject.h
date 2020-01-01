@@ -364,6 +364,7 @@ callee
 public
 :
 static
+const
 Class
 class_
 ;
@@ -628,6 +629,7 @@ gc
 FINALIZE_OBJECT2_BACKGROUND
 ;
 static
+const
 Class
 class_
 ;
@@ -754,6 +756,7 @@ gc
 FINALIZE_OBJECT4_BACKGROUND
 ;
 static
+const
 Class
 class_
 ;
@@ -839,6 +842,7 @@ gc
 FINALIZE_OBJECT4_BACKGROUND
 ;
 static
+const
 Class
 class_
 ;

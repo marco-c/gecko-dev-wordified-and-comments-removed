@@ -164,6 +164,7 @@ inline
 AllocKind
 GetGCObjectKind
 (
+const
 Class
 *
 clasp

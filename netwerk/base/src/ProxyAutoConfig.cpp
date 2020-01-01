@@ -3635,6 +3635,7 @@ bool
 mOK
 ;
 static
+const
 JSClass
 sGlobalClass
 ;
@@ -3826,6 +3827,7 @@ NS_OK
 }
 }
 ;
+const
 JSClass
 JSRuntimeWrapper
 :

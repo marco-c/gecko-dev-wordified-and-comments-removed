@@ -450,6 +450,7 @@ domClass
 mDOMObjectIsISupports
 ;
 }
+const
 JSClass
 *
 clasp

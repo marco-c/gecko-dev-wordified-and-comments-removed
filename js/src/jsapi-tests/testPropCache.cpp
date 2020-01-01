@@ -46,6 +46,7 @@ true
 ;
 }
 static
+const
 JSClass
 CounterClass
 =

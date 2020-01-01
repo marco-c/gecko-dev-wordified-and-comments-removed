@@ -1171,6 +1171,7 @@ char
 *
 name
 ;
+const
 js
 :
 :

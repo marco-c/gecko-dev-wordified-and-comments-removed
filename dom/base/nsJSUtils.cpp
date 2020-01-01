@@ -184,6 +184,7 @@ JSObject
 aObj
 )
 {
+const
 JSClass
 *
 clazz

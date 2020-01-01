@@ -337,11 +337,13 @@ wrapper
 "
 )
 ;
+const
 XPCWrappedNativeJSClass
 *
 clasp
 =
 (
+const
 XPCWrappedNativeJSClass
 *
 )
@@ -404,6 +406,7 @@ delete
 popp
 ;
 }
+const
 JSClass
 PointerHolderClass
 =
@@ -2347,6 +2350,7 @@ return
 NS_OK
 ;
 }
+const
 js
 :
 :

@@ -86,6 +86,7 @@ using
 namespace
 mozilla
 ;
+const
 Class
 TypeRepresentation
 :

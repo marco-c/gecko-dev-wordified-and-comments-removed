@@ -2062,6 +2062,7 @@ vp
 )
 ;
 }
+const
 Class
 DateObject
 :

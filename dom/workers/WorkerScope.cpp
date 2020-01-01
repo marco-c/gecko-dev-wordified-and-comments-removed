@@ -368,6 +368,7 @@ public
 nsIGlobalObject
 {
 static
+const
 JSClass
 sClass
 ;
@@ -445,6 +446,7 @@ mWorker
 public
 :
 static
+const
 JSClass
 *
 Class
@@ -3556,6 +3558,7 @@ nsISupports
 DOMBindingBase
 )
 NS_INTERFACE_MAP_END
+const
 JSClass
 WorkerGlobalScope
 :
@@ -3758,10 +3761,12 @@ public
 WorkerGlobalScope
 {
 static
+const
 DOMJSClass
 sClass
 ;
 static
+const
 DOMIfaceAndProtoJSClass
 sProtoClass
 ;
@@ -3800,6 +3805,7 @@ STRING_COUNT
 public
 :
 static
+const
 JSClass
 *
 Class
@@ -3815,6 +3821,7 @@ ToJSClass
 ;
 }
 static
+const
 JSClass
 *
 ProtoClass
@@ -3830,6 +3837,7 @@ ToJSClass
 ;
 }
 static
+const
 DOMClass
 *
 DOMClassStruct
@@ -3896,8 +3904,15 @@ JS
 :
 PrivateValue
 (
+const_cast
+<
+DOMClass
+*
+>
+(
 DOMClassStruct
 (
+)
 )
 )
 )
@@ -4492,6 +4507,7 @@ char
 aFunctionName
 )
 {
+const
 JSClass
 *
 classPtr
@@ -4936,6 +4952,7 @@ true
 }
 }
 ;
+const
 DOMJSClass
 DedicatedWorkerGlobalScope
 :
@@ -4996,6 +5013,7 @@ sWorkerNativePropertyHooks
 }
 }
 ;
+const
 DOMIfaceAndProtoJSClass
 DedicatedWorkerGlobalScope
 :
@@ -5129,6 +5147,7 @@ char
 aFunctionName
 )
 {
+const
 JSClass
 *
 classPtr
@@ -5721,6 +5740,7 @@ global
 bool
 ClassIsWorkerGlobalScope
 (
+const
 JSClass
 *
 aClass

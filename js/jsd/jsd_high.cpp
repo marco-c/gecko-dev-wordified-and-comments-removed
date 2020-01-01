@@ -126,12 +126,14 @@ CreateJSDGlobal
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
 )
 ;
 static
+const
 JSClass
 global_class
 =

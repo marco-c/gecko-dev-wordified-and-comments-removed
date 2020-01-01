@@ -2089,6 +2089,7 @@ vp
 ;
 }
 static
+const
 JSClass
 sCTypesGlobalClass
 =
@@ -2110,6 +2111,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 JSClass
 sCABIClass
 =
@@ -2131,6 +2133,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 JSClass
 sCTypeProtoClass
 =
@@ -2160,6 +2163,7 @@ ConstructAbstract
 }
 ;
 static
+const
 JSClass
 sCDataProtoClass
 =
@@ -2178,6 +2182,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 JSClass
 sCTypeClass
 =
@@ -2222,6 +2227,7 @@ Trace
 }
 ;
 static
+const
 JSClass
 sCDataClass
 =
@@ -2263,6 +2269,7 @@ Call
 }
 ;
 static
+const
 JSClass
 sCClosureClass
 =
@@ -2298,6 +2305,7 @@ Trace
 }
 ;
 static
+const
 JSClass
 sCDataFinalizerProtoClass
 =
@@ -2316,6 +2324,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 JSClass
 sCDataFinalizerClass
 =
@@ -3254,6 +3263,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSClass
 sInt64ProtoClass
 =
@@ -3272,6 +3282,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 JSClass
 sUInt64ProtoClass
 =
@@ -3290,6 +3301,7 @@ JS_ConvertStub
 }
 ;
 static
+const
 JSClass
 sInt64Class
 =
@@ -3315,6 +3327,7 @@ Finalize
 }
 ;
 static
+const
 JSClass
 sUInt64Class
 =
@@ -4746,6 +4759,7 @@ JSContext
 cx
 HandleObject
 parent
+const
 JSClass
 *
 clasp
@@ -36076,6 +36090,7 @@ bool
 isUnsigned
 )
 {
+const
 JSClass
 *
 clasp

@@ -283,6 +283,7 @@ namespace
 JS
 ;
 static
+const
 JSClass
 kFakeBackstagePassJSClass
 =

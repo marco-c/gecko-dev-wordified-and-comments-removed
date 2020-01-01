@@ -7098,6 +7098,7 @@ getInitialShape
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -7367,6 +7368,7 @@ getInitialShape
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -7416,6 +7418,7 @@ HandleObject
 proto
 )
 {
+const
 Class
 *
 clasp

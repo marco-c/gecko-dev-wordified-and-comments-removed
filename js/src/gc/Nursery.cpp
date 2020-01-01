@@ -1665,6 +1665,7 @@ JSObject
 obj
 )
 {
+const
 Class
 *
 clasp

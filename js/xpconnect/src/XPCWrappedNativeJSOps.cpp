@@ -2618,6 +2618,7 @@ WNHelperType
 helperType
 )
 {
+const
 js
 :
 :
@@ -2762,6 +2763,7 @@ JSObject
 obj
 )
 {
+const
 js
 :
 :
@@ -3117,6 +3119,7 @@ return
 obj
 ;
 }
+const
 XPCWrappedNativeJSClass
 XPC_WN_NoHelper_JSClass
 =
@@ -4376,6 +4379,7 @@ MutableHandleId
 idp
 )
 {
+const
 js
 :
 :
@@ -5507,6 +5511,7 @@ if
 funobj
 )
 {
+const
 js
 :
 :
@@ -6429,6 +6434,7 @@ nullptr
 )
 ;
 }
+const
 js
 :
 :
@@ -6457,6 +6463,7 @@ JS_NULL_CLASS_EXT
 XPC_WN_WithCall_ObjectOps
 }
 ;
+const
 js
 :
 :
@@ -6773,6 +6780,7 @@ nullptr
 )
 ;
 }
+const
 js
 :
 :
@@ -6801,6 +6809,7 @@ JS_NULL_CLASS_EXT
 XPC_WN_WithCall_ObjectOps
 }
 ;
+const
 js
 :
 :
@@ -7109,6 +7118,7 @@ JSObjectFinalized
 )
 ;
 }
+const
 js
 :
 :

@@ -3790,6 +3790,7 @@ ret
 )
 {
 static
+const
 JSClass
 JSHistogram_class
 =

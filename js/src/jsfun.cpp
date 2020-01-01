@@ -1175,6 +1175,7 @@ objProto
 return
 NULL
 ;
+const
 Class
 *
 clasp
@@ -2899,6 +2900,7 @@ trc
 )
 ;
 }
+const
 Class
 JSFunction
 :
@@ -2936,6 +2938,7 @@ NULL
 fun_trace
 }
 ;
+const
 Class
 *
 const
@@ -9597,6 +9600,7 @@ JSContext
 cx
 CallReceiver
 call
+const
 Class
 *
 clasp

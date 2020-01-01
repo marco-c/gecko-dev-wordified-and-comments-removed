@@ -1211,6 +1211,7 @@ TypeObject
 *
 getNewType
 (
+const
 Class
 *
 clasp
@@ -1230,6 +1231,7 @@ TypeObject
 *
 getLazyType
 (
+const
 Class
 *
 clasp

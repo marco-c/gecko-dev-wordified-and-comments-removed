@@ -3719,6 +3719,7 @@ return
 true
 ;
 }
+const
 Class
 *
 clasp

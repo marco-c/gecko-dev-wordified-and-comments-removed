@@ -6117,6 +6117,7 @@ init
 size_t
 atomOffset
 ;
+const
 Class
 *
 clasp
@@ -11902,6 +11903,7 @@ objArg
 JSObject
 *
 parent_protoArg
+const
 JSClass
 *
 clasp
@@ -12019,6 +12021,7 @@ proto
 }
 JS_PUBLIC_API
 (
+const
 JSClass
 *
 )
@@ -12050,6 +12053,7 @@ cx
 JSObject
 *
 objArg
+const
 JSClass
 *
 clasp
@@ -12258,6 +12262,7 @@ cx
 JSObject
 *
 objArg
+const
 JSClass
 *
 clasp
@@ -12744,6 +12749,7 @@ JS_NewGlobalObject
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
@@ -13063,6 +13069,7 @@ JS_NewObject
 JSContext
 *
 cx
+const
 JSClass
 *
 jsclasp
@@ -13127,6 +13134,7 @@ proto
 parent
 )
 ;
+const
 Class
 *
 clasp
@@ -13247,6 +13255,7 @@ JS_NewObjectWithGivenProto
 JSContext
 *
 cx
+const
 JSClass
 *
 jsclasp
@@ -13311,6 +13320,7 @@ proto
 parent
 )
 ;
+const
 Class
 *
 clasp
@@ -13399,6 +13409,7 @@ JS_NewObjectForConstructor
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
@@ -16262,6 +16273,7 @@ const
 char
 *
 name
+const
 JSClass
 *
 jsclasp
@@ -16303,6 +16315,7 @@ obj
 proto
 )
 ;
+const
 Class
 *
 clasp
@@ -18698,6 +18711,7 @@ isNative
 )
 return
 ;
+const
 Class
 *
 clasp
@@ -19018,6 +19032,7 @@ iter
 }
 }
 static
+const
 Class
 prop_iter_class
 =

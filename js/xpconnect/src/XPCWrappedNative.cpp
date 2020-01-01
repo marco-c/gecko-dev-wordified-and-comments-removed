@@ -1349,6 +1349,7 @@ get
 )
 )
 ;
+const
 JSClass
 *
 clasp
@@ -4643,6 +4644,7 @@ si
 =
 mScriptableInfo
 ;
+const
 JSClass
 *
 jsclazz

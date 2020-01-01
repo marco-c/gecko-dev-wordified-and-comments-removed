@@ -243,6 +243,7 @@ object
 )
 "
 ;
+const
 Class
 *
 clasp
@@ -370,6 +371,7 @@ JAVASCRIPT_OBJECT_FINALIZE_ENABLED
 )
 )
 {
+const
 Class
 *
 clasp

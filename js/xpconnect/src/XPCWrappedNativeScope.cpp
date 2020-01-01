@@ -681,6 +681,7 @@ if
 mUseXBLScope
 )
 {
+const
 js
 :
 :

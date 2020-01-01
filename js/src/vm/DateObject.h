@@ -137,6 +137,7 @@ LOCAL_SECONDS_SLOT
 public
 :
 static
+const
 Class
 class_
 ;

@@ -56,6 +56,7 @@ aMainRuntime
 bool
 ClassIsWorker
 (
+const
 JSClass
 *
 aClass

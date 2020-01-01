@@ -7304,6 +7304,7 @@ obj
 {
 }
 static
+const
 JSClass
 XPCOutParamClass
 =

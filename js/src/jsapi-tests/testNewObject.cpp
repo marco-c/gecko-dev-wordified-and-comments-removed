@@ -591,6 +591,7 @@ N
 )
 ;
 static
+const
 JSClass
 cls
 =

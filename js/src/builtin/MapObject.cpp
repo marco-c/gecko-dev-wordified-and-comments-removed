@@ -3750,6 +3750,7 @@ JSObject
 public
 :
 static
+const
 Class
 class_
 ;
@@ -3859,6 +3860,7 @@ vp
 }
 ;
 }
+const
 Class
 MapIteratorObject
 :
@@ -4650,6 +4652,7 @@ args
 )
 ;
 }
+const
 Class
 MapObject
 :
@@ -4808,6 +4811,7 @@ GlobalObject
 *
 >
 global
+const
 Class
 *
 clasp
@@ -6901,6 +6905,7 @@ JSObject
 public
 :
 static
+const
 Class
 class_
 ;
@@ -7010,6 +7015,7 @@ vp
 }
 ;
 }
+const
 Class
 SetIteratorObject
 :
@@ -7761,6 +7767,7 @@ args
 )
 ;
 }
+const
 Class
 SetObject
 :

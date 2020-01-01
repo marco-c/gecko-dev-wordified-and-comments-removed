@@ -62,6 +62,7 @@ vp
 )
 ;
 static
+const
 JSClass
 ptestClass
 =

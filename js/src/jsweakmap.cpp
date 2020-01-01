@@ -2260,6 +2260,7 @@ return
 true
 ;
 }
+const
 Class
 WeakMapObject
 :

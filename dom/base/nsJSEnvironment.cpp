@@ -5019,6 +5019,7 @@ here
 }
 #
 endif
+const
 JSClass
 *
 c

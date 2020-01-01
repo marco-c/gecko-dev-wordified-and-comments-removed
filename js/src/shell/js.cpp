@@ -2847,6 +2847,7 @@ return
 ;
 }
 extern
+const
 JSClass
 global_class
 ;
@@ -13361,6 +13362,7 @@ true
 ;
 }
 static
+const
 JSClass
 sandbox_class
 =
@@ -14935,6 +14937,7 @@ ok
 ;
 }
 static
+const
 JSClass
 resolver_class
 =
@@ -19607,6 +19610,7 @@ vp
 )
 {
 static
+const
 JSClass
 cls
 =
@@ -23937,6 +23941,7 @@ n
 ;
 }
 static
+const
 JSClass
 its_class
 =
@@ -25096,6 +25101,7 @@ true
 #
 endif
 }
+const
 JSClass
 global_class
 =
@@ -25601,6 +25607,7 @@ true
 ;
 }
 static
+const
 JSClass
 env_class
 =
@@ -25684,6 +25691,7 @@ vp
 ifdef
 DEBUG
 static
+const
 JSClass
 *
 GetDomClass
@@ -25993,6 +26001,7 @@ JS_FS_END
 }
 ;
 static
+const
 JSClass
 dom_class
 =
@@ -26026,6 +26035,7 @@ JSCLASS_NO_INTERNAL_MEMBERS
 ifdef
 DEBUG
 static
+const
 JSClass
 *
 GetDomClass
@@ -29298,6 +29308,7 @@ return
 true
 ;
 }
+const
 JSSecurityCallbacks
 securityCallbacks
 =

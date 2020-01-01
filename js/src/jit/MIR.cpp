@@ -13774,6 +13774,7 @@ types
 return
 false
 ;
+const
 Class
 *
 clasp

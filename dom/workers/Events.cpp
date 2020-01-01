@@ -79,10 +79,12 @@ public
 PrivatizableBase
 {
 static
+const
 JSClass
 sClass
 ;
 static
+const
 JSClass
 sMainRuntimeClass
 ;
@@ -124,6 +126,7 @@ static
 bool
 IsThisClass
 (
+const
 JSClass
 *
 aClass
@@ -282,6 +285,7 @@ protoVal
 }
 }
 }
+const
 JSClass
 *
 clasp
@@ -426,6 +430,7 @@ bool
 aMainRuntime
 )
 {
+const
 JSClass
 *
 clasp
@@ -1493,6 +1498,7 @@ _varname
 _name
 )
 \
+const
 JSClass
 _varname
 =
@@ -1806,10 +1812,12 @@ public
 Event
 {
 static
+const
 JSClass
 sClass
 ;
 static
+const
 JSClass
 sMainRuntimeClass
 ;
@@ -1850,6 +1858,7 @@ static
 bool
 IsThisClass
 (
+const
 JSClass
 *
 aClass
@@ -1888,6 +1897,7 @@ bool
 aMainRuntime
 )
 {
+const
 JSClass
 *
 clasp
@@ -1979,6 +1989,7 @@ return
 NULL
 ;
 }
+const
 JSClass
 *
 clasp
@@ -2160,6 +2171,7 @@ char
 aFunctionName
 )
 {
+const
 JSClass
 *
 classPtr
@@ -2892,6 +2904,7 @@ _varname
 _name
 )
 \
+const
 JSClass
 _varname
 =
@@ -3028,10 +3041,12 @@ public
 Event
 {
 static
+const
 JSClass
 sClass
 ;
 static
+const
 JSClass
 sMainRuntimeClass
 ;
@@ -3055,6 +3070,7 @@ static
 bool
 IsThisClass
 (
+const
 JSClass
 *
 aClass
@@ -3093,6 +3109,7 @@ bool
 aMainRuntime
 )
 {
+const
 JSClass
 *
 clasp
@@ -3192,6 +3209,7 @@ return
 NULL
 ;
 }
+const
 JSClass
 *
 clasp
@@ -3344,6 +3362,7 @@ char
 aFunctionName
 )
 {
+const
 JSClass
 *
 classPtr
@@ -3878,6 +3897,7 @@ _varname
 _name
 )
 \
+const
 JSClass
 _varname
 =
@@ -4014,6 +4034,7 @@ public
 Event
 {
 static
+const
 JSClass
 sClass
 ;
@@ -4027,6 +4048,7 @@ sProperties
 public
 :
 static
+const
 JSClass
 *
 Class
@@ -4267,6 +4289,7 @@ char
 aFunctionName
 )
 {
+const
 JSClass
 *
 classPtr
@@ -4639,6 +4662,7 @@ args
 ;
 }
 ;
+const
 JSClass
 ProgressEvent
 :
@@ -4740,6 +4764,7 @@ if
 aObj
 )
 {
+const
 JSClass
 *
 classPtr

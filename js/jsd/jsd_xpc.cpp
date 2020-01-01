@@ -13441,6 +13441,7 @@ CreateJSDGlobal
 JSContext
 *
 aCx
+const
 JSClass
 *
 aClasp

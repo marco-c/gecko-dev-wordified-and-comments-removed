@@ -244,6 +244,7 @@ return
 }
 else
 {
+const
 js
 :
 :

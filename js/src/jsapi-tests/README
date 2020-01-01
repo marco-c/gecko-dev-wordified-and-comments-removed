@@ -800,6 +800,7 @@ functions
 like
 this
 :
+const
 JSClass
 globalClassWithResolve
 =

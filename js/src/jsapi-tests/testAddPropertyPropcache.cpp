@@ -54,6 +54,7 @@ return
 true
 ;
 }
+const
 JSClass
 addPropertyClass
 =

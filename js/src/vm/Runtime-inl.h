@@ -62,6 +62,7 @@ NewObjectCache
 :
 lookupProto
 (
+const
 Class
 *
 clasp
@@ -109,6 +110,7 @@ NewObjectCache
 :
 lookupGlobal
 (
+const
 Class
 *
 clasp
@@ -147,6 +149,7 @@ fillGlobal
 (
 EntryIndex
 entry
+const
 Class
 *
 clasp

@@ -7888,6 +7888,7 @@ this
 shape
 )
 ;
+const
 Class
 *
 clasp

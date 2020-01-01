@@ -897,6 +897,7 @@ trc
 )
 ;
 }
+const
 Class
 AsmJSModuleObject
 :

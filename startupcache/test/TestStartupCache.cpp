@@ -2710,6 +2710,7 @@ cx
 )
 ;
 static
+const
 JSClass
 global_class
 =

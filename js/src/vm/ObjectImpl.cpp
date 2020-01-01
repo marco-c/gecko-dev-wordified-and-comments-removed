@@ -1993,6 +1993,7 @@ shape
 "
 )
 ;
+const
 Class
 *
 clasp
@@ -3282,6 +3283,7 @@ if
 shape
 )
 {
+const
 Class
 *
 clasp

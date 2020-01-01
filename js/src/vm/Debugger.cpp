@@ -181,6 +181,7 @@ mozilla
 Maybe
 ;
 extern
+const
 Class
 DebuggerFrame_class
 ;
@@ -194,6 +195,7 @@ JSSLOT_DEBUGFRAME_COUNT
 }
 ;
 extern
+const
 Class
 DebuggerArguments_class
 ;
@@ -204,6 +206,7 @@ JSSLOT_DEBUGARGUMENTS_COUNT
 }
 ;
 extern
+const
 Class
 DebuggerEnv_class
 ;
@@ -214,6 +217,7 @@ JSSLOT_DEBUGENV_COUNT
 }
 ;
 extern
+const
 Class
 DebuggerObject_class
 ;
@@ -224,6 +228,7 @@ JSSLOT_DEBUGOBJECT_COUNT
 }
 ;
 extern
+const
 Class
 DebuggerScript_class
 ;
@@ -234,6 +239,7 @@ JSSLOT_DEBUGSCRIPT_COUNT
 }
 ;
 extern
+const
 Class
 DebuggerSource_class
 ;
@@ -8633,6 +8639,7 @@ dbg
 )
 ;
 }
+const
 Class
 Debugger
 :
@@ -14197,6 +14204,7 @@ script
 ;
 }
 }
+const
 Class
 DebuggerScript_class
 =
@@ -19020,6 +19028,7 @@ referent
 ;
 }
 }
+const
 Class
 DebuggerSource_class
 =
@@ -19830,6 +19839,7 @@ obj
 )
 ;
 }
+const
 Class
 DebuggerFrame_class
 =
@@ -20712,6 +20722,7 @@ return
 true
 ;
 }
+const
 Class
 DebuggerArguments_class
 =
@@ -23600,6 +23611,7 @@ referent
 ;
 }
 }
+const
 Class
 DebuggerObject_class
 =
@@ -28438,6 +28450,7 @@ referent
 ;
 }
 }
+const
 Class
 DebuggerEnv_class
 =

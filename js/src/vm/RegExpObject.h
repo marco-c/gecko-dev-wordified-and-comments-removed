@@ -1240,6 +1240,7 @@ RESERVED_SLOTS
 6
 ;
 static
+const
 Class
 class_
 ;

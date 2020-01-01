@@ -30,6 +30,7 @@ Module
 RootedModule
 ;
 }
+const
 Class
 Module
 :

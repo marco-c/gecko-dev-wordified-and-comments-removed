@@ -241,6 +241,7 @@ JS_NewObjectWithUniqueType
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
@@ -1301,6 +1302,7 @@ shadow
 struct
 TypeObject
 {
+const
 Class
 *
 clasp
@@ -1314,6 +1316,7 @@ proto
 struct
 BaseShape
 {
+const
 js
 :
 :
@@ -1540,6 +1543,7 @@ chars
 extern
 JS_FRIEND_DATA
 (
+const
 js
 :
 :
@@ -1550,6 +1554,7 @@ const
 ObjectClassPtr
 ;
 inline
+const
 js
 :
 :
@@ -1584,6 +1589,7 @@ clasp
 ;
 }
 inline
+const
 JSClass
 *
 GetObjectJSClass
@@ -1934,6 +1940,7 @@ obj
 JSObject
 *
 parent_proto
+const
 JSClass
 *
 clasp

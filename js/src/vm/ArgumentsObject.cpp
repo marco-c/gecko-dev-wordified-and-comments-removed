@@ -959,6 +959,7 @@ strict
 (
 )
 ;
+const
 Class
 *
 clasp
@@ -3513,6 +3514,7 @@ script
 )
 ;
 }
+const
 Class
 NormalArgumentsObject
 :
@@ -3574,6 +3576,7 @@ false
 }
 }
 ;
+const
 Class
 StrictArgumentsObject
 :

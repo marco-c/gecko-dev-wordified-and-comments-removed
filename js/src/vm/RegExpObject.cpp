@@ -970,6 +970,7 @@ NULL
 )
 ;
 }
+const
 Class
 RegExpObject
 :

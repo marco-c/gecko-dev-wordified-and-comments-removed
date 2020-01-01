@@ -7539,6 +7539,7 @@ object
 tmpReg
 )
 ;
+const
 Class
 *
 clasp
@@ -14994,6 +14995,7 @@ tmpReg
 InvalidReg
 )
 ;
+const
 Class
 *
 clasp

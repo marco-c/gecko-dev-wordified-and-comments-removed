@@ -823,6 +823,7 @@ aInfo
 )
 ;
 static
+const
 JSClass
 sDummyPropJSClass
 ;

@@ -75,6 +75,7 @@ false
 ;
 }
 static
+const
 JSClass
 myClass
 =

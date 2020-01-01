@@ -1641,6 +1641,7 @@ aData
 }
 ;
 extern
+const
 JSClass
 sHTMLDocumentAllClass
 ;

@@ -1605,12 +1605,14 @@ callee
 TOSTRING_CLASS_RESERVED_SLOT
 )
 ;
+const
 JSClass
 *
 clasp
 =
 static_cast
 <
+const
 JSClass
 *
 >
@@ -2054,6 +2056,7 @@ JSObject
 *
 >
 constructorProto
+const
 JSClass
 *
 constructorClass
@@ -2249,7 +2252,14 @@ toStringObj
 TOSTRING_CLASS_RESERVED_SLOT
 PRIVATE_TO_JSVAL
 (
+const_cast
+<
+JSClass
+*
+>
+(
 constructorClass
+)
 )
 )
 ;
@@ -2718,6 +2728,7 @@ JSObject
 *
 >
 parentProto
+const
 JSClass
 *
 protoClass
@@ -2945,6 +2956,7 @@ JSObject
 *
 >
 protoProto
+const
 JSClass
 *
 protoClass
@@ -2967,6 +2979,7 @@ JSObject
 *
 >
 constructorProto
+const
 JSClass
 *
 constructorClass
@@ -3680,6 +3693,7 @@ domClass
 =
 static_cast
 <
+const
 DOMClass
 *
 >
@@ -7563,6 +7577,7 @@ JSObject
 obj
 )
 {
+const
 js
 :
 :
@@ -7725,6 +7740,7 @@ chain
 :
 JSVAL_VOID
 ;
+const
 js
 :
 :
@@ -8321,6 +8337,7 @@ obj
 }
 else
 {
+const
 js
 :
 :

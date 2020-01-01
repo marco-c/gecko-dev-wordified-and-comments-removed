@@ -773,6 +773,7 @@ ArgumentsObject
 public
 :
 static
+const
 Class
 class_
 ;
@@ -831,6 +832,7 @@ ArgumentsObject
 public
 :
 static
+const
 Class
 class_
 ;

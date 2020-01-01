@@ -2122,6 +2122,7 @@ COLLATOR_SLOTS_COUNT
 1
 ;
 static
+const
 Class
 CollatorClass
 =
@@ -4732,6 +4733,7 @@ NUMBER_FORMAT_SLOTS_COUNT
 1
 ;
 static
+const
 Class
 NumberFormatClass
 =
@@ -7153,6 +7155,7 @@ DATE_TIME_FORMAT_SLOTS_COUNT
 1
 ;
 static
+const
 Class
 DateTimeFormatClass
 =
@@ -9690,6 +9693,7 @@ return
 true
 ;
 }
+const
 Class
 js
 :

@@ -668,6 +668,7 @@ Value
 vp
 )
 ;
+const
 JSClass
 sNPObjectJSWrapperClass
 =
@@ -814,6 +815,7 @@ obj
 )
 ;
 static
+const
 JSClass
 sNPObjectMemberClass
 =
@@ -4291,6 +4293,7 @@ nullptr
 ;
 }
 }
+const
 JSClass
 *
 clazz

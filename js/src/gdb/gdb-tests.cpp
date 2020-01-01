@@ -46,6 +46,7 @@ using
 namespace
 JS
 ;
+const
 JSClass
 global_class
 =

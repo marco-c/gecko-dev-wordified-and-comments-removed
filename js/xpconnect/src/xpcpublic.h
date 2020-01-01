@@ -319,6 +319,7 @@ inline
 bool
 IS_WN_CLASS
 (
+const
 js
 :
 :

@@ -90,10 +90,12 @@ args
 public
 :
 static
+const
 Class
 class_
 ;
 static
+const
 Class
 protoClass
 ;
@@ -1140,6 +1142,7 @@ DATA_SLOT
 public
 :
 static
+const
 Class
 classes
 [
@@ -1150,6 +1153,7 @@ TYPE_MAX
 ]
 ;
 static
+const
 Class
 protoClasses
 [
@@ -1854,6 +1858,7 @@ DATA_SLOT
 private
 :
 static
+const
 Class
 protoClass
 ;
@@ -1958,6 +1963,7 @@ proto
 public
 :
 static
+const
 Class
 class_
 ;

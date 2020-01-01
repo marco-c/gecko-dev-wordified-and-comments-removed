@@ -196,6 +196,7 @@ END_TEST
 testLookup_bug522590
 )
 static
+const
 JSClass
 DocumentAllClass
 =
@@ -405,6 +406,7 @@ true
 ;
 }
 static
+const
 JSClass
 document_class
 =

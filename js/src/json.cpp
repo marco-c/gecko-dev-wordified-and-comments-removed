@@ -153,6 +153,7 @@ mozilla
 :
 Maybe
 ;
+const
 Class
 js
 :

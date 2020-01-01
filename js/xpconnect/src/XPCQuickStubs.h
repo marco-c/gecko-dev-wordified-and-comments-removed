@@ -2001,6 +2001,7 @@ rval
 ;
 }
 extern
+const
 JSClass
 PointerHolderClass
 ;

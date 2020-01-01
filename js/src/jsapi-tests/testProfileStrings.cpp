@@ -108,6 +108,7 @@ true
 ;
 }
 static
+const
 JSClass
 ptestClass
 =

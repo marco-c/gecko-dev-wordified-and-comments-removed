@@ -96,6 +96,7 @@ JSFlatString
 RootedFlatString
 ;
 static
+const
 JSClass
 sLibraryClass
 =

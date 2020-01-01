@@ -2039,6 +2039,7 @@ OBJECT_FLAG_MASK
 ;
 private
 :
+const
 Class
 *
 clasp
@@ -2116,6 +2117,7 @@ BaseShape
 JSCompartment
 *
 comp
+const
 Class
 *
 clasp
@@ -2135,6 +2137,7 @@ BaseShape
 JSCompartment
 *
 comp
+const
 Class
 *
 clasp
@@ -2917,6 +2920,7 @@ Lookup
 uint32_t
 flags
 ;
+const
 Class
 *
 clasp
@@ -3005,6 +3009,7 @@ StackBaseShape
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -3843,6 +3848,7 @@ parent
 }
 }
 ;
+const
 Class
 *
 getObjectClass
@@ -5890,6 +5896,7 @@ getInitialShape
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -5917,6 +5924,7 @@ getInitialShape
 ExclusiveContext
 *
 cx
+const
 Class
 *
 clasp
@@ -5969,6 +5977,7 @@ proto
 struct
 Lookup
 {
+const
 Class
 *
 clasp
@@ -5992,6 +6001,7 @@ baseFlags
 ;
 Lookup
 (
+const
 Class
 *
 clasp

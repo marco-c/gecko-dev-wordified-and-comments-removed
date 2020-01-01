@@ -24319,6 +24319,7 @@ ICGetElem_Arguments
 :
 Strict
 ;
+const
 Class
 *
 clasp
@@ -36430,6 +36431,7 @@ ICGetProp_ArgumentsLength
 :
 Strict
 ;
+const
 Class
 *
 clasp

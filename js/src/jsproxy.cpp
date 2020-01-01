@@ -17168,6 +17168,7 @@ isWrappedNative
 proxy_WeakmapKeyDelegate
 \
 }
+const
 Class
 js
 :
@@ -17242,6 +17243,7 @@ NULL
 }
 }
 ;
+const
 Class
 *
 const
@@ -17256,6 +17258,7 @@ ObjectProxyObject
 :
 class_
 ;
+const
 Class
 js
 :
@@ -17331,6 +17334,7 @@ NULL
 }
 }
 ;
+const
 Class
 *
 const
@@ -17465,6 +17469,7 @@ args
 )
 ;
 }
+const
 Class
 js
 :
@@ -17531,6 +17536,7 @@ NULL
 }
 }
 ;
+const
 Class
 *
 const
@@ -17632,6 +17638,7 @@ compartment
 )
 )
 ;
+const
 Class
 *
 clasp

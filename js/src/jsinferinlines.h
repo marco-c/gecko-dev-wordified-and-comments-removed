@@ -1676,6 +1676,7 @@ NoCompilerRunning
 }
 ;
 inline
+const
 Class
 *
 GetClassForProtoKey
@@ -3638,6 +3639,7 @@ script
 jsbytecode
 *
 pc
+const
 Class
 *
 clasp
@@ -7120,6 +7122,7 @@ TypeObject
 :
 TypeObject
 (
+const
 Class
 *
 clasp

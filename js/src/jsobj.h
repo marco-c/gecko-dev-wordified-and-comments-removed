@@ -558,14 +558,17 @@ succeeded
 ;
 }
 extern
+const
 Class
 IntlClass
 ;
 extern
+const
 Class
 JSONClass
 ;
 extern
+const
 Class
 MathClass
 ;
@@ -797,6 +800,7 @@ obj
 public
 :
 static
+const
 js
 :
 :
@@ -1928,6 +1932,7 @@ DEBUG
 bool
 hasNewType
 (
+const
 js
 :
 :
@@ -1979,6 +1984,7 @@ setNewTypeUnknown
 JSContext
 *
 cx
+const
 js
 :
 :
@@ -1998,6 +2004,7 @@ splicePrototype
 JSContext
 *
 cx
+const
 js
 :
 :
@@ -6137,6 +6144,7 @@ IsStandardClassResolved
 JSObject
 *
 obj
+const
 js
 :
 :
@@ -6151,6 +6159,7 @@ MarkStandardClassInitializedNoProto
 JSObject
 *
 obj
+const
 js
 :
 :
@@ -6312,6 +6321,7 @@ js
 :
 MutableHandleValue
 vp
+const
 js
 :
 :
@@ -6517,6 +6527,7 @@ CreateThis
 JSContext
 *
 cx
+const
 js
 :
 :
@@ -7350,6 +7361,7 @@ js
 :
 MutableHandleObject
 protop
+const
 js
 :
 :
@@ -7383,6 +7395,7 @@ JSContext
 cx
 HandleObject
 obj
+const
 Class
 *
 clasp

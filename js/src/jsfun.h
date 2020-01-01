@@ -46,6 +46,7 @@ JSObject
 public
 :
 static
+const
 js
 :
 :
@@ -2648,6 +2649,7 @@ JSContext
 cx
 CallReceiver
 call
+const
 Class
 *
 clasp

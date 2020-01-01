@@ -2511,6 +2511,7 @@ vp
 ;
 }
 static
+const
 JSClass
 SandboxClass
 =
@@ -4469,6 +4470,7 @@ proto
 false
 )
 ;
+const
 js
 :
 :

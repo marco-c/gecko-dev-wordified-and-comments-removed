@@ -2184,6 +2184,7 @@ DescribeCustomObjects
 JSObject
 *
 aObject
+const
 js
 :
 :
@@ -2206,6 +2207,7 @@ virtual
 bool
 NoteCustomGCThingXPCOMChildren
 (
+const
 js
 :
 :
@@ -4038,10 +4040,12 @@ struct
 XPCWrappedNativeJSClass
 ;
 extern
+const
 XPCWrappedNativeJSClass
 XPC_WN_NoHelper_JSClass
 ;
 extern
+const
 js
 :
 :
@@ -4049,6 +4053,7 @@ Class
 XPC_WN_NoMods_WithCall_Proto_JSClass
 ;
 extern
+const
 js
 :
 :
@@ -4056,6 +4061,7 @@ Class
 XPC_WN_NoMods_NoCall_Proto_JSClass
 ;
 extern
+const
 js
 :
 :
@@ -4063,6 +4069,7 @@ Class
 XPC_WN_ModsAllowed_WithCall_Proto_JSClass
 ;
 extern
+const
 js
 :
 :
@@ -4070,6 +4077,7 @@ Class
 XPC_WN_ModsAllowed_NoCall_Proto_JSClass
 ;
 extern
+const
 js
 :
 :
@@ -4077,6 +4085,7 @@ Class
 XPC_WN_Tearoff_JSClass
 ;
 extern
+const
 js
 :
 :
@@ -4487,6 +4496,7 @@ inline
 bool
 IS_PROTO_CLASS
 (
+const
 js
 :
 :
@@ -6938,6 +6948,7 @@ mJSClass
 interfacesBitmap
 ;
 }
+const
 JSClass
 *
 GetJSClass
@@ -7180,6 +7191,7 @@ GetInterfacesBitmap
 )
 ;
 }
+const
 JSClass
 *
 GetJSClass
@@ -13578,6 +13590,7 @@ CreateGlobalObject
 JSContext
 *
 cx
+const
 JSClass
 *
 clasp
@@ -14046,6 +14059,7 @@ bool
 gDesiredDebugMode
 ;
 extern
+const
 JSClass
 SafeJSContextGlobalClass
 ;

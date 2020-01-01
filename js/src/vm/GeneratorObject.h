@@ -23,6 +23,7 @@ JSObject
 public
 :
 static
+const
 Class
 class_
 ;
@@ -56,6 +57,7 @@ JSObject
 public
 :
 static
+const
 Class
 class_
 ;

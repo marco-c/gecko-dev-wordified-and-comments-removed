@@ -61,10 +61,12 @@ BLOCK_RESERVED_SLOTS
 }
 ;
 extern
+const
 Class
 DataClass
 ;
 extern
+const
 Class
 TypeClass
 ;
@@ -84,6 +86,7 @@ NumericType
 private
 :
 static
+const
 Class
 *
 typeToClass
@@ -137,6 +140,7 @@ vp
 }
 ;
 extern
+const
 Class
 NumericTypeClasses
 [
@@ -157,6 +161,7 @@ private
 public
 :
 static
+const
 Class
 class_
 ;
@@ -273,6 +278,7 @@ fields
 public
 :
 static
+const
 Class
 class_
 ;
@@ -779,6 +785,7 @@ idp
 public
 :
 static
+const
 Class
 class_
 ;

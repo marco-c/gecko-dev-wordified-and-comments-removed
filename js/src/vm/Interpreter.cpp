@@ -752,6 +752,7 @@ JSSLOT_SAVED_ID
 1
 ;
 static
+const
 Class
 js_NoSuchMethodClass
 =
@@ -2288,6 +2289,7 @@ callee
 (
 )
 ;
+const
 Class
 *
 clasp
@@ -2923,6 +2925,7 @@ return
 true
 ;
 }
+const
 Class
 *
 clasp
@@ -3432,6 +3435,7 @@ bool
 bp
 )
 {
+const
 Class
 *
 clasp

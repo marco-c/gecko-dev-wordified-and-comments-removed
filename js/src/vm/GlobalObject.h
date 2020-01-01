@@ -1067,6 +1067,7 @@ create
 JSContext
 *
 cx
+const
 Class
 *
 clasp
@@ -1105,6 +1106,7 @@ createBlankPrototype
 JSContext
 *
 cx
+const
 js
 :
 :
@@ -1120,6 +1122,7 @@ createBlankPrototypeInheriting
 JSContext
 *
 cx
+const
 js
 :
 :

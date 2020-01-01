@@ -482,6 +482,7 @@ this
 )
 ;
 }
+const
 Class
 js
 :

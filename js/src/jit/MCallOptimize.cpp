@@ -5945,6 +5945,7 @@ resultTypeSet
 (
 )
 ;
+const
 Class
 *
 clasp
@@ -8494,6 +8495,7 @@ resultTypeSet
 (
 )
 ;
+const
 Class
 *
 arg1Clasp
@@ -8509,6 +8511,7 @@ getKnownClass
 :
 NULL
 ;
+const
 Class
 *
 arg2Clasp
@@ -8742,6 +8745,7 @@ resultTypeSet
 (
 )
 ;
+const
 Class
 *
 clasp

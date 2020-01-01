@@ -87,10 +87,12 @@ class
 Worker
 {
 static
+const
 DOMJSClass
 sClass
 ;
 static
+const
 DOMIfaceAndProtoJSClass
 sProtoClass
 ;
@@ -120,6 +122,7 @@ CONSTRUCTOR_SLOT_PARENT
 public
 :
 static
+const
 JSClass
 *
 Class
@@ -135,6 +138,7 @@ ToJSClass
 ;
 }
 static
+const
 JSClass
 *
 ProtoClass
@@ -150,6 +154,7 @@ ToJSClass
 ;
 }
 static
+const
 DOMClass
 *
 DOMClassStruct
@@ -234,8 +239,15 @@ JS
 :
 PrivateValue
 (
+const_cast
+<
+DOMClass
+*
+>
+(
 DOMClassStruct
 (
+)
 )
 )
 )
@@ -331,6 +343,7 @@ jsval
 aVp
 bool
 aIsChromeWorker
+const
 JSClass
 *
 aClass
@@ -1655,6 +1668,7 @@ true
 }
 }
 ;
+const
 DOMJSClass
 Worker
 :
@@ -1705,6 +1719,7 @@ sWorkerNativePropertyHooks
 }
 }
 ;
+const
 DOMIfaceAndProtoJSClass
 Worker
 :
@@ -1825,16 +1840,19 @@ public
 Worker
 {
 static
+const
 DOMJSClass
 sClass
 ;
 static
+const
 DOMIfaceAndProtoJSClass
 sProtoClass
 ;
 public
 :
 static
+const
 JSClass
 *
 Class
@@ -1850,6 +1868,7 @@ ToJSClass
 ;
 }
 static
+const
 JSClass
 *
 ProtoClass
@@ -1865,6 +1884,7 @@ ToJSClass
 ;
 }
 static
+const
 DOMClass
 *
 DOMClassStruct
@@ -1949,8 +1969,15 @@ JS
 :
 PrivateValue
 (
+const_cast
+<
+DOMClass
+*
+>
+(
 DOMClassStruct
 (
+)
 )
 )
 )
@@ -2046,6 +2073,7 @@ if
 aObj
 )
 {
+const
 JSClass
 *
 classPtr
@@ -2221,6 +2249,7 @@ aTrc
 }
 }
 ;
+const
 DOMJSClass
 ChromeWorker
 :
@@ -2271,6 +2300,7 @@ sWorkerNativePropertyHooks
 }
 }
 ;
+const
 DOMIfaceAndProtoJSClass
 ChromeWorker
 :
@@ -2341,6 +2371,7 @@ char
 aFunctionName
 )
 {
+const
 JSClass
 *
 classPtr
@@ -2526,6 +2557,7 @@ aMainRuntime
 bool
 ClassIsWorker
 (
+const
 JSClass
 *
 aClass
