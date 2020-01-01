@@ -626,9 +626,7 @@ false
 ;
 InspectorUI
 .
-treePanel
-.
-open
+toggleHTMLPanel
 (
 )
 ;

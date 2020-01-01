@@ -7182,7 +7182,7 @@ sessionstore
 .
 restore_on_demand
 "
-true
+false
 )
 ;
 pref
@@ -9516,6 +9516,18 @@ inspector
 htmlHeight
 "
 112
+)
+;
+pref
+(
+"
+devtools
+.
+inspector
+.
+htmlPanelOpen
+"
+false
 )
 ;
 pref
