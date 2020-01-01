@@ -282,6 +282,10 @@ CanvasDelegate
 .
 java
 \
+CheckableLinearLayout
+.
+java
+\
 SyncPreference
 .
 java
@@ -2068,6 +2072,14 @@ res
 layout
 /
 notification_progress_text
+.
+xml
+\
+res
+/
+layout
+/
+site_setting_item
 .
 xml
 \
