@@ -1547,6 +1547,7 @@ rv
 =
 1
 )
+{
 shiftStatesWithBaseChars
 |
 =
@@ -1555,6 +1556,7 @@ shiftStatesWithBaseChars
 <
 shiftState
 ;
+}
 mVirtualKeys
 [
 vki
@@ -3016,6 +3018,7 @@ if
 !
 deadKeyActive
 )
+{
 deadKeyActive
 =
 EnsureDeadKeyActive
@@ -3025,6 +3028,7 @@ aDeadKey
 aDeadKeyKbdState
 )
 ;
+}
 PRUnichar
 compositeChars
 [

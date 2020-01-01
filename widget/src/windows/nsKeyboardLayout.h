@@ -379,7 +379,6 @@ void
 aArg2
 void
 *
-aData
 )
 ;
 static
