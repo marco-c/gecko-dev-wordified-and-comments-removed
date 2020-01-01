@@ -8338,7 +8338,7 @@ aType
 nsIDOMCSSRule
 :
 :
-MOZ_KEYFRAME_RULE
+KEYFRAME_RULE
 ;
 return
 NS_OK
@@ -8978,7 +8978,7 @@ aType
 nsIDOMCSSRule
 :
 :
-MOZ_KEYFRAMES_RULE
+KEYFRAMES_RULE
 ;
 return
 NS_OK
