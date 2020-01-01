@@ -1453,8 +1453,7 @@ gRollupListener
 >
 Rollup
 (
-nsnull
-nsnull
+0
 )
 ;
 return

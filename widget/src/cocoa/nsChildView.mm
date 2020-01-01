@@ -612,13 +612,6 @@ h
 #
 include
 "
-nsIMenuRollup
-.
-h
-"
-#
-include
-"
 nsIDOMSimpleGestureEvent
 .
 h
@@ -983,12 +976,6 @@ endif
 nsIRollupListener
 *
 gRollupListener
-=
-nsnull
-;
-nsIMenuRollup
-*
-gMenuRollup
 =
 nsnull
 ;
@@ -9381,9 +9368,6 @@ CaptureRollupEvents
 nsIRollupListener
 *
 aListener
-nsIMenuRollup
-*
-aMenuRollup
 bool
 aDoCapture
 bool
@@ -16133,13 +16117,13 @@ type
 NSScrollWheel
 )
 {
+shouldRollup
+=
 gRollupListener
 -
 >
 ShouldRollupOnMouseWheelEvent
 (
-&
-shouldRollup
 )
 ;
 /
@@ -16204,7 +16188,7 @@ PR_UINT32_MAX
 ;
 if
 (
-gMenuRollup
+gRollupListener
 )
 {
 nsAutoTArray
@@ -16215,7 +16199,7 @@ nsIWidget
 >
 widgetChain
 ;
-gMenuRollup
+gRollupListener
 -
 >
 GetSubmenuWidgetChain
@@ -16227,7 +16211,7 @@ widgetChain
 PRUint32
 sameTypeCount
 =
-gMenuRollup
+gRollupListener
 -
 >
 GetSubmenuWidgetChain
@@ -16386,7 +16370,6 @@ gRollupListener
 Rollup
 (
 popupsToRollup
-nsnull
 )
 ;
 consumeEvent

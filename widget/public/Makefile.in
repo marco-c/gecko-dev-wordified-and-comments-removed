@@ -497,10 +497,6 @@ nsIDeviceContextSpec
 .
 h
 \
-nsIMenuRollup
-.
-h
-\
 nsIRollupListener
 .
 h

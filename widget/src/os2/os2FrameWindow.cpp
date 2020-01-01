@@ -2268,7 +2268,6 @@ gRollupListener
 Rollup
 (
 PR_UINT32_MAX
-nsnull
 )
 ;
 }
