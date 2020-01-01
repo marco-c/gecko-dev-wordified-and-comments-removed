@@ -7,6 +7,15 @@ mozilla_dom_file_domarchiverequest_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 ArchiveReader
 .
 h
@@ -106,6 +115,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 public
 :

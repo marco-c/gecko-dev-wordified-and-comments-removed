@@ -7,6 +7,15 @@ mozilla_dom_bluetooth_bluetoothreplyrunnable_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 BluetoothCommon
 .
 h
@@ -167,6 +176,7 @@ Value
 *
 aValue
 )
+MOZ_OVERRIDE
 {
 *
 aValue

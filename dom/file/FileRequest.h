@@ -7,6 +7,15 @@ mozilla_dom_file_filerequest_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 FileCommon
 .
 h
@@ -70,6 +79,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 void
 OnProgress

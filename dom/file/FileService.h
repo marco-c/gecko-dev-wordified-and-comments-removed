@@ -195,6 +195,7 @@ nsrefcnt
 AddRef
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -203,6 +204,7 @@ nsrefcnt
 Release
 (
 )
+MOZ_OVERRIDE
 ;
 inline
 nsresult
@@ -221,6 +223,7 @@ FileHelper
 *
 aFileHelper
 )
+MOZ_OVERRIDE
 ;
 private
 :

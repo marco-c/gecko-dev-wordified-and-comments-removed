@@ -390,6 +390,7 @@ nsGeolocationRequest
 (
 )
 ;
+virtual
 bool
 Recv__delete__
 (
@@ -398,11 +399,14 @@ bool
 &
 allow
 )
+MOZ_OVERRIDE
 ;
+virtual
 void
 IPDLRelease
 (
 )
+MOZ_OVERRIDE
 {
 Release
 (

@@ -7,6 +7,15 @@ mozilla_dom_workers_workerprivate_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 Workers
 .
 h
@@ -460,6 +469,7 @@ bool
 DispatchInternal
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -578,6 +588,7 @@ bool
 DispatchInternal
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

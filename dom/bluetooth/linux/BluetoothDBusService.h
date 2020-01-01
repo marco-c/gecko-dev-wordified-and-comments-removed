@@ -7,6 +7,15 @@ mozilla_dom_bluetooth_bluetoothdbuseventservice_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 BluetoothCommon
 .
 h
@@ -59,18 +68,21 @@ nsresult
 StartInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 StopInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsEnabledInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -80,6 +92,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -91,6 +104,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -107,6 +121,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -116,6 +131,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -125,6 +141,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -135,6 +152,7 @@ BluetoothSignal
 &
 aSignal
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -150,6 +168,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -167,6 +186,7 @@ nsAString
 &
 aDevicePath
 )
+MOZ_OVERRIDE
 ;
 static
 bool
@@ -262,6 +282,7 @@ UnixSocketConsumer
 *
 aConsumer
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -279,6 +300,7 @@ BluetoothProfileManagerBase
 *
 aManager
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -292,6 +314,7 @@ BluetoothProfileManagerBase
 *
 aManager
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -307,6 +330,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -320,6 +344,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -337,6 +362,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -352,6 +378,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -367,6 +394,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -382,12 +410,14 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
 PrepareAdapterInternal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -412,6 +442,7 @@ IsConnected
 uint16_t
 aProfileId
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -443,6 +474,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -456,6 +488,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -471,6 +504,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -480,6 +514,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -489,6 +524,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -498,6 +534,7 @@ BluetoothReplyRunnable
 *
 aRunnable
 )
+MOZ_OVERRIDE
 ;
 private
 :

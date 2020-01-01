@@ -7,6 +7,15 @@ DOM_CAMERA_CAMERACONTROLIMPL_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsDOMFile
 .
 h
@@ -951,6 +960,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -1115,6 +1125,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -1255,6 +1266,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 nsresult
 rv
@@ -1389,6 +1401,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -1552,6 +1565,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 DOM_CAMERA_LOGT
 (
@@ -1770,6 +1784,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -2055,6 +2070,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 DOM_CAMERA_LOGT
 (
@@ -2231,6 +2247,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -2414,6 +2431,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 DOM_CAMERA_LOGT
 (
@@ -2656,6 +2674,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 DOM_CAMERA_LOGT
 (
@@ -2797,6 +2816,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 DOM_CAMERA_LOGT
 (
@@ -2935,6 +2955,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 DOM_CAMERA_LOGT
 (
@@ -3048,6 +3069,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 DOM_CAMERA_LOGI
 (
@@ -3262,6 +3284,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (
@@ -3415,6 +3438,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 DOM_CAMERA_LOGT
 (
@@ -3580,6 +3604,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (

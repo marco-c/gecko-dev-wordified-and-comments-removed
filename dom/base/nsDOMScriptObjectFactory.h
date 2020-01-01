@@ -62,6 +62,7 @@ GetClassInfoInstance
 nsDOMClassInfoID
 aID
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -75,6 +76,7 @@ nsAString
 &
 aName
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RegisterDOMClassInfo
@@ -103,6 +105,7 @@ nsCID
 *
 aConstructorCID
 )
+MOZ_OVERRIDE
 ;
 }
 ;

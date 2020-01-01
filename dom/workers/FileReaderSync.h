@@ -247,6 +247,7 @@ aCharset
 nsDetectionConfident
 aConf
 )
+MOZ_OVERRIDE
 ;
 }
 ;

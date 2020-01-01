@@ -7,6 +7,15 @@ mozilla_dom_file_lockedfile_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 FileCommon
 .
 h
@@ -136,6 +145,7 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
+MOZ_OVERRIDE
 ;
 nsresult
 CreateParallelStream

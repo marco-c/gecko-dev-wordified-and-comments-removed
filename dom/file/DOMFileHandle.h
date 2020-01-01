@@ -7,6 +7,15 @@ mozilla_dom_file_domfilehandle_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 FileCommon
 .
 h
@@ -58,6 +67,7 @@ aFile
 bool
 aReadOnly
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -72,6 +82,7 @@ aLockedFile
 uint32_t
 aFileSize
 )
+MOZ_OVERRIDE
 ;
 protected
 :

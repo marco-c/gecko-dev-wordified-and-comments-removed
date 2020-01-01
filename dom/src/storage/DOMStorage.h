@@ -7,6 +7,15 @@ nsDOMStorage_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMStorage
 .
 h
@@ -63,6 +72,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 DOMStorageManager
@@ -71,6 +81,7 @@ GetManager
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mManager
@@ -84,6 +95,7 @@ GetCache
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mCache
@@ -98,6 +110,7 @@ nsString
 GetKeys
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIPrincipal
@@ -105,6 +118,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -114,6 +128,7 @@ nsIPrincipal
 *
 aPrincipal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -123,12 +138,14 @@ nsIPrincipal
 *
 aPrincipal
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsPrivate
 (
 )
+MOZ_OVERRIDE
 {
 return
 mIsPrivate

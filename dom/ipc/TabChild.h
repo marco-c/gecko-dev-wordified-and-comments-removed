@@ -430,6 +430,7 @@ nsIDOMWindow
 *
 aContent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDocShell
@@ -439,6 +440,7 @@ nsIDocShell
 *
 aDocShell
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Dump
@@ -448,6 +450,7 @@ nsAString
 &
 aStr
 )
+MOZ_OVERRIDE
 {
 return
 mMessageManager
@@ -467,6 +470,7 @@ NS_IMETHOD
 PrivateNoteIntentionalCrash
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Btoa
@@ -479,6 +483,7 @@ nsAString
 &
 aAsciiBase64String
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Atob
@@ -491,6 +496,7 @@ nsAString
 &
 aBinaryData
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddEventListener
@@ -543,6 +549,7 @@ aWantsUntrusted
 uint8_t
 optional_argc
 )
+MOZ_OVERRIDE
 {
 return
 nsDOMEventTargetHelper
@@ -564,6 +571,7 @@ JSContext
 GetJSContextForEventHandlers
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIPrincipal
@@ -571,6 +579,7 @@ nsIPrincipal
 GetPrincipal
 (
 )
+MOZ_OVERRIDE
 ;
 nsCOMPtr
 <

@@ -7,6 +7,15 @@ nsDOMClassInfo_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMClassInfo
 .
 h
@@ -390,6 +399,7 @@ nsISupports
 *
 aNative
 )
+MOZ_OVERRIDE
 {
 }
 virtual
@@ -397,6 +407,7 @@ uint32_t
 GetInterfacesBitmap
 (
 )
+MOZ_OVERRIDE
 {
 return
 mData
@@ -936,6 +947,7 @@ JSObject
 *
 parentObj
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddProperty
@@ -958,6 +970,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -967,6 +980,7 @@ nsISupports
 *
 aNative
 )
+MOZ_OVERRIDE
 ;
 static
 nsIClassInfo
@@ -1035,6 +1049,7 @@ JSObject
 *
 aParentObj
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddProperty
@@ -1057,6 +1072,7 @@ bool
 *
 aRetval
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1066,6 +1082,7 @@ nsISupports
 *
 aNative
 )
+MOZ_OVERRIDE
 ;
 static
 nsIClassInfo
@@ -1166,6 +1183,7 @@ JSObject
 *
 parentObj
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -1183,6 +1201,7 @@ JSObject
 *
 obj
 )
+MOZ_OVERRIDE
 {
 nsCOMPtr
 <
@@ -1231,6 +1250,7 @@ uint32_t
 GetScriptableFlags
 (
 )
+MOZ_OVERRIDE
 {
 return
 nsDOMGenericSH
@@ -1264,6 +1284,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NewResolve
@@ -1289,6 +1310,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Finalize
@@ -1303,6 +1325,7 @@ JSObject
 *
 obj
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 OuterObject
@@ -1321,6 +1344,7 @@ JSObject
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 static
 JSBool
@@ -1470,6 +1494,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PreCreate
@@ -1488,6 +1513,7 @@ JSObject
 *
 parentObj
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHODIMP
 AddProperty
@@ -1578,6 +1604,7 @@ JSObject
 *
 parentObj
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NewResolve
@@ -1603,6 +1630,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 static
 nsIClassInfo
@@ -1671,6 +1699,7 @@ JSObject
 *
 parentObj
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddProperty
@@ -1693,6 +1722,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NewResolve
@@ -1718,6 +1748,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetFlags
@@ -1726,6 +1757,7 @@ uint32_t
 *
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1735,6 +1767,7 @@ nsISupports
 *
 aNative
 )
+MOZ_OVERRIDE
 ;
 static
 nsIClassInfo
@@ -1803,6 +1836,7 @@ JSObject
 *
 parentObj
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PostCreate
@@ -1817,6 +1851,7 @@ JSObject
 *
 obj
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PostTransplant
@@ -1831,6 +1866,7 @@ JSObject
 *
 obj
 )
+MOZ_OVERRIDE
 ;
 static
 nsIClassInfo
@@ -1906,6 +1942,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Enumerate
@@ -1923,6 +1960,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -2034,6 +2072,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -2101,6 +2140,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsISupports
@@ -2148,6 +2188,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -2376,6 +2417,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetProperty
@@ -2398,6 +2440,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NewEnumerate
@@ -2423,6 +2466,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 static
 nsIClassInfo
@@ -2490,6 +2534,7 @@ nsresult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsISupports
@@ -2511,6 +2556,7 @@ nsresult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -2580,6 +2626,7 @@ nsresult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsISupports
@@ -2601,6 +2648,7 @@ nsresult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -2670,6 +2718,7 @@ nsresult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsISupports
@@ -2691,6 +2740,7 @@ nsresult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -2781,6 +2831,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -2825,6 +2876,7 @@ nsAString
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -2845,6 +2897,7 @@ JSObject
 *
 parentObj
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetProperty
@@ -2867,6 +2920,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 static
 nsIClassInfo
@@ -2929,6 +2983,7 @@ nsAString
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -2993,6 +3048,7 @@ nsAString
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -3062,6 +3118,7 @@ nsresult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -3131,6 +3188,7 @@ nsresult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -3200,6 +3258,7 @@ nsresult
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -3275,6 +3334,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetProperty
@@ -3297,6 +3357,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetProperty
@@ -3319,6 +3380,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DelProperty
@@ -3338,6 +3400,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 NewEnumerate
@@ -3363,6 +3426,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 public
 :
@@ -3450,6 +3514,7 @@ JSObject
 *
 parentObj
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PostCreatePrototype
@@ -3461,6 +3526,7 @@ JSObject
 *
 proto
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -3490,6 +3556,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Call
@@ -3514,6 +3581,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Construct
@@ -3538,6 +3606,7 @@ bool
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HasInstance
@@ -3620,6 +3689,7 @@ uint32_t
 *
 aFlags
 )
+MOZ_OVERRIDE
 ;
 static
 nsIClassInfo

@@ -8,6 +8,15 @@ dom_plugins_PluginProcessParent_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes
@@ -125,6 +134,7 @@ bool
 CanShutdown
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
