@@ -2442,7 +2442,7 @@ char
 *
 name
 ;
-uint8
+int8
 arity
 ;
 uint8
