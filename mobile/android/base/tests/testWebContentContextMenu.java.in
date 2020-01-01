@@ -1008,14 +1008,6 @@ Link
 )
 )
 {
-Device
-mDevice
-=
-new
-Device
-(
-)
-;
 Navigation
 nav
 =

@@ -149,14 +149,6 @@ testVkbOverlap
 (
 )
 {
-Device
-device
-=
-new
-Device
-(
-)
-;
 blockForGeckoReady
 (
 )
@@ -204,7 +196,7 @@ phone
 .
 equals
 (
-device
+mDevice
 .
 type
 )
