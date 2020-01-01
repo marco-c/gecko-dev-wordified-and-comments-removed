@@ -456,6 +456,7 @@ ZoomManager
 {
 get
 _prefBranch
+ZoomManager_get__prefBranch
 (
 )
 {
@@ -489,6 +490,7 @@ nsIPrefBranch
 }
 get
 MIN
+ZoomManager_get_MIN
 (
 )
 {
@@ -520,6 +522,7 @@ minPercent
 }
 get
 MAX
+ZoomManager_get_MAX
 (
 )
 {
@@ -551,6 +554,7 @@ maxPercent
 }
 get
 fullZoom
+ZoomManager_get_fullZoom
 (
 )
 {
@@ -566,6 +570,7 @@ fullZoom
 }
 set
 fullZoom
+ZoomManager_set_fullZoom
 (
 aVal
 )
@@ -608,6 +613,7 @@ aVal
 }
 get
 fullZoomValues
+ZoomManager_get_fullZoomValues
 (
 )
 {
@@ -700,6 +706,7 @@ fullZoomValues
 enlarge
 :
 function
+ZoomManager_enlarge
 (
 )
 {
@@ -749,6 +756,7 @@ i
 reduce
 :
 function
+ZoomManager_reduce
 (
 )
 {
@@ -795,6 +803,7 @@ i
 reset
 :
 function
+ZoomManager_reset
 (
 )
 {
@@ -808,6 +817,7 @@ fullZoom
 snap
 :
 function
+ZoomManager_snap
 (
 aVal
 )
