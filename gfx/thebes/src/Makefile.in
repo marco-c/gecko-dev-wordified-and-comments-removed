@@ -92,6 +92,10 @@ gfxFontTest
 .
 cpp
 \
+gfxFontUtils
+.
+cpp
+\
 gfxMatrix
 .
 cpp

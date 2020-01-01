@@ -812,7 +812,8 @@ nsCAutoString
 prefName
 ;
 nsXPIDLString
-value
+nameValue
+nameListValue
 ;
 nsXPIDLString
 genericName
@@ -930,7 +931,7 @@ get
 )
 getter_Copies
 (
-value
+nameValue
 )
 )
 ;
@@ -963,7 +964,7 @@ aFonts
 .
 Append
 (
-value
+nameValue
 )
 ;
 }
@@ -1002,7 +1003,7 @@ get
 )
 getter_Copies
 (
-value
+nameListValue
 )
 )
 ;
@@ -1011,6 +1012,15 @@ if
 NS_SUCCEEDED
 (
 rv
+)
+&
+&
+!
+nameListValue
+.
+Equals
+(
+nameValue
 )
 )
 {
@@ -1035,7 +1045,7 @@ aFonts
 .
 Append
 (
-value
+nameListValue
 )
 ;
 }
