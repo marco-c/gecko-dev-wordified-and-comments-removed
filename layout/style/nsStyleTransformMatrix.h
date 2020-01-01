@@ -94,7 +94,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 ;
 void

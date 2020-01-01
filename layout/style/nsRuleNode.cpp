@@ -523,7 +523,7 @@ PRBool
 aUseUserFontSet
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 NS_ASSERTION
@@ -619,7 +619,7 @@ GetFloatValue
 )
 ;
 }
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -956,7 +956,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 NS_ASSERTION
@@ -981,7 +981,7 @@ aStyleContext
 aPresContext
 PR_FALSE
 PR_TRUE
-aInherited
+aCanStoreInRuleTree
 )
 ;
 }
@@ -1002,7 +1002,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 return
@@ -1014,7 +1014,7 @@ CalcLength
 aValue
 aStyleContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 )
 ;
 }
@@ -1040,7 +1040,7 @@ aPresContext
 )
 ;
 PRBool
-inherited
+canStoreInRuleTree
 ;
 return
 CalcLengthWith
@@ -1054,7 +1054,7 @@ nsnull
 aPresContext
 PR_TRUE
 PR_FALSE
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -1284,7 +1284,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 PRBool
@@ -1340,7 +1340,7 @@ CalcLength
 aValue
 aStyleContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 )
 )
 ;
@@ -1529,7 +1529,7 @@ aCoord
 =
 aParentCoord
 ;
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -1903,7 +1903,7 @@ nscolor
 aResult
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 PRBool
@@ -2107,7 +2107,7 @@ break
 case
 NS_COLOR_CURRENTCOLOR
 :
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -2167,7 +2167,7 @@ result
 =
 PR_TRUE
 ;
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -2243,7 +2243,7 @@ FieldT
 aField
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 PRUint32
 aMask
 FieldT
@@ -2277,7 +2277,7 @@ return
 case
 eCSSUnit_Inherit
 :
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -2493,7 +2493,7 @@ float
 aField
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 float
 aParentValue
 float
@@ -2611,7 +2611,7 @@ return
 case
 eCSSUnit_Inherit
 :
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -9035,7 +9035,7 @@ nsCSSRect
 aValueRect
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 PRBool
@@ -9090,7 +9090,7 @@ LTRlogical
 RTLlogical
 )
 {
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -9250,9 +9250,9 @@ nsnull
 ;
 \
 PRBool
-inherited
+canStoreInRuleTree
 =
-aInherited
+aCanStoreInRuleTree
 ;
 \
 \
@@ -9260,7 +9260,7 @@ aInherited
 *
 If
 |
-inherited
+canStoreInRuleTree
 |
 might
 be
@@ -9273,15 +9273,15 @@ we
 re
 done
 we
-can
-'
-t
-call
 *
 /
 \
 /
 *
+can
+'
+t
+call
 parentContext
 -
 >
@@ -9296,12 +9296,12 @@ it
 could
 recur
 into
-setting
 *
 /
 \
 /
 *
+setting
 the
 same
 struct
@@ -9468,7 +9468,7 @@ parent
 *
 /
 \
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -9793,7 +9793,7 @@ Memory
 *
 If
 |
-inherited
+canStoreInRuleTree
 |
 might
 be
@@ -9806,15 +9806,15 @@ we
 re
 done
 we
-can
-'
-t
-call
 *
 /
 \
 /
 *
+can
+'
+t
+call
 parentContext
 -
 >
@@ -9829,12 +9829,12 @@ it
 could
 recur
 into
-setting
 *
 /
 \
 /
 *
+setting
 the
 same
 struct
@@ -9901,9 +9901,9 @@ type_
 ;
 \
 PRBool
-inherited
+canStoreInRuleTree
 =
-aInherited
+aCanStoreInRuleTree
 ;
 #
 define
@@ -9916,15 +9916,12 @@ data_
 if
 (
 !
-inherited
+canStoreInRuleTree
 )
 \
 /
 *
 We
-inherited
-and
-therefore
 can
 '
 t
@@ -9936,16 +9933,16 @@ rule
 node
 .
 We
-*
-/
-\
-/
-*
 have
 to
 be
 put
 right
+*
+/
+\
+/
+*
 on
 the
 style
@@ -10110,15 +10107,12 @@ data_
 if
 (
 !
-inherited
+canStoreInRuleTree
 )
 \
 /
 *
 We
-inherited
-and
-therefore
 can
 '
 t
@@ -10130,16 +10124,16 @@ rule
 node
 .
 We
-*
-/
-\
-/
-*
 have
 to
 be
 put
 right
+*
+/
+\
+/
+*
 on
 the
 style
@@ -10522,7 +10516,7 @@ PRBool
 aAtRoot
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 PRBool
@@ -10673,7 +10667,7 @@ NS_STYLE_FONT_SIZE_SMALLER
 value
 )
 {
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -10806,7 +10800,7 @@ nsnull
 aPresContext
 aAtRoot
 PR_TRUE
-aInherited
+aCanStoreInRuleTree
 )
 ;
 zoom
@@ -10847,7 +10841,7 @@ GetUnit
 )
 )
 {
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -10914,7 +10908,7 @@ GetUnit
 )
 )
 {
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -10996,7 +10990,7 @@ aParentSize
 aScriptLevelAdjustedParentSize
 )
 {
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -11095,7 +11089,7 @@ PRBool
 aUsedStartStruct
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 const
@@ -11590,7 +11584,7 @@ GetUnit
 )
 )
 {
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -11730,7 +11724,7 @@ aFont
 mFont
 .
 style
-aInherited
+aCanStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NORMAL
@@ -11765,7 +11759,7 @@ aFont
 mFont
 .
 variant
-aInherited
+aCanStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NORMAL
@@ -11842,7 +11836,7 @@ NS_STYLE_FONT_WEIGHT_BOLDER
 case
 NS_STYLE_FONT_WEIGHT_LIGHTER
 :
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -11884,7 +11878,7 @@ aFont
 mFont
 .
 weight
-aInherited
+aCanStoreInRuleTree
 SETDSC_INTEGER
 |
 SETDSC_NORMAL
@@ -11944,7 +11938,7 @@ NS_FONT_STRETCH_WIDER
 case
 NS_FONT_STRETCH_NARROWER
 :
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -11993,7 +11987,7 @@ aFont
 mFont
 .
 stretch
-aInherited
+aCanStoreInRuleTree
 SETDSC_NORMAL
 |
 SETDSC_SYSTEM_FONT
@@ -12048,7 +12042,7 @@ nsnull
 aPresContext
 atRoot
 PR_TRUE
-aInherited
+aCanStoreInRuleTree
 )
 ;
 }
@@ -12061,7 +12055,7 @@ aFont
 -
 >
 mScriptSizeMultiplier
-aInherited
+aCanStoreInRuleTree
 aParentFont
 -
 >
@@ -12156,7 +12150,7 @@ GetUnit
 )
 )
 {
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -12276,7 +12270,7 @@ mSize
 scriptLevelAdjustedParentSize
 aUsedStartStruct
 atRoot
-aInherited
+aCanStoreInRuleTree
 )
 ;
 #
@@ -12334,7 +12328,7 @@ mScriptUnconstrainedSize
 scriptLevelAdjustedUnconstrainedParentSize
 aUsedStartStruct
 atRoot
-aInherited
+aCanStoreInRuleTree
 )
 ;
 }
@@ -12440,7 +12434,7 @@ aFont
 mFont
 .
 sizeAdjust
-aInherited
+aCanStoreInRuleTree
 aParentFont
 -
 >
@@ -12871,7 +12865,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_INHERITED
@@ -13114,13 +13108,13 @@ aStartStruct
 !
 =
 nsnull
-inherited
+canStoreInRuleTree
 )
 ;
 }
 else
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -13162,7 +13156,7 @@ PRBool
 aUsesSpread
 PRBool
 &
-inherited
+canStoreInRuleTree
 )
 {
 PRUint32
@@ -13301,7 +13295,7 @@ nsStyleCoord
 SETCOORD_LENGTH
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 NS_ASSERTION
@@ -13342,7 +13336,7 @@ nsStyleCoord
 SETCOORD_LENGTH
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 NS_ASSERTION
@@ -13401,7 +13395,7 @@ nsStyleCoord
 SETCOORD_LENGTH
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 NS_ASSERTION
@@ -13474,7 +13468,7 @@ nsStyleCoord
 SETCOORD_LENGTH
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 NS_ASSERTION
@@ -13551,7 +13545,7 @@ item
 -
 >
 mColor
-inherited
+canStoreInRuleTree
 )
 ;
 NS_ASSERTION
@@ -13600,7 +13594,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_INHERITED
@@ -13633,7 +13627,7 @@ SETCOORD_NORMAL
 SETCOORD_INITIAL_NORMAL
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 nsCSSValueList
@@ -13671,7 +13665,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -13712,7 +13706,7 @@ GetShadowData
 list
 aContext
 PR_FALSE
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -13731,7 +13725,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -13829,7 +13823,7 @@ SETCOORD_FACTOR
 SETCOORD_NORMAL
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 if
@@ -13901,7 +13895,7 @@ IsChrome
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -14010,7 +14004,7 @@ text
 -
 >
 mTextAlign
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentText
 -
@@ -14041,7 +14035,7 @@ SETCOORD_LPH
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 SetDiscrete
@@ -14053,7 +14047,7 @@ text
 -
 >
 mTextTransform
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -14077,7 +14071,7 @@ text
 -
 >
 mWhiteSpace
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NORMAL
@@ -14117,7 +14111,7 @@ SETCOORD_NORMAL
 SETCOORD_INITIAL_NORMAL
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -14208,7 +14202,7 @@ text
 -
 >
 mWordWrap
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NORMAL
@@ -14255,7 +14249,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -14289,7 +14283,7 @@ SETCOORD_LPH
 SETCOORD_ENUMERATED
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -14408,7 +14402,7 @@ text
 -
 >
 mTextDecoration
-inherited
+canStoreInRuleTree
 SETDSC_NONE
 parentText
 -
@@ -14430,7 +14424,7 @@ text
 -
 >
 mUnicodeBidi
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NORMAL
@@ -14477,7 +14471,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_INHERITED
@@ -14543,7 +14537,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -14946,7 +14940,7 @@ ui
 -
 >
 mUserInput
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -14972,7 +14966,7 @@ ui
 -
 >
 mUserModify
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentUI
 -
@@ -14994,7 +14988,7 @@ ui
 -
 >
 mUserFocus
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -15043,7 +15037,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -15065,7 +15059,7 @@ ui
 -
 >
 mUserSelect
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -15091,7 +15085,7 @@ ui
 -
 >
 mIMEMode
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NORMAL
@@ -15117,7 +15111,7 @@ ui
 -
 >
 mForceBrokenImageIcon
-inherited
+canStoreInRuleTree
 SETDSC_INTEGER
 parentUI
 -
@@ -15139,7 +15133,7 @@ ui
 -
 >
 mWindowShadow
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -15176,7 +15170,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 nsStyleTransformMatrix
@@ -15274,7 +15268,7 @@ GetArrayValue
 )
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 )
 ;
 result
@@ -15313,7 +15307,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -15335,7 +15329,7 @@ display
 -
 >
 mOpacity
-inherited
+canStoreInRuleTree
 parentDisplay
 -
 >
@@ -15355,7 +15349,7 @@ display
 -
 >
 mDisplay
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -15379,7 +15373,7 @@ display
 -
 >
 mAppearance
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -15517,7 +15511,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -15541,7 +15535,7 @@ display
 -
 >
 mPosition
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentDisplay
 -
@@ -15563,7 +15557,7 @@ display
 -
 >
 mBreakType
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -15661,7 +15655,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -15759,7 +15753,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -15783,7 +15777,7 @@ display
 -
 >
 mFloats
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -15807,7 +15801,7 @@ display
 -
 >
 mOverflowX
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_AUTO
@@ -15831,7 +15825,7 @@ display
 -
 >
 mOverflowY
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_AUTO
@@ -15898,7 +15892,7 @@ NS_STYLE_OVERFLOW_CLIP
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -15987,7 +15981,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -16152,7 +16146,7 @@ mClip
 mTop
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -16220,7 +16214,7 @@ mClip
 mBottom
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 -
 display
@@ -16295,7 +16289,7 @@ mClip
 mLeft
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -16363,7 +16357,7 @@ mClip
 mRight
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 -
 display
@@ -16426,7 +16420,7 @@ mDisplay
 =
 NS_STYLE_DISPLAY_INLINE
 ;
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -16466,7 +16460,7 @@ mFloats
 =
 NS_STYLE_FLOAT_NONE
 ;
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -16491,7 +16485,7 @@ display
 mDisplay
 )
 ;
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -16578,7 +16572,7 @@ parentDisplay
 >
 mTransform
 ;
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -16617,7 +16611,7 @@ ReadTransforms
 head
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 display
@@ -16734,7 +16728,7 @@ SETCOORD_LPH
 SETCOORD_INITIAL_HALF
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 NS_ASSERTION
@@ -16829,7 +16823,7 @@ SETCOORD_LPH
 SETCOORD_INITIAL_HALF
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 NS_ASSERTION
@@ -16882,7 +16876,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_INHERITED
@@ -16905,7 +16899,7 @@ visibility
 -
 >
 mDirection
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentVisibility
 -
@@ -16944,7 +16938,7 @@ visibility
 -
 >
 mVisible
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentVisibility
 -
@@ -17049,7 +17043,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_INHERITED
@@ -17099,7 +17093,7 @@ parentColor
 >
 mColor
 ;
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -17149,7 +17143,7 @@ color
 -
 >
 mColor
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -17185,7 +17179,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -17253,7 +17247,7 @@ bg
 -
 >
 mBackgroundColor
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -17355,7 +17349,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -17408,7 +17402,7 @@ bg
 -
 >
 mBackgroundRepeat
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentBG
 -
@@ -17430,7 +17424,7 @@ bg
 -
 >
 mBackgroundAttachment
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentBG
 -
@@ -17452,7 +17446,7 @@ bg
 -
 >
 mBackgroundClip
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentBG
 -
@@ -17474,7 +17468,7 @@ bg
 -
 >
 mBackgroundInlinePolicy
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentBG
 -
@@ -17496,7 +17490,7 @@ bg
 -
 >
 mBackgroundOrigin
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentBG
 -
@@ -17590,7 +17584,7 @@ mBackPosition
 mXValue
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 bg
@@ -17683,7 +17677,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -17839,7 +17833,7 @@ mBackPosition
 mYValue
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 bg
@@ -17932,7 +17926,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -18039,7 +18033,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -18080,7 +18074,7 @@ marginData
 mMarginEnd
 NS_SIDE_LEFT
 ourMargin
-inherited
+canStoreInRuleTree
 )
 ;
 AdjustLogicalBoxProp
@@ -18100,7 +18094,7 @@ marginData
 mMarginStart
 NS_SIDE_RIGHT
 ourMargin
-inherited
+canStoreInRuleTree
 )
 ;
 NS_FOR_CSS_SIDES
@@ -18144,7 +18138,7 @@ SETCOORD_LPAH
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -18200,7 +18194,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -18250,7 +18244,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -18291,7 +18285,7 @@ GetShadowData
 list
 aContext
 PR_TRUE
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -18325,7 +18319,7 @@ marginData
 mBorderEndWidth
 NS_SIDE_LEFT
 ourBorderWidth
-inherited
+canStoreInRuleTree
 )
 ;
 AdjustLogicalBoxProp
@@ -18345,7 +18339,7 @@ marginData
 mBorderStartWidth
 NS_SIDE_RIGHT
 ourBorderWidth
-inherited
+canStoreInRuleTree
 )
 ;
 {
@@ -18519,7 +18513,7 @@ nsStyleCoord
 SETCOORD_LENGTH
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -18566,7 +18560,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -18672,7 +18666,7 @@ marginData
 mBorderEndStyle
 NS_SIDE_LEFT
 ourStyle
-inherited
+canStoreInRuleTree
 )
 ;
 AdjustLogicalBoxProp
@@ -18692,7 +18686,7 @@ marginData
 mBorderStartStyle
 NS_SIDE_RIGHT
 ourStyle
-inherited
+canStoreInRuleTree
 )
 ;
 {
@@ -18784,7 +18778,7 @@ eCSSUnit_Inherit
 unit
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -19030,7 +19024,7 @@ unused
 mPresContext
 aContext
 borderColor
-inherited
+canStoreInRuleTree
 )
 )
 border
@@ -19103,7 +19097,7 @@ marginData
 mBorderEndColor
 NS_SIDE_LEFT
 ourBorderColor
-inherited
+canStoreInRuleTree
 )
 ;
 AdjustLogicalBoxProp
@@ -19123,7 +19117,7 @@ marginData
 mBorderStartColor
 NS_SIDE_RIGHT
 ourBorderColor
-inherited
+canStoreInRuleTree
 )
 ;
 {
@@ -19167,7 +19161,7 @@ if
 parentContext
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -19237,7 +19231,7 @@ unused
 mPresContext
 aContext
 borderColor
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -19357,7 +19351,7 @@ SETCOORD_LPH
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 border
@@ -19382,7 +19376,7 @@ border
 -
 >
 mFloatEdge
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentBorder
 -
@@ -19488,7 +19482,7 @@ SETCOORD_FACTOR
 SETCOORD_PERCENT
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -19549,7 +19543,7 @@ nsStyleCoord
 SETCOORD_LENGTH
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -19923,7 +19917,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -19964,7 +19958,7 @@ marginData
 mPaddingEnd
 NS_SIDE_LEFT
 ourPadding
-inherited
+canStoreInRuleTree
 )
 ;
 AdjustLogicalBoxProp
@@ -19984,7 +19978,7 @@ marginData
 mPaddingStart
 NS_SIDE_RIGHT
 ourPadding
-inherited
+canStoreInRuleTree
 )
 ;
 NS_FOR_CSS_SIDES
@@ -20028,7 +20022,7 @@ SETCOORD_LPH
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -20084,7 +20078,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -20142,7 +20136,7 @@ mOutlineWidth
 SETCOORD_LEH
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -20166,7 +20160,7 @@ SETCOORD_LH
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -20235,7 +20229,7 @@ if
 parentContext
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -20314,7 +20308,7 @@ unused
 mPresContext
 aContext
 outlineColor
-inherited
+canStoreInRuleTree
 )
 )
 outline
@@ -20408,7 +20402,7 @@ SETCOORD_LPH
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 outline
@@ -20524,7 +20518,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -20582,7 +20576,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_INHERITED
@@ -20604,7 +20598,7 @@ list
 -
 >
 mListStyleType
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -20697,7 +20691,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -20721,7 +20715,7 @@ list
 -
 >
 mListStylePosition
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentList
 -
@@ -20750,7 +20744,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -20876,7 +20870,7 @@ mImageRegion
 mTop
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 if
@@ -20932,7 +20926,7 @@ mImageRegion
 mBottom
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 -
 list
@@ -20995,7 +20989,7 @@ mImageRegion
 mLeft
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 if
@@ -21051,7 +21045,7 @@ mImageRegion
 mRight
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 -
 list
@@ -21094,7 +21088,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -21153,7 +21147,7 @@ SETCOORD_LPAH
 SETCOORD_INITIAL_AUTO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -21188,7 +21182,7 @@ SETCOORD_LPAEH
 SETCOORD_INITIAL_AUTO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 SetCoord
@@ -21209,7 +21203,7 @@ SETCOORD_LPEH
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 SetCoord
@@ -21230,7 +21224,7 @@ SETCOORD_LPOEH
 SETCOORD_INITIAL_NONE
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 SetCoord
@@ -21251,7 +21245,7 @@ SETCOORD_LPAH
 SETCOORD_INITIAL_AUTO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 SetCoord
@@ -21272,7 +21266,7 @@ SETCOORD_LPH
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 SetCoord
@@ -21293,7 +21287,7 @@ SETCOORD_LPOH
 SETCOORD_INITIAL_NONE
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 SetDiscrete
@@ -21305,7 +21299,7 @@ pos
 -
 >
 mBoxSizing
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentPos
 -
@@ -21339,7 +21333,7 @@ SETCOORD_IA
 SETCOORD_INITIAL_AUTO
 aContext
 nsnull
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -21357,7 +21351,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -21405,7 +21399,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -21427,7 +21421,7 @@ table
 -
 >
 mLayoutStrategy
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_AUTO
@@ -21602,7 +21596,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_INHERITED
@@ -21625,7 +21619,7 @@ table
 -
 >
 mBorderCollapse
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentTable
 -
@@ -21660,7 +21654,7 @@ SETCOORD_LH
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -21718,7 +21712,7 @@ SETCOORD_LH
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -21766,7 +21760,7 @@ table
 -
 >
 mCaptionSide
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentTable
 -
@@ -21788,7 +21782,7 @@ table
 -
 >
 mEmptyCells
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentTable
 -
@@ -21847,7 +21841,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -21945,7 +21939,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -22419,7 +22413,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -22689,7 +22683,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -22913,7 +22907,7 @@ SETCOORD_AUTO
 SETCOORD_INITIAL_AUTO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 COMPUTE_END_RESET
@@ -22948,7 +22942,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_INHERITED
@@ -22989,7 +22983,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -23210,7 +23204,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -23232,7 +23226,7 @@ xul
 -
 >
 mBoxAlign
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentXUL
 -
@@ -23254,7 +23248,7 @@ xul
 -
 >
 mBoxDirection
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentXUL
 -
@@ -23276,7 +23270,7 @@ xul
 -
 >
 mBoxFlex
-inherited
+canStoreInRuleTree
 parentXUL
 -
 >
@@ -23295,7 +23289,7 @@ xul
 -
 >
 mBoxOrient
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentXUL
 -
@@ -23317,7 +23311,7 @@ xul
 -
 >
 mBoxPack
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentXUL
 -
@@ -23339,7 +23333,7 @@ xul
 -
 >
 mBoxOrdinal
-inherited
+canStoreInRuleTree
 SETDSC_INTEGER
 parentXUL
 -
@@ -23366,7 +23360,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -23468,7 +23462,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -23500,7 +23494,7 @@ SETCOORD_LAH
 SETCOORD_INITIAL_AUTO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 SetCoord
@@ -23523,7 +23517,7 @@ SETCOORD_NORMAL
 SETCOORD_INITIAL_NORMAL
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 if
@@ -23618,7 +23612,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -23772,7 +23766,7 @@ GetComputedColumnRuleWidth
 )
 )
 ;
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -23797,7 +23791,7 @@ CalcLength
 widthValue
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 )
 ;
@@ -23879,7 +23873,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -23915,7 +23909,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -23998,7 +23992,7 @@ column
 -
 >
 mColumnRuleColor
-inherited
+canStoreInRuleTree
 )
 )
 {
@@ -24044,7 +24038,7 @@ nsStyleSVGPaintType
 aInitialPaintType
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 nscolor
@@ -24068,7 +24062,7 @@ aResult
 =
 parentPaint
 ;
-aInherited
+aCanStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -24253,7 +24247,7 @@ aContext
 aResult
 .
 mFallbackColor
-aInherited
+aCanStoreInRuleTree
 )
 ;
 }
@@ -24274,7 +24268,7 @@ mColor
 aPresContext
 aContext
 color
-aInherited
+aCanStoreInRuleTree
 )
 )
 {
@@ -24321,7 +24315,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_INHERITED
@@ -24343,7 +24337,7 @@ svg
 -
 >
 mClipRule
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentSVG
 -
@@ -24365,7 +24359,7 @@ svg
 -
 >
 mColorInterpolation
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_AUTO
@@ -24389,7 +24383,7 @@ svg
 -
 >
 mColorInterpolationFilters
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_AUTO
@@ -24420,7 +24414,7 @@ svg
 >
 mFill
 eStyleSVGPaintType_Color
-inherited
+canStoreInRuleTree
 )
 ;
 SetFactor
@@ -24432,7 +24426,7 @@ svg
 -
 >
 mFillOpacity
-inherited
+canStoreInRuleTree
 parentSVG
 -
 >
@@ -24452,7 +24446,7 @@ svg
 -
 >
 mFillRule
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentSVG
 -
@@ -24543,7 +24537,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -24636,7 +24630,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -24729,7 +24723,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -24753,7 +24747,7 @@ svg
 -
 >
 mPointerEvents
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_NONE
@@ -24777,7 +24771,7 @@ svg
 -
 >
 mShapeRendering
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_AUTO
@@ -24808,7 +24802,7 @@ svg
 >
 mStroke
 eStyleSVGPaintType_None
-inherited
+canStoreInRuleTree
 )
 ;
 nsCSSValueList
@@ -24848,7 +24842,7 @@ svg
 mStrokeDasharray
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -25084,7 +25078,7 @@ SETCOORD_LP
 SETCOORD_FACTOR
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 value
@@ -25127,7 +25121,7 @@ SETCOORD_FACTOR
 SETCOORD_INITIAL_ZERO
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 SetDiscrete
@@ -25139,7 +25133,7 @@ svg
 -
 >
 mStrokeLinecap
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentSVG
 -
@@ -25161,7 +25155,7 @@ svg
 -
 >
 mStrokeLinejoin
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentSVG
 -
@@ -25183,7 +25177,7 @@ svg
 -
 >
 mStrokeMiterlimit
-inherited
+canStoreInRuleTree
 parentSVG
 -
 >
@@ -25202,7 +25196,7 @@ svg
 -
 >
 mStrokeOpacity
-inherited
+canStoreInRuleTree
 parentSVG
 -
 >
@@ -25264,7 +25258,7 @@ SETCOORD_LPH
 SETCOORD_FACTOR
 aContext
 mPresContext
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -25277,7 +25271,7 @@ svg
 -
 >
 mTextAnchor
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 parentSVG
 -
@@ -25299,7 +25293,7 @@ svg
 -
 >
 mTextRendering
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_AUTO
@@ -25346,7 +25340,7 @@ RuleDetail
 aRuleDetail
 const
 PRBool
-aInherited
+aCanStoreInRuleTree
 )
 {
 COMPUTE_START_RESET
@@ -25403,7 +25397,7 @@ svgReset
 -
 >
 mStopColor
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -25451,7 +25445,7 @@ svgReset
 -
 >
 mFloodColor
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -25499,7 +25493,7 @@ svgReset
 -
 >
 mLightingColor
-inherited
+canStoreInRuleTree
 )
 ;
 }
@@ -25581,7 +25575,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -25605,7 +25599,7 @@ svgReset
 -
 >
 mStopOpacity
-inherited
+canStoreInRuleTree
 parentSVGReset
 -
 >
@@ -25625,7 +25619,7 @@ svgReset
 -
 >
 mFloodOpacity
-inherited
+canStoreInRuleTree
 parentSVGReset
 -
 >
@@ -25645,7 +25639,7 @@ svgReset
 -
 >
 mDominantBaseline
-inherited
+canStoreInRuleTree
 SETDSC_ENUMERATED
 |
 SETDSC_AUTO
@@ -25738,7 +25732,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;
@@ -25831,7 +25825,7 @@ GetUnit
 )
 )
 {
-inherited
+canStoreInRuleTree
 =
 PR_FALSE
 ;

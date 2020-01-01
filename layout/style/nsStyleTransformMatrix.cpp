@@ -1009,7 +1009,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 nscoord
 &
 aOut
@@ -1025,7 +1025,7 @@ CalcLength
 aValue
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 )
 ;
 }
@@ -1068,7 +1068,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 NS_PRECONDITION
@@ -1170,7 +1170,7 @@ Item
 )
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 aDelta
 [
 0
@@ -1223,7 +1223,7 @@ Item
 )
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 aDelta
 [
 1
@@ -1260,7 +1260,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 NS_PRECONDITION
@@ -1309,7 +1309,7 @@ Item
 )
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 aDelta
 [
 0
@@ -1364,7 +1364,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 NS_PRECONDITION
@@ -1413,7 +1413,7 @@ Item
 )
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 aDelta
 [
 1
@@ -1473,7 +1473,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 NS_PRECONDITION
@@ -1546,7 +1546,7 @@ SetCoordToValue
 dx
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 aDelta
 [
 0
@@ -1607,7 +1607,7 @@ SetCoordToValue
 dy
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 aDelta
 [
 1
@@ -2223,7 +2223,7 @@ nsPresContext
 aPresContext
 PRBool
 &
-aInherited
+aCanStoreInRuleTree
 )
 {
 NS_PRECONDITION
@@ -2314,7 +2314,7 @@ mX
 aData
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 )
 ;
 break
@@ -2329,7 +2329,7 @@ mY
 aData
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 )
 ;
 break
@@ -2345,7 +2345,7 @@ mY
 aData
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 )
 ;
 break
@@ -2439,7 +2439,7 @@ mY
 aData
 aContext
 aPresContext
-aInherited
+aCanStoreInRuleTree
 )
 ;
 break
