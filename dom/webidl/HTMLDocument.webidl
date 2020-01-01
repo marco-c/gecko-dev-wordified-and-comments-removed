@@ -413,6 +413,14 @@ clear
 (
 )
 ;
+[
+Throws
+]
+readonly
+attribute
+object
+all
+;
 /
 /
 https
