@@ -439,7 +439,7 @@ FennecNativeDriver
 .
 LogLevel
 .
-LOG_LEVEL_INFO
+INFO
 message
 )
 ;
@@ -474,7 +474,7 @@ FennecNativeDriver
 .
 LogLevel
 .
-LOG_LEVEL_INFO
+INFO
 message
 t
 )

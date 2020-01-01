@@ -630,7 +630,7 @@ FennecNativeDriver
 .
 LogLevel
 .
-LOG_LEVEL_WARN
+WARN
 "
 Robocop
 called

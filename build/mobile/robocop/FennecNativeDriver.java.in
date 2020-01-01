@@ -666,7 +666,7 @@ mLogLevel
 =
 LogLevel
 .
-LOG_LEVEL_INFO
+INFO
 ;
 /
 /
@@ -730,19 +730,19 @@ public
 enum
 LogLevel
 {
-LOG_LEVEL_DEBUG
+DEBUG
 (
 1
 )
-LOG_LEVEL_INFO
+INFO
 (
 2
 )
-LOG_LEVEL_WARN
+WARN
 (
 3
 )
-LOG_LEVEL_ERROR
+ERROR
 (
 4
 )
@@ -2415,7 +2415,7 @@ FennecNativeDriver
 .
 LogLevel
 .
-LOG_LEVEL_WARN
+WARN
 "
 WARNING
 :
@@ -3141,7 +3141,7 @@ level
 =
 LogLevel
 .
-LOG_LEVEL_INFO
+INFO
 )
 {
 Log
@@ -3164,7 +3164,7 @@ level
 =
 LogLevel
 .
-LOG_LEVEL_DEBUG
+DEBUG
 )
 {
 Log
@@ -3187,7 +3187,7 @@ level
 =
 LogLevel
 .
-LOG_LEVEL_WARN
+WARN
 )
 {
 Log
@@ -3210,7 +3210,7 @@ level
 =
 LogLevel
 .
-LOG_LEVEL_ERROR
+ERROR
 )
 {
 Log

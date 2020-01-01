@@ -1084,7 +1084,7 @@ FennecNativeDriver
 .
 LogLevel
 .
-LOG_LEVEL_DEBUG
+DEBUG
 "
 Waking
 up
@@ -1191,7 +1191,7 @@ FennecNativeDriver
 .
 LogLevel
 .
-LOG_LEVEL_DEBUG
+DEBUG
 "
 unblocked
 on
@@ -1264,7 +1264,7 @@ FennecNativeDriver
 .
 LogLevel
 .
-LOG_LEVEL_DEBUG
+DEBUG
 "
 received
 event
@@ -1307,7 +1307,7 @@ FennecNativeDriver
 .
 LogLevel
 .
-LOG_LEVEL_DEBUG
+DEBUG
 "
 waiting
 for
@@ -1498,7 +1498,7 @@ FennecNativeDriver
 .
 LogLevel
 .
-LOG_LEVEL_DEBUG
+DEBUG
 "
 Received
 drawFinished
