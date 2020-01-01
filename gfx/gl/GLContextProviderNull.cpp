@@ -41,9 +41,8 @@ const
 gfxIntSize
 &
 const
-ContextFormat
+SurfaceCaps
 &
-const
 ContextFlags
 )
 {
@@ -58,6 +57,7 @@ GLContextProviderNull
 :
 GetGlobalContext
 (
+ContextFlags
 )
 {
 return
