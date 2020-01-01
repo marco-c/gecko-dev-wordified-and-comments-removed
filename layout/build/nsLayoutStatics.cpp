@@ -688,6 +688,12 @@ HTMLVideoElement
 .
 h
 "
+extern
+void
+NS_ShutdownEventTargetChainRecycler
+(
+)
+;
 using
 namespace
 mozilla
@@ -1849,6 +1855,10 @@ nsRegion
 :
 :
 ShutdownStatic
+(
+)
+;
+NS_ShutdownEventTargetChainRecycler
 (
 )
 ;
