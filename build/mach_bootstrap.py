@@ -32,6 +32,12 @@ mozbuild
 '
     
 '
+build
+/
+pymake
+'
+    
+'
 python
 /
 blessings
@@ -47,16 +53,6 @@ psutil
 python
 /
 which
-'
-    
-'
-build
-/
-pymake
-'
-    
-'
-config
 '
     
 '
