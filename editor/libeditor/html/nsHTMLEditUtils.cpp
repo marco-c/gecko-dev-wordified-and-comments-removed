@@ -3431,6 +3431,14 @@ GROUP_NONE
 )
 ELEM
 (
+main
+true
+true
+GROUP_BLOCK
+GROUP_FLOW_ELEMENT
+)
+ELEM
+(
 map
 true
 true
