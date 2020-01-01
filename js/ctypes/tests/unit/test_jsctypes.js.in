@@ -2211,6 +2211,8 @@ Types
 UINT64
 )
 ;
+/
+/
 do_check_eq
 (
 test_ui64_ui64
