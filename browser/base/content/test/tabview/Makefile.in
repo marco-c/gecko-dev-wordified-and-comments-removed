@@ -460,14 +460,6 @@ browser_tabview_launch
 .
 js
 \
-browser_visibleTabs
-.
-js
-\
-browser_visibleTabs_contextMenu
-.
-js
-\
 (
 NULL
 )
