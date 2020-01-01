@@ -2959,7 +2959,6 @@ if
 fp
 )
 {
-const
 Value
 *
 srcbeg
@@ -2970,7 +2969,6 @@ elements
 +
 start
 ;
-const
 Value
 *
 srcend
@@ -2979,13 +2977,6 @@ srcbeg
 +
 count
 ;
-const
-Value
-*
-src
-=
-srcbeg
-;
 for
 (
 Value
@@ -2993,6 +2984,10 @@ Value
 dst
 =
 vp
+*
+src
+=
+srcbeg
 ;
 src
 <

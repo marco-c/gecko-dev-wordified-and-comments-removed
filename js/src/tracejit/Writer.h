@@ -2738,11 +2738,10 @@ nj
 :
 LIR_ldp
 obj
-JSObject
-:
-:
-offsetOfSlots
+offsetof
 (
+JSObject
+slots
 )
 ACCSET_OBJ_SLOTS
 )
