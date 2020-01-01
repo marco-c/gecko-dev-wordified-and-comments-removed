@@ -247,6 +247,9 @@ sleep_time
 remaining
 ;
 }
+#
+ifndef
+OS_MACOSX
 void
 PlatformThread
 :
@@ -260,6 +263,8 @@ name
 )
 {
 }
+#
+endif
 namespace
 {
 bool
