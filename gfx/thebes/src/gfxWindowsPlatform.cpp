@@ -550,6 +550,11 @@ fe
 >
 mIsType1
 =
+fe
+-
+>
+mForceGDI
+=
 PR_TRUE
 ;
 if
