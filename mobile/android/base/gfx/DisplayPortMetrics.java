@@ -218,7 +218,6 @@ toString
 )
 ;
 }
-Override
 public
 String
 toString
@@ -228,8 +227,6 @@ toString
 return
 "
 DisplayPortMetrics
-v
-=
 (
 "
 +
@@ -259,12 +256,13 @@ mPosition
 bottom
 +
 "
-)
-z
-=
 "
 +
 mResolution
++
+"
+)
+"
 ;
 }
 }
