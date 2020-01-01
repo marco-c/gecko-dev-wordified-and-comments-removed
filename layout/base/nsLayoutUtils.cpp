@@ -573,11 +573,14 @@ nsIFrame
 nsLayoutUtils
 :
 :
-GetPageFrame
+GetClosestFrameOfType
 (
 nsIFrame
 *
 aFrame
+nsIAtom
+*
+aFrameType
 )
 {
 for
@@ -610,10 +613,7 @@ GetType
 )
 =
 =
-nsGkAtoms
-:
-:
-pageFrame
+aFrameType
 )
 {
 return
