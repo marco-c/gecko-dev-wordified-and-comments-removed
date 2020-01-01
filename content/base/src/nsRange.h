@@ -349,13 +349,12 @@ PRInt32
 aOffset
 )
 ;
-nsresult
+already_AddRefed
+<
+nsRange
+>
 CloneRange
 (
-nsRange
-*
-*
-aNewRange
 )
 const
 ;
