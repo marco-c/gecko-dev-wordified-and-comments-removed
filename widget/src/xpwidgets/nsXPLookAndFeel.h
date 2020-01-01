@@ -368,6 +368,17 @@ aColor
 =
 0
 ;
+PRBool
+IsSpecialColor
+(
+const
+nsColorID
+aID
+nscolor
+&
+aColor
+)
+;
 static
 PRBool
 sInitialized
