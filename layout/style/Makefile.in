@@ -444,6 +444,10 @@ nsCSSAnonBoxes
 .
 h
 \
+nsCSSFontDescList
+.
+h
+\
 nsCSSKeywordList
 .
 h
