@@ -107,9 +107,9 @@ http
 /
 www
 .
-mozilla
+example
 .
-org
+com
 /
 "
 ;
