@@ -423,10 +423,6 @@ NULL
 MODULES_LIBJAR_LEXPORTS
 =
 \
-zipfile
-.
-h
-\
 zipstruct
 .
 h

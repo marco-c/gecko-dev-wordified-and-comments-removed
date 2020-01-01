@@ -2656,8 +2656,8 @@ JAR_INTERNAL
 PRBool
 exists
 ;
-PRInt32
-result
+nsresult
+rv
 =
 HasEntry
 (
@@ -2668,10 +2668,10 @@ exists
 ;
 if
 (
-result
-!
-=
-ZIP_OK
+NS_FAILED
+(
+rv
+)
 |
 |
 !
