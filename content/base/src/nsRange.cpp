@@ -735,6 +735,7 @@ PRUint32
 )
 mStartOffset
 <
+=
 aInfo
 -
 >
@@ -789,6 +790,7 @@ PRUint32
 )
 mEndOffset
 <
+=
 aInfo
 -
 >
