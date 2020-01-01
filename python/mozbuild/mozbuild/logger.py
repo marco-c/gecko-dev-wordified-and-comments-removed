@@ -737,6 +737,19 @@ DEBUG
         
 self
 .
+root_logger
+.
+addHandler
+(
+logging
+.
+NullHandler
+(
+)
+)
+        
+self
+.
 mozbuild_logger
 =
 logging
