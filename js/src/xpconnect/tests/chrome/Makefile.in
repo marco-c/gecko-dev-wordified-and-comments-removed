@@ -532,6 +532,10 @@ test_APIExposer
 .
 xul
 \
+test_bug664689
+.
+xul
+\
 (
 NULL
 )
