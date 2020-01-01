@@ -5993,6 +5993,8 @@ canDrop
 this
 .
 _self
+.
+_viewer
 -
 1
 )
