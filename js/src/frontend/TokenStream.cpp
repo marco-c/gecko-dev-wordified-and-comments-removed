@@ -7963,7 +7963,7 @@ goto
 error
 ;
 }
-jsdouble
+double
 dval
 ;
 const
@@ -8393,7 +8393,7 @@ goto
 error
 ;
 }
-jsdouble
+double
 dval
 ;
 const

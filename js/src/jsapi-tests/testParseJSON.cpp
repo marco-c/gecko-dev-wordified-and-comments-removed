@@ -341,7 +341,7 @@ std
 :
 numeric_limits
 <
-jsdouble
+double
 >
 :
 :

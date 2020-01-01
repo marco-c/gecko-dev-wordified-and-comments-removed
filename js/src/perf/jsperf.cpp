@@ -274,7 +274,7 @@ return
 JS_NewNumberValue
 (
 cx
-jsdouble
+double
 (
 p
 -

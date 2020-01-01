@@ -865,7 +865,7 @@ data
 }
 xmlpi
 ;
-jsdouble
+double
 number
 ;
 RegExpFlag
@@ -1038,7 +1038,7 @@ flags
 void
 setNumber
 (
-jsdouble
+double
 n
 )
 {
@@ -1225,7 +1225,7 @@ u
 reflags
 ;
 }
-jsdouble
+double
 number
 (
 )

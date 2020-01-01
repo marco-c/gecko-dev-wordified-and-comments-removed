@@ -10911,7 +10911,7 @@ rval
 .
 setNumber
 (
-jsdouble
+double
 (
 maxLine
 )
@@ -12325,7 +12325,7 @@ isNumber
 )
 )
 {
-jsdouble
+double
 d
 =
 args

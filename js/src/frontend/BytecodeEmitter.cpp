@@ -11237,7 +11237,7 @@ EmitNumberOp
 JSContext
 *
 cx
-jsdouble
+double
 dval
 BytecodeEmitter
 *

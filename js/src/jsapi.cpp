@@ -1256,7 +1256,7 @@ JSFunction
 *
 fun
 ;
-jsdouble
+double
 d
 ;
 JSString
@@ -1592,7 +1592,7 @@ sp
 va_arg
 (
 ap
-jsdouble
+double
 *
 )
 )
@@ -1626,7 +1626,7 @@ JS_FALSE
 va_arg
 (
 ap
-jsdouble
+double
 *
 )
 =
@@ -2186,7 +2186,7 @@ JSString
 *
 str
 ;
-jsdouble
+double
 d
 ;
 AssertNoGC
@@ -2611,7 +2611,7 @@ JSContext
 cx
 jsval
 v
-jsdouble
+double
 *
 dp
 )
@@ -2658,7 +2658,7 @@ JSBool
 )
 JS_DoubleIsInt32
 (
-jsdouble
+double
 d
 jsint
 *
@@ -2683,7 +2683,7 @@ int32_t
 )
 JS_DoubleToInt32
 (
-jsdouble
+double
 d
 )
 {
@@ -2700,7 +2700,7 @@ uint32_t
 )
 JS_DoubleToUint32
 (
-jsdouble
+double
 d
 )
 {
@@ -10588,7 +10588,7 @@ JS_NewNumberValue
 JSContext
 *
 cx
-jsdouble
+double
 d
 jsval
 *
@@ -30738,7 +30738,7 @@ JS_NewDateObjectMsec
 JSContext
 *
 cx
-jsdouble
+double
 msec
 )
 {

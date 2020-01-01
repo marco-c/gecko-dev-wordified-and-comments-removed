@@ -636,7 +636,7 @@ int64_t
 now
 ll_delta
 ;
-jsdouble
+double
 delta
 ;
 now
