@@ -54,7 +54,7 @@ include
 "
 mozilla
 /
-AppProcessPermissions
+AppProcessChecker
 .
 h
 "

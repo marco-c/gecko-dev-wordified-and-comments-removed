@@ -138,7 +138,7 @@ NULL
 EXPORTS_mozilla
 =
 \
-AppProcessPermissions
+AppProcessChecker
 .
 h
 \
@@ -222,7 +222,7 @@ NULL
 CPPSRCS
 =
 \
-AppProcessPermissions
+AppProcessChecker
 .
 cpp
 \
