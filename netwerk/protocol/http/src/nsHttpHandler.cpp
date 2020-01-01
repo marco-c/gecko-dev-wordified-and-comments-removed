@@ -2528,6 +2528,9 @@ port
 )
 ;
 }
+return
+NS_OK
+;
 }
 const
 nsAFlatCString
