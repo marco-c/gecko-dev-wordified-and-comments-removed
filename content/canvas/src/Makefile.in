@@ -465,6 +465,14 @@ DocumentRendererChild
 .
 cpp
 \
+DocumentRendererNativeIDParent
+.
+cpp
+\
+DocumentRendererNativeIDChild
+.
+cpp
+\
 DocumentRendererShmemParent
 .
 cpp

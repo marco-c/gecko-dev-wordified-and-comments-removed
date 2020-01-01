@@ -462,6 +462,14 @@ DocumentRendererShmemParent
 .
 h
 \
+DocumentRendererNativeIDChild
+.
+h
+\
+DocumentRendererNativeIDParent
+.
+h
+\
 (
 NULL
 )
