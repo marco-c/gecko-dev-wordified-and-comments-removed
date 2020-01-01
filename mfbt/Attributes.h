@@ -558,12 +558,6 @@ Name
 \
 Name
 (
-)
-{
-}
-\
-Name
-(
 Enum
 aEnum
 )
