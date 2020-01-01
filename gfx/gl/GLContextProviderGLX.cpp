@@ -51,11 +51,6 @@ include
 QWidget
 >
 #
-include
-<
-QX11Info
->
-#
 define
 GET_NATIVE_WINDOW
 (
@@ -77,7 +72,7 @@ NS_NATIVE_SHELLWIDGET
 )
 -
 >
-handle
+winId
 (
 )
 #

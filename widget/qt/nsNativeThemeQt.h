@@ -43,9 +43,6 @@ class
 QStyleOptionButton
 ;
 class
-QStyleOptionFrameV2
-;
-class
 QStyleOptionComboBox
 ;
 class

@@ -1,8 +1,6 @@
 #
 include
 <
-QtGui
-/
 QApplication
 >
 #

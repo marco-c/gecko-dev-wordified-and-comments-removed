@@ -23,15 +23,11 @@ MOZ_WIDGET_QT
 #
 include
 <
-QtGui
-/
 QApplication
 >
 #
 include
 <
-QtGui
-/
 QWidget
 >
 #

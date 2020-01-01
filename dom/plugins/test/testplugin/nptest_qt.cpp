@@ -328,6 +328,9 @@ scriptableObject
 drawColor
 )
 ;
+#
+ifdef
+Q_WS_X11
 QPixmap
 pixmap
 =
@@ -401,6 +404,8 @@ return
 }
 #
 endif
+#
+endif
 NPP
 npp
 =
@@ -438,6 +443,9 @@ return
 #
 ifdef
 MOZ_X11
+#
+ifdef
+Q_WS_X11
 QColor
 color
 ;
@@ -536,6 +544,8 @@ notifyDidPaint
 instanceData
 )
 ;
+#
+endif
 #
 endif
 return

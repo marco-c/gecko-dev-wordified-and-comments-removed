@@ -12,6 +12,11 @@ QKeyEvent
 #
 include
 <
+QGestureEvent
+>
+#
+include
+<
 qgraphicswidget
 .
 h
