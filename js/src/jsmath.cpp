@@ -3632,7 +3632,7 @@ JS_TN
 "
 ceil
 "
-math_ceil
+js_math_ceil
 1
 0
 js_math_ceil_trcinfo
@@ -3662,7 +3662,7 @@ JS_TN
 "
 floor
 "
-math_floor
+js_math_floor
 1
 0
 js_math_floor_trcinfo
@@ -3682,7 +3682,7 @@ JS_TN
 "
 max
 "
-math_max
+js_math_max
 2
 0
 js_math_max_trcinfo
@@ -3692,7 +3692,7 @@ JS_TN
 "
 min
 "
-math_min
+js_math_min
 2
 0
 js_math_min_trcinfo
@@ -3722,7 +3722,7 @@ JS_TN
 "
 round
 "
-math_round
+js_math_round
 1
 0
 js_math_round_trcinfo
