@@ -221,7 +221,12 @@ NS_RANGE_CID
 #
 define
 CH_SHY
+(
+(
+char
+)
 173
+)
 class
 nsFindContentIterator
 :
