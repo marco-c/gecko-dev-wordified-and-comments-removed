@@ -1196,6 +1196,16 @@ wrapper
 )
 )
 ;
+if
+(
+id
+=
+=
+JSID_VOID
+)
+return
+false
+;
 const
 char
 *
