@@ -54,10 +54,6 @@ Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsNavHistoryResultTreeViewer
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
 nsAnnoProtocolHandler
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
@@ -142,16 +138,6 @@ name
 history
 "
 nsNavHistoryConstructor
-}
-{
-"
-History
-tree
-view
-"
-NS_NAVHISTORYRESULTTREEVIEWER_CID
-NS_NAVHISTORYRESULTTREEVIEWER_CONTRACTID
-nsNavHistoryResultTreeViewerConstructor
 }
 {
 "
