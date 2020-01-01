@@ -124,10 +124,6 @@ nsIDOMSVGClipPathElement
 .
 idl
 \
-nsIDOMSVGDefsElement
-.
-idl
-\
 nsIDOMSVGDescElement
 .
 idl

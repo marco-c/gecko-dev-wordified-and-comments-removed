@@ -603,10 +603,6 @@ SVGClipPathElement
 )
 DOMCI_CLASS
 (
-SVGDefsElement
-)
-DOMCI_CLASS
-(
 SVGDescElement
 )
 DOMCI_CLASS
