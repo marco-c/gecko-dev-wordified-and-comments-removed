@@ -586,8 +586,6 @@ prompt
 alert
 -
 checkbox
--
-box
 "
 )
 .
@@ -628,7 +626,6 @@ if
 !
 doc
 )
-{
 return
 this
 .
@@ -643,7 +640,6 @@ aTitle
 aText
 )
 ;
-}
 var
 params
 =
@@ -761,7 +757,6 @@ if
 !
 doc
 )
-{
 return
 this
 .
@@ -778,7 +773,6 @@ aCheckMsg
 aCheckState
 )
 ;
-}
 var
 params
 =
@@ -915,8 +909,6 @@ prompt
 confirm
 -
 checkbox
--
-box
 "
 )
 .
@@ -1391,7 +1383,6 @@ if
 (
 aCheckMsg
 )
-{
 doc
 .
 getElementById
@@ -1402,8 +1393,6 @@ prompt
 confirm
 -
 checkbox
--
-box
 "
 )
 .
@@ -1414,7 +1403,6 @@ collapsed
 "
 )
 ;
-}
 let
 bbox
 =
@@ -1439,7 +1427,6 @@ bbox
 .
 lastChild
 )
-{
 bbox
 .
 removeChild
@@ -1449,7 +1436,6 @@ bbox
 lastChild
 )
 ;
-}
 for
 (
 let
@@ -1772,7 +1758,6 @@ if
 !
 doc
 )
-{
 throw
 "
 No
@@ -1780,7 +1765,6 @@ document
 !
 "
 ;
-}
 var
 params
 =
@@ -1936,7 +1920,6 @@ if
 (
 aCheckMsg
 )
-{
 doc
 .
 getElementById
@@ -1947,8 +1930,6 @@ prompt
 prompt
 -
 checkbox
--
-box
 "
 )
 .
@@ -1959,12 +1940,10 @@ collapsed
 "
 )
 ;
-}
 if
 (
 isPassword
 )
-{
 doc
 .
 getElementById
@@ -1984,7 +1963,6 @@ type
 password
 "
 ;
-}
 dialog
 .
 waitForClose
@@ -2130,7 +2108,6 @@ if
 !
 doc
 )
-{
 return
 this
 .
@@ -2149,7 +2126,6 @@ aCheckMsg
 aCheckState
 )
 ;
-}
 var
 params
 =
@@ -2320,8 +2296,6 @@ prompt
 password
 -
 checkbox
--
-box
 "
 )
 .
@@ -2916,7 +2890,6 @@ aAuthInfo
 .
 ONLY_PASSWORD
 )
-{
 res
 =
 this
@@ -2931,9 +2904,7 @@ aCheckMsg
 aCheckState
 )
 ;
-}
 else
-{
 res
 =
 this
@@ -2949,7 +2920,6 @@ aCheckMsg
 aCheckState
 )
 ;
-}
 if
 (
 res
@@ -3022,7 +2992,6 @@ if
 !
 doc
 )
-{
 return
 this
 .
@@ -3040,7 +3009,6 @@ aSelectList
 aOutSelection
 )
 ;
-}
 var
 params
 =
