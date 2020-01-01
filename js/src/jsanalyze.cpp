@@ -249,6 +249,10 @@ isInlineable
 =
 false
 ;
+hasLoops_
+=
+true
+;
 if
 (
 code
