@@ -1774,7 +1774,7 @@ for
 PRInt32
 i
 =
-PR_MIN
+NS_MIN
 (
 aBeforeOffset
 PRInt32
