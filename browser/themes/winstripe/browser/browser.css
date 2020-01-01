@@ -16093,6 +16093,16 @@ height
 :
 20px
 ;
+border
+-
+top
+:
+1px
+solid
+ThreeDShadow
+!
+important
+;
 }
 #
 addon
