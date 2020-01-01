@@ -1885,9 +1885,6 @@ nsWindowZRelative
 namespace
 mozilla
 {
-namespace
-widget
-{
 struct
 BaseEventFlags
 {
@@ -2075,9 +2072,6 @@ RawFlags
 mozilla
 :
 :
-widget
-:
-:
 EventFlags
 must
 not
@@ -2147,7 +2141,6 @@ Clear
 }
 }
 ;
-}
 }
 class
 nsEvent
@@ -2350,9 +2343,6 @@ uint64_t
 time
 ;
 mozilla
-:
-:
-widget
 :
 :
 BaseEventFlags
@@ -2869,9 +2859,6 @@ modifiers
 mozilla
 :
 :
-widget
-:
-:
 MODIFIER_SHIFT
 )
 !
@@ -2892,9 +2879,6 @@ return
 modifiers
 &
 mozilla
-:
-:
-widget
 :
 :
 MODIFIER_CONTROL
@@ -2919,9 +2903,6 @@ modifiers
 mozilla
 :
 :
-widget
-:
-:
 MODIFIER_ALT
 )
 !
@@ -2942,9 +2923,6 @@ return
 modifiers
 &
 mozilla
-:
-:
-widget
 :
 :
 MODIFIER_META
@@ -2969,9 +2947,6 @@ modifiers
 mozilla
 :
 :
-widget
-:
-:
 MODIFIER_OS
 )
 !
@@ -2992,9 +2967,6 @@ return
 modifiers
 &
 mozilla
-:
-:
-widget
 :
 :
 MODIFIER_ALTGRAPH
@@ -3019,9 +2991,6 @@ modifiers
 mozilla
 :
 :
-widget
-:
-:
 MODIFIER_CAPSLOCK
 )
 !
@@ -3042,9 +3011,6 @@ return
 modifiers
 &
 mozilla
-:
-:
-widget
 :
 :
 MODIFIER_NUMLOCK
@@ -3069,9 +3035,6 @@ modifiers
 mozilla
 :
 :
-widget
-:
-:
 MODIFIER_SCROLLLOCK
 )
 !
@@ -3094,9 +3057,6 @@ modifiers
 mozilla
 :
 :
-widget
-:
-:
 MODIFIER_FN
 )
 !
@@ -3117,9 +3077,6 @@ return
 modifiers
 &
 mozilla
-:
-:
-widget
 :
 :
 MODIFIER_SYMBOLLOCK
@@ -3158,9 +3115,6 @@ modifiers
 mozilla
 :
 :
-widget
-:
-:
 MODIFIER_CONTROL
 ;
 }
@@ -3173,9 +3127,6 @@ modifiers
 |
 =
 mozilla
-:
-:
-widget
 :
 :
 MODIFIER_ALT
@@ -3192,9 +3143,6 @@ modifiers
 mozilla
 :
 :
-widget
-:
-:
 MODIFIER_SHIFT
 ;
 }
@@ -3209,17 +3157,11 @@ modifiers
 mozilla
 :
 :
-widget
-:
-:
 MODIFIER_META
 ;
 }
 }
 mozilla
-:
-:
-widget
 :
 :
 Modifiers
@@ -3997,9 +3939,6 @@ mKeyNameIndex
 mozilla
 :
 :
-widget
-:
-:
 KEY_NAME_INDEX_Unidentified
 )
 mNativeKeyEvent
@@ -4031,9 +3970,6 @@ bool
 isChar
 ;
 mozilla
-:
-:
-widget
 :
 :
 KeyNameIndex
@@ -4068,9 +4004,6 @@ GetDOMKeyName
 mozilla
 :
 :
-widget
-:
-:
 KeyNameIndex
 aKeyNameIndex
 nsAString
@@ -4088,9 +4021,6 @@ aDOMKeyName
 \
 case
 mozilla
-:
-:
-widget
 :
 :
 KEY_NAME_INDEX_
@@ -4919,9 +4849,6 @@ isHorizontal
 namespace
 mozilla
 {
-namespace
-widget
-{
 class
 WheelEvent
 :
@@ -5268,7 +5195,6 @@ overflowDeltaY
 }
 }
 ;
-}
 }
 class
 nsGestureNotifyEvent
@@ -7779,9 +7705,6 @@ NS_WHEEL_EVENT
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 *
 wheelEvent
@@ -7789,9 +7712,6 @@ wheelEvent
 static_cast
 <
 mozilla
-:
-:
-widget
 :
 :
 WheelEvent

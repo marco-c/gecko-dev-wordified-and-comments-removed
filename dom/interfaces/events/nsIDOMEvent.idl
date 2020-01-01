@@ -197,17 +197,9 @@ Message
 namespace
 mozilla
 {
-namespace
-widget
-{
 class
 WheelEvent
 ;
-}
-/
-/
-namespace
-widget
 namespace
 dom
 {
@@ -1695,9 +1687,6 @@ nsPresContext
 *
 aPresContext
 mozilla
-:
-:
-widget
 :
 :
 WheelEvent

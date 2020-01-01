@@ -791,9 +791,6 @@ aVisitor
 .
 mEventStatus
 ;
-widget
-:
-:
 EventFlags
 eventFlags
 ;

@@ -1173,9 +1173,6 @@ NS_OK
 nsEventStatus
 status
 ;
-widget
-:
-:
 WheelEvent
 wheelEvent
 (

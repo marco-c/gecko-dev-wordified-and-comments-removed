@@ -768,9 +768,6 @@ typedef
 mozilla
 :
 :
-widget
-:
-:
 Modifiers
 Modifiers
 ;

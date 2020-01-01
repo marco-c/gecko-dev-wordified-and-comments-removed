@@ -3287,9 +3287,6 @@ aOwner
 aPresContext
 static_cast
 <
-widget
-:
-:
 WheelEvent
 *
 >

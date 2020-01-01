@@ -6070,9 +6070,6 @@ aTarget
 bool
 aFullDispatch
 const
-widget
-:
-:
 EventFlags
 *
 aExtraEventFlags

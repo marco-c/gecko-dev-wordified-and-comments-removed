@@ -2621,9 +2621,6 @@ NS_ERROR_FAILURE
 mozilla
 :
 :
-widget
-:
-:
 Modifiers
 nsDOMWindowUtils
 :
@@ -2634,9 +2631,6 @@ int32_t
 aModifiers
 )
 {
-widget
-:
-:
 Modifiers
 result
 =
@@ -2655,7 +2649,7 @@ MODIFIER_SHIFT
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_SHIFT
@@ -2674,7 +2668,7 @@ MODIFIER_CONTROL
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_CONTROL
@@ -2693,7 +2687,7 @@ MODIFIER_ALT
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_ALT
@@ -2712,7 +2706,7 @@ MODIFIER_META
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_META
@@ -2731,7 +2725,7 @@ MODIFIER_ALTGRAPH
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_ALTGRAPH
@@ -2750,7 +2744,7 @@ MODIFIER_CAPSLOCK
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_CAPSLOCK
@@ -2769,7 +2763,7 @@ MODIFIER_FN
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_FN
@@ -2788,7 +2782,7 @@ MODIFIER_NUMLOCK
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_NUMLOCK
@@ -2807,7 +2801,7 @@ MODIFIER_SCROLLLOCK
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_SCROLLLOCK
@@ -2826,7 +2820,7 @@ MODIFIER_SYMBOLLOCK
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_SYMBOLLOCK
@@ -2845,7 +2839,7 @@ MODIFIER_OS
 result
 |
 =
-widget
+mozilla
 :
 :
 MODIFIER_OS
@@ -3621,9 +3615,6 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-widget
-:
-:
 WheelEvent
 wheelEvent
 (

@@ -131,9 +131,6 @@ nsPluginEvent
 namespace
 mozilla
 {
-namespace
-widget
-{
 struct
 EventFlags
 ;
@@ -182,17 +179,6 @@ typedef
 uint16_t
 Modifiers
 ;
-enum
-NotificationToIME
-{
-NOTIFY_IME_OF_CURSOR_POS_CHANGED
-NOTIFY_IME_OF_FOCUS
-NOTIFY_IME_OF_BLUR
-NOTIFY_IME_OF_SELECTION_CHANGE
-REQUEST_TO_COMMIT_COMPOSITION
-REQUEST_TO_CANCEL_COMPOSITION
-}
-;
 #
 define
 NS_DEFINE_KEYNAME
@@ -221,7 +207,6 @@ NUMBER_OF_KEY_NAME_INDEX
 #
 undef
 NS_DEFINE_KEYNAME
-}
 }
 #
 define

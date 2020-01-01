@@ -6135,9 +6135,6 @@ modifiers
 &
 =
 ~
-widget
-:
-:
 MODIFIER_SHIFT
 ;
 if

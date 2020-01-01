@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsEvent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -46,9 +53,6 @@ h
 class
 nsWindowBase
 ;
-class
-nsGUIEvent
-;
 struct
 nsIntPoint
 ;
@@ -60,9 +64,6 @@ widget
 {
 class
 ModifierKeyState
-;
-class
-WheelEvent
 ;
 struct
 MSGResult

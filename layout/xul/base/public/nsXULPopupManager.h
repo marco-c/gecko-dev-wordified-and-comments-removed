@@ -1617,9 +1617,6 @@ mCachedMousePoint
 mozilla
 :
 :
-widget
-:
-:
 Modifiers
 mCachedModifiers
 ;

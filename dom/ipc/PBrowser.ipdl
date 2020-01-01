@@ -315,9 +315,6 @@ using
 mozilla
 :
 :
-widget
-:
-:
 WheelEvent
 ;
 using
