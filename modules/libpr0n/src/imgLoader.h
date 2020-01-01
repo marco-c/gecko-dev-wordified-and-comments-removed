@@ -118,10 +118,6 @@ imgCacheEntry
 imgRequest
 *
 request
-PRBool
-mustValidateIfExpired
-=
-PR_FALSE
 )
 ;
 ~

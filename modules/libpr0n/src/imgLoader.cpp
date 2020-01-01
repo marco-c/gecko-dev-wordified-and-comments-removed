@@ -1795,9 +1795,6 @@ static
 PRBool
 NewRequestAndEntry
 (
-nsIURI
-*
-uri
 imgRequest
 *
 *
@@ -1808,21 +1805,6 @@ imgCacheEntry
 entry
 )
 {
-PRBool
-isFile
-;
-uri
--
->
-SchemeIs
-(
-"
-file
-"
-&
-isFile
-)
-;
 *
 request
 =
@@ -1848,7 +1830,6 @@ imgCacheEntry
 (
 *
 request
-isFile
 )
 ;
 if
@@ -2231,8 +2212,6 @@ imgCacheEntry
 imgRequest
 *
 request
-PRBool
-mustValidate
 )
 :
 mRequest
@@ -2258,7 +2237,7 @@ mExpiryTime
 )
 mMustValidate
 (
-mustValidate
+PR_FALSE
 )
 mEvicted
 (
@@ -7329,7 +7308,6 @@ if
 !
 NewRequestAndEntry
 (
-aURI
 getter_AddRefs
 (
 request
@@ -8190,7 +8168,6 @@ if
 !
 NewRequestAndEntry
 (
-uri
 getter_AddRefs
 (
 request
@@ -9500,7 +9477,6 @@ if
 !
 NewRequestAndEntry
 (
-uri
 &
 request
 getter_AddRefs
