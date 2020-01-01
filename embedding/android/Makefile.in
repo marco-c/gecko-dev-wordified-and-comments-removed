@@ -960,6 +960,14 @@ awesomebar_row
 .
 xml
 \
+res
+/
+layout
+/
+gecko_menu
+.
+xml
+\
 (
 NULL
 )
