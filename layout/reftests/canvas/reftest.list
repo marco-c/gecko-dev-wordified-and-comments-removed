@@ -26,6 +26,12 @@ size
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 image
@@ -42,6 +48,9 @@ rendering
 ref
 .
 html
+#
+bug
+698985
 =
 =
 image
