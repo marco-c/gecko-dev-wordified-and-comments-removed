@@ -1927,9 +1927,9 @@ else
 newSurface
 =
 new
-gfxImageSurface
+gfxQuartzSurface
 (
-gfxIntSize
+gfxSize
 (
 (
 PRInt32
