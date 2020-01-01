@@ -128,6 +128,12 @@ stateBlockingOnload
 <
 <
 6
+stateImageIsAnimated
+=
+1u
+<
+<
+7
 }
 ;
 class
