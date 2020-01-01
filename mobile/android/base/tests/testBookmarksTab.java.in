@@ -1264,8 +1264,7 @@ editBookmark
 1
 2
 "
-Bookmark
-Keyword
+BookmarkKeyword
 "
 list
 )
@@ -1278,8 +1277,7 @@ checkBookmarkEdit
 (
 1
 "
-Bookmark
-Keyword
+BookmarkKeyword
 "
 list
 )
