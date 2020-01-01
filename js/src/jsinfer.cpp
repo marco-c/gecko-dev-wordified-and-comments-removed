@@ -19331,6 +19331,13 @@ return
 ;
 if
 (
+!
+object
+-
+>
+newScriptCleared
+&
+&
 type
 =
 =
