@@ -6518,7 +6518,7 @@ curveTranslation
 }
 contentAnimator
 .
-setPropertyAnimationListener
+addPropertyAnimationListener
 (
 new
 PropertyAnimator
@@ -6791,7 +6791,7 @@ TRANSLATION_X
 }
 contentAnimator
 .
-setPropertyAnimationListener
+addPropertyAnimationListener
 (
 new
 PropertyAnimator
@@ -7360,7 +7360,7 @@ getWidth
 ;
 mForwardAnim
 .
-setPropertyAnimationListener
+addPropertyAnimationListener
 (
 new
 PropertyAnimator
