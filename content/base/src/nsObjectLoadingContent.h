@@ -87,6 +87,7 @@ ePluginDisabled
 ePluginBlocklisted
 ePluginOutdated
 ePluginOtherState
+ePluginCrashed
 }
 ;
 class
@@ -579,7 +580,7 @@ mSuppressed
 1
 ;
 PluginSupportState
-mPluginState
+mFallbackReason
 ;
 nsWeakFrame
 mPrintFrame
