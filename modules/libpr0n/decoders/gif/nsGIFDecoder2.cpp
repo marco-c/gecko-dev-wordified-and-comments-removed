@@ -403,7 +403,7 @@ r
 fromRow
 mGIFStruct
 .
-screen_width
+width
 rows
 )
 ;
