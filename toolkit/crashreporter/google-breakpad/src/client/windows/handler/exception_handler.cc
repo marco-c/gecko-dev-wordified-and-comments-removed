@@ -610,6 +610,7 @@ handler_types
 &
 HANDLER_EXCEPTION
 )
+{
 previous_filter_
 =
 SetUnhandledExceptionFilter
@@ -617,6 +618,7 @@ SetUnhandledExceptionFilter
 HandleException
 )
 ;
+}
 #
 if
 _MSC_VER
