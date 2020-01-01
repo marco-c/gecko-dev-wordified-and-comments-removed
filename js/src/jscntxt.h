@@ -486,9 +486,6 @@ void
 *
 gcExtraRootsData
 ;
-JSAtomState
-atomState
-;
 JSBool
 rngInitialized
 ;
@@ -736,6 +733,9 @@ gsnCache
 )
 #
 endif
+JSAtomState
+atomState
+;
 #
 ifdef
 DEBUG
