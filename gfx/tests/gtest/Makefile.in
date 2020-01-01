@@ -150,6 +150,10 @@ NULL
 GTEST_CPPSRCS
 =
 \
+TestLayers
+.
+cpp
+\
 TestTiledLayerBuffer
 .
 cpp
