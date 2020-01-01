@@ -36744,7 +36744,7 @@ _identityIconLabel
 .
 parentNode
 .
-hidden
+collapsed
 =
 icon_label
 ?
