@@ -7110,7 +7110,7 @@ html
 \
 test_2d
 .
-imageRenderingQuality
+imageSmoothing
 .
 html
 \
