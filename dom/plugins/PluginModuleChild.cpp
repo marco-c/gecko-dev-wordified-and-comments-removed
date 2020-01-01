@@ -4291,16 +4291,6 @@ ENSURE_PLUGIN_THREAD_VOID
 (
 )
 ;
-NS_WARNING
-(
-"
-Not
-yet
-implemented
-!
-"
-)
-;
 }
 const
 char
