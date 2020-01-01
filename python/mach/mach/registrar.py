@@ -126,7 +126,9 @@ command_handlers
 command
 ]
             
-p
+handler
+.
+parser
 =
 parser
 .
@@ -158,7 +160,9 @@ handler
 arguments
 :
                 
-p
+handler
+.
+parser
 .
 add_argument
 (
@@ -175,7 +179,9 @@ arg
 ]
 )
             
-p
+handler
+.
+parser
 .
 set_defaults
 (
@@ -184,6 +190,7 @@ mach_class
 handler
 .
 cls
+                
 mach_method
 =
 handler

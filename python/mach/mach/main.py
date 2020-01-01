@@ -1422,22 +1422,27 @@ print_help
 return
 0
             
-return
-self
+handler
+=
+Registrar
 .
-_run
-(
+command_handlers
 [
 args
 .
 subcommand
-'
--
--
-help
-'
 ]
+            
+handler
+.
+parser
+.
+print_help
+(
 )
+            
+return
+0
         
 if
 args
