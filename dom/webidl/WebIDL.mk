@@ -1338,6 +1338,10 @@ TestJSImplGen
 .
 webidl
 \
+TestJSImplInheritanceGen
+.
+webidl
+\
 TestTypedef
 .
 webidl

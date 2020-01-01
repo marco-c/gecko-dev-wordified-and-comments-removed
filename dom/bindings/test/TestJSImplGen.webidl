@@ -3128,3 +3128,15 @@ as
 well
 }
 ;
+interface
+TestCImplementedInterface
+:
+TestJSImplInterface
+{
+}
+;
+interface
+TestCImplementedInterface2
+{
+}
+;
