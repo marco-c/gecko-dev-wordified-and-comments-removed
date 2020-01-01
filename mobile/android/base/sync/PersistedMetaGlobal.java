@@ -14,9 +14,13 @@ mozilla
 .
 gecko
 .
-sync
+background
 .
-CryptoRecord
+common
+.
+log
+.
+Logger
 ;
 import
 org
@@ -27,7 +31,7 @@ gecko
 .
 sync
 .
-Logger
+CryptoRecord
 ;
 import
 android

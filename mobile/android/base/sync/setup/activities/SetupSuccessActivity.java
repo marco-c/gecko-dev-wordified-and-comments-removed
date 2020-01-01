@@ -27,7 +27,9 @@ mozilla
 .
 gecko
 .
-sync
+background
+.
+common
 .
 GlobalConstants
 ;

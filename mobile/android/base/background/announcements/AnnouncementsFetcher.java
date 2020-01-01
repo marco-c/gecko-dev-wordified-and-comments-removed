@@ -44,7 +44,9 @@ mozilla
 .
 gecko
 .
-sync
+background
+.
+common
 .
 GlobalConstants
 ;
@@ -55,7 +57,11 @@ mozilla
 .
 gecko
 .
-sync
+background
+.
+common
+.
+log
 .
 Logger
 ;

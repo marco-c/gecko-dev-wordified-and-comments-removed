@@ -25,9 +25,13 @@ mozilla
 .
 gecko
 .
-db
+background
 .
-BrowserContract
+common
+.
+log
+.
+Logger
 ;
 import
 org
@@ -36,9 +40,9 @@ mozilla
 .
 gecko
 .
-sync
+db
 .
-Logger
+BrowserContract
 ;
 import
 org

@@ -14,7 +14,11 @@ mozilla
 .
 gecko
 .
-sync
+background
+.
+common
+.
+log
 .
 Logger
 ;
