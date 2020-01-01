@@ -924,6 +924,14 @@ GetCharCode
 charCode
 )
 ;
+if
+(
+!
+charCode
+)
+return
+nsnull
+;
 nsIFrame
 *
 immediateParent

@@ -7209,6 +7209,11 @@ nsIDOMEvent
 aKeyEvent
 )
 {
+if
+(
+mCurrentMenu
+)
+{
 aKeyEvent
 -
 >
@@ -7223,6 +7228,7 @@ PreventDefault
 (
 )
 ;
+}
 return
 NS_OK
 ;
@@ -7238,6 +7244,14 @@ nsIDOMEvent
 aKeyEvent
 )
 {
+if
+(
+!
+mCurrentMenu
+)
+return
+NS_OK
+;
 PRInt32
 menuAccessKey
 =
@@ -7751,6 +7765,11 @@ nsnull
 )
 ;
 }
+if
+(
+mCurrentMenu
+)
+{
 aKeyEvent
 -
 >
@@ -7765,6 +7784,7 @@ PreventDefault
 (
 )
 ;
+}
 return
 NS_OK
 ;
