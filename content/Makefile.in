@@ -432,13 +432,6 @@ DIRS
 =
 xtf
 endif
-ifdef
-MOZ_MATHML
-DIRS
-+
-=
-mathml
-endif
 DIRS
 +
 =

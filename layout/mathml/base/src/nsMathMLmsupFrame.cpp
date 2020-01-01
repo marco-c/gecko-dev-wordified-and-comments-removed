@@ -117,6 +117,7 @@ UpdatePresentationDataFromChildAt
 1
 -
 1
+1
 ~
 NS_MATHML_DISPLAYSTYLE
 NS_MATHML_DISPLAYSTYLE
@@ -555,15 +556,9 @@ presentationData
 ;
 if
 (
-aFrame
--
->
-GetStyleFont
-(
-)
--
->
-mScriptLevel
+presentationData
+.
+scriptLevel
 =
 =
 0

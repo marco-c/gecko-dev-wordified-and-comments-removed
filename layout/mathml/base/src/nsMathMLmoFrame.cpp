@@ -1413,12 +1413,9 @@ em
 ;
 if
 (
-GetStyleFont
-(
-)
--
->
-mScriptLevel
+mPresentationData
+.
+scriptLevel
 >
 0
 )

@@ -697,10 +697,6 @@ nsLoadListenerProxy
 .
 cpp
 \
-nsMappedAttributeElement
-.
-cpp
-\
 nsMappedAttributes
 .
 cpp

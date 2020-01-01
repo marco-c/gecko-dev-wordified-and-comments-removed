@@ -408,11 +408,6 @@ ProcessPendingRestyles
 )
 ;
 void
-RebuildAllStyleData
-(
-)
-;
-void
 PostRestyleEvent
 (
 nsIContent
@@ -422,11 +417,6 @@ nsReStyleHint
 aRestyleHint
 nsChangeHint
 aMinChangeHint
-)
-;
-void
-PostRebuildAllStyleDataEvent
-(
 )
 ;
 nsresult
@@ -2972,11 +2962,6 @@ mInitialContainingBlockIsAbsPosContainer
 ;
 PRPackedBool
 mIsDestroyingFrameTree
-:
-1
-;
-PRPackedBool
-mRebuildAllStyleData
 :
 1
 ;

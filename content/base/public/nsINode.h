@@ -343,12 +343,6 @@ eDATA_NODE
 <
 <
 12
-eMATHML
-=
-1
-<
-<
-13
 }
 ;
 virtual

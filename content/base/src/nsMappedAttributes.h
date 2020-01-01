@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsMappedAttributeElement
+nsGenericHTMLElement
 .
 h
 "

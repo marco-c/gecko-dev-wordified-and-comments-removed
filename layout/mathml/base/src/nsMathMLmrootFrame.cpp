@@ -204,6 +204,7 @@ UpdatePresentationDataFromChildAt
 (
 1
 1
+2
 ~
 NS_MATHML_DISPLAYSTYLE
 |
@@ -215,6 +216,7 @@ NS_MATHML_COMPRESSED
 ;
 UpdatePresentationDataFromChildAt
 (
+0
 0
 0
 NS_MATHML_COMPRESSED
