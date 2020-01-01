@@ -518,6 +518,11 @@ return
 sDraggingFrameSelection
 ;
 }
+void
+AbortDragForSelection
+(
+)
+;
 PRBool
 GetTableCellSelection
 (
@@ -875,7 +880,7 @@ DisconnectFromPresShell
 (
 )
 {
-StopAutoScrollTimer
+AbortDragForSelection
 (
 )
 ;
