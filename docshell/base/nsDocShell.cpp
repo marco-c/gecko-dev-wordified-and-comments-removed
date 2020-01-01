@@ -290,6 +290,15 @@ h
 #
 include
 "
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
+include
+"
 nsIScriptSecurityManager
 .
 h
@@ -23610,6 +23619,8 @@ mIsBeingDestroyed
 return
 NS_ERROR_FAILURE
 ;
+NS_TIME_FUNCTION
+;
 nsIPrincipal
 *
 principal
@@ -39256,6 +39267,8 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+NS_TIME_FUNCTION
+;
 #
 ifdef
 DEBUG

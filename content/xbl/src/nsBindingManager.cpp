@@ -106,6 +106,15 @@ h
 #
 include
 "
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -3974,6 +3983,8 @@ Length
 aSkipSize
 )
 return
+;
+NS_TIME_FUNCTION
 ;
 mProcessingAttachedStack
 =

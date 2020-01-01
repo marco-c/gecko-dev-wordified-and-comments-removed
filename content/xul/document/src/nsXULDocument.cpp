@@ -260,6 +260,15 @@ h
 #
 include
 "
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
+include
+"
 nsIXBLService
 .
 h
@@ -11366,6 +11375,8 @@ ResumeWalk
 (
 )
 {
+NS_TIME_FUNCTION
+;
 nsresult
 rv
 ;
