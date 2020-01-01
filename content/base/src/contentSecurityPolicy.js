@@ -1203,7 +1203,7 @@ Type
 '
 application
 /
-xml
+json
 '
 )
 ;
