@@ -846,10 +846,6 @@ sendEventToGecko
 e
 )
 ;
-removeAllDoorHangers
-(
-)
-;
 return
 true
 ;
@@ -891,10 +887,6 @@ GeckoAppShell
 sendEventToGecko
 (
 e
-)
-;
-removeAllDoorHangers
-(
 )
 ;
 return
@@ -965,10 +957,6 @@ GeckoAppShell
 sendEventToGecko
 (
 e
-)
-;
-removeAllDoorHangers
-(
 )
 ;
 return
