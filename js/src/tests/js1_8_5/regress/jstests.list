@@ -23,7 +23,6 @@ regress
 500528
 .
 js
-skip
 script
 regress
 -
@@ -173,11 +172,5 @@ script
 regress
 -
 566914
-.
-js
-script
-regress
--
-569306
 .
 js
