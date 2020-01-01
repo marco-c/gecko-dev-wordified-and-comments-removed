@@ -89,6 +89,10 @@ test_connection_store
 .
 html
 \
+test_device_store
+.
+html
+\
 (
 NULL
 )
