@@ -1353,6 +1353,8 @@ enableAdb
 =
 value
 ;
+try
+{
 if
 (
 Services
@@ -1375,6 +1377,13 @@ enableAdb
 =
 true
 ;
+}
+}
+catch
+(
+e
+)
+{
 }
 try
 {
