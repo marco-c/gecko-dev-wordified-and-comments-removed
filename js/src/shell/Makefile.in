@@ -100,10 +100,6 @@ js
 .
 cpp
 \
-jsworkers
-.
-cpp
-\
 jsoptparse
 .
 cpp
