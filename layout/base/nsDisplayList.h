@@ -5857,6 +5857,9 @@ mIsThemed
 bool
 mIsBottommostLayer
 ;
+bool
+mIsAnimated
+;
 }
 ;
 class

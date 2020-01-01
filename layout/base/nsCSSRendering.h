@@ -157,6 +157,11 @@ IsRasterImage
 (
 )
 ;
+bool
+IsAnimatedImage
+(
+)
+;
 already_AddRefed
 <
 ImageContainer
