@@ -78144,7 +78144,7 @@ case
 host
 "
 in
-x86_64
+*
 -
 apple
 -
