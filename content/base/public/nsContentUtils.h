@@ -3437,6 +3437,11 @@ LayerManagerForDocument
 nsIDocument
 *
 aDoc
+bool
+*
+aAllowRetaining
+=
+nsnull
 )
 ;
 static
@@ -3455,6 +3460,11 @@ PersistentLayerManagerForDocument
 nsIDocument
 *
 aDoc
+bool
+*
+aAllowRetaining
+=
+nsnull
 )
 ;
 static
