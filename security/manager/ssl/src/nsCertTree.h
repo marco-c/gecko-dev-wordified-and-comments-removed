@@ -237,6 +237,12 @@ mOverrideBits
 PRBool
 mIsTemporary
 ;
+nsCOMPtr
+<
+nsIX509Cert
+>
+mCert
+;
 }
 ;
 class
