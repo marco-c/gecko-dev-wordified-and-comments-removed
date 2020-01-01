@@ -1378,6 +1378,8 @@ hash
 (
 k
 )
+%
+nbuckets
 ;
 Seq
 <
