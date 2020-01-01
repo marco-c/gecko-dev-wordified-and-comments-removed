@@ -938,9 +938,6 @@ ColorLayerAttributes
 LayerColor
 color
 ;
-nsIntRect
-bounds
-;
 }
 ;
 struct
