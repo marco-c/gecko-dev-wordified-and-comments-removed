@@ -72,3 +72,8 @@ DUMMY
 NS_NewCanvasUnsignedIntArray
 nsISupports
 )
+DUMMY
+(
+NS_NewCanvasArrayBuffer
+nsISupports
+)

@@ -447,6 +447,10 @@ CPPSRCS
 +
 =
 \
+WebGLArrays
+.
+cpp
+\
 WebGLContext
 .
 cpp
