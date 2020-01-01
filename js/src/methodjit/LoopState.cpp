@@ -9865,6 +9865,9 @@ case
 JSOP_LOOPHEAD
 :
 case
+JSOP_LOOPENTRY
+:
+case
 JSOP_POP
 :
 case
