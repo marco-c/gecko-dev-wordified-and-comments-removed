@@ -4104,7 +4104,7 @@ global
 context
 -
 >
-GetGlobalObject
+GetGlobalObjectRef
 (
 )
 ;
