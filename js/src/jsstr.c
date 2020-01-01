@@ -5224,6 +5224,14 @@ JS_TRUE
 }
 if
 (
+textlen
+-
+i
+>
+=
+512
+&
+&
 (
 jsuint
 )
@@ -5237,12 +5245,6 @@ patlen
 BMH_PATLEN_MAX
 -
 2
-&
-&
-textlen
->
-=
-512
 )
 {
 index
