@@ -355,13 +355,14 @@ labelledby
 expect
 aria
 -
-label
+labelledby
 testName
 (
 "
 btn_both_aria_labels
 "
 "
+text
 I
 am
 a
@@ -2366,6 +2367,7 @@ labelledby
 =
 "
 labelledby_text
+btn_both_aria_labels
 "
 /
 >
