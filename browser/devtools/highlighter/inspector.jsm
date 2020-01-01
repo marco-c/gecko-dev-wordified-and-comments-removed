@@ -639,8 +639,10 @@ if
 this
 .
 isInspectorOpen
-&
-&
+)
+{
+if
+(
 aNode
 )
 {
@@ -657,6 +659,7 @@ stopInspecting
 (
 )
 ;
+}
 return
 ;
 }
