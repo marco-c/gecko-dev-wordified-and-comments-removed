@@ -17,7 +17,7 @@ mozilla
 /
 net
 /
-PHttpChannelParams
+NeckoMessageUtils
 .
 h
 "
