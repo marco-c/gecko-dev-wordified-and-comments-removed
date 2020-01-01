@@ -457,6 +457,10 @@ aboutFirstrun
 .
 js
 \
+geolocationPrompt
+.
+js
+\
 (
 NULL
 )
