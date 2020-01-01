@@ -5440,6 +5440,17 @@ url
 "
 "
 AND
+LENGTH
+(
+t
+.
+title
+)
+>
+0
+"
+"
+AND
 b
 .
 type
