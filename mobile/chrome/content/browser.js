@@ -16092,7 +16092,7 @@ if
 (
 aWebProgress
 .
-DOMWindow
+windowId
 !
 =
 this
@@ -16101,7 +16101,16 @@ _tab
 .
 browser
 .
-contentWindow
+contentWindowId
+&
+&
+this
+.
+_tab
+.
+browser
+.
+contentWindowId
 )
 return
 ;
@@ -16254,7 +16263,7 @@ if
 (
 aWebProgress
 .
-DOMWindow
+windowId
 !
 =
 this
@@ -16263,7 +16272,7 @@ _tab
 .
 browser
 .
-contentWindow
+contentWindowId
 )
 return
 ;
