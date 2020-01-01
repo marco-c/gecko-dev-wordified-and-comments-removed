@@ -3356,6 +3356,8 @@ setTempPassword
 password
 )
 ;
+try
+{
 let
 pubkey
 =
@@ -3377,6 +3379,16 @@ pubkey
 privateKeyUri
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+true
+;
+}
 return
 Svc
 .
