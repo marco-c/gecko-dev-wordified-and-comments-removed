@@ -5760,6 +5760,7 @@ res
 ;
 }
 class
+MOZ_STACK_CLASS
 AutoExceptionRestorer
 {
 public
@@ -5769,7 +5770,7 @@ AutoExceptionRestorer
 JSContext
 *
 cx
-jsval
+Value
 v
 )
 :
@@ -5798,10 +5799,6 @@ JS_SetPendingException
 (
 mContext
 tvr
-.
-jsval_value
-(
-)
 )
 ;
 }
@@ -5812,7 +5809,7 @@ JSContext
 const
 mContext
 ;
-AutoValueRooter
+RootedValue
 tvr
 ;
 }
