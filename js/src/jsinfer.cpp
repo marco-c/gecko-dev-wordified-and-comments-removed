@@ -9133,6 +9133,9 @@ case
 JSOP_ENUMELEM
 :
 case
+JSOP_ENUMCONSTELEM
+:
+case
 JSOP_DEFFUN
 :
 case
@@ -15070,6 +15073,9 @@ JSOP_FORPROP
 :
 case
 JSOP_ENUMELEM
+:
+case
+JSOP_ENUMCONSTELEM
 :
 cx
 -
