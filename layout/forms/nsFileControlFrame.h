@@ -396,14 +396,14 @@ mFrame
 }
 ;
 class
-BrowseMouseListener
+DnDListener
 :
 public
 MouseListener
 {
 public
 :
-BrowseMouseListener
+DnDListener
 (
 nsFileControlFrame
 *
@@ -475,7 +475,7 @@ mBrowse
 ;
 nsRefPtr
 <
-BrowseMouseListener
+DnDListener
 >
 mMouseListener
 ;
