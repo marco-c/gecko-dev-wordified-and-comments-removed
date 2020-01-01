@@ -1062,6 +1062,6 @@ aOut
 true
 ;
 return
-true
+NS_OK
 ;
 }

@@ -440,6 +440,14 @@ ConsoleAPI
 .
 manifest
 \
+BrowserElementAPI
+.
+js
+\
+BrowserElementAPI
+.
+manifest
+\
 (
 NULL
 )
