@@ -11,17 +11,6 @@ skin
 /
 )
 ;
-popup
-panel
-menupopup
-{
-padding
-:
-16px
-!
-important
-;
-}
 menu
 menuitem
 {
@@ -45,6 +34,7 @@ family
 Nokia
 Sans
 "
+Tahoma
 sans
 -
 serif
@@ -74,6 +64,7 @@ family
 Nokia
 Sans
 "
+Tahoma
 sans
 -
 serif
@@ -101,6 +92,7 @@ family
 Nokia
 Sans
 "
+Tahoma
 sans
 -
 serif
