@@ -5777,6 +5777,10 @@ cx
 ;
 private
 :
+friend
+class
+Nursery
+;
 void
 getSlotRangeUnchecked
 (
