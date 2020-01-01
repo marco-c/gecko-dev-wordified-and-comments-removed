@@ -121,6 +121,17 @@ aType
 ePseudoClass_any
 ;
 }
+static
+void
+PseudoTypeToString
+(
+Type
+aType
+nsAString
+&
+aString
+)
+;
 }
 ;
 #
