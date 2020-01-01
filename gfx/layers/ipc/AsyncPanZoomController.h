@@ -88,7 +88,6 @@ ViewTransform
 ;
 class
 AsyncPanZoomController
-MOZ_FINAL
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
@@ -669,9 +668,16 @@ GetGestureEventListener
 (
 )
 ;
+protected
+:
 FrameMetrics
 mFrameMetrics
 ;
+Monitor
+mMonitor
+;
+private
+:
 FrameMetrics
 mLastContentPaintMetrics
 ;
@@ -708,9 +714,6 @@ mMinZoom
 ;
 float
 mMaxZoom
-;
-Monitor
-mMonitor
 ;
 TimeStamp
 mLastSampleTime
