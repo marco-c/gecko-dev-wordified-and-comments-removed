@@ -134,6 +134,12 @@ OS_TARGET
 )
 Android
 )
+PROGRAM
+=
+crashreporter
+(
+BIN_SUFFIX
+)
 DIST_PROGRAM
 =
 crashreporter

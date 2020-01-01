@@ -98,16 +98,3 @@ MODULE
 '
 mar
 '
-if
-CONFIG
-[
-'
-MOZ_ENABLE_SIGNMAR
-'
-]
-:
-PROGRAM
-=
-'
-signmar
-'

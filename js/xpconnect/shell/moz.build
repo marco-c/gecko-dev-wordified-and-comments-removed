@@ -98,8 +98,3 @@ MODULE
 '
 xpcshell
 '
-PROGRAM
-=
-'
-xpcshell
-'

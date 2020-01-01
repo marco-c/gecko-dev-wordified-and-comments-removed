@@ -109,6 +109,12 @@ dist
 bin
 DIST_SUBDIR
 =
+PROGRAM
+=
+CommandExecuteHandler
+(
+BIN_SUFFIX
+)
 DIST_PROGRAM
 =
 CommandExecuteHandler

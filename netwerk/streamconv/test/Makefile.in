@@ -80,6 +80,12 @@ config
 autoconf
 .
 mk
+PROGRAM
+=
+TestStreamConv
+(
+BIN_SUFFIX
+)
 CPPSRCS
 =
 \

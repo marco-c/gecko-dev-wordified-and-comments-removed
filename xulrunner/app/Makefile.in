@@ -127,6 +127,12 @@ DAB_CD
 (
 AB_CD
 )
+PROGRAM
+=
+xulrunner
+(
+BIN_SUFFIX
+)
 DEFINES
 +
 =

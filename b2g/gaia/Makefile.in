@@ -81,6 +81,14 @@ GAIA_PATH
 gaia
 /
 profile
+PROGRAM
+=
+(
+MOZ_APP_NAME
+)
+(
+BIN_SUFFIX
+)
 ifeq
 (
 (
