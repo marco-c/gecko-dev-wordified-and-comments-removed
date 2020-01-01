@@ -212,6 +212,10 @@ pointer
 .
 tab
 canvas
+.
+thumb
+-
+placeholder
 {
 border
 :
@@ -253,7 +257,9 @@ height
 ;
 }
 .
-thumbShadow
+thumb
+-
+shadow
 {
 position
 :
@@ -653,7 +659,9 @@ none
 .
 stacked
 .
-thumbShadow
+thumb
+-
+shadow
 {
 display
 :
@@ -793,7 +801,9 @@ expander
 .
 front
 .
-thumbShadow
+thumb
+-
+shadow
 {
 display
 :
