@@ -6,6 +6,11 @@ DEFAULT_TIMER_DELAY_SECONDS
 60
 ;
 const
+EXPIRE_AGGRESSIVITY_MULTIPLIER
+=
+3
+;
+const
 Cm
 =
 Components
@@ -151,6 +156,8 @@ gCurrentTest
 expectedTimerDelay
 *
 1000
+*
+EXPIRE_AGGRESSIVITY_MULTIPLIER
 )
 do_execute_soon
 (
