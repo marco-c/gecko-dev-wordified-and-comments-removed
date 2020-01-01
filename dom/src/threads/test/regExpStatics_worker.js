@@ -72,6 +72,8 @@ sd
 )
 f
 /
+.
+exec
 (
 "
 asdf
