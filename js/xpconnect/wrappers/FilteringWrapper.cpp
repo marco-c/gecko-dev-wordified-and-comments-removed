@@ -732,7 +732,10 @@ LW
 :
 singleton
 (
-0
+WrapperFactory
+:
+:
+SHADOWING_FORBIDDEN
 )
 ;
 template
@@ -744,7 +747,10 @@ XLW
 :
 singleton
 (
-0
+WrapperFactory
+:
+:
+SHADOWING_FORBIDDEN
 )
 ;
 template
