@@ -28,16 +28,6 @@ XPCShell
 "
 )
 ;
-const
-dataDir
-=
-do_get_file
-(
-"
-data
-"
-)
-;
 startupManager
 (
 )
