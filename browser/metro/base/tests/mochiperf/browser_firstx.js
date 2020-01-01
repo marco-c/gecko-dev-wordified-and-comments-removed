@@ -181,6 +181,9 @@ desc
 "
 main
 "
+shareAxis
+:
+0
 }
 {
 value
@@ -200,6 +203,9 @@ desc
 "
 startupCrashDetectionBegin
 "
+shareAxis
+:
+0
 }
 {
 value
@@ -219,6 +225,9 @@ desc
 "
 firstPaint
 "
+shareAxis
+:
+0
 }
 {
 value
@@ -238,6 +247,9 @@ desc
 "
 sessionRestored
 "
+shareAxis
+:
+0
 }
 {
 value
@@ -257,6 +269,9 @@ desc
 "
 createTopLevelWindow
 "
+shareAxis
+:
+0
 }
 {
 value
@@ -276,6 +291,9 @@ desc
 "
 firstLoadURI
 "
+shareAxis
+:
+0
 }
 ]
 )
