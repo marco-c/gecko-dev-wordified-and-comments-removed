@@ -242,6 +242,12 @@ padding
 :
 12px
 ;
+padding
+-
+bottom
+:
+0px
+;
 -
 moz
 -
@@ -254,6 +260,12 @@ start
 background
 :
 none
+;
+margin
+-
+bottom
+:
+0px
 ;
 }
 #
