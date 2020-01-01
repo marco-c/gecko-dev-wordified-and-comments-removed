@@ -4848,16 +4848,6 @@ pref
 "
 dom
 .
-block_multiple_popups
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 disable_image_src_set
 "
 false
