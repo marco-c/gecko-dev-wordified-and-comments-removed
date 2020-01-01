@@ -942,7 +942,7 @@ extensions
 .
 autoDisableScopes
 "
-10
+15
 )
 ;
 pref
