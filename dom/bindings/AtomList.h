@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_AtomList_h__
+mozilla_dom_AtomList_h
 #
 define
-mozilla_dom_AtomList_h__
+mozilla_dom_AtomList_h
 #
 include
 "
