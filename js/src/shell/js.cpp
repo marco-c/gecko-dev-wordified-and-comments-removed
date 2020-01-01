@@ -16421,6 +16421,13 @@ if
 (
 !
 cpx
+)
+return
+;
+if
+(
+!
+cpx
 -
 >
 isInner

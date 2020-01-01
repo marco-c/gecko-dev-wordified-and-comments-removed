@@ -561,7 +561,6 @@ slotSpan
 static
 JS_FRIEND_DATA
 (
-const
 JSObjectMap
 )
 sharedNonNative

@@ -3964,10 +3964,6 @@ flags
 #
 ifdef
 DEBUG
-map
-=
-NULL
-;
 objShape
 =
 JSObjectMap

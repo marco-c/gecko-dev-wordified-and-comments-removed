@@ -2806,6 +2806,8 @@ JSWatchPoint
 wp
 uintN
 flag
+bool
+sweeping
 )
 {
 bool
@@ -2851,16 +2853,6 @@ return
 ok
 ;
 }
-SwitchToCompartment
-sc
-(
-cx
-wp
--
->
-object
-)
-;
 +
 +
 rt
@@ -2882,6 +2874,12 @@ DBG_UNLOCK
 rt
 )
 ;
+if
+(
+!
+sweeping
+)
+{
 const
 Shape
 *
@@ -2979,6 +2977,7 @@ ok
 =
 false
 ;
+}
 }
 cx
 -
@@ -3313,6 +3312,7 @@ DropWatchPointAndUnlock
 cx
 wp
 JSWP_LIVE
+true
 )
 ;
 DBG_LOCK
@@ -4028,6 +4028,7 @@ DropWatchPointAndUnlock
 cx
 wp
 JSWP_HELD
+false
 )
 &
 &
@@ -5285,6 +5286,7 @@ DropWatchPointAndUnlock
 cx
 wp
 JSWP_LIVE
+false
 )
 ;
 return
@@ -5511,6 +5513,7 @@ DropWatchPointAndUnlock
 cx
 wp
 JSWP_LIVE
+false
 )
 ;
 }
@@ -5659,6 +5662,7 @@ DropWatchPointAndUnlock
 cx
 wp
 JSWP_LIVE
+false
 )
 )
 return
@@ -5774,6 +5778,16 @@ wp
 next
 )
 {
+SwitchToCompartment
+sc
+(
+cx
+wp
+-
+>
+object
+)
+;
 next
 =
 (
@@ -5802,6 +5816,7 @@ DropWatchPointAndUnlock
 cx
 wp
 JSWP_LIVE
+false
 )
 )
 return

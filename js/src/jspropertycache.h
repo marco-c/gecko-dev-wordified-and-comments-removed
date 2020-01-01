@@ -961,6 +961,14 @@ JSScript
 script
 )
 ;
+void
+restore
+(
+PropertyCacheEntry
+*
+entry
+)
+;
 }
 ;
 }

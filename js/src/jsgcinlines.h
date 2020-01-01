@@ -743,6 +743,7 @@ if
 (
 obj
 )
+{
 obj
 -
 >
@@ -759,6 +760,14 @@ GetGCKindSlots
 kind
 )
 ;
+obj
+-
+>
+map
+=
+NULL
+;
+}
 return
 obj
 ;
@@ -895,6 +904,7 @@ if
 (
 fun
 )
+{
 fun
 -
 >
@@ -905,6 +915,14 @@ JSObject
 :
 FUN_CLASS_RESERVED_SLOTS
 ;
+fun
+-
+>
+map
+=
+NULL
+;
+}
 return
 fun
 ;
