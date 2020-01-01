@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsIAccessibleDocument
-.
-h
-"
-#
-include
-"
 nsIAccessibleEvent
 .
 h

@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIAccessibleDocument
-.
-h
-"
-#
-include
-"
 nsIAccessibleRole
 .
 h

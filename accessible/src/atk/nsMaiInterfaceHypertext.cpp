@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIAccessibleDocument
-.
-h
-"
-#
-include
-"
 nsHyperTextAccessible
 .
 h
