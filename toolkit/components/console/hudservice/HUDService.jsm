@@ -2367,7 +2367,7 @@ true
 ;
 this
 .
-browser
+iframe
 =
 createAndAppendElement
 (
@@ -2459,7 +2459,7 @@ null
 ;
 self
 .
-browser
+iframe
 =
 null
 ;
@@ -2533,7 +2533,7 @@ document
 =
 self
 .
-browser
+iframe
 .
 contentWindow
 .
