@@ -12396,9 +12396,6 @@ return
 JS_TRUE
 ;
 }
-#
-if
-JS_HAS_ARRAY_EXTRAS
 static
 JSBool
 array_indexOfHelper
@@ -13776,8 +13773,6 @@ vp
 )
 ;
 }
-#
-endif
 static
 JSBool
 array_isArray
@@ -13988,9 +13983,6 @@ array_slice
 2
 JSFUN_GENERIC_NATIVE
 )
-#
-if
-JS_HAS_ARRAY_EXTRAS
 JS_FN
 (
 "
@@ -14072,8 +14064,6 @@ array_every
 1
 JSFUN_GENERIC_NATIVE
 )
-#
-endif
 JS_FS_END
 }
 ;
