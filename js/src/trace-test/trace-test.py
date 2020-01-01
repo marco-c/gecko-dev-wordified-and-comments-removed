@@ -808,10 +808,6 @@ jit_flags
 -
 m
 '
-'
--
-j
-'
 ]
     
 return

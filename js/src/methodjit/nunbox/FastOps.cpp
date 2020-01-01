@@ -90,11 +90,8 @@ allocReg
 (
 )
 ;
-masm
-.
-loadPtr
-(
 Address
+scopeChain
 (
 Assembler
 :
@@ -106,6 +103,12 @@ JSStackFrame
 scopeChain
 )
 )
+;
+masm
+.
+loadData32
+(
+scopeChain
 reg
 )
 ;

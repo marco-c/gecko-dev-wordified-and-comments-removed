@@ -486,8 +486,8 @@ Label
 #
 endif
 #
-ifdef
-JS_TRACER
+if
+0
 if
 (
 script

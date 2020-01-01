@@ -449,8 +449,8 @@ endif
 #
 endif
 #
-ifdef
-JS_TRACER
+if
+0
 js
 :
 :
