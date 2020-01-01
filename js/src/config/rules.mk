@@ -11950,18 +11950,6 @@ MAKECMDGOALS
 )
 )
 )
-ifneq
-(
-(
-OBJS
-)
-(
-XPIDLSRCS
-)
-(
-SIMPLE_PROGRAMS
-)
-)
 MDDEPEND_FILES
 :
 =
@@ -12090,7 +12078,6 @@ eval
 ALL_PP_RESULTS
 )
 )
-endif
 endif
 endif
 #
