@@ -334,6 +334,10 @@ CallbackFunction
 .
 h
 \
+CallbackInterface
+.
+h
+\
 CallbackObject
 .
 h
