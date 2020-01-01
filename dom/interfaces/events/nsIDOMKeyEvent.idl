@@ -1579,6 +1579,13 @@ DOM_VK_META
 =
 0xE0
 ;
+const
+unsigned
+long
+DOM_VK_ALTGR
+=
+0xE1
+;
 readonly
 attribute
 unsigned
