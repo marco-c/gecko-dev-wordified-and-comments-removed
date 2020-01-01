@@ -8052,6 +8052,17 @@ count
 if
 (
 !
+JS_CHECK_OPERATION_LIMIT
+(
+cx
+)
+)
+return
+false
+;
+if
+(
+!
 ExecuteRegExp
 (
 cx
