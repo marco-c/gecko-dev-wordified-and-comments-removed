@@ -97,17 +97,6 @@ test
 html
 conformance
 /
-reading
-/
-read
--
-pixels
--
-test
-.
-html
-conformance
-/
 renderbuffers
 /
 framebuffer
