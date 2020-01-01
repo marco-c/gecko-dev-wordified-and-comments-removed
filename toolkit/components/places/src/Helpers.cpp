@@ -995,7 +995,6 @@ aSize
 _buffer
 )
 ;
-}
 (
 void
 )
@@ -1005,6 +1004,7 @@ cryptoProvider
 0
 )
 ;
+}
 return
 rc
 ?
