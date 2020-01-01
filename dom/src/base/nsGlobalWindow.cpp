@@ -36358,7 +36358,7 @@ NS_IMETHODIMP
 nsNavigator
 :
 :
-IsLocallyAvailable
+MozIsLocallyAvailable
 (
 const
 nsAString
