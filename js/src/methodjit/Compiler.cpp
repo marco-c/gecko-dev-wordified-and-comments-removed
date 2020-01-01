@@ -2368,6 +2368,16 @@ return
 status
 ;
 }
+else
+{
+newa
+-
+>
+varTypes
+=
+NULL
+;
+}
 this
 -
 >
