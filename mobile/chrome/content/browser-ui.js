@@ -316,7 +316,7 @@ isTrusted
 return
 ;
 let
-aWindow
+window
 =
 e
 .
@@ -333,7 +333,6 @@ i
 ;
 i
 <
-=
 Browser
 .
 _tabs
@@ -359,7 +358,7 @@ browser
 contentWindow
 =
 =
-aWindow
+window
 )
 {
 Browser
@@ -372,6 +371,8 @@ _tabs
 [
 i
 ]
+;
+break
 ;
 }
 }
