@@ -344,6 +344,11 @@ filter
 {
 mFilterRect
 =
+nsIntRect
+:
+:
+ToAppUnits
+(
 filter
 -
 >
@@ -352,11 +357,6 @@ GetFilterBBox
 mFrame
 nsnull
 )
-;
-mFilterRect
-.
-ScaleRoundOut
-(
 filter
 -
 >

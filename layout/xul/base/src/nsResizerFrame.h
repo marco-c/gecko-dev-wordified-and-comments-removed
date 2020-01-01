@@ -106,7 +106,7 @@ aResizerDirection
 ;
 protected
 :
-nsRect
+nsIntRect
 mWidgetRect
 ;
 }

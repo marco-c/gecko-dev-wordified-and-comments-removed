@@ -343,7 +343,7 @@ aPaperName
 NS_IMETHOD
 SetUnwriteableMarginInTwips
 (
-nsMargin
+nsIntMargin
 &
 aUnwriteableMargin
 )

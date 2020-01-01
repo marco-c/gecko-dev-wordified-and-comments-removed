@@ -21244,7 +21244,7 @@ if
 widget
 )
 {
-nsRect
+nsIntRect
 bounds
 (
 0
@@ -22479,7 +22479,7 @@ rootViewParent
 =
 nsnull
 ;
-nsRect
+nsIntRect
 newBounds
 (
 0
@@ -22734,7 +22734,7 @@ child
 )
 ;
 }
-nsRect
+nsIntRect
 oldBounds
 (
 0
@@ -24728,7 +24728,7 @@ widget
 NS_ERROR_FAILURE
 )
 ;
-nsRect
+nsIntRect
 bounds
 (
 x
