@@ -651,7 +651,6 @@ kLigaturesType
 kLigaturesType
 kLigaturesType
 kLigaturesType
-kLigaturesType
 }
 ;
 static
@@ -672,7 +671,6 @@ kRebusPicturesOffSelector
 kDiphthongLigaturesOffSelector
 kSquaredLigaturesOffSelector
 kAbbrevSquaredLigaturesOffSelector
-kSymbolLigaturesOffSelector
 }
 ;
 ATSUSetFontFeatures
