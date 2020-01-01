@@ -492,7 +492,7 @@ mDate
 PRUint16
 mTime
 ;
-PRUint8
+PRUint16
 mCompression
 ;
 PRPackedBool
@@ -524,7 +524,7 @@ mFind
 (
 aFind
 )
-mCurr
+mName
 (
 nsnull
 )
@@ -551,7 +551,10 @@ mFind
 const
 char
 *
-mCurr
+mName
+;
+PRUint16
+mNameLen
 ;
 ~
 nsJAREnumerator
