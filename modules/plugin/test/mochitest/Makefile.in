@@ -542,10 +542,6 @@ test_npn_asynccall
 .
 html
 \
-test_GCrace
-.
-html
-\
 (
 NULL
 )
