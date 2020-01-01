@@ -982,6 +982,12 @@ return
 sThemeDLL
 ;
 }
+#
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 HMODULE
 nsUXThemeData
 :
@@ -1011,6 +1017,8 @@ return
 sDwmDLL
 ;
 }
+#
+endif
 const
 wchar_t
 *

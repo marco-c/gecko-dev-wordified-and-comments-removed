@@ -222,6 +222,13 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+:
+:
+widget
+;
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsWindow
@@ -268,13 +275,6 @@ MOZ_WINSDK_TARGETVER
 >
 =
 MOZ_NTDDI_WIN7
-using
-namespace
-mozilla
-:
-:
-widget
-;
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 WinTaskbar
