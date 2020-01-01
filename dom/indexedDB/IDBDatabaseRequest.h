@@ -153,6 +153,15 @@ nsAString
 aName
 )
 ;
+void
+OnObjectStoreRemoved
+(
+const
+nsAString
+&
+aName
+)
+;
 protected
 :
 IDBDatabaseRequest

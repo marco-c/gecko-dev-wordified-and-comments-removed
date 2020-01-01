@@ -85,7 +85,7 @@ aIdleTimeoutMS
 )
 ;
 void
-SetIdleObserver
+SetWeakIdleObserver
 (
 nsIObserver
 *
@@ -156,10 +156,8 @@ mIdleTimer
 PRBool
 mThreadHasTimedOut
 ;
-nsCOMPtr
-<
 nsIObserver
->
+*
 mIdleObserver
 ;
 }
