@@ -1280,6 +1280,10 @@ tab
 )
 ;
 }
+autoHidePanel
+(
+)
+;
 return
 true
 ;
