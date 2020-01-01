@@ -237,10 +237,6 @@ test_bug636465
 .
 xul
 \
-test_bug830600
-.
-html
-\
 (
 NULL
 )
