@@ -9633,7 +9633,7 @@ WHOLE
 nsIScrollableFrame
 :
 :
-SMOOTH
+INSTANT
 )
 ;
 }
