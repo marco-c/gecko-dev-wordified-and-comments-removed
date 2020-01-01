@@ -69,7 +69,7 @@ filter
 id
 =
 "
-erode
+dilate
 "
 >
 <
@@ -82,7 +82,7 @@ dilate
 radius
 =
 "
-3
+6
 "
 /
 >
@@ -217,7 +217,7 @@ filter
 url
 (
 #
-erode
+dilate
 )
 "
 >
@@ -293,7 +293,7 @@ filter
 url
 (
 #
-erode
+dilate
 )
 "
 >
@@ -398,7 +398,7 @@ filter
 url
 (
 #
-erode
+dilate
 )
 "
 >
