@@ -66,6 +66,7 @@ MediaSegment
 &
 aQueuedMedia
 )
+MOZ_OVERRIDE
 ;
 void
 NotifyFinished
@@ -74,6 +75,7 @@ MediaStreamGraph
 *
 aGraph
 )
+MOZ_OVERRIDE
 ;
 private
 :

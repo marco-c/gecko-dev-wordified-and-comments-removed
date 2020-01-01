@@ -372,6 +372,7 @@ MediaSegment
 &
 aQueuedMedia
 )
+MOZ_OVERRIDE
 {
 if
 (
