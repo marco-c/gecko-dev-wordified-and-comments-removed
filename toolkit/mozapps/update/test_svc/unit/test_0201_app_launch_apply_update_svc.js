@@ -1652,6 +1652,9 @@ for
 update
 to
 be
+"
++
+"
 applied
 current
 state
@@ -1779,6 +1782,9 @@ for
 update
 log
 to
+"
++
+"
 be
 created
 "
@@ -2400,6 +2406,9 @@ waiting
 for
 state
 to
+"
++
+"
 change
 to
 succeeded
@@ -2937,10 +2946,8 @@ exists
 )
 )
 ;
-do_timeout
+waitForFilesInUse
 (
-TEST_HELPER_TIMEOUT
-removeCallbackCopy
 )
 ;
 }
