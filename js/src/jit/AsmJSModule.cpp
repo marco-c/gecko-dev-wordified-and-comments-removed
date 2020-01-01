@@ -444,6 +444,8 @@ JS_ASSERT
 code_
 )
 ;
+pod
+.
 codeBytes_
 =
 AlignBytes
@@ -455,10 +457,14 @@ double
 )
 )
 ;
+pod
+.
 totalBytes_
 =
 AlignBytes
 (
+pod
+.
 codeBytes_
 +
 globalDataBytes
@@ -472,6 +478,8 @@ code_
 AllocateExecutableMemory
 (
 cx
+pod
+.
 totalBytes_
 )
 ;
@@ -618,6 +626,8 @@ exit
 DeallocateExecutableMemory
 (
 code_
+pod
+.
 totalBytes_
 )
 ;
@@ -670,6 +680,8 @@ asmJSModuleData
 *
 asmJSModuleCode
 =
+pod
+.
 totalBytes_
 ;
 *
@@ -729,7 +741,7 @@ defined
 (
 JS_ION_PERF
 )
-perfProfiledFunctions_
+profiledFunctions_
 .
 sizeOfExcludingThis
 (
