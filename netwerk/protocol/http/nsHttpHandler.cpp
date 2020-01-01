@@ -3149,6 +3149,15 @@ BeOS
 elif
 defined
 (
+MOZ_PLATFORM_MAEMO
+)
+"
+Maemo
+"
+#
+elif
+defined
+(
 MOZ_X11
 )
 "
