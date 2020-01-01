@@ -3574,16 +3574,6 @@ selection
 )
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
-;
 nsCOMPtr
 <
 nsISelectionPrivate
