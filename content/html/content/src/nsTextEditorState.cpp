@@ -5722,7 +5722,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =
@@ -7502,7 +7502,7 @@ InitializeKeyboardEventListeners
 {
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =

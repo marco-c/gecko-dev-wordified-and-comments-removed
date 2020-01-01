@@ -2365,7 +2365,7 @@ FirePageHideEvent
 nsIDocShellTreeItem
 *
 aItem
-nsIDOMEventTarget
+EventTarget
 *
 aChromeEventHandler
 )
@@ -2522,7 +2522,7 @@ FirePageShowEvent
 nsIDocShellTreeItem
 *
 aItem
-nsIDOMEventTarget
+EventTarget
 *
 aChromeEventHandler
 bool
@@ -2699,7 +2699,7 @@ aItem
 nsIDocShellTreeOwner
 *
 aOwner
-nsIDOMEventTarget
+EventTarget
 *
 aHandler
 )
@@ -4675,7 +4675,7 @@ GetFrameElementInternal
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 ourChromeEventHandler
 =
@@ -4691,7 +4691,7 @@ GetChromeEventHandler
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 otherChromeEventHandler
 =
@@ -9719,7 +9719,7 @@ cx
 (
 static_cast
 <
-nsIDOMEventTarget
+EventTarget
 *
 >
 (
@@ -9777,7 +9777,7 @@ ReceiveMessage
 (
 static_cast
 <
-nsIDOMEventTarget
+EventTarget
 *
 >
 (

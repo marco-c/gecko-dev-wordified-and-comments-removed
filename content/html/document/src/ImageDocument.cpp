@@ -435,7 +435,7 @@ OnPageShow
 (
 bool
 aPersisted
-nsIDOMEventTarget
+EventTarget
 *
 aDispatchStartTarget
 )
@@ -1183,7 +1183,7 @@ mImageContent
 {
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 =
@@ -1273,7 +1273,7 @@ aScriptGlobalObject
 {
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 target
 ;
@@ -1514,7 +1514,7 @@ OnPageShow
 (
 bool
 aPersisted
-nsIDOMEventTarget
+EventTarget
 *
 aDispatchStartTarget
 )

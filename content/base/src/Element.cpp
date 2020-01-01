@@ -8846,17 +8846,6 @@ if
 hasMutationListeners
 )
 {
-nsCOMPtr
-<
-nsIDOMEventTarget
->
-node
-=
-do_QueryObject
-(
-this
-)
-;
 nsMutationEvent
 mutation
 (

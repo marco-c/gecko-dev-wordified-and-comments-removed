@@ -1075,7 +1075,7 @@ MarkForCC
 }
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 win
 =

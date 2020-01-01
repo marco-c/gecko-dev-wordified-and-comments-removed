@@ -158,6 +158,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsDOMDataTransfer
@@ -2197,7 +2204,7 @@ data
 ;
 nsCOMPtr
 <
-nsIDOMEventTarget
+EventTarget
 >
 pt
 =
