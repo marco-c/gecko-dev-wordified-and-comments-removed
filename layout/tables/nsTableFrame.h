@@ -1052,7 +1052,6 @@ const
 ;
 #
 endif
-virtual
 int32_t
 GetColumnWidth
 (
@@ -1060,13 +1059,11 @@ int32_t
 aColIndex
 )
 ;
-virtual
 nscoord
 GetCellSpacingX
 (
 )
 ;
-virtual
 nscoord
 GetCellSpacingY
 (
@@ -1079,7 +1076,6 @@ GetBaseline
 )
 const
 ;
-virtual
 int32_t
 GetEffectiveRowSpan
 (
@@ -1092,7 +1088,6 @@ aCell
 )
 const
 ;
-virtual
 int32_t
 GetEffectiveRowSpan
 (
@@ -1107,7 +1102,6 @@ aCellMap
 nullptr
 )
 ;
-virtual
 int32_t
 GetEffectiveColSpan
 (
@@ -1204,7 +1198,6 @@ DidResizeColumns
 (
 )
 ;
-virtual
 void
 AppendCell
 (
@@ -1215,7 +1208,6 @@ int32_t
 aRowIndex
 )
 ;
-virtual
 void
 InsertCells
 (
@@ -1232,7 +1224,6 @@ int32_t
 aColIndexBefore
 )
 ;
-virtual
 void
 RemoveCell
 (
@@ -1279,7 +1270,6 @@ bool
 aConsiderSpans
 )
 ;
-virtual
 void
 RemoveRows
 (
@@ -1318,7 +1308,6 @@ Slice
 aColgroups
 )
 ;
-virtual
 void
 RemoveCol
 (
@@ -1809,7 +1798,6 @@ mBits
 mGeometryDirty
 ;
 }
-virtual
 nsTableCellMap
 *
 GetCellMap
@@ -1968,7 +1956,6 @@ GetIndexOfLastRealCol
 (
 )
 ;
-virtual
 bool
 IsAutoLayout
 (
