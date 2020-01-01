@@ -745,6 +745,13 @@ appcomps
 NULL
 )
 ifdef
+MOZ_IPC
+COMPONENT_LIBS
++
+=
+jetpack_s
+endif
+ifdef
 BUILD_CTYPES
 COMPONENT_LIBS
 +

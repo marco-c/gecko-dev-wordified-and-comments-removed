@@ -971,6 +971,13 @@ BINPATH
 /
 components
 /
+jetpack
+.
+xpt
+BINPATH
+/
+components
+/
 jsdservice
 .
 xpt
