@@ -428,13 +428,6 @@ NeckoChild
 :
 AllocPFTPChannel
 (
-PBrowserChild
-*
-aBrowser
-const
-SerializedLoadContext
-&
-aSerialized
 )
 {
 NS_RUNTIMEABORT
@@ -668,10 +661,6 @@ AllocPWebSocket
 PBrowserChild
 *
 browser
-const
-SerializedLoadContext
-&
-aSerialized
 )
 {
 NS_NOTREACHED

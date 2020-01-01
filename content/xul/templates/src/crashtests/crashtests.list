@@ -23,9 +23,6 @@ skip
 if
 (
 winWidget
-|
-|
-browserIsRemote
 )
 HTTP
 load
@@ -35,10 +32,8 @@ load
 .
 xul
 #
-bugs
+bug
 742455
-and
-823470
 skip
 -
 if
