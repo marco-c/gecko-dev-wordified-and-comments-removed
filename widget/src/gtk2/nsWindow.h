@@ -1387,6 +1387,12 @@ GtkWidget
 aWidget
 )
 ;
+GtkWidget
+*
+GetMozContainerWidget
+(
+)
+;
 void
 GetContainerWindow
 (
