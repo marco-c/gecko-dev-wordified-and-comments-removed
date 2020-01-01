@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsThreadUtils
+nsIRunnable
 .
 h
 "

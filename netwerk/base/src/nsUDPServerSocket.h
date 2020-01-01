@@ -34,6 +34,13 @@ nsIOutputStream
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 class
 nsUDPServerSocket
 :

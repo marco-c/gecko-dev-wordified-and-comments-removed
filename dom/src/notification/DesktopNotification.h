@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsDOMEventTargetHelper
 .
 h
