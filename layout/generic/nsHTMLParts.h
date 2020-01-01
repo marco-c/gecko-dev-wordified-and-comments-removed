@@ -830,6 +830,15 @@ nsIFragmentContentSink
 aInstancePtrResult
 )
 ;
+nsresult
+NS_NewHTMLParanoidFragmentSink2
+(
+nsIFragmentContentSink
+*
+*
+aInstancePtrResult
+)
+;
 void
 NS_HTMLParanoidFragmentSinkShutdown
 (
