@@ -751,6 +751,11 @@ Browser
 closeTab
 (
 tab
+{
+forceClose
+:
+true
+}
 )
 ;
 }
