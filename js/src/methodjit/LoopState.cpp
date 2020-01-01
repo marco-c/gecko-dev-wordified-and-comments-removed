@@ -4849,6 +4849,7 @@ propertyTypes
 isOwnProperty
 (
 cx
+object
 true
 )
 )

@@ -2078,8 +2078,6 @@ types
 print
 (
 cx
-*
-compartment
 )
 ;
 compartment
