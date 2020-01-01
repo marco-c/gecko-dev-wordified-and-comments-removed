@@ -545,6 +545,10 @@ BlocklistPrompt
 .
 js
 \
+WebappsSupport
+.
+js
+\
 (
 NULL
 )
