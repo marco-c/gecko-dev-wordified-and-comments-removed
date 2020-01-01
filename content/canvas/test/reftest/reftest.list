@@ -5370,12 +5370,6 @@ html
 colors
 .
 png
-fails
--
-if
-(
-B2G
-)
 random
 -
 if
