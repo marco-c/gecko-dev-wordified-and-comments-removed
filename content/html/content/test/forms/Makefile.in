@@ -251,6 +251,10 @@ test_valueasdate_attribute
 .
 html
 \
+test_input_file_b2g_disabled
+.
+html
+\
 (
 NULL
 )

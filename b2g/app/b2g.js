@@ -4783,3 +4783,13 @@ local
 "
 )
 ;
+pref
+(
+"
+dom
+.
+disable_input_file
+"
+true
+)
+;
