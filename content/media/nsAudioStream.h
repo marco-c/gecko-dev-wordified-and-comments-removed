@@ -165,6 +165,9 @@ mBufferOverflow
 PRPackedBool
 mPaused
 ;
+PRPackedBool
+mInError
+;
 }
 ;
 #
