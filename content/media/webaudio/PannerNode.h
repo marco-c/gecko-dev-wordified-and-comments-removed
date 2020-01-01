@@ -54,6 +54,15 @@ ThreeDPoint
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -68,6 +77,11 @@ PannerNode
 :
 public
 AudioNode
+public
+SupportsWeakPtr
+<
+PannerNode
+>
 {
 public
 :
