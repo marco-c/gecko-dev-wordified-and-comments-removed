@@ -268,6 +268,14 @@ aResult
 =
 DUMP_RESULT_ERROR
 ;
+#
+ifndef
+DEBUG
+return
+NS_ERROR_NOT_AVAILABLE
+;
+#
+else
 nsCOMPtr
 <
 nsIDocShell
@@ -495,6 +503,8 @@ DUMP_RESULT_COMPLETED
 return
 NS_OK
 ;
+#
+endif
 }
 NS_IMETHODIMP
 nsRegressionTester
