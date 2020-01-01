@@ -1111,6 +1111,15 @@ SEEK_BACKWARD_FROM_INACTIVE
 nsSMILSeekState
 mSeekState
 ;
+class
+AutoIntervalUpdateBatcher
+;
+PRPackedBool
+mDeferIntervalUpdates
+;
+PRPackedBool
+mDoDeferredUpdate
+;
 }
 ;
 #
