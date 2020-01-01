@@ -545,12 +545,6 @@ height
 0
 ;
 }
-aMetrics
-.
-width
-=
-1
-;
 }
 PRUint32
 breakType
