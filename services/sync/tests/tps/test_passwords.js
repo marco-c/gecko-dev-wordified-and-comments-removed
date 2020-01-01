@@ -361,7 +361,6 @@ passwords_initial
 ]
 [
 Sync
-SYNC_WIPE_SERVER
 ]
 ]
 )

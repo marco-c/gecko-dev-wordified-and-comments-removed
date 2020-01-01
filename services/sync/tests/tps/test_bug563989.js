@@ -427,7 +427,6 @@ bookmarks_initial
 ]
 [
 Sync
-SYNC_WIPE_SERVER
 ]
 ]
 )
@@ -470,7 +469,7 @@ phase3
 [
 [
 Sync
-SYNC_WIPE_SERVER
+SYNC_WIPE_REMOTE
 ]
 [
 Bookmarks
