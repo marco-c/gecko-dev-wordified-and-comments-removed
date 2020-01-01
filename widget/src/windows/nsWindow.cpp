@@ -8038,7 +8038,7 @@ mNonClientMargins
 =
 margins
 ;
-RemoveProp
+RemovePropW
 (
 mWnd
 kManageWindowInfoProperty
@@ -20026,7 +20026,7 @@ UpdateNonClientMargins
 (
 )
 ;
-RemoveProp
+RemovePropW
 (
 mWnd
 kManageWindowInfoProperty
