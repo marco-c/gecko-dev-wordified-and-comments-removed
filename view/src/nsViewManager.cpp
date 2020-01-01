@@ -613,7 +613,6 @@ SetZIndex
 (
 false
 0
-false
 )
 ;
 }
@@ -4070,7 +4069,6 @@ SetViewZIndex
 aChild
 false
 aZIndex
-false
 )
 ;
 InsertChild
@@ -4471,8 +4469,6 @@ bool
 aAutoZIndex
 int32_t
 aZIndex
-bool
-aTopMost
 )
 {
 NS_ASSERTION
@@ -4517,7 +4513,6 @@ SetZIndex
 (
 aAutoZIndex
 aZIndex
-aTopMost
 )
 ;
 }

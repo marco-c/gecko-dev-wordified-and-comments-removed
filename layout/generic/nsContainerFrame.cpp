@@ -3492,7 +3492,6 @@ SetViewZIndex
 aView
 autoZIndex
 zIndex
-isPositioned
 )
 ;
 }

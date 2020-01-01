@@ -286,10 +286,6 @@ bool
 aAutoZIndex
 int32_t
 aZindex
-bool
-aTopMost
-=
-false
 )
 ;
 void
