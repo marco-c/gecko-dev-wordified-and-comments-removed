@@ -276,8 +276,8 @@ size
 gfxASurface
 :
 :
-gfxImageFormat
-imageFormat
+gfxContentType
+contentType
 )
 =
 0

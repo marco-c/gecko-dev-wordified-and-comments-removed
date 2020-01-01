@@ -176,8 +176,8 @@ size
 gfxASurface
 :
 :
-gfxImageFormat
-imageFormat
+gfxContentType
+contentType
 )
 {
 gfxASurface
@@ -192,7 +192,13 @@ new
 gfxQuartzSurface
 (
 size
-imageFormat
+gfxASurface
+:
+:
+FormatFromContent
+(
+contentType
+)
 )
 ;
 NS_IF_ADDREF

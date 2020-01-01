@@ -103,8 +103,8 @@ size
 gfxASurface
 :
 :
-gfxImageFormat
-imageFormat
+gfxContentType
+contentType
 )
 ;
 virtual

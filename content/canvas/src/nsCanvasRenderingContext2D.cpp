@@ -4159,7 +4159,13 @@ gfxIntSize
 width
 height
 )
+gfxASurface
+:
+:
+ContentFromFormat
+(
 format
+)
 )
 ;
 }
@@ -4226,7 +4232,13 @@ GetPlatform
 CreateOffscreenSurface
 (
 size
+gfxASurface
+:
+:
+ContentFromFormat
+(
 format
+)
 )
 ;
 NS_ABORT_IF_FALSE

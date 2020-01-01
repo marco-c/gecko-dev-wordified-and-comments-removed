@@ -73,8 +73,8 @@ height
 gfxASurface
 :
 :
-gfxImageFormat
-imageFormat
+gfxContentType
+contentType
 )
 ;
 nsresult

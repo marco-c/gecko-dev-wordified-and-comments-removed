@@ -668,7 +668,7 @@ mSize
 gfxASurface
 :
 :
-ImageFormatARGB32
+CONTENT_COLOR_ALPHA
 )
 ;
 if

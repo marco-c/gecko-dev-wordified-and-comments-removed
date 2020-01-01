@@ -89,8 +89,8 @@ size
 gfxASurface
 :
 :
-gfxImageFormat
-imageFormat
+gfxContentType
+contentType
 )
 ;
 already_AddRefed

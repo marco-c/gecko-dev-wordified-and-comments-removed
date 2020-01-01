@@ -369,6 +369,14 @@ format
 )
 ;
 static
+gfxImageFormat
+FormatFromContent
+(
+gfxContentType
+format
+)
+;
+static
 void
 RecordMemoryUsedForSurfaceType
 (

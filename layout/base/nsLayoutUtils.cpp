@@ -17504,7 +17504,7 @@ size
 gfxASurface
 :
 :
-ImageFormatARGB32
+CONTENT_COLOR_ALPHA
 )
 ;
 }
@@ -18288,7 +18288,7 @@ imgHeight
 gfxASurface
 :
 :
-ImageFormatARGB32
+CONTENT_COLOR_ALPHA
 )
 ;
 }
