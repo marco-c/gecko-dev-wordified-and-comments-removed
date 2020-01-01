@@ -22878,8 +22878,6 @@ global
 JSCLASS_NEW_RESOLVE
 |
 JSCLASS_GLOBAL_FLAGS
-|
-JSCLASS_HAS_PRIVATE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -22890,7 +22888,7 @@ JSResolveOp
 )
 global_resolve
 JS_ConvertStub
-its_finalize
+NULL
 }
 ;
 static
