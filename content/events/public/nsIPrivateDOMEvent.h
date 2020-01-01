@@ -298,7 +298,8 @@ aResult
 nsPresContext
 *
 aPresContext
-nsEvent
+class
+nsPageTransitionEvent
 *
 aEvent
 )
