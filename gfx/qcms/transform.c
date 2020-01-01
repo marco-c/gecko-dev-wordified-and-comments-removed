@@ -161,6 +161,13 @@ cputable
 .
 h
 >
+#
+include
+<
+link
+.
+h
+>
 static
 inline
 qcms_bool
