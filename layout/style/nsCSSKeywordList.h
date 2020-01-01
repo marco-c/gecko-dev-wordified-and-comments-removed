@@ -3438,6 +3438,11 @@ meterchunk
 )
 CSS_KEY
 (
+range
+range
+)
+CSS_KEY
+(
 scale
 -
 horizontal

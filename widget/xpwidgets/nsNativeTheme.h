@@ -648,6 +648,14 @@ bool
 aNextSibling
 )
 ;
+bool
+IsRangeHorizontal
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 uint32_t
