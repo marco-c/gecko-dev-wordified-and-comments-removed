@@ -216,7 +216,7 @@ LIB_SUFFIX
 )
 \
 (
-BZ2_LIBS
+MOZ_BZ2_LIBS
 )
 \
 (
@@ -762,7 +762,7 @@ CXXFLAGS
 +
 =
 (
-BZ2_CFLAGS
+MOZ_BZ2_CFLAGS
 )
 ifneq
 (

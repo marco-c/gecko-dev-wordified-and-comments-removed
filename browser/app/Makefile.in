@@ -337,7 +337,7 @@ LIBS
 +
 =
 (
-ZLIB_LIBS
+MOZ_ZLIB_LIBS
 )
 endif
 ifndef

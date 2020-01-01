@@ -140,6 +140,11 @@ OBJDIR
 OBJDIR_ARCH_1
 )
 endif
+topsrcdir
+=
+(
+TOPSRCDIR
+)
 include
 (
 OBJDIR
