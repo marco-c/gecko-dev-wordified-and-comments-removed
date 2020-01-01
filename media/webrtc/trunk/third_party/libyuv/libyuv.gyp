@@ -279,12 +279,6 @@ YUV_DISABLE_ASM
 ]
 }
 ]
-]
-'
-conditions
-'
-:
-[
 [
 '
 build_with_mozilla

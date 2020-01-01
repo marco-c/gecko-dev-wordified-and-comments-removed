@@ -78520,6 +78520,8 @@ t
 try
 to
 compile
+ssse3
+/
 sse4
 .
 1
@@ -78531,6 +78533,14 @@ doesn
 t
 support
 if
+test
+-
+z
+"
+HAVE_TOOLCHAIN_SUPPORT_SSSE3
+"
+|
+|
 test
 -
 z
