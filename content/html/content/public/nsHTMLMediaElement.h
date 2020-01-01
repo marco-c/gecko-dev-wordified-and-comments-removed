@@ -965,13 +965,13 @@ aPeriodic
 ;
 MediaStream
 *
-GetMediaStream
+GetSrcMediaStream
 (
 )
 {
 NS_ASSERTION
 (
-mStream
+mSrcStream
 "
 Don
 '
@@ -987,7 +987,7 @@ stream
 )
 ;
 return
-mStream
+mSrcStream
 -
 >
 GetStream
@@ -1031,12 +1031,12 @@ aValue
 )
 ;
 void
-SetupMediaStreamPlayback
+SetupSrcMediaStreamPlayback
 (
 )
 ;
 void
-EndMediaStreamPlayback
+EndSrcMediaStreamPlayback
 (
 )
 ;
@@ -1311,7 +1311,7 @@ nsRefPtr
 <
 nsDOMMediaStream
 >
-mStream
+mSrcStream
 ;
 struct
 OutputMediaStream
@@ -1335,7 +1335,7 @@ mOutputStreams
 ;
 StreamListener
 *
-mStreamListener
+mSrcStreamListener
 ;
 nsCOMPtr
 <
