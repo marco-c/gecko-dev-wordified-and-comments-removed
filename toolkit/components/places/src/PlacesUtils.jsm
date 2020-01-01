@@ -2859,7 +2859,7 @@ this
 TYPE_X_MOZ_PLACE_CONTAINER
 :
 var
-JSON
+json
 =
 Cc
 [
@@ -2885,9 +2885,9 @@ nsIJSON
 ;
 nodes
 =
-JSON
+json
 .
-decode
+legacyDecode
 (
 "
 [
