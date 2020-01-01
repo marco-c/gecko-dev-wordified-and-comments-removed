@@ -18224,9 +18224,15 @@ out
 =
 JS_IsDeadWrapper
 (
+js
+:
+:
+CheckedUnwrap
+(
 JSVAL_TO_OBJECT
 (
 obj
+)
 )
 )
 ;
