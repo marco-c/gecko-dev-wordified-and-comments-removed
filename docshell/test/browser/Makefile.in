@@ -480,6 +480,10 @@ browser_bug554155
 .
 js
 \
+browser_bug655273
+.
+js
+\
 (
 NULL
 )
