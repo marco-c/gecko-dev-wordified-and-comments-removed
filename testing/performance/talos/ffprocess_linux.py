@@ -141,6 +141,14 @@ s
 s
 %
 s
+-
+width
+%
+d
+-
+height
+%
+d
 '
 %
 (
@@ -149,6 +157,14 @@ firefox_path
 profile_arg
                       
 url_arg
+                      
+config
+.
+BROWSER_WIDTH
+                      
+config
+.
+BROWSER_HEIGHT
 )
   
 return

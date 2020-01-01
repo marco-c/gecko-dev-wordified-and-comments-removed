@@ -197,12 +197,12 @@ re
 compile
 (
 '
-__start_page_load_report
+__start_tp_report
 (
 .
 *
 )
-__end_page_load_report
+__end_tp_report
 '
                       
 re
