@@ -23670,6 +23670,9 @@ sidebar
 "
 )
 {
+#
+ifndef
+MOZ_PLACES_BOOKMARKS
 var
 dialogArgs
 =
@@ -23693,9 +23696,6 @@ bWebPanel
 :
 true
 }
-#
-ifndef
-MOZ_PLACES_BOOKMARKS
 openDialog
 (
 "
@@ -23729,7 +23729,7 @@ preventDefault
 else
 PlacesUtils
 .
-showAddBookmarkUI
+showMinimalAddBookmarkUI
 (
 makeURI
 (
