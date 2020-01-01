@@ -513,6 +513,9 @@ mSourceDataMimeType
 PRBool
 mDecoded
 ;
+PRBool
+mHasBeenDecoded
+;
 friend
 class
 imgDecodeWorker
