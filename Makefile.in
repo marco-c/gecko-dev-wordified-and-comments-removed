@@ -473,6 +473,8 @@ config
 \
 build
 \
+probes
+\
 (
 NULL
 )
