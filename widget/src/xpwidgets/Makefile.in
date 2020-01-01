@@ -546,12 +546,6 @@ CPPSRCS
 nsBaseFilePicker
 .
 cpp
-REQUIRES
-+
-=
-docshell
-view
-intl
 endif
 ifneq
 (

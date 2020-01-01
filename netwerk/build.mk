@@ -493,11 +493,6 @@ ifndef
 WINCE
 ifneq
 (
-1_
-(
-MOZ_NO_XPCOM_OBSOLETE
-)
-_
 (
 MOZ_XPINSTALL
 )
@@ -509,15 +504,6 @@ modules
 /
 libreg
 endif
-endif
-ifndef
-MOZ_NO_XPCOM_OBSOLETE
-tier_necko_dirs
-+
-=
-xpcom
-/
-obsolete
 endif
 tier_necko_dirs
 +

@@ -515,6 +515,10 @@ nsHttpPipeline
 .
 cpp
 \
+nsHttpActivityDistributor
+.
+cpp
+\
 HttpChannelParent
 .
 cpp
