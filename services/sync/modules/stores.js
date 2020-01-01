@@ -14,6 +14,9 @@ BookmarksStore
 '
 HistoryStore
 '
+'
+CookieStore
+'
 ]
 ;
 const

@@ -3120,9 +3120,9 @@ yield
 }
 if
 (
-this
+Utils
 .
-_prefs
+prefs
 .
 getBoolPref
 (

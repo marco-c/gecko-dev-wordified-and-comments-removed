@@ -11,6 +11,9 @@ BookmarksSyncCore
 '
 HistorySyncCore
 '
+'
+CookiesSyncCore
+'
 ]
 ;
 const
