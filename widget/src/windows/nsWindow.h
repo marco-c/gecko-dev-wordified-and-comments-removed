@@ -241,7 +241,8 @@ kWClassNameDialog
 =
 L
 "
-MozillaDialogClass
+#
+32770
 "
 ;
 const
@@ -289,7 +290,8 @@ LPCSTR
 kClassNameDialog
 =
 "
-MozillaDialogClass
+#
+32770
 "
 ;
 class
