@@ -769,6 +769,15 @@ NSPR_LIBS
 (
 MOZ_JS_LIBS
 )
+(
+if
+(
+JS_SHARED_LIBRARY
+)
+(
+MOZ_ZLIB_LIBS
+)
+)
 #
 .
 .
