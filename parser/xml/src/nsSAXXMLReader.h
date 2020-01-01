@@ -77,6 +77,13 @@ h
 #
 include
 "
+nsIMozSAXXMLDeclarationHandler
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -266,6 +273,12 @@ nsCOMPtr
 nsISAXLexicalHandler
 >
 mLexicalHandler
+;
+nsCOMPtr
+<
+nsIMozSAXXMLDeclarationHandler
+>
+mDeclarationHandler
 ;
 nsCOMPtr
 <

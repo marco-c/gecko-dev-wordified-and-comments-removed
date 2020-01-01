@@ -120,6 +120,10 @@ nsISAXXMLFilter
 .
 idl
 \
+nsIMozSAXXMLDeclarationHandler
+.
+idl
+\
 (
 NULL
 )
