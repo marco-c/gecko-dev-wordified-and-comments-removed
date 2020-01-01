@@ -3055,3 +3055,14 @@ load
 847208
 .
 html
+asserts
+(
+4
+)
+load
+847209
+.
+html
+#
+bug
+847368
