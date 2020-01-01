@@ -73,6 +73,20 @@ import
 droid
 import
 manifestparser
+import
+mozlog
+log
+=
+mozlog
+.
+getLogger
+(
+'
+Mochi
+-
+Remote
+'
+)
 class
 RemoteOptions
 (
@@ -1195,10 +1209,11 @@ getLanIp
 else
 :
                 
-print
+log
+.
+error
+(
 "
-ERROR
-:
 you
 must
 specify
@@ -1213,9 +1228,8 @@ webserver
 ip
 address
 >
-\
-n
 "
+)
                 
 return
 None
@@ -1239,10 +1253,11 @@ None
 )
 :
             
-print
+log
+.
+error
+(
 "
-ERROR
-:
 you
 must
 provide
@@ -1250,6 +1265,7 @@ a
 device
 IP
 "
+)
             
 return
 None
@@ -1327,10 +1343,11 @@ app
 )
 :
             
-print
+log
+.
+error
+(
 "
-ERROR
-:
 You
 cannot
 specify
@@ -1342,6 +1359,7 @@ the
 app
 setting
 "
+)
             
 return
 None
@@ -1381,10 +1399,11 @@ None
 )
 :
             
-print
+log
+.
+error
+(
 "
-ERROR
-:
 You
 must
 specify
@@ -1393,6 +1412,7 @@ appPath
 or
 app
 "
+)
             
 return
 None
@@ -1501,10 +1521,11 @@ options
 robocopIni
 :
                 
-print
+log
+.
+error
+(
 "
-ERROR
-:
 can
 not
 use
@@ -1521,6 +1542,7 @@ robocop
 ini
 together
 "
+)
                 
 return
 None
@@ -1550,10 +1572,11 @@ options
 robocopApk
 :
                 
-print
+log
+.
+error
+(
 "
-ERROR
-:
 can
 not
 use
@@ -1572,6 +1595,7 @@ robocop
 apk
 together
 "
+)
                 
 return
 None
@@ -1625,10 +1649,11 @@ robocopIni
 )
 :
                 
-print
+log
+.
+error
+(
 "
-ERROR
-:
 Unable
 to
 find
@@ -1642,10 +1667,10 @@ manifest
 s
 '
 "
-%
 options
 .
 robocopIni
+)
                 
 return
 None
@@ -1689,10 +1714,11 @@ robocopApk
 )
 :
                 
-print
+log
+.
+error
+(
 "
-ERROR
-:
 Unable
 to
 find
@@ -1703,10 +1729,10 @@ APK
 s
 '
 "
-%
 options
 .
 robocopApk
+)
                 
 return
 None
@@ -1750,10 +1776,11 @@ robocopIds
 )
 :
                 
-print
+log
+.
+error
+(
 "
-ERROR
-:
 Unable
 to
 find
@@ -1766,10 +1793,10 @@ file
 s
 '
 "
-%
 options
 .
 robocopIds
+)
                 
 return
 None
@@ -2036,10 +2063,11 @@ remoteLog
 else
 :
             
-print
+log
+.
+warn
+(
 "
-WARNING
-:
 Unable
 to
 retrieve
@@ -2051,16 +2079,13 @@ s
 )
 from
 remote
-"
-\
-                
-"
 device
 "
-%
+                
 self
 .
 remoteLog
+)
         
 self
 .
@@ -2116,10 +2141,11 @@ pid
 except
 :
                 
-print
+log
+.
+warn
+(
 "
-Warning
-:
 cleaning
 up
 pidfile
@@ -2134,10 +2160,10 @@ the
 test
 harness
 "
-%
 options
 .
 pidFile
+)
     
 def
 findPath
@@ -2416,10 +2442,11 @@ xrePath
 None
 :
             
-print
+log
+.
+error
+(
 "
-ERROR
-:
 unable
 to
 find
@@ -2437,8 +2464,6 @@ xre
 -
 path
 "
-%
-(
 os
 .
 name
@@ -2546,10 +2571,11 @@ utilityPath
 None
 :
             
-print
+log
+.
+error
+(
 "
-ERROR
-:
 unable
 to
 find
@@ -2567,8 +2593,6 @@ utility
 -
 path
 "
-%
-(
 os
 .
 name
@@ -3100,7 +3124,10 @@ devicemanager
 DMError
 :
             
-print
+log
+.
+error
+(
 "
 Automation
 Error
@@ -3113,6 +3140,7 @@ to
 device
 .
 "
+)
             
 raise
         
@@ -3212,7 +3240,10 @@ devicemanager
 DMError
 :
                 
-print
+log
+.
+error
+(
 "
 Automation
 Error
@@ -3225,6 +3256,7 @@ to
 device
 .
 "
+)
                 
 raise
         
@@ -3342,7 +3374,10 @@ devicemanager
 DMError
 :
             
-print
+log
+.
+error
+(
 "
 Automation
 Error
@@ -3356,6 +3391,7 @@ on
 device
 .
 "
+)
             
 raise
         
@@ -3579,10 +3615,11 @@ not
 end_found
 :
             
-print
+log
+.
+error
+(
 "
-ERROR
-:
 missing
 end
 of
@@ -3594,6 +3631,7 @@ crashed
 ?
 )
 "
+)
             
 result
 =
@@ -3922,7 +3960,10 @@ b64encode
 image
 )
             
-print
+log
+.
+info
+(
 "
 SCREENSHOT
 :
@@ -3936,8 +3977,8 @@ base64
 %
 s
 "
-%
 encoded
+)
         
 except
 :
@@ -3974,7 +4015,16 @@ filterOutRegexps
 fennecLogcatFilters
 )
                 
-print
+log
+.
+info
+(
+'
+\
+n
+'
++
+(
 '
 '
 .
@@ -3982,8 +4032,13 @@ join
 (
 logcat
 )
+)
+)
             
-print
+log
+.
+info
+(
 "
 Device
 info
@@ -3991,7 +4046,6 @@ info
 %
 s
 "
-%
 self
 .
 _dm
@@ -3999,8 +4053,12 @@ _dm
 getInfo
 (
 )
+)
             
-print
+log
+.
+info
+(
 "
 Test
 root
@@ -4008,13 +4066,13 @@ root
 %
 s
 "
-%
 self
 .
 _dm
 .
 getDeviceRoot
 (
+)
 )
         
 except
@@ -4023,15 +4081,17 @@ devicemanager
 DMError
 :
             
-print
+log
+.
+warn
+(
 "
-WARNING
-:
 Error
 getting
 device
 information
 "
+)
     
 def
 buildRobotiumConfig
@@ -4216,12 +4276,13 @@ index
 '
 )
                     
-print
+log
+.
+error
+(
 "
 Found
-:
-Error
-an
+a
 '
 '
 in
@@ -4233,6 +4294,7 @@ process
 value
 .
 "
+)
                 
 except
 ValueError
@@ -4503,10 +4565,11 @@ None
 )
 :
         
-print
+log
+.
+error
+(
 "
-ERROR
-:
 Invalid
 options
 specified
@@ -4521,6 +4584,7 @@ of
 valid
 options
 "
+)
         
 sys
 .
@@ -4853,7 +4917,10 @@ start
 end
 ]
             
-print
+log
+.
+info
+(
 "
 Running
 tests
@@ -4866,13 +4933,9 @@ d
 %
 d
 "
-%
-(
-(
 start
 +
 1
-)
 end
 len
 (
@@ -5465,7 +5528,10 @@ delete
 ]
 )
                 
-print
+log
+.
+info
+(
 "
 Insert
 bookmarks
@@ -5476,6 +5542,7 @@ android
 browser
 database
 "
+)
                 
 for
 i
@@ -5756,10 +5823,11 @@ result
 0
 :
                     
-print
+log
+.
+error
+(
 "
-ERROR
-:
 runTests
 (
 )
@@ -5769,8 +5837,8 @@ code
 %
 s
 "
-%
 result
+)
                 
 log_result
 =
@@ -5825,7 +5893,10 @@ result
 except
 :
                 
-print
+log
+.
+error
+(
 "
 Automation
 Error
@@ -5836,6 +5907,7 @@ while
 running
 tests
 "
+)
                 
 traceback
 .
@@ -6034,7 +6106,10 @@ is
 None
 :
             
-print
+log
+.
+warn
+(
 "
 No
 tests
@@ -6048,6 +6123,7 @@ invalid
 TEST_PATH
 ?
 "
+)
             
 retVal
 =
@@ -6129,7 +6205,10 @@ options
 except
 :
             
-print
+log
+.
+error
+(
 "
 Automation
 Error
@@ -6140,6 +6219,7 @@ while
 running
 tests
 "
+)
             
 traceback
 .
