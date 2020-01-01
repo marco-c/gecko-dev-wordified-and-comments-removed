@@ -511,6 +511,10 @@ test_bug335816
 .
 html
 \
+test_long_doc
+.
+html
+\
 test_singlebyte_overconsumption
 .
 html
