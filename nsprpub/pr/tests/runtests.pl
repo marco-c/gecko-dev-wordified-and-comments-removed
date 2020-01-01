@@ -1289,8 +1289,6 @@ kill
 lstatus
 =
 ?
-%
-256
 ;
 ltimeout
 =

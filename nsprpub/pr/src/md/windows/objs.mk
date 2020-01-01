@@ -456,6 +456,7 @@ filter
 out
 WIN95
 WINCE
+WINMO
 (
 OS_TARGET
 )
