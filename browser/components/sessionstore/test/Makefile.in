@@ -185,6 +185,10 @@ browser_pageshow
 .
 js
 \
+browser_windowRestore_perwindowpb
+.
+js
+\
 browser_248970_b_perwindowpb
 .
 js
