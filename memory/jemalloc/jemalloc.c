@@ -97,6 +97,9 @@ MOZ_MEMORY_DARWIN
 )
 )
 #
+define
+MALLOC_PAGEFILE
+#
 endif
 #
 ifdef
