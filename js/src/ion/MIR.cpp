@@ -1804,6 +1804,8 @@ New
 (
 size_t
 argc
+bool
+construct
 )
 {
 MCall
@@ -1812,6 +1814,9 @@ ins
 =
 new
 MCall
+(
+construct
+)
 ;
 if
 (

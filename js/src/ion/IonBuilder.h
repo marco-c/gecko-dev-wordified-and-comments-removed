@@ -961,6 +961,8 @@ jsop_call
 (
 uint32
 argc
+bool
+construct
 )
 ;
 bool
