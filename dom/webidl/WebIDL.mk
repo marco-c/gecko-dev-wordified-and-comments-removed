@@ -695,6 +695,10 @@ URL
 .
 webidl
 \
+ValidityState
+.
+webidl
+\
 WebSocket
 .
 webidl
