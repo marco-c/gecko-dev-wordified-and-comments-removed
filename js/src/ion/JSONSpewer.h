@@ -181,6 +181,14 @@ pass
 )
 ;
 void
+spewMDef
+(
+MDefinition
+*
+def
+)
+;
+void
 spewMIR
 (
 MIRGraph
