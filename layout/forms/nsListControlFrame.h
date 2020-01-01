@@ -1015,8 +1015,6 @@ PRInt32
 aClickedIndex
 )
 ;
-public
-:
 nsSelectsAreaFrame
 *
 GetOptionsContainer
@@ -1037,8 +1035,6 @@ GetScrolledFrame
 )
 ;
 }
-protected
-:
 nscoord
 HeightOfARow
 (
