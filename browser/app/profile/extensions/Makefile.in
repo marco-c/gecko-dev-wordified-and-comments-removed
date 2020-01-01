@@ -121,7 +121,6 @@ ifneq
 (
 (
 filter
-aurora
 beta
 (
 MOZ_UPDATE_CHANNEL
