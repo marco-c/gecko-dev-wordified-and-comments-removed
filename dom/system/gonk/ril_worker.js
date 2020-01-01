@@ -52872,6 +52872,13 @@ Phonebook
 return
 ;
 }
+contact
+.
+recordId
+%
+=
+ICC_MAX_LINEAR_FIXED_RECORDS
+;
 this
 .
 updatePhonebookSet
