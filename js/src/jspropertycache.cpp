@@ -349,7 +349,9 @@ cx
 fp
 -
 >
-script
+getScript
+(
+)
 pc
 )
 ;
@@ -1120,7 +1122,9 @@ cx
 fp
 -
 >
-script
+getScript
+(
+)
 pc
 pcoff
 atom
@@ -1214,7 +1218,9 @@ cx
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 code
@@ -1226,7 +1232,9 @@ cx
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 length
@@ -1244,7 +1252,9 @@ cx
 fp
 -
 >
-script
+getScript
+(
+)
 pc
 )
 ;

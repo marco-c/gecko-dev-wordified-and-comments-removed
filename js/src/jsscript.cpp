@@ -6924,7 +6924,9 @@ cx
 fp
 -
 >
-script
+getScript
+(
+)
 fp
 -
 >

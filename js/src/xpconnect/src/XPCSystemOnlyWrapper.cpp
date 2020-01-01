@@ -687,7 +687,9 @@ if
 fp
 -
 >
-script
+hasScript
+(
+)
 )
 {
 fp
@@ -737,7 +739,9 @@ filename
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 filename
@@ -899,7 +903,9 @@ filename
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 filename
