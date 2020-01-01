@@ -190,6 +190,13 @@ POINTL
 pt
 )
 ;
+void
+AddLinkSupportIfCanBeGenerated
+(
+LPDATAOBJECT
+aIDataSource
+)
+;
 ULONG
 m_cRef
 ;
@@ -197,7 +204,7 @@ HWND
 mHWnd
 ;
 DWORD
-mEffect
+mEffectsAllowed
 ;
 PRBool
 mMovePreferred
