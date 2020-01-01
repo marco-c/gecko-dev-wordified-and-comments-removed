@@ -61,10 +61,6 @@ NS_FRAME_NO_SIZE_VIEW
 define
 NS_FRAME_NO_VISIBILITY
 0x0008
-#
-define
-NS_FRAME_INVALIDATE_ON_MOVE
-0x0010
 class
 nsOverflowContinuationTracker
 ;
