@@ -8275,13 +8275,6 @@ weight
 :
 bold
 ;
-margin
-:
-2px
-12px
-0px
-9px
-;
 }
 #
 editBookmarkPanel
@@ -8301,18 +8294,13 @@ right
 ;
 }
 #
-editBookmarkPanel
->
-hbox
+editBookmarkPanelHeader
 >
 vbox
 >
 hbox
 >
 button
-#
-editBookmarkPanel
->
 #
 editBookmarkPanelBottomButtons
 >
@@ -8556,9 +8544,7 @@ ffffff
 ;
 }
 #
-editBookmarkPanel
->
-hbox
+editBookmarkPanelHeader
 >
 vbox
 >
@@ -8569,9 +8555,6 @@ button
 hover
 :
 active
-#
-editBookmarkPanel
->
 #
 editBookmarkPanelBottomButtons
 >
@@ -8590,9 +8573,7 @@ color
 ;
 }
 #
-editBookmarkPanel
->
-hbox
+editBookmarkPanelHeader
 >
 vbox
 >
@@ -8601,9 +8582,6 @@ hbox
 button
 :
 focus
-#
-editBookmarkPanel
->
 #
 editBookmarkPanelBottomButtons
 >
@@ -8641,9 +8619,6 @@ radius
 ;
 }
 #
-editBookmarkPanel
->
-#
 editBookmarkPanelBottomButtons
 >
 button
@@ -8664,20 +8639,15 @@ color
 ;
 }
 #
-editBookmarkPanel
->
-#
-editBookmarkPanelContent
+editBookmarkPanelHeader
 {
 margin
 -
-top
+bottom
 :
 6px
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_newFolderBox
 {
@@ -8786,8 +8756,6 @@ height
 20px
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_newFolderButton
 {
@@ -8968,8 +8936,6 @@ important
 ;
 }
 #
-editBookmarkPanel
-#
 editBMPanel_newFolderButton
 :
 hover
@@ -8984,8 +8950,6 @@ color
 86888B
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_newFolderButton
 :
@@ -9020,8 +8984,6 @@ radius
 ;
 }
 #
-editBookmarkPanel
-#
 editBMPanel_newFolderButton
 .
 button
@@ -9035,8 +8997,6 @@ none
 important
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_folderMenuList
 {
@@ -9268,8 +9228,6 @@ important
 ;
 }
 #
-editBookmarkPanel
-#
 editBMPanel_folderMenuList
 :
 focus
@@ -9303,8 +9261,6 @@ radius
 ;
 }
 #
-editBookmarkPanel
-#
 editBMPanel_folderMenuList
 [
 open
@@ -9313,8 +9269,6 @@ open
 true
 "
 ]
-#
-editBookmarkPanel
 #
 editBMPanel_folderMenuList
 :
@@ -9354,8 +9308,6 @@ png
 )
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_folderMenuList
 >
@@ -9397,8 +9349,6 @@ padding
 0
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_folderMenuList
 >
@@ -9444,8 +9394,6 @@ png
 )
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_folderTree
 {
@@ -9531,8 +9479,6 @@ width
 27em
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_folderTree
 :
@@ -9761,8 +9707,6 @@ rect
 ;
 }
 #
-editBookmarkPanel
-#
 editBMPanel_tagsSelector
 {
 -
@@ -9878,8 +9822,6 @@ important
 ;
 }
 #
-editBookmarkPanel
-#
 editBMPanel_tagsSelector
 :
 focus
@@ -9912,8 +9854,6 @@ radius
 1px
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_tagsSelector
 .
@@ -9984,8 +9924,6 @@ width
 14px
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_tagsSelector
 .
@@ -10159,8 +10097,6 @@ b3b3b3
 important
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_tagsSelector
 >
@@ -10743,8 +10679,6 @@ important
 ;
 }
 #
-editBookmarkPanel
-#
 editBMPanel_namePicker
 [
 droppable
@@ -10760,8 +10694,6 @@ color
 ffffff
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_namePicker
 [
@@ -10782,8 +10714,6 @@ display
 none
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_tagsField
 [
@@ -10807,8 +10737,6 @@ color
 000000
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_namePicker
 [
@@ -10932,8 +10860,6 @@ ffffff
 ;
 }
 #
-editBookmarkPanel
-#
 editBMPanel_tagsField
 [
 empty
@@ -10949,8 +10875,6 @@ color
 bbbbbb
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_namePicker
 [
@@ -11016,8 +10940,6 @@ color
 ;
 }
 #
-editBookmarkPanel
-#
 editBMPanel_namePicker
 [
 droppable
@@ -11047,8 +10969,6 @@ color
 ffffff
 ;
 }
-#
-editBookmarkPanel
 #
 editBMPanel_namePicker
 [
@@ -11111,8 +11031,6 @@ inherit
 ;
 }
 #
-editBookmarkPanel
-#
 editBMPanel_namePicker
 [
 droppable
@@ -11152,12 +11070,6 @@ color
 000000
 ;
 }
-#
-editBookmarkPanel
->
-#
-editBookmarkPanelContent
->
 #
 editBookmarkPanelGrid
 >

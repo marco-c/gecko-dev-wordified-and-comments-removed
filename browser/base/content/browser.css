@@ -434,6 +434,14 @@ weight
 bold
 ;
 }
+#
+editBMPanel_tagsSelector
+{
+width
+:
+auto
+;
+}
 menuitem
 .
 spell
