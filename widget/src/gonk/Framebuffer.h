@@ -2,6 +2,9 @@ class
 gfxASurface
 ;
 class
+nsIntRegion
+;
+class
 nsIntSize
 ;
 namespace
@@ -32,6 +35,10 @@ BackBuffer
 void
 Present
 (
+const
+nsIntRegion
+&
+aUpdated
 )
 ;
 }

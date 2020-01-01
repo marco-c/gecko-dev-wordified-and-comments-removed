@@ -453,10 +453,9 @@ lm
 >
 SetClippingRegion
 (
-nsIntRegion
-(
-gScreenBounds
-)
+event
+.
+region
 )
 ;
 gWindowToRedraw
@@ -517,13 +516,6 @@ gfxContext
 backBuffer
 )
 ;
-ctx
--
->
-NewPath
-(
-)
-;
 gfxUtils
 :
 :
@@ -575,6 +567,9 @@ Framebuffer
 :
 Present
 (
+event
+.
+region
 )
 ;
 }
