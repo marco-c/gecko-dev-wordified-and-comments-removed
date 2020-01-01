@@ -64,6 +64,13 @@ typedef
 Assembler
 :
 :
+Imm32
+Imm32
+;
+typedef
+Assembler
+:
+:
 Address
 Address
 ;

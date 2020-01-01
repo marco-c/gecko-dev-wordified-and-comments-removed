@@ -165,7 +165,7 @@ JSContext
 *
 cx
 ;
-uintptr_t
+uint32
 inlineCallCount
 ;
 #
