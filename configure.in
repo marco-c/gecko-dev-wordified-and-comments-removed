@@ -71901,7 +71901,7 @@ configure
 if
 cmp
 -
-b
+s
 config
 /
 autoconf
