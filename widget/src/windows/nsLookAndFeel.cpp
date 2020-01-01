@@ -1619,6 +1619,9 @@ hresult
 S_OK
 &
 &
+nsWindow
+:
+:
 GetWindowsVersion
 (
 )

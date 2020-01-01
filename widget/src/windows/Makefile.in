@@ -484,6 +484,14 @@ nsWindow
 .
 cpp
 \
+nsWindowGfx
+.
+cpp
+\
+nsWindowDbg
+.
+cpp
+\
 nsAppShell
 .
 cpp
@@ -567,6 +575,10 @@ WINCE
 CPPSRCS
 +
 =
+\
+nsWindowCE
+.
+cpp
 \
 nsClipboardCE
 .

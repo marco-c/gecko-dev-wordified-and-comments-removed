@@ -579,6 +579,7 @@ CheckForCompositor
 PRInt32
 version
 =
+nsWindow
 :
 :
 GetWindowsVersion
