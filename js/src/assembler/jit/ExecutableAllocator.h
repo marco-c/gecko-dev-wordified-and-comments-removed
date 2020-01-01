@@ -712,9 +712,6 @@ return
 NULL
 ;
 }
-return
-allocator
-;
 }
 ~
 ExecutableAllocator

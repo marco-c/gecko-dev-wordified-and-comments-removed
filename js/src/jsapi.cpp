@@ -3174,11 +3174,13 @@ if
 ENABLE_YARR_JIT
 regExpAllocator
 =
-new
 JSC
 :
 :
 ExecutableAllocator
+:
+:
+create
 (
 )
 ;
