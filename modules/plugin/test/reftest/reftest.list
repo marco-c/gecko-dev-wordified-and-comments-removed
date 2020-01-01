@@ -757,6 +757,10 @@ platform
 "
 X11
 "
+&
+&
+!
+layersGPUAccelerated
 )
 =
 =
