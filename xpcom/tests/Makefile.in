@@ -451,10 +451,6 @@ nsIFileEnumerator
 .
 cpp
 \
-ShowSSEConfig
-.
-cpp
-\
 TestCallTemplates
 .
 cpp
@@ -531,6 +527,10 @@ BIN_SUFFIX
 )
 CPP_UNIT_TESTS
 =
+\
+ShowSSEConfig
+.
+cpp
 \
 TestAutoPtr
 .
