@@ -60,7 +60,7 @@ XCurProcD
 "
 AM_Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 globalDir

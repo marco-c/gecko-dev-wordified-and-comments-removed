@@ -79,7 +79,7 @@ CurProcD
 "
 AM_Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 plugins

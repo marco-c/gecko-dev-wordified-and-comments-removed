@@ -2090,7 +2090,7 @@ createInstance
 (
 AM_Ci
 .
-nsILocalFile
+nsIFile
 )
 ;
 file
@@ -6218,13 +6218,6 @@ gProfD
 =
 do_get_profile
 (
-)
-.
-QueryInterface
-(
-AM_Ci
-.
-nsILocalFile
 )
 ;
 Services

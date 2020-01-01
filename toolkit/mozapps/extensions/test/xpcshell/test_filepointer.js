@@ -187,7 +187,7 @@ create
 (
 AM_Ci
 .
-nsILocalFile
+nsIFile
 .
 DIRECTORY_TYPE
 0755
@@ -403,13 +403,6 @@ var
 relTarget
 =
 absTarget
-.
-QueryInterface
-(
-AM_Ci
-.
-nsILocalFile
-)
 .
 getRelativeDescriptor
 (
