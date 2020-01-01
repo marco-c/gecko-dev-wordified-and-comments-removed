@@ -433,6 +433,10 @@ bug293834_form
 .
 html
 \
+test_bug499115
+.
+html
+\
 test_nsFind
 .
 html
