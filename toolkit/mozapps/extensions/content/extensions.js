@@ -9473,7 +9473,7 @@ screenshots
 0
 ]
 .
-thumbnail
+thumbnailURL
 )
 screenshot
 .
@@ -9486,7 +9486,7 @@ screenshots
 0
 ]
 .
-thumbnail
+thumbnailURL
 ;
 else
 screenshot
