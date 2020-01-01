@@ -113,6 +113,14 @@ regress
 0
 .
 js
+fails
+-
+if
+(
+xulRuntime
+.
+shell
+)
 script
 regress
 -
