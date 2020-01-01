@@ -64,10 +64,10 @@ Init
 (
 )
 ;
-nsXULMenupopupAccessible
+nsCoreUtils
 :
 :
-GenerateMenu
+GeneratePopupTree
 (
 mDOMNode
 )

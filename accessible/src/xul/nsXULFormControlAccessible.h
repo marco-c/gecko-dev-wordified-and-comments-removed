@@ -57,6 +57,7 @@ nsIWeakReference
 aShell
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetNumActions
 (
@@ -84,6 +85,12 @@ index
 ;
 virtual
 nsresult
+Init
+(
+)
+;
+virtual
+nsresult
 GetRoleInternal
 (
 PRUint32
@@ -107,6 +114,11 @@ protected
 :
 void
 CacheChildren
+(
+)
+;
+PRBool
+ContainsMenu
 (
 )
 ;

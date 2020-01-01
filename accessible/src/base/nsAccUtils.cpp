@@ -4040,15 +4040,6 @@ role
 nsIAccessibleRole
 :
 :
-ROLE_PUSHBUTTON
-|
-|
-role
-=
-=
-nsIAccessibleRole
-:
-:
 ROLE_TOGGLE_BUTTON
 |
 |

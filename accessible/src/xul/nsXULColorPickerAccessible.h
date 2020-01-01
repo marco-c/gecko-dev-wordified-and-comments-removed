@@ -7,7 +7,7 @@ _nsXULColorPickerAccessible_H_
 #
 include
 "
-nsFormControlAccessible
+nsAccessibleWrap
 .
 h
 "
@@ -15,7 +15,7 @@ class
 nsXULColorPickerTileAccessible
 :
 public
-nsFormControlAccessible
+nsAccessibleWrap
 {
 public
 :
@@ -80,6 +80,12 @@ aShell
 ;
 virtual
 nsresult
+Init
+(
+)
+;
+virtual
+nsresult
 GetRoleInternal
 (
 PRUint32
@@ -97,6 +103,14 @@ aState
 PRUint32
 *
 aExtraState
+)
+;
+protected
+:
+virtual
+void
+CacheChildren
+(
 )
 ;
 }
