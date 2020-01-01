@@ -703,6 +703,10 @@ SVGFEFuncRElement
 .
 webidl
 \
+SVGFEImageElement
+.
+webidl
+\
 SVGFEMergeElement
 .
 webidl

@@ -364,10 +364,6 @@ SVGFEGaussianBlurElement
 )
 DOMCI_CLASS
 (
-SVGFEImageElement
-)
-DOMCI_CLASS
-(
 SVGFEMorphologyElement
 )
 DOMCI_CLASS
