@@ -6217,9 +6217,9 @@ cacheWidth
 contentWidth
 )
 *
-contentHeight
+cacheHeight
 /
-contentWidth
+cacheWidth
 ;
 cacheWidth
 =
@@ -6243,9 +6243,9 @@ cacheHeight
 contentHeight
 )
 *
-contentWidth
+cacheWidth
 /
-contentHeight
+cacheHeight
 ;
 cacheHeight
 =
