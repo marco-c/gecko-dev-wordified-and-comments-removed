@@ -303,6 +303,13 @@ h
 #
 include
 "
+jsopcodeinlines
+.
+h
+"
+#
+include
+"
 jsprobes
 .
 h
@@ -331,7 +338,7 @@ h
 #
 include
 "
-jsopcodeinlines
+jstypedarrayinlines
 .
 h
 "
