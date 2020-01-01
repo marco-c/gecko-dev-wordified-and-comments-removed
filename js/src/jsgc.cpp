@@ -13961,6 +13961,7 @@ IS_GC_MARKING_TRACER
 trc
 )
 )
+{
 tm
 -
 >
@@ -13971,6 +13972,15 @@ tm
 >
 recoveryDoublePool
 ;
+tm
+-
+>
+globalShape
+=
+-
+1
+;
+}
 }
 void
 js_TraceRuntime
@@ -15362,11 +15372,6 @@ cx
 #
 ifdef
 JS_TRACER
-js_FlushJITCache
-(
-cx
-)
-;
 js_FlushJITOracle
 (
 cx
@@ -15451,7 +15456,7 @@ acx
 #
 ifdef
 JS_TRACER
-js_FlushJITCache
+js_FlushJITOracle
 (
 acx
 )
