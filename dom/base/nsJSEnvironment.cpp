@@ -5295,6 +5295,16 @@ PR_FALSE
 }
 if
 (
+!
+chromeWindow
+)
+newDefaultJSOptions
+|
+=
+JSOPTION_ROPES
+;
+if
+(
 useTraceJIT
 )
 newDefaultJSOptions

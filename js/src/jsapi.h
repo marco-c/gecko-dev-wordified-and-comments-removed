@@ -3102,6 +3102,13 @@ JS_BIT
 (
 14
 )
+#
+define
+JSOPTION_ROPES
+JS_BIT
+(
+16
+)
 extern
 JS_PUBLIC_API
 (
