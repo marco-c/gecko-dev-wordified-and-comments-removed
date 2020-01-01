@@ -1260,6 +1260,12 @@ nsIContent
 aContent
 )
 ;
+nsMenuChainItem
+*
+GetTopVisibleMenu
+(
+)
+;
 void
 ShowPopupCallback
 (
