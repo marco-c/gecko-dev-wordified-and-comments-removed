@@ -5244,7 +5244,7 @@ CSS_PROP_SHORTHAND
 static
 const
 nsCSSProperty
-gMozBorderRadiusSubpropTable
+gBorderRadiusSubpropTable
 [
 ]
 =
