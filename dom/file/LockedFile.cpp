@@ -2058,10 +2058,10 @@ location
 if
 (
 !
-xpc
+JS
 :
 :
-ValueToUint64
+ToUint64
 (
 aCx
 aLocation

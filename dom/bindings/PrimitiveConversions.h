@@ -243,10 +243,10 @@ retval
 )
 {
 return
-xpc
+JS
 :
 :
-ValueToInt64
+ToInt64
 (
 cx
 v
@@ -292,10 +292,10 @@ retval
 )
 {
 return
-xpc
+JS
 :
 :
-ValueToUint64
+ToUint64
 (
 cx
 v
