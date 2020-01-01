@@ -553,7 +553,10 @@ tab
 .
 _tabViewTabItem
 .
-favEl
+fav
+[
+0
+]
 null
 )
 .

@@ -496,7 +496,10 @@ push
 (
 tab
 .
-nameEl
+tabTitle
+[
+0
+]
 .
 innerHTML
 )
