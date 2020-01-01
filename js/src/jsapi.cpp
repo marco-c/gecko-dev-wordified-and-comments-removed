@@ -35508,6 +35508,9 @@ unsigned
 lineno
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 script

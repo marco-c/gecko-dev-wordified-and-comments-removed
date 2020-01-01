@@ -7512,6 +7512,10 @@ Value
 arg
 )
 {
+AssertCanGC
+(
+)
+;
 if
 (
 gen
@@ -7749,9 +7753,8 @@ gen
 >
 enumerators
 ;
-ok
-=
-RunScript
+RootedScript
+script
 (
 cx
 fp
@@ -7760,6 +7763,14 @@ fp
 script
 (
 )
+)
+;
+ok
+=
+RunScript
+(
+cx
+script
 fp
 )
 ;

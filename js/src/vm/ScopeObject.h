@@ -263,8 +263,7 @@ create
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 HandleObject
 enclosing

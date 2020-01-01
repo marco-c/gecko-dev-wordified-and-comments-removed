@@ -253,8 +253,10 @@ ArgumentsData
 data
 )
 {
-JSScript
-*
+AutoAssertNoGC
+nogc
+;
+RawScript
 script
 =
 fp
@@ -587,6 +589,10 @@ CopyArgs
 copy
 )
 {
+AssertCanGC
+(
+)
+;
 RootedObject
 proto
 (
@@ -844,8 +850,7 @@ deletedBits
 numDeletedWords
 )
 ;
-JSObject
-*
+RawObject
 obj
 =
 JSObject

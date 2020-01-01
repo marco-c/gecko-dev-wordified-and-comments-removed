@@ -703,6 +703,9 @@ VMFrame
 f
 )
 {
+AutoAssertNoGC
+nogc
+;
 masm
 .
 finalize

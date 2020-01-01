@@ -507,6 +507,9 @@ pc
 NULL
 )
 {
+AutoAssertNoGC
+nogc
+;
 startLabel
 =
 label

@@ -847,8 +847,11 @@ chunkIndex
 )
 ;
 inline
+Return
+<
 JSScript
 *
+>
 script
 (
 )
@@ -3714,8 +3717,11 @@ pc
 ;
 }
 inline
+Return
+<
 JSScript
 *
+>
 VMFrame
 :
 :
@@ -3723,6 +3729,9 @@ script
 (
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 regs
@@ -3779,6 +3788,9 @@ pc
 (
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 regs

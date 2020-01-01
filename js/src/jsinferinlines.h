@@ -2781,6 +2781,9 @@ JSFunction
 fun
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 fun
@@ -3914,6 +3917,9 @@ jsbytecode
 pc
 )
 {
+AutoAssertNoGC
+nogc
+;
 #
 ifdef
 JS_ION

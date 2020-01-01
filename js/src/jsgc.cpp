@@ -21979,6 +21979,9 @@ Reason
 reason
 )
 {
+AutoAssertNoGC
+nogc
+;
 #
 ifdef
 DEBUG
@@ -22022,17 +22025,6 @@ isGCScheduled
 ;
 #
 endif
-if
-(
-rt
--
->
-isHeapBusy
-(
-)
-)
-return
-;
 if
 (
 rt

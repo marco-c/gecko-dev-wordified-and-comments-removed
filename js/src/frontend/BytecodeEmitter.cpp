@@ -13134,6 +13134,10 @@ fun
 script
 (
 )
+.
+unsafeGet
+(
+)
 )
 ;
 fun
@@ -23396,6 +23400,10 @@ ParseNode
 pn
 )
 {
+AssertCanGC
+(
+)
+;
 RootedFunction
 fun
 (
@@ -23427,6 +23435,10 @@ fun
 -
 >
 script
+(
+)
+.
+unsafeGet
 (
 )
 )

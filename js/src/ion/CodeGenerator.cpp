@@ -1983,6 +1983,10 @@ fun
 script
 (
 )
+.
+unsafeGet
+(
+)
 )
 Address
 (
@@ -17914,6 +17918,10 @@ generate
 (
 )
 {
+AssertCanGC
+(
+)
+;
 JSContext
 *
 cx
@@ -18103,10 +18111,10 @@ encodeSafepoints
 (
 )
 ;
-JSScript
-*
+RootedScript
 script
-=
+(
+cx
 gen
 -
 >
@@ -18116,6 +18124,7 @@ info
 .
 script
 (
+)
 )
 ;
 JS_ASSERT
@@ -25977,6 +25986,10 @@ LFunctionBoundary
 lir
 )
 {
+AssertCanGC
+(
+)
+;
 Register
 temp
 =
