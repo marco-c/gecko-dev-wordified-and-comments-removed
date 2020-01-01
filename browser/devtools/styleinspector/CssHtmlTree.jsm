@@ -4406,7 +4406,7 @@ this
 .
 valueNode
 .
-innerHTML
+textContent
 =
 "
 "
@@ -4425,7 +4425,7 @@ this
 .
 matchedSelectorsContainer
 .
-innerHTML
+textContent
 =
 "
 "
@@ -4456,7 +4456,7 @@ this
 .
 valueNode
 .
-innerHTML
+textContent
 =
 this
 .
