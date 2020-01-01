@@ -716,6 +716,9 @@ indexedDB
 '
 location
 '
+'
+Worker
+'
 ]
 ;
 if
@@ -744,6 +747,9 @@ XMLHttpRequest
 '
 '
 WebSocket
+'
+'
+Worker
 '
 ]
 ;
