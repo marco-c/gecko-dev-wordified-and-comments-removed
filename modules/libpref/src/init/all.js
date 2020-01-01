@@ -22746,16 +22746,6 @@ print_extra_margin
 pref
 (
 "
-print
-.
-whileInPrintPreview
-"
-false
-)
-;
-pref
-(
-"
 font
 .
 allow_double_byte_special_chars
