@@ -8629,6 +8629,12 @@ aCopy
 .
 mProperty
 )
+mUnknownProperty
+(
+aCopy
+.
+mUnknownProperty
+)
 {
 }
 void
