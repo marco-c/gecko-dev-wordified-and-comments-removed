@@ -149,6 +149,14 @@ ConfigureVideoDecoder
 (
 )
 ;
+HRESULT
+ConfigureVideoFrameGeometry
+(
+IMFMediaType
+*
+aMediaType
+)
+;
 RefPtr
 <
 IMFSourceReader
@@ -161,6 +169,9 @@ WMFByteStream
 >
 mByteStream
 ;
+nsIntRect
+mPictureRegion
+;
 uint32_t
 mAudioChannels
 ;
@@ -169,9 +180,6 @@ mAudioBytesPerSample
 ;
 uint32_t
 mAudioRate
-;
-uint32_t
-mVideoWidth
 ;
 uint32_t
 mVideoHeight
