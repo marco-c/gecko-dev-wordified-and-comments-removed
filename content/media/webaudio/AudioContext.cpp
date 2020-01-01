@@ -1456,6 +1456,16 @@ GetParentObject
 )
 )
 ;
+if
+(
+!
+scriptGlobal
+)
+{
+return
+nullptr
+;
+}
 nsIScriptContext
 *
 scriptContext
