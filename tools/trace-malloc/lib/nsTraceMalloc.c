@@ -5312,6 +5312,10 @@ dli_sname
 =
 NULL
 ;
+TM_EXIT_MONITOR
+(
+)
+;
 ok
 =
 my_dladdr
@@ -5323,6 +5327,10 @@ void
 pc
 &
 info
+)
+;
+TM_ENTER_MONITOR
+(
 )
 ;
 if
