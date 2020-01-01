@@ -91,6 +91,10 @@ AudioDestinationNode
 .
 webidl
 \
+AudioListener
+.
+webidl
+\
 AudioNode
 .
 webidl

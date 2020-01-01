@@ -115,6 +115,10 @@ AudioDestinationNode
 .
 cpp
 \
+AudioListener
+.
+cpp
+\
 AudioNode
 .
 cpp
@@ -163,6 +167,10 @@ AudioBufferSourceNode
 h
 \
 AudioDestinationNode
+.
+h
+\
+AudioListener
 .
 h
 \
