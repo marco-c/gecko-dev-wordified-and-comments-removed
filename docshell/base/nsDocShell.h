@@ -1300,7 +1300,7 @@ aChannel
 ;
 static
 bool
-ChannelIsSafeMethod
+ChannelIsSafeHTTPMethod
 (
 nsIChannel
 *
