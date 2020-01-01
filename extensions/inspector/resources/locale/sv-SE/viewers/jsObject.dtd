@@ -421,9 +421,6 @@ label
 Utv
 rdera
 JavaScript
-.
-.
-.
 "
 >
 <
@@ -474,7 +471,13 @@ JavaScript
 uttryck
 .
 Variabeln
+&
+quot
+;
 target
+&
+quot
+;
 r
 f
 r
