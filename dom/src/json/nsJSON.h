@@ -283,7 +283,10 @@ nsJSONListener
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+Value
 *
 rootVal
 bool
@@ -310,7 +313,10 @@ JSContext
 *
 mCx
 ;
-jsval
+JS
+:
+:
+Value
 *
 mRootVal
 ;

@@ -660,7 +660,10 @@ desc
 JSObject
 *
 obj
-jsval
+JS
+:
+:
+Value
 v
 bool
 readonly

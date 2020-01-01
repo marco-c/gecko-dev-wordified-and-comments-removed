@@ -407,7 +407,10 @@ nsAString
 &
 aName
 const
-jsval
+JS
+:
+:
+Value
 &
 aResult
 )
@@ -1098,7 +1101,10 @@ JSContext
 *
 aCx
 const
-jsval
+JS
+:
+:
+Value
 &
 aOptions
 nsresult
@@ -5194,7 +5200,10 @@ nsIDOMGeoPositionErrorCallback
 *
 errorCallback
 const
-jsval
+JS
+:
+:
+Value
 &
 jsoptions
 JSContext
@@ -5475,7 +5484,10 @@ nsIDOMGeoPositionErrorCallback
 *
 errorCallback
 const
-jsval
+JS
+:
+:
+Value
 &
 jsoptions
 JSContext
