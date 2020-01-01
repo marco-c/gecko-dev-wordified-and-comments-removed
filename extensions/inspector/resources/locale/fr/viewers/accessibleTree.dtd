@@ -407,7 +407,8 @@ role
 .
 label
 "
-Role
+R
+le
 "
 >
 <
@@ -417,7 +418,7 @@ name
 .
 label
 "
-Name
+Nom
 "
 >
 <
@@ -427,7 +428,9 @@ nodeName
 .
 label
 "
-Node
-Name
+Nom
+du
+n
+ud
 "
 >
