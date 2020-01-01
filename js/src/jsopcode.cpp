@@ -8040,7 +8040,9 @@ JS_ASSERT
 strcmp
 (
 s
-js_Infinity_str
+"
+Infinity
+"
 )
 &
 &
@@ -8059,7 +8061,9 @@ strcmp
 s
 +
 1
-js_Infinity_str
+"
+Infinity
+"
 )
 )
 &
@@ -8067,7 +8071,9 @@ js_Infinity_str
 strcmp
 (
 s
-js_NaN_str
+"
+NaN
+"
 )
 )
 ;
