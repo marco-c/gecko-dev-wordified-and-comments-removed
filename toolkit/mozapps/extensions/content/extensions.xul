@@ -2848,7 +2848,7 @@ accesskey
 &
 cmd
 .
-installFile
+installLocalFile
 .
 accesskey
 ;

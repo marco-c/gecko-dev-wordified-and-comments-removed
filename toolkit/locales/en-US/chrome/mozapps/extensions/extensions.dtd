@@ -239,11 +239,11 @@ Install
 ENTITY
 cmd
 .
-installFile
+installLocalFile
 .
 accesskey
 "
-I
+n
 "
 >
 <
