@@ -49,6 +49,12 @@ a11y
 ;
 template
 class
+mozilla
+:
+:
+a11y
+:
+:
 ProgressMeterAccessible
 <
 1
@@ -56,6 +62,12 @@ ProgressMeterAccessible
 ;
 template
 class
+mozilla
+:
+:
+a11y
+:
+:
 ProgressMeterAccessible
 <
 100
