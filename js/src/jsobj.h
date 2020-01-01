@@ -524,13 +524,6 @@ PropDesc
 >
 PropDescArray
 ;
-void
-MeterEntryCount
-(
-uintN
-count
-)
-;
 }
 enum
 {
@@ -5783,7 +5776,7 @@ JSSharpObjectMap
 jsrefcount
 depth
 ;
-jsatomid
+uint32
 sharpgen
 ;
 JSHashTable
