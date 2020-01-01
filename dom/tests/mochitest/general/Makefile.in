@@ -472,6 +472,10 @@ test_bug631440
 .
 html
 \
+test_bug653364
+.
+html
+\
 test_consoleAPI
 .
 html
