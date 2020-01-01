@@ -3001,6 +3001,9 @@ isFlatClosure
 setFixedSlot
 (
 JSSLOT_FLAT_CLOSURE_UPVARS
+js
+:
+:
 PrivateValue
 (
 upvars
@@ -4118,6 +4121,9 @@ PACKED_ARRAY
 }
 else
 {
+js
+:
+:
 ClearValueRange
 (
 fixedSlots

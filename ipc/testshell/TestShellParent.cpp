@@ -353,7 +353,12 @@ aResponse
 {
 NS_ENSURE_TRUE
 (
+*
 mCallback
+.
+ToJSValPtr
+(
+)
 !
 =
 JSVAL_NULL

@@ -25,6 +25,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 class
 nsDOMMessageEvent
 :

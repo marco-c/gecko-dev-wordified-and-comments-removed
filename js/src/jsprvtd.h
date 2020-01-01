@@ -7,7 +7,7 @@ jsprvtd_h___
 #
 include
 "
-jspubtd
+jsapi
 .
 h
 "
@@ -211,6 +211,9 @@ JSAtom
 ;
 struct
 JSDefinition
+;
+class
+JSWrapper
 ;
 namespace
 js

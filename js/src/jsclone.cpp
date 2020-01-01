@@ -3109,12 +3109,9 @@ d
 if
 (
 !
-JSVAL_IS_DOUBLE
-(
-JSVAL_FROM_LAYOUT
+JSVAL_IS_DOUBLE_IMPL
 (
 l
-)
 )
 )
 {

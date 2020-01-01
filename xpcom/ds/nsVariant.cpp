@@ -9280,7 +9280,10 @@ nsVariant
 :
 GetAsJSVal
 (
-jsval
+JS
+:
+:
+Value
 *
 _retval
 )

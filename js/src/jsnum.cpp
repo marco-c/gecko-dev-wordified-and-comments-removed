@@ -263,10 +263,6 @@ js
 :
 types
 ;
-using
-namespace
-mozilla
-;
 #
 ifndef
 JS_HAVE_STDINT_H
