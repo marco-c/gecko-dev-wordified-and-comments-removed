@@ -1820,11 +1820,11 @@ string
 name
 =
 "
-datareporting_crashreporter_title
+datareporting_crashreporter_title_short
 "
 >
 &
-datareporting_crashreporter_title
+datareporting_crashreporter_title_short
 ;
 <
 /
