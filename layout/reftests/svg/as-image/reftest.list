@@ -648,7 +648,7 @@ in
 this
 test
 triggers
-72
+30
 assertions
 (
 bug
@@ -656,7 +656,7 @@ bug
 )
 asserts
 (
-72
+30
 )
 =
 =
