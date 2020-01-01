@@ -118,6 +118,17 @@ CanvasRenderingContext2DBinding
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+CanvasPattern
+.
+h
+"
+#
 define
 NS_CANVASGRADIENTAZURE_PRIVATE_IID
 \
@@ -155,9 +166,6 @@ SourceSurface
 namespace
 dom
 {
-class
-CanvasPattern
-;
 class
 TextMetrics
 ;
@@ -750,7 +758,7 @@ aError
 ;
 already_AddRefed
 <
-nsIDOMCanvasPattern
+CanvasPattern
 >
 CreatePattern
 (
