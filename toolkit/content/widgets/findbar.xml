@@ -1618,6 +1618,13 @@ find
 -
 fast
 "
+control
+=
+"
+findbar
+-
+textbox
+"
 /
 >
 <
