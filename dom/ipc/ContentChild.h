@@ -279,13 +279,13 @@ uint32_t
 &
 aChromeFlags
 const
-AppToken
-&
-aOwnOrContainingAppToken
-const
 bool
 &
 aIsBrowserElement
+const
+AppId
+&
+aAppId
 )
 ;
 virtual
