@@ -2635,6 +2635,16 @@ if
 (
 !
 wrappedTarget
+|
+|
+!
+(
+wrappedTarget
+instanceof
+Ci
+.
+nsIDOMNSEditableElement
+)
 )
 break
 ;
