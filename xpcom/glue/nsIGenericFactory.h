@@ -238,11 +238,13 @@ NSGetInterfacesProcPtr
 (
 PRUint32
 *
+NS_OUTPARAM
 countp
 nsIID
 *
 *
 *
+NS_OUTPARAM
 array
 )
 ;

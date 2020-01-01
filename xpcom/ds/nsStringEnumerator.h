@@ -20,6 +20,7 @@ nsIUTF8StringEnumerator
 *
 *
 aResult
+NS_OUTPARAM
 const
 nsCStringArray
 *
@@ -34,6 +35,7 @@ nsIStringEnumerator
 *
 *
 aResult
+NS_OUTPARAM
 const
 nsStringArray
 *
@@ -48,6 +50,7 @@ nsIStringEnumerator
 *
 *
 aResult
+NS_OUTPARAM
 nsStringArray
 *
 aArray
@@ -61,6 +64,7 @@ nsIUTF8StringEnumerator
 *
 *
 aResult
+NS_OUTPARAM
 nsCStringArray
 *
 aArray
@@ -74,6 +78,7 @@ nsIStringEnumerator
 *
 *
 aResult
+NS_OUTPARAM
 const
 nsStringArray
 *
@@ -91,6 +96,7 @@ nsIUTF8StringEnumerator
 *
 *
 aResult
+NS_OUTPARAM
 const
 nsCStringArray
 *

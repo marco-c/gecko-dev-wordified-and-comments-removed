@@ -1986,6 +1986,7 @@ T
 *
 *
 rhs
+NS_OUTPARAM
 )
 {
 NS_ASSERTION
@@ -2929,6 +2930,7 @@ nsISupports
 *
 *
 rhs
+NS_OUTPARAM
 )
 {
 NS_ASSERTION

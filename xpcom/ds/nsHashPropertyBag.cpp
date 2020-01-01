@@ -219,6 +219,9 @@ nsIVariant
 _retval
 )
 {
+if
+(
+!
 mPropertyHash
 .
 Get
@@ -226,6 +229,11 @@ Get
 name
 _retval
 )
+)
+*
+_retval
+=
+nsnull
 ;
 return
 NS_OK
