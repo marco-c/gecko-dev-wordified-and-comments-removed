@@ -24162,6 +24162,13 @@ isFunction
 )
 )
 {
+AutoCompartment
+ac
+(
+cx
+funobj
+)
+;
 ReportIsNotFunction
 (
 cx
