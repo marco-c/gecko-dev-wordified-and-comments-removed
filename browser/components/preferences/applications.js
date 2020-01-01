@@ -1398,6 +1398,9 @@ nsIWebContentConverterService
 )
 _shellSvc
 :
+#
+ifdef
+HAVE_SHELL_SERVICE
 Cc
 [
 "
@@ -1421,6 +1424,11 @@ Ci
 .
 nsIShellService
 )
+#
+else
+null
+#
+endif
 get
 description
 (
@@ -1866,7 +1874,12 @@ __defaultApplicationHandler
 ;
 var
 defaultFeedReader
+=
+null
 ;
+#
+ifdef
+HAVE_SHELL_SERVICE
 try
 {
 defaultFeedReader
@@ -1884,6 +1897,8 @@ ex
 )
 {
 }
+#
+endif
 if
 (
 defaultFeedReader
@@ -1969,6 +1984,9 @@ hasDefaultHandler
 (
 )
 {
+#
+ifdef
+HAVE_SHELL_SERVICE
 try
 {
 if
@@ -1989,6 +2007,8 @@ ex
 )
 {
 }
+#
+endif
 return
 false
 ;
