@@ -2854,6 +2854,8 @@ aPostData
 aHeaders
 )
 {
+try
+{
 this
 .
 _currentURI
@@ -2871,6 +2873,13 @@ null
 null
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 this
 .
 _browser
