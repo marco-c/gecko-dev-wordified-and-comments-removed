@@ -14826,6 +14826,7 @@ char
 *
 filename
 ;
+const
 char
 *
 pathname
