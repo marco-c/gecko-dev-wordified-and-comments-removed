@@ -34,7 +34,9 @@ p
 .
 get
 (
+[
 42
+]
 )
 undefined
 )
