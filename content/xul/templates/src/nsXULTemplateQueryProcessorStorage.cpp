@@ -468,13 +468,13 @@ mStatement
 VALUE_TYPE_INTEGER
 )
 {
-PRInt32
+PRInt64
 val
 =
 mStatement
 -
 >
-AsInt32
+AsInt64
 (
 c
 )
@@ -482,7 +482,7 @@ c
 value
 -
 >
-SetAsInt32
+SetAsInt64
 (
 val
 )
