@@ -1264,6 +1264,9 @@ name
 void
 splicePrototype
 (
+JSContext
+*
+cx
 JSObject
 *
 proto
@@ -1304,6 +1307,17 @@ cx
 ;
 void
 storeToInstances
+(
+JSContext
+*
+cx
+Property
+*
+base
+)
+;
+void
+getFromPrototypes
 (
 JSContext
 *

@@ -19552,6 +19552,7 @@ getType
 >
 splicePrototype
 (
+cx
 proto
 )
 ;

@@ -6799,6 +6799,7 @@ getType
 >
 splicePrototype
 (
+cx
 obj_proto
 )
 ;
@@ -6822,6 +6823,7 @@ getType
 >
 splicePrototype
 (
+cx
 obj_proto
 )
 ;
