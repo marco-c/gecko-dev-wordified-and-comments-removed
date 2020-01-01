@@ -77855,9 +77855,11 @@ lt
 ;
 then
 EXTRA_GYP_DEFINES
-+
 =
 "
+{
+EXTRA_GYP_DEFINES
+}
 -
 D
 armv7
@@ -77866,9 +77868,11 @@ armv7
 "
 else
 EXTRA_GYP_DEFINES
-+
 =
 "
+{
+EXTRA_GYP_DEFINES
+}
 -
 D
 armv7
