@@ -495,7 +495,7 @@ abort
 const
 unsigned
 short
-INITIAL
+EMPTY
 =
 0
 ;
