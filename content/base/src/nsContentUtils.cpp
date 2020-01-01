@@ -1056,6 +1056,13 @@ h
 #
 include
 "
+nsIContentViewer
+.
+h
+"
+#
+include
+"
 prdtoa
 .
 h

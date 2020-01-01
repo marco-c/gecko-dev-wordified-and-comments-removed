@@ -499,10 +499,6 @@ nsFrameTraversal
 .
 h
 \
-nsIDocumentViewer
-.
-h
-\
 nsIFrameTraversal
 .
 h

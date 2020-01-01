@@ -39,7 +39,7 @@ htmlCopyEncoder
 "
 #
 define
-NS_DOCUMENT_VIEWER_CID
+NS_CONTENT_VIEWER_CID
 \
 {
 0x972d8d8f

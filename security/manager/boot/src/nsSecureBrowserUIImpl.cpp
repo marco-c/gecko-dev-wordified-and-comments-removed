@@ -93,13 +93,6 @@ h
 #
 include
 "
-nsIDocumentViewer
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

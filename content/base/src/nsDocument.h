@@ -329,7 +329,7 @@ h
 #
 include
 "
-nsIDocumentViewer
+nsIContentViewer
 .
 h
 "
@@ -1347,7 +1347,7 @@ SetupViewer
 nsIRequest
 *
 aRequest
-nsIDocumentViewer
+nsIContentViewer
 *
 *
 aViewer
@@ -1568,7 +1568,7 @@ AddExternalResource
 nsIURI
 *
 aURI
-nsIDocumentViewer
+nsIContentViewer
 *
 aViewer
 nsILoadGroup
