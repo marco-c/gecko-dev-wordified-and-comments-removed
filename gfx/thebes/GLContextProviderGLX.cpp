@@ -4938,12 +4938,6 @@ actualFormat
 aFormat
 )
 ;
-actualFormat
-.
-samples
-=
-0
-;
 nsRefPtr
 <
 GLContextGLX
@@ -4991,6 +4985,7 @@ glContext
 ResizeOffscreenFBO
 (
 aSize
+true
 )
 )
 {
