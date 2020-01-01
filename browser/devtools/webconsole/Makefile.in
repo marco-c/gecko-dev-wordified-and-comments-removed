@@ -99,6 +99,10 @@ AutocompletePopup
 .
 jsm
 \
+WebConsoleUtils
+.
+jsm
+\
 (
 NULL
 )
