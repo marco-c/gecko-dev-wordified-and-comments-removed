@@ -2171,7 +2171,7 @@ JS_STATIC_ASSERT
 offsetof
 (
 VMFrame
-unused
+scratch
 )
 =
 =
