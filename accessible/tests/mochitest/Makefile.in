@@ -442,6 +442,10 @@ mk
 _TEST_FILES
 =
 \
+test_aria_activedescendant
+.
+html
+\
 test_bug368835
 .
 xul
