@@ -293,6 +293,16 @@ jsbytecode
 pc
 )
 {
+if
+(
+!
+hasBaselineScript
+(
+)
+)
+return
+MIRType_None
+;
 const
 ICEntry
 &

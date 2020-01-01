@@ -24950,6 +24950,17 @@ MUnaryInstruction
 def
 )
 {
+JS_ASSERT
+(
+!
+types
+-
+>
+unknown
+(
+)
+)
+;
 setResultType
 (
 MIRType_Value
