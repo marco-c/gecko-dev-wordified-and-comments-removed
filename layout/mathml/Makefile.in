@@ -544,10 +544,6 @@ nsMathMLContainerFrame
 .
 cpp
 \
-nsMathMLForeignFrameWrapper
-.
-cpp
-\
 nsMathMLOperators
 .
 cpp
