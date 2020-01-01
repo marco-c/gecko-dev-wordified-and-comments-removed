@@ -107,6 +107,11 @@ html
 "
 )
 ;
+yield
+hideContextUI
+(
+)
+;
 let
 doc
 =
