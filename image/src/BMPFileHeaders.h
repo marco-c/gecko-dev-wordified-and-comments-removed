@@ -144,9 +144,14 @@ BFH_INTERNAL_LENGTH
 WIN_V5_INTERNAL_BIH_LENGTH
 )
 #
+ifndef
+LCS_sRGB
+#
 define
 LCS_sRGB
 0x73524742
+#
+endif
 struct
 xyz
 {

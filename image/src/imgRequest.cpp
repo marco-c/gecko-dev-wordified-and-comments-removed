@@ -3010,7 +3010,13 @@ mStatusTracker
 mContentType
 mURI
 mIsMultiPartChannel
+static_cast
+<
+uint32_t
+>
+(
 mInnerWindowId
+)
 )
 ;
 mStatusTracker

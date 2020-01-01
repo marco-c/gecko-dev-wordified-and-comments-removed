@@ -45,9 +45,11 @@ char
 *
 SVG_MIMETYPE
 ;
-struct
+class
 ImageFactory
 {
+public
+:
 static
 already_AddRefed
 <
