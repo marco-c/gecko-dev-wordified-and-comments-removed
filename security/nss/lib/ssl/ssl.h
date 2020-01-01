@@ -419,7 +419,7 @@ SSL_REQUIRE_SAFE_NEGOTIATION
 Peer
 must
 send
-Signalling
+Signaling
 *
 /
 #
@@ -702,7 +702,7 @@ PRBool
 )
 #
 define
-SSL_RENEGOTIATE_CLIENT_ONLY
+SSL_RENEGOTIATE_TRANSITIONAL
 (
 (
 PRBool

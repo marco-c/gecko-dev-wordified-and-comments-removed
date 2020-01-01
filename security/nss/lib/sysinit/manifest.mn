@@ -413,9 +413,6 @@ CSRCS
 nsssysinit
 .
 c
-LIBRARY
-=
-nsssysinit
 LIBRARY_NAME
 =
 nsssysinit

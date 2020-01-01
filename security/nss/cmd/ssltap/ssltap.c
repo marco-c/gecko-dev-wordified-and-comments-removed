@@ -76,7 +76,7 @@ Revision
 :
 1
 .
-18
+19
 (
 Date
 :
@@ -84,12 +84,12 @@ Date
 /
 02
 /
-10
-02
-:
-00
+16
+18
 :
 56
+:
+47
 )
 Author
 :
@@ -3263,7 +3263,7 @@ case
 cs_str
 =
 "
-TLS_RENEGO_PROTECTION_REQUEST
+TLS_EMPTY_RENEGOTIATION_INFO_SCSV
 "
 ;
 break
