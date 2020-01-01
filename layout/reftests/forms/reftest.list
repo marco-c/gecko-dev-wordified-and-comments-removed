@@ -25,6 +25,17 @@ html
 #
 bug
 409587
+fails
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+cocoa
+"
+)
 =
 =
 input
@@ -47,6 +58,9 @@ size
 ref
 .
 html
+#
+bug
+428458
 =
 =
 input
