@@ -1893,6 +1893,9 @@ hasARMv7
 "
 hasNEON
 "
+"
+isWow64
+"
 ]
 ;
 for
