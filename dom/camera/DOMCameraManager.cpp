@@ -338,17 +338,6 @@ nsIPermissionManager
 ALLOW_ACTION
 )
 {
-NS_WARNING
-(
-"
-No
-permission
-to
-access
-camera
-"
-)
-;
 return
 false
 ;
