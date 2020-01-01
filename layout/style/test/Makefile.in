@@ -843,6 +843,10 @@ test_units_time
 .
 html
 \
+test_value_cloning
+.
+html
+\
 test_value_computation
 .
 html
