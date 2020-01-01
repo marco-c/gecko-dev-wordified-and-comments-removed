@@ -3825,10 +3825,6 @@ nsIScrollableFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIScrollableViewProvider
-)
-NS_QUERYFRAME_ENTRY
-(
 nsIStatefulFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
@@ -5125,10 +5121,6 @@ nsIAnonymousContentCreator
 NS_QUERYFRAME_ENTRY
 (
 nsIScrollableFrame
-)
-NS_QUERYFRAME_ENTRY
-(
-nsIScrollableViewProvider
 )
 NS_QUERYFRAME_ENTRY
 (

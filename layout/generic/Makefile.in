@@ -487,10 +487,6 @@ nsIScrollableFrame
 .
 h
 \
-nsIScrollableViewProvider
-.
-h
-\
 nsIStatefulFrame
 .
 h

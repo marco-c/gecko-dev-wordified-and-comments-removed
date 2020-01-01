@@ -576,13 +576,6 @@ h
 #
 include
 "
-nsIScrollableView
-.
-h
-"
-#
-include
-"
 nsIViewManager
 .
 h

@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIScrollableViewProvider
-.
-h
-"
-#
-include
-"
 nsIStatefulFrame
 .
 h
@@ -120,9 +113,6 @@ class
 nsIListControlFrame
 ;
 class
-nsIScrollableView
-;
-class
 nsComboboxDisplayFrame
 ;
 #
@@ -148,8 +138,6 @@ public
 nsISelectControlFrame
 public
 nsIRollupListener
-public
-nsIScrollableViewProvider
 public
 nsIStatefulFrame
 {
@@ -617,13 +605,6 @@ return
 NS_OK
 ;
 }
-virtual
-nsIScrollableView
-*
-GetScrollableView
-(
-)
-;
 NS_IMETHOD
 SaveState
 (

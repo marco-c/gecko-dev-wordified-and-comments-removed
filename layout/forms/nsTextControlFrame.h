@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsIScrollableViewProvider
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -110,9 +103,6 @@ nsTextInputListener
 class
 nsIDOMCharacterData
 ;
-class
-nsIScrollableView
-;
 #
 ifdef
 ACCESSIBILITY
@@ -133,8 +123,6 @@ public
 nsIAnonymousContentCreator
 public
 nsITextControlFrame
-public
-nsIScrollableViewProvider
 {
 public
 :
@@ -878,13 +866,6 @@ aRenderingContext
 nsSize
 &
 aIntrinsicSize
-)
-;
-virtual
-nsIScrollableView
-*
-GetScrollableView
-(
 )
 ;
 private

@@ -88,13 +88,6 @@ nsIContent
 .
 h
 "
-#
-include
-"
-nsIScrollableViewProvider
-.
-h
-"
 nsIFrame
 *
 NS_NewMenuFrame
@@ -121,9 +114,6 @@ aContext
 ;
 class
 nsMenuBarFrame
-;
-class
-nsIScrollableView
 ;
 #
 define
@@ -188,8 +178,6 @@ public
 nsBoxFrame
 public
 nsIMenuFrame
-public
-nsIScrollableViewProvider
 {
 public
 :
@@ -507,13 +495,6 @@ return
 mPopupFrame
 ;
 }
-virtual
-nsIScrollableView
-*
-GetScrollableView
-(
-)
-;
 nsresult
 DestroyPopupFrames
 (
