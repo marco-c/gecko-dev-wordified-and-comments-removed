@@ -4353,7 +4353,7 @@ AssemblerX86Shared
 call
 ;
 void
-cvttsd2si
+cvttsd2sq
 (
 const
 FloatRegister
@@ -4367,7 +4367,7 @@ dest
 {
 masm
 .
-cvttsd2si_rr
+cvttsd2sq_rr
 (
 src
 .
