@@ -63,7 +63,7 @@ version
 processorArchitecture
 =
 "
-X86
+*
 "
 name
 =
@@ -126,7 +126,7 @@ version
 processorArchitecture
 =
 "
-X86
+*
 "
 publicKeyToken
 =
