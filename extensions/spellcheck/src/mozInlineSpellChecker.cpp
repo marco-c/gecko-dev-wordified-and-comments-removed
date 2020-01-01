@@ -4151,13 +4151,8 @@ checkSpelling
 content
 -
 >
-IntrinsicState
+IsEditable
 (
-)
-.
-HasState
-(
-NS_EVENT_STATE_MOZ_READWRITE
 )
 ;
 }
