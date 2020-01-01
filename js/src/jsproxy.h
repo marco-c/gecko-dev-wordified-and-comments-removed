@@ -263,6 +263,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 js
 :
 :
@@ -717,6 +719,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp

@@ -492,7 +492,7 @@ union
 js
 :
 :
-PropertyOp
+StrictPropertyOp
 rawSetter
 ;
 JSObject
@@ -640,7 +640,7 @@ jsid
 id
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uint32
 slot
@@ -1063,7 +1063,7 @@ getter
 js
 :
 :
-PropertyOp
+StrictPropertyOp
 setter
 uint32
 slot
@@ -1480,7 +1480,7 @@ UndefinedValue
 js
 :
 :
-PropertyOp
+StrictPropertyOp
 setter
 (
 )
@@ -1504,7 +1504,7 @@ rawSetter
 js
 :
 :
-PropertyOp
+StrictPropertyOp
 setterOp
 (
 )
@@ -1643,7 +1643,7 @@ agetter
 js
 :
 :
-PropertyOp
+StrictPropertyOp
 asetter
 uint32
 aslot
@@ -1689,6 +1689,8 @@ cx
 JSObject
 *
 obj
+bool
+strict
 js
 :
 :

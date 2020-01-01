@@ -2384,7 +2384,7 @@ jsid
 id
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uint32
 slot
@@ -2688,7 +2688,7 @@ flags
 PropertyOp
 &
 getter
-PropertyOp
+StrictPropertyOp
 &
 setter
 )
@@ -2698,7 +2698,7 @@ if
 setter
 =
 =
-PropertyStub
+StrictPropertyStub
 )
 {
 JS_ASSERT
@@ -3380,7 +3380,7 @@ jsid
 id
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uint32
 slot
@@ -3514,7 +3514,7 @@ jsid
 id
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uint32
 slot
@@ -3918,7 +3918,7 @@ jsid
 id
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uint32
 slot
@@ -4583,7 +4583,7 @@ uintN
 mask
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 )
 {
@@ -4691,7 +4691,7 @@ if
 setter
 =
 =
-PropertyStub
+StrictPropertyStub
 )
 setter
 =

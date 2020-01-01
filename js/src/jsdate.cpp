@@ -1852,7 +1852,7 @@ JSProto_Date
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -11978,7 +11978,7 @@ addr
 (
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 0
 )
 )

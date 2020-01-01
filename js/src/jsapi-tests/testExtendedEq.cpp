@@ -65,7 +65,7 @@ PropertyStub
 js
 :
 :
-PropertyStub
+StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 NULL

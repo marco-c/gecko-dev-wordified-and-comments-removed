@@ -2994,6 +2994,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -3681,6 +3683,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -3784,7 +3788,7 @@ tvr
 addr
 (
 )
-true
+strict
 )
 &
 &
@@ -3794,7 +3798,7 @@ cx
 obj
 id
 vp
-true
+strict
 )
 ;
 }
@@ -3845,7 +3849,7 @@ getter
 =
 StrictArgGetter
 ;
-PropertyOp
+StrictPropertyOp
 setter
 =
 StrictArgSetter
@@ -3987,9 +3991,19 @@ JSPROP_SHARED
 ;
 getter
 =
+CastAsPropertyOp
+(
+obj
+-
+>
+getThrowTypeError
+(
+)
+)
+;
 setter
 =
-CastAsPropertyOp
+CastAsStrictPropertyOp
 (
 obj
 -
@@ -4434,7 +4448,7 @@ JSProto_Object
 PropertyStub
 args_delProperty
 PropertyStub
-PropertyStub
+StrictPropertyStub
 args_enumerate
 (
 JSResolveOp
@@ -4485,7 +4499,7 @@ JSProto_Object
 PropertyStub
 args_delProperty
 PropertyStub
-PropertyStub
+StrictPropertyStub
 strictargs_enumerate
 reinterpret_cast
 <
@@ -4523,7 +4537,7 @@ JSProto_Object
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -6135,6 +6149,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -6268,6 +6284,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -6433,6 +6451,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -6635,6 +6655,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -6817,6 +6839,7 @@ SetCallArg
 cx
 obj
 slotid
+false
 &
 argcopy
 )
@@ -6867,6 +6890,7 @@ SetCallVar
 cx
 obj
 slotid
+false
 &
 argcopy
 )
@@ -7186,7 +7210,7 @@ JSCLASS_MARK_IS_TRACE
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JS_EnumerateStub
 (
 JSResolveOp
@@ -8658,7 +8682,7 @@ fun
 nargs
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -8751,7 +8775,7 @@ UndefinedValue
 (
 )
 fun_getProperty
-PropertyStub
+StrictPropertyStub
 lfp
 -
 >
@@ -8840,6 +8864,8 @@ obj
 ;
 PropertyOp
 getter
+;
+StrictPropertyOp
 setter
 ;
 uintN
@@ -8891,7 +8917,7 @@ throwTypeError
 ;
 setter
 =
-CastAsPropertyOp
+CastAsStrictPropertyOp
 (
 throwTypeError
 )
@@ -8912,7 +8938,7 @@ fun_getProperty
 ;
 setter
 =
-PropertyStub
+StrictPropertyStub
 ;
 }
 if
@@ -9897,7 +9923,7 @@ JSProto_Function
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 fun_enumerate
 (
 JSResolveOp
@@ -13858,7 +13884,10 @@ attrs
 )
 {
 PropertyOp
-gsop
+gop
+;
+StrictPropertyOp
+sop
 ;
 JSFunction
 *
@@ -13877,14 +13906,22 @@ attrs
 ~
 JSFUN_STUB_GSOPS
 ;
-gsop
+gop
 =
 PropertyStub
+;
+sop
+=
+StrictPropertyStub
 ;
 }
 else
 {
-gsop
+gop
+=
+NULL
+;
+sop
 =
 NULL
 ;
@@ -13971,8 +14008,8 @@ ObjectValue
 *
 fun
 )
-gsop
-gsop
+gop
+sop
 attrs
 &
 ~

@@ -2712,7 +2712,7 @@ Shape
 *
 shape
 ;
-PropertyOp
+StrictPropertyOp
 setter
 ;
 JSWatchPointHandler
@@ -3389,6 +3389,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -3644,6 +3646,7 @@ wp
 setter
 obj
 userid
+strict
 vp
 )
 )
@@ -3772,6 +3775,7 @@ js_watch_set
 cx
 obj
 userid
+false
 vp
 )
 ;
@@ -3866,7 +3870,7 @@ js_watch_set
 }
 }
 static
-PropertyOp
+StrictPropertyOp
 WrapWatchedSetter
 (
 JSContext
@@ -3876,7 +3880,7 @@ jsid
 id
 uintN
 attrs
-PropertyOp
+StrictPropertyOp
 setter
 )
 {
@@ -3992,7 +3996,7 @@ return
 NULL
 ;
 return
-CastAsPropertyOp
+CastAsStrictPropertyOp
 (
 FUN_OBJECT
 (
@@ -4054,7 +4058,7 @@ newShape
 js
 :
 :
-PropertyOp
+StrictPropertyOp
 watchingSetter
 =
 WrapWatchedSetter
@@ -4089,7 +4093,7 @@ false
 js
 :
 :
-PropertyOp
+StrictPropertyOp
 originalSetter
 =
 newShape
@@ -4221,7 +4225,7 @@ newShape
 ;
 }
 static
-PropertyOp
+StrictPropertyOp
 UnwrapSetter
 (
 JSContext
@@ -4566,6 +4570,8 @@ cx
 ;
 PropertyOp
 getter
+;
+StrictPropertyOp
 setter
 ;
 uintN
@@ -4699,6 +4705,8 @@ JS_FALSE
 }
 getter
 =
+NULL
+;
 setter
 =
 NULL

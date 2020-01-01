@@ -126,7 +126,7 @@ JSProto_Boolean
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub

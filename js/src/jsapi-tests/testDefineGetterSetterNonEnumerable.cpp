@@ -180,7 +180,7 @@ funGetObj
 )
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSStrictPropertyOp
 funSetObj
 )
 JSPROP_GETTER
@@ -209,7 +209,7 @@ funGetObj
 )
 JS_DATA_TO_FUNC_PTR
 (
-JSPropertyOp
+JSStrictPropertyOp
 funSetObj
 )
 JSPROP_GETTER

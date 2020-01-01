@@ -3470,7 +3470,7 @@ StringValue
 str1
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 STRING_ELEMENT_ATTRS
 )
 )
@@ -3659,7 +3659,7 @@ JSProto_String
 PropertyStub
 PropertyStub
 str_getProperty
-PropertyStub
+StrictPropertyStub
 str_enumerate
 (
 JSResolveOp

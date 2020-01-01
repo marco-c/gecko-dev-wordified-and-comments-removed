@@ -167,6 +167,7 @@ cx
 obj
 shape
 entry
+strict
 vp
 )
 \
@@ -255,6 +256,7 @@ cx
 obj
 shape
 false
+strict
 vp
 )
 )

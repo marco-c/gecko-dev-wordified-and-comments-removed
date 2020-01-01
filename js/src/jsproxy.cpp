@@ -561,6 +561,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp
@@ -637,7 +639,7 @@ desc
 setter
 !
 =
-PropertyStub
+StrictPropertyStub
 )
 )
 {
@@ -658,6 +660,7 @@ attrs
 desc
 .
 shortid
+strict
 vp
 )
 )
@@ -700,7 +703,7 @@ desc
 .
 setter
 =
-PropertyStub
+StrictPropertyStub
 ;
 desc
 .
@@ -776,7 +779,7 @@ desc
 setter
 !
 =
-PropertyStub
+StrictPropertyStub
 )
 )
 {
@@ -797,6 +800,7 @@ attrs
 desc
 .
 shortid
+strict
 vp
 )
 )
@@ -839,7 +843,7 @@ desc
 .
 setter
 =
-PropertyStub
+StrictPropertyStub
 ;
 return
 defineProperty
@@ -881,6 +885,8 @@ desc
 .
 getter
 =
+NULL
+;
 desc
 .
 setter
@@ -2609,6 +2615,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp
@@ -3813,6 +3821,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp
@@ -3927,6 +3937,7 @@ cx
 proxy
 receiver
 id
+strict
 vp
 )
 ;
@@ -4982,6 +4993,8 @@ JSObject
 receiver
 jsid
 id
+bool
+strict
 Value
 *
 vp
@@ -5016,6 +5029,7 @@ cx
 proxy
 receiver
 id
+strict
 vp
 )
 ;
@@ -5542,7 +5556,7 @@ Value
 value
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uintN
 attrs
@@ -5675,6 +5689,7 @@ cx
 obj
 obj
 id
+strict
 vp
 )
 ;
@@ -6139,7 +6154,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -6191,7 +6206,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -6369,7 +6384,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -7690,7 +7705,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -8004,7 +8019,7 @@ JSProto_Proxy
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -8067,7 +8082,7 @@ OBJECT_TO_JSVAL
 module
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 )

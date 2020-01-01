@@ -303,7 +303,7 @@ JSProto_JSON
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -6963,7 +6963,7 @@ OBJECT_TO_JSVAL
 JSON
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 0
 )
 )

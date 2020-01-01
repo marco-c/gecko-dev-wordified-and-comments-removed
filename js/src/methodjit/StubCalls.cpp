@@ -813,6 +813,7 @@ cx
 obj
 shape
 entry
+strict
 &
 rval
 )
@@ -4277,7 +4278,7 @@ cx
 id
 rval
 PropertyStub
-PropertyStub
+StrictPropertyStub
 attrs
 )
 )
@@ -4343,7 +4344,7 @@ cx
 id
 rval
 PropertyStub
-PropertyStub
+StrictPropertyStub
 attrs
 )
 )
@@ -15879,7 +15880,7 @@ UndefinedValue
 (
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 attrs
 0
 0
@@ -15980,7 +15981,7 @@ atom
 )
 ref
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT

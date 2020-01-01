@@ -87,7 +87,7 @@ globalProp
 "
 vobj
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 )
 )
@@ -103,7 +103,7 @@ prop
 "
 JSVAL_VOID
 nativeGet
-JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_SHARED
 )
 )

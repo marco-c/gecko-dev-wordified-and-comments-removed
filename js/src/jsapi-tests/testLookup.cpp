@@ -340,7 +340,7 @@ JSCLASS_NEW_RESOLVE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 (
 JSResolveOp

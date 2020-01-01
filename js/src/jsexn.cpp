@@ -265,7 +265,7 @@ JSProto_Error
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 exn_enumerate
 (
 JSResolveOp
@@ -5409,7 +5409,7 @@ StringValue
 atom
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0
@@ -5425,7 +5425,7 @@ proto
 messageId
 empty
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0
@@ -5441,7 +5441,7 @@ proto
 fileNameId
 empty
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0
@@ -5460,7 +5460,7 @@ Valueify
 JSVAL_ZERO
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 0
 0

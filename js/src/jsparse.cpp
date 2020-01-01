@@ -4854,7 +4854,7 @@ globalObj
 id
 rval
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT

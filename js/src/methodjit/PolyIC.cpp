@@ -2725,7 +2725,7 @@ clasp
 setProperty
 !
 =
-PropertyStub
+StrictPropertyStub
 )
 return
 disable

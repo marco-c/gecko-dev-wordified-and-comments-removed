@@ -917,7 +917,7 @@ JSProto_Namespace
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -1434,7 +1434,7 @@ JSProto_QName
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -1479,7 +1479,7 @@ JSCLASS_IS_ANONYMOUS
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -1510,7 +1510,7 @@ JSCLASS_IS_ANONYMOUS
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -19325,6 +19325,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp
@@ -20297,6 +20299,7 @@ PutProperty
 cx
 parentobj
 id
+strict
 vp
 )
 ;
@@ -20844,6 +20847,7 @@ PutProperty
 cx
 kidobj
 id
+strict
 vp
 )
 ;
@@ -22617,6 +22621,7 @@ base
 >
 object
 id
+false
 &
 tv
 )
@@ -23542,7 +23547,7 @@ Value
 v
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uintN
 attrs
@@ -23614,6 +23619,7 @@ PutProperty
 cx
 obj
 id
+false
 &
 tmp
 )
@@ -23696,6 +23702,7 @@ PutProperty
 cx
 obj
 id
+strict
 Jsvalify
 (
 vp
@@ -25481,7 +25488,7 @@ JSProto_XML
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 xml_convert
@@ -26151,6 +26158,7 @@ JSVAL_TO_OBJECT
 v
 )
 name
+false
 vp
 )
 )
@@ -32231,6 +32239,7 @@ atomState
 .
 starAtom
 )
+false
 vp
 )
 )
@@ -36518,7 +36527,7 @@ Valueify
 v
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_PERMANENT
 )
 )
@@ -36636,7 +36645,7 @@ ObjectValue
 ns
 )
 PropertyStub
-PropertyStub
+StrictPropertyStub
 JSPROP_PERMANENT
 )
 )
@@ -38205,7 +38214,7 @@ JSCLASS_MARK_IS_TRACE
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub

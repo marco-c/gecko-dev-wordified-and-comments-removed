@@ -8096,7 +8096,7 @@ JSCLASS_IS_ANONYMOUS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -15528,6 +15528,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp
@@ -17135,7 +17137,7 @@ JSCLASS_GLOBAL_FLAGS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 sandbox_enumerate
 (
 JSResolveOp
@@ -24820,6 +24822,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp
@@ -25634,6 +25638,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp
@@ -27487,7 +27493,7 @@ JSCLASS_HAS_PRIVATE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 global_enumerate
 (
 JSResolveOp
@@ -27510,6 +27516,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 jsval
 *
 vp

@@ -2646,6 +2646,8 @@ JSObject
 obj
 jsid
 id
+JSBool
+strict
 Value
 *
 vp
@@ -3709,6 +3711,7 @@ array_length_setter
 cx
 obj
 id
+strict
 vp
 )
 ;
@@ -3952,7 +3955,7 @@ Value
 value
 PropertyOp
 getter
-PropertyOp
+StrictPropertyOp
 setter
 uintN
 attrs
@@ -4496,7 +4499,7 @@ JSProto_Array
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 js_TryValueOf
@@ -4542,7 +4545,7 @@ JSProto_Array
 slowarray_addProperty
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 js_TryValueOf

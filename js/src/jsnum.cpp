@@ -2753,7 +2753,7 @@ JSProto_Number
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -5668,7 +5668,7 @@ rt
 NaNValue
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY
@@ -5695,7 +5695,7 @@ rt
 positiveInfinityValue
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_PERMANENT
 |
 JSPROP_READONLY

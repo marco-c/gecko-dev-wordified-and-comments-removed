@@ -309,7 +309,7 @@ JSCLASS_MARK_IS_TRACE
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -5215,7 +5215,7 @@ JSCLASS_FREEZE_PROTO
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
@@ -5447,7 +5447,7 @@ JSCLASS_MARK_IS_TRACE
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub

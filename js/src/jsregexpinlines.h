@@ -784,7 +784,7 @@ PropertyStub
 js
 :
 :
-PropertyStub
+StrictPropertyStub
 JSPROP_ENUMERATE
 )
 ;

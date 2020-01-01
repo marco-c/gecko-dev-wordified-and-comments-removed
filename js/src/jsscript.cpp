@@ -348,6 +348,8 @@ indexp
 ;
 PropertyOp
 getter
+;
+StrictPropertyOp
 setter
 ;
 uint32
@@ -4241,7 +4243,7 @@ JSProto_Object
 PropertyStub
 PropertyStub
 PropertyStub
-PropertyStub
+StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub

@@ -660,7 +660,7 @@ getter
 js
 :
 :
-PropertyOp
+StrictPropertyOp
 setter
 uint32
 slot
@@ -1081,7 +1081,7 @@ agetter
 js
 :
 :
-PropertyOp
+StrictPropertyOp
 asetter
 uint32
 aslot
@@ -1321,6 +1321,8 @@ cx
 JSObject
 *
 obj
+bool
+strict
 js
 :
 :
@@ -1422,6 +1424,7 @@ SHAPE_USERID
 (
 this
 )
+strict
 vp
 )
 ;
