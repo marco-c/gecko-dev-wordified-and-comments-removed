@@ -136,6 +136,16 @@ classic
 /
 global
 /
+inContentUI
+.
+css
++
+skin
+/
+classic
+/
+global
+/
 listbox
 .
 css
