@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 xpcprivate
 .
 h
@@ -895,11 +886,11 @@ aName
 )
 mDidGetFlags
 (
-false
+PR_FALSE
 )
 mMustFreeName
 (
-false
+PR_FALSE
 )
 {
 }
@@ -972,7 +963,7 @@ mFlags
 }
 mDidGetFlags
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -1034,7 +1025,7 @@ mName
 {
 mMustFreeName
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -1657,7 +1648,7 @@ aData
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 struct
@@ -1741,7 +1732,7 @@ len
 thisLen
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -1788,7 +1779,7 @@ thisLen
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -1798,7 +1789,7 @@ len
 thisLen
 )
 return
-true
+PR_TRUE
 ;
 char
 charBefore
@@ -1919,7 +1910,7 @@ entry
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 NS_IMPL_ISUPPORTS4
@@ -3708,7 +3699,7 @@ get
 PRUint32
 length
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -3801,7 +3792,7 @@ if
 length
 !
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -3950,7 +3941,7 @@ else
 {
 subjectSetDomain
 =
-true
+PR_TRUE
 ;
 }
 aObject
@@ -3986,7 +3977,7 @@ else
 {
 objectSetDomain
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -5578,7 +5569,7 @@ aPrincipal
 CheckMayLoad
 (
 targetBaseURI
-true
+PR_TRUE
 )
 ;
 }
@@ -6005,7 +5996,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -6213,7 +6204,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -6511,7 +6502,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 flags
 )
@@ -6635,13 +6626,8 @@ JSFunction
 *
 fun
 =
+JS_GetObjectFunction
 (
-JSFunction
-*
-)
-JS_GetPrivate
-(
-aCx
 (
 JSObject
 *
@@ -6822,7 +6808,7 @@ result
 *
 result
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -6835,7 +6821,7 @@ mSystemPrincipal
 *
 result
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -6872,7 +6858,7 @@ GetScriptsEnabled
 *
 result
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -6995,7 +6981,7 @@ principalURI
 *
 result
 =
-false
+PR_FALSE
 ;
 return
 NS_ERROR_UNEXPECTED
@@ -7090,7 +7076,7 @@ ALLOW_SCRIPT
 *
 result
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -7168,7 +7154,7 @@ SCRIPT_SECURITY_NO_ACCESS
 *
 result
 =
-false
+PR_FALSE
 ;
 return
 rv
@@ -7177,7 +7163,7 @@ rv
 *
 result
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -7320,7 +7306,7 @@ aIsSystem
 *
 aIsSystem
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -7366,7 +7352,7 @@ subject
 *
 aIsSystem
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -7447,7 +7433,7 @@ aSubjectName
 aPrettyName
 aCertificate
 aURI
-true
+PR_TRUE
 result
 )
 ;
@@ -7736,8 +7722,8 @@ aPrettyName
 granted
 denied
 aCertificate
-true
-false
+PR_TRUE
+PR_FALSE
 )
 ;
 if
@@ -8122,7 +8108,7 @@ EmptyCString
 granted
 denied
 nsnull
-false
+PR_FALSE
 isTrusted
 )
 ;
@@ -8422,13 +8408,8 @@ JSFunction
 *
 fun
 =
+JS_GetObjectFunction
 (
-JSFunction
-*
-)
-JS_GetPrivate
-(
-cx
 obj
 )
 ;
@@ -8485,13 +8466,12 @@ frameScript
 else
 if
 (
-JS_GetFunctionObject
-(
-fun
-)
 !
-=
-obj
+JS_GetScriptPrincipals
+(
+cx
+script
+)
 )
 {
 nsIPrincipal
@@ -8621,13 +8601,8 @@ JSFunction
 *
 fun
 =
+JS_GetObjectFunction
 (
-JSFunction
-*
-)
-JS_GetPrivate
-(
-cx
 obj
 )
 ;
@@ -9221,7 +9196,7 @@ DEBUG
 aAllowShortCircuit
 #
 else
-true
+PR_TRUE
 #
 endif
 )
@@ -9409,7 +9384,7 @@ principal
 doGetObjectPrincipal
 (
 origObj
-false
+PR_FALSE
 )
 ;
 NS_ASSERTION
@@ -9567,7 +9542,7 @@ NS_ERROR_FAILURE
 ;
 mIsWritingPrefs
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -9693,7 +9668,7 @@ get
 }
 mIsWritingPrefs
 =
-false
+PR_FALSE
 ;
 nsIPrefService
 *
@@ -9850,7 +9825,7 @@ targetPrincipal
 mSystemPrincipal
 )
 :
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -9859,7 +9834,7 @@ NS_OK
 *
 result
 =
-false
+PR_FALSE
 ;
 nsIPrincipal
 *
@@ -10242,7 +10217,7 @@ get
 (
 )
 formatArgs
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatArgs
 )
@@ -10323,7 +10298,7 @@ rv
 *
 checkValue
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -10423,7 +10398,7 @@ if
 prompter
 )
 return
-false
+PR_FALSE
 ;
 }
 nsXPIDLString
@@ -10460,7 +10435,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 nsXPIDLString
 title
@@ -10496,7 +10471,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 nsXPIDLString
 yesStr
@@ -10532,7 +10507,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 nsXPIDLString
 noStr
@@ -10568,7 +10543,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 nsCAutoString
 val
@@ -10616,7 +10591,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 NS_ConvertUTF8toUTF16
 location
@@ -10676,7 +10651,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -10694,7 +10669,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 PRInt32
 buttonPressed
@@ -10786,7 +10761,7 @@ rv
 *
 checkValue
 =
-false
+PR_FALSE
 ;
 return
 (
@@ -11288,7 +11263,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -11868,7 +11843,7 @@ EmptyCString
 )
 nsnull
 nsnull
-false
+PR_FALSE
 getter_AddRefs
 (
 objectPrincipal
@@ -12149,7 +12124,7 @@ get
 PRUint32
 length
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
@@ -13190,7 +13165,7 @@ sPolicyPrefix
 {
 mPolicyPrefsChanged
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -13318,19 +13293,19 @@ nsnull
 )
 mPrefInitialized
 (
-false
+PR_FALSE
 )
 mIsJavaScriptEnabled
 (
-false
+PR_FALSE
 )
 mIsWritingPrefs
 (
-false
+PR_FALSE
 )
 mPolicyPrefsChanged
 (
-true
+PR_TRUE
 )
 {
 NS_ASSERTION
@@ -14769,7 +14744,7 @@ rv
 }
 mPolicyPrefsChanged
 =
-false
+PR_FALSE
 ;
 #
 ifdef
@@ -15645,7 +15620,7 @@ c
 )
 -
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 idSuffix
 )
@@ -15935,7 +15910,7 @@ certificateName
 {
 isCert
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -16073,11 +16048,11 @@ ScriptSecurityPrefChanged
 {
 mIsJavaScriptEnabled
 =
-true
+PR_TRUE
 ;
 sStrictFileOriginPolicy
 =
-true
+PR_TRUE
 ;
 nsresult
 rv
@@ -16157,7 +16132,7 @@ NS_ERROR_FAILURE
 ;
 mPrefInitialized
 =
-true
+PR_TRUE
 ;
 ScriptSecurityPrefChanged
 (
@@ -16585,7 +16560,7 @@ aClosure
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -16626,7 +16601,7 @@ cap
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 void
