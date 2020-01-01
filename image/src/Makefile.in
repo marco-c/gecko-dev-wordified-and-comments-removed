@@ -105,10 +105,6 @@ imgRequestProxy
 .
 h
 \
-ImageOps
-.
-h
-\
 (
 NULL
 )
@@ -127,15 +123,7 @@ ImageMetadata
 .
 cpp
 \
-ImageOps
-.
-cpp
-\
 ImageWrapper
-.
-cpp
-\
-ClippedImage
 .
 cpp
 \
