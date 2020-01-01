@@ -10710,6 +10710,14 @@ appId
 true
 )
 ;
+this
+.
+_clearPrivateData
+(
+0
+true
+)
+;
 break
 ;
 }
