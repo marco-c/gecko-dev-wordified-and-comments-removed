@@ -3385,6 +3385,9 @@ nsDisplayClip
 nsIFrame
 *
 aFrame
+nsIFrame
+*
+aClippingFrame
 nsDisplayItem
 *
 aItem
@@ -3399,6 +3402,9 @@ nsDisplayClip
 nsIFrame
 *
 aFrame
+nsIFrame
+*
+aClippingFrame
 nsDisplayList
 *
 aList
@@ -3507,6 +3513,16 @@ mClip
 aRect
 ;
 }
+nsIFrame
+*
+GetClippingFrame
+(
+)
+{
+return
+mClippingFrame
+;
+}
 virtual
 nsDisplayWrapList
 *
@@ -3522,6 +3538,10 @@ aItem
 ;
 private
 :
+nsIFrame
+*
+mClippingFrame
+;
 nsRect
 mClip
 ;
