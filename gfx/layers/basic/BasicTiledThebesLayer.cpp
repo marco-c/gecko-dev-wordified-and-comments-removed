@@ -1414,6 +1414,16 @@ nsnull
 )
 ;
 }
+BasicTiledLayerBuffer
+*
+heapCopy
+=
+new
+BasicTiledLayerBuffer
+(
+mTiledBuffer
+)
+;
 BasicManager
 (
 )
@@ -1430,8 +1440,7 @@ Hold
 (
 this
 )
-&
-mTiledBuffer
+heapCopy
 )
 ;
 }

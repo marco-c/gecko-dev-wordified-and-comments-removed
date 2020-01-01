@@ -705,6 +705,9 @@ mMainMemoryTiledBuffer
 *
 mTiledBuffer
 ;
+delete
+mTiledBuffer
+;
 mRegionToUpload
 .
 Or
