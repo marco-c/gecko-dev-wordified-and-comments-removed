@@ -3061,6 +3061,8 @@ argc
 void
 jsop_arguments
 (
+RejoinState
+rejoin
 )
 ;
 bool
@@ -3457,6 +3459,11 @@ jsop_getelem_dense
 (
 bool
 isPacked
+)
+;
+void
+jsop_getelem_args
+(
 )
 ;
 bool

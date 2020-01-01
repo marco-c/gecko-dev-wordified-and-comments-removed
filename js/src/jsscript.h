@@ -1083,7 +1083,12 @@ calledWithNew
 1
 ;
 bool
-analyzed
+usedLazyArgs
+:
+1
+;
+bool
+ranInference
 :
 1
 ;
