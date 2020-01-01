@@ -133,6 +133,15 @@ GdkEventKey
 aGdkKeyEvent
 )
 ;
+static
+bool
+IsKeyPressEventNecessary
+(
+GdkEventKey
+*
+aGdkKeyEvent
+)
+;
 protected
 :
 static
