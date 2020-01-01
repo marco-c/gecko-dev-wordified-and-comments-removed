@@ -1382,8 +1382,7 @@ parseInt
 totalMem
 )
 <
-=
-524288L
+300000L
 ;
 }
 catch
