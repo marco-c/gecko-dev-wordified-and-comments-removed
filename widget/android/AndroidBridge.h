@@ -991,11 +991,6 @@ FireAndWaitForTracerEvent
 (
 )
 ;
-bool
-GetAccessibilityEnabled
-(
-)
-;
 class
 AutoLocalJNIFrame
 {
@@ -1965,9 +1960,6 @@ jDisableBatteryNotifications
 ;
 jmethodID
 jGetCurrentBatteryInformation
-;
-jmethodID
-jGetAccessibilityEnabled
 ;
 jmethodID
 jHandleGeckoMessage
