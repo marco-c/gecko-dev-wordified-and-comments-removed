@@ -1647,6 +1647,9 @@ newWindow
 document
 .
 documentElement
+"
+navigateaway
+"
 )
 ;
 }
