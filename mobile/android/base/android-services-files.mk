@@ -1095,6 +1095,14 @@ sync
 /
 net
 /
+HawkAuthHeaderProvider
+.
+java
+\
+sync
+/
+net
+/
 HMACAuthHeaderProvider
 .
 java
