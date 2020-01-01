@@ -376,13 +376,13 @@ ANDROID
 #
 define
 PROFILE_DEFAULT_INTERVAL
-25
+1
 #
 else
 #
 define
 PROFILE_DEFAULT_INTERVAL
-10
+1
 #
 endif
 #
