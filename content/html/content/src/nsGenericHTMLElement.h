@@ -696,6 +696,14 @@ nsIDOMHTMLMenuElement
 aContextMenu
 )
 ;
+nsSize
+GetWidthHeightForImage
+(
+imgIRequest
+*
+aImageRequest
+)
+;
 protected
 :
 nsresult

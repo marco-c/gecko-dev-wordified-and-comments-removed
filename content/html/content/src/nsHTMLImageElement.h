@@ -433,11 +433,6 @@ GetXY
 (
 )
 ;
-nsSize
-GetWidthHeight
-(
-)
-;
 virtual
 void
 GetItemValueText
