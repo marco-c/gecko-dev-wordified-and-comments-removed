@@ -51,9 +51,6 @@ class
 TextureClient
 ;
 class
-ShadowLayersChild
-;
-class
 ImageBridgeChild
 ;
 class

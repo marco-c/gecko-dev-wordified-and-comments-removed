@@ -3299,7 +3299,7 @@ childSide
 TextureFactoryIdentifier
 textureFactoryIdentifier
 ;
-PLayersChild
+PLayerTransactionChild
 *
 shadowManager
 ;
@@ -3325,7 +3325,7 @@ shadowManager
 mCompositorChild
 -
 >
-SendPLayersConstructor
+SendPLayerTransactionConstructor
 (
 backendHint
 0
@@ -3463,7 +3463,7 @@ nsBaseWidget
 :
 GetLayerManager
 (
-PLayersChild
+PLayerTransactionChild
 *
 aShadowManager
 LayersBackend
