@@ -2245,6 +2245,10 @@ button
 (
 0
 )
+pressure
+(
+0
+)
 {
 }
 nsCOMPtr
@@ -2255,6 +2259,9 @@ relatedTarget
 ;
 PRInt16
 button
+;
+float
+pressure
 ;
 }
 ;

@@ -18,6 +18,13 @@ nsDOMUIEvent
 .
 h
 "
+#
+include
+"
+nsIDOMNSMouseEvent
+.
+h
+"
 class
 nsIContent
 ;
@@ -31,9 +38,9 @@ class
 nsDOMMouseEvent
 :
 public
-nsIDOMMouseEvent
-public
 nsDOMUIEvent
+public
+nsIDOMNSMouseEvent
 {
 public
 :
@@ -55,6 +62,7 @@ nsDOMMouseEvent
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMMOUSEEVENT
+NS_DECL_NSIDOMNSMOUSEEVENT
 NS_FORWARD_TO_NSDOMUIEVENT
 NS_IMETHOD
 GetWhich

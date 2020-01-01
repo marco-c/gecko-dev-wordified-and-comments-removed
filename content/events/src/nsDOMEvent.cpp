@@ -4536,6 +4536,16 @@ oldMouseEvent
 >
 button
 ;
+mouseEvent
+-
+>
+pressure
+=
+oldMouseEvent
+-
+>
+pressure
+;
 newEvent
 =
 mouseEvent
