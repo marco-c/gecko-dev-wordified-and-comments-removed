@@ -1322,7 +1322,7 @@ label
 =
 "
 &
-showPasswords
+savedPasswords
 .
 label
 ;
@@ -1331,7 +1331,7 @@ accesskey
 =
 "
 &
-showPasswords
+savedPasswords
 .
 accesskey
 ;
