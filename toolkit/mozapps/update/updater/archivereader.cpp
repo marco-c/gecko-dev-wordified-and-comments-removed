@@ -160,7 +160,7 @@ if
 inbuf
 )
 return
-MEM_ERROR
+ARCHIVE_READER_MEM_ERROR
 ;
 }
 }
@@ -208,7 +208,7 @@ if
 outbuf
 )
 return
-MEM_ERROR
+ARCHIVE_READER_MEM_ERROR
 ;
 }
 }

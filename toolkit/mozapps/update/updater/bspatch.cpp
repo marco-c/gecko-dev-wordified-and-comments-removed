@@ -373,7 +373,7 @@ if
 buf
 )
 return
-MEM_ERROR
+BSPATCH_MEM_ERROR
 ;
 int
 rv

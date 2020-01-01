@@ -590,7 +590,7 @@ if
 fileContents
 )
 return
-MEM_ERROR
+READ_STRINGS_MEM_ERROR
 ;
 if
 (

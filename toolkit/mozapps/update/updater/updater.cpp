@@ -3974,7 +3974,7 @@ GetLastError
 )
 ;
 return
-MEM_ERROR
+STRING_CONVERSION_ERROR
 ;
 }
 rv
@@ -4343,7 +4343,7 @@ if
 buf
 )
 return
-MEM_ERROR
+UPDATER_MEM_ERROR
 ;
 size_t
 r
@@ -4694,7 +4694,7 @@ GetLastError
 )
 ;
 return
-MEM_ERROR
+STRING_CONVERSION_ERROR
 ;
 }
 int
@@ -10038,7 +10038,7 @@ quotedpath
 {
 rv
 =
-MEM_ERROR
+UPDATER_QUOTED_PATH_MEM_ERROR
 ;
 break
 ;
@@ -10126,7 +10126,7 @@ quotedpath
 {
 rv
 =
-MEM_ERROR
+UPDATER_QUOTED_PATH_MEM_ERROR
 ;
 break
 ;
@@ -10894,7 +10894,7 @@ if
 action
 )
 return
-MEM_ERROR
+BAD_ACTION_ERROR
 ;
 rv
 =
@@ -11674,7 +11674,7 @@ if
 action
 )
 return
-MEM_ERROR
+BAD_ACTION_ERROR
 ;
 rv
 =
