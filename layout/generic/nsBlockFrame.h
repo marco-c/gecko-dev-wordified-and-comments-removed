@@ -1472,7 +1472,7 @@ aState
 const
 nsRect
 &
-aFloatAvailableSpace
+aAdjustedAvailableSpace
 nsIFrame
 *
 aFloat
