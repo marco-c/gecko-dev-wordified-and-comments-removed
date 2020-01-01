@@ -2023,14 +2023,6 @@ kid
 )
 return
 ;
-kid
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -2045,6 +2037,7 @@ FrameNeedsReflow
 (
 kid
 aType
+NS_FRAME_IS_DIRTY
 )
 ;
 }

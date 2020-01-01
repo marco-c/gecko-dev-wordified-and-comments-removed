@@ -3972,14 +3972,6 @@ Flush_Display
 }
 else
 {
-mOuter
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 aPresContext
 -
 >
@@ -3995,6 +3987,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -4418,14 +4411,6 @@ IsAlive
 )
 )
 ;
-aChildBox
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 aState
 .
 PresShell
@@ -4440,6 +4425,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }

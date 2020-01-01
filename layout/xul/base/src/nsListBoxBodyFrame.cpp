@@ -1117,11 +1117,6 @@ value
 PR_FALSE
 )
 ;
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -1139,6 +1134,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -1843,11 +1839,6 @@ if
 mRowHeightWasSet
 )
 {
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -1865,6 +1856,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 PRInt32
@@ -3694,11 +3686,6 @@ mScrolling
 =
 PR_TRUE
 ;
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -3716,6 +3703,7 @@ nsIPresShell
 :
 :
 eResize
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 presContext
@@ -4124,11 +4112,6 @@ childFrame
 nextFrame
 ;
 }
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -4146,6 +4129,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
@@ -4216,11 +4200,6 @@ childFrame
 prevFrame
 ;
 }
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -4238,6 +4217,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
@@ -4912,11 +4892,6 @@ currFrame
 nextFrame
 ;
 }
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -4934,6 +4909,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
@@ -4987,11 +4963,6 @@ state
 aFrameList
 )
 ;
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -5009,6 +4980,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -5061,11 +5033,6 @@ aPrevFrame
 aFrameList
 )
 ;
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -5083,6 +5050,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -5214,11 +5182,6 @@ CreateRows
 (
 )
 ;
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -5236,6 +5199,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
@@ -5529,11 +5493,6 @@ aChildFrame
 )
 ;
 }
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -5551,6 +5510,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }

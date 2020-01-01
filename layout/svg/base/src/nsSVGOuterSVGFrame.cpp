@@ -1174,11 +1174,6 @@ height
 )
 )
 {
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -1196,6 +1191,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -2427,6 +2423,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 presShell

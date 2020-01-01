@@ -3879,14 +3879,6 @@ if
 wasOpen
 )
 {
-menuPopup
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 presContext
 -
 >
@@ -3902,6 +3894,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 presContext
@@ -4036,14 +4029,6 @@ height
 newHeight
 )
 {
-menuPopup
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 presContext
 -
 >
@@ -4059,6 +4044,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 presContext
@@ -8373,11 +8359,6 @@ DestroyFrame
 aOldFrame
 )
 ;
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -8395,6 +8376,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 rv
@@ -8511,11 +8493,6 @@ NS_STATE_CURRENTLY_IN_DEBUG
 ;
 #
 endif
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -8533,6 +8510,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 rv
@@ -8654,11 +8632,6 @@ NS_STATE_CURRENTLY_IN_DEBUG
 ;
 #
 endif
-AddStateBits
-(
-NS_FRAME_HAS_DIRTY_CHILDREN
-)
-;
 PresContext
 (
 )
@@ -8676,6 +8649,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 rv

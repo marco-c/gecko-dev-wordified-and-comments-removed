@@ -179,6 +179,10 @@ typedef
 short
 SelectionType
 ;
+typedef
+PRUint32
+nsFrameState
+;
 #
 define
 NS_IPRESSHELL_IID
@@ -680,6 +684,8 @@ nsIFrame
 aFrame
 IntrinsicDirty
 aIntrinsicDirty
+nsFrameState
+aBitsToAdd
 )
 =
 0

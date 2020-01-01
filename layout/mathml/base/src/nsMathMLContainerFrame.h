@@ -574,6 +574,8 @@ ReLayoutChildren
 nsIFrame
 *
 aParentFrame
+nsFrameState
+aBits
 )
 ;
 protected
@@ -760,6 +762,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -809,6 +812,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -854,6 +858,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -1093,6 +1098,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -1142,6 +1148,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return
@@ -1187,6 +1194,7 @@ nsMathMLContainerFrame
 ReLayoutChildren
 (
 this
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 return

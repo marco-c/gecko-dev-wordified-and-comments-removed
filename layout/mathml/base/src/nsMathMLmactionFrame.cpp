@@ -1534,14 +1534,6 @@ value
 notify
 )
 ;
-mSelectedFrame
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -1559,6 +1551,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -1646,14 +1639,6 @@ actiontype
 mRestyle
 )
 ;
-mSelectedFrame
--
->
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -1671,6 +1656,7 @@ nsIPresShell
 :
 :
 eStyleChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }

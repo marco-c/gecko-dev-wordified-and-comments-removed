@@ -1387,7 +1387,7 @@ nsBlockReflowState
 aState
 )
 ;
-void
+PRBool
 RenumberLists
 (
 nsPresContext

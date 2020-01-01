@@ -420,6 +420,7 @@ return
 ReLayoutChildren
 (
 mParent
+NS_FRAME_IS_DIRTY
 )
 ;
 }

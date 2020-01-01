@@ -7497,11 +7497,6 @@ mStringWidth
 -
 1
 ;
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -7519,6 +7514,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -11937,11 +11933,6 @@ GetScrollParts
 )
 )
 {
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -11959,6 +11950,7 @@ nsIPresShell
 :
 :
 eResize
+NS_FRAME_IS_DIRTY
 )
 ;
 }

@@ -444,11 +444,6 @@ aListName
 #
 endif
 {
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -466,6 +461,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -582,11 +578,6 @@ aListName
 #
 endif
 {
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -604,6 +595,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
@@ -806,11 +798,6 @@ if
 generateReflowCommand
 )
 {
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -828,6 +815,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }

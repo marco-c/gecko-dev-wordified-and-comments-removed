@@ -358,11 +358,6 @@ IsAlive
 )
 )
 {
-AddStateBits
-(
-NS_FRAME_IS_DIRTY
-)
-;
 PresContext
 (
 )
@@ -380,6 +375,7 @@ nsIPresShell
 :
 :
 eTreeChange
+NS_FRAME_IS_DIRTY
 )
 ;
 }
