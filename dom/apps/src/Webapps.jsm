@@ -10963,7 +10963,7 @@ AppsUtils
 .
 getAppManifestStatus
 (
-aManifest
+manifest
 )
 >
 maxStatus
@@ -10975,6 +10975,17 @@ INVALID_SECURITY_LEVEL
 "
 ;
 }
+aApp
+.
+appStatus
+=
+AppsUtils
+.
+getAppManifestStatus
+(
+manifest
+)
+;
 if
 (
 aOnSuccess
