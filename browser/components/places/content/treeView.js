@@ -4786,6 +4786,7 @@ parent
 ;
 if
 (
+(
 PlacesUtils
 .
 nodeIsQuery
@@ -4800,6 +4801,13 @@ nodeIsFolder
 (
 parent
 )
+)
+&
+&
+!
+node
+.
+hasChildren
 )
 return
 asQuery
