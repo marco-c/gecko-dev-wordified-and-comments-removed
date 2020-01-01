@@ -112,11 +112,6 @@ nsinstall
 NSDISTMODE
 =
 copy
-CMMSRCS
-=
-webapprt
-.
-mm
 #
 Don
 '
