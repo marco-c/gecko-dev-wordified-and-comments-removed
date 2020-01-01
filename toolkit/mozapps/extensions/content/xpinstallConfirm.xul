@@ -288,6 +288,13 @@ xpinstallConfirm
 .
 js
 "
+type
+=
+"
+application
+/
+javascript
+"
 /
 >
 <
