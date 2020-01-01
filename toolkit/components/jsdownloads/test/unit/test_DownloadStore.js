@@ -55,7 +55,7 @@ aStorePath
 )
 {
 return
-promiseNewDownloadList
+promiseNewList
 (
 )
 .
