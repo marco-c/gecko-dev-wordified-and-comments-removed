@@ -467,6 +467,8 @@ Ci
 nsIAutoCompleteSearch
 )
 ;
+return
+;
 }
 let
 chromeParam
@@ -583,6 +585,8 @@ e
 )
 ;
 }
+return
+;
 }
 let
 uris
