@@ -512,6 +512,16 @@ Throws
 void
 send
 (
+ArrayBufferView
+data
+)
+;
+[
+Throws
+]
+void
+send
+(
 Blob
 data
 )
