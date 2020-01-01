@@ -1542,11 +1542,6 @@ android
 name
 =
 "
-org
-.
-mozilla
-.
-gecko
 .
 WebApp
 "

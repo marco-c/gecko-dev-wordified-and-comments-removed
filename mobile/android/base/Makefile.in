@@ -746,11 +746,11 @@ VideoPlayer
 .
 java
 \
-WebApp
+WebAppAllocator
 .
 java
 \
-WebAppAllocator
+WebAppImpl
 .
 java
 \
@@ -1255,6 +1255,10 @@ App
 java
 \
 AppConstants
+.
+java
+\
+WebApp
 .
 java
 \
