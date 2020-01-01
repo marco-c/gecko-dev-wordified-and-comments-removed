@@ -105,9 +105,6 @@ JSContext
 cx
 ;
 jsval
-global
-;
-jsval
 cbval
 ;
 nsCOMPtr
@@ -397,9 +394,9 @@ mCx
 ;
 nsCOMPtr
 <
-nsIXPConnectJSObjectHolder
+nsISupports
 >
-mGlobalWrapper
+mContextWrapper
 ;
 jsval
 mCbval
