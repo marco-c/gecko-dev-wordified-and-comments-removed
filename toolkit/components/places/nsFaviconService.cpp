@@ -4853,6 +4853,9 @@ container
 aNewMimeType
 mOptimizedIconDimension
 mOptimizedIconDimension
+EmptyString
+(
+)
 getter_AddRefs
 (
 iconStream

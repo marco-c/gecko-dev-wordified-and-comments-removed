@@ -1683,6 +1683,9 @@ nsXBLPrototypeHandler
 *
 aKey
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aHandler
 )

@@ -416,9 +416,8 @@ desc
 JS_FRIEND_API
 (
 void
-*
 )
-JS_TraceShapeChildrenAcyclic
+JS_TraceShapeCycleCollectorChildren
 (
 JSTracer
 *
@@ -428,12 +427,7 @@ void
 shape
 )
 {
-return
-(
-void
-*
-)
-MarkShapeChildrenAcyclic
+MarkCycleCollectorChildren
 (
 trc
 (

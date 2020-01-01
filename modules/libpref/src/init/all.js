@@ -302,6 +302,18 @@ warn
 pref
 (
 "
+browser
+.
+cache
+.
+compression_level
+"
+5
+)
+;
+pref
+(
+"
 dom
 .
 indexedDB
@@ -6222,7 +6234,7 @@ message
 -
 size
 "
-16000000
+2147483647
 )
 ;
 pref

@@ -18775,7 +18775,6 @@ nsACString
 aNewParentGUID
 )
 {
-{
 ENUMERATE_BOOKMARK_FOLDER_OBSERVERS
 (
 aOldParent
@@ -18793,7 +18792,6 @@ aNewParentGUID
 )
 )
 ;
-}
 if
 (
 aNewParent

@@ -22253,8 +22253,9 @@ total
 mDetailedGlyphs
 -
 >
-SizeOf
+SizeOfIncludingThis
 (
+aMallocSizeOf
 )
 ;
 }
@@ -22263,8 +22264,9 @@ total
 =
 mGlyphRuns
 .
-SizeOf
+SizeOfExcludingThis
 (
+aMallocSizeOf
 )
 ;
 return

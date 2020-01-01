@@ -770,15 +770,6 @@ GetType
 const
 ;
 NS_IMETHOD
-GetSelected
-(
-bool
-*
-aSelected
-)
-const
-;
-NS_IMETHOD
 IsSelectable
 (
 bool

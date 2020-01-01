@@ -6034,6 +6034,7 @@ IsHTML
 )
 |
 |
+(
 aRelProvider
 -
 >
@@ -6071,6 +6072,7 @@ nsGkAtoms
 :
 output
 )
+)
 continue
 ;
 }
@@ -6102,6 +6104,7 @@ IsXUL
 )
 |
 |
+(
 aRelProvider
 -
 >
@@ -6138,6 +6141,7 @@ nsGkAtoms
 :
 :
 description
+)
 )
 continue
 ;

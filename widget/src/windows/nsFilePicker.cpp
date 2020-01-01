@@ -181,6 +181,10 @@ MAX_EXTENSION_LENGTH
 define
 FILE_BUFFER_SIZE
 4096
+typedef
+DWORD
+FILEOPENDIALOGOPTIONS
+;
 class
 AutoSuppressEvents
 {
@@ -3013,12 +3017,6 @@ return
 true
 ;
 }
-mFiles
-.
-Clear
-(
-)
-;
 PRUnichar
 *
 current
@@ -4035,6 +4033,12 @@ mLastUsedUnicodeDirectory
 mUnicodeFile
 .
 Truncate
+(
+)
+;
+mFiles
+.
+Clear
 (
 )
 ;

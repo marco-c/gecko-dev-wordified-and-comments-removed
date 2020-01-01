@@ -2523,10 +2523,6 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
-(
-map
-)
 )
 ;
 }
@@ -4388,11 +4384,13 @@ VALIDITY_STATE_CUSTOM_ERROR
 )
 |
 |
+(
 mCanShowInvalidUI
 &
 &
 ShouldShowValidityUI
 (
+)
 )
 )
 )

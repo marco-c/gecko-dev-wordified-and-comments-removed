@@ -432,7 +432,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -640,6 +640,9 @@ aURL
 PRUint32
 aLineNo
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aHandler
 )
@@ -652,6 +655,9 @@ nsIAtom
 *
 aName
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aHandler
 )
@@ -2800,6 +2806,9 @@ nsIAtom
 *
 aName
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aHandler
 )
@@ -2840,7 +2849,7 @@ gNumCacheHits
 ;
 aHandler
 .
-setObject
+set
 (
 attr
 -
@@ -2876,6 +2885,9 @@ aURL
 PRUint32
 aLineNo
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aHandler
 )
@@ -3156,6 +3168,10 @@ NS_CYCLE_COLLECTION_NAME
 nsXULPrototypeNode
 )
 aHandler
+.
+get
+(
+)
 elem
 -
 >
@@ -3187,7 +3203,7 @@ mEventHandler
 =
 aHandler
 .
-getObject
+get
 (
 )
 ;
@@ -5986,7 +6002,7 @@ this
 ;
 (
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 this
 mutation
@@ -13052,6 +13068,9 @@ NS_ERROR_UNEXPECTED
 )
 ;
 nsScriptObjectHolder
+<
+JSScript
+>
 newScriptObject
 (
 context
@@ -13475,6 +13494,9 @@ urlspec
 )
 ;
 nsScriptObjectHolder
+<
+JSScript
+>
 newScriptObject
 (
 context

@@ -5253,13 +5253,6 @@ expect
 "
 )
 ;
-mGLContext
--
->
-fFlush
-(
-)
-;
 PRUint32
 currentFramebuffer
 =

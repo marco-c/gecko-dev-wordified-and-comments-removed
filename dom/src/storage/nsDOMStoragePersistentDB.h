@@ -443,6 +443,15 @@ PRInt32
 aUsage
 )
 ;
+bool
+DomainMaybeCached
+(
+const
+nsACString
+&
+aDomain
+)
+;
 }
 ;
 #

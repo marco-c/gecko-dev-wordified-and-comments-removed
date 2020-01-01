@@ -1279,8 +1279,6 @@ style
 Gecko
 .
 Light
-.
-NoActionBar
 "
 android
 :
@@ -1368,7 +1366,7 @@ label
 "
 string
 /
-preferences_title
+settings_title
 "
 android
 :

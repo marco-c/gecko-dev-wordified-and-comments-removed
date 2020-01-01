@@ -237,7 +237,7 @@ nsDisplayListSet
 aLists
 )
 ;
-nsresult
+void
 AppendScrollPartsTo
 (
 nsDisplayListBuilder
@@ -251,13 +251,11 @@ const
 nsDisplayListSet
 &
 aLists
-const
-nsDisplayListCollection
-&
-aDest
 bool
 &
 aCreateLayer
+bool
+aPositioned
 )
 ;
 bool
@@ -1129,11 +1127,6 @@ mUpdateScrollbarAttributes
 ;
 bool
 mScrollingActive
-:
-1
-;
-bool
-mScrollbarsCanOverlapContent
 :
 1
 ;

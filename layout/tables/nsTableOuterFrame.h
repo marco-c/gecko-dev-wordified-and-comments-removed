@@ -391,15 +391,6 @@ const
 ;
 #
 endif
-void
-SetSelected
-(
-bool
-aSelected
-SelectionType
-aType
-)
-;
 virtual
 nsIFrame
 *

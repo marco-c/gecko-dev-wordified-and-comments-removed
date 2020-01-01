@@ -679,10 +679,6 @@ FindAttributeDependence
 (
 aAttribute
 tokenMap
-ArrayLength
-(
-tokenMap
-)
 )
 ;
 if
@@ -709,10 +705,6 @@ FindAttributeDependence
 (
 aAttribute
 mstyleMap
-ArrayLength
-(
-mstyleMap
-)
 )
 ;
 if
@@ -929,10 +921,6 @@ FindAttributeDependence
 (
 aAttribute
 commonPresMap
-ArrayLength
-(
-commonPresMap
-)
 )
 ;
 }

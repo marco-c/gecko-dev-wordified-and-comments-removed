@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Types
 .
 h
@@ -29,7 +38,7 @@ const
 char
 *
 file
-JSIntn
+int
 ln
 )
 ;

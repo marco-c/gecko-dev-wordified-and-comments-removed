@@ -5533,6 +5533,13 @@ radiogroup
 )
 GK_ATOM
 (
+range
+"
+range
+"
+)
+GK_ATOM
+(
 readonly
 "
 readonly

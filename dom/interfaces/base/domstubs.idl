@@ -511,9 +511,6 @@ interface
 nsIDOMElement
 ;
 interface
-nsIDOMNSElement
-;
-interface
 nsIDOMNamedNodeMap
 ;
 interface

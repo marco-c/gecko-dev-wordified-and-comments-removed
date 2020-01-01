@@ -5371,6 +5371,13 @@ false
 )
 )
 ;
+:
+:
+CFRelease
+(
+fontRef
+)
+;
 /
 /
 if

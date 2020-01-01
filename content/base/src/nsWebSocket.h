@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIMozWebSocket
+nsIWebSocket
 .
 h
 "
@@ -175,7 +175,7 @@ nsWebSocket
 public
 nsDOMEventTargetWrapperCache
 public
-nsIMozWebSocket
+nsIWebSocket
 public
 nsIJSNativeInitializer
 public
@@ -211,7 +211,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsWebSocket
 nsDOMEventTargetWrapperCache
 )
-NS_DECL_NSIMOZWEBSOCKET
+NS_DECL_NSIWEBSOCKET
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWEBSOCKETLISTENER
 NS_DECL_NSIREQUEST
@@ -361,6 +361,17 @@ aIsBinary
 PRUint32
 &
 aOutgoingLength
+)
+;
+nsresult
+DoOnMessageAvailable
+(
+const
+nsACString
+&
+aMsg
+bool
+isBinary
 )
 ;
 nsresult

@@ -349,7 +349,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -6270,7 +6270,7 @@ nsContentUtils
 AddScriptRunner
 (
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 mContent
 NS_LITERAL_STRING

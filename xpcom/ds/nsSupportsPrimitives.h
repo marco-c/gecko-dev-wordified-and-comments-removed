@@ -7,6 +7,15 @@ nsSupportsPrimitives_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISupportsPrimitives
 .
 h
@@ -34,6 +43,7 @@ h
 "
 class
 nsSupportsIDImpl
+MOZ_FINAL
 :
 public
 nsISupportsID
@@ -63,6 +73,7 @@ mData
 ;
 class
 nsSupportsCStringImpl
+MOZ_FINAL
 :
 public
 nsISupportsCString
@@ -92,6 +103,7 @@ mData
 ;
 class
 nsSupportsStringImpl
+MOZ_FINAL
 :
 public
 nsISupportsString
@@ -121,6 +133,7 @@ mData
 ;
 class
 nsSupportsPRBoolImpl
+MOZ_FINAL
 :
 public
 nsISupportsPRBool
@@ -149,6 +162,7 @@ mData
 ;
 class
 nsSupportsPRUint8Impl
+MOZ_FINAL
 :
 public
 nsISupportsPRUint8
@@ -177,6 +191,7 @@ mData
 ;
 class
 nsSupportsPRUint16Impl
+MOZ_FINAL
 :
 public
 nsISupportsPRUint16
@@ -205,6 +220,7 @@ mData
 ;
 class
 nsSupportsPRUint32Impl
+MOZ_FINAL
 :
 public
 nsISupportsPRUint32
@@ -233,6 +249,7 @@ mData
 ;
 class
 nsSupportsPRUint64Impl
+MOZ_FINAL
 :
 public
 nsISupportsPRUint64
@@ -261,6 +278,7 @@ mData
 ;
 class
 nsSupportsPRTimeImpl
+MOZ_FINAL
 :
 public
 nsISupportsPRTime
@@ -289,6 +307,7 @@ mData
 ;
 class
 nsSupportsCharImpl
+MOZ_FINAL
 :
 public
 nsISupportsChar
@@ -317,6 +336,7 @@ mData
 ;
 class
 nsSupportsPRInt16Impl
+MOZ_FINAL
 :
 public
 nsISupportsPRInt16
@@ -345,6 +365,7 @@ mData
 ;
 class
 nsSupportsPRInt32Impl
+MOZ_FINAL
 :
 public
 nsISupportsPRInt32
@@ -373,6 +394,7 @@ mData
 ;
 class
 nsSupportsPRInt64Impl
+MOZ_FINAL
 :
 public
 nsISupportsPRInt64
@@ -401,6 +423,7 @@ mData
 ;
 class
 nsSupportsFloatImpl
+MOZ_FINAL
 :
 public
 nsISupportsFloat
@@ -429,6 +452,7 @@ mData
 ;
 class
 nsSupportsDoubleImpl
+MOZ_FINAL
 :
 public
 nsISupportsDouble
@@ -457,6 +481,7 @@ mData
 ;
 class
 nsSupportsVoidImpl
+MOZ_FINAL
 :
 public
 nsISupportsVoid
@@ -486,6 +511,7 @@ mData
 ;
 class
 nsSupportsInterfacePointerImpl
+MOZ_FINAL
 :
 public
 nsISupportsInterfacePointer
@@ -520,6 +546,7 @@ mIID
 ;
 class
 nsSupportsDependentCString
+MOZ_FINAL
 :
 public
 nsISupportsCString

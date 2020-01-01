@@ -522,7 +522,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -6369,10 +6369,6 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
-(
-map
-)
 )
 ;
 }
@@ -15136,12 +15132,12 @@ FullScreenDeniedNotInputDriven
 ;
 nsRefPtr
 <
-nsPLDOMEvent
+nsAsyncDOMEvent
 >
 e
 =
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 OwnerDoc
 (

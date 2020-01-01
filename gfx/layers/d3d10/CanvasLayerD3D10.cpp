@@ -678,7 +678,7 @@ MakeCurrent
 mGLContext
 -
 >
-fFinish
+GuaranteeResolve
 (
 )
 ;
@@ -784,13 +784,6 @@ mGLContext
 -
 >
 MakeCurrent
-(
-)
-;
-mGLContext
--
->
-fFlush
 (
 )
 ;

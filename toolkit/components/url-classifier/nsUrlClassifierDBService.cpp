@@ -1222,6 +1222,7 @@ entry
 mChunkId
 |
 |
+(
 mHavePartial
 &
 &
@@ -1229,6 +1230,7 @@ mHavePartial
 entry
 .
 mHavePartial
+)
 |
 |
 (
@@ -1243,6 +1245,7 @@ mPartialHash
 )
 |
 |
+(
 mHaveComplete
 &
 &
@@ -1250,6 +1253,7 @@ mHaveComplete
 entry
 .
 mHaveComplete
+)
 |
 |
 (
@@ -18507,9 +18511,6 @@ gDbBackgroundThread
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIUrlClassifierCallback
@@ -18618,9 +18619,6 @@ NS_ERROR_NOT_AVAILABLE
 mInUpdate
 =
 true
-;
-nsresult
-rv
 ;
 nsCOMPtr
 <

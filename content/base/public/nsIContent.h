@@ -1462,7 +1462,7 @@ aNotify
 0
 ;
 nsresult
-LookupNamespaceURI
+LookupNamespaceURIInternal
 (
 const
 nsAString

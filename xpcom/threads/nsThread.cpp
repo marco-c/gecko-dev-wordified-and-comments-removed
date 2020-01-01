@@ -309,7 +309,6 @@ sMemoryPressurePending
 ;
 }
 }
-;
 class
 nsThreadClassInfo
 :

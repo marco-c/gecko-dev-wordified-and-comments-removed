@@ -919,10 +919,8 @@ JSXML
 xml
 )
 ;
-const
-Shape
-*
-MarkShapeChildrenAcyclic
+void
+MarkCycleCollectorChildren
 (
 JSTracer
 *

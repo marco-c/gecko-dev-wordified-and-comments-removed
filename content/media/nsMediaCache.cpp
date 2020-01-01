@@ -9906,16 +9906,6 @@ bytesRemaining
 PRInt32
 bytes
 ;
-PRUint32
-channelBlock
-=
-PRUint32
-(
-mChannelOffset
-/
-BLOCK_SIZE
-)
-;
 PRInt32
 cacheBlock
 =

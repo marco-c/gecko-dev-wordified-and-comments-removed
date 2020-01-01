@@ -3964,6 +3964,13 @@ Value
 vp
 )
 {
+JS_CHECK_RECURSION
+(
+cx
+return
+false
+)
+;
 CallArgs
 args
 =
@@ -4330,6 +4337,13 @@ Value
 vp
 )
 {
+JS_CHECK_RECURSION
+(
+cx
+return
+false
+)
+;
 CallArgs
 args
 =

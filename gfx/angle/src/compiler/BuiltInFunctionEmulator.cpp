@@ -1827,7 +1827,7 @@ n
 "
 #
 define
-webgl_emulation_precision
+webgl_emu_precision
 highp
 \
 n
@@ -1845,7 +1845,7 @@ n
 "
 #
 define
-webgl_emulation_precision
+webgl_emu_precision
 mediump
 \
 n
@@ -1870,7 +1870,7 @@ out
 "
 #
 define
-webgl_emulation_precision
+webgl_emu_precision
 \
 n
 \

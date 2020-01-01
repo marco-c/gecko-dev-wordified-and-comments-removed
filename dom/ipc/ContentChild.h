@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 PContentChild
@@ -660,7 +669,7 @@ Result
 what
 )
 ;
-NS_NORETURN
+MOZ_NORETURN
 void
 QuickExit
 (

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -179,6 +188,7 @@ mKey
 ;
 class
 nsExceptionManager
+MOZ_FINAL
 :
 public
 nsIExceptionManager

@@ -1466,9 +1466,6 @@ nsIObserverService
 >
 obsSvc
 =
-mozilla
-:
-:
 services
 :
 :
@@ -6414,9 +6411,11 @@ nsIObserverService
 >
 obsService
 =
-do_GetService
+services
+:
+:
+GetObserverService
 (
-NS_OBSERVERSERVICE_CONTRACTID
 )
 ;
 if

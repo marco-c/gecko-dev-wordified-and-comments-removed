@@ -106,7 +106,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -3426,12 +3426,12 @@ this
 ;
 nsRefPtr
 <
-nsPLDOMEvent
+nsAsyncDOMEvent
 >
 event
 =
 new
-nsLoadBlockingPLDOMEvent
+nsLoadBlockingAsyncDOMEvent
 (
 thisNode
 aEventType
