@@ -478,6 +478,10 @@ RefPtr
 .
 h
 \
+Scoped
+.
+h
+\
 StandardInteger
 .
 h
