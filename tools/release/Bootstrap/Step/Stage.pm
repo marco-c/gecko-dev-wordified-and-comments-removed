@@ -3834,11 +3834,9 @@ stagingServer
 ;
 #
 upload
-public
-and
 private
 staging
-areas
+area
 my
 stageDir
 =
@@ -3876,6 +3874,10 @@ e
 ssh
 '
 stageDir
+.
+'
+/
+'
 stagingUser
 .
 '
