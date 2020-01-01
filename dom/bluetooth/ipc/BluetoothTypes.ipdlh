@@ -187,6 +187,10 @@ nsString
 [
 ]
 ;
+uint8_t
+[
+]
+;
 BluetoothNamedValue
 [
 ]
