@@ -1023,6 +1023,12 @@ eCSSProperty_border_left_color_rtl_source
 iProp
 =
 =
+eCSSProperty__moz_column_rule_color
+|
+|
+iProp
+=
+=
 eCSSProperty_outline_color
 )
 {
