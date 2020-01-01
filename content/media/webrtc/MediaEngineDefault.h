@@ -363,6 +363,16 @@ public
 MediaEngineDefault
 (
 )
+:
+mMutex
+(
+"
+mozilla
+:
+:
+MediaEngineDefault
+"
+)
 {
 }
 ~
@@ -401,6 +411,9 @@ MediaEngineAudioSource
 ;
 private
 :
+Mutex
+mMutex
+;
 nsTArray
 <
 nsRefPtr
