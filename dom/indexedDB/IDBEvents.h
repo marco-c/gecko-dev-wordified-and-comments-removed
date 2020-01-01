@@ -89,7 +89,7 @@ dom
 /
 indexedDB
 /
-IDBObjectStoreRequest
+IDBObjectStore
 .
 h
 "

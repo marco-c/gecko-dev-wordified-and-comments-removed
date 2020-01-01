@@ -459,7 +459,7 @@ interface
 nsIDOMEventListener
 ;
 interface
-nsIIDBObjectStoreRequest
+nsIIDBObjectStore
 ;
 interface
 nsIIDBRequest
@@ -599,7 +599,7 @@ attribute
 nsIDOMDOMStringList
 objectStoreNames
 ;
-nsIIDBObjectStoreRequest
+nsIIDBObjectStore
 objectStore
 (
 in

@@ -2760,7 +2760,7 @@ dom
 /
 indexedDB
 /
-IDBObjectStoreRequest
+IDBObjectStore
 .
 h
 "
@@ -5456,7 +5456,7 @@ DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
 NS_DEFINE_CLASSINFO_DATA
 (
-IDBObjectStoreRequest
+IDBObjectStore
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
@@ -14043,12 +14043,8 @@ nsIDOMEvent
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
-IDBObjectStoreRequest
-nsIIDBObjectStoreRequest
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIIDBObjectStoreRequest
+IDBObjectStore
+nsIIDBObjectStore
 )
 DOM_CLASSINFO_MAP_ENTRY
 (

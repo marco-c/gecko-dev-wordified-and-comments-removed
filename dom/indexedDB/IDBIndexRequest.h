@@ -26,7 +26,7 @@ h
 "
 BEGIN_INDEXEDDB_NAMESPACE
 class
-IDBObjectStoreRequest
+IDBObjectStore
 ;
 struct
 IndexInfo
@@ -54,7 +54,7 @@ IDBIndexRequest
 >
 Create
 (
-IDBObjectStoreRequest
+IDBObjectStore
 *
 aObjectStore
 const
@@ -63,7 +63,7 @@ IndexInfo
 aIndexInfo
 )
 ;
-IDBObjectStoreRequest
+IDBObjectStore
 *
 ObjectStore
 (
@@ -88,7 +88,7 @@ private
 :
 nsRefPtr
 <
-IDBObjectStoreRequest
+IDBObjectStore
 >
 mObjectStore
 ;

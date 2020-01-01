@@ -115,7 +115,7 @@ h
 #
 include
 "
-IDBObjectStoreRequest
+IDBObjectStore
 .
 h
 "
@@ -394,7 +394,7 @@ aRequest
 IDBTransaction
 *
 aTransaction
-IDBObjectStoreRequest
+IDBObjectStore
 *
 aObjectStore
 PRUint16
@@ -1797,7 +1797,7 @@ key
 nsresult
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 GetKeyFromVariant
@@ -2617,7 +2617,7 @@ indexUpdateInfo
 ;
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 GetIndexUpdateInfo
@@ -3190,7 +3190,7 @@ LL_MININT
 ;
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 UpdateIndexes

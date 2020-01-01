@@ -66,7 +66,7 @@ h
 #
 include
 "
-IDBObjectStoreRequest
+IDBObjectStore
 .
 h
 "
@@ -2651,7 +2651,7 @@ PRUint16
 aMode
 PRUint8
 aOptionalArgCount
-nsIIDBObjectStoreRequest
+nsIIDBObjectStore
 *
 *
 _retval
@@ -3360,7 +3360,7 @@ forget
 ;
 nsCOMPtr
 <
-nsIIDBObjectStoreRequest
+nsIIDBObjectStore
 >
 result
 ;

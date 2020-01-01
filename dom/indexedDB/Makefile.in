@@ -478,7 +478,7 @@ IDBKeyRange
 .
 cpp
 \
-IDBObjectStoreRequest
+IDBObjectStore
 .
 cpp
 \
@@ -532,7 +532,7 @@ IDBKeyRange
 .
 h
 \
-IDBObjectStoreRequest
+IDBObjectStore
 .
 h
 \
@@ -669,10 +669,6 @@ nsIIDBKeyRange
 idl
 \
 nsIIDBObjectStore
-.
-idl
-\
-nsIIDBObjectStoreRequest
 .
 idl
 \

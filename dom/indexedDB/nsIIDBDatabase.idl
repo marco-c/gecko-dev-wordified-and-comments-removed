@@ -459,7 +459,7 @@ interface
 nsIVariant
 ;
 interface
-nsIIDBObjectStoreRequest
+nsIIDBObjectStore
 ;
 interface
 nsIIDBRequest
@@ -637,7 +637,7 @@ timeout
 [
 optional_argc
 ]
-nsIIDBObjectStoreRequest
+nsIIDBObjectStore
 objectStore
 (
 in

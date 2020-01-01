@@ -66,7 +66,7 @@ h
 #
 include
 "
-IDBObjectStoreRequest
+IDBObjectStore
 .
 h
 "
@@ -693,7 +693,7 @@ IDBIndexRequest
 :
 Create
 (
-IDBObjectStoreRequest
+IDBObjectStore
 *
 aObjectStore
 const
@@ -1085,7 +1085,7 @@ key
 nsresult
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 GetKeyFromVariant
@@ -1234,7 +1234,7 @@ key
 nsresult
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 GetKeyFromVariant
@@ -1370,7 +1370,7 @@ key
 nsresult
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 GetKeyFromVariant
@@ -1516,7 +1516,7 @@ key
 nsresult
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 GetKeyFromVariant
@@ -1734,7 +1734,7 @@ rv
 ;
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 GetKeyFromVariant
@@ -1770,7 +1770,7 @@ rv
 ;
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 GetKeyFromVariant
@@ -2043,7 +2043,7 @@ rv
 ;
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 GetKeyFromVariant
@@ -2079,7 +2079,7 @@ rv
 ;
 rv
 =
-IDBObjectStoreRequest
+IDBObjectStore
 :
 :
 GetKeyFromVariant
