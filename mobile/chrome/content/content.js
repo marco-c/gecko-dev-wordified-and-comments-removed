@@ -5327,7 +5327,7 @@ elem
 .
 mozIsTextField
 (
-true
+false
 )
 )
 |
@@ -5366,6 +5366,16 @@ text
 "
 )
 ;
+if
+(
+elem
+.
+mozIsTextField
+(
+true
+)
+)
+{
 if
 (
 selectionStart
@@ -5429,6 +5439,7 @@ elem
 .
 value
 ;
+}
 }
 if
 (
