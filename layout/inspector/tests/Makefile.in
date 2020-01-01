@@ -128,10 +128,6 @@ test_isinheritableproperty
 .
 html
 \
-test_bug877690
-.
-html
-\
 (
 NULL
 )
