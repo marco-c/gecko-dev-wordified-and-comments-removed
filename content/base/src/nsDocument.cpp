@@ -6371,10 +6371,10 @@ NS_ADDREF
 aElement
 )
 ;
+}
 return
 NS_OK
 ;
-}
 }
 return
 GetDocumentElement
