@@ -273,6 +273,12 @@ nsIConstraintValidation
 {
 public
 :
+using
+nsIConstraintValidation
+:
+:
+GetValidationMessage
+;
 nsHTMLButtonElement
 (
 already_AddRefed

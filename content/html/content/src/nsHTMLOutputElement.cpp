@@ -54,6 +54,12 @@ nsIConstraintValidation
 {
 public
 :
+using
+nsIConstraintValidation
+:
+:
+GetValidationMessage
+;
 nsHTMLOutputElement
 (
 already_AddRefed
