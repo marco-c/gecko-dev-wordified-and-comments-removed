@@ -41800,10 +41800,6 @@ Enum
 e
 (
 table
-.
-enumerate
-(
-)
 )
 ;
 !
@@ -49868,10 +49864,6 @@ Enum
 e
 (
 guardedShapeTable
-.
-enumerate
-(
-)
 )
 ;
 !
