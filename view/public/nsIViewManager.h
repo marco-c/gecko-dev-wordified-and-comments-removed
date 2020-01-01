@@ -488,6 +488,14 @@ ProcessPendingUpdates
 =
 0
 ;
+virtual
+void
+UpdateWidgetGeometry
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
