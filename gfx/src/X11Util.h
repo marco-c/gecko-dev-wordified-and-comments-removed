@@ -171,7 +171,7 @@ empty
 )
 {
 return
-NULL
+nullptr
 ;
 }
 static
@@ -188,7 +188,7 @@ if
 ptr
 !
 =
-NULL
+nullptr
 )
 XFree
 (
