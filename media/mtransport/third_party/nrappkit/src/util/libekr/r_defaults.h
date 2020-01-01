@@ -1,0 +1,11 @@
+#
+ifndef
+_r_defaults_h
+#
+define
+_r_defaults_h
+#
+define
+R_NEEDS_STDLIB_H
+#
+endif
