@@ -439,7 +439,12 @@ rules
 mk
 _TEST_FILES
 =
+\
 test_bug350525
+.
+xul
+\
+test_bug393716
 .
 xul
 \
