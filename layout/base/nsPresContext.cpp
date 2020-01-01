@@ -1603,6 +1603,12 @@ fantasy
 ;
 static
 PRBool
+sNoTheme
+=
+PR_FALSE
+;
+static
+PRBool
 sLookAndFeelChanged
 ;
 static
@@ -5900,7 +5906,7 @@ GetTheme
 if
 (
 !
-mNoTheme
+sNoTheme
 &
 &
 !
@@ -5933,7 +5939,7 @@ if
 !
 mTheme
 )
-mNoTheme
+sNoTheme
 =
 PR_TRUE
 ;
