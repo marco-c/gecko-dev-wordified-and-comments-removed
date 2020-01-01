@@ -1,15 +1,3 @@
-.
-"
-topsrcdir
-/
-b2g
-/
-config
-/
-mozconfigs
-/
-common
-"
 ac_add_options
 -
 -
