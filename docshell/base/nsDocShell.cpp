@@ -43063,6 +43063,11 @@ if
 lookForParents
 )
 {
+*
+aResult
+=
+PR_FALSE
+;
 return
 NS_OK
 ;
