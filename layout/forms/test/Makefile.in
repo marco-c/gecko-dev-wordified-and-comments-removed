@@ -482,6 +482,10 @@ test_bug477700
 .
 html
 \
+bug477700_subframe
+.
+html
+\
 test_textarea_resize
 .
 html
@@ -494,10 +498,6 @@ test_bug542914
 .
 html
 \
-bug477700_subframe
-.
-html
-\
 test_bug536567
 .
 html
@@ -507,6 +507,10 @@ bug536567_subframe
 html
 \
 test_bug549170
+.
+html
+\
+test_bug563642
 .
 html
 \

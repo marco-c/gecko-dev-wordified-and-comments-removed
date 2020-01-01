@@ -9506,7 +9506,9 @@ PRInt32
 )
 numOptions
 -
+NS_MAX
 (
+1
 mNumDisplayRows
 -
 1
@@ -9533,7 +9535,9 @@ newIndex
 PRInt32
 )
 numOptions
+NS_MAX
 (
+1
 mNumDisplayRows
 -
 1
