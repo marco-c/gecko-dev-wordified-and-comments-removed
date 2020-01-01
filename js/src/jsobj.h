@@ -95,14 +95,6 @@ setRequiredSlot
 }
 ;
 struct
-JSProperty
-{
-jsid
-id
-;
-}
-;
-struct
 JSObjectMap
 {
 jsrefcount
