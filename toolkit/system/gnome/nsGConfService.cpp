@@ -77,10 +77,6 @@ Init
 (
 )
 {
-g_type_init
-(
-)
-;
 mClient
 =
 gconf_client_get_default
