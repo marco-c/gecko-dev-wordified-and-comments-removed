@@ -8233,6 +8233,16 @@ exit
 >
 calldepth
 ;
+rec
+-
+>
+vmprivate
+=
+exit
+-
+>
+vmprivate
+;
 verbose_only
 (
 rec

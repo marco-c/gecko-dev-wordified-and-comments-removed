@@ -47,6 +47,10 @@ GuardRecord
 *
 outgoing
 ;
+void
+*
+vmprivate
+;
 verbose_only
 (
 uint32_t

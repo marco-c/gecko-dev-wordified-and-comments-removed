@@ -544,6 +544,10 @@ target
 int32_t
 calldepth
 ;
+void
+*
+vmprivate
+;
 verbose_only
 (
 uint32_t
