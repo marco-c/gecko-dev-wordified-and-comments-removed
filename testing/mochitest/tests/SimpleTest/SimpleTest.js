@@ -3363,7 +3363,7 @@ SimpleTest
 .
 isDeeply
 ;
-const
+var
 gOldOnError
 =
 window
