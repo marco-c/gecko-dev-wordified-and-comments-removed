@@ -72,7 +72,7 @@ BLOCK
 *
 Version
 :
-ML
+MPL
 1
 .
 1
