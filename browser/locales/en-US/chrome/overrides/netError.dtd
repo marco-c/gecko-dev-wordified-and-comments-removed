@@ -474,7 +474,9 @@ is
 not
 available
 in
-Firefox
+&
+brandShortName
+;
 '
 s
 cache
@@ -493,7 +495,9 @@ As
 a
 security
 precaution
-Firefox
+&
+brandShortName
+;
 does
 not
 automatically
