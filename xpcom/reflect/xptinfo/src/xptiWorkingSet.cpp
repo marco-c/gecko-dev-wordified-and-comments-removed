@@ -22,7 +22,7 @@ XPTI_STRUCT_ARENA_BLOCK_SIZE
 (
 1024
 *
-1
+16
 )
 #
 define
