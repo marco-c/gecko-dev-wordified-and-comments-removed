@@ -152,7 +152,7 @@ OrganizerQuery
 const
 ORGANIZER_LEFTPANE_VERSION
 =
-2
+3
 ;
 #
 ifdef
@@ -5212,6 +5212,16 @@ AllBookmarks
 ]
 =
 itemId
+;
+PlacesUtils
+.
+bookmarks
+.
+setFolderReadonly
+(
+allBookmarksId
+true
+)
 ;
 uri
 =
