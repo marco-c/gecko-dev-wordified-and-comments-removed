@@ -173,6 +173,9 @@ long
 long
 total
 ;
+[
+noscript
+]
 void
 initProgressEvent
 (
