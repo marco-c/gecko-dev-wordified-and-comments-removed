@@ -18177,6 +18177,12 @@ break
 ;
 }
 case
+JSOP_GETALIASEDVAR
+:
+case
+JSOP_CALLALIASEDVAR
+:
+case
 JSOP_GETARG
 :
 case
@@ -18293,6 +18299,12 @@ op
 =
 =
 JSOP_CALLLOCAL
+|
+|
+op
+=
+=
+JSOP_CALLALIASEDVAR
 )
 pushed
 [
@@ -18315,6 +18327,9 @@ UndefinedType
 break
 ;
 }
+case
+JSOP_SETALIASEDVAR
+:
 case
 JSOP_SETARG
 :

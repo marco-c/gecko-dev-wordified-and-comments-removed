@@ -6405,6 +6405,14 @@ pn_dflags
 =
 PND_BOUND
 ;
+rhs
+-
+>
+setDefn
+(
+true
+)
+;
 ParseNode
 *
 item
