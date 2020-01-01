@@ -1976,12 +1976,11 @@ XPCJSContextStack
 *
 stack
 =
-XPCPerThreadData
+XPCJSRuntime
 :
 :
-GetData
+Get
 (
-nsnull
 )
 -
 >

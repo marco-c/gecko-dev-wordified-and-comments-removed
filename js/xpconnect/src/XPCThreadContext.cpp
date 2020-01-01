@@ -1720,7 +1720,12 @@ NS_ERROR_FAILURE
 ;
 mStack
 =
-data
+XPCJSRuntime
+:
+:
+Get
+(
+)
 -
 >
 GetJSContextStack
