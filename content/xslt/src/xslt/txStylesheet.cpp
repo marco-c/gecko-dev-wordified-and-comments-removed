@@ -2535,12 +2535,6 @@ forget
 (
 )
 ;
-delete
-lastNonReturn
--
->
-mNext
-;
 lastNonReturn
 -
 >
