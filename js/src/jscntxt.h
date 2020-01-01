@@ -828,7 +828,7 @@ traceMonitor
 #
 endif
 uint32
-loopTableIndexGen
+loopTableSlotGen
 ;
 uint32
 shapeGen

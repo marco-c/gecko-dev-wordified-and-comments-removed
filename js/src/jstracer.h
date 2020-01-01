@@ -50,6 +50,16 @@ JSRuntime
 rt
 )
 ;
+void
+js_FreeLoopTableSlot
+(
+JSRuntime
+*
+rt
+uint32
+slot
+)
+;
 JSBool
 js_GrowLoopTable
 (
