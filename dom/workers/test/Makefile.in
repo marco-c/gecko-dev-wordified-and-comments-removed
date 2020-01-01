@@ -189,16 +189,6 @@ instanceof_worker
 .
 js
 \
-test_resolveWorker
-.
-html
-\
-test_resolveWorker
--
-assignment
-.
-html
-\
 test_json
 .
 html

@@ -121,10 +121,6 @@ test_screen_orientation
 .
 html
 \
-test_window_constructor
-.
-html
-\
 test_window_enumeration
 .
 html
