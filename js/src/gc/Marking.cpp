@@ -22,6 +22,13 @@ h
 #
 include
 "
+jsxml
+.
+h
+"
+#
+include
+"
 gc
 /
 Marking
@@ -68,6 +75,9 @@ js
 namespace
 gc
 {
+#
+if
+JS_HAS_XML_SUPPORT
 static
 inline
 void
@@ -81,6 +91,8 @@ JSXML
 thing
 )
 ;
+#
+endif
 static
 inline
 void
@@ -2279,6 +2291,9 @@ rt
 atomsCompartment
 )
 ;
+#
+if
+JS_HAS_XML_SUPPORT
 static
 void
 PushMarkStack
@@ -2324,6 +2339,8 @@ thing
 )
 ;
 }
+#
+endif
 static
 void
 PushMarkStack
@@ -4099,7 +4116,7 @@ type_function
 ;
 }
 #
-ifdef
+if
 JS_HAS_XML_SUPPORT
 static
 void
@@ -5117,6 +5134,9 @@ obj
 )
 ;
 }
+#
+if
+JS_HAS_XML_SUPPORT
 else
 {
 JS_ASSERT
@@ -5141,6 +5161,8 @@ addr
 )
 ;
 }
+#
+endif
 }
 inline
 void

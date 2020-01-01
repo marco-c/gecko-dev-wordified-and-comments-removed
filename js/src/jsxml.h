@@ -36,6 +36,9 @@ Heap
 .
 h
 "
+#
+if
+JS_HAS_XML_SUPPORT
 extern
 const
 char
@@ -1334,5 +1337,7 @@ cx
 )
 ;
 }
+#
+endif
 #
 endif

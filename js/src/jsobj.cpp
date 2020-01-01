@@ -11768,6 +11768,9 @@ toObjectOrNull
 (
 )
 ;
+#
+if
+JS_HAS_XML_SUPPORT
 if
 (
 proto
@@ -11793,6 +11796,8 @@ return
 false
 ;
 }
+#
+endif
 RootedVarObject
 obj
 (
@@ -20830,6 +20835,9 @@ isExtensible
 )
 )
 ;
+#
+if
+JS_HAS_XML_SUPPORT
 if
 (
 proto
@@ -20855,6 +20863,8 @@ return
 false
 ;
 }
+#
+endif
 RootedVarObject
 oldproto
 (
@@ -27551,6 +27561,9 @@ hint
 JSTYPE_VOID
 )
 ;
+#
+if
+JS_HAS_XML_SUPPORT
 JS_ASSERT
 (
 !
@@ -27562,6 +27575,8 @@ isXML
 )
 )
 ;
+#
+endif
 Class
 *
 clasp

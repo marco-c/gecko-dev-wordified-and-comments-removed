@@ -732,6 +732,9 @@ name
 )
 ;
 }
+#
+if
+JS_HAS_XML_SUPPORT
 inline
 void
 Mark
@@ -759,6 +762,8 @@ name
 )
 ;
 }
+#
+endif
 inline
 bool
 IsMarked

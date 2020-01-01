@@ -991,6 +991,9 @@ runtime
 gsnCache
 ;
 }
+#
+if
+JS_HAS_XML_SUPPORT
 class
 AutoNamespaceArray
 :
@@ -1084,6 +1087,8 @@ array
 ;
 }
 ;
+#
+endif
 template
 <
 typename
