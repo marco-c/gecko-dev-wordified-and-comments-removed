@@ -597,7 +597,9 @@ en
 US
 ;
 \
-mkdirhier
+mkdir
+-
+p
 .
 .
 /
