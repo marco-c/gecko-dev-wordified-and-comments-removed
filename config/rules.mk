@@ -10188,6 +10188,11 @@ filter
 )
 )
 (
+patsubst
+%
+/
+%
+(
 shell
 cd
 (
@@ -10205,6 +10210,8 @@ pwd
 -
 W
 )
+)
+/
 (
 call
 non
