@@ -220,6 +220,7 @@ src
 image
 toolbarmode
 buttonstyle
+label
 "
 /
 >
@@ -397,6 +398,7 @@ src
 image
 toolbarmode
 buttonstyle
+label
 "
 /
 >
@@ -583,6 +585,7 @@ src
 image
 toolbarmode
 buttonstyle
+label
 "
 /
 >
