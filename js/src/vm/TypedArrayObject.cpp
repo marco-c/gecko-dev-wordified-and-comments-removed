@@ -215,6 +215,17 @@ jsobjinlines
 h
 "
 #
+include
+"
+vm
+/
+Shape
+-
+inl
+.
+h
+"
+#
 if
 JS_USE_NEW_OBJECT_REPRESENTATION
 #
