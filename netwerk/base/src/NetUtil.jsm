@@ -1,3 +1,12 @@
+let
+EXPORTED_SYMBOLS
+=
+[
+"
+NetUtil
+"
+]
+;
 const
 Ci
 =
@@ -93,6 +102,11 @@ outputStreamIsBuffered
 aSink
 )
 ;
+var
+ostream
+=
+aSink
+;
 if
 (
 !
@@ -103,8 +117,7 @@ sourceBuffered
 sinkBuffered
 )
 {
-var
-bostream
+ostream
 =
 Cc
 [
@@ -132,7 +145,7 @@ Ci
 nsIBufferedOutputStream
 )
 ;
-bostream
+ostream
 .
 init
 (
@@ -179,7 +192,7 @@ copier
 init
 (
 aSource
-bostream
+ostream
 null
 sourceBuffered
 sinkBuffered
@@ -222,6 +235,7 @@ aCallback
 aStatusCode
 )
 ;
+}
 }
 }
 else
