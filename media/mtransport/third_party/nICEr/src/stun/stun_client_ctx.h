@@ -431,6 +431,14 @@ ctxp
 )
 ;
 int
+nr_stun_transport_addr_check
+(
+nr_transport_addr
+*
+addr
+)
+;
+int
 nr_stun_client_process_response
 (
 nr_stun_client_ctx
