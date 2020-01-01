@@ -3670,9 +3670,9 @@ cmd_shortcuts
 :
 this
 .
-_showMode
+show
 (
-PANELMODE_SHORTCUTLIST
+PANELMODE_NONE
 )
 ;
 Shortcuts
