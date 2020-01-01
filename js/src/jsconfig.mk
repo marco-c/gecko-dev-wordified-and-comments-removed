@@ -691,6 +691,12 @@ cat
 (
 NSPR_VERSIONFILE
 )
+2
+>
+/
+dev
+/
+null
 )
 get_nspr
 :
