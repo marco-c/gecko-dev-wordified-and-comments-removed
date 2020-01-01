@@ -5026,6 +5026,15 @@ DropParserAndPerfHint
 void
 )
 {
+if
+(
+!
+mParser
+)
+{
+return
+;
+}
 nsCOMPtr
 <
 nsIParser
