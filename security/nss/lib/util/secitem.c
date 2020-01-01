@@ -506,7 +506,7 @@ b
 unsigned
 m
 ;
-SECComparison
+int
 rv
 ;
 if
@@ -612,9 +612,6 @@ len
 ;
 rv
 =
-(
-SECComparison
-)
 PORT_Memcmp
 (
 a
@@ -635,6 +632,12 @@ rv
 {
 return
 rv
+<
+0
+?
+SECLessThan
+:
+SECGreaterThan
 ;
 }
 if

@@ -263,7 +263,7 @@ SECItem
 derivedSecret
 unsigned
 int
-maxOutBytes
+outBytes
 )
 ;
 extern

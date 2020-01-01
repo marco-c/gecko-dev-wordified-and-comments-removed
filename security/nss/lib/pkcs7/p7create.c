@@ -68,6 +68,12 @@ secpkcs5
 .
 h
 "
+const
+int
+NSS_PBE_DEFAULT_ITERATION_COUNT
+=
+2000
+;
 static
 SECStatus
 sec_pkcs7_init_content_info
@@ -4497,7 +4503,7 @@ pbe_algid
 PK11_CreatePBEAlgorithmID
 (
 algorithm
-1
+NSS_PBE_DEFAULT_ITERATION_COUNT
 NULL
 )
 ;

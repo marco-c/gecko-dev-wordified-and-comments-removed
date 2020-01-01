@@ -370,7 +370,7 @@ DH_MIN_P_BITS
 #
 define
 DH_MAX_P_BITS
-2236
+3072
 #
 define
 DSA_Q_BITS

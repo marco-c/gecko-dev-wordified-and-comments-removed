@@ -2640,6 +2640,7 @@ common_FindCertByNicknameOrEmailAddrForUsage
 CERTCertDBHandle
 *
 handle
+const
 char
 *
 name

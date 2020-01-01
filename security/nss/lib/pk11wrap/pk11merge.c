@@ -4133,7 +4133,7 @@ trustAttrs
 ]
 )
 ;
-int
+CK_ULONG
 i
 ;
 CK_ATTRIBUTE
