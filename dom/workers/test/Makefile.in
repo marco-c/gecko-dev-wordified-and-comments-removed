@@ -470,6 +470,10 @@ atob_worker
 .
 js
 \
+test_blobWorkers
+.
+html
+\
 test_close
 .
 html

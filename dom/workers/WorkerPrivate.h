@@ -1027,7 +1027,7 @@ return
 mBaseURI
 ;
 }
-nsresult
+void
 SetBaseURI
 (
 nsIURI
