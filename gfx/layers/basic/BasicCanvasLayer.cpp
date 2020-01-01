@@ -899,6 +899,13 @@ LOCAL_GL_FRAMEBUFFER
 mCanvasFramebuffer
 )
 ;
+isurf
+-
+>
+Flush
+(
+)
+;
 mGLContext
 -
 >
@@ -913,6 +920,13 @@ mBounds
 .
 height
 isurf
+)
+;
+isurf
+-
+>
+MarkDirty
+(
 )
 ;
 if
