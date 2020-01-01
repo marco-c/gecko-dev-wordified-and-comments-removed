@@ -2210,7 +2210,7 @@ function
 var
 top
 =
-20
+0
 ;
 var
 bottom
