@@ -6299,6 +6299,7 @@ be
 located
 CHECKSUM_FILE
 =
+"
 (
 DIST
 )
@@ -6312,6 +6313,7 @@ PKG_BASENAME
 )
 .
 checksums
+"
 UPLOAD_FILES
 =
 \
