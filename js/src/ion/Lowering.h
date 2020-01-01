@@ -421,14 +421,6 @@ ins
 )
 ;
 bool
-visitInitElem
-(
-MInitElem
-*
-ins
-)
-;
-bool
 visitInitProp
 (
 MInitProp
