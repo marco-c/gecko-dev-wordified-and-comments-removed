@@ -148,9 +148,6 @@ MozApplicationEvent
 '
 DeviceStorageChangeEvent
 '
-'
-BluetoothDeviceAddressEvent
-'
 ]
 "
 "
