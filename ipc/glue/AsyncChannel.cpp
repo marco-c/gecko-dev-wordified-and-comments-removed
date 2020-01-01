@@ -16,7 +16,7 @@ mozilla
 /
 ipc
 /
-GeckoThread
+BrowserProcessSubThread
 .
 h
 "

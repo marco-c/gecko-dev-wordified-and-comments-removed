@@ -12,17 +12,6 @@ h
 #
 include
 "
-mozilla
-/
-ipc
-/
-GeckoThread
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h

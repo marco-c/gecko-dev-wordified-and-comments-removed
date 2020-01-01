@@ -16,17 +16,6 @@ mozilla
 /
 ipc
 /
-GeckoThread
-.
-h
-"
-#
-include
-"
-mozilla
-/
-ipc
-/
 ProtocolUtils
 .
 h
