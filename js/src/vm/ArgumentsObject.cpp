@@ -346,6 +346,12 @@ JS_FORWARD_TO_CALL_OBJECT
 ;
 }
 }
+#
+if
+defined
+(
+JS_ION
+)
 void
 ArgumentsObject
 :
@@ -475,6 +481,8 @@ JS_FORWARD_TO_CALL_OBJECT
 ;
 }
 }
+#
+endif
 struct
 CopyFrameArgs
 {
@@ -535,6 +543,12 @@ data
 }
 }
 ;
+#
+if
+defined
+(
+JS_ION
+)
 struct
 CopyIonJSFrameArgs
 {
@@ -660,6 +674,8 @@ data
 }
 }
 ;
+#
+endif
 struct
 CopyStackIterArgs
 {
@@ -1428,6 +1444,12 @@ copy
 )
 ;
 }
+#
+if
+defined
+(
+JS_ION
+)
 ArgumentsObject
 *
 ArgumentsObject
@@ -1541,6 +1563,8 @@ copy
 )
 ;
 }
+#
+endif
 static
 JSBool
 args_delProperty
