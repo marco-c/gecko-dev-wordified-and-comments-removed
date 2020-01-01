@@ -2439,7 +2439,7 @@ n
 n
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

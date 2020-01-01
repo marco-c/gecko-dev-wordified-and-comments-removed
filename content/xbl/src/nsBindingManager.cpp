@@ -2984,7 +2984,7 @@ result
 aContent
 -
 >
-GetChildNodesList
+ChildNodes
 (
 )
 ;

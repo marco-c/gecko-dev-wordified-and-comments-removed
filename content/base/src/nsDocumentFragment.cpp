@@ -100,12 +100,7 @@ FragmentOrElement
 GetFirstChild
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_FORWARD_NSIDOMNODE
-(
-FragmentOrElement
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 nsDocumentFragment
 (
 already_AddRefed

@@ -5504,7 +5504,7 @@ currNode
 currNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

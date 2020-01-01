@@ -1902,7 +1902,7 @@ MakeAccessNode
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

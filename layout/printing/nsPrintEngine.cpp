@@ -11085,7 +11085,7 @@ parent
 current
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

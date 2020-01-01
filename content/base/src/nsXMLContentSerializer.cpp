@@ -5426,7 +5426,7 @@ parent
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

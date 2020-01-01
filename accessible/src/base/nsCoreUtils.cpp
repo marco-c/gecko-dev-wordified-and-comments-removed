@@ -1229,7 +1229,7 @@ parentNode
 parentNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

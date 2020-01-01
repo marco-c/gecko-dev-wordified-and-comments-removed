@@ -24341,7 +24341,7 @@ if
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -24354,7 +24354,7 @@ offset
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 -
@@ -24369,7 +24369,7 @@ node
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -24398,7 +24398,7 @@ priorNode
 priorNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 &
@@ -24435,7 +24435,7 @@ offset
 priorNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 -
@@ -24450,7 +24450,7 @@ node
 priorNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -24506,7 +24506,7 @@ body
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -24545,7 +24545,7 @@ parentOffset
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 -
@@ -24564,7 +24564,7 @@ parent
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -24695,7 +24695,7 @@ if
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -24710,7 +24710,7 @@ offset
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 -
@@ -24725,7 +24725,7 @@ node
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -24766,7 +24766,7 @@ AsDOMNode
 nextNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -24778,7 +24778,7 @@ offset
 nextNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 -
@@ -24793,7 +24793,7 @@ node
 nextNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -24868,7 +24868,7 @@ body
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -24879,7 +24879,7 @@ parentOffset
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 -
@@ -24898,7 +24898,7 @@ parent
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -28502,7 +28502,7 @@ parent
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -28550,7 +28550,7 @@ parent
 parent
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -35007,7 +35007,7 @@ aNode1
 aNode1
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -35032,7 +35032,7 @@ aNode2
 aNode2
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -35151,7 +35151,7 @@ parent
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

@@ -57,12 +57,7 @@ nsXMLDocument
 :
 :
 )
-NS_FORWARD_NSIDOMNODE
-(
-nsXMLDocument
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult

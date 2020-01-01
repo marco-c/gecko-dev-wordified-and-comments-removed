@@ -1171,7 +1171,7 @@ aNode
 mNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

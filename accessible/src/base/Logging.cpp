@@ -3921,7 +3921,7 @@ parentNode
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

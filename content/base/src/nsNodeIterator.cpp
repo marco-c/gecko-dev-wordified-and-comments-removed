@@ -204,7 +204,7 @@ MoveBackward
 mNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 mNode
@@ -388,7 +388,7 @@ aNode
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

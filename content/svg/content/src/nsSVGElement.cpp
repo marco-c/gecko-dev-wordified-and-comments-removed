@@ -4819,7 +4819,9 @@ bool
 aReturn
 )
 {
-return
+*
+aReturn
+=
 nsGenericElement
 :
 :
@@ -4827,8 +4829,10 @@ IsSupported
 (
 aFeature
 aVersion
-aReturn
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

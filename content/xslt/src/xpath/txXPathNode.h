@@ -219,7 +219,7 @@ ancestor
 root
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

@@ -160,9 +160,6 @@ available
 see
 bug
 768298
-nsresult
-rv
-=
 mGeckoAccessible
 -
 >
@@ -174,12 +171,6 @@ GetContent
 GetTextContent
 (
 title
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-nil
 )
 ;
 return

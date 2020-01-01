@@ -271,12 +271,7 @@ nsSVGLinearGradientElementBase
 :
 :
 )
-NS_FORWARD_NSIDOMNODE
-(
-nsSVGLinearGradientElementBase
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT
 (
 nsSVGLinearGradientElementBase
@@ -398,12 +393,7 @@ nsSVGRadialGradientElementBase
 :
 )
 NS_DECL_NSIDOMSVGRADIALGRADIENTELEMENT
-NS_FORWARD_NSIDOMNODE
-(
-nsSVGRadialGradientElementBase
-:
-:
-)
+NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT
 (
 nsSVGRadialGradientElementBase

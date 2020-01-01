@@ -1653,7 +1653,7 @@ if
 mCurrentNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

@@ -2728,7 +2728,7 @@ MayContainRelevantNodes
 aElement
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -3451,7 +3451,7 @@ mDeep
 aContent
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 =

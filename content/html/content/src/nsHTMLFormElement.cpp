@@ -1936,7 +1936,7 @@ cur
 ancestor
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

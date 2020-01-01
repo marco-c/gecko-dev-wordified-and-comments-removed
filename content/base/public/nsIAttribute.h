@@ -75,6 +75,7 @@ nsINodeInfo
 NodeInfo
 (
 )
+const
 {
 return
 mNodeInfo

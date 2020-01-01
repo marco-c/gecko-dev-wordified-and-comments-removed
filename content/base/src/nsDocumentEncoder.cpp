@@ -2288,7 +2288,7 @@ current
 current
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -4769,7 +4769,7 @@ GetAncestors
 n
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 mCommonAncestors
@@ -4836,7 +4836,7 @@ GetAncestors
 p
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 mCommonAncestors
@@ -4942,7 +4942,7 @@ GetAncestors
 p
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 mCommonAncestors

@@ -5969,7 +5969,7 @@ aPossibleDescendant
 aPossibleDescendant
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

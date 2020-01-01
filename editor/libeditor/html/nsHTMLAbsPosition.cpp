@@ -2333,7 +2333,7 @@ parentNode
 element
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

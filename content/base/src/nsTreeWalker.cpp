@@ -371,7 +371,7 @@ node
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -664,7 +664,7 @@ node
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -872,7 +872,7 @@ temp
 temp
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -1117,7 +1117,7 @@ parent
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -1334,7 +1334,7 @@ node
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

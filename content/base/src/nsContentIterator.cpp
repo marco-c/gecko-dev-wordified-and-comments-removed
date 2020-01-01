@@ -93,7 +93,7 @@ parent
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -196,7 +196,7 @@ parent
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -1400,7 +1400,7 @@ parent
 current
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -1819,7 +1819,7 @@ parent
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -2078,7 +2078,7 @@ parent
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -2390,7 +2390,7 @@ parent
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -2647,7 +2647,7 @@ parent
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -3439,7 +3439,7 @@ parent
 tempNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -3507,7 +3507,7 @@ parent
 newCurNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;
@@ -4658,7 +4658,7 @@ aNode
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -4771,7 +4771,7 @@ parent
 parent
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )

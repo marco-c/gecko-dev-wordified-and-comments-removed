@@ -1866,7 +1866,7 @@ thisEvent
 mNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 =
@@ -1877,7 +1877,7 @@ tailEvent
 mNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -2344,7 +2344,7 @@ accEvent
 mNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 =
@@ -2352,7 +2352,7 @@ GetNodeParent
 aNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
@@ -3320,7 +3320,7 @@ containerNode
 textNode
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

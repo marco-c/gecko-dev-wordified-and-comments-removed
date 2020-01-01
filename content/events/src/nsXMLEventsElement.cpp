@@ -42,12 +42,6 @@ nsXMLEventsElement
 (
 )
 ;
-NS_FORWARD_NSIDOMNODE
-(
-nsXMLElement
-:
-:
-)
 virtual
 nsIAtom
 *

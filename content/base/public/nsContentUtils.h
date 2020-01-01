@@ -743,8 +743,9 @@ return
 aNode2
 -
 >
-CompareDocPosition
+CompareDocumentPosition
 (
+*
 aNode1
 )
 &

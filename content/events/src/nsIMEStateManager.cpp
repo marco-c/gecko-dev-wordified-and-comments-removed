@@ -4073,7 +4073,7 @@ node
 node
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 ;

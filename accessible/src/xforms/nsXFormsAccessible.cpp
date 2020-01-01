@@ -252,13 +252,8 @@ nodes
 mContent
 -
 >
-GetChildNodesList
+ChildNodes
 (
-)
-;
-NS_ENSURE_STATE
-(
-nodes
 )
 ;
 uint32_t
@@ -2406,7 +2401,7 @@ parent
 parent
 -
 >
-GetNodeParent
+GetParentNode
 (
 )
 )
