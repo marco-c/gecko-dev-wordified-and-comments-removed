@@ -88,6 +88,10 @@ gfxMatrix
 .
 cpp
 \
+gfxFontMissingGlyphs
+.
+cpp
+\
 gfxPattern
 .
 cpp
