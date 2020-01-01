@@ -41438,7 +41438,6 @@ mHTMLEditor
 )
 {
 return
-NS_OK
 ;
 }
 nsCOMPtr
