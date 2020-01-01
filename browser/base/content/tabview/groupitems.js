@@ -3807,6 +3807,7 @@ child
 .
 close
 (
+true
 )
 ;
 if
