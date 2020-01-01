@@ -987,7 +987,7 @@ border
 top
 :
 2px
-dashed
+solid
 rgba
 (
 0
@@ -995,7 +995,7 @@ rgba
 0
 0
 .
-15
+13
 )
 ;
 border
@@ -1003,7 +1003,7 @@ border
 left
 :
 2px
-dashed
+solid
 rgba
 (
 0
@@ -1011,7 +1011,7 @@ rgba
 0
 0
 .
-15
+13
 )
 ;
 }
