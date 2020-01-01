@@ -506,6 +506,14 @@ test_prompt
 .
 html
 \
+test_xhr
+.
+html
+\
+test_xml_load
+.
+html
+\
 test_zzz_finish
 .
 html
@@ -517,6 +525,10 @@ MOCHI_CONTENT
 =
 \
 pwmgr_common
+.
+js
+\
+prompt_common
 .
 js
 \
