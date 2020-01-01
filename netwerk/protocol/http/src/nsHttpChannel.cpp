@@ -10444,6 +10444,14 @@ gHttpHandler
 IsPersistentHttpsCachingEnabled
 (
 )
+&
+&
+mConnectionInfo
+-
+>
+UsingSSL
+(
+)
 )
 mLoadFlags
 |
