@@ -1,4 +1,7 @@
 #
+define
+MOZ_FATAL_ASSERTIONS_FOR_THREAD_SAFETY
+#
 include
 "
 nsScreenManagerAndroid
