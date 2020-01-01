@@ -39821,7 +39821,9 @@ test
 -
 f
 "
-topsrcdir
+{
+_topsrcdir
+}
 /
 REAL_BRANDING_DIRECTORY
 /
@@ -39833,7 +39835,9 @@ sh
 then
 .
 "
-topsrcdir
+{
+_topsrcdir
+}
 /
 REAL_BRANDING_DIRECTORY
 /
