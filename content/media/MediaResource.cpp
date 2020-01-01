@@ -2676,8 +2676,10 @@ ShouldCheckAllowOrigin
 )
 )
 {
+nsRefPtr
+<
 nsCORSListenerProxy
-*
+>
 crossSiteListener
 =
 new
