@@ -1259,6 +1259,7 @@ SELECT
 host
 frecency
 typed
+prefix
 "
 +
 "
