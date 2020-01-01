@@ -2613,7 +2613,7 @@ item
 (
 unsigned
 long
-index
+idx
 )
 ;
 readonly
@@ -2704,7 +2704,7 @@ setItem
 (
 unsigned
 long
-index
+idx
 DOMString
 item
 )
@@ -2714,7 +2714,7 @@ DOMString
 (
 unsigned
 long
-index
+idx
 )
 ;
 }
@@ -2848,7 +2848,7 @@ delItem
 (
 unsigned
 long
-index
+idx
 )
 ;
 getter
