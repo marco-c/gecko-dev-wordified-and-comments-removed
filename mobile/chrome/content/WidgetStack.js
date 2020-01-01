@@ -6645,6 +6645,7 @@ woverflow
 hoverflow
 )
 {
+let
 intersection
 =
 rect
@@ -6654,6 +6655,7 @@ intersect
 bounds
 )
 ;
+let
 newIntersection
 =
 rect
