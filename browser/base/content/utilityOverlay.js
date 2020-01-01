@@ -2130,17 +2130,6 @@ getNext
 (
 )
 ;
-if
-(
-win
-.
-opener
-!
-=
-window
-)
-continue
-;
 win
 .
 focus
