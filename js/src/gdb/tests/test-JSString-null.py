@@ -26,3 +26,12 @@ null
 0x0
 '
 )
+assert_pretty
+(
+'
+nullRaw
+'
+'
+0x0
+'
+)

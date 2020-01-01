@@ -116,6 +116,17 @@ times
 >
 "
 )
+assert_pretty
+(
+'
+xRaw
+'
+'
+"
+x
+"
+'
+)
 run_fragment
 (
 '
