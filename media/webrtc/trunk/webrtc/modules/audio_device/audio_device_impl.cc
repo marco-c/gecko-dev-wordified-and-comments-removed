@@ -1124,7 +1124,9 @@ Id
 ;
 }
 #
-elif
+endif
+#
+if
 defined
 (
 WEBRTC_ANDROID_OPENSLES
