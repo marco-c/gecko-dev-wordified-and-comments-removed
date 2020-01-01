@@ -23356,7 +23356,7 @@ type
 Type
 :
 :
-Intish
+Int
 ;
 }
 return
@@ -23435,7 +23435,7 @@ type
 Type
 :
 :
-Intish
+Int
 ;
 }
 return
