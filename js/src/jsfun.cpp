@@ -2665,7 +2665,7 @@ if
 env
 )
 return
-JS_FALSE
+NULL
 ;
 fp
 -
@@ -2772,7 +2772,7 @@ NULL
 )
 {
 return
-JS_FALSE
+NULL
 ;
 }
 fp
