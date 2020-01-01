@@ -360,6 +360,7 @@ new
 ShadowLayersParent
 (
 slm
+this
 )
 ;
 }
