@@ -172,6 +172,7 @@ ifneq
 filter
 windows
 gtk2
+gtk3
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
@@ -193,6 +194,7 @@ filter
 windows
 cocoa
 gtk2
+gtk3
 (
 MOZ_WIDGET_TOOLKIT
 )
@@ -231,6 +233,7 @@ ifneq
 filter
 windows
 gtk2
+gtk3
 (
 MOZ_WIDGET_TOOLKIT
 )

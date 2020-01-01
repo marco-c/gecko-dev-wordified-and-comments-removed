@@ -157,13 +157,8 @@ LIBRARY_NAME
 =
 shellservice_s
 else
-ifeq
-(
-(
-MOZ_WIDGET_TOOLKIT
-)
-gtk2
-)
+ifdef
+MOZ_WIDGET_GTK
 LIBRARY_NAME
 =
 shellservice_s

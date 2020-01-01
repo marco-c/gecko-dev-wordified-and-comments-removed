@@ -1238,7 +1238,7 @@ feeds
 xpt
 #
 ifdef
-MOZ_GTK2
+MOZ_GTK
 BINPATH
 /
 components
@@ -2206,7 +2206,7 @@ clhandler
 js
 #
 ifdef
-MOZ_GTK2
+MOZ_GTK
 BINPATH
 /
 components
@@ -3441,7 +3441,7 @@ recording
 *
 #
 ifdef
-MOZ_GTK2
+MOZ_GTK
 BINPATH
 /
 browser
