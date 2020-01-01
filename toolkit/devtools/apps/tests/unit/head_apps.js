@@ -348,7 +348,7 @@ appId
 ;
 gClient
 .
-addListener
+addOneTimeListener
 (
 "
 webappsEvent

@@ -34,6 +34,16 @@ layout
 :
 "
 "
+"
+toolkit
+/
+devtools
+/
+apps
+"
+:
+"
+"
 }
 "
 excludetests
