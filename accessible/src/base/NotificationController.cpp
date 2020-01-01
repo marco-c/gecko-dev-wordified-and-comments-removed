@@ -670,6 +670,13 @@ CacheChildrenInSubtree
 mDocument
 )
 ;
+mDocument
+-
+>
+NotifyOfInitialUpdate
+(
+)
+;
 NS_ASSERTION
 (
 mContentInsertions

@@ -168,12 +168,6 @@ pszValue
 )
 ;
 virtual
-PRBool
-Init
-(
-)
-;
-virtual
 void
 Shutdown
 (
@@ -197,6 +191,14 @@ GetNativeWindow
 (
 )
 const
+;
+protected
+:
+virtual
+void
+NotifyOfInitialUpdate
+(
+)
 ;
 protected
 :

@@ -230,6 +230,15 @@ GetCaretAccessible
 (
 )
 ;
+virtual
+void
+DocumentActivated
+(
+nsDocAccessible
+*
+aDocument
+)
+;
 protected
 :
 NS_DECL_RUNNABLEMETHOD

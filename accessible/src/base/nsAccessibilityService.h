@@ -480,6 +480,15 @@ aPresShell
 ;
 virtual
 void
+PresShellActivated
+(
+nsIPresShell
+*
+aPresShell
+)
+;
+virtual
+void
 RecreateAccessible
 (
 nsIPresShell

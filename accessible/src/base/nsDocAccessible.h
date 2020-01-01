@@ -875,6 +875,12 @@ RemoveEventListeners
 (
 )
 ;
+virtual
+void
+NotifyOfInitialUpdate
+(
+)
+;
 void
 AddScrollListener
 (
