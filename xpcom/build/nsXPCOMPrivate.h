@@ -1115,6 +1115,13 @@ MOZ_DLL_SUFFIX
 #
 else
 #
+include
+<
+limits
+.
+h
+>
+#
 define
 XPCOM_DLL
 "
