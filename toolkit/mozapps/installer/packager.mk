@@ -3080,6 +3080,16 @@ DIST
 /
 xpt
 (
+RM
+)
+-
+rf
+(
+DIST
+)
+/
+manifests
+(
 call
 PACKAGER_COPY
 "

@@ -5458,6 +5458,8 @@ components
 (
 SHARED_LIBRARY
 )
+ifndef
+NO_COMPONENTS_MANIFEST
 (
 PYTHON
 )
@@ -5487,6 +5489,7 @@ component
 SHARED_LIBRARY
 )
 "
+endif
 ifdef
 BEOS_ADDON_WORKAROUND
 (
@@ -12588,6 +12591,8 @@ FINAL_TARGET
 )
 /
 components
+ifndef
+NO_INTERFACES_MANIFEST
 (
 PYTHON
 )
@@ -12617,6 +12622,7 @@ XPIDL_MODULE
 .
 xpt
 "
+endif
 endif
 endif
 #
