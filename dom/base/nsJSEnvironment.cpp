@@ -16756,9 +16756,14 @@ aContext
 )
 mArgv
 (
-argv
+nsnull
 )
 mArgc
+(
+argc
+)
+{
+if
 (
 argc
 )
@@ -16792,6 +16797,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 return
 ;
+}
 }
 if
 (
