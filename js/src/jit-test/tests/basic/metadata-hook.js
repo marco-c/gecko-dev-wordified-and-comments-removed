@@ -35,9 +35,8 @@ count
 =
 0
 ;
-setObjectMetadataCallback
-(
 function
+callback
 (
 obj
 )
@@ -79,6 +78,15 @@ return
 res
 ;
 }
+callback
+(
+{
+}
+)
+;
+setObjectMetadataCallback
+(
+callback
 )
 ;
 function
