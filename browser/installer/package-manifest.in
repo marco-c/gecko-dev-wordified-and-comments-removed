@@ -935,13 +935,6 @@ BINPATH
 /
 components
 /
-jsctypes
-.
-xpt
-BINPATH
-/
-components
-/
 jsdservice
 .
 xpt

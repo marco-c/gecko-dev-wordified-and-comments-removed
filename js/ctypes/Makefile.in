@@ -447,9 +447,6 @@ mk
 MODULE
 =
 jsctypes
-XPIDL_MODULE
-=
-jsctypes
 MODULE_NAME
 =
 jsctypes
@@ -459,7 +456,8 @@ GRE_MODULE
 #
 package
 the
-interface
+js
+module
 whether
 ctypes
 is
@@ -473,16 +471,6 @@ EXTRA_JS_MODULES
 ctypes
 .
 jsm
-\
-(
-NULL
-)
-XPIDLSRCS
-=
-\
-nsIForeignLibrary
-.
-idl
 \
 (
 NULL
