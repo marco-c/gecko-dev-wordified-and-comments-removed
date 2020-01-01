@@ -739,6 +739,17 @@ libjingle
 source
 /
 \
+-
+I
+(
+topsrcdir
+)
+/
+xpcom
+/
+base
+/
+\
 (
 NULL
 )
