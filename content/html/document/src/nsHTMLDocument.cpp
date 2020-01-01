@@ -1360,7 +1360,10 @@ html
 )
 ;
 }
-nsresult
+already_AddRefed
+<
+nsIPresShell
+>
 nsHTMLDocument
 :
 :
@@ -1375,10 +1378,6 @@ aViewManager
 nsStyleSet
 *
 aStyleSet
-nsIPresShell
-*
-*
-aInstancePtrResult
 )
 {
 return
@@ -1388,7 +1387,6 @@ aContext
 aViewManager
 aStyleSet
 mCompatMode
-aInstancePtrResult
 )
 ;
 }

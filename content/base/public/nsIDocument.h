@@ -1086,7 +1086,10 @@ aData
 0
 ;
 virtual
-nsresult
+already_AddRefed
+<
+nsIPresShell
+>
 CreateShell
 (
 nsPresContext
@@ -1098,10 +1101,6 @@ aViewManager
 nsStyleSet
 *
 aStyleSet
-nsIPresShell
-*
-*
-aInstancePtrResult
 )
 =
 0

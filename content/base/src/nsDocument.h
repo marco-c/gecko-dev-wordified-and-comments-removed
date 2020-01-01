@@ -1951,7 +1951,10 @@ aData
 )
 ;
 virtual
-nsresult
+already_AddRefed
+<
+nsIPresShell
+>
 CreateShell
 (
 nsPresContext
@@ -1963,11 +1966,8 @@ aViewManager
 nsStyleSet
 *
 aStyleSet
-nsIPresShell
-*
-*
-aInstancePtrResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -4188,7 +4188,10 @@ XPCOMShutdown
 ;
 protected
 :
-nsresult
+already_AddRefed
+<
+nsIPresShell
+>
 doCreateShell
 (
 nsPresContext
@@ -4202,10 +4205,6 @@ nsStyleSet
 aStyleSet
 nsCompatibility
 aCompatMode
-nsIPresShell
-*
-*
-aInstancePtrResult
 )
 ;
 void
