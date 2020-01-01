@@ -940,10 +940,12 @@ obj
 {
 if
 (
-cx
+obj
 -
 >
 compartment
+(
+)
 -
 >
 functionNamespaceObject
@@ -951,10 +953,12 @@ functionNamespaceObject
 =
 obj
 )
-cx
+obj
 -
 >
 compartment
+(
+)
 -
 >
 functionNamespaceObject
