@@ -75308,9 +75308,7 @@ PYTHONDONTWRITEBYTECODE
 PYTHON
 _topsrcdir
 /
-other
--
-licenses
+python
 /
 virtualenv
 /
