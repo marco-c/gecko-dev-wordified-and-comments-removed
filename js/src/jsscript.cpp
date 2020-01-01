@@ -12605,6 +12605,16 @@ src
 >
 isGeneratorExp
 ;
+dst
+-
+>
+userBit
+=
+src
+-
+>
+userBit
+;
 if
 (
 cx

@@ -3960,6 +3960,7 @@ get
 )
 lineNo
 SCRIPTVERSION_DEFAULT
+false
 handler
 )
 ;

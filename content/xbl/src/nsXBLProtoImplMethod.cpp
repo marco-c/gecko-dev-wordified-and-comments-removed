@@ -883,6 +883,7 @@ GetLineNumber
 )
 JSVERSION_LATEST
 true
+true
 &
 methodObject
 )

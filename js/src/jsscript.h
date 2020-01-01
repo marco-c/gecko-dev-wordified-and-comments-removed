@@ -1321,6 +1321,11 @@ hasFreezeConstraints
 :
 1
 ;
+bool
+userBit
+:
+1
+;
 private
 :
 bool

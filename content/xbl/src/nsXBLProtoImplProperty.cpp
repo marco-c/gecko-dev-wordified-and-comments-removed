@@ -959,6 +959,7 @@ GetLineNumber
 )
 JSVERSION_LATEST
 true
+true
 &
 getterObject
 )
@@ -1119,6 +1120,7 @@ GetLineNumber
 (
 )
 JSVERSION_LATEST
+true
 true
 &
 setterObject
