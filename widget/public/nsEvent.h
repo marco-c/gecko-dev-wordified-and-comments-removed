@@ -78,9 +78,6 @@ class
 nsTooltipEvent
 ;
 class
-nsMenuEvent
-;
-class
 nsSimpleGestureEvent
 ;
 class
