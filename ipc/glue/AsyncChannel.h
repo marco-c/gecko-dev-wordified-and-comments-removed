@@ -248,6 +248,7 @@ Message
 msg
 )
 ;
+NS_OVERRIDE
 virtual
 void
 OnMessageReceived
@@ -258,6 +259,7 @@ Message
 msg
 )
 ;
+NS_OVERRIDE
 virtual
 void
 OnChannelConnected
@@ -266,6 +268,7 @@ int32
 peer_pid
 )
 ;
+NS_OVERRIDE
 virtual
 void
 OnChannelError
@@ -274,6 +277,18 @@ OnChannelError
 ;
 protected
 :
+bool
+Connected
+(
+)
+{
+return
+ChannelConnected
+=
+=
+mChannelState
+;
+}
 void
 OnDispatchMessage
 (
