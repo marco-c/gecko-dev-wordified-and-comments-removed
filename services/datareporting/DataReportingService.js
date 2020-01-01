@@ -1121,7 +1121,7 @@ this
 .
 _healthReporter
 .
-onInit
+init
 (
 )
 .

@@ -1002,6 +1002,8 @@ function
 (
 branch
 policy
+recorder
+stateLeaf
 )
 {
 HealthReporter
@@ -1011,6 +1013,8 @@ call
 this
 branch
 policy
+recorder
+stateLeaf
 )
 ;
 this
