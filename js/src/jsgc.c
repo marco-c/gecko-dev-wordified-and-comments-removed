@@ -5422,7 +5422,7 @@ state
 JSGEN_OPEN
 &
 &
-js_FindFinallyHandler
+js_IsInsideTryWithFinally
 (
 gen
 -
