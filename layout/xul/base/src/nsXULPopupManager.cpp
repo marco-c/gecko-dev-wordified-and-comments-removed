@@ -469,6 +469,14 @@ mRangeOffset
 (
 0
 )
+mCachedMousePoint
+(
+nsIntPoint
+(
+0
+0
+)
+)
 mActiveMenuBar
 (
 nsnull
