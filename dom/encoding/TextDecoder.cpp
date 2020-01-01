@@ -122,7 +122,7 @@ mFatal
 =
 aFatal
 .
-fatal
+mFatal
 ;
 nsCOMPtr
 <
@@ -417,7 +417,7 @@ if
 !
 aOptions
 .
-stream
+mStream
 )
 {
 mDecoder
