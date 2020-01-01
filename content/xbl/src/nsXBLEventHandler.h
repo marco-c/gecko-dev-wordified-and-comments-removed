@@ -38,9 +38,6 @@ class
 nsIDOMKeyEvent
 ;
 class
-nsPIDOMEventTarget
-;
-class
 nsXBLPrototypeHandler
 ;
 class

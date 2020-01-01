@@ -90,7 +90,7 @@ class
 nsIDOMMouseEvent
 ;
 class
-nsPIDOMEventTarget
+nsIDOMEventTarget
 ;
 class
 nsIDOM3EventTarget
@@ -400,7 +400,7 @@ aHandler
 nsresult
 ExecuteHandler
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 nsIDOMEvent
@@ -512,7 +512,7 @@ nsIController
 >
 GetController
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 )
@@ -650,7 +650,7 @@ PR_FALSE
 nsresult
 DispatchXBLCommand
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aTarget
 nsIDOMEvent

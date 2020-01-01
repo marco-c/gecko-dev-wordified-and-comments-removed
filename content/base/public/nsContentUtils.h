@@ -366,9 +366,6 @@ class
 nsPIDOMWindow
 ;
 class
-nsPIDOMEventTarget
-;
-class
 nsIPresShell
 ;
 class
@@ -3672,7 +3669,7 @@ nsCxPusher
 PRBool
 Push
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aCurrentTarget
 )
@@ -3680,7 +3677,7 @@ aCurrentTarget
 PRBool
 RePush
 (
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 aCurrentTarget
 )

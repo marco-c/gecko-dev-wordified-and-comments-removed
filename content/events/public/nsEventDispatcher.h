@@ -34,10 +34,10 @@ class
 nsIDOMEvent
 ;
 class
-nsPIDOMEventTarget
+nsIScriptGlobalObject
 ;
 class
-nsIScriptGlobalObject
+nsIDOMEventTarget
 ;
 class
 nsEventTargetChainItem
@@ -244,11 +244,11 @@ mWantsWillHandleEvent
 PRPackedBool
 mMayHaveListenerManager
 ;
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 mParentTarget
 ;
-nsPIDOMEventTarget
+nsIDOMEventTarget
 *
 mEventTargetAtParent
 ;
@@ -342,7 +342,7 @@ aCallback
 nsnull
 nsCOMArray
 <
-nsPIDOMEventTarget
+nsIDOMEventTarget
 >
 *
 aTargets

@@ -7,10 +7,13 @@ nsPIDOMEventTarget_h_
 #
 include
 "
-nsISupports
+nsIDOMEventTarget
 .
 h
 "
+#
+if
+0
 #
 include
 "
@@ -237,5 +240,7 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsPIDOMEventTarget
 NS_PIDOMEVENTTARGET_IID
 )
+#
+endif
 #
 endif

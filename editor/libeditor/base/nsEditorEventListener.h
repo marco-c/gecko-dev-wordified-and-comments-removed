@@ -67,9 +67,6 @@ class
 nsIDOMDragEvent
 ;
 class
-nsPIDOMEventTarget
-;
-class
 nsEditorEventListener
 :
 public

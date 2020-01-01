@@ -460,7 +460,7 @@ aDOMEvent
 void
 DispatchProgressEvent
 (
-nsPIDOMEventTarget
+nsDOMEventTargetHelper
 *
 aTarget
 const
@@ -484,7 +484,7 @@ aTotalSize
 void
 DispatchProgressEvent
 (
-nsPIDOMEventTarget
+nsDOMEventTargetHelper
 *
 aTarget
 const
