@@ -10339,7 +10339,7 @@ aFrame
 aBoxRect
 .
 size
-PR_TRUE
+true
 )
 ;
 /
@@ -10483,7 +10483,7 @@ drawsContentsIntoWindowFrame
 ]
 )
 return
-PR_FALSE
+false
 ;
 float
 unifiedToolbarHeight
@@ -12477,7 +12477,7 @@ DrawButton
 cgContext
 kThemeArrowButton
 macRect
-PR_FALSE
+false
 kThemeButtonOn
 kThemeAdornmentArrowDownArrow
 eventState
@@ -12757,7 +12757,7 @@ IsIndeterminateProgress
 aFrame
 eventState
 )
-PR_FALSE
+false
 GetProgressValue
 (
 aFrame
@@ -12798,7 +12798,7 @@ DrawButton
 cgContext
 kThemeDisclosureButton
 macRect
-PR_FALSE
+false
 kThemeDisclosureRight
 kThemeAdornmentNone
 eventState
@@ -12815,7 +12815,7 @@ DrawButton
 cgContext
 kThemeDisclosureButton
 macRect
-PR_FALSE
+false
 kThemeDisclosureDown
 kThemeAdornmentNone
 eventState
@@ -12841,7 +12841,7 @@ DrawButton
 cgContext
 kThemeListHeaderButton
 macRect
-PR_FALSE
+false
 sortDirection
 =
 =
@@ -14396,7 +14396,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 /
 /
 Return
-PR_FALSE
+false
 here
 to
 indicate
@@ -14439,7 +14439,7 @@ use
 this
 to
 return
-PR_TRUE
+true
 /
 /
 if
@@ -14553,11 +14553,11 @@ SizeTo
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -14711,12 +14711,12 @@ m
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -14769,7 +14769,7 @@ SizeTo
 *
 aIsOverridable
 =
-PR_TRUE
+true
 ;
 switch
 (
@@ -14867,7 +14867,7 @@ buttonHeight
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15060,7 +15060,7 @@ twistyHeight
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15160,7 +15160,7 @@ scaleHeight
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15195,7 +15195,7 @@ scaleWidth
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15230,7 +15230,7 @@ scrollbarWidth
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15466,7 +15466,7 @@ scrollbarWidth
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15614,7 +15614,7 @@ scrollbarWidth
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -15699,7 +15699,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -15800,7 +15800,7 @@ NS_THEME_PROGRESSBAR_VERTICAL
 *
 aShouldRepaint
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -15873,7 +15873,7 @@ repaint
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -15902,7 +15902,7 @@ etc
 *
 aShouldRepaint
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -15980,7 +15980,7 @@ open
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -16102,7 +16102,7 @@ IsThemeSupportEnabled
 )
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -16160,7 +16160,7 @@ comboboxControlFrame
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -16389,7 +16389,7 @@ nsWidgetAtoms
 scrollFrame
 )
 return
-PR_TRUE
+true
 ;
 /
 /
@@ -16473,7 +16473,7 @@ break
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -16512,13 +16512,13 @@ case
 NS_THEME_PROGRESSBAR
 :
 return
-PR_FALSE
+false
 ;
 break
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -16569,10 +16569,10 @@ aWidgetType
 NS_THEME_CHECKBOX
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -16584,7 +16584,7 @@ ThemeNeedsComboboxDropmarker
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsITheme

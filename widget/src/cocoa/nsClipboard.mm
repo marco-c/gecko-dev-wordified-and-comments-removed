@@ -777,7 +777,7 @@ NS_ERROR_FAILURE
 ;
 mIgnoreEmptyNotification
 =
-PR_TRUE
+true
 ;
 NSDictionary
 *
@@ -968,7 +968,7 @@ changeCount
 ;
 mIgnoreEmptyNotification
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2174,7 +2174,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 *
 outResult
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2350,7 +2350,7 @@ k
 *
 outResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2445,7 +2445,7 @@ pboardType
 *
 outResult
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2511,7 +2511,7 @@ availableType
 *
 outResult
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3668,13 +3668,13 @@ aPasteboardType
 NSHTMLPboardType
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }

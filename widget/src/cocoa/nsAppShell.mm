@@ -1412,7 +1412,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCocoaAppModalWindowListItem
 &
@@ -1636,7 +1636,7 @@ mSkippedNativeCallback
 {
 mSkippedNativeCallback
 =
-PR_FALSE
+false
 ;
 ScheduleNativeEventCallback
 (
@@ -1672,19 +1672,19 @@ NULL
 )
 mRunningEventLoop
 (
-PR_FALSE
+false
 )
 mStarted
 (
-PR_FALSE
+false
 )
 mTerminated
 (
-PR_FALSE
+false
 )
 mSkippedNativeCallback
 (
-PR_FALSE
+false
 )
 mHadMoreEventsCount
 (
@@ -1741,9 +1741,9 @@ NSApp
 isRunning
 ]
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 nsAppShell
@@ -2558,7 +2558,7 @@ nsAppShell_PDEPluginCallback_dealloc
 }
 gAppShellMethodsSwizzled
 =
-PR_TRUE
+true
 ;
 }
 [
@@ -2692,7 +2692,7 @@ self
 >
 mRunningEventLoop
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2947,7 +2947,7 @@ self
 >
 mSkippedNativeCallback
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3129,7 +3129,7 @@ mTerminated
 /
 /
 is
-PR_TRUE
+true
 )
 it
 '
@@ -3594,7 +3594,7 @@ NS_GetCurrentThread
 ;
 mTerminated
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -4067,7 +4067,7 @@ if
 mTerminated
 )
 return
-PR_FALSE
+false
 ;
 /
 /
@@ -4221,7 +4221,7 @@ GeckoModalAboveCocoaModal
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 wasRunningEventLoop
@@ -4722,7 +4722,7 @@ aWait
 is
 /
 /
-PR_FALSE
+false
 we
 check
 for
@@ -4743,7 +4743,7 @@ sendEvent
 When
 aWait
 is
-PR_TRUE
+true
 [
 NSRunLoop
 runMode
@@ -5173,7 +5173,7 @@ nextEvent
 }
 eventProcessed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5262,7 +5262,7 @@ waitUntil
 }
 eventProcessed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5381,7 +5381,7 @@ moreEvents
 /
 /
 Returns
-PR_TRUE
+true
 if
 Gecko
 events
@@ -5411,7 +5411,7 @@ loops
 )
 .
 Returns
-PR_FALSE
+false
 if
 Gecko
 /
@@ -5711,7 +5711,7 @@ mRecursionDepth
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -5721,10 +5721,10 @@ mNativeEventCallbackDepth
 0
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -5885,7 +5885,7 @@ NS_OK
 ;
 mStarted
 =
-PR_TRUE
+true
 ;
 NS_OBJC_TRY_ABORT
 (
@@ -6015,7 +6015,7 @@ NS_OK
 }
 mTerminated
 =
-PR_TRUE
+true
 ;
 delete
 gCocoaAppModalWindowList

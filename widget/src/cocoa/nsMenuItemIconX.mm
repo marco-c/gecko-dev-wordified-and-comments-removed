@@ -725,11 +725,11 @@ aMenuItem
 )
 mLoadedIcon
 (
-PR_FALSE
+false
 )
 mSetIcon
 (
-PR_FALSE
+false
 )
 mNativeMenuItem
 (
@@ -2071,7 +2071,7 @@ nsnull
 }
 mLoadedIcon
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2241,7 +2241,7 @@ sInitializedPlaceholder
 {
 sInitializedPlaceholder
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -3162,11 +3162,11 @@ iconImage
 ;
 mLoadedIcon
 =
-PR_TRUE
+true
 ;
 mSetIcon
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

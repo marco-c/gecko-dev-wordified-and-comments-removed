@@ -1733,7 +1733,7 @@ aSuggestedDriverVersion
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 PRInt32
@@ -1877,7 +1877,7 @@ mAdapterDeviceID
 {
 foundGoodDevice
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -2276,7 +2276,7 @@ i
 )
 foundGoodDevice
 =
-PR_TRUE
+true
 ;
 }
 }

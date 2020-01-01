@@ -814,7 +814,7 @@ show
 {
 gCallSecretHiddenFileAPI
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1917,7 +1917,7 @@ userClicksOK
 GetLocalFiles
 (
 mTitle
-PR_FALSE
+false
 mFiles
 )
 ;
@@ -1931,7 +1931,7 @@ userClicksOK
 GetLocalFiles
 (
 mTitle
-PR_TRUE
+true
 mFiles
 )
 ;
@@ -2782,7 +2782,7 @@ NS_NewLocalFile
 EmptyString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -3138,7 +3138,7 @@ NS_NewLocalFile
 EmptyString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -3451,7 +3451,7 @@ NS_NewLocalFile
 EmptyString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile

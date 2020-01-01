@@ -2628,6 +2628,6 @@ aPluginEvent
 .
 retargetToFocusedDocument
 =
-PR_FALSE
+false
 ;
 }
