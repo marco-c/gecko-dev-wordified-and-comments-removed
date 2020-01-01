@@ -144,6 +144,15 @@ PROCESS_PRIORITY_MASTER
 NUM_PROCESS_PRIORITY
 }
 ;
+const
+char
+*
+ProcessPriorityToString
+(
+ProcessPriority
+aPriority
+)
+;
 enum
 WakeLockControl
 {
