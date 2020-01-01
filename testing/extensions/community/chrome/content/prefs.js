@@ -791,12 +791,6 @@ newLogin
 new
 nsLoginInfo
 (
-)
-;
-newLogin
-.
-init
-(
 '
 chrome
 :
