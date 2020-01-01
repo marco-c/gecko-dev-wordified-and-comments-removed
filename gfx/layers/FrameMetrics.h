@@ -407,7 +407,7 @@ height
 )
 ;
 }
-nsIntRect
+LayerIntRect
 mCompositionBounds
 ;
 nsIntRect
@@ -440,10 +440,10 @@ mScrollOffset
 ViewID
 mScrollId
 ;
-gfx
+mozilla
 :
 :
-Rect
+CSSRect
 mScrollableRect
 ;
 gfxSize

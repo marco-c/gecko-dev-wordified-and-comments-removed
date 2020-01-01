@@ -5392,10 +5392,7 @@ nsIntRect
 &
 aPageRect
 const
-gfx
-:
-:
-Rect
+CSSRect
 &
 aCssPageRect
 )
@@ -5514,10 +5511,7 @@ AndroidGeckoLayerClient
 SetPageRect
 (
 const
-gfx
-:
-:
-Rect
+CSSRect
 &
 aCssPageRect
 )
@@ -5797,10 +5791,7 @@ aScrollOffset
 float
 aZoom
 const
-gfx
-:
-:
-Rect
+CSSRect
 &
 aCssPageRect
 bool
