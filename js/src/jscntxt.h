@@ -1015,6 +1015,10 @@ JSCompartment
 *
 gcCurrentCompartment
 ;
+JSCompartment
+*
+gcCheckCompartment
+;
 bool
 gcPoke
 ;

@@ -188,6 +188,13 @@ crash_buffer_size
 ;
 }
 ;
+enum
+{
+JS_CRASH_TAG_GC
+=
+0x200
+}
+;
 }
 }
 #
