@@ -67,6 +67,8 @@ public
 :
 nsMBCSGroupProber
 (
+PRUint32
+aLanguageFilter
 )
 ;
 virtual

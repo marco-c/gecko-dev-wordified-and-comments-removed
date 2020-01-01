@@ -483,10 +483,6 @@ nsDebugDetector
 .
 cpp
 \
-nsPSMDetectors
-.
-cpp
-\
 nsCyrillicDetector
 .
 cpp

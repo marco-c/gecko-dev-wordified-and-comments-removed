@@ -1554,6 +1554,9 @@ if
 done
 )
 {
+#
+ifdef
+DEBUG_DetectCharset
 printf
 (
 "
@@ -1567,6 +1570,8 @@ n
 sz
 )
 ;
+#
+endif
 rev
 =
 det
@@ -1580,6 +1585,9 @@ sz
 done
 )
 ;
+#
+ifdef
+DEBUG_DetectCharset
 printf
 (
 "
@@ -1595,6 +1603,8 @@ n
 done
 )
 ;
+#
+endif
 if
 (
 NS_FAILED
@@ -1667,6 +1677,9 @@ if
 done
 )
 {
+#
+ifdef
+DEBUG_DetectCharset
 printf
 (
 "
@@ -1693,6 +1706,8 @@ n
 sz
 )
 ;
+#
+endif
 rev
 =
 det
@@ -1769,6 +1784,9 @@ Report
 )
 ;
 }
+#
+ifdef
+DEBUG_DetectCharset
 printf
 (
 "
@@ -1778,11 +1796,16 @@ n
 "
 )
 ;
+#
+endif
 NS_IF_RELEASE
 (
 det
 )
 ;
+#
+ifdef
+DEBUG_DetectCharset
 printf
 (
 "
@@ -1793,6 +1816,8 @@ n
 "
 )
 ;
+#
+endif
 return
 (
 0

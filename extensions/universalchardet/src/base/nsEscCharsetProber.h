@@ -32,7 +32,8 @@ public
 :
 nsEscCharSetProber
 (
-void
+PRUint32
+aLanguageFilter
 )
 ;
 virtual
