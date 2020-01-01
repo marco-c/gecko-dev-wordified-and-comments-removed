@@ -121,6 +121,10 @@ SessionStorage
 .
 jsm
 \
+SessionMigration
+.
+jsm
+\
 XPathGenerator
 .
 jsm
