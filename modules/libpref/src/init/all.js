@@ -27191,3 +27191,13 @@ enabled
 true
 )
 ;
+pref
+(
+"
+html5
+.
+enable
+"
+false
+)
+;

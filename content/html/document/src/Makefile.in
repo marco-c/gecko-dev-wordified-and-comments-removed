@@ -486,6 +486,8 @@ txtsvc
 \
 uriloader
 \
+html5
+\
 (
 NULL
 )

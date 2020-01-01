@@ -426,6 +426,11 @@ UpdateChildCounts
 =
 0
 ;
+PRBool
+IsTimeToNotify
+(
+)
+;
 protected
 :
 nsContentSink
@@ -629,6 +634,8 @@ CacheSelectionAction
 aAction
 )
 ;
+public
+:
 void
 ProcessOfflineManifest
 (
@@ -637,6 +644,8 @@ nsIContent
 aElement
 )
 ;
+protected
+:
 void
 ScrollToRef
 (
@@ -650,6 +659,8 @@ nsIViewManager
 vm
 )
 ;
+public
+:
 void
 StartLayout
 (
@@ -657,11 +668,8 @@ PRBool
 aIgnorePendingSheets
 )
 ;
-PRBool
-IsTimeToNotify
-(
-)
-;
+protected
+:
 void
 FavorPerformanceHint
 (
