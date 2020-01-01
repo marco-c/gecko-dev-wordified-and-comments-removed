@@ -664,6 +664,12 @@ GetAcceleratedRendering
 (
 )
 ;
+virtual
+PRBool
+GetShouldAccelerate
+(
+)
+;
 NS_IMETHOD
 GetToggledKeyState
 (
