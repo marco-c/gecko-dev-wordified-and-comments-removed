@@ -1384,7 +1384,7 @@ testURI
 "
 about
 :
-blank
+config
 "
 "
 about
