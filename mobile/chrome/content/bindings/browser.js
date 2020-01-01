@@ -1730,6 +1730,12 @@ break
 let
 element
 =
+null
+;
+try
+{
+element
+=
 rootCwu
 .
 findElementWithViewId
@@ -1739,6 +1745,13 @@ json
 id
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 if
 (
 !
