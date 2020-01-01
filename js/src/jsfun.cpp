@@ -848,10 +848,7 @@ StrictArgumentsClass
 js_ArgumentsClass
 proto
 parent
-PrivateValue
-(
 NULL
-)
 cx
 )
 ;
@@ -4843,10 +4840,7 @@ init
 js_CallClass
 NULL
 scopeChain
-PrivateValue
-(
 NULL
-)
 cx
 )
 ;
@@ -5006,10 +5000,7 @@ fp
 maybeScopeChain
 (
 )
-PrivateValue
-(
 fp
-)
 cx
 )
 ;

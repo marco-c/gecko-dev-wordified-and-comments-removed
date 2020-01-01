@@ -1209,6 +1209,10 @@ s
 double
 asDouble
 ;
+void
+*
+asPtr
+;
 }
 jsval_layout
 ;
@@ -1266,6 +1270,10 @@ s
 ;
 double
 asDouble
+;
+void
+*
+asPtr
 ;
 }
 jsval_layout

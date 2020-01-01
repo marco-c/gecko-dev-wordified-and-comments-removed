@@ -5014,7 +5014,7 @@ nanojit
 :
 LIns
 *
-stobj_get_const_private_ptr
+stobj_get_fslot_private_ptr
 (
 nanojit
 :
@@ -5024,8 +5024,6 @@ LIns
 obj_ins
 unsigned
 slot
-=
-JSSLOT_PRIVATE
 )
 ;
 nanojit
