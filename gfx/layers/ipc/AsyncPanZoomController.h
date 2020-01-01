@@ -340,6 +340,11 @@ CSSPoint
 aScrollOffset
 )
 ;
+void
+CancelAnimation
+(
+)
+;
 protected
 :
 nsEventStatus
@@ -472,11 +477,6 @@ aFocus
 ;
 void
 ScheduleComposite
-(
-)
-;
-void
-CancelAnimation
 (
 )
 ;

@@ -287,12 +287,12 @@ abortPanning
 {
 }
 public
+native
 void
 abortAnimation
 (
 )
-{
-}
+;
 private
 native
 void

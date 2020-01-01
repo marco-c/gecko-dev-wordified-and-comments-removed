@@ -3571,6 +3571,12 @@ CancelAnimation
 (
 )
 {
+MonitorAutoLock
+monitor
+(
+mMonitor
+)
+;
 mState
 =
 NOTHING
