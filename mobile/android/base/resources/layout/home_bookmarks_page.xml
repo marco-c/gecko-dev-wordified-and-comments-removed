@@ -87,7 +87,7 @@ gecko
 .
 home
 .
-HomeListView
+BookmarksListView
 xmlns
 :
 android
