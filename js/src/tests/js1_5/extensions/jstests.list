@@ -325,7 +325,6 @@ xulRuntime
 .
 shell
 )
-slow
 script
 regress
 -
@@ -989,7 +988,6 @@ regress
 365527
 .
 js
-slow
 script
 regress
 -
@@ -1122,13 +1120,14 @@ WINNT
 &
 isDebugBuild
 )
-slow
 script
 regress
 -
 367589
 .
 js
+#
+slow
 script
 regress
 -
@@ -1345,13 +1344,14 @@ xulRuntime
 .
 shell
 )
-slow
 script
 regress
 -
 407720
 .
 js
+#
+slow
 script
 regress
 -

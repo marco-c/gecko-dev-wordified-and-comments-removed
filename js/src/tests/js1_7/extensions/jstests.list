@@ -456,13 +456,14 @@ x86_64
 /
 )
 )
-slow
 script
 regress
 -
 458679
 .
 js
+#
+slow
 script
 regress
 -
