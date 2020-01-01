@@ -2081,6 +2081,8 @@ JSBool
 pretty
 JSBool
 grouped
+JSBool
+strict
 )
 ;
 extern
@@ -2670,6 +2672,8 @@ JSBool
 pretty
 JSBool
 grouped
+JSBool
+strict
 JSBool
 (
 *

@@ -398,6 +398,10 @@ js_enumerable_str
 js_configurable_str
 js_writable_str
 js_value_str
+"
+use
+strict
+"
 #
 if
 JS_HAS_XML_SUPPORT

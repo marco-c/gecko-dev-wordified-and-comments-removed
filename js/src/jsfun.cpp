@@ -2615,6 +2615,16 @@ hasSharps
 wscript
 -
 >
+strictModeCode
+=
+script
+-
+>
+strictModeCode
+;
+wscript
+-
+>
 version
 =
 script

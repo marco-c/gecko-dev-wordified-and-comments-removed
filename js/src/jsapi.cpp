@@ -22510,6 +22510,7 @@ indent
 JS_DONT_PRETTY_PRINT
 )
 false
+false
 )
 ;
 if
@@ -22590,6 +22591,7 @@ indent
 JS_DONT_PRETTY_PRINT
 )
 false
+false
 js_DecompileFunction
 )
 ;
@@ -22634,6 +22636,7 @@ indent
 &
 JS_DONT_PRETTY_PRINT
 )
+false
 false
 js_DecompileFunctionBody
 )

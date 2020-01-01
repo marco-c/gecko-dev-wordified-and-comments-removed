@@ -242,6 +242,11 @@ hasSharps
 :
 1
 ;
+bool
+strictModeCode
+:
+1
+;
 jsbytecode
 *
 main
