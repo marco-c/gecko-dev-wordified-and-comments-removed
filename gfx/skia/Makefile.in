@@ -501,13 +501,8 @@ DSK_FONTHOST_CAIRO_STANDALONE
 =
 0
 endif
-ifeq
-(
-gtk2
-(
-MOZ_WIDGET_TOOLKIT
-)
-)
+ifdef
+MOZ_WIDGET_GTK
 OS_CXXFLAGS
 +
 =
@@ -568,6 +563,7 @@ MOZ_WIDGET_TOOLKIT
 )
 android
 gtk2
+gtk3
 gonk
 cocoa
 )

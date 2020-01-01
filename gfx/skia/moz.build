@@ -1499,14 +1499,9 @@ elif
 CONFIG
 [
 '
-MOZ_WIDGET_TOOLKIT
+MOZ_WIDGET_GTK
 '
 ]
-=
-=
-'
-gtk2
-'
 :
 EXPORTS
 .
