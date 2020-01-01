@@ -355,7 +355,7 @@ child
 Open
 (
 (
-PRUint32
+uintptr_t
 )
 mKey
 path
@@ -436,7 +436,7 @@ child
 Create
 (
 (
-PRUint32
+uintptr_t
 )
 mKey
 path
