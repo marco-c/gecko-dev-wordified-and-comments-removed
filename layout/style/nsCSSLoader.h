@@ -777,9 +777,6 @@ LoadSheet
 nsIURI
 *
 aURL
-nsIURI
-*
-aOriginURI
 nsIPrincipal
 *
 aOriginPrincipal
@@ -798,9 +795,6 @@ LoadSheet
 nsIURI
 *
 aURL
-nsIURI
-*
-aOriginURI
 nsIPrincipal
 *
 aOriginPrincipal
@@ -881,9 +875,6 @@ private
 nsresult
 CheckLoadAllowed
 (
-nsIURI
-*
-aSourceURI
 nsIPrincipal
 *
 aSourcePrincipal
@@ -982,9 +973,6 @@ nsIURI
 aURL
 PRBool
 aAllowUnsafeRules
-nsIURI
-*
-aOriginURI
 nsIPrincipal
 *
 aOriginPrincipal

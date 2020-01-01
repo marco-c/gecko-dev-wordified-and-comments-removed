@@ -476,6 +476,10 @@ embed_base
 \
 view
 \
+caps
+\
+xpconnect
+\
 (
 NULL
 )

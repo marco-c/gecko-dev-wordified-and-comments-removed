@@ -14287,12 +14287,6 @@ uri
 mCurrentPrototype
 -
 >
-GetURI
-(
-)
-mCurrentPrototype
--
->
 DocumentPrincipal
 (
 )

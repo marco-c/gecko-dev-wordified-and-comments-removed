@@ -24124,6 +24124,7 @@ NS_CheckContentLoadPolicy
 contentType
 aURI
 aReferrer
+nsnull
 context
 EmptyCString
 (

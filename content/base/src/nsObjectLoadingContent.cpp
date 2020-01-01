@@ -3590,10 +3590,11 @@ nsIContentPolicy
 :
 TYPE_OBJECT
 aURI
+nsnull
 doc
 -
 >
-GetDocumentURI
+NodePrincipal
 (
 )
 static_cast
@@ -3612,6 +3613,12 @@ nsContentUtils
 :
 :
 GetContentPolicy
+(
+)
+nsContentUtils
+:
+:
+GetSecurityManager
 (
 )
 )

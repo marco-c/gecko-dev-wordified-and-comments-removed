@@ -3314,10 +3314,11 @@ nsIContentPolicy
 :
 TYPE_STYLESHEET
 url
+nsnull
 mDocument
 -
 >
-GetDocumentURI
+NodePrincipal
 (
 )
 aElement
@@ -3329,6 +3330,12 @@ nsContentUtils
 :
 :
 GetContentPolicy
+(
+)
+nsContentUtils
+:
+:
+GetSecurityManager
 (
 )
 )

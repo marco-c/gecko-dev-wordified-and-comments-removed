@@ -459,6 +459,12 @@ pref
 \
 docshell
 \
+caps
+\
+xpconnect
+\
+js
+\
 (
 NULL
 )
