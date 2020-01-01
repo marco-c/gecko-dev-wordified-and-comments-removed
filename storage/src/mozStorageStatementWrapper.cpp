@@ -1718,11 +1718,6 @@ PRBool
 _retval
 )
 {
-*
-_retval
-=
-PR_FALSE
-;
 if
 (
 JSVAL_IS_STRING
@@ -1844,7 +1839,7 @@ _retval
 PR_FALSE
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
+NS_OK
 ;
 }
 }
@@ -1898,7 +1893,7 @@ _retval
 PR_FALSE
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
+NS_OK
 ;
 }
 *
@@ -1958,7 +1953,7 @@ _retval
 PR_FALSE
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
+NS_OK
 ;
 }
 }
@@ -1997,11 +1992,6 @@ on
 )
 ;
 }
-*
-_retval
-=
-PR_TRUE
-;
 break
 ;
 }
