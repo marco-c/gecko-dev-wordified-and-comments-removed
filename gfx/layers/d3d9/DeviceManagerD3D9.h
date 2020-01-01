@@ -132,11 +132,7 @@ DeviceManagerD3D9
 (
 )
 ;
-NS_IMPL_ADDREF
-(
-DeviceManagerD3D9
-)
-NS_IMPL_RELEASE
+NS_INLINE_DECL_REFCOUNTING
 (
 DeviceManagerD3D9
 )
@@ -216,6 +212,11 @@ friend
 class
 SwapChainD3D9
 ;
+~
+DeviceManagerD3D9
+(
+)
+;
 bool
 VerifyReadyForRendering
 (
@@ -294,10 +295,6 @@ mFocusWnd
 bool
 mHasDynamicTextures
 ;
-nsAutoRefCnt
-mRefCnt
-;
-NS_DECL_OWNINGTHREAD
 bool
 VerifyCaps
 (
