@@ -3552,7 +3552,7 @@ idx
 nsresult
 rv
 ;
-ncCOMPtr
+nsCOMPtr
 <
 nsILoginInfo
 >
