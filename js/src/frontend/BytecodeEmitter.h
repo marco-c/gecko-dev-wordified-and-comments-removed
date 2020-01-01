@@ -352,6 +352,11 @@ Parser
 *
 parser
 ;
+StackFrame
+*
+const
+callerFrame
+;
 OwnedAtomIndexMapPtr
 atomIndices
 ;
@@ -443,6 +448,9 @@ JSScript
 *
 >
 script
+StackFrame
+*
+callerFrame
 unsigned
 lineno
 )
