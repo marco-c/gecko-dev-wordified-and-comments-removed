@@ -389,12 +389,6 @@ traceData
 uintN
 traceEpoch
 ;
-uint32
-loopCounter
-;
-uint32
-loopCounterStart
-;
 bool
 hasSlowTraceHint
 :
