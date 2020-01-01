@@ -493,6 +493,18 @@ requests
 .
 onerror
 =
+null
+;
+requests
+[
+3
+]
+.
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -500,6 +512,7 @@ ExpectError
 VersionError
 "
 true
+)
 )
 ;
 event

@@ -290,8 +290,11 @@ unexpectedSuccessHandler
 ;
 request
 .
-onerror
-=
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -299,6 +302,7 @@ ExpectError
 ConstraintError
 "
 true
+)
 )
 ;
 event
@@ -407,8 +411,11 @@ unexpectedSuccessHandler
 ;
 request
 .
-onerror
-=
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -416,6 +423,7 @@ ExpectError
 ConstraintError
 "
 true
+)
 )
 ;
 }

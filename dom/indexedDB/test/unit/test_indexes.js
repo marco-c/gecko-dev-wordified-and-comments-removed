@@ -1663,8 +1663,11 @@ weight
 ;
 request
 .
-onerror
-=
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -1672,6 +1675,7 @@ ExpectError
 ConstraintError
 "
 true
+)
 )
 ;
 request

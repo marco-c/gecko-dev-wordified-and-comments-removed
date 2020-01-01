@@ -163,14 +163,6 @@ nsIDOMMozSmsCursor
 >
 mCursor
 ;
-NS_DECL_EVENT_HANDLER
-(
-success
-)
-NS_DECL_EVENT_HANDLER
-(
-error
-)
 }
 ;
 inline

@@ -100,10 +100,6 @@ nsIRILVoicemailCallback
 >
 mRILVoicemailCallback
 ;
-NS_DECL_EVENT_HANDLER
-(
-statuschanged
-)
 class
 RILVoicemailCallback
 :

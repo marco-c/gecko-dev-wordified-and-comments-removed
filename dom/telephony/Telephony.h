@@ -59,14 +59,6 @@ nsIRILTelephonyCallback
 >
 mRILTelephonyCallback
 ;
-NS_DECL_EVENT_HANDLER
-(
-incoming
-)
-NS_DECL_EVENT_HANDLER
-(
-callschanged
-)
 TelephonyCall
 *
 mActiveCall

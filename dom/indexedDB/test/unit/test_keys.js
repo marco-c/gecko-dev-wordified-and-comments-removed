@@ -1082,8 +1082,11 @@ i
 ;
 req
 .
-onerror
-=
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -1091,6 +1094,7 @@ ExpectError
 ConstraintError
 "
 true
+)
 )
 ;
 req
@@ -1156,8 +1160,11 @@ i
 ;
 req
 .
-onerror
-=
+addEventListener
+(
+"
+error
+"
 new
 ExpectError
 (
@@ -1165,6 +1172,7 @@ ExpectError
 ConstraintError
 "
 true
+)
 )
 ;
 req
