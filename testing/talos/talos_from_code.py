@@ -266,23 +266,14 @@ talos_json_url
 try
 :
         
-for
 key
-in
-(
+=
 '
 talos
 .
 zip
 '
-'
-pageloader
-.
-xpi
-'
-)
-:
-            
+        
 entity
 =
 get_value
@@ -290,7 +281,7 @@ get_value
 jsonFilename
 key
 )
-            
+        
 if
 passesRestrictions
 (
@@ -305,7 +296,7 @@ url
 ]
 )
 :
-                
+            
 download_file
 (
 entity
@@ -322,7 +313,7 @@ path
 ]
 key
 )
-                
+            
 print
 "
 INFO
@@ -357,10 +348,10 @@ path
 key
 )
 )
-            
+        
 else
 :
-                
+            
 print
 "
 ERROR
@@ -375,7 +366,7 @@ file
 "
 +
 \
-                      
+                  
 "
 from
 :
@@ -386,7 +377,7 @@ s
 fileUrl
 +
 \
-                      
+                  
 "
 which
 is
@@ -407,7 +398,7 @@ org
 talos
 /
 "
-                
+            
 print
 "
 ERROR
@@ -422,7 +413,7 @@ certain
 branches
 .
 "
-                
+            
 sys
 .
 exit
