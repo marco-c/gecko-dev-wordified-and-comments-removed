@@ -7,7 +7,7 @@ function
 {
 __proto__
 =
-Uint32Array
+Array
 (
 )
 }
