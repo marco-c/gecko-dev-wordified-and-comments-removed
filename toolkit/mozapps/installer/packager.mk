@@ -3254,6 +3254,9 @@ PWD
 -
 f
 (
+call
+core_abspath
+(
 MOZILLA_DIR
 )
 /
@@ -3266,6 +3269,7 @@ installer
 precompile_cache
 .
 js
+)
 -
 e
 "
