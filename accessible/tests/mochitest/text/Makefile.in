@@ -453,6 +453,10 @@ test_doc
 .
 html
 \
+test_hypertext
+.
+html
+\
 test_singleline
 .
 html
