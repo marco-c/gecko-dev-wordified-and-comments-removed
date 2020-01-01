@@ -528,16 +528,12 @@ fp
 )
 ;
 extern
-JSObject
-*
+JSBool
 js_ComputeThis
 (
 JSContext
 *
 cx
-JSObject
-*
-thisp
 jsval
 *
 argv
