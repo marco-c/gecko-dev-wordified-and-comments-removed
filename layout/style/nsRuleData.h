@@ -55,7 +55,7 @@ mCanStoreInRuleTree
 bool
 mIsImportantRule
 ;
-uint8_t
+uint16_t
 mLevel
 ;
 nsPresContext

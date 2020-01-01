@@ -664,6 +664,7 @@ eAgentSheet
 eUserSheet
 ePresHintSheet
 eDocSheet
+eScopedDocSheet
 eStyleAttrSheet
 eOverrideSheet
 eAnimationSheet
@@ -782,6 +783,14 @@ aIndex
 )
 ;
 }
+nsresult
+RemoveDocStyleSheet
+(
+nsIStyleSheet
+*
+aSheet
+)
+;
 nsresult
 AddDocStyleSheet
 (
@@ -1122,7 +1131,7 @@ mInReconstruct
 unsigned
 mDirty
 :
-8
+9
 ;
 uint32_t
 mUnusedRuleNodeCount

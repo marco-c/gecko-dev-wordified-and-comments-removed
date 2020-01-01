@@ -1546,6 +1546,7 @@ text
 mLineNumber
 title
 media
+scopeElement
 aObserver
 &
 doneLoading
