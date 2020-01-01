@@ -349,10 +349,6 @@ if
 mAddedScrollPositionListener
 )
 {
-mAddedScrollPositionListener
-=
-PR_TRUE
-;
 nsIScrollableFrame
 *
 sf
@@ -371,6 +367,11 @@ GetRootScrollFrameAsScrollable
 (
 )
 ;
+if
+(
+sf
+)
+{
 sf
 -
 >
@@ -379,6 +380,11 @@ AddScrollPositionListener
 this
 )
 ;
+mAddedScrollPositionListener
+=
+PR_TRUE
+;
+}
 }
 }
 return
