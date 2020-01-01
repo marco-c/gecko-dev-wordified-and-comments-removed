@@ -8465,13 +8465,8 @@ png_uint_32
 num_plays
 )
 {
-#
-ifdef
-PNG_USE_LOCAL_ARRAYS
 PNG_acTL
 ;
-#
-endif
 png_byte
 data
 [
@@ -8559,13 +8554,8 @@ png_byte
 blend_op
 )
 {
-#
-ifdef
-PNG_USE_LOCAL_ARRAYS
 PNG_fcTL
 ;
-#
-endif
 png_byte
 data
 [

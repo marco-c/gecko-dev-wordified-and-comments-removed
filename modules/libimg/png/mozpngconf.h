@@ -6,6 +6,10 @@ define
 MOZPNGCONF_H
 #
 define
+PNG_USER_CHUNK_MALLOC_MAX
+4000000L
+#
+define
 PNG_NO_GLOBAL_ARRAYS
 #
 ifndef
@@ -15,6 +19,12 @@ define
 PNG_NO_READ_SUPPORTED
 #
 endif
+#
+define
+PNG_NO_SET_USER_LIMITS
+#
+define
+PNG_NO_USER_LIMITS
 #
 define
 PNG_NO_ASSEMBLER_CODE
@@ -214,6 +224,9 @@ define
 PNG_NO_WRITE_INTERLACING_SUPPORTED
 #
 endif
+#
+define
+PNG_NO_HANDLE_AS_UNKNOWN
 #
 define
 PNG_NO_INFO_IMAGE
