@@ -3647,11 +3647,9 @@ focused
 {
 if
 (
-document
+event
 .
-commandDispatcher
-.
-focusedElement
+originalTarget
 !
 =
 this
