@@ -96,6 +96,13 @@ IDBTransaction
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 USING_INDEXEDDB_NAMESPACE
 IDBRequest
 :

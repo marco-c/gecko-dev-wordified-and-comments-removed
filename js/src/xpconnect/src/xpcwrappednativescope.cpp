@@ -3580,8 +3580,8 @@ PLDHashOperator
 TraceDOMPrototype
 (
 const
-nsID
-&
+char
+*
 aKey
 JSObject
 *

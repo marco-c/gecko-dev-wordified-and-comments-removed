@@ -195,6 +195,13 @@ LazyIdleThread
 .
 h
 "
+#
+include
+"
+nsIScriptSecurityManager
+.
+h
+"
 using
 namespace
 mozilla
