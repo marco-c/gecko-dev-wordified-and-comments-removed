@@ -1038,9 +1038,6 @@ ifneq
 (
 (
 filter
-GNU
-GNU_
-%
 NetBSD
 OpenBSD
 (
