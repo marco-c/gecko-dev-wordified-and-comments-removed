@@ -1829,7 +1829,13 @@ aNumberOfRows
 bool
 IsEmptyCell
 (
-nsIDOMElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aCell
 )
