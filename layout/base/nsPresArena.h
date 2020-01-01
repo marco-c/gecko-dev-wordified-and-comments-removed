@@ -115,6 +115,12 @@ aPtr
 enum
 ObjectID
 {
+nsLineBox_id
+=
+nsQueryFrame
+:
+:
+NON_FRAME_MARKER
 NON_OBJECT_MARKER
 =
 0x40000000

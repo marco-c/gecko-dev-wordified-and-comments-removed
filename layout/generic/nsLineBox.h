@@ -483,6 +483,7 @@ _mPrev
 ;
 class
 nsLineBox
+MOZ_FINAL
 :
 public
 nsLineLink
