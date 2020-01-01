@@ -278,7 +278,9 @@ waitForExplicitFinish
 (
 )
 ;
-addLoadEvent
+SimpleTest
+.
+waitForFocus
 (
 doTest
 )
