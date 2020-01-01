@@ -4077,6 +4077,9 @@ GetTransformMatrix
 (
 nsIFrame
 *
+aStopAtAncestor
+nsIFrame
+*
 *
 aOutAncestor
 )
