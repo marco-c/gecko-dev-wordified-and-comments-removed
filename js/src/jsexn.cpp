@@ -250,8 +250,7 @@ exn_finalize
 FreeOp
 *
 fop
-JSObject
-*
+RawObject
 obj
 )
 ;
@@ -1996,8 +1995,7 @@ exn_finalize
 FreeOp
 *
 fop
-JSObject
-*
+RawObject
 obj
 )
 {
