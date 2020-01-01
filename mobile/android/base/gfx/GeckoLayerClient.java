@@ -1458,7 +1458,9 @@ type
 {
 synchronized
 (
-this
+getLock
+(
+)
 )
 {
 ImmutableViewportMetrics
@@ -2219,7 +2221,9 @@ cssPageBottom
 {
 synchronized
 (
-this
+getLock
+(
+)
 )
 {
 ImmutableViewportMetrics
@@ -2393,7 +2397,9 @@ cssPageBottom
 {
 synchronized
 (
-this
+getLock
+(
+)
 )
 {
 RectF
