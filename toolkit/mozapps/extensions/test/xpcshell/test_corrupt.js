@@ -1309,7 +1309,7 @@ AddonManager
 PENDING_NONE
 )
 ;
-restartManager
+shutdownManager
 (
 )
 ;
@@ -1350,6 +1350,11 @@ nsIFile
 .
 DIRECTORY_TYPE
 0755
+)
+;
+startupManager
+(
+false
 )
 ;
 AddonManager
