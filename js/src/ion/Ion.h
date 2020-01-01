@@ -443,8 +443,6 @@ JSContext
 cx
 HandleScript
 script
-bool
-osr
 )
 ;
 MethodStatus

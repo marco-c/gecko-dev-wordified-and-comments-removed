@@ -852,8 +852,6 @@ unsigned
 formalEnd
 unsigned
 iterEnd
-RawScript
-script
 )
 ;
 Value
