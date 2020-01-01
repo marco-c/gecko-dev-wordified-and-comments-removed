@@ -258,6 +258,14 @@ GetTimeContainer
 ;
 protected
 :
+PRBool
+IsEventName
+(
+nsIAtom
+*
+aName
+)
+;
 void
 UpdateHrefTarget
 (

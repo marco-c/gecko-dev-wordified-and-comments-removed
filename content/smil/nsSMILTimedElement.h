@@ -808,6 +808,15 @@ NotifyChangedInterval
 (
 )
 ;
+void
+FireTimeEventAsync
+(
+PRUint32
+aMsg
+PRInt32
+aDetail
+)
+;
 const
 nsSMILInstanceTime
 *
@@ -944,6 +953,9 @@ mCurrentInterval
 ;
 IntervalList
 mOldIntervals
+;
+PRUint32
+mCurrentRepeatIteration
 ;
 nsSMILMilestone
 mPrevRegisteredMilestone

@@ -620,6 +620,10 @@ DOMCI_CLASS
 (
 SVGSetElement
 )
+DOMCI_CLASS
+(
+TimeEvent
+)
 #
 endif
 DOMCI_CLASS

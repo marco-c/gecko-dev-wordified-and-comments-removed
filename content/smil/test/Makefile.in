@@ -596,6 +596,10 @@ test_smilTextZoom
 .
 xhtml
 \
+test_smilTimeEvents
+.
+xhtml
+\
 test_smilTiming
 .
 xhtml

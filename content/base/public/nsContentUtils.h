@@ -425,6 +425,9 @@ EventNameType_SVGGraphic
 EventNameType_SVGSVG
 =
 0x0008
+EventNameType_SMIL
+=
+0x0016
 EventNameType_HTMLXUL
 =
 0x0003
