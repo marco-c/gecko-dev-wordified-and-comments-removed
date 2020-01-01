@@ -6553,8 +6553,7 @@ nsIURI
 aHostURI
 bool
 aIsForeign
-const
-nsCString
+nsDependentCString
 &
 aCookieHeader
 const
@@ -6732,12 +6731,6 @@ PR_Now
 PR_USEC_PER_SEC
 ;
 }
-nsDependentCString
-cookieHeader
-(
-aCookieHeader
-)
-;
 while
 (
 SetCookieInternal
@@ -6746,7 +6739,7 @@ aHostURI
 baseDomain
 requireHostMatch
 cookieStatus
-cookieHeader
+aCookieHeader
 serverTime
 aFromHttp
 )
