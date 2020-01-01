@@ -5249,6 +5249,7 @@ null
 ;
 then
 \
+echo
 date
 >
 (
