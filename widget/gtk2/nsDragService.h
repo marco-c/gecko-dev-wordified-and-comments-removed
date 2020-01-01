@@ -192,6 +192,13 @@ nsIDragSessionGTKTimeCB
 aCallback
 )
 ;
+static
+nsDragService
+*
+GetInstance
+(
+)
+;
 void
 SourceEndDragSession
 (
