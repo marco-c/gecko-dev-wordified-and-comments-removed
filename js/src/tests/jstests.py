@@ -1288,19 +1288,14 @@ self
 :
         
 return
+'
+REGRESSIONS
+'
 not
+in
 self
 .
 groups
-.
-get
-(
-(
-False
-True
-False
-)
-)
 def
 run_tests
 (
