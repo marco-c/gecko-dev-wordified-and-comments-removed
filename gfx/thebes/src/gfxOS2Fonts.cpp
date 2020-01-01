@@ -282,6 +282,17 @@ CairoScaledFont
 )
 )
 ;
+if
+(
+!
+face
+)
+{
+return
+*
+mMetrics
+;
+}
 double
 emUnit
 =
