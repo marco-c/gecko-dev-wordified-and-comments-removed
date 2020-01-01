@@ -464,6 +464,10 @@ PrivateDataPreference
 .
 java
 \
+PrivateTab
+.
+java
+\
 PropertyAnimator
 .
 java

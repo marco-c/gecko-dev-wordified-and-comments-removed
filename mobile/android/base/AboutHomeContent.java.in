@@ -3104,6 +3104,7 @@ loadFavicon
 (
 pageUrl
 iconUrl
+true
 new
 Favicons
 .

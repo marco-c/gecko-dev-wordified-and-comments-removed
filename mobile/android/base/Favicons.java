@@ -824,6 +824,8 @@ String
 pageUrl
 String
 faviconUrl
+boolean
+persist
 OnFaviconLoadedListener
 listener
 )
@@ -870,6 +872,7 @@ LoadFaviconTask
 (
 pageUrl
 faviconUrl
+persist
 listener
 )
 ;
@@ -1127,6 +1130,10 @@ private
 OnFaviconLoadedListener
 mListener
 ;
+private
+boolean
+mPersist
+;
 public
 LoadFaviconTask
 (
@@ -1134,6 +1141,8 @@ String
 pageUrl
 String
 faviconUrl
+boolean
+persist
 OnFaviconLoadedListener
 listener
 )
@@ -1161,6 +1170,10 @@ faviconUrl
 mListener
 =
 listener
+;
+mPersist
+=
+persist
 ;
 }
 private
@@ -1201,6 +1214,15 @@ BitmapDrawable
 favicon
 )
 {
+if
+(
+!
+mPersist
+)
+{
+return
+;
+}
 synchronized
 (
 mDbHelper
