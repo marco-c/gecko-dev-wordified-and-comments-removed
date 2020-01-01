@@ -1448,7 +1448,7 @@ name
 Equals
 (
 "
-TE
+te
 "
 )
 |
