@@ -858,6 +858,12 @@ aOutput
 )
 )
 ;
+aDestination
+.
+NotifyInputConnected
+(
+)
+;
 }
 Context
 (

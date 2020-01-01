@@ -571,7 +571,7 @@ mLeftOverData
 {
 mLeftOverData
 =
-INT32_MIN
+0
 ;
 playedBackAllLeftOvers
 =
@@ -1148,6 +1148,10 @@ ChannelInterpretation
 :
 :
 Speakers
+)
+mMediaStreamGraphUpdateIndexAtLastInputConnection
+(
+0
 )
 mDelay
 (

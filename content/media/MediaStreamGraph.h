@@ -948,6 +948,11 @@ FinishOnGraphThread
 (
 )
 ;
+int64_t
+GetProcessingGraphUpdateIndex
+(
+)
+;
 bool
 HasCurrentData
 (
