@@ -115,14 +115,6 @@ INCLUDES
 -
 I
 (
-srcdir
-)
-/
-mediaresourcemanager
-\
--
-I
-(
 topsrcdir
 )
 /

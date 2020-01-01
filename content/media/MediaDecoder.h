@@ -391,14 +391,6 @@ Play
 ;
 virtual
 void
-SetDormantIfNecessary
-(
-bool
-aDormant
-)
-;
-virtual
-void
 Pause
 (
 )
@@ -1662,12 +1654,6 @@ nsAutoPtr
 DecodedStreamData
 >
 mDecodedStream
-;
-bool
-mIsMetadataLoaded
-;
-bool
-mIsDormant
 ;
 PlayState
 mPlayState

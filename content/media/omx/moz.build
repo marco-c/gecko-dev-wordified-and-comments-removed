@@ -132,9 +132,4 @@ OmxDecoder
 .
 cpp
 '
-'
-OMXCodecProxy
-.
-cpp
-'
 ]

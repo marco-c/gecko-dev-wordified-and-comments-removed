@@ -253,16 +253,6 @@ PARALLEL_DIRS
 omx
 '
 ]
-PARALLEL_DIRS
-+
-=
-[
-'
-omx
-/
-mediaresourcemanager
-'
-]
 if
 CONFIG
 [
