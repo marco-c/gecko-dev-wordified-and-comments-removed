@@ -3381,11 +3381,6 @@ mousethrough
 "
 never
 "
-observes
-=
-"
-bcast_windowState
-"
 >
 <
 hbox

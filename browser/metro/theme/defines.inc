@@ -68,7 +68,15 @@ toolbar_vertical_spacing
 %
 define
 toolbar_horizontal_spacing
-20px
+17px
+%
+define
+toolbar_horizontal_padding
+21px
+%
+define
+toolbar_snapped_horizontal_padding
+10px
 %
 define
 toolbar_snapped_horizontal_spacing
@@ -238,6 +246,10 @@ metro_font_large
 %
 define
 metro_font_xlarge
+35px
+%
+define
+metro_font_xxlarge
 45px
 %
 define
