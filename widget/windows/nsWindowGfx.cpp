@@ -91,6 +91,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 LayerManagerOGL
 .
 h
@@ -156,6 +165,10 @@ pixman
 h
 "
 }
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -848,6 +861,9 @@ if
 instance
 )
 {
+unused
+<
+<
 instance
 -
 >
