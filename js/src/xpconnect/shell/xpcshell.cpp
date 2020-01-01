@@ -7894,7 +7894,7 @@ PR_FALSE
 ;
 crashReporter
 =
-null
+nsnull
 ;
 }
 #
