@@ -615,6 +615,15 @@ char
 aMimeType
 )
 ;
+nsPluginTag
+*
+FindTagForPlugin
+(
+nsIPlugin
+*
+aPlugin
+)
+;
 nsresult
 FindStoppedPluginForURL
 (
