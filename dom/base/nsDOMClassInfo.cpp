@@ -5262,12 +5262,7 @@ nsIDOMWindow
 )
 DOM_CLASSINFO_WINDOW_MAP_ENTRIES
 (
-nsGlobalWindow
-:
-:
-HasIndexedDBSupport
-(
-)
+true
 )
 #
 ifdef
@@ -5762,12 +5757,7 @@ nsIDOMWindow
 )
 DOM_CLASSINFO_WINDOW_MAP_ENTRIES
 (
-nsGlobalWindow
-:
-:
-HasIndexedDBSupport
-(
-)
+true
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
