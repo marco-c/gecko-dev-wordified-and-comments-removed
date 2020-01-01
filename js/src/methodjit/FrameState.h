@@ -2000,6 +2000,9 @@ inTryBlock
 ;
 }
 ;
+class
+AutoPreserveAcrossSyncAndKill
+;
 }
 }
 #
