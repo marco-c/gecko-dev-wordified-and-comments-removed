@@ -8857,8 +8857,7 @@ static
 int32_t
 sMaxLayers
 =
--
-1
+false
 ;
 static
 bool
@@ -8896,7 +8895,7 @@ true
 ;
 }
 return
-sMaxLayers
+sMaxLayersCached
 ;
 }
 bool
