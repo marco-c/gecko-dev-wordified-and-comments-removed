@@ -447,6 +447,10 @@ nsBrowserGlue
 .
 js
 \
+aboutRobots
+.
+js
+\
 (
 NULL
 )
