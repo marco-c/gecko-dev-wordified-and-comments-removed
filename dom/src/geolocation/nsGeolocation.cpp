@@ -484,8 +484,6 @@ aRequest
 nsGeolocation
 *
 aLocator
-=
-nsnull
 )
 :
 mPosition
@@ -1264,6 +1262,10 @@ RequestSendLocationEvent
 (
 lastPosition
 this
+mIsWatchPositionRequest
+?
+nsnull
+:
 mLocator
 )
 ;
@@ -1556,6 +1558,11 @@ RequestSendLocationEvent
 (
 aPosition
 this
+mIsWatchPositionRequest
+?
+nsnull
+:
+mLocator
 )
 ;
 NS_DispatchToMainThread
