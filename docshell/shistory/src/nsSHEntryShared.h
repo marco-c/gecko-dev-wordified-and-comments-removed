@@ -153,13 +153,6 @@ aEntry
 )
 ;
 void
-SetDocIdentifier
-(
-PRUint64
-aDocIdentifier
-)
-;
-void
 RemoveFromExpirationTracker
 (
 )
