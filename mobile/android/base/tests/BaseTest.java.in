@@ -224,7 +224,7 @@ VERIFY_URL_TIMEOUT
 =
 2000
 ;
-private
+public
 static
 final
 int

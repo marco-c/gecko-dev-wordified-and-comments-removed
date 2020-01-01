@@ -181,14 +181,6 @@ home
 ;
 private
 static
-final
-int
-WAIT_FOR_CHILD_TIMEOUT
-=
-2000
-;
-private
-static
 ListView
 listview
 =
@@ -1173,7 +1165,7 @@ false
 ;
 }
 }
-WAIT_FOR_CHILD_TIMEOUT
+MAX_WAIT_MS
 )
 ;
 return

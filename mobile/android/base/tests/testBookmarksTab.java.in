@@ -167,14 +167,6 @@ extends
 BaseTest
 {
 private
-static
-final
-int
-WAIT_FOR_CHILD_TIMEOUT
-=
-2000
-;
-private
 String
 [
 ]
@@ -928,7 +920,7 @@ true
 ;
 }
 }
-WAIT_FOR_CHILD_TIMEOUT
+MAX_WAIT_MS
 )
 ;
 if
@@ -1669,7 +1661,7 @@ false
 ;
 }
 }
-WAIT_FOR_CHILD_TIMEOUT
+MAX_WAIT_MS
 )
 ;
 return

@@ -52,14 +52,6 @@ extends
 BaseTest
 {
 private
-static
-final
-int
-MAX_WAIT_MS
-=
-3000
-;
-private
 Element
 tabCount
 =
