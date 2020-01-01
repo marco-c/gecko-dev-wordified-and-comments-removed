@@ -426,10 +426,6 @@ LIBXUL_LIBRARY
 EXPORTS
 =
 \
-CustomQS_Canvas2D
-.
-h
-\
 CustomQS_WebGL
 .
 h
@@ -546,6 +542,10 @@ nsGLPbuffer
 cpp
 \
 nsGLPbufferOSMesa
+.
+cpp
+\
+SimpleBuffer
 .
 cpp
 \
