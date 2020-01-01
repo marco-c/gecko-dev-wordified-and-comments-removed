@@ -163,6 +163,10 @@ browser_newtab_bug765628
 .
 js
 \
+browser_newtab_bug876313
+.
+js
+\
 browser_newtab_perwindow_private_browsing
 .
 js
