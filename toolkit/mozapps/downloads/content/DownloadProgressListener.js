@@ -638,7 +638,7 @@ nsIDownloadManager
 .
 DOWNLOAD_NOTSTARTED
 :
-gDownloadsActiveLabel
+gDownloadsActiveTitle
 .
 hidden
 =
@@ -733,7 +733,7 @@ gDownloadsView
 insertBefore
 (
 dl
-gDownloadsActiveLabel
+gDownloadsActiveTitle
 .
 nextSibling
 )
@@ -955,13 +955,13 @@ gDownloadsView
 insertBefore
 (
 itm
-gDownloadsActiveLabel
+gDownloadsActiveTitle
 .
 nextSibling
 )
 ;
 }
-gDownloadsActiveLabel
+gDownloadsActiveTitle
 .
 hidden
 =
