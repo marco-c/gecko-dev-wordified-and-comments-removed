@@ -217,10 +217,7 @@ long
 index
 )
 ;
-[
-Throws
-]
-object
+HTMLOptionElement
 ?
 namedItem
 (

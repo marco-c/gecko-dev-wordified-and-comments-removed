@@ -302,6 +302,17 @@ int32_t
 aIndex
 )
 ;
+HTMLOptionElement
+*
+GetNamedItem
+(
+const
+nsAString
+&
+aName
+)
+const
+;
 virtual
 JSObject
 *
