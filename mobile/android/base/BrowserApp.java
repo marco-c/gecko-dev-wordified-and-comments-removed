@@ -7237,7 +7237,7 @@ LoadFaviconTask
 FLAG_PERSIST
 )
 ;
-long
+int
 id
 =
 Favicons
@@ -7348,7 +7348,7 @@ Tab
 tab
 )
 {
-long
+int
 faviconLoadId
 =
 tab

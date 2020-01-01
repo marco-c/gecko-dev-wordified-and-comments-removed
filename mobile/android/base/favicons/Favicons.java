@@ -133,7 +133,7 @@ GeckoFavicons
 public
 static
 final
-long
+int
 NOT_LOADING
 =
 0
@@ -141,7 +141,7 @@ NOT_LOADING
 public
 static
 final
-long
+int
 FAILED_EXPIRY_NEVER
 =
 -
@@ -189,7 +189,7 @@ static
 final
 Map
 <
-Long
+Integer
 LoadFaviconTask
 >
 sLoadTasks
@@ -201,7 +201,7 @@ synchronizedMap
 new
 HashMap
 <
-Long
+Integer
 LoadFaviconTask
 >
 (
@@ -392,7 +392,7 @@ pageUrl
 }
 public
 static
-long
+int
 loadFavicon
 (
 String
@@ -500,12 +500,12 @@ flags
 listener
 )
 ;
-long
+int
 taskId
 =
 task
 .
-getmId
+getId
 (
 )
 ;
@@ -663,7 +663,7 @@ static
 boolean
 cancelFaviconLoad
 (
-long
+int
 taskId
 )
 {
@@ -780,7 +780,7 @@ sLoadTasks
 {
 Set
 <
-Long
+Integer
 >
 taskIds
 =
@@ -792,7 +792,7 @@ keySet
 ;
 Iterator
 <
-Long
+Integer
 >
 iter
 =
@@ -811,7 +811,7 @@ hasNext
 )
 )
 {
-long
+int
 taskId
 =
 iter
