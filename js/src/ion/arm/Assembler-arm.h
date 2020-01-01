@@ -5333,6 +5333,15 @@ oom
 )
 const
 ;
+void
+setPrinter
+(
+Sprinter
+*
+sp
+)
+{
+}
 private
 :
 bool

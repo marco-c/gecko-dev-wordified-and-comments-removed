@@ -1076,15 +1076,11 @@ useBarrier
 true
 )
 {
-js
+GenericAssembler
 :
 :
-JaegerSpew
+staticSpew
 (
-js
-:
-:
-JSpew_Insns
 "
 -
 -
