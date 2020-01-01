@@ -1301,6 +1301,10 @@ str
 chars
 (
 )
+.
+get
+(
+)
 str
 -
 >

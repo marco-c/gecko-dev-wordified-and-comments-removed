@@ -444,9 +444,7 @@ execute
 JSContext
 *
 cx
-const
-jschar
-*
+StableCharPtr
 chars
 size_t
 length
@@ -528,9 +526,7 @@ execute
 JSContext
 *
 cx
-const
-jschar
-*
+StableCharPtr
 chars
 size_t
 length
@@ -1167,9 +1163,7 @@ cx
 RegExpStatics
 *
 res
-const
-jschar
-*
+StableCharPtr
 chars
 size_t
 length
@@ -1191,9 +1185,7 @@ createNoStatics
 JSContext
 *
 cx
-const
-jschar
-*
+StableCharPtr
 chars
 size_t
 length
@@ -1233,9 +1225,7 @@ execute
 JSContext
 *
 cx
-const
-jschar
-*
+StableCharPtr
 chars
 size_t
 length

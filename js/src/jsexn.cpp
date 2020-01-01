@@ -5840,6 +5840,10 @@ stable
 chars
 (
 )
+.
+get
+(
+)
 ;
 }
 }
