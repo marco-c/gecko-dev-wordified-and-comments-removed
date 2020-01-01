@@ -1309,6 +1309,12 @@ aAutoplayEnabled
 *
 aAutoplayEnabled
 =
+!
+IsEditable
+(
+)
+&
+&
 mAutoplayEnabled
 ;
 return
