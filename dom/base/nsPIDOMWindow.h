@@ -96,9 +96,6 @@ nsIIdleObserver
 class
 nsIPrincipal
 ;
-class
-nsIDocShellTreeItem
-;
 enum
 PopupControlState
 {
@@ -957,12 +954,6 @@ virtual
 void
 SetInitialPrincipalToSubject
 (
-nsIDocShellTreeItem
-*
-aItem
-nsIDOMWindow
-*
-aParent
 )
 =
 0
