@@ -46,6 +46,9 @@ Platform
 h
 "
 #
+if
+ENABLE_YARR_JIT
+#
 include
 "
 assembler
@@ -56,6 +59,8 @@ ExecutableAllocator
 .
 h
 "
+#
+endif
 namespace
 JSC
 {
@@ -1022,6 +1027,9 @@ deleteAllValues
 )
 ;
 }
+#
+if
+ENABLE_YARR_JIT
 class
 JSGlobalData
 {
@@ -1046,6 +1054,8 @@ regexAllocator
 }
 }
 ;
+#
+endif
 const
 size_t
 notFound

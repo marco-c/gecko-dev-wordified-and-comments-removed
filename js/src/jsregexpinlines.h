@@ -2253,6 +2253,9 @@ true
 }
 #
 endif
+#
+if
+ENABLE_YARR_JIT
 codeBlock
 .
 setFallBack
@@ -2260,6 +2263,8 @@ setFallBack
 true
 )
 ;
+#
+endif
 byteCode
 =
 JSC
