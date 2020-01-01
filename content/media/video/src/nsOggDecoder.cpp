@@ -6002,6 +6002,11 @@ DECODER_STATE_COMPLETED
 continue
 ;
 }
+mCurrentFrameTime
++
+=
+mCallbackPeriod
+;
 mon
 .
 Exit
@@ -7877,6 +7882,10 @@ nsOggDecoder
 PLAY_STATE_SEEKING
 )
 return
+;
+PlaybackPositionChanged
+(
+)
 ;
 ChangeState
 (
