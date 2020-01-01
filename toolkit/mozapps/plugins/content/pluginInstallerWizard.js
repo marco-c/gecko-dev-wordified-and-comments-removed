@@ -80,6 +80,7 @@ this
 mNeedsRestart
 =
 false
+;
 if
 (
 "
