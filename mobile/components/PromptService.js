@@ -747,7 +747,6 @@ alert
 arguments
 )
 ;
-IA
 }
 alertCheck
 :
