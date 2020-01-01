@@ -15,8 +15,16 @@ OggzDList
 typedef
 enum
 {
+DLIST_ITER_ERROR
+=
+-
+1
 DLIST_ITER_CANCEL
+=
+0
 DLIST_ITER_CONTINUE
+=
+1
 }
 OggzDListIterResponse
 ;
@@ -77,7 +85,7 @@ void
 elem
 )
 ;
-void
+int
 oggz_dlist_iter
 (
 OggzDList
@@ -97,7 +105,7 @@ OggzDListIterFunc
 func
 )
 ;
-void
+int
 oggz_dlist_deliter
 (
 OggzDList

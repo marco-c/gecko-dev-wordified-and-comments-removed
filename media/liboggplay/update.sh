@@ -897,3 +897,10 @@ p3
 bug495129b
 .
 patch
+patch
+-
+p3
+<
+bug487519
+.
+patch

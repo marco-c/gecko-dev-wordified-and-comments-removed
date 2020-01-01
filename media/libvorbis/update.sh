@@ -703,3 +703,10 @@ p3
 bug481601
 .
 patch
+patch
+-
+p3
+<
+bug487519
+.
+patch

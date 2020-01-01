@@ -716,3 +716,10 @@ p3
 endian
 .
 patch
+patch
+-
+p3
+<
+bug487519
+.
+patch

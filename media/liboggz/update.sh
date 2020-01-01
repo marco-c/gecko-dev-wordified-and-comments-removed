@@ -1733,3 +1733,10 @@ p3
 offset_next
 .
 patch
+patch
+-
+p3
+<
+bug487519
+.
+patch
