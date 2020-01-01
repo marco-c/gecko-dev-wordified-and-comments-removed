@@ -521,6 +521,14 @@ browser_getshortcutoruri
 .
 js
 \
+browser_page_style_menu
+.
+js
+\
+page_style_sample
+.
+html
+\
 (
 NULL
 )
