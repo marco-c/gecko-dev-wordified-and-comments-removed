@@ -1361,7 +1361,11 @@ com
 locale
 %
 /
-firefox
+'
+.
+product
+.
+'
 /
 '
 .
