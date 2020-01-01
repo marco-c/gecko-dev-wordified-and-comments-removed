@@ -1025,7 +1025,7 @@ searchTerms
 ;
 #
 ifdef
-OFFICIAL_BUILD
+MOZ_OFFICIAL_BRANDING
 const
 MOZ_OFFICIAL
 =
