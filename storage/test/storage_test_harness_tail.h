@@ -45,6 +45,9 @@ char
 aArgv
 )
 {
+return
+0
+;
 ScopedXPCOM
 xpcom
 (

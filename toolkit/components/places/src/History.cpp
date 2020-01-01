@@ -177,6 +177,9 @@ URI
 "
 )
 ;
+return
+NS_OK
+;
 #
 ifdef
 MOZ_IPC
