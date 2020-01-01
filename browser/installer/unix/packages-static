@@ -214,6 +214,11 @@ libnspr4
 so
 bin
 /
+libxul
+.
+so
+bin
+/
 components
 /
 libxpinstall

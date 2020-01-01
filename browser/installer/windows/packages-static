@@ -203,6 +203,11 @@ nspr4
 dll
 bin
 \
+xul
+.
+dll
+bin
+\
 components
 \
 xpinstal
