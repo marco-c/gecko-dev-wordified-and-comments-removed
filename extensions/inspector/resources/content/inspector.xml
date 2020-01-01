@@ -3933,7 +3933,7 @@ pane
 -
 header
 "
-tbalign
+align
 =
 "
 center
@@ -3944,6 +3944,11 @@ inherits
 =
 "
 disabled
+"
+xpfe
+=
+"
+false
 "
 >
 <
