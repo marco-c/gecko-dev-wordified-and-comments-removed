@@ -1514,6 +1514,8 @@ exit
 class
 SlurpInfo
 {
+public
+:
 unsigned
 curSlot
 ;
