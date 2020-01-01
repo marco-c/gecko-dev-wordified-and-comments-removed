@@ -117,6 +117,8 @@ removeFolderChildren
 (
 BookmarkList
 .
+panel
+.
 mobileRoot
 )
 ;
@@ -1080,7 +1082,7 @@ function
 (
 )
 {
-var
+let
 starbutton
 =
 document
@@ -1136,7 +1138,7 @@ function
 (
 )
 {
-var
+let
 editbutton
 =
 document
@@ -1194,7 +1196,7 @@ function
 (
 )
 {
-var
+let
 bookmarkitem
 =
 document
@@ -1227,7 +1229,7 @@ clientHeight
 }
 )
 ;
-var
+let
 uritextbox
 =
 document
@@ -1249,7 +1251,7 @@ value
 =
 testURL_01
 ;
-var
+let
 donebutton
 =
 document

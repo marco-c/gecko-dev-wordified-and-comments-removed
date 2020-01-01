@@ -71,7 +71,7 @@ tab
 =
 gCurrentTest
 .
-_tab
+_currentTab
 ;
 return
 !
@@ -176,7 +176,7 @@ URLBar
 with
 VK_RETURN
 "
-_tab
+_currentTab
 :
 null
 run
@@ -187,7 +187,7 @@ function
 {
 this
 .
-_tab
+_currentTab
 =
 Browser
 .
@@ -276,7 +276,7 @@ disabled
 !
 gCurrentTest
 .
-_tab
+_currentTab
 .
 browser
 .
@@ -310,7 +310,7 @@ disabled
 !
 gCurrentTest
 .
-_tab
+_currentTab
 .
 browser
 .
@@ -449,7 +449,7 @@ disabled
 !
 gCurrentTest
 .
-_tab
+_currentTab
 .
 browser
 .
@@ -483,7 +483,7 @@ disabled
 !
 gCurrentTest
 .
-_tab
+_currentTab
 .
 browser
 .
@@ -816,7 +816,7 @@ uri
 =
 gCurrentTest
 .
-_tab
+_currentTab
 .
 browser
 .
@@ -839,7 +839,7 @@ Tab
 ;
 gCurrentTest
 .
-_tab
+_currentTab
 .
 browser
 .
@@ -887,7 +887,7 @@ disabled
 !
 gCurrentTest
 .
-_tab
+_currentTab
 .
 browser
 .
@@ -921,7 +921,7 @@ disabled
 !
 gCurrentTest
 .
-_tab
+_currentTab
 .
 browser
 .
@@ -939,7 +939,7 @@ closeTab
 (
 gCurrentTest
 .
-_tab
+_currentTab
 )
 ;
 runNextTest
@@ -968,7 +968,7 @@ with
 GO
 button
 "
-_tab
+_currentTab
 :
 null
 run
@@ -979,7 +979,7 @@ function
 {
 this
 .
-_tab
+_currentTab
 =
 Browser
 .
@@ -1480,7 +1480,7 @@ uri
 =
 gCurrentTest
 .
-_tab
+_currentTab
 .
 browser
 .
@@ -1507,7 +1507,7 @@ closeTab
 (
 gCurrentTest
 .
-_tab
+_currentTab
 )
 ;
 runNextTest
