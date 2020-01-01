@@ -60,13 +60,6 @@ nsCURILoader
 h
 "
 #
-include
-"
-nsXPFEComponentsCID
-.
-h
-"
-#
 ifdef
 MOZ_RDF
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT

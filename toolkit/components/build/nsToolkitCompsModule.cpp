@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsXPFEComponentsCID
-.
-h
-"
-#
-include
-"
 nsToolkitCompsCID
 .
 h

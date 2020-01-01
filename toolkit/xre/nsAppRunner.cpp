@@ -508,13 +508,6 @@ h
 #
 include
 "
-nsXPFEComponentsCID
-.
-h
-"
-#
-include
-"
 nsVersionComparator
 .
 h

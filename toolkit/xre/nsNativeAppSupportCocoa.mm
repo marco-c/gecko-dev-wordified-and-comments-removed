@@ -567,13 +567,6 @@ nsIWindowMediator
 .
 h
 "
-#
-include
-"
-nsXPFEComponentsCID
-.
-h
-"
 const
 OSType
 kNSCreator

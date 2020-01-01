@@ -412,11 +412,6 @@ mk
 MODULE
 =
 appcomps
-EXPORTS
-=
-nsXPFEComponentsCID
-.
-h
 include
 (
 topsrcdir

@@ -187,13 +187,6 @@ nsAppShellCID
 .
 h
 "
-#
-include
-"
-nsXPFEComponentsCID
-.
-h
-"
 static
 NS_DEFINE_CID
 (
