@@ -460,6 +460,7 @@ FROZEN
 /
 [
 scriptable
+function
 uuid
 (
 DB242E01
