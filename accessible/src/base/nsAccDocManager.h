@@ -7,13 +7,6 @@ nsAccDocManager_h_
 #
 include
 "
-nsAccessible
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
@@ -22,6 +15,13 @@ h
 include
 "
 nsIDOMEventListener
+.
+h
+"
+#
+include
+"
+nsRefPtrHashtable
 .
 h
 "
@@ -46,6 +46,9 @@ nsWeakReference
 .
 h
 "
+class
+nsAccessible
+;
 class
 nsDocAccessible
 ;

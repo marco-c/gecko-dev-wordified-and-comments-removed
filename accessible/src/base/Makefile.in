@@ -558,6 +558,14 @@ a11yGeneric
 .
 h
 \
+nsAccDocManager
+.
+h
+\
+nsAccessibilityService
+.
+h
+\
 nsAccessible
 .
 h
