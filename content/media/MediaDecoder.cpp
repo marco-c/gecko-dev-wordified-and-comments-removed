@@ -189,7 +189,7 @@ const
 int64_t
 CAN_PLAY_THROUGH_MARGIN
 =
-10
+1
 ;
 #
 ifdef
