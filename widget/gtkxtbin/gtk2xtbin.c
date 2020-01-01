@@ -549,7 +549,7 @@ xt_event_funcs
 xt_event_prepare
 xt_event_check
 xt_event_dispatch
-g_free
+NULL
 (
 GSourceFunc
 )
@@ -1883,6 +1883,11 @@ GMainContext
 *
 )
 NULL
+)
+;
+g_source_unref
+(
+gs
 )
 ;
 #
