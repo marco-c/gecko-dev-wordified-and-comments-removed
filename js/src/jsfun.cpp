@@ -10640,9 +10640,9 @@ cx
 tt
 )
 ;
-JSAtom
+PropertyName
 *
-atom
+name
 =
 ts
 .
@@ -10650,7 +10650,9 @@ currentToken
 (
 )
 .
-t_atom
+name
+(
+)
 ;
 if
 (
@@ -10659,12 +10661,12 @@ bindings
 hasBinding
 (
 cx
-atom
+name
 )
 )
 {
 JSAutoByteString
-name
+bytes
 ;
 if
 (
@@ -10672,9 +10674,9 @@ if
 js_AtomToPrintableString
 (
 cx
-atom
-&
 name
+&
+bytes
 )
 )
 return
@@ -10693,7 +10695,7 @@ JSREPORT_WARNING
 |
 JSREPORT_STRICT
 JSMSG_DUPLICATE_FORMAL
-name
+bytes
 .
 ptr
 (
@@ -10717,7 +10719,7 @@ bindings
 addArgument
 (
 cx
-atom
+name
 &
 dummy
 )
