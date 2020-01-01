@@ -307,6 +307,8 @@ Iterator
 "
 JSCLASS_HAS_PRIVATE
 |
+JSCLASS_CONCURRENT_FINALIZER
+|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Iterator
@@ -2150,7 +2152,7 @@ if
 obj
 )
 return
-false
+NULL
 ;
 EmptyShape
 *
@@ -2832,14 +2834,6 @@ vp
 )
 ;
 }
-typedef
-Vector
-<
-uint32
-8
->
-ShapeVector
-;
 static
 inline
 void

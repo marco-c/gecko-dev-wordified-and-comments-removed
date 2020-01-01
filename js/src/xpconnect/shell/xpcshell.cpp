@@ -5312,6 +5312,7 @@ while
 JS_BufferIsCompilableUnit
 (
 cx
+JS_FALSE
 obj
 buffer
 strlen

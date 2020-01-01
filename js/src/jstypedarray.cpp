@@ -6951,7 +6951,7 @@ count
 )
 ;
 return
-false
+NULL
 ;
 }
 int32
@@ -7220,6 +7220,8 @@ jsclass
 ArrayBuffer
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_CONCURRENT_FINALIZER
 |
 JSCLASS_HAS_CACHED_PROTO
 (
@@ -8531,7 +8533,7 @@ here
 )
 ;
 return
-false
+NULL
 ;
 }
 }

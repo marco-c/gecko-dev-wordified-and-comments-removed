@@ -429,11 +429,9 @@ methodObject
 ;
 JS_ASSERT
 (
-&
 funobj
 =
 =
-&
 pobj
 -
 >

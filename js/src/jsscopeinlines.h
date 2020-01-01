@@ -669,6 +669,7 @@ length
 (
 )
 <
+=
 JSString
 :
 :
