@@ -332,6 +332,9 @@ waitForExplicitFinish
 (
 )
 ;
+var
+w
+=
 window
 .
 openDialog
@@ -365,6 +368,12 @@ height
 =
 600
 "
+)
+;
+w
+.
+focus
+(
 )
 ;
 ]
