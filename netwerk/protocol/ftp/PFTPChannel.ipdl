@@ -173,6 +173,8 @@ nsCString
 entityID
 InputStream
 uploadStream
+bool
+usePrivateBrowsing
 )
 ;
 ConnectChannel

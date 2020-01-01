@@ -105,6 +105,10 @@ IPC
 InputStream
 &
 uploadStream
+const
+bool
+&
+aUsePrivateBrowsing
 )
 ;
 NS_OVERRIDE

@@ -102,6 +102,10 @@ nsIURI
 uri
 )
 :
+PrivateBrowsingConsumer
+(
+this
+)
 mIPCOpen
 (
 false
@@ -576,6 +580,9 @@ IPC
 InputStream
 (
 mUploadStream
+)
+UsingPrivateBrowsing
+(
 )
 )
 ;

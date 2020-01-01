@@ -267,6 +267,10 @@ nsIPermissionManager
 .
 idl
 \
+nsIPrivateBrowsingConsumer
+.
+idl
+\
 nsIPrivateBrowsingService
 .
 idl

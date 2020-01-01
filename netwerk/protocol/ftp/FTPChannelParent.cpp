@@ -170,6 +170,10 @@ IPC
 InputStream
 &
 aUploadStream
+const
+bool
+&
+aUsePrivateBrowsing
 )
 {
 nsCOMPtr
@@ -364,6 +368,14 @@ return
 SendFailedAsyncOpen
 (
 rv
+)
+;
+mChannel
+-
+>
+OverridePrivateBrowsing
+(
+aUsePrivateBrowsing
 )
 ;
 rv
