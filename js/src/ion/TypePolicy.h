@@ -75,7 +75,7 @@ def
 }
 ;
 class
-BinaryArithPolicy
+ArithPolicy
 :
 public
 BoxInputsPolicy

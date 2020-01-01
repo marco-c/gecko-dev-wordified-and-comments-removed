@@ -378,6 +378,14 @@ comp
 )
 ;
 bool
+visitTypeOf
+(
+MTypeOf
+*
+ins
+)
+;
+bool
 visitBitNot
 (
 MBitNot
