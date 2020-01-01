@@ -113,6 +113,10 @@ test_network_post
 .
 html
 \
+test_file_uri
+.
+html
+\
 network_requests_iframe
 .
 html
