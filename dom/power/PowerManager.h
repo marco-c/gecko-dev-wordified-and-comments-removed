@@ -97,7 +97,7 @@ Shutdown
 ;
 private
 :
-nsresult
+bool
 CheckPermission
 (
 )
