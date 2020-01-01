@@ -2272,7 +2272,7 @@ range
 '
 nsIDOMRange
 .
-collapsed
+*
 '
 #
 dom
