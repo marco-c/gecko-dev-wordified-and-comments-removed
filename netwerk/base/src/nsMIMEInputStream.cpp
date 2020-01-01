@@ -1038,11 +1038,10 @@ NS_ERROR_NO_AGGREGATION
 nsMIMEInputStream
 *
 inst
-;
-NS_NEWXPCOM
-(
-inst
+=
+new
 nsMIMEInputStream
+(
 )
 ;
 if

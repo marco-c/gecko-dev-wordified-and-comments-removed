@@ -625,10 +625,8 @@ count
 0
 )
 {
-NS_DELETEXPCOM
-(
+delete
 this
-)
 ;
 }
 return

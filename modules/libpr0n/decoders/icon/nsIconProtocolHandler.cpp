@@ -207,11 +207,10 @@ nsCOMPtr
 nsIURI
 >
 uri
-;
-NS_NEWXPCOM
-(
-uri
+=
+new
 nsMozIconURI
+(
 )
 ;
 if

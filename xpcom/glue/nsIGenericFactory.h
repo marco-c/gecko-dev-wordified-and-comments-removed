@@ -641,10 +641,11 @@ rv
 }
 \
 \
-NS_NEWXPCOM
-(
 inst
+=
+new
 _InstanceClass
+(
 )
 ;
 \
@@ -767,10 +768,11 @@ rv
 }
 \
 \
-NS_NEWXPCOM
-(
 inst
+=
+new
 _InstanceClass
+(
 )
 ;
 \

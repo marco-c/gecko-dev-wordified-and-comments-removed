@@ -443,11 +443,10 @@ mListener
 nsBulletListener
 *
 listener
-;
-NS_NEWXPCOM
-(
-listener
+=
+new
 nsBulletListener
+(
 )
 ;
 NS_ADDREF

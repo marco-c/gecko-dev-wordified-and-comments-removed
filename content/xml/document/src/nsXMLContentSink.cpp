@@ -492,11 +492,10 @@ NS_ERROR_NULL_POINTER
 nsXMLContentSink
 *
 it
-;
-NS_NEWXPCOM
-(
-it
+=
+new
 nsXMLContentSink
+(
 )
 ;
 if

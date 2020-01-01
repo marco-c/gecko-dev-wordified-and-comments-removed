@@ -2554,10 +2554,8 @@ mEntry
 nsnull
 ;
 }
-NS_DELETEXPCOM
-(
+delete
 this
-)
 ;
 return
 0

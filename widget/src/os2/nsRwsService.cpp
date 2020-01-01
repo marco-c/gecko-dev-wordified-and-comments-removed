@@ -4667,10 +4667,11 @@ RwsSetTimeout
 "
 )
 }
-NS_NEWXPCOM
-(
 sRwsInstance
+=
+new
 nsRwsService
+(
 )
 ;
 if
