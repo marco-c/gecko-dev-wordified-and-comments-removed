@@ -1251,6 +1251,10 @@ mNextPingID
 =
 2
 ;
+ResumeRecv
+(
+)
+;
 if
 (
 mNextPingID
