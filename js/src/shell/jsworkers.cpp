@@ -522,9 +522,6 @@ put
 (
 w
 )
-!
-=
-NULL
 ;
 }
 void
