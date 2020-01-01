@@ -62,17 +62,6 @@ MPL
 <
 !
 ENTITY
-window
-.
-title
-"
-Developer
-Tools
-"
->
-<
-!
-ENTITY
 closeCmd
 .
 key
