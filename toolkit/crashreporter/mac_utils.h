@@ -11,11 +11,6 @@ nsStringGlue
 .
 h
 "
-bool
-PassToOSCrashReporter
-(
-)
-;
 void
 GetObjCExceptionInfo
 (

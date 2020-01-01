@@ -1817,6 +1817,7 @@ standardUserDefaults
 userDefaults
 setBool
 :
+(
 [
 mSubmitReportButton
 state
@@ -1824,11 +1825,17 @@ state
 =
 =
 NSOnState
+)
 forKey
 :
 "
 submitReport
 "
+]
+;
+[
+userDefaults
+synchronize
 ]
 ;
 }
