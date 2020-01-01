@@ -491,12 +491,9 @@ init
 (
 )
 ;
-this
-.
-_spatialNavigation
-=
-new
 SpatialNavigation
+.
+init
 (
 this
 .
