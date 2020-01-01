@@ -493,6 +493,8 @@ appshell
 \
 shistory
 \
+editor
+\
 (
 NULL
 )
