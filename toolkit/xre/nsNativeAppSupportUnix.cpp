@@ -1357,6 +1357,11 @@ gAppData
 name
 )
 ;
+ToLowerCase
+(
+applicationName
+)
+;
 m_osso_context
 =
 osso_initialize
