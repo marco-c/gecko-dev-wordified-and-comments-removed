@@ -1614,11 +1614,6 @@ isCachedEval
 1
 ;
 bool
-uninlineable
-:
-1
-;
-bool
 directlyInsideEval
 :
 1

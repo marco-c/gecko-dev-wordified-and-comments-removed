@@ -120,9 +120,6 @@ baselineUsesBeforeCompile
 uint32_t
 usesBeforeCompile
 ;
-uint32_t
-usesBeforeCompileNoJaeger
-;
 double
 usesBeforeInliningFactor
 ;
@@ -169,8 +166,6 @@ eagerCompilation
 true
 ;
 usesBeforeCompile
-=
-usesBeforeCompileNoJaeger
 =
 0
 ;
@@ -242,10 +237,6 @@ baselineUsesBeforeCompile
 usesBeforeCompile
 (
 1000
-)
-usesBeforeCompileNoJaeger
-(
-40
 )
 usesBeforeInliningFactor
 (
