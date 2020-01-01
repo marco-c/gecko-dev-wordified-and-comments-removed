@@ -60,9 +60,14 @@ nsCSSSelectorList
 class
 nsMediaList
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 class
 nsCSSKeyframeRule
 ;
+#
+endif
 namespace
 mozilla
 {
@@ -383,6 +388,9 @@ nsCSSSelectorList
 aSelectorList
 )
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 already_AddRefed
 <
 nsCSSKeyframeRule
@@ -420,6 +428,8 @@ float
 aSelectorList
 )
 ;
+#
+endif
 protected
 :
 void

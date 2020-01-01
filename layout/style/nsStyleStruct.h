@@ -5480,6 +5480,9 @@ mUnknownProperty
 ;
 }
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 struct
 nsAnimation
 {
@@ -5714,6 +5717,8 @@ mIterationCount
 ;
 }
 ;
+#
+endif
 struct
 nsStyleDisplay
 {
@@ -5901,6 +5906,9 @@ mTransitionDurationCount
 mTransitionDelayCount
 mTransitionPropertyCount
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 nsAutoTArray
 <
 nsAnimation
@@ -5918,6 +5926,8 @@ mAnimationFillModeCount
 mAnimationPlayStateCount
 mAnimationIterationCountCount
 ;
+#
+endif
 PRBool
 IsBlockInside
 (

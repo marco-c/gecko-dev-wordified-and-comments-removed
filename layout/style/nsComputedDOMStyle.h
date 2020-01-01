@@ -1495,6 +1495,9 @@ DoGetTransitionTimingFunction
 (
 )
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 nsIDOMCSSValue
 *
 DoGetAnimationName
@@ -1543,6 +1546,8 @@ DoGetAnimationPlayState
 (
 )
 ;
+#
+endif
 nsIDOMCSSValue
 *
 DoGetFill

@@ -391,12 +391,17 @@ nsTransitionManager
 h
 "
 #
+ifdef
+MOZ_CSS_ANIMATIONS
+#
 include
 "
 nsAnimationManager
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3889,6 +3894,9 @@ mTransitionManager
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 mAnimationManager
 =
 new
@@ -3905,6 +3913,8 @@ mAnimationManager
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+#
+endif
 if
 (
 mDocument
@@ -4719,6 +4729,9 @@ mTransitionManager
 nsnull
 ;
 }
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 if
 (
 mAnimationManager
@@ -4736,6 +4749,8 @@ mAnimationManager
 nsnull
 ;
 }
+#
+endif
 }
 }
 void
@@ -6957,6 +6972,9 @@ RebuildUserFontSet
 (
 )
 ;
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 AnimationManager
 (
 )
@@ -6966,6 +6984,8 @@ KeyframesListIsDirty
 (
 )
 ;
+#
+endif
 mShell
 -
 >

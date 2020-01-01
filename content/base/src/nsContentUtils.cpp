@@ -3675,6 +3675,9 @@ NS_TRANSITION_END
 EventNameType_None
 NS_TRANSITION_EVENT
 }
+#
+ifdef
+MOZ_CSS_ANIMATIONS
 {
 nsGkAtoms
 :
@@ -3702,6 +3705,8 @@ NS_ANIMATION_ITERATION
 EventNameType_None
 NS_ANIMATION_EVENT
 }
+#
+endif
 }
 ;
 sAtomEventTable
