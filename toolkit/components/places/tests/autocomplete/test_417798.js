@@ -40,6 +40,11 @@ addPageBook
 (
 1
 0
+0
+undefined
+undefined
+undefined
+true
 )
 ;
 let
