@@ -1472,6 +1472,15 @@ acInputField
 .
 form
 ;
+if
+(
+!
+acInputField
+.
+value
+)
+return
+;
 var
 [
 usernameField
@@ -2499,6 +2508,9 @@ toLowerCase
 ;
 if
 (
+username
+&
+&
 aSearchString
 .
 length
