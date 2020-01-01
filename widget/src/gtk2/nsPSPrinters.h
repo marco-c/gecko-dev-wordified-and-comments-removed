@@ -33,8 +33,7 @@ nsPSPrinterList
 {
 public
 :
-nsresult
-Init
+nsPSPrinterList
 (
 )
 ;
