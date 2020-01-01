@@ -9018,6 +9018,18 @@ GetNearestWidget
 nsnull
 )
 ;
+}
+if
+(
+!
+widget
+)
+{
+widget
+=
+mParentWidget
+;
+}
 if
 (
 widget
@@ -9032,7 +9044,6 @@ GetTopLevelWidget
 (
 )
 ;
-}
 }
 mDeviceContext
 -
