@@ -1432,6 +1432,14 @@ PRBool
 )
 )
 {
+if
+(
+!
+aURI
+)
+return
+nsnull
+;
 FrameProperties
 props
 =
