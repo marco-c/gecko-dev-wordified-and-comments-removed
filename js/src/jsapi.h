@@ -11520,7 +11520,7 @@ payload
 boo
 =
 =
-true
+JSVAL_TRUE
 ;
 }
 bool
