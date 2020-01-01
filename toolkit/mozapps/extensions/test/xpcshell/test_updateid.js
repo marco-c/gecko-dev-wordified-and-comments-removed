@@ -2125,7 +2125,7 @@ do_check_eq
 getInstalledVersion
 (
 )
-4
+0
 )
 ;
 do_check_eq
