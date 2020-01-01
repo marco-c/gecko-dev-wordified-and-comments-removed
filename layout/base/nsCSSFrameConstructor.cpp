@@ -54785,6 +54785,15 @@ GetRootFrame
 )
 return
 ;
+nsCOMPtr
+<
+nsIPresShell
+>
+kungFuDeathGrip
+(
+mPresShell
+)
+;
 nsresult
 rv
 =
