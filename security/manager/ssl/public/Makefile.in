@@ -458,7 +458,7 @@ nsIASN1Sequence
 .
 idl
 \
-nsIBadCertListener
+nsIBadCertListener2
 .
 idl
 \
@@ -491,6 +491,10 @@ NULL
 )
 XPIDLSRCS
 =
+\
+nsICertOverrideService
+.
+idl
 \
 nsIFormSigningDialog
 .

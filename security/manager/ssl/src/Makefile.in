@@ -469,6 +469,14 @@ pkg
 CPPSRCS
 =
 \
+nsNSSCleaner
+.
+cpp
+\
+nsCertOverrideService
+.
+cpp
+\
 nsPSMBackgroundThread
 .
 cpp
@@ -498,6 +506,10 @@ nsNSSErrors
 cpp
 \
 nsNSSIOLayer
+.
+cpp
+\
+nsSSLStatus
 .
 cpp
 \

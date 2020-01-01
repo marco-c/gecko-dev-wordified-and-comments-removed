@@ -112,7 +112,7 @@ h
 #
 include
 "
-nsIBadCertListener
+nsIBadCertListener2
 .
 h
 "
@@ -248,7 +248,7 @@ nsIInterfaceRequestor
 public
 nsPICertNotification
 public
-nsIBadCertListener
+nsIBadCertListener2
 public
 nsIChannelEventSink
 public
@@ -276,7 +276,7 @@ NS_DECL_NSIPROGRESSEVENTSINK
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSPICERTNOTIFICATION
-NS_DECL_NSIBADCERTLISTENER
+NS_DECL_NSIBADCERTLISTENER2
 NS_DECL_NSICHANNELEVENTSINK
 NS_IMETHOD
 InitManager
