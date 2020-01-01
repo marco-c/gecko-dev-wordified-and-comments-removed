@@ -166,6 +166,12 @@ directories
 with
 FAIL_ON_WARNINGS
 .
+#
+DISABLED
+WHILE
+NOT
+ON
+TRY
 ac_add_options
 -
 -
