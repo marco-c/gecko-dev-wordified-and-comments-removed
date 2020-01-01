@@ -25772,6 +25772,8 @@ if
 owns
 )
 delete
+[
+]
 *
 buffer
 ;
