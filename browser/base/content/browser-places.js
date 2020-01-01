@@ -2998,7 +2998,7 @@ localName
 toolbarbutton
 "
 )
-PlacesUtils
+PlacesUIUtils
 .
 openContainerNodeInTabs
 (

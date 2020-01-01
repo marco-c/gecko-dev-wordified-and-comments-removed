@@ -4182,7 +4182,7 @@ ip
 index
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 ptm
 .
