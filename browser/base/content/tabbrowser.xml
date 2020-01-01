@@ -6561,7 +6561,7 @@ getString
 "
 tabs
 .
-untitled
+emptyTabTitle
 "
 )
 ;
@@ -7841,7 +7841,7 @@ getString
 "
 tabs
 .
-untitled
+emptyTabTitle
 "
 )
 )
@@ -17296,7 +17296,7 @@ getString
 "
 tabs
 .
-untitled
+emptyTabTitle
 "
 )
 )
