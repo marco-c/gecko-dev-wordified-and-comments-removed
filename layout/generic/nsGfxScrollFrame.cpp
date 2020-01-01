@@ -11884,6 +11884,16 @@ PresContext
 (
 )
 ;
+if
+(
+!
+mIsRoot
+)
+return
+IsLTR
+(
+)
+;
 switch
 (
 presContext
