@@ -13937,9 +13937,6 @@ JSObject
 *
 argPixelsObj
 ;
-jsuint
-argPixelsLen
-;
 if
 (
 !
