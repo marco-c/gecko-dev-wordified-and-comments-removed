@@ -1,8 +1,3 @@
-version
-(
-180
-)
-;
 try
 {
 var

@@ -237,6 +237,14 @@ numSearchesStarted
 1
 )
 ;
+aExpected
+=
+aExpected
+.
+slice
+(
+)
+;
 for
 (
 let
