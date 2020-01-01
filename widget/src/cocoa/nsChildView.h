@@ -241,16 +241,6 @@ mKeyPressHandled
 NSRange
 mMarkedRange
 ;
-BOOL
-mInHandScroll
-;
-NSPoint
-mHandScrollStartMouseLoc
-;
-nscoord
-mHandScrollStartScrollX
-mHandScrollStartScrollY
-;
 NSEvent
 *
 mLastMouseDownEvent
