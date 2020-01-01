@@ -4326,9 +4326,11 @@ JaegerCompartment
 (
 )
 :
-orphanedNativeCount
+orphanedNativeFrames
 (
-0
+SystemAllocPolicy
+(
+)
 )
 orphanedNativePools
 (

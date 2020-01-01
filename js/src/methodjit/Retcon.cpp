@@ -477,9 +477,12 @@ compartment
 jaegerCompartment
 -
 >
-orphanedNativeCount
-+
-+
+orphanedNativeFrames
+.
+append
+(
+fp
+)
 ;
 unsigned
 i
