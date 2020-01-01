@@ -389,7 +389,6 @@ Node
 {
 [
 Throws
-Constant
 ]
 readonly
 attribute

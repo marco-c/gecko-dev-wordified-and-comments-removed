@@ -34381,9 +34381,18 @@ opType
 infallible
 constant
                       
+pure
 returnTypes
 )
 :
+        
+assert
+(
+not
+constant
+or
+pure
+)
         
 protoID
 =
@@ -34431,6 +34440,13 @@ conststr
 toStringBool
 (
 constant
+)
+        
+purestr
+=
+toStringBool
+(
+pure
 )
         
 returnType
@@ -34535,6 +34551,24 @@ n
 s
 /
 *
+isPure
+.
+Only
+relevant
+for
+getters
+.
+*
+/
+\
+n
+"
+                
+"
+%
+s
+/
+*
 returnType
 .
 Only
@@ -34566,6 +34600,7 @@ opType
 failstr
                           
 conststr
+purestr
 returnType
 )
 )
@@ -34645,6 +34680,47 @@ getter
 True
 )
             
+getterconst
+=
+self
+.
+member
+.
+getExtendedAttribute
+(
+"
+Constant
+"
+)
+            
+getterpure
+=
+getterconst
+or
+self
+.
+member
+.
+getExtendedAttribute
+(
+"
+Pure
+"
+)
+            
+assert
+(
+getterinfal
+or
+(
+not
+getterconst
+and
+not
+getterpure
+)
+)
+            
 getterinfal
 =
 getterinfal
@@ -34664,19 +34740,6 @@ self
 descriptor
 )
             
-getterconst
-=
-self
-.
-member
-.
-getExtendedAttribute
-(
-"
-Constant
-"
-)
-            
 result
 =
 self
@@ -34691,6 +34754,7 @@ Getter
                                         
 getterinfal
 getterconst
+getterpure
                                         
 [
 self
@@ -34777,6 +34841,7 @@ Setter
                                              
 False
 False
+False
                                              
 [
 BuiltinTypes
@@ -34849,10 +34914,6 @@ s
 name
 )
             
-methodInfal
-=
-False
-            
 sigs
 =
 self
@@ -34868,9 +34929,16 @@ len
 (
 sigs
 )
-=
+!
 =
 1
+:
+                
+methodInfal
+=
+False
+            
+else
 :
                 
 sig
@@ -34881,6 +34949,7 @@ sigs
 ]
                 
 if
+(
 len
 (
 sig
@@ -34888,10 +34957,12 @@ sig
 1
 ]
 )
-=
+!
 =
 0
-and
+or
+                    
+not
 infallibleForMember
 (
 self
@@ -34905,11 +34976,32 @@ self
 .
 descriptor
 )
+)
 :
                     
 methodInfal
 =
-True
+False
+                
+else
+:
+                    
+methodInfal
+=
+"
+infallible
+"
+in
+self
+.
+descriptor
+.
+getExtendedAttributes
+(
+self
+.
+member
+)
             
 result
 =
@@ -34924,6 +35016,7 @@ Method
 "
                                         
 methodInfal
+False
 False
                                         
 [
