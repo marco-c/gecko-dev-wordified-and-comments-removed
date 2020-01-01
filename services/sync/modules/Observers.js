@@ -265,6 +265,9 @@ data
 if
 (
 subject
+&
+&
+subject
 .
 wrappedJSObject
 )
