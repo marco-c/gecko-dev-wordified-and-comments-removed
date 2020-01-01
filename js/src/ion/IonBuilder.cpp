@@ -3988,7 +3988,7 @@ MBasicBlock
 *
 header
 =
-newLoopHeader
+newPendingLoopHeader
 (
 current
 pc
@@ -4176,7 +4176,7 @@ MBasicBlock
 *
 header
 =
-newLoopHeader
+newPendingLoopHeader
 (
 current
 pc
@@ -4448,7 +4448,7 @@ MBasicBlock
 *
 header
 =
-newLoopHeader
+newPendingLoopHeader
 (
 current
 pc
@@ -5367,7 +5367,7 @@ MBasicBlock
 IonBuilder
 :
 :
-newLoopHeader
+newPendingLoopHeader
 (
 MBasicBlock
 *
@@ -5384,7 +5384,7 @@ block
 MBasicBlock
 :
 :
-NewLoopHeader
+NewPendingLoopHeader
 (
 this
 predecessor

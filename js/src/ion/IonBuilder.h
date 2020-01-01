@@ -514,7 +514,7 @@ pc
 ;
 MBasicBlock
 *
-newLoopHeader
+newPendingLoopHeader
 (
 MBasicBlock
 *

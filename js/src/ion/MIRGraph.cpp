@@ -308,7 +308,7 @@ MBasicBlock
 MBasicBlock
 :
 :
-NewLoopHeader
+NewPendingLoopHeader
 (
 MIRGenerator
 *
@@ -330,7 +330,7 @@ New
 gen
 pred
 entryPc
-LOOP_HEADER
+PENDING_LOOP_HEADER
 )
 ;
 }
@@ -2050,6 +2050,14 @@ stackDepth
 stackPosition_
 )
 ;
+JS_ASSERT
+(
+kind_
+=
+=
+PENDING_LOOP_HEADER
+)
+;
 for
 (
 uint32
@@ -2342,6 +2350,10 @@ phi
 ;
 }
 }
+kind_
+=
+LOOP_HEADER
+;
 return
 predecessors_
 .
