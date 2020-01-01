@@ -9665,8 +9665,11 @@ gc
 CseFilter
 (
 lir
-&
-gc
+*
+traceMonitor
+-
+>
+allocator
 )
 ;
 lir
