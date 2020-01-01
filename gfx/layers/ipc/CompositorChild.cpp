@@ -96,6 +96,13 @@ Destroy
 )
 {
 mLayerManager
+-
+>
+Destroy
+(
+)
+;
+mLayerManager
 =
 NULL
 ;

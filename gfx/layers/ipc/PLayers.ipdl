@@ -131,10 +131,6 @@ protocol
 PRenderFrame
 ;
 include
-protocol
-PTexture
-;
-include
 "
 mozilla
 /
@@ -178,6 +174,15 @@ ShadowLayerUtils
 .
 h
 "
+;
+using
+mozilla
+:
+:
+layers
+:
+:
+TextureInfo
 ;
 /
 *
@@ -332,8 +337,8 @@ PLayer
 async
 PCompositable
 (
-CompositableType
-aType
+TextureInfo
+aTextureInfo
 )
 ;
 /

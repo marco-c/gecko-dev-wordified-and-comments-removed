@@ -105,10 +105,6 @@ protocol
 PCompositable
 ;
 include
-protocol
-PTexture
-;
-include
 "
 mozilla
 /
@@ -129,7 +125,7 @@ mozilla
 layers
 :
 :
-CompositableType
+TextureInfo
 ;
 namespace
 mozilla
@@ -410,8 +406,8 @@ Stop
 sync
 PCompositable
 (
-CompositableType
-aType
+TextureInfo
+aInfo
 )
 returns
 (

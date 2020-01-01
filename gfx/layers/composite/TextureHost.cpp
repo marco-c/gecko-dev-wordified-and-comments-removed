@@ -158,10 +158,6 @@ gfx
 :
 FORMAT_UNKNOWN
 )
-mTextureParent
-(
-nullptr
-)
 mDeAllocator
 (
 nullptr

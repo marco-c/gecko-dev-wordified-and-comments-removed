@@ -217,16 +217,6 @@ aFlags
 0
 ;
 virtual
-void
-FallbackTextureInfo
-(
-TextureInfo
-&
-aInfo
-)
-{
-}
-virtual
 TemporaryRef
 <
 CompositingRenderTarget

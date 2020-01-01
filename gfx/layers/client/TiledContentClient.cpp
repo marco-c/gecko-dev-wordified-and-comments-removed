@@ -1011,7 +1011,10 @@ new
 TextureClientTile
 (
 mManager
+TextureInfo
+(
 BUFFER_TILED
+)
 )
 ;
 aTile

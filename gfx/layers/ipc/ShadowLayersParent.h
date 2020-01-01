@@ -342,9 +342,9 @@ PCompositableParent
 AllocPCompositable
 (
 const
-CompositableType
+TextureInfo
 &
-aType
+aInfo
 )
 MOZ_OVERRIDE
 ;

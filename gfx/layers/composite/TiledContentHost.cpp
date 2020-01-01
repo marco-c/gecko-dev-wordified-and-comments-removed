@@ -1487,7 +1487,7 @@ SurfaceDescriptor
 :
 Tnull_t
 TEXTURE_HOST_TILED
-0
+flags
 )
 ;
 mTextureHost

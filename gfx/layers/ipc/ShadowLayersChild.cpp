@@ -212,9 +212,9 @@ ShadowLayersChild
 AllocPCompositable
 (
 const
-CompositableType
+TextureInfo
 &
-aType
+aInfo
 )
 {
 return

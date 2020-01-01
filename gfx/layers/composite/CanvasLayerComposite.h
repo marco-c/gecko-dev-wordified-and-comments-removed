@@ -240,13 +240,6 @@ MOZ_OVERRIDE
 endif
 private
 :
-void
-EnsureImageHost
-(
-CompositableType
-aHostType
-)
-;
 RefPtr
 <
 ImageHost

@@ -88,10 +88,6 @@ PLayers
 .
 ipdl
 \
-PTexture
-.
-ipdl
-\
 (
 NULL
 )
