@@ -3032,9 +3032,16 @@ focusedElement
 ;
 if
 (
+(
 focusedElement
 instanceof
 HTMLInputElement
+|
+|
+focusedElement
+instanceof
+HTMLTextAreaElement
+)
 &
 &
 /
