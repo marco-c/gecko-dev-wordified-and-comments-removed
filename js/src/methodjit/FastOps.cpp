@@ -1233,7 +1233,7 @@ JSOP_URSH
 uint32
 unsignedL
 ;
-ValueToECMAUint32
+ToUint32
 (
 cx
 Int32Value

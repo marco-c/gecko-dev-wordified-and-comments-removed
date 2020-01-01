@@ -463,7 +463,7 @@ argc
 &
 &
 !
-ValueToECMAInt32
+ToInt32
 (
 cx
 vp
@@ -6979,7 +6979,7 @@ argc
 if
 (
 !
-ValueToInt32
+NonstandardToInt32
 (
 cx
 argv
@@ -7025,7 +7025,7 @@ argc
 if
 (
 !
-ValueToInt32
+NonstandardToInt32
 (
 cx
 argv
@@ -7176,7 +7176,7 @@ length
 if
 (
 !
-ValueToInt32
+NonstandardToInt32
 (
 cx
 args
@@ -7240,7 +7240,7 @@ length
 if
 (
 !
-ValueToInt32
+NonstandardToInt32
 (
 cx
 args
@@ -7424,7 +7424,7 @@ length
 if
 (
 !
-ValueToInt32
+NonstandardToInt32
 (
 cx
 args

@@ -2574,7 +2574,7 @@ v
 )
 ;
 return
-ValueToECMAInt32
+ToInt32
 (
 cx
 tvr
@@ -2625,7 +2625,7 @@ v
 )
 ;
 return
-ValueToECMAUint32
+ToUint32
 (
 cx
 tvr
@@ -2676,7 +2676,7 @@ v
 )
 ;
 return
-ValueToInt32
+NonstandardToInt32
 (
 cx
 tvr

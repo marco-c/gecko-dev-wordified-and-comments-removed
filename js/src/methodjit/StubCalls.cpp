@@ -3290,7 +3290,7 @@ j
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3310,7 +3310,7 @@ i
 |
 |
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3328,12 +3328,10 @@ sp
 j
 )
 )
-{
 THROW
 (
 )
 ;
-}
 i
 =
 i
@@ -3375,7 +3373,7 @@ j
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3395,7 +3393,7 @@ i
 |
 |
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3413,12 +3411,10 @@ sp
 j
 )
 )
-{
 THROW
 (
 )
 ;
-}
 i
 =
 i
@@ -3460,7 +3456,7 @@ j
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3480,7 +3476,7 @@ i
 |
 |
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3498,12 +3494,10 @@ sp
 j
 )
 )
-{
 THROW
 (
 )
 ;
-}
 i
 =
 i
@@ -3544,7 +3538,7 @@ i
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3606,7 +3600,7 @@ j
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3631,7 +3625,7 @@ THROW
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3699,7 +3693,7 @@ j
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3724,7 +3718,7 @@ THROW
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
@@ -3791,7 +3785,7 @@ u
 if
 (
 !
-ValueToECMAUint32
+ToUint32
 (
 f
 .
@@ -3819,7 +3813,7 @@ j
 if
 (
 !
-ValueToECMAInt32
+ToInt32
 (
 f
 .
