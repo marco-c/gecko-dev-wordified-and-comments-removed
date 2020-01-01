@@ -628,6 +628,17 @@ onWizardFinish
 )
 ;
 "
+onwizardcancel
+=
+"
+return
+gUpdateWizard
+.
+onWizardCancel
+(
+)
+;
+"
 onclose
 =
 "
