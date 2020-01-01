@@ -7357,7 +7357,7 @@ cx
 ;
 JSObject
 *
-obj
+newWrapper
 ;
 JSCompartment
 *
@@ -7404,7 +7404,7 @@ origv
 )
 )
 {
-obj
+newWrapper
 =
 &
 p
@@ -7426,7 +7426,7 @@ p
 if
 (
 !
-obj
+newWrapper
 -
 >
 swap
@@ -7441,7 +7441,7 @@ NULL
 }
 else
 {
-obj
+newWrapper
 =
 targetwrapper
 ;
@@ -7471,7 +7471,7 @@ JSObject
 *
 tobj
 =
-obj
+newWrapper
 ;
 if
 (
@@ -7535,7 +7535,7 @@ origwrapper
 ;
 }
 return
-obj
+newWrapper
 ;
 }
 JS_PUBLIC_API
