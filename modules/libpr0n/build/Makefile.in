@@ -432,6 +432,12 @@ GRE_MODULE
 LIBXUL_LIBRARY
 =
 1
+DECODERS
+=
+png
+gif
+jpeg
+bmp
 CPPSRCS
 =
 \
@@ -469,7 +475,7 @@ filter
 out
 icon
 (
-MOZ_IMG_DECODERS
+DECODERS
 )
 )
 \
@@ -541,7 +547,7 @@ filter
 out
 icon
 (
-MOZ_IMG_DECODERS
+DECODERS
 )
 )
 \
@@ -681,7 +687,7 @@ filter
 out
 icon
 (
-MOZ_IMG_DECODERS
+DECODERS
 )
 )
 \
