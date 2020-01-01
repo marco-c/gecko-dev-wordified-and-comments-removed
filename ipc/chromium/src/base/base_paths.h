@@ -49,6 +49,12 @@ defined
 (
 OS_LINUX
 )
+|
+|
+defined
+(
+OS_BSD
+)
 #
 include
 "

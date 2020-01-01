@@ -635,7 +635,7 @@ denom
 elif
 defined
 (
-__OpenBSD__
+OS_OPENBSD
 )
 |
 |

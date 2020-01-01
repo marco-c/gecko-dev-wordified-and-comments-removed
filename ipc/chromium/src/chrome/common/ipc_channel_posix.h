@@ -343,6 +343,12 @@ defined
 (
 OS_MACOSX
 )
+|
+|
+defined
+(
+OS_NETBSD
+)
 char
 input_cmsg_buf_
 [
