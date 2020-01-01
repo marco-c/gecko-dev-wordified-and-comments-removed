@@ -108,6 +108,11 @@ nsIDOMIccCardLockErrorEvent
 idl
 '
 '
+nsIDOMIccInfo
+.
+idl
+'
+'
 nsIDOMIccManager
 .
 idl
