@@ -1127,6 +1127,7 @@ baseWeight
 9
 ;
 static
+const
 int
 fcWeightLookup
 [
@@ -1180,6 +1181,7 @@ fcWeight
 4
 ;
 static
+const
 int
 fcWeights
 [
@@ -1191,7 +1193,7 @@ fcWeights
 499
 649
 749
-999
+900
 }
 ;
 return
