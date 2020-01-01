@@ -182,6 +182,11 @@ nsIFrame
 :
 :
 eBidiInlineContainer
+|
+nsIFrame
+:
+:
+eLineParticipant
 )
 )
 ;

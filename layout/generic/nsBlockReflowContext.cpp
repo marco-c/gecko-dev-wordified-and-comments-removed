@@ -1119,12 +1119,6 @@ nsnull
 ;
 }
 }
-aFrameRS
-.
-mLineLayout
-=
-nsnull
-;
 if
 (
 !

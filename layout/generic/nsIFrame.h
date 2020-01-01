@@ -2629,6 +2629,12 @@ eReplacedContainsBlock
 <
 <
 5
+eLineParticipant
+=
+1
+<
+<
+6
 eDEBUGAllFrames
 =
 1

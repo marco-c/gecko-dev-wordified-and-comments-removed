@@ -1164,6 +1164,11 @@ nsIFrame
 :
 :
 eReplaced
+|
+nsIFrame
+:
+:
+eLineParticipant
 )
 )
 ;

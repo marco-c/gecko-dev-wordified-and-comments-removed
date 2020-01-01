@@ -1078,6 +1078,11 @@ nsIFrame
 :
 :
 eReplaced
+|
+nsIFrame
+:
+:
+eLineParticipant
 )
 )
 ;
