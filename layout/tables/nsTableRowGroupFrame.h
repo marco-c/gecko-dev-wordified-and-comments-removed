@@ -651,6 +651,10 @@ const
 nsRect
 &
 aOriginalKidRect
+const
+nsRect
+&
+aOriginalKidOverflowRect
 )
 ;
 void

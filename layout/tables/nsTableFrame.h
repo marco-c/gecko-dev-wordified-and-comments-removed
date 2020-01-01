@@ -1185,6 +1185,10 @@ const
 nsRect
 &
 aOrigRect
+const
+nsRect
+&
+aOrigOverflowRect
 PRBool
 aIsFirstReflow
 )
@@ -1384,6 +1388,10 @@ const
 nsRect
 &
 aOriginalKidRect
+const
+nsRect
+&
+aOriginalKidOverflowRect
 )
 ;
 nsIFrame
