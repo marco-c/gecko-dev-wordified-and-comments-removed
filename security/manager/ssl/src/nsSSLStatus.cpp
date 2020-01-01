@@ -917,6 +917,11 @@ mHaveCertErrorBits
 PR_FALSE
 )
 {
+mCipherName
+=
+"
+"
+;
 }
 NS_IMPL_THREADSAFE_ISUPPORTS3
 (
