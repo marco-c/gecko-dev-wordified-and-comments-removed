@@ -467,6 +467,10 @@ test_event_source
 .
 html
 \
+test_getAll
+.
+html
+\
 test_global_data
 .
 html
