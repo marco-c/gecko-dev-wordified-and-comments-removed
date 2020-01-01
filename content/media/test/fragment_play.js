@@ -162,9 +162,6 @@ play
 (
 )
 ;
-return
-false
-;
 }
 function
 onSeeked
@@ -176,7 +173,6 @@ if
 completed
 )
 return
-false
 ;
 var
 s
@@ -220,9 +216,6 @@ seekedRaised
 =
 true
 ;
-return
-false
-;
 }
 function
 onTimeUpdate
@@ -234,7 +227,6 @@ if
 completed
 )
 return
-false
 ;
 v
 .
@@ -243,9 +235,6 @@ _lastTimeUpdate
 v
 .
 currentTime
-;
-return
-false
 ;
 }
 function
@@ -258,7 +247,6 @@ if
 completed
 )
 return
-false
 ;
 var
 e
@@ -349,9 +337,6 @@ play
 (
 )
 ;
-return
-false
-;
 }
 function
 onEnded
@@ -363,7 +348,6 @@ if
 completed
 )
 return
-false
 ;
 completed
 =
@@ -421,9 +405,6 @@ duration
 finish
 (
 )
-;
-return
-false
 ;
 }
 v

@@ -8,11 +8,6 @@ ok
 finish
 )
 {
-var
-completed
-=
-false
-;
 function
 startTest
 (
@@ -30,13 +25,6 @@ seekEnded
 (
 )
 {
-if
-(
-completed
-)
-return
-false
-;
 ok
 (
 Math

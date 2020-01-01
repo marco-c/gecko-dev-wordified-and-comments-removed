@@ -23,7 +23,6 @@ if
 completed
 )
 return
-false
 ;
 ok
 (
@@ -83,9 +82,6 @@ true
 "
 )
 ;
-return
-false
-;
 }
 function
 seekStarted
@@ -97,7 +93,6 @@ if
 completed
 )
 return
-false
 ;
 ok
 (
@@ -127,9 +122,6 @@ duration
 "
 )
 ;
-return
-false
-;
 }
 function
 seekEnded
@@ -141,7 +133,6 @@ if
 completed
 )
 return
-false
 ;
 ok
 (
@@ -188,9 +179,6 @@ false
 "
 )
 ;
-return
-false
-;
 }
 function
 playbackEnded
@@ -202,7 +190,6 @@ if
 completed
 )
 return
-false
 ;
 completed
 =
@@ -270,9 +257,6 @@ true
 finish
 (
 )
-;
-return
-false
 ;
 }
 v

@@ -48,7 +48,6 @@ if
 completed
 )
 return
-false
 ;
 ok
 (
@@ -130,9 +129,6 @@ v
 .
 seeking
 ;
-return
-false
-;
 }
 function
 seekStarted
@@ -144,7 +140,6 @@ if
 completed
 )
 return
-false
 ;
 ok
 (
@@ -193,9 +188,6 @@ startPassed
 =
 true
 ;
-return
-false
-;
 }
 function
 seekEnded
@@ -207,7 +199,6 @@ if
 completed
 )
 return
-false
 ;
 var
 t
@@ -265,9 +256,6 @@ v
 .
 seeking
 ;
-return
-false
-;
 }
 function
 playbackEnded
@@ -279,7 +267,6 @@ if
 completed
 )
 return
-false
 ;
 completed
 =
@@ -335,9 +322,6 @@ false
 finish
 (
 )
-;
-return
-false
 ;
 }
 v

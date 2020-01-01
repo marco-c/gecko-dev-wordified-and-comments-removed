@@ -23,7 +23,6 @@ if
 completed
 )
 return
-false
 ;
 ok
 (
@@ -79,9 +78,6 @@ true
 "
 )
 ;
-return
-false
-;
 }
 function
 seekStarted
@@ -93,7 +89,6 @@ if
 completed
 )
 return
-false
 ;
 ok
 (
@@ -121,9 +116,6 @@ seekTime
 "
 )
 ;
-return
-false
-;
 }
 function
 seekEnded
@@ -135,7 +127,6 @@ if
 completed
 )
 return
-false
 ;
 completed
 =
@@ -187,9 +178,6 @@ false
 finish
 (
 )
-;
-return
-false
 ;
 }
 v

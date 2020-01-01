@@ -33,7 +33,6 @@ if
 completed
 )
 return
-false
 ;
 target
 =
@@ -60,9 +59,6 @@ v
 _seekTarget
 =
 target
-;
-return
-false
 ;
 }
 function
@@ -139,7 +135,6 @@ if
 completed
 )
 return
-false
 ;
 if
 (
@@ -236,9 +231,6 @@ finish
 )
 ;
 }
-return
-false
-;
 }
 v
 .
