@@ -923,7 +923,6 @@ vp
 )
 ;
 }
-static
 JSBool
 math_cos
 (
@@ -1644,7 +1643,6 @@ vp
 )
 ;
 }
-static
 JSBool
 math_pow
 (
