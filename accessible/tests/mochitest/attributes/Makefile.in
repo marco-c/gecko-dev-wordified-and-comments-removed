@@ -455,6 +455,10 @@ test_obj_css
 .
 html
 \
+test_obj_css
+.
+xul
+\
 test_obj_group
 .
 html
