@@ -93,11 +93,9 @@ nsNthIndexCache
 :
 SiblingMatchesElement
 (
-const
 nsIContent
 *
 aSibling
-const
 Element
 *
 aElement
@@ -146,11 +144,9 @@ nsNthIndexCache
 :
 IndexDeterminedFromPreviousSibling
 (
-const
 nsIContent
 *
 aSibling
-const
 Element
 *
 aChild
@@ -285,7 +281,6 @@ nsNthIndexCache
 :
 GetNthIndex
 (
-const
 Element
 *
 aChild
@@ -449,7 +444,6 @@ aIsFromEnd
 {
 for
 (
-const
 nsIContent
 *
 cur
@@ -497,7 +491,6 @@ else
 {
 for
 (
-const
 nsIContent
 *
 cur
@@ -546,7 +539,6 @@ else
 {
 for
 (
-const
 nsIContent
 *
 cur
@@ -603,7 +595,6 @@ result
 ;
 for
 (
-const
 nsIContent
 *
 cur

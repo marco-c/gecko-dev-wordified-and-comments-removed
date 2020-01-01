@@ -21408,7 +21408,6 @@ nsGenericElement
 TextLength
 (
 )
-const
 {
 NS_NOTREACHED
 (
@@ -21494,7 +21493,6 @@ nsGenericElement
 TextIsOnlyWhitespace
 (
 )
-const
 {
 return
 false
