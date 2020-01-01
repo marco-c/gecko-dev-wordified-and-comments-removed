@@ -17156,6 +17156,8 @@ tagName
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
+tagName
+=
 content
 -
 >
@@ -17164,9 +17166,8 @@ NodeInfo
 )
 -
 >
-GetQualifiedName
+QualifiedName
 (
-tagName
 )
 ;
 PRUint32

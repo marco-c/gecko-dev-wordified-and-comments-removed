@@ -686,14 +686,15 @@ aStr
 }
 else
 {
+aStr
+=
 NodeInfo
 (
 )
 -
 >
-GetQualifiedName
+QualifiedName
 (
-aStr
 )
 ;
 }
