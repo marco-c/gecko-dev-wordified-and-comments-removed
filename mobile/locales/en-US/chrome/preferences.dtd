@@ -202,6 +202,7 @@ homepage
 none
 "
 Blank
+Page
 "
 >
 <
@@ -226,17 +227,6 @@ currentpage
 "
 Use
 Current
-Page
-"
->
-<
-!
-ENTITY
-homepage
-.
-custom
-"
-Custom
 Page
 "
 >
