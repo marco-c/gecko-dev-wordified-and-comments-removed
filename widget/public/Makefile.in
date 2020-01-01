@@ -472,6 +472,10 @@ nsIDeviceContextSpec
 .
 h
 \
+nsIMenuRollup
+.
+h
+\
 (
 NULL
 )
@@ -605,10 +609,6 @@ nsIClipboardOwner
 idl
 \
 nsIRollupListener
-.
-idl
-\
-nsIMenuRollup
 .
 idl
 \
