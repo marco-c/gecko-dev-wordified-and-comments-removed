@@ -31376,6 +31376,10 @@ GNU_CC
 "
 ;
 then
+AC_DEFINE
+(
+MOZ_THUMB2
+)
 CFLAGS
 =
 "
