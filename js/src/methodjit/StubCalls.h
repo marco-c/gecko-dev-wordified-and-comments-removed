@@ -213,8 +213,9 @@ SetName
 VMFrame
 &
 f
-uint32
-index
+JSAtom
+*
+atom
 )
 ;
 void
@@ -224,8 +225,6 @@ Name
 VMFrame
 &
 f
-uint32
-index
 )
 ;
 void
@@ -280,8 +279,6 @@ CallName
 VMFrame
 &
 f
-uint32
-index
 )
 ;
 void
