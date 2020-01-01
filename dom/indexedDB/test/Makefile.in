@@ -125,7 +125,7 @@ event_propagation_iframe
 .
 html
 \
-exceptions_in_success_events_iframe
+exceptions_in_events_iframe
 .
 html
 \
@@ -221,7 +221,7 @@ test_event_source
 .
 html
 \
-test_exceptions_in_success_events
+test_exceptions_in_events
 .
 html
 \
