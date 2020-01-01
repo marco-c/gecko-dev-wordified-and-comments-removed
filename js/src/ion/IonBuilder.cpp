@@ -1040,6 +1040,15 @@ builder
 callerBuilder_
 ;
 }
+RootedScript
+callerScript
+(
+cx
+script
+(
+)
+)
+;
 bool
 canInline
 =
@@ -1048,6 +1057,8 @@ oracle
 >
 canEnterInlinedFunction
 (
+callerScript
+pc
 target
 )
 ;
