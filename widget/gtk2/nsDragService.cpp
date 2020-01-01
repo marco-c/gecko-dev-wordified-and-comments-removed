@@ -910,7 +910,7 @@ event
 -
 >
 type
-!
+=
 =
 GDK_KEY_PRESS
 |
@@ -919,7 +919,7 @@ event
 -
 >
 type
-!
+=
 =
 GDK_KEY_RELEASE
 )
