@@ -744,13 +744,6 @@ InitAccessibility
 (
 )
 {
-nsAccessNode
-:
-:
-InitXPAccessibility
-(
-)
-;
 }
 void
 nsAccessNodeWrap
