@@ -210,6 +210,13 @@ function
 )
 {
 }
+setSha256Hash
+:
+function
+(
+)
+{
+}
 }
 ;
 var
