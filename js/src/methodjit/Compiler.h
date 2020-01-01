@@ -1499,7 +1499,7 @@ analyze
 CrossScriptSSA
 ssa
 ;
-JSObject
+GlobalObject
 *
 globalObj
 ;
