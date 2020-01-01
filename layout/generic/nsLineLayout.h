@@ -266,9 +266,9 @@ aAllowJustify
 void
 RelativePositionFrames
 (
-nsRect
+nsOverflowAreas
 &
-aCombinedArea
+aOverflowAreas
 )
 ;
 protected
@@ -1016,8 +1016,8 @@ mAscent
 nsRect
 mBounds
 ;
-nsRect
-mCombinedArea
+nsOverflowAreas
+mOverflowAreas
 ;
 nsMargin
 mMargin
@@ -1530,9 +1530,9 @@ RelativePositionFrames
 PerSpanData
 *
 psd
-nsRect
+nsOverflowAreas
 &
-aCombinedArea
+aOverflowAreas
 )
 ;
 PRBool
