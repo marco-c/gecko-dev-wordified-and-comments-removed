@@ -40245,6 +40245,7 @@ MOZ_ENABLE_GTK2
 "
 |
 |
+test
 "
 MOZ_ENABLE_QT
 "
