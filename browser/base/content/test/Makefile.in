@@ -92,7 +92,7 @@ mk
 MOCHITEST_FILES
 =
 \
-head
+head_plain
 .
 js
 \
