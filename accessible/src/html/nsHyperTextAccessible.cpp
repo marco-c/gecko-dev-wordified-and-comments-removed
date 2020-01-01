@@ -7372,11 +7372,15 @@ GetFrame
 ;
 return
 frame
+?
+frame
 -
 >
 GetFrameSelection
 (
 )
+:
+nsnull
 ;
 }
 void

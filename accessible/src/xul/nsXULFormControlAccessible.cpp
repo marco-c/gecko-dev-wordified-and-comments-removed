@@ -2852,11 +2852,15 @@ GetPrimaryFrame
 ;
 return
 frame
+?
+frame
 -
 >
 GetFrameSelection
 (
 )
+:
+nsnull
 ;
 }
 already_AddRefed
