@@ -590,6 +590,11 @@ disablechrome
 "
 true
 "
+role
+=
+"
+application
+"
 ondragenter
 =
 "

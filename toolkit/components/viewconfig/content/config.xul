@@ -519,6 +519,11 @@ Preferences
 :
 ConfigManager
 "
+role
+=
+"
+application
+"
 width
 =
 "
