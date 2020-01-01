@@ -467,10 +467,6 @@ nsIMutationObserver
 .
 h
 \
-nsIMutationObserver2
-.
-h
-\
 nsINameSpaceManager
 .
 h
