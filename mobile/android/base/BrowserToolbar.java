@@ -2800,6 +2800,9 @@ updateTitle
 break
 ;
 case
+RESTORED
+:
+case
 SELECTED
 :
 updateTabCount
