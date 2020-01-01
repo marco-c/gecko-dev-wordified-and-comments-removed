@@ -1932,7 +1932,7 @@ res
 (
 ldflags
 )
-endif
+else
 ifeq
 (
 (
@@ -1966,6 +1966,7 @@ ldflags
 (
 cpp_objects
 )
+endif
 endif
 chmod
 +
