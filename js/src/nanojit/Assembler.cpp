@@ -5374,7 +5374,7 @@ LIR_st32f
 {
 asm_store32
 (
-op
+LIR_sti
 value
 -
 >
@@ -5387,7 +5387,7 @@ base
 ;
 asm_store32
 (
-op
+LIR_sti
 value
 -
 >
