@@ -475,6 +475,8 @@ wcslen
 env
 )
 )
++
+10
 ;
 #
 endif
@@ -924,6 +926,8 @@ else
 {
 LPVOID
 lpMsgBuf
+=
+NULL
 ;
 FormatMessage
 (
@@ -963,6 +967,15 @@ s
 n
 "
 lpMsgBuf
+?
+lpMsgBuf
+:
+L
+"
+(
+null
+)
+"
 )
 ;
 }
