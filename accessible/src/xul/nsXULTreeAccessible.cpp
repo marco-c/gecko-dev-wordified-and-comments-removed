@@ -1969,6 +1969,11 @@ if
 aRow
 <
 0
+|
+|
+IsDefunct
+(
+)
 )
 return
 ;
