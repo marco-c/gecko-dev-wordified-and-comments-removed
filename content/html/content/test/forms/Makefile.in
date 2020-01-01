@@ -243,6 +243,10 @@ test_input_number_value
 .
 html
 \
+test_input_sanitization
+.
+html
+\
 (
 NULL
 )
