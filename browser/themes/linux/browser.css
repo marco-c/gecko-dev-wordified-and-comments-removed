@@ -2750,8 +2750,6 @@ menu
 ;
 }
 #
-menu_stop
-#
 context
 -
 stop
@@ -2784,11 +2782,6 @@ menu
 )
 ;
 }
-#
-menu_stop
-[
-disabled
-]
 #
 context
 -
@@ -2830,8 +2823,6 @@ disabled
 ;
 }
 #
-menu_reload
-#
 placesContext_reload
 #
 context
@@ -2870,11 +2861,6 @@ menu
 )
 ;
 }
-#
-menu_reload
-[
-disabled
-]
 #
 context
 -
