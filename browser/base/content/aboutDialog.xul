@@ -845,9 +845,6 @@ id
 copyright
 "
 >
-&
-copyrightInfo1
-;
 <
 label
 class
@@ -873,10 +870,10 @@ licenseLinkText
 label
 >
 &
-copyrightInfo2
+licenseLinkSuffix
 ;
 &
-logoCopyright
+logoTrademark
 ;
 <
 /
