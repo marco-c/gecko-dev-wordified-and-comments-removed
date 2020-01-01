@@ -519,10 +519,7 @@ nsLoadFlags
 mLoadFlags
 ;
 PRUint32
-mLocksHeld
-;
-PRUint32
-mDeferredLocks
+mLockCount
 ;
 PRPackedBool
 mCanceled
