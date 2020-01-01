@@ -112,6 +112,10 @@ mImageSizeChanged
 (
 false
 )
+mNeedInvalidation
+(
+true
+)
 {
 NS_ASSERTION
 (
@@ -211,6 +215,9 @@ mIntrinsicSizeChanged
 ;
 bool
 mImageSizeChanged
+;
+bool
+mNeedInvalidation
 ;
 }
 ;
