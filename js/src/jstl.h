@@ -1109,7 +1109,7 @@ bytes
 nbytes
 ]
 ;
-uint64_t
+JSUint64
 _
 ;
 }
