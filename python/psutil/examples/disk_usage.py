@@ -22,8 +22,6 @@ command
 import
 sys
 import
-os
-import
 psutil
 from
 psutil
@@ -219,27 +217,6 @@ all
 False
 )
 :
-        
-if
-os
-.
-name
-=
-=
-'
-nt
-'
-and
-'
-cdrom
-'
-in
-part
-.
-opts
-:
-            
-continue
         
 usage
 =

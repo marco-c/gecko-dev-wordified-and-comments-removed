@@ -405,7 +405,7 @@ tot_before
 =
 psutil
 .
-net_io_counters
+network_io_counters
 (
 )
     
@@ -413,7 +413,7 @@ pnic_before
 =
 psutil
 .
-net_io_counters
+network_io_counters
 (
 pernic
 =
@@ -431,7 +431,7 @@ tot_after
 =
 psutil
 .
-net_io_counters
+network_io_counters
 (
 )
     
@@ -439,7 +439,7 @@ pnic_after
 =
 psutil
 .
-net_io_counters
+network_io_counters
 (
 pernic
 =

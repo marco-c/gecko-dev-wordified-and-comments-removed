@@ -79,42 +79,6 @@ IOPRIO_CLASS_IDLE
 "
     
 "
-CONN_ESTABLISHED
-"
-"
-CONN_SYN_SENT
-"
-"
-CONN_SYN_RECV
-"
-"
-CONN_FIN_WAIT1
-"
-    
-"
-CONN_FIN_WAIT2
-"
-"
-CONN_TIME_WAIT
-"
-"
-CONN_CLOSE
-"
-"
-CONN_CLOSE_WAIT
-"
-    
-"
-CONN_LAST_ACK
-"
-"
-CONN_LISTEN
-"
-"
-CONN_CLOSING
-"
-    
-"
 phymem_buffers
 "
 "
@@ -574,67 +538,89 @@ _TCP_STATES_TABLE
 01
 "
 :
-CONN_ESTABLISHED
+"
+ESTABLISHED
+"
                      
 "
 02
 "
 :
-CONN_SYN_SENT
+"
+SYN_SENT
+"
                      
 "
 03
 "
 :
-CONN_SYN_RECV
+"
+SYN_RECV
+"
                      
 "
 04
 "
 :
-CONN_FIN_WAIT1
+"
+FIN_WAIT1
+"
                      
 "
 05
 "
 :
-CONN_FIN_WAIT2
+"
+FIN_WAIT2
+"
                      
 "
 06
 "
 :
-CONN_TIME_WAIT
+"
+TIME_WAIT
+"
                      
 "
 07
 "
 :
-CONN_CLOSE
+"
+CLOSE
+"
                      
 "
 08
 "
 :
-CONN_CLOSE_WAIT
+"
+CLOSE_WAIT
+"
                      
 "
 09
 "
 :
-CONN_LAST_ACK
+"
+LAST_ACK
+"
                      
 "
 0A
 "
 :
-CONN_LISTEN
+"
+LISTEN
+"
                      
 "
 0B
 "
 :
-CONN_CLOSING
+"
+CLOSING
+"
                      
 }
 nt_virtmem_info
@@ -2039,7 +2025,7 @@ pid_exists
 pid
 )
 def
-net_io_counters
+network_io_counters
 (
 )
 :
@@ -4059,18 +4045,13 @@ None
 )
                     
 if
-not
-fields
-[
-0
-]
-.
-endswith
+len
 (
-'
-:
-'
+fields
 )
+>
+=
+5
 :
                         
 yield
@@ -4093,9 +4074,6 @@ line
 else
 :
                         
-try
-:
-                            
 data
 [
 fields
@@ -4113,53 +4091,6 @@ fields
 )
 *
 1024
-                        
-except
-ValueError
-:
-                            
-if
-fields
-[
-0
-]
-.
-startswith
-(
-'
-VmFlags
-:
-'
-)
-:
-                                
-continue
-                            
-else
-:
-                                
-raise
-ValueError
-(
-"
-don
-'
-t
-know
-how
-to
-interpret
-"
-\
-                                                 
-"
-line
-%
-r
-"
-%
-line
-)
                 
 yield
 (
@@ -4501,7 +4432,7 @@ getpid
 :
         
 def
-get_memory_maps
+get_shared_libs
 (
 self
 ext
@@ -6181,7 +6112,8 @@ else
                                 
 status
 =
-CONN_NONE
+"
+"
                             
 fd
 =
@@ -6304,7 +6236,8 @@ type_
 path
                                                  
 None
-CONN_NONE
+"
+"
 )
                             
 retlist

@@ -36,7 +36,8 @@ re
 from
 test_psutil
 import
-*
+sh
+get_test_subprocess
 from
 psutil
 .
@@ -45,6 +46,11 @@ import
 PY3
 import
 psutil
+TOLERANCE
+=
+200
+*
+1024
 class
 LinuxSpecificTestCase
 (
@@ -54,40 +60,67 @@ TestCase
 )
 :
     
-unittest
-.
-skipIf
+def
+assert_eq_w_tol
 (
-POSIX
-and
-not
-hasattr
-(
-os
-'
-statvfs
-'
+self
+first
+second
+tolerance
 )
-            
-reason
+:
+        
+difference
 =
-"
-os
-.
-statvfs
+abs
 (
+first
+-
+second
 )
-function
-not
-available
-on
-this
-platform
-"
-)
-    
-skip_on_not_implemented
+        
+if
+difference
+<
+=
+tolerance
+:
+            
+return
+        
+msg
+=
+'
+%
+r
+!
+=
+%
+r
+within
+%
+r
+delta
 (
+%
+r
+difference
+)
+'
+\
+              
+%
+(
+first
+second
+tolerance
+difference
+)
+        
+raise
+AssertionError
+(
+msg
 )
     
 def
@@ -595,10 +628,6 @@ virtual_memory
 total
 )
     
-retry_before_failing
-(
-)
-    
 def
 test_vmem_used
 (
@@ -648,7 +677,7 @@ split
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 used
 psutil
@@ -658,14 +687,7 @@ virtual_memory
 )
 .
 used
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -717,7 +739,7 @@ split
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 free
 psutil
@@ -727,14 +749,7 @@ virtual_memory
 )
 .
 free
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -786,7 +801,7 @@ split
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 buffers
 psutil
@@ -796,14 +811,7 @@ virtual_memory
 )
 .
 buffers
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -855,7 +863,7 @@ split
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 cached
 psutil
@@ -865,9 +873,6 @@ virtual_memory
 )
 .
 cached
-                               
-delta
-=
 TOLERANCE
 )
     
@@ -932,10 +937,6 @@ swap_memory
 total
 )
     
-retry_before_failing
-(
-)
-    
 def
 test_swapmem_used
 (
@@ -985,7 +986,7 @@ split
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 used
 psutil
@@ -995,14 +996,7 @@ swap_memory
 )
 .
 used
-                               
-delta
-=
 TOLERANCE
-)
-    
-retry_before_failing
-(
 )
     
 def
@@ -1054,7 +1048,7 @@ split
         
 self
 .
-assertAlmostEqual
+assert_eq_w_tol
 (
 free
 psutil
@@ -1064,9 +1058,6 @@ swap_memory
 )
 .
 free
-                               
-delta
-=
 TOLERANCE
 )
     
@@ -1145,28 +1136,25 @@ kernel_ver_info
 )
 :
             
-self
-.
-assertIn
-(
+assert
 '
 steal
 '
+in
 fields
-)
+fields
         
 else
 :
             
-self
-.
-assertNotIn
-(
+assert
 '
 steal
 '
+not
+in
 fields
-)
+fields
         
 if
 kernel_ver_info
@@ -1179,28 +1167,25 @@ kernel_ver_info
 )
 :
             
-self
-.
-assertIn
-(
+assert
 '
 guest
 '
+in
 fields
-)
+fields
         
 else
 :
             
-self
-.
-assertNotIn
-(
+assert
 '
 guest
 '
+not
+in
 fields
-)
+fields
         
 if
 kernel_ver_info
@@ -1213,32 +1198,32 @@ kernel_ver_info
 )
 :
             
-self
-.
-assertIn
-(
+assert
 '
 guest_nice
 '
+in
 fields
-)
+fields
         
 else
 :
             
-self
-.
-assertNotIn
-(
+assert
 '
 guest_nice
 '
+not
+in
 fields
-)
-def
-test_main
-(
-)
+fields
+if
+__name__
+=
+=
+'
+__main__
+'
 :
     
 test_suite
@@ -1261,8 +1246,6 @@ LinuxSpecificTestCase
 )
 )
     
-result
-=
 unittest
 .
 TextTestRunner
@@ -1275,33 +1258,4 @@ verbosity
 run
 (
 test_suite
-)
-    
-return
-result
-.
-wasSuccessful
-(
-)
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-    
-if
-not
-test_main
-(
-)
-:
-        
-sys
-.
-exit
-(
-1
 )

@@ -51,8 +51,6 @@ threading
 import
 types
 import
-sys
-import
 psutil
 import
 psutil
@@ -69,7 +67,24 @@ xrange
 from
 test_psutil
 import
-*
+POSIX
+LINUX
+WINDOWS
+OSX
+BSD
+TESTFN
+from
+test_psutil
+import
+(
+reap_children
+skipUnless
+skipIf
+supports_ipv6
+                         
+safe_remove
+get_test_subprocess
+)
 psutil
 .
 _common
@@ -467,40 +482,9 @@ self
 attr
 )
                 
-name
-=
-meth
-.
-__func__
-.
-__name__
-.
-replace
-(
-'
-test_
-'
-'
-'
-)
-                
-unittest
-.
 skipIf
 (
 True
-                                 
-"
-%
-s
-not
-supported
-on
-this
-platform
-"
-%
-name
 )
                 
 def
@@ -1006,23 +990,9 @@ terminal
 '
 )
     
-unittest
-.
-skipIf
+skipUnless
 (
-POSIX
-"
-not
-worth
-being
-tested
-on
-POSIX
-(
-pure
-python
-)
-"
+WINDOWS
 )
     
 def
@@ -1150,18 +1120,9 @@ close
 (
 )
     
-unittest
-.
 skipIf
 (
 OSX
-"
-OSX
-implementation
-is
-too
-slow
-"
 )
     
 def
@@ -1180,23 +1141,9 @@ get_memory_maps
 '
 )
     
-unittest
-.
 skipIf
 (
 LINUX
-"
-not
-worth
-being
-tested
-on
-Linux
-(
-pure
-python
-)
-"
 )
     
 def
@@ -1375,22 +1322,6 @@ append
 s
 )
         
-kind
-=
-'
-all
-'
-        
-if
-SUNOS
-:
-            
-kind
-=
-'
-inet
-'
-        
 try
 :
             
@@ -1403,7 +1334,9 @@ get_connections
 '
 kind
 =
-kind
+'
+all
+'
 )
         
 finally
@@ -1641,23 +1574,9 @@ args
 kwargs
 )
     
-unittest
-.
 skipIf
 (
 POSIX
-"
-not
-worth
-being
-tested
-on
-POSIX
-(
-pure
-python
-)
-"
 )
     
 def
@@ -1695,27 +1614,6 @@ execute
 '
 virtual_memory
 '
-)
-    
-unittest
-.
-skipIf
-(
-SUNOS
-                     
-"
-not
-worth
-being
-tested
-on
-SUNOS
-(
-uses
-a
-subprocess
-)
-"
 )
     
 def
@@ -1769,23 +1667,9 @@ percpu
 True
 )
     
-unittest
-.
-skipIf
+skipUnless
 (
-POSIX
-"
-not
-worth
-being
-tested
-on
-POSIX
-(
-pure
-python
-)
-"
+WINDOWS
 )
     
 def
@@ -1824,7 +1708,7 @@ disk_partitions
 )
     
 def
-test_net_io_counters
+test_network_io_counters
 (
 self
 )
@@ -1835,7 +1719,7 @@ self
 execute
 (
 '
-net_io_counters
+network_io_counters
 '
 )
     
@@ -1855,21 +1739,9 @@ disk_io_counters
 '
 )
     
-unittest
-.
 skipIf
 (
 WINDOWS
-                     
-"
-XXX
-produces
-a
-false
-positive
-on
-Windows
-"
 )
     
 def
@@ -1929,8 +1801,6 @@ test
 )
 )
     
-result
-=
 unittest
 .
 TextTestRunner
@@ -1944,13 +1814,6 @@ run
 (
 test_suite
 )
-    
-return
-result
-.
-wasSuccessful
-(
-)
 if
 __name__
 =
@@ -1960,16 +1823,6 @@ __main__
 '
 :
     
-if
-not
 test_main
 (
-)
-:
-        
-sys
-.
-exit
-(
-1
 )
