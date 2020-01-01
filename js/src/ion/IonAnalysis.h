@@ -35,6 +35,14 @@ graph
 )
 ;
 bool
+EliminateDeadPhis
+(
+MIRGraph
+&
+graph
+)
+;
+bool
 EliminateDeadCode
 (
 MIRGraph

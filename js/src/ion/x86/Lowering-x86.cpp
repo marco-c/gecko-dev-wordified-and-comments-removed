@@ -878,6 +878,14 @@ ins
 isConstant
 (
 )
+|
+|
+ins
+-
+>
+isUnused
+(
+)
 )
 {
 *
