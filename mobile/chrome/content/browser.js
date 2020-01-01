@@ -8186,7 +8186,7 @@ cbr
 .
 height
 <
-target
+htmlElement
 .
 scrollHeight
 |
@@ -8195,7 +8195,7 @@ cbr
 .
 width
 <
-target
+htmlElement
 .
 scrollWidth
 )
