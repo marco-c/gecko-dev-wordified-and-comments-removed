@@ -5697,7 +5697,7 @@ this
 .
 _scrollable
 .
-offsetHeight
+clientHeight
 &
 &
 overflowy
@@ -5761,7 +5761,7 @@ this
 .
 _scrollable
 .
-offsetWidth
+clientWidth
 &
 &
 overflowx
