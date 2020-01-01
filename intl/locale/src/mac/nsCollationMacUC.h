@@ -37,7 +37,7 @@ const
 PRUint32
 kCollationValueSizeFactor
 =
-5
+6
 ;
 class
 nsCollationMacUC
