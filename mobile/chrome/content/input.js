@@ -792,6 +792,12 @@ _cleanClickBuffer
 ;
 }
 }
+this
+.
+_target
+=
+null
+;
 if
 (
 dragData
