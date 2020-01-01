@@ -2503,15 +2503,11 @@ aUrl
 )
 {
 return
-IO
-.
-newURI
+makeURI
 (
 aUrl
 null
-IO
-.
-newURI
+makeURI
 (
 aBase
 )
