@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_StdInt_h_
+mozilla_StandardInteger_h_
 #
 define
-mozilla_StdInt_h_
+mozilla_StandardInteger_h_
 #
 if
 defined
@@ -38,11 +38,6 @@ else
 #
 include
 <
-sys
-/
-.
-.
-/
 stdint
 .
 h

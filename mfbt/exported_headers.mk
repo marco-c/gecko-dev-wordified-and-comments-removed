@@ -474,7 +474,7 @@ RefPtr
 .
 h
 \
-StdInt
+StandardInteger
 .
 h
 \
