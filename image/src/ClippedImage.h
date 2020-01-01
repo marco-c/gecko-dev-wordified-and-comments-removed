@@ -303,7 +303,7 @@ DrawSingleTileCallback
 ;
 friend
 class
-ImageFactory
+ImageOps
 ;
 }
 ;
