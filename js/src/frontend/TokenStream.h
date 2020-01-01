@@ -1466,6 +1466,13 @@ ntokens
 static
 const
 unsigned
+maxLookahead
+=
+2
+;
+static
+const
+unsigned
 ntokensMask
 =
 ntokens
@@ -2298,8 +2305,7 @@ JS_ASSERT
 (
 lookahead
 <
-=
-2
+maxLookahead
 )
 ;
 return
@@ -2388,8 +2394,7 @@ JS_ASSERT
 (
 lookahead
 <
-=
-2
+maxLookahead
 )
 ;
 return
