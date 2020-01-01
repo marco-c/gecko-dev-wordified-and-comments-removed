@@ -225,6 +225,10 @@ test_csp_bug768029
 .
 html
 \
+test_bug800386
+.
+xul
+\
 (
 NULL
 )

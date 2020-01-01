@@ -15992,7 +15992,7 @@ GetInterface
 JSContext
 *
 aCx
-nsIJSIID
+nsIJSID
 *
 aIID
 ErrorResult
