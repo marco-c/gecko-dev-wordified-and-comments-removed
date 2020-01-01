@@ -683,6 +683,10 @@ CC
 nsICycleCollectorListener
 *
 aListener
+PRBool
+aForceGC
+=
+PR_FALSE
 )
 ;
 static
@@ -697,6 +701,10 @@ static
 PRBool
 IntervalCC
 (
+PRBool
+aForceGC
+=
+PR_FALSE
 )
 ;
 static

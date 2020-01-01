@@ -2830,6 +2830,7 @@ nsJSContext
 CC
 (
 aListener
+PR_TRUE
 )
 ;
 return
