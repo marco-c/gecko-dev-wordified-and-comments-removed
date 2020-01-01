@@ -612,10 +612,6 @@ nsTaggingService
 .
 js
 \
-nsPlacesDBFlush
-.
-js
-\
 (
 NULL
 )
