@@ -134,7 +134,7 @@ gre
 /
 modules
 /
-JSONModule
+JSON
 .
 jsm
 "
