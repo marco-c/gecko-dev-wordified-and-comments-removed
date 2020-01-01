@@ -1295,6 +1295,7 @@ regress
 420612
 .
 js
+fails
 script
 regress
 -
@@ -1331,6 +1332,7 @@ regress
 424257
 .
 js
+fails
 script
 regress
 -
