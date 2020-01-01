@@ -28,6 +28,11 @@ PluginStreamChild
 PluginStreamChild
 (
 )
+:
+mClosed
+(
+false
+)
 {
 memset
 (
