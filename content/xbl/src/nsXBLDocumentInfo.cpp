@@ -1613,8 +1613,10 @@ kHashEnumerateNext
 struct
 ProtoTracer
 {
-TraceCallback
-mCallback
+const
+TraceCallbacks
+&
+mCallbacks
 ;
 void
 *
@@ -1671,7 +1673,7 @@ Trace
 closure
 -
 >
-mCallback
+mCallbacks
 closure
 -
 >
@@ -1820,7 +1822,7 @@ ProtoTracer
 closure
 =
 {
-aCallback
+aCallbacks
 aClosure
 }
 ;
@@ -1901,7 +1903,10 @@ proto
 >
 Trace
 (
+TraceCallbackFunc
+(
 UnmarkXBLJSObject
+)
 nullptr
 )
 ;

@@ -169,13 +169,14 @@ virtual
 void
 Trace
 (
-TraceCallback
+const
+TraceCallbacks
+&
 aCallback
 void
 *
 aClosure
 )
-const
 ;
 nsresult
 Read

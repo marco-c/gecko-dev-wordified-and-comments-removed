@@ -1161,8 +1161,10 @@ nsXBLPrototypeBinding
 :
 Trace
 (
-TraceCallback
-aCallback
+const
+TraceCallbacks
+&
+aCallbacks
 void
 *
 aClosure
@@ -1178,7 +1180,7 @@ mImplementation
 >
 Trace
 (
-aCallback
+aCallbacks
 aClosure
 )
 ;

@@ -1166,13 +1166,14 @@ nsXBLProtoImpl
 :
 Trace
 (
-TraceCallback
-aCallback
+const
+TraceCallbacks
+&
+aCallbacks
 void
 *
 aClosure
 )
-const
 {
 if
 (
@@ -1210,7 +1211,7 @@ member
 >
 Trace
 (
-aCallback
+aCallbacks
 aClosure
 )
 ;

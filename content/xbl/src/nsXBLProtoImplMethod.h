@@ -371,13 +371,14 @@ virtual
 void
 Trace
 (
-TraceCallback
-aCallback
+const
+TraceCallbacks
+&
+aCallbacks
 void
 *
 aClosure
 )
-const
 ;
 nsresult
 Read
