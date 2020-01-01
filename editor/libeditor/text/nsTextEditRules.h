@@ -589,6 +589,14 @@ HideLastPWInput
 (
 )
 ;
+nsresult
+CollapseSelectionToTrailingBRIfNeeded
+(
+nsISelection
+*
+aSelection
+)
+;
 PRBool
 IsPasswordEditor
 (
