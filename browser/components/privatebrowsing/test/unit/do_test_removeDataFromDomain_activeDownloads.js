@@ -580,4 +580,8 @@ i
 removed
 )
 ;
+shutdownPlaces
+(
+)
+;
 }

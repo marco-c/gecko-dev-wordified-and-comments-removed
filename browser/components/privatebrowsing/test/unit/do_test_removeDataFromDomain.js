@@ -2284,6 +2284,10 @@ cache
 "
 )
 ;
+shutdownPlaces
+(
+)
+;
 do_test_finished
 (
 )
