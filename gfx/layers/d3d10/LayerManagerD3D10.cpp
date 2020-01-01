@@ -418,7 +418,7 @@ SetPrivateData
 (
 sDeviceAttachments
 0
-NULL
+nullptr
 )
 ;
 delete
@@ -573,7 +573,7 @@ IUnknown
 *
 devUnknown
 =
-NULL
+nullptr
 ;
 if
 (
@@ -759,7 +759,7 @@ g_main
 )
 D3D10_EFFECT_SINGLE_THREADED
 mDevice
-NULL
+nullptr
 getter_AddRefs
 (
 mEffect
@@ -2051,7 +2051,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 getter_AddRefs
 (
 texture
@@ -2298,7 +2298,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 getter_AddRefs
 (
 texture
@@ -2728,7 +2728,7 @@ OMSetRenderTargets
 1
 &
 view
-NULL
+nullptr
 )
 ;
 SetupInputAssembler
@@ -2819,7 +2819,7 @@ mDevice
 CreateRenderTargetView
 (
 backBuf
-NULL
+nullptr
 getter_AddRefs
 (
 mRTView
@@ -3455,7 +3455,7 @@ CreateTexture2D
 (
 &
 softDesc
-NULL
+nullptr
 getter_AddRefs
 (
 readTexture

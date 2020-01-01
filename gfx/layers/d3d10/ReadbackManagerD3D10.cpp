@@ -432,10 +432,10 @@ mShutdownEvent
 :
 CreateEventA
 (
-NULL
+nullptr
 FALSE
 FALSE
-NULL
+nullptr
 )
 ;
 mTaskSemaphore
@@ -444,10 +444,10 @@ mTaskSemaphore
 :
 CreateSemaphoreA
 (
-NULL
+nullptr
 0
 1000000
-NULL
+nullptr
 )
 ;
 mTaskThread
@@ -456,7 +456,7 @@ mTaskThread
 :
 CreateThread
 (
-NULL
+nullptr
 0
 StartTaskThread
 this
@@ -663,7 +663,7 @@ ReleaseSemaphore
 (
 mTaskSemaphore
 1
-NULL
+nullptr
 )
 ;
 }

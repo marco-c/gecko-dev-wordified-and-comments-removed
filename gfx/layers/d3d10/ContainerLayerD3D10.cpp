@@ -71,7 +71,7 @@ aManager
 ContainerLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerD3D10
 (
@@ -1141,7 +1141,7 @@ getter_AddRefs
 (
 previousRTView
 )
-NULL
+nullptr
 )
 ;
 D3D10_TEXTURE2D_DESC
@@ -1222,7 +1222,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 getter_AddRefs
 (
 renderTexture
@@ -1271,7 +1271,7 @@ device
 CreateRenderTargetView
 (
 renderTexture
-NULL
+nullptr
 getter_AddRefs
 (
 rtView
@@ -1545,7 +1545,7 @@ OMSetRenderTargets
 1
 &
 rtViewPtr
-NULL
+nullptr
 )
 ;
 renderTargetOffset
@@ -1874,7 +1874,7 @@ OMSetRenderTargets
 1
 &
 rtView
-NULL
+nullptr
 )
 ;
 effect
@@ -2039,7 +2039,7 @@ device
 CreateShaderResourceView
 (
 renderTexture
-NULL
+nullptr
 &
 view
 )

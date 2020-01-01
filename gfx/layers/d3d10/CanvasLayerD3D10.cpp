@@ -390,7 +390,7 @@ device
 CreateShaderResourceView
 (
 mTexture
-NULL
+nullptr
 getter_AddRefs
 (
 mSRView
@@ -511,7 +511,7 @@ device
 CreateShaderResourceView
 (
 mTexture
-NULL
+nullptr
 getter_AddRefs
 (
 mSRView
@@ -579,7 +579,7 @@ CreateTexture2D
 (
 &
 desc
-NULL
+nullptr
 getter_AddRefs
 (
 mTexture
@@ -618,7 +618,7 @@ device
 CreateShaderResourceView
 (
 mTexture
-NULL
+nullptr
 getter_AddRefs
 (
 mUploadSRView
