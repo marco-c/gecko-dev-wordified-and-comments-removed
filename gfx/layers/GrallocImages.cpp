@@ -230,6 +230,10 @@ mGraphicBuffer
 get
 (
 )
+&
+&
+!
+mTextureClient
 )
 {
 mGraphicBuffer
@@ -1624,6 +1628,14 @@ ToIntSize
 mSize
 )
 flags
+)
+;
+mTextureClient
+-
+>
+SetGraphicBufferLocked
+(
+mGraphicBuffer
 )
 ;
 }
