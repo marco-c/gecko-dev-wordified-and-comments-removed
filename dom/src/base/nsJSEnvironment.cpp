@@ -1455,6 +1455,17 @@ JSErrorReport
 report
 )
 {
+if
+(
+!
+JSREPORT_IS_WARNING
+(
+report
+-
+>
+flags
+)
+)
 {
 JSStackFrame
 *
@@ -1488,7 +1499,6 @@ fp
 {
 return
 ;
-}
 }
 }
 nsIXPConnect
@@ -1580,6 +1590,7 @@ LANG_JS
 {
 return
 ;
+}
 }
 }
 }
