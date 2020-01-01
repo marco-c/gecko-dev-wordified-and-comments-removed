@@ -666,7 +666,10 @@ xptcstubsce
 cpp
 ASFILES
 =
-xptc_arm_ceppc
+xptcstubs_asm_ce
+.
+asm
+xptcinvoke_asm_ce
 .
 asm
 ASFLAGS
