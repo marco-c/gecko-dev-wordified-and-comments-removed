@@ -115,8 +115,6 @@ EXPORTS_NAMESPACES
 =
 \
 mozilla
-\
-mozilla
 /
 dom
 \
@@ -125,16 +123,6 @@ mozilla
 dom
 /
 ipc
-\
-(
-NULL
-)
-EXPORTS_mozilla
-=
-\
-AppProcessPermissions
-.
-h
 \
 (
 NULL
@@ -211,10 +199,6 @@ NULL
 )
 CPPSRCS
 =
-\
-AppProcessPermissions
-.
-cpp
 \
 Blob
 .

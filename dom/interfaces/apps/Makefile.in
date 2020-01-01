@@ -87,10 +87,6 @@ GRE_MODULE
 XPIDLSRCS
 =
 \
-mozIApplication
-.
-idl
-\
 nsIDOMApplicationRegistry
 .
 idl
