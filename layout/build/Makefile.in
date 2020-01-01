@@ -2236,8 +2236,6 @@ ifneq
 (
 (
 filter
-DragonFly
-FreeBSD
 GNU
 GNU_
 %
