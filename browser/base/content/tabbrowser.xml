@@ -520,7 +520,7 @@ chrome
 :
 /
 /
-global
+browser
 /
 locale
 /
@@ -644,7 +644,7 @@ chrome
 :
 /
 /
-global
+browser
 /
 skin
 /
@@ -677,7 +677,7 @@ chrome
 :
 /
 /
-global
+browser
 /
 locale
 /
