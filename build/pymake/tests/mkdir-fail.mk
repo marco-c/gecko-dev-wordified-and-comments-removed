@@ -2,7 +2,7 @@
 T
 returncode
 :
-1
+2
 all
 :
 mkdir
