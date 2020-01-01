@@ -708,10 +708,6 @@ SVGMaskElement
 )
 DOMCI_CLASS
 (
-SVGTitleElement
-)
-DOMCI_CLASS
-(
 SVGUnknownElement
 )
 DOMCI_CLASS

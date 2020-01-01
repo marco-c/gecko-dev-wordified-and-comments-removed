@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMSVGTitleElement
-.
-h
-"
-#
-include
-"
 nsStubMutationObserver
 .
 h
@@ -58,7 +51,7 @@ SVGTitleElementBase
 public
 nsStubMutationObserver
 public
-nsIDOMSVGTitleElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -173,13 +166,6 @@ DoneAddingChildren
 (
 bool
 aHaveNotified
-)
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
 )
 ;
 virtual
