@@ -126,7 +126,7 @@ virtual
 nsresult
 Place
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool

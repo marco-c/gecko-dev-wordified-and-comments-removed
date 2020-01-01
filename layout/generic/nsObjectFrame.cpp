@@ -426,7 +426,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -3734,7 +3734,7 @@ nsObjectFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3812,7 +3812,7 @@ nsObjectFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -5414,7 +5414,7 @@ PaintPrintPlugin
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -5441,7 +5441,7 @@ TopLeft
 (
 )
 ;
-nsIRenderingContext
+nsRenderingContext
 :
 :
 AutoPushTranslation
@@ -5756,7 +5756,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -7024,7 +7024,7 @@ nsObjectFrame
 :
 PrintPlugin
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -7758,7 +7758,7 @@ aRenderingContext
 .
 GetNativeGraphicData
 (
-nsIRenderingContext
+nsRenderingContext
 :
 :
 NATIVE_OS2_PS
@@ -9498,7 +9498,7 @@ PaintPlugin
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -10031,7 +10031,7 @@ EndNativeDrawing
 }
 else
 {
-nsIRenderingContext
+nsRenderingContext
 :
 :
 AutoPushTranslation
@@ -10672,7 +10672,7 @@ type
 NPWindowTypeDrawable
 )
 {
-nsIRenderingContext
+nsRenderingContext
 :
 :
 AutoPushTranslation
@@ -10838,7 +10838,7 @@ aRenderingContext
 .
 GetNativeGraphicData
 (
-nsIRenderingContext
+nsRenderingContext
 :
 :
 NATIVE_OS2_PS

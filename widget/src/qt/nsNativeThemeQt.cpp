@@ -189,7 +189,7 @@ endif
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -397,7 +397,7 @@ nsNativeThemeQt
 :
 DrawWidgetBackground
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -700,7 +700,7 @@ DrawWidgetBackground
 QPainter
 *
 qPainter
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -1915,7 +1915,7 @@ nsNativeThemeQt
 :
 GetMinimumWidgetSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame

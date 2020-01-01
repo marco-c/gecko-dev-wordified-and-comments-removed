@@ -13,7 +13,7 @@ nsBoxLayoutState
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 PRUint16

@@ -33,7 +33,7 @@ nsRect
 h
 "
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsGUIEvent

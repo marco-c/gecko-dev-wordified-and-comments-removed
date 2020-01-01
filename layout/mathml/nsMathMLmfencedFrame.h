@@ -118,7 +118,7 @@ virtual
 nscoord
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -159,7 +159,7 @@ ReflowChar
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsMathMLChar

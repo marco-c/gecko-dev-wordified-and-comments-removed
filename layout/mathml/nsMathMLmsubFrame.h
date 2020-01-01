@@ -49,7 +49,7 @@ virtual
 nsresult
 Place
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -66,7 +66,7 @@ PlaceSubScript
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool

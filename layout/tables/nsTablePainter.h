@@ -61,7 +61,7 @@ aOrigin
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -320,7 +320,7 @@ nsPresContext
 *
 mPresContext
 ;
-nsIRenderingContext
+nsRenderingContext
 &
 mRenderingContext
 ;

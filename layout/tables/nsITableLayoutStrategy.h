@@ -19,7 +19,7 @@ nsCoord
 h
 "
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 struct
 nsHTMLReflowState
@@ -40,7 +40,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -51,7 +51,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 PRBool

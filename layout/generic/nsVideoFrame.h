@@ -155,7 +155,7 @@ aModType
 nsSize
 GetVideoIntrinsicSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -170,7 +170,7 @@ virtual
 nsSize
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -191,7 +191,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -200,7 +200,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

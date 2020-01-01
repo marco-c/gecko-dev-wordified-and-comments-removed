@@ -285,10 +285,10 @@ aBaseDirection
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
-nsIRenderingContext
+nsRenderingContext
 &
 aTextRunConstructionContext
 nscoord
@@ -339,7 +339,7 @@ aBaseDirection
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 )
@@ -521,10 +521,10 @@ aBaseDirection
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
-nsIRenderingContext
+nsRenderingContext
 &
 aTextRunConstructionContext
 Mode

@@ -120,7 +120,7 @@ NS_DECL_FRAMEARENA_HELPERS
 NS_IMETHOD
 Stretch
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection
@@ -262,7 +262,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -271,7 +271,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -280,7 +280,7 @@ virtual
 nscoord
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -397,7 +397,7 @@ virtual
 nsresult
 Place
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -411,7 +411,7 @@ virtual
 nsresult
 MeasureForWidth
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHTMLReflowMetrics
@@ -430,7 +430,7 @@ aModType
 void
 GetPreferredStretchSize
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRUint32
@@ -452,7 +452,7 @@ public
 nsresult
 ReflowError
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHTMLReflowMetrics
@@ -496,7 +496,7 @@ virtual
 nsresult
 FinalizeReflow
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHTMLReflowMetrics

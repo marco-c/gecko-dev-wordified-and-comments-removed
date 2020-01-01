@@ -97,7 +97,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -7330,7 +7330,7 @@ GetStyleContext
 (
 )
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 rc
 =

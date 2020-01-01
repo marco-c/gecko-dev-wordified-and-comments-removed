@@ -45,7 +45,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -409,7 +409,7 @@ CLIP_MASK
 ;
 nsSVGRenderState
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 )
@@ -428,7 +428,7 @@ gfxASurface
 aSurface
 )
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 GetRenderingContext
 (
@@ -494,9 +494,9 @@ private
 RenderMode
 mRenderMode
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 mRenderingContext
 ;

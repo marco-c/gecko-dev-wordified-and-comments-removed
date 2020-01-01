@@ -76,7 +76,7 @@ virtual
 nsresult
 MeasureForWidth
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHTMLReflowMetrics
@@ -88,7 +88,7 @@ virtual
 nsresult
 Place
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -200,7 +200,7 @@ IsBevelled
 nsresult
 PlaceInternal
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool

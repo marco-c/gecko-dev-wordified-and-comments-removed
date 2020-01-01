@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -166,7 +166,7 @@ GetMathMLFrameType
 NS_IMETHOD
 Stretch
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection
@@ -1241,7 +1241,7 @@ static
 void
 GetRuleThickness
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFontMetrics
@@ -1256,7 +1256,7 @@ static
 void
 GetAxisHeight
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFontMetrics

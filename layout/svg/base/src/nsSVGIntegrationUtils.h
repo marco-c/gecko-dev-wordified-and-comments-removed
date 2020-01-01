@@ -49,7 +49,7 @@ class
 nsDisplayList
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsSVGIntegrationUtils
@@ -131,7 +131,7 @@ static
 void
 PaintFramesWithEffects
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 nsIFrame
@@ -180,7 +180,7 @@ static
 void
 DrawPaintServer
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame

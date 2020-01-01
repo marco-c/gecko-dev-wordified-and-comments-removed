@@ -39,7 +39,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -48,7 +48,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 PRBool
@@ -84,7 +84,7 @@ BTLS_FINAL_WIDTH
 void
 ComputeColumnIntrinsicWidths
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -118,7 +118,7 @@ aSpanHasSpecifiedWidth
 void
 ComputeIntrinsicWidths
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

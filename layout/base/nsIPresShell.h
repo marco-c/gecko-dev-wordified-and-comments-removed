@@ -124,7 +124,7 @@ class
 nsIView
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsIPageSequenceFrame
@@ -1118,7 +1118,7 @@ aFrame
 virtual
 already_AddRefed
 <
-nsIRenderingContext
+nsRenderingContext
 >
 GetReferenceRenderingContext
 (
@@ -1649,7 +1649,7 @@ const
 char
 *
 aName
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsPresContext

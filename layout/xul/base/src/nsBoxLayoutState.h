@@ -33,7 +33,7 @@ nsIPresShell
 h
 "
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsCalculatedBoxInfo
@@ -58,7 +58,7 @@ nsBoxLayoutState
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 =
@@ -150,7 +150,7 @@ return
 mPaintingDisabled
 ;
 }
-nsIRenderingContext
+nsRenderingContext
 *
 GetRenderingContext
 (
@@ -236,7 +236,7 @@ nsPresContext
 >
 mPresContext
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 mRenderingContext
 ;

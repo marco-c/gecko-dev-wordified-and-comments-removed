@@ -40,7 +40,7 @@ nsFrameSelection
 h
 "
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsDisplayListBuilder
@@ -222,7 +222,7 @@ PaintCaret
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 nsIFrame

@@ -71,7 +71,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -875,7 +875,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -914,7 +914,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -1005,7 +1005,7 @@ nsBulletFrame
 :
 PaintBullet
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -5347,7 +5347,7 @@ GetDesiredSize
 nsPresContext
 *
 aCX
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsHTMLReflowMetrics
@@ -5966,7 +5966,7 @@ nsBulletFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -6003,7 +6003,7 @@ nsBulletFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

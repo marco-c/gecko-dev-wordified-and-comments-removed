@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -185,7 +185,7 @@ nsMathMLContainerFrame
 :
 ReflowError
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHTMLReflowMetrics
@@ -407,7 +407,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -430,7 +430,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -881,7 +881,7 @@ nsMathMLContainerFrame
 :
 GetPreferredStretchSize
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRUint32
@@ -1270,7 +1270,7 @@ nsMathMLContainerFrame
 :
 Stretch
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection
@@ -1832,7 +1832,7 @@ nsMathMLContainerFrame
 :
 FinalizeReflow
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHTMLReflowMetrics
@@ -3706,7 +3706,7 @@ nsMathMLContainerFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3737,7 +3737,7 @@ nsMathMLContainerFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3768,7 +3768,7 @@ nsMathMLContainerFrame
 :
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3901,7 +3901,7 @@ nsMathMLContainerFrame
 :
 MeasureForWidth
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsHTMLReflowMetrics
@@ -4579,7 +4579,7 @@ nsMathMLContainerFrame
 :
 Place
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool

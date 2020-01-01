@@ -2263,7 +2263,7 @@ nsComboboxControlFrame
 :
 GetIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsLayoutUtils
@@ -2466,7 +2466,7 @@ nsComboboxControlFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2501,7 +2501,7 @@ nsComboboxControlFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -5342,7 +5342,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -5365,7 +5365,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -5644,7 +5644,7 @@ nsComboboxControlFrame
 :
 PaintFocus
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint

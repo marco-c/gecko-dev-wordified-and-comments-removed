@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -2317,7 +2317,7 @@ nsContainerFrame
 :
 DoInlineIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlineIntrinsicWidthData
@@ -2707,7 +2707,7 @@ nsContainerFrame
 :
 ComputeAutoSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

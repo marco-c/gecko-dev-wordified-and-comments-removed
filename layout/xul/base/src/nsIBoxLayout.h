@@ -25,7 +25,7 @@ class
 nsBoxLayoutState
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 struct
 nsRect

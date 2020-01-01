@@ -715,7 +715,7 @@ aLists
 void
 PaintTableBorderBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -795,7 +795,7 @@ aNewStyleContext
 void
 PaintBCBorders
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -814,7 +814,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -823,7 +823,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -832,7 +832,7 @@ virtual
 IntrinsicWidthOffsetData
 IntrinsicWidthOffsets
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -841,7 +841,7 @@ virtual
 nsSize
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -862,7 +862,7 @@ virtual
 nsSize
 ComputeAutoSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -882,7 +882,7 @@ aShrinkWrap
 nscoord
 TableShrinkWidthToFit
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -1413,7 +1413,7 @@ aOverflowAreas
 void
 ReflowColGroups
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

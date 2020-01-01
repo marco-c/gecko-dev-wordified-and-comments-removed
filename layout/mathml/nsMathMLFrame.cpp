@@ -1016,7 +1016,7 @@ nsMathMLFrame
 :
 GetRuleThickness
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFontMetrics
@@ -1225,7 +1225,7 @@ nsMathMLFrame
 :
 GetAxisHeight
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsIFontMetrics
@@ -1974,7 +1974,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -2002,7 +2002,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -2209,7 +2209,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -2237,7 +2237,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )

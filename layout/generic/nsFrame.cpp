@@ -4300,7 +4300,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -4328,7 +4328,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -6007,7 +6007,7 @@ PaintDebugBorder
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -6086,7 +6086,7 @@ PaintEventTargetBorder
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -13802,7 +13802,7 @@ nsFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -13828,7 +13828,7 @@ nsFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -13854,7 +13854,7 @@ nsFrame
 :
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -13984,7 +13984,7 @@ nsFrame
 :
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -14049,7 +14049,7 @@ InlineMinWidthData
 :
 ForceBreak
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -14157,7 +14157,7 @@ InlineMinWidthData
 :
 OptionallyBreak
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -14201,7 +14201,7 @@ InlinePrefWidthData
 :
 ForceBreak
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -14466,7 +14466,7 @@ const
 nsStyleCoord
 &
 aStyle
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -14662,7 +14662,7 @@ nsFrame
 :
 IntrinsicWidthOffsets
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -14982,7 +14982,7 @@ nsFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -15723,7 +15723,7 @@ nsFrame
 :
 ComputeAutoSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -15802,7 +15802,7 @@ nsFrame
 :
 ShrinkWidthToFit
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -30208,7 +30208,7 @@ rv
 =
 NS_OK
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 rendContext
 =
@@ -31166,7 +31166,7 @@ ourRect
 mRect
 )
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 rendContext
 =
@@ -31421,7 +31421,7 @@ aPresContext
 nsHTMLReflowMetrics
 &
 aDesiredSize
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord

@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -81,7 +81,7 @@ nscoord
 aWidth
 nscoord
 aHeight
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderContext
 PRBool
@@ -103,7 +103,7 @@ PRBool
 aDir
 PRBool
 aBounds
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderContext
 )

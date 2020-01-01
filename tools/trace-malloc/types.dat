@@ -19995,7 +19995,7 @@ CalculateTitleForWidth
 (
 nsIPresContext
 *
-nsIRenderingContext
+nsRenderingContext
 &
 int
 )

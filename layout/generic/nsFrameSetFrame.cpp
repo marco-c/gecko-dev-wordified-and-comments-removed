@@ -176,7 +176,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -472,7 +472,7 @@ aColor
 void
 PaintBorder
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -8153,7 +8153,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -8176,7 +8176,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -8248,7 +8248,7 @@ nsHTMLFramesetBorderFrame
 :
 PaintBorder
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -8305,7 +8305,7 @@ NS_RGB
 128
 )
 ;
-nsIRenderingContext
+nsRenderingContext
 :
 :
 AutoPushTranslation
@@ -9153,7 +9153,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -9176,7 +9176,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )

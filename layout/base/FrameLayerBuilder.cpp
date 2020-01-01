@@ -8438,7 +8438,7 @@ RemoveRoundedCorners
 }
 nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rc
 ;

@@ -334,7 +334,7 @@ nsImageBoxFrame
 void
 PaintImage
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

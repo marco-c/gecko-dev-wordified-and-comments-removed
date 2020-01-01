@@ -29,7 +29,7 @@ class
 nsPresContext
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsFloatManager
@@ -305,7 +305,7 @@ nsIFrame
 *
 frame
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 rendContext
 ;
@@ -323,7 +323,7 @@ nsCSSOffsetState
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -343,7 +343,7 @@ nsCSSOffsetState
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -649,7 +649,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 const

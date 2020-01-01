@@ -284,7 +284,7 @@ aLists
 void
 PaintCellBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -301,7 +301,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -310,7 +310,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -319,7 +319,7 @@ virtual
 IntrinsicWidthOffsetData
 IntrinsicWidthOffsets
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -544,7 +544,7 @@ virtual
 void
 PaintBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -560,7 +560,7 @@ aFlags
 void
 DecorateForSelection
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -885,7 +885,7 @@ virtual
 void
 PaintBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const

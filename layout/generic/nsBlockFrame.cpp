@@ -3350,7 +3350,7 @@ nsBlockFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3809,7 +3809,7 @@ nsBlockFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -11131,7 +11131,7 @@ metrics
 height
 ;
 }
-nsIRenderingContext
+nsRenderingContext
 *
 rc
 =

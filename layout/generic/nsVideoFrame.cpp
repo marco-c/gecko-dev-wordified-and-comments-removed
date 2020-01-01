@@ -57,7 +57,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -2271,7 +2271,7 @@ nsVideoFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -2350,7 +2350,7 @@ nsVideoFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2381,7 +2381,7 @@ nsVideoFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2574,7 +2574,7 @@ nsVideoFrame
 :
 GetVideoIntrinsicSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

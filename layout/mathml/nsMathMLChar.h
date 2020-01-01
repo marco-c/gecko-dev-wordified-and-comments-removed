@@ -241,7 +241,7 @@ PaintForeground
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -256,7 +256,7 @@ Stretch
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection
@@ -428,7 +428,7 @@ GetMaxWidth
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRUint32
@@ -551,7 +551,7 @@ StretchInternal
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsStretchDirection
@@ -582,7 +582,7 @@ ComposeChildren
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsGlyphTable
@@ -603,7 +603,7 @@ PaintVertically
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsFont
@@ -626,7 +626,7 @@ PaintHorizontally
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsFont
@@ -646,7 +646,7 @@ aRect
 void
 ApplyTransforms
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsRect

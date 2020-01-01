@@ -29,7 +29,7 @@ class
 nsIFrame
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsTextAccessibleWrap

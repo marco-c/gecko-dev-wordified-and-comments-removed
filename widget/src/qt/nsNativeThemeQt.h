@@ -75,7 +75,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 DrawWidgetBackground
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -112,7 +112,7 @@ aResult
 NS_IMETHOD
 GetMinimumWidgetSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -229,7 +229,7 @@ DrawWidgetBackground
 QPainter
 *
 qPainter
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 nsIFrame
@@ -251,7 +251,7 @@ inline
 PRInt32
 GetAppUnitsPerDevPixel
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aContext
 )

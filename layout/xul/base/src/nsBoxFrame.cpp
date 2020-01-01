@@ -2272,7 +2272,7 @@ nsBoxFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -2341,7 +2341,7 @@ nsBoxFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -5212,7 +5212,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -5235,7 +5235,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -5267,7 +5267,7 @@ PaintXULDebugBackground
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 const
@@ -5673,7 +5673,7 @@ nsBoxFrame
 :
 PaintXULDebugBackground
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -5965,7 +5965,7 @@ nsBoxFrame
 :
 PaintXULDebugOverlay
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 nsPoint
@@ -6356,7 +6356,7 @@ nsBoxFrame
 :
 DrawLine
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -6403,7 +6403,7 @@ nsBoxFrame
 :
 FillRect
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool
@@ -6453,7 +6453,7 @@ DrawSpacer
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 PRBool

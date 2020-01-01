@@ -967,7 +967,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -976,7 +976,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -985,7 +985,7 @@ virtual
 void
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinWidthData
@@ -997,7 +997,7 @@ virtual
 void
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefWidthData
@@ -1009,7 +1009,7 @@ virtual
 IntrinsicWidthOffsetData
 IntrinsicWidthOffsets
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1030,7 +1030,7 @@ virtual
 nsSize
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -1060,7 +1060,7 @@ virtual
 nsSize
 ComputeAutoSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -1080,7 +1080,7 @@ aShrinkWrap
 nscoord
 ShrinkWidthToFit
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -1998,7 +1998,7 @@ aPresContext
 nsHTMLReflowMetrics
 &
 aDesiredSize
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord

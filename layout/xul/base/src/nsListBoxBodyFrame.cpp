@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -2699,7 +2699,7 @@ nsGkAtoms
 listitem
 )
 {
-nsIRenderingContext
+nsRenderingContext
 *
 rendContext
 =

@@ -551,7 +551,7 @@ CreateRenderingContext
 nsIView
 *
 aView
-nsIRenderingContext
+nsRenderingContext
 *
 &
 aContext
@@ -565,7 +565,7 @@ CreateRenderingContext
 nsIWidget
 *
 aWidget
-nsIRenderingContext
+nsRenderingContext
 *
 &
 aContext
@@ -576,7 +576,7 @@ aContext
 NS_IMETHOD
 CreateRenderingContext
 (
-nsIRenderingContext
+nsRenderingContext
 *
 &
 aContext
@@ -587,7 +587,7 @@ aContext
 NS_IMETHOD
 CreateRenderingContextInstance
 (
-nsIRenderingContext
+nsRenderingContext
 *
 &
 aContext

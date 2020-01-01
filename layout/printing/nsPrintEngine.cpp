@@ -9633,9 +9633,9 @@ n
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 renderingContext
 ;
@@ -11285,9 +11285,9 @@ SetIsRenderingOnlySelection
 PR_TRUE
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rc
 ;
@@ -12544,7 +12544,7 @@ FindSelectionBoundsWithList
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 nsIAtom
@@ -12786,7 +12786,7 @@ FindSelectionBounds
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 nsIFrame
@@ -12902,7 +12902,7 @@ aPresShell
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 nsISelection
@@ -16746,7 +16746,7 @@ out
 nsPresContext
 *
 aPresContext
-nsIRenderingContext
+nsRenderingContext
 *
 aRendContext
 nsIFrame
@@ -17488,9 +17488,9 @@ n
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 renderingContext
 ;

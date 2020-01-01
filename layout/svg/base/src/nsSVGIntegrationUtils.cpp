@@ -998,7 +998,7 @@ nsIntRect
 aDirtyRect
 )
 {
-nsIRenderingContext
+nsRenderingContext
 *
 ctx
 =
@@ -1010,7 +1010,7 @@ GetRenderingContext
 aTarget
 )
 ;
-nsIRenderingContext
+nsRenderingContext
 :
 :
 AutoPushTranslation
@@ -1061,7 +1061,7 @@ nsSVGIntegrationUtils
 :
 PaintFramesWithEffects
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 nsIFrame
@@ -2627,7 +2627,7 @@ nsSVGIntegrationUtils
 :
 DrawPaintServer
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame

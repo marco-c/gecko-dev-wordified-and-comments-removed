@@ -93,7 +93,7 @@ BasicTableLayoutStrategy
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -126,7 +126,7 @@ BasicTableLayoutStrategy
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 PRBool
@@ -234,7 +234,7 @@ static
 CellWidthInfo
 GetWidthInfo
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -856,7 +856,7 @@ inline
 CellWidthInfo
 GetCellWidthInfo
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsTableCellFrame
@@ -878,7 +878,7 @@ inline
 CellWidthInfo
 GetColWidthInfo
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -901,7 +901,7 @@ BasicTableLayoutStrategy
 :
 ComputeColumnIntrinsicWidths
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -1757,7 +1757,7 @@ BasicTableLayoutStrategy
 :
 ComputeIntrinsicWidths
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )

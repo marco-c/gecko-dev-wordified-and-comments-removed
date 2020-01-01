@@ -124,7 +124,7 @@ class
 nsIPresShell
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsIView
@@ -3054,7 +3054,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3065,7 +3065,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3158,7 +3158,7 @@ PR_TRUE
 void
 ForceBreak
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3166,7 +3166,7 @@ aRenderingContext
 void
 OptionallyBreak
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nscoord
@@ -3193,7 +3193,7 @@ InlineIntrinsicWidthData
 void
 ForceBreak
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3204,7 +3204,7 @@ virtual
 void
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinWidthData
@@ -3218,7 +3218,7 @@ virtual
 void
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefWidthData
@@ -3276,7 +3276,7 @@ virtual
 IntrinsicWidthOffsetData
 IntrinsicWidthOffsets
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -3426,7 +3426,7 @@ virtual
 nsSize
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

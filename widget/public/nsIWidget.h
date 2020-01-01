@@ -119,7 +119,7 @@ class
 nsIFontMetrics
 ;
 class
-nsIRenderingContext
+nsRenderingContext
 ;
 class
 nsIDeviceContext

@@ -183,7 +183,7 @@ virtual
 nscoord
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -192,7 +192,7 @@ virtual
 nscoord
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -732,7 +732,7 @@ PaintPrintPlugin
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 const
@@ -746,7 +746,7 @@ aPt
 void
 PrintPlugin
 (
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -761,7 +761,7 @@ PaintPlugin
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 &
 aRenderingContext
 const
@@ -985,7 +985,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )

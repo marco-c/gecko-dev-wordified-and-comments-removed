@@ -68,7 +68,7 @@ FixedTableLayoutStrategy
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -481,7 +481,7 @@ FixedTableLayoutStrategy
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 PRBool

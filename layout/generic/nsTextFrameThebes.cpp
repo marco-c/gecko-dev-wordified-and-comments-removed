@@ -92,7 +92,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -7374,14 +7374,14 @@ GetReferenceRenderingContext
 nsTextFrame
 *
 aTextFrame
-nsIRenderingContext
+nsRenderingContext
 *
 aRC
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 tmp
 =
@@ -18017,7 +18017,7 @@ virtual
 void
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinWidthData
@@ -18029,7 +18029,7 @@ virtual
 void
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefWidthData
@@ -18685,7 +18685,7 @@ nsTextFrame
 :
 GetMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -18707,7 +18707,7 @@ nsTextFrame
 :
 GetPrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 )
@@ -18729,7 +18729,7 @@ nsContinuingTextFrame
 :
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlineMinWidthData
@@ -18746,7 +18746,7 @@ nsContinuingTextFrame
 :
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlinePrefWidthData
@@ -19779,7 +19779,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -19832,7 +19832,7 @@ Paint
 nsDisplayListBuilder
 *
 aBuilder
-nsIRenderingContext
+nsRenderingContext
 *
 aCtx
 )
@@ -24421,7 +24421,7 @@ nsTextFrame
 :
 PaintText
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsPoint
@@ -29177,7 +29177,7 @@ nsTextFrame
 :
 AddInlineMinWidthForFlow
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -29887,7 +29887,7 @@ nsTextFrame
 :
 AddInlineMinWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -30036,7 +30036,7 @@ nsTextFrame
 :
 AddInlinePrefWidthForFlow
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -30531,7 +30531,7 @@ nsTextFrame
 :
 AddInlinePrefWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsIFrame
@@ -30680,7 +30680,7 @@ nsTextFrame
 :
 ComputeSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize
@@ -31733,7 +31733,7 @@ nsLineLayout
 aLineLayout
 nscoord
 aAvailableWidth
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 PRBool
@@ -34105,7 +34105,7 @@ nsTextFrame
 :
 TrimTrailingWhiteSpace
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRC
 )

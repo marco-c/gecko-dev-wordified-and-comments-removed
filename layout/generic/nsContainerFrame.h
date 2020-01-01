@@ -315,7 +315,7 @@ aFlags
 void
 DoInlineIntrinsicWidth
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 InlineIntrinsicWidthData
@@ -332,7 +332,7 @@ virtual
 nsSize
 ComputeAutoSize
 (
-nsIRenderingContext
+nsRenderingContext
 *
 aRenderingContext
 nsSize

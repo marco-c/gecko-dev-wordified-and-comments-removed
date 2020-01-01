@@ -730,7 +730,7 @@ GetCanvasTM
 (
 )
 ;
-nsIRenderingContext
+nsRenderingContext
 *
 ctx
 =
@@ -2439,9 +2439,9 @@ presShell
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 renderingContext
 =

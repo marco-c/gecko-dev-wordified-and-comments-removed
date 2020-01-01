@@ -2725,9 +2725,9 @@ Grow
 return
 NS_OK
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRenderingContext
+nsRenderingContext
 >
 rc
 =

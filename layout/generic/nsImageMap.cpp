@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIRenderingContext
+nsRenderingContext
 .
 h
 "
@@ -268,7 +268,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )
@@ -994,7 +994,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )
@@ -1055,7 +1055,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )
@@ -1248,7 +1248,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )
@@ -1583,7 +1583,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )
@@ -1879,7 +1879,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )
@@ -2515,7 +2515,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )
@@ -2869,7 +2869,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )
@@ -3128,7 +3128,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )
@@ -4230,7 +4230,7 @@ Draw
 nsIFrame
 *
 aFrame
-nsIRenderingContext
+nsRenderingContext
 &
 aRC
 )
