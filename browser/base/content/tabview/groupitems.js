@@ -4442,12 +4442,6 @@ setActiveGroupItem
 self
 )
 ;
-GroupItems
-.
-_updateTabBar
-(
-)
-;
 UI
 .
 goToTab
