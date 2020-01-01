@@ -3907,7 +3907,7 @@ shapeGen
 ;
 ok
 =
-JSScope
+Shape
 :
 :
 initRuntimeState
@@ -5096,7 +5096,7 @@ cx
 ;
 #
 endif
-JSScope
+Shape
 :
 :
 finishRuntimeState

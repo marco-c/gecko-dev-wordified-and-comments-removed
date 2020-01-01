@@ -763,10 +763,13 @@ INFALLIBLE
 )
 #
 define
-_JS_CTYPE_SCOPEPROP
+_JS_CTYPE_SHAPE
 _JS_CTYPE
 (
-JSScopeProperty
+js
+:
+:
+Shape
 *
 _JS_PTR
 -

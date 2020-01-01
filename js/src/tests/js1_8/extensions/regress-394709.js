@@ -97,6 +97,10 @@ printStatus
 summary
 )
 ;
+eval
+(
+)
+;
 runtest
 (
 )

@@ -56,8 +56,6 @@ NewInitObject
 VMFrame
 &
 f
-uint32
-empty
 )
 ;
 JSObject
