@@ -3856,17 +3856,6 @@ obj
 return
 false
 ;
-MarkTypeObjectUnknownProperties
-(
-cx
-obj
--
->
-type
-(
-)
-)
-;
 if
 (
 args
