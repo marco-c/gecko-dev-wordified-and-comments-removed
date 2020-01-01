@@ -12843,9 +12843,7 @@ this
 _loading
 )
 {
-this
-.
-_browserView
+bv
 .
 beginBatchOperation
 (
