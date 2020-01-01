@@ -51,10 +51,6 @@ nsAString
 aTokenName
 )
 :
-mTokenName
-(
-aTokenName
-)
 mInner
 (
 nsnull
@@ -62,6 +58,10 @@ nsnull
 mPrivate
 (
 nsnull
+)
+mTokenName
+(
+aTokenName
 )
 {
 }
