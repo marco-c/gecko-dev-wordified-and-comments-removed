@@ -8835,6 +8835,13 @@ dur
 )
 GK_ATOM
 (
+keyPoints
+"
+keyPoints
+"
+)
+GK_ATOM
+(
 keySplines
 "
 keySplines

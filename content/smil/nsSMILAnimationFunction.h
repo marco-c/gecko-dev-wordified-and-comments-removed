@@ -612,6 +612,14 @@ nsSMILValueArray
 aResult
 )
 ;
+virtual
+void
+CheckValueListDependentAttrs
+(
+PRUint32
+aNumValues
+)
+;
 void
 CheckKeyTimes
 (
