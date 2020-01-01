@@ -9139,6 +9139,8 @@ aBlob
 )
 )
 {
+if
+(
 BlobParent
 *
 actor
@@ -9163,12 +9165,8 @@ GetPBlob
 )
 )
 )
-;
-MOZ_ASSERT
-(
-actor
 )
-;
+{
 if
 (
 static_cast
@@ -9192,6 +9190,7 @@ this
 return
 actor
 ;
+}
 }
 }
 const
