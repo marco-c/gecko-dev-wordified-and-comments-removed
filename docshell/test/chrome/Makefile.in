@@ -612,6 +612,14 @@ bug396519_window
 .
 xul
 \
+test_bug396649
+.
+xul
+\
+bug396649_window
+.
+xul
+\
 test_bug428288
 .
 html
