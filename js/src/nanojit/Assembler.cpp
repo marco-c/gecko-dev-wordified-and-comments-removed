@@ -5838,6 +5838,10 @@ p
 ]
 :
 "
+(
+void
+*
+)
 native_table
 )
 ;
