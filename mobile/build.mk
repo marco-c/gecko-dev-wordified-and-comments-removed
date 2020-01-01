@@ -473,13 +473,6 @@ installer
 installer
 package
 :
-rm
--
-rf
-dist
-/
-fennec
-*
 ifeq
 (
 (
