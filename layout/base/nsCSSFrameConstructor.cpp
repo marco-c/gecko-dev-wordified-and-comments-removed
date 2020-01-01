@@ -40515,9 +40515,6 @@ StyleChangeReflow
 nsIFrame
 *
 aFrame
-nsIAtom
-*
-aAttribute
 )
 {
 if
@@ -41043,7 +41040,6 @@ nsChangeHint_ReflowFrame
 StyleChangeReflow
 (
 frame
-nsnull
 )
 ;
 }

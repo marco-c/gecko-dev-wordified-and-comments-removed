@@ -2235,9 +2235,6 @@ StyleChangeReflow
 nsIFrame
 *
 aFrame
-nsIAtom
-*
-aAttribute
 )
 ;
 nsIFrame
