@@ -5657,6 +5657,9 @@ JS_NumberValue
 (
 double
 )
+(
+uint32_t
+)
 rv
 )
 ;
