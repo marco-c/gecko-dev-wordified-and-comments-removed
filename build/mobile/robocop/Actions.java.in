@@ -491,6 +491,13 @@ key
 )
 ;
 void
+sendKeyCode
+(
+int
+keyCode
+)
+;
+void
 drag
 (
 int
