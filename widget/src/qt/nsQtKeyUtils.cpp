@@ -60,6 +60,13 @@ Qt
 Key_Tab
 }
 {
+NS_VK_TAB
+Qt
+:
+:
+Key_Backtab
+}
+{
 NS_VK_RETURN
 Qt
 :
