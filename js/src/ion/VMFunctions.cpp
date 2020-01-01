@@ -82,6 +82,15 @@ h
 #
 include
 "
+builtin
+/
+ParallelArray
+.
+h
+"
+#
+include
+"
 jsboolinlines
 .
 h

@@ -680,6 +680,10 @@ NameFunctions
 .
 cpp
 \
+ParallelDo
+.
+cpp
+\
 ParallelArray
 .
 cpp
@@ -1673,7 +1677,15 @@ VMFunctions
 .
 cpp
 \
+ParallelFunctions
+.
+cpp
+\
 AliasAnalysis
+.
+cpp
+\
+ParallelArrayAnalysis
 .
 cpp
 \
