@@ -105,6 +105,10 @@ test_bug625187
 .
 html
 \
+test_bug861605
+.
+html
+\
 prompt_common
 .
 js

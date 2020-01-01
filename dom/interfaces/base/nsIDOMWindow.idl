@@ -995,6 +995,7 @@ void
 alert
 (
 [
+optional
 Null
 (
 Stringify
@@ -1008,6 +1009,9 @@ text
 boolean
 confirm
 (
+[
+optional
+]
 in
 DOMString
 text

@@ -112,7 +112,7 @@ true
 ;
 window
 .
-alert
+showModalDialog
 (
 )
 ;
