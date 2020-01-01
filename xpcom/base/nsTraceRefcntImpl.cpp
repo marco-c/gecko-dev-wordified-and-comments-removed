@@ -99,6 +99,13 @@ h
 #
 include
 "
+nsStackWalkPrivate
+.
+h
+"
+#
+include
+"
 nsStackWalk
 .
 h
@@ -4869,6 +4876,10 @@ NS_LogInit
 (
 )
 {
+StackWalkInitCriticalAddress
+(
+)
+;
 #
 ifdef
 NS_IMPL_REFCNT_LOGGING
