@@ -832,7 +832,7 @@ string
 up
 into
 its
-4
+3
 major
 components
 :
@@ -840,9 +840,6 @@ a
 file
 path
 *
-a
-param
-string
 a
 query
 string
@@ -857,10 +854,6 @@ path
 =
 <
 filepath
->
-;
-<
-param
 >
 ?
 <
@@ -888,13 +881,6 @@ filepathPos
 out
 long
 filepathLen
-out
-unsigned
-long
-paramPos
-out
-long
-paramLen
 out
 unsigned
 long

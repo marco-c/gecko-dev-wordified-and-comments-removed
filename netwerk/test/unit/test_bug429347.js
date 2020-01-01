@@ -182,7 +182,7 @@ com
 bar
 "
 ;
-do_check_true
+do_check_false
 (
 uri1
 .
@@ -305,7 +305,7 @@ com
 ;
 "
 ;
-do_check_true
+do_check_false
 (
 uri1
 .

@@ -351,13 +351,11 @@ path
 ;
 PRUint32
 filePos
-paramPos
 queryPos
 refPos
 ;
 PRInt32
 fileLen
-paramLen
 queryLen
 refLen
 ;
@@ -372,10 +370,6 @@ pathLen
 filePos
 &
 fileLen
-&
-paramPos
-&
-paramLen
 &
 queryPos
 &
@@ -401,12 +395,6 @@ path
 +
 filePos
 fileLen
-)
-;
-PRINT_SUBFIELD
-(
-path
-param
 )
 ;
 PRINT_SUBFIELD
