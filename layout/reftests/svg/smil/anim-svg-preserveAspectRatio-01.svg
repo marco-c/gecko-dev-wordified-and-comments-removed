@@ -222,6 +222,12 @@ dur
 .
 5s
 "
+from
+=
+"
+xMidYMid
+meet
+"
 to
 =
 "
@@ -409,6 +415,12 @@ dur
 =
 "
 2s
+"
+from
+=
+"
+xMidYMid
+meet
 "
 to
 =

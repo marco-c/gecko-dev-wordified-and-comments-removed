@@ -2020,16 +2020,6 @@ IsToAnimation
 {
 aResult
 =
-(
-simpleProgress
-<
-0
-.
-5f
-)
-?
-aBaseValue
-:
 aValues
 [
 0
