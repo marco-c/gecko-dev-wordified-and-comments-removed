@@ -669,6 +669,15 @@ finish
 {
 window
 .
+controllers
+.
+removeController
+(
+gShouldNotBeReachedController
+)
+;
+window
+.
 close
 (
 )
