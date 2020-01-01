@@ -333,14 +333,6 @@ return
 NULL
 ;
 }
-if
-(
-name
-!
-=
-NULL
-)
-{
 threadPtr
 -
 >
@@ -348,7 +340,6 @@ name
 =
 name
 ;
-}
 threadPtr
 -
 >
