@@ -1,19 +1,6 @@
 #
 include
 "
-config
-.
-h
-"
-#
-if
-ENABLE
-(
-WEB_AUDIO
-)
-#
-include
-"
 ZeroPole
 .
 h
@@ -162,5 +149,3 @@ lastY
 ;
 }
 }
-#
-endif

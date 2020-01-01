@@ -98,6 +98,9 @@ PARALLEL_DIRS
 =
 [
 '
+blink
+'
+'
 test
 '
 ]
