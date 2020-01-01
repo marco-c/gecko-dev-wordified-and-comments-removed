@@ -942,11 +942,6 @@ notification
 ;
 if
 (
-this
-.
-isPanelOpen
-&
-&
 isCurrent
 )
 this
