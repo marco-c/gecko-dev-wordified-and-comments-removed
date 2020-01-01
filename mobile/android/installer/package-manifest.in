@@ -902,6 +902,13 @@ BINPATH
 /
 components
 /
+dom_power
+.
+xpt
+BINPATH
+/
+components
+/
 dom_range
 .
 xpt
