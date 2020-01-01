@@ -214,6 +214,17 @@ TESTPATH
 /
 *
 .
+jpg
+)
+\
+(
+wildcard
+(
+TESTPATH
+)
+/
+*
+.
 sjs
 )
 \
