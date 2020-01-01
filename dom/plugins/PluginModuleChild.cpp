@@ -1685,6 +1685,19 @@ scroll_event
 gtk_plug_scroll_event
 ;
 }
+if
+(
+gtk_check_version
+(
+2
+18
+7
+)
+!
+=
+NULL
+)
+{
 GtkPlugEmbeddedFn
 *
 embedded
@@ -1708,6 +1721,7 @@ embedded
 =
 wrap_gtk_plug_embedded
 ;
+}
 #
 elif
 defined
