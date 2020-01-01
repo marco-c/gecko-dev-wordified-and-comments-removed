@@ -18230,9 +18230,12 @@ OS_LIBS
 "
 AC_CHECK_FUNCS
 (
-lchown
-strerror
 dladdr
+gettid
+lchown
+setpriority
+strerror
+syscall
 )
 LIBS
 =

@@ -38854,9 +38854,12 @@ OS_LIBS
 for
 ac_func
 in
-lchown
-strerror
 dladdr
+gettid
+lchown
+setpriority
+strerror
+syscall
 do
 echo
 ac_n
