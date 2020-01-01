@@ -79,17 +79,6 @@ this
 false
 )
 ;
-addMessageListener
-(
-"
-Browser
-:
-InvokeContextAtPoint
-"
-this
-false
-)
-;
 this
 .
 popupNode
