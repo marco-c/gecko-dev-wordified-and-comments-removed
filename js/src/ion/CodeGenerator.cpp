@@ -37966,15 +37966,10 @@ checkStackAlignment
 ;
 masm
 .
-adjustStack
+Push
 (
--
-int32_t
+UndefinedValue
 (
-sizeof
-(
-Value
-)
 )
 )
 ;
