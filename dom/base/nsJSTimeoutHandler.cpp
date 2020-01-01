@@ -149,7 +149,7 @@ GetHandlerText
 )
 ;
 virtual
-void
+JSObject
 *
 GetScriptObject
 (
