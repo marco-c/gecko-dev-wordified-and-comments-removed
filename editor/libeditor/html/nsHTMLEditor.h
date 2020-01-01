@@ -2954,9 +2954,6 @@ nsIDOMNode
 aOutLastLeaf
 )
 ;
-bool
-mIgnoreSpuriousDragEvent
-;
 nsresult
 GetInlinePropertyBase
 (
