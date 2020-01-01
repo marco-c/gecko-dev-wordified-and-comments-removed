@@ -990,7 +990,7 @@ aOldValue
 nsnull
 )
 ;
-nsresult
+void
 DeleteProperty
 (
 nsIAtom
@@ -998,7 +998,6 @@ nsIAtom
 aPropertyName
 )
 {
-return
 DeleteProperty
 (
 0
@@ -1007,7 +1006,7 @@ aPropertyName
 ;
 }
 virtual
-nsresult
+void
 DeleteProperty
 (
 PRUint16
