@@ -477,6 +477,13 @@ true
 )
 WIDGET_ATOM
 (
+tab
+"
+tab
+"
+)
+WIDGET_ATOM
+(
 tree
 "
 tree
