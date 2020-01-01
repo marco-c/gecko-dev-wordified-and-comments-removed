@@ -50,6 +50,17 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+LayerManagerComposite
+.
+h
+"
 using
 namespace
 base

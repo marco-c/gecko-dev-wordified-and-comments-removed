@@ -342,6 +342,11 @@ layers
 =
 [
 '
+AsyncCompositionManager
+.
+h
+'
+'
 AsyncPanZoomController
 .
 h

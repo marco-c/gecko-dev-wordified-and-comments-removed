@@ -395,6 +395,10 @@ CPPSRCS
 +
 =
 \
+AsyncCompositionManager
+.
+cpp
+\
 AsyncPanZoomController
 .
 cpp
