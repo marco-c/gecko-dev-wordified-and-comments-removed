@@ -134,6 +134,12 @@ init
 (
 )
 ;
+gAdvancedPane
+.
+init
+(
+)
+;
 var
 initFinished
 =

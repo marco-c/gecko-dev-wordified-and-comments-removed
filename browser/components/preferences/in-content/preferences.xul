@@ -928,6 +928,11 @@ include
 privacy
 .
 xul
+#
+include
+advanced
+.
+xul
 <
 /
 prefpane
