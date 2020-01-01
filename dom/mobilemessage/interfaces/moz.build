@@ -121,12 +121,12 @@ nsIDOMSmsSegmentInfo
 idl
 '
 '
-nsIMobileMessageDatabaseService
+nsIMobileMessageCallback
 .
 idl
 '
 '
-nsISmsRequest
+nsIMobileMessageDatabaseService
 .
 idl
 '

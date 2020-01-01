@@ -1443,7 +1443,7 @@ this
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -1525,7 +1525,7 @@ this
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -1602,7 +1602,7 @@ this
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -1679,7 +1679,7 @@ this
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -1771,7 +1771,7 @@ this
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -1848,7 +1848,7 @@ this
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -1930,7 +1930,7 @@ this
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =

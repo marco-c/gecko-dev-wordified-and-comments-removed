@@ -572,7 +572,7 @@ aNumber
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -978,7 +978,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -1066,7 +1066,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -1313,7 +1313,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -1404,7 +1404,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =
@@ -1491,7 +1491,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =

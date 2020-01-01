@@ -369,7 +369,7 @@ SmsRequestChild
 :
 SmsRequestChild
 (
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aReplyRequest
 )

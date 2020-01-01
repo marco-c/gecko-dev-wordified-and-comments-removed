@@ -109,7 +109,7 @@ SmsCursor
 (
 int32_t
 aListId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -320,7 +320,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 forwarder
 =

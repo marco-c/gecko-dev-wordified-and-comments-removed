@@ -41,7 +41,7 @@ GetMessageMoz
 (
 int32_t
 aMessageId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -87,7 +87,7 @@ DeleteMessage
 (
 int32_t
 aMessageId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -136,7 +136,7 @@ nsIDOMMozSmsFilter
 aFilter
 bool
 aReverse
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -195,7 +195,7 @@ GetNextMessageInList
 (
 int32_t
 aListId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -285,7 +285,7 @@ int32_t
 aMessageId
 bool
 aValue
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -300,7 +300,7 @@ MobileMessageDatabaseService
 :
 GetThreadList
 (
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )

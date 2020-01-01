@@ -357,7 +357,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 >
 >
@@ -9867,7 +9867,7 @@ const
 nsAString
 &
 aMessage
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -9959,7 +9959,7 @@ GetMessage
 (
 int32_t
 aMessageId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -10031,7 +10031,7 @@ DeleteMessage
 (
 int32_t
 aMessageId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -10113,7 +10113,7 @@ SmsFilterData
 aFilter
 bool
 aReverse
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -10287,7 +10287,7 @@ GetNextMessageInList
 (
 int32_t
 aListId
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 )
@@ -10410,7 +10410,7 @@ AndroidBridge
 :
 QueueSmsRequest
 (
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRequest
 uint32_t
@@ -10526,7 +10526,7 @@ true
 }
 already_AddRefed
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 AndroidBridge
 :

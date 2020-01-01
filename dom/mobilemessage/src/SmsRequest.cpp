@@ -169,7 +169,7 @@ dom
 NS_IMPL_ISUPPORTS1
 (
 SmsRequestForwarder
-nsISmsRequest
+nsIMobileMessageCallback
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
@@ -240,7 +240,7 @@ nsIDOMDOMRequest
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsISmsRequest
+nsIMobileMessageCallback
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
@@ -919,7 +919,7 @@ sc
 {
 SetError
 (
-nsISmsRequest
+nsIMobileMessageCallback
 :
 :
 INTERNAL_ERROR
@@ -1018,7 +1018,7 @@ UnrootResult
 ;
 SetError
 (
-nsISmsRequest
+nsIMobileMessageCallback
 :
 :
 INTERNAL_ERROR
@@ -1104,7 +1104,7 @@ NS_PRECONDITION
 aError
 !
 =
-nsISmsRequest
+nsIMobileMessageCallback
 :
 :
 SUCCESS_NO_ERROR
@@ -1136,7 +1136,7 @@ aError
 )
 {
 case
-nsISmsRequest
+nsIMobileMessageCallback
 :
 :
 NO_SIGNAL_ERROR
@@ -1159,7 +1159,7 @@ NoSignalError
 break
 ;
 case
-nsISmsRequest
+nsIMobileMessageCallback
 :
 :
 NOT_FOUND_ERROR
@@ -1182,7 +1182,7 @@ NotFoundError
 break
 ;
 case
-nsISmsRequest
+nsIMobileMessageCallback
 :
 :
 UNKNOWN_ERROR
@@ -1205,7 +1205,7 @@ UnknownError
 break
 ;
 case
-nsISmsRequest
+nsIMobileMessageCallback
 :
 :
 INTERNAL_ERROR

@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsISmsRequest
+nsIMobileMessageCallback
 .
 h
 "
@@ -57,7 +57,7 @@ class
 SmsRequestForwarder
 :
 public
-nsISmsRequest
+nsIMobileMessageCallback
 {
 friend
 class
@@ -69,7 +69,7 @@ SmsRequestChild
 public
 :
 NS_DECL_ISUPPORTS
-NS_FORWARD_NSISMSREQUEST
+NS_FORWARD_NSIMOBILEMESSAGECALLBACK
 (
 mRealRequest
 -
@@ -77,7 +77,7 @@ mRealRequest
 )
 SmsRequestForwarder
 (
-nsISmsRequest
+nsIMobileMessageCallback
 *
 aRealRequest
 )
@@ -96,7 +96,7 @@ SmsRequestForwarder
 )
 {
 }
-nsISmsRequest
+nsIMobileMessageCallback
 *
 GetRealRequest
 (
@@ -108,7 +108,7 @@ mRealRequest
 }
 nsCOMPtr
 <
-nsISmsRequest
+nsIMobileMessageCallback
 >
 mRealRequest
 ;
@@ -128,7 +128,7 @@ nsDOMEventTargetHelper
 public
 nsIDOMMozSmsRequest
 public
-nsISmsRequest
+nsIMobileMessageCallback
 {
 public
 :
@@ -138,7 +138,7 @@ SmsCursor
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMDOMREQUEST
-NS_DECL_NSISMSREQUEST
+NS_DECL_NSIMOBILEMESSAGECALLBACK
 NS_DECL_NSIDOMMOZSMSREQUEST
 NS_FORWARD_NSIDOMEVENTTARGET
 (
