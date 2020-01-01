@@ -4162,6 +4162,13 @@ return
 nsnull
 ;
 }
+styleRule
+-
+>
+RuleMatched
+(
+)
+;
 nsCOMArray
 <
 nsIStyleRule

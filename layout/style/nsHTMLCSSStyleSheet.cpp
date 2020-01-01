@@ -452,6 +452,14 @@ if
 (
 rule
 )
+{
+rule
+-
+>
+RuleMatched
+(
+)
+;
 aData
 -
 >
@@ -463,6 +471,7 @@ Forward
 rule
 )
 ;
+}
 #
 ifdef
 MOZ_SMIL
@@ -479,6 +488,14 @@ if
 (
 rule
 )
+{
+rule
+-
+>
+RuleMatched
+(
+)
+;
 aData
 -
 >
@@ -490,6 +507,7 @@ Forward
 rule
 )
 ;
+}
 #
 endif
 return
