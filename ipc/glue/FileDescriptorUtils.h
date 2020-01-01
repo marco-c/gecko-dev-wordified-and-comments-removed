@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 FileDescriptor
@@ -30,6 +39,7 @@ ipc
 {
 class
 CloseFileRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable
