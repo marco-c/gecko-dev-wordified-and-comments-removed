@@ -443,6 +443,16 @@ test_bug299673
 .
 html
 \
+test_bug322588
+.
+html
+\
+bug322588
+-
+popup
+.
+html
+\
 test_bug328885
 .
 html
