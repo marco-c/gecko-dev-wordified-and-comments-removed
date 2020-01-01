@@ -1883,6 +1883,8 @@ GetLineNumber
 nsIFrame
 *
 aFrame
+PRBool
+aLockScroll
 nsIFrame
 *
 *
