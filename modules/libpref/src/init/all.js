@@ -1086,16 +1086,6 @@ pref
 "
 browser
 .
-history_expire_days
-"
-9
-)
-;
-pref
-(
-"
-browser
-.
 frames
 .
 enabled
