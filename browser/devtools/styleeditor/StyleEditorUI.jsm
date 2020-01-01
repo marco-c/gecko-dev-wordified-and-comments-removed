@@ -730,6 +730,13 @@ if
 this
 .
 selectedEditor
+&
+&
+this
+.
+selectedEditor
+.
+sourceEditor
 )
 {
 let
