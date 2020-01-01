@@ -1643,6 +1643,14 @@ shape
 hasSlot
 (
 )
+|
+|
+obj
+-
+>
+watched
+(
+)
 )
 {
 PatchSetFallback

@@ -1240,9 +1240,6 @@ endif
 JSCList
 trapList
 ;
-JSCList
-watchPointList
-;
 void
 *
 data

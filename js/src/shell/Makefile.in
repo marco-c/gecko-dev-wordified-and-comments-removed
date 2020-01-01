@@ -475,6 +475,15 @@ js_static
 (
 LIB_SUFFIX
 )
+ifdef
+MOZ_NATIVE_FFI
+EXTRA_LIBS
++
+=
+(
+MOZ_FFI_LIBS
+)
+endif
 LOCAL_INCLUDES
 +
 =

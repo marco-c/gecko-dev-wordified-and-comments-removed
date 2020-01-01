@@ -5144,6 +5144,11 @@ true
 ;
 #
 endif
+LeaveTrace
+(
+cx
+)
+;
 if
 (
 StackSegment
