@@ -1530,6 +1530,8 @@ aState
 nsHTMLReflowMetrics
 &
 aMetrics
+nscoord
+aLineTop
 )
 ;
 public
