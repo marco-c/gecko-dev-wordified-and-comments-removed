@@ -15921,7 +15921,10 @@ pi
 pn
 -
 >
-asXMLProcessingInstruction
+as
+<
+XMLProcessingInstruction
+>
 (
 )
 ;

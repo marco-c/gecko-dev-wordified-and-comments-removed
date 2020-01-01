@@ -30525,7 +30525,10 @@ bce
 pn
 -
 >
-asBreakStatement
+as
+<
+BreakStatement
+>
 (
 )
 .
@@ -30548,7 +30551,10 @@ bce
 pn
 -
 >
-asContinueStatement
+as
+<
+ContinueStatement
+>
 (
 )
 .
@@ -31069,7 +31075,10 @@ bce
 pn
 -
 >
-asConditionalExpression
+as
+<
+ConditionalExpression
+>
 (
 )
 )
@@ -32678,7 +32687,10 @@ bce
 pn
 -
 >
-asXMLProcessingInstruction
+as
+<
+XMLProcessingInstruction
+>
 (
 )
 )
