@@ -560,6 +560,14 @@ nsThread
 data
 )
 ;
+if
+(
+!
+mInitialized
+)
+return
+nsnull
+;
 nsRefPtr
 <
 nsThread
