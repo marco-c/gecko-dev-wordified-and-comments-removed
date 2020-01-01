@@ -6807,7 +6807,7 @@ nsCocoaWindow
 :
 GetLayerManager
 (
-PLayersChild
+PLayerTransactionChild
 *
 aShadowManager
 LayersBackend

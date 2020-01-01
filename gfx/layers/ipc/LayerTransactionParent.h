@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_layers_ShadowLayersParent_h
+MOZILLA_LAYERS_LAYERTRANSACTIONPARENT_H
 #
 define
-mozilla_layers_ShadowLayersParent_h
+MOZILLA_LAYERS_LAYERTRANSACTIONPARENT_H
 #
 include
 "
@@ -11,7 +11,7 @@ mozilla
 /
 layers
 /
-PLayersParent
+PLayerTransactionParent
 .
 h
 "
@@ -62,10 +62,10 @@ class
 CompositableParent
 ;
 class
-ShadowLayersParent
+LayerTransactionParent
 :
 public
-PLayersParent
+PLayerTransactionParent
 public
 CompositableParentManager
 {
@@ -95,7 +95,7 @@ EditReplyArray
 ;
 public
 :
-ShadowLayersParent
+LayerTransactionParent
 (
 ShadowLayerManager
 *
@@ -108,7 +108,7 @@ aId
 )
 ;
 ~
-ShadowLayersParent
+LayerTransactionParent
 (
 )
 ;
@@ -172,7 +172,7 @@ aShmem
 )
 {
 return
-PLayersParent
+PLayerTransactionParent
 :
 :
 AllocShmem
@@ -206,7 +206,7 @@ aShmem
 )
 {
 return
-PLayersParent
+PLayerTransactionParent
 :
 :
 AllocUnsafeShmem
@@ -230,7 +230,7 @@ aShmem
 )
 MOZ_OVERRIDE
 {
-PLayersParent
+PLayerTransactionParent
 :
 :
 DeallocShmem

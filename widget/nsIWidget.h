@@ -172,7 +172,7 @@ class
 LayerManager
 ;
 class
-PLayersChild
+PLayerTransactionChild
 ;
 }
 }
@@ -749,8 +749,8 @@ mozilla
 layers
 :
 :
-PLayersChild
-PLayersChild
+PLayerTransactionChild
+PLayerTransactionChild
 ;
 typedef
 mozilla
@@ -1675,7 +1675,7 @@ LayerManager
 *
 GetLayerManager
 (
-PLayersChild
+PLayerTransactionChild
 *
 aShadowManager
 LayersBackend

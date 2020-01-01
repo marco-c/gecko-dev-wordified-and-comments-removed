@@ -102,9 +102,9 @@ nullptr
 protected
 :
 virtual
-PLayersChild
+PLayerTransactionChild
 *
-AllocPLayers
+AllocPLayerTransaction
 (
 const
 LayersBackend
@@ -122,9 +122,9 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPLayers
+DeallocPLayerTransaction
 (
-PLayersChild
+PLayerTransactionChild
 *
 aChild
 )

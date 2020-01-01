@@ -696,7 +696,7 @@ LayerManager
 *
 GetLayerManager
 (
-PLayersChild
+PLayerTransactionChild
 *
 aShadowManager
 =

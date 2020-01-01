@@ -106,11 +106,15 @@ MPL
 /
 include
 protocol
-PLayers
+PLayerTransaction
 ;
 include
 protocol
 PImageBridge
+;
+include
+protocol
+PCompositor
 ;
 include
 "
@@ -122,10 +126,6 @@ CompositorTypes
 .
 h
 "
-;
-include
-protocol
-PCompositor
 ;
 namespace
 mozilla
@@ -140,7 +140,7 @@ PCompositable
 manager
 PImageBridge
 or
-PLayers
+PLayerTransaction
 ;
 parent
 :

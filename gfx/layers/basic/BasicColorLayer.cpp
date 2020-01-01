@@ -5,7 +5,7 @@ mozilla
 /
 layers
 /
-PLayersParent
+PLayerTransactionParent
 .
 h
 "
