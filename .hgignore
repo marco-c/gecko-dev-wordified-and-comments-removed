@@ -118,10 +118,3 @@ _OPT
 .
 OBJ
 /
-#
-my
-objdirs
-^
-ff
--
-opt

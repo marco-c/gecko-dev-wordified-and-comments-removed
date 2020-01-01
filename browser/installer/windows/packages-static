@@ -1596,13 +1596,6 @@ components
 aboutRobots
 .
 js
-bin
-\
-components
-\
-nsBadCertHandler
-.
-js
 ;
 Modules
 bin
