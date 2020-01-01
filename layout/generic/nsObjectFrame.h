@@ -333,13 +333,6 @@ StopPlugin
 (
 )
 ;
-void
-StopPluginInternal
-(
-PRBool
-aDelayedStop
-)
-;
 NS_IMETHOD
 GetCursor
 (

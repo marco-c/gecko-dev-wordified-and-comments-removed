@@ -565,13 +565,6 @@ aAnimation
 )
 ;
 virtual
-nsIWidget
-*
-GetTopLevelWindow
-(
-)
-;
-virtual
 void
 ConvertToDeviceCoordinates
 (
