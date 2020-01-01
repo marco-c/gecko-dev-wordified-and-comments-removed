@@ -349,6 +349,15 @@ ins
 ;
 virtual
 bool
+visitDivI
+(
+LDivI
+*
+ins
+)
+;
+virtual
+bool
 visitBitNot
 (
 LBitNot
