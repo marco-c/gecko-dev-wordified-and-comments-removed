@@ -230,10 +230,9 @@ poolp
 typedef
 enum
 {
-ocspResponse_other
+ocspResponse_min
 =
--
-1
+0
 ocspResponse_successful
 =
 0
@@ -253,6 +252,9 @@ ocspResponse_sigRequired
 =
 5
 ocspResponse_unauthorized
+=
+6
+ocspResponse_max
 =
 6
 }

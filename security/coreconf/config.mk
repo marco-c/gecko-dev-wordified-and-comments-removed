@@ -658,6 +658,7 @@ RISCOS
 WINNT
 WIN95
 Linux
+Android
 ifeq
 (
 (

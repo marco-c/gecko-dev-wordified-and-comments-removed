@@ -1426,6 +1426,17 @@ core_abspath
 <
 )
 else
+ifeq
+(
+(
+CROSS_COMPILE
+)
+1
+)
+#
+do
+nothing
+else
 cd
 (
 OBJDIR
@@ -1470,6 +1481,7 @@ call
 core_abspath
 <
 )
+endif
 endif
 libs
 install

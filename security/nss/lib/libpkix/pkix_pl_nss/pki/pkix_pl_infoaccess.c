@@ -2463,6 +2463,7 @@ avaPtr
 ;
 if
 (
+*
 avaPtr
 =
 =

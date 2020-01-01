@@ -1670,11 +1670,6 @@ inLen
 {
 if
 (
-inLen
-<
-0
-|
-|
 (
 inLen
 %
@@ -1763,11 +1758,6 @@ inLen
 {
 if
 (
-inLen
-<
-0
-|
-|
 (
 inLen
 %

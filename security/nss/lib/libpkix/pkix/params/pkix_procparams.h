@@ -84,6 +84,9 @@ useAIAForCertFetching
 PKIX_Boolean
 qualifyTargetCert
 ;
+PKIX_Boolean
+useOnlyTrustAnchors
+;
 }
 ;
 PKIX_Error

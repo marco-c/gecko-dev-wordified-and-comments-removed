@@ -205,6 +205,18 @@ com
 Sun
 Microsystems
 #
+Ryan
+Sleevi
+<
+ryan
+.
+sleevi
+gmail
+.
+com
+>
+Google
+#
 #
 Alternatively
 the
@@ -447,5 +459,8 @@ ocsp
 .
 cfg
 crldp
+.
+cfg
+trustanchors
 .
 cfg

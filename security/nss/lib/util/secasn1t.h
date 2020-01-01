@@ -493,6 +493,12 @@ defined
 (
 _WIN32
 )
+|
+|
+defined
+(
+ANDROID
+)
 #
 define
 SEC_ASN1_GET

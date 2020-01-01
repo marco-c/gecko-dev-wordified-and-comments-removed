@@ -18360,9 +18360,6 @@ SEC_ERROR_OCSP_UNAUTHORIZED_REQUEST
 break
 ;
 case
-ocspResponse_other
-:
-case
 ocspResponse_unused
 :
 default

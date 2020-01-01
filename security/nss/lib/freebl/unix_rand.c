@@ -1475,6 +1475,9 @@ GiveSystemInfo
 void
 )
 {
+#
+ifndef
+NO_SYSINFO
 struct
 sysinfo
 si
@@ -1502,6 +1505,8 @@ si
 )
 ;
 }
+#
+endif
 }
 #
 endif

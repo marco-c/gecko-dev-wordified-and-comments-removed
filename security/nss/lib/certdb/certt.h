@@ -2501,6 +2501,9 @@ cert_pi_useAIACertFetch
 cert_pi_chainVerifyCallback
 =
 13
+cert_pi_useOnlyTrustAnchors
+=
+14
 cert_pi_max
 }
 CERTValParamInType

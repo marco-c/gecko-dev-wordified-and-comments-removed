@@ -589,6 +589,10 @@ LOWHASH_SRCS
 )
 \
 (
+EXTRA_SRCS
+)
+\
+(
 NULL
 )
 ALL_CSRCS

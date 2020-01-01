@@ -2410,10 +2410,7 @@ the_cert
 "
 Certificate
 "
-the_cert
--
->
-trust
+NULL
 )
 ;
 if
@@ -2653,10 +2650,7 @@ the_cert
 "
 Certificate
 "
-the_cert
--
->
-trust
+NULL
 )
 ;
 if
