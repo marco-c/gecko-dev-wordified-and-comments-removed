@@ -5961,7 +5961,7 @@ UpdateReadyStateForData
 mElement
 -
 >
-DispatchEvent
+DispatchSimpleEvent
 (
 NS_LITERAL_STRING
 (

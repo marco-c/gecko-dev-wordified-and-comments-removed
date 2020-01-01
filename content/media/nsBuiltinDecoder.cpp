@@ -1288,7 +1288,7 @@ mElement
 mElement
 -
 >
-DispatchAsyncEvent
+DispatchAsyncProgressEvent
 (
 NS_LITERAL_STRING
 (
@@ -2956,7 +2956,7 @@ mCurrentTime
 mElement
 -
 >
-DispatchEvent
+DispatchSimpleEvent
 (
 NS_LITERAL_STRING
 (
@@ -3052,7 +3052,7 @@ mDuration
 mElement
 -
 >
-DispatchEvent
+DispatchSimpleEvent
 (
 NS_LITERAL_STRING
 (
