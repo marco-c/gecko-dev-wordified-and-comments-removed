@@ -5360,11 +5360,6 @@ mState
 =
 STATE_TRANSFERRING
 ;
-SendStatus
-(
-STATUS_CONNECTED_TO
-)
-;
 {
 nsAutoLock
 lock
@@ -5400,6 +5395,11 @@ mFDconnected
 PR_TRUE
 ;
 }
+SendStatus
+(
+STATUS_CONNECTED_TO
+)
+;
 }
 PRFileDesc
 *
