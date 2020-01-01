@@ -555,11 +555,8 @@ label
 &
 reportPhishSiteMenu
 .
-title
+title2
 ;
-.
-.
-.
 "
 accesskey
 =
@@ -633,11 +630,8 @@ palm
 .
 notforgery
 .
-label
+label2
 ;
-.
-.
-.
 "
 accesskey
 =
