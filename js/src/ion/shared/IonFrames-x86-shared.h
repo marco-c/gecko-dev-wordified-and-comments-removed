@@ -92,7 +92,7 @@ FRAMETYPE_BITS
 void
 setFrameDescriptor
 (
-uintptr_t
+size_t
 size
 FrameType
 type
