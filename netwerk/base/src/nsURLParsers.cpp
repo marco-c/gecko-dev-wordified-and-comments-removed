@@ -911,8 +911,11 @@ p
 =
 path
 ;
-*
 p
+<
+path
++
+pathLen
 ;
 +
 +
