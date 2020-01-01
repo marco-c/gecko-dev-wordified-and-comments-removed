@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-TimeStamp
+GuardObjects
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-AutoRestore
+TimeStamp
 .
 h
 "

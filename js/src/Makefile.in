@@ -1524,6 +1524,10 @@ mozilla
 EXPORTS_mozilla
 =
 \
+GuardObjects
+.
+h
+\
 RangedPtr
 .
 h

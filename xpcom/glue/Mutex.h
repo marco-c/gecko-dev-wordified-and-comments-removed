@@ -16,7 +16,7 @@ include
 "
 mozilla
 /
-AutoRestore
+BlockingResourceBase
 .
 h
 "
@@ -25,7 +25,7 @@ include
 "
 mozilla
 /
-BlockingResourceBase
+GuardObjects
 .
 h
 "

@@ -359,7 +359,7 @@ include
 "
 mozilla
 /
-AutoRestore
+GuardObjects
 .
 h
 "

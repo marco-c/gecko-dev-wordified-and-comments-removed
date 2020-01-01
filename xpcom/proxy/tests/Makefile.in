@@ -479,6 +479,10 @@ NSPR_LIBS
 )
 \
 (
+MOZ_JS_LIBS
+)
+\
+(
 NULL
 )
 include
