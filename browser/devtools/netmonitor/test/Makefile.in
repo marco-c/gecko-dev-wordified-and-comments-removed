@@ -281,6 +281,10 @@ bodies
 .
 js
 \
+browser_net_copy_url
+.
+js
+\
 head
 .
 js
