@@ -498,7 +498,6 @@ data
 ;
 [
 Creator
-Throws
 ]
 Comment
 createComment

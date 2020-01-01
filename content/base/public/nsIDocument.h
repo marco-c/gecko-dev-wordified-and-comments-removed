@@ -4508,12 +4508,6 @@ const
 nsAString
 &
 aData
-mozilla
-:
-:
-ErrorResult
-&
-rv
 )
 const
 ;
