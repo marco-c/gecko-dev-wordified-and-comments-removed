@@ -444,6 +444,10 @@ test_selection_move_commands
 .
 xul
 \
+test_bug514156
+.
+html
+\
 (
 NULL
 )
