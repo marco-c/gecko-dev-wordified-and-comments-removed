@@ -561,7 +561,7 @@ PL_DHASH_NEXT
 union
 LParamForKeyEvents
 {
-LPARAM
+uintptr_t
 lParam
 ;
 struct
@@ -609,7 +609,7 @@ isKeyReleased
 void
 InitPluginKeyEventLParamFromKeyStatus
 (
-uint32_t
+uintptr_t
 &
 aLParam
 UI
@@ -737,7 +737,7 @@ lParam
 union
 LParamForMouseEvents
 {
-LPARAM
+uintptr_t
 lParam
 ;
 struct
@@ -761,10 +761,10 @@ nsInputEvent
 const
 &
 aEvent
-uint32_t
+uintptr_t
 &
 aWParam
-uint32_t
+uintptr_t
 &
 aLParam
 )
@@ -1774,7 +1774,7 @@ WM_MOUSEWHEEL
 ;
 union
 {
-uint32_t
+uintptr_t
 wParam
 ;
 uint16_t
