@@ -260,7 +260,7 @@ file
 append
 (
 "
-satitize
+sanitize
 -
 dm
 -

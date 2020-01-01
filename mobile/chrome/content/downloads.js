@@ -1928,7 +1928,7 @@ strings
 GetStringFromName
 (
 "
-donwloadsYesterday
+downloadsYesterday
 "
 )
 ;
