@@ -1906,7 +1906,7 @@ subList
 i
 -
 >
-GetList
+GetSameCoordinateSystemChildren
 (
 )
 ;

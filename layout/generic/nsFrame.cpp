@@ -8646,7 +8646,7 @@ aBuilder
 list
 -
 >
-GetList
+GetChildren
 (
 )
 aOutput
@@ -8729,7 +8729,7 @@ aBuilder
 opacity
 -
 >
-GetList
+GetChildren
 (
 )
 &
@@ -8772,7 +8772,7 @@ aIndex
 opacity
 -
 >
-GetList
+GetChildren
 (
 )
 -

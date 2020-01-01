@@ -7382,7 +7382,7 @@ sublist
 item
 -
 >
-GetList
+GetSameCoordinateSystemChildren
 (
 )
 ;

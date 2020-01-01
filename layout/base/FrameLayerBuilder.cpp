@@ -8839,7 +8839,7 @@ ProcessDisplayItems
 item
 -
 >
-GetList
+GetSameCoordinateSystemChildren
 (
 )
 childClip
