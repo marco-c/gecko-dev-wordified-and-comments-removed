@@ -38600,9 +38600,16 @@ XPC_IDISPATCH_SUPPORT
 =
 case
 "
-target_os
+{
+target
+}
 "
 in
+*
+android
+*
+|
+*
 darwin
 *
 |
