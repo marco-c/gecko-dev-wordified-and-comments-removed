@@ -69780,17 +69780,6 @@ MOZ_WIDGET_TOOLKIT
 "
 android
 "
--
-o
-"
-{
-MOZ_WIDGET_TOOLKIT
-}
-"
-=
-"
-gtk2
-"
 ;
 then
 MOZ_ENABLE_SKIA

@@ -3580,13 +3580,6 @@ defined
 (
 ANDROID
 )
-&
-&
-!
-defined
-(
-XP_LINUX
-)
 return
 NS_ERROR_NOT_AVAILABLE
 ;
