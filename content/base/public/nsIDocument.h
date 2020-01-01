@@ -2801,7 +2801,7 @@ mFreezableElements
 #
 ifdef
 MOZ_SMIL
-nsAutoPtr
+nsRefPtr
 <
 nsSMILAnimationController
 >
