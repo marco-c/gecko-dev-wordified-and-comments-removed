@@ -783,10 +783,10 @@ n
 )
 )
 ;
-MonitorAutoEnter
+ReentrantMonitorAutoEnter
 mon
 (
-mMonitor
+mReentrantMonitor
 )
 ;
 mon
