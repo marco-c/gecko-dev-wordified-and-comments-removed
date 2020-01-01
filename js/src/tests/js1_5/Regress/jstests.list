@@ -2612,6 +2612,7 @@ regress
 76054
 .
 js
+slow
 script
 regress
 -
