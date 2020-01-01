@@ -1187,6 +1187,8 @@ file
 .
 QueryInterface
 (
+Ci
+.
 nsILocalFile
 )
 ;
