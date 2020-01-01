@@ -1406,6 +1406,8 @@ JSFunction
 target
 uint32
 argc
+bool
+constructing
 )
 ;
 enum

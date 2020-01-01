@@ -11731,10 +11731,6 @@ inliningEnabled
 )
 &
 &
-!
-constructing
-&
-&
 target
 )
 {
@@ -11752,6 +11748,7 @@ inlineNativeCall
 (
 target
 argc
+constructing
 )
 )
 return
@@ -11759,6 +11756,10 @@ true
 ;
 if
 (
+!
+constructing
+&
+&
 makeInliningDecision
 (
 target
