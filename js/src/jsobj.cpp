@@ -15079,6 +15079,11 @@ gcNursery
 allocateElements
 (
 cx
+-
+>
+asJSContext
+(
+)
 obj
 nelems
 )
@@ -15161,6 +15166,11 @@ gcNursery
 reallocateElements
 (
 cx
+-
+>
+asJSContext
+(
+)
 obj
 oldHeader
 oldCount
