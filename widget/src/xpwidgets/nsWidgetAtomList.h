@@ -359,6 +359,13 @@ Reload
 )
 WIDGET_ATOM
 (
+richlistitem
+"
+richlistitem
+"
+)
+WIDGET_ATOM
+(
 sbattr
 "
 sbattr
