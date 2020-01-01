@@ -741,6 +741,15 @@ appTabTrayContainerTruncated
 "
 )
 ;
+contentWindow
+.
+UI
+.
+setActive
+(
+groupItem
+)
+;
 gBrowser
 .
 unpinTab

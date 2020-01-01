@@ -378,6 +378,15 @@ group
 "
 )
 ;
+contentWindow
+.
+UI
+.
+setActive
+(
+groupItemOne
+)
+;
 gBrowser
 .
 unpinTab
