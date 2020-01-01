@@ -3187,6 +3187,10 @@ gcCallback
 (
 NULL
 )
+gcFinishedCallback
+(
+NULL
+)
 gcMallocBytes
 (
 0

@@ -1340,6 +1340,9 @@ endif
 JSGCCallback
 gcCallback
 ;
+JSGCFinishedCallback
+gcFinishedCallback
+;
 private
 :
 volatile
