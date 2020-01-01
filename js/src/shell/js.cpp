@@ -15836,7 +15836,11 @@ TimerOrWaitFired
 {
 CancelExecution
 (
-rt
+(
+JSRuntime
+*
+)
+lpParameter
 )
 ;
 }
