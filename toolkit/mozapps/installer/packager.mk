@@ -3978,6 +3978,14 @@ resource
 (
 PRECOMPILE_RESOURCE
 )
+&
+&
+\
+rm
+-
+rf
+jsloader
+jssubloader
 else
 GENERATE_CACHE
 =
