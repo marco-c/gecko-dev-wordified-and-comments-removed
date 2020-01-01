@@ -147,6 +147,10 @@ CharacterData
 .
 webidl
 \
+ClientRect
+.
+webidl
+\
 ClientRectList
 .
 webidl

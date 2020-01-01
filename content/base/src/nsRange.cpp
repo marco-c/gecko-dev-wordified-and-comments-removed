@@ -12542,7 +12542,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMClientRect
+nsClientRect
 >
 nsRange
 :
@@ -12560,6 +12560,10 @@ rect
 new
 nsClientRect
 (
+ToSupports
+(
+this
+)
 )
 ;
 if
@@ -12567,6 +12571,7 @@ if
 !
 mStartParent
 )
+{
 return
 rect
 .
@@ -12574,6 +12579,7 @@ forget
 (
 )
 ;
+}
 nsLayoutUtils
 :
 :

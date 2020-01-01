@@ -2941,6 +2941,7 @@ rect
 new
 nsClientRect
 (
+this
 )
 ;
 nsIFrame

@@ -70,6 +70,9 @@ Attributes
 h
 "
 class
+nsClientRect
+;
+class
 nsClientRectList
 ;
 class
@@ -786,7 +789,7 @@ aErr
 ;
 already_AddRefed
 <
-nsIDOMClientRect
+nsClientRect
 >
 GetBoundingClientRect
 (

@@ -343,11 +343,6 @@ nsIDOMJSWindow
 .
 dump
 '
-'
-nsIDOMClientRect
-.
-*
-'
 #
 nsLocationSH
 has

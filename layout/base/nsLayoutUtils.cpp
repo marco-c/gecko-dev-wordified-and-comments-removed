@@ -11446,6 +11446,7 @@ rect
 new
 nsClientRect
 (
+mRectList
 )
 ;
 rect
