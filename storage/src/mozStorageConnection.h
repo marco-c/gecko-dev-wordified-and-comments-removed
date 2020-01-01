@@ -140,6 +140,13 @@ getAsyncExecutionTarget
 Mutex
 sharedAsyncExecutionMutex
 ;
+const
+nsCOMPtr
+<
+nsIThread
+>
+threadOpenedOn
+;
 private
 :
 ~
