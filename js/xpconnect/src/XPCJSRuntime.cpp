@@ -8721,7 +8721,7 @@ rtStats
 return
 NS_ERROR_FAILURE
 ;
-uint64_t
+size_t
 xpconnect
 ;
 {
