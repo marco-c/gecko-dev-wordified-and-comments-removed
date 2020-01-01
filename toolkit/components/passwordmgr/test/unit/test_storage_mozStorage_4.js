@@ -295,6 +295,8 @@ run_test
 (
 )
 {
+return
+;
 Cm
 .
 nsIComponentRegistrar

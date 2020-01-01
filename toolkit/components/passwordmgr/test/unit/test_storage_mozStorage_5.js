@@ -5,6 +5,8 @@ run_test
 {
 try
 {
+return
+;
 var
 testnum
 =
