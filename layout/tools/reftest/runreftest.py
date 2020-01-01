@@ -136,27 +136,11 @@ profileDir
 Sets
 up
 a
-clean
 profile
 for
 reftest
 .
 "
-  
-shutil
-.
-rmtree
-(
-profileDir
-True
-)
-  
-os
-.
-mkdir
-(
-profileDir
-)
   
 prefsFile
 =
@@ -1055,9 +1039,6 @@ finally
     
 if
 profileDir
-is
-not
-None
 :
       
 shutil

@@ -842,6 +842,12 @@ list
 \
 -
 -
+no
+-
+logfiles
+\
+-
+-
 symbols
 -
 path
