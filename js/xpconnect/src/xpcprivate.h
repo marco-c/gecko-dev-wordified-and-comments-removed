@@ -11022,12 +11022,6 @@ XPCWrappedNative
 aWrapper
 )
 ;
-XPCWrappedNative
-*
-GetParentWrapper
-(
-)
-;
 bool
 IsOrphan
 (
