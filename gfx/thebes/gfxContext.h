@@ -1479,6 +1479,16 @@ GetDTTransform
 )
 const
 ;
+void
+PushNewDT
+(
+gfxASurface
+:
+:
+gfxContentType
+content
+)
+;
 bool
 mPathIsRect
 ;
