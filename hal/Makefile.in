@@ -260,6 +260,10 @@ GonkSwitch
 .
 cpp
 \
+GonkFMRadio
+.
+cpp
+\
 (
 NULL
 )
@@ -536,6 +540,10 @@ FallbackScreenPower
 cpp
 \
 FallbackProcessPriority
+.
+cpp
+\
+FallbackFMRadio
 .
 cpp
 \
