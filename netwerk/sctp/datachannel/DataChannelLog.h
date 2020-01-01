@@ -71,6 +71,13 @@ GetDataChannelLog
 (
 )
 ;
+extern
+PRLogModuleInfo
+*
+GetSCTPLog
+(
+)
+;
 #
 endif
 #

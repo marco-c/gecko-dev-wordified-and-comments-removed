@@ -2433,6 +2433,18 @@ tos
 uint8_t
 set_df
 )
+void
+(
+*
+)
+(
+const
+char
+*
+.
+.
+.
+)
 )
 ;
 struct
@@ -2831,7 +2843,7 @@ void
 #
 define
 SCTP_DUMP_OUTBOUND
-0
+1
 #
 define
 SCTP_DUMP_INBOUND
