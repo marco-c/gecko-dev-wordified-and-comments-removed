@@ -30,7 +30,7 @@ Mozilla
 LOCALIZATION
 NOTE
 (
-logoTrademark
+trademarkInfo
 )
 :
 note
@@ -78,7 +78,7 @@ entity
 <
 !
 ENTITY
-logoTrademark
+trademarkInfo
 "
 Firefox
 and
@@ -91,6 +91,18 @@ of
 the
 Mozilla
 Foundation
+.
+Some
+of
+the
+trademarks
+used
+under
+license
+from
+The
+Charlton
+Company
 .
 "
 >
