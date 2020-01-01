@@ -5857,17 +5857,6 @@ jitp
 =
 jit
 ;
-cx
--
->
-runtime
--
->
-mjitDataSize
-+
-=
-dataSize
-;
 return
 Compile_Okay
 ;

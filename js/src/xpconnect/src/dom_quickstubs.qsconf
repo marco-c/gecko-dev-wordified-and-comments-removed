@@ -2263,6 +2263,13 @@ nsIBoxObject
 height
 '
 #
+FileReader
+'
+nsIDOMFileReader
+.
+*
+'
+#
 XHR
 '
 nsIXMLHttpRequest
@@ -2679,6 +2686,13 @@ nsIDOMCanvasPattern
 :
 '
 nsIDOMCanvasRenderingContext2D
+'
+'
+nsIDOMBlob
+'
+:
+'
+nsIDOMFile
 '
 '
 nsIWebGLTexture

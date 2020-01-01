@@ -536,6 +536,10 @@ test_bug664689
 .
 xul
 \
+test_precisegc
+.
+xul
+\
 (
 NULL
 )
