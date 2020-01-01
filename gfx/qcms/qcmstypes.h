@@ -57,6 +57,12 @@ stdlib
 h
 >
 #
+elif
+defined
+(
+__FreeBSD__
+)
+#
 else
 typedef
 PRUptrdiff
