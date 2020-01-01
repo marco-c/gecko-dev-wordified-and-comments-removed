@@ -614,6 +614,14 @@ PRUint64
 aProcessId
 )
 ;
+NotifyRequestNoMessageInList
+(
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 parent
 :
 sync

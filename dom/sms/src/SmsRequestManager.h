@@ -143,6 +143,13 @@ ErrorType
 aError
 )
 ;
+void
+NotifyNoMessageInList
+(
+PRInt32
+aRequestId
+)
+;
 private
 :
 static
