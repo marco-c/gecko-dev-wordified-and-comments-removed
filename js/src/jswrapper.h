@@ -991,16 +991,6 @@ JSObject
 wrapper
 )
 ;
-virtual
-bool
-isCrossCompartment
-(
-)
-{
-return
-true
-;
-}
 static
 JSCrossCompartmentWrapper
 singleton
