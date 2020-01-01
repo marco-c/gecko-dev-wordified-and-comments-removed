@@ -15101,10 +15101,6 @@ mUploadProgressMax
 =
 mUploadProgress
 ;
-mUploadLengthComputable
-=
-true
-;
 }
 if
 (
@@ -15142,10 +15138,6 @@ aFinalProgress
 mLoadTotal
 =
 mLoadTransferred
-;
-mLoadLengthComputable
-=
-true
 ;
 }
 mInLoadProgressEvent
