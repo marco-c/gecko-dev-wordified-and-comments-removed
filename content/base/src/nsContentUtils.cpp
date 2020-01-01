@@ -20587,7 +20587,7 @@ defaultPrevented
 aKeyEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 defaultPrevented

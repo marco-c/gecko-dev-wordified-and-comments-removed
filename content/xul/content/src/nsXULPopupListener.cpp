@@ -647,7 +647,7 @@ preventDefault
 mouseEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 preventDefault

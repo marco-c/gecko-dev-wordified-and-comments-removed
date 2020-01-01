@@ -364,7 +364,7 @@ false
 aKeyEvent
 -
 >
-GetPreventDefault
+GetDefaultPrevented
 (
 &
 eventHandled
