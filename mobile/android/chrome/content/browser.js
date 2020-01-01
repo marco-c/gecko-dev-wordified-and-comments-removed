@@ -1451,12 +1451,6 @@ init
 (
 )
 ;
-WebappsUI
-.
-init
-(
-)
-;
 Cc
 [
 "
@@ -2459,12 +2453,6 @@ uninit
 )
 ;
 SearchEngines
-.
-uninit
-(
-)
-;
-WebappsUI
 .
 uninit
 (
