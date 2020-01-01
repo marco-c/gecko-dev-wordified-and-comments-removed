@@ -5121,7 +5121,15 @@ tmp
 }
 if
 (
-true
+avmplus
+:
+:
+AvmCore
+:
+:
+use_cmov
+(
+)
 )
 {
 return
