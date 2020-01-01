@@ -893,6 +893,9 @@ bool
 terminate
 ;
 bool
+isRootFragment
+;
+bool
 isGlobal
 (
 jsval
@@ -2087,6 +2090,11 @@ getCallDepth
 (
 )
 const
+;
+void
+safeCleanup
+(
+)
 ;
 bool
 record_EnterFrame
