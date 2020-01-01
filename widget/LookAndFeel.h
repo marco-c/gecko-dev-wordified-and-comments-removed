@@ -198,9 +198,6 @@ eIntID_ScrollbarButtonAutoRepeatBehavior
 eIntID_TooltipDelay
 eIntID_SwipeAnimationEnabled
 eIntID_PhysicalHomeButton
-eIntID_ScrollbarDisplayOnMouseMove
-eIntID_ScrollbarFadeBeginDelay
-eIntID_ScrollbarFadeDuration
 }
 ;
 enum
