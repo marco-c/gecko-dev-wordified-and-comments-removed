@@ -16047,14 +16047,6 @@ false
 ;
 xhr
 .
-responseType
-=
-"
-document
-"
-;
-xhr
-.
 send
 (
 )

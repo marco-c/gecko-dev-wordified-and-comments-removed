@@ -1220,6 +1220,15 @@ CurrentItem
 )
 ;
 virtual
+void
+SetCurrentItem
+(
+nsAccessible
+*
+aItem
+)
+;
+virtual
 nsAccessible
 *
 ContainerWidget

@@ -267,10 +267,9 @@ jsbytecode
 *
 pc
 ;
-JSScript
-*
-script
-=
+(
+void
+)
 cx
 -
 >

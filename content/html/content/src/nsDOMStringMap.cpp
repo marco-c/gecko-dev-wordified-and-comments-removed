@@ -48,6 +48,14 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsDOMStringMap
 )
+if
+(
+tmp
+-
+>
+mElement
+)
+{
 tmp
 -
 >
@@ -65,6 +73,7 @@ mElement
 =
 nsnull
 ;
+}
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (

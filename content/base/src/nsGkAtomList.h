@@ -2092,6 +2092,13 @@ end
 )
 GK_ATOM
 (
+endEvent
+"
+endEvent
+"
+)
+GK_ATOM
+(
 end_after
 "
 end_after
@@ -9450,6 +9457,13 @@ GK_ATOM
 begin
 "
 begin
+"
+)
+GK_ATOM
+(
+beginEvent
+"
+beginEvent
 "
 )
 GK_ATOM

@@ -171,6 +171,14 @@ RequestHead
 =
 0
 ;
+virtual
+PRUint32
+Http1xTransactionCount
+(
+)
+=
+0
+;
 }
 ;
 #
@@ -276,6 +284,12 @@ SetSSLConnectFailed
 nsHttpRequestHead
 *
 RequestHead
+(
+)
+;
+\
+PRUint32
+Http1xTransactionCount
 (
 )
 ;

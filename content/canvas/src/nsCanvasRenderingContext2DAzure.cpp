@@ -12510,8 +12510,6 @@ x
 +
 =
 xOffset
-*
-mAppUnitsPerDevPixel
 ;
 if
 (

@@ -26202,10 +26202,6 @@ JSContext
 cx
 )
 {
-VOUCH_DOES_NOT_REQUIRE_STACK
-(
-)
-;
 #
 ifdef
 JS_THREADSAFE

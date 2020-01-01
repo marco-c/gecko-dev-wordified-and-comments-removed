@@ -614,6 +614,9 @@ mCurrentBytesRead
 PRInt64
 mMaxBytesRead
 ;
+PRInt64
+mTotalBytesRead
+;
 nsRefPtr
 <
 nsIAsyncInputStream
@@ -641,6 +644,9 @@ mLastTransactionExpectedNoContent
 bool
 mIdleMonitoring
 ;
+PRUint32
+mHttp1xTransactionCount
+;
 bool
 mNPNComplete
 ;
@@ -667,6 +673,9 @@ mPriority
 ;
 bool
 mReportedSpdy
+;
+bool
+mEverUsedSpdy
 ;
 }
 ;
