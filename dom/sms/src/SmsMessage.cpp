@@ -475,6 +475,9 @@ break
 case
 eDeliveryState_Unknown
 :
+case
+eDeliveryState_EndGuard
+:
 default
 :
 NS_ASSERTION
@@ -486,8 +489,8 @@ shouldn
 '
 t
 get
-an
-unknown
+any
+other
 delivery
 state
 !

@@ -26,6 +26,7 @@ DeliveryState
 eDeliveryState_Sent
 eDeliveryState_Received
 eDeliveryState_Unknown
+eDeliveryState_EndGuard
 }
 ;
 }
@@ -84,7 +85,7 @@ dom
 sms
 :
 :
-eDeliveryState_Unknown
+eDeliveryState_EndGuard
 >
 {
 }
