@@ -529,6 +529,10 @@ FormAutoComplete
 .
 js
 \
+LoginManager
+.
+js
+\
 (
 NULL
 )
