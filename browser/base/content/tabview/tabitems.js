@@ -4085,6 +4085,13 @@ pinned
 )
 return
 ;
+if
+(
+!
+UI
+.
+isDOMWindowClosing
+)
 self
 .
 unlink
