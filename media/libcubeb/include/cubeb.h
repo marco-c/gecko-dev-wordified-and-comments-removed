@@ -127,7 +127,7 @@ nframes
 )
 ;
 typedef
-int
+void
 (
 *
 cubeb_state_callback
@@ -154,6 +154,16 @@ char
 const
 *
 context_name
+)
+;
+char
+const
+*
+cubeb_get_backend_id
+(
+cubeb
+*
+context
 )
 ;
 void
