@@ -490,6 +490,11 @@ server
 .
 stop
 (
+function
+(
+)
+{
+}
 )
 ;
 }

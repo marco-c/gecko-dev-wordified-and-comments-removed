@@ -960,6 +960,11 @@ server
 .
 stop
 (
+function
+(
+)
+{
+}
 )
 ;
 }

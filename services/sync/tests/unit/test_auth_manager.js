@@ -401,6 +401,11 @@ server
 .
 stop
 (
+function
+(
+)
+{
+}
 )
 ;
 }

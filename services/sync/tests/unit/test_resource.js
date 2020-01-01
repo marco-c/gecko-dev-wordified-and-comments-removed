@@ -2984,6 +2984,11 @@ server
 .
 stop
 (
+function
+(
+)
+{
+}
 )
 ;
 }
