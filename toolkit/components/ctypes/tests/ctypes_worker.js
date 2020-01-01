@@ -20,6 +20,11 @@ event
 .
 data
 ;
+if
+(
+false
+)
+{
 importScripts
 (
 "
@@ -33,6 +38,7 @@ run_test
 (
 )
 ;
+}
 postMessage
 (
 "
