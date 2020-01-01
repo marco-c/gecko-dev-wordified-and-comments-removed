@@ -35536,6 +35536,12 @@ sObjectClass
 {
 if
 (
+pi_proto
+!
+=
+my_proto
+&
+&
 !
 :
 :
