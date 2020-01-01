@@ -1981,6 +1981,9 @@ XBM
 Image
 "
 }
+#
+ifdef
+MOZ_WBMP
 {
 IMAGE_WBMP
 "
@@ -1991,6 +1994,8 @@ WBMP
 Image
 "
 }
+#
+endif
 {
 "
 image

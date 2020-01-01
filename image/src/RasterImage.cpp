@@ -190,12 +190,17 @@ nsIconDecoder
 h
 "
 #
+ifdef
+MOZ_WBMP
+#
 include
 "
 nsWBMPDecoder
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -10301,6 +10306,9 @@ this
 ;
 break
 ;
+#
+ifdef
+MOZ_WBMP
 case
 eDecoderType_wbmp
 :
@@ -10315,6 +10323,8 @@ this
 ;
 break
 ;
+#
+endif
 default
 :
 NS_ABORT_IF_FALSE

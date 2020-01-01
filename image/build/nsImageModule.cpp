@@ -670,6 +670,9 @@ factory
 1
 "
 }
+#
+ifdef
+MOZ_WBMP
 {
 "
 Gecko
@@ -695,6 +698,8 @@ factory
 1
 "
 }
+#
+endif
 {
 "
 content

@@ -402,11 +402,13 @@ bug
 #
 WBMP
 tests
+#
 skip
 -
 if
 (
-Android
+!
+B2G
 )
 include
 wbmp
@@ -414,3 +416,6 @@ wbmp
 reftest
 .
 list
+#
+bug
+852053

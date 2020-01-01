@@ -9493,6 +9493,9 @@ IMAGE_ICO
 )
 ;
 }
+#
+ifdef
+MOZ_WBMP
 else
 if
 (
@@ -9548,6 +9551,8 @@ IMAGE_WBMP
 )
 ;
 }
+#
+endif
 else
 {
 return

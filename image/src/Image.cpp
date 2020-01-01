@@ -301,6 +301,9 @@ rv
 =
 eDecoderType_icon
 ;
+#
+ifdef
+MOZ_WBMP
 else
 if
 (
@@ -315,6 +318,8 @@ rv
 =
 eDecoderType_wbmp
 ;
+#
+endif
 return
 rv
 ;
