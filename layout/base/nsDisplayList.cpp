@@ -8895,7 +8895,7 @@ true
 ;
 }
 return
-sMaxLayersCached
+sMaxLayers
 ;
 }
 bool
