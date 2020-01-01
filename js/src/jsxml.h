@@ -539,11 +539,9 @@ xml_flags
 ;
 union
 {
-struct
 JSXMLListVar
 list
 ;
-struct
 JSXMLElemVar
 elem
 ;
