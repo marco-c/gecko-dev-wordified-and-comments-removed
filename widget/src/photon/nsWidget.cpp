@@ -1755,6 +1755,11 @@ Ph_CURSOR_DRAG_HORIZONTAL
 ;
 break
 ;
+case
+eCursor_none
+:
+break
+;
 default
 :
 NS_ASSERTION
