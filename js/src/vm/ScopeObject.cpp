@@ -1760,6 +1760,14 @@ InitialHeap
 heap
 )
 {
+JS_ASSERT
+(
+IsNurseryAllocable
+(
+FINALIZE_KIND
+)
+)
+;
 RootedTypeObject
 type
 (
