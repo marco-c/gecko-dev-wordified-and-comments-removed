@@ -897,6 +897,10 @@ nsWindow
 }
 #
 endif
+PR_Now
+(
+)
+;
 sMetroApp
 =
 Make
