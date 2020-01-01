@@ -375,6 +375,16 @@ none
 ;
 }
 #
+editBMPanel_tagsField
+#
+treecolAutoCompleteValue
+{
+visibility
+:
+collapse
+;
+}
+#
 editBMPanel_folderMenuList
 [
 selectedIndex
