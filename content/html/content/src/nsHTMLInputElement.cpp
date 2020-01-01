@@ -276,13 +276,6 @@ h
 #
 include
 "
-nsIDOMNSEvent
-.
-h
-"
-#
-include
-"
 nsIDOMNodeList
 .
 h

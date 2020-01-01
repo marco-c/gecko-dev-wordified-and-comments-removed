@@ -727,7 +727,7 @@ Components
 .
 interfaces
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 SHIFT_MASK
 ;

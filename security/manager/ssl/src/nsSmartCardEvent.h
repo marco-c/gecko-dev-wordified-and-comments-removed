@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIDOMNSEvent
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -51,8 +44,6 @@ nsSmartCardEvent
 :
 public
 nsIDOMSmartCardEvent
-public
-nsIDOMNSEvent
 {
 public
 :
@@ -71,9 +62,8 @@ nsSmartCardEvent
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIDOMSMARTCARDEVENT
-NS_DECL_NSIDOMNSEVENT
 NS_DECL_NSIDOMEVENT
+NS_DECL_NSIDOMSMARTCARDEVENT
 protected
 :
 nsCOMPtr
@@ -81,12 +71,6 @@ nsCOMPtr
 nsIDOMEvent
 >
 mInner
-;
-nsCOMPtr
-<
-nsIDOMNSEvent
->
-mNSEvent
 ;
 nsString
 mTokenName

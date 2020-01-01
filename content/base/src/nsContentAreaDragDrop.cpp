@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMNSEvent
-.
-h
-"
-#
-include
-"
 nsIDOMDragEvent
 .
 h
