@@ -464,7 +464,14 @@ _STATIC_FILES
 (
 INSTALL
 )
+(
+foreach
+f
 ^
+"
+f
+"
+)
 (
 DEPTH
 )

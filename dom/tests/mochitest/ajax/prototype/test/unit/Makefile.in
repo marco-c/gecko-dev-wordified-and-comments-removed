@@ -523,7 +523,14 @@ _TEST_FILES
 (
 INSTALL
 )
+(
+foreach
+f
 ^
+"
+f
+"
+)
 (
 DEPTH
 )

@@ -526,7 +526,14 @@ _JS_FILES
 (
 INSTALL
 )
+(
+foreach
+f
 ^
+"
+f
+"
+)
 (
 DEPTH
 )

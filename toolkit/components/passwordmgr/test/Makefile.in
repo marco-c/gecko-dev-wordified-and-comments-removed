@@ -568,7 +568,14 @@ MOCHI_TESTS
 (
 INSTALL
 )
+(
+foreach
+f
 ^
+"
+f
+"
+)
 (
 DEPTH
 )
