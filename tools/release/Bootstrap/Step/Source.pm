@@ -361,7 +361,7 @@ catfile
 (
 logDir
 '
-source_checkout
+source
 .
 log
 '
@@ -419,7 +419,7 @@ catfile
 (
 logDir
 '
-source_make
+source
 .
 log
 '
@@ -544,7 +544,7 @@ catfile
 (
 logDir
 '
-source_tar
+source
 .
 log
 '
