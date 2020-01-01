@@ -9683,7 +9683,7 @@ return
 PR_FALSE
 ;
 }
-PRBool
+PRInt32
 skipNavigatingDisabledMenuItem
 =
 PR_TRUE

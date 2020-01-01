@@ -587,7 +587,7 @@ DeviceContext
 (
 )
 ;
-PRBool
+PRInt32
 dropdownCanOverlapOSBar
 =
 PR_FALSE

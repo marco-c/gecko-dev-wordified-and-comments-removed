@@ -531,7 +531,7 @@ PresContext
 (
 )
 ;
-PRBool
+PRInt32
 tempBool
 ;
 presContext

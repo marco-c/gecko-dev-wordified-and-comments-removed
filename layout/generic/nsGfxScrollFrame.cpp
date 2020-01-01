@@ -6157,7 +6157,7 @@ mShouldBuildLayer
 PR_FALSE
 )
 {
-PRBool
+PRInt32
 canOverlap
 ;
 nsPresContext
