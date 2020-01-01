@@ -469,6 +469,7 @@ in
 "
 (
 cd
+"
 (
 dirname
 "
@@ -477,6 +478,7 @@ dirname
 1
 "
 )
+"
 &
 &
 pwd
@@ -553,6 +555,7 @@ in
 "
 (
 cd
+"
 (
 dirname
 "
@@ -561,6 +564,7 @@ dirname
 1
 "
 )
+"
 &
 &
 pwd
