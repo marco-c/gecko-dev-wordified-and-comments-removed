@@ -4202,6 +4202,9 @@ ExecuteAttachedHandler
 ;
 if
 (
+mBoundElement
+&
+&
 AllowScripts
 (
 )
