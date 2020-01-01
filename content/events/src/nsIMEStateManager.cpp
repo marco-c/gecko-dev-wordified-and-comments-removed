@@ -1480,11 +1480,17 @@ go
 "
 )
 :
+formElement
+?
 NS_LITERAL_STRING
 (
 "
 next
 "
+)
+:
+EmptyString
+(
 )
 )
 ;
