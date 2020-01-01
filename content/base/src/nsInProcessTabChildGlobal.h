@@ -458,9 +458,12 @@ nsFrameMessageManager
 *
 mChromeMessageManager
 ;
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIRunnable
+>
 >
 mASyncMessages
 ;
