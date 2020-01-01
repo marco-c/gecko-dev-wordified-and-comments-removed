@@ -1599,8 +1599,6 @@ rv
 =
 DeleteSelectionAndPrepareToCreateNode
 (
-parentNode
-offsetOfNewNode
 )
 ;
 NS_ENSURE_SUCCESS
