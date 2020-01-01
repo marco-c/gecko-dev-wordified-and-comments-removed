@@ -1619,7 +1619,7 @@ label
 "
 social
 .
-marklink
+marklinkMenu
 .
 label
 "
@@ -1642,7 +1642,7 @@ label
 "
 social
 .
-markpage
+markpageMenu
 .
 label
 "
