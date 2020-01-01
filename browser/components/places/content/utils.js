@@ -4994,6 +4994,16 @@ AllBookmarks
 =
 itemId
 ;
+PlacesUtils
+.
+bookmarks
+.
+setFolderReadonly
+(
+allBookmarksId
+true
+)
+;
 uri
 =
 PlacesUtils
