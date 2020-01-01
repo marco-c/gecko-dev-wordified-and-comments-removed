@@ -167,11 +167,7 @@ NamedConstructor
 =
 Audio
 (
-)
-NamedConstructor
-=
-Audio
-(
+optional
 DOMString
 src
 )
