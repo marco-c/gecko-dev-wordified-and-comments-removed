@@ -2170,7 +2170,7 @@ scrollAnim_stop
 {
 window
 .
-mozCancelRequestAnimationFrame
+mozCancelAnimationFrame
 (
 this
 .
@@ -4680,7 +4680,7 @@ arrowSmoothScroll_stop
 {
 window
 .
-mozCancelRequestAnimationFrame
+mozCancelAnimationFrame
 (
 this
 .
