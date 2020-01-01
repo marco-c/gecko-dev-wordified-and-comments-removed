@@ -337,6 +337,11 @@ size_t
 length
 )
 ;
+void
+qcms_enable_iccv4
+(
+)
+;
 #
 ifdef
 __cplusplus
