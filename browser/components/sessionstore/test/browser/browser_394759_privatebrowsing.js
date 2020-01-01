@@ -570,6 +570,8 @@ function
 (
 )
 {
+pbWin
+.
 gBrowser
 .
 removeEventListener
@@ -583,6 +585,8 @@ callee
 true
 )
 ;
+pbWin
+.
 gBrowser
 .
 addTab
