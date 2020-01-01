@@ -673,3 +673,17 @@ JSRuntime
 1
 1
 )
+BUILTIN2
+(
+EqualStrings
+LO
+LO
+LO
+bool
+JSString
+*
+JSString
+*
+1
+1
+)
