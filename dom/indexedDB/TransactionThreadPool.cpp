@@ -132,6 +132,10 @@ writing
 (
 false
 )
+writerWaiting
+(
+false
+)
 {
 }
 nsString
@@ -139,6 +143,9 @@ objectStoreName
 ;
 bool
 writing
+;
+bool
+writerWaiting
 ;
 }
 ;
@@ -1188,7 +1195,6 @@ transactionIndex
 +
 )
 {
-const
 TransactionInfo
 &
 transactionInfo
@@ -1222,7 +1228,6 @@ return
 true
 ;
 }
-const
 nsTArray
 <
 TransactionObjectStoreInfo
@@ -1259,7 +1264,6 @@ objectStoreIndex
 +
 )
 {
-const
 TransactionObjectStoreInfo
 &
 objectStoreInfo
@@ -1293,6 +1297,12 @@ nsIIDBTransaction
 READ_WRITE
 :
 {
+objectStoreInfo
+.
+writerWaiting
+=
+true
+;
 return
 false
 ;
@@ -1309,6 +1319,11 @@ if
 objectStoreInfo
 .
 writing
+|
+|
+objectStoreInfo
+.
+writerWaiting
 )
 {
 return

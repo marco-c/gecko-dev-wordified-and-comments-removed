@@ -530,8 +530,6 @@ ai_object_data
 "
 id
 INTEGER
-PRIMARY
-KEY
 "
 "
 object_store_id
@@ -544,6 +542,13 @@ data
 TEXT
 NOT
 NULL
+"
+"
+PRIMARY
+KEY
+(
+id
+)
 "
 "
 FOREIGN
