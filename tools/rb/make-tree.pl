@@ -1047,15 +1047,6 @@ main
 read
 loop
 .
-/
-=
-'
-\
-r
-\
-n
-'
-;
 sub
 read_data
 (
