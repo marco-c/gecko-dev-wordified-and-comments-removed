@@ -1116,12 +1116,10 @@ value
 )
 ;
 inline
-const
 js
 :
 :
 Value
-&
 getSlotMT
 (
 JSContext
