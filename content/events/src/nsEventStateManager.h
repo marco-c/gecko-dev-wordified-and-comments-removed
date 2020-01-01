@@ -883,6 +883,10 @@ aEvent
 ;
 enum
 Action
+MOZ_ENUM_TYPE
+(
+uint8_t
+)
 {
 ACTION_NONE
 =
@@ -1058,6 +1062,12 @@ COUNT_OF_MULTIPLIERS
 ;
 Action
 mActions
+[
+COUNT_OF_MULTIPLIERS
+]
+;
+Action
+mOverriddenActionsX
 [
 COUNT_OF_MULTIPLIERS
 ]
