@@ -190,10 +190,6 @@ nsIContentIterator
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsresult
 NS_NewContentIterator
 (
@@ -205,6 +201,10 @@ aInstancePtrResult
 ;
 #
 endif
+using
+namespace
+mozilla
+;
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION
 (
 nsSVGTranslatePoint
