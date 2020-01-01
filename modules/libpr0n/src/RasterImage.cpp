@@ -9941,6 +9941,15 @@ image
 mBytesDecoded
 ;
 }
+if
+(
+!
+image
+-
+>
+mHasBeenDecoded
+)
+{
 image
 -
 >
@@ -9965,6 +9974,7 @@ mInDecoder
 =
 PR_FALSE
 ;
+}
 if
 (
 image
