@@ -475,6 +475,10 @@ test_0_bug510634
 .
 xul
 \
+test_bug549192
+.
+xul
+\
 (
 NULL
 )
