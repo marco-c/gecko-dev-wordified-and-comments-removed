@@ -1501,13 +1501,6 @@ OnPaintImageDDraw16
 ;
 #
 endif
-#
-if
-!
-defined
-(
-WINCE_WINDOWS_MOBILE
-)
 PRBool
 OnMouseWheel
 (
@@ -1556,8 +1549,6 @@ ULONG
 ulScrollLines
 )
 ;
-#
-endif
 #
 if
 !
