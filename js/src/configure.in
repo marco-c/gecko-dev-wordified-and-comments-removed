@@ -10363,6 +10363,9 @@ mingw
 OS_ARCH
 =
 WINNT
+OS_TARGET
+=
+WINNT
 ;
 ;
 darwin
