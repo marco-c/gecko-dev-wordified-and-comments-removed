@@ -55442,15 +55442,6 @@ fi
 MOZ_DEBUG
 =
 )
-if
-test
-MOZ_PLATFORM_MAEMO
-;
-then
-MOZ_DEBUG
-=
-1
-fi
 MOZ_DEBUG_ENABLE_DEFS
 =
 "
@@ -59982,9 +59973,6 @@ PKG_SKIP_STRIP
 =
 1
 )
-PKG_SKIP_STRIP
-=
-1
 dnl
 =
 =
