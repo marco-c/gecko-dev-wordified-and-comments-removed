@@ -2829,7 +2829,7 @@ code
 IonCode
 :
 :
-offsetOfCode
+OffsetOfCode
 (
 )
 )

@@ -1260,11 +1260,10 @@ movl
 Operand
 (
 eax
-IonScript
-:
-:
-offsetOfMethod
+offsetof
 (
+IonScript
+method_
 )
 )
 eax
@@ -1280,7 +1279,7 @@ eax
 IonCode
 :
 :
-offsetOfCode
+OffsetOfCode
 (
 )
 )

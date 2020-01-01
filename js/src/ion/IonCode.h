@@ -357,7 +357,7 @@ code
 }
 static
 size_t
-offsetOfCode
+OffsetOfCode
 (
 )
 {
@@ -456,8 +456,6 @@ IonCache
 struct
 IonScript
 {
-private
-:
 HeapPtr
 <
 IonCode
@@ -549,16 +547,14 @@ scriptEntries_
 size_t
 refcount_
 ;
+uint32
+slowCallCount
+;
 types
 :
 :
 RecompileInfo
 recompileInfo_
-;
-public
-:
-uint32
-slowCallCount
 ;
 SnapshotOffset
 *
