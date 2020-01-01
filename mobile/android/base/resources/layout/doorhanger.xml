@@ -152,12 +152,9 @@ android
 textColor
 =
 "
-?
-android
-:
-attr
+color
 /
-textColorPrimary
+doorhanger_text
 "
 android
 :
