@@ -2474,6 +2474,11 @@ navigator
 -
 toolbox
 "
+type
+=
+"
+drag
+"
 class
 =
 "
