@@ -233,7 +233,7 @@ nsIContentSink
 )
 NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )
@@ -354,16 +354,6 @@ IsFormOnStack
 {
 return
 PR_FALSE
-;
-}
-NS_IMETHOD
-WillProcessTokens
-(
-void
-)
-{
-return
-NS_OK
 ;
 }
 NS_IMETHOD

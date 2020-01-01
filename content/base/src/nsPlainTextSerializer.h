@@ -249,7 +249,7 @@ aStr
 )
 ;
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )

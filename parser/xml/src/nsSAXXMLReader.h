@@ -151,7 +151,7 @@ nsSAXXMLReader
 )
 ;
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 )
 {

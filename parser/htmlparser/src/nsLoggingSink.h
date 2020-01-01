@@ -66,7 +66,7 @@ mSink
 }
 NS_DECL_ISUPPORTS
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 )
 ;
@@ -250,16 +250,6 @@ PRInt32
 aPosition
 )
 ;
-NS_IMETHOD
-WillProcessTokens
-(
-void
-)
-{
-return
-NS_OK
-;
-}
 NS_IMETHOD
 DidProcessTokens
 (

@@ -1058,7 +1058,7 @@ aIsImportDefaults
 ;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 )
 {
@@ -1192,15 +1192,6 @@ aReturn
 =
 PR_TRUE
 ;
-return
-NS_OK
-;
-}
-NS_IMETHOD
-WillProcessTokens
-(
-)
-{
 return
 NS_OK
 ;

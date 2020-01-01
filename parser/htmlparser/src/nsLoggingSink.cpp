@@ -264,7 +264,7 @@ NS_IMETHODIMP
 nsLoggingSink
 :
 :
-WillTokenize
+WillParse
 (
 )
 {

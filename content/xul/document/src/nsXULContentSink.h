@@ -94,7 +94,7 @@ XULContentSinkImpl
 NS_DECL_ISUPPORTS
 NS_DECL_NSIEXPATSINK
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )

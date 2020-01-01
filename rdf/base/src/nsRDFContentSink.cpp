@@ -318,7 +318,7 @@ RDFContentSinkImpl
 NS_DECL_ISUPPORTS
 NS_DECL_NSIEXPATSINK
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )
@@ -2224,7 +2224,7 @@ NS_IMETHODIMP
 RDFContentSinkImpl
 :
 :
-WillTokenize
+WillParse
 (
 void
 )

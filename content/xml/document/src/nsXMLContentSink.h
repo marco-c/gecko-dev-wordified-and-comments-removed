@@ -151,7 +151,7 @@ nsContentSink
 )
 NS_DECL_NSIEXPATSINK
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )
