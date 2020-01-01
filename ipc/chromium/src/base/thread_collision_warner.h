@@ -40,6 +40,7 @@ base
 :
 ThreadCollisionWarner
 obj
+;
 #
 define
 DFAKE_SCOPED_LOCK

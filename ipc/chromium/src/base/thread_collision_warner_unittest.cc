@@ -85,6 +85,7 @@ base
 AsserterBase
 >
 obj
+;
 #
 define
 EXPECT_NDEBUG_FALSE_DEBUG_TRUE
@@ -492,7 +493,6 @@ DFAKE_MUTEX
 (
 push_pop_
 )
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 NonThreadSafeQueue
@@ -713,7 +713,6 @@ DFAKE_MUTEX
 (
 push_pop_
 )
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 NonThreadSafeQueue
@@ -934,7 +933,6 @@ DFAKE_MUTEX
 (
 push_pop_
 )
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 NonThreadSafeQueue
@@ -1200,7 +1198,6 @@ DFAKE_MUTEX
 (
 push_pop_
 )
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 NonThreadSafeQueue

@@ -69,7 +69,6 @@ DFAKE_MUTEX
 (
 add_release_
 )
-;
 DISALLOW_COPY_AND_ASSIGN
 (
 RefCountedBase

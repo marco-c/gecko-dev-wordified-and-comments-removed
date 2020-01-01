@@ -455,7 +455,6 @@ DFAKE_MUTEX
 (
 locked_methods_
 )
-;
 }
 ;
 TEST_F
