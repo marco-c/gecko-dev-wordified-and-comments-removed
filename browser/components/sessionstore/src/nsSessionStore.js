@@ -12232,6 +12232,11 @@ __SS_restoreState
 =
 TAB_STATE_NEEDS_RESTORE
 ;
+delete
+tab
+.
+__SS_extdata
+;
 if
 (
 !
