@@ -434,7 +434,7 @@ nsICookieManager2
 ;
 #
 ifdef
-MOZ_CRASH_REPORTER
+MOZ_CRASHREPORTER
 XPCOMUtils
 .
 defineLazyServiceGetter
@@ -18368,7 +18368,7 @@ aWindow
 {
 #
 ifdef
-MOZ_CRASH_REPORTER
+MOZ_CRASHREPORTER
 try
 {
 var
