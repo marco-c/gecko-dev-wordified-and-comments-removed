@@ -708,6 +708,12 @@ mSrc
 nsCSSValue
 mUnicodeRange
 ;
+nsCSSValue
+mFontFeatureSettings
+;
+nsCSSValue
+mFontLanguageOverride
+;
 static
 nsCSSValue
 nsCSSFontFaceStyleDecl

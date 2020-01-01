@@ -201,6 +201,12 @@ aFont
 .
 familyNameQuirks
 printerFont
+aFont
+.
+featureSettings
+aFont
+.
+languageOverride
 )
 ;
 mFontGroup

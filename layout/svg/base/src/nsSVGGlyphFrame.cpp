@@ -6526,6 +6526,12 @@ font
 .
 familyNameQuirks
 printerFont
+font
+.
+featureSettings
+font
+.
+languageOverride
 )
 ;
 nsRefPtr

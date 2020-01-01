@@ -1030,6 +1030,12 @@ mSizeAdjust
 nsCSSValue
 mStretch
 ;
+nsCSSValue
+mFontFeatureSettings
+;
+nsCSSValue
+mFontLanguageOverride
+;
 #
 ifdef
 MOZ_MATHML
