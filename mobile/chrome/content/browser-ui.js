@@ -1914,11 +1914,6 @@ dpi
 =
 Util
 .
-getWindowUtils
-(
-window
-)
-.
 displayDPI
 ;
 return
