@@ -133,16 +133,6 @@ aTotal
 0
 ;
 NS_IMETHOD
-GetDeadSpaceValue
-(
-nscoord
-*
-aValue
-)
-=
-0
-;
-NS_IMETHOD
 GetSTFPercent
 (
 float
