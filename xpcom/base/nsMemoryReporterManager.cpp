@@ -4706,6 +4706,7 @@ NS_OK
 }
 class
 DumpMultiReporterCallback
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporterCallback
