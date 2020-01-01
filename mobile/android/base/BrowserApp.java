@@ -2770,6 +2770,10 @@ updateForwardButton
 false
 )
 ;
+mToolbarHeight
+=
+0
+;
 (
 (
 BrowserToolbarLayout
