@@ -3045,9 +3045,9 @@ button
 class
 =
 "
-toolbarbutton
+bookmark
 -
-1
+item
 chromeclass
 -
 toolbar
@@ -4680,9 +4680,6 @@ button
 stop
 -
 button
-home
--
-button
 urlbar
 -
 container
@@ -4709,9 +4706,6 @@ reload
 -
 button
 stop
--
-button
-home
 -
 button
 urlbar
@@ -4960,6 +4954,9 @@ menu
 defaultset
 =
 "
+home
+-
+button
 personal
 -
 bookmarks
