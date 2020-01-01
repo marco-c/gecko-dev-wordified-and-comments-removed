@@ -455,6 +455,12 @@ ml
 "
 ml
 "
+safeseh
+=
+"
+-
+safeseh
+"
 output
 =
 while
@@ -528,6 +534,8 @@ x86_amd64
 /
 ml64
 "
+safeseh
+=
 shift
 1
 ;
@@ -1153,7 +1161,6 @@ args
 "
 -
 nologo
--
 safeseh
 single
 output
