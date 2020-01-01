@@ -1344,6 +1344,16 @@ aTime
 aIndex
 )
 {
+if
+(
+aIndex
+<
+0
+)
+return
+"
+"
+;
 return
 PluralForm
 .
