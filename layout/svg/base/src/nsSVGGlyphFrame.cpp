@@ -4473,11 +4473,6 @@ MoveTo
 (
 x
 y
--
-GetBaselineOffset
-(
-metricsScale
-)
 )
 ;
 gfxFloat
