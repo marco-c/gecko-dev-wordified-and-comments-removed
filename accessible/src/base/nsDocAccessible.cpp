@@ -2508,6 +2508,11 @@ return
 NS_OK
 ;
 }
+if
+(
+mEventQueue
+)
+{
 mEventQueue
 -
 >
@@ -2519,6 +2524,7 @@ mEventQueue
 =
 nsnull
 ;
+}
 nsCOMPtr
 <
 nsIDocShellTreeItem
