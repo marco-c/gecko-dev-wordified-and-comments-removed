@@ -519,6 +519,15 @@ gravity
 "
 center
 "
+android
+:
+listSelector
+=
+"
+drawable
+/
+action_bar_button
+"
 /
 >
 <

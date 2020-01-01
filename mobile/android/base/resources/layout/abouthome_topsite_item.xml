@@ -122,15 +122,6 @@ paddingTop
 "
 4dip
 "
-android
-:
-background
-=
-"
-drawable
-/
-action_bar_button
-"
 >
 <
 ImageView
