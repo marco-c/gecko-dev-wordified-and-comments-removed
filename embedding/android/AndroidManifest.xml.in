@@ -69,6 +69,13 @@ versionName
 "
 MOZ_APP_VERSION
 "
+android
+:
+sharedUserId
+=
+"
+MOZ_ANDROID_SHARED_ID
+"
 >
 <
 uses
