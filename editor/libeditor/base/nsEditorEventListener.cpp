@@ -1197,6 +1197,14 @@ mEditor
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+nsCOMPtr
+<
+nsIEditor
+>
+kungFuDeathGrip
+=
+mEditor
+;
 nsAutoString
 eventType
 ;
