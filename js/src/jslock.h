@@ -1131,15 +1131,6 @@ JSContext
 cx
 )
 ;
-extern
-void
-js_NudgeOtherContexts
-(
-JSContext
-*
-cx
-)
-;
 #
 ifdef
 DEBUG
