@@ -10414,15 +10414,7 @@ HasTransform
 NS_UpdateHint
 (
 hint
-NS_CombineHint
-(
-nsChangeHint_AddOrRemoveTransform
-NS_CombineHint
-(
-nsChangeHint_UpdateOverflow
-nsChangeHint_RepaintFrame
-)
-)
+nsChangeHint_ReconstructFrame
 )
 ;
 }
@@ -10626,8 +10618,6 @@ nsChangeHint_UpdateOpacityLayer
 nsChangeHint_UpdateTransformLayer
 |
 nsChangeHint_UpdateOverflow
-|
-nsChangeHint_AddOrRemoveTransform
 )
 ;
 }

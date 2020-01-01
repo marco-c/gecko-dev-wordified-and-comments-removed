@@ -56,9 +56,6 @@ nsChangeHint_ChildrenOnlyTransform
 nsChangeHint_RecomputePosition
 =
 0x2000
-nsChangeHint_AddOrRemoveTransform
-=
-0x4000
 nsChangeHint_NonInherited_Hints
 =
 nsChangeHint_UpdateTransformLayer
@@ -72,8 +69,6 @@ nsChangeHint_UpdateOverflow
 nsChangeHint_ChildrenOnlyTransform
 |
 nsChangeHint_RecomputePosition
-|
-nsChangeHint_AddOrRemoveTransform
 }
 ;
 inline
