@@ -329,13 +329,6 @@ LayerRenderer
 view
 )
 ;
-view
-.
-setLayerRenderer
-(
-mLayerRenderer
-)
-;
 }
 public
 boolean
