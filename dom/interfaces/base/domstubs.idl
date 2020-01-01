@@ -169,9 +169,6 @@ interface
 nsIDOMDOMStringList
 ;
 interface
-nsIDOMDOMTokenList
-;
-interface
 nsIDOMClientRect
 ;
 interface

@@ -238,13 +238,6 @@ h
 #
 include
 "
-nsIDOMDOMTokenList
-.
-h
-"
-#
-include
-"
 nsEvent
 .
 h
@@ -2870,7 +2863,7 @@ aResult
 void
 GetClassList
 (
-nsIDOMDOMTokenList
+nsISupports
 *
 *
 aClassList
@@ -4011,7 +4004,7 @@ NS_OK
 NS_IMETHOD
 GetClassList
 (
-nsIDOMDOMTokenList
+nsISupports
 *
 *
 aClassList

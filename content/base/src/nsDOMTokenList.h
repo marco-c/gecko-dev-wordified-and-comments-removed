@@ -7,13 +7,6 @@ nsDOMTokenList_h___
 #
 include
 "
-nsIDOMDOMTokenList
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -56,7 +49,7 @@ class
 nsDOMTokenList
 :
 public
-nsIDOMDOMTokenList
+nsISupports
 public
 nsWrapperCache
 {
@@ -79,7 +72,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsDOMTokenList
 )
-NS_DECL_NSIDOMDOMTOKENLIST
 nsDOMTokenList
 (
 Element

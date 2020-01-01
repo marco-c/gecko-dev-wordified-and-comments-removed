@@ -60,14 +60,6 @@ DOMException
 )
 DOMCI_CLASS
 (
-DOMTokenList
-)
-DOMCI_CLASS
-(
-DOMSettableTokenList
-)
-DOMCI_CLASS
-(
 DocumentFragment
 )
 DOMCI_CLASS

@@ -845,7 +845,7 @@ nsHTMLOutputElement
 :
 GetHtmlFor
 (
-nsIDOMDOMSettableTokenList
+nsISupports
 *
 *
 aResult

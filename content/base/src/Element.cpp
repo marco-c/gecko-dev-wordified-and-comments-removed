@@ -2081,7 +2081,7 @@ Element
 :
 GetClassList
 (
-nsIDOMDOMTokenList
+nsISupports
 *
 *
 aClassList

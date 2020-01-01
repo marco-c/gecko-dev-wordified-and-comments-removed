@@ -161,9 +161,6 @@ UNDER_DEVELOPMENT
 *
 /
 interface
-nsIDOMDOMSettableTokenList
-;
-interface
 nsIDOMValidityState
 ;
 [
@@ -186,9 +183,12 @@ nsIDOMHTMLOutputElement
 :
 nsIDOMHTMLElement
 {
+/
+/
+DOMSettableTokenList
 readonly
 attribute
-nsIDOMDOMSettableTokenList
+nsISupports
 htmlFor
 ;
 readonly
