@@ -5895,6 +5895,8 @@ nsIAsyncOutputStream
 *
 *
 outstream
+PRBool
+isBackup
 )
 {
 nsresult
@@ -6068,6 +6070,18 @@ nsISocketTransport
 :
 :
 ANONYMOUS_CONNECT
+;
+if
+(
+isBackup
+)
+tmpFlags
+|
+=
+nsISocketTransport
+:
+:
+DISABLE_IPV6
 ;
 socketTransport
 -
@@ -6271,6 +6285,7 @@ getter_AddRefs
 (
 mStreamOut
 )
+PR_FALSE
 )
 ;
 LOG
@@ -6378,6 +6393,7 @@ getter_AddRefs
 (
 mBackupStreamOut
 )
+PR_TRUE
 )
 ;
 LOG

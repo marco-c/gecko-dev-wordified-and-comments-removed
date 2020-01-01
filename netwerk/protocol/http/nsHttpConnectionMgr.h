@@ -386,6 +386,8 @@ nsIAsyncInputStream
 nsIAsyncOutputStream
 *
 *
+PRBool
+isBackup
 )
 ;
 nsresult

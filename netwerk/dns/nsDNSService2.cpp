@@ -1714,6 +1714,7 @@ GetAFForLookup
 (
 *
 hostPtr
+flags
 )
 ;
 nsDNSAsyncRequest
@@ -1928,6 +1929,7 @@ GetAFForLookup
 (
 *
 hostPtr
+flags
 )
 ;
 rv
@@ -2157,11 +2159,20 @@ const
 nsACString
 &
 host
+PRUint32
+flags
 )
 {
 if
 (
 mDisableIPv6
+|
+|
+(
+flags
+&
+RESOLVE_DISABLE_IPV6
+)
 )
 return
 PR_AF_INET
