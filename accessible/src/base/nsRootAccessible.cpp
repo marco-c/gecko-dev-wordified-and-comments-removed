@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsApplicationAccessibleWrap
-.
-h
-"
-#
-include
-"
 nsAccUtils
 .
 h

@@ -441,6 +441,10 @@ NULL
 EXPORTS
 =
 \
+ApplicationAccessibleWrap
+.
+h
+\
 ARIAGridAccessibleWrap
 .
 h
@@ -486,10 +490,6 @@ nsHTMLImageAccessibleWrap
 h
 \
 nsHTMLTableAccessibleWrap
-.
-h
-\
-nsApplicationAccessibleWrap
 .
 h
 \

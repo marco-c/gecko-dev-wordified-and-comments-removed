@@ -5,13 +5,6 @@ nsAccessNodeWrap
 .
 h
 "
-#
-include
-"
-nsApplicationAccessibleWrap
-.
-h
-"
 nsAccessNodeWrap
 :
 :

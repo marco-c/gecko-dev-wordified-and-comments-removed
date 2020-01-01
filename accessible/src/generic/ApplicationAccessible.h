@@ -1,9 +1,9 @@
 #
 ifndef
-__NS_APPLICATION_ACCESSIBLE_H__
+MOZILLA_A11Y_APPLICATION_ACCESSIBLE_H__
 #
 define
-__NS_APPLICATION_ACCESSIBLE_H__
+MOZILLA_A11Y_APPLICATION_ACCESSIBLE_H__
 #
 include
 "
@@ -33,7 +33,7 @@ nsIXULAppInfo
 h
 "
 class
-nsApplicationAccessible
+ApplicationAccessible
 :
 public
 nsAccessibleWrap
@@ -42,7 +42,7 @@ nsIAccessibleApplication
 {
 public
 :
-nsApplicationAccessible
+ApplicationAccessible
 (
 )
 ;

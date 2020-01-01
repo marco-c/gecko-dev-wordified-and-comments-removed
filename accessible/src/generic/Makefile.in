@@ -94,6 +94,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+ApplicationAccessible
+.
+cpp
+\
 ARIAGridAccessible
 .
 cpp

@@ -443,7 +443,7 @@ nsRootAccessibleWrap
 .
 cpp
 \
-nsApplicationAccessibleWrap
+ApplicationAccessibleWrap
 .
 cpp
 \
