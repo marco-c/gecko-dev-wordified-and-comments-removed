@@ -3498,6 +3498,13 @@ frame
 )
 )
 ;
+mInstanceOwner
+-
+>
+CallSetWindow
+(
+)
+;
 }
 NotifyContentObjectWrapper
 (
