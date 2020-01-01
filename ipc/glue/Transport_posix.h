@@ -8,7 +8,7 @@ mozilla_ipc_Transport_posix_h
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

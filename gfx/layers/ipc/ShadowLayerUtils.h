@@ -7,7 +7,7 @@ IPC_ShadowLayerUtils_h
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

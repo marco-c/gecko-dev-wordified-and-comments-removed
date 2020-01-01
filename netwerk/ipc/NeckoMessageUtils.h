@@ -7,7 +7,7 @@ mozilla_net_NeckoMessageUtils_h
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

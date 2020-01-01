@@ -7,7 +7,7 @@ TABMESSAGE_UTILS_H
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

@@ -7,7 +7,7 @@ mozilla_dom_ScreenOrientation_h
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .
