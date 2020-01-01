@@ -193,6 +193,7 @@ eMetric_IMERawInputUnderlineStyle
 eMetric_IMESelectedRawTextUnderlineStyle
 eMetric_IMEConvertedTextUnderlineStyle
 eMetric_IMESelectedConvertedTextUnderline
+eMetric_ImagesInMenus
 }
 nsMetricID
 ;

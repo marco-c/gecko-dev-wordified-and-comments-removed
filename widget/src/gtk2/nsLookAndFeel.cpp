@@ -1868,6 +1868,17 @@ NS_UNDERLINE_STYLE_NONE
 ;
 break
 ;
+case
+eMetric_ImagesInMenus
+:
+aMetric
+=
+moz_gtk_images_in_menus
+(
+)
+;
+break
+;
 default
 :
 aMetric
