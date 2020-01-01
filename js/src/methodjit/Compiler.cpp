@@ -6842,15 +6842,6 @@ inlineIndex
 .
 depth
 ;
-uint32_t
-slot
-=
-LocalSlot
-(
-script_
-i
-)
-;
 Address
 local
 (
