@@ -3180,6 +3180,11 @@ update
 .
 manifest
 '
+'
+removed
+-
+files
+'
 ]
 [
 '
