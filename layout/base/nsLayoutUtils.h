@@ -3009,6 +3009,12 @@ AnimatedImageLayersEnabled
 )
 ;
 static
+bool
+CSSFiltersEnabled
+(
+)
+;
+static
 void
 UnionChildOverflow
 (
