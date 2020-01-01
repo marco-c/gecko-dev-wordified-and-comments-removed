@@ -123,6 +123,10 @@ friend
 class
 IndexedDatabaseManager
 ;
+friend
+class
+IndexedDBDatabaseChild
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
@@ -298,6 +302,11 @@ ExitSetVersionTransaction
 (
 )
 ;
+void
+RevertToPreviousState
+(
+)
+;
 FileManager
 *
 Manager
@@ -423,6 +432,12 @@ nsRefPtr
 DatabaseInfo
 >
 mDatabaseInfo
+;
+nsRefPtr
+<
+DatabaseInfo
+>
+mPreviousDatabaseInfo
 ;
 nsCOMPtr
 <

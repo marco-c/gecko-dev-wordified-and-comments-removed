@@ -653,6 +653,14 @@ IDBCursor
 _retval
 )
 ;
+void
+SetInfo
+(
+ObjectStoreInfo
+*
+aInfo
+)
+;
 static
 JSClass
 sDummyPropJSClass
