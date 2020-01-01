@@ -2282,11 +2282,8 @@ h
 snapshot_fn
 0
 NULL
+&
 ss
-.
-address
-(
-)
 )
 &
 &
