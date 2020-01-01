@@ -680,6 +680,13 @@ float
 aMetricsScale
 )
 ;
+PRUint32
+GetTextRunFlags
+(
+PRUint32
+strLength
+)
+;
 void
 AddCharactersToPath
 (
