@@ -9849,7 +9849,7 @@ role
 nsIAccessibleRole
 :
 :
-ROLE_OUTLINEITEM
+ROLE_GROUPING
 )
 +
 +
