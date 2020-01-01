@@ -845,6 +845,10 @@ mParser
 =
 this
 ;
+mCharsetSource
+=
+kCharsetFromOtherComponent
+;
 break
 ;
 default
