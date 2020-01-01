@@ -9,6 +9,10 @@ NPP
 .
 ipdl
 \
+NPObject
+.
+ipdl
+\
 (
 NULL
 )
