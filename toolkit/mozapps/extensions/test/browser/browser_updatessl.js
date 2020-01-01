@@ -361,7 +361,6 @@ callback
 function
 run_next_update_test
 (
-pos
 )
 {
 if
@@ -503,6 +502,15 @@ updates
 .
 length
 1
+"
+Should
+be
+the
+right
+number
+of
+results
+"
 )
 ;
 is
