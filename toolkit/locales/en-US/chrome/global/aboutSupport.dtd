@@ -234,6 +234,17 @@ Reports
 ENTITY
 aboutSupport
 .
+appBasicsMemoryUse
+"
+Memory
+Use
+"
+>
+<
+!
+ENTITY
+aboutSupport
+.
 show
 .
 label
