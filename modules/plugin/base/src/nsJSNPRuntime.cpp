@@ -5079,7 +5079,6 @@ npp
 JSBool
 hasProperty
 =
-!
 npobj
 -
 >
