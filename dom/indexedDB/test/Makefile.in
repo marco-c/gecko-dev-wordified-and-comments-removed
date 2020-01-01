@@ -543,10 +543,6 @@ test_key_requirements
 .
 html
 \
-test_null_keys
-.
-html
-\
 test_objectCursors
 .
 html
