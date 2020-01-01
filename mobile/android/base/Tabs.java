@@ -746,12 +746,6 @@ run
 (
 )
 {
-mActivity
-.
-hideFormAssistPopup
-(
-)
-;
 if
 (
 isSelectedTab
