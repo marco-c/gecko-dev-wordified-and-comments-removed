@@ -62,9 +62,9 @@ type
 struct
 nsNativeKeyEvent
 {
-nsEvent
+nsKeyEvent
 *
-nativeEvent
+mGeckoEvent
 ;
 uint32_t
 keyCode

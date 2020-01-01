@@ -1078,16 +1078,9 @@ nsKeyEvent
 *
 nativeKeyEvent
 =
-static_cast
-<
-nsKeyEvent
-*
->
-(
 aEvent
 .
-nativeEvent
-)
+mGeckoEvent
 ;
 if
 (
