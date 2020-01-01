@@ -1149,6 +1149,10 @@ const
 class
 DebugScopes
 {
+JSRuntime
+*
+rt
+;
 typedef
 WeakMap
 <
@@ -1164,8 +1168,10 @@ typedef
 HashMap
 <
 ScopeIter
+ReadBarriered
+<
 DebugScopeObject
-*
+>
 ScopeIter
 RuntimeAllocPolicy
 >
@@ -1223,9 +1229,6 @@ trc
 void
 sweep
 (
-JSRuntime
-*
-rt
 )
 ;
 DebugScopeObject
