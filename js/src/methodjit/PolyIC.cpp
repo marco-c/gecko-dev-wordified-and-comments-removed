@@ -10440,6 +10440,12 @@ v
 isUndefined
 (
 )
+&
+&
+pic
+-
+>
+usePropCache
 )
 f
 .
