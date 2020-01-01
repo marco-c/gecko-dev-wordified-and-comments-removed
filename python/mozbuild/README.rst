@@ -65,14 +65,3 @@ managing
 compiler
 warnings
 .
-*
-mozbuild
-.
-testing
--
--
-Interfaces
-for
-running
-tests
-.
