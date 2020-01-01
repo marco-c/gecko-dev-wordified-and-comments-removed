@@ -2752,6 +2752,10 @@ void
 *
 rpAtLastTreeCall
 ;
+VMSideExit
+*
+outermostTreeExitGuard
+;
 TreeInfo
 *
 outermostTree

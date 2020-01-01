@@ -12769,7 +12769,7 @@ JSTraceType
 typeMap
 VMSideExit
 *
-innermostNestedGuard
+innermost
 jsbytecode
 *
 outer
@@ -13825,11 +13825,11 @@ state
 offsetof
 (
 InterpState
-lastTreeExitGuard
+outermostTreeExitGuard
 )
 )
 "
-lastTreeExitGuard
+outermostTreeExitGuard
 "
 )
 ;
@@ -13845,7 +13845,7 @@ LIR_peq
 nested_ins
 INS_CONSTPTR
 (
-innermostNestedGuard
+innermost
 )
 )
 NESTED_EXIT
