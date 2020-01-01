@@ -26075,8 +26075,11 @@ mozAutoRemovableBlockerRemover
 nsIDocument
 *
 aDocument
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 mNestingLevel
 =
 nsContentUtils
