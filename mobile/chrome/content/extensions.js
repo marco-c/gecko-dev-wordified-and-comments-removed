@@ -1061,6 +1061,14 @@ hideOptions
 )
 ;
 }
+this
+.
+_list
+.
+ensureSelectedElementIsVisible
+(
+)
+;
 }
 get
 visible
