@@ -9,6 +9,10 @@ nsStringBuffer
 {
 private
 :
+friend
+class
+CheckStaticAtomSizes
+;
 PRInt32
 mRefCount
 ;

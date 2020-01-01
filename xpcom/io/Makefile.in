@@ -620,6 +620,10 @@ nsDirectoryService
 .
 h
 \
+nsDirectoryServiceAtomList
+.
+h
+\
 nsEscape
 .
 h

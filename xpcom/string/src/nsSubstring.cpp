@@ -74,6 +74,13 @@ prprf
 .
 h
 "
+#
+include
+"
+nsStaticAtom
+.
+h
+"
 static
 PRUnichar
 gNullChar
