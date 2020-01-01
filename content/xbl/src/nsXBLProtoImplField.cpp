@@ -1275,11 +1275,8 @@ JS_SetPropertyById
 cx
 thisObj
 id
+&
 v
-.
-address
-(
-)
 )
 )
 {
