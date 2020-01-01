@@ -4351,17 +4351,6 @@ removeAllRanges
 )
 ;
 }
-controller
-.
-setDisplaySelection
-(
-this
-.
-nsISelectionController
-.
-SELECTION_ON
-)
-;
 }
 return
 textFound
