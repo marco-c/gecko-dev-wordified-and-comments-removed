@@ -813,6 +813,14 @@ contents
 NULL
 )
 ;
+bool
+uninlineData
+(
+JSContext
+*
+cx
+)
+;
 inline
 uint32_t
 byteLength
