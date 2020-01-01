@@ -2602,6 +2602,16 @@ static
 bool
 sAllowD3D9
 ;
+static
+TriStateBool
+sHasBogusPopupsDropShadowOnMultiMonitor
+;
+static
+bool
+HasBogusPopupsDropShadowOnMultiMonitor
+(
+)
+;
 #
 ifdef
 MOZ_IPC
