@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsICaret
-.
-h
-"
-#
-include
-"
 nsCSSPseudoElements
 .
 h

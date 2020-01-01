@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "

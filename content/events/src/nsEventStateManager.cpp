@@ -496,7 +496,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -4978,9 +4978,9 @@ if
 presShell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -21905,9 +21905,9 @@ newCaretFrame
 newCaretContent
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -21934,7 +21934,7 @@ caret
 >
 GetCaretCoordinates
 (
-nsICaret
+nsCaret
 :
 :
 eClosestViewCoordinates
@@ -22974,9 +22974,9 @@ PRBool
 aEnabled
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -23059,9 +23059,9 @@ PRBool
 aVisible
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;

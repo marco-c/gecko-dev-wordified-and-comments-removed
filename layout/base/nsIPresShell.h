@@ -120,7 +120,7 @@ class
 nsStringArray
 ;
 class
-nsICaret
+nsCaret
 ;
 class
 nsStyleContext
@@ -916,7 +916,7 @@ outValue
 NS_IMETHOD
 GetCaret
 (
-nsICaret
+nsCaret
 *
 *
 aOutCaret
@@ -938,7 +938,7 @@ virtual
 void
 SetCaret
 (
-nsICaret
+nsCaret
 *
 aNewCaret
 )

@@ -516,6 +516,10 @@ nsBidiPresUtils
 .
 h
 \
+nsCaret
+.
+h
+\
 nsCSSFrameConstructor
 .
 h
@@ -541,10 +545,6 @@ nsFrameManagerBase
 h
 \
 nsFrameTraversal
-.
-h
-\
-nsICaret
 .
 h
 \

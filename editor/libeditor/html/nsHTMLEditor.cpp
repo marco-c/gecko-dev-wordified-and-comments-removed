@@ -1,13 +1,6 @@
 #
 include
 "
-nsICaret
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h

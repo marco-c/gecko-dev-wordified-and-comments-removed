@@ -56,7 +56,7 @@ class
 nsQueryContentEvent
 ;
 class
-nsICaret
+nsCaret
 ;
 struct
 nsRect
@@ -213,7 +213,7 @@ aEvent
 nsIRange
 *
 aRange
-nsICaret
+nsCaret
 *
 aCaret
 )

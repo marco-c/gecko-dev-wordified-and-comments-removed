@@ -288,7 +288,7 @@ h
 #
 include
 "
-nsICaret
+nsCaret
 .
 h
 "
@@ -3418,9 +3418,9 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -3503,7 +3503,7 @@ caret
 >
 GetCaretCoordinates
 (
-nsICaret
+nsCaret
 :
 :
 eClosestViewCoordinates
@@ -11103,9 +11103,9 @@ domSel
 )
 return
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -11148,7 +11148,7 @@ caret
 >
 GetCaretCoordinates
 (
-nsICaret
+nsCaret
 :
 :
 eClosestViewCoordinates
@@ -20527,9 +20527,9 @@ if
 aVisual
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;
@@ -30213,9 +30213,9 @@ presShell
 return
 result
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICaret
+nsCaret
 >
 caret
 ;

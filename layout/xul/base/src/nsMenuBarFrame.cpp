@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsICaret
-.
-h
-"
-#
-include
-"
 nsIFocusController
 .
 h
