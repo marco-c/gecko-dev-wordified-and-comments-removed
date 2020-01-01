@@ -3260,9 +3260,7 @@ selectItems
 [
 insertedNodeId
 ]
-ip
-.
-itemId
+false
 )
 ;
 }
@@ -3339,6 +3337,7 @@ selectItems
 [
 insertedNodeId
 ]
+false
 )
 ;
 }
@@ -3421,6 +3420,7 @@ selectItems
 [
 insertedNodeId
 ]
+false
 )
 ;
 }
@@ -5513,6 +5513,7 @@ _view
 selectItems
 (
 insertedNodeIds
+false
 )
 ;
 }
