@@ -880,16 +880,9 @@ entry
 mScriptTypeID
 ;
 return
-static_cast
-<
-JSScript
-*
->
-(
 entry
 .
 mScriptObject
-)
 ;
 }
 static
@@ -954,7 +947,7 @@ nsIURI
 aURI
 PRUint32
 aLangID
-void
+JSScript
 *
 aScriptObject
 )
