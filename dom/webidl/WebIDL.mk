@@ -443,6 +443,10 @@ SVGAnimatedNumberList
 .
 webidl
 \
+SVGAnimatedPoints
+.
+webidl
+\
 SVGAnimatedPreserveAspectRatio
 .
 webidl
@@ -516,6 +520,14 @@ SVGPoint
 webidl
 \
 SVGPointList
+.
+webidl
+\
+SVGPolygonElement
+.
+webidl
+\
+SVGPolylineElement
 .
 webidl
 \

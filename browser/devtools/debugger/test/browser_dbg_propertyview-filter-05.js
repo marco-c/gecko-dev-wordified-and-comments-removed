@@ -295,12 +295,12 @@ match
 )
 .
 length
-5
+6
 "
 There
 should
 be
-5
+6
 variables
 displayed
 in
