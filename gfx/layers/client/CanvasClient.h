@@ -413,9 +413,6 @@ DeprecatedTextureClient
 >
 mDeprecatedTextureClient
 ;
-bool
-mNeedsUpdate
-;
 }
 ;
 }
