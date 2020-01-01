@@ -262,6 +262,13 @@ operand
 isEffectiveAddress
 (
 )
+|
+|
+operand
+.
+isFloatAddress
+(
+)
 )
 {
 if
