@@ -38,6 +38,14 @@ gfxASurface
 .
 h
 "
+#
+ifdef
+MOZ_WIDGET_GONK
+#
+define
+MOZ_HAVE_SURFACEDESCRIPTORGRALLOC
+#
+endif
 class
 gfxSharedImageSurface
 ;
