@@ -2582,6 +2582,7 @@ LocaleToUnicode
 JSContext
 *
 cx
+const
 char
 *
 src
