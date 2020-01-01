@@ -471,6 +471,17 @@ readonly
 )
 ;
 }
+PRBool
+IsSubmenu
+(
+nsIFrame
+*
+aFrame
+PRBool
+*
+aLeftOfParent
+)
+;
 nsIPresShell
 *
 GetPresShell
