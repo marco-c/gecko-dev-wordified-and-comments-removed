@@ -95,7 +95,7 @@ OS_TARGET
 VISIBILITY_FLAGS
 =
 endif
-CSRCS
+DISABLED_CSRCS
 =
 \
 nestegg

@@ -84,7 +84,7 @@ FORCE_SHARED_LIB
 NO_DIST_INSTALL
 =
 1
-CSRCS
+DISABLED_CSRCS
 =
 dummy_replace_malloc
 .

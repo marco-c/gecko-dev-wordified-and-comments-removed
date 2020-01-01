@@ -128,3 +128,13 @@ nsStackWalk
 cpp
 '
 ]
+CSRCS
++
+=
+[
+'
+strcpy
+.
+c
+'
+]

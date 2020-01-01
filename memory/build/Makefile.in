@@ -99,7 +99,7 @@ DEFINES
 =
 -
 DMOZ_MEMORY_IMPL
-CSRCS
+DISABLED_CSRCS
 =
 \
 mozmemory_wrap
@@ -115,7 +115,7 @@ NULL
 )
 ifdef
 MOZ_JEMALLOC3
-CSRCS
+DISABLED_CSRCS
 +
 =
 mozjemalloc_compat
@@ -197,7 +197,7 @@ DEFINES
 =
 -
 DMOZ_REPLACE_MALLOC
-CSRCS
+DISABLED_CSRCS
 +
 =
 replace_malloc

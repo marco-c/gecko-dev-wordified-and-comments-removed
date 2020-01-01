@@ -88,7 +88,7 @@ OS_TARGET
 VISIBILITY_FLAGS
 =
 endif
-CSRCS
+DISABLED_CSRCS
 =
 kiss_fft
 .

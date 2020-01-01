@@ -78,7 +78,7 @@ autoconf
 mk
 ifndef
 MOZ_JEMALLOC3
-CSRCS
+DISABLED_CSRCS
 =
 jemalloc
 .

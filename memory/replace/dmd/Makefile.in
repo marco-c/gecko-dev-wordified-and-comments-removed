@@ -111,7 +111,7 @@ lib
 libc
 /
 src
-CSRCS
+DISABLED_CSRCS
 +
 =
 strcpy

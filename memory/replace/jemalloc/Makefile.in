@@ -152,7 +152,7 @@ topsrcdir
 memory
 /
 build
-CSRCS
+DISABLED_CSRCS
 =
 \
 mozjemalloc_compat
@@ -230,7 +230,7 @@ MOZ_WIDGET_TOOLKIT
 )
 android
 )
-CSRCS
+DISABLED_CSRCS
 +
 =
 pthread_atfork

@@ -96,7 +96,7 @@ WINNT
 VISIBILITY_FLAGS
 =
 endif
-CSRCS
+DISABLED_CSRCS
 =
 \
 png
@@ -136,7 +136,7 @@ reading
 /
 writing
 PNGs
-CSRCS
+DISABLED_CSRCS
 +
 =
 \

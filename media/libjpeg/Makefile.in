@@ -93,7 +93,7 @@ WINNT
 VISIBILITY_FLAGS
 =
 endif
-CSRCS
+DISABLED_CSRCS
 =
 \
 jcomapi
@@ -231,7 +231,7 @@ support
 for
 writing
 JPEGs
-CSRCS
+DISABLED_CSRCS
 +
 =
 \
@@ -358,7 +358,7 @@ LIBJPEG_TURBO_X64_ASM
 LIBJPEG_TURBO_ARM_ASM
 )
 )
-CSRCS
+DISABLED_CSRCS
 +
 =
 jsimd_none
@@ -372,7 +372,7 @@ ifeq
 LIBJPEG_TURBO_ARM_ASM
 )
 )
-CSRCS
+DISABLED_CSRCS
 +
 =
 simd
@@ -396,7 +396,7 @@ ifeq
 LIBJPEG_TURBO_X64_ASM
 )
 )
-CSRCS
+DISABLED_CSRCS
 +
 =
 simd
@@ -539,7 +539,7 @@ ifeq
 LIBJPEG_TURBO_X86_ASM
 )
 )
-CSRCS
+DISABLED_CSRCS
 +
 =
 simd

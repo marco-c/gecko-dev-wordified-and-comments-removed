@@ -101,7 +101,7 @@ DIST_INSTALL
 =
 1
 endif
-CSRCS
+DISABLED_CSRCS
 :
 =
 (
@@ -150,7 +150,7 @@ MOZ_REPLACE_MALLOC
 )
 Darwin
 )
-CSRCS
+DISABLED_CSRCS
 :
 =
 (
