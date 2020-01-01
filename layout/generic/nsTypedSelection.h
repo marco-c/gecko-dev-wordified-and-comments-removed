@@ -342,6 +342,11 @@ GetFocusOffset
 (
 )
 ;
+bool
+IsCollapsed
+(
+)
+;
 const
 nsRange
 *
