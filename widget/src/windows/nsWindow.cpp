@@ -387,7 +387,7 @@ h
 #
 include
 <
-Richedit
+richedit
 .
 h
 >
@@ -402,9 +402,9 @@ ACCESSIBILITY
 #
 include
 "
-OLEIDL
+oleidl
 .
-H
+h
 "
 #
 include
