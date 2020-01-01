@@ -1268,7 +1268,7 @@ AvmCore
 Register
 nRegisterAllocFromSet
 (
-int32_t
+RegisterMask
 set
 )
 ;
