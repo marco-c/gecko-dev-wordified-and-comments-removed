@@ -419,12 +419,6 @@ closedVars
 uint16_t
 typesetCount
 ;
-const
-bool
-needScriptGlobal
-:
-1
-;
 bool
 hasSingletons
 :
@@ -451,8 +445,6 @@ JSScript
 script
 unsigned
 lineno
-bool
-needScriptGlobal
 )
 ;
 bool

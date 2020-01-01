@@ -443,6 +443,7 @@ NULL
 NULL
 false
 true
+NULL
 JSVERSION_DEFAULT
 0
 )
