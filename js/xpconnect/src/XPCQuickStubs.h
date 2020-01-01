@@ -1041,9 +1041,6 @@ ppThisRef
 jsval
 *
 vp
-XPCLazyCallContext
-*
-lccx
 )
 ;
 template
@@ -1074,9 +1071,6 @@ pThisRef
 jsval
 *
 pThisVal
-XPCLazyCallContext
-*
-lccx
 bool
 failureFatal
 =
@@ -1148,7 +1142,6 @@ ppThis
 )
 pThisRef
 pThisVal
-lccx
 )
 ;
 if
@@ -1207,9 +1200,6 @@ pRef
 jsval
 *
 pVal
-XPCLazyCallContext
-*
-lccx
 nsresult
 *
 rv
@@ -1530,7 +1520,6 @@ protoID
 protoDepth
 pArgRef
 vp
-nullptr
 rv
 )
 ;
