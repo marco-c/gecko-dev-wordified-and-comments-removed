@@ -7600,6 +7600,14 @@ nextMsg
 .
 body
 ;
+threadRecord
+.
+lastMessageType
+=
+nextMsg
+.
+type
+;
 if
 (
 DEBUG
