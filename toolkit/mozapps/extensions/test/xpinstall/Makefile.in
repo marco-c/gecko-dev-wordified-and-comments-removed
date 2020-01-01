@@ -656,6 +656,10 @@ browser_bug638292
 .
 js
 \
+browser_bug645699
+.
+js
+\
 unsigned
 .
 xpi
@@ -761,6 +765,10 @@ bug540558
 html
 \
 bug638292
+.
+html
+\
+bug645699
 .
 html
 \
