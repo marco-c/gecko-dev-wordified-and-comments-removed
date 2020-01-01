@@ -51,11 +51,9 @@ modules
 /
 commonjs
 /
-sdk
+promise
 /
 core
-/
-promise
 .
 js
 "
@@ -611,7 +609,9 @@ SUBMISSION_NOTIFY_INTERVAL_MSEC
 1000
 IMPLICIT_ACCEPTANCE_INTERVAL_MSEC
 :
-5
+8
+*
+60
 *
 60
 *
