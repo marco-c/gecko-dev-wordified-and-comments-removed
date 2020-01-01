@@ -449,6 +449,11 @@ jsm
 )
 ;
 var
+handleDroppedLink
+=
+null
+;
+var
 XULBrowserWindow
 =
 {

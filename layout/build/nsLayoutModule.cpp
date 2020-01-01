@@ -2348,10 +2348,6 @@ nsWyciwygProtocolHandler
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsContentAreaDragDrop
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
 nsDataDocumentContentPolicy
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -5187,16 +5183,6 @@ NS_NETWORK_PROTOCOL_CONTRACTID_PREFIX
 wyciwyg
 "
 nsWyciwygProtocolHandlerConstructor
-}
-{
-"
-Content
-Area
-DragDrop
-"
-NS_CONTENTAREADRAGDROP_CID
-NS_CONTENTAREADRAGDROP_CONTRACTID
-nsContentAreaDragDropConstructor
 }
 {
 "

@@ -835,6 +835,10 @@ contentSecurityPolicy
 .
 js
 \
+contentAreaDropListener
+.
+js
+\
 (
 NULL
 )

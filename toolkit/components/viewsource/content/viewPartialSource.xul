@@ -2255,17 +2255,6 @@ flex
 "
 1
 "
-ondrop
-=
-"
-contentAreaDNDObserver
-.
-drop
-(
-event
-)
-;
-"
 >
 <
 browser

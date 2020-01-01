@@ -161,7 +161,7 @@ h
 #
 include
 "
-nsIDragDropHandler
+nsIDroppedLinkHandler
 .
 h
 "
@@ -238,6 +238,8 @@ nsIInterfaceRequestor
 public
 nsIWebProgressListener
 public
+nsIDOMEventListener
+public
 nsICDocShellTreeOwner
 public
 nsSupportsWeakReference
@@ -255,6 +257,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIBASEWINDOW
 NS_DECL_NSIDOCSHELLTREEOWNER
+NS_DECL_NSIDOMEVENTLISTENER
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWEBPROGRESSLISTENER
 protected
@@ -408,12 +411,6 @@ mChromeTooltipListener
 ChromeContextMenuListener
 *
 mChromeContextMenuListener
-;
-nsCOMPtr
-<
-nsIDragDropHandler
->
-mChromeDragHandler
 ;
 nsCOMPtr
 <

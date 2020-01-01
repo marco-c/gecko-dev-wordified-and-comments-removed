@@ -8559,6 +8559,12 @@ this
 .
 fastFind
 ;
+b
+.
+droppedLinkHandler
+=
+handleDroppedLink
+;
 var
 uniqueId
 =
@@ -15472,6 +15478,14 @@ _autoScrollPopup
 .
 id
 )
+;
+this
+.
+mCurrentBrowser
+.
+droppedLinkHandler
+=
+handleDroppedLink
 ;
 ]
 ]
