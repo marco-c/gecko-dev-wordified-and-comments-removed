@@ -3634,6 +3634,13 @@ return
 JS_FALSE
 ;
 }
+shape
+=
+wp
+-
+>
+shape
+;
 JSBool
 ok
 =
