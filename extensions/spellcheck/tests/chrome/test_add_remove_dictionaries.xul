@@ -143,6 +143,12 @@ waitForExplicitFinish
 (
 )
 ;
+SimpleTest
+.
+ignoreAllUncaughtExceptions
+(
+)
+;
 function
 getMisspelledWords
 (

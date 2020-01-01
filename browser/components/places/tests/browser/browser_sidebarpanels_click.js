@@ -7,6 +7,10 @@ waitForExplicitFinish
 (
 )
 ;
+ignoreAllUncaughtExceptions
+(
+)
+;
 const
 BOOKMARKS_SIDEBAR_ID
 =
