@@ -5206,13 +5206,13 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+void
 nsHTMLTableAccessible
 :
 :
-GetDescription
+Description
 (
-nsAString
+nsString
 &
 aDescription
 )
@@ -5226,7 +5226,7 @@ Truncate
 nsAccessible
 :
 :
-GetDescription
+Description
 (
 aDescription
 )
@@ -5240,11 +5240,8 @@ IsEmpty
 (
 )
 )
-{
 return
-NS_OK
 ;
-}
 nsCOMPtr
 <
 nsIAccessible
@@ -5307,7 +5304,6 @@ if
 (
 captionContent
 )
-{
 nsTextEquivUtils
 :
 :
@@ -5319,7 +5315,6 @@ captionContent
 aDescription
 )
 ;
-}
 }
 #
 ifdef
@@ -5375,9 +5370,6 @@ get
 endif
 #
 endif
-return
-NS_OK
-;
 }
 PRBool
 nsHTMLTableAccessible

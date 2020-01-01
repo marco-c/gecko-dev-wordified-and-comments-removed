@@ -244,6 +244,15 @@ Shutdown
 (
 )
 ;
+virtual
+void
+Description
+(
+nsString
+&
+aDescription
+)
+;
 nsresult
 GetARIAName
 (

@@ -29,10 +29,11 @@ nsIWeakReference
 aShell
 )
 ;
-NS_IMETHOD
-GetDescription
+virtual
+void
+Description
 (
-nsAString
+nsString
 &
 aDescription
 )

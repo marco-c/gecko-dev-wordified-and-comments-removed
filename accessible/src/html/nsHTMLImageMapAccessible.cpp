@@ -447,13 +447,13 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsHTMLAreaAccessible
 :
 :
-GetDescription
+Description
 (
-nsAString
+nsString
 &
 aDescription
 )
@@ -487,9 +487,6 @@ GetShape
 (
 aDescription
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

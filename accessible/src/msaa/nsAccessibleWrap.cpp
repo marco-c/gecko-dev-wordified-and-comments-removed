@@ -1293,6 +1293,14 @@ if
 (
 !
 xpAccessible
+|
+|
+xpAccessible
+-
+>
+IsDefunct
+(
+)
 )
 return
 E_FAIL
@@ -1303,7 +1311,7 @@ description
 xpAccessible
 -
 >
-GetDescription
+Description
 (
 description
 )
