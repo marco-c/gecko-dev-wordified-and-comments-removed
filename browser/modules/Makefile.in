@@ -92,10 +92,6 @@ test
 EXTRA_JS_MODULES
 =
 \
-AboutHomeUtils
-.
-jsm
-\
 BrowserNewTabPreloader
 .
 jsm
