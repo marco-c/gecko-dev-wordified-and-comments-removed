@@ -194,6 +194,15 @@ s
 )
 :
 #
+Shawn
+Wilsher
+<
+me
+shawnwilsher
+.
+com
+>
+#
 #
 Alternatively
 the
@@ -840,6 +849,10 @@ COMPONENT_LIBS
 +
 =
 storagecomps
+EXTRA_DSO_LIBS
++
+=
+sqlite3
 endif
 ifdef
 MOZ_PLACES
