@@ -8388,14 +8388,6 @@ droppedLinkHandler
 =
 handleDroppedLink
 ;
-this
-.
-tabContainer
-.
-adjustTabstrip
-(
-)
-;
 /
 /
 Dispatch
@@ -19689,6 +19681,12 @@ parentNode
 this
 )
 return
+;
+this
+.
+adjustTabstrip
+(
+)
 ;
 if
 (
