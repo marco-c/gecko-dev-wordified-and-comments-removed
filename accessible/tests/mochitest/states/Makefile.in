@@ -160,6 +160,10 @@ test_visibility
 .
 html
 \
+test_visibility
+.
+xul
+\
 z_frames
 .
 html
