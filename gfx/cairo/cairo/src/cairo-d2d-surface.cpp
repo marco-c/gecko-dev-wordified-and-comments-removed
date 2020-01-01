@@ -10732,7 +10732,10 @@ hr
 )
 {
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 }
 d2dsurf
@@ -10779,10 +10782,10 @@ hr
 )
 {
 return
+_cairo_error
 (
-cairo_status_t
+CAIRO_STATUS_NO_DEVICE
 )
-CAIRO_INT_STATUS_UNSUPPORTED
 ;
 }
 *
@@ -11111,7 +11114,10 @@ hr
 )
 {
 return
+_cairo_error
+(
 CAIRO_STATUS_NO_MEMORY
+)
 ;
 }
 d2dsurf
@@ -11158,10 +11164,10 @@ hr
 )
 {
 return
+_cairo_error
 (
-cairo_status_t
+CAIRO_STATUS_NO_DEVICE
 )
-CAIRO_INT_STATUS_UNSUPPORTED
 ;
 }
 *
