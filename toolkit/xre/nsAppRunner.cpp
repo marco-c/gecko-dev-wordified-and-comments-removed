@@ -13384,6 +13384,9 @@ GetAppDir
 updRoot
 gRestartArgc
 gRestartArgv
+appData
+.
+version
 )
 ;
 #
