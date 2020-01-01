@@ -1125,16 +1125,6 @@ nsGUIEvent
 event
 )
 ;
-void
-LiveResizeStarted
-(
-)
-;
-void
-LiveResizeEnded
-(
-)
-;
 #
 ifdef
 ACCESSIBILITY
@@ -1322,9 +1312,6 @@ mVisible
 ;
 PRPackedBool
 mDrawing
-;
-PRPackedBool
-mLiveResizeInProgress
 ;
 PRPackedBool
 mIsPluginView
