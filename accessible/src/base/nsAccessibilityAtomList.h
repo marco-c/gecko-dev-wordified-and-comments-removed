@@ -855,6 +855,13 @@ value
 )
 ACCESSIBILITY_ATOM
 (
+checkable
+"
+checkable
+"
+)
+ACCESSIBILITY_ATOM
+(
 display
 "
 display
