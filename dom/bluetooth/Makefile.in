@@ -243,6 +243,10 @@ nsIDOMBluetoothDeviceEvent
 .
 idl
 \
+nsIDOMBluetoothDeviceAddressEvent
+.
+idl
+\
 nsIDOMBluetoothPropertyEvent
 .
 idl
