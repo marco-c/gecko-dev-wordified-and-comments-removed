@@ -123,6 +123,14 @@ bih
 )
 ;
 PRInt32
+ExtractBIHSizeFromBitmap
+(
+PRInt8
+*
+bih
+)
+;
+PRInt32
 ExtractBPPFromBitmap
 (
 PRInt8
