@@ -11756,7 +11756,7 @@ ScopedFramebufferTexture
 >
 {
 friend
-class
+struct
 ScopedGLWrapper
 <
 ScopedFramebufferTexture
@@ -11971,7 +11971,7 @@ ScopedGLState
 >
 {
 friend
-class
+struct
 ScopedGLWrapper
 <
 ScopedGLState
@@ -12113,7 +12113,7 @@ ScopedFramebufferBinding
 >
 {
 friend
-class
+struct
 ScopedGLWrapper
 <
 ScopedFramebufferBinding
