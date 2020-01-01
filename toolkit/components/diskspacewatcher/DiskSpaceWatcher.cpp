@@ -406,6 +406,14 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+XP_WIN
+#
+undef
+GetFreeSpace
+#
+endif
 NS_IMETHODIMP
 DiskSpaceWatcher
 :
