@@ -965,6 +965,13 @@ engine
 ]
 )
 ;
+if
+(
+!
+gSearchEngine
+)
+return
+;
 let
 searchEngineInfo
 =
