@@ -1772,6 +1772,9 @@ JSOP_ARGUMENTS
 case
 JSOP_FUNAPPLY
 :
+case
+JSOP_CALLEE
+:
 isJaegerInlineable
 =
 false
