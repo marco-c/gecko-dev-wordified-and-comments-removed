@@ -286,13 +286,11 @@ limit
 {
 if
 (
-0
-=
-=
+!
 ref
 -
 >
-getLockCount
+isLocked
 (
 )
 &
@@ -950,7 +948,7 @@ data
 =
 %
 d
-locks
+locked
 =
 %
 d
@@ -1004,7 +1002,7 @@ getLength
 ref
 -
 >
-getLockCount
+isLocked
 (
 )
 ref

@@ -199,6 +199,7 @@ fDevice
 getResources
 (
 resourceObjects
+true
 )
 ;
 }

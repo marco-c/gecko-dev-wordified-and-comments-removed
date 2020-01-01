@@ -21,7 +21,7 @@ h
 "
 #
 if
-SK_ARM_ARCH
+__ARM_ARCH__
 >
 =
 6
@@ -1982,7 +1982,7 @@ kIndex8_Config
 :
 #
 if
-SK_ARM_ARCH
+__ARM_ARCH__
 >
 =
 6

@@ -45,6 +45,7 @@ SkBitmap
 class
 SkStream
 ;
+SK_API
 CGImageRef
 SkCreateCGImageRefWithColorspace
 (
@@ -97,6 +98,13 @@ stream
 SkBitmap
 *
 output
+)
+;
+CGDataProviderRef
+SkCreateDataProviderFromStream
+(
+SkStream
+*
 )
 ;
 #

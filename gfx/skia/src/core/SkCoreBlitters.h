@@ -447,6 +447,12 @@ SkBlitRow
 ColorProc
 fColor32Proc
 ;
+SkBlitRow
+:
+:
+ColorRectProc
+fColorRect32Proc
+;
 private
 :
 unsigned

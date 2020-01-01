@@ -1222,9 +1222,10 @@ h
 define
 kMinStringBufferSize
 128
-static
-SkMutex
+SK_DECLARE_STATIC_MUTEX
+(
 gNamedSinkMutex
+)
 ;
 static
 SkTDict

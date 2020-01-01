@@ -21,6 +21,10 @@ public
 :
 SkNWayCanvas
 (
+int
+width
+int
+height
 )
 ;
 virtual

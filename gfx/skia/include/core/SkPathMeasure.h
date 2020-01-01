@@ -60,6 +60,7 @@ getLength
 )
 ;
 bool
+SK_WARN_UNUSED_RESULT
 getPosTan
 (
 SkScalar
@@ -89,6 +90,7 @@ kGetTangent_MatrixFlag
 }
 ;
 bool
+SK_WARN_UNUSED_RESULT
 getMatrix
 (
 SkScalar
@@ -195,6 +197,12 @@ SkTDArray
 Segment
 >
 fSegments
+;
+SkTDArray
+<
+SkPoint
+>
+fPts
 ;
 static
 const

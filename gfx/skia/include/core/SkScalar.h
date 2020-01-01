@@ -1683,6 +1683,7 @@ SkASSERT
 (
 tolerance
 >
+=
 0
 )
 ;
@@ -1692,6 +1693,7 @@ SkScalarAbs
 x
 )
 <
+=
 tolerance
 ;
 }
@@ -1714,6 +1716,7 @@ SkASSERT
 (
 tolerance
 >
+=
 0
 )
 ;
@@ -1725,6 +1728,7 @@ x
 y
 )
 <
+=
 tolerance
 ;
 }

@@ -812,13 +812,13 @@ desc
 =
 {
 kDynamicUpdate_GrTextureFlagBit
-kNone_GrAALevel
 GR_ATLAS_TEXTURE_WIDTH
 GR_ATLAS_TEXTURE_HEIGHT
 maskformat2pixelconfig
 (
 format
 )
+0
 }
 ;
 fTexture

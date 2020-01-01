@@ -26,16 +26,6 @@ SkPath
 .
 h
 "
-SkRasterizer
-:
-:
-SkRasterizer
-(
-SkFlattenableReadBuffer
-&
-)
-{
-}
 bool
 SkRasterizer
 :
@@ -233,6 +223,10 @@ NULL
 NULL
 mask
 mode
+SkPaint
+:
+:
+kFill_Style
 )
 ;
 }

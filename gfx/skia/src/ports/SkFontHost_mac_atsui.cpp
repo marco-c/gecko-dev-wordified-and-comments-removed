@@ -58,9 +58,10 @@ gDefaultfont
 Arial
 "
 ;
-static
-SkMutex
+SK_DECLARE_STATIC_MUTEX
+(
 gFTMutex
+)
 ;
 static
 inline
@@ -2857,12 +2858,6 @@ char
 familyName
 [
 ]
-const
-void
-*
-data
-size_t
-bytelength
 SkTypeface
 :
 :

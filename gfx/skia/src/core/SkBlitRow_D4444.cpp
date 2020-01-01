@@ -551,17 +551,6 @@ SkPMColorAssert
 c
 )
 ;
-SkASSERT
-(
-SkGetPackedA32
-(
-c
-)
-=
-=
-255
-)
-;
 unsigned
 dither
 =

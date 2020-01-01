@@ -119,11 +119,11 @@ Cmp
 (
 const
 Pair
-&
+*
 a
 const
 Pair
-&
+*
 b
 )
 ;

@@ -23,6 +23,7 @@ kMaskFilter_PaintFlat
 kPathEffect_PaintFlat
 kRasterizer_PaintFlat
 kShader_PaintFlat
+kImageFilter_PaintFlat
 kXfermode_PaintFlat
 kLast_PaintFlat
 =
@@ -47,6 +48,7 @@ kClipRect_DrawOp
 kConcat_DrawOp
 kDrawBitmap_DrawOp
 kDrawBitmapMatrix_DrawOp
+kDrawBitmapNine_DrawOp
 kDrawBitmapRect_DrawOp
 kDrawClear_DrawOp
 kDrawData_DrawOp
@@ -72,6 +74,7 @@ kTranslate_DrawOp
 kPaintOp_DrawOp
 kDef_Typeface_DrawOp
 kDef_Flattenable_DrawOp
+kDef_Bitmap_DrawOp
 kDone_DrawOp
 }
 ;

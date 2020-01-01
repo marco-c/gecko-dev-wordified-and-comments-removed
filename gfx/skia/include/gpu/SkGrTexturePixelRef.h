@@ -33,6 +33,7 @@ GrRenderTarget
 h
 "
 class
+SK_API
 SkROLockPixelsPixelRef
 :
 public
@@ -88,6 +89,7 @@ INHERITED
 }
 ;
 class
+SK_API
 SkGrTexturePixelRef
 :
 public
@@ -114,6 +116,9 @@ getTexture
 (
 )
 ;
+SK_DECLARE_UNFLATTENABLE_OBJECT
+(
+)
 protected
 :
 virtual
@@ -155,6 +160,7 @@ INHERITED
 }
 ;
 class
+SK_API
 SkGrRenderTargetPixelRef
 :
 public
@@ -182,6 +188,9 @@ getTexture
 (
 )
 ;
+SK_DECLARE_UNFLATTENABLE_OBJECT
+(
+)
 protected
 :
 virtual

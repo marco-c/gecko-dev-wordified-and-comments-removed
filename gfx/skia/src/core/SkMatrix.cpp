@@ -12396,6 +12396,7 @@ return
 gIdentity
 ;
 }
+;
 const
 SkMatrix
 &

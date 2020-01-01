@@ -449,7 +449,7 @@ return
 gCanonicalPaints
 ;
 }
-SkMutex
+SkBaseMutex
 &
 SkPDFGraphicState
 :
@@ -458,9 +458,10 @@ CanonicalPaintsMutex
 (
 )
 {
-static
-SkMutex
+SK_DECLARE_STATIC_MUTEX
+(
 gCanonicalPaintsMutex
+)
 ;
 return
 gCanonicalPaintsMutex

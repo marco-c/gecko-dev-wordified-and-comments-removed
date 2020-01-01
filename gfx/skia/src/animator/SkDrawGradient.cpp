@@ -141,16 +141,9 @@ script
 )
 {
 }
-virtual
-Factory
-getFactory
+SK_DECLARE_UNFLATTENABLE_OBJECT
 (
 )
-{
-return
-NULL
-;
-}
 protected
 :
 virtual

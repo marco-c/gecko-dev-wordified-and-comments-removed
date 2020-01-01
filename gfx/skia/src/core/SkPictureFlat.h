@@ -21,6 +21,13 @@ h
 #
 include
 "
+SkOrderedReadBuffer
+.
+h
+"
+#
+include
+"
 SkPicture
 .
 h
@@ -72,6 +79,7 @@ DRAW_PATH
 DRAW_PICTURE
 DRAW_POINTS
 DRAW_POS_TEXT
+DRAW_POS_TEXT_TOP_BOTTOM
 DRAW_POS_TEXT_H
 DRAW_POS_TEXT_H_TOP_BOTTOM
 DRAW_RECT
@@ -516,10 +524,13 @@ rcp
 )
 const
 {
-SkFlattenableReadBuffer
+SkOrderedReadBuffer
 buffer
 (
 fBitmapData
+1024
+*
+1024
 )
 ;
 if

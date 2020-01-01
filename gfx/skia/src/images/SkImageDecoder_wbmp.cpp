@@ -785,6 +785,11 @@ return
 true
 ;
 }
+DEFINE_DECODER_CREATOR
+(
+WBMPImageDecoder
+)
+;
 #
 include
 "
@@ -792,10 +797,9 @@ SkTRegistry
 .
 h
 "
-static
 SkImageDecoder
 *
-Factory
+sk_wbmp_dfactory
 (
 SkStream
 *
@@ -836,6 +840,6 @@ SkStream
 >
 gReg
 (
-Factory
+sk_wbmp_dfactory
 )
 ;

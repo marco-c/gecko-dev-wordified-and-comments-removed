@@ -171,6 +171,11 @@ return
 fResolveRect
 ;
 }
+void
+resolve
+(
+)
+;
 virtual
 size_t
 sizeInBytes

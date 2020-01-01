@@ -79,11 +79,11 @@ Cmp
 (
 const
 Pair
-&
+*
 a
 const
 Pair
-&
+*
 b
 )
 {
@@ -93,7 +93,8 @@ char
 *
 )
 a
-.
+-
+>
 fPtr
 -
 (
@@ -101,7 +102,8 @@ char
 *
 )
 b
-.
+-
+>
 fPtr
 ;
 }

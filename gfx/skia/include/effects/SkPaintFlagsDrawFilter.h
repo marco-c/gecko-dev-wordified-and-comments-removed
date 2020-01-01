@@ -38,9 +38,6 @@ Type
 ;
 private
 :
-uint32_t
-fPrevFlags
-;
 uint16_t
 fClearFlags
 ;

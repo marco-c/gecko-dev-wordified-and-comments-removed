@@ -440,6 +440,8 @@ SkPDFObject
 >
 *
 resourceList
+bool
+recursive
 )
 const
 ;
@@ -532,6 +534,15 @@ SkCanvas
 :
 :
 Config8888
+)
+SK_OVERRIDE
+;
+virtual
+bool
+allowImageFilter
+(
+SkImageFilter
+*
 )
 SK_OVERRIDE
 ;

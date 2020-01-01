@@ -106,9 +106,9 @@ SkPaint
 const
 SkMatrix
 &
-SkAlpha
+SkScalar
 *
-newAlpha
+coverage
 )
 ;
 #

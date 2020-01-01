@@ -35,6 +35,13 @@ h
 #
 include
 "
+SkOrderedReadBuffer
+.
+h
+"
+#
+include
+"
 SkPaint
 .
 h
@@ -851,7 +858,7 @@ int
 fRegionCount
 ;
 mutable
-SkFlattenableReadBuffer
+SkReader32
 fReader
 ;
 SkPicture

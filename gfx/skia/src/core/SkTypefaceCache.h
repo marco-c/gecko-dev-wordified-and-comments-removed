@@ -58,6 +58,10 @@ SkTypeface
 :
 Style
 requested
+bool
+strong
+=
+true
 )
 ;
 static
@@ -72,7 +76,7 @@ fontID
 static
 SkTypeface
 *
-FindByProc
+FindByProcAndRef
 (
 FindProc
 proc
@@ -112,6 +116,10 @@ SkTypeface
 :
 Style
 requested
+bool
+strong
+=
+true
 )
 ;
 SkTypeface
@@ -125,7 +133,7 @@ const
 ;
 SkTypeface
 *
-findByProc
+findByProcAndRef
 (
 FindProc
 proc
@@ -153,6 +161,9 @@ Rec
 SkTypeface
 *
 fFace
+;
+bool
+fStrong
 ;
 SkTypeface
 :

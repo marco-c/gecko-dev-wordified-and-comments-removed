@@ -110,6 +110,10 @@ maintenance
 text
 .
 align
+4
+.
+syntax
+unified
 .
 global
 arm_memset32
@@ -189,7 +193,7 @@ teq
 r2
 #
 0
-beq
+ble
 .
 Lfinish
 /
@@ -237,6 +241,7 @@ bits
 orr
 r1
 r1
+r1
 lsl
 #
 16
@@ -252,7 +257,7 @@ tst
 r0
 #
 2
-strneh
+strhne
 r1
 [
 r0
@@ -305,7 +310,7 @@ teq
 r2
 #
 0
-beq
+ble
 .
 Lfinish
 /
@@ -447,21 +452,21 @@ r3
 lsl
 #
 28
-stmcsia
+stmiacs
 r0
 !
 {
 r1
 lr
 }
-stmcsia
+stmiacs
 r0
 !
 {
 r1
 lr
 }
-stmmiia
+stmiami
 r0
 !
 {
@@ -508,7 +513,7 @@ r2
 r2
 #
 32
-stmhsia
+stmiahs
 r0
 !
 {
@@ -517,7 +522,7 @@ r3
 ip
 lr
 }
-stmhsia
+stmiahs
 r0
 !
 {
@@ -562,7 +567,7 @@ r2
 lsl
 #
 28
-stmcsia
+stmiacs
 r0
 !
 {
@@ -571,7 +576,7 @@ r3
 ip
 lr
 }
-stmmiia
+stmiami
 r0
 !
 {
@@ -591,7 +596,7 @@ r0
 ]
 #
 4
-strmih
+strhmi
 lr
 [
 r0

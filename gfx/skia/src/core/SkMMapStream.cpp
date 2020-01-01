@@ -51,6 +51,10 @@ fAddr
 =
 NULL
 ;
+fSize
+=
+0
+;
 int
 fildes
 =

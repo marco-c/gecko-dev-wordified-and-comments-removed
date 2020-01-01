@@ -30,7 +30,7 @@ h
 if
 defined
 (
-BUILD_FOR_WIN_32
+SK_BUILD_FOR_WIN32
 )
 #
 define

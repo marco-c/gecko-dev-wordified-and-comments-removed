@@ -755,13 +755,11 @@ image
 NULL
 )
 ;
+return
 CGImageDestinationFinalize
 (
 dst
 )
-;
-return
-true
 ;
 }
 SkImageEncoder

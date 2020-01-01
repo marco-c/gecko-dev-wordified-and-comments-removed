@@ -47,8 +47,10 @@ SkThread
 .
 h
 "
-SkMutex
+SK_DECLARE_GLOBAL_MUTEX
+(
 gImageRefMutex
+)
 ;
 SkImageRef
 :

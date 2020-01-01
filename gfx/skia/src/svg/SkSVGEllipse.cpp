@@ -194,8 +194,11 @@ scratch
 %
 g
 "
+SkScalarToDouble
+(
 left
 )
+)
 ;
 parser
 .
@@ -214,7 +217,10 @@ scratch
 %
 g
 "
+SkScalarToDouble
+(
 top
+)
 )
 ;
 parser
@@ -234,7 +240,10 @@ scratch
 %
 g
 "
+SkScalarToDouble
+(
 right
+)
 )
 ;
 parser
@@ -254,7 +263,10 @@ scratch
 %
 g
 "
+SkScalarToDouble
+(
 bottom
+)
 )
 ;
 parser

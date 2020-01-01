@@ -89,10 +89,14 @@ mode
 ;
 }
 ;
-static
+DEFINE_DECODER_CREATOR
+(
+BMPImageDecoder
+)
+;
 SkImageDecoder
 *
-Factory
+sk_libbmp_dfactory
 (
 SkStream
 *
@@ -196,7 +200,7 @@ SkStream
 >
 gReg
 (
-Factory
+sk_libbmp_dfactory
 )
 ;
 class

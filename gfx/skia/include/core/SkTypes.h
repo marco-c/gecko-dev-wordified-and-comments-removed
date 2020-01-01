@@ -626,6 +626,9 @@ type
 field
 )
 (
+size_t
+)
+(
 (
 char
 *

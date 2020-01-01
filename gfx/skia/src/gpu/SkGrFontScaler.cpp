@@ -911,7 +911,7 @@ getGlyphPath
 (
 uint16_t
 glyphID
-GrPath
+SkPath
 *
 path
 )

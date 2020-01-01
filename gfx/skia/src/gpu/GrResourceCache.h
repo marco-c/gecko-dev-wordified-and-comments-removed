@@ -796,6 +796,16 @@ size_t
 maxResourceBytes
 )
 ;
+size_t
+getCachedResourceBytes
+(
+)
+const
+{
+return
+fEntryBytes
+;
+}
 enum
 LockType
 {

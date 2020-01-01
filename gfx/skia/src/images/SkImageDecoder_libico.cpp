@@ -71,12 +71,6 @@ SkImageDecoder
 SkCreateICOImageDecoder
 (
 )
-;
-SkImageDecoder
-*
-SkCreateICOImageDecoder
-(
-)
 {
 return
 new
@@ -2120,6 +2114,11 @@ blue
 )
 ;
 }
+DEFINE_DECODER_CREATOR
+(
+ICOImageDecoder
+)
+;
 #
 include
 "
@@ -2127,10 +2126,9 @@ SkTRegistry
 .
 h
 "
-static
 SkImageDecoder
 *
-Factory
+sk_libico_dfactory
 (
 SkStream
 *
@@ -2225,6 +2223,6 @@ SkStream
 >
 gReg
 (
-Factory
+sk_libico_dfactory
 )
 ;

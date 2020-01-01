@@ -1620,6 +1620,11 @@ return
 true
 ;
 }
+DEFINE_DECODER_CREATOR
+(
+GIFImageDecoder
+)
+;
 #
 include
 "
@@ -1630,7 +1635,7 @@ h
 static
 SkImageDecoder
 *
-Factory
+sk_libgif_dfactory
 (
 SkStream
 *
@@ -1715,6 +1720,6 @@ SkStream
 >
 gReg
 (
-Factory
+sk_libgif_dfactory
 )
 ;

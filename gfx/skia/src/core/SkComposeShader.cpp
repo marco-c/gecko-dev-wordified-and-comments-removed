@@ -345,6 +345,7 @@ SkFlattenableWriteBuffer
 &
 buffer
 )
+const
 {
 this
 -

@@ -259,7 +259,7 @@ int
 fPreallocBuffersInUse
 ;
 int
-fFirstPreallocBuffer
+fPreallocBufferStartIdx
 ;
 SkAutoMalloc
 fCpuData

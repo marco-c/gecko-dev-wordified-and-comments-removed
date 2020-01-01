@@ -102,7 +102,7 @@ define
 kDeleteFill
 0xEF
 static
-SkMutex
+SkBaseMutex
 &
 get_block_mutex
 (

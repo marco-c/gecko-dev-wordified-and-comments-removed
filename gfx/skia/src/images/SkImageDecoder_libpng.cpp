@@ -4268,6 +4268,16 @@ return
 true
 ;
 }
+DEFINE_DECODER_CREATOR
+(
+PNGImageDecoder
+)
+;
+DEFINE_ENCODER_CREATOR
+(
+PNGImageEncoder
+)
+;
 #
 include
 "

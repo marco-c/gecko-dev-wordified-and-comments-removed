@@ -969,7 +969,7 @@ fData
 .
 fAlloc
 .
-reuse
+reset
 (
 )
 ;

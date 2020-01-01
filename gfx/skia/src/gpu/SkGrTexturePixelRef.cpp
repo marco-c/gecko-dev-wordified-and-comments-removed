@@ -33,9 +33,10 @@ SkRect
 .
 h
 "
-static
-SkMutex
+SK_DECLARE_STATIC_MUTEX
+(
 gROLockPixelsPixelRefMutex
+)
 ;
 SkROLockPixelsPixelRef
 :
@@ -262,9 +263,9 @@ false
 ;
 desc
 .
-fAALevel
+fSampleCnt
 =
-kNone_GrAALevel
+0
 ;
 GrTexture
 *

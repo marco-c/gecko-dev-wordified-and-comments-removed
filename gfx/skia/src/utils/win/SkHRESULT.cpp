@@ -30,6 +30,8 @@ char
 msg
 )
 {
+SkDEBUGCODE
+(
 if
 (
 NULL
@@ -47,6 +49,7 @@ s
 n
 "
 msg
+)
 )
 )
 ;
