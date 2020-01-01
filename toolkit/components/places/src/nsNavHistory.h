@@ -483,6 +483,10 @@ mExpireDaysMax
 0
 |
 |
+!
+mHistoryEnabled
+|
+|
 InPrivateBrowsingMode
 (
 )
@@ -1914,6 +1918,9 @@ mExpireDaysMax
 ;
 PRInt32
 mExpireSites
+;
+PRBool
+mHistoryEnabled
 ;
 PRInt32
 mNumVisitsForFrecency
