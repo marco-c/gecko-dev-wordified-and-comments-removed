@@ -63,6 +63,11 @@ InputData
 aEvent
 )
 ;
+void
+CancelGesture
+(
+)
+;
 AsyncPanZoomController
 *
 GetAsyncPanZoomController
