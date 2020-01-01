@@ -6325,6 +6325,14 @@ typeInferenceEnabled
 )
 &
 &
+cx
+-
+>
+hasfp
+(
+)
+&
+&
 !
 cx
 -
