@@ -3046,7 +3046,7 @@ state
 .
 if
 (
-nsToolkit
+nsCocoaFeatures
 :
 :
 OnSnowLeopardOrLater
