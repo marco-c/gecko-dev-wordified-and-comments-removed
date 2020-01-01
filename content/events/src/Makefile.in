@@ -576,6 +576,10 @@ nsDOMPopStateEvent
 .
 cpp
 \
+nsDOMHashChangeEvent
+.
+cpp
+\
 nsDOMCloseEvent
 .
 cpp
