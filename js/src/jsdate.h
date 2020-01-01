@@ -284,6 +284,15 @@ JSObject
 obj
 )
 ;
+typedef
+uint32
+JSIntervalTime
+;
+JSIntervalTime
+js_IntervalNow
+(
+)
+;
 JS_END_EXTERN_C
 #
 endif
