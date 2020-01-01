@@ -57,6 +57,13 @@ endif
 #
 ifdef
 MOZ_COMPOSITED_PLUGINS
+#
+include
+"
+nsPluginInstancePeer
+.
+h
+"
 extern
 "
 C
