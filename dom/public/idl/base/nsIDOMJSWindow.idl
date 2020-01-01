@@ -690,7 +690,7 @@ This
 is
 the
 scriptable
-versions
+version
 of
 nsIDOMWindowInternal
 :
@@ -805,7 +805,7 @@ This
 is
 the
 scriptable
-versions
+version
 of
 *
 nsIDOMWindowInternal
