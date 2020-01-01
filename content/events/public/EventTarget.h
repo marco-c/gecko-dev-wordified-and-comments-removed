@@ -55,6 +55,9 @@ h
 class
 nsDOMEvent
 ;
+class
+nsIDOMWindow
+;
 namespace
 mozilla
 {
@@ -258,6 +261,15 @@ aType
 )
 {
 }
+virtual
+nsIDOMWindow
+*
+GetOwnerGlobal
+(
+)
+=
+0
+;
 protected
 :
 EventHandlerNonNull

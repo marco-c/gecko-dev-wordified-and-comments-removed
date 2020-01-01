@@ -1620,6 +1620,14 @@ nsIDOMEventTarget
 :
 AddSystemEventListener
 ;
+virtual
+nsIDOMWindow
+*
+GetOwnerGlobal
+(
+)
+MOZ_OVERRIDE
+;
 void
 AddMutationObserver
 (

@@ -282,6 +282,17 @@ return
 nullptr
 ;
 }
+JSObject
+*
+GetOwnerGlobal
+(
+)
+const
+{
+return
+nullptr
+;
+}
 }
 ;
 END_WORKERS_NAMESPACE
