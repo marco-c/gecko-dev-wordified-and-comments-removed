@@ -465,17 +465,6 @@ aRank
 aSearch
 )
 {
-histsvc
-.
-setPageDetails
-(
-aURI
-aURI
-aCount
-false
-true
-)
-;
 for
 (
 let

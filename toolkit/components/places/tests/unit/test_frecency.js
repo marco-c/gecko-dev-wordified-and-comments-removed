@@ -483,17 +483,6 @@ aCount
 aDate
 )
 {
-histsvc
-.
-setPageDetails
-(
-aURI
-aURI
-aCount
-false
-true
-)
-;
 for
 (
 let

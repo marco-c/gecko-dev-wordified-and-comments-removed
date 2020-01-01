@@ -10008,15 +10008,6 @@ if
 (
 !
 hasDomain
-|
-|
-!
-queryHost
--
->
-DomainIsHost
-(
-)
 )
 return
 NS_OK
