@@ -694,6 +694,10 @@ if
 (
 !
 e
+|
+|
+!
+token
 )
 continue
 ;
