@@ -40,7 +40,7 @@ handshake
 .
 _base
 import
-HandshakeError
+HandshakeException
 from
 mod_pywebsocket
 .
@@ -247,6 +247,24 @@ Protocol
 version
 .
         
+Raises
+:
+            
+HandshakeException
+:
+when
+any
+error
+happened
+in
+parsing
+the
+opening
+                                
+handshake
+request
+.
+        
 "
 "
 "
@@ -378,6 +396,9 @@ None
 validate_subprotocol
 (
 subprotocol
+hixie
+=
+True
 )
         
 self
@@ -444,11 +465,13 @@ self
 _request
 .
 headers_in
-[
-'
-Origin
-'
-]
+.
+get
+(
+common
+.
+ORIGIN_HEADER
+)
         
 if
 origin
@@ -482,13 +505,9 @@ headers_in
 .
 get
 (
-'
-Sec
--
-WebSocket
--
-Draft
-'
+common
+.
+SEC_WEBSOCKET_DRAFT_HEADER
 )
         
 if
@@ -496,78 +515,36 @@ draft
 is
 not
 None
-:
-            
-try
-:
-                
-draft_int
-=
-int
-(
+and
 draft
-)
-                
-if
-draft_int
-=
-=
-1
-or
-draft_int
-=
-=
-2
-:
-                    
-raise
-HandshakeError
-(
-'
-HyBi
-01
--
-03
-are
-not
-supported
-'
-)
-                
-elif
-draft_int
 !
 =
+'
 0
+'
 :
-                    
-raise
-ValueError
             
-except
-ValueError
-e
-:
-                
 raise
-HandshakeError
+HandshakeException
 (
-                    
 '
 Illegal
 value
 for
-Sec
--
-WebSocket
--
-Draft
+%
+s
 :
 %
 s
 '
 %
+                                     
+(
+common
+.
+SEC_WEBSOCKET_DRAFT_HEADER
 draft
+)
 )
         
 self
@@ -783,7 +760,7 @@ except
 :
             
 raise
-HandshakeError
+HandshakeException
 (
 '
 %
@@ -821,7 +798,7 @@ spaces
 :
             
 raise
-HandshakeError
+HandshakeException
 (
 '
 %
@@ -876,7 +853,7 @@ spaces
 :
             
 raise
-HandshakeError
+HandshakeException
 (
                 
 '
@@ -954,13 +931,9 @@ self
 .
 _get_key_value
 (
-'
-Sec
--
-WebSocket
--
-Key1
-'
+common
+.
+SEC_WEBSOCKET_KEY1_HEADER
 )
         
 key2
@@ -969,13 +942,9 @@ self
 .
 _get_key_value
 (
-'
-Sec
--
-WebSocket
--
-Key2
-'
+common
+.
+SEC_WEBSOCKET_KEY2_HEADER
 )
         
 challenge
@@ -1100,13 +1069,9 @@ append
 format_header
 (
             
-'
-Sec
--
-WebSocket
--
-Location
-'
+common
+.
+SEC_WEBSOCKET_LOCATION_HEADER
 self
 .
 _request

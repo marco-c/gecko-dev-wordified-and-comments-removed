@@ -41,7 +41,7 @@ handshake
 .
 _base
 import
-HandshakeError
+HandshakeException
 from
 mod_pywebsocket
 .
@@ -625,6 +625,9 @@ None
 validate_subprotocol
 (
 subprotocol
+hixie
+=
+True
 )
         
 self
@@ -883,7 +886,7 @@ actual_value
 :
                 
 raise
-HandshakeError
+HandshakeException
 (
 '
 Header
@@ -909,7 +912,7 @@ expected_value
 :
                     
 raise
-HandshakeError
+HandshakeException
 (
                         
 '
@@ -1014,7 +1017,7 @@ _FIRST_FIVE_LINES
 :
             
 raise
-HandshakeError
+HandshakeException
 (
 '
 Too
@@ -1054,8 +1057,9 @@ line
 :
                 
 raise
-HandshakeError
+HandshakeException
 (
+                    
 '
 Unexpected
 header
@@ -1070,7 +1074,7 @@ match
 %
 r
 '
-                                     
+                    
 %
 (
 line
@@ -1105,8 +1109,9 @@ sixth_and_later
 :
             
 raise
-HandshakeError
+HandshakeException
 (
+                
 '
 Unexpected
 header
@@ -1121,11 +1126,10 @@ match
 %
 r
 '
-                                 
+                
 %
 (
 sixth_and_later
-                                    
 _SIXTH_AND_LATER
 .
 pattern

@@ -192,6 +192,9 @@ message
 end
 =
 True
+binary
+=
+False
 )
 :
         
@@ -211,6 +214,14 @@ unicode
 string
 to
 send
+.
+            
+binary
+:
+not
+used
+in
+hixie75
 .
         
 Raises
@@ -254,6 +265,29 @@ with
 end
 =
 False
+'
+)
+        
+if
+binary
+:
+            
+raise
+BadOperationException
+(
+                
+'
+StreamHixie75
+doesn
+\
+'
+t
+support
+send_message
+with
+binary
+=
+True
 '
 )
         

@@ -402,8 +402,8 @@ it
 is
 the
 default
-name
     
+name
 for
 a
 PythonHeaderParserHandler
@@ -412,6 +412,10 @@ PythonHeaderParserHandler
 "
 "
 "
+    
+handshake_is_done
+=
+False
     
 try
 :
@@ -433,25 +437,21 @@ _PYOPT_ALLOW_DRAFT75
 None
 )
         
-handshaker
-=
 handshake
 .
-Handshaker
+do_handshake
 (
+            
 request
 _dispatcher
-                                          
 allowDraft75
 =
 allowDraft75
 )
         
-handshaker
-.
-do_handshake
-(
-)
+handshake_is_done
+=
+True
         
 request
 .
@@ -476,21 +476,26 @@ apache
 APLOG_DEBUG
 )
         
-try
-:
-            
+request
+.
+_dispatcher
+=
+_dispatcher
+        
 _dispatcher
 .
 transfer_data
 (
 request
 )
-        
+    
 except
-Exception
+dispatch
+.
+DispatchException
 e
 :
-            
+        
 request
 .
 log_error
@@ -507,11 +512,45 @@ apache
 .
 APLOG_WARNING
 )
+        
+if
+not
+handshake_is_done
+:
+            
+return
+e
+.
+status
     
 except
 handshake
 .
-HandshakeError
+AbortedByUserException
+e
+:
+        
+request
+.
+log_error
+(
+'
+mod_pywebsocket
+:
+%
+s
+'
+%
+e
+apache
+.
+APLOG_INFO
+)
+    
+except
+handshake
+.
+HandshakeException
 e
 :
         
@@ -533,14 +572,12 @@ APLOG_INFO
 )
         
 return
-apache
+e
 .
-DECLINED
+status
     
 except
-dispatch
-.
-DispatchError
+Exception
 e
 :
         
@@ -561,10 +598,15 @@ apache
 APLOG_WARNING
 )
         
+if
+not
+handshake_is_done
+:
+            
 return
 apache
 .
-DECLINED
+DECLINE
     
 request
 .
