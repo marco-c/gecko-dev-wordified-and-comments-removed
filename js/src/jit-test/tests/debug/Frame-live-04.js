@@ -68,6 +68,15 @@ type
 "
 call
 "
+&
+&
+f
+.
+script
+!
+=
+=
+null
 )
 stack
 .
