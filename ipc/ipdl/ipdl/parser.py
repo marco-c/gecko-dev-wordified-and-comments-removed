@@ -210,6 +210,12 @@ self
 direction
 =
 None
+        
+self
+.
+errout
+=
+None
     
 def
 parse
@@ -333,6 +339,12 @@ tu
 filename
 =
 filename
+        
+self
+.
+errout
+=
+errout
         
 Parser
 .
@@ -1307,6 +1319,11 @@ Parser
 current
 .
 includedirs
+Parser
+.
+current
+.
+errout
 )
     
 p
