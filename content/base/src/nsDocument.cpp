@@ -18683,17 +18683,6 @@ aReturn
 =
 nsnull
 ;
-if
-(
-IsHTML
-(
-)
-)
-{
-return
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
-;
-}
 nsresult
 rv
 =
