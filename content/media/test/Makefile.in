@@ -713,6 +713,10 @@ can_play_type_wave
 .
 js
 \
+cancellable_request
+.
+sjs
+\
 manifest
 .
 js
@@ -822,6 +826,10 @@ test_playback_errors
 html
 \
 test_readyState
+.
+html
+\
+test_resume
 .
 html
 \
