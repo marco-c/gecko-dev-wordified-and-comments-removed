@@ -250,7 +250,7 @@ ins
 >
 setResultType
 (
-MIRType_Int32
+MIRType_Double
 )
 ;
 return
@@ -338,7 +338,7 @@ ins
 >
 getOperand
 (
-0
+i
 )
 ;
 if
