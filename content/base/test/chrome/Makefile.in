@@ -441,10 +441,6 @@ referer
 .
 sjs
 \
-bug514705
-.
-html
-\
 (
 NULL
 )
@@ -468,14 +464,6 @@ test_bug430050
 xul
 \
 test_bug467123
-.
-xul
-\
-test_bug514705
-.
-xul
-\
-bug514705_helper
 .
 xul
 \
