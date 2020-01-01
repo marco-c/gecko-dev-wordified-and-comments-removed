@@ -768,6 +768,8 @@ PRInt32
 aClickCount
 PRInt32
 aModifiers
+PRBool
+aIgnoreScrollFrame
 )
 {
 PRBool
@@ -1072,6 +1074,12 @@ refPoint
 y
 =
 aY
+;
+event
+.
+ignoreScrollFrame
+=
+aIgnoreScrollFrame
 ;
 nsEventStatus
 status

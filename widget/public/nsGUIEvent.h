@@ -2345,6 +2345,10 @@ clickCount
 (
 0
 )
+ignoreScrollFrame
+(
+PR_FALSE
+)
 {
 if
 (
@@ -2406,6 +2410,10 @@ eChild
 clickCount
 (
 0
+)
+ignoreScrollFrame
+(
+PR_FALSE
 )
 {
 if
@@ -2493,6 +2501,9 @@ event
 endif
 PRPackedBool
 acceptActivation
+;
+PRPackedBool
+ignoreScrollFrame
 ;
 reasonType
 reason

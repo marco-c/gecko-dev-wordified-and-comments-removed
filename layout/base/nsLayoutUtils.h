@@ -615,6 +615,10 @@ PRBool
 aShouldIgnoreSuppression
 =
 PR_FALSE
+PRBool
+aIgnoreScrollFrame
+=
+PR_FALSE
 )
 ;
 static
