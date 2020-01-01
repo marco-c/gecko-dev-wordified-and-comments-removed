@@ -6241,14 +6241,6 @@ PRUint32
 aCount
 )
 {
-if
-(
-aCount
-!
-=
-mContentCount
-)
-{
 DELETE_ARRAY_IF
 (
 mContents
@@ -6286,7 +6278,6 @@ mContentCount
 =
 aCount
 ;
-}
 return
 NS_OK
 ;
