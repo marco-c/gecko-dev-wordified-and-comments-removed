@@ -297,16 +297,6 @@ dirEntries
 name
 :
 "
-CVS
-"
-isDirectory
-:
-true
-}
-{
-name
-:
-"
 file
 .
 txt
