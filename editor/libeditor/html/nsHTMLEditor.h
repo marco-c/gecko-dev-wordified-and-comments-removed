@@ -1521,6 +1521,12 @@ GetFocusedNode
 (
 )
 ;
+nsIContent
+*
+GetActiveEditingHost
+(
+)
+;
 PRBool
 SetCaretInTableCell
 (
@@ -1530,11 +1536,11 @@ aElement
 )
 ;
 PRBool
-IsElementInBody
+IsNodeInActiveEditor
 (
-nsIDOMElement
+nsIDOMNode
 *
-aElement
+aNode
 )
 ;
 NS_IMETHOD

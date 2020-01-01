@@ -5914,9 +5914,8 @@ GetEditingHost
 {
 NS_ENSURE_TRUE
 (
-HasFlag
+IsEditableInternal
 (
-NODE_IS_EDITABLE
 )
 nsnull
 )
