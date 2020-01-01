@@ -904,3 +904,10 @@ p3
 bug487519
 .
 patch
+patch
+-
+p3
+<
+bug496529
+.
+patch
