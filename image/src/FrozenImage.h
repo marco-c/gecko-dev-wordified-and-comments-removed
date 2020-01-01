@@ -186,6 +186,17 @@ ResetAnimation
 )
 MOZ_OVERRIDE
 ;
+NS_IMETHOD_
+(
+float
+)
+GetFrameIndex
+(
+uint32_t
+aWhichFrame
+)
+MOZ_OVERRIDE
+;
 protected
 :
 FrozenImage
