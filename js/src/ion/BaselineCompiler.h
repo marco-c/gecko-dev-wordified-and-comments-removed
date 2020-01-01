@@ -611,6 +611,14 @@ emitEpilogue
 )
 ;
 bool
+emitIC
+(
+ICStub
+*
+stub
+)
+;
+bool
 emitStackCheck
 (
 )
