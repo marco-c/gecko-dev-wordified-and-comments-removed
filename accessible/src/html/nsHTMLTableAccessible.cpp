@@ -3145,6 +3145,9 @@ rv
 )
 ;
 }
+return
+NS_OK
+;
 }
 nsresult
 nsHTMLTableAccessible
