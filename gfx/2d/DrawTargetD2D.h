@@ -601,6 +601,12 @@ InitD3D10Data
 (
 )
 ;
+uint32_t
+GetByteSize
+(
+)
+const
+;
 static
 ID2D1Factory
 *
@@ -667,6 +673,14 @@ str
 )
 ;
 }
+static
+uint64_t
+mVRAMUsageDT
+;
+static
+uint64_t
+mVRAMUsageSS
+;
 private
 :
 friend

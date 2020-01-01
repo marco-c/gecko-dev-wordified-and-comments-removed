@@ -155,6 +155,9 @@ mTexture
 SurfaceFormat
 mFormat
 ;
+bool
+mOwnsCopy
+;
 }
 ;
 class
