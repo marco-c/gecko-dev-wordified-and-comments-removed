@@ -118,10 +118,6 @@ imgContainer
 ;
 private
 :
-friend
-class
-nsGIFDecoder2
-;
 struct
 Anim
 {
