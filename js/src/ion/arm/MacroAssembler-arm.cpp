@@ -3105,7 +3105,7 @@ Condition
 c
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Feature
@@ -3262,7 +3262,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 trying
@@ -3582,7 +3582,7 @@ return
 NotEqual
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Condition
@@ -3676,7 +3676,7 @@ return
 NotEqual
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Condition
@@ -3935,7 +3935,7 @@ Condition
 cc
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Feature
@@ -5550,7 +5550,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Other
@@ -13661,7 +13661,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bogus
@@ -14089,7 +14089,7 @@ dest
 return
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 why
@@ -14309,7 +14309,7 @@ dest
 return
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 why

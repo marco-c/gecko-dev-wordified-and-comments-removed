@@ -799,7 +799,7 @@ return
 true
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 fun_getProperty
@@ -9386,7 +9386,7 @@ return
 true
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Should

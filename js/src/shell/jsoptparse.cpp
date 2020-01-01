@@ -703,7 +703,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unhandled
@@ -1905,7 +1905,7 @@ Fail
 }
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unhandled
@@ -2061,7 +2061,7 @@ Fail
 }
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unhandled

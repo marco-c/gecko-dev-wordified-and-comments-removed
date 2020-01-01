@@ -4009,7 +4009,7 @@ guess
 ;
 }
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 displacement
@@ -4081,7 +4081,7 @@ return
 it
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Failed
@@ -5970,7 +5970,7 @@ break
 }
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad
@@ -10154,7 +10154,7 @@ IonFrame_Unwound_OptimizedJS
 case
 IonFrame_Unwound_BaselineStub
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 invalid
@@ -11722,7 +11722,7 @@ ION_DISABLED_SCRIPT
 return
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 No

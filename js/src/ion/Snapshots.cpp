@@ -1215,7 +1215,7 @@ slot
 endif
 }
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 huh
@@ -1798,7 +1798,7 @@ magic
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no

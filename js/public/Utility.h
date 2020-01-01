@@ -129,16 +129,6 @@ expr
 )
 #
 define
-JS_NOT_REACHED
-(
-reason
-)
-MOZ_NOT_REACHED
-(
-reason
-)
-#
-define
 JS_ALWAYS_TRUE
 (
 expr

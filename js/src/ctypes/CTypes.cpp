@@ -9776,7 +9776,7 @@ break
 case
 TYPE_function
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 cannot
@@ -12135,7 +12135,7 @@ TYPE_void_t
 case
 TYPE_function
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 invalid
@@ -12503,7 +12503,7 @@ TYPE_void_t
 case
 TYPE_function
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 invalid
@@ -13246,7 +13246,7 @@ break
 case
 INVALID_ABI
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 invalid
@@ -14652,7 +14652,7 @@ break
 case
 TYPE_void_t
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 invalid
@@ -16747,7 +16747,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 simple
@@ -26895,7 +26895,7 @@ break
 case
 INVALID_ABI
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 invalid
@@ -33805,7 +33805,7 @@ address
 )
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Could
@@ -34881,7 +34881,7 @@ sizeBestArg
 )
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 object

@@ -12605,7 +12605,7 @@ break
 }
 default
 :
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 copyFrom
@@ -12617,8 +12617,6 @@ unknown
 type
 "
 )
-;
-break
 ;
 }
 return
@@ -13165,7 +13163,7 @@ break
 }
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 copyFromWithOverlap
@@ -20672,7 +20670,7 @@ class_constructor
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -21498,7 +21496,7 @@ ArrayBufferView
 :
 TYPE_DATAVIEW
 ;
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 invalid

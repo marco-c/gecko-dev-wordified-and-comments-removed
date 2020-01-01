@@ -2398,7 +2398,7 @@ mode
 )
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -2812,7 +2812,7 @@ Address
 dest
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -2831,7 +2831,7 @@ Register
 dest
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI

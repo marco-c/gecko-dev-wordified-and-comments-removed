@@ -4397,7 +4397,7 @@ return
 i
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -4537,7 +4537,7 @@ return
 ;
 }
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 predecessor
@@ -4739,7 +4739,7 @@ ptr
 return
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 predecessor

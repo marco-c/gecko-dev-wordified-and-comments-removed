@@ -1083,7 +1083,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -1640,7 +1640,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -18536,7 +18536,7 @@ JS_HAS_DESTRUCTURING
 case
 PNK_ASSIGN
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 forStatement
@@ -30839,7 +30839,7 @@ SET
 }
 else
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 bad

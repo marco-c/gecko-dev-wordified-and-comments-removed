@@ -197,7 +197,7 @@ return
 TimesEight
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -281,7 +281,7 @@ Imm32
 ;
 }
 ;
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid

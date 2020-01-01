@@ -270,7 +270,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -441,7 +441,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -3616,7 +3616,7 @@ return
 ptr
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unsupported
@@ -3986,7 +3986,7 @@ return
 ptr
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unsupported
@@ -8232,7 +8232,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 SAY
@@ -8816,7 +8816,7 @@ PoolHintData
 :
 poolBOGUS
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 bogus
@@ -9031,7 +9031,7 @@ int
 offset
 )
 {
-JS_NOT_REACHED
+MOZ_NOT_REACHED
 (
 "
 ARMAssembler
@@ -9085,10 +9085,6 @@ BRANCH_MASK
 ;
 #
 endif
-return
--
-1
-;
 }
 BufferOffset
 Assembler
@@ -10019,7 +10015,7 @@ opv_mul
 c
 )
 ;
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Feature
@@ -10044,7 +10040,7 @@ Condition
 c
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Feature
@@ -10074,7 +10070,7 @@ Condition
 c
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Feature
@@ -10982,7 +10978,7 @@ isDouble
 (
 )
 )
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 non
@@ -11281,7 +11277,7 @@ b
 )
 ;
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 crazy
@@ -11600,7 +11596,7 @@ labelBranchOffset
 )
 ;
 else
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 crazy

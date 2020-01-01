@@ -478,7 +478,7 @@ parallelIonScript
 }
 #
 endif
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
@@ -997,7 +997,7 @@ TYPE_FLAG_LAZYARGS
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad
@@ -1067,7 +1067,7 @@ JSVAL_TYPE_MAGIC
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad
@@ -2001,7 +2001,7 @@ class_
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad
@@ -7825,7 +7825,7 @@ prop
 types
 ;
 }
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Missing

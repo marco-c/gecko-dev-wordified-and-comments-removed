@@ -17295,7 +17295,7 @@ size_t
 index
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no
@@ -17318,7 +17318,7 @@ LDefinition
 temp
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no
@@ -17346,7 +17346,7 @@ i
 )
 const
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no
@@ -17367,7 +17367,7 @@ MBasicBlock
 *
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no
@@ -18610,7 +18610,7 @@ size_t
 index
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no
@@ -18630,7 +18630,7 @@ LDefinition
 a
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no
@@ -18658,7 +18658,7 @@ i
 )
 const
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no
@@ -18679,7 +18679,7 @@ MBasicBlock
 *
 )
 {
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 no

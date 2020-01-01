@@ -2155,7 +2155,7 @@ Yarr
 :
 NoError
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Called
@@ -2286,7 +2286,7 @@ undef
 COMPILE_EMSG
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unknown

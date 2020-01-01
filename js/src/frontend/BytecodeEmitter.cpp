@@ -4762,7 +4762,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -5285,7 +5285,7 @@ Definition
 :
 MISSING
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 unexpected
@@ -5789,7 +5789,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 intrinsic
@@ -6353,7 +6353,7 @@ false
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 gname
@@ -6827,7 +6827,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 arg
@@ -6900,7 +6900,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 local
@@ -7074,7 +7074,7 @@ Definition
 :
 MISSING
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 missing
@@ -7794,7 +7794,7 @@ answer
 )
 ;
 }
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 We
@@ -7857,7 +7857,7 @@ return
 true
 ;
 }
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 We
@@ -16232,7 +16232,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Bad
@@ -17387,7 +17387,7 @@ true
 }
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Unexpected
@@ -25990,7 +25990,7 @@ break
 ;
 default
 :
-JS_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Invalid
