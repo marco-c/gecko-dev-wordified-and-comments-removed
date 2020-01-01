@@ -97,6 +97,9 @@ class
 nsCacheServiceAutoLock
 ;
 class
+nsITimer
+;
+class
 nsCacheService
 :
 public
@@ -470,6 +473,10 @@ friend
 class
 nsBlockOnCacheThreadEvent
 ;
+friend
+class
+nsSetDiskSmartSizeCallback
+;
 static
 void
 Lock
@@ -701,8 +708,6 @@ endif
 nsresult
 SetDiskSmartSize_Locked
 (
-bool
-checkPref
 )
 ;
 static
@@ -738,6 +743,12 @@ nsISupports
 *
 >
 mDoomedObjects
+;
+nsCOMPtr
+<
+nsITimer
+>
+mSmartSizeTimer
 ;
 bool
 mInitialized
