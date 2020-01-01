@@ -2032,7 +2032,6 @@ buildURLOptions
 (
 self
 options
-env
 )
 :
         
@@ -2068,7 +2067,6 @@ buildURLOptions
 (
 self
 options
-env
 )
         
 if
