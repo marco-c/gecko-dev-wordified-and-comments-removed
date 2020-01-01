@@ -171,6 +171,15 @@ h
 #
 include
 "
+v8
+-
+support
+.
+h
+"
+#
+include
+"
 platform
 .
 h
@@ -1034,6 +1043,9 @@ Sampler
 :
 :
 PlatformData
+:
+public
+Malloced
 {
 public
 :
