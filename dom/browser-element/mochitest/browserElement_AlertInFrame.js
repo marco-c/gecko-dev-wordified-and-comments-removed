@@ -23,7 +23,7 @@ true
 ;
 browserElementTestHelpers
 .
-addPermission
+addToWhitelist
 (
 )
 ;
