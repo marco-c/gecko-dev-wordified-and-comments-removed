@@ -2319,6 +2319,7 @@ FirefoxHTML
 {
 AppRegName
 }
+HTML
 Document
 "
 "
@@ -4552,6 +4553,7 @@ FirefoxHTML
 {
 AppRegName
 }
+HTML
 Document
 "
 "
