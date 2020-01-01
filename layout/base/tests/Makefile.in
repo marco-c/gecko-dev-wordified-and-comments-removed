@@ -606,7 +606,7 @@ because
 of
 bug
 469208
-ifneq
+ifeq
 (
 (
 filter
