@@ -961,8 +961,8 @@ word
 ;
 }
 ;
-uint32
-caller_argc
+int32
+spoffset
 ;
 }
 ;
