@@ -945,6 +945,8 @@ aDirtyRect
 nscoord
 &
 aCurrX
+PRBool
+aTextRTL
 )
 ;
 void

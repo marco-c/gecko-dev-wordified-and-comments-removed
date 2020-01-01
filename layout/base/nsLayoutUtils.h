@@ -1117,6 +1117,10 @@ PRInt32
 aLength
 nsPoint
 aPoint
+PRUint8
+aDirection
+=
+NS_STYLE_DIRECTION_INHERIT
 )
 ;
 static
