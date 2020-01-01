@@ -27,6 +27,9 @@ class
 nsIEventTarget
 ;
 class
+nsITransport
+;
+class
 nsHttpRequestHead
 ;
 class
@@ -65,6 +68,9 @@ virtual
 void
 OnTransportStatus
 (
+nsITransport
+*
+transport
 nsresult
 status
 PRUint64
@@ -186,6 +192,10 @@ nsIEventTarget
 void
 OnTransportStatus
 (
+nsITransport
+*
+transport
+\
 nsresult
 status
 PRUint64
