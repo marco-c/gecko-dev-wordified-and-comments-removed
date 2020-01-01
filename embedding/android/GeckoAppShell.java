@@ -436,6 +436,16 @@ String
 status
 )
 ;
+public
+static
+native
+void
+reportJavaCrash
+(
+String
+stack
+)
+;
 private
 static
 class
