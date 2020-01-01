@@ -4860,7 +4860,7 @@ editBookmarkRemove
 label
 ;
 "
-onmousedown
+oncommand
 =
 "
 document

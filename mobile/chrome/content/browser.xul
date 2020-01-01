@@ -5900,7 +5900,7 @@ toggle
 -
 dark
 "
-onmousedown
+onclick
 =
 "
 BrowserUI

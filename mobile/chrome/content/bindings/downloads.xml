@@ -1593,7 +1593,7 @@ close
 -
 button
 "
-onmousedown
+onclick
 =
 "
 DownloadsView
