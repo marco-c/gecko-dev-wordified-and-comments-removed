@@ -149,7 +149,7 @@ o
 {
 inputs
 .
-append
+appendAll
 (
 o
 .
@@ -158,7 +158,7 @@ inputs
 ;
 temps
 .
-append
+appendAll
 (
 o
 .
@@ -167,7 +167,7 @@ temps
 ;
 outputs
 .
-append
+appendAll
 (
 o
 .
@@ -211,7 +211,7 @@ o
 {
 phis
 .
-append
+appendAll
 (
 o
 .

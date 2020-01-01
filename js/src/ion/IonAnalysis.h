@@ -284,7 +284,7 @@ constant_
 {
 terms_
 .
-append
+appendAll
 (
 other
 .

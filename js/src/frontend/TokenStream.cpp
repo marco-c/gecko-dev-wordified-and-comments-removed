@@ -666,6 +666,11 @@ lineIndex
 =
 lineStartOffset
 ;
+uint32_t
+maxPtr
+=
+MAX_PTR
+;
 (
 void
 )
@@ -673,7 +678,7 @@ lineStartOffsets_
 .
 append
 (
-MAX_PTR
+maxPtr
 )
 ;
 }

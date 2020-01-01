@@ -1043,7 +1043,7 @@ other
 {
 m_jumps
 .
-append
+appendAll
 (
 other
 .

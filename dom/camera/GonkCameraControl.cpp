@@ -5246,6 +5246,9 @@ uint32_t
 aHeight
 )
 {
+android
+:
+:
 Vector
 <
 Size
@@ -7163,6 +7166,9 @@ Clear
 (
 )
 ;
+android
+:
+:
 Vector
 <
 Size

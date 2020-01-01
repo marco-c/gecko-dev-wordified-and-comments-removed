@@ -807,6 +807,9 @@ static
 bool
 SuppressCheckRoots
 (
+js
+:
+:
 Vector
 <
 Rooter
@@ -996,6 +999,9 @@ static
 void
 GatherRooters
 (
+js
+:
+:
 Vector
 <
 Rooter
@@ -1245,6 +1251,9 @@ stackMin
 stackEnd
 )
 ;
+js
+:
+:
 Vector
 <
 Rooter

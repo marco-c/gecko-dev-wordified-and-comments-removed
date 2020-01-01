@@ -633,7 +633,7 @@ hugeStrings
 {
 hugeStrings
 .
-append
+appendAll
 (
 other
 .
@@ -724,7 +724,7 @@ undef
 ADD
 hugeStrings
 .
-append
+appendAll
 (
 other
 .

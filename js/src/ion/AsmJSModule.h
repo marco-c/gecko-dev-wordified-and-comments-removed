@@ -3227,7 +3227,7 @@ accesses
 return
 heapAccesses_
 .
-append
+appendAll
 (
 accesses
 )
@@ -3306,7 +3306,7 @@ checks
 return
 boundsChecks_
 .
-append
+appendAll
 (
 checks
 )
