@@ -3286,6 +3286,7 @@ url
 rev_host
 hidden
 favicon_id
+frecency
 guid
 )
 "
@@ -3299,6 +3300,7 @@ rev_host
 1
 :
 favicon_id
+0
 GENERATE_GUID
 (
 )
