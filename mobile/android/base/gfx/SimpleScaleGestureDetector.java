@@ -56,7 +56,6 @@ util
 .
 Stack
 ;
-public
 class
 SimpleScaleGestureDetector
 {
@@ -89,7 +88,6 @@ PointerInfo
 >
 mPointerInfo
 ;
-public
 SimpleScaleGestureDetector
 (
 SimpleScaleGestureListener
