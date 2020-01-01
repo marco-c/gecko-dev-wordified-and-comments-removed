@@ -703,14 +703,6 @@ static
 void
 CCIfUserInactive
 (
-PRBool
-aOrMaybeCC
-=
-PR_TRUE
-PRBool
-aOnlyIfNewSuspectedObjects
-=
-PR_FALSE
 )
 ;
 static

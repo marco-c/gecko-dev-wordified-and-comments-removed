@@ -812,16 +812,6 @@ layout
 /
 base
 \
--
-I
-(
-topsrcdir
-)
-/
-dom
-/
-base
-\
 (
 NULL
 )
