@@ -1,7 +1,4 @@
 #
-define
-__STDC_LIMIT_MACROS
-#
 include
 <
 stdlib
@@ -9440,10 +9437,12 @@ state
 .
 cp
 =
-js_UndependString
+str
+-
+>
+undepend
 (
 cx
-str
 )
 ;
 if

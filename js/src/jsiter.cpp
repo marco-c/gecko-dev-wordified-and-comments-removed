@@ -1,7 +1,4 @@
 #
-define
-__STDC_LIMIT_MACROS
-#
 include
 <
 string
@@ -372,6 +369,10 @@ props
 "
 )
 ;
+if
+(
+obj
+)
 MarkObject
 (
 trc

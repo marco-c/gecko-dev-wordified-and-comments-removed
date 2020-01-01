@@ -1,7 +1,4 @@
 #
-define
-__STDC_LIMIT_MACROS
-#
 include
 <
 string
@@ -6567,6 +6564,15 @@ cx
 JSObject
 *
 scobj
+;
+JSScript
+*
+script
+;
+JSBool
+ok
+;
+scobj
 =
 JS_GetFrameScopeChain
 (
@@ -6582,8 +6588,6 @@ scobj
 return
 JS_FALSE
 ;
-JSScript
-*
 script
 =
 Compiler
@@ -6620,11 +6624,8 @@ script
 return
 JS_FALSE
 ;
-bool
 ok
 =
-!
-!
 Execute
 (
 cx

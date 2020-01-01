@@ -137,9 +137,16 @@ defined
 (
 WIN32
 )
-DebugBreak
+*
 (
+(
+int
+*
 )
+NULL
+)
+=
+0
 ;
 exit
 (

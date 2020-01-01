@@ -1,7 +1,4 @@
 #
-define
-__STDC_LIMIT_MACROS
-#
 include
 <
 string
@@ -6255,8 +6252,6 @@ _typedArray
 :
 :
 obj_deleteProperty
-\
-js_DefaultValue
 \
 _typedArray
 :

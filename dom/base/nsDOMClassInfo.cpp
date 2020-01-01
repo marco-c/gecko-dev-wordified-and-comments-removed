@@ -16124,7 +16124,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+&
 val
 PRBool
 *
@@ -16206,7 +16208,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+&
 val
 PRBool
 *
@@ -21666,7 +21670,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+&
 val
 PRBool
 *
@@ -22398,7 +22404,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+&
 v
 PRBool
 *
@@ -25926,10 +25934,9 @@ jsval
 exn
 ;
 {
-JSAutoTransferRequest
+JSAutoRequest
 transfer
 (
-cx
 my_cx
 )
 ;
@@ -28009,7 +28016,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+&
 val
 PRBool
 *
@@ -42261,7 +42270,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+&
 val
 PRBool
 *

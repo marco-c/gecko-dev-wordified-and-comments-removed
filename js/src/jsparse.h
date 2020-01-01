@@ -3649,7 +3649,7 @@ JSString
 source
 =
 NULL
-uint16
+uintN
 staticLevel
 =
 0

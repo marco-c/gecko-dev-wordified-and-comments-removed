@@ -1,7 +1,4 @@
 #
-define
-__STDC_LIMIT_MACROS
-#
 include
 <
 stdlib
@@ -232,6 +229,13 @@ h
 include
 "
 jsobjinlines
+.
+h
+"
+#
+include
+"
+jsatominlines
 .
 h
 "
@@ -3136,7 +3140,7 @@ SetStaticLevel
 JSTreeContext
 *
 tc
-uint16
+uintN
 staticLevel
 )
 {
@@ -3220,7 +3224,7 @@ lineno
 JSString
 *
 source
-uint16
+uintN
 staticLevel
 )
 {

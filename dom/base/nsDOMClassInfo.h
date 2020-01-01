@@ -1977,7 +1977,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+&
 val
 PRBool
 *
@@ -5997,7 +5999,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+&
 val
 PRBool
 *

@@ -659,10 +659,9 @@ JSFunction
 fun
 ;
 {
-JSAutoTransferRequest
-transfer
+JSAutoRequest
+req
 (
-ccx
 cx
 )
 ;

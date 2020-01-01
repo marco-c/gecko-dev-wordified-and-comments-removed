@@ -356,6 +356,9 @@ nsPresContext
 class
 nsIChannel
 ;
+struct
+nsIntMargin
+;
 #
 ifndef
 have_PrefChangedFunc_typedef

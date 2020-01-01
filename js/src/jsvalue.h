@@ -1271,6 +1271,7 @@ why
 )
 ;
 }
+JS_ALWAYS_INLINE
 void
 setNumber
 (
@@ -1302,6 +1303,7 @@ ui
 )
 ;
 }
+JS_ALWAYS_INLINE
 void
 setNumber
 (
@@ -1333,6 +1335,7 @@ d
 )
 ;
 }
+JS_ALWAYS_INLINE
 void
 setObjectOrNull
 (
@@ -1357,6 +1360,7 @@ setNull
 )
 ;
 }
+JS_ALWAYS_INLINE
 void
 setObjectOrUndefined
 (

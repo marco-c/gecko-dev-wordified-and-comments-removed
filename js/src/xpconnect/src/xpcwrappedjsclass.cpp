@@ -4867,6 +4867,13 @@ GetJSObject
 (
 )
 ;
+JSAutoEnterCompartment
+autoCompartment
+(
+ccx
+obj
+)
+;
 paramCount
 =
 info
