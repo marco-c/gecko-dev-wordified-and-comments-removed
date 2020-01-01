@@ -693,6 +693,16 @@ setDefaultPrefs
 (
 )
 {
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_APP_UPDATE_ENABLED
+true
+)
+;
 /
 /
 Don
