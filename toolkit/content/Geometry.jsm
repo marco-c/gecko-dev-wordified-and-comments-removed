@@ -1626,6 +1626,7 @@ this
 .
 left
 <
+=
 other
 .
 left
@@ -1667,6 +1668,7 @@ this
 .
 top
 <
+=
 other
 .
 top
