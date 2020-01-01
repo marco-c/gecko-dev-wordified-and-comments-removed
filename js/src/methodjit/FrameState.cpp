@@ -5866,16 +5866,6 @@ BinaryAlloc
 alloc
 )
 {
-JS_ASSERT
-(
-fe
--
->
-isCopy
-(
-)
-)
-;
 if
 (
 !
