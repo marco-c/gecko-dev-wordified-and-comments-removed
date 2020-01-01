@@ -435,10 +435,6 @@ Destroy
 )
 ;
 }
-mHost
-=
-NULL
-;
 }
 bool
 ShadowLayersParent

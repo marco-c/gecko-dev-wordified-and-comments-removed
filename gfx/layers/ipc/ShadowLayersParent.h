@@ -190,10 +190,8 @@ ShadowLayerManager
 >
 mLayerManager
 ;
-nsRefPtr
-<
 ShadowLayersHost
->
+*
 mHost
 ;
 nsRefPtr
