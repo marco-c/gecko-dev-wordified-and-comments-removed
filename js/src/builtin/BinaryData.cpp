@@ -4342,7 +4342,7 @@ NULL
 obj
 -
 >
-setFixedSlot
+initFixedSlot
 (
 SLOT_TYPE_REPR
 ObjectValue
@@ -4395,7 +4395,7 @@ NULL
 obj
 -
 >
-setFixedSlot
+initFixedSlot
 (
 SLOT_ARRAY_ELEM_TYPE
 elementTypeVal
@@ -5279,7 +5279,7 @@ asStruct
 structType
 -
 >
-setFixedSlot
+initFixedSlot
 (
 SLOT_TYPE_REPR
 ObjectValue
@@ -5320,7 +5320,7 @@ false
 structType
 -
 >
-setFixedSlot
+initFixedSlot
 (
 SLOT_STRUCT_FIELD_TYPES
 ObjectValue
@@ -7537,7 +7537,7 @@ false
 numFun
 -
 >
-setFixedSlot
+initFixedSlot
 (
 SLOT_TYPE_REPR
 ObjectValue
@@ -7745,6 +7745,8 @@ BLOCK_RESERVED_SLOTS
 )
 |
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 |
 JSCLASS_HAS_CACHED_PROTO
 (
@@ -8212,7 +8214,7 @@ NULL
 obj
 -
 >
-setFixedSlot
+initFixedSlot
 (
 SLOT_DATATYPE
 ObjectValue
@@ -8225,7 +8227,7 @@ type
 obj
 -
 >
-setFixedSlot
+initFixedSlot
 (
 SLOT_BLOCKREFOWNER
 owner

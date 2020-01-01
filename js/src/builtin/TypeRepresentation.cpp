@@ -96,6 +96,8 @@ class_
 "
 TypeRepresentation
 "
+JSCLASS_IMPLEMENTS_BARRIERS
+|
 JSCLASS_HAS_PRIVATE
 JS_PropertyStub
 JS_DeletePropertyStub
