@@ -427,11 +427,6 @@ config
 autoconf
 .
 mk
-DEFINES
-+
-=
--
-DMOZILLA_STRICT_API
 SDK_HEADERS
 =
 \
