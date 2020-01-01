@@ -6485,6 +6485,9 @@ mExperimentalBindingsEnabled
 bool
 mIsXBLScope
 ;
+bool
+mUseXBLScope
+;
 }
 ;
 class
