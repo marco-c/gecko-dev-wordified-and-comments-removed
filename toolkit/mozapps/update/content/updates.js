@@ -1930,6 +1930,11 @@ AddonManager
 SCOPE_APPLICATION
 &
 &
+addon
+.
+isCompatible
+&
+&
 !
 addon
 .
