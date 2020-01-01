@@ -1170,14 +1170,8 @@ pathElem
 >
 GetFlattenedPath
 (
-pathElem
--
->
-PrependLocalTransformTo
-(
 gfxMatrix
 (
-)
 )
 )
 ;
