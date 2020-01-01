@@ -14133,9 +14133,6 @@ rv
 NS_ERROR_FAILURE
 ;
 }
-#
-ifdef
-MOZ_PROFILING
 :
 :
 JS_DefineProfilingFunctions
@@ -14144,8 +14141,6 @@ mContext
 globalObj
 )
 ;
-#
-endif
 #
 ifdef
 NS_TRACE_MALLOC
