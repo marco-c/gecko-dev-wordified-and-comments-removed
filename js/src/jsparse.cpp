@@ -31424,7 +31424,7 @@ TCF_FUN_IS_GENERATOR
 TCF_GENEXP_LAMBDA
 |
 (
-tc
+outertc
 -
 >
 flags
