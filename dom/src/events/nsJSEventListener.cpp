@@ -741,7 +741,7 @@ aEvent
 {
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 target
 =

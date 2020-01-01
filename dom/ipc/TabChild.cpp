@@ -8904,7 +8904,7 @@ true
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 chromeHandler
 =
@@ -8934,6 +8934,12 @@ new
 ContentListener
 (
 this
+)
+;
+NS_ENSURE_TRUE
+(
+listener
+true
 )
 ;
 chromeHandler
@@ -9498,7 +9504,7 @@ false
 ;
 nsCOMPtr
 <
-EventTarget
+nsIDOMEventTarget
 >
 chromeHandler
 =
@@ -9528,6 +9534,12 @@ new
 TabChildGlobal
 (
 this
+)
+;
+NS_ENSURE_TRUE
+(
+scope
+false
 )
 ;
 mTabChildGlobal
