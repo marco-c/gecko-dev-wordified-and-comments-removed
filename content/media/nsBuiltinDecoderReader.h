@@ -134,7 +134,7 @@ mHasVideo
 ;
 #
 ifdef
-MOZ_SAMPLE_TYPE_S16LE
+MOZ_SAMPLE_TYPE_S16
 #
 include
 <

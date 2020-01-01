@@ -819,7 +819,7 @@ length
 nsAudioStream
 :
 :
-FORMAT_S16_LE
+FORMAT_S16
 )
 ;
 mSource
