@@ -23,11 +23,6 @@ Comment
 MOZ_APP_DISPLAYNAME
 mobile
 browser
-Exec
-=
-installdir
-/
-fennec
 StartupWMClass
 =
 Navigator
@@ -52,6 +47,13 @@ MOZ_PLATFORM_MAEMO
 =
 =
 6
+Exec
+=
+installdir
+/
+fennec
+%
+U
 Icon
 =
 /
@@ -142,6 +144,11 @@ url
 ;
 #
 else
+Exec
+=
+installdir
+/
+fennec
 Icon
 =
 MOZ_APP_NAME
