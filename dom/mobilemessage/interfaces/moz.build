@@ -133,11 +133,6 @@ nsIDOMSmsFilter
 idl
 '
 '
-nsIDOMSmsManager
-.
-idl
-'
-'
 nsIDOMSmsSegmentInfo
 .
 idl

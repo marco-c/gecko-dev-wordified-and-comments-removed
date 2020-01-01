@@ -56,13 +56,13 @@ RECEIVER
 "
 ;
 let
-sms
+manager
 =
 window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 ;
 let
 msgText
@@ -101,9 +101,9 @@ state
 ;
 ok
 (
-sms
+manager
 "
-mozSms
+mozMobileMessage
 "
 )
 ;
@@ -132,7 +132,7 @@ SMS
 "
 )
 ;
-sms
+manager
 .
 onsent
 =
@@ -148,7 +148,6 @@ Received
 '
 onsent
 '
-smsmanager
 event
 .
 "
@@ -338,7 +337,7 @@ smsId
 let
 requestRet
 =
-sms
+manager
 .
 send
 (
@@ -415,7 +414,7 @@ smsrequest
 returned
 false
 for
-sms
+manager
 .
 send
 "
@@ -477,7 +476,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 send
 request
@@ -530,7 +529,7 @@ smsId
 let
 requestRet
 =
-sms
+manager
 .
 getMessage
 (
@@ -837,7 +836,7 @@ parameter
 let
 requestRet
 =
-sms
+manager
 .
 delete
 (
@@ -900,7 +899,7 @@ smsrequest
 returned
 false
 for
-sms
+manager
 .
 delete
 "
@@ -962,7 +961,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 delete
 request
@@ -1015,7 +1014,7 @@ smsId
 let
 requestRet
 =
-sms
+manager
 .
 getMessage
 (
@@ -1237,7 +1236,7 @@ cleanUp
 (
 )
 {
-sms
+manager
 .
 onsent
 =

@@ -47,19 +47,19 @@ true
 )
 ;
 let
-mozSms
+manager
 =
 window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 ;
 ok
 (
-mozSms
+manager
 instanceof
-MozSmsManager
+MozMobileMessageManager
 )
 ;
 let
@@ -302,7 +302,7 @@ messages
 let
 cursor
 =
-mozSms
+manager
 .
 getMessages
 (
@@ -379,7 +379,7 @@ threads
 let
 cursor
 =
-mozSms
+manager
 .
 getThreads
 (
@@ -486,7 +486,7 @@ return
 let
 request
 =
-mozSms
+manager
 .
 delete
 (
@@ -698,7 +698,7 @@ function
 (
 )
 {
-mozSms
+manager
 .
 onreceived
 =
@@ -908,7 +908,7 @@ DeleteFirstMessage
 let
 request
 =
-mozSms
+manager
 .
 delete
 (
@@ -1017,7 +1017,7 @@ DeleteLastMessage
 let
 request
 =
-mozSms
+manager
 .
 delete
 (
@@ -1191,7 +1191,7 @@ cleanUp
 return
 ;
 }
-mozSms
+manager
 .
 onreceived
 =
