@@ -396,11 +396,6 @@ ResolveStyleForNonElement
 mStyleContext
 )
 ;
-if
-(
-textStyleContext
-)
-{
 newFrame
 =
 NS_NewTextFrame
@@ -437,7 +432,6 @@ SetPrimaryFrame
 newFrame
 )
 ;
-}
 }
 }
 return

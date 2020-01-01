@@ -541,10 +541,6 @@ pseudoType
 aParentStyleContext
 )
 ;
-if
-(
-newStyleContext
-)
 aMathMLChar
 -
 >

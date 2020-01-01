@@ -274,10 +274,6 @@ ResolveStyleForNonElement
 parentStyleContext
 )
 ;
-if
-(
-newSC
-)
 SetStyleContextWithoutNotification
 (
 newSC
@@ -1445,11 +1441,6 @@ ResolveStyleForNonElement
 parentSC
 )
 ;
-if
-(
-newSC
-)
-{
 continuation
 -
 >
@@ -1458,7 +1449,6 @@ SetStyleContext
 newSC
 )
 ;
-}
 }
 nsFrameList
 temp
@@ -1685,11 +1675,6 @@ ResolveStyleForNonElement
 mStyleContext
 )
 ;
-if
-(
-sc
-)
-{
 kid
 -
 >
@@ -1698,7 +1683,6 @@ SetStyleContext
 sc
 )
 ;
-}
 }
 }
 }

@@ -8003,11 +8003,6 @@ StyleContext
 )
 )
 ;
-if
-(
-areaStyle
-)
-{
 FillCursorInformationFromStyle
 (
 areaStyle
@@ -8039,7 +8034,6 @@ NS_STYLE_CURSOR_DEFAULT
 return
 NS_OK
 ;
-}
 }
 }
 return
