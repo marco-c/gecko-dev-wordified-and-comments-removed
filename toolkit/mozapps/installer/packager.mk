@@ -2852,6 +2852,7 @@ DIST
 (
 MOZ_PKG_APPNAME
 )
+"
 (
 DIST
 )
@@ -2864,6 +2865,8 @@ PKG_BASENAME
 )
 .
 tar
+"
+"
 (
 DIST
 )
@@ -2876,6 +2879,7 @@ PKG_BASENAME
 )
 .
 dmg
+"
 (
 EXCLUDE_LIST
 )
