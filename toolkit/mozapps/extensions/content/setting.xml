@@ -2410,7 +2410,7 @@ inputChanged
 )
 ;
 "
-oncommand
+onchange
 =
 "
 inputChanged
