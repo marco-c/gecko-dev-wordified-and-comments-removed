@@ -36373,9 +36373,6 @@ nsStyleBackground
 *
 bg
 ;
-PRBool
-isCanvas
-;
 while
 (
 !
@@ -36388,8 +36385,6 @@ aPresContext
 aFrame
 &
 bg
-&
-isCanvas
 )
 )
 {
@@ -36583,9 +36578,6 @@ nsStyleBackground
 *
 bg
 ;
-PRBool
-isCanvas
-;
 nsPresContext
 *
 presContext
@@ -36609,8 +36601,6 @@ presContext
 ancestor
 &
 bg
-&
-isCanvas
 )
 )
 {

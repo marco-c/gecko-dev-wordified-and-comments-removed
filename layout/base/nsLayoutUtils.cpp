@@ -14800,9 +14800,6 @@ return
 eTransparencyOpaque
 ;
 }
-PRBool
-isCanvas
-;
 const
 nsStyleBackground
 *
@@ -14825,8 +14822,6 @@ PresContext
 aFrame
 &
 bg
-&
-isCanvas
 )
 )
 return

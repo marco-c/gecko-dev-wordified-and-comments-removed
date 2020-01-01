@@ -2597,9 +2597,6 @@ nsStyleBackground
 bg
 ;
 PRBool
-isCanvas
-;
-PRBool
 hasBG
 =
 nsCSSRendering
@@ -2616,8 +2613,6 @@ PresContext
 mFrame
 &
 bg
-&
-isCanvas
 )
 ;
 return
@@ -2683,9 +2678,6 @@ mIsThemed
 return
 PR_FALSE
 ;
-PRBool
-isCanvas
-;
 const
 nsStyleBackground
 *
@@ -2708,8 +2700,6 @@ PresContext
 mFrame
 &
 bg
-&
-isCanvas
 )
 ;
 if
@@ -2808,9 +2798,6 @@ PresContext
 (
 )
 ;
-PRBool
-isCanvas
-;
 const
 nsStyleBackground
 *
@@ -2828,8 +2815,6 @@ presContext
 mFrame
 &
 bg
-&
-isCanvas
 )
 ;
 if
