@@ -14161,7 +14161,7 @@ cx
 \
 MONITOR_BRANCH
 (
-Monitor_Branch
+Record_Branch
 )
 ;
 \
@@ -14208,7 +14208,7 @@ JSOP_TRACE
 \
 MONITOR_BRANCH
 (
-Monitor_Branch
+Record_Branch
 )
 ;
 \
