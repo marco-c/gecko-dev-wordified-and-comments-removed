@@ -1092,7 +1092,7 @@ mochitest
 &
 zip
 -
-r
+rq
 tests
 .
 jar
@@ -1168,7 +1168,7 @@ mochitest
 &
 tar
 (
-TAR_CREATE_FLAGS
+TAR_CREATE_FLAGS_QUIET
 )
 -
 *
@@ -1269,7 +1269,7 @@ certs
 &
 tar
 (
-TAR_CREATE_FLAGS
+TAR_CREATE_FLAGS_QUIET
 )
 -
 *

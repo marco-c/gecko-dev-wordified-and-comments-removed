@@ -1710,6 +1710,10 @@ TAR_CREATE_FLAGS
 =
 -
 cvhf
+TAR_CREATE_FLAGS_QUIET
+=
+-
+chf
 ifeq
 (
 (
@@ -1721,6 +1725,10 @@ TAR_CREATE_FLAGS
 =
 -
 cvLf
+TAR_CREATE_FLAGS_QUIET
+=
+-
+cLf
 endif
 ifeq
 (
@@ -1733,6 +1741,10 @@ TAR_CREATE_FLAGS
 =
 -
 cvf
+TAR_CREATE_FLAGS_QUIET
+=
+-
+cf
 endif
 #
 #

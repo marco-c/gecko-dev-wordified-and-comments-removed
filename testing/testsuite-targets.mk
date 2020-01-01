@@ -2587,7 +2587,7 @@ PKG_STAGE
 \
 zip
 -
-r9D
+rq9D
 "
 (
 call
@@ -3221,7 +3221,7 @@ tps
 &
 tar
 (
-TAR_CREATE_FLAGS
+TAR_CREATE_FLAGS_QUIET
 )
 -
 *
