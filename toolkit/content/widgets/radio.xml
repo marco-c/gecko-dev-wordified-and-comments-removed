@@ -3138,7 +3138,6 @@ implements
 =
 "
 nsIDOMXULSelectControlItemElement
-nsIDOMXULLabeledControlElement
 nsIAccessibleProvider
 "
 >

@@ -259,6 +259,11 @@ basecontrol
 >
 <
 implementation
+implements
+=
+"
+nsIDOMXULLabeledControlElement
+"
 >
 <
 !
