@@ -177,6 +177,16 @@ notifiedOptOut
 "
 999
 )
+pref
+(
+"
+media
+.
+useAudioChannelService
+"
+true
+)
+;
 ]
 init
 :

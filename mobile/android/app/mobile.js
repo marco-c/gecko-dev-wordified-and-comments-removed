@@ -6663,7 +6663,7 @@ media
 .
 useAudioChannelService
 "
-true
+false
 )
 ;
 pref
