@@ -28196,6 +28196,13 @@ caretCoords
 height
 )
 ;
+aTargetPt
+.
+y
+-
+=
+1
+;
 return
 PR_TRUE
 ;
