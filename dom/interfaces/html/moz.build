@@ -388,11 +388,6 @@ nsIDOMHTMLTableCellElement
 idl
 '
 '
-nsIDOMHTMLTableColElement
-.
-idl
-'
-'
 nsIDOMHTMLTableElement
 .
 idl
