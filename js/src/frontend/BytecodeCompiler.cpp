@@ -1856,13 +1856,6 @@ break
 }
 }
 }
-tokenStream
-.
-mungeCurrentToken
-(
-TOK_LC
-)
-;
 ParseNode
 *
 pn
@@ -1873,6 +1866,10 @@ parser
 .
 functionBody
 (
+Parser
+:
+:
+StatementListBody
 )
 :
 NULL
