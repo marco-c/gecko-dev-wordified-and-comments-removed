@@ -153,6 +153,9 @@ nsIGenericFactory
 h
 "
 #
+ifdef
+NS_PRINTING
+#
 include
 "
 nsDeviceContextSpecWin
@@ -173,6 +176,8 @@ nsPrintSession
 .
 h
 "
+#
+endif
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsWindow
@@ -198,8 +203,8 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 nsFilePicker
 )
 #
-ifndef
-WINCE
+ifdef
+NS_PRINTING
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsSound
@@ -238,6 +243,9 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsScreenManagerWin
 )
+#
+ifdef
+NS_PRINTING
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsPrintOptionsWin
@@ -256,6 +264,8 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsDeviceContextSpecWin
 )
+#
+endif
 static
 const
 nsModuleComponentInfo
@@ -578,6 +588,9 @@ screenmanager
 "
 nsScreenManagerWinConstructor
 }
+#
+ifdef
+NS_PRINTING
 {
 "
 nsPrintOptionsWin
@@ -655,6 +668,8 @@ devicecontextspec
 "
 nsDeviceContextSpecWinConstructor
 }
+#
+endif
 }
 ;
 NS_IMPL_NSGETMODULE_WITH_CTOR_DTOR

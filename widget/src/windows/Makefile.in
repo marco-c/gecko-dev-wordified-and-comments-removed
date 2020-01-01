@@ -530,6 +530,15 @@ nsScreenManagerWin
 .
 cpp
 \
+(
+NULL
+)
+ifdef
+NS_PRINTING
+CPPSRCS
++
+=
+\
 nsPrintOptionsWin
 .
 cpp
@@ -545,6 +554,7 @@ cpp
 (
 NULL
 )
+endif
 ifneq
 (
 (
