@@ -71,7 +71,7 @@ eCSSToken_ID
 eCSSToken_Ref
 eCSSToken_Function
 eCSSToken_URL
-eCSSToken_InvalidURL
+eCSSToken_Bad_URL
 eCSSToken_HTMLComment
 eCSSToken_Includes
 eCSSToken_Dashmatch
@@ -79,7 +79,7 @@ eCSSToken_Beginsmatch
 eCSSToken_Endsmatch
 eCSSToken_Containsmatch
 eCSSToken_URange
-eCSSToken_Error
+eCSSToken_Bad_String
 }
 ;
 struct
