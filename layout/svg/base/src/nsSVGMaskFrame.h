@@ -218,17 +218,5 @@ GetCanvasTM
 ;
 }
 ;
-nsIContent
-*
-NS_GetSVGMaskElement
-(
-nsIURI
-*
-aURI
-nsIContent
-*
-aContent
-)
-;
 #
 endif

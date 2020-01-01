@@ -219,17 +219,5 @@ mInUse
 ;
 }
 ;
-nsIContent
-*
-NS_GetSVGClipPathElement
-(
-nsIURI
-*
-aURI
-nsIContent
-*
-aContent
-)
-;
 #
 endif
