@@ -26423,10 +26423,10 @@ NS_OK
 struct
 ClassMatchingInfo
 {
-nsCOMArray
-<
-nsIAtom
->
+nsAttrValue
+:
+:
+AtomArray
 mClasses
 ;
 nsCaseTreatment
@@ -26486,7 +26486,7 @@ ClassMatchingInfo
 aData
 )
 ;
-PRInt32
+PRUint32
 length
 =
 info
@@ -26494,7 +26494,7 @@ info
 >
 mClasses
 .
-Count
+Length
 (
 )
 ;
@@ -26508,7 +26508,7 @@ return
 PR_FALSE
 ;
 }
-PRInt32
+PRUint32
 i
 ;
 for
@@ -26538,11 +26538,9 @@ info
 -
 >
 mClasses
-.
-ObjectAt
-(
+[
 i
-)
+]
 info
 -
 >
@@ -26643,7 +26641,7 @@ info
 >
 mClasses
 .
-AppendObjects
+SwapElements
 (
 *
 (
@@ -26677,7 +26675,7 @@ info
 >
 mClasses
 .
-AppendObject
+AppendElement
 (
 attrValue
 .

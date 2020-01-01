@@ -3,10 +3,6 @@ if
 !
 defined
 jsjaeger_logging_h__
-&
-&
-defined
-JS_METHODJIT
 #
 define
 jsjaeger_logging_h__

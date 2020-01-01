@@ -6,13 +6,15 @@ define
 RepatchBuffer_h
 #
 include
-<
+"
+assembler
+/
 wtf
 /
 Platform
 .
 h
->
+"
 #
 if
 ENABLE_ASSEMBLER

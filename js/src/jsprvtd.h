@@ -72,6 +72,9 @@ Parser
 struct
 Compiler
 ;
+class
+RegExp
+;
 }
 }
 #
@@ -193,11 +196,6 @@ JSPrinter
 ;
 typedef
 struct
-JSRegExp
-JSRegExp
-;
-typedef
-struct
 JSRegExpStatics
 JSRegExpStatics
 ;
@@ -264,6 +262,15 @@ C
 namespace
 js
 {
+class
+RegExp
+;
+class
+RegExpStatics
+;
+class
+AutoStringRooter
+;
 class
 ExecuteArgsGuard
 ;

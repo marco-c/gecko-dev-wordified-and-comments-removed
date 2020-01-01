@@ -6,13 +6,15 @@ define
 MacroAssemblerX86Common_h
 #
 include
-<
+"
+assembler
+/
 wtf
 /
 Platform
 .
 h
->
+"
 #
 if
 ENABLE_ASSEMBLER
