@@ -303,6 +303,7 @@ eDOMClassInfo_XPathExpression_id
 eDOMClassInfo_XPathNSResolver_id
 eDOMClassInfo_XPathResult_id
 eDOMClassInfo_Storage_id
+eDOMClassInfo_Storage2_id
 eDOMClassInfo_StorageList_id
 eDOMClassInfo_StorageItem_id
 eDOMClassInfo_StorageEvent_id
