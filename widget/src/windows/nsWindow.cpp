@@ -246,13 +246,6 @@ MOZ_CAIRO_GFX
 #
 include
 "
-nsIThebesRenderingContext
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h

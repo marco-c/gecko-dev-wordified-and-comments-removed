@@ -491,10 +491,6 @@ nsDeviceContext
 .
 h
 \
-nsIDrawingSurface
-.
-h
-\
 nsITheme
 .
 h

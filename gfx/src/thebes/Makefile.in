@@ -506,10 +506,6 @@ nsThebesDeviceContext
 .
 cpp
 \
-nsThebesDrawingSurface
-.
-cpp
-\
 nsThebesImage
 .
 cpp
@@ -677,9 +673,6 @@ endif
 EXPORTS
 +
 =
-nsIThebesRenderingContext
-.
-h
 nsIThebesFontMetrics
 .
 h
