@@ -60,6 +60,9 @@ js
 "
 JPAKEClient
 "
+"
+SendCredentialsController
+"
 ]
 "
 notifications
@@ -87,9 +90,6 @@ js
 [
 "
 SyncScheduler
-"
-"
-SendCredentialsController
 "
 ]
 "
