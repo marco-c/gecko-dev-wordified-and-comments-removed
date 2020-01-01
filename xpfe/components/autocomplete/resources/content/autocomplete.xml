@@ -387,15 +387,6 @@ anonid
 "
 popup
 "
-class
-=
-"
-autocomplete
--
-result
--
-popup
-"
 xbl
 :
 inherits
