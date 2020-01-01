@@ -5567,7 +5567,7 @@ flow
 )
 ;
 }
-nsresult
+void
 nsContainerFrame
 :
 :
@@ -5608,16 +5608,6 @@ nsFrameList
 aOverflowFrames
 )
 ;
-if
-(
-!
-newList
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 aPresContext
 -
 >
@@ -5634,9 +5624,6 @@ OverflowProperty
 )
 newList
 )
-;
-return
-NS_OK
 ;
 }
 nsFrameList

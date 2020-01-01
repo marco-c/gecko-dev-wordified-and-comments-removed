@@ -640,7 +640,7 @@ StealOverflowFrames
 (
 )
 ;
-nsresult
+void
 SetOverflowFrames
 (
 nsPresContext
