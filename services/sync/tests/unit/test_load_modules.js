@@ -3,11 +3,6 @@ modules
 =
 [
 "
-auth
-.
-js
-"
-"
 constants
 .
 js

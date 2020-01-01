@@ -49,7 +49,7 @@ services
 -
 sync
 /
-auth
+resource
 .
 js
 "
