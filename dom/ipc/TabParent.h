@@ -971,6 +971,15 @@ PRenderFrameParent
 *
 AllocPRenderFrame
 (
+LayersBackend
+*
+aBackend
+int32_t
+*
+aMaxTextureSize
+uint64_t
+*
+aLayersId
 )
 ;
 NS_OVERRIDE

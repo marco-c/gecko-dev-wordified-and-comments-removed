@@ -293,12 +293,14 @@ sync
 PLayers
 (
 LayersBackend
-backend
+backendHint
 uint64_t
 id
 )
 returns
 (
+LayersBackend
+backend
 int32_t
 maxTextureSize
 )
