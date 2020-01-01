@@ -2656,11 +2656,7 @@ untransformedPageRect
 .
 contains
 (
-mView
-.
-getController
-(
-)
+mFrameMetrics
 .
 getViewport
 (
