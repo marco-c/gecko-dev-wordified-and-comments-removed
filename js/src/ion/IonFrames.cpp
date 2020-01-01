@@ -2521,7 +2521,7 @@ current
 =
 iter
 .
-isBaselineJS
+isScripted
 (
 )
 ?
