@@ -471,6 +471,7 @@ try
 {
 autoResume
 =
+(
 row
 .
 getResultByName
@@ -478,6 +479,10 @@ getResultByName
 "
 autoResume
 "
+)
+=
+=
+1
 )
 ;
 }
