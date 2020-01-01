@@ -1156,7 +1156,7 @@ slots
 >
 mMutationObservers
 .
-AppendObserver
+AppendObserverUnlessExists
 (
 aMutationObserver
 )

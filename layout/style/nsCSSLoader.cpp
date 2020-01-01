@@ -10907,7 +10907,7 @@ if
 (
 mObservers
 .
-AppendObserver
+AppendObserverUnlessExists
 (
 aObserver
 )

@@ -7937,7 +7937,7 @@ NS_ENSURE_TRUE
 (
 mPresShells
 .
-AppendObserver
+AppendObserverUnlessExists
 (
 shell
 )
@@ -10401,7 +10401,7 @@ aObserver
 {
 mObservers
 .
-AppendObserver
+AppendObserverUnlessExists
 (
 aObserver
 )
