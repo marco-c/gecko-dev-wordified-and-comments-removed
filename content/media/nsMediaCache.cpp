@@ -2314,7 +2314,7 @@ mMonitor
 ;
 for
 (
-PRInt32
+PRUint32
 blockIndex
 =
 0
