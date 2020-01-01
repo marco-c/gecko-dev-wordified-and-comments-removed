@@ -94,9 +94,6 @@ HTMLTableElement
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
 HTMLTableElement
-nsGkAtoms
-:
-:
 table
 )
 NS_DECL_ISUPPORTS_INHERITED
