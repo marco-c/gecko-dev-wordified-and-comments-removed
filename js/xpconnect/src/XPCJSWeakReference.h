@@ -53,7 +53,7 @@ nsCOMPtr
 <
 nsIWeakReference
 >
-mWrappedJSObject
+mReferent
 ;
 }
 ;
