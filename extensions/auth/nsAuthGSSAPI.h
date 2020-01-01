@@ -26,6 +26,15 @@ nsString
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 GSS_USE_FUNCTION_POINTERS
 1
@@ -38,6 +47,7 @@ h
 "
 class
 nsAuthGSSAPI
+MOZ_FINAL
 :
 public
 nsIAuthModule
