@@ -14286,15 +14286,6 @@ true
 }
 #
 else
-#
-warning
-"
-Implement
-pluginGetClipboardText
-for
-this
-platform
-"
 bool
 getClipboardText
 (
