@@ -3352,7 +3352,13 @@ happened
 ;
 memcpy
 (
-JS_GetArrayBufferData
+js
+:
+:
+ArrayBuffer
+:
+:
+getDataOffset
 (
 abuf
 )
