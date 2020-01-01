@@ -843,6 +843,8 @@ aObject
 PluginScriptableObjectChild
 *
 actor
+=
+NULL
 ;
 NPError
 result

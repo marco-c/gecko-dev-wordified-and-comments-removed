@@ -3431,9 +3431,6 @@ error
 {
 PLUGIN_LOG_DEBUG_METHOD
 ;
-nsresult
-rv
-;
 mNPNIface
 =
 bFuncs

@@ -28,6 +28,15 @@ unused
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 using
 namespace
 mozilla
@@ -5392,8 +5401,11 @@ str
 )
 )
 {
+DebugOnly
+<
 JSString
 *
+>
 str2
 =
 JS_InternJSString

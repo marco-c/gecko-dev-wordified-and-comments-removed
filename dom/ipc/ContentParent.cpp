@@ -381,6 +381,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h
@@ -1070,6 +1079,9 @@ IsAccessibilityActive
 )
 )
 {
+unused
+<
+<
 SendActivateA11y
 (
 )
@@ -1823,7 +1835,8 @@ lld
 "
 static_cast
 <
-PRInt64
+long
+long
 >
 (
 mProcessStartTime
@@ -2363,7 +2376,10 @@ nsISimpleEnumerator
 >
 enumerator
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 permissionManager
@@ -3692,6 +3708,9 @@ request
 )
 )
 {
+unused
+<
+<
 SendPMemoryReportRequestConstructor
 (
 )
@@ -3777,6 +3796,9 @@ shutdown
 )
 )
 {
+unused
+<
+<
 SendActivateA11y
 (
 )
