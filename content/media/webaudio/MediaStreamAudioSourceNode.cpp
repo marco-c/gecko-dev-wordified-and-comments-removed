@@ -55,7 +55,7 @@ MediaStreamAudioSourceNode
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-MediaStreamAudioSourceNode
+AudioNode
 )
 NS_IMPL_ADDREF_INHERITED
 (
