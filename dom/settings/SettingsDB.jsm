@@ -117,12 +117,15 @@ __proto__
 IndexedDBHelper
 .
 prototype
-createSchema
+upgradeSchema
 :
 function
-createSchema
+upgradeSchema
 (
+aTransaction
 aDb
+aOldVersion
+aNewVersion
 )
 {
 let
