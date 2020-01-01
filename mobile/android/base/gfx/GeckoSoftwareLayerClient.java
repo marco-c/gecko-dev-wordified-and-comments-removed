@@ -445,13 +445,6 @@ setViewportMetrics
 mGeckoViewport
 )
 ;
-layerController
-.
-notifyPanZoomControllerOfGeometryChange
-(
-false
-)
-;
 }
 GeckoAppShell
 .
@@ -642,9 +635,8 @@ mGeckoViewport
 ;
 controller
 .
-notifyPanZoomControllerOfGeometryChange
+abortPanZoomAnimation
 (
-true
 )
 ;
 }
