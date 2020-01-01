@@ -10765,14 +10765,14 @@ cpows
 .
 force
 -
-disabled
+enabled
 "
 false
 )
 )
 sCpowsEnabled
 =
-false
+true
 ;
 return
 true

@@ -35,7 +35,7 @@ async_test
 (
 )
 ;
-sendAsyncMessage
+sendSyncMessage
 (
 "
 cpows
