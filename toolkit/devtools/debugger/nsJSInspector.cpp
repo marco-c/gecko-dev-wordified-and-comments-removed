@@ -36,13 +36,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h

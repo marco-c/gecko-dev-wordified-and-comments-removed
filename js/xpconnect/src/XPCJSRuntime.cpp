@@ -1367,7 +1367,10 @@ JSTracer
 aClosure
 )
 aScriptThing
-js_GetGCThingTraceKind
+js
+:
+:
+GCThingTraceKind
 (
 aScriptThing
 )
@@ -1618,7 +1621,10 @@ if
 (
 AddToCCKind
 (
-js_GetGCThingTraceKind
+js
+:
+:
+GCThingTraceKind
 (
 aThing
 )

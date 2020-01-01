@@ -120,7 +120,9 @@ h
 #
 include
 "
-jsgc
+js
+/
+HeapAPI
 .
 h
 "
@@ -345,6 +347,13 @@ h
 include
 "
 prclist
+.
+h
+"
+#
+include
+"
+prcvar
 .
 h
 "

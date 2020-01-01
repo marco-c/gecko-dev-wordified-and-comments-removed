@@ -15086,10 +15086,7 @@ wakeup
 #
 endif
 }
-JS_FRIEND_API
-(
 void
-)
 GCHelperThread
 :
 :
