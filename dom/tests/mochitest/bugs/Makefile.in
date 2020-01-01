@@ -836,10 +836,6 @@ test_bug654137
 .
 html
 \
-test_bug684544
-.
-html
-\
 test_window_bar
 .
 html
