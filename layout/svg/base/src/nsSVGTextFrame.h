@@ -7,7 +7,7 @@ NS_SVGTEXTFRAME_H
 #
 include
 "
-nsSVGTextContainerFrame
+gfxMatrix
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-gfxMatrix
+nsSVGTextContainerFrame
 .
 h
 "

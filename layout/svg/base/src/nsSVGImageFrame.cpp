@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 imgIContainer
 .
 h

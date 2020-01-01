@@ -1,6 +1,13 @@
 #
 include
 "
+nsSVGMarkerFrame
+.
+h
+"
+#
+include
+"
 nsIDOMSVGAnimatedRect
 .
 h
@@ -22,7 +29,7 @@ h
 #
 include
 "
-nsSVGMarkerFrame
+nsRenderingContext
 .
 h
 "

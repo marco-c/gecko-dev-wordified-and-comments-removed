@@ -333,6 +333,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsFrameManager
 .
 h

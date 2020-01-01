@@ -1,6 +1,13 @@
 #
 include
 "
+nsSVGMaskFrame
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -8,7 +15,7 @@ h
 #
 include
 "
-nsSVGMaskFrame
+nsRenderingContext
 .
 h
 "

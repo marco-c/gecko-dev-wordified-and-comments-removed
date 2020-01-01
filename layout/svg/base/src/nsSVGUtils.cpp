@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsStyleCoord
 .
 h

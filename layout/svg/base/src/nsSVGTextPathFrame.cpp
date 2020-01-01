@@ -54,6 +54,13 @@ nsSVGTextPathElement
 .
 h
 "
+#
+include
+"
+SVGLengthList
+.
+h
+"
 using
 namespace
 mozilla

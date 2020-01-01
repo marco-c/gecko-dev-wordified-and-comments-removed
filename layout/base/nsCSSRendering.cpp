@@ -183,6 +183,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h
