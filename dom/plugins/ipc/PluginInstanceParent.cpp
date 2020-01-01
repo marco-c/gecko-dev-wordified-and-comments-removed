@@ -1450,6 +1450,13 @@ void
 NPDrawingModelCoreGraphics
 )
 ;
+*
+shmem
+=
+null_t
+(
+)
+;
 }
 else
 #
