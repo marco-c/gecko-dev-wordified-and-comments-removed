@@ -497,6 +497,9 @@ NIns
 *
 beginAssembly
 (
+Fragment
+*
+frag
 RegAllocMap
 *
 map

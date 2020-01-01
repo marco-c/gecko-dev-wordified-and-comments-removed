@@ -11143,6 +11143,7 @@ assm
 >
 beginAssembly
 (
+triggerFrag
 &
 regMap
 )
