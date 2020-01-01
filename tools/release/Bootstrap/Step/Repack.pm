@@ -87,14 +87,14 @@ Config
 )
 ;
 my
-buildDir
+l10n_buildDir
 =
 config
 -
 >
 Get
 (
-var
+sysvar
 =
 >
 '
@@ -158,7 +158,7 @@ config
 >
 Get
 (
-var
+sysvar
 =
 >
 '
@@ -204,7 +204,7 @@ lastBuilt
 =
 catfile
 (
-buildDir
+l10n_buildDir
 buildPlatform
 '
 last
