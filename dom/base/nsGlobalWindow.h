@@ -1071,12 +1071,6 @@ void
 )
 SetInitialPrincipalToSubject
 (
-nsIDocShellTreeItem
-*
-aItem
-nsIDOMWindow
-*
-aParent
 )
 ;
 virtual
