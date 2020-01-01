@@ -848,6 +848,10 @@ browser_pluginnotification
 .
 js
 \
+browser_plugins_added_dynamically
+.
+js
+\
 browser_clickToPlayPluginScriptAccessPopup
 .
 js
@@ -1111,7 +1115,7 @@ plugin_both2
 .
 html
 \
-plugin_bug743421
+plugin_add_dynamically
 .
 html
 \
