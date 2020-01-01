@@ -444,14 +444,6 @@ rules
 mk
 _TEST_FILES
 =
-test_audio1
-.
-html
-\
-test_audio2
-.
-html
-\
 test_autoplay
 .
 html
@@ -491,10 +483,6 @@ html
 test_start
 .
 html
-\
-sound
-.
-ogg
 \
 #
 test_bug448534
