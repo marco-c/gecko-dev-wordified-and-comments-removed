@@ -440,6 +440,8 @@ Wall
 Wno
 -
 format
+-
+MMD
 OS_CFLAGS
 =
 -
@@ -460,7 +462,7 @@ ranlib
 MKSHLIB
 =
 (
-CCC
+CC
 )
 -
 dynamiclib

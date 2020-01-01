@@ -423,6 +423,8 @@ Wall
 Wno
 -
 format
+-
+MMD
 OS_CFLAGS
 =
 -
