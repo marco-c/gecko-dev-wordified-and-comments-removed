@@ -1522,7 +1522,7 @@ Register
 scratch
 )
 {
-movqsd
+movq
 (
 reg
 scratch

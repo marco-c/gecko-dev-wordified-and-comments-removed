@@ -2598,7 +2598,7 @@ kind
 }
 }
 void
-movqsd
+movq
 (
 const
 Register
@@ -2628,7 +2628,7 @@ code
 ;
 }
 void
-movqsd
+movq
 (
 const
 FloatRegister
