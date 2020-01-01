@@ -2745,9 +2745,6 @@ pos
 return
 NS_OK
 ;
-nsresult
-rv
-=
 parent
 -
 >
@@ -2756,16 +2753,6 @@ RemoveChildAt
 pos
 true
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 }
 mContentSupportMap

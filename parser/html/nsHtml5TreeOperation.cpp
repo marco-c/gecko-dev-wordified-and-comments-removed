@@ -1180,8 +1180,6 @@ parent
 "
 )
 ;
-rv
-=
 parent
 -
 >
@@ -1191,15 +1189,9 @@ pos
 true
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 }
 return
-rv
+NS_OK
 ;
 }
 case
@@ -1292,8 +1284,6 @@ GetFirstChild
 (
 )
 ;
-rv
-=
 node
 -
 >
@@ -1301,12 +1291,6 @@ RemoveChildAt
 (
 0
 true
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 rv
