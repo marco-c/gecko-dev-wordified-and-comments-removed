@@ -1113,7 +1113,7 @@ aBottomEdgeOfChildren
 )
 ;
 void
-ComputeCombinedArea
+ComputeOverflowAreas
 (
 const
 nsHTMLReflowState
