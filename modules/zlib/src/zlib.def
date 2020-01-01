@@ -1,4 +1,3 @@
-LIBRARY
 ;
 zlib
 data
@@ -22,6 +21,7 @@ MOZ_Z_deflateReset
 MOZ_Z_deflateParams
 MOZ_Z_deflateTune
 MOZ_Z_deflateBound
+MOZ_Z_deflatePending
 MOZ_Z_deflatePrime
 MOZ_Z_deflateSetHeader
 MOZ_Z_inflateSetDictionary
@@ -52,7 +52,6 @@ MOZ_Z_gzprintf
 MOZ_Z_gzputs
 MOZ_Z_gzgets
 MOZ_Z_gzputc
-MOZ_Z_gzgetc
 MOZ_Z_gzungetc
 MOZ_Z_gzflush
 MOZ_Z_gzseek
@@ -66,6 +65,16 @@ MOZ_Z_gzclose_r
 MOZ_Z_gzclose_w
 MOZ_Z_gzerror
 MOZ_Z_gzclearerr
+;
+large
+file
+functions
+MOZ_Z_gzopen64
+MOZ_Z_gzseek64
+MOZ_Z_gztell64
+MOZ_Z_gzoffset64
+MOZ_Z_adler32_combine64
+MOZ_Z_crc32_combine64
 ;
 checksum
 functions
@@ -91,3 +100,7 @@ MOZ_Z_zError
 MOZ_Z_inflateSyncPoint
 MOZ_Z_get_crc_table
 MOZ_Z_inflateUndermine
+MOZ_Z_inflateResetKeep
+MOZ_Z_deflateResetKeep
+MOZ_Z_gzgetc_
+MOZ_Z_gzflags
