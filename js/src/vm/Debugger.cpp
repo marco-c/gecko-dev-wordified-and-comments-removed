@@ -1589,12 +1589,6 @@ cx
 >
 runtime
 ;
-AutoLockGC
-lock
-(
-rt
-)
-;
 JS_APPEND_LINK
 (
 &
