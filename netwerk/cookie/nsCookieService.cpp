@@ -9834,9 +9834,6 @@ aHostURI
 aCookieHeader
 aCookie
 foundCookie
-!
-=
-nsnull
 )
 ;
 }
