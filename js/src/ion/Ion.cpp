@@ -442,6 +442,17 @@ Blocks
 if
 (
 !
+BuildPhiReverseMapping
+(
+graph
+)
+)
+return
+false
+;
+if
+(
+!
 ApplyTypeInformation
 (
 graph
