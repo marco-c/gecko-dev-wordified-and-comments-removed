@@ -584,7 +584,7 @@ view
 mView
 ;
 return
-mView
+view
 .
 forget
 (
