@@ -1775,7 +1775,7 @@ audio_len
 0
 )
 {
-size_t
+ssize_t
 written
 =
 write
