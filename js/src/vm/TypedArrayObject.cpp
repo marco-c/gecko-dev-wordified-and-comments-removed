@@ -418,9 +418,7 @@ ToClampedIndex
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 uint32_t
 length
