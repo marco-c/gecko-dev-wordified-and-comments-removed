@@ -4550,6 +4550,7 @@ function
 handleFallbackToCompleteUpdate
 (
 update
+postStaging
 )
 {
 cleanupActiveUpdate
@@ -4660,7 +4661,8 @@ nsIApplicationUpdateService
 downloadUpdate
 (
 update
-true
+!
+postStaging
 )
 ;
 if
@@ -7334,6 +7336,7 @@ return
 handleFallbackToCompleteUpdate
 (
 update
+false
 )
 ;
 prompter
@@ -11002,6 +11005,7 @@ ary
 handleFallbackToCompleteUpdate
 (
 update
+true
 )
 ;
 }
