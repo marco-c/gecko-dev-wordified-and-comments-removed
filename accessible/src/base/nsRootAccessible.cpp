@@ -4299,6 +4299,14 @@ aStart
 PR_TRUE
 )
 ;
+if
+(
+!
+accDoc
+)
+return
+nsnull
+;
 nsCOMPtr
 <
 nsIAccessible
