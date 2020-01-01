@@ -31,7 +31,7 @@ MOZ_XUL
 #
 include
 "
-nsIAccessibleTreeCache
+nsXULTreeAccessible
 .
 h
 "
@@ -371,7 +371,7 @@ HandleTreeRowCountChangedEvent
 nsIDOMEvent
 *
 aEvent
-nsIAccessibleTreeCache
+nsXULTreeAccessible
 *
 aAccessible
 )
@@ -382,7 +382,7 @@ HandleTreeInvalidatedEvent
 nsIDOMEvent
 *
 aEvent
-nsIAccessibleTreeCache
+nsXULTreeAccessible
 *
 aAccessible
 )
