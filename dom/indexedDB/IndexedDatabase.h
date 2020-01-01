@@ -62,6 +62,10 @@ h
 "
 #
 define
+DB_SCHEMA_VERSION
+6
+#
+define
 BEGIN_INDEXEDDB_NAMESPACE
 \
 namespace
