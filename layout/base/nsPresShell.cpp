@@ -34111,6 +34111,17 @@ GetRootView
 rootView
 )
 ;
+NS_ENSURE_TRUE
+(
+rootView
+-
+>
+HasWidget
+(
+)
+PR_FALSE
+)
+;
 void
 *
 nativeParentWidget
