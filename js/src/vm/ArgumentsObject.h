@@ -211,7 +211,7 @@ class
 GetPropCompiler
 ;
 friend
-class
+struct
 mjit
 :
 :
