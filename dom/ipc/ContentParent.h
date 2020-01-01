@@ -587,15 +587,6 @@ aPermissions
 ;
 virtual
 bool
-RecvGetIndexedDBDirectory
-(
-nsString
-*
-aDirectory
-)
-;
-virtual
-bool
 RecvSetClipboardText
 (
 const

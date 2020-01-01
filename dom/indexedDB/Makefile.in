@@ -194,6 +194,10 @@ dom
 indexedDB
 =
 \
+DatabaseInfo
+.
+h
+\
 IDBCursor
 .
 h
@@ -413,6 +417,10 @@ idl
 (
 NULL
 )
+DIRS
++
+=
+ipc
 TEST_DIRS
 +
 =

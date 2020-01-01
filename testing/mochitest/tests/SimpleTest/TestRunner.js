@@ -825,6 +825,13 @@ function
 (
 )
 {
+if
+(
+TestRunner
+.
+_failureFile
+)
+{
 var
 failures
 =
@@ -856,6 +863,7 @@ close
 (
 )
 ;
+}
 }
 ;
 TestRunner

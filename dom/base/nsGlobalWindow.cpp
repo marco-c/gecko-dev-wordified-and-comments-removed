@@ -33362,6 +33362,9 @@ if
 mIndexedDB
 )
 {
+nsresult
+rv
+;
 if
 (
 !
@@ -33390,7 +33393,6 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 bool
 isThirdParty
 ;
-nsresult
 rv
 =
 thirdPartyUtil
@@ -33442,7 +33444,7 @@ NS_OK
 ;
 }
 }
-mIndexedDB
+rv
 =
 indexedDB
 :
@@ -33453,12 +33455,16 @@ IDBFactory
 Create
 (
 this
-)
-;
-NS_ENSURE_TRUE
+getter_AddRefs
 (
 mIndexedDB
-NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
+)
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }

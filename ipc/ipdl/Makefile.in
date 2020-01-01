@@ -239,6 +239,12 @@ exthandler
 \
 dom
 /
+indexedDB
+/
+ipc
+\
+dom
+/
 plugins
 /
 ipc
