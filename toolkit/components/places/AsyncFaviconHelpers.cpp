@@ -1164,10 +1164,17 @@ stmt
 GetInt64
 (
 1
+reinterpret_cast
+<
+int64_t
+*
+>
+(
 &
 _icon
 .
 expiration
+)
 )
 ;
 NS_ENSURE_SUCCESS
