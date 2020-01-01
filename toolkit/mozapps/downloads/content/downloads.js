@@ -1503,6 +1503,9 @@ e
 #
 ifdef
 XP_WIN
+#
+ifndef
+WINCE
 try
 {
 var
@@ -1558,6 +1561,8 @@ ex
 )
 {
 }
+#
+endif
 #
 endif
 if
