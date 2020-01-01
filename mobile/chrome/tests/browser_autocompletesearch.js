@@ -546,8 +546,6 @@ extract
 =
 mockCacheURI
 .
-JARFile
-.
 spec
 .
 split
