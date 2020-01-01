@@ -138,6 +138,14 @@ sSingleton
 )
 ;
 }
+void
+Swap
+(
+nsSMILValue
+&
+aOther
+)
+;
 nsresult
 Add
 (
