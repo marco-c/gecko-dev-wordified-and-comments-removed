@@ -303,6 +303,10 @@ migration
 .
 properties
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS1
 (
 nsSafariProfileMigrator
