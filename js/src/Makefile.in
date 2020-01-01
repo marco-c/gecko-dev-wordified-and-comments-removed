@@ -1253,6 +1253,12 @@ need
 c
 AS_DASH_C_FLAG
 =
+ASFLAGS
++
+=
+-
+arch
+6
 ASFILES
 +
 =
