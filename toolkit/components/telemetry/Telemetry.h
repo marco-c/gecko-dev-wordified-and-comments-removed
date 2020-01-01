@@ -46,6 +46,12 @@ nsStringGlue
 h
 "
 #
+if
+defined
+(
+MOZ_ENABLE_PROFILER_SPS
+)
+#
 include
 "
 shared
@@ -54,6 +60,8 @@ libraries
 .
 h
 "
+#
+endif
 namespace
 base
 {
@@ -298,6 +306,12 @@ uintptr_t
 >
 HangStack
 ;
+#
+if
+defined
+(
+MOZ_ENABLE_PROFILER_SPS
+)
 void
 RecordChromeHang
 (
@@ -312,6 +326,8 @@ SharedLibraryInfo
 moduleMap
 )
 ;
+#
+endif
 }
 }
 #

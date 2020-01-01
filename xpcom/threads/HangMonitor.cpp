@@ -83,6 +83,12 @@ endif
 if
 defined
 (
+MOZ_ENABLE_PROFILER_SPS
+)
+&
+&
+defined
+(
 MOZ_PROFILING
 )
 &
@@ -700,6 +706,9 @@ waitCount
 =
 0
 ;
+#
+ifdef
+REPORT_CHROME_HANGS
 Telemetry
 :
 :
@@ -709,6 +718,8 @@ hangStack
 SharedLibraryInfo
 hangModuleMap
 ;
+#
+endif
 while
 (
 true
