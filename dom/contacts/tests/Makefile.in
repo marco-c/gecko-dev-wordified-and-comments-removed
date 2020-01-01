@@ -102,6 +102,10 @@ test_contacts_basics
 .
 html
 \
+test_contacts_events
+.
+html
+\
 (
 NULL
 )
