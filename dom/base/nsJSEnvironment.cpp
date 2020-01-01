@@ -657,6 +657,10 @@ AnalysisPurgeCallback
 sPrevAnalysisPurgeCallback
 ;
 static
+bool
+sHasRunGC
+;
+static
 uint32_t
 sPendingLoadCount
 ;
@@ -13204,6 +13208,10 @@ sCCTimer
 |
 |
 sShuttingDown
+|
+|
+!
+sHasRunGC
 )
 {
 return
@@ -13871,6 +13879,10 @@ sNeedsFullCC
 =
 true
 ;
+sHasRunGC
+=
+true
+;
 nsJSContext
 :
 :
@@ -14360,6 +14372,10 @@ sCCLockedOutTime
 sLastCCEndTime
 =
 0
+;
+sHasRunGC
+=
+false
 ;
 sPendingLoadCount
 =
