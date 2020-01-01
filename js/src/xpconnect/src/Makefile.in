@@ -495,6 +495,11 @@ endif
 LIBXUL_LIBRARY
 =
 1
+EXPORTS
+=
+xpcpublic
+.
+h
 CPPSRCS
 =
 \
