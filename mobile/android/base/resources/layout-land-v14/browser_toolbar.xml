@@ -601,6 +601,15 @@ true
 "
 android
 :
+background
+=
+"
+drawable
+/
+address_bar_url
+"
+android
+:
 singleLine
 =
 "
