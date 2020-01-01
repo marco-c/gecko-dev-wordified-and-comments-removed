@@ -2564,6 +2564,16 @@ frame
 ok
 )
 ;
+if
+(
+frame
+-
+>
+isNonEvalFunctionFrame
+(
+)
+)
+{
 JS_ASSERT_IF
 (
 ok
@@ -2584,6 +2594,7 @@ frame
 cx
 )
 ;
+}
 return
 ok
 ;

@@ -253,6 +253,13 @@ if
 !
 debugTrapHandler_
 )
+{
+AutoEnterAtomsCompartment
+ac
+(
+cx
+)
+;
 debugTrapHandler_
 =
 generateDebugTrapHandler
@@ -260,6 +267,7 @@ generateDebugTrapHandler
 cx
 )
 ;
+}
 return
 debugTrapHandler_
 ;
