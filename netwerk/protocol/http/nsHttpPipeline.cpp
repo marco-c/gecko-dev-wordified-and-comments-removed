@@ -1685,6 +1685,14 @@ Request
 i
 )
 ;
+trans
+-
+>
+SetConnection
+(
+mConnection
+)
+;
 outTransactions
 .
 AppendElement
