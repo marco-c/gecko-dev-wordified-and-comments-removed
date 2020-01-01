@@ -8542,6 +8542,12 @@ mode_
 =
 =
 TypeBarrier
+|
+|
+mode_
+=
+=
+Fallible
 )
 setGuard
 (
