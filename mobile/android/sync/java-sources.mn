@@ -858,6 +858,15 @@ sync
 /
 repositories
 /
+domain
+/
+TabsRecord
+.
+java
+sync
+/
+repositories
+/
 HashSetStoreTracker
 .
 java
