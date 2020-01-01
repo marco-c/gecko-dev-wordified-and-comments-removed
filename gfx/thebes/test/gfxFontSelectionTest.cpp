@@ -1363,14 +1363,6 @@ flags
 }
 else
 {
-flags
-|
-=
-gfxTextRunFactory
-:
-:
-TEXT_HAS_SURROGATES
-;
 NS_ConvertUTF8toUTF16
 str
 (

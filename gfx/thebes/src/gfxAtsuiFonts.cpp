@@ -3090,14 +3090,6 @@ textRun
 return
 nsnull
 ;
-textRun
--
->
-RecordSurrogates
-(
-aString
-)
-;
 gfxPlatformMac
 :
 :

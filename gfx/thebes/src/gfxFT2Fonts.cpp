@@ -1401,14 +1401,6 @@ textRun
 return
 nsnull
 ;
-textRun
--
->
-RecordSurrogates
-(
-aString
-)
-;
 mString
 .
 Assign

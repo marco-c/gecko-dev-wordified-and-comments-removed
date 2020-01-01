@@ -2849,14 +2849,6 @@ gfxTextRunFactory
 TEXT_OPTIMIZE_SPEED
 )
 ;
-textRun
--
->
-RecordSurrogates
-(
-aString
-)
-;
 nsCAutoString
 utf8
 ;

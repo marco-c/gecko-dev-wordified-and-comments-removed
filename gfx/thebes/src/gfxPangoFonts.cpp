@@ -11226,14 +11226,6 @@ run
 return
 nsnull
 ;
-run
--
->
-RecordSurrogates
-(
-aString
-)
-;
 nsCAutoString
 utf8
 ;
