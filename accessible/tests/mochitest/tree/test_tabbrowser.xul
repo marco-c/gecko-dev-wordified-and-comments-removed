@@ -360,14 +360,14 @@ eventSeq
 =
 [
 new
-invokerChecker
+asyncInvokerChecker
 (
 EVENT_DOCUMENT_LOAD_COMPLETE
 tabDocumentAt
 0
 )
 new
-invokerChecker
+asyncInvokerChecker
 (
 EVENT_DOCUMENT_LOAD_COMPLETE
 tabDocumentAt
