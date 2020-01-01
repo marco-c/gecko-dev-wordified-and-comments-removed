@@ -137,6 +137,11 @@ inTryBlock
 1
 ;
 bool
+inLoop
+:
+1
+;
+bool
 safePoint
 :
 1
@@ -4291,6 +4296,9 @@ currentOffset
 unsigned
 *
 forwardJump
+unsigned
+*
+forwardLoop
 unsigned
 stackDepth
 )
