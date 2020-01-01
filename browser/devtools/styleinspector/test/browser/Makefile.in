@@ -461,6 +461,10 @@ browser_styleinspector_webconsole
 .
 js
 \
+browser_bug683672
+.
+js
+\
 head
 .
 js
@@ -474,6 +478,10 @@ _BROWSER_TEST_PAGES
 browser_styleinspector_webconsole
 .
 htm
+\
+browser_bug683672
+.
+html
 \
 (
 NULL

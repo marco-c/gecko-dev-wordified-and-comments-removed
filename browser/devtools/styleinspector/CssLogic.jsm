@@ -2327,6 +2327,9 @@ CssSheet
 prototype
 =
 {
+_passId
+:
+null
 get
 href
 (
@@ -3133,6 +3136,9 @@ CssRule
 prototype
 =
 {
+_passId
+:
+null
 get
 sheetAllowed
 (
@@ -3574,6 +3580,9 @@ CssSelector
 prototype
 =
 {
+_matchId
+:
+null
 get
 source
 (
