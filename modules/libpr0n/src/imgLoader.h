@@ -704,6 +704,9 @@ mSize
 }
 ;
 class
+imgMemoryReporter
+;
+class
 imgLoader
 :
 public
@@ -1135,6 +1138,10 @@ private
 friend
 class
 imgCacheEntry
+;
+friend
+class
+imgMemoryReporter
 ;
 static
 imgCacheTable

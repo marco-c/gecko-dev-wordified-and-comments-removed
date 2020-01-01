@@ -165,6 +165,16 @@ PRUint32
 writeCount
 )
 ;
+PRUint32
+GetDecodedDataSize
+(
+)
+;
+PRUint32
+GetSourceDataSize
+(
+)
+;
 private
 :
 struct
