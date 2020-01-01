@@ -63,6 +63,11 @@ nsAudioStream
 (
 )
 ;
+~
+nsAudioStream
+(
+)
+;
 void
 Init
 (
