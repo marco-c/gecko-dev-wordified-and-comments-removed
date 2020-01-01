@@ -82,7 +82,7 @@ aTarget
 nsIAtom
 *
 aType
-void
+JSObject
 *
 aHandler
 )
@@ -99,7 +99,7 @@ virtual
 void
 SetHandler
 (
-void
+JSObject
 *
 aHandler
 )
