@@ -6213,10 +6213,6 @@ doc
 return
 nsnull
 ;
-if
-(
-doc
-)
 doc
 -
 >
