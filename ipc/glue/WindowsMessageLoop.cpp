@@ -358,6 +358,9 @@ case
 WM_ACTIVATEAPP
 :
 case
+WM_CAPTURECHANGED
+:
+case
 WM_CHILDACTIVATE
 :
 case
