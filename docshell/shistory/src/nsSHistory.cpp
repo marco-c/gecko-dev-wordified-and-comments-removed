@@ -3411,7 +3411,7 @@ trans
 ;
 for
 (
-uint32_t
+int32_t
 i
 =
 startSafeIndex
