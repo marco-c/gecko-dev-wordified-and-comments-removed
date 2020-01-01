@@ -2428,16 +2428,10 @@ PRPackedBool
 mIsVisible
 ;
 PRPackedBool
-mIsInMouseCapture
-;
-PRPackedBool
 mUnicodeWidget
 ;
 PRPackedBool
 mPainting
-;
-PRPackedBool
-mExitToNonClientArea
 ;
 PRPackedBool
 mTouchWindow
@@ -2525,6 +2519,10 @@ sJustGotDeactivate
 static
 PRBool
 sJustGotActivate
+;
+static
+PRBool
+sIsInMouseCapture
 ;
 static
 int
