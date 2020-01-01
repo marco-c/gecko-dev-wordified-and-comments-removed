@@ -1162,7 +1162,6 @@ jsid
 idp
 )
 ;
-}
 extern
 const
 js
@@ -1170,7 +1169,7 @@ js
 :
 Value
 &
-js_GetUpvar
+GetUpvar
 (
 JSContext
 *
@@ -1184,6 +1183,7 @@ UpvarCookie
 cookie
 )
 ;
+}
 #
 ifndef
 JS_LONE_INTERPRET

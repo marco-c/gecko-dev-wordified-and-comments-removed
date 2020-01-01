@@ -8874,13 +8874,10 @@ cg
 staticLevel
 >
 =
-JS_DISPLAY_SIZE
-|
-|
-upvarLevel
->
-=
-JS_DISPLAY_SIZE
+UpvarCookie
+:
+:
+UPVAR_LEVEL_LIMIT
 )
 return
 true
@@ -10051,6 +10048,7 @@ cg
 )
 ;
 }
+const
 uintN
 skip
 =
@@ -10147,7 +10145,10 @@ if
 level
 >
 =
-JS_DISPLAY_SIZE
+UpvarCookie
+:
+:
+UPVAR_LEVEL_LIMIT
 )
 return
 JS_TRUE

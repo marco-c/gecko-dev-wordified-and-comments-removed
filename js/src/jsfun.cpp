@@ -11904,7 +11904,7 @@ dslots
 i
 ]
 =
-js_GetUpvar
+GetUpvar
 (
 cx
 level
