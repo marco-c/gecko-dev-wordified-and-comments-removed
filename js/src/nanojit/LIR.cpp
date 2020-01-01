@@ -3938,10 +3938,6 @@ isconst
 )
 )
 {
-LIns
-*
-t
-;
 switch
 (
 v
@@ -3971,6 +3967,9 @@ LIR_and
 case
 LIR_eq
 :
+{
+LIns
+*
 t
 =
 oprnd2
@@ -3985,6 +3984,7 @@ t
 ;
 break
 ;
+}
 default
 :
 if
