@@ -1443,6 +1443,12 @@ ignore_errors
 '
 :
 ignore_errors
+            
+'
+ignore_children
+'
+:
+True
         
 }
         
@@ -1671,6 +1677,9 @@ False
 ignore_errors
 =
 False
+ignore_children
+=
+False
 )
 :
         
@@ -1793,6 +1802,16 @@ UNIX
 -
 like
 shell
+.
+        
+ignore_children
+is
+proxied
+to
+mozprocess
+'
+s
+ignore_children
 .
         
 "
@@ -1985,6 +2004,10 @@ handleLine
 universal_newlines
 =
 True
+            
+ignore_children
+=
+ignore_children
 )
         
 p
