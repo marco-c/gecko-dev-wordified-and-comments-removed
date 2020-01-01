@@ -76,6 +76,14 @@ aURI
 )
 ;
 NS_IMETHOD
+LaunchWithFile
+(
+nsIFile
+*
+aFile
+)
+;
+NS_IMETHOD
 GetHasDefaultHandler
 (
 PRBool
