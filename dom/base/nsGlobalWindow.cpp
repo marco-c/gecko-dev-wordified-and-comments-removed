@@ -28977,6 +28977,12 @@ true
 bool
 indirect
 =
+GetContextInternal
+(
+)
+&
+&
+(
 nsContentUtils
 :
 :
@@ -28992,6 +28998,7 @@ GetContextInternal
 >
 GetNativeContext
 (
+)
 )
 ;
 if
