@@ -372,7 +372,7 @@ querySelector
 (
 "
 .
-userStyles
+onlyuserstyles
 "
 )
 ;
@@ -537,14 +537,7 @@ aName
 return
 propView
 .
-className
-=
-=
-"
-property
--
-view
-"
+visible
 ;
 }
 }
