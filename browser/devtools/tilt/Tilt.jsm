@@ -872,11 +872,11 @@ enabled
 &
 &
 (
-TiltVisualizer
+TiltGL
 .
-Prefs
-.
-forceEnabled
+isWebGLForceEnabled
+(
+)
 |
 |
 TiltGL
