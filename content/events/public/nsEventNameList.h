@@ -359,6 +359,13 @@ NS_MOUSE_EVENT
 )
 EVENT
 (
+mozfullscreenchange
+NS_FULLSCREENCHANGE
+EventNameType_HTML
+NS_EVENT_NULL
+)
+EVENT
+(
 pause
 NS_PAUSE
 EventNameType_HTML

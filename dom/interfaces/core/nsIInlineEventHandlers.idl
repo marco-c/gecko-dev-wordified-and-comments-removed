@@ -704,6 +704,13 @@ implicit_jscontext
 ]
 attribute
 jsval
+onmozfullscreenchange
+;
+[
+implicit_jscontext
+]
+attribute
+jsval
 onpause
 ;
 [

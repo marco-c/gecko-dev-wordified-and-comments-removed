@@ -226,6 +226,7 @@ endif
 eDOMEvents_afterpaint
 eDOMEvents_beforepaint
 eDOMEvents_beforeresize
+eDOMEvents_mozfullscreenchange
 eDOMEvents_MozSwipeGesture
 eDOMEvents_MozMagnifyGestureStart
 eDOMEvents_MozMagnifyGestureUpdate

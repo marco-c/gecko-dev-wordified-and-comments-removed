@@ -505,6 +505,9 @@ MozBeforePaint
 MozBeforeResize
 "
 "
+mozfullscreenchange
+"
+"
 MozSwipeGesture
 "
 "
@@ -6109,6 +6112,15 @@ return
 sEventNames
 [
 eDOMEvents_deviceorientation
+]
+;
+case
+NS_FULLSCREENCHANGE
+:
+return
+sEventNames
+[
+eDOMEvents_mozfullscreenchange
 ]
 ;
 default

@@ -3766,6 +3766,13 @@ mouseup
 )
 GK_ATOM
 (
+mozfullscreenchange
+"
+mozfullscreenchange
+"
+)
+GK_ATOM
+(
 moz_opaque
 "
 moz
@@ -4566,6 +4573,13 @@ GK_ATOM
 onMozBeforePaint
 "
 onMozBeforePaint
+"
+)
+GK_ATOM
+(
+onmozfullscreenchange
+"
+onmozfullscreenchange
 "
 )
 GK_ATOM
