@@ -79,6 +79,9 @@ MOZ_B2G_VERSION
 0
 -
 prerelease
+MOZ_B2G_OS_NAME
+=
+Boot2Gecko
 MOZ_BRANDING_DIRECTORY
 =
 b2g
