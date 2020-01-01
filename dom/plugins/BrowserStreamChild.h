@@ -316,7 +316,7 @@ work
 ;
 mStreamStatus
 =
-NPRES_NETWORK_ERR
+NPRES_USER_BREAK
 ;
 Deliver
 (
