@@ -172,6 +172,9 @@ MOZ_B2G_BT
 '
 ]
 :
+LIBXUL_LIBRARY
+=
+True
 MODULE
 =
 '

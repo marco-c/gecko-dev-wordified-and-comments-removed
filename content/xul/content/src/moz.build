@@ -106,6 +106,9 @@ MOZ_XUL
 '
 ]
 :
+LIBXUL_LIBRARY
+=
+True
 CPP_SOURCES
 +
 =

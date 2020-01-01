@@ -110,6 +110,9 @@ CONFIG
 _MSC_VER
 '
 ]
+LIBXUL_LIBRARY
+=
+True
 MODULE
 =
 '

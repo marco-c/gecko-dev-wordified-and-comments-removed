@@ -153,10 +153,6 @@ VISIBILITY_FLAGS
 FORCE_STATIC_LIB
 =
 1
-else
-LIBXUL_LIBRARY
-=
-1
 endif
 ifeq
 (
