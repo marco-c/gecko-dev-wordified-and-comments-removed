@@ -76,9 +76,6 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-JS_ASMJS
 static
 bool
 LinkFail
@@ -3264,5 +3261,3 @@ native
 LinkAsmJS
 ;
 }
-#
-endif

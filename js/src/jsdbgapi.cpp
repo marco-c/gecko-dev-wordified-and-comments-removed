@@ -134,7 +134,7 @@ h
 "
 #
 ifdef
-JS_ASMJS
+JS_ION
 #
 include
 "
@@ -4947,7 +4947,7 @@ script
 if
 defined
 (
-JS_ASMJS
+JS_ION
 )
 &
 &

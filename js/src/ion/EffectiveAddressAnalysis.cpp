@@ -13,9 +13,6 @@ using
 namespace
 ion
 ;
-#
-ifdef
-JS_ASMJS
 static
 void
 AnalyzeLsh
@@ -576,8 +573,6 @@ eaddr
 )
 ;
 }
-#
-endif
 bool
 EffectiveAddressAnalysis
 :
@@ -586,12 +581,6 @@ analyze
 (
 )
 {
-#
-if
-defined
-(
-JS_ASMJS
-)
 for
 (
 ReversePostorderIterator
@@ -668,8 +657,6 @@ toLsh
 ;
 }
 }
-#
-endif
 return
 true
 ;
