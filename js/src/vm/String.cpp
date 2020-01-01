@@ -2212,6 +2212,14 @@ lengthFits
 (
 wholeLength
 )
+&
+&
+cx
+-
+>
+isJSContext
+(
+)
 )
 {
 JSShortString

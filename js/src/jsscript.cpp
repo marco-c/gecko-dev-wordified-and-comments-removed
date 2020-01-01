@@ -8709,6 +8709,8 @@ if
 rt
 -
 >
+mainThread
+.
 gcKeepAtoms
 )
 {
@@ -11225,14 +11227,12 @@ newScriptHook
 )
 {
 AutoKeepAtoms
-keep
+keepAtoms
 (
 cx
 -
 >
-runtime
-(
-)
+perThreadData
 )
 ;
 hook

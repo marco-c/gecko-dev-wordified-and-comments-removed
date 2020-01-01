@@ -7120,9 +7120,12 @@ runtime
 )
 ;
 AutoKeepAtoms
-keep
+keepAtoms
 (
-rt
+cx
+-
+>
+perThreadData
 )
 ;
 GC
@@ -11949,6 +11952,8 @@ if
 rt
 -
 >
+mainThread
+.
 activeCompilations
 )
 rt
@@ -12976,6 +12981,8 @@ gcIsFull
 rt
 -
 >
+mainThread
+.
 gcKeepAtoms
 )
 {
@@ -20837,6 +20844,8 @@ if
 rt
 -
 >
+mainThread
+.
 gcKeepAtoms
 )
 return

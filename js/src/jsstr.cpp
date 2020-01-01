@@ -20278,6 +20278,15 @@ isPrimitive
 if
 (
 !
+cx
+-
+>
+shouldBeJSContext
+(
+)
+|
+|
+!
 allowGC
 )
 return

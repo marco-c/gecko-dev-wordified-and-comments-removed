@@ -2212,7 +2212,6 @@ true
 ;
 if
 (
-!
 cx
 -
 >
@@ -2220,9 +2219,6 @@ isJSContext
 (
 )
 )
-return
-false
-;
 JS_ReportErrorNumber
 (
 cx
@@ -2391,6 +2387,19 @@ oldLen
 )
 return
 true
+;
+if
+(
+!
+cx
+-
+>
+isJSContext
+(
+)
+)
+return
+false
 ;
 if
 (
