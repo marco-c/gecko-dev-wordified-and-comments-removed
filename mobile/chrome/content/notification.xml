@@ -866,6 +866,9 @@ newTab
 this
 .
 href
+Browser
+.
+selectedTab
 )
 ;
 return

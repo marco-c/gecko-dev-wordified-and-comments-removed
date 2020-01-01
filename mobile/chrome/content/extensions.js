@@ -3991,6 +3991,9 @@ browseURL
 +
 "
 '
+Browser
+.
+selectedTab
 )
 ;
 "
@@ -4726,6 +4729,9 @@ BrowserUI
 newTab
 (
 uri
+Browser
+.
+selectedTab
 )
 ;
 }
@@ -4825,6 +4831,9 @@ BrowserUI
 newTab
 (
 aURL
+Browser
+.
+selectedTab
 )
 ;
 }

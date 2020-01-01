@@ -5837,6 +5837,9 @@ about
 :
 firefox
 '
+Browser
+.
+selectedTab
 )
 ;
 "
@@ -5856,6 +5859,9 @@ about
 :
 fennec
 '
+Browser
+.
+selectedTab
 )
 ;
 "

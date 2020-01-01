@@ -370,6 +370,9 @@ BrowserUI
 newTab
 (
 url
+Browser
+.
+selectedTab
 )
 ;
 newTab
@@ -488,6 +491,9 @@ BrowserUI
 newTab
 (
 url
+Browser
+.
+selectedTab
 )
 ;
 }
