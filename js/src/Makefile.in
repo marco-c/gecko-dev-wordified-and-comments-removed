@@ -936,6 +936,10 @@ LifoAlloc
 .
 cpp
 \
+MemoryMetrics
+.
+cpp
+\
 RegExpObject
 .
 cpp
