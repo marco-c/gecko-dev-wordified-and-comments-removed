@@ -1491,6 +1491,9 @@ void
 *
 arityCheckEntry
 ;
+bool
+singleStepMode
+;
 ~
 JITScript
 (

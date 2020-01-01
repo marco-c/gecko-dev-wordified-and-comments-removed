@@ -595,6 +595,11 @@ debugMode
 :
 1
 ;
+bool
+singleStepMode
+:
+1
+;
 #
 endif
 jsbytecode
@@ -1670,6 +1675,9 @@ cx
 JSScript
 *
 script
+JSThreadData
+*
+data
 )
 ;
 extern
