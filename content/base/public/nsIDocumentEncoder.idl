@@ -1772,6 +1772,9 @@ OutputDontRewriteEncodingDeclaration
 18
 )
 ;
+/
+*
+*
 *
 When
 using
@@ -1874,9 +1877,6 @@ OutputFormatDelSp
 20
 )
 ;
-/
-*
-*
 /
 *
 *
