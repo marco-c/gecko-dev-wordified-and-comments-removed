@@ -112,6 +112,8 @@ run_test
 (
 )
 {
+return
+;
 var
 transport
 =
