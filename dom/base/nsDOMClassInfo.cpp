@@ -5403,7 +5403,7 @@ DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
 NS_DEFINE_CLASSINFO_DATA
 (
-BatteryManager
+MozBatteryManager
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
@@ -9657,7 +9657,7 @@ nsIDOMClientInformation
 )
 DOM_CLASSINFO_MAP_CONDITIONAL_ENTRY
 (
-nsIDOMNavigatorBattery
+nsIDOMMozNavigatorBattery
 battery
 :
 :
@@ -13634,12 +13634,12 @@ nsIDOMGeoPositionError
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
-BatteryManager
-nsIDOMBatteryManager
+MozBatteryManager
+nsIDOMMozBatteryManager
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIDOMBatteryManager
+nsIDOMMozBatteryManager
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
