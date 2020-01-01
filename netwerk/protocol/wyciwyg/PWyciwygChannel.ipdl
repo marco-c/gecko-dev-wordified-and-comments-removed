@@ -550,6 +550,12 @@ nsCString
 securityInfo
 )
 ;
+Cancel
+(
+nsresult
+status
+)
+;
 child
 :
 OnStartRequest
@@ -575,6 +581,12 @@ offset
 )
 ;
 OnStopRequest
+(
+nsresult
+statusCode
+)
+;
+CancelEarly
 (
 nsresult
 statusCode

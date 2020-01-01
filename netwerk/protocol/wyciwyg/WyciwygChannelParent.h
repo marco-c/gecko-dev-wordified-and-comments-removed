@@ -146,6 +146,16 @@ securityInfo
 )
 ;
 virtual
+bool
+RecvCancel
+(
+const
+nsresult
+&
+statusCode
+)
+;
+virtual
 void
 ActorDestroy
 (
