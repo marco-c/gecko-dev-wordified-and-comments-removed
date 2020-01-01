@@ -632,6 +632,10 @@ nsCString
 docUriSpec
 nsCString
 docCharset
+nsCString
+referrerSpec
+nsCString
+referrerCharset
 PRUint32
 loadFlags
 RequestHeaderTuples
