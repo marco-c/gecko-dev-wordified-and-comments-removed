@@ -2604,7 +2604,7 @@ OS_ARCH
 (
 OS_TEST
 )
-Linuxppc
+Linuxpowerpc
 )
 CPPSRCS
 :
