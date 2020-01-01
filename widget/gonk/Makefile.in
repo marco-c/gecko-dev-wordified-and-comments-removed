@@ -354,16 +354,6 @@ I
 topsrcdir
 )
 /
-b2g
-/
-app
-\
--
-I
-(
-topsrcdir
-)
-/
 widget
 /
 xpwidgets
