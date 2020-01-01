@@ -528,6 +528,10 @@ nsSound
 .
 cpp
 \
+nsIMM32Handler
+.
+cpp
+\
 (
 NULL
 )
