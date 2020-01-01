@@ -5819,10 +5819,7 @@ aIsInserted
 PR_FALSE
 )
 ;
-nsEventShell
-:
-:
-FireEvent
+FireDelayedAccessibleEvent
 (
 event
 )
@@ -8053,10 +8050,7 @@ if
 textChangeEvent
 )
 {
-nsEventShell
-:
-:
-FireEvent
+FireDelayedAccessibleEvent
 (
 textChangeEvent
 )

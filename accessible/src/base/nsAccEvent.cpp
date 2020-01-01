@@ -1273,6 +1273,7 @@ EVENT_TEXT_REMOVED
 aAccessible
 aIsAsynch
 aIsFromUserInput
+eAllowDupes
 )
 mStart
 (
