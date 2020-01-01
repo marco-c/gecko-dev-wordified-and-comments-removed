@@ -502,12 +502,6 @@ IPC
 :
 URI
 ;
-using
-IPC
-:
-:
-InputStream
-;
 namespace
 mozilla
 {
@@ -656,10 +650,10 @@ RequestHeaderTuples
 requestHeaders
 nsHttpAtom
 requestMethod
-InputStream
-uploadStream
-PRBool
-uploadStreamHasHeaders
+nsCString
+uploadStreamData
+PRInt32
+uploadStreamInfo
 PRUint16
 priority
 PRUint8

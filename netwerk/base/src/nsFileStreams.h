@@ -74,13 +74,6 @@ prio
 .
 h
 "
-#
-include
-"
-nsIIPCSerializable
-.
-h
-"
 template
 <
 class
@@ -151,8 +144,6 @@ public
 nsIFileInputStream
 public
 nsILineInputStream
-public
-nsIIPCSerializable
 {
 public
 :
@@ -160,7 +151,6 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIFILEINPUTSTREAM
 NS_DECL_NSILINEINPUTSTREAM
-NS_DECL_NSIIPCSERIALIZABLE
 NS_IMETHOD
 Seek
 (
