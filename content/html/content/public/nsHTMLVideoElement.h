@@ -169,11 +169,12 @@ aResult
 )
 const
 ;
-nsIntSize
+nsresult
 GetVideoSize
 (
 nsIntSize
-defaultSize
+*
+size
 )
 ;
 virtual
