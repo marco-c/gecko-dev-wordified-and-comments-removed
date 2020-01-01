@@ -511,6 +511,10 @@ test_tooltip
 .
 xul
 \
+test_tooltip_noautohide
+.
+xul
+\
 popup_shared
 .
 js

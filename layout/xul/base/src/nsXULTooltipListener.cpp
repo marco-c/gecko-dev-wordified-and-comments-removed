@@ -1476,6 +1476,7 @@ NS_OK
 ;
 if
 (
+!
 mCurrentTooltip
 -
 >
