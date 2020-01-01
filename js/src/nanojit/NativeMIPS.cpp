@@ -5898,7 +5898,7 @@ return
 ins
 -
 >
-isImmAny
+isImmI
 (
 )
 |

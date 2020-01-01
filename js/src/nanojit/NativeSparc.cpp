@@ -1352,7 +1352,7 @@ return
 ins
 -
 >
-isImmAny
+isImmI
 (
 )
 |
