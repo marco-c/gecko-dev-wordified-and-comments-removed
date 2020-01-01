@@ -377,6 +377,17 @@ cache
 <
 !
 ENTITY
+clearCacheNow
+.
+label
+"
+Clear
+Now
+"
+>
+<
+!
+ENTITY
 updateTab
 .
 label

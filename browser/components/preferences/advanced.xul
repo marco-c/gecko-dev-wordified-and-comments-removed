@@ -2068,9 +2068,9 @@ label
 =
 "
 &
-clearDataNow
+clearCacheNow
 .
-label2
+label
 ;
 "
 oncommand
