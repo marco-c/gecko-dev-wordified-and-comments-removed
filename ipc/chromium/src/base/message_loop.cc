@@ -1186,6 +1186,18 @@ locked
 incoming_queue_lock_
 )
 ;
+#
+ifdef
+CHROMIUM_MOZILLA_BUILD
+incoming_queue_
+.
+push
+(
+pending_task
+)
+;
+#
+else
 bool
 was_empty
 =
@@ -1209,6 +1221,8 @@ was_empty
 )
 return
 ;
+#
+endif
 pump
 =
 pump_
