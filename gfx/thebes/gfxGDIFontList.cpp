@@ -771,7 +771,7 @@ cmap
 ;
 rv
 =
-GetFontTable
+CopyFontTable
 (
 kCMAP
 cmap
@@ -1113,7 +1113,7 @@ nsresult
 GDIFontEntry
 :
 :
-GetFontTable
+CopyFontTable
 (
 uint32_t
 aTableTag

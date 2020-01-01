@@ -324,6 +324,10 @@ return
 mSizeAdjustFactor
 ;
 }
+friend
+class
+gfxSystemFcFontEntry
+;
 static
 FT_Library
 GetFTLibrary
