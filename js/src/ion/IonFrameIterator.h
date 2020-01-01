@@ -499,6 +499,14 @@ numBaselineStackValues
 )
 const
 ;
+Value
+baselineStackValue
+(
+size_t
+index
+)
+const
+;
 const
 OsiIndex
 *
