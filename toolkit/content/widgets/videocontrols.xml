@@ -7672,9 +7672,11 @@ return
 document
 .
 mozFullScreenElement
-!
 =
-null
+=
+this
+.
+video
 ;
 }
 toggleFullscreen
