@@ -1164,6 +1164,8 @@ mMetrics
 >
 subscriptOffset
 =
+fabs
+(
 (
 double
 )
@@ -1172,6 +1174,7 @@ oMetrics
 otmptSubscriptOffset
 .
 y
+)
 ;
 mMetrics
 -
