@@ -62719,6 +62719,12 @@ vp
 isNumber
 (
 )
+&
+&
+mode
+=
+=
+JSOP_CALL
 )
 {
 if
@@ -62993,6 +62999,12 @@ vp
 isNumber
 (
 )
+&
+&
+mode
+=
+=
+JSOP_CALL
 &
 &
 (
