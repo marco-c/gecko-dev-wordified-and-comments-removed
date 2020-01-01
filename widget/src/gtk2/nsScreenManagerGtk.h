@@ -118,6 +118,9 @@ PRLibrary
 *
 mXineramalib
 ;
+PRPackedBool
+mXineramaIsActive
+;
 GdkWindow
 *
 mRootWindow
