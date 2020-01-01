@@ -379,6 +379,15 @@ mExtraName
 aExtraName
 )
 ;
+mDocument
+=
+aOwnerManager
+-
+>
+GetDocument
+(
+)
+;
 if
 (
 aPrefix

@@ -772,12 +772,7 @@ GetDocument
 const
 {
 return
-mOwnerManager
--
->
-GetDocument
-(
-)
+mDocument
 ;
 }
 protected
@@ -930,6 +925,10 @@ mExtraName
 friend
 class
 nsNodeInfoManager
+;
+nsIDocument
+*
+mDocument
 ;
 nsNodeInfoInner
 mInner
