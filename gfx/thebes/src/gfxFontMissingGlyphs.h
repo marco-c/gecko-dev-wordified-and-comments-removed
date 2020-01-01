@@ -49,7 +49,7 @@ const
 gfxRect
 &
 aRect
-PRUnichar
+PRUint32
 aChar
 )
 ;
@@ -57,6 +57,8 @@ static
 gfxFloat
 GetDesiredMinWidth
 (
+PRUint32
+aChar
 )
 ;
 }
