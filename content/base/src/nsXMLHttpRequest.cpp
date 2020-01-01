@@ -5418,6 +5418,9 @@ loadGroup
 ;
 if
 (
+doc
+&
+&
 !
 (
 mState
