@@ -482,3 +482,7 @@ JITSTAT
 (
 mergedLoopExits
 )
+JITSTAT
+(
+noCompatInnerTrees
+)
