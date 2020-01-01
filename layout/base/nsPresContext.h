@@ -3218,6 +3218,14 @@ GetDocumentColorPreferences
 ;
 NS_HIDDEN_
 (
+PRBool
+)
+CheckDPIChange
+(
+)
+;
+NS_HIDDEN_
+(
 void
 )
 PreferenceChanged
