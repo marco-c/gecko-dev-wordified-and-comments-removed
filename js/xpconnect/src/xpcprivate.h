@@ -6,6 +6,15 @@ define
 xpcprivate_h___
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 string
 .
@@ -15131,8 +15140,6 @@ nsScriptError
 :
 public
 nsIScriptError
-public
-nsIScriptError2
 {
 public
 :
@@ -15149,7 +15156,6 @@ nsScriptError
 NS_DECL_ISUPPORTS
 NS_DECL_NSICONSOLEMESSAGE
 NS_DECL_NSISCRIPTERROR
-NS_DECL_NSISCRIPTERROR2
 private
 :
 nsString
@@ -15339,6 +15345,7 @@ const
 AutoScriptEvaluate
 &
 )
+MOZ_DELETE
 ;
 AutoScriptEvaluate
 &
@@ -15349,6 +15356,7 @@ const
 AutoScriptEvaluate
 &
 )
+MOZ_DELETE
 ;
 }
 ;

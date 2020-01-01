@@ -642,7 +642,7 @@ browser_webconsole_netlogging
 .
 js
 \
-browser_webconsole_bug_583816_tab_focus
+browser_webconsole_bug_583816_No_input_and_Tab_key_pressed
 .
 js
 \

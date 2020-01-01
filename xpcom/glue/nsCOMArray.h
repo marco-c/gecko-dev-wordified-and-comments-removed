@@ -7,6 +7,15 @@ nsCOMArray_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsVoidArray
 .
 h
@@ -375,6 +384,7 @@ nsCOMArray_base
 &
 other
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -893,6 +903,7 @@ T
 &
 other
 )
+MOZ_DELETE
 ;
 }
 ;

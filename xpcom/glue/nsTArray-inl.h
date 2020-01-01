@@ -136,7 +136,7 @@ this
 >
 mAutoBuf
 ;
-PR_STATIC_ASSERT
+MOZ_STATIC_ASSERT
 (
 sizeof
 (
@@ -204,6 +204,17 @@ AlignedElem
 >
 )
 )
+"
+auto
+array
+padding
+wasn
+'
+t
+what
+we
+expected
+"
 )
 ;
 NS_ABORT_IF_FALSE
@@ -300,7 +311,7 @@ return
 false
 ;
 }
-PR_STATIC_ASSERT
+MOZ_STATIC_ASSERT
 (
 sizeof
 (
@@ -308,6 +319,11 @@ nsTArrayHeader
 )
 >
 4
+"
+see
+comment
+above
+"
 )
 ;
 #

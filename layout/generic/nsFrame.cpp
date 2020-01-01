@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -22682,6 +22691,11 @@ state
 016llx
 ]
 "
+(
+unsigned
+long
+long
+)
 mState
 )
 ;
@@ -23989,6 +24003,11 @@ ld
 \
 n
 "
+(
+unsigned
+long
+long
+)
 GetDebugStateBits
 (
 )
@@ -37095,6 +37114,7 @@ const
 DR_FrameTypeInfo
 &
 )
+MOZ_DELETE
 ;
 }
 ;

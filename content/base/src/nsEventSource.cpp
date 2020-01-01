@@ -4322,7 +4322,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIScriptError2
+nsIScriptError
 >
 errObj
 (
@@ -4388,6 +4388,8 @@ rv
 rv
 )
 ;
+rv
+=
 errObj
 -
 >
@@ -4417,15 +4419,10 @@ Source
 mInnerWindowID
 )
 ;
-nsCOMPtr
-<
-nsIScriptError
->
-logError
-=
-do_QueryInterface
+NS_ENSURE_SUCCESS
 (
-errObj
+rv
+rv
 )
 ;
 rv
@@ -4435,7 +4432,7 @@ console
 >
 LogMessage
 (
-logError
+errObj
 )
 ;
 NS_ENSURE_SUCCESS

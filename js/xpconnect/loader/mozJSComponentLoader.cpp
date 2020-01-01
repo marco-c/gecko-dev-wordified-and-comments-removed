@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -1389,6 +1398,7 @@ const
 JSCLContextHelper
 &
 )
+MOZ_DELETE
 ;
 const
 JSCLContextHelper
@@ -1400,6 +1410,7 @@ const
 JSCLContextHelper
 &
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -1457,6 +1468,7 @@ const
 JSCLAutoErrorReporterSetter
 &
 )
+MOZ_DELETE
 ;
 const
 JSCLAutoErrorReporterSetter
@@ -1468,6 +1480,7 @@ const
 JSCLAutoErrorReporterSetter
 &
 )
+MOZ_DELETE
 ;
 }
 ;

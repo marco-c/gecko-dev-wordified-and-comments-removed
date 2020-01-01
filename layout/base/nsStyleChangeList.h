@@ -7,6 +7,15 @@ nsStyleChangeList_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -172,6 +181,7 @@ const
 nsStyleChangeList
 &
 )
+MOZ_DELETE
 ;
 }
 ;
