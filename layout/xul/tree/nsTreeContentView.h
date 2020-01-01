@@ -7,13 +7,6 @@ nsTreeContentView_h__
 #
 include
 "
-nsFixedSizeAllocator
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -351,9 +344,6 @@ mBody
 nsIDocument
 *
 mDocument
-;
-nsFixedSizeAllocator
-mAllocator
 ;
 nsTArray
 <
