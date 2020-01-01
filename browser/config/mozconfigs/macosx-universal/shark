@@ -85,7 +85,7 @@ MOZ_MAKE_FLAGS
 =
 "
 -
-j4
+j12
 "
 #
 shark
@@ -142,3 +142,9 @@ warnings
 as
 -
 errors
+ac_add_options
+-
+-
+with
+-
+ccache

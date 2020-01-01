@@ -41,7 +41,7 @@ MOZ_MAKE_FLAGS
 =
 "
 -
-j4
+j12
 "
 #
 Needed
@@ -86,6 +86,12 @@ warnings
 as
 -
 errors
+ac_add_options
+-
+-
+with
+-
+ccache
 #
 Package
 js

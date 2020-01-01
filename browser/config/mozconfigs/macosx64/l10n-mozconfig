@@ -44,3 +44,9 @@ enable
 update
 -
 packaging
+ac_add_options
+-
+-
+with
+-
+ccache
