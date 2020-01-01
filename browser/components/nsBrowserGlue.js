@@ -1775,6 +1775,14 @@ this
 .
 _distributionCustomizer
 .
+applyPrefDefaults
+(
+)
+;
+this
+.
+_distributionCustomizer
+.
 applyCustomizations
 (
 )
