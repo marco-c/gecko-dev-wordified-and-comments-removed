@@ -1886,9 +1886,12 @@ endp
 -
 buf
 <
+PRInt32
+(
 sizeof
 (
 PRUint32
+)
 )
 )
 return
