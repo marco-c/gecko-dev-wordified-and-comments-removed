@@ -224,6 +224,12 @@ MOZ_COUNT_DTOR
 GeckoChildProcessHost
 )
 ;
+if
+(
+mChildProcessHandle
+>
+0
+)
 ProcessWatcher
 :
 :
