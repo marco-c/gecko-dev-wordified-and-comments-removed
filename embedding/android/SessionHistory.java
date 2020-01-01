@@ -492,6 +492,16 @@ int
 index
 )
 {
+if
+(
+index
+<
+mHistory
+.
+size
+(
+)
+)
 return
 mHistory
 .
@@ -499,6 +509,9 @@ get
 (
 index
 )
+;
+return
+null
 ;
 }
 }

@@ -1945,6 +1945,14 @@ getHistoryEntryAt
 0
 )
 ;
+if
+(
+he
+!
+=
+null
+)
+{
 intent
 .
 setData
@@ -1980,6 +1988,7 @@ startActivity
 intent
 )
 ;
+}
 return
 true
 ;
