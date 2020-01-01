@@ -5226,6 +5226,11 @@ CheckStandardNames
 (
 mIn1
 )
+|
+CheckStandardNames
+(
+mIn2
+)
 ;
 return
 NS_OK
@@ -8257,6 +8262,11 @@ aRequirements
 CheckStandardNames
 (
 mIn1
+)
+|
+CheckStandardNames
+(
+mIn2
 )
 ;
 return
