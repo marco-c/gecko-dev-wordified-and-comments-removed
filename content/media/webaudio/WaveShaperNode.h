@@ -107,8 +107,14 @@ ClearCurve
 ;
 private
 :
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mCurve
 ;
 }

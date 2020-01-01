@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsJSThingHashtable
+.
+h
+"
+#
+include
+"
 nsIBoxObject
 .
 h
@@ -4543,7 +4550,7 @@ mFullScreenStack
 nsWeakPtr
 mFullscreenRoot
 ;
-nsDataHashtable
+nsJSThingHashtable
 <
 nsStringHashKey
 JSObject

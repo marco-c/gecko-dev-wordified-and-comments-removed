@@ -82,8 +82,14 @@ TelephonyCall
 >
 mCalls
 ;
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mCallsArray
 ;
 bool

@@ -318,8 +318,14 @@ mContext
 ;
 AutoFallibleTArray
 <
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 2
 >
 mJSChannels

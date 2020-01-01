@@ -320,6 +320,10 @@ mJSChannels
 AppendElement
 (
 array
+.
+get
+(
+)
 )
 ;
 }

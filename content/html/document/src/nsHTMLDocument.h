@@ -1467,8 +1467,14 @@ nsContentList
 >
 mFormControls
 ;
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mAll
 ;
 int32_t

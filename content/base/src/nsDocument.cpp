@@ -7926,8 +7926,14 @@ const
 nsAString
 &
 aName
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 &
 aObject
 void

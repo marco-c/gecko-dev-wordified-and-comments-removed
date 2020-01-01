@@ -945,8 +945,14 @@ nsIScriptContext
 >
 mContext
 ;
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mScopeObject
 ;
 nsISupports

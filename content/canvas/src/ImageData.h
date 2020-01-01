@@ -218,8 +218,14 @@ uint32_t
 mWidth
 mHeight
 ;
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mData
 ;
 }

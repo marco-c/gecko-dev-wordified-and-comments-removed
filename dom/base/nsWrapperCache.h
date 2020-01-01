@@ -25,7 +25,7 @@ include
 "
 js
 /
-RootingAPI
+Value
 .
 h
 "
@@ -768,8 +768,14 @@ WRAPPER_HAS_SOW
 )
 }
 ;
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mWrapper
 ;
 uint32_t

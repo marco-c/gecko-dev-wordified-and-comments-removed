@@ -2482,8 +2482,14 @@ js
 ArrayBufferBuilder
 mArrayBufferBuilder
 ;
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mResultArrayBuffer
 ;
 void
