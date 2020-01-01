@@ -572,6 +572,8 @@ nsDirection
 aDirection
 bool
 aNeedsStart
+EWordMovementType
+aWordMovementType
 )
 ;
 nsIFrame
