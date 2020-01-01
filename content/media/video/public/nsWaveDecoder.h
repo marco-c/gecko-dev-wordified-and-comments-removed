@@ -139,6 +139,13 @@ IsSeeking
 const
 ;
 virtual
+PRBool
+IsEnded
+(
+)
+const
+;
+virtual
 nsresult
 Load
 (
@@ -308,6 +315,9 @@ mEndedCurrentTime
 ;
 float
 mEndedDuration
+;
+PRPackedBool
+mEnded
 ;
 PRPackedBool
 mNotifyOnShutdown

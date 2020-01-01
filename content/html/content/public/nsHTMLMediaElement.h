@@ -405,9 +405,6 @@ PRPackedBool
 mBegun
 ;
 PRPackedBool
-mEnded
-;
-PRPackedBool
 mLoadedFirstFrame
 ;
 PRPackedBool

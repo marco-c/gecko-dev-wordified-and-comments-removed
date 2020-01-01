@@ -285,6 +285,13 @@ IsSeeking
 const
 ;
 virtual
+PRBool
+IsEnded
+(
+)
+const
+;
+virtual
 void
 SetTotalBytes
 (

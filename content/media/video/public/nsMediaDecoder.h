@@ -276,6 +276,15 @@ const
 0
 ;
 virtual
+PRBool
+IsEnded
+(
+)
+const
+=
+0
+;
+virtual
 PRUint64
 GetBytesLoaded
 (
