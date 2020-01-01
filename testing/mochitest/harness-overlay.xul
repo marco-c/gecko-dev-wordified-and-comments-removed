@@ -291,6 +291,17 @@ loadTests
 (
 )
 {
+window
+.
+removeEventListener
+(
+"
+load
+"
+loadTests
+false
+)
+;
 var
 dir
 =
@@ -722,6 +733,7 @@ load
 loadTests
 false
 )
+;
 ]
 ]
 >
