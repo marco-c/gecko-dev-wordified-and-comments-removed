@@ -2536,7 +2536,7 @@ bool
 DeferredFinalizeFunction
 )
 (
-int32_t
+uint32_t
 slice
 void
 *
