@@ -1332,6 +1332,15 @@ CanTakeFocus
 PRBool
 UpdateNonClientMargins
 (
+PRInt32
+aSizeMode
+=
+-
+1
+PRBool
+aRefreshWindow
+=
+PR_TRUE
 )
 ;
 #
@@ -2198,7 +2207,10 @@ PRPackedBool
 mCompositorFlag
 ;
 PRInt32
-mResizeMargin
+mHorResizeMargin
+;
+PRInt32
+mVertResizeMargin
 ;
 PRInt32
 mCaptionHeight
