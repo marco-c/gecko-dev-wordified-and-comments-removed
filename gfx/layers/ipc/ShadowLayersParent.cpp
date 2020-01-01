@@ -1913,6 +1913,12 @@ float
 newXResolution
 newYResolution
 ;
+OptionalThebesBuffer
+readonlyFront
+;
+nsIntRegion
+frontUpdatedRegion
+;
 thebes
 -
 >
@@ -1932,6 +1938,10 @@ newValidRegion
 newXResolution
 &
 newYResolution
+&
+readonlyFront
+&
+frontUpdatedRegion
 )
 ;
 replyv
@@ -1946,6 +1956,8 @@ newBack
 newValidRegion
 newXResolution
 newYResolution
+readonlyFront
+frontUpdatedRegion
 )
 )
 ;
