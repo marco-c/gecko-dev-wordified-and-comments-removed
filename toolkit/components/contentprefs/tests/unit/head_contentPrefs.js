@@ -421,6 +421,8 @@ exists
 (
 )
 )
+try
+{
 file
 .
 remove
@@ -428,6 +430,13 @@ remove
 false
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 return
 file
 ;
