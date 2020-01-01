@@ -1107,6 +1107,9 @@ mBufferingWait
 int64_t
 mLowDataThresholdUsecs
 ;
+uint32_t
+mAmpleVideoFrames
+;
 bool
 mAudioCaptured
 ;
