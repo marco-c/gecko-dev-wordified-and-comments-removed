@@ -2819,7 +2819,7 @@ obj
 }
 MOZ_ASSERT
 (
-IS_WRAPPER_CLASS
+IS_WN_CLASS
 (
 clazz
 )
@@ -3413,15 +3413,9 @@ false
 if
 (
 !
-IS_WRAPPER_CLASS
-(
-js
-:
-:
-GetObjectClass
+IS_WN_REFLECTOR
 (
 unwrapped
-)
 )
 )
 {
@@ -4430,7 +4424,7 @@ obj
 if
 (
 !
-IS_WRAPPER_CLASS
+IS_WN_CLASS
 (
 clazz
 )

@@ -8051,7 +8051,7 @@ do
 {
 if
 (
-IS_WRAPPER_CLASS
+IS_WN_CLASS
 (
 jsClass
 )

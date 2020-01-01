@@ -744,7 +744,7 @@ homeProto
 if
 (
 !
-IS_WN_WRAPPER
+IS_WN_REFLECTOR
 (
 obj
 )
@@ -1090,7 +1090,7 @@ v
 ;
 NS_ASSERTION
 (
-IS_WN_WRAPPER
+IS_WN_REFLECTOR
 (
 obj
 )
@@ -2064,7 +2064,7 @@ obj
 if
 (
 !
-IS_WN_WRAPPER
+IS_WN_REFLECTOR
 (
 obj
 )
