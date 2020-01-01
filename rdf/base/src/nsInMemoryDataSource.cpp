@@ -6625,9 +6625,6 @@ nsIRDFNode
 >
 nodes
 ;
-if
-(
-!
 nodes
 .
 SetCapacity
@@ -6636,12 +6633,7 @@ mForwardArcs
 .
 entryCount
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 PL_DHashTableEnumerate
 (
 &

@@ -710,7 +710,7 @@ aIndex2
 tmp
 ;
 }
-bool
+void
 SetCapacity
 (
 uint32_t
@@ -723,9 +723,6 @@ SetCapacity
 (
 aCapacity
 )
-;
-return
-true
 ;
 }
 uint32_t

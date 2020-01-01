@@ -2319,9 +2319,6 @@ nsIPropertyElement
 >
 props
 ;
-if
-(
-!
 props
 .
 SetCapacity
@@ -2330,9 +2327,6 @@ mTable
 .
 entryCount
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 uint32_t
 n
