@@ -16,9 +16,7 @@ newBrowser
 const
 secMan
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -33,9 +31,7 @@ scriptsecuritymanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIScriptSecurityManager
 )
