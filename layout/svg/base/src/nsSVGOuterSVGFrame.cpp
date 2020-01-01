@@ -530,7 +530,7 @@ PR_TRUE
 doc
 -
 >
-AddMutationObserver
+AddMutationObserverUnlessExists
 (
 &
 sSVGMutationObserver
