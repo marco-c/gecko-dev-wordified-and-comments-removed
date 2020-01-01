@@ -68,9 +68,6 @@ tabs
 }
 )
 ;
-let
-cachedXULDocument
-;
 function
 test
 (
