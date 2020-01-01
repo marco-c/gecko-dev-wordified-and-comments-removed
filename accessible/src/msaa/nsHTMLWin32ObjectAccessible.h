@@ -50,11 +50,6 @@ nsHTMLWin32ObjectOwnerAccessible
 {
 }
 NS_IMETHOD
-Shutdown
-(
-)
-;
-NS_IMETHOD
 GetFirstChild
 (
 nsIAccessible
@@ -78,6 +73,12 @@ GetChildCount
 PRInt32
 *
 aChildCount
+)
+;
+virtual
+nsresult
+Shutdown
+(
 )
 ;
 protected

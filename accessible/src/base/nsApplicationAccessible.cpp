@@ -175,7 +175,7 @@ NS_IMPL_RELEASE_INHERITED
 nsApplicationAccessible
 nsAccessible
 )
-NS_IMETHODIMP
+nsresult
 nsApplicationAccessible
 :
 :

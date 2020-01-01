@@ -620,7 +620,8 @@ CacheChildren
 (
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Shutdown
 (
 )
@@ -888,14 +889,11 @@ void
 aUniqueID
 )
 ;
-NS_IMETHOD_
-(
+virtual
 nsIFrame
 *
-)
 GetFrame
 (
-void
 )
 ;
 virtual

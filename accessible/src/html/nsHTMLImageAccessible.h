@@ -120,12 +120,13 @@ nsIAccessible
 aAccessible
 )
 ;
-NS_IMETHOD
+NS_DECL_NSIACCESSIBLEIMAGE
+virtual
+nsresult
 Shutdown
 (
 )
 ;
-NS_DECL_NSIACCESSIBLEIMAGE
 virtual
 nsresult
 GetNameInternal

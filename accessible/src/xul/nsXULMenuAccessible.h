@@ -59,7 +59,8 @@ nsXULSelectableAccessible
 )
 {
 }
-NS_IMETHOD
+virtual
+nsresult
 Shutdown
 (
 )
@@ -194,7 +195,8 @@ PRUint8
 _retval
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Init
 (
 )

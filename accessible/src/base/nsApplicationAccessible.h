@@ -36,7 +36,8 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsApplicationAccessible
 nsAccessible
 )
-NS_IMETHOD
+virtual
+nsresult
 Init
 (
 )

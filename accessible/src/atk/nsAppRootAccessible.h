@@ -43,7 +43,8 @@ nsApplicationAccessibleWrap
 (
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Init
 (
 )

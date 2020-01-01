@@ -485,10 +485,6 @@ nsIAccessNode
 .
 idl
 \
-nsPIAccessNode
-.
-idl
-\
 nsIAccessibleEvent
 .
 idl

@@ -403,11 +403,6 @@ nsXULComboboxAccessible
 {
 }
 NS_IMETHOD
-Init
-(
-)
-;
-NS_IMETHOD
 GetRole
 (
 PRUint32
@@ -473,6 +468,12 @@ index
 nsAString
 &
 aName
+)
+;
+virtual
+nsresult
+Init
+(
 )
 ;
 }

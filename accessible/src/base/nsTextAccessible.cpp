@@ -25,10 +25,11 @@ aShell
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS_INHERITED3
 (
 nsTextAccessible
 nsAccessNode
+nsAccessible
 nsIAccessible
 nsPIAccessible
 )

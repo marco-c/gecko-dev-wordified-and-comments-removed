@@ -4448,7 +4448,7 @@ mAccChildCount
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLComboboxAccessible
 :
 :

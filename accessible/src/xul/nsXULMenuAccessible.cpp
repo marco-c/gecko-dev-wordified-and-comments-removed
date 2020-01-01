@@ -157,7 +157,7 @@ nsXULSelectableAccessible
 nsAccessible
 nsIAccessibleSelectable
 )
-NS_IMETHODIMP
+nsresult
 nsXULSelectableAccessible
 :
 :
@@ -1047,7 +1047,7 @@ aShell
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsXULMenuitemAccessible
 :
 :

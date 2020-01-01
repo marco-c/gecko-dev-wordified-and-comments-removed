@@ -218,12 +218,14 @@ nsIDOMEvent
 aEvent
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Init
 (
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Shutdown
 (
 )

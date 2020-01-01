@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsPIAccessNode
+nsAccessNode
 .
 h
 "

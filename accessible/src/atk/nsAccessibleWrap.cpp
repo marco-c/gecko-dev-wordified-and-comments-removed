@@ -1019,7 +1019,7 @@ nsnull
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibleWrap
 :
 :

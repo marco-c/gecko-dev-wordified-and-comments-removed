@@ -730,7 +730,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsLinkableAccessible
 :
 :
@@ -751,7 +751,7 @@ Init
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsLinkableAccessible
 :
 :

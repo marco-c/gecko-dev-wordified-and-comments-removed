@@ -2119,7 +2119,7 @@ ShutdownAtkObject
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsApplicationAccessibleWrap
 :
 :

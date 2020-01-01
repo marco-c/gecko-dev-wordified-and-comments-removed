@@ -267,11 +267,6 @@ aUniqueID
 )
 ;
 NS_IMETHOD
-Shutdown
-(
-)
-;
-NS_IMETHOD
 GetRole
 (
 PRUint32
@@ -313,6 +308,12 @@ nsIAccessible
 *
 *
 aParentAccessible
+)
+;
+virtual
+nsresult
+Shutdown
+(
 )
 ;
 NS_IMETHOD
@@ -466,7 +467,8 @@ PRInt32
 height
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Shutdown
 (
 )

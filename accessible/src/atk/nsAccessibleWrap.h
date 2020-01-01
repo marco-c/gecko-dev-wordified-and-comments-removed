@@ -107,7 +107,8 @@ ShutdownAtkObject
 (
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Shutdown
 (
 )
