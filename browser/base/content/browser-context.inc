@@ -2676,13 +2676,10 @@ accesskey
 oncommand
 =
 "
-saveDocument
-(
 gContextMenu
 .
-target
-.
-ownerDocument
+saveFrame
+(
 )
 ;
 "
