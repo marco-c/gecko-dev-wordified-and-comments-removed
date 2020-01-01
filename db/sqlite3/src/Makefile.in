@@ -453,13 +453,6 @@ OS_ARCH
 )
 ifndef
 GNU_CC
-MAPFILE
-=
-(
-LIBRARY_NAME
-)
-.
-map
 DEFFILE
 =
 (
