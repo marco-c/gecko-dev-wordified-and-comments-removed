@@ -5180,7 +5180,7 @@ values
 url
 )
 ;
-Boolean
+Integer
 isFolder
 =
 values
@@ -5191,9 +5191,6 @@ Bookmarks
 .
 IS_FOLDER
 )
-=
-=
-1
 ;
 if
 (
@@ -5204,8 +5201,10 @@ isFolder
 null
 |
 |
-!
 isFolder
+!
+=
+1
 )
 &
 &
