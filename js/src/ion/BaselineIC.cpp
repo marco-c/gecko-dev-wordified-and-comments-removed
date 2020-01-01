@@ -20932,12 +20932,9 @@ ImmWord
 cx
 -
 >
-compartment
+runtime
 (
 )
--
->
-rt
 -
 >
 staticStrings

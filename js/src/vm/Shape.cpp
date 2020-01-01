@@ -6662,7 +6662,9 @@ gcstats
 AutoPhase
 ap
 (
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 gcStats
@@ -7914,7 +7916,9 @@ gcstats
 AutoPhase
 ap
 (
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 gcStats

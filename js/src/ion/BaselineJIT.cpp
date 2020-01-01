@@ -3959,6 +3959,12 @@ ictx
 script
 -
 >
+runtimeFromMainThread
+(
+)
+script
+-
+>
 compartment
 (
 )
@@ -5066,7 +5072,9 @@ iter
 zone
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 )
 ;
 if

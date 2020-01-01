@@ -933,7 +933,9 @@ trusted
 compartment
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 trustedPrincipals
@@ -964,7 +966,9 @@ JS_DropPrincipals
 compartment
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 compartment
 -
 >
@@ -1518,7 +1522,9 @@ comp
 comp
 -
 >
-rt
+runtimeFromAnyThread
+(
+)
 -
 >
 atomsCompartment
@@ -4640,7 +4646,9 @@ zone
 )
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 isHeapMajorCollecting
@@ -4746,7 +4754,9 @@ JS_ASSERT
 zone
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 isHeapMajorCollecting

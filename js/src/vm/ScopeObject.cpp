@@ -9072,10 +9072,12 @@ c
 >
 debugScopes
 =
-c
+cx
 -
 >
-rt
+runtime
+(
+)
 -
 >
 new_
@@ -10923,7 +10925,9 @@ compartment
 )
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 )
 )
 JSObject

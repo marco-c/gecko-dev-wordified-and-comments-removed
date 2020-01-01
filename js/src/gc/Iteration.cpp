@@ -569,7 +569,9 @@ prep
 zone
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 )
 ;
 for

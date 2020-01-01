@@ -268,7 +268,9 @@ c1
 c1
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 atomsCompartment
@@ -282,7 +284,9 @@ c2
 c2
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 atomsCompartment
@@ -321,7 +325,9 @@ c
 compartment
 -
 >
-rt
+runtimeFromMainThread
+(
+)
 -
 >
 atomsCompartment

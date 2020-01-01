@@ -14684,10 +14684,7 @@ GetIonContext
 )
 -
 >
-compartment
--
->
-rt
+runtime
 )
 +
 offsetof

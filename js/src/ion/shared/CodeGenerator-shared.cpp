@@ -207,13 +207,12 @@ lastOsiPointOffset_
 sps_
 (
 &
-gen
+GetIonContext
+(
+)
 -
 >
-compartment
--
->
-rt
+runtime
 -
 >
 spsProfiler

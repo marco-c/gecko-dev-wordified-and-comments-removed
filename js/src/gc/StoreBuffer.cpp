@@ -1630,7 +1630,7 @@ cellp
 )
 -
 >
-runtime
+runtimeFromMainThread
 (
 )
 ;
@@ -1682,7 +1682,7 @@ cellp
 )
 -
 >
-runtime
+runtimeFromMainThread
 (
 )
 ;
@@ -1748,7 +1748,7 @@ toGCThing
 )
 -
 >
-runtime
+runtimeFromMainThread
 (
 )
 ;
@@ -1814,7 +1814,7 @@ toGCThing
 )
 -
 >
-runtime
+runtimeFromMainThread
 (
 )
 ;

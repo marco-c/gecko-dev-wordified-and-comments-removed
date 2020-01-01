@@ -1307,7 +1307,7 @@ rt
 obj
 -
 >
-runtime
+runtimeFromMainThread
 (
 )
 ;
@@ -1483,7 +1483,7 @@ JS_ASSERT
 obj
 -
 >
-runtime
+runtimeFromMainThread
 (
 )
 -

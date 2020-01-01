@@ -86,10 +86,7 @@ GetIonContext
 )
 -
 >
-compartment
--
->
-rt
+runtime
 ptr
 )
 )
