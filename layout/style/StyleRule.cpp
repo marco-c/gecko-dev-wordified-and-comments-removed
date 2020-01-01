@@ -5670,7 +5670,7 @@ Declaration
 aDeclaration
 )
 :
-nsCSSRule
+Rule
 (
 )
 mSelector
@@ -5710,7 +5710,7 @@ StyleRule
 aCopy
 )
 :
-nsCSSRule
+Rule
 (
 aCopy
 )
@@ -5775,7 +5775,7 @@ Declaration
 aDeclaration
 )
 :
-nsCSSRule
+Rule
 (
 aCopy
 )

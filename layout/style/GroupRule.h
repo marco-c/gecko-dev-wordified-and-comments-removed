@@ -7,7 +7,7 @@ mozilla_css_GroupRule_h__
 #
 include
 "
-nsCSSRule
+Rule
 .
 h
 "
@@ -44,7 +44,7 @@ class
 GroupRule
 :
 public
-nsCSSRule
+Rule
 {
 protected
 :
