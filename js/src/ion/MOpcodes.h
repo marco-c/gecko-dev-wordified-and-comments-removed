@@ -294,11 +294,6 @@ InitializedLength
 \
 _
 (
-SetInitializedLength
-)
-\
-_
-(
 BoundsCheck
 )
 \
