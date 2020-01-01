@@ -666,8 +666,6 @@ GetURLToken
 nsresult
 &
 aErrorCode
-PRBool
-aSkipWS
 )
 ;
 void
@@ -693,8 +691,6 @@ ExpectEndProperty
 nsresult
 &
 aErrorCode
-PRBool
-aSkipWS
 )
 ;
 nsSubstring
@@ -4827,8 +4823,6 @@ GetURLToken
 nsresult
 &
 aErrorCode
-PRBool
-aSkipWS
 )
 {
 for
@@ -4865,25 +4859,18 @@ PR_FALSE
 ;
 if
 (
-aSkipWS
-&
-&
-(
 eCSSToken_WhiteSpace
-=
+!
 =
 mToken
 .
 mType
 )
-)
 {
-continue
-;
-}
 return
 PR_TRUE
 ;
+}
 }
 return
 PR_FALSE
@@ -4974,8 +4961,6 @@ ExpectEndProperty
 nsresult
 &
 aErrorCode
-PRBool
-aSkipWS
 )
 {
 if
@@ -4984,7 +4969,7 @@ if
 GetToken
 (
 aErrorCode
-aSkipWS
+PR_TRUE
 )
 )
 {
@@ -5749,7 +5734,6 @@ PR_FALSE
 GetURLToken
 (
 aErrorCode
-PR_TRUE
 )
 &
 &
@@ -6774,7 +6758,6 @@ PR_FALSE
 GetURLToken
 (
 aErrorCode
-PR_TRUE
 )
 |
 |
@@ -7066,7 +7049,6 @@ if
 GetURLToken
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -18633,7 +18615,6 @@ if
 GetURLToken
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -19328,7 +19309,6 @@ PR_FALSE
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 )
@@ -19545,7 +19525,6 @@ subprops
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 return
@@ -20451,7 +20430,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -23790,7 +23768,6 @@ return
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 &
 &
@@ -23835,7 +23812,6 @@ aErrorCode
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 return
@@ -24343,7 +24319,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -24388,7 +24363,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -24476,7 +24450,6 @@ PR_FALSE
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 )
@@ -24749,7 +24722,6 @@ PR_FALSE
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 )
@@ -25144,7 +25116,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -25351,7 +25322,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -25379,7 +25349,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -25407,7 +25376,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -25551,7 +25519,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -25671,7 +25638,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -25990,7 +25956,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -26193,7 +26158,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -26289,7 +26253,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -26319,7 +26282,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -26457,7 +26419,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -26652,7 +26613,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -27052,7 +27012,6 @@ GetUnit
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -27717,7 +27676,6 @@ PR_FALSE
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 )
@@ -27934,7 +27892,6 @@ PR_FALSE
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -28052,7 +28009,6 @@ PR_FALSE
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 )
@@ -28217,7 +28173,6 @@ kOverflowKTable
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 return
@@ -28440,7 +28395,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -28470,7 +28424,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -28597,7 +28550,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -28691,7 +28643,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -28791,7 +28742,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -28836,7 +28786,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -29383,7 +29332,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -29446,7 +29394,6 @@ atEOP
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -29589,7 +29536,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 return
@@ -29678,7 +29624,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
@@ -29841,7 +29786,6 @@ if
 ExpectEndProperty
 (
 aErrorCode
-PR_TRUE
 )
 )
 {
