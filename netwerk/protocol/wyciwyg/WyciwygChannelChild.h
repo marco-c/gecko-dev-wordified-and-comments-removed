@@ -47,6 +47,13 @@ nsIProgressEventSink
 .
 h
 "
+#
+include
+"
+PrivateBrowsingConsumer
+.
+h
+"
 namespace
 mozilla
 {
@@ -73,6 +80,8 @@ public
 PWyciwygChannelChild
 public
 nsIWyciwygChannel
+public
+PrivateBrowsingConsumer
 {
 public
 :

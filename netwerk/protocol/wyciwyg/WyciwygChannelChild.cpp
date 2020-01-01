@@ -86,6 +86,10 @@ WyciwygChannelChild
 (
 )
 :
+PrivateBrowsingConsumer
+(
+this
+)
 mStatus
 (
 NS_OK
@@ -121,7 +125,12 @@ false
 )
 mEventQ
 (
+NS_ISUPPORTS_CAST
+(
+nsIWyciwygChannel
+*
 this
+)
 )
 {
 LOG
@@ -1996,6 +2005,9 @@ URI
 mOriginalURI
 )
 mLoadFlags
+UsePrivateBrowsing
+(
+)
 )
 ;
 mState

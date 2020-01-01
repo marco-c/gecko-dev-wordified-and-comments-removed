@@ -83,7 +83,7 @@ mOverride
 ?
 mUsingPB
 :
-UsingPrivateBrowsing
+UsingPrivateBrowsingInternal
 (
 )
 )
@@ -127,7 +127,7 @@ aUsingPrivateBrowsing
 protected
 :
 bool
-UsingPrivateBrowsing
+UsingPrivateBrowsingInternal
 (
 )
 {
