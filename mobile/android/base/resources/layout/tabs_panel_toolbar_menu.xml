@@ -266,7 +266,7 @@ android
 layout_marginRight
 =
 "
-19dip
+13dip
 "
 >
 <
@@ -431,7 +431,7 @@ android
 layout_width
 =
 "
-78dip
+84dip
 "
 android
 :
@@ -461,7 +461,7 @@ android
 paddingRight
 =
 "
-42dip
+48dip
 "
 android
 :
