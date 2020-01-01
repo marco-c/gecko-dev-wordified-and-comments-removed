@@ -6820,6 +6820,17 @@ inlinable
 addedSetterStub
 &
 &
+obj
+-
+>
+lastProperty
+(
+)
+!
+=
+oldShape
+&
+&
 IsPropertyAddInlineable
 (
 cx
