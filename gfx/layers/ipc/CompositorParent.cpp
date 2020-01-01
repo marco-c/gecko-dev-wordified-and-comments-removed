@@ -125,10 +125,11 @@ current
 )
 -
 >
-PostTask
+PostDelayedTask
 (
 FROM_HERE
 composeTask
+10
 )
 ;
 if
