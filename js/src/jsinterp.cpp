@@ -14287,7 +14287,7 @@ if
 op
 =
 =
-JSOP_LOOP
+JSOP_TRACE
 )
 {
 \

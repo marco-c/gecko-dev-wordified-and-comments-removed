@@ -6226,10 +6226,10 @@ JOF_UINT16
 )
 OPDEF
 (
-JSOP_LOOP
+JSOP_TRACE
 228
 "
-loop
+trace
 "
 NULL
 1
