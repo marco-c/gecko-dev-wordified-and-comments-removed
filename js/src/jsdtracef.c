@@ -434,10 +434,10 @@ name
 ;
 atom
 =
+FUN_ATOM
+(
 fun
--
->
-atom
+)
 ;
 if
 (
