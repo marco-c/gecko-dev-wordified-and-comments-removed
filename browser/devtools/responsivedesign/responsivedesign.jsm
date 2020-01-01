@@ -1121,7 +1121,16 @@ _transitionsEnabled
 true
 _floatingScrollbars
 :
-true
+Services
+.
+appinfo
+.
+OS
+!
+=
+"
+Darwin
+"
 get
 transitionsEnabled
 (
