@@ -5346,6 +5346,11 @@ autoCompleteSearch
 aElement
 .
 name
+|
+|
+aElement
+.
+id
 aElement
 .
 value
