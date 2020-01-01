@@ -1100,6 +1100,17 @@ true
 )
 ;
 bool
+incName
+(
+jsint
+incr
+bool
+pre
+=
+true
+)
+;
+bool
 cmp
 (
 nanojit
