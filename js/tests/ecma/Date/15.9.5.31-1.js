@@ -324,7 +324,7 @@ SetUTCHours
 addNewTestCase
 (
 946684800000
-1234567
+1235567
 void
 0
 void
@@ -346,7 +346,7 @@ TDATE
 .
 setUTCHours
 (
-1234567
+1235567
 )
 ;
 TDATE
@@ -356,7 +356,7 @@ UTCDateFromTime
 SetUTCHours
 (
 946684800000
-1234567
+1235567
 )
 )
 LocalDateFromTime
@@ -364,7 +364,7 @@ LocalDateFromTime
 SetUTCHours
 (
 946684800000
-1234567
+1235567
 )
 )
 )
