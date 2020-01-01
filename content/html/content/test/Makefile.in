@@ -840,6 +840,10 @@ xml
 .
 xsl
 \
+test_anchor_href_cache_invalidation
+.
+html
+\
 test_bug481335
 .
 xhtml
