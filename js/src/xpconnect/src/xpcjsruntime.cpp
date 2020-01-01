@@ -1747,11 +1747,9 @@ iter
 {
 JS_ASSERT
 (
-acx
--
->
-hasRunOption
+JS_HAS_OPTION
 (
+acx
 JSOPTION_UNROOTED_GLOBAL
 )
 )
@@ -2754,11 +2752,9 @@ iter
 if
 (
 !
-acx
--
->
-hasRunOption
+JS_HAS_OPTION
 (
+acx
 JSOPTION_UNROOTED_GLOBAL
 )
 )
