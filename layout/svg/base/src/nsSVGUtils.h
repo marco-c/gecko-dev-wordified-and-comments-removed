@@ -229,7 +229,7 @@ endif
 #
 define
 NS_SVG_OFFSCREEN_MAX_DIMENSION
-16384
+4096
 PRBool
 NS_SVGEnabled
 (
