@@ -31,9 +31,9 @@ nsXULComboboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 NS_IMETHOD

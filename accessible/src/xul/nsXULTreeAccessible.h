@@ -106,9 +106,9 @@ nsXULTreeAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -425,9 +425,9 @@ nsXULTreeItemAccessibleBase
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 nsAccessible
 *
 aParent
@@ -698,9 +698,9 @@ nsXULTreeItemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 nsAccessible
 *
 aParent
@@ -801,9 +801,9 @@ nsXULTreeColumnsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 protected
