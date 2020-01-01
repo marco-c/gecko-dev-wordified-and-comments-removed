@@ -275,9 +275,6 @@ bool
 mShutdownRequired
 ;
 bool
-mShutdownPending
-;
-bool
 mEventsAreDoomed
 ;
 MainThreadFlag
