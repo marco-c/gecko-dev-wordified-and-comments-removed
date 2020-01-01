@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_type_policy_h__
+ion_TypePolicy_h
 #
 define
-jsion_type_policy_h__
+ion_TypePolicy_h
 #
 include
 "

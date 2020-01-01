@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_lir_x64_h__
+ion_x64_LIR_x64_h
 #
 define
-jsion_lir_x64_h__
+ion_x64_LIR_x64_h
 namespace
 js
 {

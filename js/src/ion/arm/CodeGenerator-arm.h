@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_codegen_arm_h__
+ion_arm_CodeGenerator_arm_h
 #
 define
-jsion_codegen_arm_h__
+ion_arm_CodeGenerator_arm_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-pcscriptcache_inl_h__
+ion_PcScriptCache_inl_h
 #
 define
-pcscriptcache_inl_h__
+ion_PcScriptCache_inl_h
 #
 include
 "

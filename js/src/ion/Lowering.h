@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_ion_lowering_h__
+ion_Lowering_h
 #
 define
-jsion_ion_lowering_h__
+ion_Lowering_h
 #
 include
 "

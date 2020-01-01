@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_lir_opcodes_common_h__
+ion_LOpcodes_h
 #
 define
-jsion_lir_opcodes_common_h__
+ion_LOpcodes_h
 #
 define
 LIR_COMMON_OPCODE_LIST

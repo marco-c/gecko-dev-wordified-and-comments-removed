@@ -1,9 +1,9 @@
 #
 ifndef
-js_ion_frame_layouts_x86_h__
+ion_shared_IonFrames_x86_shared_h
 #
 define
-js_ion_frame_layouts_x86_h__
+ion_shared_IonFrames_x86_shared_h
 #
 include
 "

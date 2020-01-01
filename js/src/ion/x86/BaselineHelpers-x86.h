@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baseline_helpers_x86_h__
+ion_x86_BaselineHelpers_x86_h
 #
 define
-jsion_baseline_helpers_x86_h__
+ion_x86_BaselineHelpers_x86_h
 #
 ifdef
 JS_ION

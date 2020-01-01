@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baseline_frame_h__
+ion_BaselineFrame_h
 #
 define
-jsion_baseline_frame_h__
+ion_BaselineFrame_h
 #
 ifdef
 JS_ION

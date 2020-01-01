@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baseline_registers_x64_h__
+ion_x64_BaselineRegisters_x64_h
 #
 define
-jsion_baseline_registers_x64_h__
+ion_x64_BaselineRegisters_x64_h
 #
 ifdef
 JS_ION

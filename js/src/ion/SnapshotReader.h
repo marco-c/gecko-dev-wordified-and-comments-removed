@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_snapshots_h__
+ion_SnapshotReader_h
 #
 define
-jsion_snapshots_h__
+ion_SnapshotReader_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_range_analysis_h__
+ion_RangeAnalysis_h
 #
 define
-jsion_range_analysis_h__
+ion_RangeAnalysis_h
 #
 include
 "

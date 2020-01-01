@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baseline_compiler_h__
+ion_BaselineCompiler_h
 #
 define
-jsion_baseline_compiler_h__
+ion_BaselineCompiler_h
 #
 ifdef
 JS_ION

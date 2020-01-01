@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_codegen_x64_h__
+ion_x64_CodeGenerator_x64_h
 #
 define
-jsion_codegen_x64_h__
+ion_x64_CodeGenerator_x64_h
 #
 include
 "

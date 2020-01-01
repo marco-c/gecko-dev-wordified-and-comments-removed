@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_codegen_h__
+ion_CodeGenerator_h
 #
 define
-jsion_codegen_h__
+ion_CodeGenerator_h
 #
 if
 defined

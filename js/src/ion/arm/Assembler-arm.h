@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_cpu_arm_assembler_h__
+ion_arm_Assembler_arm_h
 #
 define
-jsion_cpu_arm_assembler_h__
+ion_arm_Assembler_arm_h
 #
 include
 "

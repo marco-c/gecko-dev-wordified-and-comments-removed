@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_bytecode_analyzer_h__
+ion_IonBuilder_h
 #
 define
-jsion_bytecode_analyzer_h__
+ion_IonBuilder_h
 #
 ifdef
 JS_ION

@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_value_numbering_h__
+ion_ValueNumbering_h
 #
 define
-jsion_value_numbering_h__
+ion_ValueNumbering_h
 #
 include
 "

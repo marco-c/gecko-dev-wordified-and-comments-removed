@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_coderef_h__
+ion_IonCode_h
 #
 define
-jsion_coderef_h__
+ion_IonCode_h
 #
 include
 "

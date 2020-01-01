@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_lir_inl_h__
+ion_LIR_inl_h
 #
 define
-jsion_lir_inl_h__
+ion_LIR_inl_h
 namespace
 js
 {

@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_mir_h__
+ion_MIR_h
 #
 define
-jsion_mir_h__
+ion_MIR_h
 #
 include
 "

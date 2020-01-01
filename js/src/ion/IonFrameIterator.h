@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_frame_iterator_h__
+ion_IonFrameIterator_h
 #
 define
-jsion_frame_iterator_h__
+ion_IonFrameIterator_h
 #
 ifdef
 JS_ION

@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_macro_assembler_arm_h__
+ion_arm_MacroAssembler_arm_h
 #
 define
-jsion_macro_assembler_arm_h__
+ion_arm_MacroAssembler_arm_h
 #
 include
 "

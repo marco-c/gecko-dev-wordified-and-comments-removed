@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_ionframes_arm_h__
+ion_arm_IonFrames_arm_h
 #
 define
-jsion_ionframes_arm_h__
+ion_arm_IonFrames_arm_h
 #
 include
 "

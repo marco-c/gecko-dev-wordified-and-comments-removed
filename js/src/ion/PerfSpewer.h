@@ -1,9 +1,9 @@
 #
 ifndef
-js_ion_perfspewer_h__
+ion_PerfSpewer_h
 #
 define
-js_ion_perfspewer_h__
+ion_PerfSpewer_h
 #
 include
 <

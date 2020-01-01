@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_ion_analysis_h__
+ion_IonAnalysis_h
 #
 define
-jsion_ion_analysis_h__
+ion_IonAnalysis_h
 #
 include
 "

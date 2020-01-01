@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baseline_jit_h__
+ion_BaselineJIT_h
 #
 define
-jsion_baseline_jit_h__
+ion_BaselineJIT_h
 #
 ifdef
 JS_ION

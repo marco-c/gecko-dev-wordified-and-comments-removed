@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_architecture_x64_h__
+ion_x64_Architecture_x64_h
 #
 define
-jsion_architecture_x64_h__
+ion_x64_Architecture_x64_h
 #
 include
 "

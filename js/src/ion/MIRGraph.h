@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_mirgraph_h__
+ion_MIRGraph_h
 #
 define
-jsion_mirgraph_h__
+ion_MIRGraph_h
 #
 include
 "

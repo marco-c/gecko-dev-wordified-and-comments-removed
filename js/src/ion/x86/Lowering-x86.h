@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_ion_lowering_x86_h__
+ion_x86_Lowering_x86_h
 #
 define
-jsion_ion_lowering_x86_h__
+ion_x86_Lowering_x86_h
 #
 include
 "

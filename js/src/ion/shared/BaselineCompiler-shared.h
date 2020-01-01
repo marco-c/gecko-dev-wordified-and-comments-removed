@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baselinecompiler_shared_h__
+ion_shared_BaselineCompiler_shared_h
 #
 define
-jsion_baselinecompiler_shared_h__
+ion_shared_BaselineCompiler_shared_h
 #
 include
 "

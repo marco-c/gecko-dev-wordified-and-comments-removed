@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_macro_assembler_x86_h__
+ion_x86_MacroAssembler_x86_h
 #
 define
-jsion_macro_assembler_x86_h__
+ion_x86_MacroAssembler_x86_h
 #
 include
 "

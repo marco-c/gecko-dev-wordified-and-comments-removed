@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_asmjsmodule_h__
+ion_AsmJSModule_h
 #
 define
-jsion_asmjsmodule_h__
+ion_AsmJSModule_h
 #
 ifdef
 JS_ION

@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_ion_lowering_x64_h__
+ion_x64_Lowering_x64_h
 #
 define
-jsion_ion_lowering_x64_h__
+ion_x64_Lowering_x64_h
 #
 include
 "

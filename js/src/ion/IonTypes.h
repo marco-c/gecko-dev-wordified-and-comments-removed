@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_types_h_
+ion_IonTypes_h
 #
 define
-jsion_types_h_
+ion_IonTypes_h
 #
 include
 "

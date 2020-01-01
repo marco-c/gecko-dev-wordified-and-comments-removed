@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_codegen_x86_h__
+ion_x86_CodeGenerator_x86_h
 #
 define
-jsion_codegen_x86_h__
+ion_x86_CodeGenerator_x86_h
 #
 include
 "

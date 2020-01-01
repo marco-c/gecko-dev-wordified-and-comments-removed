@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baseline_inspector_h__
+ion_BaselineInspector_h
 #
 define
-jsion_baseline_inspector_h__
+ion_BaselineInspector_h
 #
 ifdef
 JS_ION

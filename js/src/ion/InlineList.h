@@ -1,9 +1,9 @@
 #
 ifndef
-js_inline_list_h__
+ion_InlineList_h
 #
 define
-js_inline_list_h__
+ion_InlineList_h
 #
 include
 "

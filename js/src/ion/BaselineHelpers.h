@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baseline_helpers_h__
+ion_BaselineHelpers_h
 #
 define
-jsion_baseline_helpers_h__
+ion_BaselineHelpers_h
 #
 ifdef
 JS_ION

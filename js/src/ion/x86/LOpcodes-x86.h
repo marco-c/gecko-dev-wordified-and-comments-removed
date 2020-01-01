@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_lir_opcodes_x86_h__
+ion_x86_LOpcodes_x86_h
 #
 define
-jsion_lir_opcodes_x86_h__
+ion_x86_LOpcodes_x86_h
 #
 define
 LIR_CPU_OPCODE_LIST

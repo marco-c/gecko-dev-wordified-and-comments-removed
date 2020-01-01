@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_move_resolver_x86_shared_h__
+ion_MoveEmitter_x86_shared_h
 #
 define
-jsion_move_resolver_x86_shared_h__
+ion_MoveEmitter_x86_shared_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_parallel_array_analysis_h__
+ion_ParallelArrayAnalysis_h
 #
 define
-jsion_parallel_array_analysis_h__
+ion_ParallelArrayAnalysis_h
 #
 include
 "

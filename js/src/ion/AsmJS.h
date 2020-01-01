@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_asmjs_h__
+ion_AsmJS_h
 #
 define
-jsion_asmjs_h__
+ion_AsmJS_h
 #
 ifdef
 XP_MACOSX

@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_assembler_x86_shared__
+ion_shared_Assembler_x86_shared_h
 #
 define
-jsion_assembler_x86_shared__
+ion_shared_Assembler_x86_shared_h
 #
 include
 <

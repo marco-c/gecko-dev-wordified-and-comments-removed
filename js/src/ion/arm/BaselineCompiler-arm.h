@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baselinecompiler_arm_h__
+ion_arm_BaselineCompiler_arm_h
 #
 define
-jsion_baselinecompiler_arm_h__
+ion_arm_BaselineCompiler_arm_h
 #
 include
 "

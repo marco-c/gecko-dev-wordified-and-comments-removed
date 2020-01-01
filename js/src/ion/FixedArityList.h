@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_ion_fixed_arity_list_h__
+ion_FixedArityList_h
 #
 define
-jsion_ion_fixed_arity_list_h__
+ion_FixedArityList_h
 namespace
 js
 {

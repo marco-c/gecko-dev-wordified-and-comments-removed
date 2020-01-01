@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baselinecompiler_x86_h__
+ion_x86_BaselineCompiler_x86_h
 #
 define
-jsion_baselinecompiler_x86_h__
+ion_x86_BaselineCompiler_x86_h
 #
 include
 "

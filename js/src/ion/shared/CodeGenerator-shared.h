@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_codegen_shared_h__
+ion_shared_CodeGenerator_shared_h
 #
 define
-jsion_codegen_shared_h__
+ion_shared_CodeGenerator_shared_h
 #
 include
 "

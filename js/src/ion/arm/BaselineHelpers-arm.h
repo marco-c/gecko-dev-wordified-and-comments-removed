@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_baseline_helpers_arm_h__
+ion_arm_BaselineHelpers_arm_h
 #
 define
-jsion_baseline_helpers_arm_h__
+ion_arm_BaselineHelpers_arm_h
 #
 ifdef
 JS_ION

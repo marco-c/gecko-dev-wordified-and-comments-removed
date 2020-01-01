@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_lir_x86_h__
+ion_x86_LIR_x86_h
 #
 define
-jsion_lir_x86_h__
+ion_x86_LIR_x86_h
 namespace
 js
 {

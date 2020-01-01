@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_licm_h__
+ion_LICM_h
 #
 define
-jsion_licm_h__
+ion_LICM_h
 #
 include
 "

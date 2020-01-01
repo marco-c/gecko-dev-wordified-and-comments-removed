@@ -1,9 +1,9 @@
 #
 ifndef
-pcscriptcache_h__
+ion_PcScriptCache_h
 #
 define
-pcscriptcache_h__
+ion_PcScriptCache_h
 struct
 JSRuntime
 ;

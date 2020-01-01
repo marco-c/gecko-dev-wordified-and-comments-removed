@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_lir_common_h__
+ion_LIR_Common_h
 #
 define
-jsion_lir_common_h__
+ion_LIR_Common_h
 #
 include
 "

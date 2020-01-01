@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_architecture_arm_h__
+ion_arm_Architecture_arm_h
 #
 define
-jsion_architecture_arm_h__
+ion_arm_Architecture_arm_h
 #
 include
 <

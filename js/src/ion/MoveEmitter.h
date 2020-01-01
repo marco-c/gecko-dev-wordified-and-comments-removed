@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_move_emitter_h__
+ion_MoveEmitter_h
 #
 define
-jsion_move_emitter_h__
+ion_MoveEmitter_h
 #
 if
 defined

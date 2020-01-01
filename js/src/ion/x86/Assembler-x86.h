@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_cpu_x86_assembler_h__
+ion_x86_Assembler_x86_h
 #
 define
-jsion_cpu_x86_assembler_h__
+ion_x86_Assembler_x86_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_parallel_functions_h__
+ion_ParallelFunctions_h
 #
 define
-jsion_parallel_functions_h__
+ion_ParallelFunctions_h
 #
 include
 "

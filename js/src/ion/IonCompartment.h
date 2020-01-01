@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_ion_compartment_h__
+ion_IonCompartment_h
 #
 define
-jsion_ion_compartment_h__
+ion_IonCompartment_h
 #
 ifdef
 JS_ION

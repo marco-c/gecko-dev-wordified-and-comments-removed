@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_ion_instrumentation_h__
+ion_IonInstrumentation_h
 #
 define
-jsion_ion_instrumentation_h__
+ion_IonInstrumentation_h
 namespace
 js
 {

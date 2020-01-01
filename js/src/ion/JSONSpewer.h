@@ -1,9 +1,9 @@
 #
 ifndef
-js_ion_jsonspewer_h__
+ion_JSONSpewer_h
 #
 define
-js_ion_jsonspewer_h__
+ion_JSONSpewer_h
 #
 include
 <

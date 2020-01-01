@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_executionmodeinlines_h__
+ion_ExecutionModeInlines_h
 #
 define
-jsion_executionmodeinlines_h__
+ion_ExecutionModeInlines_h
 #
 ifdef
 JS_ION

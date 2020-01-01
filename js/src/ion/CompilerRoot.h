@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_ion_gc_h__
+ion_CompilerRoot_h
 #
 define
-jsion_ion_gc_h__
+ion_CompilerRoot_h
 #
 ifdef
 JS_ION

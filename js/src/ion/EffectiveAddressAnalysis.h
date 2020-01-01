@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_effective_address_analysis_h__
+ion_EffectiveAddressAnalysis_h
 #
 define
-jsion_effective_address_analysis_h__
+ion_EffectiveAddressAnalysis_h
 #
 include
 "

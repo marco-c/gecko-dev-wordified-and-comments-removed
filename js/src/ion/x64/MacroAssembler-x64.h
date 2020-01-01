@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_macro_assembler_x64_h__
+ion_x64_MacroAssembler_x64_h
 #
 define
-jsion_macro_assembler_x64_h__
+ion_x64_MacroAssembler_x64_h
 #
 include
 "

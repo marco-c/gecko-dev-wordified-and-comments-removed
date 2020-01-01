@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_vm_functions_h__
+ion_VMFunctions_h
 #
 define
-jsion_vm_functions_h__
+ion_VMFunctions_h
 #
 include
 "

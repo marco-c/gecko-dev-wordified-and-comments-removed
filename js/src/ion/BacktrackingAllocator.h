@@ -1,9 +1,9 @@
 #
 ifndef
-js_ion_backtrackingallocator_h__
+ion_BacktrackingAllocator_h
 #
 define
-js_ion_backtrackingallocator_h__
+ion_BacktrackingAllocator_h
 #
 include
 "

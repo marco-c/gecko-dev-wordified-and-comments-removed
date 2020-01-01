@@ -1,9 +1,9 @@
 #
 ifndef
-js_ion_liverangeallocator_h__
+ion_LiveRangeAllocator_h
 #
 define
-js_ion_liverangeallocator_h__
+ion_LiveRangeAllocator_h
 #
 include
 "

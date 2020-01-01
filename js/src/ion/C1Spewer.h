@@ -1,12 +1,12 @@
 #
-ifdef
-DEBUG
-#
 ifndef
-jsion_c1spewer_h__
+ion_C1Spewer_h
 #
 define
-jsion_c1spewer_h__
+ion_C1Spewer_h
+#
+ifdef
+DEBUG
 #
 include
 "

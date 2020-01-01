@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_compileinfo_inl_h__
+ion_CompileInfo_inl_h
 #
 define
-jsion_compileinfo_inl_h__
+ion_CompileInfo_inl_h
 #
 include
 "

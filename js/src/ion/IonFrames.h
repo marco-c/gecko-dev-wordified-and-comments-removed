@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_frames_h__
+ion_IonFrames_h
 #
 define
-jsion_frames_h__
+ion_IonFrames_h
 #
 ifdef
 JS_ION

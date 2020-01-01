@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_include_safepoints_h_
+ion_Safepoints_h
 #
 define
-jsion_include_safepoints_h_
+ion_Safepoints_h
 #
 include
 "

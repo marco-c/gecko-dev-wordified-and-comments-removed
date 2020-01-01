@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_stack_slot_allocator_h_
+ion_StackSlotAllocator_h
 #
 define
-jsion_stack_slot_allocator_h_
+ion_StackSlotAllocator_h
 #
 include
 "

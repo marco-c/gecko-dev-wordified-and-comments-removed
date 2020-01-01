@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_compact_buffer_h__
+ion_Compactbuffer_h
 #
 define
-jsion_compact_buffer_h__
+ion_Compactbuffer_h
 #
 include
 "

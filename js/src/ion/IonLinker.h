@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_linker_h__
+ion_IonLinker_h
 #
 define
-jsion_linker_h__
+ion_IonLinker_h
 #
 include
 "

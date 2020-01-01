@@ -1,9 +1,9 @@
 #
 ifndef
-jsion_mirgen_h__
+ion_MIRGenerator_h
 #
 define
-jsion_mirgen_h__
+ion_MIRGenerator_h
 #
 include
 <
