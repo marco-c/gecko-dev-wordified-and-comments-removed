@@ -312,7 +312,7 @@ int
 )
 {
 return
-CPR_FAILURE
+CC_RC_ERROR
 ;
 }
 CC_DEBUG_MSG
