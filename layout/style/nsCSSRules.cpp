@@ -5855,11 +5855,6 @@ undef
 CSS_FONT_DESC
 }
 ;
-DOMCI_DATA
-(
-CSSFontFaceStyleDecl
-nsCSSFontFaceStyleDecl
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsCSSFontFaceStyleDecl
@@ -5915,10 +5910,6 @@ aInstancePtr
 ;
 }
 else
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-CSSFontFaceStyleDecl
-)
 NS_INTERFACE_MAP_END
 NS_IMPL_ADDREF_USING_AGGREGATOR
 (

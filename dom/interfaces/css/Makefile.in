@@ -126,10 +126,6 @@ NULL
 XPIDLSRCS
 =
 \
-nsIDOMCSS2Properties
-.
-idl
-\
 nsIDOMCSSCharsetRule
 .
 idl

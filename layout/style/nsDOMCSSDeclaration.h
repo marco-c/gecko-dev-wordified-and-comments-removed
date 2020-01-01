@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIDOMCSS2Properties
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -79,8 +72,6 @@ nsDOMCSSDeclaration
 :
 public
 nsICSSDeclaration
-public
-nsIDOMCSS2Properties
 {
 public
 :
@@ -231,7 +222,6 @@ MOZ_OVERRIDE
 =
 0
 ;
-NS_DECL_NSIDOMCSS2PROPERTIES
 #
 define
 CSS_PROP_DOMPROP_PREFIXED

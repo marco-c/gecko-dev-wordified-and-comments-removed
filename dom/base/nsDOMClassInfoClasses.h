@@ -475,10 +475,6 @@ CSSStyleSheet
 )
 DOMCI_CLASS
 (
-CSSStyleDeclaration
-)
-DOMCI_CLASS
-(
 ROCSSPrimitiveValue
 )
 DOMCI_CLASS
@@ -1293,10 +1289,6 @@ DataErrorEvent
 DOMCI_CLASS
 (
 CSSFontFaceRule
-)
-DOMCI_CLASS
-(
-CSSFontFaceStyleDecl
 )
 #
 if
