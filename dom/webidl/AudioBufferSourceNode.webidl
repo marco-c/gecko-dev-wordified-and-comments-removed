@@ -168,6 +168,11 @@ attribute
 AudioParam
 playbackRate
 ;
+readonly
+attribute
+AudioParam
+gain
+;
 attribute
 boolean
 loop
