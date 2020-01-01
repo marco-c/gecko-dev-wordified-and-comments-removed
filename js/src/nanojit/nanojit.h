@@ -544,14 +544,9 @@ endif
 ifdef
 AVMPLUS_VERBOSE
 #
-ifndef
-NJ_VERBOSE_DISABLED
-#
 define
 NJ_VERBOSE
 1
-#
-endif
 #
 endif
 #
