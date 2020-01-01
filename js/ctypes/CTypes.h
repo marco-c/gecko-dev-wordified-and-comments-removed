@@ -617,8 +617,6 @@ cx
 JSObject
 *
 obj
-CTypeProtoSlot
-slot
 )
 ;
 static
@@ -638,7 +636,7 @@ slot
 ;
 static
 JSBool
-ProtoGetter
+PrototypeGetter
 (
 JSContext
 *
@@ -821,7 +819,7 @@ obj
 ;
 static
 JSBool
-TargetGetter
+TargetTypeGetter
 (
 JSContext
 *
