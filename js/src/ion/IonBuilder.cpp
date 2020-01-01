@@ -14323,6 +14323,11 @@ switch
 inlineNativeCall
 (
 target
+-
+>
+native
+(
+)
 argc
 constructing
 )
