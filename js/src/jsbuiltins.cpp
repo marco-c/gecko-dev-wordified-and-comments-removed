@@ -350,7 +350,7 @@ v
 )
 )
 return
-JSVAL_ERROR_COOKIE
+JSVAL_NULL
 ;
 return
 v
@@ -424,7 +424,7 @@ v
 )
 )
 return
-JSVAL_ERROR_COOKIE
+JSVAL_NULL
 ;
 return
 v
