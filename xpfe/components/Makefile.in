@@ -541,8 +541,6 @@ DIRS
 \
 directory
 \
-resetPref
-\
 (
 NULL
 )

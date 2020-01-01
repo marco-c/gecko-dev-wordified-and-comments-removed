@@ -3628,13 +3628,6 @@ xpfe
 /
 components
 /
-resetPref
-/
-Makefile
-xpfe
-/
-components
-/
 build
 /
 Makefile
