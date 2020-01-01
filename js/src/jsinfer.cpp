@@ -15699,6 +15699,15 @@ obj
 inDictionaryMode
 (
 )
+|
+|
+!
+obj
+-
+>
+hasEmptyElements
+(
+)
 )
 return
 ;
