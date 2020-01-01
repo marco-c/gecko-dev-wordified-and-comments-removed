@@ -83,13 +83,6 @@ nsPIDOMWindow
 .
 h
 "
-#
-include
-"
-PowerManager
-.
-h
-"
 DOMCI_DATA
 (
 MozWakeLock
