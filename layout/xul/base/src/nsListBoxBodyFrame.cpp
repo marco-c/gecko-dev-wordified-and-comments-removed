@@ -1642,6 +1642,9 @@ ReflowFinished
 (
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 CreateRows
 (
 )
