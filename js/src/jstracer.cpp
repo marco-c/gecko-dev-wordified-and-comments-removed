@@ -23430,6 +23430,7 @@ fp
 ;
 if
 (
+(
 cx
 -
 >
@@ -23440,9 +23441,8 @@ flags
 &
 JSFRAME_CONSTRUCTING
 )
-{
-if
-(
+&
+&
 JSVAL_IS_PRIMITIVE
 (
 rval
@@ -23485,7 +23485,6 @@ argv
 ]
 )
 ;
-}
 }
 else
 {
