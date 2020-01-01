@@ -758,6 +758,9 @@ INSTALL
 (
 LIBRARY
 )
+(
+FAKE_LIBRARY
+)
 .
 .
 /
