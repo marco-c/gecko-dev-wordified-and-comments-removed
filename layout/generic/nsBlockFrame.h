@@ -1480,6 +1480,7 @@ nsPresContext
 aPresContext
 )
 ;
+static
 PRBool
 RenumberListsInBlock
 (
@@ -1488,7 +1489,7 @@ nsPresContext
 aPresContext
 nsBlockFrame
 *
-aContainerFrame
+aBlockFrame
 PRInt32
 *
 aOrdinal
@@ -1496,6 +1497,7 @@ PRInt32
 aDepth
 )
 ;
+static
 PRBool
 RenumberListsFor
 (
@@ -1873,6 +1875,16 @@ PRBool
 aInOverflow
 )
 ;
+nsBlockInFlowLineIterator
+(
+nsBlockFrame
+*
+aFrame
+PRBool
+*
+aFoundValidLine
+)
+;
 line_iterator
 GetLine
 (
@@ -1931,6 +1943,11 @@ mLine
 nsLineList
 *
 mInOverflowLines
+;
+PRBool
+FindValidLine
+(
+)
 ;
 }
 ;
