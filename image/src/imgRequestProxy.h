@@ -401,6 +401,11 @@ OnDiscard
 )
 ;
 void
+OnUnlockedDraw
+(
+)
+;
+void
 OnImageIsAnimated
 (
 )

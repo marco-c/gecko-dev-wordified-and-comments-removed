@@ -143,6 +143,14 @@ OnDiscard
 =
 0
 ;
+virtual
+void
+OnUnlockedDraw
+(
+)
+=
+0
+;
 }
 ;
 inline

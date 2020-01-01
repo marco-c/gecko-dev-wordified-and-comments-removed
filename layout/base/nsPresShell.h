@@ -1525,6 +1525,15 @@ nsDisplayList
 aList
 )
 ;
+virtual
+void
+EnsureImageInVisibleList
+(
+nsIImageLoadingContent
+*
+aImage
+)
+;
 protected
 :
 virtual
