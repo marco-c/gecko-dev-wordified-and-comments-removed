@@ -522,7 +522,7 @@ nsHtml5Speculation
 .
 cpp
 \
-nsHtml5SpeculativeLoader
+nsHtml5SpeculativeLoad
 .
 cpp
 \

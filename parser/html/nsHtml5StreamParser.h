@@ -750,6 +750,12 @@ mExecutorFlusher
 ;
 nsCOMPtr
 <
+nsIRunnable
+>
+mLoadFlusher
+;
+nsCOMPtr
+<
 nsICharsetDetector
 >
 mChardet

@@ -757,6 +757,7 @@ CPP_THROW_NEW
 ;
 protected
 :
+virtual
 void
 ContinueInterruptedParsingAsync
 (

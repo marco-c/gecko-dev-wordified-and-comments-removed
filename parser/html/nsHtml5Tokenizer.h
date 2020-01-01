@@ -127,9 +127,6 @@ class
 nsHtml5StreamParser
 ;
 class
-nsHtml5SpeculativeLoader
-;
-class
 nsHtml5TreeBuilder
 ;
 class
