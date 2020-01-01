@@ -353,6 +353,16 @@ IsCallerTrustedForWrite
 ;
 static
 PRBool
+IsCallerTrustedForCapability
+(
+const
+char
+*
+aCapability
+)
+;
+static
+PRBool
 ContentIsDescendantOf
 (
 nsINode
