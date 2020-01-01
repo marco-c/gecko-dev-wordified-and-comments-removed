@@ -248,6 +248,16 @@ function
 e
 )
 {
+if
+(
+!
+Utils
+.
+isRightClick
+(
+e
+)
+)
 self
 .
 lastMouseDownTarget
