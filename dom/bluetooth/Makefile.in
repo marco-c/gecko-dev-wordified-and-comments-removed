@@ -283,6 +283,10 @@ BluetoothUnixSocketConnector
 .
 cpp
 \
+BluetoothHfpManager
+.
+cpp
+\
 (
 NULL
 )
