@@ -26871,6 +26871,8 @@ nsIDOMNode
 >
 startContainer
 ;
+res
+=
 range
 -
 >
@@ -26881,6 +26883,15 @@ getter_AddRefs
 startContainer
 )
 )
+;
+if
+(
+NS_FAILED
+(
+res
+)
+)
+continue
 ;
 if
 (
