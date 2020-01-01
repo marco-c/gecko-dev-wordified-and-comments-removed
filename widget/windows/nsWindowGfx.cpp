@@ -2791,6 +2791,12 @@ uint8_t
 *
 data
 ;
+nsRefPtr
+<
+gfxImageSurface
+>
+dest
+;
 if
 (
 (
@@ -2859,10 +2865,6 @@ height
 0
 )
 ;
-nsRefPtr
-<
-gfxImageSurface
->
 dest
 =
 new
