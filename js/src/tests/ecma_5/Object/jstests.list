@@ -978,7 +978,6 @@ toString
 01
 .
 js
-skip
 script
 proto
 -
@@ -991,14 +990,6 @@ writability
 set
 .
 js
-#
-needs
-browser
-/
-shell
-fixup
-happening
-shortly
 script
 vacuous
 -
