@@ -540,6 +540,10 @@ test_cows
 .
 html
 \
+test_frameWrapping
+.
+html
+\
 (
 NULL
 )
