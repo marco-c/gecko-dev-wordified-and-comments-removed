@@ -13554,14 +13554,6 @@ friends
 set
 (
 )
-        
-self
-.
-visited
-=
-set
-(
-)
     
 def
 findFriends
@@ -13577,9 +13569,11 @@ mytype
 =
 ptype
         
+toplevel
+=
 self
 .
-walkUpTheProtocolTree
+findToplevel
 (
 ptype
 )
@@ -13588,7 +13582,7 @@ self
 .
 walkDownTheProtocolTree
 (
-ptype
+toplevel
 )
         
 return
@@ -13597,7 +13591,7 @@ self
 friends
     
 def
-walkUpTheProtocolTree
+findToplevel
 (
 self
 ptype
@@ -13605,34 +13599,24 @@ ptype
 :
         
 if
-not
 ptype
 .
-isManaged
+isToplevel
 (
 )
 :
             
 return
+ptype
         
-mtype
-=
+return
+self
+.
+findToplevel
+(
 ptype
 .
 manager
-        
-self
-.
-visit
-(
-mtype
-)
-        
-self
-.
-walkUpTheProtocolTree
-(
-mtype
 )
     
 def
@@ -13644,15 +13628,20 @@ ptype
 :
         
 if
-not
 ptype
+!
+=
+self
 .
-isManager
-(
-)
+mytype
 :
             
-return
+self
+.
+visit
+(
+ptype
+)
         
 for
 mtype
@@ -13664,13 +13653,6 @@ manages
             
 self
 .
-visit
-(
-mtype
-)
-            
-self
-.
 walkDownTheProtocolTree
 (
 mtype
@@ -13683,25 +13665,6 @@ self
 ptype
 )
 :
-        
-if
-ptype
-in
-self
-.
-visited
-:
-            
-return
-        
-self
-.
-visited
-.
-add
-(
-ptype
-)
         
 savedptype
 =
