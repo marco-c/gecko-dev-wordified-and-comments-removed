@@ -5742,7 +5742,7 @@ utils
 reportError
 (
 "
-BookmarksMenuButton
+BookmarkingUI
 did
 not
 receive
@@ -5827,7 +5827,7 @@ utils
 reportError
 (
 "
-BookmarksMenuButton
+BookmarkingUI
 failed
 adding
 a
