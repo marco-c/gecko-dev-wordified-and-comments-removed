@@ -1314,6 +1314,11 @@ evt
 .
 DOM_VK_SLEEP
 :
+case
+evt
+.
+DOM_VK_END
+:
 type
 =
 '
