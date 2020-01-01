@@ -1375,6 +1375,17 @@ notifyUser
 :
 False
                    
+'
+toolkit
+.
+startup
+.
+max_resumed_crashes
+'
+:
+-
+1
+                   
 }
 class
 ThunderbirdProfile

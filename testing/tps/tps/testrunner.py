@@ -508,6 +508,17 @@ enabled
 True
                           
 '
+toolkit
+.
+startup
+.
+max_resumed_crashes
+'
+:
+-
+1
+                          
+'
 browser
 .
 dom

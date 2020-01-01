@@ -433,3 +433,16 @@ werror
 false
 )
 ;
+user_pref
+(
+"
+toolkit
+.
+startup
+.
+max_resumed_crashes
+"
+-
+1
+)
+;
