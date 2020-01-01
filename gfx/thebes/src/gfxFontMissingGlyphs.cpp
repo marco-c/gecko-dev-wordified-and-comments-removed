@@ -615,7 +615,7 @@ if
 aContext
 -
 >
-GetColor
+GetDeviceColor
 (
 currentColor
 )
@@ -758,7 +758,7 @@ BOX_BORDER_OPACITY
 aContext
 -
 >
-SetColor
+SetDeviceColor
 (
 color
 )
@@ -876,7 +876,7 @@ HEX_CHAR_GAP
 aContext
 -
 >
-SetColor
+SetDeviceColor
 (
 currentColor
 )
@@ -1005,7 +1005,7 @@ HEX_CHAR_GAP
 aContext
 -
 >
-SetColor
+SetDeviceColor
 (
 currentColor
 )

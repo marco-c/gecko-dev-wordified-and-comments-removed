@@ -434,7 +434,7 @@ pattern
 )
 ;
 void
-SetColor
+SetDeviceColor
 (
 const
 gfxRGBA
@@ -443,8 +443,17 @@ c
 )
 ;
 PRBool
-GetColor
+GetDeviceColor
 (
+gfxRGBA
+&
+c
+)
+;
+void
+SetColor
+(
+const
 gfxRGBA
 &
 c

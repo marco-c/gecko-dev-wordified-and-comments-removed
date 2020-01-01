@@ -1128,7 +1128,7 @@ mSinglePixel
 )
 context
 .
-SetColor
+SetDeviceColor
 (
 mSinglePixelColor
 )
@@ -1491,7 +1491,7 @@ OPERATOR_SOURCE
 ctx
 -
 >
-SetColor
+SetDeviceColor
 (
 mSinglePixelColor
 )
@@ -2475,7 +2475,7 @@ op
 ctx
 -
 >
-SetColor
+SetDeviceColor
 (
 gfxRGBA
 (
@@ -2647,7 +2647,7 @@ hasPadding
 thebesContext
 -
 >
-SetColor
+SetDeviceColor
 (
 mSinglePixelColor
 )
@@ -2752,7 +2752,7 @@ mSinglePixel
 {
 tmpContext
 .
-SetColor
+SetDeviceColor
 (
 mSinglePixelColor
 )
@@ -3419,7 +3419,7 @@ op
 thebesContext
 -
 >
-SetColor
+SetDeviceColor
 (
 gfxRGBA
 (
