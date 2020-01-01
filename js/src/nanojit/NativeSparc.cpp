@@ -737,7 +737,7 @@ NOP
 ArgSize
 sizes
 [
-10
+MAXARGS
 ]
 ;
 uint32_t

@@ -3007,7 +3007,7 @@ _argtypes
 <
 <
 =
-2
+ARGSIZE_SHIFT
 ;
 }
 if

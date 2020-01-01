@@ -5171,6 +5171,10 @@ LIR_call
 LIR_fcall
 LIR_call
 LIR_callh
+LIR_skip
+LIR_skip
+LIR_call
+LIR_skip
 }
 ;
 uint32_t
@@ -5188,7 +5192,7 @@ k_callmap
 [
 argt
 &
-3
+ARGSIZE_MASK_ANY
 ]
 ;
 NanoAssert

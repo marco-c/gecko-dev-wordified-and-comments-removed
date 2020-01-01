@@ -848,8 +848,6 @@ n
 ArgSize
 sizes
 [
-2
-*
 MAXARGS
 ]
 ;
@@ -6455,7 +6453,13 @@ if
 sz
 =
 =
-ARGSIZE_LO
+ARGSIZE_I
+|
+|
+sz
+=
+=
+ARGSIZE_U
 )
 {
 if

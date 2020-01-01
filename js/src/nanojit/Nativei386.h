@@ -10127,7 +10127,7 @@ c
 >
 _argtypes
 &
-3
+ARGSIZE_MASK_ANY
 )
 =
 =
@@ -10202,7 +10202,7 @@ c
 >
 _argtypes
 &
-3
+ARGSIZE_MASK_ANY
 )
 =
 =
