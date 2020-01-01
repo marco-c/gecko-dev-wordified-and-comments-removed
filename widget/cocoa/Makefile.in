@@ -800,6 +800,17 @@ srcdir
 /
 xpwidgets
 \
+-
+I
+(
+srcdir
+)
+/
+.
+.
+/
+shared
+\
 (
 NULL
 )
