@@ -98,6 +98,8 @@ result
 nsSVGElement
 *
 aContext
+PRUint8
+aCtxType
 )
 ;
 nsSVGLengthList
@@ -105,6 +107,8 @@ nsSVGLengthList
 nsSVGElement
 *
 aContext
+PRUint8
+aCtxType
 )
 ;
 ~
@@ -212,11 +216,13 @@ nsSVGLengthList
 nsSVGElement
 *
 aContext
+PRUint8
+aCtxType
 )
 :
 mCtxType
 (
-0
+aCtxType
 )
 {
 mContext
@@ -1197,6 +1203,8 @@ result
 nsSVGElement
 *
 aContext
+PRUint8
+aCtxType
 )
 {
 *
@@ -1212,6 +1220,7 @@ new
 nsSVGLengthList
 (
 aContext
+aCtxType
 )
 ;
 if

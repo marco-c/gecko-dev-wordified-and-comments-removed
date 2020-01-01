@@ -24,6 +24,8 @@ result
 nsSVGElement
 *
 aContext
+PRUint8
+aCtxType
 )
 ;
 #
