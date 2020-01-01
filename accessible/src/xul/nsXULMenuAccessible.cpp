@@ -1859,7 +1859,7 @@ shift
 1
 )
 modifierMask
-!
+|
 =
 KeyBinding
 :
