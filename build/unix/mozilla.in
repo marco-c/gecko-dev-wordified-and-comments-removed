@@ -916,6 +916,7 @@ MOZILLA_BIN
 "
 "
 fi
+exec
 "
 dist_bin
 /
@@ -933,11 +934,6 @@ MOZILLA_BIN
 "
 "
 "
-exitcode
-=
-?
-exit
-exitcode
 #
 EOF
 .
