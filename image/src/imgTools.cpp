@@ -433,6 +433,10 @@ const
 nsACString
 &
 aMimeType
+const
+nsAString
+&
+aOutputOptions
 nsIInputStream
 *
 *
@@ -446,6 +450,7 @@ aContainer
 aMimeType
 0
 0
+aOutputOptions
 aStream
 )
 ;
@@ -467,6 +472,10 @@ PRInt32
 aScaledWidth
 PRInt32
 aScaledHeight
+const
+nsAString
+&
+aOutputOptions
 nsIInputStream
 *
 *
@@ -809,9 +818,7 @@ imgIEncoder
 :
 :
 INPUT_FORMAT_HOSTARGB
-EmptyString
-(
-)
+aOutputOptions
 )
 ;
 NS_ENSURE_SUCCESS
