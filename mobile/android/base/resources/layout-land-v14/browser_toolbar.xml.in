@@ -82,7 +82,13 @@ MPL
 -
 >
 <
-LinearLayout
+org
+.
+mozilla
+.
+gecko
+.
+BrowserToolbarLayout
 xmlns
 :
 android
@@ -1299,5 +1305,11 @@ RelativeLayout
 >
 <
 /
-LinearLayout
+org
+.
+mozilla
+.
+gecko
+.
+BrowserToolbarLayout
 >
