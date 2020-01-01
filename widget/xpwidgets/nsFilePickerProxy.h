@@ -184,8 +184,6 @@ nsIWidget
 const
 nsAString
 &
-short
-int
 )
 ;
 nsCOMArray
@@ -193,9 +191,6 @@ nsCOMArray
 nsIFile
 >
 mFiles
-;
-int16_t
-mMode
 ;
 int16_t
 mSelectedType

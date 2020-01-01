@@ -108,14 +108,6 @@ nsFilePicker
 nsFilePicker
 (
 )
-:
-mMode
-(
-nsIFilePicker
-:
-:
-modeOpen
-)
 {
 #
 ifdef
@@ -1147,8 +1139,6 @@ const
 nsAString
 &
 aTitle
-int16_t
-mode
 )
 {
 PR_LOG
@@ -1188,9 +1178,5 @@ get
 mParent
 =
 aParent
-;
-mMode
-=
-mode
 ;
 }

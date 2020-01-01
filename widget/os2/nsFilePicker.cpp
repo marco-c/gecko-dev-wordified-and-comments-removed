@@ -2380,8 +2380,6 @@ const
 nsAString
 &
 aTitle
-int16_t
-aMode
 )
 {
 mWnd
@@ -2411,10 +2409,6 @@ Assign
 (
 aTitle
 )
-;
-mMode
-=
-aMode
 ;
 }
 void

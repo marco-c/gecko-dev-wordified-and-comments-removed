@@ -390,8 +390,6 @@ const
 nsAString
 &
 aTitle
-int16_t
-aMode
 )
 ;
 static
@@ -570,9 +568,6 @@ mParentWidget
 ;
 nsString
 mTitle
-;
-int16_t
-mMode
 ;
 nsCString
 mFile

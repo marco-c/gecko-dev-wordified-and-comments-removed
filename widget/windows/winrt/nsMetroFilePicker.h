@@ -315,7 +315,6 @@ nsIWidget
 const
 nsAString
 &
-int16_t
 )
 {
 }
@@ -357,9 +356,6 @@ aFilter
 bool
 aAllowAll
 )
-;
-int16_t
-mMode
 ;
 nsCOMArray
 <
