@@ -92,6 +92,10 @@ test_canvas
 .
 html
 \
+test_isPointInStroke
+.
+html
+\
 image_transparent50
 .
 png
@@ -886,10 +890,6 @@ test_toDataURL_parameters
 html
 \
 test_mozGetAsFile
-.
-html
-\
-test_mozIsPointInStroke
 .
 html
 \

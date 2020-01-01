@@ -1035,7 +1035,7 @@ y
 )
 ;
 bool
-MozIsPointInStroke
+IsPointInStroke
 (
 double
 x

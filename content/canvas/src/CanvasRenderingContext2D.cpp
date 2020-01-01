@@ -13204,7 +13204,7 @@ bool
 CanvasRenderingContext2D
 :
 :
-MozIsPointInStroke
+IsPointInStroke
 (
 double
 x
