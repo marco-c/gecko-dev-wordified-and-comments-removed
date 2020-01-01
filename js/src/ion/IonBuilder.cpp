@@ -27207,8 +27207,9 @@ knownConstant
 proto
 -
 >
-type
+getType
 (
+cx
 )
 -
 >
@@ -27228,8 +27229,9 @@ protoTypes
 proto
 -
 >
-type
+getType
 (
+cx
 )
 -
 >
