@@ -67,7 +67,7 @@ pageshow
 arguments
 .
 callee
-false
+true
 )
 ;
 var
@@ -674,7 +674,7 @@ pageshow
 arguments
 .
 callee
-false
+true
 )
 ;
 actOnMozImage
@@ -807,7 +807,7 @@ pageshow
 arguments
 .
 callee
-false
+true
 )
 ;
 [
