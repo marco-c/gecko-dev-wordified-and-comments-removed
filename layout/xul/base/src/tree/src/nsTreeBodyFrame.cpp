@@ -436,7 +436,7 @@ aEntry
 request
 -
 >
-Cancel
+CancelAndForgetObserver
 (
 NS_BINDING_ABORTED
 )
