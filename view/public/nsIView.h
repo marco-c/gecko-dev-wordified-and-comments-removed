@@ -406,7 +406,6 @@ return
 mFrame
 ;
 }
-virtual
 nsIWidget
 *
 GetNearestWidget
@@ -633,7 +632,6 @@ void
 aInstancePtr
 )
 ;
-virtual
 void
 SetPosition
 (
@@ -643,7 +641,6 @@ nscoord
 aY
 )
 ;
-virtual
 void
 SetDimensions
 (
