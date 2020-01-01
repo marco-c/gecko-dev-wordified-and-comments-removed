@@ -521,17 +521,7 @@ void
 ExitedCxxStack
 (
 )
-{
-Listener
-(
-)
--
->
-OnExitedCxxStack
-(
-)
 ;
-}
 enum
 Direction
 {
