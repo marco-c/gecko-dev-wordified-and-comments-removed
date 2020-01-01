@@ -1130,11 +1130,6 @@ mStyleContext
 aCSSValue
 )
 ;
-nscoord
-oldValue
-=
-aValueToUpdate
-;
 if
 (
 NS_MATHML_SIGN_PLUS
