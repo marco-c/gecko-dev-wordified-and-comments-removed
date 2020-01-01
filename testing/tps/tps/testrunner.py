@@ -1,6 +1,4 @@
 import
-httplib
-import
 json
 import
 os
@@ -11,19 +9,11 @@ random
 import
 re
 import
-socket
-import
 tempfile
 import
 time
 import
 traceback
-import
-urllib
-from
-threading
-import
-RLock
 from
 mozprofile
 import

@@ -1,6 +1,4 @@
 import
-os
-import
 re
 class
 TPSTestPhase
@@ -290,8 +288,6 @@ args
 )
 )
     
-returncode
-=
 self
 .
 firefoxRunner
@@ -303,11 +299,11 @@ env
 self
 .
 env
-                                        
+                           
 args
 =
 args
-                                        
+                           
 profile
 =
 self
