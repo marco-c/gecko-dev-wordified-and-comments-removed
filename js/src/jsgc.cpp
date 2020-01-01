@@ -13288,6 +13288,15 @@ purge
 rt
 )
 ;
+rt
+-
+>
+newObjectCache
+.
+purge
+(
+)
+;
 for
 (
 ContextIter

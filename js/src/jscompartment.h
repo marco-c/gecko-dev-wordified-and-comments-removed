@@ -866,12 +866,6 @@ JSObject
 proto
 )
 ;
-js
-:
-:
-NewObjectCache
-newObjectCache
-;
 size_t
 gcMallocAndFreeBytes
 ;

@@ -6915,7 +6915,7 @@ shape
 cx
 -
 >
-compartment
+runtime
 -
 >
 newObjectCache
