@@ -5865,7 +5865,7 @@ imageHeight
 aLayer
 -
 >
-SetBaseTransform
+SetTransform
 (
 gfx3DMatrix
 :
