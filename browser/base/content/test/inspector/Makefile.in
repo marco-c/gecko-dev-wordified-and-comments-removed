@@ -488,6 +488,10 @@ browser_inspector_bug_665880
 .
 js
 \
+browser_inspector_bug_674871
+.
+js
+\
 browser_inspector_editor
 .
 js
