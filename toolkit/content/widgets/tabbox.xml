@@ -1142,14 +1142,10 @@ if
 (
 this
 .
-tabbox
-.
 tabs
 &
 &
 this
-.
-tabbox
 .
 _handleMetaAltArrows
 )
@@ -1162,8 +1158,6 @@ window
 getComputedStyle
 (
 this
-.
-tabbox
 "
 "
 )
@@ -1181,8 +1175,6 @@ ltr
 1
 ;
 this
-.
-tabbox
 .
 tabs
 .
@@ -1239,14 +1231,10 @@ if
 (
 this
 .
-tabbox
-.
 tabs
 &
 &
 this
-.
-tabbox
 .
 _handleMetaAltArrows
 )
@@ -1259,8 +1247,6 @@ window
 getComputedStyle
 (
 this
-.
-tabbox
 "
 "
 )
@@ -1278,8 +1264,6 @@ ltr
 1
 ;
 this
-.
-tabbox
 .
 tabs
 .
