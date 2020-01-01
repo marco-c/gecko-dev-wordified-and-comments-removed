@@ -3823,6 +3823,13 @@ charCode
 (
 0
 )
+location
+(
+nsIDOMKeyEvent
+:
+:
+DOM_KEY_LOCATION_STANDARD
+)
 isChar
 (
 0
@@ -3834,6 +3841,9 @@ keyCode
 ;
 PRUint32
 charCode
+;
+PRUint32
+location
 ;
 nsTArray
 <
