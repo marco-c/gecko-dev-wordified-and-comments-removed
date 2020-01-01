@@ -2312,12 +2312,6 @@ svg
 pass
 .
 svg
-fails
--
-if
-(
-B2G
-)
 =
 =
 foreignObject
