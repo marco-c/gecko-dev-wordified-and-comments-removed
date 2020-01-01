@@ -2038,7 +2038,10 @@ if
 (
 numChar
 &
-JSUtils
+js
+:
+:
+tl
 :
 :
 MulOverflowMask
