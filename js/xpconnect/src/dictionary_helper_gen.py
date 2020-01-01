@@ -3644,7 +3644,7 @@ write
 JSBool
 found
 =
-PR_FALSE
+JS_FALSE
 ;
 \
 n
