@@ -738,6 +738,16 @@ ch
 }
 virtual
 PRBool
+SkipDuringSystemFallback
+(
+)
+{
+return
+PR_FALSE
+;
+}
+virtual
+PRBool
 TestCharacterMap
 (
 PRUint32

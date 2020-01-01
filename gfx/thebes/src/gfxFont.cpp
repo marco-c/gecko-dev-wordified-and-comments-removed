@@ -2486,6 +2486,14 @@ if
 (
 !
 fe
+|
+|
+fe
+-
+>
+SkipDuringSystemFallback
+(
+)
 )
 continue
 ;
