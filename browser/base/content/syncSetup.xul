@@ -1781,6 +1781,10 @@ ppLink
 .
 label
 ;
+<
+/
+label
+>
 &
 setup
 .
@@ -1788,10 +1792,6 @@ tosAgree3
 .
 label
 ;
-<
-/
-label
->
 <
 /
 description
