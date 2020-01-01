@@ -460,6 +460,14 @@ GetProfile
 (
 )
 ;
+[
+implicit_jscontext
+]
+jsval
+getProfileData
+(
+)
+;
 boolean
 IsActive
 (
