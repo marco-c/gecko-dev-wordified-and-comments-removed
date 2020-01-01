@@ -300,6 +300,9 @@ DispatchEvent
 nsGUIEvent
 *
 aEvent
+nsIView
+*
+aTargetView
 nsEventStatus
 *
 aStatus

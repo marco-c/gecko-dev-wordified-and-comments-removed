@@ -508,6 +508,7 @@ vm
 DispatchEvent
 (
 aEvent
+view
 &
 result
 )

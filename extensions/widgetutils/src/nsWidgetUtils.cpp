@@ -1406,6 +1406,7 @@ DispatchEvent
 (
 &
 scrollEventX
+aView
 &
 statusX
 )
@@ -1471,6 +1472,7 @@ DispatchEvent
 (
 &
 scrollEventY
+aView
 &
 statusY
 )
