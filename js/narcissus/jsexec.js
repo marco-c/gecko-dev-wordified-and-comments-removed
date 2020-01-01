@@ -79,6 +79,7 @@ typeof
 s
 !
 =
+=
 "
 string
 "
@@ -163,6 +164,7 @@ catch
 e
 if
 e
+=
 =
 =
 THROW
@@ -579,6 +581,7 @@ typeof
 s
 !
 =
+=
 "
 string
 "
@@ -851,6 +854,7 @@ if
 e
 =
 =
+=
 THROW
 )
 {
@@ -1067,6 +1071,7 @@ return
 t
 =
 =
+=
 "
 object
 "
@@ -1080,6 +1085,7 @@ null
 :
 t
 !
+=
 =
 "
 function
@@ -1103,6 +1109,7 @@ return
 t
 =
 =
+=
 "
 object
 "
@@ -1115,6 +1122,7 @@ v
 null
 :
 t
+=
 =
 =
 "
@@ -1282,6 +1290,7 @@ n
 functionForm
 !
 =
+=
 parser
 .
 DECLARED_FORM
@@ -1298,6 +1307,7 @@ name
 n
 .
 functionForm
+=
 =
 =
 parser
@@ -1318,6 +1328,7 @@ if
 n
 .
 functionForm
+=
 =
 =
 parser
@@ -1473,6 +1484,7 @@ x
 type
 !
 =
+=
 EVAL_CODE
 )
 ;
@@ -1576,6 +1588,7 @@ x
 .
 type
 !
+=
 =
 EVAL_CODE
 u
@@ -1710,6 +1723,7 @@ if
 i
 =
 =
+=
 j
 )
 {
@@ -1753,6 +1767,7 @@ if
 t
 .
 type
+=
 =
 =
 CASE
@@ -1828,6 +1843,7 @@ if
 e
 =
 =
+=
 BREAK
 &
 &
@@ -1849,6 +1865,7 @@ if
 +
 +
 i
+=
 =
 =
 j
@@ -1928,12 +1945,14 @@ if
 e
 =
 =
+=
 BREAK
 &
 &
 x
 .
 target
+=
 =
 =
 n
@@ -1949,12 +1968,14 @@ if
 e
 =
 =
+=
 CONTINUE
 &
 &
 x
 .
 target
+=
 =
 =
 n
@@ -2025,10 +2046,20 @@ s
 t
 =
 (
+(
 v
 =
 =
+=
 null
+|
+|
+v
+=
+=
+=
+undefined
+)
 &
 &
 !
@@ -2118,12 +2149,14 @@ if
 e
 =
 =
+=
 BREAK
 &
 &
 x
 .
 target
+=
 =
 =
 n
@@ -2139,12 +2172,14 @@ if
 e
 =
 =
+=
 CONTINUE
 &
 &
 x
 .
 target
+=
 =
 =
 n
@@ -2179,12 +2214,14 @@ if
 e
 =
 =
+=
 BREAK
 &
 &
 x
 .
 target
+=
 =
 =
 n
@@ -2200,12 +2237,14 @@ if
 e
 =
 =
+=
 CONTINUE
 &
 &
 x
 .
 target
+=
 =
 =
 n
@@ -2271,6 +2310,7 @@ if
 e
 =
 =
+=
 THROW
 &
 &
@@ -2312,6 +2352,7 @@ i
 if
 (
 i
+=
 =
 =
 j
@@ -2645,6 +2686,7 @@ n
 type
 =
 =
+=
 CONST
 )
 definitions
@@ -2660,6 +2702,7 @@ x
 .
 type
 !
+=
 =
 EVAL_CODE
 true
@@ -2743,12 +2786,14 @@ if
 e
 =
 =
+=
 BREAK
 &
 &
 x
 .
 target
+=
 =
 =
 n
@@ -3521,6 +3566,7 @@ u
 __hasInstance__
 =
 =
+=
 "
 function
 "
@@ -4018,6 +4064,7 @@ n
 type
 =
 =
+=
 INCREMENT
 )
 ?
@@ -4272,6 +4319,7 @@ f
 __call__
 !
 =
+=
 "
 function
 "
@@ -4371,6 +4419,7 @@ n
 type
 =
 =
+=
 NEW
 )
 {
@@ -4421,6 +4470,7 @@ f
 .
 __construct__
 !
+=
 =
 "
 function
@@ -4569,6 +4619,7 @@ t
 type
 =
 =
+=
 PROPERTY_INIT
 )
 {
@@ -4611,6 +4662,7 @@ u
 t
 .
 type
+=
 =
 =
 GETTER
@@ -5453,6 +5505,7 @@ if
 e
 =
 =
+=
 RETURN
 )
 {
@@ -5467,6 +5520,7 @@ catch
 e
 if
 e
+=
 =
 =
 THROW
@@ -5635,6 +5689,7 @@ if
 o
 =
 =
+=
 p
 )
 return
@@ -5680,6 +5735,7 @@ this
 .
 __call__
 !
+=
 =
 "
 function
@@ -5732,6 +5788,7 @@ if
 typeof
 t
 !
+=
 =
 "
 object
@@ -6315,6 +6372,7 @@ typeof
 s
 !
 =
+=
 "
 string
 "
@@ -6369,6 +6427,7 @@ catch
 e
 if
 e
+=
 =
 =
 THROW
@@ -6429,6 +6488,7 @@ typeof
 x
 =
 =
+=
 "
 object
 "
@@ -6438,6 +6498,7 @@ if
 (
 x
 !
+=
 =
 null
 &
@@ -6486,6 +6547,7 @@ typeof
 x
 =
 =
+=
 "
 string
 "
@@ -6506,6 +6568,7 @@ if
 typeof
 x
 !
+=
 =
 "
 undefined
@@ -6642,6 +6705,7 @@ if
 e
 =
 =
+=
 THROW
 )
 {
@@ -6667,6 +6731,7 @@ catch
 e
 if
 e
+=
 =
 =
 END
