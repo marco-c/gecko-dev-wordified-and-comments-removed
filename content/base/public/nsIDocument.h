@@ -399,6 +399,14 @@ NS_STYLESHEET_FROM_CATALOG
 <
 0
 )
+enum
+DocumentFlavor
+{
+DocumentFlavorLegacyGuess
+DocumentFlavorHTML
+DocumentFlavorSVG
+}
+;
 #
 define
 NS_DOCUMENT_STATE_RTL_LOCALE
@@ -4074,8 +4082,8 @@ aLoadedAsData
 nsIScriptGlobalObject
 *
 aEventObject
-bool
-aSVGDocument
+DocumentFlavor
+aFlavor
 )
 ;
 nsresult

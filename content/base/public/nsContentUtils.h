@@ -2145,8 +2145,8 @@ aPrincipal
 nsIScriptGlobalObject
 *
 aScriptObject
-bool
-aSVGDocument
+DocumentFlavor
+aFlavor
 nsIDOMDocument
 *
 *
