@@ -2744,6 +2744,16 @@ function
 showDefault
 )
 {
+if
+(
+this
+.
+isToolbarOpen
+(
+)
+)
+return
+;
 BrowserSearch
 .
 updateSearchButtons
