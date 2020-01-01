@@ -167,6 +167,9 @@ __GNUC__
 define
 HAVE_MMX_INTEL_MNEMONICS
 #
+define
+HAVE_SSE2_INTEL_MNEMONICS
+#
 endif
 #
 ifdef
