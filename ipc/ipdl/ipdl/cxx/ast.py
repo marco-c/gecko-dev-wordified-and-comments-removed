@@ -1800,6 +1800,16 @@ int
 )
 Type
 .
+INT32
+=
+Type
+(
+'
+int32
+'
+)
+Type
+.
 INTPTR
 =
 Type
