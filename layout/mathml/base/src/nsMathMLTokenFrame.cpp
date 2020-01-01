@@ -385,11 +385,7 @@ aReflowState
 ComputedWidth
 (
 )
-aReflowState
-.
-ComputedHeight
-(
-)
+NS_UNCONSTRAINEDSIZE
 )
 ;
 nsIFrame
