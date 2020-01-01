@@ -7037,7 +7037,7 @@ vp
 )
 {
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 get
@@ -7089,7 +7089,7 @@ vp
 )
 {
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 set
@@ -7134,7 +7134,7 @@ bp
 )
 {
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 has
@@ -7177,7 +7177,7 @@ bp
 )
 {
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 hasOwn
@@ -7221,7 +7221,7 @@ props
 )
 {
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 keys
@@ -7266,7 +7266,7 @@ vp
 )
 {
 return
-ProxyHandler
+BaseProxyHandler
 :
 :
 iterate

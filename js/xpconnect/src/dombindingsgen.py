@@ -3576,7 +3576,7 @@ n
 js
 :
 :
-ProxyHandler
+BaseProxyHandler
 *
 handler
 =
@@ -3659,7 +3659,7 @@ n
 js
 :
 :
-ProxyHandler
+BaseProxyHandler
 *
 handler
 =

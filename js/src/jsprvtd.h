@@ -334,7 +334,7 @@ class
 Proxy
 ;
 class
-ProxyHandler
+BaseProxyHandler
 ;
 class
 Wrapper

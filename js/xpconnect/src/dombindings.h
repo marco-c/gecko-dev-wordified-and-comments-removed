@@ -48,7 +48,7 @@ public
 js
 :
 :
-ProxyHandler
+BaseProxyHandler
 {
 protected
 :
@@ -59,7 +59,7 @@ ProxyHandler
 js
 :
 :
-ProxyHandler
+BaseProxyHandler
 (
 ProxyFamily
 (
@@ -1124,7 +1124,7 @@ proxyHandlerIsList
 js
 :
 :
-ProxyHandler
+BaseProxyHandler
 *
 handler
 )
