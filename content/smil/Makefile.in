@@ -328,15 +328,6 @@ lib
 FORCE_STATIC_LIB
 =
 1
-ifdef
-ENABLE_TESTS
-TOOL_DIRS
-+
-=
-test
-endif
-#
-ENABLE_TESTS
 INCLUDES
 +
 =

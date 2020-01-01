@@ -75,12 +75,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-=
-base
-xml
-xpath
-xslt
 include
 (
 topsrcdir

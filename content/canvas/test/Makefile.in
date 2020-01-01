@@ -69,12 +69,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-DIRS
-+
-=
-webgl
-crossorigin
-chrome
 include
 (
 DEPTH

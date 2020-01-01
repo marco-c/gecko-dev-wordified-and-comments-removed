@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -76,21 +75,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-=
-public
-src
-TEST_DIRS
-+
-=
-test
-ifdef
-ENABLE_TESTS
-TOOL_DIRS
-+
-=
-compiledtest
-endif
 include
 (
 topsrcdir

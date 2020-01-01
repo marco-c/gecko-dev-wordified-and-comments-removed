@@ -76,10 +76,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-=
-content
-document
 include
 (
 topsrcdir

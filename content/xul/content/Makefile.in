@@ -79,14 +79,6 @@ mk
 MODULE
 =
 xul
-PARALLEL_DIRS
-=
-public
-src
-TEST_DIRS
-+
-=
-test
 include
 (
 topsrcdir
