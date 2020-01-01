@@ -1464,7 +1464,7 @@ do_check_eq
 observer
 .
 _itemRemovedIndex
-1
+2
 )
 ;
 txn5
@@ -1486,7 +1486,7 @@ do_check_eq
 observer
 .
 _itemAddedIndex
-1
+2
 )
 ;
 var
