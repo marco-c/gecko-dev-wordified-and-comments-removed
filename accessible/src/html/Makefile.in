@@ -441,6 +441,10 @@ HTMLFormControlAccessible
 .
 cpp
 \
+HTMLListAccessible
+.
+cpp
+\
 nsHTMLImageAccessible
 .
 cpp

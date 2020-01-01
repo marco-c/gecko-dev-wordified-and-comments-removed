@@ -120,9 +120,6 @@ nsHTMLImageAccessible
 class
 nsHTMLImageMapAccessible
 ;
-class
-nsHTMLLIAccessible
-;
 struct
 nsRoleMapEntry
 ;
@@ -135,6 +132,9 @@ mozilla
 namespace
 a11y
 {
+class
+HTMLLIAccessible
+;
 class
 TableAccessible
 ;
@@ -1013,7 +1013,13 @@ mFlags
 eHTMLListItemAccessible
 ;
 }
-nsHTMLLIAccessible
+mozilla
+:
+:
+a11y
+:
+:
+HTMLLIAccessible
 *
 AsHTMLListItem
 (
