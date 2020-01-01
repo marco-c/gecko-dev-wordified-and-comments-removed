@@ -6186,10 +6186,6 @@ large
 serif
 "
 "
-9px
-fantasy
-"
-"
 bold
 italic
 small
