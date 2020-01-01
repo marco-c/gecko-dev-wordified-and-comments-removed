@@ -5043,9 +5043,10 @@ roleString
 presentation
 "
 )
-&
-&
-!
+)
+{
+if
+(
 content
 -
 >
@@ -5053,7 +5054,11 @@ IsFocusable
 (
 )
 )
-{
+roleMapEntry
+=
+nsnull
+;
+else
 return
 nsnull
 ;

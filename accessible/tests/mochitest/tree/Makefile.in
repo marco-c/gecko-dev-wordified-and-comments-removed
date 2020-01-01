@@ -471,6 +471,10 @@ test_aria_imgmap
 .
 html
 \
+test_aria_presentation
+.
+html
+\
 test_button
 .
 xul
