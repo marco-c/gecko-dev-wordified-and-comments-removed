@@ -402,7 +402,6 @@ _name
 ;
 )
 uint32_t
-FASTCALL
 _count_args
 (
 uint32_t
@@ -3214,9 +3213,9 @@ LIns
 >
 InsList
 ;
+inline
 LIns
 *
-FASTCALL
 callArgN
 (
 LInsp
@@ -3224,7 +3223,26 @@ i
 uint32_t
 n
 )
+{
+return
+i
+-
+>
+arg
+(
+i
+-
+>
+argc
+(
+)
+-
+n
+-
+1
+)
 ;
+}
 extern
 const
 int8_t
@@ -4719,7 +4737,6 @@ alloc
 ;
 static
 uint32_t
-FASTCALL
 hashcode
 (
 LInsp
@@ -4727,7 +4744,6 @@ i
 )
 ;
 uint32_t
-FASTCALL
 find
 (
 LInsp
@@ -4744,7 +4760,6 @@ cap
 ;
 static
 bool
-FASTCALL
 equals
 (
 LInsp
@@ -4754,7 +4769,6 @@ b
 )
 ;
 void
-FASTCALL
 grow
 (
 )
@@ -4877,7 +4891,6 @@ clear
 ;
 static
 uint32_t
-FASTCALL
 hashimm
 (
 int32_t
@@ -4885,7 +4898,6 @@ int32_t
 ;
 static
 uint32_t
-FASTCALL
 hashimmq
 (
 uint64_t
@@ -4893,7 +4905,6 @@ uint64_t
 ;
 static
 uint32_t
-FASTCALL
 hash1
 (
 LOpcode
@@ -4903,7 +4914,6 @@ LInsp
 ;
 static
 uint32_t
-FASTCALL
 hash2
 (
 LOpcode
@@ -4914,7 +4924,6 @@ LInsp
 ;
 static
 uint32_t
-FASTCALL
 hash3
 (
 LOpcode
@@ -4926,7 +4935,6 @@ LInsp
 ;
 static
 uint32_t
-FASTCALL
 hashLoad
 (
 LOpcode
@@ -4937,7 +4945,6 @@ int32_t
 ;
 static
 uint32_t
-FASTCALL
 hashcall
 (
 const
