@@ -1059,6 +1059,12 @@ this
 ;
 this
 .
+_selectedItem
+=
+null
+;
+this
+.
 _input
 =
 aInput
