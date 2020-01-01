@@ -419,7 +419,7 @@ DropFormReference
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMHTMLCOLLECTION
 virtual
-nsGenericElement
+Element
 *
 GetElementAt
 (
@@ -995,12 +995,12 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLFormElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLFormElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (
@@ -9467,7 +9467,7 @@ return
 NS_OK
 ;
 }
-nsGenericElement
+Element
 *
 nsFormControlList
 :

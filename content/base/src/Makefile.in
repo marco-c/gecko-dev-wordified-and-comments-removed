@@ -172,10 +172,6 @@ nsDOMAttributeMap
 .
 h
 \
-nsGenericElement
-.
-h
-\
 nsMappedAttributeElement
 .
 h

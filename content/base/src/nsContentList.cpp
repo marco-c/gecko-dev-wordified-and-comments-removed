@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -288,7 +292,7 @@ RemovePurple
 )
 ;
 }
-nsGenericElement
+Element
 :
 :
 MarkNodeChildren
@@ -2585,7 +2589,7 @@ return
 NS_OK
 ;
 }
-nsGenericElement
+Element
 *
 nsContentList
 :
@@ -2599,7 +2603,7 @@ aIndex
 return
 static_cast
 <
-nsGenericElement
+Element
 *
 >
 (

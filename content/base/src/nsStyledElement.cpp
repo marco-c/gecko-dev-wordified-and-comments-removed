@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -132,6 +136,13 @@ mozilla
 :
 :
 css
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 nsIAtom
 *
@@ -443,7 +454,7 @@ RemoveFromIdTable
 ;
 }
 return
-nsGenericElement
+Element
 :
 :
 UnsetAttr
@@ -500,7 +511,7 @@ ClearHasID
 ;
 }
 return
-nsGenericElement
+Element
 :
 :
 AfterSetAttr
@@ -755,7 +766,7 @@ nsresult
 retval
 )
 {
-nsGenericElement
+Element
 :
 :
 nsDOMSlots

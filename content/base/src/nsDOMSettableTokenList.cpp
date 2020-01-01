@@ -19,7 +19,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -28,7 +32,7 @@ nsDOMSettableTokenList
 :
 nsDOMSettableTokenList
 (
-nsGenericElement
+Element
 *
 aElement
 nsIAtom

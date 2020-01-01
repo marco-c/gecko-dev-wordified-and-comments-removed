@@ -14,7 +14,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -30,7 +34,13 @@ StyleRule
 }
 }
 typedef
-nsGenericElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 nsStyledElementBase
 ;
 class

@@ -4391,7 +4391,7 @@ NodePrincipal
 )
 static_cast
 <
-nsGenericElement
+Element
 *
 >
 (
@@ -15779,7 +15779,7 @@ nsHTMLMediaElement
 :
 CopyInnerTo
 (
-nsGenericElement
+Element
 *
 aDest
 )

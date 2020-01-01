@@ -534,12 +534,12 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLSelectElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLSelectElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (
@@ -7752,7 +7752,7 @@ aReturn
 )
 ;
 }
-nsGenericElement
+Element
 *
 nsHTMLOptionCollection
 :

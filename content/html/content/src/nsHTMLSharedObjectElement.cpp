@@ -363,7 +363,7 @@ const
 nsresult
 CopyInnerTo
 (
-nsGenericElement
+Element
 *
 aDest
 )
@@ -787,12 +787,12 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLSharedObjectElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLSharedObjectElement
-nsGenericElement
+Element
 )
 DOMCI_DATA
 (
@@ -1824,7 +1824,7 @@ nsHTMLSharedObjectElement
 :
 CopyInnerTo
 (
-nsGenericElement
+Element
 *
 aDest
 )

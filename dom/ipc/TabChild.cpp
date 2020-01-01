@@ -211,7 +211,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "

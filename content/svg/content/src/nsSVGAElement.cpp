@@ -74,6 +74,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsSVGElement
 :
 :
@@ -211,7 +218,7 @@ aVisitor
 nsresult
 rv
 =
-nsGenericElement
+Element
 :
 :
 PreHandleEvent

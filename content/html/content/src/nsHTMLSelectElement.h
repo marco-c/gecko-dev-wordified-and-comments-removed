@@ -224,7 +224,13 @@ triedToWrap
 ;
 NS_DECL_NSIDOMHTMLOPTIONSCOLLECTION
 virtual
-nsGenericElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetElementAt
 (

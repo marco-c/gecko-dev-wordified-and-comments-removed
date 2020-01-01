@@ -74,13 +74,6 @@ nsStubMutationObserver
 .
 h
 "
-#
-include
-"
-nsGenericElement
-.
-h
-"
 class
 nsDOMAttribute
 :

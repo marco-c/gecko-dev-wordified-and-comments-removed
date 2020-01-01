@@ -229,7 +229,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -5565,7 +5569,7 @@ nsScriptLoadRequest
 (
 nullptr
 0
-nsGenericElement
+Element
 :
 :
 StringToCORSMode

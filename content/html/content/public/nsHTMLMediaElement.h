@@ -1051,7 +1051,13 @@ mHasPlayedOrSeeked
 nsresult
 CopyInnerTo
 (
-nsGenericElement
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aDest
 )

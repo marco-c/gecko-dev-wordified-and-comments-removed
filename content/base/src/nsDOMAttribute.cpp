@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsGenericElement
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

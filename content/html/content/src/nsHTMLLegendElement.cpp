@@ -120,12 +120,12 @@ nsHTMLLegendElement
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLLegendElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLLegendElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (

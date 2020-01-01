@@ -360,12 +360,12 @@ DestroyImageLoadingContent
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLImageElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLImageElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (
@@ -2000,7 +2000,7 @@ nsHTMLImageElement
 :
 CopyInnerTo
 (
-nsGenericElement
+Element
 *
 aDest
 )

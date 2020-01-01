@@ -560,12 +560,12 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLLinkElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLLinkElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (

@@ -3417,7 +3417,7 @@ Document
 (
 )
 "
-nsGenericElement
+Element
 :
 :
 UnbindFromTree

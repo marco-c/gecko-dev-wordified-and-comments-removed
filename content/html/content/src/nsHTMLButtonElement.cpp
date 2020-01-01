@@ -608,12 +608,12 @@ nsHTMLButtonElement
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLButtonElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLButtonElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (

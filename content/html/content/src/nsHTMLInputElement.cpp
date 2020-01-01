@@ -3075,12 +3075,12 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLInputElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLInputElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (

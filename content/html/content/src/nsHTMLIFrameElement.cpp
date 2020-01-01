@@ -104,12 +104,12 @@ nsHTMLIFrameElement
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLIFrameElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLIFrameElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (

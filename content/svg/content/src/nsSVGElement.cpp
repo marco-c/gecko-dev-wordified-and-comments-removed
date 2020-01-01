@@ -376,6 +376,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 PR_STATIC_ASSERT
 (
 sizeof
@@ -4246,7 +4253,7 @@ name
 ;
 }
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4348,7 +4355,7 @@ nullptr
 }
 ;
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4457,7 +4464,7 @@ nullptr
 }
 ;
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4524,7 +4531,7 @@ nullptr
 }
 ;
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4591,7 +4598,7 @@ nullptr
 }
 ;
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4623,7 +4630,7 @@ nullptr
 }
 ;
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4655,7 +4662,7 @@ nullptr
 }
 ;
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4694,7 +4701,7 @@ nullptr
 }
 ;
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4719,7 +4726,7 @@ nullptr
 }
 ;
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4744,7 +4751,7 @@ nullptr
 }
 ;
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4776,7 +4783,7 @@ nullptr
 }
 ;
 const
-nsGenericElement
+Element
 :
 :
 MappedAttributeEntry
@@ -4822,7 +4829,7 @@ aReturn
 *
 aReturn
 =
-nsGenericElement
+Element
 :
 :
 IsSupported

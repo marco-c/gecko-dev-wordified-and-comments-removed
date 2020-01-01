@@ -159,12 +159,12 @@ nsHTMLElement
 NS_IMPL_ADDREF_INHERITED
 (
 nsHTMLElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsHTMLElement
-nsGenericElement
+Element
 )
 DOMCI_NODE_DATA
 (

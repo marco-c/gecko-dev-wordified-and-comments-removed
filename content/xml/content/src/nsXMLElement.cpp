@@ -12,6 +12,13 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsresult
 NS_NewXMLElement
 (
@@ -81,12 +88,12 @@ NS_ELEMENT_INTERFACE_MAP_END
 NS_IMPL_ADDREF_INHERITED
 (
 nsXMLElement
-nsGenericElement
+Element
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsXMLElement
-nsGenericElement
+Element
 )
 NS_IMPL_ELEMENT_CLONE
 (
@@ -146,7 +153,7 @@ guard
 nsresult
 rv
 =
-nsGenericElement
+Element
 :
 :
 UnsetAttr
@@ -605,7 +612,7 @@ aCompileEventHandlers
 nsresult
 rv
 =
-nsGenericElement
+Element
 :
 :
 BindToTree
@@ -671,7 +678,7 @@ RemoveFromIdTable
 )
 ;
 return
-nsGenericElement
+Element
 :
 :
 UnbindFromTree
