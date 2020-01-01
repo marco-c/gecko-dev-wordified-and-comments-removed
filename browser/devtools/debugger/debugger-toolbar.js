@@ -5564,6 +5564,12 @@ _searchbox
 value
 =
 aOperator
++
+DebuggerView
+.
+getEditorSelectionText
+(
+)
 ;
 }
 _doFileSearch
