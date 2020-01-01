@@ -445,10 +445,6 @@ GLLibraryLoader
 .
 h
 \
-EGLUtils
-.
-h
-\
 ForceDiscreteGPUHelperCGL
 .
 h
