@@ -3013,12 +3013,6 @@ return
 true
 ;
 }
-mFiles
-.
-Clear
-(
-)
-;
 PRUnichar
 *
 current
@@ -4035,6 +4029,12 @@ mLastUsedUnicodeDirectory
 mUnicodeFile
 .
 Truncate
+(
+)
+;
+mFiles
+.
+Clear
 (
 )
 ;
