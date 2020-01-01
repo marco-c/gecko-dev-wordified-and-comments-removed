@@ -673,6 +673,8 @@ MEM_SCALE
 MEM_ADDRESS
 }
 ;
+private
+:
 Kind
 kind_
 :
