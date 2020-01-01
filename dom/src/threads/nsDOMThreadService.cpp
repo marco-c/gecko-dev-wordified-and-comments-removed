@@ -3969,6 +3969,17 @@ cx
 securityCallbacks
 )
 ;
+static
+JSDebugHooks
+debugHooks
+;
+JS_SetContextDebugHooks
+(
+cx
+&
+debugHooks
+)
+;
 nsresult
 rv
 =
