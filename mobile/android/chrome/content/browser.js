@@ -1999,11 +1999,11 @@ arguments
 ;
 }
 let
-updated
+status
 =
 this
 .
-isAppUpdated
+startupStatus
 (
 )
 ;
@@ -2016,7 +2016,7 @@ WebAppRT
 .
 init
 (
-updated
+status
 url
 )
 .
@@ -2163,7 +2163,7 @@ event
 ;
 if
 (
-updated
+status
 )
 this
 .
@@ -2227,7 +2227,7 @@ init
 #
 endif
 }
-isAppUpdated
+startupStatus
 :
 function
 (
