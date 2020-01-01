@@ -245,11 +245,10 @@ Sync
 ENTITY
 sync
 .
-account
+account2
 "
-Username
-/
-Email
+Account
+Name
 "
 >
 <
