@@ -1093,9 +1093,8 @@ NetMonitorView
 .
 NetworkDetails
 .
-toggle
+reset
 (
-false
 )
 ;
 window
