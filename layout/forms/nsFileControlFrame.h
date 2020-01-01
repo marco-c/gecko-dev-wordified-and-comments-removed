@@ -463,7 +463,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-PRBool
+PRInt32
 aWhichControls
 )
 ;
