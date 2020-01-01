@@ -1160,7 +1160,7 @@ proc
 .
 RunToCompletion
 (
-1000
+5000
 )
 ;
 if
