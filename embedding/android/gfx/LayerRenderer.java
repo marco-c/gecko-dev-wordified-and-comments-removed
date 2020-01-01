@@ -242,6 +242,7 @@ mBackgroundLayer
 new
 SingleTileLayer
 (
+true
 )
 ;
 mBackgroundLayer
