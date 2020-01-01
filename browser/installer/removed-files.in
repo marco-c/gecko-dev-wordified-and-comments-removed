@@ -5900,6 +5900,9 @@ BIN_SUFFIX
 #
 ifdef
 MOZ_OMNIJAR
+omni
+.
+jar
 chrome
 /
 af
@@ -8362,6 +8365,9 @@ manifest
 omni
 .
 jar
+omni
+.
+ja
 #
 endif
 #

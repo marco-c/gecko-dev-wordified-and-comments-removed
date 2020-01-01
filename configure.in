@@ -65552,6 +65552,15 @@ AC_DEFINE
 (
 MOZ_OMNIJAR
 )
+OMNIJAR_NAME
+=
+omni
+.
+ja
+AC_SUBST
+(
+OMNIJAR_NAME
+)
 if
 test
 "
