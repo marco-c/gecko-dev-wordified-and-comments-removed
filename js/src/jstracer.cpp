@@ -10942,13 +10942,6 @@ pc
 =
 =
 JSOP_IFEQ
-|
-|
-*
-pc
-=
-=
-JSOP_IFEQX
 )
 {
 guard
@@ -10972,13 +10965,6 @@ pc
 =
 =
 JSOP_IFNE
-|
-|
-*
-pc
-=
-=
-JSOP_IFNEX
 )
 {
 guard
