@@ -4642,9 +4642,6 @@ NS_ERROR_NOT_AVAILABLE
 ;
 #
 else
-nsresult
-rv
-;
 bool
 more
 ;
