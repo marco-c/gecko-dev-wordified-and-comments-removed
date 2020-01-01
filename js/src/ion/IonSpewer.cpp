@@ -449,15 +449,6 @@ fmt
 ap
 )
 ;
-fprintf
-(
-stderr
-"
-\
-n
-"
-)
-;
 }
 void
 ion
