@@ -634,6 +634,12 @@ aHigherProbability
 )
 ;
 static
+PRBool
+IntervalCC
+(
+)
+;
+static
 void
 CCIfUserInactive
 (
