@@ -550,7 +550,7 @@ channel
 contentType
 =
 "
-pain
+plain
 /
 text
 "
