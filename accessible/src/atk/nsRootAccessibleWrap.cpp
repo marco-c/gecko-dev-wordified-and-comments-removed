@@ -29,6 +29,11 @@ nsnull
 nsnull
 )
 {
+mFlags
+|
+=
+eIsDefunct
+;
 g_object_ref
 (
 aAccessible
