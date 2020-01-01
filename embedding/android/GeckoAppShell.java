@@ -413,14 +413,6 @@ public
 static
 native
 void
-nativeQuit
-(
-)
-;
-public
-static
-native
-void
 setSurfaceView
 (
 GeckoSurfaceView
