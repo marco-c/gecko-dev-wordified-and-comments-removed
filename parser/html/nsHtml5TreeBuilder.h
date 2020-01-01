@@ -880,6 +880,14 @@ nsHtml5HtmlAttributes
 attributes
 )
 ;
+PRBool
+annotationXmlEncodingPermitsHtml
+(
+nsHtml5HtmlAttributes
+*
+attributes
+)
+;
 void
 appendToCurrentNodeAndPushElementMayFosterSVG
 (
