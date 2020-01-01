@@ -8914,7 +8914,6 @@ InitClassesWithNewWrappedGlobal
 cx
 backstagePass
 systemprincipal
-nsnull
 nsIXPConnect
 :
 :
