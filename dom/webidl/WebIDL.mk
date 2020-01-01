@@ -897,6 +897,10 @@ OfflineResourceList
 .
 webidl
 \
+OscillatorNode
+.
+webidl
+\
 PaintRequest
 .
 webidl

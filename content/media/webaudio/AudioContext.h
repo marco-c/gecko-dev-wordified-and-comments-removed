@@ -167,6 +167,9 @@ class
 MediaStreamAudioSourceNode
 ;
 class
+OscillatorNode
+;
+class
 PannerNode
 ;
 class
@@ -606,6 +609,14 @@ already_AddRefed
 BiquadFilterNode
 >
 CreateBiquadFilter
+(
+)
+;
+already_AddRefed
+<
+OscillatorNode
+>
+CreateOscillator
 (
 )
 ;

@@ -396,6 +396,14 @@ createDynamicsCompressor
 ;
 [
 Creator
+]
+OscillatorNode
+createOscillator
+(
+)
+;
+[
+Creator
 Throws
 ]
 PeriodicWave

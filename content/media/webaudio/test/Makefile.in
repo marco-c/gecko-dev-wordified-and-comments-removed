@@ -353,6 +353,10 @@ test_offlineDestinationChannelCountMore
 .
 html
 \
+test_oscillatorNode
+.
+html
+\
 test_pannerNode
 .
 html
