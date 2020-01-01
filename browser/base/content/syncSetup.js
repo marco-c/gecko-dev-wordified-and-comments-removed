@@ -1239,6 +1239,12 @@ _checkAccountTimer
 let
 value
 =
+Weave
+.
+Utils
+.
+normalizeAccount
+(
 document
 .
 getElementById
@@ -1249,6 +1255,7 @@ weaveEmail
 )
 .
 value
+)
 ;
 if
 (
@@ -2609,6 +2616,12 @@ value
 let
 email
 =
+Weave
+.
+Utils
+.
+normalizeAccount
+(
 document
 .
 getElementById
@@ -2619,6 +2632,7 @@ weaveEmail
 )
 .
 value
+)
 ;
 let
 challenge
@@ -2764,6 +2778,12 @@ Service
 .
 account
 =
+Weave
+.
+Utils
+.
+normalizeAccount
+(
 document
 .
 getElementById
@@ -2774,6 +2794,7 @@ existingAccountName
 )
 .
 value
+)
 ;
 Weave
 .
