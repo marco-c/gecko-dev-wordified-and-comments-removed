@@ -1170,7 +1170,7 @@ a
 valid
 entry
 .
-warn
+print
 "
 Warning
 :
