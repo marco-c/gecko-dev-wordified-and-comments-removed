@@ -100,6 +100,17 @@ tools
 /
 redit
 endif
+ifneq
+(
+(
+GAIADIR
+)
+)
+DIRS
++
+=
+gaia
+endif
 DIRS
 +
 =
