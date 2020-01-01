@@ -422,7 +422,7 @@ components
 /
 telemetry
 /
-test
+tests
 include
 (
 DEPTH
