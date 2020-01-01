@@ -583,9 +583,6 @@ ipc
 js
 /
 ipc
-js
-/
-jetpack
 tier_platform_dirs
 +
 =

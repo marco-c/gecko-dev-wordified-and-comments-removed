@@ -710,11 +710,6 @@ plugins
 ipc
 /
 Makefile
-js
-/
-jetpack
-/
-Makefile
 "
 MAKEFILES_editor
 =

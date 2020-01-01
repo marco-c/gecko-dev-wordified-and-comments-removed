@@ -736,16 +736,9 @@ PROCESS_TYPE_CONTENT
 const
 unsigned
 long
-PROCESS_TYPE_JETPACK
-=
-3
-;
-const
-unsigned
-long
 PROCESS_TYPE_IPDLUNITTEST
 =
-4
+3
 ;
 /
 *
