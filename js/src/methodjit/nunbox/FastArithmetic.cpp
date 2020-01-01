@@ -2946,6 +2946,13 @@ jump
 )
 ;
 }
+frame
+.
+freeReg
+(
+reg
+)
+;
 if
 (
 feTypeReg
@@ -2963,13 +2970,6 @@ feTypeReg
 getReg
 (
 )
-)
-;
-frame
-.
-forgetReg
-(
-reg
 )
 ;
 stubcc
