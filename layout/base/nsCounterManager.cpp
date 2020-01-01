@@ -998,6 +998,13 @@ node
 )
 )
 {
+counterList
+-
+>
+SetDirty
+(
+)
+;
 return
 PR_TRUE
 ;
