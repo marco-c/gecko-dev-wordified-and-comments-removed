@@ -303,6 +303,15 @@ GetThebesFontGroup
 =
 0
 ;
+virtual
+gfxUserFontSet
+*
+GetUserFontSet
+(
+)
+=
+0
+;
 }
 ;
 #
