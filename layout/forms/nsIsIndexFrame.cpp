@@ -401,12 +401,14 @@ Destroy
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsIsIndexFrame
 :
 :
 UpdatePromptLabel
 (
+PRBool
+aNotify
 )
 {
 if
@@ -475,7 +477,7 @@ mTextContent
 SetText
 (
 prompt
-PR_TRUE
+aNotify
 )
 ;
 return
@@ -798,6 +800,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 UpdatePromptLabel
 (
+PR_FALSE
 )
 ;
 if
@@ -1159,6 +1162,7 @@ rv
 =
 UpdatePromptLabel
 (
+PR_TRUE
 )
 ;
 }
