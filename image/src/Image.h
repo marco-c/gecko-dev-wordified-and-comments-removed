@@ -34,6 +34,13 @@ nsIURI
 .
 h
 "
+#
+include
+"
+nsProxyRelease
+.
+h
+"
 class
 nsIRequest
 ;
@@ -444,6 +451,10 @@ MOZ_OVERRIDE
 {
 return
 mURI
+.
+get
+(
+)
 ;
 }
 protected
@@ -519,7 +530,7 @@ imgStatusTracker
 >
 mStatusTracker
 ;
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIURI
 >
