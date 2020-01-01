@@ -521,14 +521,6 @@ start
 2px
 ;
 }
-richlistitem
-[
-availableUpdateURL
-=
-"
-none
-"
-]
 .
 updateBadge
 .
@@ -539,6 +531,12 @@ display
 none
 ;
 }
+richlistitem
+[
+availableUpdateURL
+]
+.
+updateBadge
 richlistitem
 [
 compatible
