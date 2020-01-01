@@ -109,6 +109,9 @@ GetType
 )
 const
 ;
+#
+ifndef
+MOZ_GFX_OPTIMIZE_MOBILE
 virtual
 PRBool
 ChildrenMustHaveWidgets
@@ -120,6 +123,8 @@ return
 PR_TRUE
 ;
 }
+#
+endif
 #
 ifdef
 NS_DEBUG
