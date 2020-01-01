@@ -4752,6 +4752,7 @@ UNDERLINE_OFFSET_NOT_SET
 PR_INT16_MAX
 }
 ;
+virtual
 gfxFloat
 GetUnderlineOffset
 (
