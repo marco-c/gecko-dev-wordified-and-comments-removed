@@ -422,6 +422,13 @@ config
 rules
 .
 mk
+ifeq
+(
+browser
+(
+MOZ_BUILD_APP
+)
+)
 _BROWSER_FILES
 =
 harness
@@ -699,3 +706,4 @@ browser
 (
 relativesrcdir
 )
+endif

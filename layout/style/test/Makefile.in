@@ -1302,6 +1302,13 @@ svg
 (
 NULL
 )
+ifeq
+(
+browser
+(
+MOZ_BUILD_APP
+)
+)
 _BROWSER_FILES
 =
 \
@@ -1320,6 +1327,7 @@ html
 (
 NULL
 )
+endif
 libs
 :
 :
@@ -1389,6 +1397,13 @@ css
 -
 visited
 /
+ifeq
+(
+browser
+(
+MOZ_BUILD_APP
+)
+)
 libs
 :
 :
@@ -1421,3 +1436,4 @@ browser
 (
 relativesrcdir
 )
+endif

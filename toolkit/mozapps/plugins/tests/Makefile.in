@@ -445,6 +445,13 @@ relativesrcdir
 USE_STATIC_LIBS
 =
 1
+ifeq
+(
+browser
+(
+MOZ_BUILD_APP
+)
+)
 _BROWSER_FILES
 =
 \
@@ -471,6 +478,7 @@ xpi
 (
 NULL
 )
+endif
 CPPSRCS
 =
 \
@@ -558,6 +566,13 @@ BIN_SUFFIX
 )
 cp
 <
+ifeq
+(
+browser
+(
+MOZ_BUILD_APP
+)
+)
 libs
 :
 :
@@ -587,3 +602,4 @@ libs
 (
 PROGRAMS
 )
+endif

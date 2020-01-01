@@ -430,6 +430,13 @@ config
 autoconf
 .
 mk
+ifeq
+(
+browser
+(
+MOZ_BUILD_APP
+)
+)
 DIRS
 =
 \
@@ -438,6 +445,7 @@ browser
 (
 NULL
 )
+endif
 #
 Module
 name
