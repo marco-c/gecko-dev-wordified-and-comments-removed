@@ -1712,10 +1712,3 @@ p3
 endian
 .
 patch
-patch
--
-p4
-<
-seek
-.
-patch

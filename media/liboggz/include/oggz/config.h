@@ -79,6 +79,9 @@ OGGZ_OFF_MAX
 0x7FFFFFFFFFFFFFFFLL
 #
 define
+OGG_H_CONST_CORRECT
+#
+define
 PACKAGE
 "
 liboggz
@@ -140,7 +143,7 @@ VERSION
 .
 9
 .
-8
+9
 "
 #
 if
