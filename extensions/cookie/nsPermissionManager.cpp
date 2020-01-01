@@ -3483,7 +3483,7 @@ rv
 stmtDeleteExpired
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 nsIPermissionManager
@@ -3503,7 +3503,7 @@ rv
 stmtDeleteExpired
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 1
 PR_Now
@@ -4215,7 +4215,7 @@ rv
 aStmt
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 0
 aID
@@ -4235,7 +4235,7 @@ rv
 aStmt
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 1
 aHost
@@ -4255,7 +4255,7 @@ rv
 aStmt
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 2
 aType
@@ -4275,7 +4275,7 @@ rv
 aStmt
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 3
 aPermission
@@ -4295,7 +4295,7 @@ rv
 aStmt
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 4
 aExpireType
@@ -4315,7 +4315,7 @@ rv
 aStmt
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 5
 aExpireTime
@@ -4333,7 +4333,7 @@ rv
 aStmt
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 0
 aID
@@ -4351,7 +4351,7 @@ rv
 aStmt
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 0
 aID
@@ -4371,7 +4371,7 @@ rv
 aStmt
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 1
 aPermission
@@ -4391,7 +4391,7 @@ rv
 aStmt
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 2
 aExpireType
@@ -4411,7 +4411,7 @@ rv
 aStmt
 -
 >
-BindInt64Parameter
+BindInt64ByIndex
 (
 3
 aExpireTime
