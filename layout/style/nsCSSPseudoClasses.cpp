@@ -30,6 +30,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 using
 namespace
 mozilla

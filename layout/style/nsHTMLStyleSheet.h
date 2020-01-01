@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsIStyleSheet
-.
-h
-"
-#
-include
-"
 pldhash
 .
 h
@@ -78,6 +71,9 @@ nsString
 .
 h
 "
+class
+nsIDocument
+;
 class
 nsMappedAttributes
 ;

@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsCSSValue
+.
+h
+"
+#
+include
+"
 nsStyleStructFwd
 .
 h

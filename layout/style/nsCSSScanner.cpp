@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsTraceRefcnt
+.
+h
+"
+#
+include
+"
 mozilla
 /
 css

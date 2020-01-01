@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 nsIDOMRect
 .
 h

@@ -40,6 +40,13 @@ nsStyleAnimation
 .
 h
 "
+#
+include
+"
+gfxMatrix
+.
+h
+"
 namespace
 css
 =

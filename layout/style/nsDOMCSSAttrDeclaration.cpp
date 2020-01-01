@@ -69,13 +69,6 @@ h
 #
 include
 "
-xpcpublic
-.
-h
-"
-#
-include
-"
 nsWrapperCacheInlines
 .
 h

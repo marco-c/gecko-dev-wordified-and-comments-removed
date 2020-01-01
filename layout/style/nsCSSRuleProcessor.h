@@ -53,13 +53,6 @@ h
 #
 include
 "
-nsCSSRules
-.
-h
-"
-#
-include
-"
 nsRuleWalker
 .
 h
@@ -88,6 +81,12 @@ TreeMatchContext
 ;
 class
 nsCSSKeyframesRule
+;
+class
+nsCSSPageRule
+;
+class
+nsCSSFontFeatureValuesRule
 ;
 class
 nsCSSRuleProcessor

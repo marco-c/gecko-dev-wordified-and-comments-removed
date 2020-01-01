@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsChangeHint
-.
-h
-"
-#
-include
-"
 nsCSSProperty
 .
 h
@@ -28,7 +21,7 @@ h
 #
 include
 "
-nsStyleStruct
+nsStyleStructFwd
 .
 h
 "

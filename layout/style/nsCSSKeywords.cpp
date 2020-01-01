@@ -19,13 +19,6 @@ nsStaticNameTable
 .
 h
 "
-#
-include
-"
-nsReadableUtils
-.
-h
-"
 extern
 const
 char

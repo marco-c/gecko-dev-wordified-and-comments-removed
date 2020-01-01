@@ -123,14 +123,6 @@ nsPresContext
 class
 nsIURI
 ;
-template
-<
-class
-T
->
-class
-nsPtrHashKey
-;
 #
 define
 NS_CSS_DELETE_LIST_MEMBER

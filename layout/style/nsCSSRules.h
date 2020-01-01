@@ -108,13 +108,6 @@ h
 #
 include
 "
-nsIDOMCSSStyleDeclaration
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
