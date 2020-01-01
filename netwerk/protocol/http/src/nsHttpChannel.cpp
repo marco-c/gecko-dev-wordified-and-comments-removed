@@ -2938,7 +2938,6 @@ mLoadFlags
 &
 LOAD_ANONYMOUS
 )
-{
 mCaps
 |
 =
@@ -2949,9 +2948,16 @@ mConnectionInfo
 >
 SetAnonymous
 (
+(
+mLoadFlags
+&
+LOAD_ANONYMOUS
+)
+!
+=
+0
 )
 ;
-}
 nsCOMPtr
 <
 nsIAsyncInputStream
