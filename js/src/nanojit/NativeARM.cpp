@@ -7534,7 +7534,7 @@ break
 case
 LIR_ov
 :
-MOVNO
+MOVVC
 (
 rr
 iffalsereg
@@ -7567,7 +7567,7 @@ break
 case
 LIR_le
 :
-MOVG
+MOVGT
 (
 rr
 iffalsereg
@@ -7589,7 +7589,7 @@ break
 case
 LIR_ge
 :
-MOVL
+MOVLT
 (
 rr
 iffalsereg
@@ -7600,7 +7600,7 @@ break
 case
 LIR_ult
 :
-MOVAE
+MOVCS
 (
 rr
 iffalsereg
@@ -7611,7 +7611,7 @@ break
 case
 LIR_ule
 :
-MOVA
+MOVHI
 (
 rr
 iffalsereg
@@ -7622,7 +7622,7 @@ break
 case
 LIR_ugt
 :
-MOVBE
+MOVLS
 (
 rr
 iffalsereg
@@ -7633,7 +7633,7 @@ break
 case
 LIR_uge
 :
-MOVB
+MOVCC
 (
 rr
 iffalsereg
