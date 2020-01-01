@@ -1038,3 +1038,13 @@ script
 toLocaleString
 .
 js
+script
+gOPD
+-
+vs
+-
+prototype
+-
+accessor
+.
+js
