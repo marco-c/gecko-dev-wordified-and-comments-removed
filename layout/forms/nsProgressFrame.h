@@ -219,6 +219,12 @@ eReplacedContainsBlock
 )
 ;
 }
+bool
+ShouldUseNativeStyle
+(
+)
+const
+;
 protected
 :
 void
