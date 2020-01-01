@@ -314,10 +314,10 @@ NS_OK
 }
 if
 (
-PR_ATOMIC_SET
-(
-&
 mInitInProgress
+.
+exchange
+(
 1
 )
 =
