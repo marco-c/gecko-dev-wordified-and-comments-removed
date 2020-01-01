@@ -191,7 +191,7 @@ instance
 .
 presenter
 .
-renderer
+_renderer
 ;
 let
 arcball

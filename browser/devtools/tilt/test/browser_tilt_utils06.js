@@ -29,7 +29,7 @@ let
 anotherObject
 =
 {
-finalize
+_finalize
 :
 function
 (

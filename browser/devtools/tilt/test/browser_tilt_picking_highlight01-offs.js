@@ -109,7 +109,7 @@ false
 ;
 presenter
 .
-onInitializationFinished
+_onInitializationFinished
 =
 function
 (
@@ -190,7 +190,7 @@ ok
 !
 presenter
 .
-highlight
+_highlight
 .
 disabled
 "
@@ -293,7 +293,7 @@ ok
 (
 presenter
 .
-highlight
+_highlight
 .
 disabled
 "

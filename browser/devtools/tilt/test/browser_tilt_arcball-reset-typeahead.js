@@ -340,7 +340,7 @@ press
 ;
 arcball
 .
-onResetStart
+_onResetStart
 =
 function
 (
@@ -361,7 +361,7 @@ animation
 ;
 arcball
 .
-onResetStep
+_onResetStep
 =
 function
 (
@@ -504,7 +504,7 @@ _zoomAmount
 ;
 arcball
 .
-onResetFinish
+_onResetFinish
 =
 function
 (
@@ -756,6 +756,12 @@ correctly
 "
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 info
 (
 "
@@ -769,6 +775,9 @@ test
 ;
 callback
 (
+)
+;
+}
 )
 ;
 }

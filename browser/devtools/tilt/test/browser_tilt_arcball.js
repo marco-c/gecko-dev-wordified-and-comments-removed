@@ -333,7 +333,7 @@ create
 ;
 arcball3
 .
-pointToSphere
+_pointToSphere
 (
 123
 456
@@ -363,7 +363,7 @@ sphereVec
 )
 "
 The
-pointToSphere
+_pointToSphere
 (
 )
 function

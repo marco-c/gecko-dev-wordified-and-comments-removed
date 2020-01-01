@@ -407,7 +407,7 @@ ok
 (
 presenter
 .
-renderer
+_renderer
 "
 The
 presenter
@@ -425,7 +425,7 @@ ok
 (
 presenter
 .
-visualizationProgram
+_visualizationProgram
 "
 The
 presenter
@@ -443,7 +443,7 @@ ok
 (
 presenter
 .
-texture
+_texture
 "
 The
 presenter
@@ -462,7 +462,7 @@ ok
 !
 presenter
 .
-meshStacks
+_meshStacks
 "
 The
 presenter
@@ -482,7 +482,7 @@ ok
 !
 presenter
 .
-meshWireframe
+_meshWireframe
 "
 The
 presenter
@@ -501,7 +501,7 @@ ok
 (
 presenter
 .
-traverseData
+_traverseData
 "
 The
 presenter
@@ -519,7 +519,7 @@ ok
 (
 presenter
 .
-highlight
+_highlight
 "
 The
 presenter
@@ -537,7 +537,7 @@ ok
 (
 presenter
 .
-highlight
+_highlight
 .
 disabled
 "
@@ -548,6 +548,7 @@ should
 be
 initially
 disabled
+.
 "
 )
 ;
@@ -557,7 +558,7 @@ isApproxVec
 (
 presenter
 .
-highlight
+_highlight
 .
 v0
 [
@@ -586,7 +587,7 @@ isApproxVec
 (
 presenter
 .
-highlight
+_highlight
 .
 v1
 [
@@ -615,7 +616,7 @@ isApproxVec
 (
 presenter
 .
-highlight
+_highlight
 .
 v2
 [
@@ -644,7 +645,7 @@ isApproxVec
 (
 presenter
 .
-highlight
+_highlight
 .
 v3
 [
@@ -685,9 +686,7 @@ properly
 "
 )
 ;
-ok
-(
-isApproxVec
+is
 (
 presenter
 .
@@ -695,7 +694,6 @@ transforms
 .
 zoom
 1
-)
 "
 The
 presenter
@@ -884,7 +882,7 @@ ok
 (
 presenter
 .
-redraw
+_redraw
 "
 The
 new
