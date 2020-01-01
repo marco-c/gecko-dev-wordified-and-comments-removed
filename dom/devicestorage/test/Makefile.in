@@ -166,7 +166,15 @@ test_lastModificationFilter
 .
 html
 \
-test_stat
+test_freeSpace
+.
+html
+\
+test_usedSpace
+.
+html
+\
+test_available
 .
 html
 \
