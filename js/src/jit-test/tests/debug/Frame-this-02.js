@@ -24,9 +24,6 @@ hits
 =
 0
 ;
-var
-v
-;
 dbg
 .
 hooks
