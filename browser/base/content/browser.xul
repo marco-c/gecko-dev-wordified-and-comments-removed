@@ -2807,15 +2807,6 @@ stopPropagation
 onerror
 =
 "
-gBrowser
-.
-addToMissedIconCache
-(
-this
-.
-src
-)
-;
 this
 .
 removeAttribute
