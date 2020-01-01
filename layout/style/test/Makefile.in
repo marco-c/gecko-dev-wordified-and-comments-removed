@@ -456,6 +456,12 @@ file_bug829816
 .
 css
 \
+test_bug887741_at
+-
+rules_in_declaration_lists
+.
+html
+\
 test_cascade
 .
 html
