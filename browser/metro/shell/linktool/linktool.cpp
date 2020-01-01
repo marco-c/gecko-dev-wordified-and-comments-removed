@@ -188,14 +188,14 @@ hres
 :
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 IPropertyStore
 *
 m_pps
 =
-NULL
+nullptr
 ;
 if
 (
@@ -206,7 +206,7 @@ hres
 SHGetPropertyStoreFromParsingName
 (
 aShortcutPath
-NULL
+nullptr
 GPS_READWRITE
 IID_PPV_ARGS
 (
@@ -378,14 +378,14 @@ hres
 :
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 IPropertyStore
 *
 m_pps
 =
-NULL
+nullptr
 ;
 if
 (
@@ -396,7 +396,7 @@ hres
 SHGetPropertyStoreFromParsingName
 (
 aTargetPath
-NULL
+nullptr
 GPS_READWRITE
 IID_PPV_ARGS
 (
@@ -625,7 +625,7 @@ aShortcutPath
 ;
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 hres
@@ -633,7 +633,7 @@ hres
 CoCreateInstance
 (
 CLSID_ShellLink
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IShellLink
 (
@@ -699,7 +699,7 @@ IPersistFile
 *
 ppf
 =
-NULL
+nullptr
 ;
 hres
 =
@@ -1583,7 +1583,7 @@ descriptionFound
 ?
 descriptionStr
 :
-NULL
+nullptr
 )
 )
 )
@@ -1653,7 +1653,7 @@ appModelIDFound
 ?
 appModelIDStr
 :
-NULL
+nullptr
 )
 appModelIDFound
 modeFound
