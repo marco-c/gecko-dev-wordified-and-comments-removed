@@ -2860,6 +2860,13 @@ nsIWebGLUniformLocation
 nsIDOMWebGLRenderingContext
 '
 '
+nsIWebGLExtension
+'
+:
+'
+nsIDOMWebGLRenderingContext
+'
+'
 nsIIndexedDatabaseUsageCallback
 '
 :
