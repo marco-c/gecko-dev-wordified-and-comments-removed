@@ -746,6 +746,7 @@ sResolutionSigDigs
 sigDigs
 ;
 }
+MOZ_CONSTEXPR
 TimeStampValue
 :
 :
@@ -773,12 +774,6 @@ mIsNull
 true
 )
 {
-MOZ_ASSERT
-(
-!
-nullValue
-)
-;
 }
 TimeStampValue
 :

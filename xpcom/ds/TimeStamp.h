@@ -659,6 +659,7 @@ TimeStamp
 {
 public
 :
+MOZ_CONSTEXPR
 TimeStamp
 (
 )

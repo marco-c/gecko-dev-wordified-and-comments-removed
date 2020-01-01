@@ -70,11 +70,10 @@ aOther
 )
 const
 ;
-public
-:
 struct
 _SomethingVeryRandomHere
 ;
+MOZ_CONSTEXPR
 TimeStampValue
 (
 _SomethingVeryRandomHere
@@ -82,6 +81,8 @@ _SomethingVeryRandomHere
 nullValue
 )
 ;
+public
+:
 uint64_t
 operator
 -
