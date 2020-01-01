@@ -1805,6 +1805,11 @@ return
 let
 isDebugging
 =
+DebuggerServer
+.
+_connections
+&
+&
 Object
 .
 keys
@@ -1818,6 +1823,13 @@ length
 >
 0
 ;
+if
+(
+this
+.
+DEBUG
+)
+{
 this
 .
 debug
@@ -1830,6 +1842,7 @@ isDebugging
 isDebugging
 )
 ;
+}
 let
 enableAdb
 =
