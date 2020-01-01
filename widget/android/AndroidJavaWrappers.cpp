@@ -5862,13 +5862,10 @@ env
 LayerRect
 dpUnrounded
 =
-LayerRect
-:
-:
-FromCSSRect
-(
 aDisplayPort
-aDisplayResolution
+*
+CSSToLayerScale
+(
 aDisplayResolution
 )
 ;
