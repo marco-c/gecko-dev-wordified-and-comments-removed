@@ -262,9 +262,6 @@ StopAnimation
 nsresult
 Init
 (
-imgDecoderObserver
-*
-aObserver
 const
 char
 *
@@ -1245,15 +1242,6 @@ mAnim
 ;
 int32_t
 mLoopCount
-;
-mozilla
-:
-:
-WeakPtr
-<
-imgDecoderObserver
->
-mObserver
 ;
 uint32_t
 mLockCount

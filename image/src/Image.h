@@ -121,9 +121,6 @@ virtual
 nsresult
 Init
 (
-imgDecoderObserver
-*
-aObserver
 const
 char
 *

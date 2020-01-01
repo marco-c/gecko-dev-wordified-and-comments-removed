@@ -474,7 +474,6 @@ newImage
 >
 Init
 (
-nullptr
 aMimeType
 .
 get
@@ -554,12 +553,6 @@ newImage
 >
 Init
 (
-aStatusTracker
--
->
-GetDecoderObserver
-(
-)
 aMimeType
 .
 get
@@ -801,12 +794,6 @@ newImage
 >
 Init
 (
-aStatusTracker
--
->
-GetDecoderObserver
-(
-)
 aMimeType
 .
 get
