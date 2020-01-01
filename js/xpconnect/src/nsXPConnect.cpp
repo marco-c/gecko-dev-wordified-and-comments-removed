@@ -564,6 +564,16 @@ DestroyJSContextStack
 (
 )
 ;
+JS_GC
+(
+mRuntime
+-
+>
+Runtime
+(
+)
+)
+;
 mShuttingDown
 =
 true

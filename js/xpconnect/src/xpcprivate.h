@@ -11753,10 +11753,6 @@ mSafeJSContext
 (
 NULL
 )
-mOwnSafeJSContext
-(
-NULL
-)
 {
 }
 virtual
@@ -11891,10 +11887,6 @@ mStack
 JSContext
 *
 mSafeJSContext
-;
-JSContext
-*
-mOwnSafeJSContext
 ;
 }
 ;
