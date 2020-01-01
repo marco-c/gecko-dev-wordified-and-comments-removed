@@ -1947,6 +1947,14 @@ createMultiLineDumper
 error
 "
 )
+exception
+:
+createMultiLineDumper
+(
+"
+error
+"
+)
 trace
 :
 function
