@@ -358,6 +358,11 @@ nsEventStates
 )
 ;
 }
+if
+(
+mHistory
+)
+{
 nsresult
 rv
 =
@@ -416,6 +421,7 @@ AddStyleRelevantLink
 self
 )
 ;
+}
 }
 }
 }
@@ -1864,6 +1870,11 @@ URI
 "
 )
 ;
+if
+(
+mHistory
+)
+{
 nsresult
 rv
 =
@@ -1908,6 +1919,7 @@ mRegistered
 =
 false
 ;
+}
 }
 }
 already_AddRefed

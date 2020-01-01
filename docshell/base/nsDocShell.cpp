@@ -781,6 +781,9 @@ nsIStructuredCloneContainer
 h
 "
 #
+ifdef
+MOZ_PLACES
+#
 include
 "
 nsIFaviconService
@@ -794,6 +797,8 @@ mozIAsyncFavicons
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -32233,6 +32238,9 @@ sameOrigin
 }
 namespace
 {
+#
+ifdef
+MOZ_PLACES
 class
 nsCopyFaviconCallback
 MOZ_FINAL
@@ -32381,6 +32389,8 @@ NS_IMPL_ISUPPORTS1
 nsCopyFaviconCallback
 nsIFaviconDataCallback
 )
+#
+endif
 void
 CopyFavicon
 (
@@ -32394,6 +32404,9 @@ bool
 inPrivateBrowsing
 )
 {
+#
+ifdef
+MOZ_PLACES
 nsCOMPtr
 <
 mozIAsyncFavicons
@@ -32445,6 +32458,8 @@ callback
 )
 ;
 }
+#
+endif
 }
 }
 class

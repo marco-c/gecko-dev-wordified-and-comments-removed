@@ -388,11 +388,9 @@ srcdir
 .
 .
 /
-toolkit
+docshell
 /
-components
-/
-places
+base
 \
 -
 I
