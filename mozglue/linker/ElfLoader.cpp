@@ -3069,6 +3069,16 @@ scan
 +
 )
 ;
+while
+(
+!
+*
+scan
+)
+scan
++
++
+;
 AuxVector
 *
 auxv
