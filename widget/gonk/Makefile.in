@@ -224,6 +224,10 @@ EventHub
 .
 cpp
 \
+GonkMemoryPressureMonitoring
+.
+cpp
+\
 Input
 .
 cpp

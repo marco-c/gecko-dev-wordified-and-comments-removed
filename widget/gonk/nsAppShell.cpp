@@ -199,6 +199,13 @@ h
 #
 include
 "
+GonkMemoryPressureMonitoring
+.
+h
+"
+#
+include
+"
 android
 /
 log
@@ -2753,6 +2760,10 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+InitGonkMemoryPressureMonitoring
+(
 )
 ;
 return
