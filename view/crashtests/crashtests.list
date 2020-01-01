@@ -32,6 +32,8 @@ MOZ_WIDGET_TOOLKIT
 "
 gtk2
 "
+0
+-
 2
 )
 load
