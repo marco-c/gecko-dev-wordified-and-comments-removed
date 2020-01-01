@@ -443,6 +443,10 @@ NULL
 CPPSRCS
 =
 \
+nsWebMBufferedParser
+.
+cpp
+\
 nsWebMDecoder
 .
 cpp

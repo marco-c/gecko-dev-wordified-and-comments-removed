@@ -1482,7 +1482,10 @@ i
 ;
 i
 <
+PRUint32
+(
 samples
+)
 ;
 +
 +
