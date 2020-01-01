@@ -1304,17 +1304,6 @@ nullptr
 const
 ;
 bool
-DispatchKeyDownEvent
-(
-bool
-*
-aEventDispatched
-=
-nullptr
-)
-const
-;
-bool
 HandleCharMessage
 (
 const
