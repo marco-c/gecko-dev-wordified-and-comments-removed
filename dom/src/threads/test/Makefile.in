@@ -687,6 +687,14 @@ fibonacci_worker
 .
 js
 \
+test_newError
+.
+html
+\
+newError_worker
+.
+js
+\
 (
 NULL
 )
