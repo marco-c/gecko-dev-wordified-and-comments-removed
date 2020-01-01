@@ -823,6 +823,9 @@ X64_movqmr
 X64_movqspr
 =
 0x0024448948000005LL
+X64_movqspx
+=
+0x002444110F40F207LL
 X64_movqr
 =
 0xC08B480000000003LL
@@ -3891,6 +3894,16 @@ RET
 \
 void
 MOVQSPR
+(
+int
+d
+Register
+r
+)
+;
+\
+void
+MOVQSPX
 (
 int
 d
