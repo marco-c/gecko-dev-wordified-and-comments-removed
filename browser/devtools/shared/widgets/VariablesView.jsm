@@ -496,6 +496,11 @@ addItem
 populate
 (
 aObject
+{
+sorted
+:
+true
+}
 )
 ;
 }
