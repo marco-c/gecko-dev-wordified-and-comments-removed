@@ -479,6 +479,14 @@ ins
 )
 ;
 bool
+visitSqrt
+(
+MSqrt
+*
+ins
+)
+;
+bool
 visitAdd
 (
 MAdd
