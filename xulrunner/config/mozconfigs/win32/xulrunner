@@ -13,14 +13,6 @@ jdk1
 6
 .
 0_14
-#
-For
-NSS
-symbols
-export
-MOZ_DEBUG_SYMBOLS
-=
-1
 ac_add_options
 -
 -
