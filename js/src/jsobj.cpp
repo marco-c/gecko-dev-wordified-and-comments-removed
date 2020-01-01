@@ -7447,9 +7447,7 @@ bytes
 DecompileValueGenerator
 (
 cx
-0
--
-argc
+JSDVG_SEARCH_STACK
 vp
 [
 2
