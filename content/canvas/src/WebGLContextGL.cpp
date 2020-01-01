@@ -20783,6 +20783,7 @@ location_object
 \
 uint32_t
 arrayLength
+const
 ptrType
 *
 data
@@ -21146,6 +21147,7 @@ aTranspose
 uint32_t
 arrayLength
 \
+const
 float
 *
 data
@@ -22597,6 +22599,7 @@ idx
 uint32_t
 arrayLength
 \
+const
 WebGLfloat
 *
 ptr
