@@ -335,6 +335,10 @@ SVGPointList
 .
 webidl
 \
+SVGTransform
+.
+webidl
+\
 SVGTransformList
 .
 webidl

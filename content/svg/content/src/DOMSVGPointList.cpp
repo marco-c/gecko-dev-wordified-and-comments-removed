@@ -1778,7 +1778,7 @@ RemovingFromList
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 DOMSVGPoint
 >
