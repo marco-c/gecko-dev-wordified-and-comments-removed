@@ -866,6 +866,14 @@ EditorInfo
 outAttrs
 )
 {
+if
+(
+!
+mIMEFocus
+)
+return
+null
+;
 outAttrs
 .
 inputType
@@ -1019,6 +1027,9 @@ mBufferHeight
 ;
 GeckoInputConnection
 inputConnection
+;
+boolean
+mIMEFocus
 ;
 int
 mIMEState
