@@ -1497,8 +1497,6 @@ GECKO_PLATFORM_INI_PATH
 STAGEDIST
 )
 /
-xulrunner
-/
 platform
 .
 ini
