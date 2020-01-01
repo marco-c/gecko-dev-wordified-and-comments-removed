@@ -27,3 +27,11 @@ script
 01
 .
 js
+script
+named
+-
+accessor
+-
+function
+.
+js
