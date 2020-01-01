@@ -429,7 +429,7 @@ content
 EXPORTS
 =
 \
-nsMediaDecoder
+nsVideoDecoder
 .
 h
 \
@@ -447,14 +447,6 @@ nsAudioStream
 h
 \
 nsChannelReader
-.
-h
-\
-nsChannelToPipeListener
-.
-h
-\
-nsMediaStream
 .
 h
 \

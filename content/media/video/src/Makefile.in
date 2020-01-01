@@ -532,7 +532,7 @@ NULL
 CPPSRCS
 =
 \
-nsMediaDecoder
+nsVideoDecoder
 .
 cpp
 \
@@ -550,14 +550,6 @@ nsAudioStream
 cpp
 \
 nsChannelReader
-.
-cpp
-\
-nsChannelToPipeListener
-.
-cpp
-\
-nsMediaStream
 .
 cpp
 \

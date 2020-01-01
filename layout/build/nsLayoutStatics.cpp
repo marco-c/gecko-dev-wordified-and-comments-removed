@@ -433,7 +433,7 @@ MOZ_MEDIA
 #
 include
 "
-nsMediaDecoder
+nsVideoDecoder
 .
 h
 "
@@ -446,6 +446,13 @@ MOZ_OGG
 include
 "
 nsAudioStream
+.
+h
+"
+#
+include
+"
+nsVideoDecoder
 .
 h
 "
@@ -1024,7 +1031,7 @@ ifdef
 MOZ_MEDIA
 rv
 =
-nsMediaDecoder
+nsVideoDecoder
 :
 :
 InitLogger
@@ -1045,7 +1052,7 @@ NS_ERROR
 Could
 not
 initialize
-nsMediaDecoder
+nsVideoDecoder
 "
 )
 ;
