@@ -40953,6 +40953,10 @@ nsAccessibilityService
 >
 (
 srv
+.
+get
+(
+)
 )
 ;
 }
