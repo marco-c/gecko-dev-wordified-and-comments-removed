@@ -408,6 +408,13 @@ config
 autoconf
 .
 mk
+ifdef
+MOZ_MOCHITEST
+DIRS
++
+=
+test
+endif
 MODULE
 =
 layout
