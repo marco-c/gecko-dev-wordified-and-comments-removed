@@ -442,11 +442,13 @@ REQUIRES
 =
 xpcom
 \
+string
+\
 gfx
 \
-imglib2
-\
 thebes
+\
+imglib2
 \
 (
 NULL
