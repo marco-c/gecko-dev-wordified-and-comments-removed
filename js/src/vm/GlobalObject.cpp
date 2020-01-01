@@ -1434,7 +1434,7 @@ compileAndGo
 script
 -
 >
-hasJITCode
+hasJITInfo
 (
 )
 &

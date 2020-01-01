@@ -770,7 +770,7 @@ if
 script
 -
 >
-hasJITCode
+hasJITInfo
 (
 )
 )

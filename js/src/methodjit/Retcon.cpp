@@ -2057,7 +2057,7 @@ JS_ASSERT
 script
 -
 >
-hasJITCode
+hasJITInfo
 (
 )
 )
