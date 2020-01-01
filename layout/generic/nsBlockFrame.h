@@ -1930,6 +1930,9 @@ aFloat
 nsMargin
 &
 aFloatMargin
+nsMargin
+&
+aFloatOffsets
 bool
 aFloatPushedDown
 nsReflowStatus

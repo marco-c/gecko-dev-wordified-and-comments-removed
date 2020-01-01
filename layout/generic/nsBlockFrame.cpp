@@ -26659,6 +26659,9 @@ aFloat
 nsMargin
 &
 aFloatMargin
+nsMargin
+&
+aFloatOffsets
 bool
 aFloatPushedDown
 nsReflowStatus
@@ -27018,6 +27021,12 @@ aFloatMargin
 floatRS
 .
 mComputedMargin
+;
+aFloatOffsets
+=
+floatRS
+.
+mComputedOffsets
 ;
 const
 nsHTMLReflowMetrics
