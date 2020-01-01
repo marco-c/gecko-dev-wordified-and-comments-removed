@@ -160,7 +160,10 @@ SetCallback
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 aCallback
 )
 ;

@@ -1054,7 +1054,10 @@ GetProfileData
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aResult
 )

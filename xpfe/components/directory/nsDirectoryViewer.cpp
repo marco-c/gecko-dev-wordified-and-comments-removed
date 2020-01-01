@@ -693,7 +693,10 @@ global
 NS_OK
 )
 ;
-jsval
+JS
+:
+:
+Value
 params
 [
 2
@@ -759,7 +762,10 @@ STRING_TO_JSVAL
 jsMsgStr
 )
 ;
-jsval
+JS
+:
+:
+Value
 val
 ;
 JS_CallFunctionName
@@ -1159,7 +1165,10 @@ rv
 return
 rv
 ;
-jsval
+JS
+:
+:
+Value
 jslistener
 =
 OBJECT_TO_JSVAL

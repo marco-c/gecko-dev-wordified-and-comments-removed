@@ -2404,7 +2404,10 @@ mozilla_sampler_get_profile_data1
 cx
 )
 ;
-jsval
+JS
+:
+:
+Value
 val
 =
 OBJECT_TO_JSVAL

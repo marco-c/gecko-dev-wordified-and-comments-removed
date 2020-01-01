@@ -321,7 +321,10 @@ SetCallback
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 aCallback
 )
 {
@@ -434,7 +437,10 @@ str
 JS_FALSE
 )
 ;
-jsval
+JS
+:
+:
+Value
 argv
 [
 ]
@@ -454,7 +460,10 @@ ArrayLength
 argv
 )
 ;
-jsval
+JS
+:
+:
+Value
 rval
 ;
 JSBool

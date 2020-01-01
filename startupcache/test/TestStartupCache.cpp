@@ -2168,7 +2168,10 @@ histogram_id
 JSContext
 *
 cx
-jsval
+JS
+:
+:
+Value
 *
 counts
 )
@@ -2438,7 +2441,10 @@ before_size
 i
 )
 {
-jsval
+JS
+:
+:
+Value
 before_num
 after_num
 ;
