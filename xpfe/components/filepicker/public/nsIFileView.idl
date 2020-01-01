@@ -520,7 +520,7 @@ void
 setFilter
 (
 in
-wstring
+AString
 filterString
 )
 ;
