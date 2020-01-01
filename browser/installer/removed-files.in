@@ -9574,7 +9574,7 @@ npnul32
 dll
 #
 ifdef
-MOZ_MEMORY
+WIN32_OLD_STYLE_JEMALLOC
 Microsoft
 .
 VC80
@@ -9594,6 +9594,9 @@ dll
 #
 else
 mozcrt19
+.
+dll
+mozcpp19
 .
 dll
 #

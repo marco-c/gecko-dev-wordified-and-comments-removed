@@ -285,9 +285,6 @@ ifdef
 XP_WIN32
 #
 ifdef
-MOZ_MEMORY
-#
-ifdef
 WIN32_OLD_STYLE_JEMALLOC
 BINPATH
 /
@@ -301,6 +298,9 @@ mozcpp19
 dll
 #
 else
+#
+ifdef
+MOZ_MEMORY
 BINPATH
 /
 jemalloc
@@ -308,10 +308,6 @@ jemalloc
 dll
 #
 endif
-#
-endif
-#
-else
 #
 if
 _MSC_VER
@@ -388,6 +384,8 @@ BINPATH
 msvcr100
 .
 dll
+#
+endif
 #
 endif
 #

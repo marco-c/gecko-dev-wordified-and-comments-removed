@@ -484,7 +484,7 @@ rules
 .
 mk
 ifndef
-MOZ_MEMORY
+WIN32_OLD_STYLE_JEMALLOC
 ifdef
 WIN32_REDIST_DIR
 ifndef
