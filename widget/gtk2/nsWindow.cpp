@@ -2506,6 +2506,10 @@ mLayerManager
 =
 nsnull
 ;
+DestroyCompositor
+(
+)
+;
 ClearCachedResources
 (
 )
