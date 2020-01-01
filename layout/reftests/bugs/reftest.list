@@ -18146,10 +18146,10 @@ Retry
 the
 above
 with
-our
-default
-remote
-XUL
+in
+-
+content
+XBL
 behavior
 test
 -
@@ -18158,7 +18158,7 @@ pref
 dom
 .
 use_xbl_scopes_for_remote_xul
-false
+true
 )
 !
 =
@@ -18177,7 +18177,7 @@ pref
 dom
 .
 use_xbl_scopes_for_remote_xul
-false
+true
 )
 !
 =
