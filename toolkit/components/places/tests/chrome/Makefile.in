@@ -456,6 +456,10 @@ test_add_livemark
 .
 xul
 \
+test_371798
+.
+xul
+\
 (
 NULL
 )
