@@ -107,6 +107,14 @@ aPreviousSibling
 )
 ;
 NS_IMETHOD
+GetIndexInParent
+(
+PRInt32
+*
+aIndexInParent
+)
+;
+NS_IMETHOD
 GetChildAt
 (
 PRInt32

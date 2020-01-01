@@ -554,5 +554,12 @@ gTextEvent
 ;
 }
 ;
+HRESULT
+GetHRESULT
+(
+nsresult
+aResult
+)
+;
 #
 endif

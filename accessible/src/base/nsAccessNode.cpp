@@ -1751,11 +1751,14 @@ PRUint32
 aScrollType
 )
 {
-NS_ENSURE_TRUE
+if
 (
-mDOMNode
-NS_ERROR_FAILURE
+IsDefunct
+(
 )
+)
+return
+NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <

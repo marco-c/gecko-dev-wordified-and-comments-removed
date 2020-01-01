@@ -1094,7 +1094,15 @@ mapAreas
 aIndex
 )
 ;
-NS_IF_ADDREF
+if
+(
+!
+accessible
+)
+return
+NS_ERROR_INVALID_ARG
+;
+NS_ADDREF
 (
 *
 aAccessible
