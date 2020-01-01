@@ -250,6 +250,16 @@ nsIDOMWindowUtils
 )
 .
 currentInnerWindowID
+contentWindowWidth
+:
+content
+.
+innerWidth
+contentWindowHeight
+:
+content
+.
+innerHeight
 documentURI
 :
 aWebProgress
