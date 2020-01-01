@@ -644,8 +644,13 @@ MOZ_CAIRO_CFLAGS
 (
 TK_CFLAGS
 )
-ifdef
-MOZ_ENABLE_PANGO
+ifeq
+(
+(
+MOZ_WIDGET_TOOLKIT
+)
+gtk2
+)
 CXXFLAGS
 +
 =

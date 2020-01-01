@@ -1214,9 +1214,6 @@ lgthread
 2
 .
 0
-endif
-ifdef
-MOZ_ENABLE_XFT
 EXTRA_DSO_LDOPTS
 +
 =
