@@ -1,7 +1,7 @@
 #
 include
 "
-DirectiveHandler
+DirectiveHandlerBase
 .
 h
 "

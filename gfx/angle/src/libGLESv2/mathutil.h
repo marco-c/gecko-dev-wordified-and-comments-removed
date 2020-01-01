@@ -20,11 +20,13 @@ h
 >
 #
 include
-<
-windows
+"
+common
+/
+system
 .
 h
->
+"
 namespace
 gl
 {
