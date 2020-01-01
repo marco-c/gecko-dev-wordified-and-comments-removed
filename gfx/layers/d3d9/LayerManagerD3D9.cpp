@@ -972,7 +972,10 @@ msg
 .
 AppendInt
 (
+PRUint32
+(
 aCode
+)
 )
 ;
 NS_WARNING
