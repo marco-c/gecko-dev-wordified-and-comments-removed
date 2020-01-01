@@ -17919,8 +17919,14 @@ SetClickAndHoldHandlers
 #
 endif
 #
-ifndef
+ifdef
 MOZ_PLACES_BOOKMARKS
+initBookmarksToolbar
+(
+)
+;
+#
+else
 var
 bt
 =
