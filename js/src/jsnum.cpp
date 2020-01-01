@@ -181,13 +181,6 @@ h
 #
 include
 "
-jstracer
-.
-h
-"
-#
-include
-"
 jslibmath
 .
 h

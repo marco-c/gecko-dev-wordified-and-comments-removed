@@ -37,13 +37,6 @@ h
 #
 include
 "
-jstracer
-.
-h
-"
-#
-include
-"
 jsgcmark
 .
 h

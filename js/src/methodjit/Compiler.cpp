@@ -144,13 +144,6 @@ h
 #
 include
 "
-jshotloop
-.
-h
-"
-#
-include
-"
 builtin
 /
 RegExp

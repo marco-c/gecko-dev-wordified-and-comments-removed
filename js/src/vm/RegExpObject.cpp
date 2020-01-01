@@ -64,13 +64,6 @@ h
 #
 ifdef
 JS_TRACER
-#
-include
-"
-jstracer
-.
-h
-"
 using
 namespace
 nanojit

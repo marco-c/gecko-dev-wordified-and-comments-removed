@@ -231,13 +231,6 @@ jsstr
 h
 "
 #
-include
-"
-jstracer
-.
-h
-"
-#
 ifdef
 JS_METHODJIT
 #

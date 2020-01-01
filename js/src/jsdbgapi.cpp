@@ -8097,13 +8097,6 @@ h
 #
 endif
 #
-include
-"
-jstracer
-.
-h
-"
-#
 define
 ETHOGRAM_BUF_SIZE
 65536

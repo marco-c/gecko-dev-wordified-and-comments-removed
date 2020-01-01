@@ -171,13 +171,6 @@ h
 #
 include
 "
-jstracer
-.
-h
-"
-#
-include
-"
 jswrapper
 .
 h
