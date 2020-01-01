@@ -54,6 +54,11 @@ DisableWritePoisoning
 (
 )
 ;
+void
+EnableWritePoisoning
+(
+)
+;
 }
 #
 endif
