@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsHashtable
 .
 h
