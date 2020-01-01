@@ -915,6 +915,16 @@ return
 false
 ;
 }
+virtual
+bool
+isControlInstruction
+(
+)
+{
+return
+false
+;
+}
 bool
 rewritesDef
 (
