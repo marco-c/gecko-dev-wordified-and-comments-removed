@@ -352,6 +352,12 @@ Shutdown
 (
 )
 ;
+static
+void
+ShutdownDB
+(
+)
+;
 bool
 UnflushedDataExists
 (
