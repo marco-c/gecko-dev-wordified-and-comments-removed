@@ -842,6 +842,15 @@ getLayerView
 ;
 if
 (
+view
+=
+=
+null
+)
+return
+;
+if
+(
 mVirtualCursorNode
 =
 =
