@@ -345,7 +345,7 @@ haveRight
 border
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 NS_SIDE_RIGHT
 )
@@ -390,7 +390,7 @@ haveLeft
 border
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 NS_SIDE_LEFT
 )
@@ -3921,7 +3921,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsInlineFrame
 :

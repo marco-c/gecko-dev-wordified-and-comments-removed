@@ -79,7 +79,7 @@ nsHyperTextAccessible
 aHyperTextAcc
 bool
 aIncludeDefAttrs
-nsAccessible
+Accessible
 *
 aOffsetAcc
 PRInt32
@@ -147,7 +147,7 @@ aEndHTOffset
 ;
 private
 :
-nsAccessible
+Accessible
 *
 mOffsetAcc
 ;

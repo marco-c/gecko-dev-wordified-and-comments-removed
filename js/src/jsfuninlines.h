@@ -589,7 +589,7 @@ v
 )
 )
 {
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -959,7 +959,7 @@ JS_ASSERT
 parent
 )
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -1029,7 +1029,7 @@ setParent
 (
 cx
 fun
-RootedVarObject
+RootedObject
 (
 cx
 SkipScopeParent
@@ -1110,7 +1110,7 @@ js_CloneFunctionObject
 (
 cx
 fun
-RootedVarObject
+RootedObject
 (
 cx
 fun
@@ -1120,7 +1120,7 @@ environment
 (
 )
 )
-RootedVarObject
+RootedObject
 (
 cx
 fun

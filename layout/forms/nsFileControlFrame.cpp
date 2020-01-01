@@ -2962,7 +2962,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsFileControlFrame
 :

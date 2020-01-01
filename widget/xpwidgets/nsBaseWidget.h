@@ -1302,6 +1302,11 @@ CreateBasicLayerManager
 protected
 :
 void
+DestroyCompositor
+(
+)
+;
+void
 *
 mClientData
 ;

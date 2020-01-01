@@ -3586,7 +3586,7 @@ jsop_newarray
 0
 )
 ;
-RootedVarObject
+RootedObject
 baseObj
 (
 cx
@@ -3616,7 +3616,7 @@ case
 JSOP_NEWOBJECT
 :
 {
-RootedVarObject
+RootedObject
 baseObj
 (
 cx
@@ -3649,7 +3649,7 @@ case
 JSOP_INITPROP
 :
 {
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -3756,7 +3756,7 @@ case
 JSOP_CALLGNAME
 :
 {
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -3804,7 +3804,7 @@ case
 JSOP_SETGNAME
 :
 {
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -3837,7 +3837,7 @@ case
 JSOP_CALLNAME
 :
 {
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -4036,7 +4036,7 @@ case
 JSOP_CALLPROP
 :
 {
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -4069,7 +4069,7 @@ case
 JSOP_SETNAME
 :
 {
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -12697,7 +12697,7 @@ script
 return
 false
 ;
-RootedVarObject
+RootedObject
 scopeChain
 (
 NULL
@@ -12781,7 +12781,7 @@ MDefinition
 callee
 )
 {
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -13028,7 +13028,7 @@ type
 return
 NULL
 ;
-RootedVarObject
+RootedObject
 templateObject
 (
 cx
@@ -13176,7 +13176,7 @@ createThis
 =
 NULL
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -13225,7 +13225,7 @@ uint32
 argc
 )
 {
-RootedVarFunction
+RootedFunction
 native
 (
 cx
@@ -13288,7 +13288,7 @@ argc
 pc
 )
 ;
-RootedVarObject
+RootedObject
 funobj
 (
 cx
@@ -13308,7 +13308,7 @@ false
 NULL
 )
 ;
-RootedVarFunction
+RootedFunction
 target
 (
 cx
@@ -13502,7 +13502,7 @@ bool
 constructing
 )
 {
-RootedVarFunction
+RootedFunction
 target
 (
 cx
@@ -14853,7 +14853,7 @@ peek
 1
 )
 ;
-RootedVarObject
+RootedObject
 baseObj
 (
 cx
@@ -14939,7 +14939,7 @@ prop
 =
 NULL
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -17366,7 +17366,7 @@ isNative
 )
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -17793,7 +17793,7 @@ HandlePropertyName
 name
 )
 {
-RootedVarObject
+RootedObject
 globalObj
 (
 cx
@@ -17805,7 +17805,7 @@ global
 )
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -20210,7 +20210,7 @@ jsop_length_fastPath
 return
 true
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -20839,7 +20839,7 @@ bool
 isKnownConstant
 testObject
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -20849,7 +20849,7 @@ name
 )
 )
 ;
-RootedVarObject
+RootedObject
 global
 (
 cx
@@ -21339,7 +21339,7 @@ script
 strictModeCode
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx

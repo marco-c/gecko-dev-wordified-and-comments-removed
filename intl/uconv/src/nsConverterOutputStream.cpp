@@ -524,6 +524,16 @@ rv
 return
 rv
 ;
+if
+(
+size
+=
+=
+0
+)
+return
+NS_OK
+;
 PRUint32
 written
 ;

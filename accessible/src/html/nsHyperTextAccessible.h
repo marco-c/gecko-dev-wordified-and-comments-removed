@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -131,7 +131,7 @@ class
 nsHyperTextAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 public
 nsIAccessibleText
 public
@@ -146,7 +146,7 @@ nsHyperTextAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -218,7 +218,7 @@ virtual
 bool
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -251,20 +251,18 @@ PRInt32
 aContentOffset
 )
 ;
-inline
 PRUint32
 GetLinkCount
 (
 )
 {
 return
-GetEmbeddedChildCount
+EmbeddedChildCount
 (
 )
 ;
 }
-inline
-nsAccessible
+Accessible
 *
 GetLinkAt
 (
@@ -279,11 +277,10 @@ aIndex
 )
 ;
 }
-inline
 PRInt32
 GetLinkIndex
 (
-nsAccessible
+Accessible
 *
 aLink
 )
@@ -295,7 +292,6 @@ aLink
 )
 ;
 }
-inline
 PRInt32
 GetLinkIndexAtOffset
 (
@@ -303,7 +299,7 @@ PRUint32
 aOffset
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -324,7 +320,7 @@ child
 1
 ;
 }
-nsAccessible
+Accessible
 *
 DOMPointToHypertextOffset
 (
@@ -384,7 +380,6 @@ IsTextRole
 (
 )
 ;
-inline
 PRUint32
 CharacterCount
 (
@@ -393,7 +388,7 @@ CharacterCount
 return
 GetChildOffset
 (
-GetChildCount
+ChildCount
 (
 )
 )
@@ -424,7 +419,7 @@ nsnull
 PRInt32
 GetChildOffset
 (
-nsAccessible
+Accessible
 *
 aChild
 bool
@@ -476,7 +471,7 @@ PRUint32
 aOffset
 )
 ;
-nsAccessible
+Accessible
 *
 GetChildAtOffset
 (
@@ -537,7 +532,6 @@ const
 ;
 protected
 :
-inline
 PRInt32
 ConvertMagicOffset
 (
@@ -596,7 +590,7 @@ GetTextHelper
 (
 EGetTextType
 aType
-nsAccessibleTextBoundary
+AccessibleTextBoundary
 aBoundaryType
 PRInt32
 aOffset
@@ -622,7 +616,7 @@ nsIFrame
 aFromFrame
 PRInt32
 aFromOffset
-nsAccessible
+Accessible
 *
 aFromAccessible
 nsSelectionAmount
@@ -659,13 +653,13 @@ nsIntRect
 aBoundsRect
 =
 nsnull
-nsAccessible
+Accessible
 *
 *
 aStartAcc
 =
 nsnull
-nsAccessible
+Accessible
 *
 *
 aEndAcc
@@ -725,7 +719,7 @@ nsIFrame
 aFrame
 PRInt32
 aOffset
-nsAccessible
+Accessible
 *
 aAccessible
 nsIDOMNode
@@ -789,7 +783,7 @@ NS_HYPERTEXTACCESSIBLE_IMPL_CID
 inline
 nsHyperTextAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsHyperText

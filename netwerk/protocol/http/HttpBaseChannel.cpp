@@ -75,6 +75,13 @@ h
 #
 include
 "
+nsILoadContext
+.
+h
+"
+#
+include
+"
 nsEscape
 .
 h
@@ -106,6 +113,10 @@ HttpBaseChannel
 (
 )
 :
+PrivateBrowsingConsumer
+(
+this
+)
 mStartPos
 (
 LL_MAXUINT
@@ -623,7 +634,7 @@ return
 rv
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED9
+NS_IMPL_ISUPPORTS_INHERITED10
 (
 HttpBaseChannel
 nsHashPropertyBag
@@ -636,6 +647,7 @@ nsIUploadChannel
 nsIUploadChannel2
 nsISupportsPriority
 nsITraceableChannel
+nsIPrivateBrowsingConsumer
 )
 NS_IMETHODIMP
 HttpBaseChannel

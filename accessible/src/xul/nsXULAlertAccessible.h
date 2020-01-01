@@ -7,7 +7,7 @@ _nsXULAlertAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -15,7 +15,7 @@ class
 nsXULAlertAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -24,7 +24,7 @@ nsXULAlertAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -71,7 +71,7 @@ IsWidget
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (

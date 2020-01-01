@@ -151,6 +151,13 @@ h
 #
 include
 "
+PrivateBrowsingConsumer
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -182,6 +189,8 @@ public
 nsIResumableChannel
 public
 nsITraceableChannel
+public
+PrivateBrowsingConsumer
 {
 public
 :

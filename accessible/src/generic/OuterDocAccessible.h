@@ -7,7 +7,7 @@ MOZILLA_A11Y_OUTERDOCACCESSIBLE_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -21,7 +21,7 @@ class
 OuterDocAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -30,7 +30,7 @@ OuterDocAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -97,7 +97,7 @@ aAttributes
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ChildAtPoint
 (
@@ -119,7 +119,7 @@ virtual
 bool
 AppendChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -128,7 +128,7 @@ virtual
 bool
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )

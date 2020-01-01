@@ -3218,7 +3218,7 @@ fp
 (
 )
 ;
-RootedVarObject
+RootedObject
 callee
 (
 cx
@@ -4837,7 +4837,7 @@ case
 REJOIN_THIS_PROTOTYPE
 :
 {
-RootedVarObject
+RootedObject
 callee
 (
 cx

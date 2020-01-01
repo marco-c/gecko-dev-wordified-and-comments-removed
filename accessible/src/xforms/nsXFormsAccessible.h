@@ -76,7 +76,7 @@ nsXFormsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -159,7 +159,7 @@ nsXFormsContainerAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -197,7 +197,7 @@ nsXFormsEditableAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -233,7 +233,7 @@ nsXFormsSelectableAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -260,7 +260,7 @@ SelectedItemCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetSelectedItem
 (
@@ -313,7 +313,7 @@ GetItemByIndex
 PRUint32
 *
 aIndex
-nsAccessible
+Accessible
 *
 aAccessible
 =
@@ -338,7 +338,7 @@ nsXFormsSelectableItemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

@@ -161,7 +161,7 @@ nsAccessNode
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -485,7 +485,7 @@ return
 nsnull
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =

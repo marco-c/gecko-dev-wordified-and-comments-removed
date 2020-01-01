@@ -700,7 +700,10 @@ truncate
 )
         
 return
+int
+(
 return_code
+)
     
 return
 None

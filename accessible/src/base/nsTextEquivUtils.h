@@ -7,7 +7,7 @@ _nsTextEquivUtils_H_
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -51,7 +51,7 @@ static
 nsresult
 GetNameFromSubtree
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsAString
@@ -63,7 +63,7 @@ static
 nsresult
 GetTextEquivFromIDRefs
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsIAtom
@@ -78,7 +78,7 @@ static
 nsresult
 AppendTextEquivFromContent
 (
-nsAccessible
+Accessible
 *
 aInitiatorAcc
 nsIContent
@@ -107,7 +107,7 @@ static
 nsresult
 AppendFromAccessibleChildren
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsAString
@@ -119,7 +119,7 @@ static
 nsresult
 AppendFromAccessible
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsAString
@@ -131,7 +131,7 @@ static
 nsresult
 AppendFromValue
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsAString
@@ -203,7 +203,7 @@ gRoleToNameRulesMap
 static
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 gInitiatorAcc
 ;

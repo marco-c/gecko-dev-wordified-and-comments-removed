@@ -234,6 +234,13 @@ true
 }
 private
 :
+nsresult
+ResetDecode
+(
+bool
+start
+)
+;
 bool
 HasSkeleton
 (

@@ -1307,7 +1307,7 @@ const
 nsAString
 &
 aString
-PRInt32
+ETypingAction
 aAction
 )
 ;

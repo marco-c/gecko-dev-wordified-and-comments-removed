@@ -338,10 +338,7 @@ new
 gfxQuartzSurface
 (
 size
-gfxASurface
-:
-:
-FormatFromContent
+OptimalFormatForContent
 (
 contentType
 )

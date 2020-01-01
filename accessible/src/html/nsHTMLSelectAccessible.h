@@ -39,7 +39,7 @@ class
 nsHTMLSelectListAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -48,7 +48,7 @@ nsHTMLSelectListAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -118,7 +118,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 CurrentItem
 (
@@ -128,7 +128,7 @@ virtual
 void
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )
@@ -171,7 +171,7 @@ nsHTMLSelectOptionAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -260,7 +260,7 @@ ActionCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -269,7 +269,7 @@ const
 ;
 private
 :
-nsAccessible
+Accessible
 *
 GetSelect
 (
@@ -289,7 +289,7 @@ IsListControl
 )
 )
 {
-nsAccessible
+Accessible
 *
 combobox
 =
@@ -324,7 +324,7 @@ return
 nsnull
 ;
 }
-nsAccessible
+Accessible
 *
 GetCombobox
 (
@@ -344,7 +344,7 @@ IsListControl
 )
 )
 {
-nsAccessible
+Accessible
 *
 combobox
 =
@@ -390,7 +390,7 @@ nsHTMLSelectOptGroupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -460,7 +460,7 @@ class
 nsHTMLComboboxAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -476,7 +476,7 @@ nsHTMLComboboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -581,7 +581,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 CurrentItem
 (
@@ -591,7 +591,7 @@ virtual
 void
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )
@@ -604,7 +604,7 @@ CacheChildren
 (
 )
 ;
-nsAccessible
+Accessible
 *
 SelectedOption
 (
@@ -637,7 +637,7 @@ aParent
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

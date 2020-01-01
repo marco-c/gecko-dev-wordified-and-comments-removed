@@ -7,7 +7,7 @@ MOZILLA_A11Y_XULFormControlAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -49,7 +49,7 @@ class
 XULButtonAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -65,7 +65,7 @@ XULButtonAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -134,7 +134,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -176,7 +176,7 @@ XULCheckboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -244,7 +244,7 @@ XULDropmarkerAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -305,7 +305,7 @@ class
 XULGroupboxAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -314,7 +314,7 @@ XULGroupboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -363,7 +363,7 @@ XULRadioButtonAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -375,7 +375,7 @@ NativeState
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -397,7 +397,7 @@ XULRadioGroupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -447,7 +447,7 @@ class
 XULStatusBarAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -456,7 +456,7 @@ XULStatusBarAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -488,7 +488,7 @@ XULToolbarButtonAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -509,7 +509,7 @@ static
 bool
 IsSeparator
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -520,7 +520,7 @@ class
 XULToolbarAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -529,7 +529,7 @@ XULToolbarAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -570,7 +570,7 @@ XULToolbarSeparatorAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -615,7 +615,7 @@ XULTextFieldAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

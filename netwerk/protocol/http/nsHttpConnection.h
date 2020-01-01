@@ -56,7 +56,7 @@ h
 #
 include
 "
-SpdySession
+ASpdySession
 .
 h
 "
@@ -202,7 +202,7 @@ IsKeepAlive
 )
 {
 return
-mUsingSpdy
+mUsingSpdyVersion
 |
 |
 (
@@ -468,7 +468,9 @@ UsingSpdy
 )
 {
 return
-mUsingSpdy
+!
+!
+mUsingSpdyVersion
 ;
 }
 bool
@@ -605,6 +607,8 @@ nsHttpResponseHead
 void
 StartSpdy
 (
+PRUint8
+versionLevel
 )
 ;
 nsresult
@@ -755,8 +759,8 @@ mNPNComplete
 bool
 mSetupNPNCalled
 ;
-bool
-mUsingSpdy
+PRUint8
+mUsingSpdyVersion
 ;
 nsRefPtr
 <
@@ -766,7 +770,7 @@ mozilla
 net
 :
 :
-SpdySession
+ASpdySession
 >
 mSpdySession
 ;

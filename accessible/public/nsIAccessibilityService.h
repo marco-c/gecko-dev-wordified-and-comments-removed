@@ -26,7 +26,7 @@ nsAutoPtr
 h
 "
 class
-nsAccessible
+Accessible
 ;
 class
 nsINode
@@ -79,7 +79,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_IACCESSIBILITYSERVICE_IID
 )
 virtual
-nsAccessible
+Accessible
 *
 GetAccessible
 (
@@ -94,7 +94,7 @@ aPresShell
 0
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetRootDocumentAccessible
 (
@@ -108,7 +108,7 @@ aCanCreate
 0
 ;
 virtual
-nsAccessible
+Accessible
 *
 AddNativeRootAccessible
 (
@@ -123,7 +123,7 @@ virtual
 void
 RemoveNativeRootAccessible
 (
-nsAccessible
+Accessible
 *
 aRootAccessible
 )
@@ -195,7 +195,7 @@ FireAccessibleEvent
 (
 PRUint32
 aEvent
-nsAccessible
+Accessible
 *
 aTarget
 )

@@ -26,10 +26,10 @@ nsRefreshDriver
 h
 "
 class
-nsAccessible
+Accessible
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 class
 nsIContent
@@ -238,7 +238,7 @@ public
 :
 NotificationController
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIPresShell
@@ -290,7 +290,7 @@ aEvent
 void
 ScheduleChildDocBinding
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -321,7 +321,7 @@ ScheduleProcessing
 void
 ScheduleContentInsertion
 (
-nsAccessible
+Accessible
 *
 aContainer
 nsIContent
@@ -645,7 +645,7 @@ mObservingState
 ;
 nsRefPtr
 <
-nsDocAccessible
+DocAccessible
 >
 mDocument
 ;
@@ -657,7 +657,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsDocAccessible
+DocAccessible
 >
 >
 mHangingChildDocuments
@@ -669,10 +669,10 @@ public
 :
 ContentInsertion
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
-nsAccessible
+Accessible
 *
 aContainer
 )
@@ -735,13 +735,13 @@ ContentInsertion
 &
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 mDocument
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mContainer
 ;

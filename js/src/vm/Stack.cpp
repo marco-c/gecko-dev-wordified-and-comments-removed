@@ -1342,7 +1342,7 @@ needsClone
 )
 )
 {
-RootedVar
+Rooted
 <
 StaticBlockObject
 *
@@ -6208,7 +6208,7 @@ seg_
 seg_
 -
 >
-prevInContext
+prevInMemory
 (
 )
 ;

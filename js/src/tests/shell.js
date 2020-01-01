@@ -3255,6 +3255,13 @@ optionsClear
 (
 )
 ;
+options
+(
+"
+allow_xml
+"
+)
+;
 }
 function
 getTestCaseResult

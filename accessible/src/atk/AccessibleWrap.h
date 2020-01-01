@@ -63,7 +63,7 @@ PROP_LAST
 struct
 AtkPropertyChange
 {
-int32_t
+PRInt32
 type
 ;
 void
@@ -127,11 +127,11 @@ aDepth
 {
 }
 static
-int32_t
+PRInt32
 mAccWrapCreated
 ;
 static
-int32_t
+PRInt32
 mAccWrapDeleted
 ;
 #
@@ -288,7 +288,7 @@ static
 EAvailableAtkSignals
 gAvailableAtkSignals
 ;
-uint16_t
+PRUint16
 CreateMaiInterfaces
 (
 void

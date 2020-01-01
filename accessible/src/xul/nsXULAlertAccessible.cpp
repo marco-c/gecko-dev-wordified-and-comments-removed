@@ -34,12 +34,12 @@ nsXULAlertAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -49,7 +49,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsXULAlertAccessible
-nsAccessible
+Accessible
 )
 role
 nsXULAlertAccessible
@@ -75,7 +75,7 @@ NativeState
 )
 {
 return
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -122,7 +122,7 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULAlertAccessible
 :

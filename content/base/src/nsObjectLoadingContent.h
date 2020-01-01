@@ -383,7 +383,6 @@ aDest
 )
 const
 ;
-static
 void
 DoStopPlugin
 (
@@ -392,6 +391,10 @@ nsPluginInstanceOwner
 aInstanceOwner
 bool
 aDelayedStop
+bool
+aForcedReentry
+=
+false
 )
 ;
 nsresult
@@ -651,6 +654,11 @@ mShouldPlay
 ;
 bool
 mActivated
+:
+1
+;
+bool
+mIsStopping
 :
 1
 ;

@@ -230,10 +230,7 @@ buf
 PRInt32
 ulen
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 text
 )

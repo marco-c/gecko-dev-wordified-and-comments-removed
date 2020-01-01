@@ -7,7 +7,7 @@ _nsXULSliderAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -22,7 +22,7 @@ class
 nsXULSliderAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -31,7 +31,7 @@ nsXULSliderAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -96,11 +96,9 @@ ActionCount
 ;
 protected
 :
-already_AddRefed
-<
 nsIContent
->
-GetSliderNode
+*
+GetSliderElement
 (
 )
 ;
@@ -152,7 +150,7 @@ private
 :
 nsCOMPtr
 <
-nsIDOMElement
+nsIContent
 >
 mSliderNode
 ;
@@ -162,7 +160,7 @@ class
 nsXULThumbAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -171,7 +169,7 @@ nsXULThumbAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

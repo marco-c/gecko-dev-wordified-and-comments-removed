@@ -31,7 +31,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -195,12 +195,12 @@ nsXULMenuitemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -218,7 +218,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -421,7 +421,7 @@ isCollapsed
 =
 false
 ;
-nsAccessible
+Accessible
 *
 parent
 =
@@ -468,7 +468,7 @@ if
 isCollapsed
 )
 {
-nsAccessible
+Accessible
 *
 grandParent
 =
@@ -750,7 +750,7 @@ modifierKey
 =
 0
 ;
-nsAccessible
+Accessible
 *
 parentAcc
 =
@@ -1567,7 +1567,7 @@ return
 false
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULMenuitemAccessible
 :
@@ -1647,7 +1647,7 @@ nsXULMenuSeparatorAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1769,7 +1769,7 @@ nsXULMenupopupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1832,7 +1832,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -1863,7 +1863,7 @@ if
 isActive
 )
 {
-nsAccessible
+Accessible
 *
 parent
 =
@@ -2081,7 +2081,7 @@ roles
 PUSHBUTTON
 )
 {
-nsAccessible
+Accessible
 *
 grandParent
 =
@@ -2202,7 +2202,7 @@ IsOpen
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULMenupopupAccessible
 :
@@ -2212,7 +2212,7 @@ ContainerWidget
 )
 const
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2236,7 +2236,7 @@ while
 menuPopupFrame
 )
 {
-nsAccessible
+Accessible
 *
 menuPopup
 =
@@ -2393,12 +2393,12 @@ nsXULMenubarAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -2416,7 +2416,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -2520,7 +2520,7 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULMenubarAccessible
 :
@@ -2593,7 +2593,7 @@ nsXULMenubarAccessible
 :
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )

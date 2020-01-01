@@ -2941,19 +2941,6 @@ aSide
 roundedWidth
 ;
 }
-inline
-const
-nsMargin
-&
-GetActualBorder
-(
-)
-const
-{
-return
-mComputedBorder
-;
-}
 const
 nsMargin
 &
@@ -2989,7 +2976,7 @@ mBorderImageSource
 ;
 }
 nscoord
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 mozilla
 :
@@ -3003,7 +2990,7 @@ aSide
 const
 {
 return
-GetActualBorder
+GetComputedBorder
 (
 )
 .

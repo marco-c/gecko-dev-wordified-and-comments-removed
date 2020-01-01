@@ -358,7 +358,7 @@ ACCESSIBILITY
 virtual
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateAccessible
 (
@@ -1003,7 +1003,7 @@ topBorder
 borderStyle
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 NS_SIDE_TOP
 )
@@ -2701,7 +2701,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsFieldSetFrame
 :

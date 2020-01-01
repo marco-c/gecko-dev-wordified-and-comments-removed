@@ -7451,6 +7451,7 @@ iniWriter
 WriteFile
 (
 NULL
+0
 )
 ;
 return

@@ -4396,6 +4396,16 @@ aContext
 =
 0
 ;
+virtual
+bool
+AllowSubpixelAA
+(
+)
+{
+return
+true
+;
+}
 bool
 IsSyntheticBold
 (

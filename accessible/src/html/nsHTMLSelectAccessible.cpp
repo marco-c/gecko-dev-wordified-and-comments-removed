@@ -31,7 +31,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -155,12 +155,12 @@ nsHTMLSelectListAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -183,7 +183,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeState
@@ -269,7 +269,7 @@ nsGkAtoms
 multiple
 )
 ?
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 SelectAll
@@ -300,7 +300,7 @@ nsGkAtoms
 multiple
 )
 ?
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 UnselectAll
@@ -357,7 +357,7 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLSelectListAccessible
 :
@@ -400,7 +400,7 @@ if
 activeOptionNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -433,7 +433,7 @@ nsHTMLSelectListAccessible
 :
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )
@@ -527,10 +527,8 @@ IsHTML
 continue
 ;
 }
-nsCOMPtr
-<
 nsIAtom
->
+*
 tag
 =
 childContent
@@ -562,7 +560,7 @@ optgroup
 {
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 accessible
 =
@@ -612,7 +610,7 @@ nsHTMLSelectOptionAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -786,14 +784,14 @@ NativeState
 PRUint64
 state
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
 (
 )
 ;
-nsAccessible
+Accessible
 *
 select
 =
@@ -988,7 +986,7 @@ states
 :
 OFFSCREEN
 ;
-nsAccessible
+Accessible
 *
 listAcc
 =
@@ -1154,7 +1152,7 @@ nsIFrame
 aBoundingFrame
 )
 {
-nsAccessible
+Accessible
 *
 combobox
 =
@@ -1329,7 +1327,7 @@ aSelect
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLSelectOptionAccessible
 :
@@ -1363,7 +1361,7 @@ nsHTMLSelectOptGroupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1488,12 +1486,12 @@ nsHTMLComboboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -1528,7 +1526,7 @@ InvalidateChildren
 (
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 InvalidateChildren
@@ -1662,7 +1660,7 @@ Shutdown
 (
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -1698,7 +1696,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -1774,7 +1772,7 @@ Truncate
 (
 )
 ;
-nsAccessible
+Accessible
 :
 :
 Description
@@ -1793,7 +1791,7 @@ IsEmpty
 )
 return
 ;
-nsAccessible
+Accessible
 *
 option
 =
@@ -1825,7 +1823,7 @@ nsString
 aValue
 )
 {
-nsAccessible
+Accessible
 *
 option
 =
@@ -2058,7 +2056,7 @@ IsDroppedDown
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLComboboxAccessible
 :
@@ -2088,7 +2086,7 @@ nsHTMLComboboxAccessible
 :
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )
@@ -2108,7 +2106,7 @@ aItem
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLComboboxAccessible
 :
@@ -2180,7 +2178,7 @@ if
 activeOptionNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2218,7 +2216,7 @@ aParent
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -2323,7 +2321,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -2397,7 +2395,7 @@ aBoundingFrame
 =
 nsnull
 ;
-nsAccessible
+Accessible
 *
 comboAcc
 =

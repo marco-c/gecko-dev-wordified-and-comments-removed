@@ -826,10 +826,10 @@ aFrom
 if
 (
 aFrom
-!
+=
 =
 "
-pseudoclass
+ruleview
 "
 )
 {

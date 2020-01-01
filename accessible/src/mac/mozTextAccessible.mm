@@ -98,7 +98,7 @@ MPL
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -323,7 +323,7 @@ id
 initWithAccessible
 :
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 )
 accessible

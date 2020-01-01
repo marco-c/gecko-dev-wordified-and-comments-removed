@@ -322,10 +322,7 @@ docTitles
 [
 0
 ]
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 docTitles
 [

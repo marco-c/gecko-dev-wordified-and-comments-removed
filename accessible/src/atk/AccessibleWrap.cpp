@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsIAccessibleTable
-.
-h
-"
-#
-include
-"
 RootAccessible
 .
 h
@@ -467,12 +460,12 @@ LAST_SIGNAL
 #
 ifdef
 MAI_LOGGING
-int32_t
+PRInt32
 sMaiAtkObjCreated
 =
 0
 ;
-int32_t
+PRInt32
 sMaiAtkObjDeleted
 =
 0
@@ -614,7 +607,7 @@ static
 GType
 GetMaiAtkType
 (
-uint16_t
+PRUint16
 interfacesBits
 )
 ;
@@ -624,7 +617,7 @@ char
 *
 GetUniqueMaiAtkTypeName
 (
-uint16_t
+PRUint16
 interfacesBits
 )
 ;
@@ -730,7 +723,7 @@ type
 #
 ifdef
 MAI_LOGGING
-int32_t
+PRInt32
 AccessibleWrap
 :
 :
@@ -738,7 +731,7 @@ mAccWrapCreated
 =
 0
 ;
-int32_t
+PRInt32
 AccessibleWrap
 :
 :
@@ -768,7 +761,7 @@ aDoc
 )
 mAtkObject
 (
-nullptr
+nsnull
 )
 {
 #
@@ -918,12 +911,12 @@ mAtkObject
 >
 accWrap
 =
-nullptr
+nsnull
 ;
 }
 SetMaiHyperlink
 (
-nullptr
+nsnull
 )
 ;
 g_object_unref
@@ -933,7 +926,7 @@ mAtkObject
 ;
 mAtkObject
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -998,7 +991,7 @@ MaiHyperlink
 *
 maiHyperlink
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1150,7 +1143,7 @@ aOutAccessible
 *
 aOutAccessible
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1260,7 +1253,7 @@ void
 *
 atkObj
 =
-nullptr
+nsnull
 ;
 GetNativeInterface
 (
@@ -1295,7 +1288,7 @@ void
 *
 atkObjPtr
 =
-nullptr
+nsnull
 ;
 acc
 -
@@ -1314,10 +1307,10 @@ ATK_OBJECT
 atkObjPtr
 )
 :
-nullptr
+nsnull
 ;
 }
-uint16_t
+PRUint16
 AccessibleWrap
 :
 :
@@ -1326,7 +1319,7 @@ CreateMaiInterfaces
 void
 )
 {
-uint16_t
+PRUint16
 interfacesBits
 =
 0
@@ -1355,7 +1348,7 @@ interfacesBits
 <
 MAI_INTERFACE_ACTION
 ;
-HyperTextAccessible
+nsHyperTextAccessible
 *
 hyperText
 =
@@ -1555,7 +1548,7 @@ static
 GType
 GetMaiAtkType
 (
-uint16_t
+PRUint16
 interfacesBits
 )
 {
@@ -1628,7 +1621,7 @@ type
 ;
 }
 static
-uint16_t
+PRUint16
 typeRegCount
 =
 0
@@ -1663,7 +1656,7 @@ GTypeFlags
 ;
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -1721,7 +1714,7 @@ char
 *
 GetUniqueMaiAtkTypeName
 (
-uint16_t
+PRUint16
 interfacesBits
 )
 {
@@ -1737,7 +1730,7 @@ MAI_ATK_TYPE_NAME_LEN
 +
 sizeof
 (
-uint16_t
+PRUint16
 )
 *
 8
@@ -2268,7 +2261,7 @@ aObj
 accWrap
 =
 =
-nullptr
+nsnull
 "
 AccWrap
 NOT
@@ -2367,7 +2360,7 @@ if
 accWrap
 )
 return
-nullptr
+nsnull
 ;
 nsAutoString
 uniName
@@ -2452,7 +2445,7 @@ IsDefunct
 )
 )
 return
-nullptr
+nsnull
 ;
 nsAutoString
 uniDesc
@@ -2578,10 +2571,8 @@ geckoRole
 stringRole
 atkRole
 macRole
-\
 msaaRole
 ia2Role
-nameRule
 )
 \
 case
@@ -2663,13 +2654,13 @@ if
 aAttributes
 )
 return
-nullptr
+nsnull
 ;
 AtkAttributeSet
 *
 objAttributeSet
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -2694,7 +2685,7 @@ propEnum
 NS_ENSURE_SUCCESS
 (
 rv
-nullptr
+nsnull
 )
 ;
 bool
@@ -2761,7 +2752,7 @@ propElem
 objAttributeSet
 )
 ;
-nsAutoCString
+nsCAutoString
 name
 ;
 rv
@@ -2937,7 +2928,7 @@ attributes
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 AtkAttributeSet
@@ -2966,7 +2957,7 @@ GetAttributeSet
 accWrap
 )
 :
-nullptr
+nsnull
 ;
 }
 AtkObject
@@ -3002,7 +2993,7 @@ if
 accWrap
 )
 return
-nullptr
+nsnull
 ;
 Accessible
 *
@@ -3021,7 +3012,7 @@ if
 accParent
 )
 return
-nullptr
+nsnull
 ;
 AtkObject
 *
@@ -3123,7 +3114,7 @@ aChildIndex
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 AccessibleWrap
@@ -3151,7 +3142,7 @@ accWrap
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 Accessible
@@ -3172,7 +3163,7 @@ if
 accChild
 )
 return
-nullptr
+nsnull
 ;
 AtkObject
 *
@@ -3203,7 +3194,7 @@ if
 childAtkObj
 )
 return
-nullptr
+nsnull
 ;
 g_object_ref
 (
@@ -3292,19 +3283,19 @@ static
 void
 TranslateStates
 (
-uint64_t
+PRUint64
 aState
 AtkStateSet
 *
 aStateSet
 )
 {
-uint32_t
+PRUint32
 stateIndex
 =
 0
 ;
-uint64_t
+PRUint64
 bitMask
 =
 1
@@ -3406,7 +3397,7 @@ AtkStateSet
 *
 state_set
 =
-nullptr
+nsnull
 ;
 state_set
 =
@@ -3505,7 +3496,7 @@ accWrap
 return
 relation_set
 ;
-uint32_t
+PRUint32
 relationTypes
 [
 ]
@@ -3555,7 +3546,7 @@ RELATION_DESCRIPTION_FOR
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -3632,7 +3623,7 @@ Accessible
 *
 tempAcc
 =
-nullptr
+nsnull
 ;
 while
 (
@@ -3717,7 +3708,7 @@ IS_MAI_OBJECT
 (
 aAtkObj
 )
-nullptr
+nsnull
 )
 ;
 AccessibleWrap
@@ -3738,7 +3729,7 @@ if
 accWrap
 )
 return
-nullptr
+nsnull
 ;
 NS_ENSURE_TRUE
 (
@@ -3751,7 +3742,7 @@ GetAtkObject
 =
 =
 aAtkObj
-nullptr
+nsnull
 )
 ;
 AccessibleWrap
@@ -3782,7 +3773,7 @@ IsValidObject
 )
 )
 return
-nullptr
+nsnull
 ;
 return
 accWrap
@@ -3851,7 +3842,7 @@ accessible
 NS_ERROR_FAILURE
 )
 ;
-uint32_t
+PRUint32
 type
 =
 aEvent
@@ -4350,7 +4341,7 @@ caretMoveEvent
 )
 break
 ;
-int32_t
+PRInt32
 caretOffset
 =
 caretMoveEvent
@@ -4495,7 +4486,7 @@ tableEvent
 NS_ERROR_FAILURE
 )
 ;
-int32_t
+PRInt32
 rowIndex
 =
 tableEvent
@@ -4505,7 +4496,7 @@ GetIndex
 (
 )
 ;
-int32_t
+PRInt32
 numRows
 =
 tableEvent
@@ -4566,7 +4557,7 @@ tableEvent
 NS_ERROR_FAILURE
 )
 ;
-int32_t
+PRInt32
 rowIndex
 =
 tableEvent
@@ -4576,7 +4567,7 @@ GetIndex
 (
 )
 ;
-int32_t
+PRInt32
 numRows
 =
 tableEvent
@@ -4671,7 +4662,7 @@ tableEvent
 NS_ERROR_FAILURE
 )
 ;
-int32_t
+PRInt32
 colIndex
 =
 tableEvent
@@ -4681,7 +4672,7 @@ GetIndex
 (
 )
 ;
-int32_t
+PRInt32
 numCols
 =
 tableEvent
@@ -4742,7 +4733,7 @@ tableEvent
 NS_ERROR_FAILURE
 )
 ;
-int32_t
+PRInt32
 colIndex
 =
 tableEvent
@@ -4752,7 +4743,7 @@ GetIndex
 (
 )
 ;
-int32_t
+PRInt32
 numCols
 =
 tableEvent
@@ -5411,7 +5402,7 @@ IsStateEnabled
 (
 )
 ;
-int32_t
+PRInt32
 stateIndex
 =
 AtkStateMap
@@ -5571,7 +5562,7 @@ event
 NS_ERROR_FAILURE
 )
 ;
-int32_t
+PRInt32
 start
 =
 event
@@ -5581,7 +5572,7 @@ GetStartOffset
 (
 )
 ;
-uint32_t
+PRUint32
 length
 =
 event
@@ -5615,7 +5606,7 @@ char
 *
 signal_name
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -5816,7 +5807,7 @@ n
 )
 ;
 }
-int32_t
+PRInt32
 indexInParent
 =
 getIndexInParentCB

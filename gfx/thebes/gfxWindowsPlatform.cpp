@@ -2023,7 +2023,7 @@ CheckInterfaceSupport
 (
 __uuidof
 (
-ID3D10Device1
+ID3D10Device
 )
 nsnull
 )
@@ -2036,9 +2036,7 @@ hr
 )
 )
 {
-adapter1
-=
-nsnull
+return
 ;
 }
 }
@@ -2514,10 +2512,7 @@ new
 gfxWindowsSurface
 (
 size
-gfxASurface
-:
-:
-FormatFromContent
+OptimalFormatForContent
 (
 contentType
 )
@@ -2541,10 +2536,7 @@ new
 gfxD2DSurface
 (
 size
-gfxASurface
-:
-:
-FormatFromContent
+OptimalFormatForContent
 (
 contentType
 )
@@ -2565,10 +2557,7 @@ new
 gfxImageSurface
 (
 size
-gfxASurface
-:
-:
-FormatFromContent
+OptimalFormatForContent
 (
 contentType
 )

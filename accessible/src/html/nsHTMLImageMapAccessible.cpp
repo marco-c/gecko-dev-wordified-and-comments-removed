@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -97,7 +97,7 @@ nsHTMLImageMapAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -143,12 +143,12 @@ AnchorCount
 )
 {
 return
-GetChildCount
+ChildCount
 (
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLImageMapAccessible
 :
@@ -179,7 +179,7 @@ PRUint32
 aAnchorIndex
 )
 {
-nsAccessible
+Accessible
 *
 area
 =
@@ -290,7 +290,7 @@ childIdx
 -
 )
 {
-nsAccessible
+Accessible
 *
 area
 =
@@ -397,7 +397,7 @@ GetAreaAt
 idx
 )
 ;
-nsAccessible
+Accessible
 *
 area
 =
@@ -427,7 +427,7 @@ areaContent
 {
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 area
 =
@@ -570,7 +570,7 @@ nsHTMLAreaAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -596,7 +596,7 @@ aName
 nsresult
 rv
 =
-nsAccessible
+Accessible
 :
 :
 GetNameInternal
@@ -703,7 +703,7 @@ return
 false
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLAreaAccessible
 :

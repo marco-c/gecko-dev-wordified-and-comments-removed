@@ -60,6 +60,13 @@ nsRect
 .
 h
 "
+#
+include
+"
+nsSVGUtils
+.
+h
+"
 class
 nsFrameList
 ;

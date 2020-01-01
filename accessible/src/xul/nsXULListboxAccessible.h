@@ -57,19 +57,19 @@ class
 nsIWeakReference
 ;
 class
-nsXULColumnsAccessible
+nsXULColumAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
-nsXULColumnsAccessible
+nsXULColumAccessible
 (
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -107,7 +107,7 @@ nsXULColumnItemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -187,7 +187,7 @@ nsXULListboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -214,7 +214,7 @@ RowCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 CellAt
 (
@@ -304,7 +304,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -341,7 +341,7 @@ nsXULListitemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -406,7 +406,7 @@ CanHaveAnonChildren
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -415,7 +415,7 @@ const
 ;
 protected
 :
-nsAccessible
+Accessible
 *
 GetListAccessible
 (
@@ -443,7 +443,7 @@ nsXULListCellAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

@@ -161,7 +161,7 @@ nsAccessNodeWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -496,7 +496,7 @@ typeContent
 return
 E_NOINTERFACE
 ;
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -1741,7 +1741,7 @@ iNode
 =
 NULL
 ;
-nsAccessible
+Accessible
 *
 acc
 =
@@ -2737,7 +2737,7 @@ nsPtrHashKey
 <
 void
 >
-nsDocAccessible
+DocAccessible
 >
 nsAccessNodeWrap
 :
@@ -2778,7 +2778,7 @@ lParam
 OBJID_CLIENT
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =

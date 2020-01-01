@@ -3839,10 +3839,15 @@ gfxASurface
 gfxImageFormat
 imageFormat
 =
-gfxASurface
+gfxPlatform
 :
 :
-FormatFromContent
+GetPlatform
+(
+)
+-
+>
+OptimalFormatForContent
 (
 aContentType
 )

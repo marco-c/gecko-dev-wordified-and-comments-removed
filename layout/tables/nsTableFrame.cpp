@@ -11086,7 +11086,7 @@ aBorderPadding
 border
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;
@@ -21000,7 +21000,7 @@ width
 styleData
 -
 >
-GetActualBorderWidth
+GetComputedBorderWidth
 (
 aSide
 )

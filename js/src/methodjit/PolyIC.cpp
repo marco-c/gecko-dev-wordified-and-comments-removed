@@ -3772,7 +3772,7 @@ JSObject
 *
 obj
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 ;
 IC
@@ -3863,7 +3863,7 @@ monitor
 cx
 )
 ;
-RootedVarObject
+RootedObject
 scopeChain
 (
 cx
@@ -8338,10 +8338,10 @@ Jump
 >
 JumpList
 ;
-RootedVarObject
+RootedObject
 scopeChain
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 ;
 GetPropHelper
@@ -10489,10 +10489,10 @@ BindNameCompiler
 public
 PICStubCompiler
 {
-RootedVarObject
+RootedObject
 scopeChain
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 ;
 public
@@ -15028,7 +15028,7 @@ obj
 getGeneric
 (
 cx
-RootedVarId
+RootedId
 (
 cx
 id
@@ -15254,7 +15254,7 @@ monitor
 cx
 )
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -15486,7 +15486,7 @@ obj
 getGeneric
 (
 cx
-RootedVarId
+RootedId
 (
 cx
 id

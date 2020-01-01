@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -83,7 +83,7 @@ nsAccTreeWalker
 :
 nsAccTreeWalker
 (
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsIContent
@@ -185,7 +185,7 @@ nsAccTreeWalker
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsAccTreeWalker
 :
@@ -299,7 +299,7 @@ isSubtreeHidden
 =
 false
 ;
-nsAccessible
+Accessible
 *
 accessible
 =

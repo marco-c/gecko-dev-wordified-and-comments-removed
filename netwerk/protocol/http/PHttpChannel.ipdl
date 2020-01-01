@@ -346,6 +346,8 @@ nsCString
 appCacheClientID
 bool
 allowSpdy
+bool
+usePrivateBrowsing
 )
 ;
 /

@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsDocAccessibleWrap
+DocAccessibleWrap
 .
 h
 "
@@ -62,7 +62,7 @@ class
 RootAccessible
 :
 public
-nsDocAccessibleWrap
+DocAccessibleWrap
 public
 nsIDOMEventListener
 {
@@ -153,7 +153,7 @@ virtual
 void
 DocumentActivated
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -183,7 +183,7 @@ aEvent
 void
 HandlePopupShownEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -247,7 +247,7 @@ a11y
 :
 RootAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsRoot

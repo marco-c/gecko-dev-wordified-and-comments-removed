@@ -152,5 +152,13 @@ DOMExceptionCode
 )
 DEPRECATED_OPERATION
 (
+NoExposedProps
+)
+DEPRECATED_OPERATION
+(
 MutationEvent
+)
+DEPRECATED_OPERATION
+(
+MozSlice
 )

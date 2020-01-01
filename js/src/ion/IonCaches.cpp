@@ -1335,7 +1335,7 @@ toGetProperty
 (
 )
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -1364,7 +1364,7 @@ script
 pc
 )
 ;
-RootedVarObject
+RootedObject
 objRoot
 (
 cx
@@ -1471,7 +1471,7 @@ false
 ;
 }
 }
-RootedVarId
+RootedId
 id
 (
 cx
@@ -2864,7 +2864,7 @@ toSetProperty
 (
 )
 ;
-RootedVarPropertyName
+RootedPropertyName
 name
 (
 cx
@@ -3823,7 +3823,7 @@ res
 script
 )
 ;
-RootedVarId
+RootedId
 id
 (
 cx

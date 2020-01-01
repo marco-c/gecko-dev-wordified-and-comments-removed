@@ -33,13 +33,6 @@ c
 #
 include
 "
-nsCoreUtils
-.
-h
-"
-#
-include
-"
 nsIAccessibilityService
 .
 h
@@ -83,6 +76,13 @@ h
 include
 "
 nsIDocShellTreeNode
+.
+h
+"
+#
+include
+"
+nsIFrame
 .
 h
 "
@@ -243,7 +243,7 @@ IID_ISimpleDOMDocument
 iid
 )
 return
-HyperTextAccessibleWrap
+nsHyperTextAccessibleWrap
 :
 :
 QueryInterface
@@ -990,7 +990,7 @@ mHWND
 }
 mHWND
 =
-nullptr
+nsnull
 ;
 }
 DocAccessible
@@ -1103,7 +1103,7 @@ mozilla
 WindowsHandle
 nativeData
 =
-NULL
+nsnull
 ;
 if
 (
@@ -1142,7 +1142,7 @@ isActive
 =
 true
 ;
-int32_t
+PRInt32
 x
 =
 CW_USEDEFAULT
@@ -1178,7 +1178,7 @@ width
 height
 )
 ;
-int32_t
+PRInt32
 rootX
 =
 0

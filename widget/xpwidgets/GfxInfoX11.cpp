@@ -499,6 +499,7 @@ mHasTextureFromPixmap
 =
 true
 ;
+struct
 utsname
 unameobj
 ;

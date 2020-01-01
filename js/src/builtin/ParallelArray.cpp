@@ -202,7 +202,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -347,7 +347,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 buffer
 (
 cx
@@ -376,7 +376,7 @@ length
 0
 )
 ;
-RootedVarObject
+RootedObject
 srcBuffer
 (
 cx
@@ -424,7 +424,7 @@ extrasc
 args
 )
 ;
-RootedVarObject
+RootedObject
 extra
 (
 cx
@@ -574,7 +574,7 @@ rval
 )
 ;
 }
-RootedVarObject
+RootedObject
 result
 (
 cx
@@ -699,7 +699,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 src
 (
 cx
@@ -733,7 +733,7 @@ srcLen
 return
 false
 ;
-RootedVarObject
+RootedObject
 buffer
 (
 cx
@@ -861,7 +861,7 @@ elem
 )
 ;
 }
-RootedVarObject
+RootedObject
 result
 (
 cx
@@ -917,7 +917,7 @@ length
 return
 false
 ;
-RootedVarObject
+RootedObject
 elementalFun
 (
 cx
@@ -1056,7 +1056,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1129,7 +1129,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 elementalFun
 (
 cx
@@ -1372,7 +1372,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1453,13 +1453,13 @@ GetLength
 obj
 )
 ;
-RootedVarObject
+RootedObject
 result
 (
 cx
 )
 ;
-RootedVarObject
+RootedObject
 resBuffer
 (
 cx
@@ -1514,7 +1514,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 elementalFun
 (
 cx
@@ -1570,7 +1570,7 @@ return
 true
 ;
 }
-RootedVarObject
+RootedObject
 buffer
 (
 cx
@@ -1769,7 +1769,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1828,7 +1828,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 elementalFun
 (
 cx
@@ -1852,7 +1852,7 @@ elementalFun
 return
 false
 ;
-RootedVarObject
+RootedObject
 buffer
 (
 cx
@@ -1870,7 +1870,7 @@ GetLength
 obj
 )
 ;
-RootedVarObject
+RootedObject
 resBuffer
 (
 cx
@@ -2020,7 +2020,7 @@ cx
 pos
 )
 ;
-RootedVarObject
+RootedObject
 result
 (
 cx
@@ -2082,7 +2082,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -2109,7 +2109,7 @@ obj
 return
 ok
 ;
-RootedVarObject
+RootedObject
 buffer
 (
 cx
@@ -2176,7 +2176,7 @@ return
 false
 ;
 }
-RootedVarObject
+RootedObject
 targets
 (
 cx
@@ -2230,7 +2230,7 @@ return
 false
 ;
 }
-RootedVarValue
+RootedValue
 defValue
 (
 cx
@@ -2257,7 +2257,7 @@ args
 1
 ]
 ;
-RootedVarObject
+RootedObject
 conflictFun
 (
 cx
@@ -2353,7 +2353,7 @@ obj
 )
 ;
 }
-RootedVarObject
+RootedObject
 resBuffer
 (
 cx
@@ -2398,7 +2398,7 @@ i
 +
 )
 {
-RootedVarValue
+RootedValue
 elem
 (
 cx
@@ -2462,7 +2462,7 @@ return
 false
 ;
 }
-RootedVarValue
+RootedValue
 readV
 (
 cx
@@ -2475,7 +2475,7 @@ i
 )
 )
 ;
-RootedVarValue
+RootedValue
 previous
 (
 cx
@@ -2656,7 +2656,7 @@ defValue
 )
 ;
 }
-RootedVarObject
+RootedObject
 result
 (
 cx
@@ -2722,7 +2722,7 @@ vp
 bool
 ok
 ;
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -2746,13 +2746,13 @@ obj
 return
 ok
 ;
-RootedVarValue
+RootedValue
 callable
 (
 cx
 )
 ;
-RootedVarObject
+RootedObject
 buffer
 (
 cx
@@ -2781,7 +2781,7 @@ address
 return
 false
 ;
-RootedVarValue
+RootedValue
 rval
 (
 cx
@@ -2833,7 +2833,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -2881,7 +2881,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -2929,7 +2929,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3134,7 +3134,7 @@ JSProperty
 propp
 )
 {
-RootedVarObject
+RootedObject
 buffer
 (
 cx
@@ -3187,7 +3187,7 @@ return
 true
 ;
 }
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -3250,7 +3250,7 @@ JSProperty
 propp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3384,7 +3384,7 @@ JSProperty
 propp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3455,7 +3455,7 @@ return
 true
 ;
 }
-RootedVarObject
+RootedObject
 buffer
 (
 cx
@@ -3486,7 +3486,7 @@ id
 vp
 )
 ;
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -3543,7 +3543,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3582,7 +3582,7 @@ Value
 vp
 )
 {
-RootedVarObject
+RootedObject
 buffer
 (
 cx
@@ -3616,7 +3616,7 @@ return
 true
 ;
 }
-RootedVarObject
+RootedObject
 proto
 (
 cx
@@ -3673,7 +3673,7 @@ Value
 vp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3752,7 +3752,7 @@ unsigned
 attrs
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3833,7 +3833,7 @@ unsigned
 attrs
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3904,7 +3904,7 @@ JSBool
 strict
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -3973,7 +3973,7 @@ JSBool
 strict
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -4067,7 +4067,7 @@ unsigned
 attrsp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -4132,7 +4132,7 @@ unsigned
 attrsp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -4196,7 +4196,7 @@ unsigned
 attrsp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -4260,7 +4260,7 @@ unsigned
 attrsp
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -4328,7 +4328,7 @@ JSBool
 strict
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -4397,7 +4397,7 @@ JSBool
 strict
 )
 {
-RootedVarId
+RootedId
 id
 (
 cx
@@ -4910,7 +4910,7 @@ asGlobal
 (
 )
 ;
-RootedVarObject
+RootedObject
 parallelArrayProto
 (
 cx
@@ -4967,7 +4967,7 @@ JSPROP_READONLY
 0
 )
 ;
-RootedVarFunction
+RootedFunction
 ctor
 (
 cx

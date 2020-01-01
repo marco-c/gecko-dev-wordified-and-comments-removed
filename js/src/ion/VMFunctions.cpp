@@ -264,7 +264,7 @@ HandleObject
 scopeChain
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -321,7 +321,7 @@ rval
 =
 value
 ;
-RootedVarId
+RootedId
 id
 (
 cx
@@ -948,7 +948,7 @@ TypeObject
 type
 )
 {
-RootedVarObject
+RootedObject
 obj
 (
 cx
@@ -1333,7 +1333,7 @@ v
 =
 value
 ;
-RootedVarId
+RootedId
 id
 (
 cx

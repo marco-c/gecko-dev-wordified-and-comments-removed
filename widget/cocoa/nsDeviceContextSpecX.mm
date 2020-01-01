@@ -332,10 +332,7 @@ CFStringCreateWithCharacters
 (
 NULL
 aTitle
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aTitle
 )

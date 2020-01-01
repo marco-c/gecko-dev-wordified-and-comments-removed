@@ -6585,6 +6585,12 @@ key
 =
 =
 JSProto_Uint8ClampedArray
+|
+|
+key
+=
+=
+JSProto_DataView
 )
 ;
 flags
@@ -7062,11 +7068,10 @@ hasScope
 js
 :
 :
-RootObject
-objRoot
+RootedObject
+scopeRoot
 (
 cx
-&
 scope
 )
 ;
@@ -7091,6 +7096,10 @@ scope
 )
 return
 false
+;
+scope
+=
+scopeRoot
 ;
 }
 if

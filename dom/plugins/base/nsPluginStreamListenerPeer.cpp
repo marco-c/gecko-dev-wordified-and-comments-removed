@@ -1194,7 +1194,7 @@ mPStreamListener
 >
 SetStreamListenerPeer
 (
-this
+nsnull
 )
 ;
 }

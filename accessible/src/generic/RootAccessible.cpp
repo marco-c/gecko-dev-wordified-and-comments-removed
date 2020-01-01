@@ -330,7 +330,7 @@ a11y
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 RootAccessible
-nsDocAccessible
+DocAccessible
 nsIAccessibleDocument
 )
 RootAccessible
@@ -349,7 +349,7 @@ nsIPresShell
 aPresShell
 )
 :
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 aDocument
 aRootContent
@@ -393,7 +393,7 @@ if
 mRoleMapEntry
 )
 {
-nsAccessible
+Accessible
 :
 :
 Name
@@ -506,7 +506,7 @@ roles
 DIALOG
 ;
 return
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 NativeRole
@@ -619,7 +619,7 @@ NativeState
 PRUint64
 state
 =
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 NativeState
@@ -905,7 +905,7 @@ this
 ;
 }
 return
-nsDocAccessible
+DocAccessible
 :
 :
 AddEventListeners
@@ -992,7 +992,7 @@ rv
 ;
 }
 }
-nsDocAccessible
+DocAccessible
 :
 :
 RemoveEventListeners
@@ -1039,7 +1039,7 @@ RootAccessible
 :
 DocumentActivated
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -1105,7 +1105,7 @@ origTargetNode
 return
 NS_OK
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -1364,7 +1364,7 @@ origTargetNode
 return
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 targetDocument
 =
@@ -1399,7 +1399,7 @@ document
 "
 )
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1652,7 +1652,7 @@ accEvent
 return
 ;
 }
-nsAccessible
+Accessible
 *
 treeItemAcc
 =
@@ -2000,7 +2000,7 @@ DOMMenuItemInactive
 )
 )
 {
-nsAccessible
+Accessible
 *
 widget
 =
@@ -2078,7 +2078,7 @@ accessible
 eFromUserInput
 )
 ;
-nsAccessible
+Accessible
 *
 activeItem
 =
@@ -2236,7 +2236,7 @@ PresShell
 )
 return
 ;
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 Shutdown
@@ -2269,7 +2269,7 @@ nsIAccessibleRelation
 RELATION_EMBEDS
 )
 return
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 RelationByType
@@ -2348,7 +2348,7 @@ if
 contentDocumentNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 contentDocument
 =
@@ -2387,7 +2387,7 @@ RootAccessible
 :
 HandlePopupShownEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -2468,7 +2468,7 @@ roles
 COMBOBOX_LIST
 )
 {
-nsAccessible
+Accessible
 *
 combobox
 =
@@ -2562,7 +2562,7 @@ nsINode
 aPopupNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2581,7 +2581,7 @@ document
 )
 return
 ;
-nsAccessible
+Accessible
 *
 popup
 =
@@ -2599,7 +2599,7 @@ if
 popup
 )
 {
-nsAccessible
+Accessible
 *
 popupContainer
 =
@@ -2618,19 +2618,19 @@ popupContainer
 )
 return
 ;
-PRInt32
+PRUint32
 childCount
 =
 popupContainer
 -
 >
-GetChildCount
+ChildCount
 (
 )
 ;
 for
 (
-PRInt32
+PRUint32
 idx
 =
 0
@@ -2644,7 +2644,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -2701,7 +2701,7 @@ notifyOf
 =
 0
 ;
-nsAccessible
+Accessible
 *
 widget
 =
@@ -2822,7 +2822,7 @@ IsMenuButton
 )
 )
 {
-nsAccessible
+Accessible
 *
 compositeWidget
 =

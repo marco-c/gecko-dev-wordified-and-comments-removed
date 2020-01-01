@@ -38,7 +38,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -85,12 +85,12 @@ nsXULColorPickerTileAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -154,7 +154,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeState
@@ -212,7 +212,7 @@ return
 state
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULColorPickerTileAccessible
 :
@@ -222,7 +222,7 @@ ContainerWidget
 )
 const
 {
-nsAccessible
+Accessible
 *
 parent
 =
@@ -235,7 +235,7 @@ if
 parent
 )
 {
-nsAccessible
+Accessible
 *
 grandParent
 =
@@ -274,7 +274,7 @@ nsXULColorPickerAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -302,7 +302,7 @@ NativeState
 PRUint64
 states
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeState
@@ -384,7 +384,7 @@ AreItemsOperable
 )
 const
 {
-nsAccessible
+Accessible
 *
 menuPopup
 =
@@ -452,7 +452,7 @@ mContent
 true
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =

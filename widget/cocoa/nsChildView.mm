@@ -10832,7 +10832,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsChildView
 :
@@ -10841,7 +10841,7 @@ GetDocumentAccessible
 (
 )
 {
-nsAccessible
+Accessible
 *
 docAccessible
 =
@@ -28368,7 +28368,7 @@ mGeckoChild
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 accessible
 =

@@ -263,6 +263,11 @@ GetPresShell
 (
 )
 ;
+bool
+IsFileControlTextBox
+(
+)
+;
 protected
 :
 nsEditor

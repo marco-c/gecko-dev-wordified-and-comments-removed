@@ -85,6 +85,7 @@ nsPlaintextEditor
 nsEditor
 )
 enum
+ETypingAction
 {
 eTypedText
 eTypedBR
@@ -371,7 +372,7 @@ const
 nsAString
 &
 aString
-PRInt32
+ETypingAction
 aAction
 )
 ;

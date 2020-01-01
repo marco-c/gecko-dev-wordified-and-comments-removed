@@ -11126,6 +11126,14 @@ else
 #
 ifdef
 MOZ_XUL
+if
+(
+aType
+!
+=
+MOVEFOCUS_CARET
+)
+{
 nsXULPopupManager
 *
 pm
@@ -11151,6 +11159,7 @@ GetTopPopup
 ePopupTypePanel
 )
 ;
+}
 #
 endif
 if

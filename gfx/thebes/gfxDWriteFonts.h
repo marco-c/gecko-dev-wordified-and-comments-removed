@@ -116,6 +116,16 @@ aContext
 ;
 virtual
 bool
+AllowSubpixelAA
+(
+)
+{
+return
+mAllowManualShowGlyphs
+;
+}
+virtual
+bool
 IsValid
 (
 )

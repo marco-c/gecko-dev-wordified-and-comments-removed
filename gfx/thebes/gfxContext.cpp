@@ -7476,7 +7476,15 @@ mDT
 GetSize
 (
 )
-FormatForContent
+gfxPlatform
+:
+:
+GetPlatform
+(
+)
+-
+>
+Optimal2DFormatForContent
 (
 content
 )

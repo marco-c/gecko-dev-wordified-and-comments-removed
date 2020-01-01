@@ -28,14 +28,7 @@ h
 #
 include
 "
-nsDocAccessible
-.
-h
-"
-#
-include
-"
-nsIDOMDocumentXBL
+DocAccessible
 .
 h
 "
@@ -52,7 +45,7 @@ AccIterable
 {
 }
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -91,7 +84,7 @@ eTreeNav
 ;
 AccIterator
 (
-nsAccessible
+Accessible
 *
 aRoot
 filters
@@ -112,7 +105,7 @@ AccIterator
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -146,7 +139,7 @@ IteratorState
 {
 IteratorState
 (
-nsAccessible
+Accessible
 *
 aParent
 IteratorState
@@ -156,7 +149,7 @@ mParentState
 nsnull
 )
 ;
-nsAccessible
+Accessible
 *
 mParent
 ;
@@ -194,7 +187,7 @@ public
 :
 RelatedAccIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -213,7 +206,7 @@ RelatedAccIterator
 {
 }
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -242,7 +235,7 @@ RelatedAccIterator
 &
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 mDocument
 ;
@@ -250,7 +243,7 @@ nsIAtom
 *
 mRelAttr
 ;
-nsDocAccessible
+DocAccessible
 :
 :
 AttrRelProviderArray
@@ -283,11 +276,11 @@ eSkipAncestorLabel
 ;
 HTMLLabelIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 const
-nsAccessible
+Accessible
 *
 aAccessible
 LabelFilter
@@ -304,7 +297,7 @@ HTMLLabelIterator
 {
 }
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -337,7 +330,7 @@ RelatedAccIterator
 mRelIter
 ;
 const
-nsAccessible
+Accessible
 *
 mAcc
 ;
@@ -356,7 +349,7 @@ public
 :
 HTMLOutputIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -372,7 +365,7 @@ HTMLOutputIterator
 {
 }
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -416,7 +409,7 @@ public
 :
 XULLabelIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -432,7 +425,7 @@ XULLabelIterator
 {
 }
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -476,7 +469,7 @@ public
 :
 XULDescriptionIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -492,7 +485,7 @@ XULDescriptionIterator
 {
 }
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -536,7 +529,7 @@ public
 :
 IDRefsIterator
 (
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsIContent
@@ -577,7 +570,7 @@ aID
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -612,7 +605,7 @@ nsIContent
 *
 mContent
 ;
-nsDocAccessible
+DocAccessible
 *
 mDoc
 ;
@@ -634,7 +627,7 @@ public
 :
 SingleAccIterator
 (
-nsAccessible
+Accessible
 *
 aTarget
 )
@@ -653,7 +646,7 @@ SingleAccIterator
 {
 }
 virtual
-nsAccessible
+Accessible
 *
 Next
 (
@@ -684,7 +677,7 @@ SingleAccIterator
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mAcc
 ;

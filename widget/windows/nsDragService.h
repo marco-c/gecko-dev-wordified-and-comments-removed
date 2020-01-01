@@ -167,10 +167,6 @@ SHDRAGIMAGE
 psdi
 )
 ;
-nsNativeDragTarget
-*
-mNativeDragTarget
-;
 IDataObject
 *
 mDataObject

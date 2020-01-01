@@ -731,7 +731,7 @@ ACCESSIBILITY
 virtual
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateAccessible
 (
@@ -1349,6 +1349,13 @@ nsTextFrame
 eInflated
 )
 ;
+if
+(
+HasFontSizeInflation
+(
+)
+)
+{
 ClearTextRun
 (
 nsnull
@@ -1358,6 +1365,7 @@ nsTextFrame
 eNotInflated
 )
 ;
+}
 }
 struct
 TrimmedOffsets

@@ -36,7 +36,7 @@ nsHTMLImageAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -146,7 +146,7 @@ aIndex
 inline
 nsHTMLImageAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsImage

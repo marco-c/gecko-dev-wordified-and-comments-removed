@@ -1061,7 +1061,7 @@ stderr
 freopen
 (
 "
-CONERR
+CONOUT
 "
 "
 w
@@ -1103,8 +1103,6 @@ r
 "
 stdin
 )
-;
-return
 ;
 }
 for
