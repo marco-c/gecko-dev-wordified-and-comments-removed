@@ -4379,12 +4379,12 @@ void
 >
 :
 :
-iterator
+reverse_iterator
 it
 =
 fini_array
 .
-begin
+rbegin
 (
 )
 ;
@@ -4392,7 +4392,7 @@ it
 <
 fini_array
 .
-end
+rend
 (
 )
 ;
