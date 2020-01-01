@@ -824,6 +824,14 @@ test_bug481335
 .
 xhtml
 \
+test_bug514856
+.
+html
+\
+bug514856_iframe
+.
+html
+\
 (
 NULL
 )
