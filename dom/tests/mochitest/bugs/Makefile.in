@@ -852,10 +852,6 @@ test_bug684544
 .
 html
 \
-test_bug696489
-.
-html
-\
 test_bug698551
 .
 html
