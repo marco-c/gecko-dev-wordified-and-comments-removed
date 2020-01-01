@@ -318,7 +318,7 @@ uint8_t
 uint8_t
 JS_GetUint8ClampedArrayData
 JS_GetTypedArrayLength
-JS_NewUint8Array
+JS_NewUint8ClampedArray
 >
 Uint8ClampedArray
 ;
