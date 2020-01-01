@@ -2591,6 +2591,9 @@ GetInstance
 ;
 if
 (
+dragService
+&
+&
 this
 =
 =
