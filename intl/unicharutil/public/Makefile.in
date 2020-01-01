@@ -422,10 +422,6 @@ nsICaseConversion
 .
 h
 \
-nsIOrderIdFormater
-.
-h
-\
 nsITextTransform
 .
 h
