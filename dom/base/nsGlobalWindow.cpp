@@ -2213,7 +2213,7 @@ event
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+NPERR_GENERIC_ERROR
 ;
 }
 NPBool
