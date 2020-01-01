@@ -99,10 +99,6 @@ Build
 directories
 ^
 obj
--
-^
-objdir
--
 #
 Build
 directories
