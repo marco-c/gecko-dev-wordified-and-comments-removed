@@ -297,10 +297,6 @@ nsSVGViewBox
 .
 cpp
 \
-nsSVGViewElement
-.
-cpp
-\
 SVGAltGlyphElement
 .
 cpp
@@ -573,6 +569,10 @@ SVGViewBoxSMILType
 .
 cpp
 \
+SVGViewElement
+.
+cpp
+\
 (
 NULL
 )
@@ -775,6 +775,10 @@ SVGTransformableElement
 h
 \
 SVGTSpanElement
+.
+h
+\
+SVGViewElement
 .
 h
 \
