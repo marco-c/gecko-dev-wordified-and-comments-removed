@@ -673,6 +673,16 @@ loadListener
 (
 )
 {
+workerWindow
+.
+removeEventListener
+(
+"
+load
+"
+loadListener
+)
+;
 function
 getProtoSource
 (
