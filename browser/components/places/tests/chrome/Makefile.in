@@ -467,6 +467,10 @@ test_bug427633_no_newfolder_if_noip
 .
 xul
 \
+test_multiple_left_pane
+.
+xul
+\
 (
 NULL
 )

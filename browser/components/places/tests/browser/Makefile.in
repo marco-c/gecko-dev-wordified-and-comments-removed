@@ -451,6 +451,10 @@ browser_0_library_left_pane_migration
 .
 js
 \
+browser_library_left_pane_fixnames
+.
+js
+\
 browser_425884
 .
 js
