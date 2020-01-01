@@ -1613,11 +1613,6 @@ EVENT_REORDER
 ApplicationAcc
 (
 )
-eAutoDetect
-AccEvent
-:
-:
-eCoalesceFromSameSubtree
 )
 ;
 docAcc

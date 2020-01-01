@@ -1030,14 +1030,6 @@ aElm
 )
 ;
 void
-ProcessPendingEvent
-(
-AccEvent
-*
-aEvent
-)
-;
-void
 ProcessContentInserted
 (
 Accessible
@@ -1095,6 +1087,9 @@ Accessible
 aChild
 bool
 aIsInsert
+AccReorderEvent
+*
+aReorderEvent
 )
 ;
 void
