@@ -8406,13 +8406,11 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_JS_CALLBACK
 script
 -
 >
-mScriptObject
-.
-mObject
+GetScriptObject
+(
+)
 "
 mScriptObject
-.
-mObject
 "
 )
 }
@@ -8979,9 +8977,9 @@ if
 script
 -
 >
-mScriptObject
-.
-mObject
+GetScriptObject
+(
+)
 )
 {
 tmp
@@ -10032,6 +10030,7 @@ aVersion
 )
 mScriptObject
 (
+nullptr
 )
 {
 }
@@ -10094,8 +10093,6 @@ nullptr
 |
 !
 mScriptObject
-.
-mObject
 "
 script
 source
@@ -10112,8 +10109,6 @@ if
 (
 !
 mScriptObject
-.
-mObject
 )
 return
 NS_ERROR_FAILURE
@@ -10170,8 +10165,6 @@ Serialize
 (
 aStream
 mScriptObject
-.
-mObject
 )
 ;
 if
@@ -10430,8 +10423,6 @@ nullptr
 |
 !
 mScriptObject
-.
-mObject
 "
 prototype
 script
@@ -10640,8 +10631,6 @@ if
 (
 !
 mScriptObject
-.
-mObject
 )
 {
 if
@@ -10725,8 +10714,6 @@ PutScript
 (
 mSrcURI
 mScriptObject
-.
-mObject
 )
 ;
 }
@@ -10947,13 +10934,9 @@ UnlinkJSObjects
 if
 (
 mScriptObject
-.
-mObject
 )
 {
 mScriptObject
-.
-mObject
 =
 nullptr
 ;
@@ -10978,12 +10961,10 @@ JSScript
 aObject
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mScriptObject
-.
-mObject
 "
 Leaking
 script
@@ -10999,8 +10980,6 @@ aObject
 )
 {
 mScriptObject
-.
-mObject
 =
 nullptr
 ;
@@ -11020,8 +10999,6 @@ nsXULPrototypeNode
 )
 ;
 mScriptObject
-.
-mObject
 =
 aObject
 ;
