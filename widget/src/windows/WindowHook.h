@@ -323,6 +323,9 @@ MessageDataArray
 mMessageData
 ;
 friend
+class
+:
+:
 nsWindow
 ;
 }
