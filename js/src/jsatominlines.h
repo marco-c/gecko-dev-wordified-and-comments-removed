@@ -410,8 +410,7 @@ JSContext
 cx
 uint32_t
 index
-jsid
-*
+MutableHandleId
 idp
 )
 ;
@@ -424,8 +423,7 @@ JSContext
 cx
 uint32_t
 index
-jsid
-*
+MutableHandleId
 idp
 )
 {
@@ -442,12 +440,14 @@ index
 JSID_INT_MAX
 )
 {
-*
 idp
-=
+.
+set
+(
 INT_TO_JSID
 (
 index
+)
 )
 ;
 return
