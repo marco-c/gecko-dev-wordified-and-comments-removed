@@ -619,6 +619,12 @@ PRBool
 aDoSetAttr
 )
 ;
+virtual
+void
+DidAnimatePreserveAspectRatio
+(
+)
+;
 float
 GetLength
 (

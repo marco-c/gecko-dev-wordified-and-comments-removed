@@ -2117,6 +2117,19 @@ GetAnimValue
 ctx
 )
 ;
+nsSVGPatternElement
+*
+patternElement
+=
+static_cast
+<
+nsSVGPatternElement
+*
+>
+(
+mContent
+)
+;
 gfxMatrix
 viewBoxTM
 =
@@ -2125,6 +2138,7 @@ nsSVGUtils
 :
 GetViewBoxTransform
 (
+patternElement
 viewportWidth
 viewportHeight
 viewBox
