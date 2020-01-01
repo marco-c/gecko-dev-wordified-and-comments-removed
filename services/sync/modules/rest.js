@@ -985,6 +985,12 @@ onStartRequest
 channel
 )
 {
+this
+.
+channel
+=
+channel
+;
 if
 (
 this
@@ -1126,6 +1132,12 @@ context
 statusCode
 )
 {
+this
+.
+channel
+=
+channel
+;
 if
 (
 this

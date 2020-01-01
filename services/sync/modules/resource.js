@@ -1004,10 +1004,6 @@ channel
 =
 this
 .
-_channel
-=
-this
-.
 _createRequest
 (
 )
@@ -1254,6 +1250,7 @@ _onComplete
 (
 error
 data
+channel
 )
 {
 this
@@ -1297,13 +1294,6 @@ this
 _data
 =
 data
-;
-let
-channel
-=
-this
-.
-_channel
 ;
 let
 action
@@ -2799,6 +2789,8 @@ this
 _onComplete
 (
 error
+undefined
+channel
 )
 ;
 return
@@ -2847,6 +2839,7 @@ null
 this
 .
 _data
+channel
 )
 ;
 }
