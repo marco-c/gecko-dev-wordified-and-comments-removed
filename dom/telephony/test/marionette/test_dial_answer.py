@@ -506,6 +506,17 @@ function
 )
 {
     
+window
+.
+wrappedJSObject
+.
+incoming
+.
+hangUp
+(
+)
+;
+    
 marionetteScriptFinished
 (
 true
