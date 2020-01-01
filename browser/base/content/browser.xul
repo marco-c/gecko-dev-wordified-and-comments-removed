@@ -2920,7 +2920,7 @@ stack
 "
 >
 <
-box
+vbox
 id
 =
 "
@@ -2928,7 +2928,14 @@ allTabs
 -
 container
 "
+>
+<
+hbox
 /
+>
+<
+/
+vbox
 >
 <
 toolbarbutton
