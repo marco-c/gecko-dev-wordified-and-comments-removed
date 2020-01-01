@@ -333,7 +333,7 @@ js
 :
 :
 DirectWrapper
-WaiveXrayWrapperWrapper
+XrayWaiver
 ;
 }
 #

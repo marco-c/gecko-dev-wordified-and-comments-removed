@@ -89,7 +89,7 @@ namespace
 xpc
 {
 DirectWrapper
-WaiveXrayWrapperWrapper
+XrayWaiver
 (
 WrapperFactory
 :
@@ -350,7 +350,7 @@ cx
 obj
 )
 &
-WaiveXrayWrapperWrapper
+XrayWaiver
 )
 ;
 if
@@ -1176,7 +1176,7 @@ obj
 =
 =
 &
-WaiveXrayWrapperWrapper
+XrayWaiver
 |
 |
 js
