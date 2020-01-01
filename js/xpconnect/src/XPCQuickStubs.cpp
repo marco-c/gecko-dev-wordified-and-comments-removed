@@ -1771,9 +1771,9 @@ xpc_qsGetterOnlyPropertyStub
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 JSBool
 strict

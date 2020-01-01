@@ -4384,7 +4384,10 @@ XPC_WN_JSOp_Enumerate
 JSContext
 *
 cx
-JSHandleObject
+JS
+:
+:
+HandleObject
 obj
 JSIterateOp
 enum_op
@@ -4408,7 +4411,10 @@ XPC_WN_JSOp_ThisObject
 JSContext
 *
 cx
-JSHandleObject
+JS
+:
+:
+HandleObject
 obj
 )
 ;

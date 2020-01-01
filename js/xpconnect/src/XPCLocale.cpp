@@ -250,7 +250,7 @@ LocaleToUpperCase
 JSContext
 *
 cx
-JSHandleString
+HandleString
 src
 MutableHandleValue
 rval
@@ -273,7 +273,7 @@ LocaleToLowerCase
 JSContext
 *
 cx
-JSHandleString
+HandleString
 src
 MutableHandleValue
 rval
@@ -329,9 +329,9 @@ LocaleCompare
 JSContext
 *
 cx
-JSHandleString
+HandleString
 src1
-JSHandleString
+HandleString
 src2
 MutableHandleValue
 rval
@@ -365,7 +365,7 @@ ChangeCase
 JSContext
 *
 cx
-JSHandleString
+HandleString
 src
 MutableHandleValue
 rval
@@ -464,9 +464,9 @@ Compare
 JSContext
 *
 cx
-JSHandleString
+HandleString
 src1
-JSHandleString
+HandleString
 src2
 MutableHandleValue
 rval

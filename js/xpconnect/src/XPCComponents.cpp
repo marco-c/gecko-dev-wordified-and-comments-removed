@@ -11963,7 +11963,7 @@ sandbox_convert
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
 JSType
 type
@@ -12613,9 +12613,9 @@ XPC_WN_Helper_GetProperty
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 MutableHandleValue
 vp
@@ -12628,9 +12628,9 @@ XPC_WN_Helper_SetProperty
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 JSBool
 strict
@@ -20692,9 +20692,9 @@ ContentComponentsGetterOp
 JSContext
 *
 cx
-JSHandleObject
+HandleObject
 obj
-JSHandleId
+HandleId
 id
 MutableHandleValue
 vp
