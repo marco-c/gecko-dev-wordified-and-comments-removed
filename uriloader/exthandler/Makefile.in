@@ -615,6 +615,12 @@ OSHELPER
 nsGNOMERegistry
 .
 cpp
+OSHELPER
++
+=
+nsMIMEInfoUnix
+.
+cpp
 endif
 ifeq
 (
@@ -698,6 +704,10 @@ nsIExternalHelperAppService
 idl
 \
 nsIHelperAppLauncherDialog
+.
+idl
+\
+nsIContentDispatchChooser
 .
 idl
 \

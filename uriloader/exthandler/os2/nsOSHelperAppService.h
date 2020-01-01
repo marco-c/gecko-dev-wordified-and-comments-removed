@@ -71,14 +71,6 @@ PRBool
 aFound
 )
 ;
-nsresult
-LoadUriInternal
-(
-nsIURI
-*
-aURL
-)
-;
 NS_IMETHODIMP
 GetApplicationDescription
 (

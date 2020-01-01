@@ -1591,6 +1591,13 @@ components
 nsContentPrefService
 .
 js
+bin
+/
+components
+/
+nsContentDispatchChooser
+.
+js
 ;
 Modules
 bin
