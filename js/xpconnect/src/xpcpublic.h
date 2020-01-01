@@ -749,7 +749,7 @@ namespace
 memory
 {
 void
-ReportJSRuntimeStats
+ReportJSRuntimeExplicitTreeStats
 (
 const
 JS
