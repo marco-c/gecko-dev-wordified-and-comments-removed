@@ -8149,7 +8149,9 @@ type
 )
 {
 case
-Ci
+Components
+.
+interfaces
 .
 nsIUpdateItem
 .
@@ -8162,7 +8164,9 @@ extensionCount
 break
 ;
 case
-Ci
+Components
+.
+interfaces
 .
 nsIUpdateItem
 .
@@ -8175,7 +8179,9 @@ themeCount
 break
 ;
 case
-Ci
+Components
+.
+interfaces
 .
 nsIUpdateItem
 .
