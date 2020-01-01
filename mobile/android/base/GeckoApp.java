@@ -4775,6 +4775,12 @@ setDocumentURI
 documentURI
 )
 ;
+if
+(
+sameDocument
+)
+return
+;
 tab
 .
 setContentType
