@@ -444,6 +444,9 @@ return
 false
 ;
 #
+if
+0
+#
 ifdef
 DEBUG
 bool
@@ -510,6 +513,8 @@ JS_ASSERT
 found
 )
 ;
+#
+endif
 #
 endif
 return
