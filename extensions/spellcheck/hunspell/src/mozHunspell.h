@@ -161,6 +161,14 @@ LoadDictionaryList
 (
 )
 ;
+void
+LoadDictionariesFromDir
+(
+nsIFile
+*
+aDir
+)
+;
 nsresult
 ConvertCharset
 (
