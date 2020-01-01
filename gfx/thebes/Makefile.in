@@ -230,10 +230,6 @@ nsIOSurface
 .
 h
 \
-nsSurfaceTexture
-.
-h
-\
 gfxSharedImageSurface
 .
 h
@@ -650,10 +646,6 @@ gfxSharedImageSurface
 cpp
 \
 gfxReusableSurfaceWrapper
-.
-cpp
-\
-nsSurfaceTexture
 .
 cpp
 \
