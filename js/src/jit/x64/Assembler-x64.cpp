@@ -320,7 +320,7 @@ ABIArgGenerator
 :
 NonArgReturnVolatileReg1
 =
-r11
+r12
 ;
 const
 Register
@@ -329,7 +329,7 @@ ABIArgGenerator
 :
 NonVolatileReg
 =
-r12
+r13
 ;
 void
 Assembler
