@@ -2142,6 +2142,10 @@ mIsPopup
 (
 PR_FALSE
 )
+mIsLineParticipant
+(
+PR_FALSE
+)
 {
 }
 ~
@@ -2228,6 +2232,9 @@ mHasInlineEnds
 ;
 PRPackedBool
 mIsPopup
+;
+PRPackedBool
+mIsLineParticipant
 ;
 FrameConstructionItemList
 mChildItems
