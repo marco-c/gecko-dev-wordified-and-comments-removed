@@ -1862,15 +1862,6 @@ compartmentEnum
 )
 ;
 static
-bool
-isDebugWrapper
-(
-JSObject
-*
-o
-)
-;
-static
 void
 findCompartmentEdges
 (
