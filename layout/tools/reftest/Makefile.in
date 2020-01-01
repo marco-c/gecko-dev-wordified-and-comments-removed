@@ -683,6 +683,16 @@ topsrcdir
 /
 build
 /
+poster
+.
+zip
+\
+(
+topsrcdir
+)
+/
+build
+/
 mobile
 /
 remoteautomation
