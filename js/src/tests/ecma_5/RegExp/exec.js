@@ -1025,8 +1025,7 @@ assertEq
 r
 .
 lastIndex
--
-17
+0
 )
 ;
 r
