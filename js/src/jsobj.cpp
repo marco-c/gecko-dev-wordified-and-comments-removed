@@ -8963,6 +8963,15 @@ JSPROP_READONLY
 bool
 found
 ;
+#
+ifdef
+__GNUC__
+found
+=
+false
+;
+#
+endif
 if
 (
 !

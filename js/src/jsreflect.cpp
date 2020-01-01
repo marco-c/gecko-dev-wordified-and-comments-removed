@@ -7670,6 +7670,17 @@ pn_next
 Value
 child
 ;
+#
+ifdef
+__GNUC__
+child
+=
+UndefinedValue
+(
+)
+;
+#
+endif
 if
 (
 !
