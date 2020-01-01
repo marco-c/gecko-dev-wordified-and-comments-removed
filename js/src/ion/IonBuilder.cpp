@@ -4962,9 +4962,9 @@ toOsrValue
 (
 )
 ;
-MPhi
+MDefinition
 *
-headerPhi
+headerValue
 =
 header
 -
@@ -4972,11 +4972,6 @@ header
 getSlot
 (
 i
-)
--
->
-toPhi
-(
 )
 ;
 MPhi
@@ -4999,7 +4994,7 @@ toPhi
 MIRType
 type
 =
-headerPhi
+headerValue
 -
 >
 type
@@ -5013,7 +5008,7 @@ StackTypeSet
 *
 typeSet
 =
-headerPhi
+headerValue
 -
 >
 resultTypeSet
