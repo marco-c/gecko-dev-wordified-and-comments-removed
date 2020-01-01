@@ -6083,7 +6083,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-Jaeger_Throwing
+Jaeger_ThrowBeforeEnter
 )
 ;
 JS_ASSERT
