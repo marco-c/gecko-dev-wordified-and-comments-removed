@@ -27,6 +27,9 @@ image
 ref
 .
 html
+#
+bug
+445911
 =
 =
 transparent
@@ -74,6 +77,9 @@ image
 ref
 .
 html
+#
+bug
+445911
 =
 =
 multicolor
