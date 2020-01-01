@@ -11,6 +11,13 @@ nsBaseWidget
 .
 h
 "
+#
+include
+<
+windows
+.
+h
+>
 class
 nsWindowBase
 :
