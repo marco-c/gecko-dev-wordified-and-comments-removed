@@ -3529,6 +3529,12 @@ dir
 HasDirAuto
 (
 )
+&
+&
+!
+AncestorHasDirAuto
+(
+)
 )
 {
 WalkDescendantsClearAncestorDirAuto
