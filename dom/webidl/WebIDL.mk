@@ -89,6 +89,10 @@ XMLHttpRequestUpload
 .
 webidl
 \
+WebGLRenderingContext
+.
+webidl
+\
 (
 NULL
 )
