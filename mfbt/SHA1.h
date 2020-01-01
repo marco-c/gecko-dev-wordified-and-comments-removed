@@ -15,6 +15,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -57,6 +66,9 @@ mDone
 ;
 public
 :
+MFBT_API
+(
+)
 SHA1Sum
 (
 )
@@ -75,7 +87,10 @@ Hash
 HashSize
 ]
 ;
+MFBT_API
+(
 void
+)
 update
 (
 const
@@ -86,7 +101,10 @@ uint32_t
 len
 )
 ;
+MFBT_API
+(
 void
+)
 finish
 (
 SHA1Sum
