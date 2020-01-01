@@ -1018,8 +1018,13 @@ SU_setMouseoverURL
 aURL
 )
 {
-window
+if
+(
+top
 .
+XULBrowserWindow
+)
+{
 top
 .
 XULBrowserWindow
@@ -1030,6 +1035,7 @@ aURL
 null
 )
 ;
+}
 }
 }
 ;
