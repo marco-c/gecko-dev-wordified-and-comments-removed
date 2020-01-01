@@ -2813,6 +2813,9 @@ tmp
 isSet
 )
 {
+nsresult
+rv
+=
 SplitNodeDeep
 (
 tmp
@@ -2825,6 +2828,12 @@ offset
 PR_FALSE
 outLeftNode
 outRightNode
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 tmp
