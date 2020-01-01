@@ -294,6 +294,7 @@ jsbytecode
 entryPC
 (
 )
+const
 {
 return
 entryState

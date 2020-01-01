@@ -1749,9 +1749,6 @@ TraceRecorder
 :
 unary
 (
-nanojit
-:
-:
 LOpcode
 op
 void
@@ -1785,9 +1782,6 @@ TraceRecorder
 :
 binary
 (
-nanojit
-:
-:
 LOpcode
 op
 void
@@ -1828,9 +1822,6 @@ TraceRecorder
 :
 binary0
 (
-nanojit
-:
-:
 LOpcode
 op
 void
@@ -2451,10 +2442,6 @@ Fragmento
 fragmento
 =
 new
-(
-&
-gc
-)
 Fragmento
 (
 core
@@ -2469,10 +2456,6 @@ fragmento
 labels
 =
 new
-(
-&
-gc
-)
 LabelMap
 (
 core
