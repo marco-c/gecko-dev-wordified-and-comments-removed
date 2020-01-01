@@ -2516,6 +2516,8 @@ ValueOperand
 dest
 bool
 allowDouble
+Register
+temp
 Label
 *
 fail
