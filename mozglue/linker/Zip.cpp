@@ -1120,6 +1120,7 @@ it
 =
 zip
 )
+{
 zips
 .
 erase
@@ -1127,7 +1128,9 @@ erase
 it
 )
 ;
+}
 else
+{
 debug
 (
 "
@@ -1157,4 +1160,5 @@ GetName
 )
 )
 ;
+}
 }

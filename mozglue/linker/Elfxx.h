@@ -69,12 +69,6 @@ ELF64_ST_BIND
 #
 endif
 #
-define
-PRIxAddr
-"
-lx
-"
-#
 else
 #
 define
@@ -107,12 +101,6 @@ ELF_ST_BIND
 ELF32_ST_BIND
 #
 endif
-#
-define
-PRIxAddr
-"
-x
-"
 #
 endif
 #

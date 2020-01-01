@@ -2555,6 +2555,9 @@ to
 mmap
 retrying
 "
+GetPath
+(
+)
 )
 ;
 align
@@ -3518,7 +3521,7 @@ case
 DT_FLAGS
 :
 {
-Word
+Addr
 flags
 =
 dyn
