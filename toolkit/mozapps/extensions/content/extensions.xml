@@ -4881,12 +4881,6 @@ xul
 hbox
 >
 <
-/
-xul
-:
-vbox
->
-<
 xul
 :
 hbox
@@ -4963,6 +4957,12 @@ accesskey
 xul
 :
 hbox
+>
+<
+/
+xul
+:
+vbox
 >
 <
 /
