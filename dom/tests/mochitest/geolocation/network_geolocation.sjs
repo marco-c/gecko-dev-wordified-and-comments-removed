@@ -138,6 +138,7 @@ params
 function
 getPosition
 (
+action
 )
 {
 /
@@ -229,6 +230,19 @@ altitude
 42
 accuracy
 :
+(
+action
+=
+=
+"
+worse
+-
+accuracy
+"
+)
+?
+100
+:
 42
 altitude_accuracy
 :
@@ -292,6 +306,9 @@ position
 =
 getPosition
 (
+params
+.
+action
 )
 ;
 if

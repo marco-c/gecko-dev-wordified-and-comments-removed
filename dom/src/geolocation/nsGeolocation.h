@@ -226,6 +226,16 @@ Shutdown
 )
 ;
 void
+Update
+(
+nsIDOMGeoPosition
+*
+aPosition
+PRBool
+isBetter
+)
+;
+void
 SendLocation
 (
 nsIDOMGeoPosition
@@ -305,6 +315,9 @@ mAllowed
 ;
 PRPackedBool
 mCleared
+;
+PRPackedBool
+mIsFirstUpdate
 ;
 nsCOMPtr
 <
@@ -509,6 +522,8 @@ Update
 nsIDOMGeoPosition
 *
 aPosition
+PRBool
+isBetter
 )
 ;
 PRBool

@@ -498,6 +498,10 @@ test_timerRestartWatch
 .
 html
 \
+test_worseAccuracyDoesNotBlockCallback
+.
+html
+\
 geolocation
 .
 html
