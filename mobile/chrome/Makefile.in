@@ -463,12 +463,6 @@ some
 JS
 files
 !
-(
-srcdir
-)
-/
-content
-/
 TileManager
 .
 js
@@ -543,12 +537,6 @@ mk
 export
 :
 :
-(
-srcdir
-)
-/
-content
-/
 TileManager
 .
 js
