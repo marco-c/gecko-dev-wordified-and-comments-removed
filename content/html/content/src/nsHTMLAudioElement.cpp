@@ -384,11 +384,11 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-preload
+autobuffer
 NS_LITERAL_STRING
 (
 "
-auto
+autobuffer
 "
 )
 PR_TRUE
