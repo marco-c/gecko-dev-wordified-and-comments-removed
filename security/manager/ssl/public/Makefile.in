@@ -251,10 +251,6 @@ nsINSSCertCache
 .
 idl
 \
-nsIOCSPResponder
-.
-idl
-\
 nsIPK11Token
 .
 idl

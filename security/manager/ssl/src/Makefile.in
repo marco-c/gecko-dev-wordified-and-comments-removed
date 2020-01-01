@@ -247,10 +247,6 @@ nsNSSCertValidity
 .
 cpp
 \
-nsOCSPResponder
-.
-cpp
-\
 nsUsageArrayHelper
 .
 cpp
