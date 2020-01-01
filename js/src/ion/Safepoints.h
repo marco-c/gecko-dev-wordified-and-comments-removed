@@ -75,7 +75,7 @@ bool
 init
 (
 uint32
-localSlotCount
+slotCount
 )
 ;
 uint32
@@ -173,7 +173,7 @@ CompactBufferReader
 stream_
 ;
 uint32
-localSlotCount_
+frameSlots_
 ;
 uint32
 currentSlotChunk_

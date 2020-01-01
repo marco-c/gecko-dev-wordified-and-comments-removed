@@ -512,7 +512,7 @@ uint32
 safepointIndexEntries_
 ;
 uint32
-frameLocals_
+frameSlots_
 ;
 uint32
 frameSize_
@@ -1233,13 +1233,13 @@ constantEntries_
 ;
 }
 uint32
-frameLocals
+frameSlots
 (
 )
 const
 {
 return
-frameLocals_
+frameSlots_
 ;
 }
 uint32
