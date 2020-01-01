@@ -167,13 +167,13 @@ MEMORY_RESIDENT
 "
 explicit
 /
-layout
+storage
 /
-all
+sqlite
 "
 :
 "
-MEMORY_LAYOUT_ALL
+MEMORY_STORAGE_SQLITE
 "
 "
 explicit
