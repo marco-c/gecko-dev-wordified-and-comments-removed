@@ -143,7 +143,7 @@ mRequest
 mRequest
 -
 >
-CancelAndForgetObserver
+Cancel
 (
 NS_ERROR_FAILURE
 )
@@ -203,7 +203,7 @@ mRequest
 mRequest
 -
 >
-CancelAndForgetObserver
+Cancel
 (
 NS_ERROR_FAILURE
 )
@@ -316,7 +316,7 @@ NS_OK
 mRequest
 -
 >
-CancelAndForgetObserver
+Cancel
 (
 NS_ERROR_FAILURE
 )
