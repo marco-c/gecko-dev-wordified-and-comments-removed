@@ -438,10 +438,6 @@ nsTextServicesDocument
 .
 cpp
 \
-nsTSDNotifier
-.
-cpp
-\
 (
 NULL
 )
