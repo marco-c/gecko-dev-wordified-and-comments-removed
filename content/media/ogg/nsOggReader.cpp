@@ -1179,7 +1179,7 @@ pcm
 =
 0
 ;
-PRUint32
+PRInt32
 samples
 =
 0
@@ -1210,13 +1210,6 @@ mDsp
 pcm
 )
 )
->
-0
-)
-{
-if
-(
-samples
 >
 0
 )
@@ -1359,7 +1352,6 @@ AppendElement
 s
 )
 ;
-}
 if
 (
 vorbis_synthesis_read

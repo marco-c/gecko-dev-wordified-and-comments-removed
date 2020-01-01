@@ -455,6 +455,12 @@ mVideoTrack
 PRUint32
 mAudioTrack
 ;
+PRInt64
+mAudioStartMs
+;
+PRUint64
+mAudioSamples
+;
 PRPackedBool
 mHasVideo
 ;
