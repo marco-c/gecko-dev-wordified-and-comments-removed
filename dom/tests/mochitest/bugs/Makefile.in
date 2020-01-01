@@ -700,6 +700,10 @@ utils_bug260264
 .
 js
 \
+test_bug531176
+.
+html
+\
 test_bug534362
 .
 html
