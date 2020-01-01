@@ -8176,7 +8176,10 @@ pop
 )
 ;
 }
-return
+NS_HTML5_BREAK
+(
+endtagloop
+)
 ;
 }
 if

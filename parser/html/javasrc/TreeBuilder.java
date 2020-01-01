@@ -15078,7 +15078,8 @@ pop
 )
 ;
 }
-return
+break
+endtagloop
 ;
 }
 if
