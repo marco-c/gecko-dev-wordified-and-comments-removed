@@ -35,7 +35,7 @@ addTab
 (
 )
 ;
-assertTabs
+checkTabs
 (
 4
 )
@@ -176,7 +176,7 @@ releaseCtrl
 )
 ;
 }
-assertTabs
+checkTabs
 (
 3
 )
@@ -198,7 +198,7 @@ addTab
 (
 )
 ;
-assertTabs
+checkTabs
 (
 4
 )
@@ -340,7 +340,7 @@ tabContainer
 lastChild
 )
 ;
-assertTabs
+checkTabs
 (
 2
 )
@@ -365,7 +365,7 @@ tabContainer
 lastChild
 )
 ;
-assertTabs
+checkTabs
 (
 1
 )
@@ -556,7 +556,7 @@ ctrlTab
 isOpen
 ;
 function
-assertTabs
+checkTabs
 (
 aTabs
 )
