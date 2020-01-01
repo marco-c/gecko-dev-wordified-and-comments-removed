@@ -447,6 +447,14 @@ bug399925
 .
 gif
 \
+schrep
+.
+png
+\
+test_bug435296
+.
+html
+\
 bug468160
 .
 sjs
