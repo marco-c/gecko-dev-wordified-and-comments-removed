@@ -6190,12 +6190,12 @@ sp
 RegisterMask
 ptrs
 =
-0x1e
+0x6
 ;
 SUBi
 (
 state
-16
+8
 )
 ;
 STMIA
@@ -6239,7 +6239,7 @@ ip_adj
 SUBi
 (
 state
-16
+8
 )
 ;
 LDMIA
