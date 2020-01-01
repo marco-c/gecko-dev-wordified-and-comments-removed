@@ -58,6 +58,12 @@ createInstance
 "
 item
 "
+"
+__proto__
+"
+"
+__iterator__
+"
 #
 ifdef
 XPC_IDISPATCH_SUPPORT
@@ -72,9 +78,6 @@ supports
 "
 #
 endif
-"
-__proto__
-"
 }
 ;
 static
