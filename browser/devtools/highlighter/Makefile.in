@@ -433,10 +433,6 @@ mk
 EXTRA_JS_MODULES
 =
 \
-inspector
-.
-jsm
-\
 domplate
 .
 jsm
@@ -450,6 +446,16 @@ TreePanel
 jsm
 \
 highlighter
+.
+jsm
+\
+(
+NULL
+)
+EXTRA_PP_JS_MODULES
+=
+\
+inspector
 .
 jsm
 \
