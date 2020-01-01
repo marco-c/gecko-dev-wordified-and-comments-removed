@@ -112,9 +112,11 @@ modules
 /
 devtools
 /
-ProfilerController
+profiler
+/
+controller
 .
-jsm
+js
 "
 temp
 )
