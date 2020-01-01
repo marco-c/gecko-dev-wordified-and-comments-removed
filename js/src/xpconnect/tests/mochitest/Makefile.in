@@ -492,10 +492,6 @@ test_bug428021
 .
 html
 \
-test_wrappers
-.
-html
-\
 test_bug446584
 .
 html
@@ -505,10 +501,6 @@ test_bug462428
 html
 \
 test_bug478438
-.
-html
-\
-test_bug484459
 .
 html
 \
@@ -545,10 +537,6 @@ test_bug560351
 html
 \
 test_bug564330
-.
-html
-\
-test_cows
 .
 html
 \
