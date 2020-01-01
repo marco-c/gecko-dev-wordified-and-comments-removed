@@ -48,6 +48,12 @@ base
 l10n
 -
 central
+ac_add_options
+-
+-
+enable
+-
+metro
 export
 MOZILLA_OFFICIAL
 =
