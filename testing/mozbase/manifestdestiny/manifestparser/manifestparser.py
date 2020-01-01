@@ -228,7 +228,9 @@ rel_list
 :
             
 return
-start
+os
+.
+curdir
         
 return
 os
