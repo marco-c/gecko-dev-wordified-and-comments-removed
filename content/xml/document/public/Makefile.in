@@ -418,9 +418,6 @@ mk
 MODULE
 =
 content
-XPIDL_MODULE
-=
-content_xmldoc
 EXPORTS
 =
 \

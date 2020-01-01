@@ -685,13 +685,6 @@ BINPATH
 /
 components
 /
-content_xmldoc
-.
-xpt
-BINPATH
-/
-components
-/
 content_xslt
 .
 xpt
