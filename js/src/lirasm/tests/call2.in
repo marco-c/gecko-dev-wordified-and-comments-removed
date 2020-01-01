@@ -19,7 +19,7 @@ res
 =
 fcall
 sin
-cdedl
+cdecl
 halfpi
 fret
 res
