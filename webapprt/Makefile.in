@@ -317,7 +317,7 @@ DGRE_BUILDID
 (
 GRE_BUILDID
 )
-application
+webapprt
 .
 ini
 :
@@ -362,13 +362,13 @@ DEFINES
 libs
 :
 :
-application
+webapprt
 .
 ini
 (
 INSTALL
 )
-application
+webapprt
 .
 ini
 (
@@ -377,6 +377,6 @@ FINAL_TARGET
 GARBAGE
 +
 =
-application
+webapprt
 .
 ini

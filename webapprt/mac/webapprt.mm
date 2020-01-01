@@ -278,7 +278,7 @@ WEBRTINI_NAME
 ]
 =
 "
-application
+webapprt
 .
 ini
 "
