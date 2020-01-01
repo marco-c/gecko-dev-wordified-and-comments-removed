@@ -3563,7 +3563,7 @@ this
 )
 ;
 }
-nsresult
+void
 nsHTMLComboboxAccessible
 :
 :
@@ -3595,9 +3595,6 @@ mListAccessible
 nsnull
 ;
 }
-return
-NS_OK
-;
 }
 nsresult
 nsHTMLComboboxAccessible

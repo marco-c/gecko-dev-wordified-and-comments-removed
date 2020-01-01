@@ -390,7 +390,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsresult
+void
 nsOuterDocAccessible
 :
 :
@@ -469,7 +469,6 @@ InvalidateChildren
 (
 )
 ;
-return
 nsAccessibleWrap
 :
 :

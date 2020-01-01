@@ -53,7 +53,7 @@ nsXULSelectableAccessible
 {
 }
 virtual
-nsresult
+void
 Shutdown
 (
 )
@@ -155,7 +155,7 @@ _retval
 )
 ;
 virtual
-nsresult
+PRBool
 Init
 (
 )

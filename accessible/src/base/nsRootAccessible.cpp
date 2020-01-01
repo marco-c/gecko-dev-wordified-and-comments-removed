@@ -3466,7 +3466,7 @@ eventTarget
 )
 ;
 }
-nsresult
+PRBool
 nsRootAccessible
 :
 :
@@ -3482,10 +3482,13 @@ GetApplicationAccessible
 (
 )
 ;
-NS_ENSURE_STATE
+if
 (
+!
 applicationAcc
 )
+return
+PR_FALSE
 ;
 applicationAcc
 -
@@ -3504,7 +3507,7 @@ Init
 )
 ;
 }
-nsresult
+void
 nsRootAccessible
 :
 :
@@ -3517,11 +3520,8 @@ if
 !
 mWeakShell
 )
-{
 return
-NS_OK
 ;
-}
 nsApplicationAccessible
 *
 applicationAcc
@@ -3530,10 +3530,12 @@ GetApplicationAccessible
 (
 )
 ;
-NS_ENSURE_STATE
+if
 (
+!
 applicationAcc
 )
+return
 ;
 applicationAcc
 -
@@ -3547,7 +3549,6 @@ mCurrentARIAMenubar
 =
 nsnull
 ;
-return
 nsDocAccessibleWrap
 :
 :

@@ -637,10 +637,6 @@ test_elm_plugin
 .
 html
 \
-test_invalidate_accessnode
-.
-html
-\
 test_name
 .
 html

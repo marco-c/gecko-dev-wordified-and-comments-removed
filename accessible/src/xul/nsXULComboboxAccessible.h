@@ -85,7 +85,7 @@ aName
 )
 ;
 virtual
-nsresult
+PRBool
 Init
 (
 )

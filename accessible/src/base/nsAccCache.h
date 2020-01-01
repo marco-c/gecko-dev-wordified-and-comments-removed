@@ -19,7 +19,7 @@ nsCycleCollectionParticipant
 h
 "
 class
-nsIAccessNode
+nsIAccessible
 ;
 template
 <
@@ -39,7 +39,7 @@ nsRefPtr
 T
 >
 &
-aAccessNode
+aAccessible
 void
 *
 aUserArg
@@ -47,7 +47,7 @@ aUserArg
 {
 NS_ASSERTION
 (
-aAccessNode
+aAccessible
 "
 Calling
 ClearCacheEntry
@@ -61,9 +61,9 @@ pointer
 ;
 if
 (
-aAccessNode
+aAccessible
 )
-aAccessNode
+aAccessible
 -
 >
 Shutdown
@@ -119,7 +119,7 @@ void
 aKey
 T
 *
-aAccessNode
+aAccessible
 void
 *
 aUserArg
@@ -155,11 +155,11 @@ supports
 =
 static_cast
 <
-nsIAccessNode
+nsIAccessible
 *
 >
 (
-aAccessNode
+aAccessible
 )
 ;
 cb

@@ -50,7 +50,7 @@ nsHTMLWin32ObjectOwnerAccessible
 {
 }
 virtual
-nsresult
+void
 Shutdown
 (
 )

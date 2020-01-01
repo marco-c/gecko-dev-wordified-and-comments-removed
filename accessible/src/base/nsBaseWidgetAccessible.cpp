@@ -647,7 +647,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsresult
+PRBool
 nsLinkableAccessible
 :
 :
@@ -668,7 +668,7 @@ Init
 )
 ;
 }
-nsresult
+void
 nsLinkableAccessible
 :
 :
@@ -680,7 +680,6 @@ mActionContent
 =
 nsnull
 ;
-return
 nsAccessibleWrap
 :
 :

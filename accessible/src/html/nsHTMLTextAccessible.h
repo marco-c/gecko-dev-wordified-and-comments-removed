@@ -242,7 +242,7 @@ aName
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )
@@ -378,7 +378,7 @@ height
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )

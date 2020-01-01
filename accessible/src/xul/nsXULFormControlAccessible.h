@@ -84,7 +84,7 @@ index
 )
 ;
 virtual
-nsresult
+PRBool
 Init
 (
 )

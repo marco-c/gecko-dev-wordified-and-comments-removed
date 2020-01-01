@@ -40,7 +40,7 @@ mHwnd
 )
 ;
 }
-nsresult
+void
 nsHTMLWin32ObjectOwnerAccessible
 :
 :
@@ -58,9 +58,6 @@ Shutdown
 mNativeAccessible
 =
 nsnull
-;
-return
-NS_OK
 ;
 }
 nsresult

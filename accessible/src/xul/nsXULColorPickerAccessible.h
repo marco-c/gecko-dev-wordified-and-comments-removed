@@ -79,7 +79,7 @@ aShell
 )
 ;
 virtual
-nsresult
+PRBool
 Init
 (
 )

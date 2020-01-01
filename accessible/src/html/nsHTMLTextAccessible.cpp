@@ -618,7 +618,7 @@ NS_IMPL_ISUPPORTS_INHERITED0
 nsHTMLLIAccessible
 nsHyperTextAccessible
 )
-nsresult
+void
 nsHTMLLIAccessible
 :
 :
@@ -639,9 +639,6 @@ Shutdown
 )
 ;
 }
-nsresult
-rv
-=
 nsHyperTextAccessibleWrap
 :
 :
@@ -652,9 +649,6 @@ Shutdown
 mBulletAccessible
 =
 nsnull
-;
-return
-rv
 ;
 }
 nsresult
@@ -918,7 +912,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsHTMLListBulletAccessible
 :
 :
@@ -932,7 +926,6 @@ Truncate
 (
 )
 ;
-return
 nsLeafAccessible
 :
 :

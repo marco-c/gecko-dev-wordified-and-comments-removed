@@ -563,7 +563,7 @@ aName
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )

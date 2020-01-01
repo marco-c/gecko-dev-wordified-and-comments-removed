@@ -66,7 +66,7 @@ aIndex
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )

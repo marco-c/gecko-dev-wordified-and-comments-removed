@@ -171,7 +171,7 @@ nsXULSelectableAccessible
 nsAccessible
 nsIAccessibleSelectable
 )
-nsresult
+void
 nsXULSelectableAccessible
 :
 :
@@ -183,7 +183,6 @@ mSelectControl
 =
 nsnull
 ;
-return
 nsAccessibleWrap
 :
 :
@@ -1043,7 +1042,7 @@ aShell
 )
 {
 }
-nsresult
+PRBool
 nsXULMenuitemAccessible
 :
 :
@@ -1051,15 +1050,18 @@ Init
 (
 )
 {
-nsresult
-rv
-=
+if
+(
+!
 nsAccessibleWrap
 :
 :
 Init
 (
 )
+)
+return
+PR_FALSE
 ;
 nsCoreUtils
 :
@@ -1070,7 +1072,7 @@ mContent
 )
 ;
 return
-rv
+PR_TRUE
 ;
 }
 nsresult

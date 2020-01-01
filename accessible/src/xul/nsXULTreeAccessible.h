@@ -130,7 +130,7 @@ IsDefunct
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )
@@ -453,7 +453,7 @@ IsDefunct
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )
@@ -625,13 +625,13 @@ IsDefunct
 )
 ;
 virtual
-nsresult
+PRBool
 Init
 (
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )

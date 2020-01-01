@@ -173,13 +173,13 @@ aEvent
 )
 ;
 virtual
-nsresult
+PRBool
 Init
 (
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )

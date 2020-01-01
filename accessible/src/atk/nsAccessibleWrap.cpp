@@ -939,7 +939,7 @@ nsnull
 ;
 }
 }
-nsresult
+void
 nsAccessibleWrap
 :
 :
@@ -951,7 +951,6 @@ ShutdownAtkObject
 (
 )
 ;
-return
 nsAccessible
 :
 :

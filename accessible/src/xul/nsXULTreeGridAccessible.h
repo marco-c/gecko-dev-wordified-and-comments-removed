@@ -100,7 +100,7 @@ nsXULTreeGridRowAccessible
 nsAccessible
 )
 virtual
-nsresult
+void
 Shutdown
 (
 )
@@ -335,7 +335,7 @@ IsDefunct
 )
 ;
 virtual
-nsresult
+PRBool
 Init
 (
 )

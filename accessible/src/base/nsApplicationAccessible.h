@@ -291,13 +291,13 @@ IsDefunct
 )
 ;
 virtual
-nsresult
+PRBool
 Init
 (
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )

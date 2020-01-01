@@ -44,7 +44,7 @@ nsApplicationAccessibleWrap
 )
 ;
 virtual
-nsresult
+PRBool
 Init
 (
 )

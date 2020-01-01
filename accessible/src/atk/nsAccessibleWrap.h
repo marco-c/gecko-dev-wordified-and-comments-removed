@@ -109,7 +109,7 @@ ShutdownAtkObject
 )
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )
