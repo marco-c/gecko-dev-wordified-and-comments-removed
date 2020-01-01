@@ -171,6 +171,11 @@ nsIVersionComparator
 idl
 '
 '
+nsIVisualEventTracer
+.
+idl
+'
+'
 nsIWeakReference
 .
 idl
