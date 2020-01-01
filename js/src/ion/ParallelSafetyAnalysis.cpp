@@ -1123,11 +1123,11 @@ SAFE_OP
 (
 StringLength
 )
-UNSAFE_OP
+SAFE_OP
 (
 ArgumentsLength
 )
-UNSAFE_OP
+SAFE_OP
 (
 GetArgument
 )
