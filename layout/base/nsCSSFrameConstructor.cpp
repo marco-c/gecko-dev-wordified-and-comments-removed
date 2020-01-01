@@ -46207,7 +46207,7 @@ mChangeHint
 }
 count
 =
-mPendingRestyles
+aRestyles
 .
 Count
 (
