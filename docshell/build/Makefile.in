@@ -462,17 +462,6 @@ EXTRA_DSO_LIBS
 =
 gkgfx
 endif
-ifeq
-(
-(
-OS_ARCH
-)
-WINCE
-)
-EXTRA_DSO_LIBS
-=
-gkgfx
-endif
 CPPSRCS
 =
 \
