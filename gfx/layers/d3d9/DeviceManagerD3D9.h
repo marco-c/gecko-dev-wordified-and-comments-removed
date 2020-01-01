@@ -191,6 +191,7 @@ enum
 ShaderMode
 {
 RGBLAYER
+RGBALAYER
 YCBCRLAYER
 SOLIDCOLORLAYER
 }
@@ -277,6 +278,12 @@ nsRefPtr
 IDirect3DPixelShader9
 >
 mRGBPS
+;
+nsRefPtr
+<
+IDirect3DPixelShader9
+>
+mRGBAPS
 ;
 nsRefPtr
 <
