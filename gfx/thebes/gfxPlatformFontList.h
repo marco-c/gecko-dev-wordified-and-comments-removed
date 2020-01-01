@@ -196,6 +196,7 @@ Clear
 )
 ;
 }
+virtual
 void
 GetFontFamilyList
 (
