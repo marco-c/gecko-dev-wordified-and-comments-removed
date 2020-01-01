@@ -211,6 +211,16 @@ aPresContext
 )
 ;
 static
+PRBool
+AncestorsHaveStyleHeight
+(
+const
+nsHTMLReflowState
+&
+aParentReflowState
+)
+;
+static
 void
 CheckRequestSpecialHeightReflow
 (
