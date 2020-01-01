@@ -1,7 +1,11 @@
 #
 include
 "
-nsSVGAnimationElement
+mozilla
+/
+dom
+/
+SVGAnimationElement
 .
 h
 "
@@ -47,26 +51,25 @@ nsContentUtils
 .
 h
 "
-using
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-;
+{
 NS_IMPL_ADDREF_INHERITED
 (
-nsSVGAnimationElement
-nsSVGAnimationElementBase
+SVGAnimationElement
+SVGAnimationElementBase
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsSVGAnimationElement
-nsSVGAnimationElementBase
+SVGAnimationElement
+SVGAnimationElementBase
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-nsSVGAnimationElement
+SVGAnimationElement
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -82,16 +85,16 @@ nsIDOMSVGTests
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsSVGAnimationElementBase
+SVGAnimationElementBase
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsSVGAnimationElement
+SVGAnimationElement
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsSVGAnimationElement
-nsSVGAnimationElementBase
+SVGAnimationElement
+SVGAnimationElementBase
 )
 tmp
 -
@@ -114,8 +117,8 @@ Unlink
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsSVGAnimationElement
-nsSVGAnimationElementBase
+SVGAnimationElement
+SVGAnimationElementBase
 )
 tmp
 -
@@ -159,10 +162,10 @@ disable
 )
 #
 endif
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
-nsSVGAnimationElement
+SVGAnimationElement
 (
 already_AddRefed
 <
@@ -171,7 +174,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-nsSVGAnimationElementBase
+SVGAnimationElementBase
 (
 aNodeInfo
 )
@@ -193,7 +196,7 @@ endif
 {
 }
 nsresult
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 Init
@@ -203,7 +206,7 @@ Init
 nsresult
 rv
 =
-nsSVGAnimationElementBase
+SVGAnimationElementBase
 :
 :
 Init
@@ -249,7 +252,7 @@ NS_OK
 const
 Element
 &
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 AsElement
@@ -264,7 +267,7 @@ this
 }
 Element
 &
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 AsElement
@@ -277,7 +280,7 @@ this
 ;
 }
 bool
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 PassesConditionalProcessingTests
@@ -296,7 +299,7 @@ PassesConditionalProcessingTests
 const
 nsAttrValue
 *
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 GetAnimAttr
@@ -318,7 +321,7 @@ kNameSpaceID_None
 ;
 }
 bool
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 GetAnimAttr
@@ -342,7 +345,7 @@ aResult
 ;
 }
 bool
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 HasAnimAttr
@@ -363,7 +366,7 @@ aAttName
 }
 Element
 *
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 GetTargetElementContent
@@ -455,7 +458,7 @@ nullptr
 ;
 }
 bool
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 GetTargetAttributeName
@@ -544,7 +547,7 @@ aLocalName
 ;
 }
 nsSMILTargetAttrType
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 GetTargetAttributeType
@@ -616,7 +619,7 @@ eSMILTargetAttrType_auto
 }
 nsSMILTimedElement
 &
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 TimedElement
@@ -628,7 +631,7 @@ mTimedElement
 ;
 }
 NS_IMETHODIMP
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 GetTargetElement
@@ -675,7 +678,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 GetStartTime
@@ -732,7 +735,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 GetCurrentTime
@@ -789,7 +792,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 GetSimpleDuration
@@ -851,7 +854,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 BindToTree
@@ -903,7 +906,7 @@ cleared
 nsresult
 rv
 =
-nsSVGAnimationElementBase
+SVGAnimationElementBase
 :
 :
 BindToTree
@@ -1018,7 +1021,7 @@ NS_OK
 ;
 }
 void
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 UnbindFromTree
@@ -1072,7 +1075,7 @@ AnimationNeedsResample
 (
 )
 ;
-nsSVGAnimationElementBase
+SVGAnimationElementBase
 :
 :
 UnbindFromTree
@@ -1083,7 +1086,7 @@ aNullParent
 ;
 }
 bool
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 ParseAttribute
@@ -1223,7 +1226,7 @@ true
 }
 }
 return
-nsSVGAnimationElementBase
+SVGAnimationElementBase
 :
 :
 ParseAttribute
@@ -1236,7 +1239,7 @@ aResult
 ;
 }
 nsresult
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 AfterSetAttr
@@ -1257,7 +1260,7 @@ aNotify
 nsresult
 rv
 =
-nsSVGAnimationElementBase
+SVGAnimationElementBase
 :
 :
 AfterSetAttr
@@ -1354,7 +1357,7 @@ rv
 ;
 }
 nsresult
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 UnsetAttr
@@ -1371,7 +1374,7 @@ aNotify
 nsresult
 rv
 =
-nsSVGAnimationElementBase
+SVGAnimationElementBase
 :
 :
 UnsetAttr
@@ -1426,7 +1429,7 @@ NS_OK
 ;
 }
 bool
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 IsNodeOfType
@@ -1451,7 +1454,7 @@ eANIMATION
 ;
 }
 void
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 ActivateByHyperlink
@@ -1525,7 +1528,7 @@ BeginElement
 }
 nsSMILTimeContainer
 *
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 GetTimeContainer
@@ -1563,7 +1566,7 @@ nullptr
 ;
 }
 NS_IMETHODIMP
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 BeginElement
@@ -1581,7 +1584,7 @@ f
 ;
 }
 NS_IMETHODIMP
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 BeginElementAt
@@ -1633,7 +1636,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 EndElement
@@ -1651,7 +1654,7 @@ f
 ;
 }
 NS_IMETHODIMP
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 EndElementAt
@@ -1703,7 +1706,7 @@ NS_OK
 ;
 }
 bool
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 IsEventAttributeName
@@ -1725,7 +1728,7 @@ EventNameType_SMIL
 ;
 }
 void
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 UpdateHrefTarget
@@ -1785,7 +1788,7 @@ AnimationTargetChanged
 ;
 }
 void
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 AnimationTargetChanged
@@ -1805,4 +1808,6 @@ AnimationNeedsResample
 (
 )
 ;
+}
+}
 }
