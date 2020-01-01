@@ -1044,6 +1044,9 @@ aCompositor
 ;
 }
 }
+#
+ifdef
+MOZ_DUMP_PAINTING
 void
 ContentHostBase
 :
@@ -1243,6 +1246,8 @@ ul
 ;
 }
 }
+#
+endif
 ContentHostSingleBuffered
 :
 :
@@ -3739,6 +3744,9 @@ get
 }
 #
 endif
+#
+ifdef
+MOZ_DUMP_PAINTING
 void
 ContentHostDoubleBuffered
 :
@@ -3949,6 +3957,8 @@ ul
 ;
 }
 }
+#
+endif
 LayerRenderState
 ContentHostBase
 :

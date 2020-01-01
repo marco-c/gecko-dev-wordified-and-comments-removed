@@ -256,7 +256,7 @@ mImageClient
 mImageClient
 -
 >
-Detach
+OnDetach
 (
 )
 ;

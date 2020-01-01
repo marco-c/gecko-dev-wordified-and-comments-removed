@@ -1251,12 +1251,11 @@ IsValid
 const
 {
 return
+!
+!
 gl
 (
 )
-!
-=
-nullptr
 ;
 }
 gl
@@ -1446,7 +1445,7 @@ mTextureSource
 new
 SharedTextureSourceOGL
 (
-nullptr
+mCompositor
 mSharedHandle
 handleDetails
 .

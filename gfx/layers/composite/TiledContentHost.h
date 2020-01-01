@@ -705,6 +705,9 @@ aCompositor
 )
 MOZ_OVERRIDE
 ;
+#
+ifdef
+MOZ_DUMP_PAINTING
 virtual
 void
 Dump
@@ -728,6 +731,8 @@ false
 )
 MOZ_OVERRIDE
 ;
+#
+endif
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG

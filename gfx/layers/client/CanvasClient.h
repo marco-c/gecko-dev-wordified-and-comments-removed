@@ -233,7 +233,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-Detach
+OnDetach
 (
 )
 MOZ_OVERRIDE

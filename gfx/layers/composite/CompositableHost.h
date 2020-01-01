@@ -555,6 +555,9 @@ return
 mAttached
 ;
 }
+#
+ifdef
+MOZ_DUMP_PAINTING
 virtual
 void
 Dump
@@ -602,9 +605,6 @@ TextureHost
 aTexture
 )
 ;
-#
-ifdef
-MOZ_DUMP_PAINTING
 virtual
 already_AddRefed
 <

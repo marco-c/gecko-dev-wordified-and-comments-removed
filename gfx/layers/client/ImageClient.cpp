@@ -211,7 +211,7 @@ else
 result
 =
 new
-ImageClientSingle
+ImageClientBuffered
 (
 aForwarder
 aFlags
@@ -421,7 +421,7 @@ RefPtr
 <
 TextureClient
 >
-tex
+texture
 =
 image
 -
@@ -448,11 +448,11 @@ mFrontBuffer
 }
 mFrontBuffer
 =
-tex
+texture
 ;
 AddTextureClient
 (
-tex
+texture
 )
 ;
 GetForwarder
@@ -463,7 +463,7 @@ GetForwarder
 UpdatedTexture
 (
 this
-tex
+texture
 nullptr
 )
 ;
@@ -475,7 +475,7 @@ GetForwarder
 UseTexture
 (
 this
-tex
+texture
 )
 ;
 }
@@ -1098,7 +1098,7 @@ void
 ImageClientSingle
 :
 :
-Detach
+OnDetach
 (
 )
 {
@@ -1111,7 +1111,7 @@ void
 ImageClientBuffered
 :
 :
-Detach
+OnDetach
 (
 )
 {

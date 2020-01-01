@@ -180,7 +180,7 @@ aContentFlags
 ;
 virtual
 void
-Detach
+OnDetach
 (
 )
 MOZ_OVERRIDE
@@ -263,7 +263,7 @@ aContentFlags
 ;
 virtual
 void
-Detach
+OnDetach
 (
 )
 MOZ_OVERRIDE

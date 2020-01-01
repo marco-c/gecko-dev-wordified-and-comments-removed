@@ -1554,10 +1554,6 @@ OpContentBufferSwap
 ;
 OpTextureSwap
 ;
-/
-/
-new
-stuff
 ReplyTextureRemoved
 ;
 }

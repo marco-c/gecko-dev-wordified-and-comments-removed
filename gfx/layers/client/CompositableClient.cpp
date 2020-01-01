@@ -150,7 +150,7 @@ MOZ_ASSERT
 (
 mTexturesToRemove
 .
-size
+Length
 (
 )
 =
@@ -161,7 +161,7 @@ would
 leak
 textures
 pending
-fore
+for
 deletion
 "
 )
@@ -870,7 +870,7 @@ aClient
 ;
 mTexturesToRemove
 .
-push_back
+AppendElement
 (
 aClient
 -
@@ -908,7 +908,7 @@ i
 <
 mTexturesToRemove
 .
-size
+Length
 (
 )
 ;
@@ -932,7 +932,7 @@ i
 }
 mTexturesToRemove
 .
-clear
+Clear
 (
 )
 ;

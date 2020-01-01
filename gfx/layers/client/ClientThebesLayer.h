@@ -103,7 +103,7 @@ mContentClient
 mContentClient
 -
 >
-Detach
+OnDetach
 (
 )
 ;
