@@ -7494,7 +7494,6 @@ parent
 =
 JS_GetParent
 (
-aCx
 JSVAL_TO_OBJECT
 (
 aObject

@@ -7387,7 +7387,6 @@ m_scope
 =
 JS_GetParent
 (
-cx
 script_obj
 )
 ;

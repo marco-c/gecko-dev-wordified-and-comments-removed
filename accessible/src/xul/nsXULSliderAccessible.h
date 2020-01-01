@@ -31,9 +31,9 @@ nsXULSliderAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -170,9 +170,9 @@ nsXULThumbAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 virtual

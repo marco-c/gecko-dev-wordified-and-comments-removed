@@ -2909,7 +2909,6 @@ GetJSPrivateSafeish
 DedicatedWorkerGlobalScope
 >
 (
-aCx
 aObj
 )
 )
@@ -2924,24 +2923,12 @@ DedicatedWorkerGlobalScope
 aWorkerPrivate
 )
 ;
-if
-(
-!
 SetJSPrivateSafeish
 (
-aCx
 aObj
 priv
 )
-)
-{
-delete
-priv
 ;
-return
-false
-;
-}
 return
 true
 ;
@@ -3236,7 +3223,6 @@ GetJSPrivateSafeish
 DedicatedWorkerGlobalScope
 >
 (
-aCx
 aObj
 )
 ;
@@ -3376,7 +3362,6 @@ GetJSPrivateSafeish
 DedicatedWorkerGlobalScope
 >
 (
-aCx
 aObj
 )
 ;
@@ -3431,10 +3416,6 @@ GetJSPrivateSafeish
 DedicatedWorkerGlobalScope
 >
 (
-aTrc
--
->
-context
 aObj
 )
 ;
@@ -3724,7 +3705,6 @@ GetJSPrivateSafeish
 WorkerGlobalScope
 >
 (
-aCx
 aObj
 )
 ;

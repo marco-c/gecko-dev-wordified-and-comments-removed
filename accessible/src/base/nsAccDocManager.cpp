@@ -1346,18 +1346,6 @@ return
 nsnull
 ;
 }
-nsCOMPtr
-<
-nsIWeakReference
->
-weakShell
-(
-do_GetWeakReference
-(
-presShell
-)
-)
-;
 nsRefPtr
 <
 nsDocAccessible
@@ -1371,7 +1359,7 @@ nsRootAccessibleWrap
 (
 aDocument
 rootElm
-weakShell
+presShell
 )
 :
 new
@@ -1379,7 +1367,7 @@ nsDocAccessibleWrap
 (
 aDocument
 rootElm
-weakShell
+presShell
 )
 ;
 if

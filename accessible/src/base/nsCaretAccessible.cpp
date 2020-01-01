@@ -1214,7 +1214,7 @@ event
 mLastTextAccessible
 -
 >
-GetDocAccessible
+Document
 (
 )
 -
@@ -1278,7 +1278,7 @@ event
 textAcc
 -
 >
-GetDocAccessible
+Document
 (
 )
 -

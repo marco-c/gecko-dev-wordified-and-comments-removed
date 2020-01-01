@@ -194,6 +194,9 @@ float
 aFillOrStrokeOpacity
 )
 ;
+nsRect
+mCoveredRegion
+;
 private
 :
 bool

@@ -750,6 +750,8 @@ MainThreadSyncRunnable
 WorkerPrivate
 *
 aWorkerPrivate
+ClearingBehavior
+aClearingBehavior
 PRUint32
 aSyncQueueKey
 bool
@@ -761,6 +763,7 @@ WorkerSyncRunnable
 aWorkerPrivate
 aSyncQueueKey
 aBypassSyncEventQueue
+aClearingBehavior
 )
 {
 AssertIsOnMainThread
@@ -828,6 +831,8 @@ MainThreadProxyRunnable
 WorkerPrivate
 *
 aWorkerPrivate
+ClearingBehavior
+aClearingBehavior
 Proxy
 *
 aProxy
@@ -836,6 +841,7 @@ aProxy
 MainThreadSyncRunnable
 (
 aWorkerPrivate
+aClearingBehavior
 aProxy
 -
 >
@@ -987,6 +993,7 @@ aXHRPrivate
 MainThreadProxyRunnable
 (
 aWorkerPrivate
+RunWhenClearing
 aProxy
 )
 mXMLHttpRequestPrivate
@@ -1502,6 +1509,7 @@ aProxy
 -
 >
 mWorkerPrivate
+SkipWhenClearing
 aProxy
 )
 mType
@@ -1588,6 +1596,7 @@ aProxy
 -
 >
 mWorkerPrivate
+SkipWhenClearing
 aProxy
 )
 mType
@@ -2780,6 +2789,7 @@ aErrorCode
 MainThreadProxyRunnable
 (
 aWorkerPrivate
+SkipWhenClearing
 aProxy
 )
 mSyncQueueKey
@@ -6798,7 +6808,6 @@ EventTarget
 :
 FromJSObject
 (
-aCx
 mUploadJSObject
 )
 ;
@@ -7046,7 +7055,6 @@ EventTarget
 :
 FromJSObject
 (
-aCx
 mUploadJSObject
 )
 ;

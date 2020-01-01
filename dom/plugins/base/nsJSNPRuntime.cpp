@@ -4280,7 +4280,6 @@ NPObject
 :
 JS_GetPrivate
 (
-cx
 obj
 )
 ;
@@ -4547,9 +4546,6 @@ NPObject
 *
 GetNPObject
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -4576,7 +4572,6 @@ obj
 :
 JS_GetPrototype
 (
-cx
 obj
 )
 ;
@@ -4600,7 +4595,6 @@ NPObject
 :
 JS_GetPrivate
 (
-cx
 obj
 )
 ;
@@ -4628,7 +4622,6 @@ npobj
 =
 GetNPObject
 (
-cx
 obj
 )
 ;
@@ -4822,7 +4815,6 @@ npobj
 =
 GetNPObject
 (
-cx
 obj
 )
 ;
@@ -4989,7 +4981,6 @@ npobj
 =
 GetNPObject
 (
-cx
 obj
 )
 ;
@@ -5267,7 +5258,6 @@ npobj
 =
 GetNPObject
 (
-cx
 obj
 )
 ;
@@ -5690,7 +5680,6 @@ obj
 :
 JS_GetPrototype
 (
-cx
 obj
 )
 ;
@@ -5733,7 +5722,6 @@ NPObject
 :
 JS_GetPrivate
 (
-cx
 obj
 )
 ;
@@ -6375,7 +6363,6 @@ npobj
 =
 GetNPObject
 (
-cx
 obj
 )
 ;
@@ -6745,7 +6732,6 @@ npobj
 =
 GetNPObject
 (
-cx
 obj
 )
 ;
@@ -7163,7 +7149,6 @@ NPObject
 :
 JS_GetPrivate
 (
-cx
 obj
 )
 ;
@@ -7389,28 +7374,10 @@ entry
 mJSObj
 )
 {
-JSContext
-*
-cx
-=
-GetJSContext
-(
-entry
--
->
-mNpp
-)
-;
-if
-(
-cx
-)
-{
 :
 :
 JS_SetPrivate
 (
-cx
 entry
 -
 >
@@ -7418,7 +7385,6 @@ mJSObj
 nsnull
 )
 ;
-}
 PL_DHashTableRawRemove
 (
 &
@@ -7753,7 +7719,6 @@ obj
 :
 JS_SetPrivate
 (
-cx
 obj
 npobj
 )
@@ -8072,34 +8037,10 @@ npobj
 )
 ;
 }
-JSAutoEnterCompartment
-ac
-;
-if
-(
-ac
-.
-enter
-(
-nppcx
--
->
-cx
-entry
--
->
-mJSObj
-)
-)
-{
 :
 :
 JS_SetPrivate
 (
-nppcx
--
->
-cx
 entry
 -
 >
@@ -8107,7 +8048,6 @@ mJSObj
 nsnull
 )
 ;
-}
 table
 -
 >
@@ -8472,7 +8412,6 @@ proto
 :
 JS_GetPrototype
 (
-cx
 obj
 )
 )
@@ -8496,7 +8435,6 @@ proto
 :
 JS_GetPrototype
 (
-cx
 proto
 )
 ;
@@ -8777,7 +8715,6 @@ vp
 :
 JS_SetPrivate
 (
-cx
 memobj
 (
 void
@@ -8903,7 +8840,6 @@ obj
 :
 JS_GetPrototype
 (
-cx
 obj
 )
 ;
@@ -9123,7 +9059,6 @@ NPObjectMemberPrivate
 :
 JS_GetPrivate
 (
-cx
 obj
 )
 ;
@@ -9217,7 +9152,6 @@ npobj
 =
 GetNPObject
 (
-cx
 memberPrivate
 -
 >
@@ -9540,10 +9474,6 @@ NPObjectMemberPrivate
 :
 JS_GetPrivate
 (
-trc
--
->
-context
 obj
 )
 ;

@@ -1185,6 +1185,10 @@ test_font_inflation_reftests
 .
 html
 \
+test_bug725426
+.
+html
+\
 (
 NULL
 )

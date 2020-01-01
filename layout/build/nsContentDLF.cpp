@@ -1156,7 +1156,6 @@ pluginHost
 IsPluginEnabledForType
 (
 aContentType
-true
 )
 )
 )

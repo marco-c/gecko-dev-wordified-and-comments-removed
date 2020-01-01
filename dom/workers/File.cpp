@@ -207,21 +207,12 @@ if
 obj
 )
 {
-if
-(
-!
 JS_SetPrivate
 (
-aCx
 obj
 aBlob
 )
-)
-{
-return
-NULL
 ;
-}
 NS_ADDREF
 (
 aBlob
@@ -237,9 +228,6 @@ nsIDOMBlob
 *
 GetPrivate
 (
-JSContext
-*
-aCx
 JSObject
 *
 aObj
@@ -270,7 +258,6 @@ blob
 =
 GetPrivate
 (
-aCx
 aObj
 )
 ;
@@ -365,7 +352,6 @@ blob
 =
 GetPrivate
 (
-aCx
 aObj
 )
 ;
@@ -971,21 +957,12 @@ if
 obj
 )
 {
-if
-(
-!
 JS_SetPrivate
 (
-aCx
 obj
 aFile
 )
-)
-{
-return
-NULL
 ;
-}
 NS_ADDREF
 (
 aFile
@@ -1001,9 +978,6 @@ nsIDOMFile
 *
 GetPrivate
 (
-JSContext
-*
-aCx
 JSObject
 *
 aObj
@@ -1044,7 +1018,6 @@ nsISupports
 (
 JS_GetPrivate
 (
-aCx
 aObj
 )
 )
@@ -1112,7 +1085,6 @@ file
 =
 GetPrivate
 (
-aCx
 aObj
 )
 ;
@@ -1207,7 +1179,6 @@ file
 =
 GetPrivate
 (
-aCx
 aObj
 )
 ;
@@ -1508,9 +1479,6 @@ Blob
 :
 GetPrivate
 (
-JSContext
-*
-aCx
 JSObject
 *
 aObj
@@ -1562,7 +1530,6 @@ nsISupports
 (
 JS_GetPrivate
 (
-aCx
 aObj
 )
 )
@@ -1664,9 +1631,6 @@ nsIDOMBlob
 *
 GetDOMBlobFromJSObject
 (
-JSContext
-*
-aCx
 JSObject
 *
 aObj
@@ -1678,7 +1642,6 @@ Blob
 :
 GetPrivate
 (
-aCx
 aObj
 )
 ;
@@ -1710,9 +1673,6 @@ nsIDOMFile
 *
 GetDOMFileFromJSObject
 (
-JSContext
-*
-aCx
 JSObject
 *
 aObj
@@ -1724,7 +1684,6 @@ File
 :
 GetPrivate
 (
-aCx
 aObj
 )
 ;

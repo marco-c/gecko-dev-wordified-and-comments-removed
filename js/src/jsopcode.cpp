@@ -26883,9 +26883,6 @@ break
 case
 JSOP_DEFFUN
 :
-case
-JSOP_DEFFUN_FC
-:
 fun
 =
 jp
@@ -26909,8 +26906,6 @@ todo
 ;
 goto
 do_function
-;
-break
 ;
 case
 JSOP_HOLE

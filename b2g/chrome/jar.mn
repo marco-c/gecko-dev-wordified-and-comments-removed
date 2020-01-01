@@ -44,6 +44,9 @@ shell
 .
 js
 )
+#
+ifndef
+MOZ_TOUCH
 content
 /
 touch
@@ -56,6 +59,8 @@ touch
 .
 js
 )
+#
+endif
 content
 /
 commandUtil

@@ -81,7 +81,7 @@ NS_IACCESSIBILITYSERVICE_IID
 virtual
 nsAccessible
 *
-GetAccessibleInShell
+GetAccessible
 (
 nsINode
 *

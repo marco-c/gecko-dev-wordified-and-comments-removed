@@ -2677,18 +2677,6 @@ NS_IMETHODIMP
 nsDummyJavaPluginOwner
 :
 :
-ForceRedraw
-(
-)
-{
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-}
-NS_IMETHODIMP
-nsDummyJavaPluginOwner
-:
-:
 GetNetscapeWindow
 (
 void
@@ -7521,10 +7509,6 @@ parent
 =
 JS_GetParent
 (
-closure
--
->
-mCx
 value
 )
 ;
@@ -39637,7 +39621,6 @@ realProto
 =
 JS_GetPrototype
 (
-cx
 mJSObject
 )
 ;

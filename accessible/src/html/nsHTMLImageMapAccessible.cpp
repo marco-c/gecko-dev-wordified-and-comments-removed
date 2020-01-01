@@ -90,9 +90,9 @@ nsHTMLImageMapAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 nsIDOMHTMLMapElement
 *
 aMapElm
@@ -101,7 +101,7 @@ aMapElm
 nsHTMLImageAccessibleWrap
 (
 aContent
-aShell
+aDoc
 )
 mMapElement
 (
@@ -258,7 +258,7 @@ nsDocAccessible
 *
 document
 =
-GetDocAccessible
+Document
 (
 )
 ;
@@ -339,7 +339,7 @@ new
 nsHTMLAreaAccessible
 (
 areaContent
-mWeakShell
+mDoc
 )
 ;
 if
@@ -381,15 +381,15 @@ nsHTMLAreaAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 :
 nsHTMLLinkAccessible
 (
 aContent
-aShell
+aDoc
 )
 {
 }

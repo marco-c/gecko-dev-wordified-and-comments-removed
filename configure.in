@@ -43295,10 +43295,11 @@ MOZ_WEBSMS_BACKEND
 )
 if
 test
-MOZ_WEBSMS_BACKEND
 -
-eq
-1
+n
+"
+MOZ_WEBSMS_BACKEND
+"
 ;
 then
 AC_DEFINE
@@ -61230,6 +61231,8 @@ WRAP_LDFLAGS
 WRAP_LDFLAGS
 }
 -
+Wl
+-
 -
 wrap
 =
@@ -77204,7 +77207,9 @@ MOZ_OLD_LINKER
 "
 -
 a
+"
 ac_cv_func_dladdr
+"
 =
 no
 ;
@@ -77284,7 +77289,9 @@ MOZ_OLD_LINKER
 "
 -
 a
+"
 ac_cv_func_dladdr
+"
 =
 no
 ;

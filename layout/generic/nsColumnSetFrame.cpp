@@ -4518,12 +4518,10 @@ CheckInvalidateSizeChange
 aDesiredSize
 )
 ;
-FinishReflowWithAbsoluteFrames
+FinishAndStoreOverflow
 (
-aPresContext
+&
 aDesiredSize
-aReflowState
-aStatus
 )
 ;
 aDesiredSize

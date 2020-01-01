@@ -585,7 +585,6 @@ Op
 (
 JS_GetPrivate
 (
-cx
 ptrobj
 )
 )
@@ -684,7 +683,6 @@ JSPropertyOp
 (
 JS_GetPrivate
 (
-cx
 obj
 )
 )
@@ -827,7 +825,6 @@ pop
 ;
 JS_SetPrivate
 (
-cx
 ptrobj
 popp
 )
@@ -2342,7 +2339,7 @@ methodId
 ;
 }
 static
-JSBool
+bool
 ThrowCallFailed
 (
 JSContext
@@ -2657,7 +2654,7 @@ return
 false
 ;
 }
-void
+bool
 xpc_qsThrowMethodFailedWithDetails
 (
 JSContext
@@ -2675,6 +2672,7 @@ char
 memberName
 )
 {
+return
 ThrowCallFailed
 (
 cx

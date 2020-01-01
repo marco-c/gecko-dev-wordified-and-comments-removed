@@ -33,9 +33,9 @@ nsXULTreeGridAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -92,9 +92,9 @@ nsXULTreeGridRowAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 nsAccessible
 *
 aParent
@@ -259,9 +259,9 @@ nsXULTreeGridCellAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 nsXULTreeGridRowAccessible
 *
 aRowAcc
