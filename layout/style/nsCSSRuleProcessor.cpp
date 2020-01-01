@@ -5653,7 +5653,7 @@ AppendElement
 nsGkAtoms
 :
 :
-windows_theme_aero_light
+windows_theme_aero_lite
 )
 ;
 break
