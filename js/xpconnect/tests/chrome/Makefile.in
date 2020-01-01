@@ -221,6 +221,10 @@ test_bug801241
 .
 xul
 \
+test_bug812415
+.
+xul
+\
 test_APIExposer
 .
 xul

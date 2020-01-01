@@ -162,7 +162,7 @@ obj
 AccessCheck
 :
 :
-isChrome
+wrapperSubsumes
 (
 obj
 )
