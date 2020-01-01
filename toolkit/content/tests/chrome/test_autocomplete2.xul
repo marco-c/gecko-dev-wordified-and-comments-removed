@@ -966,7 +966,7 @@ highlightNonMatches
 true
 "
 ;
-is
+isnot
 (
 style
 .
@@ -981,7 +981,7 @@ cssText
 "
 rgb
 (
-0
+255
 0
 0
 )
@@ -993,8 +993,9 @@ and
 highlightNonMatches
 -
 should
+not
 be
-black
+red
 "
 )
 ;
@@ -1006,7 +1007,7 @@ highlightNonMatches
 false
 "
 ;
-is
+isnot
 (
 style
 .
@@ -1021,7 +1022,7 @@ cssText
 "
 rgb
 (
-0
+255
 0
 0
 )
@@ -1034,8 +1035,9 @@ not
 highlightNonMatches
 -
 should
+not
 be
-black
+red
 "
 )
 ;
@@ -1148,7 +1150,7 @@ highlightNonMatches
 false
 "
 ;
-is
+isnot
 (
 style
 .
@@ -1163,7 +1165,7 @@ cssText
 "
 rgb
 (
-0
+255
 0
 0
 )
@@ -1175,8 +1177,9 @@ not
 highlightNonMatches
 -
 should
+not
 be
-black
+red
 "
 )
 ;
