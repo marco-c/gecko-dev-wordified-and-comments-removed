@@ -430,6 +430,11 @@ PRUint32
 aScriptType
 )
 ;
+void
+Clear
+(
+)
+;
 }
 ;
 friend
