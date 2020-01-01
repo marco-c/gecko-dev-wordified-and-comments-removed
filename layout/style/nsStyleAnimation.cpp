@@ -9967,10 +9967,6 @@ aProperty
 ;
 if
 (
-!
-parser
-|
-|
 NS_FAILED
 (
 parser
