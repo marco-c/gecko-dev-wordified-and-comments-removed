@@ -3793,6 +3793,8 @@ RecreateFramesForContent
 nsIContent
 *
 aContent
+PRBool
+aAsyncInsert
 )
 ;
 PRBool

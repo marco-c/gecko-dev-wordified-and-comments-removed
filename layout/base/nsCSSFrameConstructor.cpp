@@ -22121,6 +22121,7 @@ GetDocument
 GetRootContent
 (
 )
+PR_FALSE
 )
 ;
 }
@@ -25090,6 +25091,7 @@ parentFrame
 GetContent
 (
 )
+PR_FALSE
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -25148,6 +25150,7 @@ parentFrame
 GetContent
 (
 )
+PR_FALSE
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -26348,6 +26351,7 @@ parentFrame
 GetContent
 (
 )
+PR_FALSE
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -26398,6 +26402,7 @@ parentFrame
 GetContent
 (
 )
+PR_FALSE
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -26454,6 +26459,7 @@ parentFrame
 GetContent
 (
 )
+PR_FALSE
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -28641,6 +28647,7 @@ parentFrame
 GetContent
 (
 )
+PR_FALSE
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -28709,6 +28716,7 @@ possibleMathMLAncestor
 GetContent
 (
 )
+PR_FALSE
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -28804,6 +28812,7 @@ grandparentFrame
 GetContent
 (
 )
+PR_TRUE
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -30399,6 +30408,7 @@ rv
 RecreateFramesForContent
 (
 aContent
+PR_FALSE
 )
 ;
 LAYOUT_PHASE_TEMP_REENTER
@@ -30839,6 +30849,7 @@ nsChangeHint_ReconstructFrame
 RecreateFramesForContent
 (
 content
+PR_FALSE
 )
 ;
 }
@@ -31214,6 +31225,7 @@ nsChangeHint_ReconstructFrame
 RecreateFramesForContent
 (
 aContent
+PR_FALSE
 )
 ;
 }
@@ -35670,6 +35682,7 @@ result
 RecreateFramesForContent
 (
 aContent
+PR_FALSE
 )
 ;
 }
@@ -36004,6 +36017,7 @@ GetParent
 GetContent
 (
 )
+PR_FALSE
 )
 ;
 return
@@ -36167,6 +36181,7 @@ parent
 GetContent
 (
 )
+PR_TRUE
 )
 ;
 return
@@ -36278,6 +36293,7 @@ parent
 GetContent
 (
 )
+PR_TRUE
 )
 ;
 return
@@ -36406,6 +36422,8 @@ RecreateFramesForContent
 nsIContent
 *
 aContent
+PRBool
+aAsyncInsert
 )
 {
 NS_ENSURE_TRUE
@@ -36545,6 +36563,7 @@ nonGeneratedAncestor
 GetContent
 (
 )
+aAsyncInsert
 )
 ;
 }
@@ -36644,6 +36663,24 @@ rv
 didReconstruct
 )
 {
+if
+(
+aAsyncInsert
+)
+{
+PostRestyleEvent
+(
+aContent
+nsReStyleHint
+(
+0
+)
+nsChangeHint_ReconstructFrame
+)
+;
+}
+else
+{
 rv
 =
 ContentInserted
@@ -36654,6 +36691,7 @@ indexInContainer
 mTempFrameTreeState
 )
 ;
+}
 }
 }
 #
@@ -43668,6 +43706,7 @@ aFrame
 GetContent
 (
 )
+PR_TRUE
 )
 ;
 return
@@ -44091,6 +44130,7 @@ aFrame
 GetContent
 (
 )
+PR_TRUE
 )
 ;
 return
@@ -44358,6 +44398,7 @@ endif
 RecreateFramesForContent
 (
 blockContent
+PR_TRUE
 )
 ;
 return
@@ -44520,6 +44561,7 @@ return
 RecreateFramesForContent
 (
 blockContent
+PR_TRUE
 )
 ;
 }
@@ -44538,6 +44580,7 @@ GetDocument
 GetRootContent
 (
 )
+PR_TRUE
 )
 ;
 }
@@ -45948,7 +45991,11 @@ Count
 (
 )
 ;
-if
+BeginUpdate
+(
+)
+;
+while
 (
 count
 )
@@ -46020,10 +46067,6 @@ Clear
 (
 )
 ;
-BeginUpdate
-(
-)
-;
 for
 (
 RestyleEnumerateData
@@ -46059,6 +46102,15 @@ mChangeHint
 )
 ;
 }
+count
+=
+mPendingRestyles
+.
+Count
+(
+)
+;
+}
 EndUpdate
 (
 )
@@ -46075,7 +46127,6 @@ VerifyStyleTree
 ;
 #
 endif
-}
 if
 (
 mRebuildAllStyleData
