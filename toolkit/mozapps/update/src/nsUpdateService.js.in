@@ -10738,6 +10738,11 @@ currentAddons
 length
 mode
 this
+Ci
+.
+nsIExtensionManager
+.
+UPDATE_WHEN_NEW_APP_DETECTED
 this
 .
 _update

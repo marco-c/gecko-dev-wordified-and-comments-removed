@@ -2591,6 +2591,11 @@ nsIExtensionManager
 .
 UPDATE_NOTIFY_NEWVERSION
 this
+CoI
+.
+nsIExtensionManager
+.
+UPDATE_WHEN_NEW_APP_DETECTED
 gUpdates
 .
 update
