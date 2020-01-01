@@ -403,6 +403,13 @@ gfxRect
 h
 "
 #
+include
+"
+ImageLayers
+.
+h
+"
+#
 define
 ICON_SIZE
 (
@@ -432,10 +439,6 @@ PRUint8
 -
 1
 )
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
