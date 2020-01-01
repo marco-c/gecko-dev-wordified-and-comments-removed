@@ -300,6 +300,11 @@ focusedElement
 {
 if
 (
+this
+.
+_focusedElement
+&
+&
 Cu
 .
 isDeadWrapper
