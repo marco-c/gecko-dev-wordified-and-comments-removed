@@ -10801,6 +10801,7 @@ nsGkAtoms
 _false
 eIgnoreCase
 )
+)
 return
 PR_FALSE
 ;
