@@ -290,6 +290,10 @@ mForceRedraw
 =
 true
 ;
+notifyLayerClientOfGeometryChange
+(
+)
+;
 }
 public
 Layer
@@ -651,6 +655,10 @@ requestRender
 (
 )
 ;
+notifyLayerClientOfGeometryChange
+(
+)
+;
 }
 public
 void
@@ -714,7 +722,7 @@ action
 )
 ;
 }
-public
+private
 void
 notifyLayerClientOfGeometryChange
 (
