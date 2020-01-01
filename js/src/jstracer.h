@@ -2627,7 +2627,6 @@ ExitType
 exitType
 )
 ;
-JS_REQUIRES_STACK
 bool
 guardNotGlobalObject
 (
