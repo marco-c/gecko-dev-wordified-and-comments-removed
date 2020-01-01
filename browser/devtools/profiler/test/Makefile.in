@@ -125,6 +125,10 @@ browser_profiler_escape
 .
 js
 \
+browser_profiler_gecko_data
+.
+js
+\
 head
 .
 js
