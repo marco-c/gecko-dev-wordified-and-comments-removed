@@ -946,8 +946,12 @@ aPrefName
 }
 mPrefName
 .
-Truncate
+AssignLiteral
 (
+"
+print
+.
+"
 )
 ;
 if
@@ -961,7 +965,7 @@ Length
 {
 mPrefName
 .
-Append
+AppendLiteral
 (
 "
 printer_
@@ -976,7 +980,7 @@ mPrefName
 ;
 mPrefName
 .
-Append
+AppendLiteral
 (
 "
 .
