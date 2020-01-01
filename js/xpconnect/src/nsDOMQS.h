@@ -363,10 +363,8 @@ JSContext
 *
 cx
 \
-JS
-:
-:
-HandleObject
+JSObject
+*
 obj
 \
 _interface
