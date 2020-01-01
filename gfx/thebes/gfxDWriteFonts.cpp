@@ -2344,7 +2344,7 @@ cairo_scaled_font_t
 *
 scaledFont
 =
-CairoScaledFont
+GetCairoScaledFont
 (
 )
 ;
@@ -2461,7 +2461,7 @@ cairo_scaled_font_t
 gfxDWriteFont
 :
 :
-CairoScaledFont
+GetCairoScaledFont
 (
 )
 {
@@ -3488,7 +3488,7 @@ nativeFont
 GetAdjustedSize
 (
 )
-CairoScaledFont
+GetCairoScaledFont
 (
 )
 )
