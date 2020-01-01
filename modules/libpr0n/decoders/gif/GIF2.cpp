@@ -1089,6 +1089,12 @@ stackp
 stack
 +
 MAX_BITS
+|
+|
+code
+>
+=
+MAX_BITS
 )
 return
 -
@@ -1605,6 +1611,7 @@ gs
 >
 datasize
 >
+=
 MAX_LZW_BITS
 )
 {
