@@ -619,7 +619,7 @@ length
 )
 ;
 let
-expected
+current
 =
 sites
 .
@@ -748,8 +748,8 @@ p
 ;
 is
 (
+current
 aSitesPattern
-expected
 "
 grid
 status
