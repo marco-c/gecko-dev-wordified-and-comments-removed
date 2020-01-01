@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+XPTInterfaceInfoManager
+.
+h
+"
+#
+include
+"
 xptiprivate
 .
 h
@@ -28,6 +37,9 @@ XPTI_STRUCT_ARENA_BLOCK_SIZE
 define
 XPTI_HASHTABLE_SIZE
 2048
+XPTInterfaceInfoManager
+:
+:
 xptiWorkingSet
 :
 :
@@ -108,6 +120,9 @@ PL_DHASH_NEXT
 ;
 }
 void
+XPTInterfaceInfoManager
+:
+:
 xptiWorkingSet
 :
 :
@@ -130,6 +145,9 @@ NULL
 )
 ;
 }
+XPTInterfaceInfoManager
+:
+:
 xptiWorkingSet
 :
 :
