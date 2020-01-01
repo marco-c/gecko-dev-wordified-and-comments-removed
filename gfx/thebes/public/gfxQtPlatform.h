@@ -151,6 +151,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxUserFontSet
+*
+aUserFontSet
 )
 ;
 FontFamily
