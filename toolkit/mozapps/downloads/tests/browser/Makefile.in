@@ -491,6 +491,10 @@ browser_bug_416303
 .
 js
 \
+browser_bug_429247
+.
+js
+\
 browser_cleanup_search
 .
 js
