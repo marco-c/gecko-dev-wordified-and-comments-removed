@@ -89,6 +89,10 @@ Init
 void
 NativeEventCallback
 (
+PRBool
+aAlwaysBlockNative
+=
+PR_FALSE
 )
 ;
 virtual
