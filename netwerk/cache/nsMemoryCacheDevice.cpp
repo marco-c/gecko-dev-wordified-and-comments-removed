@@ -1535,6 +1535,9 @@ ExpirationTime
 )
 =
 =
+nsICache
+:
+:
 NO_EXPIRATION_TIME
 )
 return
