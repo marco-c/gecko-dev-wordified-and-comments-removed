@@ -13,12 +13,10 @@ from
 automationutils
 import
 replaceBackSlashes
-from
-mozdevice
 import
 devicemanagerADB
 devicemanagerSUT
-DMError
+devicemanager
 here
 =
 os
