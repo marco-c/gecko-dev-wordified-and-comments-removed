@@ -63,7 +63,8 @@ aShell
 }
 DECL_IUNKNOWN_INHERITED
 NS_DECL_ISUPPORTS_INHERITED
-NS_IMETHOD
+virtual
+nsresult
 FireAccessibleEvent
 (
 nsIAccessibleEvent

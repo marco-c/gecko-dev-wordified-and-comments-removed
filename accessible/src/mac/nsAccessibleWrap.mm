@@ -1029,7 +1029,7 @@ Shutdown
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibleWrap
 :
 :
@@ -1235,7 +1235,7 @@ NS_OK
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
-nsresult
+void
 nsAccessibleWrap
 :
 :
@@ -1267,7 +1267,6 @@ invalidateChildren
 ]
 ;
 }
-return
 nsAccessible
 :
 :

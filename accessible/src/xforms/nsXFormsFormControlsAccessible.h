@@ -648,14 +648,6 @@ nsIWeakReference
 aShell
 )
 ;
-NS_IMETHOD
-GetAllowsAnonChildAccessibles
-(
-PRBool
-*
-aAllowsAnonChildren
-)
-;
 virtual
 nsresult
 GetRoleInternal
@@ -675,6 +667,12 @@ aState
 PRUint32
 *
 aExtraState
+)
+;
+virtual
+PRBool
+GetAllowsAnonChildAccessibles
+(
 )
 ;
 }

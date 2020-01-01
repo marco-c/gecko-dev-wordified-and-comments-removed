@@ -634,14 +634,6 @@ index
 )
 ;
 NS_IMETHOD
-GetAllowsAnonChildAccessibles
-(
-PRBool
-*
-aAllowsAnonChildren
-)
-;
-NS_IMETHOD
 GetAssociatedEditor
 (
 nsIEditor
@@ -669,6 +661,12 @@ aState
 PRUint32
 *
 aExtraState
+)
+;
+virtual
+PRBool
+GetAllowsAnonChildAccessibles
+(
 )
 ;
 protected

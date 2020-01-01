@@ -92,12 +92,10 @@ PRUint32
 aExtraState
 )
 ;
-NS_IMETHOD
+virtual
+PRBool
 GetAllowsAnonChildAccessibles
 (
-PRBool
-*
-aAllowsAnonChildren
 )
 ;
 protected

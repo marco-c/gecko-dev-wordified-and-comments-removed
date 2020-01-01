@@ -105,12 +105,13 @@ Shutdown
 )
 ;
 virtual
-nsresult
+void
 InvalidateChildren
 (
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 FireAccessibleEvent
 (
 nsIAccessibleEvent

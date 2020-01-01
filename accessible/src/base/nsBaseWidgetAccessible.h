@@ -73,14 +73,6 @@ PRInt32
 _retval
 )
 ;
-NS_IMETHOD
-GetAllowsAnonChildAccessibles
-(
-PRBool
-*
-aAllowsAnonChildren
-)
-;
 virtual
 nsresult
 GetChildAtPoint
@@ -95,6 +87,12 @@ nsIAccessible
 *
 *
 aChild
+)
+;
+virtual
+PRBool
+GetAllowsAnonChildAccessibles
+(
 )
 ;
 }

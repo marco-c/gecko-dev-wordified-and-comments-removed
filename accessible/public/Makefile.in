@@ -461,10 +461,6 @@ nsIAccessibleStates
 .
 idl
 \
-nsPIAccessible
-.
-idl
-\
 nsIAccessibleDocument
 .
 idl

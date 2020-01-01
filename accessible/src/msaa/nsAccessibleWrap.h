@@ -878,7 +878,8 @@ UINT
 puArgErr
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 FireAccessibleEvent
 (
 nsIAccessibleEvent
