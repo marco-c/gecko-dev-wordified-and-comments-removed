@@ -2862,8 +2862,7 @@ Env
 *
 >
 env
-Value
-*
+MutableHandleValue
 rval
 )
 {
@@ -2874,8 +2873,7 @@ env
 )
 {
 rval
--
->
+.
 setNull
 (
 )
@@ -3057,8 +3055,7 @@ false
 }
 }
 rval
--
->
+.
 setObject
 (
 *
@@ -17497,10 +17494,6 @@ args
 rval
 (
 )
-.
-address
-(
-)
 )
 ;
 }
@@ -21997,10 +21990,6 @@ args
 rval
 (
 )
-.
-address
-(
-)
 )
 ;
 }
@@ -25787,10 +25776,6 @@ args
 rval
 (
 )
-.
-address
-(
-)
 )
 ;
 }
@@ -26450,10 +26435,6 @@ env
 args
 .
 rval
-(
-)
-.
-address
 (
 )
 )
