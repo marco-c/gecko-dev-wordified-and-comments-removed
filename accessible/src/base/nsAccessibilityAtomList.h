@@ -120,6 +120,13 @@ ObjectFrame
 )
 ACCESSIBILITY_ATOM
 (
+placeholderFrame
+"
+PlaceholderFrame
+"
+)
+ACCESSIBILITY_ATOM
+(
 scrollFrame
 "
 ScrollFrame
