@@ -110,7 +110,7 @@ base
 /
 android
 -
-sync
+services
 -
 files
 .
@@ -1503,6 +1503,7 @@ db
 jars
 res
 sync
+services
 MOZ_ANDROID_SHARED_ID
 =
 "
@@ -9190,7 +9191,7 @@ marked
 as
 dependencies
 .
-SYNC_MANIFEST_FRAGMENTS
+SERVICES_MANIFEST_FRAGMENTS
 =
 (
 wildcard
@@ -9202,7 +9203,7 @@ mobile
 /
 android
 /
-sync
+services
 /
 manifests
 /
@@ -9257,7 +9258,7 @@ android
 )
 \
 (
-SYNC_MANIFEST_FRAGMENTS
+SERVICES_MANIFEST_FRAGMENTS
 )
 \
 WebAppManifestFragment

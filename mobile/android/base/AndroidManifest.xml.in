@@ -125,7 +125,7 @@ include
 .
 .
 /
-sync
+services
 /
 manifests
 /
@@ -1664,7 +1664,7 @@ include
 .
 .
 /
-sync
+services
 /
 manifests
 /
@@ -2247,7 +2247,7 @@ include
 .
 .
 /
-sync
+services
 /
 manifests
 /

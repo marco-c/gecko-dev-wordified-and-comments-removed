@@ -121,7 +121,7 @@ include
 .
 .
 /
-sync
+services
 /
 strings
 .
