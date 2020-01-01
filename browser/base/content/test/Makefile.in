@@ -656,6 +656,10 @@ browser_bug581947
 .
 js
 \
+browser_bug583890_label
+.
+js
+\
 browser_bug585785
 .
 js
