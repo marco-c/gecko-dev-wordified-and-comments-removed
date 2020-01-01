@@ -1785,13 +1785,7 @@ popupList
 ;
 }
 return
-nsBoxFrame
-:
-:
-GetAdditionalChildListName
-(
-aIndex
-)
+nsnull
 ;
 }
 void

@@ -10688,6 +10688,15 @@ nsGkAtoms
 :
 :
 inlineFrame
+|
+|
+frameType
+=
+=
+nsGkAtoms
+:
+:
+positionedInlineFrame
 )
 {
 switch
