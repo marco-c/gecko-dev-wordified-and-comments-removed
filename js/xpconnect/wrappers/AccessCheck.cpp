@@ -2582,6 +2582,7 @@ nsIDocument
 :
 :
 eNoExposedProps
+true
 )
 ;
 }
