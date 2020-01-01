@@ -801,10 +801,6 @@ test_audio2
 .
 html
 \
-test_autobuffer
-.
-html
-\
 test_autoplay
 .
 html
@@ -1041,7 +1037,7 @@ Bug
 493692
 :
 #
-test_autobuffer2
+test_preload_suspend
 .
 html
 #
