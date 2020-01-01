@@ -4427,6 +4427,15 @@ nsINode
 aNode
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 mObservers

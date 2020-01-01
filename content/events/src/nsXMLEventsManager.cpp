@@ -1305,6 +1305,15 @@ nsINode
 aNode
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 mIncomplete
 .
 Clear

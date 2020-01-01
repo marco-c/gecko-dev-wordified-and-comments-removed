@@ -6206,6 +6206,15 @@ nsINode
 aNode
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 ClearRows
 (
 )

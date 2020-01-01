@@ -4797,6 +4797,15 @@ nsINode
 aNode
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 NS_FAILED

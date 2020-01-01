@@ -674,6 +674,15 @@ nsINode
 aNode
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 mDocument
 =
 nsnull
