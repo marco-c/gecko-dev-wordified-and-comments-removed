@@ -527,14 +527,6 @@ Drawable
 favicon
 )
 {
-if
-(
-favicon
-!
-=
-null
-)
-{
 this
 .
 favicon
@@ -561,7 +553,6 @@ this
 id
 )
 ;
-}
 }
 public
 boolean
