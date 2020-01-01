@@ -9926,9 +9926,22 @@ aEnabled
 aFireTimeouts
 )
 {
-RunTimeout
+nsCOMPtr
+<
+nsIRunnable
+>
+event
+=
+NS_NEW_RUNNABLE_METHOD
 (
-nsnull
+nsGlobalWindow
+this
+RunTimeout
+)
+;
+NS_DispatchToCurrentThread
+(
+event
 )
 ;
 }
@@ -12614,7 +12627,7 @@ mDocShell
 return
 px
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -12667,7 +12680,7 @@ mDocShell
 return
 px
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -12720,7 +12733,7 @@ mDocShell
 return
 px
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -12787,7 +12800,7 @@ mDocShell
 return
 px
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -12877,7 +12890,7 @@ mDocShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -13136,7 +13149,7 @@ mDocShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -25897,7 +25910,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27788,6 +27801,7 @@ jsStateObj
 JSVAL_NULL
 ;
 nsAutoGCRoot
+root
 (
 &
 jsStateObj
@@ -27914,7 +27928,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -36515,7 +36529,7 @@ NS_OK
 ;
 }
 }
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

@@ -8891,7 +8891,7 @@ if
 shell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

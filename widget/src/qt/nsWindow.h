@@ -235,9 +235,6 @@ class
 MozQWidget
 ;
 class
-QGraphicsScene
-;
-class
 nsWindow
 :
 public
