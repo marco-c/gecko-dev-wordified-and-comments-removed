@@ -425,6 +425,7 @@ mk
 DIRS
 =
 chrome
+locales
 app
 components
 include
