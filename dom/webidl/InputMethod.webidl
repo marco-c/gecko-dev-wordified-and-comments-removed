@@ -680,6 +680,7 @@ contenteditable
 readonly
 attribute
 DOMString
+?
 type
 ;
 /
@@ -753,6 +754,7 @@ attribute
 readonly
 attribute
 DOMString
+?
 inputType
 ;
 /
@@ -817,6 +819,7 @@ attribute
 readonly
 attribute
 DOMString
+?
 inputMode
 ;
 /
@@ -874,6 +877,7 @@ htmlelement
 readonly
 attribute
 DOMString
+?
 lang
 ;
 /
