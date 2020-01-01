@@ -59,6 +59,9 @@ printStatus
 summary
 )
 ;
+var
+doc
+;
 if
 (
 typeof
@@ -70,10 +73,17 @@ undefined
 '
 )
 {
-document
+doc
 =
 {
 }
+;
+}
+else
+{
+doc
+=
+document
 ;
 }
 if
@@ -92,7 +102,7 @@ alert
 print
 ;
 }
-document
+doc
 .
 watch
 (
@@ -126,7 +136,7 @@ alert
 }
 )
 ;
-document
+doc
 .
 title
 =
@@ -134,7 +144,7 @@ title
 xxx
 "
 ;
-document
+doc
 .
 watch
 (
@@ -164,7 +174,7 @@ alert
 }
 )
 ;
-document
+doc
 .
 title
 =
