@@ -5,8 +5,6 @@ type
 "
 application
 /
-x
--
 javascript
 "
 src
