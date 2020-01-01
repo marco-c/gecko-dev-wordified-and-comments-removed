@@ -7874,13 +7874,6 @@ EAGER_ATOM_AND_CLASP
 Iterator
 )
 }
-{
-js_InitIteratorClasses
-EAGER_ATOM_AND_CLASP
-(
-Generator
-)
-}
 #
 endif
 {
@@ -8693,6 +8686,7 @@ obj
 >
 nativeContains
 (
+cx
 ATOM_TO_JSID
 (
 atom
@@ -9047,6 +9041,7 @@ obj
 >
 nativeContains
 (
+cx
 ATOM_TO_JSID
 (
 atom
@@ -16207,6 +16202,7 @@ obj
 >
 nativeContains
 (
+cx
 id
 )
 ;

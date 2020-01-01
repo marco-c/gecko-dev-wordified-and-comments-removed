@@ -20078,6 +20078,7 @@ obj
 >
 nativeContains
 (
+cx
 *
 shape
 )
@@ -20093,6 +20094,7 @@ obj2
 >
 nativeContains
 (
+cx
 *
 shape
 )
@@ -20989,18 +20991,11 @@ StackFrame
 *
 afp
 =
-reinterpret_cast
-<
-StackFrame
-*
->
-(
 argsobj
 -
 >
-getPrivate
+maybeStackFrame
 (
-)
 )
 )
 copyFrom

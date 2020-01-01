@@ -649,7 +649,7 @@ isNormalArguments
 )
 argsobj
 .
-setPrivate
+setStackFrame
 (
 this
 )
@@ -660,7 +660,7 @@ JS_ASSERT
 !
 argsobj
 .
-getPrivate
+maybeStackFrame
 (
 )
 )
