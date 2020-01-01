@@ -3985,15 +3985,6 @@ TabOpen
 "
 )
 ;
-BrowserUI
-.
-_titleChanged
-(
-newTab
-.
-browser
-)
-;
 return
 newTab
 ;
