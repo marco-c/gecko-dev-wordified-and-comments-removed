@@ -1123,10 +1123,10 @@ Always
 void
 ma_teq
 (
-Imm32
-imm
 Register
 src1
+Imm32
+imm
 Condition
 c
 =
@@ -1137,9 +1137,9 @@ void
 ma_teq
 (
 Register
-src2
-Register
 src1
+Register
+src2
 Condition
 c
 =
@@ -1162,10 +1162,10 @@ Always
 void
 ma_tst
 (
-Imm32
-imm
 Register
 src1
+Imm32
+imm
 Condition
 c
 =
@@ -3196,8 +3196,8 @@ ScratchRegister
 ;
 ma_tst
 (
-imm
 ScratchRegister
+imm
 )
 ;
 ma_b

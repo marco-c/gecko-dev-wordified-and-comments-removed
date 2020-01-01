@@ -5739,11 +5739,11 @@ masm
 .
 ma_tst
 (
+tmp
 Imm32
 (
 mask
 )
-tmp
 )
 ;
 return
