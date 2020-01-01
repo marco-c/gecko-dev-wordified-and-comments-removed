@@ -246,6 +246,10 @@ file_subscript_bindings
 .
 js
 \
+test_sandbox_eventhandler
+.
+xul
+\
 (
 NULL
 )
