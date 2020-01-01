@@ -5599,6 +5599,16 @@ and
 at
 least
 )
+#
+Also
+(
+temporary
+)
+bug
+870002
+(
+mediastreamgraph
+)
 if
 '
 NSPR_LOG_MODULES
@@ -5621,6 +5631,9 @@ signaling
 mtransport
 :
 3
+mediastreamgraph
+:
+4
 '
 env
 [
