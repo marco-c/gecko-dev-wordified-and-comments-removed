@@ -1141,6 +1141,10 @@ fe
 ValueRemat
 &
 vr
+bool
+breakDouble
+=
+true
 )
 ;
 void

@@ -1555,6 +1555,7 @@ pinEntry
 (
 arg
 vr
+false
 )
 ;
 RegisterID
