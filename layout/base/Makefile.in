@@ -552,6 +552,10 @@ nsStyleConsts
 .
 h
 \
+StackArena
+.
+h
+\
 (
 NULL
 )
@@ -673,6 +677,10 @@ nsStyleSheetService
 cpp
 \
 PaintTracker
+.
+cpp
+\
+StackArena
 .
 cpp
 \
