@@ -1958,12 +1958,6 @@ hidden
 =
 true
 ;
-this
-.
-openDefaultHistory
-(
-)
-;
 }
 else
 if
@@ -2584,6 +2578,12 @@ this
 _showMode
 (
 PANELMODE_EDIT
+)
+;
+this
+.
+openDefaultHistory
+(
 )
 ;
 break
