@@ -462,7 +462,7 @@ IDBCursorRequest
 .
 cpp
 \
-IDBDatabaseRequest
+IDBDatabase
 .
 cpp
 \
@@ -516,7 +516,7 @@ IDBCursorRequest
 .
 h
 \
-IDBDatabaseRequest
+IDBDatabase
 .
 h
 \
@@ -645,10 +645,6 @@ nsIIDBDatabase
 idl
 \
 nsIIDBDatabaseException
-.
-idl
-\
-nsIIDBDatabaseRequest
 .
 idl
 \

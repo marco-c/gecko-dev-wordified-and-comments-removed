@@ -26,7 +26,7 @@ dom
 /
 indexedDB
 /
-IDBDatabaseRequest
+IDBDatabase
 .
 h
 "
@@ -732,7 +732,7 @@ IDBObjectStoreRequest
 >
 Create
 (
-IDBDatabaseRequest
+IDBDatabase
 *
 aDatabase
 IDBTransaction
@@ -949,7 +949,7 @@ private
 :
 nsRefPtr
 <
-IDBDatabaseRequest
+IDBDatabase
 >
 mDatabase
 ;

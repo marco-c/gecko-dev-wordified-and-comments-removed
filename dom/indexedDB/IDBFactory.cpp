@@ -108,7 +108,7 @@ h
 #
 include
 "
-IDBDatabaseRequest
+IDBDatabase
 .
 h
 "
@@ -199,7 +199,7 @@ AsyncConnectionHelper
 (
 static_cast
 <
-IDBDatabaseRequest
+IDBDatabase
 *
 >
 (
@@ -4404,11 +4404,11 @@ forget
 }
 nsRefPtr
 <
-IDBDatabaseRequest
+IDBDatabase
 >
 db
 =
-IDBDatabaseRequest
+IDBDatabase
 :
 :
 Create

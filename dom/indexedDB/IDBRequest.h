@@ -53,7 +53,7 @@ class
 IDBFactory
 ;
 class
-IDBDatabaseRequest
+IDBDatabase
 ;
 class
 IDBRequest

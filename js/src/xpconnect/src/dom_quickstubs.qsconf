@@ -2660,11 +2660,6 @@ nsIIDBDatabaseException
 *
 '
 '
-nsIIDBDatabaseRequest
-.
-*
-'
-'
 nsIIDBEvent
 .
 *
