@@ -445,7 +445,7 @@ if
 doc
 -
 >
-GetDisplayDocument
+IsResourceDoc
 (
 )
 )
