@@ -626,6 +626,10 @@ utils
 .
 js
 \
+PlacesDBUtils
+.
+jsm
+\
 (
 NULL
 )
