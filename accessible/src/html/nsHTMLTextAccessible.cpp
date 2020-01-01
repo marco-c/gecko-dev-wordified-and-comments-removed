@@ -1114,7 +1114,7 @@ maxLength
 aText
 +
 =
-nsDependentSubstring
+Substring
 (
 mBulletText
 aStartOffset
