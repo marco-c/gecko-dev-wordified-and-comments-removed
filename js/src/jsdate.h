@@ -149,6 +149,12 @@ sec
 )
 ;
 extern
+void
+js_ClearDateCaches
+(
+)
+;
+extern
 JS_FRIEND_API
 (
 int
