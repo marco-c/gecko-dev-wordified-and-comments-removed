@@ -1299,8 +1299,6 @@ DIST
 )
 /
 include
-/
-widget
 endif
 ifdef
 DEBUG
