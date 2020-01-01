@@ -333,9 +333,11 @@ Open
 nsresult
 Build
 (
+const
 AddPrefixArray
 &
 aAddPrefixes
+const
 AddCompleteArray
 &
 aAddCompletes
@@ -442,6 +444,7 @@ LoadPrefixSet
 nsresult
 ConstructPrefixSet
 (
+const
 AddPrefixArray
 &
 aAddPrefixes

@@ -523,9 +523,11 @@ LookupCache
 :
 Build
 (
+const
 AddPrefixArray
 &
 aAddPrefixes
+const
 AddCompleteArray
 &
 aAddCompletes
@@ -605,12 +607,6 @@ CompleteHash
 )
 ;
 }
-aAddCompletes
-.
-Clear
-(
-)
-;
 mCompletions
 .
 Sort
@@ -3012,6 +3008,7 @@ LookupCache
 :
 ConstructPrefixSet
 (
+const
 AddPrefixArray
 &
 aAddPrefixes
@@ -3100,12 +3097,6 @@ ToUint32
 )
 ;
 }
-aAddPrefixes
-.
-Clear
-(
-)
-;
 if
 (
 array
