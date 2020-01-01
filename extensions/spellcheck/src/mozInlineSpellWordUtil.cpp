@@ -1224,6 +1224,13 @@ nsRange
 aRange
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aBegin
+.
+mNode
+)
+;
 if
 (
 !
@@ -1241,6 +1248,9 @@ range
 new
 nsRange
 (
+aBegin
+.
+mNode
 )
 ;
 nsresult

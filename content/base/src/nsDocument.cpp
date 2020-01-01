@@ -24386,6 +24386,7 @@ range
 new
 nsRange
 (
+this
 )
 ;
 nsresult
