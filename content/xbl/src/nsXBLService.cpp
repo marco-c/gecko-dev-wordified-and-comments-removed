@@ -767,6 +767,9 @@ PR_TRUE
 }
 }
 }
+#
+ifdef
+MOZ_SVG
 else
 if
 (
@@ -789,6 +792,8 @@ return
 PR_TRUE
 ;
 }
+#
+endif
 return
 PR_FALSE
 ;
