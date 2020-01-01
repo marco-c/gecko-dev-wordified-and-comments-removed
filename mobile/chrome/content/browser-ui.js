@@ -1947,6 +1947,15 @@ Browser
 .
 currentBrowser
 ;
+if
+(
+!
+browser
+.
+currentURI
+)
+return
+;
 var
 back
 =
