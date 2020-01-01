@@ -71,6 +71,13 @@ kThemeScrollBarArrowsBoth
 =
 2
 ;
+static
+const
+int
+kThemeScrollBarArrowsUpperLeft
+=
+3
+;
 typedef
 enum
 {

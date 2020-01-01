@@ -5610,6 +5610,15 @@ ConvertToPressState
 (
 buttonStates
 [
+1
+]
+kThemeBottomOutsideArrowPressed
+)
+|
+ConvertToPressState
+(
+buttonStates
+[
 2
 ]
 kThemeTopOutsideArrowPressed
