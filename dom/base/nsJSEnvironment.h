@@ -73,12 +73,12 @@ nsIXPConnectJSObjectHolder
 class
 nsAutoPoolRelease
 ;
+class
+JSAutoTempValueRooter
+;
 namespace
 js
 {
-class
-AutoArrayRooter
-;
 template
 <
 class
@@ -720,10 +720,7 @@ js
 :
 LazilyConstructed
 <
-js
-:
-:
-AutoArrayRooter
+JSAutoTempValueRooter
 >
 &
 aRooter

@@ -758,6 +758,10 @@ Link
 .
 cpp
 \
+nsFrameMessageManager
+.
+cpp
+\
 (
 NULL
 )
