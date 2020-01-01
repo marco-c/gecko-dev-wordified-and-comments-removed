@@ -3953,13 +3953,6 @@ LeaveTrace
 cx
 )
 ;
-AutoScriptRooter
-root
-(
-cx
-script
-)
-;
 ExecuteFrameGuard
 efg
 ;

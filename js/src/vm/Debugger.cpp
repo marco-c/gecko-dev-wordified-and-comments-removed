@@ -851,6 +851,8 @@ script
 -
 >
 compartment
+(
+)
 -
 >
 breakpointSites
@@ -2138,6 +2140,8 @@ script
 -
 >
 compartment
+(
+)
 -
 >
 clearBreakpointsIn
@@ -4354,6 +4358,8 @@ script
 -
 >
 compartment
+(
+)
 -
 >
 getDebuggees
@@ -9487,6 +9493,8 @@ script
 -
 >
 compartment
+(
+)
 )
 ;
 JS_ASSERT
@@ -9495,6 +9503,8 @@ script
 -
 >
 compartment
+(
+)
 =
 =
 obj
@@ -9677,6 +9687,8 @@ script
 -
 >
 compartment
+(
+)
 )
 ;
 ScriptMap
@@ -9773,6 +9785,8 @@ script
 -
 >
 compartment
+(
+)
 -
 >
 getDebuggees
@@ -12242,6 +12256,8 @@ script
 -
 >
 compartment
+(
+)
 ;
 jsbytecode
 *
@@ -12459,6 +12475,8 @@ script
 -
 >
 compartment
+(
+)
 ;
 for
 (
@@ -12682,6 +12700,8 @@ script
 -
 >
 compartment
+(
+)
 -
 >
 clearBreakpointsIn
@@ -12749,6 +12769,8 @@ script
 -
 >
 compartment
+(
+)
 -
 >
 clearBreakpointsIn
@@ -14838,7 +14860,7 @@ script
 return
 false
 ;
-bool
+JSBool
 ok
 =
 Execute
@@ -14858,11 +14880,10 @@ fp
 rval
 )
 ;
-js_DestroyScript
+js_CallDestroyScriptHook
 (
 cx
 script
-6
 )
 ;
 return

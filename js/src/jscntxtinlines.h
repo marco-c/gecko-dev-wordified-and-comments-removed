@@ -780,6 +780,8 @@ script
 -
 >
 compartment
+(
+)
 )
 ;
 if
