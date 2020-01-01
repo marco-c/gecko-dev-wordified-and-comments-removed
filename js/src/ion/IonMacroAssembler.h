@@ -282,6 +282,12 @@ GetIonContext
 >
 temp
 )
+{
+JS_ASSERT
+(
+cx
+)
+;
 alloc_
 .
 construct
@@ -289,6 +295,7 @@ construct
 cx
 )
 ;
+}
 #
 ifdef
 JS_CPU_ARM

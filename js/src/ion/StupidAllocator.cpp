@@ -245,6 +245,10 @@ virtualRegisters
 .
 infallibleAppend
 (
+(
+LDefinition
+*
+)
 NULL
 )
 ;
