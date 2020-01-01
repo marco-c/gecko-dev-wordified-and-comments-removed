@@ -344,10 +344,6 @@ IsTransportSeekable
 bool
 AreAllStreamsForResourceSuspended
 (
-MediaResource
-*
-*
-aActiveResource
 )
 ;
 nsresult
