@@ -1972,7 +1972,7 @@ Array
 *
 Create
 (
-PRUint16
+size_t
 aItemCount
 )
 {
@@ -1993,7 +1993,7 @@ operator
 [
 ]
 (
-PRUint16
+size_t
 aIndex
 )
 {
@@ -2023,7 +2023,7 @@ operator
 [
 ]
 (
-PRUint16
+size_t
 aIndex
 )
 const
@@ -2051,7 +2051,7 @@ nsCSSValue
 &
 Item
 (
-PRUint16
+size_t
 aIndex
 )
 {
@@ -2070,7 +2070,7 @@ nsCSSValue
 &
 Item
 (
-PRUint16
+size_t
 aIndex
 )
 const
@@ -2085,7 +2085,7 @@ aIndex
 ]
 ;
 }
-PRUint16
+size_t
 Count
 (
 )
@@ -2121,7 +2121,7 @@ PR_FALSE
 ;
 for
 (
-PRUint16
+size_t
 i
 =
 0
@@ -2167,7 +2167,11 @@ if
 mRefCnt
 =
 =
-PR_UINT16_MAX
+size_t
+(
+-
+1
+)
 )
 {
 NS_WARNING
@@ -2218,7 +2222,11 @@ if
 mRefCnt
 =
 =
-PR_UINT16_MAX
+size_t
+(
+-
+1
+)
 )
 {
 NS_WARNING
@@ -2266,11 +2274,11 @@ this
 }
 private
 :
-PRUint16
+size_t
 mRefCnt
 ;
 const
-PRUint16
+size_t
 mCount
 ;
 nsCSSValue
@@ -2286,7 +2294,7 @@ new
 (
 size_t
 aSelfSize
-PRUint16
+size_t
 aItemCount
 )
 CPP_THROW_NEW
@@ -2412,7 +2420,7 @@ var
 )
 Array
 (
-PRUint16
+size_t
 aItemCount
 )
 :
