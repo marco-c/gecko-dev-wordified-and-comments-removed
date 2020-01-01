@@ -2821,7 +2821,7 @@ jitflags
 default
 =
 '
-j
+mjp
 '
                   
 help
@@ -2835,6 +2835,7 @@ jitflags
 =
 j
 mj
+mjp
 to
 run
 each
@@ -2842,11 +2843,22 @@ test
 with
 -
 j
-and
 -
 m
 -
 j
+-
+m
+-
+j
+-
+p
+[
+default
+=
+%
+default
+]
 '
 )
     
