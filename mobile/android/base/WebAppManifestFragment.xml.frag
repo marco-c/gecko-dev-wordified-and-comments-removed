@@ -79,6 +79,13 @@ APPNUM
 "
 android
 :
+excludeFromRecents
+=
+"
+true
+"
+android
+:
 theme
 =
 "
