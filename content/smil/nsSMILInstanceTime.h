@@ -216,10 +216,6 @@ const
 nsSMILInstanceTime
 &
 aOther
-PRUint32
-aRecursionDepth
-=
-0
 )
 const
 ;
@@ -289,16 +285,6 @@ nsSMILInterval
 *
 aBaseInterval
 )
-;
-void
-BreakPotentialCycle
-(
-const
-nsSMILInstanceTime
-*
-aNewTail
-)
-const
 ;
 const
 nsSMILInstanceTime
