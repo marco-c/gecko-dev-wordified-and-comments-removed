@@ -2010,9 +2010,7 @@ AppProcessHasPermission
 (
 this
 "
-systemclock
--
-write
+time
 "
 )
 )
@@ -2051,9 +2049,7 @@ AppProcessHasPermission
 (
 this
 "
-systemclock
--
-write
+time
 "
 )
 )
@@ -2091,9 +2087,7 @@ AppProcessHasPermission
 (
 this
 "
-systemclock
--
-read
+time
 "
 )
 )
