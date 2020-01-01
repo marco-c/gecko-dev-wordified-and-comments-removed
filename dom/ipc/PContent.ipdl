@@ -1928,6 +1928,15 @@ AudioChannelChangedNotification
 )
 ;
 async
+AudioChannelChangeDefVolChannel
+(
+AudioChannelType
+aType
+bool
+aHidden
+)
+;
+async
 FilePathUpdateNotify
 (
 nsString

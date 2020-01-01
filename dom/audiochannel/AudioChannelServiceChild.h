@@ -90,6 +90,16 @@ bool
 aMozHidden
 )
 ;
+virtual
+void
+SetDefaultVolumeControlChannel
+(
+AudioChannelType
+aType
+bool
+aHidden
+)
+;
 protected
 :
 AudioChannelServiceChild
