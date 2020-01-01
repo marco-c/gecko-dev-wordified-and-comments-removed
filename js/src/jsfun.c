@@ -3786,16 +3786,6 @@ return
 JS_TRUE
 ;
 }
-if
-(
-!
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
-)
-{
 atom
 =
 cx
@@ -3852,7 +3842,6 @@ obj
 return
 JS_TRUE
 ;
-}
 }
 return
 JS_TRUE
