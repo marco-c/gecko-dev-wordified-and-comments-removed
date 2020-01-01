@@ -564,6 +564,7 @@ __delete__
 ;
 PHttpChannel
 (
+nullable
 PIFrameEmbedding
 iframeEmbedding
 )
