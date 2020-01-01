@@ -649,7 +649,7 @@ masm
 .
 align
 (
-16
+SizeOfJumpTableEntry
 )
 ;
 extendedJumpTable_
