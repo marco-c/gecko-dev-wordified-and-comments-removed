@@ -4542,7 +4542,7 @@ if
 (
 Type
 >
-5
+4
 )
 {
 cmsSignalError
@@ -5023,7 +5023,7 @@ if
 (
 Type
 >
-5
+4
 )
 {
 cmsSignalError
