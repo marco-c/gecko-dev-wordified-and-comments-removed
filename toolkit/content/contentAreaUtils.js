@@ -839,6 +839,7 @@ interfaces
 .
 nsIDOMWindowUtils
 )
+.
 getDocumentMetadata
 (
 "
