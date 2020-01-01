@@ -3330,6 +3330,9 @@ resource
 (
 PRECOMPILE_RESOURCE
 )
+else
+GENERATE_CACHE
+=
 endif
 endif
 GENERATE_CACHE
