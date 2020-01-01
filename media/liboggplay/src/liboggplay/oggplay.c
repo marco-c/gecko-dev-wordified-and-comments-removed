@@ -2537,6 +2537,11 @@ chunk_count
 =
 0
 ;
+int
+read_data
+=
+0
+;
 if
 (
 me
@@ -2713,6 +2718,10 @@ remaining
 =
 =
 0
+&
+&
+!
+read_data
 )
 {
 return
@@ -3003,6 +3012,10 @@ E_OGGPLAY_OUT_OF_MEMORY
 ;
 default
 :
+read_data
+=
+1
+;
 break
 ;
 }

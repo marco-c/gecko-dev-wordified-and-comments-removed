@@ -848,3 +848,10 @@ p3
 bug519155
 .
 patch
+patch
+-
+p3
+<
+bug520493
+.
+patch
