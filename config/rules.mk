@@ -192,7 +192,6 @@ moz
 .
 build
 files
-.
 )
 \
 )
