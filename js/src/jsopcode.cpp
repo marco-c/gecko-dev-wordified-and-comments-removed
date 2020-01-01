@@ -3576,7 +3576,7 @@ JOF_OBJECT
 {
 if
 (
-cx
+script
 -
 >
 compartment
