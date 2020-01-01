@@ -5588,14 +5588,9 @@ GetXULWindowWidget
 ;
 if
 (
-!
 window
-)
-return
-nsnull
-;
-if
-(
+&
+&
 window
 -
 >
