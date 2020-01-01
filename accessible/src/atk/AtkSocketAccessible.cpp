@@ -502,9 +502,9 @@ AtkSocketAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 const
 nsCString
 &
@@ -514,7 +514,7 @@ aPlugId
 nsAccessibleWrap
 (
 aContent
-aShell
+aDoc
 )
 {
 mAtkObject

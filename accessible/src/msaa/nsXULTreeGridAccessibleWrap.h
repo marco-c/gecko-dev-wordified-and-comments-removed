@@ -40,9 +40,9 @@ nsXULTreeGridAccessibleWrap
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 DECL_IUNKNOWN_INHERITED
@@ -64,9 +64,9 @@ nsXULTreeGridCellAccessibleWrap
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 nsXULTreeGridRowAccessible
 *
 aRowAcc
