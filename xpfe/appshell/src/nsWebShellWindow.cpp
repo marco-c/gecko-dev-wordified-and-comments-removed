@@ -662,7 +662,6 @@ parentWidget
 nullptr
 r
 nullptr
-nullptr
 &
 widgetInitData
 )

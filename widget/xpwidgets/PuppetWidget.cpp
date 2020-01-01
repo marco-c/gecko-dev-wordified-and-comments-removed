@@ -333,8 +333,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext
@@ -362,7 +360,6 @@ BaseCreate
 (
 nullptr
 aRect
-aHandleEventFunction
 aContext
 aInitData
 )
@@ -515,8 +512,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext
@@ -569,7 +564,6 @@ nullptr
 this
 nullptr
 aRect
-aHandleEventFunction
 aContext
 aInitData
 )
@@ -1077,11 +1071,10 @@ nsEventStatus_eIgnore
 ;
 NS_ABORT_IF_FALSE
 (
-mViewCallback
+mViewWrapperPtr
 "
 No
-view
-callback
+listener
 !
 "
 )
@@ -1197,12 +1190,13 @@ break
 }
 aStatus
 =
-(
-*
-mViewCallback
-)
+mViewWrapperPtr
+-
+>
+HandleEvent
 (
 event
+mUseAttachedEvents
 )
 ;
 if

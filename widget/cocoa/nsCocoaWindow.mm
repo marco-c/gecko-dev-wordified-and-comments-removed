@@ -1461,8 +1461,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext
@@ -1696,7 +1694,6 @@ BaseCreate
 (
 aParent
 newBounds
-aHandleEventFunction
 aContext
 aInitData
 )
@@ -1789,7 +1786,6 @@ return
 CreatePopupContentView
 (
 newBounds
-aHandleEventFunction
 aContext
 )
 ;
@@ -3003,8 +2999,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext
@@ -3065,7 +3059,6 @@ Create
 thisAsWidget
 nullptr
 aRect
-aHandleEventFunction
 aContext
 nullptr
 )
@@ -9226,16 +9219,17 @@ aWidget
 ;
 if
 (
-mEventCallback
+mWidgetListener
 )
 aStatus
 =
-(
-*
-mEventCallback
-)
+mWidgetListener
+-
+>
+HandleEvent
 (
 event
+mUseAttachedEvents
 )
 ;
 NS_IF_RELEASE

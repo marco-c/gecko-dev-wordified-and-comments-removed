@@ -251,15 +251,6 @@ PRInt32
 aY
 )
 ;
-static
-nsEventStatus
-HandleEvent
-(
-nsGUIEvent
-*
-aEvent
-)
-;
 nsCOMPtr
 <
 nsITimer

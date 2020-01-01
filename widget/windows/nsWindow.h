@@ -272,8 +272,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext

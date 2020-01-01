@@ -16834,7 +16834,6 @@ nsIntRect
 0
 )
 nullptr
-nullptr
 &
 initData
 )

@@ -11123,8 +11123,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext
@@ -11186,7 +11184,6 @@ BaseCreate
 (
 baseParent
 aRect
-aHandleEventFunction
 aContext
 aInitData
 )
@@ -11328,8 +11325,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext
@@ -11346,7 +11341,6 @@ nsBaseWidget
 CreateChild
 (
 aRect
-aHandleEventFunction
 aContext
 aInitData
 true
@@ -14124,16 +14118,17 @@ nsEventStatus_eIgnore
 ;
 if
 (
-mEventCallback
+mWidgetListener
 )
 aStatus
 =
-(
-*
-mEventCallback
-)
+mWidgetListener
+-
+>
+HandleEvent
 (
 aEvent
+mUseAttachedEvents
 )
 ;
 return

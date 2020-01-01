@@ -4509,7 +4509,6 @@ nullptr
 mParentNativeWindow
 bounds
 nullptr
-nullptr
 &
 widgetInit
 )
