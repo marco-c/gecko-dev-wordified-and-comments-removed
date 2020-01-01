@@ -41,11 +41,11 @@ string
 name
 =
 "
-splash_screen_label
+splash_screen_loading
 "
 >
 &
-splash_screen_label
+splash_screen_loading
 ;
 <
 /
@@ -56,11 +56,11 @@ string
 name
 =
 "
-splash_screen_installing
+splash_screen_installing_libs
 "
 >
 &
-splash_screen_installing
+splash_screen_installing_libs
 ;
 <
 /

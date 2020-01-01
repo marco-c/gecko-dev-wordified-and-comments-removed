@@ -507,7 +507,7 @@ R
 .
 string
 .
-splash_screen_label
+splash_screen_loading
 )
 ;
 surfaceView
@@ -1267,7 +1267,7 @@ R
 .
 string
 .
-splash_screen_installing
+splash_screen_installing_libs
 )
 ;
 else
@@ -1285,7 +1285,7 @@ R
 .
 string
 .
-splash_screen_label
+splash_screen_loading
 )
 ;
 mLibLoadThread
