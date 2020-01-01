@@ -255,17 +255,6 @@ DLL_SUFFIX
 endif
 #
 ifdef
-MOZ_IPC
-BINPATH
-/
-mozilla
--
-runtime
-BIN_SUFFIX
-#
-endif
-#
-ifdef
 WINCE
 BINPATH
 /
