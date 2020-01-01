@@ -71,7 +71,6 @@ linear
 gradient
 (
 top
-bottom
 #
 FFF
 #
@@ -134,7 +133,6 @@ linear
 gradient
 (
 top
-bottom
 #
 E8E8E8
 #
@@ -173,7 +171,6 @@ linear
 gradient
 (
 top
-bottom
 #
 A0B0CF
 #
@@ -200,7 +197,6 @@ linear
 gradient
 (
 top
-bottom
 #
 6494D4
 #
@@ -227,7 +223,6 @@ linear
 gradient
 (
 top
-bottom
 #
 AAB7C4
 #
@@ -254,7 +249,6 @@ linear
 gradient
 (
 top
-bottom
 #
 8293A6
 #
@@ -281,7 +275,6 @@ linear
 gradient
 (
 top
-bottom
 #
 B4B4B4
 #
@@ -317,7 +310,6 @@ linear
 gradient
 (
 top
-bottom
 #
 FFF
 #
@@ -395,7 +387,6 @@ linear
 gradient
 (
 top
-bottom
 #
 FFF
 #
