@@ -680,14 +680,16 @@ x
 y
 )
 z
+yield
 w
 JSOP_LEAVEBLOCKEXPR
+JSOP_YIELD
 *
 2
 JSOP_POP
 with
 SRC_PCDELTA
-note
+JSOP_RETURN
 *
 3
 =
@@ -1031,7 +1033,7 @@ NULL
 1
 1
 0
-0
+2
 JOF_BYTE
 )
 OPDEF
@@ -3600,7 +3602,7 @@ NULL
 1
 0
 0
-0
+19
 JOF_BYTE
 )
 /
@@ -4140,7 +4142,7 @@ NULL
 1
 1
 0
-0
+2
 JOF_BYTE
 )
 OPDEF
