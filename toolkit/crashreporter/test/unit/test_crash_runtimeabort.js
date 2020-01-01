@@ -32,7 +32,7 @@ dump
 "
 INFO
 |
-test_crash_purevirtual
+test_crash_runtimeabort
 .
 js
 |
@@ -64,11 +64,7 @@ function
 {
 crashType
 =
-Components
-.
-interfaces
-.
-nsITestCrasher
+CrashTestUtils
 .
 CRASH_RUNTIMEABORT
 ;
