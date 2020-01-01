@@ -1107,7 +1107,6 @@ onDownloadFailed
 function
 (
 install
-status
 )
 {
 if
@@ -1121,7 +1120,6 @@ this
 downloadFailedCallback
 (
 install
-status
 )
 ;
 this
@@ -1192,7 +1190,6 @@ onInstallFailed
 function
 (
 install
-status
 )
 {
 if
@@ -1206,7 +1203,6 @@ this
 installFailedCallback
 (
 install
-status
 )
 ;
 this

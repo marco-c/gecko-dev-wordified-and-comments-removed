@@ -147,7 +147,6 @@ function
 download_failed
 (
 install
-status
 )
 {
 ok

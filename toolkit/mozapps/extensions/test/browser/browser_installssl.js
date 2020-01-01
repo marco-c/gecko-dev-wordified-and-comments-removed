@@ -344,12 +344,13 @@ onDownloadFailed
 function
 (
 install
-status
 )
 {
 is
 (
-status
+install
+.
+error
 expectedStatus
 message
 )
