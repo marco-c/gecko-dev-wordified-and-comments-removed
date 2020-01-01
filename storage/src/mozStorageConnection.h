@@ -21,6 +21,15 @@ h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -127,6 +136,9 @@ nsIEventTarget
 getAsyncExecutionTarget
 (
 )
+;
+Mutex
+sharedAsyncExecutionMutex
 ;
 private
 :
