@@ -4816,7 +4816,6 @@ expires
 )
 lastAccessedCounter
 PR_FALSE
-isHttpOnly
 Substring
 (
 buffer
@@ -4832,6 +4831,7 @@ EqualsLiteral
 (
 kTrue
 )
+isHttpOnly
 nsICookie
 :
 :
