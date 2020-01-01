@@ -1634,6 +1634,15 @@ JSSLOT_ARRAY_LENGTH
 =
 JSSLOT_PRIVATE
 ;
+static
+const
+uint32
+JSSLOT_DENSE_ARRAY_CAPACITY
+=
+JSSLOT_PRIVATE
++
+1
+;
 inline
 void
 staticAssertArrayLengthIsInPrivateSlot

@@ -16281,6 +16281,17 @@ FUN_CLASP
 fun
 )
 =
+(
+clasp
+=
+=
+&
+js_SlowArrayClass
+)
+?
+&
+js_ArrayClass
+:
 clasp
 ;
 ctor
