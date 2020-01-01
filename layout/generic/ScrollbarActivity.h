@@ -295,7 +295,7 @@ UnregisterFromRefreshDriver
 (
 )
 ;
-void
+bool
 UpdateOpacity
 (
 TimeStamp
