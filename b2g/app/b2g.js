@@ -3040,16 +3040,6 @@ pref
 "
 urlclassifier
 .
-randomizeclient
-"
-false
-)
-;
-pref
-(
-"
-urlclassifier
-.
 gethashtables
 "
 "

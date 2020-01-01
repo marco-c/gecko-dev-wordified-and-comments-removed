@@ -45,8 +45,6 @@ mac
 ;
 ProtocolParser
 (
-uint32_t
-aHashKey
 )
 ;
 ~
@@ -70,8 +68,6 @@ Init
 nsICryptoHash
 *
 aHasher
-bool
-mPerClientRandomize
 )
 ;
 nsresult
@@ -409,12 +405,6 @@ length
 ;
 ChunkState
 mChunkState
-;
-uint32_t
-mHashKey
-;
-bool
-mPerClientRandomize
 ;
 nsCOMPtr
 <
