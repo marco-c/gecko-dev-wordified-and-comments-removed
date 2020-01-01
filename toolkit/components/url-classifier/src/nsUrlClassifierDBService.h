@@ -68,6 +68,9 @@ nsUrlClassifierDBService
 *
 GetInstance
 (
+nsresult
+*
+result
 )
 ;
 #

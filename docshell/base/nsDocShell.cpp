@@ -28047,6 +28047,12 @@ rv
 =
 =
 NS_ERROR_FACTORY_NOT_REGISTERED
+|
+|
+rv
+=
+=
+NS_ERROR_NOT_AVAILABLE
 )
 {
 return
