@@ -6683,6 +6683,7 @@ frame
 storeLocal
 (
 slot
+true
 )
 ;
 frame
@@ -7174,6 +7175,7 @@ frame
 storeLocal
 (
 slot
+true
 )
 ;
 frame
