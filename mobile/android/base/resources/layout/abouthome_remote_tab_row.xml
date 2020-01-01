@@ -79,9 +79,13 @@ MPL
 -
 >
 <
-Gecko
+org
 .
-TextView
+mozilla
+.
+gecko
+.
+GeckoTextView
 xmlns
 :
 android

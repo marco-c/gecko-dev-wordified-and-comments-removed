@@ -195,7 +195,11 @@ address_bar_bg
 /
 >
 <
-Gecko
+org
+.
+mozilla
+.
+gecko
 .
 ShapedButton
 android

@@ -79,7 +79,11 @@ MPL
 -
 >
 <
-Gecko
+org
+.
+mozilla
+.
+gecko
 .
 AllCapsTextView
 xmlns

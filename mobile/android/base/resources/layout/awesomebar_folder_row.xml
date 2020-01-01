@@ -126,7 +126,13 @@ padding
 "
 >
 <
-Gecko
+org
+.
+mozilla
+.
+gecko
+.
+widget
 .
 FaviconView
 android
