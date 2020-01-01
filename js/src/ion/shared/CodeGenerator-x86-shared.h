@@ -455,6 +455,15 @@ LTableSwitch
 ins
 )
 ;
+virtual
+bool
+visitCallGeneric
+(
+LCallGeneric
+*
+call
+)
+;
 bool
 visitOutOfLineBailout
 (

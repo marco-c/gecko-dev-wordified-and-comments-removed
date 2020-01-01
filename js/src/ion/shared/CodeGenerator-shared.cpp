@@ -102,6 +102,17 @@ sizeof
 (
 STACK_SLOT_SIZE
 )
++
+graph
+.
+argumentSlotCount
+(
+)
+*
+sizeof
+(
+Value
+)
 )
 {
 frameClass_

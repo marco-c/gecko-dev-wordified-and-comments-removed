@@ -53,6 +53,16 @@ Goto
 \
 _
 (
+CallGeneric
+)
+\
+_
+(
+StackArg
+)
+\
+_
+(
 BitNot
 )
 \

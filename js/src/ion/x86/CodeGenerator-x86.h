@@ -210,6 +210,14 @@ value
 )
 ;
 bool
+visitStackArg
+(
+LStackArg
+*
+arg
+)
+;
+bool
 visitReturn
 (
 LReturn

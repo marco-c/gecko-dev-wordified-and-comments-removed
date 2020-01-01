@@ -64,6 +64,10 @@ localSlotCount_
 (
 0
 )
+argumentSlotCount_
+(
+0
+)
 mir_
 (
 mir
