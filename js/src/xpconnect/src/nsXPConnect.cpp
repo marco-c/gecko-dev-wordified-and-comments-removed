@@ -2309,7 +2309,7 @@ obj
 ;
 #
 ifdef
-DEBUG
+DEBUG_CC
 char
 name
 [
