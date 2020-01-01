@@ -1387,6 +1387,7 @@ gc
 MarkValueRoot
 (
 trc
+&
 argv
 [
 i
@@ -1524,7 +1525,6 @@ gc
 MarkThingOrValueRoot
 (
 trc
-*
 ref
 "
 ion
@@ -1569,7 +1569,6 @@ gc
 MarkValueRoot
 (
 trc
-*
 v
 "
 ion

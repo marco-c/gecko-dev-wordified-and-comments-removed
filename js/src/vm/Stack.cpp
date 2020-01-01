@@ -1403,6 +1403,7 @@ gc
 MarkValueUnbarriered
 (
 trc
+&
 returnValue
 (
 )
@@ -2506,7 +2507,6 @@ gc
 MarkValueRoot
 (
 trc
-*
 vp
 "
 vm_stack

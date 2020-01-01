@@ -217,6 +217,7 @@ lang
 )
 class
 LastDictionary
+MOZ_FINAL
 {
 public
 :

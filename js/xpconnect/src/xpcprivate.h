@@ -4936,11 +4936,11 @@ XPCCallContext
 ;
 }
 ;
+struct
+XPCWrappedNativeJSClass
+;
 extern
-js
-:
-:
-Class
+XPCWrappedNativeJSClass
 XPC_WN_NoHelper_JSClass
 ;
 extern
@@ -7954,7 +7954,7 @@ GET_IT
 }
 ;
 struct
-XPCNativeScriptableSharedJSClass
+XPCWrappedNativeJSClass
 {
 js
 :
@@ -8199,7 +8199,7 @@ private
 XPCNativeScriptableFlags
 mFlags
 ;
-XPCNativeScriptableSharedJSClass
+XPCWrappedNativeJSClass
 mJSClass
 ;
 JSBool
