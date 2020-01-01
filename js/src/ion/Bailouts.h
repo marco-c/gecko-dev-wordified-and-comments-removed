@@ -121,6 +121,13 @@ BAILOUT_RETURN_BOUNDS_CHECK
 =
 6
 ;
+static
+const
+uint32
+BAILOUT_RETURN_INVALIDATE
+=
+7
+;
 class
 BailoutClosure
 {
@@ -435,6 +442,11 @@ RecompileForInlining
 ;
 uint32
 BoundsCheckFailure
+(
+)
+;
+uint32
+ForceInvalidation
 (
 )
 ;

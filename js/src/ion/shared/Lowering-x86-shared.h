@@ -77,6 +77,14 @@ ins
 )
 ;
 bool
+visitGuardShape
+(
+MGuardShape
+*
+ins
+)
+;
+bool
 lowerMulI
 (
 MMul
