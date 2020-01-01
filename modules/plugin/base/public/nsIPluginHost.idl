@@ -534,6 +534,9 @@ nsIDOMPlugin
 interface
 nsIChannel
 ;
+interface
+nsIPluginStreamListener
+;
 [
 ptr
 ]

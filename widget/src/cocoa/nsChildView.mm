@@ -646,6 +646,13 @@ h
 #
 include
 "
+nsIPluginInstance
+.
+h
+"
+#
+include
+"
 nsDragService
 .
 h

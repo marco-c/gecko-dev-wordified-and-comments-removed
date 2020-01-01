@@ -1,13 +1,6 @@
 #
 include
 "
-nsplugin
-.
-h
-"
-#
-include
-"
 nsNPAPIPlugin
 .
 h
