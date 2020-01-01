@@ -3553,7 +3553,7 @@ return
 size_t
 size
 =
-js_GetDeflatedStringLength
+GetDeflatedStringLength
 (
 sp
 -
@@ -3602,7 +3602,7 @@ offset
 =
 size
 ;
-js_DeflateStringToBuffer
+DeflateStringToBuffer
 (
 sp
 -
@@ -26930,7 +26930,7 @@ return
 NULL
 ;
 return
-js_DeflateString
+DeflateString
 (
 cx
 chars

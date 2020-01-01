@@ -24,6 +24,10 @@ jsstr
 .
 h
 "
+using
+namespace
+js
+;
 class
 AutoInflatedString
 {
@@ -102,7 +106,7 @@ N
 ;
 chars_
 =
-js_InflateString
+InflateString
 (
 cx
 str

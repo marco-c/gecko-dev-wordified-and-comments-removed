@@ -16634,7 +16634,7 @@ JS_FALSE
 ;
 filename
 =
-js_DeflateString
+DeflateString
 (
 cx
 chars

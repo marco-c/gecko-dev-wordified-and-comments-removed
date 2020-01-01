@@ -88908,7 +88908,7 @@ char
 *
 filename
 =
-js_DeflateString
+DeflateString
 (
 cx
 str

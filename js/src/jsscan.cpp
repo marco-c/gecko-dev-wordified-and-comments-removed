@@ -2026,7 +2026,7 @@ linelength
 ;
 linebytes
 =
-js_DeflateString
+DeflateString
 (
 cx
 linechars
@@ -3214,7 +3214,7 @@ bp
 ;
 bytes
 =
-js_DeflateString
+DeflateString
 (
 cx
 bp

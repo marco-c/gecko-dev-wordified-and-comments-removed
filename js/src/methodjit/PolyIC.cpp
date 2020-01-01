@@ -12928,7 +12928,7 @@ char
 *
 chars
 =
-js_DeflateString
+DeflateString
 (
 cx
 v
