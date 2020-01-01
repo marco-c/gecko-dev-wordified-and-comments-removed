@@ -363,6 +363,13 @@ whenOpen
 whenClosed
 )
 ;
+info
+(
+step
+.
+name
+)
+;
 rv
 =
 step
