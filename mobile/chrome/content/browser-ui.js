@@ -8984,6 +8984,11 @@ this
 _currentElement
 =
 {
+id
+:
+aElement
+.
+id
 name
 :
 aElement
@@ -8999,6 +9004,11 @@ maxLength
 aElement
 .
 maxLength
+type
+:
+aElement
+.
+type
 isAutocomplete
 :
 aElement
@@ -9714,7 +9724,7 @@ name
 aElement
 .
 value
-null
+aElement
 null
 )
 ;
