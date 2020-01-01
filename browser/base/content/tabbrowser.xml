@@ -880,6 +880,11 @@ false
 xul
 :
 menupopup
+anonid
+=
+"
+tabContextMenu
+"
 onpopupshowing
 =
 "
