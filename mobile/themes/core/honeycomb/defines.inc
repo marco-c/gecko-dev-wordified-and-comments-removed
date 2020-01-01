@@ -40,6 +40,11 @@ color_toolbar_background
 eaeaea
 %
 define
+color_toolbar_border
+#
+d9d9d9
+%
+define
 color_divider_border
 #
 6699ff
