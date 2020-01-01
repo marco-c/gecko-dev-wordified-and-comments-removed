@@ -216,6 +216,10 @@ browser_pageshow
 .
 js
 \
+browser_upgrade_backup
+.
+js
+\
 browser_windowRestore_perwindowpb
 .
 js
