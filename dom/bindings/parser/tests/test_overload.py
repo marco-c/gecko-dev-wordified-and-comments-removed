@@ -58,6 +58,35 @@ ArrayBuffer
 foo
 )
 ;
+          
+void
+withVariadics
+(
+long
+.
+.
+.
+numbers
+)
+;
+          
+void
+withVariadics
+(
+TestOverloads
+iface
+)
+;
+          
+void
+withVariadics
+(
+long
+num
+TestOverloads
+iface
+)
+;
         
 }
 ;
@@ -191,7 +220,7 @@ iface
 .
 members
 )
-2
+3
 "
 Expect
 %
@@ -199,7 +228,7 @@ s
 members
 "
 %
-2
+3
 )
     
 member
