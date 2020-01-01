@@ -769,11 +769,9 @@ aEvent
 nsresult
 BuildSubmission
 (
-nsRefPtr
-<
 nsFormSubmission
->
-&
+*
+*
 aFormSubmission
 nsEvent
 *
@@ -844,11 +842,6 @@ FlushPendingSubmission
 ;
 protected
 :
-void
-ForgetPendingSubmission
-(
-)
-;
 nsRefPtr
 <
 nsFormControlList
@@ -886,7 +879,7 @@ mSubmitPopupState
 PRBool
 mSubmitInitiatedFromUserInput
 ;
-nsRefPtr
+nsAutoPtr
 <
 nsFormSubmission
 >
