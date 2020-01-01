@@ -2799,6 +2799,12 @@ ErrorCode
 )
 ;
 }
+using
+nsGenericHTMLElementBase
+:
+:
+GetOwnerDocument
+;
 virtual
 nsIDOMNode
 *
