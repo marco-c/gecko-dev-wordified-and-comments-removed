@@ -47,10 +47,7 @@ nomirror
 set
 ylabel
 "
-Cycles
-[
-1E6
-]
+msec
 "
 set
 y2tics

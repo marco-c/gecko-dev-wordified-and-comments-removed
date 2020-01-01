@@ -365,7 +365,7 @@ gcTimer
 .
 x
 =
-rdtsc
+PRMJ_Now
 (
 )
 )
