@@ -1045,6 +1045,8 @@ FIXED_READING_LIST_ID
 {
 url
 =
+AwesomeBar
+.
 getReaderForUrl
 (
 url
