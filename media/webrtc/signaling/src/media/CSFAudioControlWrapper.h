@@ -18,11 +18,10 @@ h
 namespace
 CSF
 {
-DECLARE_PTR
+DECLARE_NS_PTR
 (
 AudioControlWrapper
 )
-;
 class
 ECC_API
 AudioControlWrapper
