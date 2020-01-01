@@ -82,7 +82,6 @@ enum
 nsCSSType
 {
 eCSSType_Value
-eCSSType_ValueList
 }
 ;
 enum
