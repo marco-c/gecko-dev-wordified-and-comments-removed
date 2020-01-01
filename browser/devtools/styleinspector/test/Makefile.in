@@ -191,6 +191,10 @@ browser_ruleview_bug_902966_revert_value_on_ESC
 .
 js
 \
+browser_ruleview_pseudoelement
+.
+js
+\
 head
 .
 js
@@ -255,6 +259,10 @@ test
 image
 .
 png
+\
+browser_ruleview_pseudoelement
+.
+html
 \
 (
 NULL
