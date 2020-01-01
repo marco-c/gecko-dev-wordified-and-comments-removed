@@ -3479,6 +3479,7 @@ JSObject
 *
 *
 result
+NS_OUTPARAM
 )
 {
 JSObject
@@ -3548,6 +3549,14 @@ result
 )
 return
 JS_FALSE
+;
+}
+else
+{
+*
+result
+=
+nsnull
 ;
 }
 }
