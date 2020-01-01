@@ -507,7 +507,7 @@ BASE_URL
 INSTALL_URL2
 repositoryStatus
 :
-4
+8
 size
 :
 5555
@@ -593,7 +593,7 @@ html
 }
 repositoryStatus
 :
-4
+8
 sourceURI
 :
 BASE_URL
@@ -1138,7 +1138,7 @@ xpi
 "
 repositoryStatus
 :
-4
+8
 size
 :
 5555
