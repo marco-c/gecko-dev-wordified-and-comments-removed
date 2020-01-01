@@ -5670,6 +5670,11 @@ UNEXPECTED
 -
 FAIL
 |
+"
++
+gCurrentURL
++
+"
 |
 can
 '
