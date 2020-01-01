@@ -231,6 +231,16 @@ OnQuit
 (
 )
 ;
+nsresult
+BeginUpdateBatch
+(
+)
+;
+nsresult
+EndUpdateBatch
+(
+)
+;
 private
 :
 static
@@ -375,6 +385,10 @@ mToolbarFolder
 ;
 PRInt32
 mBatchLevel
+;
+PRLock
+*
+mLock
 ;
 PRBool
 mBatchHasTransaction

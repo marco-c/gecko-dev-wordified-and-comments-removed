@@ -884,6 +884,16 @@ aDest
 )
 ;
 nsresult
+BeginUpdateBatch
+(
+)
+;
+nsresult
+EndUpdateBatch
+(
+)
+;
+nsresult
 QueryStringToQueryArray
 (
 const
