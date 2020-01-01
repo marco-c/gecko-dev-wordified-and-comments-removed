@@ -140,6 +140,13 @@ gfxReusableSharedImageSurfaceWrapper
 h
 "
 #
+include
+"
+nsMathUtils
+.
+h
+"
+#
 ifdef
 GFX_TILEDLAYER_DEBUG_OVERLAY
 #
@@ -1951,7 +1958,7 @@ gfx
 :
 IntRect
 (
-roundf
+NS_roundf
 (
 (
 aDirtyRect
@@ -1965,7 +1972,7 @@ x
 *
 mResolution
 )
-roundf
+NS_roundf
 (
 (
 aDirtyRect
@@ -1991,13 +1998,13 @@ gfx
 :
 IntPoint
 (
-roundf
+NS_roundf
 (
 drawRect
 .
 x
 )
-roundf
+NS_roundf
 (
 drawRect
 .
