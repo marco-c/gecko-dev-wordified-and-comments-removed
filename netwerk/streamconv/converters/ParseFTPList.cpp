@@ -43,7 +43,7 @@ h
 static
 inline
 int
-ParseFTPListDetermineRetval
+ParsingFailed
 (
 struct
 list_state
@@ -576,7 +576,7 @@ if
 numtoks
 )
 return
-ParseFTPListDetermineRetval
+ParsingFailed
 (
 state
 )
@@ -11718,7 +11718,7 @@ fe_type
 endif
 }
 return
-ParseFTPListDetermineRetval
+ParsingFailed
 (
 state
 )
