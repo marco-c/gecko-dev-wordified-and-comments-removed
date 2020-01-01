@@ -681,11 +681,11 @@ mScreenSize
 ;
 #
 endif
-AppInfo
-mAppInfo
-;
 PRUint64
 mID
+;
+AppInfo
+mAppInfo
 ;
 static
 ContentChild
