@@ -160,13 +160,6 @@ EVENTS_PER_PAGE
 ;
 struct
 Page
-;
-friend
-struct
-Page
-;
-struct
-Page
 {
 struct
 Page
