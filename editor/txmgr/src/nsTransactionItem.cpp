@@ -664,11 +664,13 @@ return
 result
 ;
 }
-NS_ENSURE_TRUE
+if
 (
+!
 mTransaction
-NS_OK
 )
+return
+NS_OK
 ;
 result
 =
