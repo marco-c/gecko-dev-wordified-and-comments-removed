@@ -115,7 +115,8 @@ server
 .
 start
 (
-4444
+-
+1
 )
 ;
 startupManager

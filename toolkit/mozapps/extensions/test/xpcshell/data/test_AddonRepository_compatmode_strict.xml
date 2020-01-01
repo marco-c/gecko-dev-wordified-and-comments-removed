@@ -105,7 +105,9 @@ http
 /
 localhost
 :
-4444
+%
+PORT
+%
 /
 creator1
 .
@@ -174,7 +176,9 @@ http
 /
 localhost
 :
-4444
+%
+PORT
+%
 /
 test1
 .

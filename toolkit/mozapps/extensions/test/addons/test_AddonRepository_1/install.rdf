@@ -351,8 +351,6 @@ http
 /
 /
 localhost
-:
-4444
 /
 xpi
 /
@@ -377,8 +375,6 @@ http
 /
 /
 localhost
-:
-4444
 /
 xpi
 /
@@ -403,8 +399,6 @@ http
 /
 /
 localhost
-:
-4444
 /
 xpi
 /
@@ -429,8 +423,6 @@ http
 /
 /
 localhost
-:
-4444
 /
 xpi
 /

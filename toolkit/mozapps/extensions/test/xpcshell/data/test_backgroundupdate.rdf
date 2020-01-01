@@ -199,7 +199,9 @@ http
 /
 localhost
 :
-4444
+%
+PORT
+%
 /
 broken
 .
@@ -379,7 +381,9 @@ http
 /
 localhost
 :
-4444
+%
+PORT
+%
 /
 broken
 .
@@ -559,7 +563,9 @@ http
 /
 localhost
 :
-4444
+%
+PORT
+%
 /
 broken
 .

@@ -179,7 +179,9 @@ http
 /
 localhost
 :
-4444
+%
+PORT
+%
 /
 addons
 /
@@ -333,7 +335,9 @@ http
 /
 localhost
 :
-4444
+%
+PORT
+%
 /
 addons
 /
@@ -487,7 +491,9 @@ http
 /
 localhost
 :
-4444
+%
+PORT
+%
 /
 addons
 /
