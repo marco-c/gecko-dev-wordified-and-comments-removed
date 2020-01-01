@@ -488,10 +488,6 @@ test_bug629535
 .
 html
 \
-test_clientRects
-.
-html
-\
 test_consoleAPI
 .
 html

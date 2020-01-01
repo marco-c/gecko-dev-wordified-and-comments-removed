@@ -2340,7 +2340,7 @@ return
 nsLayoutUtils
 :
 :
-TransformAncestorRectToFrame
+TransformRectToBoundsInAncestor
 (
 frame
 nsRect
