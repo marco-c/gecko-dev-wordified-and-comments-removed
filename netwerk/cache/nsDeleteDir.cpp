@@ -63,6 +63,13 @@ nsISupportsPriority
 .
 h
 "
+#
+include
+<
+time
+.
+h
+>
 using
 namespace
 mozilla
@@ -951,6 +958,13 @@ rv
 )
 return
 rv
+;
+srand
+(
+PR_Now
+(
+)
+)
 ;
 nsCAutoString
 leaf
