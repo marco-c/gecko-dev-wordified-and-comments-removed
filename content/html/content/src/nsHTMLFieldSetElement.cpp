@@ -152,6 +152,7 @@ PRBool
 IsBarredFromConstraintValidation
 (
 )
+const
 {
 return
 PR_TRUE
