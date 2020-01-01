@@ -20815,6 +20815,14 @@ height
 =
 newHeight
 ;
+HWND
+toplevelWnd
+=
+GetTopLevelHWND
+(
+mWnd
+)
+;
 if
 (
 !
@@ -20827,7 +20835,7 @@ newHeight
 &
 IsIconic
 (
-mWnd
+toplevelWnd
 )
 )
 {
