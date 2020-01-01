@@ -19,7 +19,7 @@ h
 class
 gfxASurface
 ;
-class
+struct
 _CGLContextObject
 ;
 typedef
