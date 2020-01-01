@@ -1266,12 +1266,10 @@ GetFrameMetrics
 CSSRect
 cssCompositedRect
 =
-AsyncPanZoomController
-:
-:
+metrics
+.
 CalculateCompositedRectInCssPixels
 (
-metrics
 )
 ;
 return
