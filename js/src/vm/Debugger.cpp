@@ -2587,7 +2587,7 @@ clearPendingException
 ;
 if
 (
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue
@@ -3248,7 +3248,7 @@ fval
 )
 |
 |
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue
@@ -3362,7 +3362,7 @@ rv
 bool
 ok
 =
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue
@@ -3529,7 +3529,7 @@ rv
 bool
 ok
 =
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue
@@ -3679,7 +3679,7 @@ rv
 if
 (
 !
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue
@@ -3828,7 +3828,7 @@ rv
 if
 (
 !
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue
@@ -14853,7 +14853,7 @@ false
 bool
 ok
 =
-Execute
+ExecuteKernel
 (
 cx
 script
@@ -19103,7 +19103,7 @@ rval
 bool
 ok
 =
-ExternalInvoke
+Invoke
 (
 cx
 thisv

@@ -5701,7 +5701,7 @@ compiled
 ;
 }
 return
-Execute
+ExecuteKernel
 (
 cx
 esg
@@ -6293,7 +6293,7 @@ nvp
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue
@@ -25923,7 +25923,7 @@ fval
 )
 &
 &
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue
@@ -27878,7 +27878,7 @@ true
 ;
 }
 return
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue

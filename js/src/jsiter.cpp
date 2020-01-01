@@ -1772,7 +1772,7 @@ JSITER_FOREACH
 if
 (
 !
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue
@@ -4802,7 +4802,7 @@ false
 if
 (
 !
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue

@@ -2509,7 +2509,7 @@ fp
 }
 JS_REQUIRES_STACK
 bool
-Invoke
+InvokeKernel
 (
 JSContext
 *
@@ -3346,7 +3346,7 @@ true
 ;
 }
 bool
-ExternalInvoke
+Invoke
 (
 JSContext
 *
@@ -3507,7 +3507,7 @@ true
 ;
 }
 bool
-ExternalInvokeConstructor
+InvokeConstructor
 (
 JSContext
 *
@@ -3614,7 +3614,7 @@ true
 ;
 }
 bool
-ExternalGetOrSet
+InvokeGetterOrSetter
 (
 JSContext
 *
@@ -3622,14 +3622,10 @@ cx
 JSObject
 *
 obj
-jsid
-id
 const
 Value
 &
 fval
-JSAccessMode
-mode
 uintN
 argc
 Value
@@ -3653,7 +3649,7 @@ false
 )
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 ObjectValue
@@ -3889,7 +3885,7 @@ true
 #
 endif
 bool
-Execute
+ExecuteKernel
 (
 JSContext
 *
@@ -4097,7 +4093,7 @@ ok
 ;
 }
 bool
-ExternalExecute
+Execute
 (
 JSContext
 *
@@ -4219,7 +4215,7 @@ thisObj
 )
 ;
 return
-Execute
+ExecuteKernel
 (
 cx
 script
@@ -5545,7 +5541,7 @@ JSTYPE_BOOLEAN
 }
 JS_REQUIRES_STACK
 bool
-InvokeConstructor
+InvokeConstructorKernel
 (
 JSContext
 *
@@ -5700,7 +5696,7 @@ error
 if
 (
 !
-Invoke
+InvokeKernel
 (
 cx
 args
@@ -21141,7 +21137,7 @@ else
 if
 (
 !
-Invoke
+InvokeKernel
 (
 cx
 args
@@ -21281,7 +21277,7 @@ construct
 if
 (
 !
-InvokeConstructor
+InvokeConstructorKernel
 (
 cx
 args
@@ -21296,7 +21292,7 @@ else
 if
 (
 !
-Invoke
+InvokeKernel
 (
 cx
 args
