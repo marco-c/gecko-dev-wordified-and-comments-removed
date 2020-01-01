@@ -234,6 +234,12 @@ results
 }
 ;
 #
+ifndef
+ANDROID
+#
+ifndef
+XP_MACOSX
+#
 ifdef
 XP_UNIX
 Cu
@@ -715,5 +721,11 @@ new
 EBookProvider
 )
 ;
+#
+XP_UNIX
+#
+endif
+#
+endif
 #
 endif
