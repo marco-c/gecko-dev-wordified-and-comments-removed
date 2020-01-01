@@ -583,6 +583,16 @@ PR_FALSE
 ;
 aEvent
 .
+nativeMsg
+=
+(
+void
+*
+)
+aGdkEvent
+;
+aEvent
+.
 time
 =
 aGdkEvent
