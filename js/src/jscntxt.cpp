@@ -2429,7 +2429,6 @@ c
 clearTraps
 (
 cx
-NULL
 )
 ;
 JS_ClearAllWatchPoints
