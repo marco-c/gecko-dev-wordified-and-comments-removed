@@ -1982,11 +1982,13 @@ label
 accesskey
 =
 "
+&
 cmd
 .
 moveBookmarks
 .
 accesskey
+;
 "
 /
 >
