@@ -7795,6 +7795,9 @@ hidden
 let
 consoleEnabled
 =
+true
+|
+|
 gPrefService
 .
 getBoolPref
@@ -7838,6 +7841,15 @@ getElementById
 Tools
 :
 ErrorConsole
+"
+)
+;
+cmd
+.
+removeAttribute
+(
+"
+disabled
 "
 )
 ;
