@@ -3543,6 +3543,11 @@ width
 zoomWidth
 height
 :
+(
+orig
+.
+width
+?
 orig
 .
 height
@@ -3552,6 +3557,9 @@ zoomWidth
 orig
 .
 width
+:
+0
+)
 }
 ;
 }
