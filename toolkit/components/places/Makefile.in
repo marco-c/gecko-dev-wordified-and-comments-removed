@@ -1,4 +1,5 @@
 #
+#
 This
 Source
 Code
@@ -138,10 +139,6 @@ nsIBrowserHistory
 idl
 \
 nsIFaviconService
-.
-idl
-\
-nsILivemarkService
 .
 idl
 \
@@ -346,6 +343,10 @@ jsm
 (
 NULL
 )
+TEST_DIRS
++
+=
+tests
 include
 (
 topsrcdir
