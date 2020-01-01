@@ -174,6 +174,12 @@ const
 ;
 private
 :
+bool
+IsSmsAllowed
+(
+)
+const
+;
 static
 bool
 sDoNotTrackEnabled
