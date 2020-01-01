@@ -1,6 +1,8 @@
 let
 window
 =
+pep
+.
 getWindow
 (
 )
@@ -19,6 +21,8 @@ window
 .
 outerHeight
 ;
+pep
+.
 performAction
 (
 '
@@ -39,6 +43,8 @@ resizeBy
 }
 )
 ;
+pep
+.
 performAction
 (
 '

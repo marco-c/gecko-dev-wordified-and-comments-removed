@@ -18,6 +18,7 @@ mozmill
 js
 "
 )
+;
 let
 c
 =
@@ -59,10 +60,12 @@ tabs
 .
 activeTab
 '
-home
+header
 '
 )
 ;
+pep
+.
 performAction
 (
 '
@@ -133,6 +136,8 @@ main
 '
 )
 ;
+pep
+.
 performAction
 (
 '
@@ -164,7 +169,7 @@ c
 .
 sleep
 (
-10
+100
 )
 ;
 page
@@ -183,6 +188,8 @@ home
 '
 )
 ;
+pep
+.
 performAction
 (
 '
@@ -261,6 +268,8 @@ click
 (
 )
 ;
+pep
+.
 performAction
 (
 '
@@ -288,6 +297,8 @@ m
 }
 )
 ;
+pep
+.
 performAction
 (
 '
@@ -315,6 +326,8 @@ a
 }
 )
 ;
+pep
+.
 performAction
 (
 '

@@ -64,6 +64,8 @@ home
 "
 )
 ;
+pep
+.
 performAction
 (
 '
@@ -92,6 +94,8 @@ true
 }
 )
 ;
+pep
+.
 performAction
 (
 '

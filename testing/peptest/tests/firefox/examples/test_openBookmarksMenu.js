@@ -64,6 +64,8 @@ bookmarksMenu
 "
 )
 ;
+pep
+.
 performAction
 (
 '
@@ -132,6 +134,8 @@ bookmarksShowAll
 "
 )
 ;
+pep
+.
 performAction
 (
 '
