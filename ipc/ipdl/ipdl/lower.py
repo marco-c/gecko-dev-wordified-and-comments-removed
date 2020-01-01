@@ -34575,14 +34575,36 @@ implicit
         
 failif
 .
-addifstmt
+addifstmts
 (
+[
+            
+_protocolErrorBreakpoint
+(
+'
+Handler
+for
+'
++
+md
+.
+name
++
+'
+returned
+error
+code
+'
+)
+            
 StmtReturn
 (
 _Result
 .
 ProcessingError
 )
+        
+]
 )
         
 return
