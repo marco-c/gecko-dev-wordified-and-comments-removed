@@ -317,6 +317,7 @@ eUnit_CSSValuePair
 eUnit_CSSValueTriplet
 eUnit_CSSRect
 eUnit_Dasharray
+eUnit_Filter
 eUnit_Shadow
 eUnit_Transform
 eUnit_BackgroundPosition
@@ -1206,6 +1207,12 @@ aUnit
 =
 =
 eUnit_Dasharray
+|
+|
+aUnit
+=
+=
+eUnit_Filter
 |
 |
 aUnit
