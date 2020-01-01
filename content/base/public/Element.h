@@ -711,9 +711,6 @@ GetClassAttributeName
 const
 ;
 inline
-mozilla
-:
-:
 directionality
 :
 :
@@ -732,9 +729,6 @@ NODE_HAS_DIRECTION_RTL
 )
 {
 return
-mozilla
-:
-:
 directionality
 :
 :
@@ -750,9 +744,6 @@ NODE_HAS_DIRECTION_LTR
 )
 {
 return
-mozilla
-:
-:
 directionality
 :
 :
@@ -760,9 +751,6 @@ eDir_LTR
 ;
 }
 return
-mozilla
-:
-:
 directionality
 :
 :
@@ -773,9 +761,6 @@ inline
 void
 SetDirectionality
 (
-mozilla
-:
-:
 directionality
 :
 :
@@ -809,9 +794,6 @@ aDir
 {
 case
 (
-mozilla
-:
-:
 directionality
 :
 :
@@ -839,9 +821,6 @@ break
 ;
 case
 (
-mozilla
-:
-:
 directionality
 :
 :
@@ -1682,9 +1661,6 @@ const
 nsAString
 &
 aValue
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -1705,9 +1681,6 @@ const
 nsAString
 &
 aValue
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -1721,9 +1694,6 @@ const
 nsAString
 &
 aName
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -1740,9 +1710,6 @@ const
 nsAString
 &
 aLocalName
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -1809,9 +1776,6 @@ const
 nsAString
 &
 aLocalName
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -1976,9 +1940,6 @@ const
 nsAString
 &
 aSelector
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -2090,9 +2051,6 @@ SetAttributeNode
 nsIDOMAttr
 *
 aNewAttr
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -2107,9 +2065,6 @@ RemoveAttributeNode
 nsIDOMAttr
 *
 aOldAttr
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -2127,9 +2082,6 @@ const
 nsAString
 &
 aLocalName
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -2144,9 +2096,6 @@ SetAttributeNodeNS
 nsIDOMAttr
 *
 aNewAttr
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -2158,9 +2107,6 @@ nsClientRectList
 >
 GetClientRects
 (
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -2733,9 +2679,6 @@ aResult
 )
 ;
 static
-mozilla
-:
-:
 CORSMode
 StringToCORSMode
 (
@@ -2746,9 +2689,6 @@ aValue
 )
 ;
 static
-mozilla
-:
-:
 CORSMode
 AttrValueToCORSMode
 (
@@ -3025,12 +2965,6 @@ GetStyledFrame
 )
 ;
 virtual
-mozilla
-:
-:
-dom
-:
-:
 Element
 *
 GetNameSpaceElement
@@ -3053,9 +2987,6 @@ const
 nsAString
 &
 aLocalName
-mozilla
-:
-:
 ErrorResult
 &
 aError
