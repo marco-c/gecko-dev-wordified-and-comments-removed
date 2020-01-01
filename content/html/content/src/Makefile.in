@@ -1017,6 +1017,16 @@ I
 srcdir
 )
 \
+-
+I
+(
+topsrcdir
+)
+/
+xpcom
+/
+ds
+\
 (
 NULL
 )

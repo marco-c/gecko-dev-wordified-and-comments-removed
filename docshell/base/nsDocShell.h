@@ -447,6 +447,9 @@ OnLinkClickEvent
 class
 nsIScrollableFrame
 ;
+class
+nsDOMNavigationTiming
+;
 enum
 ViewMode
 {
@@ -1766,6 +1769,11 @@ nsISHEntry
 aEntry
 )
 ;
+nsresult
+MaybeInitTiming
+(
+)
+;
 class
 RestorePresentationEvent
 :
@@ -2093,6 +2101,12 @@ static
 nsIURIFixup
 *
 sURIFixup
+;
+nsRefPtr
+<
+nsDOMNavigationTiming
+>
+mTiming
 ;
 #
 ifdef

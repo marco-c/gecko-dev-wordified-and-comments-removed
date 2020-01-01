@@ -988,6 +988,16 @@ content
 /
 src
 \
+-
+I
+(
+topsrcdir
+)
+/
+xpcom
+/
+ds
+\
 (
 NULL
 )
