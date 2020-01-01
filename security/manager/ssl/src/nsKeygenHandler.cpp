@@ -3431,10 +3431,7 @@ const
 nsAString
 &
 aFormType
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aContent
 nsAString
@@ -3480,7 +3477,7 @@ i
 {
 aContent
 .
-AppendElement
+AppendString
 (
 mSECKeySizeChoiceList
 [

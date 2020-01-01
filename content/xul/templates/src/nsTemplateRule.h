@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -248,10 +241,7 @@ nsIAtom
 >
 mTargetVariable
 ;
-nsTArray
-<
-nsString
->
+nsStringArray
 mTargetList
 ;
 PRPackedBool

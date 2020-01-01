@@ -11,13 +11,6 @@ nsCOMArray
 .
 h
 "
-#
-include
-"
-nsTArray
-.
-h
-"
 class
 nsIDOMDocument
 ;
@@ -79,10 +72,7 @@ aExpression
 nsIDOMXPathNSResolver
 *
 aResolver
-nsTArray
-<
-nsString
->
+nsStringArray
 *
 aNamespaceURIs
 nsCStringArray

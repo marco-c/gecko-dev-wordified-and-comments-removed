@@ -86,13 +86,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 lcms
 .
 h
@@ -366,10 +359,7 @@ const
 nsACString
 &
 aGenericFamily
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aListOfFonts
 )

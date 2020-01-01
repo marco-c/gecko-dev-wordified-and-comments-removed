@@ -18,13 +18,6 @@ nsAutoRef
 .
 h
 "
-#
-include
-"
-nsTArray
-.
-h
-"
 extern
 "
 C
@@ -171,10 +164,7 @@ const
 nsACString
 &
 aGenericFamily
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aListOfFonts
 )

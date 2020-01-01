@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 gfxFontconfigUtils
 .
 h
@@ -325,10 +318,7 @@ const
 nsACString
 &
 aGenericFamily
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aListOfFonts
 )
@@ -644,10 +634,7 @@ return
 nsnull
 ;
 }
-nsTArray
-<
-nsString
->
+nsStringArray
 fontList
 ;
 nsCAutoString
@@ -681,7 +668,7 @@ rv
 {
 for
 (
-PRUint32
+int
 i
 =
 3
@@ -690,7 +677,7 @@ i
 <
 fontList
 .
-Length
+Count
 (
 )
 ;
@@ -722,6 +709,7 @@ n
 i
 NS_LossyConvertUTF16toASCII
 (
+*
 fontList
 [
 i
@@ -746,6 +734,7 @@ gfxOS2Font
 :
 GetOrMakeFont
 (
+*
 fontList
 [
 i

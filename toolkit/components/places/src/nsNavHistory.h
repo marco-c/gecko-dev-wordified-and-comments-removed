@@ -2350,10 +2350,7 @@ mOrigSearchString
 nsString
 mCurrentSearchString
 ;
-nsTArray
-<
-nsString
->
+nsStringArray
 mCurrentSearchTokens
 ;
 void

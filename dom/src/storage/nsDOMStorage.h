@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsTArray
-.
-h
-"
-#
-include
-"
 nsPIDOMStorage
 .
 h
@@ -594,10 +587,7 @@ const
 nsAString
 &
 aDomain
-nsTArray
-<
-nsString
->
+nsStringArray
 *
 aArray
 )

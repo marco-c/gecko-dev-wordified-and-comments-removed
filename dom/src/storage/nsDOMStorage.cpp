@@ -1033,10 +1033,7 @@ static
 nsresult
 GetOfflineDomains
 (
-nsTArray
-<
-nsString
->
+nsStringArray
 &
 aDomains
 )
@@ -1214,7 +1211,7 @@ rv
 ;
 aDomains
 .
-AppendElement
+AppendString
 (
 NS_ConvertUTF8toUTF16
 (
@@ -1364,10 +1361,7 @@ rv
 rv
 )
 ;
-nsTArray
-<
-nsString
->
+nsStringArray
 domains
 ;
 rv
@@ -1472,10 +1466,7 @@ rv
 rv
 )
 ;
-nsTArray
-<
-nsString
->
+nsStringArray
 domains
 ;
 rv
@@ -4879,10 +4870,7 @@ nsresult
 aResult
 )
 {
-nsTArray
-<
-nsString
->
+nsStringArray
 requestedDomainArray
 ;
 if
@@ -4922,7 +4910,7 @@ nsnull
 nsAutoString
 usedDomain
 ;
-PRUint32
+PRInt32
 requestedPos
 =
 0
@@ -4937,7 +4925,7 @@ requestedPos
 <
 requestedDomainArray
 .
-Length
+Count
 (
 )
 ;
@@ -4968,6 +4956,7 @@ usedDomain
 .
 Append
 (
+*
 requestedDomainArray
 [
 requestedPos
@@ -5048,10 +5037,7 @@ const
 nsAString
 &
 aDomain
-nsTArray
-<
-nsString
->
+nsStringArray
 *
 aArray
 )
@@ -5155,7 +5141,7 @@ domain
 aArray
 -
 >
-AppendElement
+AppendString
 (
 domain
 )
