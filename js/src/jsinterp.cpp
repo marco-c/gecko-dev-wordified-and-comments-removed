@@ -4219,10 +4219,7 @@ RunScript
 (
 cx
 script
-fp
--
->
-fun
+NULL
 &
 fp
 -
