@@ -545,7 +545,7 @@ if
 gChromeRegistry
 )
 return
-NULL
+nullptr
 ;
 }
 NS_ADDREF
@@ -2994,7 +2994,7 @@ Init
 )
 )
 return
-NULL
+nullptr
 ;
 return
 cr
