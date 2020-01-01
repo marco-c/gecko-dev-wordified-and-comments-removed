@@ -389,8 +389,8 @@ createDynamicsCompressor
 Creator
 Throws
 ]
-WaveTable
-createWaveTable
+PeriodicWave
+createPeriodicWave
 (
 Float32Array
 real

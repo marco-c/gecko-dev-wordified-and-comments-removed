@@ -851,6 +851,10 @@ PerformanceTiming
 .
 webidl
 \
+PeriodicWave
+.
+webidl
+\
 Position
 .
 webidl
@@ -1420,10 +1424,6 @@ VideoStreamTrack
 webidl
 \
 WaveShaperNode
-.
-webidl
-\
-WaveTable
 .
 webidl
 \

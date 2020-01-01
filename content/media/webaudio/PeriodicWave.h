@@ -1,9 +1,9 @@
 #
 ifndef
-WaveTable_h_
+PeriodicWave_h_
 #
 define
-WaveTable_h_
+PeriodicWave_h_
 #
 include
 "
@@ -55,7 +55,7 @@ namespace
 dom
 {
 class
-WaveTable
+PeriodicWave
 MOZ_FINAL
 :
 public
@@ -65,7 +65,7 @@ EnableWebAudioCheck
 {
 public
 :
-WaveTable
+PeriodicWave
 (
 AudioContext
 *
@@ -86,11 +86,11 @@ aImagDataLength
 ;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
-WaveTable
+PeriodicWave
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
-WaveTable
+PeriodicWave
 )
 AudioContext
 *

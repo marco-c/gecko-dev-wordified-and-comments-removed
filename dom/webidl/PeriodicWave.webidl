@@ -154,7 +154,7 @@ apply
 PrefControlled
 ]
 interface
-WaveTable
+PeriodicWave
 {
 }
 ;
