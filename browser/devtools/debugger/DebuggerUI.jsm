@@ -2099,7 +2099,7 @@ devtools
 .
 debugger
 .
-chrome
+remote
 -
 enabled
 "
