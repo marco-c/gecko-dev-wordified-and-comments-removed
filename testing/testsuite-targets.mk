@@ -2354,7 +2354,7 @@ xpcshell
 \
 -
 -
-tests
+testing
 -
 modules
 -

@@ -1498,6 +1498,8 @@ setSubstitution
 (
 "
 testing
+-
+common
 "
 modulesURI
 )

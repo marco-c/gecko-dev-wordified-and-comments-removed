@@ -881,7 +881,7 @@ testxpcobjdir
 \
 -
 -
-tests
+testing
 -
 modules
 -
@@ -1217,7 +1217,7 @@ SOLO_FILE
 \
 -
 -
-tests
+testing
 -
 modules
 -
@@ -1369,7 +1369,7 @@ SOLO_FILE
 \
 -
 -
-tests
+testing
 -
 modules
 -
