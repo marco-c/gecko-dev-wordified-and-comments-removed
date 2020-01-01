@@ -1510,10 +1510,10 @@ cur
 >
 mNext
 ;
-js
+JS
 :
 :
-SwitchToCompartment
+AutoSwitchCompartment
 sc
 (
 cx

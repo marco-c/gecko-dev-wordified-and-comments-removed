@@ -18,6 +18,15 @@ nsIPrincipal
 namespace
 xpc
 {
+nsIPrincipal
+*
+GetCompartmentPrincipal
+(
+JSCompartment
+*
+compartment
+)
+;
 class
 AccessCheck
 {
