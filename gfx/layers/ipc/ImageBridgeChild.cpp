@@ -1080,7 +1080,7 @@ PCompositableChild
 ImageBridgeChild
 :
 :
-AllocPCompositable
+AllocPCompositableChild
 (
 const
 TextureInfo
@@ -1102,7 +1102,7 @@ bool
 ImageBridgeChild
 :
 :
-DeallocPCompositable
+DeallocPCompositableChild
 (
 PCompositableChild
 *
@@ -2364,7 +2364,7 @@ PGrallocBufferChild
 ImageBridgeChild
 :
 :
-AllocPGrallocBuffer
+AllocPGrallocBufferChild
 (
 const
 gfxIntSize
@@ -2413,7 +2413,7 @@ bool
 ImageBridgeChild
 :
 :
-DeallocPGrallocBuffer
+DeallocPGrallocBufferChild
 (
 PGrallocBufferChild
 *

@@ -3035,7 +3035,7 @@ PGrallocBufferParent
 LayerTransactionParent
 :
 :
-AllocPGrallocBuffer
+AllocPGrallocBufferParent
 (
 const
 gfxIntSize
@@ -3092,7 +3092,7 @@ bool
 LayerTransactionParent
 :
 :
-DeallocPGrallocBuffer
+DeallocPGrallocBufferParent
 (
 PGrallocBufferParent
 *
@@ -3134,7 +3134,7 @@ PLayerParent
 LayerTransactionParent
 :
 :
-AllocPLayer
+AllocPLayerParent
 (
 )
 {
@@ -3149,7 +3149,7 @@ bool
 LayerTransactionParent
 :
 :
-DeallocPLayer
+DeallocPLayerParent
 (
 PLayerParent
 *
@@ -3168,7 +3168,7 @@ PCompositableParent
 LayerTransactionParent
 :
 :
-AllocPCompositable
+AllocPCompositableParent
 (
 const
 TextureInfo
@@ -3189,7 +3189,7 @@ bool
 LayerTransactionParent
 :
 :
-DeallocPCompositable
+DeallocPCompositableParent
 (
 PCompositableParent
 *

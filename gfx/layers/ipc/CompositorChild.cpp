@@ -304,7 +304,7 @@ PLayerTransactionChild
 CompositorChild
 :
 :
-AllocPLayerTransaction
+AllocPLayerTransactionChild
 (
 const
 LayersBackend
@@ -329,7 +329,7 @@ bool
 CompositorChild
 :
 :
-DeallocPLayerTransaction
+DeallocPLayerTransactionChild
 (
 PLayerTransactionChild
 *

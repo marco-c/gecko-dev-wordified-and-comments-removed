@@ -50,7 +50,7 @@ protected
 virtual
 PGrallocBufferChild
 *
-AllocPGrallocBuffer
+AllocPGrallocBufferChild
 (
 const
 gfxIntSize
@@ -68,7 +68,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPGrallocBuffer
+DeallocPGrallocBufferChild
 (
 PGrallocBufferChild
 *
@@ -79,14 +79,14 @@ MOZ_OVERRIDE
 virtual
 PLayerChild
 *
-AllocPLayer
+AllocPLayerChild
 (
 )
 MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPLayer
+DeallocPLayerChild
 (
 PLayerChild
 *
@@ -97,7 +97,7 @@ MOZ_OVERRIDE
 virtual
 PCompositableChild
 *
-AllocPCompositable
+AllocPCompositableChild
 (
 const
 TextureInfo
@@ -108,7 +108,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPCompositable
+DeallocPCompositableChild
 (
 PCompositableChild
 *
