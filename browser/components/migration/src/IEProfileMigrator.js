@@ -3265,7 +3265,8 @@ b7ba
 "
 )
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

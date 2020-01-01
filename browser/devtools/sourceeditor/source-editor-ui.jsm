@@ -29,7 +29,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -38,6 +39,10 @@ SourceEditorUI
 "
 ]
 ;
+this
+.
+SourceEditorUI
+=
 function
 SourceEditorUI
 (

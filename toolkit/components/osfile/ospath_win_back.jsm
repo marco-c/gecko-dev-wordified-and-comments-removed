@@ -9,7 +9,8 @@ undefined
 "
 )
 {
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -39,6 +40,7 @@ osfile_win_allthreads
 .
 jsm
 "
+this
 )
 ;
 }

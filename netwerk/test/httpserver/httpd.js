@@ -18733,7 +18733,8 @@ WritablePropertyBag
 }
 }
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -60,6 +61,10 @@ jsm
 "
 )
 ;
+this
+.
+Point
+=
 function
 Point
 (
@@ -220,6 +225,10 @@ ay
 }
 }
 ;
+this
+.
+Rect
+=
 function
 Rect
 (
@@ -1070,6 +1079,10 @@ height
 }
 }
 ;
+this
+.
+Range
+=
 function
 Range
 (
@@ -1480,6 +1493,10 @@ value
 }
 }
 ;
+this
+.
+Subscribable
+=
 function
 Subscribable
 (
@@ -1886,7 +1903,8 @@ this
 }
 }
 ;
-let
+this
+.
 Utils
 =
 {
@@ -3208,6 +3226,10 @@ null
 }
 }
 ;
+this
+.
+MRUList
+=
 function
 MRUList
 (

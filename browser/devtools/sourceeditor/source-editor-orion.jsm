@@ -667,7 +667,8 @@ true
 )
 ;
 }
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -676,6 +677,10 @@ SourceEditor
 "
 ]
 ;
+this
+.
+SourceEditor
+=
 function
 SourceEditor
 (

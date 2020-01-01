@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -41,6 +42,10 @@ substr
 )
 ;
 }
+this
+.
+Dict
+=
 function
 Dict
 (

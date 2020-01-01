@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -70,7 +71,8 @@ STARTPAGE_VERSION
 =
 3
 ;
-let
+this
+.
 AboutHomeUtils
 =
 new

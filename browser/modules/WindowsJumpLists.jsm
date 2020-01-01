@@ -132,7 +132,8 @@ RECENT
 :
 1
 }
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -643,7 +644,8 @@ permanentPrivateBrowsing
 }
 ]
 ;
-var
+this
+.
 WinTaskbarJumpList
 =
 {

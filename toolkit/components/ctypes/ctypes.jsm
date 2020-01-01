@@ -1,4 +1,5 @@
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [

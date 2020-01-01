@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -130,6 +131,10 @@ CLIENTS_TTL_REFRESH
 =
 604800
 ;
+this
+.
+ClientsRec
+=
 function
 ClientsRec
 (
@@ -192,6 +197,10 @@ commands
 ]
 )
 ;
+this
+.
+ClientEngine
+=
 function
 ClientEngine
 (

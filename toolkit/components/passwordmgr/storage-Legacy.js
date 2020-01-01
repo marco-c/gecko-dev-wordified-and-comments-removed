@@ -5515,7 +5515,8 @@ login
 }
 }
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

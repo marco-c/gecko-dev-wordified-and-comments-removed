@@ -26,7 +26,8 @@ Components
 .
 results
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -1561,6 +1562,10 @@ arguments
 ;
 }
 }
+this
+.
+InspectorUI
+=
 function
 InspectorUI
 (

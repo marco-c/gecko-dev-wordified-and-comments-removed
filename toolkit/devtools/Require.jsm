@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -63,6 +64,10 @@ console
 (
 )
 ;
+this
+.
+define
+=
 function
 define
 (
@@ -729,7 +734,8 @@ Domain
 (
 )
 ;
-const
+this
+.
 require
 =
 define

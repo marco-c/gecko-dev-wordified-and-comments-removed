@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -109,6 +110,10 @@ jsm
 "
 )
 ;
+this
+.
+Sandbox
+=
 function
 Sandbox
 (

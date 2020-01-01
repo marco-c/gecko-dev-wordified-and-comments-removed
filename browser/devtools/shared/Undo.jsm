@@ -5,7 +5,8 @@ Components
 .
 utils
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -14,6 +15,10 @@ UndoStack
 "
 ]
 ;
+this
+.
+UndoStack
+=
 function
 UndoStack
 (

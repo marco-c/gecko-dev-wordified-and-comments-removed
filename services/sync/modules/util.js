@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -161,6 +162,7 @@ async
 .
 js
 "
+this
 )
 ;
 Cu
@@ -218,6 +220,7 @@ XPCOMUtils
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -237,6 +240,7 @@ Services
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -256,6 +260,7 @@ PlacesUtils
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -275,6 +280,7 @@ NetUtil
 .
 jsm
 "
+this
 )
 ;
 Cu
@@ -294,9 +300,11 @@ FileUtils
 .
 jsm
 "
+this
 )
 ;
-let
+this
+.
 Utils
 =
 {
@@ -2414,7 +2422,8 @@ converter
 }
 )
 ;
-let
+this
+.
 Svc
 =
 {
@@ -2680,7 +2689,8 @@ cryptoSvc
 }
 )
 ;
-let
+this
+.
 Str
 =
 {

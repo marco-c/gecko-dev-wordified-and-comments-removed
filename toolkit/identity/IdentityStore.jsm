@@ -69,7 +69,8 @@ jsm
 "
 )
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -403,7 +404,8 @@ break
 }
 }
 ;
-let
+this
+.
 IdentityStore
 =
 new

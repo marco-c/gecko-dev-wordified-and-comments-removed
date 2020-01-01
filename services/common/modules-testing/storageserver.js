@@ -13,7 +13,8 @@ Cu
 =
 Components
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -259,6 +260,10 @@ length
 )
 ;
 }
+this
+.
+ServerBSO
+=
 function
 ServerBSO
 (
@@ -1234,6 +1239,10 @@ status
 }
 }
 ;
+this
+.
+StorageServerCollection
+=
 function
 StorageServerCollection
 (
@@ -4197,7 +4206,8 @@ true
 }
 }
 ;
-let
+this
+.
 StorageServerCallback
 =
 {
@@ -4233,6 +4243,10 @@ request
 }
 }
 ;
+this
+.
+StorageServer
+=
 function
 StorageServer
 (
@@ -8145,6 +8159,10 @@ user
 }
 }
 ;
+this
+.
+storageServerForUsers
+=
 function
 storageServerForUsers
 (

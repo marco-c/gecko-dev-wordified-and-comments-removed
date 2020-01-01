@@ -45,7 +45,8 @@ Ci
 nsIComponentRegistrar
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -2475,7 +2476,8 @@ iid
 }
 }
 ;
-let
+this
+.
 BrowserElementPromptService
 =
 {

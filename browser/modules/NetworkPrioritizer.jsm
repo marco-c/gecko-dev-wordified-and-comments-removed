@@ -1,4 +1,5 @@
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -100,6 +101,10 @@ _windows
 [
 ]
 ;
+this
+.
+trackBrowserWindow
+=
 function
 trackBrowserWindow
 (

@@ -1,4 +1,5 @@
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -7,7 +8,8 @@ Video
 "
 ]
 ;
-var
+this
+.
 Video
 =
 {

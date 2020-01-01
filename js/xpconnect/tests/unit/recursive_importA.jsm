@@ -1,4 +1,5 @@
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [

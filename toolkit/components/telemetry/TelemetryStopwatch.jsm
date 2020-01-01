@@ -19,7 +19,8 @@ Components
 .
 utils
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -67,7 +68,8 @@ WeakMap
 (
 )
 ;
-let
+this
+.
 TelemetryStopwatch
 =
 {

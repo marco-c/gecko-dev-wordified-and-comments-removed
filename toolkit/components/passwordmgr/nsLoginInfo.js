@@ -476,7 +476,8 @@ timesUsed
 null
 }
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

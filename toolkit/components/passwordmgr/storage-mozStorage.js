@@ -7611,7 +7611,8 @@ component
 LoginManagerStorage_mozStorage
 ]
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

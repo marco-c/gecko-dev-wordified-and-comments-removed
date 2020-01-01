@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -406,7 +407,8 @@ _themeIDBeingDisbled
 =
 null
 ;
-var
+this
+.
 LightweightThemeManager
 =
 {

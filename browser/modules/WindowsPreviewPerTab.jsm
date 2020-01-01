@@ -1,4 +1,5 @@
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -2711,7 +2712,8 @@ img
 ;
 }
 }
-var
+this
+.
 AeroPeek
 =
 {

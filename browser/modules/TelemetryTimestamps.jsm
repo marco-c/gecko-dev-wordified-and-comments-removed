@@ -1,4 +1,5 @@
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -13,7 +14,8 @@ timeStamps
 {
 }
 ;
-let
+this
+.
 TelemetryTimestamps
 =
 {

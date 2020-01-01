@@ -51,7 +51,8 @@ Cr
 =
 Components
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -260,7 +261,8 @@ myGlobal
 =
 this
 ;
-let
+this
+.
 NetworkStatsService
 =
 {

@@ -1,4 +1,5 @@
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -40,7 +41,8 @@ PR_UINT32_MAX
 =
 0xffffffff
 ;
-const
+this
+.
 NetUtil
 =
 {

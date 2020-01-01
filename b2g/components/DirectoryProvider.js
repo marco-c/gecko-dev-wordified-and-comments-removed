@@ -444,7 +444,8 @@ dir
 }
 }
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

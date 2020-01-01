@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -87,6 +88,10 @@ js
 "
 )
 ;
+this
+.
+RotaryRecord
+=
 function
 RotaryRecord
 (
@@ -131,6 +136,10 @@ denomination
 ]
 )
 ;
+this
+.
+RotaryStore
+=
 function
 RotaryStore
 (
@@ -408,6 +417,10 @@ items
 }
 }
 ;
+this
+.
+RotaryTracker
+=
 function
 RotaryTracker
 (
@@ -438,6 +451,10 @@ Tracker
 prototype
 }
 ;
+this
+.
+RotaryEngine
+=
 function
 RotaryEngine
 (

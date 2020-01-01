@@ -43,7 +43,8 @@ jsm
 '
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -55,7 +56,8 @@ Logger
 '
 ]
 ;
-var
+this
+.
 Utils
 =
 {
@@ -805,7 +807,8 @@ null
 }
 }
 ;
-var
+this
+.
 Logger
 =
 {

@@ -62,7 +62,8 @@ STORAGE_MAX_EVENTS
 =
 200
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -77,7 +78,8 @@ _consoleStorage
 {
 }
 ;
-var
+this
+.
 ConsoleAPIStorage
 =
 {

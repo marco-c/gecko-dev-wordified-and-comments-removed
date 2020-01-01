@@ -398,7 +398,8 @@ certUtils
 }
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -8683,7 +8684,8 @@ gHotfixID
 }
 }
 ;
-var
+this
+.
 AddonManagerPrivate
 =
 {
@@ -8894,7 +8896,8 @@ AddonType
 AddonType
 }
 ;
-var
+this
+.
 AddonManager
 =
 {
