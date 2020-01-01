@@ -262,7 +262,7 @@ NS_IMETHOD_
 (
 PRBool
 )
-IsEmpty
+IsTextEmpty
 (
 )
 const
