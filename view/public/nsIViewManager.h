@@ -157,7 +157,7 @@ aDoReflow
 0
 ;
 NS_IMETHOD
-UpdateView
+InvalidateView
 (
 nsIView
 *
@@ -167,7 +167,7 @@ aView
 0
 ;
 NS_IMETHOD
-UpdateViewNoSuppression
+InvalidateViewNoSuppression
 (
 nsIView
 *
@@ -181,7 +181,7 @@ aRect
 0
 ;
 NS_IMETHOD
-UpdateAllViews
+InvalidateAllViews
 (
 )
 =

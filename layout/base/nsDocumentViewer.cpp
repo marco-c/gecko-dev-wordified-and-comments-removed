@@ -5597,7 +5597,7 @@ rootView
 vm
 -
 >
-UpdateViewNoSuppression
+InvalidateViewNoSuppression
 (
 rootView
 rootView

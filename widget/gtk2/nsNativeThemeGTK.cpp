@@ -380,7 +380,7 @@ return
 vm
 -
 >
-UpdateAllViews
+InvalidateAllViews
 (
 )
 ;
