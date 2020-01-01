@@ -148,7 +148,7 @@ aBuilder
 )
 ;
 void
-WillBeginRetainedLayerTransaction
+DidBeginRetainedLayerTransaction
 (
 LayerManager
 *
