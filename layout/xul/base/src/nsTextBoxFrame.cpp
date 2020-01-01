@@ -771,6 +771,16 @@ do_QueryInterface
 mContent
 )
 ;
+NS_ENSURE_TRUE
+(
+aWeakThis
+.
+IsAlive
+(
+)
+PR_FALSE
+)
+;
 if
 (
 labelElement
