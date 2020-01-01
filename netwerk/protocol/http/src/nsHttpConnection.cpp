@@ -1197,6 +1197,11 @@ mKeepAlive
 =
 PR_TRUE
 ;
+if
+(
+!
+mSSLProxyConnectStream
+)
 mSupportsPipelining
 =
 SupportsPipelining
