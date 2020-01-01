@@ -224,10 +224,6 @@ inc
 -
 -
 -
-SECTION
-SEG_TEXT
-BITS
-32
 ;
 ;
 Upsample
