@@ -66,10 +66,7 @@ nsString
 mData
 ;
 nsString
-mDomain
-;
-nsString
-mURI
+mOrigin
 ;
 nsCOMPtr
 <
