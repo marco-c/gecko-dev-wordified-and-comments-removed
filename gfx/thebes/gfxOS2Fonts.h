@@ -461,6 +461,8 @@ const
 nsACString
 &
 aGenericName
+PRBool
+aUseFontSet
 void
 *
 aClosure
