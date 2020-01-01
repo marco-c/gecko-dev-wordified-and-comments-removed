@@ -68,7 +68,7 @@ gl
 >
 fGetProgramiv
 (
-mName
+mGLName
 LOCAL_GL_ACTIVE_ATTRIBUTE_MAX_LENGTH
 &
 mAttribMaxNameLength
@@ -79,7 +79,7 @@ gl
 >
 fGetProgramiv
 (
-mName
+mGLName
 LOCAL_GL_ACTIVE_UNIFORM_MAX_LENGTH
 &
 mUniformMaxNameLength
@@ -90,7 +90,7 @@ gl
 >
 fGetProgramiv
 (
-mName
+mGLName
 LOCAL_GL_ACTIVE_UNIFORMS
 &
 mUniformCount
@@ -101,7 +101,7 @@ gl
 >
 fGetProgramiv
 (
-mName
+mGLName
 LOCAL_GL_ACTIVE_ATTRIBUTES
 &
 mAttribCount
@@ -194,7 +194,7 @@ gl
 >
 fGetActiveAttrib
 (
-mName
+mGLName
 i
 mAttribMaxNameLength
 &
@@ -221,7 +221,7 @@ gl
 >
 fGetAttribLocation
 (
-mName
+mGLName
 nameBuf
 )
 ;
