@@ -289,6 +289,13 @@ edx
 ;
 static
 const
+Register
+PreBarrierReg
+=
+edx
+;
+static
+const
 uint32
 StackAlignment
 =

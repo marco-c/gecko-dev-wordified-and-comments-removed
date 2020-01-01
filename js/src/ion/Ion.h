@@ -314,6 +314,17 @@ JSScript
 script
 )
 ;
+void
+MarkFromIon
+(
+JSCompartment
+*
+comp
+Value
+*
+vp
+)
+;
 static
 inline
 bool

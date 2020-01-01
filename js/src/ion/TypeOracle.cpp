@@ -1536,7 +1536,7 @@ bool
 TypeInferenceOracle
 :
 :
-propertyWriteNeedsBarrier
+elementWriteNeedsBarrier
 (
 JSScript
 *
@@ -1544,8 +1544,6 @@ script
 jsbytecode
 *
 pc
-jsid
-id
 )
 {
 types
@@ -1576,7 +1574,7 @@ types
 propertyNeedsBarrier
 (
 cx
-id
+JSID_VOID
 )
 ;
 }

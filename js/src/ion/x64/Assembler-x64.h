@@ -597,6 +597,13 @@ ArgReg5
 endif
 static
 const
+Register
+PreBarrierReg
+=
+rdx
+;
+static
+const
 uint32
 StackAlignment
 =
