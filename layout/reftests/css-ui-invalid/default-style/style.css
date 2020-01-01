@@ -1,3 +1,8 @@
+:
+not
+(
+output
+)
 .
 invalid
 -
@@ -13,6 +18,17 @@ shadow
 .
 5px
 1px
+red
+;
+}
+output
+.
+invalid
+-
+ref
+{
+color
+:
 red
 ;
 }
