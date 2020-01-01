@@ -29,6 +29,16 @@ getHeader
 Referer
 "
 )
+.
+split
+(
+"
+?
+"
+)
+[
+0
+]
 ;
 /
 /
