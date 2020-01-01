@@ -134,6 +134,16 @@ MOZ_COUNT_DTOR
 xptiWorkingSet
 )
 ;
+#
+ifdef
+NS_FREE_PERMANENT_DATA
+XPT_DestroyArena
+(
+gXPTIStructArena
+)
+;
+#
+endif
 }
 XPTArena
 *
