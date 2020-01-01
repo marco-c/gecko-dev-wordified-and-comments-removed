@@ -647,6 +647,14 @@ Unlink
 (
 )
 ;
+void
+TraceAllScripts
+(
+JSTracer
+*
+aTrc
+)
+;
 nsPrototypeArray
 mChildren
 ;
