@@ -15479,8 +15479,9 @@ GetPlatform
 )
 -
 >
-SupportsAzureContent
+SupportsAzureContentForDrawTarget
 (
+mTarget
 )
 )
 {
