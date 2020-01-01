@@ -1929,10 +1929,7 @@ if
 aCallback
 )
 {
-if
-(
-NS_FAILED
-(
+return
 gTestShellParent
 -
 >
@@ -1940,15 +1937,6 @@ SendExecuteCommand
 (
 command
 )
-)
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 TestShellCommandParent
