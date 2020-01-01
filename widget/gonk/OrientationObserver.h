@@ -89,6 +89,12 @@ OrientationObserver
 (
 )
 ;
+static
+void
+ShutDown
+(
+)
+;
 void
 Notify
 (
