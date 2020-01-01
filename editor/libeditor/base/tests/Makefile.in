@@ -440,10 +440,6 @@ test_bug502673
 .
 html
 \
-test_selection_move_commands
-.
-xul
-\
 test_bug514156
 .
 html
@@ -465,6 +461,10 @@ NULL
 )
 _CHROME_TEST_FILES
 =
+\
+test_selection_move_commands
+.
+xul
 \
 test_bug646194
 .
