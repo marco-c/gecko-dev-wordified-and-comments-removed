@@ -538,6 +538,9 @@ InvalidateTree
 (
 )
 ;
+PRBool
+mBatchInProgress
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

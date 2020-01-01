@@ -871,6 +871,16 @@ EndUpdateBatch
 (
 )
 ;
+PRInt32
+mBatchLevel
+;
+PRLock
+*
+mLock
+;
+PRBool
+mBatchHasTransaction
+;
 nsresult
 QueryStringToQueryArray
 (
@@ -1668,9 +1678,6 @@ nsMaybeWeakPtrArray
 nsINavHistoryObserver
 >
 mObservers
-;
-PRInt32
-mBatchesInProgress
 ;
 nsCOMPtr
 <
