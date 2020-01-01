@@ -714,10 +714,9 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 uint32_t
 size
-;
-LL_L2UI
+=
+uint32_t
 (
-size
 fileSize
 )
 ;

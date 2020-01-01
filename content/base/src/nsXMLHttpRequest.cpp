@@ -16784,10 +16784,11 @@ nsIDocument
 ePosition
 )
 ;
-LL_L2UI
-(
 *
 aPosition
+=
+uint32_t
+(
 mCurProgress
 )
 ;
@@ -16814,10 +16815,11 @@ nsIDocument
 eTotalSize
 )
 ;
-LL_L2UI
-(
 *
 aTotalSize
+=
+uint32_t
+(
 mMaxProgress
 )
 ;

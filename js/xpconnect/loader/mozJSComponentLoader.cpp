@@ -3564,12 +3564,8 @@ map
 ;
 uint32_t
 fileSize32
-;
-LL_L2UI
-(
-fileSize32
+=
 fileSize
-)
 ;
 char
 *

@@ -3768,9 +3768,10 @@ if
 gCounter
 )
 {
-LL_L2UI
-(
 gCounter
+=
+uint32_t
+(
 PR_Now
 (
 )
