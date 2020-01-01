@@ -219,8 +219,6 @@ edit
 .
 js
 \
-(
-warning
 browser_dbg_reload
 -
 same
@@ -228,18 +226,6 @@ same
 script
 .
 js
-temporarily
-disabled
-due
-to
-oranges
-see
-bug
-780198
-&
-bug
-782179
-)
 \
 browser_dbg_pane
 -

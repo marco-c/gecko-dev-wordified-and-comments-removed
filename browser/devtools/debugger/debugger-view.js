@@ -4118,6 +4118,16 @@ this
 _preferredScriptUrl
 :
 null
+set
+preferredScriptUrl
+(
+value
+)
+this
+.
+_preferredScriptUrl
+=
+value
 getScriptByLabel
 :
 function

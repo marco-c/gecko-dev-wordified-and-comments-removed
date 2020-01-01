@@ -3940,6 +3940,14 @@ selectIndex
 0
 )
 ;
+DebuggerView
+.
+Scripts
+.
+preferredScriptUrl
+=
+preferredScriptUrl
+;
 }
 for
 each
