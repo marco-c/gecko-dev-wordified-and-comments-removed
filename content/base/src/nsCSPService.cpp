@@ -1009,9 +1009,6 @@ NS_OK
 ;
 }
 }
-nsXPIDLString
-message
-;
 nsCAutoString
 newUriSpec
 ;
