@@ -14283,6 +14283,11 @@ cx
 flags
 )
 ;
+CHECK_FOR_STRING_INDEX
+(
+id
+)
+;
 return
 OBJ_LOOKUP_PROPERTY
 (
