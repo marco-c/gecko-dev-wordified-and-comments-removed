@@ -548,10 +548,8 @@ srcdir
 test
 ;
 (
-ABS_DEPTH
+LIBXUL_DIST
 )
-/
-dist
 /
 bin
 /
@@ -570,7 +568,7 @@ check
 RUN_TEST_PROGRAM
 )
 (
-DIST
+LIBXUL_DIST
 )
 /
 bin

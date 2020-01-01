@@ -1469,7 +1469,7 @@ EXTRA_TEST_ARGS
 )
 \
 (
-DIST
+LIBXUL_DIST
 )
 /
 bin

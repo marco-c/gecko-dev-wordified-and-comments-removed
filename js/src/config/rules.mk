@@ -1249,7 +1249,7 @@ EXTRA_TEST_ARGS
 )
 \
 (
-DIST
+LIBXUL_DIST
 )
 /
 bin
@@ -1387,7 +1387,7 @@ MOZ_APP_NAME
 interactive
 \
 (
-DIST
+LIBXUL_DIST
 )
 /
 bin
@@ -1500,7 +1500,7 @@ EXTRA_TEST_ARGS
 )
 \
 (
-DIST
+LIBXUL_DIST
 )
 /
 bin
