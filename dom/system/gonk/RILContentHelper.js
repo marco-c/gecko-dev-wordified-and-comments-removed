@@ -3268,12 +3268,12 @@ if
 !
 this
 .
-_enumerationTelephonyCallbacks
+_enumerateTelephonyCallbacks
 )
 {
 this
 .
-_enumerationTelephonyCallbacks
+_enumerateTelephonyCallbacks
 =
 [
 ]
@@ -3281,7 +3281,7 @@ _enumerationTelephonyCallbacks
 }
 this
 .
-_enumerationTelephonyCallbacks
+_enumerateTelephonyCallbacks
 .
 push
 (
@@ -4784,7 +4784,7 @@ callback
 =
 this
 .
-_enumerationTelephonyCallbacks
+_enumerateTelephonyCallbacks
 .
 shift
 (
