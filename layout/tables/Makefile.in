@@ -545,6 +545,12 @@ lib
 FORCE_STATIC_LIB
 =
 1
+ifdef
+MOZ_MOCHITEST
+DIRS
+=
+test
+endif
 include
 (
 topsrcdir
