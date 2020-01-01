@@ -442,6 +442,10 @@ bug344830_testembed
 .
 svg
 \
+test_bug382429
+.
+html
+\
 test_bug391747
 .
 html
