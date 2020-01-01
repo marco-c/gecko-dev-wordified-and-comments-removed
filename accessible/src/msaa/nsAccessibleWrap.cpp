@@ -3963,7 +3963,7 @@ vt
 VT_EMPTY
 ;
 return
-E_FAIL
+S_FALSE
 ;
 }
 return
