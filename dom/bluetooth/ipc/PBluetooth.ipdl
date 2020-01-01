@@ -350,6 +350,14 @@ blob
 ;
 }
 ;
+struct
+StopSendingFileRequest
+{
+nsString
+devicePath
+;
+}
+;
 union
 Request
 {
@@ -390,6 +398,8 @@ DisconnectHeadsetRequest
 DisconnectObjectPushRequest
 ;
 SendFileRequest
+;
+StopSendingFileRequest
 ;
 }
 ;
