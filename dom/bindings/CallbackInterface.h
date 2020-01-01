@@ -58,8 +58,13 @@ aPropName
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 aCallable
 )
 ;

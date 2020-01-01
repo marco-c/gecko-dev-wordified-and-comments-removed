@@ -49,8 +49,13 @@ aPropName
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-*
+>
 aCallable
 )
 {
@@ -63,6 +68,10 @@ cx
 mCallback
 aPropName
 aCallable
+.
+address
+(
+)
 )
 )
 {
@@ -74,8 +83,7 @@ if
 (
 !
 aCallable
--
->
+.
 isObject
 (
 )
@@ -87,8 +95,7 @@ JS_ObjectIsCallable
 cx
 &
 aCallable
--
->
+.
 toObject
 (
 )
