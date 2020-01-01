@@ -18828,7 +18828,7 @@ return
 obj
 -
 >
-deleteProperty
+deleteGeneric
 (
 cx
 id

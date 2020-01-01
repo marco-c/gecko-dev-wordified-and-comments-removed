@@ -415,7 +415,7 @@ attrs
 ;
 extern
 JSBool
-array_deleteProperty
+array_deleteElement
 (
 JSContext
 *
@@ -423,8 +423,8 @@ cx
 JSObject
 *
 obj
-jsid
-id
+uint32
+index
 Value
 *
 rval

@@ -3739,7 +3739,7 @@ isArray
 )
 )
 {
-jsuint
+uint32
 length
 =
 obj
@@ -3751,7 +3751,7 @@ getArrayLength
 ;
 for
 (
-jsuint
+uint32
 i
 =
 0
@@ -3812,11 +3812,11 @@ isUndefined
 {
 JS_ALWAYS_TRUE
 (
-array_deleteProperty
+array_deleteElement
 (
 cx
 obj
-id
+i
 &
 newElement
 false

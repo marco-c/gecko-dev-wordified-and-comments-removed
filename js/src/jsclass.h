@@ -1037,8 +1037,9 @@ cx
 JSObject
 *
 obj
-jsid
-id
+PropertyName
+*
+name
 Value
 *
 vp

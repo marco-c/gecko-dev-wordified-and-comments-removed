@@ -63739,7 +63739,7 @@ if
 obj
 -
 >
-deleteProperty
+deleteGeneric
 (
 cx
 id
@@ -63842,7 +63842,7 @@ id
 obj
 -
 >
-deleteProperty
+deleteGeneric
 (
 cx
 id
