@@ -1352,6 +1352,16 @@ aFlags
 =
 INVALIDATE_NO_THEBES_LAYERS
 ;
+if
+(
+aFlags
+&
+INVALIDATE_ONLY_THEBES_LAYERS
+)
+{
+return
+;
+}
 }
 nsIFrame
 *
