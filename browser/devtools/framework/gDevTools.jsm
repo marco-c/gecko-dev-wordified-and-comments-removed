@@ -1417,7 +1417,7 @@ attachKeybindingsToBrowser
 doc
 elements
 .
-keys
+key
 )
 ;
 }
