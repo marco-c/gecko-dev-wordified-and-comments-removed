@@ -3672,15 +3672,6 @@ if
 (
 !
 pwin
-|
-|
-!
-pwin
--
->
-IsInnerWindow
-(
-)
 )
 {
 return

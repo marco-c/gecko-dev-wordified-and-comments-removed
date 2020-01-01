@@ -4281,13 +4281,6 @@ GetWindowInternal
 const
 ;
 virtual
-nsPIDOMWindow
-*
-GetInnerWindowInternal
-(
-)
-;
-virtual
 nsIScriptGlobalObject
 *
 GetScriptHandlingObjectInternal
