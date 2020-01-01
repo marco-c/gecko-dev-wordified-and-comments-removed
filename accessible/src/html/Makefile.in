@@ -446,6 +446,8 @@ imglib2
 \
 intl
 \
+js
+\
 layout
 \
 locale
@@ -459,6 +461,8 @@ webshell
 widget
 \
 xpcom
+\
+xpconnect
 \
 (
 NULL
