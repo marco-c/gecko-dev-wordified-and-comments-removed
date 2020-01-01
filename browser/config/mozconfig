@@ -33,10 +33,6 @@ your
 mozconfig
 file
 .
-mk_add_options
-MOZ_CO_PROJECT
-=
-browser
 ac_add_options
 -
 -
