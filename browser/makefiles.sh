@@ -515,15 +515,6 @@ components
 /
 places
 /
-public
-/
-Makefile
-browser
-/
-components
-/
-places
-/
 src
 /
 Makefile
