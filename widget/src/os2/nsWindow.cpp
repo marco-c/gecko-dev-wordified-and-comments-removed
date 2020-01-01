@@ -14305,15 +14305,10 @@ if
 (
 ulStatus
 &
-&
 (
 QS_KEY
 |
 QS_MOUSE
-|
-QS_MOUSEBUTTON
-|
-QS_MOUSEMOVE
 )
 )
 {
