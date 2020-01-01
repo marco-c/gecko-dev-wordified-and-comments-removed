@@ -80,9 +80,6 @@ already_AddRefed
 <
 gfxASurface
 >
-gfxPlatformMac
-:
-:
 OptimizeImage
 (
 gfxImageSurface
@@ -192,9 +189,6 @@ mFontAntiAliasingThreshold
 private
 :
 void
-gfxPlatformMac
-:
-:
 AppendCJKPrefLangs
 (
 eFontPrefLang
