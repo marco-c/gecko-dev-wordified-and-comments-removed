@@ -82,6 +82,13 @@ _WIN32_WCE
 )
 &
 &
+\
+defined
+(
+_MSC_VER
+)
+&
+&
 (
 _MSC_VER
 >
