@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsFixedSizeAllocator
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -341,9 +334,6 @@ gClassLRUListQuota
 static
 bool
 gAllowDataURIs
-;
-nsFixedSizeAllocator
-mPool
 ;
 }
 ;
