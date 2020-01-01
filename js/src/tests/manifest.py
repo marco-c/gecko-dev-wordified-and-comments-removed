@@ -471,8 +471,12 @@ e
 '
 print
 (
+!
+!
+(
 %
 s
+)
 )
 '
 %
@@ -521,19 +525,13 @@ True
             
 elif
 out
-in
-(
+=
+=
 '
 false
 \
 n
 '
-'
-null
-\
-n
-'
-)
 :
                 
 ans
