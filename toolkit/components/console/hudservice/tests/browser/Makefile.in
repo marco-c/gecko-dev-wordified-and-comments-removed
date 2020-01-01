@@ -600,6 +600,10 @@ browser_webconsole_bug_587617_output_copy
 .
 js
 \
+browser_webconsole_bug_588342_document_focus
+.
+js
+\
 browser_webconsole_bug_585237_line_limit
 .
 js
@@ -665,11 +669,6 @@ js
 \
 #
 browser_webconsole_completion
-.
-js
-\
-#
-browser_webconsole_bug_588342_document_focus
 .
 js
 \
