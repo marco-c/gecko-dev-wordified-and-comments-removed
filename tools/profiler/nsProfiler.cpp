@@ -239,6 +239,7 @@ std
 ostream
 &
 aStream
+const
 SharedLibrary
 &
 aLib

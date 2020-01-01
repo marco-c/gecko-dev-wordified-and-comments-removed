@@ -110,6 +110,10 @@ Telemetry
 .
 h
 \
+ProcessedStack
+.
+h
+\
 TelemetryHistograms
 .
 h

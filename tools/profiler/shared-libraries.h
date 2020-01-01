@@ -632,6 +632,7 @@ entry
 )
 ;
 }
+const
 SharedLibrary
 &
 GetEntry
@@ -639,6 +640,7 @@ GetEntry
 size_t
 i
 )
+const
 {
 return
 mEntries
