@@ -2172,14 +2172,7 @@ ACCSET_FCSLOTS
 :
 ok
 =
-isConstPrivatePtr
-(
-base
-JSObject
-:
-:
-JSSLOT_FLAT_CLOSURE_UPVARS
-)
+false
 ;
 break
 ;

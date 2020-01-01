@@ -466,6 +466,16 @@ JSAtom
 name
 uintN
 length
+gc
+:
+:
+AllocKind
+kind
+=
+JSFunction
+:
+:
+FinalizeKind
 )
 ;
 JSObject

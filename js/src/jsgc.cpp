@@ -447,10 +447,6 @@ JSObject_Slots16
 )
 sizeof
 (
-JSFunction
-)
-sizeof
-(
 JSScript
 )
 sizeof
@@ -575,10 +571,6 @@ JSObject_Slots16
 OFFSET
 (
 JSObject_Slots16
-)
-OFFSET
-(
-JSFunction
 )
 OFFSET
 (
@@ -1784,9 +1776,6 @@ FINALIZE_OBJECT16
 :
 case
 FINALIZE_OBJECT16_BACKGROUND
-:
-case
-FINALIZE_FUNCTION
 :
 FinalizeTypedArenas
 <
@@ -6517,12 +6506,6 @@ FINALIZE_OBJECT16_BACKGROUND
 thingKind
 =
 =
-FINALIZE_FUNCTION
-|
-|
-thingKind
-=
-=
 FINALIZE_SHORT_STRING
 |
 |
@@ -6955,12 +6938,6 @@ FINALIZE_OBJECT16_BACKGROUND
 ;
 #
 endif
-finalizeLater
-(
-cx
-FINALIZE_FUNCTION
-)
-;
 #
 if
 JS_HAS_XML_SUPPORT
