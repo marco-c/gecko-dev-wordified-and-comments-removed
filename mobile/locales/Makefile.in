@@ -442,8 +442,6 @@ srcdir
 MOZ_UI_LOCALE
 )
 /
-chrome
-/
 searchplugins
 DEFINES
 +
@@ -470,8 +468,6 @@ srcdir
 (
 MOZ_UI_LOCALE
 )
-/
-chrome
 /
 searchplugins
 /
