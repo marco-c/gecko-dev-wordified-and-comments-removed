@@ -3830,7 +3830,7 @@ MarkThreadDataConservatively
 JSTracer
 *
 trc
-JSThreadData
+ThreadData
 *
 td
 )
