@@ -15321,6 +15321,13 @@ OPERATOR_OVER
 mThebes
 -
 >
+NewPath
+(
+)
+;
+mThebes
+-
+>
 Rectangle
 (
 clip
