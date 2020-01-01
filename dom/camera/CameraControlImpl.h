@@ -530,7 +530,7 @@ PushParameters
 =
 0
 ;
-void
+bool
 ReceiveFrame
 (
 void

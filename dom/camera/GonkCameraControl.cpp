@@ -4087,6 +4087,9 @@ GraphicBufferLocked
 aBuffer
 )
 {
+if
+(
+!
 gc
 -
 >
@@ -4099,6 +4102,15 @@ ImageFormat
 GONK_IO_SURFACE
 GonkFrameBuilder
 )
+)
+{
+aBuffer
+-
+>
+Unlock
+(
+)
 ;
+}
 }
 }
