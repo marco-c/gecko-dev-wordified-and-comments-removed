@@ -23873,6 +23873,14 @@ if
 (
 !
 mImageSurface
+|
+|
+mImageSurface
+-
+>
+CairoStatus
+(
+)
 )
 return
 nsnull
