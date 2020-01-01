@@ -320,11 +320,6 @@ nsMediaReadyState
 aState
 )
 ;
-void
-NotifyAutoplayDataReady
-(
-)
-;
 PRBool
 ShouldCheckAllowOrigin
 (
@@ -342,10 +337,8 @@ IsPlaybackEnded
 )
 const
 ;
-already_AddRefed
-<
 nsIPrincipal
->
+*
 GetCurrentPrincipal
 (
 )
