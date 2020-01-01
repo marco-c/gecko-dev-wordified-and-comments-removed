@@ -16469,6 +16469,8 @@ LIBS
 "
 LIBS
 -
+luuid
+-
 lgdi32
 -
 lwinmm
