@@ -314,6 +314,12 @@ config
 rules
 .
 mk
+LDFLAGS
++
+=
+(
+MOZ_ALLOW_HEAP_EXECUTE_FLAGS
+)
 ifeq
 (
 (
