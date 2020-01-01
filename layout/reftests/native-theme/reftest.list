@@ -696,6 +696,7 @@ notheme
 ref
 .
 html
+#
 skip
 -
 if
@@ -707,7 +708,7 @@ MOZ_WIDGET_TOOLKIT
 windows
 "
 )
-!
+=
 =
 scroll
 -
@@ -733,3 +734,7 @@ theme
 ref
 .
 html
+#
+Bug
+502292
+.
