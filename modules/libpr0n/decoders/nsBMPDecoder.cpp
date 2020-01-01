@@ -182,7 +182,7 @@ mRow
 )
 ;
 }
-nsresult
+void
 nsBMPDecoder
 :
 :
@@ -233,11 +233,8 @@ OnStartDecode
 nsnull
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsBMPDecoder
 :
 :
@@ -322,9 +319,6 @@ nsnull
 ;
 }
 }
-return
-NS_OK
-;
 }
 static
 void
@@ -512,7 +506,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsBMPDecoder
 :
 :
@@ -533,7 +527,6 @@ IsError
 )
 )
 return
-NS_ERROR_FAILURE
 ;
 if
 (
@@ -545,7 +538,6 @@ aCount
 mCurLine
 )
 return
-NS_OK
 ;
 nsresult
 rv
@@ -644,7 +636,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 if
@@ -825,7 +816,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_UNEXPECTED
 ;
 }
 const
@@ -855,7 +845,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 PRUint32
@@ -893,7 +882,6 @@ IsSizeDecode
 )
 )
 return
-NS_OK
 ;
 mOldLine
 =
@@ -959,7 +947,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 memset
@@ -1108,7 +1095,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 rv
@@ -1140,14 +1126,14 @@ imageLength
 )
 ;
 }
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 if
 (
+NS_FAILED
+(
+rv
+)
+|
+|
 !
 mImageData
 )
@@ -1158,7 +1144,6 @@ NS_ERROR_FAILURE
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 if
@@ -1269,7 +1254,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 memset
@@ -2214,7 +2198,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 while
@@ -2464,7 +2447,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 }
@@ -2752,7 +2734,6 @@ NS_ERROR_UNEXPECTED
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 if
@@ -2817,7 +2798,6 @@ mCurLine
 ;
 }
 return
-NS_OK
 ;
 }
 void

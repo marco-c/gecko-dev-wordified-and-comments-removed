@@ -101,7 +101,7 @@ nsIconDecoder
 )
 {
 }
-nsresult
+void
 nsIconDecoder
 :
 :
@@ -127,11 +127,8 @@ OnStartDecode
 nsnull
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsIconDecoder
 :
 :
@@ -155,11 +152,8 @@ NotifyDone
 PR_FALSE
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsIconDecoder
 :
 :
@@ -183,7 +177,6 @@ IsError
 )
 )
 return
-NS_IMAGELIB_ERROR_FAILURE
 ;
 PRUint32
 bytesToRead
@@ -302,7 +295,6 @@ rv
 )
 ;
 return
-rv
 ;
 }
 PostFrameStart
@@ -396,9 +388,6 @@ break
 ;
 }
 }
-return
-NS_OK
-;
 }
 void
 nsIconDecoder

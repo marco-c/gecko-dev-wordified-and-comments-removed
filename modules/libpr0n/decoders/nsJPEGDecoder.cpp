@@ -423,7 +423,7 @@ this
 )
 ;
 }
-nsresult
+void
 nsJPEGDecoder
 :
 :
@@ -485,7 +485,6 @@ NS_ERROR_FAILURE
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 jpeg_create_decompress
@@ -556,11 +555,8 @@ m
 0xFFFF
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsJPEGDecoder
 :
 :
@@ -614,7 +610,6 @@ mState
 JPEG_ERROR
 )
 return
-NS_OK
 ;
 if
 (
@@ -632,11 +627,8 @@ NotifyDone
 PR_FALSE
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsJPEGDecoder
 :
 :
@@ -716,7 +708,6 @@ NS_ERROR_FAILURE
 )
 ;
 return
-NS_OK
 ;
 }
 else
@@ -748,7 +739,6 @@ error
 )
 ;
 return
-error_code
 ;
 }
 }
@@ -833,7 +823,6 @@ JPEG_SUSPENDED
 )
 ;
 return
-NS_OK
 ;
 }
 PostSize
@@ -853,7 +842,6 @@ IsSizeDecode
 )
 )
 return
-NS_OK
 ;
 JOCTET
 *
@@ -1063,7 +1051,6 @@ colorpsace
 )
 ;
 return
-NS_ERROR_UNEXPECTED
 ;
 }
 if
@@ -1129,7 +1116,6 @@ colorpsace
 )
 ;
 return
-NS_ERROR_UNEXPECTED
 ;
 }
 #
@@ -1311,7 +1297,6 @@ colorpsace
 )
 ;
 return
-NS_ERROR_UNEXPECTED
 ;
 break
 ;
@@ -1394,7 +1379,6 @@ frame
 )
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 PR_LOG
@@ -1523,7 +1507,6 @@ jpeg_start_decompress
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -1618,24 +1601,11 @@ case
 PRBool
 suspend
 ;
-nsresult
-rv
-=
 OutputScanlines
 (
 &
 suspend
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 if
 (
@@ -1666,7 +1636,6 @@ SEQUENTIAL
 )
 ;
 return
-NS_OK
 ;
 }
 NS_ASSERTION
@@ -1846,7 +1815,6 @@ PROGRESSIVE
 )
 ;
 return
-NS_OK
 ;
 }
 }
@@ -1868,24 +1836,11 @@ output_scanline
 PRBool
 suspend
 ;
-nsresult
-rv
-=
 OutputScanlines
 (
 &
 suspend
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 if
 (
@@ -1933,7 +1888,6 @@ PROGRESSIVE
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -1982,7 +1936,6 @@ PROGRESSIVE
 )
 ;
 return
-NS_OK
 ;
 }
 if
@@ -2077,7 +2030,6 @@ DONE
 )
 ;
 return
-NS_OK
 ;
 }
 mState
@@ -2160,7 +2112,6 @@ function
 )
 ;
 return
-NS_OK
 ;
 }
 void
@@ -2234,7 +2185,7 @@ mNotifiedDone
 PR_TRUE
 ;
 }
-nsresult
+void
 nsJPEGDecoder
 :
 :
@@ -2257,11 +2208,6 @@ top
 mInfo
 .
 output_scanline
-;
-nsresult
-rv
-=
-NS_OK
 ;
 while
 (
@@ -2686,9 +2632,6 @@ r
 )
 ;
 }
-return
-rv
-;
 }
 METHODDEF
 (

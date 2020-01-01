@@ -103,13 +103,13 @@ nsICODecoder
 )
 ;
 virtual
-nsresult
+void
 InitInternal
 (
 )
 ;
 virtual
-nsresult
+void
 WriteInternal
 (
 const
@@ -121,7 +121,7 @@ aCount
 )
 ;
 virtual
-nsresult
+void
 FinishInternal
 (
 )

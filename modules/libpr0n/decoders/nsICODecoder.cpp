@@ -200,7 +200,7 @@ mDecodingAndMask
 PR_FALSE
 ;
 }
-nsresult
+void
 nsICODecoder
 :
 :
@@ -226,11 +226,8 @@ OnStartDecode
 nsnull
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 nsICODecoder
 :
 :
@@ -238,11 +235,6 @@ FinishInternal
 (
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 NS_ABORT_IF_FALSE
 (
 GetFrameCount
@@ -338,11 +330,8 @@ nsnull
 ;
 }
 }
-return
-rv
-;
 }
-nsresult
+void
 nsICODecoder
 :
 :
@@ -363,7 +352,6 @@ IsError
 )
 )
 return
-NS_ERROR_FAILURE
 ;
 if
 (
@@ -371,7 +359,6 @@ if
 aCount
 )
 return
-NS_OK
 ;
 while
 (
@@ -418,7 +405,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 mIsCursor
@@ -499,7 +485,6 @@ mNumIcons
 0
 )
 return
-NS_OK
 ;
 PRUint16
 colorDepth
@@ -617,7 +602,6 @@ aCount
 0
 )
 return
-NS_OK
 ;
 IconDirEntry
 e
@@ -718,7 +702,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 colorDepth
@@ -890,7 +873,6 @@ IsSizeDecode
 )
 )
 return
-NS_OK
 ;
 if
 (
@@ -943,7 +925,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 mColors
@@ -966,7 +947,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
@@ -1110,7 +1090,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 PRUint32
@@ -1146,12 +1125,22 @@ mImageData
 imageLength
 )
 ;
-NS_ENSURE_SUCCESS
+if
+(
+NS_FAILED
 (
 rv
+)
+)
+{
+PostDecoderError
+(
 rv
 )
 ;
+return
+;
+}
 PostFrameStart
 (
 )
@@ -1394,7 +1383,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 PRUint32
@@ -1867,7 +1855,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 if
@@ -1971,7 +1958,6 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
@@ -2010,7 +1996,6 @@ PostDataError
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 while
@@ -2173,7 +2158,6 @@ decoded
 }
 }
 return
-NS_OK
 ;
 }
 void
