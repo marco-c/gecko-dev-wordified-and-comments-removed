@@ -2335,6 +2335,15 @@ NS_STYLE_TEXT_DECORATION_STYLE_DOTTED
 ;
 break
 ;
+case
+eIntID_ScrollbarButtonAutoRepeatBehavior
+:
+aResult
+=
+0
+;
+break
+;
 default
 :
 aResult
