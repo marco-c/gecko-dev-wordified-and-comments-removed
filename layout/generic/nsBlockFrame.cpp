@@ -7124,12 +7124,6 @@ nsBlockReflowState
 aState
 )
 {
-aState
-.
-GetAvailableSpace
-(
-)
-;
 const
 nsStyleText
 *
@@ -7142,14 +7136,6 @@ GetStyleText
 PRBool
 tryAndSkipLines
 =
-!
-aState
-.
-IsImpactedByFloat
-(
-)
-&
-&
 (
 NS_STYLE_TEXT_ALIGN_LEFT
 =
