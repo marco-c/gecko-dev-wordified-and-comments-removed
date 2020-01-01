@@ -351,7 +351,7 @@ service
 main
 "
 "
-Trace
+Debug
 "
 )
 ;
