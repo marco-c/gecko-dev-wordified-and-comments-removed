@@ -249,7 +249,6 @@ Make
 sure
 your
 window
-also
 has
 the
 editMenuOverlay
@@ -264,6 +263,20 @@ and
 cmd_delete
 .
 4
+.
+Make
+sure
+your
+window
+has
+the
+globalOverlay
+.
+js
+script
+loaded
+.
+5
 .
 To
 initialize
@@ -315,7 +328,7 @@ set
 correctly
 view
 .
-places
+place
 =
 "
 place
