@@ -545,8 +545,6 @@ Supported
 only
 for
 XP_MACOSX
-or
-TARGET_CARBON
 *
 NOTE
 :
@@ -614,8 +612,6 @@ Supported
 only
 for
 XP_MACOSX
-or
-TARGET_CARBON
 *
 *
 param
@@ -786,8 +782,6 @@ Supported
 only
 for
 XP_MACOSX
-or
-TARGET_CARBON
 *
 *
 return
@@ -868,8 +862,6 @@ Supported
 only
 for
 XP_MACOSX
-or
-TARGET_CARBON
 *
 *
 return
