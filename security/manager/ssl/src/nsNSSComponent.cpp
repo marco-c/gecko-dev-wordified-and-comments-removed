@@ -7162,6 +7162,10 @@ setOCSPOptions
 mPrefBranch
 )
 ;
+RegisterMyOCSPAIAInfoCallback
+(
+)
+;
 mHttpForNSS
 .
 initTable
@@ -7324,6 +7328,10 @@ nsnull
 mHttpForNSS
 .
 unregisterHttpClient
+(
+)
+;
+UnregisterMyOCSPAIAInfoCallback
 (
 )
 ;

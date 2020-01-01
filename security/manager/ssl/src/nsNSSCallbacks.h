@@ -75,6 +75,16 @@ PRBool
 isServer
 )
 ;
+SECStatus
+RegisterMyOCSPAIAInfoCallback
+(
+)
+;
+SECStatus
+UnregisterMyOCSPAIAInfoCallback
+(
+)
+;
 class
 nsHTTPListener
 :
