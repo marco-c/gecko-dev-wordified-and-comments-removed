@@ -123,6 +123,9 @@ warning
 displayed
 successfully
 "
+timeout
+:
+20000
 validatorFn
 :
 function
