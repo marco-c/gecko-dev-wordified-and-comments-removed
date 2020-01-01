@@ -6323,14 +6323,14 @@ other_values
 :
 [
 "
+large
+"
+"
 2em
 "
 "
 50
 %
-"
-"
-large
 "
 "
 xx
