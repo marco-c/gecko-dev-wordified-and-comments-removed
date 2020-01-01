@@ -1250,6 +1250,9 @@ gc
 VerifyBarriers
 (
 cx
+-
+>
+runtime
 )
 ;
 *
@@ -2375,12 +2378,6 @@ cx
 -
 >
 runtime
-;
-AutoLockGC
-lock
-(
-rt
-)
 ;
 size_t
 n

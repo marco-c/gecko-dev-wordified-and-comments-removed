@@ -713,9 +713,9 @@ inline
 void
 destroy
 (
-JSContext
+FreeOp
 *
-cx
+fop
 )
 ;
 void
@@ -2578,9 +2578,12 @@ pc
 void
 clearBreakpointsIn
 (
-JSContext
+js
+:
+:
+FreeOp
 *
-cx
+fop
 js
 :
 :

@@ -3468,7 +3468,7 @@ gc
 :
 VerifyBarriers
 (
-cx
+rt
 )
 ;
 return

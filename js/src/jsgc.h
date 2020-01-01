@@ -200,7 +200,6 @@ State
 NO_INCREMENTAL
 MARK_ROOTS
 MARK
-SWEEP
 INVALID
 }
 ;
@@ -5204,9 +5203,8 @@ volatile
 State
 state
 ;
-JSContext
-*
-finalizationContext
+bool
+sweepFlag
 ;
 bool
 shrinkFlag
@@ -5388,9 +5386,9 @@ state
 (
 IDLE
 )
-finalizationContext
+sweepFlag
 (
-NULL
+false
 )
 shrinkFlag
 (
@@ -5423,9 +5421,6 @@ finish
 void
 startBackgroundSweep
 (
-JSContext
-*
-cx
 bool
 shouldShrink
 )
@@ -7388,9 +7383,9 @@ JS_GC_ZEAL
 void
 VerifyBarriers
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 void
@@ -7412,9 +7407,9 @@ inline
 void
 VerifyBarriers
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 {
 }
