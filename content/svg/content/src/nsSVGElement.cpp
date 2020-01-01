@@ -3206,6 +3206,9 @@ manager
 RemoveEventHandler
 (
 eventName
+EmptyString
+(
+)
 )
 ;
 }

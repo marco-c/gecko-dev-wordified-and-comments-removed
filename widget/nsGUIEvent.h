@@ -2386,6 +2386,9 @@ nsIAtom
 >
 userType
 ;
+nsString
+typeString
+;
 nsCOMPtr
 <
 mozilla

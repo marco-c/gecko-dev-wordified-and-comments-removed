@@ -738,14 +738,14 @@ nsPIDOMWindow
 >
 mOwner
 ;
-nsString
-mCachedType
-;
 bool
 mEventIsInternal
 ;
 bool
 mPrivateDataDuplicated
+;
+bool
+mIsMainThreadEvent
 ;
 }
 ;

@@ -1351,6 +1351,9 @@ rv
 SetEventHandler
 (
 aType
+EmptyString
+(
+)
 handler
 rv
 )
@@ -1390,6 +1393,9 @@ handler
 GetEventHandler
 (
 aType
+EmptyString
+(
+)
 )
 ;
 if
