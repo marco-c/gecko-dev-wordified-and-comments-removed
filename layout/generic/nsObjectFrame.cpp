@@ -9530,6 +9530,13 @@ aDelayedStop
 )
 return
 ;
+inst
+-
+>
+Stop
+(
+)
+;
 nsCOMPtr
 <
 nsIPluginHost

@@ -233,16 +233,6 @@ PluginCrashed
 ;
 #
 endif
-void
-SetIsDefaultPlugin
-(
-)
-;
-PRBool
-IsDefaultPlugin
-(
-)
-;
 protected
 :
 static
@@ -265,9 +255,6 @@ mPluginFuncs
 PluginLibrary
 *
 mLibrary
-;
-PRBool
-mIsDefaultPlugin
 ;
 }
 ;
