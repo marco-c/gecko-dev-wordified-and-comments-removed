@@ -289,6 +289,7 @@ IME
 deleteSurroundingText
 interrupted
 "
+e
 )
 ;
 return
@@ -621,6 +622,7 @@ IME
 performContextMenuAction
 interrupted
 "
+e
 )
 ;
 return
@@ -786,6 +788,7 @@ IME
 performContextMenuAction
 interrupted
 "
+e
 )
 ;
 return
@@ -899,6 +902,7 @@ IME
 getExtractedText
 interrupted
 "
+e
 )
 ;
 return
@@ -992,6 +996,7 @@ IME
 getExtractedText
 interrupted
 "
+e
 )
 ;
 return
@@ -1055,6 +1060,7 @@ getTextBefore
 AfterCursor
 interrupted
 "
+e
 )
 ;
 return
@@ -1153,6 +1159,7 @@ AfterCursor
 Interrupted
 !
 "
+e
 )
 ;
 return
@@ -1256,6 +1263,7 @@ IME
 setComposingText
 interrupted
 "
+e
 )
 ;
 return
