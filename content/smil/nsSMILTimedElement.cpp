@@ -504,8 +504,8 @@ event
 }
 ;
 }
-NS_STACK_CLASS
 class
+NS_STACK_CLASS
 nsSMILTimedElement
 :
 :
@@ -1568,6 +1568,7 @@ UpdateCurrentInterval
 namespace
 {
 class
+NS_STACK_CLASS
 RemoveByCreator
 {
 public
@@ -4958,6 +4959,7 @@ rv
 namespace
 {
 class
+NS_STACK_CLASS
 RemoveByFunction
 {
 public
@@ -5231,6 +5233,7 @@ updated
 namespace
 {
 class
+NS_STACK_CLASS
 RemoveReset
 {
 public
@@ -5725,6 +5728,7 @@ filteredList
 namespace
 {
 class
+NS_STACK_CLASS
 RemoveFiltered
 {
 public
@@ -5788,6 +5792,7 @@ mCutoff
 }
 ;
 class
+NS_STACK_CLASS
 RemoveBelowThreshold
 {
 public
