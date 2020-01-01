@@ -28,17 +28,6 @@ gfx
 ImmutableViewportMetrics
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
-ViewportMetrics
-;
-import
 android
 .
 graphics
@@ -65,7 +54,7 @@ public
 void
 setAnimationTarget
 (
-ViewportMetrics
+ImmutableViewportMetrics
 viewport
 )
 ;
@@ -73,7 +62,7 @@ public
 void
 setViewportMetrics
 (
-ViewportMetrics
+ImmutableViewportMetrics
 viewport
 )
 ;
