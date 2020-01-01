@@ -1628,12 +1628,6 @@ getBrowser
 .
 mCurrentTab
 ;
-setTimeout
-(
-function
-(
-)
-{
 PlacesCommandHook
 .
 bookmarkPage
@@ -1641,6 +1635,9 @@ bookmarkPage
 tab
 .
 linkedBrowser
+PlacesUtils
+.
+bookmarksRootId
 true
 getBrowser
 (
@@ -1648,9 +1645,6 @@ getBrowser
 "
 overlap
 "
-)
-}
-0
 )
 ;
 }
