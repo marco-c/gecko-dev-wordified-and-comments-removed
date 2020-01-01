@@ -2375,7 +2375,7 @@ getService
 (
 CoI
 .
-nsIApplicationUpdateService2
+nsIApplicationUpdateService
 )
 ;
 if
