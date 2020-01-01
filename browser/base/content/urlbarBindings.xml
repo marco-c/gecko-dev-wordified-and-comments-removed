@@ -1166,9 +1166,12 @@ fixup
 /
 )
 ;
-focusElement
+gBrowser
+.
+selectedBrowser
+.
+focus
 (
-content
 )
 ;
 ]

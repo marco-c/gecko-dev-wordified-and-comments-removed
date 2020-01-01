@@ -87,9 +87,10 @@ callee
 true
 )
 ;
-focusElement
+browser
+.
+focus
 (
-content
 )
 ;
 isnot
