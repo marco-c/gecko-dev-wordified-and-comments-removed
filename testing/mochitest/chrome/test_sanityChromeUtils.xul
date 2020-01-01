@@ -633,8 +633,6 @@ javascript
 [
 CDATA
 [
-SimpleTest
-.
 info
 (
 "
@@ -1859,8 +1857,6 @@ Date
 (
 )
 ;
-SimpleTest
-.
 info
 (
 "
