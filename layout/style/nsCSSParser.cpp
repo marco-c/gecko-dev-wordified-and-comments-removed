@@ -18258,6 +18258,10 @@ REPORT_UNEXPECTED_TOKEN
 PEPseudoClassArgNotNth
 )
 ;
+UngetToken
+(
+)
+;
 return
 eSelectorParsingStatus_Error
 ;
