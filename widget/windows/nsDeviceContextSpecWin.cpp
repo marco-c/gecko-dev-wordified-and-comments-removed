@@ -1860,10 +1860,6 @@ aPrintSettings
 nsresult
 rv
 =
-aIsPrintPreview
-?
-NS_ERROR_GFX_PRINTER_PRINTPREVIEW
-:
 NS_ERROR_GFX_PRINTER_NO_PRINTER_AVAILABLE
 ;
 if
