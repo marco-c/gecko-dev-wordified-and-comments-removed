@@ -38,7 +38,7 @@ btnInspect
 .
 accesskey
 "
-P
+r
 "
 >
 <
@@ -380,7 +380,7 @@ cmdPaste
 .
 accesskey
 "
-l
+P
 "
 >
 <
