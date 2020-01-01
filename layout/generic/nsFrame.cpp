@@ -13311,10 +13311,6 @@ content
 return
 NS_ERROR_FAILURE
 ;
-nsIFrame
-*
-theFrame
-;
 int32_t
 offset
 ;
@@ -13337,6 +13333,8 @@ ConstFrameSelection
 (
 )
 ;
+nsIFrame
+*
 theFrame
 =
 frameSelection
@@ -13392,8 +13390,6 @@ PeekBackwardAndForward
 (
 aBeginAmountType
 aEndAmountType
-offsets
-.
 offset
 aPresContext
 aBeginAmountType
