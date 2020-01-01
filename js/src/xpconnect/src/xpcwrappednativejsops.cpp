@@ -5165,11 +5165,6 @@ sci
 NS_ASSERTION
 (
 sci
--
->
-GetCallback
-(
-)
 "
 bad
 param
@@ -5179,6 +5174,11 @@ param
 NS_ASSERTION
 (
 sci
+-
+>
+GetCallback
+(
+)
 "
 bad
 param
