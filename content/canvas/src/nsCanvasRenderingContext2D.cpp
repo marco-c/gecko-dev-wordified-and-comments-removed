@@ -397,6 +397,8 @@ d
 ifdef
 WIN32
 return
+!
+!
 _finite
 (
 d
