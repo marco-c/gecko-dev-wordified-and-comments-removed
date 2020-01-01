@@ -570,9 +570,9 @@ nsIFrame
 *
 aFrame
 const
-HIRect
+CGSize
 &
-aRect
+aSize
 PRBool
 aShouldGetButtonStates
 )
