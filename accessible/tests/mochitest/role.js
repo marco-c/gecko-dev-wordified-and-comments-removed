@@ -13,6 +13,13 @@ nsIAccessibleRole
 ROLE_APPLICATION
 ;
 const
+ROLE_APP_ROOT
+=
+nsIAccessibleRole
+.
+ROLE_APP_ROOT
+;
+const
 ROLE_CELL
 =
 nsIAccessibleRole

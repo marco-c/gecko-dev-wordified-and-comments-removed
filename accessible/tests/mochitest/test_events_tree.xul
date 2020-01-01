@@ -933,12 +933,14 @@ this
 eventSeq
 =
 [
-[
+new
+invokerChecker
+(
 "
 TreeViewChanged
 "
 gTree
-]
+)
 ]
 ;
 }
