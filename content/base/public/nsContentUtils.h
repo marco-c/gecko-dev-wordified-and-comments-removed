@@ -2858,6 +2858,15 @@ aDisplayHeight
 )
 ;
 static
+double
+GetDevicePixelsPerMetaViewportPixel
+(
+nsIWidget
+*
+aWidget
+)
+;
+static
 void
 EnterMicroTask
 (
