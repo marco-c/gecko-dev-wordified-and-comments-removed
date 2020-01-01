@@ -102,8 +102,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Boolean
 )
-|
-JSCLASS_FIXED_BINDING
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
