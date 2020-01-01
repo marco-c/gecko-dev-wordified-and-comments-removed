@@ -4245,7 +4245,7 @@ gonk
 .
 masterKillUnderMB
 "
-1
+4
 )
 ;
 pref
@@ -4273,7 +4273,7 @@ gonk
 .
 foregroundHighKillUnderMB
 "
-3
+5
 )
 ;
 pref
@@ -4301,7 +4301,7 @@ gonk
 .
 foregroundKillUnderMB
 "
-4
+6
 )
 ;
 pref
@@ -4329,7 +4329,7 @@ gonk
 .
 backgroundPerceivableKillUnderMB
 "
-5
+7
 )
 ;
 pref
@@ -4357,7 +4357,7 @@ gonk
 .
 backgroundHomescreenKillUnderMB
 "
-5
+8
 )
 ;
 pref
@@ -4385,7 +4385,7 @@ gonk
 .
 backgroundKillUnderMB
 "
-8
+20
 )
 ;
 pref
