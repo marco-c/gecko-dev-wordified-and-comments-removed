@@ -508,6 +508,17 @@ nullptr
 )
 ;
 virtual
+CompositorParent
+*
+NewCompositorParent
+(
+int
+aSurfaceWidth
+int
+aSurfaceHeight
+)
+;
+virtual
 void
 CreateCompositor
 (
