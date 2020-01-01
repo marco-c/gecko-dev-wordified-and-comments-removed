@@ -3318,6 +3318,16 @@ visit
 .
 js
 "
+"
+test_sorting
+.
+js
+"
+"
+test_redirectsMode
+.
+js
+"
 ]
 ;
 let
