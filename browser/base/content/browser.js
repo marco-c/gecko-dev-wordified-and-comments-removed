@@ -22741,12 +22741,9 @@ nsIBrowserDOMWindow
 .
 OPEN_NEWTAB
 :
-var
+let
 win
-=
 needToFocusWin
-=
-null
 ;
 if
 (
