@@ -104,7 +104,7 @@ aOpsToInterpose
 )
 ;
 static
-PRInt32
+int32_t
 PR_CALLBACK
 Read
 (
@@ -114,12 +114,12 @@ aFd
 void
 *
 aBuf
-PRInt32
+int32_t
 aAmt
 )
 ;
 static
-PRInt32
+int32_t
 PR_CALLBACK
 Write
 (
@@ -130,7 +130,7 @@ const
 void
 *
 aBuf
-PRInt32
+int32_t
 aAmt
 )
 ;

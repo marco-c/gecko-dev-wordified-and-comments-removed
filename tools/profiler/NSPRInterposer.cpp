@@ -381,7 +381,7 @@ aEnable
 0
 ;
 }
-PRInt32
+int32_t
 PR_CALLBACK
 NSPRInterposer
 :
@@ -394,7 +394,7 @@ aFd
 void
 *
 aBuf
-PRInt32
+int32_t
 aAmt
 )
 {
@@ -461,7 +461,7 @@ aAmt
 )
 ;
 }
-PRInt32
+int32_t
 PR_CALLBACK
 NSPRInterposer
 :
@@ -475,7 +475,7 @@ const
 void
 *
 aBuf
-PRInt32
+int32_t
 aAmt
 )
 {
