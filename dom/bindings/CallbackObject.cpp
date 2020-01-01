@@ -314,6 +314,14 @@ construct
 cx
 )
 ;
+mRootedCallable
+.
+construct
+(
+cx
+aCallback
+)
+;
 mCxPusher
 .
 Push
