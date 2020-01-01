@@ -22,10 +22,6 @@ stdlib
 h
 >
 #
-define
-SIGSLOT_DEFAULT_MT_POLICY
-single_threaded
-#
 if
 defined
 (
