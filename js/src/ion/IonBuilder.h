@@ -3342,6 +3342,7 @@ getArg
 uint32_t
 i
 )
+const
 {
 JS_ASSERT
 (
