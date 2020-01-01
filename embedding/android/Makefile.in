@@ -1437,16 +1437,10 @@ hdpi
 icon
 .
 png
-res
-/
-values
-/
-strings
-.
-xml
 AndroidManifest
 .
 xml
+chrome
 (
 AAPT
 )
