@@ -3673,6 +3673,8 @@ INVALID_SECURITY_LEVEL
 }
 msg
 .
+app
+.
 appStatus
 =
 getAppStatus
