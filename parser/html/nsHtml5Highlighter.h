@@ -70,6 +70,10 @@ nsHtml5Highlighter
 void
 Start
 (
+const
+nsAutoString
+&
+aTitle
 )
 ;
 PRInt32
@@ -336,9 +340,6 @@ mInCharacters
 nsHtml5UTF16Buffer
 *
 mBuffer
-;
-nsString
-mURL
 ;
 bool
 mSyntaxHighlight

@@ -31,15 +31,13 @@ aWindow
 .
 gBrowser
 ;
-todo
+is
 (
 gBrowser
 .
 contentDocument
 .
 title
-=
-=
 source
 "
 Correct

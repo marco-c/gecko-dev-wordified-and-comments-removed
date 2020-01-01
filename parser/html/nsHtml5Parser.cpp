@@ -865,6 +865,14 @@ SetObserver
 aObserver
 )
 ;
+mStreamParser
+-
+>
+SetViewSourceTitle
+(
+aURL
+)
+;
 mExecutor
 -
 >
