@@ -450,10 +450,6 @@ NULL
 _TEST_FILES
 =
 \
-test_arrowpanel
-.
-xul
-\
 test_contextmenu_nested
 .
 xul
