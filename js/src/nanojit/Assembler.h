@@ -1267,6 +1267,10 @@ _nExitIns
 #
 ifdef
 NJ_VERBOSE
+NIns
+*
+_nInsAfter
+;
 size_t
 codeBytes
 ;
