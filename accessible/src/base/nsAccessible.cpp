@@ -9794,6 +9794,13 @@ container
 docShellTreeItem
 )
 ;
+if
+(
+!
+docShellTreeItem
+)
+break
+;
 nsIDocShellTreeItem
 *
 sameTypeParent
