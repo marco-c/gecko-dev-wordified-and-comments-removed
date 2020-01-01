@@ -158,6 +158,14 @@ JSStackFrame
 entryfp
 ;
 #
+define
+NATIVE_CALL_SCRATCH_VALUE
+(
+void
+*
+)
+0x1
+#
 if
 defined
 (
