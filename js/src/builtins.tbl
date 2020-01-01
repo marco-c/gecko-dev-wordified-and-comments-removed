@@ -506,7 +506,7 @@ jsdouble
 )
 BUILTIN1
 (
-Math_dot_sin
+Math_sin
 F
 F
 jsdouble
@@ -516,7 +516,7 @@ jsdouble
 )
 BUILTIN1
 (
-Math_dot_cos
+Math_cos
 F
 F
 jsdouble
@@ -526,7 +526,7 @@ jsdouble
 )
 BUILTIN2
 (
-Math_dot_pow
+Math_pow
 F
 F
 F
