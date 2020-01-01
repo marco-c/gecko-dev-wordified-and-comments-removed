@@ -2255,7 +2255,7 @@ sp
 c
 -
 >
-GetObjectPrincipal
+GetGlobalObject
 (
 )
 ;
