@@ -257,6 +257,14 @@ endif
 EXTRA_COMPONENTS
 =
 \
+NetworkManager
+.
+manifest
+\
+NetworkManager
+.
+js
+\
 RadioInterfaceLayer
 .
 manifest
