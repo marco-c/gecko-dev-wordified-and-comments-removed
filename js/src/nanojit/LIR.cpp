@@ -6154,7 +6154,7 @@ data
 {
 #
 ifdef
-AVMPLUS_64BIT
+NANOJIT_64BIT
 hash
 =
 _hash32
@@ -11697,12 +11697,12 @@ int
 d
 =
 (
-int
+intptr_t
 (
 p
 )
 -
-int
+intptr_t
 (
 start
 )
@@ -11934,7 +11934,7 @@ char
 newbase
 +
 (
-int
+intptr_t
 )
 names
 .

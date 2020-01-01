@@ -721,13 +721,13 @@ NanoAssert
 sz
 =
 =
-ARGSIZES_LO
+ARGSIZE_LO
 |
 |
 sz
 =
 =
-ARGSIZES_Q
+ARGSIZE_Q
 )
 ;
 Register

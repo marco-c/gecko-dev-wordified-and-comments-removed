@@ -23,10 +23,8 @@ avmplus
 AvmCore
 *
 core
-avmplus
-:
-:
-AvmString
+char
+*
 fileName
 )
 ;
@@ -457,10 +455,8 @@ AVMPLUS_VERBOSE
 void
 drawTrees
 (
-avmplus
-:
-:
-AvmString
+char
+*
 fileName
 )
 ;

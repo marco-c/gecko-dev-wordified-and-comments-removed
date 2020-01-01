@@ -37,7 +37,8 @@ frago
 AvmCore
 *
 core
-AvmString
+char
+*
 fileName
 )
 ;
@@ -130,7 +131,8 @@ LabelMap
 )
 _labels
 ;
-AvmString
+char
+*
 _fileName
 ;
 void

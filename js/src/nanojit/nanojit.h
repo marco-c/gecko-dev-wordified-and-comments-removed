@@ -814,7 +814,7 @@ s
 (
 (
 (
-uint32_t
+uintptr_t
 )
 (
 x
@@ -825,6 +825,9 @@ x
 ~
 (
 (
+(
+uintptr_t
+)
 s
 )
 -
@@ -842,7 +845,7 @@ s
 (
 (
 (
-uint32_t
+uintptr_t
 )
 (
 x
@@ -851,6 +854,9 @@ x
 +
 (
 (
+(
+uintptr_t
+)
 s
 )
 -
@@ -861,6 +867,9 @@ s
 ~
 (
 (
+(
+uintptr_t
+)
 s
 )
 -

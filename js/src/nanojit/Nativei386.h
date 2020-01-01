@@ -540,6 +540,8 @@ sizeof
 (
 NIns
 )
++
+5
 ;
 \
 if
@@ -5668,7 +5670,7 @@ while
 )
 #
 define
-LDQ
+SSE_LDQ
 (
 r
 d
@@ -5726,7 +5728,7 @@ while
 )
 #
 define
-STQ
+SSE_STQ
 (
 d
 b
@@ -5786,7 +5788,7 @@ while
 )
 #
 define
-CVTSI2SD
+SSE_CVTSI2SD
 (
 xr
 gr
@@ -5888,7 +5890,7 @@ while
 )
 #
 define
-MOVD
+SSE_MOVD
 (
 d
 s
@@ -5997,7 +5999,7 @@ while
 )
 #
 define
-MOVSD
+SSE_MOVSD
 (
 rd
 rs
@@ -6048,7 +6050,7 @@ while
 )
 #
 define
-STD
+SSE_MOVDm
 (
 d
 b
@@ -6102,7 +6104,7 @@ while
 )
 #
 define
-ADDSD
+SSE_ADDSD
 (
 rd
 rs
@@ -6153,7 +6155,7 @@ while
 )
 #
 define
-ADDSDm
+SSE_ADDSDm
 (
 r
 addr
@@ -6269,7 +6271,7 @@ while
 )
 #
 define
-SUBSD
+SSE_SUBSD
 (
 rd
 rs
@@ -6320,7 +6322,7 @@ while
 )
 #
 define
-MULSD
+SSE_MULSD
 (
 rd
 rs
@@ -6371,7 +6373,7 @@ while
 )
 #
 define
-DIVSD
+SSE_DIVSD
 (
 rd
 rs
@@ -6422,7 +6424,7 @@ while
 )
 #
 define
-UCOMISD
+SSE_UCOMISD
 (
 rl
 rr
@@ -6533,7 +6535,7 @@ while
 )
 #
 define
-XORPD
+SSE_XORPD
 (
 r
 maskaddr
@@ -6636,7 +6638,7 @@ while
 )
 #
 define
-XORPDr
+SSE_XORPDr
 (
 rd
 rs

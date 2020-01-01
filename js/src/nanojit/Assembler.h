@@ -7,6 +7,14 @@ __nanojit_Assembler__
 namespace
 nanojit
 {
+#
+define
+STACK_GRANULARITY
+sizeof
+(
+void
+*
+)
 struct
 Reservation
 {
@@ -1361,7 +1369,10 @@ r
 return
 stack_direction
 (
-4
+(
+int32_t
+)
+STACK_GRANULARITY
 )
 *
 int32_t
