@@ -3088,6 +3088,12 @@ xpAccessible
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+xpAccessible
+E_FAIL
+)
+;
 if
 (
 flagsSelect

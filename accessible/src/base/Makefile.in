@@ -491,6 +491,10 @@ nsAccessibleEventData
 .
 cpp
 \
+nsARIAMap
+.
+cpp
+\
 nsDocAccessible
 .
 cpp
