@@ -487,10 +487,6 @@ nsPersistentProperties
 .
 cpp
 \
-nsRecyclingAllocator
-.
-cpp
-\
 nsStaticNameTable
 .
 cpp
@@ -642,10 +638,6 @@ nsObserverService
 .
 h
 \
-nsRecyclingAllocator
-.
-h
-\
 nsStaticNameTable
 .
 h
@@ -733,10 +725,6 @@ nsIWritablePropertyBag
 idl
 \
 nsIWritablePropertyBag2
-.
-idl
-\
-nsIRecyclingAllocator
 .
 idl
 \

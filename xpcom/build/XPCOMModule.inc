@@ -301,11 +301,6 @@ nsXPTIInterfaceInfoManagerGetSingleton
 )
 COMPONENT
 (
-RECYCLINGALLOCATOR
-nsRecyclingAllocatorImplConstructor
-)
-COMPONENT
-(
 HASH_PROPERTY_BAG
 nsHashPropertyBagConstructor
 )
