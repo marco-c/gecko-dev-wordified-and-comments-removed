@@ -346,7 +346,7 @@ args
 static
 PyObject
 *
-get_network_io_counters
+get_net_io_counters
 (
 PyObject
 *
