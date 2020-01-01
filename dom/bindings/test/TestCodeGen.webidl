@@ -4325,6 +4325,11 @@ null
 any
 someAny
 ;
+any
+anotherAny
+=
+null
+;
 unrestricted
 float
 urFloat
