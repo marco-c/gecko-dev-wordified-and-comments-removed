@@ -8143,7 +8143,7 @@ GetParent
 &
 &
 (
-content
+frame
 -
 >
 IsFocusable
