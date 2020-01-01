@@ -935,6 +935,12 @@ PluginClickToPlayClicked
 this
 )
 ;
+InputSourceHelper
+.
+fireUpdate
+(
+)
+;
 Task
 .
 spawn
@@ -1274,12 +1280,6 @@ loadStartupURI
 )
 ;
 }
-InputSourceHelper
-.
-fireUpdate
-(
-)
-;
 let
 event
 =
