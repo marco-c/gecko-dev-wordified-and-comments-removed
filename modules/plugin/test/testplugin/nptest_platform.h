@@ -157,5 +157,13 @@ InstanceData
 instanceData
 )
 ;
+bool
+pluginDestroySharedGfxStuff
+(
+InstanceData
+*
+instanceData
+)
+;
 #
 endif
