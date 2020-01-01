@@ -77,11 +77,9 @@ nsSMILValue
 aRight
 )
 const
-{
-return
-PR_FALSE
+=
+0
 ;
-}
 virtual
 nsresult
 Add
