@@ -429,6 +429,14 @@ ins
 )
 ;
 bool
+visitAbsI
+(
+LAbsI
+*
+lir
+)
+;
+bool
 visitBinaryV
 (
 LBinaryV

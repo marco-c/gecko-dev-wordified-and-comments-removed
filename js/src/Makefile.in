@@ -1736,6 +1736,10 @@ shared
 .
 cpp
 \
+MCallOptimize
+.
+cpp
+\
 MIRGraph
 .
 cpp
