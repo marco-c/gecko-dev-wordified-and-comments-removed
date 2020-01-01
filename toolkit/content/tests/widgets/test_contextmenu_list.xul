@@ -1631,6 +1631,7 @@ getBoundingClientRect
 (
 )
 ;
+var
 left
 =
 frombase
@@ -1645,6 +1646,7 @@ rect
 .
 left
 ;
+var
 top
 =
 frombase

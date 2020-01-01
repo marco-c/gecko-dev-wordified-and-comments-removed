@@ -828,6 +828,10 @@ test_bug648465
 .
 html
 \
+test_bug654137
+.
+html
+\
 test_window_bar
 .
 html
