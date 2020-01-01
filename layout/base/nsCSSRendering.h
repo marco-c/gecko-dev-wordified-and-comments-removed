@@ -866,7 +866,13 @@ aLayer
 ;
 static
 void
-DidPaint
+BeginFrameTreesLocked
+(
+)
+;
+static
+void
+EndFrameTreesLocked
 (
 )
 ;
