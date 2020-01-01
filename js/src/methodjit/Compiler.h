@@ -1363,6 +1363,14 @@ source
 uint32_t
 target
 ;
+#
+ifdef
+JS_CPU_X64
+Label
+sourceTrampoline
+;
+#
+endif
 Jump
 fastJump
 ;
