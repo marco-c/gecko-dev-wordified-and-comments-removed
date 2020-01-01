@@ -22614,7 +22614,7 @@ GetHeaderData
 nsGkAtoms
 :
 :
-minimum_scale
+viewport_minimum_scale
 minScaleStr
 )
 ;
@@ -22669,7 +22669,7 @@ GetHeaderData
 nsGkAtoms
 :
 :
-maximum_scale
+viewport_maximum_scale
 maxScaleStr
 )
 ;
