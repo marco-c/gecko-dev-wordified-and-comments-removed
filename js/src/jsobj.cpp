@@ -22786,15 +22786,6 @@ if
 added
 )
 {
-#
-ifdef
-JS_TRACER
-PropertyCacheEntry
-*
-entry
-=
-#
-endif
 JS_PROPERTY_CACHE
 (
 cx
