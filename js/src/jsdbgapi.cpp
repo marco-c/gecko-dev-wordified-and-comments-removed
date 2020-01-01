@@ -3135,12 +3135,6 @@ NULL
 ;
 frame
 .
-callee
-=
-closure
-;
-frame
-.
 fun
 =
 fun
@@ -5093,6 +5087,8 @@ fp
 -
 >
 callee
+(
+)
 )
 return
 callbacks
@@ -5105,6 +5101,8 @@ fp
 -
 >
 callee
+(
+)
 )
 ;
 }
@@ -5187,6 +5185,8 @@ fp
 -
 >
 callee
+(
+)
 )
 ;
 }
@@ -5704,6 +5704,8 @@ fp
 -
 >
 callee
+(
+)
 )
 )
 ;
@@ -5713,6 +5715,8 @@ fp
 -
 >
 callee
+(
+)
 -
 >
 getAssignedPrivate
@@ -5731,6 +5735,8 @@ fp
 -
 >
 callee
+(
+)
 ;
 }
 JS_PUBLIC_API
@@ -5781,6 +5787,8 @@ fp
 -
 >
 callee
+(
+)
 ;
 }
 JS_PUBLIC_API
