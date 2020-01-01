@@ -613,8 +613,6 @@ handling
 "
 )
 ;
-NS_TRY_SAFE_CALL_VOID
-(
 :
 :
 CallWindowProc
@@ -632,8 +630,6 @@ hWnd
 WM_USER_FLASH
 wParam
 lParam
-)
-aInst
 )
 ;
 return
@@ -1958,8 +1954,6 @@ GetLParam
 }
 else
 {
-NS_TRY_SAFE_CALL_VOID
-(
 :
 :
 CallWindowProc
@@ -1980,8 +1974,6 @@ GetWParam
 GetLParam
 (
 )
-)
-inst
 )
 ;
 }
