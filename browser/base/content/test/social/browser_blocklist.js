@@ -1176,6 +1176,8 @@ function
 providerListener
 (
 topic
+origin
+providers
 )
 {
 if
@@ -1186,7 +1188,7 @@ topic
 "
 provider
 -
-removed
+disabled
 "
 )
 return
@@ -1196,6 +1198,18 @@ SocialService
 unregisterProviderListener
 (
 providerListener
+)
+;
+is
+(
+origin
+provider
+.
+origin
+"
+provider
+disabled
+"
 )
 ;
 SocialService
@@ -1219,7 +1233,7 @@ null
 "
 blocklisted
 provider
-removed
+disabled
 "
 )
 ;
