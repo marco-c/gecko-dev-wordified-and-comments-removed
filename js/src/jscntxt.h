@@ -4935,9 +4935,6 @@ errorReporter
 JSOperationCallback
 operationCallback
 ;
-uintN
-interpLevel
-;
 void
 *
 data
