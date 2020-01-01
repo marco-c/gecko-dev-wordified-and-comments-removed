@@ -2258,6 +2258,7 @@ function
 aItemId
 aParentId
 aIndex
+aItemType
 )
 {
 try

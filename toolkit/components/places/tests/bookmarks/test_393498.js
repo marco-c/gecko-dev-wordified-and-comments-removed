@@ -102,6 +102,7 @@ function
 id
 folder
 index
+itemType
 )
 {
 this
@@ -127,7 +128,6 @@ onBeforeItemRemoved
 :
 function
 (
-id
 )
 {
 }
@@ -135,9 +135,6 @@ onItemRemoved
 :
 function
 (
-id
-folder
-index
 )
 {
 }
@@ -152,6 +149,8 @@ id
 property
 isAnnotationProperty
 value
+lastModified
+itemType
 )
 {
 this
@@ -183,9 +182,6 @@ onItemVisited
 :
 function
 (
-id
-visitID
-time
 )
 {
 }
@@ -193,11 +189,6 @@ onItemMoved
 :
 function
 (
-id
-oldParent
-oldIndex
-newParent
-newIndex
 )
 {
 }
