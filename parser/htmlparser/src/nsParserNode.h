@@ -386,6 +386,13 @@ PopAttributeToken
 )
 ;
 virtual
+CToken
+*
+PopAttributeTokenFront
+(
+)
+;
+virtual
 void
 GetSource
 (
@@ -695,6 +702,13 @@ virtual
 CToken
 *
 PopAttributeToken
+(
+)
+;
+virtual
+CToken
+*
+PopAttributeTokenFront
 (
 )
 ;

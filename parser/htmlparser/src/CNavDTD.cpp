@@ -3994,7 +3994,7 @@ theAttrToken
 =
 theAttrNode
 .
-PopAttributeToken
+PopAttributeTokenFront
 (
 )
 ;
@@ -6432,6 +6432,9 @@ GetAttributeCount
 (
 )
 ;
+nsDeque
+temp
+;
 for
 (
 PRInt32
@@ -6467,10 +6470,9 @@ if
 theAttrToken
 )
 {
-mTokenizer
--
->
-PushTokenFront
+temp
+.
+Push
 (
 theAttrToken
 )
@@ -6481,6 +6483,14 @@ theBadTokenCount
 -
 ;
 }
+mTokenizer
+-
+>
+PrependTokens
+(
+temp
+)
+;
 if
 (
 eToken_end
