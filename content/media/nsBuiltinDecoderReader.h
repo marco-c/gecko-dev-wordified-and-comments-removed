@@ -1169,6 +1169,7 @@ ReadMetadata
 =
 0
 ;
+virtual
 VideoData
 *
 FindStartTime
