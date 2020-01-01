@@ -439,6 +439,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsITransferable
 .
 h
@@ -777,6 +784,8 @@ nsISupportsArray
 aTransferableArray
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -1124,6 +1133,8 @@ currentKey
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NSImage
 *
@@ -1143,6 +1154,8 @@ nsIScriptableRegion
 aRegion
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 NSPoint
 screenPoint
 =
@@ -1727,6 +1740,8 @@ image
 autorelease
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 /
 /
@@ -1805,6 +1820,8 @@ PRUint32
 aActionType
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsBaseDragService
 :
 :
@@ -2194,6 +2211,8 @@ YES
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsDragService
@@ -2208,6 +2227,8 @@ PRUint32
 aItemIndex
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -3087,6 +3108,8 @@ kGIFImageMime
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsDragService
@@ -3103,6 +3126,8 @@ PRBool
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 *
 _retval
 =
@@ -3436,6 +3461,8 @@ PR_TRUE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsDragService
@@ -3448,6 +3475,8 @@ PRUint32
 aNumItems
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 *
 aNumItems
 =
@@ -3577,6 +3606,8 @@ count
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsDragService
@@ -3588,6 +3619,8 @@ PRBool
 aDoneDrag
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 mNativeDragView
@@ -3630,5 +3663,7 @@ EndDragSession
 (
 aDoneDrag
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }

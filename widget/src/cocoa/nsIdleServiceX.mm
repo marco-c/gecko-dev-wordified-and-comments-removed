@@ -398,6 +398,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
@@ -427,6 +434,8 @@ PRUint32
 aTimeDiff
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 kern_return_t
 rval
 ;
@@ -707,5 +716,7 @@ time
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }

@@ -440,6 +440,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsIInternetConfigService
 .
 h
@@ -2540,6 +2547,8 @@ nscolor
 aDefaultColor
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 OSStatus
 err
 =
@@ -2600,6 +2609,8 @@ aDefaultColor
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLookAndFeel
@@ -2619,6 +2630,8 @@ nscolor
 aDefaultColor
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 OSStatus
 err
 =
@@ -2679,6 +2692,8 @@ aDefaultColor
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLookAndFeel
@@ -2698,6 +2713,8 @@ nscolor
 aDefaultColor
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 res
 =
@@ -3007,6 +3024,8 @@ aDefaultColor
 return
 res
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLookAndFeel
@@ -3022,6 +3041,8 @@ PRInt32
 aMetric
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 res
 =
@@ -3746,6 +3767,8 @@ NS_ERROR_FAILURE
 }
 return
 res
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP

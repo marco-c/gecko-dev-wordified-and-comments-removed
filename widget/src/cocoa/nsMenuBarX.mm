@@ -859,6 +859,8 @@ mDocument
 nsnull
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 mRootMenu
 =
 [
@@ -900,6 +902,8 @@ NewEventHandlerUPP
 CommandEventHandler
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 nsMenuBarX
 :
@@ -909,6 +913,8 @@ nsMenuBarX
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 mMenusArray
 .
 Clear
@@ -1012,6 +1018,8 @@ this
 mRootMenu
 release
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -1343,6 +1351,8 @@ InstallCommandEventHandler
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 OSStatus
 err
 =
@@ -1453,6 +1463,11 @@ installed
 return
 err
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+noErr
+)
+;
 }
 /
 /
@@ -1486,6 +1501,8 @@ void
 userData
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 OSStatus
 handled
 =
@@ -1872,6 +1889,11 @@ on
 commandID
 return
 handled
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+noErr
+)
 ;
 }
 /
@@ -2500,6 +2522,8 @@ nsIMenu
 aMenu
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 If
@@ -2736,6 +2760,8 @@ nativeMenu
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -2771,6 +2797,8 @@ NativeMenuItemTarget
 target
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsCOMPtr
 <
 nsIContent
@@ -3221,6 +3249,8 @@ macKeyModifiers
 return
 newMenuItem
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 /
 /
@@ -3244,6 +3274,8 @@ nsIMenu
 inMenu
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 At
@@ -4240,6 +4272,8 @@ NS_OK
 :
 NS_ERROR_FAILURE
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsMenuBarX
@@ -4346,6 +4380,8 @@ PRUint32
 aCount
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 mMenusArray
 .
 RemoveObjectAt
@@ -4362,6 +4398,8 @@ aCount
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP
@@ -4423,6 +4461,8 @@ Paint
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NSMenu
 *
 mainMenu
@@ -4568,6 +4608,8 @@ YES
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -5534,6 +5576,8 @@ nsString
 itemLabel
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 /
 /
 :
@@ -5674,6 +5718,8 @@ label
 /
 caller
 releases
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 PRUint8
 MenuHelpersX
@@ -5960,6 +6006,8 @@ id
 )
 sender
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 just
@@ -6235,5 +6283,7 @@ newEvent
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 end

@@ -397,6 +397,13 @@ h
 "
 #
 include
+"
+nsObjCExceptions
+.
+h
+"
+#
+include
 <
 math
 .
@@ -634,6 +641,8 @@ nsCursorManager
 )
 sharedInstance
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 !
@@ -654,6 +663,8 @@ init
 return
 gInstance
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 +
 (
@@ -661,6 +672,8 @@ void
 )
 dispose
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 gInstance
 release
@@ -669,6 +682,8 @@ release
 gInstance
 =
 nil
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 +
@@ -684,6 +699,8 @@ nsCursor
 )
 aCursor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 switch
 (
 aCursor
@@ -1292,6 +1309,8 @@ arrowCursor
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 +
 (
@@ -1305,6 +1324,8 @@ SEL
 )
 aCursor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 nsMacCursor
@@ -1318,6 +1339,8 @@ aCursor
 ]
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1325,6 +1348,8 @@ id
 )
 init
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -1353,6 +1378,8 @@ initWithCapacity
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1366,6 +1393,8 @@ nsCursor
 )
 aCursor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 aCursor
@@ -1428,6 +1457,8 @@ mCurrentCursor
 aCursor
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -1442,6 +1473,8 @@ nsCursor
 )
 aCursor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsMacCursor
 *
 result
@@ -1492,6 +1525,8 @@ aCursor
 return
 result
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1499,6 +1534,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 [
 self
@@ -1518,6 +1555,8 @@ release
 super
 dealloc
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 end

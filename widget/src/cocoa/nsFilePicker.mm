@@ -515,6 +515,13 @@ DARWIN
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -994,6 +1001,8 @@ GetAccessoryView
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 NSView
 *
 accessoryView
@@ -1677,6 +1686,8 @@ popupButton
 return
 accessoryView
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 /
 /
@@ -2280,6 +2291,8 @@ nsILocalFile
 outFiles
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 PRInt16
 retVal
 =
@@ -2660,6 +2673,11 @@ returnOK
 return
 retVal
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+)
+;
 }
 /
 /
@@ -2861,6 +2879,8 @@ nsILocalFile
 outFile
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 NS_ENSURE_ARG
 (
 outFile
@@ -3139,6 +3159,11 @@ returnOK
 return
 retVal
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+)
+;
 }
 /
 /
@@ -3334,6 +3359,8 @@ nsILocalFile
 outFile
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 NS_ENSURE_ARG
 (
 outFile
@@ -3628,6 +3655,11 @@ returnOK
 return
 retVal
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+)
+;
 }
 /
 /
@@ -3843,6 +3875,8 @@ GenerateFilterList
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 NSArray
 *
 filterArray
@@ -4268,6 +4302,8 @@ autorelease
 return
 filterArray
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 /
 /
@@ -4471,6 +4507,8 @@ id
 aPanel
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 aPanel
 setTitle
@@ -4498,6 +4536,8 @@ Length
 )
 ]
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -4689,6 +4729,8 @@ PanelDefaultDirectory
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 NSString
 *
 directory
@@ -4740,6 +4782,8 @@ autorelease
 }
 return
 directory
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 /

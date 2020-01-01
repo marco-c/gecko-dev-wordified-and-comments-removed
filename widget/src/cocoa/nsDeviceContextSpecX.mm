@@ -461,6 +461,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 prmem
 .
 h
@@ -694,6 +701,8 @@ nsDeviceContextSpecX
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mPrintSession
@@ -704,6 +713,8 @@ PMRelease
 (
 mPrintSession
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 NS_IMPL_ISUPPORTS1
@@ -799,6 +810,8 @@ PRBool
 aIsPrintPreview
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 ;
@@ -895,6 +908,8 @@ rv
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsDeviceContextSpecX
@@ -914,6 +929,8 @@ PRInt32
 aEndPage
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 aTitle
@@ -1032,6 +1049,8 @@ NS_ERROR_ABORT
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsDeviceContextSpecX
@@ -1041,6 +1060,8 @@ EndDocument
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 :
 :
 PMSessionEndDocumentNoDialog
@@ -1050,6 +1071,8 @@ mPrintSession
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -1078,6 +1101,8 @@ BeginPage
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 PMSessionError
 (
 mPrintSession
@@ -1108,6 +1133,8 @@ NS_ERROR_ABORT
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsDeviceContextSpecX
@@ -1117,6 +1144,8 @@ EndPage
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 OSStatus
 status
 =
@@ -1140,6 +1169,8 @@ NS_ERROR_ABORT
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 void
 nsDeviceContextSpecX
@@ -1161,6 +1192,8 @@ double
 aRight
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 PMRect
 pageRect
 ;
@@ -1199,6 +1232,8 @@ pageRect
 .
 right
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsDeviceContextSpecX
@@ -1220,6 +1255,8 @@ double
 aRightMargin
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 PMPaper
 paper
 ;
@@ -1272,6 +1309,8 @@ margins
 .
 right
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 NS_IMETHODIMP
 nsDeviceContextSpecX
@@ -1285,6 +1324,8 @@ gfxASurface
 surface
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 double
 top
 left
@@ -1473,5 +1514,7 @@ surface
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }

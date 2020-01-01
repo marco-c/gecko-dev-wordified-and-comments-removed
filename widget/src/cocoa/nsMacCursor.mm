@@ -400,6 +400,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -1875,6 +1882,8 @@ ThemeCursor
 )
 aCursor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 [
@@ -1888,6 +1897,8 @@ aCursor
 ]
 autorelease
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 +
@@ -1908,6 +1919,8 @@ int
 )
 aLastFrame
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 [
@@ -1925,6 +1938,8 @@ aLastFrame
 autorelease
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 +
 (
@@ -1939,6 +1954,8 @@ NSCursor
 )
 aCursor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 [
@@ -1952,6 +1969,8 @@ aCursor
 ]
 autorelease
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 +
@@ -1973,6 +1992,8 @@ NSPoint
 )
 aPoint
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 [
@@ -1990,6 +2011,8 @@ aPoint
 autorelease
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 +
 (
@@ -2004,6 +2027,8 @@ NSArray
 )
 aCursorFrames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 [
@@ -2017,6 +2042,8 @@ aCursorFrames
 ]
 autorelease
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 -
@@ -2150,6 +2177,8 @@ void
 )
 createTimer
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mTimer
@@ -2189,6 +2218,8 @@ retain
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -2196,6 +2227,8 @@ void
 )
 destroyTimer
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mTimer
@@ -2216,6 +2249,8 @@ mTimer
 nil
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -2229,6 +2264,8 @@ NSTimer
 )
 aTimer
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 [
@@ -2248,6 +2285,8 @@ getNextCursorFrame
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -2276,6 +2315,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 self
 destroyTimer
@@ -2285,6 +2326,8 @@ destroyTimer
 super
 dealloc
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 end
@@ -2301,6 +2344,8 @@ ThemeCursor
 )
 aCursor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 self
 =
 [
@@ -2367,6 +2412,8 @@ aCursor
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -2379,6 +2426,8 @@ int
 )
 aFrameIndex
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 [
@@ -2455,6 +2504,8 @@ mCursor
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -2515,6 +2566,8 @@ NSArray
 )
 aCursorFrames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 self
 =
 [
@@ -2589,6 +2642,8 @@ mFrameCounter
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -2602,6 +2657,8 @@ NSCursor
 )
 aCursor
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 NSArray
 *
 frame
@@ -2622,6 +2679,8 @@ initWithFrames
 frame
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -2641,6 +2700,8 @@ NSPoint
 )
 aPoint
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsCOMPtr
 <
 nsIFile
@@ -2838,6 +2899,8 @@ release
 return
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -2850,6 +2913,8 @@ int
 )
 aFrameIndex
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 [
 mFrames
@@ -2871,6 +2936,8 @@ waitUntilDone
 NO
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -2878,11 +2945,18 @@ int
 )
 numFrames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 return
 [
 mFrames
 count
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+)
 ;
 }
 -
@@ -2892,11 +2966,15 @@ NSString
 )
 description
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 mFrames
 description
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 -
@@ -2905,6 +2983,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mFrames
 release
@@ -2914,6 +2994,8 @@ release
 super
 dealloc
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 end
@@ -2949,6 +3031,8 @@ void
 )
 openLocalResourceFile
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 sRefNum
@@ -3104,6 +3188,8 @@ UseResFile
 sRefNum
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 +
 (
@@ -3111,6 +3197,8 @@ void
 )
 closeLocalResourceFile
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 sRefNum
@@ -3126,6 +3214,8 @@ UseResFile
 (
 sSaveResFile
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -3145,6 +3235,8 @@ int
 )
 aLastFrame
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -3218,6 +3310,8 @@ aLastFrame
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -3230,6 +3324,8 @@ int
 )
 aFrameIndex
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 nsResourceCursor
 openLocalResourceFile
@@ -3284,6 +3380,8 @@ cursHandle
 nsResourceCursor
 closeLocalResourceFile
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
