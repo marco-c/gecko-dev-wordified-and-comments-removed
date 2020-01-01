@@ -2500,6 +2500,17 @@ html
 #
 bug
 381835
+fails
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+cocoa
+"
+)
 =
 =
 359869
@@ -2514,6 +2525,9 @@ html
 ref
 .
 html
+#
+bug
+383386
 =
 =
 359903
