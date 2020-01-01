@@ -483,7 +483,10 @@ eBitSft4bits
 eUnitMsk4bits
 HZ_st
 }
+CHAR_LEN_TABLE
+(
 HZCharLenTable
+)
 "
 HZ
 -
@@ -996,7 +999,10 @@ eBitSft4bits
 eUnitMsk4bits
 ISO2022CN_st
 }
+CHAR_LEN_TABLE
+(
 ISO2022CNCharLenTable
+)
 "
 ISO
 -
@@ -1519,7 +1525,10 @@ eBitSft4bits
 eUnitMsk4bits
 ISO2022JP_st
 }
+CHAR_LEN_TABLE
+(
 ISO2022JPCharLenTable
+)
 "
 ISO
 -
@@ -1996,7 +2005,10 @@ eBitSft4bits
 eUnitMsk4bits
 ISO2022KR_st
 }
+CHAR_LEN_TABLE
+(
 ISO2022KRCharLenTable
+)
 "
 ISO
 -
