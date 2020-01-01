@@ -504,6 +504,10 @@ name
 .
 xbl
 \
+name_nsRootAcc_wnd
+.
+xul
+\
 namerules
 .
 xml
@@ -702,6 +706,10 @@ html
 test_name_markup
 .
 html
+\
+test_name_nsRootAcc
+.
+xul
 \
 test_nsIAccessible_applicationAccessible
 .
