@@ -52,9 +52,8 @@ nsNSSCertificateDB
 )
 ;
 static
-char
-*
-default_nickname
+void
+get_default_nickname
 (
 CERTCertificate
 *
@@ -62,6 +61,9 @@ cert
 nsIInterfaceRequestor
 *
 ctx
+nsCString
+&
+nickname
 )
 ;
 static
