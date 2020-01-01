@@ -889,6 +889,15 @@ color
 )
 ACCESSIBILITY_ATOM
 (
+fontSize
+"
+font
+-
+size
+"
+)
+ACCESSIBILITY_ATOM
+(
 invalid
 "
 invalid
