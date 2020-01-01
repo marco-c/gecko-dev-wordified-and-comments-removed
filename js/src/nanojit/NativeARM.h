@@ -444,14 +444,14 @@ const
 uint32_t
 FirstRegNum
 =
-R0
+0
 ;
 static
 const
 uint32_t
 LastRegNum
 =
-D7
+23
 ;
 }
 #
