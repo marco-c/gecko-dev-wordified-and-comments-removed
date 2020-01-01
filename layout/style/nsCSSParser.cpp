@@ -25398,6 +25398,8 @@ ParseNonNegativeVariant
 (
 aValue
 VARIANT_HKL
+|
+VARIANT_CALC
 nsCSSProps
 :
 :
@@ -25423,6 +25425,8 @@ ParseNonNegativeVariant
 (
 aValue
 VARIANT_AHL
+|
+VARIANT_CALC
 nsnull
 )
 ;
@@ -26235,6 +26239,8 @@ aValue
 VARIANT_HL
 |
 VARIANT_NORMAL
+|
+VARIANT_CALC
 nsnull
 )
 ;
@@ -26331,6 +26337,8 @@ ParseVariant
 (
 aValue
 VARIANT_AHL
+|
+VARIANT_CALC
 nsnull
 )
 ;
@@ -26468,6 +26476,8 @@ ParseVariant
 (
 aValue
 VARIANT_HL
+|
+VARIANT_CALC
 nsnull
 )
 ;
@@ -30709,6 +30719,8 @@ ParseNonNegativeVariant
 (
 xValue
 VARIANT_HL
+|
+VARIANT_CALC
 nsnull
 )
 )
@@ -30718,6 +30730,13 @@ if
 xValue
 .
 IsLengthUnit
+(
+)
+|
+|
+xValue
+.
+IsCalcUnit
 (
 )
 )
@@ -30731,6 +30750,8 @@ ParseNonNegativeVariant
 (
 yValue
 VARIANT_LENGTH
+|
+VARIANT_CALC
 nsnull
 )
 )
