@@ -14490,11 +14490,6 @@ GetSubmenuWidgetChain
 widgetChain
 )
 ;
-if
-(
-widgetChain
-)
-{
 for
 (
 PRUint32
@@ -14566,7 +14561,6 @@ foreach
 parent
 menu
 widget
-}
 }
 /
 /
