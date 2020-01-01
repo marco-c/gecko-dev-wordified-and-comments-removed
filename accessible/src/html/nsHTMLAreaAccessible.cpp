@@ -325,7 +325,6 @@ map
 GetBoundsForAreaContent
 (
 ourContent
-presContext
 rect
 )
 ;
