@@ -49,6 +49,10 @@ nsHttpAuthCache
 *
 mAuthCache
 ;
+nsHttpAuthCache
+*
+mPrivateAuthCache
+;
 }
 ;
 #

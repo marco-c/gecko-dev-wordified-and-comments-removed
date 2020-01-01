@@ -525,9 +525,16 @@ nsHttpAuthCache
 *
 AuthCache
 (
+bool
+aPrivate
 )
 {
 return
+aPrivate
+?
+&
+mPrivateAuthCache
+:
 &
 mAuthCache
 ;
@@ -1042,6 +1049,9 @@ mSTSService
 ;
 nsHttpAuthCache
 mAuthCache
+;
+nsHttpAuthCache
+mPrivateAuthCache
 ;
 nsHttpConnectionMgr
 *

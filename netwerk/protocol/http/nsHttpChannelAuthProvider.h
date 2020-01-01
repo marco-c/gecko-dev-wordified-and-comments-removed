@@ -532,6 +532,9 @@ mPort
 bool
 mUsingSSL
 ;
+bool
+mIsPrivate
+;
 nsISupports
 *
 mProxyAuthContinuationState
