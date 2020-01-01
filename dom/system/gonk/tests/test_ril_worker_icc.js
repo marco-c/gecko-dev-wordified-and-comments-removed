@@ -2548,7 +2548,7 @@ run_next_test
 add_test
 (
 function
-test_icc_get_card_lock_fdn
+test_icc_get_card_lock_state_fdn
 (
 )
 {
@@ -2676,7 +2676,7 @@ run_next_test
 ;
 ril
 .
-iccGetCardLock
+iccGetCardLockState
 (
 {
 lockType
