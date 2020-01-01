@@ -893,6 +893,9 @@ and
 blessings
 :
             
+try
+:
+                
 terminal
 =
 blessings
@@ -905,18 +908,24 @@ sys
 .
 stdout
 )
-            
+                
 if
 terminal
 .
 is_a_tty
 :
-                
+                    
 self
 .
 _terminal
 =
 terminal
+            
+except
+Exception
+:
+                
+pass
         
 return
 self
