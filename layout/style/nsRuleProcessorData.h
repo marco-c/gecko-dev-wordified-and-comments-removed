@@ -74,6 +74,10 @@ nsRuleWalker
 VisitedHandlingType
 mVisitedHandling
 ;
+nsIContent
+*
+mScopedRoot
+;
 TreeMatchContext
 (
 PRBool
@@ -96,6 +100,10 @@ PR_FALSE
 mVisitedHandling
 (
 aVisitedHandling
+)
+mScopedRoot
+(
+nsnull
 )
 {
 }
@@ -401,10 +409,6 @@ mParentContent
 nsRuleWalker
 *
 mRuleWalker
-;
-nsIContent
-*
-mScopedRoot
 ;
 nsIAtom
 *
