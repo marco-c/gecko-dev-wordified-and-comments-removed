@@ -598,7 +598,6 @@ uint32_t
 aType
 )
 ;
-virtual
 void
 SetRoleMapEntry
 (
@@ -606,7 +605,12 @@ nsRoleMapEntry
 *
 aRoleMapEntry
 )
+{
+mRoleMapEntry
+=
+aRoleMapEntry
 ;
+}
 inline
 bool
 UpdateChildren
