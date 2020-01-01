@@ -1127,11 +1127,6 @@ false
 >
 <
 hbox
-id
-=
-"
-onloadBox
-"
 align
 =
 "
@@ -1173,7 +1168,9 @@ aaa
 labelledby
 =
 "
-onloadBox
+onloadRadio
+onloadProvider
+onloadAfter
 "
 /
 >
@@ -1209,7 +1206,9 @@ aaa
 labelledby
 =
 "
-onloadBox
+onloadRadio
+onloadProvider
+onloadAfter
 "
 /
 >
