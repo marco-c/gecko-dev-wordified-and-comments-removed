@@ -143,6 +143,7 @@ eColor__moz_mac_alternateprimaryhighlight
 eColor__moz_mac_secondaryhighlight
 eColor__moz_win_mediatext
 eColor__moz_win_communicationstext
+eColor__moz_nativehyperlinktext
 eColor_LAST_COLOR
 }
 nsColorID
