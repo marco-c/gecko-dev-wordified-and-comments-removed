@@ -14509,9 +14509,7 @@ normalUnwind
 uintN
 slot
 =
-JSSLOT_BLOCK_DEPTH
-+
-1
+JSSLOT_BLOCK_FIRST_FREE_SLOT
 ;
 uintN
 flen
