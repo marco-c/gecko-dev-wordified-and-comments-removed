@@ -928,13 +928,15 @@ PRUint32
 contextType
 )
 ;
-char
-*
+PRBool
 getSearchURI
 (
 nsIRDFResource
 *
 src
+nsAString
+&
+_retval
 )
 ;
 nsresult
