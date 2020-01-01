@@ -466,6 +466,12 @@ topsrcdir
 toolkit
 /
 xre
+LIBS
++
+=
+(
+JEMALLOC_LIBS
+)
 ifeq
 (
 Linux_1
