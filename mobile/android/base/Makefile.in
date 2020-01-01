@@ -1282,6 +1282,14 @@ abouthome_grid_box
 .
 xml
 \
+res
+/
+layout
+/
+abouthome_addon_list_item
+.
+xml
+\
 (
 NULL
 )
