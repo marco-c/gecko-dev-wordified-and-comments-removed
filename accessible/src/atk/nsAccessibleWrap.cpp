@@ -2921,7 +2921,7 @@ attributes
 >
 SetStringProperty
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 haspopup
