@@ -1863,7 +1863,7 @@ aStopFrame
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGLinearGradientFrame
 :
 :
@@ -1902,7 +1902,6 @@ linearGradient
 "
 )
 ;
-return
 nsSVGLinearGradientFrameBase
 :
 :
@@ -2383,7 +2382,7 @@ pattern
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGRadialGradientFrame
 :
 :
@@ -2422,7 +2421,6 @@ radialGradient
 "
 )
 ;
-return
 nsSVGRadialGradientFrameBase
 :
 :

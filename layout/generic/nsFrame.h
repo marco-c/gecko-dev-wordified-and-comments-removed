@@ -471,7 +471,8 @@ public
 :
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -484,6 +485,7 @@ nsIFrame
 *
 asPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList

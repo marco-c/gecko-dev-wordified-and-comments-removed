@@ -18422,11 +18422,6 @@ frames
 "
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 NS_ASSERTION
 (
 aNewFrame
@@ -18447,8 +18442,6 @@ aNewFrame
 return
 NS_ERROR_NULL_POINTER
 ;
-rv
-=
 aNewFrame
 -
 >
@@ -18508,7 +18501,7 @@ CountersDirty
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 already_AddRefed

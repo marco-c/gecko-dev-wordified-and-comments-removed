@@ -136,7 +136,8 @@ aModType
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -149,6 +150,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 #
 endif

@@ -70,7 +70,8 @@ aIndex
 )
 const
 ;
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -83,6 +84,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 TransmitAutomaticData

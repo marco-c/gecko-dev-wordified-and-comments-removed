@@ -729,7 +729,7 @@ borderPadding
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsTreeBodyFrame
 :
 :
@@ -746,9 +746,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsLeafBoxFrame
 :
 :
@@ -757,12 +754,6 @@ Init
 aContent
 aParent
 aPrevInFlow
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 mIndentation
@@ -793,9 +784,6 @@ Init
 EnsureBoxObject
 (
 )
-;
-return
-rv
 ;
 }
 nsSize

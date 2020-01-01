@@ -200,7 +200,8 @@ aLists
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -213,6 +214,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSplittableType
@@ -595,7 +597,8 @@ NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -608,6 +611,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetFrameName

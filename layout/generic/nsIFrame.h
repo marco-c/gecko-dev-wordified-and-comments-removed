@@ -1222,7 +1222,8 @@ PresContext
 )
 ;
 }
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent

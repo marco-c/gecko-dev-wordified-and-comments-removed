@@ -2410,7 +2410,7 @@ nsRect
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGFilterFrame
 :
 :
@@ -2449,7 +2449,6 @@ filter
 "
 )
 ;
-return
 nsSVGFilterFrameBase
 :
 :

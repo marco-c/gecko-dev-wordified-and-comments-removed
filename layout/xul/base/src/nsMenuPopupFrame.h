@@ -351,7 +351,8 @@ AttachedDismissalListener
 (
 )
 ;
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -1014,7 +1015,7 @@ mDirection
 NS_STYLE_DIRECTION_RTL
 ;
 }
-nsresult
+void
 CreatePopupView
 (
 )

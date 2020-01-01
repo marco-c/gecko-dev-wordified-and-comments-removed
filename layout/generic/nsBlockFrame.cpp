@@ -29959,7 +29959,7 @@ aChild
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsBlockFrame
 :
 :
@@ -29999,9 +29999,6 @@ NS_BLOCK_FLAGS_NON_INHERITED_MASK
 )
 ;
 }
-nsresult
-rv
-=
 nsBlockFrameSuper
 :
 :
@@ -30060,9 +30057,6 @@ NS_FRAME_FONT_INFLATION_FLOW_ROOT
 )
 ;
 }
-return
-rv
-;
 }
 NS_IMETHODIMP
 nsBlockFrame

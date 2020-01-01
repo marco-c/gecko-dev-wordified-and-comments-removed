@@ -204,7 +204,8 @@ nsStyleContext
 aContext
 )
 ;
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent

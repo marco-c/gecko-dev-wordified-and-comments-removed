@@ -30,7 +30,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSplittableFrame
 )
-NS_IMETHODIMP
+void
 nsSplittableFrame
 :
 :
@@ -47,9 +47,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsFrame
 :
 :
@@ -79,9 +76,6 @@ this
 )
 ;
 }
-return
-rv
-;
 }
 void
 nsSplittableFrame

@@ -115,7 +115,7 @@ nsSVGInnerSVGFrameBase
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGInnerSVGFrame
 :
 :
@@ -158,7 +158,6 @@ element
 "
 )
 ;
-return
 nsSVGInnerSVGFrameBase
 :
 :

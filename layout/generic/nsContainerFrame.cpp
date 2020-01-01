@@ -280,7 +280,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsSplittableFrame
 )
-NS_IMETHODIMP
+void
 nsContainerFrame
 :
 :
@@ -297,9 +297,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsSplittableFrame
 :
 :
@@ -332,9 +329,6 @@ NS_FRAME_HAS_CHILD_WITH_VIEW
 )
 ;
 }
-return
-rv
-;
 }
 NS_IMETHODIMP
 nsContainerFrame

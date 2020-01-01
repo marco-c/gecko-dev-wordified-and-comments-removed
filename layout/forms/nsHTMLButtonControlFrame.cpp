@@ -270,7 +270,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsHTMLButtonControlFrame
 :
 :
@@ -287,9 +287,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsContainerFrame
 :
 :
@@ -300,14 +297,6 @@ aParent
 aPrevInFlow
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 mRenderer
 .
 SetFrame
@@ -317,10 +306,6 @@ PresContext
 (
 )
 )
-;
-}
-return
-rv
 ;
 }
 NS_QUERYFRAME_HEAD

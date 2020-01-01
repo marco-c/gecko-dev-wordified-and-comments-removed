@@ -1304,7 +1304,7 @@ NS_OK
 endif
 #
 endif
-NS_IMETHODIMP
+void
 nsObjectFrame
 :
 :
@@ -1345,9 +1345,6 @@ aContent
 )
 )
 ;
-nsresult
-rv
-=
 nsObjectFrameSuper
 :
 :
@@ -1357,9 +1354,6 @@ aContent
 aParent
 aPrevInFlow
 )
-;
-return
-rv
 ;
 }
 void

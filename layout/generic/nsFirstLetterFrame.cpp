@@ -201,7 +201,7 @@ aLists
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsFirstLetterFrame
 :
 :
@@ -273,7 +273,6 @@ newSC
 ;
 }
 }
-return
 nsContainerFrame
 :
 :

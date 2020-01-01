@@ -206,7 +206,7 @@ aModType
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGMarkerFrame
 :
 :
@@ -245,7 +245,6 @@ marker
 "
 )
 ;
-return
 nsSVGMarkerFrameBase
 :
 :

@@ -97,7 +97,8 @@ NS_DECL_FRAMEARENA_HELPERS
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -110,6 +111,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -229,7 +231,7 @@ SVGViewFrame
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 SVGViewFrame
 :
 :
@@ -268,7 +270,6 @@ view
 "
 )
 ;
-return
 SVGViewFrameBase
 :
 :

@@ -752,7 +752,7 @@ aModType
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGMaskFrame
 :
 :
@@ -791,7 +791,6 @@ mask
 "
 )
 ;
-return
 nsSVGMaskFrameBase
 :
 :

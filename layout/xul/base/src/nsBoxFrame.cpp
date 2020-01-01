@@ -514,7 +514,7 @@ CacheAttributes
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsBoxFrame
 :
 :
@@ -531,9 +531,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsContainerFrame
 :
 :
@@ -542,12 +539,6 @@ Init
 aContent
 aParent
 aPrevInFlow
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -595,15 +586,10 @@ UpdateMouseThrough
 (
 )
 ;
-rv
-=
 RegUnregAccessKey
 (
 true
 )
-;
-return
-rv
 ;
 }
 void
@@ -7899,7 +7885,7 @@ NS_OK
 }
 #
 endif
-nsresult
+void
 nsBoxFrame
 :
 :
@@ -7909,13 +7895,10 @@ bool
 aDoReg
 )
 {
-if
+MOZ_ASSERT
 (
-!
 mContent
 )
-return
-NS_ERROR_FAILURE
 ;
 nsIAtom
 *
@@ -7985,7 +7968,6 @@ radio
 )
 {
 return
-NS_OK
 ;
 }
 nsAutoString
@@ -8013,7 +7995,6 @@ IsEmpty
 )
 )
 return
-NS_OK
 ;
 nsEventStateManager
 *
@@ -8059,9 +8040,6 @@ UnregisterAccessKey
 mContent
 key
 )
-;
-return
-NS_OK
 ;
 }
 bool

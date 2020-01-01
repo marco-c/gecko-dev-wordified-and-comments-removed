@@ -159,7 +159,8 @@ aOldStyleContext
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -172,6 +173,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -265,7 +267,7 @@ this
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 SVGFEContainerFrame
 :
 :
@@ -317,7 +319,6 @@ interfaces
 "
 )
 ;
-return
 SVGFEContainerFrameBase
 :
 :

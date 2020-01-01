@@ -110,7 +110,8 @@ NS_STATE_SVG_NONDISPLAY_CHILD
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -123,6 +124,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -338,7 +340,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+void
 SVGFEImageFrame
 :
 :
@@ -435,9 +437,6 @@ IncrementVisibleCount
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsIAtom
 *

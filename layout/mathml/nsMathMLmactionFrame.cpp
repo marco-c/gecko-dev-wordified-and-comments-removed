@@ -350,7 +350,7 @@ false
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsMathMLmactionFrame
 :
 :
@@ -387,7 +387,6 @@ GetActionType
 aContent
 )
 ;
-return
 nsMathMLContainerFrame
 :
 :

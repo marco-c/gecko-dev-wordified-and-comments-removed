@@ -133,7 +133,7 @@ nsTreeColFrame
 )
 {
 }
-NS_IMETHODIMP
+void
 nsTreeColFrame
 :
 :
@@ -150,9 +150,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -166,9 +163,6 @@ aPrevInFlow
 InvalidateColumns
 (
 )
-;
-return
-rv
 ;
 }
 void

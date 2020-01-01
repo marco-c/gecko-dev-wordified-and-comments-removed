@@ -324,7 +324,8 @@ return
 false
 ;
 }
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -820,7 +821,7 @@ aPoint
 ;
 protected
 :
-nsresult
+void
 RegUnregAccessKey
 (
 bool

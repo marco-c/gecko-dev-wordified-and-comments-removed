@@ -19393,7 +19393,7 @@ eTextLeafType
 }
 #
 endif
-NS_IMETHODIMP
+void
 nsTextFrame
 :
 :
@@ -19487,7 +19487,6 @@ UnsetFlags
 NS_CREATE_FRAME_IF_NON_WHITESPACE
 )
 ;
-return
 nsFrame
 :
 :
@@ -19618,7 +19617,8 @@ nsStyleContext
 aContext
 )
 ;
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -19631,6 +19631,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -19927,7 +19928,7 @@ mPrevContinuation
 ;
 }
 ;
-NS_IMETHODIMP
+void
 nsContinuingTextFrame
 :
 :
@@ -19956,9 +19957,6 @@ continuation
 "
 )
 ;
-nsresult
-rv
-=
 nsFrame
 :
 :
@@ -20394,9 +20392,6 @@ NS_FRAME_IS_BIDI
 }
 #
 endif
-return
-rv
-;
 }
 void
 nsContinuingTextFrame

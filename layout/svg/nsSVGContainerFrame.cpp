@@ -269,7 +269,7 @@ UpdateOverflow
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGDisplayContainerFrame
 :
 :
@@ -315,9 +315,6 @@ NS_STATE_SVG_CLIPPATH_CHILD
 )
 ;
 }
-nsresult
-rv
-=
 nsSVGContainerFrame
 :
 :
@@ -327,9 +324,6 @@ aContent
 aParent
 aPrevInFlow
 )
-;
-return
-rv
 ;
 }
 void

@@ -71,7 +71,8 @@ nsPopupSetFrame
 )
 {
 }
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent

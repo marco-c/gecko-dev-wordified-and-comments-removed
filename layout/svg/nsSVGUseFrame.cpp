@@ -85,7 +85,8 @@ public
 :
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -98,6 +99,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -262,7 +264,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsSVGUseFrameBase
 )
-NS_IMETHODIMP
+void
 nsSVGUseFrame
 :
 :
@@ -318,7 +320,6 @@ HasValidDimensions
 (
 )
 ;
-return
 nsSVGUseFrameBase
 :
 :

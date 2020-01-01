@@ -57,7 +57,7 @@ nsMathMLmsqrtFrame
 )
 {
 }
-NS_IMETHODIMP
+void
 nsMathMLmsqrtFrame
 :
 :
@@ -74,9 +74,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsMathMLContainerFrame
 :
 :
@@ -96,9 +93,6 @@ mNotationsToDraw
 |
 =
 NOTATION_RADICAL
-;
-return
-rv
 ;
 }
 NS_IMETHODIMP

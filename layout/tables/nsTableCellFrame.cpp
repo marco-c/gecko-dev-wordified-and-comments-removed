@@ -300,7 +300,7 @@ return
 nullptr
 ;
 }
-NS_IMETHODIMP
+void
 nsTableCellFrame
 :
 :
@@ -317,9 +317,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsContainerFrame
 :
 :
@@ -377,9 +374,6 @@ colIndex
 )
 ;
 }
-return
-rv
-;
 }
 void
 nsTableCellFrame

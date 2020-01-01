@@ -457,7 +457,7 @@ delete
 mAccessKeyInfo
 ;
 }
-NS_IMETHODIMP
+void
 nsTextBoxFrame
 :
 :
@@ -501,9 +501,6 @@ RegUnregAccessKey
 (
 true
 )
-;
-return
-NS_OK
 ;
 }
 void

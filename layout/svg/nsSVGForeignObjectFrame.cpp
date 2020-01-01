@@ -188,7 +188,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsSVGForeignObjectFrameBase
 )
-NS_IMETHODIMP
+void
 nsSVGForeignObjectFrame
 :
 :
@@ -228,9 +228,6 @@ foreignObject
 "
 )
 ;
-nsresult
-rv
-=
 nsSVGForeignObjectFrameBase
 :
 :
@@ -266,12 +263,6 @@ NS_FRAME_FONT_INFLATION_FLOW_ROOT
 ;
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 !
 (
 mState
@@ -295,9 +286,6 @@ this
 )
 ;
 }
-return
-rv
-;
 }
 void
 nsSVGForeignObjectFrame

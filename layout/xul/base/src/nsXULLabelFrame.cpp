@@ -185,7 +185,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsXULLabelFrame
 :
 :
@@ -202,9 +202,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsBlockFrame
 :
 :
@@ -215,17 +212,6 @@ aParent
 aPrevInFlow
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
-;
-return
 RegUnregAccessKey
 (
 true

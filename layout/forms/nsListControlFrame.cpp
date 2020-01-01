@@ -3691,7 +3691,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+void
 nsListControlFrame
 :
 :
@@ -3708,9 +3708,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-result
-=
 nsHTMLScrollFrame
 :
 :
@@ -3721,11 +3718,6 @@ aParent
 aPrevInFlow
 )
 ;
-NS_ENSURE_STATE
-(
-mContent
-)
-;
 mEventListener
 =
 new
@@ -3733,14 +3725,6 @@ nsListEventListener
 (
 this
 )
-;
-if
-(
-!
-mEventListener
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 mContent
 -
@@ -3838,9 +3822,6 @@ NS_FRAME_IN_POPUP
 )
 ;
 }
-return
-result
-;
 }
 already_AddRefed
 <

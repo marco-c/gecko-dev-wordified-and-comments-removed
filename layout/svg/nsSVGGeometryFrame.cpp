@@ -51,7 +51,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 (
 nsSVGGeometryFrame
 )
-NS_IMETHODIMP
+void
 nsSVGGeometryFrame
 :
 :
@@ -84,9 +84,6 @@ NS_STATE_SVG_CLIPPATH_CHILD
 )
 )
 ;
-nsresult
-rv
-=
 nsSVGGeometryFrameBase
 :
 :
@@ -96,9 +93,6 @@ aContent
 aParent
 aPrevInFlow
 )
-;
-return
-rv
 ;
 }
 uint16_t

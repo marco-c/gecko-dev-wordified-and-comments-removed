@@ -571,7 +571,7 @@ NS_FRAME_SVG_LAYOUT
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGOuterSVGFrame
 :
 :
@@ -653,9 +653,6 @@ NS_STATE_SVG_NONDISPLAY_CHILD
 )
 ;
 }
-nsresult
-rv
-=
 nsSVGOuterSVGFrameBase
 :
 :
@@ -710,9 +707,6 @@ sSVGMutationObserver
 )
 ;
 }
-return
-rv
-;
 }
 NS_QUERYFRAME_HEAD
 (
@@ -4135,7 +4129,7 @@ nsSVGOuterSVGAnonChildFrame
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsSVGOuterSVGAnonChildFrame
 :
 :
@@ -4172,7 +4166,6 @@ parent
 "
 )
 ;
-return
 nsSVGOuterSVGAnonChildFrameBase
 :
 :

@@ -163,7 +163,7 @@ aName
 }
 #
 endif
-NS_IMETHODIMP
+void
 nsLeafBoxFrame
 :
 :
@@ -180,9 +180,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsLeafFrame
 :
 :
@@ -191,12 +188,6 @@ Init
 aContent
 aParent
 aPrevInFlow
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -217,9 +208,6 @@ NS_FRAME_FONT_INFLATION_FLOW_ROOT
 UpdateMouseThrough
 (
 )
-;
-return
-rv
 ;
 }
 NS_IMETHODIMP

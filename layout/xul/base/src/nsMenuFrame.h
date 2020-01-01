@@ -221,7 +221,8 @@ aBoxLayoutState
 )
 MOZ_OVERRIDE
 ;
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent

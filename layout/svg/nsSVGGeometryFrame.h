@@ -94,7 +94,8 @@ NS_FRAME_SVG_LAYOUT
 }
 public
 :
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -107,6 +108,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

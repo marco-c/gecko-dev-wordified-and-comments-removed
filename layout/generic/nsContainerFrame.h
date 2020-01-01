@@ -156,7 +156,8 @@ NS_DECL_QUERYFRAME_TARGET
 nsContainerFrame
 )
 NS_DECL_QUERYFRAME
-NS_IMETHOD
+virtual
+void
 Init
 (
 nsIContent
@@ -169,6 +170,7 @@ nsIFrame
 *
 aPrevInFlow
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList

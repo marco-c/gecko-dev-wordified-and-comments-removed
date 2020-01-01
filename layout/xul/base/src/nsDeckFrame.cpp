@@ -261,7 +261,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+void
 nsDeckFrame
 :
 :
@@ -278,9 +278,6 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsresult
-rv
-=
 nsBoxFrame
 :
 :
@@ -296,9 +293,6 @@ mIndex
 GetSelectedIndex
 (
 )
-;
-return
-rv
 ;
 }
 void
