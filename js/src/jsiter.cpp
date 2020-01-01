@@ -3290,15 +3290,6 @@ dormantNext
 =
 NULL
 ;
-gen
--
->
-frame
-.
-xmlNamespace
-=
-NULL
-;
 JS_ASSERT
 (
 !

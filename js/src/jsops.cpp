@@ -10933,15 +10933,6 @@ newifp
 >
 frame
 .
-xmlNamespace
-=
-NULL
-;
-newifp
--
->
-frame
-.
 blockChain
 =
 NULL

@@ -24499,6 +24499,14 @@ return
 NULL
 ;
 }
+tc
+-
+>
+flags
+|
+=
+TCF_FUN_HEAVYWEIGHT
+;
 pn2
 =
 Expr

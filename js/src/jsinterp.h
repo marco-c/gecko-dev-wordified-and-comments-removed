@@ -133,10 +133,6 @@ JSStackFrame
 *
 dormantNext
 ;
-JSObject
-*
-xmlNamespace
-;
 JSStackFrame
 *
 displaySave
