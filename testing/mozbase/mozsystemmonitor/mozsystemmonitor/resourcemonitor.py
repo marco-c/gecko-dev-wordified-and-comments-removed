@@ -10,7 +10,10 @@ try
 import
 psutil
 except
+(
 ImportError
+NotImplementedError
+)
 :
     
 psutil
