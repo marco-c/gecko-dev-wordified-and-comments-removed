@@ -530,6 +530,10 @@ browser_bug731721_debugger_stepping
 .
 js
 \
+browser_bug729960_block_bracket_jump
+.
+js
+\
 head
 .
 js
