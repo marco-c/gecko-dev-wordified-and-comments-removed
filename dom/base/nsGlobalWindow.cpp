@@ -4840,6 +4840,9 @@ changed
 )
 ;
 }
+#
+ifdef
+MOZ_B2G
 DisableNetworkEvent
 (
 NS_NETWORK_UPLOAD_EVENT
@@ -4850,6 +4853,8 @@ DisableNetworkEvent
 NS_NETWORK_DOWNLOAD_EVENT
 )
 ;
+#
+endif
 if
 (
 mIdleService
@@ -5569,6 +5574,15 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMWindow
 )
+#
+ifdef
+MOZ_B2G
+NS_INTERFACE_MAP_ENTRY
+(
+nsIDOMWindowB2G
+)
+#
+endif
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMJSWindow
@@ -37682,6 +37696,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_B2G
 if
 (
 !
@@ -37778,6 +37795,8 @@ dummy
 )
 ;
 }
+#
+endif
 NS_WARNING
 (
 "
@@ -45598,6 +45617,9 @@ NotifyAudioAvailableListener
 ;
 }
 }
+#
+ifdef
+MOZ_B2G
 void
 nsGlobalWindow
 :
@@ -45820,6 +45842,8 @@ break
 ;
 }
 }
+#
+endif
 #
 define
 EVENT
