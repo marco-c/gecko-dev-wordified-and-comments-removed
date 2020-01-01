@@ -2031,7 +2031,7 @@ entry
 if
 (
 !
-strcmp
+strncmp
 (
 clnt
 -
@@ -2043,6 +2043,15 @@ attr
 u
 .
 username
+sizeof
+(
+attr
+-
+>
+u
+.
+username
+)
 )
 )
 break

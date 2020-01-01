@@ -263,7 +263,15 @@ break
 case
 NR_IPV6
 :
-UNIMPLEMENTED
+assert
+(
+0
+)
+;
+ABORT
+(
+R_INTERNAL
+)
 ;
 break
 ;
