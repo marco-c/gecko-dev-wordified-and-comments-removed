@@ -1855,7 +1855,6 @@ defaultEngine
 getSubmission
 (
 searchTerm
-null
 )
 ;
 var

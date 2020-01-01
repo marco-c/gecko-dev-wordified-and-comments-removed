@@ -4220,7 +4220,6 @@ currentEngine
 getSubmission
 (
 aData
-null
 )
 ;
 openUILinkIn

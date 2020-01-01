@@ -2261,7 +2261,6 @@ currentEngine
 getSubmission
 (
 searchTerm
-null
 )
 .
 uri

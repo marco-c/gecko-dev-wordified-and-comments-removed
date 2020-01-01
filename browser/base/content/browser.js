@@ -10134,7 +10134,6 @@ engine
 getSubmission
 (
 param
-null
 )
 ;
 aPostDataRef
@@ -16235,7 +16234,6 @@ engine
 getSubmission
 (
 searchText
-null
 )
 ;
 if
