@@ -348,9 +348,9 @@ request_
 else
 {
 \
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 req
 =

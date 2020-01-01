@@ -73,7 +73,7 @@ NS_EVENT_STATE_SUPPRESSED
 nsresult
 Init
 (
-imgIRequest
+imgRequestProxy
 *
 aImageRequest
 )
@@ -207,7 +207,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-imgIRequest
+imgRequestProxy
 *
 aImageRequest
 )

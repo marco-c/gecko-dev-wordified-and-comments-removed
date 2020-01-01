@@ -49,6 +49,9 @@ imgINotificationObserver
 h
 "
 class
+imgRequestProxy
+;
+class
 nsImageBoxFrame
 ;
 class
@@ -394,9 +397,9 @@ mImageSize
 bool
 mRequestRegistered
 ;
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 mImageRequest
 ;

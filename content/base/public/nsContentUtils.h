@@ -266,7 +266,7 @@ class
 imgINotificationObserver
 ;
 class
-imgIRequest
+imgRequestProxy
 ;
 class
 imgLoader
@@ -1473,7 +1473,7 @@ imgINotificationObserver
 aObserver
 int32_t
 aLoadFlags
-imgIRequest
+imgRequestProxy
 *
 *
 aRequest
@@ -1532,11 +1532,11 @@ nullptr
 static
 already_AddRefed
 <
-imgIRequest
+imgRequestProxy
 >
 GetStaticRequest
 (
-imgIRequest
+imgRequestProxy
 *
 aRequest
 )

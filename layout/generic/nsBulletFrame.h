@@ -48,6 +48,9 @@ imgINotificationObserver
 .
 h
 "
+class
+imgRequestProxy
+;
 #
 define
 BULLET_FRAME_IMAGE_LOADING
@@ -394,9 +397,9 @@ aLoadGroup
 nsMargin
 mPadding
 ;
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 mImageRequest
 ;

@@ -437,6 +437,13 @@ h
 #
 include
 "
+imgRequestProxy
+.
+h
+"
+#
+include
+"
 mozAutoDocUpdate
 .
 h

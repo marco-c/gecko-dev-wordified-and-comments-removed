@@ -316,6 +316,13 @@ h
 #
 include
 "
+imgRequestProxy
+.
+h
+"
+#
+include
+"
 nsCSSFrameConstructor
 .
 h
@@ -8488,7 +8495,7 @@ aSpec
 nsPresContext
 *
 aPresContext
-imgIRequest
+imgRequestProxy
 *
 *
 aRequest

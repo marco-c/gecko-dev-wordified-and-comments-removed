@@ -511,7 +511,7 @@ found
 return
 ;
 }
-imgIRequest
+imgRequestProxy
 *
 canonicalRequest
 =
@@ -534,9 +534,9 @@ canonicalRequest
 return
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 request
 ;
@@ -1149,9 +1149,9 @@ aOriginPrincipal
 return
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 request
 ;
@@ -1184,9 +1184,9 @@ request
 return
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 clonedRequest
 ;

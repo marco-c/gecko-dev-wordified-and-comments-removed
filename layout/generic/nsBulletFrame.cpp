@@ -127,6 +127,13 @@ h
 #
 include
 "
+imgRequestProxy
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
@@ -337,7 +344,7 @@ DidSetStyleContext
 aOldStyleContext
 )
 ;
-imgIRequest
+imgRequestProxy
 *
 newRequest
 =

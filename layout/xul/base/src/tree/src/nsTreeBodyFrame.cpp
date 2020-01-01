@@ -9656,9 +9656,9 @@ aCol
 imageSrc
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 styleRequest
 ;
@@ -9942,9 +9942,9 @@ imgNotificationObserver
 =
 listener
 ;
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 imageRequest
 ;

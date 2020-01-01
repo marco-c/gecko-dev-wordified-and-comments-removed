@@ -317,7 +317,7 @@ h
 #
 include
 "
-imgIRequest
+imgRequestProxy
 .
 h
 "
@@ -12122,7 +12122,7 @@ imgINotificationObserver
 aObserver
 int32_t
 aLoadFlags
-imgIRequest
+imgRequestProxy
 *
 *
 aRequest
@@ -12451,14 +12451,14 @@ forget
 }
 already_AddRefed
 <
-imgIRequest
+imgRequestProxy
 >
 nsContentUtils
 :
 :
 GetStaticRequest
 (
-imgIRequest
+imgRequestProxy
 *
 aRequest
 )
@@ -12469,9 +12469,9 @@ aRequest
 nullptr
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 retval
 ;

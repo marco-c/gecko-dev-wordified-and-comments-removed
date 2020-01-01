@@ -58,7 +58,7 @@ h
 #
 include
 "
-nsInterfaceHashtable
+nsRefPtrHashtable
 .
 h
 "
@@ -100,7 +100,7 @@ FloatingPoint
 h
 "
 class
-imgIRequest
+imgRequestProxy
 ;
 class
 nsIDocument
@@ -467,10 +467,10 @@ ImageValue
 (
 )
 ;
-nsInterfaceHashtable
+nsRefPtrHashtable
 <
 nsISupportsHashKey
-imgIRequest
+imgRequestProxy
 >
 mRequests
 ;
@@ -1688,7 +1688,7 @@ mString
 )
 ;
 }
-imgIRequest
+imgRequestProxy
 *
 GetImageValue
 (

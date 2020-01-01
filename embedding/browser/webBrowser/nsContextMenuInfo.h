@@ -50,6 +50,9 @@ class
 ChromeContextMenuListener
 ;
 class
+imgRequestProxy
+;
+class
 nsContextMenuInfo
 :
 public
@@ -140,7 +143,7 @@ GetBackgroundImageRequest
 nsIDOMNode
 *
 aDOMNode
-imgIRequest
+imgRequestProxy
 *
 *
 aRequest
@@ -152,7 +155,7 @@ GetBackgroundImageRequestInternal
 nsIDOMNode
 *
 aDOMNode
-imgIRequest
+imgRequestProxy
 *
 *
 aRequest

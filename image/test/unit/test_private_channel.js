@@ -485,7 +485,7 @@ push
 (
 loader
 .
-loadImageWithChannel
+loadImageWithChannelXPCOM
 (
 chan
 outer
@@ -620,7 +620,7 @@ push
 (
 loader
 .
-loadImage
+loadImageXPCOM
 (
 uri
 null

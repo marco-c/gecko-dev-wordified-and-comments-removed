@@ -970,6 +970,13 @@ h
 #
 include
 "
+imgRequestProxy
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h
@@ -31986,9 +31993,9 @@ mode
 )
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 request
 ;

@@ -1050,7 +1050,7 @@ appearance
 )
 )
 {
-imgIRequest
+imgRequestProxy
 *
 styleRequest
 =

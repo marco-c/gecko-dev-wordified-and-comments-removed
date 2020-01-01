@@ -135,7 +135,7 @@ h
 #
 include
 "
-imgIRequest
+imgRequestProxy
 .
 h
 "
@@ -148,9 +148,6 @@ h
 "
 class
 nsIFrame
-;
-class
-imgIRequest
 ;
 class
 imgIContainer
@@ -3353,13 +3350,13 @@ inline
 void
 SetBorderImage
 (
-imgIRequest
+imgRequestProxy
 *
 aImage
 )
 ;
 inline
-imgIRequest
+imgRequestProxy
 *
 GetBorderImage
 (
@@ -3618,9 +3615,9 @@ mImageTracked
 endif
 protected
 :
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 mBorderImageSource
 ;
@@ -4073,7 +4070,7 @@ return
 NS_STYLE_HINT_FRAMECHANGE
 ;
 }
-imgIRequest
+imgRequestProxy
 *
 GetListStyleImage
 (
@@ -4087,7 +4084,7 @@ mListStyleImage
 void
 SetListStyleImage
 (
-imgIRequest
+imgRequestProxy
 *
 aReq
 )
@@ -4127,9 +4124,9 @@ mListStylePosition
 ;
 private
 :
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 mListStyleImage
 ;
@@ -7125,7 +7122,7 @@ PRUnichar
 *
 mString
 ;
-imgIRequest
+imgRequestProxy
 *
 mImage
 ;
@@ -7245,7 +7242,7 @@ aContext
 void
 SetImage
 (
-imgIRequest
+imgRequestProxy
 *
 aRequest
 )

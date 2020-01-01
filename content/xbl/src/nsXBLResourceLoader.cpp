@@ -92,7 +92,7 @@ h
 #
 include
 "
-imgIRequest
+imgRequestProxy
 .
 h
 "
@@ -477,9 +477,9 @@ docPrincipal
 continue
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 req
 ;

@@ -305,7 +305,7 @@ h
 #
 include
 "
-imgIRequest
+imgRequestProxy
 .
 h
 "

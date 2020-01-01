@@ -1439,7 +1439,7 @@ return
 ;
 }
 }
-imgIRequest
+imgRequestProxy
 *
 nsCSSValue
 :
@@ -9810,9 +9810,9 @@ ClearRequestHashtable
 nsISupports
 *
 aKey
-nsCOMPtr
+nsRefPtr
 <
-imgIRequest
+imgRequestProxy
 >
 &
 aValue
