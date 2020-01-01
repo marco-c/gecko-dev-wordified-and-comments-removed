@@ -87,6 +87,10 @@ MOCHITEST_FILES
 :
 =
 \
+test_bug808374
+.
+html
+\
 test_AudioBuffer
 .
 html
