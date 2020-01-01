@@ -199,7 +199,7 @@ nsDOMFileReader
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMFILEREADER
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 nsDOMFileReader
 nsXHREventTarget
@@ -271,17 +271,11 @@ Init
 (
 )
 ;
-void
-RootResultArrayBuffer
-(
-)
-;
 protected
 :
 enum
 eDataFormat
 {
-FILE_AS_ARRAYBUFFER
 FILE_AS_BINARY
 FILE_AS_TEXT
 FILE_AS_DATAURL
@@ -290,9 +284,6 @@ FILE_AS_DATAURL
 nsresult
 ReadFileContent
 (
-JSContext
-*
-aCx
 nsIDOMBlob
 *
 aFile
@@ -420,10 +411,6 @@ mDataLen
 ;
 eDataFormat
 mDataFormat
-;
-JSObject
-*
-mResultArrayBuffer
 ;
 nsString
 mResult
