@@ -168,7 +168,7 @@ ms
 "
 }
 "
-AWESOMEBAR_ALLPAGES_EMPTY_TIME
+FENNEC_AWESOMEBAR_ALLPAGES_EMPTY_TIME
 "
 :
 {
@@ -201,6 +201,8 @@ description
 "
 :
 "
+Fennec
+:
 Time
 for
 the
