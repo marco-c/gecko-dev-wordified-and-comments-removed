@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 .
 h
 "
@@ -801,13 +801,13 @@ false
 ;
 nsCOMPtr
 <
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 >
-stss
+sss
 =
 do_GetService
 (
-NS_STSSERVICE_CONTRACTID
+NS_SSSERVICE_CONTRACTID
 &
 nsrv
 )
@@ -838,7 +838,7 @@ mInfoObject
 ;
 nsrv
 =
-stss
+sss
 -
 >
 IsStsHost

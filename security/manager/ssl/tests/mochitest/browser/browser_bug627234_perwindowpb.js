@@ -26,7 +26,7 @@ let
 uri
 ;
 let
-gSTSService
+gSSService
 =
 Cc
 [
@@ -35,7 +35,7 @@ mozilla
 .
 org
 /
-stsservice
+ssservice
 ;
 1
 "
@@ -45,7 +45,7 @@ getService
 (
 Ci
 .
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 )
 ;
 function
@@ -130,7 +130,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -150,7 +150,7 @@ aIsPrivateMode
 ;
 ok
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -270,7 +270,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 removeStsState
 (

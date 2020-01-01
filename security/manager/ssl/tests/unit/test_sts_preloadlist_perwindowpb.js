@@ -1,5 +1,5 @@
 var
-gSTSService
+gSSService
 =
 Cc
 [
@@ -8,7 +8,7 @@ mozilla
 .
 org
 /
-stsservice
+ssservice
 ;
 1
 "
@@ -18,7 +18,7 @@ getService
 (
 Ci
 .
-nsIStrictTransportSecurityService
+nsISiteSecurityService
 )
 ;
 function
@@ -255,7 +255,7 @@ test_part1
 {
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -272,7 +272,7 @@ com
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -301,7 +301,7 @@ false
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -334,7 +334,7 @@ true
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -351,7 +351,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -370,7 +370,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -395,7 +395,7 @@ org
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -414,7 +414,7 @@ org
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -456,7 +456,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -473,7 +473,7 @@ age
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -490,7 +490,7 @@ org
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -507,7 +507,7 @@ org
 )
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -524,7 +524,7 @@ age
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -541,7 +541,7 @@ org
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -588,7 +588,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -605,7 +605,7 @@ age
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -622,7 +622,7 @@ org
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -665,7 +665,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -682,7 +682,7 @@ age
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -699,7 +699,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -718,7 +718,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -737,7 +737,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -756,7 +756,7 @@ org
 )
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -773,7 +773,7 @@ age
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -792,7 +792,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -811,7 +811,7 @@ org
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -870,7 +870,7 @@ clearStsState
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -887,7 +887,7 @@ IS_PRIVATE
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -934,7 +934,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -951,7 +951,7 @@ IS_PRIVATE
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -968,7 +968,7 @@ IS_PRIVATE
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -989,7 +989,7 @@ IS_PRIVATE
 )
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -1006,7 +1006,7 @@ IS_PRIVATE
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1023,7 +1023,7 @@ IS_PRIVATE
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1042,7 +1042,7 @@ IS_PRIVATE
 )
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -1059,7 +1059,7 @@ IS_PRIVATE
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1076,7 +1076,7 @@ IS_PRIVATE
 ;
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1095,7 +1095,7 @@ IS_PRIVATE
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1134,7 +1134,7 @@ null
 null
 )
 ;
-gSTSService
+gSSService
 .
 processStsHeader
 (
@@ -1158,7 +1158,7 @@ function
 {
 do_check_false
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1203,7 +1203,7 @@ test_private_browsing2
 {
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1220,7 +1220,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
@@ -1239,7 +1239,7 @@ org
 ;
 do_check_true
 (
-gSTSService
+gSSService
 .
 isStsHost
 (
