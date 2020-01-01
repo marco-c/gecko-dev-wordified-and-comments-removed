@@ -201,6 +201,11 @@ aResult
 )
 const
 ;
+void
+MaybeLoadSVGImage
+(
+)
+;
 protected
 :
 nsresult
