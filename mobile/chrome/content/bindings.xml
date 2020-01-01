@@ -2566,6 +2566,11 @@ if
 this
 .
 uri
+|
+|
+this
+.
+_isEditing
 )
 return
 ;
