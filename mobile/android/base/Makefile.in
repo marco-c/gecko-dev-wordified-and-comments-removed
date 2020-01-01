@@ -696,6 +696,10 @@ ServiceNotificationClient
 .
 java
 \
+ScrollAnimator
+.
+java
+\
 SessionParser
 .
 java
