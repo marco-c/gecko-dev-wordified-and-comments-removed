@@ -175,7 +175,7 @@ aDate
 )
 {
 var
-placeID
+visitId
 =
 hs
 .
@@ -192,7 +192,7 @@ false
 )
 ;
 return
-placeID
+visitId
 ;
 }
 function
@@ -268,7 +268,7 @@ ptests
 const
 TEST_REPEAT_COUNT
 =
-10
+6
 ;
 ptests
 .
@@ -486,8 +486,10 @@ true
 report
 )
 ;
-runNextTest
+setTimeout
 (
+runNextTest
+0
 )
 ;
 }
@@ -499,8 +501,10 @@ test
 (
 )
 {
-runNextTest
+setTimeout
 (
+runNextTest
+0
 )
 ;
 }
@@ -517,6 +521,7 @@ length
 >
 0
 )
+{
 ptests
 .
 shift
@@ -527,6 +532,7 @@ run
 (
 )
 ;
+}
 else
 finish
 (
