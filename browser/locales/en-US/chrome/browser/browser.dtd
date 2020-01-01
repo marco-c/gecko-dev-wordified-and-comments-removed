@@ -2239,7 +2239,7 @@ S
 <
 !
 ENTITY
-bookmarkPageCmd
+bookmarkPageCmd2
 .
 label
 "
@@ -2251,7 +2251,7 @@ Page
 <
 !
 ENTITY
-bookmarkPageCmd
+bookmarkPageCmd2
 .
 accesskey
 "
@@ -2261,7 +2261,7 @@ m
 <
 !
 ENTITY
-bookmarkLinkCmd
+bookmarkThisLinkCmd
 .
 label
 "
@@ -2273,7 +2273,7 @@ Link
 <
 !
 ENTITY
-bookmarkLinkCmd
+bookmarkThisLinkCmd
 .
 accesskey
 "
@@ -2283,7 +2283,7 @@ L
 <
 !
 ENTITY
-bookmarkFrameCmd
+bookmarkThisFrameCmd
 .
 label
 "
@@ -2295,7 +2295,7 @@ Frame
 <
 !
 ENTITY
-bookmarkFrameCmd
+bookmarkThisFrameCmd
 .
 accesskey
 "

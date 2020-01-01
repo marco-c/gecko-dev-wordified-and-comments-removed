@@ -1197,7 +1197,7 @@ label
 =
 "
 &
-bookmarkCurTab
+bookmarkThisTab
 .
 label
 ;
@@ -1206,7 +1206,7 @@ accesskey
 =
 "
 &
-bookmarkCurTab
+bookmarkThisTab
 .
 accesskey
 ;

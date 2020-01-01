@@ -152,7 +152,7 @@ T
 <
 !
 ENTITY
-bookmarkCurTab
+bookmarkThisTab
 .
 label
 "
@@ -164,7 +164,7 @@ Tab
 <
 !
 ENTITY
-bookmarkCurTab
+bookmarkThisTab
 .
 accesskey
 "

@@ -601,7 +601,7 @@ label
 =
 "
 &
-bookmarkLinkCmd
+bookmarkThisLinkCmd
 .
 label
 ;
@@ -610,7 +610,7 @@ accesskey
 =
 "
 &
-bookmarkLinkCmd
+bookmarkThisLinkCmd
 .
 accesskey
 ;
@@ -1300,7 +1300,7 @@ label
 =
 "
 &
-bookmarkPageCmd
+bookmarkPageCmd2
 .
 label
 ;
@@ -1309,7 +1309,7 @@ accesskey
 =
 "
 &
-bookmarkPageCmd
+bookmarkPageCmd2
 .
 accesskey
 ;
@@ -1963,7 +1963,7 @@ label
 =
 "
 &
-bookmarkFrameCmd
+bookmarkThisFrameCmd
 .
 label
 ;
@@ -1972,7 +1972,7 @@ accesskey
 =
 "
 &
-bookmarkFrameCmd
+bookmarkThisFrameCmd
 .
 accesskey
 ;
