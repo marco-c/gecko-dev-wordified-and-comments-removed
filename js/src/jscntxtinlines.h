@@ -2692,9 +2692,6 @@ array
 ;
 }
 ;
-#
-ifdef
-DEBUG
 class
 CompartmentChecker
 {
@@ -2796,12 +2793,14 @@ void
 c2
 )
 ;
-JS_NOT_REACHED
+JS_Assert
 (
 "
 compartment
 mismatched
 "
+__FILE__
+__LINE__
 )
 ;
 }
@@ -3173,8 +3172,6 @@ JSString
 }
 ;
 #
-endif
-#
 define
 START_ASSERT_SAME_COMPARTMENT
 (
@@ -3215,9 +3212,6 @@ T1
 t1
 )
 {
-#
-ifdef
-DEBUG
 START_ASSERT_SAME_COMPARTMENT
 (
 )
@@ -3229,8 +3223,6 @@ check
 t1
 )
 ;
-#
-endif
 }
 template
 <
@@ -3252,9 +3244,6 @@ T2
 t2
 )
 {
-#
-ifdef
-DEBUG
 START_ASSERT_SAME_COMPARTMENT
 (
 )
@@ -3273,8 +3262,6 @@ check
 t2
 )
 ;
-#
-endif
 }
 template
 <
@@ -3300,9 +3287,6 @@ T3
 t3
 )
 {
-#
-ifdef
-DEBUG
 START_ASSERT_SAME_COMPARTMENT
 (
 )
@@ -3328,8 +3312,6 @@ check
 t3
 )
 ;
-#
-endif
 }
 template
 <
@@ -3359,9 +3341,6 @@ T4
 t4
 )
 {
-#
-ifdef
-DEBUG
 START_ASSERT_SAME_COMPARTMENT
 (
 )
@@ -3394,8 +3373,6 @@ check
 t4
 )
 ;
-#
-endif
 }
 template
 <
@@ -3429,9 +3406,6 @@ T5
 t5
 )
 {
-#
-ifdef
-DEBUG
 START_ASSERT_SAME_COMPARTMENT
 (
 )
@@ -3471,8 +3445,6 @@ check
 t5
 )
 ;
-#
-endif
 }
 #
 undef
