@@ -423,6 +423,10 @@ SVGAnimatedTransformList
 .
 webidl
 \
+SVGDescElement
+.
+webidl
+\
 SVGElement
 .
 webidl
