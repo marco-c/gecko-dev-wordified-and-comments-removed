@@ -304,7 +304,7 @@ mName
 nsAttrValue
 mValue
 ;
-void
+JSObject
 *
 mEventHandler
 ;
