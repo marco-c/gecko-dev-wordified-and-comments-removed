@@ -10057,6 +10057,13 @@ LOCAL_GL_PACK_ALIGNMENT
 currentPackAlignment
 )
 ;
+if
+(
+currentPackAlignment
+!
+=
+4
+)
 fPixelStorei
 (
 LOCAL_GL_PACK_ALIGNMENT
@@ -10199,6 +10206,13 @@ row
 }
 }
 }
+if
+(
+currentPackAlignment
+!
+=
+4
+)
 fPixelStorei
 (
 LOCAL_GL_PACK_ALIGNMENT
