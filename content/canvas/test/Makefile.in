@@ -7101,6 +7101,12 @@ redirect
 headers
 ^
 \
+test_2d
+.
+imagedata_coercion
+.
+html
+\
 (
 NULL
 )
