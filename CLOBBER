@@ -136,8 +136,13 @@ users
 .
 #
 Bug
-788293
+793928
 -
-Remove
-e4x
-support
+Move
+the
+promise
+library
+to
+a
+new
+location
