@@ -803,6 +803,10 @@ SVGFEDiffuseLightingElement
 .
 webidl
 \
+SVGFEDisplacementMapElement
+.
+webidl
+\
 SVGFEDistantLightElement
 .
 webidl
