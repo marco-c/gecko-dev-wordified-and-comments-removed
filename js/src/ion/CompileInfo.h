@@ -4,6 +4,13 @@ jsion_compileinfo_h__
 #
 define
 jsion_compileinfo_h__
+#
+include
+"
+jsscriptinlines
+.
+h
+"
 namespace
 js
 {
