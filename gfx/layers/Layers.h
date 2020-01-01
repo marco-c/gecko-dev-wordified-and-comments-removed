@@ -268,8 +268,10 @@ mViewport
 0
 0
 )
-mContentSize
+mContentRect
 (
+0
+0
 0
 0
 )
@@ -282,8 +284,10 @@ mScrollId
 (
 NULL_SCROLL_ID
 )
-mCSSContentSize
+mCSSContentRect
 (
+0
+0
 0
 0
 )
@@ -414,8 +418,8 @@ NULL_SCROLL_ID
 nsIntRect
 mViewport
 ;
-nsIntSize
-mContentSize
+nsIntRect
+mContentRect
 ;
 nsIntPoint
 mViewportScrollOffset
@@ -429,8 +433,8 @@ mScrollId
 gfx
 :
 :
-Size
-mCSSContentSize
+Rect
+mCSSContentRect
 ;
 gfxSize
 mResolution
