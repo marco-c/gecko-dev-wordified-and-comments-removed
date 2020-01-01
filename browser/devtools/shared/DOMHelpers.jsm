@@ -202,12 +202,8 @@ null
 if
 (
 node
-instanceof
-this
 .
-window
-.
-GetSVGDocument
+getSVGDocument
 )
 {
 let
