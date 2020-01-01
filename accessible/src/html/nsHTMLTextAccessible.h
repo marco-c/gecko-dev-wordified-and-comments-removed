@@ -44,9 +44,6 @@ aDomNode
 nsIWeakReference
 *
 aShell
-nsIFrame
-*
-aFrame
 )
 ;
 NS_IMETHOD
@@ -262,9 +259,6 @@ aDOMNode
 nsIWeakReference
 *
 aShell
-nsIFrame
-*
-aFrame
 const
 nsAString
 &
@@ -422,9 +416,6 @@ aDOMNode
 nsIWeakReference
 *
 aShell
-nsIFrame
-*
-aBulletFrame
 const
 nsAString
 &

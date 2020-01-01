@@ -42,9 +42,6 @@ aDomNode
 nsIWeakReference
 *
 aShell
-nsIFrame
-*
-aFrame
 )
 :
 nsLinkableAccessible

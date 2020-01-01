@@ -28,9 +28,6 @@ aDomNode
 nsIWeakReference
 *
 aShell
-nsIFrame
-*
-aFrame
 )
 ;
 NS_IMETHOD
