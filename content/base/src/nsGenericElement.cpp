@@ -1815,6 +1815,12 @@ GetEditorRootContent
 editor
 )
 ;
+NS_ENSURE_TRUE
+(
+editorRoot
+nsnull
+)
+;
 return
 nsContentUtils
 :
@@ -1973,6 +1979,12 @@ nsnull
 ;
 }
 }
+NS_ENSURE_TRUE
+(
+content
+nsnull
+)
+;
 return
 nsContentUtils
 :
