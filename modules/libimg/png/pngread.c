@@ -146,25 +146,6 @@ NULL
 )
 ;
 #
-if
-!
-defined
-(
-PNG_1_0_X
-)
-#
-ifdef
-PNG_MMX_CODE_SUPPORTED
-png_init_mmx_flags
-(
-png_ptr
-)
-;
-#
-endif
-#
-endif
-#
 ifdef
 PNG_SET_USER_LIMITS_SUPPORTED
 png_ptr
@@ -446,9 +427,10 @@ if
 user_png_ver
 )
 {
-sprintf
+png_snprintf
 (
 msg
+80
 "
 Application
 was
@@ -474,9 +456,10 @@ msg
 )
 ;
 }
-sprintf
+png_snprintf
 (
 msg
+80
 "
 Application
 is
@@ -854,9 +837,10 @@ if
 user_png_ver
 )
 {
-sprintf
+png_snprintf
 (
 msg
+80
 "
 Application
 was
@@ -882,9 +866,10 @@ msg
 )
 ;
 }
-sprintf
+png_snprintf
 (
 msg
+80
 "
 Application
 is
@@ -1554,12 +1539,16 @@ for
 #
 ifdef
 PNG_USE_LOCAL_ARRAYS
+PNG_CONST
 PNG_IHDR
 ;
+PNG_CONST
 PNG_IDAT
 ;
+PNG_CONST
 PNG_IEND
 ;
+PNG_CONST
 PNG_PLTE
 ;
 #
@@ -1568,6 +1557,7 @@ defined
 (
 PNG_READ_bKGD_SUPPORTED
 )
+PNG_CONST
 PNG_bKGD
 ;
 #
@@ -1578,6 +1568,7 @@ defined
 (
 PNG_READ_cHRM_SUPPORTED
 )
+PNG_CONST
 PNG_cHRM
 ;
 #
@@ -1588,6 +1579,7 @@ defined
 (
 PNG_READ_gAMA_SUPPORTED
 )
+PNG_CONST
 PNG_gAMA
 ;
 #
@@ -1598,6 +1590,7 @@ defined
 (
 PNG_READ_hIST_SUPPORTED
 )
+PNG_CONST
 PNG_hIST
 ;
 #
@@ -1608,6 +1601,7 @@ defined
 (
 PNG_READ_iCCP_SUPPORTED
 )
+PNG_CONST
 PNG_iCCP
 ;
 #
@@ -1618,6 +1612,7 @@ defined
 (
 PNG_READ_iTXt_SUPPORTED
 )
+PNG_CONST
 PNG_iTXt
 ;
 #
@@ -1628,6 +1623,7 @@ defined
 (
 PNG_READ_oFFs_SUPPORTED
 )
+PNG_CONST
 PNG_oFFs
 ;
 #
@@ -1638,6 +1634,7 @@ defined
 (
 PNG_READ_pCAL_SUPPORTED
 )
+PNG_CONST
 PNG_pCAL
 ;
 #
@@ -1648,6 +1645,7 @@ defined
 (
 PNG_READ_pHYs_SUPPORTED
 )
+PNG_CONST
 PNG_pHYs
 ;
 #
@@ -1658,6 +1656,7 @@ defined
 (
 PNG_READ_sBIT_SUPPORTED
 )
+PNG_CONST
 PNG_sBIT
 ;
 #
@@ -1668,6 +1667,7 @@ defined
 (
 PNG_READ_sCAL_SUPPORTED
 )
+PNG_CONST
 PNG_sCAL
 ;
 #
@@ -1678,6 +1678,7 @@ defined
 (
 PNG_READ_sPLT_SUPPORTED
 )
+PNG_CONST
 PNG_sPLT
 ;
 #
@@ -1688,6 +1689,7 @@ defined
 (
 PNG_READ_sRGB_SUPPORTED
 )
+PNG_CONST
 PNG_sRGB
 ;
 #
@@ -1698,6 +1700,7 @@ defined
 (
 PNG_READ_tEXt_SUPPORTED
 )
+PNG_CONST
 PNG_tEXt
 ;
 #
@@ -1708,6 +1711,7 @@ defined
 (
 PNG_READ_tIME_SUPPORTED
 )
+PNG_CONST
 PNG_tIME
 ;
 #
@@ -1718,6 +1722,7 @@ defined
 (
 PNG_READ_tRNS_SUPPORTED
 )
+PNG_CONST
 PNG_tRNS
 ;
 #
@@ -1728,6 +1733,7 @@ defined
 (
 PNG_READ_zTXt_SUPPORTED
 )
+PNG_CONST
 PNG_zTXt
 ;
 #
@@ -1738,10 +1744,13 @@ defined
 (
 PNG_READ_APNG_SUPPORTED
 )
+PNG_CONST
 PNG_acTL
 ;
+PNG_CONST
 PNG_fcTL
 ;
+PNG_CONST
 PNG_fdAT
 ;
 #
@@ -1819,9 +1828,6 @@ png_ptr
 -
 >
 chunk_name
-(
-png_bytep
-)
 png_IDAT
 4
 )
@@ -3217,6 +3223,7 @@ dsp_row
 #
 ifdef
 PNG_USE_LOCAL_ARRAYS
+PNG_CONST
 PNG_IDAT
 ;
 #
@@ -3225,13 +3232,15 @@ defined
 (
 PNG_READ_APNG_SUPPORTED
 )
+PNG_CONST
 PNG_fdAT
 ;
+PNG_CONST
 PNG_IEND
 ;
 #
 endif
-const
+PNG_CONST
 int
 png_pass_dsp_mask
 [
@@ -3248,7 +3257,7 @@ png_pass_dsp_mask
 0xff
 }
 ;
-const
+PNG_CONST
 int
 png_pass_mask
 [
@@ -5228,12 +5237,16 @@ do
 #
 ifdef
 PNG_USE_LOCAL_ARRAYS
+PNG_CONST
 PNG_IHDR
 ;
+PNG_CONST
 PNG_IDAT
 ;
+PNG_CONST
 PNG_IEND
 ;
+PNG_CONST
 PNG_PLTE
 ;
 #
@@ -5242,6 +5255,7 @@ defined
 (
 PNG_READ_bKGD_SUPPORTED
 )
+PNG_CONST
 PNG_bKGD
 ;
 #
@@ -5252,6 +5266,7 @@ defined
 (
 PNG_READ_cHRM_SUPPORTED
 )
+PNG_CONST
 PNG_cHRM
 ;
 #
@@ -5262,6 +5277,7 @@ defined
 (
 PNG_READ_gAMA_SUPPORTED
 )
+PNG_CONST
 PNG_gAMA
 ;
 #
@@ -5272,6 +5288,7 @@ defined
 (
 PNG_READ_hIST_SUPPORTED
 )
+PNG_CONST
 PNG_hIST
 ;
 #
@@ -5282,6 +5299,7 @@ defined
 (
 PNG_READ_iCCP_SUPPORTED
 )
+PNG_CONST
 PNG_iCCP
 ;
 #
@@ -5292,6 +5310,7 @@ defined
 (
 PNG_READ_iTXt_SUPPORTED
 )
+PNG_CONST
 PNG_iTXt
 ;
 #
@@ -5302,6 +5321,7 @@ defined
 (
 PNG_READ_oFFs_SUPPORTED
 )
+PNG_CONST
 PNG_oFFs
 ;
 #
@@ -5312,6 +5332,7 @@ defined
 (
 PNG_READ_pCAL_SUPPORTED
 )
+PNG_CONST
 PNG_pCAL
 ;
 #
@@ -5322,6 +5343,7 @@ defined
 (
 PNG_READ_pHYs_SUPPORTED
 )
+PNG_CONST
 PNG_pHYs
 ;
 #
@@ -5332,6 +5354,7 @@ defined
 (
 PNG_READ_sBIT_SUPPORTED
 )
+PNG_CONST
 PNG_sBIT
 ;
 #
@@ -5342,6 +5365,7 @@ defined
 (
 PNG_READ_sCAL_SUPPORTED
 )
+PNG_CONST
 PNG_sCAL
 ;
 #
@@ -5352,6 +5376,7 @@ defined
 (
 PNG_READ_sPLT_SUPPORTED
 )
+PNG_CONST
 PNG_sPLT
 ;
 #
@@ -5362,6 +5387,7 @@ defined
 (
 PNG_READ_sRGB_SUPPORTED
 )
+PNG_CONST
 PNG_sRGB
 ;
 #
@@ -5372,6 +5398,7 @@ defined
 (
 PNG_READ_tEXt_SUPPORTED
 )
+PNG_CONST
 PNG_tEXt
 ;
 #
@@ -5382,6 +5409,7 @@ defined
 (
 PNG_READ_tIME_SUPPORTED
 )
+PNG_CONST
 PNG_tIME
 ;
 #
@@ -5392,6 +5420,7 @@ defined
 (
 PNG_READ_tRNS_SUPPORTED
 )
+PNG_CONST
 PNG_tRNS
 ;
 #
@@ -5402,6 +5431,7 @@ defined
 (
 PNG_READ_zTXt_SUPPORTED
 )
+PNG_CONST
 PNG_zTXt
 ;
 #
@@ -5412,10 +5442,13 @@ defined
 (
 PNG_READ_APNG_SUPPORTED
 )
+PNG_CONST
 PNG_acTL
 ;
+PNG_CONST
 PNG_fcTL
 ;
+PNG_CONST
 PNG_fdAT
 ;
 #
@@ -7825,20 +7858,13 @@ png_ptr
 info_ptr
 )
 ;
-if
-(
 transforms
 =
-=
-0
-|
-|
+transforms
+;
 params
 =
-=
-NULL
-)
-return
+params
 ;
 }
 #

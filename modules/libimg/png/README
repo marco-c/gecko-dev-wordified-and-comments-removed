@@ -6,11 +6,11 @@ version
 .
 2
 .
-12
+21
 -
-June
-27
-2006
+October
+4
+2007
 (
 shared
 library
@@ -1980,7 +1980,7 @@ so
 .
 2
 .
-12
+21
 )
 makefile
 .
@@ -2004,7 +2004,7 @@ so
 .
 2
 .
-12
+21
 )
 makefile
 .
@@ -2028,7 +2028,7 @@ so
 .
 2
 .
-12
+21
 uses
 assembler
 code
@@ -2297,7 +2297,7 @@ so
 .
 2
 .
-12
+21
 )
 makefile
 .
@@ -2329,7 +2329,7 @@ so
 .
 2
 .
-12
+21
 )
 makefile
 .
@@ -2352,7 +2352,7 @@ so
 .
 2
 .
-12
+21
 )
 makefile
 .

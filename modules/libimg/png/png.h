@@ -12,7 +12,7 @@ PNG_LIBPNG_VER_STRING
 .
 2
 .
-16
+21
 "
 #
 define
@@ -25,14 +25,11 @@ version
 .
 2
 .
-16
+21
 -
-January
-31
+October
+4
 2007
-(
-header
-)
 \
 n
 "
@@ -55,7 +52,7 @@ PNG_LIBPNG_VER_MINOR
 #
 define
 PNG_LIBPNG_VER_RELEASE
-16
+21
 #
 define
 PNG_LIBPNG_VER_BUILD
@@ -133,14 +130,14 @@ PNG_LIBPNG_BUILD_STABLE
 #
 define
 PNG_LIBPNG_VER
-10216
+10221
 /
 *
 1
 .
 2
 .
-16
+21
 *
 /
 #
@@ -410,7 +407,7 @@ ifdef
 PNG_USE_GLOBAL_ARRAYS
 PNG_EXPORT_VAR
 (
-const
+PNG_CONST
 char
 )
 png_libpng_ver
@@ -434,7 +431,7 @@ ifdef
 PNG_USE_GLOBAL_ARRAYS
 PNG_EXPORT_VAR
 (
-const
+PNG_CONST
 int
 FARDATA
 )
@@ -445,7 +442,7 @@ png_pass_start
 ;
 PNG_EXPORT_VAR
 (
-const
+PNG_CONST
 int
 FARDATA
 )
@@ -456,7 +453,7 @@ png_pass_inc
 ;
 PNG_EXPORT_VAR
 (
-const
+PNG_CONST
 int
 FARDATA
 )
@@ -467,7 +464,7 @@ png_pass_ystart
 ;
 PNG_EXPORT_VAR
 (
-const
+PNG_CONST
 int
 FARDATA
 )
@@ -478,7 +475,7 @@ png_pass_yinc
 ;
 PNG_EXPORT_VAR
 (
-const
+PNG_CONST
 int
 FARDATA
 )
@@ -489,7 +486,7 @@ png_pass_mask
 ;
 PNG_EXPORT_VAR
 (
-const
+PNG_CONST
 int
 FARDATA
 )
@@ -498,22 +495,6 @@ png_pass_dsp_mask
 7
 ]
 ;
-#
-ifdef
-PNG_USE_PNGGCCRD
-PNG_EXPORT_VAR
-(
-const
-int
-FARDATA
-)
-png_pass_width
-[
-7
-]
-;
-#
-endif
 #
 endif
 #
@@ -3072,20 +3053,6 @@ defined
 (
 PNG_1_0_X
 )
-|
-|
-(
-defined
-(
-PNG_DEBUG
-)
-&
-&
-defined
-(
-PNG_USE_PNGGCCRD
-)
-)
 png_uint_32
 row_buf_size
 ;
@@ -3192,8 +3159,6 @@ png_uint_32
 first_frame_height
 ;
 #
-endif
-#
 if
 defined
 (
@@ -3229,8 +3194,8 @@ num_frames_written
 ;
 #
 endif
-}
-;
+#
+endif
 #
 define
 PNG_FIRST_FRAME_HIDDEN
@@ -3255,9 +3220,22 @@ PNG_BLEND_OP_SOURCE
 define
 PNG_BLEND_OP_OVER
 0x01
+#
+if
+defined
+(
+PNG_UNKNOWN_CHUNKS_SUPPORTED
+)
+png_unknown_chunk
+unknown_chunk
+;
+#
+endif
+}
+;
 typedef
 png_structp
-version_1_2_16
+version_1_2_21
 ;
 typedef
 png_struct
@@ -5967,6 +5945,9 @@ check
 ;
 #
 endif
+#
+ifndef
+PNG_NO_ERROR_TEXT
 extern
 PNG_EXPORT
 (
@@ -5999,6 +5980,27 @@ error_message
 )
 )
 ;
+#
+else
+extern
+PNG_EXPORT
+(
+void
+png_err
+)
+PNGARG
+(
+(
+png_structp
+png_ptr
+)
+)
+;
+#
+endif
+#
+ifndef
+PNG_NO_WARNINGS
 extern
 PNG_EXPORT
 (
@@ -6015,6 +6017,9 @@ warning_message
 )
 )
 ;
+#
+ifdef
+PNG_READ_SUPPORTED
 extern
 PNG_EXPORT
 (
@@ -6031,6 +6036,10 @@ warning_message
 )
 )
 ;
+#
+endif
+#
+endif
 extern
 PNG_EXPORT
 (
@@ -8561,24 +8570,6 @@ p2
 )
 #
 endif
-#
-if
-0
-extern
-PNG_EXPORT
-(
-png_bytep
-png_sig_bytes
-)
-PNGARG
-(
-(
-void
-)
-)
-;
-#
-endif
 extern
 PNG_EXPORT
 (
@@ -9487,12 +9478,6 @@ i
 )
 ;
 #
-if
-defined
-(
-PNG_INTERNAL
-)
-#
 define
 PNG_HAVE_IHDR
 0x01
@@ -9520,6 +9505,12 @@ datastream
 define
 PNG_HAVE_IEND
 0x10
+#
+if
+defined
+(
+PNG_INTERNAL
+)
 #
 define
 PNG_HAVE_gAMA
@@ -10091,7 +10082,7 @@ ifdef
 PNG_USE_GLOBAL_ARRAYS
 PNG_EXPORT_VAR
 (
-const
+PNG_CONST
 png_byte
 FARDATA
 )
@@ -10103,25 +10094,12 @@ png_sig
 #
 else
 #
-if
-0
-#
-define
-png_sig
-png_sig_bytes
-(
-NULL
-)
-#
-endif
-#
 endif
 #
 endif
 #
 define
 PNG_IHDR
-const
 png_byte
 png_IHDR
 [
@@ -10141,7 +10119,6 @@ png_IHDR
 #
 define
 PNG_IDAT
-const
 png_byte
 png_IDAT
 [
@@ -10161,7 +10138,6 @@ png_IDAT
 #
 define
 PNG_IEND
-const
 png_byte
 png_IEND
 [
@@ -10181,7 +10157,6 @@ png_IEND
 #
 define
 PNG_PLTE
-const
 png_byte
 png_PLTE
 [
@@ -10201,7 +10176,6 @@ png_PLTE
 #
 define
 PNG_bKGD
-const
 png_byte
 png_bKGD
 [
@@ -10221,7 +10195,6 @@ png_bKGD
 #
 define
 PNG_cHRM
-const
 png_byte
 png_cHRM
 [
@@ -10241,7 +10214,6 @@ png_cHRM
 #
 define
 PNG_gAMA
-const
 png_byte
 png_gAMA
 [
@@ -10261,7 +10233,6 @@ png_gAMA
 #
 define
 PNG_hIST
-const
 png_byte
 png_hIST
 [
@@ -10281,7 +10252,6 @@ png_hIST
 #
 define
 PNG_iCCP
-const
 png_byte
 png_iCCP
 [
@@ -10301,7 +10271,6 @@ png_iCCP
 #
 define
 PNG_iTXt
-const
 png_byte
 png_iTXt
 [
@@ -10321,7 +10290,6 @@ png_iTXt
 #
 define
 PNG_oFFs
-const
 png_byte
 png_oFFs
 [
@@ -10341,7 +10309,6 @@ png_oFFs
 #
 define
 PNG_pCAL
-const
 png_byte
 png_pCAL
 [
@@ -10361,7 +10328,6 @@ png_pCAL
 #
 define
 PNG_sCAL
-const
 png_byte
 png_sCAL
 [
@@ -10381,7 +10347,6 @@ png_sCAL
 #
 define
 PNG_pHYs
-const
 png_byte
 png_pHYs
 [
@@ -10401,7 +10366,6 @@ png_pHYs
 #
 define
 PNG_sBIT
-const
 png_byte
 png_sBIT
 [
@@ -10421,7 +10385,6 @@ png_sBIT
 #
 define
 PNG_sPLT
-const
 png_byte
 png_sPLT
 [
@@ -10441,7 +10404,6 @@ png_sPLT
 #
 define
 PNG_sRGB
-const
 png_byte
 png_sRGB
 [
@@ -10461,7 +10423,6 @@ png_sRGB
 #
 define
 PNG_tEXt
-const
 png_byte
 png_tEXt
 [
@@ -10481,7 +10442,6 @@ png_tEXt
 #
 define
 PNG_tIME
-const
 png_byte
 png_tIME
 [
@@ -10501,7 +10461,6 @@ png_tIME
 #
 define
 PNG_tRNS
-const
 png_byte
 png_tRNS
 [
@@ -10521,7 +10480,6 @@ png_tRNS
 #
 define
 PNG_zTXt
-const
 png_byte
 png_zTXt
 [
@@ -10541,7 +10499,6 @@ png_zTXt
 #
 define
 PNG_acTL
-const
 png_byte
 png_acTL
 [
@@ -10561,7 +10518,6 @@ png_acTL
 #
 define
 PNG_fcTL
-const
 png_byte
 png_fcTL
 [
@@ -10581,7 +10537,6 @@ png_fcTL
 #
 define
 PNG_fdAT
-const
 png_byte
 png_fdAT
 [
@@ -10603,7 +10558,6 @@ ifdef
 PNG_USE_GLOBAL_ARRAYS
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10614,7 +10568,6 @@ png_IHDR
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10625,7 +10578,6 @@ png_IDAT
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10636,7 +10588,6 @@ png_IEND
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10647,7 +10598,6 @@ png_PLTE
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10658,7 +10608,6 @@ png_bKGD
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10669,7 +10618,6 @@ png_cHRM
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10680,7 +10628,6 @@ png_gAMA
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10691,7 +10638,6 @@ png_hIST
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10702,7 +10648,6 @@ png_iCCP
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10713,7 +10658,6 @@ png_iTXt
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10724,7 +10668,6 @@ png_oFFs
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10735,7 +10678,6 @@ png_pCAL
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10746,7 +10688,6 @@ png_sCAL
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10757,7 +10698,6 @@ png_pHYs
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10768,7 +10708,6 @@ png_sBIT
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10779,7 +10718,6 @@ png_sPLT
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10790,7 +10728,6 @@ png_sRGB
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10801,7 +10738,6 @@ png_tEXt
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10812,7 +10748,6 @@ png_tIME
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10823,7 +10758,6 @@ png_tRNS
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10834,7 +10768,6 @@ png_zTXt
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10845,7 +10778,6 @@ png_acTL
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
@@ -10856,7 +10788,6 @@ png_fcTL
 ;
 PNG_EXPORT_VAR
 (
-const
 png_byte
 FARDATA
 )
