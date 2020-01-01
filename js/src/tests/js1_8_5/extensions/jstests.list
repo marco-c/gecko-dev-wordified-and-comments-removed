@@ -146,6 +146,12 @@ timeout
 .
 js
 script
+regress
+-
+558541
+.
+js
+script
 scripted
 -
 proxies
