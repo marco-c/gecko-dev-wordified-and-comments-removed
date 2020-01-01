@@ -1151,9 +1151,7 @@ cx
 JSObject
 *
 handler
-const
 Value
-&
 fval
 uintN
 argc
@@ -1194,9 +1192,7 @@ cx
 JSObject
 *
 handler
-const
 Value
-&
 fval
 jsid
 id
@@ -1256,9 +1252,7 @@ cx
 JSObject
 *
 handler
-const
 Value
-&
 fval
 jsid
 id

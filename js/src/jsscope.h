@@ -2006,7 +2006,7 @@ getterObj
 js
 :
 :
-FunObjOrUndefinedTag
+ObjectOrUndefinedTag
 getterValue
 (
 )
@@ -2023,7 +2023,7 @@ return
 js
 :
 :
-FunObjOrUndefinedTag
+ObjectOrUndefinedTag
 (
 getterObj
 )
@@ -2032,7 +2032,7 @@ getterObj
 js
 :
 :
-FunObjOrUndefinedTag
+ObjectOrUndefinedTag
 getterOrUndefined
 (
 )
@@ -2042,7 +2042,7 @@ return
 js
 :
 :
-FunObjOrUndefinedTag
+ObjectOrUndefinedTag
 (
 hasGetterValue
 (
@@ -2120,7 +2120,7 @@ setterObj
 js
 :
 :
-FunObjOrUndefinedTag
+ObjectOrUndefinedTag
 setterValue
 (
 )
@@ -2137,7 +2137,7 @@ return
 js
 :
 :
-FunObjOrUndefinedTag
+ObjectOrUndefinedTag
 (
 setterObj
 )
@@ -2146,7 +2146,7 @@ setterObj
 js
 :
 :
-FunObjOrUndefinedTag
+ObjectOrUndefinedTag
 setterOrUndefined
 (
 )
@@ -2156,7 +2156,7 @@ return
 js
 :
 :
-FunObjOrUndefinedTag
+ObjectOrUndefinedTag
 (
 hasSetterValue
 (
