@@ -372,6 +372,16 @@ return
 mDecoder
 ;
 }
+nsIURI
+*
+URI
+(
+)
+{
+return
+mURI
+;
+}
 virtual
 nsresult
 Close

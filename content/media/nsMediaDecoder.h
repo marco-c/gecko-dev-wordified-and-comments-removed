@@ -95,6 +95,9 @@ class
 nsHTMLMediaElement
 ;
 class
+nsMediaStream
+;
+class
 nsMediaDecoder
 :
 public
@@ -142,13 +145,10 @@ aElement
 )
 ;
 virtual
-void
-GetCurrentURI
+nsMediaStream
+*
+GetCurrentStream
 (
-nsIURI
-*
-*
-aURI
 )
 =
 0
@@ -228,9 +228,6 @@ virtual
 nsresult
 Load
 (
-nsIURI
-*
-aURI
 nsIChannel
 *
 aChannel
