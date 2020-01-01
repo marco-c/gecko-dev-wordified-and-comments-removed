@@ -10091,6 +10091,7 @@ aUserSpaceToImageSpace
 aFill
 padding
 aSubimage
+aFlags
 )
 ;
 if
