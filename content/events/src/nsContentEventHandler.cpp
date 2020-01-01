@@ -2865,9 +2865,9 @@ rv
 return
 rv
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsRange
+nsIRange
 >
 range
 =
