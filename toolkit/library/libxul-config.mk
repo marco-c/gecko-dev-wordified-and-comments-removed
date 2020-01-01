@@ -616,6 +616,11 @@ chromium_s
 (
 NULL
 )
+OS_LIBS
++
+=
+-
+lrt
 endif
 STATIC_LIBS
 +

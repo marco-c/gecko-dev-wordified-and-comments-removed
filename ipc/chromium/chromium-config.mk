@@ -672,12 +672,3 @@ endif
 endif
 #
 }
-ifdef
-OS_POSIX
-CXXFLAGS
-+
-=
-(
-MOZ_RTTI_FLAGS_ON
-)
-endif
