@@ -1,0 +1,10 @@
+IPDLSRCS
+=
+\
+PTestSanity
+.
+ipdl
+\
+(
+NULL
+)

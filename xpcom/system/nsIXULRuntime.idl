@@ -740,6 +740,13 @@ PROCESS_TYPE_TESTHARNESS
 =
 3
 ;
+const
+unsigned
+long
+PROCESS_TYPE_IPDLUNITTEST
+=
+4
+;
 /
 *
 *

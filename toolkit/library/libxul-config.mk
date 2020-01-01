@@ -624,6 +624,13 @@ ipctestharness_s
 (
 NULL
 )
+ifdef
+MOZ_IPDL_TESTS
+STATIC_LIBS
++
+=
+ipdlunittest_s
+endif
 ifeq
 (
 Linux

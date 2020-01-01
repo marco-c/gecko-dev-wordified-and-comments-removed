@@ -417,10 +417,6 @@ config
 autoconf
 .
 mk
-DIRS
-+
-=
-test
 include
 (
 topsrcdir
@@ -453,6 +449,14 @@ protocol
 http
 /
 src
+\
+ipc
+/
+ipdl
+/
+test
+/
+cxx
 \
 ipc
 /
