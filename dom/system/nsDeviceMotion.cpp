@@ -901,6 +901,15 @@ if
 pwindow
 |
 |
+!
+pwindow
+-
+>
+GetOuterWindow
+(
+)
+|
+|
 pwindow
 -
 >
