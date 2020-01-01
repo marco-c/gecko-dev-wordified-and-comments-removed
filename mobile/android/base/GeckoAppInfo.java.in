@@ -213,9 +213,9 @@ getUpdateChannel
 )
 {
 return
-UpdateServiceHelper
+AppConstants
 .
-UPDATE_CHANNEL
+MOZ_UPDATE_CHANNEL
 ;
 }
 public

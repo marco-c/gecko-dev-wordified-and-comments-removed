@@ -827,6 +827,7 @@ android
 name
 =
 "
+.
 App
 "
 android
@@ -1912,6 +1913,12 @@ android
 name
 =
 "
+org
+.
+mozilla
+.
+gecko
+.
 Restarter
 "
 android
@@ -2019,6 +2026,12 @@ android
 name
 =
 "
+org
+.
+mozilla
+.
+gecko
+.
 CrashReporter
 "
 android
