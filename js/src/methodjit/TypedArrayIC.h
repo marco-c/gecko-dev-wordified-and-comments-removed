@@ -2606,6 +2606,10 @@ avail
 takeAnyReg
 (
 )
+.
+reg
+(
+)
 ;
 }
 else
@@ -2632,6 +2636,10 @@ newReg
 avail
 .
 takeAnyReg
+(
+)
+.
+reg
 (
 )
 ;
