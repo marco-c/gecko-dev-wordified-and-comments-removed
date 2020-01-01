@@ -724,6 +724,17 @@ profile
 }
 )
 ;
+break
+;
+case
+"
+test
+-
+ambient
+-
+notification
+"
+:
 let
 icon
 =
@@ -778,7 +789,7 @@ counter
 1
 }
 ;
-port
+apiPort
 .
 postMessage
 (
