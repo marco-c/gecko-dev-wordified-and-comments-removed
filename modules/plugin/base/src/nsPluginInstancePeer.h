@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIWindowlessPlugInstPeer
-.
-h
-"
-#
-include
-"
 nsIPluginTagInfo2
 .
 h
@@ -52,8 +45,6 @@ nsPluginInstancePeerImpl
 public
 nsIPluginInstancePeer3
 public
-nsIWindowlessPluginInstancePeer
-public
 nsIPluginTagInfo2
 public
 nsPIPluginInstancePeer
@@ -72,7 +63,6 @@ nsPluginInstancePeerImpl
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPLUGININSTANCEPEER
-NS_DECL_NSIWINDOWLESSPLUGININSTANCEPEER
 NS_DECL_NSIPLUGININSTANCEPEER2
 NS_DECL_NSIPLUGININSTANCEPEER3
 NS_DECL_NSIPLUGINTAGINFO

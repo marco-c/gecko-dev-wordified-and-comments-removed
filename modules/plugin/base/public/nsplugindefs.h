@@ -803,9 +803,6 @@ class
 nsIPluginInstancePeer
 ;
 class
-nsIWindowlessPluginInstancePeer
-;
-class
 nsIPluginTagInfo
 ;
 #

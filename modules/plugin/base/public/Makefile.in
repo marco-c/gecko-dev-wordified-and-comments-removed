@@ -511,10 +511,6 @@ nsIHTTPHeaderListener
 .
 idl
 \
-nsIWindowlessPlugInstPeer
-.
-idl
-\
 nsIPluginTag
 .
 idl

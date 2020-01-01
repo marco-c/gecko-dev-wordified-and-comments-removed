@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIWindowlessPlugInstPeer
-.
-h
-"
-#
-include
-"
 prlink
 .
 h

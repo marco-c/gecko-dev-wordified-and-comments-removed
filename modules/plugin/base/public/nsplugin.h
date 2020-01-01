@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsIWindowlessPlugInstPeer
-.
-h
-"
-#
-include
-"
 nsIPluginTagInfo2
 .
 h
