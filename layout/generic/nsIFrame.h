@@ -112,6 +112,9 @@ gfxSkipChars
 class
 gfxSkipCharsIterator
 ;
+class
+nsLineList_iterator
+;
 struct
 nsPeekOffsetStruct
 ;
@@ -2276,6 +2279,10 @@ InlineIntrinsicWidthData
 (
 )
 :
+line
+(
+nsnull
+)
 prevLines
 (
 0
@@ -2294,6 +2301,11 @@ trailingWhitespace
 )
 {
 }
+const
+nsLineList_iterator
+*
+line
+;
 nscoord
 prevLines
 ;
