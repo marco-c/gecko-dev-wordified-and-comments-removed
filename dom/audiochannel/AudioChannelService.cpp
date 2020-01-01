@@ -475,6 +475,13 @@ if
 aElement
 )
 {
+aElement
+-
+>
+NotifyAudioChannelStateChanged
+(
+)
+;
 }
 return
 PL_DHASH_NEXT

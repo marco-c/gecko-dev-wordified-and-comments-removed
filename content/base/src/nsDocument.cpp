@@ -40638,6 +40638,12 @@ true
 false
 )
 ;
+EnumerateFreezableElements
+(
+NotifyActivityChanged
+nullptr
+)
+;
 }
 }
 nsDocument
