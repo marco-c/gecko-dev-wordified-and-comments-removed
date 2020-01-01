@@ -378,6 +378,12 @@ autocompleteresult_padding
 53mozmm
 %
 define
+dialog_width
+76
+.
+2mozmm
+%
+define
 appmenu_portrait_height
 21
 .
@@ -638,6 +644,10 @@ autocomplete_item_tags_margin
 define
 autocompleteresult_padding
 5px
+%
+define
+dialog_width
+500px
 %
 define
 appmenu_portrait_height

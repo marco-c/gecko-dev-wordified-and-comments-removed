@@ -317,7 +317,7 @@ class
 option
 -
 command
-prompt
+action
 -
 button
 "

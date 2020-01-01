@@ -233,7 +233,7 @@ command
 listitem
 -
 iconic
-prompt
+action
 -
 button
 "
