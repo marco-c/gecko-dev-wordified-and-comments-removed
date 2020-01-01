@@ -2597,6 +2597,14 @@ test_bug789856
 .
 html
 \
+file_bug804395
+.
+jar
+\
+test_bug804395
+.
+html
+\
 (
 NULL
 )
