@@ -59,7 +59,7 @@ nsLineBreaker
 ;
 enum
 {
-BREAK_WHITESPACE
+BREAK_WHITESPACE_END
 =
 0x01
 BREAK_NONWHITESPACE_INSIDE
@@ -193,7 +193,7 @@ PRPackedBool
 mCurrentWordContainsCJK
 ;
 PRPackedBool
-mBreakBeforeNextWord
+mBreakBeforeNonWhitespace
 ;
 }
 ;
