@@ -116,13 +116,13 @@ android
 -
 sdk
 -
-r15
+r16
 /
 platforms
 /
 android
 -
-14
+16
 "
 ac_add_options
 -
