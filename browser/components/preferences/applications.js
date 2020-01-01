@@ -4362,12 +4362,6 @@ type
 !
 =
 TYPE_MAYBE_FEED
-&
-&
-!
-handlerInfo
-.
-handledOnlyByPlugin
 )
 {
 var
