@@ -38095,9 +38095,9 @@ createStatement
 SELECT
 favicon
 FROM
-images
+history_with_favicons
 WHERE
-url_key
+url
 =
 ?
 "
