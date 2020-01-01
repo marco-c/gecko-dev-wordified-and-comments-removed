@@ -12464,7 +12464,10 @@ sandbox
 return
 NS_ERROR_XPC_UNEXPECTED
 ;
-JSAutoTempValueRooter
+js
+:
+:
+AutoValueRooter
 tvr
 (
 cx

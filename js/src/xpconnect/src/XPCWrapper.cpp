@@ -1528,7 +1528,10 @@ return
 nsnull
 ;
 }
-JSAutoTempValueRooter
+js
+:
+:
+AutoValueRooter
 tvr
 (
 cx

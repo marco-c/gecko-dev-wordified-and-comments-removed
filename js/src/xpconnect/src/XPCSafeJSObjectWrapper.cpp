@@ -965,9 +965,11 @@ cx
 }
 if
 (
-STOBJ_GET_CLASS
-(
 objToWrap
+-
+>
+getClass
+(
 )
 =
 =
@@ -1491,9 +1493,11 @@ rval
 ;
 if
 (
-STOBJ_GET_CLASS
-(
 safeObj
+-
+>
+getClass
+(
 )
 =
 =

@@ -1075,7 +1075,10 @@ typeObj
 return
 JS_FALSE
 ;
-JSAutoTempValueRooter
+js
+:
+:
+AutoValueRooter
 root
 (
 cx
