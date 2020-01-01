@@ -1207,6 +1207,8 @@ const
 char
 *
 jpiDescription
+=
+NULL
 ;
 pluginFactory
 -
@@ -1221,6 +1223,14 @@ void
 &
 jpiDescription
 )
+;
+if
+(
+!
+jpiDescription
+)
+return
+PR_FALSE
 ;
 if
 (
