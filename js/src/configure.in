@@ -13581,6 +13581,13 @@ n
 "
 GNU_CC
 "
+-
+o
+-
+n
+"
+CLANG_CC
+"
 ;
 then
 CC
