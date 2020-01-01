@@ -2797,8 +2797,10 @@ node
 }
 }
 }
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 node
@@ -17221,8 +17223,10 @@ return
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 }
+nsCOMPtr
+<
 nsINode
-*
+>
 oldParent
 =
 newContent

@@ -25200,8 +25200,10 @@ GetParentDocument
 )
 )
 ;
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 adoptedNode

@@ -4253,8 +4253,10 @@ count
 -
 1
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 element
 =
 ungenerated
