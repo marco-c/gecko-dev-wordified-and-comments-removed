@@ -596,9 +596,7 @@ be
 flipped
 to
 have
-it
-'
-s
+its
 bottom
 /
 /
@@ -619,6 +617,7 @@ rect
 top
 )
 >
+=
 screen
 .
 top
@@ -711,6 +710,7 @@ rect
 top
 )
 >
+=
 screen
 .
 top
