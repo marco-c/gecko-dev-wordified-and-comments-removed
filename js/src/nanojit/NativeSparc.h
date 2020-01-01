@@ -408,7 +408,7 @@ const
 int
 NumSavedRegs
 =
-1
+0
 ;
 static
 const

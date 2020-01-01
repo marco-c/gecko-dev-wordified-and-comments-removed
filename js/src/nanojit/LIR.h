@@ -8785,6 +8785,8 @@ LIns
 savedRegs
 [
 NumSavedRegs
++
+1
 ]
 ;
 protected
