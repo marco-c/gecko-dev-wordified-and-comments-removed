@@ -1205,8 +1205,10 @@ mBrowseWithCaret
 PRPackedBool
 mTabbedThroughDocument
 ;
-nsSupportsHashtable
-*
+nsCOMArray
+<
+nsIContent
+>
 mAccessKeys
 ;
 nsCOMArray
