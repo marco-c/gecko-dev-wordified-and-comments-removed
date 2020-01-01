@@ -448,14 +448,11 @@ NULL
 TESTROOT
 =
 (
-shell
-cd
+call
+core_abspath
 (
 DEPTH
 )
-&
-&
-pwd
 )
 /
 _tests
@@ -526,8 +523,6 @@ toolkit
 mozapps
 /
 update
-/
-src
 \
 (
 NULL

@@ -413,9 +413,6 @@ DEPTH
 /
 .
 .
-/
-.
-.
 topsrcdir
 =
 top_srcdir
@@ -474,9 +471,6 @@ srcdir
 .
 .
 /
-.
-.
-/
 readstrings
 LIBS
 +
@@ -501,9 +495,6 @@ mar
 LIB_SUFFIX
 )
 \
-.
-.
-/
 .
 .
 /
