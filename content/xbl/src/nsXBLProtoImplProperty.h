@@ -80,14 +80,6 @@ nsXBLProtoImplProperty
 (
 )
 ;
-virtual
-void
-Destroy
-(
-PRBool
-aIsCompiled
-)
-;
 void
 AppendGetterText
 (
