@@ -1347,16 +1347,11 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 nsGlobalWindow
 nsIScriptGlobalObject
 )
-#
-ifdef
-OJI
 void
 InitJavaProperties
 (
 )
 ;
-#
-endif
 protected
 :
 virtual

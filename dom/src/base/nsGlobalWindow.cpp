@@ -20227,9 +20227,6 @@ mModalStateDepth
 0
 ;
 }
-#
-ifdef
-OJI
 void
 nsGlobalWindow
 :
@@ -20238,6 +20235,9 @@ InitJavaProperties
 (
 )
 {
+#
+ifdef
+OJI
 nsIScriptContext
 *
 scx
@@ -20481,9 +20481,9 @@ mJSObject
 )
 ;
 }
-}
 #
 endif
+}
 NS_IMETHODIMP
 nsGlobalWindow
 :
