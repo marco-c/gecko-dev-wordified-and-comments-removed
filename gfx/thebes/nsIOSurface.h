@@ -22,9 +22,6 @@ gfxASurface
 class
 _CGLContextObject
 ;
-class
-NSOpenGLContext
-;
 typedef
 _CGLContextObject
 *
@@ -135,7 +132,7 @@ Unlock
 CGLError
 CGLTexImageIOSurface2D
 (
-NSOpenGLContext
+void
 *
 ctxt
 GLenum
