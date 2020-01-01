@@ -837,7 +837,7 @@ def
 __init__
 (
 self
-marionette
+marionette_weakref
 methodName
 =
 '
@@ -862,9 +862,15 @@ jsFile
         
 self
 .
+_marionette_weakref
+=
+marionette_weakref
+        
+self
+.
 marionette
 =
-marionette
+None
         
 CommonTestCase
 .
