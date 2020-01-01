@@ -195,7 +195,13 @@ error
 ;
 readonly
 attribute
-nsISupports
+(
+IDBObjectStore
+or
+IDBIndex
+or
+IDBCursor
+)
 ?
 source
 ;
