@@ -39302,7 +39302,7 @@ break
 }
 obj
 =
-js_NewObject
+js_NewObjectWithGivenProto
 (
 cx
 &
@@ -39387,11 +39387,14 @@ JS_FALSE
 break
 ;
 }
-OBJ_SET_PROTO
+JS_ASSERT
+(
+!
+OBJ_GET_PROTO
 (
 cx
 obj
-NULL
+)
 )
 ;
 JS_ASSERT
