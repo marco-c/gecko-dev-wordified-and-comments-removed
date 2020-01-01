@@ -7798,7 +7798,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 5000
 )
@@ -13801,7 +13801,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 5000
 )
@@ -13870,7 +13870,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 5000
 )
@@ -13939,7 +13939,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 5000
 )
@@ -14274,7 +14274,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 15000
 )
@@ -14504,7 +14504,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 10000
 )
@@ -17050,7 +17050,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 10000
 )
@@ -17421,7 +17421,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 5000
 )
@@ -17562,7 +17562,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 5000
 )
@@ -18512,7 +18512,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 10000
 )
@@ -18733,7 +18733,7 @@ try
 {
 outThrd
 .
-join
+joinAndStopRedirect
 (
 60000
 )
@@ -18982,7 +18982,7 @@ try
 {
 outThrd
 .
-join
+joinAndStopRedirect
 (
 90000
 )
@@ -19127,7 +19127,7 @@ try
 {
 outThrd2
 .
-join
+joinAndStopRedirect
 (
 10000
 )
@@ -19281,7 +19281,7 @@ try
 {
 outThrd3
 .
-join
+joinAndStopRedirect
 (
 60000
 )
@@ -19426,7 +19426,7 @@ try
 {
 outThrd4
 .
-join
+joinAndStopRedirect
 (
 60000
 )
@@ -20908,6 +20908,12 @@ lcv
 ;
 }
 }
+outThrd
+.
+stopRedirect
+(
+)
+;
 }
 catch
 (
@@ -21689,6 +21695,12 @@ lcv
 ;
 }
 }
+outThrd
+.
+stopRedirect
+(
+)
+;
 }
 else
 {
@@ -22052,7 +22064,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 5000
 )
@@ -22196,7 +22208,7 @@ start
 ;
 outThrd
 .
-join
+joinAndStopRedirect
 (
 5000
 )
