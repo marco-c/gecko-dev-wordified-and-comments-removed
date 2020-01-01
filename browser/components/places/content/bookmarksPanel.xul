@@ -893,6 +893,7 @@ handleTreeClick
 (
 this
 event
+true
 )
 ;
 "

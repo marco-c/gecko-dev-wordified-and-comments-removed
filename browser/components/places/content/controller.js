@@ -2429,9 +2429,10 @@ openContainerInTabsItem
 .
 disabled
 =
+!
 PlacesUtils
 .
-getURLsForContainerNode
+hasChildURIs
 (
 this
 .
@@ -2439,11 +2440,6 @@ _view
 .
 selectedNode
 )
-.
-length
-=
-=
-0
 ;
 }
 else
