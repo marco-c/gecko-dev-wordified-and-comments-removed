@@ -377,6 +377,9 @@ webidl
 (
 NULL
 )
+PYTHONDONTWRITEBYTECODE
+=
+1
 (
 PYTHON
 )
@@ -454,6 +457,9 @@ webidl
 (
 NULL
 )
+PYTHONDONTWRITEBYTECODE
+=
+1
 (
 PYTHON
 )
@@ -587,6 +593,9 @@ webidl_base
 webidl_files
 )
 )
+PYTHONDONTWRITEBYTECODE
+=
+1
 (
 PYTHON
 )
