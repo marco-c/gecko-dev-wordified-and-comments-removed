@@ -27954,7 +27954,7 @@ let
 isIframe
 =
 (
-aOwnerDoc
+errorDoc
 .
 defaultView
 .
@@ -27962,7 +27962,7 @@ parent
 =
 =
 =
-aOwnerDoc
+errorDoc
 .
 defaultView
 )
