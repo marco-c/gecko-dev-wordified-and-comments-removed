@@ -501,12 +501,6 @@ config
 config
 .
 mk
-EXTRA_DSO_LDOPTS
-+
-=
-(
-NSPR_LIBS
-)
 include
 (
 topsrcdir
