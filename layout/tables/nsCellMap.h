@@ -119,12 +119,14 @@ BCInfo
 nsTArray
 <
 BCData
+*
 >
 mRightBorders
 ;
 nsTArray
 <
 BCData
+*
 >
 mBottomBorders
 ;
@@ -522,8 +524,9 @@ ExpandZeroColSpans
 (
 )
 ;
-void
-SetNotTopStart
+BCData
+*
+GetBCData
 (
 PRUint8
 aSide
@@ -663,6 +666,7 @@ mTableFrame
 nsAutoTArray
 <
 nsColInfo
+*
 8
 >
 mCols
