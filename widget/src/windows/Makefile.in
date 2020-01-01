@@ -540,6 +540,10 @@ nsIMM32Handler
 .
 cpp
 \
+WindowHook
+.
+cpp
+\
 (
 NULL
 )
@@ -660,6 +664,9 @@ BUILD_STATIC_LIBS
 EXPORTS
 =
 nsdefs
+.
+h
+WindowHook
 .
 h
 LOCAL_INCLUDES
