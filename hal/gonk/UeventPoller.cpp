@@ -295,9 +295,6 @@ MessageLoopForIO
 FileDescriptorWatcher
 mReadWatcher
 ;
-NetlinkEvent
-mNetlinkEvent
-;
 const
 static
 int
@@ -705,7 +702,10 @@ _exit
 )
 ;
 }
-mNetlinkEvent
+NetlinkEvent
+netlinkEvent
+;
+netlinkEvent
 .
 decode
 (
@@ -724,7 +724,7 @@ mUeventObserverList
 .
 Broadcast
 (
-mNetlinkEvent
+netlinkEvent
 )
 ;
 }
