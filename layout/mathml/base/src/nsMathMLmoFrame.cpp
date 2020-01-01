@@ -3185,6 +3185,15 @@ PR_FALSE
 ;
 }
 }
+if
+(
+!
+NS_MATHML_OPERATOR_IS_INVISIBLE
+(
+mFlags
+)
+)
+{
 nsresult
 rv
 =
@@ -3220,6 +3229,7 @@ FirstChild
 )
 )
 ;
+}
 }
 if
 (
