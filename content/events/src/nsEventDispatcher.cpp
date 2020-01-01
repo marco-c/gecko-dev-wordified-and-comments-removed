@@ -2033,9 +2033,9 @@ if
 aEvent
 -
 >
-flags
-&
-NS_EVENT_FLAG_ONLY_CHROME_DISPATCH
+mFlags
+.
+mOnlyChromeDispatch
 )
 {
 nsCOMPtr

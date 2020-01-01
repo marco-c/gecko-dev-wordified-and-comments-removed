@@ -266,10 +266,6 @@ NS_EVENT_FLAG_SYSTEM_EVENT
 0x0200
 #
 define
-NS_EVENT_FLAG_ONLY_CHROME_DISPATCH
-0x2000
-#
-define
 NS_PRIV_EVENT_UNTRUSTED_PERMITTED
 0x8000
 #
@@ -1900,6 +1896,11 @@ mNoContentDispatch
 1
 ;
 bool
+mOnlyChromeDispatch
+:
+1
+;
+bool
 InTargetPhase
 (
 )
@@ -2090,10 +2091,6 @@ time
 (
 0
 )
-flags
-(
-NS_EVENT_FLAG_NONE
-)
 userType
 (
 0
@@ -2164,10 +2161,6 @@ lastRefPoint
 time
 (
 0
-)
-flags
-(
-NS_EVENT_FLAG_NONE
 )
 userType
 (
@@ -2242,9 +2235,6 @@ lastRefPoint
 ;
 uint64_t
 time
-;
-uint32_t
-flags
 ;
 mozilla
 :

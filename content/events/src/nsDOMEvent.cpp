@@ -3766,16 +3766,6 @@ originalTarget
 newEvent
 -
 >
-flags
-=
-mEvent
--
->
-flags
-;
-newEvent
--
->
 mFlags
 =
 mEvent

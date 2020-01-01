@@ -14881,10 +14881,11 @@ NS_MOUSE_MOZHITTEST
 {
 event
 .
-flags
-|
+mFlags
+.
+mOnlyChromeDispatch
 =
-NS_EVENT_FLAG_ONLY_CHROME_DISPATCH
+true
 ;
 }
 event

@@ -37473,10 +37473,11 @@ GetInternalNSEvent
 internalEvent
 -
 >
-flags
-|
+mFlags
+.
+mOnlyChromeDispatch
 =
-NS_EVENT_FLAG_ONLY_CHROME_DISPATCH
+true
 ;
 }
 if
