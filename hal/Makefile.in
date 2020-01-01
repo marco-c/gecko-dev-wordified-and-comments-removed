@@ -411,7 +411,7 @@ filter
 OpenBSD
 NetBSD
 FreeBSD
-DragonFlyBSD
+DragonFly
 (
 OS_TARGET
 )
