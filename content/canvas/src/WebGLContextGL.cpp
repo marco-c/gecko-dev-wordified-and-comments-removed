@@ -472,8 +472,17 @@ return
 existingLocationObject
 ;
 }
-else
+if
+(
+glLocation
+<
+0
+)
 {
+return
+nsnull
+;
+}
 nsRefPtr
 <
 WebGLUniformLocation
@@ -503,7 +512,6 @@ forget
 (
 )
 ;
-}
 }
 NS_IMETHODIMP
 WebGLContext
