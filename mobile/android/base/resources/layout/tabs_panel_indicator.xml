@@ -81,7 +81,7 @@ MPL
 <
 Gecko
 .
-TextView
+AllCapsTextView
 xmlns
 :
 android
@@ -168,7 +168,14 @@ android
 textSize
 =
 "
-13sp
+12sp
+"
+android
+:
+textStyle
+=
+"
+bold
 "
 android
 :
@@ -176,7 +183,7 @@ textColor
 =
 "
 #
-FFE5F2FF
+FFFFFFFF
 "
 /
 >

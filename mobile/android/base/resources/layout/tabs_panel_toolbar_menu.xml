@@ -147,10 +147,12 @@ false
 "
 android
 :
-drawable
+divider
 =
 "
-null
+drawable
+/
+tab_indicator_divider
 "
 /
 >
