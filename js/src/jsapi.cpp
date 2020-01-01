@@ -3378,9 +3378,11 @@ fun
 )
 {
 return
-IsBuiltinFunctionConstructor
-(
 fun
+-
+>
+isBuiltinFunctionConstructor
+(
 )
 ;
 }
