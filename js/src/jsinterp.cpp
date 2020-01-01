@@ -12666,14 +12666,6 @@ error
 \
 }
 \
-monitor_branch
-(
-cx
-regs
-len
-)
-;
-\
 }
 \
 JS_END_MACRO
