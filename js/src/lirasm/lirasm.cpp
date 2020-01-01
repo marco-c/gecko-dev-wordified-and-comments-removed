@@ -3759,7 +3759,6 @@ gc
 LabelMap
 (
 core
-NULL
 )
 ;
 #
