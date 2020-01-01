@@ -7665,9 +7665,6 @@ nsTextEventReply
 aReply
 )
 {
-nsresult
-result
-;
 nsCOMPtr
 <
 nsISelection
@@ -7907,7 +7904,7 @@ AppUnitsPerDevPixel
 }
 }
 return
-result
+NS_OK
 ;
 }
 NS_IMETHODIMP
