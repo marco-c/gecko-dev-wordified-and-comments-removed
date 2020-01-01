@@ -694,6 +694,9 @@ case
 TYPE_MEDIA
 :
 case
+TYPE_OBJECT_SUBREQUEST
+:
+case
 TYPE_PING
 :
 classification
@@ -713,9 +716,6 @@ TYPE_FONT
 :
 case
 TYPE_OBJECT
-:
-case
-TYPE_OBJECT_SUBREQUEST
 :
 case
 TYPE_SCRIPT
