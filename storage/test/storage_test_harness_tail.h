@@ -95,10 +95,10 @@ printf
 (
 "
 %
-zu
+i
 of
 %
-zu
+i
 tests
 passed
 \

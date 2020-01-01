@@ -27,13 +27,13 @@ mozIStorageConnection
 h
 "
 static
-size_t
+int
 gTotalTests
 =
 0
 ;
 static
-size_t
+int
 gPassedTests
 =
 0

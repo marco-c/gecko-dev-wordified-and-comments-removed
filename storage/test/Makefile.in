@@ -447,6 +447,10 @@ test_mutex
 .
 cpp
 \
+test_binding_params
+.
+cpp
+\
 (
 NULL
 )
