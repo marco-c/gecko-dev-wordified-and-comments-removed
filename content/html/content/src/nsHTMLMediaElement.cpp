@@ -9185,7 +9185,7 @@ nsHTMLMediaElement
 :
 gH264Codecs
 [
-7
+9
 ]
 =
 {
@@ -9213,6 +9213,18 @@ avc1
 avc1
 .
 64001E
+"
+"
+avc1
+.
+64001F
+"
+"
+mp4v
+.
+20
+.
+3
 "
 "
 mp4a
