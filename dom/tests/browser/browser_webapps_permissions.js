@@ -200,7 +200,7 @@ apps
 "
 :
 "
-allow
+prompt
 "
 }
 ;
