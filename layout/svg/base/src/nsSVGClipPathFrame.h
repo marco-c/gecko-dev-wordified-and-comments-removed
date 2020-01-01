@@ -103,6 +103,11 @@ IsTrivial
 (
 )
 ;
+PRBool
+IsValid
+(
+)
+;
 #
 ifdef
 DEBUG
