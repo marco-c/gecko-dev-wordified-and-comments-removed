@@ -101,8 +101,7 @@ type
 =
 MIRType_Value
 )
-return
-true
+continue
 ;
 MBox
 *
