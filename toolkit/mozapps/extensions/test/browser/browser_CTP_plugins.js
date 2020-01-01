@@ -282,7 +282,7 @@ pluginEl
 anonid
 "
 "
-tristate
+state
 -
 menulist
 "
@@ -294,7 +294,7 @@ menu
 "
 part3
 :
-tristate
+state
 menu
 should
 be
@@ -335,7 +335,7 @@ askToActivateItem
 "
 part3
 :
-tristate
+state
 menu
 should
 have
@@ -467,7 +467,7 @@ pluginEl
 anonid
 "
 "
-tristate
+state
 -
 menulist
 "
@@ -727,7 +727,7 @@ pluginEl
 anonid
 "
 "
-tristate
+state
 -
 menulist
 "
@@ -1068,7 +1068,7 @@ getElementById
 "
 detail
 -
-tristate
+state
 -
 menulist
 "
@@ -1081,7 +1081,7 @@ menu
 part8
 :
 detail
-tristate
+state
 menu
 should
 be
@@ -1108,6 +1108,7 @@ activate
 menuitem
 "
 )
+;
 is
 (
 menu
@@ -1117,7 +1118,7 @@ neverActivateItem
 "
 part8
 :
-tristate
+state
 menu
 should
 have
@@ -1370,7 +1371,7 @@ getElementById
 "
 detail
 -
-tristate
+state
 -
 menulist
 "
@@ -1397,6 +1398,7 @@ activate
 menuitem
 "
 )
+;
 menu
 .
 selectedItem
@@ -1585,7 +1587,7 @@ pluginEl
 anonid
 "
 "
-tristate
+state
 -
 menulist
 "
@@ -1597,7 +1599,7 @@ menu
 "
 part12
 :
-tristate
+state
 menu
 should
 be
@@ -1659,7 +1661,7 @@ getElementById
 "
 detail
 -
-tristate
+state
 -
 menulist
 "
@@ -1672,7 +1674,7 @@ menu
 part13
 :
 detail
-tristate
+state
 menu
 should
 be

@@ -16333,7 +16333,7 @@ getElementById
 "
 detail
 -
-tristate
+state
 -
 menulist
 "

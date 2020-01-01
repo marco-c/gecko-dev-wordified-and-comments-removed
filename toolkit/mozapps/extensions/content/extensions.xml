@@ -7331,7 +7331,7 @@ menulist
 anonid
 =
 "
-tristate
+state
 -
 menulist
 "
@@ -7341,6 +7341,7 @@ class
 addon
 -
 control
+state
 "
 tooltiptext
 =
@@ -7348,7 +7349,7 @@ tooltiptext
 &
 cmd
 .
-tristateMenu
+stateMenu
 .
 tooltip
 ;
@@ -8079,7 +8080,7 @@ field
 name
 =
 "
-_tristateMenulist
+_stateMenulist
 "
 >
 document
@@ -8091,7 +8092,7 @@ this
 anonid
 "
 "
-tristate
+state
 -
 menulist
 "
@@ -10606,7 +10607,7 @@ true
 {
 this
 .
-_tristateMenulist
+_stateMenulist
 .
 selectedItem
 =
@@ -10632,7 +10633,7 @@ STATE_ASK_TO_ACTIVATE
 {
 this
 .
-_tristateMenulist
+_stateMenulist
 .
 selectedItem
 =
@@ -10645,7 +10646,7 @@ else
 {
 this
 .
-_tristateMenulist
+_stateMenulist
 .
 selectedItem
 =
@@ -10656,7 +10657,7 @@ _alwaysActivateMenuitem
 }
 this
 .
-_tristateMenulist
+_stateMenulist
 .
 selectedItem
 .
@@ -10666,7 +10667,7 @@ false
 ;
 this
 .
-_tristateMenulist
+_stateMenulist
 .
 disabled
 =
@@ -10677,7 +10678,7 @@ else
 {
 this
 .
-_tristateMenulist
+_stateMenulist
 .
 disabled
 =

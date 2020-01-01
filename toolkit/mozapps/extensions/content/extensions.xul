@@ -7355,7 +7355,7 @@ id
 "
 detail
 -
-tristate
+state
 -
 menulist
 "
@@ -7375,7 +7375,7 @@ tooltiptext
 &
 cmd
 .
-tristateMenu
+stateMenu
 .
 tooltip
 ;

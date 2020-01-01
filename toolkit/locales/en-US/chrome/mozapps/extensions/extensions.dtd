@@ -1311,7 +1311,7 @@ on
 ENTITY
 cmd
 .
-tristateMenu
+stateMenu
 .
 tooltip
 "
