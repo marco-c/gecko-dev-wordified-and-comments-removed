@@ -10356,7 +10356,7 @@ branchTest32
 Assembler
 :
 :
-NonZero
+Zero
 Address
 (
 left
@@ -10383,7 +10383,7 @@ branchTest32
 Assembler
 :
 :
-NonZero
+Zero
 Address
 (
 right
