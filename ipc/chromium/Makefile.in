@@ -1396,9 +1396,3 @@ config
 rules
 .
 mk
-CXXFLAGS
-+
-=
-(
-MOZ_RTTI_FLAGS_ON
-)
