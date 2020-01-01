@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsSVGPathElement
-.
-h
-"
-#
-include
-"
 nsSVGUtils
 .
 h

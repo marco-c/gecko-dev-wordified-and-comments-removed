@@ -241,10 +241,6 @@ nsSVGPathDataParser
 .
 cpp
 \
-nsSVGPathElement
-.
-cpp
-\
 nsSVGPathGeometryElement
 .
 cpp
@@ -458,6 +454,10 @@ SVGOrientSMILType
 cpp
 \
 SVGPathData
+.
+cpp
+\
+SVGPathElement
 .
 cpp
 \
@@ -727,6 +727,10 @@ SVGMetadataElement
 h
 \
 SVGMPathElement
+.
+h
+\
+SVGPathElement
 .
 h
 \
