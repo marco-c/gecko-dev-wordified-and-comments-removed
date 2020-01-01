@@ -438,9 +438,9 @@ autoconf
 mk
 ifeq
 (
-Android
+android
 (
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 )
 )
 VPATH
