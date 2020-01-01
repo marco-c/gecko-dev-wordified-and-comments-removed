@@ -402,6 +402,9 @@ mCacheMap
 bool
 mInitialized
 ;
+bool
+mClearingDiskCache
+;
 }
 ;
 #
