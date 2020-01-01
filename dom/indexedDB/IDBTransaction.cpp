@@ -3634,6 +3634,8 @@ NS_LITERAL_STRING
 (
 ABORT_EVT_STR
 )
+eDoesBubble
+eNotCancelable
 )
 ;
 }
@@ -3647,6 +3649,8 @@ NS_LITERAL_STRING
 (
 COMPLETE_EVT_STR
 )
+eDoesNotBubble
+eNotCancelable
 )
 ;
 }

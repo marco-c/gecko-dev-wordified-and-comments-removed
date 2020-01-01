@@ -6872,6 +6872,8 @@ NS_LITERAL_STRING
 (
 SUCCESS_EVT_STR
 )
+eDoesNotBubble
+eNotCancelable
 )
 ;
 if
@@ -6928,6 +6930,8 @@ NS_LITERAL_STRING
 (
 ERROR_EVT_STR
 )
+eDoesBubble
+eCancelable
 )
 ;
 if
