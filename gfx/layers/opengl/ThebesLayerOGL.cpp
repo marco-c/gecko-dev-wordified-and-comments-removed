@@ -1549,7 +1549,6 @@ TextureImage
 ContentType
 contentType
 =
-+
 CanUseOpaqueSurface
 (
 )
