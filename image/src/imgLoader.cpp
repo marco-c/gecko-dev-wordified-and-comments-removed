@@ -3248,12 +3248,14 @@ proxyRequest
 >
 Init
 (
-aRequest
-aLoadGroup
+&
 aRequest
 -
 >
-mImage
+GetStatusTracker
+(
+)
+aLoadGroup
 uri
 aObserver
 )
