@@ -1,5 +1,12 @@
 #
 include
+"
+nsGlobalWindow
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -18,13 +25,6 @@ include
 mozilla
 /
 Util
-.
-h
-"
-#
-include
-"
-nsGlobalWindow
 .
 h
 "
@@ -7226,10 +7226,6 @@ EventTarget
 NS_INTERFACE_MAP_ENTRY
 (
 nsPIDOMWindow
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIDOMStorageIndexedDB
 )
 NS_INTERFACE_MAP_ENTRY
 (
