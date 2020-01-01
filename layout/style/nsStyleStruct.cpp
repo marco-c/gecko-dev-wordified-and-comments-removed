@@ -8592,7 +8592,7 @@ mLanguage
 aPresContext
 -
 >
-GetLanguage
+GetLanguageFromCharset
 (
 )
 ;
