@@ -15446,11 +15446,11 @@ mIsAllBookmarksObserver
 (
 PR_FALSE
 )
-mBatchInProgress
+mNeedsToApplySortingMode
 (
 PR_FALSE
 )
-mNeedsToApplySortingMode
+mBatchInProgress
 (
 PR_FALSE
 )
