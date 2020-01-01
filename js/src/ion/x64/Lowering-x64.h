@@ -256,6 +256,14 @@ MReturn
 ret
 )
 ;
+bool
+visitStoreTypedArrayElement
+(
+MStoreTypedArrayElement
+*
+ins
+)
+;
 }
 ;
 typedef

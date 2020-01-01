@@ -316,6 +316,14 @@ MRecompileCheck
 ins
 )
 ;
+bool
+visitStoreTypedArrayElement
+(
+MStoreTypedArrayElement
+*
+ins
+)
+;
 }
 ;
 typedef

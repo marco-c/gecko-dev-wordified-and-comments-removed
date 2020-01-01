@@ -409,6 +409,16 @@ LoadTypedArrayElementHole
 \
 _
 (
+StoreTypedArrayElement
+)
+\
+_
+(
+ClampToUint8
+)
+\
+_
+(
 LoadFixedSlot
 )
 \

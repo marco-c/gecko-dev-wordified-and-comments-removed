@@ -262,6 +262,14 @@ ret
 )
 ;
 bool
+visitStoreTypedArrayElement
+(
+MStoreTypedArrayElement
+*
+ins
+)
+;
+bool
 lowerPhi
 (
 MPhi

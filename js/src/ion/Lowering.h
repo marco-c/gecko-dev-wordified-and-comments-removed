@@ -807,6 +807,14 @@ ins
 )
 ;
 bool
+visitClampToUint8
+(
+MClampToUint8
+*
+ins
+)
+;
+bool
 visitLoadFixedSlot
 (
 MLoadFixedSlot
