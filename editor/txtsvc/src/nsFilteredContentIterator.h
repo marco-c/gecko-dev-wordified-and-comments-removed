@@ -72,7 +72,7 @@ virtual
 nsresult
 Init
 (
-nsIContent
+nsINode
 *
 aRoot
 )
@@ -111,7 +111,7 @@ Prev
 )
 ;
 virtual
-nsIContent
+nsINode
 *
 GetCurrentNode
 (
@@ -127,7 +127,7 @@ virtual
 nsresult
 PositionAt
 (
-nsIContent
+nsINode
 *
 aCurNode
 )

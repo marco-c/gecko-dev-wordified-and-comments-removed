@@ -59,6 +59,9 @@ nsIPresShell
 class
 nsIAtom
 ;
+class
+nsIContent
+;
 #
 define
 NS_FIND_CONTRACTID

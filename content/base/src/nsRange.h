@@ -295,7 +295,7 @@ static
 nsresult
 CompareNodeToRange
 (
-nsIContent
+nsINode
 *
 aNode
 nsIDOMRange
@@ -313,7 +313,7 @@ static
 nsresult
 CompareNodeToRange
 (
-nsIContent
+nsINode
 *
 aNode
 nsIRange
