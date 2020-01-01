@@ -1053,6 +1053,10 @@ mIsSharingContainerLayer
 (
 false
 )
+mIsMergedFrame
+(
+false
+)
 {
 }
 DisplayItemDataEntry
@@ -1102,6 +1106,12 @@ toCopy
 .
 mContainerLayerGeneration
 ;
+mIsMergedFrame
+=
+toCopy
+.
+mIsMergedFrame
+;
 }
 bool
 HasNonEmptyContainerLayer
@@ -1126,6 +1136,9 @@ mContainerLayerGeneration
 ;
 bool
 mIsSharingContainerLayer
+;
+bool
+mIsMergedFrame
 ;
 enum
 {
