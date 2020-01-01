@@ -88,6 +88,16 @@ inputscope
 .
 h
 >
+#
+define
+IS_SEARCH
+static_cast
+<
+InputScope
+>
+(
+50
+)
 struct
 ITfThreadMgr
 ;

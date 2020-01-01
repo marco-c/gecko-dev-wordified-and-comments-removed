@@ -108,16 +108,6 @@ nullptr
 ;
 #
 endif
-#
-define
-IS_SEARCH
-static_cast
-<
-InputScope
->
-(
-50
-)
 class
 InputScopeImpl
 MOZ_FINAL
