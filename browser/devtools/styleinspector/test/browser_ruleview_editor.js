@@ -39,20 +39,6 @@ tempScope
 _ElementStyle
 ;
 let
-_editableField
-=
-tempScope
-.
-_editableField
-;
-let
-inplaceEditor
-=
-tempScope
-.
-_getInplaceEditorForSpan
-;
-let
 doc
 =
 content
@@ -210,7 +196,7 @@ createSpan
 (
 )
 ;
-_editableField
+editableField
 (
 {
 element
@@ -314,7 +300,7 @@ createSpan
 (
 )
 ;
-_editableField
+editableField
 (
 {
 element
@@ -414,7 +400,7 @@ createSpan
 (
 )
 ;
-_editableField
+editableField
 (
 {
 element
@@ -498,7 +484,7 @@ createSpan
 (
 )
 ;
-_editableField
+editableField
 (
 {
 element

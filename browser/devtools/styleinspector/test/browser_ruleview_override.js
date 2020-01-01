@@ -39,13 +39,6 @@ tempScope
 _ElementStyle
 ;
 let
-_editableField
-=
-tempScope
-.
-_editableField
-;
-let
 doc
 ;
 function
