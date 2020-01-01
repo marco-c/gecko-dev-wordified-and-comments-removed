@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsIAccessibleEvent
+.
+h
+"
+#
+include
+"
 nsIWinAccessNode
 .
 h
@@ -478,6 +485,11 @@ node
 static
 PRBool
 gIsEnumVariantSupportDisabled
+;
+static
+nsIAccessibleTextChangeEvent
+*
+gTextEvent
 ;
 }
 ;

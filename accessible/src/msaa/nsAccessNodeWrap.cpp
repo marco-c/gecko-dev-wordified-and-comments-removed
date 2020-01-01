@@ -179,6 +179,15 @@ gIsEnumVariantSupportDisabled
 =
 0
 ;
+nsIAccessibleTextChangeEvent
+*
+nsAccessNodeWrap
+:
+:
+gTextEvent
+=
+nsnull
+;
 nsAccessNodeWrap
 :
 :
@@ -2341,6 +2350,11 @@ ShutdownAccessibility
 (
 )
 {
+NS_IF_RELEASE
+(
+gTextEvent
+)
+;
 if
 (
 !
