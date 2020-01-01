@@ -1623,6 +1623,10 @@ bug475156
 .
 sjs
 \
+test_copypaste
+.
+html
+\
 (
 NULL
 )

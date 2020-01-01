@@ -359,6 +359,11 @@ nsIDocumentEncoder
 :
 :
 OutputPreformatted
+|
+nsIDocumentEncoder
+:
+:
+OutputRaw
 ;
 nsCOMPtr
 <
