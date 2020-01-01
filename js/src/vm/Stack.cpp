@@ -1963,7 +1963,10 @@ scopeChain
 )
 -
 >
-isScope
+is
+<
+ScopeObject
+>
 (
 )
 )
@@ -2036,7 +2039,10 @@ scopeChain
 )
 -
 >
-isScope
+is
+<
+ScopeObject
+>
 (
 )
 )

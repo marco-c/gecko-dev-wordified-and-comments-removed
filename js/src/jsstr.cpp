@@ -14528,7 +14528,10 @@ environment
 )
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 ;
@@ -14559,7 +14562,10 @@ enclosingScope
 (
 )
 .
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 ;

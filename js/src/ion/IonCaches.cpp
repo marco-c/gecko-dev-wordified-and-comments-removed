@@ -14071,7 +14071,10 @@ tobj
 tobj
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 .
@@ -14199,7 +14202,10 @@ parent
 scopeChain
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 .
@@ -14362,7 +14368,10 @@ scopeChain
 scopeChain
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 .

@@ -1067,7 +1067,10 @@ scopeChain
 )
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 ;
@@ -1092,7 +1095,10 @@ scope
 scope
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 .
@@ -1104,7 +1110,10 @@ return
 scope
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 ;
@@ -1200,7 +1209,10 @@ scopeChain_
 scopeChain_
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 .

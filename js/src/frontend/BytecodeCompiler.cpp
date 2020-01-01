@@ -525,7 +525,10 @@ while
 scope
 -
 >
-isScope
+is
+<
+ScopeObject
+>
 (
 )
 |
@@ -533,7 +536,10 @@ isScope
 scope
 -
 >
-isDebugScope
+is
+<
+DebugScopeObject
+>
 (
 )
 )

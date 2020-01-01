@@ -2965,7 +2965,10 @@ EXECUTE_GLOBAL
 !
 scopeChainArg
 .
-isScope
+is
+<
+ScopeObject
+>
 (
 )
 )

@@ -1563,7 +1563,10 @@ return
 obj
 -
 >
-isScope
+is
+<
+ScopeObject
+>
 (
 )
 ;

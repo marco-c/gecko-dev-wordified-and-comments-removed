@@ -821,7 +821,10 @@ while
 parent
 -
 >
-isScope
+is
+<
+ScopeObject
+>
 (
 )
 )
@@ -831,7 +834,10 @@ parent
 parent
 -
 >
-asScope
+as
+<
+ScopeObject
+>
 (
 )
 .

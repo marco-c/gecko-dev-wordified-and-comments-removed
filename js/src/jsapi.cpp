@@ -15173,7 +15173,10 @@ JS_ASSERT
 obj
 -
 >
-isScope
+is
+<
+ScopeObject
+>
 (
 )
 )
@@ -15234,7 +15237,10 @@ JS_ASSERT
 obj
 -
 >
-isScope
+is
+<
+ScopeObject
+>
 (
 )
 )
