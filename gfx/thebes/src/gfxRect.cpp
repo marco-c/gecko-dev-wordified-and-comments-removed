@@ -414,7 +414,7 @@ y0
 define
 CAIRO_COORD_MAX
 (
-16382
+16777215
 .
 0
 )
@@ -423,7 +423,7 @@ define
 CAIRO_COORD_MIN
 (
 -
-16383
+16777216
 .
 0
 )
