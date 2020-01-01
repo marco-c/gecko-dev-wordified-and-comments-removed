@@ -6264,10 +6264,7 @@ if
 ok
 )
 {
-nsContentUtils
-:
-:
-NotifyXPCIfExceptionPending
+JS_ReportPendingException
 (
 mContext
 )
