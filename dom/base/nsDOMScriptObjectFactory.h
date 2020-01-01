@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIScriptGlobalObject
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
