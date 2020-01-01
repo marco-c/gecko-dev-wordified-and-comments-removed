@@ -866,7 +866,7 @@ js
 :
 :
 GCChunkSet
-gcChunkSet
+gcUserChunkSet
 ;
 js
 :
