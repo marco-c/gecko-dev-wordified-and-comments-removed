@@ -5967,7 +5967,7 @@ updateStatus
 "
 strings
 .
-getFormattedString
+formatStringFromName
 (
 "
 addonUpdate
@@ -5979,6 +5979,7 @@ aAddon
 .
 version
 ]
+1
 )
 )
 ;
