@@ -136,7 +136,7 @@ d
 -
 f8
 for
-locale
+l
 in
 locales
 do
@@ -156,7 +156,7 @@ release
 *
 .
 {
-locale
+l
 }
 .
 {
@@ -220,7 +220,7 @@ platform
 }
 .
 {
-locale
+l
 }
 .
 diff
