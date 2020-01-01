@@ -3226,6 +3226,13 @@ stat
 Method_Compiled
 )
 {
+if
+(
+stat
+=
+=
+Method_CantCompile
+)
 script
 -
 >
