@@ -4025,6 +4025,16 @@ return
 NS_OK
 ;
 }
+if
+(
+!
+mBuilder
+)
+{
+return
+NS_OK
+;
+}
 nsCAutoString
 contentType
 ;
