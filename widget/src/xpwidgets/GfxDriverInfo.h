@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsPrintfCString
+nsString
 .
 h
 "

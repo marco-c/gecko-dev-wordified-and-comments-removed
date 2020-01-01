@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsIProtocolProxyService
 .
 h

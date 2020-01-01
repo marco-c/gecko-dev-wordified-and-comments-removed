@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsIXULTemplateResult
 .
 h

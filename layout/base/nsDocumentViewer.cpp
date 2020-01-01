@@ -462,13 +462,6 @@ endif
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsIClipboardHelper
 .
 h

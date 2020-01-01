@@ -549,13 +549,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

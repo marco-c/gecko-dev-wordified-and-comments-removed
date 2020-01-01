@@ -358,13 +358,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsIContentSecurityPolicy
 .
 h

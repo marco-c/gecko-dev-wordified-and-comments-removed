@@ -82,13 +82,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 prnetdb
 .
 h

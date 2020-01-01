@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

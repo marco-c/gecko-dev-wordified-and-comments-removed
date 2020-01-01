@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
