@@ -1884,25 +1884,6 @@ lines
 filename
 )
     
-if
-not
-env
-[
-'
-DEBUG
-'
-]
-:
-      
-lines
-=
-minifier
-.
-JSMinify
-(
-lines
-)
-    
 id
 =
 (

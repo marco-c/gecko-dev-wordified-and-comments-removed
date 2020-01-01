@@ -10623,6 +10623,12 @@ invalidate
 if
 (
 resetUses
+&
+&
+executionMode
+!
+=
+ParallelExecution
 )
 script
 -

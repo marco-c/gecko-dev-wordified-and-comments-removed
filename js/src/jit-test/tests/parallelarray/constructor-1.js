@@ -3,7 +3,9 @@ load
 libdir
 +
 "
-eqArrayHelper
+parallelarray
+-
+helpers
 .
 js
 "
@@ -34,7 +36,7 @@ ParallelArray
 a
 )
 ;
-assertEqArray
+assertEqParallelArrayArray
 (
 p
 a
@@ -56,7 +58,7 @@ a
 =
 9
 ;
-assertEqArray
+assertEqParallelArrayArray
 (
 p
 a2

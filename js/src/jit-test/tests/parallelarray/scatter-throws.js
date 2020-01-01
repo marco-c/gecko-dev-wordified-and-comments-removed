@@ -234,7 +234,3 @@ RangeError
 )
 ;
 }
-testScatterThrows
-(
-)
-;

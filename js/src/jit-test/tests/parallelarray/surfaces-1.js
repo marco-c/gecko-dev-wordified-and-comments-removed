@@ -9,6 +9,11 @@ js
 "
 )
 ;
+function
+test
+(
+)
+{
 var
 desc
 =
@@ -403,3 +408,4 @@ shape
 "
 )
 ;
+}
