@@ -16680,6 +16680,11 @@ mode
 return
 ;
 }
+bool
+reset
+=
+false
+;
 for
 (
 CompartmentsIter
@@ -16736,8 +16741,6 @@ trigger
 "
 )
 ;
-return
-;
 }
 if
 (
@@ -16771,8 +16774,6 @@ trigger
 "
 )
 ;
-return
-;
 }
 if
 (
@@ -16791,7 +16792,15 @@ needsBarrier
 (
 )
 )
-{
+reset
+=
+true
+;
+}
+if
+(
+reset
+)
 ResetIncrementalGC
 (
 rt
@@ -16801,10 +16810,6 @@ change
 "
 )
 ;
-return
-;
-}
-}
 }
 static
 JS_NEVER_INLINE
