@@ -7,6 +7,15 @@ bugs
 reftest
 .
 list
+#
+sizing
+tests
+include
+sizing
+/
+reftest
+.
+list
 fails
 -
 if
