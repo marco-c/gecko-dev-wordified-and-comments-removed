@@ -151,6 +151,15 @@ url
 static
 final
 String
+TITLE_KEY
+=
+"
+title
+"
+;
+static
+final
+String
 CURRENT_URL_KEY
 =
 "
