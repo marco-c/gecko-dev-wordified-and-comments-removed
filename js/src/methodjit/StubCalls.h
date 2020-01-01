@@ -431,6 +431,15 @@ fun
 ;
 void
 JS_FASTCALL
+Arguments
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 VpInc
 (
 VMFrame
