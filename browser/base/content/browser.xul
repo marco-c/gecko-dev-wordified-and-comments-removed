@@ -5829,9 +5829,6 @@ vbox
 /
 hbox
 >
-#
-ifdef
-TOOLBAR_CUSTOMIZATION_SHEET
 <
 panel
 id
@@ -5872,8 +5869,6 @@ true
 /
 panel
 >
-#
-endif
 <
 vbox
 id

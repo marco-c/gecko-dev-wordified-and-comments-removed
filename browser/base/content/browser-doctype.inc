@@ -75,9 +75,6 @@ chrome
 %
 textcontextDTD
 ;
-#
-ifdef
-TOOLBAR_CUSTOMIZATION_SHEET
 <
 !
 ENTITY
@@ -90,8 +87,6 @@ chrome
 %
 customizeToolbarDTD
 ;
-#
-endif
 <
 !
 ENTITY
