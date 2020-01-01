@@ -7831,6 +7831,16 @@ mSurface
 CairoSurface
 (
 )
+|
+|
+res
+.
+mSurface
+-
+>
+CairoStatus
+(
+)
 )
 {
 return
