@@ -1114,6 +1114,7 @@ STATIC_LIBS
 =
 thebes
 ycbcr
+angle
 COMPONENT_LIBS
 +
 =

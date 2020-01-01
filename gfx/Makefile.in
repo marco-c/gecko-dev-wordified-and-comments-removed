@@ -469,6 +469,10 @@ endif
 DIRS
 +
 =
+angle
+DIRS
++
+=
 src
 qcms
 layers
