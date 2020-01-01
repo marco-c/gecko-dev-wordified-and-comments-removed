@@ -3099,7 +3099,6 @@ dmd
 Report
 (
 ptr
-name
 )
 #
 define
@@ -3118,7 +3117,6 @@ dmd
 ReportOnAlloc
 (
 ptr
-name
 )
 #
 else

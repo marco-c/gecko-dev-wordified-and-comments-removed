@@ -41,10 +41,6 @@ const
 void
 *
 aPtr
-const
-char
-*
-aReporterName
 )
 ;
 MOZ_EXPORT
@@ -55,10 +51,6 @@ const
 void
 *
 aPtr
-const
-char
-*
-aReporterName
 )
 ;
 class
