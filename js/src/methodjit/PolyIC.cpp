@@ -1578,6 +1578,9 @@ if
 pic
 .
 typeMonitored
+|
+|
+adding
 )
 {
 Jump

@@ -5246,10 +5246,7 @@ getProperty
 (
 cx
 id
-access
-=
-=
-PROPERTY_WRITE
+false
 )
 ;
 if

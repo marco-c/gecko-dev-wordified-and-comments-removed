@@ -2170,7 +2170,7 @@ cx
 jsid
 id
 bool
-assign
+own
 )
 ;
 inline
