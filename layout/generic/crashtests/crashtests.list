@@ -487,6 +487,8 @@ MOZ_WIDGET_TOOLKIT
 gtk2
 "
 1
+-
+2
 )
 load
 382129
