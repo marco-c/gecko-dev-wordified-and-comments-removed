@@ -1701,7 +1701,7 @@ pkiBundle
 getFormattedString
 (
 "
-pageInfo_StrongEncryption
+pageInfo_StrongEncryptionWithBits
 "
 [
 info
@@ -1764,7 +1764,7 @@ pkiBundle
 getFormattedString
 (
 "
-pageInfo_WeakEncryption
+pageInfo_WeakEncryptionWithBits
 "
 [
 info
