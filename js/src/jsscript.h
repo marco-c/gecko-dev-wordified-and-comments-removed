@@ -1845,6 +1845,17 @@ return
 callCount_
 ;
 }
+size_t
+*
+addressOfCallCount
+(
+)
+{
+return
+&
+callCount_
+;
+}
 JITScriptStatus
 getJITStatus
 (

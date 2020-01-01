@@ -1801,6 +1801,9 @@ bool
 recompiling
 ;
 bool
+inlining
+;
+bool
 oomInVector
 ;
 enum
@@ -2491,6 +2494,11 @@ argc
 ;
 void
 interruptCheckHelper
+(
+)
+;
+void
+recompileCheckHelper
 (
 )
 ;

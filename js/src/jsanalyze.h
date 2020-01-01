@@ -264,6 +264,9 @@ bool
 usesThis
 ;
 bool
+hasCalls
+;
+bool
 isInlineable
 ;
 JSPackedBool
@@ -368,6 +371,16 @@ const
 {
 return
 usesThis
+;
+}
+bool
+hasFunctionCalls
+(
+)
+const
+{
+return
+hasCalls
 ;
 }
 bool

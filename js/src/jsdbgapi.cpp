@@ -6260,7 +6260,7 @@ iteratorp
 js_GetTopStackFrame
 (
 cx
-FRAME_EXPAND_ALL
+FRAME_EXPAND_NONE
 )
 ;
 else

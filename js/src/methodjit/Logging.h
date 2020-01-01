@@ -90,6 +90,11 @@ Regalloc
 \
 _
 (
+Inlining
+)
+\
+_
+(
 Recompile
 )
 enum

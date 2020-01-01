@@ -107,6 +107,15 @@ pc
 ;
 void
 JS_FASTCALL
+RecompileForInline
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 InitElem
 (
 VMFrame
