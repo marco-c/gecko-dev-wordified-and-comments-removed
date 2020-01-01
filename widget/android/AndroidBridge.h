@@ -451,8 +451,6 @@ ConstructBridge
 JNIEnv
 *
 jEnv
-jclass
-jGeckoAppShellClass
 )
 ;
 static
@@ -2006,8 +2004,6 @@ Init
 JNIEnv
 *
 jEnv
-jclass
-jGeckoApp
 )
 ;
 bool
