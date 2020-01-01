@@ -2438,6 +2438,14 @@ PanZoomState
 .
 NOTHING
 ;
+GeckoApp
+.
+mAppContext
+.
+showPluginViews
+(
+)
+;
 }
 private
 void
