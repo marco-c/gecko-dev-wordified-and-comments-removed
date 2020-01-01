@@ -96,6 +96,9 @@ skip
 if
 (
 Android
+|
+|
+B2G
 )
 load
 691096
@@ -118,7 +121,10 @@ of
 sounds
 at
 once
-.
+bug
+852821
+for
+B2G
 load
 752784
 -
