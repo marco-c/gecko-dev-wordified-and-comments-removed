@@ -327,7 +327,7 @@ LI
 final
 static
 int
-LINK
+LINK_OR_BASEFONT_OR_BGSOUND
 =
 16
 ;
@@ -551,7 +551,7 @@ EMBED_OR_IMG
 final
 static
 int
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+AREA_OR_SPACER_OR_WBR
 =
 49
 ;
@@ -8758,7 +8758,7 @@ case
 TABLE
 :
 case
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+AREA_OR_SPACER_OR_WBR
 :
 case
 BR
@@ -8863,7 +8863,7 @@ case
 BASE
 :
 case
-LINK
+LINK_OR_BASEFONT_OR_BGSOUND
 :
 case
 META
@@ -9928,7 +9928,7 @@ case
 EMBED_OR_IMG
 :
 case
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+AREA_OR_SPACER_OR_WBR
 :
 reconstructTheActiveFormattingElements
 (
@@ -11393,7 +11393,7 @@ case
 META
 :
 case
-LINK
+LINK_OR_BASEFONT_OR_BGSOUND
 :
 break
 inheadloop
@@ -11720,7 +11720,7 @@ break
 starttagloop
 ;
 case
-LINK
+LINK_OR_BASEFONT_OR_BGSOUND
 :
 appendVoidElementToCurrentMayFoster
 (
@@ -13371,7 +13371,7 @@ break
 starttagloop
 ;
 case
-LINK
+LINK_OR_BASEFONT_OR_BGSOUND
 :
 err
 (
@@ -17377,7 +17377,7 @@ break
 endtagloop
 ;
 case
-AREA_OR_BASEFONT_OR_BGSOUND_OR_SPACER_OR_WBR
+AREA_OR_SPACER_OR_WBR
 :
 case
 PARAM_OR_SOURCE
