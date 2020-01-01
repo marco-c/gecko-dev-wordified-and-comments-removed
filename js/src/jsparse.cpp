@@ -12173,6 +12173,14 @@ dn
 tc
 )
 ;
+if
+(
+!
+outer_ale
+)
+return
+false
+;
 }
 JSDefinition
 *
