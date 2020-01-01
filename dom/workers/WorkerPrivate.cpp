@@ -6833,6 +6833,12 @@ contextStack
 =
 nsnull
 ;
+nsRefPtr
+<
+WorkerPrivate
+>
+kungFuDeathGrip
+;
 if
 (
 mTarget
@@ -6867,6 +6873,10 @@ cx
 }
 else
 {
+kungFuDeathGrip
+=
+mWorkerPrivate
+;
 mWorkerPrivate
 -
 >
