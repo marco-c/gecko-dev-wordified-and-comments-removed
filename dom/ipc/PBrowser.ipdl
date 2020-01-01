@@ -150,6 +150,9 @@ include
 DOMTypes
 ;
 include
+JavaScriptTypes
+;
+include
 URIParams
 ;
 include
@@ -392,6 +395,10 @@ nsString
 aMessage
 ClonedMessageData
 aData
+CpowEntry
+[
+]
+aCpows
 )
 ;
 parent
@@ -449,6 +456,10 @@ nsString
 aMessage
 ClonedMessageData
 aData
+CpowEntry
+[
+]
+aCpows
 )
 returns
 (

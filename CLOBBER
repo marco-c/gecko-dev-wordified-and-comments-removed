@@ -151,9 +151,6 @@ o
 /
 #
 Bug
-870407
+870180
 -
-move
-CMMSRCS
-to
-mozbuild
+CPOWs

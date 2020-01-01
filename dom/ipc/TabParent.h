@@ -152,6 +152,9 @@ nsIDOMElement
 class
 nsIURI
 ;
+class
+CpowHolder
+;
 namespace
 mozilla
 {
@@ -401,6 +404,13 @@ const
 ClonedMessageData
 &
 aData
+const
+InfallibleTArray
+<
+CpowEntry
+>
+&
+aCpows
 InfallibleTArray
 <
 nsString
@@ -421,6 +431,13 @@ const
 ClonedMessageData
 &
 aData
+const
+InfallibleTArray
+<
+CpowEntry
+>
+&
+aCpows
 )
 ;
 virtual
@@ -1044,6 +1061,9 @@ const
 StructuredCloneData
 *
 aCloneData
+CpowHolder
+*
+aCpows
 InfallibleTArray
 <
 nsString
