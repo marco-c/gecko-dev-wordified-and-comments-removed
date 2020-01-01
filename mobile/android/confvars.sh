@@ -218,3 +218,11 @@ MOZ_FENNEC
 MOZ_FOLD_LIBS
 =
 1
+#
+Enable
+navigator
+.
+mozPay
+MOZ_PAY
+=
+1
