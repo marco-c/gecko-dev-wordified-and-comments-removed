@@ -62,9 +62,7 @@ weave
 .
 lastsync
 "
-"
 0
-"
 )
 ;
 pref
