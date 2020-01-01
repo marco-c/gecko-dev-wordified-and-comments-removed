@@ -589,6 +589,10 @@ testUTF8
 .
 cpp
 \
+testValueABI
+.
+cpp
+\
 testVersion
 .
 cpp
@@ -600,6 +604,12 @@ cpp
 (
 NULL
 )
+CSRCS
+=
+\
+valueABI
+.
+c
 #
 Disabled
 :
