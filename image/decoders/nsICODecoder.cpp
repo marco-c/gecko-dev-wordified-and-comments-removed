@@ -1440,6 +1440,12 @@ return
 }
 if
 (
+!
+HasSize
+(
+)
+&
+&
 mContainedDecoder
 -
 >
