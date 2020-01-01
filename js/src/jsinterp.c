@@ -22021,6 +22021,9 @@ obj
 ;
 if
 (
+parent
+&
+&
 OBJ_GET_CLASS
 (
 cx
