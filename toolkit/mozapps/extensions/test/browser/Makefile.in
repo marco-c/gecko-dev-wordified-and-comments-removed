@@ -505,6 +505,10 @@ browser_sorting
 .
 js
 \
+browser_uninstalling
+.
+js
+\
 browser_updatessl
 .
 js
