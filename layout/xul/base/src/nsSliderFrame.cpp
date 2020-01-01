@@ -4358,17 +4358,6 @@ GetScrollToClick
 )
 )
 {
-printf
-(
-"
-Bailing
-for
-touch
-\
-n
-"
-)
-;
 return
 NS_OK
 ;
