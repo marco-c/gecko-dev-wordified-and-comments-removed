@@ -3733,9 +3733,12 @@ NS_DispatchToMainThread
 gUMRunnable
 )
 ;
+return
+NS_OK
+;
 }
 #
-else
+endif
 if
 (
 aPrivileged
@@ -3968,8 +3971,6 @@ get
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
