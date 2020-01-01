@@ -423,6 +423,13 @@ prototype
 )
 DEFINE_ATOM
 (
+columnNumber
+"
+columnNumber
+"
+)
+DEFINE_ATOM
+(
 constructor
 "
 constructor

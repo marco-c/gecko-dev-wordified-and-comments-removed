@@ -21124,6 +21124,9 @@ messageArgs
 int16_t
 exnType
 ;
+unsigned
+column
+;
 }
 ;
 #

@@ -301,6 +301,10 @@ testJSEvaluateScript
 .
 cpp
 \
+testErrorCopying
+.
+cpp
+\
 (
 NULL
 )
