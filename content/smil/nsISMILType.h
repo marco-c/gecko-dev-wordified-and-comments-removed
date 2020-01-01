@@ -17,7 +17,11 @@ nsSMILValue
 class
 nsISMILType
 {
-public
+friend
+class
+nsSMILValue
+;
+protected
 :
 virtual
 nsresult
@@ -142,14 +146,12 @@ const
 =
 0
 ;
-virtual
 ~
 nsISMILType
 (
 )
 {
 }
-;
 }
 ;
 #
