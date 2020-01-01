@@ -479,10 +479,6 @@ browser_styleeditor_reopen
 .
 js
 \
-browser_styleeditor_sv_filter
-.
-js
-\
 browser_styleeditor_sv_keynav
 .
 js
