@@ -559,6 +559,10 @@ input_path
 '
 output_path
 '
+        
+'
+relpath
+'
     
 )
     
@@ -587,5 +591,11 @@ None
 self
 .
 output_path
+=
+None
+        
+self
+.
+relpath
 =
 None

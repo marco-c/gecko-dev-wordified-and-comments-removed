@@ -320,6 +320,12 @@ OBJDIR
 path
 )
             
+sub
+.
+relpath
+=
+path
+            
 yield
 sub
     

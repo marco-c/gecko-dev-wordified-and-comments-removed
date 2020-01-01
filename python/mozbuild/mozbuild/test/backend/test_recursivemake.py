@@ -4,6 +4,8 @@ import
 unicode_literals
 import
 os
+import
+time
 from
 mozunit
 import
@@ -508,10 +510,10 @@ readlines
 (
 )
 [
-1
+2
 :
 -
-2
+1
 ]
 ]
         
@@ -521,6 +523,20 @@ assertEqual
 (
 lines
 [
+            
+'
+MOZBUILD_DERIVED
+:
+=
+1
+'
+            
+'
+NO_MAKEFILE_RULE
+:
+=
+1
+'
             
 '
 DIRS
@@ -542,12 +558,19 @@ TEST_DIRS
 =
 dir3
 '
+            
+'
+SUBSTITUTE_FILES
++
+=
+Makefile
+'
         
 ]
 )
     
 def
-test_no_mtime_bump
+test_mtime_no_change
 (
 self
 )
@@ -784,10 +807,10 @@ readlines
 (
 )
 [
-1
+2
 :
 -
-2
+1
 ]
 ]
         
@@ -797,6 +820,20 @@ assertEqual
 (
 lines
 [
+            
+'
+MOZBUILD_DERIVED
+:
+=
+1
+'
+            
+'
+NO_MAKEFILE_RULE
+:
+=
+1
+'
             
 '
 DIRS
@@ -824,6 +861,13 @@ PARALLEL_DIRS
 +
 =
 p_external
+'
+            
+'
+SUBSTITUTE_FILES
++
+=
+Makefile
 '
         
 ]
