@@ -3195,6 +3195,15 @@ destructor
 [
 CDATA
 [
+if
+(
+!
+this
+.
+radioGroup
+)
+return
+;
 var
 radioList
 =
