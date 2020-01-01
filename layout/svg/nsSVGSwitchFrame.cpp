@@ -676,6 +676,15 @@ return
 ;
 }
 bool
+isFirstReflow
+=
+(
+mState
+&
+NS_FRAME_FIRST_REFLOW
+)
+;
+bool
 outerSVGHasHadFirstReflow
 =
 (
@@ -780,9 +789,7 @@ child
 }
 if
 (
-mState
-&
-NS_FRAME_FIRST_REFLOW
+isFirstReflow
 )
 {
 nsSVGEffects

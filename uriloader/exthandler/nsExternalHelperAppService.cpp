@@ -1536,12 +1536,6 @@ jpg
 "
 }
 {
-IMAGE_SVG_XML
-"
-svg
-"
-}
-{
 TEXT_HTML
 "
 html
@@ -2017,7 +2011,13 @@ Image
 "
 }
 {
-IMAGE_SVG_XML
+"
+image
+/
+svg
++
+xml
+"
 "
 svg
 "

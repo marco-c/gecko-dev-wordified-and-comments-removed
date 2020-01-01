@@ -99,6 +99,15 @@ include
 "
 mozilla
 /
+TimeStamp
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 BaseSize
@@ -260,9 +269,6 @@ gfxMatrix
 namespace
 mozilla
 {
-class
-TimeStamp
-;
 namespace
 gfx
 {
