@@ -9805,11 +9805,12 @@ aListener
 this
 .
 mProgressListeners
-[
+.
+splice
+(
 i
-]
-=
-null
+1
+)
 ;
 break
 ;
