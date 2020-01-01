@@ -90,7 +90,7 @@ TaskFun
 void
 *
 userdata
-size_t
+uint32_t
 workerId
 uintptr_t
 stackLimit
@@ -105,7 +105,7 @@ virtual
 void
 executeFromWorker
 (
-size_t
+uint32_t
 workerId
 uintptr_t
 stackLimit
@@ -144,7 +144,7 @@ workers_
 size_t
 numWorkers_
 ;
-size_t
+uint32_t
 nextId_
 ;
 bool

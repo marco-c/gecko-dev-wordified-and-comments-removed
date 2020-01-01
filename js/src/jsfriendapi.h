@@ -2453,10 +2453,10 @@ rt
 )
 {
 return
-RuntimeFriendFields
+PerThreadDataFriendFields
 :
 :
-get
+getMainThread
 (
 rt
 )

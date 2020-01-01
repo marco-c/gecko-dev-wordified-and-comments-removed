@@ -6794,9 +6794,10 @@ JS_CHECK_STACK_SIZE
 cx
 -
 >
-runtime
--
->
+mainThread
+(
+)
+.
 nativeStackLimit
 &
 stackDummy

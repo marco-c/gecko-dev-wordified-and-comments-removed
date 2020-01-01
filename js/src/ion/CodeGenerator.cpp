@@ -8084,6 +8084,8 @@ limitAddr
 rt
 -
 >
+mainThread
+.
 ionStackLimit
 ;
 masm

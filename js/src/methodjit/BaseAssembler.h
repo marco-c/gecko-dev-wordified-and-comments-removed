@@ -6838,6 +6838,8 @@ cx
 compartment
 -
 >
+allocator
+.
 arenas
 .
 getFreeList

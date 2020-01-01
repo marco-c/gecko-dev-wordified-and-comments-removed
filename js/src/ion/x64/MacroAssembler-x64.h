@@ -5393,6 +5393,8 @@ ScratchReg
 offsetof
 (
 JSRuntime
+mainThread
+.
 ionTop
 )
 )

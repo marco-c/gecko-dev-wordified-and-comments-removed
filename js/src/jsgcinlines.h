@@ -765,6 +765,8 @@ aheader
 comp
 -
 >
+allocator
+.
 arenas
 .
 getFirstArena
@@ -777,6 +779,8 @@ remainingHeader
 comp
 -
 >
+allocator
+.
 arenas
 .
 getFirstArenaToSweep
@@ -899,6 +903,8 @@ JS_ASSERT
 comp
 -
 >
+allocator
+.
 arenas
 .
 isSynchronizedFreeList
@@ -1319,6 +1325,8 @@ lists
 comp
 -
 >
+allocator
+.
 arenas
 )
 kind
@@ -2035,6 +2043,8 @@ T
 comp
 -
 >
+allocator
+.
 arenas
 .
 allocateFromFreeList

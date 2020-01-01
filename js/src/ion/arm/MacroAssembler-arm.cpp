@@ -12910,6 +12910,8 @@ rt
 offsetof
 (
 JSRuntime
+mainThread
+.
 ionTop
 )
 ;

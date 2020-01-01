@@ -916,6 +916,15 @@ of
 \
 macro
 (
+offset
+offset
+"
+offset
+"
+)
+\
+macro
+(
 parseFloat
 parseFloat
 "

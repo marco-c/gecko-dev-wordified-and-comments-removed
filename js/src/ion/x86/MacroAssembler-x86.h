@@ -4826,6 +4826,8 @@ compartment
 rt
 -
 >
+mainThread
+.
 ionTop
 )
 )

@@ -2361,6 +2361,8 @@ UpdateIon
 c
 -
 >
+allocator
+.
 arenas
 .
 purge
