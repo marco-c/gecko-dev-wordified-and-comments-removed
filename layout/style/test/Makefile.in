@@ -835,6 +835,10 @@ test_transitions_per_property
 .
 html
 \
+test_transitions_dynamic_changes
+.
+html
+\
 test_units_angle
 .
 html
