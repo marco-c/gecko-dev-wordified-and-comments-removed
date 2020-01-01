@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsStringAPI
 .
 h
