@@ -455,16 +455,6 @@ nsMediaStream
 )
 ;
 }
-nsMediaDecoder
-*
-Decoder
-(
-)
-{
-return
-mDecoder
-;
-}
 nsIURI
 *
 URI

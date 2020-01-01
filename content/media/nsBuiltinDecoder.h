@@ -977,6 +977,16 @@ GetState
 )
 ;
 }
+void
+ReleaseStateMachine
+(
+)
+{
+mDecoderStateMachine
+=
+nsnull
+;
+}
 public
 :
 void
