@@ -3245,6 +3245,13 @@ GetReadOnly
 isReadOnly
 )
 ;
+if
+(
+isReadOnly
+)
+return
+NS_OK
+;
 bool
 autocomplete
 =
@@ -3339,10 +3346,6 @@ hasList
 |
 autocomplete
 )
-&
-&
-!
-isReadOnly
 )
 )
 {
