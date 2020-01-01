@@ -6438,3 +6438,15 @@ status
 true
 )
 ;
+pref
+(
+"
+layout
+.
+imagevisibility
+.
+enabled
+"
+false
+)
+;
