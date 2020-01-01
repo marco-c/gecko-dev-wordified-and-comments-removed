@@ -4013,3 +4013,15 @@ disable_window_showModalDialog
 true
 )
 ;
+pref
+(
+"
+gfx
+.
+gralloc
+.
+enabled
+"
+false
+)
+;
