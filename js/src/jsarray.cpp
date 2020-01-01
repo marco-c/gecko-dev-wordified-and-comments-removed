@@ -3564,7 +3564,7 @@ JS_TRUE
 ;
 }
 JSBool
-FASTCALL
+JS_FASTCALL
 js_ObjectHasNumericPropertiesInAnyPrototype
 (
 JSContext
