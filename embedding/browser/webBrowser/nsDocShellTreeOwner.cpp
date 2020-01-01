@@ -5474,15 +5474,13 @@ if
 docShell
 )
 {
+shell
+=
 docShell
 -
 >
 GetPresShell
 (
-getter_AddRefs
-(
-shell
-)
 )
 ;
 }

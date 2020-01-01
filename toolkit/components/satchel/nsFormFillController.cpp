@@ -1120,16 +1120,12 @@ nsCOMPtr
 nsIPresShell
 >
 presShell
-;
+=
 docShell
 -
 >
 GetPresShell
 (
-getter_AddRefs
-(
-presShell
-)
 )
 ;
 NS_ENSURE_STATE

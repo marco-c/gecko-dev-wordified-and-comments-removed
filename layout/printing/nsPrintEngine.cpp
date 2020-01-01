@@ -4505,6 +4505,8 @@ aDOMWin
 )
 )
 ;
+presShell
+=
 window
 -
 >
@@ -4515,10 +4517,6 @@ GetDocShell
 >
 GetPresShell
 (
-getter_AddRefs
-(
-presShell
-)
 )
 ;
 }
@@ -8998,7 +8996,7 @@ nsCOMPtr
 nsIPresShell
 >
 displayShell
-;
+=
 aPO
 -
 >
@@ -9007,10 +9005,6 @@ mDocShell
 >
 GetPresShell
 (
-getter_AddRefs
-(
-displayShell
-)
 )
 ;
 nsCOMPtr
