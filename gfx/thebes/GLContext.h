@@ -1707,6 +1707,7 @@ mSymbols
 ifdef
 DEBUG
 static
+THEBES_API
 GLContext
 *
 sCurrentGLContext
