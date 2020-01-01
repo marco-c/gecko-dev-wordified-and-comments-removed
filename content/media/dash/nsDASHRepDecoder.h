@@ -312,14 +312,6 @@ GetReentrantMonitor
 (
 )
 ;
-nsDecoderStateMachine
-:
-:
-State
-GetDecodeState
-(
-)
-;
 ImageContainer
 *
 GetImageContainer
