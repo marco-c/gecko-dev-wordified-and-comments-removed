@@ -91,6 +91,12 @@ h
 '
     
 '
+prtime
+.
+h
+'
+    
+'
 nscore
 .
 h
