@@ -5368,7 +5368,7 @@ InitSingleFaceList
 {
 nsAutoTArray
 <
-nsAutoString
+nsString
 10
 >
 singleFaceFonts
@@ -5651,7 +5651,7 @@ PreloadNamesList
 {
 nsAutoTArray
 <
-nsAutoString
+nsString
 10
 >
 preloadFonts
@@ -6112,7 +6112,7 @@ InitBadUnderlineList
 {
 nsAutoTArray
 <
-nsAutoString
+nsString
 10
 >
 blacklist
