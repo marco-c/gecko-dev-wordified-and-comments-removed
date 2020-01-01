@@ -525,6 +525,9 @@ description
 "
 location
 "
+"
+loadInSidebar
+"
 ]
 }
 )
