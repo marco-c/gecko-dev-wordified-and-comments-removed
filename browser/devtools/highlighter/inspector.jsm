@@ -9037,7 +9037,13 @@ closeInspectorUI
 (
 )
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 .
 bind
