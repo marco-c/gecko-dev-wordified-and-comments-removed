@@ -578,9 +578,13 @@ test_timeupdate3
 .
 html
 \
+test_videoDocumentTitle
+.
+html
+\
 320x240
 .
-ogg
+ogv
 \
 bug461281
 .
@@ -588,7 +592,7 @@ ogg
 \
 seek
 .
-ogg
+ogv
 \
 (
 NULL
@@ -611,6 +615,10 @@ MOZ_WAVE
 _TEST_FILES
 +
 =
+\
+test_audioDocumentTitle
+.
+html
 \
 big
 .
