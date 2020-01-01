@@ -18042,9 +18042,9 @@ updateStarState
 (
 )
 ;
-SocialShareButton
+SocialMark
 .
-updateShareState
+updateMarkState
 (
 )
 ;
@@ -20169,9 +20169,9 @@ updateStarState
 (
 )
 ;
-SocialShareButton
+SocialMark
 .
-updateShareState
+updateMarkState
 (
 )
 ;
