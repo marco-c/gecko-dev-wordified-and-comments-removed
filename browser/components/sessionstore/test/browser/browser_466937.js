@@ -73,7 +73,8 @@ NORMAL_FILE_TYPE
 0666
 )
 ;
-filePath
+let
+testPath
 =
 file
 .
