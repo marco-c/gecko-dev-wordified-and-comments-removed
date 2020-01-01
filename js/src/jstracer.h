@@ -641,11 +641,7 @@ getCallDepth
 )
 const
 ;
-nanojit
-:
-:
-LIns
-*
+bool
 guard
 (
 bool
