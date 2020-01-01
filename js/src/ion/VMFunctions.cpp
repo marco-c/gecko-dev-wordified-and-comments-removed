@@ -3328,6 +3328,8 @@ type
 if
 (
 length
+>
+0
 )
 {
 if
