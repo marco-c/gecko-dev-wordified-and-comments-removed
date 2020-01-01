@@ -1141,6 +1141,11 @@ timeSeconds
 '
 r
 '
+serviceClass
+:
+'
+r
+'
 }
 QueryInterface
 :
@@ -1205,6 +1210,10 @@ null
 timeSeconds
 :
 0
+serviceClass
+:
+-
+1
 }
 ;
 function
