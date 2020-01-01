@@ -351,6 +351,10 @@ HTMLLabelElement
 .
 webidl
 \
+HTMLLegendElement
+.
+webidl
+\
 HTMLLIElement
 .
 webidl
