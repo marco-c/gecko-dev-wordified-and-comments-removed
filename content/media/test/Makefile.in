@@ -809,6 +809,10 @@ test_autoplay
 .
 html
 \
+test_buffered
+.
+html
+\
 test_bug448534
 .
 html
