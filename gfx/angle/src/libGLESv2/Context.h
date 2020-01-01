@@ -731,6 +731,9 @@ unpackAlignment
 GLint
 packAlignment
 ;
+bool
+packReverseRowOrder
+;
 }
 ;
 class
@@ -1368,6 +1371,19 @@ getPackAlignment
 )
 const
 ;
+void
+setPackReverseRowOrder
+(
+bool
+reverseRowOrder
+)
+;
+bool
+getPackReverseRowOrder
+(
+)
+const
+;
 GLuint
 createBuffer
 (
@@ -1762,6 +1778,8 @@ first
 unsigned
 int
 last
+int
+minIndex
 )
 ;
 void
@@ -1775,6 +1793,8 @@ const
 void
 *
 indices
+int
+minIndex
 )
 ;
 void

@@ -80,6 +80,7 @@ EbtGuardSamplerBegin
 EbtSampler2D
 EbtSamplerCube
 EbtSamplerExternalOES
+EbtSampler2DRect
 EbtGuardSamplerEnd
 EbtStruct
 EbtAddress
@@ -166,6 +167,16 @@ EbtSamplerExternalOES
 return
 "
 samplerExternalOES
+"
+;
+break
+;
+case
+EbtSampler2DRect
+:
+return
+"
+sampler2DRect
 "
 ;
 break

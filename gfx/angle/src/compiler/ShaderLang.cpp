@@ -487,6 +487,13 @@ OES_EGL_image_external
 =
 0
 ;
+resources
+-
+>
+ARB_texture_rectangle
+=
+0
+;
 }
 ShHandle
 ShConstructCompiler

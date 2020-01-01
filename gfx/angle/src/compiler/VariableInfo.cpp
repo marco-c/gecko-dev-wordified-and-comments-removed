@@ -306,6 +306,12 @@ EbtSamplerCube
 return
 SH_SAMPLER_CUBE
 ;
+case
+EbtSampler2DRect
+:
+return
+SH_SAMPLER_2D_RECT_ARB
+;
 default
 :
 UNREACHABLE
