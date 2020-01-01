@@ -2130,7 +2130,7 @@ organizer
 .
 PlacesOrganizer
 .
-selectLeftPaneQuery
+selectLeftPaneContainerByHierarchy
 (
 aLeftPaneRoot
 )
