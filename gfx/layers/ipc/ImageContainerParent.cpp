@@ -34,6 +34,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 CompositorParent
 .
 h
@@ -142,6 +151,9 @@ prevImage
 mStop
 )
 {
+unused
+<
+<
 SendReturnImage
 (
 *
