@@ -819,8 +819,14 @@ aRegion
 )
 ;
 static
+nsresult
+InitStatic
+(
+)
+;
+static
 void
-MigrateToCurrentThread
+ShutdownStatic
 (
 )
 ;
