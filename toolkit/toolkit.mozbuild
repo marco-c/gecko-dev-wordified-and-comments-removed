@@ -1415,6 +1415,8 @@ gnome
 #
 if
 libconic
+or
+QtNetwork
 is
 present
 it
@@ -1430,6 +1432,14 @@ CONFIG
 [
 '
 MOZ_ENABLE_LIBCONIC
+'
+]
+and
+not
+CONFIG
+[
+'
+MOZ_ENABLE_QTNETWORK
 '
 ]
 and
