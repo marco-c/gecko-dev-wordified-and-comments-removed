@@ -410,14 +410,14 @@ aValue
 endif
 private
 :
-void
+PRBool
 ComputeMargin
 (
 nscoord
 aContainingBlockWidth
 )
 ;
-void
+PRBool
 ComputePadding
 (
 nscoord
