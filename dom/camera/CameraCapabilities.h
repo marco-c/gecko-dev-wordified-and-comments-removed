@@ -18,6 +18,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -48,6 +57,7 @@ aEnd
 ;
 class
 nsCameraCapabilities
+MOZ_FINAL
 :
 public
 nsICameraCapabilities
