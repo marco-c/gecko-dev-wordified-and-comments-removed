@@ -1550,13 +1550,6 @@ js_parent_str
 extern
 const
 char
-js_private_str
-[
-]
-;
-extern
-const
-char
 js_proto_str
 [
 ]

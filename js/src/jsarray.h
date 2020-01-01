@@ -69,6 +69,10 @@ jsval
 vector
 )
 ;
+#
+define
+JSSLOT_ARRAY_LENGTH
+JSSLOT_PRIVATE
 extern
 JSBool
 js_GetLengthProperty
