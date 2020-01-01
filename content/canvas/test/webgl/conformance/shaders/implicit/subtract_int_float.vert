@@ -1,3 +1,15 @@
+/
+/
+implicit
+cast
+of
+int
+to
+float
+in
+subtraction
+should
+fail
 void
 main
 (

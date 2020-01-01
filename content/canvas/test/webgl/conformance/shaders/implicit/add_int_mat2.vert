@@ -1,3 +1,13 @@
+/
+/
+implicit
+cast
+adding
+integer
+to
+mat2
+should
+fail
 void
 main
 (

@@ -154,6 +154,15 @@ x
 fragment
 "
 >
+#
+ifdef
+GL_ES
+precision
+mediump
+float
+;
+#
+endif
 varying
 vec4
 color
@@ -313,7 +322,7 @@ var
 vertices
 =
 new
-WebGLFloatArray
+Float32Array
 (
 [
 0
@@ -332,7 +341,7 @@ var
 colors
 =
 new
-WebGLUnsignedByteArray
+Uint8Array
 (
 [
 255
@@ -966,12 +975,6 @@ is
 enabled
 in
 WebGL
-'
-)
-;
-debug
-(
-'
 '
 )
 ;

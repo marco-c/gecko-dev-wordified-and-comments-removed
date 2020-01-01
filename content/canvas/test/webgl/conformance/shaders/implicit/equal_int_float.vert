@@ -1,3 +1,15 @@
+/
+/
+implicit
+cast
+of
+int
+to
+float
+in
+comparision
+should
+fail
 void
 main
 (

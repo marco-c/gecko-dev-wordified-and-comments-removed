@@ -1,3 +1,16 @@
+/
+/
+implicit
+cast
+from
+int
+to
+float
+in
+struct
+initializer
+should
+fail
 struct
 Foo
 {

@@ -1,3 +1,15 @@
+/
+/
+implicit
+cast
+of
+int
+to
+mat4
+in
+multiply
+should
+fail
 void
 main
 (

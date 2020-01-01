@@ -44,7 +44,7 @@ waitUntilDone
 }
 }
 function
-nonKhronosFrameworkNotifyIfDone
+nonKhronosFrameworkNotifyDone
 (
 )
 {

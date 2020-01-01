@@ -1,3 +1,13 @@
+/
+/
+implicit
+cast
+adding
+ivec3
+to
+vec3
+should
+fail
 void
 main
 (

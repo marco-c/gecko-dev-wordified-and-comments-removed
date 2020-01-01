@@ -1,3 +1,16 @@
+/
+/
+implicit
+cast
+of
+ivec4
+to
+vec4
+in
+ternary
+expression
+should
+fail
 void
 main
 (

@@ -1,3 +1,15 @@
+/
+/
+implicit
+cast
+of
+ivec2
+to
+vec2
+in
+multiply
+should
+fail
 void
 main
 (

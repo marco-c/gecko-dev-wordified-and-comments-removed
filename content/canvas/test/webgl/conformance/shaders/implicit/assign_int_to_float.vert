@@ -1,3 +1,13 @@
+/
+/
+implicit
+cast
+assing
+int
+to
+float
+should
+fail
 void
 main
 (

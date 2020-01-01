@@ -230,8 +230,13 @@ function
 gl
 )
 {
-assertFail
+assertOk
 (
+"
+zero
+size
+data
+"
 function
 (
 )
@@ -246,7 +251,7 @@ ARRAY_BUFFER
 new
 Float32Array
 (
-null
+0
 )
 gl
 .
@@ -258,6 +263,10 @@ STATIC_DRAW
 ;
 assertFail
 (
+"
+bad
+target
+"
 function
 (
 )
@@ -288,6 +297,11 @@ STATIC_DRAW
 ;
 assertFail
 (
+"
+array
+for
+data
+"
 function
 (
 )
@@ -314,6 +328,10 @@ STATIC_DRAW
 ;
 assertFail
 (
+"
+bad
+usage
+"
 function
 (
 )

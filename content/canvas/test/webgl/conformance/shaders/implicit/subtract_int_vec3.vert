@@ -1,3 +1,15 @@
+/
+/
+implicit
+cast
+of
+int
+to
+vec3
+in
+subtraction
+should
+fail
 void
 main
 (

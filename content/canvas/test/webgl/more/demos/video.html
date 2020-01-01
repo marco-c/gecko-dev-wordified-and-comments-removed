@@ -524,9 +524,6 @@ x
 vertex
 "
 >
-#
-version
-120
 attribute
 vec3
 Vertex
@@ -601,8 +598,14 @@ fragment
 "
 >
 #
-version
-120
+ifdef
+GL_ES
+precision
+highp
+float
+;
+#
+endif
 uniform
 sampler2D
 Texture

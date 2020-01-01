@@ -1,3 +1,13 @@
+/
+/
+implicit
+cast
+adding
+integer
+to
+float
+should
+fail
 void
 main
 (

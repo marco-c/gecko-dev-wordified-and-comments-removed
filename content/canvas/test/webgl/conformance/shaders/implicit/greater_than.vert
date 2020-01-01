@@ -1,3 +1,16 @@
+/
+/
+implicit
+cast
+of
+int
+to
+float
+with
+greater
+than
+should
+fail
 void
 main
 (

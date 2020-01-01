@@ -1,3 +1,15 @@
+/
+/
+implicit
+cast
+of
+ivec4
+to
+vec4
+in
+subtraction
+should
+fail
 void
 main
 (

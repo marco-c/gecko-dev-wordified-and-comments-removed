@@ -1,3 +1,14 @@
+/
+/
+implicit
+cast
+of
+vec4
+divided
+by
+int
+should
+fail
 void
 main
 (

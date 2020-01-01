@@ -1,3 +1,13 @@
+/
+/
+implicit
+cast
+adding
+integer
+to
+vec4
+should
+fail
 void
 main
 (

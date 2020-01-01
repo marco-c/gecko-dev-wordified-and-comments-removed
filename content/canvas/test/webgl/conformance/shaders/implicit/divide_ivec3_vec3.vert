@@ -1,3 +1,14 @@
+/
+/
+implicit
+cast
+of
+vec3
+divided
+by
+ivec3
+should
+fail
 void
 main
 (

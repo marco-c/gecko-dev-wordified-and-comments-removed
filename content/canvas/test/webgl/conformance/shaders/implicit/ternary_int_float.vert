@@ -1,3 +1,16 @@
+/
+/
+implicit
+cast
+of
+int
+to
+float
+in
+ternary
+expression
+should
+fail
 void
 main
 (

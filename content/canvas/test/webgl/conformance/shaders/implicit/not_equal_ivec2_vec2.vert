@@ -1,3 +1,17 @@
+/
+/
+implicit
+cast
+of
+ivec2
+to
+vec2
+in
+not
+equal
+comparison
+should
+fail
 void
 main
 (

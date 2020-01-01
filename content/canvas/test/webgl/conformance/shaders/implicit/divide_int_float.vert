@@ -1,3 +1,14 @@
+/
+/
+implicit
+cast
+of
+float
+divided
+by
+int
+should
+fail
 void
 main
 (

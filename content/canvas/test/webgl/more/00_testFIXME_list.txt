@@ -142,11 +142,6 @@ isTests
 html
 functions
 /
-linkProgramBadArgs
-.
-html
-functions
-/
 readPixels
 .
 html
