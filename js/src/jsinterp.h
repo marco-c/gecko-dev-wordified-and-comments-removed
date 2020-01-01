@@ -1678,8 +1678,11 @@ thisv
 ]
 )
 )
+#
+ifdef
+__cplusplus
 static
-inline
+JS_INLINE
 JSObject
 *
 js_ComputeThisForFrame
@@ -1748,6 +1751,8 @@ return
 obj
 ;
 }
+#
+endif
 extern
 JS_REQUIRES_STACK
 JS_FRIEND_API

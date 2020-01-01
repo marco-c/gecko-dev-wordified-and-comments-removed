@@ -2808,6 +2808,9 @@ jsid
 id
 )
 ;
+#
+ifdef
+__cplusplus
 static
 JS_INLINE
 void
@@ -2839,6 +2842,8 @@ id
 )
 ;
 }
+#
+endif
 extern
 JSScopeProperty
 *
