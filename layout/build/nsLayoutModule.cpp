@@ -686,9 +686,6 @@ nsIControllerCommandTable
 h
 "
 #
-ifndef
-MOZILLA_PLAINTEXT_EDITOR_ONLY
-#
 include
 "
 nsHTMLEditor
@@ -709,8 +706,6 @@ nsTextServicesCID
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1035,9 +1030,6 @@ aResult
 )
 ;
 }
-#
-ifndef
-MOZILLA_PLAINTEXT_EDITOR_ONLY
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsTextServicesDocument
@@ -1062,8 +1054,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsHTMLEditor
 )
-#
-endif
 #
 endif
 #
@@ -3946,9 +3936,6 @@ INDEXEDDB_MANAGER_CID
 )
 ;
 #
-ifndef
-MOZILLA_PLAINTEXT_EDITOR_ONLY
-#
 ifdef
 ENABLE_EDITOR_API_LOG
 NS_DEFINE_NAMED_CID
@@ -3965,8 +3952,6 @@ NS_HTMLEDITOR_CID
 ;
 #
 endif
-#
-endif
 NS_DEFINE_NAMED_CID
 (
 NS_EDITORCONTROLLER_CID
@@ -3977,16 +3962,11 @@ NS_DEFINE_NAMED_CID
 NS_EDITORCOMMANDTABLE_CID
 )
 ;
-#
-ifndef
-MOZILLA_PLAINTEXT_EDITOR_ONLY
 NS_DEFINE_NAMED_CID
 (
 NS_TEXTSERVICESDOCUMENT_CID
 )
 ;
-#
-endif
 NS_DEFINE_NAMED_CID
 (
 NS_GEOLOCATION_SERVICE_CID
@@ -4871,9 +4851,6 @@ NULL
 IndexedDatabaseManagerConstructor
 }
 #
-ifndef
-MOZILLA_PLAINTEXT_EDITOR_ONLY
-#
 ifdef
 ENABLE_EDITOR_API_LOG
 {
@@ -4894,8 +4871,6 @@ nsHTMLEditorConstructor
 }
 #
 endif
-#
-endif
 {
 &
 kNS_EDITORCONTROLLER_CID
@@ -4910,9 +4885,6 @@ false
 NULL
 nsEditorCommandTableConstructor
 }
-#
-ifndef
-MOZILLA_PLAINTEXT_EDITOR_ONLY
 {
 &
 kNS_TEXTSERVICESDOCUMENT_CID
@@ -4920,8 +4892,6 @@ false
 NULL
 nsTextServicesDocumentConstructor
 }
-#
-endif
 {
 &
 kNS_GEOLOCATION_SERVICE_CID
@@ -6181,9 +6151,6 @@ INDEXEDDB_MANAGER_CONTRACTID
 kINDEXEDDB_MANAGER_CID
 }
 #
-ifndef
-MOZILLA_PLAINTEXT_EDITOR_ONLY
-#
 ifdef
 ENABLE_EDITOR_API_LOG
 {
@@ -6220,8 +6187,6 @@ kNS_HTMLEDITOR_CID
 }
 #
 endif
-#
-endif
 {
 "
 mozilla
@@ -6243,9 +6208,6 @@ kNS_EDITORCONTROLLER_CID
 &
 kNS_EDITORCOMMANDTABLE_CID
 }
-#
-ifndef
-MOZILLA_PLAINTEXT_EDITOR_ONLY
 {
 "
 mozilla
@@ -6261,8 +6223,6 @@ textservicesdocument
 &
 kNS_TEXTSERVICESDOCUMENT_CID
 }
-#
-endif
 {
 "
 mozilla
