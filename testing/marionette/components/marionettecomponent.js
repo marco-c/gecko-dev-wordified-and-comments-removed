@@ -266,7 +266,7 @@ Log4Moz
 Level
 [
 "
-Info
+Trace
 "
 ]
 ;
