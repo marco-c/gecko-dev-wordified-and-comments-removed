@@ -32,12 +32,6 @@ test
 script
 regress
 -
-348904
-.
-js
-script
-regress
--
 349493
 .
 js
