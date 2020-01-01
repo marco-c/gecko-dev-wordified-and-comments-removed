@@ -4677,6 +4677,14 @@ setSafeToUnwrap
 false
 )
 ;
+BaseProxyHandler
+:
+:
+setHasPolicy
+(
+true
+)
+;
 }
 template
 <
