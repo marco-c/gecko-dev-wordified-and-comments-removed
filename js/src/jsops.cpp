@@ -10882,7 +10882,7 @@ if
 inlineCallCount
 >
 =
-MAX_INLINE_CALL_COUNT
+JS_MAX_INLINE_CALL_COUNT
 )
 {
 js_ReportOverRecursed

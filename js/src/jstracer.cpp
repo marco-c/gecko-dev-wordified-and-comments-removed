@@ -36060,6 +36060,13 @@ stack_buffer
 +
 MAX_NATIVE_STACK_SLOTS
 ;
+JS_ASSERT
+(
+JS_MAX_INLINE_CALL_COUNT
+>
+inlineCallCount
+)
+;
 FrameInfo
 *
 callstack_buffer
@@ -36088,7 +36095,13 @@ eor
 =
 callstack_buffer
 +
+JS_MIN
+(
 MAX_CALL_STACK_ENTRIES
+JS_MAX_INLINE_CALL_COUNT
+-
+inlineCallCount
+)
 ;
 state
 -
