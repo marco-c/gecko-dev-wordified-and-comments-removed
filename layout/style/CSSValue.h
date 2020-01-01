@@ -93,12 +93,6 @@ const
 =
 0
 ;
-nsROCSSPrimitiveValue
-*
-AsPrimitiveValue
-(
-)
-;
 }
 ;
 }
