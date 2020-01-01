@@ -620,6 +620,28 @@ ocsp_stapling
 (
 )
 {
+#
+Parameter
+-
+4
+is
+used
+as
+a
+temporary
+workaround
+for
+lack
+of
+IPv6
+connectivity
+#
+on
+some
+build
+bot
+slaves
+.
 TESTNAME
 =
 "
@@ -638,6 +660,8 @@ TESTNAME
 echo
 "
 tstclnt
+-
+4
 -
 V
 tls1
@@ -676,6 +700,8 @@ BINDIR
 }
 /
 tstclnt
+-
+4
 -
 V
 tls1
@@ -733,6 +759,8 @@ echo
 "
 tstclnt
 -
+4
+-
 V
 tls1
 .
@@ -770,6 +798,8 @@ BINDIR
 }
 /
 tstclnt
+-
+4
 -
 V
 tls1
@@ -830,6 +860,8 @@ echo
 "
 tstclnt
 -
+4
+-
 V
 tls1
 .
@@ -867,6 +899,8 @@ BINDIR
 }
 /
 tstclnt
+-
+4
 -
 V
 tls1
@@ -927,6 +961,8 @@ echo
 "
 tstclnt
 -
+4
+-
 V
 tls1
 .
@@ -964,6 +1000,8 @@ BINDIR
 }
 /
 tstclnt
+-
+4
 -
 V
 tls1
@@ -1024,6 +1062,8 @@ echo
 "
 tstclnt
 -
+4
+-
 V
 tls1
 .
@@ -1061,6 +1101,8 @@ BINDIR
 }
 /
 tstclnt
+-
+4
 -
 V
 tls1
@@ -1118,6 +1160,8 @@ echo
 "
 tstclnt
 -
+4
+-
 V
 tls1
 .
@@ -1155,6 +1199,8 @@ BINDIR
 }
 /
 tstclnt
+-
+4
 -
 V
 tls1
@@ -1211,6 +1257,8 @@ TESTNAME
 echo
 "
 tstclnt
+-
+4
 -
 V
 tls1
@@ -1249,6 +1297,8 @@ BINDIR
 }
 /
 tstclnt
+-
+4
 -
 V
 tls1
@@ -1407,6 +1457,8 @@ echo
 "
 tstclnt
 -
+4
+-
 V
 tls1
 .
@@ -1444,6 +1496,8 @@ BINDIR
 }
 /
 tstclnt
+-
+4
 -
 V
 tls1

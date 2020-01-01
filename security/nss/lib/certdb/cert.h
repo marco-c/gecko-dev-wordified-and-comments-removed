@@ -484,6 +484,7 @@ extern
 KeyType
 CERT_GetCertKeyType
 (
+const
 CERTSubjectPublicKeyInfo
 *
 spki

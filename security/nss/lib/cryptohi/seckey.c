@@ -1711,8 +1711,9 @@ subjectCert
 )
 ;
 }
+static
 SECStatus
-SECKEY_DSADecodePQG
+seckey_DSADecodePQG
 (
 PLArenaPool
 *
@@ -1720,6 +1721,7 @@ arena
 SECKEYPublicKey
 *
 pubk
+const
 SECItem
 *
 params
@@ -2004,6 +2006,7 @@ keyType
 KeyType
 CERT_GetCertKeyType
 (
+const
 CERTSubjectPublicKeyInfo
 *
 spki
@@ -2028,6 +2031,7 @@ SECKEYPublicKey
 *
 seckey_ExtractPublicKey
 (
+const
 CERTSubjectPublicKeyInfo
 *
 spki
@@ -2251,7 +2255,7 @@ break
 ;
 rv
 =
-SECKEY_DSADecodePQG
+seckey_DSADecodePQG
 (
 arena
 pubk
@@ -2469,6 +2473,7 @@ SECKEYPublicKey
 *
 SECKEY_ExtractPublicKey
 (
+const
 CERTSubjectPublicKeyInfo
 *
 spki
@@ -5248,6 +5253,7 @@ SECKEYPublicKey
 *
 SECKEY_DecodeDERPublicKey
 (
+const
 SECItem
 *
 pubkder
@@ -5408,6 +5414,7 @@ SECKEYPublicKey
 *
 SECKEY_ConvertAndDecodePublicKey
 (
+const
 char
 *
 pubkstr
@@ -5526,6 +5533,7 @@ CERTSubjectPublicKeyInfo
 *
 SECKEY_DecodeDERSubjectPublicKeyInfo
 (
+const
 SECItem
 *
 spkider
@@ -5662,6 +5670,7 @@ CERTSubjectPublicKeyInfo
 *
 SECKEY_ConvertAndDecodeSubjectPublicKeyInfo
 (
+const
 char
 *
 spkistr
@@ -6402,6 +6411,7 @@ poolp
 SECKEYPrivateKeyInfo
 *
 to
+const
 SECKEYPrivateKeyInfo
 *
 from
@@ -6522,6 +6532,7 @@ poolp
 SECKEYEncryptedPrivateKeyInfo
 *
 to
+const
 SECKEYEncryptedPrivateKeyInfo
 *
 from
@@ -6607,6 +6618,7 @@ rv
 KeyType
 SECKEY_GetPrivateKeyType
 (
+const
 SECKEYPrivateKey
 *
 privKey
@@ -6622,6 +6634,7 @@ keyType
 KeyType
 SECKEY_GetPublicKeyType
 (
+const
 SECKEYPublicKey
 *
 pubKey
@@ -6638,6 +6651,7 @@ SECKEYPublicKey
 *
 SECKEY_ImportDERPublicKey
 (
+const
 SECItem
 *
 derKey
