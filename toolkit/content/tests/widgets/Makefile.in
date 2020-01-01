@@ -545,10 +545,6 @@ window_popup_button
 .
 xul
 \
-window_menuchecks
-.
-xul
-\
 window_popup_attribute
 .
 xul
