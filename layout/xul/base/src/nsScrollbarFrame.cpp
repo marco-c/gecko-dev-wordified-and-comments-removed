@@ -289,6 +289,15 @@ scrollable
 return
 rv
 ;
+nsCOMPtr
+<
+nsIContent
+>
+kungFuDeathGrip
+(
+mContent
+)
+;
 scrollable
 -
 >
