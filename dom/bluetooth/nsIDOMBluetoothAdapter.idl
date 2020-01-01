@@ -265,7 +265,7 @@ getPairedDevices
 (
 )
 ;
-void
+nsIDOMDOMRequest
 setPinCode
 (
 in
@@ -276,7 +276,7 @@ DOMString
 aPinCode
 )
 ;
-void
+nsIDOMDOMRequest
 setPasskey
 (
 in
@@ -288,7 +288,7 @@ long
 aPasskey
 )
 ;
-void
+nsIDOMDOMRequest
 setPairingConfirmation
 (
 in
@@ -299,7 +299,7 @@ bool
 aConfirmation
 )
 ;
-void
+nsIDOMDOMRequest
 setAuthorization
 (
 in

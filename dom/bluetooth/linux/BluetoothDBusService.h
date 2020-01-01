@@ -299,6 +299,9 @@ const
 nsAString
 &
 aPinCode
+BluetoothReplyRunnable
+*
+aRunnable
 )
 ;
 virtual
@@ -311,6 +314,9 @@ nsAString
 aDeviceAddress
 uint32_t
 aPasskey
+BluetoothReplyRunnable
+*
+aRunnable
 )
 ;
 virtual
@@ -323,6 +329,9 @@ nsAString
 aDeviceAddress
 bool
 aConfirm
+BluetoothReplyRunnable
+*
+aRunnable
 )
 ;
 virtual
@@ -335,6 +344,9 @@ nsAString
 aDeviceAddress
 bool
 aAllow
+BluetoothReplyRunnable
+*
+aRunnable
 )
 ;
 private
