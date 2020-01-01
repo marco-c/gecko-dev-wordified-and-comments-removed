@@ -886,6 +886,9 @@ srcdir
 /
 cursors
 endif
+export
+:
+:
 (
 INSTALL
 )
