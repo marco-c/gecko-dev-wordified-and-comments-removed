@@ -749,6 +749,12 @@ Set
 38
 js_InitSetClass
 )
+JS_PROTO
+(
+DataView
+39
+js_InitTypedArrayClasses
+)
 #
 undef
 XML_INIT

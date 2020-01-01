@@ -8014,8 +8014,6 @@ vp
 )
 ;
 }
-}
-static
 bool
 GetFirstArgumentAsObject
 (
@@ -8141,6 +8139,7 @@ toObject
 return
 true
 ;
+}
 }
 static
 JSBool
