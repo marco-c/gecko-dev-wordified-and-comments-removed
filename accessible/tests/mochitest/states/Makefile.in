@@ -463,6 +463,10 @@ test_buttons
 .
 html
 \
+test_controls
+.
+xul
+\
 test_doc
 .
 html
@@ -486,10 +490,6 @@ html
 test_inputs
 .
 html
-\
-test_inputs
-.
-xul
 \
 test_link
 .

@@ -202,9 +202,6 @@ aName
 aValue
 aDescription
 aRole
-aState
-aExtraState
-aAbsentState
 aNumActions
 aActionName
 aActionDescription
@@ -275,14 +272,6 @@ testRole
 (
 aID
 aRole
-)
-;
-testStates
-(
-acc
-aState
-aExtraState
-aAbsentState
 )
 ;
 testAction
