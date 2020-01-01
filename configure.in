@@ -9889,7 +9889,7 @@ then
 if
 test
 "
-_SUBDIR_CC
+CC
 -
 V
 2
@@ -9931,7 +9931,7 @@ then
 if
 test
 "
-_SUBDIR_CXX
+CXX
 -
 V
 2
