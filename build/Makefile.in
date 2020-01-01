@@ -660,15 +660,13 @@ autoconf
 .
 mk
 MOZ_SOURCE_STAMP
-?
+:
 =
 (
 firstword
 (
 shell
-hg
--
-R
+cd
 (
 topsrcdir
 )
@@ -679,6 +677,9 @@ MOZ_BUILD_APP
 /
 .
 .
+&
+&
+hg
 parent
 -
 -
