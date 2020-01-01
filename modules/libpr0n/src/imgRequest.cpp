@@ -4279,12 +4279,15 @@ newChannel
 >
 GetOriginalURI
 (
+getter_AddRefs
+(
 mKeyURI
+)
 )
 ;
 if
 (
-uri
+mKeyURI
 &
 &
 mCacheEntry
