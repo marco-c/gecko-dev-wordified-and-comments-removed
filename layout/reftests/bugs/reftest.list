@@ -2485,7 +2485,6 @@ html
 ref
 .
 html
-fails
 =
 =
 351641
@@ -2500,16 +2499,6 @@ html
 ref
 .
 html
-#
-bug
-358433
-(
-2006
--
-10
--
-19
-)
 fails
 -
 if
