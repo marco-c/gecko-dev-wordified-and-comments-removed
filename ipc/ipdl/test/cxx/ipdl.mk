@@ -201,6 +201,10 @@ PTestBadActorSub
 .
 ipdl
 \
+PTestUrgency
+.
+ipdl
+\
 PTestIndirectProtocolParam
 .
 ipdlh

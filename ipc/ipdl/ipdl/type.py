@@ -27,6 +27,7 @@ ANSWER
 CALL
 RECV
 SEND
+URGENT
 import
 ipdl
 .
@@ -1208,6 +1209,25 @@ self
 sendSemantics
 is
 RPC
+or
+self
+.
+sendSemantics
+is
+URGENT
+    
+def
+isUrgent
+(
+self
+)
+:
+return
+self
+.
+sendSemantics
+is
+URGENT
     
 def
 talksAsync

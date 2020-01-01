@@ -1022,6 +1022,9 @@ MessageQueue
 MessageQueue
 mPending
 ;
+MessageQueue
+mNonUrgentDeferred
+;
 std
 :
 :
