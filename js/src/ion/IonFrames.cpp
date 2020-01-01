@@ -2641,7 +2641,7 @@ calleeToken
 )
 -
 >
-script
+nonLazyScript
 (
 )
 -
@@ -5633,7 +5633,7 @@ script_
 callee_
 -
 >
-script
+nonLazyScript
 (
 )
 .
@@ -7253,6 +7253,10 @@ i_
 numActualArgs
 (
 )
+-
+d
+.
+i_
 )
 ;
 }

@@ -1418,7 +1418,7 @@ fun
 )
 -
 >
-script
+nonLazyScript
 (
 )
 .
@@ -5524,6 +5524,9 @@ script_
 CallArgs
 args_
 ;
+bool
+poppedCallDuringSettle_
+;
 #
 ifdef
 JS_ION
@@ -5688,6 +5691,16 @@ compartment
 )
 const
 ;
+bool
+poppedCallDuringSettle
+(
+)
+const
+{
+return
+poppedCallDuringSettle_
+;
+}
 bool
 isScript
 (

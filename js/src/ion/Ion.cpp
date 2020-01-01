@@ -5609,6 +5609,18 @@ OffThreadCompilationAvailable
 (
 cx
 )
+&
+&
+!
+cx
+-
+>
+compartment
+-
+>
+needsBarrier
+(
+)
 )
 {
 builder
@@ -7691,7 +7703,7 @@ cx
 fun
 -
 >
-script
+nonLazyScript
 (
 )
 )
