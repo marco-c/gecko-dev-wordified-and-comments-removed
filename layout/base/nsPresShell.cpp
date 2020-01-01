@@ -22792,6 +22792,10 @@ event
 if
 (
 mIsFirstPaint
+&
+&
+!
+mPaintingSuppressed
 )
 {
 layerManager
