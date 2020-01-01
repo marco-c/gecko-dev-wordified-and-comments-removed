@@ -7905,7 +7905,7 @@ type
 TypedArray
 :
 :
-fastClasses
+classes
 [
 TypedArray
 :

@@ -4856,7 +4856,7 @@ isTypedArray
 const
 {
 return
-IsFastTypedArrayClass
+IsTypedArrayClass
 (
 getClass
 (
