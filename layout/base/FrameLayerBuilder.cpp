@@ -8776,6 +8776,14 @@ DidEndTransaction
 )
 ;
 }
+basic
+-
+>
+SetTarget
+(
+nullptr
+)
+;
 #
 ifdef
 MOZ_DUMP_PAINTING
