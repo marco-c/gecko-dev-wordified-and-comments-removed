@@ -16923,7 +16923,7 @@ case
 JSOP_VOID
 :
 case
-JSOP_PUSH
+JSOP_UNDEFINED
 :
 pushed
 [
