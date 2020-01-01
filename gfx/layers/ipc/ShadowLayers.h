@@ -212,6 +212,10 @@ friend
 class
 TextureClientShmem
 ;
+friend
+class
+ContentClientIncremental
+;
 public
 :
 virtual
