@@ -1697,6 +1697,17 @@ OBJDIR
 {
 PGO_OBJDIR
 }
+JARLOG_DIR
+=
+{
+PGO_OBJDIR
+}
+/
+jarlog
+/
+en
+-
+US
 (
 PROFILE_GEN_SCRIPT
 )

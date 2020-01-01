@@ -659,6 +659,15 @@ DEPTH
 jarlog
 /
 )
+JARLOG_DIR_AB_CD
+=
+(
+JARLOG_DIR
+)
+/
+(
+AB_CD
+)
 CREATE_FINAL_TAR
 =
 (
@@ -3137,7 +3146,7 @@ OPTIMIZE_JARS_CMD
 -
 optimize
 (
-JARLOG_DIR
+JARLOG_DIR_AB_CD
 )
 .
 /
@@ -3179,7 +3188,7 @@ OPTIMIZE_JARS_CMD
 -
 deoptimize
 (
-JARLOG_DIR
+JARLOG_DIR_AB_CD
 )
 .
 /
@@ -5560,7 +5569,7 @@ OPTIMIZE_JARS_CMD
 -
 optimize
 (
-JARLOG_DIR
+JARLOG_DIR_AB_CD
 )
 (
 DIST
