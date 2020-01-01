@@ -1168,7 +1168,6 @@ caption
 ref
 .
 html
-fails
 =
 =
 table
@@ -1187,12 +1186,6 @@ caption
 ref
 .
 html
-#
-Bug
-297676
-and
-478614
-fails
 =
 =
 table
@@ -1211,12 +1204,6 @@ caption
 ref
 .
 html
-#
-Bug
-297676
-and
-478614
-fails
 =
 =
 table
@@ -1235,12 +1222,6 @@ caption
 ref
 .
 html
-#
-Bug
-297676
-and
-478614
-fails
 =
 =
 table
@@ -1259,11 +1240,6 @@ caption
 ref
 .
 html
-#
-Bug
-297676
-and
-478614
 =
 =
 table
@@ -1286,7 +1262,6 @@ top
 ref
 .
 html
-fails
 =
 =
 table
@@ -1309,9 +1284,6 @@ top
 ref
 .
 html
-#
-Bug
-478614
 =
 =
 table
@@ -1334,7 +1306,6 @@ bottom
 ref
 .
 html
-fails
 =
 =
 table
@@ -1357,9 +1328,6 @@ bottom
 ref
 .
 html
-#
-Bug
-478614
 fails
 =
 =
