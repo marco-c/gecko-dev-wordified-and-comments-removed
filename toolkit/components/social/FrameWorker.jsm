@@ -1339,9 +1339,9 @@ false
 ;
 docShell
 .
-isBrowserFrame
-=
-true
+setIsBrowser
+(
+)
 ;
 return
 iframe
