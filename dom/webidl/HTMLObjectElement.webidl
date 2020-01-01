@@ -1138,6 +1138,15 @@ readonly
 attribute
 unsigned
 long
+defaultFallbackType
+;
+[
+ChromeOnly
+]
+readonly
+attribute
+unsigned
+long
 pluginFallbackType
 ;
 /

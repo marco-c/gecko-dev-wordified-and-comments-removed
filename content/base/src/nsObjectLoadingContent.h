@@ -433,6 +433,11 @@ mURI
 ;
 }
 uint32_t
+DefaultFallbackType
+(
+)
+;
+uint32_t
 PluginFallbackType
 (
 )
@@ -748,6 +753,8 @@ ShouldPlay
 FallbackType
 &
 aReason
+bool
+aIgnoreCurrentType
 )
 ;
 bool
