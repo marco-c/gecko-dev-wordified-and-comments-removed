@@ -58,7 +58,7 @@ version
 .
 5
 .
-2
+3
 '
 try
 :
@@ -68,7 +68,6 @@ setuptools
 import
 setup
 except
-ImportError
 :
     
 setup
