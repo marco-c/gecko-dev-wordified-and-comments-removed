@@ -127,7 +127,7 @@ http
 /
 localhost
 :
-6666
+7777
 /
 apps
 /
@@ -3174,7 +3174,7 @@ http
 /
 localhost
 :
-6666
+7777
 "
 )
 ;
@@ -3210,7 +3210,7 @@ http
 /
 localhost
 :
-6666
+7777
 "
 )
 ;
