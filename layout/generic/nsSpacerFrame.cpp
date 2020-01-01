@@ -141,7 +141,7 @@ aStatus
 )
 ;
 PRUint8
-GetType
+GetSpacerType
 (
 )
 ;
@@ -422,7 +422,7 @@ height
 ;
 if
 (
-GetType
+GetSpacerType
 (
 )
 =
@@ -490,7 +490,7 @@ GetStylePosition
 PRUint8
 type
 =
-GetType
+GetSpacerType
 (
 )
 ;
@@ -725,7 +725,7 @@ PRUint8
 SpacerFrame
 :
 :
-GetType
+GetSpacerType
 (
 )
 {
