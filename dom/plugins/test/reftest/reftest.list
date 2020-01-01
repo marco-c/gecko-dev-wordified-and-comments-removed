@@ -951,7 +951,6 @@ shrink
 ref
 .
 html
-#
 skip
 -
 if
@@ -973,8 +972,6 @@ update
 ref
 .
 html
-bug
-810426
 fails
 -
 if
