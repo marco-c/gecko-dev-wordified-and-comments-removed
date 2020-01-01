@@ -1242,6 +1242,10 @@ browser_urlbarEnter
 .
 js
 \
+browser_urlbarRevert
+.
+js
+\
 browser_urlbarTrimURLs
 .
 js

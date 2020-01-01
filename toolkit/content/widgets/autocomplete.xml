@@ -2554,11 +2554,15 @@ this
 .
 _textRevertedHandler
 )
+return
 this
 .
 _textRevertedHandler
 (
 )
+;
+return
+false
 ;
 ]
 ]
