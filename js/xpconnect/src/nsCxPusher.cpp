@@ -513,11 +513,6 @@ cx
 compartmentObject
 )
 ;
-xpc_UnmarkGrayContext
-(
-cx
-)
-;
 }
 }
 NS_EXPORT

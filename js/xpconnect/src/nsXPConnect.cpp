@@ -5892,10 +5892,7 @@ GetCurrentJSContext
 (
 )
 {
-JSContext
-*
-cx
-=
+return
 GetRuntime
 (
 )
@@ -5908,12 +5905,6 @@ GetJSContextStack
 >
 Peek
 (
-)
-;
-return
-xpc_UnmarkGrayContext
-(
-cx
 )
 ;
 }
