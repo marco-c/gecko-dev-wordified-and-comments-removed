@@ -178,6 +178,9 @@ mSpec
 ;
 #
 endif
+bool
+mOpened
+;
 nsCOMPtr
 <
 nsIJARURI

@@ -63,14 +63,14 @@ UnaryTypes
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 inTypes
 ;
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 outTypes
 ;
@@ -82,21 +82,21 @@ BinaryTypes
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 lhsTypes
 ;
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 rhsTypes
 ;
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 outTypes
 ;
@@ -189,7 +189,7 @@ virtual
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 thisTypeSet
 (
@@ -225,7 +225,7 @@ virtual
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 parameterTypeSet
 (
@@ -244,7 +244,7 @@ virtual
 types
 :
 :
-TypeSet
+HeapTypeSet
 *
 globalPropertyTypeSet
 (
@@ -266,7 +266,7 @@ virtual
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 propertyRead
 (
@@ -286,7 +286,7 @@ virtual
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 propertyReadBarrier
 (
@@ -324,7 +324,7 @@ virtual
 types
 :
 :
-TypeSet
+HeapTypeSet
 *
 globalPropertyWrite
 (
@@ -354,7 +354,7 @@ virtual
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 returnTypeSet
 (
@@ -367,7 +367,7 @@ pc
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 *
 barrier
@@ -635,7 +635,7 @@ virtual
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 getCallTarget
 (
@@ -680,7 +680,7 @@ virtual
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 getCallArg
 (
@@ -704,7 +704,7 @@ virtual
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 getCallReturn
 (
@@ -756,7 +756,7 @@ isArgumentObject
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 obj
 )
@@ -837,7 +837,7 @@ virtual
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 aliasedVarBarrier
 (
@@ -850,7 +850,7 @@ pc
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 *
 barrier
@@ -1024,7 +1024,18 @@ getMIRType
 types
 :
 :
-TypeSet
+StackTypeSet
+*
+types
+)
+;
+MIRType
+getMIRType
+(
+types
+:
+:
+HeapTypeSet
 *
 types
 )
@@ -1103,7 +1114,7 @@ pc
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 thisTypeSet
 (
@@ -1129,7 +1140,7 @@ slotTypes
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 parameterTypeSet
 (
@@ -1143,7 +1154,7 @@ index
 types
 :
 :
-TypeSet
+HeapTypeSet
 *
 globalPropertyTypeSet
 (
@@ -1160,7 +1171,7 @@ id
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 propertyRead
 (
@@ -1175,7 +1186,7 @@ pc
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 propertyReadBarrier
 (
@@ -1203,7 +1214,7 @@ id
 types
 :
 :
-TypeSet
+HeapTypeSet
 *
 globalPropertyWrite
 (
@@ -1223,7 +1234,7 @@ canSpecialize
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 returnTypeSet
 (
@@ -1236,7 +1247,7 @@ pc
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 *
 barrier
@@ -1245,7 +1256,7 @@ barrier
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 getCallTarget
 (
@@ -1262,7 +1273,7 @@ pc
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 getCallArg
 (
@@ -1281,7 +1292,7 @@ pc
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 getCallReturn
 (
@@ -1482,7 +1493,7 @@ callee
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 aliasedVarBarrier
 (
@@ -1495,7 +1506,7 @@ pc
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 *
 barrier
@@ -1507,7 +1518,7 @@ isArgumentObject
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 obj
 )

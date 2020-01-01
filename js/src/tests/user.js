@@ -450,3 +450,15 @@ max_resumed_crashes
 1
 )
 ;
+user_pref
+(
+"
+security
+.
+enablePrivilege
+.
+enable_for_tests
+"
+true
+)
+;

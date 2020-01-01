@@ -886,7 +886,9 @@ NULL
 maybeFun
 -
 >
-atom
+displayAtom
+(
+)
 !
 =
 NULL
@@ -906,7 +908,9 @@ append
 maybeFun
 -
 >
-atom
+displayAtom
+(
+)
 )
 )
 return

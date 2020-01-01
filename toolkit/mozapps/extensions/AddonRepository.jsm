@@ -4787,7 +4787,7 @@ addon
 name
 addon
 .
-iconURL
+icons
 addon
 .
 version

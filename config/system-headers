@@ -1558,11 +1558,6 @@ lib
 routines
 .
 h
-libnotify
-/
-notify
-.
-h
 limits
 limits
 .

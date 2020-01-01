@@ -123,9 +123,6 @@ mozilla
 dom
 :
 :
-binding
-:
-:
 DefineInterface
 mDefineDOMInterface
 ;
@@ -321,9 +318,6 @@ mozilla
 :
 :
 dom
-:
-:
-binding
 :
 :
 DefineInterface

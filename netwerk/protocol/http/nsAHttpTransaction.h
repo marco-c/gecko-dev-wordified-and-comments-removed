@@ -174,7 +174,7 @@ reason
 ;
 virtual
 void
-SetSSLConnectFailed
+SetProxyConnectFailed
 (
 )
 =
@@ -385,7 +385,7 @@ reason
 ;
 \
 void
-SetSSLConnectFailed
+SetProxyConnectFailed
 (
 )
 ;

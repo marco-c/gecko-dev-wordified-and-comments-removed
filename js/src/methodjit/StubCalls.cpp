@@ -466,6 +466,11 @@ SetNameOperation
 cx
 f
 .
+script
+(
+)
+f
+.
 pc
 (
 )
@@ -2071,6 +2076,8 @@ fun
 -
 >
 atom
+(
+)
 -
 >
 asPropertyName

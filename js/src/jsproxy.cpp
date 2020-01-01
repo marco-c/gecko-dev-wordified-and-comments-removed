@@ -9722,12 +9722,13 @@ key
 ;
 JS_ASSERT
 (
+*
 p
 -
 >
 value
 .
-get
+unsafeGet
 (
 )
 =
@@ -10092,7 +10093,6 @@ proxy_DeleteSpecial
 NULL
 proxy_TypeOf
 NULL
-NULL
 }
 }
 ;
@@ -10168,7 +10168,6 @@ proxy_SetSpecialAttributes
 proxy_DeleteProperty
 proxy_DeleteElement
 proxy_DeleteSpecial
-NULL
 NULL
 NULL
 NULL
@@ -10360,7 +10359,6 @@ proxy_DeleteElement
 proxy_DeleteSpecial
 NULL
 proxy_TypeOf
-NULL
 NULL
 }
 }
@@ -10557,7 +10555,7 @@ NULL
 obj
 -
 >
-setSlot
+initSlot
 (
 JSSLOT_PROXY_HANDLER
 PrivateValue
@@ -10569,7 +10567,7 @@ handler
 obj
 -
 >
-setSlot
+initCrossCompartmentSlot
 (
 JSSLOT_PROXY_PRIVATE
 priv
@@ -10583,7 +10581,7 @@ fun
 obj
 -
 >
-setSlot
+initCrossCompartmentSlot
 (
 JSSLOT_PROXY_CALL
 call
@@ -10607,7 +10605,7 @@ construct
 obj
 -
 >
-setSlot
+initSlot
 (
 JSSLOT_PROXY_CONSTRUCT
 ObjectValue

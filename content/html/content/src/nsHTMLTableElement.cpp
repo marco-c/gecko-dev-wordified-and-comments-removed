@@ -219,7 +219,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 HTMLCollection
@@ -3707,6 +3707,18 @@ aValue
 }
 }
 return
+nsGenericHTMLElement
+:
+:
+ParseBackgroundAttribute
+(
+aNamespaceID
+aAttribute
+aValue
+aResult
+)
+|
+|
 nsGenericHTMLElement
 :
 :

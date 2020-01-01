@@ -2089,7 +2089,7 @@ AutoTimer
 Telemetry
 :
 :
-CACHE_DISK_SEARCH
+CACHE_DISK_SEARCH_2
 >
 timer
 ;

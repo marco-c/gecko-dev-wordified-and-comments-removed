@@ -1140,6 +1140,12 @@ UseAzureContentDrawing
 )
 ;
 static
+bool
+OffMainThreadCompositingEnabled
+(
+)
+;
+static
 eCMSMode
 GetCMSMode
 (

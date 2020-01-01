@@ -213,13 +213,6 @@ removeFront
 }
 else
 {
-e
-.
-rekeyFront
-(
-k
-)
-;
 }
 }
 #

@@ -9751,6 +9751,12 @@ if
 foundCrashDumpFile
 )
 {
++
++
+gTestResults
+.
+UnexpectedFail
+;
 foundCrashDumpFile
 =
 true

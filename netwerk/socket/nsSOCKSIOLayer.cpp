@@ -4227,6 +4227,8 @@ fam
 {
 uint32_t
 amt
+=
+0
 ;
 const
 uint8_t

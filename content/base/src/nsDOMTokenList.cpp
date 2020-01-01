@@ -1096,7 +1096,7 @@ mozilla
 dom
 :
 :
-binding
+oldproxybindings
 :
 :
 DOMTokenList

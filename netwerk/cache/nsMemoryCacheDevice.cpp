@@ -443,7 +443,7 @@ mozilla
 Telemetry
 :
 :
-CACHE_MEMORY_SEARCH
+CACHE_MEMORY_SEARCH_2
 >
 timer
 ;

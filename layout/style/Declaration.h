@@ -180,7 +180,7 @@ Length
 )
 ;
 }
-void
+bool
 GetNthProperty
 (
 uint32_t

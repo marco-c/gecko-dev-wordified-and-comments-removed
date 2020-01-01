@@ -5523,6 +5523,9 @@ in
 directives
 :
       
+try
+:
+        
 data
 =
 self
@@ -5543,6 +5546,13 @@ d
 }
 ]
 )
+      
+except
+AgentError
+:
+        
+return
+result
       
 if
 (

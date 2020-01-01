@@ -300,6 +300,8 @@ aValue
 nsSVGElement
 *
 aSVGElement
+bool
+aDoSetAttr
 )
 ;
 void

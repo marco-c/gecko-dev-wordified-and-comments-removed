@@ -2930,7 +2930,7 @@ NS_SUCCEEDED
 rv
 )
 )
-JS_ClearScope
+JS_ClearNonGlobalObject
 (
 cx
 obj

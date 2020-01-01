@@ -563,7 +563,6 @@ length
 }
 }
 }
-}
 XPCJSStackFrame
 *
 frame

@@ -286,6 +286,10 @@ friend
 class
 nsEvictDiskCacheEntriesEvent
 ;
+friend
+class
+nsDiskCacheMap
+;
 inline
 bool
 IsValidBinding

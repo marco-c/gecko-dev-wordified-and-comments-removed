@@ -133,6 +133,10 @@ browser_webconsole_console_logging_api
 .
 js
 \
+browser_webconsole_change_font_size
+.
+js
+\
 browser_webconsole_chrome
 .
 js

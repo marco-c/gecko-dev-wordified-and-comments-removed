@@ -5654,7 +5654,7 @@ out
 }
 #
 endif
-void
+bool
 Declaration
 :
 :
@@ -5713,8 +5713,14 @@ property
 aReturn
 )
 ;
+return
+true
+;
 }
 }
+return
+false
+;
 }
 void
 Declaration

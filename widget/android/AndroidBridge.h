@@ -482,6 +482,10 @@ aTypeHint
 const
 nsAString
 &
+aModeHint
+const
+nsAString
+&
 aActionHint
 )
 ;

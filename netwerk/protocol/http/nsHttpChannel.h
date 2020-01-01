@@ -650,15 +650,8 @@ ContinueProcessRedirectionAfterFallback
 nsresult
 )
 ;
-bool
-ShouldSSLProxyResponseContinue
-(
-uint32_t
-httpStatus
-)
-;
 nsresult
-ProcessFailedSSLConnect
+ProcessFailedProxyConnect
 (
 uint32_t
 httpStatus

@@ -12237,6 +12237,7 @@ iswhitespace
 lastSpace
 )
 )
+continue
 ;
 +
 +
@@ -12284,6 +12285,7 @@ iswhitespace
 aIter
 )
 )
+continue
 ;
 start
 =
@@ -12336,6 +12338,7 @@ iswhitespace
 lastSpace
 )
 )
+continue
 ;
 aTokenValue
 .

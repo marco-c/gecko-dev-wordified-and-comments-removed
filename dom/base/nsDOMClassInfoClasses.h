@@ -1463,6 +1463,14 @@ ContentFrameMessageManager
 )
 DOMCI_CLASS
 (
+ChromeMessageBroadcaster
+)
+DOMCI_CLASS
+(
+ChromeMessageSender
+)
+DOMCI_CLASS
+(
 FormData
 )
 DOMCI_CLASS
@@ -1608,10 +1616,6 @@ BluetoothDevice
 DOMCI_CLASS
 (
 BluetoothPropertyEvent
-)
-DOMCI_CLASS
-(
-BluetoothPairingEvent
 )
 #
 endif

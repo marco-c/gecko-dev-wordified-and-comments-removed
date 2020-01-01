@@ -1403,13 +1403,6 @@ cached
 uint32_t
 shapeGuard
 ;
-types
-:
-:
-TypeSet
-*
-rhsTypes
-;
 inline
 bool
 isSet

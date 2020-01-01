@@ -3957,6 +3957,8 @@ Loader
 >
 mCSSLoader
 ;
+nsRefPtr
+<
 mozilla
 :
 :
@@ -3964,11 +3966,13 @@ css
 :
 :
 ImageLoader
-*
+>
 mStyleImageLoader
 ;
+nsRefPtr
+<
 nsHTMLStyleSheet
-*
+>
 mAttrStyleSheet
 ;
 nsAutoPtr
