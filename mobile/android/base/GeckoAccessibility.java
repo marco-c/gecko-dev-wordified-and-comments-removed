@@ -1176,10 +1176,6 @@ screenBounds
 )
 ;
 }
-sEventMessage
-=
-message
-;
 ThreadUtils
 .
 postToUiThread
@@ -1206,6 +1202,10 @@ AccessibilityEvent
 .
 TYPE_VIEW_ACCESSIBILITY_FOCUSED
 :
+sEventMessage
+=
+message
+;
 view
 .
 performAccessibilityAction
@@ -1228,6 +1228,10 @@ AccessibilityEvent
 .
 TYPE_VIEW_SCROLLED
 :
+sEventMessage
+=
+null
+;
 final
 AccessibilityEvent
 accEvent
@@ -1268,6 +1272,10 @@ break
 ;
 default
 :
+sEventMessage
+=
+message
+;
 view
 .
 sendAccessibilityEvent
