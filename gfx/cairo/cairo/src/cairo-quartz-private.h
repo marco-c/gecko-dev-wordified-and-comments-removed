@@ -63,6 +63,9 @@ clipper
 CGImageRef
 bitmapContextImage
 ;
+CGLayerRef
+cgLayer
+;
 cairo_rectangle_int_t
 extents
 ;
