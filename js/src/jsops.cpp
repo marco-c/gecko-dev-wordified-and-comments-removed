@@ -16769,14 +16769,12 @@ id
 ;
 if
 (
-JS_TypeOfValue
+!
+js_IsCallable
 (
 cx
 rval
 )
-!
-=
-JSTYPE_FUNCTION
 )
 {
 JS_ReportErrorNumber

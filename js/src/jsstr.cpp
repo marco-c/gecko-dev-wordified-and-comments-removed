@@ -10132,7 +10132,7 @@ argc
 2
 &
 &
-JS_TypeOfValue
+js_IsCallable
 (
 cx
 vp
@@ -10140,9 +10140,6 @@ vp
 3
 ]
 )
-=
-=
-JSTYPE_FUNCTION
 )
 {
 rdata
