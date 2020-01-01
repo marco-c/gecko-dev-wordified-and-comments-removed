@@ -11083,10 +11083,6 @@ newborn
 GCX_OBJECT
 ]
 =
-(
-JSGCThing
-*
-)
 obj
 ;
 return
@@ -19344,10 +19340,6 @@ newborn
 GCX_OBJECT
 ]
 =
-(
-JSGCThing
-*
-)
 JSVAL_TO_GCTHING
 (
 v

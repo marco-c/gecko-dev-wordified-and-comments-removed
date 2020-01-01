@@ -1683,7 +1683,7 @@ if
 type
 =
 =
-JOF_ATOM
+JOF_SLOTATOM
 )
 {
 JS_GET_SCRIPT_ATOM
