@@ -62,6 +62,13 @@ p
 /
 snappy
 /
+We
+are
+currently
+using
+revision
+:
+56
 To
 upgrade
 to
@@ -201,3 +208,13 @@ Makefile
 .
 am
 '
+5
+.
+Update
+the
+revision
+stamp
+in
+this
+file
+.

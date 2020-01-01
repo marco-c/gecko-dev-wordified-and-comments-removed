@@ -169,7 +169,7 @@ kBlockLog
 ;
 static
 const
-int
+size_t
 kBlockSize
 =
 1
@@ -186,7 +186,7 @@ kMaxHashTableBits
 ;
 static
 const
-int
+size_t
 kMaxHashTableSize
 =
 1

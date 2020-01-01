@@ -201,3 +201,10 @@ java
 )
 parser
 /
+#
+SVN
+directories
+\
+.
+svn
+/

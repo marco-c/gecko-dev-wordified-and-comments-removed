@@ -192,7 +192,6 @@ FLAGS_
 flag_name
 =
 default_value
-;
 #
 define
 DECLARE_bool
@@ -206,14 +205,6 @@ FLAGS_
 #
 #
 flag_name
-;
-#
-define
-REGISTER_MODULE_INITIALIZER
-(
-name
-code
-)
 namespace
 snappy
 {

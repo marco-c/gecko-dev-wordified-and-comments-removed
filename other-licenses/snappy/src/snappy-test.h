@@ -416,8 +416,13 @@ if
 ret
 =
 =
--
-1
+0
+&
+&
+ferror
+(
+fp
+)
 )
 {
 perror
