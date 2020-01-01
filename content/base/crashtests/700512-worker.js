@@ -14,7 +14,7 @@ data
 ;
 blob
 .
-mozSlice
+slice
 (
 1
 5

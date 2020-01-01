@@ -819,7 +819,7 @@ NS_IMETHODIMP
 nsDOMFileBase
 :
 :
-MozSlice
+Slice
 (
 PRInt64
 aStart

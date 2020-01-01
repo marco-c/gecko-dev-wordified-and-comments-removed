@@ -1532,7 +1532,7 @@ slice
 =
 file
 .
-mozSlice
+slice
 (
 0
 size
@@ -1578,7 +1578,7 @@ slice
 =
 file
 .
-mozSlice
+slice
 (
 0
 1234
@@ -1624,7 +1624,7 @@ slice
 =
 file
 .
-mozSlice
+slice
 (
 0
 size
@@ -1661,7 +1661,7 @@ slice
 =
 file
 .
-mozSlice
+slice
 (
 0
 5432
@@ -1698,7 +1698,7 @@ is
 (
 slice
 .
-mozSlice
+slice
 (
 0
 10
@@ -1721,7 +1721,7 @@ is
 (
 slice
 .
-mozSlice
+slice
 (
 0
 10
@@ -1743,7 +1743,7 @@ is
 (
 slice
 .
-mozSlice
+slice
 (
 0
 10
@@ -1777,7 +1777,7 @@ is
 (
 slice
 .
-mozSlice
+slice
 (
 0
 10
@@ -1984,7 +1984,7 @@ slice
 =
 file
 .
-mozSlice
+slice
 (
 )
 ;
@@ -2026,7 +2026,7 @@ slice
 =
 file
 .
-mozSlice
+slice
 (
 indexes
 [
@@ -2080,7 +2080,7 @@ slice
 =
 file
 .
-mozSlice
+slice
 (
 indexes
 [
@@ -2219,7 +2219,7 @@ slice
 =
 file
 .
-mozSlice
+slice
 (
 0
 40000
@@ -2229,7 +2229,7 @@ testFile
 (
 slice
 .
-mozSlice
+slice
 (
 5000
 42000
@@ -2252,7 +2252,7 @@ slice
 =
 slice
 .
-mozSlice
+slice
 (
 5000
 42000

@@ -37,7 +37,7 @@ slicedBlob
 =
 blob
 .
-mozSlice
+slice
 (
 start
 end

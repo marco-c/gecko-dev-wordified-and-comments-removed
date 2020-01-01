@@ -581,7 +581,7 @@ principal
 optional_argc
 ]
 nsIDOMBlob
-mozSlice
+slice
 (
 [
 optional
