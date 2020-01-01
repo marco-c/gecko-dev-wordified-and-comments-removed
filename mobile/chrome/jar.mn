@@ -250,7 +250,7 @@ content
 /
 preferences
 /
-richpref
+setting
 .
 xml
 (
@@ -258,7 +258,7 @@ content
 /
 preferences
 /
-richpref
+setting
 .
 xml
 )
