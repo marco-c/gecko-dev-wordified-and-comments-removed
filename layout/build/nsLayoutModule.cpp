@@ -1365,7 +1365,7 @@ android
 #
 include
 "
-nsAccelerometerSystem
+nsDeviceMotionSystem
 .
 h
 "
@@ -1509,7 +1509,7 @@ android
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsAccelerometerSystem
+nsDeviceMotionSystem
 )
 #
 endif
@@ -4001,7 +4001,7 @@ android
 )
 NS_DEFINE_NAMED_CID
 (
-NS_ACCELEROMETER_CID
+NS_DEVICE_MOTION_CID
 )
 ;
 #
@@ -4898,10 +4898,10 @@ android
 )
 {
 &
-kNS_ACCELEROMETER_CID
+kNS_DEVICE_MOTION_CID
 false
 NULL
-nsAccelerometerSystemConstructor
+nsDeviceMotionSystemConstructor
 }
 #
 endif
@@ -6189,9 +6189,9 @@ defined
 android
 )
 {
-NS_ACCELEROMETER_CONTRACTID
+NS_DEVICE_MOTION_CONTRACTID
 &
-kNS_ACCELEROMETER_CID
+kNS_DEVICE_MOTION_CID
 }
 #
 endif

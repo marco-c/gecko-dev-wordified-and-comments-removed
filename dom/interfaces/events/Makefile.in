@@ -554,6 +554,10 @@ nsIDOMDeviceOrientationEvent
 .
 idl
 \
+nsIDOMDeviceMotionEvent
+.
+idl
+\
 nsIDOMScrollAreaEvent
 .
 idl

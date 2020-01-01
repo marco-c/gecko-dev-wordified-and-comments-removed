@@ -482,7 +482,11 @@ nsDOMPopupBlockedEvent
 .
 cpp
 \
-nsDOMOrientationEvent
+nsDOMDeviceOrientationEvent
+.
+cpp
+\
+nsDOMDeviceMotionEvent
 .
 cpp
 \

@@ -30536,7 +30536,9 @@ true
 pref
 (
 "
-accelerometer
+device
+.
+motion
 .
 enabled
 "

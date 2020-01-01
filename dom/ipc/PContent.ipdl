@@ -753,8 +753,10 @@ Permission
 permission
 )
 ;
-AccelerationChanged
+DeviceMotionChanged
 (
+long
+type
 double
 x
 double
@@ -963,11 +965,11 @@ RemoveGeolocationListener
 (
 )
 ;
-AddAccelerometerListener
+AddDeviceMotionListener
 (
 )
 ;
-RemoveAccelerometerListener
+RemoveDeviceMotionListener
 (
 )
 ;

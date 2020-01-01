@@ -1950,12 +1950,12 @@ HasIndexedDBSupport
 private
 :
 void
-EnableAccelerationUpdates
+EnableDeviceMotionUpdates
 (
 )
 ;
 void
-DisableAccelerationUpdates
+DisableDeviceMotionUpdates
 (
 )
 ;
@@ -2909,7 +2909,7 @@ mFocusByKeyOccurred
 1
 ;
 PRPackedBool
-mHasAcceleration
+mHasDeviceMotion
 :
 1
 ;

@@ -460,8 +460,13 @@ permission
 ;
 virtual
 bool
-RecvAccelerationChanged
+RecvDeviceMotionChanged
 (
+const
+long
+int
+&
+type
 const
 double
 &

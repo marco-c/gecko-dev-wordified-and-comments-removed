@@ -1,9 +1,9 @@
 #
 ifndef
-nsDOMOrientationEvent_h__
+nsDOMDeviceOrientationEvent_h__
 #
 define
-nsDOMOrientationEvent_h__
+nsDOMDeviceOrientationEvent_h__
 #
 include
 "
@@ -19,7 +19,7 @@ nsDOMEvent
 h
 "
 class
-nsDOMOrientationEvent
+nsDOMDeviceOrientationEvent
 :
 public
 nsDOMEvent
@@ -28,7 +28,7 @@ nsIDOMDeviceOrientationEvent
 {
 public
 :
-nsDOMOrientationEvent
+nsDOMDeviceOrientationEvent
 (
 nsPresContext
 *

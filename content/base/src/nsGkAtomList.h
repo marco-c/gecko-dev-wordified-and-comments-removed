@@ -11707,6 +11707,13 @@ ondeviceorientation
 )
 GK_ATOM
 (
+ondevicemotion
+"
+ondevicemotion
+"
+)
+GK_ATOM
+(
 cdataTagName
 "
 #

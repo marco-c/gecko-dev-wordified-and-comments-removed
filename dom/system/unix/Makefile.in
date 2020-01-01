@@ -466,7 +466,7 @@ mk
 CPPSRCS
 =
 \
-nsAccelerometerSystem
+nsDeviceMotionSystem
 .
 cpp
 \

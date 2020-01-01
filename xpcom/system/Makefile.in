@@ -455,7 +455,7 @@ nsIGSettingsService
 .
 idl
 \
-nsIAccelerometer
+nsIDeviceMotion
 .
 idl
 \

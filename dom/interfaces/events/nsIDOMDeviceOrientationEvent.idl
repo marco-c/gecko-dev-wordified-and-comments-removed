@@ -725,10 +725,5 @@ attribute
 boolean
 absolute
 ;
-readonly
-attribute
-boolean
-compassCalibrated
-;
 }
 ;

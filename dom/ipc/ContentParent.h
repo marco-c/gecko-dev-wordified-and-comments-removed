@@ -91,7 +91,7 @@ h
 #
 include
 "
-nsIAccelerometer
+nsIDeviceMotion
 .
 h
 "
@@ -140,7 +140,7 @@ nsIThreadObserver
 public
 nsIDOMGeoPositionCallback
 public
-nsIAccelerationListener
+nsIDeviceMotionListener
 {
 private
 :
@@ -193,7 +193,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITHREADOBSERVER
 NS_DECL_NSIDOMGEOPOSITIONCALLBACK
-NS_DECL_NSIACCELERATIONLISTENER
+NS_DECL_NSIDEVICEMOTIONLISTENER
 TabParent
 *
 CreateTab
@@ -780,13 +780,13 @@ RecvRemoveGeolocationListener
 ;
 virtual
 bool
-RecvAddAccelerometerListener
+RecvAddDeviceMotionListener
 (
 )
 ;
 virtual
 bool
-RecvRemoveAccelerometerListener
+RecvRemoveDeviceMotionListener
 (
 )
 ;
