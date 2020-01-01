@@ -16964,8 +16964,6 @@ nsJSContext
 :
 CycleCollectNow
 (
-nullptr
-0
 )
 ;
 return
