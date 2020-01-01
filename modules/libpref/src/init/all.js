@@ -15969,7 +15969,7 @@ mousewheel
 .
 enable_pixel_scrolling
 "
-false
+true
 )
 ;
 pref
