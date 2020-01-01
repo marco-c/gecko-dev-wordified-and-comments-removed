@@ -125,8 +125,7 @@ gcNursery
 )
 gcStoreBuffer
 (
-&
-gcNursery
+rt
 )
 #
 endif

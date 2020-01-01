@@ -5814,6 +5814,14 @@ elements
 emptyObjectElements
 ;
 }
+JS_ALWAYS_INLINE
+Zone
+*
+zone
+(
+)
+const
+;
 static
 inline
 ThingRootKind
