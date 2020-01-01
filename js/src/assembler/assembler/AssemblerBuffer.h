@@ -592,8 +592,6 @@ newCapacity
 m_capacity
 +
 m_capacity
-/
-2
 +
 extraCapacity
 ;
