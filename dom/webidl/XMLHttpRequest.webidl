@@ -629,6 +629,17 @@ iid
 )
 ;
 [
+TreatNonCallableAsNull
+GetterInfallible
+=
+MainThread
+]
+attribute
+Function
+?
+onuploadprogress
+;
+[
 Infallible
 ]
 readonly
