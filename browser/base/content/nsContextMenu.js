@@ -2449,6 +2449,12 @@ copylink
 this
 .
 onLink
+&
+&
+!
+this
+.
+onMailtoLink
 )
 ;
 this
