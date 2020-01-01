@@ -35,6 +35,13 @@ nsICharsetConverterManager
 .
 h
 "
+#
+include
+"
+gfxCore
+.
+h
+"
 enum
 ConverterRequest
 {
@@ -43,6 +50,7 @@ eConv_Decoder
 }
 ;
 class
+NS_GFX
 OS2Uni
 {
 public
@@ -93,7 +101,10 @@ CHAR_BUFFER_SIZE
 >
 nsAutoChar16Buffer
 ;
+NS_GFX_
+(
 nsresult
+)
 WideCharToMultiByte
 (
 int
@@ -112,7 +123,10 @@ PRInt32
 aResultLength
 )
 ;
+NS_GFX_
+(
 nsresult
+)
 MultiByteToWideChar
 (
 int

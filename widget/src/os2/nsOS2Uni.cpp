@@ -548,7 +548,10 @@ gCharsetManager
 )
 ;
 }
+NS_GFX_
+(
 nsresult
+)
 WideCharToMultiByte
 (
 int
@@ -673,7 +676,10 @@ return
 rv
 ;
 }
+NS_GFX_
+(
 nsresult
+)
 MultiByteToWideChar
 (
 int
