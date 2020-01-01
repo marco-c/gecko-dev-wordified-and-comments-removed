@@ -877,6 +877,14 @@ CSS_KEY
 -
 moz
 -
+objectvalue
+_moz_objectvalue
+)
+CSS_KEY
+(
+-
+moz
+-
 oddtreerow
 _moz_oddtreerow
 )

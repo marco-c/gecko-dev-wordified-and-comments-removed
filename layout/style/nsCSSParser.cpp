@@ -42702,10 +42702,13 @@ if
 ParseVariant
 (
 value
-VARIANT_INHERIT
+VARIANT_HK
 |
 VARIANT_NONE
-nullptr
+nsCSSProps
+:
+:
+kStrokeObjectValueKTable
 )
 )
 {
