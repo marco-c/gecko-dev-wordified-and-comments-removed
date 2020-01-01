@@ -11,6 +11,13 @@ vector
 #
 include
 "
+logging
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -112,13 +119,6 @@ ice_handler
 h
 "
 }
-#
-include
-"
-logging
-.
-h
-"
 #
 include
 "

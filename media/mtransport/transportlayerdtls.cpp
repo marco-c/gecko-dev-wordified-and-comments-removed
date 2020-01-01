@@ -11,6 +11,13 @@ algorithm
 #
 include
 "
+logging
+.
+h
+"
+#
+include
+"
 ssl
 .
 h
@@ -82,13 +89,6 @@ h
 include
 "
 dtlsidentity
-.
-h
-"
-#
-include
-"
-logging
 .
 h
 "

@@ -1,12 +1,5 @@
 #
 include
-<
-prlog
-.
-h
->
-#
-include
 "
 logging
 .

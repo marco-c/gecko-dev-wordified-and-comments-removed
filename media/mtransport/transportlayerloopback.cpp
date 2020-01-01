@@ -1,6 +1,13 @@
 #
 include
 "
+logging
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -72,13 +79,6 @@ h
 include
 "
 nsServiceManagerUtils
-.
-h
-"
-#
-include
-"
-logging
 .
 h
 "

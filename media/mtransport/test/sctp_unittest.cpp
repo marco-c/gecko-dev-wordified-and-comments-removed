@@ -23,6 +23,13 @@ h
 #
 include
 "
+logging
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
@@ -73,13 +80,6 @@ h
 include
 "
 transportlayerloopback
-.
-h
-"
-#
-include
-"
-logging
 .
 h
 "
