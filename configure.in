@@ -73748,6 +73748,11 @@ nologo
 EP
 \
 "
+SHELL
+=
+sh
+.
+exe
 "
 fi
 if
