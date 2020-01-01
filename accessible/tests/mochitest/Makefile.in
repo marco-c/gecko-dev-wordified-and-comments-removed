@@ -618,10 +618,6 @@ test_nsIAccessible_selects
 .
 html
 \
-test_nsIAccessible_states
-.
-html
-\
 test_nsIAccessible_focus
 .
 html
@@ -701,6 +697,10 @@ test_role_nsHyperTextAcc
 html
 \
 test_role_table_cells
+.
+html
+\
+test_states
 .
 html
 \
