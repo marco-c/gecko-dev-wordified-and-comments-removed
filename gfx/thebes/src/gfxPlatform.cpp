@@ -375,15 +375,10 @@ gfxPlatform
 (
 )
 {
-#
-if
-0
 cairo_debug_reset_static_data
 (
 )
 ;
-#
-endif
 }
 PRBool
 gfxPlatform
