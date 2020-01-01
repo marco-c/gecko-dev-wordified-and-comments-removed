@@ -1041,14 +1041,6 @@ ins
 )
 ;
 bool
-visitDumpPar
-(
-MDumpPar
-*
-ins
-)
-;
-bool
 visitStoreSlot
 (
 MStoreSlot

@@ -1259,14 +1259,6 @@ lir
 )
 ;
 bool
-visitDumpPar
-(
-LDumpPar
-*
-lir
-)
-;
-bool
 visitCallGetProperty
 (
 LCallGetProperty

@@ -939,11 +939,6 @@ GuardThreadLocalObject
 \
 _
 (
-DumpPar
-)
-\
-_
-(
 CheckInterruptPar
 )
 #
