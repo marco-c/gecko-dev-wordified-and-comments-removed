@@ -646,7 +646,7 @@ cx
 JSScript
 *
 script
-char
+jschar
 *
 *
 src
