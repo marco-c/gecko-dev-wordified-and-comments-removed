@@ -886,13 +886,6 @@ h
 #
 include
 "
-nsStyleSet
-.
-h
-"
-#
-include
-"
 nsStyleContext
 .
 h
@@ -30474,7 +30467,6 @@ CompileScriptEventListener
 (
 script_cx
 scope
-target
 atom
 did_define
 )
@@ -30510,7 +30502,6 @@ RegisterScriptEventListener
 (
 script_cx
 scope
-target
 atom
 )
 ;

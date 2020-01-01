@@ -1352,6 +1352,10 @@ JSPrincipals
 *
 principals
 ;
+jschar
+*
+sourceMap
+;
 JSObject
 *
 ownerObject

@@ -1,5 +1,3 @@
-try
-{
 function
 g
 (
@@ -22,9 +20,11 @@ arguments
 .
 length
 =
-8
-.
-64e15
+getMaxArgs
+(
+)
++
+1
 ;
 g
 .
@@ -39,10 +39,3 @@ f
 (
 )
 ;
-}
-catch
-(
-e
-)
-{
-}

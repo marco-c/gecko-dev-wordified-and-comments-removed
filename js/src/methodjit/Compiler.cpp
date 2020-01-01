@@ -26417,6 +26417,10 @@ results
 .
 append
 (
+(
+JSObject
+*
+)
 NULL
 )
 ;
