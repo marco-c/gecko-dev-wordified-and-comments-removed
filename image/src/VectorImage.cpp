@@ -386,13 +386,6 @@ InvalidateObserver
 )
 ;
 }
-else
-{
-ResumeListening
-(
-)
-;
-}
 }
 const
 nsRefPtr
