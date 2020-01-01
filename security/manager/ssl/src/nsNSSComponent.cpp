@@ -10317,7 +10317,7 @@ mHashContext
 pbuffer
 &
 hashLen
-32
+HASH_LENGTH_MAX
 )
 ;
 HASH_Destroy
