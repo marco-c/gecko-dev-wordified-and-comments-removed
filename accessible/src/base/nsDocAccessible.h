@@ -401,7 +401,7 @@ aAttribute
 )
 ;
 void
-FireTextChangedEventOnDOMCharacterDataModified
+FireTextChangeEventForText
 (
 nsIContent
 *
@@ -409,6 +409,8 @@ aContent
 CharacterDataChangeInfo
 *
 aInfo
+PRBool
+aIsInserted
 )
 ;
 already_AddRefed
