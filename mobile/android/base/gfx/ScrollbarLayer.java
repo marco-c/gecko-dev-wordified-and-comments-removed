@@ -1125,6 +1125,15 @@ context
 ;
 GLES20
 .
+glActiveTexture
+(
+GLES20
+.
+GL_TEXTURE0
+)
+;
+GLES20
+.
 glBindTexture
 (
 GLES20
