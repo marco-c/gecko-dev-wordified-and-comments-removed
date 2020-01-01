@@ -2565,9 +2565,8 @@ IsValidSibling
 nsIFrame
 *
 aParentFrame
-const
 nsIFrame
-&
+*
 aSibling
 PRUint8
 aSiblingDisplay
