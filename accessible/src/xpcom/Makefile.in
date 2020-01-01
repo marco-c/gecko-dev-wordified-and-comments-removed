@@ -100,6 +100,10 @@ xpcAccessibleTable
 .
 cpp
 \
+xpcAccessibleTableCell
+.
+cpp
+\
 (
 NULL
 )

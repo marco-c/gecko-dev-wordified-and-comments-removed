@@ -424,6 +424,15 @@ return
 false
 ;
 }
+virtual
+Accessible
+*
+AsAccessible
+(
+)
+=
+0
+;
 }
 ;
 }

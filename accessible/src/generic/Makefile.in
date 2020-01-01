@@ -127,6 +127,10 @@ RootAccessible
 .
 cpp
 \
+TableCellAccessible
+.
+cpp
+\
 TextLeafAccessible
 .
 cpp
