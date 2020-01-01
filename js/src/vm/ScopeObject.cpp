@@ -4685,15 +4685,11 @@ objp
 ;
 parentId
 =
-JSScript
-:
-:
-isValidOffset
-(
 script
 -
 >
-objectsOffset
+hasObjects
+(
 )
 ?
 FindObjectIndex

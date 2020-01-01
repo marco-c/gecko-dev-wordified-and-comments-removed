@@ -13149,15 +13149,11 @@ false
 ;
 if
 (
-JSScript
-:
-:
-isValidOffset
-(
 script
 -
 >
-objectsOffset
+hasObjects
+(
 )
 )
 {
