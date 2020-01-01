@@ -831,14 +831,6 @@ XPCOM_STANDALONE_GLUE_LDOPTS
 (
 NULL
 )
-ifdef
-MOZ_JPROF
-LIBS
-+
-=
--
-ljprof
-endif
 ifndef
 MOZ_WINCONSOLE
 ifdef
