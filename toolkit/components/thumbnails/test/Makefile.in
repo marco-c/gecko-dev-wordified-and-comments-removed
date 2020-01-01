@@ -126,10 +126,6 @@ browser_thumbnails_background
 .
 js
 \
-browser_thumbnails_background_crash
-.
-js
-\
 browser_thumbnails_update
 .
 js
