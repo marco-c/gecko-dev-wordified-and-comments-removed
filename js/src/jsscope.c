@@ -3428,9 +3428,6 @@ freeChunk
 =
 lastChunk
 ;
-goto
-out
-;
 }
 goto
 out
