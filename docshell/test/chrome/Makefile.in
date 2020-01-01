@@ -454,6 +454,10 @@ bug396519_window
 .
 xul
 \
+test_bug428288
+.
+html
+\
 (
 NULL
 )
