@@ -84,6 +84,8 @@ nsString
 aBody
 PRUint64
 aTimestamp
+bool
+aRead
 )
 ;
 SmsMessage
@@ -123,6 +125,9 @@ JS
 Value
 &
 aTimestamp
+const
+bool
+aRead
 JSContext
 *
 aCx
