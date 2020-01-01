@@ -4868,15 +4868,12 @@ UINT32_INDEX_LEN
 ;
 JS_ASSERT
 (
-size_t
-(
 js_CodeSpec
 [
 op
 ]
 .
 length
-)
 =
 =
 len

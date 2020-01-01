@@ -554,14 +554,6 @@ ins
 )
 ;
 bool
-visitRegExp
-(
-MRegExp
-*
-ins
-)
-;
-bool
 visitImplicitThis
 (
 MImplicitThis

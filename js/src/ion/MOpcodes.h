@@ -224,11 +224,6 @@ OsrEntry
 \
 _
 (
-RegExp
-)
-\
-_
-(
 ImplicitThis
 )
 \

@@ -269,14 +269,6 @@ lir
 )
 ;
 bool
-visitRegExp
-(
-LRegExp
-*
-lir
-)
-;
-bool
 visitPointer
 (
 LPointer

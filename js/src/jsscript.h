@@ -2296,10 +2296,7 @@ getCallerFunction
 )
 ;
 inline
-js
-:
-:
-RegExpObject
+JSObject
 *
 getRegExp
 (
