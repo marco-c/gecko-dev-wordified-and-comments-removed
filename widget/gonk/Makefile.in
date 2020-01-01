@@ -429,6 +429,11 @@ config
 autoconf
 .
 mk
+EXPORTS
+=
+OrientationObserver
+.
+h
 MODULE
 =
 widget
@@ -474,6 +479,10 @@ nsLookAndFeel
 cpp
 \
 nsIdleServiceGonk
+.
+cpp
+\
+OrientationObserver
 .
 cpp
 \
