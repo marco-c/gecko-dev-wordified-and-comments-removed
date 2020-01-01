@@ -102,6 +102,7 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 enum
 nsStyleAnimType
 {
+eStyleAnimType_Custom
 eStyleAnimType_Coord
 eStyleAnimType_Sides_Top
 eStyleAnimType_Sides_Right

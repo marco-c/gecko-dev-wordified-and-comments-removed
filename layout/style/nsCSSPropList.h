@@ -1785,7 +1785,7 @@ mBottom
 eCSSType_Value
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_BORDER
 (
@@ -1847,7 +1847,7 @@ mBottom
 eCSSType_Value
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_TABLEBORDER
 (
@@ -2061,7 +2061,7 @@ mLeft
 eCSSType_Value
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_BORDER
 (
@@ -2255,7 +2255,7 @@ mLeft
 eCSSType_Value
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_BORDER
 (
@@ -2349,7 +2349,7 @@ mRight
 eCSSType_Value
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_BORDER
 (
@@ -2543,7 +2543,7 @@ mRight
 eCSSType_Value
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_BORDER
 (
@@ -2771,7 +2771,7 @@ mTop
 eCSSType_Value
 kBorderColorKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_BORDER
 (
@@ -2833,7 +2833,7 @@ mTop
 eCSSType_Value
 kBorderWidthKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_SHORTHAND
 (
@@ -4015,7 +4015,7 @@ mOutlineColor
 eCSSType_Value
 kOutlineColorKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_OUTLINE
 (
