@@ -514,13 +514,6 @@ NS_FRAME_STATE_BIT
 )
 #
 define
-NS_FRAME_PAINTED_THEBES
-NS_FRAME_STATE_BIT
-(
-38
-)
-#
-define
 NS_FRAME_RESERVED
 ~
 NS_FRAME_IMPL_RESERVED
@@ -5684,11 +5677,6 @@ return
 kAbsoluteList
 ;
 }
-bool
-CheckAndClearPaintedState
-(
-)
-;
 protected
 :
 nsRect
