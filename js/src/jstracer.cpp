@@ -3589,6 +3589,7 @@ length
 ;
 return
 !
+memcmp
 (
 data
 (
