@@ -142,6 +142,10 @@ test_getUserMedia_basicVideoAudio
 .
 html
 \
+test_peerConnection_basicAudio
+.
+html
+\
 test_peerConnection_basicVideo
 .
 html
