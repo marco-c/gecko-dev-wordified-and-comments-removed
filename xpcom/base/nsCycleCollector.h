@@ -88,7 +88,7 @@ public
 nsCycleCollectionLanguageRuntime
 {
 virtual
-PRUint32
+PRBool
 Collect
 (
 )
@@ -99,7 +99,13 @@ Collect
 ;
 NS_COM
 PRBool
-nsCycleCollector_doCollect
+nsCycleCollector_beginCollection
+(
+)
+;
+NS_COM
+PRBool
+nsCycleCollector_finishCollection
 (
 )
 ;
