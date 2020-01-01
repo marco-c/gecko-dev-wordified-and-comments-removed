@@ -677,6 +677,14 @@ fe
 )
 ;
 void
+ensureInMemoryDoubles
+(
+Assembler
+&
+masm
+)
+;
+void
 forgetKnownDouble
 (
 FrameEntry

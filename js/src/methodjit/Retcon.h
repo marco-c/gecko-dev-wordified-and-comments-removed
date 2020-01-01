@@ -227,7 +227,7 @@ location
 static
 void
 *
-findCallSite
+findRejoin
 (
 JITScript
 *

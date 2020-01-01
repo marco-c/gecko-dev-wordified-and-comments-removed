@@ -393,6 +393,8 @@ emitStubCall
 void
 *
 ptr
+bool
+needsRejoin
 )
 ;
 Call
@@ -401,6 +403,8 @@ emitStubCall
 void
 *
 ptr
+bool
+needsRejoin
 int32
 slots
 )
