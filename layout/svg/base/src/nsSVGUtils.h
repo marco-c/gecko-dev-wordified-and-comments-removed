@@ -92,7 +92,7 @@ class
 nsIPresShell
 ;
 class
-nsIDOMSVGAnimatedPreserveAspectRatio
+nsSVGPreserveAspectRatio
 ;
 class
 nsIAtom
@@ -761,8 +761,9 @@ float
 aViewboxWidth
 float
 aViewboxHeight
-nsIDOMSVGAnimatedPreserveAspectRatio
-*
+const
+nsSVGPreserveAspectRatio
+&
 aPreserveAspectRatio
 PRBool
 aIgnoreAlign

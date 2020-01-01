@@ -503,10 +503,6 @@ nsSVGAnimatedRect
 .
 cpp
 \
-nsSVGAnimatedPreserveAspectRatio
-.
-cpp
-\
 nsSVGAnimatedTransformList
 .
 cpp
