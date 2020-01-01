@@ -48,6 +48,8 @@ typename
 Time
 typename
 T
+uint32_t
+ReservedChanges
 >
 class
 TimeVarying
@@ -963,9 +965,10 @@ mValue
 ;
 }
 ;
-nsTArray
+nsAutoTArray
 <
 Entry
+ReservedChanges
 >
 mChanges
 ;

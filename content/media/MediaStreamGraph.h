@@ -1004,6 +1004,7 @@ TimeVarying
 <
 GraphTime
 uint32_t
+0
 >
 mExplicitBlockerCount
 ;
@@ -1027,6 +1028,7 @@ TimeVarying
 <
 GraphTime
 bool
+5
 >
 mBlocked
 ;
@@ -1034,6 +1036,7 @@ TimeVarying
 <
 GraphTime
 int64_t
+0
 >
 mGraphUpdateIndices
 ;
