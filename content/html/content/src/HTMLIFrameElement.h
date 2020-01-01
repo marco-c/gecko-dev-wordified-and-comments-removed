@@ -27,13 +27,6 @@ nsIDOMHTMLIFrameElement
 .
 h
 "
-#
-include
-"
-nsIDOMGetSVGDocument
-.
-h
-"
 namespace
 mozilla
 {
@@ -48,8 +41,6 @@ public
 nsGenericHTMLFrameElement
 public
 nsIDOMHTMLIFrameElement
-public
-nsIDOMGetSVGDocument
 {
 public
 :
@@ -82,7 +73,6 @@ NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
 NS_DECL_NSIDOMHTMLIFRAMEELEMENT
-NS_DECL_NSIDOMGETSVGDOCUMENT
 virtual
 bool
 ParseAttribute
