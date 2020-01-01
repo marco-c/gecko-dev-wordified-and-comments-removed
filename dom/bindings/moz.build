@@ -119,6 +119,11 @@ dom
 =
 [
 '
+AtomList
+.
+h
+'
+'
 BindingDeclarations
 .
 h
@@ -162,6 +167,11 @@ h
 Errors
 .
 msg
+'
+'
+GeneratedAtomList
+.
+h
 '
 '
 NonRefcountedDOMObject

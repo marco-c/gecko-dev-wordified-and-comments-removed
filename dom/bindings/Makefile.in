@@ -331,6 +331,10 @@ globalgen_targets
 :
 =
 \
+GeneratedAtomList
+.
+h
+\
 PrototypeList
 .
 h

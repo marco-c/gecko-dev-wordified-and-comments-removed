@@ -267,7 +267,7 @@ GlobalObject
 &
 aGlobal
 const
-MozXMLHttpRequestParametersWorkers
+MozXMLHttpRequestParameters
 &
 aParams
 ErrorResult
@@ -293,7 +293,7 @@ ErrorResult
 aRv
 )
 {
-MozXMLHttpRequestParametersWorkers
+MozXMLHttpRequestParameters
 params
 ;
 if

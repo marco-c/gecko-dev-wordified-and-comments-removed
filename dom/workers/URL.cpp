@@ -405,7 +405,7 @@ mozilla
 dom
 :
 :
-objectURLOptionsWorkers
+objectURLOptions
 &
 aOptions
 nsString
@@ -854,7 +854,7 @@ mozilla
 dom
 :
 :
-objectURLOptionsWorkers
+objectURLOptions
 &
 aOptions
 nsString
@@ -1001,7 +1001,7 @@ mozilla
 dom
 :
 :
-objectURLOptionsWorkers
+objectURLOptions
 &
 aOptions
 nsString

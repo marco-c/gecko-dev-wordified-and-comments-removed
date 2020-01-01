@@ -43,7 +43,7 @@ JSObject
 *
 aArg
 const
-objectURLOptionsWorkers
+objectURLOptions
 &
 aOptions
 nsString
@@ -66,7 +66,7 @@ JSObject
 &
 aArg
 const
-objectURLOptionsWorkers
+objectURLOptions
 &
 aOptions
 nsString

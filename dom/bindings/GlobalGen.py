@@ -402,6 +402,17 @@ generate_file
 (
 config
 '
+GeneratedAtomList
+'
+'
+declare
+'
+)
+    
+generate_file
+(
+config
+'
 PrototypeList
 '
 '
