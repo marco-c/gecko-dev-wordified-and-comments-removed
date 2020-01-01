@@ -7947,7 +7947,6 @@ if
 js_ComputeThis
 (
 cx
-JS_FALSE
 vp
 +
 2
@@ -19767,7 +19766,6 @@ if
 js_ComputeThis
 (
 cx
-JS_FALSE
 vp
 +
 2
@@ -19984,7 +19982,6 @@ if
 js_ComputeThis
 (
 cx
-JS_TRUE
 argv
 )
 )

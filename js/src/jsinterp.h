@@ -680,8 +680,6 @@ js_ComputeThis
 JSContext
 *
 cx
-JSBool
-lazy
 jsval
 *
 argv
@@ -777,7 +775,6 @@ obj
 js_ComputeThis
 (
 cx
-JS_TRUE
 fp
 -
 >
@@ -1169,8 +1166,6 @@ js_ComputeGlobalThis
 JSContext
 *
 cx
-JSBool
-lazy
 jsval
 *
 argv
