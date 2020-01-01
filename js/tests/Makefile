@@ -229,6 +229,8 @@ txt
 universe
 .
 data
+.
+/
 pattern
 -
 expander
@@ -263,6 +265,8 @@ txt
 universe
 .
 data
+.
+/
 pattern
 -
 expander
