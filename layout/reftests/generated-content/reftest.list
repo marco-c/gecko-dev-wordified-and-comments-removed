@@ -116,7 +116,6 @@ whitespace
 ref
 .
 html
-fails
 =
 =
 table
@@ -135,7 +134,3 @@ parts
 ref
 .
 html
-#
-commented
-out
-temporarily
