@@ -159,9 +159,6 @@ equalpower
 "
 HRTF
 "
-"
-soundfield
-"
 }
 ;
 enum
