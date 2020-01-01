@@ -1238,6 +1238,12 @@ java
 \
 db
 /
+TabsProvider
+.
+java
+\
+db
+/
 GeckoProvider
 .
 java
