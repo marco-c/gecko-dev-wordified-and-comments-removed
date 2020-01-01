@@ -7541,6 +7541,7 @@ docURI
 baseURI
 mPrincipal
 global
+false
 getter_AddRefs
 (
 mResponseXML
