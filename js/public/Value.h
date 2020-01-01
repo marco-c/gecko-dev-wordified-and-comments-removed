@@ -1,9 +1,9 @@
 #
 ifndef
-jsvalimpl_h__
+js_Value_h___
 #
 define
-jsvalimpl_h__
+js_Value_h___
 #
 include
 "
