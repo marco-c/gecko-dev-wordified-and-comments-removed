@@ -893,6 +893,7 @@ ic
 )
 ;
 void
+*
 JS_FASTCALL
 NativeNew
 (
@@ -908,6 +909,7 @@ ic
 )
 ;
 void
+*
 JS_FASTCALL
 NativeCall
 (
