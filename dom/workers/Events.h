@@ -128,8 +128,14 @@ CreateProgressEvent
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSString
 *
+>
 aType
 bool
 aLengthComputable
