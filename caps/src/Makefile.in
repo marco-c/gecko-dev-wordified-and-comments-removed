@@ -457,14 +457,6 @@ cpp
 (
 NULL
 )
-ifdef
-XPC_IDISPATCH_SUPPORT
-DEFINES
-+
-=
--
-DXPC_IDISPATCH_SUPPORT
-endif
 include
 (
 topsrcdir
