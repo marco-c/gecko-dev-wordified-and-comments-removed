@@ -690,10 +690,6 @@ browser_keywordSearch
 .
 js
 \
-browser_NetworkPrioritizer
-.
-js
-\
 browser_allTabsPanel
 .
 js
