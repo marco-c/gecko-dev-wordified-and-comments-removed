@@ -44,13 +44,6 @@ h
 #
 include
 "
-prlong
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

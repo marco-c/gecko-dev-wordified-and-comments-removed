@@ -85,13 +85,6 @@ h
 #
 include
 "
-prlong
-.
-h
-"
-#
-include
-"
 nsCharSeparatedTokenizer
 .
 h

@@ -36,13 +36,6 @@ h
 #
 include
 "
-prlong
-.
-h
-"
-#
-include
-"
 prlog
 .
 h

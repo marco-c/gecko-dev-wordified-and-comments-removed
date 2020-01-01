@@ -92,13 +92,6 @@ nsQuickSort
 h
 "
 #
-include
-"
-prlong
-.
-h
-"
-#
 if
 defined
 (
