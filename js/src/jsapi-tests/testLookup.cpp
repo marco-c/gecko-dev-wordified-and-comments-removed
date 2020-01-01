@@ -165,10 +165,11 @@ funobj
 ;
 CHECK
 (
-GET_FUNCTION_PRIVATE
-(
-cx
 funobj
+-
+>
+getFunctionPrivate
+(
 )
 !
 =

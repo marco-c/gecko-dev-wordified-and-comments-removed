@@ -1329,10 +1329,11 @@ funobj
 ;
 JS_ASSERT
 (
-GET_FUNCTION_PRIVATE
-(
-cx
 funobj
+-
+>
+getFunctionPrivate
+(
 )
 =
 =

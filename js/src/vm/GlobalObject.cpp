@@ -814,12 +814,13 @@ fun
 return
 NULL
 ;
-FUN_CLASP
-(
 fun
-)
-=
+-
+>
+setConstructorClass
+(
 clasp
+)
 ;
 return
 fun
