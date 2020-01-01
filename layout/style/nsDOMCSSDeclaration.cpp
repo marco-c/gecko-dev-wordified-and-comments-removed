@@ -22,7 +22,11 @@ h
 #
 include
 "
-nsCSSLoader
+mozilla
+/
+css
+/
+Loader
 .
 h
 "
@@ -36,7 +40,11 @@ h
 #
 include
 "
-nsCSSDeclaration
+mozilla
+/
+css
+/
+Declaration
 .
 h
 "
