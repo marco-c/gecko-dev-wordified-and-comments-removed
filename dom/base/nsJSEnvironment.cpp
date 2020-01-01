@@ -5849,11 +5849,11 @@ NS_ENSURE_ARG_POINTER
 aPrincipal
 )
 ;
-JSContext
-*
+AutoPushJSContext
 cx
-=
+(
 mContext
+)
 ;
 JSAutoRequest
 ar
