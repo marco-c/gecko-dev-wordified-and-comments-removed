@@ -13319,10 +13319,6 @@ end
 identity
 -
 popup
-#
-notification
--
-popup
 {
 -
 moz
@@ -13386,12 +13382,6 @@ popup
 padding
 :
 10px
-;
-margin
--
-top
-:
-3px
 ;
 }
 .

@@ -3252,6 +3252,11 @@ notification
 -
 popup
 "
+type
+=
+"
+arrow
+"
 position
 =
 "
