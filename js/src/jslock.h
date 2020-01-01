@@ -1158,6 +1158,12 @@ defined
 (
 AIX
 )
+|
+|
+defined
+(
+USE_ARM_KUSER
+)
 )
 #
 define
