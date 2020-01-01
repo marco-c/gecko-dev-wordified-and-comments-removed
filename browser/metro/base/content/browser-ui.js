@@ -3333,6 +3333,15 @@ selectedBrowser
 ;
 if
 (
+!
+browser
+)
+{
+return
+;
+}
+if
+(
 browser
 .
 canGoBack
