@@ -19873,13 +19873,10 @@ nsIFrame
 *
 blockFrame
 =
-NS_NewBlockFrame
+NS_NewBlockFormattingContext
 (
 mPresShell
 innerPseudoStyle
-NS_BLOCK_FLOAT_MGR
-|
-NS_BLOCK_MARGIN_ROOT
 )
 ;
 if
