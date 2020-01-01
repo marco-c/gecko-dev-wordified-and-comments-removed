@@ -10,7 +10,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -968,7 +972,7 @@ NODE_IS_EDITABLE
 ;
 }
 void
-nsGenericElement
+Element
 :
 :
 UpdateEditableState
@@ -1582,7 +1586,7 @@ true
 }
 JSObject
 *
-nsGenericElement
+Element
 :
 :
 WrapObject
@@ -1868,9 +1872,9 @@ return
 obj
 ;
 }
-nsGenericElement
+Element
 *
-nsGenericElement
+Element
 :
 :
 GetFirstElementChild
@@ -1925,13 +1929,11 @@ IsElement
 )
 {
 return
-static_cast
-<
-nsGenericElement
-*
->
-(
 child
+-
+>
+AsElement
+(
 )
 ;
 }
@@ -1940,9 +1942,9 @@ return
 nullptr
 ;
 }
-nsGenericElement
+Element
 *
-nsGenericElement
+Element
 :
 :
 GetLastElementChild
@@ -1990,13 +1992,11 @@ IsElement
 )
 {
 return
-static_cast
-<
-nsGenericElement
-*
->
-(
 child
+-
+>
+AsElement
+(
 )
 ;
 }
@@ -2007,14 +2007,14 @@ nullptr
 }
 nsDOMTokenList
 *
-nsGenericElement
+Element
 :
 :
 ClassList
 (
 )
 {
-nsGenericElement
+Element
 :
 :
 nsDOMSlots
@@ -2071,7 +2071,7 @@ mClassList
 ;
 }
 void
-nsGenericElement
+Element
 :
 :
 GetClassList
@@ -2097,7 +2097,7 @@ already_AddRefed
 <
 nsIHTMLCollection
 >
-nsGenericElement
+Element
 :
 :
 GetElementsByTagName
@@ -2118,7 +2118,7 @@ aLocalName
 ;
 }
 void
-nsGenericElement
+Element
 :
 :
 GetElementsByTagName
@@ -2148,7 +2148,7 @@ get
 }
 nsIFrame
 *
-nsGenericElement
+Element
 :
 :
 GetStyledFrame
@@ -2178,9 +2178,9 @@ frame
 nullptr
 ;
 }
-nsGenericElement
+Element
 *
-nsGenericElement
+Element
 :
 :
 GetOffsetRect
@@ -2317,7 +2317,7 @@ nullptr
 ;
 }
 nsIntSize
-nsGenericElement
+Element
 :
 :
 GetPaddingRectSize
@@ -2406,7 +2406,7 @@ height
 }
 nsIScrollableFrame
 *
-nsGenericElement
+Element
 :
 :
 GetScrollFrame
@@ -2590,7 +2590,7 @@ nullptr
 ;
 }
 void
-nsGenericElement
+Element
 :
 :
 ScrollIntoView
@@ -2684,7 +2684,7 @@ SCROLL_OVERFLOW_HIDDEN
 ;
 }
 int32_t
-nsGenericElement
+Element
 :
 :
 ScrollHeight
@@ -2754,7 +2754,7 @@ height
 ;
 }
 int32_t
-nsGenericElement
+Element
 :
 :
 ScrollWidth
@@ -2824,7 +2824,7 @@ width
 ;
 }
 nsRect
-nsGenericElement
+Element
 :
 :
 GetClientAreaRect
@@ -2922,7 +2922,7 @@ already_AddRefed
 <
 nsClientRect
 >
-nsGenericElement
+Element
 :
 :
 GetBoundingClientRect
@@ -3005,7 +3005,7 @@ already_AddRefed
 <
 nsClientRectList
 >
-nsGenericElement
+Element
 :
 :
 GetClientRects
@@ -3112,7 +3112,7 @@ forget
 ;
 }
 void
-nsGenericElement
+Element
 :
 :
 GetAttribute
@@ -3191,7 +3191,7 @@ aReturn
 }
 }
 void
-nsGenericElement
+Element
 :
 :
 SetAttribute
@@ -3367,7 +3367,7 @@ return
 ;
 }
 void
-nsGenericElement
+Element
 :
 :
 RemoveAttribute
@@ -3429,7 +3429,7 @@ true
 }
 nsIDOMAttr
 *
-nsGenericElement
+Element
 :
 :
 GetAttributeNode
@@ -3485,7 +3485,7 @@ already_AddRefed
 <
 nsIDOMAttr
 >
-nsGenericElement
+Element
 :
 :
 SetAttributeNode
@@ -3585,7 +3585,7 @@ already_AddRefed
 <
 nsIDOMAttr
 >
-nsGenericElement
+Element
 :
 :
 RemoveAttributeNode
@@ -3708,7 +3708,7 @@ get
 ;
 }
 void
-nsGenericElement
+Element
 :
 :
 GetAttributeNS
@@ -3793,7 +3793,7 @@ aReturn
 }
 }
 void
-nsGenericElement
+Element
 :
 :
 SetAttributeNS
@@ -3886,7 +3886,7 @@ true
 ;
 }
 void
-nsGenericElement
+Element
 :
 :
 RemoveAttributeNS
@@ -3954,7 +3954,7 @@ true
 }
 nsIDOMAttr
 *
-nsGenericElement
+Element
 :
 :
 GetAttributeNodeNS
@@ -3996,7 +3996,7 @@ aError
 }
 nsIDOMAttr
 *
-nsGenericElement
+Element
 :
 :
 GetAttributeNodeNSInternal
@@ -4048,7 +4048,7 @@ already_AddRefed
 <
 nsIDOMAttr
 >
-nsGenericElement
+Element
 :
 :
 SetAttributeNodeNS
@@ -4107,7 +4107,7 @@ already_AddRefed
 <
 nsIHTMLCollection
 >
-nsGenericElement
+Element
 :
 :
 GetElementsByTagNameNS
@@ -4197,7 +4197,7 @@ aLocalName
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 GetElementsByTagNameNS
@@ -4264,7 +4264,7 @@ NS_OK
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 HasAttributeNS
@@ -4587,7 +4587,7 @@ already_AddRefed
 <
 nsIHTMLCollection
 >
-nsGenericElement
+Element
 :
 :
 GetElementsByClassName
@@ -4610,7 +4610,7 @@ aClassNames
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 GetElementsByClassName
@@ -4646,7 +4646,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 BindToTree
@@ -5632,7 +5632,7 @@ mBindingParent
 }
 ;
 void
-nsGenericElement
+Element
 :
 :
 UnbindFromTree
@@ -6037,14 +6037,14 @@ this
 }
 nsICSSDeclaration
 *
-nsGenericElement
+Element
 :
 :
 GetSMILOverrideStyle
 (
 )
 {
-nsGenericElement
+Element
 :
 :
 nsDOMSlots
@@ -6089,14 +6089,14 @@ css
 :
 StyleRule
 *
-nsGenericElement
+Element
 :
 :
 GetSMILOverrideStyleRule
 (
 )
 {
-nsGenericElement
+Element
 :
 :
 nsDOMSlots
@@ -6123,7 +6123,7 @@ nullptr
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 SetSMILOverrideStyleRule
@@ -6138,7 +6138,7 @@ bool
 aNotify
 )
 {
-nsGenericElement
+Element
 :
 :
 nsDOMSlots
@@ -6209,7 +6209,7 @@ NS_OK
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 IsLabelable
@@ -6226,7 +6226,7 @@ css
 :
 StyleRule
 *
-nsGenericElement
+Element
 :
 :
 GetInlineStyleRule
@@ -6238,7 +6238,7 @@ nullptr
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 SetInlineStyleRule
@@ -6260,7 +6260,7 @@ aNotify
 NS_NOTYETIMPLEMENTED
 (
 "
-nsGenericElement
+Element
 :
 :
 SetInlineStyleRule
@@ -6275,7 +6275,7 @@ NS_IMETHODIMP_
 (
 bool
 )
-nsGenericElement
+Element
 :
 :
 IsAttributeMapped
@@ -6292,7 +6292,7 @@ false
 ;
 }
 nsChangeHint
-nsGenericElement
+Element
 :
 :
 GetAttributeChangeHint
@@ -6315,7 +6315,7 @@ nsChangeHint
 }
 nsIAtom
 *
-nsGenericElement
+Element
 :
 :
 GetClassAttributeName
@@ -6328,7 +6328,7 @@ nullptr
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 FindAttributeDependence
@@ -6412,7 +6412,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
-nsGenericElement
+Element
 :
 :
 GetExistingAttrNameFromQName
@@ -6509,7 +6509,7 @@ nodeInfo
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+Element
 :
 :
 GetAttributes
@@ -6565,7 +6565,7 @@ NS_OK
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 ShouldBlur
@@ -6670,7 +6670,7 @@ contentToBlur
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 IsNodeOfType
@@ -6691,7 +6691,7 @@ eCONTENT
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 DispatchEvent
@@ -6808,7 +6808,7 @@ aStatus
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 DispatchClickEvent
@@ -7027,7 +7027,7 @@ aStatus
 }
 nsIFrame
 *
-nsGenericElement
+Element
 :
 :
 GetPrimaryFrame
@@ -7069,7 +7069,7 @@ GetPrimaryFrame
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 LeaveLink
@@ -7110,7 +7110,7 @@ OnLeaveLink
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 SetEventHandler
@@ -7222,7 +7222,7 @@ NS_OK
 const
 nsAttrName
 *
-nsGenericElement
+Element
 :
 :
 InternalGetExistingAttrNameFromQName
@@ -7244,7 +7244,7 @@ aStr
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 MaybeCheckSameAttrVal
@@ -7411,7 +7411,7 @@ false
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 SetAttr
@@ -7582,7 +7582,7 @@ kCallAfterSetAttr
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 SetParsedAttr
@@ -7726,7 +7726,7 @@ kCallAfterSetAttr
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 SetAttrAndNotify
@@ -8168,7 +8168,7 @@ NS_OK
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 ParseAttribute
@@ -8192,7 +8192,7 @@ false
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 SetMappedAttribute
@@ -8222,7 +8222,7 @@ false
 }
 nsEventListenerManager
 *
-nsGenericElement
+Element
 :
 :
 GetEventListenerManagerForAttr
@@ -8247,11 +8247,11 @@ true
 )
 ;
 }
-nsGenericElement
+Element
 :
 :
 nsAttrInfo
-nsGenericElement
+Element
 :
 :
 GetAttrInfo
@@ -8341,7 +8341,7 @@ nullptr
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 GetAttr
@@ -8430,7 +8430,7 @@ true
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 HasAttr
@@ -8488,7 +8488,7 @@ aNameSpaceID
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 AttrValueIs
@@ -8559,7 +8559,7 @@ aCaseSensitive
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 AttrValueIs
@@ -8639,7 +8639,7 @@ aCaseSensitive
 ;
 }
 int32_t
-nsGenericElement
+Element
 :
 :
 FindAttrValueIn
@@ -8756,7 +8756,7 @@ ATTR_MISSING
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 UnsetAttr
@@ -9171,7 +9171,7 @@ NS_OK
 const
 nsAttrName
 *
-nsGenericElement
+Element
 :
 :
 GetAttrNameAt
@@ -9191,7 +9191,7 @@ aIndex
 ;
 }
 uint32_t
-nsGenericElement
+Element
 :
 :
 GetAttrCount
@@ -9211,7 +9211,7 @@ AttrCount
 ifdef
 DEBUG
 void
-nsGenericElement
+Element
 :
 :
 ListAttributes
@@ -9384,7 +9384,7 @@ out
 }
 }
 void
-nsGenericElement
+Element
 :
 :
 List
@@ -9688,13 +9688,13 @@ n
 out
 )
 ;
-nsGenericElement
+Element
 *
 nonConstThis
 =
 const_cast
 <
-nsGenericElement
+Element
 *
 >
 (
@@ -10074,7 +10074,7 @@ out
 }
 }
 void
-nsGenericElement
+Element
 :
 :
 DumpContent
@@ -10288,7 +10288,7 @@ out
 #
 endif
 bool
-nsGenericElement
+Element
 :
 :
 CheckHandleEventForLinksPrecondition
@@ -10393,7 +10393,7 @@ aURI
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 PreHandleEventForLinks
@@ -10613,7 +10613,7 @@ rv
 ;
 }
 nsresult
-nsGenericElement
+Element
 :
 :
 PostHandleEventForLinks
@@ -11131,7 +11131,7 @@ rv
 ;
 }
 void
-nsGenericElement
+Element
 :
 :
 GetLinkTarget
@@ -11298,7 +11298,7 @@ NS_OK
 ;
 }
 bool
-nsGenericElement
+Element
 :
 :
 MozMatchesSelector
@@ -11412,7 +11412,7 @@ CORS_USE_CREDENTIALS
 }
 ;
 void
-nsGenericElement
+Element
 :
 :
 ParseCORSValue
@@ -11453,7 +11453,7 @@ success
 ;
 }
 CORSMode
-nsGenericElement
+Element
 :
 :
 StringToCORSMode
@@ -11480,7 +11480,7 @@ CORS_NONE
 nsAttrValue
 val
 ;
-nsGenericElement
+Element
 :
 :
 ParseCORSValue
@@ -11501,7 +11501,7 @@ GetEnumValue
 ;
 }
 CORSMode
-nsGenericElement
+Element
 :
 :
 AttrValueToCORSMode
@@ -11630,7 +11630,7 @@ nullptr
 ;
 }
 void
-nsGenericElement
+Element
 :
 :
 MozRequestFullScreen
